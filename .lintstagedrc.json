@@ -1,0 +1,8 @@
+{
+  "src/content/**/*.{md,mdx}": [
+    "markdownlint-cli2 --fix"
+  ],
+  "src/content/**/*.{yaml,yml}": [
+    "yamllint"
+  ]
+}
