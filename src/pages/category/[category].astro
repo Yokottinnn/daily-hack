@@ -1,0 +1,124 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumb from '../../components/Breadcrumb.astro';
+import PostCard from '../../components/PostCard.astro';
+import AboutCard from '../../components/AboutCard.astro';
+
+export async function getStaticPaths() {
+  const cats = ['campaigns', 'services', 'comparisons', 'roundups', 'howto'];
+  return cats.map((category) => ({
+    params: { category },
+  }));
+}
+
+const { category } = Astro.params;
+
+const meta: Record<string, { label: string; h1: string; lead: string; face: string }> = {
+  campaigns: {
+    label: 'キャンペーン速報',
+    h1: '締切前にチェック！速報キャンペーン',
+    lead: '期限が迫っている口座開設・カード発行・ポイント獲得のキャンペーンを毎日アップデート。逃すと損する案件だけを厳選してお届けします。',
+    face: '/images/expr-06-shock.png',
+  },
+  services: {
+    label: 'サービス紹介',
+    h1: '使うべき神アプリ・神サービス',
+    lead: '実際に使って「これは間違いなくお得」と判定したサービスだけを紹介。ポイ活・節約・キャッシュレス決済・タクシーアプリまで網羅。',
+    face: '/images/expr-04-cheer.png',
+  },
+  comparisons: {
+    label: '比較',
+    h1: 'お得を見抜く比較ガイド',
+    lead: 'クレジットカード、銀行、格安SIM…どれを選ぶかで年間数十万円の差が出る。Daily Hackが徹底比較して、あなたにとって本当にお得な選択肢を提示します。',
+    face: '/images/expr-09-arms-crossed.png',
+  },
+  roundups: {
+    label: 'まとめ',
+    h1: '月次・週次のお得情報まとめ',
+    lead: '今月・今週やるべきお得施策をまるっとまとめ。月初にこの記事を見れば、月間で見逃しがなくなります。',
+    face: '/images/expr-05-smug.png',
+  },
+  howto: {
+    label: 'ハウツー',
+    h1: '手順で迷わない、お得活用ガイド',
+    lead: '「やればお得」と分かっていても手順で詰まる人へ。スクショ付きで迷わないよう徹底解説。最短でお得を回収する道筋を示します。',
+    face: '/images/expr-02-pout.png',
+  },
+};
+
+const m = meta[category!];
+if (!m) {
+  throw new Error(`Unknown category: ${category}`);
+}
+
+const all = await getCollection('posts', ({ data }) => !data.draft && data.category === category);
+const sorted = all.sort((a, b) => b.data.publishDate.getTime() - a.data.publishDate.getTime());
+const featured = sorted.filter((p) => p.data.featured).slice(0, 3);
+const rest = sorted.filter((p) => !featured.includes(p));
+
+const pillarPosts = sorted.filter((p) => !p.data.parentPillar);
+const clusterByPillar = new Map<string, typeof sorted>();
+for (const p of sorted) {
+  if (p.data.parentPillar) {
+    const arr = clusterByPillar.get(p.data.parentPillar) ?? [];
+    arr.push(p);
+    clusterByPillar.set(p.data.parentPillar, arr);
+  }
+}
+---
+
+<BaseLayout
+  title={`${m.label} | お得記事一覧`}
+  description={m.lead}
+>
+  <section class="cat-hero">
+    <div class="wrap">
+      <Breadcrumb items={[
+        { label: 'ホーム', href: '/' },
+        { label: m.label },
+      ]} />
+      <div style="display: grid; grid-template-columns: 96px 1fr; gap: 20px; align-items: center;">
+        <div style="width: 96px; height: 96px; border-radius: 50%; overflow: hidden; background: var(--pink-100); border: 4px solid #fff; box-shadow: 0 0 0 1px var(--pink-200);">
+          <img src={m.face} alt="" style="width: 100%; height: 100%; object-fit: cover; object-position: center 18%;" />
+        </div>
+        <div>
+          <span class="kicker">{m.label.toUpperCase()}</span>
+          <h1>{m.h1}</h1>
+          <p class="lead">{m.lead}</p>
+          <p style="color: var(--ink-3); font-size: 13px; margin-top: 12px;">現在 {sorted.length}記事掲載中</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  {featured.length > 0 && (
+    <section>
+      <div class="wrap">
+        <div class="sec-head">
+          <h2><span class="chibi"><img src="/images/expr-05-smug.png" alt="" /></span>編集部おすすめ</h2>
+        </div>
+        <div class="articles">
+          {featured.map((p) => <PostCard post={p} />)}
+        </div>
+      </div>
+    </section>
+  )}
+
+  <section>
+    <div class="wrap">
+      <div class="sec-head">
+        <h2><span class="chibi"><img src="/images/expr-04-cheer.png" alt="" /></span>すべての{m.label}記事</h2>
+      </div>
+      {rest.length > 0 ? (
+        <div class="articles">
+          {rest.map((p) => <PostCard post={p} />)}
+        </div>
+      ) : (
+        <p style="color: var(--ink-3);">準備中です。近日公開予定の記事をお楽しみに。</p>
+      )}
+    </div>
+  </section>
+
+  <AboutCard />
+</BaseLayout>

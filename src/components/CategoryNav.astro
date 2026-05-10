@@ -1,0 +1,26 @@
+---
+const cats = [
+  { slug: 'campaigns', label: '速報', sub: '締切が近いやつ', face: '/images/expr-06-shock.png' },
+  { slug: 'services', label: 'サービス', sub: '使うべき神アプリ', face: '/images/expr-04-cheer.png' },
+  { slug: 'comparisons', label: '比較', sub: 'どっちが得？', face: '/images/expr-09-arms-crossed.png' },
+  { slug: 'roundups', label: 'まとめ', sub: '月イチで総ざらい', face: '/images/expr-05-smug.png' },
+  { slug: 'howto', label: 'ハウツー', sub: '手順で迷わない', face: '/images/expr-02-pout.png' },
+];
+---
+
+<section>
+  <div class="wrap">
+    <div class="sec-head">
+      <h2><span class="chibi"><img src="/images/expr-01-wave.png" alt="" /></span>カテゴリーから探す</h2>
+    </div>
+    <div class="cats">
+      {cats.map((c) => (
+        <a href={`/category/${c.slug}/`} class="cat-card">
+          <div class="face"><img src={c.face} alt="" /></div>
+          <div class="label">{c.label}</div>
+          <div class="sub">{c.sub}</div>
+        </a>
+      ))}
+    </div>
+  </div>
+</section>

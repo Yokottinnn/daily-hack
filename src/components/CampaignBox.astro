@@ -1,0 +1,32 @@
+---
+import PRBadge from './PRBadge.astro';
+
+export interface Props {
+  title: string;
+  deadline?: string;
+  conditions?: string;
+  ctaUrl: string;
+  ctaText?: string;
+  isPR?: boolean;
+}
+
+const {
+  title,
+  deadline,
+  conditions,
+  ctaUrl,
+  ctaText = 'キャンペーンに申し込む',
+  isPR = false,
+} = Astro.props;
+---
+
+<div class="cp-box">
+  <div class="head">🔥 期間限定キャンペーン</div>
+  <h4 style="margin: 0 0 8px; font-size: 17px; font-weight: 800;">{title}</h4>
+  {deadline && <div class="deadline">⏰ {deadline}まで</div>}
+  {conditions && <p class="conds">適用条件: {conditions}</p>}
+  <a class="cta" href={ctaUrl} target="_blank" rel={isPR ? 'sponsored noopener nofollow' : 'noopener'}>
+    {ctaText} →
+    {isPR && <>{' '}<PRBadge /></>}
+  </a>
+</div>

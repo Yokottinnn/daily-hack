@@ -1,0 +1,8 @@
+---
+export interface Props {
+  label?: string;
+}
+const { label = 'PR' } = Astro.props;
+---
+
+<span class="pr-badge" aria-label="広告（PR）">{label}</span>

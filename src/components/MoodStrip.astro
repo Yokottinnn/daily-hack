@@ -1,0 +1,22 @@
+---
+const moods = [
+  { face: '/images/expr-04-cheer.png', title: 'やる気MAX' },
+  { face: '/images/expr-05-smug.png', title: 'ドヤァ' },
+  { face: '/images/expr-06-shock.png', title: 'えっ！？' },
+  { face: '/images/expr-07-gasp.png', title: 'ガーン' },
+  { face: '/images/expr-08-cry.png', title: '泣ける' },
+  { face: '/images/expr-09-arms-crossed.png', title: '腕組み' },
+  { face: '/images/expr-02-pout.png', title: 'むぅ' },
+  { face: '/images/expr-03-bashful.png', title: 'てれ' },
+  { face: '/images/expr-01-wave.png', title: 'やっほー' },
+];
+---
+
+<div class="mood-strip" aria-label="今日の気分">
+  <div class="wrap row">
+    <span class="label">今日の私 ▶</span>
+    {moods.map((m) => (
+      <a class="mood-chip" href="#" title={m.title}><img src={m.face} alt="" /></a>
+    ))}
+  </div>
+</div>

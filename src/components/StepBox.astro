@@ -1,0 +1,24 @@
+---
+export interface Step {
+  title: string;
+  description: string;
+}
+
+export interface Props {
+  steps: Step[];
+}
+
+const { steps } = Astro.props;
+---
+
+<div class="steps">
+  {steps.map((s) => (
+    <div class="step">
+      <div></div>
+      <div>
+        <h4>{s.title}</h4>
+        <p>{s.description}</p>
+      </div>
+    </div>
+  ))}
+</div>

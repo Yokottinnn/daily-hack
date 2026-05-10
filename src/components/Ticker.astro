@@ -1,0 +1,18 @@
+---
+const items = [
+  '三井住友 Olive 30,000円還元',
+  '楽天モバイル 13,000pt',
+  'JRE BANK 5,000円CB',
+  'PayPay 2%還元',
+  'ふるさと納税 5月特集',
+];
+const doubled = [...items, ...items];
+---
+
+<div class="ticker" aria-hidden="true">
+  <div class="track">
+    {doubled.map((it) => (
+      <span><span class="dot"></span>{it}</span>
+    ))}
+  </div>
+</div>

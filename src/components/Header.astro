@@ -1,0 +1,22 @@
+---
+const nav = [
+  { href: '/category/campaigns', label: 'キャンペーン速報' },
+  { href: '/category/services', label: 'サービス紹介' },
+  { href: '/category/comparisons', label: '比較' },
+  { href: '/category/howto', label: 'ハウツー' },
+];
+---
+
+<header class="site-header">
+  <div class="wrap row">
+    <a href="/" class="brand" aria-label="Daily Hack ホーム">
+      <span class="mark"><img src="/images/expr-05-smug.png" alt="" /></span>
+      <span class="name">Daily Hack</span>
+      <span class="tag">お得を毎日、ハック。</span>
+    </a>
+    <nav class="nav" aria-label="メインナビ">
+      {nav.map((n) => <a href={n.href} class="item">{n.label}</a>)}
+      <a href="/category/campaigns" class="cta-mini">本日のお得</a>
+    </nav>
+  </div>
+</header>

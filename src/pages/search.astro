@@ -1,0 +1,46 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumb from '../components/Breadcrumb.astro';
+---
+
+<BaseLayout title="記事を検索" description="Daily Hackの記事をキーワードで検索。ポイ活・節約・固定費削減のお得情報を素早く探せます。">
+  <link slot="head" rel="stylesheet" href="/pagefind/pagefind-ui.css" />
+
+  <main class="wrap static-page">
+    <Breadcrumb items={[
+      { label: 'ホーム', href: '/' },
+      { label: '記事を検索' },
+    ]} />
+    <h1>記事を検索</h1>
+    <p style="color: var(--ink-2);">気になるキーワードを入れて、Daily Hackの記事を検索してください。</p>
+
+    <div id="search" style="margin-top: 24px;"></div>
+  </main>
+
+  <script type="module" slot="head" is:inline>
+    // Pagefind UIは検索ページでのみ初期化
+  </script>
+
+  <script type="module">
+    import('/pagefind/pagefind-ui.js').then(() => {
+      // @ts-expect-error - PagefindUI is global after script load
+      new PagefindUI({
+        element: '#search',
+        showSubResults: true,
+        translations: {
+          placeholder: 'キーワードで検索（例: ポイ活, 楽天, Olive）',
+          clear_search: 'クリア',
+          load_more: 'もっと見る',
+          search_label: '記事を検索',
+          filters_label: 'フィルタ',
+          zero_results: '"[SEARCH_TERM]" に一致する記事はありません',
+          many_results: '[COUNT] 件の結果: "[SEARCH_TERM]"',
+          one_result: '[COUNT] 件の結果: "[SEARCH_TERM]"',
+          alt_search: '"[SEARCH_TERM]" の代わりに "[DIFFERENT_TERM]" で検索',
+          search_suggestion: '"[SEARCH_TERM]" の検索結果が見つかりません。代わりに "[DIFFERENT_TERM]" を試してみてください',
+          searching: '"[SEARCH_TERM]" を検索中…',
+        },
+      });
+    });
+  </script>
+</BaseLayout>

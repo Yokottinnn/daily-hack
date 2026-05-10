@@ -1,0 +1,23 @@
+---
+export type CalloutType = 'info' | 'tip' | 'warn' | 'danger';
+
+export interface Props {
+  type?: CalloutType;
+  title?: string;
+}
+
+const { type = 'info', title } = Astro.props;
+
+const labelMap: Record<CalloutType, string> = {
+  info: '💡 補足',
+  tip: '✨ お得Tip',
+  warn: '⚠️ 注意',
+  danger: '🚨 警告',
+};
+const label = title ?? labelMap[type];
+---
+
+<aside class={`callout ${type}`}>
+  <div class="head">{label}</div>
+  <div><slot /></div>
+</aside>

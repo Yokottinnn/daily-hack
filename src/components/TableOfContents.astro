@@ -1,0 +1,25 @@
+---
+import type { MarkdownHeading } from 'astro';
+
+export interface Props {
+  headings: MarkdownHeading[];
+}
+
+const { headings } = Astro.props;
+const tocItems = headings.filter((h) => h.depth === 2 || h.depth === 3);
+---
+
+{tocItems.length > 0 && (
+  <nav class="toc" aria-label="目次">
+    <div class="head">📑 目次</div>
+    <ol>
+      {tocItems.map((h) => (
+        <li class={h.depth === 3 ? 'h3' : ''}>
+          <a href={`#${h.slug}`} style="color: inherit; border-bottom: 1px dotted var(--ink-3);">
+            {h.text}
+          </a>
+        </li>
+      ))}
+    </ol>
+  </nav>
+)}

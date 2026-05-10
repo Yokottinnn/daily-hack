@@ -1,0 +1,40 @@
+---
+export type Expression =
+  | 'wave'
+  | 'pout'
+  | 'bashful'
+  | 'cheer'
+  | 'smug'
+  | 'shock'
+  | 'gasp'
+  | 'cry'
+  | 'arms-crossed';
+
+export interface Props {
+  expression?: Expression;
+  alt?: string;
+}
+
+const { expression = 'smug', alt = 'ハッカー子' } = Astro.props;
+
+const exprMap: Record<Expression, string> = {
+  wave: '/images/expr-01-wave.png',
+  pout: '/images/expr-02-pout.png',
+  bashful: '/images/expr-03-bashful.png',
+  cheer: '/images/expr-04-cheer.png',
+  smug: '/images/expr-05-smug.png',
+  shock: '/images/expr-06-shock.png',
+  gasp: '/images/expr-07-gasp.png',
+  cry: '/images/expr-08-cry.png',
+  'arms-crossed': '/images/expr-09-arms-crossed.png',
+};
+
+const src = exprMap[expression];
+---
+
+<div class="bubble-row">
+  <div class="face"><img src={src} alt={alt} /></div>
+  <div class="bubble">
+    <slot />
+  </div>
+</div>

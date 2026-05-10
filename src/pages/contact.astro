@@ -1,0 +1,45 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumb from '../components/Breadcrumb.astro';
+---
+
+<BaseLayout title="お問い合わせ" description="Daily Hackへのお問い合わせ。記事内容に関する指摘、取材・寄稿のご依頼、広告掲載のご相談など。">
+  <main class="wrap static-page">
+    <Breadcrumb items={[
+      { label: 'ホーム', href: '/' },
+      { label: 'お問い合わせ' },
+    ]} />
+    <div style="display: flex; gap: 18px; align-items: center; margin-bottom: 24px;">
+      <div style="width: 86px; height: 86px; border-radius: 50%; overflow: hidden; background: var(--pink-100); border: 3px solid #fff; box-shadow: 0 0 0 1px var(--pink-200);">
+        <img src="/images/expr-01-wave.png" alt="" style="width: 100%; height: 100%; object-fit: cover; object-position: center 18%;" />
+      </div>
+      <div>
+        <h1 style="margin: 0;">お問い合わせ</h1>
+        <p style="color: var(--ink-2); margin: 6px 0 0;">お気軽にどうぞ。</p>
+      </div>
+    </div>
+
+    <h2>お問い合わせ内容の種類</h2>
+    <ul>
+      <li>記事内容に関する指摘・訂正依頼</li>
+      <li>取材・寄稿のご依頼</li>
+      <li>広告掲載・PR案件のご相談</li>
+      <li>その他（一般的なお問い合わせ）</li>
+    </ul>
+
+    <h2>連絡先</h2>
+    <p>下記メールアドレスへ直接ご連絡ください。原則として3営業日以内にご返信いたします。</p>
+    <p style="background: var(--pink-50); padding: 18px 22px; border-radius: 14px; font-size: 16px; font-weight: 800;">
+      📩 <a href="mailto:n-yokota@fieldbeside.com">n-yokota@fieldbeside.com</a>
+    </p>
+
+    <h2>X（旧Twitter）</h2>
+    <p>速報案件・キャンペーン情報のお知らせは X からのDMでもお受けします。</p>
+    <p><a class="chip x" href="https://x.com/heng_ji31590" target="_blank" rel="noopener">X @heng_ji31590</a></p>
+
+    <h2>運営会社</h2>
+    <p>合同会社FieldBeside<br />代表者: 横田直紀</p>
+
+    <p style="margin-top: 36px; color: var(--ink-3); font-size: 13px;">※専用フォームは現在準備中です。実装段階で順次切り替えます。</p>
+  </main>
+</BaseLayout>

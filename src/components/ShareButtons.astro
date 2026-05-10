@@ -1,0 +1,31 @@
+---
+export interface Props {
+  url: string;
+  title: string;
+}
+
+const { url, title } = Astro.props;
+const xUrl = `https://x.com/intent/tweet?text=${encodeURIComponent(title)}&url=${encodeURIComponent(url)}&via=heng_ji31590`;
+const lineUrl = `https://social-plugins.line.me/lineit/share?url=${encodeURIComponent(url)}`;
+---
+
+<div class="share">
+  <a href={xUrl} target="_blank" rel="noopener" aria-label="Xで共有">𝕏 でシェア</a>
+  <a href={lineUrl} target="_blank" rel="noopener" aria-label="LINEで共有">LINEで送る</a>
+  <button data-copy-url={url} type="button">URLをコピー</button>
+</div>
+
+<script>
+  document.addEventListener('click', (e) => {
+    const target = e.target as HTMLElement | null;
+    if (target?.dataset.copyUrl) {
+      navigator.clipboard?.writeText(target.dataset.copyUrl).then(() => {
+        const original = target.textContent;
+        target.textContent = 'コピーしました';
+        setTimeout(() => {
+          target.textContent = original;
+        }, 1500);
+      });
+    }
+  });
+</script>

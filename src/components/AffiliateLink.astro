@@ -1,0 +1,25 @@
+---
+import { getReferralById } from '../data/referrals';
+import PRBadge from './PRBadge.astro';
+
+export interface Props {
+  id: string;
+  text?: string;
+  showBadge?: boolean;
+}
+
+const { id, text, showBadge = true } = Astro.props;
+const referral = getReferralById(id);
+
+if (!referral) {
+  throw new Error(`AffiliateLink: referral id "${id}" not found in src/data/referrals.ts`);
+}
+
+const linkText = text ?? `${referral.serviceName}の公式サイト`;
+const href = referral.affiliateUrl ?? referral.url;
+---
+
+<a href={href} target="_blank" rel="sponsored noopener nofollow">
+  {linkText}
+  {showBadge && <>{' '}<PRBadge /></>}
+</a>

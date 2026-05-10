@@ -1,17 +1,46 @@
 ---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Hero from '../components/Hero.astro';
+import MoodStrip from '../components/MoodStrip.astro';
+import UrgentCampaigns from '../components/UrgentCampaigns.astro';
+import PostCard from '../components/PostCard.astro';
+import ComicBand from '../components/ComicBand.astro';
+import QABand from '../components/QABand.astro';
+import MoodGrid from '../components/MoodGrid.astro';
+import Ticker from '../components/Ticker.astro';
+import CategoryNav from '../components/CategoryNav.astro';
+import AboutCard from '../components/AboutCard.astro';
 
+const allPosts = await getCollection('posts', ({ data }) => !data.draft);
+const sorted = allPosts.sort(
+  (a, b) => b.data.publishDate.getTime() - a.data.publishDate.getTime(),
+);
+const latest = sorted.slice(0, 4);
+const campaigns = sorted.filter((p) => p.data.category === 'campaigns').slice(0, 3);
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="icon" href="/favicon.ico" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<BaseLayout title="Daily Hack" description="お得を毎日、ハック。ポイ活・節約・固定費削減のリアル最新情報を、毎日アップデート。">
+  <Hero />
+  <MoodStrip />
+  <UrgentCampaigns posts={campaigns} />
+
+  <section>
+    <div class="wrap">
+      <div class="sec-head">
+        <h2><span class="chibi"><img src="/images/expr-05-smug.png" alt="" /></span>最新記事</h2>
+        <a href="/category/comparisons/" class="seeall">すべて見る →</a>
+      </div>
+      <div class="articles">
+        {latest.map((p) => <PostCard post={p} />)}
+      </div>
+    </div>
+  </section>
+
+  <ComicBand />
+  <QABand />
+  <MoodGrid />
+  <Ticker />
+  <CategoryNav />
+  <AboutCard />
+</BaseLayout>

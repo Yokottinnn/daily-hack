@@ -1,0 +1,46 @@
+---
+import type { CollectionEntry } from 'astro:content';
+
+export interface Props {
+  posts: CollectionEntry<'posts'>[];
+}
+
+const { posts } = Astro.props;
+const items = posts.slice(0, 3);
+
+const fallback = [
+  { ava: '/images/expr-04-cheer.png', pill: '残り3日', title: 'Olive契約で最大30,000円還元', meta: '三井住友銀行', sub: '5/13まで', warn: false, href: '/category/campaigns/' },
+  { ava: '/images/expr-01-wave.png', pill: '残り7日', title: '楽天モバイル新規契約で13,000pt', meta: '楽天モバイル', sub: '5/17まで', warn: false, href: '/category/campaigns/' },
+  { ava: '/images/scene-04-heart.png', pill: '期間延長', title: 'JRE BANK紹介で5,000円キャッシュバック', meta: 'JRE BANK', sub: '5月末まで', warn: true, href: '/category/campaigns/' },
+];
+---
+
+<section class="urgent">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2><span class="chibi"><img src="/images/expr-06-shock.png" alt="" /></span>期限迫る！今熱いキャンペーン</h2>
+      <a href="/category/campaigns/" class="seeall">すべて見る →</a>
+    </div>
+    <div class="camp-grid">
+      {items.length > 0 ? items.map((p) => (
+        <a href={`/posts/${p.id}/`} class="camp-card">
+          <div class="ava"><img src={p.data.eyecatch?.src ?? '/images/expr-04-cheer.png'} alt="" /></div>
+          <div class="body">
+            <span class="pill">期限迫る</span>
+            <h3>{p.data.title}</h3>
+            <div class="meta"><span>{p.data.publishDate.toISOString().slice(0, 10)}</span></div>
+          </div>
+        </a>
+      )) : fallback.map((c) => (
+        <a href={c.href} class="camp-card">
+          <div class="ava"><img src={c.ava} alt="" /></div>
+          <div class="body">
+            <span class={`pill ${c.warn ? 'warn' : ''}`}>{c.pill}</span>
+            <h3>{c.title}</h3>
+            <div class="meta"><b>{c.meta}</b><span>{c.sub}</span></div>
+          </div>
+        </a>
+      ))}
+    </div>
+  </div>
+</section>

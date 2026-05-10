@@ -1,0 +1,57 @@
+---
+import { getCollection } from 'astro:content';
+
+const allQuotes = await getCollection('weekly-quotes').catch(() => []);
+
+const exprMap: Record<string, string> = {
+  wave: '/images/expr-01-wave.png',
+  pout: '/images/expr-02-pout.png',
+  bashful: '/images/expr-03-bashful.png',
+  cheer: '/images/expr-04-cheer.png',
+  smug: '/images/expr-05-smug.png',
+  shock: '/images/expr-06-shock.png',
+  gasp: '/images/expr-07-gasp.png',
+  cry: '/images/expr-08-cry.png',
+  'arms-crossed': '/images/expr-09-arms-crossed.png',
+};
+
+const fallback = [
+  { face: '/images/expr-04-cheer.png', when: '5月の特集', q: '「ふるさと納税、まだやってないの？」', a: '年収500万円なら、約6万円分の返礼品が実質負担2,000円で。やらないと損、はホントの話。', tag: 'ふるさと納税' },
+  { face: '/images/expr-05-smug.png', when: '今月のドヤ顔', q: '「私、固定費 月-12,000円 達成」', a: 'スマホ→格安SIM、電気→新電力、サブスク棚卸し。コレだけで余裕で達成可能。', tag: '固定費削減' },
+  { face: '/images/expr-07-gasp.png', when: '今月の警告', q: '「えっ、それ普通の人やってるよ？」', a: 'PayPay、楽天ポイント、d払い。3つ使い分けるだけで月2,000pt。やらない理由ある？', tag: 'ポイ活' },
+];
+
+const items = allQuotes.length > 0
+  ? allQuotes.slice(0, 3).map((q) => ({
+      face: exprMap[q.data.expression ?? 'smug'],
+      when: q.data.publishDate.toISOString().slice(0, 10),
+      q: q.data.quote,
+      a: '',
+      tag: '',
+    }))
+  : fallback;
+---
+
+<section class="qband">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2><span class="chibi"><img src="/images/expr-02-pout.png" alt="" /></span>編集部からひとこと</h2>
+    </div>
+    <div class="qa-grid">
+      {items.map((it) => (
+        <article class="qa-card">
+          <div class="head">
+            <div class="face"><img src={it.face} alt="" /></div>
+            <div>
+              <div class="who">編集部・ハッカー子</div>
+              <div class="when">{it.when}</div>
+            </div>
+          </div>
+          <p class="q">{it.q}</p>
+          {it.a && <p class="a">{it.a}</p>}
+          {it.tag && <span class="tag">{it.tag}</span>}
+        </article>
+      ))}
+    </div>
+  </div>
+</section>

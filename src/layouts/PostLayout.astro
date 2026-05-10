@@ -1,0 +1,121 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import type { MarkdownHeading } from 'astro';
+import BaseLayout from './BaseLayout.astro';
+import Breadcrumb from '../components/Breadcrumb.astro';
+import PRBadge from '../components/PRBadge.astro';
+import TableOfContents from '../components/TableOfContents.astro';
+import ShareButtons from '../components/ShareButtons.astro';
+import PostCard from '../components/PostCard.astro';
+import { getCollection } from 'astro:content';
+
+export interface Props {
+  post: CollectionEntry<'posts'>;
+  headings: MarkdownHeading[];
+}
+
+const { post, headings } = Astro.props;
+const data = post.data;
+
+const categoryLabel: Record<string, string> = {
+  campaigns: 'キャンペーン速報',
+  services: 'サービス紹介',
+  comparisons: '比較',
+  roundups: 'まとめ',
+  howto: 'ハウツー',
+};
+
+const dateStr = data.publishDate.toISOString().slice(0, 10).replace(/-/g, '.');
+const updatedStr = data.updatedDate?.toISOString().slice(0, 10).replace(/-/g, '.');
+const eyecatchSrc = data.eyecatch?.src ?? '/images/scene-07-grocery.png';
+const fullUrl = new URL(Astro.url.pathname, Astro.site).toString();
+
+const allPosts = await getCollection('posts', ({ data }) => !data.draft);
+const related = allPosts
+  .filter((p) => p.id !== post.id && p.data.category === data.category)
+  .sort((a, b) => b.data.publishDate.getTime() - a.data.publishDate.getTime())
+  .slice(0, 4);
+
+const articleJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: data.title,
+  description: data.description,
+  datePublished: data.publishDate.toISOString(),
+  dateModified: (data.updatedDate ?? data.publishDate).toISOString(),
+  image: new URL(eyecatchSrc, Astro.site).toString(),
+  author: { '@type': 'Organization', name: 'Daily Hack編集部' },
+  publisher: {
+    '@type': 'Organization',
+    name: '合同会社FieldBeside',
+    logo: {
+      '@type': 'ImageObject',
+      url: new URL('/images/mascot-avatar.png', Astro.site).toString(),
+    },
+  },
+  mainEntityOfPage: { '@type': 'WebPage', '@id': fullUrl },
+};
+---
+
+<BaseLayout title={data.title} description={data.description} ogImage={eyecatchSrc}>
+  <slot name="head" slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify(articleJsonLd)} />
+  </slot>
+  <main class="wrap">
+    <div class="post-wrap">
+      <article class="post-main" data-pagefind-body>
+        <Breadcrumb items={[
+          { label: 'ホーム', href: '/' },
+          { label: categoryLabel[data.category] ?? data.category, href: `/category/${data.category}/` },
+          { label: data.title },
+        ]} />
+        <header class="post-head">
+          <span class="art" style="display: inline-block; margin-right: 8px;">
+            <span class="cat pink">{categoryLabel[data.category] ?? data.category}</span>
+          </span>
+          {data.isPR && <PRBadge />}
+          <h1>{data.title}</h1>
+          <p class="lead">{data.description}</p>
+          <div class="post-meta">
+            <span>📅 {dateStr}</span>
+            {updatedStr && <span>🔄 更新: {updatedStr}</span>}
+            <span>👤 著者: Daily Hack編集部</span>
+          </div>
+          <div class="post-eyecatch">
+            <img src={eyecatchSrc} alt={data.eyecatchAlt ?? data.title} />
+          </div>
+          <ShareButtons url={fullUrl} title={data.title} />
+        </header>
+
+        <div class="post-body">
+          <slot />
+        </div>
+
+        <footer style="margin-top: 48px; padding-top: 28px; border-top: 1px solid var(--line);">
+          {data.isPR && (
+            <p style="background: var(--pink-50); border-radius: 12px; padding: 14px; font-size: 13px; color: var(--ink-2);">
+              <strong>PR表記について:</strong> 本記事には広告（PR）が含まれます。掲載されている商品・サービスについて、運営会社が広告主から成果報酬を受け取る場合があります。記事内容は編集部の独自基準で選定しており、報酬の有無による情報の偏向はありません。
+            </p>
+          )}
+          <ShareButtons url={fullUrl} title={data.title} />
+        </footer>
+      </article>
+
+      <aside class="post-aside">
+        <TableOfContents headings={headings} />
+      </aside>
+    </div>
+
+    {related.length > 0 && (
+      <section style="padding: 56px 0;">
+        <div class="sec-head">
+          <h2><span class="chibi"><img src="/images/expr-04-cheer.png" alt="" /></span>関連記事</h2>
+          <a href={`/category/${data.category}/`} class="seeall">同じカテゴリを見る →</a>
+        </div>
+        <div class="articles">
+          {related.map((p) => <PostCard post={p} />)}
+        </div>
+      </section>
+    )}
+  </main>
+</BaseLayout>

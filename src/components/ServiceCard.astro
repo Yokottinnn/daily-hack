@@ -1,0 +1,66 @@
+---
+import { getReferralById, type Referral } from '../data/referrals';
+import PRBadge from './PRBadge.astro';
+
+export interface Props {
+  referralId?: string;
+  serviceName?: string;
+  description?: string;
+  pros?: string[];
+  cons?: string[];
+  reward?: string;
+  ctaUrl?: string;
+  ctaText?: string;
+  isPR?: boolean;
+}
+
+const props = Astro.props;
+let ref: Referral | undefined;
+if (props.referralId) {
+  ref = getReferralById(props.referralId);
+}
+
+const serviceName = props.serviceName ?? ref?.serviceName ?? '';
+const description = props.description ?? ref?.description ?? '';
+const reward = props.reward ?? ref?.reward ?? '';
+const ctaUrl = props.ctaUrl ?? ref?.affiliateUrl ?? ref?.url ?? '#';
+const ctaText = props.ctaText ?? '公式サイトを見る';
+const isPR = props.isPR ?? !!ref?.affiliateUrl;
+const pros = props.pros ?? [];
+const cons = props.cons ?? [];
+---
+
+<div class="svc-card">
+  <div class="top">
+    <div class="logo">{serviceName.slice(0, 2)}</div>
+    <div>
+      <div class="name">{serviceName}</div>
+      <div class="reward">{reward}</div>
+    </div>
+  </div>
+  <p class="desc">{description}</p>
+  {(pros.length > 0 || cons.length > 0) && (
+    <div class="pros-cons">
+      {pros.length > 0 && (
+        <div class="pros">
+          <div class="head">○ メリット</div>
+          <ul style="margin: 0; padding-left: 18px;">
+            {pros.map((p) => <li>{p}</li>)}
+          </ul>
+        </div>
+      )}
+      {cons.length > 0 && (
+        <div class="cons">
+          <div class="head">△ 注意点</div>
+          <ul style="margin: 0; padding-left: 18px;">
+            {cons.map((c) => <li>{c}</li>)}
+          </ul>
+        </div>
+      )}
+    </div>
+  )}
+  <a class="cta" href={ctaUrl} target="_blank" rel={isPR ? 'sponsored noopener nofollow' : 'noopener'}>
+    {ctaText} →
+    {isPR && <>{' '}<PRBadge /></>}
+  </a>
+</div>

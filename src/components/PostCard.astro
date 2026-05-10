@@ -1,0 +1,33 @@
+---
+import type { CollectionEntry } from 'astro:content';
+
+export interface Props {
+  post: CollectionEntry<'posts'>;
+}
+
+const { post } = Astro.props;
+
+const categoryLabel: Record<string, { label: string; cls: string }> = {
+  campaigns: { label: 'キャンペーン速報', cls: 'pink' },
+  services: { label: 'サービス紹介', cls: 'pink' },
+  comparisons: { label: '比較', cls: 'pink' },
+  roundups: { label: 'まとめ', cls: 'cream' },
+  howto: { label: 'ハウツー', cls: 'cream' },
+};
+
+const cat = categoryLabel[post.data.category] ?? { label: post.data.category, cls: 'pink' };
+const dateStr = post.data.publishDate.toISOString().slice(0, 10).replace(/-/g, '.');
+const eyecatchSrc =
+  post.data.eyecatch?.src ?? '/images/scene-07-grocery.png';
+---
+
+<a href={`/posts/${post.id}/`} class="art">
+  <div class="thumb">
+    <img src={eyecatchSrc} alt={post.data.eyecatchAlt ?? ''} />
+    {post.data.isPR && <div class="stamp pink">PR</div>}
+    {post.data.featured && !post.data.isPR && <div class="stamp">編集部おすすめ</div>}
+  </div>
+  <span class={`cat ${cat.cls}`}>{cat.label}</span>
+  <h3>{post.data.title}</h3>
+  <div class="meta">{dateStr}</div>
+</a>

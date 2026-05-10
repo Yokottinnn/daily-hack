@@ -10,6 +10,8 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
+    "check": "astro check",
+    "typecheck": "astro check --minimumSeverity error",
     "prepare": "husky"
   },
   "dependencies": {

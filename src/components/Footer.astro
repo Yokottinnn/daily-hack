@@ -1,0 +1,21 @@
+---
+const links = [
+  { href: '/about', label: '運営者情報' },
+  { href: '/privacy', label: 'プライバシーポリシー' },
+  { href: '/disclaimer', label: '免責事項・PR表記' },
+  { href: '/contact', label: 'お問い合わせ' },
+];
+const year = new Date().getFullYear();
+---
+
+<footer class="foot">
+  <div class="wrap">
+    <div class="copy">© {year} 合同会社 FieldBeside ｜ Daily Hack</div>
+    <div class="pr">本サイトには広告（PR）が含まれます。</div>
+    <nav style="margin-top: 12px; display: flex; gap: 14px; justify-content: center; flex-wrap: wrap; font-size: 12px;">
+      {links.map((l) => <a href={l.href} style="color: var(--ink-2); border-bottom: 1px solid transparent; transition: border-color .15s;">{l.label}</a>)}
+      <a href="https://x.com/heng_ji31590" target="_blank" rel="noopener" style="color: var(--ink-2);">X @heng_ji31590</a>
+      <a href="/rss.xml" style="color: var(--ink-2);">RSS</a>
+    </nav>
+  </div>
+</footer>
