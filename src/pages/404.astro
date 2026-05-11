@@ -1,0 +1,51 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+import PostCard from '../components/PostCard.astro';
+
+const allPosts = await getCollection('posts', ({ data }) => !data.draft);
+const recommended = allPosts
+  .filter((p) => p.data.featured)
+  .sort((a, b) => b.data.publishDate.getTime() - a.data.publishDate.getTime())
+  .slice(0, 4);
+const fallback = allPosts
+  .sort((a, b) => b.data.publishDate.getTime() - a.data.publishDate.getTime())
+  .slice(0, 4);
+const display = recommended.length > 0 ? recommended : fallback;
+---
+
+<BaseLayout title="ページが見つかりません (404)" description="お探しのページは見つかりませんでした。代わりに人気の記事をどうぞ。" noindex={true}>
+  <main class="wrap" style="padding: 80px 0;">
+    <div style="display: flex; gap: 28px; align-items: center; flex-wrap: wrap; justify-content: center; text-align: center;">
+      <div style="width: 180px; height: 180px; border-radius: 50%; overflow: hidden; background: var(--pink-100); border: 5px solid #fff; box-shadow: 0 0 0 1px var(--pink-200);">
+        <img src="/images/expr-06-shock.png" alt="" style="width: 100%; height: 100%; object-fit: cover; object-position: center 18%;" />
+      </div>
+      <div style="flex: 1; min-width: 260px; text-align: left;">
+        <p style="font-family: 'RocknRoll One'; color: var(--pink-500); font-size: 13px; letter-spacing: .18em; margin: 0 0 6px;">404 NOT FOUND</p>
+        <h1 style="font-family: 'RocknRoll One'; font-size: clamp(28px, 4vw, 44px); margin: 0 0 14px; line-height: 1.25;">
+          あんたバカぁ？<br />そんなページないわよ。
+        </h1>
+        <p style="color: var(--ink-2); font-size: 16px; line-height: 1.8; margin: 0 0 24px;">
+          URLが間違ってるか、記事が引っ越したのかも。<br />
+          ま、しょうがないわね、代わりにオススメ記事 貼っといてあげる。
+        </p>
+        <div style="display: flex; gap: 12px; flex-wrap: wrap;">
+          <a href="/" class="btn btn-primary">トップに戻る <span class="arr">→</span></a>
+          <a href="/search/" class="btn btn-ghost">記事を検索</a>
+        </div>
+      </div>
+    </div>
+
+    {display.length > 0 && (
+      <section style="margin-top: 80px;">
+        <div class="sec-head">
+          <h2><span class="chibi"><img src="/images/expr-05-smug.png" alt="" /></span>こっちの記事はどう？</h2>
+          <a href="/" class="seeall">トップへ →</a>
+        </div>
+        <div class="articles">
+          {display.map((p) => <PostCard post={p} />)}
+        </div>
+      </section>
+    )}
+  </main>
+</BaseLayout>

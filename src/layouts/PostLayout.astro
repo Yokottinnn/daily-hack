@@ -28,7 +28,15 @@ const categoryLabel: Record<string, string> = {
 
 const dateStr = data.publishDate.toISOString().slice(0, 10).replace(/-/g, '.');
 const updatedStr = data.updatedDate?.toISOString().slice(0, 10).replace(/-/g, '.');
-const eyecatchSrc = data.eyecatch?.src ?? '/images/scene-07-grocery.png';
+
+const categoryFallback: Record<string, string> = {
+  campaigns: '/images/scene-04-heart.png',
+  services: '/images/scene-07-grocery.png',
+  comparisons: '/images/expr-09-arms-crossed.png',
+  roundups: '/images/expr-05-smug.png',
+  howto: '/images/expr-04-cheer.png',
+};
+const eyecatchSrc = data.eyecatch?.src ?? data.eyecatchUrl ?? categoryFallback[data.category] ?? '/images/scene-07-grocery.png';
 const fullUrl = new URL(Astro.url.pathname, Astro.site).toString();
 
 const allPosts = await getCollection('posts', ({ data }) => !data.draft);
@@ -82,6 +90,15 @@ const articleJsonLd = {
             {updatedStr && <span>🔄 更新: {updatedStr}</span>}
             <span>👤 著者: Daily Hack編集部</span>
           </div>
+          {(data.tags?.length ?? 0) > 0 && (
+            <div style="display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 16px;">
+              {data.tags!.map((t) => (
+                <a href={`/tags/${t}/`} style="font-size: 12px; font-weight: 700; background: var(--pink-50); color: var(--pink-700); padding: 4px 10px; border-radius: 999px; border: 1px solid var(--pink-200);">
+                  #{t}
+                </a>
+              ))}
+            </div>
+          )}
           <div class="post-eyecatch">
             <img src={eyecatchSrc} alt={data.eyecatchAlt ?? data.title} />
           </div>

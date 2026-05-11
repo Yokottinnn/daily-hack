@@ -17,8 +17,16 @@ const categoryLabel: Record<string, { label: string; cls: string }> = {
 
 const cat = categoryLabel[post.data.category] ?? { label: post.data.category, cls: 'pink' };
 const dateStr = post.data.publishDate.toISOString().slice(0, 10).replace(/-/g, '.');
+
+const categoryFallback: Record<string, string> = {
+  campaigns: '/images/scene-04-heart.png',
+  services: '/images/scene-07-grocery.png',
+  comparisons: '/images/expr-09-arms-crossed.png',
+  roundups: '/images/expr-05-smug.png',
+  howto: '/images/expr-04-cheer.png',
+};
 const eyecatchSrc =
-  post.data.eyecatch?.src ?? '/images/scene-07-grocery.png';
+  post.data.eyecatch?.src ?? post.data.eyecatchUrl ?? categoryFallback[post.data.category] ?? '/images/scene-07-grocery.png';
 ---
 
 <a href={`/posts/${post.id}/`} class="art">

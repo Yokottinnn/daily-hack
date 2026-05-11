@@ -1,0 +1,50 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumb from '../../components/Breadcrumb.astro';
+import PostCard from '../../components/PostCard.astro';
+import AboutCard from '../../components/AboutCard.astro';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('posts', ({ data }) => !data.draft);
+  const tags = new Set<string>();
+  for (const p of posts) {
+    for (const t of p.data.tags ?? []) {
+      tags.add(t);
+    }
+  }
+  return Array.from(tags).map((tag) => ({
+    params: { tag },
+    props: { tag },
+  }));
+}
+
+const { tag } = Astro.props;
+const all = await getCollection('posts', ({ data }) => !data.draft && (data.tags ?? []).includes(tag));
+const sorted = all.sort((a, b) => b.data.publishDate.getTime() - a.data.publishDate.getTime());
+---
+
+<BaseLayout
+  title={`#${tag} の記事一覧`}
+  description={`「${tag}」タグが付いた Daily Hack の記事一覧。`}
+>
+  <main class="wrap" style="padding: 48px 0;">
+    <Breadcrumb items={[
+      { label: 'ホーム', href: '/' },
+      { label: `#${tag}` },
+    ]} />
+    <h1 style="font-family: 'RocknRoll One'; font-size: clamp(28px, 4vw, 40px); margin: 14px 0 8px;">#{tag}</h1>
+    <p style="color: var(--ink-2); font-size: 15px; margin: 0 0 36px;">
+      「<strong style="color: var(--pink-600);">{tag}</strong>」タグの記事 {sorted.length} 件。
+    </p>
+
+    {sorted.length > 0 ? (
+      <div class="articles">
+        {sorted.map((p) => <PostCard post={p} />)}
+      </div>
+    ) : (
+      <p style="color: var(--ink-3);">該当する記事がありません。</p>
+    )}
+  </main>
+  <AboutCard />
+</BaseLayout>
