@@ -24,6 +24,14 @@ const ogImageUrl = new URL(ogImage, Astro.site).toString();
 
 const adsenseClient = import.meta.env.PUBLIC_ADSENSE_CLIENT ?? '';
 const adsenseEnabled = adsenseClient.startsWith('ca-pub-');
+
+const ga4Id = import.meta.env.PUBLIC_GA4_MEASUREMENT_ID ?? '';
+const ga4Enabled = /^G-[A-Z0-9]+$/.test(ga4Id);
+
+const clarityId = import.meta.env.PUBLIC_CLARITY_PROJECT_ID ?? '';
+const clarityEnabled = /^[a-z0-9]+$/.test(clarityId) && clarityId.length >= 6;
+
+const gscVerification = import.meta.env.PUBLIC_GSC_VERIFICATION ?? '';
 ---
 
 <!doctype html>
@@ -57,6 +65,8 @@ const adsenseEnabled = adsenseClient.startsWith('ca-pub-');
     <link rel="icon" href="/favicon.ico" />
     <link rel="apple-touch-icon" href="/images/mascot-avatar.png" />
 
+    {gscVerification && <meta name="google-site-verification" content={gscVerification} />}
+
     <!-- RSS -->
     <link rel="alternate" type="application/rss+xml" title="Daily Hack" href="/rss.xml" />
 
@@ -88,6 +98,46 @@ const adsenseEnabled = adsenseClient.startsWith('ca-pub-');
 
     <!-- Cloudflare Web Analytics（Cookie不要、GDPR配慮、無料） -->
     <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "0dc312c59cff43f58507d2b4f669dd82"}'></script>
+
+    {ga4Enabled && (
+      <>
+        <script async src={`https://www.googletagmanager.com/gtag/js?id=${ga4Id}`} />
+        <script is:inline define:vars={{ ga4Id }}>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          // デフォルトでは個別Cookieを拒否、CookieConsent側で同意があれば変更
+          gtag('consent', 'default', {
+            ad_storage: 'denied',
+            ad_user_data: 'denied',
+            ad_personalization: 'denied',
+            analytics_storage: 'denied',
+          });
+          gtag('config', ga4Id, { anonymize_ip: true });
+          // CookieConsent で accept されたら有効化
+          try {
+            if (localStorage.getItem('daily-hack:cookie-consent') === 'accepted') {
+              gtag('consent', 'update', {
+                ad_storage: 'granted',
+                ad_user_data: 'granted',
+                ad_personalization: 'granted',
+                analytics_storage: 'granted',
+              });
+            }
+          } catch(e) {}
+        </script>
+      </>
+    )}
+
+    {clarityEnabled && (
+      <script is:inline define:vars={{ clarityId }}>
+        (function(c,l,a,r,i,t,y){
+          c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+          t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+          y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+        })(window, document, "clarity", "script", clarityId);
+      </script>
+    )}
 
     {adsenseEnabled && (
       <>
