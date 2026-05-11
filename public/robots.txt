@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Block crawling of internal/admin paths
+Disallow: /pagefind/
+
+# Sitemap
+Sitemap: https://daily-hack.fieldbeside.com/sitemap-index.xml

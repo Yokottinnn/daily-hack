@@ -19,6 +19,7 @@ const posts = defineCollection({
       ]),
       tags: z.array(z.string()).optional(),
       eyecatch: image().optional(),
+      eyecatchUrl: z.string().optional(),
       eyecatchAlt: z.string().optional(),
       relatedReferrals: z.array(z.string()).optional(),
       parentPillar: z.string().optional(),
