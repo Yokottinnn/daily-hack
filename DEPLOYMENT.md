@@ -148,7 +148,37 @@ Phase 10 用に `scripts/upload-image.js` を別途実装予定。OpenClaw が�
    - 連絡先: n-yokota@fieldbeside.com
 3. 審査開始（数営業日〜2週間）
 
-### 14.3 審査落ちた場合
+### 14.3 Google AdSense / Amazonアソシエイト 申請
+
+AdSense・Amazon Associates は別途申請が必要です。**当サイトの広告基盤は既に実装済み**で、承認後は環境変数1つで即時稼働します。
+
+#### Google AdSense
+
+1. https://www.google.com/adsense/ で申請
+   - サイトURL: `https://daily-hack.fieldbeside.com`
+   - 国・通貨: 日本・JPY
+   - 支払い先: 合同会社FieldBeside 法人口座
+2. 審査待ち（1〜14日）
+3. 承認後の有効化（**3ステップ**）:
+   - **a.** `Cloudflare Pages → daily-hack → Settings → Environment Variables` で:
+     ```
+     PUBLIC_ADSENSE_CLIENT=ca-pub-XXXXXXXXXXXXXXXX
+     ```
+   - **b.** `public/ads.txt` のコメントアウト行を本物の pub-ID に置き換えてコミット:
+     ```
+     google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0
+     ```
+   - **c.** AdSenseダッシュボードで広告ユニット3つ作成（記事冒頭・サイドバー・記事末尾）→ slot ID を取得 → `src/layouts/PostLayout.astro` の `<AdUnit slot="article-top" />` 等の文字列を実際のslot IDに置換するか、env var 化して参照
+
+承認前は AdUnit はDOM上に出力されず、ページ表示に影響しません（env-gated）。
+
+#### Amazonアソシエイト
+
+1. https://affiliate.amazon.co.jp/ で申請
+2. 必要要件: サイトに記事10件以上、運営者情報明記、PR表記対応
+3. 承認後: 商品リンク・ウィジェットを記事内に挿入（記事執筆時に随時）
+
+### 14.4 審査落ちた場合
 
 よくある原因と対処:
 - **記事数不足**: 10本以上に増やす
