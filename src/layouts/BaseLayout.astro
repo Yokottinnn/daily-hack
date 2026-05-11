@@ -81,6 +81,9 @@ const ogImageUrl = new URL(ogImage, Astro.site).toString();
     })} />
 
     <slot name="head" />
+
+    <!-- Cloudflare Web Analytics（Cookie不要、GDPR配慮、無料） -->
+    <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "0dc312c59cff43f58507d2b4f669dd82"}'></script>
   </head>
   <body>
     <Header />
