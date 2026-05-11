@@ -7,6 +7,7 @@ import PRBadge from '../components/PRBadge.astro';
 import TableOfContents from '../components/TableOfContents.astro';
 import ShareButtons from '../components/ShareButtons.astro';
 import PostCard from '../components/PostCard.astro';
+import AdUnit from '../components/AdUnit.astro';
 import { getCollection } from 'astro:content';
 
 export interface Props {
@@ -87,9 +88,15 @@ const articleJsonLd = {
           <ShareButtons url={fullUrl} title={data.title} />
         </header>
 
-        <div class="post-body">
+        <!-- 広告枠1: 記事冒頭（リード文直下） -->
+        <AdUnit slot="article-top" format="auto" />
+
+        <div class="post-body" id="post-body">
           <slot />
         </div>
+
+        <!-- 広告枠2: 記事末尾（本文と関連記事の間） -->
+        <AdUnit slot="article-bottom" format="auto" />
 
         <footer style="margin-top: 48px; padding-top: 28px; border-top: 1px solid var(--line);">
           {data.isPR && (
@@ -103,6 +110,10 @@ const articleJsonLd = {
 
       <aside class="post-aside">
         <TableOfContents headings={headings} />
+        <!-- 広告枠3: サイドバー（デスクトップのみ表示、TOC下） -->
+        <div style="margin-top: 20px;">
+          <AdUnit slot="sidebar-sticky" format="rectangle" responsive={false} />
+        </div>
       </aside>
     </div>
 

@@ -1,0 +1,123 @@
+---
+// Cookie同意バナー
+// 改正個人情報保護法 + GDPR配慮のため、AdSense等の広告Cookieを設置する場合に表示
+// 同意/拒否の選択は localStorage に保存
+---
+
+<div id="cookie-consent" class="cookie-consent" hidden>
+  <div class="cookie-consent-inner">
+    <p class="cookie-text">
+      Daily Hack は Cookie・類似技術を使用してサイト改善・広告配信・アクセス解析を行っています。
+      詳細は <a href="/privacy/">プライバシーポリシー</a> をご確認ください。
+    </p>
+    <div class="cookie-buttons">
+      <button type="button" id="cookie-accept" class="cookie-btn cookie-btn-primary">同意する</button>
+      <button type="button" id="cookie-reject" class="cookie-btn cookie-btn-ghost">拒否</button>
+    </div>
+  </div>
+</div>
+
+<script is:inline>
+  (function() {
+    const KEY = 'daily-hack:cookie-consent';
+    const banner = document.getElementById('cookie-consent');
+    if (!banner) return;
+
+    const status = localStorage.getItem(KEY);
+    if (!status) {
+      banner.hidden = false;
+    }
+
+    function setConsent(value) {
+      localStorage.setItem(KEY, value);
+      banner.hidden = true;
+      // 同意した場合、AdSenseに「同意済み」を通知（Google EU User Consent Policy 対応）
+      if (value === 'accepted' && window.adsbygoogle) {
+        window.adsbygoogle.requestNonPersonalizedAds = 0;
+      } else if (value === 'rejected' && window.adsbygoogle) {
+        window.adsbygoogle.requestNonPersonalizedAds = 1;
+      }
+    }
+
+    document.getElementById('cookie-accept')?.addEventListener('click', () => setConsent('accepted'));
+    document.getElementById('cookie-reject')?.addEventListener('click', () => setConsent('rejected'));
+  })();
+</script>
+
+<style>
+  .cookie-consent {
+    position: fixed;
+    bottom: 16px;
+    left: 16px;
+    right: 16px;
+    max-width: 680px;
+    margin: 0 auto;
+    background: #fff;
+    border: 2.5px solid var(--ink);
+    border-radius: 18px;
+    box-shadow: 6px 6px 0 var(--ink);
+    padding: 18px 22px;
+    z-index: 1000;
+    font-size: 14px;
+    line-height: 1.7;
+  }
+  .cookie-consent-inner {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  .cookie-text {
+    margin: 0;
+    color: var(--ink-2);
+  }
+  .cookie-text a {
+    color: var(--pink-600);
+    border-bottom: 1px solid var(--pink-300);
+  }
+  .cookie-buttons {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+  }
+  .cookie-btn {
+    padding: 9px 18px;
+    border-radius: 999px;
+    font-size: 13px;
+    font-weight: 800;
+    border: 0;
+    cursor: pointer;
+    transition: transform .12s, box-shadow .15s;
+  }
+  .cookie-btn-primary {
+    background: var(--pink-500);
+    color: #fff;
+  }
+  .cookie-btn-primary:hover {
+    transform: translateY(-1px);
+    background: var(--pink-600);
+  }
+  .cookie-btn-ghost {
+    background: transparent;
+    color: var(--ink-2);
+    border: 1.5px solid var(--ink-2);
+  }
+  .cookie-btn-ghost:hover {
+    background: var(--ink);
+    color: #fff;
+    border-color: var(--ink);
+  }
+  @media (max-width: 600px) {
+    .cookie-consent {
+      bottom: 8px;
+      left: 8px;
+      right: 8px;
+    }
+    .cookie-buttons {
+      justify-content: stretch;
+    }
+    .cookie-btn {
+      flex: 1;
+    }
+  }
+</style>
