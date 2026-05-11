@@ -1,0 +1,114 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumb from '../components/Breadcrumb.astro';
+import AboutCard from '../components/AboutCard.astro';
+import { getCollection } from 'astro:content';
+
+const allPosts = await getCollection('posts', ({ data }) => !data.draft);
+const recent = allPosts
+  .sort((a, b) => b.data.publishDate.getTime() - a.data.publishDate.getTime())
+  .slice(0, 6);
+
+const editorialJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Person',
+  name: 'ハッカー子',
+  alternateName: 'Daily Hack編集部',
+  jobTitle: 'メディア編集',
+  worksFor: {
+    '@type': 'Organization',
+    name: '合同会社FieldBeside',
+    url: Astro.site?.toString(),
+  },
+  description: 'Daily Hack のマスコット兼編集者。日常の「損してる行為」を毒舌で指摘し、正しい選択肢を提示する。',
+  image: new URL('/images/mascot-avatar.png', Astro.site).toString(),
+  sameAs: ['https://x.com/heng_ji31590'],
+};
+---
+
+<BaseLayout
+  title="編集部プロフィール"
+  description="Daily Hack を運営する編集部の自己紹介。ハッカー子（マスコット）+ 合同会社FieldBeside の編集チームが、ポイ活・節約・固定費削減の最新情報を毎日アップデートしています。"
+>
+  <script type="application/ld+json" slot="head" set:html={JSON.stringify(editorialJsonLd)} />
+
+  <main class="wrap" style="padding: 48px 0 0;">
+    <Breadcrumb items={[
+      { label: 'ホーム', href: '/' },
+      { label: '編集部プロフィール' },
+    ]} />
+  </main>
+
+  <section class="hero" style="padding: 56px 0 88px;">
+    <div class="wrap grid">
+      <div>
+        <span class="eyebrow">EDITORIAL TEAM</span>
+        <h1>編集部・<br /><span class="accent">ハッカー子</span></h1>
+        <p class="lead">
+          Daily Hack のマスコット兼編集者。毎日100以上のキャンペーン・サービスをチェックし、「これは本当にお得」と判断したものだけを記事化します。<br />…別にアンタのためじゃないけど。
+        </p>
+        <div class="ctas">
+          <a href="https://x.com/heng_ji31590" target="_blank" rel="noopener" class="btn btn-primary">𝕏でフォローする <span class="arr">→</span></a>
+          <a href="/contact/" class="btn btn-ghost">取材・寄稿依頼</a>
+        </div>
+      </div>
+      <div class="hero-illust" aria-hidden="true">
+        <div class="blob"></div>
+        <div class="photo"><img src="/images/expr-09-arms-crossed.png" alt="ハッカー子" /></div>
+        <div class="speech s1">「あんたバカぁ？<br /><b>まだ損してるの？</b>」</div>
+      </div>
+    </div>
+  </section>
+
+  <main class="wrap static-page" style="padding: 56px 0 0;">
+    <h2>編集方針</h2>
+    <p>
+      Daily Hack は <strong>「お得を毎日、ハック。」</strong> をスローガンに、ポイ活・節約・固定費削減・キャッシュレス決済まわりの一次情報を毎日アップデートする情報メディアです。
+    </p>
+    <p>
+      記事は編集部が独自に検証した一次情報を優先。広告（PR）が入る記事は必ず「PR」表記を行います。「広告だから紹介する」ではなく <strong>「お得だから紹介する」</strong> を徹底しています。
+    </p>
+
+    <h2>権威性・専門領域</h2>
+    <ul>
+      <li>ポイ活: 楽天ポイント・PayPayポイント・dポイント・Vポイントの効率的な貯め方</li>
+      <li>クレジットカード: 年会費無料 × 高還元カードの選定基準・申込フロー</li>
+      <li>銀行・証券: ネット銀行のATM手数料・金利・キャンペーン徹底比較</li>
+      <li>固定費削減: 通信費・電気代・保険・サブスクの見直しメソッド</li>
+      <li>ふるさと納税・節税: 控除上限の計算と返礼品選びの最適化</li>
+    </ul>
+
+    <h2>記事の検証プロセス</h2>
+    <p>当サイトの全記事は以下のプロセスで検証されています:</p>
+    <ol>
+      <li><strong>一次情報の収集</strong>: 公式サイト・ニュースリリース・約款から事実確認</li>
+      <li><strong>金額計算の検証</strong>: 「年間○○円お得」の根拠を計算式付きで明示</li>
+      <li><strong>編集部メンバーによるレビュー</strong>: 公開前に最低1名がファクトチェック</li>
+      <li><strong>更新日の明記</strong>: キャンペーン期限・条件の最新版を都度確認・記事に反映</li>
+      <li><strong>PR表記の徹底</strong>: 広告を含む記事には「PR」「広告」を明確に表示</li>
+    </ol>
+
+    <h2>運営会社</h2>
+    <p>Daily Hack は <strong>合同会社FieldBeside</strong>（代表: 横田直紀）が運営しています。詳細は <a href="/about/">運営者情報</a> をご確認ください。</p>
+
+    <h2>最新の記事</h2>
+  </main>
+
+  <section style="padding: 24px 0 80px;">
+    <div class="wrap">
+      <div class="articles">
+        {recent.map((p) => (
+          <a href={`/posts/${p.id}/`} class="art">
+            <div class="thumb">
+              <img src={`/images/${p.data.category === 'campaigns' ? 'scene-04-heart' : p.data.category === 'comparisons' ? 'expr-09-arms-crossed' : p.data.category === 'services' ? 'scene-07-grocery' : p.data.category === 'roundups' ? 'expr-05-smug' : 'expr-04-cheer'}.png`} alt="" />
+            </div>
+            <h3>{p.data.title}</h3>
+            <div class="meta">{p.data.publishDate.toISOString().slice(0, 10).replace(/-/g, '.')}</div>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <AboutCard />
+</BaseLayout>

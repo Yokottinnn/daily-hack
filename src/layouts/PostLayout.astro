@@ -45,6 +45,17 @@ const related = allPosts
   .sort((a, b) => b.data.publishDate.getTime() - a.data.publishDate.getTime())
   .slice(0, 4);
 
+// Pillar/Cluster: 親ピラー記事と兄弟クラスター記事を取得
+const parentPillar = data.parentPillar
+  ? allPosts.find((p) => p.id === data.parentPillar)
+  : undefined;
+const siblingClusters = data.parentPillar
+  ? allPosts
+      .filter((p) => p.id !== post.id && p.data.parentPillar === data.parentPillar)
+      .sort((a, b) => b.data.publishDate.getTime() - a.data.publishDate.getTime())
+      .slice(0, 4)
+  : [];
+
 const articleJsonLd = {
   '@context': 'https://schema.org',
   '@type': 'Article',
@@ -84,6 +95,11 @@ const articleJsonLd = {
           </span>
           {data.isPR && <PRBadge />}
           <h1>{data.title}</h1>
+          {parentPillar && (
+            <div style="background: var(--pink-50); border-left: 4px solid var(--pink-500); padding: 10px 14px; margin: 10px 0 18px; font-size: 13px; border-radius: 0 8px 8px 0;">
+              📚 <strong>この記事は <a href={`/posts/${parentPillar.id}/`} style="color: var(--pink-700); border-bottom: 1px solid var(--pink-300);">{parentPillar.data.title}</a> の関連記事です</strong>
+            </div>
+          )}
           <p class="lead">{data.description}</p>
           <div class="post-meta">
             <span>📅 {dateStr}</span>
@@ -134,11 +150,23 @@ const articleJsonLd = {
       </aside>
     </div>
 
-    {related.length > 0 && (
-      <section style="padding: 56px 0;">
+    {siblingClusters.length > 0 && parentPillar && (
+      <section style="padding: 56px 0 24px;">
         <div class="sec-head">
-          <h2><span class="chibi"><img src="/images/expr-04-cheer.png" alt="" /></span>関連記事</h2>
-          <a href={`/category/${data.category}/`} class="seeall">同じカテゴリを見る →</a>
+          <h2><span class="chibi"><img src="/images/expr-04-cheer.png" alt="" /></span>同じピラー記事の他のクラスター</h2>
+          <a href={`/posts/${parentPillar.id}/`} class="seeall">親ガイドへ戻る →</a>
+        </div>
+        <div class="articles">
+          {siblingClusters.map((p) => <PostCard post={p} />)}
+        </div>
+      </section>
+    )}
+
+    {related.length > 0 && (
+      <section style="padding: 32px 0 56px;">
+        <div class="sec-head">
+          <h2><span class="chibi"><img src="/images/expr-05-smug.png" alt="" /></span>同じカテゴリの記事</h2>
+          <a href={`/category/${data.category}/`} class="seeall">すべて見る →</a>
         </div>
         <div class="articles">
           {related.map((p) => <PostCard post={p} />)}
