@@ -1,6 +1,7 @@
 ---
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
+import CookieConsent from '../components/CookieConsent.astro';
 import '../styles/global.css';
 
 export interface Props {
@@ -20,6 +21,9 @@ const {
 const fullTitle = title === 'Daily Hack' ? title : `${title} | Daily Hack`;
 const canonical = new URL(Astro.url.pathname, Astro.site).toString();
 const ogImageUrl = new URL(ogImage, Astro.site).toString();
+
+const adsenseClient = import.meta.env.PUBLIC_ADSENSE_CLIENT ?? '';
+const adsenseEnabled = adsenseClient.startsWith('ca-pub-');
 ---
 
 <!doctype html>
@@ -84,10 +88,22 @@ const ogImageUrl = new URL(ogImage, Astro.site).toString();
 
     <!-- Cloudflare Web Analytics（Cookie不要、GDPR配慮、無料） -->
     <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "0dc312c59cff43f58507d2b4f669dd82"}'></script>
+
+    {adsenseEnabled && (
+      <>
+        <meta name="google-adsense-account" content={adsenseClient} />
+        <script
+          async
+          src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${adsenseClient}`}
+          crossorigin="anonymous"
+        />
+      </>
+    )}
   </head>
   <body>
     <Header />
     <slot />
     <Footer />
+    <CookieConsent />
   </body>
 </html>
