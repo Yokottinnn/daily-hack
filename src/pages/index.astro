@@ -2,12 +2,9 @@
 import { getCollection } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Hero from '../components/Hero.astro';
-import MoodStrip from '../components/MoodStrip.astro';
 import UrgentCampaigns from '../components/UrgentCampaigns.astro';
 import PostCard from '../components/PostCard.astro';
 import ComicBand from '../components/ComicBand.astro';
-import QABand from '../components/QABand.astro';
-import MoodGrid from '../components/MoodGrid.astro';
 import Ticker from '../components/Ticker.astro';
 import CategoryNav from '../components/CategoryNav.astro';
 import AboutCard from '../components/AboutCard.astro';
@@ -23,7 +20,6 @@ const campaigns = sorted.filter((p) => p.data.category === 'campaigns').slice(0,
 
 <BaseLayout title="Daily Hack" description="お得を毎日、ハック。ポイ活・節約・固定費削減のリアル最新情報を、毎日アップデート。">
   <Hero />
-  <MoodStrip />
   <UrgentCampaigns posts={campaigns} />
 
   <section>
@@ -40,8 +36,6 @@ const campaigns = sorted.filter((p) => p.data.category === 'campaigns').slice(0,
 
   <PeekCall />
   <ComicBand />
-  <QABand />
-  <MoodGrid />
   <Ticker />
   <CategoryNav />
   <AboutCard />

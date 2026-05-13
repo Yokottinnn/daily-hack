@@ -426,3 +426,33 @@ footer.foot .pr { margin-top: 6px; }
 .subtheme:last-child { border-bottom: 0; }
 .subtheme h3 { font-family: "RocknRoll One"; font-size: 22px; margin: 0 0 8px; }
 .subtheme .desc { color: var(--ink-2); margin: 0 0 18px; font-size: 14.5px; }
+
+/* Inline related posts block (記事中インラインで使う内部リンク) */
+.related-block { background: var(--pink-50); border: 1px solid var(--pink-200); border-radius: 18px; padding: 18px 22px; margin: 32px 0; box-shadow: var(--shadow-card); }
+.related-block-head { display: flex; align-items: center; gap: 12px; margin-bottom: 14px; }
+.related-block-icon { flex-shrink: 0; width: 34px; height: 34px; border-radius: 50%; overflow: hidden; box-shadow: 0 0 0 2px #fff, 0 0 0 3px var(--pink-200); }
+.related-block-icon img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 22%; transform: scale(1.15); display: block; }
+.related-block-title { margin: 0; font-family: "RocknRoll One"; font-weight: 400; color: var(--pink-700); font-size: 16px; }
+.related-block-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+.related-block-list li { margin: 0; }
+.related-block-list a { display: grid; grid-template-columns: auto 1fr; gap: 10px; align-items: baseline; padding: 10px 14px; background: #fff; border-radius: 12px; border: 1px solid var(--line); color: var(--ink); font-size: 14.5px; line-height: 1.55; transition: border-color .15s, transform .15s, box-shadow .15s; }
+.related-block-list a:hover { border-color: var(--pink-400, var(--pink-300)); transform: translateY(-1px); box-shadow: 0 4px 12px -6px rgba(214,62,118,.22); }
+.related-block-cat { font-size: 11px; font-weight: 700; color: var(--pink-600); background: var(--pink-50); border: 1px solid var(--pink-200); padding: 2px 8px; border-radius: 999px; white-space: nowrap; }
+.related-block-name { font-weight: 700; color: var(--ink); }
+
+/* Post banner (大型誘導バナー：画像+タイトル+CTA) */
+.post-banner { display: grid; grid-template-columns: 200px 1fr; gap: 20px; margin: 32px 0; background: #fff; border: 1px solid var(--line); border-radius: 22px; overflow: hidden; box-shadow: var(--shadow-card); color: var(--ink); transition: transform .18s, box-shadow .18s, border-color .18s; }
+.post-banner:hover { transform: translateY(-2px); box-shadow: var(--shadow-pop); border-color: var(--pink-200); }
+.post-banner-image { background: var(--pink-100); aspect-ratio: 5 / 3; min-height: 140px; }
+.post-banner-image img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.post-banner-body { padding: 18px 22px 18px 0; display: flex; flex-direction: column; gap: 6px; }
+.post-banner-headline { margin: 0; font-size: 12px; font-weight: 800; color: var(--pink-600); letter-spacing: .08em; }
+.post-banner-cat { display: inline-block; align-self: flex-start; font-size: 11px; font-weight: 700; color: var(--pink-600); background: var(--pink-50); border: 1px solid var(--pink-200); padding: 3px 10px; border-radius: 999px; }
+.post-banner-title { margin: 4px 0 4px; font-family: "RocknRoll One"; font-weight: 400; font-size: 18px; line-height: 1.45; color: var(--ink); }
+.post-banner-desc { margin: 0; font-size: 13px; line-height: 1.7; color: var(--ink-2); display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.post-banner-cta { margin-top: 10px; align-self: flex-start; background: var(--pink-500); color: #fff; padding: 8px 18px; border-radius: 999px; font-size: 13px; font-weight: 800; }
+@media (max-width: 600px) {
+  .post-banner { grid-template-columns: 1fr; }
+  .post-banner-image { aspect-ratio: 16/9; }
+  .post-banner-body { padding: 16px 18px 18px; }
+}
