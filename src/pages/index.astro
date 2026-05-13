@@ -11,12 +11,13 @@ import MoodGrid from '../components/MoodGrid.astro';
 import Ticker from '../components/Ticker.astro';
 import CategoryNav from '../components/CategoryNav.astro';
 import AboutCard from '../components/AboutCard.astro';
+import PeekCall from '../components/PeekCall.astro';
 
 const allPosts = await getCollection('posts', ({ data }) => !data.draft);
 const sorted = allPosts.sort(
   (a, b) => b.data.publishDate.getTime() - a.data.publishDate.getTime(),
 );
-const latest = sorted.slice(0, 4);
+const latest = sorted.slice(0, 3);
 const campaigns = sorted.filter((p) => p.data.category === 'campaigns').slice(0, 3);
 ---
 
@@ -37,6 +38,7 @@ const campaigns = sorted.filter((p) => p.data.category === 'campaigns').slice(0,
     </div>
   </section>
 
+  <PeekCall />
   <ComicBand />
   <QABand />
   <MoodGrid />

@@ -102,8 +102,10 @@ const editorialJsonLd = {
             <div class="thumb">
               <img src={`/images/${p.data.category === 'campaigns' ? 'scene-04-heart' : p.data.category === 'comparisons' ? 'expr-09-arms-crossed' : p.data.category === 'services' ? 'scene-07-grocery' : p.data.category === 'roundups' ? 'expr-05-smug' : 'expr-04-cheer'}.png`} alt="" />
             </div>
-            <h3>{p.data.title}</h3>
-            <div class="meta">{p.data.publishDate.toISOString().slice(0, 10).replace(/-/g, '.')}</div>
+            <div class="body">
+              <h3>{p.data.title}</h3>
+              <div class="meta">{p.data.publishDate.toISOString().slice(0, 10).replace(/-/g, '.')}</div>
+            </div>
           </a>
         ))}
       </div>
