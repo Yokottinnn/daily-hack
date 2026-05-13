@@ -6,7 +6,7 @@ import AboutCard from '../components/AboutCard.astro';
 const orgJsonLd = {
   '@context': 'https://schema.org',
   '@type': 'Organization',
-  name: '合同会社FieldBeside',
+  name: 'Fieldbeside合同会社',
   url: Astro.site?.toString(),
   logo: new URL('/images/mascot-avatar.png', Astro.site).toString(),
   contactPoint: {
@@ -18,7 +18,7 @@ const orgJsonLd = {
 };
 ---
 
-<BaseLayout title="Daily Hackについて" description="お得を毎日、ハック。Daily Hackは合同会社FieldBesideが運営するポイ活・節約・固定費削減の情報メディアです。">
+<BaseLayout title="Daily Hackについて" description="お得を毎日、ハック。Daily HackはFieldbeside合同会社が運営するポイ活・節約・固定費削減の情報メディアです。">
   <script type="application/ld+json" slot="head" set:html={JSON.stringify(orgJsonLd)} />
   <main class="wrap static-page">
     <Breadcrumb items={[
@@ -43,7 +43,7 @@ const orgJsonLd = {
 
     <h2>編集部紹介</h2>
     <p><strong>マスコット: ハッカー子</strong>。少し毒舌だけど本当は親切な、Daily Hack編集部の代弁者。「あんたバカぁ？まだ損してるの？」を口癖に、損してる選択肢を見つけては「しょうがないわね、教えてあげる」と正解を提示します。</p>
-    <p><strong>Daily Hack編集部</strong>。合同会社FieldBesideの情報メディア事業部。X（旧Twitter）アカウント <a href="https://x.com/heng_ji31590" target="_blank" rel="noopener">@heng_ji31590</a> も運営し、最新キャンペーン情報を毎日発信しています。</p>
+    <p><strong>Daily Hack編集部</strong>。Fieldbeside合同会社の情報メディア事業部。X（旧Twitter）アカウント <a href="https://x.com/heng_ji31590" target="_blank" rel="noopener">@heng_ji31590</a> も運営し、最新キャンペーン情報を毎日発信しています。</p>
 
     <h2>取り扱うテーマ</h2>
     <ul>
@@ -57,7 +57,7 @@ const orgJsonLd = {
     <h2>運営会社情報</h2>
     <table style="border-collapse: collapse; width: 100%; margin: 14px 0;">
       <tbody>
-        <tr><th style="text-align: left; padding: 10px 0; border-bottom: 1px solid var(--line); width: 30%;">法人名</th><td style="padding: 10px 0; border-bottom: 1px solid var(--line);">合同会社FieldBeside</td></tr>
+        <tr><th style="text-align: left; padding: 10px 0; border-bottom: 1px solid var(--line); width: 30%;">法人名</th><td style="padding: 10px 0; border-bottom: 1px solid var(--line);">Fieldbeside合同会社</td></tr>
         <tr><th style="text-align: left; padding: 10px 0; border-bottom: 1px solid var(--line);">代表者</th><td style="padding: 10px 0; border-bottom: 1px solid var(--line);">横田直紀</td></tr>
         <tr><th style="text-align: left; padding: 10px 0; border-bottom: 1px solid var(--line);">所在地</th><td style="padding: 10px 0; border-bottom: 1px solid var(--line);">東京都（詳細は<a href="/contact/">お問い合わせ</a>よりご請求ください）</td></tr>
         <tr><th style="text-align: left; padding: 10px 0; border-bottom: 1px solid var(--line);">事業内容</th><td style="padding: 10px 0; border-bottom: 1px solid var(--line);">情報メディアの運営、コンテンツの企画・制作</td></tr>
