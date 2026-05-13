@@ -441,18 +441,26 @@ footer.foot .pr { margin-top: 6px; }
 .related-block-name { font-weight: 700; color: var(--ink); }
 
 /* Post banner (大型誘導バナー：画像+タイトル+CTA) */
-.post-banner { display: grid; grid-template-columns: 200px 1fr; gap: 20px; margin: 32px 0; background: #fff; border: 1px solid var(--line); border-radius: 22px; overflow: hidden; box-shadow: var(--shadow-card); color: var(--ink); transition: transform .18s, box-shadow .18s, border-color .18s; }
-.post-banner:hover { transform: translateY(-2px); box-shadow: var(--shadow-pop); border-color: var(--pink-200); }
-.post-banner-image { background: var(--pink-100); aspect-ratio: 5 / 3; min-height: 140px; }
+.post-banner { display: flex; flex-direction: row; align-items: stretch; gap: 0; margin: 32px 0; background: #fff; border: 1px solid var(--line) !important; border-radius: 22px; overflow: hidden; box-shadow: var(--shadow-card); color: var(--ink); text-decoration: none; transition: transform .18s, box-shadow .18s, border-color .18s; }
+.post-banner:hover { transform: translateY(-2px); box-shadow: var(--shadow-pop); border-color: var(--pink-200) !important; }
+.post-banner-image { flex: 0 0 220px; width: 220px; align-self: stretch; background: var(--pink-100); overflow: hidden; }
 .post-banner-image img { width: 100%; height: 100%; object-fit: cover; display: block; }
-.post-banner-body { padding: 18px 22px 18px 0; display: flex; flex-direction: column; gap: 6px; }
-.post-banner-headline { margin: 0; font-size: 12px; font-weight: 800; color: var(--pink-600); letter-spacing: .08em; }
+.post-banner-body { flex: 1 1 auto; min-width: 0; padding: 20px 24px; display: flex; flex-direction: column; gap: 6px; }
+.post-banner-body p,
+.post-banner-body span { margin: 0; }
+.post-banner-headline { font-size: 12px; font-weight: 800; color: var(--pink-600) !important; letter-spacing: .08em; }
 .post-banner-cat { display: inline-block; align-self: flex-start; font-size: 11px; font-weight: 700; color: var(--pink-600); background: var(--pink-50); border: 1px solid var(--pink-200); padding: 3px 10px; border-radius: 999px; }
-.post-banner-title { margin: 4px 0 4px; font-family: "RocknRoll One"; font-weight: 400; font-size: 18px; line-height: 1.45; color: var(--ink); }
-.post-banner-desc { margin: 0; font-size: 13px; line-height: 1.7; color: var(--ink-2); display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
-.post-banner-cta { margin-top: 10px; align-self: flex-start; background: var(--pink-500); color: #fff; padding: 8px 18px; border-radius: 999px; font-size: 13px; font-weight: 800; }
-@media (max-width: 600px) {
-  .post-banner { grid-template-columns: 1fr; }
-  .post-banner-image { aspect-ratio: 16/9; }
+.post-banner-title { font-family: "RocknRoll One"; font-weight: 400; font-size: 18px; line-height: 1.45; color: var(--ink) !important; }
+.post-banner-desc { font-size: 13px; line-height: 1.7; color: var(--ink-2) !important; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.post-banner-cta { margin-top: auto !important; align-self: flex-start; background: var(--pink-500); color: #fff !important; padding: 8px 18px; border-radius: 999px; font-size: 13px; font-weight: 800; }
+@media (max-width: 540px) {
+  .post-banner { flex-direction: column; }
+  .post-banner-image { flex: 0 0 auto; width: 100%; min-height: 0; aspect-ratio: 16/9; }
   .post-banner-body { padding: 16px 18px 18px; }
 }
+
+/* Defensive resets for inline-link/banner inside .post-body (avoid prose styles bleeding in) */
+.post-body .related-block-list a,
+.post-body .post-banner { border-bottom: 0 !important; }
+.post-body .related-block-list a:hover,
+.post-body .post-banner:hover { border-color: var(--pink-200) !important; }
