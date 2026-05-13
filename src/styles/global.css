@@ -110,12 +110,20 @@ button { font-family: inherit; cursor: pointer; border: 0; background: none; pad
 .bubble.top-left::after { right: 24px; bottom: -11px; transform: rotate(45deg); }
 .bubble.top-left .lg { font-size: 18px; color: var(--pink-600); display: block; }
 .bubble.top-left .sm { font-size: 14px; color: var(--ink); display: block; }
+.bubble.bottom-right { bottom: -4%; right: -10%; transform: rotate(3deg); }
+.bubble.bottom-right::after { left: 26px; top: -11px; transform: rotate(-135deg); }
+.bubble.bottom-right .lg { font-size: 17px; color: var(--pink-600); display: block; }
+.bubble.bottom-right .sm { font-size: 13.5px; color: var(--ink); display: block; }
 .float-tag { position: absolute; background: #fff; border-radius: 14px; padding: 10px 14px; box-shadow: var(--shadow-pop); font-size: 13px; font-weight: 700; display: flex; align-items: center; gap: 8px; border: 1px solid var(--line); }
 .float-tag .ic { width: 28px; height: 28px; border-radius: 8px; display: grid; place-items: center; color: #fff; font-size: 13px; font-family: "RocknRoll One"; }
 .float-tag.t1 { bottom: 8%; left: -10%; animation: bobA 4s ease-in-out infinite; }
 .float-tag.t1 .ic { background: var(--yellow-500); color: #8C5C00; }
 .float-tag.t2 { top: 18%; right: -6%; animation: bobB 5s ease-in-out infinite; }
 .float-tag.t2 .ic { background: var(--ink); }
+.float-tag.t3 { top: 46%; left: -14%; animation: bobB 4.6s ease-in-out infinite .6s; }
+.float-tag.t3 .ic { background: var(--pink-500); color: #fff; }
+.float-tag.t4 { bottom: 30%; right: -10%; animation: bobA 5.4s ease-in-out infinite 1.1s; }
+.float-tag.t4 .ic { background: #6BA84F; color: #fff; }
 .float-tag .num { color: var(--pink-500); font-weight: 900; }
 @keyframes bobA { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-8px); } }
 @keyframes bobB { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(7px); } }
@@ -124,8 +132,11 @@ button { font-family: inherit; cursor: pointer; border: 0; background: none; pad
   .hero .grid { grid-template-columns: 1fr; gap: 24px; }
   .hero-char { max-width: 320px; margin: 0 auto; }
   .bubble.top-left { left: -4%; }
+  .bubble.bottom-right { right: -2%; }
   .float-tag.t1 { left: -2%; }
   .float-tag.t2 { right: -2%; }
+  .float-tag.t3 { left: -4%; }
+  .float-tag.t4 { right: -2%; }
 }
 
 /* ============ MASCOT STRIP ============ */
