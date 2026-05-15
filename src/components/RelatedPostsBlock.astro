@@ -1,0 +1,55 @@
+---
+import { getCollection } from 'astro:content';
+
+export interface Props {
+  slugs?: string[];
+  tagsMatch?: string[];
+  title?: string;
+  limit?: number;
+}
+
+const { slugs, tagsMatch, title = 'あわせて読みたい', limit = 3 } = Astro.props;
+
+const categoryLabel: Record<string, string> = {
+  campaigns: 'キャンペーン',
+  services: 'サービス',
+  comparisons: '比較',
+  roundups: 'まとめ',
+  howto: 'ハウツー',
+};
+
+const all = await getCollection('posts', ({ data }) => !data.draft);
+
+let picked: typeof all = [];
+
+if (slugs && slugs.length > 0) {
+  const order = new Map(slugs.map((s, i) => [s, i] as const));
+  picked = all
+    .filter((p) => order.has(p.id))
+    .sort((a, b) => (order.get(a.id) ?? 0) - (order.get(b.id) ?? 0));
+} else if (tagsMatch && tagsMatch.length > 0) {
+  picked = all
+    .filter((p) => p.data.tags?.some((t) => tagsMatch.includes(t)))
+    .sort((a, b) => b.data.publishDate.getTime() - a.data.publishDate.getTime())
+    .slice(0, limit);
+}
+---
+
+{picked.length > 0 && (
+  <aside class="related-block" aria-label={title}>
+    <div class="related-block-head">
+      <span class="related-block-icon"><img src="/images/expr-04-cheer.png" alt="" /></span>
+      <p class="related-block-title">{title}</p>
+    </div>
+    <ul class="related-block-list">
+      {picked.slice(0, limit).map((p) => (
+        <li>
+          <a href={`/posts/${p.id}/`}>
+            <span class="related-block-cat">{categoryLabel[p.data.category] ?? p.data.category}</span>
+            <span class="related-block-name">{p.data.title}</span>
+          </a>
+        </li>
+      ))}
+    </ul>
+  </aside>
+)}

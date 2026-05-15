@@ -45,7 +45,6 @@ const related = allPosts
   .sort((a, b) => b.data.publishDate.getTime() - a.data.publishDate.getTime())
   .slice(0, 4);
 
-// Pillar/Cluster: 親ピラー記事と兄弟クラスター記事を取得
 const parentPillar = data.parentPillar
   ? allPosts.find((p) => p.id === data.parentPillar)
   : undefined;
@@ -67,7 +66,7 @@ const articleJsonLd = {
   author: { '@type': 'Organization', name: 'Daily Hack編集部' },
   publisher: {
     '@type': 'Organization',
-    name: '合同会社FieldBeside',
+    name: 'Fieldbeside合同会社',
     logo: {
       '@type': 'ImageObject',
       url: new URL('/images/mascot-avatar.png', Astro.site).toString(),
@@ -153,8 +152,8 @@ const articleJsonLd = {
     {siblingClusters.length > 0 && parentPillar && (
       <section style="padding: 56px 0 24px;">
         <div class="sec-head">
-          <h2><span class="chibi"><img src="/images/expr-04-cheer.png" alt="" /></span>同じピラー記事の他のクラスター</h2>
-          <a href={`/posts/${parentPillar.id}/`} class="seeall">親ガイドへ戻る →</a>
+          <h2><span class="chibi"><img src="/images/expr-04-cheer.png" alt="" /></span>シリーズの他の記事</h2>
+          <a href={`/posts/${parentPillar.id}/`} class="seeall">メイン記事へ戻る →</a>
         </div>
         <div class="articles">
           {siblingClusters.map((p) => <PostCard post={p} />)}

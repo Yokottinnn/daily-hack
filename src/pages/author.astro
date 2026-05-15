@@ -11,31 +11,30 @@ const recent = allPosts
 
 const editorialJsonLd = {
   '@context': 'https://schema.org',
-  '@type': 'Person',
-  name: 'ハッカー子',
-  alternateName: 'Daily Hack編集部',
-  jobTitle: 'メディア編集',
-  worksFor: {
+  '@type': 'Organization',
+  name: 'Daily Hack 編集部',
+  description:
+    'Daily Hack を運営する編集チーム。ポイ活・節約・固定費削減の最新情報を、一次情報ベースで毎日アップデートしています。',
+  parentOrganization: {
     '@type': 'Organization',
-    name: '合同会社FieldBeside',
+    name: 'Fieldbeside合同会社',
     url: Astro.site?.toString(),
   },
-  description: 'Daily Hack のマスコット兼編集者。日常の「損してる行為」を毒舌で指摘し、正しい選択肢を提示する。',
-  image: new URL('/images/mascot-avatar.png', Astro.site).toString(),
+  logo: new URL('/images/mascot-avatar.png', Astro.site).toString(),
   sameAs: ['https://x.com/heng_ji31590'],
 };
 ---
 
 <BaseLayout
-  title="編集部プロフィール"
-  description="Daily Hack を運営する編集部の自己紹介。ハッカー子（マスコット）+ 合同会社FieldBeside の編集チームが、ポイ活・節約・固定費削減の最新情報を毎日アップデートしています。"
+  title="Daily Hack 編集部"
+  description="Daily Hack を運営する Daily Hack 編集部 の自己紹介。マスコットのハッカー子と一緒に、ポイ活・節約・固定費削減の最新情報を毎日アップデートしています。"
 >
   <script type="application/ld+json" slot="head" set:html={JSON.stringify(editorialJsonLd)} />
 
   <main class="wrap" style="padding: 48px 0 0;">
     <Breadcrumb items={[
       { label: 'ホーム', href: '/' },
-      { label: '編集部プロフィール' },
+      { label: 'Daily Hack 編集部' },
     ]} />
   </main>
 
@@ -43,19 +42,22 @@ const editorialJsonLd = {
     <div class="wrap grid">
       <div>
         <span class="eyebrow">EDITORIAL TEAM</span>
-        <h1>編集部・<br /><span class="accent">ハッカー子</span></h1>
+        <h1>Daily Hack<br /><span class="accent">編集部</span></h1>
         <p class="lead">
-          Daily Hack のマスコット兼編集者。毎日100以上のキャンペーン・サービスをチェックし、「これは本当にお得」と判断したものだけを記事化します。<br />…別にアンタのためじゃないけど。
+          毎日100以上のキャンペーン・サービスを検証し、「これは本当にお得」と判断したものだけを記事化。<br />マスコットの ハッカー子 を窓口に、ポイ活・節約・固定費削減の最新情報をお届けします。
         </p>
         <div class="ctas">
           <a href="https://x.com/heng_ji31590" target="_blank" rel="noopener" class="btn btn-primary">𝕏でフォローする <span class="arr">→</span></a>
           <a href="/contact/" class="btn btn-ghost">取材・寄稿依頼</a>
         </div>
       </div>
-      <div class="hero-illust" aria-hidden="true">
+      <div class="hero-char" aria-hidden="true">
         <div class="blob"></div>
-        <div class="photo"><img src="/images/expr-09-arms-crossed.png" alt="ハッカー子" /></div>
-        <div class="speech s1">「あんたバカぁ？<br /><b>まだ損してるの？</b>」</div>
+        <div class="frame"><img src="/images/mascot-avatar.png" alt="Daily Hackマスコット ハッカー子" /></div>
+        <div class="bubble top-left">
+          <span class="lg">あんたバカぁ？</span>
+          <span class="sm">まだ損してるの？</span>
+        </div>
       </div>
     </div>
   </section>
@@ -89,7 +91,7 @@ const editorialJsonLd = {
     </ol>
 
     <h2>運営会社</h2>
-    <p>Daily Hack は <strong>合同会社FieldBeside</strong>（代表: 横田直紀）が運営しています。詳細は <a href="/about/">運営者情報</a> をご確認ください。</p>
+    <p>Daily Hack は <strong>Fieldbeside合同会社</strong> が運営しています。詳細は <a href="/about/">運営者情報</a> をご確認ください。</p>
 
     <h2>最新の記事</h2>
   </main>
@@ -102,8 +104,10 @@ const editorialJsonLd = {
             <div class="thumb">
               <img src={`/images/${p.data.category === 'campaigns' ? 'scene-04-heart' : p.data.category === 'comparisons' ? 'expr-09-arms-crossed' : p.data.category === 'services' ? 'scene-07-grocery' : p.data.category === 'roundups' ? 'expr-05-smug' : 'expr-04-cheer'}.png`} alt="" />
             </div>
-            <h3>{p.data.title}</h3>
-            <div class="meta">{p.data.publishDate.toISOString().slice(0, 10).replace(/-/g, '.')}</div>
+            <div class="body">
+              <h3>{p.data.title}</h3>
+              <div class="meta">{p.data.publishDate.toISOString().slice(0, 10).replace(/-/g, '.')}</div>
+            </div>
           </a>
         ))}
       </div>

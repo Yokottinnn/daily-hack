@@ -1,18 +1,20 @@
 ---
 const nav = [
+  { href: '/posts/', label: '記事一覧' },
   { href: '/category/campaigns/', label: 'キャンペーン速報' },
   { href: '/category/services/', label: 'サービス紹介' },
   { href: '/category/comparisons/', label: '比較' },
   { href: '/category/howto/', label: 'ハウツー' },
+  { href: '/category/roundups/', label: 'まとめ' },
 ];
 ---
 
 <header class="site-header">
   <div class="wrap row">
     <a href="/" class="brand" aria-label="Daily Hack ホーム">
-      <span class="mark"><img src="/images/expr-05-smug.png" alt="" /></span>
+      <span class="mark"><img src="/images/mascot-avatar.png" alt="" /></span>
       <span class="name">Daily Hack</span>
-      <span class="tag">お得を毎日、ハック。</span>
+      <span class="tag">あんたバカぁ？まだ損してるの？</span>
     </a>
     <nav class="nav" aria-label="メインナビ">
       {nav.map((n) => <a href={n.href} class="item">{n.label}</a>)}
@@ -38,7 +40,7 @@ const nav = [
   <div class="drawer-inner">
     <div class="drawer-head">
       <a href="/" class="brand" aria-label="Daily Hack ホーム">
-        <span class="mark"><img src="/images/expr-05-smug.png" alt="" /></span>
+        <span class="mark"><img src="/images/mascot-avatar.png" alt="" /></span>
         <span class="name">Daily Hack</span>
       </a>
       <button class="drawer-close" type="button" aria-label="メニューを閉じる" id="drawer-close">×</button>

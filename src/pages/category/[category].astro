@@ -109,8 +109,8 @@ for (const p of sorted) {
     <section>
       <div class="wrap">
         <div class="sec-head">
-          <h2><span class="chibi"><img src="/images/expr-02-pout.png" alt="" /></span>完全ガイド（ピラー記事）</h2>
-          <span style="font-size: 12px; color: var(--ink-3);">テーマを網羅的に解説</span>
+          <h2><span class="chibi"><img src="/images/expr-02-pout.png" alt="" /></span>じっくり読みたい記事</h2>
+          <span style="font-size: 12px; color: var(--ink-3);">テーマを掘り下げて解説</span>
         </div>
         <div class="articles">
           {pillarPosts.filter((p) => !featured.includes(p)).map((p) => (
@@ -118,7 +118,7 @@ for (const p of sorted) {
               <PostCard post={p} />
               {clusterByPillar.has(p.id) && (
                 <div style="margin-top: 10px; padding-left: 12px; border-left: 2px solid var(--pink-200);">
-                  <div style="font-size: 11px; color: var(--ink-3); font-weight: 700; margin-bottom: 4px;">関連クラスター記事</div>
+                  <div style="font-size: 11px; color: var(--ink-3); font-weight: 700; margin-bottom: 4px;">関連記事</div>
                   <ul style="margin: 0; padding-left: 16px; font-size: 13px; color: var(--ink-2);">
                     {clusterByPillar.get(p.id)!.slice(0, 3).map((c) => (
                       <li><a href={`/posts/${c.id}/`} style="border-bottom: 1px dotted var(--pink-300);">{c.data.title}</a></li>
@@ -137,7 +137,7 @@ for (const p of sorted) {
     <section>
       <div class="wrap">
         <div class="sec-head">
-          <h2><span class="chibi"><img src="/images/expr-04-cheer.png" alt="" /></span>個別解説（クラスター記事）</h2>
+          <h2><span class="chibi"><img src="/images/expr-04-cheer.png" alt="" /></span>個別解説の記事</h2>
         </div>
         <div class="articles">
           {rest.filter((p) => p.data.parentPillar).map((p) => <PostCard post={p} />)}
