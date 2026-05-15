@@ -21,12 +21,18 @@ author: "hacker-ko"
   </div>
   <ul class="related-block-list">
     <li><a href="/posts/best-online-banks-2026/">
-      <span class="related-block-cat">比較</span>
-      <span class="related-block-name">【2026年版】ネット銀行おすすめ5選比較</span>
+      <span class="related-block-thumb"><img src="/images/eyecatch/comparisons.jpg" alt="" loading="lazy" /></span>
+      <span class="related-block-body">
+        <span class="related-block-cat">比較</span>
+        <span class="related-block-name">【2026年版】ネット銀行おすすめ5選比較</span>
+      </span>
     </a></li>
     <li><a href="/posts/olive-30000-cb-may-2026/">
-      <span class="related-block-cat">キャンペーン</span>
-      <span class="related-block-name">Olive契約で最大30,000円還元キャンペーン</span>
+      <span class="related-block-thumb"><img src="/images/eyecatch/campaigns.jpg" alt="" loading="lazy" /></span>
+      <span class="related-block-body">
+        <span class="related-block-cat">キャンペーン</span>
+        <span class="related-block-name">Olive契約で最大30,000円還元キャンペーン</span>
+      </span>
     </a></li>
   </ul>
 </aside>
@@ -57,19 +63,78 @@ author: "hacker-ko"
 
 ここで差がつく。コンビニで7%還元、Amazonで2%、楽天市場で最大16%……。**自分の支出パターンに刺さる「上乗せ」があるカードを選ぶ**のが正解。誰にとってもベストな1枚は存在しないから、自分の生活を一度棚卸ししなさい。
 
-## 年会費無料×還元率1%以上 おすすめ5枚比較表
+## 年会費無料×還元率1%以上 おすすめ5枚
 
-| カード名 | 年会費 | 基本還元率 | 特定店舗還元 | 国際ブランド | 入会キャンペーン |
-|---|---|---|---|---|---|
-| 楽天カード | 永年無料 | 1.0% | 楽天市場で最大16%（SPU） | VISA / Mastercard / JCB / AMEX | 新規入会＋利用で5,000〜8,000ポイント |
-| 三井住友カード（NL） | 永年無料 | 0.5% | 対象コンビニ・飲食店で最大7%（スマホタッチ決済） | VISA / Mastercard | 新規入会＋条件達成で最大8,000円相当 |
-| JCBカードW | 永年無料 | 1.0%（JCB一般の2倍） | Amazon・スタバ等で最大10%超 | JCB | 入会で最大14,000円キャッシュバック（時期変動） |
-| リクルートカード | 永年無料 | 1.2% | じゃらん・ホットペッパーで最大3.2% | VISA / Mastercard / JCB | 新規入会で最大6,000円分ポイント |
-| PayPayカード | 永年無料 | 1.0% | Yahoo!ショッピング・LOHACOで最大5% | VISA / Mastercard / JCB | 新規入会＋利用で最大7,000円相当 |
+「全部1%以上じゃん、どれでもいいの？」って思ったあんた、まだ甘い。**特定店舗の上乗せが本体**よ。1枚ずつハッカー子目線でまとめてあげる。
 
-※キャンペーン金額・条件は時期により変動します。最終確認は公式サイトで。
+<div class="compare-cards">
+  <article class="compare-card recommended">
+    <h3>楽天カード</h3>
+    <p class="tagline">楽天経済圏ユーザーは議論終了。SPUで楽天市場が爆盛り。</p>
+    <dl>
+      <dt>年会費</dt><dd>永年無料</dd>
+      <dt>基本還元率</dt><dd>1.0%</dd>
+      <dt>特定店舗</dt><dd>楽天市場で最大16%（SPU）</dd>
+      <dt>国際ブランド</dt><dd>VISA / Mastercard / JCB / AMEX</dd>
+      <dt>入会特典</dt><dd>5,000〜8,000ポイント</dd>
+    </dl>
+    <a class="compare-cta" href="https://www.rakuten-card.co.jp/" target="_blank" rel="sponsored noopener nofollow">公式キャンペーンページ →</a>
+  </article>
 
-「全部1%以上じゃん、どれでもいいの？」って思ったあんた、まだ甘い。**特定店舗の上乗せが本体**よ。基本還元率なんてどんぐりの背比べ。下で用途別に正解を教えてあげる。
+  <article class="compare-card">
+    <h3>三井住友カード（NL）</h3>
+    <p class="tagline">コンビニ・マック・サイゼで生きてるなら、スマホタッチで7%還元。</p>
+    <dl>
+      <dt>年会費</dt><dd>永年無料</dd>
+      <dt>基本還元率</dt><dd>0.5%</dd>
+      <dt>特定店舗</dt><dd>対象コンビニ・飲食店で最大7%（スマホタッチ決済）</dd>
+      <dt>国際ブランド</dt><dd>VISA / Mastercard</dd>
+      <dt>入会特典</dt><dd>新規入会＋条件達成で最大8,000円相当</dd>
+    </dl>
+    <a class="compare-cta" href="https://www.smbc-card.com/camp/00098/index.jsp" target="_blank" rel="sponsored noopener nofollow">公式キャンペーンページ →</a>
+  </article>
+
+  <article class="compare-card recommended">
+    <h3>JCBカードW</h3>
+    <p class="tagline">39歳以下しか作れない期間限定。Amazon・スタバで還元が爆上がり。</p>
+    <dl>
+      <dt>年会費</dt><dd>永年無料</dd>
+      <dt>基本還元率</dt><dd>1.0%（JCB一般の2倍）</dd>
+      <dt>特定店舗</dt><dd>Amazon・スタバ・セブン等で最大10%超</dd>
+      <dt>国際ブランド</dt><dd>JCB</dd>
+      <dt>入会特典</dt><dd>最大14,000円キャッシュバック（時期変動）</dd>
+    </dl>
+    <a class="compare-cta" href="https://www.jcb.co.jp/ordercard/jcbw/" target="_blank" rel="sponsored noopener nofollow">公式キャンペーンページ →</a>
+  </article>
+
+  <article class="compare-card">
+    <h3>リクルートカード</h3>
+    <p class="tagline">基本還元率1.2%の業界トップクラス。じゃらん・ホットペッパー族に刺さる。</p>
+    <dl>
+      <dt>年会費</dt><dd>永年無料</dd>
+      <dt>基本還元率</dt><dd>1.2%</dd>
+      <dt>特定店舗</dt><dd>じゃらん・ホットペッパーで最大3.2%</dd>
+      <dt>国際ブランド</dt><dd>VISA / Mastercard / JCB</dd>
+      <dt>入会特典</dt><dd>新規入会で最大6,000円分ポイント</dd>
+    </dl>
+    <a class="compare-cta" href="https://recruit-card.jp/" target="_blank" rel="sponsored noopener nofollow">公式キャンペーンページ →</a>
+  </article>
+
+  <article class="compare-card">
+    <h3>PayPayカード</h3>
+    <p class="tagline">PayPay残高に直接チャージできる唯一のクレカ。Yahoo!ショッピング派の正解。</p>
+    <dl>
+      <dt>年会費</dt><dd>永年無料</dd>
+      <dt>基本還元率</dt><dd>1.0%</dd>
+      <dt>特定店舗</dt><dd>Yahoo!ショッピング・LOHACOで最大5%</dd>
+      <dt>国際ブランド</dt><dd>VISA / Mastercard / JCB</dd>
+      <dt>入会特典</dt><dd>新規入会＋利用で最大7,000円相当</dd>
+    </dl>
+    <a class="compare-cta" href="https://www.paypay-card.co.jp/" target="_blank" rel="sponsored noopener nofollow">公式キャンペーンページ →</a>
+  </article>
+</div>
+
+<p class="source-note">※ キャンペーン金額・条件は時期により変動します。最終確認は各公式サイトでお願い。</p>
 
 ## 用途別おすすめ: あんたの財布、どこで開く？
 
@@ -127,12 +192,18 @@ PayPay残高にチャージできる**唯一の主要クレカ**。PayPayステ�
   </div>
   <ul class="related-block-list">
     <li><a href="/posts/pointkatsu-guide-2026/">
-      <span class="related-block-cat">ハウツー</span>
-      <span class="related-block-name">ポイ活の始め方｜2026年最新版・最短ルート</span>
+      <span class="related-block-thumb"><img src="/images/eyecatch/howto.jpg" alt="" loading="lazy" /></span>
+      <span class="related-block-body">
+        <span class="related-block-cat">ハウツー</span>
+        <span class="related-block-name">ポイ活の始め方｜2026年最新版・最短ルート</span>
+      </span>
     </a></li>
     <li><a href="/posts/rakuten-bank-referral/">
-      <span class="related-block-cat">サービス</span>
-      <span class="related-block-name">楽天銀行の紹介コードでもらえる特典まとめ</span>
+      <span class="related-block-thumb"><img src="/images/eyecatch/services.jpg" alt="" loading="lazy" /></span>
+      <span class="related-block-body">
+        <span class="related-block-cat">サービス</span>
+        <span class="related-block-name">楽天銀行の紹介コードでもらえる特典まとめ</span>
+      </span>
     </a></li>
   </ul>
 </aside>
@@ -149,25 +220,6 @@ PayPay残高にチャージできる**唯一の主要クレカ**。PayPayステ�
 6. **入会キャンペーンの条件達成**: 「入会後◯ヶ月以内に◯万円利用」など、必ず条件を確認してクリアする
 
 > ⚠️ **注意**: 短期間に複数枚同時申込（いわゆる多重申込）は審査落ちの原因。**1ヶ月に2枚まで**を目安に、欲しい順に1枚ずつ作りなさい。
-
-## で、結局あんたはどれにすべき？決定フロー
-
-迷ったらこの順番でYES / NOしていきなさい:
-
-- **Q1**: 楽天市場・楽天モバイル・楽天証券のいずれかを使ってる、または使う予定？
-  - YES → **楽天カード**でメイン構築 → 完了
-  - NO → Q2へ
-- **Q2**: コンビニ・マック・サイゼ・ガスト等で月1万円以上使う？
-  - YES → **三井住友カード（NL）**でメイン構築 → 完了
-  - NO → Q3へ
-- **Q3**: あんたは39歳以下で、Amazonをよく使う？
-  - YES → **JCBカードW**でメイン構築 → 完了
-  - NO → Q4へ
-- **Q4**: PayPay・Yahoo!ショッピングを日常使いしてる？
-  - YES → **PayPayカード**でメイン構築 → 完了
-  - NO → **リクルートカード**で基本還元率1.2%を確保 → 完了
-
-メインが決まったら、半年後に**サブカード（特定店舗特化）**を1枚追加するのが王道。例: メイン楽天カード + サブ三井住友NLでコンビニ攻略、みたいな組み合わせね。
 
 ## よくある質問
 
@@ -194,12 +246,18 @@ PayPay残高にチャージできる**唯一の主要クレカ**。PayPayステ�
   </div>
   <ul class="related-block-list">
     <li><a href="/posts/may-2026-bank-campaigns-roundup/">
-      <span class="related-block-cat">まとめ</span>
-      <span class="related-block-name">5月の銀行キャンペーンまとめ｜2026年</span>
+      <span class="related-block-thumb"><img src="/images/eyecatch/roundups.jpg" alt="" loading="lazy" /></span>
+      <span class="related-block-body">
+        <span class="related-block-cat">まとめ</span>
+        <span class="related-block-name">5月の銀行キャンペーンまとめ｜2026年</span>
+      </span>
     </a></li>
     <li><a href="/posts/olive-30000-cb-may-2026/">
-      <span class="related-block-cat">キャンペーン</span>
-      <span class="related-block-name">Olive契約で最大30,000円還元キャンペーン</span>
+      <span class="related-block-thumb"><img src="/images/eyecatch/campaigns.jpg" alt="" loading="lazy" /></span>
+      <span class="related-block-body">
+        <span class="related-block-cat">キャンペーン</span>
+        <span class="related-block-name">Olive契約で最大30,000円還元キャンペーン</span>
+      </span>
     </a></li>
   </ul>
 </aside>
