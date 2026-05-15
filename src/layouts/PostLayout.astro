@@ -76,10 +76,15 @@ const articleJsonLd = {
 };
 ---
 
-<BaseLayout title={data.title} description={data.description} ogImage={eyecatchSrc}>
+<BaseLayout title={data.title} description={data.description} ogImage={eyecatchSrc} noindex={data.draft}>
   <slot name="head" slot="head">
     <script type="application/ld+json" set:html={JSON.stringify(articleJsonLd)} />
   </slot>
+  {data.draft && (
+    <div style="position: fixed; top: 88px; right: 14px; z-index: 90; background: #F5C518; color: #2A1923; padding: 6px 14px; border-radius: 999px; font-size: 12px; font-weight: 800; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+      📝 DRAFT
+    </div>
+  )}
   <main class="wrap">
     <div class="post-wrap">
       <article class="post-main" data-pagefind-body>

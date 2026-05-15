@@ -27,6 +27,7 @@ jobs:
         env:
           PUBLIC_CLARITY_PROJECT_ID: ${{ vars.PUBLIC_CLARITY_PROJECT_ID }}
           PUBLIC_GA4_MEASUREMENT_ID: ${{ vars.PUBLIC_GA4_MEASUREMENT_ID }}
+          PUBLIC_INCLUDE_DRAFTS: ${{ github.event_name == 'pull_request' && 'true' || '' }}
       - name: Verify dist directory
         run: |
           if [ ! -d "dist" ]; then
