@@ -5,7 +5,7 @@ publishDate: 2026-05-15
 category: "comparisons"
 tags: ["クレジットカード", "年会費無料", "比較", "高還元"]
 isPR: true
-draft: true
+draft: false
 featured: true
 relatedReferrals: ["rakuten-card", "recruit-card"]
 eyecatchUrl: "https://images.unsplash.com/photo-1556742502-ec7c0e9f34b1?w=1200&q=80"

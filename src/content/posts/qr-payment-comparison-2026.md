@@ -5,7 +5,7 @@ publishDate: 2026-05-15
 category: "comparisons"
 tags: ["PayPay", "楽天ペイ", "d払い", "QRコード決済", "比較"]
 isPR: true
-draft: true
+draft: false
 featured: true
 eyecatchUrl: "https://images.unsplash.com/photo-1556742111-a301076d9d18?w=1200&q=80"
 eyecatchAlt: "スマホ決済アプリ（Google Pay）と決済端末"

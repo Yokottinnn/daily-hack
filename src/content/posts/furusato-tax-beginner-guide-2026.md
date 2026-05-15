@@ -5,7 +5,7 @@ publishDate: 2026-05-15
 category: "howto"
 tags: ["ふるさと納税", "節税", "入門", "ガイド"]
 isPR: true
-draft: true
+draft: false
 featured: true
 eyecatchUrl: "/images/eyecatch/furusato-tax-beginner-guide-2026-thumb.png"
 eyecatchAlt: "ふるさと納税の始め方｜2026年最新版・初心者向け最短ルート"
