@@ -61,6 +61,8 @@
     fab.type = 'button';
     fab.textContent = '💬 コメント追加';
     fab.id = 'dc-fab';
+    fab.setAttribute('aria-label', '選択範囲にコメントを追加');
+    fab.style.display = 'none';
     document.body.appendChild(fab);
 
     function escapeHtml(s) {
@@ -102,33 +104,49 @@
     }
 
     function showFab(rect) {
-      fab.style.top = (window.scrollY + rect.top - 40) + 'px';
-      fab.style.left = (window.scrollX + rect.left) + 'px';
+      const top = Math.max(8, rect.top - 40);
+      const left = Math.max(8, Math.min(rect.left, window.innerWidth - 160));
+      fab.style.top = top + 'px';
+      fab.style.left = left + 'px';
+      fab.style.display = 'inline-block';
       fab.classList.add('open');
     }
-    function hideFab() { fab.classList.remove('open'); }
+    function hideFab() {
+      fab.classList.remove('open');
+      fab.style.display = 'none';
+    }
 
     function onSelect() {
       const sel = window.getSelection();
-      const text = sel ? sel.toString().trim() : '';
+      if (!sel || sel.rangeCount === 0) { hideFab(); return; }
+      const text = sel.toString().trim();
       if (text.length < 2 || text.length > 500) { hideFab(); return; }
       const range = sel.getRangeAt(0);
-      const startEl = range.startContainer.parentElement;
-      if (!startEl || startEl.closest('#draft-comment-widget') || startEl.closest('#dc-fab')) {
+      const node = range.startContainer;
+      const startEl = node.nodeType === 3 ? node.parentElement : (node instanceof Element ? node : null);
+      if (!startEl || startEl.closest('#draft-comment-widget') || startEl.closest('#dc-fab') || startEl.closest('#dc-modal')) {
         hideFab();
         return;
       }
       const rect = range.getBoundingClientRect();
+      if (rect.width === 0 && rect.height === 0) { hideFab(); return; }
       pendingSnippet = text;
       showFab(rect);
     }
 
-    document.addEventListener('mouseup', () => setTimeout(onSelect, 10));
+    document.addEventListener('mouseup', () => setTimeout(onSelect, 30));
+    document.addEventListener('touchend', () => setTimeout(onSelect, 50));
+    document.addEventListener('selectionchange', () => {
+      const sel = window.getSelection();
+      if (!sel || sel.toString().trim().length === 0) hideFab();
+    });
     document.addEventListener('keyup', (e) => {
       if (e.shiftKey || e.key === 'ArrowLeft' || e.key === 'ArrowRight' || e.key === 'ArrowUp' || e.key === 'ArrowDown') {
-        setTimeout(onSelect, 10);
+        setTimeout(onSelect, 30);
       }
     });
+    window.addEventListener('scroll', hideFab, { passive: true });
+    window.addEventListener('resize', hideFab);
 
     fab.addEventListener('mousedown', (e) => e.preventDefault());
     fab.addEventListener('click', () => {
@@ -215,7 +233,7 @@
   })();
 </script>
 
-<style>
+<style is:global>
   #draft-comment-widget {
     position: fixed;
     top: 130px;
@@ -344,7 +362,7 @@
   .dc-meta .dc-del:hover { color: #C0392B; }
 
   #dc-fab {
-    position: absolute;
+    position: fixed !important;
     background: var(--pink-500);
     color: #fff;
     border: 0;
@@ -354,10 +372,12 @@
     font-weight: 700;
     cursor: pointer;
     box-shadow: 0 6px 16px rgba(0, 0, 0, 0.22);
-    z-index: 100;
+    z-index: 150;
     display: none;
+    font-family: inherit;
+    line-height: 1.4;
   }
-  #dc-fab.open { display: block; }
+  #dc-fab.open { display: inline-block; }
   #dc-fab:hover { background: var(--pink-600); }
 
   #dc-modal {
