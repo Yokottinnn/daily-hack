@@ -30,13 +30,13 @@ const dateStr = data.publishDate.toISOString().slice(0, 10).replace(/-/g, '.');
 const updatedStr = data.updatedDate?.toISOString().slice(0, 10).replace(/-/g, '.');
 
 const categoryFallback: Record<string, string> = {
-  campaigns: '/images/scene-04-heart.png',
-  services: '/images/scene-07-grocery.png',
-  comparisons: '/images/expr-09-arms-crossed.png',
-  roundups: '/images/expr-05-smug.png',
-  howto: '/images/expr-04-cheer.png',
+  campaigns: '/images/eyecatch/campaigns.jpg',
+  services: '/images/eyecatch/services.jpg',
+  comparisons: '/images/eyecatch/comparisons.jpg',
+  roundups: '/images/eyecatch/roundups.jpg',
+  howto: '/images/eyecatch/howto.jpg',
 };
-const eyecatchSrc = data.eyecatch?.src ?? data.eyecatchUrl ?? categoryFallback[data.category] ?? '/images/scene-07-grocery.png';
+const eyecatchSrc = data.eyecatch?.src ?? data.eyecatchUrl ?? categoryFallback[data.category] ?? '/images/eyecatch/services.jpg';
 const fullUrl = new URL(Astro.url.pathname, Astro.site).toString();
 
 const allPosts = await getCollection('posts', ({ data }) => !data.draft);
