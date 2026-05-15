@@ -14,6 +14,11 @@ author: "hacker-ko"
 
 ふるさと納税、まさかまだやってないの？年収400万のあんたでも、年間4〜5万円分の食料・日用品が**実質2,000円**で手に入る制度。やらない理由、本当にある？「難しそう」って言ってる間に、今年も控除枠が消えていくよ。アタシが最短ルートを教えてあげるから、この記事1本で全部終わらせよ。
 
+<div class="hakkako-says">
+  <div class="hakkako-mascot"><img src="/images/expr-04-cheer.png" alt="ハッカー子" /></div>
+  <div class="hakkako-quote">3分で読み終わって、その日のうちに申込開始できる構成にしたから。<strong>「あとでやる」は罪</strong>。アタシと一緒にサクッと終わらせちゃおう。</div>
+</div>
+
 <aside class="related-block">
   <div class="related-block-head">
     <span class="related-block-icon"><img src="/images/expr-04-cheer.png" alt="" /></span>
@@ -176,7 +181,10 @@ author: "hacker-ko"
   </div>
 </a>
 
-## 返礼品の選び方｜ハズレを引かないコツ
+<div class="section-with-mascot">
+  <img src="/images/expr-05-smug.png" alt="" />
+  <h2>返礼品の選び方｜ハズレを引かないコツ</h2>
+</div>
 
 「返礼品多すぎて選べない」ってあんた、それは選び方を知らないだけ。**カテゴリごとに勝ち筋がある**から教えてあげる。
 

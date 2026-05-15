@@ -478,6 +478,45 @@ footer.foot .pr { margin-top: 6px; }
 .figure-card h4 { margin: 0 0 6px; font-family: "RocknRoll One"; font-weight: 400; color: var(--pink-700); font-size: 15px; padding-left: 0 !important; border-left: 0 !important; }
 .figure-card p { margin: 0; font-size: 13px; line-height: 1.7; color: var(--ink-2); }
 
+/* Hakkako-says callout — mascot + inline quote that blends with article body */
+.hakkako-says { display: grid; grid-template-columns: 92px 1fr; gap: 18px; align-items: center; margin: 32px 0; background: linear-gradient(135deg, var(--pink-50), #fff); border: 1px solid var(--pink-200); border-radius: 20px; padding: 18px 22px; box-shadow: var(--shadow-card); }
+.hakkako-says .hakkako-mascot { width: 92px; height: 92px; border-radius: 50%; overflow: hidden; background: var(--pink-100); box-shadow: 0 0 0 3px #fff, 0 0 0 5px var(--pink-200); flex-shrink: 0; }
+.hakkako-says .hakkako-mascot img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 22%; transform: scale(1.15); display: block; }
+.hakkako-says .hakkako-quote { font-size: 14.5px; line-height: 1.85; color: var(--ink); }
+.hakkako-says .hakkako-quote strong { color: var(--pink-700); }
+@media (max-width: 540px) {
+  .hakkako-says { grid-template-columns: 64px 1fr; gap: 12px; padding: 14px 16px; }
+  .hakkako-says .hakkako-mascot { width: 64px; height: 64px; }
+  .hakkako-says .hakkako-quote { font-size: 13.5px; }
+}
+
+/* Section heading decorated with a small mascot to its left */
+.section-with-mascot { display: flex; align-items: center; gap: 16px; margin: 56px 0 18px; }
+.section-with-mascot img { width: 72px; height: 72px; border-radius: 50%; object-fit: cover; object-position: 50% 22%; background: var(--pink-100); box-shadow: 0 0 0 3px #fff, 0 0 0 4px var(--pink-200); transform: scale(1.15); flex-shrink: 0; }
+.section-with-mascot h2, .section-with-mascot h3 { margin: 0 !important; padding: 0 !important; border: 0 !important; flex: 1; }
+@media (max-width: 540px) {
+  .section-with-mascot img { width: 56px; height: 56px; }
+}
+
+/* Compare card with a campaign image and inline mascot reaction */
+.compare-card .compare-card-image { display: block; width: calc(100% + 40px); margin: -18px -20px 16px; aspect-ratio: 16/9; background: var(--pink-100); overflow: hidden; }
+.compare-card .compare-card-image img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.compare-card .compare-card-mascot { position: absolute; top: -16px; right: -10px; width: 56px; height: 56px; border-radius: 50%; overflow: hidden; background: var(--pink-100); box-shadow: 0 0 0 3px #fff, 0 0 0 4px var(--pink-200); transform: rotate(6deg); z-index: 2; }
+.compare-card .compare-card-mascot img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 22%; transform: scale(1.15); display: block; }
+@media (max-width: 540px) {
+  .compare-card .compare-card-image { margin: -16px -18px 14px; }
+}
+
+/* Fix related-block-icon vertical alignment when title wraps to multiple lines */
+.related-block-head { align-items: flex-start; }
+.related-block-icon { margin-top: 2px; }
+
+/* PR badge / category label horizontal alignment fix on post header */
+.post-head .art,
+.post-head .pr-badge { vertical-align: middle; line-height: 1; }
+.post-head .art .cat { line-height: 1; padding: 5px 12px; }
+.post-head .pr-badge { padding: 5px 10px; font-size: 11px; line-height: 1; }
+
 /* Campaign box */
 .cp-box { background: linear-gradient(135deg, var(--pink-50), #fff); border: 2px solid var(--pink-200); border-radius: 18px; padding: 20px; margin: 26px 0; }
 .cp-box .head { display: flex; align-items: center; gap: 10px; font-family: "RocknRoll One"; color: var(--pink-700); margin-bottom: 8px; }

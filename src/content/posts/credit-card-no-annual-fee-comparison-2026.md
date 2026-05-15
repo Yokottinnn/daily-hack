@@ -14,6 +14,11 @@ author: "hacker-ko"
 
 年会費5,000円のクレカで還元率0.5%、ドヤ顔で財布に入れてる人。アタシ、はっきり言うけどあんたバカぁ？ 2026年の今、**年会費0円で還元率1%以上**のクレカが普通に5枚は選べるのよ。年間100万円使うなら、それだけで1万円差。10年で10万円。気づいた瞬間に乗り換えなさい、というのが今日の話 😏
 
+<div class="hakkako-says">
+  <div class="hakkako-mascot"><img src="/images/expr-05-smug.png" alt="ハッカー子" /></div>
+  <div class="hakkako-quote">時間ない人のために、結論だけ先に置いておくわよ。<strong>迷う必要、本当にある？</strong> 細かい理由は下で全部教えてあげるから。</div>
+</div>
+
 <aside class="related-block">
   <div class="related-block-head">
     <span class="related-block-icon"><img src="/images/expr-04-cheer.png" alt="" /></span>
@@ -39,13 +44,9 @@ author: "hacker-ko"
 
 ## 結論: 2026年に持つべきクレカはこの3枚
 
-時間がないあんたのために、先に答えを置いておくから:
-
 - **メインカード**: 楽天カード（万人向け・還元率1%・楽天経済圏で爆発）
 - **コンビニ・外食最強**: 三井住友カード（NL）（対象店で最大7%）
 - **Amazon民の必携**: JCBカードW（基本2%・39歳以下限定）
-
-これ以上迷う必要、本当にある？ 細かい理由は下で全部教えてあげる。
 
 ## クレカ選びの「3つの軸」だけ覚えなさい
 
@@ -63,12 +64,17 @@ author: "hacker-ko"
 
 ここで差がつく。コンビニで7%還元、Amazonで2%、楽天市場で最大16%……。**自分の支出パターンに刺さる「上乗せ」があるカードを選ぶ**のが正解。誰にとってもベストな1枚は存在しないから、自分の生活を一度棚卸ししなさい。
 
-## 年会費無料×還元率1%以上 おすすめ5枚
+<div class="section-with-mascot">
+  <img src="/images/expr-09-arms-crossed.png" alt="" />
+  <h2>年会費無料×還元率1%以上 おすすめ5枚</h2>
+</div>
 
 「全部1%以上じゃん、どれでもいいの？」って思ったあんた、まだ甘い。**特定店舗の上乗せが本体**よ。1枚ずつハッカー子目線でまとめてあげる。
 
 <div class="compare-cards">
   <article class="compare-card recommended">
+    <span class="compare-card-image"><img src="https://image.card.jp.rakuten-static.com/card_corp/pc/contents/premiumprogram/kanban.png" alt="楽天カードのキャンペーンバナー" loading="lazy" /></span>
+    <span class="compare-card-mascot"><img src="/images/expr-05-smug.png" alt="" /></span>
     <h3>楽天カード</h3>
     <p class="tagline">楽天経済圏ユーザーは議論終了。SPUで楽天市場が爆盛り。</p>
     <dl>
@@ -82,6 +88,8 @@ author: "hacker-ko"
   </article>
 
   <article class="compare-card">
+    <span class="compare-card-image"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0nS1U10hbLAw9OJmiGwI0XQhwCMBMrFD0FQ" alt="三井住友カード（NL）のキャンペーン" loading="lazy" /></span>
+    <span class="compare-card-mascot"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <h3>三井住友カード（NL）</h3>
     <p class="tagline">コンビニ・マック・サイゼで生きてるなら、スマホタッチで7%還元。</p>
     <dl>
@@ -95,6 +103,7 @@ author: "hacker-ko"
   </article>
 
   <article class="compare-card recommended">
+    <span class="compare-card-mascot"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <h3>JCBカードW</h3>
     <p class="tagline">39歳以下しか作れない期間限定。Amazon・スタバで還元が爆上がり。</p>
     <dl>
@@ -104,10 +113,12 @@ author: "hacker-ko"
       <dt>国際ブランド</dt><dd>JCB</dd>
       <dt>入会特典</dt><dd>最大14,000円キャッシュバック（時期変動）</dd>
     </dl>
-    <a class="compare-cta" href="https://www.jcb.co.jp/ordercard/jcbw/" target="_blank" rel="sponsored noopener nofollow">公式キャンペーンページ →</a>
+    <a class="compare-cta" href="https://www.jcb.co.jp/promotion/ordercard/w/index.html" target="_blank" rel="sponsored noopener nofollow">公式キャンペーンページ →</a>
   </article>
 
   <article class="compare-card">
+    <span class="compare-card-image"><img src="https://recruit-card.jp/site_assets/lp/sp/img/basic-card/feature-rich/campaign_card_master.png" alt="リクルートカードのキャンペーンバナー" loading="lazy" /></span>
+    <span class="compare-card-mascot"><img src="/images/expr-01-wave.png" alt="" /></span>
     <h3>リクルートカード</h3>
     <p class="tagline">基本還元率1.2%の業界トップクラス。じゃらん・ホットペッパー族に刺さる。</p>
     <dl>
@@ -121,6 +132,8 @@ author: "hacker-ko"
   </article>
 
   <article class="compare-card">
+    <span class="compare-card-image"><img src="https://about.paypay.ne.jp/uploads/2025/02/20250228_02_image01_sp.jpg" alt="PayPayカードのキャンペーン" loading="lazy" /></span>
+    <span class="compare-card-mascot"><img src="/images/expr-06-shock.png" alt="" /></span>
     <h3>PayPayカード</h3>
     <p class="tagline">PayPay残高に直接チャージできる唯一のクレカ。Yahoo!ショッピング派の正解。</p>
     <dl>
@@ -143,6 +156,8 @@ author: "hacker-ko"
 楽天市場・楽天モバイル・楽天証券・楽天銀行をすでに使ってる、もしくは使う予定があるなら、**楽天カード一択で議論終了**。
 
 楽天市場のSPU（スーパーポイントアッププログラム）で、楽天カード保有だけで+2倍、楽天銀行引き落としで+0.3倍、楽天モバイル契約で+4倍……と積み上がり、**最終的に楽天市場で常時8〜16%還元**が現実的に作れる。これは他のカードでは絶対に再現できない数字。
+
+入会キャンペーンの確認は<a href="https://www.rakuten-card.co.jp/" target="_blank" rel="sponsored noopener nofollow">楽天カード公式</a>から。時期によって5,000〜8,000ポイントの差があるから、キャンペーンが厚いタイミングで申し込むのがコツ。
 
 > 💡 **お得Tip**: 楽天カード作る前に、楽天銀行と楽天証券を先に開設しておくとSPUが一気に積み上がるからお得よ。
 
