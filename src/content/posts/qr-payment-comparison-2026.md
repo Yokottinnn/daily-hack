@@ -98,7 +98,7 @@ QRコード決済の還元は **「基本還元 × チャージ元クレカ還�
 
 <div class="compare-cards" style="grid-template-columns: 1fr;">
   <article class="compare-card recommended">
-    <img class="compare-card-side-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuwTBdsbFWtv3sQD7ivazZ5ZZGos93zSGsUQ&s" alt="楽天ペイ 公式ロゴ" loading="lazy" />
+    <img class="compare-card-side-img" src="https://payment.rakuten.co.jp/img/logo-Rpayment20241101.svg" alt="楽天ペイ 公式ロゴ" loading="lazy" />
     <h3>楽天ペイ｜楽天経済圏の出口</h3>
     <p class="tagline">期間限定ポイントの消化先がコレ。楽天市場SPUにも組み込める。</p>
     <dl>
@@ -189,7 +189,7 @@ QRコード決済の還元は **「基本還元 × チャージ元クレカ還�
     <a class="compare-cta" href="https://paypay.ne.jp/" target="_blank" rel="sponsored noopener nofollow">PayPay公式 →</a>
   </article>
   <article class="compare-card">
-    <span class="compare-card-image"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuwTBdsbFWtv3sQD7ivazZ5ZZGos93zSGsUQ&s" alt="楽天ペイ" loading="lazy" /></span>
+    <span class="compare-card-image"><img src="https://payment.rakuten.co.jp/img/logo-Rpayment20241101.svg" alt="楽天ペイ" loading="lazy" /></span>
     <h3>楽天ペイ</h3>
     <p class="tagline">楽天経済圏の出口</p>
     <dl>
