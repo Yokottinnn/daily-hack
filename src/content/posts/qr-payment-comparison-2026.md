@@ -189,7 +189,7 @@ QRコード決済の還元は **「基本還元 × チャージ元クレカ還�
     <a class="compare-cta" href="https://paypay.ne.jp/" target="_blank" rel="sponsored noopener nofollow">PayPay公式 →</a>
   </article>
   <article class="compare-card">
-    <span class="compare-card-image"><img src="https://payment.rakuten.co.jp/img/logo-Rpayment20241101.svg" alt="楽天ペイ" loading="lazy" /></span>
+    <span class="compare-card-image is-logo"><img src="https://payment.rakuten.co.jp/img/logo-Rpayment20241101.svg" alt="楽天ペイ" loading="lazy" /></span>
     <h3>楽天ペイ</h3>
     <p class="tagline">楽天経済圏の出口</p>
     <dl>
