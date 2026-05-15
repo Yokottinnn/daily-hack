@@ -7,8 +7,8 @@ tags: ["PayPay", "楽天ペイ", "d払い", "QRコード決済", "比較"]
 isPR: true
 draft: true
 featured: true
-eyecatchUrl: "/images/eyecatch/qr-payment-comparison-2026-thumb.png"
-eyecatchAlt: "3大QR決済 完全比較 PayPay・楽天ペイ・d払い"
+eyecatchUrl: "https://images.unsplash.com/photo-1556742111-a301076d9d18?w=1200&q=80"
+eyecatchAlt: "スマホ決済アプリ（Google Pay）と決済端末"
 author: "hacker-ko"
 ---
 

@@ -13,6 +13,8 @@ import { fileURLToPath } from 'url';
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = resolve(__dirname, '..');
 
+// Recipes are intentionally sparse: title-overlay サムネは「全記事同じ印象になって没個性化する」リスクがあるので、
+// 個別の記事ごとに Jordan の判断で導入するスタイル。一括適用しない。
 const RECIPES = {
   'furusato-tax-beginner-guide-2026': {
     title: 'ふるさと納税の',
@@ -20,20 +22,6 @@ const RECIPES = {
     subtitle: '2026年最新版・初心者向け最短ルート',
     photo: 'https://images.unsplash.com/photo-1543353071-873f17a7a088?w=1600&q=85',
     overlayColor: 'rgba(168, 41, 89, 0.55)',
-  },
-  'credit-card-no-annual-fee-comparison-2026': {
-    title: '年会費無料×高還元',
-    titleLine2: 'クレカ比較',
-    subtitle: '2026年版・本気で得する5枚を徹底解説',
-    photo: 'https://images.unsplash.com/photo-1556742502-ec7c0e9f34b1?w=1600&q=85',
-    overlayColor: 'rgba(168, 41, 89, 0.60)',
-  },
-  'qr-payment-comparison-2026': {
-    title: '3大QR決済',
-    titleLine2: '完全比較',
-    subtitle: 'PayPay・楽天ペイ・d払い 2026年最新版',
-    photo: 'https://images.unsplash.com/photo-1556742111-a301076d9d18?w=1600&q=85',
-    overlayColor: 'rgba(214, 62, 118, 0.55)',
   },
 };
 
