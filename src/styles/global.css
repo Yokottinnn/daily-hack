@@ -507,6 +507,19 @@ footer.foot .pr { margin-top: 6px; }
   .compare-card .compare-card-image { margin: -16px -18px 14px; }
 }
 
+/* Right-side floating service image (for single-column compare-cards) */
+.compare-card .compare-card-side-img { float: right; margin: 0 0 14px 20px; width: 200px; max-width: 40%; height: auto; max-height: 160px; object-fit: contain; border-radius: 12px; background: #fff; padding: 8px; box-shadow: 0 4px 14px -8px rgba(214, 62, 118, 0.25); border: 1px solid var(--pink-100); }
+.compare-card .compare-card-side-img + h3 { margin-top: 0 !important; }
+@media (max-width: 720px) {
+  .compare-card .compare-card-side-img { float: none; width: 100%; max-width: 100%; max-height: 220px; margin: 0 0 14px; display: block; }
+}
+
+/* Campaign callout inside a compare-card (新規登録キャンペーン等) */
+.compare-card .compare-card-campaign { clear: both; margin-top: 14px; padding: 12px 14px; background: var(--cream-100); border: 1px dashed var(--yellow-500); border-radius: 12px; font-size: 13px; line-height: 1.7; }
+.compare-card .compare-card-campaign strong { color: #8C5C00; font-weight: 800; }
+.compare-card .compare-card-campaign a { color: var(--pink-600); font-weight: 700; border-bottom: 1px dashed var(--pink-300); }
+.compare-card .compare-card-campaign a:hover { color: var(--pink-700); }
+
 /* Related-block head: center the chibi icon with the title text optically */
 .related-block-head { align-items: center; }
 .related-block-icon { margin-top: 0; }

@@ -72,6 +72,7 @@ QRコード決済の還元は **「基本還元 × チャージ元クレカ還�
 
 <div class="compare-cards" style="grid-template-columns: 1fr;">
   <article class="compare-card recommended">
+    <img class="compare-card-side-img" src="https://image.paypay.ne.jp/page/top/images/img_about_04.png" alt="PayPay 決済イメージ" loading="lazy" />
     <h3>PayPay｜街決済の王者</h3>
     <p class="tagline">迷ったらコレ。加盟店数で他を寄せ付けない、日常の主役。</p>
     <dl>
@@ -79,11 +80,13 @@ QRコード決済の還元は **「基本還元 × チャージ元クレカ還�
       <dt>チャージ元の最強</dt><dd>PayPayカード（1%還元）</dd>
       <dt>キャンペーン</dt><dd>「自治体還元」「対象店20%還元」など毎月複数本</dd>
       <dt>PayPayステップ</dt><dd>月30回 + 月10万円利用で +0.5%、ゴールド利用で +0.5%</dd>
-      <dt>強い場面</dt><dd>個人店・地方の小さい店・公共料金請求書払い</dd>
+      <dt>強い場面</dt><dd>個人店・地方の小さい店・公共料金請求金払い</dd>
       <dt>弱い場面</dt><dd>他社クレカからチャージ不可。キャンペーン追わない人</dd>
-      <dt>新規キャンペーンコード</dt><dd>PayPay紹介プログラム（招待コードは編集部にて随時更新）</dd>
     </dl>
     <a class="compare-cta" href="https://paypay.ne.jp/" target="_blank" rel="sponsored noopener nofollow">PayPay公式サイト →</a>
+    <div class="compare-card-campaign">
+      💸 <strong>新規登録キャンペーン</strong>: PayPayアプリ初回ダウンロード＋本人認証で **最大1,000円相当のPayPayポイント**が付与される常設キャンペーンあり。さらに月ごとに「対象店20%還元」「自治体還元（住民税・国民健康保険等）」が走るので、登録直後にチェック。<a href="https://paypay.ne.jp/event/" target="_blank" rel="sponsored noopener nofollow">最新キャンペーン一覧 →</a>
+    </div>
   </article>
 </div>
 
@@ -95,6 +98,7 @@ QRコード決済の還元は **「基本還元 × チャージ元クレカ還�
 
 <div class="compare-cards" style="grid-template-columns: 1fr;">
   <article class="compare-card recommended">
+    <img class="compare-card-side-img" src="https://payment.rakuten.co.jp/img/top01.avif" alt="楽天ペイ サービスイメージ" loading="lazy" />
     <h3>楽天ペイ｜楽天経済圏の出口</h3>
     <p class="tagline">期間限定ポイントの消化先がコレ。楽天市場SPUにも組み込める。</p>
     <dl>
@@ -106,6 +110,9 @@ QRコード決済の還元は **「基本還元 × チャージ元クレカ還�
       <dt>弱い場面</dt><dd>個人店ではPayPayより置いてない、キャンペーンの派手さは劣る</dd>
     </dl>
     <a class="compare-cta" href="https://pay.rakuten.co.jp/" target="_blank" rel="sponsored noopener nofollow">楽天ペイ公式サイト →</a>
+    <div class="compare-card-campaign">
+      🎁 <strong>新規登録キャンペーン</strong>: 楽天ペイの初回利用で **楽天ポイント進呈 + 楽天キャッシュ進呈**の組み合わせキャンペーンが定期開催（条件: 楽天会員登録 + 初回支払い）。<a href="https://payment.rakuten.co.jp/news/2024092400/" target="_blank" rel="sponsored noopener nofollow">直近の楽天ペイ キャンペーンニュース →</a>
+    </div>
   </article>
 </div>
 
@@ -140,6 +147,7 @@ QRコード決済の還元は **「基本還元 × チャージ元クレカ還�
 
 <div class="compare-cards" style="grid-template-columns: 1fr;">
   <article class="compare-card">
+    <img class="compare-card-side-img" src="https://service.smt.docomo.ne.jp/keitai_payment/assets/top/image/illust_point_description_01.png" alt="d払い ポイントイラスト" loading="lazy" />
     <h3>d払い｜ドコモ族の裏の本命</h3>
     <p class="tagline">dカード GOLDと組み合わせると実質還元率トップクラスに化ける。</p>
     <dl>
@@ -151,6 +159,9 @@ QRコード決済の還元は **「基本還元 × チャージ元クレカ還�
       <dt>弱い場面</dt><dd>加盟店3番手、ドコモ非ユーザーにはメリット薄い</dd>
     </dl>
     <a class="compare-cta" href="https://service.smt.docomo.ne.jp/keitai_payment/" target="_blank" rel="sponsored noopener nofollow">d払い公式サイト →</a>
+    <div class="compare-card-campaign">
+      🎯 <strong>新規登録キャンペーン</strong>: d払い初回利用で **dポイント進呈**＋ドコモ回線契約者なら **dポイント増量プログラム** に自動エントリー。dカード GOLD 契約者は還元率がさらに底上げ。<a href="https://service.smt.docomo.ne.jp/keitai_payment/campaign/" target="_blank" rel="sponsored noopener nofollow">最新キャンペーン一覧 →</a>
+    </div>
   </article>
 </div>
 
@@ -164,6 +175,7 @@ QRコード決済の還元は **「基本還元 × チャージ元クレカ還�
 
 <div class="compare-cards">
   <article class="compare-card recommended">
+    <span class="compare-card-image"><img src="https://image.paypay.ne.jp/page/top/images/img_about_04.png" alt="PayPay" loading="lazy" /></span>
     <h3>PayPay</h3>
     <p class="tagline">加盟店◎・キャンペーン◎</p>
     <dl>
@@ -174,8 +186,10 @@ QRコード決済の還元は **「基本還元 × チャージ元クレカ還�
       <dt>チャージ</dt><dd>PayPayカードのみ</dd>
       <dt>公共料金</dt><dd>◎ ほぼ全自治体</dd>
     </dl>
+    <a class="compare-cta" href="https://paypay.ne.jp/" target="_blank" rel="sponsored noopener nofollow">PayPay公式 →</a>
   </article>
   <article class="compare-card">
+    <span class="compare-card-image"><img src="https://payment.rakuten.co.jp/img/top01.avif" alt="楽天ペイ" loading="lazy" /></span>
     <h3>楽天ペイ</h3>
     <p class="tagline">楽天経済圏の出口</p>
     <dl>
@@ -186,8 +200,10 @@ QRコード決済の還元は **「基本還元 × チャージ元クレカ還�
       <dt>チャージ</dt><dd>楽天カード（一部他社可）</dd>
       <dt>公共料金</dt><dd>○ 一部自治体</dd>
     </dl>
+    <a class="compare-cta" href="https://pay.rakuten.co.jp/" target="_blank" rel="sponsored noopener nofollow">楽天ペイ公式 →</a>
   </article>
   <article class="compare-card">
+    <span class="compare-card-image"><img src="https://service.smt.docomo.ne.jp/keitai_payment/assets/top/image/illust_point_description_01.png" alt="d払い" loading="lazy" /></span>
     <h3>d払い</h3>
     <p class="tagline">dカード GOLDで化ける</p>
     <dl>
@@ -198,6 +214,7 @@ QRコード決済の還元は **「基本還元 × チャージ元クレカ還�
       <dt>チャージ</dt><dd>dカード / 他社クレカ広く対応</dd>
       <dt>公共料金</dt><dd>○ 一部自治体</dd>
     </dl>
+    <a class="compare-cta" href="https://service.smt.docomo.ne.jp/keitai_payment/" target="_blank" rel="sponsored noopener nofollow">d払い公式 →</a>
   </article>
 </div>
 
