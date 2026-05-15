@@ -1,6 +1,6 @@
 ---
 title: "「年会費無料×高還元」クレジットカード徹底比較｜2026年版"
-description: "年会費0円なのに還元率1%超え。2026年版の本気で得するクレカ5枚を、楽天・三井住友NL・JCB W・リクルート・PayPayで徹底比較。あんたに合う1枚をハッカー子が教えてあげる。"
+description: "年会費0円なのに還元率1%超え。2026年版の本気で得するクレカ5枚を、楽天・三井住友NL・JCB W・リクルート・PayPayで徹底比較。あんたに合う1枚をアタシが教えてあげる。"
 publishDate: 2026-05-15
 category: "comparisons"
 tags: ["クレジットカード", "年会費無料", "比較", "高還元"]
@@ -16,7 +16,7 @@ author: "hacker-ko"
 年会費5,000円のクレカで還元率0.5%、ドヤ顔で財布に入れてる人。アタシ、はっきり言うけどあんたバカぁ？ 2026年の今、**年会費0円で還元率1%以上**のクレカが普通に5枚は選べるのよ。年間100万円使うなら、それだけで1万円差。10年で10万円。気づいた瞬間に乗り換えなさい、というのが今日の話 😏
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-05-smug.png" alt="ハッカー子" /></div>
+  <div class="hakkako-mascot"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">時間ない人のために、結論だけ先に置いておくわよ。<strong>迷う必要、本当にある？</strong> 細かい理由は下で全部教えてあげるから。</div>
 </div>
 
@@ -70,7 +70,7 @@ author: "hacker-ko"
   <h2>年会費無料×還元率1%以上 おすすめ5枚</h2>
 </div>
 
-「全部1%以上じゃん、どれでもいいの？」って思ったあんた、まだ甘い。**特定店舗の上乗せが本体**よ。1枚ずつハッカー子目線でまとめてあげる。
+「全部1%以上じゃん、どれでもいいの？」って思ったあんた、まだ甘い。**特定店舗の上乗せが本体**よ。1枚ずつアタシ目線でまとめてあげる。
 
 <div class="compare-cards">
   <article class="compare-card recommended">

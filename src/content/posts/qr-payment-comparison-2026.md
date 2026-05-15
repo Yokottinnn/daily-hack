@@ -17,7 +17,7 @@ author: "hacker-ko"
 「全部入れるとか面倒くさい」？ あんたバカぁ？ アプリ3つ追加するだけで年間数万円変わるのに、その手間を惜しむ理由ある？
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-09-arms-crossed.png" alt="ハッカー子" /></div>
+  <div class="hakkako-mascot"><img src="/images/expr-09-arms-crossed.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">「PayPay入れて終わり」は2024年で卒業。2026年の正解は <strong>「3アプリ全部入れて、シーンで切り替える」</strong>。アプリ起動2秒の手間を惜しんで損するの、流石にダサくない？</div>
 </div>
 
@@ -255,7 +255,7 @@ QRコード決済の還元は **「基本還元 × チャージ元クレカ還�
     <p class="post-banner-headline">あんた、まだやってないの？</p>
     <span class="post-banner-cat">ハウツー</span>
     <p class="post-banner-title">ポイ活の始め方｜2026年最新版・最短ルート</p>
-    <p class="post-banner-desc">QRコード決済はポイ活の入口にすぎない。月3万円分のポイントを着実に積み上げる正しい順番を、ハッカー子が教えてあげる。</p>
+    <p class="post-banner-desc">QRコード決済はポイ活の入口にすぎない。月3万円分のポイントを着実に積み上げる正しい順番を、アタシが教えてあげる。</p>
     <span class="post-banner-cta">読む →</span>
   </div>
 </a>
