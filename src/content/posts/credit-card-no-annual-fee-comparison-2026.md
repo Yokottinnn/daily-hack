@@ -89,6 +89,7 @@ author: "hacker-ko"
   </article>
 
   <article class="compare-card">
+    <span class="compare-card-image"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0nS1U10hbLAw9OJmiGwI0XQhwCMBMrFD0FQ" alt="三井住友カード（NL）" loading="lazy" /></span>
     <span class="compare-card-mascot"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <h3>三井住友カード（NL）</h3>
     <p class="tagline">コンビニ・マック・サイゼで生きてるなら、スマホタッチで7%還元。</p>
