@@ -8,8 +8,8 @@ isPR: true
 draft: true
 featured: true
 relatedReferrals: ["rakuten-card", "recruit-card"]
-eyecatchUrl: "https://images.unsplash.com/photo-1556742502-ec7c0e9f34b1?w=1200&q=80"
-eyecatchAlt: "クレジットカードと決済端末"
+eyecatchUrl: "/images/eyecatch/credit-card-no-annual-fee-comparison-2026-thumb.png"
+eyecatchAlt: "年会費無料×高還元 クレカ比較 2026年版"
 author: "hacker-ko"
 ---
 

@@ -130,17 +130,93 @@ author: "hacker-ko"
 
 ふるさと納税は「**どのサイト経由で寄付するか**」で操作性・取扱自治体数・配送スピードが大きく変わる。後述の通り **2025年10月以降は仲介サイトでのポイント還元キャンペーンが禁止された** ので、選び方の軸は「自治体数」「UX」「返礼品の独自性」「決済の便利さ」に変わってる。アタシが大手7サイトを横並びでまとめてあげるから、自分に合うやつを選んで。
 
-### 主要サイト比較
+### 主要7サイト比較
 
-| サイト名 | 取扱自治体数 | 強み | 公式リンク |
-|---|---|---|---|
-| **楽天ふるさと納税** | 約1,700自治体 | 楽天IDで即決済、楽天市場アカウント連携で操作が最速 | <a href="https://event.rakuten.co.jp/furusato/" target="_blank" rel="sponsored noopener nofollow">公式 →</a> |
-| **さとふる** | 約1,400自治体 | UI最強の初心者向け、配送スピード業界No.1 | <a href="https://www.satofull.jp/" target="_blank" rel="sponsored noopener nofollow">公式 →</a> |
-| **ふるなび** | 約1,300自治体 | 家電・PC周辺機器系の返礼品ラインナップが厚い | <a href="https://furunavi.jp/" target="_blank" rel="sponsored noopener nofollow">公式 →</a> |
-| **ふるさとチョイス** | **約1,800自治体（最多）** | 自治体・返礼品の選択肢が圧倒的、災害支援寄付にも強い | <a href="https://www.furusato-tax.jp/" target="_blank" rel="sponsored noopener nofollow">公式 →</a> |
-| **ふるさとプレミアム** | 約500自治体 | 厳選品揃え、特別感ある返礼品にこだわるなら | <a href="https://26p.jp/" target="_blank" rel="sponsored noopener nofollow">公式 →</a> |
-| **au PAY ふるさと納税** | 約1,000自治体 | au IDで決済、auユーザーには UX が良い | <a href="https://furusato.wowma.jp/" target="_blank" rel="sponsored noopener nofollow">公式 →</a> |
-| **ANAのふるさと納税** | 約900自治体 | ANAマイル連動、出張・旅行多めの会社員に刺さる | <a href="https://furusato.ana.co.jp/" target="_blank" rel="sponsored noopener nofollow">公式 →</a> |
+<div class="compare-cards">
+  <article class="compare-card recommended">
+    <span class="compare-card-mascot"><img src="/images/expr-04-cheer.png" alt="" /></span>
+    <h3>楽天ふるさと納税</h3>
+    <p class="tagline">楽天IDで即決済。楽天会員なら操作が最速、入力が最小。</p>
+    <dl>
+      <dt>取扱自治体</dt><dd>約1,700</dd>
+      <dt>強み</dt><dd>楽天IDで支払い、楽天市場アカウント連携で配送先入力ゼロ</dd>
+      <dt>おすすめ</dt><dd>楽天会員、楽天カード持ち</dd>
+    </dl>
+    <a class="compare-cta" href="https://event.rakuten.co.jp/furusato/" target="_blank" rel="sponsored noopener nofollow">楽天ふるさと納税 公式 →</a>
+  </article>
+
+  <article class="compare-card recommended">
+    <span class="compare-card-mascot"><img src="/images/expr-05-smug.png" alt="" /></span>
+    <h3>さとふる</h3>
+    <p class="tagline">UI最強の初心者向け。配送スピードが業界No.1で「早く食べたい」派の正解。</p>
+    <dl>
+      <dt>取扱自治体</dt><dd>約1,400</dd>
+      <dt>強み</dt><dd>分かりやすいUI、配送が早い、ソフトバンク/PayPayユーザーと親和性</dd>
+      <dt>おすすめ</dt><dd>初心者、PayPay派</dd>
+    </dl>
+    <a class="compare-cta" href="https://www.satofull.jp/" target="_blank" rel="sponsored noopener nofollow">さとふる 公式 →</a>
+  </article>
+
+  <article class="compare-card">
+    <span class="compare-card-mascot"><img src="/images/expr-09-arms-crossed.png" alt="" /></span>
+    <h3>ふるなび</h3>
+    <p class="tagline">家電・PC周辺機器系の返礼品ラインナップが業界一厚い玄人サイト。</p>
+    <dl>
+      <dt>取扱自治体</dt><dd>約1,300</dd>
+      <dt>強み</dt><dd>家電・ガジェット系の返礼品が豊富、高額寄付者向けカテゴリが強い</dd>
+      <dt>おすすめ</dt><dd>家電・ガジェット狙い、高額寄付者</dd>
+    </dl>
+    <a class="compare-cta" href="https://furunavi.jp/" target="_blank" rel="sponsored noopener nofollow">ふるなび 公式 →</a>
+  </article>
+
+  <article class="compare-card recommended">
+    <span class="compare-card-mascot"><img src="/images/expr-02-pout.png" alt="" /></span>
+    <h3>ふるさとチョイス</h3>
+    <p class="tagline">取扱自治体数 <strong>1,800超で業界最多</strong>。災害支援寄付にも強い老舗。</p>
+    <dl>
+      <dt>取扱自治体</dt><dd>約1,800（最多）</dd>
+      <dt>強み</dt><dd>選べる自治体・返礼品の圧倒的多さ、災害支援寄付に対応</dd>
+      <dt>おすすめ</dt><dd>マニアック自治体狙い、災害支援寄付したい人</dd>
+    </dl>
+    <a class="compare-cta" href="https://www.furusato-tax.jp/" target="_blank" rel="sponsored noopener nofollow">ふるさとチョイス 公式 →</a>
+  </article>
+
+  <article class="compare-card">
+    <span class="compare-card-mascot"><img src="/images/expr-03-bashful.png" alt="" /></span>
+    <h3>ふるさとプレミアム</h3>
+    <p class="tagline">特別感ある厳選返礼品。プレミアム志向で「ご褒美寄付」を狙うならここ。</p>
+    <dl>
+      <dt>取扱自治体</dt><dd>約500</dd>
+      <dt>強み</dt><dd>編集部キュレーションの高品質返礼品、コンシェルジュ対応</dd>
+      <dt>おすすめ</dt><dd>「上質」「特別感」重視派</dd>
+    </dl>
+    <a class="compare-cta" href="https://26p.jp/" target="_blank" rel="sponsored noopener nofollow">ふるさとプレミアム 公式 →</a>
+  </article>
+
+  <article class="compare-card">
+    <span class="compare-card-mascot"><img src="/images/expr-01-wave.png" alt="" /></span>
+    <h3>au PAY ふるさと納税</h3>
+    <p class="tagline">au IDで即決済。auユーザーは決済UXが最速、Pontaポイントとも連動。</p>
+    <dl>
+      <dt>取扱自治体</dt><dd>約1,000</dd>
+      <dt>強み</dt><dd>au IDログイン、Pontaポイント連動、auユーザー向けキャンペーン</dd>
+      <dt>おすすめ</dt><dd>au/UQモバイルユーザー、Ponta派</dd>
+    </dl>
+    <a class="compare-cta" href="https://furusato.wowma.jp/" target="_blank" rel="sponsored noopener nofollow">au PAY ふるさと納税 公式 →</a>
+  </article>
+
+  <article class="compare-card">
+    <span class="compare-card-mascot"><img src="/images/expr-06-shock.png" alt="" /></span>
+    <h3>ANAのふるさと納税</h3>
+    <p class="tagline">ANAマイル連動の唯一無二。出張・旅行多めの会社員はここに寄せる価値あり。</p>
+    <dl>
+      <dt>取扱自治体</dt><dd>約900</dd>
+      <dt>強み</dt><dd>ANAマイルが貯まる、ANAカード連携、空旅好きへの訴求</dd>
+      <dt>おすすめ</dt><dd>ANAマイラー、出張多め会社員</dd>
+    </dl>
+    <a class="compare-cta" href="https://furusato.ana.co.jp/" target="_blank" rel="sponsored noopener nofollow">ANAのふるさと納税 公式 →</a>
+  </article>
+</div>
 
 <p class="source-note">取扱自治体数は2026年5月時点の概算。各サイトの掲載情報は時期により変動するので、寄付前に必ず公式で確認すること。</p>
 
