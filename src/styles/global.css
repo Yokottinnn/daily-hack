@@ -507,9 +507,10 @@ footer.foot .pr { margin-top: 6px; }
   .compare-card .compare-card-image { margin: -16px -18px 14px; }
 }
 
-/* Fix related-block-icon vertical alignment when title wraps to multiple lines */
-.related-block-head { align-items: flex-start; }
-.related-block-icon { margin-top: 2px; }
+/* Related-block head: center the chibi icon with the title text optically */
+.related-block-head { align-items: center; }
+.related-block-icon { margin-top: 0; }
+.related-block-title { line-height: 1.2; font-size: 17px; }
 
 /* PR badge / category label horizontal alignment fix on post header */
 .post-head .art,

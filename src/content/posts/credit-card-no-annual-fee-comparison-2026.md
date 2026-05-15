@@ -7,7 +7,7 @@ tags: ["クレジットカード", "年会費無料", "比較", "高還元"]
 isPR: true
 draft: true
 featured: true
-relatedReferrals: ["recruit-card"]
+relatedReferrals: ["rakuten-card", "recruit-card"]
 eyecatchUrl: "https://images.unsplash.com/photo-1556742502-ec7c0e9f34b1?w=1200&q=80"
 eyecatchAlt: "クレジットカードと決済端末"
 author: "hacker-ko"
@@ -85,7 +85,7 @@ author: "hacker-ko"
       <dt>国際ブランド</dt><dd>VISA / Mastercard / JCB / AMEX</dd>
       <dt>入会特典</dt><dd>5,000〜8,000ポイント</dd>
     </dl>
-    <a class="compare-cta" href="https://www.rakuten-card.co.jp/" target="_blank" rel="sponsored noopener nofollow">公式キャンペーンページ →</a>
+    <a class="compare-cta" href="https://r10.to/hPxfRD" target="_blank" rel="sponsored noopener nofollow">紹介リンク経由で申込 →</a>
   </article>
 
   <article class="compare-card">
@@ -104,6 +104,7 @@ author: "hacker-ko"
   </article>
 
   <article class="compare-card recommended">
+    <span class="compare-card-image"><img src="https://www.jcb.co.jp/promotion/ordercard/w/images/renewal/info_img01_sp.jpg" alt="JCBカードWのキャンペーン" loading="lazy" /></span>
     <span class="compare-card-mascot"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <h3>JCBカードW</h3>
     <p class="tagline">39歳以下しか作れない期間限定。Amazon・スタバで還元が爆上がり。</p>
@@ -158,7 +159,7 @@ author: "hacker-ko"
 
 楽天市場のSPU（スーパーポイントアッププログラム）で、楽天カード保有だけで+2倍、楽天銀行引き落としで+0.3倍、楽天モバイル契約で+4倍……と積み上がり、**最終的に楽天市場で常時8〜16%還元**が現実的に作れる。これは他のカードでは絶対に再現できない数字。
 
-入会キャンペーンの確認は<a href="https://www.rakuten-card.co.jp/" target="_blank" rel="sponsored noopener nofollow">楽天カード公式</a>から。時期によって5,000〜8,000ポイントの差があるから、キャンペーンが厚いタイミングで申し込むのがコツ。
+入会キャンペーンの確認は<a href="https://r10.to/hPxfRD" target="_blank" rel="sponsored noopener nofollow">楽天カードの紹介リンク</a>から。**通常キャンペーン（5,000pt程度）に紹介経由の追加特典が上乗せされる**ので、ここから入るのが正解。時期によって5,000〜8,000ポイントの差があるから、キャンペーンが厚いタイミングを狙うとなおよし。
 
 > 💡 **お得Tip**: 楽天カード作る前に、楽天銀行と楽天証券を先に開設しておくとSPUが一気に積み上がるからお得よ。
 
