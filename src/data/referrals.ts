@@ -145,10 +145,12 @@ export const referrals: Referral[] = [
     id: 'recruit-card',
     serviceName: 'リクルートカード',
     category: 'creditcard',
+    code: 'sNLwzpFx',
     url: 'https://recruit-card.jp/',
-    reward: '時期により変動',
-    description: '基本還元率1.2%の高還元カード',
-    isActive: false, // 紹介コード要記入（時期により変動）
+    affiliateUrl: 'https://recruit-card.jp/introCampTop/?introId=sNLwzpFx',
+    reward: '時期により変動（紹介経由で追加特典あり）',
+    description: '基本還元率1.2%の高還元カード。紹介プログラム経由で入会キャンペーン特典上乗せ',
+    isActive: true,
   },
   {
     id: 'saison-mitsui-sp',

@@ -7,6 +7,7 @@ tags: ["クレジットカード", "年会費無料", "比較", "高還元"]
 isPR: true
 draft: true
 featured: true
+relatedReferrals: ["recruit-card"]
 eyecatchUrl: "https://images.unsplash.com/photo-1556742502-ec7c0e9f34b1?w=1200&q=80"
 eyecatchAlt: "クレジットカードと決済端末"
 author: "hacker-ko"
@@ -128,7 +129,7 @@ author: "hacker-ko"
       <dt>国際ブランド</dt><dd>VISA / Mastercard / JCB</dd>
       <dt>入会特典</dt><dd>新規入会で最大6,000円分ポイント</dd>
     </dl>
-    <a class="compare-cta" href="https://recruit-card.jp/" target="_blank" rel="sponsored noopener nofollow">公式キャンペーンページ →</a>
+    <a class="compare-cta" href="https://recruit-card.jp/introCampTop/?introId=sNLwzpFx" target="_blank" rel="sponsored noopener nofollow">紹介プログラム経由で申込 →</a>
   </article>
 
   <article class="compare-card">
@@ -179,7 +180,7 @@ Amazonユーザーなら基本2%、スタバなら最大10%超。アタシのお
 
 地味だけど基本還元率1.2%という**業界トップクラス**のカード。じゃらん・ホットペッパーグルメ・ホットペッパービューティで使えば3.2%、リクルート系列のサービスに刺さる人には最強。Pontaポイント・dポイントに交換できるから出口も広い。
 
-「特定のサービスに寄せたくない、とにかく基本還元率が高いカードがほしい」という人にも刺さる、玄人好みの1枚よ。
+「特定のサービスに寄せたくない、とにかく基本還元率が高いカードがほしい」という人にも刺さる、玄人好みの1枚よ。<a href="https://recruit-card.jp/introCampTop/?introId=sNLwzpFx" target="_blank" rel="sponsored noopener nofollow">紹介プログラム経由</a>で申し込むと、通常キャンペーンに追加特典が上乗せされるから、ここから入るのが正解。
 
 ### PayPay・Yahoo!ショッピング民なら → PayPayカード
 
