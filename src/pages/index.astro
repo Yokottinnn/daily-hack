@@ -10,7 +10,8 @@ import CategoryNav from '../components/CategoryNav.astro';
 import AboutCard from '../components/AboutCard.astro';
 import PeekCall from '../components/PeekCall.astro';
 
-const allPosts = await getCollection('posts', ({ data }) => !data.draft);
+const includeDrafts = import.meta.env.PUBLIC_INCLUDE_DRAFTS === 'true';
+const allPosts = await getCollection('posts', ({ data }) => includeDrafts || !data.draft);
 const sorted = allPosts.sort(
   (a, b) => b.data.publishDate.getTime() - a.data.publishDate.getTime(),
 );

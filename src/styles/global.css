@@ -395,6 +395,140 @@ footer.foot .pr { margin-top: 6px; }
 .cmp-table tr.recommended td { background: #FFFBEE; }
 .cmp-table tr.recommended td:first-child::before { content: "★ "; color: var(--yellow-500); font-weight: 900; }
 
+/* Tables inside post body — make Markdown-generated tables visually distinctive */
+.post-body table { width: 100%; border-collapse: separate; border-spacing: 0; margin: 28px 0; background: #fff; border-radius: 14px; overflow: hidden; box-shadow: var(--shadow-card); border: 1px solid var(--pink-200); font-size: 14px; }
+.post-body table thead th { background: linear-gradient(135deg, var(--pink-500), var(--pink-600)); color: #fff !important; font-family: "RocknRoll One"; font-weight: 400; padding: 14px 16px; text-align: left; font-size: 13.5px; letter-spacing: .02em; border-bottom: 0 !important; }
+.post-body table tbody td { padding: 14px 16px; vertical-align: top; border-bottom: 1px solid var(--line); line-height: 1.7; }
+.post-body table tbody tr:last-child td { border-bottom: 0; }
+.post-body table tbody tr:nth-child(odd) td { background: var(--pink-50); }
+.post-body table tbody tr:hover td { background: #FFFBEE; }
+.post-body table tbody td:first-child { font-weight: 800; color: var(--pink-700); white-space: nowrap; }
+.post-body table tbody td strong { color: var(--pink-700); font-weight: 900; }
+@media (max-width: 720px) {
+  .post-body table { display: block; overflow-x: auto; -webkit-overflow-scrolling: touch; font-size: 13px; }
+  .post-body table thead th, .post-body table tbody td { padding: 10px 12px; white-space: nowrap; }
+  .post-body table tbody td:first-child { white-space: normal; }
+}
+
+/* Card-style comparison (alternative to wide tables, mobile-friendly) */
+.compare-cards { display: grid; gap: 14px; margin: 28px 0; grid-template-columns: 1fr; }
+@media (min-width: 720px) { .compare-cards { grid-template-columns: 1fr 1fr; } }
+.compare-card { background: #fff; border: 1px solid var(--pink-200); border-radius: 18px; padding: 18px 20px; box-shadow: var(--shadow-card); position: relative; }
+.compare-card.recommended { border-color: var(--pink-500); box-shadow: 0 14px 32px -16px rgba(214,62,118,.42); }
+.compare-card.recommended::before { content: "★ おすすめ"; position: absolute; top: -10px; left: 18px; background: var(--pink-500); color: #fff; font-size: 11px; font-weight: 800; padding: 3px 10px; border-radius: 999px; }
+.compare-card h3 { font-family: "RocknRoll One"; font-weight: 400; font-size: 18px; margin: 0 0 4px; color: var(--pink-700); padding-left: 0 !important; border-left: 0 !important; }
+.compare-card .tagline { font-size: 12.5px; color: var(--ink-2); margin: 0 0 12px; line-height: 1.6; }
+.compare-card dl { display: grid; grid-template-columns: 96px 1fr; gap: 6px 12px; margin: 0 0 12px; font-size: 13px; }
+.compare-card dt { font-weight: 700; color: var(--pink-600); }
+.compare-card dd { margin: 0; color: var(--ink); }
+.compare-card .compare-cta { display: inline-flex; align-items: center; gap: 6px; font-size: 12.5px; font-weight: 700; color: var(--pink-600); border-bottom: 1px dashed var(--pink-300); padding-bottom: 2px; }
+.compare-card .compare-cta:hover { color: var(--pink-700); border-color: var(--pink-500); }
+
+/* Two-column "vs" comparison cards */
+.vs-pair { display: grid; gap: 14px; margin: 28px 0; grid-template-columns: 1fr 1fr; }
+@media (max-width: 540px) { .vs-pair { grid-template-columns: 1fr; } }
+.vs-card { background: #fff; border: 1px solid var(--line); border-radius: 16px; padding: 18px 20px; }
+.vs-card h4 { margin: 0 0 8px; font-family: "RocknRoll One"; font-weight: 400; color: var(--pink-700); font-size: 16px; }
+.vs-card ul { margin: 0; padding-left: 18px; }
+.vs-card li { font-size: 13px; line-height: 1.7; margin: 0 0 4px; }
+.vs-card.primary { background: linear-gradient(180deg, var(--pink-50) 0%, #fff 60%); border-color: var(--pink-300); }
+
+/* Flow-step boxes (numbered process diagram) */
+.flow-steps { display: grid; gap: 12px; margin: 28px 0; counter-reset: flow; }
+.flow-step { background: #fff; border: 1px solid var(--pink-200); border-radius: 14px; padding: 14px 18px 14px 56px; position: relative; line-height: 1.7; font-size: 14px; }
+.flow-step::before { counter-increment: flow; content: counter(flow); position: absolute; left: 14px; top: 14px; width: 32px; height: 32px; border-radius: 50%; background: var(--pink-500); color: #fff; display: grid; place-items: center; font-family: "RocknRoll One"; font-size: 16px; }
+.flow-step strong { color: var(--pink-700); font-weight: 800; }
+
+/* Income/value bar (visual表 with colored bars instead of table) */
+.income-grid { display: grid; gap: 8px; margin: 24px 0; }
+.income-row { display: grid; grid-template-columns: 100px 1fr 80px; gap: 12px; align-items: center; font-size: 13.5px; }
+.income-row .income-label { font-weight: 800; color: var(--pink-700); }
+.income-row .income-bar { height: 22px; background: linear-gradient(90deg, var(--pink-300), var(--pink-500)); border-radius: 999px; position: relative; }
+.income-row .income-bar.short { width: 18%; }
+.income-row .income-bar.s2 { width: 28%; }
+.income-row .income-bar.s3 { width: 38%; }
+.income-row .income-bar.s4 { width: 48%; }
+.income-row .income-bar.s5 { width: 62%; }
+.income-row .income-bar.s6 { width: 75%; }
+.income-row .income-bar.s7 { width: 100%; }
+.income-row .income-value { text-align: right; font-weight: 800; color: var(--ink); }
+@media (max-width: 540px) {
+  .income-row { grid-template-columns: 76px 1fr 70px; gap: 8px; font-size: 12.5px; }
+}
+
+/* Source citation (small inline reference link) */
+.source-note { display: block; margin: 6px 0 18px; font-size: 11.5px; color: var(--ink-3); }
+.source-note a { color: var(--ink-2); border-bottom: 1px dotted var(--ink-3); }
+
+/* Card brand callout (clear "go to campaign" CTA box per card) */
+.card-callout { display: flex; gap: 16px; margin: 18px 0 28px; background: #fff; border: 1px solid var(--pink-200); border-radius: 14px; padding: 14px 18px; align-items: center; }
+.card-callout .card-callout-thumb { width: 60px; height: 40px; flex-shrink: 0; background: var(--pink-50); border-radius: 6px; display: grid; place-items: center; color: var(--pink-600); font-family: "RocknRoll One"; font-size: 11px; }
+.card-callout .card-callout-body { flex: 1 1 auto; }
+.card-callout .card-callout-body p { margin: 0 0 4px; font-size: 13px; line-height: 1.6; }
+.card-callout .card-callout-body a { color: var(--pink-600); font-weight: 700; font-size: 12.5px; border-bottom: 1px dashed var(--pink-300); }
+
+/* Category figure grid (for 返礼品の選び方 etc.) */
+.figure-grid { display: grid; gap: 16px; margin: 28px 0; grid-template-columns: 1fr; }
+@media (min-width: 600px) { .figure-grid { grid-template-columns: 1fr 1fr; } }
+@media (min-width: 980px) { .figure-grid { grid-template-columns: repeat(3, 1fr); } }
+.figure-card { background: #fff; border: 1px solid var(--line); border-radius: 14px; overflow: hidden; box-shadow: var(--shadow-card); }
+.figure-card .figure-image { aspect-ratio: 4 / 3; background: var(--pink-100); overflow: hidden; }
+.figure-card .figure-image img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.figure-card .figure-body { padding: 14px 16px 16px; }
+.figure-card h4 { margin: 0 0 6px; font-family: "RocknRoll One"; font-weight: 400; color: var(--pink-700); font-size: 15px; padding-left: 0 !important; border-left: 0 !important; }
+.figure-card p { margin: 0; font-size: 13px; line-height: 1.7; color: var(--ink-2); }
+
+/* Hakkako-says callout — mascot + inline quote that blends with article body */
+.hakkako-says { display: grid; grid-template-columns: 92px 1fr; gap: 18px; align-items: center; margin: 32px 0; background: linear-gradient(135deg, var(--pink-50), #fff); border: 1px solid var(--pink-200); border-radius: 20px; padding: 18px 22px; box-shadow: var(--shadow-card); }
+.hakkako-says .hakkako-mascot { width: 92px; height: 92px; border-radius: 50%; overflow: hidden; background: var(--pink-100); box-shadow: 0 0 0 3px #fff, 0 0 0 5px var(--pink-200); flex-shrink: 0; }
+.hakkako-says .hakkako-mascot img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 22%; transform: scale(1.15); display: block; }
+.hakkako-says .hakkako-quote { font-size: 14.5px; line-height: 1.85; color: var(--ink); }
+.hakkako-says .hakkako-quote strong { color: var(--pink-700); }
+@media (max-width: 540px) {
+  .hakkako-says { grid-template-columns: 64px 1fr; gap: 12px; padding: 14px 16px; }
+  .hakkako-says .hakkako-mascot { width: 64px; height: 64px; }
+  .hakkako-says .hakkako-quote { font-size: 13.5px; }
+}
+
+/* Section heading decorated with a small mascot to its left */
+.section-with-mascot { display: flex; align-items: center; gap: 16px; margin: 56px 0 18px; }
+.section-with-mascot img { width: 72px; height: 72px; border-radius: 50%; object-fit: cover; object-position: 50% 22%; background: var(--pink-100); box-shadow: 0 0 0 3px #fff, 0 0 0 4px var(--pink-200); transform: scale(1.15); flex-shrink: 0; }
+.section-with-mascot h2, .section-with-mascot h3 { margin: 0 !important; padding: 0 !important; border: 0 !important; flex: 1; }
+@media (max-width: 540px) {
+  .section-with-mascot img { width: 56px; height: 56px; }
+}
+
+/* Compare card with a campaign image and inline mascot reaction */
+.compare-card .compare-card-image { display: block; width: calc(100% + 40px); margin: -18px -20px 16px; aspect-ratio: 16/9; background: var(--pink-100); overflow: hidden; }
+.compare-card .compare-card-image img { width: 100%; height: 100%; object-fit: cover; display: block; }
+/* Logo variant: horizontal logos shouldn't be cover-cropped; center them with whitespace */
+.compare-card .compare-card-image.is-logo { background: #fff; display: flex; align-items: center; justify-content: center; }
+.compare-card .compare-card-image.is-logo img { width: auto; max-width: 70%; height: auto; max-height: 50%; object-fit: contain; padding: 8px; }
+.compare-card .compare-card-mascot { position: absolute; top: -16px; right: -10px; width: 56px; height: 56px; border-radius: 50%; overflow: hidden; background: var(--pink-100); box-shadow: 0 0 0 3px #fff, 0 0 0 4px var(--pink-200); transform: rotate(6deg); z-index: 2; }
+.compare-card .compare-card-mascot img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 22%; transform: scale(1.15); display: block; }
+@media (max-width: 540px) {
+  .compare-card .compare-card-image { margin: -16px -18px 14px; }
+}
+
+/* Right-side floating service image (for single-column compare-cards) */
+.compare-card .compare-card-side-img { float: right; margin: 0 0 14px 20px; width: 200px; max-width: 40%; height: auto; max-height: 160px; object-fit: contain; border-radius: 12px; background: #fff; padding: 8px; box-shadow: 0 4px 14px -8px rgba(214, 62, 118, 0.25); border: 1px solid var(--pink-100); }
+.compare-card .compare-card-side-img + h3 { margin-top: 0 !important; }
+@media (max-width: 720px) {
+  .compare-card .compare-card-side-img { float: none; width: 100%; max-width: 100%; max-height: 220px; margin: 0 0 14px; display: block; }
+}
+
+/* Campaign callout inside a compare-card (新規登録キャンペーン等) */
+.compare-card .compare-card-campaign { clear: both; margin-top: 14px; padding: 12px 14px; background: var(--cream-100); border: 1px dashed var(--yellow-500); border-radius: 12px; font-size: 13px; line-height: 1.7; }
+.compare-card .compare-card-campaign strong { color: #8C5C00; font-weight: 800; }
+.compare-card .compare-card-campaign a { color: var(--pink-600); font-weight: 700; border-bottom: 1px dashed var(--pink-300); }
+.compare-card .compare-card-campaign a:hover { color: var(--pink-700); }
+
+/* PR badge / category label horizontal alignment fix on post header */
+.post-head .art,
+.post-head .pr-badge { vertical-align: middle; line-height: 1; }
+.post-head .art .cat { line-height: 1; padding: 5px 12px; }
+.post-head .pr-badge { padding: 5px 10px; font-size: 11px; line-height: 1; }
+
 /* Campaign box */
 .cp-box { background: linear-gradient(135deg, var(--pink-50), #fff); border: 2px solid var(--pink-200); border-radius: 18px; padding: 20px; margin: 26px 0; }
 .cp-box .head { display: flex; align-items: center; gap: 10px; font-family: "RocknRoll One"; color: var(--pink-700); margin-bottom: 8px; }
@@ -440,16 +574,24 @@ footer.foot .pr { margin-top: 6px; }
 
 /* Inline related posts block (記事中インラインで使う内部リンク) */
 .related-block { background: var(--pink-50); border: 1px solid var(--pink-200); border-radius: 18px; padding: 18px 22px; margin: 32px 0; box-shadow: var(--shadow-card); }
-.related-block-head { display: flex; align-items: center; gap: 12px; margin-bottom: 14px; }
-.related-block-icon { flex-shrink: 0; width: 34px; height: 34px; border-radius: 50%; overflow: hidden; box-shadow: 0 0 0 2px #fff, 0 0 0 3px var(--pink-200); }
-.related-block-icon img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 22%; transform: scale(1.15); display: block; }
-.related-block-title { margin: 0; font-family: "RocknRoll One"; font-weight: 400; color: var(--pink-700); font-size: 16px; }
-.related-block-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+.related-block-head { display: flex; align-items: center; gap: 14px; margin-bottom: 16px; min-height: 48px; }
+.related-block-icon { flex-shrink: 0; width: 48px; height: 48px; border-radius: 50%; overflow: hidden; background: var(--pink-100); box-shadow: 0 0 0 2px #fff, 0 0 0 3px var(--pink-200); display: flex; align-items: center; justify-content: center; }
+.related-block-icon img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 40%; transform: scale(1.3); display: block; }
+.related-block-title { margin: 0; font-family: "RocknRoll One"; font-weight: 400; color: var(--pink-700); font-size: 19px; line-height: 1; display: inline-flex; align-items: center; min-height: 48px; }
+.related-block-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
 .related-block-list li { margin: 0; }
-.related-block-list a { display: grid; grid-template-columns: auto 1fr; gap: 10px; align-items: baseline; padding: 10px 14px; background: #fff; border-radius: 12px; border: 1px solid var(--line); color: var(--ink); font-size: 14.5px; line-height: 1.55; transition: border-color .15s, transform .15s, box-shadow .15s; }
-.related-block-list a:hover { border-color: var(--pink-400, var(--pink-300)); transform: translateY(-1px); box-shadow: 0 4px 12px -6px rgba(214,62,118,.22); }
-.related-block-cat { font-size: 11px; font-weight: 700; color: var(--pink-600); background: var(--pink-50); border: 1px solid var(--pink-200); padding: 2px 8px; border-radius: 999px; white-space: nowrap; }
-.related-block-name { font-weight: 700; color: var(--ink); }
+.related-block-list a { display: grid; grid-template-columns: 96px 1fr; gap: 14px; align-items: center; padding: 10px 14px 10px 10px; background: #fff; border-radius: 14px; border: 1px solid var(--line); color: var(--ink); font-size: 14.5px; line-height: 1.55; transition: border-color .15s, transform .15s, box-shadow .15s; text-decoration: none; }
+.related-block-list a:hover { border-color: var(--pink-300); transform: translateY(-1px); box-shadow: 0 4px 12px -6px rgba(214,62,118,.22); }
+.related-block-thumb { width: 96px; height: 64px; border-radius: 10px; overflow: hidden; background: var(--pink-100); flex-shrink: 0; }
+.related-block-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.related-block-body { display: flex; flex-direction: column; gap: 5px; min-width: 0; }
+.related-block-cat { display: inline-block; align-self: flex-start; font-size: 11px; font-weight: 700; color: var(--pink-600); background: var(--pink-50); border: 1px solid var(--pink-200); padding: 2px 8px; border-radius: 999px; white-space: nowrap; }
+.related-block-name { font-weight: 700; color: var(--ink); line-height: 1.5; }
+@media (max-width: 540px) {
+  .related-block-list a { grid-template-columns: 72px 1fr; gap: 10px; }
+  .related-block-thumb { width: 72px; height: 50px; }
+  .related-block-name { font-size: 13.5px; }
+}
 
 /* Post banner (大型誘導バナー：画像+タイトル+CTA) */
 .post-banner { display: flex; flex-direction: row; align-items: stretch; gap: 0; margin: 32px 0; background: #fff; border: 1px solid var(--line) !important; border-radius: 22px; overflow: hidden; box-shadow: var(--shadow-card); color: var(--ink); text-decoration: none; transition: transform .18s, box-shadow .18s, border-color .18s; }

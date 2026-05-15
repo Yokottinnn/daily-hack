@@ -1,0 +1,450 @@
+---
+// Draft article in-page comment widget.
+// Only mounted when the post is draft=true. Stores comments in localStorage
+// keyed by article path. Jordan selects body text -> "コメント追加" -> writes
+// feedback -> saved locally. The "全部コピー" button exports all comments as
+// markdown for pasting back into chat so the article can be updated.
+---
+
+<div id="draft-comment-widget" aria-live="polite">
+  <button id="dc-launcher" type="button" aria-controls="dc-panel" aria-expanded="false">
+    💬 コメント <span id="dc-count">0</span>
+  </button>
+
+  <div id="dc-panel" hidden>
+    <div class="dc-panel-head">
+      <strong>下書きコメント</strong>
+      <div class="dc-panel-actions">
+        <button id="dc-export" type="button" title="マークダウンでクリップボードにコピー">全部コピー</button>
+        <button id="dc-close" type="button" aria-label="閉じる">×</button>
+      </div>
+    </div>
+    <p class="dc-help">本文をドラッグで選択すると 💬 ボタンが出ます。<br />フィードバックは右下の「全部コピー」でチャットに貼り付けて。</p>
+    <ul id="dc-list" role="list"></ul>
+    <p id="dc-empty">まだコメントはないわよ。</p>
+  </div>
+
+  <div id="dc-modal" hidden role="dialog" aria-modal="true" aria-labelledby="dc-modal-title">
+    <div class="dc-modal-inner">
+      <p class="dc-modal-title" id="dc-modal-title">コメント追加</p>
+      <blockquote id="dc-modal-snippet"></blockquote>
+      <textarea id="dc-modal-text" rows="4" placeholder="何が気になる？　例: 「ここの表現を強くして」「数字を追記」「順番入れ替え」など"></textarea>
+      <div class="dc-modal-actions">
+        <button id="dc-modal-cancel" type="button">キャンセル</button>
+        <button id="dc-modal-save" type="button">保存</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script is:inline>
+  (function () {
+    const STORAGE_KEY = 'daily-hack:draft-comments';
+    const articleKey = window.location.pathname;
+
+    const launcher = document.getElementById('dc-launcher');
+    const count = document.getElementById('dc-count');
+    const panel = document.getElementById('dc-panel');
+    const list = document.getElementById('dc-list');
+    const empty = document.getElementById('dc-empty');
+    const closeBtn = document.getElementById('dc-close');
+    const exportBtn = document.getElementById('dc-export');
+    const modal = document.getElementById('dc-modal');
+    const modalSnippet = document.getElementById('dc-modal-snippet');
+    const modalText = document.getElementById('dc-modal-text');
+    const modalCancel = document.getElementById('dc-modal-cancel');
+    const modalSave = document.getElementById('dc-modal-save');
+
+    let pendingSnippet = '';
+
+    const fab = document.createElement('button');
+    fab.type = 'button';
+    fab.textContent = '💬 コメント追加';
+    fab.id = 'dc-fab';
+    fab.setAttribute('aria-label', '選択範囲にコメントを追加');
+    fab.style.display = 'none';
+    document.body.appendChild(fab);
+
+    function escapeHtml(s) {
+      const d = document.createElement('div');
+      d.textContent = s || '';
+      return d.innerHTML;
+    }
+    function loadAll() {
+      try {
+        return JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}');
+      } catch (e) { return {}; }
+    }
+    function loadFor(key) {
+      return loadAll()[key] || [];
+    }
+    function saveFor(key, comments) {
+      const all = loadAll();
+      all[key] = comments;
+      try { localStorage.setItem(STORAGE_KEY, JSON.stringify(all)); } catch (e) {}
+    }
+    function refresh() {
+      const comments = loadFor(articleKey);
+      count.textContent = String(comments.length);
+      list.innerHTML = '';
+      empty.style.display = comments.length === 0 ? 'block' : 'none';
+      comments.forEach((c, i) => {
+        const li = document.createElement('li');
+        li.className = 'dc-comment';
+        li.innerHTML =
+          '<blockquote class="dc-snip">' + escapeHtml(c.snippet) + '</blockquote>' +
+          '<p class="dc-body">' + escapeHtml(c.comment) + '</p>' +
+          '<div class="dc-meta">' +
+          '<span>' + new Date(c.ts).toLocaleString('ja-JP') + '</span>' +
+          '<button type="button" class="dc-copy" data-i="' + i + '">コピー</button>' +
+          '<button type="button" class="dc-del" data-i="' + i + '">削除</button>' +
+          '</div>';
+        list.appendChild(li);
+      });
+    }
+
+    function showFab(rect) {
+      const top = Math.max(8, rect.top - 40);
+      const left = Math.max(8, Math.min(rect.left, window.innerWidth - 160));
+      fab.style.top = top + 'px';
+      fab.style.left = left + 'px';
+      fab.style.display = 'inline-block';
+      fab.classList.add('open');
+    }
+    function hideFab() {
+      fab.classList.remove('open');
+      fab.style.display = 'none';
+    }
+
+    function onSelect() {
+      const sel = window.getSelection();
+      if (!sel || sel.rangeCount === 0) { hideFab(); return; }
+      const text = sel.toString().trim();
+      if (text.length < 2 || text.length > 500) { hideFab(); return; }
+      const range = sel.getRangeAt(0);
+      const node = range.startContainer;
+      const startEl = node.nodeType === 3 ? node.parentElement : (node instanceof Element ? node : null);
+      if (!startEl || startEl.closest('#draft-comment-widget') || startEl.closest('#dc-fab') || startEl.closest('#dc-modal')) {
+        hideFab();
+        return;
+      }
+      const rect = range.getBoundingClientRect();
+      if (rect.width === 0 && rect.height === 0) { hideFab(); return; }
+      pendingSnippet = text;
+      showFab(rect);
+    }
+
+    document.addEventListener('mouseup', () => setTimeout(onSelect, 30));
+    document.addEventListener('touchend', () => setTimeout(onSelect, 50));
+    document.addEventListener('selectionchange', () => {
+      const sel = window.getSelection();
+      if (!sel || sel.toString().trim().length === 0) hideFab();
+    });
+    document.addEventListener('keyup', (e) => {
+      if (e.shiftKey || e.key === 'ArrowLeft' || e.key === 'ArrowRight' || e.key === 'ArrowUp' || e.key === 'ArrowDown') {
+        setTimeout(onSelect, 30);
+      }
+    });
+    window.addEventListener('scroll', hideFab, { passive: true });
+    window.addEventListener('resize', hideFab);
+
+    fab.addEventListener('mousedown', (e) => e.preventDefault());
+    fab.addEventListener('click', () => {
+      if (!pendingSnippet) return;
+      modalSnippet.textContent = pendingSnippet;
+      modalText.value = '';
+      modal.hidden = false;
+      modalText.focus();
+      hideFab();
+    });
+
+    modalSave.addEventListener('click', () => {
+      const text = modalText.value.trim();
+      if (!text) { modalText.focus(); return; }
+      const comments = loadFor(articleKey);
+      comments.push({ snippet: pendingSnippet, comment: text, ts: Date.now() });
+      saveFor(articleKey, comments);
+      modal.hidden = true;
+      pendingSnippet = '';
+      refresh();
+    });
+    modalCancel.addEventListener('click', () => {
+      modal.hidden = true;
+      pendingSnippet = '';
+    });
+    modal.addEventListener('click', (e) => { if (e.target === modal) modalCancel.click(); });
+
+    launcher.addEventListener('click', () => {
+      const willOpen = panel.hidden;
+      panel.hidden = !willOpen;
+      launcher.setAttribute('aria-expanded', willOpen ? 'true' : 'false');
+      if (willOpen) refresh();
+    });
+    closeBtn.addEventListener('click', () => {
+      panel.hidden = true;
+      launcher.setAttribute('aria-expanded', 'false');
+    });
+
+    list.addEventListener('click', (e) => {
+      const t = e.target;
+      if (!(t instanceof HTMLElement)) return;
+      const i = parseInt(t.getAttribute('data-i') || '-1', 10);
+      if (i < 0) return;
+      const comments = loadFor(articleKey);
+      if (t.classList.contains('dc-del')) {
+        comments.splice(i, 1);
+        saveFor(articleKey, comments);
+        refresh();
+      } else if (t.classList.contains('dc-copy')) {
+        const c = comments[i];
+        const md =
+          '記事: ' + articleKey + '\n' +
+          '> ' + (c.snippet || '').replace(/\n/g, '\n> ') + '\n\n' +
+          'コメント: ' + (c.comment || '');
+        navigator.clipboard.writeText(md).then(() => {
+          t.textContent = 'コピー済';
+          setTimeout(() => (t.textContent = 'コピー'), 1200);
+        });
+      }
+    });
+
+    exportBtn.addEventListener('click', () => {
+      const comments = loadFor(articleKey);
+      if (comments.length === 0) {
+        exportBtn.textContent = '空っぽよ';
+        setTimeout(() => (exportBtn.textContent = '全部コピー'), 1500);
+        return;
+      }
+      const head = '## 下書きフィードバック: ' + articleKey + '\n\n';
+      const body = comments
+        .map((c, i) =>
+          '### ' + (i + 1) + '. ' + new Date(c.ts).toLocaleString('ja-JP') + '\n\n' +
+          '> ' + (c.snippet || '').replace(/\n/g, '\n> ') + '\n\n' +
+          '**コメント**: ' + (c.comment || '') + '\n'
+        )
+        .join('\n');
+      navigator.clipboard.writeText(head + body).then(() => {
+        exportBtn.textContent = 'コピー済';
+        setTimeout(() => (exportBtn.textContent = '全部コピー'), 1500);
+      });
+    });
+
+    refresh();
+  })();
+</script>
+
+<style is:global>
+  #draft-comment-widget {
+    position: fixed;
+    top: 130px;
+    right: 14px;
+    z-index: 95;
+    font-family: inherit;
+  }
+  #dc-launcher {
+    background: var(--pink-500);
+    color: #fff;
+    border: 0;
+    padding: 8px 16px;
+    border-radius: 999px;
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: 0 6px 18px rgba(214, 62, 118, 0.32);
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+  }
+  #dc-launcher:hover { background: var(--pink-600); }
+  #dc-count {
+    background: rgba(255, 255, 255, 0.28);
+    border-radius: 999px;
+    padding: 1px 7px;
+    font-size: 11px;
+  }
+  #dc-panel {
+    position: absolute;
+    top: 44px;
+    right: 0;
+    width: min(380px, calc(100vw - 28px));
+    max-height: min(70vh, 600px);
+    background: #fff;
+    border: 1px solid var(--line);
+    border-radius: 18px;
+    box-shadow: 0 18px 40px rgba(0, 0, 0, 0.15);
+    padding: 16px 18px;
+    overflow-y: auto;
+  }
+  .dc-panel-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  .dc-panel-actions { display: flex; gap: 6px; align-items: center; }
+  .dc-panel-actions button {
+    border: 0;
+    background: var(--pink-50);
+    color: var(--ink-2);
+    padding: 4px 12px;
+    border-radius: 999px;
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  .dc-panel-actions button:hover { background: var(--pink-100); }
+  #dc-close {
+    width: 28px;
+    height: 28px;
+    padding: 0 !important;
+    display: grid;
+    place-items: center;
+    font-size: 16px !important;
+  }
+  .dc-help {
+    font-size: 11.5px;
+    color: var(--ink-3);
+    margin: 0 0 12px;
+    line-height: 1.6;
+  }
+  #dc-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  #dc-empty {
+    text-align: center;
+    font-size: 13px;
+    color: var(--ink-3);
+    padding: 20px 0;
+    margin: 0;
+  }
+  .dc-comment {
+    border-bottom: 1px solid var(--line);
+    padding: 12px 0;
+  }
+  .dc-comment:last-child { border-bottom: 0; }
+  .dc-snip {
+    background: var(--pink-50);
+    border-left: 3px solid var(--pink-300);
+    padding: 6px 10px;
+    margin: 0 0 8px;
+    font-size: 12px;
+    color: var(--ink-2);
+    border-radius: 0 4px 4px 0;
+  }
+  .dc-body {
+    margin: 0 0 8px;
+    font-size: 13.5px;
+    color: var(--ink);
+    line-height: 1.65;
+  }
+  .dc-meta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 6px;
+    font-size: 11px;
+    color: var(--ink-3);
+  }
+  .dc-meta button {
+    border: 0;
+    background: transparent;
+    color: var(--ink-3);
+    cursor: pointer;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 11px;
+  }
+  .dc-meta button:hover { background: var(--pink-50); color: var(--pink-700); }
+  .dc-meta .dc-copy:hover { color: var(--pink-700); }
+  .dc-meta .dc-del:hover { color: #C0392B; }
+
+  #dc-fab {
+    position: fixed !important;
+    background: var(--pink-500);
+    color: #fff;
+    border: 0;
+    padding: 6px 14px;
+    border-radius: 999px;
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.22);
+    z-index: 150;
+    display: none;
+    font-family: inherit;
+    line-height: 1.4;
+  }
+  #dc-fab.open { display: inline-block; }
+  #dc-fab:hover { background: var(--pink-600); }
+
+  #dc-modal {
+    position: fixed;
+    inset: 0;
+    background: rgba(42, 25, 35, 0.45);
+    z-index: 200;
+    display: grid;
+    place-items: center;
+    padding: 20px;
+  }
+  .dc-modal-inner {
+    background: #fff;
+    border-radius: 20px;
+    padding: 24px;
+    width: min(440px, 100%);
+    box-shadow: 0 24px 60px rgba(0, 0, 0, 0.25);
+  }
+  .dc-modal-title {
+    margin: 0 0 14px;
+    font-family: "RocknRoll One";
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--pink-700);
+  }
+  #dc-modal blockquote {
+    background: var(--pink-50);
+    border-left: 3px solid var(--pink-300);
+    padding: 10px 14px;
+    margin: 0 0 14px;
+    font-size: 13px;
+    color: var(--ink-2);
+    border-radius: 0 6px 6px 0;
+  }
+  #dc-modal-text {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    font-family: inherit;
+    font-size: 14px;
+    line-height: 1.7;
+    resize: vertical;
+    box-sizing: border-box;
+  }
+  .dc-modal-actions {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+    margin-top: 16px;
+  }
+  .dc-modal-actions button {
+    border: 0;
+    padding: 10px 22px;
+    border-radius: 999px;
+    font-weight: 700;
+    font-size: 13px;
+    cursor: pointer;
+  }
+  #dc-modal-cancel {
+    background: var(--pink-50);
+    color: var(--ink-2);
+  }
+  #dc-modal-cancel:hover { background: var(--pink-100); }
+  #dc-modal-save {
+    background: var(--pink-500);
+    color: #fff;
+  }
+  #dc-modal-save:hover { background: var(--pink-600); }
+</style>

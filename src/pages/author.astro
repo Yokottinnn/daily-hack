@@ -102,7 +102,7 @@ const editorialJsonLd = {
         {recent.map((p) => (
           <a href={`/posts/${p.id}/`} class="art">
             <div class="thumb">
-              <img src={`/images/${p.data.category === 'campaigns' ? 'scene-04-heart' : p.data.category === 'comparisons' ? 'expr-09-arms-crossed' : p.data.category === 'services' ? 'scene-07-grocery' : p.data.category === 'roundups' ? 'expr-05-smug' : 'expr-04-cheer'}.png`} alt="" />
+              <img src={p.data.eyecatch?.src ?? p.data.eyecatchUrl ?? `/images/eyecatch/${p.data.category}.jpg`} alt="" />
             </div>
             <div class="body">
               <h3>{p.data.title}</h3>

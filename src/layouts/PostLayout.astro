@@ -9,6 +9,7 @@ import ShareButtons from '../components/ShareButtons.astro';
 import PostCard from '../components/PostCard.astro';
 import AdUnit from '../components/AdUnit.astro';
 import { getCollection } from 'astro:content';
+import DraftCommentWidget from '../components/DraftCommentWidget.astro';
 
 export interface Props {
   post: CollectionEntry<'posts'>;
@@ -30,13 +31,13 @@ const dateStr = data.publishDate.toISOString().slice(0, 10).replace(/-/g, '.');
 const updatedStr = data.updatedDate?.toISOString().slice(0, 10).replace(/-/g, '.');
 
 const categoryFallback: Record<string, string> = {
-  campaigns: '/images/scene-04-heart.png',
-  services: '/images/scene-07-grocery.png',
-  comparisons: '/images/expr-09-arms-crossed.png',
-  roundups: '/images/expr-05-smug.png',
-  howto: '/images/expr-04-cheer.png',
+  campaigns: '/images/eyecatch/campaigns.jpg',
+  services: '/images/eyecatch/services.jpg',
+  comparisons: '/images/eyecatch/comparisons.jpg',
+  roundups: '/images/eyecatch/roundups.jpg',
+  howto: '/images/eyecatch/howto.jpg',
 };
-const eyecatchSrc = data.eyecatch?.src ?? data.eyecatchUrl ?? categoryFallback[data.category] ?? '/images/scene-07-grocery.png';
+const eyecatchSrc = data.eyecatch?.src ?? data.eyecatchUrl ?? categoryFallback[data.category] ?? '/images/eyecatch/services.jpg';
 const fullUrl = new URL(Astro.url.pathname, Astro.site).toString();
 
 const allPosts = await getCollection('posts', ({ data }) => !data.draft);
@@ -76,10 +77,18 @@ const articleJsonLd = {
 };
 ---
 
-<BaseLayout title={data.title} description={data.description} ogImage={eyecatchSrc}>
+<BaseLayout title={data.title} description={data.description} ogImage={eyecatchSrc} noindex={data.draft}>
   <slot name="head" slot="head">
     <script type="application/ld+json" set:html={JSON.stringify(articleJsonLd)} />
   </slot>
+  {data.draft && (
+    <>
+      <div style="position: fixed; top: 88px; right: 14px; z-index: 90; background: #F5C518; color: #2A1923; padding: 6px 14px; border-radius: 999px; font-size: 12px; font-weight: 800; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+        📝 DRAFT
+      </div>
+      <DraftCommentWidget />
+    </>
+  )}
   <main class="wrap">
     <div class="post-wrap">
       <article class="post-main" data-pagefind-body>

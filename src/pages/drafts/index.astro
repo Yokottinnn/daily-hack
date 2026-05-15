@@ -1,0 +1,62 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumb from '../../components/Breadcrumb.astro';
+import PostCard from '../../components/PostCard.astro';
+
+const includeDrafts = import.meta.env.PUBLIC_INCLUDE_DRAFTS === 'true';
+
+const all = await getCollection('posts');
+const drafts = all
+  .filter((p) => p.data.draft)
+  .sort((a, b) => b.data.publishDate.getTime() - a.data.publishDate.getTime());
+---
+
+<BaseLayout
+  title="下書き一覧（プレビュー専用）"
+  description="PRブランチでのみ表示される下書き記事の一覧。本番では非表示。"
+  noindex={true}
+>
+  <main class="wrap" style="padding: 48px 0 0;">
+    <Breadcrumb items={[
+      { label: 'ホーム', href: '/' },
+      { label: '下書き一覧' },
+    ]} />
+  </main>
+
+  <section style="padding: 32px 0 56px;">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2><span class="chibi"><img src="/images/expr-02-pout.png" alt="" /></span>下書き一覧</h2>
+        <span style="font-size: 12px; color: var(--ink-3);">PR Preview Only</span>
+      </div>
+
+      {!includeDrafts && (
+        <div style="background: var(--pink-50); border: 1px solid var(--pink-200); padding: 18px 22px; border-radius: 14px; color: var(--ink-2); margin-bottom: 24px;">
+          <p style="margin: 0; font-size: 14.5px; line-height: 1.85;">
+            ⚠️ <strong>本番モードです</strong>。下書き記事は表示されません。下書きを確認したい場合は、PR ブランチの preview URL からアクセスしてください。
+          </p>
+        </div>
+      )}
+
+      {includeDrafts && drafts.length === 0 && (
+        <p style="color: var(--ink-3); text-align: center; padding: 40px 0;">現在、下書きはありません。</p>
+      )}
+
+      {includeDrafts && drafts.length > 0 && (
+        <>
+          <div style="background: #FFFBEE; border: 1px solid #F5C518; padding: 18px 22px; border-radius: 14px; color: var(--ink); margin-bottom: 28px;">
+            <p style="margin: 0 0 6px; font-size: 14.5px; font-weight: 800;">📝 これは下書きプレビューモードです</p>
+            <p style="margin: 0; font-size: 13.5px; line-height: 1.85; color: var(--ink-2);">
+              下記の {drafts.length} 件は <code>draft: true</code> 状態。本番にはマージされるまで公開されません。<br />
+              フィードバックは GitHub PR のレビューコメント、もしくは Slack / チャットで URL + コメントを伝えてください。
+            </p>
+          </div>
+          <div class="articles">
+            {drafts.map((p) => <PostCard post={p} />)}
+          </div>
+        </>
+      )}
+    </div>
+  </section>
+</BaseLayout>

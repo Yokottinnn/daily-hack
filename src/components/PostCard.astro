@@ -19,14 +19,14 @@ const cat = categoryLabel[post.data.category] ?? { label: post.data.category, cl
 const dateStr = post.data.publishDate.toISOString().slice(0, 10).replace(/-/g, '.');
 
 const categoryFallback: Record<string, string> = {
-  campaigns: '/images/scene-04-heart.png',
-  services: '/images/scene-07-grocery.png',
-  comparisons: '/images/expr-09-arms-crossed.png',
-  roundups: '/images/expr-05-smug.png',
-  howto: '/images/expr-04-cheer.png',
+  campaigns: '/images/eyecatch/campaigns.jpg',
+  services: '/images/eyecatch/services.jpg',
+  comparisons: '/images/eyecatch/comparisons.jpg',
+  roundups: '/images/eyecatch/roundups.jpg',
+  howto: '/images/eyecatch/howto.jpg',
 };
 const eyecatchSrc =
-  post.data.eyecatch?.src ?? post.data.eyecatchUrl ?? categoryFallback[post.data.category] ?? '/images/scene-07-grocery.png';
+  post.data.eyecatch?.src ?? post.data.eyecatchUrl ?? categoryFallback[post.data.category] ?? '/images/eyecatch/services.jpg';
 ---
 
 <a href={`/posts/${post.id}/`} class="art">

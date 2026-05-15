@@ -127,10 +127,12 @@ export const referrals: Referral[] = [
     id: 'rakuten-card',
     serviceName: '楽天カード',
     category: 'creditcard',
+    code: 'hPxfRD',
     url: 'https://www.rakuten-card.co.jp/',
-    reward: '被紹介者 最大5,000pt',
-    description: '楽天市場・楽天サービス連携で還元率アップ',
-    isActive: false, // 紹介コード要記入（楽天e-NAVIで確認）
+    affiliateUrl: 'https://r10.to/hPxfRD',
+    reward: '被紹介者 最大5,000pt（時期により変動）',
+    description: '楽天市場・楽天サービス連携で還元率アップ。紹介リンク経由で入会キャンペーン上乗せ',
+    isActive: true,
   },
   {
     id: 'smbc-card-nl',
@@ -145,10 +147,12 @@ export const referrals: Referral[] = [
     id: 'recruit-card',
     serviceName: 'リクルートカード',
     category: 'creditcard',
+    code: 'sNLwzpFx',
     url: 'https://recruit-card.jp/',
-    reward: '時期により変動',
-    description: '基本還元率1.2%の高還元カード',
-    isActive: false, // 紹介コード要記入（時期により変動）
+    affiliateUrl: 'https://recruit-card.jp/introCampTop/?introId=sNLwzpFx',
+    reward: '時期により変動（紹介経由で追加特典あり）',
+    description: '基本還元率1.2%の高還元カード。紹介プログラム経由で入会キャンペーン特典上乗せ',
+    isActive: true,
   },
   {
     id: 'saison-mitsui-sp',
