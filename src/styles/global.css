@@ -520,10 +520,10 @@ footer.foot .pr { margin-top: 6px; }
 .compare-card .compare-card-campaign a { color: var(--pink-600); font-weight: 700; border-bottom: 1px dashed var(--pink-300); }
 .compare-card .compare-card-campaign a:hover { color: var(--pink-700); }
 
-/* Related-block head: center the chibi icon with the title text optically */
-.related-block-head { align-items: center; }
-.related-block-icon { margin-top: 0; }
-.related-block-title { line-height: 1.2; font-size: 17px; }
+/* Related-block head: icon と「あわせて読みたい」のテキストを画像の中央高さで完全揃え */
+.related-block-head { align-items: center; min-height: 34px; }
+.related-block-icon { margin-top: 0; flex-shrink: 0; }
+.related-block-title { font-size: 17px; line-height: 34px; display: inline-flex; align-items: center; height: 34px; }
 
 /* PR badge / category label horizontal alignment fix on post header */
 .post-head .art,
