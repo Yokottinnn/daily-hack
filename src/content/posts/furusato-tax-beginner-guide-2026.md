@@ -7,8 +7,8 @@ tags: ["ふるさと納税", "節税", "入門", "ガイド"]
 isPR: true
 draft: true
 featured: true
-eyecatchUrl: "https://images.unsplash.com/photo-1452860606245-08befc0ff44b?w=1200&q=80"
-eyecatchAlt: "ふるさと納税の手続き"
+eyecatchUrl: "/images/eyecatch/furusato-tax-beginner-guide-2026-thumb.png"
+eyecatchAlt: "ふるさと納税の始め方｜2026年最新版・初心者向け最短ルート"
 author: "hacker-ko"
 ---
 
