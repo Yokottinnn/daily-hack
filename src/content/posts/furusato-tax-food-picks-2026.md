@@ -6,7 +6,7 @@ category: "services"
 tags: ["ふるさと納税", "返礼品", "食品", "米", "肉", "海鮮", "おすすめ"]
 isPR: true
 featured: true
-draft: true
+draft: false
 eyecatchUrl: "https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=1200&q=80"
 eyecatchAlt: "ふるさと納税 食品返礼品おすすめ｜米・肉・海鮮の本気で美味しい15選 2026年版"
 author: "hacker-ko"
@@ -59,9 +59,23 @@ author: "hacker-ko"
 
 家電・日用品・体験型まで色々あるけど、ふるさと納税で**最初に枠を埋めるべきは絶対に食品**。理由は3つ。
 
-- **還元率の実感が桁違い**: 1万円寄付で米10kg（市場価値¥4,500〜¥6,000相当）が届く感覚、家電じゃ味わえない
-- **配送タイミングを分散できる**: 米は毎月定期便、肉は冷凍、海鮮は旬の月指定など、冷凍庫キャパに合わせて調整可
-- **どうせ買う品**: 食費は毎月の固定費。寄付で前借りすれば家計が確実に浮く
+<div class="highlight-grid cols-3">
+  <div class="highlight-item">
+    <span class="highlight-tag">還元率</span>
+    <h4>体感が桁違い</h4>
+    <p>1万円寄付で米10kg（市場価値¥4,500〜¥6,000相当）が届く。家電カテゴリじゃ絶対に味わえない、ふるさと納税ならではのお得感。</p>
+  </div>
+  <div class="highlight-item">
+    <span class="highlight-tag">配送</span>
+    <h4>タイミング分散可</h4>
+    <p>米は毎月定期便、肉は冷凍、海鮮は旬の月指定。冷凍庫キャパに合わせて配送月を調整できるから、家計の負担にならない。</p>
+  </div>
+  <div class="highlight-item">
+    <span class="highlight-tag">固定費</span>
+    <h4>どうせ買う品</h4>
+    <p>食費は毎月の絶対消費枠。寄付で前借りすれば家計が確実に浮く。家電や雑貨と違って「使わずに放置」のリスクがゼロ。</p>
+  </div>
+</div>
 
 ### 1万円寄付するとどれくらい得するの？視覚的に比較しなさい
 
@@ -108,49 +122,83 @@ author: "hacker-ko"
 
 <div class="figure-grid">
   <div class="figure-card">
-    <div class="figure-image"><img src="https://images.unsplash.com/photo-1586201375761-83865001e31c?w=900&q=80" alt="新潟県魚沼産コシヒカリ" loading="lazy" /></div>
     <div class="figure-body">
       <h4>新潟県 魚沼産コシヒカリ 10kg</h4>
-      <p><strong>自治体</strong>: 新潟県魚沼市 / <strong>寄付額</strong>: ¥18,000〜<br><strong>配送</strong>: 通常便（精米仕立て） / <strong>人気度</strong>: ★★★★★<br>日本一ブランド米の代表格。迷ったら魚沼コシヒカリ。粒立ち・甘み・粘りのバランスが別格。</p>
+      <p><strong>自治体</strong>: 新潟県（県枠 / 小千谷市 等） / <strong>配送</strong>: 通常便（精米仕立て） / <strong>人気度</strong>: ★★★★★<br>日本一ブランド米の代表格。迷ったら魚沼コシヒカリ。粒立ち・甘み・粘りのバランスが別格。</p>
+      <span class="figure-price">参考: 楽天 ¥28,000 / ふるなび ¥45,000</span>
+      <div class="figure-cta">
+        <a class="cta-rakuten" href="https://item.rakuten.co.jp/f150002-niigata/bd33/" target="_blank" rel="sponsored noopener nofollow">楽天ふるさと納税で見る</a>
+        <a class="cta-furunavi" href="https://furunavi.jp/product_detail.aspx?pid=632531" target="_blank" rel="sponsored noopener nofollow">ふるなびで見る</a>
+      </div>
     </div>
   </div>
   <div class="figure-card">
-    <div class="figure-image"><img src="https://images.unsplash.com/photo-1586201375761-83865001e31c?w=900&q=80" alt="北海道ななつぼし" loading="lazy" /></div>
     <div class="figure-body">
       <h4>北海道 ななつぼし 20kg</h4>
-      <p><strong>自治体</strong>: 北海道東川町・当別町 等 / <strong>寄付額</strong>: ¥20,000〜<br><strong>配送</strong>: 一括 or 分割2回 / <strong>人気度</strong>: ★★★★★<br>コスパ最強の20kg枠。冷めても美味しいので弁当派・冷凍ご飯派に最適。価格対量では北海道米が圧勝。</p>
+      <p><strong>自治体</strong>: 北海道東川町・妹背牛町 等 / <strong>配送</strong>: 一括 or 分割2回 / <strong>人気度</strong>: ★★★★★<br>コスパ最強の20kg枠。冷めても美味しいので弁当派・冷凍ご飯派に最適。価格対量では北海道米が圧勝。</p>
+      <span class="figure-price">参考: 楽天 ¥47,000(20kg選択) / ふるなび ¥45,000</span>
+      <div class="figure-cta">
+        <a class="cta-rakuten" href="https://item.rakuten.co.jp/f014583-higashikawa/21001019/" target="_blank" rel="sponsored noopener nofollow">楽天ふるさと納税で見る</a>
+        <a class="cta-furunavi" href="https://furunavi.jp/product_detail.aspx?pid=1028957" target="_blank" rel="sponsored noopener nofollow">ふるなびで見る</a>
+      </div>
     </div>
   </div>
   <div class="figure-card">
-    <div class="figure-image"><img src="https://images.unsplash.com/photo-1602080858428-57174f9431cf?w=900&q=80" alt="山形県つや姫" loading="lazy" /></div>
     <div class="figure-body">
       <h4>山形県 つや姫 10kg</h4>
-      <p><strong>自治体</strong>: 山形県庄内町・三川町 等 / <strong>寄付額</strong>: ¥15,000〜<br><strong>配送</strong>: 精米日指定可 / <strong>人気度</strong>: ★★★★<br>艶のある粒と上品な甘み。冷めても劣化しにくい炊飯適性で、おにぎり民の固定枠におすすめ。</p>
+      <p><strong>自治体</strong>: 山形県山形市・村山市 等 / <strong>配送</strong>: 精米日指定可 / <strong>人気度</strong>: ★★★★<br>艶のある粒と上品な甘み。冷めても劣化しにくい炊飯適性で、おにぎり民の固定枠におすすめ。</p>
+      <span class="figure-price">参考: 楽天 ¥20,000〜 / ふるなび ¥21,000</span>
+      <div class="figure-cta">
+        <a class="cta-rakuten" href="https://item.rakuten.co.jp/f062014-yamagata/fy21-332/" target="_blank" rel="sponsored noopener nofollow">楽天ふるさと納税で見る</a>
+        <a class="cta-furunavi" href="https://furunavi.jp/product_detail.aspx?pid=512829" target="_blank" rel="sponsored noopener nofollow">ふるなびで見る</a>
+      </div>
     </div>
   </div>
   <div class="figure-card">
-    <div class="figure-image"><img src="https://images.unsplash.com/photo-1517242810446-cc8951b2be40?w=900&q=80" alt="定期便 米5kg×12ヶ月" loading="lazy" /></div>
     <div class="figure-body">
       <h4>定期便｜米 5kg×12ヶ月</h4>
-      <p><strong>自治体</strong>: 全国多数（茨城・千葉・新潟 等） / <strong>寄付額</strong>: ¥60,000〜¥80,000<br><strong>配送</strong>: 毎月1回×12回 / <strong>人気度</strong>: ★★★★★<br>冷凍庫を圧迫せず、年間60kgを安定確保。高年収層（控除上限が高い人）の鉄板枠。</p>
+      <p><strong>自治体</strong>: 茨城県阿見町・京都府亀岡市 等 / <strong>配送</strong>: 毎月1回×12回 / <strong>人気度</strong>: ★★★★★<br>冷凍庫を圧迫せず、年間60kgを安定確保。高年収層（控除上限が高い人）の鉄板枠。</p>
+      <span class="figure-price">参考: 楽天 ¥100,000〜 / ふるなび ¥156,000(60kg)</span>
+      <div class="figure-cta">
+        <a class="cta-rakuten" href="https://item.rakuten.co.jp/f084433-ami/85-19/" target="_blank" rel="sponsored noopener nofollow">楽天ふるさと納税で見る</a>
+        <a class="cta-furunavi" href="https://furunavi.jp/product_detail.aspx?pid=158301" target="_blank" rel="sponsored noopener nofollow">ふるなびで見る</a>
+      </div>
     </div>
   </div>
   <div class="figure-card">
-    <div class="figure-image"><img src="https://images.unsplash.com/photo-1518779578993-ec3579fee39f?w=900&q=80" alt="無洗米まとめ買い" loading="lazy" /></div>
     <div class="figure-body">
       <h4>無洗米 20kg（あきたこまち 等）</h4>
-      <p><strong>自治体</strong>: 秋田県・茨城県・千葉県 等 / <strong>寄付額</strong>: ¥18,000〜¥22,000<br><strong>配送</strong>: 一括 or 10kg×2回 / <strong>人気度</strong>: ★★★★<br>研ぐ手間ゼロ。共働き・一人暮らしの時短勢に刺さる。水入れて炊くだけで終わる。</p>
+      <p><strong>自治体</strong>: 秋田県北秋田市・潟上市 等 / <strong>配送</strong>: 一括 or 10kg×2回 / <strong>人気度</strong>: ★★★★<br>研ぐ手間ゼロ。共働き・一人暮らしの時短勢に刺さる。水入れて炊くだけで終わる。</p>
+      <span class="figure-price">参考: 楽天 ¥80,000(20kg) / ふるなび ¥42,500</span>
+      <div class="figure-cta">
+        <a class="cta-rakuten" href="https://item.rakuten.co.jp/f052132-kitaakita/b04001/" target="_blank" rel="sponsored noopener nofollow">楽天ふるさと納税で見る</a>
+        <a class="cta-furunavi" href="https://furunavi.jp/product_detail.aspx?pid=1629431" target="_blank" rel="sponsored noopener nofollow">ふるなびで見る</a>
+      </div>
     </div>
   </div>
 </div>
 
-<p class="source-note">寄付額は2026年5月時点の主要ふるさと納税サイトでの代表値。同じ品種でも自治体・収穫年により¥1,000〜¥3,000程度の幅がある。最新値は各サイト公式で確認すること（出典: <a href="https://event.rakuten.co.jp/furusato/" target="_blank" rel="noopener nofollow">楽天ふるさと納税</a>・<a href="https://www.satofull.jp/" target="_blank" rel="noopener nofollow">さとふる</a> 等の掲載情報を集計）。</p>
+<p class="source-note">寄付額は2026年5月時点の各商品ページ実勢値（楽天ふるさと納税・ふるなび上で確認）。<strong>2025年以降の米騰貴で寄付額が大きく上昇中</strong>のため、最新値は必ず各商品ページで確認すること。同じ品種でも自治体・収穫年により¥10,000以上の幅がある（出典: <a href="https://event.rakuten.co.jp/furusato/" target="_blank" rel="sponsored noopener nofollow">楽天ふるさと納税</a>・<a href="https://furunavi.jp/" target="_blank" rel="sponsored noopener nofollow">ふるなび</a>）。</p>
 
 ### 米選びの3つの鉄則
 
-- **精米日指定可能な自治体を選ぶ**: 精米仕立てを毎月届けてくれる定期便がベスト
-- **2025年産以降の新米表示を確認**: 古米を抱える自治体も稀にあるので、収穫年は要チェック
-- **一括 vs 分割を冷凍庫サイズで判断**: 20kg一括は保管が地獄、5kg×4回の分割便が現実解
+<div class="highlight-grid cols-3">
+  <div class="highlight-item">
+    <span class="highlight-tag">精米日</span>
+    <h4>指定可能を選ぶ</h4>
+    <p>精米仕立てを毎月届けてくれる定期便がベスト。精米から時間が経つと風味が落ちるので、精米日指定可の自治体を最優先。</p>
+  </div>
+  <div class="highlight-item">
+    <span class="highlight-tag">新米</span>
+    <h4>収穫年を要チェック</h4>
+    <p>2025年産以降の新米表示があるか必ず確認。古米を抱える自治体も稀にあるので、商品ページに収穫年表記がない場合は要注意。</p>
+  </div>
+  <div class="highlight-item">
+    <span class="highlight-tag">保管</span>
+    <h4>分割便が現実解</h4>
+    <p>20kg一括は保管が地獄。5kg×4回の分割便なら冷蔵庫の野菜室に収まる。冷凍庫サイズと相談して一括 vs 分割を決定。</p>
+  </div>
+</div>
 
 **買うなら今やりなさいよ**。米は人気カテゴリだから、年末は受付終了・配送遅延が普通に起きる。10〜11月までに発注を済ませて。
 
@@ -186,38 +234,58 @@ author: "hacker-ko"
 
 <div class="figure-grid">
   <div class="figure-card">
-    <div class="figure-image"><img src="https://images.unsplash.com/photo-1607623814075-e51df1bdc82f?w=900&q=80" alt="鹿児島県黒豚小分け冷凍" loading="lazy" /></div>
     <div class="figure-body">
-      <h4>鹿児島県 黒豚 小分け 2.5kg</h4>
-      <p><strong>自治体</strong>: 鹿児島県南九州市・志布志市 等 / <strong>寄付額</strong>: ¥12,000〜<br><strong>配送</strong>: 冷凍便（500g×5パック） / <strong>人気度</strong>: ★★★★★<br>500g小分けで解凍が楽。脂のコクと旨味のバランスがスーパー国産豚と段違い。</p>
+      <h4>鹿児島県産 黒豚モモスライス 2.5kg</h4>
+      <p><strong>自治体</strong>: 鹿児島県曽於市（南九州エリア） / <strong>配送</strong>: 冷凍便（500g×5パック） / <strong>人気度</strong>: ★★★★★<br>500g小分けで解凍が楽。脂のコクと旨味のバランスがスーパー国産豚と段違い。</p>
+      <span class="figure-price">参考: 楽天 ¥15,000</span>
+      <div class="figure-cta">
+        <a class="cta-rakuten" href="https://item.rakuten.co.jp/f462179-soo/a728/" target="_blank" rel="sponsored noopener nofollow">楽天ふるさと納税で見る</a>
+        <a class="cta-furunavi" href="https://furunavi.jp/Product/Search?keyword=%E9%BB%92%E8%B1%9A%E3%80%80%E5%B0%8F%E5%88%86%E3%81%91%E3%80%802.5kg" target="_blank" rel="sponsored noopener nofollow">ふるなびで探す</a>
+      </div>
     </div>
   </div>
   <div class="figure-card">
-    <div class="figure-image"><img src="https://images.unsplash.com/photo-1588168333986-5078d3ae3976?w=900&q=80" alt="宮崎牛切り落とし1kg" loading="lazy" /></div>
     <div class="figure-body">
-      <h4>宮崎牛 切り落とし 1kg</h4>
-      <p><strong>自治体</strong>: 宮崎県都城市・小林市 等 / <strong>寄付額</strong>: ¥15,000〜<br><strong>配送</strong>: 冷凍便（250g×4パック） / <strong>人気度</strong>: ★★★★★<br>すき焼き・牛丼・肉じゃがの定番に。日本一の称号を持つ宮崎牛をリーズナブルに楽しめる枠。</p>
+      <h4>宮崎県産 黒毛和牛 切り落とし 1kg</h4>
+      <p><strong>自治体</strong>: 宮崎県宮崎市・都城市 等 / <strong>配送</strong>: 冷凍便（250g×4袋） / <strong>人気度</strong>: ★★★★★<br>すき焼き・牛丼・肉じゃがの定番に。日本一の称号を持つ宮崎牛をリーズナブルに楽しめる枠。</p>
+      <span class="figure-price">参考: 楽天 ¥14,000</span>
+      <div class="figure-cta">
+        <a class="cta-rakuten" href="https://item.rakuten.co.jp/f452017-miyazaki/m226-007/" target="_blank" rel="sponsored noopener nofollow">楽天ふるさと納税で見る</a>
+        <a class="cta-furunavi" href="https://furunavi.jp/Product/Search?keyword=%E5%AE%AE%E5%B4%8E%E7%89%9B%E3%80%80%E5%88%87%E3%82%8A%E8%90%BD%E3%81%A8%E3%81%97%E3%80%801kg" target="_blank" rel="sponsored noopener nofollow">ふるなびで探す</a>
+      </div>
     </div>
   </div>
   <div class="figure-card">
-    <div class="figure-image"><img src="https://images.unsplash.com/photo-1432139509613-5c4255815697?w=900&q=80" alt="A5和牛サーロインステーキ" loading="lazy" /></div>
     <div class="figure-body">
-      <h4>A5和牛 サーロインステーキ 500g</h4>
-      <p><strong>自治体</strong>: 佐賀県・鹿児島県・三重県 等 / <strong>寄付額</strong>: ¥30,000〜¥40,000<br><strong>配送</strong>: 冷凍便（250g×2枚） / <strong>人気度</strong>: ★★★★<br>ご褒美枠の頂点。誕生日・記念日用に冷凍庫に常備しておく贅沢。脂の融点が低くて口の中で溶ける。</p>
+      <h4>A5ランク 黒毛和牛 サーロインステーキ 500g</h4>
+      <p><strong>自治体</strong>: 鹿児島県鹿屋市 等 / <strong>配送</strong>: 冷凍便（250g×2枚） / <strong>人気度</strong>: ★★★★<br>ご褒美枠の頂点。誕生日・記念日用に冷凍庫に常備しておく贅沢。脂の融点が低くて口の中で溶ける。</p>
+      <span class="figure-price">参考: 楽天 ¥18,000〜</span>
+      <div class="figure-cta">
+        <a class="cta-rakuten" href="https://item.rakuten.co.jp/f462039-kanoya/1397/" target="_blank" rel="sponsored noopener nofollow">楽天ふるさと納税で見る</a>
+        <a class="cta-furunavi" href="https://furunavi.jp/Product/Search?keyword=A5%E3%80%80%E3%82%B5%E3%83%BC%E3%83%AD%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%86%E3%83%BC%E3%82%AD%E3%80%80500g" target="_blank" rel="sponsored noopener nofollow">ふるなびで探す</a>
+      </div>
     </div>
   </div>
   <div class="figure-card">
-    <div class="figure-image"><img src="https://images.unsplash.com/photo-1546548970-71785318a17b?w=900&q=80" alt="鶏もも肉まとめ買い" loading="lazy" /></div>
     <div class="figure-body">
-      <h4>九州産 鶏もも肉 3kg</h4>
-      <p><strong>自治体</strong>: 宮崎県都農町・佐賀県唐津市 等 / <strong>寄付額</strong>: ¥10,000〜<br><strong>配送</strong>: 冷凍便（1kg×3パック） / <strong>人気度</strong>: ★★★★<br>コスパ最強の鶏肉枠。唐揚げ・親子丼・照り焼きで永遠に消費できる。冷凍で1ヶ月持つ。</p>
+      <h4>九州産 若鶏もも切身 3kg</h4>
+      <p><strong>自治体</strong>: 宮崎県川南町・都農町 等 / <strong>配送</strong>: 冷凍便（500g×6袋） / <strong>人気度</strong>: ★★★★<br>コスパ最強の鶏肉枠。唐揚げ・親子丼・照り焼きで永遠に消費できる。冷凍で1ヶ月持つ。</p>
+      <span class="figure-price">参考: 楽天 ¥12,000</span>
+      <div class="figure-cta">
+        <a class="cta-rakuten" href="https://item.rakuten.co.jp/f454052-kawaminami/c00713/" target="_blank" rel="sponsored noopener nofollow">楽天ふるさと納税で見る</a>
+        <a class="cta-furunavi" href="https://furunavi.jp/Product/Search?keyword=%E4%B9%9D%E5%B7%9E%E7%94%A3%E3%80%80%E9%B6%8F%E3%82%82%E3%82%82%E8%82%89%E3%80%803kg" target="_blank" rel="sponsored noopener nofollow">ふるなびで探す</a>
+      </div>
     </div>
   </div>
   <div class="figure-card">
-    <div class="figure-image"><img src="https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=900&q=80" alt="ハンバーグ加工品" loading="lazy" /></div>
     <div class="figure-body">
-      <h4>国産牛100% ハンバーグ 10個</h4>
-      <p><strong>自治体</strong>: 兵庫県・群馬県・北海道 等 / <strong>寄付額</strong>: ¥10,000〜¥13,000<br><strong>配送</strong>: 冷凍便（150g×10個） / <strong>人気度</strong>: ★★★★<br>子育て家庭・忙しい一人暮らし向け。レンチンで即夕飯。冷凍庫の救世主。</p>
+      <h4>赤牛 ハンバーグ 150g×10個（国産牛100%）</h4>
+      <p><strong>自治体</strong>: 熊本県南小国町・佐賀県唐津市 等 / <strong>配送</strong>: 冷凍便（個包装×10個） / <strong>人気度</strong>: ★★★★<br>子育て家庭・忙しい一人暮らし向け。レンチンで即夕飯。冷凍庫の救世主。</p>
+      <span class="figure-price">参考: 楽天 ¥11,000</span>
+      <div class="figure-cta">
+        <a class="cta-rakuten" href="https://item.rakuten.co.jp/f434230-minamioguni/10000256/" target="_blank" rel="sponsored noopener nofollow">楽天ふるさと納税で見る</a>
+        <a class="cta-furunavi" href="https://furunavi.jp/Product/Search?keyword=%E5%9B%BD%E7%94%A3%E7%89%9B%E3%80%80%E3%83%8F%E3%83%B3%E3%83%90%E3%83%BC%E3%82%B0%E3%80%8010%E5%80%8B" target="_blank" rel="sponsored noopener nofollow">ふるなびで探す</a>
+      </div>
     </div>
   </div>
 </div>
@@ -226,9 +294,23 @@ author: "hacker-ko"
 
 ### 肉選びの3つの鉄則
 
-- **小分け冷凍**を最優先（塊肉は包丁さばきが地獄、解凍ロスも大きい）
-- **A4以上の和牛は¥30,000以上**から、それ未満は地域ブランド豚や切り落とし牛を狙う
-- **チルド配送**は受取必須で家を空けられない。共働き家庭は冷凍便のみに絞れ
+<div class="highlight-grid cols-3">
+  <div class="highlight-item">
+    <span class="highlight-tag">小分け</span>
+    <h4>冷凍を最優先</h4>
+    <p>塊肉は包丁さばきが地獄、解凍ロスも大きい。250g〜500gで真空小分けされたものを選べば、必要な分だけ解凍できる。</p>
+  </div>
+  <div class="highlight-item">
+    <span class="highlight-tag">A4以上</span>
+    <h4>¥30,000以上が現実</h4>
+    <p>A4以上の和牛狙いなら¥30,000〜¥40,000の枠を確保。それ未満の予算では、地域ブランド豚や切り落とし牛が圧倒的にコスパ高い。</p>
+  </div>
+  <div class="highlight-item">
+    <span class="highlight-tag">配送</span>
+    <h4>冷凍便のみに絞れ</h4>
+    <p>チルド配送は受取必須で家を空けられない。共働き家庭は冷凍便のみに絞ること。日付指定可の自治体ならさらに安心。</p>
+  </div>
+</div>
 
 <div class="section-with-mascot">
   <img src="/images/expr-06-shock.png" alt="" />
@@ -239,38 +321,58 @@ author: "hacker-ko"
 
 <div class="figure-grid">
   <div class="figure-card">
-    <div class="figure-image"><img src="https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=900&q=80" alt="北海道産ホタテ1kg" loading="lazy" /></div>
     <div class="figure-body">
-      <h4>北海道産 玉冷ホタテ 1kg</h4>
-      <p><strong>自治体</strong>: 北海道猿払村・別海町 等 / <strong>寄付額</strong>: ¥10,000〜¥13,000<br><strong>配送</strong>: 冷凍便（年間通年） / <strong>人気度</strong>: ★★★★★<br>刺身・バター焼き・フライ・パスタ何でも対応の万能枠。冷凍で半年保つので長期保管◎。</p>
+      <h4>北海道産 訳ありホタテ 500g〜1kg（容量選択可）</h4>
+      <p><strong>自治体</strong>: 北海道斜里町・白老町 等 / <strong>配送</strong>: 冷凍便（年間通年） / <strong>人気度</strong>: ★★★★★<br>刺身・バター焼き・フライ・パスタ何でも対応の万能枠。冷凍で半年保つので長期保管◎。</p>
+      <span class="figure-price">参考: 楽天 ¥13,000(500g〜) / ふるなび ¥11,000(訳あり500g)</span>
+      <div class="figure-cta">
+        <a class="cta-rakuten" href="https://item.rakuten.co.jp/f015458-shari/1694838/" target="_blank" rel="sponsored noopener nofollow">楽天ふるさと納税で見る</a>
+        <a class="cta-furunavi" href="https://furunavi.jp/product_detail.aspx?pid=547114" target="_blank" rel="sponsored noopener nofollow">ふるなびで見る</a>
+      </div>
     </div>
   </div>
   <div class="figure-card">
-    <div class="figure-image"><img src="https://images.unsplash.com/photo-1580476262798-bddd9f4b7369?w=900&q=80" alt="うなぎ蒲焼4尾" loading="lazy" /></div>
     <div class="figure-body">
-      <h4>国産うなぎ 蒲焼 4尾セット</h4>
-      <p><strong>自治体</strong>: 鹿児島県大隅・志布志市 等 / <strong>寄付額</strong>: ¥15,000〜¥20,000<br><strong>配送</strong>: 真空冷凍便 / <strong>人気度</strong>: ★★★★★<br>夏の土用丑の日に向けて夏前発注がベスト。真空冷凍だから解凍即丼。市場価値が圧倒的に高い。</p>
+      <h4>鹿児島県大隅産 国産うなぎ 長蒲焼 4尾</h4>
+      <p><strong>自治体</strong>: 鹿児島県大崎町・志布志市 等 / <strong>配送</strong>: 真空冷凍便 / <strong>人気度</strong>: ★★★★★<br>夏の土用丑の日に向けて夏前発注がベスト。真空冷凍だから解凍即丼。市場価値が圧倒的に高い。</p>
+      <span class="figure-price">参考: 楽天 ¥22,000(4尾)</span>
+      <div class="figure-cta">
+        <a class="cta-rakuten" href="https://item.rakuten.co.jp/f464686-osaki/ak30-r/" target="_blank" rel="sponsored noopener nofollow">楽天ふるさと納税で見る</a>
+        <a class="cta-furunavi" href="https://furunavi.jp/Product/Search?keyword=%E3%81%86%E3%81%AA%E3%81%8E+%E8%92%B2%E7%84%BC" target="_blank" rel="sponsored noopener nofollow">ふるなびで探す</a>
+      </div>
     </div>
   </div>
   <div class="figure-card">
-    <div class="figure-image"><img src="https://images.unsplash.com/photo-1559561853-08451507cbe7?w=900&q=80" alt="北海道産毛ガニ" loading="lazy" /></div>
     <div class="figure-body">
-      <h4>北海道産 毛ガニ 2尾セット</h4>
-      <p><strong>自治体</strong>: 北海道枝幸町・浜中町 等 / <strong>寄付額</strong>: ¥20,000〜¥30,000<br><strong>配送</strong>: 冷凍便 or 浜ゆで（旬の月限定） / <strong>人気度</strong>: ★★★★<br>カニ味噌の甘みが別物。年末年始や正月の食卓を一段格上げするご褒美枠。</p>
+      <h4>北海道産 毛ガニ 450g×2尾（冷凍ボイル）</h4>
+      <p><strong>自治体</strong>: 北海道枝幸町・浜中町 等 / <strong>配送</strong>: 冷凍便 or 浜ゆで（旬の月限定） / <strong>人気度</strong>: ★★★★<br>カニ味噌の甘みが別物。年末年始や正月の食卓を一段格上げするご褒美枠。</p>
+      <span class="figure-price">参考: 楽天 ¥28,000</span>
+      <div class="figure-cta">
+        <a class="cta-rakuten" href="https://item.rakuten.co.jp/f015148-esashi/57081081/" target="_blank" rel="sponsored noopener nofollow">楽天ふるさと納税で見る</a>
+        <a class="cta-furunavi" href="https://furunavi.jp/Product/Search?keyword=%E6%AF%9B%E3%82%AC%E3%83%8B" target="_blank" rel="sponsored noopener nofollow">ふるなびで探す</a>
+      </div>
     </div>
   </div>
   <div class="figure-card">
-    <div class="figure-image"><img src="https://images.unsplash.com/photo-1574484284002-952d92456975?w=900&q=80" alt="いくら醤油漬け500g" loading="lazy" /></div>
     <div class="figure-body">
-      <h4>北海道 いくら醤油漬け 500g</h4>
-      <p><strong>自治体</strong>: 北海道白糠町・羅臼町 等 / <strong>寄付額</strong>: ¥15,000〜¥18,000<br><strong>配送</strong>: 冷凍便（小分け100g×5） / <strong>人気度</strong>: ★★★★★<br>小分け冷凍タイプを選ぶのが鉄則。100gずつ解凍してご飯にON、年末年始のご馳走枠。</p>
+      <h4>北海道 鮭いくら醤油漬け 200g〜（容量選択可）</h4>
+      <p><strong>自治体</strong>: 北海道白糠町・羅臼町 等 / <strong>配送</strong>: 冷凍便（200gパック小分け） / <strong>人気度</strong>: ★★★★★<br>小分け冷凍タイプを選ぶのが鉄則。100〜200gずつ解凍してご飯にON、年末年始のご馳走枠。</p>
+      <span class="figure-price">参考: 楽天 ¥12,000(200g〜)</span>
+      <div class="figure-cta">
+        <a class="cta-rakuten" href="https://item.rakuten.co.jp/f016683-shiranuka/8700-30009172/" target="_blank" rel="sponsored noopener nofollow">楽天ふるさと納税で見る</a>
+        <a class="cta-furunavi" href="https://furunavi.jp/Product/Search?keyword=%E3%81%84%E3%81%8F%E3%82%89" target="_blank" rel="sponsored noopener nofollow">ふるなびで探す</a>
+      </div>
     </div>
   </div>
   <div class="figure-card">
-    <div class="figure-image"><img src="https://images.unsplash.com/photo-1565299543923-37dd37887442?w=900&q=80" alt="海鮮丼セット" loading="lazy" /></div>
     <div class="figure-body">
-      <h4>海鮮丼の具セット 6食分</h4>
-      <p><strong>自治体</strong>: 北海道・宮城県・福井県 等 / <strong>寄付額</strong>: ¥12,000〜¥15,000<br><strong>配送</strong>: 冷凍小分け便 / <strong>人気度</strong>: ★★★★<br>マグロ・サーモン・ホタテ・イクラのミックス。解凍即どんぶり、ハズレなしの初心者向け。</p>
+      <h4>海鮮丼の具 6種盛り（いくら・ほたて・サーモン・まぐろ・赤えび・ずわいがに）</h4>
+      <p><strong>自治体</strong>: 北海道根室市 等 / <strong>配送</strong>: 冷凍小分け便 / <strong>人気度</strong>: ★★★★<br>マグロ・サーモン・ホタテ・イクラのミックス。解凍即どんぶり、ハズレなしの初心者向け。</p>
+      <span class="figure-price">参考: 楽天 ¥14,000</span>
+      <div class="figure-cta">
+        <a class="cta-rakuten" href="https://item.rakuten.co.jp/f012238-nemuro/10000827/" target="_blank" rel="sponsored noopener nofollow">楽天ふるさと納税で見る</a>
+        <a class="cta-furunavi" href="https://furunavi.jp/product_detail.aspx?pid=1780055" target="_blank" rel="sponsored noopener nofollow">ふるなびで見る</a>
+      </div>
     </div>
   </div>
 </div>
@@ -279,9 +381,23 @@ author: "hacker-ko"
 
 ### 海鮮選びの3つの鉄則
 
-- **冷凍小分け**を最優先（塊冷凍は解凍したらその場で食べ切りになる）
-- **旬月配送指定可能な自治体**を選ぶ（カニは冬・うなぎは夏、自分の食卓カレンダーと合わせろ）
-- **真空パック**で届くものが鮮度最強、解凍ロスが少ない
+<div class="highlight-grid cols-3">
+  <div class="highlight-item">
+    <span class="highlight-tag">冷凍小分け</span>
+    <h4>解凍ロスを防ぐ</h4>
+    <p>塊冷凍は解凍したらその場で食べ切りになる。100g〜250gの小分けタイプを選べば、必要な分だけ解凍して残りは冷凍庫待機。</p>
+  </div>
+  <div class="highlight-item">
+    <span class="highlight-tag">旬月配送</span>
+    <h4>食卓カレンダーで決める</h4>
+    <p>カニは冬・うなぎは夏が旬。旬月配送指定可能な自治体を選んで、自分の食卓カレンダーと合わせる。ご褒美効果が桁違いに上がる。</p>
+  </div>
+  <div class="highlight-item">
+    <span class="highlight-tag">真空パック</span>
+    <h4>鮮度が段違い</h4>
+    <p>真空パックで届くものが鮮度最強、解凍ロスも少ない。「真空」「個包装」「急速冷凍」表記がある商品を優先して選ぶこと。</p>
+  </div>
+</div>
 
 <aside class="related-block">
   <div class="related-block-head">
@@ -376,19 +492,41 @@ author: "hacker-ko"
 
 15品見せても結局どれから頼むか決まらないあんたへ、最後にアタシの推奨順序を置いとくわよ。
 
-1. **第1枠（米10〜20kg）**: ¥15,000〜¥20,000、絶対消費する固定枠
-2. **第2枠（国産豚 or 鶏もも 小分け冷凍）**: ¥10,000〜¥12,000、毎日の食卓を救う
-3. **第3枠（ホタテ1kg）**: ¥10,000〜¥13,000、保存性高くてハズレなし
-4. **第4枠以降（うなぎ・A5和牛・カニ）**: ご褒美枠を上限額の余りで配分
+<div class="flow-steps">
+  <div class="flow-step">
+    <span class="flow-step-num">STEP 1</span>
+    <h4>米 10〜20kg</h4>
+    <p>¥15,000〜¥20,000。絶対消費する固定枠なので、ふるさと納税では最優先で確保。精米日指定の定期便を選べばさらに体験UP。</p>
+  </div>
+  <div class="flow-step">
+    <span class="flow-step-num">STEP 2</span>
+    <h4>国産豚 or 鶏もも 小分け冷凍</h4>
+    <p>¥10,000〜¥12,000。毎日の食卓を救うコスパ枠。250g〜500gの小分け冷凍が圧倒的に便利、解凍ロスゼロで使い切れる。</p>
+  </div>
+  <div class="flow-step">
+    <span class="flow-step-num">STEP 3</span>
+    <h4>ホタテ 1kg</h4>
+    <p>¥10,000〜¥13,000。保存性が高くてハズレなしの万能枠。刺身・バター焼き・パスタ・フライ、どんな料理にも対応できる。</p>
+  </div>
+  <div class="flow-step">
+    <span class="flow-step-num">STEP 4</span>
+    <h4>ご褒美枠（うなぎ・A5和牛・カニ）</h4>
+    <p>上限額の余りで配分。記念日や年末年始のご馳走用に、市場価値の高い高単価枠を確保しておく。冷凍庫の容量と相談すること。</p>
+  </div>
+</div>
 
 年収500万なら上限¥61,000、上の構成で**米20kg + 豚2.5kg + ホタテ1kg + うなぎ蒲焼**でちょうど枠が埋まる。**自己負担¥2,000で市場価値¥30,000以上の食品**が手に入る計算。やらないほうがバカでしょ？
 
+<p class="source-note">⚠️ <strong>2025年以降の米騰貴の影響</strong>で、米・海鮮・一部の肉の寄付額が当記事執筆時から大きく上昇中。上の組み合わせも実勢では合計¥90,000を超えるケースがあるため、**控除上限内に収めるには各商品ページで最新の寄付額を確認してから組み合わせを調整**してね。基本の優先順位（米→肉→海鮮→ご褒美）は変わらないわよ。</p>
+
 ### 今日中にやるべきこと
 
-- ふるさと納税の入門ガイドで仕組みと上限額を再確認
-- 冷凍庫の中身を整理して空き容量を確保
-- 上のリストから3〜4品をブックマーク
-- シミュレーターで上限額を出し終わったら、即寄付申込みへ
+<ol class="checklist">
+  <li><strong>入門ガイドで仕組みと上限額を再確認</strong>。ふるさと納税の控除上限は年収・家族構成で変わる。シミュレーター必須。</li>
+  <li><strong>冷凍庫の中身を整理して空き容量を確保</strong>。米10kg + 肉2.5kg + 海鮮1kg は意外と場所を取る。事前準備で受取後の混乱回避。</li>
+  <li><strong>上のリストから3〜4品をブックマーク</strong>。気になった品を「お気に入り」登録しておけば、寄付申込時に迷わず即決できる。</li>
+  <li><strong>シミュレーター結果を確認したら即寄付申込みへ</strong>。「あとでやる」の先延ばしが年末の枠残しを生む。今日中に1品だけでも完了させる。</li>
+</ol>
 
 **「あとでやる」は罪**って、入門記事でも言ったでしょ。年末に枠を残して焦るのも、年明けに「あぁ去年もやらなかった」って後悔するのも、全部今のあんたが防げる話よ。やりなさい。
 
