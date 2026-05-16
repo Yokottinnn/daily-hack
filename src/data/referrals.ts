@@ -115,11 +115,13 @@ export const referrals: Referral[] = [
     id: 'rakuten-mobile',
     serviceName: '楽天モバイル',
     category: 'mobile',
+    code: 'hPJ001',
     url: 'https://network.mobile.rakuten.co.jp/',
+    affiliateUrl: 'https://r10.to/hPJ001',
     reward: '紹介者 7,000pt、被紹介者 13,000pt',
     description: 'MNP + 初めてのプラン申込で楽天ポイント',
     conditions: 'MNP + 初めてのプラン申込',
-    isActive: false, // 紹介コード要記入（my楽天モバイルアプリで確認）
+    isActive: true, // Jordan 共有 (2026-05-16)
   },
 
   // 💳 クレジットカード
