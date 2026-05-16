@@ -48,9 +48,23 @@ author: "hacker-ko"
 
 2024年に制度が大幅刷新されて、以下の3つが変わった。
 
-- **非課税期間が無期限化**（旧NISAは5年・20年の縛りあり）
-- **年間投資枠が拡大**（つみたて投資枠120万 + 成長投資枠240万 = 年360万）
-- **生涯投資枠1,800万円**（売却すれば枠が復活する仕様）
+<div class="highlight-grid cols-3">
+  <div class="highlight-item">
+    <span class="highlight-tag">永久</span>
+    <h4>非課税期間が無期限化</h4>
+    <p>旧NISAは5年・20年の縛りがあったが、新NISAは<strong>恒久的に非課税</strong>。20年後でも30年後でも、利益に税金がかからないまま保有できる。</p>
+  </div>
+  <div class="highlight-item">
+    <span class="highlight-tag">拡大</span>
+    <h4>年間投資枠が拡大</h4>
+    <p>つみたて投資枠120万円 + 成長投資枠240万円 = <strong>年間360万円</strong>まで投資可能。旧つみたてNISA（年40万）の9倍に拡張された。</p>
+  </div>
+  <div class="highlight-item">
+    <span class="highlight-tag">1,800万円</span>
+    <h4>生涯投資枠1,800万円</h4>
+    <p>生涯トータルで<strong>1,800万円まで非課税</strong>で運用可能。売却すれば翌年に枠が復活する仕様だから、長期で何度も使い回せる。</p>
+  </div>
+</div>
 
 要するに、**国が「投資の利益、税金取らないからやりなさいよ」と言ってる箱**。これを使わずに通常の課税口座で投資するのは、ただの納税ボランティア。あんたバカぁ？
 
@@ -88,9 +102,23 @@ author: "hacker-ko"
 
 ### よくある誤解を先に潰す
 
-- **「NISAは銀行で開くもの」じゃない**: 銀行のNISAは取扱商品が少なく、信託報酬も割高。**ネット証券一択**
-- **「短期売買で稼ぐ制度」じゃない**: 主役は**長期積立**。20年単位で時間を味方につける制度設計
-- **「元本保証」じゃない**: 株式投信は値動きする。短期で見るとマイナスもある。だから長期前提
+<div class="highlight-grid cols-3">
+  <div class="highlight-item">
+    <span class="highlight-tag">銀行NG</span>
+    <h4>銀行で開くもの じゃない</h4>
+    <p>銀行のNISAは取扱商品が少なく、信託報酬も割高。手数料の差は20年で<strong>数十万円</strong>。<strong>ネット証券一択</strong>と覚えておきなさい。</p>
+  </div>
+  <div class="highlight-item">
+    <span class="highlight-tag">長期前提</span>
+    <h4>短期売買 じゃない</h4>
+    <p>主役は<strong>長期積立</strong>。20年単位で時間を味方につける制度設計だから、デイトレ感覚で売買すると非課税枠が消費されて損する。</p>
+  </div>
+  <div class="highlight-item">
+    <span class="highlight-tag">価格変動あり</span>
+    <h4>元本保証 じゃない</h4>
+    <p>株式投信は値動きする。短期で見るとマイナスもある。だから<strong>長期前提</strong>で20年運用が大原則。下落で慌てて売るのは禁物。</p>
+  </div>
+</div>
 
 ## つみたて投資枠 vs 成長投資枠｜使い分けを覚えなさい
 
@@ -123,9 +151,23 @@ author: "hacker-ko"
 
 ### 月3万円・月5万円・月10万円で何年で1,800万埋まる？
 
-- **月3万円積立**: 年36万円 → 1,800万に達するまで**50年**（つまり生涯枠の心配は不要）
-- **月5万円積立**: 年60万円 → 1,800万に達するまで**30年**
-- **月10万円積立**: 年120万円 → 1,800万に達するまで**15年**
+<div class="income-grid">
+  <div class="income-row">
+    <span class="income-label">月3万円</span>
+    <div class="income-bar s7"></div>
+    <span class="income-value">50年</span>
+  </div>
+  <div class="income-row">
+    <span class="income-label">月5万円</span>
+    <div class="income-bar s5"></div>
+    <span class="income-value">30年</span>
+  </div>
+  <div class="income-row">
+    <span class="income-label">月10万円</span>
+    <div class="income-bar s3"></div>
+    <span class="income-value">15年</span>
+  </div>
+</div>
 
 つまり、月3万円なら**枠を気にせず一生埋め続けられる**。月5万円でも30年で30代スタートなら60歳到達、無理ない。月10万円フル積立は高所得層向けだから、まずは身の丈に合った金額で始めなさい。
 
@@ -207,9 +249,40 @@ author: "hacker-ko"
 
 ### 結論: 経済圏に合わせて選びなさい
 
-- **三井住友カード持ち or Vポイント派** → **SBI証券**
-- **楽天カード・楽天銀行・楽天市場ユーザー** → **楽天証券**
-- **ドコモユーザー・dカード持ち** → **マネックス証券**
+<div class="compare-cards">
+  <article class="compare-card">
+    <h3>三井住友カード派</h3>
+    <p class="tagline">Vポイント経済圏で日常から固めてるあんた。</p>
+    <dl>
+      <dt>対象ユーザー</dt><dd>三井住友カード（NL／ゴールドNL／プラチナプリファード）保有者、Vポイント派</dd>
+      <dt>推奨証券</dt><dd><strong>SBI証券</strong></dd>
+      <dt>決め手</dt><dd>クレカ積立で最大3%還元 + 銘柄数最多</dd>
+    </dl>
+    <a class="compare-cta" href="https://www.sbisec.co.jp/" target="_blank" rel="sponsored noopener nofollow">SBI証券 公式 →</a>
+  </article>
+
+  <article class="compare-card">
+    <h3>楽天カード派</h3>
+    <p class="tagline">楽天市場・楽天銀行・楽天モバイルで生活が完結してるあんた。</p>
+    <dl>
+      <dt>対象ユーザー</dt><dd>楽天会員、楽天カード・楽天銀行・楽天市場ヘビーユーザー</dd>
+      <dt>推奨証券</dt><dd><strong>楽天証券</strong></dd>
+      <dt>決め手</dt><dd>楽天ポイントで投信買付 + マネーブリッジで普通預金0.1%</dd>
+    </dl>
+    <a class="compare-cta" href="https://www.rakuten-sec.co.jp/" target="_blank" rel="sponsored noopener nofollow">楽天証券 公式 →</a>
+  </article>
+
+  <article class="compare-card">
+    <h3>dカード派</h3>
+    <p class="tagline">ドコモ回線 + dポイントで経済圏組んでるあんた。</p>
+    <dl>
+      <dt>対象ユーザー</dt><dd>ドコモユーザー、dカード保有者、米国個別株も触りたい人</dd>
+      <dt>推奨証券</dt><dd><strong>マネックス証券</strong></dd>
+      <dt>決め手</dt><dd>dカード積立で最大1.1%還元 + 銘柄スカウター無料</dd>
+    </dl>
+    <a class="compare-cta" href="https://www.monex.co.jp/" target="_blank" rel="sponsored noopener nofollow">マネックス証券 公式 →</a>
+  </article>
+</div>
 
 迷うなら**SBI証券か楽天証券**の2択でOK。この2社は口座数も商品ラインアップもサポート体制も業界トップで、ハズれることはない。アタシは普段使いの経済圏で選ぶことを強く推奨する。クレカ積立のポイント還元は**年間で数千〜数万円の差**になるから、ここをサボると地味に損するわよ。
 
@@ -313,18 +386,56 @@ author: "hacker-ko"
 
 ここまで読んで「やっぱり投資こわい」と感じたあんたへ。最後にもう一度言うよ。
 
-- **月3万円を20年積立**: 元本720万円 + 想定リターンで**1,200〜1,500万円**（年5%リターン想定）
-- **月5万円を20年積立**: 元本1,200万円 + 想定リターンで**2,000〜2,500万円**
-- **税金0円**: 通常口座なら利益の20.315%が引かれるところ、新NISA口座なら**1円も取られない**
+<div class="income-grid">
+  <div class="income-row">
+    <span class="income-label">月3万円×20年</span>
+    <div class="income-bar s5"></div>
+    <span class="income-value">1,200〜1,500万</span>
+  </div>
+  <div class="income-row">
+    <span class="income-label">月5万円×20年</span>
+    <div class="income-bar s7"></div>
+    <span class="income-value">2,000〜2,500万</span>
+  </div>
+  <div class="income-row">
+    <span class="income-label">税金</span>
+    <div class="income-bar short"></div>
+    <span class="income-value">0円</span>
+  </div>
+</div>
+
+**月3万円×20年**で元本720万円が想定リターンで1,200〜1,500万円に膨らむ（年5%リターン想定）。**月5万円×20年**なら元本1,200万円が2,000〜2,500万円。しかも通常口座なら利益の20.315%が引かれるところ、新NISA口座なら**1円も取られない**。これが「非課税」のインパクトよ。
 
 銀行預金に置きっぱなしのお金、20年後も同じ金額のままよ。インフレで実質的な価値は半減してる可能性すらある。**「投資しないリスク」**を、あんたはちゃんと計算したことある？
 
 ### 今日やることリスト
 
-1. **SBI証券 or 楽天証券** の公式サイトで口座開設を申込み（最短翌営業日に完了）
-2. クレカ積立の設定（楽天カード・三井住友カード・dカード等）
-3. **eMAXIS Slim オルカン or S&P500** を月3万円で積立設定
-4. アプリを閉じて20年放置
+<ul class="checklist">
+  <li>
+    <div class="checklist-body">
+      <strong>SBI証券 or 楽天証券で口座開設を申込み（最短翌営業日）</strong>
+      <p>選んだ証券会社の公式サイトから3分で完結。NISA口座も同時開設にチェック。<a href="https://www.sbisec.co.jp/" target="_blank" rel="sponsored noopener nofollow">SBI証券</a> / <a href="https://www.rakuten-sec.co.jp/" target="_blank" rel="sponsored noopener nofollow">楽天証券</a></p>
+    </div>
+  </li>
+  <li>
+    <div class="checklist-body">
+      <strong>クレカ積立の設定（毎月自動引落 + ポイント還元）</strong>
+      <p>楽天カード・三井住友カード・dカード等を紐付けて、毎月の積立決済をクレカ払いにする。入金不要 + ポイントが貯まる仕組み。</p>
+    </div>
+  </li>
+  <li>
+    <div class="checklist-body">
+      <strong>eMAXIS Slim オルカン or S&P500 を月3万円で積立設定</strong>
+      <p>銘柄を選んで、毎月の積立額・引落日を設定。迷ったらオルカン1本でOK。信託報酬は年0.05〜0.1%と業界最安水準。</p>
+    </div>
+  </li>
+  <li>
+    <div class="checklist-body">
+      <strong>アプリを閉じて20年放置</strong>
+      <p>設定後は完全自動。日々の値動きは気にしない。月1回の口座確認で十分。</p>
+    </div>
+  </li>
+</ul>
 
 これだけ。**今やりなさいよ**。アタシの周りで「もっと早くNISA始めとけばよかった」と後悔してる30〜40代、毎月何人にも会う。あんたはその一人にならないで。10年後の自分から感謝されたいなら、今日やる。それだけ。
 

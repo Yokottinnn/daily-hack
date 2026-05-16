@@ -46,12 +46,30 @@ author: "hacker-ko"
 
 ## 結論: 2026年に使うべきポイントサイトはこの組み合わせ
 
-長文読むの面倒なあんたのために結論を先に置いておく。
+長文読むの面倒なあんたのために結論を先に置いておく。**メイン1本＋サブ3本** をこう組むのが2026年の最適解よ。
 
-- **メイン**: モッピー（案件数No.1・ANAマイル交換でマイラー圧勝）
-- **ショッピング系サブ**: ハピタス（楽天・Yahoo!ショッピングの還元率が頭一つ抜けてる）
-- **継続派サブ**: ポイントインカム（ランク制度＆長期利用ボーナスで「使い続けるほど得」）
-- **安心感重視のサブ**: ポイントタウン（GMO傘下・上場企業運営）
+<div class="compare-cards">
+  <article class="compare-card recommended">
+    <span class="compare-card-tag is-main">メイン</span>
+    <h3>モッピー</h3>
+    <p class="tagline">案件数No.1・ANAマイル交換でマイラー圧勝。<strong>メインに据えるならココ</strong>。</p>
+  </article>
+  <article class="compare-card">
+    <span class="compare-card-tag is-sub">サブ・ショッピング系</span>
+    <h3>ハピタス</h3>
+    <p class="tagline">楽天・Yahoo!ショッピングの還元率が頭ひとつ抜けてる。<strong>買い物のときだけ切替</strong>。</p>
+  </article>
+  <article class="compare-card">
+    <span class="compare-card-tag is-sub">サブ・継続派</span>
+    <h3>ポイントインカム</h3>
+    <p class="tagline">ランク制度＆長期利用ボーナスで「使い続けるほど得」する設計。<strong>コツコツ派の保険</strong>。</p>
+  </article>
+  <article class="compare-card">
+    <span class="compare-card-tag is-sub">サブ・安心感重視</span>
+    <h3>ポイントタウン</h3>
+    <p class="tagline">GMO傘下・上場企業運営の老舗。<strong>GMO系案件用＋リスク分散</strong>として手元に。</p>
+  </article>
+</div>
 
 **1案件ごとに必ず複数サイトで還元率を比較してから選ぶ**、これだけ守れば年間2〜3万円は平気で変わる。
 
@@ -81,6 +99,7 @@ author: "hacker-ko"
 <div class="compare-cards">
   <article class="compare-card recommended">
     <span class="compare-card-image"><img src="https://img.moppy.jp/pub/global/pc/top/nologin/redesign_202510/mainvisual_moppy.png" alt="モッピー メインビジュアル" loading="lazy" /></span>
+    <span class="compare-card-tag is-main">メイン</span>
     <span class="compare-card-mascot"><img src="/images/expr-05-smug.png" alt="" /></span>
     <h3>モッピー</h3>
     <p class="tagline">国内最大級・案件数No.1。マイラー御用達の絶対王者。</p>
@@ -99,6 +118,8 @@ author: "hacker-ko"
   </article>
 
   <article class="compare-card recommended">
+    <span class="compare-card-image is-logo"><img src="https://img.hapitas.jp/img/images/logo.png" alt="ハピタス 公式ロゴ" loading="lazy" /></span>
+    <span class="compare-card-tag is-sub">サブ・ショッピング系</span>
     <span class="compare-card-mascot"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <h3>ハピタス</h3>
     <p class="tagline">ショッピング案件の還元率がエグい。買い物中心ならコレ。</p>
@@ -117,7 +138,8 @@ author: "hacker-ko"
   </article>
 
   <article class="compare-card">
-    <span class="compare-card-image"><img src="https://pointi.jp/img_share/rogo.png" alt="ポイントインカム 公式ロゴ" loading="lazy" /></span>
+    <span class="compare-card-image is-logo"><img src="https://pointi.jp/img_share/rogo.png" alt="ポイントインカム 公式ロゴ" loading="lazy" /></span>
+    <span class="compare-card-tag is-sub">サブ・継続派</span>
     <span class="compare-card-mascot"><img src="/images/expr-01-wave.png" alt="" /></span>
     <h3>ポイントインカム</h3>
     <p class="tagline">使い続けるほど得する「ランク制度」と長期利用ボーナスが最強。</p>
@@ -137,6 +159,7 @@ author: "hacker-ko"
 
   <article class="compare-card">
     <span class="compare-card-image"><img src="https://img.pointtown.com/pc/images/regist/character-kuma.png" alt="ポイントタウン キャラクター" loading="lazy" /></span>
+    <span class="compare-card-tag is-sub">サブ・安心感重視</span>
     <span class="compare-card-mascot"><img src="/images/expr-06-shock.png" alt="" /></span>
     <h3>ポイントタウン</h3>
     <p class="tagline">GMOグループ運営の安心感。サブで持っておく価値あり。</p>
@@ -245,7 +268,9 @@ GMOメディア（東証スタンダード上場）が運営する15年超の老
 
 ### テク1: 「ポイントサイト 比較」系の横断検索ツールを使う
 
-「どこ得？」「ポイント横断検索」のような第三者の比較サイトを使えば、4大ポイントサイト＋他10サイト程度を一括で検索できる。**毎回4サイトを手動で開く必要はない**わけ。新規申込の前にここを通すだけで、最高還元を逃さない仕組みができる。
+「どこ得？」「ぽい得サーチ」「ポイ探」のような第三者の比較サイトを使えば、4大ポイントサイト＋他10サイト程度を一括で検索できる。**毎回4サイトを手動で開く必要はない**わけ。新規申込の前にここを通すだけで、最高還元を逃さない仕組みができる。
+
+<p class="source-note">参考: <a href="https://dokotoku.jp/" target="_blank" rel="noopener nofollow">どこ得？（ポイントサイト案件比較検索）</a> / <a href="https://poitoku.jp/" target="_blank" rel="noopener nofollow">ぽい得サーチ（厳選10サイトをリアルタイム比較）</a> / <a href="https://www.poitan.jp/" target="_blank" rel="noopener nofollow">ポイ探ニュース（ポイント・マイル特化メディア、2013年〜）</a>。最新の還元率・取扱案件は各横断検索ツールでご確認ください。</p>
 
 ### テク2: キャンペーン期間中だけ「単発で別サイト」を使う
 
@@ -302,12 +327,34 @@ GMOメディア（東証スタンダード上場）が運営する15年超の老
 
 ## まとめ: 1サイト依存は今日で卒業しなさい
 
-ここまで読んで、もう答えは見えてるはず。
+ここまで読んで、もう答えは見えてるはず。今日からあんたが守るべきはこの4つよ。
 
-- **メイン1本＋サブ2〜3本の併用**が2026年のポイ活基本ルール
-- **申込前は必ず4サイト横断検索**、これで毎回最大の還元を取れる
-- **モッピー = マイラーの本命** / **ハピタス = ショッピング派** / **ポイントインカム = 長期コツコツ派** / **ポイントタウン = 安心の老舗**
-- **三重取り（SPU+クレカ+ポイントサイト）**を習慣化すれば、月3万円のネット買い物で年12,000円以上回収
+<ul class="checklist">
+  <li>
+    <div class="checklist-body">
+      <strong>メイン1本＋サブ2〜3本の併用</strong>
+      <p>2026年のポイ活基本ルール。1サイト依存は確定で損する設計になってる。</p>
+    </div>
+  </li>
+  <li>
+    <div class="checklist-body">
+      <strong>申込前は必ず4サイト横断検索</strong>
+      <p>「どこ得？」「ぽい得サーチ」を通すだけで毎回最大の還元を取れる。1分で数千〜数万円差。</p>
+    </div>
+  </li>
+  <li>
+    <div class="checklist-body">
+      <strong>用途で使い分け</strong>
+      <p>モッピー＝マイラーの本命 / ハピタス＝ショッピング派 / ポイントインカム＝長期コツコツ派 / ポイントタウン＝安心の老舗。</p>
+    </div>
+  </li>
+  <li>
+    <div class="checklist-body">
+      <strong>三重取り（SPU+クレカ+ポイントサイト）を習慣化</strong>
+      <p>月3万円のネット買い物で年12,000円以上回収。何もしないあんたとの差はここで開く。</p>
+    </div>
+  </li>
+</ul>
 
 「面倒くさそう」って思ったあんた、まさかまだやってないの？ アタシ、何度でも言うわよ。比較に1分かければ最大3万円差。**やらない理由ある？** ⏰
 

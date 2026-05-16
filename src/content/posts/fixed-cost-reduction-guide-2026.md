@@ -211,7 +211,7 @@ ahamo・povo・LINEMO・楽天モバイル・UQモバイル・ワイモバイル
       <dt>強み</dt><dd>200円につき1ポイント還元、楽天カード払いでさらに上乗せ</dd>
       <dt>おすすめ</dt><dd>楽天市場・楽天カードユーザー</dd>
     </dl>
-    <a class="compare-cta" href="https://denki.rakuten.co.jp/" target="_blank" rel="sponsored noopener nofollow">楽天でんき 公式 →</a>
+    <a class="compare-cta" href="https://energy.rakuten.co.jp/" target="_blank" rel="sponsored noopener nofollow">楽天でんき 公式 →</a>
   </article>
 
   <article class="compare-card recommended">
@@ -222,7 +222,7 @@ ahamo・povo・LINEMO・楽天モバイル・UQモバイル・ワイモバイル
       <dt>強み</dt><dd>電気料金に応じたPontaポイント還元、au PAY決済との連動</dd>
       <dt>おすすめ</dt><dd>au/UQモバイル/Pontaユーザー</dd>
     </dl>
-    <a class="compare-cta" href="https://www.au.com/electricity/" target="_blank" rel="sponsored noopener nofollow">auでんき 公式 →</a>
+    <a class="compare-cta" href="https://www.au.com/energy/" target="_blank" rel="sponsored noopener nofollow">auでんき 公式 →</a>
   </article>
 
   <article class="compare-card">
@@ -322,11 +322,33 @@ ahamo・povo・LINEMO・楽天モバイル・UQモバイル・ワイモバイル
 
 ### よくある「解約していい」サブスクTOP5
 
-- **動画配信の重複契約**: Netflix + Amazon Prime Video + Disney+ + U-NEXT を全部、はやりすぎ。1〜2個に絞りなさい
-- **音楽配信の重複**: Spotify と Apple Music の両方契約してる人、何してるの？ どっちか1個で十分
-- **クラウドストレージの惰性課金**: iCloud / Google One / Dropbox を全部使ってる人、用途を1個に集約しなさい
-- **読み放題系で月1冊も読んでない**: Kindle Unlimited / dマガジン / 楽天マガジン、開いてないなら即解約
-- **無料体験から滑り込み課金になったやつ**: 無料期間に登録したまま忘れてるサービス、棚卸しで掘り出される代表格
+<div class="highlight-grid">
+  <div class="highlight-item">
+    <span class="highlight-tag">動画</span>
+    <h4>動画配信の重複契約</h4>
+    <p>Netflix + Amazon Prime Video + Disney+ + U-NEXT を全部、はやりすぎ。1〜2個に絞りなさい。</p>
+  </div>
+  <div class="highlight-item">
+    <span class="highlight-tag">音楽</span>
+    <h4>音楽配信の重複</h4>
+    <p>Spotify と Apple Music の両方契約してる人、何してるの？ どっちか1個で十分。</p>
+  </div>
+  <div class="highlight-item">
+    <span class="highlight-tag">ストレージ</span>
+    <h4>クラウドストレージの惰性課金</h4>
+    <p>iCloud / Google One / Dropbox を全部使ってる人、用途を1個に集約しなさい。</p>
+  </div>
+  <div class="highlight-item">
+    <span class="highlight-tag">読み放題</span>
+    <h4>読み放題系で月1冊も読んでない</h4>
+    <p>Kindle Unlimited / dマガジン / 楽天マガジン、開いてないなら即解約。</p>
+  </div>
+  <div class="highlight-item">
+    <span class="highlight-tag">無料体験</span>
+    <h4>無料体験から滑り込み課金</h4>
+    <p>無料期間に登録したまま忘れてるサービス、棚卸しで掘り出される代表格よ。</p>
+  </div>
+</div>
 
 ### 解約のコツ：「迷ったら一旦解約」が正解
 
@@ -334,11 +356,25 @@ ahamo・povo・LINEMO・楽天モバイル・UQモバイル・ワイモバイル
 
 ## 削減した分の正しい使い道
 
-ここ重要。**浮いた12万円を、また別の浪費に溶かしたら意味ない**。アタシの推奨は以下:
+ここ重要。**浮いた12万円を、また別の浪費に溶かしたら意味ない**。アタシの推奨はこの3パターン。
 
-1. **半分を貯蓄・投資に回す（年6万円）**: 新NISAの積立枠に月5,000円。これで20年後に大きく効く
-2. **半分は「投資型の固定費」に再投資（年6万円）**: ふるさと納税の上限額に充てる、本・学習サービス（リスキリング）に回す等
-3. **既存サブスクは年払いに切替**: 月払いより年払いの方が10〜20%安くなるサービスが多い。残すサブスクだけ年払いに集約
+<div class="highlight-grid cols-3">
+  <div class="highlight-item">
+    <span class="highlight-tag">貯蓄/投資</span>
+    <h4>半分を新NISAへ（年6万円）</h4>
+    <p>積立枠に月5,000円。20年後に複利で効いてくる「未来のあんた」への仕送り。</p>
+  </div>
+  <div class="highlight-item">
+    <span class="highlight-tag">再投資</span>
+    <h4>残り半分は投資型の固定費へ（年6万円）</h4>
+    <p>ふるさと納税の上限額に充てる、本・学習サービス（リスキリング）に回す。リターンが返ってくる支出ね。</p>
+  </div>
+  <div class="highlight-item">
+    <span class="highlight-tag">年払い化</span>
+    <h4>残すサブスクは年払いに集約</h4>
+    <p>月払いより年払いの方が10〜20%安くなるサービスが多い。残すと決めたものだけ一気に切替。</p>
+  </div>
+</div>
 
 ### 削った金額を「見える化」するクセをつけて
 
@@ -380,9 +416,26 @@ ahamo・povo・LINEMO・楽天モバイル・UQモバイル・ワイモバイル
 
 ### 今日やることリスト
 
-1. **直近のスマホ料金明細を見て、月額を確認**（大手キャリアなら格安SIM乗り換え候補を即チェック）
-2. **直近の電気料金明細を見て、住所と使用量で新電力シミュレーション**（楽天でんき・auでんきの公式で3分）
-3. **クレカ明細・App Storeサブスク一覧を見て、半年使ってないやつを即解約**（迷ったら一旦解約、再契約はワンタップ）
+<ul class="checklist">
+  <li>
+    <div class="checklist-body">
+      <strong>スマホ料金明細を確認</strong>
+      <p>直近1ヶ月の月額をチェック。大手キャリアなら格安SIM乗り換え候補を即<a href="/posts/cheap-sim-comparison-2026/">比較記事</a>で。</p>
+    </div>
+  </li>
+  <li>
+    <div class="checklist-body">
+      <strong>電気料金明細でシミュレーション</strong>
+      <p>住所と直近12ヶ月の使用量(kWh)を控えて、<a href="https://energy.rakuten.co.jp/" target="_blank" rel="sponsored noopener nofollow">楽天でんき</a>・<a href="https://www.au.com/energy/" target="_blank" rel="sponsored noopener nofollow">auでんき</a>の公式で3分試算。</p>
+    </div>
+  </li>
+  <li>
+    <div class="checklist-body">
+      <strong>クレカ明細・App Storeサブスクを棚卸し</strong>
+      <p>半年使ってないやつを即解約。迷ったら一旦解約、再契約はワンタップで戻せるわよ。</p>
+    </div>
+  </li>
+</ul>
 
 これだけ。1〜2時間で終わる作業で、**年12万円**が浮く。時給換算したら時給6万円の作業よ。やらない理由、本当にある？
 

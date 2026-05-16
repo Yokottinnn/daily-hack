@@ -47,21 +47,36 @@ author: "hacker-ko"
 
 6月のキャンペーンを全部追いかけてたら時間が溶けるから、軸を3つに絞るわよ。
 
-- **銀行**: Olive・JRE BANK・楽天銀行の3行で **約3万〜4万円分**
-- **クレカ**: 楽天カード・JCB W・リクルートカードで **入会特典が二重取り可能**
-- **QR決済**: PayPay・楽天ペイ・d払いの新規登録特典で **合計5,000円以上の即金性**
+<div class="highlight-grid cols-3">
+  <div class="highlight-item">
+    <span class="highlight-tag">銀行</span>
+    <h4>3行で約3万〜4万円分</h4>
+    <p>Olive・JRE BANK・楽天銀行の<strong>三層構造</strong>で確保。給与振込・残高条件のいずれかを満たせば達成。Oliveがメイン、JRE BANKがサブ、楽天銀行が経済圏連携用ね。</p>
+  </div>
+  <div class="highlight-item">
+    <span class="highlight-tag">クレカ</span>
+    <h4>入会特典が二重取り</h4>
+    <p>楽天カード・JCB W・リクルートカードは<strong>公式キャンペーン + 紹介プログラム</strong>を併用OK。紹介リンク経由で申し込むだけで通常入会より特典が積み増される。</p>
+  </div>
+  <div class="highlight-item">
+    <span class="highlight-tag">QR決済</span>
+    <h4>5,000円以上の即金性</h4>
+    <p>PayPay・楽天ペイ・d払いの新規登録特典は<strong>1回限り</strong>。インストール + 本人確認まで終わらせれば、夏のキャンペーン期に複数経済圏で還元を刈り取れる。</p>
+  </div>
+</div>
 
 ここに **ふるさと納税の運用調整**（6月は年収予測が立つ最初のチェックポイント）を被せたら、6月の"やるべきこと"は8割埋まる。残り2割は、季節限定のスポット案件で穴埋めしなさい。
 
 <div class="section-with-mascot">
   <img src="/images/expr-09-arms-crossed.png" alt="" />
-  <h2>TOP15を視覚的に並べる｜服装・期限・特典額で一望</h2>
+  <h2>アタシのおすすめTOP15｜カテゴリ・期限・特典額で絞ったわよ</h2>
 </div>
 
-「結局どれが一番なの？」と聞きたがる人のために、15案件を **recommended マーク付き** で並べたわよ。上から順にやりなさい。
+「結局どれが一番なの？」って聞きたがる人のために、15案件を **recommended マーク付き** で並べておいたわよ。上から順にやれば、これで間違いないからね。
 
 <div class="compare-cards">
   <article class="compare-card recommended">
+    <span class="compare-card-image"><img src="https://www.smbc.co.jp/kojin/olive/imgs/index_img_18_pc.png" alt="Olive（三井住友銀行）" loading="lazy" /></span>
     <span class="compare-card-mascot"><img src="/images/expr-05-smug.png" alt="" /></span>
     <h3>1. Olive（三井住友銀行）</h3>
     <p class="tagline">6月もキャンペーン継続中。最大30,000円相当のVポイントは依然として最強案件。</p>
@@ -76,6 +91,7 @@ author: "hacker-ko"
   </article>
 
   <article class="compare-card recommended">
+    <span class="compare-card-image"><img src="https://www.rakuten-bank.co.jp/jrebank/campaign/referral/images/img-main-sp.png" alt="JRE BANK" loading="lazy" /></span>
     <span class="compare-card-mascot"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <h3>2. JRE BANK 開設</h3>
     <p class="tagline">JR東日本ユーザーは"無条件"で勝てる銀行。新幹線4割引・キャッシュバックが地味に強烈。</p>
@@ -90,6 +106,7 @@ author: "hacker-ko"
   </article>
 
   <article class="compare-card recommended">
+    <span class="compare-card-image is-logo"><img src="https://www.rakuten-bank.co.jp/shared/images/header/logo_pc.svg" alt="楽天銀行" loading="lazy" /></span>
     <span class="compare-card-mascot"><img src="/images/expr-01-wave.png" alt="" /></span>
     <h3>3. 楽天銀行 紹介プログラム</h3>
     <p class="tagline">楽天経済圏の入口。ハッピープログラム登録で確実に200pt、紹介者は最大2,000pt。</p>
@@ -164,7 +181,7 @@ author: "hacker-ko"
   </article>
 
   <article class="compare-card recommended">
-    <span class="compare-card-image"><img src="https://payment.rakuten.co.jp/img/logo-Rpayment20241101.svg" alt="楽天ペイ" loading="lazy" /></span>
+    <span class="compare-card-image is-logo"><img src="https://payment.rakuten.co.jp/img/logo-Rpayment20241101.svg" alt="楽天ペイ" loading="lazy" /></span>
     <span class="compare-card-mascot"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <h3>8. 楽天ペイ 新規登録</h3>
     <p class="tagline">楽天カードとの組み合わせで還元率が爆上がり。SPU連携も狙えるから楽天民は必須。</p>
@@ -377,20 +394,52 @@ PayPay・楽天ペイ・d払いの **新規登録特典は基本的に1回限り
 
 「全部やれ」しか言わないまとめサイトは無責任よ。6月に **手を出すべきじゃないもの** も先に潰しておくわね。
 
-- **怪しい高還元案件**: 「30分で5万円」「友達紹介で無限ループ」みたいなネズミ講・ポイ活詐欺は6月に活発化する。**還元の出所が説明できない案件は全部スルー**しなさい。
-- **複数クレカの一斉申込**: 1ヶ月に3枚以上同時申込は申込ブラック直行。Day1〜Week1で1〜2枚に絞りなさい。
-- **暗号資産の新規取引所キャンペーン**: 「新規登録で1万円分BTC配布」系は条件達成が厳しく、相場下落で価値が消える。投資知識がない人は触らない。
-- **期限が極端に短い"今だけ"系**: 6月末締切で5日前から告知される広告は、条件が読み切れずトラブルになりやすい。**月の前半に決めた案件だけを淡々と回す**のが王道。
+<div class="highlight-grid cols-2">
+  <div class="highlight-item">
+    <span class="highlight-tag">NG</span>
+    <h4>怪しい高還元案件</h4>
+    <p>「30分で5万円」「友達紹介で無限ループ」みたいなネズミ講・ポイ活詐欺は6月に活発化する。<strong>還元の出所が説明できない案件は全部スルー</strong>しなさい。</p>
+  </div>
+  <div class="highlight-item">
+    <span class="highlight-tag">NG</span>
+    <h4>複数クレカの一斉申込</h4>
+    <p>1ヶ月に3枚以上同時申込は<strong>申込ブラック直行</strong>。Day1〜Week1で1〜2枚に絞りなさい。半年は審査落ちが連続するから本当に痛い。</p>
+  </div>
+  <div class="highlight-item">
+    <span class="highlight-tag">NG</span>
+    <h4>暗号資産の新規取引所キャンペーン</h4>
+    <p>「新規登録で1万円分BTC配布」系は<strong>条件達成が厳しく</strong>、相場下落で価値が消える。投資知識がない人は触らないのが正解よ。</p>
+  </div>
+  <div class="highlight-item">
+    <span class="highlight-tag">NG</span>
+    <h4>期限が極端に短い"今だけ"系</h4>
+    <p>6月末締切で5日前から告知される広告は、条件が読み切れずトラブルになりやすい。<strong>月の前半に決めた案件だけを淡々と回す</strong>のが王道。</p>
+  </div>
+</div>
 
 > ⚠️ **重要**: お得情報を追いかけすぎて本業の生産性が落ちるのは本末転倒。1日30分以内、週末でも2時間以内で完結する範囲に絞りなさい。
 
 ## まとめ: 6月で4万〜10万円分、夏ボの手取りを厚くしなさい
 
-長々書いたけど、結論を3行で:
+長々書いたけど、結論はこの3つを順番に潰すだけよ。
 
-- **Day1にOlive + 楽天カード（紹介経由）を申し込む**。これだけで6月の上限の半分は確保できる
-- **Week1にJRE BANK + QR決済3点 + JCB W（39歳以下なら）を片付ける**。ここまでで実質的に7案件クリア
-- **Month1にふるさと納税の上限額再計算と紹介プログラム3行**。月末の混雑前に終わらせるのが正解
+<div class="highlight-grid cols-3">
+  <div class="highlight-item">
+    <span class="highlight-tag">Day1</span>
+    <h4>Olive + 楽天カード（紹介経由）</h4>
+    <p>これだけで6月の上限の半分は確保。<strong>審査・カード到着に時間がかかる</strong>から、今日中に申込フォームを送信しなさい。</p>
+  </div>
+  <div class="highlight-item">
+    <span class="highlight-tag">Week1</span>
+    <h4>JRE BANK + QR決済3点 + JCB W</h4>
+    <p>ここまでで<strong>実質7案件クリア</strong>。クレカは1〜2枚に絞って、QR決済は本人確認まで終わらせるのを忘れないで。</p>
+  </div>
+  <div class="highlight-item">
+    <span class="highlight-tag">Month1</span>
+    <h4>ふるさと納税 + 紹介プログラム3行</h4>
+    <p>上限額の再計算と紹介プログラムの刈り取り。<strong>25日までに動けば</strong>、月末のシステム混雑にハマらない。</p>
+  </div>
+</div>
 
 「やらない理由ある?」って聞かれて答えられないなら、今すぐ動きなさい。アタシは何度でも教えてあげるけど、**やるのはあんた自身**よ。来月の総まとめも、こことX（[@heng_ji31590](https://x.com/heng_ji31590)）で更新するから、見逃したくない人はフォローしておきなさい ⏰
 
