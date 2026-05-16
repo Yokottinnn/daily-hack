@@ -6,7 +6,7 @@ category: "services"
 tags: ["ふるさと納税", "返礼品", "食品", "米", "肉", "海鮮", "おすすめ"]
 isPR: true
 featured: true
-draft: false
+draft: true
 eyecatchUrl: "https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=1200&q=80"
 eyecatchAlt: "ふるさと納税 食品返礼品おすすめ｜米・肉・海鮮の本気で美味しい15選 2026年版"
 author: "hacker-ko"
