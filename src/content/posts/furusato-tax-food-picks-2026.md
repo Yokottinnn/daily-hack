@@ -335,10 +335,10 @@ author: "hacker-ko"
     <div class="figure-body">
       <h4>鹿児島県大隅産 国産うなぎ 長蒲焼 4尾</h4>
       <p><strong>自治体</strong>: 鹿児島県大崎町・志布志市 等 / <strong>配送</strong>: 真空冷凍便 / <strong>人気度</strong>: ★★★★★<br>夏の土用丑の日に向けて夏前発注がベスト。真空冷凍だから解凍即丼。市場価値が圧倒的に高い。</p>
-      <span class="figure-price">参考: 楽天 ¥22,000(4尾) / ふるなび ¥11,000(2尾)</span>
+      <span class="figure-price">参考: 楽天 ¥22,000(4尾)</span>
       <div class="figure-cta">
         <a class="cta-rakuten" href="https://item.rakuten.co.jp/f464686-osaki/ak30-r/" target="_blank" rel="sponsored noopener nofollow">楽天ふるさと納税で見る</a>
-        <a class="cta-furunavi" href="https://furunavi.jp/product_detail.aspx?pid=1838872" target="_blank" rel="sponsored noopener nofollow">ふるなびで見る</a>
+        <a class="cta-furunavi" href="https://furunavi.jp/Product/Search?keyword=%E3%81%86%E3%81%AA%E3%81%8E+%E8%92%B2%E7%84%BC" target="_blank" rel="sponsored noopener nofollow">ふるなびで探す</a>
       </div>
     </div>
   </div>
