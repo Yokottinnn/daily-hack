@@ -388,27 +388,26 @@ footer.foot .pr { margin-top: 6px; }
 .svc-card .cta:hover { background: var(--pink-600); }
 
 /* Comparison table */
-.cmp-table { width: 100%; border-collapse: separate; border-spacing: 0; margin: 26px 0; background: #fff; border-radius: 18px; overflow: hidden; box-shadow: var(--shadow-card); border: 1px solid var(--line); }
-.cmp-table th, .cmp-table td { padding: 14px 18px; text-align: left; font-size: 14px; border-bottom: 1px solid var(--line); white-space: nowrap; }
-.cmp-table td:last-child { white-space: normal; }
+.cmp-table-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; margin: 26px 0; border-radius: 18px; box-shadow: var(--shadow-card); }
+.cmp-table { width: 100%; border-collapse: separate; border-spacing: 0; background: #fff; border-radius: 18px; overflow: hidden; border: 1px solid var(--line); }
+.cmp-table th, .cmp-table td { padding: 14px 22px; text-align: left; font-size: 14px; border-bottom: 1px solid var(--line); white-space: nowrap; }
 .cmp-table th { background: var(--pink-50); font-family: "RocknRoll One"; color: var(--pink-700); font-weight: 400; }
 .cmp-table tr:last-child td { border-bottom: 0; }
 .cmp-table tr.recommended td { background: #FFFBEE; }
 .cmp-table tr.recommended td:first-child::before { content: "★ "; color: var(--yellow-500); font-weight: 900; }
 
-/* Tables inside post body — make Markdown-generated tables visually distinctive */
-.post-body table { width: 100%; border-collapse: separate; border-spacing: 0; margin: 28px 0; background: #fff; border-radius: 14px; overflow: hidden; box-shadow: var(--shadow-card); border: 1px solid var(--pink-200); font-size: 14px; }
-.post-body table thead th { background: linear-gradient(135deg, var(--pink-500), var(--pink-600)); color: #fff !important; font-family: "RocknRoll One"; font-weight: 400; padding: 14px 16px; text-align: left; font-size: 13.5px; letter-spacing: .02em; border-bottom: 0 !important; }
-.post-body table tbody td { padding: 14px 16px; vertical-align: top; border-bottom: 1px solid var(--line); line-height: 1.7; }
+/* Tables inside post body — always scroll horizontally, never wrap content */
+.post-body table { display: block; overflow-x: auto; -webkit-overflow-scrolling: touch; width: 100%; border-collapse: separate; border-spacing: 0; margin: 28px 0; background: #fff; border-radius: 14px; box-shadow: var(--shadow-card); border: 1px solid var(--pink-200); font-size: 14px; }
+.post-body table thead th { background: linear-gradient(135deg, var(--pink-500), var(--pink-600)); color: #fff !important; font-family: "RocknRoll One"; font-weight: 400; padding: 16px 20px; text-align: left; font-size: 13.5px; letter-spacing: .02em; border-bottom: 0 !important; white-space: nowrap; }
+.post-body table tbody td { padding: 16px 20px; vertical-align: top; border-bottom: 1px solid var(--line); line-height: 1.7; white-space: nowrap; }
 .post-body table tbody tr:last-child td { border-bottom: 0; }
 .post-body table tbody tr:nth-child(odd) td { background: var(--pink-50); }
 .post-body table tbody tr:hover td { background: #FFFBEE; }
-.post-body table tbody td:first-child { font-weight: 800; color: var(--pink-700); white-space: nowrap; min-width: 120px; }
+.post-body table tbody td:first-child { font-weight: 800; color: var(--pink-700); }
 .post-body table tbody td strong { color: var(--pink-700); font-weight: 900; }
 @media (max-width: 720px) {
-  .post-body table { display: block; overflow-x: auto; -webkit-overflow-scrolling: touch; font-size: 13px; }
-  .post-body table thead th, .post-body table tbody td { padding: 10px 14px; white-space: nowrap; min-width: 100px; }
-  .post-body table tbody td:first-child { white-space: normal; }
+  .post-body table { font-size: 13px; }
+  .post-body table thead th, .post-body table tbody td { padding: 12px 16px; }
 }
 
 /* Card-style comparison (alternative to wide tables, mobile-friendly) */

@@ -14,7 +14,7 @@ export interface Props {
 const { headers, rows, caption } = Astro.props;
 ---
 
-<div style="overflow-x: auto;">
+<div class="cmp-table-wrap">
   <table class="cmp-table">
     {caption && <caption style="caption-side: top; text-align: left; padding: 8px 0; font-weight: 800; color: var(--ink-2);">{caption}</caption>}
     <thead>
