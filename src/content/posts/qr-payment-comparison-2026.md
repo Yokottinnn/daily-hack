@@ -261,7 +261,7 @@ QRコード決済の還元は **「基本還元 × チャージ元クレカ還�
 </a>
 
 <div class="section-with-mascot">
-  <img src="/images/expr-05-smug.png" alt="" />
+  <div class="mascot-wrap"><img src="/images/expr-05-smug.png" alt="" /></div>
   <h2>クレカとの組み合わせ（ペイステップ最適化）</h2>
 </div>
 

@@ -103,7 +103,7 @@ author: "hacker-ko"
 </aside>
 
 <div class="section-with-mascot">
-  <img src="/images/expr-09-arms-crossed.png" alt="" />
+  <div class="mascot-wrap"><img src="/images/expr-09-arms-crossed.png" alt="" /></div>
   <h2>主要6社の徹底比較カード</h2>
 </div>
 
@@ -301,7 +301,7 @@ LINEのトーク・音声通話・ビデオ通話・スタンプ送信が**全�
 </a>
 
 <div class="section-with-mascot">
-  <img src="/images/expr-05-smug.png" alt="" />
+  <div class="mascot-wrap"><img src="/images/expr-05-smug.png" alt="" /></div>
   <h2>よくある質問</h2>
 </div>
 

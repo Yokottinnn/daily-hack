@@ -66,7 +66,7 @@ author: "hacker-ko"
 ここで差がつく。コンビニで7%還元、Amazonで2%、楽天市場で最大16%……。**自分の支出パターンに刺さる「上乗せ」があるカードを選ぶ**のが正解。誰にとってもベストな1枚は存在しないから、自分の生活を一度棚卸ししなさい。
 
 <div class="section-with-mascot">
-  <img src="/images/expr-09-arms-crossed.png" alt="" />
+  <div class="mascot-wrap"><img src="/images/expr-09-arms-crossed.png" alt="" /></div>
   <h2>年会費無料×還元率1%以上 おすすめ5枚</h2>
 </div>
 
