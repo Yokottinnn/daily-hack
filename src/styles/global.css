@@ -503,9 +503,8 @@ footer.foot .pr { margin-top: 6px; }
 .figure-card .figure-body { padding: 14px 16px 16px; }
 .figure-card h4 { margin: 0 0 6px; font-family: "RocknRoll One"; font-weight: 400; color: var(--pink-700); font-size: 15px; padding-left: 0 !important; border-left: 0 !important; }
 .figure-card p { margin: 0; font-size: 13px; line-height: 1.7; color: var(--ink-2); }
-.figure-card .figure-cta { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 14px; }
-@media (max-width: 480px) { .figure-card .figure-cta { grid-template-columns: 1fr; } }
-.figure-card .figure-cta a { display: inline-flex; align-items: center; justify-content: center; gap: 6px; padding: 11px 12px; border-radius: 10px; font-size: 12.5px; font-weight: 700; text-decoration: none !important; border: 1.5px solid var(--line); transition: all .15s; text-align: center; white-space: nowrap; line-height: 1.2; }
+.figure-card .figure-cta { display: flex; flex-direction: column; gap: 8px; margin-top: 14px; }
+.figure-card .figure-cta a { display: flex; align-items: center; justify-content: center; gap: 6px; padding: 11px 12px; border-radius: 10px; font-size: 13px; font-weight: 700; text-decoration: none !important; border: 1.5px solid var(--line); transition: all .15s; text-align: center; line-height: 1.3; width: 100%; box-sizing: border-box; }
 .figure-card .figure-cta a.cta-rakuten { background: #BF0000 !important; color: #fff !important; border-color: #BF0000 !important; border-bottom: 1.5px solid #BF0000 !important; }
 .figure-card .figure-cta a.cta-rakuten:hover { background: #9c0000 !important; transform: translateY(-1px); color: #fff !important; }
 .figure-card .figure-cta a.cta-furunavi { background: #fff !important; color: var(--ink) !important; border-color: var(--ink) !important; border-bottom: 1.5px solid var(--ink) !important; }
