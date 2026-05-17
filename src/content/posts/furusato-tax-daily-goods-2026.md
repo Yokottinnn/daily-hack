@@ -125,7 +125,7 @@ author: "hacker-ko"
     <div class="figure-body">
       <h4>静岡県富士市 トイレットペーパー 96ロール（ダブル）</h4>
       <p><strong>自治体</strong>: 静岡県富士市 / <strong>配送</strong>: 通常便（1回発送） / <strong>人気度</strong>: ★★★★★<br>富士山麓の伏流水で作られた良質パルプ100%。製紙のまち富士市の代表格、3〜4人家族で半年は余裕で持つ。</p>
-      <span class="figure-price">参考: 楽天 ¥14,000 / ふるなび ¥14,000</span>
+      <span class="figure-price">楽天 ¥14,000 / ふるなび ¥14,000</span>
       <div class="figure-cta">
         <a class="compare-cta" href="https://search.rakuten.co.jp/search/mall/%E5%AF%8C%E5%A3%AB%E5%B8%82+%E3%83%88%E3%82%A4%E3%83%AC%E3%83%83%E3%83%88%E3%83%9A%E3%83%BC%E3%83%91%E3%83%BC+96%E3%83%AD%E3%83%BC%E3%83%AB/?f=15" target="_blank" rel="sponsored noopener nofollow">楽天ふるさと納税で見る →</a>
         <a class="compare-cta" href="https://furunavi.jp/Product/Search?keyword=%E5%AF%8C%E5%A3%AB%E5%B8%82+%E3%83%88%E3%82%A4%E3%83%AC%E3%83%83%E3%83%88%E3%83%9A%E3%83%BC%E3%83%91%E3%83%BC+96" target="_blank" rel="sponsored noopener nofollow">ふるなびで探す →</a>
@@ -136,7 +136,7 @@ author: "hacker-ko"
     <div class="figure-body">
       <h4>北海道倶知安町 トイレットペーパー 72ロール（ダブル・香り付き）</h4>
       <p><strong>自治体</strong>: 北海道倶知安町 / <strong>配送</strong>: 通常便（1回発送） / <strong>人気度</strong>: ★★★★<br>白樺の香り付きで開封時から心地良い。倶知安町は北海道日本製紙クレシアの工場立地、品質安定。一人〜二人暮らしの半年分。</p>
-      <span class="figure-price">参考: 楽天 ¥12,000 / ふるなび ¥12,000</span>
+      <span class="figure-price">楽天 ¥12,000 / ふるなび ¥12,000</span>
       <div class="figure-cta">
         <a class="compare-cta" href="https://search.rakuten.co.jp/search/mall/%E5%80%B6%E7%9F%A5%E5%AE%89%E7%94%BA+%E3%83%88%E3%82%A4%E3%83%AC%E3%83%83%E3%83%88%E3%83%9A%E3%83%BC%E3%83%91%E3%83%BC/?f=15" target="_blank" rel="sponsored noopener nofollow">楽天ふるさと納税で見る →</a>
         <a class="compare-cta" href="https://furunavi.jp/Product/Search?keyword=%E5%80%B6%E7%9F%A5%E5%AE%89+%E3%83%88%E3%82%A4%E3%83%AC%E3%83%83%E3%83%88%E3%83%9A%E3%83%BC%E3%83%91%E3%83%BC" target="_blank" rel="sponsored noopener nofollow">ふるなびで探す →</a>
@@ -147,7 +147,7 @@ author: "hacker-ko"
     <div class="figure-body">
       <h4>愛媛県四国中央市 トイレットペーパー 64ロール（シングル芯なし）</h4>
       <p><strong>自治体</strong>: 愛媛県四国中央市 / <strong>配送</strong>: 通常便 / <strong>人気度</strong>: ★★★★<br>「紙のまち」四国中央市の長尺シングル。1ロールあたりの長さが通常の3倍以上、置き場所節約派に最適。芯なしでゴミも減る。</p>
-      <span class="figure-price">参考: 楽天 ¥10,000 / ふるなび ¥11,000</span>
+      <span class="figure-price">楽天 ¥10,000 / ふるなび ¥11,000</span>
       <div class="figure-cta">
         <a class="compare-cta" href="https://search.rakuten.co.jp/search/mall/%E5%9B%9B%E5%9B%BD%E4%B8%AD%E5%A4%AE%E5%B8%82+%E3%83%88%E3%82%A4%E3%83%AC%E3%83%83%E3%83%88%E3%83%9A%E3%83%BC%E3%83%91%E3%83%BC+%E8%8A%AF%E3%81%AA%E3%81%97/?f=15" target="_blank" rel="sponsored noopener nofollow">楽天ふるさと納税で見る →</a>
         <a class="compare-cta" href="https://furunavi.jp/Product/Search?keyword=%E5%9B%9B%E5%9B%BD%E4%B8%AD%E5%A4%AE%E5%B8%82+%E3%83%88%E3%82%A4%E3%83%AC%E3%83%83%E3%83%88%E3%83%9A%E3%83%BC%E3%83%91%E3%83%BC" target="_blank" rel="sponsored noopener nofollow">ふるなびで探す →</a>
@@ -215,7 +215,7 @@ author: "hacker-ko"
     <div class="figure-body">
       <h4>和歌山県有田川町 アタックZERO 詰替 6袋（液体洗剤）</h4>
       <p><strong>自治体</strong>: 和歌山県有田川町（花王和歌山工場） / <strong>配送</strong>: 通常便 / <strong>人気度</strong>: ★★★★★<br>花王の主力洗剤。詰替パウチ6袋で約6〜8ヶ月分。スーパーで普通に買うと¥3,500/個、6袋で¥20,000相当。</p>
-      <span class="figure-price">参考: 楽天 ¥17,000 / ふるなび ¥17,000</span>
+      <span class="figure-price">楽天 ¥17,000 / ふるなび ¥17,000</span>
       <div class="figure-cta">
         <a class="compare-cta" href="https://search.rakuten.co.jp/search/mall/%E6%9C%89%E7%94%B0%E5%B7%9D%E7%94%BA+%E3%82%A2%E3%82%BF%E3%83%83%E3%82%AFZERO+%E8%A9%B0%E6%9B%BF/?f=15" target="_blank" rel="sponsored noopener nofollow">楽天ふるさと納税で見る →</a>
         <a class="compare-cta" href="https://furunavi.jp/Product/Search?keyword=%E6%9C%89%E7%94%B0%E5%B7%9D%E7%94%BA+%E3%82%A2%E3%82%BF%E3%83%83%E3%82%AF" target="_blank" rel="sponsored noopener nofollow">ふるなびで探す →</a>
@@ -226,7 +226,7 @@ author: "hacker-ko"
     <div class="figure-body">
       <h4>佐賀県小城市 ジョイ 食器用洗剤 詰替 8袋</h4>
       <p><strong>自治体</strong>: 佐賀県小城市（P&G） / <strong>配送</strong>: 通常便 / <strong>人気度</strong>: ★★★★<br>P&G九州工場の主力。詰替8袋で約1年分。油汚れに強くて手肌に優しい配合。キッチン消耗品の代表枠。</p>
-      <span class="figure-price">参考: 楽天 ¥13,000 / ふるなび ¥13,000</span>
+      <span class="figure-price">楽天 ¥13,000 / ふるなび ¥13,000</span>
       <div class="figure-cta">
         <a class="compare-cta" href="https://search.rakuten.co.jp/search/mall/%E5%B0%8F%E5%9F%8E%E5%B8%82+%E3%82%B8%E3%83%A7%E3%82%A4+%E8%A9%B0%E6%9B%BF/?f=15" target="_blank" rel="sponsored noopener nofollow">楽天ふるさと納税で見る →</a>
         <a class="compare-cta" href="https://furunavi.jp/Product/Search?keyword=%E5%B0%8F%E5%9F%8E%E5%B8%82+%E3%82%B8%E3%83%A7%E3%82%A4" target="_blank" rel="sponsored noopener nofollow">ふるなびで探す →</a>
@@ -237,7 +237,7 @@ author: "hacker-ko"
     <div class="figure-body">
       <h4>栃木県芳賀町 ハミング 柔軟剤 詰替 6袋（フローラル系）</h4>
       <p><strong>自治体</strong>: 栃木県芳賀町（花王栃木工場） / <strong>配送</strong>: 通常便 / <strong>人気度</strong>: ★★★★<br>花王の定番柔軟剤。香り強すぎず、家族で使いやすい。詰替6袋で約半年〜8ヶ月分、洗剤とセットで頼むと完璧。</p>
-      <span class="figure-price">参考: 楽天 ¥14,000 / ふるなび ¥14,000</span>
+      <span class="figure-price">楽天 ¥14,000 / ふるなび ¥14,000</span>
       <div class="figure-cta">
         <a class="compare-cta" href="https://search.rakuten.co.jp/search/mall/%E8%8A%B3%E8%B3%80%E7%94%BA+%E3%83%8F%E3%83%9F%E3%83%B3%E3%82%B0+%E6%9F%94%E8%BB%9F%E5%89%A4/?f=15" target="_blank" rel="sponsored noopener nofollow">楽天ふるさと納税で見る →</a>
         <a class="compare-cta" href="https://furunavi.jp/Product/Search?keyword=%E8%8A%B3%E8%B3%80%E7%94%BA+%E6%9F%94%E8%BB%9F%E5%89%A4" target="_blank" rel="sponsored noopener nofollow">ふるなびで探す →</a>
@@ -280,7 +280,7 @@ author: "hacker-ko"
     <div class="figure-body">
       <h4>愛媛県今治市 今治フェイスタオル 10枚セット</h4>
       <p><strong>自治体</strong>: 愛媛県今治市 / <strong>配送</strong>: 通常便 / <strong>人気度</strong>: ★★★★★<br>毎日使うフェイスタオルを今治品質に総入れ替え。ホテル仕様の厚手で、洗濯耐久性は3〜5年。10枚あれば家族4人でも余裕。</p>
-      <span class="figure-price">参考: 楽天 ¥12,000 / ふるなび ¥13,000</span>
+      <span class="figure-price">楽天 ¥12,000 / ふるなび ¥13,000</span>
       <div class="figure-cta">
         <a class="compare-cta" href="https://search.rakuten.co.jp/search/mall/%E4%BB%8A%E6%B2%BB%E5%B8%82+%E3%83%95%E3%82%A7%E3%82%A4%E3%82%B9%E3%82%BF%E3%82%AA%E3%83%AB+10%E6%9E%9A/?f=15" target="_blank" rel="sponsored noopener nofollow">楽天ふるさと納税で見る →</a>
         <a class="compare-cta" href="https://furunavi.jp/Product/Search?keyword=%E4%BB%8A%E6%B2%BB+%E3%83%95%E3%82%A7%E3%82%A4%E3%82%B9%E3%82%BF%E3%82%AA%E3%83%AB+10%E6%9E%9A" target="_blank" rel="sponsored noopener nofollow">ふるなびで探す →</a>
@@ -291,7 +291,7 @@ author: "hacker-ko"
     <div class="figure-body">
       <h4>愛媛県今治市 今治バスタオル 4枚セット</h4>
       <p><strong>自治体</strong>: 愛媛県今治市 / <strong>配送</strong>: 通常便 / <strong>人気度</strong>: ★★★★★<br>バスタオルは毎日使うものこそ良いものを。今治バスタオルの吸水力は別物、髪を巻くだけで水分がほぼ取れる。4枚で2〜4人世帯のフル交換。</p>
-      <span class="figure-price">参考: 楽天 ¥15,000 / ふるなび ¥16,000</span>
+      <span class="figure-price">楽天 ¥15,000 / ふるなび ¥16,000</span>
       <div class="figure-cta">
         <a class="compare-cta" href="https://search.rakuten.co.jp/search/mall/%E4%BB%8A%E6%B2%BB%E5%B8%82+%E3%83%90%E3%82%B9%E3%82%BF%E3%82%AA%E3%83%AB+4%E6%9E%9A/?f=15" target="_blank" rel="sponsored noopener nofollow">楽天ふるさと納税で見る →</a>
         <a class="compare-cta" href="https://furunavi.jp/Product/Search?keyword=%E4%BB%8A%E6%B2%BB+%E3%83%90%E3%82%B9%E3%82%BF%E3%82%AA%E3%83%AB+4%E6%9E%9A" target="_blank" rel="sponsored noopener nofollow">ふるなびで探す →</a>
@@ -334,7 +334,7 @@ author: "hacker-ko"
     <div class="figure-body">
       <h4>静岡県富士市 ボックスティッシュ 60箱（5箱×12パック）</h4>
       <p><strong>自治体</strong>: 静岡県富士市 / <strong>配送</strong>: 通常便（一括） / <strong>人気度</strong>: ★★★★★<br>3〜4人家族の年間消費とほぼ一致。1箱150〜180組入りで、市場価値¥5,000相当。届いた瞬間「家のティッシュ問題」が1年消える。</p>
-      <span class="figure-price">参考: 楽天 ¥13,000 / ふるなび ¥13,000</span>
+      <span class="figure-price">楽天 ¥13,000 / ふるなび ¥13,000</span>
       <div class="figure-cta">
         <a class="compare-cta" href="https://search.rakuten.co.jp/search/mall/%E5%AF%8C%E5%A3%AB%E5%B8%82+%E3%83%9C%E3%83%83%E3%82%AF%E3%82%B9%E3%83%86%E3%82%A3%E3%83%83%E3%82%B7%E3%83%A5+60%E7%AE%B1/?f=15" target="_blank" rel="sponsored noopener nofollow">楽天ふるさと納税で見る →</a>
         <a class="compare-cta" href="https://furunavi.jp/Product/Search?keyword=%E5%AF%8C%E5%A3%AB%E5%B8%82+%E3%83%9C%E3%83%83%E3%82%AF%E3%82%B9%E3%83%86%E3%82%A3%E3%83%83%E3%82%B7%E3%83%A5+60" target="_blank" rel="sponsored noopener nofollow">ふるなびで探す →</a>
@@ -345,7 +345,7 @@ author: "hacker-ko"
     <div class="figure-body">
       <h4>愛媛県四国中央市 キッチンペーパー 60ロール（吸水厚手タイプ）</h4>
       <p><strong>自治体</strong>: 愛媛県四国中央市 / <strong>配送</strong>: 通常便 / <strong>人気度</strong>: ★★★★<br>料理好き・揚げ物多めの家庭の必需品。60ロールで1年分、料理の油切り・拭き取り・電子レンジ蓋に重宝。ロール単価で買うより圧倒的に割安。</p>
-      <span class="figure-price">参考: 楽天 ¥11,000 / ふるなび ¥12,000</span>
+      <span class="figure-price">楽天 ¥11,000 / ふるなび ¥12,000</span>
       <div class="figure-cta">
         <a class="compare-cta" href="https://search.rakuten.co.jp/search/mall/%E5%9B%9B%E5%9B%BD%E4%B8%AD%E5%A4%AE%E5%B8%82+%E3%82%AD%E3%83%83%E3%83%81%E3%83%B3%E3%83%9A%E3%83%BC%E3%83%91%E3%83%BC+60%E3%83%AD%E3%83%BC%E3%83%AB/?f=15" target="_blank" rel="sponsored noopener nofollow">楽天ふるさと納税で見る →</a>
         <a class="compare-cta" href="https://furunavi.jp/Product/Search?keyword=%E5%9B%9B%E5%9B%BD%E4%B8%AD%E5%A4%AE%E5%B8%82+%E3%82%AD%E3%83%83%E3%83%81%E3%83%B3%E3%83%9A%E3%83%BC%E3%83%91%E3%83%BC" target="_blank" rel="sponsored noopener nofollow">ふるなびで探す →</a>
