@@ -114,7 +114,7 @@ author: "hacker-ko"
 1万円寄付して**自己負担2,000円**で、これだけ届く。普通に買うと¥25,000かかる固定費を、年¥2,000の負担に圧縮できるわけ。**やらない理由、ある？**
 
 <div class="section-with-mascot">
-  <img src="/images/expr-05-smug.png" alt="" />
+  <div class="mascot-wrap"><img src="/images/expr-05-smug.png" alt="" /></div>
   <h2>トイレットペーパー｜絶対外さない王道3選</h2>
 </div>
 
@@ -204,7 +204,7 @@ author: "hacker-ko"
 </aside>
 
 <div class="section-with-mascot">
-  <img src="/images/expr-09-arms-crossed.png" alt="" />
+  <div class="mascot-wrap"><img src="/images/expr-09-arms-crossed.png" alt="" /></div>
   <h2>洗剤類｜家事の固定費を消す3選</h2>
 </div>
 
@@ -269,7 +269,7 @@ author: "hacker-ko"
 </div>
 
 <div class="section-with-mascot">
-  <img src="/images/expr-04-cheer.png" alt="" />
+  <div class="mascot-wrap"><img src="/images/expr-04-cheer.png" alt="" /></div>
   <h2>タオル｜今治の本気2選</h2>
 </div>
 
@@ -323,7 +323,7 @@ author: "hacker-ko"
 </div>
 
 <div class="section-with-mascot">
-  <img src="/images/expr-05-smug.png" alt="" />
+  <div class="mascot-wrap"><img src="/images/expr-05-smug.png" alt="" /></div>
   <h2>ティッシュ・キッチン消耗品｜地味だけど刺さる2選</h2>
 </div>
 

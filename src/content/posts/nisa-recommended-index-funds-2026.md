@@ -69,7 +69,7 @@ author: "hacker-ko"
 「だったら全部インデックスでよくない？」って思ったあんた、正解。新NISAのつみたて枠で迷ってる時間がもったいない。次はアタシのおすすめ5本を上から順に見ていきなさい。
 
 <div class="section-with-mascot">
-  <img src="/images/expr-05-smug.png" alt="" />
+  <div class="mascot-wrap"><img src="/images/expr-05-smug.png" alt="" /></div>
   <h2>新NISAつみたて投資枠 おすすめインデックスファンド5選</h2>
 </div>
 
@@ -190,7 +190,7 @@ author: "hacker-ko"
 </aside>
 
 <div class="section-with-mascot">
-  <img src="/images/expr-09-arms-crossed.png" alt="" />
+  <div class="mascot-wrap"><img src="/images/expr-09-arms-crossed.png" alt="" /></div>
   <h2>5本の選び方｜あんたの軸を1つだけ決めなさい</h2>
 </div>
 
@@ -251,7 +251,7 @@ author: "hacker-ko"
 これが信託報酬を絶対に重視すべき理由。**「0.05%は0.10%の半額」**じゃない、**「0.05%は0.10%の倍の手取り」**って解釈の問題よ。長期投資では小さい差が積み上がって致命的になる。
 
 <div class="section-with-mascot">
-  <img src="/images/expr-04-cheer.png" alt="" />
+  <div class="mascot-wrap"><img src="/images/expr-04-cheer.png" alt="" /></div>
   <h2>証券会社別おすすめ｜あんたの口座でベストな1本</h2>
 </div>
 
@@ -311,7 +311,7 @@ author: "hacker-ko"
 </a>
 
 <div class="section-with-mascot">
-  <img src="/images/expr-02-pout.png" alt="" />
+  <div class="mascot-wrap"><img src="/images/expr-02-pout.png" alt="" /></div>
   <h2>これだけは知っておきなさい｜失敗パターンと注意点</h2>
 </div>
 

@@ -81,7 +81,7 @@ author: "hacker-ko"
 <p class="source-note">出典: 経済産業省 資源エネルギー庁「電力小売全面自由化」関連資料（<a href="https://www.enecho.meti.go.jp/category/electricity_and_gas/electric/electricity_liberalization/" target="_blank" rel="noopener nofollow">enecho.meti.go.jp</a>）、電力・ガス取引監視等委員会「新電力等の登録状況」（<a href="https://www.emsc.meti.go.jp/" target="_blank" rel="noopener nofollow">emsc.meti.go.jp</a>）。料金単価・燃料費調整額は時期により変動するため、契約前に必ず公式サイトで最新の料金表をご確認ください。</p>
 
 <div class="section-with-mascot">
-  <img src="/images/expr-09-arms-crossed.png" alt="" />
+  <div class="mascot-wrap"><img src="/images/expr-09-arms-crossed.png" alt="" /></div>
   <h2>電気6社 徹底比較｜4人家族モデル（月350kWh）の料金例</h2>
 </div>
 
@@ -315,7 +315,7 @@ author: "hacker-ko"
 </a>
 
 <div class="section-with-mascot">
-  <img src="/images/expr-04-cheer.png" alt="" />
+  <div class="mascot-wrap"><img src="/images/expr-04-cheer.png" alt="" /></div>
   <h2>あんたはどう選ぶ？｜選び方フロー</h2>
 </div>
 
@@ -365,7 +365,7 @@ author: "hacker-ko"
 </aside>
 
 <div class="section-with-mascot">
-  <img src="/images/expr-02-pout.png" alt="" />
+  <div class="mascot-wrap"><img src="/images/expr-02-pout.png" alt="" /></div>
   <h2>セット割の落とし穴｜「お得感」だけで決めると損する</h2>
 </div>
 
