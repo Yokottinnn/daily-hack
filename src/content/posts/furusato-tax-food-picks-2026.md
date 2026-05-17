@@ -127,8 +127,8 @@ author: "hacker-ko"
       <p><strong>自治体</strong>: 新潟県（県枠 / 小千谷市 等） / <strong>配送</strong>: 通常便（精米仕立て） / <strong>人気度</strong>: ★★★★★<br>日本一ブランド米の代表格。迷ったら魚沼コシヒカリ。粒立ち・甘み・粘りのバランスが別格。</p>
       <span class="figure-price">参考: 楽天 ¥28,000 / ふるなび ¥45,000</span>
       <div class="figure-cta">
-        <a class="cta-rakuten" href="https://item.rakuten.co.jp/f150002-niigata/bd33/" target="_blank" rel="sponsored noopener nofollow">楽天ふるさと納税で見る</a>
-        <a class="cta-furunavi" href="https://furunavi.jp/product_detail.aspx?pid=632531" target="_blank" rel="sponsored noopener nofollow">ふるなびで見る</a>
+        <a class="compare-cta" href="https://item.rakuten.co.jp/f150002-niigata/bd33/" target="_blank" rel="sponsored noopener nofollow">楽天ふるさと納税で見る →</a>
+        <a class="compare-cta" href="https://furunavi.jp/product_detail.aspx?pid=632531" target="_blank" rel="sponsored noopener nofollow">ふるなびで見る →</a>
       </div>
     </div>
   </div>
@@ -138,8 +138,8 @@ author: "hacker-ko"
       <p><strong>自治体</strong>: 北海道東川町・妹背牛町 等 / <strong>配送</strong>: 一括 or 分割2回 / <strong>人気度</strong>: ★★★★★<br>コスパ最強の20kg枠。冷めても美味しいので弁当派・冷凍ご飯派に最適。価格対量では北海道米が圧勝。</p>
       <span class="figure-price">参考: 楽天 ¥47,000(20kg選択) / ふるなび ¥45,000</span>
       <div class="figure-cta">
-        <a class="cta-rakuten" href="https://item.rakuten.co.jp/f014583-higashikawa/21001019/" target="_blank" rel="sponsored noopener nofollow">楽天ふるさと納税で見る</a>
-        <a class="cta-furunavi" href="https://furunavi.jp/product_detail.aspx?pid=1028957" target="_blank" rel="sponsored noopener nofollow">ふるなびで見る</a>
+        <a class="compare-cta" href="https://item.rakuten.co.jp/f014583-higashikawa/21001019/" target="_blank" rel="sponsored noopener nofollow">楽天ふるさと納税で見る →</a>
+        <a class="compare-cta" href="https://furunavi.jp/product_detail.aspx?pid=1028957" target="_blank" rel="sponsored noopener nofollow">ふるなびで見る →</a>
       </div>
     </div>
   </div>
@@ -149,8 +149,8 @@ author: "hacker-ko"
       <p><strong>自治体</strong>: 山形県山形市・村山市 等 / <strong>配送</strong>: 精米日指定可 / <strong>人気度</strong>: ★★★★<br>艶のある粒と上品な甘み。冷めても劣化しにくい炊飯適性で、おにぎり民の固定枠におすすめ。</p>
       <span class="figure-price">参考: 楽天 ¥20,000〜 / ふるなび ¥21,000</span>
       <div class="figure-cta">
-        <a class="cta-rakuten" href="https://item.rakuten.co.jp/f062014-yamagata/fy21-332/" target="_blank" rel="sponsored noopener nofollow">楽天ふるさと納税で見る</a>
-        <a class="cta-furunavi" href="https://furunavi.jp/product_detail.aspx?pid=512829" target="_blank" rel="sponsored noopener nofollow">ふるなびで見る</a>
+        <a class="compare-cta" href="https://item.rakuten.co.jp/f062014-yamagata/fy21-332/" target="_blank" rel="sponsored noopener nofollow">楽天ふるさと納税で見る →</a>
+        <a class="compare-cta" href="https://furunavi.jp/product_detail.aspx?pid=512829" target="_blank" rel="sponsored noopener nofollow">ふるなびで見る →</a>
       </div>
     </div>
   </div>
@@ -160,8 +160,8 @@ author: "hacker-ko"
       <p><strong>自治体</strong>: 茨城県阿見町・京都府亀岡市 等 / <strong>配送</strong>: 毎月1回×12回 / <strong>人気度</strong>: ★★★★★<br>冷凍庫を圧迫せず、年間60kgを安定確保。高年収層（控除上限が高い人）の鉄板枠。</p>
       <span class="figure-price">参考: 楽天 ¥100,000〜 / ふるなび ¥156,000(60kg)</span>
       <div class="figure-cta">
-        <a class="cta-rakuten" href="https://item.rakuten.co.jp/f084433-ami/85-19/" target="_blank" rel="sponsored noopener nofollow">楽天ふるさと納税で見る</a>
-        <a class="cta-furunavi" href="https://furunavi.jp/product_detail.aspx?pid=158301" target="_blank" rel="sponsored noopener nofollow">ふるなびで見る</a>
+        <a class="compare-cta" href="https://item.rakuten.co.jp/f084433-ami/85-19/" target="_blank" rel="sponsored noopener nofollow">楽天ふるさと納税で見る →</a>
+        <a class="compare-cta" href="https://furunavi.jp/product_detail.aspx?pid=158301" target="_blank" rel="sponsored noopener nofollow">ふるなびで見る →</a>
       </div>
     </div>
   </div>
@@ -171,8 +171,8 @@ author: "hacker-ko"
       <p><strong>自治体</strong>: 秋田県北秋田市・潟上市 等 / <strong>配送</strong>: 一括 or 10kg×2回 / <strong>人気度</strong>: ★★★★<br>研ぐ手間ゼロ。共働き・一人暮らしの時短勢に刺さる。水入れて炊くだけで終わる。</p>
       <span class="figure-price">参考: 楽天 ¥80,000(20kg) / ふるなび ¥42,500</span>
       <div class="figure-cta">
-        <a class="cta-rakuten" href="https://item.rakuten.co.jp/f052132-kitaakita/b04001/" target="_blank" rel="sponsored noopener nofollow">楽天ふるさと納税で見る</a>
-        <a class="cta-furunavi" href="https://furunavi.jp/product_detail.aspx?pid=1629431" target="_blank" rel="sponsored noopener nofollow">ふるなびで見る</a>
+        <a class="compare-cta" href="https://item.rakuten.co.jp/f052132-kitaakita/b04001/" target="_blank" rel="sponsored noopener nofollow">楽天ふるさと納税で見る →</a>
+        <a class="compare-cta" href="https://furunavi.jp/product_detail.aspx?pid=1629431" target="_blank" rel="sponsored noopener nofollow">ふるなびで見る →</a>
       </div>
     </div>
   </div>
@@ -239,8 +239,8 @@ author: "hacker-ko"
       <p><strong>自治体</strong>: 鹿児島県曽於市（南九州エリア） / <strong>配送</strong>: 冷凍便（500g×5パック） / <strong>人気度</strong>: ★★★★★<br>500g小分けで解凍が楽。脂のコクと旨味のバランスがスーパー国産豚と段違い。</p>
       <span class="figure-price">参考: 楽天 ¥15,000</span>
       <div class="figure-cta">
-        <a class="cta-rakuten" href="https://item.rakuten.co.jp/f462179-soo/a728/" target="_blank" rel="sponsored noopener nofollow">楽天ふるさと納税で見る</a>
-        <a class="cta-furunavi" href="https://furunavi.jp/Product/Search?keyword=%E9%BB%92%E8%B1%9A%E3%80%80%E5%B0%8F%E5%88%86%E3%81%91%E3%80%802.5kg" target="_blank" rel="sponsored noopener nofollow">ふるなびで探す</a>
+        <a class="compare-cta" href="https://item.rakuten.co.jp/f462179-soo/a728/" target="_blank" rel="sponsored noopener nofollow">楽天ふるさと納税で見る →</a>
+        <a class="compare-cta" href="https://furunavi.jp/Product/Search?keyword=%E9%BB%92%E8%B1%9A%E3%80%80%E5%B0%8F%E5%88%86%E3%81%91%E3%80%802.5kg" target="_blank" rel="sponsored noopener nofollow">ふるなびで探す →</a>
       </div>
     </div>
   </div>
@@ -250,8 +250,8 @@ author: "hacker-ko"
       <p><strong>自治体</strong>: 宮崎県宮崎市・都城市 等 / <strong>配送</strong>: 冷凍便（250g×4袋） / <strong>人気度</strong>: ★★★★★<br>すき焼き・牛丼・肉じゃがの定番に。日本一の称号を持つ宮崎牛をリーズナブルに楽しめる枠。</p>
       <span class="figure-price">参考: 楽天 ¥14,000</span>
       <div class="figure-cta">
-        <a class="cta-rakuten" href="https://item.rakuten.co.jp/f452017-miyazaki/m226-007/" target="_blank" rel="sponsored noopener nofollow">楽天ふるさと納税で見る</a>
-        <a class="cta-furunavi" href="https://furunavi.jp/Product/Search?keyword=%E5%AE%AE%E5%B4%8E%E7%89%9B%E3%80%80%E5%88%87%E3%82%8A%E8%90%BD%E3%81%A8%E3%81%97%E3%80%801kg" target="_blank" rel="sponsored noopener nofollow">ふるなびで探す</a>
+        <a class="compare-cta" href="https://item.rakuten.co.jp/f452017-miyazaki/m226-007/" target="_blank" rel="sponsored noopener nofollow">楽天ふるさと納税で見る →</a>
+        <a class="compare-cta" href="https://furunavi.jp/Product/Search?keyword=%E5%AE%AE%E5%B4%8E%E7%89%9B%E3%80%80%E5%88%87%E3%82%8A%E8%90%BD%E3%81%A8%E3%81%97%E3%80%801kg" target="_blank" rel="sponsored noopener nofollow">ふるなびで探す →</a>
       </div>
     </div>
   </div>
@@ -261,8 +261,8 @@ author: "hacker-ko"
       <p><strong>自治体</strong>: 鹿児島県鹿屋市 等 / <strong>配送</strong>: 冷凍便（250g×2枚） / <strong>人気度</strong>: ★★★★<br>ご褒美枠の頂点。誕生日・記念日用に冷凍庫に常備しておく贅沢。脂の融点が低くて口の中で溶ける。</p>
       <span class="figure-price">参考: 楽天 ¥18,000〜</span>
       <div class="figure-cta">
-        <a class="cta-rakuten" href="https://item.rakuten.co.jp/f462039-kanoya/1397/" target="_blank" rel="sponsored noopener nofollow">楽天ふるさと納税で見る</a>
-        <a class="cta-furunavi" href="https://furunavi.jp/Product/Search?keyword=A5%E3%80%80%E3%82%B5%E3%83%BC%E3%83%AD%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%86%E3%83%BC%E3%82%AD%E3%80%80500g" target="_blank" rel="sponsored noopener nofollow">ふるなびで探す</a>
+        <a class="compare-cta" href="https://item.rakuten.co.jp/f462039-kanoya/1397/" target="_blank" rel="sponsored noopener nofollow">楽天ふるさと納税で見る →</a>
+        <a class="compare-cta" href="https://furunavi.jp/Product/Search?keyword=A5%E3%80%80%E3%82%B5%E3%83%BC%E3%83%AD%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%86%E3%83%BC%E3%82%AD%E3%80%80500g" target="_blank" rel="sponsored noopener nofollow">ふるなびで探す →</a>
       </div>
     </div>
   </div>
@@ -272,8 +272,8 @@ author: "hacker-ko"
       <p><strong>自治体</strong>: 宮崎県川南町・都農町 等 / <strong>配送</strong>: 冷凍便（500g×6袋） / <strong>人気度</strong>: ★★★★<br>コスパ最強の鶏肉枠。唐揚げ・親子丼・照り焼きで永遠に消費できる。冷凍で1ヶ月持つ。</p>
       <span class="figure-price">参考: 楽天 ¥12,000</span>
       <div class="figure-cta">
-        <a class="cta-rakuten" href="https://item.rakuten.co.jp/f454052-kawaminami/c00713/" target="_blank" rel="sponsored noopener nofollow">楽天ふるさと納税で見る</a>
-        <a class="cta-furunavi" href="https://furunavi.jp/Product/Search?keyword=%E4%B9%9D%E5%B7%9E%E7%94%A3%E3%80%80%E9%B6%8F%E3%82%82%E3%82%82%E8%82%89%E3%80%803kg" target="_blank" rel="sponsored noopener nofollow">ふるなびで探す</a>
+        <a class="compare-cta" href="https://item.rakuten.co.jp/f454052-kawaminami/c00713/" target="_blank" rel="sponsored noopener nofollow">楽天ふるさと納税で見る →</a>
+        <a class="compare-cta" href="https://furunavi.jp/Product/Search?keyword=%E4%B9%9D%E5%B7%9E%E7%94%A3%E3%80%80%E9%B6%8F%E3%82%82%E3%82%82%E8%82%89%E3%80%803kg" target="_blank" rel="sponsored noopener nofollow">ふるなびで探す →</a>
       </div>
     </div>
   </div>
@@ -283,8 +283,8 @@ author: "hacker-ko"
       <p><strong>自治体</strong>: 熊本県南小国町・佐賀県唐津市 等 / <strong>配送</strong>: 冷凍便（個包装×10個） / <strong>人気度</strong>: ★★★★<br>子育て家庭・忙しい一人暮らし向け。レンチンで即夕飯。冷凍庫の救世主。</p>
       <span class="figure-price">参考: 楽天 ¥11,000</span>
       <div class="figure-cta">
-        <a class="cta-rakuten" href="https://item.rakuten.co.jp/f434230-minamioguni/10000256/" target="_blank" rel="sponsored noopener nofollow">楽天ふるさと納税で見る</a>
-        <a class="cta-furunavi" href="https://furunavi.jp/Product/Search?keyword=%E5%9B%BD%E7%94%A3%E7%89%9B%E3%80%80%E3%83%8F%E3%83%B3%E3%83%90%E3%83%BC%E3%82%B0%E3%80%8010%E5%80%8B" target="_blank" rel="sponsored noopener nofollow">ふるなびで探す</a>
+        <a class="compare-cta" href="https://item.rakuten.co.jp/f434230-minamioguni/10000256/" target="_blank" rel="sponsored noopener nofollow">楽天ふるさと納税で見る →</a>
+        <a class="compare-cta" href="https://furunavi.jp/Product/Search?keyword=%E5%9B%BD%E7%94%A3%E7%89%9B%E3%80%80%E3%83%8F%E3%83%B3%E3%83%90%E3%83%BC%E3%82%B0%E3%80%8010%E5%80%8B" target="_blank" rel="sponsored noopener nofollow">ふるなびで探す →</a>
       </div>
     </div>
   </div>
@@ -326,8 +326,8 @@ author: "hacker-ko"
       <p><strong>自治体</strong>: 北海道斜里町・白老町 等 / <strong>配送</strong>: 冷凍便（年間通年） / <strong>人気度</strong>: ★★★★★<br>刺身・バター焼き・フライ・パスタ何でも対応の万能枠。冷凍で半年保つので長期保管◎。</p>
       <span class="figure-price">参考: 楽天 ¥13,000(500g〜) / ふるなび ¥11,000(訳あり500g)</span>
       <div class="figure-cta">
-        <a class="cta-rakuten" href="https://item.rakuten.co.jp/f015458-shari/1694838/" target="_blank" rel="sponsored noopener nofollow">楽天ふるさと納税で見る</a>
-        <a class="cta-furunavi" href="https://furunavi.jp/product_detail.aspx?pid=547114" target="_blank" rel="sponsored noopener nofollow">ふるなびで見る</a>
+        <a class="compare-cta" href="https://item.rakuten.co.jp/f015458-shari/1694838/" target="_blank" rel="sponsored noopener nofollow">楽天ふるさと納税で見る →</a>
+        <a class="compare-cta" href="https://furunavi.jp/product_detail.aspx?pid=547114" target="_blank" rel="sponsored noopener nofollow">ふるなびで見る →</a>
       </div>
     </div>
   </div>
@@ -337,8 +337,8 @@ author: "hacker-ko"
       <p><strong>自治体</strong>: 鹿児島県大崎町・志布志市 等 / <strong>配送</strong>: 真空冷凍便 / <strong>人気度</strong>: ★★★★★<br>夏の土用丑の日に向けて夏前発注がベスト。真空冷凍だから解凍即丼。市場価値が圧倒的に高い。</p>
       <span class="figure-price">参考: 楽天 ¥22,000(4尾)</span>
       <div class="figure-cta">
-        <a class="cta-rakuten" href="https://item.rakuten.co.jp/f464686-osaki/ak30-r/" target="_blank" rel="sponsored noopener nofollow">楽天ふるさと納税で見る</a>
-        <a class="cta-furunavi" href="https://furunavi.jp/Product/Search?keyword=%E3%81%86%E3%81%AA%E3%81%8E+%E8%92%B2%E7%84%BC" target="_blank" rel="sponsored noopener nofollow">ふるなびで探す</a>
+        <a class="compare-cta" href="https://item.rakuten.co.jp/f464686-osaki/ak30-r/" target="_blank" rel="sponsored noopener nofollow">楽天ふるさと納税で見る →</a>
+        <a class="compare-cta" href="https://furunavi.jp/Product/Search?keyword=%E3%81%86%E3%81%AA%E3%81%8E+%E8%92%B2%E7%84%BC" target="_blank" rel="sponsored noopener nofollow">ふるなびで探す →</a>
       </div>
     </div>
   </div>
@@ -348,8 +348,8 @@ author: "hacker-ko"
       <p><strong>自治体</strong>: 北海道枝幸町・浜中町 等 / <strong>配送</strong>: 冷凍便 or 浜ゆで（旬の月限定） / <strong>人気度</strong>: ★★★★<br>カニ味噌の甘みが別物。年末年始や正月の食卓を一段格上げするご褒美枠。</p>
       <span class="figure-price">参考: 楽天 ¥28,000</span>
       <div class="figure-cta">
-        <a class="cta-rakuten" href="https://item.rakuten.co.jp/f015148-esashi/57081081/" target="_blank" rel="sponsored noopener nofollow">楽天ふるさと納税で見る</a>
-        <a class="cta-furunavi" href="https://furunavi.jp/Product/Search?keyword=%E6%AF%9B%E3%82%AC%E3%83%8B" target="_blank" rel="sponsored noopener nofollow">ふるなびで探す</a>
+        <a class="compare-cta" href="https://item.rakuten.co.jp/f015148-esashi/57081081/" target="_blank" rel="sponsored noopener nofollow">楽天ふるさと納税で見る →</a>
+        <a class="compare-cta" href="https://furunavi.jp/Product/Search?keyword=%E6%AF%9B%E3%82%AC%E3%83%8B" target="_blank" rel="sponsored noopener nofollow">ふるなびで探す →</a>
       </div>
     </div>
   </div>
@@ -359,8 +359,8 @@ author: "hacker-ko"
       <p><strong>自治体</strong>: 北海道白糠町・羅臼町 等 / <strong>配送</strong>: 冷凍便（200gパック小分け） / <strong>人気度</strong>: ★★★★★<br>小分け冷凍タイプを選ぶのが鉄則。100〜200gずつ解凍してご飯にON、年末年始のご馳走枠。</p>
       <span class="figure-price">参考: 楽天 ¥12,000(200g〜)</span>
       <div class="figure-cta">
-        <a class="cta-rakuten" href="https://item.rakuten.co.jp/f016683-shiranuka/8700-30009172/" target="_blank" rel="sponsored noopener nofollow">楽天ふるさと納税で見る</a>
-        <a class="cta-furunavi" href="https://furunavi.jp/Product/Search?keyword=%E3%81%84%E3%81%8F%E3%82%89" target="_blank" rel="sponsored noopener nofollow">ふるなびで探す</a>
+        <a class="compare-cta" href="https://item.rakuten.co.jp/f016683-shiranuka/8700-30009172/" target="_blank" rel="sponsored noopener nofollow">楽天ふるさと納税で見る →</a>
+        <a class="compare-cta" href="https://furunavi.jp/Product/Search?keyword=%E3%81%84%E3%81%8F%E3%82%89" target="_blank" rel="sponsored noopener nofollow">ふるなびで探す →</a>
       </div>
     </div>
   </div>
@@ -370,8 +370,8 @@ author: "hacker-ko"
       <p><strong>自治体</strong>: 北海道根室市 等 / <strong>配送</strong>: 冷凍小分け便 / <strong>人気度</strong>: ★★★★<br>マグロ・サーモン・ホタテ・イクラのミックス。解凍即どんぶり、ハズレなしの初心者向け。</p>
       <span class="figure-price">参考: 楽天 ¥14,000</span>
       <div class="figure-cta">
-        <a class="cta-rakuten" href="https://item.rakuten.co.jp/f012238-nemuro/10000827/" target="_blank" rel="sponsored noopener nofollow">楽天ふるさと納税で見る</a>
-        <a class="cta-furunavi" href="https://furunavi.jp/product_detail.aspx?pid=1780055" target="_blank" rel="sponsored noopener nofollow">ふるなびで見る</a>
+        <a class="compare-cta" href="https://item.rakuten.co.jp/f012238-nemuro/10000827/" target="_blank" rel="sponsored noopener nofollow">楽天ふるさと納税で見る →</a>
+        <a class="compare-cta" href="https://furunavi.jp/product_detail.aspx?pid=1780055" target="_blank" rel="sponsored noopener nofollow">ふるなびで見る →</a>
       </div>
     </div>
   </div>
@@ -522,10 +522,10 @@ author: "hacker-ko"
 ### 今日中にやるべきこと
 
 <ol class="checklist">
-  <li><strong>入門ガイドで仕組みと上限額を再確認</strong>。ふるさと納税の控除上限は年収・家族構成で変わる。シミュレーター必須。</li>
-  <li><strong>冷凍庫の中身を整理して空き容量を確保</strong>。米10kg + 肉2.5kg + 海鮮1kg は意外と場所を取る。事前準備で受取後の混乱回避。</li>
-  <li><strong>上のリストから3〜4品をブックマーク</strong>。気になった品を「お気に入り」登録しておけば、寄付申込時に迷わず即決できる。</li>
-  <li><strong>シミュレーター結果を確認したら即寄付申込みへ</strong>。「あとでやる」の先延ばしが年末の枠残しを生む。今日中に1品だけでも完了させる。</li>
+  <li><div class="checklist-body"><strong>入門ガイドで仕組みと上限額を再確認</strong><p>ふるさと納税の控除上限は年収・家族構成で変わる。シミュレーター必須。</p></div></li>
+  <li><div class="checklist-body"><strong>冷凍庫の中身を整理して空き容量を確保</strong><p>米10kg + 肉2.5kg + 海鮮1kg は意外と場所を取る。事前準備で受取後の混乱回避。</p></div></li>
+  <li><div class="checklist-body"><strong>上のリストから3〜4品をブックマーク</strong><p>気になった品を「お気に入り」登録しておけば、寄付申込時に迷わず即決できる。</p></div></li>
+  <li><div class="checklist-body"><strong>シミュレーター結果を確認したら即寄付申込みへ</strong><p>「あとでやる」の先延ばしが年末の枠残しを生む。今日中に1品だけでも完了させる。</p></div></li>
 </ol>
 
 **「あとでやる」は罪**って、入門記事でも言ったでしょ。年末に枠を残して焦るのも、年明けに「あぁ去年もやらなかった」って後悔するのも、全部今のあんたが防げる話よ。やりなさい。

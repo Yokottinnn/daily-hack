@@ -503,13 +503,9 @@ footer.foot .pr { margin-top: 6px; }
 .figure-card .figure-body { padding: 14px 16px 16px; }
 .figure-card h4 { margin: 0 0 6px; font-family: "RocknRoll One"; font-weight: 400; color: var(--pink-700); font-size: 15px; padding-left: 0 !important; border-left: 0 !important; }
 .figure-card p { margin: 0; font-size: 13px; line-height: 1.7; color: var(--ink-2); }
-.figure-card .figure-cta { display: flex; flex-direction: column; gap: 6px; margin-top: 12px; }
-.figure-card .figure-cta a { display: inline-flex; align-items: center; justify-content: space-between; gap: 8px; padding: 9px 13px; border-radius: 10px; font-size: 12.5px; font-weight: 700; text-decoration: none; border: 1.5px solid var(--line); transition: all .15s; }
-.figure-card .figure-cta a.cta-rakuten { background: #BF0000; color: #fff; border-color: #BF0000; }
-.figure-card .figure-cta a.cta-rakuten:hover { background: #9c0000; transform: translateY(-1px); }
-.figure-card .figure-cta a.cta-furunavi { background: #fff; color: var(--ink); border-color: var(--ink); }
-.figure-card .figure-cta a.cta-furunavi:hover { background: var(--ink); color: #fff; transform: translateY(-1px); }
-.figure-card .figure-cta a::after { content: "→"; font-size: 13px; }
+.figure-card .figure-cta { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 12px; }
+.figure-card .compare-cta { display: inline-flex; align-items: center; gap: 6px; font-size: 12.5px; font-weight: 700; color: var(--pink-600); border-bottom: 1px dashed var(--pink-300); padding-bottom: 2px; text-decoration: none; }
+.figure-card .compare-cta:hover { color: var(--pink-700); border-color: var(--pink-500); }
 .figure-card .figure-price { display: inline-block; margin: 8px 0 4px; padding: 3px 9px; border-radius: 999px; background: var(--pink-50); color: var(--pink-700); font-size: 12px; font-weight: 700; border: 1px solid var(--pink-200); }
 
 /* Hakkako-says callout — mascot + inline quote that blends with article body */
