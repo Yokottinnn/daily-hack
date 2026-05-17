@@ -83,7 +83,7 @@ author: "hacker-ko"
 <p class="source-note">出典: <a href="https://www.rakuten-bank.co.jp/jrebank/campaign/jreg-tokuten/" target="_blank" rel="noopener nofollow">楽天銀行 JRE BANK優待特典ページ</a>（2026年5月時点。最新条件は公式で要確認）</p>
 
 <div class="section-with-mascot">
-  <img src="/images/expr-09-arms-crossed.png" alt="" />
+  <div class="mascot-wrap"><img src="/images/expr-09-arms-crossed.png" alt="" /></div>
   <h2>JRE BANKって何者？ 楽天銀行+JR東日本のハイブリッド</h2>
 </div>
 
@@ -208,7 +208,7 @@ JRE BANKの口座を持つだけで使える主要特典は4つ。**公式ペー
 </aside>
 
 <div class="section-with-mascot">
-  <img src="/images/expr-04-cheer.png" alt="" />
+  <div class="mascot-wrap"><img src="/images/expr-04-cheer.png" alt="" /></div>
   <h2>開設手順｜楽天銀行アプリでJREモードに切り替えるだけ</h2>
 </div>
 

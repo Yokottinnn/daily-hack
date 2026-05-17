@@ -90,7 +90,7 @@ author: "hacker-ko"
 <p class="source-note">※ 案件単価はサイト・時期・キャンペーンにより常時変動します。申込前は必ず複数サイトで最新の還元ポイントをご確認ください。</p>
 
 <div class="section-with-mascot">
-  <img src="/images/expr-09-arms-crossed.png" alt="" />
+  <div class="mascot-wrap"><img src="/images/expr-09-arms-crossed.png" alt="" /></div>
   <h2>4大ポイントサイトの徹底比較</h2>
 </div>
 
@@ -260,7 +260,7 @@ GMOメディア（東証スタンダード上場）が運営する15年超の老
 </a>
 
 <div class="section-with-mascot">
-  <img src="/images/expr-05-smug.png" alt="" />
+  <div class="mascot-wrap"><img src="/images/expr-05-smug.png" alt="" /></div>
   <h2>「同じ案件で還元率が違う」を見抜く実践テク</h2>
 </div>
 

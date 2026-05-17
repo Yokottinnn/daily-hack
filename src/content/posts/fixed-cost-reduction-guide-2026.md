@@ -113,7 +113,7 @@ author: "hacker-ko"
 **年12万円**。これが3大コスト見直しのリアルな上限値ね。「そんなに削れるわけない」って思ったあんた、その思い込みのまま10年過ごせば**120万円損する**計算。やらない理由、本当にある？
 
 <div class="section-with-mascot">
-  <img src="/images/expr-09-arms-crossed.png" alt="" />
+  <div class="mascot-wrap"><img src="/images/expr-09-arms-crossed.png" alt="" /></div>
   <h2>通信費編｜格安SIM乗り換えで月5,000円カット</h2>
 </div>
 
@@ -277,7 +277,7 @@ ahamo・povo・LINEMO・楽天モバイル・UQモバイル・ワイモバイル
 </aside>
 
 <div class="section-with-mascot">
-  <img src="/images/expr-02-pout.png" alt="" />
+  <div class="mascot-wrap"><img src="/images/expr-02-pout.png" alt="" /></div>
   <h2>サブスク編｜棚卸し → 解約フローで月3,000円カット</h2>
 </div>
 

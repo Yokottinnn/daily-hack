@@ -114,7 +114,7 @@ author: "hacker-ko"
 ね、1万円寄付して**自己負担2,000円**で、これだけ届くのよ。やらない理由ある？
 
 <div class="section-with-mascot">
-  <img src="/images/expr-05-smug.png" alt="" />
+  <div class="mascot-wrap"><img src="/images/expr-05-smug.png" alt="" /></div>
   <h2>米｜外さない王道5選</h2>
 </div>
 
@@ -226,7 +226,7 @@ author: "hacker-ko"
 </aside>
 
 <div class="section-with-mascot">
-  <img src="/images/expr-09-arms-crossed.png" alt="" />
+  <div class="mascot-wrap"><img src="/images/expr-09-arms-crossed.png" alt="" /></div>
   <h2>肉｜冷凍庫に入れておきたい本気の5選</h2>
 </div>
 
@@ -313,7 +313,7 @@ author: "hacker-ko"
 </div>
 
 <div class="section-with-mascot">
-  <img src="/images/expr-06-shock.png" alt="" />
+  <div class="mascot-wrap"><img src="/images/expr-06-shock.png" alt="" /></div>
   <h2>海鮮｜旬を取りに行く本気の5選</h2>
 </div>
 

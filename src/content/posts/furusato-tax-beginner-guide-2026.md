@@ -280,7 +280,7 @@ author: "hacker-ko"
 </a>
 
 <div class="section-with-mascot">
-  <img src="/images/expr-05-smug.png" alt="" />
+  <div class="mascot-wrap"><img src="/images/expr-05-smug.png" alt="" /></div>
   <h2>返礼品の選び方｜ハズレを引かないコツ</h2>
 </div>
 

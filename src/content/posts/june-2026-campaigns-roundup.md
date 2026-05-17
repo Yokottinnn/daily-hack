@@ -68,7 +68,7 @@ author: "hacker-ko"
 ここに **ふるさと納税の運用調整**（6月は年収予測が立つ最初のチェックポイント）を被せたら、6月の"やるべきこと"は8割埋まる。残り2割は、季節限定のスポット案件で穴埋めしなさい。
 
 <div class="section-with-mascot">
-  <img src="/images/expr-09-arms-crossed.png" alt="" />
+  <div class="mascot-wrap"><img src="/images/expr-09-arms-crossed.png" alt="" /></div>
   <h2>アタシのおすすめTOP15｜カテゴリ・期限・特典額で絞ったわよ</h2>
 </div>
 
@@ -329,7 +329,7 @@ author: "hacker-ko"
 </aside>
 
 <div class="section-with-mascot">
-  <img src="/images/expr-05-smug.png" alt="" />
+  <div class="mascot-wrap"><img src="/images/expr-05-smug.png" alt="" /></div>
   <h2>Day1→Week1→Month1 で優先順位を分けなさい</h2>
 </div>
 
@@ -344,7 +344,7 @@ author: "hacker-ko"
 > 💡 **お得Tip**: クレカ申込は **1ヶ月に2枚まで** を目安に。3枚以上同時に申し込むと「申込ブラック」扱いになり、半年は審査落ちが連続するから絶対やめなさい。
 
 <div class="section-with-mascot">
-  <img src="/images/expr-04-cheer.png" alt="" />
+  <div class="mascot-wrap"><img src="/images/expr-04-cheer.png" alt="" /></div>
   <h2>カテゴリ別の"6月版"狙い目を教えてあげる</h2>
 </div>
 
@@ -388,7 +388,7 @@ PayPay・楽天ペイ・d払いの **新規登録特典は基本的に1回限り
 </a>
 
 <div class="section-with-mascot">
-  <img src="/images/expr-09-arms-crossed.png" alt="" />
+  <div class="mascot-wrap"><img src="/images/expr-09-arms-crossed.png" alt="" /></div>
   <h2>"やるな"案件もアタシは教えてあげる</h2>
 </div>
 
