@@ -6,7 +6,7 @@ category: "services"
 parentPillar: "nisa-investment-beginner-guide-2026"
 tags: ["新NISA", "つみたて投資枠", "インデックスファンド", "eMAXIS Slim", "SBI", "おすすめ"]
 isPR: true
-draft: true
+draft: false
 eyecatchUrl: "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=1200&q=80"
 eyecatchAlt: "新NISA つみたて投資枠 おすすめインデックスファンド5選｜2026年版"
 author: "hacker-ko"

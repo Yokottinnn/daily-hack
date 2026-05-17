@@ -6,7 +6,7 @@ category: "comparisons"
 parentPillar: "fixed-cost-reduction-guide-2026"
 tags: ["電気代", "ガス代", "新電力", "節約", "比較", "楽天でんき", "ENEOSでんき"]
 isPR: true
-draft: true
+draft: false
 eyecatchUrl: "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=1200&q=80"
 eyecatchAlt: "電気・ガス料金 節約 比較ランキング｜新電力・新ガス会社の本気でお得な6社 2026年版"
 author: "hacker-ko"
