@@ -25,6 +25,7 @@ const categoryLabel: Record<string, string> = {
   comparisons: '比較',
   roundups: 'まとめ',
   howto: 'ハウツー',
+  'wangan-life': '湾岸ライフ',
 };
 
 const dateStr = data.publishDate.toISOString().slice(0, 10).replace(/-/g, '.');
@@ -36,6 +37,7 @@ const categoryFallback: Record<string, string> = {
   comparisons: '/images/eyecatch/comparisons.jpg',
   roundups: '/images/eyecatch/roundups.jpg',
   howto: '/images/eyecatch/howto.jpg',
+  'wangan-life': '/images/eyecatch/services.jpg',
 };
 const eyecatchSrc = data.eyecatch?.src ?? data.eyecatchUrl ?? categoryFallback[data.category] ?? '/images/eyecatch/services.jpg';
 const fullUrl = new URL(Astro.url.pathname, Astro.site).toString();

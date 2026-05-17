@@ -6,7 +6,7 @@ import PostCard from '../../components/PostCard.astro';
 import AboutCard from '../../components/AboutCard.astro';
 
 export async function getStaticPaths() {
-  const cats = ['campaigns', 'services', 'comparisons', 'roundups', 'howto'];
+  const cats = ['campaigns', 'services', 'comparisons', 'roundups', 'howto', 'wangan-life'];
   return cats.map((category) => ({
     params: { category },
   }));
@@ -44,6 +44,12 @@ const meta: Record<string, { label: string; h1: string; lead: string; face: stri
     h1: '手順で迷わない、お得活用ガイド',
     lead: '「やればお得」と分かっていても手順で詰まる人へ。スクショ付きで迷わないよう徹底解説。最短でお得を回収する道筋を示します。',
     face: '/images/expr-02-pout.png',
+  },
+  'wangan-life': {
+    label: '湾岸ライフ',
+    h1: '晴海・豊洲・有明から届ける湾岸エリアのリアル',
+    lead: 'アタシの地元、中央区晴海から発信。豊洲市場・タワマン・LaLaport TOKYO-BAY・通勤事情・保育園・運動公園まで、湾岸エリアで本当に使える生活情報だけ届けるから安心しなさい。',
+    face: '/images/expr-01-wave.png',
   },
 };
 

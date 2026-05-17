@@ -13,6 +13,7 @@ const categoryLabel: Record<string, { label: string; cls: string }> = {
   comparisons: { label: '比較', cls: 'pink' },
   roundups: { label: 'まとめ', cls: 'cream' },
   howto: { label: 'ハウツー', cls: 'cream' },
+  'wangan-life': { label: '湾岸ライフ', cls: 'cream' },
 };
 
 const cat = categoryLabel[post.data.category] ?? { label: post.data.category, cls: 'pink' };
@@ -24,6 +25,7 @@ const categoryFallback: Record<string, string> = {
   comparisons: '/images/eyecatch/comparisons.jpg',
   roundups: '/images/eyecatch/roundups.jpg',
   howto: '/images/eyecatch/howto.jpg',
+  'wangan-life': '/images/eyecatch/services.jpg',
 };
 const eyecatchSrc =
   post.data.eyecatch?.src ?? post.data.eyecatchUrl ?? categoryFallback[post.data.category] ?? '/images/eyecatch/services.jpg';
