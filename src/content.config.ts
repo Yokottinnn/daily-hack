@@ -16,6 +16,7 @@ const posts = defineCollection({
         'comparisons',
         'roundups',
         'howto',
+        'wangan-life',
       ]),
       tags: z.array(z.string()).optional(),
       eyecatch: image().optional(),
