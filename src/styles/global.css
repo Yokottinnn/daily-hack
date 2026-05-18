@@ -667,3 +667,13 @@ footer.foot .pr { margin-top: 6px; }
 .pagination .page-num:hover { background: var(--pink-50); border-color: var(--pink-200); color: var(--pink-700); }
 .pagination .page-num.current { background: var(--pink-500); border-color: var(--pink-500); color: #fff; cursor: default; }
 .pagination .page-num.current:hover { background: var(--pink-500); }
+
+/* ============ hero モバイル: bubble + float-tag をキャラ顔から逃がす (2026-05-19) ============ */
+@media (max-width: 680px) {
+  /* キャラの顔をはっきり見せるため、装飾の吹き出し系をスマホでは完全非表示。
+     bubble の文言（コスパ最強グルメ等）は hero の lead 文に集約されており情報損失なし。 */
+  .hero .bubble,
+  .hero .float-tag { display: none !important; }
+  /* キャラの円フレームを少し大きめに */
+  .hero .hero-char { max-width: 280px; }
+}
