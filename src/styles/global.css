@@ -668,12 +668,33 @@ footer.foot .pr { margin-top: 6px; }
 .pagination .page-num.current { background: var(--pink-500); border-color: var(--pink-500); color: #fff; cursor: default; }
 .pagination .page-num.current:hover { background: var(--pink-500); }
 
-/* ============ hero モバイル: bubble + float-tag をキャラ顔から逃がす (2026-05-19) ============ */
+/* ============ hero モバイル: float-tag のみ非表示、bubble はキャラの外へ逃がす (2026-05-19) ============ */
 @media (max-width: 680px) {
-  /* キャラの顔をはっきり見せるため、装飾の吹き出し系をスマホでは完全非表示。
-     bubble の文言（コスパ最強グルメ等）は hero の lead 文に集約されており情報損失なし。 */
-  .hero .bubble,
+  /* float-tag (4個の小さい label) は完全非表示 */
   .hero .float-tag { display: none !important; }
-  /* キャラの円フレームを少し大きめに */
+
+  /* bubble (2つのセリフ) は維持 — 半透明 + 小型 + キャラフレーム外側に押し出してキャラ顔被りを回避 */
+  .hero .bubble {
+    background: rgba(255, 255, 255, 0.85);
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+    box-shadow: 2px 2px 0 rgba(42, 25, 35, .12);
+    padding: 7px 10px;
+    border-width: 2px;
+  }
+  .hero .bubble.top-left {
+    top: -8%;
+    left: -10%;
+    transform: rotate(-3deg) scale(0.78);
+    transform-origin: top left;
+  }
+  .hero .bubble.bottom-right {
+    bottom: -8%;
+    right: -10%;
+    transform: rotate(3deg) scale(0.78);
+    transform-origin: bottom right;
+  }
+  .hero .bubble .lg { font-size: 13px; }
+  .hero .bubble .sm { font-size: 11px; }
   .hero .hero-char { max-width: 280px; }
 }
