@@ -1,6 +1,6 @@
 ---
 title: "大磯プリンスホテル×SEIBU PRINCE CLUB（SPGR）特典完全ガイド｜インフィニティプール・ロングビーチを最安で攻略 2026年版"
-description: "中央区晴海在住のアタシが、大磯プリンスホテルのインフィニティプール・大磯ロングビーチを家計に優しく満喫する方法を本気で解説。Seibu Prince Global Rewards（旧SEIBU PRINCE CLUB）のBlue/Gold/Platinum/Diamond特典差まで全部ぶっちゃけてあげる。"
+description: "2026年5月16-17日に大磯プリンスホテルへ実際に滞在したアタシが、インフィニティプール・THERMAL SPA・大磯ロングビーチを家計に優しく攻略する方法を本気で解説。SPGR会員特典差まで全部ぶっちゃける。"
 publishDate: 2026-05-20
 category: ["services", "campaigns"]
 tags: ["大磯プリンスホテル", "SEIBU PRINCE CLUB", "Seibu Prince Global Rewards", "プレミアム会員", "インフィニティプール", "大磯ロングビーチ", "ホテル", "旅行"]
@@ -11,6 +11,8 @@ eyecatchUrl: "/images/oiso/infinity-pool.jpg"
 eyecatchAlt: "大磯プリンスホテル THERMAL SPA S.WAVE のインフィニティプールから望む相模湾"
 author: "hacker-ko"
 ---
+
+**2026年5月16日・17日、アタシは実際に大磯プリンスホテルに1泊2日で滞在してきた**。インフィニティプールにも入って、S.DINING でフルコースも食べて、相模湾を見下ろす客室で目覚めた。だからこの記事に書いてる感覚は全部「現地で実際にやって確かめたファクト」よ。
 
 「夏のホテル予約、もう取った？まだ？」って聞いてアタシのDM返してくる人、毎年いるのよ。**大磯プリンスホテル**って言うと「あー、湘南の海の方ね」で終わるあんた、損してるわよ。インフィニティプール・大磯ロングビーチ・温泉・サウナが全部1施設にある神コスパリゾートだから。
 
@@ -48,19 +50,189 @@ author: "hacker-ko"
   </figure>
 </div>
 
-## THERMAL SPA S.WAVE｜インフィニティプール × 相模湾
+## THERMAL SPA S.WAVE｜大磯プリンスの本当の目玉施設
 
-宿泊した瞬間に「あ、ここに金払う価値あるな」って分からせてくれる、**屋上のインフィニティプール**。水面の縁が相模湾の水平線と完全に揃って、海を泳いでる錯覚に陥る。中学生以上限定の大人ゾーンで、子連れの賑やかさとは無縁の静けさ。
+ぶっちゃけ言うけど、大磯プリンスに泊まる価値の8割はここ。**2017年7月オープンの12歳以上限定スパ施設**で、3階が温泉フロア（男女別・水着不要）、4階がスパフロア（男女共用・水着着用）の **2フロア構成**。眼前には太平洋・水平線・富士山。コンセプトは「日常から解放された、ゆらぎの旅」。
+
+営業は **朝6時〜深夜24時（最終受付23:30）**。宿泊者ならチェックイン〜アウトの間ずっと使い倒せるから、夜中に温泉、朝サウナ、午前プール、午後外気浴…ってバグった生活が成立する。
 
 <figure class="real-photo" style="max-width: 720px; margin: 22px auto 28px;">
   <img src="/images/oiso/infinity-pool.jpg" alt="THERMAL SPA S.WAVE のインフィニティプールと相模湾" loading="lazy" />
   <figcaption>
-    水面と相模湾が一体化するインフィニティライン。晴れた日の昼下がりは、写真撮るより先にしばらく無言で見入っちゃう。
-    <cite>撮影: Daily Hack 編集部</cite>
+    アタシが実際に撮ったインフィニティプール。水面と相模湾が一体化するライン、晴れた日の昼下がりは写真撮るより先にしばらく無言で見入っちゃう。
+    <cite>撮影: Daily Hack 編集部（2026/5/17）</cite>
   </figcaption>
 </figure>
 
-宿泊者はチェックイン〜チェックアウトまで何度でも利用可。日帰り利用も可能だけど、SPGR 会員価格で予約すると割安。これだけで日帰り温浴施設換算で1人￥3,000は浮く計算。
+### 4Fスパフロア｜インフィニティプール × THERMAL TRIP
+
+水着で楽しむ大人ゾーン。**インフィニティプールは水温30〜38℃で季節調整**、つまり**真冬でも入れる温水プール**。サンライズ〜夜間まで、太平洋に向かって泳ぐ感覚は他のホテルじゃ味わえない。
+
+<div class="real-photos cols-3">
+  <figure class="real-photo">
+    <img src="https://www.princehotels.co.jp/oiso/spa/img/experience/pool01.jpg" alt="4F インフィニティプール（メインカット）" loading="lazy" referrerpolicy="no-referrer" />
+    <figcaption>
+      4F インフィニティプール。水平線に溶け込むデザインで、水温30〜38℃で季節調整される通年運用。
+      <cite>出典: <a href="https://www.princehotels.co.jp/oiso/spa/facility.html" target="_blank" rel="noopener">大磯プリンス公式 THERMAL SPA S.WAVE</a></cite>
+    </figcaption>
+  </figure>
+  <figure class="real-photo">
+    <img src="https://www.princehotels.co.jp/oiso/spa/img/experience/pool02.jpg" alt="プールサイドのジェットバス" loading="lazy" referrerpolicy="no-referrer" />
+    <figcaption>
+      プールサイドにはジェットバスも併設。泳ぎ疲れたらここでマッサージモードに切り替えるのが正解ルート。
+      <cite>出典: <a href="https://www.princehotels.co.jp/oiso/spa/facility.html" target="_blank" rel="noopener">大磯プリンス公式</a></cite>
+    </figcaption>
+  </figure>
+  <figure class="real-photo">
+    <img src="https://www.princehotels.co.jp/oiso/spa/img/experience/pool03.jpg" alt="ジェットバスとオーシャンビュー" loading="lazy" referrerpolicy="no-referrer" />
+    <figcaption>
+      オーシャンビューのジェットバス。夕方〜トワイライト帯が一番ぜいたく時間。
+      <cite>出典: <a href="https://www.princehotels.co.jp/oiso/spa/facility.html" target="_blank" rel="noopener">大磯プリンス公式</a></cite>
+    </figcaption>
+  </figure>
+</div>
+
+### THERMAL TRIP｜サウナーが沼る温冷7室の回遊体験
+
+4Fスパフロアの隠れた本気がこれ。**温→冷→外気浴をループする「TRIP」体験**を、7種類の専用室で構成。温度帯・湿度・推奨滞在時間まで全部公式が定義してて、もはや温浴ガチ勢の遊び場。
+
+<div class="cmp-table-wrap">
+
+| 部屋 | 温度 | 推奨滞在 | 特徴 |
+|---|---|---|---|
+| フィンランドサウナ | 80〜100℃ | 5〜10分 | 高温乾式で積極発汗、サウナーの定番 |
+| パノラミックサウナ | 40〜50℃ | 30分 | 富士山・太平洋を眺める低温サウナ |
+| 岩盤浴室 | 約55℃ | 20分 | 発汗促進・免疫力向上を訴求 |
+| テピダリウム | 約35℃ | 30分 | アロマ香る瞑想空間 |
+| アイスルーム | 10〜15℃ | 1〜2分 | 肌引き締め・神経活性化 |
+| クールバス | 15〜20℃ | 30秒 | 温冷交代浴用の水風呂 |
+| エクスペリエンスシャワー | — | 15秒 | 4種のシャワー＋アロマ演出 |
+
+</div>
+
+公式は「温→冷→外気浴」のループ自体は推奨するけど、**順番の指定はあえてしない**。自分の体調と気分で組み立てるのが「ゆらぎの旅」のコンセプト。
+
+<div class="real-photos cols-2">
+  <figure class="real-photo">
+    <img src="https://www.princehotels.co.jp/oiso/spa/img/experience/sauna03.jpg" alt="パノラミックサウナ" loading="lazy" referrerpolicy="no-referrer" />
+    <figcaption>
+      パノラミックサウナは40〜50℃の低温×絶景の組合せ。30分入っても無理がない設計で、サウナ初心者にこそ最初に体験してほしい。
+      <cite>出典: <a href="https://www.princehotels.co.jp/oiso/spa/facility.html" target="_blank" rel="noopener">大磯プリンス公式</a></cite>
+    </figcaption>
+  </figure>
+  <figure class="real-photo">
+    <img src="https://www.princehotels.co.jp/oiso/spa/img/experience/sauna01.jpg" alt="THERMAL TRIP サウナエリア" loading="lazy" referrerpolicy="no-referrer" />
+    <figcaption>
+      フィンランドサウナはガチ勢用。80〜100℃で5〜10分、汗ダラダラ出した後にクールバス15〜20℃のループが最高。
+      <cite>出典: <a href="https://www.princehotels.co.jp/oiso/spa/facility.html" target="_blank" rel="noopener">大磯プリンス公式</a></cite>
+    </figcaption>
+  </figure>
+</div>
+
+### 外気浴｜サーマルテラス & フジテラス
+
+ととのいの仕上げは屋外テラス。**サーマルテラス（水平線眺望）** と **フジテラス（晴天時は富士山）** の2エリアを使い分けられる。冬期はファイヤープレイス（暖炉）併設の屋内リラックススペースもあって、雨でも冷えない設計。
+
+<div class="real-photos cols-2">
+  <figure class="real-photo">
+    <img src="https://www.princehotels.co.jp/oiso/spa/img/experience/relaxation03.jpg" alt="サーマルテラス／フジテラス" loading="lazy" referrerpolicy="no-referrer" />
+    <figcaption>
+      外気浴の景色がそのままご褒美。サウナ→水風呂→ここ、で3セット組むと帰宅後の睡眠の質が露骨に変わる。
+      <cite>出典: <a href="https://www.princehotels.co.jp/oiso/spa/facility.html" target="_blank" rel="noopener">大磯プリンス公式</a></cite>
+    </figcaption>
+  </figure>
+  <figure class="real-photo">
+    <img src="https://www.princehotels.co.jp/oiso/spa/img/experience/relaxation01.jpg" alt="ファイヤープレイス（屋内リラックス）" loading="lazy" referrerpolicy="no-referrer" />
+    <figcaption>
+      4Fにはファイヤープレイス（暖炉）のリラックスゾーン。雨や冬の外気浴で寒くなったらここで戻す、が定番動線。
+      <cite>出典: <a href="https://www.princehotels.co.jp/oiso/spa/facility.html" target="_blank" rel="noopener">大磯プリンス公式</a></cite>
+    </figcaption>
+  </figure>
+</div>
+
+### 3F温泉フロア｜長さ8.5mの太平洋ビュー露天
+
+3階は水着不要の **本物の温泉ゾーン**（男女別）。**長さ8.5mの露天風呂が太平洋に向かって伸びる構造**で、夜間は星空、朝はサンライズが見える。泉質は公式表記で「塩分を含む温泉（大磯温泉）」。内風呂・ドライヤー・体重計・ウォーターサーバーなどアメニティ完備。
+
+<div class="real-photos cols-2">
+  <figure class="real-photo">
+    <img src="https://www.princehotels.co.jp/oiso/spa/img/experience/onsen03.jpg" alt="3F 大磯温泉 露天風呂" loading="lazy" referrerpolicy="no-referrer" />
+    <figcaption>
+      長さ8.5mの露天風呂。湯船の縁から直接水平線が見える「太平洋まで湯舟の続き」感。
+      <cite>出典: <a href="https://www.princehotels.co.jp/oiso/spa/facility.html" target="_blank" rel="noopener">大磯プリンス公式</a></cite>
+    </figcaption>
+  </figure>
+  <figure class="real-photo">
+    <img src="https://www.princehotels.co.jp/oiso/spa/img/experience/onsen05.jpg" alt="3F 内風呂" loading="lazy" referrerpolicy="no-referrer" />
+    <figcaption>
+      内風呂は雨や強風時の代替にも使える。3F温泉フロアは6:00〜24:00の長時間運用なので、深夜入浴も普通にアリ。
+      <cite>出典: <a href="https://www.princehotels.co.jp/oiso/spa/facility.html" target="_blank" rel="noopener">大磯プリンス公式</a></cite>
+    </figcaption>
+  </figure>
+</div>
+
+### 4F SPA BAR & トリートメント｜湯上がりの仕上げ
+
+スパフロアには **SPA BAR（営業10:00〜20:00）** も併設。アルコール ¥900〜¥1,650／ノンアルコール ¥200〜¥1,000で、湯上がりに水平線見ながら一杯やれる。2026年7/4〜9/13は **季節限定パイナップルソーダ ¥1,000** も登場。
+
+トリートメントは **SEA VOYAGE SHONAN SALON**（10:00〜21:00、最終受付20:30）。アルガンオイル等を使ったボディ・フェイシャル系。誕生月や記念日に予約しておくと記憶に残る使い方になる。
+
+### 料金（2026年3月時点）｜会員価格は明確に得
+
+<div class="cmp-table-wrap">
+
+| 利用区分 | 料金 | 備考 |
+|---|---|---|
+| 宿泊者（事前予約・スパ追加） | **+¥1,600 / 泊** | 3F温泉＋4Fスパ |
+| 宿泊者（当日申込・スパ追加） | +¥2,000 / 泊 | フロントで当日 |
+| **日帰り 温泉&スパ（SPGR会員）** | **¥4,400** | 一般は¥5,000、完全予約制 |
+| 日帰り 温泉のみ（3F） | 大人 ¥1,700 / 小人 ¥900 | 予約不要 |
+| プライベートスパ FUJI（6名） | 1h ¥8,000 / 3h ¥18,000 / 1日 ¥100,000 | +¥2,000で3F+4F可 |
+| プライベートスパ OSHIMA（3名） | 1h ¥5,000 / 3h ¥12,000 / 1日 ¥50,000 | +¥2,000で3F+4F可 |
+| レンタル水着 | ¥1,000 | 男女共・予約不可 |
+
+</div>
+
+※ **2026年4月1日に料金改定あり**。最新は [大磯プリンス公式 INFORMATION](https://www.princehotels.co.jp/oiso/spa/information.html) 確認推奨。SPGR会員価格は一般より割引が効くから、登録するだけで日帰り利用なら毎回 ¥600 浮く計算。
+
+### 季節限定演出｜年4回行きたくなる仕掛け
+
+ここの本気は季節演出。同じスパなのに季節で表情を変えてくるから、SPGR会員＝再訪する人ほど得する設計になってる。
+
+<div class="highlight-grid cols-2">
+  <div class="highlight-item">
+    <span class="highlight-tag">春</span>
+    <h4>SAKURA ART イルミネーション</h4>
+    <p>夜間ライトアップ演出（公式 体験ページに記載）。</p>
+  </div>
+  <div class="highlight-item">
+    <span class="highlight-tag">夏</span>
+    <h4>ハワイアン演出 + パイナップルソーダ</h4>
+    <p>2026/7/4〜9/13、SPA BAR で季節限定ノンアル登場。</p>
+  </div>
+  <div class="highlight-item">
+    <span class="highlight-tag">秋</span>
+    <h4>月光浴 × お月見スイーツ</h4>
+    <p>静かなインフィニティプールで月光浴、スイーツ付き。</p>
+  </div>
+  <div class="highlight-item">
+    <span class="highlight-tag">冬</span>
+    <h4>温水プール + 焚き火ガーデン</h4>
+    <p>水温維持で冬も入れる + マジックアワーの焚き火演出（冬季限定）。</p>
+  </div>
+</div>
+
+### 入場ルール｜失敗パターンを先に潰しておく
+
+行く前に押さえとくべき制約も公式に明記されてる:
+
+- **12歳以上限定**（2027/3/31 まで宿泊者に限り 4〜11歳も利用可、保護者同伴・専用水着持参・おむつ不可）
+- **タトゥー / アートメイク / シール全般 入場不可**
+- 水着以外の素材（Tシャツ・短パン等）着用禁止
+- **サウナ内撮影禁止**
+- 日帰り利用は **前日23:59までの予約必須**
+
+「子連れだからどうせ全員一緒に楽しめない」って思ってる人、**逆に大人だけの空間として割り切るの**が正解。子供は3F温泉or大磯ロングビーチ、大人は4Fスパ、で家族で分担するのが大磯流の使い方よ。
 
 ## 大磯ロングビーチ｜西日本最大級のプール、SPGR会員で家族割
 
@@ -82,12 +254,6 @@ author: "hacker-ko"
 - **Platinum/Diamond会員は滞在中、1日4枚まで無料パス**（同伴者OK）
 
 つまり**家族4人滞在＋プール利用なら、ステータス上げただけで1万円以上得する**計算。
-
-## 温泉＆サーマルトリップ｜プール上がりにそのまま回遊
-
-THERMAL SPA S.WAVE のもう一つの主役が**THERMAL TRIP**。温浴ゾーン→水風呂→外気浴→サウナを動線で回遊できる、サウナーが沼る系の施設。
-
-宿泊者は**チェックイン〜チェックアウトまで何度でも利用可**。これだけで日帰り温泉換算で1人￥3,000〜は浮く。プール上がりにバスタオル1枚で温泉ゾーンへ移動できる館内動線が地味に最強で、「もう一回だけ入って帰るか」のループが止まらなくなる。
 
 ## Seibu Prince Global Rewards（SPGR）とは｜旧SEIBU PRINCE CLUB
 
