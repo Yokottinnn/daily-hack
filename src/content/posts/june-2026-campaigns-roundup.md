@@ -2,7 +2,7 @@
 title: "2026年6月のお得キャンペーン総まとめ｜銀行・クレカ・QR決済・ふるさと納税の今やるべきTOP15"
 description: "2026年6月版の本気で得するお得情報を一気見。銀行口座開設・高還元クレカ・QR決済の新規登録・ふるさと納税まで、優先度順にTOP15案件をアタシが選別してあげる。期限と条件込み。"
 publishDate: 2026-05-16
-category: "roundups"
+category: ["roundups", "campaigns"]
 tags: ["まとめ", "2026年6月", "キャンペーン", "銀行", "クレカ", "QR決済"]
 isPR: true
 featured: true

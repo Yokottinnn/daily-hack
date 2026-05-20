@@ -1,5 +1,6 @@
 ---
 import { getCollection } from 'astro:content';
+import { getPrimaryCategory } from '../lib/category';
 
 export interface Props {
   slug: string;
@@ -11,6 +12,7 @@ const { slug, cta = '読む', headline } = Astro.props;
 
 const all = await getCollection('posts', ({ data }) => !data.draft);
 const post = all.find((p) => p.id === slug);
+const primaryCat = post ? getPrimaryCategory(post.data) : null;
 
 const categoryLabel: Record<string, string> = {
   campaigns: 'キャンペーン',
@@ -30,8 +32,8 @@ const categoryFallback: Record<string, string> = {
   'wangan-life': '/images/expr-01-wave.png',
 };
 
-const eyecatch = post
-  ? post.data.eyecatch?.src ?? post.data.eyecatchUrl ?? categoryFallback[post.data.category]
+const eyecatch = post && primaryCat
+  ? post.data.eyecatch?.src ?? post.data.eyecatchUrl ?? categoryFallback[primaryCat]
   : null;
 ---
 
@@ -42,7 +44,7 @@ const eyecatch = post
     </div>
     <div class="post-banner-body">
       {headline && <p class="post-banner-headline">{headline}</p>}
-      <span class="post-banner-cat">{categoryLabel[post.data.category] ?? post.data.category}</span>
+      <span class="post-banner-cat">{categoryLabel[primaryCat!] ?? primaryCat}</span>
       <p class="post-banner-title">{post.data.title}</p>
       <p class="post-banner-desc">{post.data.description}</p>
       <span class="post-banner-cta">{cta} →</span>

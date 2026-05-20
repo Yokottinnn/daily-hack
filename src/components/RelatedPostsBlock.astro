@@ -1,5 +1,6 @@
 ---
 import { getCollection } from 'astro:content';
+import { getPrimaryCategory } from '../lib/category';
 
 export interface Props {
   slugs?: string[];
@@ -46,7 +47,7 @@ if (slugs && slugs.length > 0) {
       {picked.slice(0, limit).map((p) => (
         <li>
           <a href={`/posts/${p.id}/`}>
-            <span class="related-block-cat">{categoryLabel[p.data.category] ?? p.data.category}</span>
+            <span class="related-block-cat">{categoryLabel[getPrimaryCategory(p.data)] ?? getPrimaryCategory(p.data)}</span>
             <span class="related-block-name">{p.data.title}</span>
           </a>
         </li>

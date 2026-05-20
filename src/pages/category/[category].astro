@@ -4,6 +4,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import Breadcrumb from '../../components/Breadcrumb.astro';
 import PostCard from '../../components/PostCard.astro';
 import AboutCard from '../../components/AboutCard.astro';
+import { postBelongsToCategory, type CategorySlug } from '../../lib/category';
 
 export async function getStaticPaths() {
   const cats = ['campaigns', 'services', 'comparisons', 'roundups', 'howto', 'wangan-life'];
@@ -23,7 +24,7 @@ const meta: Record<string, { label: string; h1: string; lead: string; face: stri
   },
   services: {
     label: 'サービス紹介',
-    h1: '使うべき神アプリ・神サービス',
+    h1: '使うべき神アプリ・神サービス・神スポット',
     lead: '実際に使って「これは間違いなくお得」と判定したサービスだけを紹介。ポイ活・節約・キャッシュレス決済・タクシーアプリまで網羅。',
     face: '/images/expr-04-cheer.png',
   },
@@ -59,7 +60,12 @@ if (!m) {
 }
 
 const includeDrafts = import.meta.env.PUBLIC_INCLUDE_DRAFTS === 'true';
-const all = await getCollection('posts', ({ data }) => (includeDrafts || !data.draft) && data.category === category);
+const all = await getCollection(
+  'posts',
+  ({ data }) =>
+    (includeDrafts || !data.draft) &&
+    postBelongsToCategory(data, category as CategorySlug),
+);
 const sorted = all.sort((a, b) => b.data.publishDate.getTime() - a.data.publishDate.getTime());
 const featured = sorted.filter((p) => p.data.featured).slice(0, 3);
 const rest = sorted.filter((p) => !featured.includes(p));

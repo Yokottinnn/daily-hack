@@ -2,7 +2,7 @@
 title: "楽天銀行の紹介コードでもらえる特典まとめ｜2026年最新"
 description: "楽天銀行の紹介プログラム、紹介者と被紹介者にもらえる特典・条件・申し込み手順を完全解説。ハッピープログラムを最大活用する設定もあわせて紹介します。"
 publishDate: 2026-05-09
-category: "services"
+category: ["services", "campaigns"]
 tags: ["楽天銀行", "紹介", "ネット銀行"]
 isPR: true
 parentPillar: "best-online-banks-2026"

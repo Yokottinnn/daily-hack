@@ -3,6 +3,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import Breadcrumb from '../components/Breadcrumb.astro';
 import AboutCard from '../components/AboutCard.astro';
 import { getCollection } from 'astro:content';
+import { getPrimaryCategory } from '../lib/category';
 
 const allPosts = await getCollection('posts', ({ data }) => !data.draft);
 const recent = allPosts
@@ -102,7 +103,7 @@ const editorialJsonLd = {
         {recent.map((p) => (
           <a href={`/posts/${p.id}/`} class="art">
             <div class="thumb">
-              <img src={p.data.eyecatch?.src ?? p.data.eyecatchUrl ?? `/images/eyecatch/${p.data.category}.jpg`} alt="" />
+              <img src={p.data.eyecatch?.src ?? p.data.eyecatchUrl ?? `/images/eyecatch/${getPrimaryCategory(p.data)}.jpg`} alt="" />
             </div>
             <div class="body">
               <h3>{p.data.title}</h3>

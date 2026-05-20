@@ -2,7 +2,7 @@
 title: "ふるさと納税の始め方｜2026年最新版・初心者向け最短ルート"
 description: "ふるさと納税って結局なに？という初心者向けに、2026年最新版の最短ルートを徹底解説。控除上限の計算からサイト選び、返礼品の選び方、ワンストップ特例まで一気通貫で教える。"
 publishDate: 2026-05-15
-category: "howto"
+category: ["howto", "services"]
 tags: ["ふるさと納税", "節税", "入門", "ガイド"]
 isPR: true
 draft: false

@@ -10,13 +10,29 @@ const posts = defineCollection({
       description: z.string().min(50).max(160),
       publishDate: z.coerce.date(),
       updatedDate: z.coerce.date().optional(),
-      category: z.enum([
-        'campaigns',
-        'services',
-        'comparisons',
-        'roundups',
-        'howto',
-        'wangan-life',
+      // 1記事 = 単一 enum or array of enum を両方許容
+      // 表示・フィルタ側は src/lib/category.ts の getCategories(data) 経由で統一的に string[] として扱う
+      category: z.union([
+        z.enum([
+          'campaigns',
+          'services',
+          'comparisons',
+          'roundups',
+          'howto',
+          'wangan-life',
+        ]),
+        z
+          .array(
+            z.enum([
+              'campaigns',
+              'services',
+              'comparisons',
+              'roundups',
+              'howto',
+              'wangan-life',
+            ]),
+          )
+          .min(1),
       ]),
       tags: z.array(z.string()).optional(),
       eyecatch: image().optional(),

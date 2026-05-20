@@ -2,7 +2,7 @@
 title: "【2026年版】ネット銀行おすすめ5選比較｜ATM手数料・金利・キャンペーンで徹底比較"
 description: "2026年現在おすすめのネット銀行5行を、ATM手数料・普通預金金利・他行振込手数料・キャンペーンで徹底比較。年間数万円の差が出る選び方をプロが解説します。"
 publishDate: 2026-05-10
-category: "comparisons"
+category: ["comparisons", "services"]
 tags: ["ネット銀行", "比較", "金融"]
 isPR: true
 featured: true

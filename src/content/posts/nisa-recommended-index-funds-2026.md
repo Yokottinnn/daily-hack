@@ -2,7 +2,7 @@
 title: "新NISA つみたて投資枠 おすすめインデックスファンド5選｜eMAXIS Slim・SBI・楽天系を本気比較 2026年版"
 description: "新NISAつみたて投資枠で買うべきインデックスファンド5本をアタシが本気比較。eMAXIS Slim オルカン・S&P500、SBI・全世界、楽天・オルカン、SBI・S&P500の信託報酬・指数・純資産を2026年5月時点の最新数値で網羅。"
 publishDate: 2026-05-17
-category: "services"
+category: ["services", "comparisons"]
 parentPillar: "nisa-investment-beginner-guide-2026"
 tags: ["新NISA", "つみたて投資枠", "インデックスファンド", "eMAXIS Slim", "SBI", "おすすめ"]
 isPR: true

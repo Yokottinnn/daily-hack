@@ -1,11 +1,13 @@
 ---
 import type { CollectionEntry } from 'astro:content';
+import { getPrimaryCategory } from '../lib/category';
 
 export interface Props {
   post: CollectionEntry<'posts'>;
 }
 
 const { post } = Astro.props;
+const primaryCat = getPrimaryCategory(post.data);
 
 const categoryLabel: Record<string, { label: string; cls: string }> = {
   campaigns: { label: 'キャンペーン速報', cls: 'pink' },
@@ -16,7 +18,7 @@ const categoryLabel: Record<string, { label: string; cls: string }> = {
   'wangan-life': { label: '湾岸ライフ', cls: 'cream' },
 };
 
-const cat = categoryLabel[post.data.category] ?? { label: post.data.category, cls: 'pink' };
+const cat = categoryLabel[primaryCat] ?? { label: primaryCat, cls: 'pink' };
 const dateStr = post.data.publishDate.toISOString().slice(0, 10).replace(/-/g, '.');
 
 const categoryFallback: Record<string, string> = {
@@ -28,7 +30,7 @@ const categoryFallback: Record<string, string> = {
   'wangan-life': '/images/eyecatch/services.jpg',
 };
 const eyecatchSrc =
-  post.data.eyecatch?.src ?? post.data.eyecatchUrl ?? categoryFallback[post.data.category] ?? '/images/eyecatch/services.jpg';
+  post.data.eyecatch?.src ?? post.data.eyecatchUrl ?? categoryFallback[primaryCat] ?? '/images/eyecatch/services.jpg';
 ---
 
 <a href={`/posts/${post.id}/`} class="art">

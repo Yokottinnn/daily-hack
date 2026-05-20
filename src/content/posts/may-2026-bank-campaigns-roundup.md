@@ -2,7 +2,7 @@
 title: "2026年5月の銀行口座開設キャンペーン総まとめ｜全部やれば最大8万円分"
 description: "2026年5月現在開催中の銀行口座開設キャンペーンを一覧化。Olive・楽天銀行・JRE BANK・みずほ等、全部組み合わせれば最大8万円分の特典が獲得可能。期限と条件を一覧で。"
 publishDate: 2026-05-07
-category: "roundups"
+category: ["roundups", "campaigns"]
 tags: ["まとめ", "銀行", "キャンペーン"]
 isPR: true
 featured: true

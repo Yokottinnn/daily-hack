@@ -10,6 +10,7 @@ import PostCard from '../components/PostCard.astro';
 import AdUnit from '../components/AdUnit.astro';
 import { getCollection } from 'astro:content';
 import DraftCommentWidget from '../components/DraftCommentWidget.astro';
+import { getPrimaryCategory, getCategories, postBelongsToCategory } from '../lib/category';
 
 export interface Props {
   post: CollectionEntry<'posts'>;
@@ -18,6 +19,8 @@ export interface Props {
 
 const { post, headings } = Astro.props;
 const data = post.data;
+const primaryCat = getPrimaryCategory(data);
+const postCategories = getCategories(data);
 
 const categoryLabel: Record<string, string> = {
   campaigns: 'キャンペーン速報',
@@ -39,14 +42,18 @@ const categoryFallback: Record<string, string> = {
   howto: '/images/eyecatch/howto.jpg',
   'wangan-life': '/images/eyecatch/services.jpg',
 };
-const eyecatchSrc = data.eyecatch?.src ?? data.eyecatchUrl ?? categoryFallback[data.category] ?? '/images/eyecatch/services.jpg';
+const eyecatchSrc = data.eyecatch?.src ?? data.eyecatchUrl ?? categoryFallback[primaryCat] ?? '/images/eyecatch/services.jpg';
 const fullUrl = new URL(Astro.url.pathname, Astro.site).toString();
 
 const includeDrafts = import.meta.env.PUBLIC_INCLUDE_DRAFTS === 'true';
 const allPosts = await getCollection('posts', ({ data }) => includeDrafts || !data.draft);
 const showReviewTools = includeDrafts || data.draft;
 const related = allPosts
-  .filter((p) => p.id !== post.id && p.data.category === data.category)
+  .filter(
+    (p) =>
+      p.id !== post.id &&
+      postCategories.some((cat) => postBelongsToCategory(p.data, cat)),
+  )
   .sort((a, b) => b.data.publishDate.getTime() - a.data.publishDate.getTime())
   .slice(0, 4);
 
@@ -96,12 +103,16 @@ const articleJsonLd = {
       <article class="post-main" data-pagefind-body>
         <Breadcrumb items={[
           { label: 'ホーム', href: '/' },
-          { label: categoryLabel[data.category] ?? data.category, href: `/category/${data.category}/` },
+          { label: categoryLabel[primaryCat] ?? primaryCat, href: `/category/${primaryCat}/` },
           { label: data.title },
         ]} />
         <header class="post-head">
           <span class="art" style="display: inline-block; margin-right: 8px;">
-            <span class="cat pink">{categoryLabel[data.category] ?? data.category}</span>
+            {postCategories.map((c) => (
+              <a href={`/category/${c}/`} style="text-decoration: none; margin-right: 6px;">
+                <span class="cat pink">{categoryLabel[c] ?? c}</span>
+              </a>
+            ))}
           </span>
           {data.isPR && <PRBadge />}
           <h1>{data.title}</h1>
@@ -176,7 +187,7 @@ const articleJsonLd = {
       <section style="padding: 32px 0 56px;">
         <div class="sec-head">
           <h2><span class="chibi"><img src="/images/expr-05-smug.png" alt="" /></span>同じカテゴリの記事</h2>
-          <a href={`/category/${data.category}/`} class="seeall">すべて見る →</a>
+          <a href={`/category/${primaryCat}/`} class="seeall">すべて見る →</a>
         </div>
         <div class="articles">
           {related.map((p) => <PostCard post={p} />)}
