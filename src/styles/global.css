@@ -106,7 +106,7 @@ button { font-family: inherit; cursor: pointer; border: 0; background: none; pad
 .hero-char .frame img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 30%; transform: scale(1.08); }
 .bubble { position: absolute; background: #fff; border: 2.5px solid var(--ink); border-radius: 18px; padding: 14px 18px; font-family: "RocknRoll One"; box-shadow: 6px 6px 0 rgba(42, 25, 35, .12); }
 .bubble::after { content: ""; position: absolute; width: 18px; height: 18px; background: #fff; border-right: 2.5px solid var(--ink); border-bottom: 2.5px solid var(--ink); }
-.bubble.top-left { top: -4%; left: -12%; transform: rotate(-3deg); }
+.bubble.top-left { top: 2%; left: -2%; transform: rotate(-3deg); }
 .bubble.top-left::after { right: 24px; bottom: -11px; transform: rotate(45deg); }
 .bubble.top-left .lg { font-size: 18px; color: var(--pink-600); display: block; }
 .bubble.top-left .sm { font-size: 14px; color: var(--ink); display: block; }
@@ -683,8 +683,8 @@ footer.foot .pr { margin-top: 6px; }
     border-width: 2px;
   }
   .hero .bubble.top-left {
-    top: -8%;
-    left: -10%;
+    top: 6%;
+    left: -2%;
     transform: rotate(-3deg) scale(0.78);
     transform-origin: top left;
   }
@@ -696,5 +696,5 @@ footer.foot .pr { margin-top: 6px; }
   }
   .hero .bubble .lg { font-size: 13px; }
   .hero .bubble .sm { font-size: 11px; }
-  .hero .hero-char { max-width: 280px; }
+  .hero .hero-char { max-width: 280px; margin-top: 20px; }
 }
