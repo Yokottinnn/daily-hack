@@ -7,8 +7,8 @@ tags: ["大磯プリンスホテル", "SEIBU PRINCE CLUB", "Seibu Prince Global 
 isPR: false
 draft: false
 featured: false
-eyecatchUrl: "https://www.princehotels.co.jp/oiso/image/top_2026spring04.jpg"
-eyecatchAlt: "大磯プリンスホテル THERMAL SPA S.WAVE インフィニティプール（出典：大磯プリンスホテル公式）"
+eyecatchUrl: "/images/oiso/infinity-pool.jpg"
+eyecatchAlt: "大磯プリンスホテル THERMAL SPA S.WAVE のインフィニティプールから望む相模湾"
 author: "hacker-ko"
 ---
 
@@ -33,41 +33,46 @@ author: "hacker-ko"
 
 <div class="real-photos cols-2">
   <figure class="real-photo">
-    <img src="https://www.princehotels.co.jp/oiso/image/top_2026spring04.jpg" alt="相模湾を望むインフィニティプール（THERMAL SPA S.WAVE）" loading="lazy" referrerpolicy="no-referrer" />
+    <img src="/images/oiso/hotel-exterior.jpg" alt="大磯プリンスホテル 外観" loading="lazy" />
     <figcaption>
-      海と水面が溶け合うインフィニティプール。夕方の光が水面に反射する時間帯が、アタシ的に一番ぜいたく。
-      <cite>出典: <a href="https://www.princehotels.co.jp/oiso/" target="_blank" rel="noopener">大磯プリンスホテル公式</a></cite>
+      白い外壁にスーッと水平ラインが入った湘南リゾート然とした外観。西湘バイパス降りてすぐで、車組はそのまま駐車場へ吸い込まれる導線。
+      <cite>撮影: Daily Hack 編集部</cite>
     </figcaption>
   </figure>
   <figure class="real-photo">
-    <img src="https://www.princehotels.co.jp/oiso/images/pla-infinity-pool-only.jpg" alt="インフィニティプール俯瞰" loading="lazy" referrerpolicy="no-referrer" />
+    <img src="/images/oiso/lobby-entrance.jpg" alt="大磯プリンスホテル ロビー＆エントランス" loading="lazy" />
     <figcaption>
-      宿泊者ならチェックイン〜アウトまで何度でも入り直せる。中学生以上限定なので「子連れ騒音ゼロ」が地味に効く。
-      <cite>出典: <a href="https://www.princehotels.co.jp/oiso/facility/" target="_blank" rel="noopener">大磯プリンスホテル公式 館内のご案内</a></cite>
+      チェックインカウンター越しに、もう海が見える設計。「あ、もう旅始まってる」感が出るのが大磯プリンスのいちばん上手いとこ。
+      <cite>撮影: Daily Hack 編集部</cite>
     </figcaption>
   </figure>
 </div>
+
+## THERMAL SPA S.WAVE｜インフィニティプール × 相模湾
+
+宿泊した瞬間に「あ、ここに金払う価値あるな」って分からせてくれる、**屋上のインフィニティプール**。水面の縁が相模湾の水平線と完全に揃って、海を泳いでる錯覚に陥る。中学生以上限定の大人ゾーンで、子連れの賑やかさとは無縁の静けさ。
+
+<figure class="real-photo" style="max-width: 720px; margin: 22px auto 28px;">
+  <img src="/images/oiso/infinity-pool.jpg" alt="THERMAL SPA S.WAVE のインフィニティプールと相模湾" loading="lazy" />
+  <figcaption>
+    水面と相模湾が一体化するインフィニティライン。晴れた日の昼下がりは、写真撮るより先にしばらく無言で見入っちゃう。
+    <cite>撮影: Daily Hack 編集部</cite>
+  </figcaption>
+</figure>
+
+宿泊者はチェックイン〜チェックアウトまで何度でも利用可。日帰り利用も可能だけど、SPGR 会員価格で予約すると割安。これだけで日帰り温浴施設換算で1人￥3,000は浮く計算。
 
 ## 大磯ロングビーチ｜西日本最大級のプール、SPGR会員で家族割
 
 夏季限定（例年7月初旬〜9月初旬）で営業する**9プール構成の屋外プール群**。流れるプール500m・スライダー・波のプール・幼児プールまで揃ってる西湘エリアの聖地。
 
-<div class="real-photos cols-2">
-  <figure class="real-photo">
-    <img src="https://www.princehotels.co.jp/oiso/images/pla-oiso-lb13.jpg" alt="大磯ロングビーチ 大規模プール群" loading="lazy" referrerpolicy="no-referrer" />
-    <figcaption>
-      9個のプール＋流れるプール500m。7月後半の平日午前が地元民的に空いてて穴場。
-      <cite>出典: <a href="https://www.princehotels.co.jp/oiso/" target="_blank" rel="noopener">大磯プリンスホテル公式</a></cite>
-    </figcaption>
-  </figure>
-  <figure class="real-photo">
-    <img src="https://www.princehotels.co.jp/oiso/images/pla-oiso-lbzenkei1.jpg" alt="大磯ロングビーチ全景" loading="lazy" referrerpolicy="no-referrer" />
-    <figcaption>
-      Platinum以上ならここに無料パス4枚/日。家族で来るなら絶対ステータス上げといた方が得。
-      <cite>出典: <a href="https://www.princehotels.co.jp/oiso/facility/" target="_blank" rel="noopener">大磯プリンスホテル公式 館内のご案内</a></cite>
-    </figcaption>
-  </figure>
-</div>
+<figure class="real-photo" style="max-width: 920px; margin: 22px auto 28px;">
+  <img src="/images/oiso/longbeach-overview.jpg" alt="大磯ロングビーチ全景（ホテル上層階から）" loading="lazy" />
+  <figcaption>
+    ホテル上層階から見下ろした大磯ロングビーチ全景。営業前の朝の時間帯はこの絶景を独り占めできる、宿泊者の特権。
+    <cite>撮影: Daily Hack 編集部</cite>
+  </figcaption>
+</figure>
 
 **料金（2026年夏期予定）**:
 
@@ -82,24 +87,7 @@ author: "hacker-ko"
 
 THERMAL SPA S.WAVE のもう一つの主役が**THERMAL TRIP**。温浴ゾーン→水風呂→外気浴→サウナを動線で回遊できる、サウナーが沼る系の施設。
 
-<div class="real-photos cols-2">
-  <figure class="real-photo">
-    <img src="https://www.princehotels.co.jp/oiso/image/top_2026onsen01.jpg" alt="大磯プリンスホテル 温泉" loading="lazy" referrerpolicy="no-referrer" />
-    <figcaption>
-      プール上がりにそのまま温泉へ。S.WAVE の館内導線、地味に最強。
-      <cite>出典: <a href="https://www.princehotels.co.jp/oiso/" target="_blank" rel="noopener">大磯プリンスホテル公式</a></cite>
-    </figcaption>
-  </figure>
-  <figure class="real-photo">
-    <img src="https://www.princehotels.co.jp/oiso/images/fac_thermaltrip_01.jpg" alt="THERMAL TRIP（温冷交代浴）" loading="lazy" referrerpolicy="no-referrer" />
-    <figcaption>
-      温冷交代浴のサーマルトリップ。サウナーが沼る系のSPGR的「隠れ目玉」。
-      <cite>出典: <a href="https://www.princehotels.co.jp/oiso/facility/" target="_blank" rel="noopener">大磯プリンスホテル公式 館内のご案内</a></cite>
-    </figcaption>
-  </figure>
-</div>
-
-宿泊者は**チェックイン〜チェックアウトまで何度でも利用可**。これだけで日帰り温泉換算で1人￥3,000〜は浮く。
+宿泊者は**チェックイン〜チェックアウトまで何度でも利用可**。これだけで日帰り温泉換算で1人￥3,000〜は浮く。プール上がりにバスタオル1枚で温泉ゾーンへ移動できる館内動線が地味に最強で、「もう一回だけ入って帰るか」のループが止まらなくなる。
 
 ## Seibu Prince Global Rewards（SPGR）とは｜旧SEIBU PRINCE CLUB
 
@@ -145,27 +133,40 @@ THERMAL SPA S.WAVE のもう一つの主役が**THERMAL TRIP**。温浴ゾーン
 
 - **大磯ロングビーチ**: 会員割（大人￥700引き）／ホテル宿泊で半額／Platinum以上は無料パス4枚/日
 - **THERMAL SPA S.WAVE インフィニティプール**: 宿泊者は滞在中フリーパス／日帰り会員価格あり（中学生未満不可）
-- **中国料理 滄（ソウ）**: 誕生月のドリンクサービス／系列レストラン10回利用でギフト券／Platinum以上はカバーチャージ・ワイン持込料免除
+- **S.DINING / 中国料理 滄（ソウ）**: 誕生月のドリンクサービス／系列レストラン10回利用でギフト券／Platinum以上はカバーチャージ・ワイン持込料免除
 - **SEIDGE等の体験施設**: 会員ベストレート・先行予約・ポイント還元の対象
 
 宿泊客室は10階の**湘南スイート（57.2㎡）が海ビューで人気**。Diamondだと空室時に上位カテゴリへの**無料アップグレード**もあり。
 
-<div class="real-photos cols-2">
+## S.DINING の特別ディナー｜記念日に使うとお得感マシマシ
+
+メインダイニングの **S.DINING** は、湘南の食材を使った季節のコース料理が看板。誕生月特典でドリンクサービス、10回利用でギフト券、Platinum以上ならカバーチャージ・ワイン持込料も免除されるので、記念日に使うほど元が取れる。
+
+<div class="real-photos cols-3">
   <figure class="real-photo">
-    <img src="https://www.princehotels.co.jp/oiso/room/images_static/oiso_flexible_building2017oshs_listSlider2.jpg" alt="湘南スイート（10階・相模湾ビュー）" loading="lazy" referrerpolicy="no-referrer" />
+    <img src="/images/oiso/sdining-menu.jpg" alt="S.DINING スペシャルディナーのコースメニュー" loading="lazy" />
     <figcaption>
-      湘南スイートは57.2㎡で海ビュー。Diamondだと空室時に上位カテゴリへ無料アップグレもあり。
-      <cite>出典: <a href="https://www.princehotels.co.jp/oiso/room/" target="_blank" rel="noopener">大磯プリンスホテル公式 客室一覧</a></cite>
+      コースは「マグロのタルタル仕立て」「蝦夷アワビと茸のソテー」「オマール海老」「国産牛フィレ」とフルコース構成。和食材×フレンチの絶妙なバランス。
+      <cite>撮影: Daily Hack 編集部（S.DINING にて）</cite>
     </figcaption>
   </figure>
   <figure class="real-photo">
-    <img src="https://www.princehotels.co.jp/oiso/images/res_sou_2026specialdinner02.jpg" alt="中国料理 滄（ソウ）スペシャルディナー" loading="lazy" referrerpolicy="no-referrer" />
+    <img src="/images/oiso/sdining-main.jpg" alt="国産牛フィレ肉のクレープ包み・ポルトソース" loading="lazy" />
     <figcaption>
-      中国料理「滄」はPlatinum以上ならワイン持込料・カバーチャージが無料。記念日に使うとお得感マシマシ。
-      <cite>出典: <a href="https://www.princehotels.co.jp/oiso/restaurant/" target="_blank" rel="noopener">大磯プリンスホテル公式 レストラン</a></cite>
+      メインは「国産牛フィレ肉のグリル 小田原いいち味噌のクレープ包み」。ポルトソースに包み焼きクレープを浸して切り分けると、湯気と一緒に味噌の香りが立ち上る瞬間が一番テンション上がる。
+      <cite>撮影: Daily Hack 編集部（S.DINING にて）</cite>
+    </figcaption>
+  </figure>
+  <figure class="real-photo">
+    <img src="/images/oiso/sdining-dessert.jpg" alt="抹茶とゆずのガトー・ミルクアイス添え" loading="lazy" />
+    <figcaption>
+      デザートは「抹茶とゆずのガトー ミルクアイスを添えて」。抹茶の苦みとミルクアイスのバランスが大人向けで、最後の余韻がコース全体を引き締めてくる。
+      <cite>撮影: Daily Hack 編集部（S.DINING にて）</cite>
     </figcaption>
   </figure>
 </div>
+
+ディナーコースは時期にもよるけど大体 ¥15,000 前後。Platinum以上なら**カバーチャージ・持込料が無料**になるから、ワイン好きなら年に2-3回使うだけで会費以上の差が出るレベル。
 
 ## 年間利用シミュレーション｜どこから元が取れる？
 
@@ -211,11 +212,38 @@ THERMAL SPA S.WAVE のもう一つの主役が**THERMAL TRIP**。温浴ゾーン
 
 ## まとめ｜「無料登録だけで損が減る」最低限ライン
 
-- **Seibu Prince Global Rewards は年会費無料**。登録しない理由がない
-- **Blueでも公式ベストレート＆ポイント約2.7%還元**。じゃらん/楽天経由より得
-- **Platinum以上は朝食無料・大磯ロングビーチ無料パスで年10万円単位の差**
-- 大磯プリンスホテルは**インフィニティプール×温泉×サウナ×ロングビーチ**のオールインワンリゾート
-- 公式直予約＋アプリ会員番号紐付けが**ポイント還元の絶対条件**
+<div class="highlight-grid cols-3">
+  <div class="highlight-item">
+    <span class="highlight-tag">無料</span>
+    <h4>SPGRは年会費・入会金ゼロ</h4>
+    <p>Blueでも公式ベストレート＆ポイント約2.7%還元。登録しない理由がない。</p>
+  </div>
+  <div class="highlight-item">
+    <span class="highlight-tag">公式経由</span>
+    <h4>じゃらん/楽天経由はNG</h4>
+    <p>会員ポイント還元・ベストレートは公式サイト/アプリ予約が絶対条件。</p>
+  </div>
+  <div class="highlight-item">
+    <span class="highlight-tag">階層UP</span>
+    <h4>Platinum以上で年10万円差</h4>
+    <p>朝食ビュッフェ無料＋大磯ロングビーチ無料パス4枚/日で家族滞在のコスパが激変。</p>
+  </div>
+  <div class="highlight-item">
+    <span class="highlight-tag">大磯</span>
+    <h4>オールインワンの神コスパ</h4>
+    <p>インフィニティプール×温泉×サウナ×ロングビーチが1施設で完結する。</p>
+  </div>
+  <div class="highlight-item">
+    <span class="highlight-tag">レストラン</span>
+    <h4>記念日に使うほど元が取れる</h4>
+    <p>S.DINING・滄はPlatinum以上でカバーチャージ・持込料免除。年2-3回でも差が出る。</p>
+  </div>
+  <div class="highlight-item">
+    <span class="highlight-tag">ボーナス</span>
+    <h4>到達翌4月にメダル自動付与</h4>
+    <p>Gold +2 / Platinum +5 / Diamond +20。一度上げると翌年もキープしやすい設計。</p>
+  </div>
+</div>
 
 「ホテルに泊まる時くらいラクに、得して、贅沢したい」って思うなら、**まずSPGRをスマホに入れる**ところから始めなさい。アタシみたいに年5回の旅行を年30万円以内に収めたい人は、これ無しじゃ無理。
 
