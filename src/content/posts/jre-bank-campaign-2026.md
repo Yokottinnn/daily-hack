@@ -2,7 +2,7 @@
 title: "JRE BANK開設キャンペーン｜JR東日本の新銀行で得する全特典まとめ 2026年版"
 description: "JR東日本グループが楽天銀行と組んで提供する「JRE BANK」の開設特典を完全ガイド。優待割引券（4割引）最大年10枚・どこかにビューーン2,000pt割引・Suicaグリーン券等、年間数万円分の優待を取りこぼさない手順を解説。"
 publishDate: 2026-05-16
-category: "campaigns"
+category: ["campaigns", "services"]
 tags: ["JRE BANK", "JR東日本", "口座開設", "キャンペーン", "鉄道"]
 isPR: true
 draft: false

@@ -2,7 +2,7 @@
 title: "ふるさと納税 日用品おすすめ10選｜トイレットペーパー・洗剤・タオルの本気で得する返礼品 2026年版"
 description: "ふるさと納税の日用品返礼品から、トイレットペーパー・洗剤・タオル・ティッシュの本気で得する10品を厳選。寄付額・自治体・配送・容量を一気通貫で解説。食品より長持ち・賞味期限なしの最強カテゴリ。"
 publishDate: 2026-05-17
-category: "services"
+category: ["services", "howto"]
 tags: ["ふるさと納税", "返礼品", "日用品", "トイレットペーパー", "洗剤", "タオル", "おすすめ"]
 parentPillar: "furusato-tax-beginner-guide-2026"
 isPR: true

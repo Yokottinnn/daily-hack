@@ -2,7 +2,7 @@
 title: "「年会費無料×高還元」クレジットカード徹底比較｜2026年版"
 description: "年会費0円なのに還元率1%超え。2026年版の本気で得するクレカ5枚を、楽天・三井住友NL・JCB W・リクルート・PayPayで徹底比較。あんたに合う1枚をアタシが教えてあげる。"
 publishDate: 2026-05-15
-category: "comparisons"
+category: ["comparisons", "services"]
 tags: ["クレジットカード", "年会費無料", "比較", "高還元"]
 isPR: true
 draft: false

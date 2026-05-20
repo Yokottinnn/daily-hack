@@ -2,7 +2,7 @@
 title: "ポイ活の始め方｜2026年最新版・最短ルート"
 description: "ポイ活って何から始めればいいの？という人向けに、2026年現在の最短ルートを徹底解説。月3万円分のポイントを着実に貯めるための優先順位を紹介します。"
 publishDate: 2026-05-11
-category: "howto"
+category: ["howto", "services"]
 tags: ["ポイ活", "入門", "ガイド"]
 isPR: true
 featured: true

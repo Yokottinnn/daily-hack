@@ -2,7 +2,7 @@
 title: "格安SIM徹底比較｜楽天モバイル・ahamo・povo・LINEMOで本当に得するのは？2026年版"
 description: "楽天モバイル・ahamo・povo・LINEMO・UQ・Y!mobileを2026年最新版で徹底比較。料金・通信品質・縛り・キャンペーンを並べて、あんたの使い方で本当に得する1社を教えてあげる。"
 publishDate: 2026-05-16
-category: "comparisons"
+category: ["comparisons", "services", "howto"]
 tags: ["格安SIM", "楽天モバイル", "ahamo", "povo", "LINEMO", "通信費削減"]
 isPR: true
 draft: false

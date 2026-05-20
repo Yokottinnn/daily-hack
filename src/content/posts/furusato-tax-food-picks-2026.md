@@ -2,7 +2,7 @@
 title: "ふるさと納税 食品返礼品おすすめ｜米・肉・海鮮の本気で美味しい15選 2026年版"
 description: "ふるさと納税の食品返礼品から、米・肉・海鮮の本気で美味しい15品を厳選。寄付額・自治体・市場価値・配送タイミングまで一気通貫で解説。コスパ重視とご褒美重視で選び分け。"
 publishDate: 2026-05-16
-category: "services"
+category: ["services", "howto", "roundups"]
 tags: ["ふるさと納税", "返礼品", "食品", "米", "肉", "海鮮", "おすすめ"]
 isPR: true
 featured: true

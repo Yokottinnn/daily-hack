@@ -1,5 +1,6 @@
 import rss from '@astrojs/rss';
 import { getCollection } from 'astro:content';
+import { getCategories } from '../lib/category';
 
 export async function GET(context) {
   const posts = await getCollection('posts', ({ data }) => !data.draft);
@@ -15,7 +16,7 @@ export async function GET(context) {
       pubDate: post.data.publishDate,
       description: post.data.description,
       link: `/posts/${post.id}/`,
-      categories: [post.data.category, ...(post.data.tags ?? [])],
+      categories: [...getCategories(post.data), ...(post.data.tags ?? [])],
     })),
     customData: '<language>ja</language>',
   });

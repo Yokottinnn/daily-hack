@@ -2,7 +2,7 @@
 title: "新NISA活用ガイド｜SBI証券・楽天証券で月3万円つみたて投資の始め方 2026年版"
 description: "新NISA初心者向けに、2026年最新版の最短ルートを徹底解説。SBI証券・楽天証券・マネックス証券の比較から、つみたて投資枠と成長投資枠の使い分け、月3万円の積立設定までアタシが教える。"
 publishDate: 2026-05-16
-category: "howto"
+category: ["howto", "services"]
 tags: ["NISA", "投資", "SBI証券", "楽天証券", "入門", "つみたて投資"]
 isPR: true
 draft: false
