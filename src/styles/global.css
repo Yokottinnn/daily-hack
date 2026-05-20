@@ -163,14 +163,15 @@ section { padding: 80px 0; }
 .urgent { background: linear-gradient(180deg, #FFFAF0 0%, #FFF5F8 100%); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); padding: 64px 0; }
 .camp-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
 @media (max-width: 880px) { .camp-grid { grid-template-columns: 1fr; } }
-.camp-card { background: #fff; border: 1px solid var(--line); border-radius: var(--radius); padding: 18px; display: flex; gap: 14px; align-items: center; transition: transform .15s, box-shadow .15s, border-color .15s; position: relative; overflow: hidden; }
+.camp-card { background: #fff; border: 1px solid var(--line); border-radius: var(--radius); padding: 20px; min-height: 180px; display: flex; align-items: flex-end; transition: transform .15s, box-shadow .15s, border-color .15s; position: relative; overflow: hidden; isolation: isolate; }
 .camp-card:hover { transform: translateY(-2px); box-shadow: var(--shadow-card); border-color: var(--pink-200); }
-.camp-card .ava { width: 70px; height: 70px; border-radius: 50%; flex-shrink: 0; background: var(--pink-100); overflow: hidden; border: 3px solid #fff; box-shadow: 0 0 0 1px var(--pink-200); }
-.camp-card .ava img { width: 100%; height: 100%; object-fit: cover; object-position: center 18%; }
-.camp-card .body { flex: 1; min-width: 0; }
-.camp-card .pill { display: inline-block; font-size: 11px; font-weight: 800; background: #FFE2EC; color: var(--pink-700); padding: 3px 10px; border-radius: 999px; margin-bottom: 6px; letter-spacing: .05em; }
+.camp-card .bg { position: absolute; inset: 0; z-index: 0; }
+.camp-card .bg img { width: 100%; height: 100%; object-fit: cover; opacity: .28; }
+.camp-card::after { content: ""; position: absolute; inset: 0; z-index: 1; background: linear-gradient(180deg, rgba(255,255,255,.55) 0%, rgba(255,255,255,.82) 55%, rgba(255,255,255,.95) 100%); pointer-events: none; }
+.camp-card .body { position: relative; z-index: 2; flex: 1; min-width: 0; }
+.camp-card .pill { display: inline-block; font-size: 11px; font-weight: 800; background: #FFE2EC; color: var(--pink-700); padding: 3px 10px; border-radius: 999px; margin-bottom: 8px; letter-spacing: .05em; }
 .camp-card .pill.warn { background: #FFEDD2; color: #9C5A00; }
-.camp-card h3 { font-size: 15.5px; margin: 2px 0 8px; font-weight: 800; line-height: 1.45; }
+.camp-card h3 { font-size: 15.5px; margin: 2px 0 10px; font-weight: 800; line-height: 1.45; color: var(--ink-1); text-shadow: 0 1px 0 rgba(255,255,255,.6); }
 .camp-card .meta { font-size: 12px; color: var(--ink-3); display: flex; gap: 8px; align-items: center; }
 .camp-card .meta b { color: var(--ink-2); font-weight: 800; }
 
