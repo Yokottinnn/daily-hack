@@ -513,11 +513,16 @@ footer.foot .pr { margin-top: 6px; }
 .real-photos { display: grid; gap: 18px; margin: 22px 0 28px; grid-template-columns: 1fr; }
 @media (min-width: 640px) { .real-photos.cols-2 { grid-template-columns: 1fr 1fr; } .real-photos.cols-3 { grid-template-columns: repeat(3, 1fr); } }
 .real-photo { margin: 0; }
-.real-photo img { width: 100%; height: auto; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 12px; border: 1px solid var(--line); display: block; background: var(--pink-50); }
+.real-photo img { width: 100%; height: auto; border-radius: 12px; border: 1px solid var(--line); display: block; background: var(--pink-50); }
 .real-photo figcaption { font-size: 12.5px; line-height: 1.65; color: var(--ink-2); margin-top: 8px; padding: 8px 12px; background: var(--pink-50); border-left: 3px solid var(--pink-300); border-radius: 0 8px 8px 0; }
 .real-photo figcaption cite { display: block; font-size: 11px; color: var(--ink-3); margin-top: 6px; font-style: normal; letter-spacing: .02em; }
 .real-photo figcaption cite a { color: var(--ink-3); border-bottom: 1px dotted var(--ink-3); }
 .real-photo figcaption cite a:hover { color: var(--pink-600); border-color: var(--pink-400); }
+/* 2-col モード専用: 縦幅を揃え、背景・枠線・キャプション装飾を全て消して「何もない」状態に */
+@media (min-width: 640px) {
+  .real-photos.cols-2 .real-photo img { height: 280px; object-fit: contain; background: transparent; border: 0; }
+  .real-photos.cols-2 .real-photo figcaption { background: transparent; border-left: 0; border-radius: 0; padding: 8px 0 0; }
+}
 
 /* Hakkako-says callout — mascot + inline quote that blends with article body */
 .hakkako-says { display: grid; grid-template-columns: 92px 1fr; gap: 18px; align-items: center; margin: 32px 0; background: linear-gradient(135deg, var(--pink-50), #fff); border: 1px solid var(--pink-200); border-radius: 20px; padding: 18px 22px; box-shadow: var(--shadow-card); }
