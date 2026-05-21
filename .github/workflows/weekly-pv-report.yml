@@ -1,0 +1,52 @@
+name: Weekly PV Report
+
+on:
+  schedule:
+    # 毎週月曜 09:00 JST = 00:00 UTC
+    - cron: "0 0 * * 1"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Slack には投稿せず標準出力のみ"
+        required: false
+        type: boolean
+        default: false
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    concurrency:
+      group: weekly-pv-report
+      cancel-in-progress: false
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run weekly PV report
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_TAG: ${{ secrets.CLOUDFLARE_ACCOUNT_TAG }}
+          CLOUDFLARE_SITE_TAG: ${{ secrets.CLOUDFLARE_SITE_TAG }}
+          SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
+          SLACK_CHANNEL_ID: ${{ vars.SLACK_CHANNEL_ID || 'C0B4CJHH797' }}
+          DRY_RUN: ${{ inputs.dry_run }}
+        run: |
+          if [ "$DRY_RUN" = "true" ]; then
+            python -c "
+          import os, sys
+          sys.path.insert(0, 'scripts')
+          from weekly_pv_report import query_cf_analytics, build_slack_text
+          from datetime import datetime, timedelta, timezone
+          until = datetime.now(timezone.utc).replace(hour=0, minute=0, second=0, microsecond=0)
+          since = until - timedelta(days=7)
+          s = since.strftime('%Y-%m-%dT%H:%M:%SZ'); u = until.strftime('%Y-%m-%dT%H:%M:%SZ')
+          data = query_cf_analytics(os.environ['CLOUDFLARE_API_TOKEN'], os.environ['CLOUDFLARE_ACCOUNT_TAG'], os.environ['CLOUDFLARE_SITE_TAG'], s, u)
+          print(build_slack_text(data, s, u))
+          "
+          else
+            python scripts/weekly_pv_report.py
+          fi
