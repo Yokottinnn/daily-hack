@@ -5,8 +5,8 @@ publishDate: 2026-05-21
 category: ["roundups", "campaigns", "howto"]
 tags: ["夏旅", "タイムセール", "JR東日本", "じゃらん", "楽天トラベル", "一休", "JTB", "日本旅行", "ANA", "JAL", "夏休み", "旅行"]
 isPR: false
-draft: true
-featured: false
+draft: false
+featured: true
 eyecatchUrl: "https://img.travel.rakuten.co.jp/special/sales/202605/images/kv_pc.png"
 eyecatchAlt: "楽天トラベル アーリーサマーフェア（出典：楽天トラベル公式）"
 author: "hacker-ko"
