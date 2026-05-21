@@ -7,8 +7,8 @@ tags: ["大磯プリンスホテル", "SEIBU PRINCE CLUB", "Seibu Prince Global 
 isPR: false
 draft: false
 featured: false
-eyecatchUrl: "/images/oiso/infinity-pool.jpg"
-eyecatchAlt: "大磯プリンスホテル THERMAL SPA S.WAVE のインフィニティプールから望む相模湾"
+eyecatchUrl: "/images/oiso/sunset-pool-eyecatch.jpg"
+eyecatchAlt: "大磯プリンスホテル THERMAL SPA S.WAVE インフィニティプールの夕暮れ"
 author: "hacker-ko"
 ---
 

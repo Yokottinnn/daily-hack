@@ -7,8 +7,8 @@ tags: ["湾岸ライフ", "神スポット", "豊洲", "晴海", "有明", "お�
 isPR: false
 draft: false
 featured: true
-eyecatchUrl: "https://images.unsplash.com/photo-1551641506-ee5bf4cb45f1?w=1200&q=80"
-eyecatchAlt: "東京湾岸エリアのタワーマンションと夕景"
+eyecatchUrl: "/images/wangan/tokyo-monument-eyecatch.jpg"
+eyecatchAlt: "晴海ふ頭公園の TOKYO モニュメントとレインボーブリッジ"
 author: "hacker-ko"
 ---
 
