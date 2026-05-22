@@ -2,8 +2,7 @@
 
 ## weekly_pv_report.py
 
-Cloudflare Web Analytics の GraphQL API から直近7日間のPV/UV/上位ページ/国別/流入元を取得し、
-Slack `#fun_reward-hack-blog` (C0B4CJHH797) に投稿する。
+GA4 Data API から直近7日間（UTC、終端=昨日）のPV/アクティブユーザー/セッション/上位ページ/国別/流入元を取得し、Slack `#fun_reward-hack-blog` に Incoming Webhook で投稿する。
 
 実行は `.github/workflows/weekly-pv-report.yml` で **毎週月曜 09:00 JST** に自動起動。
 GitHub Actions の `workflow_dispatch` から手動実行も可（`dry_run: true` で Slack 投稿なし、標準出力のみ）。
@@ -12,12 +11,20 @@ GitHub Actions の `workflow_dispatch` から手動実行も可（`dry_run: true
 
 | Secret | 説明 | 取得元 |
 |---|---|---|
-| `CLOUDFLARE_API_TOKEN` | CF API トークン（`Account Analytics:Read` スコープのみで十分） | dash.cloudflare.com → My Profile → API Tokens → Create Token |
-| `CLOUDFLARE_ACCOUNT_ID` | CF アカウントID | dash.cloudflare.com の URL `/accounts/<ここ>/` （workflow 内で `CLOUDFLARE_ACCOUNT_TAG` にエイリアス） |
-| `CLOUDFLARE_SITE_TAG` | Web Analytics サイトの UUID | dash → Analytics → Web Analytics → 該当サイトを開いた URL の `site/<ここ>/` |
-| `SLACK_WEBHOOK_URL` | Slack Incoming Webhook URL | api.slack.com/apps → Create New App → Incoming Webhooks → Add New Webhook to Workspace → #fun_reward-hack-blog を選択 → `https://hooks.slack.com/services/...` |
+| `GA4_PROPERTY_ID` | GA4 プロパティID（数値、例 `123456789`） | GA4 → 管理（左下歯車）→ プロパティ設定 → 「プロパティID」 |
+| `GA4_SERVICE_ACCOUNT_JSON` | Google Cloud Service Account の JSON 秘密鍵（中身を丸ごと） | Google Cloud Console → IAM & Admin → Service Accounts → 作成 → Keys → Add key → JSON |
+| `SLACK_WEBHOOK_URL` | Slack Incoming Webhook URL | api.slack.com/apps → Create New App → Incoming Webhooks → Add Webhook to Workspace → `#fun_reward-hack-blog` |
 
-### Slack Incoming Webhook の作り方（最小手順）
+### Service Account に必要な権限
+
+1. Google Cloud Console で Service Account を作成（権限はプロジェクト側は不要）
+2. JSON 鍵を発行してダウンロード（中身を丸ごと GH Secret `GA4_SERVICE_ACCOUNT_JSON` に貼る）
+3. **GA4 ダッシュボードで該当プロパティに Service Account の email を「閲覧者」として追加**
+   - GA4 → 管理 → アカウント アクセス管理 or プロパティ アクセス管理 → 「+」→ ユーザーを追加 → Service Account の email (`xxx@xxx.iam.gserviceaccount.com`) を入力 → 役割: 閲覧者
+4. Google Analytics Data API の有効化（Google Cloud Console → APIs & Services → Library → "Google Analytics Data API" → Enable）
+
+### Slack Incoming Webhook の作り方
+
 1. https://api.slack.com/apps を開いて「Create New App」→ From scratch
 2. App 名（例: `daily-hack-reporter`）と Workspace を指定
 3. 作成後の左メニュー「Incoming Webhooks」→ Activate Incoming Webhooks を ON
@@ -27,17 +34,16 @@ GitHub Actions の `workflow_dispatch` から手動実行も可（`dry_run: true
 ### ローカル動作確認
 
 ```bash
-export CLOUDFLARE_API_TOKEN=xxx
-export CLOUDFLARE_ACCOUNT_TAG=xxx
-export CLOUDFLARE_SITE_TAG=xxx
-export SLACK_BOT_TOKEN=xoxb-xxx
+pip install -r scripts/requirements.txt
+export GA4_PROPERTY_ID=123456789
+export GA4_SERVICE_ACCOUNT_JSON='{"type":"service_account",...}'
+export SLACK_WEBHOOK_URL=https://hooks.slack.com/services/...
 python scripts/weekly_pv_report.py
 ```
 
 ### コスト
-- Cloudflare Web Analytics: 無料（30日リテンション）
-- Cloudflare GraphQL API: 無料
-- GitHub Actions: パブリックリポジトリは無制限。プライベートでも月2,000分まで無料
-- Slack: 既存ワークスペース利用、追加コストなし
+- GA4 Data API: 無料（プロパティあたり 1日10万トークン、本レポートは1回数十トークン程度）
+- GitHub Actions: 無料枠内
+- Slack Incoming Webhook: 既存ワークスペース利用、追加コストなし
 
 **合計コスト: 0円**

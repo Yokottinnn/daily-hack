@@ -26,26 +26,28 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Install deps
+        run: pip install -r scripts/requirements.txt
+
       - name: Run weekly PV report
         env:
-          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          # 既存 secret 名 CLOUDFLARE_ACCOUNT_ID をスクリプト側の CLOUDFLARE_ACCOUNT_TAG にエイリアス
-          CLOUDFLARE_ACCOUNT_TAG: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          CLOUDFLARE_SITE_TAG: ${{ secrets.CLOUDFLARE_SITE_TAG }}
+          GA4_PROPERTY_ID: ${{ secrets.GA4_PROPERTY_ID }}
+          GA4_SERVICE_ACCOUNT_JSON: ${{ secrets.GA4_SERVICE_ACCOUNT_JSON }}
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
           DRY_RUN: ${{ inputs.dry_run }}
         run: |
           if [ "$DRY_RUN" = "true" ]; then
+            # SLACK_WEBHOOK_URL は env では渡すが、本スクリプトの post 部分は無効化
             python -c "
           import os, sys
           sys.path.insert(0, 'scripts')
-          from weekly_pv_report import query_cf_analytics, build_slack_text
+          from weekly_pv_report import make_client, query_ga4, build_slack_text
           from datetime import datetime, timedelta, timezone
-          until = datetime.now(timezone.utc).replace(hour=0, minute=0, second=0, microsecond=0)
-          since = until - timedelta(days=7)
-          s = since.strftime('%Y-%m-%dT%H:%M:%SZ'); u = until.strftime('%Y-%m-%dT%H:%M:%SZ')
-          data = query_cf_analytics(os.environ['CLOUDFLARE_API_TOKEN'], os.environ['CLOUDFLARE_ACCOUNT_TAG'], os.environ['CLOUDFLARE_SITE_TAG'], s, u)
-          print(build_slack_text(data, s, u))
+          today = datetime.now(timezone.utc).date()
+          end = (today - timedelta(days=1)).isoformat(); start = (today - timedelta(days=7)).isoformat()
+          client = make_client(os.environ['GA4_SERVICE_ACCOUNT_JSON'])
+          reports = query_ga4(client, os.environ['GA4_PROPERTY_ID'], start, end)
+          print(build_slack_text(reports, start, end))
           "
           else
             python scripts/weekly_pv_report.py
