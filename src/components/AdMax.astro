@@ -1,26 +1,41 @@
 ---
 // 忍者AdMAX 広告ユニット
-// data/admax-tags.ts に各 slot 用の <script> 系コードを貼ると有効化される
+// 単一 slot (sidebar / sticky-mobile) または PC/SP ペア slot に対応
 import { ADMAX_TAGS, isAdMaxConfigured } from '../data/admax-tags';
 
 export interface Props {
-  slot: string;
+  slot?: string;        // 単一 slot（SP専用 or PC専用 で完結する場合）
+  pcSlot?: string;      // ペアモード: PC 用 slot
+  spSlot?: string;      // ペアモード: SP 用 slot
   variant?: 'inline' | 'sticky-mobile' | 'sidebar';
   label?: boolean;
 }
 
-const { slot, variant = 'inline', label = true } = Astro.props;
-const tagHtml = ADMAX_TAGS[slot] ?? '';
-const enabled = isAdMaxConfigured(slot);
+const { slot, pcSlot, spSlot, variant = 'inline', label = true } = Astro.props;
+
+const singleHtml = slot ? (ADMAX_TAGS[slot] ?? '') : '';
+const pcHtml = pcSlot ? (ADMAX_TAGS[pcSlot] ?? '') : '';
+const spHtml = spSlot ? (ADMAX_TAGS[spSlot] ?? '') : '';
+
+const enabled =
+  (slot && isAdMaxConfigured(slot)) ||
+  (pcSlot && isAdMaxConfigured(pcSlot)) ||
+  (spSlot && isAdMaxConfigured(spSlot));
 ---
 
 {enabled ? (
-  <aside class={`admax admax--${variant}`} aria-label="広告" data-admax-slot={slot}>
+  <aside class={`admax admax--${variant}`} aria-label="広告">
     {label && <span class="admax__label">スポンサーリンク</span>}
-    <div class="admax__container" set:html={tagHtml}></div>
+    {slot && <div class="admax__container" set:html={singleHtml}></div>}
+    {pcSlot && isAdMaxConfigured(pcSlot) && (
+      <div class="admax__pc" set:html={pcHtml}></div>
+    )}
+    {spSlot && isAdMaxConfigured(spSlot) && (
+      <div class="admax__sp" set:html={spHtml}></div>
+    )}
   </aside>
 ) : (
-  <div class="admax-placeholder" aria-hidden="true" data-admax-slot={slot}></div>
+  <div class="admax-placeholder" aria-hidden="true"></div>
 )}
 
 <style>
@@ -35,11 +50,24 @@ const enabled = isAdMaxConfigured(slot);
     margin: 0 0 6px;
     letter-spacing: 0.05em;
   }
-  .admax__container {
+  .admax__container,
+  .admax__pc,
+  .admax__sp {
     display: block;
     min-height: 50px;
   }
+  /* inline（ペア）モード: PC 幅では PC タグ、SP 幅では SP タグを表示 */
+  @media (min-width: 880px) {
+    .admax__sp { display: none; }
+  }
+  @media (max-width: 879px) {
+    .admax__pc { display: none; }
+  }
   .admax--sidebar { margin: 1rem 0; }
+  /* sidebar は PC 専用なので SP ではコンテナごと非表示にして余白も消す */
+  @media (max-width: 879px) {
+    .admax--sidebar { display: none; }
+  }
   .admax--sticky-mobile {
     position: fixed;
     left: 0;
