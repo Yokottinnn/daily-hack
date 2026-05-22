@@ -32,8 +32,7 @@ jobs:
           # 既存 secret 名 CLOUDFLARE_ACCOUNT_ID をスクリプト側の CLOUDFLARE_ACCOUNT_TAG にエイリアス
           CLOUDFLARE_ACCOUNT_TAG: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           CLOUDFLARE_SITE_TAG: ${{ secrets.CLOUDFLARE_SITE_TAG }}
-          SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
-          SLACK_CHANNEL_ID: ${{ vars.SLACK_CHANNEL_ID || 'C0B4CJHH797' }}
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
           DRY_RUN: ${{ inputs.dry_run }}
         run: |
           if [ "$DRY_RUN" = "true" ]; then

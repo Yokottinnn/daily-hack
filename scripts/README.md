@@ -15,15 +15,14 @@ GitHub Actions の `workflow_dispatch` から手動実行も可（`dry_run: true
 | `CLOUDFLARE_API_TOKEN` | CF API トークン（`Account Analytics:Read` スコープのみで十分） | dash.cloudflare.com → My Profile → API Tokens → Create Token |
 | `CLOUDFLARE_ACCOUNT_ID` | CF アカウントID | dash.cloudflare.com の URL `/accounts/<ここ>/` （workflow 内で `CLOUDFLARE_ACCOUNT_TAG` にエイリアス） |
 | `CLOUDFLARE_SITE_TAG` | Web Analytics サイトの UUID | dash → Analytics → Web Analytics → 該当サイトを開いた URL の `site/<ここ>/` |
-| `SLACK_BOT_TOKEN` | Slack Bot User OAuth Token | api.slack.com → Apps → 該当 App → OAuth & Permissions → `xoxb-...` |
+| `SLACK_WEBHOOK_URL` | Slack Incoming Webhook URL | api.slack.com/apps → Create New App → Incoming Webhooks → Add New Webhook to Workspace → #fun_reward-hack-blog を選択 → `https://hooks.slack.com/services/...` |
 
-オプションの GitHub Variables:
-| Variable | 既定 | 説明 |
-|---|---|---|
-| `SLACK_CHANNEL_ID` | `C0B4CJHH797` | 投稿先チャンネル |
-
-### Slack Bot に必要なスコープ
-- `chat:write` （該当チャンネルに招待しておく）
+### Slack Incoming Webhook の作り方（最小手順）
+1. https://api.slack.com/apps を開いて「Create New App」→ From scratch
+2. App 名（例: `daily-hack-reporter`）と Workspace を指定
+3. 作成後の左メニュー「Incoming Webhooks」→ Activate Incoming Webhooks を ON
+4. 「Add New Webhook to Workspace」→ チャンネル `#fun_reward-hack-blog` を選択 → Allow
+5. 生成された Webhook URL を GH Secret `SLACK_WEBHOOK_URL` に設定
 
 ### ローカル動作確認
 

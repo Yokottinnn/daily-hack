@@ -7,8 +7,7 @@
   CLOUDFLARE_API_TOKEN     CF API トークン（Account Analytics:Read スコープ）
   CLOUDFLARE_ACCOUNT_TAG   CF アカウント ID（ダッシュボード URL の /accounts/<tag> 部分）
   CLOUDFLARE_SITE_TAG      CF Web Analytics のサイト UUID（dash → Web Analytics → サイト詳細）
-  SLACK_BOT_TOKEN          Slack Bot User OAuth Token（xoxb-...）
-  SLACK_CHANNEL_ID         投稿先チャンネル ID（既定: C0B4CJHH797 = #fun_reward-hack-blog）
+  SLACK_WEBHOOK_URL        Slack Incoming Webhook URL（https://hooks.slack.com/services/...）
 
 実行:
   python scripts/weekly_pv_report.py
@@ -23,8 +22,6 @@ from urllib import request
 from urllib.error import HTTPError, URLError
 
 CF_GRAPHQL_URL = "https://api.cloudflare.com/client/v4/graphql"
-SLACK_POSTMESSAGE_URL = "https://slack.com/api/chat.postMessage"
-DEFAULT_CHANNEL = "C0B4CJHH797"  # #fun_reward-hack-blog
 
 
 def env(name: str, required: bool = True) -> str:
@@ -155,21 +152,26 @@ def build_slack_text(data: dict, since_iso: str, until_iso: str) -> str:
     return "\n\n".join(parts)
 
 
-def post_to_slack(token: str, channel: str, text: str) -> dict:
-    headers = {
-        "Authorization": f"Bearer {token}",
-        "Content-Type": "application/json; charset=utf-8",
-    }
-    payload = {"channel": channel, "text": text, "unfurl_links": False, "mrkdwn": True}
-    return post_json(SLACK_POSTMESSAGE_URL, headers, payload)
+def post_to_slack_webhook(webhook_url: str, text: str) -> dict:
+    """Slack Incoming Webhook に投稿。成功時は HTTP 200 + body 'ok' を返す"""
+    headers = {"Content-Type": "application/json; charset=utf-8"}
+    body = json.dumps({"text": text}).encode("utf-8")
+    req = request.Request(webhook_url, data=body, headers=headers, method="POST")
+    try:
+        with request.urlopen(req, timeout=30) as resp:
+            text_resp = resp.read().decode("utf-8", errors="replace")
+            return {"status": resp.status, "body": text_resp, "ok": resp.status == 200 and text_resp.strip() == "ok"}
+    except HTTPError as e:
+        return {"status": e.code, "body": e.read().decode("utf-8", errors="replace"), "ok": False}
+    except URLError as e:
+        return {"status": None, "body": str(e), "ok": False}
 
 
 def main() -> int:
     cf_token = env("CLOUDFLARE_API_TOKEN")
     account_tag = env("CLOUDFLARE_ACCOUNT_TAG")
     site_tag = env("CLOUDFLARE_SITE_TAG")
-    slack_token = env("SLACK_BOT_TOKEN")
-    channel = os.environ.get("SLACK_CHANNEL_ID", DEFAULT_CHANNEL).strip() or DEFAULT_CHANNEL
+    webhook_url = env("SLACK_WEBHOOK_URL")
 
     until = datetime.now(timezone.utc).replace(hour=0, minute=0, second=0, microsecond=0)
     since = until - timedelta(days=7)
@@ -182,11 +184,11 @@ def main() -> int:
     text = build_slack_text(data, since_iso, until_iso)
     sys.stdout.write(text + "\n")
 
-    result = post_to_slack(slack_token, channel, text)
+    result = post_to_slack_webhook(webhook_url, text)
     if not result.get("ok"):
-        sys.stderr.write(f"Slack post failed: {json.dumps(result, ensure_ascii=False)}\n")
+        sys.stderr.write(f"Slack webhook post failed: {json.dumps(result, ensure_ascii=False)}\n")
         return 1
-    sys.stderr.write(f"posted to Slack: {result.get('ts')}\n")
+    sys.stderr.write("posted to Slack webhook\n")
     return 0
 
 
