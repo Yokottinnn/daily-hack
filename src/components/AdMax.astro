@@ -57,5 +57,11 @@ const enabled = isAdMaxConfigured(slot);
   @media (min-width: 880px) {
     .admax--sticky-mobile { display: none; }
   }
+  /* PC 向け admax タグ（inline / sidebar）はモバイル幅では非表示。
+     SP 配信は dailyhack-sticky-mobile のみ */
+  @media (max-width: 879px) {
+    .admax--inline,
+    .admax--sidebar { display: none; }
+  }
   .admax-placeholder { display: none; }
 </style>
