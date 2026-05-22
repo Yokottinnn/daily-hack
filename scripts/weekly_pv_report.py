@@ -1,12 +1,15 @@
 #!/usr/bin/env python3
 """Weekly PV レポート: GA4 Data API → Slack Incoming Webhook 投稿
 
+認証は次の優先順で解決される:
+  1. 環境変数 GA4_SERVICE_ACCOUNT_JSON があれば、その JSON で認証（ローカル動作用）
+  2. なければ google.auth.default() — GOOGLE_APPLICATION_CREDENTIALS が指す
+     OIDC トークンファイル経由（GHA + Workload Identity Federation 用）
+
 必要な環境変数:
-  GA4_PROPERTY_ID            GA4 プロパティID（数値。例: 1234567890）
-                             GA4 → 管理 → プロパティ設定 → 「プロパティID」
-  GA4_SERVICE_ACCOUNT_JSON   Google Cloud Service Account の JSON 秘密鍵（中身を丸ごと文字列で）
-                             Service Account に GA4 プロパティへの「閲覧者」権限を付与しておくこと
-  SLACK_WEBHOOK_URL          Slack Incoming Webhook URL（https://hooks.slack.com/services/...）
+  GA4_PROPERTY_ID            GA4 プロパティID（数値、例: 1234567890）
+  GA4_SERVICE_ACCOUNT_JSON   （任意・ローカル用）SA JSON 秘密鍵を丸ごと文字列で
+  SLACK_WEBHOOK_URL          Slack Incoming Webhook URL
 
 依存:
   pip install google-analytics-data
@@ -21,6 +24,7 @@ from urllib import request
 from urllib.error import HTTPError, URLError
 
 try:
+    import google.auth
     from google.analytics.data_v1beta import BetaAnalyticsDataClient
     from google.analytics.data_v1beta.types import (
         DateRange,
@@ -35,6 +39,9 @@ except ImportError as e:
     sys.exit(2)
 
 
+GA4_SCOPES = ["https://www.googleapis.com/auth/analytics.readonly"]
+
+
 def env(name: str) -> str:
     value = os.environ.get(name, "").strip()
     if not value:
@@ -43,12 +50,18 @@ def env(name: str) -> str:
     return value
 
 
-def make_client(sa_json: str) -> BetaAnalyticsDataClient:
-    info = json.loads(sa_json)
-    credentials = service_account.Credentials.from_service_account_info(
-        info,
-        scopes=["https://www.googleapis.com/auth/analytics.readonly"],
-    )
+def make_client() -> BetaAnalyticsDataClient:
+    """GA4_SERVICE_ACCOUNT_JSON があれば JSON 認証、なければ ADC (WIF) でフォールバック"""
+    sa_json = os.environ.get("GA4_SERVICE_ACCOUNT_JSON", "").strip()
+    if sa_json:
+        info = json.loads(sa_json)
+        credentials = service_account.Credentials.from_service_account_info(
+            info, scopes=GA4_SCOPES
+        )
+        sys.stderr.write("auth: service account JSON\n")
+    else:
+        credentials, project = google.auth.default(scopes=GA4_SCOPES)
+        sys.stderr.write(f"auth: ADC (project={project})\n")
     return BetaAnalyticsDataClient(credentials=credentials)
 
 
@@ -175,7 +188,6 @@ def post_to_slack_webhook(webhook_url: str, text: str) -> dict:
 
 def main() -> int:
     property_id = env("GA4_PROPERTY_ID")
-    sa_json = env("GA4_SERVICE_ACCOUNT_JSON")
     webhook_url = env("SLACK_WEBHOOK_URL")
 
     today_utc = datetime.now(timezone.utc).date()
@@ -183,7 +195,7 @@ def main() -> int:
     start_date = (today_utc - timedelta(days=7)).isoformat()
 
     sys.stderr.write(f"querying GA4 property={property_id} {start_date} -> {end_date}\n")
-    client = make_client(sa_json)
+    client = make_client()
     reports = query_ga4(client, property_id, start_date, end_date)
 
     text = build_slack_text(reports, start_date, end_date)
