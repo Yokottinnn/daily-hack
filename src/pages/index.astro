@@ -9,6 +9,7 @@ import Ticker from '../components/Ticker.astro';
 import CategoryNav from '../components/CategoryNav.astro';
 import AboutCard from '../components/AboutCard.astro';
 import PeekCall from '../components/PeekCall.astro';
+import AdMax from '../components/AdMax.astro';
 import { postBelongsToCategory } from '../lib/category';
 
 const includeDrafts = import.meta.env.PUBLIC_INCLUDE_DRAFTS === 'true';
@@ -22,6 +23,7 @@ const campaigns = sorted.filter((p) => postBelongsToCategory(p.data, 'campaigns'
 
 <BaseLayout title="Daily Hack" description="お得を毎日、ハック。ポイ活・節約・固定費削減のリアル最新情報を、毎日アップデート。">
   <Hero />
+  <div class="wrap"><AdMax slot="dailyhack-home-below-hero" /></div>
   <UrgentCampaigns posts={campaigns} />
 
   <section>

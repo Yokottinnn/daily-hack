@@ -2,6 +2,7 @@
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import CookieConsent from '../components/CookieConsent.astro';
+import AdMax from '../components/AdMax.astro';
 import '../styles/global.css';
 
 export interface Props {
@@ -154,6 +155,7 @@ const gscVerification = import.meta.env.PUBLIC_GSC_VERIFICATION ?? '';
     <Header />
     <slot />
     <Footer />
+    <AdMax slot="dailyhack-sticky-mobile" variant="sticky-mobile" label={false} />
     <CookieConsent />
   </body>
 </html>

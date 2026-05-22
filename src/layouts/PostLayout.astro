@@ -8,6 +8,7 @@ import TableOfContents from '../components/TableOfContents.astro';
 import ShareButtons from '../components/ShareButtons.astro';
 import PostCard from '../components/PostCard.astro';
 import AdUnit from '../components/AdUnit.astro';
+import AdMax from '../components/AdMax.astro';
 import { getCollection } from 'astro:content';
 import DraftCommentWidget from '../components/DraftCommentWidget.astro';
 import { getPrimaryCategory, getCategories, postBelongsToCategory } from '../lib/category';
@@ -143,14 +144,14 @@ const articleJsonLd = {
         </header>
 
         <!-- 広告枠1: 記事冒頭（リード文直下） -->
-        <AdUnit slot="article-top" format="auto" />
+        <AdMax slot="dailyhack-article-top" />
 
         <div class="post-body" id="post-body">
           <slot />
         </div>
 
         <!-- 広告枠2: 記事末尾（本文と関連記事の間） -->
-        <AdUnit slot="article-bottom" format="auto" />
+        <AdMax slot="dailyhack-article-bottom" />
 
         <footer style="margin-top: 48px; padding-top: 28px; border-top: 1px solid var(--line);">
           {data.isPR && (
@@ -166,7 +167,7 @@ const articleJsonLd = {
         <TableOfContents headings={headings} />
         <!-- 広告枠3: サイドバー（デスクトップのみ表示、TOC下） -->
         <div style="margin-top: 20px;">
-          <AdUnit slot="sidebar-sticky" format="rectangle" responsive={false} />
+          <AdMax slot="dailyhack-sidebar-sticky" variant="sidebar" />
         </div>
       </aside>
     </div>
