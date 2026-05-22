@@ -13,7 +13,7 @@ GitHub Actions の `workflow_dispatch` から手動実行も可（`dry_run: true
 | Secret | 説明 | 取得元 |
 |---|---|---|
 | `CLOUDFLARE_API_TOKEN` | CF API トークン（`Account Analytics:Read` スコープのみで十分） | dash.cloudflare.com → My Profile → API Tokens → Create Token |
-| `CLOUDFLARE_ACCOUNT_TAG` | CF アカウントID | dash.cloudflare.com の URL `/accounts/<ここ>/` |
+| `CLOUDFLARE_ACCOUNT_ID` | CF アカウントID | dash.cloudflare.com の URL `/accounts/<ここ>/` （workflow 内で `CLOUDFLARE_ACCOUNT_TAG` にエイリアス） |
 | `CLOUDFLARE_SITE_TAG` | Web Analytics サイトの UUID | dash → Analytics → Web Analytics → 該当サイトを開いた URL の `site/<ここ>/` |
 | `SLACK_BOT_TOKEN` | Slack Bot User OAuth Token | api.slack.com → Apps → 該当 App → OAuth & Permissions → `xoxb-...` |
 
