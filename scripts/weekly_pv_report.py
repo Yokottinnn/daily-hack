@@ -1,18 +1,16 @@
 #!/usr/bin/env python3
-"""Weekly PV レポート: GA4 Data API → Slack Incoming Webhook 投稿
+"""Weekly PV レポート: Cloudflare Web Analytics → Slack 投稿
 
-認証は次の優先順で解決される:
-  1. 環境変数 GA4_SERVICE_ACCOUNT_JSON があれば、その JSON で認証（ローカル動作用）
-  2. なければ google.auth.default() — GOOGLE_APPLICATION_CREDENTIALS が指す
-     OIDC トークンファイル経由（GHA + Workload Identity Federation 用）
+依存: 標準ライブラリのみ（urllib + json）。requests 不要。
 
 必要な環境変数:
-  GA4_PROPERTY_ID            GA4 プロパティID（数値、例: 1234567890）
-  GA4_SERVICE_ACCOUNT_JSON   （任意・ローカル用）SA JSON 秘密鍵を丸ごと文字列で
-  SLACK_WEBHOOK_URL          Slack Incoming Webhook URL
+  CLOUDFLARE_API_TOKEN     CF API トークン（Account Analytics:Read スコープ）
+  CLOUDFLARE_ACCOUNT_TAG   CF アカウント ID（ダッシュボード URL の /accounts/<tag> 部分）
+  CLOUDFLARE_SITE_TAG      CF Web Analytics のサイト UUID（dash → Web Analytics → サイト詳細）
+  SLACK_WEBHOOK_URL        Slack Incoming Webhook URL（https://hooks.slack.com/services/...）
 
-依存:
-  pip install google-analytics-data
+実行:
+  python scripts/weekly_pv_report.py
 """
 from __future__ import annotations
 
@@ -23,114 +21,85 @@ from datetime import datetime, timedelta, timezone
 from urllib import request
 from urllib.error import HTTPError, URLError
 
-try:
-    import google.auth
-    from google.analytics.data_v1beta import BetaAnalyticsDataClient
-    from google.analytics.data_v1beta.types import (
-        DateRange,
-        Dimension,
-        Metric,
-        OrderBy,
-        RunReportRequest,
-    )
-    from google.oauth2 import service_account
-except ImportError as e:
-    sys.stderr.write(f"ERROR: missing dependency: {e}\nhint: pip install google-analytics-data\n")
-    sys.exit(2)
+CF_GRAPHQL_URL = "https://api.cloudflare.com/client/v4/graphql"
 
 
-GA4_SCOPES = ["https://www.googleapis.com/auth/analytics.readonly"]
-
-
-def env(name: str) -> str:
+def env(name: str, required: bool = True) -> str:
     value = os.environ.get(name, "").strip()
-    if not value:
+    if required and not value:
         sys.stderr.write(f"ERROR: env {name} is missing\n")
         sys.exit(1)
     return value
 
 
-def make_client() -> BetaAnalyticsDataClient:
-    """GA4_SERVICE_ACCOUNT_JSON があれば JSON 認証、なければ ADC (WIF) でフォールバック"""
-    sa_json = os.environ.get("GA4_SERVICE_ACCOUNT_JSON", "").strip()
-    if sa_json:
-        info = json.loads(sa_json)
-        credentials = service_account.Credentials.from_service_account_info(
-            info, scopes=GA4_SCOPES
-        )
-        sys.stderr.write("auth: service account JSON\n")
-    else:
-        credentials, project = google.auth.default(scopes=GA4_SCOPES)
-        sys.stderr.write(f"auth: ADC (project={project})\n")
-    return BetaAnalyticsDataClient(credentials=credentials)
+def post_json(url: str, headers: dict, payload: dict, timeout: int = 30) -> dict:
+    body = json.dumps(payload).encode("utf-8")
+    req = request.Request(url, data=body, headers=headers, method="POST")
+    try:
+        with request.urlopen(req, timeout=timeout) as resp:
+            return json.loads(resp.read().decode("utf-8"))
+    except HTTPError as e:
+        return {"_error": f"HTTP {e.code}", "_body": e.read().decode("utf-8", errors="replace")}
+    except URLError as e:
+        return {"_error": str(e)}
 
 
-def query_ga4(
-    client: BetaAnalyticsDataClient,
-    property_id: str,
-    start_date: str,
-    end_date: str,
-) -> dict:
-    """直近7日間 (UTC) のサマリ + パス別 / 国別 / 流入元別を一気に取得"""
-    prop = f"properties/{property_id}"
-    date_range = DateRange(start_date=start_date, end_date=end_date)
-
-    totals = client.run_report(
-        RunReportRequest(
-            property=prop,
-            date_ranges=[date_range],
-            metrics=[
-                Metric(name="screenPageViews"),
-                Metric(name="activeUsers"),
-                Metric(name="sessions"),
-            ],
-        )
-    )
-    by_path = client.run_report(
-        RunReportRequest(
-            property=prop,
-            date_ranges=[date_range],
-            dimensions=[Dimension(name="pagePath")],
-            metrics=[Metric(name="screenPageViews")],
-            order_bys=[OrderBy(metric=OrderBy.MetricOrderBy(metric_name="screenPageViews"), desc=True)],
-            limit=10,
-        )
-    )
-    by_country = client.run_report(
-        RunReportRequest(
-            property=prop,
-            date_ranges=[date_range],
-            dimensions=[Dimension(name="country")],
-            metrics=[Metric(name="screenPageViews")],
-            order_bys=[OrderBy(metric=OrderBy.MetricOrderBy(metric_name="screenPageViews"), desc=True)],
-            limit=5,
-        )
-    )
-    by_source = client.run_report(
-        RunReportRequest(
-            property=prop,
-            date_ranges=[date_range],
-            dimensions=[Dimension(name="sessionSource")],
-            metrics=[Metric(name="screenPageViews")],
-            order_bys=[OrderBy(metric=OrderBy.MetricOrderBy(metric_name="screenPageViews"), desc=True)],
-            limit=5,
-        )
-    )
-    return {
-        "totals": totals,
-        "by_path": by_path,
-        "by_country": by_country,
-        "by_source": by_source,
+def query_cf_analytics(token: str, account_tag: str, site_tag: str, since: str, until: str) -> dict:
+    """直近期間の rumPageloadEventsAdaptiveGroups から PV / UV を集計"""
+    query = """
+    query WeeklyReport($accountTag: string!, $siteTag: string!, $since: Time!, $until: Time!) {
+      viewer {
+        accounts(filter: {accountTag: $accountTag}) {
+          totals: rumPageloadEventsAdaptiveGroups(
+            limit: 1
+            filter: {siteTag: $siteTag, date_geq: $since, date_lt: $until}
+          ) {
+            count
+            sum { visits }
+          }
+          byPath: rumPageloadEventsAdaptiveGroups(
+            limit: 30
+            filter: {siteTag: $siteTag, date_geq: $since, date_lt: $until}
+            orderBy: [count_DESC]
+          ) {
+            count
+            sum { visits }
+            dimensions { metric: requestPath }
+          }
+          byCountry: rumPageloadEventsAdaptiveGroups(
+            limit: 10
+            filter: {siteTag: $siteTag, date_geq: $since, date_lt: $until}
+            orderBy: [count_DESC]
+          ) {
+            count
+            dimensions { metric: countryName }
+          }
+          byReferer: rumPageloadEventsAdaptiveGroups(
+            limit: 10
+            filter: {siteTag: $siteTag, date_geq: $since, date_lt: $until}
+            orderBy: [count_DESC]
+          ) {
+            count
+            dimensions { metric: refererHost }
+          }
+        }
+      }
     }
-
-
-def fmt_rows(response, dim_idx: int = 0, metric_idx: int = 0) -> list[tuple[str, int]]:
-    rows = []
-    for r in getattr(response, "rows", []) or []:
-        label = r.dimension_values[dim_idx].value if r.dimension_values else "(none)"
-        value = int(r.metric_values[metric_idx].value or 0)
-        rows.append((label, value))
-    return rows
+    """
+    payload = {
+        "query": query,
+        "variables": {
+            "accountTag": account_tag,
+            "siteTag": site_tag,
+            "since": since,
+            "until": until,
+        },
+    }
+    headers = {
+        "Authorization": f"Bearer {token}",
+        "Content-Type": "application/json",
+    }
+    return post_json(CF_GRAPHQL_URL, headers, payload)
 
 
 def fmt_section(title: str, rows: list[tuple[str, int]], emoji: str = "📊") -> str:
@@ -142,37 +111,49 @@ def fmt_section(title: str, rows: list[tuple[str, int]], emoji: str = "📊") ->
     return "\n".join(lines)
 
 
-def build_slack_text(reports: dict, start_date: str, end_date: str) -> str:
-    totals = reports["totals"]
-    total_pv = 0
-    total_users = 0
-    total_sessions = 0
-    if getattr(totals, "rows", None):
-        row = totals.rows[0]
-        total_pv = int(row.metric_values[0].value or 0)
-        total_users = int(row.metric_values[1].value or 0)
-        total_sessions = int(row.metric_values[2].value or 0)
+def build_slack_text(data: dict, since_iso: str, until_iso: str) -> str:
+    accounts = (((data.get("data") or {}).get("viewer") or {}).get("accounts") or [])
+    if not accounts:
+        return (
+            ":warning: *Weekly PV レポート: データ取得失敗*\n"
+            f"```{json.dumps(data, ensure_ascii=False, indent=2)[:1500]}```"
+        )
+    acc = accounts[0]
 
-    paths = fmt_rows(reports["by_path"])
-    countries = fmt_rows(reports["by_country"])
-    sources = fmt_rows(reports["by_source"])
+    totals = acc.get("totals") or []
+    total_pv = sum(r.get("count", 0) for r in totals)
+    total_visits = sum((r.get("sum") or {}).get("visits", 0) for r in totals)
+
+    paths = [
+        ((r.get("dimensions") or {}).get("metric") or "(unknown)", r.get("count", 0))
+        for r in (acc.get("byPath") or [])
+    ][:10]
+    countries = [
+        ((r.get("dimensions") or {}).get("metric") or "(unknown)", r.get("count", 0))
+        for r in (acc.get("byCountry") or [])
+    ][:5]
+    referers = [
+        ((r.get("dimensions") or {}).get("metric") or "(direct)", r.get("count", 0))
+        for r in (acc.get("byReferer") or [])
+    ][:5]
 
     header = (
-        ":bar_chart: *Daily Hack Weekly PV レポート（GA4）*\n"
-        f"対象期間: `{start_date}` 〜 `{end_date}`\n"
-        f"*ページビュー*: `{total_pv:,}` ／ *アクティブユーザー*: `{total_users:,}` ／ *セッション*: `{total_sessions:,}`\n"
+        ":bar_chart: *Daily Hack Weekly PV レポート*\n"
+        f"対象期間: `{since_iso}` 〜 `{until_iso}` (UTC)\n"
+        f"*合計 PV*: `{total_pv:,}` ／ *総訪問*: `{total_visits:,}`\n"
     )
     parts = [
         header,
-        fmt_section("人気 TOP 10 ページ", paths, "📄"),
+        fmt_section("人気 TOP 10 ページ (PV)", paths, "📄"),
         fmt_section("国別 TOP 5", countries, "🌐"),
-        fmt_section("流入元 TOP 5", sources, "🔗"),
-        "_GA4 Data API より取得。出典: analytics.google.com_",
+        fmt_section("流入元 TOP 5", referers, "🔗"),
+        "_Cloudflare Web Analytics 30日リテンション。出典: dash.cloudflare.com_",
     ]
     return "\n\n".join(parts)
 
 
 def post_to_slack_webhook(webhook_url: str, text: str) -> dict:
+    """Slack Incoming Webhook に投稿。成功時は HTTP 200 + body 'ok' を返す"""
     headers = {"Content-Type": "application/json; charset=utf-8"}
     body = json.dumps({"text": text}).encode("utf-8")
     req = request.Request(webhook_url, data=body, headers=headers, method="POST")
@@ -187,18 +168,20 @@ def post_to_slack_webhook(webhook_url: str, text: str) -> dict:
 
 
 def main() -> int:
-    property_id = env("GA4_PROPERTY_ID")
+    cf_token = env("CLOUDFLARE_API_TOKEN")
+    account_tag = env("CLOUDFLARE_ACCOUNT_TAG")
+    site_tag = env("CLOUDFLARE_SITE_TAG")
     webhook_url = env("SLACK_WEBHOOK_URL")
 
-    today_utc = datetime.now(timezone.utc).date()
-    end_date = (today_utc - timedelta(days=1)).isoformat()  # yesterday
-    start_date = (today_utc - timedelta(days=7)).isoformat()
+    until = datetime.now(timezone.utc).replace(hour=0, minute=0, second=0, microsecond=0)
+    since = until - timedelta(days=7)
+    since_iso = since.strftime("%Y-%m-%dT%H:%M:%SZ")
+    until_iso = until.strftime("%Y-%m-%dT%H:%M:%SZ")
 
-    sys.stderr.write(f"querying GA4 property={property_id} {start_date} -> {end_date}\n")
-    client = make_client()
-    reports = query_ga4(client, property_id, start_date, end_date)
+    sys.stderr.write(f"querying CF Analytics {since_iso} -> {until_iso}\n")
+    data = query_cf_analytics(cf_token, account_tag, site_tag, since_iso, until_iso)
 
-    text = build_slack_text(reports, start_date, end_date)
+    text = build_slack_text(data, since_iso, until_iso)
     sys.stdout.write(text + "\n")
 
     result = post_to_slack_webhook(webhook_url, text)
