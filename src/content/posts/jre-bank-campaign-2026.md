@@ -209,24 +209,67 @@ JRE BANKの口座を持つだけで使える主要特典は4つ。**公式ペー
 
 <div class="section-with-mascot">
   <div class="mascot-wrap"><img src="/images/expr-04-cheer.png" alt="" /></div>
+  <h2>JRE BANK 紹介プログラム｜被紹介者が貰える特典を完全整理</h2>
+</div>
+
+JRE BANK には **JR東日本×楽天銀行が運営する「口座紹介プログラム」** があるのよ。これは既存口座保有者が発行する **紹介コード**（口座1つにつき1つ、固有の英数字）を新規申込時に入力することで、**新規申込者（=被紹介者）に追加ポイントが付与される** 仕組み。
+
+アタシの紹介コードは **`J94101753`**。これを申込フォームの「紹介コード入力欄」に入れて開設するだけで、あんた（被紹介者）にも具体的な特典が降ってくる。順番に整理してあげるわよ。
+
+### 被紹介者（紹介された人=あんた）が貰える特典
+
+**結論: 紹介コード入力＋口座開設キャンペーン併用で、JRE POINT 最大 7,000 ポイントが貰える**（公式表記）。
+
+- **紹介コード入力で 1,100 ポイント**（常設プログラム）
+  - 紹介コードを申込フォーム内の「紹介コード入力欄」に入れて口座開設、判定日までに JRE POINT リンク登録完了で **JRE POINT 1,100 ポイント（通常ポイント）** がもらえる
+- **口座開設キャンペーンで 最大 5,900 ポイント追加**
+  - 紹介プログラムとは別途、JRE BANK 自体で常時実施中の口座開設キャンペーン（入金額・給与受取・JRE POINTリンク登録などの達成段階に応じて加算）と **併用可能**
+  - 紹介者特典1,100pt と合算で **最大 7,000 ポイント** がもらえる計算
+- **直近の受付期間**（2026年5月現在）
+  - 申込期間: **2026年5月1日〜7月31日**
+  - 口座開設完了期間: **2026年5月1日〜8月31日**
+  - 判定日: **2026年8月31日**
+  - ポイント付与時期: **2026年10月末予定**
+
+### 紹介コードの絶対ルール
+
+- **申込フォーム途中の「紹介コード」欄に必ず入力**。口座開設申込完了**後の追加入力は公式に不可**（後から「忘れた」は一切救済されない）
+- 紹介コードを入力しても、別途併用キャンペーンの達成条件（入金額・給与受取・JRE POINT WEBサイトへのリンク登録）を満たさないとフル7,000ポイントには届かない
+- **JRE POINT リンク登録（JRE POINT WEB会員）が必須**。未登録なら先に無料登録（3分）して、その会員IDを口座開設時に紐づける
+- 口座解約・利用停止・JRE POINTリンク登録解除をした場合、特典対象外になる可能性あり
+
+### 紹介者（=アタシ）にも特典が入る（透明性）
+
+公平のため明記しておくと、アタシ（既存口座保有者）が紹介コード経由で申込を受けると **1人紹介につき最大 JRE POINT 4,000 ポイント、期間中最大10名まで** もらえる仕組みになってる（出典: [JR東日本プレスリリース](https://prtimes.jp/main/html/rd/p/000001252.000017557.html)）。
+
+つまりアタシも得するけど、**あんた（被紹介者）も 1,100〜7,000 ポイント得する Win-Win 設計**。「紹介者だけ得して被紹介者は損」みたいな仕組みじゃないから、安心して使いなさい。
+
+<p class="source-note">出典: <a href="https://www.rakuten-bank.co.jp/jrebank/campaign/referral/" target="_blank" rel="noopener nofollow">JRE BANK 口座紹介プログラム公式</a> ／ <a href="https://prtimes.jp/main/html/rd/p/000001252.000017557.html" target="_blank" rel="noopener nofollow">JR東日本 プレスリリース</a></p>
+
+<div class="section-with-mascot">
+  <div class="mascot-wrap"><img src="/images/expr-04-cheer.png" alt="" /></div>
   <h2>開設手順｜楽天銀行アプリでJREモードに切り替えるだけ</h2>
 </div>
 
 「楽天銀行ベースって聞いて手続きが面倒くさそう」と思ったあんた。**全然そんなことない**。アプリ操作で5〜10分よ。アタシが順番で教えてあげるから、迷う暇あるなら今やりなさい。
 
+具体的には、(1) 楽天銀行アプリのインストール → (2) アプリ内で「JRE BANK」モードに切替 → (3) **申込フォームの紹介コード欄に `J94101753` を入力** → (4) マイナンバーカードを使った eKYC で本人確認 → (5) 入金・給与受取・JRE POINT リンク登録などの達成条件をクリア、の5ステップで完結する。所要時間は申込操作が **5〜10分**、口座開設完了通知が最短即日〜数営業日、ポイント付与は前述の通り **2026年10月末予定**。順番に下のカードで詳しく見ていくわよ。
+
 <div class="flow-steps">
   <div class="flow-step"><strong>① 楽天銀行アプリをダウンロード</strong>：App Store / Google Play で「楽天銀行」検索。<strong>すでに楽天銀行に口座がある人もOK</strong>。同じアプリでJREモードを有効化する。</div>
   <div class="flow-step"><strong>② アプリ内で「JRE BANK」モードへ切替</strong>：トップから「JRE BANK」メニューを選び、JR東日本のJRE POINT WEB会員IDと紐づける。JRE POINT未登録なら先に取得（無料・3分）。</div>
-  <div class="flow-step"><strong>③ 紹介コード <code>J94101753</code> を入力</strong>：申込フォーム途中の紹介コード欄に当サイトのコードを入れる。<strong>ここを飛ばすと紹介経由の特典がもらえない</strong>から絶対に忘れずに。</div>
+  <div class="flow-step"><strong>③ 紹介コード <code>J94101753</code> を入力</strong>：申込フォーム途中の紹介コード欄に当サイトのコードを入れる。<strong>ここを飛ばすと紹介経由の1,100ポイントがもらえない</strong>から絶対に忘れずに。後付け入力は公式に不可。</div>
   <div class="flow-step"><strong>④ 本人確認（eKYC）</strong>：マイナンバーカードと自撮りで完了。郵送不要。最短即日〜数日で開設完了の通知が届く。</div>
-  <div class="flow-step"><strong>⑤ 入金・条件達成</strong>：特典の付与には<strong>残高条件・給与受取・口座振替などの達成</strong>が必要。詳細は公式FAQで最新条件をチェック。給与振込先を切り替えるのが最速ルート。</div>
+  <div class="flow-step"><strong>⑤ 入金・条件達成</strong>：特典の付与には<strong>残高条件・給与受取・口座振替・JRE POINTリンク登録などの達成</strong>が必要。詳細は公式FAQで最新条件をチェック。給与振込先を切り替えるのが最速ルート。</div>
 </div>
+
+特に気をつけてほしいポイントは3つ。**(a) 紹介コードは申込フォーム内で入力するタイミングが唯一**で、口座開設後に「忘れたから追加で」は公式に救済不可。**(b) JRE POINT WEB 会員のリンク登録を必ず判定日（2026/8/31）までに完了**しておくこと（解除すると特典対象外になる可能性あり）。**(c) 紹介プログラム1,100pt と口座開設キャンペーン最大5,900pt は併用可**で、合算 最大 7,000 pt が貰える設計になっている、ということは見落としがちなので頭に入れておいて。
 
 紹介コード経由で申し込むなら、<a href="https://www.rakuten-bank.co.jp/rd/app/jre/introduction_code/s001.html" target="_blank" rel="sponsored noopener nofollow">こちらの紹介リンク</a>からどうぞ。紹介コードは **`J94101753`** よ。
 
 > 💡 **お得Tip**: 楽天銀行をすでに持っているなら、新しく口座を作る必要はない。**同じ楽天銀行口座にJRE BANKモードを上乗せ**する形になるから、メイン口座をいじりたくない人も安心しなさい。
 
-<p class="source-note">出典: <a href="https://www.rakuten-bank.co.jp/rd/app/jre/" target="_blank" rel="noopener nofollow">楽天銀行 JRE BANK 申込ガイド</a></p>
+<p class="source-note">出典: <a href="https://www.rakuten-bank.co.jp/rd/app/jre/" target="_blank" rel="noopener nofollow">楽天銀行 JRE BANK 申込ガイド</a> ／ <a href="https://www.rakuten-bank.co.jp/jrebank/campaign/referral/" target="_blank" rel="noopener nofollow">JRE BANK 口座紹介プログラム</a></p>
 
 ## JRE BANK 基本スペック｜申込前に最終確認
 
