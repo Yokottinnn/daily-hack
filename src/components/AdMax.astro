@@ -1,0 +1,61 @@
+---
+// 忍者AdMAX 広告ユニット
+// data/admax-tags.ts に各 slot 用の <script> 系コードを貼ると有効化される
+import { ADMAX_TAGS, isAdMaxConfigured } from '../data/admax-tags';
+
+export interface Props {
+  slot: string;
+  variant?: 'inline' | 'sticky-mobile' | 'sidebar';
+  label?: boolean;
+}
+
+const { slot, variant = 'inline', label = true } = Astro.props;
+const tagHtml = ADMAX_TAGS[slot] ?? '';
+const enabled = isAdMaxConfigured(slot);
+---
+
+{enabled ? (
+  <aside class={`admax admax--${variant}`} aria-label="広告" data-admax-slot={slot}>
+    {label && <span class="admax__label">スポンサーリンク</span>}
+    <div class="admax__container" set:html={tagHtml}></div>
+  </aside>
+) : (
+  <div class="admax-placeholder" aria-hidden="true" data-admax-slot={slot}></div>
+)}
+
+<style>
+  .admax {
+    margin: 2.5rem 0;
+    text-align: center;
+  }
+  .admax__label {
+    display: block;
+    font-size: 11px;
+    color: var(--ink-3);
+    margin: 0 0 6px;
+    letter-spacing: 0.05em;
+  }
+  .admax__container {
+    display: block;
+    min-height: 50px;
+  }
+  .admax--sidebar { margin: 1rem 0; }
+  .admax--sticky-mobile {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 90;
+    margin: 0;
+    padding: 4px 0 max(4px, env(safe-area-inset-bottom));
+    background: rgba(255, 255, 255, 0.96);
+    backdrop-filter: blur(6px);
+    box-shadow: 0 -2px 12px rgba(0, 0, 0, 0.06);
+    text-align: center;
+  }
+  .admax--sticky-mobile .admax__label { font-size: 10px; margin-bottom: 2px; }
+  @media (min-width: 880px) {
+    .admax--sticky-mobile { display: none; }
+  }
+  .admax-placeholder { display: none; }
+</style>
