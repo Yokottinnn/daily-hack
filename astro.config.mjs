@@ -38,8 +38,8 @@ export default defineConfig({
         {
           target: '_blank',
           // 全外部リンクに noopener。アフィリエイト系（px.a8.net 等）には sponsored + nofollow も付与
-          rel: (element) => {
-            const href = element?.properties?.href ?? '';
+          rel: (/** @type {{ properties?: { href?: string } }} */ element) => {
+            const href = String(element?.properties?.href ?? '');
             const isAffiliate = /px\.a8\.net|adm\.shinobi\.jp|hb\.afl\.rakuten\.co\.jp|amazon\.co\.jp\/.*\?tag=/.test(href);
             return isAffiliate
               ? ['sponsored', 'noopener', 'nofollow']
