@@ -1,6 +1,6 @@
 ---
-title: "光回線おすすめ6社徹底比較｜キャッシュバック・月額・違約金で本気で選ぶ 2026年版"
-description: "光回線選びで毎月数千円差がつく。フレッツ光（最大79,000円CB）・ソフトバンク光・コミュファ光・BIGLOBE光・So-net光・GMO光アクセスの6社を、キャッシュバック額・回線速度・対応エリアで忖度ゼロ比較。"
+title: "インターネット回線おすすめ6社徹底比較｜キャッシュバック・月額・違約金で本気で選ぶ 2026年版"
+description: "おうちのネット回線選びで毎月数千円差がつく。フレッツ光（最大79,000円CB）・ソフトバンク光・コミュファ光・BIGLOBE光・So-net光・GMO光アクセスの6社を、キャッシュバック額・回線速度・対応エリアで忖度ゼロ比較。"
 publishDate: 2026-05-23
 category: ["comparisons", "services", "howto"]
 tags: ["光回線", "インターネット", "キャッシュバック", "フレッツ光", "ソフトバンク光", "コミュファ光", "BIGLOBE光", "GMO光", "So-net光", "比較", "固定費削減"]
@@ -12,9 +12,9 @@ eyecatchAlt: "光回線おすすめ6社徹底比較"
 author: "hacker-ko"
 ---
 
-「光回線って結局どこがお得？」って毎年同じ質問してくるあんた、まだ答え出てないの？マジで損してる。光回線は **新規申込時のキャッシュバック額で月数千円〜年数万円差がつく**のに、適当に NTT 直契約してる人多すぎ。
+「家のネット、結局どこ契約するのが一番お得？」って毎年同じ質問してくるあんた、まだ答え出てないの？マジで損してる。おうちのインターネット回線は **新規申込時のキャッシュバック額だけで年数万円差がつく**のに、適当に NTT 直契約してる人多すぎ。
 
-アタシは光回線を **キャッシュバック額・月額料金・対応エリア・違約金条件** の 4 軸で見て決める派。今回は Daily Hack 編集部が **A8.net 提携の主要 6 社（フレッツ光、ソフトバンク光、コミュファ光、BIGLOBE光、So-net光、GMO光アクセス）** を一括比較してあげる。
+アタシは家のネット回線を **キャッシュバック額・月額料金・対応エリア・違約金条件** の 4 軸で見て決める派。今回は Daily Hack 編集部が **主要 6 社（フレッツ光、ソフトバンク光、コミュファ光、BIGLOBE光、So-net光、GMO光アクセス）** を一括比較してあげる。
 
 <div class="hakkako-says">
   <div class="hakkako-mascot"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
@@ -44,7 +44,7 @@ author: "hacker-ko"
   </ul>
 </aside>
 
-## 光回線 6 社一覧｜キャッシュバック・対応エリア早見表
+## インターネット回線 6 社一覧｜キャッシュバック・対応エリア早見表
 
 <div class="cmp-table-wrap">
 
@@ -67,7 +67,7 @@ author: "hacker-ko"
   <img src="/images/internet/flets-hikari.png" alt="WEB限定！最大79,000円キャッシュバックor豪華人気商品プレゼント【フレッツ光】" loading="lazy" />
   <figcaption>
     Wiz が代理店として運用するフレッツ光新規申込窓口。WEB限定で最大79,000円のキャッシュバックまたは豪華商品プレゼントを選択可能。
-    <cite>出典: <a href="https://px.a8.net/svt/ejp?a8mat=4B3XB4+3KLO7U+3SPO+HY7W1" target="_blank" rel="sponsored noopener nofollow">A8.net 提携プログラム</a></cite>
+    <cite>出典: <a href="https://px.a8.net/svt/ejp?a8mat=4B3XB4+3KLO7U+3SPO+HY7W1" target="_blank" rel="sponsored noopener nofollow">公式アフィリエイトプログラム</a></cite>
   </figcaption>
 </figure>
 
@@ -89,7 +89,7 @@ author: "hacker-ko"
   <img src="/images/internet/biglobe-hikari.png" alt="当サイト限定！最大40,000円還元キャンペーン【BIGLOBE光】" loading="lazy" />
   <figcaption>
     Wiz 代理店経由の BIGLOBE 光。当サイト限定で最大40,000円還元 + auひかり同時申込で追加特典あり。
-    <cite>出典: <a href="https://px.a8.net/svt/ejp?a8mat=4B3XB4+383KII+3SPO+7LW1F7" target="_blank" rel="sponsored noopener nofollow">A8.net 提携プログラム</a></cite>
+    <cite>出典: <a href="https://px.a8.net/svt/ejp?a8mat=4B3XB4+383KII+3SPO+7LW1F7" target="_blank" rel="sponsored noopener nofollow">公式アフィリエイトプログラム</a></cite>
   </figcaption>
 </figure>
 
@@ -111,7 +111,7 @@ author: "hacker-ko"
   <img src="/images/internet/softbank-hikari.png" alt="フレッツ光より安いソフトバンク光！高額キャッシュバック【SoftBank 光】" loading="lazy" />
   <figcaption>
     エフプレイン代理店のソフトバンク光窓口。フレッツ光より安い月額 + 高額キャッシュバックを訴求。
-    <cite>出典: <a href="https://px.a8.net/svt/ejp?a8mat=4B3XB4+3JET0A+3IB8+61JSI" target="_blank" rel="sponsored noopener nofollow">A8.net 提携プログラム</a></cite>
+    <cite>出典: <a href="https://px.a8.net/svt/ejp?a8mat=4B3XB4+3JET0A+3IB8+61JSI" target="_blank" rel="sponsored noopener nofollow">公式アフィリエイトプログラム</a></cite>
   </figcaption>
 </figure>
 
@@ -134,7 +134,7 @@ author: "hacker-ko"
   <img src="/images/internet/commufa-hikari.png" alt="超高速インターネットが1年間ずっと月額980円〜【コミュファ光】" loading="lazy" />
   <figcaption>
     Wiz 代理店のコミュファ光。1 年間ずっと月額 980 円〜のキャンペーンが目玉。中部 5 県（愛知・岐阜・三重・静岡・長野）限定。
-    <cite>出典: <a href="https://px.a8.net/svt/ejp?a8mat=4B3XB4+36WPAY+3SPO+BQTME9" target="_blank" rel="sponsored noopener nofollow">A8.net 提携プログラム</a></cite>
+    <cite>出典: <a href="https://px.a8.net/svt/ejp?a8mat=4B3XB4+36WPAY+3SPO+BQTME9" target="_blank" rel="sponsored noopener nofollow">公式アフィリエイトプログラム</a></cite>
   </figcaption>
 </figure>
 
@@ -157,7 +157,7 @@ author: "hacker-ko"
   <img src="/images/internet/so-net-hikari.png" alt="コスパ最強インターネット So-net 光 S/M/L" loading="lazy" />
   <figcaption>
     ソニーネットワーク運営の So-net 光。S/M/L のプラン構成で住居タイプに合わせて選べる。新規開通 7,500 円キャッシュバック。
-    <cite>出典: <a href="https://px.a8.net/svt/ejp?a8mat=4B3XB4+3X3RX6+38O0+BXB8Z" target="_blank" rel="sponsored noopener nofollow">A8.net 提携プログラム</a></cite>
+    <cite>出典: <a href="https://px.a8.net/svt/ejp?a8mat=4B3XB4+3X3RX6+38O0+BXB8Z" target="_blank" rel="sponsored noopener nofollow">公式アフィリエイトプログラム</a></cite>
   </figcaption>
 </figure>
 
@@ -180,7 +180,7 @@ author: "hacker-ko"
   <img src="/images/internet/gmo-tokutoku-bb.gif" alt="GMOとくとくBB【GMO光アクセス】" loading="lazy" />
   <figcaption>
     GMO とくとくBB の光コラボ。フレッツ光からの転用が手数料 0 円、IPv6 標準対応で速度安定。新規・転用・事業者変更すべて 6,000 円還元。
-    <cite>出典: <a href="https://px.a8.net/svt/ejp?a8mat=4B3XB4+3L73TM+50+6M7QUQ" target="_blank" rel="sponsored noopener nofollow">A8.net 提携プログラム</a></cite>
+    <cite>出典: <a href="https://px.a8.net/svt/ejp?a8mat=4B3XB4+3L73TM+50+6M7QUQ" target="_blank" rel="sponsored noopener nofollow">公式アフィリエイトプログラム</a></cite>
   </figcaption>
 </figure>
 
@@ -239,47 +239,42 @@ author: "hacker-ko"
 
 ## 申込前に必ず確認すべき 5 つのポイント
 
-光回線は申込から開通まで数週間〜1 ヶ月かかる + 違約金が高額。**申込前にこれだけは絶対チェック**:
+ネット回線は申込から開通まで数週間〜1 ヶ月かかる + 違約金が高額。**申込前にこれだけは絶対チェック**:
 
-<div class="checklist">
+<ul class="checklist">
   <li>
-    <span class="checklist-num">1</span>
     <div class="checklist-body">
       <strong>対応エリア確認</strong>
       <p>コミュファ光は中部限定、auひかりはエリアによって戸建て不可。事前に住所で公式エリア検索すること。</p>
     </div>
   </li>
   <li>
-    <span class="checklist-num">2</span>
     <div class="checklist-body">
       <strong>スマホキャリアとのセット割</strong>
       <p>au民→BIGLOBE光、SB民→SB光、ドコモ→ドコモ光（本記事対象外）。スマホ月額が1,100円×家族台数分割引される。</p>
     </div>
   </li>
   <li>
-    <span class="checklist-num">3</span>
     <div class="checklist-body">
       <strong>キャッシュバック受取条件</strong>
       <p>「開通から○ヶ月後にメール案内→申請」のパターンが多く、申請忘れで失効。申込時にスケジュール手帳に書く。</p>
     </div>
   </li>
   <li>
-    <span class="checklist-num">4</span>
     <div class="checklist-body">
       <strong>違約金・工事費残債</strong>
       <p>2年契約解約時の違約金が10,000円前後。工事費の残債は乗り換え時に新キャリアが負担するキャンペーンを併用。</p>
     </div>
   </li>
   <li>
-    <span class="checklist-num">5</span>
     <div class="checklist-body">
       <strong>IPv6 IPoE 対応</strong>
       <p>夜間の速度低下を防ぐにはIPv6 IPoE方式が必須。GMO・So-net・ソフトバンク光は標準対応、他社は要オプション設定。</p>
     </div>
   </li>
-</div>
+</ul>
 
-## まとめ｜光回線は「キャリア × エリア × CB額」の3軸で決まる
+## まとめ｜ネット回線は「キャリア × エリア × CB額」の3軸で決まる
 
 <div class="highlight-grid cols-3">
   <div class="highlight-item">
@@ -314,7 +309,7 @@ author: "hacker-ko"
   </div>
 </div>
 
-迷ったら、まずは **フレッツ光の最大79,000円CB** か、自分のスマホキャリアに合うセット割回線（au→BIGLOBE光、SB→SB光）を本気で比較してから決めなさい。アタシみたいに固定費全体で年12万円削減したい人は、光回線見直しが一番インパクトでかい。
+迷ったら、まずは **フレッツ光の最大79,000円CB** か、自分のスマホキャリアに合うセット割回線（au→BIGLOBE光、SB→SB光）を本気で比較してから決めなさい。アタシみたいに固定費全体で年12万円削減したい人は、ネット回線の見直しが一番インパクトでかい。
 
 ▶ **[フレッツ光 最大79,000円CB](https://px.a8.net/svt/ejp?a8mat=4B3XB4+3KLO7U+3SPO+HY7W1)**
 ▶ **[BIGLOBE光 + auひかり](https://px.a8.net/svt/ejp?a8mat=4B3XB4+383KII+3SPO+7LW1F7)**
