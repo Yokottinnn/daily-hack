@@ -470,19 +470,26 @@ footer.foot .pr { margin-top: 6px; }
 
 /* Checklist component — actionable todo / step lists with checkbox UI */
 .checklist { list-style: none; margin: 28px 0; padding: 0; display: grid; gap: 12px; counter-reset: chk; }
-.checklist li { display: grid; grid-template-columns: 44px 1fr; gap: 14px; align-items: start; background: #fff; border: 1px solid var(--pink-200); border-radius: 14px; padding: 14px 18px; box-shadow: var(--shadow-card); transition: border-color .15s, transform .15s; }
+.checklist li { display: grid; grid-template-columns: 44px 1fr; gap: 14px; align-items: start; background: #fff; border: 1px solid var(--pink-200); border-radius: 14px; padding: 14px 18px; box-shadow: var(--shadow-card); transition: border-color .15s, transform .15s, background .15s; cursor: pointer; user-select: none; position: relative; }
 .checklist li:hover { border-color: var(--pink-400, var(--pink-300)); transform: translateX(2px); }
-.checklist li::before { counter-increment: chk; content: ""; width: 28px; height: 28px; border: 2px solid var(--pink-500); border-radius: 6px; background: #fff; position: relative; align-self: center; transition: background .15s, border-color .15s; }
+.checklist li:focus-visible { outline: 3px solid var(--pink-300); outline-offset: 2px; }
+.checklist li::before { counter-increment: chk; content: ""; width: 28px; height: 28px; border: 2px solid var(--pink-500); border-radius: 6px; background: #fff; align-self: center; transition: background .2s ease, border-color .2s ease, transform .25s cubic-bezier(0.34, 1.56, 0.64, 1); }
 .checklist li:hover::before { background: var(--pink-50); }
-.checklist li .checklist-body { display: flex; flex-direction: column; gap: 4px; }
-.checklist li .checklist-body strong { font-weight: 800; color: var(--ink); font-size: 15px; }
+.checklist li:active::before { transform: scale(0.92); }
+.checklist li .checklist-body { display: flex; flex-direction: column; gap: 4px; transition: opacity .25s; }
+.checklist li .checklist-body strong { font-weight: 800; color: var(--ink); font-size: 15px; transition: color .25s, text-decoration-color .25s; }
 .checklist li .checklist-body p { margin: 0; font-size: 13px; color: var(--ink-2); line-height: 1.7; }
 .checklist li .checklist-body a { color: var(--pink-600); border-bottom: 1px dashed var(--pink-300); font-weight: 700; }
-.checklist li.done::before { background: var(--pink-500); border-color: var(--pink-500); }
-.checklist li.done::after { content: "✓"; position: absolute; left: 22px; top: 14px; color: #fff; font-weight: 900; font-size: 18px; }
+.checklist li.done { background: var(--pink-50); border-color: var(--pink-300); }
+.checklist li.done::before { background: var(--pink-500); border-color: var(--pink-500); transform: scale(1.05); }
+.checklist li.done::after { content: "✓"; position: absolute; left: 28px; top: 50%; transform: translate(-50%, -50%) scale(0); color: #fff; font-weight: 900; font-size: 18px; line-height: 1; pointer-events: none; animation: chkPop .35s cubic-bezier(0.34, 1.56, 0.64, 1) forwards; }
+.checklist li.done .checklist-body strong { color: var(--ink-3); text-decoration: line-through; text-decoration-color: var(--pink-400); text-decoration-thickness: 2px; }
+.checklist li.done .checklist-body p { opacity: 0.65; }
+@keyframes chkPop { from { transform: translate(-50%, -50%) scale(0); opacity: 0; } to { transform: translate(-50%, -50%) scale(1); opacity: 1; } }
 @media (max-width: 540px) {
   .checklist li { grid-template-columns: 36px 1fr; gap: 10px; padding: 12px 14px; }
   .checklist li::before { width: 22px; height: 22px; }
+  .checklist li.done::after { left: 23px; font-size: 14px; }
 }
 
 /* Highlighted reasons / facts grid — small visual chips for 3-5 highlights */

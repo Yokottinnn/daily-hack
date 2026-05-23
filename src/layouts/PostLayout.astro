@@ -196,4 +196,31 @@ const articleJsonLd = {
       </section>
     )}
   </main>
+
+  <script is:inline>
+    // .checklist のチェックボックスをクリック可能に
+    (function () {
+      const items = document.querySelectorAll('.post-body .checklist li');
+      items.forEach((li) => {
+        li.setAttribute('role', 'button');
+        li.setAttribute('tabindex', '0');
+        li.setAttribute('aria-pressed', 'false');
+        const toggle = () => {
+          const next = li.classList.toggle('done');
+          li.setAttribute('aria-pressed', next ? 'true' : 'false');
+        };
+        li.addEventListener('click', (e) => {
+          // 内部のリンクをクリックしたときはトグルしない
+          if (e.target instanceof HTMLAnchorElement) return;
+          toggle();
+        });
+        li.addEventListener('keydown', (e) => {
+          if (e.key === ' ' || e.key === 'Enter') {
+            e.preventDefault();
+            toggle();
+          }
+        });
+      });
+    })();
+  </script>
 </BaseLayout>
