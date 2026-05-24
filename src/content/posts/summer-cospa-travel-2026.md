@@ -495,6 +495,13 @@ TDRディズニーオフィシャル、**プール充実・キッズエリア完
 
 ---
 
+<!-- a8-banners auto-inserted by banner-fill (banner-matcher) -->
+<div class="affiliate-block">
+<div class="a8-banner"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+35PU3E+4XZI+BXIYP" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/travelist-hotel.jpg" alt="【国内ホテル・宿泊・旅館予約｜トラベリスト】" width="300" height="250" loading="lazy"></a></div>
+<div class="a8-banner"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+33C3OA+3UQG+61JSH" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/ozmall.jpg" alt="厳選ホテル・旅館・レストラン・ 美容室の贅沢プランをお得に予約。東京女子に人気【OZmall】" width="300" height="250" loading="lazy"></a></div>
+<div class="a8-banner"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+36WPAY+5RZ8+5YZ75" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/aeon-compass-travel.jpg" alt="国内宿泊（宿・ホテル）【イオンコンパストラベルモール】" width="300" height="250" loading="lazy"></a></div>
+</div>
+
 ## 関連記事
 
 - [2026年夏の旅行タイムセール完全攻略｜JR東・じゃらん・楽天・一休・JTB の最新15キャンペーン](/posts/summer-travel-timesale-2026/) — JR・じゃらん・ANA/JAL系のパッケージまでカバー
