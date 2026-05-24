@@ -150,7 +150,10 @@ const articleJsonLd = {
           <slot />
         </div>
 
-        <!-- 広告枠2: 記事末尾（本文と関連記事の間） -->
+        <!-- 広告枠2: 記事中盤 — JS で post-body 内の中央位置の h2 直前に移動 -->
+        <AdMax slot="dailyhack-article-middle" />
+
+        <!-- 広告枠3: 記事末尾（本文と関連記事の間） -->
         <AdMax slot="dailyhack-article-bottom" />
 
         <footer style="margin-top: 48px; padding-top: 28px; border-top: 1px solid var(--line);">
@@ -196,6 +199,24 @@ const articleJsonLd = {
       </section>
     )}
   </main>
+
+  <script is:inline>
+    // 記事中盤広告を h2 の中央位置に動的移動
+    (function () {
+      const body = document.getElementById('post-body');
+      const middleAd = document.querySelector('aside[data-admax-slot="dailyhack-article-middle"]');
+      if (!body || !middleAd) return;
+      const headings = body.querySelectorAll('h2');
+      if (headings.length < 4) {
+        // h2 が少ない（短い）記事では中盤広告を表示しない
+        middleAd.remove();
+        return;
+      }
+      const midIdx = Math.floor(headings.length / 2);
+      const targetH2 = headings[midIdx];
+      targetH2.parentNode.insertBefore(middleAd, targetH2);
+    })();
+  </script>
 
   <script is:inline>
     // .checklist のチェックボックスをクリック可能に
