@@ -58,6 +58,12 @@ relatedReferrals: ["rakuten-bank", "olive-smbc", "air-wallet", "go-taxi"]
 
 次にクレジットカード。年会費無料で還元率1%以上が「最低ライン」です。コンビニ・ドラッグストア・スーパーの3つで還元率が高いカードを軸に、サブとしてEC特化型（楽天カード等）を1枚持つのが基本構成。
 
+<!-- a8-section-break -->
+<div class="a8-section-break">
+<div class="a8-banner a8-banner--horizontal-banner"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+N7Y56+3ZZC+HXKQP" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/warau-468x60.jpg" alt="ポイ活ならワラウ【ワラウ】（広告利用ボーナスクリア）" width="468" height="60" loading="lazy" /></a></div>
+</div>
+<!-- /a8-section-break -->
+
 ## ステップ3: 決済アプリの統一
 
 PayPay、楽天ペイ、d払い、au PAY……どれを使うか迷うなら、**まずPayPay 1択**で構いません。加盟店数が圧倒的で、毎月のキャンペーンも豊富です。慣れてきたら、楽天経済圏に寄せるなら楽天ペイ、ドコモユーザーならd払いを併用します。
@@ -106,8 +112,10 @@ PayPay、楽天ペイ、d払い、au PAY……どれを使うか迷うなら、*
 
 > 関連サービスのご紹介。広告主のキャンペーン窓口です。各サービスの公式ページでキャンペーン条件をご確認の上、お申し込みください。
 
-<div class="a8-banner"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+33XJA2+1LP8+CALN5" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/hapitas.jpg" alt="高還元率ポイントサイト【ハピタス】　無料会員登録プロモーション" width="300" height="250" loading="lazy" /></a></div>
-<div class="a8-banner"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+N7Y56+3ZZC+HY069" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/warau.jpg" alt="ポイ活ならワラウ【ワラウ】（広告利用ボーナスクリア）" width="300" height="250" loading="lazy" /></a></div>
+<div class="a8-grid">
+<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+33XJA2+1LP8+CALN5" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/hapitas.jpg" alt="高還元率ポイントサイト【ハピタス】　無料会員登録プロモーション" width="300" height="250" loading="lazy" /></a></div>
+<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+N7Y56+3ZZC+HY069" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/warau.jpg" alt="ポイ活ならワラウ【ワラウ】（広告利用ボーナスクリア）" width="300" height="250" loading="lazy" /></a></div>
+</div>
 
 </div>
 <!-- /a8-affiliate-expansion -->

@@ -218,6 +218,12 @@ author: "hacker-ko"
 
 > 💡 **重要**: ポイントサイト経由で買い物する場合、**ブラウザのCookieが有効**じゃないと還元が反映されない。広告ブロッカー・プライベートブラウジング・別タブから直接楽天に飛ぶ……全部NG。クリック→そのまま購入完了まで一気にやりなさい。
 
+<!-- a8-section-break -->
+<div class="a8-section-break">
+<div class="a8-banner a8-banner--horizontal-banner"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+33XJA2+1LP8+C9J29" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/hapitas-728x90.jpg" alt="高還元率ポイントサイト【ハピタス】　無料会員登録プロモーション" width="728" height="90" loading="lazy" /></a></div>
+</div>
+<!-- /a8-section-break -->
+
 ## 用途別: あんたはどのサイトをメインにすべき？
 
 「結局、アタシはどれをメインにしたらいいの？」と迷子のあんたに、現場ベースの答えを置いておく。
@@ -332,8 +338,10 @@ GMOメディア（東証スタンダード上場）が運営する15年超の老
 
 > 関連サービスのご紹介。広告主のキャンペーン窓口です。各サービスの公式ページでキャンペーン条件をご確認の上、お申し込みください。
 
-<div class="a8-banner"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+33XJA2+1LP8+CALN5" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/hapitas.jpg" alt="高還元率ポイントサイト【ハピタス】　無料会員登録プロモーション" width="300" height="250" loading="lazy" /></a></div>
-<div class="a8-banner"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+N7Y56+3ZZC+HY069" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/warau.jpg" alt="ポイ活ならワラウ【ワラウ】（広告利用ボーナスクリア）" width="300" height="250" loading="lazy" /></a></div>
+<div class="a8-grid">
+<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+33XJA2+1LP8+CALN5" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/hapitas.jpg" alt="高還元率ポイントサイト【ハピタス】　無料会員登録プロモーション" width="300" height="250" loading="lazy" /></a></div>
+<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+N7Y56+3ZZC+HY069" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/warau.jpg" alt="ポイ活ならワラウ【ワラウ】（広告利用ボーナスクリア）" width="300" height="250" loading="lazy" /></a></div>
+</div>
 
 </div>
 <!-- /a8-affiliate-expansion -->

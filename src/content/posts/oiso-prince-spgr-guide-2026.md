@@ -304,6 +304,12 @@ author: "hacker-ko"
 
 宿泊客室は10階の**湘南スイート（57.2㎡）が海ビューで人気**。Diamondだと空室時に上位カテゴリへの**無料アップグレード**もあり。
 
+<!-- a8-section-break -->
+<div class="a8-section-break">
+<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+35PU3E+4XZI+BXIYP" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/travelist-hotel-300x250.jpg" alt="【国内ホテル・宿泊・旅館予約｜トラベリスト】" width="300" height="250" loading="lazy" /></a></div>
+</div>
+<!-- /a8-section-break -->
+
 ## S.DINING の特別ディナー｜記念日に使うとお得感マシマシ
 
 メインダイニングの **S.DINING** は、湘南の食材を使った季節のコース料理が看板。誕生月特典でドリンクサービス、10回利用でギフト券、Platinum以上ならカバーチャージ・ワイン持込料も免除されるので、記念日に使うほど元が取れる。
@@ -383,8 +389,10 @@ author: "hacker-ko"
 
 > 関連サービスのご紹介。広告主のキャンペーン窓口です。各サービスの公式ページでキャンペーン条件をご確認の上、お申し込みください。
 
-<div class="a8-banner"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+35PU3E+4XZI+BXIYP" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/travelist-hotel.jpg" alt="【国内ホテル・宿泊・旅館予約｜トラベリスト】" width="300" height="250" loading="lazy" /></a></div>
-<div class="a8-banner"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+36B9P6+44YI+HY069" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/yumeyado.jpg" alt="平日お得な宿泊ならゆめやどにおまかせ【ゆめやど】" width="300" height="250" loading="lazy" /></a></div>
+<div class="a8-grid">
+<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+35PU3E+4XZI+BXIYP" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/travelist-hotel.jpg" alt="【国内ホテル・宿泊・旅館予約｜トラベリスト】" width="300" height="250" loading="lazy" /></a></div>
+<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+36B9P6+44YI+HY069" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/yumeyado.jpg" alt="平日お得な宿泊ならゆめやどにおまかせ【ゆめやど】" width="300" height="250" loading="lazy" /></a></div>
+</div>
 
 </div>
 <!-- /a8-affiliate-expansion -->

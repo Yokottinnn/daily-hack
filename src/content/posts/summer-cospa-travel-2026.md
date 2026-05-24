@@ -240,6 +240,12 @@ parentPillar: summer-travel-timesale-2026
 
 ---
 
+<!-- a8-section-break -->
+<div class="a8-section-break">
+<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+27S4M2+4R2M+HVNAP" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/kokunai-dynamic-package-300x250.jpg" alt="24時間365日カンタン予約【国内ダイナミックパッケージ】" width="300" height="250" loading="lazy" /></a></div>
+</div>
+<!-- /a8-section-break -->
+
 ## Yahoo!トラベルの目玉宿 ４ 選
 
 **PayPay 経済圏勢の本命サイト**。サマ割（〜6/29）×「いつでも10%お得」が同時に走ってて、PayPay 即時利用すれば実質4〜5割引もあり得る。

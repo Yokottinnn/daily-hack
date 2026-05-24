@@ -194,6 +194,12 @@ ahamo・povo・LINEMO・楽天モバイル・UQモバイル・ワイモバイル
   </ul>
 </aside>
 
+<!-- a8-section-break -->
+<div class="a8-section-break">
+<div class="a8-banner a8-banner--horizontal-banner"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+10BHGA+3SPO+2T8JPD" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/haruene-denki-468x60.jpg" alt="メディア会員の方必見！電気代コスト削減！★大幅還元実施中★【ハルエネ電気】" width="468" height="60" loading="lazy" /></a></div>
+</div>
+<!-- /a8-section-break -->
+
 ## 電気代編｜新電力切り替え + 経済圏連動で月2,000円カット
 
 2016年4月から電力小売は完全自由化。**東京電力・関西電力に縛られる時代は終わってる**のに、まだメインの大手電力会社のまま放置してるあんた、何してんの？
@@ -417,10 +423,12 @@ ahamo・povo・LINEMO・楽天モバイル・UQモバイル・ワイモバイル
 
 > 関連サービスのご紹介。広告主のキャンペーン窓口です。各サービスの公式ページでキャンペーン条件をご確認の上、お申し込みください。
 
-<div class="a8-banner"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+ZQ1UI+42Y0+5ZMCH" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/au-hikari.jpg" alt="【auひかり】初期工事費無料！豪華キャンペーン！知らない人はモッタイナイ！" width="300" height="250" loading="lazy" /></a></div>
-<div class="a8-banner"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+12P7VE+3SDQ+5ZU29" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/gasya-no-mado.jpg" alt="ガス会社の乗り換えで、ガス料金が安くなる！【ガス屋の窓口】" width="300" height="250" loading="lazy" /></a></div>
-<div class="a8-banner"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+152YAI+2W92+NXMIP" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/enepi-gas.jpg" alt="1番安いガス料金をWEBで比較して、お得に利用しよう！【エネピ】" width="300" height="250" loading="lazy" /></a></div>
-<div class="a8-banner"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+10BHGA+3SPO+2T8Z4X" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/haruene-denki.jpg" alt="メディア会員の方必見！電気代コスト削減！★大幅還元実施中★【ハルエネ電気】" width="300" height="250" loading="lazy" /></a></div>
+<div class="a8-grid">
+<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+ZQ1UI+42Y0+5ZMCH" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/au-hikari.jpg" alt="【auひかり】初期工事費無料！豪華キャンペーン！知らない人はモッタイナイ！" width="300" height="250" loading="lazy" /></a></div>
+<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+12P7VE+3SDQ+5ZU29" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/gasya-no-mado.jpg" alt="ガス会社の乗り換えで、ガス料金が安くなる！【ガス屋の窓口】" width="300" height="250" loading="lazy" /></a></div>
+<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+152YAI+2W92+NXMIP" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/enepi-gas.jpg" alt="1番安いガス料金をWEBで比較して、お得に利用しよう！【エネピ】" width="300" height="250" loading="lazy" /></a></div>
+<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+10BHGA+3SPO+2T8Z4X" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/haruene-denki.jpg" alt="メディア会員の方必見！電気代コスト削減！★大幅還元実施中★【ハルエネ電気】" width="300" height="250" loading="lazy" /></a></div>
+</div>
 
 </div>
 <!-- /a8-affiliate-expansion -->

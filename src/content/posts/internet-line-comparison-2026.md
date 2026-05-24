@@ -151,6 +151,12 @@ author: "hacker-ko"
 
 ---
 
+<!-- a8-section-break -->
+<div class="a8-section-break">
+<div class="a8-banner a8-banner--horizontal-banner"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+ZQ1UI+42Y0+62ENL" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/au-hikari-468x60.jpg" alt="【auひかり】初期工事費無料！豪華キャンペーン！知らない人はモッタイナイ！" width="468" height="60" loading="lazy" /></a></div>
+</div>
+<!-- /a8-section-break -->
+
 ## 5. So-net 光 S/M/L（ソニーネットワークコミュニケーションズ）｜NURO 系の安定回線
 
 <figure class="real-photo" style="max-width: 720px; margin: 22px auto 28px;">
@@ -281,10 +287,12 @@ author: "hacker-ko"
 
 > 関連サービスのご紹介。広告主のキャンペーン窓口です。各サービスの公式ページでキャンペーン条件をご確認の上、お申し込みください。
 
-<div class="a8-banner"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+ZQ1UI+42Y0+5ZMCH" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/au-hikari.jpg" alt="【auひかり】初期工事費無料！豪華キャンペーン！知らない人はモッタイナイ！" width="300" height="250" loading="lazy" /></a></div>
-<div class="a8-banner"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+123S9M+1MWA+1TS6MP" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/hikari-denwa-wiz.jpg" alt="【キャッシュバック最大7万円】ひかり電話、ヒカリ回線のお申込み窓口" width="300" height="250" loading="lazy" /></a></div>
-<div class="a8-banner"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+169TI2+3SPO+CKIQ1T" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/ahamo-hikari.jpg" alt="【ahamo光】安定した光回線をコスパ良く！ｄポイント20,000pt" width="300" height="250" loading="lazy" /></a></div>
-<div class="a8-banner"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+13ANH6+50+552T41" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/gmo-docomo-hikari.jpg" alt="GMOインターネット株式会社【GMOとくとくBB】ドコモ光はこちら" width="300" height="250" loading="lazy" /></a></div>
+<div class="a8-grid">
+<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+ZQ1UI+42Y0+5ZMCH" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/au-hikari.jpg" alt="【auひかり】初期工事費無料！豪華キャンペーン！知らない人はモッタイナイ！" width="300" height="250" loading="lazy" /></a></div>
+<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+123S9M+1MWA+1TS6MP" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/hikari-denwa-wiz.jpg" alt="【キャッシュバック最大7万円】ひかり電話、ヒカリ回線のお申込み窓口" width="300" height="250" loading="lazy" /></a></div>
+<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+169TI2+3SPO+CKIQ1T" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/ahamo-hikari.jpg" alt="【ahamo光】安定した光回線をコスパ良く！ｄポイント20,000pt" width="300" height="250" loading="lazy" /></a></div>
+<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+13ANH6+50+552T41" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/gmo-docomo-hikari.jpg" alt="GMOインターネット株式会社【GMOとくとくBB】ドコモ光はこちら" width="300" height="250" loading="lazy" /></a></div>
+</div>
 
 </div>
 <!-- /a8-affiliate-expansion -->
