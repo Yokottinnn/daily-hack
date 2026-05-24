@@ -326,8 +326,11 @@ footer.foot .pr { margin-top: 6px; }
 .post-wrap { display: grid; grid-template-columns: 1fr 280px; gap: 56px; padding: 48px 0 80px; }
 @media (max-width: 980px) { .post-wrap { grid-template-columns: 1fr; gap: 32px; } }
 .post-main { min-width: 0; }
-.post-aside { position: sticky; top: 96px; align-self: start; }
-@media (max-width: 980px) { .post-aside { position: static; } }
+.post-aside { position: sticky; top: 96px; align-self: start; max-height: calc(100vh - 112px); overflow-y: auto; padding-right: 4px; scrollbar-width: thin; scrollbar-color: var(--pink-300) transparent; }
+.post-aside::-webkit-scrollbar { width: 6px; }
+.post-aside::-webkit-scrollbar-thumb { background: var(--pink-200); border-radius: 3px; }
+.post-aside::-webkit-scrollbar-thumb:hover { background: var(--pink-400, var(--pink-300)); }
+@media (max-width: 980px) { .post-aside { position: static; max-height: none; overflow: visible; } }
 .breadcrumb { font-size: 12.5px; color: var(--ink-3); display: flex; gap: 8px; flex-wrap: wrap; align-items: center; margin-bottom: 18px; }
 .breadcrumb a { color: var(--ink-2); border-bottom: 1px solid transparent; transition: border-color .15s; }
 .breadcrumb a:hover { border-color: var(--ink-2); }
