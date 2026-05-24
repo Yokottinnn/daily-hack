@@ -427,6 +427,22 @@ author: "hacker-ko"
 
 <p class="source-note">出典: 経済産業省 資源エネルギー庁「<a href="https://www.enecho.meti.go.jp/category/electricity_and_gas/electric/electricity_liberalization/" target="_blank" rel="noopener nofollow">電力小売全面自由化</a>」、電力・ガス取引監視等委員会「<a href="https://www.emsc.meti.go.jp/" target="_blank" rel="noopener nofollow">事業者向け情報</a>」。新電力の経過措置・倒産時の自動切替制度に関する公式情報。</p>
 
+<!-- a8-affiliate-expansion -->
+<div class="affiliate-block">
+
+### 電気・ガス料金の見直し窓口
+
+> 関連サービスのご紹介。広告主のキャンペーン窓口です。各サービスの公式ページでキャンペーン条件をご確認の上、お申し込みください。
+
+<div class="a8-banner"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+10BHGA+3SPO+2T8Z4X" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/haruene-denki.jpg" alt="メディア会員の方必見！電気代コスト削減！★大幅還元実施中★【ハルエネ電気】" width="300" height="250" loading="lazy" /></a></div>
+<div class="a8-banner"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+12P7VE+3SDQ+5ZU29" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/gasya-no-mado.jpg" alt="ガス会社の乗り換えで、ガス料金が安くなる！【ガス屋の窓口】" width="300" height="250" loading="lazy" /></a></div>
+<div class="a8-banner"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+152YAI+2W92+NXMIP" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/enepi-gas.jpg" alt="1番安いガス料金をWEBで比較して、お得に利用しよう！【エネピ】" width="300" height="250" loading="lazy" /></a></div>
+<div class="a8-banner"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+15ODWA+3SPO+TU8U9" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/denki-choice.jpg" alt="当サイト限定　最大30000円現金キャッシュバック！【電気チョイス】" width="300" height="250" loading="lazy" /></a></div>
+<div class="a8-banner"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+11ICNU+3SPO+ZRALD" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/gas-choice.jpg" alt="当サイト限定　最大30000円現金キャッシュバック！ガス代を今よりお安く！【ガスチョイス】" width="300" height="250" loading="lazy" /></a></div>
+
+</div>
+<!-- /a8-affiliate-expansion -->
+
 ## まとめ｜電気・ガス見直し、今日やる3ステップ
 
 ここまで読んで「面倒くさそう」って思ったあんた、それは**毎月勝手に開く財布をそのまま放置する宣言**よ。1〜2時間の作業で年1万〜3万円浮く案件、他にない。今日やることを3つだけ並べておくから、これだけは手を動かしなさい。

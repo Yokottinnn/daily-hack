@@ -311,6 +311,18 @@ QRコード決済は、**チャージ元クレカの選定が9割**。これ間�
   </ul>
 </aside>
 
+<!-- a8-affiliate-expansion -->
+<div class="affiliate-block">
+
+### 関連サービスのご紹介
+
+> 関連サービスのご紹介。広告主のキャンペーン窓口です。各サービスの公式ページでキャンペーン条件をご確認の上、お申し込みください。
+
+<div class="a8-banner"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+383KII+43U8+HX5B5" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/earthcar.jpg" alt="【入会金・月会費０円だから超高CVR】おトクがいっぱいのカーシェア「EARTHCAR」" width="300" height="250" loading="lazy" /></a></div>
+
+</div>
+<!-- /a8-affiliate-expansion -->
+
 ## まとめ: 3アプリ三刀流が2026年の正解
 
 長くなったけど、結論をもう一度。

@@ -376,6 +376,19 @@ author: "hacker-ko"
   <div class="hakkako-quote">楽天トラベル・じゃらん経由で予約してる人、それ**会員ポイント還元の対象外**よ。公式直予約 + アプリ会員番号紐付けが鉄則。あんた、毎回ここでミスってない？</div>
 </div>
 
+<!-- a8-affiliate-expansion -->
+<div class="affiliate-block">
+
+### プリンスホテル周辺の宿泊予約
+
+> 関連サービスのご紹介。広告主のキャンペーン窓口です。各サービスの公式ページでキャンペーン条件をご確認の上、お申し込みください。
+
+<div class="a8-banner"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+35PU3E+4XZI+BXIYP" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/travelist-hotel.jpg" alt="【国内ホテル・宿泊・旅館予約｜トラベリスト】" width="300" height="250" loading="lazy" /></a></div>
+<div class="a8-banner"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+36B9P6+44YI+HY069" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/yumeyado.jpg" alt="平日お得な宿泊ならゆめやどにおまかせ【ゆめやど】" width="300" height="250" loading="lazy" /></a></div>
+
+</div>
+<!-- /a8-affiliate-expansion -->
+
 ## まとめ｜「無料登録だけで損が減る」最低限ライン
 
 <div class="highlight-grid cols-3">

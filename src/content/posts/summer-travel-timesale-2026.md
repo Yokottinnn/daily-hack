@@ -223,6 +223,22 @@ PayPay経済圏で固定費まで集約してる人は、**Yahoo!トラベル+Pa
   </div>
 </div>
 
+<!-- a8-affiliate-expansion -->
+<div class="affiliate-block">
+
+### 夏旅・国内旅行の予約窓口
+
+> 関連サービスのご紹介。広告主のキャンペーン窓口です。各サービスの公式ページでキャンペーン条件をご確認の上、お申し込みください。
+
+<div class="a8-banner"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+35PU3E+4XZI+BXIYP" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/travelist-hotel.jpg" alt="【国内ホテル・宿泊・旅館予約｜トラベリスト】" width="300" height="250" loading="lazy" /></a></div>
+<div class="a8-banner"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+36B9P6+44YI+HY069" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/yumeyado.jpg" alt="平日お得な宿泊ならゆめやどにおまかせ【ゆめやど】" width="300" height="250" loading="lazy" /></a></div>
+<div class="a8-banner"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+36WPAY+5RZ8+5YZ75" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/aeon-compass-travel.jpg" alt="国内宿泊（宿・ホテル）【イオンコンパストラベルモール】" width="300" height="250" loading="lazy" /></a></div>
+<div class="a8-banner"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+37I4WQ+5Q4K+5Z6WX" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/resort-glamping.jpg" alt="国内最大級のグランピング予約サイト！【リゾートグランピングドットコム】" width="300" height="250" loading="lazy" /></a></div>
+<div class="a8-banner"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+1VVGII+4XZI+609HT" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/travelist-air.jpg" alt="国内格安航空券・LCCの比較・予約なら【トラベリスト】" width="300" height="250" loading="lazy" /></a></div>
+
+</div>
+<!-- /a8-affiliate-expansion -->
+
 ## まとめ｜「5/29は山場、その後は2段構え」
 
 <div class="highlight-grid cols-3">
