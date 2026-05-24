@@ -32,7 +32,8 @@ const ga4Enabled = /^G-[A-Z0-9]+$/.test(ga4Id);
 const clarityId = import.meta.env.PUBLIC_CLARITY_PROJECT_ID ?? '';
 const clarityEnabled = /^[a-z0-9]+$/.test(clarityId) && clarityId.length >= 6;
 
-const gscVerification = import.meta.env.PUBLIC_GSC_VERIFICATION ?? '';
+// GSC verification — CF Pages secret 経由が build に渡らない問題があるため一時的にハードコード
+const gscVerification = import.meta.env.PUBLIC_GSC_VERIFICATION || 'CILy2IUgMkBjq30SwWsO2FzzntTXnBlvT2pQ0bov96E';
 const bingVerification = import.meta.env.PUBLIC_BING_VERIFICATION ?? '';
 const yandexVerification = import.meta.env.PUBLIC_YANDEX_VERIFICATION ?? '';
 ---
