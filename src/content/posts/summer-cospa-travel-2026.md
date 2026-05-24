@@ -7,8 +7,8 @@ tags: ["夏旅", "コスパ", "一休", "Yahoo!トラベル", "楽天トラベ�
 isPR: true
 draft: false
 featured: true
-eyecatchUrl: "/images/travel-summer-2026/oriental-okinawa.jpg"
-eyecatchAlt: "オリエンタルホテル沖縄リゾート＆スパ（出典：一休.com 公式）"
+eyecatchUrl: "/images/eyecatch/summer-cospa-collage.jpg"
+eyecatchAlt: "夏旅コスパ最強の宿6軒コラージュ — オリエンタル沖縄／キャピトル東急／佳ら久／カハラ横浜／東京ベイ舞浜ファースト／シギラ宮古島"
 author: "hacker-ko"
 parentPillar: summer-travel-timesale-2026
 ---
