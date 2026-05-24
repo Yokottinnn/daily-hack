@@ -410,6 +410,21 @@ ahamo・povo・LINEMO・楽天モバイル・UQモバイル・ワイモバイル
   </ul>
 </aside>
 
+<!-- a8-affiliate-expansion -->
+<div class="affiliate-block">
+
+### 固定費見直しに使える窓口
+
+> 関連サービスのご紹介。広告主のキャンペーン窓口です。各サービスの公式ページでキャンペーン条件をご確認の上、お申し込みください。
+
+<div class="a8-banner"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+ZQ1UI+42Y0+5ZMCH" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/au-hikari.jpg" alt="【auひかり】初期工事費無料！豪華キャンペーン！知らない人はモッタイナイ！" width="300" height="250" loading="lazy" /></a></div>
+<div class="a8-banner"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+12P7VE+3SDQ+5ZU29" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/gasya-no-mado.jpg" alt="ガス会社の乗り換えで、ガス料金が安くなる！【ガス屋の窓口】" width="300" height="250" loading="lazy" /></a></div>
+<div class="a8-banner"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+152YAI+2W92+NXMIP" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/enepi-gas.jpg" alt="1番安いガス料金をWEBで比較して、お得に利用しよう！【エネピ】" width="300" height="250" loading="lazy" /></a></div>
+<div class="a8-banner"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+10BHGA+3SPO+2T8Z4X" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/haruene-denki.jpg" alt="メディア会員の方必見！電気代コスト削減！★大幅還元実施中★【ハルエネ電気】" width="300" height="250" loading="lazy" /></a></div>
+
+</div>
+<!-- /a8-affiliate-expansion -->
+
 ## まとめ｜固定費削減、今日の作業3つ
 
 ここまで読んで「あとでやる」って言ってるあんた、それは**毎月1万円を捨て続ける宣言**よ。今日やることを3つだけ並べておくから、これだけ手を動かしなさい。

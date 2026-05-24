@@ -98,3 +98,16 @@ PayPay、楽天ペイ、d払い、au PAY……どれを使うか迷うなら、*
 ここまで読んで「面倒くさそう」と感じた人へ。**いや、面倒なのは最初の1週間だけ**です。一度仕組みを作れば、あとは日常の買い物・支払いに勝手にポイントが乗っていく。やらない人は1年で30万円以上、損し続けています。
 
 「やるか・やらないか」だけです。やりましょう。
+
+<!-- a8-affiliate-expansion -->
+<div class="affiliate-block">
+
+### ポイ活におすすめのサイト
+
+> 関連サービスのご紹介。広告主のキャンペーン窓口です。各サービスの公式ページでキャンペーン条件をご確認の上、お申し込みください。
+
+<div class="a8-banner"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+33XJA2+1LP8+CALN5" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/hapitas.jpg" alt="高還元率ポイントサイト【ハピタス】　無料会員登録プロモーション" width="300" height="250" loading="lazy" /></a></div>
+<div class="a8-banner"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+N7Y56+3ZZC+HY069" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/warau.jpg" alt="ポイ活ならワラウ【ワラウ】（広告利用ボーナスクリア）" width="300" height="250" loading="lazy" /></a></div>
+
+</div>
+<!-- /a8-affiliate-expansion -->
