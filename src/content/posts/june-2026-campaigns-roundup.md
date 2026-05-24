@@ -426,9 +426,11 @@ PayPay・楽天ペイ・d払いの **新規登録特典は基本的に1回限り
 
 > 関連サービスのご紹介。広告主のキャンペーン窓口です。各サービスの公式ページでキャンペーン条件をご確認の上、お申し込みください。
 
-<div class="a8-banner"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+ZQ1UI+42Y0+5ZMCH" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/au-hikari.jpg" alt="【auひかり】初期工事費無料！豪華キャンペーン！知らない人はモッタイナイ！" width="300" height="250" loading="lazy" /></a></div>
-<div class="a8-banner"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+12P7VE+3SDQ+5ZU29" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/gasya-no-mado.jpg" alt="ガス会社の乗り換えで、ガス料金が安くなる！【ガス屋の窓口】" width="300" height="250" loading="lazy" /></a></div>
-<div class="a8-banner"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+33XJA2+1LP8+CALN5" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/hapitas.jpg" alt="高還元率ポイントサイト【ハピタス】　無料会員登録プロモーション" width="300" height="250" loading="lazy" /></a></div>
+<div class="a8-grid">
+<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+ZQ1UI+42Y0+5ZMCH" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/au-hikari.jpg" alt="【auひかり】初期工事費無料！豪華キャンペーン！知らない人はモッタイナイ！" width="300" height="250" loading="lazy" /></a></div>
+<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+12P7VE+3SDQ+5ZU29" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/gasya-no-mado.jpg" alt="ガス会社の乗り換えで、ガス料金が安くなる！【ガス屋の窓口】" width="300" height="250" loading="lazy" /></a></div>
+<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+33XJA2+1LP8+CALN5" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/hapitas.jpg" alt="高還元率ポイントサイト【ハピタス】　無料会員登録プロモーション" width="300" height="250" loading="lazy" /></a></div>
+</div>
 
 </div>
 <!-- /a8-affiliate-expansion -->

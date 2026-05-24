@@ -725,13 +725,43 @@ footer.foot .pr { margin-top: 6px; }
   .hero .hero-char { max-width: 280px; margin-top: 20px; }
 }
 
-/* ============ A8 affiliate banner block (2026-05-24) ============ */
+/* ============ A8 affiliate banner block (2026-05-24, multi-size 2026-05-24) ============ */
 .affiliate-block { margin: 36px 0; padding: 22px 24px; border: 1px solid var(--pink-200); border-radius: 18px; background: linear-gradient(135deg, var(--pink-50), #fff); box-shadow: var(--shadow-card); }
 .affiliate-block h3 { margin: 0 0 8px; padding-left: 0 !important; border-left: 0 !important; font-family: "RocknRoll One"; font-weight: 400; color: var(--pink-700); font-size: 16px; }
 .affiliate-block > blockquote { margin: 0 0 16px; padding: 8px 12px; background: rgba(255,255,255,.6); border-left: 3px solid var(--pink-300); border-radius: 0 8px 8px 0; font-size: 12.5px; color: var(--ink-2); line-height: 1.7; }
+
+/* When multiple rectangle banners present, lay them out as a responsive grid */
+.affiliate-block .a8-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px; margin: 12px 0; }
+.affiliate-block .a8-grid .a8-banner { margin: 0; }
+@media (max-width: 520px) { .affiliate-block .a8-grid { grid-template-columns: 1fr; } }
+
+/* Base banner card */
 .affiliate-block .a8-banner { margin: 12px 0; display: flex; justify-content: center; align-items: center; }
 .affiliate-block .a8-banner a { display: inline-block; border-bottom: 0 !important; transition: transform .15s; }
 .affiliate-block .a8-banner a:hover { transform: translateY(-2px); }
 .affiliate-block .a8-banner img { max-width: 100%; height: auto; border-radius: 6px; box-shadow: 0 4px 10px -4px rgba(0,0,0,.12); display: block; }
 .post-body .affiliate-block .a8-banner a { border-bottom: 0 !important; }
+
+/* Size-specific modifiers */
+.a8-banner--rectangle img { width: 300px; max-width: 100%; }
+.a8-banner--horizontal-banner img { width: 100%; max-width: 728px; }
+.a8-banner--skyscraper img { width: auto; max-height: 600px; }
+.a8-banner--mobile-banner img { width: 100%; max-width: 320px; }
+.a8-banner--mini img { width: auto; max-width: 234px; }
+
+/* Section break: horizontal banner spans the full content width */
+.a8-section-break { margin: 32px 0; display: flex; justify-content: center; }
+.a8-section-break .a8-banner { margin: 0; max-width: 100%; }
+
+/* Inline text link */
+.a8-textlink { display: inline; }
+.a8-textlink a {
+  color: var(--pink-600);
+  text-decoration: underline;
+  text-decoration-color: var(--pink-300);
+  text-underline-offset: 3px;
+  font-weight: 600;
+}
+.a8-textlink a:hover { color: var(--pink-700); text-decoration-color: var(--pink-600); }
+.post-body .a8-textlink a { border-bottom: 0 !important; }
 
