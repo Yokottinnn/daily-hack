@@ -1,6 +1,6 @@
 ---
 title: "湾岸エリア スーパー徹底比較 18店舗｜晴海・勝どき・月島・豊洲、ポイントカード × お得日 完全マップ 2026"
-description: "晴海・勝どき・月島・豊洲の主要スーパー18店舗を、ポイントカード・お得日・営業時間・地図まで完全網羅。HARUMI FLAG居住者必読、24時間営業&早朝・深夜マップも公開。"
+description: "晴海・勝どき・月島・豊洲の主要スーパー18店舗を、エリア別マップ・チェーンロゴ・ポイントカード比較で完全網羅。HARUMI FLAG居住者必読、24時間営業&早朝・深夜マップも公開。"
 publishDate: 2026-05-25
 category: ["wangan-life", "comparisons", "howto"]
 tags: ["湾岸ライフ", "スーパー", "晴海", "勝どき", "月島", "豊洲", "HARUMI FLAG", "ポイントカード", "節約", "中央区", "江東区"]
@@ -8,17 +8,17 @@ isPR: false
 draft: false
 featured: true
 eyecatchUrl: "/images/wangan-supermarkets-2026/wangan-map.png"
-eyecatchAlt: "湾岸スーパーマップ — 晴海・勝どき・月島・豊洲 18店舗の位置をハッカー子マーカーでプロット"
+eyecatchAlt: "湾岸スーパーマップ — 晴海・勝どき・月島・豊洲 18店舗の位置をプロット"
 author: "hacker-ko"
 ---
 
 「湾岸に引っ越したけど、どのスーパーが一番おトクなの？」── 晴海フラッグの引き渡しから半年、月島・勝どきのタワマンも増えて、**湾岸エリアの生鮮食品事情はガラッと変わった**。
 
-このページでは中央区晴海・勝どき・月島、江東区豊洲の **主要スーパー 18 店舗** を、ポイントカード・お得日・営業時間・場所まで全部比較。HARUMI FLAG 居住者からも勝どき民からも豊洲民からも「これ 1 本で日々の買い物が完成する」レベルのまとめ。
+このページでは中央区晴海・勝どき・月島、江東区豊洲の **主要スーパー 18 店舗** を、ポイントカード・お得日・営業時間・場所まで全部比較。エリア別マップ付きで、HARUMI FLAG 居住者からも勝どき民からも豊洲民からも「これ 1 本で日々の買い物が完成する」レベルのまとめ。
 
 <div class="hakkako-says">
 <img src="/images/expr-05-smug.png" alt="ハッカー子" />
-<p>アタシ晴海在住歴で言うと、<strong>「火曜日はマルエツ、木曜日は文化堂、毎月 20・30 日はダイエー/イオン」</strong> ってルーティンで月 1.5 万円くらい食費が浮いてる。ポイント還元じゃなくて<strong>「決済までしたあとに引かれる本物の値引き」</strong>を狙うのがコスパ最強。下のマップで自分の家から徒歩 5 分の店舗群を見つけて、各店の「お得日」をスマホのカレンダーに登録すればもう勝ち。</p>
+<p>アタシ晴海在住歴で言うと、<strong>「火曜日はマルエツ、木曜日は文化堂、毎月 20・30 日はダイエー/イオン」</strong> ってルーティンで月 1.5 万円くらい食費が浮いてる。ポイント還元じゃなくて<strong>「決済までしたあとに引かれる本物の値引き」</strong>を狙うのがコスパ最強。下のエリア別マップで自分の家から徒歩 5 分の店舗群を見つけて、各店の「お得日」をスマホのカレンダーに登録すればもう勝ち。</p>
 </div>
 
 ## エリア別の特徴（30秒サマリ）
@@ -26,7 +26,7 @@ author: "hacker-ko"
 <ul class="checklist">
 <li>
 <div class="checklist-body">
-<strong>晴海（6店舗）</strong>
+<strong>晴海（5店舗）</strong>
 <p>HARUMI FLAG 開業で生鮮需要が爆増。サミット・マルエツプチ・成城石井がトリトン/ららテラスに集中。価格帯はやや高めだが、品揃え◎。</p>
 </div>
 </li>
@@ -52,35 +52,24 @@ author: "hacker-ko"
 
 ---
 
-## 🗺️ 湾岸スーパーマップ（記事冒頭の図解）
+## 💳 ポイントカード比較（4 経済圏でどこが強いか）
 
-記事冒頭のマップは、晴海・勝どき・月島・豊洲の **18 店舗を全部プロット** したアタシオリジナル。色分けは:
+経済圏でメイン店舗を決めれば、ポイ活効率は **2〜3 倍** 変わる。湾岸エリア限定の「使える店舗（エリア）」リスト付き。
 
-- 🌸 **ピンク（晴海）**
-- 🟧 **オレンジ（勝どき）**
-- 🟢 **グリーン（月島）**
-- 🔵 **ブルー（豊洲）**
+| ロゴ | ポイント | 一番強い店舗（エリア） | 還元率 | 主要お得日 |
+|:---:|---|---|---|---|
+| <img src="/images/wangan-supermarkets-2026/icons/point-waon.png" alt="WAON" width="60" /> | **WAON / WAON POINT** | イオン（豊洲）・ダイエー（豊洲）・まいばすけっと（晴海/勝どき/月島/豊洲） | 0.5〜1% | 毎月 20・30 日 5%OFF、15 日 G.G デー（55+）、10 日 ありが10、5・15・25 日 ポイント2倍 |
+| <img src="/images/wangan-supermarkets-2026/icons/point-dpoint.png" alt="d払い" width="60" /> | **d ポイント** | ライフ（豊洲/勝どき）・マルエツ（晴海/勝どき/月島）・リンコス（月島） | 0.5〜1% | 毎週金土 d 曜日（+3%）、ライフ 5の付く日 |
+| <img src="/images/wangan-supermarkets-2026/icons/point-rakuten.svg" alt="楽天" width="60" /> | **楽天ポイント** | ライフ（豊洲/勝どき）・マルエツ全店・成城石井（晴海/豊洲） | 0.5〜1% | サミット（晴海）は楽天ペイ最大 20%（不定期） |
+| <img src="/images/wangan-supermarkets-2026/icons/point-paypay.png" alt="PayPay" width="60" /> | **PayPay** | ライフ全店・成城石井（晴海/豊洲）・サミット（晴海） | 0.5% | PayPay ステップ・週末ジャンボくじ |
+| <img src="/images/wangan-supermarkets-2026/icons/point-mitsui-sp.png" alt="三井ショッピングパーク" width="60" /> | **三井ショッピングパーク** | 成城石井（豊洲・ららぽーと内）※サミットHARUMI FLAGは対象外 | 1%（税抜100円=1pt） | MSPカード《セゾン》クレジット同上、ポイントUP月間あり |
+| <img src="/images/wangan-supermarkets-2026/icons/point-lc.png" alt="LCポイント" width="60" /> | **LC ポイント（独自）** | ライフ（豊洲・勝どき） | 0.5%（LC JCB 決済で実質 3 倍） | 毎月 7・17・27 日 LC JCB 5 倍、LaCuCa チャージデー（1・2・3・15・16・17 日） |
+| <img src="/images/wangan-supermarkets-2026/icons/point-bunkado.png" alt="文化堂" width="60" /> | **文化堂ポイント** | 文化堂（月島・勝どき） | 0.5〜1% | 木曜ポイント 2 倍、毎月 10・20・30 日 特売 |
+| <img src="/images/wangan-supermarkets-2026/icons/point-ponta.png" alt="Ponta" width="60" /> | **Ponta** | ライフ（豊洲・勝どき） | 0.5〜1% | auPAY +0.5%、毎月 3・13・23 日 三太郎の日 |
 
-ハッカー子マーカー = スーパー位置。**駅 < 徒歩 10 分** で行ける店舗が大半なので、引っ越し前のエリア選びの参考にも。
-
----
-
-## 💳 ポイントカード横並び比較（4 経済圏でどこが強いか）
-
-経済圏でメイン店舗を決めれば、ポイ活効率は **2〜3 倍** 変わる。
-
-| ポイント | 一番強い店舗 | 還元率 | 主要お得日 |
-|---|---|---|---|
-| **WAON / WAON POINT** | イオン東雲・ダイエー豊洲・まいばすけっと全店 | 0.5〜1% | 毎月 20・30 日 5%OFF、15 日 G.G デー、10 日 ありが10 |
-| **d ポイント** | ライフ全店・マルエツ全店・リンコス | 0.5〜1% | 毎週金土 d 曜日（+3%）、ライフ 5の付く日 |
-| **楽天ポイント** | ライフ・マルエツ・成城石井 | 0.5〜1% | サミットは楽天ペイ最大 20%（不定期） |
-| **PayPay** | ライフ・成城石井・サミット | 0.5% | PayPay ステップ・週末ジャンボくじ |
-| **三井ショッピングパーク** | サミット HARUMI FLAG・成城石井ららぽーと豊洲 | 1〜2% | カード会員常時 2% |
-| **LC ポイント（独自）** | ライフ豊洲・勝どきミッド | 0.5% (クレジット決済で実質 3 倍) | 7・17・27 日 LC JCB 5 倍 |
-| **文化堂ポイント** | 文化堂月島・勝どき | 0.5〜1% | 木曜ポイント 2 倍、10・20・30 日 特売 |
-| **Ponta** | ライフ全店 | 0.5〜1% | auPAY +0.5%、毎月 3・13・23 日 三太郎の日 |
-
-> 🎯 **戦術**: 楽天勢は **ライフ + マルエツ** で固める、PayPay 勢は **ライフ + サミット**、d ポイント勢も **ライフ + マルエツ + リンコス**、WAON/イオン経済圏勢は **イオン東雲 + ダイエー + まいばすけっと** の三段重ね。経済圏を変えるとさらに 2-3% 浮く。
+> ⚠️ **HARUMI FLAG サミットの注意点**：[ららテラスHARUMI FLAG 公式案内](https://mitsui-shopping-park.com/lalat-harumiflag/info/2666417.html)に明記されている通り、サミットストア HARUMI FLAG 店では **三井ショッピングパークポイントの付与・利用、MSPカード《セゾン》のクレジット払い、アプリde支払い、メンバーズプログラム積算すべて対象外**。MSP 経済圏ユーザーは成城石井ららぽーと豊洲店を選択がベター。
+>
+> 🎯 **戦術**：楽天勢は **ライフ + マルエツ** で固める、PayPay 勢は **ライフ + サミット**、d ポイント勢も **ライフ + マルエツ + リンコス**、WAON/イオン経済圏勢は **イオン東雲 + ダイエー + まいばすけっと** の三段重ね。経済圏を変えるとさらに 2-3% 浮く。
 
 ---
 
@@ -108,7 +97,7 @@ author: "hacker-ko"
 <li>
 <div class="checklist-body">
 <strong>毎月 20・30 日 — 5%OFF デー</strong>
-<p>ダイエー豊洲・イオン東雲・まいばすけっと全店（イオンカード/WAON 決済）。**月 2 回のまとめ買いをここに集中**するのが最強。</p>
+<p>ダイエー豊洲・イオン東雲・まいばすけっと全店（イオンカード/WAON 決済）。<strong>月 2 回のまとめ買いをここに集中</strong>するのが最強。</p>
 </div>
 </li>
 <li>
@@ -145,11 +134,19 @@ author: "hacker-ko"
 
 ---
 
-## 🏬 全 18 店舗詳細（エリア別）
+## 🌸 晴海エリア（5 店舗）
 
-### 🌸 晴海エリア（6 店舗）
+<figure>
+<img src="/images/wangan-supermarkets-2026/wangan-map-晴海.png" alt="晴海エリア スーパーマップ — マルエツ プチ晴海 / マルエツ晴海三丁目 / 東武ストア晴海三丁目 / 成城石井晴海トリトン / サミットストア ららテラスHARUMI FLAG店" />
+<figcaption>晴海エリアの 5 店舗。HARUMI FLAG（中央南端）の **サミットストア** が最大、トリトンスクエア（中央北部）に **マルエツプチ + 成城石井** の高密度ゾーン。</figcaption>
+</figure>
 
-#### マルエツ プチ 晴海店（晴海トリトン 1F）
+### <img src="/images/wangan-supermarkets-2026/icons/logo-maruetsu.png" alt="マルエツ" width="80" style="vertical-align: middle" /> マルエツ プチ 晴海店（晴海トリトン 1F）
+
+<figure>
+<img src="/images/wangan-supermarkets-2026/maruetsu-petit-harumi.jpg" alt="マルエツ プチ 晴海店（出典：晴海トリトン公式）" />
+<figcaption>出典：[晴海トリトンスクエア公式](https://www.harumi-triton.jp/)</figcaption>
+</figure>
 
 - **住所**: 中央区晴海 1-8-16 晴海トリトンスクエア 1F
 - **アクセス**: 都営大江戸線 勝どき駅 徒歩 5 分
@@ -158,9 +155,9 @@ author: "hacker-ko"
 - **お得日**: 火・水 火曜市
 - **強み**: トリトン 1 階のコンパクト店、お酒・調味料が豊富、惣菜評価高い
 
-[📍 Google Maps で見る](https://www.google.com/maps?q=35.660630,139.776700&z=17) ／ [公式サイト](https://www.maruetsu.co.jp/store/9358/)
+[📍 Google マップで店舗を探す](https://www.google.com/maps/search/?api=1&query=マルエツプチ+晴海店+晴海トリトンスクエア) ／ [公式店舗ページ](https://www.maruetsu.co.jp/store/9358/)
 
-#### マルエツ 晴海三丁目店（24h）
+### <img src="/images/wangan-supermarkets-2026/icons/logo-maruetsu.png" alt="マルエツ" width="80" style="vertical-align: middle" /> マルエツ 晴海三丁目店（24h）
 
 - **住所**: 中央区晴海 3-13-2
 - **アクセス**: 都営大江戸線 勝どき駅 徒歩 10 分
@@ -168,10 +165,16 @@ author: "hacker-ko"
 - **ポイント**: dポイント / 楽天ポイント / WAON POINT
 - **お得日**: 火・水 火曜市、土日 ポイント 2 倍
 - **強み**: 深夜買い物拠点、タワマン居住者の救世主
+- **店舗写真**: 公式サイトに掲載なし（チェーンロゴでカバー）
 
-[📍 Google Maps で見る](https://www.google.com/maps?q=35.659200,139.778500&z=17) ／ [公式サイト](https://www.maruetsu.co.jp/store/9483/)
+[📍 Google マップで店舗を探す](https://www.google.com/maps/search/?api=1&query=マルエツ+晴海三丁目店+東京都中央区晴海3-13-2) ／ [公式店舗ページ](https://www.maruetsu.co.jp/store/9483/)
 
-#### 成城石井 晴海トリトン店
+### <img src="/images/wangan-supermarkets-2026/icons/logo-seijoishii.png" alt="成城石井" width="80" style="vertical-align: middle" /> 成城石井 晴海トリトン店
+
+<figure>
+<img src="/images/wangan-supermarkets-2026/seijoishii-harumi-triton.jpg" alt="成城石井 晴海トリトン店（出典：晴海トリトン公式）" />
+<figcaption>出典：[晴海トリトンスクエア公式](https://www.harumi-triton.jp/)</figcaption>
+</figure>
 
 - **住所**: 中央区晴海 1-8-16 晴海トリトンスクエア 2F
 - **アクセス**: 都営大江戸線 勝どき駅 A2a 出口 徒歩 8 分
@@ -181,9 +184,9 @@ author: "hacker-ko"
 - **強み**: 高級志向、ワイン・チーズ・プレミアムチーズケーキ
 - **⚠️ 注意**: 改装休業情報あり（訪問前に公式サイト確認推奨）
 
-[📍 Google Maps で見る](https://www.google.com/maps?q=35.660630,139.776700&z=17) ／ [公式サイト](https://shop.seijoishii.com/seijoishii/spot/detail?code=0087)
+[📍 Google マップで店舗を探す](https://www.google.com/maps/search/?api=1&query=成城石井+晴海トリトン店+晴海トリトンスクエア2F) ／ [公式店舗ページ](https://shop.seijoishii.com/seijoishii/spot/detail?code=0087)
 
-#### 東武ストア 晴海三丁目店
+### <img src="/images/wangan-supermarkets-2026/icons/logo-tobustore.jpg" alt="東武ストア" width="80" style="vertical-align: middle" /> 東武ストア 晴海三丁目店
 
 - **住所**: 中央区晴海 3-9-1
 - **アクセス**: 都営大江戸線 勝どき駅 徒歩 10 分
@@ -191,10 +194,11 @@ author: "hacker-ko"
 - **ポイント**: 東武ポイント / 東武お得意様カード
 - **お得日**: 水土 特売、毎月 18 日 東武の日（ポイント 2 倍）
 - **強み**: 広々レイアウト、生鮮・鮮魚に強み
+- **店舗写真**: 公式サイトに掲載なし
 
-[📍 Google Maps で見る](https://www.google.com/maps?q=35.658500,139.779700&z=17) ／ [公式サイト](https://www.tobustore.co.jp/index.php/shop/detail/74)
+[📍 Google マップで店舗を探す](https://www.google.com/maps/search/?api=1&query=東武ストア+晴海三丁目店+東京都中央区晴海3-9-1) ／ [公式店舗ページ](https://www.tobustore.co.jp/index.php/shop/detail/74)
 
-#### サミットストア ららテラス HARUMI FLAG 店
+### <img src="/images/wangan-supermarkets-2026/icons/logo-summit.png" alt="サミット" width="80" style="vertical-align: middle" /> サミットストア ららテラス HARUMI FLAG 店
 
 <figure>
 <img src="/images/wangan-supermarkets-2026/summit-harumi-flag.jpg" alt="サミットストア ららテラスHARUMI FLAG店（出典：三井ショッピングパーク公式）" />
@@ -204,17 +208,28 @@ author: "hacker-ko"
 - **住所**: 中央区晴海 5-2-31 ららテラスHARUMI FLAG 1F
 - **アクセス**: 都営大江戸線 勝どき駅 BRT 晴海ターミナル / 徒歩 20 分（無料巡回バスあり）
 - **営業時間**: 9:00〜22:00
-- **ポイント**: サミットカード / 三井ショッピングパーク / 楽天ペイ
+- **ポイント**: サミットカード / サミットアプリ / 楽天ペイ・PayPay 等のコード決済
+- **⚠️ 注意**: ららテラスHARUMI FLAG内ながら、**三井ショッピングパークポイントは対象外**（MSPカード《セゾン》クレジット払い・アプリde支払いも対象外。永久不滅ポイントとサミットポイントは貯まる）
 - **お得日**: 毎週ポイント 5 倍デー、サミットアプリクーポン配信
 - **強み**: HARUMI FLAG 居住者の生活拠点、駐車場 104 台、対面鮮魚・自家製ベーカリー
 
-[📍 Google Maps で見る](https://www.google.com/maps?q=35.649600,139.781600&z=17) ／ [公式サイト](https://mitsui-shopping-park.com/lalat-harumiflag/shopguide/2656974.html)
+[📍 Google マップで店舗を探す](https://www.google.com/maps/search/?api=1&query=サミットストア+ららテラスHARUMI+FLAG店) ／ [公式店舗ページ](https://mitsui-shopping-park.com/lalat-harumiflag/shopguide/2656974.html)
 
 ---
 
-### 🟧 勝どきエリア（4 店舗）
+## 🟧 勝どきエリア（4 店舗）
 
-#### ライフ 勝どきミッド店（駅直結）
+<figure>
+<img src="/images/wangan-supermarkets-2026/wangan-map-勝どき.png" alt="勝どきエリア スーパーマップ — ライフ勝どきミッド / マルエツ勝どき六丁目 / 文化堂勝どき / まいばすけっと勝どき3丁目" />
+<figcaption>勝どきエリアの 4 店舗。<strong>ライフ勝どきミッドが駅 A5 出口直結</strong>の最強立地、マルエツ勝どき六丁目は 24h、文化堂勝どきは駅 A1 至近。</figcaption>
+</figure>
+
+### <img src="/images/wangan-supermarkets-2026/icons/logo-life.png" alt="ライフ" width="80" style="vertical-align: middle" /> ライフ 勝どきミッド店（駅直結）
+
+<figure>
+<img src="/images/wangan-supermarkets-2026/life-kachidoki-mid.jpg" alt="ライフ 勝どきミッド店（出典：ライフコーポレーション公式）" />
+<figcaption>出典：[ライフコーポレーション 公式](https://store.lifecorp.jp/detail/east667/)</figcaption>
+</figure>
 
 - **住所**: 中央区勝どき 4-6-6
 - **アクセス**: **都営大江戸線 勝どき駅 A5 出口直結（徒歩 0 分）**
@@ -223,9 +238,9 @@ author: "hacker-ko"
 - **お得日**: 毎月 7・17・27 日 LC JCB 5 倍、火・水 火曜市
 - **強み**: 駅地上 0 分、HARUMI FLAG 居住者の生活インフラ、駐輪 119 台
 
-[📍 Google Maps で見る](https://www.google.com/maps?q=35.657169,139.777704&z=17) ／ [公式サイト](https://store.lifecorp.jp/detail/east667/)
+[📍 Google マップで店舗を探す](https://www.google.com/maps/search/?api=1&query=ライフ+勝どきミッド店+東京都中央区勝どき4-6-6) ／ [公式店舗ページ](https://store.lifecorp.jp/detail/east667/)
 
-#### マルエツ 勝どき六丁目店（24h）
+### <img src="/images/wangan-supermarkets-2026/icons/logo-maruetsu.png" alt="マルエツ" width="80" style="vertical-align: middle" /> マルエツ 勝どき六丁目店（24h）
 
 - **住所**: 中央区勝どき 6-3-2
 - **アクセス**: 勝どき駅 徒歩 5 分
@@ -233,10 +248,11 @@ author: "hacker-ko"
 - **ポイント**: dポイント / 楽天ポイント / WAON POINT
 - **お得日**: 火・水 火曜市、土日 ポイント 2 倍
 - **強み**: 駐車場あり（1,000 円以上で 1h 無料）、ザ・パークハウス晴海タワーズ住民向け
+- **店舗写真**: 公式サイトに掲載なし
 
-[📍 Google Maps で見る](https://www.google.com/maps?q=35.652900,139.776900&z=17) ／ [公式サイト](https://www.maruetsu.co.jp/store/9343/)
+[📍 Google マップで店舗を探す](https://www.google.com/maps/search/?api=1&query=マルエツ+勝どき六丁目店+東京都中央区勝どき6-3-2) ／ [公式店舗ページ](https://www.maruetsu.co.jp/store/9343/)
 
-#### 文化堂 勝どき店
+### <img src="/images/wangan-supermarkets-2026/icons/logo-bunkado.png" alt="文化堂" width="80" style="vertical-align: middle" /> 文化堂 勝どき店
 
 <figure>
 <img src="/images/wangan-supermarkets-2026/bunkado-kachidoki.jpg" alt="文化堂 勝どき店（出典：文化堂公式）" />
@@ -250,9 +266,9 @@ author: "hacker-ko"
 - **お得日**: 木曜ポイント 2 倍、毎月 10・20・30 日 特売
 - **強み**: 駅至近、地元密着、生鮮・惣菜の鮮度に定評
 
-[📍 Google Maps で見る](https://www.google.com/maps?q=35.660300,139.778100&z=17) ／ [公式サイト](https://www.bunkado.com/tenpo_kachidoki.html)
+[📍 Google マップで店舗を探す](https://www.google.com/maps/search/?api=1&query=文化堂+勝どき店+東京都中央区勝どき1-7-1) ／ [公式店舗ページ](https://www.bunkado.com/tenpo_kachidoki.html)
 
-#### まいばすけっと 勝どき 3 丁目店（早朝 7 時開店）
+### <img src="/images/wangan-supermarkets-2026/icons/logo-maibasuketto.png" alt="まいばすけっと" width="80" style="vertical-align: middle" /> まいばすけっと 勝どき 3 丁目店（早朝 7 時開店）
 
 - **住所**: 中央区勝どき 3-13-1 FOREFRONT TOWER II
 - **アクセス**: 勝どき駅 徒歩 6 分
@@ -260,14 +276,20 @@ author: "hacker-ko"
 - **ポイント**: WAON POINT / WAON
 - **お得日**: 毎月 20・30 日 5%OFF、10 日 ありが 10 デー
 - **強み**: タワマン地階、朝 7 時〜深夜 23 時、イオン銀行 ATM 併設
+- **店舗写真**: 公式サイトに個別店舗写真の掲載なし
 
-[📍 Google Maps で見る](https://www.google.com/maps?q=35.659700,139.778200&z=17) ／ [公式サイト](https://www.mybasket.co.jp/shop/detail/74840.html)
+[📍 Google マップで店舗を探す](https://www.google.com/maps/search/?api=1&query=まいばすけっと+勝どき3丁目店+FOREFRONT+TOWER) ／ [公式店舗ページ](https://www.mybasket.co.jp/shop/detail/74840.html)
 
 ---
 
-### 🟢 月島エリア（4 店舗）
+## 🟢 月島エリア（4 店舗）
 
-#### マルエツ 佃店（リバーシティ21）
+<figure>
+<img src="/images/wangan-supermarkets-2026/wangan-map-月島.png" alt="月島エリア スーパーマップ — マルエツ佃 / リンコス リバーシティ / 文化堂月島 / まいばすけっと月島2丁目" />
+<figcaption>月島エリアの 4 店舗。<strong>リバーシティ21 内にマルエツ佃 + リンコス</strong>が並存、文化堂月島ともんじゃ街の老舗、まいばすけっと月島2丁目はもんじゃストリート裏。</figcaption>
+</figure>
+
+### <img src="/images/wangan-supermarkets-2026/icons/logo-maruetsu.png" alt="マルエツ" width="80" style="vertical-align: middle" /> マルエツ 佃店（リバーシティ21）
 
 - **住所**: 中央区佃 2-2-8 リバーシティ21 G棟
 - **アクセス**: 月島駅 6 番出口 徒歩 3 分
@@ -275,10 +297,11 @@ author: "hacker-ko"
 - **ポイント**: dポイント / 楽天ポイント / WAON POINT
 - **お得日**: 火・水 火曜市
 - **強み**: リバーシティ21 居住者のメイン店、フルラインの生鮮揃え
+- **店舗写真**: 公式サイトに掲載なし
 
-[📍 Google Maps で見る](https://www.google.com/maps?q=35.668700,139.781100&z=17) ／ [公式サイト](https://www.maruetsu.co.jp/store/9275/)
+[📍 Google マップで店舗を探す](https://www.google.com/maps/search/?api=1&query=マルエツ+佃店+東京都中央区佃2-2-8) ／ [公式店舗ページ](https://www.maruetsu.co.jp/store/9275/)
 
-#### リンコス リバーシティ店（高品質業態）
+### <img src="/images/wangan-supermarkets-2026/icons/logo-maruetsu.png" alt="リンコス（マルエツ系）" width="80" style="vertical-align: middle" /> リンコス リバーシティ店（高品質業態）
 
 - **住所**: 中央区佃 1-11-8 リバーシティ21 ピアウエスト
 - **アクセス**: 月島駅 徒歩 10 分 / 東京駅から都営バス
@@ -286,10 +309,11 @@ author: "hacker-ko"
 - **ポイント**: dポイント / 楽天ポイント / WAON POINT
 - **お得日**: 火・水 火曜市
 - **強み**: マルエツの高品質業態、輸入食材・ワイン豊富、駐車場 70 台、Uber Eats 対応
+- **店舗写真**: 公式サイトに掲載なし
 
-[📍 Google Maps で見る](https://www.google.com/maps?q=35.669200,139.781400&z=17) ／ [公式サイト](https://www.maruetsu.co.jp/store/9276/)
+[📍 Google マップで店舗を探す](https://www.google.com/maps/search/?api=1&query=リンコス+リバーシティ店+リバーシティ21ピアウエスト) ／ [公式店舗ページ](https://www.maruetsu.co.jp/store/9276/)
 
-#### 文化堂 月島店
+### <img src="/images/wangan-supermarkets-2026/icons/logo-bunkado.png" alt="文化堂" width="80" style="vertical-align: middle" /> 文化堂 月島店
 
 <figure>
 <img src="/images/wangan-supermarkets-2026/bunkado-tsukishima.jpg" alt="文化堂 月島店（出典：文化堂公式）" />
@@ -303,9 +327,9 @@ author: "hacker-ko"
 - **お得日**: 木曜ポイント 2 倍、10・20・30 日 特売
 - **強み**: 下町月島の老舗、月島駅直結、対面販売の鮮魚部が強い
 
-[📍 Google Maps で見る](https://www.google.com/maps?q=35.665700,139.781000&z=17) ／ [公式サイト](https://www.bunkado.com/tenpo_tsukishima.html)
+[📍 Google マップで店舗を探す](https://www.google.com/maps/search/?api=1&query=文化堂+月島店+東京都中央区月島2-10-2) ／ [公式店舗ページ](https://www.bunkado.com/tenpo_tsukishima.html)
 
-#### まいばすけっと 月島 2 丁目店
+### <img src="/images/wangan-supermarkets-2026/icons/logo-maibasuketto.png" alt="まいばすけっと" width="80" style="vertical-align: middle" /> まいばすけっと 月島 2 丁目店
 
 - **住所**: 中央区月島 2-13-5
 - **アクセス**: 月島駅 徒歩 3 分
@@ -313,14 +337,25 @@ author: "hacker-ko"
 - **ポイント**: WAON POINT / WAON
 - **お得日**: 毎月 20・30 日 5%OFF、10 日 ありが 10
 - **強み**: もんじゃストリート裏手、地元日常使い、朝 7 時〜深夜 23 時
+- **店舗写真**: 公式サイトに個別店舗写真の掲載なし
 
-[📍 Google Maps で見る](https://www.google.com/maps?q=35.665900,139.779000&z=17) ／ [公式サイト](https://www.mybasket.co.jp/shop/detail/32179.html)
+[📍 Google マップで店舗を探す](https://www.google.com/maps/search/?api=1&query=まいばすけっと+月島2丁目店+東京都中央区月島2-13-5) ／ [公式店舗ページ](https://www.mybasket.co.jp/shop/detail/32179.html)
 
 ---
 
-### 🔵 豊洲エリア（5 店舗）
+## 🔵 豊洲エリア（5 店舗）
 
-#### ライフ 豊洲店（3 階建て大型）
+<figure>
+<img src="/images/wangan-supermarkets-2026/wangan-map-豊洲.png" alt="豊洲エリア スーパーマップ — ライフ豊洲 / ダイエー豊洲 / 成城石井ららぽーと豊洲 / イオン東雲 / まいばすけっと豊洲1丁目" />
+<figcaption>豊洲エリアの 5 店舗。<strong>ライフ豊洲（3階建て大型）</strong>が中心、ダイエーは朝 7 時〜深夜 0 時、ららぽーと地下に成城石井、東雲のイオンは 24h GMS。</figcaption>
+</figure>
+
+### <img src="/images/wangan-supermarkets-2026/icons/logo-life.png" alt="ライフ" width="80" style="vertical-align: middle" /> ライフ 豊洲店（3 階建て大型）
+
+<figure>
+<img src="/images/wangan-supermarkets-2026/life-toyosu.jpg" alt="ライフ 豊洲店（出典：ライフコーポレーション公式）" />
+<figcaption>出典：[ライフコーポレーション 公式](https://store.lifecorp.jp/detail/east659/)</figcaption>
+</figure>
 
 - **住所**: 江東区豊洲 4-11-6
 - **アクセス**: 豊洲駅 徒歩 5 分（400m）
@@ -329,9 +364,9 @@ author: "hacker-ko"
 - **お得日**: 毎月 7・17・27 日 LC JCB 5 倍、火・水 火曜市、LaCuCa チャージデー（1・2・3・15・16・17 日）
 - **強み**: 3 階建て大型店、生鮮・惣菜・ベーカリー充実、ネットスーパー対応、駐車場 77 台
 
-[📍 Google Maps で見る](https://www.google.com/maps?q=35.654000,139.798500&z=17) ／ [公式サイト](https://store.lifecorp.jp/detail/east659/)
+[📍 Google マップで店舗を探す](https://www.google.com/maps/search/?api=1&query=ライフ+豊洲店+東京都江東区豊洲4-11-6) ／ [公式店舗ページ](https://store.lifecorp.jp/detail/east659/)
 
-#### ダイエー 豊洲店（朝 7 時〜深夜 0 時、イオンフードスタイル）
+### <img src="/images/wangan-supermarkets-2026/icons/logo-daiei.png" alt="ダイエー" width="80" style="vertical-align: middle" /> ダイエー 豊洲店（朝 7 時〜深夜 0 時、イオンフードスタイル）
 
 - **住所**: 江東区豊洲 5-1-6 ブランズタワー豊洲 1F
 - **アクセス**: 豊洲駅 6b 出口 徒歩 7 分
@@ -339,10 +374,11 @@ author: "hacker-ko"
 - **ポイント**: WAON POINT / WAON / イオンカード
 - **お得日**: 毎月 20・30 日 5%OFF、15 日 G.G デー、5・15・25 日 ポイント 2 倍
 - **強み**: PB「トップバリュ」中心の低価格、駐車場 6 台、ATM・カフェ併設
+- **店舗写真**: イオンフードスタイル公式サイトに外観写真なし
 
-[📍 Google Maps で見る](https://www.google.com/maps?q=35.654800,139.795700&z=17) ／ [公式サイト](https://www.aeonfoodstyle.com/stores/d0888/)
+[📍 Google マップで店舗を探す](https://www.google.com/maps/search/?api=1&query=ダイエー+豊洲店+ブランズタワー豊洲) ／ [公式店舗ページ](https://www.aeonfoodstyle.com/stores/d0888/)
 
-#### 成城石井 ららぽーと豊洲店
+### <img src="/images/wangan-supermarkets-2026/icons/logo-seijoishii.png" alt="成城石井" width="80" style="vertical-align: middle" /> 成城石井 ららぽーと豊洲店
 
 <figure>
 <img src="/images/wangan-supermarkets-2026/seijoishii-lalaport.jpg" alt="成城石井 ららぽーと豊洲店（出典：三井ショッピングパーク公式）" />
@@ -352,13 +388,13 @@ author: "hacker-ko"
 - **住所**: 江東区豊洲 2-2-1 ららぽーと豊洲 3 B1F
 - **アクセス**: 豊洲駅 2 番・1C 出口 徒歩 3 分
 - **営業時間**: 平日 8:00-23:00 / 土日祝 10:00-21:00
-- **ポイント**: 成城石井 / 三井 SP / 楽天 / PayPay
-- **お得日**: 毎月 1 日 ポイント 10 倍、三井 SP カード会員 2%
+- **ポイント**: 成城石井 / 三井 SP（**付与・利用とも対象内**）/ 楽天 / PayPay
+- **お得日**: 毎月 1 日 ポイント 10 倍、MSPカード《セゾン》クレジット 1%（税抜100円=1pt）
 - **強み**: ららぽーと地下、豊洲駅直結級アクセス、世界の食品
 
-[📍 Google Maps で見る](https://www.google.com/maps?q=35.654900,139.792800&z=17) ／ [公式サイト](https://shop.seijoishii.com/seijoishii/spot/detail?code=0222)
+[📍 Google マップで店舗を探す](https://www.google.com/maps/search/?api=1&query=成城石井+ららぽーと豊洲店+東京都江東区豊洲2-2-1) ／ [公式店舗ページ](https://shop.seijoishii.com/seijoishii/spot/detail?code=0222)
 
-#### イオン 東雲店（24h GMS）
+### <img src="/images/wangan-supermarkets-2026/icons/logo-aeon.png" alt="イオン" width="80" style="vertical-align: middle" /> イオン 東雲店（24h GMS）
 
 - **住所**: 江東区東雲 1-9-10
 - **アクセス**: 辰巳駅 徒歩 13 分 / 豊洲駅 徒歩 20 分（無料シャトル）
@@ -366,10 +402,11 @@ author: "hacker-ko"
 - **ポイント**: WAON POINT / WAON / イオンカード
 - **お得日**: 20・30 日 5%OFF、15 日 G.G、5・15・25 日 ポイント 2 倍、10 日 ありが 10
 - **強み**: 24h GMS、衣料・日用品・専門店・ペテモ・タックスフリー対応、無料駐車場
+- **店舗写真**: AEON.com 公式に店舗外観写真なし
 
-[📍 Google Maps で見る](https://www.google.com/maps?q=35.645100,139.797900&z=17) ／ [公式サイト](https://www.aeon.com/store/イオン/イオン東雲店/)
+[📍 Google マップで店舗を探す](https://www.google.com/maps/search/?api=1&query=イオン+東雲店+東京都江東区東雲1-9-10) ／ [公式店舗ページ](https://www.aeon.com/store/イオン/イオン東雲店/)
 
-#### まいばすけっと 豊洲 1 丁目店
+### <img src="/images/wangan-supermarkets-2026/icons/logo-maibasuketto.png" alt="まいばすけっと" width="80" style="vertical-align: middle" /> まいばすけっと 豊洲 1 丁目店
 
 - **住所**: 江東区豊洲 1-2-39 パークアクシス豊洲
 - **アクセス**: 豊洲駅 徒歩 8 分
@@ -377,8 +414,15 @@ author: "hacker-ko"
 - **ポイント**: WAON POINT / WAON
 - **お得日**: 20・30 日 5%OFF、10 日 ありが 10
 - **強み**: 小型コンビニ感覚、PB「トップバリュ」中心の低価格
+- **店舗写真**: 公式サイトに個別店舗写真の掲載なし
 
-[📍 Google Maps で見る](https://www.google.com/maps?q=35.660300,139.795500&z=17) ／ [公式サイト](https://www.mybasket.co.jp/shop/detail/74803.html)
+[📍 Google マップで店舗を探す](https://www.google.com/maps/search/?api=1&query=まいばすけっと+豊洲1丁目店+パークアクシス豊洲) ／ [公式店舗ページ](https://www.mybasket.co.jp/shop/detail/74803.html)
+
+---
+
+## 📷 店舗写真について
+
+公式サイトに店舗外観・内観写真の掲載がない 10 店舗（マルエツ全店・東武ストア・ダイエー・イオン・まいばすけっと全店）は、**チェーンロゴで代替表示**しています。これは画質ポリシー準拠（第三者ブログや SNS 画像引用は不可）の結果。Google マップのストリートビューや店舗写真は各店舗ページから直接確認できます。
 
 ---
 
@@ -430,14 +474,14 @@ author: "hacker-ko"
 <ul class="checklist">
 <li>
 <div class="checklist-body">
-<strong>マップで自分の家から徒歩 5 分圏内の店舗を 3〜4 つ把握</strong>
-<p>引っ越し直後の人は記事冒頭のマップを見て、駅・自宅・職場の三角圏で利用店を固定する。</p>
+<strong>4 エリア別マップで自分の家から徒歩 5 分圏内の店舗を 3〜4 つ把握</strong>
+<p>引っ越し直後の人は各エリアのマップを見て、駅・自宅・職場の三角圏で利用店を固定する。</p>
 </div>
 </li>
 <li>
 <div class="checklist-body">
 <strong>経済圏（WAON / d / 楽天 / PayPay / 三井 SP）を 1 つに固定</strong>
-<p>店を分散させず、経済圏に合う店舗群でローテ。月 5,000〜15,000 円浮く。</p>
+<p>店を分散させず、経済圏に合う店舗群でローテ。月 5,000〜15,000 円浮く。<strong>HARUMI FLAG サミットは MSP 対象外</strong>に注意。</p>
 </div>
 </li>
 <li>
