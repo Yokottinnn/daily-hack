@@ -114,24 +114,43 @@ def stylize(img):
 def rects_overlap(a, b, pad=4):
     return not (a[2] + pad < b[0] or b[2] + pad < a[0] or a[3] + pad < b[1] or b[3] + pad < a[1])
 
+def decluster(centers, mind):
+    """重なり合うマーカー中心を、元の位置を保ちつつ最小距離 mind まで押し広げる（力学的）。"""
+    pts = [list(c) for c in centers]
+    for _ in range(80):
+        moved = False
+        for i in range(len(pts)):
+            for j in range(i + 1, len(pts)):
+                dx = pts[j][0] - pts[i][0]; dy = pts[j][1] - pts[i][1]
+                d = math.hypot(dx, dy)
+                if d < mind:
+                    if d < 0.01:  # 完全一致（同一施設の1F/2F等）は決定的な方向へ
+                        dx, dy, d = math.cos(i * 2.4), math.sin(i * 2.4), 1.0
+                    push = (mind - d) / 2 + 0.6
+                    ux, uy = dx / d, dy / d
+                    pts[i][0] -= ux * push; pts[i][1] -= uy * push
+                    pts[j][0] += ux * push; pts[j][1] += uy * push
+                    moved = True
+        if not moved:
+            break
+    return [tuple(p) for p in pts]
+
 def place_label(anchor, w, h, placed, bounds, prefer=None):
+    """マーカーの最寄りの空きスロットを放射状に探索（リーダー線を最短に＝施設の近くに置く）。"""
     ax, ay = anchor
-    cand = prefer or []
-    cand += [(18, -h // 2), (-w - 18, -h // 2), (-w // 2, 16), (-w // 2, -h - 16),
-             (16, 14), (-w - 16, 14), (16, -h - 14), (-w - 16, -h - 14),
-             (30, -h - 24), (-w - 30, -h - 24), (40, -h//2), (-w-40, -h//2)]
-    for dx, dy in cand:
-        x0 = ax + dx; y0 = ay + dy
-        x0 = max(6, min(x0, bounds[0] - w - 6))
-        y0 = max(6, min(y0, bounds[1] - h - 6))
-        r = (x0, y0, x0 + w, y0 + h)
-        if not any(rects_overlap(r, p) for p in placed):
-            return r
-    # fallback: stack downward (clamp x into bounds so it never clips)
+    for radius in range(int(CHIP / 2) + 8, 480, 11):
+        for ang in range(-90, 270, 16):  # 上方向を最初に試す
+            rad = math.radians(ang)
+            cxp = ax + math.cos(rad) * radius
+            cyp = ay + math.sin(rad) * radius
+            x0 = cxp - w / 2; y0 = cyp - h / 2
+            x0 = max(6, min(x0, bounds[0] - w - 6))
+            y0 = max(6, min(y0, bounds[1] - h - 6))
+            r = (x0, y0, x0 + w, y0 + h)
+            if not any(rects_overlap(r, p) for p in placed):
+                return r
     x0 = max(6, min(ax + 18, bounds[0] - w - 6))
-    y0 = 6
-    while any(rects_overlap((x0, y0, x0 + w, y0 + h), p) for p in placed) and y0 < bounds[1] - h - 6:
-        y0 += h + 6
+    y0 = max(6, min(ay - h / 2, bounds[1] - h - 6))
     return (x0, y0, x0 + w, y0 + h)
 
 def draw_leader(draw, marker, rect):
@@ -201,11 +220,13 @@ def render_area(area):
     placed = []
     fL = font(27); fLs = font(22, light=True); fSt = font(25)
 
+    # 同一/近接施設で重なるロゴチップを分離（位置は施設の近くを維持）
+    store_centers = decluster([to_canvas(s["lat"], s["lng"], origin) for s in stores], CHIP + 8)
+
     # タイトルバッジ領域を予約（左上にラベルが潜り込まない）
     placed.append((6, 6, 6 + len(f"{area}エリア スーパーマップ") * 34 + 50, 76))
     # マーカー/ロゴチップの占有領域を先に予約 → ラベルが図形に被らない
-    for s in stores:
-        mx, my = to_canvas(s["lat"], s["lng"], origin)
+    for (mx, my) in store_centers:
         placed.append((mx - CHIP / 2 - 2, my - CHIP / 2 - 2, mx + CHIP / 2 + 2, my + CHIP / 2 + 2))
     for nm in conf["stations"]:
         mx, my = to_canvas(*STATIONS[nm], origin)
@@ -240,8 +261,7 @@ def render_area(area):
 
     # 3) store markers (logo chips) + labels
     chip_layer = Image.new("RGBA", (W, H), (0, 0, 0, 0))
-    for s in stores:
-        cx, cy = to_canvas(s["lat"], s["lng"], origin)
+    for s, (cx, cy) in zip(stores, store_centers):
         nm = short_name(s["name"])
         ring = ring_for(s["name"])
         tb = d.textbbox((0, 0), nm, font=fL); tw, th = tb[2] - tb[0], tb[3] - tb[1]
