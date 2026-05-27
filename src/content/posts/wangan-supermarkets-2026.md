@@ -1,6 +1,6 @@
 ---
-title: "湾岸エリア スーパー徹底比較 18店舗｜晴海・勝どき・月島・豊洲、ポイントカード × お得日 完全マップ 2026"
-description: "晴海・勝どき・月島・豊洲の主要スーパー18店舗を、エリア別マップ・チェーンロゴ・ポイントカード比較で完全網羅。HARUMI FLAG居住者必読、24時間営業&早朝・深夜マップも公開。"
+title: "湾岸エリア スーパー徹底比較 17店舗｜晴海・勝どき・月島・豊洲、ポイントカード × お得日 完全マップ 2026"
+description: "晴海・勝どき・月島・豊洲の主要スーパー17店舗を、エリア別マップ・チェーンロゴ・ポイントカード比較で完全網羅。HARUMI FLAG居住者必読、24時間営業&早朝・深夜マップも公開。"
 publishDate: 2026-05-25
 category: ["wangan-life", "comparisons", "howto"]
 tags: ["湾岸ライフ", "スーパー", "晴海", "勝どき", "月島", "豊洲", "HARUMI FLAG", "ポイントカード", "節約", "中央区", "江東区"]
@@ -8,17 +8,17 @@ isPR: false
 draft: false
 featured: true
 eyecatchUrl: "/images/wangan-supermarkets-2026/wangan-collage.jpg"
-eyecatchAlt: "湾岸エリア スーパー徹底比較 — ライフ・マルエツ・文化堂・成城石井・サミット・ダイエー・イオン・まいばすけっと・東武ストアの 9 ロゴコラージュ"
+eyecatchAlt: "湾岸エリア スーパー徹底比較 — ライフ・マルエツ・文化堂・成城石井・サミット・ダイエー・まいばすけっと・東武ストア・リンコスの 9 ロゴコラージュ"
 author: "hacker-ko"
 ---
 
 「湾岸に引っ越したけど、どのスーパーが一番おトクなの？」── 晴海フラッグの引き渡しから半年、月島・勝どきのタワマンも増えて、**湾岸エリアの生鮮食品事情はガラッと変わった**。
 
-このページでは中央区晴海・勝どき・月島、江東区豊洲の **主要スーパー 18 店舗** を、ポイントカード・お得日・営業時間・場所まで全部比較。エリア別マップ付きで、HARUMI FLAG 居住者からも勝どき民からも豊洲民からも「これ 1 本で日々の買い物が完成する」レベルのまとめ。
+このページでは中央区晴海・勝どき・月島、江東区豊洲の **主要スーパー 17 店舗** を、ポイントカード・お得日・営業時間・場所まで全部比較。エリア別マップ付きで、HARUMI FLAG 居住者からも勝どき民からも豊洲民からも「これ 1 本で日々の買い物が完成する」レベルのまとめ。
 
 <div class="hakkako-says">
 <img src="/images/expr-05-smug.png" alt="ハッカー子" />
-<p>アタシ晴海在住歴で言うと、<strong>「火曜日はマルエツ、木曜日は文化堂、毎月 20・30 日はダイエー/イオン」</strong> ってルーティンで月 1.5 万円くらい食費が浮いてる。ポイント還元じゃなくて<strong>「決済までしたあとに引かれる本物の値引き」</strong>を狙うのがコスパ最強。下のエリア別マップで自分の家から徒歩 5 分の店舗群を見つけて、各店の「お得日」をスマホのカレンダーに登録すればもう勝ち。</p>
+<p>アタシ晴海在住歴で言うと、<strong>「火曜日はマルエツ、木曜日は文化堂、毎月 20・30 日はダイエー」</strong> ってルーティンで月 1.5 万円くらい食費が浮いてる。ポイント還元じゃなくて<strong>「決済までしたあとに引かれる本物の値引き」</strong>を狙うのがコスパ最強。下のエリア別マップで自分の家から徒歩 5 分の店舗群を見つけて、各店の「お得日」をスマホのカレンダーに登録すればもう勝ち。</p>
 </div>
 
 ## エリア別の特徴（30秒サマリ）
@@ -44,8 +44,8 @@ author: "hacker-ko"
 </li>
 <li>
 <div class="checklist-body">
-<strong>豊洲（5店舗）</strong>
-<p>ライフ豊洲（3階建て大型）、ダイエー豊洲（朝 7 時〜深夜 0 時）、ららぽーと内成城石井、イオン東雲（24 時間 GMS）と、業態の多様性が魅力。</p>
+<strong>豊洲（4店舗）</strong>
+<p>ライフ豊洲（3階建て大型）、ダイエー豊洲（朝 7 時〜深夜 0 時）、ららぽーと内成城石井、まいばすけっと豊洲1丁目と、業態の多様性が魅力。</p>
 </div>
 </li>
 </ul>
@@ -58,18 +58,19 @@ author: "hacker-ko"
 
 | ロゴ | ポイント | 一番強い店舗（エリア） | 還元率 | 主要お得日 |
 |:---:|---|---|---|---|
-| <img src="/images/wangan-supermarkets-2026/icons/point-waon.png" alt="WAON" width="60" /> | **WAON / WAON POINT** | イオン（豊洲）・ダイエー（豊洲）・まいばすけっと（晴海/勝どき/月島/豊洲） | 0.5〜1% | 毎月 20・30 日 5%OFF、15 日 G.G デー（55+）、10 日 ありが10、5・15・25 日 ポイント2倍 |
+| <img src="/images/wangan-supermarkets-2026/icons/point-waon.png" alt="WAON" width="60" /> | **WAON / WAON POINT** | ダイエー（豊洲）・まいばすけっと（晴海/勝どき/月島/豊洲） | 0.5〜1% | 毎月 20・30 日 5%OFF、15 日 G.G デー（55+）、10 日 ありが10、5・15・25 日 ポイント2倍 |
 | <img src="/images/wangan-supermarkets-2026/icons/point-dpoint.png" alt="d払い" width="60" /> | **d ポイント** | ライフ（豊洲/勝どき）・マルエツ（晴海/勝どき/月島）・リンコス（月島） | 0.5〜1% | 毎週金土 d 曜日（+3%）、ライフ 5の付く日 |
 | <img src="/images/wangan-supermarkets-2026/icons/point-rakuten.svg" alt="楽天" width="60" /> | **楽天ポイント** | ライフ（豊洲/勝どき）・マルエツ全店・成城石井（晴海/豊洲） | 0.5〜1% | サミット（晴海）は楽天ペイ最大 20%（不定期） |
 | <img src="/images/wangan-supermarkets-2026/icons/point-paypay.png" alt="PayPay" width="60" /> | **PayPay** | ライフ全店・成城石井（晴海/豊洲）・サミット（晴海） | 0.5% | PayPay ステップ・週末ジャンボくじ |
-| <img src="/images/wangan-supermarkets-2026/icons/point-mitsui-sp.png" alt="三井ショッピングパーク" width="60" /> | **三井ショッピングパーク** | 成城石井（豊洲・ららぽーと内）※サミットHARUMI FLAGは対象外 | 1%（税抜100円=1pt） | MSPカード《セゾン》クレジット同上、ポイントUP月間あり |
+| <img src="/images/wangan-supermarkets-2026/icons/point-mitsui-sp.png" alt="三井ショッピングパーク" width="60" /> | **三井ショッピングパーク** | 成城石井（豊洲・ららぽーと内）※サミットHARUMI FLAGはMSP対象外（サミットポイントは別途貯まる） | 1%（税抜100円=1pt） | MSPカード《セゾン》クレジット同上、ポイントUP月間あり |
+| <img src="/images/wangan-supermarkets-2026/icons/logo-summit.png" alt="サミット" width="60" /> | **サミットポイント** | サミット（HARUMI FLAG） | 0.5%（税抜200円=1pt） | **火曜 ポイント10倍（実質5%）**、木・日 5倍（2.5%）、アプリ会員価格 |
 | <img src="/images/wangan-supermarkets-2026/icons/point-lc.png" alt="LCポイント" width="60" /> | **LC ポイント（独自）** | ライフ（豊洲・勝どき） | 0.5%（LC JCB 決済で実質 3 倍） | 毎月 7・17・27 日 LC JCB 5 倍、LaCuCa チャージデー（1・2・3・15・16・17 日） |
 | <img src="/images/wangan-supermarkets-2026/icons/point-bunkado.png" alt="文化堂" width="60" /> | **文化堂ポイント** | 文化堂（月島・勝どき） | 0.5〜1% | 木曜ポイント 2 倍、毎月 10・20・30 日 特売 |
 | <img src="/images/wangan-supermarkets-2026/icons/point-ponta.png" alt="Ponta" width="60" /> | **Ponta** | ライフ（豊洲・勝どき） | 0.5〜1% | auPAY +0.5%、毎月 3・13・23 日 三太郎の日 |
 
-> ⚠️ **HARUMI FLAG サミットの注意点**：[ららテラスHARUMI FLAG 公式案内](https://mitsui-shopping-park.com/lalat-harumiflag/info/2666417.html)に明記されている通り、サミットストア HARUMI FLAG 店では **三井ショッピングパークポイントの付与・利用、MSPカード《セゾン》のクレジット払い、アプリde支払い、メンバーズプログラム積算すべて対象外**。MSP 経済圏ユーザーは成城石井ららぽーと豊洲店を選択がベター。
+> ⚠️ **HARUMI FLAG サミットの注意点（誤解されがち）**：[ららテラスHARUMI FLAG 公式案内](https://mitsui-shopping-park.com/lalat-harumiflag/info/2666417.html)の通り、サミットストア HARUMI FLAG 店は **三井ショッピングパーク（MSP）ポイントの付与・利用、MSPカード《セゾン》クレジット払い・アプリde支払い・メンバーズプログラム積算が対象外**。ただし **サミット独自の「サミットポイント」はしっかり貯まる**ので “ポイントが付かない店” ではない。基本は税抜200円=1pt（0.5%）、**木・日は5倍（2.5%）、火曜は10倍（実質5%）** と高還元で、[サミットアプリ](https://www.summitstore.co.jp/app-about/)がデジタルポイントカード兼会員価格・クーポンになり、10,000pt→現金1万円に交換可（火曜はキャッシュバックデー）。**MSP 経済圏に寄せたい人だけ** 成城石井ららぽーと豊洲店との併用がベター。
 >
-> 🎯 **戦術**：楽天勢は **ライフ + マルエツ** で固める、PayPay 勢は **ライフ + サミット**、d ポイント勢も **ライフ + マルエツ + リンコス**、WAON/イオン経済圏勢は **イオン東雲 + ダイエー + まいばすけっと** の三段重ね。経済圏を変えるとさらに 2-3% 浮く。
+> 🎯 **戦術**：楽天勢は **ライフ + マルエツ** で固める、PayPay 勢は **ライフ + サミット**、d ポイント勢も **ライフ + マルエツ + リンコス**、WAON 経済圏勢は **ダイエー豊洲 + まいばすけっと** の二段重ね。HARUMI FLAG 民は **サミットポイント（火曜10倍）** を軸にするのが地力で一番強い。経済圏を変えるとさらに 2-3% 浮く。
 
 ---
 
@@ -97,25 +98,25 @@ author: "hacker-ko"
 <li>
 <div class="checklist-body">
 <strong>毎月 20・30 日 — 5%OFF デー</strong>
-<p>ダイエー豊洲・イオン東雲・まいばすけっと全店（イオンカード/WAON 決済）。<strong>月 2 回のまとめ買いをここに集中</strong>するのが最強。</p>
+<p>ダイエー豊洲・まいばすけっと全店（イオンカード/WAON 決済）。<strong>月 2 回のまとめ買いをここに集中</strong>するのが最強。</p>
 </div>
 </li>
 <li>
 <div class="checklist-body">
 <strong>毎月 15 日 — G.G 感謝デー</strong>
-<p>ダイエー・イオンで 55 歳以上 5%OFF。親世代向け。</p>
+<p>ダイエー豊洲で 55 歳以上 5%OFF。親世代向け。</p>
 </div>
 </li>
 <li>
 <div class="checklist-body">
 <strong>毎月 5・15・25 日 — お客さまわくわくデー</strong>
-<p>ダイエー・イオンで WAON ポイント 2 倍。</p>
+<p>ダイエー豊洲で WAON ポイント 2 倍。</p>
 </div>
 </li>
 <li>
 <div class="checklist-body">
 <strong>毎月 10 日 — ありが10 デー</strong>
-<p>イオン東雲・まいばすけっと全店。WAON 5%OFF。</p>
+<p>まいばすけっと全店。WAON 5%OFF。</p>
 </div>
 </li>
 <li>
@@ -214,9 +215,9 @@ author: "hacker-ko"
 - **住所**: 中央区晴海 5-2-31 ららテラスHARUMI FLAG 1F
 - **アクセス**: 都営大江戸線 勝どき駅 BRT 晴海ターミナル / 徒歩 20 分（無料巡回バスあり）
 - **営業時間**: 9:00〜22:00
-- **ポイント**: サミットカード / サミットアプリ / 楽天ペイ・PayPay 等のコード決済
-- **⚠️ 注意**: ららテラスHARUMI FLAG内ながら、**三井ショッピングパークポイントは対象外**（MSPカード《セゾン》クレジット払い・アプリde支払いも対象外。永久不滅ポイントとサミットポイントは貯まる）
-- **お得日**: 毎週ポイント 5 倍デー、サミットアプリクーポン配信
+- **ポイント**: **サミットポイント**（サミットカード／サミットアプリのデジタルポイントカード、200円=1pt の0.5%）/ 楽天ペイ・PayPay 等のコード決済
+- **⚠️ 注意**: ららテラスHARUMI FLAG 内だが **三井ショッピングパーク（MSP）ポイントは対象外**（MSPカード《セゾン》クレジット払い・アプリde支払いも対象外）。一方で **サミットポイントは通常通り貯まる**（MSPカードの永久不滅ポイントも別途付与）ので、サミット利用者にとってデメリットは小さい
+- **お得日**: **火曜 ポイント10倍（実質5%）**、木・日 5倍（2.5%）、火曜キャッシュバックデー、サミットアプリクーポン配信
 - **強み**: HARUMI FLAG 居住者の生活拠点、駐車場 104 台、対面鮮魚・自家製ベーカリー
 
 [📍 Google マップで店舗を探す](https://www.google.com/maps/search/?api=1&query=サミットストア+ららテラスHARUMI+FLAG店) ／ [公式店舗ページ](https://mitsui-shopping-park.com/lalat-harumiflag/shopguide/2656974.html)
@@ -369,11 +370,11 @@ author: "hacker-ko"
 
 ---
 
-## 🔵 豊洲エリア（5 店舗）
+## 🔵 豊洲エリア（4 店舗）
 
 <figure>
-<img src="/images/wangan-supermarkets-2026/wangan-map-豊洲.png" alt="豊洲エリア スーパーマップ — ライフ豊洲 / ダイエー豊洲 / 成城石井ららぽーと豊洲 / イオン東雲 / まいばすけっと豊洲1丁目" />
-<figcaption>豊洲エリアの 5 店舗。<strong>ライフ豊洲（3階建て大型）</strong>が中心、ダイエーは朝 7 時〜深夜 0 時、ららぽーと地下に成城石井、東雲のイオンは 24h GMS。</figcaption>
+<img src="/images/wangan-supermarkets-2026/wangan-map-豊洲.png" alt="豊洲エリア スーパーマップ — ライフ豊洲 / ダイエー豊洲 / 成城石井ららぽーと豊洲 / まいばすけっと豊洲1丁目" />
+<figcaption>豊洲エリアの 4 店舗。<strong>ライフ豊洲（3階建て大型）</strong>が中心、ダイエーは朝 7 時〜深夜 0 時、ららぽーと地下に成城石井、まいばすけっと豊洲1丁目が日常使い。</figcaption>
 </figure>
 
 ### <img src="/images/wangan-supermarkets-2026/icons/logo-life.png" alt="ライフ" width="80" style="vertical-align: middle" /> ライフ 豊洲店（3 階建て大型）
@@ -424,22 +425,6 @@ author: "hacker-ko"
 
 [📍 Google マップで店舗を探す](https://www.google.com/maps/search/?api=1&query=成城石井+ららぽーと豊洲店+東京都江東区豊洲2-2-1) ／ [公式店舗ページ](https://shop.seijoishii.com/seijoishii/spot/detail?code=0222)
 
-### <img src="/images/wangan-supermarkets-2026/icons/logo-aeon.png" alt="イオン" width="80" style="vertical-align: middle" /> イオン 東雲店
-
-<figure>
-<img src="/images/wangan-supermarkets-2026/aeon-shinonome.jpg" alt="イオン 東雲店 外観" />
-
-</figure>（24h GMS）
-
-- **住所**: 江東区東雲 1-9-10
-- **アクセス**: 辰巳駅 徒歩 13 分 / 豊洲駅 徒歩 20 分（無料シャトル）
-- **営業時間**: **1F 食品 24 時間** / その他 9:00-23:00
-- **ポイント**: WAON POINT / WAON / イオンカード
-- **お得日**: 20・30 日 5%OFF、15 日 G.G、5・15・25 日 ポイント 2 倍、10 日 ありが 10
-- **強み**: 24h GMS、衣料・日用品・専門店・ペテモ・タックスフリー対応、無料駐車場
-
-[📍 Google マップで店舗を探す](https://www.google.com/maps/search/?api=1&query=イオン+東雲店+東京都江東区東雲1-9-10) ／ [公式店舗ページ](https://www.aeon.com/store/イオン/イオン東雲店/)
-
 ### <img src="/images/wangan-supermarkets-2026/icons/logo-maibasuketto.png" alt="まいばすけっと" width="80" style="vertical-align: middle" /> まいばすけっと 豊洲 1 丁目店
 
 <figure>
@@ -470,12 +455,12 @@ author: "hacker-ko"
 <li>
 <div class="checklist-body">
 <strong>戦術 1: 経済圏を 1 つに決めて、その店舗群でローテーション</strong>
-<p>WAON 勢は <strong>ダイエー → イオン → まいばすけっと</strong>、d ポイント勢は <strong>ライフ → マルエツ → リンコス</strong>、楽天勢は <strong>ライフ + サミット</strong>。経済圏が散らかると還元率が伸びない。</p>
+<p>WAON 勢は <strong>ダイエー → まいばすけっと</strong>、d ポイント勢は <strong>ライフ → マルエツ → リンコス</strong>、楽天勢は <strong>ライフ + サミット</strong>。経済圏が散らかると還元率が伸びない。</p>
 </div>
 </li>
 <li>
 <div class="checklist-body">
-<strong>戦術 2: 毎月 20・30 日に「日用品まとめ買い」をダイエー/イオンで</strong>
+<strong>戦術 2: 毎月 20・30 日に「日用品まとめ買い」をダイエー豊洲で</strong>
 <p>WAON カード/イオンカード決済で <strong>5% OFF</strong>。米・調味料・洗剤・ペーパー類はこの 2 日のどちらかに集中。年 24 日のチャンス。</p>
 </div>
 </li>
@@ -524,8 +509,8 @@ author: "hacker-ko"
 </li>
 <li>
 <div class="checklist-body">
-<strong>夜遅い人は 24h 営業の 3 店舗を覚えておく</strong>
-<p>マルエツ晴海三丁目・マルエツ勝どき六丁目・イオン東雲（食品のみ）。</p>
+<strong>夜遅い人は 24h 営業の 2 店舗を覚えておく</strong>
+<p>マルエツ晴海三丁目・マルエツ勝どき六丁目。</p>
 </div>
 </li>
 <li>
@@ -536,6 +521,6 @@ author: "hacker-ko"
 </li>
 </ul>
 
-「**スーパー選びは経済圏選び。経済圏選びはお得日選び。**」── 湾岸エリアの 18 店舗を制覇すれば、月間食費は確実に下がる。アタシみたいに月 1.5 万円浮かせて、その分は旅行か外食かポイ活への原資に変換しよ。
+「**スーパー選びは経済圏選び。経済圏選びはお得日選び。**」── 湾岸エリアの 17 店舗を制覇すれば、月間食費は確実に下がる。アタシみたいに月 1.5 万円浮かせて、その分は旅行か外食かポイ活への原資に変換しよ。
 
 > 📌 関連記事: [固定費削減完全ガイド 2026](/posts/fixed-cost-reduction-guide-2026/) / [電気・ガス節約](/posts/electricity-gas-savings-2026/) / [ポイ活攻略](/posts/pointkatsu-guide-2026/)
