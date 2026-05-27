@@ -31,7 +31,7 @@ def logo_for(name):
              ("文化堂","logo-bunkado.png"),("成城石井","logo-seijoishii.png"),
              ("東武","logo-tobustore.jpg"),("サミット","logo-summit.png"),
              ("ダイエー","logo-daiei.png"),("まいばす","logo-maibasuketto.png"),
-             ("リンコス",None)]
+             ("SANWA","logo-sanwa.jpg"),("リンコス",None)]
     for key, f in table:
         if key in name:
             return f
@@ -171,6 +171,7 @@ BRAND_RING = {
     "ライフ": (0, 119, 73), "マルエツ": (227, 0, 79), "文化堂": (0, 90, 168),
     "成城石井": (124, 92, 56), "東武": (0, 70, 150), "サミット": (0, 150, 70),
     "ダイエー": (240, 90, 0), "まいばす": (240, 90, 0), "リンコス": (200, 30, 60),
+    "SANWA": (227, 30, 40),
 }
 def ring_for(name):
     for k, v in BRAND_RING.items():
@@ -181,6 +182,7 @@ def ring_for(name):
 def short_name(name):
     return (name.replace("ストア", "").replace("店", "")
             .replace("ららテラスHARUMI FLAG", "HARUMI FLAG")
+            .replace("ららぽーと豊洲", "ららぽーと")
             .replace(" リバーシティ", "リバーシティ"))
 
 def render_area(area):
@@ -198,6 +200,19 @@ def render_area(area):
     bounds = (W, H)
     placed = []
     fL = font(27); fLs = font(22, light=True); fSt = font(25)
+
+    # タイトルバッジ領域を予約（左上にラベルが潜り込まない）
+    placed.append((6, 6, 6 + len(f"{area}エリア スーパーマップ") * 34 + 50, 76))
+    # マーカー/ロゴチップの占有領域を先に予約 → ラベルが図形に被らない
+    for s in stores:
+        mx, my = to_canvas(s["lat"], s["lng"], origin)
+        placed.append((mx - CHIP / 2 - 2, my - CHIP / 2 - 2, mx + CHIP / 2 + 2, my + CHIP / 2 + 2))
+    for nm in conf["stations"]:
+        mx, my = to_canvas(*STATIONS[nm], origin)
+        placed.append((mx - 16, my - 16, mx + 16, my + 16))
+    for nm in conf["landmarks"]:
+        mx, my = to_canvas(*LANDMARKS[nm], origin)
+        placed.append((mx - 10, my - 10, mx + 10, my + 10))
 
     # 1) landmarks first (pale pill, low priority -> drawn under markers)
     for nm in conf["landmarks"]:

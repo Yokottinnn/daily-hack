@@ -74,7 +74,7 @@ def main():
     ft = ImageFont.truetype(FONT, 58)
     fs = ImageFont.truetype(FONT_L, 30)
     d.text((W / 2, GRID_H + 50), "湾岸エリア スーパー徹底比較", font=ft, fill=(40, 44, 60), anchor="mm")
-    d.text((W / 2, GRID_H + 108), "晴海・勝どき・月島・豊洲 ／ 17店舗", font=fs, fill=(150, 90, 90), anchor="mm")
+    d.text((W / 2, GRID_H + 108), "晴海・勝どき・月島・豊洲 ／ 18店舗", font=fs, fill=(150, 90, 90), anchor="mm")
 
     out = os.path.join(IMGDIR, "wangan-collage.jpg")
     img.save(out, quality=90)
