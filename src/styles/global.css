@@ -408,6 +408,9 @@ footer.foot .pr { margin-top: 6px; }
 .post-body table tbody tr:nth-child(odd) td { background: var(--pink-50); }
 .post-body table tbody tr:hover td { background: #FFFBEE; }
 .post-body table tbody td:first-child { font-weight: 800; color: var(--pink-700); }
+/* ロゴ画像を含むセルは縦中央寄せ（上部に浮かせない） */
+.post-body table tbody td:has(img) { vertical-align: middle; }
+.post-body table tbody td img { vertical-align: middle; }
 .post-body table tbody td strong { color: var(--pink-700); font-weight: 900; }
 @media (max-width: 720px) {
   .post-body table { font-size: 13px; }
