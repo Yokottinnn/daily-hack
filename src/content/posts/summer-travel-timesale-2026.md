@@ -72,6 +72,12 @@ author: "hacker-ko"
 
 つまり今やるべきは「**5/26〜5/29 の駆け込み枠を捕まえる**」 → 「**6月以降のじゃらんクーポンフェスで二段構え**」 → 「**7月以降のじゃらん夏SALE / 楽天スーパーDEAL / JAL・ANA で本命予約**」の3ステップ。
 
+<!-- a8-banners auto-inserted by banner-fill (slot1-after-1st-h2) -->
+<div class="affiliate-block">
+<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+36WPAY+5RZ8+5YZ75" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/aeon-compass-travel-300x250.jpg" alt="国内宿泊（宿・ホテル）【イオンコンパストラベルモール】" width="300" height="250" loading="lazy"></a></div>
+<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+27S4M2+4R2M+HVNAP" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/kokunai-dynamic-package-300x250.jpg" alt="24時間365日カンタン予約【国内ダイナミックパッケージ】" width="300" height="250" loading="lazy"></a></div>
+</div>
+
 ## JR東日本びゅうトラベル｜新幹線+宿の鉄板コスパ
 
 東京駅・上野駅・大宮駅から動く湾岸民にとって、**JR東日本びゅうトラベル**のレールパックは家計に優しい最強パターン。
@@ -124,6 +130,12 @@ author: "hacker-ko"
 <div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+36WPAY+5RZ8+5YZ75" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/aeon-compass-travel-300x250.jpg" alt="国内宿泊（宿・ホテル）【イオンコンパストラベルモール】" width="300" height="250" loading="lazy" /></a></div>
 </div>
 <!-- /a8-section-break -->
+
+<!-- a8-banners auto-inserted by banner-fill (slot2-middle) -->
+<div class="affiliate-block">
+<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+1Y96XM+AD2+2HD5WH" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/airtrip-kokunai-tour-300x250.jpg" alt="沖縄旅行や北海道旅行！格安国内旅行なら【エアトリ国内ツアー】" width="300" height="250" loading="lazy"></a></div>
+<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+2J3D3U+40T2+644DT" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/j-trip-300x250.jpg" alt="JALで行く！格安国内旅行のジェイトリップ（J-TRIP）" width="300" height="250" loading="lazy"></a></div>
+</div>
 
 ## 一休.com / Yahoo!トラベル｜高級宿 × PayPay経済圏
 
@@ -246,6 +258,12 @@ PayPay経済圏で固定費まで集約してる人は、**Yahoo!トラベル+Pa
 
 </div>
 <!-- /a8-affiliate-expansion -->
+
+<!-- a8-banners auto-inserted by banner-fill (slot3-before-tail) -->
+<div class="affiliate-block">
+<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+33C3OA+3UQG+61JSH" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/ozmall-300x250.jpg" alt="厳選ホテル・旅館・レストラン・ 美容室の贅沢プランをお得に予約。東京女子に人気【OZmall】" width="300" height="250" loading="lazy"></a></div>
+<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+35PU3E+4XZI+BXIYP" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/travelist-hotel-300x250.jpg" alt="【国内ホテル・宿泊・旅館予約｜トラベリスト】" width="300" height="250" loading="lazy"></a></div>
+</div>
 
 ## まとめ｜「5/29は山場、その後は2段構え」
 

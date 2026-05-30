@@ -279,9 +279,6 @@ PayPay残高にチャージできる**唯一の主要クレカ**。PayPayステ�
   </ul>
 </aside>
 
-<!-- a8-banners auto-inserted by banner-fill (banner-matcher) -->
-<div class="affiliate-block">
-<div class="a8-banner"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+33XJA2+1LP8+CALN5" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/hapitas.jpg" alt="高還元率ポイントサイト【ハピタス】　無料会員登録プロモーション" width="300" height="250" loading="lazy"></a></div>
 </div>
 
 ## まとめ: 今日中に1枚作れ、話はそれからよ

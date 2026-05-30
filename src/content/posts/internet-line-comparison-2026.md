@@ -61,6 +61,12 @@ author: "hacker-ko"
 
 ---
 
+<!-- a8-banners auto-inserted by banner-fill (slot1-after-1st-h2) -->
+<div class="affiliate-block">
+<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+ZQ1UI+42Y0+5ZMCH" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/au-hikari-300x250.jpg" alt="【auひかり】初期工事費無料！豪華キャンペーン！知らない人はモッタイナイ！" width="300" height="250" loading="lazy"></a></div>
+<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3XB4+3L73TM+50+6MDJ6P" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/gmo-hikari-access-300x250.jpg" alt="GMOとくとくBB【GMO光アクセス】" width="300" height="250" loading="lazy"></a></div>
+</div>
+
 ## 1. フレッツ光（株式会社Ｗｉｚ）｜最大 79,000 円キャッシュバック
 
 <figure class="real-photo" style="max-width: 720px; margin: 22px auto 28px;">
@@ -156,6 +162,12 @@ author: "hacker-ko"
 <div class="a8-banner a8-banner--horizontal-banner"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+ZQ1UI+42Y0+62ENL" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/au-hikari-468x60.jpg" alt="【auひかり】初期工事費無料！豪華キャンペーン！知らない人はモッタイナイ！" width="468" height="60" loading="lazy" /></a></div>
 </div>
 <!-- /a8-section-break -->
+
+<!-- a8-banners auto-inserted by banner-fill (slot2-middle) -->
+<div class="affiliate-block">
+<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+123S9M+1MWA+1TS6MP" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/hikari-denwa-wiz-300x250.jpg" alt="【キャッシュバック最大7万円】ひかり電話、ヒカリ回線のお申込み窓口" width="300" height="250" loading="lazy"></a></div>
+<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+13ANH6+50+552T41" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/gmo-docomo-hikari-300x250.jpg" alt="GMOインターネット株式会社【GMOとくとくBB】ドコモ光はこちら" width="300" height="250" loading="lazy"></a></div>
+</div>
 
 ## 5. So-net 光 S/M/L（ソニーネットワークコミュニケーションズ）｜NURO 系の安定回線
 
@@ -296,6 +308,12 @@ author: "hacker-ko"
 
 </div>
 <!-- /a8-affiliate-expansion -->
+
+<!-- a8-banners auto-inserted by banner-fill (slot3-before-tail) -->
+<div class="affiliate-block">
+<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+14HIOQ+4SHG+5ZMCH" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/otegaru-hikari-300x250.jpg" alt="複雑な条件なし！契約期間しばり無し光回線＋【おてがる光】" width="300" height="250" loading="lazy"></a></div>
+<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+169TI2+3SPO+CKIQ1T" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/ahamo-hikari-300x250.jpg" alt="【ahamo光】安定した光回線をコスパ良く！ｄポイント20,000pt" width="300" height="250" loading="lazy"></a></div>
+</div>
 
 ## まとめ｜ネット回線は「キャリア × エリア × CB額」の3軸で決まる
 

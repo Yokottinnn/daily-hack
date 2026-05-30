@@ -34,6 +34,11 @@ relatedReferrals: ["rakuten-bank", "olive-smbc", "air-wallet", "go-taxi"]
 
 「数百円のためにアレコレ手間かけるの？」と思うかもしれませんが、**初年度に5〜10万円、定常的に月2〜3万円分が浮く**のが普通です。これをやらない理由、本当にある？
 
+<!-- a8-banners auto-inserted by banner-fill (slot1-after-1st-h2) -->
+<div class="affiliate-block">
+<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+N7Y56+3ZZC+HY069" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/warau-300x250.jpg" alt="ポイ活ならワラウ【ワラウ】（広告利用ボーナスクリア）" width="300" height="250" loading="lazy"></a></div>
+</div>
+
 ## 始める順番が全て
 
 ポイ活で挫折する人の99%は「順番」を間違えています。先にやるべきことが後回しになっているから、効率が悪くて続かない。**正しい順番はこれです:**
@@ -63,6 +68,11 @@ relatedReferrals: ["rakuten-bank", "olive-smbc", "air-wallet", "go-taxi"]
 <div class="a8-banner a8-banner--horizontal-banner"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+N7Y56+3ZZC+HXKQP" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/warau-468x60.jpg" alt="ポイ活ならワラウ【ワラウ】（広告利用ボーナスクリア）" width="468" height="60" loading="lazy" /></a></div>
 </div>
 <!-- /a8-section-break -->
+
+<!-- a8-banners auto-inserted by banner-fill (slot2-middle) -->
+<div class="affiliate-block">
+<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+33XJA2+1LP8+CALN5" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/hapitas-300x250.jpg" alt="高還元率ポイントサイト【ハピタス】　無料会員登録プロモーション" width="300" height="250" loading="lazy"></a></div>
+</div>
 
 ## ステップ3: 決済アプリの統一
 

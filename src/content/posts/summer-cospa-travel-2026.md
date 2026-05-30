@@ -49,6 +49,12 @@ parentPillar: summer-travel-timesale-2026
 
 ---
 
+<!-- a8-banners auto-inserted by banner-fill (slot1-after-1st-h2) -->
+<div class="affiliate-block">
+<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+27S4M2+4R2M+HVNAP" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/kokunai-dynamic-package-300x250.jpg" alt="24時間365日カンタン予約【国内ダイナミックパッケージ】" width="300" height="250" loading="lazy"></a></div>
+<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+1Y96XM+AD2+2HD5WH" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/airtrip-kokunai-tour-300x250.jpg" alt="沖縄旅行や北海道旅行！格安国内旅行なら【エアトリ国内ツアー】" width="300" height="250" loading="lazy"></a></div>
+</div>
+
 ## 4 社サマーセール 横並び比較
 
 各サイトの 2026 年夏セール（5月時点で公式告知済）の主要キャンペーンを一覧化。
@@ -245,6 +251,12 @@ parentPillar: summer-travel-timesale-2026
 <div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+27S4M2+4R2M+HVNAP" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/kokunai-dynamic-package-300x250.jpg" alt="24時間365日カンタン予約【国内ダイナミックパッケージ】" width="300" height="250" loading="lazy" /></a></div>
 </div>
 <!-- /a8-section-break -->
+
+<!-- a8-banners auto-inserted by banner-fill (slot2-middle) -->
+<div class="affiliate-block">
+<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+2J3D3U+40T2+644DT" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/j-trip-300x250.jpg" alt="JALで行く！格安国内旅行のジェイトリップ（J-TRIP）" width="300" height="250" loading="lazy"></a></div>
+<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+33C3OA+3UQG+61JSH" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/ozmall-300x250.jpg" alt="厳選ホテル・旅館・レストラン・ 美容室の贅沢プランをお得に予約。東京女子に人気【OZmall】" width="300" height="250" loading="lazy"></a></div>
+</div>
 
 ## Yahoo!トラベルの目玉宿 ４ 選
 
@@ -501,11 +513,14 @@ TDRディズニーオフィシャル、**プール充実・キッズエリア完
 
 ---
 
-<!-- a8-banners auto-inserted by banner-fill (banner-matcher) -->
-<div class="affiliate-block">
-<div class="a8-banner"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+35PU3E+4XZI+BXIYP" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/travelist-hotel.jpg" alt="【国内ホテル・宿泊・旅館予約｜トラベリスト】" width="300" height="250" loading="lazy"></a></div>
 <div class="a8-banner"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+33C3OA+3UQG+61JSH" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/ozmall.jpg" alt="厳選ホテル・旅館・レストラン・ 美容室の贅沢プランをお得に予約。東京女子に人気【OZmall】" width="300" height="250" loading="lazy"></a></div>
 <div class="a8-banner"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+36WPAY+5RZ8+5YZ75" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/aeon-compass-travel.jpg" alt="国内宿泊（宿・ホテル）【イオンコンパストラベルモール】" width="300" height="250" loading="lazy"></a></div>
+</div>
+
+<!-- a8-banners auto-inserted by banner-fill (slot3-before-tail) -->
+<div class="affiliate-block">
+<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+35PU3E+4XZI+BXIYP" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/travelist-hotel-300x250.jpg" alt="【国内ホテル・宿泊・旅館予約｜トラベリスト】" width="300" height="250" loading="lazy"></a></div>
+<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+36B9P6+44YI+HY069" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/yumeyado-300x250.jpg" alt="平日お得な宿泊ならゆめやどにおまかせ【ゆめやど】" width="300" height="250" loading="lazy"></a></div>
 </div>
 
 ## 関連記事
