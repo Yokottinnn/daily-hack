@@ -59,7 +59,8 @@ jobs:
                   },
                   orderBy: [sum_visits_DESC]
                 ) {
-                  sum { visits requests }
+                  sum { visits }
+                  count
                   dimensions { clientRequestPath }
                 }
               }
@@ -79,11 +80,11 @@ jobs:
             .data.viewer.zones[0].httpRequestsAdaptiveGroups // []
             | map(select(.dimensions.clientRequestPath | startswith("/posts/")))
             | sort_by(.sum.visits) | reverse | .[:25]
-            | .[] | "\(.sum.visits)\t\(.sum.requests)\t\(.dimensions.clientRequestPath)"
+            | .[] | "\(.sum.visits)\t\(.count)\t\(.dimensions.clientRequestPath)"
           ' /tmp/cf.json > /tmp/top.tsv || echo "(集計失敗 — 下のRAWを確認)"
           ALL_PATHS=$(jq -r '.data.viewer.zones[0].httpRequestsAdaptiveGroups // [] | length' /tmp/cf.json)
           ALL_VISITS=$(jq -r '[.data.viewer.zones[0].httpRequestsAdaptiveGroups[] | .sum.visits] | add // 0' /tmp/cf.json)
-          ALL_REQ=$(jq -r '[.data.viewer.zones[0].httpRequestsAdaptiveGroups[] | .sum.requests] | add // 0' /tmp/cf.json)
+          ALL_REQ=$(jq -r '[.data.viewer.zones[0].httpRequestsAdaptiveGroups[] | .count] | add // 0' /tmp/cf.json)
           {
             echo "# Weekly PV Report — ${HOST}"
             echo
@@ -98,9 +99,9 @@ jobs:
             echo "| 順 | visits | requests | path |"
             echo "|---|---|---|---|"
             i=0
-            while IFS=$'\t' read -r v r p; do
+            while IFS=$'\t' read -r v c p; do
               i=$((i+1))
-              echo "| ${i} | ${v} | ${r} | \`${p}\` |"
+              echo "| ${i} | ${v} | ${c} | \`${p}\` |"
             done < /tmp/top.tsv
             echo
             echo "---"
