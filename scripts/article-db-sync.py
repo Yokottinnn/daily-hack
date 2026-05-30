@@ -69,6 +69,10 @@ def collect_posts():
     for p in sorted(POSTS_DIR.glob("*.md")):
         data, body = parse_fm(p.read_text(encoding="utf-8"))
         slug = p.stem
+        # 「参考にした情報源」「元になった候補ID」を frontmatter から拾う（任意フィールド）
+        refs = data.get("references", [])
+        if isinstance(refs, str):
+            refs = [refs] if refs else []
         posts.append({
             "slug": slug,
             "title": data.get("title", ""),
@@ -79,6 +83,8 @@ def collect_posts():
             "draft": "Y" if data.get("draft") else "",
             "featured": "Y" if data.get("featured") else "",
             "eyecatchUrl": data.get("eyecatchUrl", ""),
+            "source_candidate_id": data.get("source_candidate_id", ""),
+            "references": "\n".join(refs),
             "wordCount": len(body),
             "url": f"{SITE.rstrip('/')}/posts/{slug}/",
         })
@@ -113,69 +119,88 @@ def fetch_gsc_page_stats(token, days=30, row_limit=200):
 # ---------- default candidates (記事候補ライブラリ) ----------
 # 戦略: @ryuji_affiliate (2026-05-23) — 金融/保険/転職/脱毛/FX の高単価案件(5,000〜50,000円)を最優先
 # est_reward は A8 ASP 経由の概算報酬レンジ（取れた時の天井寄り）
+RYUJI = "https://x.com/ryuji_affiliate/status/2057921944956371124"
+MATSUYA_TWEET = "https://x.com/nogenkin/status/2059951364571385956"
 DEFAULT_CANDIDATES = [
     # ===== 🟥 最優先: 高単価 金融（カードローン/FX/暗号資産/住宅ローン/保険） =====
     {"title": "カードローン 即日融資 7社比較 2026 — 金利・限度額・在籍確認ナシ",
      "category": "comparisons,howto", "source": "高単価金融", "priority": "high",
      "monetization": "カードローン申込", "est_reward": "10,000-25,000円/件",
+     "references": [RYUJI],
      "notes": "申込単価が最も高い。三井住友/プロミス/アコム/SMBCモビット/レイク/オリックス/楽天銀行"},
     {"title": "FX口座 おすすめ8社比較 2026 — 初心者向けスプレッド・キャッシュバック比較",
      "category": "comparisons,howto", "source": "高単価金融", "priority": "high",
      "monetization": "FX口座開設", "est_reward": "15,000-30,000円/件",
+     "references": [RYUJI],
      "notes": "DMM FX/外為どっとコム/みんなのFX/GMOクリック/楽天/松井/SBI/マネックス"},
     {"title": "DMM FX 口座開設キャンペーン徹底解説 2026 — 最大30万円キャッシュバック達成手順",
      "category": "campaigns,howto", "source": "高単価金融/単発", "priority": "high",
-     "monetization": "FX口座開設", "est_reward": "15,000-30,000円/件"},
+     "monetization": "FX口座開設", "est_reward": "15,000-30,000円/件",
+     "references": [RYUJI]},
     {"title": "暗号資産取引所 おすすめ5社比較 2026 — 手数料・スプレッド・取り扱い銘柄",
      "category": "comparisons", "source": "高単価金融", "priority": "high",
      "monetization": "暗号資産口座開設", "est_reward": "10,000-30,000円/件",
+     "references": [RYUJI],
      "notes": "Coincheck/bitFlyer/GMOコイン/DMM Bitcoin/SBI VC"},
     {"title": "住宅ローン 借り換え 最新比較 2026 — 変動・固定・ネット銀行で月いくら下がる",
      "category": "comparisons,howto", "source": "高単価金融", "priority": "high",
      "monetization": "住宅ローン相談", "est_reward": "10,000-50,000円/件",
+     "references": [RYUJI],
      "notes": "auじぶん銀行/住信SBI/ソニー銀行/りそな/イオン銀行"},
 
     # ===== 🟧 高優先: 保険 =====
     {"title": "自動車保険 一括見積もり 8社比較 2026 — 年間5万円差つく選び方",
      "category": "comparisons,howto", "source": "高単価保険", "priority": "high",
-     "monetization": "保険見積もり依頼", "est_reward": "3,000-10,000円/件"},
+     "monetization": "保険見積もり依頼", "est_reward": "3,000-10,000円/件",
+     "references": [RYUJI]},
     {"title": "医療保険 おすすめ7選 2026 — 入院日額・先進医療・がん特約で選ぶ",
      "category": "comparisons", "source": "高単価保険", "priority": "high",
-     "monetization": "保険資料請求/相談", "est_reward": "5,000-15,000円/件"},
+     "monetization": "保険資料請求/相談", "est_reward": "5,000-15,000円/件",
+     "references": [RYUJI]},
     {"title": "がん保険 比較 2026 — 一時金型 vs 治療費連動型 どっち選ぶ",
      "category": "comparisons", "source": "高単価保険", "priority": "high",
-     "monetization": "保険資料請求", "est_reward": "5,000-15,000円/件"},
+     "monetization": "保険資料請求", "est_reward": "5,000-15,000円/件",
+     "references": [RYUJI]},
     {"title": "学資保険 vs 新NISA 子どもの教育費 月3万でどこまで貯まるか",
      "category": "comparisons,howto", "source": "高単価保険+NISA", "priority": "high",
-     "monetization": "保険+証券口座", "est_reward": "5,000-20,000円/件"},
+     "monetization": "保険+証券口座", "est_reward": "5,000-20,000円/件",
+     "references": [RYUJI]},
     {"title": "ペット保険 おすすめ5社比較 2026 — 補償範囲・更新拒否・口コミ",
      "category": "comparisons", "source": "高単価保険", "priority": "med",
-     "monetization": "ペット保険申込", "est_reward": "3,000-8,000円/件"},
+     "monetization": "ペット保険申込", "est_reward": "3,000-8,000円/件",
+     "references": [RYUJI]},
 
     # ===== 🟧 高優先: 転職 =====
     {"title": "30代向け転職エージェント TOP5 比較 2026 — リクルート/doda/ビズリーチ徹底解説",
      "category": "comparisons,howto", "source": "高単価転職", "priority": "high",
-     "monetization": "転職サイト登録", "est_reward": "3,000-10,000円/件"},
+     "monetization": "転職サイト登録", "est_reward": "3,000-10,000円/件",
+     "references": [RYUJI]},
     {"title": "エンジニア転職 おすすめサービス10選 2026 — レバテック・Findy・Forkwell ほか",
      "category": "comparisons", "source": "高単価転職", "priority": "high",
-     "monetization": "転職登録", "est_reward": "5,000-15,000円/件"},
+     "monetization": "転職登録", "est_reward": "5,000-15,000円/件",
+     "references": [RYUJI]},
     {"title": "ハイクラス転職 ビズリーチ vs リクルートダイレクトスカウト vs JACリクルートメント",
      "category": "comparisons", "source": "高単価転職", "priority": "med",
-     "monetization": "ハイクラス転職", "est_reward": "8,000-20,000円/件"},
+     "monetization": "ハイクラス転職", "est_reward": "8,000-20,000円/件",
+     "references": [RYUJI]},
     {"title": "リモートワーク特化型 転職サービス 2026年最新版 — リモートOK率90%超え",
      "category": "comparisons", "source": "高単価転職+トレンド", "priority": "med",
-     "monetization": "転職登録", "est_reward": "3,000-10,000円/件"},
+     "monetization": "転職登録", "est_reward": "3,000-10,000円/件",
+     "references": [RYUJI]},
 
     # ===== 🟧 高優先: 脱毛 =====
     {"title": "メンズ脱毛 おすすめ5社比較 2026 — 医療 vs サロン コスパ最強はどこ",
      "category": "comparisons,howto", "source": "高単価脱毛", "priority": "high",
-     "monetization": "脱毛無料カウンセリング", "est_reward": "5,000-15,000円/件"},
+     "monetization": "脱毛無料カウンセリング", "est_reward": "5,000-15,000円/件",
+     "references": [RYUJI]},
     {"title": "医療脱毛 全身5回コース料金比較 2026 — リゼ・湘南・アリシア・エミナル",
      "category": "comparisons", "source": "高単価脱毛", "priority": "high",
-     "monetization": "脱毛カウンセリング", "est_reward": "5,000-15,000円/件"},
+     "monetization": "脱毛カウンセリング", "est_reward": "5,000-15,000円/件",
+     "references": [RYUJI]},
     {"title": "VIO脱毛 男女別おすすめクリニック5選 2026 — 料金・通いやすさ・痛みレベル",
      "category": "comparisons", "source": "高単価脱毛", "priority": "med",
-     "monetization": "脱毛申込", "est_reward": "5,000-12,000円/件"},
+     "monetization": "脱毛申込", "est_reward": "5,000-12,000円/件",
+     "references": [RYUJI]},
 
     # ===== 🟨 中: NISA・投資 系（GSCの「クレカ」隣接で需要強い）=====
     {"title": "新NISA成長投資枠 おすすめ高配当ETF 5選 2026年版",
@@ -192,6 +217,7 @@ DEFAULT_CANDIDATES = [
     {"title": "吉野家・すき家・松屋・なか卯 牛丼チェーン4社の最強コード決済比較 2026年版",
      "category": "comparisons,howto", "source": "trend/松屋60周年", "priority": "high",
      "monetization": "クレカ/QR決済アフィ", "est_reward": "1,000-5,000円/件",
+     "references": [MATSUYA_TWEET, "https://daily-hack.fieldbeside.com/posts/matsuya-60th-cashless-2026-jun/"],
      "notes": "牛丼系で松屋以外もキャンペーン頻発、横断比較で検索ボリューム大"},
     {"title": "ファミマ・ローソン・セブン コンビニ3社の決済キャンペーン徹底比較 2026",
      "category": "comparisons,howto", "source": "GSC隣接", "priority": "high",
@@ -269,11 +295,22 @@ DEFAULT_CANDIDATES = [
 ]
 
 def build_default_candidates():
+    """DEFAULT_CANDIDATES に id 付与＋必須フィールドの空文字補完。
+       references は list の場合 改行区切り文字列に変換（セル内で複数URL表示用）。"""
     base = []
     for i, c in enumerate(DEFAULT_CANDIDATES, 1):
         c.setdefault("notes", "")
         c.setdefault("status", "idea")
         c.setdefault("est_publish", "")
+        c.setdefault("est_reward", "")
+        c.setdefault("monetization", "")
+        refs = c.get("references", [])
+        if isinstance(refs, list):
+            c["references"] = "\n".join(refs)
+        c.setdefault("references", "")
+        c.setdefault("is_published", "")
+        c.setdefault("published_slug", "")
+        c.setdefault("published_url", "")
         base.append({**c, "id": f"C{i:03d}"})
     return base
 
@@ -356,6 +393,7 @@ def main():
         p["position_30d"] = s.get("position", "")
     posts.sort(key=lambda p: (-(p["impressions_30d"] or 0), -(p["clicks_30d"] or 0)))
     headers = ["slug", "title", "publishDate", "category", "tags", "isPR", "featured",
+               "source_candidate_id", "references",
                "clicks_30d", "impressions_30d", "ctr_30d", "position_30d", "wordCount", "url"]
     replace_sheet_tab(sheets_tok, sid, "公開済記事", headers, posts)
     print(f"  公開済記事 = {len(posts)} 件")
@@ -369,15 +407,55 @@ def main():
     print("\n=== 4. 記事候補 タブ ===")
     if CANDIDATES_JSON.exists():
         cands = json.loads(CANDIDATES_JSON.read_text())
+        # 旧フォーマットの候補に新フィールドを補完
+        for c in cands:
+            refs = c.get("references", [])
+            if isinstance(refs, list):
+                c["references"] = "\n".join(refs)
+            c.setdefault("references", "")
+            c.setdefault("is_published", "")
+            c.setdefault("published_slug", "")
+            c.setdefault("published_url", "")
+            c.setdefault("est_reward", "")
         print("  → tmp/article-candidates.json を反映")
     else:
         cands = build_default_candidates()
         CANDIDATES_JSON.write_text(json.dumps(cands, ensure_ascii=False, indent=2))
         print(f"  → 初期 {len(cands)} 候補を生成、tmp/article-candidates.json に保存")
-    headers3 = ["id", "title", "category", "source", "priority", "est_reward", "status",
-                "est_publish", "monetization", "notes"]
+
+    # 公開済↔候補の照合 — 重複表示を防ぐためのフラグ立て
+    # 1) 候補.published_slug が記事 slug と一致 → is_published=Y
+    # 2) 記事.source_candidate_id が候補 id と一致 → is_published=Y + published_slug 自動補完
+    posts_by_slug = {p["slug"]: p for p in posts}
+    cands_by_id = {c["id"]: c for c in cands}
+    # 双方向解決
+    for p in posts:
+        scid = p.get("source_candidate_id", "")
+        if scid and scid in cands_by_id:
+            c = cands_by_id[scid]
+            c["is_published"] = "Y"
+            c["published_slug"] = p["slug"]
+            c["published_url"] = p["url"]
+            c["status"] = "published"
+    for c in cands:
+        ps = c.get("published_slug", "")
+        if ps and ps in posts_by_slug:
+            c["is_published"] = "Y"
+            c["published_url"] = posts_by_slug[ps]["url"]
+            c["status"] = "published"
+
+    # 並べ替え: 未公開 → 公開済 の順、各群内は priority high→med→low
+    PRI = {"high": 0, "med": 1, "low": 2}
+    cands.sort(key=lambda c: (
+        1 if c.get("is_published") == "Y" else 0,
+        PRI.get(c.get("priority", "med"), 1),
+    ))
+    headers3 = ["id", "title", "category", "source", "priority", "est_reward",
+                "is_published", "published_slug", "published_url", "status",
+                "est_publish", "monetization", "references", "notes"]
     replace_sheet_tab(sheets_tok, sid, "記事候補", headers3, cands)
-    print(f"  候補 = {len(cands)} 件")
+    published_n = sum(1 for c in cands if c.get("is_published") == "Y")
+    print(f"  候補 = {len(cands)} 件（うち公開済 {published_n} 件）")
 
     print(f"\n=== ✅ DONE ===\n  Sheet: {url}\n  共有: {JORDAN_EMAIL} (Writer)")
 
