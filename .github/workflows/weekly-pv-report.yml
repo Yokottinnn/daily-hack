@@ -36,14 +36,13 @@ jobs:
           echo "zone_id=${ZONE_ID}" >> "$GITHUB_ENV"
           echo "Resolved zone_id=${ZONE_ID}"
 
-      - name: Query Zone Analytics (GraphQL)
+      - name: Query Zone Analytics (GraphQL, 1日ループ集計)
         env:
           CF_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
         run: |
           set -euo pipefail
-          END="$(date -u +%FT%TZ)"
-          START="$(date -u -d "-${DAYS} days" +%FT%TZ)"
-          echo "Window: ${START} → ${END}"
+          # httpRequestsAdaptiveGroups は zone あたり 1d 制限なので日次ループ
+          END_EPOCH=$(date -u +%s)
           read -r -d '' QUERY <<'GQL' || true
           query($zoneTag: String!, $start: Time!, $end: Time!, $host: String!) {
             viewer {
@@ -67,24 +66,39 @@ jobs:
             }
           }
           GQL
-          jq -n --arg q "$QUERY" --arg zone "$zone_id" --arg start "$START" --arg end "$END" --arg host "$HOST" \
-            '{query:$q, variables:{zoneTag:$zone, start:$start, end:$end, host:$host}}' > /tmp/q.json
-          curl -s https://api.cloudflare.com/client/v4/graphql \
-            -H "Authorization: Bearer ${CF_TOKEN}" \
-            -H "Content-Type: application/json" \
-            --data-binary @/tmp/q.json > /tmp/cf.json
-          # raw が空でもエラーで落とさない
-          jq '.' /tmp/cf.json | head -40 || true
-          # /posts/ のみに絞り、visits降順で上位25集計
-          jq -r '
-            .data.viewer.zones[0].httpRequestsAdaptiveGroups // []
+          echo "[]" > /tmp/all.json  # 累積バッファ
+          ALL_VISITS=0; ALL_REQ=0
+          for d in $(seq "${DAYS}" -1 1); do
+            END_T=$(date -u -d "-$((d-1)) days" +%FT00:00:00Z)
+            START_T=$(date -u -d "-${d} days" +%FT00:00:00Z)
+            jq -n --arg q "$QUERY" --arg zone "$zone_id" --arg start "$START_T" --arg end "$END_T" --arg host "$HOST" \
+              '{query:$q, variables:{zoneTag:$zone, start:$start, end:$end, host:$host}}' > /tmp/q.json
+            curl -s https://api.cloudflare.com/client/v4/graphql \
+              -H "Authorization: Bearer ${CF_TOKEN}" -H "Content-Type: application/json" \
+              --data-binary @/tmp/q.json > /tmp/day.json
+            echo "── ${START_T} → ${END_T} ──"
+            jq '.errors // empty' /tmp/day.json
+            DAY_ROWS=$(jq '.data.viewer.zones[0].httpRequestsAdaptiveGroups // []' /tmp/day.json)
+            jq -n --argjson a "$(cat /tmp/all.json)" --argjson b "$DAY_ROWS" '$a + $b' > /tmp/all.json
+            v=$(echo "$DAY_ROWS" | jq '[.[].sum.visits] | add // 0')
+            r=$(echo "$DAY_ROWS" | jq '[.[].count] | add // 0')
+            ALL_VISITS=$((ALL_VISITS + v))
+            ALL_REQ=$((ALL_REQ + r))
+          done
+          START="$(date -u -d "-${DAYS} days" +%FT00:00:00Z)"
+          END="$(date -u +%FT%TZ)"
+          # 同一パスを合算（複数日にわたるため）
+          jq '
+            [ group_by(.dimensions.clientRequestPath)[]
+              | { dimensions: { clientRequestPath: .[0].dimensions.clientRequestPath },
+                  sum: { visits: ([.[].sum.visits] | add) },
+                  count: ([.[].count] | add) }
+            ]
             | map(select(.dimensions.clientRequestPath | startswith("/posts/")))
             | sort_by(.sum.visits) | reverse | .[:25]
             | .[] | "\(.sum.visits)\t\(.count)\t\(.dimensions.clientRequestPath)"
-          ' /tmp/cf.json > /tmp/top.tsv || echo "(集計失敗 — 下のRAWを確認)"
-          ALL_PATHS=$(jq -r '.data.viewer.zones[0].httpRequestsAdaptiveGroups // [] | length' /tmp/cf.json)
-          ALL_VISITS=$(jq -r '[.data.viewer.zones[0].httpRequestsAdaptiveGroups[] | .sum.visits] | add // 0' /tmp/cf.json)
-          ALL_REQ=$(jq -r '[.data.viewer.zones[0].httpRequestsAdaptiveGroups[] | .count] | add // 0' /tmp/cf.json)
+          ' -r /tmp/all.json > /tmp/top.tsv || echo "(集計失敗)"
+          ALL_PATHS=$(jq 'length' /tmp/all.json)
           {
             echo "# Weekly PV Report — ${HOST}"
             echo
