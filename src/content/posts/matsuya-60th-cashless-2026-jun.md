@@ -10,6 +10,7 @@ featured: true
 eyecatchUrl: "/images/matsuya-60th-cashless-2026-jun/matsuya60-collage.jpg"
 eyecatchAlt: "松屋60周年 4大コード決済キャンペーン徹底比較 — PayPay / 楽天ペイ / au PAY / d払い"
 author: "hacker-ko"
+references: ["https://x.com/nogenkin/status/2059951364571385956", "https://www.matsuyafoods.co.jp/matsuya/whatsnew/campaign/154327.html", "https://www.matsuyafoods.co.jp/matsuya/whatsnew/campaign/154328.html"]
 ---
 
 「**今月、松屋でいちばん得するのはどの決済か？**」── 2026年6月、松屋創業60周年を記念して **PayPay・楽天ペイ・au PAY・d払い の4大コード決済が同時にキャンペーン**を打ってきた。全部知らないと**何千ポイント単位で取り逃す**。

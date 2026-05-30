@@ -10,6 +10,7 @@ featured: true
 eyecatchUrl: "/images/wangan-supermarkets-2026/wangan-collage.jpg"
 eyecatchAlt: "湾岸エリア スーパー徹底比較 — ライフ・マルエツ・文化堂・成城石井・サミット・ダイエー・まいばすけっと・東武ストア・リンコスの 9 ロゴコラージュ"
 author: "hacker-ko"
+references: ["https://rinconomiblog.com/supermarket-harumi/", "https://retailguide.tokubai.co.jp/store/73106/", "https://x.com/minamisuna1/status/2031690681610366977", "https://www.summitstore.co.jp/card/"]
 ---
 
 「湾岸に引っ越したけど、どのスーパーが一番おトクなの？」── 晴海フラッグの引き渡しから半年、月島・勝どきのタワマンも増えて、**湾岸エリアの生鮮食品事情はガラッと変わった**。
