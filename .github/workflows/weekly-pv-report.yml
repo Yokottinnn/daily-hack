@@ -121,7 +121,7 @@ jobs:
             echo "---"
             echo "RAW GraphQL response (deburrable):"
             echo '```json'
-            jq '.' /tmp/cf.json | head -120
+            jq '.' /tmp/all.json | head -200
             echo '```'
           } >> "$GITHUB_STEP_SUMMARY"
 
