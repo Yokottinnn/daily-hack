@@ -50,6 +50,12 @@ author: "hacker-ko"
   </figure>
 </div>
 
+<!-- a8-banners auto-inserted by banner-fill (slot1-after-1st-h2) -->
+<div class="affiliate-block">
+<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+35PU3E+4XZI+BXIYP" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/travelist-hotel-300x250.jpg" alt="【国内ホテル・宿泊・旅館予約｜トラベリスト】" width="300" height="250" loading="lazy"></a></div>
+<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+36B9P6+44YI+HY069" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/yumeyado-300x250.jpg" alt="平日お得な宿泊ならゆめやどにおまかせ【ゆめやど】" width="300" height="250" loading="lazy"></a></div>
+</div>
+
 ## THERMAL SPA S.WAVE｜大磯プリンスの本当の目玉施設
 
 ぶっちゃけ言うけど、大磯プリンスに泊まる価値の8割はここ。**2017年7月オープンの12歳以上限定スパ施設**で、3階が温泉フロア（男女別・水着不要）、4階がスパフロア（男女共用・水着着用）の **2フロア構成**。眼前には太平洋・水平線・富士山。コンセプトは「日常から解放された、ゆらぎの旅」。
@@ -309,6 +315,12 @@ author: "hacker-ko"
 <div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+35PU3E+4XZI+BXIYP" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/travelist-hotel-300x250.jpg" alt="【国内ホテル・宿泊・旅館予約｜トラベリスト】" width="300" height="250" loading="lazy" /></a></div>
 </div>
 <!-- /a8-section-break -->
+
+<!-- a8-banners auto-inserted by banner-fill (slot2-middle) -->
+<div class="affiliate-block">
+<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+36WPAY+5RZ8+5YZ75" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/aeon-compass-travel-300x250.jpg" alt="国内宿泊（宿・ホテル）【イオンコンパストラベルモール】" width="300" height="250" loading="lazy"></a></div>
+<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+33C3OA+3UQG+61JSH" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/ozmall-300x250.jpg" alt="厳選ホテル・旅館・レストラン・ 美容室の贅沢プランをお得に予約。東京女子に人気【OZmall】" width="300" height="250" loading="lazy"></a></div>
+</div>
 
 ## S.DINING の特別ディナー｜記念日に使うとお得感マシマシ
 

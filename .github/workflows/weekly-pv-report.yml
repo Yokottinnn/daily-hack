@@ -1,0 +1,130 @@
+name: weekly-pv-report
+
+# 週次で Cloudflare Zone Analytics から PV 上位 25 ページを取得し
+# Actions の Step Summary（タブ「Summary」）に整形して掲載する。
+# 月曜 朝7時 JST に自動実行 + 任意で workflow_dispatch から手動起動可能。
+
+on:
+  schedule:
+    - cron: '0 22 * * 0'   # 毎週日曜 22:00 UTC = 月曜 07:00 JST
+  workflow_dispatch:
+    inputs:
+      days:
+        description: '集計対象日数（デフォ7）'
+        required: false
+        default: '7'
+
+permissions:
+  contents: read
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      HOST: daily-hack.fieldbeside.com
+      DOMAIN: fieldbeside.com
+      DAYS: ${{ github.event.inputs.days || '7' }}
+    steps:
+      - name: Resolve Cloudflare zone id
+        env:
+          CF_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        run: |
+          set -euo pipefail
+          ZONE_ID=$(curl -s "https://api.cloudflare.com/client/v4/zones?name=${DOMAIN}" \
+            -H "Authorization: Bearer ${CF_TOKEN}" | jq -r '.result[0].id')
+          echo "zone_id=${ZONE_ID}" >> "$GITHUB_ENV"
+          echo "Resolved zone_id=${ZONE_ID}"
+
+      - name: Query Zone Analytics (GraphQL)
+        env:
+          CF_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        run: |
+          set -euo pipefail
+          END="$(date -u +%FT%TZ)"
+          START="$(date -u -d "-${DAYS} days" +%FT%TZ)"
+          echo "Window: ${START} → ${END}"
+          read -r -d '' QUERY <<'GQL' || true
+          query($zoneTag: String!, $start: Time!, $end: Time!, $host: String!) {
+            viewer {
+              zones(filter: { zoneTag: $zoneTag }) {
+                httpRequestsAdaptiveGroups(
+                  limit: 200,
+                  filter: {
+                    datetime_geq: $start,
+                    datetime_leq: $end,
+                    clientRequestHTTPHost: $host,
+                    edgeResponseStatus: 200,
+                    requestSource: "eyeball"
+                  },
+                  orderBy: [sum_visits_DESC]
+                ) {
+                  sum { visits requests }
+                  dimensions { clientRequestPath }
+                }
+              }
+            }
+          }
+          GQL
+          jq -n --arg q "$QUERY" --arg zone "$zone_id" --arg start "$START" --arg end "$END" --arg host "$HOST" \
+            '{query:$q, variables:{zoneTag:$zone, start:$start, end:$end, host:$host}}' > /tmp/q.json
+          curl -s https://api.cloudflare.com/client/v4/graphql \
+            -H "Authorization: Bearer ${CF_TOKEN}" \
+            -H "Content-Type: application/json" \
+            --data-binary @/tmp/q.json > /tmp/cf.json
+          # raw が空でもエラーで落とさない
+          jq '.' /tmp/cf.json | head -40 || true
+          # /posts/ のみに絞り、visits降順で上位25集計
+          jq -r '
+            .data.viewer.zones[0].httpRequestsAdaptiveGroups // []
+            | map(select(.dimensions.clientRequestPath | startswith("/posts/")))
+            | sort_by(.sum.visits) | reverse | .[:25]
+            | .[] | "\(.sum.visits)\t\(.sum.requests)\t\(.dimensions.clientRequestPath)"
+          ' /tmp/cf.json > /tmp/top.tsv || echo "(集計失敗 — 下のRAWを確認)"
+          ALL_PATHS=$(jq -r '.data.viewer.zones[0].httpRequestsAdaptiveGroups // [] | length' /tmp/cf.json)
+          ALL_VISITS=$(jq -r '[.data.viewer.zones[0].httpRequestsAdaptiveGroups[] | .sum.visits] | add // 0' /tmp/cf.json)
+          ALL_REQ=$(jq -r '[.data.viewer.zones[0].httpRequestsAdaptiveGroups[] | .sum.requests] | add // 0' /tmp/cf.json)
+          {
+            echo "# Weekly PV Report — ${HOST}"
+            echo
+            echo "**Window**: ${START} → ${END} (${DAYS}日)"
+            echo
+            echo "- 全パス数: ${ALL_PATHS}"
+            echo "- 総 visits: ${ALL_VISITS}"
+            echo "- 総 requests: ${ALL_REQ}"
+            echo
+            echo "## Top 25 posts by visits"
+            echo
+            echo "| 順 | visits | requests | path |"
+            echo "|---|---|---|---|"
+            i=0
+            while IFS=$'\t' read -r v r p; do
+              i=$((i+1))
+              echo "| ${i} | ${v} | ${r} | \`${p}\` |"
+            done < /tmp/top.tsv
+            echo
+            echo "---"
+            echo "RAW GraphQL response (deburrable):"
+            echo '```json'
+            jq '.' /tmp/cf.json | head -120
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Optional Slack post (if SLACK_WEBHOOK_URL set)
+        if: ${{ env.SLACK_WEBHOOK_URL != '' }}
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+        run: |
+          set -euo pipefail
+          {
+            echo "*Weekly PV Report — ${HOST} (${DAYS}日)*"
+            echo '```'
+            echo "rank visits  path"
+            i=0
+            while IFS=$'\t' read -r v r p; do
+              i=$((i+1)); printf "%-4d %-7s %s\n" "$i" "$v" "$p"
+            done < /tmp/top.tsv
+            echo '```'
+          } > /tmp/msg
+          jq -Rs --arg c "$(cat /tmp/msg)" '{text:$c}' < /dev/null > /tmp/payload.json
+          curl -s -X POST "$SLACK_WEBHOOK_URL" -H "Content-Type: application/json" --data @/tmp/payload.json

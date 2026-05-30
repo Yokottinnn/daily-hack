@@ -22,8 +22,9 @@ const args = Object.fromEntries(
   }),
 );
 const threshold = Number(args.threshold) || 15;
-const maxBanners = Number(args.maxBanners) || 3;
+const maxBanners = Number(args.maxBanners) || 6;  // 3スロット × 2バナー想定で6
 const dryRun = !!args.dryRun;
+const refresh = !!args.refresh;  // 既存挿入を消して再配置
 
 function parseFrontmatter(content) {
   const m = content.match(/^---\n([\s\S]*?)\n---/);
@@ -58,8 +59,15 @@ for (const fn of files) {
 
   if (data.draft) continue;
 
-  if (body.includes('class="a8-banner"')) {
-    console.log(`⏭  ${fn}: 既にバナーあり、スキップ`);
+  // 既存の banner-fill 自動挿入ブロックを剥がす（refresh モード時のみ全消去 → 再配置）
+  let workingBody = body;
+  if (refresh) {
+    workingBody = workingBody.replace(
+      /\n?<!-- a8-banners auto-inserted by banner-fill[^\n]*\n<div class="affiliate-block">[\s\S]*?<\/div>\n/g,
+      '\n'
+    );
+  } else if (workingBody.includes('class="affiliate-block"')) {
+    console.log(`⏭  ${fn}: 既にバナーあり、スキップ（--refresh で再配置）`);
     continue;
   }
 
@@ -74,36 +82,62 @@ for (const fn of files) {
   const matches = matchBanners(ctx, { threshold, topN: maxBanners });
   if (matches.length === 0) {
     console.log(`⏭  ${fn}: マッチなし（閾値 ${threshold}）、スキップ`);
+    if (refresh && workingBody !== body) {
+      // refreshで剥がしただけで終わるケースも反映
+      const newRaw = raw.slice(0, raw.length - body.length) + workingBody;
+      if (!dryRun) await fs.writeFile(fpath, newRaw);
+    }
     continue;
   }
 
-  const bannerBlock = `\n<!-- a8-banners auto-inserted by banner-fill (banner-matcher) -->\n<div class="affiliate-block">\n${matches.map((m) => renderBannerHtml(m.banner)).join('\n')}\n</div>\n`;
+  // ## H2 の位置を全て収集
+  const h2Re = /^## /gm;
+  const h2Indices = [];
+  let m;
+  while ((m = h2Re.exec(workingBody)) !== null) h2Indices.push(m.index);
 
-  // 挿入位置を決定: 「## 関連記事」「## まとめ」のどちらか先に出る方の直前
-  let insertPos = -1;
+  // 末尾 ## まとめ / ## 関連記事 の位置
+  let tailIdx = -1;
   for (const marker of ['## 関連記事', '## まとめ']) {
-    const idx = body.indexOf(marker);
-    if (idx !== -1 && (insertPos === -1 || idx < insertPos)) {
-      insertPos = idx;
-    }
+    const idx = workingBody.indexOf(marker);
+    if (idx !== -1 && (tailIdx === -1 || idx < tailIdx)) tailIdx = idx;
   }
-  let newBody;
-  if (insertPos !== -1) {
-    newBody = body.slice(0, insertPos) + bannerBlock + '\n' + body.slice(insertPos);
-  } else {
-    newBody = body + bannerBlock;
+
+  // 3スロットの挿入位置を決定（インデックスは workingBody のオフセット）
+  // - slot1: 1番目のH2のあと（=2番目のH2の直前） 大事な序盤に1ブロック
+  // - slot2: 真ん中のH2の直前（コンテンツ中央）
+  // - slot3: まとめ/関連記事の直前 既存位置
+  const slots = [];
+  if (h2Indices.length >= 2) slots.push({ pos: h2Indices[1], label: 'slot1-after-1st-h2' });
+  if (h2Indices.length >= 3) slots.push({ pos: h2Indices[Math.floor(h2Indices.length / 2)], label: 'slot2-middle' });
+  if (tailIdx !== -1) slots.push({ pos: tailIdx, label: 'slot3-before-tail' });
+  else if (h2Indices.length >= 2) slots.push({ pos: workingBody.length, label: 'slot3-end' });
+
+  // マッチを slot 数で分割（先頭ほど高スコアになるよう intelligent distribute）
+  const slotCount = Math.max(1, slots.length);
+  const perSlot = Math.max(1, Math.ceil(matches.length / slotCount));
+  const buckets = [];
+  for (let i = 0; i < slotCount; i++) buckets.push(matches.slice(i * perSlot, (i + 1) * perSlot));
+
+  // 末尾から挿入（先のインデックスがずれない）
+  let newBody = workingBody;
+  for (let i = slots.length - 1; i >= 0; i--) {
+    const bs = buckets[i];
+    if (!bs || bs.length === 0) continue;
+    const block = `\n<!-- a8-banners auto-inserted by banner-fill (${slots[i].label}) -->\n<div class="affiliate-block">\n${bs.map((m) => renderBannerHtml(m.banner)).join('\n')}\n</div>\n\n`;
+    newBody = newBody.slice(0, slots[i].pos) + block + newBody.slice(slots[i].pos);
   }
 
   const newRaw = raw.slice(0, raw.length - body.length) + newBody;
 
   if (dryRun) {
-    console.log(`📝 ${fn}: 挿入予定 ${matches.length} banner (dry-run)`);
-    matches.forEach((m) => console.log(`     ${m.banner.id} score=${m.score}`));
+    console.log(`📝 ${fn}: ${slots.length}スロット × 計${matches.length}banner 挿入予定 (dry-run)`);
+    slots.forEach((s, i) => console.log(`     [${s.label}] ${(buckets[i] || []).map((m) => m.banner.id).join(', ')}`));
   } else {
     await fs.writeFile(fpath, newRaw);
-    console.log(`✅ ${fn}: 挿入 ${matches.length} banner`);
-    matches.forEach((m) => console.log(`     ${m.banner.id} score=${m.score}`));
-    filled.push({ slug: ctx.slug, banners: matches.map((m) => m.banner.id) });
+    console.log(`✅ ${fn}: ${slots.length}スロット × 計${matches.length}banner`);
+    slots.forEach((s, i) => console.log(`     [${s.label}] ${(buckets[i] || []).map((m) => m.banner.id).join(', ')}`));
+    filled.push({ slug: ctx.slug, slots: slots.length, banners: matches.map((m) => m.banner.id) });
   }
 }
 

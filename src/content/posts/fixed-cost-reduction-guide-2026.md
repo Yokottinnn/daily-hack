@@ -79,6 +79,12 @@ author: "hacker-ko"
 
 <p class="source-note">出典: 総務省統計局「家計調査年報（家計収支編）」2024年（<a href="https://www.stat.go.jp/data/kakei/" target="_blank" rel="noopener nofollow">stat.go.jp</a>）、経済産業省 資源エネルギー庁「電力小売全面自由化」関連資料（<a href="https://www.enecho.meti.go.jp/category/electricity_and_gas/electric/electricity_liberalization/" target="_blank" rel="noopener nofollow">enecho.meti.go.jp</a>）。世帯構成・地域・契約プランで変動するので、自世帯の請求書で必ず実額を確認してください。</p>
 
+<!-- a8-banners auto-inserted by banner-fill (slot1-after-1st-h2) -->
+<div class="affiliate-block">
+<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+10BHGA+3SPO+2T8Z4X" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/haruene-denki-300x250.jpg" alt="メディア会員の方必見！電気代コスト削減！★大幅還元実施中★【ハルエネ電気】" width="300" height="250" loading="lazy"></a></div>
+<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+25EE6Y+5HNU+5YZ75" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/arcana-energy-300x250.jpg" alt="電力単価の安さ【アルカナエナジー】" width="300" height="250" loading="lazy"></a></div>
+</div>
+
 ## 3大コスト、月いくら削れる？年間インパクトを視覚化
 
 「月5,000円削減」って言われてもピンと来ないでしょ。だから**年間ベースに直して**見せてあげる。これ見たら腰抜かすから覚悟して。
@@ -199,6 +205,12 @@ ahamo・povo・LINEMO・楽天モバイル・UQモバイル・ワイモバイル
 <div class="a8-banner a8-banner--horizontal-banner"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+10BHGA+3SPO+2T8JPD" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/haruene-denki-468x60.jpg" alt="メディア会員の方必見！電気代コスト削減！★大幅還元実施中★【ハルエネ電気】" width="468" height="60" loading="lazy" /></a></div>
 </div>
 <!-- /a8-section-break -->
+
+<!-- a8-banners auto-inserted by banner-fill (slot2-middle) -->
+<div class="affiliate-block">
+<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+25ZTSQ+2W92+1NJZN5" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/enepi-denki-300x250.jpg" alt="東証プライム上場！一番安い電気料金で契約するなら【エネピ】" width="300" height="250" loading="lazy"></a></div>
+<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+1X2BQ2+4AXS+60H7L" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/elpio-denki-300x250.jpg" alt="エルピオでんき！セット割でお得！！" width="300" height="250" loading="lazy"></a></div>
+</div>
 
 ## 電気代編｜新電力切り替え + 経済圏連動で月2,000円カット
 
@@ -432,6 +444,12 @@ ahamo・povo・LINEMO・楽天モバイル・UQモバイル・ワイモバイル
 
 </div>
 <!-- /a8-affiliate-expansion -->
+
+<!-- a8-banners auto-inserted by banner-fill (slot3-before-tail) -->
+<div class="affiliate-block">
+<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+15ODWA+3SPO+TU8U9" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/denki-choice-300x250.jpg" alt="当サイト限定　最大30000円現金キャッシュバック！【電気チョイス】" width="300" height="250" loading="lazy"></a></div>
+<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+11ICNU+3SPO+ZRALD" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/gas-choice-300x250.jpg" alt="当サイト限定　最大30000円現金キャッシュバック！ガス代を今よりお安く！【ガスチョイス】" width="300" height="250" loading="lazy"></a></div>
+</div>
 
 ## まとめ｜固定費削減、今日の作業3つ
 
