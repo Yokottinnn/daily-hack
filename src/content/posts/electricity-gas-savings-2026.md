@@ -250,6 +250,12 @@ author: "hacker-ko"
 </div>
 <!-- /a8-section-break -->
 
+<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+25ZTSQ+2W92+1NJZN5" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/enepi-denki-300x250.jpg" alt="東証プライム上場！一番安い電気料金で契約するなら【エネピ】" width="300" height="250" loading="lazy"></a></div>
+</div>
+
+<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+11ICNU+3SPO+ZRALD" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/gas-choice-300x250.jpg" alt="当サイト限定　最大30000円現金キャッシュバック！ガス代を今よりお安く！【ガスチョイス】" width="300" height="250" loading="lazy"></a></div>
+</div>
+
 <!-- a8-banners auto-inserted by banner-fill (slot1-after-1st-h2) -->
 <div class="affiliate-block">
 <div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+12P7VE+3SDQ+5ZU29" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/gasya-no-mado-300x250.jpg" alt="ガス会社の乗り換えで、ガス料金が安くなる！【ガス屋の窓口】" width="300" height="250" loading="lazy"></a></div>
@@ -462,6 +468,9 @@ author: "hacker-ko"
 
 </div>
 <!-- /a8-affiliate-expansion -->
+
+<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+15ODWA+3SPO+TU8U9" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/denki-choice-300x250.jpg" alt="当サイト限定　最大30000円現金キャッシュバック！【電気チョイス】" width="300" height="250" loading="lazy"></a></div>
+</div>
 
 <!-- a8-banners auto-inserted by banner-fill (slot3-before-tail) -->
 <div class="affiliate-block">
