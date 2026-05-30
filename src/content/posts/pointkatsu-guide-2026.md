@@ -34,6 +34,8 @@ relatedReferrals: ["rakuten-bank", "olive-smbc", "air-wallet", "go-taxi"]
 
 「数百円のためにアレコレ手間かけるの？」と思うかもしれませんが、**初年度に5〜10万円、定常的に月2〜3万円分が浮く**のが普通です。これをやらない理由、本当にある？
 
+</div>
+
 <!-- a8-banners auto-inserted by banner-fill (slot1-after-1st-h2) -->
 <div class="affiliate-block">
 <div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+N7Y56+3ZZC+HY069" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/warau-300x250.jpg" alt="ポイ活ならワラウ【ワラウ】（広告利用ボーナスクリア）" width="300" height="250" loading="lazy"></a></div>
@@ -68,6 +70,8 @@ relatedReferrals: ["rakuten-bank", "olive-smbc", "air-wallet", "go-taxi"]
 <div class="a8-banner a8-banner--horizontal-banner"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+N7Y56+3ZZC+HXKQP" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/warau-468x60.jpg" alt="ポイ活ならワラウ【ワラウ】（広告利用ボーナスクリア）" width="468" height="60" loading="lazy" /></a></div>
 </div>
 <!-- /a8-section-break -->
+
+</div>
 
 <!-- a8-banners auto-inserted by banner-fill (slot2-middle) -->
 <div class="affiliate-block">
@@ -129,3 +133,8 @@ PayPay、楽天ペイ、d払い、au PAY……どれを使うか迷うなら、*
 
 </div>
 <!-- /a8-affiliate-expansion -->
+
+<!-- a8-banners auto-inserted by banner-fill (slot3-end) -->
+<div class="affiliate-block">
+<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B43JB+C507KQ+389A+67RK1" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/chobirich-300x250.jpg" alt="ちょびリッチ" width="300" height="250" loading="lazy"></a></div>
+</div>
