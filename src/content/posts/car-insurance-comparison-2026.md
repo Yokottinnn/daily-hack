@@ -10,6 +10,8 @@ featured: false
 eyecatchUrl: "/images/car-insurance-comparison-2026/eyecatch.jpg"
 eyecatchAlt: "自動車保険 一括見積もり 8社徹底比較 2026 — 年間5万円差がつく選び方"
 author: "hacker-ko"
+source_candidate_id: "C006"
+references: ["https://www.sonysonpo.co.jp/", "https://www.sbisonpo.co.jp/", "https://www.zurich.co.jp/", "https://www.mitsui-direct.co.jp/", "https://www.axa-direct.co.jp/", "https://www.ins-saison.co.jp/otona/", "https://www.e-design.net/", "https://www.rakuten-sonpo.co.jp/", "https://www.bang.co.jp/insurance/", "https://www.inzweb.jp/"]
 ---
 
 自動車保険、**「ディーラーで言われるがまま代理店型」のまま10年放置**してるあんた、はっきり言うわよ、年間3〜5万円ドブ捨てしてる。2026年の今、ダイレクト型主要8社をネットで一括見積もりすれば**同じ補償内容で半額近くなる**ことだって珍しくない。今日アタシが、年代・等級・走行距離別に「あんたが選ぶべき1社」までナビゲートしてあげる 😏
