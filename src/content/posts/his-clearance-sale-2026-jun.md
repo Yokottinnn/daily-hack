@@ -7,8 +7,8 @@ tags: ["HIS", "在庫セール", "格安旅行", "ツアー", "沖縄", "石垣"
 isPR: false
 draft: false
 featured: true
-eyecatchUrl: "/images/his-clearance-sale-2026-jun/his-sale-overseas.png"
-eyecatchAlt: "HIS 在庫処分セール 2026年6月 — シンガポール4日49,800円・バンコク4日44,800円〜、燃油サーチャージなし"
+eyecatchUrl: "/images/his-clearance-sale-2026-jun/his-eyecatch-16x9.jpg"
+eyecatchAlt: "HIS 在庫処分セール 2026年6月 — シンガポール49,800円・バンコク44,800円〜・沖縄25,800円〜・石垣32,000円〜（往復航空券＋ホテル込み）"
 author: "hacker-ko"
 references: ["https://x.com/halohalo_travel/status/2060588028402311572", "https://www.his-j.com/fair/sss/zenkoku/kokunai/airhotel/", "https://lcctaro.com/his-selection-summer/"]
 ---
