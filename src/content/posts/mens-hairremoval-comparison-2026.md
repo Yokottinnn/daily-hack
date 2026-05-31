@@ -94,6 +94,12 @@ references:
 
 ---
 
+<!-- a8-banners auto-inserted by banner-fill (slot1-after-1st-h2) -->
+<div class="affiliate-block">
+<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+26L9EI+348K+3YXBHD" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/monster-mobile-300x250.jpg" alt="月額1800円〜コスパ最強のモバイルWi-Fi【MONSTER MOBILE】" width="300" height="250" loading="lazy"></a></div>
+<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+ZQ1UI+42Y0+5ZMCH" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/au-hikari-300x250.jpg" alt="【auひかり】初期工事費無料！豪華キャンペーン！知らない人はモッタイナイ！" width="300" height="250" loading="lazy"></a></div>
+</div>
+
 ## 5社早見表（2026年5月時点）
 
 | 会社 | 種別 | ヒゲ3部位 5/6回 | 全身5回（ヒゲ・VIO別） | VIO 5/6回 | 痛み・機器 | カウンセリング |
@@ -248,6 +254,12 @@ references:
 
 ---
 
+<!-- a8-banners auto-inserted by banner-fill (slot2-middle) -->
+<div class="affiliate-block">
+<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+10BHGA+3SPO+2T8Z4X" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/haruene-denki-300x250.jpg" alt="メディア会員の方必見！電気代コスト削減！★大幅還元実施中★【ハルエネ電気】" width="300" height="250" loading="lazy"></a></div>
+<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+11ICNU+3SPO+ZRALD" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/gas-choice-300x250.jpg" alt="当サイト限定　最大30000円現金キャッシュバック！ガス代を今よりお安く！【ガスチョイス】" width="300" height="250" loading="lazy"></a></div>
+</div>
+
 ## 部位別・目的別の最適選び
 
 ### ケース1: ヒゲ脱毛だけ最安で完結したい
@@ -365,6 +377,12 @@ references:
 </ul>
 
 この3問の答えで自分のベスト1社が決まる。**迷ったらメンズリゼ**を推す。理由は ① 医療で永久脱毛効果あり、② 追加照射が16,800円と業界最安、③ 割引3つ併用で35%OFF可能、④ 全身+ヒゲ+VIOセットがトータル最安、⑤ 全国26院でアクセスもまずまず、と全方位で穴がない。
+
+<!-- a8-banners auto-inserted by banner-fill (slot3-before-tail) -->
+<div class="affiliate-block">
+<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+123S9M+1MWA+1TS6MP" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/hikari-denwa-wiz-300x250.jpg" alt="【キャッシュバック最大7万円】ひかり電話、ヒカリ回線のお申込み窓口" width="300" height="250" loading="lazy"></a></div>
+<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+12P7VE+3SDQ+5ZU29" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/gasya-no-mado-300x250.jpg" alt="ガス会社の乗り換えで、ガス料金が安くなる！【ガス屋の窓口】" width="300" height="250" loading="lazy"></a></div>
+</div>
 
 ## まとめ: 「明日にしよう」を今日で終わらせる
 
