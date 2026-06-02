@@ -30,20 +30,24 @@ def main():
     ft = ImageFont.truetype(FONT, 52)
     d.text((W/2, BAR_TOP/2), "牛丼チェーン4社 決済キャンペーン徹底比較 2026年6月", font=ft, fill=(255,255,240), anchor="mm")
 
-    # 4 cards: 松屋 / 吉野家 / すき家 / なか卯 with brand color + key value
+    # 4 cards: 松屋 / 吉野家 / すき家 / なか卯 with brand color + KV + logo
+    LOGOS = os.path.join(IMGDIR, "logos")
     chains = [
-        ("松屋", (255, 80, 0), "PayPay 40%\nd払い 20%\n（60周年）"),
-        ("吉野家", (200, 25, 25), "d払い 20%\n（テイクアウト\n〜6/6）"),
-        ("すき家", (245, 130, 0), "三井住友NL 7%\n＋ポイント\n15倍"),
-        ("なか卯", (200, 30, 60), "三井住友NL 7%\n＋ポイント\n15倍"),
+        ("松屋", (255, 80, 0), "PayPay 40%\nd払い 20%\n（60周年）", "matsuya.png"),
+        ("吉野家", (200, 25, 25), "d払い 20%\n（テイクアウト\n〜6/6）", "yoshinoya.png"),
+        ("すき家", (245, 130, 0), "三井住友NL 7%\n＋ポイント\n15倍", "sukiya.png"),
+        ("なか卯", (200, 30, 60), "三井住友NL 7%\n＋ポイント\n15倍", "nakau.png"),
     ]
     cw = (W - 100) // 4
     gap = 20
     cy0 = BAR_TOP + 30
     ch = H - BAR_TOP - BAR_BOT - 50
     fchain = ImageFont.truetype(FONT, 60)
-    fkv = ImageFont.truetype(FONT, 32)
-    for i, (name, color, kv) in enumerate(chains):
+    fkv = ImageFont.truetype(FONT, 30)
+
+    # ロゴを共通サイズ 240x100 の white box に fit させて調和
+    LOGO_BOX_W, LOGO_BOX_H = 240, 100
+    for i, (name, color, kv, logo_file) in enumerate(chains):
         x0 = 30 + i * (cw + gap)
         # card
         d.rounded_rectangle([x0, cy0, x0+cw, cy0+ch], 20, fill=(255, 245, 230), outline=color, width=5)
@@ -51,8 +55,25 @@ def main():
         d.rounded_rectangle([x0, cy0, x0+cw, cy0+115], 20, fill=color)
         d.rectangle([x0, cy0+85, x0+cw, cy0+115], fill=color)
         d.text((x0 + cw/2, cy0 + 60), name, font=fchain, fill=(255,255,255), anchor="mm")
-        # kv text (3 lines)
-        d.multiline_text((x0 + cw/2, cy0 + 220), kv, font=fkv, fill=(60,30,15), anchor="mm", align="center", spacing=12)
+        # KV text (3 lines)
+        d.multiline_text((x0 + cw/2, cy0 + 195), kv, font=fkv, fill=(60,30,15), anchor="mm", align="center", spacing=10)
+        # ロゴカード（共通サイズで調和）
+        logo_x = x0 + (cw - LOGO_BOX_W) // 2
+        logo_y = cy0 + ch - LOGO_BOX_H - 30
+        d.rounded_rectangle([logo_x, logo_y, logo_x+LOGO_BOX_W, logo_y+LOGO_BOX_H], 14, fill=(255,255,255), outline=color, width=2)
+        lg_path = os.path.join(LOGOS, logo_file)
+        if os.path.exists(lg_path):
+            lg = Image.open(lg_path).convert("RGBA")
+            # 白背景を透過扱いに（RGB ロゴは枠に対し白パッチが目立たないようそのまま）
+            pad = 12
+            maxw, maxh = LOGO_BOX_W - pad*2, LOGO_BOX_H - pad*2
+            lg.thumbnail((maxw, maxh), Image.LANCZOS)
+            paste_x = logo_x + (LOGO_BOX_W - lg.width) // 2
+            paste_y = logo_y + (LOGO_BOX_H - lg.height) // 2
+            if lg.mode == "RGBA":
+                img.paste(lg, (paste_x, paste_y), lg)
+            else:
+                img.paste(lg, (paste_x, paste_y))
 
     # bottom subtitle bar
     d.rectangle([0, H - BAR_BOT, W, H], fill=(40, 20, 10))
