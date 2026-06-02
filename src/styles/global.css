@@ -479,6 +479,8 @@ footer.foot .pr { margin-top: 6px; }
 .compare-card dd { margin: 0; color: var(--ink); }
 .compare-card .compare-cta { display: inline-flex; align-items: center; gap: 6px; font-size: 12.5px; font-weight: 700; color: var(--pink-600); border-bottom: 1px dashed var(--pink-300); padding-bottom: 2px; }
 .compare-card .compare-cta:hover { color: var(--pink-700); border-color: var(--pink-500); }
+.compare-card p.compare-best { background: linear-gradient(90deg, var(--pink-50), #fff); border-left: 3px solid var(--pink-500); padding: 6px 10px; margin: 6px 0 10px; font-size: 13.5px; color: var(--ink); border-radius: 0 6px 6px 0; }
+.compare-card p.compare-best strong { color: var(--pink-700); font-weight: 800; }
 
 /* Two-column "vs" comparison cards */
 .vs-pair { display: grid; gap: 14px; margin: 28px 0; grid-template-columns: 1fr 1fr; }
