@@ -30,13 +30,19 @@ def main():
     ft = ImageFont.truetype(FONT, 52)
     d.text((W/2, BAR_TOP/2), "牛丼チェーン4社 決済キャンペーン徹底比較 2026年6月", font=ft, fill=(255,255,240), anchor="mm")
 
-    # 4 cards: 松屋 / 吉野家 / すき家 / なか卯 with brand color + KV + logo
+    # 4 cards: 松屋 / 吉野家 / すき家 / なか卯 with brand color + KV + character + logo
+    # 各社の「気分」に合わせて表情選定:
+    #   松屋(60周年・40%還元) → gasp(驚き)
+    #   吉野家(d払い20% 6/6まで) → pout(急ぎ)
+    #   すき家(毎月15倍 定番) → smug(ドヤ顔)
+    #   なか卯(3段重ね最強) → cheer(やったね)
     LOGOS = os.path.join(IMGDIR, "logos")
+    CHARS = os.path.join(ROOT, "public/images")
     chains = [
-        ("松屋", (255, 80, 0), "PayPay 40%\nd払い 20%\n（60周年）", "matsuya.png"),
-        ("吉野家", (200, 25, 25), "d払い 20%\n（テイクアウト\n〜6/6）", "yoshinoya.png"),
-        ("すき家", (245, 130, 0), "三井住友NL 7%\n＋ポイント\n15倍", "sukiya.png"),
-        ("なか卯", (200, 30, 60), "三井住友NL 7%\n＋ポイント\n15倍", "nakau.png"),
+        ("松屋", (255, 80, 0), "PayPay 40%\nd払い 20%\n（60周年）", "matsuya.png", "expr-07-gasp.png"),
+        ("吉野家", (200, 25, 25), "d払い 20%\n（テイクアウト\n〜6/6）", "yoshinoya.png", "expr-02-pout.png"),
+        ("すき家", (245, 130, 0), "三井住友NL 7%\n＋ポイント\n15倍", "sukiya.png", "expr-05-smug.png"),
+        ("なか卯", (200, 30, 60), "三井住友NL 7%\n＋ポイント\n15倍", "nakau.png", "expr-04-cheer.png"),
     ]
     cw = (W - 100) // 4
     gap = 20
@@ -47,7 +53,8 @@ def main():
 
     # ロゴを共通サイズ 240x100 の white box に fit させて調和
     LOGO_BOX_W, LOGO_BOX_H = 240, 100
-    for i, (name, color, kv, logo_file) in enumerate(chains):
+    CHAR_SIZE = 160  # キャラ画像の最大辺
+    for i, (name, color, kv, logo_file, char_file) in enumerate(chains):
         x0 = 30 + i * (cw + gap)
         # card
         d.rounded_rectangle([x0, cy0, x0+cw, cy0+ch], 20, fill=(255, 245, 230), outline=color, width=5)
@@ -64,7 +71,6 @@ def main():
         lg_path = os.path.join(LOGOS, logo_file)
         if os.path.exists(lg_path):
             lg = Image.open(lg_path).convert("RGBA")
-            # 白背景を透過扱いに（RGB ロゴは枠に対し白パッチが目立たないようそのまま）
             pad = 12
             maxw, maxh = LOGO_BOX_W - pad*2, LOGO_BOX_H - pad*2
             lg.thumbnail((maxw, maxh), Image.LANCZOS)
@@ -74,6 +80,14 @@ def main():
                 img.paste(lg, (paste_x, paste_y), lg)
             else:
                 img.paste(lg, (paste_x, paste_y))
+        # キャラ画像（ロゴカードの上の空きスペースに配置）
+        char_path = os.path.join(CHARS, char_file)
+        if os.path.exists(char_path):
+            ch_img = Image.open(char_path).convert("RGBA")
+            ch_img.thumbnail((CHAR_SIZE, CHAR_SIZE), Image.LANCZOS)
+            char_x = x0 + (cw - ch_img.width) // 2
+            char_y = logo_y - ch_img.height - 6  # ロゴカード上に少し被るくらい
+            img.paste(ch_img, (char_x, char_y), ch_img)
 
     # bottom subtitle bar
     d.rectangle([0, H - BAR_BOT, W, H], fill=(40, 20, 10))
