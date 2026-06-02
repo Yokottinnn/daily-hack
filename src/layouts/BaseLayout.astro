@@ -160,7 +160,7 @@ const yandexVerification = import.meta.env.PUBLIC_YANDEX_VERIFICATION ?? '';
     <Header />
     <slot />
     <Footer />
-    <AdMax slot="dailyhack-sticky-mobile" variant="sticky-mobile" label={false} />
+    {/* sticky-mobile 広告は UX 損なうため削除（2026-05-31）。文中バナーで代替。 */}
     <CookieConsent />
   </body>
 </html>
