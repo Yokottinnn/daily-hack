@@ -11,7 +11,11 @@
  */
 import fs from 'node:fs/promises';
 import path from 'node:path';
-import { matchBanners, renderBannerHtml } from '../src/lib/banner-matcher.ts';
+// banner-matcher は TS。Node の素の ESM では .ts の named export を解決できないため
+// jiti で名前空間として読み込む（node scripts/banner-fill.mjs ... で直接実行可能に）。
+import { createJiti } from 'jiti';
+const jiti = createJiti(import.meta.url);
+const { matchBanners, renderBannerHtml } = await jiti.import('../src/lib/banner-matcher.ts');
 
 const POSTS_DIR = 'src/content/posts';
 
