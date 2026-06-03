@@ -1,0 +1,18 @@
+{
+  "badge": "2026年最新版",
+  "kicker": "歩く・移動で貯まる",
+  "title1": "移動ポイ活",
+  "title2_html": "どれが<span class=\"mark\">一番お得</span>？",
+  "subline": "実収益で比較した 5アプリ徹底検証",
+  "character": "expr-04-cheer.png",
+  "speech": "アタシが全部\n試したわよ",
+  "ranking": [
+    { "name": "トリマ",        "value": "月700〜1,200円分", "unit": "現金・ギフト券 / 無料", "color": "#2DAF5F", "recommended": true },
+    { "name": "ANA Pocket",    "value": "月〜1,500マイル",   "unit": "ANAマイル / Pro 550円",  "color": "#1E6EC8" },
+    { "name": "JAL Wellness",  "value": "年3,092マイル",     "unit": "JALマイル / 550円",      "color": "#D2232D" },
+    { "name": "dヘルスケア",    "value": "月33pt〜",          "unit": "dポイント / 無料",       "color": "#E65A1E" },
+    { "name": "楽天ヘルスケア", "value": "月100pt〜",         "unit": "楽天ポイント / 無料",     "color": "#BF1E2D" }
+  ],
+  "verdict_html": "結論：<b>無料アプリ2〜3本の併用</b>が最強コスパ",
+  "handle": "@heng_ji31590"
+}
