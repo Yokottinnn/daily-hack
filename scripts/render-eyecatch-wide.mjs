@@ -65,7 +65,7 @@ function buildHtml(d) {
       linear-gradient(135deg, var(--magenta-faint) 0%, #FFFFFF 52%, var(--cream-light) 100%);
   }
   .dots{position:absolute;inset:0;background-image:radial-gradient(circle, rgba(214,62,118,.06) 1.6px, transparent 1.6px);background-size:30px 30px;}
-  .stage{position:absolute;inset:0;padding:50px 56px;display:flex;flex-direction:column;}
+  .stage{position:absolute;inset:0;padding:46px 56px 40px;display:flex;flex-direction:column;}
   /* header */
   .head{display:flex;justify-content:space-between;align-items:flex-start;}
   .brand{display:inline-flex;align-items:center;gap:10px;background:#fff;border:2px solid var(--magenta-light);
@@ -79,8 +79,8 @@ function buildHtml(d) {
   .left{width:600px;display:flex;flex-direction:column;position:relative;}
   .kicker{color:var(--magenta-strong);font-weight:900;font-size:26px;margin-bottom:6px;letter-spacing:.02em;}
   h1{font-family:"RocknRoll One";line-height:1.12;color:var(--ink);}
-  h1 .l1{font-size:104px;display:block;}
-  h1 .l2{font-size:74px;display:block;margin-top:2px;}
+  h1 .l1{font-size:${d.title1_size || 104}px;display:block;white-space:nowrap;}
+  h1 .l2{font-size:${d.title2_size || 74}px;display:block;margin-top:2px;white-space:nowrap;}
   .mark{position:relative;display:inline-block;z-index:0;}
   .mark::after{content:"";position:absolute;left:-6px;right:-6px;bottom:8px;height:26px;background:var(--neon);z-index:-1;border-radius:4px;transform:rotate(-1deg);}
   .subline{font-size:27px;font-weight:700;color:var(--ink-soft);margin-top:22px;}
@@ -109,6 +109,32 @@ function buildHtml(d) {
   .foot .verdict{color:#fff;font-weight:900;font-size:25px;}
   .foot .verdict b{color:var(--neon);}
   .foot .handle{color:#FFD9E6;font-family:"Bebas Neue";font-size:24px;letter-spacing:.04em;}
+  ${d.theme === 'alert' ? `
+  /* ===== ALERT THEME（改悪・速報・警告）===== */
+  body{ color:#FDECEF;
+    background:
+      radial-gradient(circle at 6% 4%, #5a1020 0%, transparent 36%),
+      radial-gradient(circle at 96% 98%, #3a0a16 0%, transparent 42%),
+      linear-gradient(135deg, #1c0a10 0%, #2a0d16 52%, #1a0810 100%); }
+  .dots{ background-image:radial-gradient(circle, rgba(255,80,90,.07) 1.6px, transparent 1.6px); }
+  .brand{ background:#1c0a10; border-color:#7a2330; }
+  .brand .b-dot{ background:#FF3B4E; }
+  .brand span{ color:#FDECEF; }
+  .badge{ background:#FF3B4E; color:#1c0a10; }
+  .kicker{ color:#FF6470; }
+  h1{ color:#FFFFFF; }
+  .mark::after{ background:#FF3B4E; }
+  .subline{ color:#E7B9C2; }
+  .speech{ background:#2a0d16; border-color:#7a2330; color:#FFD9DE; }
+  .speech::after{ border-right-color:#2a0d16; }
+  .rank-card{ background:#26101a; border:2px solid #5a1a28; box-shadow:0 10px 26px -14px rgba(0,0,0,.5); }
+  .rank-no{ background:#5a1a28; color:#FFB3BC; }
+  .rc-name{ color:#FFFFFF; }
+  .rc-val{ color:#FF6470; }
+  .rc-unit{ color:#C99AA4; }
+  .foot{ background:linear-gradient(90deg,#FF3B4E,#A8121F); }
+  .foot .verdict b{ color:#FFE34D; }
+  ` : ''}
   </style></head><body>
   <div class="dots"></div>
   <div class="stage">
