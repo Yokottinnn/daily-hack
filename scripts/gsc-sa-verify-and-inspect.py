@@ -21,7 +21,7 @@ def imp_token(scopes):
     """gcloud user → SA impersonation で access token を取得"""
     r = subprocess.run(
         ["gcloud", "auth", "print-access-token",
-         f"--impersonate-service-account={SA}",
+         f"--account={SA}",
          f"--scopes={','.join(scopes)}"],
         capture_output=True, text=True, check=True)
     return r.stdout.strip()

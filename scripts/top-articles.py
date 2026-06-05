@@ -10,7 +10,7 @@ DAYS = 30
 def imp_token(scopes):
     r = subprocess.run(
         ["gcloud", "auth", "print-access-token",
-         f"--impersonate-service-account={SA}",
+         f"--account={SA}",
          f"--scopes={','.join(scopes)}"],
         capture_output=True, text=True, check=True)
     return r.stdout.strip()
