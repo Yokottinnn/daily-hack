@@ -49,6 +49,13 @@ references: ["https://www.anapocket.com/pro", "https://www.jal.co.jp/jp/ja/jmb/w
 
 ANA Pocketは**徒歩だけじゃなく電車・車・新幹線・飛行機まで、あらゆる移動距離がポイントになる**のが最大の特徴。歩かなくても通勤や買い物の移動で勝手に貯まる。
 
+<div class="real-photos">
+<figure class="real-photo">
+<img src="/images/ana-pocket-vs-jal-wellness-2026/ana-showcase.jpg" alt="ANA Pocketのアプリ画面 — 移動するだけでポイントが貯まり、各種ギフト券やANAマイルに交換できる" loading="lazy" />
+<figcaption>ANA Pocketは徒歩・自転車・電車・車・新幹線・飛行機の移動距離でポイントが貯まり、ANAマイルやギフト券に交換できる。<cite>出典: ANA Pocket（App Store 掲載画像）</cite></figcaption>
+</figure>
+</div>
+
 - **料金**: 無料の「Lite」と、月額550円の「**Pro**」。Proは同じ移動でもLiteの**約1.3倍**ポイントが貯まる
 - **Pro特典**: 継続利用者に**毎月5,000ポイントを自動付与**＋「**Proマイルガチャ**」（1回最低7マイル〜最大10,000マイル）
 - **実際の獲得**: あるFPの1年実績は**年8,955マイル＝月約746マイル**で、月額550円を上回るパフォーマンス。移動量が多い人は**月1,000〜1,500マイル**の報告も
@@ -63,6 +70,13 @@ ANA Pocketは**徒歩だけじゃなく電車・車・新幹線・飛行機ま�
 ## 🔴 JAL Wellness & Travel — 歩数×健康型
 
 JALは**「1日の歩数チャレンジ」を達成してマイル＋くじ**を狙う、健康管理アプリ寄りの設計。歩けば歩くほど貯まるけど、**歩かない日はほぼ貯まらない**。
+
+<div class="real-photos">
+<figure class="real-photo">
+<img src="/images/ana-pocket-vs-jal-wellness-2026/jal-showcase.jpg" alt="JAL Wellness & Travelのアプリ画面 — 1日の歩数チャレンジでレベル達成、マイルや抽選券を受け取れる" loading="lazy" />
+<figcaption>JAL Wellness & Travelは歩数に応じてLEVEL1〜3を達成し、マイル＋抽選券を受け取る健康×マイルの設計。<cite>出典: JAL Wellness & Travel（App Store 掲載画像）</cite></figcaption>
+</figure>
+</div>
 
 - **料金**: 月額550円（初回入会〜翌月末まで無料）
 - **貯め方**: 毎日の歩数目標達成でマイル、さらに**くじ（抽選）**でマイル上乗せ。チェックインスポット等のボーナスも
