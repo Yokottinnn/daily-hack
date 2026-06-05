@@ -25,3 +25,7 @@ pnpm-debug.log*
 # jetbrains setting folder
 .idea/
 tmp/
+
+# SA鍵は絶対にコミットしない（本体は ~/.config/daily-hack/）
+*gsc-bot-key*.json
+**/service-account*.json

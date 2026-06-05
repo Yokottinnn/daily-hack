@@ -9,7 +9,7 @@
     2) GSC上位クエリ : Search Console から過去30日の上位クエリ
     3) 記事候補     : tmp/article-candidates.json があれば反映、なければ既定の初期候補を生成
 
-認証: gcloud user → gsc-bot SA impersonation（鍵不要）。
+認証: SAキー直接（~/.config/daily-hack/gsc-bot-key.json をactivate-service-account済み・失効なし・対話ログイン不要）。
 """
 import json, os, re, subprocess, sys, urllib.parse, urllib.request, datetime, pathlib
 
@@ -28,7 +28,7 @@ SHEET_TITLE = "Daily Hack 記事DB"
 def imp_token(scopes):
     r = subprocess.run(
         ["gcloud", "auth", "print-access-token",
-         f"--impersonate-service-account={SA}",
+         f"--account={SA}",
          f"--scopes={','.join(scopes)}"],
         capture_output=True, text=True, check=True)
     return r.stdout.strip()
