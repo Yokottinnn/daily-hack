@@ -1,0 +1,32 @@
+{
+  "layout": "vs",
+  "badge": "2026年最新版",
+  "kicker": "歩いて・移動して マイルが貯まるのは",
+  "title_html": "ANA Pocket <span style=\"color:#A82959\">vs</span> JAL Wellness",
+  "character": "expr-05-smug.png",
+  "speech": "両方 試した\nアタシが判定",
+  "left": {
+    "name": "ANA Pocket",
+    "color": "#1E6EC8",
+    "tag": "移動距離型",
+    "stats": [
+      { "label": "月額", "value": "無料 〜 Pro 550円" },
+      { "label": "月のマイル目安", "value": "約746〜1,500マイル" },
+      { "label": "貯め方", "value": "徒歩+電車+車+新幹線" },
+      { "label": "向く人", "value": "通勤・車移動が多い人" }
+    ]
+  },
+  "right": {
+    "name": "JAL Wellness",
+    "color": "#D2232D",
+    "tag": "歩数チャレンジ型",
+    "stats": [
+      { "label": "月額", "value": "550円（初月無料）" },
+      { "label": "月のマイル目安", "value": "約120〜273マイル+くじ" },
+      { "label": "貯め方", "value": "1日の歩数＋くじ" },
+      { "label": "向く人", "value": "毎日8,000〜1万歩の人" }
+    ]
+  },
+  "verdict_html": "移動が多い人→<b>ANA</b> ／ よく歩く人→<b>JAL</b>",
+  "handle": "@heng_ji31590"
+}

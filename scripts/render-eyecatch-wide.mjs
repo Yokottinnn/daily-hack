@@ -28,7 +28,85 @@ function esc(s) {
   return String(s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 }
 
+function panelHtml(p, side) {
+  const stats = p.stats.map(s => `
+    <div class="vs-stat"><span class="vs-st-label">${esc(s.label)}</span><span class="vs-st-val">${esc(s.value)}</span></div>`).join('');
+  return `
+  <div class="vs-panel vs-${side}" style="--pc:${p.color}">
+    <div class="vs-head">${esc(p.name)}</div>
+    <div class="vs-tag">${esc(p.tag)}</div>
+    <div class="vs-stats">${stats}</div>
+  </div>`;
+}
+
+function buildVsHtml(d) {
+  return `<!doctype html><html><head><meta charset="utf-8"><style>
+  @font-face { font-family:"RocknRoll One"; src:url("file://${FONTS}/rocknroll-one-japanese-400.woff2") format("woff2"); }
+  @font-face { font-family:"Zen Maru Gothic"; font-weight:400; src:url("file://${FONTS}/zen-maru-gothic-japanese-400.woff2") format("woff2"); }
+  @font-face { font-family:"Zen Maru Gothic"; font-weight:700; src:url("file://${FONTS}/zen-maru-gothic-japanese-700.woff2") format("woff2"); }
+  @font-face { font-family:"Zen Maru Gothic"; font-weight:900; src:url("file://${FONTS}/zen-maru-gothic-japanese-900.woff2") format("woff2"); }
+  @font-face { font-family:"Bebas Neue"; src:url("file://${FONTS}/bebas-neue-latin-400.woff2") format("woff2"); }
+  :root{ --ink:#2A1923; --ink-soft:#5A4651; --magenta-strong:#D63E76; --magenta-deep:#A82959; --magenta-light:#FDE4EE; --neon:#FFEC00; }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  html,body{width:1600px;height:900px;}
+  body{ font-family:"Zen Maru Gothic",sans-serif; color:var(--ink); position:relative; overflow:hidden;
+    background:radial-gradient(circle at 4% 4%,#FDE9F0 0%,transparent 36%),radial-gradient(circle at 96% 96%,#FFFBEE 0%,transparent 40%),linear-gradient(135deg,#FFF5F8 0%,#FFFFFF 52%,#FFFBEE 100%); }
+  .dots{position:absolute;inset:0;background-image:radial-gradient(circle, rgba(120,120,140,.05) 1.6px, transparent 1.6px);background-size:30px 30px;}
+  .stage{position:absolute;inset:0;padding:42px 50px 36px;display:flex;flex-direction:column;}
+  .head{display:flex;justify-content:space-between;align-items:flex-start;}
+  .brand{display:inline-flex;align-items:center;gap:10px;background:#fff;border:2px solid var(--magenta-light);padding:9px 20px 9px 14px;border-radius:999px;box-shadow:0 8px 20px -10px rgba(214,62,118,.4);}
+  .brand .b-dot{width:18px;height:18px;border-radius:50%;background:var(--magenta-strong);}
+  .brand span{font-family:"RocknRoll One";font-size:23px;color:var(--ink);}
+  .badge{background:var(--magenta-strong);color:#fff;font-family:"RocknRoll One";font-size:23px;padding:10px 22px;border-radius:14px;transform:rotate(3deg);box-shadow:0 10px 22px -8px rgba(214,62,118,.55);}
+  .title-band{text-align:center;margin-top:6px;}
+  .title-band .kk{color:var(--magenta-strong);font-weight:900;font-size:24px;}
+  .title-band h1{font-family:"RocknRoll One";font-size:52px;color:var(--ink);line-height:1.1;}
+  .arena{flex:1;display:flex;align-items:center;justify-content:center;gap:0;margin-top:10px;}
+  .vs-panel{flex:1;align-self:stretch;background:#fff;border:3px solid var(--pc);border-radius:24px;padding:0 0 20px;overflow:hidden;box-shadow:0 16px 36px -18px rgba(0,0,0,.3);display:flex;flex-direction:column;margin:14px 0;}
+  .vs-head{background:var(--pc);color:#fff;font-family:"RocknRoll One";font-size:40px;text-align:center;padding:18px 10px;}
+  .vs-tag{align-self:center;margin:14px 0 4px;background:var(--pc);color:#fff;font-weight:900;font-size:20px;padding:5px 18px;border-radius:999px;opacity:.92;}
+  .vs-stats{padding:8px 26px 0;display:flex;flex-direction:column;gap:12px;margin-top:8px;}
+  .vs-stat{display:flex;flex-direction:column;gap:3px;border-bottom:1px dashed #e7d7de;padding-bottom:10px;}
+  .vs-st-label{font-size:18px;color:var(--ink-soft);font-weight:700;}
+  .vs-st-val{font-size:27px;color:var(--ink);font-weight:900;line-height:1.25;}
+  .center{width:230px;display:flex;flex-direction:column;align-items:center;justify-content:center;flex:0 0 230px;z-index:2;}
+  .vs-badge{width:104px;height:104px;border-radius:50%;background:var(--ink);color:#fff;font-family:"Bebas Neue";font-size:54px;display:flex;align-items:center;justify-content:center;box-shadow:0 10px 24px -8px rgba(0,0,0,.5);border:4px solid #fff;}
+  .center .char{width:200px;height:200px;object-fit:contain;margin-top:-6px;filter:drop-shadow(0 10px 16px rgba(120,30,60,.22));}
+  .center .speech{background:#fff;border:2px solid var(--magenta-light);border-radius:16px;padding:8px 14px;font-size:18px;font-weight:700;color:var(--magenta-deep);text-align:center;margin-top:-10px;box-shadow:0 8px 18px -10px rgba(214,62,118,.5);}
+  .foot{display:flex;justify-content:space-between;align-items:center;margin-top:12px;background:linear-gradient(90deg,#1E6EC8 0%,#7a3a8f 50%,#D2232D 100%);border-radius:16px;padding:14px 26px;}
+  .foot .verdict{color:#fff;font-weight:900;font-size:25px;}
+  .foot .verdict b{color:var(--neon);}
+  .foot .handle{color:#FFE0E6;font-family:"Bebas Neue";font-size:24px;letter-spacing:.04em;}
+  </style></head><body>
+  <div class="dots"></div>
+  <div class="stage">
+    <div class="head">
+      <div class="brand"><span class="b-dot"></span><span>Daily Hack</span></div>
+      <div class="badge">${esc(d.badge)}</div>
+    </div>
+    <div class="title-band">
+      <div class="kk">${esc(d.kicker)}</div>
+      <h1>${d.title_html}</h1>
+    </div>
+    <div class="arena">
+      ${panelHtml(d.left, 'left')}
+      <div class="center">
+        <div class="vs-badge">VS</div>
+        <img class="char" src="file://${charSrc(d.character)}" alt="">
+        <div class="speech">${esc(d.speech)}</div>
+      </div>
+      ${panelHtml(d.right, 'right')}
+    </div>
+    <div class="foot">
+      <div class="verdict">${d.verdict_html}</div>
+      <div class="handle">${esc(d.handle)}</div>
+    </div>
+  </div>
+  </body></html>`;
+}
+
 function buildHtml(d) {
+  if (d.layout === 'vs') return buildVsHtml(d);
   const cards = d.ranking.map((r, i) => {
     const rec = r.recommended;
     return `
