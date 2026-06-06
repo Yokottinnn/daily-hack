@@ -111,7 +111,7 @@ function buildHtml(d) {
     const rec = r.recommended;
     return `
     <div class="rank-card${rec ? ' is-top' : ''}">
-      ${rec ? `<div class="ribbon">★ コスパ◎</div>` : ''}
+      ${rec ? `<div class="ribbon">${esc(r.ribbon || '★ コスパ◎')}</div>` : ''}
       <div class="rank-no${rec ? ' gold' : ''}">${i + 1}</div>
       <div class="dot" style="background:${r.color}"></div>
       <div class="rc-name">${esc(r.name)}</div>
