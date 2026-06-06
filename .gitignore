@@ -29,3 +29,6 @@ tmp/
 # SA鍵は絶対にコミットしない（本体は ~/.config/daily-hack/）
 *gsc-bot-key*.json
 **/service-account*.json
+
+# アプリ素材スクショ（合成済みshowcaseのみ公開、素材は非公開）
+public/images/ana-pocket-vs-jal-wellness-2026/src/
