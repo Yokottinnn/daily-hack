@@ -1,0 +1,47 @@
+{
+  "badge": "VISA割 6/11-7/19",
+  "kicker": "対象店舗でスマホをかざすだけ",
+  "title1": "対象6店舗で",
+  "title1_size": 84,
+  "title2_html": "最大<span class=\"mark\">30%還元</span>",
+  "title2_size": 84,
+  "subline": "牛角・くら寿司・ケンタ・西松屋・PARCO など",
+  "character": "expr-05-smug.png",
+  "speech": "登録だけ\n先に済ませて",
+  "ranking": [
+    {
+      "name": "還元率",
+      "value": "最大30%",
+      "unit": "Apple Pay 10% ＋ 三井住友 20%",
+      "color": "#1A1F71",
+      "recommended": true,
+      "ribbon": "🔥 最大級"
+    },
+    {
+      "name": "対象期間",
+      "value": "6/11〜7/19",
+      "unit": "エントリーは6/5〜・早期終了あり",
+      "color": "#1E6EC8"
+    },
+    {
+      "name": "還元上限",
+      "value": "合計2,000円",
+      "unit": "特典①② 各1,000円",
+      "color": "#2DAF5F"
+    },
+    {
+      "name": "対象店舗",
+      "value": "全6店舗",
+      "unit": "牛角/温野菜/くら寿司/ケンタ/西松屋/PARCO",
+      "color": "#E65A1E"
+    },
+    {
+      "name": "必須条件",
+      "value": "登録＋エントリー",
+      "unit": "Visa割にカード登録（最大5枚）",
+      "color": "#BF1E2D"
+    }
+  ],
+  "verdict_html": "対象店で<b>スマホのVisaタッチ</b>＝最大3割引",
+  "handle": "@heng_ji31590"
+}
