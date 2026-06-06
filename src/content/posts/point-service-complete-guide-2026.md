@@ -26,6 +26,8 @@ references: ["https://kakakumag.com/money/?id=20897", "https://www.warau.jp/", "
 
 ## 🗺️ ポイントサービス カオスマップ 2026 — まず4カテゴリに分ける
 
+![ポイントサービス カオスマップ 2026 — A:共通ポイント(楽天/PayPay/dポイント/Vポイント/Ponta) B:ポイントサイト(モッピー/ハピタス/ポイントインカム/ちょびリッチ) C:移動・歩数ポイ活(トリマ/ANA Pocket/JAL Wellness/dヘルスケア/楽天ヘルスケア) D:アンケート・スキマ(マクロミル/楽天インサイト 他) の4カテゴリに分類した俯瞰図](/images/point-service-complete-guide-2026/chaosmap.png)
+
 ポイントサービスは、ざっくり**4つのカテゴリ**に分けられる。「全部やる」必要はなくて、**自分の生活に合うものをカテゴリごとに1〜2個**選べばいい。
 
 | カテゴリ | 役割 | 代表サービス | 何で貯まる |
@@ -41,7 +43,6 @@ references: ["https://kakakumag.com/money/?id=20897", "https://www.warau.jp/", "
 <img src="/images/expr-09-arms-crossed.png" alt="ハッカー子" />
 <p>よくある失敗は<strong>「全部のポイントを少しずつ分散させて、どれも中途半端」</strong>ってやつ。ポイントは1つの経済圏に寄せた方が、まとまって使えて価値が出る。アレもコレも手を出す前に、まず“軸”を決めな。</p>
 </div>
-
 
 <!-- a8-banners auto-inserted by banner-fill (slot1-after-1st-h2) -->
 <div class="affiliate-block">
@@ -88,7 +89,6 @@ references: ["https://kakakumag.com/money/?id=20897", "https://www.warau.jp/", "
 </div>
 
 → 詳細: [ポイントサイト徹底比較 2026](/posts/pointsite-comparison-2026/) ／ [お得施策の『本当の時給』ランキング 2026](/posts/money-hacks-hourly-wage-2026/)
-
 
 <!-- a8-banners auto-inserted by banner-fill (slot2-middle) -->
 <div class="affiliate-block">
@@ -169,7 +169,6 @@ references: ["https://kakakumag.com/money/?id=20897", "https://www.warau.jp/", "
 </div>
 </li>
 </ul>
-
 
 <!-- a8-banners auto-inserted by banner-fill (slot3-before-tail) -->
 <div class="affiliate-block">
