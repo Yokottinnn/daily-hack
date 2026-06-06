@@ -27,6 +27,7 @@ const enabled = isAdMaxConfigured(slot);
   .admax {
     margin: 2.5rem 0;
     text-align: center;
+    max-width: 100%;
   }
   .admax__label {
     display: block;
@@ -38,6 +39,11 @@ const enabled = isAdMaxConfigured(slot);
   .admax__container {
     display: block;
     min-height: 50px;
+    /* PC向け728px等の固定幅広告がモバイルviewportを押し広げ「空白までスクロール」する不具合の防止。
+       はみ出し分はコンテナ内の横スクロールに閉じ込め、ページ全体は広げない。 */
+    max-width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
   }
   .admax--sidebar { margin: 1rem 0; }
   .admax--sticky-mobile {

@@ -51,6 +51,13 @@
 
 * { box-sizing: border-box; }
 html, body { margin: 0; padding: 0; }
+
+/* 忍者AdMAX のオーバーレイ/追従広告（画面下部に固定表示される邪魔なバナー）を抑制。
+   このオーバーレイは window.admaxoverlay 経由で id/class を持たない匿名 div として
+   注入され、唯一の安定した目印が z-index:2147483647（32bit最大値）。UX毀損のため非表示。
+   ※ 記事内の inline banner はこの署名を持たないため影響なし。 */
+div[style*="2147483647"] { display: none !important; }
+
 body {
   font-family: "Zen Maru Gothic", -apple-system, BlinkMacSystemFont, "Hiragino Sans", sans-serif;
   background: var(--bg);
