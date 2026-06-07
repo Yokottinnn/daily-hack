@@ -6,7 +6,9 @@ export type ReferralCategory =
   | 'pointsite'
   | 'taxi'
   | 'ec'
-  | 'wallet';
+  | 'wallet'
+  | 'point'
+  | 'shopping';
 
 export interface Referral {
   id: string;
@@ -222,6 +224,24 @@ export const referrals: Referral[] = [
   { id:'chobirich', serviceName:'ちょびリッチ', category:'pointsite', code:'', url:'https://www.chobirich.com/', reward:'紹介ボーナス（要確認）', description:'外食・商品モニターに強い', conditions:'紹介経由登録＋条件達成', isActive:false },
   { id:'warau', serviceName:'ワラウ', category:'pointsite', code:'', url:'https://www.warau.jp/', reward:'紹介ボーナス（要確認）', description:'全カテゴリ対象ポイント保証。初心者向き', conditions:'紹介経由登録＋条件達成', isActive:false },
   { id:'ecnavi', serviceName:'ECナビ', category:'pointsite', code:'', url:'https://ecnavi.jp/', reward:'紹介ボーナス（要確認）', description:'電通系の老舗。PeX交換ハブ', conditions:'紹介経由登録＋条件達成', isActive:false },
+  { id:'rakuten-point', serviceName:'楽天ポイント', category:'point', code:'', url:'https://point.rakuten.co.jp/', reward:'紹介プログラム要確認', description:'', conditions:'', isActive:false },
+  { id:'dpoint', serviceName:'dポイント', category:'point', code:'', url:'https://dpoint.docomo.ne.jp/', reward:'紹介プログラム要確認', description:'', conditions:'', isActive:false },
+  { id:'ponta', serviceName:'Pontaポイント', category:'point', code:'', url:'https://www.ponta.jp/', reward:'紹介プログラム要確認', description:'', conditions:'', isActive:false },
+  { id:'vpoint', serviceName:'Vポイント', category:'point', code:'', url:'https://www.smbc.co.jp/kojin/vpoint/', reward:'紹介プログラム要確認', description:'', conditions:'', isActive:false },
+  { id:'jre-point', serviceName:'JREポイント', category:'point', code:'', url:'https://www.jrepoint.jp/', reward:'紹介プログラム要確認', description:'', conditions:'', isActive:false },
+  { id:'waon-point', serviceName:'WAON POINT', category:'point', code:'', url:'https://www.waon.net/', reward:'紹介プログラム要確認', description:'', conditions:'', isActive:false },
+  { id:'nanaco', serviceName:'nanaco', category:'point', code:'', url:'https://www.nanaco-net.jp/', reward:'紹介プログラム要確認', description:'', conditions:'', isActive:false },
+  { id:'famipay', serviceName:'ファミペイ', category:'point', code:'', url:'https://www.family.co.jp/services/famipay.html', reward:'紹介プログラム要確認', description:'', conditions:'', isActive:false },
+  { id:'tobu-point', serviceName:'東武ポイント', category:'point', code:'', url:'https://www.tobu-card.co.jp/tobupoint/', reward:'紹介プログラム要確認', description:'', conditions:'', isActive:false },
+  { id:'summit', serviceName:'サミット(サミットカード)', category:'shopping', code:'', url:'https://www.summitstore.co.jp/card/', reward:'紹介プログラム要確認', description:'', conditions:'', isActive:false },
+  { id:'lumine', serviceName:'ルミネ(ルミネカード)', category:'shopping', code:'', url:'https://www.lumine.ne.jp/luminecard/', reward:'紹介プログラム要確認', description:'', conditions:'', isActive:false },
+  { id:'mitsui-sp-point', serviceName:'三井ショッピングパークポイント', category:'shopping', code:'', url:'https://mitsui-shopping-park.com/msppoint/', reward:'紹介プログラム要確認', description:'', conditions:'', isActive:false },
+  { id:'marunouchi', serviceName:'丸の内ポイント', category:'shopping', code:'', url:'https://www.mec-card.jp/marunouchi_point/', reward:'紹介プログラム要確認', description:'', conditions:'', isActive:false },
+  { id:'ui-bank', serviceName:'UI銀行', category:'bank', code:'', url:'https://www.uibank.co.jp/', reward:'紹介プログラム要確認', description:'', conditions:'', isActive:false },
+  { id:'kiyo-bank', serviceName:'紀陽銀行', category:'bank', code:'', url:'https://www.kiyobank.co.jp/', reward:'紹介プログラム要確認', description:'', conditions:'', isActive:false },
+  { id:'aeon-bank', serviceName:'イオン銀行', category:'bank', code:'', url:'https://www.aeonbank.co.jp/', reward:'紹介プログラム要確認', description:'', conditions:'', isActive:false },
+  { id:'view-card', serviceName:'ビューカード(Viewカード)', category:'creditcard', code:'', url:'https://www.jreast.co.jp/card/', reward:'紹介プログラム要確認', description:'', conditions:'', isActive:false },
+  { id:'saison-portal', serviceName:'セゾンポータル(セゾンカード)', category:'creditcard', code:'', url:'https://www.saisoncard.co.jp/', reward:'紹介プログラム要確認', description:'', conditions:'', isActive:false },
 ];
 
 export function getReferralById(id: string): Referral | undefined {
