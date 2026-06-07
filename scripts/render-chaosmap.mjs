@@ -187,10 +187,17 @@ function matrixHtml() {
 
 // ===== ③ eyecatch 16:9（ロゴ散りばめヒーロー：種類多すぎ→整理）=====
 const SCATTER = [
-  ['rakuten.png',8,17,68,-6],['paypay.png',21,9,58,5],['dpoint.png',34,15,54,-4],['vpoint.png',47,8,60,6],['ponta.png',60,14,52,-5],
-  ['waon.png',73,9,58,4],['jrepoint.png',86,16,64,-6],['nanaco.png',93,35,52,5],['mitsuisp.png',13,35,56,7],['marunouchi.png',7,56,52,-5],
-  ['moppy.png',91,55,58,5],['hapitas.png',94,73,54,-6],['pointincome.png',9,74,54,6],['chobirich.png',22,88,52,-5],['ecnavi.png',37,91,50,5],
-  ['torima.png',52,90,54,-4],['macromill.png',64,89,50,6],['rakuteninsight.png',6,89,48,-6],['rakutenhealth.png',95,88,48,5],['cuemonitor.png',88,40,46,-6],
+  // 中央パネルを囲むように寄せ、サイズも大きめ
+  // 上辺
+  ['rakuten.png',16,18,90,-6],['paypay.png',30,13,82,5],['dpoint.png',44,17,78,-4],['vpoint.png',57,13,84,6],['ponta.png',70,17,78,-5],['waon.png',83,20,82,4],
+  // 右辺
+  ['jrepoint.png',88,38,84,-6],['nanaco.png',86,57,76,5],['hapitas.png',88,74,80,-6],
+  // 下辺
+  ['moppy.png',74,84,84,5],['ecnavi.png',60,88,74,-4],['chobirich.png',46,86,78,5],['pointincome.png',32,88,76,-5],['torima.png',19,84,80,6],
+  // 左辺
+  ['mitsuisp.png',12,40,78,7],['marunouchi.png',13,60,74,-5],['anapocket.png',16,73,80,5],
+  // 角の隙間埋め
+  ['rakutenhealth.png',93,87,66,5],['macromill.png',93,28,64,-6],['cuemonitor.png',7,28,64,5],
 ];
 function eyecatchHtml() {
   const chaos = SCATTER.map(([f,x,y,s,r])=>`<img class="sc" style="left:${x}%;top:${y}%;width:${s}px;height:${s}px;transform:translate(-50%,-50%) rotate(${r}deg)" src="file://${LOGO_DIR}/${f}" alt="">`).join('');
