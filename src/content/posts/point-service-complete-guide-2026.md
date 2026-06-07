@@ -184,6 +184,15 @@ references: ["https://kakakumag.com/money/?id=20897", "https://www.warau.jp/", "
 2. **複数サイトを横断比較してから経由** — 同一案件で還元額が大きく違う。主力1つ＋サブ1〜2登録。
 3. **承認条件とポイント保証を確認** — 「◯円利用」等の条件付きが多い。却下リスクが怖いなら保証つきサイト（ワラウ等）から。
 
+<div class="ref-cta">
+<img src="/images/point-service-complete-guide-2026/logos/moppy.png" alt="モッピー" loading="lazy">
+<div class="rc-body">
+<h4>基軸にするなら「モッピー」紹介リンク登録がお得</h4>
+<p>会員1,400万人超の最大手。<strong>下の紹介リンク経由で新規登録＋条件達成すると、通常に加えて“あなた（被紹介者）”にもボーナスポイント</strong>が入る。どうせ登録するなら、直リンクより紹介リンク経由が断然お得。</p>
+</div>
+<a class="rc-btn" href="https://pc.moppy.jp/entry/invite.php?invite=kMwuA18a" target="_blank" rel="sponsored noopener nofollow">紹介リンクで登録 →</a>
+</div>
+
 → 詳細: [ポイントサイト徹底比較 2026](/posts/pointsite-comparison-2026/) ／ [お得施策の『本当の時給』ランキング 2026](/posts/money-hacks-hourly-wage-2026/)
 
 
