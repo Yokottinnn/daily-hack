@@ -102,25 +102,33 @@ function tableHtml() {
 // ===== ② 4象限カオスマップ 1600x1240（ロゴでプロット＋キャラ中央）=====
 // x:0=受動的(ほっといて貯まる) 100=能動的(動いて稼ぐ) / y:0=リターン大(上) 100=リターン小(下)
 const PLOT = [
-  // A 共通(magenta) 左上
-  {n:'楽天ポイント',x:12,y:17,c:'#D63E76',l:'rakuten.png'},{n:'Vポイント',x:27,y:21,c:'#D63E76',l:'vpoint.png'},
-  {n:'dポイント',x:15,y:29,c:'#D63E76',l:'dpoint.png'},{n:'PayPay',x:25,y:35,c:'#D63E76',l:'paypay.png'},{n:'Ponta',x:11,y:40,c:'#D63E76',l:'ponta.png'},
+  // A 共通(magenta) 左上（四隅はナレーターを置くため中央寄せ）
+  {n:'楽天ポイント',x:20,y:23,c:'#D63E76',l:'rakuten.png'},{n:'Vポイント',x:33,y:18,c:'#D63E76',l:'vpoint.png'},
+  {n:'dポイント',x:19,y:34,c:'#D63E76',l:'dpoint.png'},{n:'PayPay',x:30,y:38,c:'#D63E76',l:'paypay.png'},{n:'Ponta',x:14,y:45,c:'#D63E76',l:'ponta.png'},
   // B 流通・交通(purple) 中央左
-  {n:'JRE POINT',x:41,y:18,c:'#7A3FBF',l:'jrepoint.png'},{n:'WAON',x:43,y:33,c:'#7A3FBF',l:'waon.png'},
-  {n:'三井SP',x:35,y:42,c:'#7A3FBF',l:'mitsuisp.png'},{n:'nanaco',x:46,y:46,c:'#7A3FBF',l:'nanaco.png'},{n:'丸の内',x:37,y:53,c:'#7A3FBF',l:'marunouchi.png'},
+  {n:'JRE POINT',x:44,y:20,c:'#7A3FBF',l:'jrepoint.png'},{n:'WAON',x:45,y:34,c:'#7A3FBF',l:'waon.png'},
+  {n:'三井SP',x:37,y:44,c:'#7A3FBF',l:'mitsuisp.png'},{n:'nanaco',x:47,y:47,c:'#7A3FBF',l:'nanaco.png'},{n:'丸の内',x:40,y:55,c:'#7A3FBF',l:'marunouchi.png'},
   // C サイト(blue) 右上
-  {n:'モッピー',x:72,y:15,c:'#1E6EC8',l:'moppy.png'},{n:'ハピタス',x:83,y:23,c:'#1E6EC8',l:'hapitas.png'},
-  {n:'P.インカム',x:69,y:31,c:'#1E6EC8',l:'pointincome.png'},{n:'ちょびリッチ',x:85,y:37,c:'#1E6EC8',l:'chobirich.png'},{n:'ECナビ',x:73,y:44,c:'#1E6EC8',l:'ecnavi.png'},
+  {n:'モッピー',x:67,y:22,c:'#1E6EC8',l:'moppy.png'},{n:'ハピタス',x:78,y:27,c:'#1E6EC8',l:'hapitas.png'},
+  {n:'P.インカム',x:66,y:34,c:'#1E6EC8',l:'pointincome.png'},{n:'ちょびリッチ',x:79,y:38,c:'#1E6EC8',l:'chobirich.png'},{n:'ECナビ',x:71,y:45,c:'#1E6EC8',l:'ecnavi.png'},
   // D 移動(green) 左下
-  {n:'トリマ',x:17,y:66,c:'#2DAF5F',l:'torima.png'},{n:'ANA Pocket',x:31,y:60,c:'#2DAF5F',l:'anapocket.png'},
-  {n:'JAL',x:40,y:71,c:'#2DAF5F',l:'jalwellness.png'},{n:'dヘルスケア',x:15,y:78,c:'#2DAF5F',l:'dhealth.png'},{n:'楽天ヘルスケア',x:28,y:85,c:'#2DAF5F',l:'rakutenhealth.png'},
+  {n:'トリマ',x:22,y:63,c:'#2DAF5F',l:'torima.png'},{n:'ANA Pocket',x:33,y:59,c:'#2DAF5F',l:'anapocket.png'},
+  {n:'JAL',x:40,y:69,c:'#2DAF5F',l:'jalwellness.png'},{n:'dヘルスケア',x:21,y:74,c:'#2DAF5F',l:'dhealth.png'},{n:'楽天ヘルスケア',x:31,y:80,c:'#2DAF5F',l:'rakutenhealth.png'},
   // E アンケート(orange) 右下
-  {n:'マクロミル',x:73,y:65,c:'#E6892A',l:'macromill.png'},{n:'楽天インサイト',x:85,y:73,c:'#E6892A',l:'rakuteninsight.png'},
-  {n:'Powl',x:69,y:82,c:'#E6892A',l:'powl.png'},{n:'キューモニター',x:83,y:87,c:'#E6892A',l:'cuemonitor.png'},
+  {n:'マクロミル',x:70,y:62,c:'#E6892A',l:'macromill.png'},{n:'楽天インサイト',x:80,y:68,c:'#E6892A',l:'rakuteninsight.png'},
+  {n:'Powl',x:67,y:78,c:'#E6892A',l:'powl.png'},{n:'キューモニター',x:78,y:82,c:'#E6892A',l:'cuemonitor.png'},
+];
+// 各象限のナレーター（キャラ＋吹き出し）
+const NARR = [
+  {pos:'tl', expr:'expr-05-smug.png', col:'#D63E76', text:'Aは<b>自動で貯まる土台</b>。まず共通ポイントを1つ決めな！'},
+  {pos:'tr', expr:'expr-04-cheer.png', col:'#1E6EC8', text:'Cは<b>本気で稼ぐ</b>枠。サイト経由で二重取りよ！'},
+  {pos:'bl', expr:'expr-01-wave.png', col:'#2DAF5F', text:'B・Dは“ついで”枠。生活圏と歩きで取りこぼし回収！'},
+  {pos:'br', expr:'expr-09-arms-crossed.png', col:'#E6892A', text:'Eはスキマ時間で小銭。コツコツ派向けね'},
 ];
 
 function matrixHtml() {
   const pins = PLOT.map(p=>`<div class="pin" style="left:${p.x}%;top:${p.y}%;--pc:${p.c}"><img src="file://${LOGO_DIR}/${p.l}" alt=""><span class="pl">${esc(p.n)}</span></div>`).join('');
+  const narrators = NARR.map(n=>`<div class="narr n-${n.pos}" style="--nc:${n.col}"><img src="file://${ASSETS_T}/${n.expr}" alt=""><div class="nbub">${n.text}</div></div>`).join('');
   return `<!doctype html><html><head><meta charset="utf-8"><style>${FONT_FACE}
   *{margin:0;padding:0;box-sizing:border-box;} html,body{width:1600px;height:1240px;}
   body{font-family:"Zen Maru Gothic",sans-serif;color:#2A1923;position:relative;background:${BG};}
@@ -139,9 +147,13 @@ function matrixHtml() {
   .q2{right:0;top:0;background:radial-gradient(circle at 68% 32%,#E9E2FB,transparent 72%);}
   .q3{left:0;bottom:0;background:radial-gradient(circle at 32% 68%,#E4F5EA,transparent 72%);}
   .q4{right:0;bottom:0;background:radial-gradient(circle at 68% 68%,#FCEEDD,transparent 72%);}
-  .qlabel{position:absolute;font-weight:900;font-size:21px;padding:7px 15px;border-radius:11px;color:#fff;line-height:1.25;box-shadow:0 6px 14px -8px rgba(0,0,0,.4);}
-  .ql1{left:10px;top:8px;background:#D63E76;}.ql2{right:10px;top:8px;background:#1E6EC8;}
-  .ql3{left:10px;bottom:8px;background:#2DAF5F;}.ql4{right:10px;bottom:8px;background:#E6892A;}
+  /* 各象限のナレーター（キャラ＋吹き出し） */
+  .narr{position:absolute;display:flex;align-items:flex-end;gap:8px;z-index:7;width:330px;}
+  .narr img{width:96px;height:96px;flex:0 0 96px;object-fit:contain;filter:drop-shadow(0 8px 14px rgba(120,30,60,.3));}
+  .nbub{background:#fff;border:3px solid var(--nc);border-radius:16px;padding:9px 13px;font-size:18px;font-weight:800;line-height:1.4;color:#2A1923;box-shadow:0 8px 18px -10px rgba(0,0,0,.35);}
+  .nbub b{color:var(--nc);}
+  .n-tl{left:6px;top:4px;}.n-tr{right:6px;top:4px;flex-direction:row-reverse;text-align:right;}
+  .n-bl{left:6px;bottom:4px;}.n-br{right:6px;bottom:4px;flex-direction:row-reverse;text-align:right;}
   .axis-x{position:absolute;left:-20px;right:-20px;top:50%;height:4px;background:#2A1923;transform:translateY(-50%);border-radius:2px;}
   .axis-y{position:absolute;top:-30px;bottom:-30px;left:50%;width:4px;background:#2A1923;transform:translateX(-50%);border-radius:2px;}
   .axlbl{position:absolute;font-weight:900;font-size:20px;color:#2A1923;background:#fff;padding:5px 13px;border-radius:9px;border:2.5px solid #2A1923;line-height:1.2;text-align:center;}
@@ -161,69 +173,59 @@ function matrixHtml() {
     <div class="ttl">ポイントサービス <span class="mk">4象限マップ</span> 2026</div>
     <div class="plot">
       <div class="q q1"></div><div class="q q2"></div><div class="q q3"></div><div class="q q4"></div>
-      <div class="qlabel ql1">A 自動で貯まる土台<br>＝共通ポイント</div>
-      <div class="qlabel ql2">C 本気で稼ぐ<br>＝ポイントサイト</div>
-      <div class="qlabel ql3">B/D ついで・生活圏<br>＝流通系/移動</div>
-      <div class="qlabel ql4">E スキマで小銭<br>＝アンケート</div>
       <div class="axis-x"></div><div class="axis-y"></div>
       <div class="axlbl ax-left">受動的<br>ほっといて貯まる</div>
       <div class="axlbl ax-right">能動的<br>動いて稼ぐ</div>
       <div class="axlbl ax-top">リターン大</div>
       <div class="axlbl ax-bottom">リターン小</div>
       ${pins}
-      <div class="navi"><img src="file://${ASSETS_T}/expr-05-smug.png" alt=""></div>
+      ${narrators}
     </div>
   </div>
   </body></html>`;
 }
 
-// ===== ③ eyecatch 16:9（早見表の5ボックスを右に取り込む）=====
+// ===== ③ eyecatch 16:9（ロゴ散りばめヒーロー：種類多すぎ→整理）=====
+const SCATTER = [
+  ['rakuten.png',8,17,68,-6],['paypay.png',21,9,58,5],['dpoint.png',34,15,54,-4],['vpoint.png',47,8,60,6],['ponta.png',60,14,52,-5],
+  ['waon.png',73,9,58,4],['jrepoint.png',86,16,64,-6],['nanaco.png',93,35,52,5],['mitsuisp.png',13,35,56,7],['marunouchi.png',7,56,52,-5],
+  ['moppy.png',91,55,58,5],['hapitas.png',94,73,54,-6],['pointincome.png',9,74,54,6],['chobirich.png',22,88,52,-5],['ecnavi.png',37,91,50,5],
+  ['torima.png',52,90,54,-4],['macromill.png',64,89,50,6],['rakuteninsight.png',6,89,48,-6],['rakutenhealth.png',95,88,48,5],['cuemonitor.png',88,40,46,-6],
+];
 function eyecatchHtml() {
-  const grid = CATS.map(c=>catBox(c,true)).join('');
+  const chaos = SCATTER.map(([f,x,y,s,r])=>`<img class="sc" style="left:${x}%;top:${y}%;width:${s}px;height:${s}px;transform:translate(-50%,-50%) rotate(${r}deg)" src="file://${LOGO_DIR}/${f}" alt="">`).join('');
   return `<!doctype html><html><head><meta charset="utf-8"><style>${FONT_FACE}
   *{margin:0;padding:0;box-sizing:border-box;} html,body{width:1600px;height:900px;}
   body{font-family:"Zen Maru Gothic",sans-serif;color:#2A1923;position:relative;overflow:hidden;background:${BG};}
   .dots{position:absolute;inset:0;background-image:radial-gradient(circle,rgba(214,62,118,.06) 1.6px,transparent 1.6px);background-size:30px 30px;}
-  .stage{position:absolute;inset:0;padding:42px 50px 36px;display:flex;flex-direction:column;}
-  .head{display:flex;justify-content:space-between;align-items:flex-start;}
+  .scatter{position:absolute;inset:0;}
+  .sc{position:absolute;border-radius:13px;object-fit:cover;box-shadow:0 7px 16px -7px rgba(0,0,0,.34);border:3px solid #fff;opacity:.96;}
+  .head{position:absolute;top:34px;left:46px;right:46px;display:flex;justify-content:space-between;align-items:flex-start;z-index:6;}
   .brand{display:inline-flex;align-items:center;gap:10px;background:#fff;border:2px solid #FDE4EE;padding:9px 20px 9px 14px;border-radius:999px;box-shadow:0 8px 20px -10px rgba(214,62,118,.4);}
   .brand .b-dot{width:18px;height:18px;border-radius:50%;background:#D63E76;}
   .brand span{font-family:"RocknRoll One";font-size:23px;}
-  .badge{background:#D63E76;color:#fff;font-family:"RocknRoll One";font-size:23px;padding:10px 22px;border-radius:14px;transform:rotate(3deg);}
-  .body{flex:1;display:flex;gap:30px;margin-top:14px;min-height:0;}
-  .left{width:548px;flex:0 0 548px;display:flex;flex-direction:column;}
-  .kk{color:#D63E76;font-weight:900;font-size:24px;}
-  h1{font-family:"RocknRoll One";line-height:1.12;margin-top:6px;}
-  h1 .l1{font-size:60px;display:block;white-space:nowrap;}h1 .l2{font-size:66px;display:block;margin-top:2px;white-space:nowrap;}
-  h1 .mk{position:relative;z-index:0;}h1 .mk::after{content:"";position:absolute;left:-6px;right:-6px;bottom:8px;height:24px;background:#FFEC00;z-index:-1;border-radius:4px;transform:rotate(-1deg);}
-  .sub{font-size:25px;font-weight:700;color:#5A4651;margin-top:18px;}
-  .charwrap{margin-top:auto;display:flex;align-items:flex-end;gap:14px;}
-  .char{width:280px;height:280px;object-fit:contain;filter:drop-shadow(0 12px 20px rgba(120,30,60,.25));}
-  .speech{position:relative;background:#fff;border:2px solid #FDE4EE;border-radius:20px;padding:14px 18px;font-size:23px;font-weight:900;color:#A82959;box-shadow:0 10px 22px -12px rgba(214,62,118,.5);margin-bottom:52px;white-space:pre-line;text-align:center;}
-  .speech::after{content:"";position:absolute;left:-12px;bottom:20px;border:10px solid transparent;border-right-color:#fff;}
-  .right{flex:1;min-width:0;display:grid;grid-template-columns:1fr 1fr;grid-template-rows:1fr 1fr 1fr;gap:12px;}
-  .box{background:#fff;border:2.5px solid var(--cc);border-radius:14px;overflow:hidden;box-shadow:0 10px 24px -16px rgba(0,0,0,.3);display:flex;flex-direction:column;min-height:0;}
-  .box.wide{grid-column:1/3;}
-  .box-head{display:flex;align-items:center;gap:8px;background:var(--cc);color:#fff;padding:6px 10px;}
-  .cat-badge{width:24px;height:24px;flex:0 0 24px;border-radius:6px;background:rgba(255,255,255,.22);font-family:"Bebas Neue";font-size:19px;display:flex;align-items:center;justify-content:center;}
-  .cat-name{font-family:"RocknRoll One";font-size:16px;line-height:1.05;}.cat-name i{display:none;}
-  .chips{display:flex;flex-wrap:wrap;gap:5px;padding:7px 9px;align-content:flex-start;}
-  .chip{display:inline-flex;align-items:center;gap:4px;background:#fff;border:1.5px solid var(--cc);color:var(--cc);font-weight:900;font-size:12px;padding:2px 7px 2px 2px;border-radius:999px;}
-  .chip-logo{width:18px;height:18px;border-radius:4px;object-fit:cover;flex:0 0 18px;}
+  .badge{background:#D63E76;color:#fff;font-family:"RocknRoll One";font-size:23px;padding:10px 22px;border-radius:14px;transform:rotate(3deg);box-shadow:0 10px 22px -8px rgba(214,62,118,.55);}
+  /* 中央タイトルパネル */
+  .panel{position:absolute;left:50%;top:49%;transform:translate(-50%,-50%);z-index:5;background:rgba(255,255,255,.94);border:3px solid #FDE4EE;border-radius:28px;padding:34px 54px;text-align:center;box-shadow:0 24px 60px -22px rgba(120,30,60,.45);max-width:920px;}
+  .panel .kk{color:#D63E76;font-weight:900;font-size:26px;}
+  .panel h1{font-family:"RocknRoll One";font-size:78px;line-height:1.12;margin-top:4px;white-space:nowrap;}
+  .panel h1 .mk{position:relative;z-index:0;}.panel h1 .mk::after{content:"";position:absolute;left:-6px;right:-6px;bottom:8px;height:28px;background:#FFEC00;z-index:-1;border-radius:4px;transform:rotate(-1deg);}
+  .panel .sub{font-size:25px;font-weight:700;color:#5A4651;margin-top:14px;}
+  /* キャラ＋吹き出し（右下） */
+  .char{position:absolute;right:18px;bottom:-6px;width:300px;height:300px;object-fit:contain;z-index:7;filter:drop-shadow(0 12px 20px rgba(120,30,60,.3));}
+  .speech{position:absolute;right:300px;bottom:120px;z-index:8;background:#fff;border:2px solid #FDE4EE;border-radius:20px;padding:14px 18px;font-size:24px;font-weight:900;color:#A82959;box-shadow:0 10px 22px -12px rgba(214,62,118,.5);white-space:pre-line;text-align:center;}
+  .speech::after{content:"";position:absolute;right:-12px;bottom:22px;border:10px solid transparent;border-left-color:#fff;}
   </style></head><body>
   <div class="dots"></div>
-  <div class="stage">
-    <div class="head"><div class="brand"><span class="b-dot"></span><span>Daily Hack</span></div><div class="badge">2026 保存版</div></div>
-    <div class="body">
-      <div class="left">
-        <div class="kk">ポイ活、種類が多すぎ問題</div>
-        <h1><span class="l1">ポイントサービス</span><span class="l2">全部<span class="mk">使い倒した</span></span></h1>
-        <div class="sub">5分類×4象限マップで“自分の地図”を作る</div>
-        <div class="charwrap"><img class="char" src="file://${ASSETS_T}/expr-05-smug.png" alt=""><div class="speech">まず軸を\n1つ決めな</div></div>
-      </div>
-      <div class="right">${grid}</div>
-    </div>
+  <div class="scatter">${chaos}</div>
+  <div class="head"><div class="brand"><span class="b-dot"></span><span>Daily Hack</span></div><div class="badge">2026 保存版</div></div>
+  <div class="panel">
+    <div class="kk">ポイ活、種類が多すぎ問題</div>
+    <h1>ポイントサービス<br>全部<span class="mk">使い倒した</span></h1>
+    <div class="sub">5分類×4象限マップで“自分の地図”を作る</div>
   </div>
+  <div class="speech">この“カオス”\n整理したわよ</div>
+  <img class="char" src="file://${ASSETS_T}/expr-05-smug.png" alt="">
   </body></html>`;
 }
 

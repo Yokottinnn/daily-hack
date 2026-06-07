@@ -213,6 +213,13 @@ export const referrals: Referral[] = [
     expiresAt: '2026-06-23',
     isActive: true,
   },
+  // 🎯 ポイントサイト（紹介リンク＝Jordan提供待ち。code/affiliateUrl 記入後 isActive:true に）
+  { id:'moppy', serviceName:'モッピー', category:'pointsite', code:'', url:'https://pc.moppy.jp/', reward:'紹介者・被紹介者ともにボーナスpt（要確認）', description:'会員1,400万人超の最大手。基軸サイト', conditions:'紹介経由登録＋一定pt獲得', isActive:false },
+  { id:'hapitas', serviceName:'ハピタス', category:'pointsite', code:'', url:'https://hapitas.jp/register/', reward:'紹介ボーナス（要確認）', description:'高単価の金融案件に強い', conditions:'紹介経由登録＋条件達成', isActive:false },
+  { id:'pointincome', serviceName:'ポイントインカム', category:'pointsite', code:'', url:'https://pointi.jp/', reward:'紹介ボーナス（要確認）', description:'会員ランク＋交換ボーナス。セレス傘下', conditions:'紹介経由登録＋条件達成', isActive:false },
+  { id:'chobirich', serviceName:'ちょびリッチ', category:'pointsite', code:'', url:'https://www.chobirich.com/', reward:'紹介ボーナス（要確認）', description:'外食・商品モニターに強い', conditions:'紹介経由登録＋条件達成', isActive:false },
+  { id:'warau', serviceName:'ワラウ', category:'pointsite', code:'', url:'https://www.warau.jp/', reward:'紹介ボーナス（要確認）', description:'全カテゴリ対象ポイント保証。初心者向き', conditions:'紹介経由登録＋条件達成', isActive:false },
+  { id:'ecnavi', serviceName:'ECナビ', category:'pointsite', code:'', url:'https://ecnavi.jp/', reward:'紹介ボーナス（要確認）', description:'電通系の老舗。PeX交換ハブ', conditions:'紹介経由登録＋条件達成', isActive:false },
 ];
 
 export function getReferralById(id: string): Referral | undefined {
