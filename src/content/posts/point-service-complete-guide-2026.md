@@ -100,6 +100,26 @@ references: ["https://kakakumag.com/money/?id=20897", "https://www.warau.jp/", "
 
 → 関連: [PayPay大改悪まとめ 2026年6月](/posts/paypay-2026-june-revision-guide/) ／ [タッチでVisa割 最大30%還元 攻略](/posts/visa-touch-30-cashback-2026-jun/) ／ [年会費無料×高還元クレカ比較 2026](/posts/credit-card-no-annual-fee-comparison-2026/)
 
+共通ポイントは「**どのカードで貯めるか**」で還元が決まる。アタシが主軸にしてる2枚は、どちらも**紹介リンク/コード経由で登録すると“あなた（被紹介者）”側にも特典**が付くので、これから作るならそっち経由が断然お得。
+
+<div class="ref-cta">
+<img src="/images/point-service-complete-guide-2026/logos/rakuten-card.png" alt="楽天カード" loading="lazy">
+<div class="rc-body">
+<h4>楽天ポイントの主軸にするなら「楽天カード」紹介リンク</h4>
+<p>楽天市場のSPU・5と0のつく日が効く土台の1枚。<strong>下の紹介リンク経由で新規入会＋利用すると、“あなた”にも入会ポイント（時期により最大5,000pt）</strong>。年会費無料なのでポイ活の入口に最適。</p>
+</div>
+<a class="rc-btn" href="https://r10.to/hPxfRD" target="_blank" rel="sponsored noopener nofollow">紹介リンクで入会 →</a>
+</div>
+
+<div class="ref-cta">
+<img src="/images/point-service-complete-guide-2026/logos/olive.png" alt="Olive（三井住友）" loading="lazy">
+<div class="rc-body">
+<h4>Vポイントを貯めるなら「Olive」紹介コード</h4>
+<p>スマホのタッチ決済で対象店最大7%が効く三井住友の口座一体型。<strong>登録時に下の紹介コードを入力すると“あなた”にも1,000円相当のポイント</strong>。Vポイント経済圏の入口におすすめ。<br><span class="rc-code">紹介コード: FF31794-9555509</span></p>
+</div>
+<a class="rc-btn" href="https://www.smbc.co.jp/kojin/redirect/referral04/index.html" target="_blank" rel="sponsored noopener nofollow">紹介ページを開く →</a>
+</div>
+
 ## 🅱 流通・交通・電子マネー系（生活圏）— 第二の軸
 
 共通ポイントが「全国どこでも薄く広く」なら、こっちは**「その生活圏の人にだけ濃く刺さる」第二の軸**。イオンが近い／ららぽーとに毎週行く／JRで通勤する人は、共通ポイントより高い還元（最大5%級）が日常で取れる。逆に生活圏が違えばほぼ無意味。だから**「主軸の共通ポイント1つ＋生活圏に合った第二の軸1つ」の二刀流**が正解。
