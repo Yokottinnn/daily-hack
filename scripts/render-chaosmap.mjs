@@ -184,8 +184,106 @@ async function render(html, w, h, outPath, type) {
   console.log('rendered', outPath);
 }
 
+// ===== ③ 四象限マトリックス（各サービスをロゴでプロット）1600x1200 =====
+// x: 0=受動的(ほっといて貯まる) 〜 100=能動的(動いて稼ぐ)
+// y: 0=リターン大(まとまる/上) 〜 100=リターン小(コツコツ/下)
+const PLOT = [
+  // A 共通ポイント（受動・大）= 左上
+  { n:'楽天ポイント', x:16, y:20, c:'#D63E76', logo:'rakuten.png' },
+  { n:'Vポイント', x:33, y:26, c:'#D63E76', logo:'vpoint.png' },
+  { n:'dポイント', x:24, y:33, c:'#D63E76', logo:'dpoint.png' },
+  { n:'PayPay', x:31, y:40, c:'#D63E76', logo:'paypay.png' },
+  { n:'Ponta', x:20, y:44, c:'#D63E76', logo:'ponta.png' },
+  // B ポイントサイト（能動・大）= 右上
+  { n:'モッピー', x:74, y:18, c:'#1E6EC8', logo:'moppy.png' },
+  { n:'ハピタス', x:82, y:27, c:'#1E6EC8', logo:'hapitas.png' },
+  { n:'ポイントインカム', x:70, y:33, c:'#1E6EC8', logo:'pointincome.png' },
+  { n:'ちょびリッチ', x:84, y:40, c:'#1E6EC8', logo:'chobirich.png' },
+  // C 移動・歩数（受動寄り・小）= 左下
+  { n:'ANA Pocket', x:41, y:60, c:'#2DAF5F', logo:'anapocket.png' },
+  { n:'トリマ', x:28, y:66, c:'#2DAF5F', logo:'torima.png' },
+  { n:'JAL Wellness', x:45, y:71, c:'#2DAF5F', logo:'jalwellness.png' },
+  { n:'dヘルスケア', x:24, y:76, c:'#2DAF5F', logo:'dhealth.png' },
+  { n:'楽天ヘルスケア', x:32, y:82, c:'#2DAF5F', logo:'rakutenhealth.png' },
+  // D アンケート（能動・小）= 右下
+  { n:'マクロミル', x:76, y:70, c:'#E65A1E', logo:'macromill.png' },
+  { n:'楽天インサイト', x:83, y:79, c:'#E65A1E', logo:null },
+];
+
+function quadrantHtml() {
+  const pins = PLOT.map(p => `
+    <div class="pin" style="left:${p.x}%;top:${p.y}%;--pc:${p.c}">
+      ${p.logo ? `<img src="file://${LOGO_DIR}/${p.logo}" alt="">` : `<span class="nologo">${esc(p.n[0])}</span>`}
+      <span class="pin-label">${esc(p.n)}</span>
+    </div>`).join('');
+  return `<!doctype html><html><head><meta charset="utf-8"><style>${FONT_FACE}
+  *{margin:0;padding:0;box-sizing:border-box;}
+  html,body{width:1600px;height:1200px;}
+  body{font-family:"Zen Maru Gothic",sans-serif;color:#2A1923;position:relative;background:${BG};}
+  .dots{position:absolute;inset:0;background-image:radial-gradient(circle,rgba(214,62,118,.06) 1.6px,transparent 1.6px);background-size:30px 30px;}
+  .stage{position:absolute;inset:0;padding:40px 50px 30px;display:flex;flex-direction:column;}
+  .head{display:flex;justify-content:space-between;align-items:center;}
+  .brand{display:inline-flex;align-items:center;gap:11px;background:#fff;border:2px solid #FDE4EE;padding:9px 20px 9px 14px;border-radius:999px;box-shadow:0 8px 20px -10px rgba(214,62,118,.4);}
+  .brand .b-dot{width:18px;height:18px;border-radius:50%;background:#D63E76;}
+  .brand span{font-family:"RocknRoll One";font-size:24px;}
+  .badge{background:#D63E76;color:#fff;font-family:"RocknRoll One";font-size:23px;padding:9px 20px;border-radius:14px;transform:rotate(3deg);}
+  .ttl{text-align:center;font-family:"RocknRoll One";font-size:50px;margin:10px 0 6px;}
+  .ttl .mk{position:relative;z-index:0;}.ttl .mk::after{content:"";position:absolute;left:-4px;right:-4px;bottom:6px;height:18px;background:#FFEC00;z-index:-1;border-radius:4px;}
+  .plot{position:relative;flex:1;margin:30px 70px 56px;}
+  /* 4象限の地色 */
+  .q{position:absolute;width:50%;height:50%;opacity:.5;}
+  .q1{left:0;top:0;background:radial-gradient(circle at 30% 30%,#FCE2EC,transparent 70%);}
+  .q2{right:0;top:0;background:radial-gradient(circle at 70% 30%,#E2EEFB,transparent 70%);}
+  .q3{left:0;bottom:0;background:radial-gradient(circle at 30% 70%,#E4F5EA,transparent 70%);}
+  .q4{right:0;bottom:0;background:radial-gradient(circle at 70% 70%,#FCEBDD,transparent 70%);}
+  .qlabel{position:absolute;font-weight:900;font-size:22px;padding:6px 14px;border-radius:10px;color:#fff;}
+  .ql1{left:14px;top:12px;background:#D63E76;}
+  .ql2{right:14px;top:12px;background:#1E6EC8;}
+  .ql3{left:14px;bottom:12px;background:#2DAF5F;}
+  .ql4{right:14px;bottom:12px;background:#E65A1E;}
+  /* 軸 */
+  .axis-x{position:absolute;left:0;right:0;top:50%;height:4px;background:#2A1923;transform:translateY(-50%);border-radius:2px;}
+  .axis-y{position:absolute;top:0;bottom:0;left:50%;width:4px;background:#2A1923;transform:translateX(-50%);border-radius:2px;}
+  .axis-x::after,.axis-y::before{content:"";position:absolute;}
+  .axlbl{position:absolute;font-weight:900;font-size:21px;color:#2A1923;background:#fff;padding:4px 12px;border-radius:8px;border:2px solid #2A1923;}
+  .ax-left{left:-58px;top:50%;transform:translateY(-50%);}
+  .ax-right{right:-64px;top:50%;transform:translateY(-50%);}
+  .ax-top{left:50%;top:-46px;transform:translateX(-50%);}
+  .ax-bottom{left:50%;bottom:-46px;transform:translateX(-50%);}
+  .pin{position:absolute;transform:translate(-50%,-50%);display:flex;flex-direction:column;align-items:center;gap:4px;z-index:5;}
+  .pin img{width:62px;height:62px;border-radius:14px;object-fit:cover;box-shadow:0 6px 14px -6px rgba(0,0,0,.4);border:3px solid var(--pc);background:#fff;}
+  .pin .nologo{width:62px;height:62px;border-radius:14px;background:var(--pc);color:#fff;font-family:"RocknRoll One";font-size:30px;display:flex;align-items:center;justify-content:center;border:3px solid var(--pc);}
+  .pin-label{font-weight:900;font-size:18px;color:#2A1923;background:#fff;padding:2px 9px;border-radius:999px;box-shadow:0 3px 8px -4px rgba(0,0,0,.3);white-space:nowrap;}
+  .foot{text-align:center;font-weight:700;color:#5A4651;font-size:19px;}
+  .foot b{color:#D63E76;}
+  .hd{position:absolute;right:50px;bottom:30px;font-family:"Bebas Neue";font-size:22px;color:#b08;opacity:.8;}
+  </style></head><body>
+  <div class="dots"></div>
+  <div class="stage">
+    <div class="head"><div class="brand"><span class="b-dot"></span><span>Daily Hack</span></div><div class="badge">2026 保存版</div></div>
+    <div class="ttl">ポイントサービス <span class="mk">4象限マップ</span> 2026</div>
+    <div class="plot">
+      <div class="q q1"></div><div class="q q2"></div><div class="q q3"></div><div class="q q4"></div>
+      <div class="qlabel ql1">自動で貯まる土台<br>＝共通ポイント</div>
+      <div class="qlabel ql2">本気で稼ぐ<br>＝ポイントサイト</div>
+      <div class="qlabel ql3">ついでに小銭<br>＝移動・歩数</div>
+      <div class="qlabel ql4">スキマで小銭<br>＝アンケート</div>
+      <div class="axis-x"></div><div class="axis-y"></div>
+      <div class="axlbl ax-left">受動的<br>ほっといて貯まる</div>
+      <div class="axlbl ax-right">能動的<br>動いて稼ぐ</div>
+      <div class="axlbl ax-top">リターン大</div>
+      <div class="axlbl ax-bottom">リターン小</div>
+      ${pins}
+    </div>
+    <div class="foot">縦=1回/月で得られるリターンの大きさ ／ 横=どれだけ自分から動く必要があるか。<b>まず左上（共通ポイント）を軸に、右上（ポイントサイト）で二重取り</b>が王道。</div>
+    <div class="hd">@heng_ji31590</div>
+  </div>
+  </body></html>`;
+}
+
 (async () => {
   if (!fs.existsSync(OUT_DIR)) fs.mkdirSync(OUT_DIR, { recursive: true });
   await render(chaosMapHtml(), 1600, 1180, path.join(OUT_DIR, 'chaosmap.png'), 'png');
+  await render(quadrantHtml(), 1600, 1200, path.join(OUT_DIR, 'chaosmap-matrix.png'), 'png');
   await render(eyecatchHtml(), 1600, 900, path.join(OUT_DIR, 'eyecatch.jpg'), 'jpeg');
 })();
