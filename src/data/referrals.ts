@@ -6,7 +6,9 @@ export type ReferralCategory =
   | 'pointsite'
   | 'taxi'
   | 'ec'
-  | 'wallet';
+  | 'wallet'
+  | 'point'
+  | 'shopping';
 
 export interface Referral {
   id: string;
@@ -158,17 +160,19 @@ export const referrals: Referral[] = [
   },
   {
     id: 'saison-mitsui-sp',
+    affiliateUrl: 'https://tr.a-q-f.com/ad/p/r?medium=3&ad=82&creative=108&sad=527d546e-dbd5-497f-ad72-aa82bc5c1e92&s=146E',
     serviceName: 'セゾン三井SP',
     category: 'creditcard',
     url: 'https://www.saisoncard.co.jp/',
     reward: '時期により変動',
     description: 'セゾンカードの三井ショッピングパーク特化型',
-    isActive: false,
+    isActive: true,
   },
 
   // 🛒 EC・アプリ
   {
     id: 'rakuten-ichiba-app',
+    affiliateUrl: 'https://r10.to/hYntA2',
     serviceName: '楽天市場アプリ',
     category: 'ec',
     url: 'https://r10.to/hg20Ks',
@@ -213,6 +217,31 @@ export const referrals: Referral[] = [
     expiresAt: '2026-06-23',
     isActive: true,
   },
+  // 🎯 ポイントサイト（紹介リンク＝Jordan提供待ち。code/affiliateUrl 記入後 isActive:true に）
+  { id:'moppy', serviceName:'モッピー', category:'pointsite', code:'', url: 'https://pc.moppy.jp/', affiliateUrl: 'https://pc.moppy.jp/entry/invite.php?invite=kMwuA18a', reward:'紹介者・被紹介者ともにボーナスpt（要確認）', description:'会員1,400万人超の最大手。基軸サイト', conditions:'紹介経由登録＋一定pt獲得', isActive: true },
+  { id:'hapitas', serviceName:'ハピタス', category:'pointsite', code:'', url:'https://hapitas.jp/register/', reward:'紹介ボーナス（要確認）', description:'高単価の金融案件に強い', conditions:'紹介経由登録＋条件達成', isActive:false },
+  { id:'pointincome', serviceName:'ポイントインカム', category:'pointsite', code:'', url:'https://pointi.jp/', reward:'紹介ボーナス（要確認）', description:'会員ランク＋交換ボーナス。セレス傘下', conditions:'紹介経由登録＋条件達成', isActive:false },
+  { id:'chobirich', serviceName:'ちょびリッチ', category:'pointsite', code:'', url:'https://www.chobirich.com/', reward:'紹介ボーナス（要確認）', description:'外食・商品モニターに強い', conditions:'紹介経由登録＋条件達成', isActive:false },
+  { id:'warau', serviceName:'ワラウ', category:'pointsite', code:'', url:'https://www.warau.jp/', reward:'紹介ボーナス（要確認）', description:'全カテゴリ対象ポイント保証。初心者向き', conditions:'紹介経由登録＋条件達成', isActive:false },
+  { id:'ecnavi', serviceName:'ECナビ', category:'pointsite', code:'', url:'https://ecnavi.jp/', reward:'紹介ボーナス（要確認）', description:'電通系の老舗。PeX交換ハブ', conditions:'紹介経由登録＋条件達成', isActive:false },
+  { id:'rakuten-point', serviceName:'楽天ポイント', category:'point', code:'', url:'https://point.rakuten.co.jp/', reward:'紹介プログラム要確認', description:'', conditions:'', isActive:false },
+  { id:'dpoint', serviceName:'dポイント', category:'point', code:'', url:'https://dpoint.docomo.ne.jp/', reward:'紹介プログラム要確認', description:'', conditions:'', isActive:false },
+  { id:'ponta', serviceName:'Pontaポイント', category:'point', code:'', url:'https://www.ponta.jp/', reward:'紹介プログラム要確認', description:'', conditions:'', isActive:false },
+  { id:'vpoint', serviceName:'Vポイント', category:'point', code:'', url:'https://www.smbc.co.jp/kojin/vpoint/', reward:'紹介プログラム要確認', description:'', conditions:'', isActive:false },
+  { id:'jre-point', serviceName:'JREポイント', category:'point', code:'', url:'https://www.jrepoint.jp/', reward:'紹介プログラム要確認', description:'', conditions:'', isActive:false },
+  { id:'waon-point', serviceName:'WAON POINT', category:'point', code:'', url:'https://www.waon.net/', reward:'紹介プログラム要確認', description:'', conditions:'', isActive:false },
+  { id:'nanaco', serviceName:'nanaco', category:'point', code:'', url:'https://www.nanaco-net.jp/', reward:'紹介プログラム要確認', description:'', conditions:'', isActive:false },
+  { id:'famipay', serviceName:'ファミペイ', category:'point', code:'', url:'https://www.family.co.jp/services/famipay.html', reward:'紹介プログラム要確認', description:'', conditions:'', isActive:false },
+  { id:'tobu-point', serviceName:'東武ポイント', category:'point', code:'', url:'https://www.tobu-card.co.jp/tobupoint/', reward:'紹介プログラム要確認', description:'', conditions:'', isActive:false },
+  { id:'summit', serviceName:'サミット(サミットカード)', category:'shopping', code:'', url:'https://www.summitstore.co.jp/card/', reward:'紹介プログラム要確認', description:'', conditions:'', isActive:false },
+  { id:'lumine', serviceName:'ルミネ(ルミネカード)', category:'shopping', code:'', url:'https://www.lumine.ne.jp/luminecard/', reward:'紹介プログラム要確認', description:'', conditions:'', isActive:false },
+  { id:'mitsui-sp-point', serviceName:'三井ショッピングパークポイント', category:'shopping', code:'', url:'https://mitsui-shopping-park.com/msppoint/', reward:'紹介プログラム要確認', description:'', conditions:'', isActive:false },
+  { id:'marunouchi', serviceName:'丸の内ポイント', category:'shopping', code:'', url:'https://www.mec-card.jp/marunouchi_point/', reward:'紹介プログラム要確認', description:'', conditions:'', isActive:false },
+  { id:'ui-bank', serviceName:'UI銀行', category:'bank', code:'', url:'https://www.uibank.co.jp/', reward:'紹介プログラム要確認', description:'', conditions:'', isActive:false },
+  { id:'kiyo-bank', serviceName:'紀陽銀行', category:'bank', code:'', url:'https://www.kiyobank.co.jp/', reward:'紹介プログラム要確認', description:'', conditions:'', isActive:false },
+  { id:'aeon-bank', serviceName:'イオン銀行', category:'bank', code:'', url:'https://www.aeonbank.co.jp/', reward:'紹介プログラム要確認', description:'', conditions:'', isActive:false },
+  { id:'view-card', serviceName:'ビューカード(Viewカード)', category:'creditcard', code:'', url:'https://www.jreast.co.jp/card/', reward:'紹介プログラム要確認', description:'', conditions:'', isActive:false },
+  { id:'saison-portal', serviceName:'セゾンポータル(セゾンカード)', category:'creditcard', code:'', url:'https://www.saisoncard.co.jp/', reward:'紹介プログラム要確認', description:'', conditions:'', isActive:false },
 ];
 
 export function getReferralById(id: string): Referral | undefined {

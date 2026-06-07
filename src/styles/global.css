@@ -473,6 +473,28 @@ footer.foot .pr { margin-top: 6px; }
   .post-body table tbody td { padding: 10px 12px; }
 }
 
+/* Referral CTA — 紹介リンク/コードがあるサービスを目立たせる招待ボックス */
+.ref-cta { display: grid; grid-template-columns: 64px 1fr auto; gap: 16px; align-items: center; margin: 26px 0; background: linear-gradient(135deg, #FFF7E0, #FFFFFF 70%); border: 2px solid #F5B81E; border-radius: 18px; padding: 20px; box-shadow: 0 14px 30px -16px rgba(245,160,20,.5); position: relative; }
+.ref-cta::before { content: "🎁 紹介リンク特典あり"; position: absolute; top: -12px; left: 18px; background: #F5B81E; color: #5A3B00; font-size: 12px; font-weight: 800; padding: 3px 12px; border-radius: 999px; }
+.ref-cta > img { width: 64px; height: 64px; border-radius: 15px; object-fit: cover; border: 1px solid var(--line); }
+.ref-cta .rc-body h4 { margin: 0 0 4px; font-size: 16.5px; font-weight: 800; color: var(--ink); padding: 0 !important; border: 0 !important; }
+.ref-cta .rc-body p { margin: 0; font-size: 13px; line-height: 1.7; color: var(--ink-2); }
+.ref-cta .rc-body .rc-code { display: inline-block; margin-top: 6px; font-weight: 800; color: var(--pink-700); background: var(--pink-50); border: 1px dashed var(--pink-300); border-radius: 6px; padding: 2px 10px; font-size: 13px; }
+.ref-cta .rc-btn { background: var(--pink-500); color: #fff !important; font-weight: 800; padding: 13px 22px; border-radius: 999px; white-space: nowrap; font-size: 14px; border: 0; box-shadow: 0 10px 22px -10px rgba(214,62,118,.6); }
+.ref-cta .rc-btn:hover { background: var(--pink-600); }
+@media (max-width: 600px) { .ref-cta { grid-template-columns: 52px 1fr; } .ref-cta > img { width: 52px; height: 52px; } .ref-cta .rc-btn { grid-column: 1 / 3; text-align: center; } }
+
+/* Service profile cards — logo + 使い倒し実感（ポイントサービス徹底分析等） */
+.svc-grid { display: grid; gap: 14px; margin: 24px 0; grid-template-columns: 1fr; }
+@media (min-width: 760px) { .svc-grid { grid-template-columns: 1fr 1fr; } }
+.svc { display: grid; grid-template-columns: 66px 1fr; gap: 15px; background: #fff; border: 1px solid var(--pink-200); border-radius: 16px; padding: 16px 18px; box-shadow: var(--shadow-card); align-items: start; }
+.svc > img { width: 66px; height: 66px; border-radius: 15px; object-fit: cover; border: 1px solid var(--line); background: #fff; }
+.svc h4 { margin: 0 0 5px; font-size: 17px; color: var(--ink); font-weight: 800; padding: 0 !important; border: 0 !important; }
+.svc .svc-meta { font-size: 13px; color: var(--ink-2); line-height: 1.75; margin: 0; }
+.svc .svc-meta b { color: var(--pink-700); font-weight: 800; }
+.svc .svc-real { font-size: 12.5px; color: var(--ink-2); line-height: 1.7; margin: 8px 0 0; padding: 7px 11px; background: var(--pink-50); border-left: 3px solid var(--pink-300); border-radius: 0 8px 8px 0; }
+.svc .svc-real::before { content: "🗣️ 使い倒してる人の本音 "; font-weight: 800; color: var(--pink-700); }
+
 /* Card-style comparison (alternative to wide tables, mobile-friendly) */
 .compare-cards { display: grid; gap: 14px; margin: 28px 0; grid-template-columns: 1fr; }
 @media (min-width: 720px) { .compare-cards { grid-template-columns: 1fr 1fr; } }
