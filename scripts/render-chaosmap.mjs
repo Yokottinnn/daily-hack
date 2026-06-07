@@ -190,19 +190,19 @@ function eyecatchHtml() {
   .brand .b-dot{width:18px;height:18px;border-radius:50%;background:#D63E76;}
   .brand span{font-family:"RocknRoll One";font-size:23px;}
   .badge{background:#D63E76;color:#fff;font-family:"RocknRoll One";font-size:23px;padding:10px 22px;border-radius:14px;transform:rotate(3deg);}
-  .body{flex:1;display:flex;gap:30px;margin-top:14px;}
-  .left{width:560px;display:flex;flex-direction:column;}
+  .body{flex:1;display:flex;gap:30px;margin-top:14px;min-height:0;}
+  .left{width:548px;flex:0 0 548px;display:flex;flex-direction:column;}
   .kk{color:#D63E76;font-weight:900;font-size:24px;}
-  h1{font-family:"RocknRoll One";line-height:1.1;margin-top:6px;}
-  h1 .l1{font-size:72px;display:block;}h1 .l2{font-size:80px;display:block;margin-top:2px;}
-  h1 .mk{position:relative;z-index:0;}h1 .mk::after{content:"";position:absolute;left:-6px;right:-6px;bottom:8px;height:28px;background:#FFEC00;z-index:-1;border-radius:4px;transform:rotate(-1deg);}
-  .sub{font-size:26px;font-weight:700;color:#5A4651;margin-top:18px;}
+  h1{font-family:"RocknRoll One";line-height:1.12;margin-top:6px;}
+  h1 .l1{font-size:60px;display:block;white-space:nowrap;}h1 .l2{font-size:66px;display:block;margin-top:2px;white-space:nowrap;}
+  h1 .mk{position:relative;z-index:0;}h1 .mk::after{content:"";position:absolute;left:-6px;right:-6px;bottom:8px;height:24px;background:#FFEC00;z-index:-1;border-radius:4px;transform:rotate(-1deg);}
+  .sub{font-size:25px;font-weight:700;color:#5A4651;margin-top:18px;}
   .charwrap{margin-top:auto;display:flex;align-items:flex-end;gap:14px;}
   .char{width:280px;height:280px;object-fit:contain;filter:drop-shadow(0 12px 20px rgba(120,30,60,.25));}
   .speech{position:relative;background:#fff;border:2px solid #FDE4EE;border-radius:20px;padding:14px 18px;font-size:23px;font-weight:900;color:#A82959;box-shadow:0 10px 22px -12px rgba(214,62,118,.5);margin-bottom:52px;white-space:pre-line;text-align:center;}
   .speech::after{content:"";position:absolute;left:-12px;bottom:20px;border:10px solid transparent;border-right-color:#fff;}
-  .right{flex:1;display:grid;grid-template-columns:1fr 1fr;grid-template-rows:auto auto auto;gap:11px;align-content:start;}
-  .box{background:#fff;border:2.5px solid var(--cc);border-radius:14px;overflow:hidden;box-shadow:0 10px 24px -16px rgba(0,0,0,.3);display:flex;flex-direction:column;}
+  .right{flex:1;min-width:0;display:grid;grid-template-columns:1fr 1fr;grid-template-rows:1fr 1fr 1fr;gap:12px;}
+  .box{background:#fff;border:2.5px solid var(--cc);border-radius:14px;overflow:hidden;box-shadow:0 10px 24px -16px rgba(0,0,0,.3);display:flex;flex-direction:column;min-height:0;}
   .box.wide{grid-column:1/3;}
   .box-head{display:flex;align-items:center;gap:8px;background:var(--cc);color:#fff;padding:6px 10px;}
   .cat-badge{width:24px;height:24px;flex:0 0 24px;border-radius:6px;background:rgba(255,255,255,.22);font-family:"Bebas Neue";font-size:19px;display:flex;align-items:center;justify-content:center;}
