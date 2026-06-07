@@ -15,8 +15,18 @@ const { chromium } = require('playwright');
 const FONTS = SNS + '/fonts';
 const ASSETS_T = SNS + '/assets-transparent';
 const OUT_DIR = '/Users/ny_taxa/projects/anta-baka-x/blog/public/images/point-service-complete-guide-2026';
+const LOGO_DIR = OUT_DIR + '/logos';
 
 const esc = (s) => String(s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+
+// サービス名 → 公式アプリロゴ（iTunes取得・logos/配下）
+const LOGO = {
+  '楽天ポイント':'rakuten.png','PayPayポイント':'paypay.png','dポイント':'dpoint.png','Vポイント':'vpoint.png','Pontaポイント':'ponta.png',
+  'モッピー':'moppy.png','ハピタス':'hapitas.png','ポイントインカム':'pointincome.png','ちょびリッチ':'chobirich.png',
+  'トリマ':'torima.png','ANA Pocket':'anapocket.png','JAL Wellness':'jalwellness.png','dヘルスケア':'dhealth.png','楽天ヘルスケア':'rakutenhealth.png',
+  'マクロミル':'macromill.png',
+};
+const logoImg = (name) => LOGO[name] ? `<img class="chip-logo" src="file://${LOGO_DIR}/${LOGO[name]}" alt="">` : '';
 
 // 4カテゴリ（記事準拠）
 const CATS = [
@@ -40,7 +50,7 @@ const FONT_FACE = `
 const BG = `radial-gradient(circle at 4% 6%, #FDE4EE 0%, transparent 32%),radial-gradient(circle at 98% 96%, #FFFBEE 0%, transparent 38%),linear-gradient(135deg,#FFF5F8 0%,#FFFFFF 52%,#FFFBEE 100%)`;
 
 function catBox(c, compact) {
-  const chips = c.items.map(it => `<span class="chip">${esc(it)}</span>`).join('');
+  const chips = c.items.map(it => `<span class="chip${LOGO[it] ? ' has-logo' : ''}">${logoImg(it)}${esc(it)}</span>`).join('');
   return `
   <div class="box" style="--cc:${c.color}">
     <div class="box-head">
@@ -77,8 +87,10 @@ function chaosMapHtml() {
   .cat-name{font-family:"RocknRoll One";font-size:34px;line-height:1;}
   .cat-name i{font-style:normal;font-family:"Zen Maru Gothic";font-weight:700;font-size:18px;margin-left:10px;opacity:.92;}
   .box-role{font-size:21px;font-weight:700;color:#5A4651;padding:16px 24px 4px;}
-  .chips{display:flex;flex-wrap:wrap;gap:12px;padding:14px 24px 0;}
-  .chip{background:#fff;border:2.5px solid var(--cc);color:var(--cc);font-weight:900;font-size:25px;padding:9px 20px;border-radius:999px;box-shadow:0 4px 10px -6px rgba(0,0,0,.18);}
+  .chips{display:flex;flex-wrap:wrap;gap:13px;padding:16px 24px 0;}
+  .chip{display:inline-flex;align-items:center;gap:10px;background:#fff;border:2.5px solid var(--cc);color:var(--cc);font-weight:900;font-size:25px;padding:8px 20px;border-radius:999px;box-shadow:0 4px 10px -6px rgba(0,0,0,.18);}
+  .chip.has-logo{padding-left:8px;}
+  .chip-logo{width:40px;height:40px;border-radius:9px;object-fit:cover;flex:0 0 40px;}
   .foot{display:flex;justify-content:space-between;align-items:center;margin-top:24px;background:linear-gradient(90deg,#D63E76 0%,#1E6EC8 38%,#2DAF5F 70%,#E65A1E 100%);border-radius:16px;padding:16px 28px;}
   .foot .read{color:#fff;font-weight:900;font-size:26px;}
   .foot .read b{color:#FFEC00;}
@@ -128,8 +140,10 @@ function eyecatchHtml() {
   .cat-badge{width:30px;height:30px;flex:0 0 30px;border-radius:8px;background:rgba(255,255,255,.22);font-family:"Bebas Neue";font-size:24px;display:flex;align-items:center;justify-content:center;}
   .cat-name{font-family:"RocknRoll One";font-size:19px;line-height:1.05;}
   .cat-name i{display:none;}
-  .chips{display:flex;flex-wrap:wrap;gap:6px;padding:9px 11px;align-content:flex-start;}
-  .chip{background:#fff;border:2px solid var(--cc);color:var(--cc);font-weight:900;font-size:15px;padding:3px 10px;border-radius:999px;}
+  .chips{display:flex;flex-wrap:wrap;gap:7px;padding:9px 11px;align-content:flex-start;}
+  .chip{display:inline-flex;align-items:center;gap:5px;background:#fff;border:2px solid var(--cc);color:var(--cc);font-weight:900;font-size:15px;padding:3px 9px;border-radius:999px;}
+  .chip.has-logo{padding-left:3px;}
+  .chip-logo{width:22px;height:22px;border-radius:5px;object-fit:cover;flex:0 0 22px;}
   .foot{display:flex;justify-content:space-between;align-items:center;margin-top:14px;background:linear-gradient(90deg,#D63E76,#A82959);border-radius:16px;padding:13px 26px;}
   .foot .v{color:#fff;font-weight:900;font-size:25px;}
   .foot .v b{color:#FFEC00;}
