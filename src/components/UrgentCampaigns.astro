@@ -31,27 +31,31 @@ const fallback = [
       <h2><span class="chibi"><img src="/images/expr-06-shock.png" alt="" /></span>期限迫る！今熱いキャンペーン</h2>
       <a href="/category/campaigns/" class="seeall">すべて見る →</a>
     </div>
-    <div class="camp-grid">
+    <div class="articles">
       {items.length > 0 ? items.map((p) => {
         const primary = getPrimaryCategory(p.data);
         const bg = p.data.eyecatch?.src ?? p.data.eyecatchUrl ?? categoryFallback[primary] ?? '/images/eyecatch/services.jpg';
         return (
-          <a href={`/posts/${p.id}/`} class="camp-card">
-            <div class="bg" aria-hidden="true"><img src={bg} alt="" loading="lazy" /></div>
+          <a href={`/posts/${p.id}/`} class="art art--compact">
+            <div class="thumb">
+              <img src={bg} alt={p.data.eyecatchAlt ?? ''} loading="lazy" />
+              <span class="badge warn">期限迫る</span>
+            </div>
             <div class="body">
-              <span class="pill">期限迫る</span>
               <h3>{p.data.title}</h3>
-              <div class="meta"><span>{p.data.publishDate.toISOString().slice(0, 10)}</span></div>
+              <div class="meta">{p.data.publishDate.toISOString().slice(0, 10).replace(/-/g, '.')}</div>
             </div>
           </a>
         );
       }) : fallback.map((c) => (
-        <a href={c.href} class="camp-card">
-          <div class="bg" aria-hidden="true"><img src={c.bg} alt="" loading="lazy" /></div>
+        <a href={c.href} class="art art--compact">
+          <div class="thumb">
+            <img src={c.bg} alt="" loading="lazy" />
+            <span class="badge warn">{c.pill}</span>
+          </div>
           <div class="body">
-            <span class={`pill ${c.warn ? 'warn' : ''}`}>{c.pill}</span>
             <h3>{c.title}</h3>
-            <div class="meta"><span>{c.date}</span></div>
+            <div class="meta">{c.date}</div>
           </div>
         </a>
       ))}
