@@ -1,0 +1,17 @@
+{
+  "badge": "常時更新",
+  "kicker": "いつ何が変わった？",
+  "title1": "ポイント改悪・改良",
+  "title2_html": "<span class=\"mark\">年表</span> 2024-2026",
+  "subline": "PayPay・d・楽天・Vポイントの変更を時系列で一覧",
+  "character": "expr-06-shock.png",
+  "speech": "黙って\n渋くなるわよ",
+  "ranking": [
+    { "name": "PayPay 6/2 大改悪", "value": "公共料金0.5%/二重取り廃止", "unit": "eKYC必須化も", "color": "#DC2626", "recommended": true, "ribbon": "★ 最大級" },
+    { "name": "ドコモ ポイ活MAX終了", "value": "d払い 10%→5%", "unit": "2026/4/30", "color": "#E6912B" },
+    { "name": "dカード 公共料金", "value": "1%→0.5%に半減", "unit": "2026/2/1", "color": "#E0562B" },
+    { "name": "改良：預金金利UP", "value": "あおぞら0.75%", "unit": "クレカ積立10万円も", "color": "#2DAF5F" }
+  ],
+  "verdict_html": "結論：<b>公共料金0.5%が標準化</b>。年1回は決済を点検せよ",
+  "handle": "@heng_ji31590"
+}
