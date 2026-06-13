@@ -1,0 +1,17 @@
+{
+  "badge": "2026年版",
+  "kicker": "晴海・佃・深川・豊洲",
+  "title1": "湾岸の夏・秋",
+  "title2_html": "花火と<span class=\"mark\">祭り</span>はここ",
+  "subline": "11年ぶり復活の大華火＆“本祭り当たり年”を完全網羅",
+  "character": "expr-04-cheer.png",
+  "speech": "今年の湾岸は\n当たり年よ！",
+  "ranking": [
+    { "name": "東京湾大華火祭", "value": "10/24 晴海沖・約12,000発", "unit": "11年ぶり復活 / 全席制", "color": "#DC2626", "recommended": true, "ribbon": "★ 今年の目玉" },
+    { "name": "深川八幡祭り",   "value": "8/12〜16 門前仲町",     "unit": "3年に1度の本祭り",   "color": "#EA6D17" },
+    { "name": "佃 住吉神社例祭", "value": "8/6〜10 月島・佃",      "unit": "本祭り・船渡御",     "color": "#C98A1E" },
+    { "name": "江東花火大会",    "value": "8/11 荒川・約6,000発",  "unit": "全席指定・場所取り不要", "color": "#1E6EC8" }
+  ],
+  "verdict_html": "結論：<b>8月は“祭り”、10月は“大華火”</b>。湾岸の当たり年",
+  "handle": "@heng_ji31590"
+}
