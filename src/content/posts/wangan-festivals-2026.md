@@ -22,6 +22,11 @@ references: ["https://tokyo-hanabi-festival.com/", "https://koto-hanabi.com/", "
 <p>アタシ晴海在住だから断言する。<strong>今年の湾岸は本気で激アツ</strong>。特に大華火は11年ぶりだし、佃と深川の本祭りが重なるのは“次いつ揃うか分からない”レベルのレア。ただし<strong>東京湾大華火祭は昔と違って「全席チケット制」</strong>になってて、ふらっと海辺で無料観覧…はもうできない。ここだけは絶対に押さえて。下のマップで自分の生活圏のイベントをチェックして、気になるやつはカレンダーに入れちゃって。</p>
 </div>
 
+<figure class="real-photo" style="max-width: 880px; margin: 26px auto;">
+<img src="/images/wangan-festivals-2026/photos/hanabi-river.jpg" alt="夏の東京の夜空を彩る大輪の花火" loading="lazy" />
+<figcaption>夏の東京の夜空にひらく大輪の花火。湾岸でも2026年は<strong>東京湾大華火祭が11年ぶりに復活</strong>し、街が一気にお祭りムードに包まれる。<cite>出典: Wikimedia Commons ／ てんどん, CC BY 2.1 jp（<a href="https://commons.wikimedia.org/wiki/File:2012%E5%B9%B4%E9%9A%85%E7%94%B0%E5%B7%9D%E8%8A%B1%E7%81%AB%E5%A4%A7%E4%BC%9A.jpg" target="_blank" rel="noopener nofollow">隅田川花火大会の様子</a>）</cite></figcaption>
+</figure>
+
 ## ⚡ 30秒サマリ（湾岸民が今年まず押さえる3つ）
 
 <ul class="checklist">
@@ -66,6 +71,11 @@ references: ["https://tokyo-hanabi-festival.com/", "https://koto-hanabi.com/", "
 
 東京2020の選手村整備のため2015年を最後に休止していた湾岸の風物詩が、**11年ぶりに復活**。晴海埠頭の沖（東京港の海上）から、尺五寸玉を含む**約12,000発**が打ち上がる。
 
+<figure class="real-photo" style="max-width: 760px; margin: 22px auto;">
+<img src="/images/wangan-festivals-2026/photos/tokyowan-hanabi.jpg" alt="晴海沖の東京港から上がる東京湾の花火とレインボーブリッジ" loading="lazy" />
+<figcaption>晴海沖・東京港から上がる花火（休止前の開催時の様子）。レインボーブリッジ越しに湾岸の夜空を埋める尺玉が、2026年このスケールで戻ってくる。<cite>出典: Wikimedia Commons ／ 河田 貫成, CC BY-SA 4.0（<a href="https://commons.wikimedia.org/wiki/File:Tokyo_bay_fireworks_2015.jpg" target="_blank" rel="noopener nofollow">Tokyo bay fireworks 2015</a>）</cite></figcaption>
+</figure>
+
 - **開催日**：2026年10月24日（土）　17:30〜19:00（予定）
 - **場所**：晴海埠頭沖・東京港海上（最寄り＝勝どき駅／月島駅／豊洲駅エリア）
 - **規模**：約12,000発
@@ -82,6 +92,11 @@ references: ["https://tokyo-hanabi-festival.com/", "https://koto-hanabi.com/", "
 ### ⛩️ 住吉神社例祭（佃祭り）（8/6〜10）★3年に1度の本祭り
 
 佃島の鎮守・住吉神社の例祭。**2026年は3年に1度の「本祭り（大祭）」の年**で、ハイライトは**8/9（日）の八角神輿の宮出しと船渡御**。高さ約18mの**大幟6本**が佃の町に立ち、江戸の風情が一気に蘇る。
+
+<figure class="real-photo" style="max-width: 760px; margin: 22px auto;">
+<img src="/images/wangan-festivals-2026/photos/sumiyoshi.jpg" alt="中央区佃島の住吉神社" loading="lazy" />
+<figcaption>佃島の鎮守・住吉神社。本祭りの年は、ここを起点に八角神輿の宮出しと船渡御が行われ、高層マンションの足元に江戸の祭礼が広がる。<cite>出典: Wikimedia Commons ／ Ysakuma14, CC BY-SA 4.0（<a href="https://commons.wikimedia.org/wiki/File:%E4%B8%AD%E5%A4%AE%E5%8C%BA%E4%BD%83%E5%B3%B6_%E4%BD%8F%E5%90%89%E7%A5%9E%E7%A4%BE.jpg" target="_blank" rel="noopener nofollow">中央区佃島 住吉神社</a>）</cite></figcaption>
+</figure>
 
 - **開催**：2026年8月6日（木）〜10日（月）　※獅子頭宮出し8/8、八角神輿・船渡御8/9（時刻は公式発表で要確認）
 - **場所**：住吉神社・佃島一帯（佃公園・佃小橋周辺）／最寄り＝月島駅6番出口 徒歩約5分
@@ -111,6 +126,17 @@ references: ["https://tokyo-hanabi-festival.com/", "https://koto-hanabi.com/", "
 
 江戸三大祭のひとつ。**2026年は3年に1度の「本祭り」の年**で、ハイライトは**8/16（日）の神輿連合渡御**。沿道から担ぎ手に水をかける**「水掛け祭り」**として有名で、2026年は新規加入を加えた**約54の町会神輿**が連なる迫力。
 
+<div class="real-photos cols-2">
+<figure class="real-photo">
+<img src="/images/wangan-festivals-2026/photos/fukagawa.jpg" alt="門前仲町を進む深川八幡祭りの神輿連合渡御" loading="lazy" />
+<figcaption>門前仲町を進む神輿の連合渡御。沿道の観客が担ぎ手に水を浴びせる「水掛け祭り」の熱気。<cite>出典: Wikimedia Commons ／ 東京特許許可局, CC BY-SA 4.0（<a href="https://commons.wikimedia.org/wiki/File:Hachiman_Festival_at_Monzen_Nakacho_001.jpg" target="_blank" rel="noopener nofollow">Hachiman Festival at Monzen Nakacho</a>）</cite></figcaption>
+</figure>
+<figure class="real-photo">
+<img src="/images/wangan-festivals-2026/photos/fukagawa2.jpg" alt="深川八幡祭りで和太鼓を打つ揃いの法被の担ぎ手たち" loading="lazy" />
+<figcaption>揃いの法被に身を包み、和太鼓を打ち鳴らす担ぎ手たち。本祭りの年は門前仲町一帯がこの熱気に包まれる。<cite>出典: Wikimedia Commons ／ Daderot, CC0（<a href="https://commons.wikimedia.org/wiki/File:Drummers_at_Fukagawa_Matsuri_-_Tokyo,_Japan_-_DSC05197.jpg" target="_blank" rel="noopener nofollow">Drummers at Fukagawa Matsuri</a>）</cite></figcaption>
+</figure>
+</div>
+
 - **開催**：2026年8月12日（水）〜16日（日）　※神輿連合渡御＝8/16（日）
 - **場所**：富岡八幡宮（門前仲町駅 徒歩約3分）／連合渡御ルートは門前仲町〜永代〜越中島〜豊洲方面まで広域
 - **公式**：[富岡八幡宮 例祭](http://www.tomiokahachimangu.or.jp/annai/maturi/maturih1.html)
@@ -125,6 +151,11 @@ references: ["https://tokyo-hanabi-festival.com/", "https://koto-hanabi.com/", "
 ### 🎆 お台場レインボー花火（番外・冬）
 
 夏ではないけれど湾岸の冬の名物。**例年12月の週末＋クリスマス**に、お台場海浜公園の沖から1回約5分・約1,300発を**無料観覧**できる。2026年12月分の日程は未発表。夏の花火を逃しても、年末にお台場で楽しめるのは湾岸ならでは。
+
+<figure class="real-photo" style="max-width: 760px; margin: 22px auto;">
+<img src="/images/wangan-festivals-2026/photos/odaiba.jpg" alt="お台場のレインボーブリッジと湾岸の夜景" loading="lazy" />
+<figcaption>お台場のシンボル・レインボーブリッジ。冬にはこの沖（お台場海浜公園・自由の女神像前）でレインボー花火が無料で楽しめる。<cite>出典: Wikimedia Commons ／ FoxyStranger Kawasaki, CC BY-SA 3.0（<a href="https://commons.wikimedia.org/wiki/File:Rainbow_Bridge_(Summer)_-_panoramio.jpg" target="_blank" rel="noopener nofollow">Rainbow Bridge (Summer)</a>）</cite></figcaption>
+</figure>
 
 ### 🎆 神宮外苑花火大会（8/8・近隣）
 
