@@ -237,9 +237,17 @@ references: ["https://kakakumag.com/money/?id=20897", "https://www.warau.jp/", "
 <div class="svc">
 <img src="/images/point-service-complete-guide-2026/logos/anapocket.png" alt="ANA Pocket" loading="lazy">
 <div>
-<h4>ANA Pocket / JAL Wellness</h4>
-<p class="svc-meta">移動・歩数でマイル。マイラー向け<br>ANAは移動距離型(無料〜Pro)、JALは歩数型(課金前提)</p>
-<p class="svc-real">移動が多い人はANA、よく歩く人はJAL。陸でマイルを積むなら生活スタイルで選ぶ。</p>
+<h4>ANA Pocket</h4>
+<p class="svc-meta">移動距離でANAマイル/ポイント。無料〜Pro(550円)<br>歩く・電車・車・飛行機まで移動手段を自動判定</p>
+<p class="svc-real">移動量が多い人向け。無料でもコツコツ貯まるけど、Pro課金で交換先と還元が一気に広がる。陸マイラーの入口に。</p>
+</div>
+</div>
+<div class="svc">
+<img src="/images/point-service-complete-guide-2026/logos/jalwellness.png" alt="JAL Wellness & Travel" loading="lazy">
+<div>
+<h4>JAL Wellness &amp; Travel</h4>
+<p class="svc-meta">歩数・運動・睡眠などの健康活動でJALマイル<br>月額550円課金前提のヘルスケア型アプリ</p>
+<p class="svc-real">よく歩く人＆JAL派ならコレ。日々の歩数や健康記録でミッションをこなすとマイルが積めて、年3,000マイル超も狙える。陸でJALマイルを貯めたい人の定番。</p>
 </div>
 </div>
 <div class="svc">
@@ -254,9 +262,9 @@ references: ["https://kakakumag.com/money/?id=20897", "https://www.warau.jp/", "
 
 → 詳細: [移動ポイ活アプリ徹底比較 2026（5アプリ）](/posts/move-to-earn-poikatsu-apps-2026/) ／ [ANA Pocket vs JAL Wellness 徹底比較](/posts/ana-pocket-vs-jal-wellness-2026/)
 
-## 📱 主要サービスを“実際の画面つき”で徹底解説
+## 📱 主要サービスの使い方と最新キャンペーン
 
-上のサマリーで全体像をつかんだら、ここからは**特に使う人が多い5サービスを、実際のアプリ画面つきで深掘り**する。「結局このアプリで何ができるの？」「今お得なキャンペーンは？」を、アタシが使い倒してる目線でまとめたわ。（※全サービスは載せきれないので、各カテゴリの代表だけピックアップ）
+ここからは**特によく使う5サービス**を1つずつ。「結局このアプリで何ができる？」「今お得なキャンペーンは？」を、アタシが普段使ってる目線でまとめた。（※全部は載せきれないので各カテゴリの代表だけ）
 
 <div class="svc-deep">
 <h3><img class="sd-icon" src="/images/point-service-complete-guide-2026/screens/rakuten-icon.png" alt="楽天ポイント" loading="lazy"> 楽天ポイント <span class="sd-tag">共通ポイント</span></h3>
