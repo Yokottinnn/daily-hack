@@ -1,0 +1,17 @@
+{
+  "badge": "診断ツールつき",
+  "kicker": "結局いくら稼げる？",
+  "title1": "ポイ活の実効時給",
+  "title2_html": "<span class=\"mark\">ガチ検証</span> 2026",
+  "subline": "あなたの時給を入れて「やる価値あるか」即判定",
+  "character": "expr-05-smug.png",
+  "speech": "時給で\n選びなさい",
+  "ranking": [
+    { "name": "クレカ発行・口座開設", "value": "時給 1〜3万円", "unit": "高額単発・月1〜2件厳選", "color": "#2DAF5F", "recommended": true, "ribbon": "★ 最強" },
+    { "name": "無料体験・高単価申込", "value": "時給 6,000〜12,000円", "unit": "5〜10分で数千円", "color": "#1E6EC8" },
+    { "name": "本アンケート", "value": "時給 360〜1,200円", "unit": "隙間時間ならOK", "color": "#E6912B" },
+    { "name": "レシート・動画・事前アンケ", "value": "時給 60〜300円", "unit": "専従はやめた方が得", "color": "#DC2626" }
+  ],
+  "verdict_html": "結論：<b>高額単発＋日常還元</b>だけ全力。コツコツ専従は損",
+  "handle": "@heng_ji31590"
+}
