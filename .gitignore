@@ -32,3 +32,4 @@ tmp/
 
 # アプリ素材スクショ（合成済みshowcaseのみ公開、素材は非公開）
 public/images/ana-pocket-vs-jal-wellness-2026/src/
+public/images/*.bak.*
