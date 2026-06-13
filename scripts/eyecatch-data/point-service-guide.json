@@ -1,19 +1,13 @@
 {
+  "layout": "feature",
   "badge": "2026 保存版",
   "kicker": "ポイ活、種類が多すぎ問題を解決",
-  "title1": "ポイントサービス",
-  "title1_size": 76,
-  "title2_html": "全部<span class=\"mark\">整理した</span>",
-  "title2_size": 80,
-  "subline": "カオスマップで4カテゴリに分類 → 徹底比較",
+  "title1": "ポイントサービス ",
+  "title2_html": "<span class=\"mark\">全部整理した</span>",
+  "subline": "共通ポイント・流通・ポイントサイト・移動ポイ活を4象限で",
+  "chips": ["共通ポイント", "流通・交通系", "ポイントサイト", "移動ポイ活"],
   "character": "expr-05-smug.png",
   "speech": "まず軸を\n1つ決めな",
-  "ranking": [
-    { "name": "A 共通ポイント", "value": "経済圏の軸", "unit": "楽天/PayPay/d/Ponta/Vポイント", "color": "#D63E76", "recommended": true, "ribbon": "まず土台" },
-    { "name": "B ポイントサイト", "value": "二重取り", "unit": "モッピー/ハピタス/ポイントインカム", "color": "#1E6EC8" },
-    { "name": "C 移動・歩数", "value": "取りこぼし回収", "unit": "トリマ/ANA Pocket/JAL/ヘルスケア", "color": "#2DAF5F" },
-    { "name": "D アンケート", "value": "スキマ時間", "unit": "マクロミル 等", "color": "#E65A1E" }
-  ],
   "verdict_html": "①軸を決める→②サイト経由で二重取り→③ついで回収",
   "handle": "@heng_ji31590"
 }
