@@ -254,6 +254,122 @@ references: ["https://kakakumag.com/money/?id=20897", "https://www.warau.jp/", "
 
 → 詳細: [移動ポイ活アプリ徹底比較 2026（5アプリ）](/posts/move-to-earn-poikatsu-apps-2026/) ／ [ANA Pocket vs JAL Wellness 徹底比較](/posts/ana-pocket-vs-jal-wellness-2026/)
 
+## 📱 主要サービスを“実際の画面つき”で徹底解説
+
+上のサマリーで全体像をつかんだら、ここからは**特に使う人が多い5サービスを、実際のアプリ画面つきで深掘り**する。「結局このアプリで何ができるの？」「今お得なキャンペーンは？」を、アタシが使い倒してる目線でまとめたわ。（※全サービスは載せきれないので、各カテゴリの代表だけピックアップ）
+
+<div class="svc-deep">
+<h3><img class="sd-icon" src="/images/point-service-complete-guide-2026/screens/rakuten-icon.png" alt="楽天ポイント" loading="lazy"> 楽天ポイント <span class="sd-tag">共通ポイント</span></h3>
+
+<p>言わずと知れた最大勢力。<strong>「楽天ポイントクラブ」アプリ</strong>1つで、貯める・使う・増やすが完結する。楽天市場を使うなら“軸”はまずこれ。</p>
+
+<div class="screen-strip">
+<figure><img src="/images/point-service-complete-guide-2026/screens/rakuten-1.png" alt="楽天ポイントクラブ公式アプリの紹介画面" loading="lazy"><figcaption>楽天ポイント公式アプリ。保有ポイントの確認から利用設定まで集約（出典：App Store 公式スクリーンショット）</figcaption></figure>
+<figure><img src="/images/point-service-complete-guide-2026/screens/rakuten-2.png" alt="楽天ポイントクラブのアプリ機能画面" loading="lazy"><figcaption>通常／期間限定ポイントの内訳・有効期限・会員ランクを一覧で管理できる（出典：App Store 公式スクリーンショット）</figcaption></figure>
+</div>
+
+<p><strong>📱 アプリでできること</strong></p>
+<ul class="sd-do">
+<li>通常／期間限定ポイントの<strong>内訳と有効期限</strong>、会員ランクとランクアップ条件の確認</li>
+<li><strong>アプリ限定のラッキーくじ</strong>（毎日1回・最大1,000ポイント）やクーポンくじ</li>
+<li>期間限定ポイントの<strong>失効アラート通知</strong>（短い有効期限の取りこぼし防止）</li>
+<li>ポイント運用・ポイント利息で残高を管理、楽天ペイ／楽天市場で「ポイントを使う」設定</li>
+</ul>
+
+<p><strong>💰 2026年の貯め方</strong>：軸は <strong>SPU（公称最大+18倍／現実は数倍）</strong> ＋ <strong>5と0のつく日（要エントリー＋楽天カード決済）</strong>。ただし貯まる期間限定ポイントは<strong>有効期限が約1か月半と短い</strong>ので、楽天ペイや楽天モバイル料金でこまめに溶かすのがコツ。</p>
+
+<div class="sd-campaign">大型セール（お買い物マラソン／スーパーSALE）の買い回り中に日用品をまとめ買いすると一気に伸びる。<strong>🎁 楽天ポイントの主軸＝楽天カード</strong>。<a href="https://r10.to/hPxfRD" target="_blank" rel="sponsored noopener nofollow">紹介リンク（コード hPxfRD）</a>経由の新規入会＋利用で“あなた”にも入会ポイント（時期により最大5,000pt）。詳しくは上の🎁特典ボックスへ。</div>
+</div>
+
+<div class="svc-deep">
+<h3><img class="sd-icon" src="/images/point-service-complete-guide-2026/screens/paypay-icon.png" alt="PayPay" loading="lazy"> PayPay <span class="sd-tag">決済・共通</span></h3>
+
+<p>使える店の多さは正義。ただし<strong>2026年6月2日の大改定</strong>で“貯め方”が大きく変わったので、惰性で使ってる人ほど要チェック。</p>
+
+<div class="screen-strip">
+<figure><img src="/images/point-service-complete-guide-2026/screens/paypay-1.png" alt="PayPayアプリの画面" loading="lazy"><figcaption>コード決済・チャージ・送金・請求書払いを1アプリで（出典：App Store 公式スクリーンショット）</figcaption></figure>
+<figure><img src="/images/point-service-complete-guide-2026/screens/paypay-2.png" alt="PayPayアプリのポイント・特典画面" loading="lazy"><figcaption>PayPayステップやポイント運用、クーポンもアプリ内で完結（出典：App Store 公式スクリーンショット）</figcaption></figure>
+</div>
+
+<p><strong>📱 アプリでできること</strong></p>
+<ul class="sd-do">
+<li>コード／バーコード決済、残高チャージ、<strong>個人間送金</strong>、請求書払い（公共料金・税金）</li>
+<li><strong>PayPayポイント運用</strong>（疑似運用）、PayPayカード連携、クーポン取得</li>
+<li>PayPayステップで還元率・達成状況を管理</li>
+</ul>
+
+<p><strong>⚠️ 2026年6月2日改定の要点</strong>：基本付与率は残高0.5%／クレジット(PayPayカード)1.0%、条件達成特典+0.5%で<strong>最大1.5%</strong>。条件は<strong>月30回（各200円以上）かつ利用10万円以上</strong>＋<strong>本人確認(eKYC)必須</strong>。さらに<strong>ポイント払い分は還元対象外</strong>、<strong>公共料金は0.5%に半減</strong>、<strong>各種チャージの二重取りは廃止</strong>（交通系ICチャージ等は0%）。</p>
+
+<div class="sd-campaign">改悪の一方で<strong>自治体連携キャンペーンは引き続き激アツ</strong>。たとえば<strong>神奈川県「かなトク！」最大10〜20%還元（2026年6月19日〜・予算上限到達次第終了）</strong>など、対象エリアの加盟店なら一撃で取り返せる。お住まいの自治体名＋「PayPay キャンペーン」で要チェック。（出典：<a href="https://paypay.ne.jp/notice/20260515/cp-jichitai/" target="_blank" rel="noopener nofollow">PayPay公式お知らせ</a>）</div>
+</div>
+
+<div class="svc-deep">
+<h3><img class="sd-icon" src="/images/point-service-complete-guide-2026/screens/vpoint-icon.png" alt="Vポイント" loading="lazy"> Vポイント <span class="sd-tag">共通・旧Tポイント</span></h3>
+
+<p><strong>2024年4月にTポイントと統合</strong>して生まれた“青と黄色”のVポイント。旧Tカードはそのまま使える。三井住友カードと組み合わせると、コンビニ・外食で化ける。</p>
+
+<div class="screen-strip">
+<figure><img src="/images/point-service-complete-guide-2026/screens/vpoint-1.png" alt="Vポイントアプリの画面" loading="lazy"><figcaption>モバイルVカードの提示・残高確認。旧Tポイントカードも手続き不要で継続利用（出典：App Store 公式スクリーンショット）</figcaption></figure>
+<figure><img src="/images/point-service-complete-guide-2026/screens/vpoint-2.png" alt="Vポイントアプリの機能画面" loading="lazy"><figcaption>貯めたVポイントはVポイントPayでVisa加盟店の支払いに充当できる（出典：App Store 公式スクリーンショット）</figcaption></figure>
+</div>
+
+<p><strong>📱 アプリでできること</strong></p>
+<ul class="sd-do">
+<li><strong>モバイルVカード提示</strong>で提携店のポイント獲得・残高確認</li>
+<li><strong>VポイントPay</strong>：貯めたポイントをチャージしてVisa加盟店で支払い、Apple Pay設定でタッチ決済</li>
+<li>1ポイント=1円でカード支払いに充当、他社ポイント交換</li>
+</ul>
+
+<p><strong>💰 2026年の貯め方</strong>：最大の武器は<strong>対象コンビニ・飲食店での“スマホのタッチ決済”で最大7%還元（セブン-イレブンは最大10%）</strong>。2025年12月以降は<strong>スマホのタッチ決済・モバイルオーダーが対象</strong>で、カードを直接かざす・実カード提示は対象が縮小したので注意。</p>
+
+<div class="sd-campaign"><strong>🎁 Vポイント経済圏の入口＝Olive（三井住友）</strong>。登録時に<strong>紹介コード FF31794-9555509</strong> を入力すると被紹介者にも1,000円相当。<a href="https://www.smbc.co.jp/kojin/redirect/referral04/index.html" target="_blank" rel="sponsored noopener nofollow">紹介ページはこちら</a>。最大7%還元はOliveのクレジットモードと相性が良い。</div>
+</div>
+
+<div class="svc-deep">
+<h3><img class="sd-icon" src="/images/point-service-complete-guide-2026/screens/torima-icon.png" alt="トリマ" loading="lazy"> トリマ <span class="sd-tag">移動・歩数ポイ活</span></h3>
+
+<p>移動・歩数ポイ活の定番。<strong>生活を変えずに“ついで”で貯まる</strong>のが最大の魅力。通勤・通学が長い人ほど効く。</p>
+
+<div class="screen-strip">
+<figure><img src="/images/point-service-complete-guide-2026/screens/torima-1.png" alt="トリマのアプリ画面" loading="lazy"><figcaption>徒歩・電車・車などの移動距離が自動で「移動タンク」に貯まる（出典：App Store 公式スクリーンショット）</figcaption></figure>
+<figure><img src="/images/point-service-complete-guide-2026/screens/torima-2.png" alt="トリマのマイル・交換画面" loading="lazy"><figcaption>歩数・移動でマイルを獲得、各種ポイント・ギフトに交換できる（出典：App Store 公式スクリーンショット）</figcaption></figure>
+</div>
+
+<p><strong>📱 アプリでできること</strong></p>
+<ul class="sd-do">
+<li>徒歩・自転車・電車・車など<strong>あらゆる移動距離が自動でマイルに</strong>（歩数でも別途獲得）</li>
+<li>動画広告視聴で<strong>獲得マイル増量</strong>、アンケート・ミッション・ガチャ系でも上乗せ</li>
+<li>貯めたマイルは<strong>現金・PayPay・Amazonギフト・dポイント等20種以上</strong>に交換</li>
+</ul>
+
+<p><strong>💰 現実的な目安</strong>：レートは<strong>100マイル＝1円</strong>。一般的な生活で<strong>月1,000円分前後</strong>、通勤往復が長い人なら月1,500円前後が現実ライン。アプリを常時起動してタンクの取りこぼしを防ぐのが基本。</p>
+
+<div class="sd-campaign">交換時に手数料がかかる場合があるので、<strong>ドットマネー経由など手数料を抑えるルート</strong>を選ぶのがコツ。経済圏ポイント（楽天・d・PayPay）に集約すると使い道に困らない。新規登録時は<strong>招待コード入力で初回ボーナスマイル</strong>がもらえる（公式アプリ内で確認を）。</div>
+</div>
+
+<div class="svc-deep">
+<h3><img src="/images/point-service-complete-guide-2026/logos/moppy.png" class="sd-icon" alt="モッピー" loading="lazy"> モッピー <span class="sd-tag">ポイントサイト</span></h3>
+
+<p>会員1,400万人超の最大手ポイントサイト。<strong>“二重取り”の入口</strong>として、クレカ発行・口座開設などの高額案件で一気に稼げるのが他カテゴリと違うところ。</p>
+
+<div class="screen-strip">
+<figure><img src="/images/point-service-complete-guide-2026/screens/moppy-site.png" alt="モッピー公式サイトのトップ画面" loading="lazy"><figcaption>モッピー公式サイト。掲載広告の高還元と「STEP」で使い方を案内（出典：モッピー公式サイト pc.moppy.jp）</figcaption></figure>
+</div>
+
+<p><strong>📱 サービスでできること</strong></p>
+<ul class="sd-do">
+<li>いつものネットショップを<strong>モッピー経由</strong>で使うとポイント還元（=ポイントの二重取り）</li>
+<li><strong>クレカ発行・口座開設・保険相談などの高額案件</strong>（1件で数千〜1万円超も）</li>
+<li>アンケート・レシート投稿・モッピーガチャなど日常系のコツコツ稼ぎ</li>
+</ul>
+
+<p><strong>💰 稼ぎ方の要点</strong>：1ポイント＝1円。<strong>単発の高額案件で稼ぎ、手数料無料ルート（ドットマネー／PeX経由）で目減りを防ぐ</strong>のが定石。交換先は約67種類、現金は最低10,000Pだがドットマネー経由なら1,000Pから換金できる。</p>
+
+<div class="sd-campaign"><strong>🎁 これから始めるなら紹介リンク経由が断然お得</strong>。<a href="https://pc.moppy.jp/entry/invite.php?invite=kMwuA18a" target="_blank" rel="sponsored noopener nofollow">モッピー紹介リンク</a>経由で新規登録＋条件達成すると、通常に加えて“あなた（被紹介者）”にもボーナスポイント（入会の翌々月末までに5,000P以上獲得で2,000Pなど）。直リンクより紹介リンク経由が得。</div>
+</div>
+
+→ さらに深掘り: [ポイントサイト徹底比較 2026](/posts/pointsite-comparison-2026/) ／ [移動ポイ活アプリ徹底比較 2026](/posts/move-to-earn-poikatsu-apps-2026/) ／ [PayPay大改悪まとめ 2026年6月](/posts/paypay-2026-june-revision-guide/)
+
 ## 🛍️ 商品ジャンル別・効くポイント早見表 — 「何を買うとき、どれが一番得か」
 
 ポイントは「**買うモノのジャンル**」で正解の貯め方が変わる。同じ1万円でも、家電は5%超を狙えるのに、コンビニで漫然と払うと0.5%……みたいに**ジャンルごとに“勝ち筋”が違う**。アタシが普段ジャンル別にどう貯めているかを、まるっと早見表にした。**自分がよく買うジャンルの行だけ**見ればOK。
