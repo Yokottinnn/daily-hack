@@ -31,13 +31,22 @@ references: ["https://tokyo-hanabi-festival.com/", "https://koto-hanabi.com/", "
 
 <ul class="checklist">
 <li>
-<div class="checklist-body"><strong>① 東京湾大華火祭が11年ぶり復活（10/24・晴海沖、約12,000発）</strong>。ただし<strong>全席チケット制・当日券なし</strong>。区民優先枠あり。チケット発売は7月予定。</div>
+<div class="checklist-body">
+<strong>① 東京湾大華火祭が11年ぶりに復活（10/24・晴海沖）</strong>
+<p>約12,000発の尺玉が晴海の夜空を埋める。ただし今年から全席チケット制・当日券なしで、区民優先枠あり。チケット発売は7月予定。</p>
+</div>
 </li>
 <li>
-<div class="checklist-body"><strong>② 江東花火大会は8/11（火・祝）開催</strong>。荒川・砂町水辺公園で約6,000発。<strong>全席指定・場所取り不要</strong>で家族連れに優しい。</div>
+<div class="checklist-body">
+<strong>② 江東花火大会は8/11（火・祝）開催</strong>
+<p>荒川・砂町水辺公園で約6,000発。全席指定・場所取り不要で、家族連れにもやさしい。</p>
+</div>
 </li>
 <li>
-<div class="checklist-body"><strong>③ 2026は“本祭り当たり年”</strong>。佃の<strong>住吉神社例祭（8/6〜10）</strong>と<strong>深川八幡祭り（8/12〜16）</strong>が、どちらも3年に1度の本祭りで同月に重なる稀少年。</div>
+<div class="checklist-body">
+<strong>③ 2026は“本祭り当たり年”</strong>
+<p>佃の住吉神社例祭（8/6〜10）と深川八幡祭り（8/12〜16）が、どちらも3年に1度の本祭りで同じ8月に重なる稀少な年。</p>
+</div>
 </li>
 </ul>
 
