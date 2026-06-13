@@ -1,0 +1,17 @@
+{
+  "badge": "2026年版",
+  "kicker": "いくらから確定申告？",
+  "title1": "ポイ活の税金",
+  "title2_html": "<span class=\"mark\">線引き</span>を完全整理",
+  "subline": "非課税/課税・一時所得50万・住民税の落とし穴まで",
+  "character": "expr-09-arms-crossed.png",
+  "speech": "知らないと\n後で困るわよ",
+  "ranking": [
+    { "name": "通常の還元ポイント", "value": "非課税", "unit": "値引き相当（楽天/PayPay等）", "color": "#2DAF5F", "recommended": true, "ribbon": "★ まず安心" },
+    { "name": "懸賞・紹介・セルフバック", "value": "課税対象になりうる", "unit": "一時所得 or 雑所得", "color": "#DC2626" },
+    { "name": "一時所得", "value": "50万円まで控除", "unit": "超過分も課税は1/2", "color": "#1E6EC8" },
+    { "name": "給与所得者", "value": "20万円超で申告", "unit": "※住民税は別途必要", "color": "#E6912B" }
+  ],
+  "verdict_html": "結論：<b>通常還元は非課税</b>。線引きを知れば怖くない",
+  "handle": "@heng_ji31590"
+}
