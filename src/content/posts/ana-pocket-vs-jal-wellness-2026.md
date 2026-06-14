@@ -4,7 +4,7 @@ description: "ANA Pocketと JAL Wellness & Travel を1対1で徹底比較。移�
 publishDate: 2026-06-06
 updatedDate: 2026-06-06
 category: ["comparisons", "howto"]
-tags: ["ANA Pocket", "JAL Wellness Travel", "マイル", "ANAマイル", "JALマイル", "移動ポイ活", "歩いて貯まる", "ポイ活", "マイラー", "2026年最新版"]
+tags: ["ANA Pocket", "JAL Wellness Travel", "マイル", "ANAマイル", "JALマイル", "移動ポイ活", "歩いて貯まる", "ポイ活", "マイラー", "ahamo", "JALモバイル", "どこかにマイル", "2026年最新版"]
 isPR: false
 draft: false
 featured: true
@@ -38,7 +38,6 @@ references: ["https://www.anapocket.com/pro", "https://www.jal.co.jp/jp/ja/jmb/w
 | **クセ** | 2025年に獲得量の改定あり | 歩かない日はほぼ貯まらない |
 
 > 🎯 **一言でいうと**：**“移動量”で勝つANA、“歩数×健康”で勝つJAL**。貯まるマイルの多さだけならANA Pocket Proが優勢、でも「JALマイルが欲しい」「健康のために歩く習慣をマイルに変えたい」ならJAL。
-
 
 <!-- a8-banners auto-inserted by banner-fill (slot1-after-1st-h2) -->
 <div class="affiliate-block">
@@ -89,6 +88,20 @@ JALは**「1日の歩数チャレンジ」を達成してマイル＋くじ**を
 <p>JALは<strong>「どうせ運動するなら、その歩数をJALマイルに変えたい」人のためのアプリ</strong>。マイル効率“だけ”でANAと比べると見劣りするけど、健康習慣とのセットだと評価が変わる。逆に、あんまり歩かない人がマイル目的だけで課金すると赤字になりやすいから要注意。</p>
 </div>
 
+### 📱 おまけ：歩かなくてもJALマイルが貯まる「JALモバイル powered by ahamo」
+
+実は2026年6月、JALマイル民にちょっと気になる新サービスが発表されたよ。その名も**「JALモバイル powered by ahamo」**（提供開始は2026年6月25日）。ドコモのahamoとJALが組んだスマホプランで、**月2,970円・30GB**と通常のahamoと同じ料金のまま、JALマイルが貯まる特典が付くの。
+
+- **入会で**：新規1,000マイル／他社からの乗り換え（MNP）なら5,000マイル
+- **継続で**：毎月125マイル（＝年間で約1,500マイル）
+- **目玉特典**：通常7,000マイル必要な国内線特典往復航空券「どこかにマイル」が、**1,500マイルで交換可能**。JALが提示する**4つの行き先候補から選ぶ**形で、東京（羽田）・大阪・福岡・札幌発着のJALグループ国内線が対象（直行便）
+
+X上でも「**1年契約で貯まる1,500マイルで、4地域から選べる往復航空券がもらえるってこと？ 年に1回旅行行けるじゃん**」と話題になってた（@newbickle2023 さんの投稿より）。スマホ代を払うだけで年1回の国内旅行のチャンス、っていう発想は確かに面白いよね。
+
+<div class="hakkako-says">
+<img src="/images/expr-04-cheer.png" alt="ハッカー子" />
+<p>JAL Wellnessが「歩いてJALマイル」なら、こっちは<strong>「スマホ代を払うだけでJALマイル」</strong>。あんまり歩かない人でもJAL派なら選択肢になりうるよ。ただしこれは“マイルが貯まる比較アプリ”じゃなくて<strong>携帯回線そのものの乗り換え</strong>だから、今のスマホ料金・データ量と見比べて損しないかは要チェック。あくまで「ahamoに乗り換えてもいい人」へのおまけ特典くらいに考えるのが無難。仕様や料金は変わることがあるから、契約前に必ず最新の公式情報を確認してね。</p>
+</div>
 
 <!-- a8-banners auto-inserted by banner-fill (slot2-middle) -->
 <div class="affiliate-block">
@@ -156,7 +169,6 @@ JALは**「1日の歩数チャレンジ」を達成してマイル＋くじ**を
 </div>
 </li>
 </ul>
-
 
 <!-- a8-banners auto-inserted by banner-fill (slot3-before-tail) -->
 <div class="affiliate-block">
