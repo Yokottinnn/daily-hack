@@ -9,11 +9,36 @@
   "character": "expr-06-shock.png",
   "speech": "対策しないと\n地味に損するよ",
   "ranking": [
-    { "name": "ポイント払いの還元", "value": "0%", "unit": "付与あり → 対象外", "color": "#FF3B4E" },
-    { "name": "公共料金・税金", "value": "0.5%", "unit": "1.0% → 半減", "color": "#FF6470" },
-    { "name": "交通系ICチャージ", "value": "0%", "unit": "付与 → 廃止(17社)", "color": "#FF8A4E" },
-    { "name": "eKYC本人確認", "value": "必須", "unit": "任意 → 未完了は還元ゼロ", "color": "#FFC24D" },
-    { "name": "ゴールド +0.5%", "value": "廃止", "unit": "1.5% → 1.0%", "color": "#FF6470" }
+    {
+      "name": "ポイント払いの還元",
+      "value": "0%",
+      "unit": "付与あり → 対象外",
+      "color": "#FF3B4E"
+    },
+    {
+      "name": "公共料金・税金",
+      "value": "0.5%",
+      "unit": "1.0% → 半減",
+      "color": "#FF6470"
+    },
+    {
+      "name": "交通系ICチャージ",
+      "value": "0%",
+      "unit": "付与 → 廃止(17社)",
+      "color": "#FF8A4E"
+    },
+    {
+      "name": "eKYC本人確認",
+      "value": "必須",
+      "unit": "任意 → 未完了は還元ゼロ",
+      "color": "#FFC24D"
+    },
+    {
+      "name": "ゴールド +0.5%",
+      "value": "廃止",
+      "unit": "1.5% → 1.0%",
+      "color": "#FF6470"
+    }
   ],
   "verdict_html": "対策は <b>eKYC＋公共料金カード変更</b> の2手",
   "handle": "@heng_ji31590"

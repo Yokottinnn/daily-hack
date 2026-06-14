@@ -105,8 +105,127 @@ function buildVsHtml(d) {
   </body></html>`;
 }
 
+// 共通フォント＆ブランド部品（構図テンプレ間で再利用）
+const FF = `
+  @font-face { font-family:"RocknRoll One"; src:url("file://${FONTS}/rocknroll-one-japanese-400.woff2") format("woff2"); }
+  @font-face { font-family:"Zen Maru Gothic"; font-weight:400; src:url("file://${FONTS}/zen-maru-gothic-japanese-400.woff2") format("woff2"); }
+  @font-face { font-family:"Zen Maru Gothic"; font-weight:700; src:url("file://${FONTS}/zen-maru-gothic-japanese-700.woff2") format("woff2"); }
+  @font-face { font-family:"Zen Maru Gothic"; font-weight:900; src:url("file://${FONTS}/zen-maru-gothic-japanese-900.woff2") format("woff2"); }
+  @font-face { font-family:"Bebas Neue"; src:url("file://${FONTS}/bebas-neue-latin-400.woff2") format("woff2"); }
+  :root{ --magenta:#EC5C90; --magenta-strong:#D63E76; --magenta-deep:#A82959; --magenta-light:#FDE4EE; --magenta-faint:#FFF5F8; --cream-light:#FFFBEE; --ink:#2A1923; --ink-soft:#5A4651; --neon:#FFEC00; }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  html,body{width:1600px;height:900px;}
+  .dots{position:absolute;inset:0;background-image:radial-gradient(circle, rgba(214,62,118,.06) 1.6px, transparent 1.6px);background-size:30px 30px;}
+  .brand{display:inline-flex;align-items:center;gap:10px;background:#fff;border:2px solid var(--magenta-light);padding:9px 20px 9px 14px;border-radius:999px;box-shadow:0 8px 20px -10px rgba(214,62,118,.4);}
+  .brand .b-dot{width:18px;height:18px;border-radius:50%;background:var(--magenta-strong);}
+  .brand span{font-family:"RocknRoll One";font-size:23px;color:var(--ink);}
+  .badge{background:var(--magenta-strong);color:#fff;font-family:"RocknRoll One";font-size:22px;padding:10px 22px;border-radius:14px;transform:rotate(3deg);box-shadow:0 10px 22px -8px rgba(214,62,118,.55);}
+  .foot{display:flex;justify-content:space-between;align-items:center;background:linear-gradient(90deg,var(--magenta-strong),var(--magenta-deep));border-radius:16px;padding:14px 26px;}
+  .foot .verdict{color:#fff;font-weight:900;font-size:25px;} .foot .verdict b{color:var(--neon);}
+  .foot .handle{color:#FFD9E6;font-family:"Bebas Neue";font-size:24px;letter-spacing:.04em;}
+  .mark{position:relative;z-index:0;} .mark::after{content:"";position:absolute;left:-6px;right:-6px;bottom:7px;height:24px;background:var(--neon);z-index:-1;border-radius:4px;transform:rotate(-1deg);}
+`;
+
+// 【stat】ビッグナンバー型
+function buildStatHtml(d) {
+  const pts = (d.points || []).map(p => `<div class="sp"><span class="sp-k">${esc(p.k)}</span><span class="sp-v">${p.v_html || esc(p.v)}</span></div>`).join('');
+  return `<!doctype html><html><head><meta charset="utf-8"><style>${FF}
+  body{font-family:"Zen Maru Gothic",sans-serif;color:var(--ink);position:relative;overflow:hidden;background:radial-gradient(circle at 6% 4%,var(--magenta-light) 0%,transparent 36%),radial-gradient(circle at 96% 98%,var(--cream-light) 0%,transparent 42%),linear-gradient(135deg,var(--magenta-faint),#fff 55%,var(--cream-light));}
+  .stage{position:absolute;inset:0;padding:46px 56px 40px;display:flex;flex-direction:column;}
+  .head{display:flex;justify-content:space-between;align-items:flex-start;}
+  .body{flex:1;display:flex;gap:44px;align-items:center;}
+  .left{flex:1;display:flex;flex-direction:column;}
+  .kicker{color:var(--magenta-strong);font-weight:900;font-size:26px;}
+  h1{font-family:"RocknRoll One";line-height:1.12;font-size:58px;margin:4px 0 20px;}
+  .statbox{background:#fff;border:3px solid var(--magenta-light);border-radius:28px;padding:22px 40px 26px;box-shadow:0 18px 40px -20px rgba(214,62,118,.5);align-self:flex-start;}
+  .stat-label{font-size:23px;font-weight:900;color:var(--ink-soft);display:block;}
+  .stat-big{font-family:"RocknRoll One";font-size:118px;line-height:1.02;color:var(--magenta-strong);}
+  .stat-big small{font-size:48px;}
+  .right{width:440px;display:flex;flex-direction:column;gap:13px;}
+  .sp{background:#fff;border:2px solid var(--magenta-light);border-left:9px solid var(--magenta);border-radius:14px;padding:12px 18px;display:flex;flex-direction:column;box-shadow:0 10px 24px -16px rgba(120,30,60,.35);}
+  .sp-k{font-size:17px;font-weight:800;color:var(--ink-soft);} .sp-v{font-size:26px;font-weight:900;color:var(--ink);}
+  .charrow{display:flex;align-items:flex-end;gap:12px;margin-top:4px;}
+  .charrow .char{width:148px;height:148px;object-fit:contain;filter:drop-shadow(0 10px 16px rgba(120,30,60,.22));}
+  .charrow .speech{background:#fff;border:2px solid var(--magenta-light);border-radius:16px;padding:10px 14px;font-size:18px;font-weight:700;color:var(--magenta-deep);}
+  .foot{margin-top:14px;}
+  </style></head><body><div class="dots"></div><div class="stage">
+  <div class="head"><div class="brand"><span class="b-dot"></span><span>Daily Hack</span></div><div class="badge">${esc(d.badge)}</div></div>
+  <div class="body">
+    <div class="left"><div class="kicker">${esc(d.kicker)}</div><h1>${esc(d.title1)} ${d.title2_html || ''}</h1>
+      <div class="statbox"><span class="stat-label">${esc(d.stat.label)}</span><span class="stat-big">${d.stat.big_html || esc(d.stat.big)}</span></div></div>
+    <div class="right">${pts}
+      <div class="charrow"><img class="char" src="file://${charSrc(d.character)}"><div class="speech">${esc(d.speech)}</div></div></div>
+  </div>
+  <div class="foot"><div class="verdict">${d.verdict_html}</div><div class="handle">${esc(d.handle)}</div></div>
+  </div></body></html>`;
+}
+
+// 【timeline】年表型
+function buildTimelineHtml(d) {
+  const ev = (d.events || []).map(e => `<div class="tl-row"><div class="tl-date">${esc(e.date)}</div><div class="tl-dot" style="background:${e.color || '#D63E76'}"></div><div class="tl-card"><span class="tl-kind" style="background:${e.color || '#D63E76'}">${esc(e.kind)}</span><span class="tl-name">${esc(e.name)}</span></div></div>`).join('');
+  return `<!doctype html><html><head><meta charset="utf-8"><style>${FF}
+  body{font-family:"Zen Maru Gothic",sans-serif;color:var(--ink);position:relative;overflow:hidden;background:radial-gradient(circle at 4% 6%,var(--magenta-light) 0%,transparent 34%),linear-gradient(135deg,var(--magenta-faint),#fff 55%,var(--cream-light));}
+  .stage{position:absolute;inset:0;padding:46px 56px 40px;display:flex;flex-direction:column;}
+  .head{display:flex;justify-content:space-between;align-items:flex-start;}
+  .body{flex:1;display:flex;gap:34px;margin-top:12px;}
+  .left{width:540px;display:flex;flex-direction:column;}
+  .kicker{color:var(--magenta-strong);font-weight:900;font-size:26px;}
+  h1{font-family:"RocknRoll One";font-size:64px;line-height:1.12;margin:4px 0 14px;}
+  .subline{font-size:23px;font-weight:700;color:var(--ink-soft);}
+  .char-wrap{margin-top:auto;display:flex;align-items:flex-end;gap:12px;}
+  .char{width:238px;height:238px;object-fit:contain;filter:drop-shadow(0 12px 20px rgba(120,30,60,.25));}
+  .speech{background:#fff;border:2px solid var(--magenta-light);border-radius:18px;padding:12px 16px;font-size:19px;font-weight:700;color:var(--magenta-deep);margin-bottom:40px;}
+  .tl{flex:1;display:flex;flex-direction:column;justify-content:center;gap:11px;}
+  .tl-row{display:grid;grid-template-columns:118px 22px 1fr;align-items:center;gap:14px;}
+  .tl-date{font-family:"Bebas Neue";font-size:25px;color:var(--ink-soft);text-align:right;letter-spacing:.02em;}
+  .tl-dot{width:20px;height:20px;border-radius:50%;border:4px solid #fff;box-shadow:0 0 0 3px var(--magenta-light);justify-self:center;}
+  .tl-card{background:#fff;border:2px solid var(--magenta-light);border-radius:14px;padding:11px 18px;display:flex;align-items:center;gap:13px;box-shadow:0 10px 24px -16px rgba(120,30,60,.4);}
+  .tl-kind{color:#fff;font-weight:900;font-size:16px;padding:3px 12px;border-radius:999px;white-space:nowrap;}
+  .tl-name{font-weight:900;font-size:25px;color:var(--ink);}
+  .foot{margin-top:14px;}
+  </style></head><body><div class="dots"></div><div class="stage">
+  <div class="head"><div class="brand"><span class="b-dot"></span><span>Daily Hack</span></div><div class="badge">${esc(d.badge)}</div></div>
+  <div class="body">
+    <div class="left"><div class="kicker">${esc(d.kicker)}</div><h1>${esc(d.title1)}${d.title2_html || ''}</h1><div class="subline">${esc(d.subline)}</div>
+      <div class="char-wrap"><img class="char" src="file://${charSrc(d.character)}"><div class="speech">${esc(d.speech)}</div></div></div>
+    <div class="tl">${ev}</div>
+  </div>
+  <div class="foot"><div class="verdict">${d.verdict_html}</div><div class="handle">${esc(d.handle)}</div></div>
+  </div></body></html>`;
+}
+
+// 【feature】マガジン表紙型
+function buildFeatureHtml(d) {
+  const chips = (d.chips || []).map(c => `<span class="fchip">${esc(c)}</span>`).join('');
+  return `<!doctype html><html><head><meta charset="utf-8"><style>${FF}
+  body{font-family:"Zen Maru Gothic",sans-serif;color:var(--ink);position:relative;overflow:hidden;background:radial-gradient(circle at 88% 14%,var(--magenta-light) 0%,transparent 42%),radial-gradient(circle at 2% 98%,var(--cream-light) 0%,transparent 46%),linear-gradient(120deg,#fff,var(--magenta-faint));}
+  .stage{position:absolute;inset:0;padding:46px 56px 40px;}
+  .head{display:flex;justify-content:space-between;align-items:flex-start;}
+  .kicker{color:var(--magenta-strong);font-weight:900;font-size:30px;margin-top:26px;}
+  h1{font-family:"RocknRoll One";font-size:90px;line-height:1.1;margin:8px 0 20px;max-width:1000px;}
+  .fchips{display:flex;gap:12px;flex-wrap:wrap;max-width:980px;}
+  .fchip{background:#fff;border:2px solid var(--magenta-light);border-radius:999px;padding:9px 22px;font-size:23px;font-weight:900;color:var(--magenta-deep);box-shadow:0 8px 18px -10px rgba(214,62,118,.4);}
+  .subline{font-size:25px;font-weight:700;color:var(--ink-soft);margin-top:22px;max-width:880px;}
+  .char{position:absolute;right:46px;bottom:90px;width:400px;height:400px;object-fit:contain;filter:drop-shadow(0 16px 26px rgba(120,30,60,.28));}
+  .speech{position:absolute;right:300px;bottom:430px;background:#fff;border:2px solid var(--magenta-light);border-radius:18px;padding:11px 17px;font-size:20px;font-weight:800;color:var(--magenta-deep);box-shadow:0 10px 22px -12px rgba(214,62,118,.5);}
+  .foot{position:absolute;left:56px;right:56px;bottom:40px;}
+  </style></head><body><div class="dots"></div><div class="stage">
+  <div class="head"><div class="brand"><span class="b-dot"></span><span>Daily Hack</span></div><div class="badge">${esc(d.badge)}</div></div>
+  <div class="kicker">${esc(d.kicker)}</div>
+  <h1>${esc(d.title1)}${d.title2_html || ''}</h1>
+  <div class="fchips">${chips}</div>
+  <div class="subline">${esc(d.subline)}</div>
+  <img class="char" src="file://${charSrc(d.character)}">
+  <div class="speech">${esc(d.speech)}</div>
+  <div class="foot"><div class="verdict">${d.verdict_html}</div><div class="handle">${esc(d.handle)}</div></div>
+  </div></body></html>`;
+}
+
 function buildHtml(d) {
   if (d.layout === 'vs') return buildVsHtml(d);
+  if (d.layout === 'stat') return buildStatHtml(d);
+  if (d.layout === 'timeline') return buildTimelineHtml(d);
+  if (d.layout === 'feature') return buildFeatureHtml(d);
   const cards = d.ranking.map((r, i) => {
     const rec = r.recommended;
     return `
