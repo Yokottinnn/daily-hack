@@ -1,17 +1,13 @@
 {
+  "layout": "feature",
   "badge": "2026年版",
   "kicker": "中央区・江東区・港区",
-  "title1": "湾岸×お金",
-  "title2_html": "<span class=\"mark\">得する制度</span>を全比較",
-  "subline": "子育て・給食費・商品券・補助を住民目線で徹底比較",
+  "title1": "湾岸×お金 ",
+  "title2_html": "<span class=\"mark\">得する制度</span>",
+  "subline": "子育て・給食費・商品券・補助を住民目線で全比較",
+  "chips": ["給食費 完全無償化", "出産費用助成 最大31万円", "商品券 還元率25%", "コミュニティバス 100円"],
   "character": "expr-05-smug.png",
   "speech": "知らないと\n損するわよ",
-  "ranking": [
-    { "name": "給食費（中央区・江東区）", "value": "小中とも完全無償化", "unit": "中央区は米も現物支給", "color": "#2DAF5F", "recommended": true, "ribbon": "★ 住民の特権" },
-    { "name": "出産費用助成（港区）", "value": "最大31万円級", "unit": "所得制限なし／1年在住要件", "color": "#1E6EC8" },
-    { "name": "プレミアム商品券（中央区）", "value": "還元率25%", "unit": "1万円→12,500円分", "color": "#D63E76" },
-    { "name": "コミュニティバス", "value": "一律100円", "unit": "妊婦・乳幼児・高齢者は無料", "color": "#E6912B" }
-  ],
-  "verdict_html": "結論：<b>医療費は3区横並び</b>。差がつくのは“出産・給食・商品券”",
+  "verdict_html": "結論：医療費は3区横並び。差は“出産・給食・商品券”",
   "handle": "@heng_ji31590"
 }

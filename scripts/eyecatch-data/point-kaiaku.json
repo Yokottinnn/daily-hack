@@ -1,0 +1,20 @@
+{
+  "layout": "timeline",
+  "badge": "常時更新",
+  "kicker": "いつ何が変わった？",
+  "title1": "ポイント改悪・改良 ",
+  "title2_html": "<span class=\"mark\">年表</span>",
+  "subline": "PayPay・d・楽天・Vポイントの変更を時系列で",
+  "character": "expr-06-shock.png",
+  "speech": "黙って\n渋くなるわよ",
+  "events": [
+    { "date": "2024.04", "name": "Vポイント統合", "kind": "改良", "color": "#2DAF5F" },
+    { "date": "2025.12", "name": "三井住友7%還元 縮小", "kind": "改悪", "color": "#DC2626" },
+    { "date": "2026.02", "name": "dカード公共料金 半減", "kind": "改悪", "color": "#DC2626" },
+    { "date": "2026.02", "name": "預金金利UP（金利復活）", "kind": "改良", "color": "#2DAF5F" },
+    { "date": "2026.04", "name": "ドコモ ポイ活MAX 終了", "kind": "改悪", "color": "#DC2626" },
+    { "date": "2026.06", "name": "PayPay 大改悪", "kind": "改悪", "color": "#DC2626" }
+  ],
+  "verdict_html": "結論：<b>公共料金0.5%が標準化</b>。年1回は決済を点検せよ",
+  "handle": "@heng_ji31590"
+}
