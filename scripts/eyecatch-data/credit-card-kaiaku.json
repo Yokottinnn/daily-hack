@@ -1,0 +1,45 @@
+{
+  "theme": "alert",
+  "badge": "2026年 続々施行",
+  "kicker": "⚠ クレカ大改悪",
+  "title1": "そのカード",
+  "title1_size": 78,
+  "title2_html": "まだ<span class=\"mark\">得してる</span>？",
+  "subline": "三井住友・dカード・PayPay・エポス — 何が変わった？",
+  "character": "expr-09-arms-crossed.png",
+  "speech": "気づかず\n使うと損よ",
+  "ranking": [
+    {
+      "name": "dカード 公共料金",
+      "value": "0.5%",
+      "unit": "1.0% → 半減（2月）",
+      "color": "#FF3B4E"
+    },
+    {
+      "name": "三井住友 現物タッチ",
+      "value": "1.5%",
+      "unit": "5% → スマホは7%維持",
+      "color": "#FF6470"
+    },
+    {
+      "name": "三井住友 100万円判定",
+      "value": "対象外",
+      "unit": "au PAY等チャージ除外（3月）",
+      "color": "#FF8A4E"
+    },
+    {
+      "name": "エポス チャージ加算",
+      "value": "終了",
+      "unit": "各種ペイ → 8月で停止",
+      "color": "#FFA24D"
+    },
+    {
+      "name": "楽天ペイ 引き下げ",
+      "value": "見合わせ",
+      "unit": "1.5%維持＝朗報",
+      "color": "#2DAF5F"
+    }
+  ],
+  "verdict_html": "対策は <b>素の高還元カードへ一本化</b> が正解",
+  "handle": "@heng_ji31590"
+}
