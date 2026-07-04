@@ -1,0 +1,32 @@
+{
+  "layout": "vs",
+  "badge": "2026年8月 改正",
+  "kicker": "高額療養費UP、医療保険は本当に要る？",
+  "title_html": "医療保険 <span style=\"color:#A82959\">vs</span> 貯蓄",
+  "character": "expr-09-arms-crossed.png",
+  "speech": "数字で\n決めなさい",
+  "left": {
+    "name": "保険で備える",
+    "color": "#2C7BE5",
+    "tag": "こんな人向き",
+    "stats": [
+      { "label": "貯蓄", "value": "薄い（立替が厳しい）" },
+      { "label": "働き方", "value": "自営業＝傷病手当なし" },
+      { "label": "不安", "value": "先進医療・収入減" },
+      { "label": "入り方", "value": "掛け捨ての最小限で" }
+    ]
+  },
+  "right": {
+    "name": "貯蓄で足りる",
+    "color": "#2EA552",
+    "tag": "保険は最小 or 不要",
+    "stats": [
+      { "label": "貯蓄", "value": "生活防衛資金＋50万" },
+      { "label": "働き方", "value": "会社員＝傷病手当金あり" },
+      { "label": "上限", "value": "高額療養費で読める" },
+      { "label": "浮いた分", "value": "NISAで運用" }
+    ]
+  },
+  "verdict_html": "貯蓄＋会社員保障が厚い人は <b>保険は最小でOK</b>",
+  "handle": "@heng_ji31590"
+}
