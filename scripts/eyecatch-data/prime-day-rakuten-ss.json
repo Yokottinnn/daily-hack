@@ -1,0 +1,32 @@
+{
+  "layout": "vs",
+  "badge": "2026 夏の2大セール",
+  "kicker": "今すぐ買う？ 9月まで待つ？",
+  "title_html": "Prime Day <span style=\"color:#A82959\">vs</span> 楽天SS",
+  "character": "expr-05-smug.png",
+  "speech": "買い時 分けて\n二重取りよ",
+  "left": {
+    "name": "Amazonプライムデー",
+    "color": "#E67A00",
+    "tag": "7/10-13",
+    "stats": [
+      { "label": "期間", "value": "7月10日〜13日" },
+      { "label": "会員", "value": "プライム限定（無料体験可）" },
+      { "label": "強い物", "value": "家電・ガジェット・日用品" },
+      { "label": "買い方", "value": "単品が“スポット激安”" }
+    ]
+  },
+  "right": {
+    "name": "楽天スーパーSALE",
+    "color": "#BF0000",
+    "tag": "9月 見込み",
+    "stats": [
+      { "label": "期間", "value": "9月上旬 見込み" },
+      { "label": "会員", "value": "誰でもOK" },
+      { "label": "強い物", "value": "高額家電・ふるさと納税" },
+      { "label": "買い方", "value": "買い回り×SPUで倍率" }
+    ]
+  },
+  "verdict_html": "単品が安い→<b>Prime Day</b> ／ 高額×ポイント→<b>楽天SS</b>",
+  "handle": "@heng_ji31590"
+}

@@ -1,0 +1,44 @@
+{
+  "badge": "2026年12月 改正",
+  "kicker": "iDeCoの上限が 最大2.7倍に",
+  "title1": "iDeCoが",
+  "title1_size": 84,
+  "title2_html": "<span class=\"mark\">パワーアップ</span>",
+  "subline": "拠出上限UP＋70歳まで加入。増えた節税を実質時給で見る",
+  "character": "expr-05-smug.png",
+  "speech": "枠は使い\n切りな",
+  "ranking": [
+    {
+      "name": "会社員（企業年金なし）",
+      "value": "6.2万",
+      "unit": "月2.3万 → 約2.7倍",
+      "color": "#2DAF5F"
+    },
+    {
+      "name": "自営業（第1号）",
+      "value": "7.5万",
+      "unit": "月6.8万 → 引き上げ",
+      "color": "#2DAF5F"
+    },
+    {
+      "name": "加入できる年齢",
+      "value": "70歳未満",
+      "unit": "65歳未満 → 拡大",
+      "color": "#1E9E7A"
+    },
+    {
+      "name": "施行",
+      "value": "12月〜",
+      "unit": "2026年12月拠出分から",
+      "color": "#F5A623"
+    },
+    {
+      "name": "出口の注意",
+      "value": "受取設計",
+      "unit": "退職所得控除の受給間隔に注意",
+      "color": "#E67A00"
+    }
+  ],
+  "verdict_html": "入口は大改善。<b>出口の受け取り方</b>まで設計せよ",
+  "handle": "@heng_ji31590"
+}

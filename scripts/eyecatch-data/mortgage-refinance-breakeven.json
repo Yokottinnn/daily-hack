@@ -1,0 +1,13 @@
+{
+  "layout": "feature",
+  "badge": "2026 金利のある世界",
+  "kicker": "利上げで迷う前に、計算1本",
+  "title1": "住宅ローンの ",
+  "title2_html": "<span class=\"mark\">借り換え</span>判定",
+  "subline": "回収月数＝諸費用÷月々の軽減額 で機械的に決める",
+  "chips": ["日銀1.0%＝31年ぶり高水準", "変動 10月+0.25%見込み", "金利差0.3%〜が目安"],
+  "character": "expr-05-smug.png",
+  "speech": "回収月数\n出しな",
+  "verdict_html": "回収 << 残り返済期間 なら <b>借り換えが得</b>",
+  "handle": "@heng_ji31590"
+}

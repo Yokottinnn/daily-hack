@@ -1,0 +1,45 @@
+{
+  "theme": "alert",
+  "badge": "9/30 実質リミット",
+  "kicker": "⚠ ふるさと納税 改正",
+  "title1": "駆け込みは",
+  "title1_size": 82,
+  "title2_html": "<span class=\"mark\">9月末</span>まで",
+  "subline": "2026年10月から地場産品基準が厳格化 — 消える返礼品に注意",
+  "character": "expr-09-arms-crossed.png",
+  "speech": "狙う品は\n9月に確保",
+  "ranking": [
+    {
+      "name": "加工品・工業製品",
+      "value": "消える恐れ",
+      "unit": "付加価値の過半が域内の証明が必要",
+      "color": "#FF3B4E"
+    },
+    {
+      "name": "自治体ロゴ雑貨",
+      "value": "締め出し",
+      "unit": "配布・販売実績の数量まで",
+      "color": "#FF6470"
+    },
+    {
+      "name": "米・肉・海鮮・果物",
+      "value": "影響 小",
+      "unit": "王道は年末でOK",
+      "color": "#2DAF5F"
+    },
+    {
+      "name": "控除の仕組み",
+      "value": "不変",
+      "unit": "自己負担2,000円は同じ",
+      "color": "#FF8A4E"
+    },
+    {
+      "name": "上限の目安",
+      "value": "90-95%",
+      "unit": "見込み年収で安全設計",
+      "color": "#FFA24D"
+    }
+  ],
+  "verdict_html": "狙う加工品は <b>9月30日まで</b> に確保せよ",
+  "handle": "@heng_ji31590"
+}

@@ -1,0 +1,13 @@
+{
+  "layout": "feature",
+  "badge": "2026 交換ルート再編",
+  "kicker": "貯めても“出せなきゃ”ゼロ",
+  "title1": "ポイント交換の ",
+  "title2_html": "<span class=\"mark\">大崩壊</span>",
+  "subline": "ドットマネー停止・直交換終了…出口を二重化せよ",
+  "chips": ["ドットマネー停止中", "ハピタス直交換 終了", "PeX併用で回避"],
+  "character": "expr-06-shock.png",
+  "speech": "出口で詰むと\n全部パー",
+  "verdict_html": "ハブは二本立て＝<b>ドットマネー＋PeX</b>",
+  "handle": "@heng_ji31590"
+}
