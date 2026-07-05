@@ -157,9 +157,9 @@ references:
 ## 区民が受けられる「3つの恩恵」
 
 <ul class="checklist">
-  <li><strong>5,000円割引</strong>：中央区・港区（＋一部江東区）民は、該当区の会場を割引価格で申込可能（観覧料は会場・席種で5,000〜10,000円）</li>
-  <li><strong>先行抽選</strong>：一般先着(9/9)より前に、区民優先A(7/6〜)・S/SS(7/27〜)で申し込める＝人気の特等席を先に狙える</li>
-  <li><strong>座席数の厚み</strong>：港区側 約39,000席、中央区・晴海側 約42,000人規模の区民優先枠が用意されている</li>
+  <li><div class="checklist-body"><strong>① 5,000円割引</strong><p>中央区・港区（＋一部江東区）民は、該当区の会場を割引価格で申込可能（観覧料は会場・席種で5,000〜10,000円）。</p></div></li>
+  <li><div class="checklist-body"><strong>② 先行抽選</strong><p>一般先着(9/9)より前に、区民優先A(7/6〜)・S/SS(7/27〜)で申し込める＝人気の特等席を先に狙える。</p></div></li>
+  <li><div class="checklist-body"><strong>③ 座席数の厚み</strong><p>港区側 約39,000席、中央区・晴海側 約42,000人規模の区民優先枠が用意されている。</p></div></li>
 </ul>
 
 <div class="hakkako-says">
