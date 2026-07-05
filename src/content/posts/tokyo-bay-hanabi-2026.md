@@ -93,39 +93,104 @@ references:
   <h2>🗺️ 中央区民・港区民の「恩恵マップ」</h2>
 </div>
 
-打上げは**晴海ふ頭沖**。それを囲むように、**中央区側（晴海・豊海）**と**港区側（竹芝・日の出・芝浦・お台場）**に観覧会場が配置されてる。あなたの区の会場なら、**5,000円割引＋先行抽選**で狙えるの。一目で分かるようにマップにしたわ。
+打上げは**晴海ふ頭沖**。それを囲むように、**中央区側（晴海・豊海）**と**港区側（竹芝・日の出・芝浦・お台場）**に観覧会場が配置されてる。あなたの区の会場なら、**5,000円割引＋先行抽選**で狙えるの。まずは**地図で位置**を、そのあと**ランク・割引の早見表**で確認して。
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<div id="hanabi-geomap"></div>
+<div class="geomap-legend">
+  <span><i style="background:#E24AA0"></i>🟣 中央区（晴海・豊海）＝中央区民割引</span>
+  <span><i style="background:#4A9BE2"></i>🔵 港区（港・台場）＝港区民割引</span>
+  <span><i style="background:#9AA0AE"></i>⚪ 江東区（豊洲・有明）＝主に一般</span>
+  <span><i style="background:#FFC400"></i>🎆 花火打上場所（東京湾上）</span>
+</div>
+<p class="geomap-note">数字は公式「観覧エリアマップ」の会場番号（①〜㉑）。ピン位置は各会場の<strong>おおよその位置</strong>で、正確な会場範囲・入場口・席種は<a href="https://tokyo-hanabi-festival.com/pdf/area-map.pdf" target="_blank" rel="noopener nofollow">公式の観覧エリアマップ(PDF)</a>で必ず確認してください。地図タイル © OpenStreetMap contributors。</p>
+
+<style>
+#hanabi-geomap{height:460px;border-radius:16px;overflow:hidden;margin:18px 0 10px;border:2px solid var(--pink-300,#eaa6c6);z-index:0}
+.geomap-legend{display:flex;flex-wrap:wrap;gap:8px 16px;margin:6px 0 4px;font-size:12.5px;font-weight:700;color:var(--ink,#2a1a22)}
+.geomap-legend i{display:inline-block;width:13px;height:13px;border-radius:50%;margin-right:6px;vertical-align:-2px;border:2px solid #fff;box-shadow:0 0 0 1px #ccc}
+.geomap-note{font-size:11.5px;color:var(--ink-2,#5a4650);line-height:1.6;margin:2px 0 8px}
+#hanabi-geomap .hm-pin{background:transparent;border:0}
+#hanabi-geomap .hm-pin span{display:flex;align-items:center;justify-content:center;width:24px;height:24px;border-radius:50%;color:#fff;font-weight:800;font-size:12px;border:2px solid #fff;box-shadow:0 1px 4px rgba(0,0,0,.4)}
+</style>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+(function(){
+  function init(){
+    if(typeof L==='undefined'){setTimeout(init,150);return;}
+    var el=document.getElementById('hanabi-geomap'); if(!el||el._init)return; el._init=1;
+    var map=L.map('hanabi-geomap',{scrollWheelZoom:false}).setView([35.640,139.782],13);
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:18,attribution:'© OpenStreetMap'}).addTo(map);
+    var C='#E24AA0',M='#4A9BE2',K='#9AA0AE';
+    // [番号, 名称, 席種, 区民割引, lat, lng, 色]
+    var V=[
+      ['①','晴海ふ頭公園（椅子）','S/SS','中央区民割引',35.6432,139.7892,C],
+      ['②','晴海ふ頭公園（芝生）','S/SS','中央区民割引',35.6438,139.7885,C],
+      ['③','晴海客船ターミナル①','S/SS','中央区民割引',35.6451,139.7879,C],
+      ['④','晴海客船ターミナル②','S/SS','中央区民割引',35.6446,139.7873,C],
+      ['⑤','晴海客船ターミナル③','A','中央区民割引',35.6461,139.7867,C],
+      ['⑥','晴海緑道公園','A','中央区民割引',35.6507,139.7800,C],
+      ['⑦','晴海臨海公園','A','中央区民割引',35.6547,139.7860,C],
+      ['⑧','豊海運動公園','A','中央区民割引',35.6540,139.7770,C],
+      ['⑨','竹芝客船ターミナル','A','港区民割引',35.6541,139.7627,M],
+      ['⑩','日の出ふ頭','S/SS','港区民割引',35.6385,139.7610,M],
+      ['⑪','芝浦ふ頭','S/SS','港区民割引',35.6335,139.7568,M],
+      ['⑫','芝浦南ふ頭公園','S/SS','港区民割引',35.6250,139.7530,M],
+      ['⑬','お台場海浜公園','A','港区民割引',35.6297,139.7736,M],
+      ['⑭','豊洲公園（芝生）','A','江東区一部割引',35.6534,139.7931,K],
+      ['⑮','豊洲公園（椅子）','一般','—',35.6540,139.7938,K],
+      ['⑯','豊洲ぐるり公園①','一般','—',35.6498,139.7952,K],
+      ['⑰','豊洲ぐるり公園②（椅子）','一般','—',35.6455,139.7955,K],
+      ['⑱','豊洲ぐるり公園②（芝生）','一般','—',35.6440,139.7948,K],
+      ['⑲','有明親水海浜公園','一般','—',35.6409,139.7886,K],
+      ['⑳','有明北緑道公園（芝生）','一般','—',35.6360,139.7810,K],
+      ['㉑','有明北緑道公園（椅子）','一般','—',35.6353,139.7804,K]
+    ];
+    var g=[];
+    L.marker([35.6330,139.7770],{icon:L.divIcon({className:'hm-pin',html:'<span style="background:#FFC400;color:#3a2a00;width:30px;height:30px;font-size:16px">🎆</span>',iconSize:[30,30],iconAnchor:[15,15]})}).addTo(map).bindPopup('<b>🎆 花火打上場所</b><br>東京湾上（各会場に囲まれた海上）');
+    g.push([35.6330,139.7770]);
+    V.forEach(function(x){
+      var sub=(x[3]==='—')?'':'<br>'+x[3];
+      L.marker([x[4],x[5]],{icon:L.divIcon({className:'hm-pin',html:'<span style="background:'+x[6]+'">'+x[0]+'</span>',iconSize:[24,24],iconAnchor:[12,12]})}).addTo(map).bindPopup('<b>'+x[0]+' '+x[1]+'</b><br>席種：'+x[2]+sub);
+      g.push([x[4],x[5]]);
+    });
+    map.fitBounds(g,{padding:[35,35]});
+  }
+  init();
+})();
+</script>
 
 <div class="hanabi-map">
   <div class="hm-col hm-chuo">
-    <div class="hm-col-head">🟣 中央区民の会場<span>（中央区民が5,000円割引＋先行抽選）</span></div>
-    <div class="hm-venue"><span class="hm-rank ss">S/SS</span>晴海ふ頭公園（椅子・芝生）<em>特等・打上げ正面</em></div>
-    <div class="hm-venue"><span class="hm-rank ss">S/SS</span>晴海客船ターミナル ①②</div>
-    <div class="hm-venue"><span class="hm-rank a">A</span>晴海客船ターミナル ③</div>
-    <div class="hm-venue"><span class="hm-rank a">A</span>晴海緑道公園</div>
-    <div class="hm-venue"><span class="hm-rank a">A</span>晴海臨海公園</div>
-    <div class="hm-venue"><span class="hm-rank a">A</span>豊海運動公園</div>
+    <div class="hm-col-head">🟣 中央区の会場（晴海・豊海）<span>中央区民が5,000円割引＋先行抽選／地図の🟣ピン</span></div>
+    <div class="hm-venue"><span class="hm-rank ss">S/SS</span>晴海ふ頭公園（椅子・芝生）<em>地図 ①②／打上げ正面クラス</em></div>
+    <div class="hm-venue"><span class="hm-rank ss">S/SS</span>晴海客船ターミナル ①②<em>地図 ③④</em></div>
+    <div class="hm-venue"><span class="hm-rank a">A</span>晴海客船ターミナル ③<em>地図 ⑤</em></div>
+    <div class="hm-venue"><span class="hm-rank a">A</span>晴海緑道公園<em>地図 ⑥</em></div>
+    <div class="hm-venue"><span class="hm-rank a">A</span>晴海臨海公園<em>地図 ⑦</em></div>
+    <div class="hm-venue"><span class="hm-rank a">A</span>豊海運動公園<em>地図 ⑧</em></div>
   </div>
   <div class="hm-bay">
     <div class="hm-bay-fire">🎆</div>
     <div class="hm-bay-label">東京湾<br><small>打上げ：晴海ふ頭沖</small></div>
   </div>
   <div class="hm-col hm-minato">
-    <div class="hm-col-head">🔵 港区民の会場<span>（港区民が5,000円割引＋先行抽選）</span></div>
-    <div class="hm-venue"><span class="hm-rank ss">S/SS</span>日の出ふ頭<em>特等</em></div>
-    <div class="hm-venue"><span class="hm-rank ss">S/SS</span>芝浦ふ頭</div>
-    <div class="hm-venue"><span class="hm-rank ss">S/SS</span>芝浦南ふ頭公園</div>
-    <div class="hm-venue"><span class="hm-rank a">A</span>竹芝客船ターミナル</div>
-    <div class="hm-venue"><span class="hm-rank a">A</span>お台場海浜公園</div>
+    <div class="hm-col-head">🔵 港区の会場（港・台場）<span>港区民が5,000円割引＋先行抽選／地図の🔵ピン</span></div>
+    <div class="hm-venue"><span class="hm-rank ss">S/SS</span>日の出ふ頭<em>地図 ⑩／打上げ正面クラス</em></div>
+    <div class="hm-venue"><span class="hm-rank ss">S/SS</span>芝浦ふ頭<em>地図 ⑪</em></div>
+    <div class="hm-venue"><span class="hm-rank ss">S/SS</span>芝浦南ふ頭公園<em>地図 ⑫</em></div>
+    <div class="hm-venue"><span class="hm-rank a">A</span>竹芝客船ターミナル<em>地図 ⑨</em></div>
+    <div class="hm-venue"><span class="hm-rank a">A</span>お台場海浜公園<em>地図 ⑬</em></div>
   </div>
   <div class="hm-general">
-    <div class="hm-col-head">⚪ 一般席（誰でも／9月9日先着）<span>豊洲・有明エリア＝主に江東区側</span></div>
+    <div class="hm-col-head">⚪ 一般席（誰でも／9月9日先着）<span>豊洲・有明エリア＝打上げの東側・主に江東区側</span></div>
     <div class="hm-gen-row">
-      <span class="hm-gtag">豊洲公園（椅子）</span>
-      <span class="hm-gtag">豊洲ぐるり公園 ①②</span>
-      <span class="hm-gtag">有明親水海浜公園</span>
-      <span class="hm-gtag">有明北緑道公園</span>
+      <span class="hm-gtag">豊洲公園（椅子）地図⑮</span>
+      <span class="hm-gtag">豊洲ぐるり公園 ①②地図⑯⑰⑱</span>
+      <span class="hm-gtag">有明親水海浜公園 地図⑲</span>
+      <span class="hm-gtag">有明北緑道公園 地図⑳㉑</span>
     </div>
-    <p class="hm-note">※豊洲公園（芝生）は区民優先A対象。江東区の一部会場も区民割引の対象になる場合あり。最新の対象条件は公式で確認を。</p>
+    <p class="hm-note">※豊洲公園（芝生・地図⑭）は区民優先A対象。江東区の一部会場も区民割引の対象になる場合あり。最新の対象条件・正確な会場範囲は公式の観覧エリアマップ(PDF)で確認を。</p>
   </div>
 </div>
 
@@ -152,7 +217,7 @@ references:
 @media(max-width:640px){.hanabi-map{grid-template-columns:1fr}.hanabi-map .hm-bay{order:-1;flex-direction:row;gap:10px;min-width:0}}
 </style>
 
-**マップの読み方**：黄色い「S/SS」ほど打上げに近い特等席、緑の「A」が標準席。**中央区民は🟣中央区側、港区民は🔵港区側の会場**を、5,000円割引＋先行抽選で申し込める。晴海ふ頭公園と日の出ふ頭が“打上げ正面クラス”の争奪戦になるはずよ。
+**マップの読み方**：上の地図のピン番号（①〜㉑）が、下の早見表の「地図◯」と対応してる。黄色い「S/SS」ほど打上げに近い特等席、緑の「A」が標準席。**中央区民は🟣中央区（晴海・豊海）、港区民は🔵港区（港・台場）の会場**を5,000円割引＋先行抽選で申し込める。海に一番近い**晴海ふ頭公園（①②）・日の出ふ頭（⑩）**が“打上げ正面クラス”の争奪戦になるはずよ。
 
 ## 区民が受けられる「3つの恩恵」
 
