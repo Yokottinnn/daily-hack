@@ -8,7 +8,7 @@ isPR: true
 draft: false
 featured: true
 eyecatchUrl: "/images/furusato-tax-2026-reform-guide/eyecatch.jpg"
-eyecatchAlt: "ふるさと納税2026年10月改正の駆け込みガイド — 消える返礼品と9月30日までのやることリスト"
+eyecatchAlt: "ふるさと納税の人気返礼品（米・和牛・海鮮）の写真と、2026年10月改正・駆け込みは9月末までを伝える表紙画像"
 author: "hacker-ko"
 source_candidate_id: "C061"
 references:
@@ -103,6 +103,95 @@ references:
 </div>
 
 <div class="section-with-mascot">
+  <div class="mascot-wrap"><img src="/images/expr-04-cheer.png" alt="" /></div>
+  <h2>🧮 控除上限シミュレータ（年収×家族構成でざっくり）</h2>
+</div>
+
+楽天・さとふる・ふるなびの「かんたんシミュレーション」と同じ考え方で、**年収と家族構成から「自己負担2,000円で寄付できる上限額」の目安**を出すツールを置いておくわ。まず自分の枠を掴んでから、上の駆け込み判断に戻ってきなさい。
+
+<div class="fs-sim">
+  <div class="fs-row">
+    <label for="fs-income">給与収入（年収・税込）</label>
+    <div class="fs-inputwrap"><input type="number" id="fs-income" value="500" min="0" max="30000" step="10" inputmode="numeric"><span>万円</span></div>
+  </div>
+  <div class="fs-row">
+    <label for="fs-family">家族構成</label>
+    <select id="fs-family">
+      <option value="0,0">独身 または 共働き（配偶者控除なし）</option>
+      <option value="1,0">夫婦（配偶者に収入なし＝配偶者控除あり）</option>
+      <option value="0,1">共働き＋子1人（16歳以上）</option>
+      <option value="1,1">夫婦＋子1人（16歳以上）</option>
+      <option value="0,2">共働き＋子2人（16歳以上）</option>
+      <option value="1,2">夫婦＋子2人（16歳以上）</option>
+    </select>
+  </div>
+  <button id="fs-btn" type="button">上限額を計算する</button>
+  <div class="fs-result">
+    <span class="fs-cap">自己負担2,000円で寄付できる上限の目安</span>
+    <span class="fs-amount" id="fs-amount" aria-live="polite">—</span>
+    <span class="fs-sub" id="fs-sub"></span>
+  </div>
+  <p class="fs-note">※給与収入・社会保険料（年収の約15%と概算）・基礎控除等をもとにした<strong>目安</strong>。医療費控除・住宅ローン控除・iDeCo（小規模企業共済等掛金控除）などがある人は上限が下がります。16歳未満の子は扶養控除の対象外（児童手当の対象）のため計算に含めていません。正確な額は寄付前に各ポータルの詳細シミュレーションで必ず確認を。</p>
+</div>
+
+<style>
+.fs-sim{background:linear-gradient(135deg,#FFF3F7,#fff 70%);border:2px solid var(--pink-300,#f2a9c4);border-radius:18px;padding:22px 22px 18px;margin:24px 0;box-shadow:0 14px 34px -20px rgba(214,62,118,.5)}
+.fs-sim .fs-row{display:flex;align-items:center;gap:14px;margin:0 0 14px;flex-wrap:wrap}
+.fs-sim label{flex:0 0 170px;font-weight:800;color:var(--ink,#2a1a22);font-size:15px}
+.fs-sim .fs-inputwrap{display:flex;align-items:center;gap:8px}
+.fs-sim input[type=number]{width:150px;font-size:20px;font-weight:800;padding:9px 12px;border:2px solid var(--pink-300,#f2a9c4);border-radius:10px;text-align:right;color:var(--ink,#2a1a22)}
+.fs-sim .fs-inputwrap span{font-weight:800;color:var(--ink-2,#5a4650)}
+.fs-sim select{flex:1;min-width:220px;font-size:15px;font-weight:700;padding:10px 12px;border:2px solid var(--pink-300,#f2a9c4);border-radius:10px;background:#fff;color:var(--ink,#2a1a22)}
+.fs-sim #fs-btn{width:100%;background:var(--pink-500,#d63e76);color:#fff;font-weight:800;font-size:16px;border:0;border-radius:999px;padding:14px;cursor:pointer;box-shadow:0 10px 22px -10px rgba(214,62,118,.6);margin:4px 0 6px}
+.fs-sim #fs-btn:hover{background:var(--pink-600,#bb2f61)}
+.fs-sim .fs-result{display:flex;flex-direction:column;align-items:center;text-align:center;background:#fff;border:2px dashed var(--pink-300,#f2a9c4);border-radius:14px;padding:16px;margin:10px 0 6px}
+.fs-sim .fs-cap{font-size:13px;font-weight:700;color:var(--ink-2,#5a4650)}
+.fs-sim .fs-amount{font-family:"Bebas Neue","RocknRoll One",sans-serif;font-size:52px;font-weight:800;line-height:1.05;color:var(--pink-600,#bb2f61);letter-spacing:.5px}
+.fs-sim .fs-sub{font-size:12.5px;color:var(--ink-2,#5a4650)}
+.fs-sim .fs-note{font-size:12px;line-height:1.7;color:var(--ink-2,#5a4650);margin:8px 0 0}
+@media(max-width:600px){.fs-sim label{flex:0 0 100%}.fs-sim .fs-amount{font-size:44px}}
+</style>
+<script>
+(function(){
+  var inc=document.getElementById('fs-income'),fam=document.getElementById('fs-family'),
+      btn=document.getElementById('fs-btn'),amt=document.getElementById('fs-amount'),sub=document.getElementById('fs-sub');
+  if(!inc||!btn)return;
+  function limit(manYen,spouse,dep){
+    var income=manYen*10000; if(!(income>0))return 0;
+    var ded; // 給与所得控除(2020年改正)
+    if(income<=1625000)ded=550000;
+    else if(income<=1800000)ded=income*0.4-100000;
+    else if(income<=3600000)ded=income*0.3+80000;
+    else if(income<=6600000)ded=income*0.2+440000;
+    else if(income<=8500000)ded=income*0.1+1100000;
+    else ded=1950000;
+    var salary=income-ded;          // 給与所得
+    var shakai=income*0.15;          // 社会保険料(概算)
+    var sIT=spouse?380000:0,sRT=spouse?330000:0;
+    var dIT=dep*380000,dRT=dep*330000;
+    var tIT=Math.max(0,salary-480000-shakai-sIT-dIT); // 課税所得(所得税)
+    var tRT=Math.max(0,salary-430000-shakai-sRT-dRT); // 課税所得(住民税)
+    var r; // 所得税率
+    if(tIT<=1950000)r=0.05;else if(tIT<=3300000)r=0.10;else if(tIT<=6950000)r=0.20;
+    else if(tIT<=9000000)r=0.23;else if(tIT<=18000000)r=0.33;else if(tIT<=40000000)r=0.40;else r=0.45;
+    var shotokuwari=tRT*0.10;        // 住民税所得割
+    var lim=shotokuwari*0.20/(0.90-r*1.021)+2000;
+    return Math.max(0,Math.round(lim/1000)*1000);
+  }
+  function run(){
+    var v=fam.value.split(','),L=limit(parseFloat(inc.value)||0,v[0]==='1',parseInt(v[1],10)||0);
+    if(L<=2000){amt.textContent='—';sub.textContent='年収を入力してね';return;}
+    amt.textContent='約 '+L.toLocaleString()+' 円';
+    sub.textContent='＝ この額まで実質2,000円で寄付OK（目安）';
+  }
+  btn.addEventListener('click',run);
+  inc.addEventListener('keydown',function(e){if(e.key==='Enter')run();});
+  fam.addEventListener('change',run);
+  run();
+})();
+</script>
+
+<div class="section-with-mascot">
   <div class="mascot-wrap"><img src="/images/expr-05-smug.png" alt="" /></div>
   <h2>9月30日までにやる「駆け込み5ステップ」</h2>
 </div>
@@ -172,3 +261,5 @@ A. 上限を超えたぶんは**ただの寄付（控除されず自己負担）
 制度は厳しくなるけど、使い方さえ間違えなければふるさと納税は今年もしっかりお得。**カレンダーに「9月末」って書いときなさい** 😏
 
 > 関連 → [ふるさと納税の始め方 2026](/posts/furusato-tax-beginner-guide-2026/) ／ [食品返礼品おすすめ15選](/posts/furusato-tax-food-picks-2026/) ／ [日用品返礼品おすすめ10選](/posts/furusato-tax-daily-goods-2026/)
+
+<p class="source-note">表紙画像の出典（Wikimedia Commons）: 米 = Anna Frodesiak（CC0）／ 和牛 = User:Schellack（パブリックドメイン）／ 海鮮（まぐろ） = <a href="https://commons.wikimedia.org/wiki/File:Marinated_tuna_sashimi_(25382402269).jpg" target="_blank" rel="noopener nofollow">T.Tseng（CC BY 2.0）</a>。控除上限シミュレータは概算であり正確性を保証するものではありません。</p>

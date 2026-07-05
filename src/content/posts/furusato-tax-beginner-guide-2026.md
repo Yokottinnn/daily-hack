@@ -113,7 +113,91 @@ author: "hacker-ko"
 
 目安はあくまで目安。正確な額は各ふるさと納税サイトの**シミュレーター**で出すのが正解。源泉徴収票（去年のでOK）を手元に置いて、年収・社会保険料・扶養人数を入れるだけ。3分で終わるわよ。
 
-主要サイトのシミュレーター直リンク（手元の数字を入れて即計算）:
+まずはこのページで、年収と家族構成からサクッと概算を出しちゃいなさい👇
+
+<div class="fs-sim">
+  <div class="fs-row">
+    <label for="fs-income">給与収入（年収・税込）</label>
+    <div class="fs-inputwrap"><input type="number" id="fs-income" value="500" min="0" max="30000" step="10" inputmode="numeric"><span>万円</span></div>
+  </div>
+  <div class="fs-row">
+    <label for="fs-family">家族構成</label>
+    <select id="fs-family">
+      <option value="0,0">独身 または 共働き（配偶者控除なし）</option>
+      <option value="1,0">夫婦（配偶者に収入なし＝配偶者控除あり）</option>
+      <option value="0,1">共働き＋子1人（16歳以上）</option>
+      <option value="1,1">夫婦＋子1人（16歳以上）</option>
+      <option value="0,2">共働き＋子2人（16歳以上）</option>
+      <option value="1,2">夫婦＋子2人（16歳以上）</option>
+    </select>
+  </div>
+  <button id="fs-btn" type="button">上限額を計算する</button>
+  <div class="fs-result">
+    <span class="fs-cap">自己負担2,000円で寄付できる上限の目安</span>
+    <span class="fs-amount" id="fs-amount" aria-live="polite">—</span>
+    <span class="fs-sub" id="fs-sub"></span>
+  </div>
+  <p class="fs-note">※給与収入・社会保険料（年収の約15%と概算）・基礎控除等をもとにした<strong>目安</strong>。医療費控除・住宅ローン控除・iDeCoなどがある人は上限が下がります。16歳未満の子は扶養控除の対象外（児童手当の対象）のため計算に含めていません。正確な額は下の各ポータルの詳細シミュレーションで確認を。</p>
+</div>
+
+<style>
+.fs-sim{background:linear-gradient(135deg,#FFF3F7,#fff 70%);border:2px solid var(--pink-300,#f2a9c4);border-radius:18px;padding:22px 22px 18px;margin:24px 0;box-shadow:0 14px 34px -20px rgba(214,62,118,.5)}
+.fs-sim .fs-row{display:flex;align-items:center;gap:14px;margin:0 0 14px;flex-wrap:wrap}
+.fs-sim label{flex:0 0 170px;font-weight:800;color:var(--ink,#2a1a22);font-size:15px}
+.fs-sim .fs-inputwrap{display:flex;align-items:center;gap:8px}
+.fs-sim input[type=number]{width:150px;font-size:20px;font-weight:800;padding:9px 12px;border:2px solid var(--pink-300,#f2a9c4);border-radius:10px;text-align:right;color:var(--ink,#2a1a22)}
+.fs-sim .fs-inputwrap span{font-weight:800;color:var(--ink-2,#5a4650)}
+.fs-sim select{flex:1;min-width:220px;font-size:15px;font-weight:700;padding:10px 12px;border:2px solid var(--pink-300,#f2a9c4);border-radius:10px;background:#fff;color:var(--ink,#2a1a22)}
+.fs-sim #fs-btn{width:100%;background:var(--pink-500,#d63e76);color:#fff;font-weight:800;font-size:16px;border:0;border-radius:999px;padding:14px;cursor:pointer;box-shadow:0 10px 22px -10px rgba(214,62,118,.6);margin:4px 0 6px}
+.fs-sim #fs-btn:hover{background:var(--pink-600,#bb2f61)}
+.fs-sim .fs-result{display:flex;flex-direction:column;align-items:center;text-align:center;background:#fff;border:2px dashed var(--pink-300,#f2a9c4);border-radius:14px;padding:16px;margin:10px 0 6px}
+.fs-sim .fs-cap{font-size:13px;font-weight:700;color:var(--ink-2,#5a4650)}
+.fs-sim .fs-amount{font-family:"Bebas Neue","RocknRoll One",sans-serif;font-size:52px;font-weight:800;line-height:1.05;color:var(--pink-600,#bb2f61);letter-spacing:.5px}
+.fs-sim .fs-sub{font-size:12.5px;color:var(--ink-2,#5a4650)}
+.fs-sim .fs-note{font-size:12px;line-height:1.7;color:var(--ink-2,#5a4650);margin:8px 0 0}
+@media(max-width:600px){.fs-sim label{flex:0 0 100%}.fs-sim .fs-amount{font-size:44px}}
+</style>
+<script>
+(function(){
+  var inc=document.getElementById('fs-income'),fam=document.getElementById('fs-family'),
+      btn=document.getElementById('fs-btn'),amt=document.getElementById('fs-amount'),sub=document.getElementById('fs-sub');
+  if(!inc||!btn)return;
+  function limit(manYen,spouse,dep){
+    var income=manYen*10000; if(!(income>0))return 0;
+    var ded;
+    if(income<=1625000)ded=550000;
+    else if(income<=1800000)ded=income*0.4-100000;
+    else if(income<=3600000)ded=income*0.3+80000;
+    else if(income<=6600000)ded=income*0.2+440000;
+    else if(income<=8500000)ded=income*0.1+1100000;
+    else ded=1950000;
+    var salary=income-ded;
+    var shakai=income*0.15;
+    var sIT=spouse?380000:0,sRT=spouse?330000:0;
+    var dIT=dep*380000,dRT=dep*330000;
+    var tIT=Math.max(0,salary-480000-shakai-sIT-dIT);
+    var tRT=Math.max(0,salary-430000-shakai-sRT-dRT);
+    var r;
+    if(tIT<=1950000)r=0.05;else if(tIT<=3300000)r=0.10;else if(tIT<=6950000)r=0.20;
+    else if(tIT<=9000000)r=0.23;else if(tIT<=18000000)r=0.33;else if(tIT<=40000000)r=0.40;else r=0.45;
+    var shotokuwari=tRT*0.10;
+    var lim=shotokuwari*0.20/(0.90-r*1.021)+2000;
+    return Math.max(0,Math.round(lim/1000)*1000);
+  }
+  function run(){
+    var v=fam.value.split(','),L=limit(parseFloat(inc.value)||0,v[0]==='1',parseInt(v[1],10)||0);
+    if(L<=2000){amt.textContent='—';sub.textContent='年収を入力してね';return;}
+    amt.textContent='約 '+L.toLocaleString()+' 円';
+    sub.textContent='＝ この額まで実質2,000円で寄付OK（目安）';
+  }
+  btn.addEventListener('click',run);
+  inc.addEventListener('keydown',function(e){if(e.key==='Enter')run();});
+  fam.addEventListener('change',run);
+  run();
+})();
+</script>
+
+より正確に出したいなら、主要サイトの詳細版シミュレーターへ（源泉徴収票の数字を入れて即計算）:
 
 - <a href="https://event.rakuten.co.jp/furusato/guide/simulator/" target="_blank" rel="noopener nofollow">楽天ふるさと納税｜詳細版シミュレーター</a>（共働き・控除も対応）
 - <a href="https://www.satofull.jp/static/calculation01.php" target="_blank" rel="noopener nofollow">さとふる｜控除上限額シミュレーション</a>
