@@ -25,6 +25,11 @@ references:
   <div class="hakkako-quote">先に“いまの地図”の核心。<strong>ヨーロッパ主要都市（ロンドン・パリ等）へのJAL/ANA直行便は、もうほぼ羽田発</strong>。成田発の欧州直行は今やかなり限定的なの。逆に<strong>成田は東南アジア・南アジア・レジャー路線＋成田ならではの就航先</strong>が強い。「どこ行くか」で使う空港が変わる時代よ。</div>
 </div>
 
+<figure class="venn-figure">
+  <img src="/images/narita-haneda-overseas-direct-2026/venn.png" alt="羽田 vs 成田 直行便で行ける海外のベン図：羽田だけ18都市・両方19都市・成田だけ11都市（JAL/ANA自社直行便・2026年7月時点・公式確認）" loading="lazy" />
+  <figcaption>羽田・成田で「直行便で行ける海外」をベン図に（JAL・ANA自社直行便／2026年7月時点・公式確認）。<strong>欧州・北米主要は“羽田だけ”、穴場路線は“成田だけ”</strong>にくっきり分かれる。※出典明記でのシェア・引用は歓迎です。</figcaption>
+</figure>
+
 ## 📌 この記事のデータについて（先に読んで）
 
 正確さが命の記事だから、前提を先に明記するわ。
