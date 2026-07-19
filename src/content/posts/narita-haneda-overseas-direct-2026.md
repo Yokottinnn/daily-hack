@@ -135,6 +135,36 @@ references:
 - **東南アジア・インドへ**：成田・羽田どちらも厚い。**自宅からのアクセス＋時間帯＋価格**で選ぶ。
 - **ハワイへ**：JAL/ANAとも成田・羽田の両方から。便数・時間帯で選択肢が多い。
 - **乗り継ぎ前提**：ワンワールド(JAL)／スターアライアンス(ANA)のハブ経由で、直行便のない都市もカバー可。
+
+<aside class="related-block">
+  <div class="related-block-head">
+    <span class="related-block-icon"><img src="/images/expr-04-cheer.png" alt="" /></span>
+    <p class="related-block-title">あわせて読みたい</p>
+  </div>
+  <ul class="related-block-list">
+    <li><a href="/posts/summer-cospa-travel-2026/">
+      <span class="related-block-thumb"><img src="/images/eyecatch/summer-cospa-collage.jpg" alt="" loading="lazy" /></span>
+      <span class="related-block-body">
+        <span class="related-block-cat">旅行</span>
+        <span class="related-block-name">夏旅コスパ最強 主要サイト徹底分析</span>
+      </span>
+    </a></li>
+    <li><a href="/posts/his-clearance-sale-2026-jun/">
+      <span class="related-block-thumb"><img src="/images/his-clearance-sale-2026-jun/his-eyecatch-16x9.jpg" alt="" loading="lazy" /></span>
+      <span class="related-block-body">
+        <span class="related-block-cat">旅行</span>
+        <span class="related-block-name">HIS クリアランスセール お得攻略</span>
+      </span>
+    </a></li>
+    <li><a href="/posts/ana-pocket-vs-jal-wellness-2026/">
+      <span class="related-block-thumb"><img src="/images/ana-pocket-vs-jal-wellness-2026/eyecatch.jpg" alt="" loading="lazy" /></span>
+      <span class="related-block-body">
+        <span class="related-block-cat">比較</span>
+        <span class="related-block-name">ANA Pocket vs JAL 移動ポイ活徹底比較</span>
+      </span>
+    </a></li>
+  </ul>
+</aside>
 - **最終確認は必ず日付指定で**：季節運航・臨時運休があるので、予約前に各社サイトで搭乗日を入れて確認。
 
 ## ❓ よくある質問（FAQ）
@@ -160,4 +190,6 @@ A. 需要や情勢で再開されることも多い（例：中東ドーハ就�
 
 「行けると思ったのに直行便なかった」を防ぐには、**公式×時点×直行の3点**を押さえるのが一番。空港選びから旅は始まってるのよ 😏
 
+> 関連 → [夏旅コスパ最強 主要サイト徹底分析](/posts/summer-cospa-travel-2026/) ／ [HIS クリアランスセール お得攻略](/posts/his-clearance-sale-2026-jun/) ／ [ANA Pocket vs JAL 移動ポイ活徹底比較](/posts/ana-pocket-vs-jal-wellness-2026/)
+>
 > データ出典：<a href="https://www.jal.co.jp/jp/ja/inter/route/network/index.html">JAL 国際線 地域別ネットワーク</a>／<a href="https://www.ana.co.jp/ja/us/plan-book/routes/international-route-information/">ANA 国際線就航都市</a>（いずれも2026年7月確認）。参考：X投稿「羽田/成田から直行便で行ける国・地域（2026年7月19日現在）」（@itsukaichi_engi）の論点も踏まえて整理。
