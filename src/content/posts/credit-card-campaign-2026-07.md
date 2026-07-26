@@ -33,7 +33,7 @@ references:
 | **PayPayカード** | 5,000pt | 対象経路から新規入会＋条件達成 | 無料 | 1.0% | ★★ | <a href="https://www.paypay-card.co.jp/event/" target="_blank" rel="noopener">公式CP →</a> |
 | **リクルートカード** | 最大8,000円相当 | 新規＋初回利用＋携帯料金決済等・JCB限定 | 無料 | **1.2%** | ★★★ | <a href="https://recruit-card.jp/introCampTop/?introId=sNLwzpFx" target="_blank" rel="sponsored noopener nofollow"><strong>🎁紹介 →</strong></a> |
 | **dカード** | 最大3,900pt | 入会＋固定費支払＋対象決済5回等 | 無料 | 1.0% | ★★★ | <a href="https://dcard.docomo.ne.jp/std/campaigns/202607_1cm/cpn-shinkinyuukai-tokuten/index.html" target="_blank" rel="noopener">公式CP →</a> |
-| **イオンカード** | 最大5,000 WAON POINT | Web新規＋利用・AEON Pay条件 | 無料 | 0.5% | ★★★ | <a href="https://www.aeon.co.jp/" target="_blank" rel="noopener">公式 →</a> |
+| **イオンカード** | 最大5,000 WAON POINT | Web新規＋利用・AEON Pay条件 | 無料 | 0.5% | ★★★ | <a href="https://www.aeon.co.jp/campaign/lp/aeoncardwaon/2403-H030/" target="_blank" rel="noopener">公式CP →</a> |
 | **JCBカードW** | スマホ決済20%還元（最大12,000円） | アプリ登録＋約6万円のスマホ決済 | 無料 | 1.0% | ★★★ | <a href="https://www.jcb.co.jp/campaign/sp_20cb_2604/index.html" target="_blank" rel="noopener">公式CP →</a> |
 | **三井住友カード(NL)** | 最大13,000円相当（SBI連携で最大29,000） | 要エントリー＋タッチ決済。上位はSBI連携 | 無料 | 0.5%（タッチ最大7%） | ★★★★ | <a href="https://www.smbc-card.com/camp/numberless/index.jsp" target="_blank" rel="noopener">公式CP →</a> |
 
@@ -89,7 +89,7 @@ references:
   <h2>📱 注目のキャンペーンを1枚ずつ深掘り</h2>
 </div>
 
-表だけじゃ伝わらないから、いま特に話題の3枚を、実際のXの声つきで解説するわ。
+表だけじゃ伝わらないから、いま特に話題の5枚を、実際のXの声つきで1枚ずつ解説するわ。「みんなが何に注目してるか」が見えると、選び方が一気にラクになるはずよ。
 
 ### ① 三井住友カード ゴールド(NL)｜"100万円修行"で年会費が永年無料になる
 
@@ -110,9 +110,13 @@ references:
 
 **39歳以下限定・年会費無料・基本還元1.0%**（Amazon等で2%目安）の高還元カード。今の目玉は**入会後のスマホ決済で20%キャッシュバック（上限12,000円）**。入会月の翌々月15日までにMyJCBアプリへログイン＆Apple Pay等のスマホ決済を使うのが条件で、上限まで取るには**約6万円のスマホ決済**が必要。
 
+実際に作った人の「条件が簡単なわりに額が大きい」という手応えが、この投稿によく表れてる👇
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">JCBカードの入会キャンペーン正直甘く見てましたが、条件が比較的簡単なわりにもらえる額大きくていいですね！<br>今回作ったJCBカードWだと最大24,000円分もらえるらしいですが、<br>そのうち12,000円はスマホでタッチ決済、QUICPayなどを使うだけで20%キャッシュバック 上限6万円利用まで<br>8,000円分はマックやスタバなど還元率アップするお店での利用が+10% ポイント これは少し難しいですが上限8万利用まで<br>ポイントアップ加盟店なら全て対象のようなので、電車のタッチ決済利用分は通常分含め20%ポイント還元になるし、Amazonも対象になりそうなので上限達成は容易そうです。<br>最後の家族カード4,000円分は事情によっては難しいですが、それでも最大20,000円分カードの決済だけで達成できます。<br>他社だと銀行も一緒に作るとか証券も含めるとかいろいろ上限入れてきて若干ズルい感がありますが、JCBはカード利用だけのキャンペーン額を出してくれるのは好感触ですし、金額も結構高いので、クレカの入会キャンペーンの中ではかなり上位に入りそうな気がします。</p>&mdash; ロク@JGCマイラー ブログ (@roku_mile) <a href="https://twitter.com/roku_mile/status/2055929129493758253">2026年5月16日</a></blockquote>
+
 <div class="hakkako-says">
   <div class="hakkako-mascot"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
-  <div class="hakkako-quote">JCB Wは<strong>「40歳になる前に作れるか」が全て</strong>。39歳以下しか新規入会できないから、対象年齢なら作っておく価値あり。20%CBは"スマホ決済"限定＝Apple Pay/Google Payに登録して使うのを忘れずに。ブラウザ払いは対象外だから注意よ。</div>
+  <div class="hakkako-quote">この人の言う<strong>「銀行や証券まで作らせる他社と違い、JCBはカード利用だけの金額を出す」</strong>って視点が鋭いの。JCB Wは<strong>「40歳になる前に作れるか」が全て</strong>＝39歳以下しか新規入会できないから、対象年齢なら作っておく価値あり。20%CBは"スマホ決済"限定＝Apple Pay/Google Payに登録して使うのを忘れずに（ブラウザ払いは対象外）。</div>
 </div>
 
 <p class="ref-cta-lead">▶ <a href="https://www.jcb.co.jp/campaign/sp_20cb_2604/index.html" target="_blank" rel="noopener"><strong>JCBカードW スマホ決済20%CB 公式ページを見る →</strong></a></p>
@@ -129,6 +133,32 @@ references:
 </div>
 
 <p class="ref-cta-lead">▶ <a href="https://www.eposcard.co.jp/admission/index.html" target="_blank" rel="noopener"><strong>エポスカード 入会特典 公式ページを見る →</strong></a></p>
+
+### ④ 楽天カード｜"作って損しない王道"＋新規8,000ポイント
+
+**年会費永年無料・基本還元1.0%**で、楽天市場ではSPUでさらに上乗せ。ポイントの使い道が広く、初めての1枚としても定番中の定番。いまは新規入会＆利用で**8,000ポイント**がもらえるキャンペーンが動いていて、公式もこう告知してるわ👇
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">【楽天JCBカードに新規入会すると...】<br><br>7/13(月)10:00～8/10(月)10:00の間<br>楽天JCBカードに新規入会&amp;3回利用いただくと<br><br> 8,000ポイント<br> もらえます!!<br><br>年会費永年無料！<br>この機会につくってみませんか？<br>詳細はこちら</p>&mdash; JCBブランド【公式】 (@JCB_BRAND) <a href="https://twitter.com/JCB_BRAND/status/2076501982416982495">2026年7月13日</a></blockquote>
+
+<div class="hakkako-says">
+  <div class="hakkako-mascot"><img src="/images/expr-04-cheer.png" alt="Daily Hackマスコット" /></div>
+  <div class="hakkako-quote">楽天カードは<strong>「迷ったらまず持つ」王道の無料カード</strong>。8,000ポイントは"新規入会＋数回利用"で狙える手軽さだし、楽天経済圏を使う人なら通常還元だけでも十分に元が取れる。ブランドはVisa/Mastercard/JCB/Amexから選べる（この8,000pt告知はJCBブランド分）。派手な"最大額"より、<strong>確実にもらって長く得する</strong>タイプよ。</div>
+</div>
+
+<p class="ref-cta-lead">▶ <a href="https://r10.to/hPxfRD" target="_blank" rel="sponsored noopener nofollow"><strong>楽天カードの紹介キャンペーンを見る →</strong></a></p>
+
+### ⑤ 三井住友Olive Infinite｜"年会費無料で高還元"を極めた頂点（＝上級者向け）
+
+年会費無料で高還元の三井住友カードの"最上位"がOlive Infinite。Xでは、その破壊力に驚く声がバズってるわ👇
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">新しいクレカ調べてたけど、Olive Infinite最強すぎないか？5,000万分、SBI証券と三井住友銀行にいれておけば、NISA 6%還元で外貨4%還元でカード年会費タダ！年間700万利用で追加で11万Vポイント貰えるらしい。とりあえず1枚作るか。</p>&mdash; Ash (@ashita01x) <a href="https://twitter.com/ashita01x/status/2080190253227548924">2026年7月20日</a></blockquote>
+
+<div class="hakkako-says">
+  <div class="hakkako-mascot"><img src="/images/expr-09-arms-crossed.png" alt="Daily Hackマスコット" /></div>
+  <div class="hakkako-quote">この「最強すぎないか」って熱量が、まさに"注目度"そのもの。ただ投稿にもある通り、<strong>Infiniteは三井住友銀行＋SBI証券にまとまった資産（投稿では5,000万円規模）を置く前提の"上級者向け"</strong>。※正確な条件は必ず公式で確認してね。庶民は同じ三井住友でも<strong>ゴールド(NL)や通常グレードで十分</strong>よ。"最大額"に憧れて条件を見ずに飛びつくと、まさに本記事の「最大◯円の罠」にハマる——自分の資産・生活に合うグレードを選ぶのが正解。</div>
+</div>
+
+<p class="ref-cta-lead">▶ <a href="https://www.smbc-card.com/camp/numberless/index.jsp" target="_blank" rel="noopener"><strong>三井住友カード ゴールド(NL) 公式を見る →</strong></a></p>
 
 ## ❓ よくある質問（FAQ）
 
