@@ -645,6 +645,12 @@ footer.foot .pr { margin-top: 6px; }
 /* Real photos — official-source spot photos with comment-style captions */
 .real-photos { display: grid; gap: 18px; margin: 22px 0 28px; grid-template-columns: 1fr; }
 @media (min-width: 640px) { .real-photos.cols-2 { grid-template-columns: 1fr 1fr; } .real-photos.cols-3 { grid-template-columns: repeat(3, 1fr); } }
+/* X(Twitter)投稿の埋め込み（widgets.jsが展開すれば置換、未展開時もX風カードで見せる） */
+blockquote.twitter-tweet { max-width: 550px; margin: 22px auto; border: 1px solid var(--line); border-radius: 16px; padding: 20px 22px 15px; background: #fff; box-shadow: var(--shadow-card); position: relative; font-size: 15.5px; line-height: 1.85; color: var(--ink); }
+blockquote.twitter-tweet::before { content: "𝕏"; position: absolute; top: 15px; right: 20px; font-size: 21px; font-weight: 900; color: #0f1419; line-height: 1; }
+blockquote.twitter-tweet p { margin: 0 0 6px; padding-right: 26px; }
+blockquote.twitter-tweet a { color: var(--pink-600); font-weight: 700; border-bottom: 1px dotted var(--pink-300); }
+blockquote.twitter-tweet a:hover { color: var(--pink-700); }
 .venn-figure { margin: 26px 0; text-align: center; }
 .venn-figure img { width: 100%; max-width: 760px; height: auto; border-radius: 16px; border: 1px solid var(--line); box-shadow: var(--shadow-card); display: inline-block; }
 .venn-figure figcaption { font-size: 13px; line-height: 1.7; color: var(--ink-2); margin: 10px auto 0; max-width: 760px; text-align: left; padding: 8px 12px; background: var(--pink-50); border-left: 3px solid var(--pink-300); border-radius: 0 8px 8px 0; }
