@@ -99,6 +99,11 @@ jobs:
             | .[] | "\(.sum.visits)\t\(.count)\t\(.dimensions.clientRequestPath)"
           ' -r /tmp/all.json > /tmp/top.tsv || echo "(集計失敗)"
           ALL_PATHS=$(jq 'length' /tmp/all.json)
+          # --- stdout echo (log-readable, API can't fetch step summary) ---
+          echo "STDOUT_TOTALS visits=${ALL_VISITS} requests=${ALL_REQ} paths=${ALL_PATHS}"
+          echo "STDOUT_TOP_START"
+          cat /tmp/top.tsv || true
+          echo "STDOUT_TOP_END"
           {
             echo "# Weekly PV Report — ${HOST}"
             echo
