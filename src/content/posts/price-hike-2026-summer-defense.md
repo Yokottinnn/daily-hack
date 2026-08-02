@@ -114,6 +114,31 @@ references:
 <a class="rc-btn" href="https://pc.moppy.jp/entry/invite.php?invite=kMwuA18a" target="_blank" rel="sponsored noopener nofollow">紹介リンクで無料登録 →</a>
 </div>
 
+## 📱 Xでも悲鳴｜みんなの"値上げ"リアル
+
+「またか…」ってなってるの、あなただけじゃないの。Xで実際に注目された声を拾って、記事の対策とつなげて補足するわね。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">【えっ、また値上げ…！？家計の悲鳴が聞こえる】<br>8月からまた食品の値上げラッシュが始まるみたい…しかも前年同月の約8割増って、家計へのダメージが大きすぎますよね</p>&mdash; まくのべ (@macnobi) <a href="https://twitter.com/macnobi/status/2083723777075298424">2026年8月2日</a></blockquote>
+
+<div class="hakkako-says">
+  <div class="hakkako-mascot"><img src="/images/expr-07-gasp.png" alt="Daily Hackマスコット" /></div>
+  <div class="hakkako-quote">この「また値上げ…」の体感、まさに数字が裏付けてる。上で見た通り<strong>7月2,566・9月3,029品目</strong>と波は続くの。嘆くだけじゃ財布は守れないから、<strong>保存が効く物は"改定日の前"に前倒し買い</strong>——これが一番シンプルに効く先回りよ。</div>
+</div>
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">大王製紙は2026年5月に発表した通り、8月1日納品分からエリエールブランドのトイレットペーパー、ティッシュ、生理用品、紙おむつなど家庭用・業務用全製品を15%以上値上げする。<br><br>給与が上がらない現状において、誰もが避けられない必需品が15%も値上がりすることは、家計に大きな打撃となる。</p>&mdash; 船乗り投資家 (@Tyyyaaabbb) <a href="https://twitter.com/Tyyyaaabbb/status/2081753397066412354">2026年7月27日</a></blockquote>
+
+<div class="hakkako-says">
+  <div class="hakkako-mascot"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
+  <div class="hakkako-quote">トイレ紙・ティッシュは<strong>保存が効く＝まさに"改定日前の前倒し買い"が効く筆頭</strong>。しかも<strong>NB→PB（トップバリュ/セブンプレミアム等）置換</strong>で1〜3割カットできる定番よ。必需品こそ、単価（枚・m）で比べて賢く積んでおきなさい。</div>
+</div>
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">【悲報】<br><br>我が家の再エネ賦課金。<br>多くの方に見てほしい。<br><br>ただでさえ年々上がっているのに、5月からさらに値上げ。<br>これ、冬になったら1万に近づくよ…。<br>年間６万！？はぁ・・・。<br><br>誰かの利権のためになっている再エネ賦課金。<br>早くやめてほしい。<br>ぜひ拡散してほしい。</p>&mdash; 烏丸 (@sirozukuri) <a href="https://twitter.com/sirozukuri/status/2083508040133644429">2026年8月1日</a></blockquote>
+
+<div class="hakkako-says">
+  <div class="hakkako-mascot"><img src="/images/expr-09-arms-crossed.png" alt="Daily Hackマスコット" /></div>
+  <div class="hakkako-quote">食品より効くのは、実は<strong>電気・ガスの"固定費"側</strong>。上で書いた通り<strong>8月は政府値引きが最大（低圧4.5円/kWh・都市ガス18円/㎥）</strong>だから今夏はまだ守られてるけど、<strong>10月以降は補助縮小で"秋の再値上げ"</strong>が来る。だからこそ、一度やれば毎月効く<strong>プラン見直し・格安SIM・サブスク棚卸し</strong>が最強の防御なのよ。</div>
+</div>
+
 ## ❓ よくある質問（FAQ）
 
 **Q. 今いちばん効く節約は？**
@@ -137,3 +162,5 @@ A. **手続き不要**。2026年7〜9月使用分に、電力・ガス会社が�
 > 関連 → [固定費削減 完全ガイド](/posts/fixed-cost-reduction-guide-2026/) ／ [電気・ガス代の節約術](/posts/electricity-gas-savings-2026/) ／ [ポイントサービス徹底分析 2026](/posts/point-service-complete-guide-2026/)
 >
 > データ出典：帝国データバンク（2026/6/30）／経済産業省（2026/6/12）ほか各社公式。値上げ日・率は各メーカー公式で最終確認を。2026年7月26日時点。
+
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
