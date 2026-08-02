@@ -111,6 +111,24 @@ references:
 <a class="rc-btn" href="https://r10.to/hPxfRD" target="_blank" rel="sponsored noopener nofollow">紹介リンクで詳細を見る →</a>
 </div>
 
+## 📱 Xでも大反響｜みんなの"改悪"リアル
+
+この改悪、Xでも相当ざわついたの。実際に注目された投稿を拾って、アタシの視点で補足するわね。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">今回の規約改定で絶対に押さえるべき<br>「5つの大改悪」の全貌です。<br><br>①ポイント払い分の還元が0%に<br>②公共料金・税金の還元率が半減<br>③交通系ICや他社決済へのチャージが<br>　ポイント付与対象外<br>④PayPayステップに本人確認が必須化 <br>⑤ゴールドカードの一律＋0.5%特典が廃止</p>&mdash; りゅーいち (@doragon10822) <a href="https://twitter.com/doragon10822/status/2061565964723073494">2026年6月2日</a></blockquote>
+
+<div class="hakkako-says">
+  <div class="hakkako-mascot"><img src="/images/expr-09-arms-crossed.png" alt="Daily Hackマスコット" /></div>
+  <div class="hakkako-quote">180万回以上表示された注目投稿。<strong>⑤の「ゴールドの一律＋0.5%廃止」がまさにこの記事の主役</strong>よ。①〜④はPayPay決済（アプリ）側の改定だから、<strong>カードもアプリも同時に動いた＝"PayPay全体の改悪ラッシュ"</strong>だったの。ただしカードの損得は一律じゃない——上の損益分岐で見た通り、<strong>年100〜220万円使う人はむしろ得</strong>。リストの勢いに流されず、自分の額で判断しなさい。</div>
+</div>
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">Pay Pay カードゴールドが改悪したから解約を決意した18の夜<br><br>エポスプラチナに出戻りしようとしたらまさかの大改悪<br>VポイントカードPrimeにするかと思ったらこちらも改悪<br><br>その他改悪ラッシュで結局Pay Pカードゴールドを継続して使う事に<br><br>因果なもんよなぁ┐(´д｀)┌</p>&mdash; ナイス☆モンチ (@pesotapesota) <a href="https://twitter.com/pesotapesota/status/2083429835922383137">2026年8月1日</a></blockquote>
+
+<div class="hakkako-says">
+  <div class="hakkako-mascot"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
+  <div class="hakkako-quote">これ、めちゃくちゃリアルな声。<strong>「解約を決意→乗り換え先を探す→でも他社も軒並み改悪→結局継続」</strong>——2026年はカードもアプリも改悪ラッシュで、"逃げ先"も改悪してるのが実情なの。だからこそ<strong>脊髄反射で解約する前に、今の1枚が自分の利用額で得か損かを数字で見極める</strong>のが正解。乗り換えるにしても、感情じゃなく損得で選びなさい。</div>
+</div>
+
 ## ❓ よくある質問（FAQ）
 
 **Q. すぐ解約すべき？**
@@ -134,3 +152,5 @@ A. 年会費無料・基本1.0%は維持だが、**公共料金カード払い�
 > 関連 → [クレカ大改悪まとめ 2026](/posts/credit-card-kaiaku-2026/) ／ [ポイントサービス徹底分析 2026](/posts/point-service-complete-guide-2026/) ／ [クレカ新規入会キャンペーン 今月の最強【2026年7月】](/posts/credit-card-campaign-2026-07/)
 >
 > データ出典：PayPayカード公式ほか（2026年7月時点）。特典・還元率は改定されるため申込・解約前に各公式で最新をご確認ください。
+
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
