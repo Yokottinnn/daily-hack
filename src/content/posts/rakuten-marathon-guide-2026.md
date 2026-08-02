@@ -112,6 +112,24 @@ references:
 <a class="rc-btn" href="https://r10.to/hPxfRD" target="_blank" rel="sponsored noopener nofollow">紹介リンクで詳細を見る →</a>
 </div>
 
+## 📱 Xの声｜"期間限定ポイント"のリアルな落とし穴
+
+マラソンで一番やらかしやすいのが、この期間限定ポイント。実際のXの声とアタシの補足で、取りこぼしを潰しておくわね。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">見落としがちな最大の注意点！<br>マラソンで貰える大量ポイントは【期間限定ポイント】だぽ<br>・付与：翌月15日頃<br>・期限：付与された「翌月末」まで（実質1ヶ月半！）<br>せっかく稼いだポイントを失効させたら一番勿体ないから、付与されたら街のドラッグストアや楽天ペイで速攻使い切ろう</p>&mdash; グルメ・防災ぽたぐまちゃん (@potaguma_) <a href="https://twitter.com/potaguma_/status/2083818488075038818">2026年8月2日</a></blockquote>
+
+<div class="hakkako-says">
+  <div class="hakkako-mascot"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
+  <div class="hakkako-quote">この人が言う通り、<strong>付与は翌月15日頃・期限は付与月の翌月末＝実質1ヶ月半で消える</strong>の。上の本文の通りよ。頑張って買い回りしても<strong>使い忘れたらゼロ</strong>だから、付与されたらドラッグストアや楽天ペイで即消化——これが取りこぼしを防ぐ鉄則ね。</div>
+</div>
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">楽天ペイの請求書払いって期間限定ポイント使えなくなったの？<br><br>今日試したけど楽天キャッシュ残高しか使えなかった</p>&mdash; きいポイ活×投資 (@kii_pointpay) <a href="https://twitter.com/kii_pointpay/status/2068896947549913105">2026年6月22日</a></blockquote>
+
+<div class="hakkako-says">
+  <div class="hakkako-mascot"><img src="/images/expr-06-shock.png" alt="Daily Hackマスコット" /></div>
+  <div class="hakkako-quote">これも大事な"リアル"。<strong>期間限定ポイントは「使える場所」がじわじわ狭められてる</strong>のよ（楽天ペイの請求書払い等で使えない場面も）。だから<strong>「翌月末まで」に、確実に使える先で消化する</strong>のが安全。最新の使い道は楽天公式で要確認だけど、"貯めて忘れる"が一番の損だと覚えておいて。</div>
+</div>
+
 ## ❓ よくある質問（FAQ）
 
 **Q. 買い回りは何ショップが正解？**
@@ -135,3 +153,5 @@ A. 買い回り特典は**期間限定ポイント**で、付与月の翌月末�
 > 関連 → [ポイントサービス徹底分析 2026](/posts/point-service-complete-guide-2026/) ／ [ふるさと納税2026年改正ガイド](/posts/furusato-tax-2026-reform-guide/) ／ [ポイント交換ルート大崩壊 2026](/posts/point-kaiaku-timeline-2026/)
 >
 > データ出典：楽天公式ほか（2026年7月時点）。開催期間・倍率・上限は回ごとに変動。参加前に公式で最新をご確認ください。本記事はPR（アフィリエイト）を含みます。
+
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
