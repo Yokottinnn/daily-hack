@@ -667,3 +667,86 @@ footer.foot .pr { margin-top: 6px; }
 .pagination .page-num:hover { background: var(--pink-50); border-color: var(--pink-200); color: var(--pink-700); }
 .pagination .page-num.current { background: var(--pink-500); border-color: var(--pink-500); color: #fff; cursor: default; }
 .pagination .page-num.current:hover { background: var(--pink-500); }
+
+/* ============================================================
+   Wangan map — 国土地理院タイル製ベース地図の上に物件ピンを重ねる
+   出典表記 (.wangan-map-credit) は必須。ピンは % 座標なので画像と一緒に伸縮する。
+   ============================================================ */
+.wangan-map { margin: 30px 0; }
+.wangan-map-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; border-radius: 18px; box-shadow: var(--shadow-card); border: 1px solid var(--pink-200); background: #fff; }
+.wangan-map-canvas { position: relative; width: 100%; min-width: 560px; line-height: 0; }
+.wangan-map-canvas > img { width: 100%; height: auto; display: block; }
+
+/* ピン本体 — 中心が座標。番号バッジ + ラベルの2段 */
+.wangan-pin { position: absolute; transform: translate(-50%, -50%); display: flex; flex-direction: column; align-items: center; gap: 3px; line-height: 1; z-index: 2; }
+.wangan-pin .pin-no { display: grid; place-items: center; width: 26px; height: 26px; border-radius: 50%; background: var(--pink-500); color: #fff; font-family: "RocknRoll One"; font-weight: 400; font-size: 13px; box-shadow: 0 0 0 3px #fff, 0 3px 8px -2px rgba(42, 25, 35, .45); }
+.wangan-pin .pin-label { white-space: nowrap; font-size: 10.5px; font-weight: 800; color: var(--ink); background: rgba(255, 255, 255, .92); border: 1px solid var(--pink-200); border-radius: 999px; padding: 2px 8px; box-shadow: 0 2px 6px -3px rgba(42, 25, 35, .4); }
+/* 竣工済み/参考ピンはトーンを落とす */
+.wangan-pin.is-done .pin-no { background: var(--ink-3); }
+.wangan-pin.is-done .pin-label { color: var(--ink-2); border-color: var(--line); }
+/* ラベルをピンの上に出したい時 */
+.wangan-pin.label-above { flex-direction: column-reverse; }
+
+/* エリア名の見出しラベル (晴海 / 豊洲 など) */
+.wangan-area { position: absolute; transform: translate(-50%, -50%); z-index: 1; font-family: "RocknRoll One"; font-weight: 400; font-size: 13px; letter-spacing: .12em; color: var(--pink-700); background: rgba(255, 245, 248, .78); border-radius: 8px; padding: 2px 10px; white-space: nowrap; }
+
+/* 番号のみのピン (情報密度が高いワイド地図用)。名前は .wangan-legend 側で受ける */
+.wangan-pin.no-label .pin-label { display: none; }
+.wangan-map-canvas a { display: block; }
+
+/* 地図の凡例 — 番号と物件名の対応表 */
+.wangan-legend { list-style: none; margin: 12px 0 0; padding: 0; display: grid; gap: 6px 14px; grid-template-columns: 1fr; font-size: 12.5px; }
+@media (min-width: 620px) { .wangan-legend { grid-template-columns: 1fr 1fr; } }
+/* NOTE: grid/flex にすると ::before・テキスト・span が別々のアイテム化して
+   日付 span が 2 行目の細いカラムに落ち縦書きになる。block + absolute で組むこと。 */
+.wangan-legend li { display: block; position: relative; padding-left: 28px; line-height: 1.7; color: var(--ink); }
+.wangan-legend li::before { content: attr(data-no); position: absolute; left: 0; top: 3px; display: grid; place-items: center; width: 20px; height: 20px; border-radius: 50%; background: var(--pink-500); color: #fff; font-size: 11px; font-weight: 800; }
+.wangan-legend li.is-done { color: var(--ink-2); }
+.wangan-legend li.is-done::before { background: var(--ink-3); }
+.wangan-legend li span { display: inline; color: var(--ink-3); font-size: 11.5px; white-space: nowrap; }
+
+.wangan-map-credit { display: block; margin: 8px 2px 0; font-size: 11px; color: var(--ink-3); line-height: 1.7; }
+.wangan-map-credit a { color: var(--ink-2); border-bottom: 1px dotted var(--ink-3); }
+.wangan-map-hint { display: block; margin: 0 2px 8px; font-size: 11.5px; font-weight: 700; color: var(--pink-600); }
+@media (max-width: 720px) {
+  .wangan-map-canvas { min-width: 720px; }
+  .wangan-pin .pin-label { font-size: 10px; padding: 2px 7px; }
+}
+
+/* 物件カード — 地図の凡例を兼ねる。番号が地図のピンと対応する */
+.tower-list { display: grid; gap: 14px; margin: 28px 0; grid-template-columns: 1fr; }
+@media (min-width: 760px) { .tower-list { grid-template-columns: 1fr 1fr; } }
+.tower-card { position: relative; background: #fff; border: 1px solid var(--pink-200); border-radius: 16px; padding: 18px 20px 16px 20px; box-shadow: var(--shadow-card); }
+.tower-card .tower-no { position: absolute; top: -12px; left: 16px; display: grid; place-items: center; width: 30px; height: 30px; border-radius: 50%; background: var(--pink-500); color: #fff; font-family: "RocknRoll One"; font-weight: 400; font-size: 14px; box-shadow: 0 0 0 3px #fff; }
+.tower-card h4 { margin: 6px 0 4px !important; font-family: "RocknRoll One"; font-weight: 400; font-size: 16px; line-height: 1.45; color: var(--pink-700); padding-left: 0 !important; border-left: 0 !important; }
+.tower-card .tower-area { display: inline-block; font-size: 11px; font-weight: 800; color: var(--pink-600); background: var(--pink-50); border: 1px solid var(--pink-200); border-radius: 999px; padding: 2px 10px; margin-bottom: 2px; }
+.tower-card .tower-spec { display: grid; grid-template-columns: 74px 1fr; gap: 4px 10px; margin: 10px 0 0; font-size: 12.5px; line-height: 1.7; }
+.tower-card .tower-spec dt { color: var(--ink-3); font-weight: 700; }
+.tower-card .tower-spec dd { margin: 0; color: var(--ink); font-weight: 700; }
+.tower-card .tower-spec dd.is-unknown { color: var(--ink-3); font-weight: 500; }
+.tower-card .tower-price { margin: 12px 0 0; padding: 8px 12px; border-radius: 10px; background: linear-gradient(135deg, var(--cream-50), #fff); border: 1px solid var(--cream-200); font-size: 12.5px; line-height: 1.7; color: var(--ink); }
+.tower-card .tower-price strong { color: var(--pink-700); }
+.tower-card .tower-note { margin: 10px 0 0; font-size: 12px; line-height: 1.75; color: var(--ink-2); }
+.tower-card .tower-links { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 12px; }
+.tower-card .tower-links a { display: inline-flex; align-items: center; gap: 4px; font-size: 11.5px; font-weight: 800; color: var(--pink-600); border-bottom: 1px dashed var(--pink-300); padding-bottom: 1px; }
+.tower-card .tower-links a:hover { color: var(--pink-700); border-color: var(--pink-500); }
+/* 竣工予定バッジ */
+.tower-card .tower-eta { position: absolute; top: -12px; right: 14px; font-size: 11px; font-weight: 800; padding: 4px 12px; border-radius: 999px; background: var(--ink); color: #fff; box-shadow: 0 0 0 3px #fff; letter-spacing: .02em; }
+.tower-card .tower-eta.is-soon { background: linear-gradient(135deg, var(--pink-600), var(--pink-500)); }
+.tower-card .tower-eta.is-far { background: var(--ink-3); }
+@media (max-width: 540px) {
+  .tower-card { padding: 18px 16px 16px; }
+  .tower-card .tower-spec { grid-template-columns: 66px 1fr; font-size: 12px; }
+}
+
+/* タイムライン — 竣工年ごとの並び */
+.tower-timeline { position: relative; margin: 30px 0; padding-left: 26px; }
+.tower-timeline::before { content: ""; position: absolute; left: 7px; top: 6px; bottom: 6px; width: 3px; border-radius: 3px; background: linear-gradient(180deg, var(--pink-300), var(--pink-100)); }
+.tower-timeline .tl-year { position: relative; margin: 0 0 22px; }
+.tower-timeline .tl-year:last-child { margin-bottom: 0; }
+.tower-timeline .tl-year::before { content: ""; position: absolute; left: -23px; top: 5px; width: 13px; height: 13px; border-radius: 50%; background: var(--pink-500); box-shadow: 0 0 0 3px #fff, 0 0 0 4px var(--pink-200); }
+.tower-timeline .tl-label { font-family: "RocknRoll One"; font-weight: 400; font-size: 17px; color: var(--pink-700); margin: 0 0 8px; }
+.tower-timeline .tl-items { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; }
+.tower-timeline .tl-items li { display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px; font-size: 13px; line-height: 1.7; background: var(--pink-50); border: 1px solid var(--pink-100); border-radius: 10px; padding: 8px 12px; }
+.tower-timeline .tl-items li strong { color: var(--ink); font-weight: 800; }
+.tower-timeline .tl-items li span { color: var(--ink-2); font-size: 12px; }
