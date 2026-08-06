@@ -4,7 +4,7 @@ description: "月島・勝どき・豊海・晴海・豊洲・有明・芝浦で
 publishDate: 2026-08-07
 category: "wangan-life"
 tags: ["湾岸", "タワーマンション", "再開発", "中央区", "月島", "勝どき", "晴海", "豊洲", "有明", "新築マンション"]
-draft: true
+draft: false
 eyecatchUrl: "/images/eyecatch/wangan-tower-construction-map-2026-thumb.png"
 eyecatchAlt: "湾岸タワマン建設中 全図鑑｜どこに何がいつ建つか、地図と価格で全部まとめた 2026年版"
 author: "hacker-ko"
