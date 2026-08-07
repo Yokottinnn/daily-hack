@@ -183,11 +183,35 @@ X で「セントラルガーデン月島ザ・タワーの建築進捗！」っ
   </div>
 </div>
 
+### 現地はいま、こうなってる
+
+パースじゃなくて実物を見なさい。**湾岸を毎日撮り歩いてる人たちの投稿**を貼っておく。図面と地図だけじゃ、これがどれだけデカいかは伝わらないから。
+
+まず③セントラルガーデン月島。冒頭のポストの物件で、**2026年8月1日時点でようやく10階**。48階まであと38層あるってこと。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">地上48階「セントラルガーデン月島 ザ タワー」の建設状況！10階まで建設が進んだ分譲タワマン（2026.8.1）</p>&mdash; 中谷幸司 (@bluestylecom) <a href="https://twitter.com/bluestylecom/status/2085486573944975783">2026年8月7日</a></blockquote>
+
+次が②グランドシティタワー月島。こっちは**もう建物が出来上がってて**、工事中にバラけてた商店が施設内に戻ってきてる。地権者の入居は7月から。タワマンが建つ＝街の店ごと入れ替わる、っていうのが分かる投稿よ。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">月島三丁目に建設中のタワーマンション「GRAND CITY TOWER TSUKISHIMA （グランドシティタワー月島）」<br><br>工事中は各所に散らばっていた店舗が商業施設に戻ってきます。<br>まだ掲載されていない店舗もあるので今後が楽しみ<br><br>地権者入居は7月、住吉神社例祭（本祭り）は8月。<br>今年の夏はワクワクです</p>&mdash; 月島長屋 (@tukishimanagaya) <a href="https://twitter.com/tukishimanagaya/status/2068543367378788517">2026年6月21日</a></blockquote>
+
+そして①豊海タワー マリン＆スカイ。**53階のツインがもう空に刺さってる**。竣工が2026年11月だから、外観はほぼ完成形。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">今朝のザ豊海タワー マリン&amp;スカイ<br>朝から青空が広がっています。<br>2026.7.26</p>&mdash; 晴海地区 (@harumichiku) <a href="https://twitter.com/harumichiku/status/2081144019409949082">2026年7月26日</a></blockquote>
+
+④パークタワー勝どきイーストは**2026年4月に着工したばかり**で、まだ写真になるものが地上に無い。ここは1年待ちなさい。
+
+<p class="source-note">写真は各投稿者のもの。X の公式埋め込みで表示してる（クリックで元投稿へ）。定点観測の常連は<a href="https://x.com/bluestylecom" target="_blank" rel="noopener">@bluestylecom</a>（ブログ「超高層マンション・超高層ビル」運営）、<a href="https://x.com/tukishimanagaya" target="_blank" rel="noopener">@tukishimanagaya</a>（月島の地元目線）、<a href="https://x.com/harumichiku" target="_blank" rel="noopener">@harumichiku</a>（晴海周辺）。</p>
+
 <div class="callout warn">
   <p class="head">⚠️ ②と③は無関係じゃない。買う前に絶対読みなさい</p>
   <p>グランドシティタワー月島の<strong>公式物件概要に、こう書いてある</strong>。「本物件の南側約70m先に、月島三丁目南地区市街地再開発組合による<strong>地上48階建のマンション建設計画</strong>があります。この建物が竣工しますと、今回分譲する南側の住戸の眺望、通風等に影響が生じる場合があります」——。</p>
   <p>この48階建てが③のセントラルガーデン月島よ。<strong>②の南向き住戸は、2028年9月に目の前へ48階が建つ。</strong>地図で②と③がくっついて見えるのはそういうこと。眺望を理由に②の南側を買うつもりなら、竣工後の景色を必ず想像しなさい。逆に③を買うなら、北側は②に塞がれる。</p>
 </div>
+
+この「約70m」がどれくらい近いかは、実際に並びを撮った人の投稿を見るのが早い。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">【月島で並ぶ2本のタワー、数字で比較する】<br><br>月島三丁目で、北地区と南地区の再開発タワーが約70mの距離で並びます。同じ「月島アドレス」でも中身はかなり違う。公式発表ベースで整理しました。</p>&mdash; Jay／公認会計士×大家業 (@big4_jay) <a href="https://twitter.com/big4_jay/status/2078300159805718533">2026年7月18日</a></blockquote>
 
 <p class="source-note">出典：<a href="https://www.31sumai.com/mfr/X1413/outline.html" target="_blank" rel="noopener">セントラルガーデン月島 ザ タワー 公式物件概要（三井不動産レジデンシャル）</a>／<a href="https://www.sumitomo-rd-mansion.jp/shuto/tsukishima/" target="_blank" rel="noopener">グランドシティタワー月島 公式（住友不動産）</a>／<a href="https://wangan-mansion.jp/" target="_blank" rel="noopener">湾岸マンション価格ナビ</a>／<a href="https://manmani.net/" target="_blank" rel="noopener">マンションマニアの住まいカウンター</a>／<a href="https://tower-life-design.com/kachidoki-toyomi-tsukishima-harumi-redevelopment-guide-2026/" target="_blank" rel="noopener">Tower Mansion Life Design</a>。2026年8月時点の各社公表値。価格・時期は販売期ごとに変わるから、必ず公式で最終確認しなさい。</p>
 
@@ -508,3 +532,5 @@ X で「セントラルガーデン月島ザ・タワーの建築進捗！」っ
 </div>
 
 <p class="source-note">この記事の情報は2026年8月7日時点。各物件の価格・竣工時期・戸数は事業者の公表値で、変更される可能性がある。購入判断の前に必ず公式サイトと販売担当に最終確認しなさい。地図は国土地理院淡色地図を使用（出典：国土地理院ウェブサイト）。</p>
+
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
