@@ -193,18 +193,28 @@ X で「セントラルガーデン月島ザ・タワーの建築進捗！」っ
 
 ## 築地市場跡地が本命。ただし「まちびらき」は2030年代
 
-数字の桁が違うのでこれだけ別枠。旧築地市場の約19万㎡に、**三井不動産を代表企業とする11社が総額約9,000億円**を突っ込む。
+数字の桁が違うのでこれだけ別枠。旧築地市場の約19万㎡に、**三井不動産を代表企業とする陣営が総額約9,000億円**を突っ込む。2025年8月22日に**基本計画**が策定されて、ようやく絵が出てきた。
+
+まず公式のイメージ映像を見なさい。文字で「9棟」「210m」って読むより、これ1本のほうが100倍わかる。
+
+<div class="yt-embed" style="position:relative;max-width:720px;margin:22px auto;aspect-ratio:16/9;border-radius:16px;overflow:hidden;box-shadow:0 10px 26px -14px rgba(0,0,0,.35);">
+<iframe style="position:absolute;inset:0;width:100%;height:100%;border:0;" src="https://www.youtube-nocookie.com/embed/DPVVC18O2ko" title="【公式】「築地地区まちづくり事業」イメージ映像" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+<p class="source-note">動画：<a href="https://www.youtube.com/watch?v=DPVVC18O2ko" target="_blank" rel="noopener">【公式】「築地地区まちづくり事業」イメージ映像</a>（築地まちづくり 公式チャンネル／2025年8月公開）</p>
+
+デザインモチーフは「**扇**」。旧築地市場のあの扇形の建物の記憶を引き継ぐって発想で、マルチスタジアムの屋根も2枚の扇が重なった形になってる。コンセプトは「ONE PARK × ONE TOWN」。
 
 <div class="highlight-grid cols-3">
   <div class="highlight-item">
     <span class="highlight-tag">規模</span>
-    <h4>超高層9棟・延べ約126万㎡</h4>
-    <p>最高高さは約210m。ホテル、MICE、レジデンス棟を含む複合開発で、70年の定期借地方式。</p>
+    <h4>9棟・延べ約126万㎡</h4>
+    <p>敷地約19万㎡に高さ約50m〜210mの建物が9棟。最高は<strong>MICE・ホテル・レジデンス棟の約210m</strong>、次いでライフサイエンス・商業複合の約190m。70年の定期借地方式。</p>
   </div>
   <div class="highlight-item">
     <span class="highlight-tag">目玉</span>
-    <h4>5万人収容のマルチスタジアム</h4>
-    <p>湾岸に大規模集客施設が入る。舟運とシアターホールは2029年度の開業予定。</p>
+    <h4>約5万人のマルチスタジアム</h4>
+    <p>約17.9万㎡・最高高さ約110m。屋根は<strong>2枚の扇が重なった形</strong>。舟運とシアターホールは2029年度の開業予定。</p>
   </div>
   <div class="highlight-item">
     <span class="highlight-tag">時期</span>
@@ -213,7 +223,22 @@ X で「セントラルガーデン月島ザ・タワーの建築進捗！」っ
   </div>
 </div>
 
-<p class="source-note">出典：<a href="https://www.city.chuo.lg.jp/a0045/machizukuri/toshikeikaku/tsukijihigashiginza/kaitousho.html" target="_blank" rel="noopener">中央区 築地・東銀座地区のまちづくり</a>ほか事業者公表資料。</p>
+<p class="source-note">出典：<a href="https://www.mitsuifudosan.co.jp/corporate/news/2025/0822/" target="_blank" rel="noopener">三井不動産「築地地区まちづくり事業 基本計画」を策定（2025年8月22日）</a>／<a href="https://www.toshiseibi.metro.tokyo.lg.jp/machizukuri/machi_project/toshi_saisei/saisei08" target="_blank" rel="noopener">東京都都市整備局 築地まちづくり</a>／<a href="https://www.city.chuo.lg.jp/a0045/machizukuri/toshikeikaku/tsukijihigashiginza/kaitousho.html" target="_blank" rel="noopener">中央区 築地・東銀座地区のまちづくり</a>。中核3社は三井不動産（代表）・トヨタ不動産・読売新聞グループ本社。</p>
+
+### で、いまの跡地はどうなってるの
+
+「2030年代」って言われてもピンと来ないでしょ。**跡地はもう7年間ずっと更地**よ。2018年の閉場から解体、整備までをまとめた朝日新聞のタイムラプスがこれ。
+
+<div class="yt-embed" style="position:relative;max-width:720px;margin:22px auto;aspect-ratio:16/9;border-radius:16px;overflow:hidden;box-shadow:0 10px 26px -14px rgba(0,0,0,.35);">
+<iframe style="position:absolute;inset:0;width:100%;height:100%;border:0;" src="https://www.youtube-nocookie.com/embed/TxgJtf8J5rM" title="【タイムラプス】築地市場の7年間 閉場・解体から再開発へ 跡地の変化（朝日新聞）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+<p class="source-note">動画：<a href="https://www.youtube.com/watch?v=TxgJtf8J5rM" target="_blank" rel="noopener">【タイムラプス】築地市場の7年間　閉場・解体から再開発へ　跡地の変化</a>（朝日新聞／2025年12月公開）</p>
+
+<div class="hakkako-says">
+  <div class="hakkako-mascot"><img src="/images/expr-09-arms-crossed.png" alt="Daily Hackマスコット" /></div>
+  <div class="hakkako-quote">ここ、<strong>「築地が完成したら勝どき・月島の価値が上がる」って理屈で今の価格を正当化してくる営業</strong>が絶対に出てくる。でも一期のまちびらきですら2030年代前半、全体はもっと先よ。<strong>10年単位の話を、今日の値付けの根拠にしちゃダメ。</strong></div>
+</div>
 
 <div class="section-with-mascot">
   <div class="mascot-wrap"><img src="/images/expr-09-arms-crossed.png" alt="Daily Hackマスコット" /></div>
