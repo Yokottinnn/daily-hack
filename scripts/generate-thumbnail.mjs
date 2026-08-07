@@ -6,7 +6,7 @@
 // subtitle and base image URL per slug.
 
 import sharp from 'sharp';
-import { writeFile, mkdir } from 'fs/promises';
+import { writeFile, mkdir, readFile } from 'fs/promises';
 import { dirname, join, resolve } from 'path';
 import { fileURLToPath } from 'url';
 
@@ -16,6 +16,15 @@ const ROOT = resolve(__dirname, '..');
 // Recipes are intentionally sparse: title-overlay サムネは「全記事同じ印象になって没個性化する」リスクがあるので、
 // 個別の記事ごとに Jordan の判断で導入するスタイル。一括適用しない。
 const RECIPES = {
+  'wangan-tower-construction-map-2026': {
+    title: '湾岸タワマン',
+    titleLine2: '建設中 全図鑑',
+    subtitle: 'どこに何がいつ建つか、地図と価格で全部まとめた 2026年版',
+    // 記事の主役が地図なので、ストック写真ではなく自作の国土地理院ベース地図を土台にする
+    photo: 'public/images/wangan-map-wide.png',
+    overlayColor: 'rgba(168, 41, 89, 0.10)',
+    panel: true,
+  },
   'furusato-tax-beginner-guide-2026': {
     title: 'ふるさと納税の',
     titleLine2: '始め方',
@@ -34,7 +43,7 @@ function escapeXml(s) {
     .replace(/'/g, '&apos;');
 }
 
-function buildOverlaySvg({ title, titleLine2, subtitle, overlayColor }) {
+function buildOverlaySvg({ title, titleLine2, subtitle, overlayColor, panel }) {
   // Hiragino Sans / Noto Sans JP are commonly present; let the renderer pick the first available.
   const titleFont = '"Hiragino Maru Gothic ProN", "Hiragino Sans", "Noto Sans JP", "Yu Gothic", sans-serif';
   const accentFont = '"Hiragino Mincho ProN", "Yu Mincho", serif';
@@ -45,12 +54,18 @@ function buildOverlaySvg({ title, titleLine2, subtitle, overlayColor }) {
       <stop offset="55%" stop-color="rgba(0,0,0,0.35)" />
       <stop offset="100%" stop-color="rgba(0,0,0,0.65)" />
     </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="rgba(42,25,35,0.88)" />
+      <stop offset="52%" stop-color="rgba(42,25,35,0.66)" />
+      <stop offset="100%" stop-color="rgba(42,25,35,0.10)" />
+    </linearGradient>
     <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
       <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="rgba(0,0,0,0.45)" />
     </filter>
   </defs>
   <rect width="1200" height="630" fill="${overlayColor}" />
   <rect width="1200" height="630" fill="url(#grad)" />
+  ${panel ? '<rect width="1200" height="630" fill="url(#panel)" />' : ''}
   <g filter="url(#shadow)">
     <text x="72" y="246" font-family='${titleFont}' font-size="116" font-weight="900" fill="#ffffff" letter-spacing="-1">${escapeXml(title)}</text>
     <text x="72" y="370" font-family='${titleFont}' font-size="116" font-weight="900" fill="#ffd1e2" letter-spacing="-1">${escapeXml(titleLine2)}</text>
@@ -72,10 +87,18 @@ async function generate(slug) {
     process.exit(1);
   }
 
-  console.log(`[thumb] fetching base photo: ${recipe.photo}`);
-  const res = await fetch(recipe.photo);
-  if (!res.ok) throw new Error(`Failed to fetch photo (${res.status})`);
-  const baseBuffer = Buffer.from(await res.arrayBuffer());
+  let baseBuffer;
+  if (/^https?:\/\//.test(recipe.photo)) {
+    console.log(`[thumb] fetching base photo: ${recipe.photo}`);
+    const res = await fetch(recipe.photo);
+    if (!res.ok) throw new Error(`Failed to fetch photo (${res.status})`);
+    baseBuffer = Buffer.from(await res.arrayBuffer());
+  } else {
+    // repo 内の画像を土台にする場合 (自作の地図など)
+    const localPath = join(ROOT, recipe.photo);
+    console.log(`[thumb] reading local base image: ${localPath}`);
+    baseBuffer = await readFile(localPath);
+  }
 
   console.log('[thumb] compositing overlay');
   const svg = buildOverlaySvg(recipe);
