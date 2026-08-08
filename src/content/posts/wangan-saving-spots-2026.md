@@ -258,7 +258,7 @@ author: "hacker-ko"
 
 ## 7. 江東区豊洲シビックセンター｜無料の図書館・展望テラス
 
-豊洲駅から徒歩3分の**区民施設**。**5階の図書館は無料**で、湾岸エリアの絶景も楽しめる**11階の展望ロビー（無料）**もある。
+豊洲駅から徒歩3分の**区民施設**。**5階の図書館は無料**で、湾岸エリアの絶景も楽しめる<strong>11階の展望ロビー（無料）</strong>もある。
 
 <figure class="real-photo" style="max-width: 560px; margin: 22px auto 28px;">
   <img src="https://www.city.koto.lg.jp/060901/shisetsuannai/kokyo/omonashisetsu/shisetsu/images/11_5115s.jpg" alt="豊洲シビックセンター 外観" loading="lazy" referrerpolicy="no-referrer" />

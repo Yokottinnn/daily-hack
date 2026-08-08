@@ -67,7 +67,6 @@ references:
 
 ---
 
-
 <!-- a8-banners auto-inserted by banner-fill (slot1-after-1st-h2) -->
 <div class="affiliate-block">
 <div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+10BHGA+3SPO+2T8Z4X" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/haruene-denki-300x250.jpg" alt="メディア会員の方必見！電気代コスト削減！★大幅還元実施中★【ハルエネ電気】" width="300" height="250" loading="lazy"></a></div>
@@ -121,7 +120,6 @@ references:
 
 ---
 
-
 <!-- a8-banners auto-inserted by banner-fill (slot2-middle) -->
 <div class="affiliate-block">
 <div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+12P7VE+3SDQ+5ZU29" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/gasya-no-mado-300x250.jpg" alt="ガス会社の乗り換えで、ガス料金が安くなる！【ガス屋の窓口】" width="300" height="250" loading="lazy"></a></div>
@@ -155,7 +153,7 @@ references:
   </div>
 </div>
 
-要は**「行く頻度 × 目的」のマトリクス**。頻度が低いなら都度払い、高いなら月額制、本気の短期決戦ならパーソナル。料金の安さだけで選ぶと、ほぼ確実にミスマッチを起こすわよ。
+要は<strong>「行く頻度 × 目的」のマトリクス</strong>。頻度が低いなら都度払い、高いなら月額制、本気の短期決戦ならパーソナル。料金の安さだけで選ぶと、ほぼ確実にミスマッチを起こすわよ。
 
 ---
 

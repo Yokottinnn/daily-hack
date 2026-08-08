@@ -150,7 +150,7 @@ references: ["https://rinconomiblog.com/supermarket-harumi/", "https://retailgui
 
 <figure>
 <img src="/images/wangan-supermarkets-2026/wangan-map-晴海.png" alt="晴海エリア スーパーマップ — マルエツ プチ晴海 / マルエツ晴海三丁目 / 東武ストア晴海三丁目 / 成城石井晴海トリトン / サミットストア ららテラスHARUMI FLAG店" />
-<figcaption>晴海エリアの 5 店舗。HARUMI FLAG（中央南端）の **サミットストア** が最大、トリトンスクエア（中央北部）に **マルエツプチ + 成城石井** の高密度ゾーン。</figcaption>
+<figcaption>晴海エリアの 5 店舗。HARUMI FLAG（中央南端）の <strong>サミットストア</strong> が最大、トリトンスクエア（中央北部）に <strong>マルエツプチ + 成城石井</strong> の高密度ゾーン。</figcaption>
 </figure>
 
 ### <img src="/images/wangan-supermarkets-2026/icons/logo-maruetsu.png" alt="マルエツ" width="80" style="vertical-align: middle" /> マルエツ プチ 晴海店（晴海トリトン 1F）

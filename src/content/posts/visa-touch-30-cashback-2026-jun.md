@@ -39,7 +39,6 @@ references: ["https://www.smbc-card.com/mem/cardinfo/26/cardinfo7224638.jsp", "h
 
 > 🎯 **要するに**：「**事前登録さえ済ませれば、対象店舗の支払いがスマホタッチで最大3割引**」。登録を忘れると全部パーになるので、そこだけ絶対に外さない。
 
-
 <!-- a8-banners auto-inserted by banner-fill (slot1-after-1st-h2) -->
 <div class="affiliate-block">
 <div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+10BHGA+3SPO+2T8Z4X" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/haruene-denki-300x250.jpg" alt="メディア会員の方必見！電気代コスト削減！★大幅還元実施中★【ハルエネ電気】" width="300" height="250" loading="lazy"></a></div>
@@ -52,12 +51,12 @@ references: ["https://www.smbc-card.com/mem/cardinfo/26/cardinfo7224638.jsp", "h
 <div class="compare-card">
 <h3>🍖 外食</h3>
 <p class="compare-best"><strong>牛角／しゃぶしゃぶ温野菜／くら寿司／ケンタッキー</strong></p>
-<p>焼肉・しゃぶしゃぶ・回転寿司・フライドチキン。**家族での外食やテイクアウト**で会計が伸びやすい店ばかり。1会計が大きいほど上限まで取り切りやすい。</p>
+<p>焼肉・しゃぶしゃぶ・回転寿司・フライドチキン。<strong>家族での外食やテイクアウト</strong>で会計が伸びやすい店ばかり。1会計が大きいほど上限まで取り切りやすい。</p>
 </div>
 <div class="compare-card">
 <h3>🛍️ 買い物</h3>
 <p class="compare-best"><strong>西松屋チェーン／PARCO</strong></p>
-<p>西松屋は**子育て世帯の日用品・衣料**、PARCOは**ファッション・雑貨**。まとめ買いで一気に上限到達を狙える。</p>
+<p>西松屋は<strong>子育て世帯の日用品・衣料</strong>、PARCOは<strong>ファッション・雑貨</strong>。まとめ買いで一気に上限到達を狙える。</p>
 </div>
 </div>
 
@@ -81,7 +80,6 @@ references: ["https://www.smbc-card.com/mem/cardinfo/26/cardinfo7224638.jsp", "h
 <img src="/images/expr-07-gasp.png" alt="ハッカー子" />
 <p>30%って聞くとデカいけど、<strong>上限は合計2,000円</strong>だからね。特典①は1万円利用で1,000円、特典②は5,000円利用で1,000円が上限の目安。だから<strong>「対象店で1〜2回、まとまった会計をスマホタッチで払う」</strong>のが一番効率いい。チマチマ使うより、家族の外食やまとめ買いで“ドン”と使うのがコツ。</p>
 </div>
-
 
 <!-- a8-banners auto-inserted by banner-fill (slot2-middle) -->
 <div class="affiliate-block">
