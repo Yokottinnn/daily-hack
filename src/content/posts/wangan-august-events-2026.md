@@ -5,8 +5,8 @@ publishDate: 2026-08-08
 category: ["wangan-life", "roundups"]
 tags: ["湾岸", "豊洲", "有明", "お台場", "晴海", "勝どき", "イベント", "夏祭り", "盆踊り", "無料", "節約", "2026年8月"]
 draft: false
-eyecatchUrl: "https://images.unsplash.com/photo-1533050487297-09b450131914?w=1200&q=80"
-eyecatchAlt: "湾岸エリアの夏祭り・イベント"
+eyecatchUrl: "/images/wangan-august-events-2026/eyecatch.jpg"
+eyecatchAlt: "湾岸8月イベント 今から間に合う｜無料・激安のコスパ最強だけ集めた"
 author: "hacker-ko"
 ---
 
@@ -52,6 +52,30 @@ author: "hacker-ko"
     <h4>じゃぶじゃぶ池</h4>
     <p>豊洲公園。<strong>無料。</strong>小さい子がいるならこれで十分に一日潰れる。</p>
   </div>
+</div>
+
+## そもそも、どれくらい得なのか
+
+「無料イベント」って言われてもピンと来ないでしょ。**同じ体験を有料でやったらいくらか**を並べる。これがこの記事の本題。
+
+<div class="cmp-table-wrap">
+  <table class="cmp-table">
+    <thead><tr><th>湾岸の無料イベント</th><th>同等の体験を有料でやると</th><th>浮く額</th></tr></thead>
+    <tbody>
+      <tr><td>TOYOSU MOVIE NIGHT（野外映画）</td><td>映画館の一般料金 2,000円</td><td><strong>2,000円</strong></td></tr>
+      <tr><td>Toyosu Park Jazz Night（生演奏2日）</td><td>ジャズクラブのライブチャージ 4,000〜6,000円</td><td><strong>4,000円〜</strong></td></tr>
+      <tr><td>とよす夏祭り（盆踊り・縁日）</td><td>有料の夏フェス入場 3,000円前後</td><td><strong>3,000円</strong></td></tr>
+      <tr><td>じゃぶじゃぶ池（〜9/6）</td><td>屋内プール・子ども向け施設 1,000〜1,500円</td><td><strong>1,000円〜</strong></td></tr>
+      <tr class="recommended"><td colspan="2">この4つを回るだけで</td><td><strong>約1万円ぶん</strong></td></tr>
+    </tbody>
+  </table>
+</div>
+
+**しかも全部、豊洲公園とららぽーと豊洲の徒歩圏に集まってる。** 交通費もほぼかからない。有明ガーデンの無料バスまで使えば、湾岸に住んでなくても交通費を圧縮できる。
+
+<div class="hakkako-says">
+  <div class="hakkako-mascot"><img src="/images/expr-07-gasp.png" alt="Daily Hackマスコット" /></div>
+  <div class="hakkako-quote">比較用の有料側は一般的な相場を並べただけだから、厳密な等価じゃない。それでも<strong>「同じ夏の体験に1万円払うか、0円で済ませるか」</strong>の差はハッキリある。あんたが払ってるのはお金じゃなくて、<strong>調べる手間</strong>だけよ。</div>
 </div>
 
 <div class="section-with-mascot">
@@ -276,40 +300,40 @@ author: "hacker-ko"
 
 ## 8月の残り、全部まとめた一覧
 
-今日以降に開催されるものを日付順に。★が無料。
+イベント名は<strong>公式サイトへのリンク</strong>になってる。★が無料。行く前に必ず開催可否を確認しなさい。
 
 <div class="cmp-table-wrap">
   <table class="cmp-table">
     <thead><tr><th>日程</th><th>イベント</th><th>場所</th><th>料金</th></tr></thead>
     <tbody>
-      <tr class="recommended"><td>8/8〜16</td><td>★ とよす夏祭り2026</td><td>ららぽーと豊洲</td><td>無料</td></tr>
-      <tr><td>8/6〜16</td><td>トミカ博 in TOKYO</td><td>有明GYM-EX</td><td>大人1,400円</td></tr>
-      <tr><td>8/8〜10</td><td>住吉神社 例大祭</td><td>中央区・佃</td><td>無料</td></tr>
+      <tr class="recommended"><td>8/8〜16</td><td>★ <a href="https://mitsui-shopping-park.com/lalaport/toyosu/event/3420509.html" target="_blank" rel="noopener">とよす夏祭り2026</a></td><td>ららぽーと豊洲</td><td>無料</td></tr>
+      <tr><td>8/6〜16</td><td><a href="https://www.tomica-tokyo.com/" target="_blank" rel="noopener">トミカ博 in TOKYO</a></td><td>有明GYM-EX</td><td>大人1,400円</td></tr>
+      <tr><td>8/8〜10</td><td><a href="https://www.sumiyoshijinja.or.jp/" target="_blank" rel="noopener">住吉神社 例大祭</a></td><td>中央区・佃</td><td>無料</td></tr>
       <tr><td>8/8</td><td>★ 豊洲場外マルシェ＆クラフトサマーマーケット</td><td>ミチノテラス豊洲</td><td>無料</td></tr>
       <tr><td>8/8</td><td>海風渡御〜富岡八幡宮 有明初巡幸〜</td><td>東京ドリームパーク</td><td>無料</td></tr>
       <tr><td>8/8〜9</td><td>SORAJIRO PARK</td><td>livedoor URBAN SPORTS PARK</td><td>要確認</td></tr>
       <tr><td>8/9</td><td>KIDS OCEAN SCHOOL</td><td>豊洲ぐるり公園乗船場</td><td>要確認</td></tr>
-      <tr><td>8/11</td><td>江東花火大会2026</td><td>荒川・砂町水辺公園</td><td>無料</td></tr>
+      <tr><td>8/11</td><td><a href="https://www.koto-kanko.jp/" target="_blank" rel="noopener">江東花火大会2026</a></td><td>荒川・砂町水辺公園</td><td>無料</td></tr>
       <tr><td>8/12</td><td>音楽と絵本のコンサート vol.6</td><td>豊洲シビックセンター</td><td>要確認</td></tr>
-      <tr><td>8/14〜16</td><td>ミニ遊縁日</td><td>豊洲千客万来</td><td>要確認</td></tr>
-      <tr><td>8/15</td><td>富岡八幡宮例大祭 豊洲巡行</td><td>豊洲</td><td>無料</td></tr>
-      <tr><td>8/15〜16</td><td>POP GALAXY 2026</td><td>お台場R地区</td><td>一般4,500円</td></tr>
-      <tr><td>8/15〜16</td><td>コミックマーケット C108</td><td>東京ビッグサイト</td><td>—</td></tr>
-      <tr><td>8/16</td><td>富岡八幡宮例大祭 神輿連合渡御</td><td>深川地域</td><td>無料</td></tr>
+      <tr><td>8/14〜16</td><td><a href="https://toyosu-senkyakubanrai.jp/" target="_blank" rel="noopener">ミニ遊縁日</a></td><td>豊洲千客万来</td><td>要確認</td></tr>
+      <tr><td>8/15</td><td><a href="https://www.baynet.ne.jp/fukagawamatsuri/" target="_blank" rel="noopener">富岡八幡宮例大祭 豊洲巡行</a></td><td>豊洲</td><td>無料</td></tr>
+      <tr><td>8/15〜16</td><td><a href="https://popgalaxy.net/" target="_blank" rel="noopener">POP GALAXY 2026</a></td><td>お台場R地区</td><td>一般4,500円</td></tr>
+      <tr><td>8/15〜16</td><td><a href="https://www.comiket.co.jp/" target="_blank" rel="noopener">コミックマーケット C108</a></td><td>東京ビッグサイト</td><td>—</td></tr>
+      <tr><td>8/16</td><td><a href="https://www.baynet.ne.jp/fukagawamatsuri/" target="_blank" rel="noopener">富岡八幡宮例大祭 神輿連合渡御</a></td><td>深川地域</td><td>無料</td></tr>
       <tr><td>8/17</td><td>親子で楽しむはじめての香り実験</td><td>豊洲公園</td><td>要確認</td></tr>
       <tr><td>8/20</td><td>キッズ入札クエスト</td><td>うるる本社（晴海）</td><td>要確認</td></tr>
-      <tr><td>8/20〜21</td><td>親子おさかな学習会 inシーフードショー</td><td>東京ビッグサイト</td><td>申込制</td></tr>
-      <tr><td>8/21〜22</td><td>中央区大江戸まつり盆おどり大会</td><td>浜町公園</td><td>無料</td></tr>
-      <tr class="recommended"><td>8/22</td><td>★ TOYOSU MOVIE NIGHT 2026</td><td>豊洲公園</td><td>無料</td></tr>
-      <tr><td>8/22</td><td>お台場ランタン</td><td>お台場海浜公園</td><td>6,980円〜</td></tr>
-      <tr><td>8/28</td><td>吉本興業 ぼーんとぅ盆踊り2026夏</td><td>豊洲PIT</td><td>要確認</td></tr>
+      <tr><td>8/20〜21</td><td><a href="https://seafood-show.jp/" target="_blank" rel="noopener">親子おさかな学習会 inシーフードショー</a></td><td>東京ビッグサイト</td><td>申込制</td></tr>
+      <tr><td>8/21〜22</td><td><a href="https://www.city.chuo.lg.jp/" target="_blank" rel="noopener">中央区大江戸まつり盆おどり大会</a></td><td>浜町公園</td><td>無料</td></tr>
+      <tr class="recommended"><td>8/22</td><td>★ <a href="https://toyosugururi.jp/event/style-market/entry-1048.html" target="_blank" rel="noopener">TOYOSU MOVIE NIGHT 2026</a></td><td>豊洲公園</td><td>無料</td></tr>
+      <tr><td>8/22</td><td><a href="https://event.e-lantern.jp/" target="_blank" rel="noopener">お台場ランタン</a></td><td>お台場海浜公園</td><td>6,980円〜</td></tr>
+      <tr><td>8/28</td><td><a href="https://toyosu.pia-pit.jp/" target="_blank" rel="noopener">吉本興業 ぼーんとぅ盆踊り2026夏</a></td><td>豊洲PIT</td><td>要確認</td></tr>
       <tr><td>8/28〜29</td><td>第27回 勝どきDE盆踊り</td><td>月島第二児童公園</td><td>無料</td></tr>
       <tr><td>8/29</td><td>豊洲アクアスロンフェスティバル2026</td><td>豊洲ぐるり公園</td><td>要申込</td></tr>
-      <tr class="recommended"><td>8/29〜30</td><td>★ Toyosu Park Jazz Night 2026</td><td>豊洲公園</td><td>無料</td></tr>
-      <tr><td>8/29〜30</td><td>東京おもちゃショー（一般公開）</td><td>東京ビッグサイト</td><td>要確認</td></tr>
+      <tr class="recommended"><td>8/29〜30</td><td>★ <a href="https://toyosugururi.jp/event/smallmarket/entry-1056.html" target="_blank" rel="noopener">Toyosu Park Jazz Night 2026</a></td><td>豊洲公園</td><td>無料</td></tr>
+      <tr><td>8/29〜30</td><td><a href="https://www.toys.or.jp/toyshow/" target="_blank" rel="noopener">東京おもちゃショー（一般公開）</a></td><td>東京ビッグサイト</td><td>要確認</td></tr>
       <tr><td>8/30</td><td>夏のおわりのおはなし会</td><td>豊洲図書館</td><td>無料</td></tr>
-      <tr><td>8/31</td><td>あおみ夏祭り2026</td><td>シンボルプロムナード公園</td><td>無料</td></tr>
-      <tr class="recommended"><td>〜9/6</td><td>★ じゃぶじゃぶ池</td><td>豊洲公園</td><td>無料</td></tr>
+      <tr><td>8/31</td><td><a href="https://www.toyota-arena-tokyo.jp/pages/gc1u0oubtwl/" target="_blank" rel="noopener">あおみ夏祭り2026</a></td><td>シンボルプロムナード公園</td><td>無料</td></tr>
+      <tr class="recommended"><td>〜9/6</td><td>★ <a href="https://toyosugururi.jp/" target="_blank" rel="noopener">じゃぶじゃぶ池</a></td><td>豊洲公園</td><td>無料</td></tr>
     </tbody>
   </table>
 </div>
