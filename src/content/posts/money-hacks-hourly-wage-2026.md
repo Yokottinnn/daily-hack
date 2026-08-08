@@ -41,7 +41,6 @@ references:
   <div class="hakkako-quote">アンケートサイトに1日1時間張り付いて月3,000円。それ「副業やってます」じゃなくて「最低賃金の1/3で自分を雇ってます」って意味だからね。アタシ、見てて悲しくなるのよ。</div>
 </div>
 
-
 <!-- a8-banners auto-inserted by banner-fill (slot1-after-1st-h2) -->
 <div class="affiliate-block">
 <div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+12P7VE+3SDQ+5ZU29" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/gasya-no-mado-300x250.jpg" alt="ガス会社の乗り換えで、ガス料金が安くなる！【ガス屋の窓口】" width="300" height="250" loading="lazy"></a></div>
@@ -87,7 +86,6 @@ references:
 
 ポイントは、**1〜4位の「単発・高時給」は早く回収して、5〜6位の「ついで・低労力」は生活に溶かす**って戦略。7〜8位は「やってもいいけど、時間を奪われるなら即やめろ」の枠。
 
-
 <!-- a8-banners auto-inserted by banner-fill (slot2-middle) -->
 <div class="affiliate-block">
 <div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+N7Y56+3ZZC+HY069" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/warau-300x250.jpg" alt="ポイ活ならワラウ【ワラウ】（広告利用ボーナスクリア）" width="300" height="250" loading="lazy"></a></div>
@@ -108,7 +106,7 @@ references:
 
 クレカの入会特典は「入会＋数ヶ月以内に◯万円利用」で**5,000〜15,000円相当**が定番。買い物は普段の生活費を回すだけだから、実質的な手間は申込の20〜40分だけ。だから時給換算で上位に来る。
 
-しかも作ったあとも年会費無料で還元1%以上のカードなら、特典回収後もずっと得し続ける。一度きりじゃなく**「資産」として残る**のが他施策との違いね。どのカードが年会費無料で高還元か迷うなら[年会費無料×高還元クレカ比較 2026](/posts/credit-card-no-annual-fee-comparison-2026/)を先に読むこと。
+しかも作ったあとも年会費無料で還元1%以上のカードなら、特典回収後もずっと得し続ける。一度きりじゃなく<strong>「資産」として残る</strong>のが他施策との違いね。どのカードが年会費無料で高還元か迷うなら[年会費無料×高還元クレカ比較 2026](/posts/credit-card-no-annual-fee-comparison-2026/)を先に読むこと。
 
 ### A8セルフバック（数をこなせる）
 

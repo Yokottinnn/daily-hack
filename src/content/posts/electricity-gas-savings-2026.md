@@ -348,7 +348,7 @@ author: "hacker-ko"
 <div class="flow-steps">
   <div class="flow-step"><strong>1. 経済圏を決める</strong>：あんたが普段使ってるサービスを確認。楽天市場・楽天カード派なら楽天でんき、au/UQ/Pontaなら auでんき、ソフトバンク・PayPay派ならソフトバンクでんき、ドコモ・dカードなら ドコモでんき、特に経済圏に拘りがない or ENEOSカード持ちなら ENEOSでんき or オクトパスエナジー</div>
   <div class="flow-step"><strong>2. 電気使用量を確認</strong>：直近12ヶ月の検針票またはマイページで月平均kWhをチェック。300kWh超なら ENEOSでんき or オクトパスエナジーの「使うほど安くなる」型が刺さる。150〜300kWhなら基本料0円型の 楽天でんき or Looopでんきが向く</div>
-  <div class="flow-step"><strong>3. シミュレーション</strong>：候補2〜3社の公式サイトに住所・月使用量を入力して**年間削減額を試算**。一番安く出た会社で申込み、所要15分で完了</div>
+  <div class="flow-step"><strong>3. シミュレーション</strong>：候補2〜3社の公式サイトに住所・月使用量を入力して<strong>年間削減額を試算</strong>。一番安く出た会社で申込み、所要15分で完了</div>
 </div>
 
 ### 電気とガスは同じ会社でまとめるべき？

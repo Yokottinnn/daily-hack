@@ -45,7 +45,6 @@ references:
 
 <p class="source-note">※ 速度の数値はいずれも「一般に報告される傾向・概算の目安」です。実効速度は時期・エリア・端末・電波状況で大きく変動し、ここに挙げた数値を保証するものではありません。出典: 各社公式情報および総務省の通信関連公表資料、ユーザー実測の一般的傾向（2026年6月時点）。指標の発想は @sugoi_service の独自指標型比較を参考にしています。</p>
 
-
 <!-- a8-banners auto-inserted by banner-fill (slot1-after-1st-h2) -->
 <div class="affiliate-block">
 <div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+276P0A+57X0+HVV0H" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/ren-sim-300x250.jpg" alt="【新商品】安定して速いレンタルSIMの「REN SIM -レンシム-」" width="300" height="250" loading="lazy"></a></div>
@@ -77,7 +76,7 @@ references:
 
 ## 速度単価ランキング — 「1Mbpsをいくらで買ってるか」で並べ替える
 
-さあ本題。上の表の「比較用月額 ÷ 昼の実効速度（レンジの中央値あたり）」で速度単価を出して、**安い順（速度コスパが良い順）**に並べ替えるわよ。数字は目安レンジから概算した参考値だからね。
+さあ本題。上の表の「比較用月額 ÷ 昼の実効速度（レンジの中央値あたり）」で速度単価を出して、<strong>安い順（速度コスパが良い順）</strong>に並べ替えるわよ。数字は目安レンジから概算した参考値だからね。
 
 | 順位 | 事業者 | 速度単価の目安(円/Mbps) | ひとことコメント |
 |---|---|---|---|
@@ -99,7 +98,6 @@ mineoには平日昼の谷を避ける「マイそく」みたいな割り切り
   <div class="hakkako-mascot"><img src="/images/expr-09-arms-crossed.png" alt="ハッカー子" /></div>
   <div class="hakkako-quote">断言するわ。<strong>「昼にスマホ単体でちゃんと使いたい」なら、MVNO最安は買うな</strong>。多少高くても大手サブブランドを選びなさい。100円安いプランで毎日のランチタイムをイライラして過ごすって、コスパの計算ができてない証拠よ。時間も立派なコストなの。</div>
 </div>
-
 
 <!-- a8-banners auto-inserted by banner-fill (slot2-middle) -->
 <div class="affiliate-block">
@@ -128,7 +126,7 @@ mineoには平日昼の谷を避ける「マイそく」みたいな割り切り
   </div>
 </div>
 
-要は**「昼にモバイル回線で重い処理をするか」がただ一つの分岐点**。そこをWiFiで回避できる人は最安MVNOで正解、回避できない人は大手サブブランド。あんたの生活パターンを正直に棚卸ししなさい。
+要は<strong>「昼にモバイル回線で重い処理をするか」がただ一つの分岐点</strong>。そこをWiFiで回避できる人は最安MVNOで正解、回避できない人は大手サブブランド。あんたの生活パターンを正直に棚卸ししなさい。
 
 ## 契約前に確認しろ — 速度で後悔しないためのチェック項目
 
@@ -142,7 +140,6 @@ mineoには平日昼の谷を避ける「マイそく」みたいな割り切り
 </ul>
 
 > ⚠️ **注意**: この記事の速度値は「一般に報告される傾向・概算の目安」であって、契約後の速度を保証するものじゃない。MVNOは設備増強やプラン改定で昼の速度が改善することもあれば、ユーザー増で悪化することもある。**契約直前に必ず直近の実測情報を取り直す**のが鉄則よ。
-
 
 <!-- a8-banners auto-inserted by banner-fill (slot3-before-tail) -->
 <div class="affiliate-block">

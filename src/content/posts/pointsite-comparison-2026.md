@@ -120,7 +120,7 @@ author: "hacker-ko"
     </dl>
     <a class="compare-cta" href="https://pc.moppy.jp/" target="_blank" rel="sponsored noopener nofollow">モッピー公式サイト →</a>
     <div class="compare-card-campaign">
-      💸 <strong>入会キャンペーン</strong>: 新規登録＋翌々月末までに5,000ポイント以上獲得で **最大2,000円相当のボーナス**が定期的に開催。さらに友達紹介経由なら追加でポイント付与の二重取り可能。<a href="https://pc.moppy.jp/" target="_blank" rel="sponsored noopener nofollow">最新キャンペーンを確認 →</a>
+      💸 <strong>入会キャンペーン</strong>: 新規登録＋翌々月末までに5,000ポイント以上獲得で <strong>最大2,000円相当のボーナス</strong>が定期的に開催。さらに友達紹介経由なら追加でポイント付与の二重取り可能。<a href="https://pc.moppy.jp/" target="_blank" rel="sponsored noopener nofollow">最新キャンペーンを確認 →</a>
     </div>
   </article>
 
@@ -140,7 +140,7 @@ author: "hacker-ko"
     </dl>
     <a class="compare-cta" href="https://hapitas.jp/" target="_blank" rel="sponsored noopener nofollow">ハピタス公式サイト →</a>
     <div class="compare-card-campaign">
-      🎁 <strong>入会キャンペーン</strong>: 新規登録＋翌月末までに広告利用で **最大1,000円相当のポイント付与**。ハピ友制度経由ならさらに追加ボーナスあり。<a href="https://hapitas.jp/" target="_blank" rel="sponsored noopener nofollow">最新キャンペーンを確認 →</a>
+      🎁 <strong>入会キャンペーン</strong>: 新規登録＋翌月末までに広告利用で <strong>最大1,000円相当のポイント付与</strong>。ハピ友制度経由ならさらに追加ボーナスあり。<a href="https://hapitas.jp/" target="_blank" rel="sponsored noopener nofollow">最新キャンペーンを確認 →</a>
     </div>
   </article>
 
@@ -160,7 +160,7 @@ author: "hacker-ko"
     </dl>
     <a class="compare-cta" href="https://pointi.jp/" target="_blank" rel="sponsored noopener nofollow">ポイントインカム公式サイト →</a>
     <div class="compare-card-campaign">
-      🎯 <strong>入会キャンペーン</strong>: 新規登録＋ミニゲーム参加＋広告利用達成で **最大1,500円相当のポイント付与**ステップ制ボーナス。長期利用するほどランクが上がって還元率も底上げされる仕組み。<a href="https://pointi.jp/" target="_blank" rel="sponsored noopener nofollow">最新キャンペーンを確認 →</a>
+      🎯 <strong>入会キャンペーン</strong>: 新規登録＋ミニゲーム参加＋広告利用達成で <strong>最大1,500円相当のポイント付与</strong>ステップ制ボーナス。長期利用するほどランクが上がって還元率も底上げされる仕組み。<a href="https://pointi.jp/" target="_blank" rel="sponsored noopener nofollow">最新キャンペーンを確認 →</a>
     </div>
   </article>
 
@@ -180,7 +180,7 @@ author: "hacker-ko"
     </dl>
     <a class="compare-cta" href="https://www.pointtown.com/" target="_blank" rel="sponsored noopener nofollow">ポイントタウン公式サイト →</a>
     <div class="compare-card-campaign">
-      ⭐ <strong>入会キャンペーン</strong>: 新規登録＋アプリログイン＋初回広告利用で **最大2,000円相当のポイント付与**が定期開催。GMOクリック証券・GMOコイン等のGMO系案件で還元率が高めなのも見逃せない。<a href="https://www.pointtown.com/" target="_blank" rel="sponsored noopener nofollow">最新キャンペーンを確認 →</a>
+      ⭐ <strong>入会キャンペーン</strong>: 新規登録＋アプリログイン＋初回広告利用で <strong>最大2,000円相当のポイント付与</strong>が定期開催。GMOクリック証券・GMOコイン等のGMO系案件で還元率が高めなのも見逃せない。<a href="https://www.pointtown.com/" target="_blank" rel="sponsored noopener nofollow">最新キャンペーンを確認 →</a>
     </div>
   </article>
 </div>

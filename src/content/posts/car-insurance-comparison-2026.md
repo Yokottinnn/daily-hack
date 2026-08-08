@@ -83,7 +83,6 @@ references: ["https://www.sonysonpo.co.jp/", "https://www.sbisonpo.co.jp/", "htt
 
 <p class="source-note">※ 上記は条件別の第一候補例。最終的な最安・最適は<strong>3社以上の一括見積もり結果を必ず並べて</strong>判断しなさい。実際の保険料は年齢・等級・型式・地域・走行距離・補償内容で大きく変動するから、ここはあくまで起点。</p>
 
-
 <!-- a8-banners auto-inserted by banner-fill (slot1-after-1st-h2) -->
 <div class="affiliate-block">
 <div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+10BHGA+3SPO+2T8Z4X" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/haruene-denki-300x250.jpg" alt="メディア会員の方必見！電気代コスト削減！★大幅還元実施中★【ハルエネ電気】" width="300" height="250" loading="lazy"></a></div>
@@ -314,7 +313,6 @@ references: ["https://www.sonysonpo.co.jp/", "https://www.sbisonpo.co.jp/", "htt
   </ul>
 </aside>
 
-
 <!-- a8-banners auto-inserted by banner-fill (slot2-middle) -->
 <div class="affiliate-block">
 <div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+12P7VE+3SDQ+5ZU29" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/gasya-no-mado-300x250.jpg" alt="ガス会社の乗り換えで、ガス料金が安くなる！【ガス屋の窓口】" width="300" height="250" loading="lazy"></a></div>
@@ -453,9 +451,10 @@ references: ["https://www.sonysonpo.co.jp/", "https://www.sbisonpo.co.jp/", "htt
 
 ### Q. 「車両保険」つけるべき？外すべき？
 
-判断軸は**「全損 or 大破した時に自費で買い替えできるか」**。
+判断軸は<strong>「全損 or 大破した時に自費で買い替えできるか」</strong>。
+
 - 新車・ローン中 → **絶対つける**（一般条件）
-- 5年落ち以上の中古車・残価100万円以下 → **外してもOK** or **エコノミー（限定）**で保険料半額
+- 5年落ち以上の中古車・残価100万円以下 → **外してもOK** or <strong>エコノミー（限定）</strong>で保険料半額
 - 高級車・ローン残あり → **必ず一般条件**
 
 迷ったらディーラー残価設定ローンの「最終支払額」が**車の実質市場価値**として参考になる。それが小さいなら外してOK。
@@ -490,7 +489,6 @@ references: ["https://www.sonysonpo.co.jp/", "https://www.sbisonpo.co.jp/", "htt
     </a></li>
   </ul>
 </aside>
-
 
 <!-- a8-banners auto-inserted by banner-fill (slot3-before-tail) -->
 <div class="affiliate-block">

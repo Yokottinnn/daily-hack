@@ -43,7 +43,6 @@ references:
 
 この「独自指標で通念を覆す」切り口、アタシは [@sugoi_service](https://x.com/sugoi_service) の発想がめちゃくちゃ好きでね。月額の額面じゃなく「実際の使用量で割る」って当たり前のことを、誰もやらないんだもの。
 
-
 <!-- a8-banners auto-inserted by banner-fill (slot1-after-1st-h2) -->
 <div class="affiliate-block">
 <div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+12P7VE+3SDQ+5ZU29" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/gasya-no-mado-300x250.jpg" alt="ガス会社の乗り換えで、ガス料金が安くなる！【ガス屋の窓口】" width="300" height="250" loading="lazy"></a></div>
@@ -70,7 +69,7 @@ references:
 
 ## 【本題】3層シナリオで「実質1本単価」を計算してみた
 
-ここが今日の肝。同じサービスでも観る本数で単価がどう動くか、**ライト層（月3本）・ミドル層（月8本）・ヘビー層（月20本）**の3シナリオで計算したわ。月額は上の概算値（標準的なプラン想定）で割ってる。
+ここが今日の肝。同じサービスでも観る本数で単価がどう動くか、<strong>ライト層（月3本）・ミドル層（月8本）・ヘビー層（月20本）</strong>の3シナリオで計算したわ。月額は上の概算値（標準的なプラン想定）で割ってる。
 
 ### ライト層（月3本）の実質1本単価
 
@@ -107,7 +106,7 @@ references:
 | Hulu | 約1,026円 | 約51円 |
 | U-NEXT | 約2,189円 | 約109円 |
 
-ヘビー層になると全社が缶ジュース以下。ここで効いてくるのが**「観たい作品が尽きないか」**よ。20本観るならカタログの厚みが命。**見放題本数が業界最大級のU-NEXT**は、1本109円でも「観るものが切れない」から実質コスパで逆転する。安いサービスで観たい作品が枯れて結局課金…が一番もったいない。
+ヘビー層になると全社が缶ジュース以下。ここで効いてくるのが<strong>「観たい作品が尽きないか」</strong>よ。20本観るならカタログの厚みが命。**見放題本数が業界最大級のU-NEXT**は、1本109円でも「観るものが切れない」から実質コスパで逆転する。安いサービスで観たい作品が枯れて結局課金…が一番もったいない。
 
 <div class="section-with-mascot">
   <div class="mascot-wrap"><img src="/images/expr-09-arms-crossed.png" alt="" /></div>
@@ -118,8 +117,7 @@ references:
 
 > ⚠️ **注意**: サブスクの本当の敵は月額じゃなくて「惰性契約」。観てない月が続いてるサービスは、単価が天井知らずに跳ね上がってる状態。**3ヶ月連続でほぼ観てないサブスクは即解約**しなさい。動画サブスクは大半が「いつでも解約OK・縛りなし」だから、観たい作品が来た月だけ再契約すればいいの。これができる人とできない人で年間1〜3万円は差がつくわよ。
 
-ちなみに観たい作品があるときだけ単月契約して観終わったら解約、っていう**「ザッピング契約」**は全く悪いことじゃない。むしろ実質1本単価を最小化する最強テクよ。罪悪感なんて持たなくていい。
-
+ちなみに観たい作品があるときだけ単月契約して観終わったら解約、っていう<strong>「ザッピング契約」</strong>は全く悪いことじゃない。むしろ実質1本単価を最小化する最強テクよ。罪悪感なんて持たなくていい。
 
 <!-- a8-banners auto-inserted by banner-fill (slot2-middle) -->
 <div class="affiliate-block">
@@ -172,7 +170,6 @@ references:
   <div class="hakkako-mascot"><img src="/images/expr-04-cheer.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">サブスクの固定費は「ポイ活」の主戦場でもあるの。決済を高還元カードに寄せるだけで実質単価がさらに下がる。やってない人は <a href="/posts/credit-card-no-annual-fee-comparison-2026/">クレカ比較記事</a> も読んでおきなさい。</div>
 </div>
-
 
 <!-- a8-banners auto-inserted by banner-fill (slot3-before-tail) -->
 <div class="affiliate-block">

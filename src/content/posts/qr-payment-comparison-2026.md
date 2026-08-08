@@ -23,7 +23,7 @@ author: "hacker-ko"
 
 ## なんでこの3つで比較してるのか
 
-国内QRコード決済の市場は、2024年時点で**PayPayが利用者数6,700万人で圧倒的1位**、続いて**楽天ペイ（5,000万人規模の楽天会員ベース）**、**d払い（dポイントクラブ会員1億人超）**の3強体制。auPAY・LINE Payも残ってるけど、加盟店数・キャンペーン規模・連携サービスの厚みで言うとこの3つが頭ひとつ抜けてる。逆に言うと**この3つを抑えとけば、日常の決済シーンで困らない**。だから比較するなら、まずここ。
+国内QRコード決済の市場は、2024年時点で**PayPayが利用者数6,700万人で圧倒的1位**、続いて**楽天ペイ（5,000万人規模の楽天会員ベース）**、<strong>d払い（dポイントクラブ会員1億人超）</strong>の3強体制。auPAY・LINE Payも残ってるけど、加盟店数・キャンペーン規模・連携サービスの厚みで言うとこの3つが頭ひとつ抜けてる。逆に言うと**この3つを抑えとけば、日常の決済シーンで困らない**。だから比較するなら、まずここ。
 
 <aside class="related-block">
   <div class="related-block-head">
@@ -85,7 +85,7 @@ QRコード決済の還元は **「基本還元 × チャージ元クレカ還�
     </dl>
     <a class="compare-cta" href="https://paypay.ne.jp/" target="_blank" rel="sponsored noopener nofollow">PayPay公式サイト →</a>
     <div class="compare-card-campaign">
-      💸 <strong>新規登録キャンペーン</strong>: PayPayアプリ初回ダウンロード＋本人認証で **最大1,000円相当のPayPayポイント**が付与される常設キャンペーンあり。さらに月ごとに「対象店20%還元」「自治体還元（住民税・国民健康保険等）」が走るので、登録直後にチェック。<a href="https://paypay.ne.jp/event/" target="_blank" rel="sponsored noopener nofollow">最新キャンペーン一覧 →</a>
+      💸 <strong>新規登録キャンペーン</strong>: PayPayアプリ初回ダウンロード＋本人認証で <strong>最大1,000円相当のPayPayポイント</strong>が付与される常設キャンペーンあり。さらに月ごとに「対象店20%還元」「自治体還元（住民税・国民健康保険等）」が走るので、登録直後にチェック。<a href="https://paypay.ne.jp/event/" target="_blank" rel="sponsored noopener nofollow">最新キャンペーン一覧 →</a>
     </div>
   </article>
 </div>
@@ -111,7 +111,7 @@ QRコード決済の還元は **「基本還元 × チャージ元クレカ還�
     </dl>
     <a class="compare-cta" href="https://pay.rakuten.co.jp/" target="_blank" rel="sponsored noopener nofollow">楽天ペイ公式サイト →</a>
     <div class="compare-card-campaign">
-      🎁 <strong>新規登録キャンペーン</strong>: 楽天ペイの初回利用で **楽天ポイント進呈 + 楽天キャッシュ進呈**の組み合わせキャンペーンが定期開催（条件: 楽天会員登録 + 初回支払い）。<a href="https://payment.rakuten.co.jp/news/2024092400/" target="_blank" rel="sponsored noopener nofollow">直近の楽天ペイ キャンペーンニュース →</a>
+      🎁 <strong>新規登録キャンペーン</strong>: 楽天ペイの初回利用で <strong>楽天ポイント進呈 + 楽天キャッシュ進呈</strong>の組み合わせキャンペーンが定期開催（条件: 楽天会員登録 + 初回支払い）。<a href="https://payment.rakuten.co.jp/news/2024092400/" target="_blank" rel="sponsored noopener nofollow">直近の楽天ペイ キャンペーンニュース →</a>
     </div>
   </article>
 </div>
@@ -160,7 +160,7 @@ QRコード決済の還元は **「基本還元 × チャージ元クレカ還�
     </dl>
     <a class="compare-cta" href="https://service.smt.docomo.ne.jp/keitai_payment/" target="_blank" rel="sponsored noopener nofollow">d払い公式サイト →</a>
     <div class="compare-card-campaign">
-      🎯 <strong>新規登録キャンペーン</strong>: d払い初回利用で **dポイント進呈**＋ドコモ回線契約者なら **dポイント増量プログラム** に自動エントリー。dカード GOLD 契約者は還元率がさらに底上げ。<a href="https://service.smt.docomo.ne.jp/keitai_payment/campaign/" target="_blank" rel="sponsored noopener nofollow">最新キャンペーン一覧 →</a>
+      🎯 <strong>新規登録キャンペーン</strong>: d払い初回利用で <strong>dポイント進呈</strong>＋ドコモ回線契約者なら <strong>dポイント増量プログラム</strong> に自動エントリー。dカード GOLD 契約者は還元率がさらに底上げ。<a href="https://service.smt.docomo.ne.jp/keitai_payment/campaign/" target="_blank" rel="sponsored noopener nofollow">最新キャンペーン一覧 →</a>
     </div>
   </article>
 </div>

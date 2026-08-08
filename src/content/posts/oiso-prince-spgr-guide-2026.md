@@ -20,7 +20,7 @@ author: "hacker-ko"
 
 <div class="hakkako-says">
   <div class="hakkako-mascot"><img src="/images/expr-04-cheer.png" alt="Daily Hackマスコット" /></div>
-  <div class="hakkako-quote">先に結論。<strong>SPGRは年会費無料</strong>。Blueでも公式ベストレート＆ポイント還元3%付くから登録しないのは情弱。Platinum以上に上げると大磯ロングビーチ無料パス＋朝食ビュッフェ無料で、家族滞在なら**年間10万円単位**で得するわよ。</div>
+  <div class="hakkako-quote">先に結論。<strong>SPGRは年会費無料</strong>。Blueでも公式ベストレート＆ポイント還元3%付くから登録しないのは情弱。Platinum以上に上げると大磯ロングビーチ無料パス＋朝食ビュッフェ無料で、家族滞在なら<strong>年間10万円単位</strong>で得するわよ。</div>
 </div>
 
 ## 大磯プリンスホテルってどんな場所？｜湘南の海沿いリゾート
@@ -299,7 +299,7 @@ author: "hacker-ko"
 
 <div class="hakkako-says">
   <div class="hakkako-mascot"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
-  <div class="hakkako-quote">**Platinumの「朝食ビュッフェ無料（同伴者含む）」が鬼コスパ**。大磯の朝食ビュッフェは大人￥3,500前後だから、夫婦2人で1泊するだけで￥7,000浮く。年5泊で￥35,000、立派な会員特典の元取れる金額よ。</div>
+  <div class="hakkako-quote"><strong>Platinumの「朝食ビュッフェ無料（同伴者含む）」が鬼コスパ</strong>。大磯の朝食ビュッフェは大人￥3,500前後だから、夫婦2人で1泊するだけで￥7,000浮く。年5泊で￥35,000、立派な会員特典の元取れる金額よ。</div>
 </div>
 
 ## 大磯プリンス特化の会員特典｜SPGRで何が変わる？
@@ -397,7 +397,7 @@ author: "hacker-ko"
 
 <div class="hakkako-says">
   <div class="hakkako-mascot"><img src="/images/expr-02-pout.png" alt="Daily Hackマスコット" /></div>
-  <div class="hakkako-quote">楽天トラベル・じゃらん経由で予約してる人、それ**会員ポイント還元の対象外**よ。公式直予約 + アプリ会員番号紐付けが鉄則。あんた、毎回ここでミスってない？</div>
+  <div class="hakkako-quote">楽天トラベル・じゃらん経由で予約してる人、それ<strong>会員ポイント還元の対象外</strong>よ。公式直予約 + アプリ会員番号紐付けが鉄則。あんた、毎回ここでミスってない？</div>
 </div>
 
 <!-- a8-affiliate-expansion -->

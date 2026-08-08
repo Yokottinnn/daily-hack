@@ -38,7 +38,6 @@ references: ["https://coki.jp/article/column/83119/", "https://b4c.jp/poigiken/a
 
 > 🎯 **要するに**：「PayPayで何でも払えばポイントが貯まる」時代は終わった。**“どこで払うか”を選ばないと損する**フェーズに入ったってこと。
 
-
 <!-- a8-banners auto-inserted by banner-fill (slot1-after-1st-h2) -->
 <div class="affiliate-block">
 <div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+10BHGA+3SPO+2T8Z4X" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/haruene-denki-300x250.jpg" alt="メディア会員の方必見！電気代コスト削減！★大幅還元実施中★【ハルエネ電気】" width="300" height="250" loading="lazy"></a></div>
@@ -59,7 +58,7 @@ references: ["https://coki.jp/article/column/83119/", "https://b4c.jp/poigiken/a
 
 ### ③ 交通系IC・他社チャージ（17社）の付与廃止
 
-モバイルSuica／PASMO、au PAY、nanaco、WAONなど**17社へのチャージが付与対象外（0%）**に。「PayPayカードでSuicaチャージしてポイント二重取り」の王道ルートが封じられた。
+モバイルSuica／PASMO、au PAY、nanaco、WAONなど<strong>17社へのチャージが付与対象外（0%）</strong>に。「PayPayカードでSuicaチャージしてポイント二重取り」の王道ルートが封じられた。
 
 ### ④ eKYC（本人確認）が必須化 ← 一番見落とすと痛い
 
@@ -67,7 +66,7 @@ references: ["https://coki.jp/article/column/83119/", "https://b4c.jp/poigiken/a
 
 ### ⑤ PayPayカードゴールドの+0.5%上乗せ廃止
 
-ゴールドの「基本1.5%」を支えてた**+0.5%上乗せが廃止→基本1.0%に**。代わりに**年間100万円利用で11,000ptボーナス**（年会費11,000円と実質相殺）が新設。年100万円使わない人は**ゴールドの旨味が薄れた**。
+ゴールドの「基本1.5%」を支えてた<strong>+0.5%上乗せが廃止→基本1.0%に</strong>。代わりに**年間100万円利用で11,000ptボーナス**（年会費11,000円と実質相殺）が新設。年100万円使わない人は**ゴールドの旨味が薄れた**。
 
 <div class="hakkako-says">
 <img src="/images/expr-09-arms-crossed.png" alt="ハッカー子" />
@@ -82,20 +81,19 @@ references: ["https://coki.jp/article/column/83119/", "https://b4c.jp/poigiken/a
 <div class="compare-card recommended">
 <h3>🅰 公共料金は「他カード」に逃がす</h3>
 <p class="compare-best"><strong>固定費が多い人はこれが最優先</strong></p>
-<p>電気・ガス・水道・税金の支払いを**還元率1.0%以上の他カードに切り替える**。固定費は金額が大きいので、0.5%差でも年間で数千円違う。楽天カード・JREカード等の常時1%カードへ。</p>
+<p>電気・ガス・水道・税金の支払いを<strong>還元率1.0%以上の他カードに切り替える</strong>。固定費は金額が大きいので、0.5%差でも年間で数千円違う。楽天カード・JREカード等の常時1%カードへ。</p>
 </div>
 <div class="compare-card">
 <h3>🅱 ゴールドの継続可否を見直す</h3>
 <p class="compare-best"><strong>年100万円使わないなら要検討</strong></p>
-<p>+0.5%が消えた今、**年100万円（月約8.3万円）使わないとゴールドの11,000pt特典で年会費を回収できない**。使わない人は一般カードへの切替・解約も選択肢。</p>
+<p>+0.5%が消えた今、<strong>年100万円（月約8.3万円）使わないとゴールドの11,000pt特典で年会費を回収できない</strong>。使わない人は一般カードへの切替・解約も選択肢。</p>
 </div>
 <div class="compare-card">
 <h3>🅲 eKYCを済ませて“通常還元”は死守</h3>
 <p class="compare-best"><strong>全員 必須（やらないと全損）</strong></p>
-<p>本人確認が未完了だと還元ゼロ。**アプリの案内から数分で完了**。これは対策というより「やってないと損が確定する」最低ライン。今日中に。</p>
+<p>本人確認が未完了だと還元ゼロ。<strong>アプリの案内から数分で完了</strong>。これは対策というより「やってないと損が確定する」最低ライン。今日中に。</p>
 </div>
 </div>
-
 
 <!-- a8-banners auto-inserted by banner-fill (slot2-middle) -->
 <div class="affiliate-block">

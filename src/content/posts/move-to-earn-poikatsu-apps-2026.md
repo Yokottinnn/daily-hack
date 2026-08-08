@@ -17,7 +17,7 @@ references: ["https://www.ana.co.jp/travelandlife/article/001953/", "https://www
 
 「**歩いてるだけ、移動してるだけでポイントが貯まる**」── 通勤も、買い物も、犬の散歩も、どうせ動くなら1円でも回収したい。でも移動ポイ活アプリは星の数ほどあって、「**結局どれが一番稼げるの？**」がいつまでも分からない。
 
-このページでは、トリマ・ANA Pocket・JAL Wellness & Travel・dヘルスケア・楽天ヘルスケアの主要5アプリを、**「実際に1か月でいくら稼げたか」**という実績ベースで横断比較する。月額課金が要るもの・無料で完結するもの、貯まるのが現金系か・マイルか・経済圏ポイントか──全部ひっくるめて「**コスパで一番お得な移動ポイ活**」をハッキリさせる。
+このページでは、トリマ・ANA Pocket・JAL Wellness & Travel・dヘルスケア・楽天ヘルスケアの主要5アプリを、<strong>「実際に1か月でいくら稼げたか」</strong>という実績ベースで横断比較する。月額課金が要るもの・無料で完結するもの、貯まるのが現金系か・マイルか・経済圏ポイントか──全部ひっくるめて「**コスパで一番お得な移動ポイ活**」をハッキリさせる。
 
 <div class="hakkako-says">
 <img src="/images/expr-05-smug.png" alt="ハッカー子" />
@@ -34,8 +34,7 @@ references: ["https://www.ana.co.jp/travelandlife/article/001953/", "https://www
 | **歩数チャレンジ型** | 1日◯歩でくじ・ミッション達成 | JAL Wellness & Travel / dヘルスケア / 楽天ヘルスケア | マイル / 経済圏ポイント |
 | **広告視聴ブースト型** | 動画広告を見て獲得倍率UP | トリマ（動画広告）/ ANA Pocket（ガチャ） | 上記の上乗せ |
 
-ポイントは、**「移動距離型」は車移動が多い人ほど爆発的に貯まる**こと。逆に**「歩数チャレンジ型」は1日8,000〜10,000歩あるく人向け**。あんたの生活がどっちかで、選ぶアプリが変わる。
-
+ポイントは、**「移動距離型」は車移動が多い人ほど爆発的に貯まる**こと。逆に<strong>「歩数チャレンジ型」は1日8,000〜10,000歩あるく人向け</strong>。あんたの生活がどっちかで、選ぶアプリが変わる。
 
 <!-- a8-banners auto-inserted by banner-fill (slot1-after-1st-h2) -->
 <div class="affiliate-block">
@@ -76,7 +75,6 @@ references: ["https://www.ana.co.jp/travelandlife/article/001953/", "https://www
 <p>数字で並べると一気に見えてくるでしょ。<strong>「歩いて1か月◯万円！」みたいな宣伝はほぼ盛ってる</strong>。現実は移動量がよほど多くて月1,000〜2,000円が良いところ。でもね、<strong>無料アプリを複数併用すれば「何もしなくても勝手に月1,500円前後」</strong>は十分狙える。どうせ歩くんだから、これは拾わなきゃ損。</p>
 </div>
 
-
 <!-- a8-banners auto-inserted by banner-fill (slot2-middle) -->
 <div class="affiliate-block">
 <div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B43JB+C507KQ+389A+67RK1" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/chobirich-300x250.jpg" alt="ちょびリッチ" width="300" height="250" loading="lazy"></a></div>
@@ -91,17 +89,17 @@ references: ["https://www.ana.co.jp/travelandlife/article/001953/", "https://www
 <div class="compare-card recommended">
 <h3>💴 現金・ギフト券が欲しい</h3>
 <p class="compare-best"><strong>トリマ 一択</strong></p>
-<p>移動距離＋歩数＋動画広告で貯めて、Amazonギフト券・現金・各種ポイントに交換可能。**車・電車移動が多い人ほど青天井**。無料で月700〜1,200円分が現実的な王道アプリ。迷ったらまずこれ。</p>
+<p>移動距離＋歩数＋動画広告で貯めて、Amazonギフト券・現金・各種ポイントに交換可能。<strong>車・電車移動が多い人ほど青天井</strong>。無料で月700〜1,200円分が現実的な王道アプリ。迷ったらまずこれ。</p>
 </div>
 <div class="compare-card">
 <h3>✈️ マイルを貯めてる</h3>
 <p class="compare-best"><strong>ANA Pocket（Pro）/ JAL Wellness</strong></p>
-<p>ANAマイラーは **ANA Pocket Pro（550円）で月746〜1,500マイル**＝余裕で元が取れる。JALマイラーは **1日8,000歩以上歩けるならJAL Wellness**。歩かない人がJALに課金すると赤字なので注意。</p>
+<p>ANAマイラーは <strong>ANA Pocket Pro（550円）で月746〜1,500マイル</strong>＝余裕で元が取れる。JALマイラーは <strong>1日8,000歩以上歩けるならJAL Wellness</strong>。歩かない人がJALに課金すると赤字なので注意。</p>
 </div>
 <div class="compare-card">
 <h3>🛍️ 楽天/ドコモ経済圏</h3>
 <p class="compare-best"><strong>楽天ヘルスケア / dヘルスケア（無料）</strong></p>
-<p>稼げる額は月100〜150円と地味。でも**完全無料・5,000歩でくじを引くだけ**の手軽さで、貯まったポイントは普段の買い物にそのまま使える。経済圏ユーザーなら“ついで”で拾う価値あり。</p>
+<p>稼げる額は月100〜150円と地味。でも<strong>完全無料・5,000歩でくじを引くだけ</strong>の手軽さで、貯まったポイントは普段の買い物にそのまま使える。経済圏ユーザーなら“ついで”で拾う価値あり。</p>
 </div>
 </div>
 
@@ -113,7 +111,7 @@ references: ["https://www.ana.co.jp/travelandlife/article/001953/", "https://www
 2. **楽天ヘルスケア** or **dヘルスケア**（経済圏ポイントをついでに回収）
 3. マイラーなら **ANA Pocket Pro** を追加（課金しても元が取れる唯一級）
 
-この3本立てで、**「いつもの移動のまま、月1,500〜3,000円分」**が無理なく狙える。歩数チャレンジ系は同じ歩数を複数アプリにカウントできるので、**併用ペナルティが基本ない**のがミソ。
+この3本立てで、<strong>「いつもの移動のまま、月1,500〜3,000円分」</strong>が無理なく狙える。歩数チャレンジ系は同じ歩数を複数アプリにカウントできるので、**併用ペナルティが基本ない**のがミソ。
 
 <div class="hakkako-says">
 <img src="/images/expr-09-arms-crossed.png" alt="ハッカー子" />
