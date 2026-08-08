@@ -21,62 +21,46 @@ author: "hacker-ko"
 
 ## 30秒で決めたい人へ。まだ間に合うのはこの6つ
 
-<div class="highlight-grid cols-3">
-  <div class="highlight-item">
-    <span class="highlight-tag">〜8/16</span>
+<div class="event-picks">
+  <a class="event-pick" href="#とよす夏祭り2026-in-ららぽーと豊洲8816" style="--pick-img:url('/images/wangan-august-events-2026/photos/bon-odori.jpg')">
+    <span class="pick-date">〜8/16</span><span class="pick-free">無料</span>
     <h4>とよす夏祭り2026</h4>
-    <p><strong>入場無料。</strong>日替わりテーマの盆踊り＋屋台。ららぽーと豊洲。最終日はアニソン盆踊り。</p>
-  </div>
-  <div class="highlight-item">
-    <span class="highlight-tag">8/22</span>
+    <p>日替わりテーマの盆踊り＋屋台。8/11は<strong>Bリーグ3クラブ</strong>が参戦。</p>
+    <span class="pick-go">詳しく見る →</span>
+  </a>
+  <a class="event-pick" href="#toyosu-movie-night-2026822-芝生で映画無料" style="--pick-img:url('/images/wangan-august-events-2026/photos/toyosu-park.jpg')">
+    <span class="pick-date">8/22</span><span class="pick-free">無料</span>
     <h4>野外映画『マダガスカル』</h4>
-    <p><strong>無料。</strong>豊洲公園の芝生でレジャーシート敷いて観る。先着240名にドリンク配布あり。</p>
-  </div>
-  <div class="highlight-item">
-    <span class="highlight-tag">8/29-30</span>
+    <p>豊洲公園の芝生で観る。<strong>先着240名にドリンク配布</strong>あり。</p>
+    <span class="pick-go">詳しく見る →</span>
+  </a>
+  <a class="event-pick" href="#toyosu-park-jazz-night-202682930-夏の締めこれも無料" style="--pick-img:url('/images/wangan-august-events-2026/photos/toyosu-park2.jpg')">
+    <span class="pick-date">8/29-30</span><span class="pick-free">無料</span>
     <h4>Toyosu Park Jazz Night</h4>
-    <p><strong>無料。</strong>豊洲公園でジャズ生演奏＋キッチンカー。夏の締めにこれ以上ない。</p>
-  </div>
-  <div class="highlight-item">
-    <span class="highlight-tag">〜8/16</span>
+    <p>豊洲公園でジャズ生演奏＋キッチンカー。夏の締めにこれ以上ない。</p>
+    <span class="pick-go">詳しく見る →</span>
+  </a>
+  <a class="event-pick" href="#8月の残り全部まとめた一覧" style="--pick-img:url('/images/wangan-august-events-2026/photos/tomica.jpg')">
+    <span class="pick-date">〜8/16</span>
     <h4>トミカ博 in TOKYO</h4>
-    <p>有明GYM-EX。子連れならここ。<strong>当日券は前売より100円高い</strong>ので注意。</p>
-  </div>
-  <div class="highlight-item">
-    <span class="highlight-tag">〜8/31</span>
+    <p>有明GYM-EX。子連れならここ。<strong>当日券は大人1,400円</strong>。</p>
+    <span class="pick-go">詳しく見る →</span>
+  </a>
+  <a class="event-pick" href="#豊洲千客万来の天然温泉実は3通りの割引がある" style="--pick-img:url('/images/wangan-august-events-2026/photos/senkyakubanrai.jpg')">
+    <span class="pick-date">〜8/31</span>
     <h4>万葉倶楽部の割引</h4>
-    <p>豊洲千客万来の天然温泉。<strong>やり方次第で3,850円→3,150円</strong>。8月末で終わる割引あり。</p>
-  </div>
-  <div class="highlight-item">
-    <span class="highlight-tag">〜9/6</span>
+    <p>豊洲千客万来の天然温泉。<strong>やり方次第で3,850円→3,150円</strong>。</p>
+    <span class="pick-go">詳しく見る →</span>
+  </a>
+  <a class="event-pick" href="#子連れならタダのやつだけで足りる" style="--pick-img:url('/images/wangan-august-events-2026/photos/ariake.jpg')">
+    <span class="pick-date">〜9/6</span><span class="pick-free">無料</span>
     <h4>じゃぶじゃぶ池</h4>
-    <p>豊洲公園。<strong>無料。</strong>小さい子がいるならこれで十分に一日潰れる。</p>
-  </div>
+    <p>豊洲公園。小さい子がいるなら、これで十分に一日潰れる。</p>
+    <span class="pick-go">詳しく見る →</span>
+  </a>
 </div>
 
-## そもそも、どれくらい得なのか
-
-「無料イベント」って言われてもピンと来ないでしょ。**同じ体験を有料でやったらいくらか**を並べる。これがこの記事の本題。
-
-<div class="cmp-table-wrap">
-  <table class="cmp-table">
-    <thead><tr><th>湾岸の無料イベント</th><th>同等の体験を有料でやると</th><th>浮く額</th></tr></thead>
-    <tbody>
-      <tr><td>TOYOSU MOVIE NIGHT（野外映画）</td><td>映画館の一般料金 2,000円</td><td><strong>2,000円</strong></td></tr>
-      <tr><td>Toyosu Park Jazz Night（生演奏2日）</td><td>ジャズクラブのライブチャージ 4,000〜6,000円</td><td><strong>4,000円〜</strong></td></tr>
-      <tr><td>とよす夏祭り（盆踊り・縁日）</td><td>有料の夏フェス入場 3,000円前後</td><td><strong>3,000円</strong></td></tr>
-      <tr><td>じゃぶじゃぶ池（〜9/6）</td><td>屋内プール・子ども向け施設 1,000〜1,500円</td><td><strong>1,000円〜</strong></td></tr>
-      <tr class="recommended"><td colspan="2">この4つを回るだけで</td><td><strong>約1万円ぶん</strong></td></tr>
-    </tbody>
-  </table>
-</div>
-
-**しかも全部、豊洲公園とららぽーと豊洲の徒歩圏に集まってる。** 交通費もほぼかからない。有明ガーデンの無料バスまで使えば、湾岸に住んでなくても交通費を圧縮できる。
-
-<div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-07-gasp.png" alt="Daily Hackマスコット" /></div>
-  <div class="hakkako-quote">比較用の有料側は一般的な相場を並べただけだから、厳密な等価じゃない。それでも<strong>「同じ夏の体験に1万円払うか、0円で済ませるか」</strong>の差はハッキリある。あんたが払ってるのはお金じゃなくて、<strong>調べる手間</strong>だけよ。</div>
-</div>
+<span class="event-picks-credit">カード写真は会場・内容のイメージで、実際のイベント写真ではない。出典: Wikimedia Commons（盆踊り: Ryo FUKAsawa CC BY 2.0／豊洲ぐるり公園・有明西ふ頭公園: Lombroso CC BY-SA 4.0／トミカ: Domust Jellifrea CC BY-SA 4.0／豊洲千客万来: CC BY 4.0）。</span>
 
 <div class="section-with-mascot">
   <div class="mascot-wrap"><img src="/images/expr-04-cheer.png" alt="Daily Hackマスコット" /></div>
