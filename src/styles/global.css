@@ -979,3 +979,64 @@ blockquote.twitter-tweet a:hover { color: var(--pink-700); }
 .tower-timeline .tl-items li { display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px; font-size: 13px; line-height: 1.7; background: var(--pink-50); border: 1px solid var(--pink-100); border-radius: 10px; padding: 8px 12px; }
 .tower-timeline .tl-items li strong { color: var(--ink); font-weight: 800; }
 .tower-timeline .tl-items li span { color: var(--ink-2); font-size: 12px; }
+
+/* ============================================================
+   Event pick cards — 「まだ間に合うのはこの6つ」用。
+   背景に会場/内容の写真、その上にグラデーションを重ねて文字の可読性を確保する。
+   カード全体が <a> なのでどこを押しても本文の該当セクションへ飛ぶ。
+   ============================================================ */
+.event-picks { display: grid; gap: 14px; margin: 26px 0; grid-template-columns: 1fr; }
+@media (min-width: 560px) { .event-picks { grid-template-columns: 1fr 1fr; } }
+@media (min-width: 900px) { .event-picks { grid-template-columns: repeat(3, 1fr); } }
+
+.event-pick {
+  position: relative; display: block; overflow: hidden;
+  border-radius: 16px; min-height: 188px; padding: 14px 16px 16px;
+  color: #fff !important; text-decoration: none; border-bottom: 0 !important;
+  box-shadow: 0 10px 24px -14px rgba(42, 25, 35, .55);
+  transition: transform .18s ease, box-shadow .18s ease;
+  isolation: isolate;
+}
+.event-pick::before {
+  content: ""; position: absolute; inset: 0; z-index: -2;
+  background-image: var(--pick-img); background-size: cover; background-position: center;
+  transition: transform .35s ease;
+}
+/* 写真の上に重ねる暗幕。下側を濃くして本文の可読性を確保する */
+.event-pick::after {
+  content: ""; position: absolute; inset: 0; z-index: -1;
+  background: linear-gradient(180deg, rgba(42,25,35,.30) 0%, rgba(42,25,35,.62) 45%, rgba(42,25,35,.88) 100%);
+}
+.event-pick:hover { transform: translateY(-3px); box-shadow: 0 16px 32px -14px rgba(42, 25, 35, .6); }
+.event-pick:hover::before { transform: scale(1.06); }
+.event-pick:focus-visible { outline: 3px solid var(--pink-300); outline-offset: 2px; }
+
+.event-pick .pick-date {
+  display: inline-block; background: var(--pink-500); color: #fff;
+  font-family: "RocknRoll One"; font-weight: 400; font-size: 11.5px;
+  padding: 3px 10px; border-radius: 999px; letter-spacing: .02em;
+}
+.event-pick .pick-free {
+  display: inline-block; margin-left: 6px; background: #fff; color: var(--pink-700);
+  font-size: 11px; font-weight: 800; padding: 3px 9px; border-radius: 999px;
+}
+.event-pick h4 {
+  margin: 10px 0 4px !important; padding: 0 !important; border: 0 !important;
+  font-family: "RocknRoll One"; font-weight: 400; font-size: 16px; line-height: 1.4;
+  color: #fff !important; text-shadow: 0 2px 6px rgba(0,0,0,.5);
+}
+.event-pick p {
+  margin: 0 !important; font-size: 12.5px; line-height: 1.7;
+  color: rgba(255,255,255,.94) !important; text-shadow: 0 1px 4px rgba(0,0,0,.5);
+}
+.event-pick p strong { color: #ffe0e6 !important; }
+/* 押せることを見た目で示す */
+.event-pick .pick-go {
+  display: inline-flex; align-items: center; gap: 4px; margin-top: 10px;
+  font-size: 12px; font-weight: 800; color: #fff;
+  border-bottom: 1px solid rgba(255,255,255,.6); padding-bottom: 1px;
+}
+.event-pick:hover .pick-go { border-color: #fff; }
+
+.event-picks-credit { display: block; margin: 4px 2px 0; font-size: 11px; color: var(--ink-3); line-height: 1.7; }
+.event-picks-credit a { color: var(--ink-2); border-bottom: 1px dotted var(--ink-3); }
