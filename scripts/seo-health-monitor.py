@@ -149,6 +149,7 @@ def main():
     # ---- 4. インデックス状況 ----
     prev = json.loads(STATE.read_text()) if STATE.exists() else {}
     idx_summary = {}
+    next_offset = prev.get("scan_offset", 0)
     if not SKIP_INDEX:
         wtok = gsc_token("https://www.googleapis.com/auth/webmasters")
         posts = [u for u in re.findall(
@@ -156,11 +157,14 @@ def main():
             fetch_text(SITEMAP_URL)) if "/posts/" in u]
         # 走査がハングすると「警報が二度と鳴らない」= 今回直している失敗と同じになる。
         # 時間予算を超えたら打ち切り、途中結果 + 打ち切った旨を必ず通知する。
+        # 全件は時間予算に収まらないので、前回の続きから順繰りに走査する。
+        # 毎回同じ先頭N本だけを見て後半を永久に見落とす、という事態を防ぐ。
+        offset = prev.get("scan_offset", 0) % max(len(posts), 1)
+        posts = posts[offset:] + posts[:offset]
         scan_start = time.monotonic()
         scanned = 0
         for u in posts:
             if time.monotonic() - scan_start > INDEX_SCAN_BUDGET_SEC:
-                warns.append(f"インデックス走査を時間切れで打ち切り（{scanned}/{len(posts)}本）")
                 break
             r = api("https://searchconsole.googleapis.com/v1/urlInspection/index:inspect", wtok,
                     {"inspectionUrl": u, "siteUrl": SITE, "languageCode": "ja"})
@@ -169,11 +173,16 @@ def main():
             idx_summary[cov] = idx_summary.get(cov, 0) + 1
             scanned += 1
         bad = sum(v for k, v in idx_summary.items() if "登録されました" not in k)
-        pbad = prev.get("index_bad")
-        lines.append("*インデックス*\n" + "\n".join(f"  {v:>3}本  {k}" for k, v in
+        next_offset = (offset + scanned) % max(len(posts), 1)
+        note = f"（全{len(posts)}本中 {scanned}本を順繰り走査。次回は{next_offset}番目から）"
+        lines.append(f"*インデックス* {note}\n" + "\n".join(f"  {v:>3}本  {k}" for k, v in
                      sorted(idx_summary.items(), key=lambda x: -x[1])))
-        if pbad is not None and bad > pbad:
-            warns.append(f"未インデックス記事が {pbad} → {bad} 本に増加")
+        # 走査本数は毎回変わるので、絶対数ではなく「未登録率」で比較する。
+        # （4本走査で2本 と 40本走査で5本 を単純比較すると誤警報になる）
+        rate = bad / max(scanned, 1)
+        prate = prev.get("index_bad_rate")
+        if prate is not None and scanned >= 10 and rate > prate + 0.10:
+            warns.append(f"未インデックス率が {prate*100:.0f}% → {rate*100:.0f}% に悪化")
 
     # ---- 通知 ----
     head = "🚨 *SEO health — 異常あり*" if alerts else ("⚠️ *SEO health — 要確認*" if warns else "✅ *SEO health — 正常*")
@@ -192,6 +201,9 @@ def main():
     STATE.write_text(json.dumps({
         "date": str(today), "clicks": cur["clicks"], "imp": cur["imp"],
         "index_bad": sum(v for k, v in idx_summary.items() if "登録されました" not in k) if idx_summary else prev.get("index_bad"),
+        "scan_offset": next_offset if idx_summary else prev.get("scan_offset", 0),
+        "index_bad_rate": (round(bad / max(scanned, 1), 3) if idx_summary and scanned >= 10
+                           else prev.get("index_bad_rate")),
     }, ensure_ascii=False, indent=1))
 
     if DRY:
