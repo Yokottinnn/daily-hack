@@ -22,19 +22,19 @@ author: "hacker-ko"
 ## 30秒で決めたい人へ。まだ間に合うのはこの6つ
 
 <div class="event-picks">
-  <a class="event-pick" href="#とよす夏祭り2026-in-ららぽーと豊洲8816" style="--pick-img:url('/images/wangan-august-events-2026/photos/bon-odori.jpg')">
+  <a class="event-pick" href="#とよす夏祭り2026-in-ららぽーと豊洲8816" style="--pick-img:url('/images/wangan-august-events-2026/photos/toyosu-natsu.jpg')">
     <span class="pick-date">〜8/16</span><span class="pick-free">無料</span>
     <h4>とよす夏祭り2026</h4>
     <p>日替わりテーマの盆踊り＋屋台。8/11は<strong>Bリーグ3クラブ</strong>が参戦。</p>
     <span class="pick-go">詳しく見る →</span>
   </a>
-  <a class="event-pick" href="#toyosu-movie-night-2026822-芝生で映画無料" style="--pick-img:url('/images/wangan-august-events-2026/photos/toyosu-park.jpg')">
+  <a class="event-pick" href="#toyosu-movie-night-2026822-芝生で映画無料" style="--pick-img:url('/images/wangan-august-events-2026/photos/movie.jpg')">
     <span class="pick-date">8/22</span><span class="pick-free">無料</span>
     <h4>野外映画『マダガスカル』</h4>
     <p>豊洲公園の芝生で観る。<strong>先着240名にドリンク配布</strong>あり。</p>
     <span class="pick-go">詳しく見る →</span>
   </a>
-  <a class="event-pick" href="#toyosu-park-jazz-night-202682930-夏の締めこれも無料" style="--pick-img:url('/images/wangan-august-events-2026/photos/toyosu-park2.jpg')">
+  <a class="event-pick" href="#toyosu-park-jazz-night-202682930-夏の締めこれも無料" style="--pick-img:url('/images/wangan-august-events-2026/photos/jazz.jpg')">
     <span class="pick-date">8/29-30</span><span class="pick-free">無料</span>
     <h4>Toyosu Park Jazz Night</h4>
     <p>豊洲公園でジャズ生演奏＋キッチンカー。夏の締めにこれ以上ない。</p>
@@ -46,21 +46,21 @@ author: "hacker-ko"
     <p>有明GYM-EX。子連れならここ。<strong>当日券は大人1,400円</strong>。</p>
     <span class="pick-go">詳しく見る →</span>
   </a>
-  <a class="event-pick" href="#豊洲千客万来の天然温泉実は3通りの割引がある" style="--pick-img:url('/images/wangan-august-events-2026/photos/senkyakubanrai.jpg')">
+  <a class="event-pick" href="#割引温泉を最安で入る方法とタダのバス" style="--pick-img:url('/images/wangan-august-events-2026/photos/manyo.jpg')">
     <span class="pick-date">〜8/31</span>
     <h4>万葉倶楽部の割引</h4>
     <p>豊洲千客万来の天然温泉。<strong>やり方次第で3,850円→3,150円</strong>。</p>
     <span class="pick-go">詳しく見る →</span>
   </a>
-  <a class="event-pick" href="#子連れならタダのやつだけで足りる" style="--pick-img:url('/images/wangan-august-events-2026/photos/ariake.jpg')">
-    <span class="pick-date">〜9/6</span><span class="pick-free">無料</span>
-    <h4>じゃぶじゃぶ池</h4>
-    <p>豊洲公園。小さい子がいるなら、これで十分に一日潰れる。</p>
+  <a class="event-pick" href="#豊洲千客万来の天然温泉実は3通りの割引がある" style="--pick-img:url('/images/wangan-august-events-2026/photos/yoichi.jpg')">
+    <span class="pick-date">〜9/13</span>
+    <h4>豊洲千客万来「夜市」</h4>
+    <p>場外市場が夜まで営業。<strong>屋台グルメと提灯で祭り気分</strong>。温泉とセットで。</p>
     <span class="pick-go">詳しく見る →</span>
   </a>
 </div>
 
-<span class="event-picks-credit">カード写真は会場・内容のイメージで、実際のイベント写真ではない。出典: Wikimedia Commons（盆踊り: Ryo FUKAsawa CC BY 2.0／豊洲ぐるり公園・有明西ふ頭公園: Lombroso CC BY-SA 4.0／トミカ: Domust Jellifrea CC BY-SA 4.0／豊洲千客万来: CC BY 4.0）。</span>
+<span class="event-picks-credit">カード画像は各イベント公式サイトより引用（<a href="https://mitsui-shopping-park.com/lalaport/toyosu/event/3420509.html" target="_blank" rel="noopener">とよす夏祭り</a>／<a href="https://toyosugururi.jp/" target="_blank" rel="noopener">豊洲ぐるりパーク</a>／<a href="https://www.tomica-tokyo.com/" target="_blank" rel="noopener">トミカ博 in TOKYO</a>／<a href="https://tokyo-toyosu.manyo.co.jp/" target="_blank" rel="noopener">東京豊洲 万葉倶楽部</a>／<a href="https://toyosu-senkyakubanrai.jp/" target="_blank" rel="noopener">豊洲 千客万来</a>）。</span>
 
 <div class="section-with-mascot">
   <div class="mascot-wrap"><img src="/images/expr-04-cheer.png" alt="Daily Hackマスコット" /></div>
@@ -241,7 +241,7 @@ author: "hacker-ko"
 
 <p class="source-note">出典：<a href="https://tokyo-toyosu.manyo.co.jp/price/" target="_blank" rel="noopener">東京豊洲 万葉倶楽部 公式 料金ページ</a>／<a href="https://toyosu.tokyo/toyosushijo/tokyotoyosumanyoclub-discount-coupon/" target="_blank" rel="noopener">とよすと 割引クーポンまとめ</a>。地域割引はいずれも2026年8月31日まで（延長された経緯あり）。クーポンの有無・割引率は時期により変わるので必ず最新を確認しなさい。</p>
 
-千客万来は温泉だけじゃなく**場外市場の食べ歩き**が本体みたいなところがある。夏場は「夜市」もやってて、屋台グルメと提灯で祭り気分になれる。アタシはここの足湯目当てで行くことが多い。
+千客万来は温泉だけじゃなく**場外市場の食べ歩き**が本体みたいなところがある。夏場は<strong>「夜市」</strong>もやってて、屋台グルメと提灯で祭り気分になれる。2026年は<strong>7/18〜9/13の15:00〜20:00</strong>開催なので、8月中はずっとやってる。アタシはここの足湯目当てで行くことが多い。
 
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">#万葉倶楽部豊洲<br><br>#千客万来 にて「夜市」が開催<br><br>美味しい屋台グルメや提灯の明かりで<br>夏祭り気分が楽しめますよ<br><br>夜市を満喫した後は、<br>当館の温泉でサッパリと<br>汗を流して帰るのが最高のコースです</p>&mdash; 東京豊洲 万葉倶楽部【公式】 (@toyosu_manyo) <a href="https://twitter.com/toyosu_manyo/status/2078352367305502957">2026年7月18日</a></blockquote>
 
