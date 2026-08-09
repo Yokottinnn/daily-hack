@@ -178,7 +178,7 @@ section { padding: 80px 0; }
 .camp-card .body { position: relative; z-index: 2; flex: 1; min-width: 0; background: rgba(255, 255, 255, .86); backdrop-filter: blur(4px); -webkit-backdrop-filter: blur(4px); padding: 12px 14px; border-radius: 12px; box-shadow: 0 6px 18px -10px rgba(0,0,0,.25); }
 .camp-card .pill { display: inline-block; font-size: 11px; font-weight: 800; background: #FFE2EC; color: var(--pink-700); padding: 3px 10px; border-radius: 999px; margin-bottom: 8px; letter-spacing: .05em; box-shadow: 0 1px 2px rgba(0,0,0,.06); }
 .camp-card .pill.warn { background: #FFEDD2; color: #9C5A00; }
-.camp-card h3 { font-size: 15.5px; margin: 2px 0 10px; font-weight: 800; line-height: 1.45; color: var(--ink-1); }
+.camp-card h3 { font-size: 15.5px; margin: 2px 0 10px; font-weight: 800; line-height: 1.45; color: var(--ink); }
 .camp-card .meta { font-size: 12px; color: var(--ink-3); display: flex; gap: 8px; align-items: center; }
 .camp-card .meta b { color: var(--ink-2); font-weight: 800; }
 
@@ -1051,3 +1051,32 @@ blockquote.twitter-tweet a:hover { color: var(--pink-700); }
 .rn-figure figcaption { padding: 12px 16px 14px; font-size: 12.5px; line-height: 1.75; color: var(--ink-2); background: linear-gradient(135deg, var(--pink-50), #fff); }
 .rn-figure figcaption cite { display: block; margin-top: 4px; font-style: normal; font-size: 11.5px; color: var(--ink-3); }
 .rn-figure figcaption cite a { color: var(--ink-2); border-bottom: 1px dotted var(--ink-3); }
+
+/* ── アプリのダウンロード導線（.app-cta） ─────────────────
+   アプリを本文で紹介するときは「どこで落とすか」を必ず置く。
+   文章だけだと読者が行動に移せない（Jordan 指摘 2026-08-10）。
+   アイコン＋評価＋公式ストアバッジを1枚のカードにまとめる。
+   画面のスクショは既存の .screen-strip を使うこと（新しい箱を作らない）。 */
+.app-cta {
+  display: grid; grid-template-columns: 88px 1fr; gap: 18px; align-items: center;
+  margin: 24px 0 16px; padding: 20px; border-radius: 18px;
+  border: 1px solid var(--pink-200); background: linear-gradient(135deg, var(--pink-50), #fff);
+  box-shadow: var(--shadow-card);
+}
+.app-cta__icon { width: 88px; height: 88px; border-radius: 20px; display: block; box-shadow: 0 2px 10px rgb(0 0 0 / .14); }
+.app-cta__name { margin: 0; font-size: 16px; font-weight: 700; line-height: 1.5; color: var(--ink); }
+.app-cta__meta { margin: 4px 0 0; font-size: 12.5px; line-height: 1.7; color: var(--ink-3); }
+/* 評価の星は色で目を引かせる。数字だけだと読み飛ばされる */
+.app-cta__meta strong { color: var(--pink-600); font-size: 14px; }
+.app-cta__badges { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 12px; }
+/* バッジは Apple / Google の規定比率を保つため height 固定・width auto */
+/* 本文リンクの下線がバッジ画像に付くと安っぽく見えるので打ち消す */
+.app-cta__badges a { display: inline-block; line-height: 0; border: 0 !important; text-decoration: none; transition: opacity .15s, transform .15s; }
+.app-cta__badges a:hover { opacity: .82; transform: translateY(-1px); }
+.app-cta__badges img { height: 44px; width: auto; display: block; }
+
+@media (max-width: 560px) {
+  .app-cta { grid-template-columns: 64px 1fr; gap: 14px; padding: 16px; }
+  .app-cta__icon { width: 64px; height: 64px; border-radius: 15px; }
+  .app-cta__badges img { height: 38px; }
+}
