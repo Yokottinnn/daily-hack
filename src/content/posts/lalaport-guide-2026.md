@@ -136,6 +136,47 @@ author: "hacker-ko"
 
 <p class="source-note">FY2024の数値は<a href="https://www.mitsuifudosan.co.jp/corporate/ir/presentation/pdf/FR_BH2605j.pdf" target="_blank" rel="noopener">三井不動産「2026年3月期 決算説明資料」（2026年5月）88ページ</a>より。両資料とも10億円単位の開示なので、増減は±5億円程度の丸め誤差を含む。<strong>アタシが2つの資料を突き合わせて計算したもので、三井不動産が増減として公表した数値ではない。</strong></p>
 
+### 数字の裏で、現地では何が起きているか
+
+決算資料は結果しか教えてくれない。**実際に何が起きたか**を、公式発表と現地の声で補う。
+
+**TOKYO-BAYの増床は「日本一のフードコート」を生んだ。** North Gate 3階のフードコートは約1,400席。ららぽーとTOKYO-BAY全体では**約2,500席**になり、これは日本最大級。20店舗のうち**11店舗が千葉県初出店**という構成で、増床が単なる面積増ではなく集客装置になっている。
+
+オープン前から話題になった出店のひとつがこれ。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">この秋、リニューアルオープンする「三井ショッピングパーク ららぽーとTOKYO-BAY North Gate」に #資さんうどん 初のフードコート店舗の出店が決定🎊<br><br>詳しくは、今後プレスリリース等で発信して参ります！！　千葉県みなさま、よろしくお願いします！</p>&mdash; 資さんうどん【公式】 (@sukesan1976) <a href="https://twitter.com/sukesan1976/status/1929812560905490821">2025年6月3日</a></blockquote>
+
+九州で圧倒的な支持を持つ資さんうどんの**フードコート初出店**。この1件だけで3,000超のいいねが付いた。790億円という数字の中身は、こういう積み重ねね。
+
+そして開業から半年、地元では**混雑が話題になるレベル**になっている。船橋市議会議員の投稿がその空気を伝えてる。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">TBSさんでららぽーとTOKYO-BAYのフードコート人気TOP5ランキングが特集されました！<br><br>北館をリニューアルしてから来場者がすごいですね！<br><br>近隣住民は混雑を避け、平日夕方やリモートワークならランチにも行ったりします。</p>&mdash; 大沢たかのり｜船橋市議会議員 (@osawatakanori) <a href="https://twitter.com/osawatakanori/status/2048718801722904826">2026年4月27日</a></blockquote>
+
+**「近隣住民は混雑を避けて平日夕方に行く」** ——これは決算資料には絶対に載らない情報。行くなら平日夕方が狙い目ということ。
+
+<p class="source-note">出典：<a href="https://www.fashion-press.net/news/116749" target="_blank" rel="noopener">ファッションプレス「北館建替えで千葉最大級フードゾーン誕生、フードコート席数は日本一に」</a>／<a href="https://tetsudo-ch.com/13015281.html" target="_blank" rel="noopener">鉄道チャンネル「北館1期96店舗がオープン」</a>／<a href="https://toyokeizai.net/articles/-/929513" target="_blank" rel="noopener">東洋経済オンライン「日本一のフードコートの実力」</a>。引用したX投稿はいずれも認証済みアカウントのもので、投稿日時を検証済み。</p>
+
+### アプリは1,000万DLを突破。EC利用は前年比2倍
+
+売上の伸びと並行して、**顧客接点のデジタル化**も進んでる。2026年1月に三井ショッピングパークアプリが累計1,000万DLを突破した。
+
+<div class="cmp-table-wrap">
+  <table class="cmp-table">
+    <thead><tr><th>項目</th><th>内容</th></tr></thead>
+    <tbody>
+      <tr class="recommended"><td>累計DL数</td><td><strong>1,000万件突破</strong>（2026年1月）</td></tr>
+      <tr><td>アプリ評価</td><td>App Store 4.4／Google Play 4.3（いずれも過去最高）</td></tr>
+      <tr class="recommended"><td>EC連携</td><td>「公式通販」タブで &amp;mall と三井アウトレットパーク オンラインを統合。<strong>アプリ経由のEC利用者は前年比2倍以上</strong></td></tr>
+      <tr><td>2026年度〜</td><td>プレミアム会員はEC常時8%還元＋送料無料、ゴールドは常時5%還元</td></tr>
+      <tr><td>2026年4月〜</td><td><strong>先行メダルランクアップ制度</strong>。年次判定を待たず月次でランクが上がる</td></tr>
+    </tbody>
+  </table>
+</div>
+
+**リアル店舗の売上ランキングだけ見ていると見落とす部分。** 年間30万円のリアル利用でプレミアムに乗れば、EC側で常時8%が付く二段構えになってる。
+
+<p class="source-note">出典：<a href="https://www.mitsuifudosan.co.jp/corporate/news/2026/0313_01/" target="_blank" rel="noopener">三井不動産「三井ショッピングパークアプリ、累計1,000万ダウンロードを突破」（2026年3月13日）</a>。</p>
+
 ### TOKYO-BAYの+160億は「増床がそのまま乗った」
 
 2025年10月31日、**北館の建替え1期と、隣接していた「ビビット南船橋」の統合が完了**して「ららぽーとTOKYO-BAY North Gate」になった。店舗面積は約102,000㎡→約133,000㎡へ、一気に3割増えてる。
@@ -477,3 +518,5 @@ author: "hacker-ko"
 </div>
 
 <p class="source-note">この記事の情報は2026年8月9日時点。売上・面積・店舗数は三井不動産および三井不動産商業マネジメントの公表値に基づく。テナント入替や工事の進捗で数値は変動するため、来店前には各施設の公式サイトで最新情報を確認すること。前年比の増減は決算資料2期分をアタシが突き合わせて算出したもので、三井不動産が増減として公表した数値ではない。</p>
+
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
