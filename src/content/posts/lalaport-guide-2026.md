@@ -190,6 +190,28 @@ North Gate 3階のフードコートは約1,400席。ららぽーとTOKYO-BAY全
 
 売上の伸びと並行して、**顧客接点のデジタル化**も進んでる。2026年1月に三井ショッピングパークアプリが累計1,000万DLを突破した。
 
+**この記事で「アプリを入れろ」と何度も言ってるやつが、これ。** 落とす場所を先に置いとくわ。
+
+<div class="app-cta">
+  <img class="app-cta__icon" src="/images/lalaport-guide-2026/photos/app-icon.png" alt="三井ショッピングパークアプリのアイコン" loading="lazy" width="88" height="88" />
+  <div>
+    <p class="app-cta__name">三井ショッピングパークアプリ（無料）</p>
+    <p class="app-cta__meta">App Store <strong>4.4</strong>／評価8.9万件・累計1,000万DL<br />提供：三井不動産商業マネジメント</p>
+    <div class="app-cta__badges">
+      <a href="https://apps.apple.com/jp/app/id921446819" target="_blank" rel="noopener"><img src="/images/store-badges/app-store-ja.svg" alt="App Store でダウンロード" loading="lazy" width="119" height="44" /></a>
+      <a href="https://play.google.com/store/apps/details?id=jp.co.mf_shogyo.mitsui_shopping_park&amp;hl=ja" target="_blank" rel="noopener"><img src="/images/store-badges/google-play-ja.png" alt="Google Play で手に入れよう" loading="lazy" width="114" height="44" /></a>
+    </div>
+  </div>
+</div>
+
+<div class="screen-strip">
+<figure><img src="/images/lalaport-guide-2026/photos/app-shot-home.jpg" alt="三井ショッピングパークアプリのホーム画面。保有ポイントと駐車場の無料時間が表示されている" loading="lazy"><figcaption>ホーム画面。保有ポイントとメダルランク、そして<strong>駐車場の無料時間（P2 4時間無料）</strong>が一目で出る（出典：App Store 公式スクリーンショット）</figcaption></figure>
+<figure><img src="/images/lalaport-guide-2026/photos/app-shot-pay.jpg" alt="アプリ決済画面。QRコードを表示してカードの代わりに支払える" loading="lazy"><figcaption>「アプリde支払い」。QR表示でカード不要、ポイント提示と決済が1画面で済む（出典：App Store 公式スクリーンショット）</figcaption></figure>
+<figure><img src="/images/lalaport-guide-2026/photos/app-shot-map.jpg" alt="フロアマップ画面。館内の現在地が青い点で表示されている" loading="lazy"><figcaption>フロアマップ。館内の<strong>現在地が青い点で出る</strong>ので、広い館でも目的の店に直行できる（出典：App Store 公式スクリーンショット）</figcaption></figure>
+</div>
+
+アタシが一番効くと思ってるのは<strong>3枚目のフロアマップ</strong>ね。TOKYO-BAY みたいな10万㎡級で目的の店に直行できるかどうかで、滞在時間がまるっきり変わるから。
+
 <div class="cmp-table-wrap">
   <table class="cmp-table">
     <thead><tr><th>項目</th><th>内容</th></tr></thead>
@@ -474,7 +496,7 @@ North Gate 3階のフードコートは約1,400席。ららぽーとTOKYO-BAY全
   </table>
 </div>
 
-豊洲は超過が**400円／30分**。非会員（土日1時間）とセゾン会員（平日7時間）の差は、単純計算で**最大4,800円相当**になる。アプリを入れるだけでも数時間ぶん変わるんだから、行く前に登録しなさい。
+豊洲は超過が**400円／30分**。非会員（土日1時間）とセゾン会員（平日7時間）の差は、単純計算で**最大4,800円相当**になる。アプリを入れるだけでも数時間ぶん変わるんだから、行く前に登録しなさい（<a href="#アプリは1000万dlを突破ec利用は前年比2倍">ダウンロード先はこの記事の上のほう</a>にまとめてある）。
 
 <p class="source-note">出典：<a href="https://mitsui-shopping-park.com/msppoint/membersprogram/benefits/" target="_blank" rel="noopener">三井ショッピングパークポイント メンバーズプログラム</a>／<a href="https://mitsui-shopping-park.com/lalaport/toyosu/access/parking.html" target="_blank" rel="noopener">ららぽーと豊洲 駐車場</a>。<strong>駐車場条件は施設ごとに異なるので、必ず行く施設の公式ページで確認すること。</strong></p>
 
