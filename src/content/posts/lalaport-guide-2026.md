@@ -21,38 +21,46 @@ author: "hacker-ko"
 
 ## 30秒で分かる、ららぽーとの今
 
-<div class="highlight-grid cols-3">
-  <div class="highlight-item">
-    <span class="highlight-tag">規模</span>
+<div class="event-picks">
+  <a class="event-pick" href="#全20施設リスト開業順に全部" style="--pick-img:url('/images/lalaport-guide-2026/photos/anjo.jpg')">
+    <span class="pick-date">規模</span>
     <h4>国内20施設</h4>
-    <p>2026年8月時点。2026年の<strong>国内新規開業はゼロ</strong>で、既存施設のリニューアル年になっている。</p>
-  </div>
-  <div class="highlight-item">
-    <span class="highlight-tag">売上1位</span>
+    <p>2026年8月時点。2026年の<strong>国内新規開業はゼロ</strong>で、既存施設のリニューアル年。</p>
+    <span class="pick-go">詳しく見る →</span>
+  </a>
+  <a class="event-pick" href="#店舗別売上ランキング三井不動産の決算資料そのまま" style="--pick-img:url('/images/lalaport-guide-2026/photos/lazona.jpg')">
+    <span class="pick-date">売上1位</span>
     <h4>ラゾーナ川崎 990億円</h4>
     <p>全国のSCで3位。ららぽーとブランドではないが同じ三井不動産の施設。</p>
-  </div>
-  <div class="highlight-item">
-    <span class="highlight-tag">最大面積</span>
+    <span class="pick-go">詳しく見る →</span>
+  </a>
+  <a class="event-pick" href="#tokyo-bayの160億は増床がそのまま乗った" style="--pick-img:url('/images/lalaport-guide-2026/photos/northgate.jpg')">
+    <span class="pick-date">最大面積</span>
     <h4>TOKYO-BAY 133,000㎡</h4>
-    <p>2025年10月に「North Gate」開業。北館2期が終わる2028年春には<strong>国内最大テナント数</strong>へ。</p>
-  </div>
-  <div class="highlight-item">
-    <span class="highlight-tag">伸びた</span>
+    <p>2025年10月に「North Gate」開業。2028年春には<strong>国内最大テナント数</strong>へ。</p>
+    <span class="pick-go">詳しく見る →</span>
+  </a>
+  <a class="event-pick" href="#全国のscで見ると三井が上位を占めてる" style="--pick-img:url('/images/lalaport-guide-2026/photos/tokyobay.jpg')">
+    <span class="pick-date">伸びた</span>
     <h4>TOKYO-BAY +160億</h4>
-    <p>増床がそのまま売上に乗った。全施設で最大の伸び幅。</p>
-  </div>
-  <div class="highlight-item">
-    <span class="highlight-tag">落ちた</span>
+    <p>増床がそのまま売上に乗った。<strong>全施設で最大の伸び幅</strong>。</p>
+    <span class="pick-go">詳しく見る →</span>
+  </a>
+  <a class="event-pick" href="#横浜の110億は工事中だから" style="--pick-img:url('/images/lalaport-guide-2026/photos/yokohama.jpg')">
+    <span class="pick-date">落ちた</span>
     <h4>横浜 −110億</h4>
-    <p>3か年の大規模リニューアル中。工事の影響が数字に出ている。</p>
-  </div>
-  <div class="highlight-item">
-    <span class="highlight-tag">これから</span>
+    <p>3か年の大規模リニューアル中。<strong>工事の影響が数字に出ている</strong>。</p>
+    <span class="pick-go">詳しく見る →</span>
+  </a>
+  <a class="event-pick" href="#これから変わる4施設2026年2029年" style="--pick-img:url('/images/lalaport-guide-2026/photos/toyosu.jpg')">
+    <span class="pick-date">これから</span>
     <h4>4施設が20周年で刷新</h4>
     <p>豊洲・横浜・柏の葉・ラゾーナ川崎。2026年〜2029年春にかけて順次。</p>
-  </div>
+    <span class="pick-go">詳しく見る →</span>
+  </a>
 </div>
+
+<span class="event-picks-credit">カード画像は<a href="https://mitsui-shopping-park.com/" target="_blank" rel="noopener">三井ショッピングパーク公式サイト</a>および<a href="https://prtimes.jp/main/html/rd/p/000000894.000051782.html" target="_blank" rel="noopener">三井不動産のニュースリリース</a>より引用。</span>
 
 ## 店舗別売上ランキング｜三井不動産の決算資料そのまま
 
@@ -62,16 +70,16 @@ author: "hacker-ko"
   <table class="cmp-table">
     <thead><tr><th>順</th><th>施設</th><th>所在</th><th>店舗売上<br>(FY2025)</th><th>店舗面積</th><th>店舗数</th><th>開業</th></tr></thead>
     <tbody>
-      <tr class="recommended"><td>1</td><td>ラゾーナ川崎プラザ</td><td>神奈川・川崎</td><td><strong>990億円</strong></td><td>約79,000㎡</td><td>約330</td><td>2006/9</td></tr>
-      <tr class="recommended"><td>2</td><td>ららぽーとTOKYO-BAY</td><td>千葉・船橋</td><td><strong>790億円</strong></td><td>約133,000㎡</td><td>約420</td><td>1981/4</td></tr>
-      <tr><td>3</td><td>ららぽーとEXPOCITY</td><td>大阪・吹田</td><td>570億円</td><td>約88,000㎡</td><td>約310</td><td>2015/11</td></tr>
-      <tr><td>4</td><td>ららぽーと富士見</td><td>埼玉・富士見</td><td>560億円</td><td>約80,000㎡</td><td>約290</td><td>2015/4</td></tr>
-      <tr><td>5</td><td>ららぽーと豊洲</td><td>東京・江東</td><td>520億円</td><td>約67,000㎡</td><td>約210</td><td>2006/10</td></tr>
-      <tr><td>6</td><td>ららぽーと福岡</td><td>福岡・福岡</td><td>480億円</td><td>約73,000㎡</td><td>約220</td><td>2022/4</td></tr>
-      <tr><td>7</td><td>ららぽーと横浜</td><td>神奈川・横浜</td><td>460億円</td><td>約93,000㎡</td><td>約280</td><td>2007/3</td></tr>
-      <tr><td>8</td><td>ららぽーと門真 ※</td><td>大阪・門真</td><td>450億円</td><td>約66,000㎡</td><td>約250</td><td>2023/4</td></tr>
-      <tr><td>9</td><td>ららぽーと沼津</td><td>静岡・沼津</td><td>350億円</td><td>約64,000㎡</td><td>約210</td><td>2019/10</td></tr>
-      <tr><td>10</td><td>ららぽーと愛知東郷</td><td>愛知・愛知郡</td><td>290億円</td><td>約63,000㎡</td><td>約200</td><td>2020/9</td></tr>
+      <tr class="recommended"><td>1</td><td><a href="https://mitsui-shopping-park.com/lazona-kawasaki/" target="_blank" rel="noopener">ラゾーナ川崎プラザ</a></td><td>神奈川・川崎</td><td><strong>990億円</strong></td><td>約79,000㎡</td><td>約330</td><td>2006/9</td></tr>
+      <tr class="recommended"><td>2</td><td><a href="https://mitsui-shopping-park.com/lalaport/tokyo-bay/" target="_blank" rel="noopener">ららぽーとTOKYO-BAY</a></td><td>千葉・船橋</td><td><strong>790億円</strong></td><td>約133,000㎡</td><td>約420</td><td>1981/4</td></tr>
+      <tr><td>3</td><td><a href="https://mitsui-shopping-park.com/lalaport/expocity/" target="_blank" rel="noopener">ららぽーとEXPOCITY</a></td><td>大阪・吹田</td><td>570億円</td><td>約88,000㎡</td><td>約310</td><td>2015/11</td></tr>
+      <tr><td>4</td><td><a href="https://mitsui-shopping-park.com/lalaport/fujimi/" target="_blank" rel="noopener">ららぽーと富士見</a></td><td>埼玉・富士見</td><td>560億円</td><td>約80,000㎡</td><td>約290</td><td>2015/4</td></tr>
+      <tr><td>5</td><td><a href="https://mitsui-shopping-park.com/lalaport/toyosu/" target="_blank" rel="noopener">ららぽーと豊洲</a></td><td>東京・江東</td><td>520億円</td><td>約67,000㎡</td><td>約210</td><td>2006/10</td></tr>
+      <tr><td>6</td><td><a href="https://mitsui-shopping-park.com/lalaport/fukuoka/" target="_blank" rel="noopener">ららぽーと福岡</a></td><td>福岡・福岡</td><td>480億円</td><td>約73,000㎡</td><td>約220</td><td>2022/4</td></tr>
+      <tr><td>7</td><td><a href="https://mitsui-shopping-park.com/lalaport/yokohama/" target="_blank" rel="noopener">ららぽーと横浜</a></td><td>神奈川・横浜</td><td>460億円</td><td>約93,000㎡</td><td>約280</td><td>2007/3</td></tr>
+      <tr><td>8</td><td><a href="https://mitsui-shopping-park.com/lalaport/kadoma/" target="_blank" rel="noopener">ららぽーと門真 ※</a></td><td>大阪・門真</td><td>450億円</td><td>約66,000㎡</td><td>約250</td><td>2023/4</td></tr>
+      <tr><td>9</td><td><a href="https://mitsui-shopping-park.com/lalaport/numazu/" target="_blank" rel="noopener">ららぽーと沼津</a></td><td>静岡・沼津</td><td>350億円</td><td>約64,000㎡</td><td>約210</td><td>2019/10</td></tr>
+      <tr><td>10</td><td><a href="https://mitsui-shopping-park.com/lalaport/togo/" target="_blank" rel="noopener">ららぽーと愛知東郷</a></td><td>愛知・愛知郡</td><td>290億円</td><td>約63,000㎡</td><td>約200</td><td>2020/9</td></tr>
     </tbody>
   </table>
 </div>
@@ -90,10 +98,10 @@ author: "hacker-ko"
   <table class="cmp-table">
     <thead><tr><th>全国順位</th><th>施設</th><th>売上(FY2024)</th></tr></thead>
     <tbody>
-      <tr class="recommended"><td>3位</td><td>ラゾーナ川崎プラザ</td><td>944億円</td></tr>
-      <tr><td>5位</td><td>三井アウトレットパーク木更津</td><td>690億円</td></tr>
-      <tr><td>8位</td><td>ららぽーとTOKYO-BAY</td><td>627億円</td></tr>
-      <tr><td>9位</td><td>三井アウトレットパーク ジャズドリーム長島</td><td>610億円</td></tr>
+      <tr class="recommended"><td>3位</td><td><a href="https://mitsui-shopping-park.com/lazona-kawasaki/" target="_blank" rel="noopener">ラゾーナ川崎プラザ</a></td><td>944億円</td></tr>
+      <tr><td>5位</td><td><a href="https://mitsui-shopping-park.com/mop/kisarazu/" target="_blank" rel="noopener">三井アウトレットパーク木更津</a></td><td>690億円</td></tr>
+      <tr><td>8位</td><td><a href="https://mitsui-shopping-park.com/lalaport/tokyo-bay/" target="_blank" rel="noopener">ららぽーとTOKYO-BAY</a></td><td>627億円</td></tr>
+      <tr><td>9位</td><td><a href="https://mitsui-shopping-park.com/mop/nagashima/" target="_blank" rel="noopener">三井アウトレットパーク ジャズドリーム長島</a></td><td>610億円</td></tr>
     </tbody>
   </table>
 </div>
@@ -113,15 +121,15 @@ author: "hacker-ko"
   <table class="cmp-table">
     <thead><tr><th>施設</th><th>FY2024</th><th>FY2025</th><th>増減</th></tr></thead>
     <tbody>
-      <tr class="recommended"><td>ららぽーとTOKYO-BAY</td><td>630億円</td><td>790億円</td><td><strong>+160億</strong></td></tr>
-      <tr><td>ラゾーナ川崎プラザ</td><td>940億円</td><td>990億円</td><td>+50億</td></tr>
-      <tr><td>ららぽーと福岡</td><td>440億円</td><td>480億円</td><td>+40億</td></tr>
-      <tr><td>ららぽーとEXPOCITY</td><td>540億円</td><td>570億円</td><td>+30億</td></tr>
-      <tr><td>ららぽーと沼津</td><td>330億円</td><td>350億円</td><td>+20億</td></tr>
-      <tr><td>ららぽーと富士見</td><td>550億円</td><td>560億円</td><td>+10億</td></tr>
-      <tr><td>ららぽーと豊洲</td><td>520億円</td><td>520億円</td><td>±0</td></tr>
-      <tr><td>ららぽーと愛知東郷</td><td>290億円</td><td>290億円</td><td>±0</td></tr>
-      <tr><td>ららぽーと横浜</td><td>570億円</td><td>460億円</td><td><strong>−110億</strong></td></tr>
+      <tr class="recommended"><td><a href="https://mitsui-shopping-park.com/lalaport/tokyo-bay/" target="_blank" rel="noopener">ららぽーとTOKYO-BAY</a></td><td>630億円</td><td>790億円</td><td><strong>+160億</strong></td></tr>
+      <tr><td><a href="https://mitsui-shopping-park.com/lazona-kawasaki/" target="_blank" rel="noopener">ラゾーナ川崎プラザ</a></td><td>940億円</td><td>990億円</td><td>+50億</td></tr>
+      <tr><td><a href="https://mitsui-shopping-park.com/lalaport/fukuoka/" target="_blank" rel="noopener">ららぽーと福岡</a></td><td>440億円</td><td>480億円</td><td>+40億</td></tr>
+      <tr><td><a href="https://mitsui-shopping-park.com/lalaport/expocity/" target="_blank" rel="noopener">ららぽーとEXPOCITY</a></td><td>540億円</td><td>570億円</td><td>+30億</td></tr>
+      <tr><td><a href="https://mitsui-shopping-park.com/lalaport/numazu/" target="_blank" rel="noopener">ららぽーと沼津</a></td><td>330億円</td><td>350億円</td><td>+20億</td></tr>
+      <tr><td><a href="https://mitsui-shopping-park.com/lalaport/fujimi/" target="_blank" rel="noopener">ららぽーと富士見</a></td><td>550億円</td><td>560億円</td><td>+10億</td></tr>
+      <tr><td><a href="https://mitsui-shopping-park.com/lalaport/toyosu/" target="_blank" rel="noopener">ららぽーと豊洲</a></td><td>520億円</td><td>520億円</td><td>±0</td></tr>
+      <tr><td><a href="https://mitsui-shopping-park.com/lalaport/togo/" target="_blank" rel="noopener">ららぽーと愛知東郷</a></td><td>290億円</td><td>290億円</td><td>±0</td></tr>
+      <tr><td><a href="https://mitsui-shopping-park.com/lalaport/yokohama/" target="_blank" rel="noopener">ららぽーと横浜</a></td><td>570億円</td><td>460億円</td><td><strong>−110億</strong></td></tr>
     </tbody>
   </table>
 </div>
@@ -192,65 +200,94 @@ author: "hacker-ko"
 
 ## これから変わる4施設｜2026年〜2029年
 
-2006年秋〜2007年春に開業した4施設が**そろって開業20周年**を迎える。三井不動産はこれを機に、一斉リニューアルを発表した。
+2006年秋〜2007年春に開業した4施設が**そろって開業20周年**を迎える。三井不動産はこれを機に、一斉リニューアルを発表した。**「いつ・何が・どう変わるか」を、公式が出した完成イメージと日付で追う。**
 
-<div class="tower-list">
-  <div class="tower-card">
-    <span class="tower-no">1</span>
-    <span class="tower-eta is-soon">2026年3月〜2027年3月</span>
-    <span class="tower-area">東京・江東</span>
-    <h4>アーバンドック ららぽーと豊洲</h4>
-    <dl class="tower-spec">
-      <dt>店舗</dt><dd>計31店舗を順次新店・改装（東京都初出店を含む）</dd>
-      <dt>キッズ</dt><dd>中庭に約700㎡の「キッズパーク」新設（2026年4月完成）</dd>
-      <dt>休憩</dt><dd>共用廊下のレストスペースを100席→<strong>400席</strong>（2026年8月完了）</dd>
-      <dt>その他</dt><dd>イベントステージ大規模改修（2027年3月）、日本橋からの船アクセス導入</dd>
-    </dl>
-    <p class="tower-note">売上は前年比±0の520億円で足踏み。<strong>座席4倍</strong>という思い切った投資は、滞在時間を伸ばして客単価を上げにいく打ち手ね。</p>
-  </div>
+### ① ららぽーと豊洲｜キッズパークはもう完成済み、休憩席は4倍に
 
-  <div class="tower-card">
-    <span class="tower-no">2</span>
-    <span class="tower-eta">2026年春〜2028年夏</span>
-    <span class="tower-area">神奈川・横浜</span>
-    <h4>ららぽーと横浜</h4>
-    <dl class="tower-spec">
-      <dt>規模</dt><dd>3か年・過去最大規模</dd>
-      <dt>第1弾</dt><dd>物販中心26店舗（神奈川県初3店・ららぽーと初8店）</dd>
-      <dt>キッズ</dt><dd>2階ノースカーブモールを「こどものあそびば」に刷新</dd>
-      <dt>2027年〜</dt><dd>飲食拡充、特選ダイニング「FOURSYUN」大規模改修、セントラルガーデン整備</dd>
-    </dl>
-    <p class="tower-price"><strong>売上−110億の当事者。</strong>面積はららぽーと2位の約93,000㎡なので、伸びしろは大きい。</p>
-  </div>
+<figure class="rn-figure">
+  <img src="/images/lalaport-guide-2026/photos/rn-toyosu.jpg" alt="ららぽーと豊洲 20周年リニューアルの完成イメージ。中庭のキッズパークと芝生広場" loading="lazy" />
+  <figcaption>中庭に新設された約700㎡の「キッズパーク」を含むリニューアル後のイメージ。<cite>出典: <a href="https://prtimes.jp/main/html/rd/p/000001007.000051782.html" target="_blank" rel="noopener">三井不動産 プレスリリース</a></cite></figcaption>
+</figure>
 
-  <div class="tower-card">
-    <span class="tower-no">3</span>
-    <span class="tower-eta is-far">2027年春以降</span>
-    <span class="tower-area">千葉・柏</span>
-    <h4>ららぽーと柏の葉</h4>
-    <dl class="tower-spec">
-      <dt>中心</dt><dd>飲食関連機能の強化＋共用部改修</dd>
-      <dt>背景</dt><dd>周辺の居住人口・就業人口の増加に対応</dd>
-    </dl>
-    <p class="tower-note">つくばエクスプレス沿線の開発が進んで人が増えた分、食が足りなくなったということ。</p>
-  </div>
-
-  <div class="tower-card">
-    <span class="tower-no">4</span>
-    <span class="tower-eta is-far">2026年10月〜2029年春</span>
-    <span class="tower-area">神奈川・川崎</span>
-    <h4>ラゾーナ川崎プラザ ※ららぽーと外</h4>
-    <dl class="tower-spec">
-      <dt>テーマ</dt><dd>「Culture Mash up」</dd>
-      <dt>フードコート</dt><dd>15→21店舗、約800→<strong>約1,200席</strong>（2027年12月）</dd>
-      <dt>モール</dt><dd>西側／2階駅側（コスメ・フレグランス化）2027年夏、東側2028年秋</dd>
-      <dt>完了</dt><dd>2029年春グランドオープン</dd>
-    </dl>
-    <p class="tower-price">売上990億円の全国3位が、<strong>3年がかりで作り替える</strong>。ここが完成した後の数字は見ものよ。</p>
-  </div>
+<div class="cmp-table-wrap">
+  <table class="cmp-table">
+    <thead><tr><th>時期</th><th>内容</th><th>状況</th></tr></thead>
+    <tbody>
+      <tr><td>2026年3月</td><td>センターポートに大型サイネージ</td><td>完成</td></tr>
+      <tr class="recommended"><td><strong>2026年4月28日</strong></td><td>中庭に約700㎡「キッズパーク」新設。人工芝に「ふわふわマウンテン」「オムニスピナー」</td><td><strong>利用開始済み</strong></td></tr>
+      <tr class="recommended"><td>2026年8月</td><td>共用廊下のレストスペースを100席→<strong>400席</strong>（4倍）</td><td>完了</td></tr>
+      <tr><td>2026年3月〜2027年3月</td><td>計31店舗を順次 新店・改装（東京都初出店を含む）</td><td>進行中</td></tr>
+      <tr><td>2027年3月</td><td>イベントステージ 大規模改修</td><td>予定</td></tr>
+      <tr><td>—</td><td>日本橋からの<strong>船アクセス</strong>導入</td><td>予定</td></tr>
+    </tbody>
+  </table>
 </div>
 
-<p class="source-note">出典：<a href="https://www.mitsuifudosan.co.jp/corporate/news/2025/1211/" target="_blank" rel="noopener">三井不動産 2025年12月11日リリース</a>／<a href="https://www.mitsuifudosan.co.jp/corporate/news/2026/0311/" target="_blank" rel="noopener">豊洲 2026年3月11日</a>／<a href="https://www.mitsuifudosan.co.jp/corporate/news/2026/0318/" target="_blank" rel="noopener">横浜 2026年3月18日</a>／<a href="https://www.mitsuifudosan.co.jp/corporate/news/2026/0722_02/" target="_blank" rel="noopener">ラゾーナ川崎 2026年7月22日</a>。</p>
+**売上は前年比±0の520億円で足踏みしていた施設。** そこに「座席4倍」「700㎡のキッズパーク」という、売場を増やさない投資を打ってきた。**滞在時間を伸ばして客単価を上げにいく**という意思がはっきり出てる。
+
+<p class="source-note">出典：<a href="https://mitsui-shopping-park.com/lalaport/toyosu/special/renewal-20th/" target="_blank" rel="noopener">ららぽーと豊洲 リニューアル特設ページ（公式）</a>／<a href="https://prtimes.jp/main/html/rd/p/000001007.000051782.html" target="_blank" rel="noopener">三井不動産 プレスリリース</a>／<a href="https://toyosu.tokyo/open-close/lalaport-toyosu-kidspark-open/" target="_blank" rel="noopener">とよすと「キッズパークが利用可能に」</a>／<a href="https://www.fashion-press.net/news/144287" target="_blank" rel="noopener">ファッションプレス</a>。</p>
+
+### ② ラゾーナ川崎プラザ｜フードコートが1年以上「消える」
+
+<figure class="rn-figure">
+  <img src="/images/lalaport-guide-2026/photos/rn-lazona.jpg" alt="ラゾーナ川崎プラザ リニューアル後のモールの完成イメージ" loading="lazy" />
+  <figcaption>「Culture Mash up」をコンセプトに、2029年春のグランドオープンまで段階的に改修される。<cite>出典: <a href="https://prtimes.jp/main/html/rd/p/000001096.000051782.html" target="_blank" rel="noopener">三井不動産 プレスリリース</a></cite></figcaption>
+</figure>
+
+売上990億円・全国3位の施設が、3年がかりで作り替える。**行く人にとって一番影響が大きいのはここ。**
+
+<div class="cmp-table-wrap">
+  <table class="cmp-table">
+    <thead><tr><th>時期</th><th>何が起きるか</th></tr></thead>
+    <tbody>
+      <tr class="recommended"><td><strong>2026年9月30日</strong></td><td>フードコート「ダイニング・セレクション」が<strong>一時営業終了</strong></td></tr>
+      <tr class="recommended"><td><strong>2026年10月</strong></td><td>2階駅側モールを<strong>一時閉鎖</strong>（全店舗入替＋共用部の大規模改修）</td></tr>
+      <tr><td>2027年夏</td><td>西側モール／2階駅側モールが<strong>コスメ・フレグランスエリア</strong>として再開</td></tr>
+      <tr class="recommended"><td><strong>2027年12月</strong></td><td>フードコート再オープン。15→<strong>21店舗</strong>、約800→<strong>約1,200席</strong></td></tr>
+      <tr><td>2028年秋</td><td>東側モール刷新</td></tr>
+      <tr><td>2029年春</td><td>グランドオープン</td></tr>
+    </tbody>
+  </table>
+</div>
+
+**フードコートが2026年9月末から2027年12月まで、1年2か月ぶん使えない。** 川崎駅直結でごはん目当てに寄る人は、この期間の計画を立て直したほうがいい。
+
+<p class="source-note">出典：<a href="https://www.mitsuifudosan.co.jp/corporate/news/2026/0722_02/" target="_blank" rel="noopener">三井不動産「ラゾーナ川崎プラザ 過去最大級のリニューアル計画がスタート」（2026年7月22日）</a>／<a href="https://www.ryutsuu.biz/store/s072250.html" target="_blank" rel="noopener">流通ニュース</a>／<a href="https://tetsudo-ch.com/13033284.html" target="_blank" rel="noopener">鉄道チャンネル「いつから何が変わるか徹底解説」</a>。</p>
+
+### ③ ららぽーと横浜｜売上−110億の当事者。3か年で立て直す
+
+<figure class="rn-figure">
+  <img src="/images/lalaport-guide-2026/photos/rn-yokohama.jpg" alt="ららぽーと横浜 リニューアル後のイメージ" loading="lazy" />
+  <figcaption>2階ノースカーブモールは「こどものあそびば」に刷新される。<cite>出典: <a href="https://www.mitsuifudosan.co.jp/corporate/news/2026/0318/" target="_blank" rel="noopener">三井不動産 ニュースリリース</a></cite></figcaption>
+</figure>
+
+<div class="cmp-table-wrap">
+  <table class="cmp-table">
+    <thead><tr><th>時期</th><th>内容</th></tr></thead>
+    <tbody>
+      <tr class="recommended"><td><strong>2026年春</strong>（第1弾）</td><td>物販中心に<strong>26店舗</strong>が新規・改装（神奈川県初3店／ららぽーと初8店）。2階ノースカーブモールを「こどものあそびば」に刷新。女性向けトイレ整備、日差し対策の休憩スペース拡充</td></tr>
+      <tr><td>2027年以降</td><td>飲食の拡充、特選ダイニング「FOURSYUN」の大規模改修、セントラルガーデン整備</td></tr>
+      <tr><td>2028年夏</td><td>3か年計画の完了</td></tr>
+    </tbody>
+  </table>
+</div>
+
+面積は約93,000㎡で**ららぽーと2位**。それで売上460億は明らかに実力を出せていない。工事が終わる2028年以降の数字が、この投資の答え合わせになる。
+
+<p class="source-note">出典：<a href="https://www.mitsuifudosan.co.jp/corporate/news/2026/0318/" target="_blank" rel="noopener">三井不動産（2026年3月18日）</a>／<a href="https://shin-yoko.net/2025/12/24/lalaport-2/" target="_blank" rel="noopener">新横浜新聞「ららぽーと横浜を大規模リニューアル」</a>。</p>
+
+### ④ ららぽーと柏の葉｜人が増えすぎて「食」が足りない
+
+<figure class="rn-figure">
+  <img src="/images/lalaport-guide-2026/photos/rn-kashiwa.jpg" alt="首都圏4施設 大規模リニューアル発表のイメージ" loading="lazy" />
+  <figcaption>4施設一斉リニューアルの発表資料より。柏の葉は2027年春以降に着手する。<cite>出典: <a href="https://prtimes.jp/main/html/rd/p/000000958.000051782.html" target="_blank" rel="noopener">三井不動産 プレスリリース</a></cite></figcaption>
+</figure>
+
+4施設のなかで**唯一まだ着手していない**のが柏の葉。2027年春以降に、**飲食関連機能の強化と共用部改修**を中心にやる。
+
+理由がはっきりしていて、つくばエクスプレス沿線の開発で**周辺の居住人口・就業人口が増えた**から。店を増やすより先に、食べる場所が足りなくなったということ。柏の葉キャンパス駅から徒歩1分という立地で、街の成長にモールが追いついていない状態ね。
+
+<p class="source-note">出典：<a href="https://www.mitsuifudosan.co.jp/corporate/news/2025/1211/" target="_blank" rel="noopener">三井不動産「開業20周年を迎える首都圏リージョナル型ショッピングセンター4施設 2026年以降順次大規模リニューアル」（2025年12月11日）</a>。<strong>柏の葉の具体的な店舗数・完了時期は未発表。</strong></p>
 
 ### 2026年に終わったリニューアルも2つある
 
@@ -296,10 +333,10 @@ author: "hacker-ko"
   <table class="cmp-table">
     <thead><tr><th>施設</th><th>国・都市</th><th>開業</th><th>店舗面積</th><th>店舗数</th></tr></thead>
     <tbody>
-      <tr><td>ららぽーと上海金橋</td><td>中国・上海</td><td>2021/4</td><td>約55,000㎡</td><td>約180</td></tr>
-      <tr class="recommended"><td>LaLaport BUKIT BINTANG CITY CENTRE</td><td>マレーシア・KL</td><td>2022/1</td><td>約82,600㎡</td><td>約400</td></tr>
-      <tr><td>ららぽーと台中</td><td>台湾・台中</td><td>2023/5</td><td>約68,000㎡</td><td>約300</td></tr>
-      <tr><td>ららぽーと台北南港</td><td>台湾・台北</td><td>2025/3</td><td>約70,000㎡</td><td>約300</td></tr>
+      <tr><td><a href="https://mitsui-shopping-park.com/lalaport/shanghai/" target="_blank" rel="noopener">ららぽーと上海金橋</a></td><td>中国・上海</td><td>2021/4</td><td>約55,000㎡</td><td>約180</td></tr>
+      <tr class="recommended"><td><a href="https://mitsui-shopping-park.com.my/LaLaportBBCC/Main/Index" target="_blank" rel="noopener">LaLaport BUKIT BINTANG CITY CENTRE</a></td><td>マレーシア・KL</td><td>2022/1</td><td>約82,600㎡</td><td>約400</td></tr>
+      <tr><td><a href="https://www.mitsui-shopping-park.com.tw/lalaport/taichung/" target="_blank" rel="noopener">ららぽーと台中</a></td><td>台湾・台中</td><td>2023/5</td><td>約68,000㎡</td><td>約300</td></tr>
+      <tr><td><a href="https://mitsui-shopping-park.com/lalaport/nangang/" target="_blank" rel="noopener">ららぽーと台北南港</a></td><td>台湾・台北</td><td>2025/3</td><td>約70,000㎡</td><td>約300</td></tr>
       <tr><td>ららぽーと高雄</td><td>台湾・高雄</td><td>建設中</td><td>延床約206,000㎡</td><td>約280</td></tr>
     </tbody>
   </table>
