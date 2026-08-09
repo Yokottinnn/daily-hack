@@ -1,0 +1,114 @@
+[
+ {
+  "no": 1,
+  "name": "札幌北広島",
+  "pref": "北海道",
+  "lat": 42.9722381,
+  "lon": 141.4701078,
+  "url": "https://mitsui-shopping-park.com/mop/sapporo/"
+ },
+ {
+  "no": 2,
+  "name": "仙台港",
+  "pref": "宮城",
+  "lat": 38.2751825,
+  "lon": 140.9898398,
+  "url": "https://mitsui-shopping-park.com/mop/sendai/"
+ },
+ {
+  "no": 3,
+  "name": "北陸小矢部",
+  "pref": "富山",
+  "lat": 36.6892686,
+  "lon": 136.8810228,
+  "url": "https://mitsui-shopping-park.com/mop/oyabe/"
+ },
+ {
+  "no": 4,
+  "name": "入間",
+  "pref": "埼玉",
+  "lat": 35.8103454,
+  "lon": 139.3802642,
+  "url": "https://mitsui-shopping-park.com/mop/iruma/"
+ },
+ {
+  "no": 5,
+  "name": "幕張",
+  "pref": "千葉",
+  "lat": 35.6472857,
+  "lon": 140.0413817,
+  "url": "https://mitsui-shopping-park.com/mop/makuhari/"
+ },
+ {
+  "no": 6,
+  "name": "多摩南大沢",
+  "pref": "東京",
+  "lat": 35.6150793,
+  "lon": 139.3783724,
+  "url": "https://mitsui-shopping-park.com/mop/tama/"
+ },
+ {
+  "no": 7,
+  "name": "木更津",
+  "pref": "千葉",
+  "lat": 35.4355861,
+  "lon": 139.9346386,
+  "url": "https://mitsui-shopping-park.com/mop/kisarazu/"
+ },
+ {
+  "no": 8,
+  "name": "横浜ベイサイド",
+  "pref": "神奈川",
+  "lat": 35.3798991,
+  "lon": 139.6464076,
+  "url": "https://mitsui-shopping-park.com/mop/yokohama/"
+ },
+ {
+  "no": 9,
+  "name": "滋賀竜王",
+  "pref": "滋賀",
+  "lat": 35.0586919,
+  "lon": 136.0995553,
+  "url": "https://mitsui-shopping-park.com/mop/shiga/"
+ },
+ {
+  "no": 10,
+  "name": "ジャズドリーム長島",
+  "pref": "三重",
+  "lat": 35.030174,
+  "lon": 136.7254449,
+  "url": "https://mitsui-shopping-park.com/mop/nagashima/"
+ },
+ {
+  "no": 11,
+  "name": "岡崎",
+  "pref": "愛知",
+  "lat": 34.90028,
+  "lon": 137.250916,
+  "url": "https://mitsui-shopping-park.com/mop/okazaki/"
+ },
+ {
+  "no": 12,
+  "name": "大阪門真",
+  "pref": "大阪",
+  "lat": 34.7305887,
+  "lon": 135.5845972,
+  "url": "https://mitsui-shopping-park.com/mop/osakakadoma/"
+ },
+ {
+  "no": 13,
+  "name": "マリンピア神戸",
+  "pref": "兵庫",
+  "lat": 34.6260429,
+  "lon": 135.0473804,
+  "url": "https://mitsui-shopping-park.com/mop/kobe/"
+ },
+ {
+  "no": 14,
+  "name": "倉敷",
+  "pref": "岡山",
+  "lat": 34.6035866,
+  "lon": 133.7614948,
+  "url": "https://mitsui-shopping-park.com/mop/kurashiki/"
+ }
+]

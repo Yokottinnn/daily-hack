@@ -1,0 +1,162 @@
+[
+ {
+  "no": 1,
+  "name": "TOKYO-BAY",
+  "pref": "千葉",
+  "lat": 35.685882,
+  "lon": 139.989963,
+  "url": "https://mitsui-shopping-park.com/lalaport/tokyo-bay/"
+ },
+ {
+  "no": 2,
+  "name": "甲子園",
+  "pref": "兵庫",
+  "lat": 34.7177736,
+  "lon": 135.3635694,
+  "url": "https://mitsui-shopping-park.com/lalaport/koshien/"
+ },
+ {
+  "no": 3,
+  "name": "豊洲",
+  "pref": "東京",
+  "lat": 35.6558598,
+  "lon": 139.7925668,
+  "url": "https://mitsui-shopping-park.com/lalaport/toyosu/"
+ },
+ {
+  "no": 4,
+  "name": "柏の葉",
+  "pref": "千葉",
+  "lat": 35.8936688,
+  "lon": 139.9510486,
+  "url": "https://mitsui-shopping-park.com/lalaport/kashiwa/"
+ },
+ {
+  "no": 5,
+  "name": "横浜",
+  "pref": "神奈川",
+  "lat": 35.5175088,
+  "lon": 139.5664931,
+  "url": "https://mitsui-shopping-park.com/lalaport/yokohama/"
+ },
+ {
+  "no": 6,
+  "name": "磐田",
+  "pref": "静岡",
+  "lat": 34.7503444,
+  "lon": 137.8419446,
+  "url": "https://mitsui-shopping-park.com/lalaport/iwata/"
+ },
+ {
+  "no": 7,
+  "name": "新三郷",
+  "pref": "埼玉",
+  "lat": 35.859612,
+  "lon": 139.8660141,
+  "url": "https://mitsui-shopping-park.com/lalaport/shinmisato/"
+ },
+ {
+  "no": 8,
+  "name": "和泉",
+  "pref": "大阪",
+  "lat": 34.4368083,
+  "lon": 135.4481799,
+  "url": "https://mitsui-shopping-park.com/lalaport/izumi/"
+ },
+ {
+  "no": 9,
+  "name": "富士見",
+  "pref": "埼玉",
+  "lat": 35.8596332,
+  "lon": 139.5482625,
+  "url": "https://mitsui-shopping-park.com/lalaport/fujimi/"
+ },
+ {
+  "no": 10,
+  "name": "海老名",
+  "pref": "神奈川",
+  "lat": 35.4560135,
+  "lon": 139.3891894,
+  "url": "https://mitsui-shopping-park.com/lalaport/ebina/"
+ },
+ {
+  "no": 11,
+  "name": "EXPOCITY",
+  "pref": "大阪",
+  "lat": 34.8052512,
+  "lon": 135.5355151,
+  "url": "https://mitsui-shopping-park.com/lalaport/expocity/"
+ },
+ {
+  "no": 12,
+  "name": "立川立飛",
+  "pref": "東京",
+  "lat": 35.7128112,
+  "lon": 139.4179914,
+  "url": "https://mitsui-shopping-park.com/lalaport/tachikawa/"
+ },
+ {
+  "no": 13,
+  "name": "湘南平塚",
+  "pref": "神奈川",
+  "lat": 35.3363262,
+  "lon": 139.3548449,
+  "url": "https://mitsui-shopping-park.com/lalaport/hiratsuka/"
+ },
+ {
+  "no": 14,
+  "name": "名古屋みなとアクルス",
+  "pref": "愛知",
+  "lat": 35.1093149,
+  "lon": 136.8833127,
+  "url": "https://mitsui-shopping-park.com/lalaport/minatoaquls/"
+ },
+ {
+  "no": 15,
+  "name": "沼津",
+  "pref": "静岡",
+  "lat": 35.1173,
+  "lon": 138.8402917,
+  "url": "https://mitsui-shopping-park.com/lalaport/numazu/"
+ },
+ {
+  "no": 16,
+  "name": "愛知東郷",
+  "pref": "愛知",
+  "lat": 35.0986978,
+  "lon": 137.04693,
+  "url": "https://mitsui-shopping-park.com/lalaport/togo/"
+ },
+ {
+  "no": 17,
+  "name": "福岡",
+  "pref": "福岡",
+  "lat": 33.5651676,
+  "lon": 130.4409414,
+  "url": "https://mitsui-shopping-park.com/lalaport/fukuoka/"
+ },
+ {
+  "no": 18,
+  "name": "堺",
+  "pref": "大阪",
+  "lat": 34.5407535,
+  "lon": 135.5602519,
+  "url": "https://mitsui-shopping-park.com/lalaport/sakai/"
+ },
+ {
+  "no": 19,
+  "name": "門真",
+  "pref": "大阪",
+  "lat": 34.732043,
+  "lon": 135.584663,
+  "url": "https://mitsui-shopping-park.com/lalaport/kadoma/"
+ },
+ {
+  "no": 20,
+  "name": "安城",
+  "pref": "愛知",
+  "lat": 34.9654472,
+  "lon": 137.0802649,
+  "url": "https://mitsui-shopping-park.com/lalaport/anjo/"
+ }
+]
