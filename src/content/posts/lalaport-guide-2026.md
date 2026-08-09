@@ -136,11 +136,24 @@ author: "hacker-ko"
 
 <p class="source-note">FY2024の数値は<a href="https://www.mitsuifudosan.co.jp/corporate/ir/presentation/pdf/FR_BH2605j.pdf" target="_blank" rel="noopener">三井不動産「2026年3月期 決算説明資料」（2026年5月）88ページ</a>より。両資料とも10億円単位の開示なので、増減は±5億円程度の丸め誤差を含む。<strong>アタシが2つの資料を突き合わせて計算したもので、三井不動産が増減として公表した数値ではない。</strong></p>
 
-### 数字の裏で、現地では何が起きているか
+### TOKYO-BAYの+160億は「増床がそのまま乗った」
 
-決算資料は結果しか教えてくれない。**実際に何が起きたか**を、公式発表と現地の声で補う。
+決算資料は結果しか教えてくれない。**実際に何が起きたか**を、公式発表と現地の声で補っていく。
 
-**TOKYO-BAYの増床は「日本一のフードコート」を生んだ。** North Gate 3階のフードコートは約1,400席。ららぽーとTOKYO-BAY全体では**約2,500席**になり、これは日本最大級。20店舗のうち**11店舗が千葉県初出店**という構成で、増床が単なる面積増ではなく集客装置になっている。
+<figure class="rn-figure">
+  <img src="/images/lalaport-guide-2026/photos/northgate.jpg" alt="ららぽーとTOKYO-BAY North Gate（2025年10月31日開業）" loading="lazy" />
+  <figcaption>2025年10月31日にグランドオープンした「North Gate」。旧ビビット南船橋を統合し、店舗面積は約3割増えた。<cite>出典: <a href="https://prtimes.jp/main/html/rd/p/000000894.000051782.html" target="_blank" rel="noopener">三井不動産 プレスリリース</a></cite></figcaption>
+</figure>
+
+2025年10月31日、**北館の建替え1期と、隣接していた「ビビット南船橋」の統合が完了**して「ららぽーとTOKYO-BAY North Gate」になった。店舗面積は約102,000㎡→約133,000㎡へ、一気に3割増えてる。
+
+増床分がまるごと売上に乗った格好ね。**何が入ったのかは次の見出しで詳しく見る。**
+
+しかもこれで終わりじゃない。**北館2期（約60,200㎡）が2027年度以降**に控えていて、完成すると**国内最大テナント数のSC**になる計画。
+
+### TOKYO-BAYの増床は「日本一のフードコート」を生んだ
+
+North Gate 3階のフードコートは約1,400席。ららぽーとTOKYO-BAY全体では**約2,500席**になり、これは日本最大級。20店舗のうち**11店舗が千葉県初出店**という構成で、増床が単なる面積増ではなく集客装置になっている。
 
 オープン前から話題になった出店のひとつがこれ。
 
@@ -155,6 +168,23 @@ author: "hacker-ko"
 **「近隣住民は混雑を避けて平日夕方に行く」** ——これは決算資料には絶対に載らない情報。行くなら平日夕方が狙い目ということ。
 
 <p class="source-note">出典：<a href="https://www.fashion-press.net/news/116749" target="_blank" rel="noopener">ファッションプレス「北館建替えで千葉最大級フードゾーン誕生、フードコート席数は日本一に」</a>／<a href="https://tetsudo-ch.com/13015281.html" target="_blank" rel="noopener">鉄道チャンネル「北館1期96店舗がオープン」</a>／<a href="https://toyokeizai.net/articles/-/929513" target="_blank" rel="noopener">東洋経済オンライン「日本一のフードコートの実力」</a>。引用したX投稿はいずれも認証済みアカウントのもので、投稿日時を検証済み。</p>
+
+### 横浜の−110億は「工事中だから」
+
+こっちは逆。ららぽーと横浜は2026年春から**2028年夏までの3か年**で、過去最大規模のリニューアルに入ってる。
+
+<figure class="rn-figure">
+  <img src="/images/lalaport-guide-2026/photos/rn-yokohama2.jpg" alt="ららぽーと横浜のエントランスと館内。3か年リニューアルが進行中" loading="lazy" />
+  <figcaption>2026年3月19日に第1弾26店舗がオープン。2階ノースカーブモールは「こどものあそびば」に生まれ変わった。<cite>出典: <a href="https://prtimes.jp/main/html/rd/p/000001014.000051782.html" target="_blank" rel="noopener">三井不動産 プレスリリース</a></cite></figcaption>
+</figure>
+
+第1弾は**2026年3月19日**から順次オープン。物販中心に26店舗（**神奈川県初3店・ららぽーと初8店**）が入れ替わった。目玉は会員証なしでコストコ商品が買える**stockmart**と、老舗・銀座三笠會館の新業態。2階ノースカーブモールの芝生広場は<strong>年齢別にゾーン分けした「こどものあそびば」</strong>に全面刷新され、大人の見守りスペースも併設された。
+
+2027年以降は飲食の拡充と、特選ダイニング「FOURSYUN」の大規模改修が控えてる。
+
+**工事中は当然、売上は落ちる。** これを「人気が落ちた」と読むのは間違いよ。むしろ<strong>約93,000㎡というららぽーと2位の面積</strong>を持ちながら460億円しか出ていない今が底で、ここから戻す局面と見るべき。
+
+<p class="source-note">出典：<a href="https://www.mitsuifudosan.co.jp/corporate/news/2025/1211/" target="_blank" rel="noopener">三井不動産「開業20周年を迎える首都圏リージョナル型ショッピングセンター4施設 2026年以降順次大規模リニューアル」（2025年12月11日）</a>／<a href="https://www.mitsuifudosan.co.jp/corporate/news/2025/0916/" target="_blank" rel="noopener">同「ららぽーとTOKYO-BAY北館建替え計画 Ⅰ期グランドオープン」（2025年9月16日）</a>。</p>
 
 ### アプリは1,000万DLを突破。EC利用は前年比2倍
 
@@ -176,24 +206,6 @@ author: "hacker-ko"
 **リアル店舗の売上ランキングだけ見ていると見落とす部分。** 年間30万円のリアル利用でプレミアムに乗れば、EC側で常時8%が付く二段構えになってる。
 
 <p class="source-note">出典：<a href="https://www.mitsuifudosan.co.jp/corporate/news/2026/0313_01/" target="_blank" rel="noopener">三井不動産「三井ショッピングパークアプリ、累計1,000万ダウンロードを突破」（2026年3月13日）</a>。</p>
-
-### TOKYO-BAYの+160億は「増床がそのまま乗った」
-
-2025年10月31日、**北館の建替え1期と、隣接していた「ビビット南船橋」の統合が完了**して「ららぽーとTOKYO-BAY North Gate」になった。店舗面積は約102,000㎡→約133,000㎡へ、一気に3割増えてる。
-
-レストランとフードコートを一体化した**千葉県最大級のフードゾーン**が目玉で、フードコートの席数は日本一という触れ込み。増床分がまるごと売上に乗った格好ね。
-
-しかもこれで終わりじゃない。**北館2期（約60,200㎡）が2027年度以降**に控えていて、完成すると**国内最大テナント数のSC**になる計画。
-
-### 横浜の−110億は「工事中だから」
-
-こっちは逆。ららぽーと横浜は2026年春から**2028年夏までの3か年**で、過去最大規模のリニューアルに入ってる。
-
-第1弾は物販中心に26店舗が新規・改装オープン、2階の共用部を子どもの遊び場に刷新。2027年以降は飲食の拡充と特選ダイニングの大規模改修が控えてる。
-
-**工事中は当然、売上は落ちる。** これを「人気が落ちた」と読むのは間違いよ。むしろ<strong>約93,000㎡というららぽーと2位の面積</strong>を持ちながら460億円しか出ていない今が底で、ここから戻す局面と見るべき。
-
-<p class="source-note">出典：<a href="https://www.mitsuifudosan.co.jp/corporate/news/2025/1211/" target="_blank" rel="noopener">三井不動産「開業20周年を迎える首都圏リージョナル型ショッピングセンター4施設 2026年以降順次大規模リニューアル」（2025年12月11日）</a>／<a href="https://www.mitsuifudosan.co.jp/corporate/news/2025/0916/" target="_blank" rel="noopener">同「ららぽーとTOKYO-BAY北館建替え計画 Ⅰ期グランドオープン」（2025年9月16日）</a>。</p>
 
 ## 全20施設リスト｜開業順に全部
 
@@ -232,6 +244,17 @@ author: "hacker-ko"
 <p class="source-note">出典：<a href="https://mitsui-shopping-park.com/lalaport/" target="_blank" rel="noopener">三井ショッピングパーク ららぽーと公式ポータル</a>および各施設の開業時プレスリリース。<strong>店舗数は開業時または直近リリース時点の公式値で、現在の実数は公表されていない。</strong>面積は大店立地法の届出値と公式リリース値で最大2万㎡ずれる施設があるため、本記事は公式リリース値で統一している。</p>
 
 ### よくある間違い3つ
+
+<div class="cmp-table-wrap">
+  <table class="cmp-table">
+    <thead><tr><th>よく見る記述</th><th>正しくは</th></tr></thead>
+    <tbody>
+      <tr><td>ららぽーと安城は<strong>2024年</strong>開業</td><td><strong>2025年4月18日</strong>開業。2024年10月の開業<em>予告</em>リリースと取り違えられている</td></tr>
+      <tr><td>North Gate で<strong>21施設目</strong></td><td>新規施設ではない。2004年開業「ビビット南船橋」の改称・統合で、TOKYO-BAY は南館／西館／北館／North Gate の<strong>4館構成</strong></td></tr>
+      <tr class="recommended"><td>ラゾーナ川崎は<strong>ららぽーと</strong></td><td>同じ三井不動産だが<strong>ブランドが別</strong>。「三井ショッピングパーク」が総称で、その下にららぽーと／MOP／ららテラス／ララガーデン／ラゾーナ川崎プラザが並ぶ</td></tr>
+    </tbody>
+  </table>
+</div>
 
 <ul class="checklist">
   <li><div class="checklist-body"><strong>「ららぽーと安城は2024年開業」→ 違う</strong><p>正しくは<strong>2025年4月18日</strong>。2024年10月の開業<em>予告</em>リリースを開業年と取り違えた情報が出回ってる。</p></div></li>
@@ -331,6 +354,11 @@ author: "hacker-ko"
 <p class="source-note">出典：<a href="https://www.mitsuifudosan.co.jp/corporate/news/2025/1211/" target="_blank" rel="noopener">三井不動産「開業20周年を迎える首都圏リージョナル型ショッピングセンター4施設 2026年以降順次大規模リニューアル」（2025年12月11日）</a>。<strong>柏の葉の具体的な店舗数・完了時期は未発表。</strong></p>
 
 ### 2026年に終わったリニューアルも2つある
+
+<figure class="rn-figure">
+  <img src="/images/lalaport-guide-2026/photos/rn-izumi.jpg" alt="ららぽーと和泉 リニューアル後のフードコート「FOOD PARK」" loading="lazy" />
+  <figcaption>ららぽーと和泉は開業以来2度目のリニューアルで、フードコートを「FOOD PARK」に刷新した（2026年3月26日〜）。<cite>出典: <a href="https://www.mitsuifudosan.co.jp/corporate/news/2026/0225_01/" target="_blank" rel="noopener">三井不動産 ニュースリリース</a></cite></figcaption>
+</figure>
 
 <div class="highlight-grid">
   <div class="highlight-item">

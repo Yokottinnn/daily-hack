@@ -19,6 +19,9 @@ SEO 監視が「Secret 未設定で毎回 skip され続けた」のと同じ構
    （見出しが .section-with-mascot 内にある h2 は id が振られないため頻出）
 3. 施設名・サービス名が並ぶ表なのに、1 つもリンクが無い
 4. .event-pick があるのに .event-picks-credit（画像出典）が無い
+5. 【1セクション1ビジュアル】h2/h3 セクションに画像・動画・X埋め込みが1つも無い
+   （Jordan 指示 2026-08-09「基本的にはワンセクションにつき1つ、画像や動画、
+   X の投稿などを入れて、ビジュアルでもパッと理解できるようにする」）
 
 Usage:
   npm run build && python3.11 scripts/check-article-ux.py
@@ -81,6 +84,23 @@ def check(path):
     # --- 4. 画像出典 ---
     if anchors and "event-picks-credit" not in body:
         issues.append(".event-pick を使っているのに .event-picks-credit（画像出典）が無い")
+
+    # --- 5. 1セクション1ビジュアル ---
+    # 見出しで本文を分割し、各セクションに視覚要素があるかを見る。
+    # 視覚要素 = <img> / iframe(YouTube等) / X埋め込み / 写真カード / 図版
+    VISUAL = re.compile(r"<img\s|<iframe\s|twitter-tweet|event-pick|rn-figure|figure-card|<table")
+    parts = re.split(r'(<h[23][^>]*>.*?</h[23]>)', body, flags=re.S)
+    # parts: [前文, 見出し, 本文, 見出し, 本文, ...]
+    for i in range(1, len(parts) - 1, 2):
+        title = re.sub(r"<[^>]+>", "", parts[i]).strip()
+        chunk = parts[i + 1]
+        text_len = len(re.sub(r"<[^>]+>", "", chunk).strip())
+        # 短いつなぎの見出しは対象外（本文200字未満）
+        if text_len < 200:
+            continue
+        if not VISUAL.search(chunk):
+            issues.append(f"セクション「{title[:32]}」に画像・動画・X埋め込み・表が無い"
+                          f"（1セクション1ビジュアル）")
 
     return issues
 
