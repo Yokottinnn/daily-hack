@@ -245,14 +245,16 @@ North Gate 3階のフードコートは約1,400席。ららぽーとTOKYO-BAY全
         <span class="jp-inset-rect" style="left:59.97%;top:66.48%;width:5.96%;height:5.69%"></span>
         <span class="jp-layer jp-layer--1">
           <svg class="jp-leaders" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
-          <line x1="38.46" y1="74.87" x2="36.11" y2="72.09" />
-          <line x1="52.54" y1="74.66" x2="52.75" y2="75.09" />
-          <line x1="38.94" y1="76.62" x2="39.11" y2="79.91" />
-          <line x1="39.43" y1="74.32" x2="43.88" y2="74.30" />
-          <line x1="47.09" y1="72.41" x2="45.98" y2="70.44" />
-          <line x1="48.02" y1="72.48" x2="50.79" y2="71.09" />
-          <line x1="39.58" y1="75.97" x2="35.59" y2="76.84" />
-          <line x1="48.21" y1="73.32" x2="48.26" y2="74.80" />
+          <line x1="38.46" y1="74.87" x2="35.47" y2="69.71" />
+          <line x1="52.54" y1="74.66" x2="55.70" y2="77.85" />
+          <line x1="38.94" y1="76.62" x2="39.11" y2="82.46" />
+          <line x1="39.43" y1="74.32" x2="42.49" y2="68.87" />
+          <line x1="47.09" y1="72.41" x2="49.03" y2="66.38" />
+          <line x1="58.21" y1="72.36" x2="59.22" y2="71.68" />
+          <line x1="48.02" y1="72.48" x2="45.89" y2="78.55" />
+          <line x1="39.58" y1="75.97" x2="33.15" y2="77.77" />
+          <line x1="39.71" y1="74.78" x2="39.69" y2="75.29" />
+          <line x1="48.21" y1="73.32" x2="50.44" y2="73.23" />
           </svg>
           <span class="jp-dot" style="left:38.46%;top:74.87%"></span>
           <span class="jp-dot" style="left:52.54%;top:74.66%"></span>
@@ -265,24 +267,26 @@ North Gate 3階のフードコートは約1,400席。ららぽーとTOKYO-BAY全
           <span class="jp-dot" style="left:39.58%;top:75.97%"></span>
           <span class="jp-dot" style="left:39.71%;top:74.78%"></span>
           <span class="jp-dot" style="left:48.21%;top:73.32%"></span>
-          <a class="jp-pin" style="left:36.11%;top:72.09%" href="https://mitsui-shopping-park.com/lalaport/koshien/" target="_blank" rel="noopener" aria-label="甲子園">2</a>
-          <a class="jp-pin" style="left:52.75%;top:75.09%" href="https://mitsui-shopping-park.com/lalaport/iwata/" target="_blank" rel="noopener" aria-label="磐田">6</a>
-          <a class="jp-pin" style="left:39.11%;top:79.91%" href="https://mitsui-shopping-park.com/lalaport/izumi/" target="_blank" rel="noopener" aria-label="和泉">8</a>
-          <a class="jp-pin" style="left:43.88%;top:74.30%" href="https://mitsui-shopping-park.com/lalaport/expocity/" target="_blank" rel="noopener" aria-label="EXPOCITY">11</a>
-          <a class="jp-pin" style="left:45.98%;top:70.44%" href="https://mitsui-shopping-park.com/lalaport/minatoaquls/" target="_blank" rel="noopener" aria-label="名古屋みなとアクルス">14</a>
-          <a class="jp-pin" style="left:58.21%;top:72.36%" href="https://mitsui-shopping-park.com/lalaport/numazu/" target="_blank" rel="noopener" aria-label="沼津">15</a>
-          <a class="jp-pin" style="left:50.79%;top:71.09%" href="https://mitsui-shopping-park.com/lalaport/togo/" target="_blank" rel="noopener" aria-label="愛知東郷">16</a>
-          <a class="jp-pin" style="left:10.49%;top:82.02%" href="https://mitsui-shopping-park.com/lalaport/fukuoka/" target="_blank" rel="noopener" aria-label="福岡">17</a>
-          <a class="jp-pin" style="left:35.59%;top:76.84%" href="https://mitsui-shopping-park.com/lalaport/sakai/" target="_blank" rel="noopener" aria-label="堺">18</a>
-          <a class="jp-pin" style="left:39.52%;top:74.87%" href="https://mitsui-shopping-park.com/lalaport/kadoma/" target="_blank" rel="noopener" aria-label="門真">19</a>
-          <a class="jp-pin" style="left:48.26%;top:74.80%" href="https://mitsui-shopping-park.com/lalaport/anjo/" target="_blank" rel="noopener" aria-label="安城">20</a>
+          <a class="jp-pin" style="left:35.47%;top:69.71%" href="https://mitsui-shopping-park.com/lalaport/koshien/" target="_blank" rel="noopener" title="甲子園" aria-label="甲子園">2</a>
+          <a class="jp-pin" style="left:55.70%;top:77.85%" href="https://mitsui-shopping-park.com/lalaport/iwata/" target="_blank" rel="noopener" title="磐田" aria-label="磐田">6</a>
+          <a class="jp-pin" style="left:39.11%;top:82.46%" href="https://mitsui-shopping-park.com/lalaport/izumi/" target="_blank" rel="noopener" title="和泉" aria-label="和泉">8</a>
+          <a class="jp-pin" style="left:42.49%;top:68.87%" href="https://mitsui-shopping-park.com/lalaport/expocity/" target="_blank" rel="noopener" title="EXPOCITY" aria-label="EXPOCITY">11</a>
+          <a class="jp-pin" style="left:49.03%;top:66.38%" href="https://mitsui-shopping-park.com/lalaport/minatoaquls/" target="_blank" rel="noopener" title="名古屋みなとアクルス" aria-label="名古屋みなとアクルス">14</a>
+          <a class="jp-pin" style="left:59.22%;top:71.68%" href="https://mitsui-shopping-park.com/lalaport/numazu/" target="_blank" rel="noopener" title="沼津" aria-label="沼津">15</a>
+          <a class="jp-pin" style="left:45.89%;top:78.55%" href="https://mitsui-shopping-park.com/lalaport/togo/" target="_blank" rel="noopener" title="愛知東郷" aria-label="愛知東郷">16</a>
+          <a class="jp-pin" style="left:10.49%;top:82.02%" href="https://mitsui-shopping-park.com/lalaport/fukuoka/" target="_blank" rel="noopener" title="福岡" aria-label="福岡">17</a>
+          <a class="jp-pin" style="left:33.15%;top:77.77%" href="https://mitsui-shopping-park.com/lalaport/sakai/" target="_blank" rel="noopener" title="堺" aria-label="堺">18</a>
+          <a class="jp-pin" style="left:39.69%;top:75.29%" href="https://mitsui-shopping-park.com/lalaport/kadoma/" target="_blank" rel="noopener" title="門真" aria-label="門真">19</a>
+          <a class="jp-pin" style="left:50.44%;top:73.23%" href="https://mitsui-shopping-park.com/lalaport/anjo/" target="_blank" rel="noopener" title="安城" aria-label="安城">20</a>
         </span>
         <span class="jp-layer jp-layer--2">
           <svg class="jp-leaders" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
-          <line x1="42.64" y1="72.73" x2="42.03" y2="71.68" />
-          <line x1="49.18" y1="73.73" x2="50.46" y2="74.14" />
-          <line x1="39.71" y1="74.79" x2="40.00" y2="75.58" />
-          <line x1="36.66" y1="75.44" x2="35.60" y2="75.54" />
+          <line x1="42.64" y1="72.73" x2="40.29" y2="69.41" />
+          <line x1="46.20" y1="72.91" x2="46.97" y2="71.51" />
+          <line x1="49.18" y1="73.73" x2="52.47" y2="75.84" />
+          <line x1="39.71" y1="74.79" x2="40.60" y2="78.44" />
+          <line x1="36.66" y1="75.44" x2="35.10" y2="74.10" />
+          <line x1="29.36" y1="75.58" x2="28.33" y2="75.87" />
           </svg>
           <span class="jp-dot" style="left:73.15%;top:20.32%"></span>
           <span class="jp-dot" style="left:70.43%;top:52.13%"></span>
@@ -293,56 +297,60 @@ North Gate 3階のフードコートは約1,400席。ららぽーとTOKYO-BAY全
           <span class="jp-dot" style="left:39.71%;top:74.79%"></span>
           <span class="jp-dot" style="left:36.66%;top:75.44%"></span>
           <span class="jp-dot" style="left:29.36%;top:75.58%"></span>
-          <a class="jp-pin" style="left:73.15%;top:20.32%" href="https://mitsui-shopping-park.com/mop/sapporo/" target="_blank" rel="noopener" aria-label="札幌北広島">1</a>
-          <a class="jp-pin" style="left:70.43%;top:52.13%" href="https://mitsui-shopping-park.com/mop/sendai/" target="_blank" rel="noopener" aria-label="仙台港">2</a>
-          <a class="jp-pin" style="left:47.08%;top:62.39%" href="https://mitsui-shopping-park.com/mop/oyabe/" target="_blank" rel="noopener" aria-label="北陸小矢部">3</a>
-          <a class="jp-pin" style="left:42.03%;top:71.68%" href="https://mitsui-shopping-park.com/mop/shiga/" target="_blank" rel="noopener" aria-label="滋賀竜王">9</a>
-          <a class="jp-pin" style="left:46.32%;top:72.66%" href="https://mitsui-shopping-park.com/mop/nagashima/" target="_blank" rel="noopener" aria-label="ジャズドリーム長島">10</a>
-          <a class="jp-pin" style="left:50.46%;top:74.14%" href="https://mitsui-shopping-park.com/mop/okazaki/" target="_blank" rel="noopener" aria-label="岡崎">11</a>
-          <a class="jp-pin" style="left:40.00%;top:75.58%" href="https://mitsui-shopping-park.com/mop/osakakadoma/" target="_blank" rel="noopener" aria-label="大阪門真">12</a>
-          <a class="jp-pin" style="left:35.60%;top:75.54%" href="https://mitsui-shopping-park.com/mop/kobe/" target="_blank" rel="noopener" aria-label="マリンピア神戸">13</a>
-          <a class="jp-pin" style="left:29.36%;top:75.58%" href="https://mitsui-shopping-park.com/mop/kurashiki/" target="_blank" rel="noopener" aria-label="倉敷">14</a>
+          <a class="jp-pin" style="left:73.15%;top:20.32%" href="https://mitsui-shopping-park.com/mop/sapporo/" target="_blank" rel="noopener" title="札幌北広島" aria-label="札幌北広島">1</a>
+          <a class="jp-pin" style="left:70.43%;top:52.13%" href="https://mitsui-shopping-park.com/mop/sendai/" target="_blank" rel="noopener" title="仙台港" aria-label="仙台港">2</a>
+          <a class="jp-pin" style="left:47.08%;top:62.39%" href="https://mitsui-shopping-park.com/mop/oyabe/" target="_blank" rel="noopener" title="北陸小矢部" aria-label="北陸小矢部">3</a>
+          <a class="jp-pin" style="left:40.29%;top:69.41%" href="https://mitsui-shopping-park.com/mop/shiga/" target="_blank" rel="noopener" title="滋賀竜王" aria-label="滋賀竜王">9</a>
+          <a class="jp-pin" style="left:46.97%;top:71.51%" href="https://mitsui-shopping-park.com/mop/nagashima/" target="_blank" rel="noopener" title="ジャズドリーム長島" aria-label="ジャズドリーム長島">10</a>
+          <a class="jp-pin" style="left:52.47%;top:75.84%" href="https://mitsui-shopping-park.com/mop/okazaki/" target="_blank" rel="noopener" title="岡崎" aria-label="岡崎">11</a>
+          <a class="jp-pin" style="left:40.60%;top:78.44%" href="https://mitsui-shopping-park.com/mop/osakakadoma/" target="_blank" rel="noopener" title="大阪門真" aria-label="大阪門真">12</a>
+          <a class="jp-pin" style="left:35.10%;top:74.10%" href="https://mitsui-shopping-park.com/mop/kobe/" target="_blank" rel="noopener" title="マリンピア神戸" aria-label="マリンピア神戸">13</a>
+          <a class="jp-pin" style="left:28.33%;top:75.87%" href="https://mitsui-shopping-park.com/mop/kurashiki/" target="_blank" rel="noopener" title="倉敷" aria-label="倉敷">14</a>
         </span>
-        <div class="inset" style="left:2.5%;top:2.5%;width:35%">
-          <span class="inset-label">関東 拡大</span>
-          <img src="/images/lalaport-guide-2026/map/kanto.png" alt="関東の拡大図" width="382" height="403" />
-          <span class="jp-layer jp-layer--1">
-            <span class="jp-dot" style="left:80.05%;top:40.49%"></span>
-            <a class="jp-pin" style="left:80.05%;top:40.49%" href="https://mitsui-shopping-park.com/lalaport/tokyo-bay/" target="_blank" rel="noopener" aria-label="TOKYO-BAY">1</a>
-            <span class="jp-dot" style="left:61.24%;top:43.83%"></span>
-            <a class="jp-pin" style="left:61.24%;top:43.83%" href="https://mitsui-shopping-park.com/lalaport/toyosu/" target="_blank" rel="noopener" aria-label="豊洲">3</a>
-            <span class="jp-dot" style="left:76.34%;top:17.35%"></span>
-            <a class="jp-pin" style="left:76.34%;top:17.35%" href="https://mitsui-shopping-park.com/lalaport/kashiwa/" target="_blank" rel="noopener" aria-label="柏の葉">4</a>
-            <span class="jp-dot" style="left:39.69%;top:59.20%"></span>
-            <a class="jp-pin" style="left:39.69%;top:59.20%" href="https://mitsui-shopping-park.com/lalaport/yokohama/" target="_blank" rel="noopener" aria-label="横浜">5</a>
-            <span class="jp-dot" style="left:68.24%;top:21.15%"></span>
-            <a class="jp-pin" style="left:68.24%;top:21.15%" href="https://mitsui-shopping-park.com/lalaport/shinmisato/" target="_blank" rel="noopener" aria-label="新三郷">7</a>
-            <span class="jp-dot" style="left:37.95%;top:21.15%"></span>
-            <a class="jp-pin" style="left:37.95%;top:21.15%" href="https://mitsui-shopping-park.com/lalaport/fujimi/" target="_blank" rel="noopener" aria-label="富士見">9</a>
-            <span class="jp-dot" style="left:22.79%;top:66.03%"></span>
-            <a class="jp-pin" style="left:22.79%;top:66.03%" href="https://mitsui-shopping-park.com/lalaport/ebina/" target="_blank" rel="noopener" aria-label="海老名">10</a>
-            <span class="jp-dot" style="left:25.53%;top:37.50%"></span>
-            <a class="jp-pin" style="left:25.53%;top:37.50%" href="https://mitsui-shopping-park.com/lalaport/tachikawa/" target="_blank" rel="noopener" aria-label="立川立飛">12</a>
-            <span class="jp-dot" style="left:19.52%;top:79.29%"></span>
-            <a class="jp-pin" style="left:19.52%;top:79.29%" href="https://mitsui-shopping-park.com/lalaport/hiratsuka/" target="_blank" rel="noopener" aria-label="湘南平塚">13</a>
-          </span>
-          <span class="jp-layer jp-layer--2">
-            <span class="jp-dot" style="left:21.94%;top:26.64%"></span>
-            <a class="jp-pin" style="left:21.94%;top:26.64%" href="https://mitsui-shopping-park.com/mop/iruma/" target="_blank" rel="noopener" aria-label="入間">4</a>
-            <span class="jp-dot" style="left:84.95%;top:44.79%"></span>
-            <a class="jp-pin" style="left:84.95%;top:44.79%" href="https://mitsui-shopping-park.com/mop/makuhari/" target="_blank" rel="noopener" aria-label="幕張">5</a>
-            <span class="jp-dot" style="left:21.76%;top:48.37%"></span>
-            <a class="jp-pin" style="left:21.76%;top:48.37%" href="https://mitsui-shopping-park.com/mop/tama/" target="_blank" rel="noopener" aria-label="多摩南大沢">6</a>
-            <span class="jp-dot" style="left:74.78%;top:68.29%"></span>
-            <a class="jp-pin" style="left:74.78%;top:68.29%" href="https://mitsui-shopping-park.com/mop/kisarazu/" target="_blank" rel="noopener" aria-label="木更津">7</a>
-            <span class="jp-dot" style="left:47.31%;top:74.46%"></span>
-            <a class="jp-pin" style="left:47.31%;top:74.46%" href="https://mitsui-shopping-park.com/mop/yokohama/" target="_blank" rel="noopener" aria-label="横浜ベイサイド">8</a>
-          </span>
-        </div>
       </div>
-      <figcaption class="jp-map-note">ドットが実際の所在地。番号が重なる関西・東海は、バッジだけを機械的にずらして線で結んでいる。関東は密集するので左上の拡大図に分けた。画面が狭いときは番号を省いてドットだけ表示するので、施設名は下のボタンから辿って。<cite>ベース地図：<a href="https://maps.gsi.go.jp/development/ichiran.html" target="_blank" rel="noopener">国土地理院 白地図タイル</a>を加工／座標は各施設の公式アクセスページ（2026年8月時点）</cite></figcaption>
+      <div class="jp-inset">
+        <span class="inset-label">関東 拡大</span>
+        <img src="/images/lalaport-guide-2026/map/kanto.png" alt="関東の拡大図" width="382" height="403" />
+        <span class="jp-layer jp-layer--1">
+          <svg class="jp-leaders" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
+          </svg>
+          <span class="jp-dot" style="left:80.05%;top:40.49%"></span>
+          <span class="jp-dot" style="left:61.24%;top:43.83%"></span>
+          <span class="jp-dot" style="left:76.34%;top:17.35%"></span>
+          <span class="jp-dot" style="left:39.69%;top:59.20%"></span>
+          <span class="jp-dot" style="left:68.24%;top:21.15%"></span>
+          <span class="jp-dot" style="left:37.95%;top:21.15%"></span>
+          <span class="jp-dot" style="left:22.79%;top:66.03%"></span>
+          <span class="jp-dot" style="left:25.53%;top:37.50%"></span>
+          <span class="jp-dot" style="left:19.52%;top:79.29%"></span>
+          <a class="jp-pin" style="left:80.05%;top:40.49%" href="https://mitsui-shopping-park.com/lalaport/tokyo-bay/" target="_blank" rel="noopener" title="TOKYO-BAY" aria-label="TOKYO-BAY">1</a>
+          <a class="jp-pin" style="left:61.24%;top:43.83%" href="https://mitsui-shopping-park.com/lalaport/toyosu/" target="_blank" rel="noopener" title="豊洲" aria-label="豊洲">3</a>
+          <a class="jp-pin" style="left:76.34%;top:17.35%" href="https://mitsui-shopping-park.com/lalaport/kashiwa/" target="_blank" rel="noopener" title="柏の葉" aria-label="柏の葉">4</a>
+          <a class="jp-pin" style="left:39.69%;top:59.20%" href="https://mitsui-shopping-park.com/lalaport/yokohama/" target="_blank" rel="noopener" title="横浜" aria-label="横浜">5</a>
+          <a class="jp-pin" style="left:68.24%;top:21.15%" href="https://mitsui-shopping-park.com/lalaport/shinmisato/" target="_blank" rel="noopener" title="新三郷" aria-label="新三郷">7</a>
+          <a class="jp-pin" style="left:37.95%;top:21.15%" href="https://mitsui-shopping-park.com/lalaport/fujimi/" target="_blank" rel="noopener" title="富士見" aria-label="富士見">9</a>
+          <a class="jp-pin" style="left:22.79%;top:66.03%" href="https://mitsui-shopping-park.com/lalaport/ebina/" target="_blank" rel="noopener" title="海老名" aria-label="海老名">10</a>
+          <a class="jp-pin" style="left:25.53%;top:37.50%" href="https://mitsui-shopping-park.com/lalaport/tachikawa/" target="_blank" rel="noopener" title="立川立飛" aria-label="立川立飛">12</a>
+          <a class="jp-pin" style="left:19.52%;top:79.29%" href="https://mitsui-shopping-park.com/lalaport/hiratsuka/" target="_blank" rel="noopener" title="湘南平塚" aria-label="湘南平塚">13</a>
+        </span>
+        <span class="jp-layer jp-layer--2">
+          <svg class="jp-leaders" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
+          </svg>
+          <span class="jp-dot" style="left:21.94%;top:26.64%"></span>
+          <span class="jp-dot" style="left:84.95%;top:44.79%"></span>
+          <span class="jp-dot" style="left:21.76%;top:48.37%"></span>
+          <span class="jp-dot" style="left:74.78%;top:68.29%"></span>
+          <span class="jp-dot" style="left:47.31%;top:74.46%"></span>
+          <a class="jp-pin" style="left:21.94%;top:26.64%" href="https://mitsui-shopping-park.com/mop/iruma/" target="_blank" rel="noopener" title="入間" aria-label="入間">4</a>
+          <a class="jp-pin" style="left:84.95%;top:44.79%" href="https://mitsui-shopping-park.com/mop/makuhari/" target="_blank" rel="noopener" title="幕張" aria-label="幕張">5</a>
+          <a class="jp-pin" style="left:21.76%;top:48.37%" href="https://mitsui-shopping-park.com/mop/tama/" target="_blank" rel="noopener" title="多摩南大沢" aria-label="多摩南大沢">6</a>
+          <a class="jp-pin" style="left:74.78%;top:68.29%" href="https://mitsui-shopping-park.com/mop/kisarazu/" target="_blank" rel="noopener" title="木更津" aria-label="木更津">7</a>
+          <a class="jp-pin" style="left:47.31%;top:74.46%" href="https://mitsui-shopping-park.com/mop/yokohama/" target="_blank" rel="noopener" title="横浜ベイサイド" aria-label="横浜ベイサイド">8</a>
+        </span>
+      </div>
+      <figcaption class="jp-map-note">小さい点が実際の所在地。番号が重なるところはバッジだけを機械的にずらして線で結んでいる。関東は密集するので拡大図に分けた。<cite>ベース地図：<a href="https://maps.gsi.go.jp/development/ichiran.html" target="_blank" rel="noopener">国土地理院 白地図タイル</a>を加工／座標は各施設の公式アクセスページ（2026年8月時点）</cite></figcaption>
     </figure>
-    <ul class="jp-legend jp-legend--1">
+<ul class="jp-legend jp-legend--1">
     <li><a href="https://mitsui-shopping-park.com/lalaport/tokyo-bay/" target="_blank" rel="noopener"><span class="n">1</span>TOKYO-BAY</a></li>
     <li><a href="https://mitsui-shopping-park.com/lalaport/koshien/" target="_blank" rel="noopener"><span class="n">2</span>甲子園</a></li>
     <li><a href="https://mitsui-shopping-park.com/lalaport/toyosu/" target="_blank" rel="noopener"><span class="n">3</span>豊洲</a></li>

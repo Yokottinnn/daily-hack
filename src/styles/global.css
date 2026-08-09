@@ -1104,16 +1104,19 @@ blockquote.twitter-tweet a:hover { color: var(--pink-700); }
 }
 .jp-pin:hover, .jp-pin:focus-visible { background: var(--pink-700); transform: translate(-50%, -50%) scale(1.18); z-index: 4; }
 /* 拡大インセット側のピンは本体と区別する */
-.jp-map .inset .jp-pin { width: 24px; height: 24px; font-size: 11.5px; }
+.jp-inset .jp-pin { width: 24px; height: 24px; font-size: 11.5px; }
 
-/* 関東の拡大インセット。本体の空いている海側に重ねる */
-.jp-map .inset {
-  position: absolute; border-radius: 14px; overflow: hidden;
+/* 関東の拡大図。広い画面では本体の空いている海側に重ね、
+   狭い画面では下に全幅で降ろす（重ねたままだと番号が潰れて読めない） */
+.jp-map-figure { position: relative; }
+.jp-inset {
+  position: absolute; left: 2.5%; top: 2.5%; width: 35%;
+  border-radius: 14px; overflow: hidden;
   border: 2px solid var(--pink-300); background: #FAF6F2;
   box-shadow: 0 6px 18px -8px rgb(0 0 0 / .35); z-index: 3;
 }
-.jp-map .inset > img { width: 100%; height: auto; display: block; }
-.jp-map .inset-label {
+.jp-inset > img { width: 100%; height: auto; display: block; }
+.inset-label {
   position: absolute; left: 0; top: 0; z-index: 5;
   background: var(--pink-500); color: #fff; font-size: 11px; font-weight: 800;
   padding: 3px 9px; border-bottom-right-radius: 10px;
@@ -1182,10 +1185,9 @@ blockquote.twitter-tweet a:hover { color: var(--pink-700); }
 .jp-map-note cite { display: block; margin-top: 4px; font-style: normal; font-size: 11.5px; color: var(--ink-3); }
 .jp-map-note cite a { color: var(--ink-2); border-bottom: 1px dotted var(--ink-3); }
 
-/* スマホでは番号バッジが潰れて読めない（大阪の4施設は半径15kmで、354px 幅では
-   どうやっても重なる）。720px 未満は実座標のドットだけ出し、施設の特定は
-   下の凡例チップに任せる。凡例は同じリンクを持つのでアクセシビリティも落ちない。 */
+/* 狭い画面では拡大図を重ねず、本体マップの下に全幅で置く。
+   重ねたままだと 124px 幅に9施設が入って番号が読めなくなる。 */
 @media (max-width: 719px) {
-  .jp-map .jp-pin, .jp-leaders { display: none; }
-  .jp-dot { width: 11px; height: 11px; border-width: 2px; }
+  .jp-inset { position: relative; left: auto; top: auto; width: 100%; margin-top: 12px; }
+  .jp-inset .jp-pin { width: 21px; height: 21px; font-size: 10px; }
 }
