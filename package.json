@@ -13,6 +13,7 @@
     "check": "astro check",
     "typecheck": "astro check --minimumSeverity error",
     "handoff": "node scripts/session-handoff.mjs",
+    "test:hooks": "python3 .claude/hooks/test-enforce-dialog.py",
     "prepare": "husky"
   },
   "dependencies": {
