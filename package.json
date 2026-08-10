@@ -12,6 +12,7 @@
     "astro": "astro",
     "check": "astro check",
     "typecheck": "astro check --minimumSeverity error",
+    "handoff": "node scripts/session-handoff.mjs",
     "prepare": "husky"
   },
   "dependencies": {
