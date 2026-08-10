@@ -20,6 +20,42 @@
 - 決まったルール・方針は会話ではなくこの `CLAUDE.md` に書く。
 - 進行中の状況は [`docs/session-handoff.md`](docs/session-handoff.md) に書く。
 
+### 3. X への投稿は OpenClaw が行う
+
+Claude が X に直接投稿することはない。確立している経路は次のとおりで、勝手に省略しない。
+
+1. `node scripts/generate-tweet.mjs <slug>` で草案を生成する。
+2. 草案を Slack で Jordan（`<@U0A5V22PVTQ>`）に送る。
+3. **👍 が付くのを待つ。** 確認前に先へ進めない。
+4. 👍 を得たら OpenClaw が投稿する（`@OpenClaw tweet <slug>`）。
+
+## OpenClaw 連携
+
+OpenClaw は利用者の Mac（`home-mac` / 192.168.2.102）で動く常駐エージェント。
+クラウドセッションからは到達できないため、OpenClaw 側の作業は依頼する形になる。
+
+| 項目 | 内容 |
+| --- | --- |
+| Slack チャンネル | `C0A5FKU7T5M`（通知・草案共有の宛先） |
+| Jordan の Slack ID | `U0A5V22PVTQ`（**fieldbeside** ワークスペース） |
+| Slack 投稿トークン | `~/openclaw/config/.env` の `OPENCLAW_BOT_TOKEN` |
+| 記事公開 | `scripts/blog-publish.sh <slug> "<title>"` を OpenClaw が呼ぶ（ビルド検証 → PR 作成） |
+| 定期ジョブ | `ai.openclaw.sitemap-autosubmit` / `ai.openclaw.seo-health`（launchd） |
+
+`main` は保護ブランチで直接 push できない。OpenClaw も Claude も必ず PR 経由で入れる。
+
+## Slack の接続先を最初に確かめる
+
+Slack を使う作業の前に、コネクタがどのワークスペースに繋がっているか必ず確認する。
+
+```bash
+# slack_read_user_profile を引数なしで呼ぶ
+```
+
+- **正**: `U0A5V22PVTQ` / fieldbeside ワークスペース。
+- **誤**: `naoki@taxatech.com` / Organization Name が `Taxa`。この状態では `C0A5FKU7T5M` が
+  `channel_not_found` になり、fieldbeside 側は一切読めない。利用者に再接続を依頼する。
+
 ## セッションの引き継ぎ
 
 - 現在の状況・進行中の作業・次のアクションは [`docs/session-handoff.md`](docs/session-handoff.md) に書く。
