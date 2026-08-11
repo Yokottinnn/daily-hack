@@ -33,6 +33,14 @@
 
 <!-- 新しい記録がこの下に追加される（新しいものが上） -->
 
+### 2026-08-11 — OpenClaw 不具合の原因を特定: 8/10 09:00 に MUST rule 7件が消失し復元失敗。verify_external_state_before_claiming が失われたことが虚偽報告の原因
+
+次のアクション:
+
+- [ ] home-mac で MUST rule を復元（旧ミラー MEMORY-MUST-MIRROR.md を確認）
+- [ ] spawnSync ETIMEDOUT の解消と launchd ジョブの生存確認
+- [ ] OpenClaw 復旧後に画像添付→承認→X投稿
+
 ### 2026-08-11 — OpenClaw の画像アップロード完了報告が虚偽と判明（f5771c7 はリモートに無く、スレッドに添付も無い）。Slackで訂正投稿
 
 次のアクション:
