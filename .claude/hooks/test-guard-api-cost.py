@@ -53,6 +53,16 @@ CASES = [
     (ALLOW, "git 操作", bash("git commit -m 'fix: something'")),
     (ALLOW, "画像レンダリング", bash("node scripts/social/render-square.mjs a.html b.png 1200 1200")),
 
+    # --- 回帰: クォート内の | で区切ってしまい誤ブロックした実例 ---
+    (ALLOW, "grep の正規表現に | を含む調査", bash(
+        "grep -rlnE 'ANTHROPIC_API_KEY|CLAUDE_API_KEY|OPENAI_API_KEY|api\\.openai\\.com' . ")),
+    (ALLOW, "rg の正規表現に | を含む調査", bash(
+        "rg -l 'api\\.anthropic\\.com|api\\.openai\\.com' scripts/")),
+    (ALLOW, "複数行スクリプトでの調査", bash(
+        "echo '=== 調査 ==='\ngrep -rn 'ANTHROPIC_API_KEY|OPENAI_API_KEY' --include='*.sh' .\necho done")),
+    (BLOCK, "クォート内 | があっても実行は止める", bash(
+        "grep -l 'a|b' . && ANTHROPIC_API_KEY=x node run.mjs")),
+
     # --- 安全側（判定できないものは通す） ---
     (ALLOW, "Bash 以外のツール", {"tool_name": "Read", "tool_input": {"file_path": "/x"}}),
     (ALLOW, "tool_input が無い", {"tool_name": "Bash"}),

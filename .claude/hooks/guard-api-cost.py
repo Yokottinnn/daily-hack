@@ -47,21 +47,69 @@ READ_ONLY = {
     "dirname", "realpath", "test", "true", "false",
 }
 
-# パイプや連結の区切り。区切りごとに「実行するコマンド」を見る。
-SPLIT = re.compile(r"\|\||&&|\||;|\n")
+SEPARATORS = ("&&", "||")
+SEPARATOR_CHARS = "|;\n"
 
-NOTICE = """CLAUDE.md 最上位ルール 2 違反: API 課金が発生しうるコマンドを実行しようとしている。
+
+def split_segments(command):
+    """パイプや連結で区切る。ただしクォートの内側は区切らない。
+
+    素朴に正規表現で `|` を割ると、grep の正規表現 'A|B' のような
+    クォート内の `|` まで区切ってしまい、壊れた断片が読み取り専用judgeを
+    すり抜けて誤ブロックになる（実際に起きた）。
+    """
+    segments, buf, quote, i = [], [], None, 0
+    while i < len(command):
+        char = command[i]
+        if quote:
+            buf.append(char)
+            if char == quote:
+                quote = None
+            elif char == "\\" and quote == '"' and i + 1 < len(command):
+                i += 1
+                buf.append(command[i])
+            i += 1
+            continue
+        if char in ("'", '"'):
+            quote = char
+            buf.append(char)
+            i += 1
+            continue
+        if char == "\\" and i + 1 < len(command):
+            buf.append(char)
+            i += 1
+            buf.append(command[i])
+            i += 1
+            continue
+        if any(command.startswith(sep, i) for sep in SEPARATORS):
+            segments.append("".join(buf))
+            buf = []
+            i += 2
+            continue
+        if char in SEPARATOR_CHARS:
+            segments.append("".join(buf))
+            buf = []
+            i += 1
+            continue
+        buf.append(char)
+        i += 1
+    segments.append("".join(buf))
+    return segments
+
+NOTICE = """CLAUDE.md 最上位ルール 2: API 課金が発生しうるコマンドを実行しようとしている。
 
 検出: {reason}
 対象: {segment}
 
-Console 経由で費用が発生しうる操作は、リサーチ・検証・動作確認であっても
-着手前に利用者へ確認すること。確認なしに実行しない。
+**これは禁止ではない。** 費用がかかること自体は問題ない。防ぐべきなのは、
+利用者が知らないところで費用が発生することだけ。順序を守れば実行してよい。
 
-次のいずれかを行うこと。
-1. AskUserQuestion のダイアログで、何にいくらかかる見込みかを説明して許可を得る。
-2. 課金の発生しない方法（既存の記録を読む、ドキュメントを参照する）に切り替える。
+1. 先に見積もる。使うモデル・想定トークン数・単価から概算を出す。
+   料金が分からなければ claude-api スキルを読むか、公式の料金ページを参照する。
+2. AskUserQuestion のダイアログで「何のために、いくらかかる見込みか」を提示して許可を得る。
+3. 許可を得てから、このコマンドを実行し直す。
 
+見積もりが立てられない場合は、その旨を伝えて判断を仰ぐこと。黙って実行しない。
 なお Claude Code / Cowork の対話そのものはプラン利用であり、このルールの対象外。"""
 
 
@@ -70,7 +118,8 @@ def leading_command(segment):
     try:
         tokens = shlex.split(segment)
     except ValueError:
-        return None  # クォートが閉じていない等。判定できないので不明扱い。
+        # クォートが閉じていない等。空白区切りで拾い直す。
+        tokens = [t.strip("'\"") for t in segment.split()]
     for token in tokens:
         if re.fullmatch(r"[A-Za-z_][A-Za-z0-9_]*=.*", token):
             continue  # FOO=bar cmd の形
@@ -79,7 +128,7 @@ def leading_command(segment):
 
 
 def find_violation(command):
-    for segment in SPLIT.split(command):
+    for segment in split_segments(command):
         segment = segment.strip()
         if not segment:
             continue
