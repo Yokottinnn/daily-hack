@@ -71,10 +71,21 @@ Mac を SSH で操作できること自体は正しい。ただしそれは**手
 Mac 上で動く CLI セッションを Web に公開する。実行される場所が Mac になるため、
 OpenClaw も launchd も直接触れる。
 
-1. Mac のターミナルでリポジトリに移動して起動する。
+1. Mac のターミナルでリポジトリに移動して起動する。**クローン先は決め打ちにしない。**
+   過去のセッションが使ったパスは `~/.claude/projects/` の名前に残っている。
 
    ```bash
-   cd ~/projects/daily-hack && claude
+   # ハイフン区切りで実パスが入っている（例: -Users-ny-...-daily-hack）
+   ls ~/.claude/projects/ | grep -i daily-hack
+
+   # 見つからなければ探す
+   find ~ -maxdepth 4 -type d -name daily-hack -not -path '*/node_modules/*' 2>/dev/null
+   ```
+
+   場所が分かったら移動して起動する。
+
+   ```bash
+   cd <見つかったパス> && git pull && claude
    ```
 
 2. セッション内で Web に公開する。

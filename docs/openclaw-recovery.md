@@ -24,7 +24,9 @@
 手順 1〜5 をこの順で実行するスクリプトを用意してある。home-mac で次を貼るだけでよい。
 
 ```bash
-cd ~/projects/daily-hack && git pull && bash scripts/openclaw-recover.sh
+# クローン先は環境によって違うので探してから移動する
+cd "$(find ~ -maxdepth 4 -type d -name daily-hack -not -path '*/node_modules/*' 2>/dev/null | head -1)" \
+  && git pull && bash scripts/openclaw-recover.sh
 ```
 
 途中で MUST rule の復元だけ `[y/N]` の確認が入る。**上書き前に必ずバックアップを取る**ため、
