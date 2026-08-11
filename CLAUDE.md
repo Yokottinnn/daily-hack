@@ -94,6 +94,9 @@ OpenClaw は利用者の Mac（`home-mac` / 192.168.2.102）で動く常駐エ�
 
 `main` は保護ブランチで直接 push できない。OpenClaw も Claude も必ず PR 経由で入れる。
 
+OpenClaw が応答しない・虚偽の完了報告をする場合の復旧手順は
+[`docs/openclaw-recovery.md`](docs/openclaw-recovery.md) を参照。
+
 ## Slack の操作は許可済み
 
 2026-08-11 に利用者から Slack 操作の全面的な許可を得ている。**毎回の許可確認は不要。**
