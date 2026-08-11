@@ -47,6 +47,66 @@ The environment this session was running on has been deleted; its state cannot b
 `--resume` は**このマシンのローカル履歴**から会話を開き直すコマンドで、クラウドセッションの
 一覧は表示しない。クラウドセッションを引く `--teleport` とは別物なので混同しないこと。
 
+## クラウドセッションからは Mac を操作できない
+
+**OpenClaw に関わる作業はクラウドセッションでは進まない。** SSH で届くという前提を
+実測したところ、すべて塞がっていた（2026-08-11 に検証）。
+
+| 確認項目 | 結果 |
+| --- | --- |
+| `ssh` / `scp` / `autossh` | いずれも未インストール |
+| `~/.ssh` の鍵 | 1 本も無い |
+| `192.168.2.102:22` への TCP | 到達不可 |
+| 任意ホストの 22 番（`github.com:22` で検証） | 到達不可 |
+
+外向き通信は `HTTPS_PROXY=http://127.0.0.1:43919` の **HTTPS プロキシ経由のみ**で、
+生の TCP が出られないため SSH はプロトコルとして成立しない。加えて `192.168.0.0/16` は
+`NO_PROXY` に入っており、プライベート IP はプロキシを通さず直接接続を試みて経路が無く失敗する。
+
+Mac を SSH で操作できること自体は正しい。ただしそれは**手元や LAN 内から**の話であって、
+クラウドコンテナからではない。
+
+## OpenClaw を触るときはブリッジセッションを使う
+
+Mac 上で動く CLI セッションを Web に公開する。実行される場所が Mac になるため、
+OpenClaw も launchd も直接触れる。
+
+1. Mac のターミナルでリポジトリに移動して起動する。**クローン先は決め打ちにしない。**
+   過去のセッションが使ったパスは `~/.claude/projects/` の名前に残っている。
+
+   ```bash
+   # ハイフン区切りで実パスが入っている（例: -Users-ny-...-daily-hack）
+   ls ~/.claude/projects/ | grep -i daily-hack
+
+   # 見つからなければ探す
+   find ~ -maxdepth 4 -type d -name daily-hack -not -path '*/node_modules/*' 2>/dev/null
+   ```
+
+   場所が分かったら移動して起動する。
+
+   ```bash
+   cd <見つかったパス> && git pull && claude
+   ```
+
+2. セッション内で Web に公開する。
+
+   ```text
+   /remote-control
+   ```
+
+3. 表示された URL を開けば、スマホや別の PC からも操作できる。
+
+4. そのセッションに復旧を依頼する。次をそのまま貼れる。
+
+   ```text
+   docs/openclaw-recovery.md の手順で OpenClaw を復旧して。
+   bash scripts/openclaw-recover.sh を実行し、MUST rule の復元を再起動より先に行うこと。
+   復旧したかどうかは OpenClaw 自身の報告ではなく Slack への実着信で判断して。
+   ```
+
+**このクラウドセッションを閉じる必要はない。** ブリッジ側で Mac を触り、
+コード変更やリリースはこちらで進める、という並行運用ができる。
+
 ## 履歴ファイルを直接確認する
 
 `--resume` の一覧に出ない場合は、実ファイルの有無を確認する。
