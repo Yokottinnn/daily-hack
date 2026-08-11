@@ -20,6 +20,17 @@
         ]
       }
     ],
+    "PreToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "$CLAUDE_PROJECT_DIR/.claude/hooks/guard-api-cost.py"
+          }
+        ]
+      }
+    ],
     "Stop": [
       {
         "hooks": [
@@ -42,7 +53,21 @@
       "Bash(npx wrangler pages deployment list *)",
       "mcp__claude_ai_Slack__slack_search_channels",
       "mcp__claude_ai_Slack__slack_read_channel",
-      "mcp__claude_ai_Slack__slack_read_user_profile"
+      "mcp__claude_ai_Slack__slack_read_user_profile",
+      "mcp__Slack__slack_send_message",
+      "mcp__Slack__slack_send_message_draft",
+      "mcp__Slack__slack_schedule_message",
+      "mcp__Slack__slack_add_reaction",
+      "mcp__Slack__slack_read_channel",
+      "mcp__Slack__slack_read_thread",
+      "mcp__Slack__slack_read_file",
+      "mcp__Slack__slack_read_user_profile",
+      "mcp__Slack__slack_search_channels",
+      "mcp__Slack__slack_search_users",
+      "mcp__Slack__slack_search_public",
+      "mcp__Slack__slack_search_public_and_private",
+      "mcp__Slack__slack_list_channel_members",
+      "mcp__Slack__slack_get_reactions"
     ]
   }
 }

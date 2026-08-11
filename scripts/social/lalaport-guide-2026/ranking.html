@@ -1,0 +1,109 @@
+<!doctype html>
+<meta charset="utf-8">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    width: 1200px; height: 1200px; overflow: hidden;
+    font-family: "IPAPGothic", "IPAGothic", sans-serif;
+    background: #f4f6f9; color: #14243a;
+    display: flex; flex-direction: column;
+  }
+  header {
+    background: linear-gradient(135deg, #14243a 0%, #24405f 100%);
+    color: #fff; padding: 40px 56px 34px; position: relative;
+  }
+  header::after {
+    content: ""; position: absolute; left: 0; right: 0; bottom: 0;
+    height: 6px; background: linear-gradient(90deg, #e8384f 0%, #ff8a3d 100%);
+  }
+  /* 三井ショッピングパーク LaLaport 公式ロゴ。濃色ヘッダに載せるため白カードに置く。 */
+  .logo {
+    position: absolute; right: 56px; top: 40px;
+    background: #fff; border-radius: 14px; padding: 14px 20px;
+    box-shadow: 0 6px 20px rgba(0,0,0,.3);
+  }
+  .logo img { display: block; width: 264px; height: auto; }
+
+  .kicker { font-size: 25px; letter-spacing: .16em; color: #8fb4dd; margin-bottom: 12px; }
+  h1 { font-size: 62px; font-weight: bold; letter-spacing: .01em; line-height: 1.12; }
+  .sub { margin-top: 14px; font-size: 27px; color: #cfe0f2; }
+  .sub b { color: #ffd166; }
+
+  main { flex: 1; padding: 26px 56px 0; }
+  .row {
+    display: flex; align-items: center; gap: 18px;
+    padding: 9px 0; border-bottom: 1px solid #dde3ea;
+  }
+  .row:last-child { border-bottom: none; }
+  .rank {
+    width: 54px; height: 54px; flex: none; border-radius: 50%;
+    background: #dde3ea; color: #4a5b70;
+    font-size: 29px; font-weight: bold;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .row.top .rank { background: linear-gradient(135deg, #e8384f, #ff6b4a); color: #fff; }
+  .who { width: 330px; flex: none; }
+  .name { font-size: 30px; font-weight: bold; line-height: 1.2; }
+  .loc { font-size: 21px; color: #6b7c92; margin-top: 3px; }
+  .barwrap { flex: 1; height: 30px; background: #e6ebf1; border-radius: 15px; overflow: hidden; }
+  .bar { height: 100%; border-radius: 15px; background: linear-gradient(90deg, #4a7fb5, #7aa8d4); }
+  .row.top .bar { background: linear-gradient(90deg, #e8384f, #ff8a3d); }
+  .val { width: 172px; flex: none; text-align: right; font-size: 34px; font-weight: bold; }
+  .val small { font-size: 21px; font-weight: normal; color: #6b7c92; margin-left: 3px; }
+
+  footer { padding: 20px 56px 30px; }
+  .note {
+    background: #fff6e5; border-left: 6px solid #ffb020;
+    padding: 14px 18px; font-size: 22px; line-height: 1.5; color: #5c4a20;
+  }
+  .meta {
+    margin-top: 16px; display: flex; justify-content: space-between;
+    align-items: flex-end; font-size: 20px; color: #6b7c92;
+  }
+  .site { font-size: 25px; font-weight: bold; color: #14243a; }
+</style>
+
+<header>
+  <div class="logo">
+    <img src="../../../assets/social/lalaport-guide-2026/logo-lalaport.png" alt="三井ショッピングパーク LaLaport">
+  </div>
+  <div class="kicker">三井不動産 決算説明資料より</div>
+  <h1>店舗売上ランキング TOP10</h1>
+  <div class="sub">ららぽーと・ラゾーナ ／ <b>FY2025</b>（2026年3月末時点）</div>
+</header>
+
+<main id="list"></main>
+
+<footer>
+  <div class="note">
+    開示されるのは<b>店舗面積の上位10施設だけ</b>。甲子園も柏の葉も海老名も売上は非公表で、
+    「ららぽーと全店の売上ランキング」は存在しない。
+  </div>
+  <div class="meta">
+    <div>出典：三井不動産「2027年3月期 第1四半期 決算説明資料」82ページ／10億円単位の開示</div>
+    <div class="site">Daily Hack</div>
+  </div>
+</footer>
+
+<script>
+  const rows = [
+    ["ラゾーナ川崎プラザ", "神奈川・川崎", 990],
+    ["ららぽーとTOKYO-BAY", "千葉・船橋", 790],
+    ["ららぽーとEXPOCITY", "大阪・吹田", 570],
+    ["ららぽーと富士見", "埼玉・富士見", 560],
+    ["ららぽーと豊洲", "東京・江東", 520],
+    ["ららぽーと福岡", "福岡・福岡", 480],
+    ["ららぽーと横浜", "神奈川・横浜", 460],
+    ["ららぽーと門真 ※", "大阪・門真", 450],
+    ["ららぽーと沼津", "静岡・沼津", 350],
+    ["ららぽーと愛知東郷", "愛知・愛知郡", 290],
+  ];
+  const max = rows[0][2];
+  document.getElementById("list").innerHTML = rows.map(([name, loc, val], i) => `
+    <div class="row ${i < 2 ? "top" : ""}">
+      <div class="rank">${i + 1}</div>
+      <div class="who"><div class="name">${name}</div><div class="loc">${loc}</div></div>
+      <div class="barwrap"><div class="bar" style="width:${(val / max) * 100}%"></div></div>
+      <div class="val">${val}<small>億円</small></div>
+    </div>`).join("");
+</script>
