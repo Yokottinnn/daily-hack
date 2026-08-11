@@ -82,14 +82,24 @@ fi
 bold "2. MUST rule の復元（最優先）"
 echo "  ここを飛ばして再起動すると、確認せずに「完了しました」と報告する状態のまま動き出す。"
 
+# ルールの実際の置き場所は memory/ ではなく workspace 直下の CLAUDE.md
+# （2026-08-11 に実機で確認）。memory/snapshots/ はそもそも存在しない。
+RULE_HOME="$WORKSPACE/CLAUDE.md"
+
 current_has_key=""
-if [ -d "$MEMORY_DIR" ] && grep -rql "$KEY_RULE" "$MEMORY_DIR" 2>/dev/null; then
-  current_has_key="yes"
-  ok "$KEY_RULE は現在のメモリに存在する（復元は不要）"
-fi
+for target in "$RULE_HOME" "$MEMORY_DIR"; do
+  [ -e "$target" ] || continue
+  if grep -rql "$KEY_RULE" "$target" 2>/dev/null; then
+    current_has_key="yes"
+    ok "$KEY_RULE は存在する（$target）"
+    break
+  fi
+done
 
 if [ -z "$current_has_key" ]; then
-  warn "$KEY_RULE が現在のメモリに無い。復元元を探す"
+  warn "$KEY_RULE がどこにも無い。復元元を探す"
+  echo "       探した: $RULE_HOME"
+  echo "       探した: $MEMORY_DIR"
 
   source_file=""
   if [ -f "$MIRROR" ] && grep -q "$KEY_RULE" "$MIRROR" 2>/dev/null; then
@@ -119,25 +129,35 @@ if [ -z "$current_has_key" ]; then
     echo "     docs/openclaw-recovery.md の手順2を参照する"
   else
     mkdir -p "$BACKUP_DIR"
+    if [ -f "$RULE_HOME" ]; then
+      cp "$RULE_HOME" "$BACKUP_DIR/CLAUDE.md.before-restore"
+      ok "復元前の状態をバックアップした: $BACKUP_DIR/CLAUDE.md.before-restore"
+    fi
     if [ -d "$MEMORY_DIR" ]; then
       cp -R "$MEMORY_DIR" "$BACKUP_DIR/memory-before-restore"
-      ok "復元前の状態をバックアップした: $BACKUP_DIR/memory-before-restore"
     fi
     echo ""
     echo "  復元元: $source_file"
+    echo "  復元先: $RULE_HOME（既存の内容は消さず、末尾に追記する）"
     echo "  含まれる MUST rule:"
     grep -oE '[a-z_]*(rule|must|feedback)[a-z_]*' "$source_file" 2>/dev/null | sort -u | sed 's/^/    - /'
     echo ""
-    printf "  この内容でメモリを復元する [y/N]: "
+    printf "  この内容を追記する [y/N]: "
     read -r answer
     if [ "$answer" = "y" ] || [ "$answer" = "Y" ]; then
-      mkdir -p "$MEMORY_DIR"
-      cp "$source_file" "$MEMORY_DIR/MUST-RULES-restored.md"
-      if grep -q "$KEY_RULE" "$MEMORY_DIR/MUST-RULES-restored.md"; then
-        ok "復元した: $MEMORY_DIR/MUST-RULES-restored.md"
-        warn "OpenClaw がこのファイルを読み込む設定になっているか確認すること"
+      {
+        echo ""
+        echo "<!-- restored-must-rules:start -->"
+        echo "<!-- $source_file から復元 -->"
+        cat "$source_file"
+        echo "<!-- restored-must-rules:end -->"
+      } >> "$RULE_HOME"
+
+      if grep -q "$KEY_RULE" "$RULE_HOME"; then
+        ok "追記した: $RULE_HOME"
+        echo "     元に戻す場合: cp $BACKUP_DIR/CLAUDE.md.before-restore $RULE_HOME"
       else
-        bad "復元したファイルに $KEY_RULE が含まれていない"
+        bad "追記後も $KEY_RULE が見つからない"
       fi
     else
       bad "復元を見送った。この状態で再起動しても虚偽報告は直らない"

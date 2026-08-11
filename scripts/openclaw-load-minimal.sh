@@ -17,7 +17,10 @@
 set -uo pipefail
 
 LA="$HOME/Library/LaunchAgents"
-MEMORY_DIR="${OPENCLAW_WORKSPACE:-$HOME/.openclaw/workspace}/memory"
+WORKSPACE="${OPENCLAW_WORKSPACE:-$HOME/.openclaw/workspace}"
+# ルールの置き場所は memory/ ではなく workspace 直下の CLAUDE.md だった
+# （2026-08-11 に実機で確認）。memory/ だけを見ていたため判定の土台が誤っていた。
+RULE_FILES="$WORKSPACE/CLAUDE.md $WORKSPACE/memory"
 KEY_RULE="feedback_verify_external_state_before_claiming"
 JOBS="gateway node poll-approvals slack-watchdog import-manual-image"
 
@@ -29,10 +32,26 @@ bad()  { printf '  \033[31mNG\033[0m   %s\n' "$1"; }
 
 bold "0. MUST rule の確認（ここが通らなければロードしない）"
 
-if grep -rql "$KEY_RULE" "$MEMORY_DIR" 2>/dev/null; then
-  ok "$KEY_RULE は存在する"
+found_in=""
+for target in $RULE_FILES; do
+  [ -e "$target" ] || continue
+  if grep -rql "$KEY_RULE" "$target" 2>/dev/null; then
+    found_in="$target"
+    break
+  fi
+done
+
+if [ -n "$found_in" ]; then
+  ok "$KEY_RULE は存在する（$found_in）"
 else
-  bad "$KEY_RULE が見つからない: $MEMORY_DIR"
+  bad "$KEY_RULE が見つからない"
+  for target in $RULE_FILES; do
+    if [ -e "$target" ]; then
+      echo "       探した: $target"
+    else
+      echo "       探した: $target（存在しない）"
+    fi
+  done
   echo ""
   echo "  この状態で本体を起動すると、外部の状態を確認せずに「完了しました」と"
   echo "  報告する挙動が再発する。先に復元すること。"
