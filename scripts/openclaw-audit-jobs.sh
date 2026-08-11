@@ -33,6 +33,7 @@ fi
 
 billable_jobs=""
 missing_jobs=""
+undetermined_jobs=""
 
 for job in $TARGETS; do
   plist="$LA/ai.openclaw.$job.plist"
@@ -56,14 +57,28 @@ for job in $TARGETS; do
   [ -n "$interval" ] && echo "  実行間隔: ${interval} 秒"
   plutil -p "$plist" 2>/dev/null | grep -q 'StartCalendarInterval' && echo "  実行間隔: カレンダー指定あり"
 
-  # ProgramArguments から実ファイルを拾う
+  # ProgramArguments から実ファイルを拾う。
+  # plutil -p は配列の添字をクォート無しで出す（  0 => "/bin/bash"）。
+  # ここを '"0" =>' と誤って書いていたため全件外れ、「痕跡なし」という
+  # 何も調べていない結果を安全そうに見せていた（2026-08-11 に発覚）。
+  # 念のため両方の形を受ける。
   files="$(plutil -p "$plist" 2>/dev/null \
-    | grep -E '^[[:space:]]+"[0-9]+" =>' \
-    | sed 's/.*=> "//; s/"$//' \
+    | grep -E '^[[:space:]]*"?[0-9]+"?[[:space:]]*=>' \
+    | sed 's/.*=>[[:space:]]*"//; s/"[[:space:]]*$//' \
     | grep '^/')"
 
-  if [ -z "$files" ]; then
-    note "実行ファイルを特定できない（plist を直接確認する）"
+  # Program（単体指定）も拾う
+  prog="$(plutil -p "$plist" 2>/dev/null \
+    | grep -E '^[[:space:]]*"Program"[[:space:]]*=>' \
+    | sed 's/.*=>[[:space:]]*"//; s/"[[:space:]]*$//')"
+  [ -n "$prog" ] && files="$prog
+$files"
+
+  if [ -z "$(printf '%s' "$files" | tr -d '[:space:]')" ]; then
+    note "実行ファイルを特定できなかった。判定不能として扱う（痕跡なしではない）"
+    echo "  plist の中身:"
+    plutil -p "$plist" 2>&1 | sed 's/^/    /' | head -30
+    undetermined_jobs="$undetermined_jobs $job"
     continue
   fi
 
@@ -100,8 +115,14 @@ if [ -n "$billable_jobs" ]; then
   for j in $billable_jobs; do echo "    - ai.openclaw.$j"; done
   echo ""
   echo "  これらをロードする前に、費用の見積もりを出して承認を得ること。"
-else
-  echo "  対象ジョブに API 課金の痕跡は見つからなかった。"
+fi
+
+if [ -n "$undetermined_jobs" ]; then
+  echo ""
+  echo "  判定不能（実行ファイルを特定できず、調べられていない）:"
+  for j in $undetermined_jobs; do echo "    - ai.openclaw.$j"; done
+  echo ""
+  echo "  これは「課金なし」ではない。上に出した plist の中身を見て手で確認すること。"
 fi
 
 if [ -n "$missing_jobs" ]; then
@@ -110,6 +131,14 @@ if [ -n "$missing_jobs" ]; then
   for j in $missing_jobs; do echo "    - ai.openclaw.$j"; done
 fi
 
+if [ -z "$billable_jobs" ] && [ -z "$undetermined_jobs" ]; then
+  echo "  調べられた範囲では API 課金の痕跡は見つからなかった。"
+fi
+
 echo ""
 echo "  痕跡が無いことは無料の証明ではない。設定ファイル経由でキーを読む作りなら"
 echo "  この監査では見えない。判断がつかないときは実行せずに報告する。"
+
+# 判定不能が残るなら成功として返さない
+[ -n "$undetermined_jobs" ] && exit 1
+exit 0
