@@ -34,7 +34,7 @@ author: "hacker-ko"
     <p>アウトレットで日本一どころか、<strong>全ショッピングセンターで日本一</strong>（2024年度）。</p>
     <span class="pick-go">詳しく見る →</span>
   </a>
-  <a class="event-pick" href="#店舗数日本一は木更津の330店" style="--pick-img:url('/images/outlet-mall-guide-2026/photos/kisarazu.jpg')">
+  <a class="event-pick" href="#三井mopは店舗数と立地で押す" style="--pick-img:url('/images/outlet-mall-guide-2026/photos/kisarazu.jpg')">
     <span class="pick-date">店舗数日本一</span>
     <h4>木更津 330店</h4>
     <p>三井の最大手。2025年6月の4期増床で<strong>国内アウトレット最多の店舗数</strong>に。</p>
@@ -132,7 +132,7 @@ author: "hacker-ko"
 
 <div class="section-with-mascot">
   <div class="mascot-wrap"><img src="/images/expr-07-gasp.png" alt="Daily Hackマスコット" /></div>
-  <h2>全国アウトレット総数｜運営会社別の内訳</h2>
+  <h2 id="全国アウトレット総数運営会社別の内訳">全国アウトレット総数｜運営会社別の内訳</h2>
 </div>
 
 日本のアウトレットモールは、**日本ショッピングセンター協会の公式一覧で全32施設**（2025年11月時点、最新は同年11月開業のMOP岡崎）。運営会社で割るとこうなる。
@@ -265,7 +265,7 @@ author: "hacker-ko"
 
 <div class="section-with-mascot">
   <div class="mascot-wrap"><img src="/images/expr-09-arms-crossed.png" alt="Daily Hackマスコット" /></div>
-  <h2>行く前に知っておくと得すること</h2>
+  <h2 id="行く前に知っておくと得すること">行く前に知っておくと得すること</h2>
 </div>
 
 ### 運営会社ごとに「ポイントの貯め方」が違う
