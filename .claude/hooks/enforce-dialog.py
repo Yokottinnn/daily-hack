@@ -29,16 +29,28 @@ QUOTE_LINE = re.compile(r"^\s*>.*$", re.MULTILINE)
 
 QUESTION_MARKS = ("?", "？")
 
-REMINDER = """CLAUDE.md 最上位ルール違反: 選択肢を本文で提示して終了しようとしている。
+# 疑問符が無くても、次の判断を利用者に投げている合図。
+# 「残っているのは A と B と C です」と本文に並べる形は、疑問符が無いため
+# 疑問符だけの判定をすり抜けていた（実際に起きた）。それも違反として扱う。
+DECISION_MARKERS = (
+    "次のステップ", "次のアクション", "次にやること", "残件", "未完了",
+    "残っている作業", "残っています", "保留中", "選択肢", "どちらか",
+    "いずれか", "ご判断", "お選び", "選んでください", "決めてください",
+    "進め方", "検討ください", "ご確認ください", "指示ください",
+)
 
-最後の発言に疑問符が残っているが、このターンで AskUserQuestion を使っていない。
+REMINDER = """CLAUDE.md 最上位ルール違反: 判断を本文で投げて終了しようとしている。
+
+最後の発言に疑問符、または次の一手の提示（次のステップ・残件・未完了・選択肢など）が
+含まれているのに、このターンで AskUserQuestion を使っていない。
 このルールに例外は無い。次のどちらかを必ず行うこと。
 
 1. 利用者に選ばせたいのなら、AskUserQuestion ツールのダイアログで提示し直す。
    推奨があれば先頭に置き、ラベルに「(推奨)」を付ける。
 2. 選択を求めていないのなら、疑問符を使わず言い切る形に書き直す。
 
-本文に「A か B か」「どうしますか」と書いて終わることは禁止。"""
+本文に「A か B か」「どうしますか」と書いて終わるのは禁止。
+「残っているのは A と B です」と並べて相手に選ばせるのも、疑問符が無くても同じ違反。"""
 
 
 def load_transcript(path):
@@ -108,10 +120,13 @@ def final_assistant_text(turn):
     return ""
 
 
-def asks_a_question(text):
+def defers_a_decision(text):
+    """利用者に判断を投げているなら True。疑問符と、次の一手の提示の両方を見る。"""
     for pattern in (FENCED_CODE, INLINE_CODE, QUOTE_LINE):
         text = pattern.sub(" ", text)
-    return any(mark in text for mark in QUESTION_MARKS)
+    if any(mark in text for mark in QUESTION_MARKS):
+        return True
+    return any(marker in text for marker in DECISION_MARKERS)
 
 
 def main():
@@ -136,7 +151,7 @@ def main():
     if used_dialog(turn):
         return PASS
 
-    if asks_a_question(final_assistant_text(turn)):
+    if defers_a_decision(final_assistant_text(turn)):
         print(REMINDER, file=sys.stderr)
         return BLOCK
 

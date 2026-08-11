@@ -138,6 +138,38 @@ def _():
     ]
 
 
+@case("回帰: 未完了の作業を本文に並べたら差し戻す（疑問符なし）", BLOCK)
+def _():
+    body = ("同期完了しました。\n\n## 未完了の作業\n\n"
+            "**① home-mac の復旧**\n**② 画像の Slack 掲載**\n**③ 日次バッチの有効化**")
+    return [user("状況は"), assistant(text(body))]
+
+
+@case("回帰: 「次のステップ」の提示も差し戻す", BLOCK)
+def _():
+    return [user("done"), assistant(text("マージしました。\n\n## 次のステップ\n\n- 記事を書く\n- 公開する"))]
+
+
+@case("回帰: 「ご判断」を仰ぐ形も差し戻す", BLOCK)
+def _():
+    return [user("状況は"), assistant(text("有効化のご判断が必要になったタイミングでお伺いします。"))]
+
+
+@case("判断を求めない完了報告は通す", PASS)
+def _():
+    return [user("やって"), assistant(text("main にマージしました。CI は success、テストは 36/36 通過しています。"))]
+
+
+@case("判断マーカーを含んでもダイアログ済みなら通す", PASS)
+def _():
+    return [user("状況は"), assistant(dialog()), assistant(text("未完了の作業を上のダイアログで挙げました。"))]
+
+
+@case("引用内の判断マーカーは無視する", PASS)
+def _():
+    return [user("何と言われた"), assistant(text("記録の再掲:\n\n> 次のアクション: 記事を書く\n\n以上を反映済みです。"))]
+
+
 @case("transcript_path が無ければ通す", PASS, transcript=False)
 def _():
     return [user("x"), assistant(text("どうしますか？"))]
