@@ -17,11 +17,30 @@
 set -uo pipefail
 
 LA="$HOME/Library/LaunchAgents"
-WORKSPACE="${OPENCLAW_WORKSPACE:-$HOME/.openclaw/workspace}"
-# ルールの置き場所は memory/ ではなく workspace 直下の CLAUDE.md だった
-# （2026-08-11 に実機で確認）。memory/ だけを見ていたため判定の土台が誤っていた。
-RULE_FILES="$WORKSPACE/CLAUDE.md $WORKSPACE/memory"
+
+# MUST rule の実体は Claude Code のプロジェクトメモリにある。
+# ~/.openclaw/workspace/memory/ でも workspace/CLAUDE.md でもない
+# （daily-must-rule-review.js の MEMORY_DIR がこの場所を指している）。
+# 場所を取り違えると「1件も無いのに全件ありと報告する」逆も起きる。
+# 同じ誤判定は過去に review スクリプト自身でも発生している。
+RULE_DIR="${OPENCLAW_MEMORY_DIR:-$HOME/.claude/projects/-Users-ny--openclaw-workspace/memory}"
+
 KEY_RULE="feedback_verify_external_state_before_claiming"
+
+# ミラー（SHARED/MEMORY-MUST-MIRROR.md）に載っている絶対遵守ルール。
+MUST_RULES="feedback_always_buttons
+feedback_no_permission_prompts
+feedback_post_safety_3_layers
+feedback_verify_external_state_before_claiming
+feedback_post_creation_must_coordinate_with_blog_terminal
+feedback_qt_must_have_external_link
+feedback_event_posts_need_4_images
+feedback_dm_phishing_security_absolute
+feedback_openclaw_listener_thread_context
+feedback_notification_requires_solution
+feedback_auto_task_title_and_deadline
+feedback_login_mode_no_chrome_touch"
+
 JOBS="gateway node poll-approvals slack-watchdog import-manual-image"
 
 uid="$(id -u)"
@@ -32,26 +51,40 @@ bad()  { printf '  \033[31mNG\033[0m   %s\n' "$1"; }
 
 bold "0. MUST rule の確認（ここが通らなければロードしない）"
 
-found_in=""
-for target in $RULE_FILES; do
-  [ -e "$target" ] || continue
-  if grep -rql "$KEY_RULE" "$target" 2>/dev/null; then
-    found_in="$target"
-    break
+if [ ! -d "$RULE_DIR" ]; then
+  bad "メモリの置き場所が見つからない: $RULE_DIR"
+  echo ""
+  echo "  候補を探す:"
+  find "$HOME/.claude/projects" -maxdepth 3 -type d -name memory 2>/dev/null | sed 's/^/    /'
+  echo ""
+  echo "  正しい場所は OPENCLAW_MEMORY_DIR で指定できる。"
+  exit 1
+fi
+
+echo "  メモリ: $RULE_DIR"
+
+missing=""
+present_count=0
+total=0
+for slug in $MUST_RULES; do
+  total=$((total + 1))
+  if [ -f "$RULE_DIR/$slug.md" ]; then
+    present_count=$((present_count + 1))
+  else
+    missing="$missing $slug"
   fi
 done
 
-if [ -n "$found_in" ]; then
-  ok "$KEY_RULE は存在する（$found_in）"
+echo "  残存: ${present_count}/${total}"
+if [ -n "$missing" ]; then
+  for slug in $missing; do echo "    欠落: $slug"; done
+fi
+
+if [ -f "$RULE_DIR/$KEY_RULE.md" ]; then
+  ok "$KEY_RULE は存在する"
+  [ -n "$missing" ] && bad "他の MUST rule が欠けている。ロードは続けるが復元すること"
 else
-  bad "$KEY_RULE が見つからない"
-  for target in $RULE_FILES; do
-    if [ -e "$target" ]; then
-      echo "       探した: $target"
-    else
-      echo "       探した: $target（存在しない）"
-    fi
-  done
+  bad "$KEY_RULE が見つからない: $RULE_DIR/$KEY_RULE.md"
   echo ""
   echo "  この状態で本体を起動すると、外部の状態を確認せずに「完了しました」と"
   echo "  報告する挙動が再発する。先に復元すること。"
