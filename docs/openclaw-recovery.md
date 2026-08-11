@@ -12,6 +12,11 @@
 | 1 | **MUST rule が消えた** | 09:00:09 JST に 7 件が消失。自動復元も `{"ok":false,"reason":"no yesterday snapshot to restore from"}` で失敗 |
 | 2 | **虚偽報告** | 「画像をアップロード完了」と報告したが、コミット `f5771c7` はリモートに存在せず、Slack スレッドにも添付が無かった |
 | 3 | **プロセスが応答しない** | `spawnSync /bin/sh ETIMEDOUT`。ハートビートが 08-10 08:02 を最後に途絶 |
+| 4 | **ジョブ群が未ロード** | `~/Library/LaunchAgents/` に `ai.openclaw.*` の plist が約90個あるのに、`launchctl list` に載るのは `tab-guard` だけ（しかも last exit 1） |
+
+**「完全に死んでいる」わけではない。** Slack の受け口 `com.dailyhack.openclaw.listener` は
+稼働している。受け口だけ生きていて、自動化の本体（`gateway` / `node` / `poll-approvals` /
+`pipeline-heartbeat` など）が登録されていない状態。
 
 **2 の原因は 1。** 消えた MUST rule に
 `feedback_verify_external_state_before_claiming`（外部の状態を確認してから完了と言う）が
@@ -24,9 +29,15 @@
 手順 1〜5 をこの順で実行するスクリプトを用意してある。home-mac で次を貼るだけでよい。
 
 ```bash
-# クローン先は環境によって違うので探してから移動する
-cd "$(find ~ -maxdepth 4 -type d -name daily-hack -not -path '*/node_modules/*' 2>/dev/null | head -1)" \
-  && git pull && bash scripts/openclaw-recover.sh
+cd /Users/ny/projects/anta-baka-x/blog && git pull && bash scripts/openclaw-recover.sh
+```
+
+**リポジトリのディレクトリ名は `daily-hack` ではなく `blog`。** `daily-hack` で探しても
+見つからない（2026-08-11 に実機で確認）。場所を見失ったら `~/.claude/projects/` の
+ディレクトリ名から引ける。
+
+```bash
+ls ~/.claude/projects/ | tr '-' '/'
 ```
 
 途中で MUST rule の復元だけ `[y/N]` の確認が入る。**上書き前に必ずバックアップを取る**ため、
@@ -38,10 +49,25 @@ cd "$(find ~ -maxdepth 4 -type d -name daily-hack -not -path '*/node_modules/*' 
 
 ### 1. まず現状を確認する
 
+**ジョブ名は決め打ちにしない。** 実機には 2 系統が同居している（2026-08-11 に確認）。
+
+| 系統 | 例 | 状態 |
+| --- | --- | --- |
+| `com.dailyhack.*` | `openclaw.listener` / `openclaw.heartbeat` / `rc-keeper` / `weekly-blog-report` | launchd に登録済み。listener は稼働中 |
+| `ai.openclaw.*` | `gateway` / `node` / `seo-health` / `sitemap-autosubmit` ほか約 90 個 | **plist はあるが `launchctl list` にほぼ載っていない** |
+
+`ai.openclaw.*` を名前で決め打ちすると、未ロードのジョブに対して
+「エラーも出ないが実は何も起きていない」空振りになる。実在するものを列挙してから触る。
+
 ```bash
-# プロセスが生きているか
-launchctl print gui/$(id -u)/ai.openclaw.sitemap-autosubmit | grep -E 'state|runs|last exit'
-launchctl print gui/$(id -u)/ai.openclaw.seo-health       | grep -E 'state|runs|last exit'
+# まず実在するジョブを列挙する
+launchctl list | grep -iE 'openclaw|dailyhack'
+
+# それぞれの状態を見る
+for job in $(launchctl list | grep -iE 'openclaw|dailyhack' | awk '{print $3}'); do
+  echo "--- $job"
+  launchctl print "gui/$(id -u)/$job" | grep -E 'state|runs|last exit'
+done
 
 # 直近のログ
 tail -50 ~/.openclaw/workspace/logs/*.log
@@ -82,9 +108,10 @@ cd ~/.openclaw/workspace && git log --oneline -- memory/ | head
 # ゾンビ/多重起動が無いか
 ps aux | grep -i openclaw | grep -v grep
 
-# 残っていれば落としてから
-launchctl kickstart -k gui/$(id -u)/ai.openclaw.sitemap-autosubmit
-launchctl kickstart -k gui/$(id -u)/ai.openclaw.seo-health
+# 実在するジョブを再起動する（名前は固定しない）
+for job in $(launchctl list | grep -iE 'openclaw|dailyhack' | awk '{print $3}'); do
+  launchctl kickstart -k "gui/$(id -u)/$job"
+done
 ```
 
 再発するなら spawn のタイムアウト値と、呼び出し先スクリプトが標準入力待ちで

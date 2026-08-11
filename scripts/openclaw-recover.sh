@@ -19,7 +19,6 @@ MEMORY_DIR="$WORKSPACE/memory"
 LOG_DIR="$WORKSPACE/logs"
 MIRROR="/Users/ny/projects/anta-baka-x/SHARED/MEMORY-MUST-MIRROR.md"
 BACKUP_DIR="$HOME/.openclaw/recovery-backup-$(date +%Y%m%d-%H%M%S)"
-JOBS="ai.openclaw.sitemap-autosubmit ai.openclaw.seo-health"
 # 消えると虚偽報告が再発する要のルール。復元後にこれを検査する。
 KEY_RULE="feedback_verify_external_state_before_claiming"
 
@@ -42,6 +41,22 @@ if [ ! -d "$WORKSPACE" ]; then
   exit 1
 fi
 ok "ワークスペース: $WORKSPACE"
+
+# ジョブ名は決め打ちにしない。記録では ai.openclaw.* だったが、実機には
+# com.dailyhack.openclaw.* が入っていた（2026-08-11 に判明）。名前を固定すると
+# 「全部 OK に見えるが実は何も触っていない」空振りになる。
+JOBS="$(launchctl list 2>/dev/null | awk '{print $3}' | grep -iE 'openclaw|dailyhack' | sort -u)"
+if [ -z "$JOBS" ]; then
+  JOBS="$(ls "$HOME/Library/LaunchAgents" 2>/dev/null | sed 's/\.plist$//' | grep -iE 'openclaw|dailyhack' | sort -u)"
+  [ -n "$JOBS" ] && warn "launchctl に載っていないが plist は存在する（未ロードの可能性）"
+fi
+
+if [ -z "$JOBS" ]; then
+  bad "openclaw / dailyhack に該当する launchd ジョブが 1 つも見つからない"
+else
+  echo "  対象ジョブ:"
+  for job in $JOBS; do echo "    - $job"; done
+fi
 
 for job in $JOBS; do
   state="$(launchctl print "gui/$uid/$job" 2>/dev/null | grep -E '^\s*state = ' | head -1 | sed 's/.*= //')"
