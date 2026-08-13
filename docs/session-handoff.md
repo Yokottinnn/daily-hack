@@ -9,18 +9,21 @@
 ## 現在の状態
 
 - 本番ブログ（Astro）は `main` から Cloudflare Pages にデプロイされる。
-- 直近のリリースは `#145`（全国マップの番号バッジの視認性修正）まで完了。
+- 直近のリリースは `#159`（アウトレット記事の表紙とタイルのリンク切れ修正）まで完了。
 
 ## 進行中の作業
 
-- **`lalaport-mop-guide-2026`（三井アウトレットパーク記事）**: 画像アセットのみ用意済みで、
-  記事本体が未作成。画像は untracked のまま残っている可能性がある。
-  対応方針は未決定（記事を書いて公開 / 画像だけ先にコミット / 保留）。
+**ららぽーとガイド 2026 の X 投稿**が止まっている。経路は
+「ランキング画像を Slack に添付 → Jordan の 👍 → OpenClaw が X 投稿」。
+
+- 画像は `main` にある: `assets/social/lalaport-guide-2026/ranking-top10.png`（2400×2400）。
+- 8/11 に Slack で OpenClaw にアップロードを依頼済み。旧依頼はコミット指定が無効だったため訂正済み。
 
 ## 次のアクション
 
-- [ ] MOP 記事を書くか、画像だけコミットするかを決める。
-- [ ] 決めたら本記事を作成し、`npm run build` を通してからリリースする。
+- [ ] OpenClaw が `main` から画像を Slack にアップロードしたか確認する。
+- [ ] アップロードされたら Jordan の 👍 を得る。👍 の前に X へ投稿しない。
+- [ ] `poll-approvals` が実際にロードされたかを `launchctl list` で確認する。
 
 ## 決定事項・注意点
 
@@ -28,10 +31,31 @@
   原因はセッション本体ではなく実行環境の消滅であり、復旧手順は
   [`docs/session-recovery.md`](./session-recovery.md) にまとめてある。
 
+- **クラウドセッションから Mac へは SSH で届かない。** ssh 未インストール・鍵なし・
+  生 TCP が出られない（2026-08-11 に実測）。OpenClaw を触るときは Mac で `claude` を
+  起動して `/remote-control` で公開する。
+
+- **リポジトリのパスは `/Users/ny/projects/anta-baka-x/blog`。** ディレクトリ名が
+  `daily-hack` ではないため、名前で検索しても見つからない。
+
+- **OpenClaw の MUST rule の実体は `~/.claude/projects/-Users-ny--openclaw-workspace/memory/`。**
+  `~/.openclaw/workspace/memory/` ではない。場所を間違えると、有るのに「無い」とも、
+  無いのに「有る」とも報告しうる。詳細は
+  [`docs/openclaw-recovery.md`](./openclaw-recovery.md) を参照。
+
+- **ログが動いても「ジョブが復活した」証拠にならない。** listener が生きているため、
+  未ロードのまま同じログに書き込まれることがある。判定は `launchctl list` で行う。
+
 <!-- session-log:start -->
 ## セッション記録
 
 <!-- 新しい記録がこの下に追加される（新しいものが上） -->
+
+### 2026-08-13 — OpenClaw 停止の原因を実機で特定（ジョブ未ロード／握り潰された空例外）。誤った前提3件を撤回し記録を訂正。画像の場所をSlackで訂正
+
+次のアクション:
+
+- [ ] OpenClaw が main から画像をアップロードするか確認し、👍 を得てから X 投稿
 
 ### 2026-08-11 — ダイアログ強制の拡張を両リポジトリに反映（daily-hack #152 / bubblesnow #2 をマージ）
 
