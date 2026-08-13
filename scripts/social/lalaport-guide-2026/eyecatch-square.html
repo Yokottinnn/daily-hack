@@ -4,12 +4,11 @@
   ブログ表紙（1600x900）の正方形版。X のタイムラインは 1:1 が最も面積を取れる。
   横長を切り抜くとタイトルか写真のどちらかが必ず欠けるため、同じ素材で組み直している。
 
-  経緯:
-    v1 表紙と同じ6枚グリッド＋全面グラデーション → 下段2枚が暗幕で潰れて素材が死んだ
-    v2 flex で上下に分割 → 高さの計算が flex に委ねられて文字が写真に重なった
-    v3 帯を絶対配置で固定（写真 0-620px / パネル 620-1200px）。重なりが構造的に起きない
+  構成: 表紙と同じ6施設の写真を 2列 x 3行 で敷き、全面グラデーションで沈めて
+  下寄りにタイトルを置く。文言・バッジ・出典表記は表紙と同一。
 
-  出典表記は実際に使った4施設に合わせてある。
+  経緯: 一度「下段2枚が暗幕で潰れる」と判断して 2枚構成に作り替えたが、
+  利用者の確認により、この6枚版を採用することに決まった（2026-08-13）。
 -->
 <style>
   * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -17,75 +16,76 @@
   body {
     width: 1200px; height: 1200px; overflow: hidden; position: relative;
     font-family: "IPAPGothic", "IPAGothic", sans-serif;
-    background: #0f1a2e; color: #fff;
+    background: #0a101c; color: #fff;
   }
 
-  /* 上帯: 写真 2枚を横に並べる。
-     当初は 2x2 の4枚にしたが、セルが 598x308（約2:1）になり、4:3 の元画像から
-     横長に切ると空と屋根しか残らなかった。1行にして 598x620（ほぼ正方形）にすると
-     元画像の縦横比に近く、被写体がそのまま入る。 */
+  /* 背景: 2列 x 3行の写真グリッド。表紙と同じ6施設。 */
   .grid {
-    position: absolute; top: 0; left: 0; right: 0; height: 620px;
+    position: absolute; inset: 0;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 4px;
-    overflow: hidden;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
   }
   .grid img { width: 100%; height: 100%; object-fit: cover; display: block; }
 
-  /* 写真とパネルの境目を馴染ませる。濃くしすぎると下段の写真が死ぬ */
-  .fade {
-    position: absolute; left: 0; right: 0; top: 528px; height: 92px; z-index: 1;
-    background: linear-gradient(180deg, rgba(15,26,46,0) 0%, rgba(15,26,46,.45) 55%, rgba(15,26,46,1) 100%);
+  /* 下半分を沈めて文字を読ませる。上は写真を見せたいので薄く。 */
+  .veil {
+    position: absolute; inset: 0;
+    background:
+      linear-gradient(180deg,
+        rgba(10,16,28,.10) 0%,
+        rgba(10,16,28,.22) 30%,
+        rgba(10,16,28,.72) 52%,
+        rgba(10,16,28,.93) 70%,
+        rgba(10,16,28,.97) 100%);
   }
 
   .brand {
-    position: absolute; top: 40px; left: 44px; z-index: 2;
-    display: inline-flex; align-items: center; gap: 13px;
-    background: #fff; border-radius: 999px; padding: 13px 28px 13px 20px;
-    box-shadow: 0 10px 26px rgba(0,0,0,.4);
+    position: absolute; top: 46px; left: 52px;
+    display: inline-flex; align-items: center; gap: 14px;
+    background: #fff; border-radius: 999px; padding: 14px 30px 14px 22px;
+    box-shadow: 0 10px 26px rgba(0,0,0,.35);
   }
-  .brand .dot { width: 21px; height: 21px; border-radius: 50%; background: #e8386f; }
-  .brand span { font-size: 30px; font-weight: bold; color: #14243a; letter-spacing: .02em; }
+  .brand .dot { width: 22px; height: 22px; border-radius: 50%; background: #e8386f; }
+  .brand span { font-size: 31px; font-weight: bold; color: #14243a; letter-spacing: .02em; }
 
-  /* 下帯: 濃色パネル */
-  .panel {
-    position: absolute; top: 620px; left: 0; right: 0; bottom: 0;
-    padding: 40px 52px 0;
+  .copy { position: absolute; left: 52px; right: 52px; bottom: 128px; }
+  .kicker { font-size: 34px; font-weight: bold; letter-spacing: .01em; opacity: .95; margin-bottom: 14px; }
+  .title { font-size: 128px; font-weight: bold; line-height: 1.04; letter-spacing: .01em; }
+  .title2 { font-size: 96px; font-weight: bold; line-height: 1.1; margin-top: 6px; }
+  .rule { width: 372px; height: 9px; border-radius: 5px; background: #e8386f; margin: 26px 0 22px; }
+  .sub { font-size: 37px; line-height: 1.35; opacity: .96; }
+
+  .credit {
+    position: absolute; left: 52px; bottom: 46px;
+    font-size: 20px; opacity: .78; line-height: 1.4; max-width: 830px;
   }
-
-  .kicker { font-size: 34px; font-weight: bold; opacity: .92; margin-bottom: 12px; }
-  .title { font-size: 122px; font-weight: bold; line-height: 1.02; letter-spacing: .01em; }
-  .title2 { font-size: 90px; font-weight: bold; line-height: 1.06; margin-top: 6px; }
-  .rule { width: 360px; height: 9px; border-radius: 5px; background: #e8386f; margin: 22px 0 18px; }
-  .sub { font-size: 36px; line-height: 1.28; opacity: .95; }
-
-  .foot {
-    position: absolute; left: 52px; right: 52px; bottom: 34px;
-    display: flex; align-items: flex-end; justify-content: space-between; gap: 24px;
+  .handle {
+    position: absolute; right: 52px; bottom: 44px;
+    font-size: 33px; font-weight: bold; letter-spacing: .01em;
   }
-  .credit { font-size: 19px; opacity: .7; line-height: 1.35; }
-  .handle { font-size: 32px; font-weight: bold; letter-spacing: .01em; flex: none; }
 </style>
 
 <div class="grid">
+  <img src="../../../public/images/lalaport-guide-2026/photos/tokyobay.jpg" alt="">
   <img src="../../../public/images/lalaport-guide-2026/photos/toyosu.jpg" alt="">
   <img src="../../../public/images/lalaport-guide-2026/photos/expocity.jpg" alt="">
+  <img src="../../../public/images/lalaport-guide-2026/photos/yokohama.jpg" alt="">
+  <img src="../../../public/images/lalaport-guide-2026/photos/fujimi.jpg" alt="">
+  <img src="../../../public/images/lalaport-guide-2026/photos/fukuoka.jpg" alt="">
 </div>
 
-<div class="fade"></div>
+<div class="veil"></div>
 
 <div class="brand"><span class="dot"></span><span>Daily Hack</span></div>
 
-<div class="panel">
+<div class="copy">
   <div class="kicker">全国20施設を売上・面積・店舗数で全部</div>
   <div class="title">ららぽーと</div>
   <div class="title2">完全ガイド 2026</div>
   <div class="rule"></div>
   <div class="sub">店舗別売上ランキングと今後のリニューアル計画</div>
-
-  <div class="foot">
-    <div class="credit">画像: 三井ショッピングパーク公式サイトより<br>（豊洲／EXPOCITY）</div>
-    <div class="handle">@heng_ji31590</div>
-  </div>
 </div>
+
+<div class="credit">画像: 三井ショッピングパーク公式サイトより（TOKYO-BAY／豊洲／EXPOCITY／横浜／富士見／福岡）</div>
+<div class="handle">@heng_ji31590</div>
