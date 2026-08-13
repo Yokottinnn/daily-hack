@@ -1,0 +1,91 @@
+<!doctype html>
+<meta charset="utf-8">
+<!--
+  ブログ表紙（1600x900）の正方形版。X のタイムラインは 1:1 が最も面積を取れる。
+  横長を切り抜くとタイトルか写真のどちらかが必ず欠けるため、同じ素材で組み直している。
+
+  経緯:
+    v1 表紙と同じ6枚グリッド＋全面グラデーション → 下段2枚が暗幕で潰れて素材が死んだ
+    v2 flex で上下に分割 → 高さの計算が flex に委ねられて文字が写真に重なった
+    v3 帯を絶対配置で固定（写真 0-620px / パネル 620-1200px）。重なりが構造的に起きない
+
+  出典表記は実際に使った4施設に合わせてある。
+-->
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    width: 1200px; height: 1200px; overflow: hidden; position: relative;
+    font-family: "IPAPGothic", "IPAGothic", sans-serif;
+    background: #0f1a2e; color: #fff;
+  }
+
+  /* 上帯: 写真 2枚を横に並べる。
+     当初は 2x2 の4枚にしたが、セルが 598x308（約2:1）になり、4:3 の元画像から
+     横長に切ると空と屋根しか残らなかった。1行にして 598x620（ほぼ正方形）にすると
+     元画像の縦横比に近く、被写体がそのまま入る。 */
+  .grid {
+    position: absolute; top: 0; left: 0; right: 0; height: 620px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4px;
+    overflow: hidden;
+  }
+  .grid img { width: 100%; height: 100%; object-fit: cover; display: block; }
+
+  /* 写真とパネルの境目を馴染ませる。濃くしすぎると下段の写真が死ぬ */
+  .fade {
+    position: absolute; left: 0; right: 0; top: 528px; height: 92px; z-index: 1;
+    background: linear-gradient(180deg, rgba(15,26,46,0) 0%, rgba(15,26,46,.45) 55%, rgba(15,26,46,1) 100%);
+  }
+
+  .brand {
+    position: absolute; top: 40px; left: 44px; z-index: 2;
+    display: inline-flex; align-items: center; gap: 13px;
+    background: #fff; border-radius: 999px; padding: 13px 28px 13px 20px;
+    box-shadow: 0 10px 26px rgba(0,0,0,.4);
+  }
+  .brand .dot { width: 21px; height: 21px; border-radius: 50%; background: #e8386f; }
+  .brand span { font-size: 30px; font-weight: bold; color: #14243a; letter-spacing: .02em; }
+
+  /* 下帯: 濃色パネル */
+  .panel {
+    position: absolute; top: 620px; left: 0; right: 0; bottom: 0;
+    padding: 40px 52px 0;
+  }
+
+  .kicker { font-size: 34px; font-weight: bold; opacity: .92; margin-bottom: 12px; }
+  .title { font-size: 122px; font-weight: bold; line-height: 1.02; letter-spacing: .01em; }
+  .title2 { font-size: 90px; font-weight: bold; line-height: 1.06; margin-top: 6px; }
+  .rule { width: 360px; height: 9px; border-radius: 5px; background: #e8386f; margin: 22px 0 18px; }
+  .sub { font-size: 36px; line-height: 1.28; opacity: .95; }
+
+  .foot {
+    position: absolute; left: 52px; right: 52px; bottom: 34px;
+    display: flex; align-items: flex-end; justify-content: space-between; gap: 24px;
+  }
+  .credit { font-size: 19px; opacity: .7; line-height: 1.35; }
+  .handle { font-size: 32px; font-weight: bold; letter-spacing: .01em; flex: none; }
+</style>
+
+<div class="grid">
+  <img src="../../../public/images/lalaport-guide-2026/photos/toyosu.jpg" alt="">
+  <img src="../../../public/images/lalaport-guide-2026/photos/expocity.jpg" alt="">
+</div>
+
+<div class="fade"></div>
+
+<div class="brand"><span class="dot"></span><span>Daily Hack</span></div>
+
+<div class="panel">
+  <div class="kicker">全国20施設を売上・面積・店舗数で全部</div>
+  <div class="title">ららぽーと</div>
+  <div class="title2">完全ガイド 2026</div>
+  <div class="rule"></div>
+  <div class="sub">店舗別売上ランキングと今後のリニューアル計画</div>
+
+  <div class="foot">
+    <div class="credit">画像: 三井ショッピングパーク公式サイトより<br>（豊洲／EXPOCITY）</div>
+    <div class="handle">@heng_ji31590</div>
+  </div>
+</div>
