@@ -123,23 +123,66 @@ for job in $JOBS; do
   fi
 done
 
-bold "2. 確認"
+bold "2. 定着の確認（bootstrap の戻り値を信用しない）"
 
-echo "  現在ロードされているもの:"
+# bootstrap が rc=0 を返しても、直後に何かが bootout してジョブが消えることがある。
+# 実機で確認された挙動（2026-08-13）:
+#   bootstrap rc=0 → state=running (runs=1) が t+9s まで
+#   t+12s で「Could not find service ... gui:501」→ 丸ごと消滅
+#   90秒後の launchctl list は 0/5
+# disabled ではなく、実行中のまま能動的に bootout されている。
+# 戻り値だけを見ていた頃は「成功していないのに成功」と報告していた。
+WAIT="${LOAD_VERIFY_WAIT:-45}"
+echo "  ${WAIT} 秒待ってから、実際に残っているかを見る。"
+sleep "$WAIT"
+
+echo ""
+echo "  launchctl list の現在値:"
 launchctl list 2>/dev/null | grep -iE 'openclaw|dailyhack' | sed 's/^/    /'
+echo ""
+
+survived=""
+vanished=""
+for job in $JOBS; do
+  label="ai.openclaw.$job"
+  if launchctl list 2>/dev/null | awk '{print $3}' | grep -qx "$label"; then
+    survived="$survived $job"
+  else
+    vanished="$vanished $job"
+  fi
+done
+
+for job in $survived; do ok "ai.openclaw.$job: 定着している"; done
+for job in $vanished; do bad "ai.openclaw.$job: 消えた（bootout されている）"; done
 
 bold "結果"
 
-[ -n "$loaded" ] && echo "  ロード済み:$loaded"
 if [ -n "$failed" ]; then
-  echo "  失敗:$failed"
+  echo "  ロードに失敗:$failed"
+fi
+
+if [ -n "$vanished" ]; then
+  echo "  ${WAIT} 秒後に消えていたジョブ:$vanished"
+  echo ""
+  echo "  **ロードは成立していない。** 何かがジョブを能動的に bootout している。"
+  echo "  手動 bootstrap を繰り返しても貼り付かないため、アンローダーの特定が要る。"
+  echo ""
+  echo "  次に見る場所:"
+  echo "    log show --last 30m --predicate 'process == \"launchd\"' | grep -i openclaw"
+  echo "    launchctl print gui/$uid/ai.openclaw.gateway   # 消える前に状態を捕まえる"
+  echo "    ps aux | grep -iE 'watchdog|guardian' | grep -v grep"
+  exit 1
+fi
+
+if [ -n "$failed" ]; then
   echo ""
   echo "  失敗が残っているため成功として扱わない。"
   exit 1
 fi
 
+echo "  定着を確認:$survived"
 echo ""
 echo "  poll-approvals が 60 秒間隔で 👍 を拾うようになる。"
-echo "  実際に動いているかはログの更新で確認する（自己申告を信用しない）。"
+echo "  最終確認はログの更新で行う（このスクリプトの出力も自己申告にすぎない）。"
 echo ""
 echo "    tail -f ~/.openclaw/workspace/logs/poll-approvals.log"
