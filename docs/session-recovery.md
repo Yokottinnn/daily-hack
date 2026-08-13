@@ -107,6 +107,29 @@ OpenClaw も launchd も直接触れる。
 **このクラウドセッションを閉じる必要はない。** ブリッジ側で Mac を触り、
 コード変更やリリースはこちらで進める、という並行運用ができる。
 
+## クラウドから Mac のセッションへ作業を渡す
+
+Mac 上でブリッジセッションが動いていれば、クラウド側から作業を送り込める。
+Jordan が Mac を操作する必要はない。
+
+```text
+mcp__Claude_Code_Remote__list_sessions で environment_kind: bridge かつ
+connection_status: connected のセッションを探す
+  → create_trigger に persistent_session_id を指定して作成
+  → fire_trigger で即時発火
+```
+
+**トリガーは新規作成した初回の発火だけが対象セッションに紐づく。**
+同じトリガーを `fire_trigger` で追い撃ちしても、2 回目以降は別のセッションが作られて
+Mac には届かない（2026-08-13 に実測）。判定は戻り値の `session_id` で行う。
+
+```text
+1回目: cse_01MP2XDt2U4pS1MxD8AQGERh  ← 対象セッションと一致。届いている
+2回目: cse_01YDeaV7ZRTz1NgS4kvEGj7x  ← 別物。届いていない
+```
+
+`session_id` が対象と一致しないときは、**トリガーを作り直してから発火する。**
+
 ## 履歴ファイルを直接確認する
 
 `--resume` の一覧に出ない場合は、実ファイルの有無を確認する。
