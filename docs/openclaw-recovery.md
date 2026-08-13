@@ -3,33 +3,92 @@
 > **この手順は home-mac（192.168.2.102）で実行する。** クラウドの Claude Code セッションからは
 > 到達できないため、実行は利用者の手元で行う必要がある。
 
+## 撤回された前提（先に読むこと）
+
+**当初「MUST rule が 7 件消えたことが原因」と記録していたが、これは誤りだった。**
+2026-08-11 に実機で確認したところ、ルールは消えていない。
+
+| 当初の記録 | 実際 |
+| --- | --- |
+| MUST rule 7 件が消失した | **消えていない。**正しい場所に実在する |
+| 8/10 09:00:09 に消失した | **消失ではなく検知**の時刻。`daily-must-rule-review` が定時に走った記録 |
+| 復元元は `SHARED/MEMORY-MUST-MIRROR.md` | ミラーは slug の一覧にすぎない。実体は別 |
+
+**ルールの実体はここにある。**
+
+```text
+~/.claude/projects/-Users-ny--openclaw-workspace/memory/
+```
+
+`~/.openclaw/workspace/memory/` でも `~/.openclaw/workspace/CLAUDE.md` でもない。
+`daily-must-rule-review.js` の `MEMORY_DIR` がこの場所を指しており、実装が答えを持っていた。
+
+同じ取り違えは過去にも起きている。`daily-must-rule-review.js` の 74 行目にこう残っている。
+
+```js
+// 本ワークスペースの memory に 1 つも存在しなかったのに 11/11 present と報告し続けていた。
+```
+
+**場所を間違えると、無いのに「有る」とも、有るのに「無い」とも報告しうる。**
+残存を判定するコードを書くときは、必ず `daily-must-rule-review.js` の `MEMORY_DIR` に合わせる。
+
 ## 何が起きたか
 
-2026-08-10 に OpenClaw が壊れ、以降まともに動いていない。症状は 3 つ。
+2026-08-10 から OpenClaw の自動化が動いていない。確認された事実は次のとおり。
 
 | # | 症状 | 確認された事実 |
 | --- | --- | --- |
-| 1 | **MUST rule が消えた** | 09:00:09 JST に 7 件が消失。自動復元も `{"ok":false,"reason":"no yesterday snapshot to restore from"}` で失敗 |
-| 2 | **虚偽報告** | 「画像をアップロード完了」と報告したが、コミット `f5771c7` はリモートに存在せず、Slack スレッドにも添付が無かった |
-| 3 | **プロセスが応答しない** | `spawnSync /bin/sh ETIMEDOUT`。ハートビートが 08-10 08:02 を最後に途絶 |
-| 4 | **ジョブ群が未ロード** | `~/Library/LaunchAgents/` に `ai.openclaw.*` の plist が約90個あるのに、`launchctl list` に載るのは `tab-guard` だけ（しかも last exit 1） |
+| 1 | **ジョブ群が未ロード** | `~/Library/LaunchAgents/` に `ai.openclaw.*` の plist が約90個あるのに、`launchctl list` に載るのは `tab-guard` だけ（last exit 1）。`print-disabled` は `0` で、無効化ではなく**アンロード**状態 |
+| 2 | **ログが一斉に途絶** | ほぼ全ジョブのログが 8/10 09:44〜09:52 JST で止まっている |
+| 3 | **握り潰された例外** | 停止の直前、`poll-approvals` が `blog-promo-20260810-lalaport-guide-2026` の処理で 4 回連続して失敗。**エラーメッセージが空**（`${e.message}` が空文字） |
+| 4 | **虚偽報告** | 「画像をアップロード完了」と報告したが、コミット `f5771c7` はリモートに存在せず、Slack スレッドにも添付が無かった |
 
 **「完全に死んでいる」わけではない。** Slack の受け口 `com.dailyhack.openclaw.listener` は
 稼働している。受け口だけ生きていて、自動化の本体（`gateway` / `node` / `poll-approvals` /
 `pipeline-heartbeat` など）が登録されていない状態。
 
-**2 の原因は 1。** 消えた MUST rule に
-`feedback_verify_external_state_before_claiming`（外部の状態を確認してから完了と言う）が
-含まれていた。このルールが無くなったため、確認せずに「完了しました」と報告するようになった。
+**listener が生きているため、ログだけを見ると復活したように見えることがある。**
+listener が同じスクリプトを呼ぶと `poll-approvals.log` に新しい行が増えるが、
+それはジョブがロードされた証拠にならない。判定は必ず `launchctl list` で行う。
 
-したがって **1 を直さずに再起動しても、また虚偽報告をする。** 順番を守る。
+### 停止の引き金
+
+3 が現時点で最も有力な引き金である。**今回の案件そのもの**（ららぽーとガイド 2026 の
+告知投稿）を処理しようとして落ちており、時刻も 2 の途絶と一致する。
+
+```text
+[2026-08-10T00:49:45.541Z] Error processing blog-promo-20260810-lalaport-guide-2026:
+[2026-08-10T00:50:45.800Z] Error processing blog-promo-20260810-lalaport-guide-2026:
+[2026-08-10T00:51:46.060Z] Error processing blog-promo-20260810-lalaport-guide-2026:
+[2026-08-10T00:52:46.311Z] Error processing blog-promo-20260810-lalaport-guide-2026:
+```
+
+`poll-approvals.js:232` は `${e.message}` を出しているので、**メッセージが空の例外**が
+投げられている。`Error` 以外の値が throw されたか、メッセージ無しで生成されたかのどちらか。
+ここを直さないと、同じエントリを処理するたびに同じ場所で落ちる。
 
 ## まずこれを実行する
 
-手順 1〜5 をこの順で実行するスクリプトを用意してある。home-mac で次を貼るだけでよい。
+止まっているジョブのうち、画像添付と 👍 検知が通る最小限だけを戻す。
 
 ```bash
-cd /Users/ny/projects/anta-baka-x/blog && git pull && bash scripts/openclaw-recover.sh
+cd /Users/ny/projects/anta-baka-x/blog && git pull && bash scripts/openclaw-load-minimal.sh
+```
+
+対象は `gateway` / `node` / `poll-approvals` / `slack-watchdog` / `import-manual-image` の 5 つ。
+**X への自動投稿・フォロー操作のジョブは含めない。** 1 日以上滞留した処理が一斉に走ると、
+意図しない投稿が発生するため。課金が無いことは `scripts/openclaw-audit-jobs.sh` で確認済み。
+
+ロード後は**必ず外から確認する**。スクリプトの成功報告ではなく `launchctl list` で見る。
+
+```bash
+launchctl list | grep -iE 'openclaw|dailyhack'
+```
+
+環境が壊れている疑いがあるときは、次で全体を点検する。
+
+```bash
+bash scripts/openclaw-recover.sh
 ```
 
 **リポジトリのディレクトリ名は `daily-hack` ではなく `blog`。** `daily-hack` で探しても
@@ -75,30 +134,30 @@ tail -50 ~/.openclaw/workspace/logs/*.log
 
 `last exit code` が 0 以外、または `state = not running` なら 3 の再起動まで進む。
 
-### 2. MUST rule を復元する（最優先）
+### 2. MUST rule の残存を確認する
 
-消えた 7 件を戻す。復元元の候補を上から順に探す。
+**正しい場所を見ること。** 場所を間違えると判定が両方向に狂う。
 
 ```bash
-# 候補1: 旧ミラー（最も確実）
-ls -l /Users/ny/projects/anta-baka-x/SHARED/MEMORY-MUST-MIRROR.md
-
-# 候補2: スナップショット
-ls -lt ~/.openclaw/workspace/memory/snapshots/ | head
-
-# 候補3: Git 履歴（メモリがリポジトリ管理下にある場合）
-cd ~/.openclaw/workspace && git log --oneline -- memory/ | head
+ls ~/.claude/projects/-Users-ny--openclaw-workspace/memory/ | grep '^feedback_'
 ```
 
-復元後、**`feedback_verify_external_state_before_claiming` が入っていることを目視で確認する。**
-これが無いまま再開すると 2 の虚偽報告が再発する。
+ミラーに載っている絶対遵守ルールは 12 件。`scripts/openclaw-load-minimal.sh` が
+この 12 件を数え、要の `feedback_verify_external_state_before_claiming` が欠けている場合のみ
+ロードを止める。
 
-### 3. スナップショットの世代を増やす
+一覧の正本はここにある（slug の一覧であって実体ではない）。
 
-今回復元できなかった直接の理由は「前日ぶんのスナップショットしか無く、その前日ぶんが
-既に無かった」こと。1 世代では、消失に気づくのが 1 日遅れた時点で詰む。
+```bash
+cat /Users/ny/projects/anta-baka-x/SHARED/MEMORY-MUST-MIRROR.md
+```
 
-**7 世代以上を保持するよう設定を変える。** 保持期間を延ばすだけで、同じ事故で全損しなくなる。
+### 3. スナップショットについて
+
+`~/.openclaw/workspace/memory/snapshots/` は**存在しない**。当初「前日ぶんしか無かった」と
+記録していたが、そもそもこの階層にスナップショット機構は無い。
+`{"ok":false,"reason":"no yesterday snapshot to restore from"}` は、
+存在しない場所を見に行った結果である可能性が高い。
 
 ### 4. `spawnSync ETIMEDOUT` を解消する
 
