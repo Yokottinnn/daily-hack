@@ -1,0 +1,91 @@
+<!doctype html>
+<meta charset="utf-8">
+<!--
+  ブログ表紙（1600x900）の正方形版。X のタイムラインは 1:1 が最も面積を取れる。
+  横長を切り抜くとタイトルか写真のどちらかが必ず欠けるため、同じ素材で組み直している。
+
+  構成: 表紙と同じ6施設の写真を 2列 x 3行 で敷き、全面グラデーションで沈めて
+  下寄りにタイトルを置く。文言・バッジ・出典表記は表紙と同一。
+
+  経緯: 一度「下段2枚が暗幕で潰れる」と判断して 2枚構成に作り替えたが、
+  利用者の確認により、この6枚版を採用することに決まった（2026-08-13）。
+-->
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    width: 1200px; height: 1200px; overflow: hidden; position: relative;
+    font-family: "IPAPGothic", "IPAGothic", sans-serif;
+    background: #0a101c; color: #fff;
+  }
+
+  /* 背景: 2列 x 3行の写真グリッド。表紙と同じ6施設。 */
+  .grid {
+    position: absolute; inset: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
+  .grid img { width: 100%; height: 100%; object-fit: cover; display: block; }
+
+  /* 下半分を沈めて文字を読ませる。上は写真を見せたいので薄く。 */
+  .veil {
+    position: absolute; inset: 0;
+    background:
+      linear-gradient(180deg,
+        rgba(10,16,28,.10) 0%,
+        rgba(10,16,28,.22) 30%,
+        rgba(10,16,28,.72) 52%,
+        rgba(10,16,28,.93) 70%,
+        rgba(10,16,28,.97) 100%);
+  }
+
+  .brand {
+    position: absolute; top: 46px; left: 52px;
+    display: inline-flex; align-items: center; gap: 14px;
+    background: #fff; border-radius: 999px; padding: 14px 30px 14px 22px;
+    box-shadow: 0 10px 26px rgba(0,0,0,.35);
+  }
+  .brand .dot { width: 22px; height: 22px; border-radius: 50%; background: #e8386f; }
+  .brand span { font-size: 31px; font-weight: bold; color: #14243a; letter-spacing: .02em; }
+
+  .copy { position: absolute; left: 52px; right: 52px; bottom: 128px; }
+  .kicker { font-size: 34px; font-weight: bold; letter-spacing: .01em; opacity: .95; margin-bottom: 14px; }
+  .title { font-size: 128px; font-weight: bold; line-height: 1.04; letter-spacing: .01em; }
+  .title2 { font-size: 96px; font-weight: bold; line-height: 1.1; margin-top: 6px; }
+  .rule { width: 372px; height: 9px; border-radius: 5px; background: #e8386f; margin: 26px 0 22px; }
+  .sub { font-size: 37px; line-height: 1.35; opacity: .96; }
+
+  .credit {
+    position: absolute; left: 52px; bottom: 46px;
+    font-size: 20px; opacity: .78; line-height: 1.4; max-width: 830px;
+  }
+  .handle {
+    position: absolute; right: 52px; bottom: 44px;
+    font-size: 33px; font-weight: bold; letter-spacing: .01em;
+  }
+</style>
+
+<div class="grid">
+  <img src="../../../public/images/lalaport-guide-2026/photos/tokyobay.jpg" alt="">
+  <img src="../../../public/images/lalaport-guide-2026/photos/toyosu.jpg" alt="">
+  <img src="../../../public/images/lalaport-guide-2026/photos/expocity.jpg" alt="">
+  <img src="../../../public/images/lalaport-guide-2026/photos/yokohama.jpg" alt="">
+  <img src="../../../public/images/lalaport-guide-2026/photos/fujimi.jpg" alt="">
+  <img src="../../../public/images/lalaport-guide-2026/photos/fukuoka.jpg" alt="">
+</div>
+
+<div class="veil"></div>
+
+<div class="brand"><span class="dot"></span><span>Daily Hack</span></div>
+
+<div class="copy">
+  <div class="kicker">全国20施設を売上・面積・店舗数で全部</div>
+  <div class="title">ららぽーと</div>
+  <div class="title2">完全ガイド 2026</div>
+  <div class="rule"></div>
+  <div class="sub">店舗別売上ランキングと今後のリニューアル計画</div>
+</div>
+
+<div class="credit">画像: 三井ショッピングパーク公式サイトより（TOKYO-BAY／豊洲／EXPOCITY／横浜／富士見／福岡）</div>
+<div class="handle">@heng_ji31590</div>
