@@ -33,3 +33,6 @@ tmp/
 # アプリ素材スクショ（合成済みshowcaseのみ公開、素材は非公開）
 public/images/ana-pocket-vs-jal-wellness-2026/src/
 public/images/*.bak.*
+
+# 会話ログの書き出し先。session-log/<label> ブランチに置くもので、main には入れない
+docs/session-logs/
