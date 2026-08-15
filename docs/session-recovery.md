@@ -47,27 +47,87 @@ The environment this session was running on has been deleted; its state cannot b
 `--resume` は**このマシンのローカル履歴**から会話を開き直すコマンドで、クラウドセッションの
 一覧は表示しない。クラウドセッションを引く `--teleport` とは別物なので混同しないこと。
 
-## 認証が切れて応答しなくなった bridge セッションを戻す
+## OAuth 失効 — 無応答に見える最有力の原因
 
-`Failed to authenticate: OAuth session expired` や `Not logged in · Please run /login` が
-返り続ける状態は、**セッションが壊れたのではなく、動いているプロセスが古いトークンを
-握ったまま**の状態。会話は残っているので、**新しいプロセスで開き直せば復活する**。
-すでに別のターミナルで `/login` を済ませていれば、資格情報はマシン共通なのでそのまま通る。
+Mac 側のセッションが**何を送っても返さない**とき、まず疑うのは相手の怠慢でも
+コネクタ設定でもなく、**OAuth の失効**である。
+
+```text
+Failed to authenticate: OAuth session expired and could not be refreshed
+```
+
+2026-08-15 にこれが起きた。**クラウド側からは何も見えない。**
+`get_session` は `SESSION_STATUS_IDLE` / `connection_status: connected` を返し続け、
+トリガーの `fire_trigger` も正常に成功する。**それでもターンは実行されない。**
+
+このとき私は「トリガーにコネクタが乗っていないため報告が外へ出ない」と診断したが、
+**それは副次的な要因で、主因は認証切れだった。**
+
+### 見分け方
+
+| 症状 | 意味 |
+| --- | --- |
+| `fire_trigger` は成功するが Slack に何も出ない | 認証切れの可能性が高い |
+| `get_session` が IDLE / connected を返す | **正常の証拠にならない。** 失効中でもこう見える |
+| 同じ依頼を送り直しても変わらない | 経路の問題ではなく実行できていない |
+
+**クラウド側から確認する手段は無い。** 利用者に Mac のターミナルを見てもらうしかない。
+無応答が続いたら、**送り直す前に利用者へ「ターミナルに何か出ていますか」と聞く。**
+
+### スマホしか手元に無いとき — OpenClaw に代行させる
+
+**利用者が Mac のターミナルを開けない状況でも、多くの場合は復活できる。**
+資格情報は Keychain にあり、**別ウィンドウで一度ログインしていれば Mac 全体で有効**になる。
+古いプロセスがそれを読み直せないだけなので、**起動し直すだけでよい**（ブラウザ操作は不要）。
+
+OpenClaw は Mac 上の launchd で生きているため、Slack 経由で代行を頼める。
 
 ```bash
-# 1. 応答しない CLI を終了する（そのウィンドウで Ctrl+C → exit）
-# 2. 同じ会話を開き直す
-cd ~/projects/anta-baka-x/blog
+# 資格情報が有効かだけ確認する（中身は出力しない）
+security find-generic-password -s 'Claude Code-credentials' -w >/dev/null 2>&1 \
+  && echo "creds: OK" || echo "creds: NG"
+
+# 復活させる会話を特定する（最終更新がいちばん新しいもの）
+ls -lt ~/.claude/projects/-Users-ny--projects-anta-baka-x-blog/*.jsonl | head -5
+
+# 会話 ID を指定して detached tmux で起動し、公開し直す
+SID="<ファイル名から .jsonl を除いた UUID>"
+tmux new -d -s dhblog2 "cd /Users/ny/projects/anta-baka-x/blog && claude --resume $SID"
+sleep 20 && tmux send-keys -t dhblog2 "/remote-control" Enter
+sleep 10 && tmux capture-pane -pt dhblog2 | tail -30
+```
+
+**`claude` を素で起動させないこと。** 別セッションになり、それまでの文脈が引き継がれない。
+**必ず `--resume <会話ID>` を使う。** 会話の実体は `.jsonl` ファイルそのものなので、
+指定して開き直す限り中身は失われない。
+
+`creds: NG` のときだけ、ブラウザ操作が要る。**OAuth をクラウド側から代行する手段は無い。**
+その場合は利用者が Mac に触るしかない、と正直に伝える。
+
+### 復旧手順（Mac 側で実行してもらう）
+
+```bash
+# 1) 動いている claude を終了する（Ctrl+C を2回、または /exit）
+
+# 2) リポジトリで、会話 ID を指定して起動し直す
+cd /Users/ny/projects/anta-baka-x/blog
 claude --resume 7d5942fa-f5b8-4d5d-b1f9-ef8574d48450   # daily-hack-blog2 の実体
-# 3. スマホや Web から操作したいなら、セッション内で
+
+# 3) 認証を求められたら、その中で
+/login
+
+# 4) 認証が通ったら、クラウドから届くように公開し直す
 /remote-control
 ```
 
-`--resume` の一覧から選んでもよい。session id は
-`node scripts/export-session-log.mjs --list` でも確認できる。
+**素の `claude` で起動しない。** 別セッションになり、それまでの文脈が引き継がれない。
+会話 ID が分からないときは `--resume` の一覧から選ぶか、
+`node scripts/export-session-log.mjs --list` で確認する。
 
-開き直しても認証が通らないときは、そのセッション内で `/login` を実行する。
-**画面が「復活した」ように見えても、実際に 1 回動かして確かめる**こと。
+**`/login` だけでは足りない。** `/remote-control` を実行しないとクラウドから届かない。
+
+**すでに別ウィンドウで `/login` 済みなら、開き直すだけで通ることが多い。**
+資格情報は Keychain にあってマシン共通で、古いプロセスが読み直せないだけだからである。
 
 ## クラウドセッションからは Mac を操作できない
 
