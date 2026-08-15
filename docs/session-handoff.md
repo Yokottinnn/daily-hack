@@ -51,6 +51,12 @@
 
 <!-- 新しい記録がこの下に追加される（新しいものが上） -->
 
+### 2026-08-16 — daily-hack-blog2(bridge/Mac)の会話ログをGit経由で持ち出す仕組みを作成: scripts/export-session-log.mjs と docs/session-log-export.md
+
+次のアクション:
+
+- [ ] Mac側で node scripts/export-session-log.mjs --list --project daily-hack → 該当IDを --label blog2 --push、その後クラウド側で session-log/blog2 を fetch して読む
+
 ### 2026-08-13 — OpenClaw 停止の原因を実機で特定（ジョブ未ロード／握り潰された空例外）。誤った前提3件を撤回し記録を訂正。画像の場所をSlackで訂正
 
 次のアクション:
