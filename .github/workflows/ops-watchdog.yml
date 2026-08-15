@@ -27,6 +27,8 @@ jobs:
       STALE_MINUTES: '90'
       # 稼働していてほしいジョブ。poll-approvals は滞留対策で意図的に外している
       EXPECTED_JOBS: 'ai.openclaw.comment-warmup ai.openclaw.incoming-reply-watcher ai.openclaw.gateway ai.openclaw.node'
+      # OAuth の残り時間がこれを切ったら、失効「前」に鳴らす
+      AUTH_WARN_HOURS: '24'
     steps:
       - name: Fetch heartbeat branch
         id: fetch
@@ -67,6 +69,19 @@ jobs:
             printf '%s\n' "$jobs" | grep -qx "$want" || missing="$missing $want"
           done
 
+          # 認証の状態。2026-08-15 に OAuth 失効で Mac が 2時間半 無応答になったが、
+          # 「返事が来ない」以外に症状が無く、誰も気づけなかった。
+          # 失効してから騒ぐのでは遅いので、期限が近いうちにも鳴らす。
+          # jq の `//` は false を「欠損」とみなすため、ここで使うと
+          # auth.ok=false（＝まさに検知したい状態）が握り潰される。tostring を使う。
+          auth_ok=$(jq -r '.auth.ok | tostring' hb/heartbeat.json)
+          auth_exp=$(jq -r '.auth.expires_at | tostring' hb/heartbeat.json)
+          auth_detail=$(jq -r '.auth.detail // ""' hb/heartbeat.json)
+          auth_hours=""
+          if [ "$auth_exp" != "null" ] && [ -n "$auth_exp" ]; then
+            auth_hours=$(( ( $(date -u -d "$auth_exp" +%s) - $(date -u +%s) ) / 3600 ))
+          fi
+
           {
             echo "### ops-watchdog"
             echo ""
@@ -74,17 +89,28 @@ jobs:
             echo "- heartbeat: \`$gen\`（${age} 分前）"
             echo "- 稼働ジョブ: $(printf '%s\n' "$jobs" | grep -c . || true) 件"
             [ -n "$missing" ] && echo "- **欠落:**$missing"
+            echo "- 認証: \`$auth_ok\`（$auth_detail）${auth_hours:+ / 残り ${auth_hours} 時間}"
           } >> "$GITHUB_STEP_SUMMARY"
 
           problem=""
           [ "$age" -gt "$STALE_MINUTES" ] && problem="stale"
           [ -n "$missing" ] && problem="${problem:+$problem,}missing"
+          # 失効済み
+          [ "$auth_ok" = "false" ] && problem="${problem:+$problem,}auth"
+          # 失効前の警告。ここで鳴らせば、切れる前に /login できる
+          if [ -n "$auth_hours" ] && [ "$auth_hours" -lt "$AUTH_WARN_HOURS" ] \
+             && [ "$auth_ok" != "false" ]; then
+            problem="${problem:+$problem,}auth_soon"
+          fi
 
           {
             echo "age=$age"
             echo "host=$host"
             echo "gen=$gen"
             echo "missing=$missing"
+            echo "auth_ok=$auth_ok"
+            echo "auth_detail=$auth_detail"
+            echo "auth_hours=$auth_hours"
             echo "problem=$problem"
           } >> "$GITHUB_OUTPUT"
 
@@ -96,6 +122,8 @@ jobs:
           HOST: ${{ steps.evaluate.outputs.host }}
           GEN: ${{ steps.evaluate.outputs.gen }}
           MISSING: ${{ steps.evaluate.outputs.missing }}
+          AUTH_DETAIL: ${{ steps.evaluate.outputs.auth_detail }}
+          AUTH_HOURS: ${{ steps.evaluate.outputs.auth_hours }}
           PROBLEM: ${{ steps.evaluate.outputs.problem }}
         run: |
           set -uo pipefail
@@ -115,6 +143,16 @@ jobs:
             case "$PROBLEM" in
               *missing*)
                 echo "• *停止しているジョブ:*${MISSING}"
+                ;;
+            esac
+            case "$PROBLEM" in
+              *auth_soon*)
+                echo "• *Claude の認証があと ${AUTH_HOURS} 時間で失効する*"
+                echo "  切れる前に Mac の claude で \`/login\` を実行すること。"
+                ;;
+              *auth*)
+                echo "• *Claude の認証が失効している*（${AUTH_DETAIL}）"
+                echo "  Mac のセッションは何を送っても返さない状態。\`/login\` が必要。"
                 ;;
             esac
             echo ""
