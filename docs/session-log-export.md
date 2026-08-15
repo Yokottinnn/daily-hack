@@ -24,9 +24,13 @@ cd ~/projects/anta-baka-x/blog
 git fetch origin
 git show origin/<スクリプトのあるブランチ>:scripts/export-session-log.mjs > /tmp/export-session-log.mjs
 
-# 3. 対象プロジェクトの最新セッションを書き出して push する
-node /tmp/export-session-log.mjs --latest --project daily-hack --label blog2 --push
+# 3. 最新セッションを書き出して push する
+node /tmp/export-session-log.mjs --latest --label blog2 --push
 ```
+
+**`--project daily-hack` は当たらない。** `~/.claude/projects/` のディレクトリ名は cwd を
+ハイフンに潰したもので（`-Users-ny-projects-anta-baka-x-blog`）、リポジトリ名とは限らない。
+指定を省けば **いま居るリポジトリで動いたセッション**に自動で絞る。全件見るなら `--all`。
 
 スクリプトが `main` に入ったあとは、単に `node scripts/export-session-log.mjs ...` でよい。
 
@@ -34,8 +38,9 @@ node /tmp/export-session-log.mjs --latest --project daily-hack --label blog2 --p
 表示されるので、狙ったセッションかどうかはそこで確認する。違っていたら一覧から選び直す。
 
 ```bash
-node scripts/export-session-log.mjs --list --project daily-hack     # 新しい順に一覧
-node scripts/export-session-log.mjs --list --grep "ららぽーと"       # 本文で探す
+node scripts/export-session-log.mjs --list                      # このリポジトリのセッションを新しい順に
+node scripts/export-session-log.mjs --list --all                # マシン上の全セッション
+node scripts/export-session-log.mjs --list --grep "ららぽーと"    # 本文で探す
 node scripts/export-session-log.mjs <session-uuid> --label blog2 --push
 ```
 
@@ -71,6 +76,8 @@ git checkout session-log/blog2 -- docs/session-logs/blog2.md
 | オプション | 意味 |
 | --- | --- |
 | `--list` | 履歴一覧（新しい順）。`--project` / `--grep` / `--limit` で絞る |
+| `--latest` | 絞り込んだ中の最新を選ぶ（session-uuid を貼らずに済む） |
+| `--all` | 「いま居るリポジトリ」で絞る既定を解除し、マシン上の全セッションを対象にする |
 | `--label <名前>` | 出力ファイル名とブランチ名に使う |
 | `--out <パス>` | 出力先を明示する（既定は `docs/session-logs/<label>.md`） |
 | `--max-chars N` | 1 メッセージあたりの文字数上限（既定 4000） |

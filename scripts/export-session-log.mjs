@@ -45,12 +45,14 @@ function parseArgs(argv) {
     push: false,
     branch: null,
     latest: false,
+    all: false,
   };
   for (let i = 0; i < argv.length; i += 1) {
     const a = argv[i];
     const next = () => argv[(i += 1)];
     if (a === '--list') opts.list = true;
     else if (a === '--latest') opts.latest = true;
+    else if (a === '--all') opts.all = true;
     else if (a === '--label') opts.label = next();
     else if (a === '--out') opts.out = next();
     else if (a === '--grep') opts.grep = next();
@@ -74,7 +76,7 @@ function fail(message) {
 }
 
 const USAGE = `使い方:
-  node scripts/export-session-log.mjs --list [--project <部分一致>] [--grep <本文の部分一致>] [--limit N]
+  node scripts/export-session-log.mjs --list [--all] [--project <部分一致>] [--grep <本文の部分一致>] [--limit N]
   node scripts/export-session-log.mjs <session-uuid|jsonlのパス> [--label <名前>] [--out <パス>]
       [--max-chars N] [--include-thinking] [--no-tools] [--push] [--branch <ブランチ名>]`;
 
@@ -95,6 +97,35 @@ function listJsonlFiles() {
     }
   }
   return files.sort((a, b) => b.mtime - a.mtime);
+}
+
+/**
+ * セッションの作業ディレクトリだけを安く取る。
+ * ~/.claude/projects のディレクトリ名は cwd をハイフンに潰したもので、
+ * リポジトリ名と一致するとは限らない（例: `-Users-ny-projects-anta-baka-x-blog`）。
+ * 名前ではなく cwd で判定するために使う。
+ */
+function headCwd(file) {
+  let head;
+  try {
+    const fd = fs.openSync(file, 'r');
+    const buf = Buffer.alloc(64 * 1024);
+    const read = fs.readSync(fd, buf, 0, buf.length, 0);
+    fs.closeSync(fd);
+    head = buf.subarray(0, read).toString('utf8');
+  } catch {
+    return '';
+  }
+  for (const line of head.split('\n')) {
+    if (!line.includes('"cwd"')) continue;
+    try {
+      const cwd = JSON.parse(line).cwd;
+      if (cwd) return cwd;
+    } catch {
+      /* 末尾の切れた行 */
+    }
+  }
+  return '';
 }
 
 function readRecords(file) {
@@ -248,7 +279,24 @@ function resolveTarget(target) {
 
 function filterFiles(opts) {
   let files = listJsonlFiles();
-  if (opts.project) files = files.filter((f) => f.project.includes(opts.project));
+
+  if (opts.project) {
+    // ディレクトリ名でも cwd でも当たるようにする
+    files = files.filter((f) => f.project.includes(opts.project) || headCwd(f.file).includes(opts.project));
+  } else if (!opts.all) {
+    // 既定は「いま居るリポジトリで動いたセッション」。当たらなければ絞り込まない。
+    const here = files.filter((f) => {
+      const cwd = headCwd(f.file);
+      return cwd === REPO_ROOT || cwd.startsWith(`${REPO_ROOT}/`);
+    });
+    if (here.length) {
+      console.log(`このリポジトリ（${REPO_ROOT}）のセッションに絞った。全部見るなら --all。\n`);
+      files = here;
+    } else {
+      console.log(`このリポジトリ（${REPO_ROOT}）で動いたセッションは見つからなかった。全件から探す。\n`);
+    }
+  }
+
   if (opts.grep) {
     files = files.filter((f) => {
       try {
@@ -261,10 +309,26 @@ function filterFiles(opts) {
   return files;
 }
 
+function hintAvailable() {
+  const files = listJsonlFiles();
+  if (!files.length) return `${PROJECTS_DIR} に会話ログが 1 件も無い。`;
+  const byProject = new Map();
+  for (const f of files) {
+    const entry = byProject.get(f.project) ?? { count: 0, mtime: 0 };
+    byProject.set(f.project, { count: entry.count + 1, mtime: Math.max(entry.mtime, f.mtime) });
+  }
+  const lines = [...byProject.entries()]
+    .sort((a, b) => b[1].mtime - a[1].mtime)
+    .slice(0, 10)
+    .map(([project, v]) => `  ${project}  (${v.count} 件)`);
+  return ['見つかったプロジェクト（新しい順）:', ...lines, '', '--project は上の名前の一部か、セッションの作業ディレクトリの一部を渡す。'].join('\n');
+}
+
 function runList(opts) {
   const files = filterFiles(opts);
   if (!files.length) {
     console.log('該当する会話ログが無い。');
+    console.log(hintAvailable());
     return;
   }
   for (const f of files.slice(0, opts.limit)) {
@@ -315,7 +379,7 @@ function main() {
   if (opts.latest) {
     // UUID を手で貼らずに済ませる道。--project / --grep で絞った中の最新を選ぶ。
     const candidates = filterFiles(opts);
-    if (!candidates.length) fail('条件に合う会話ログが無い。--list で確認する。');
+    if (!candidates.length) fail(`条件に合う会話ログが無い。\n${hintAvailable()}`);
     file = candidates[0].file;
     if (candidates.length > 1) {
       console.log(`候補が ${candidates.length} 件あり、最新のものを選んだ。違うなら --list で確認して session-id を指定する。\n`);
