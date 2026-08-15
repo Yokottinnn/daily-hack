@@ -47,6 +47,28 @@ The environment this session was running on has been deleted; its state cannot b
 `--resume` は**このマシンのローカル履歴**から会話を開き直すコマンドで、クラウドセッションの
 一覧は表示しない。クラウドセッションを引く `--teleport` とは別物なので混同しないこと。
 
+## 認証が切れて応答しなくなった bridge セッションを戻す
+
+`Failed to authenticate: OAuth session expired` や `Not logged in · Please run /login` が
+返り続ける状態は、**セッションが壊れたのではなく、動いているプロセスが古いトークンを
+握ったまま**の状態。会話は残っているので、**新しいプロセスで開き直せば復活する**。
+すでに別のターミナルで `/login` を済ませていれば、資格情報はマシン共通なのでそのまま通る。
+
+```bash
+# 1. 応答しない CLI を終了する（そのウィンドウで Ctrl+C → exit）
+# 2. 同じ会話を開き直す
+cd ~/projects/anta-baka-x/blog
+claude --resume 7d5942fa-f5b8-4d5d-b1f9-ef8574d48450   # daily-hack-blog2 の実体
+# 3. スマホや Web から操作したいなら、セッション内で
+/remote-control
+```
+
+`--resume` の一覧から選んでもよい。session id は
+`node scripts/export-session-log.mjs --list` でも確認できる。
+
+開き直しても認証が通らないときは、そのセッション内で `/login` を実行する。
+**画面が「復活した」ように見えても、実際に 1 回動かして確かめる**こと。
+
 ## クラウドセッションからは Mac を操作できない
 
 **OpenClaw に関わる作業はクラウドセッションでは進まない。** SSH で届くという前提を
