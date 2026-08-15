@@ -9,21 +9,39 @@
 ## 現在の状態
 
 - 本番ブログ（Astro）は `main` から Cloudflare Pages にデプロイされる。
-- 直近のリリースは `#159`（アウトレット記事の表紙とタイルのリンク切れ修正）まで完了。
+- 直近のリリースは `#168` まで完了。
+- **ららぽーとガイド 2026 の X 投稿は 8/14 に完了済み**（画像4枚＋リプライ）。
+  → <https://x.com/heng_ji31590/status/2088287574586790390>
+  以前ここに書かれていた「Slack アップロード待ち」はもう残件ではない。
 
 ## 進行中の作業
 
-**ららぽーとガイド 2026 の X 投稿**が止まっている。経路は
-「ランキング画像を Slack に添付 → Jordan の 👍 → OpenClaw が X 投稿」。
+**X フォロワー増加施策（依頼4：15分以内クイックリプライ）が中断している。**
+Mac の `daily-hack-blog2` セッションが 2026-08-15 10:31Z に
+`OAuth session expired` で応答不能になり、そのまま止まった。
 
-- 画像は `main` にある: `assets/social/lalaport-guide-2026/ranking-top10.png`（2400×2400）。
-- 8/11 に Slack で OpenClaw にアップロードを依頼済み。旧依頼はコミット指定が無効だったため訂正済み。
+中断直前までに済んでいること。
+
+- `~/.openclaw/workspace/scripts/quick-reply-watcher.js` を実装（安全制約をコードに固定・DRY_RUN 対応）。
+- ターゲット 8 件を確定（節約／ポイ活／家計・フォロワー 2,000〜5,000 を実測で絞り込み）。
+  既存の `influencers.json` 7 件は条件に 1 件も合わず、新規探索して選び直した。
+- DRY_RUN を実行 → 途中で認証失効。**バックグラウンドは 16:13Z に exit 0 で完了しているが、
+  結果を誰も見ていない。**
+
+同じ日に完了したこと（依頼1〜3・軽量化）。
+
+- `com.dailyhack.ops-heartbeat` を launchd 登録、push まで実証。
+- 承認キューに TTL を導入（`poll-approvals.js` と `queue-manager` の両方）。
+- Chrome 自動更新の封じ込め（Chrome for Testing 140 への経路固定）。
+- `comment-warmup` の実効値が `MAX_PICKS_PER_FIRE=8`（想定 2）で、16:00 発火時に
+  **8 件が実投稿**された。一時停止 → 承認を得て 2picks に戻して再開（4 fires × 2＝8 件/日）。
+- `asuka-fill.js` のプロンプト軽量化（入力 -40%、$0.00624 → $0.00417/リプ、品質維持を実証）。
 
 ## 次のアクション
 
-- [ ] OpenClaw が `main` から画像を Slack にアップロードしたか確認する。
-- [ ] アップロードされたら Jordan の 👍 を得る。👍 の前に X へ投稿しない。
-- [ ] `poll-approvals` が実際にロードされたかを `launchctl list` で確認する。
+- [ ] Mac で DRY_RUN の結果を確認する（`~/.openclaw/workspace/logs/quick-reply-watcher.log`）。
+- [ ] 結果を見て依頼4を有効化するか判断する。有効化は費用と凍結リスクの提示＋承認が要る。
+- [ ] `docs/x-growth-play.md` の「10 件/日」前提を実機（4 fires × 2 picks＝8 件/日）に合わせる。
 
 ## 決定事項・注意点
 
@@ -43,6 +61,13 @@
   無いのに「有る」とも報告しうる。詳細は
   [`docs/openclaw-recovery.md`](./openclaw-recovery.md) を参照。
 
+- **bridge セッションの会話ログは Mac に残る。** スマホや Web から操作していても、
+  実体は Mac の CLI セッションなので `~/.claude/projects/<cwd をハイフンに潰した名前>/` に
+  JSONL が書かれる。認証が切れて会話できなくなっても取り出せる。手順は
+  [`docs/session-log-export.md`](./session-log-export.md)。
+  `daily-hack-blog2` の実体は `7d5942fa`（1143 メッセージ、8/11〜8/15）で、
+  書き出したものが `session-log/blog2` ブランチの `docs/session-logs/blog2.md` にある。
+
 - **ログが動いても「ジョブが復活した」証拠にならない。** listener が生きているため、
   未ロードのまま同じログに書き込まれることがある。判定は `launchctl list` で行う。
 
@@ -50,6 +75,12 @@
 ## セッション記録
 
 <!-- 新しい記録がこの下に追加される（新しいものが上） -->
+
+### 2026-08-16 — daily-hack-blog2 の会話ログ(1143メッセージ)を Git 経由で回収し、クラウド側から読めるようにした。session-log/blog2 の docs/session-logs/blog2.md
+
+次のアクション:
+
+- [ ] blog2 が 8/15 10:31Z に OAuth 失効で中断した地点から再開: quick-reply-watcher.js の DRY_RUN 結果確認 → 依頼4の可否判断、docs/x-growth-play.md の 10件/日 前提を実機(4fires×2picks=8件/日)に合わせる
 
 ### 2026-08-16 — daily-hack-blog2(bridge/Mac)の会話ログをGit経由で持ち出す仕組みを作成: scripts/export-session-log.mjs と docs/session-log-export.md
 
