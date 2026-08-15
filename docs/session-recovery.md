@@ -47,6 +47,51 @@ The environment this session was running on has been deleted; its state cannot b
 `--resume` は**このマシンのローカル履歴**から会話を開き直すコマンドで、クラウドセッションの
 一覧は表示しない。クラウドセッションを引く `--teleport` とは別物なので混同しないこと。
 
+## OAuth 失効 — 無応答に見える最有力の原因
+
+Mac 側のセッションが**何を送っても返さない**とき、まず疑うのは相手の怠慢でも
+コネクタ設定でもなく、**OAuth の失効**である。
+
+```text
+Failed to authenticate: OAuth session expired and could not be refreshed
+```
+
+2026-08-15 にこれが起きた。**クラウド側からは何も見えない。**
+`get_session` は `SESSION_STATUS_IDLE` / `connection_status: connected` を返し続け、
+トリガーの `fire_trigger` も正常に成功する。**それでもターンは実行されない。**
+
+このとき私は「トリガーにコネクタが乗っていないため報告が外へ出ない」と診断したが、
+**それは副次的な要因で、主因は認証切れだった。**
+
+### 見分け方
+
+| 症状 | 意味 |
+| --- | --- |
+| `fire_trigger` は成功するが Slack に何も出ない | 認証切れの可能性が高い |
+| `get_session` が IDLE / connected を返す | **正常の証拠にならない。** 失効中でもこう見える |
+| 同じ依頼を送り直しても変わらない | 経路の問題ではなく実行できていない |
+
+**クラウド側から確認する手段は無い。** 利用者に Mac のターミナルを見てもらうしかない。
+無応答が続いたら、**送り直す前に利用者へ「ターミナルに何か出ていますか」と聞く。**
+
+### 復旧手順（Mac 側で実行してもらう）
+
+```bash
+# 1) 動いている claude を終了する（Ctrl+C を2回、または /exit）
+
+# 2) リポジトリで起動し直す
+cd /Users/ny/projects/anta-baka-x/blog
+claude
+
+# 3) 起動したら、その中で
+/login
+
+# 4) 認証が通ったら、クラウドから届くように公開し直す
+/remote-control
+```
+
+**`/login` だけでは足りない。** `/remote-control` を実行しないとクラウドから届かない。
+
 ## クラウドセッションからは Mac を操作できない
 
 **OpenClaw に関わる作業はクラウドセッションでは進まない。** SSH で届くという前提を
