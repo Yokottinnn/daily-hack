@@ -46,6 +46,7 @@ function parseArgs(argv) {
     branch: null,
     latest: false,
     all: false,
+    each: false,
   };
   for (let i = 0; i < argv.length; i += 1) {
     const a = argv[i];
@@ -53,6 +54,7 @@ function parseArgs(argv) {
     if (a === '--list') opts.list = true;
     else if (a === '--latest') opts.latest = true;
     else if (a === '--all') opts.all = true;
+    else if (a === '--each') opts.each = true;
     else if (a === '--label') opts.label = next();
     else if (a === '--out') opts.out = next();
     else if (a === '--grep') opts.grep = next();
@@ -77,6 +79,7 @@ function fail(message) {
 
 const USAGE = `使い方:
   node scripts/export-session-log.mjs --list [--all] [--project <部分一致>] [--grep <本文の部分一致>] [--limit N]
+  node scripts/export-session-log.mjs --each [--label <名前>] [--limit N] [--push]   # 候補をまとめて
   node scripts/export-session-log.mjs <session-uuid|jsonlのパス> [--label <名前>] [--out <パス>]
       [--max-chars N] [--include-thinking] [--no-tools] [--push] [--branch <ブランチ名>]`;
 
@@ -341,13 +344,13 @@ function runList(opts) {
   console.log(`書き出すとき: node scripts/export-session-log.mjs <session-id> --label <名前> --push`);
 }
 
-function gitPush(outPath, opts, label) {
+function gitPush(outPaths, opts, label) {
   const git = (...args) => execFileSync('git', args, { cwd: REPO_ROOT, encoding: 'utf8' }).trim();
   const branch = opts.branch ?? `session-log/${label}`;
   const current = git('rev-parse', '--abbrev-ref', 'HEAD');
   // ブランチを作るだけなので、他のファイルの未コミット変更はそのまま持ち越される。
   if (current !== branch) git('checkout', '-B', branch);
-  git('add', '--', path.relative(REPO_ROOT, outPath));
+  git('add', '--', ...outPaths.map((p) => path.relative(REPO_ROOT, p)));
   const staged = git('diff', '--cached', '--name-only');
   if (!staged) {
     console.log('変更が無いので commit は省略した。');
@@ -363,15 +366,68 @@ function gitPush(outPath, opts, label) {
   }
 }
 
+/**
+ * 候補をまとめて書き出す。どれが目的のセッションか手元で判別できないときに、
+ * 往復を 1 回で済ませるための道。索引も一緒に作る。
+ */
+function runEach(opts) {
+  const candidates = filterFiles(opts).slice(0, opts.limit);
+  if (!candidates.length) fail(`条件に合う会話ログが無い。\n${hintAvailable()}`);
+
+  const label = opts.label ?? 'sessions';
+  const dir = path.join(REPO_ROOT, 'docs', 'session-logs', label);
+  fs.mkdirSync(dir, { recursive: true });
+
+  const written = [];
+  const rows = [];
+  for (const candidate of candidates) {
+    const info = summarize(candidate.file);
+    const day = (info.last || info.first || '').slice(0, 10).replace(/-/g, '');
+    const name = `${day}-${info.sessionId.slice(0, 8)}.md`;
+    const outPath = path.join(dir, name);
+    // 見出しは 1 件ずつ区別できるようにする（全部 "blog2" になってしまわないように）
+    const perFile = { ...opts, label: `${label} / ${info.sessionId.slice(0, 8)}` };
+    fs.writeFileSync(outPath, renderMarkdown(candidate.file, readRecords(candidate.file), perFile));
+    written.push(outPath);
+    rows.push(`| [${name}](./${name}) | ${stamp(info.last)} | ${info.turns} | ${(info.firstPrompt || '(なし)').replace(/\|/g, '\\|')} |`);
+    console.log(`${name}  ${stamp(info.last)}  ${info.turns} msg  ${info.firstPrompt || '(なし)'}`);
+  }
+
+  const indexPath = path.join(dir, 'README.md');
+  fs.writeFileSync(
+    indexPath,
+    [
+      `# 会話ログ一覧: ${label}`,
+      '',
+      `\`scripts/export-session-log.mjs --each\` による自動生成。${written.length} 件（新しい順）。`,
+      '',
+      '| ファイル | 最終更新 | メッセージ数 | 最初の発話 |',
+      '| --- | --- | --- | --- |',
+      ...rows,
+      '',
+    ].join('\n'),
+  );
+  written.push(indexPath);
+
+  console.log(`\n${written.length - 1} 件を書き出した: ${dir}`);
+  if (opts.push) gitPush(written, opts, label);
+  else console.log('git に載せるなら --push を付けて再実行する。');
+}
+
 function main() {
   const opts = parseArgs(process.argv.slice(2));
   if (opts.help) {
     console.log(USAGE);
     return;
   }
-  if (opts.list || (!opts.target && !opts.latest)) {
+  if (opts.list || (!opts.target && !opts.latest && !opts.each)) {
     if (!opts.target && !opts.list) console.log(`${USAGE}\n\n--- 履歴一覧 ---\n`);
     runList(opts);
+    return;
+  }
+
+  if (opts.each) {
+    runEach(opts);
     return;
   }
 
@@ -399,7 +455,7 @@ function main() {
   console.log(`  session id: ${info.sessionId}`);
   console.log(`  期間: ${stamp(info.first)} 〜 ${stamp(info.last)}`);
   console.log(`  最初の発話: ${info.firstPrompt || '(なし)'}`);
-  if (opts.push) gitPush(outPath, opts, label);
+  if (opts.push) gitPush([outPath], opts, label);
   else console.log('git に載せるなら --push を付けて再実行する。');
 }
 

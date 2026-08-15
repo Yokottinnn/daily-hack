@@ -34,8 +34,17 @@ node /tmp/export-session-log.mjs --latest --label blog2 --push
 
 スクリプトが `main` に入ったあとは、単に `node scripts/export-session-log.mjs ...` でよい。
 
-`--latest` は条件に合う中で**一番新しい**ログを選ぶ。実行後に session id・期間・最初の発話が
-表示されるので、狙ったセッションかどうかはそこで確認する。違っていたら一覧から選び直す。
+`--latest` は条件に合う中で**一番新しい**ログを選ぶ。ただし `/login` を打っただけの数行の
+セッションが最新になることもあるため、実行後に表示される session id・期間・最初の発話で
+狙ったセッションか確認する。
+
+**どれが目的のセッションか手元で判別できないときは `--each` を使う。** 候補をまとめて
+書き出し、索引（`README.md`）付きで 1 回の push にまとめる。往復を増やさずに済む。
+
+```bash
+node scripts/export-session-log.mjs --each --label blog2 --limit 15 --push
+# → docs/session-logs/blog2/README.md ＋ 各セッションの Markdown
+```
 
 ```bash
 node scripts/export-session-log.mjs --list                      # このリポジトリのセッションを新しい順に
@@ -77,6 +86,7 @@ git checkout session-log/blog2 -- docs/session-logs/blog2.md
 | --- | --- |
 | `--list` | 履歴一覧（新しい順）。`--project` / `--grep` / `--limit` で絞る |
 | `--latest` | 絞り込んだ中の最新を選ぶ（session-uuid を貼らずに済む） |
+| `--each` | 候補を全部書き出し、索引付きで `docs/session-logs/<label>/` にまとめる |
 | `--all` | 「いま居るリポジトリ」で絞る既定を解除し、マシン上の全セッションを対象にする |
 | `--label <名前>` | 出力ファイル名とブランチ名に使う |
 | `--out <パス>` | 出力先を明示する（既定は `docs/session-logs/<label>.md`） |
