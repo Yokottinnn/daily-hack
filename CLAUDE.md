@@ -128,6 +128,19 @@ OpenClaw は利用者の Mac（`home-mac` / 192.168.2.102）で動く常駐エ�
 OpenClaw が応答しない・虚偽の完了報告をする場合の復旧手順は
 [`docs/openclaw-recovery.md`](docs/openclaw-recovery.md) を参照。
 
+### 緊急依頼は 1 件だけ送る
+
+**削除・停止・取り消しのような 1 操作の緊急依頼を、他の依頼と一緒に送らない。**
+2026-08-15 に、ボタン 1 つで済む投稿削除が 5 件の依頼の後ろに埋もれ、
+2 時間半 実行されず、最終的に利用者が手で消した。
+
+- 緊急依頼を送ったら、**返答が来るまで他の依頼を送らない**
+- **15 分で応答が無ければ、再送ではなく利用者に伝える。** 黙って待たない
+- **1 操作で済むことは、投げる前に「自分でやるか依頼するか」を選べるようにする。**
+  利用者の手が最速であることは珍しくない
+
+詳細は [`docs/urgent-request-protocol.md`](docs/urgent-request-protocol.md) を参照。
+
 **クラウドセッションから Mac へは SSH で届かない**（ssh 未インストール・鍵なし・生 TCP が
 出られない。2026-08-11 に実測）。OpenClaw を触るときは Mac で `claude` を起動して
 `/remote-control` で公開する。手順は [`docs/session-recovery.md`](docs/session-recovery.md) を参照。
