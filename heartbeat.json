@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-15T06:05:06Z",
+  "generated_at": "2026-08-15T06:05:38Z",
   "host": "NaokinoMBP-2",
-  "job_count": 11,
+  "job_count": 12,
   "jobs": [
     "ai.openclaw.comment-warmup",
     "ai.openclaw.gateway",
@@ -12,6 +12,7 @@
     "ai.openclaw.tab-guard",
     "com.dailyhack.openclaw.heartbeat",
     "com.dailyhack.openclaw.listener",
+    "com.dailyhack.ops-heartbeat",
     "com.dailyhack.rc-keeper",
     "com.dailyhack.weekly-blog-report"
   ]
