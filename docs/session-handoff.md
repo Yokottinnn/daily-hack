@@ -9,39 +9,38 @@
 ## 現在の状態
 
 - 本番ブログ（Astro）は `main` から Cloudflare Pages にデプロイされる。
-- 直近のリリースは `#168` まで完了。
-- **ららぽーとガイド 2026 の X 投稿は 8/14 に完了済み**（画像4枚＋リプライ）。
-  → <https://x.com/heng_ji31590/status/2088287574586790390>
-  以前ここに書かれていた「Slack アップロード待ち」はもう残件ではない。
+- 直近のリリースは `#168`（コスト先出しルールの最上位ルール化、認証失効/緊急依頼の埋没検知）まで完了。
+- ららぽーとガイド 2026 の X 告知は投稿済み（8/11、画像4枚＋リプライ2連投）。
 
 ## 進行中の作業
 
-**X フォロワー増加施策（依頼4：15分以内クイックリプライ）が中断している。**
-Mac の `daily-hack-blog2` セッションが 2026-08-15 10:31Z に
-`OAuth session expired` で応答不能になり、そのまま止まった。
+**15分クイックリプライ施策（依頼4）が DRY_RUN 中に OAuth 失効で中断。** 実投稿・有効化はまだしていない。
 
-中断直前までに済んでいること。
+- `~/.openclaw/workspace/scripts/quick-reply-watcher.js` はコード完成・plist 未作成＝**未ロード（安全）**。
+- 対象アカウント8件（`data/quick-reply-targets.json`）はフォロワー2,290〜4,512・節約/ポイ活/家計ジャンルで選定済み。
+- 8/15 の DRY_RUN 実行では、検知（Playwright DOM 取得・LLM不使用）と15分判定は正常動作を確認したが、
+  対象8件すべて投稿が15分を大幅超過（数万〜数百万分＝固定ツイート等）で「見送り」となり、
+  **生成（`asuka-fill.js` 呼び出し）パスは一度も通っていない＝未検証**。
 
-- `~/.openclaw/workspace/scripts/quick-reply-watcher.js` を実装（安全制約をコードに固定・DRY_RUN 対応）。
-- ターゲット 8 件を確定（節約／ポイ活／家計・フォロワー 2,000〜5,000 を実測で絞り込み）。
-  既存の `influencers.json` 7 件は条件に 1 件も合わず、新規探索して選び直した。
-- DRY_RUN を実行 → 途中で認証失効。**バックグラウンドは 16:13Z に exit 0 で完了しているが、
-  結果を誰も見ていない。**
+### 8/15 に起きた事故と対応（重要）
 
-同じ日に完了したこと（依頼1〜3・軽量化）。
-
-- `com.dailyhack.ops-heartbeat` を launchd 登録、push まで実証。
-- 承認キューに TTL を導入（`poll-approvals.js` と `queue-manager` の両方）。
-- Chrome 自動更新の封じ込め（Chrome for Testing 140 への経路固定）。
-- `comment-warmup` の実効値が `MAX_PICKS_PER_FIRE=8`（想定 2）で、16:00 発火時に
-  **8 件が実投稿**された。一時停止 → 承認を得て 2picks に戻して再開（4 fires × 2＝8 件/日）。
-- `asuka-fill.js` のプロンプト軽量化（入力 -40%、$0.00624 → $0.00417/リプ、品質維持を実証）。
+1. `poll-approvals` が5日間停止（Chrome自動更新起因）→ 再開直後に承認から8日経過した滞留エントリを
+   処理してタイムラインへ意図しない投稿（`2088486949527196002`）。
+2. Jordan が手動で削除。**現在 404 で削除済みを確認済み**（8/16 再確認）。
+3. 再発防止として `poll-approvals.js` と `queue-manager.js list-awaiting`（共通口）の両方に
+   **承認TTL 7日**を実装。実戦投入時に27件の滞留を「投稿せず失効」させ、誤爆ゼロを確認。
+4. `comment-warmup` が実機で `MAX_PICKS_PER_FIRE=8`（想定2の4倍、32件/日）で動いていたことも発覚。
+   Jordan 判断で **2 picks（8件/日）に戻し済み**（現在の plist で確認済み）。
+5. 外部監視 `com.dailyhack.ops-heartbeat`（30分毎に `ops/heartbeat` ブランチへ push）を launchd 登録し、
+   GitHub Actions 側（`ops-watchdog.yml`）で死活監視できる状態にした。
 
 ## 次のアクション
 
-- [ ] Mac で DRY_RUN の結果を確認する（`~/.openclaw/workspace/logs/quick-reply-watcher.log`）。
-- [ ] 結果を見て依頼4を有効化するか判断する。有効化は費用と凍結リスクの提示＋承認が要る。
-- [ ] `docs/x-growth-play.md` の「10 件/日」前提を実機（4 fires × 2 picks＝8 件/日）に合わせる。
+- [ ] 15分クイックリプライ: DRY_RUN で生成パスを検証するか判断（対象アカウントが実際に15分以内投稿
+      するタイミング待ちか、能動的に再実行するか）。**費用は1件あたり実測 $0.00417（Haiku 4.5）、
+      日次cap5なので最大 $0.0209/回**。
+- [ ] 生成パスが検証できたら、`poll-approvals`（TTL実装済み・現在停止のまま）を戻すかを判断。
+- [ ] `poll-approvals` を戻す際は TTL 実装のテスト（25時間前の偽エントリで投稿されないこと）を先に行う。
 
 ## 決定事項・注意点
 
@@ -61,13 +60,6 @@ Mac の `daily-hack-blog2` セッションが 2026-08-15 10:31Z に
   無いのに「有る」とも報告しうる。詳細は
   [`docs/openclaw-recovery.md`](./openclaw-recovery.md) を参照。
 
-- **bridge セッションの会話ログは Mac に残る。** スマホや Web から操作していても、
-  実体は Mac の CLI セッションなので `~/.claude/projects/<cwd をハイフンに潰した名前>/` に
-  JSONL が書かれる。認証が切れて会話できなくなっても取り出せる。手順は
-  [`docs/session-log-export.md`](./session-log-export.md)。
-  `daily-hack-blog2` の実体は `7d5942fa`（1143 メッセージ、8/11〜8/15）で、
-  書き出したものが `session-log/blog2` ブランチの `docs/session-logs/blog2.md` にある。
-
 - **ログが動いても「ジョブが復活した」証拠にならない。** listener が生きているため、
   未ロードのまま同じログに書き込まれることがある。判定は `launchctl list` で行う。
 
@@ -75,18 +67,6 @@ Mac の `daily-hack-blog2` セッションが 2026-08-15 10:31Z に
 ## セッション記録
 
 <!-- 新しい記録がこの下に追加される（新しいものが上） -->
-
-### 2026-08-16 — daily-hack-blog2 の会話ログ(1143メッセージ)を Git 経由で回収し、クラウド側から読めるようにした。session-log/blog2 の docs/session-logs/blog2.md
-
-次のアクション:
-
-- [ ] blog2 が 8/15 10:31Z に OAuth 失効で中断した地点から再開: quick-reply-watcher.js の DRY_RUN 結果確認 → 依頼4の可否判断、docs/x-growth-play.md の 10件/日 前提を実機(4fires×2picks=8件/日)に合わせる
-
-### 2026-08-16 — daily-hack-blog2(bridge/Mac)の会話ログをGit経由で持ち出す仕組みを作成: scripts/export-session-log.mjs と docs/session-log-export.md
-
-次のアクション:
-
-- [ ] Mac側で node scripts/export-session-log.mjs --list --project daily-hack → 該当IDを --label blog2 --push、その後クラウド側で session-log/blog2 を fetch して読む
 
 ### 2026-08-16 — 反復作業のコスト提示を最上位ルール化（2-B）し毎ターン注入。実測コストを docs/recurring-job-costs.md に記録。緊急依頼が埋もれた件のプロトコルを docs 化。Mac に 2picks 再開と15分リプ着手を承認
 
