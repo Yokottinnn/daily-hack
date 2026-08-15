@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T17:06:55Z",
+  "generated_at": "2026-08-15T17:36:58Z",
   "host": "NaokinoMBP-2",
   "job_count": 12,
   "jobs": [
@@ -15,5 +15,10 @@
     "com.dailyhack.ops-heartbeat",
     "com.dailyhack.rc-keeper",
     "com.dailyhack.weekly-blog-report"
-  ]
+  ],
+  "auth": {
+    "ok": null,
+    "expires_at": null,
+    "detail": "判定不能"
+  }
 }
