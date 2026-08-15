@@ -35,11 +35,13 @@ function parseArgs(argv) {
     tools: true,
     push: false,
     branch: null,
+    latest: false,
   };
   for (let i = 0; i < argv.length; i += 1) {
     const a = argv[i];
     const next = () => argv[(i += 1)];
     if (a === '--list') opts.list = true;
+    else if (a === '--latest') opts.latest = true;
     else if (a === '--label') opts.label = next();
     else if (a === '--out') opts.out = next();
     else if (a === '--grep') opts.grep = next();
@@ -235,7 +237,7 @@ function resolveTarget(target) {
   return '';
 }
 
-function runList(opts) {
+function filterFiles(opts) {
   let files = listJsonlFiles();
   if (opts.project) files = files.filter((f) => f.project.includes(opts.project));
   if (opts.grep) {
@@ -247,6 +249,11 @@ function runList(opts) {
       }
     });
   }
+  return files;
+}
+
+function runList(opts) {
+  const files = filterFiles(opts);
   if (!files.length) {
     console.log('該当する会話ログが無い。');
     return;
@@ -283,13 +290,24 @@ function main() {
     console.log(USAGE);
     return;
   }
-  if (opts.list || !opts.target) {
+  if (opts.list || (!opts.target && !opts.latest)) {
     if (!opts.target && !opts.list) console.log(`${USAGE}\n\n--- 履歴一覧 ---\n`);
     runList(opts);
     return;
   }
 
-  const file = resolveTarget(opts.target);
+  let file;
+  if (opts.latest) {
+    // UUID を手で貼らずに済ませる道。--project / --grep で絞った中の最新を選ぶ。
+    const candidates = filterFiles(opts);
+    if (!candidates.length) fail('条件に合う会話ログが無い。--list で確認する。');
+    file = candidates[0].file;
+    if (candidates.length > 1) {
+      console.log(`候補が ${candidates.length} 件あり、最新のものを選んだ。違うなら --list で確認して session-id を指定する。\n`);
+    }
+  } else {
+    file = resolveTarget(opts.target);
+  }
   const records = readRecords(file);
   const info = summarize(file);
   const label = opts.label ?? info.sessionId.slice(0, 8);
@@ -299,6 +317,9 @@ function main() {
 
   const kb = Math.round(fs.statSync(outPath).size / 1024);
   console.log(`書き出した: ${outPath} (${kb}KB, ${info.turns} メッセージ)`);
+  console.log(`  session id: ${info.sessionId}`);
+  console.log(`  期間: ${stamp(info.first)} 〜 ${stamp(info.last)}`);
+  console.log(`  最初の発話: ${info.firstPrompt || '(なし)'}`);
   if (opts.push) gitPush(outPath, opts, label);
   else console.log('git に載せるなら --push を付けて再実行する。');
 }

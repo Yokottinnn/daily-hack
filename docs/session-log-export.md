@@ -11,23 +11,30 @@ SSH も届かない（[`session-recovery.md`](./session-recovery.md)）ため、
 
 ## Mac 側でやること
 
+**このスクリプトが入ったブランチに切り替えてから実行する。** `git pull` はブランチを取得するだけで
+作業ツリーは切り替わらないため、`main` のままだと `Cannot find module` になる。
+
 ```bash
-# 1. リポジトリへ移動（クローン先は決め打ちにしない）
-ls ~/.claude/projects/ | grep -i daily-hack     # ハイフン区切りで実パスが入っている
-cd ~/projects/anta-baka-x/blog && git pull
+# 1. リポジトリへ移動して、スクリプトのあるブランチに切り替える
+#    （クローン先は決め打ちにしない。~/.claude/projects/ の名前に実パスが残っている）
+cd ~/projects/anta-baka-x/blog
+git fetch origin && git checkout <スクリプトのあるブランチ>
 
-# 2. どのセッションかを一覧から特定する
-node scripts/export-session-log.mjs --list --project daily-hack
+# 2. 対象プロジェクトの最新セッションを書き出して push する
+node scripts/export-session-log.mjs --latest --project daily-hack --label blog2 --push
+```
 
-# 3. 書き出してブランチに push する（session-log/<label> ブランチが作られる）
+`--latest` は条件に合う中で**一番新しい**ログを選ぶ。実行後に session id・期間・最初の発話が
+表示されるので、狙ったセッションかどうかはそこで確認する。違っていたら一覧から選び直す。
+
+```bash
+node scripts/export-session-log.mjs --list --project daily-hack     # 新しい順に一覧
+node scripts/export-session-log.mjs --list --grep "ららぽーと"       # 本文で探す
 node scripts/export-session-log.mjs <session-uuid> --label blog2 --push
 ```
 
-session-uuid が分からないときは本文で探せる。
-
-```bash
-node scripts/export-session-log.mjs --list --grep "ららぽーと"
-```
+`--push` は `session-log/<label>` ブランチを作ってそこへ push する（`git checkout -B`）。
+実行後は作業ツリーがそのブランチに移るので、戻すときは `git checkout -` を使う。
 
 ## クラウドセッション側でやること
 
