@@ -74,6 +74,36 @@ Failed to authenticate: OAuth session expired and could not be refreshed
 **クラウド側から確認する手段は無い。** 利用者に Mac のターミナルを見てもらうしかない。
 無応答が続いたら、**送り直す前に利用者へ「ターミナルに何か出ていますか」と聞く。**
 
+### スマホしか手元に無いとき — OpenClaw に代行させる
+
+**利用者が Mac のターミナルを開けない状況でも、多くの場合は復活できる。**
+資格情報は Keychain にあり、**別ウィンドウで一度ログインしていれば Mac 全体で有効**になる。
+古いプロセスがそれを読み直せないだけなので、**起動し直すだけでよい**（ブラウザ操作は不要）。
+
+OpenClaw は Mac 上の launchd で生きているため、Slack 経由で代行を頼める。
+
+```bash
+# 資格情報が有効かだけ確認する（中身は出力しない）
+security find-generic-password -s 'Claude Code-credentials' -w >/dev/null 2>&1 \
+  && echo "creds: OK" || echo "creds: NG"
+
+# 復活させる会話を特定する（最終更新がいちばん新しいもの）
+ls -lt ~/.claude/projects/-Users-ny--projects-anta-baka-x-blog/*.jsonl | head -5
+
+# 会話 ID を指定して detached tmux で起動し、公開し直す
+SID="<ファイル名から .jsonl を除いた UUID>"
+tmux new -d -s dhblog2 "cd /Users/ny/projects/anta-baka-x/blog && claude --resume $SID"
+sleep 20 && tmux send-keys -t dhblog2 "/remote-control" Enter
+sleep 10 && tmux capture-pane -pt dhblog2 | tail -30
+```
+
+**`claude` を素で起動させないこと。** 別セッションになり、それまでの文脈が引き継がれない。
+**必ず `--resume <会話ID>` を使う。** 会話の実体は `.jsonl` ファイルそのものなので、
+指定して開き直す限り中身は失われない。
+
+`creds: NG` のときだけ、ブラウザ操作が要る。**OAuth をクラウド側から代行する手段は無い。**
+その場合は利用者が Mac に触るしかない、と正直に伝える。
+
 ### 復旧手順（Mac 側で実行してもらう）
 
 ```bash
