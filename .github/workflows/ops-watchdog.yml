@@ -1,0 +1,132 @@
+name: ops-watchdog
+
+# Mac 側の X 運用が止まっていないかを GitHub 側から監視する。
+#
+# 監視を Mac に置くと Mac が死んだとき監視も死ぬ。実際 2026-08-10 に Chrome の
+# 自動更新で全ジョブが停止したが、検知役の pipeline-heartbeat も同じ Mac で
+# 止まっており 5 日間 誰も気づかなかった。
+#
+# そこで Mac 側は 30 分ごとに ops/heartbeat ブランチへ稼働状況を push するだけにし、
+# 「来なくなったこと」をここで検知する（dead-man's-switch）。
+# Mac が丸ごと落ちても、押されないこと自体が異常の証拠になる。
+
+on:
+  schedule:
+    - cron: '20 */2 * * *'   # 2時間ごと
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    env:
+      # heartbeat がこの分数より古ければ異常とみなす（押す側は30分間隔）
+      STALE_MINUTES: '90'
+      # 稼働していてほしいジョブ。poll-approvals は滞留対策で意図的に外している
+      EXPECTED_JOBS: 'ai.openclaw.comment-warmup ai.openclaw.incoming-reply-watcher ai.openclaw.gateway ai.openclaw.node'
+    steps:
+      - name: Fetch heartbeat branch
+        id: fetch
+        run: |
+          set -uo pipefail
+          if git clone --depth 1 --branch ops/heartbeat \
+               "https://github.com/${GITHUB_REPOSITORY}.git" hb 2>/dev/null; then
+            echo "found=yes" >> "$GITHUB_OUTPUT"
+          else
+            echo "found=no" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Not set up yet
+        if: steps.fetch.outputs.found != 'yes'
+        run: |
+          # ブランチが無い＝まだ Mac 側に登録されていない。
+          # ここで Slack に鳴らすと登録前に毎回鳴り続けるので、記録だけ残す。
+          {
+            echo "### ops-watchdog: 未設定"
+            echo ""
+            echo "\`ops/heartbeat\` ブランチが存在しない。Mac 側で 30 分ごとに"
+            echo "\`scripts/ops-heartbeat.sh\` を実行する launchd ジョブを登録すると監視が始まる。"
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Evaluate
+        if: steps.fetch.outputs.found == 'yes'
+        id: evaluate
+        run: |
+          set -uo pipefail
+          gen=$(jq -r '.generated_at' hb/heartbeat.json)
+          host=$(jq -r '.host' hb/heartbeat.json)
+          jobs=$(jq -r '.jobs[]?' hb/heartbeat.json | sort)
+
+          age=$(( ( $(date -u +%s) - $(date -u -d "$gen" +%s) ) / 60 ))
+
+          missing=""
+          for want in $EXPECTED_JOBS; do
+            printf '%s\n' "$jobs" | grep -qx "$want" || missing="$missing $want"
+          done
+
+          {
+            echo "### ops-watchdog"
+            echo ""
+            echo "- host: \`$host\`"
+            echo "- heartbeat: \`$gen\`（${age} 分前）"
+            echo "- 稼働ジョブ: $(printf '%s\n' "$jobs" | grep -c . || true) 件"
+            [ -n "$missing" ] && echo "- **欠落:**$missing"
+          } >> "$GITHUB_STEP_SUMMARY"
+
+          problem=""
+          [ "$age" -gt "$STALE_MINUTES" ] && problem="stale"
+          [ -n "$missing" ] && problem="${problem:+$problem,}missing"
+
+          {
+            echo "age=$age"
+            echo "host=$host"
+            echo "gen=$gen"
+            echo "missing=$missing"
+            echo "problem=$problem"
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Alert Slack
+        if: steps.evaluate.outputs.problem != ''
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+          AGE: ${{ steps.evaluate.outputs.age }}
+          HOST: ${{ steps.evaluate.outputs.host }}
+          GEN: ${{ steps.evaluate.outputs.gen }}
+          MISSING: ${{ steps.evaluate.outputs.missing }}
+          PROBLEM: ${{ steps.evaluate.outputs.problem }}
+        run: |
+          set -uo pipefail
+          if [ -z "${SLACK_WEBHOOK_URL:-}" ]; then
+            echo "SLACK_WEBHOOK_URL が未設定のため通知できない" >&2
+            exit 1
+          fi
+          {
+            echo "🚨 *X運用の異常を検知（GitHub Actions からの外部監視）*"
+            echo ""
+            case "$PROBLEM" in
+              *stale*)
+                echo "• *heartbeat が ${AGE} 分前で止まっている*（${STALE_MINUTES}分が閾値）"
+                echo "  Mac 側が丸ごと落ちている可能性がある。"
+                ;;
+            esac
+            case "$PROBLEM" in
+              *missing*)
+                echo "• *停止しているジョブ:*${MISSING}"
+                ;;
+            esac
+            echo ""
+            echo "最終 heartbeat: ${GEN} / host: ${HOST}"
+            echo "復旧手順: docs/openclaw-recovery.md"
+          } > msg.txt
+          jq -Rs '{text: .}' msg.txt > payload.json
+          curl -sS -X POST "$SLACK_WEBHOOK_URL" \
+            -H 'Content-Type: application/json' --data @payload.json
+
+      - name: Fail the run when a problem was detected
+        if: steps.evaluate.outputs.problem != ''
+        run: |
+          echo "problem=${{ steps.evaluate.outputs.problem }}" >&2
+          exit 1
