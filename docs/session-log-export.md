@@ -53,14 +53,21 @@ node scripts/export-session-log.mjs --list --grep "ららぽーと"    # 本文�
 node scripts/export-session-log.mjs <session-uuid> --label blog2 --push
 ```
 
-`--push` は `session-log/<label>` ブランチを作ってそこへ push し、**元いたブランチへ戻す**。
-ブランチを作るだけなので、他のファイルの未コミット変更は保持されたまま持ち越される。
+`--push` は **使い捨ての worktree** でコミットして `session-log/<label>` へ送る。手元のブランチも
+作業ツリーも動かさないので、未コミットの変更を持ったまま実行してよい。同名ブランチが既に
+リモートにあれば、その続きに積む（巻き戻して non-fast-forward で弾かれることは無い）。
+
+session-uuid は一覧に出る**先頭 8 桁だけ**でも当たる。
+
+```bash
+node scripts/export-session-log.mjs 7d5942fa --label blog2 --push
+```
 
 ## クラウドセッション側でやること
 
 ```bash
 git fetch origin session-log/blog2
-git checkout session-log/blog2 -- docs/session-logs/blog2.md
+git checkout session-log/blog2 -- docs/session-logs/
 ```
 
 `docs/session-logs/blog2.md` を読めば、そのセッションの文脈をそのまま引き継げる。

@@ -274,7 +274,11 @@ function renderMarkdown(file, records, opts) {
 
 function resolveTarget(target) {
   if (fs.existsSync(target) && target.endsWith('.jsonl')) return path.resolve(target);
-  const hit = listJsonlFiles().find((f) => path.basename(f.file, '.jsonl') === target);
+  const files = listJsonlFiles();
+  // 完全一致 → 前方一致（一覧に出る先頭 8 桁をそのまま貼れるように）
+  const hit =
+    files.find((f) => path.basename(f.file, '.jsonl') === target) ??
+    files.find((f) => path.basename(f.file, '.jsonl').startsWith(target));
   if (hit) return hit.file;
   fail(`セッションが見つからない: ${target}\n--list で一覧を確認する。`);
   return '';
@@ -344,25 +348,52 @@ function runList(opts) {
   console.log(`書き出すとき: node scripts/export-session-log.mjs <session-id> --label <名前> --push`);
 }
 
+/**
+ * 使い捨ての worktree でコミットして push する。
+ *
+ * 利用者の作業ツリーとブランチには一切触らない。以前は checkout -B で
+ * ブランチを移していたが、(1) リモートに既にある同名ブランチを巻き戻して
+ * non-fast-forward で弾かれ、(2) 途中で失敗すると別ブランチに居たまま
+ * 放置される、という 2 つの事故が起きた。
+ */
 function gitPush(outPaths, opts, label) {
-  const git = (...args) => execFileSync('git', args, { cwd: REPO_ROOT, encoding: 'utf8' }).trim();
   const branch = opts.branch ?? `session-log/${label}`;
-  const current = git('rev-parse', '--abbrev-ref', 'HEAD');
-  // ブランチを作るだけなので、他のファイルの未コミット変更はそのまま持ち越される。
-  if (current !== branch) git('checkout', '-B', branch);
-  git('add', '--', ...outPaths.map((p) => path.relative(REPO_ROOT, p)));
-  const staged = git('diff', '--cached', '--name-only');
-  if (!staged) {
-    console.log('変更が無いので commit は省略した。');
-  } else {
-    git('commit', '-m', `docs: ${label} の会話ログを書き出す`);
+  const run = (cwd, ...args) => execFileSync('git', args, { cwd, encoding: 'utf8' }).trim();
+
+  // リモートに既にあるなら、その続きに積む
+  let base = 'HEAD';
+  try {
+    execFileSync('git', ['fetch', 'origin', branch], { cwd: REPO_ROOT, stdio: 'ignore' });
+    base = run(REPO_ROOT, 'rev-parse', 'FETCH_HEAD');
+    console.log(`\nリモートの ${branch} の続きに積む。`);
+  } catch {
+    console.log(`\n${branch} を新しく作る。`);
   }
-  execFileSync('git', ['push', '-u', 'origin', branch], { cwd: REPO_ROOT, stdio: 'inherit' });
-  console.log(`\npush 済み: ${branch}`);
-  // 元いたブランチへ戻す。作業ツリーを勝手に移動させたままにしない。
-  if (current !== branch) {
-    git('checkout', current);
-    console.log(`${current} に戻した（書き出したログは ${branch} 側にある）。`);
+
+  const work = fs.mkdtempSync(path.join(os.tmpdir(), 'session-log-'));
+  try {
+    // detach で切り出す。ブランチを checkout しないので「既に使用中」にならない。
+    execFileSync('git', ['worktree', 'add', '--detach', work, base], { cwd: REPO_ROOT, stdio: 'ignore' });
+    const rels = outPaths.map((p) => path.relative(REPO_ROOT, p));
+    for (const rel of rels) {
+      const dest = path.join(work, rel);
+      fs.mkdirSync(path.dirname(dest), { recursive: true });
+      fs.copyFileSync(path.join(REPO_ROOT, rel), dest);
+    }
+    run(work, 'add', '--', ...rels);
+    if (!run(work, 'diff', '--cached', '--name-only')) {
+      console.log('変更が無いので commit は省略した。');
+      return;
+    }
+    run(work, 'commit', '--no-verify', '-m', `docs: ${label} の会話ログを書き出す`);
+    execFileSync('git', ['push', 'origin', `HEAD:refs/heads/${branch}`], { cwd: work, stdio: 'inherit' });
+    console.log(`\npush 済み: ${branch}（作業ツリーと現在のブランチは触っていない）`);
+  } finally {
+    try {
+      execFileSync('git', ['worktree', 'remove', '--force', work], { cwd: REPO_ROOT, stdio: 'ignore' });
+    } catch {
+      console.log(`後片付けに失敗した。不要なら削除する: ${work}`);
+    }
   }
 }
 
