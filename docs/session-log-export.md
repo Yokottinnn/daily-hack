@@ -11,18 +11,24 @@ SSH も届かない（[`session-recovery.md`](./session-recovery.md)）ため、
 
 ## Mac 側でやること
 
-**このスクリプトが入ったブランチに切り替えてから実行する。** `git pull` はブランチを取得するだけで
-作業ツリーは切り替わらないため、`main` のままだと `Cannot find module` になる。
+**スクリプトはリポジトリの外に置いて実行してよい。** `git rev-parse --show-toplevel` で
+リポジトリを見つけるため、`/tmp` から動かしても書き出し先と push 先は正しくなる。
+ブランチを切り替えずに済むので、未コミットの変更があっても止まらない。
 
 ```bash
-# 1. リポジトリへ移動して、スクリプトのあるブランチに切り替える
-#    （クローン先は決め打ちにしない。~/.claude/projects/ の名前に実パスが残っている）
+# 1. リポジトリへ移動する（クローン先は決め打ちにしない。
+#    ~/.claude/projects/ のディレクトリ名に実パスが残っている）
 cd ~/projects/anta-baka-x/blog
-git fetch origin && git checkout <スクリプトのあるブランチ>
 
-# 2. 対象プロジェクトの最新セッションを書き出して push する
-node scripts/export-session-log.mjs --latest --project daily-hack --label blog2 --push
+# 2. スクリプトだけを取り出す（作業ツリーは触らない）
+git fetch origin
+git show origin/<スクリプトのあるブランチ>:scripts/export-session-log.mjs > /tmp/export-session-log.mjs
+
+# 3. 対象プロジェクトの最新セッションを書き出して push する
+node /tmp/export-session-log.mjs --latest --project daily-hack --label blog2 --push
 ```
+
+スクリプトが `main` に入ったあとは、単に `node scripts/export-session-log.mjs ...` でよい。
 
 `--latest` は条件に合う中で**一番新しい**ログを選ぶ。実行後に session id・期間・最初の発話が
 表示されるので、狙ったセッションかどうかはそこで確認する。違っていたら一覧から選び直す。
@@ -33,8 +39,8 @@ node scripts/export-session-log.mjs --list --grep "ららぽーと"       # 本�
 node scripts/export-session-log.mjs <session-uuid> --label blog2 --push
 ```
 
-`--push` は `session-log/<label>` ブランチを作ってそこへ push する（`git checkout -B`）。
-実行後は作業ツリーがそのブランチに移るので、戻すときは `git checkout -` を使う。
+`--push` は `session-log/<label>` ブランチを作ってそこへ push し、**元いたブランチへ戻す**。
+ブランチを作るだけなので、他のファイルの未コミット変更は保持されたまま持ち越される。
 
 ## クラウドセッション側でやること
 

@@ -17,7 +17,16 @@ import os from 'node:os';
 import { execFileSync } from 'node:child_process';
 
 const PROJECTS_DIR = path.join(os.homedir(), '.claude', 'projects');
-const REPO_ROOT = path.resolve(import.meta.dirname, '..');
+
+// スクリプト自体をリポジトリ外（/tmp など）に置いて実行できるよう、
+// まず cwd のリポジトリを見る。見つからなければ自分の 1 つ上を使う。
+const REPO_ROOT = (() => {
+  try {
+    return execFileSync('git', ['rev-parse', '--show-toplevel'], { encoding: 'utf8' }).trim();
+  } catch {
+    return path.resolve(import.meta.dirname, '..');
+  }
+})();
 
 // ---------------------------------------------------------------- 引数
 
@@ -272,6 +281,7 @@ function gitPush(outPath, opts, label) {
   const git = (...args) => execFileSync('git', args, { cwd: REPO_ROOT, encoding: 'utf8' }).trim();
   const branch = opts.branch ?? `session-log/${label}`;
   const current = git('rev-parse', '--abbrev-ref', 'HEAD');
+  // ブランチを作るだけなので、他のファイルの未コミット変更はそのまま持ち越される。
   if (current !== branch) git('checkout', '-B', branch);
   git('add', '--', path.relative(REPO_ROOT, outPath));
   const staged = git('diff', '--cached', '--name-only');
@@ -282,6 +292,11 @@ function gitPush(outPath, opts, label) {
   }
   execFileSync('git', ['push', '-u', 'origin', branch], { cwd: REPO_ROOT, stdio: 'inherit' });
   console.log(`\npush 済み: ${branch}`);
+  // 元いたブランチへ戻す。作業ツリーを勝手に移動させたままにしない。
+  if (current !== branch) {
+    git('checkout', current);
+    console.log(`${current} に戻した（書き出したログは ${branch} 側にある）。`);
+  }
 }
 
 function main() {
