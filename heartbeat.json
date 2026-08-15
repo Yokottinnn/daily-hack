@@ -1,9 +1,8 @@
 {
-  "generated_at": "2026-08-15T07:05:44Z",
+  "generated_at": "2026-08-15T07:35:48Z",
   "host": "NaokinoMBP-2",
-  "job_count": 12,
+  "job_count": 11,
   "jobs": [
-    "ai.openclaw.comment-warmup",
     "ai.openclaw.gateway",
     "ai.openclaw.import-manual-image",
     "ai.openclaw.incoming-reply-watcher",
