@@ -32,6 +32,8 @@ Mac が丸ごと落ちても、**押されないこと自体が異常の証拠**
 | --- | --- | --- |
 | `stale` | heartbeat が **90 分**より古い | Mac が落ちている、または heartbeat ジョブが止まっている |
 | `missing` | 期待するジョブが `launchctl list` に無い | Mac は生きているが特定のジョブだけ死んだ |
+| `auth` | `auth.ok` が `false` | Claude の認証が失効している。**セッションは何を送っても返さない** |
+| `auth_soon` | トークンの残りが **24 時間**未満 | 失効「前」の警告。切れる前に `/login` できる |
 
 期待するジョブはワークフローの `EXPECTED_JOBS` で定義する。現在は次の 4 つ。
 
@@ -44,6 +46,36 @@ ai.openclaw.node                    本体
 
 `poll-approvals` は**意図的に外している。** 滞留エントリの連鎖投稿を防ぐため停止させており、
 再開したら `EXPECTED_JOBS` に足す。
+
+## 認証の失効を、切れる前に知る
+
+2026-08-15、Mac 側の OAuth が失効し、**セッションが 2 時間半 何も返さなくなった。**
+クラウドからは `connected` に見え、`fire_trigger` も成功する。症状は「返事が来ない」
+ことだけで、**失効を知る手段が無かった。** ジョブの死活を見ていても、これは見えない。
+
+そこで heartbeat に認証の状態を載せる。判定は 2 系統あり、片方が取れなくても効く。
+
+| 経路 | 何を見る | 取れないとき |
+| --- | --- | --- |
+| 会話ログ | 直近 3 時間に更新された `~/.claude/projects/**/*.jsonl` の**末尾 200KB**に `OAuth session expired` / `Not logged in` が出ていないか | ログ自体は launchd から必ず読める |
+| Keychain | `Claude Code-credentials` の `expiresAt` | launchd はキーチェーンを読めないことがある。**読めなくても異常扱いにしない**（`ok: null`） |
+
+末尾だけを見るのは、**過去に一度失効すると永久に異常と判定され続けるのを避ける**ため。
+
+```json
+"auth": { "ok": false, "expires_at": null, "detail": "直近の会話ログに認証エラーが出ている" }
+```
+
+### 落とし穴: `jq` の `//` は false を潰す
+
+```bash
+jq -r '.auth.ok // "null"'   # ← false のとき "null" を返す。一生鳴らない
+jq -r '.auth.ok | tostring'  # ← 正しい
+```
+
+`//` は「null または false」を欠損とみなす演算子で、**まさに検知したい `false` が
+握り潰される。** 実測で確認済み。`auth` 欄を持たない旧形式の `heartbeat.json` でも
+`tostring` は `"null"` を返すため、誤報にはならない。
 
 ## 押す側の設定（Mac）
 

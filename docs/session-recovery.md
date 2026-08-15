@@ -47,6 +47,81 @@ The environment this session was running on has been deleted; its state cannot b
 `--resume` は**このマシンのローカル履歴**から会話を開き直すコマンドで、クラウドセッションの
 一覧は表示しない。クラウドセッションを引く `--teleport` とは別物なので混同しないこと。
 
+## OAuth 失効 — 無応答に見える最有力の原因
+
+Mac 側のセッションが**何を送っても返さない**とき、まず疑うのは相手の怠慢でも
+コネクタ設定でもなく、**OAuth の失効**である。
+
+```text
+Failed to authenticate: OAuth session expired and could not be refreshed
+```
+
+2026-08-15 にこれが起きた。**クラウド側からは何も見えない。**
+`get_session` は `SESSION_STATUS_IDLE` / `connection_status: connected` を返し続け、
+トリガーの `fire_trigger` も正常に成功する。**それでもターンは実行されない。**
+
+このとき私は「トリガーにコネクタが乗っていないため報告が外へ出ない」と診断したが、
+**それは副次的な要因で、主因は認証切れだった。**
+
+### 見分け方
+
+| 症状 | 意味 |
+| --- | --- |
+| `fire_trigger` は成功するが Slack に何も出ない | 認証切れの可能性が高い |
+| `get_session` が IDLE / connected を返す | **正常の証拠にならない。** 失効中でもこう見える |
+| 同じ依頼を送り直しても変わらない | 経路の問題ではなく実行できていない |
+
+**クラウド側から確認する手段は無い。** 利用者に Mac のターミナルを見てもらうしかない。
+無応答が続いたら、**送り直す前に利用者へ「ターミナルに何か出ていますか」と聞く。**
+
+### スマホしか手元に無いとき — OpenClaw に代行させる
+
+**利用者が Mac のターミナルを開けない状況でも、多くの場合は復活できる。**
+資格情報は Keychain にあり、**別ウィンドウで一度ログインしていれば Mac 全体で有効**になる。
+古いプロセスがそれを読み直せないだけなので、**起動し直すだけでよい**（ブラウザ操作は不要）。
+
+OpenClaw は Mac 上の launchd で生きているため、Slack 経由で代行を頼める。
+
+```bash
+# 資格情報が有効かだけ確認する（中身は出力しない）
+security find-generic-password -s 'Claude Code-credentials' -w >/dev/null 2>&1 \
+  && echo "creds: OK" || echo "creds: NG"
+
+# 復活させる会話を特定する（最終更新がいちばん新しいもの）
+ls -lt ~/.claude/projects/-Users-ny--projects-anta-baka-x-blog/*.jsonl | head -5
+
+# 会話 ID を指定して detached tmux で起動し、公開し直す
+SID="<ファイル名から .jsonl を除いた UUID>"
+tmux new -d -s dhblog2 "cd /Users/ny/projects/anta-baka-x/blog && claude --resume $SID"
+sleep 20 && tmux send-keys -t dhblog2 "/remote-control" Enter
+sleep 10 && tmux capture-pane -pt dhblog2 | tail -30
+```
+
+**`claude` を素で起動させないこと。** 別セッションになり、それまでの文脈が引き継がれない。
+**必ず `--resume <会話ID>` を使う。** 会話の実体は `.jsonl` ファイルそのものなので、
+指定して開き直す限り中身は失われない。
+
+`creds: NG` のときだけ、ブラウザ操作が要る。**OAuth をクラウド側から代行する手段は無い。**
+その場合は利用者が Mac に触るしかない、と正直に伝える。
+
+### 復旧手順（Mac 側で実行してもらう）
+
+```bash
+# 1) 動いている claude を終了する（Ctrl+C を2回、または /exit）
+
+# 2) リポジトリで起動し直す
+cd /Users/ny/projects/anta-baka-x/blog
+claude
+
+# 3) 起動したら、その中で
+/login
+
+# 4) 認証が通ったら、クラウドから届くように公開し直す
+/remote-control
+```
+
+**`/login` だけでは足りない。** `/remote-control` を実行しないとクラウドから届かない。
+
 ## クラウドセッションからは Mac を操作できない
 
 **OpenClaw に関わる作業はクラウドセッションでは進まない。** SSH で届くという前提を

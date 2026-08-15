@@ -190,6 +190,35 @@ tail -5 ~/.openclaw/workspace/logs/heartbeat.log
 
 Slack に実際のメッセージが出たことを目で見るまで、復旧とみなさない。
 
+## トリガーで起こしたセッションは Slack コネクタを持たない
+
+**クラウドから `create_trigger` / `fire_trigger` で Mac のセッションを起こすと、
+起こされたターンには `mcp__Slack__*` が存在しない。** 依頼した側にコネクタの
+受け渡し権限が無いと、トリガーはコネクタを保存せずに作られる。
+
+2026-08-15 に、これで **2 件の依頼が「無応答」に見えた。** Mac 側は実際には処理して
+アイドルに戻っていたが、**書いた報告が外に出ない経路**になっていた。
+トリガー作成時に次の警告が出ていた。
+
+```text
+warning: this trigger stores no MCP connectors, so the sessions it fires
+will run without connector (mcp__<server>__*) tools.
+```
+
+**この警告を無視しない。** 出たら、依頼文の中で報告経路を `curl` に切り替える。
+
+```bash
+set -a; . ~/openclaw/config/.env; set +a
+curl -sS -X POST https://slack.com/api/chat.postMessage \
+  -H "Authorization: Bearer $OPENCLAW_BOT_TOKEN" \
+  -H 'Content-type: application/json; charset=utf-8' \
+  -d "$(jq -n --arg c C0A5FKU7T5M --arg t "本文" '{channel:$c, text:$t}')"
+```
+
+**無応答を相手の怠慢と決めつけない。** まず `get_session` で状態を見る。
+`SESSION_STATUS_IDLE` に戻っているなら、相手は処理を終えている。
+**届いていないのは経路の問題であり、送り直しても直らない。**
+
 ## 復旧後にやること
 
 画像の受け渡しが止まっているのはこの故障のため。復旧したら次の順で流す。

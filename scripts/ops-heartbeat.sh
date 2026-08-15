@@ -52,6 +52,67 @@ host="$(hostname)"
 jobs="$(launchctl list 2>/dev/null | awk '{print $3}' | grep -E '^(ai\.openclaw|com\.dailyhack)\.' | sort)"
 count="$(printf '%s' "$jobs" | grep -c . || true)"
 
+# --- 認証の状態を見る -----------------------------------------------------
+#
+# 2026-08-15 に OAuth が失効し、Mac のセッションが 2 時間半 何も返さなくなった。
+# クラウド側からは connected に見え、fire_trigger も成功するため判別できない。
+# 症状は「返事が来ない」だけで、失効を知る手段が無かった。
+#
+# そこで 2 つの経路で見る。片方が取れなくても、もう片方が効く。
+#   1. 直近の会話ログに認証エラーが出ていないか（launchd から必ず読める）
+#   2. Keychain のトークン有効期限（読めれば失効「前」に警告できる）
+
+auth_ok="null"        # true / false / null(判定不能)
+auth_expires="null"
+auth_detail="判定不能"
+
+# 1) 直近3時間に更新された会話ログの末尾に認証エラーが出ていないか。
+#    ファイル全体を見ると過去の失効が永久に残るため、末尾 200KB だけ見る。
+auth_err=""
+while IFS= read -r f; do
+  [ -n "$f" ] || continue
+  if tail -c 200000 "$f" 2>/dev/null \
+       | grep -qE 'OAuth session expired|Not logged in'; then
+    auth_err="$f"
+    break
+  fi
+done <<EOF
+$(find "$HOME/.claude/projects" -name '*.jsonl' -mmin -180 2>/dev/null)
+EOF
+
+if [ -n "$auth_err" ]; then
+  auth_ok="false"
+  auth_detail="直近の会話ログに認証エラーが出ている"
+fi
+
+# 2) Keychain からトークンの有効期限を読む。
+#    launchd からはキーチェーンを読めないことがある（§16 の -25308 と同じ罠）。
+#    読めなければ判定不能のままにする。**読めないことを異常として扱わない。**
+cred="$(security find-generic-password -s 'Claude Code-credentials' -w 2>/dev/null || true)"
+if [ -n "$cred" ]; then
+  exp_ms="$(printf '%s' "$cred" \
+    | /usr/bin/python3 -c 'import json,sys
+try:
+    d = json.load(sys.stdin)
+    while isinstance(d, dict) and "expiresAt" not in d:
+        d = next((v for v in d.values() if isinstance(v, dict)), None)
+    print(int(d["expiresAt"]) if d else "")
+except Exception:
+    print("")' 2>/dev/null)"
+  if [ -n "$exp_ms" ]; then
+    auth_expires="\"$(date -u -r "$((exp_ms / 1000))" +%Y-%m-%dT%H:%M:%SZ)\""
+    if [ "$auth_ok" = "null" ]; then
+      if [ "$((exp_ms / 1000))" -le "$(date -u +%s)" ]; then
+        auth_ok="false"
+        auth_detail="トークンの有効期限を過ぎている"
+      else
+        auth_ok="true"
+        auth_detail="有効期限内"
+      fi
+    fi
+  fi
+fi
+
 {
   echo "{"
   echo "  \"generated_at\": \"$now\","
@@ -64,7 +125,12 @@ count="$(printf '%s' "$jobs" | grep -c . || true)"
     printf '    "%s"' "$j"
   done
   [ $first -eq 0 ] && echo ""
-  echo "  ]"
+  echo "  ],"
+  echo "  \"auth\": {"
+  echo "    \"ok\": $auth_ok,"
+  echo "    \"expires_at\": $auth_expires,"
+  echo "    \"detail\": \"$auth_detail\""
+  echo "  }"
   echo "}"
 } > "$WT/heartbeat.json"
 
