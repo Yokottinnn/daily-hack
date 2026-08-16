@@ -100,8 +100,17 @@ X 運用の実行にはこの口が要る。
 2026-08-16、私は前者 2 つを根拠に「blog2 は生きている」と報告したが、
 利用者は数日前から一度も返事を受け取っていなかった。**実観測のほうが強い。**
 
-`daily-hack-blog2` の会話 ID は `7d5942fa-f5b8-4d5d-b1f9-ef8574d48450`、
-書き出し済みのログは `session-log/blog2` ブランチの `docs/session-logs/blog2.md`。
+`daily-hack-blog2` は **2026-08-16 にアーカイブ済み**（`SESSION_STATUS_ARCHIVED`）。
+数日間まったく応答が無く、残しても何も実行できない状態だったため。復元に要るものは残してある。
+
+| 要るもの | 場所 |
+| --- | --- |
+| 会話の原本 | Mac の `~/.claude/projects/-Users-ny-projects-anta-baka-x-blog/7d5942fa-f5b8-4d5d-b1f9-ef8574d48450.jsonl` |
+| 読める書き出し | `session-log/blog2` ブランチの `docs/session-logs/blog2.md`（1143 メッセージ） |
+| 開き直す手順 | [`docs/session-recovery.md`](./session-recovery.md) |
+
+Mac 側での実行が再び必要になったら、`claude --resume 7d5942fa-f5b8-4d5d-b1f9-ef8574d48450`
+で開き直して `/remote-control`、または新しく `claude` を起動して公開する。
 
 ## 関連
 
