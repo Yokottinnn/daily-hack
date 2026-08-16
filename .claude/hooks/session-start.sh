@@ -6,6 +6,7 @@ set -uo pipefail
 cd "${CLAUDE_PROJECT_DIR:-.}" || exit 0
 
 HANDOFF="docs/session-handoff.md"
+REQUESTS="docs/cross-session-requests.md"
 
 echo "=== 前回までの引き継ぎ情報（自動読み込み） ==="
 echo
@@ -23,6 +24,24 @@ if [ -f "$HANDOFF" ]; then
   echo "  経緯を知る必要があるときだけ同ファイルを読むこと）"
 else
   echo "$HANDOFF がまだ無い。作業内容は同ファイルに記録すること。"
+fi
+
+# 相手セッションからの依頼を、開始時に必ず目に入れる。役割が分かれている以上、
+# 自分宛の仕事が相手のブランチではなくこの表に置かれる（docs/session-roles.md）。
+# 注入内容が変わるのは表が更新されたときだけなので、プロンプトキャッシュは効き続ける。
+if [ -f "$REQUESTS" ]; then
+  pending=$(awk -F'|' '
+    /^\|/ && $5 ~ /未対応|対応中/ {
+      gsub(/^[ \t]+|[ \t]+$/, "", $2); gsub(/^[ \t]+|[ \t]+$/, "", $3)
+      gsub(/^[ \t]+|[ \t]+$/, "", $4); gsub(/^[ \t]+|[ \t]+$/, "", $5)
+      printf "- [%s] %s %s: %s\n", $5, $2, $3, substr($4, 1, 120)
+    }' "$REQUESTS")
+  if [ -n "$pending" ]; then
+    echo
+    echo "--- 未決の依頼（$REQUESTS）---"
+    printf '%s\n' "$pending"
+    echo "自分の役割宛のものが自分の仕事。役割分担は docs/session-roles.md を参照。"
+  fi
 fi
 
 echo
