@@ -114,10 +114,21 @@ done
 #
 # そこでログから「今日いくつ投稿したか」を数え、押し出す。
 # ログの場所は docs/openclaw-recovery.md に記録がある実在のパス。
+#
+# **検出条件は実機のログ書式に合わせること。** 最初の実装は `tweet_id` という文字列と
+# `2026-08-16` 形式の日付を条件にしていたが、実機の成功記録は次の形で、
+# **どちらも含まれていなかった。** 投稿があっても 0 件と数えていた。
+#
+#   {"ok":true,"entry_id":"comment-20260816-...
+#   [2026-08-16T19:03:05] today's reply-conn...
+#
+# 日付の表記が 2 通りある（`20260816` と `2026-08-16`）ため、両方を見る。
 
 LOGS="${OPENCLAW_LOGS:-$HOME/.openclaw/workspace/logs}"
 today="$(date -u +%Y-%m-%d)"
 today_local="$(date +%Y-%m-%d)"
+today_plain="$(date +%Y%m%d)"
+today_plain_utc="$(date -u +%Y%m%d)"
 posted_today=0
 activity_sources=""
 activity_detail="判定不能"
@@ -127,9 +138,12 @@ if [ -d "$LOGS" ]; then
   first_src=1
   for f in "$LOGS"/*.log; do
     [ -e "$f" ] || continue
-    # 今日の日付を含む行のうち、投稿の痕跡（tweet_id）があるものを数える。
-    # 日付は UTC / ローカルの両方を見る。ログの表記が混在しているため。
-    n="$(grep -E "$today|$today_local" "$f" 2>/dev/null | grep -c 'tweet_id' || true)"
+    # 成功記録は 2 通りの書き方をされている。grep -c は行単位で数えるため、
+    # 両方に当たる行があっても二重には数えない。
+    #   1. JSON 形式:  {"ok":true,"entry_id":"comment-20260816-...
+    #   2. 行頭に日時: [2026-08-16T19:03:05] ... tweet_id ...
+    n="$(grep -cE "(\"ok\":true.*(${today_plain}|${today_plain_utc}))|((${today}|${today_local}).*tweet_id)" \
+      "$f" 2>/dev/null || true)"
     [ "${n:-0}" -eq 0 ] && continue
     posted_today=$((posted_today + n))
     [ $first_src -eq 1 ] && first_src=0 || activity_sources="$activity_sources,"
@@ -171,20 +185,24 @@ if [ -n "$auth_err" ]; then
   auth_detail="直近の会話ログに認証エラーが出ている"
 fi
 
-# 2) Keychain からトークンの有効期限を読む。
-#    launchd からはキーチェーンを読めないことがある（§16 の -25308 と同じ罠）。
-#    読めなければ判定不能のままにする。**読めないことを異常として扱わない。**
+# 2) トークンの有効期限を読む。
+#
+#    最初の実装は python3 で JSON を解いていたが、実機（手動実行・Keychain 読める状態）
+#    でも判定不能のままだった。**解析側が動いていなかった。**
+#    macOS の `/usr/bin/python3` は Command Line Tools を要求することがあり、
+#    その場合は黙って失敗する。**外部インタプリタに依存しない形に変える。**
+#
+#    Keychain が読めないときのために、ファイル側も見る。
+#    ただしファイルは古いことがある（再ログインしても更新されない）ため Keychain を優先する。
 cred="$(security find-generic-password -s 'Claude Code-credentials' -w 2>/dev/null || true)"
+if [ -z "$cred" ] && [ -f "$HOME/.claude/.credentials.json" ]; then
+  cred="$(cat "$HOME/.claude/.credentials.json" 2>/dev/null || true)"
+fi
 if [ -n "$cred" ]; then
+  # "expiresAt": 1760000000000 から数字だけを取り出す。grep だけで完結させる。
   exp_ms="$(printf '%s' "$cred" \
-    | /usr/bin/python3 -c 'import json,sys
-try:
-    d = json.load(sys.stdin)
-    while isinstance(d, dict) and "expiresAt" not in d:
-        d = next((v for v in d.values() if isinstance(v, dict)), None)
-    print(int(d["expiresAt"]) if d else "")
-except Exception:
-    print("")' 2>/dev/null)"
+    | grep -o '"expiresAt"[[:space:]]*:[[:space:]]*[0-9]*' \
+    | grep -oE '[0-9]+$' | head -1)"
   if [ -n "$exp_ms" ]; then
     auth_expires="\"$(date -u -r "$((exp_ms / 1000))" +%Y-%m-%dT%H:%M:%SZ)\""
     if [ "$auth_ok" = "null" ]; then
