@@ -68,6 +68,12 @@
 
 <!-- 新しい記録がこの下に追加される（新しいものが上） -->
 
+### 2026-08-16 — blog2 を誤ってアーカイブし復元(unarchive)。生きており tweet2 が OpenClaw 復活の依頼先に使う予定だった。返答は Slack ではなく PR で届いていた
+
+次のアクション:
+
+- [ ] tweet2 の create_trigger 承認待ちを解消する（利用者が tweet2 セッションで承認）。OpenClaw 復旧は tweet2 の担当
+
 ### 2026-08-16 — daily-hack-blog2 をアーカイブ（応答が数日無く実行手段として機能していなかったため）。会話は Mac の JSONL と session-log/blog2 に残存
 
 次のアクション:
