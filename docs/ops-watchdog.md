@@ -109,6 +109,37 @@ jq -r '.auth.ok | tostring'  # ← 正しい
 握り潰される。** 実測で確認済み。`auth` 欄を持たない旧形式の `heartbeat.json` でも
 `tostring` は `"null"` を返すため、誤報にはならない。
 
+## main にマージしても Mac には届かない（自己更新で塞いだ）
+
+**`main` へのマージは、Mac 上のスクリプトを更新しない。**
+
+2026-08-16 に実測した。認証検知を入れた #171 をマージした 18 分後の heartbeat に、
+新しい項目が一切載っていなかった。`ops-heartbeat.sh` は `ops/heartbeat` ブランチしか
+fetch しておらず、**誰かが手で `git pull` するまで古いまま**という構造だった。
+
+実際、8/15 に認証欄が現れたのは Mac セッションが別作業のついでに pull したためで、
+**仕組みとして届いていたわけではなかった。**
+
+そこで heartbeat 自身に自己更新を入れた。30 分ごとに確実に走る唯一のジョブなので、
+ここが最新であれば以降の変更は自動で届く。
+
+```bash
+git -C "$MAIN_REPO" fetch -q origin main
+git -C "$MAIN_REPO" show origin/main:scripts/ops-heartbeat.sh > "$latest"
+# 中身が違えば、その場で入れ替えて実行し直す
+OPS_HEARTBEAT_SELF_UPDATED=1 exec /bin/bash "$latest" "$@"
+```
+
+- **作業ツリーには触らない。** `git pull` は Mac 上で進行中の作業と衝突しうるため、
+  `git show` で中身だけ取り出す
+- 環境変数で **1 回だけ**に制限する。取り違えても無限ループにならない
+- 取得に失敗したら、そのまま古い版で走る。**heartbeat が止まる方が害が大きい**
+
+### 最初の一回だけは手で pull が要る
+
+自己更新のコード自体が Mac に無いため、**これを有効にする最初の 1 回だけは
+`git pull` が必要**（Mac セッションか OpenClaw に頼む）。以降は自動で追随する。
+
 ## 押す側の設定（Mac）
 
 `scripts/ops-heartbeat.sh` を 30 分ごとに実行する。
