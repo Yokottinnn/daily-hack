@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T10:08:47Z",
+  "generated_at": "2026-08-16T10:19:55Z",
   "host": "NaokinoMBP-2",
   "job_count": 12,
   "jobs": [
@@ -20,5 +20,16 @@
     "ok": null,
     "expires_at": null,
     "detail": "判定不能"
-  }
+  },
+  "activity": {
+    "date": "2026-08-16",
+    "posted_today": 0,
+    "detail": "ログを走査した",
+    "sources": []
+  },
+  "reloaders": [
+      {"label": "ai.openclaw.slack-watchdog", "interval": "", "program": "/bin/bash /Users/ny/.openclaw/workspace/scripts/run-slack-watchdog.sh RunAtLoad StandardErrorPath /Users/ny/.openclaw/workspace/logs/slack-watchdog-err.log StandardOutPath /Users/ny/.openclaw/workspace/logs/slack-watchdog.log ThrottleInterval"},
+      {"label": "ai.openclaw.tab-guard", "interval": "", "program": "/usr/local/bin/node /Users/ny/.openclaw/workspace/scripts/tab-guard.js --watch RunAtLoad StandardErrorPath /Users/ny/.openclaw/workspace/logs/tab-guard-err.log StandardOutPath /Users/ny/.openclaw/workspace/logs/tab-guard.out WorkingDirectory /Users/ny/.openclaw/workspace"},
+      {"label": "com.dailyhack.rc-keeper", "interval": "300", "program": "/Users/ny/bin/dh-rc-keeper RunAtLoad StandardErrorPath /Users/ny/.dh-rc-keeper.stderr.log StandardOutPath /Users/ny/.dh-rc-keeper.stdout.log StartInterval"}
+  ]
 }
