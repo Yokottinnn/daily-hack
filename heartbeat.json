@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T17:40:11Z",
+  "generated_at": "2026-08-16T18:10:17Z",
   "host": "NaokinoMBP-2",
   "job_count": 12,
   "jobs": [
@@ -17,9 +17,9 @@
     "com.dailyhack.weekly-blog-report"
   ],
   "auth": {
-    "ok": true,
+    "ok": false,
     "expires_at": "2026-08-16T18:07:15Z",
-    "detail": "有効期限内"
+    "detail": "トークンの有効期限を過ぎている"
   },
   "activity": {
     "date": "2026-08-16",
