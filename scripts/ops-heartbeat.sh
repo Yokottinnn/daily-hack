@@ -52,6 +52,38 @@ host="$(hostname)"
 jobs="$(launchctl list 2>/dev/null | awk '{print $3}' | grep -E '^(ai\.openclaw|com\.dailyhack)\.' | sort)"
 count="$(printf '%s' "$jobs" | grep -c . || true)"
 
+# --- 何がジョブを勝手に戻しているのかを可視化する ---------------------------
+#
+# 「停止したはずのジョブが動いている」が繰り返し起きている。
+# 2026-08-15 には、OpenClaw が bootout したと報告した comment-warmup が
+# その後もずっと launchctl list に載り続けていた。
+#
+# 「落ちてたら戻す」系のジョブが犯人である疑いが強い（com.dailyhack.rc-keeper など）。
+# クラウドからは Mac の plist を読めないため、ここで実行内容を押し出す。
+#
+# **環境変数の値は絶対に出さない。** API キーが入っている可能性があるため、
+# 出すのは実行されるコマンドのパスだけにする。
+
+reloaders=""
+first_rl=1
+for label in $jobs; do
+  case "$label" in
+    # tab-guard は 2026-08-10 に全ジョブを bootout した実績があるため必ず含める
+    *keeper*|*guard*|*watchdog*|*ensure*|*supervis*) ;;
+    *) continue ;;
+  esac
+  plist="$HOME/Library/LaunchAgents/${label}.plist"
+  [ -f "$plist" ] || continue
+  prog="$(plutil -p "$plist" 2>/dev/null \
+    | awk '/"ProgramArguments"/,/\)/' \
+    | grep -oE '"[^"]+"' | tr -d '"' | grep -v '^ProgramArguments$' \
+    | tr '\n' ' ' | sed 's/ *$//' | cut -c1-300)"
+  interval="$(plutil -extract StartInterval raw "$plist" 2>/dev/null || echo "")"
+  [ $first_rl -eq 1 ] && first_rl=0 || reloaders="$reloaders,"
+  reloaders="$reloaders
+      {\"label\": \"$label\", \"interval\": \"${interval}\", \"program\": \"${prog//\"/}\"}"
+done
+
 # --- 本日の実活動を数える -------------------------------------------------
 #
 # ジョブが `launchctl list` に載っていることは、**リプが打てている証拠にならない。**
@@ -173,7 +205,13 @@ fi
   else
     echo "    \"sources\": []"
   fi
-  echo "  }"
+  echo "  },"
+  if [ -n "$reloaders" ]; then
+    echo "  \"reloaders\": [$reloaders"
+    echo "  ]"
+  else
+    echo "  \"reloaders\": []"
+  fi
   echo "}"
 } > "$WT/heartbeat.json"
 
