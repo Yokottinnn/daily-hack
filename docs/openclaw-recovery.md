@@ -215,6 +215,31 @@ curl -sS -X POST https://slack.com/api/chat.postMessage \
   -d "$(jq -n --arg c C0A5FKU7T5M --arg t "本文" '{channel:$c, text:$t}')"
 ```
 
+## 「沈黙している」と決めつける前に、両方のチャンネルを見る
+
+OpenClaw の稼働報告は **`C0B4CJHH797`（#fun_reward-hack_blog）** に流れる。
+X 投稿の草案・承認が流れる `C0A5FKU7T5M`（#fun_reward-hack_tweet）とは別である。
+
+2026-08-16 に、`C0A5FKU7T5M` だけを見て **10 時間沈黙していると誤認した。**
+実際には 30 分〜数時間おきに稼働報告が届いていた。
+
+```text
+✅ OpenClaw 復旧  2026-08-16 17:46:31
+• Listener process: running (pid=850)
+• Listener log: listener.log fresh (2.8min ago)
+
+⚠️ OpenClaw 異常検知  2026-08-16 08:06:06
+• 連続失敗回数: 24
+• Listener log: listener.log idle 147.7min (> 30min)
+```
+
+**異常検知も自動で出る。** 上の例では 08:06 に検知され、10:41 には自力で復旧していた。
+このチャンネルを見ていれば、こちらから調べに行く必要すらなかった。
+
+なお **listener が動いていることと、依頼に応答することは別**である。
+稼働報告があっても応答が無いなら、依頼が届いているかを疑う（送り先チャンネル・
+依頼の書式）。
+
 **無応答を相手の怠慢と決めつけない。** まず `get_session` で状態を見る。
 `SESSION_STATUS_IDLE` に戻っているなら、相手は処理を終えている。
 **届いていないのは経路の問題であり、送り直しても直らない。**
