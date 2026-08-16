@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T18:40:22Z",
+  "generated_at": "2026-08-16T19:10:28Z",
   "host": "NaokinoMBP-2",
   "job_count": 12,
   "jobs": [
@@ -16,6 +16,7 @@
     "com.dailyhack.rc-keeper",
     "com.dailyhack.weekly-blog-report"
   ],
+  "reconnect": "復旧する会話が見つからない",
   "auth": {
     "ok": false,
     "expires_at": "2026-08-16T18:07:15Z",
