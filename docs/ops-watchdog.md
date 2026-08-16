@@ -67,8 +67,21 @@ ai.openclaw.node                    本体
 }
 ```
 
-`~/.openclaw/workspace/logs/*.log` から、今日の日付を含む行のうち `tweet_id` を
-持つものを数える。日付は UTC とローカルの両方を見る（ログの表記が混在しているため）。
+`~/.openclaw/workspace/logs/*.log` から、今日の成功記録を数える。
+
+**検出条件は実機のログ書式に合わせること。** 最初の実装は `tweet_id` という文字列と
+`2026-08-16` 形式の日付を条件にしていたが、実機の成功記録は次の形で、
+**どちらも含まれていなかった。投稿があっても 0 件と数えていた。**
+
+```text
+{"ok":true,"entry_id":"comment-20260816-...     ← ジョブの成功記録
+[2026-08-16T19:03:05] today's reply-conn ...    ← 行頭に日時
+```
+
+日付の表記が `20260816` と `2026-08-16` の 2 通りあるため、両方を見る。
+`grep -c` は行単位で数えるので、両方に当たる行があっても二重には数えない。
+
+**推測でパターンを書かない。** 実機のログを 1 度見れば済む話だった。
 
 ### 0 件と「判定不能」を混同しない
 
@@ -90,7 +103,18 @@ ai.openclaw.node                    本体
 | 経路 | 何を見る | 取れないとき |
 | --- | --- | --- |
 | 会話ログ | 直近 3 時間に更新された `~/.claude/projects/**/*.jsonl` の**末尾 200KB**に `OAuth session expired` / `Not logged in` が出ていないか | ログ自体は launchd から必ず読める |
-| Keychain | `Claude Code-credentials` の `expiresAt` | launchd はキーチェーンを読めないことがある。**読めなくても異常扱いにしない**（`ok: null`） |
+| Keychain | `Claude Code-credentials` の `expiresAt`。読めなければ `~/.claude/.credentials.json` を見る | どちらも取れなければ **異常扱いにしない**（`ok: null`） |
+
+**外部インタプリタに依存しない。** 最初の実装は `/usr/bin/python3` で JSON を解いていたが、
+実機（手動実行・Keychain が読める状態）でも判定不能のままだった。**解析側が動いていなかった。**
+macOS の `/usr/bin/python3` は Command Line Tools を要求することがあり、その場合は黙って失敗する。
+
+```bash
+# grep だけで完結させる。秘密は出力しない
+grep -o '"expiresAt"[[:space:]]*:[[:space:]]*[0-9]*' | grep -oE '[0-9]+$' | head -1
+```
+
+`.credentials.json` は再ログインしても更新されないことがあるため、**Keychain を優先する。**
 
 末尾だけを見るのは、**過去に一度失効すると永久に異常と判定され続けるのを避ける**ため。
 
