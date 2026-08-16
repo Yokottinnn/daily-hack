@@ -52,6 +52,38 @@ host="$(hostname)"
 jobs="$(launchctl list 2>/dev/null | awk '{print $3}' | grep -E '^(ai\.openclaw|com\.dailyhack)\.' | sort)"
 count="$(printf '%s' "$jobs" | grep -c . || true)"
 
+# --- 本日の実活動を数える -------------------------------------------------
+#
+# ジョブが `launchctl list` に載っていることは、**リプが打てている証拠にならない。**
+# 2026-08-15 に、載っているのに実際は動いていない（OAuth 失効で生成が失敗する）
+# 状態が起きたが、クラウドからは区別できなかった。
+#
+# そこでログから「今日いくつ投稿したか」を数え、押し出す。
+# ログの場所は docs/openclaw-recovery.md に記録がある実在のパス。
+
+LOGS="${OPENCLAW_LOGS:-$HOME/.openclaw/workspace/logs}"
+today="$(date -u +%Y-%m-%d)"
+today_local="$(date +%Y-%m-%d)"
+posted_today=0
+activity_sources=""
+activity_detail="判定不能"
+
+if [ -d "$LOGS" ]; then
+  activity_detail="ログを走査した"
+  first_src=1
+  for f in "$LOGS"/*.log; do
+    [ -e "$f" ] || continue
+    # 今日の日付を含む行のうち、投稿の痕跡（tweet_id）があるものを数える。
+    # 日付は UTC / ローカルの両方を見る。ログの表記が混在しているため。
+    n="$(grep -E "$today|$today_local" "$f" 2>/dev/null | grep -c 'tweet_id' || true)"
+    [ "${n:-0}" -eq 0 ] && continue
+    posted_today=$((posted_today + n))
+    [ $first_src -eq 1 ] && first_src=0 || activity_sources="$activity_sources,"
+    activity_sources="$activity_sources
+      {\"file\": \"$(basename "$f")\", \"count\": $n}"
+  done
+fi
+
 # --- 認証の状態を見る -----------------------------------------------------
 #
 # 2026-08-15 に OAuth が失効し、Mac のセッションが 2 時間半 何も返さなくなった。
@@ -130,6 +162,17 @@ fi
   echo "    \"ok\": $auth_ok,"
   echo "    \"expires_at\": $auth_expires,"
   echo "    \"detail\": \"$auth_detail\""
+  echo "  },"
+  echo "  \"activity\": {"
+  echo "    \"date\": \"$today\","
+  echo "    \"posted_today\": $posted_today,"
+  echo "    \"detail\": \"$activity_detail\","
+  if [ -n "$activity_sources" ]; then
+    echo "    \"sources\": [$activity_sources"
+    echo "    ]"
+  else
+    echo "    \"sources\": []"
+  fi
   echo "  }"
   echo "}"
 } > "$WT/heartbeat.json"
