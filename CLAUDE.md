@@ -126,6 +126,28 @@ OpenClaw は利用者の Mac（`home-mac` / 192.168.2.102）で動く常駐エ�
 | 記事公開 | `scripts/blog-publish.sh <slug> "<title>"` を OpenClaw が呼ぶ（ビルド検証 → PR 作成） |
 | 定期ジョブ | `ai.openclaw.sitemap-autosubmit` / `ai.openclaw.seo-health`（launchd） |
 
+### Mac への依頼はトリガー経路に一本化する。Slack に書いた依頼は届かない
+
+**Slack は報告を受け取る場所であって、依頼を出す場所ではない。**
+
+`C0A5FKU7T5M` に「OpenClaw:」名義で返ってきていた長文の作業報告は、
+**Mac の Claude セッションがボットトークンで投稿していたもの**で、
+`create_trigger` / `fire_trigger` で送った依頼への応答だった。
+`C0B4CJHH797` の稼働報告は launchd のジョブが定期的に出しているだけで、
+**Slack に書いた依頼を読む主体は確認できていない。**
+
+```text
+依頼: create_trigger（persistent_session_id = Mac セッション）→ fire_trigger
+報告: Slack（両チャンネル）／ PR ／ ops/heartbeat のいずれか
+```
+
+トリガーには落とし穴が 2 つある。
+
+- **毎回新しく作る。** 使い回して `fire_trigger` すると別セッションに紐づくことがある。
+  応答の `session_id` の末尾が対象セッション ID と一致していることを必ず確認する
+- **コネクタは乗らない。** 起動されたターンに `mcp__Slack__*` が無いため、
+  Slack へ出させるなら `OPENCLAW_BOT_TOKEN` を使った `curl` を依頼文に書く
+
 ### Slack チャンネルは 2 つある。片方だけ見て「沈黙」と判断しない
 
 | チャンネル | ID | 流れているもの |
