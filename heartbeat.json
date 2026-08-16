@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T12:39:12Z",
+  "generated_at": "2026-08-16T13:09:23Z",
   "host": "NaokinoMBP-2",
   "job_count": 12,
   "jobs": [
@@ -17,15 +17,18 @@
     "com.dailyhack.weekly-blog-report"
   ],
   "auth": {
-    "ok": null,
-    "expires_at": null,
-    "detail": "判定不能"
+    "ok": true,
+    "expires_at": "2026-08-16T18:07:15Z",
+    "detail": "有効期限内"
   },
   "activity": {
     "date": "2026-08-16",
-    "posted_today": 0,
+    "posted_today": 17,
     "detail": "ログを走査した",
-    "sources": []
+    "sources": [
+      {"file": "comment-orchestrator.log", "count": 6},
+      {"file": "comment-warmup.log", "count": 11}
+    ]
   },
   "reloaders": [
       {"label": "ai.openclaw.slack-watchdog", "interval": "", "program": "/bin/bash /Users/ny/.openclaw/workspace/scripts/run-slack-watchdog.sh RunAtLoad StandardErrorPath /Users/ny/.openclaw/workspace/logs/slack-watchdog-err.log StandardOutPath /Users/ny/.openclaw/workspace/logs/slack-watchdog.log ThrottleInterval"},
