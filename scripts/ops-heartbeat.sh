@@ -25,6 +25,28 @@ die() { echo "ops-heartbeat: $1" >&2; exit 1; }
 
 [ -d "$MAIN_REPO/.git" ] || die "リポジトリが見つからない: $MAIN_REPO"
 
+# --- 自分自身を最新にしてから走る -------------------------------------------
+#
+# main にマージしても、このスクリプトは Mac 上の古いままだった。
+# 2026-08-16 に実測: #171 をマージした 18 分後の heartbeat に、新しい項目が
+# 一切載っていなかった。**誰かが手で pull しない限り反映されない構造**だった。
+#
+# このジョブは 30 分ごとに確実に走る唯一のものなので、ここで自分を更新する。
+#
+# **作業ツリーには触らない。** `git pull` すると Mac 上で進行中の作業と衝突しうる。
+# origin/main から中身だけ取り出して、それを実行し直す。
+
+if [ -z "${OPS_HEARTBEAT_SELF_UPDATED:-}" ]; then
+  latest="${TMPDIR:-/tmp}/ops-heartbeat-latest.sh"
+  git -C "$MAIN_REPO" fetch -q origin main 2>/dev/null || true
+  if git -C "$MAIN_REPO" show origin/main:scripts/ops-heartbeat.sh > "$latest" 2>/dev/null \
+     && [ -s "$latest" ] && ! cmp -s "$latest" "$0"; then
+    echo "ops-heartbeat: 新しい版に入れ替えて実行し直す" >&2
+    # 環境変数で 1 回だけに制限する。取り違えても無限ループにならない
+    OPS_HEARTBEAT_SELF_UPDATED=1 exec /bin/bash "$latest" "$@"
+  fi
+fi
+
 # --- worktree を用意する（初回のみ） -------------------------------------
 
 git -C "$MAIN_REPO" fetch -q origin "$BRANCH" 2>/dev/null || true
