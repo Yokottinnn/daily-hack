@@ -47,6 +47,51 @@ if [ -z "${OPS_HEARTBEAT_SELF_UPDATED:-}" ]; then
   fi
 fi
 
+# --- 切れた remote-control を繋ぎ直す（フラグがあるときだけ） ---------------
+#
+# 2026-08-17、Mac 側の `/remote-control` 接続が切れ、クラウドからの依頼が
+# `SESSION_STATUS_PENDING` のまま届かなくなった。利用者は外出中で PC を開けない。
+#
+# Mac 本体と launchd は生きている（heartbeat が届き続けている）ため、
+# **この 30 分ごとのジョブが、クラウドから Mac を動かせる唯一の経路**になる。
+#
+# 危険な操作なので、**リポジトリにフラグファイルがあるときだけ**動く。
+# 不要になったら `ops/reconnect-request` を消せば止まる。
+
+# フラグは **作業ツリーではなく `origin/main` を見る。**
+# Mac の作業ツリーは誰かが pull しない限り古いままで、置いたファイルが見えない。
+# 自己更新の直前で `git fetch origin main` を済ませてあるので、これで最新が引ける。
+TMUX_SESSION="${OPS_RECONNECT_TMUX:-dhblog2}"
+reconnect_status="無効（フラグ無し）"
+
+if git -C "$MAIN_REPO" cat-file -e origin/main:ops/reconnect-request 2>/dev/null; then
+  # launchd は PATH が最小限。絶対パスで拾えるようにしておく
+  TMUX_BIN="$(command -v tmux 2>/dev/null || true)"
+  [ -n "$TMUX_BIN" ] || TMUX_BIN=/opt/homebrew/bin/tmux
+  CLAUDE_BIN="$(command -v claude 2>/dev/null || true)"
+  [ -n "$CLAUDE_BIN" ] || CLAUDE_BIN=/opt/homebrew/bin/claude
+
+  if [ ! -x "$TMUX_BIN" ] || [ ! -x "$CLAUDE_BIN" ]; then
+    reconnect_status="tmux か claude が見つからない"
+  elif "$TMUX_BIN" has-session -t "$TMUX_SESSION" 2>/dev/null; then
+    reconnect_status="既に起動している"
+  else
+    # 直近の会話を選ぶ。**新しい会話を作らない。** 文脈が失われるため
+    PROJ="$HOME/.claude/projects/-Users-ny--projects-anta-baka-x-blog"
+    SID="$(ls -t "$PROJ"/*.jsonl 2>/dev/null | head -1 | sed 's#.*/##; s#\.jsonl$##')"
+    if [ -z "$SID" ]; then
+      reconnect_status="復旧する会話が見つからない"
+    elif "$TMUX_BIN" new -d -s "$TMUX_SESSION" \
+           "cd '$MAIN_REPO' && '$CLAUDE_BIN' --resume $SID" 2>/dev/null; then
+      sleep 25
+      "$TMUX_BIN" send-keys -t "$TMUX_SESSION" "/remote-control" Enter 2>/dev/null || true
+      reconnect_status="起動して /remote-control を送った"
+    else
+      reconnect_status="tmux の起動に失敗した"
+    fi
+  fi
+fi
+
 # --- worktree を用意する（初回のみ） -------------------------------------
 
 git -C "$MAIN_REPO" fetch -q origin "$BRANCH" 2>/dev/null || true
@@ -230,6 +275,7 @@ fi
   done
   [ $first -eq 0 ] && echo ""
   echo "  ],"
+  echo "  \"reconnect\": \"$reconnect_status\","
   echo "  \"auth\": {"
   echo "    \"ok\": $auth_ok,"
   echo "    \"expires_at\": $auth_expires,"

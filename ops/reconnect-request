@@ -1,0 +1,15 @@
+このファイルが origin/main に存在する間、scripts/ops-heartbeat.sh は
+Mac 上で切れた /remote-control 接続を繋ぎ直そうとする。
+
+作成: 2026-08-17
+理由: Mac の remote-control 接続が切れ、クラウドからの依頼が
+      SESSION_STATUS_PENDING のまま届かなくなった。利用者は外出中で
+      PC を開けないため、30 分ごとに走る heartbeat から復旧させる。
+
+やること:
+  1. tmux セッション dhblog2 が無ければ作る
+  2. ~/.claude/projects/-Users-ny--projects-anta-baka-x-blog/ の
+     最新の会話を claude --resume で開く（新しい会話は作らない）
+  3. /remote-control を送る
+
+**繋がったらこのファイルを消すこと。** 残しておく必要はない。
