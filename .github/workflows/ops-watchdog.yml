@@ -29,6 +29,9 @@ jobs:
       EXPECTED_JOBS: 'ai.openclaw.comment-warmup ai.openclaw.incoming-reply-watcher ai.openclaw.gateway ai.openclaw.node'
       # OAuth の残り時間がこれを切ったら、失効「前」に鳴らす
       AUTH_WARN_HOURS: '24'
+      # comment-warmup は 03/07/10/13 UTC に発火する。この時刻を過ぎて投稿ゼロなら、
+      # ジョブは載っているのに実際は動いていない（＝今回の事故と同じ形）
+      ACTIVITY_CHECK_AFTER_UTC_HOUR: '14'
     steps:
       - name: Fetch heartbeat branch
         id: fetch
@@ -82,6 +85,12 @@ jobs:
             auth_hours=$(( ( $(date -u -d "$auth_exp" +%s) - $(date -u +%s) ) / 3600 ))
           fi
 
+          # 本日の実投稿数。**ジョブが載っていることは動いている証拠にならない。**
+          # 「載っているのに 0 件」がまさに今回の事故の形なので、そこを鳴らす。
+          posted=$(jq -r '.activity.posted_today // 0' hb/heartbeat.json)
+          act_detail=$(jq -r '.activity.detail // "欄なし"' hb/heartbeat.json)
+          act_sources=$(jq -r '[.activity.sources[]? | "\(.file)=\(.count)"] | join(" ")' hb/heartbeat.json)
+
           {
             echo "### ops-watchdog"
             echo ""
@@ -90,6 +99,7 @@ jobs:
             echo "- 稼働ジョブ: $(printf '%s\n' "$jobs" | grep -c . || true) 件"
             [ -n "$missing" ] && echo "- **欠落:**$missing"
             echo "- 認証: \`$auth_ok\`（$auth_detail）${auth_hours:+ / 残り ${auth_hours} 時間}"
+            echo "- 本日の投稿: **${posted} 件**（$act_detail）${act_sources:+ / $act_sources}"
           } >> "$GITHUB_STEP_SUMMARY"
 
           problem=""
@@ -102,6 +112,13 @@ jobs:
              && [ "$auth_ok" != "false" ]; then
             problem="${problem:+$problem,}auth_soon"
           fi
+          # 載っているのに打てていない。ログを実際に走査できた場合だけ判定する
+          # （判定不能を 0 件と混同しない）。発火時刻を過ぎてから見る。
+          if [ "$act_detail" = "ログを走査した" ] && [ "$posted" -eq 0 ] \
+             && [ "$(date -u +%H)" -ge "$ACTIVITY_CHECK_AFTER_UTC_HOUR" ] \
+             && printf '%s\n' "$jobs" | grep -q 'comment-warmup'; then
+            problem="${problem:+$problem,}silent"
+          fi
 
           {
             echo "age=$age"
@@ -111,6 +128,7 @@ jobs:
             echo "auth_ok=$auth_ok"
             echo "auth_detail=$auth_detail"
             echo "auth_hours=$auth_hours"
+            echo "posted=$posted"
             echo "problem=$problem"
           } >> "$GITHUB_OUTPUT"
 
@@ -124,6 +142,7 @@ jobs:
           MISSING: ${{ steps.evaluate.outputs.missing }}
           AUTH_DETAIL: ${{ steps.evaluate.outputs.auth_detail }}
           AUTH_HOURS: ${{ steps.evaluate.outputs.auth_hours }}
+          POSTED: ${{ steps.evaluate.outputs.posted }}
           PROBLEM: ${{ steps.evaluate.outputs.problem }}
         run: |
           set -uo pipefail
@@ -153,6 +172,13 @@ jobs:
               *auth*)
                 echo "• *Claude の認証が失効している*（${AUTH_DETAIL}）"
                 echo "  Mac のセッションは何を送っても返さない状態。\`/login\` が必要。"
+                ;;
+            esac
+            case "$PROBLEM" in
+              *silent*)
+                echo "• *ジョブは載っているのに、本日の投稿が 0 件*"
+                echo "  comment-warmup は稼働中の扱いだが実際は打てていない。"
+                echo "  認証切れ・生成失敗・X へのログイン切れのいずれかを疑う。"
                 ;;
             esac
             echo ""
