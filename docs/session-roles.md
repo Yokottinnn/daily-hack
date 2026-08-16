@@ -78,6 +78,19 @@
   直接直さず依頼表に書く。
 - 書く前に `git pull`。
 
+## Mac 上のセッション（`daily-hack-blog2`）を消さない
+
+`daily-hack-blog2` は **bridge セッション**で、Mac の CLI を `/remote-control` で公開したもの。
+実行される場所が Mac なので、**OpenClaw・launchd・実ブラウザに触れるのはここだけ**。
+クラウドの blog3 / tweet2 からは SSH が届かない（2026-08-11 に実測・`session-recovery.md`）。
+
+- **アーカイブしない。** 会話ログを書き出して読めるようになっても、
+  **写しは実行環境の代わりにならない。**
+- 名前は `blog2` だが、実際にやっているのは **X 運用の実行**（tweet2 の領分の手足）。
+  役割で混同しないこと。
+- 認証切れで無応答になったら、消さずに `claude --resume 7d5942fa-f5b8-4d5d-b1f9-ef8574d48450`
+  で開き直す。手順は [`docs/session-recovery.md`](./session-recovery.md)。
+
 ## 関連
 
 - [`docs/cross-session-requests.md`](./cross-session-requests.md) — セッション間の依頼表
