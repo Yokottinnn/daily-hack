@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T08:47:36Z",
+  "generated_at": "2026-08-18T09:17:42Z",
   "host": "NaokinoMBP-2",
   "job_count": 12,
   "jobs": [
@@ -18,9 +18,9 @@
   ],
   "reconnect": "復旧する会話が見つからない",
   "auth": {
-    "ok": false,
-    "expires_at": "2026-08-18T01:27:32Z",
-    "detail": "トークンの有効期限を過ぎている"
+    "ok": true,
+    "expires_at": "2026-08-18T17:07:34Z",
+    "detail": "有効期限内"
   },
   "activity": {
     "date": "2026-08-18",
