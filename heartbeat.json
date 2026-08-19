@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T02:51:04Z",
+  "generated_at": "2026-08-19T03:21:10Z",
   "host": "NaokinoMBP-2",
   "job_count": 12,
   "jobs": [
@@ -24,9 +24,12 @@
   },
   "activity": {
     "date": "2026-08-19",
-    "posted_today": 0,
+    "posted_today": 6,
     "detail": "ログを走査した",
-    "sources": []
+    "sources": [
+      {"file": "comment-orchestrator.log", "count": 2},
+      {"file": "comment-warmup.log", "count": 4}
+    ]
   },
   "reloaders": [
       {"label": "ai.openclaw.slack-watchdog", "interval": "", "program": "/bin/bash /Users/ny/.openclaw/workspace/scripts/run-slack-watchdog.sh RunAtLoad StandardErrorPath /Users/ny/.openclaw/workspace/logs/slack-watchdog-err.log StandardOutPath /Users/ny/.openclaw/workspace/logs/slack-watchdog.log ThrottleInterval"},
