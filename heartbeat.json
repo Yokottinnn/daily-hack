@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T14:53:53Z",
+  "generated_at": "2026-08-19T15:24:04Z",
   "host": "NaokinoMBP-2",
   "job_count": 12,
   "jobs": [
@@ -16,7 +16,7 @@
     "com.dailyhack.rc-keeper",
     "com.dailyhack.weekly-blog-report"
   ],
-  "reconnect": "起動して /remote-control を送った",
+  "reconnect": "既に起動している",
   "auth": {
     "ok": false,
     "expires_at": "2026-08-19T08:47:36Z",
