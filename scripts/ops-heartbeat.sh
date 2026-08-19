@@ -77,8 +77,19 @@ if git -C "$MAIN_REPO" cat-file -e origin/main:ops/reconnect-request 2>/dev/null
     reconnect_status="既に起動している"
   else
     # 直近の会話を選ぶ。**新しい会話を作らない。** 文脈が失われるため
-    PROJ="$HOME/.claude/projects/-Users-ny--projects-anta-baka-x-blog"
-    SID="$(ls -t "$PROJ"/*.jsonl 2>/dev/null | head -1 | sed 's#.*/##; s#\.jsonl$##')"
+    # **ディレクトリ名を決め打ちしない。** 2026-08-19 に
+    # `-Users-ny--projects-anta-baka-x-blog` と書いて外した（ダッシュが 1 つ多い）。
+    # Claude Code は `/` も `.` も `-` に置き換えるため、ドットを含むパスだけが
+    # 二重ダッシュになる。`/Users/ny/.openclaw/workspace` → `-Users-ny--openclaw-workspace`、
+    # `/Users/ny/projects/anta-baka-x/blog` → `-Users-ny-projects-anta-baka-x-blog`。
+    #
+    # 規則を推測して書くより、**実在するディレクトリから探す**ほうが確実。
+    SID=""
+    for d in "$HOME"/.claude/projects/*anta-baka-x-blog; do
+      [ -d "$d" ] || continue
+      SID="$(ls -t "$d"/*.jsonl 2>/dev/null | head -1 | sed 's#.*/##; s#\.jsonl$##')"
+      [ -n "$SID" ] && break
+    done
     if [ -z "$SID" ]; then
       reconnect_status="復旧する会話が見つからない"
     elif "$TMUX_BIN" new -d -s "$TMUX_SESSION" \
