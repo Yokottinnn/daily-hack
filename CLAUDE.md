@@ -87,6 +87,9 @@
   前提が書けないなら「未確定」と言う。**それらしい数字を置かない。**
 - **量を増やす提案は、増加後の月額を必ず併記する。** 「上限を 8 件から 32 件に上げる」は
   コスト 4 倍の提案であり、その事実を伏せて出さない。
+- **上限の数字を、実績のように出さない。** 上限は「暴走してもここで止まる」安全弁であって、
+  予想コストではない。両方を出すときはどちらがどちらかを明示する。
+  実際に、実績の 10〜20 倍にあたる上限値を実績のように並べ、利用者に指摘された。
 - 現在稼働中のジョブの実額は
   [`docs/recurring-job-costs.md`](docs/recurring-job-costs.md) に置く。**変更したら更新する。**
 
@@ -137,11 +140,52 @@ OpenClaw は利用者の Mac（`home-mac` / 192.168.2.102）で動く常駐エ�
 
 | 項目 | 内容 |
 | --- | --- |
-| Slack チャンネル | `C0A5FKU7T5M`（通知・草案共有の宛先） |
+| Slack チャンネル | **2 つある。用途が違う**（下表） |
 | Jordan の Slack ID | `U0A5V22PVTQ`（**fieldbeside** ワークスペース） |
 | Slack 投稿トークン | `~/openclaw/config/.env` の `OPENCLAW_BOT_TOKEN` |
 | 記事公開 | `scripts/blog-publish.sh <slug> "<title>"` を OpenClaw が呼ぶ（ビルド検証 → PR 作成） |
 | 定期ジョブ | `ai.openclaw.sitemap-autosubmit` / `ai.openclaw.seo-health`（launchd） |
+
+### Mac への依頼はトリガー経路に一本化する。Slack に書いた依頼は届かない
+
+**Slack は報告を受け取る場所であって、依頼を出す場所ではない。**
+
+`C0A5FKU7T5M` に「OpenClaw:」名義で返ってきていた長文の作業報告は、
+**Mac の Claude セッションがボットトークンで投稿していたもの**で、
+`create_trigger` / `fire_trigger` で送った依頼への応答だった。
+`C0B4CJHH797` の稼働報告は launchd のジョブが定期的に出しているだけで、
+**Slack に書いた依頼を読む主体は確認できていない。**
+
+```text
+依頼: create_trigger（persistent_session_id = Mac セッション）→ fire_trigger
+報告: Slack（両チャンネル）／ PR ／ ops/heartbeat のいずれか
+```
+
+トリガーには落とし穴が 2 つある。
+
+- **毎回新しく作る。** 使い回して `fire_trigger` すると別セッションに紐づくことがある。
+  応答の `session_id` の末尾が対象セッション ID と一致していることを必ず確認する
+- **コネクタは乗らない。** 起動されたターンに `mcp__Slack__*` が無いため、
+  Slack へ出させるなら `OPENCLAW_BOT_TOKEN` を使った `curl` を依頼文に書く
+
+### Slack チャンネルは 2 つある。片方だけ見て「沈黙」と判断しない
+
+| チャンネル | ID | 流れているもの |
+| --- | --- | --- |
+| `#fun_reward-hack_tweet` | `C0A5FKU7T5M` | X 投稿の草案・承認（👍）・投稿結果 |
+| `#fun_reward-hack_blog` | `C0B4CJHH797` | **OpenClaw の稼働報告・異常検知・復旧通知** |
+
+2026-08-16 に、`C0A5FKU7T5M` だけを見て **OpenClaw が 10 時間沈黙していると誤認した。**
+実際には `C0B4CJHH797` へ稼働報告が届き続けていた。
+
+```text
+✅ OpenClaw 復旧  2026-08-16 17:46:31
+• Listener process: running (pid=850)
+• Listener log: listener.log fresh (2.8min ago)
+```
+
+**「応答が無い」と判断する前に、両方を見る。** 依頼を出すときも、OpenClaw の稼働に
+関わるものは `C0B4CJHH797` に送る。
 
 `main` は保護ブランチで直接 push できない。OpenClaw も Claude も必ず PR 経由で入れる。
 

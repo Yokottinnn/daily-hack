@@ -25,6 +25,84 @@ die() { echo "ops-heartbeat: $1" >&2; exit 1; }
 
 [ -d "$MAIN_REPO/.git" ] || die "リポジトリが見つからない: $MAIN_REPO"
 
+# --- 自分自身を最新にしてから走る -------------------------------------------
+#
+# main にマージしても、このスクリプトは Mac 上の古いままだった。
+# 2026-08-16 に実測: #171 をマージした 18 分後の heartbeat に、新しい項目が
+# 一切載っていなかった。**誰かが手で pull しない限り反映されない構造**だった。
+#
+# このジョブは 30 分ごとに確実に走る唯一のものなので、ここで自分を更新する。
+#
+# **作業ツリーには触らない。** `git pull` すると Mac 上で進行中の作業と衝突しうる。
+# origin/main から中身だけ取り出して、それを実行し直す。
+
+if [ -z "${OPS_HEARTBEAT_SELF_UPDATED:-}" ]; then
+  latest="${TMPDIR:-/tmp}/ops-heartbeat-latest.sh"
+  git -C "$MAIN_REPO" fetch -q origin main 2>/dev/null || true
+  if git -C "$MAIN_REPO" show origin/main:scripts/ops-heartbeat.sh > "$latest" 2>/dev/null \
+     && [ -s "$latest" ] && ! cmp -s "$latest" "$0"; then
+    echo "ops-heartbeat: 新しい版に入れ替えて実行し直す" >&2
+    # 環境変数で 1 回だけに制限する。取り違えても無限ループにならない
+    OPS_HEARTBEAT_SELF_UPDATED=1 exec /bin/bash "$latest" "$@"
+  fi
+fi
+
+# --- 切れた remote-control を繋ぎ直す（フラグがあるときだけ） ---------------
+#
+# 2026-08-17、Mac 側の `/remote-control` 接続が切れ、クラウドからの依頼が
+# `SESSION_STATUS_PENDING` のまま届かなくなった。利用者は外出中で PC を開けない。
+#
+# Mac 本体と launchd は生きている（heartbeat が届き続けている）ため、
+# **この 30 分ごとのジョブが、クラウドから Mac を動かせる唯一の経路**になる。
+#
+# 危険な操作なので、**リポジトリにフラグファイルがあるときだけ**動く。
+# 不要になったら `ops/reconnect-request` を消せば止まる。
+
+# フラグは **作業ツリーではなく `origin/main` を見る。**
+# Mac の作業ツリーは誰かが pull しない限り古いままで、置いたファイルが見えない。
+# 自己更新の直前で `git fetch origin main` を済ませてあるので、これで最新が引ける。
+TMUX_SESSION="${OPS_RECONNECT_TMUX:-dhblog2}"
+reconnect_status="無効（フラグ無し）"
+
+if git -C "$MAIN_REPO" cat-file -e origin/main:ops/reconnect-request 2>/dev/null; then
+  # launchd は PATH が最小限。絶対パスで拾えるようにしておく
+  TMUX_BIN="$(command -v tmux 2>/dev/null || true)"
+  [ -n "$TMUX_BIN" ] || TMUX_BIN=/opt/homebrew/bin/tmux
+  CLAUDE_BIN="$(command -v claude 2>/dev/null || true)"
+  [ -n "$CLAUDE_BIN" ] || CLAUDE_BIN=/opt/homebrew/bin/claude
+
+  if [ ! -x "$TMUX_BIN" ] || [ ! -x "$CLAUDE_BIN" ]; then
+    reconnect_status="tmux か claude が見つからない"
+  elif "$TMUX_BIN" has-session -t "$TMUX_SESSION" 2>/dev/null; then
+    reconnect_status="既に起動している"
+  else
+    # 直近の会話を選ぶ。**新しい会話を作らない。** 文脈が失われるため
+    # **ディレクトリ名を決め打ちしない。** 2026-08-19 に
+    # `-Users-ny--projects-anta-baka-x-blog` と書いて外した（ダッシュが 1 つ多い）。
+    # Claude Code は `/` も `.` も `-` に置き換えるため、ドットを含むパスだけが
+    # 二重ダッシュになる。`/Users/ny/.openclaw/workspace` → `-Users-ny--openclaw-workspace`、
+    # `/Users/ny/projects/anta-baka-x/blog` → `-Users-ny-projects-anta-baka-x-blog`。
+    #
+    # 規則を推測して書くより、**実在するディレクトリから探す**ほうが確実。
+    SID=""
+    for d in "$HOME"/.claude/projects/*anta-baka-x-blog; do
+      [ -d "$d" ] || continue
+      SID="$(ls -t "$d"/*.jsonl 2>/dev/null | head -1 | sed 's#.*/##; s#\.jsonl$##')"
+      [ -n "$SID" ] && break
+    done
+    if [ -z "$SID" ]; then
+      reconnect_status="復旧する会話が見つからない"
+    elif "$TMUX_BIN" new -d -s "$TMUX_SESSION" \
+           "cd '$MAIN_REPO' && '$CLAUDE_BIN' --resume $SID" 2>/dev/null; then
+      sleep 25
+      "$TMUX_BIN" send-keys -t "$TMUX_SESSION" "/remote-control" Enter 2>/dev/null || true
+      reconnect_status="起動して /remote-control を送った"
+    else
+      reconnect_status="tmux の起動に失敗した"
+    fi
+  fi
+fi
+
 # --- worktree を用意する（初回のみ） -------------------------------------
 
 git -C "$MAIN_REPO" fetch -q origin "$BRANCH" 2>/dev/null || true
@@ -92,10 +170,21 @@ done
 #
 # そこでログから「今日いくつ投稿したか」を数え、押し出す。
 # ログの場所は docs/openclaw-recovery.md に記録がある実在のパス。
+#
+# **検出条件は実機のログ書式に合わせること。** 最初の実装は `tweet_id` という文字列と
+# `2026-08-16` 形式の日付を条件にしていたが、実機の成功記録は次の形で、
+# **どちらも含まれていなかった。** 投稿があっても 0 件と数えていた。
+#
+#   {"ok":true,"entry_id":"comment-20260816-...
+#   [2026-08-16T19:03:05] today's reply-conn...
+#
+# 日付の表記が 2 通りある（`20260816` と `2026-08-16`）ため、両方を見る。
 
 LOGS="${OPENCLAW_LOGS:-$HOME/.openclaw/workspace/logs}"
 today="$(date -u +%Y-%m-%d)"
 today_local="$(date +%Y-%m-%d)"
+today_plain="$(date +%Y%m%d)"
+today_plain_utc="$(date -u +%Y%m%d)"
 posted_today=0
 activity_sources=""
 activity_detail="判定不能"
@@ -105,9 +194,12 @@ if [ -d "$LOGS" ]; then
   first_src=1
   for f in "$LOGS"/*.log; do
     [ -e "$f" ] || continue
-    # 今日の日付を含む行のうち、投稿の痕跡（tweet_id）があるものを数える。
-    # 日付は UTC / ローカルの両方を見る。ログの表記が混在しているため。
-    n="$(grep -E "$today|$today_local" "$f" 2>/dev/null | grep -c 'tweet_id' || true)"
+    # 成功記録は 2 通りの書き方をされている。grep -c は行単位で数えるため、
+    # 両方に当たる行があっても二重には数えない。
+    #   1. JSON 形式:  {"ok":true,"entry_id":"comment-20260816-...
+    #   2. 行頭に日時: [2026-08-16T19:03:05] ... tweet_id ...
+    n="$(grep -cE "(\"ok\":true.*(${today_plain}|${today_plain_utc}))|((${today}|${today_local}).*tweet_id)" \
+      "$f" 2>/dev/null || true)"
     [ "${n:-0}" -eq 0 ] && continue
     posted_today=$((posted_today + n))
     [ $first_src -eq 1 ] && first_src=0 || activity_sources="$activity_sources,"
@@ -149,20 +241,24 @@ if [ -n "$auth_err" ]; then
   auth_detail="直近の会話ログに認証エラーが出ている"
 fi
 
-# 2) Keychain からトークンの有効期限を読む。
-#    launchd からはキーチェーンを読めないことがある（§16 の -25308 と同じ罠）。
-#    読めなければ判定不能のままにする。**読めないことを異常として扱わない。**
+# 2) トークンの有効期限を読む。
+#
+#    最初の実装は python3 で JSON を解いていたが、実機（手動実行・Keychain 読める状態）
+#    でも判定不能のままだった。**解析側が動いていなかった。**
+#    macOS の `/usr/bin/python3` は Command Line Tools を要求することがあり、
+#    その場合は黙って失敗する。**外部インタプリタに依存しない形に変える。**
+#
+#    Keychain が読めないときのために、ファイル側も見る。
+#    ただしファイルは古いことがある（再ログインしても更新されない）ため Keychain を優先する。
 cred="$(security find-generic-password -s 'Claude Code-credentials' -w 2>/dev/null || true)"
+if [ -z "$cred" ] && [ -f "$HOME/.claude/.credentials.json" ]; then
+  cred="$(cat "$HOME/.claude/.credentials.json" 2>/dev/null || true)"
+fi
 if [ -n "$cred" ]; then
+  # "expiresAt": 1760000000000 から数字だけを取り出す。grep だけで完結させる。
   exp_ms="$(printf '%s' "$cred" \
-    | /usr/bin/python3 -c 'import json,sys
-try:
-    d = json.load(sys.stdin)
-    while isinstance(d, dict) and "expiresAt" not in d:
-        d = next((v for v in d.values() if isinstance(v, dict)), None)
-    print(int(d["expiresAt"]) if d else "")
-except Exception:
-    print("")' 2>/dev/null)"
+    | grep -o '"expiresAt"[[:space:]]*:[[:space:]]*[0-9]*' \
+    | grep -oE '[0-9]+$' | head -1)"
   if [ -n "$exp_ms" ]; then
     auth_expires="\"$(date -u -r "$((exp_ms / 1000))" +%Y-%m-%dT%H:%M:%SZ)\""
     if [ "$auth_ok" = "null" ]; then
@@ -190,6 +286,7 @@ fi
   done
   [ $first -eq 0 ] && echo ""
   echo "  ],"
+  echo "  \"reconnect\": \"$reconnect_status\","
   echo "  \"auth\": {"
   echo "    \"ok\": $auth_ok,"
   echo "    \"expires_at\": $auth_expires,"
