@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T15:03:21Z",
+  "generated_at": "2026-08-21T15:33:27Z",
   "host": "NaokinoMBP-2",
   "job_count": 15,
   "jobs": [
@@ -20,14 +20,11 @@
     "com.dailyhack.weekly-blog-report"
   ],
   "reconnect": "既に起動している",
-  "tasks": [
-      {"task": "001-load-follower-snapshot.sh", "rc": 0, "out": "ロード成功"},
-      {"task": "002-load-seo-jobs.sh", "rc": 0, "out": "ok=2 ng=0: sitemap-autosubmit=ロード成功 seo-health=ロード成功"}
-  ],
+  "tasks": [],
   "auth": {
-    "ok": false,
-    "expires_at": "2026-08-21T07:47:40Z",
-    "detail": "トークンの有効期限を過ぎている"
+    "ok": true,
+    "expires_at": "2026-08-21T23:27:41Z",
+    "detail": "有効期限内"
   },
   "activity": {
     "date": "2026-08-21",
