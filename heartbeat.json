@@ -1,13 +1,16 @@
 {
-  "generated_at": "2026-08-21T14:33:02Z",
+  "generated_at": "2026-08-21T15:03:21Z",
   "host": "NaokinoMBP-2",
-  "job_count": 12,
+  "job_count": 15,
   "jobs": [
     "ai.openclaw.comment-warmup",
+    "ai.openclaw.follower-snapshot",
     "ai.openclaw.gateway",
     "ai.openclaw.import-manual-image",
     "ai.openclaw.incoming-reply-watcher",
     "ai.openclaw.node",
+    "ai.openclaw.seo-health",
+    "ai.openclaw.sitemap-autosubmit",
     "ai.openclaw.slack-watchdog",
     "ai.openclaw.tab-guard",
     "com.dailyhack.openclaw.heartbeat",
@@ -17,6 +20,10 @@
     "com.dailyhack.weekly-blog-report"
   ],
   "reconnect": "既に起動している",
+  "tasks": [
+      {"task": "001-load-follower-snapshot.sh", "rc": 0, "out": "ロード成功"},
+      {"task": "002-load-seo-jobs.sh", "rc": 0, "out": "ok=2 ng=0: sitemap-autosubmit=ロード成功 seo-health=ロード成功"}
+  ],
   "auth": {
     "ok": false,
     "expires_at": "2026-08-21T07:47:40Z",
