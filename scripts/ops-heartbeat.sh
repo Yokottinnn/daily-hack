@@ -123,6 +123,43 @@ else
   git -C "$WT" reset -q --hard "origin/$BRANCH" 2>/dev/null || true
 fi
 
+# --- コミットされたタスクを Mac 上で実行する --------------------------------
+#
+# **これがクラウドから Mac へ仕事を渡す正式な経路。**
+#
+# それまでは Mac の Claude セッションに依頼していたが、その経路は
+#   1. remote-control の接続  2. OAuth の認証  3. 会話 ID の一致
+# の 3 つすべてに依存し、どれか 1 つ壊ると全部止まる。2026-08-16〜19 に
+# 3 つとも壊れ、**依頼が 3 日間 1 件も届かなかった。**
+#
+# このジョブは launchd から 30 分ごとに走り、接続にも認証にも依存しない。
+# `ops/tasks/*.sh` をコミットすれば、30 分以内に Mac で実行される。
+#
+# 実行済みの印は heartbeat ブランチ側に残す（push されるので二重実行しない）。
+# **出力は 300 字で切る。** 公開リポジトリに載るため、タスク側で秘密を出さないこと。
+
+tasks_result=""
+first_task=1
+mkdir -p "$WT/done"
+task_tmp="${TMPDIR:-/tmp}/ops-tasks"
+mkdir -p "$task_tmp"
+
+for t in $(git -C "$MAIN_REPO" ls-tree --name-only "origin/main:ops/tasks" 2>/dev/null); do
+  case "$t" in *.sh) ;; *) continue ;; esac
+  [ -f "$WT/done/$t" ] && continue
+  git -C "$MAIN_REPO" show "origin/main:ops/tasks/$t" > "$task_tmp/$t" 2>/dev/null || continue
+  [ -s "$task_tmp/$t" ] || continue
+
+  out="$(/bin/bash "$task_tmp/$t" 2>&1)"
+  rc=$?
+  out="$(printf '%s' "$out" | tail -5 | tr '\n' ' ' | tr -d '"\\' | cut -c1-300)"
+  printf '%s rc=%s\n' "$(date -u +%Y-%m-%dT%H:%M:%SZ)" "$rc" > "$WT/done/$t"
+
+  [ $first_task -eq 1 ] && first_task=0 || tasks_result="$tasks_result,"
+  tasks_result="$tasks_result
+      {\"task\": \"$t\", \"rc\": $rc, \"out\": \"$out\"}"
+done
+
 # --- 現在の稼働状況を集める ----------------------------------------------
 
 now="$(date -u +%Y-%m-%dT%H:%M:%SZ)"
@@ -287,6 +324,12 @@ fi
   [ $first -eq 0 ] && echo ""
   echo "  ],"
   echo "  \"reconnect\": \"$reconnect_status\","
+  if [ -n "$tasks_result" ]; then
+    echo "  \"tasks\": [$tasks_result"
+    echo "  ],"
+  else
+    echo "  \"tasks\": [],"
+  fi
   echo "  \"auth\": {"
   echo "    \"ok\": $auth_ok,"
   echo "    \"expires_at\": $auth_expires,"
