@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T23:30:07Z",
+  "generated_at": "2026-08-21T00:00:12Z",
   "host": "NaokinoMBP-2",
   "job_count": 12,
   "jobs": [
@@ -18,18 +18,15 @@
   ],
   "reconnect": "既に起動している",
   "auth": {
-    "ok": false,
-    "expires_at": "2026-08-20T16:07:38Z",
-    "detail": "トークンの有効期限を過ぎている"
+    "ok": true,
+    "expires_at": "2026-08-21T07:47:40Z",
+    "detail": "有効期限内"
   },
   "activity": {
-    "date": "2026-08-20",
-    "posted_today": 21,
+    "date": "2026-08-21",
+    "posted_today": 0,
     "detail": "ログを走査した",
-    "sources": [
-      {"file": "comment-orchestrator.log", "count": 7},
-      {"file": "comment-warmup.log", "count": 14}
-    ]
+    "sources": []
   },
   "reloaders": [
       {"label": "ai.openclaw.slack-watchdog", "interval": "", "program": "/bin/bash /Users/ny/.openclaw/workspace/scripts/run-slack-watchdog.sh RunAtLoad StandardErrorPath /Users/ny/.openclaw/workspace/logs/slack-watchdog-err.log StandardOutPath /Users/ny/.openclaw/workspace/logs/slack-watchdog.log ThrottleInterval"},
