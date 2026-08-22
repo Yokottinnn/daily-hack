@@ -146,10 +146,9 @@ jobs:
           PROBLEM: ${{ steps.evaluate.outputs.problem }}
         run: |
           set -uo pipefail
-          if [ -z "${SLACK_WEBHOOK_URL:-}" ]; then
-            echo "SLACK_WEBHOOK_URL が未設定のため通知できない" >&2
-            exit 1
-          fi
+          # **本文を先に組み立てる。** 2026-08-22 まで、シークレット未設定のときに
+          # 本文を作る前に exit 1 していたため、「何が異常なのか」がどこにも
+          # 残らなかった。検知は 87 回動いていたのに、中身は一度も読めていない。
           {
             echo "🚨 *X運用の異常を検知（GitHub Actions からの外部監視）*"
             echo ""
@@ -185,6 +184,29 @@ jobs:
             echo "最終 heartbeat: ${GEN} / host: ${HOST}"
             echo "復旧手順: docs/openclaw-recovery.md"
           } > msg.txt
+
+          # **必ず GitHub 側にも残す。** Slack が死んでいても、失敗メールと
+          # 実行画面から本文が読める状態にしておく。
+          {
+            echo ""
+            echo "### 検知した異常"
+            echo ""
+            echo '```text'
+            cat msg.txt
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+
+          if [ -z "${SLACK_WEBHOOK_URL:-}" ]; then
+            {
+              echo ""
+              echo "> ⚠️ **\`SLACK_WEBHOOK_URL\` が未設定のため Slack へ送れていない。**"
+              echo "> Settings → Secrets and variables → Actions で登録すると鳴るようになる。"
+              echo "> 登録手順は \`docs/ops-watchdog.md\` を参照。"
+            } >> "$GITHUB_STEP_SUMMARY"
+            echo "SLACK_WEBHOOK_URL が未設定のため Slack へ通知できない（本文はサマリに出した）" >&2
+            exit 0
+          fi
+
           jq -Rs '{text: .}' msg.txt > payload.json
           curl -sS -X POST "$SLACK_WEBHOOK_URL" \
             -H 'Content-Type: application/json' --data @payload.json

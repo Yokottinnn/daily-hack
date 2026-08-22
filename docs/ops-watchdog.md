@@ -201,3 +201,38 @@ git fetch origin ops/heartbeat && git show origin/ops/heartbeat:heartbeat.json
 ワークフローは手動でも起動できる（Actions タブの `ops-watchdog` → Run workflow）。
 **閾値を跨いだときに実際に Slack が鳴るかは、一度手で確かめておくこと。**
 鳴らない監視は無いのと同じで、それが今回の事故の本質だった。
+
+## 2026-08-22: 87 回検知していたのに、一度も鳴っていなかった
+
+**このファイルには既に「鳴らない監視は無いのと同じ」と書いてあった。**
+それでも実際に鳴らしてみる確認をしなかったため、次の状態が続いていた。
+
+```text
+AUTH_HOURS: 4
+PROBLEM: auth_soon
+SLACK_WEBHOOK_URL が未設定のため通知できない
+##[error]Process completed with exit code 1
+```
+
+**検知は正常に動いていた。送信だけが動いていなかった。**
+`SLACK_WEBHOOK_URL` シークレットが空で、しかも当時のコードは
+**本文を組み立てる前に `exit 1`** していたため、
+「何が異常だったのか」がどこにも残らなかった。実行は 87 回積み上がっていたのに、
+中身は一度も読めていない。
+
+### 直したこと
+
+1. **本文を先に組み立てる。** シークレットの有無に関係なく `msg.txt` を作る。
+2. **必ず `$GITHUB_STEP_SUMMARY` に本文を出す。** Slack が死んでいても、
+   失敗メールと Actions の実行画面から読める。
+3. シークレット未設定なら Slack 送信だけ飛ばす（`exit 0`）。
+   異常そのものは次のステップが `exit 1` で落とすので、失敗通知は今までどおり出る。
+
+### Webhook の登録手順
+
+1. Slack で Incoming Webhook を作る（対象チャンネル: `#fun_reward-hack_blog` / `C0B4CJHH797`）
+2. GitHub の **Settings → Secrets and variables → Actions → New repository secret**
+3. Name に `SLACK_WEBHOOK_URL`、Value に発行された URL
+4. Actions タブ → `ops-watchdog` → **Run workflow** で手動実行し、**実際に鳴ることを見る**
+
+**4 を飛ばさない。** 飛ばしたせいで 87 回分を無駄にした。
