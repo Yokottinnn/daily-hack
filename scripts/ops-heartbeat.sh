@@ -144,6 +144,12 @@ mkdir -p "$WT/done"
 task_tmp="${TMPDIR:-/tmp}/ops-tasks"
 mkdir -p "$task_tmp"
 
+# タスクが長い出力を返せる置き場。**300 字では実機の構造を持ち帰れない。**
+# ここに書いたファイルは heartbeat と一緒に push される。
+# **秘密を書かないこと。** 公開リポジトリに載る。
+export OPS_REPORT_DIR="$WT/reports"
+mkdir -p "$OPS_REPORT_DIR"
+
 for t in $(git -C "$MAIN_REPO" ls-tree --name-only "origin/main:ops/tasks" 2>/dev/null); do
   case "$t" in *.sh) ;; *) continue ;; esac
   [ -f "$WT/done/$t" ] && continue
@@ -357,7 +363,15 @@ fi
 
 # --- push する -----------------------------------------------------------
 
-git -C "$WT" add heartbeat.json
+# `heartbeat.json` だけでなく、タスクが置いた報告（reports/）と
+# 実行済みの印（done/）も一緒に載せる。
+#
+# **実行済みの印を push する理由**: これまで印はローカルにしか無く、worktree が
+# 作り直されると同じタスクが再実行されていた。
+# **報告を push する理由**: 2026-08-22 に、タスクは成功したのに `tasks` の記録が
+# 履歴から消えていた（毎回 1 コミットに潰す設計のため）。実体でしか確認できず、
+# 自己申告を照合できなかった。
+git -C "$WT" add -A
 if git -C "$WT" diff --cached --quiet; then
   # 中身が同じでも「生きている」ことを示す必要があるため空コミットを打つ
   git -C "$WT" commit -q --allow-empty -m "ops: heartbeat $now ($count jobs)" || die "commit に失敗した"
