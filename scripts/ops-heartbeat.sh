@@ -205,6 +205,99 @@ for label in $jobs; do
       {\"label\": \"$label\", \"interval\": \"${interval}\", \"program\": \"${prog//\"/}\"}"
 done
 
+# --- plist はあるのに載っていないジョブを、全部あぶり出す -------------------
+#
+# **2026-08-22 の事故の根本原因はここにあった。**
+#
+# competitor-follower-follow（能動フォロー）は 7/07 に壊れて launchctl から
+# 消えたが、**46 日間 誰も気づかなかった。** badge-followback も 13 日間。
+# その間フォロワーは 12 日で +1 しか動いていない。
+#
+# なぜ気づけなかったか。監視は `launchctl list` の出力を見ていた。
+# **消えたジョブはそこに出てこない。** 見えないものは検知できない。
+#
+# 対策として EXPECTED_JOBS に名前を足したが、**それだけでは足りない。**
+# 手で保守するリストは、次に新しいジョブが増えたとき また同じ穴が開く。
+# 「足し忘れたジョブ」は「消えても気づかれないジョブ」になる。
+#
+# そこで **名前を列挙せずに検知する。**
+# `~/Library/LaunchAgents/` に plist があるのに `launchctl list` に無いものを
+# 全部並べる。無効化したいものは plist を .disabled / .bak にリネームする
+# 運用なので、**「.plist のまま載っていない」は原則すべて異常。**
+#
+# これなら私が名前を知らないジョブが壊れても捕まる。
+
+unloaded=""
+first_ul=1
+unloaded_count=0
+for plist in "$HOME/Library/LaunchAgents"/ai.openclaw.*.plist \
+             "$HOME/Library/LaunchAgents"/com.dailyhack.*.plist; do
+  [ -f "$plist" ] || continue
+  label="$(basename "$plist" .plist)"
+  # 無効化の意思表示（.disabled / .bak.*）は .plist で終わらないのでここに来ない
+  printf '%s\n' "$jobs" | grep -qx "$label" && continue
+  mtime="$(date -r "$plist" -u +%Y-%m-%dT%H:%M:%SZ 2>/dev/null || echo "")"
+  [ $first_ul -eq 1 ] && first_ul=0 || unloaded="$unloaded,"
+  unloaded="$unloaded
+      {\"label\": \"$label\", \"plist_mtime\": \"$mtime\"}"
+  unloaded_count=$((unloaded_count + 1))
+done
+
+# --- 成果そのものが止まっていないか（ジョブの生死は代理指標にすぎない）-----
+#
+# ジョブが載っていても、CDP が落ちていれば 1 件も実行されない。
+# 実際 7/07〜8/09 の competitor-follower-follow がその状態だった
+# （ログは動くが `scrape failure: ECONNREFUSED` の連発）。
+#
+# **だから最後は結果で見る。** フォロワー数が増えているかどうか。
+# これなら壊れ方を知らなくても、未知のジョブが死んでも、必ず捕まる。
+
+follower_now="null"
+follower_prev="null"
+follower_prev_date=""
+follower_days="null"
+FSLOG="$HOME/.openclaw/workspace/logs/follower-snapshot.log"
+if [ -f "$FSLOG" ]; then
+  # **行数で遡らない。** スナップショットの実行間隔を知らないまま「直近 N 件」で
+  # 比べると、間隔が短ければ数時間分を「成長が止まった」と誤報する。
+  # 誤報を出す監視は無視されるようになり、結局また見落とす。
+  #
+  # 日付ごとに最後の値を 1 つ取り、**日付が違う 2 点**で比べる。
+  # 日付が読めなければ null にして、watchdog 側の判定を丸ごと飛ばす
+  # （判定不能を「増えていない」と混同しない）。
+  pairs="$(grep -oE '[0-9]{4}-[0-9]{2}-[0-9]{2}[^}]*"count_today":[0-9]+' "$FSLOG" 2>/dev/null \
+    | sed -E 's/^([0-9]{4}-[0-9]{2}-[0-9]{2}).*"count_today":([0-9]+)$/\1 \2/' \
+    | awk '{ last[$1] = $2 } END { for (d in last) print d, last[d] }' \
+    | sort)"
+  if [ -n "$pairs" ]; then
+    follower_now="$(printf '%s\n' "$pairs" | tail -1 | awk '{print $2}')"
+    now_date="$(printf '%s\n' "$pairs" | tail -1 | awk '{print $1}')"
+    # 3 日以上前で、記録がある最も新しい日
+    cutoff="$(date -u -v-3d +%Y-%m-%d 2>/dev/null || date -u -d '3 days ago' +%Y-%m-%d 2>/dev/null || echo "")"
+    if [ -n "$cutoff" ]; then
+      older="$(printf '%s\n' "$pairs" | awk -v c="$cutoff" '$1 <= c' | tail -1)"
+      if [ -n "$older" ]; then
+        follower_prev="$(printf '%s' "$older" | awk '{print $2}')"
+        follower_prev_date="$(printf '%s' "$older" | awk '{print $1}')"
+        follower_days=$(( ( $(date -u -j -f %Y-%m-%d "$now_date" +%s 2>/dev/null || date -u -d "$now_date" +%s) \
+                          - $(date -u -j -f %Y-%m-%d "$follower_prev_date" +%s 2>/dev/null || date -u -d "$follower_prev_date" +%s) ) / 86400 ))
+      fi
+    fi
+  fi
+  [ -z "$follower_now" ] && follower_now="null"
+  [ -z "$follower_prev" ] && follower_prev="null"
+fi
+
+# 目標設定（014 までで target=300 / deadline=2026-09-30 を入れてある）
+follower_target="null"
+follower_deadline=""
+FCFG="$HOME/.openclaw/workspace/data/follower-target-config.json"
+if [ -f "$FCFG" ]; then
+  follower_target="$(grep -o '"target"[[:space:]]*:[[:space:]]*[0-9]*' "$FCFG" 2>/dev/null | grep -oE '[0-9]+' | head -1 || true)"
+  [ -z "$follower_target" ] && follower_target="null"
+  follower_deadline="$(grep -o '"deadline"[[:space:]]*:[[:space:]]*"[^"]*"' "$FCFG" 2>/dev/null | sed 's/.*"deadline"[[:space:]]*:[[:space:]]*"//; s/"$//' | head -1 || true)"
+fi
+
 # --- 本日の実活動を数える -------------------------------------------------
 #
 # ジョブが `launchctl list` に載っていることは、**リプが打てている証拠にならない。**
@@ -351,6 +444,23 @@ fi
   else
     echo "    \"sources\": []"
   fi
+  echo "  },"
+  # plist はあるのに載っていないもの。名前を列挙せずに「消えた」を検知する要
+  echo "  \"unloaded_count\": $unloaded_count,"
+  if [ -n "$unloaded" ]; then
+    echo "  \"unloaded\": [$unloaded"
+    echo "  ],"
+  else
+    echo "  \"unloaded\": [],"
+  fi
+  # 成果そのもの。ジョブの生死は代理指標にすぎないので、最後はここで見る
+  echo "  \"followers\": {"
+  echo "    \"now\": $follower_now,"
+  echo "    \"prev\": $follower_prev,"
+  echo "    \"prev_date\": \"$follower_prev_date\","
+  echo "    \"span_days\": $follower_days,"
+  echo "    \"target\": $follower_target,"
+  echo "    \"deadline\": \"$follower_deadline\""
   echo "  },"
   if [ -n "$reloaders" ]; then
     echo "  \"reloaders\": [$reloaders"
