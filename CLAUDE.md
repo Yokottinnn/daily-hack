@@ -133,6 +133,23 @@ Claude が X に直接投稿することはない。確立している経路は�
 更新していてマージ衝突が 2 回起きた。** 境界と受け渡しの詳細は
 [`docs/session-roles.md`](docs/session-roles.md) を参照。
 
+### 6. 記事を書く前に `blog-article` スキルを読む（例外なし）
+
+**記事の新規作成・加筆・リライト・画像の用意は、`blog-article` スキルを読んでから着手する。**
+本文を 1 行でも書く前に読む。
+
+```text
+Skill(skill="blog-article")   ← 実体は .claude/skills/blog-article/SKILL.md
+```
+
+**2026-08-22 に、読まずに書いた記事がサウナと無関係の表紙で公開され差し戻された。**
+`eyecatchUrl` を書かないとカテゴリ共通のフォールバック画像が表紙になるが、
+**ビルドは通り、警告も出ない。** だから気づけない。
+
+既存のパイプライン（`scripts/gen-*-eyecatch.py` / `fetch-commons-photo.py` /
+`check-article-ux.py`）を使わずに書いたのが原因で、**同じことを繰り返さないために
+スキルをリポジトリにコミットしてある。**
+
 ## OpenClaw 連携
 
 OpenClaw は利用者の Mac（`home-mac` / 192.168.2.102）で動く常駐エージェント。
