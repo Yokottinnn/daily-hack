@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-08-22T09:36:50Z",
+  "generated_at": "2026-08-22T10:07:01Z",
   "host": "NaokinoMBP-2",
-  "job_count": 15,
+  "job_count": 16,
   "jobs": [
+    "ai.openclaw.badge-followback",
     "ai.openclaw.comment-warmup",
     "ai.openclaw.follower-snapshot",
     "ai.openclaw.gateway",
@@ -21,7 +22,7 @@
   ],
   "reconnect": "既に起動している",
   "tasks": [
-      {"task": "004-inventory-follow-stack.sh", "rc": 0, "out": "書き出した: follow-inventory.md 68 行"}
+      {"task": "005-load-badge-followback.sh", "rc": 0, "out": "ロード成功 / StartInterval=不明 StartCalendarInterval あり"}
   ],
   "auth": {
     "ok": true,
@@ -30,11 +31,11 @@
   },
   "activity": {
     "date": "2026-08-22",
-    "posted_today": 12,
+    "posted_today": 18,
     "detail": "ログを走査した",
     "sources": [
-      {"file": "comment-orchestrator.log", "count": 4},
-      {"file": "comment-warmup.log", "count": 8}
+      {"file": "comment-orchestrator.log", "count": 6},
+      {"file": "comment-warmup.log", "count": 12}
     ]
   },
   "reloaders": [
