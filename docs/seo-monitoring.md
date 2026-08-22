@@ -130,7 +130,7 @@ tail -20 ~/.openclaw/workspace/logs/seo-health.log
 | --- | --- |
 | `scripts/seo-rankings.py` | GSC を**順位の高い順**で出す。`--out` で Markdown を書く |
 | `scripts/top-articles.py` | GSC 既定順（クリック降順）。**順位を見る用途には向かない** |
-| `ops/tasks/015-dump-seo-rankings.sh` | Mac で実行して `reports/seo-rankings.md` に置く |
+| `ops/tasks/016-dump-seo-rankings-v2.sh` | Mac で実行して `reports/seo-rankings.md` に置く |
 
 ```bash
 # Mac で手元から見る
@@ -163,6 +163,31 @@ git -C "$REPO" show origin/main:scripts/seo-rankings.py > "$TMP" && "$PY" "$TMP"
 
 **失敗したタスクは `done/` に印が残り、二度と実行されない。** 直すときは同じ番号を
 上書きするのではなく、**新しい番号でファイルを作る**（`010` → `015`）。
+
+### launchd 経由は PATH が最小限になる。`gcloud` は見つからない前提で書く
+
+**2026-08-22、2 つめの版（`015`）はここで落ちた。**
+
+```text
+取得に失敗（/opt/homebrew/bin/python3.11）: ... raise CalledProcessError(retcode, process.args, subproc
+```
+
+`launchd` から起動されたプロセスの `PATH` は `/usr/bin:/bin:/usr/sbin:/sbin` しかない。
+**Homebrew も Cloud SDK も入っていないため `gcloud` が見つからない。**
+手元のターミナルでは通るので、ローカルで試しても再現しない。
+
+- `seo-rankings.py` は `GCLOUD_BIN` → `which` → 既知のパスの順で `gcloud` を探す
+- 見つからないときは「gcloud が見つからない。PATH=…」と**読める形で**落ちる
+- `gcloud` が失敗したときは `stderr` をそのまま出す。`check=True` の
+  `CalledProcessError` は**何が起きたかを一切伝えない**
+
+### 失敗の中身は `heartbeat.json` では読めない
+
+`ops-heartbeat.sh` は各タスクの出力を `tail -5 | cut -c1-300` に切り詰める。
+**Python のトレースバックは 300 字では意味を成さない。**
+
+失敗しうるタスクは、`$OPS_REPORT_DIR` に診断を書くこと。ここは切り詰められず、
+`reports/` として push される。**ただし公開リポジトリに載るので、トークンは必ず伏せる。**
 
 ### 記事の平均順位を「その記事の順位」と読まない
 
