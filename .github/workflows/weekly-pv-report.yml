@@ -148,7 +148,7 @@ jobs:
           post /tmp/i.json > /tmp/idim.json
           REF_FIELD=$(jq -r '[.data.__type.fields[]?.name | select(test("[Rr]eferer|[Rr]eferrer"))] | .[0] // empty' /tmp/idim.json)
           if [ -z "$REF_FIELD" ]; then
-            echo "REFERER_UNSUPPORTED: この Cloudflare プランの httpRequestsAdaptiveGroups に参照元の次元が無い"
+            echo "REFERER_UNSUPPORTED: スキーマに参照元の次元が無い"
             jq -r '[.data.__type.fields[]?.name] | join(", ")' /tmp/idim.json | head -c 2000
             echo
             echo "→ X からの遷移は GA4 など別の計測でしか取れない" >> "$GITHUB_STEP_SUMMARY"
@@ -165,7 +165,24 @@ jobs:
               {query: ("query($zoneTag:String!,$start:Time!,$end:Time!,$host:String!){viewer{zones(filter:{zoneTag:$zoneTag}){httpRequestsAdaptiveGroups(limit:100,filter:{datetime_geq:$start,datetime_leq:$end,clientRequestHTTPHost:$host,edgeResponseStatus:200,requestSource:\"eyeball\"},orderBy:[sum_visits_DESC]){sum{visits} dimensions{" + $rf + "}}}}}"),
                variables:{zoneTag:$zone,start:$start,end:$end,host:$host}}' > /tmp/rq.json
             post /tmp/rq.json > /tmp/rday.json
-            jq '.errors // empty' /tmp/rday.json
+            # エラーを握り潰して 0 を出さない。取得できていないのに「遷移 0」と読める
+            # 数字を出すのは、計測が無いことより有害
+            ERR=$(jq -r '.errors[0].message // empty' /tmp/rday.json)
+            if [ -n "$ERR" ]; then
+              echo "REFERER_UNSUPPORTED: ${ERR}"
+              {
+                echo
+                echo "## 参照元（X からの遷移）"
+                echo
+                echo "**このゾーンでは取得できない。** Cloudflare の応答:"
+                echo
+                echo "> ${ERR}"
+                echo
+                echo "次元 \`${REF_FIELD}\` はスキーマに存在するが、プランがアクセスを許可していない。"
+                echo "X からの遷移を実測するには GA4 など別の計測が要る。"
+              } >> "$GITHUB_STEP_SUMMARY"
+              exit 0
+            fi
             jq '.data.viewer.zones[0].httpRequestsAdaptiveGroups // []' /tmp/rday.json > /tmp/rrows.json
             jq -s '.[0] + .[1]' /tmp/ref_all.json /tmp/rrows.json > /tmp/ref_next.json
             mv /tmp/ref_next.json /tmp/ref_all.json
