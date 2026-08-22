@@ -15,7 +15,7 @@ on:
         default: '7'
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   report:
@@ -26,6 +26,8 @@ jobs:
       DOMAIN: fieldbeside.com
       DAYS: ${{ github.event.inputs.days || '7' }}
     steps:
+      - uses: actions/checkout@v4
+
       - name: Resolve Cloudflare zone id
         env:
           CF_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
@@ -102,6 +104,12 @@ jobs:
             | .[] | "\(.sum.visits)\t\(.count)\t\(.dimensions.clientRequestPath)"
           ' -r /tmp/all.json > /tmp/top.tsv || echo "(集計失敗)"
           ALL_PATHS=$(jq 'length' /tmp/all.json)
+          # 後続ステップ（スナップショット保存・Slack 通知）は別シェルなので引き渡す
+          {
+            echo "ALL_VISITS=${ALL_VISITS}"
+            echo "ALL_REQ=${ALL_REQ}"
+            echo "ALL_PATHS=${ALL_PATHS}"
+          } >> "$GITHUB_ENV"
           # --- stdout echo (log-readable, API can't fetch step summary) ---
           echo "STDOUT_TOTALS visits=${ALL_VISITS} requests=${ALL_REQ} paths=${ALL_PATHS}"
           echo "STDOUT_TOP_START"
@@ -197,6 +205,7 @@ jobs:
           ' /tmp/ref_all.json | jq -s 'sort_by(-.visits)' > /tmp/ref_top.json
           X_VISITS=$(jq '[.[] | select(.host | test("(^|\\.)(x\\.com|twitter\\.com|t\\.co)$")) | .visits] | add // 0' /tmp/ref_top.json)
           echo "STDOUT_X_REFERRAL visits=${X_VISITS}"
+          echo "X_VISITS=${X_VISITS}" >> "$GITHUB_ENV"
           {
             echo
             echo "## 参照元（${DAYS}日・次元 \`${REF_FIELD}\`）"
@@ -208,21 +217,92 @@ jobs:
             jq -r '.[:15][] | "| \(.visits) | `\(.host)` |"' /tmp/ref_top.json
           } >> "$GITHUB_STEP_SUMMARY"
 
-      - name: Optional Slack post (if SLACK_WEBHOOK_URL set)
-        if: ${{ env.SLACK_WEBHOOK_URL != '' }}
-        env:
-          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+      - name: Persist snapshot (Cloudflare は 7 日で消えるため必ず残す)
         run: |
           set -euo pipefail
+          DATE=$(date -u +%F)
+          SNAP="docs/analytics/weekly/${DATE}.md"
           {
-            echo "*Weekly PV Report — ${HOST} (${DAYS}日)*"
-            echo '```'
-            echo "rank visits  path"
-            i=0
-            while IFS=$'\t' read -r v r p; do
-              i=$((i+1)); printf "%-4d %-7s %s\n" "$i" "$v" "$p"
+            echo "# 週次アクセススナップショット ${DATE}"
+            echo
+            echo "- 集計期間: 直近 ${DAYS} 日（Cloudflare Zone Analytics）"
+            echo "- 総 visits: ${ALL_VISITS:-unknown}"
+            echo "- 総 requests: ${ALL_REQ:-unknown}"
+            echo
+            echo "| visits | requests | path |"
+            echo "|---|---|---|"
+            while IFS=$'\t' read -r v c pth; do
+              echo "| ${v} | ${c} | \`${pth}\` |"
             done < /tmp/top.tsv
+          } > /tmp/snap.md
+
+          # データ用ブランチに積む。main は保護されているので直接は入れない
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git ls-remote --exit-code --heads origin analytics/weekly >/dev/null 2>&1; then
+            git fetch -q --depth=1 origin analytics/weekly
+            git checkout -q -B analytics/weekly FETCH_HEAD
+          else
+            git checkout -q -B analytics/weekly
+          fi
+          mkdir -p docs/analytics/weekly
+          cp /tmp/snap.md "$SNAP"
+
+          # 推移を 1 行 1 週で追えるように CSV も更新する
+          CSV=docs/analytics/weekly/history.csv
+          [ -f "$CSV" ] || echo "date,days,visits,requests,paths" > "$CSV"
+          grep -v "^${DATE}," "$CSV" > /tmp/csv.new || true
+          echo "${DATE},${DAYS},${ALL_VISITS:-},${ALL_REQ:-},${ALL_PATHS:-}" >> /tmp/csv.new
+          mv /tmp/csv.new "$CSV"
+
+          git add docs/analytics/weekly
+          if git diff --cached --quiet; then
+            echo "変化なし。commit は省略"
+          else
+            git commit -q -m "analytics: ${DATE} の週次スナップショット（${DAYS}日 / visits ${ALL_VISITS:-?}）"
+            git push -q origin HEAD:analytics/weekly
+            echo "analytics/weekly に push した: ${SNAP}"
+          fi
+
+      - name: Notify Slack (必須。通知できなければジョブを失敗させる)
+        if: always()
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          set -uo pipefail
+          # 黙ってスキップしない。ここを if 条件で握り潰していたため、
+          # このワークフローは一度も Slack に投稿できていなかった（2026-08-22 に判明）
+          if [ -z "${SLACK_WEBHOOK_URL:-}" ]; then
+            echo "SLACK_WEBHOOK_URL が未設定。週次レポートを届けられない" >&2
+            exit 1
+          fi
+          {
+            echo "<@U0A5V22PVTQ> :bar_chart: *ブログ週次アクセス（直近 ${DAYS} 日）*"
+            echo
+            if [ "${ALL_VISITS:-0}" = "0" ]; then
+              echo ":rotating_light: *visits が 0。取得に失敗している可能性が高い* — ログを確認してください"
+            else
+              echo "• PV: *${ALL_VISITS} visits* / ${ALL_REQ} requests"
+            fi
+            echo "• 記事ページ Top5"
             echo '```'
+            head -5 /tmp/top.tsv | while IFS=$'\t' read -r v c pth; do
+              printf "%-6s %s\n" "$v" "$pth"
+            done
+            echo '```'
+            if [ -s /tmp/ref_top.json ]; then
+              echo "• X からの遷移: ${X_VISITS:-未計測} visits"
+            else
+              echo "• X からの遷移: *取得不可*（Cloudflare のプランが参照元次元を許可していない）"
+            fi
+            echo
+            echo ":warning: *Cloudflare は 7 日より古いデータを返さない。* ここで毎週記録しないと後から取り戻せない。"
+            echo "記録先: \`analytics/weekly\` ブランチ / \`docs/analytics/weekly/\`"
+            echo "実行ログ: ${RUN_URL}"
           } > /tmp/msg
-          jq -Rs --arg c "$(cat /tmp/msg)" '{text:$c}' < /dev/null > /tmp/payload.json
-          curl -s -X POST "$SLACK_WEBHOOK_URL" -H "Content-Type: application/json" --data @/tmp/payload.json
+          jq -Rs '{text: .}' < /tmp/msg > /tmp/payload.json
+          HTTP=$(curl -sS -o /tmp/resp.txt -w '%{http_code}' -X POST "$SLACK_WEBHOOK_URL" \
+                   -H "Content-Type: application/json" --data @/tmp/payload.json)
+          echo "Slack HTTP ${HTTP}: $(cat /tmp/resp.txt)"
+          [ "$HTTP" = "200" ] || exit 1
