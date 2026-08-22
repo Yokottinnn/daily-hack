@@ -129,7 +129,7 @@ tail -20 ~/.openclaw/workspace/logs/seo-health.log
 | --- | --- |
 | `scripts/seo-rankings.py` | GSC を**順位の高い順**で出す。`--out` で Markdown を書く |
 | `scripts/top-articles.py` | GSC 既定順（クリック降順）。**順位を見る用途には向かない** |
-| `ops/tasks/006-dump-seo-rankings.sh` | Mac で実行して `reports/seo-rankings.md` に置く |
+| `ops/tasks/010-dump-seo-rankings.sh` | Mac で実行して `reports/seo-rankings.md` に置く |
 
 ```bash
 # Mac で手元から見る
