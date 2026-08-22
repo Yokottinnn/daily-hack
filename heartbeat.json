@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T10:37:09Z",
+  "generated_at": "2026-08-22T11:07:20Z",
   "host": "NaokinoMBP-2",
   "job_count": 16,
   "jobs": [
@@ -22,10 +22,9 @@
   ],
   "reconnect": "既に起動している",
   "tasks": [
-      {"task": "006-set-follower-target.sh", "rc": 0, "out": "新: target=300 deadline=2026-09-30 baseline=207 (2026-08-22) 必要: +93 人 / 39 日 = 1日あたり 2.4 人 monitor の .bak: ai.openclaw.follower-target-monitor.plist.bak.20260704-v7   program: /bin/bash -c eval  const c=require('/Users/ny/.openclaw/openclaw.json');console.log('export SLACK_BOT_"},
-      {"task": "007-inspect-chainifier.sh", "rc": 0, "out": " ## ログ（直近3行・先頭100字・20字以上の英数字は伏せる） [2026-08-07T17:00:05.063Z] no entries to chainify [2026-08-08T17:00:05.081Z] no entries to chainify [2026-08-09T17:00:04.822Z] no entries to chainify"},
-      {"task": "008-inspect-unfollow.sh", "rc": 0, "out": " ## ログ（あれば直近3行・先頭100字・20字以上の英数字は伏せる） ### auto_detect_and_unfollow_inactive.log: 無し ### unfollow-cleanup.log: 無し ### audit-wrong-unfollows.log: 無し"},
-      {"task": "009-inspect-proactive-follow.sh", "rc": 0, "out": "[2026-07-04 23:54:03 JST] x-follower-cron done (follow, exit: 0) ### x-follower-follow-err.log  更新=2026-05-08T16:48Z ### x-follower-follow.log  更新=2026-05-08T16:48Z ### x-follower-unfollow-err.log  更新=2026-05-09T13:00Z ### x-follower-unfollow.log  更新=2026-05-09T13:00Z"}
+      {"task": "010-inspect-auth-dependency.sh", "rc": 0, "out": "書き出した: auth-dependency.md 83 行"},
+      {"task": "011-dump-follow-details.sh", "rc": 0, "out": "書き出した: follow-details.md 124 行"},
+      {"task": "012-what-stopped-0704.sh", "rc": 0, "out": "書き出した: what-stopped-0704.md 650 行"}
   ],
   "auth": {
     "ok": true,
