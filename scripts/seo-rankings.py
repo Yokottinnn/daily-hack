@@ -22,6 +22,8 @@ GSC API は無料。LLM を呼ばないため API クレジットは消費しな
 import argparse
 import datetime
 import json
+import os
+import shutil
 import subprocess
 import sys
 import urllib.error
@@ -36,12 +38,41 @@ ENDPOINT = (
 )
 
 
+def find_gcloud():
+    """launchd 経由だと PATH が最小限（/usr/bin:/bin:/usr/sbin:/sbin）になり、
+    Homebrew や Cloud SDK の gcloud が見つからない。実パスを自分で探す。"""
+    env = os.environ.get("GCLOUD_BIN")
+    if env and os.access(env, os.X_OK):
+        return env
+    found = shutil.which("gcloud")
+    if found:
+        return found
+    for c in ("/opt/homebrew/bin/gcloud", "/usr/local/bin/gcloud",
+              "/opt/homebrew/share/google-cloud-sdk/bin/gcloud",
+              os.path.expanduser("~/google-cloud-sdk/bin/gcloud")):
+        if os.access(c, os.X_OK):
+            return c
+    return None
+
+
 def imp_token():
+    gcloud = find_gcloud()
+    if not gcloud:
+        raise SystemExit(
+            "gcloud が見つからない。PATH=" + os.environ.get("PATH", "")[:200]
+            + " / GCLOUD_BIN を設定するか実パスを通すこと")
     r = subprocess.run(
-        ["gcloud", "auth", "print-access-token", f"--account={SA}",
+        [gcloud, "auth", "print-access-token", f"--account={SA}",
          "--scopes=https://www.googleapis.com/auth/webmasters"],
-        capture_output=True, text=True, check=True)
-    return r.stdout.strip()
+        capture_output=True, text=True)
+    if r.returncode != 0:
+        # **トークンは絶対に出さない。** 出すのは gcloud のエラーだけ。
+        err = (r.stderr or "").strip().replace("\n", " ")[:600]
+        raise SystemExit(f"gcloud の認証に失敗（{gcloud} / rc={r.returncode}）: {err}")
+    tok = r.stdout.strip()
+    if not tok:
+        raise SystemExit(f"gcloud がトークンを返さなかった（{gcloud} / rc=0）")
+    return tok
 
 
 def query(token, body):
