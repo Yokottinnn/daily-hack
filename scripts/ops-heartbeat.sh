@@ -199,7 +199,13 @@ for label in $jobs; do
     | awk '/"ProgramArguments"/,/\)/' \
     | grep -oE '"[^"]+"' | tr -d '"' | grep -v '^ProgramArguments$' \
     | tr '\n' ' ' | sed 's/ *$//' | cut -c1-300)"
-  interval="$(plutil -extract StartInterval raw "$plist" 2>/dev/null || echo "")"
+  # **`-o -` を必ず付ける。** macOS の `plutil -extract KEY fmt FILE` は
+  # 出力先を指定しないと **抽出結果でファイルそのものを上書きする。**
+  # 2026-08-22、これを付けずに全 plist を走査したため、
+  # `~/Library/LaunchAgents/ai.openclaw.*.plist` が
+  # EnvironmentVariables の中身だけに潰れた（unloaded_count=56）。
+  # この行も 30 分ごとに keeper / guard / watchdog 系を壊し続けていた。
+  interval="$(plutil -extract StartInterval raw -o - "$plist" 2>/dev/null || echo "")"
   [ $first_rl -eq 1 ] && first_rl=0 || reloaders="$reloaders,"
   reloaders="$reloaders
       {\"label\": \"$label\", \"interval\": \"${interval}\", \"program\": \"${prog//\"/}\"}"
