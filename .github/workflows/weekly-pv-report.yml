@@ -78,10 +78,13 @@ jobs:
               --data-binary @/tmp/q.json > /tmp/day.json
             echo "── ${START_T} → ${END_T} ──"
             jq '.errors // empty' /tmp/day.json
-            DAY_ROWS=$(jq '.data.viewer.zones[0].httpRequestsAdaptiveGroups // []' /tmp/day.json)
-            jq -n --argjson a "$(cat /tmp/all.json)" --argjson b "$DAY_ROWS" '$a + $b' > /tmp/all.json
-            v=$(echo "$DAY_ROWS" | jq '[.[].sum.visits] | add // 0')
-            r=$(echo "$DAY_ROWS" | jq '[.[].count] | add // 0')
+            # 蓄積は必ずファイル経由で渡す。--argjson に流し込むと日数が増えた時点で
+            # ARG_MAX を超え "jq: Argument list too long" で落ちる（2026-08-16/17 の実障害）
+            jq '.data.viewer.zones[0].httpRequestsAdaptiveGroups // []' /tmp/day.json > /tmp/day_rows.json
+            jq -s '.[0] + .[1]' /tmp/all.json /tmp/day_rows.json > /tmp/all.next.json
+            mv /tmp/all.next.json /tmp/all.json
+            v=$(jq '[.[].sum.visits] | add // 0' /tmp/day_rows.json)
+            r=$(jq '[.[].count] | add // 0' /tmp/day_rows.json)
             ALL_VISITS=$((ALL_VISITS + v))
             ALL_REQ=$((ALL_REQ + r))
           done
@@ -128,6 +131,64 @@ jobs:
             echo '```json'
             ( jq '.' /tmp/all.json 2>/dev/null | head -200 ) || true
             echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Referrer breakdown (X からの遷移を実測)
+        env:
+          CF_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        run: |
+          # 参照元の計測は「取れたら出す」。ここが落ちても PV レポートは壊さない
+          set -uo pipefail
+          CF=https://api.cloudflare.com/client/v4/graphql
+          post() { curl -s "$CF" -H "Authorization: Bearer ${CF_TOKEN}" \
+                     -H "Content-Type: application/json" --data-binary @"$1"; }
+
+          # 1) 次元名を推測しない。introspection で実在するものを確かめる
+          jq -n '{query:"{ __type(name: \"ZoneHttpRequestsAdaptiveGroupsDimensions\") { fields { name } } }"}' > /tmp/i.json
+          post /tmp/i.json > /tmp/idim.json
+          REF_FIELD=$(jq -r '[.data.__type.fields[]?.name | select(test("[Rr]eferer|[Rr]eferrer"))] | .[0] // empty' /tmp/idim.json)
+          if [ -z "$REF_FIELD" ]; then
+            echo "REFERER_UNSUPPORTED: この Cloudflare プランの httpRequestsAdaptiveGroups に参照元の次元が無い"
+            jq -r '[.data.__type.fields[]?.name] | join(", ")' /tmp/idim.json | head -c 2000
+            echo
+            echo "→ X からの遷移は GA4 など別の計測でしか取れない" >> "$GITHUB_STEP_SUMMARY"
+            exit 0
+          fi
+          echo "REFERER_FIELD=${REF_FIELD}"
+
+          # 2) 日次ループで参照元別に集計（1d 制限は PV 側と同じ）
+          echo "[]" > /tmp/ref_all.json
+          for d in $(seq "${DAYS}" -1 1); do
+            END_T=$(date -u -d "-$((d-1)) days" +%FT00:00:00Z)
+            START_T=$(date -u -d "-${d} days" +%FT00:00:00Z)
+            jq -n --arg zone "$zone_id" --arg start "$START_T" --arg end "$END_T" --arg host "$HOST" --arg rf "$REF_FIELD" '
+              {query: ("query($zoneTag:String!,$start:Time!,$end:Time!,$host:String!){viewer{zones(filter:{zoneTag:$zoneTag}){httpRequestsAdaptiveGroups(limit:100,filter:{datetime_geq:$start,datetime_leq:$end,clientRequestHTTPHost:$host,edgeResponseStatus:200,requestSource:\"eyeball\"},orderBy:[sum_visits_DESC]){sum{visits} dimensions{" + $rf + "}}}}}"),
+               variables:{zoneTag:$zone,start:$start,end:$end,host:$host}}' > /tmp/rq.json
+            post /tmp/rq.json > /tmp/rday.json
+            jq '.errors // empty' /tmp/rday.json
+            jq '.data.viewer.zones[0].httpRequestsAdaptiveGroups // []' /tmp/rday.json > /tmp/rrows.json
+            jq -s '.[0] + .[1]' /tmp/ref_all.json /tmp/rrows.json > /tmp/ref_next.json
+            mv /tmp/ref_next.json /tmp/ref_all.json
+          done
+
+          # 3) 参照元ホスト単位でまとめ、X 系（x.com / twitter / t.co）を合算して出す
+          jq -r --arg rf "$REF_FIELD" '
+            [ .[] | { ref: (.dimensions[$rf] // "" | ascii_downcase), v: .sum.visits } ]
+            | map(.host = (if .ref == "" then "(direct/none)"
+                           else (.ref | sub("^https?://";"") | split("/")[0]) end))
+            | group_by(.host)[] | { host: .[0].host, visits: ([.[].v] | add) }
+          ' /tmp/ref_all.json | jq -s 'sort_by(-.visits)' > /tmp/ref_top.json
+          X_VISITS=$(jq '[.[] | select(.host | test("(^|\\.)(x\\.com|twitter\\.com|t\\.co)$")) | .visits] | add // 0' /tmp/ref_top.json)
+          echo "STDOUT_X_REFERRAL visits=${X_VISITS}"
+          {
+            echo
+            echo "## 参照元（${DAYS}日・次元 \`${REF_FIELD}\`）"
+            echo
+            echo "- **X（x.com / twitter.com / t.co）からの遷移: ${X_VISITS} visits**"
+            echo
+            echo "| visits | 参照元ホスト |"
+            echo "|---|---|"
+            jq -r '.[:15][] | "| \(.visits) | `\(.host)` |"' /tmp/ref_top.json
           } >> "$GITHUB_STEP_SUMMARY"
 
       - name: Optional Slack post (if SLACK_WEBHOOK_URL set)
