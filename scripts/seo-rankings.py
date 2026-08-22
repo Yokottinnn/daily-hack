@@ -61,10 +61,18 @@ def imp_token():
         raise SystemExit(
             "gcloud が見つからない。PATH=" + os.environ.get("PATH", "")[:200]
             + " / GCLOUD_BIN を設定するか実パスを通すこと")
+    # gcloud は Python 3.9 では起動しない（2026-08-22 に実機で確認）。
+    #   ERROR: gcloud failed to load. You are running gcloud with Python 3.9,
+    #   which is no longer supported by gcloud.
+    # launchd 経由だと gcloud が拾うのはシステムの 3.9 なので、
+    # **このスクリプトを動かしている 3.11 を明示的に渡す。**
+    env = dict(os.environ)
+    if sys.version_info >= (3, 10):
+        env["CLOUDSDK_PYTHON"] = sys.executable
     r = subprocess.run(
         [gcloud, "auth", "print-access-token", f"--account={SA}",
          "--scopes=https://www.googleapis.com/auth/webmasters"],
-        capture_output=True, text=True)
+        capture_output=True, text=True, env=env)
     if r.returncode != 0:
         # **トークンは絶対に出さない。** 出すのは gcloud のエラーだけ。
         err = (r.stderr or "").strip().replace("\n", " ")[:600]
