@@ -12,6 +12,11 @@
     python3 scripts/seo-rankings.py --out report.md # ファイルに書く
     python3 scripts/seo-rankings.py --days 28 --min-impressions 3
 
+記事ごとの「当たり語」も出す。**記事単位の平均順位は語ごとの順位を混ぜた値**なので、
+どの語で上位に出ているかは記事の平均順位からは分からない。page×query を 1 リクエストで
+取って記事ごとに並べ直している。表示回数が少ない語は GSC 側が匿名化して返さないため、
+表示の少ない記事では語が 1 つも出ないことがある。
+
 GSC API は無料。LLM を呼ばないため API クレジットは消費しない。
 """
 import argparse
@@ -52,10 +57,12 @@ def query(token, body):
         raise SystemExit(f"GSC API エラー status={e.code}: {detail}")
 
 
-def rows_for(token, dimension, start, end, limit):
+def rows_for(token, dimensions, start, end, limit):
+    if isinstance(dimensions, str):
+        dimensions = [dimensions]
     res = query(token, {
         "startDate": str(start), "endDate": str(end),
-        "dimensions": [dimension], "rowLimit": limit, "type": "web",
+        "dimensions": dimensions, "rowLimit": limit, "type": "web",
     })
     return res.get("rows", [])
 
@@ -76,6 +83,9 @@ def main():
     ap.add_argument("--min-impressions", type=int, default=1,
                     help="この表示回数に満たない行は順位が不安定なので除く")
     ap.add_argument("--top", type=int, default=10)
+    ap.add_argument("--article-queries", type=int, default=10,
+                    help="当たり語を出す記事の数（表示の多い順）")
+    ap.add_argument("--queries-per-article", type=int, default=15)
     ap.add_argument("--out")
     args = ap.parse_args()
 
@@ -86,6 +96,8 @@ def main():
     token = imp_token()
     pages = rows_for(token, "page", start, end, 500)
     queries = rows_for(token, "query", start, end, 100)
+    # 記事ごとの当たり語。page×query は 1 リクエストで全記事ぶん取れる。
+    pairs = rows_for(token, ["page", "query"], start, end, 5000)
 
     kept = [r for r in pages if r["impressions"] >= args.min_impressions]
     kept.sort(key=lambda r: r["position"])
@@ -160,6 +172,38 @@ def main():
             L.append(f"| {r['position']:.1f} 位 | {int(r['impressions'])} | "
                      f"{int(r['clicks'])} | {r['keys'][0]} |")
     L.append("")
+
+    L.append("## 記事ごとの当たり語（表示の多い記事から）")
+    L.append("")
+    L.append("**「この記事はどの語で上位に出ているか」を見るための表。**")
+    L.append("記事単位の平均順位は語ごとの順位を混ぜた値なので、")
+    L.append("どの語で勝っているかは記事の平均順位からは分からない。")
+    L.append("")
+    by_page = {}
+    for r in pairs:
+        by_page.setdefault(r["keys"][0], []).append(r)
+    ranked_pages = sorted(kept, key=lambda r: -r["impressions"])[:args.article_queries]
+    for pr in ranked_pages:
+        url = pr["keys"][0]
+        page = url.replace(SITE.rstrip("/"), "")
+        qs = sorted(by_page.get(url, []), key=lambda r: r["position"])
+        L.append(f"### `{page}`")
+        L.append("")
+        L.append(f"記事全体: 平均 {pr['position']:.1f} 位 / 表示 {int(pr['impressions'])} / "
+                 f"クリック {int(pr['clicks'])}")
+        L.append("")
+        if not qs:
+            L.append("クエリ単位の記録なし（表示が少なく GSC が語を出していない）。")
+            L.append("")
+            continue
+        L.append("| 平均順位 | 表示 | クリック | クエリ |")
+        L.append("| --- | --- | --- | --- |")
+        for r in qs[:args.queries_per_article]:
+            L.append(f"| {r['position']:.1f} 位 | {int(r['impressions'])} | "
+                     f"{int(r['clicks'])} | {r['keys'][1]} |")
+        if len(qs) > args.queries_per_article:
+            L.append(f"| … | | | 他 {len(qs) - args.queries_per_article} 語 |")
+        L.append("")
 
     L.append("## 全記事（順位の高い順）")
     L.append("")
