@@ -130,7 +130,7 @@ tail -20 ~/.openclaw/workspace/logs/seo-health.log
 | --- | --- |
 | `scripts/seo-rankings.py` | GSC を**順位の高い順**で出す。`--out` で Markdown を書く |
 | `scripts/top-articles.py` | GSC 既定順（クリック降順）。**順位を見る用途には向かない** |
-| `ops/tasks/016-dump-seo-rankings-v2.sh` | Mac で実行して `reports/seo-rankings.md` に置く |
+| `ops/tasks/019-dump-seo-rankings-v3.sh` | Mac で実行して `reports/seo-rankings.md` に置く |
 
 ```bash
 # Mac で手元から見る
@@ -163,6 +163,28 @@ git -C "$REPO" show origin/main:scripts/seo-rankings.py > "$TMP" && "$PY" "$TMP"
 
 **失敗したタスクは `done/` に印が残り、二度と実行されない。** 直すときは同じ番号を
 上書きするのではなく、**新しい番号でファイルを作る**（`010` → `015`）。
+
+### 本当の原因は `gcloud` が Python 3.9 を拾っていたこと
+
+**016 の診断で確定した（2026-08-22T13:07Z）。** PATH は原因ではなかった。
+
+```text
+ERROR: gcloud failed to load. You are running gcloud with Python 3.9,
+which is no longer supported by gcloud.
+```
+
+`gcloud` 本体は `/opt/homebrew/bin/gcloud` で見つかっていた。落ちていたのは
+**gcloud が自前で拾う Python がシステムの 3.9 だったから。**
+
+```bash
+export CLOUDSDK_PYTHON=/opt/homebrew/bin/python3.11   # 3.10〜3.14 なら何でもよい
+```
+
+`seo-rankings.py` は自分を動かしている interpreter（3.10 以上のとき）を
+`CLOUDSDK_PYTHON` として `gcloud` に渡す。タスク側でも同じ値を export して二重にかけている。
+
+**「PATH が最小限だから gcloud が無い」という最初の見立ては外れていた。**
+診断を残す仕組みを入れていなければ、間違った修正を重ねていた。
 
 ### launchd 経由は PATH が最小限になる。`gcloud` は見つからない前提で書く
 
