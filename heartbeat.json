@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T11:07:20Z",
+  "generated_at": "2026-08-22T11:37:25Z",
   "host": "NaokinoMBP-2",
   "job_count": 16,
   "jobs": [
@@ -22,9 +22,8 @@
   ],
   "reconnect": "既に起動している",
   "tasks": [
-      {"task": "010-inspect-auth-dependency.sh", "rc": 0, "out": "書き出した: auth-dependency.md 83 行"},
-      {"task": "011-dump-follow-details.sh", "rc": 0, "out": "書き出した: follow-details.md 124 行"},
-      {"task": "012-what-stopped-0704.sh", "rc": 0, "out": "書き出した: what-stopped-0704.md 650 行"}
+      {"task": "010-dump-seo-rankings.sh", "rc": 1, "out": "スクリプトが無い: /Users/ny/projects/anta-baka-x/blog/scripts/seo-rankings.py（git pull が済んでいない可能性）"},
+      {"task": "013-restore-proactive-follow.sh", "rc": 0, "out": "- ai.openclaw.competitor-follower-follow: あり / StartCalendarInterval=無し / StartInterval=無し - ai.openclaw.hashtag-follow: あり / StartCalendarInterval=無し / StartInterval=無し  ## 4. ロード **条件を満たさないのでロードしない。** 上の 1〜3 を見て人が判�"}
   ],
   "auth": {
     "ok": true,
