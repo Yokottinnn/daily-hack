@@ -1,0 +1,238 @@
+# サウナ記事の写真候補（2026-08-22T17:40:09Z）
+
+**021 は検索 1 件目を無条件採用して失敗した。** ここでは候補を並べる。
+サムネイルはブランチ `claude/sauna-photo-candidates` の `candidates/` にある。**見てから選ぶこと。**
+
+## sauna — 検索語: `Finnish sauna interior wooden`
+
+| ファイル | Commons の題名 |
+| --- | --- |
+| `sauna-1.jpg` | Sauna stool 1.JPG |
+| `sauna-2.jpg` | Sauna stool 2 packed.JPG |
+| `sauna-3.jpg` | Sauna stool 2 ready.JPG |
+| `sauna-4.jpg` | Sauna stool 2 screwed leg.JPG |
+
+## stove — 検索語: `sauna stove loyly steam`
+
+| ファイル | Commons の題名 |
+| --- | --- |
+| `stove-1.jpg` | Hagadah le-leil shikorim.jpg |
+| `stove-2.jpg` | Leil in an Estonian smoke sauna.jpg |
+| `stove-3.jpg` | Munich - Sauna in Bath House - 8470.jpg |
+| `stove-4.jpg` | Sauna steam is called leil.jpg |
+
+## rotenburo — 検索語: `rotenburo open air bath Japan`
+
+| ファイル | Commons の題名 |
+| --- | --- |
+| `rotenburo-1.jpg` | Bokido of Hotel Urashima01o4592.jpg |
+| `rotenburo-2.jpg` | Bokido of Hotel Urashima02s4s3960.jpg |
+
+## sento — 検索語: `sento public bathhouse Japan`
+
+| ファイル | Commons の題名 |
+| --- | --- |
+| `sento-1.jpg` | Japanese communal bathhouse SENTO Sentō 銭湯の浴室.jpg |
+| `sento-2.jpg` | Kiyonaga bathhouse women-2.jpg |
+| `sento-3.jpg` | Kiyonaga bathhouse women.jpg |
+| `sento-4.jpg` | The view from BANDAI in Japanese SENTO 番台からの眺め 01.jpg |
+
+## tokyo — 検索語: `Tokyo skyline night Minato`
+
+| ファイル | Commons の題名 |
+| --- | --- |
+| `tokyo-1.jpg` | Akasaka Evening 2017 06 30 (218180029).jpeg |
+| `tokyo-2.jpg` | Minato City, Tokyo, Japan (Night)-denoised.jpg |
+| `tokyo-3.jpg` | Minato City, Tokyo, Japan (Night).jpg |
+| `tokyo-4.jpg` | Tokyo Tower, Minato City.jpg |
+
+## yokohama — 検索語: `Yokohama Minato Mirai skyline`
+
+| ファイル | Commons の題名 |
+| --- | --- |
+| `yokohama-1.jpg` | JP-Yokohama- Minato-Mirai-Area-Over-View.jpg |
+| `yokohama-2.jpg` | Minato Mirai - Yokohama Skyline March 2025.jpg |
+| `yokohama-3.jpg` | Minato Mirai 21, Yokohama, Japan.JPG |
+| `yokohama-4.jpg` | Minato Mirai 21 202403.jpg |
+
+## ライセンス台帳
+
+```json
+{
+  "sauna-1": {
+    "file": "Sauna stool 1.JPG",
+    "lic": "Public domain",
+    "artist": "MKFI",
+    "page": "https://commons.wikimedia.org/wiki/File:Sauna_stool_1.JPG",
+    "px": "6000x4000",
+    "bytes": 7345016
+  },
+  "sauna-2": {
+    "file": "Sauna stool 2 packed.JPG",
+    "lic": "Public domain",
+    "artist": "MKFI",
+    "page": "https://commons.wikimedia.org/wiki/File:Sauna_stool_2_packed.JPG",
+    "px": "4911x3656",
+    "bytes": 7266161
+  },
+  "sauna-3": {
+    "file": "Sauna stool 2 ready.JPG",
+    "lic": "Public domain",
+    "artist": "MKFI",
+    "page": "https://commons.wikimedia.org/wiki/File:Sauna_stool_2_ready.JPG",
+    "px": "6000x4000",
+    "bytes": 14226684
+  },
+  "sauna-4": {
+    "file": "Sauna stool 2 screwed leg.JPG",
+    "lic": "Public domain",
+    "artist": "MKFI",
+    "page": "https://commons.wikimedia.org/wiki/File:Sauna_stool_2_screwed_leg.JPG",
+    "px": "4851x3234",
+    "bytes": 4535096
+  },
+  "stove-1": {
+    "file": "Hagadah le-leil shikorim.jpg",
+    "lic": "Public domain",
+    "artist": "Hirsch Sommerhausen",
+    "page": "https://commons.wikimedia.org/wiki/File:Hagadah_le-leil_shikorim.jpg",
+    "px": "1521x2558",
+    "bytes": 693220
+  },
+  "stove-2": {
+    "file": "Leil in an Estonian smoke sauna.jpg",
+    "lic": "CC BY-SA 4.0",
+    "artist": "Estoniansaunas",
+    "page": "https://commons.wikimedia.org/wiki/File:Leil_in_an_Estonian_smoke_sauna.jpg",
+    "px": "4020x2680",
+    "bytes": 7060798
+  },
+  "stove-3": {
+    "file": "Munich - Sauna in Bath House - 8470.jpg",
+    "lic": "CC BY-SA 3.0",
+    "artist": "Jorge Royan",
+    "page": "https://commons.wikimedia.org/wiki/File:Munich_-_Sauna_in_Bath_House_-_8470.jpg",
+    "px": "4368x2912",
+    "bytes": 3449484
+  },
+  "stove-4": {
+    "file": "Sauna steam is called leil.jpg",
+    "lic": "CC BY-SA 4.0",
+    "artist": "Estoniansaunas",
+    "page": "https://commons.wikimedia.org/wiki/File:Sauna_steam_is_called_leil.jpg",
+    "px": "5227x3485",
+    "bytes": 12108737
+  },
+  "rotenburo-1": {
+    "file": "Bokido of Hotel Urashima01o4592.jpg",
+    "lic": "CC BY 2.5",
+    "artist": "663highland",
+    "page": "https://commons.wikimedia.org/wiki/File:Bokido_of_Hotel_Urashima01o4592.jpg",
+    "px": "4592x3056",
+    "bytes": 6651904
+  },
+  "rotenburo-2": {
+    "file": "Bokido of Hotel Urashima02s4s3960.jpg",
+    "lic": "CC BY 2.5",
+    "artist": "663highland",
+    "page": "https://commons.wikimedia.org/wiki/File:Bokido_of_Hotel_Urashima02s4s3960.jpg",
+    "px": "3960x2640",
+    "bytes": 4354174
+  },
+  "sento-1": {
+    "file": "Japanese communal bathhouse SENTO Sentō 銭湯の浴室.jpg",
+    "lic": "Public domain",
+    "artist": "ウィキ太郎(WikiTaro)",
+    "page": "https://commons.wikimedia.org/wiki/File:Japanese_communal_bathhouse_SENTO_Sent%C5%8D_%E9%8A%AD%E6%B9%AF%E3%81%AE%E6%B5%B4%E5%AE%A4.jpg",
+    "px": "2048x1536",
+    "bytes": 1855204
+  },
+  "sento-2": {
+    "file": "Kiyonaga bathhouse women-2.jpg",
+    "lic": "Public domain",
+    "artist": "Torii Kiyonaga, 1752–1815\nderivative work: Torsodog (talk)",
+    "page": "https://commons.wikimedia.org/wiki/File:Kiyonaga_bathhouse_women-2.jpg",
+    "px": "9892x7451",
+    "bytes": 68604363
+  },
+  "sento-3": {
+    "file": "Kiyonaga bathhouse women.jpg",
+    "lic": "Public domain",
+    "artist": "Torii Kiyonaga",
+    "page": "https://commons.wikimedia.org/wiki/File:Kiyonaga_bathhouse_women.jpg",
+    "px": "9892x7451",
+    "bytes": 66592846
+  },
+  "sento-4": {
+    "file": "The view from BANDAI in Japanese SENTO 番台からの眺め 01.jpg",
+    "lic": "Public domain",
+    "artist": "ウィキ太郎(WikiTaro)",
+    "page": "https://commons.wikimedia.org/wiki/File:The_view_from_BANDAI_in_Japanese_SENTO_%E7%95%AA%E5%8F%B0%E3%81%8B%E3%82%89%E3%81%AE%E7%9C%BA%E3%82%81_01.jpg",
+    "px": "2048x1536",
+    "bytes": 1903493
+  },
+  "tokyo-1": {
+    "file": "Akasaka Evening 2017 06 30 (218180029).jpeg",
+    "lic": "CC BY 3.0",
+    "artist": "Aikinai",
+    "page": "https://commons.wikimedia.org/wiki/File:Akasaka_Evening_2017_06_30_(218180029).jpeg",
+    "px": "2048x1365",
+    "bytes": 875689
+  },
+  "tokyo-2": {
+    "file": "Minato City, Tokyo, Japan (Night)-denoised.jpg",
+    "lic": "CC BY 4.0",
+    "artist": "David Kernan",
+    "page": "https://commons.wikimedia.org/wiki/File:Minato_City,_Tokyo,_Japan_(Night)-denoised.jpg",
+    "px": "4622x2600",
+    "bytes": 10311380
+  },
+  "tokyo-3": {
+    "file": "Minato City, Tokyo, Japan (Night).jpg",
+    "lic": "CC BY 4.0",
+    "artist": "David Kernan",
+    "page": "https://commons.wikimedia.org/wiki/File:Minato_City,_Tokyo,_Japan_(Night).jpg",
+    "px": "4622x2600",
+    "bytes": 11114365
+  },
+  "tokyo-4": {
+    "file": "Tokyo Tower, Minato City.jpg",
+    "lic": "CC BY 4.0",
+    "artist": "David Kernan",
+    "page": "https://commons.wikimedia.org/wiki/File:Tokyo_Tower,_Minato_City.jpg",
+    "px": "5991x3370",
+    "bytes": 14324929
+  },
+  "yokohama-1": {
+    "file": "JP-Yokohama- Minato-Mirai-Area-Over-View.jpg",
+    "lic": "CC BY-SA 4.0",
+    "artist": "Kanchi1979",
+    "page": "https://commons.wikimedia.org/wiki/File:JP-Yokohama-_Minato-Mirai-Area-Over-View.jpg",
+    "px": "3456x2304",
+    "bytes": 2551024
+  },
+  "yokohama-2": {
+    "file": "Minato Mirai - Yokohama Skyline March 2025.jpg",
+    "lic": "CC BY 2.0",
+    "artist": "Justin Taylor",
+    "page": "https://commons.wikimedia.org/wiki/File:Minato_Mirai_-_Yokohama_Skyline_March_2025.jpg",
+    "px": "4032x3024",
+    "bytes": 4548279
+  },
+  "yokohama-3": {
+    "file": "Minato Mirai 21, Yokohama, Japan.JPG",
+    "lic": "CC BY-SA 3.0",
+    "artist": "螺钉",
+    "page": "https://commons.wikimedia.org/wiki/File:Minato_Mirai_21,_Yokohama,_Japan.JPG",
+    "px": "3648x2736",
+    "bytes": 4124337
+  },
+  "yokohama-4": {
+    "file": "Minato Mirai 21 202403.jpg",
+    "lic": "CC BY-SA 4.0",
+    "artist": "Sunwater~jawiki",
+    "page": "https://commons.wikimedia.org/wiki/File:Minato_Mirai_21_202403.jpg",
+    "px": "4032x3024",
+    "bytes": 3296534
+  }
+}```
