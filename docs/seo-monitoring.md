@@ -130,7 +130,7 @@ tail -20 ~/.openclaw/workspace/logs/seo-health.log
 | --- | --- |
 | `scripts/seo-rankings.py` | GSC を**順位の高い順**で出す。`--out` で Markdown を書く |
 | `scripts/top-articles.py` | GSC 既定順（クリック降順）。**順位を見る用途には向かない** |
-| `ops/tasks/010-dump-seo-rankings.sh` | Mac で実行して `reports/seo-rankings.md` に置く |
+| `ops/tasks/015-dump-seo-rankings.sh` | Mac で実行して `reports/seo-rankings.md` に置く |
 
 ```bash
 # Mac で手元から見る
@@ -141,6 +141,28 @@ tail -20 ~/.openclaw/workspace/logs/seo-health.log
 print-access-token`）が Mac にしか無いため、順位を取るには上記の `ops/tasks/` 経路か
 Mac 上での実行が要る。**取りに行かない限り誰も見ていない状態になる**ので、
 アクセス数の話が出たら順位も同時に取りに行く。
+
+### `ops/tasks` からリポジトリのスクリプトを呼ぶときは origin/main から取り出す
+
+**2026-08-22、最初の版（`010-dump-seo-rankings.sh`）はここで落ちた。**
+
+```text
+スクリプトが無い: /Users/ny/projects/anta-baka-x/blog/scripts/seo-rankings.py
+```
+
+`ops-heartbeat.sh` は `git fetch origin main` するだけで、**Mac の作業ツリーには反映しない。**
+そのため作業ツリーのパスを見に行くと、`main` にマージ済みのファイルでも「無い」になる。
+
+```bash
+# 誤: 作業ツリーを見る（pull されていないと落ちる）
+"$PY" "$REPO/scripts/seo-rankings.py"
+
+# 正: heartbeat 自身がタスクを取り出すのと同じやり方
+git -C "$REPO" show origin/main:scripts/seo-rankings.py > "$TMP" && "$PY" "$TMP"
+```
+
+**失敗したタスクは `done/` に印が残り、二度と実行されない。** 直すときは同じ番号を
+上書きするのではなく、**新しい番号でファイルを作る**（`010` → `015`）。
 
 ### 記事の平均順位を「その記事の順位」と読まない
 
