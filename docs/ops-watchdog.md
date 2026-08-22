@@ -320,3 +320,60 @@ heartbeat が `~/Library/LaunchAgents/` を走査し、`.plist` のまま
 | 目標達成済み | 鳴らない | なし |
 | 日付が読めない | 鳴らない（誤報なし） | なし |
 | 旧 heartbeat（新フィールド無し） | 落ちない | なし |
+
+## 2026-08-22: 診断コマンドが plist を破壊した
+
+**`plutil -extract KEY fmt FILE` は、`-o` を付けないと抽出結果でファイルを上書きする。**
+
+`ops/tasks/010-inspect-auth-dependency.sh` で、全 `ai.openclaw.*.plist` に対して
+
+```bash
+plutil -extract EnvironmentVariables json "$P"   # ← -o が無い
+```
+
+を回した。その結果 **すべての plist が EnvironmentVariables の中身だけに潰れた。**
+
+### どう誤診に繋がったか
+
+`014` で `competitor-follower-follow.plist` を見たとき、こう出た。
+
+```text
+{
+  "COMPETITOR_FOLLOW_DAILY_CAP" => "5"
+  "PATH" => "/usr/local/bin:/usr/bin:/bin"
+}
+```
+
+`Label` も `ProgramArguments` も無い。これを **「7/07 の故障で plist が壊れていた」**と
+読んだが、**実際は同じ日の数時間前に自分で壊していた。**
+
+`016` で `badge-followback.plist` が「壊れている」と出たのに **ジョブは稼働していた**という
+矛盾が手がかりになった。稼働中のジョブは launchd がメモリに設定を保持しているだけで、
+**ファイルは既に壊れていた。**
+
+さらに `valid()` として書いた
+
+```bash
+plutil -extract Label raw "$1" >/dev/null 2>&1        # ← これも上書きする
+```
+
+を `013` `015` `016` `017` が使ったため、**`.bak.*` のバックアップまで潰した。**
+
+`scripts/ops-heartbeat.sh` にも同じ書き方があり、**30 分ごとに
+keeper / guard / watchdog 系を壊し続けていた。**
+
+### 規則
+
+| やること | 書き方 |
+| --- | --- |
+| 値を読む | `plutil -extract KEY fmt -o - FILE` — **`-o -` を必ず付ける** |
+| 全体を見る | `plutil -p FILE` — 読み取り専用なので安全 |
+| 変換する | `plutil -convert json -o - FILE` — `-o -` を付ければ安全 |
+
+**読み取りのつもりのコマンドが書き込む**という形の事故なので、
+`plutil -extract` を書くときは `-o` の有無を必ず確認する。
+
+### 稼働中のジョブが唯一の正解を持っている
+
+壊れた plist からは復元できないが、**`launchctl print gui/<uid>/<label>` は
+メモリ上の完全な設定を返す。** 再起動すると失われるため、これを最優先で回収する。
