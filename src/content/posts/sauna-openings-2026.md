@@ -5,7 +5,7 @@ publishDate: 2026-08-22
 category: ["roundups", "comparisons"]
 tags: ["サウナ", "ととのう", "2026年オープン", "新店", "高輪SAUNAS", "サウナメッツァ大井町", "TOTOPA", "PARADISE大手町", "黄金湯", "施設一覧"]
 isPR: false
-draft: false
+draft: true
 author: "hacker-ko"
 ---
 
