@@ -1,12 +1,15 @@
 {
-  "generated_at": "2026-08-22T13:37:53Z",
+  "generated_at": "2026-08-22T14:08:07Z",
   "host": "NaokinoMBP-2",
-  "job_count": 16,
+  "job_count": 19,
   "jobs": [
+    "ai.openclaw.auto-thread-chainifier",
     "ai.openclaw.badge-followback",
     "ai.openclaw.comment-warmup",
+    "ai.openclaw.competitor-follower-follow",
     "ai.openclaw.follower-snapshot",
     "ai.openclaw.gateway",
+    "ai.openclaw.hashtag-follow",
     "ai.openclaw.import-manual-image",
     "ai.openclaw.incoming-reply-watcher",
     "ai.openclaw.node",
@@ -21,7 +24,12 @@
     "com.dailyhack.weekly-blog-report"
   ],
   "reconnect": "既に起動している",
-  "tasks": [],
+  "tasks": [
+      {"task": "018-fetch-tweet.sh", "rc": 0, "out": "書き出した: reports/tweet-2086581590344491157.md（14817 bytes）"},
+      {"task": "018-rescue-plists.sh", "rc": 0, "out": "稼働中=11件の設定を回収 / TMスナップショット=0件 / rescue-plists.md"},
+      {"task": "019-dump-seo-rankings-v3.sh", "rc": 0, "out": "書き出した: /Users/ny/.openclaw/ops-heartbeat-wt/reports/seo-rankings.md（45 記事） 書き出した: reports/seo-rankings.md（201 行）"},
+      {"task": "019-rebuild-from-launchctl.sh", "rc": 0, "out": "主要4件のうち稼働=4/4 / rebuild.md"}
+  ],
   "auth": {
     "ok": true,
     "expires_at": "2026-08-22T20:53:04Z",
@@ -36,9 +44,8 @@
       {"file": "comment-warmup.log", "count": 16}
     ]
   },
-  "unloaded_count": 56,
+  "unloaded_count": 53,
   "unloaded": [
-      {"label": "ai.openclaw.auto-thread-chainifier", "plist_mtime": "2026-08-22T10:37:07Z"},
       {"label": "ai.openclaw.blog-rss-watcher", "plist_mtime": "2026-08-22T11:07:15Z"},
       {"label": "ai.openclaw.bookmark-analyzer", "plist_mtime": "2026-05-15T14:58:24Z"},
       {"label": "ai.openclaw.bookmark-watcher", "plist_mtime": "2026-05-15T13:56:44Z"},
@@ -47,7 +54,6 @@
       {"label": "ai.openclaw.chrome-cdp-heal", "plist_mtime": "2026-07-08T09:06:27Z"},
       {"label": "ai.openclaw.chrome-cdp", "plist_mtime": "2026-08-22T13:07:46Z"},
       {"label": "ai.openclaw.chrome-restart-hook", "plist_mtime": "2026-08-22T11:07:15Z"},
-      {"label": "ai.openclaw.competitor-follower-follow", "plist_mtime": "2026-08-22T13:07:46Z"},
       {"label": "ai.openclaw.cookie-backup", "plist_mtime": "2026-07-04T12:46:06Z"},
       {"label": "ai.openclaw.cost-monitor-health", "plist_mtime": "2026-05-10T06:28:22Z"},
       {"label": "ai.openclaw.cost-monitor", "plist_mtime": "2026-05-10T06:28:22Z"},
@@ -66,7 +72,6 @@
       {"label": "ai.openclaw.follower-daily-report", "plist_mtime": "2026-07-04T13:20:11Z"},
       {"label": "ai.openclaw.follower-monitor", "plist_mtime": "2026-06-03T16:14:07Z"},
       {"label": "ai.openclaw.grok-trending-daily", "plist_mtime": "2026-07-20T06:49:49Z"},
-      {"label": "ai.openclaw.hashtag-follow", "plist_mtime": "2026-08-22T13:07:46Z"},
       {"label": "ai.openclaw.incoming-reply-responder", "plist_mtime": "2026-08-22T11:07:15Z"},
       {"label": "ai.openclaw.memory-review", "plist_mtime": "2026-08-22T11:07:15Z"},
       {"label": "ai.openclaw.monthly-kpi-report", "plist_mtime": "2026-05-15T07:01:29Z"},
