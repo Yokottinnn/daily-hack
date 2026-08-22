@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T14:08:07Z",
+  "generated_at": "2026-08-22T14:38:15Z",
   "host": "NaokinoMBP-2",
   "job_count": 19,
   "jobs": [
@@ -24,12 +24,7 @@
     "com.dailyhack.weekly-blog-report"
   ],
   "reconnect": "既に起動している",
-  "tasks": [
-      {"task": "018-fetch-tweet.sh", "rc": 0, "out": "書き出した: reports/tweet-2086581590344491157.md（14817 bytes）"},
-      {"task": "018-rescue-plists.sh", "rc": 0, "out": "稼働中=11件の設定を回収 / TMスナップショット=0件 / rescue-plists.md"},
-      {"task": "019-dump-seo-rankings-v3.sh", "rc": 0, "out": "書き出した: /Users/ny/.openclaw/ops-heartbeat-wt/reports/seo-rankings.md（45 記事） 書き出した: reports/seo-rankings.md（201 行）"},
-      {"task": "019-rebuild-from-launchctl.sh", "rc": 0, "out": "主要4件のうち稼働=4/4 / rebuild.md"}
-  ],
+  "tasks": [],
   "auth": {
     "ok": true,
     "expires_at": "2026-08-22T20:53:04Z",
