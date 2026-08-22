@@ -12,7 +12,7 @@ author: "hacker-ko"
 
 「ららぽーとって全部でいくつあるの？」「どこが一番デカいの？」——検索しても、出てくるのは店舗一覧のコピペか、行った感想ばかり。**数字で答えてる記事がない。**
 
-だからアタシが作った。**三井不動産が決算資料で公開している店舗別売上**を軸に、全20施設を面積・店舗数・開業年で並べる。おまけに前年の資料と突き合わせて、**どこが伸びてどこが落ちたか**まで出した。この差分はどこにも載ってない。
+だからアタシが作った。**三井不動産が決算資料で公開している店舗別売上**を軸に、全20施設を面積・店舗数・開業年で並べる。**面積順・店舗数順・地域別**の3つのランキングも用意した。おまけに前年の資料と突き合わせて、**どこが伸びてどこが落ちたか**まで出した。この差分はどこにも載ってない。
 
 <div class="hakkako-says">
   <div class="hakkako-mascot"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
@@ -414,6 +414,89 @@ North Gate 3階のフードコートは約1,400席。ららぽーとTOKYO-BAY全
 
 国内で唯一の新規予定地は東京・府中（2029年春）。ただし<strong>「ららぽーと」名称になるかは未発表</strong>だから、この地図には入れていない。
 
+## 大きさランキング｜面積で全20施設を並べる
+
+「どこが一番デカいの？」に、順位で答える。売上は非開示の施設があるが、**面積は全施設で公表されている**ので全部並べられる。
+
+<div class="cmp-table-wrap">
+  <table class="cmp-table">
+    <thead><tr><th>順</th><th>施設</th><th>店舗面積</th><th>店舗数</th><th>所在</th><th>開業</th></tr></thead>
+    <tbody>
+      <tr class="recommended"><td>1</td><td>TOKYO-BAY</td><td>約133,000㎡</td><td>約390〜420</td><td>関東・船橋</td><td>1981/4</td></tr>
+      <tr class="recommended"><td>2</td><td>横浜</td><td>約93,000㎡</td><td>約270</td><td>関東・横浜</td><td>2007/3</td></tr>
+      <tr class="recommended"><td>3</td><td>EXPOCITY</td><td>約88,000㎡</td><td>約310</td><td>関西・吹田</td><td>2015/11</td></tr>
+      <tr><td>4</td><td>富士見</td><td>約80,000㎡</td><td>約290</td><td>関東・富士見</td><td>2015/4</td></tr>
+      <tr><td>5</td><td>福岡</td><td>約73,100㎡</td><td>約222</td><td>九州・福岡</td><td>2022/4</td></tr>
+      <tr><td>6</td><td>豊洲</td><td>約67,000㎡</td><td>約220</td><td>関東・江東</td><td>2006/10</td></tr>
+      <tr><td>7</td><td>門真</td><td>約66,000㎡ ※</td><td>153（MOP98を除く）</td><td>関西・門真</td><td>2023/4</td></tr>
+      <tr><td>8</td><td>沼津</td><td>約64,000㎡</td><td>約210</td><td>東海・沼津</td><td>2019/10</td></tr>
+      <tr><td>9</td><td>愛知東郷</td><td>約63,900㎡</td><td>約201</td><td>東海・愛知郡</td><td>2020/9</td></tr>
+      <tr><td>10</td><td>安城</td><td>約60,300㎡</td><td>約215</td><td>東海・安城</td><td>2025/4</td></tr>
+      <tr><td>11</td><td>甲子園</td><td>約60,000㎡</td><td>約150</td><td>関西・西宮</td><td>2004/11</td></tr>
+      <tr><td>12</td><td>立川立飛</td><td>約60,000㎡</td><td>約240</td><td>関東・立川</td><td>2015/12</td></tr>
+      <tr><td>13</td><td>湘南平塚</td><td>約60,000㎡</td><td>約247</td><td>関東・平塚</td><td>2016/10</td></tr>
+      <tr><td>14</td><td>名古屋みなとアクルス</td><td>約59,500㎡</td><td>約217</td><td>東海・名古屋</td><td>2018/9</td></tr>
+      <tr><td>15</td><td>新三郷</td><td>約59,400㎡</td><td>約180</td><td>関東・三郷</td><td>2009/9</td></tr>
+      <tr><td>16</td><td>堺</td><td>約56,200㎡</td><td>約212</td><td>関西・堺</td><td>2022/11</td></tr>
+      <tr><td>17</td><td>和泉</td><td>約55,000㎡</td><td>約210</td><td>関西・和泉</td><td>2014/10</td></tr>
+      <tr><td>18</td><td>海老名</td><td>約54,000㎡</td><td>約260</td><td>関東・海老名</td><td>2015/10</td></tr>
+      <tr><td>19</td><td>磐田</td><td>約50,000㎡</td><td>約175</td><td>東海・磐田</td><td>2009/6</td></tr>
+      <tr><td>20</td><td>柏の葉</td><td>約49,500㎡</td><td>約180</td><td>関東・柏</td><td>2006/11</td></tr>
+    </tbody>
+  </table>
+</div>
+
+1位のTOKYO-BAY（約133,000㎡）と20位の柏の葉（約49,500㎡）で**2.69倍の差**がある。同じ「ららぽーと」でも、歩く距離が違う。
+
+## 店舗数ランキング｜「広い＝店が多い」ではない
+
+面積の順位と店舗数の順位は、けっこうズレる。
+
+<div class="cmp-table-wrap">
+  <table class="cmp-table">
+    <thead><tr><th>順</th><th>施設</th><th>店舗数</th><th>面積での順位</th><th>地域</th></tr></thead>
+    <tbody>
+      <tr class="recommended"><td>1</td><td>TOKYO-BAY</td><td>約390〜420</td><td>面積1位</td><td>関東</td></tr>
+      <tr class="recommended"><td>2</td><td>EXPOCITY</td><td>約310</td><td>面積3位</td><td>関西</td></tr>
+      <tr class="recommended"><td>3</td><td>富士見</td><td>約290</td><td>面積4位</td><td>関東</td></tr>
+      <tr><td>4</td><td>横浜</td><td>約270</td><td>面積2位</td><td>関東</td></tr>
+      <tr><td>5</td><td>海老名</td><td>約260</td><td>面積18位</td><td>関東</td></tr>
+      <tr><td>6</td><td>湘南平塚</td><td>約247</td><td>面積13位</td><td>関東</td></tr>
+      <tr><td>7</td><td>立川立飛</td><td>約240</td><td>面積12位</td><td>関東</td></tr>
+      <tr><td>8</td><td>福岡</td><td>約222</td><td>面積5位</td><td>九州</td></tr>
+      <tr><td>9</td><td>豊洲</td><td>約220</td><td>面積6位</td><td>関東</td></tr>
+      <tr><td>10</td><td>名古屋みなとアクルス</td><td>約217</td><td>面積14位</td><td>東海</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="hakkako-says">
+  <div class="hakkako-mascot"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
+  <div class="hakkako-quote">面白いのは<strong>海老名</strong>。面積は18位なのに店舗数は5位で、1店あたり約208㎡＝全施設でいちばん詰まってる。逆に<strong>甲子園</strong>は面積11位で店舗数20位、1店あたり約400㎡。同じ「ららぽーと」でもテナントの入れ方がまるで違うのよ。</div>
+</div>
+
+「たくさん見て回りたい」なら店舗数、「1店ずつゆっくり」なら1店あたりが広いほう。**広さと店数は別の指標**として見たほうがいい。
+
+※門真は面積がMOP大阪門真との合計値、店舗数はMOP分を除いた値のため、1店あたりの比較からは外している。
+
+## 地域で見ると、半分近くが関東に集まっている
+
+<div class="cmp-table-wrap">
+  <table class="cmp-table">
+    <thead><tr><th>地域</th><th>施設数</th><th>合計面積</th><th>平均面積</th></tr></thead>
+    <tbody>
+      <tr class="recommended"><td>関東</td><td>9施設</td><td>655,900㎡</td><td>72,877㎡</td></tr>
+      <tr><td>関西</td><td>5施設</td><td>325,200㎡</td><td>65,040㎡</td></tr>
+      <tr><td>東海</td><td>5施設</td><td>297,700㎡</td><td>59,540㎡</td></tr>
+      <tr><td>九州</td><td>1施設</td><td>73,100㎡</td><td>73,100㎡</td></tr>
+    </tbody>
+  </table>
+</div>
+
+**北海道・東北・中国・四国には1施設も無い。** 九州は福岡の1施設だけで、これが最西端。「近所にららぽーとが無い」と感じるなら気のせいではなく、**実際に空白地帯**である。
+
+開業年代で見ると 1980年代1・2000年代6・2010年代8・2020年代5 で、**2010年代の8施設が最も多い**。
+
 ## 全20施設リスト｜開業順に全部
 
 売上が非開示の施設も含めた完全版。面積・店舗数は**三井不動産の公式リリース値**で統一してある。
@@ -449,6 +532,31 @@ North Gate 3階のフードコートは約1,400席。ららぽーとTOKYO-BAY全
 ※門真の面積はMOP大阪門真との合計。単独値は非公表。
 
 <p class="source-note">出典：<a href="https://mitsui-shopping-park.com/lalaport/" target="_blank" rel="noopener">三井ショッピングパーク ららぽーと公式ポータル</a>および各施設の開業時プレスリリース。<strong>店舗数は開業時または直近リリース時点の公式値で、現在の実数は公表されていない。</strong>面積は大店立地法の届出値と公式リリース値で最大2万㎡ずれる施設があるため、本記事は公式リリース値で統一している。</p>
+
+### 他サイトと面積・店舗数が食い違う理由
+
+同じ施設なのに、サイトによって数字が違う。実際に見かける値と、本記事が採る値を並べる。
+
+<div class="cmp-table-wrap">
+  <table class="cmp-table">
+    <thead><tr><th>施設</th><th>他でよく見る値</th><th>本記事（公式リリース値）</th></tr></thead>
+    <tbody>
+      <tr class="recommended"><td>TOKYO-BAY</td><td>約131,800㎡ / 約440店</td><td>約133,000㎡ / 約390〜420店</td></tr>
+      <tr><td>EXPOCITY</td><td>約71,000㎡</td><td>約88,000㎡</td></tr>
+      <tr><td>門真</td><td>約66,300㎡</td><td>約66,000㎡（MOP大阪門真との合計）</td></tr>
+    </tbody>
+  </table>
+</div>
+
+どちらかが間違い、とは限らない。**「店舗面積」の取り方が複数あるため**で、考えられる差の出どころは 3 つ。
+
+<ul class="checklist">
+  <li><div class="checklist-body"><strong>届出値か、リリース値か</strong><p>大店立地法の届出面積と、開業リリースに載る店舗面積は一致しないことがある。施設によっては<strong>2万㎡近くずれる</strong>。</p></div></li>
+  <li><div class="checklist-body"><strong>いつ時点か</strong><p>TOKYO-BAYは2025年10月にNorth Gateを統合している。<strong>統合前の値を引いていれば小さく出る</strong>。店舗数も入れ替えで常に動く。</p></div></li>
+  <li><div class="checklist-body"><strong>併設施設を含むか</strong><p>門真はMOP大阪門真と一体。<strong>ららぽーと単独の面積は公表されていない</strong>ため、合計値か推計値かで割れる。</p></div></li>
+</ul>
+
+**本記事は三井不動産の公式リリース値で全施設を統一している。** 順位を比べるときは、どのサイトも「同じ定義で揃っているか」を先に確認したほうがいい。定義が混ざった一覧は、順位そのものが入れ替わる。
 
 ### よくある間違い3つ
 
@@ -685,6 +793,48 @@ North Gate 3階のフードコートは約1,400席。ららぽーとTOKYO-BAY全
 
 <p class="source-note">出典：<a href="https://mitsui-shopping-park.com/msppoint/membersprogram/benefits/" target="_blank" rel="noopener">三井ショッピングパークポイント メンバーズプログラム</a>／<a href="https://mitsui-shopping-park.com/lalaport/toyosu/access/parking.html" target="_blank" rel="noopener">ららぽーと豊洲 駐車場</a>。<strong>駐車場条件は施設ごとに異なるので、必ず行く施設の公式ページで確認すること。</strong></p>
 
+### 全20施設の駐車場｜無料条件はここまで違う
+
+「◯時間無料」で括れないことを、全施設分の実際の条件で示す。**同じららぽーとで、終日タダの施設と 30 分 400 円の施設が並んでいる。**
+
+<div class="cmp-table-wrap">
+  <table class="cmp-table">
+    <thead><tr><th>施設</th><th>県</th><th>無料になる条件</th><th>超過後・補足</th></tr></thead>
+    <tbody>
+      <tr class="recommended"><td><a href="https://mitsui-shopping-park.com/lalaport/tokyo-bay/access/access_04.html" target="_blank" rel="noopener">TOKYO-BAY</a></td><td>千葉</td><td>最初1時間</td><td>30分200円</td></tr>
+      <tr class="recommended"><td><a href="https://mitsui-shopping-park.com/lalaport/toyosu/access/parking.html" target="_blank" rel="noopener">豊洲</a></td><td>東京</td><td>最初1時間</td><td><strong>30分400円</strong>（最も高い）</td></tr>
+      <tr><td><a href="https://mitsui-shopping-park.com/lalaport/kashiwa/access/parking.html" target="_blank" rel="noopener">柏の葉</a></td><td>千葉</td><td>最初2時間</td><td>30分200円</td></tr>
+      <tr><td><a href="https://mitsui-shopping-park.com/lalaport/koshien/access/parking.html" target="_blank" rel="noopener">甲子園</a></td><td>兵庫</td><td>最初2時間</td><td>買い物で延長</td></tr>
+      <tr><td><a href="https://mitsui-shopping-park.com/lalaport/yokohama/access/parking.html" target="_blank" rel="noopener">横浜</a></td><td>神奈川</td><td><strong>平日は終日</strong></td><td>土日祝 30分200円 ／ 23〜8時は平日も有料</td></tr>
+      <tr><td><a href="https://mitsui-shopping-park.com/lalaport/hiratsuka/access/parking.html" target="_blank" rel="noopener">湘南平塚</a></td><td>神奈川</td><td><strong>平日は終日</strong>（当面）</td><td>土日祝 1時間無料＋30分150円</td></tr>
+      <tr><td><a href="https://mitsui-shopping-park.com/lalaport/tachikawa/access/parking_02.html" target="_blank" rel="noopener">立川立飛</a></td><td>東京</td><td><strong>平日は終日</strong></td><td>土日祝 最初1時間500円。買い物1,000円で1時間無料</td></tr>
+      <tr><td><a href="https://mitsui-shopping-park.com/lalaport/fukuoka/access/parking.html" target="_blank" rel="noopener">福岡</a></td><td>福岡</td><td><strong>平日は終日</strong></td><td>土日祝 買い物3,000円で2時間＋会員1時間</td></tr>
+      <tr><td><a href="https://mitsui-shopping-park.com/lalaport/minatoaquls/access/parking.html" target="_blank" rel="noopener">名古屋みなとアクルス</a></td><td>愛知</td><td>平日4時間／土日祝2時間</td><td>30分200円。買い物・会員で延長</td></tr>
+      <tr><td><a href="https://mitsui-shopping-park.com/lalaport/kadoma/access/parking.html" target="_blank" rel="noopener">門真</a></td><td>大阪</td><td>平日9時間／土日祝8時間</td><td>30分200円</td></tr>
+      <tr><td><a href="https://mitsui-shopping-park.com/lalaport/ebina/access/parking.html" target="_blank" rel="noopener">海老名</a></td><td>神奈川</td><td><strong>買い物が条件</strong></td><td>1,000円→2時間／2,000円→3時間／5,000円→4時間</td></tr>
+      <tr><td><a href="https://mitsui-shopping-park.com/lalaport/expocity/access/parking.html" target="_blank" rel="noopener">EXPOCITY</a></td><td>大阪</td><td><strong>買い物が条件</strong></td><td>2,000円以上で1時間</td></tr>
+      <tr><td><a href="https://mitsui-shopping-park.com/lalaport/iwata/access/car.html" target="_blank" rel="noopener">磐田</a></td><td>静岡</td><td>終日無料</td><td>—</td></tr>
+      <tr><td><a href="https://mitsui-shopping-park.com/lalaport/shinmisato/access/parking.html" target="_blank" rel="noopener">新三郷</a></td><td>埼玉</td><td>終日無料（本館）</td><td>ANNEX側は有料</td></tr>
+      <tr><td><a href="https://mitsui-shopping-park.com/lalaport/izumi/access/parking.html" target="_blank" rel="noopener">和泉</a></td><td>大阪</td><td>終日無料</td><td>—</td></tr>
+      <tr><td><a href="https://mitsui-shopping-park.com/lalaport/fujimi/access/parking.html" target="_blank" rel="noopener">富士見</a></td><td>埼玉</td><td>終日無料</td><td>—</td></tr>
+      <tr><td><a href="https://mitsui-shopping-park.com/lalaport/numazu/access/parking.html" target="_blank" rel="noopener">沼津</a></td><td>静岡</td><td>終日無料</td><td>—</td></tr>
+      <tr><td><a href="https://mitsui-shopping-park.com/lalaport/togo/access/parking.html" target="_blank" rel="noopener">愛知東郷</a></td><td>愛知</td><td>終日無料</td><td>—</td></tr>
+      <tr><td><a href="https://mitsui-shopping-park.com/lalaport/sakai/access/parking.html" target="_blank" rel="noopener">堺</a></td><td>大阪</td><td>終日無料</td><td>—</td></tr>
+      <tr><td><a href="https://mitsui-shopping-park.com/lalaport/anjo/access/parking.html" target="_blank" rel="noopener">安城</a></td><td>愛知</td><td>終日無料</td><td>—</td></tr>
+    </tbody>
+  </table>
+</div>
+
+読み取れることが 3 つある。
+
+<ul class="checklist">
+  <li><div class="checklist-body"><strong>半分の10施設は「終日無料」</strong><p>磐田・和泉・富士見・沼津・愛知東郷・堺・安城・新三郷（本館）に加え、横浜・湘南平塚・立川立飛・福岡は<strong>平日が終日無料</strong>。地方・郊外型ほど無料に寄る。</p></div></li>
+  <li><div class="checklist-body"><strong>都心型ほど厳しい</strong><p>豊洲は超過<strong>30分400円</strong>で全施設中もっとも高い。TOKYO-BAYも最初の1時間だけ。<strong>土地代がそのまま駐車料金に出ている</strong>。</p></div></li>
+  <li><div class="checklist-body"><strong>海老名とEXPOCITYは「買わないと無料枠が出ない」</strong><p>時間による基本無料枠ではなく、<strong>買い物金額が条件</strong>。ぶらっと寄るだけだと最初から課金される。</p></div></li>
+</ul>
+
+<p class="source-note">出典：各施設公式の駐車場案内（施設名からリンク）。<strong>キャンペーンで変わる。</strong>湘南平塚の平日無料は「当面の間」の措置で、恒久ではない。買い物金額やカード会員による延長は別途あり、本表は基本条件のみ。<strong>行く前に必ず公式で確認すること。</strong></p>
+
 ### セールは年2回が本番
 
 <div class="tower-timeline">
@@ -745,6 +895,7 @@ North Gate 3階のフードコートは約1,400席。ららぽーとTOKYO-BAY全
   <li><div class="checklist-body"><strong>ららぽーと高雄の開業日</strong><p>三井不動産の公式は「2026年」までしか出していない。現地報道は2026年Q3〜2027年Q1と幅がある。</p></div></li>
   <li><div class="checklist-body"><strong>府中市朝日町計画のブランド名</strong><p>「ららぽーと」になるかは未発表。現時点では「大型商業施設」としか公表されていない。</p></div></li>
   <li><div class="checklist-body"><strong>2026年のブラックフライデー日程</strong><p>未発表。2025年実績は11/14〜11/30。</p></div></li>
+  <li><div class="checklist-body"><strong>面積の「正しい」値はひとつに決まらない</strong><p>届出値・リリース値・併設施設を含むかで割れる。本記事は公式リリース値で統一しているが、<strong>他サイトと数字が違うのはどちらかが誤りとは限らない</strong>。</p></div></li>
 </ul>
 
 <div class="hakkako-says">
