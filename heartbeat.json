@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T12:07:31Z",
+  "generated_at": "2026-08-22T12:37:39Z",
   "host": "NaokinoMBP-2",
   "job_count": 16,
   "jobs": [
@@ -22,7 +22,7 @@
   ],
   "reconnect": "既に起動している",
   "tasks": [
-      {"task": "014-force-restore-proactive-follow.sh", "rc": 0, "out": "0 件ロード成功 / restore-follow.md 57 行 follow系の稼働数: 4"}
+      {"task": "015-dump-seo-rankings.sh", "rc": 1, "out": "取得に失敗（/opt/homebrew/bin/python3.11）:   File /opt/homebrew/Cellar/python@3.11/3.11.14_3/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py, line 571, in run     raise CalledProcessError(retcode, process.args, subproc"}
   ],
   "auth": {
     "ok": true,
