@@ -793,6 +793,48 @@ North Gate 3階のフードコートは約1,400席。ららぽーとTOKYO-BAY全
 
 <p class="source-note">出典：<a href="https://mitsui-shopping-park.com/msppoint/membersprogram/benefits/" target="_blank" rel="noopener">三井ショッピングパークポイント メンバーズプログラム</a>／<a href="https://mitsui-shopping-park.com/lalaport/toyosu/access/parking.html" target="_blank" rel="noopener">ららぽーと豊洲 駐車場</a>。<strong>駐車場条件は施設ごとに異なるので、必ず行く施設の公式ページで確認すること。</strong></p>
 
+### 全20施設の駐車場｜無料条件はここまで違う
+
+「◯時間無料」で括れないことを、全施設分の実際の条件で示す。**同じららぽーとで、終日タダの施設と 30 分 400 円の施設が並んでいる。**
+
+<div class="cmp-table-wrap">
+  <table class="cmp-table">
+    <thead><tr><th>施設</th><th>県</th><th>無料になる条件</th><th>超過後・補足</th></tr></thead>
+    <tbody>
+      <tr class="recommended"><td><a href="https://mitsui-shopping-park.com/lalaport/tokyo-bay/access/access_04.html" target="_blank" rel="noopener">TOKYO-BAY</a></td><td>千葉</td><td>最初1時間</td><td>30分200円</td></tr>
+      <tr class="recommended"><td><a href="https://mitsui-shopping-park.com/lalaport/toyosu/access/parking.html" target="_blank" rel="noopener">豊洲</a></td><td>東京</td><td>最初1時間</td><td><strong>30分400円</strong>（最も高い）</td></tr>
+      <tr><td><a href="https://mitsui-shopping-park.com/lalaport/kashiwa/access/parking.html" target="_blank" rel="noopener">柏の葉</a></td><td>千葉</td><td>最初2時間</td><td>30分200円</td></tr>
+      <tr><td><a href="https://mitsui-shopping-park.com/lalaport/koshien/access/parking.html" target="_blank" rel="noopener">甲子園</a></td><td>兵庫</td><td>最初2時間</td><td>買い物で延長</td></tr>
+      <tr><td><a href="https://mitsui-shopping-park.com/lalaport/yokohama/access/parking.html" target="_blank" rel="noopener">横浜</a></td><td>神奈川</td><td><strong>平日は終日</strong></td><td>土日祝 30分200円 ／ 23〜8時は平日も有料</td></tr>
+      <tr><td><a href="https://mitsui-shopping-park.com/lalaport/hiratsuka/access/parking.html" target="_blank" rel="noopener">湘南平塚</a></td><td>神奈川</td><td><strong>平日は終日</strong>（当面）</td><td>土日祝 1時間無料＋30分150円</td></tr>
+      <tr><td><a href="https://mitsui-shopping-park.com/lalaport/tachikawa/access/parking_02.html" target="_blank" rel="noopener">立川立飛</a></td><td>東京</td><td><strong>平日は終日</strong></td><td>土日祝 最初1時間500円。買い物1,000円で1時間無料</td></tr>
+      <tr><td><a href="https://mitsui-shopping-park.com/lalaport/fukuoka/access/parking.html" target="_blank" rel="noopener">福岡</a></td><td>福岡</td><td><strong>平日は終日</strong></td><td>土日祝 買い物3,000円で2時間＋会員1時間</td></tr>
+      <tr><td><a href="https://mitsui-shopping-park.com/lalaport/minatoaquls/access/parking.html" target="_blank" rel="noopener">名古屋みなとアクルス</a></td><td>愛知</td><td>平日4時間／土日祝2時間</td><td>30分200円。買い物・会員で延長</td></tr>
+      <tr><td><a href="https://mitsui-shopping-park.com/lalaport/kadoma/access/parking.html" target="_blank" rel="noopener">門真</a></td><td>大阪</td><td>平日9時間／土日祝8時間</td><td>30分200円</td></tr>
+      <tr><td><a href="https://mitsui-shopping-park.com/lalaport/ebina/access/parking.html" target="_blank" rel="noopener">海老名</a></td><td>神奈川</td><td><strong>買い物が条件</strong></td><td>1,000円→2時間／2,000円→3時間／5,000円→4時間</td></tr>
+      <tr><td><a href="https://mitsui-shopping-park.com/lalaport/expocity/access/parking.html" target="_blank" rel="noopener">EXPOCITY</a></td><td>大阪</td><td><strong>買い物が条件</strong></td><td>2,000円以上で1時間</td></tr>
+      <tr><td><a href="https://mitsui-shopping-park.com/lalaport/iwata/access/car.html" target="_blank" rel="noopener">磐田</a></td><td>静岡</td><td>終日無料</td><td>—</td></tr>
+      <tr><td><a href="https://mitsui-shopping-park.com/lalaport/shinmisato/access/parking.html" target="_blank" rel="noopener">新三郷</a></td><td>埼玉</td><td>終日無料（本館）</td><td>ANNEX側は有料</td></tr>
+      <tr><td><a href="https://mitsui-shopping-park.com/lalaport/izumi/access/parking.html" target="_blank" rel="noopener">和泉</a></td><td>大阪</td><td>終日無料</td><td>—</td></tr>
+      <tr><td><a href="https://mitsui-shopping-park.com/lalaport/fujimi/access/parking.html" target="_blank" rel="noopener">富士見</a></td><td>埼玉</td><td>終日無料</td><td>—</td></tr>
+      <tr><td><a href="https://mitsui-shopping-park.com/lalaport/numazu/access/parking.html" target="_blank" rel="noopener">沼津</a></td><td>静岡</td><td>終日無料</td><td>—</td></tr>
+      <tr><td><a href="https://mitsui-shopping-park.com/lalaport/togo/access/parking.html" target="_blank" rel="noopener">愛知東郷</a></td><td>愛知</td><td>終日無料</td><td>—</td></tr>
+      <tr><td><a href="https://mitsui-shopping-park.com/lalaport/sakai/access/parking.html" target="_blank" rel="noopener">堺</a></td><td>大阪</td><td>終日無料</td><td>—</td></tr>
+      <tr><td><a href="https://mitsui-shopping-park.com/lalaport/anjo/access/parking.html" target="_blank" rel="noopener">安城</a></td><td>愛知</td><td>終日無料</td><td>—</td></tr>
+    </tbody>
+  </table>
+</div>
+
+読み取れることが 3 つある。
+
+<ul class="checklist">
+  <li><div class="checklist-body"><strong>半分の10施設は「終日無料」</strong><p>磐田・和泉・富士見・沼津・愛知東郷・堺・安城・新三郷（本館）に加え、横浜・湘南平塚・立川立飛・福岡は<strong>平日が終日無料</strong>。地方・郊外型ほど無料に寄る。</p></div></li>
+  <li><div class="checklist-body"><strong>都心型ほど厳しい</strong><p>豊洲は超過<strong>30分400円</strong>で全施設中もっとも高い。TOKYO-BAYも最初の1時間だけ。<strong>土地代がそのまま駐車料金に出ている</strong>。</p></div></li>
+  <li><div class="checklist-body"><strong>海老名とEXPOCITYは「買わないと無料枠が出ない」</strong><p>時間による基本無料枠ではなく、<strong>買い物金額が条件</strong>。ぶらっと寄るだけだと最初から課金される。</p></div></li>
+</ul>
+
+<p class="source-note">出典：各施設公式の駐車場案内（施設名からリンク）。<strong>キャンペーンで変わる。</strong>湘南平塚の平日無料は「当面の間」の措置で、恒久ではない。買い物金額やカード会員による延長は別途あり、本表は基本条件のみ。<strong>行く前に必ず公式で確認すること。</strong></p>
+
 ### セールは年2回が本番
 
 <div class="tower-timeline">
