@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T08:36:36Z",
+  "generated_at": "2026-08-22T09:06:44Z",
   "host": "NaokinoMBP-2",
   "job_count": 15,
   "jobs": [
@@ -20,7 +20,9 @@
     "com.dailyhack.weekly-blog-report"
   ],
   "reconnect": "既に起動している",
-  "tasks": [],
+  "tasks": [
+      {"task": "003-dump-reply-structure.sh", "rc": 0, "out": "書き出した: reply-structure.md 162 行"}
+  ],
   "auth": {
     "ok": true,
     "expires_at": "2026-08-22T15:07:42Z",
