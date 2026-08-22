@@ -25,8 +25,24 @@ jobs:
     env:
       # heartbeat がこの分数より古ければ異常とみなす（押す側は30分間隔）
       STALE_MINUTES: '90'
-      # 稼働していてほしいジョブ。poll-approvals は滞留対策で意図的に外している
-      EXPECTED_JOBS: 'ai.openclaw.comment-warmup ai.openclaw.incoming-reply-watcher ai.openclaw.gateway ai.openclaw.node'
+      # 稼働していてほしいジョブ。poll-approvals は滞留対策で意図的に外している。
+      #
+      # **フォロワーを増やすジョブが 1 つも入っていなかった。**
+      # そのため competitor-follower-follow は 2026-07-07 に壊れてから 46 日間、
+      # 誰にも検知されずに止まり続けた。badge-followback も 8/09 から 13 日間 同様。
+      # フォロワーは 8/09 の 206 から 8/21 の 207 へ、12 日で +1 しか動いていない。
+      #
+      # 監視が「載っているジョブが動いているか」しか見ておらず、
+      # **「あるべきものが消えていること」を見ていなかった。** ここに入れて初めて鳴る。
+      EXPECTED_JOBS: >-
+        ai.openclaw.comment-warmup
+        ai.openclaw.incoming-reply-watcher
+        ai.openclaw.gateway
+        ai.openclaw.node
+        ai.openclaw.badge-followback
+        ai.openclaw.follower-snapshot
+        ai.openclaw.competitor-follower-follow
+        ai.openclaw.hashtag-follow
       # OAuth の残り時間がこれを切ったら、失効「前」に鳴らす
       AUTH_WARN_HOURS: '24'
       # comment-warmup は 03/07/10/13 UTC に発火する。この時刻を過ぎて投稿ゼロなら、
