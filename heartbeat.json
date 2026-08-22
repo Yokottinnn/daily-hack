@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T16:39:19Z",
+  "generated_at": "2026-08-22T17:10:02Z",
   "host": "NaokinoMBP-2",
   "job_count": 20,
   "jobs": [
@@ -25,7 +25,10 @@
     "com.dailyhack.weekly-blog-report"
   ],
   "reconnect": "既に起動している",
-  "tasks": [],
+  "tasks": [
+      {"task": "021-restore-all-plists.sh", "rc": 0, "out": "稼働中 20 件のうち plist 正常=20件 / 原本=launchctl-dump.md / restore-all.md"},
+      {"task": "021-sauna-images.sh", "rc": 0, "out": "remote:  remote: Create a pull request for 'claude/sauna-eyecatch' on GitHub by visiting:         remote:      https://github.com/Yokottinnn/daily-hack/pull/new/claude/sauna-eyecatch         remote:  push した: claude/sauna-eyecatch（eyecatch + photos）"}
+  ],
   "auth": {
     "ok": true,
     "expires_at": "2026-08-22T20:53:04Z",
