@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T17:41:31Z",
+  "generated_at": "2026-08-22T18:12:18Z",
   "host": "NaokinoMBP-2",
   "job_count": 20,
   "jobs": [
@@ -26,7 +26,7 @@
   ],
   "reconnect": "既に起動している",
   "tasks": [
-      {"task": "022-sauna-photo-candidates.sh", "rc": 0, "out": "remote:  remote: Create a pull request for 'claude/sauna-photo-candidates' on GitHub by visiting:         remote:      https://github.com/Yokottinnn/daily-hack/pull/new/claude/sauna-photo-candidates         remote:  push した: claude/sauna-photo-candidates（candidates/ にサムネイル）"}
+      {"task": "023-sauna-photo-candidates2.sh", "rc": 0, "out": "remote:  remote: Create a pull request for 'claude/sauna-photo-candidates2' on GitHub by visiting:         remote:      https://github.com/Yokottinnn/daily-hack/pull/new/claude/sauna-photo-candidates2         remote:  push した: claude/sauna-photo-candidates2（candidates/ にサムネイル）"}
   ],
   "auth": {
     "ok": true,
