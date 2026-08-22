@@ -68,6 +68,12 @@
 
 <!-- 新しい記録がこの下に追加される（新しいものが上） -->
 
+### 2026-08-23 — 4 ループを全部 稼働させた（①auto-thread-chainifier ②badge-followback ③auto-detect-and-unfollow-inactive ④competitor-follower-follow/hashtag-follow）。途中 plutil -extract を -o 無しで実行して plist 56 件を破壊し、launchctl print のメモリ上設定から再生した
+
+次のアクション:
+
+- [ ] 壊れたまま残っている plist 53 件（import-manual-image / slack-watchdog / tab-guard など）を launchctl print から再生する。Mac を再起動すると稼働中 15 件が全部止まるため優先度が高い。SLACK_WEBHOOK_URL の登録は Jordan の手が 1 回必要
+
 ### 2026-08-22 — 掲載順位を必ず報告する経路を作った（seo-rankings.py / ops task / seo-monitoring.md にルール化）。週次レポートの「惜しい記事（6〜20位）」フィルタが1〜5位を構造的に除外していたのが原因。PR #195
 
 次のアクション:
