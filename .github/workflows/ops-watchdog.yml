@@ -48,6 +48,13 @@ jobs:
       # comment-warmup は 03/07/10/13 UTC に発火する。この時刻を過ぎて投稿ゼロなら、
       # ジョブは載っているのに実際は動いていない（＝今回の事故と同じ形）
       ACTIVITY_CHECK_AFTER_UTC_HOUR: '14'
+      # 実際の増加が「目標に必要なペース」の何 % を下回ったら鳴らすか。
+      #
+      # **「増加ゼロなら鳴らす」では足りない。** 8/09→8/21 は 12 日で +1 で、
+      # ゼロではないが完全な停滞だった。7/07〜8/09 の competitor-follower-follow は
+      # ジョブが載ったまま CDP 断で 1 件も実行されず、それでも数値はわずかに動く。
+      # ゼロ判定はこの形を通してしまう。目標ペースとの比で見る。
+      FOLLOWER_PACE_MIN_PCT: '25'
     steps:
       - name: Fetch heartbeat branch
         id: fetch
@@ -75,6 +82,10 @@ jobs:
       - name: Evaluate
         if: steps.fetch.outputs.found == 'yes'
         id: evaluate
+        env:
+          # 値そのものは使わない。**登録されているかどうかだけ**を見る。
+          # 未登録なら鳴らせないので、それ自体を異常として扱う。
+          SLACK_CHECK: ${{ secrets.SLACK_WEBHOOK_URL }}
         run: |
           set -uo pipefail
           gen=$(jq -r '.generated_at' hb/heartbeat.json)
@@ -107,6 +118,35 @@ jobs:
           act_detail=$(jq -r '.activity.detail // "欄なし"' hb/heartbeat.json)
           act_sources=$(jq -r '[.activity.sources[]? | "\(.file)=\(.count)"] | join(" ")' hb/heartbeat.json)
 
+          # **名前を列挙せずに「消えたジョブ」を捕まえる。**
+          # EXPECTED_JOBS は手で保守するリストなので、足し忘れたジョブは
+          # 「消えても気づかれないジョブ」になる。実際 competitor-follower-follow は
+          # リストに無く、46 日間 誰にも検知されなかった。
+          # heartbeat 側が「plist はあるのに載っていない」を全部出すので、ここで鳴らす。
+          unloaded_n=$(jq -r '.unloaded_count // 0' hb/heartbeat.json)
+          unloaded_list=$(jq -r '[.unloaded[]?.label] | join(" ")' hb/heartbeat.json)
+
+          # **成果そのもの。** ジョブが載っていても CDP が落ちていれば 0 件実行になる。
+          # 壊れ方を知らなくても、未知のジョブが死んでも、ここで必ず捕まる。
+          f_now=$(jq -r '.followers.now | tostring' hb/heartbeat.json)
+          f_prev=$(jq -r '.followers.prev | tostring' hb/heartbeat.json)
+          f_target=$(jq -r '.followers.target | tostring' hb/heartbeat.json)
+          f_deadline=$(jq -r '.followers.deadline // ""' hb/heartbeat.json)
+          f_span=$(jq -r '.followers.span_days | tostring' hb/heartbeat.json)
+          f_delta=""
+          f_need=""
+          # **判定不能を「増えていない」と混同しない。** 日付が読めず span が出ない
+          # ときは delta を出さず、下の nogrowth 判定ごと飛ばす。
+          if [ "$f_now" != "null" ] && [ "$f_prev" != "null" ] \
+             && [ "$f_span" != "null" ] && [ "$f_span" -ge 3 ] 2>/dev/null; then
+            f_delta=$(( f_now - f_prev ))
+          fi
+          if [ "$f_now" != "null" ] && [ "$f_target" != "null" ] && [ -n "$f_deadline" ]; then
+            days_left=$(( ( $(date -u -d "$f_deadline" +%s) - $(date -u +%s) ) / 86400 ))
+            [ "$days_left" -lt 1 ] && days_left=1
+            f_need=$(( ( f_target - f_now ) / days_left ))
+          fi
+
           {
             echo "### ops-watchdog"
             echo ""
@@ -114,8 +154,10 @@ jobs:
             echo "- heartbeat: \`$gen\`（${age} 分前）"
             echo "- 稼働ジョブ: $(printf '%s\n' "$jobs" | grep -c . || true) 件"
             [ -n "$missing" ] && echo "- **欠落:**$missing"
+            echo "- **plist はあるのに未ロード: ${unloaded_n} 件**${unloaded_list:+ — $unloaded_list}"
             echo "- 認証: \`$auth_ok\`（$auth_detail）${auth_hours:+ / 残り ${auth_hours} 時間}"
             echo "- 本日の投稿: **${posted} 件**（$act_detail）${act_sources:+ / $act_sources}"
+            echo "- フォロワー: **${f_now}**${f_delta:+（${f_span} 日で ${f_delta} 人）}${f_target:+ / 目標 ${f_target}}${f_deadline:+ まで ${f_deadline}}${f_need:+ / 必要 ${f_need} 人＋/日}"
           } >> "$GITHUB_STEP_SUMMARY"
 
           problem=""
@@ -135,6 +177,23 @@ jobs:
              && printf '%s\n' "$jobs" | grep -q 'comment-warmup'; then
             problem="${problem:+$problem,}silent"
           fi
+          # plist はあるのに載っていない＝止まっている。名前を知らなくても捕まる
+          [ "$unloaded_n" -gt 0 ] && problem="${problem:+$problem,}unloaded"
+          # 成果が動いていない。ジョブの生死をすり抜けた故障はここで捕まる。
+          # 実測 delta 人 / span 日 が、必要ペース need 人/日 の
+          # FOLLOWER_PACE_MIN_PCT % を下回ったら鳴らす。
+          # 目標を既に達成している（need <= 0）ときは判定しない。
+          if [ -n "$f_delta" ] && [ -n "$f_need" ] && [ "$f_need" -gt 0 ] 2>/dev/null; then
+            if [ $(( f_delta * 100 )) -lt $(( f_need * f_span * FOLLOWER_PACE_MIN_PCT )) ]; then
+              problem="${problem:+$problem,}nogrowth"
+            fi
+          fi
+          # **警告経路そのものが死んでいないか。** 2026-08-22 まで SLACK_WEBHOOK_URL が
+          # 未設定で、87 回の検知が 1 度も配達されていなかった。
+          # 「鳴らない監視」は監視ゼロと同じなので、それ自体を異常として扱う。
+          if [ -z "${SLACK_CHECK:-}" ]; then
+            problem="${problem:+$problem,}nowebhook"
+          fi
 
           {
             echo "age=$age"
@@ -145,6 +204,12 @@ jobs:
             echo "auth_detail=$auth_detail"
             echo "auth_hours=$auth_hours"
             echo "posted=$posted"
+            echo "unloaded_n=$unloaded_n"
+            echo "unloaded_list=$unloaded_list"
+            echo "f_now=$f_now"
+            echo "f_delta=$f_delta"
+            echo "f_span=$f_span"
+            echo "f_need=$f_need"
             echo "problem=$problem"
           } >> "$GITHUB_OUTPUT"
 
@@ -160,6 +225,12 @@ jobs:
           AUTH_HOURS: ${{ steps.evaluate.outputs.auth_hours }}
           POSTED: ${{ steps.evaluate.outputs.posted }}
           PROBLEM: ${{ steps.evaluate.outputs.problem }}
+          UNLOADED_N: ${{ steps.evaluate.outputs.unloaded_n }}
+          UNLOADED_LIST: ${{ steps.evaluate.outputs.unloaded_list }}
+          F_NOW: ${{ steps.evaluate.outputs.f_now }}
+          F_DELTA: ${{ steps.evaluate.outputs.f_delta }}
+          F_SPAN: ${{ steps.evaluate.outputs.f_span }}
+          F_NEED: ${{ steps.evaluate.outputs.f_need }}
         run: |
           set -uo pipefail
           # **本文を先に組み立てる。** 2026-08-22 まで、シークレット未設定のときに
@@ -194,6 +265,29 @@ jobs:
                 echo "• *ジョブは載っているのに、本日の投稿が 0 件*"
                 echo "  comment-warmup は稼働中の扱いだが実際は打てていない。"
                 echo "  認証切れ・生成失敗・X へのログイン切れのいずれかを疑う。"
+                ;;
+            esac
+            case "$PROBLEM" in
+              *unloaded*)
+                echo "• *plist はあるのに launchctl に載っていないジョブが ${UNLOADED_N} 件*"
+                echo "  ${UNLOADED_LIST}"
+                echo "  止めたいなら plist を .disabled にリネームすること。"
+                echo "  .plist のまま載っていないのは、意図せず落ちた状態。"
+                ;;
+            esac
+            case "$PROBLEM" in
+              *nogrowth*)
+                echo "• *フォロワーが増えていない*（現在 ${F_NOW} / ${F_SPAN} 日で ${F_DELTA} 人）"
+                echo "  目標には 1 日 ${F_NEED} 人 必要。"
+                echo "  ジョブが載っていても実行できていない可能性がある"
+                echo "  （2026-07-07 は Chrome CDP の接続断で 46 日間 0 件だった）。"
+                ;;
+            esac
+            case "$PROBLEM" in
+              *nowebhook*)
+                echo "• *SLACK_WEBHOOK_URL が未登録。この通知は Slack に届いていない*"
+                echo "  Settings → Secrets and variables → Actions で登録すること。"
+                echo "  未登録の間、検知はすべて GitHub の実行画面にしか残らない。"
                 ;;
             esac
             echo ""
