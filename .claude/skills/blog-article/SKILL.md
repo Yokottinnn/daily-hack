@@ -27,6 +27,7 @@ description: daily-hack のブログ記事を書く・直す・公開すると�
 | 3 | **施設名・サービス名が並ぶ表は公式へリンク** | `check-article-ux.py` が落とす |
 | 4 | **画像は必ず出典を書く**（`figcaption > cite` / `source-note` / `event-picks-credit`） | ライセンス違反 |
 | 5 | **公開前に `npm run build` → `check-article-ux.py` を通す** | 崩れたまま出る |
+| 6 | **使う画像は必ず自分の目で見る**（`Read` で開く） | 題材違い・不適切な画像がそのまま表紙になる |
 
 ## 1. アイキャッチ（最優先・後回し禁止）
 
@@ -64,6 +65,36 @@ eyecatchAlt: "<記事タイトルと同等の説明>"
 
    構図を変えたいときは既存の `scripts/gen-*-eyecatch.py` を複製して調整する
    （`gen-sauna-eyecatch.py` / `gen-outlet-eyecatch.py` などが実例）。
+
+3. **できた画像を必ず開いて見る。**
+
+   ```text
+   Read(file_path="…/eyecatch.jpg")
+   ```
+
+   **これを飛ばさない。** 2026-08-22、`sauna openings` の記事で
+   検索語 `sauna interior wood` の 1 件目を無条件に採用したところ、
+   **19 世紀の木版画「蒸し風呂に入る女性患者たち」**が選ばれた。
+   題材が合わないうえ裸体が写っており、表紙として使えるものではなかった。
+
+   **検索語が正しくても、1 件目が使える画像とは限らない。**
+   Commons には絵画・古い版画・図版が大量に入っている。
+
+### 候補は「見て選ぶ」
+
+自動で 1 件目を採る運用はしない。`ops/tasks/022-sauna-photo-candidates.sh` が実例で、
+**候補を 480px のサムネイルに落としてブランチへ push し、目で見てから決める。**
+
+```text
+検索 → 上位数件をサムネイル化して push → Read で見て選ぶ → 本採用して生成 → また見る
+```
+
+写真に求める条件。
+
+- **現代の実写。** 版画・絵画・図版は使わない
+- **裸体・人物の顔が主題になっていない**
+- 横長で使える（カード背景・1600×900 に切っても破綻しない）
+- ライセンスが再利用可（`fetch-commons-photo.py` が非フリーを弾くが、`_manifest.json` で確認する）
 
 ### クラウドセッションでは生成できない
 
@@ -187,6 +218,7 @@ python3 scripts/check-md-bold.py src/content/posts/<slug>.md       # ** の崩�
 さらに手で確認する。
 
 - **`eyecatchUrl` のファイルが実在するか**（`ls public/images/<slug>/eyecatch.jpg`）
+- **アイキャッチと記事内画像を `Read` で開いて、題材が記事と合っているか**
 - 生成 HTML のタグ開閉が一致しているか
 - **本文の数字を表から機械的に再集計して一致するか**（手で数えない）
 - `.event-pick` の `href` の id がビルド後 HTML に存在するか
