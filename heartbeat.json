@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T09:06:44Z",
+  "generated_at": "2026-08-22T09:36:50Z",
   "host": "NaokinoMBP-2",
   "job_count": 15,
   "jobs": [
@@ -21,7 +21,7 @@
   ],
   "reconnect": "既に起動している",
   "tasks": [
-      {"task": "003-dump-reply-structure.sh", "rc": 0, "out": "書き出した: reply-structure.md 162 行"}
+      {"task": "004-inventory-follow-stack.sh", "rc": 0, "out": "書き出した: follow-inventory.md 68 行"}
   ],
   "auth": {
     "ok": true,
