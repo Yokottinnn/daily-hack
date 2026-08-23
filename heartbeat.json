@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T08:45:26Z",
+  "generated_at": "2026-08-23T09:15:32Z",
   "host": "NaokinoMBP-2",
   "job_count": 17,
   "jobs": [
@@ -23,7 +23,8 @@
   ],
   "reconnect": "既に起動している",
   "tasks": [
-      {"task": "022-halt-replies-and-inspect.sh", "rc": 0, "out": "返信ジョブ停止 / まだ稼働:なし / halt-replies.md"}
+      {"task": "023-install-ng-filter.sh", "rc": 0, "out": "NG判定を配置 / 10 ケース合格 / ng-filter.md"},
+      {"task": "025-prove-loops-run.sh", "rc": 0, "out": "本日実行=2件 / 動いていない=2件 / prove-loops.md"}
   ],
   "auth": {
     "ok": true,
