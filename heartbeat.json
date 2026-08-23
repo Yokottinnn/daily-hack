@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T23:43:41Z",
+  "generated_at": "2026-08-23T00:13:47Z",
   "host": "NaokinoMBP-2",
   "job_count": 20,
   "jobs": [
@@ -32,13 +32,10 @@
     "detail": "有効期限内"
   },
   "activity": {
-    "date": "2026-08-22",
-    "posted_today": 24,
+    "date": "2026-08-23",
+    "posted_today": 0,
     "detail": "ログを走査した",
-    "sources": [
-      {"file": "comment-orchestrator.log", "count": 8},
-      {"file": "comment-warmup.log", "count": 16}
-    ]
+    "sources": []
   },
   "unloaded_count": 53,
   "unloaded": [
