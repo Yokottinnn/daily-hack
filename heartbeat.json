@@ -1,18 +1,15 @@
 {
-  "generated_at": "2026-08-23T08:15:16Z",
+  "generated_at": "2026-08-23T08:45:26Z",
   "host": "NaokinoMBP-2",
-  "job_count": 20,
+  "job_count": 17,
   "jobs": [
     "ai.openclaw.auto-detect-and-unfollow-inactive",
-    "ai.openclaw.auto-thread-chainifier",
     "ai.openclaw.badge-followback",
-    "ai.openclaw.comment-warmup",
     "ai.openclaw.competitor-follower-follow",
     "ai.openclaw.follower-snapshot",
     "ai.openclaw.gateway",
     "ai.openclaw.hashtag-follow",
     "ai.openclaw.import-manual-image",
-    "ai.openclaw.incoming-reply-watcher",
     "ai.openclaw.node",
     "ai.openclaw.seo-health",
     "ai.openclaw.sitemap-autosubmit",
@@ -25,7 +22,9 @@
     "com.dailyhack.weekly-blog-report"
   ],
   "reconnect": "既に起動している",
-  "tasks": [],
+  "tasks": [
+      {"task": "022-halt-replies-and-inspect.sh", "rc": 0, "out": "返信ジョブ停止 / まだ稼働:なし / halt-replies.md"}
+  ],
   "auth": {
     "ok": true,
     "expires_at": "2026-08-23T14:50:07Z",
@@ -40,8 +39,9 @@
       {"file": "comment-warmup.log", "count": 8}
     ]
   },
-  "unloaded_count": 53,
+  "unloaded_count": 56,
   "unloaded": [
+      {"label": "ai.openclaw.auto-thread-chainifier", "plist_mtime": "2026-08-22T15:39:05Z"},
       {"label": "ai.openclaw.blog-rss-watcher", "plist_mtime": "2026-08-22T11:07:15Z"},
       {"label": "ai.openclaw.bookmark-analyzer", "plist_mtime": "2026-05-15T14:58:24Z"},
       {"label": "ai.openclaw.bookmark-watcher", "plist_mtime": "2026-05-15T13:56:44Z"},
@@ -50,6 +50,7 @@
       {"label": "ai.openclaw.chrome-cdp-heal", "plist_mtime": "2026-07-08T09:06:27Z"},
       {"label": "ai.openclaw.chrome-cdp", "plist_mtime": "2026-08-22T13:07:46Z"},
       {"label": "ai.openclaw.chrome-restart-hook", "plist_mtime": "2026-08-22T11:07:15Z"},
+      {"label": "ai.openclaw.comment-warmup", "plist_mtime": "2026-08-22T17:09:25Z"},
       {"label": "ai.openclaw.cookie-backup", "plist_mtime": "2026-07-04T12:46:06Z"},
       {"label": "ai.openclaw.cost-monitor-health", "plist_mtime": "2026-05-10T06:28:22Z"},
       {"label": "ai.openclaw.cost-monitor", "plist_mtime": "2026-05-10T06:28:22Z"},
@@ -69,6 +70,7 @@
       {"label": "ai.openclaw.follower-monitor", "plist_mtime": "2026-06-03T16:14:07Z"},
       {"label": "ai.openclaw.grok-trending-daily", "plist_mtime": "2026-07-20T06:49:49Z"},
       {"label": "ai.openclaw.incoming-reply-responder", "plist_mtime": "2026-08-22T11:07:15Z"},
+      {"label": "ai.openclaw.incoming-reply-watcher", "plist_mtime": "2026-05-16T17:31:10Z"},
       {"label": "ai.openclaw.memory-review", "plist_mtime": "2026-08-22T11:07:15Z"},
       {"label": "ai.openclaw.monthly-kpi-report", "plist_mtime": "2026-05-15T07:01:29Z"},
       {"label": "ai.openclaw.pipeline-guardian", "plist_mtime": "2026-08-06T21:36:52Z"},
