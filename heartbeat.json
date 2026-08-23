@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T09:45:38Z",
+  "generated_at": "2026-08-23T10:15:44Z",
   "host": "NaokinoMBP-2",
   "job_count": 20,
   "jobs": [
@@ -25,9 +25,7 @@
     "com.dailyhack.weekly-blog-report"
   ],
   "reconnect": "既に起動している",
-  "tasks": [
-      {"task": "026-resume-and-prep-filter.sh", "rc": 0, "out": "返信ジョブ 3/3 稼働 / NG判定を配置 / resume-and-prep.md"}
-  ],
+  "tasks": [],
   "auth": {
     "ok": true,
     "expires_at": "2026-08-23T14:50:07Z",
@@ -35,11 +33,11 @@
   },
   "activity": {
     "date": "2026-08-23",
-    "posted_today": 12,
+    "posted_today": 18,
     "detail": "ログを走査した",
     "sources": [
-      {"file": "comment-orchestrator.log", "count": 4},
-      {"file": "comment-warmup.log", "count": 8}
+      {"file": "comment-orchestrator.log", "count": 6},
+      {"file": "comment-warmup.log", "count": 12}
     ]
   },
   "unloaded_count": 53,
