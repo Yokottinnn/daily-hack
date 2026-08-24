@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T18:22:09Z",
+  "generated_at": "2026-08-24T18:52:15Z",
   "host": "NaokinoMBP-2",
   "job_count": 20,
   "jobs": [
@@ -28,7 +28,7 @@
   "tasks": [],
   "auth": {
     "ok": true,
-    "expires_at": "2026-08-24T18:27:48Z",
+    "expires_at": "2026-08-25T02:50:17Z",
     "detail": "有効期限内"
   },
   "activity": {
