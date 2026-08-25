@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T12:55:56Z",
+  "generated_at": "2026-08-25T13:26:03Z",
   "host": "NaokinoMBP-2",
   "job_count": 20,
   "jobs": [
@@ -28,16 +28,16 @@
   "tasks": [],
   "auth": {
     "ok": true,
-    "expires_at": "2026-08-25T13:07:39Z",
+    "expires_at": "2026-08-25T21:02:56Z",
     "detail": "有効期限内"
   },
   "activity": {
     "date": "2026-08-25",
-    "posted_today": 17,
+    "posted_today": 23,
     "detail": "ログを走査した",
     "sources": [
-      {"file": "comment-orchestrator.log", "count": 6},
-      {"file": "comment-warmup.log", "count": 11}
+      {"file": "comment-orchestrator.log", "count": 8},
+      {"file": "comment-warmup.log", "count": 15}
     ]
   },
   "unloaded_count": 53,
