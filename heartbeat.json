@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T15:26:27Z",
+  "generated_at": "2026-08-25T15:56:34Z",
   "host": "NaokinoMBP-2",
   "job_count": 20,
   "jobs": [
@@ -97,10 +97,10 @@
       {"label": "ai.openclaw.x-login-monitor", "plist_mtime": "2026-08-22T11:07:15Z"}
   ],
   "followers": {
-    "now": 210,
+    "now": 212,
     "prev": 206,
     "prev_date": "2026-08-22",
-    "span_days": 2,
+    "span_days": 3,
     "target": 300,
     "deadline": "2026-09-30"
   },
