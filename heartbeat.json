@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T23:58:19Z",
+  "generated_at": "2026-08-26T00:28:25Z",
   "host": "NaokinoMBP-2",
   "job_count": 20,
   "jobs": [
@@ -32,13 +32,10 @@
     "detail": "有効期限内"
   },
   "activity": {
-    "date": "2026-08-25",
-    "posted_today": 23,
+    "date": "2026-08-26",
+    "posted_today": 0,
     "detail": "ログを走査した",
-    "sources": [
-      {"file": "comment-orchestrator.log", "count": 8},
-      {"file": "comment-warmup.log", "count": 15}
-    ]
+    "sources": []
   },
   "unloaded_count": 53,
   "unloaded": [
@@ -98,9 +95,9 @@
   ],
   "followers": {
     "now": 212,
-    "prev": 206,
-    "prev_date": "2026-08-22",
-    "span_days": 3,
+    "prev": 208,
+    "prev_date": "2026-08-23",
+    "span_days": 2,
     "target": 300,
     "deadline": "2026-09-30"
   },
