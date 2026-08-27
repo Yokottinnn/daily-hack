@@ -21,6 +21,44 @@
 const fs = require('fs');
 const path = require('path');
 
+// **呼び出し元は `asuka-fill.js 2>&1` で stderr を混ぜている。**
+// つまり入力は「ログの雑音 + JSON」になりうる。丸ごと JSON.parse すると失敗し、
+// 常に素通しになって検査が効かない。
+//
+// そこで**末尾の釣り合った { … } を探して、そこだけを判定する。**
+// 書き戻すときも、その部分だけを差し替えて前後の雑音は保つ
+// （呼び出し側がログを読んでいる可能性があるため、形を壊さない）。
+function findLastJsonObject(s) {
+  for (let end = s.lastIndexOf('}'); end !== -1; end = s.lastIndexOf('}', end - 1)) {
+    let depth = 0;
+    let inStr = false;
+    let esc = false;
+    for (let i = end; i >= 0; i--) {
+      const ch = s[i];
+      if (esc) { esc = false; continue; }
+      if (inStr) {
+        if (ch === '\\') { esc = true; continue; }
+        if (ch === '"') inStr = false;
+        continue;
+      }
+      if (ch === '"') { inStr = true; continue; }
+      if (ch === '}') depth++;
+      else if (ch === '{') {
+        depth--;
+        if (depth === 0) {
+          const slice = s.slice(i, end + 1);
+          try {
+            return { obj: JSON.parse(slice), start: i, end: end + 1 };
+          } catch (e) {
+            break; // この候補は違う。次の } から探し直す
+          }
+        }
+      }
+    }
+  }
+  return null;
+}
+
 let input = '';
 process.stdin.on('data', (c) => (input += c));
 process.stdin.on('end', () => {
@@ -31,12 +69,12 @@ process.stdin.on('end', () => {
 
   if (!input || !input.trim()) return passthrough('入力が空な');
 
-  let obj;
-  try {
-    obj = JSON.parse(input);
-  } catch (e) {
-    return passthrough(`入力を JSON として読めない(${e.message})`);
-  }
+  const found = findLastJsonObject(input);
+  if (!found) return passthrough('入力から JSON を取り出せない');
+  const obj = found.obj;
+  // 判定結果を書き戻すときは、見つけた JSON の部分だけを差し替える
+  const splice = (json) =>
+    input.slice(0, found.start) + json + input.slice(found.end);
 
   // 生成に失敗している場合は触らずそのまま返す
   if (!obj || obj.ok === false) {
@@ -77,12 +115,14 @@ process.stdin.on('end', () => {
     process.stderr.write(`  tone-gate: **送らない** (${fmt('block')})\n`);
     process.stderr.write(`    弾いた文: ${String(text).slice(0, 80)}\n`);
     process.stdout.write(
-      JSON.stringify({
-        ...obj,
-        ok: false,
-        error: `tone-gate blocked: ${fmt('block')}`,
-        blocked_text: text,
-      })
+      splice(
+        JSON.stringify({
+          ...obj,
+          ok: false,
+          error: `tone-gate blocked: ${fmt('block')}`,
+          blocked_text: text,
+        })
+      )
     );
     return;
   }
