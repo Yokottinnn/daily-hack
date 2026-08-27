@@ -68,6 +68,12 @@
 
 <!-- 新しい記録がこの下に追加される（新しいものが上） -->
 
+### 2026-08-27 — サウナ記事を首都圏15施設で作り直して公開（#231）。blog-article スキルを作り CLAUDE.md 最上位ルール6で強制（#222/#224）。画像は Mac 経由で生成し、候補35枚を1枚ずつ見て6枚を選定（#225/#226）
+
+次のアクション:
+
+- [ ] tweet2 への X 告知依頼を首都圏15施設版の内容に更新する
+
 ### 2026-08-23 — 4 ループを全部 稼働させた（①auto-thread-chainifier ②badge-followback ③auto-detect-and-unfollow-inactive ④competitor-follower-follow/hashtag-follow）。途中 plutil -extract を -o 無しで実行して plist 56 件を破壊し、launchctl print のメモリ上設定から再生した
 
 次のアクション:
