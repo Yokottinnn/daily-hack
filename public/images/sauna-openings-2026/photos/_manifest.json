@@ -30,21 +30,5 @@
     "page": "https://commons.wikimedia.org/wiki/File:Minato_Mirai_-_Yokohama_Skyline_March_2025.jpg",
     "px": "4032x3024",
     "bytes": 4548279
-  },
-  "nagoya": {
-    "file": "Nagoya Lucent Tower and JR Central Towers from west.jpg",
-    "lic": "CC BY-SA 3.0",
-    "artist": "Alpsdake",
-    "page": "https://commons.wikimedia.org/wiki/File:Nagoya_Lucent_Tower_and_JR_Central_Towers_from_west.jpg",
-    "px": "1920x961",
-    "bytes": 476446
-  },
-  "fukuoka": {
-    "file": "Nakasu02.jpg",
-    "lic": "CC BY-SA 3.0",
-    "artist": "STA3816",
-    "page": "https://commons.wikimedia.org/wiki/File:Nakasu02.jpg",
-    "px": "2424x1650",
-    "bytes": 622353
   }
 }
