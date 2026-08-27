@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27T17:16:46Z",
+  "generated_at": "2026-08-27T17:46:52Z",
   "host": "NaokinoMBP-2",
   "job_count": 20,
   "jobs": [
@@ -25,10 +25,7 @@
     "com.dailyhack.weekly-blog-report"
   ],
   "reconnect": "既に起動している",
-  "tasks": [
-      {"task": "036-sauna-refs-material.sh", "rc": 0, "out": "sauna-refs3.md を書き出した reports/sauna-refs3.md / branch claude/sauna-refs-material"},
-      {"task": "037-odaiba-drone-full.sh", "rc": 0, "out": "odaiba-drone2.md / 写真 2 枚 reports/odaiba-drone2.md / branch claude/odaiba-drone-material"}
-  ],
+  "tasks": [],
   "auth": {
     "ok": true,
     "expires_at": "2026-08-27T20:50:24Z",
