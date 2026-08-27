@@ -5,7 +5,10 @@ Usage: gen-photo-hero.py <bg.jpg> <out.jpg> <kicker> <title1> <title2> <subtitle
 import sys, os
 from PIL import Image, ImageDraw, ImageFont, ImageEnhance
 bg_p, out, kicker, t1, t2, sub, credit = sys.argv[1:8]
-FB="/System/Library/Fonts/ヒラギノ角ゴシック W6.ttc"; FL="/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc"
+import os as _os
+CAND_B=["/System/Library/Fonts/ヒラギノ角ゴシック W6.ttc","/usr/share/fonts/opentype/ipafont-gothic/ipagp.ttf","/usr/share/fonts/opentype/ipafont-gothic/ipag.ttf"]
+CAND_L=["/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc","/usr/share/fonts/opentype/ipafont-gothic/ipagp.ttf","/usr/share/fonts/opentype/ipafont-gothic/ipag.ttf"]
+FB=next(c for c in CAND_B if _os.path.exists(c)); FL=next(c for c in CAND_L if _os.path.exists(c))
 def f(sz,light=False): return ImageFont.truetype(FL if light else FB, sz)
 MAG=(214,62,118); W,H=1600,900
 src=Image.open(bg_p).convert("RGB"); sw,sh=src.size; sc=max(W/sw,H/sh)

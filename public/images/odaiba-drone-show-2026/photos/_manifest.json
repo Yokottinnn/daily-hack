@@ -1,0 +1,26 @@
+{
+ "rainbow": {
+  "file": "Rainbow Bridge (Summer) - panoramio.jpg",
+  "lic": "CC BY-SA 3.0",
+  "artist": "FoxyStranger Kawasaki",
+  "page": "https://commons.wikimedia.org/wiki/File%3ARainbow_Bridge_%28Summer%29_-_panoramio.jpg",
+  "px": "4131x2744",
+  "bytes": 214771
+ },
+ "hanabi": {
+  "file": "Tokyo bay fireworks 2015.jpg",
+  "lic": "CC BY-SA 4.0",
+  "artist": "河田 貫成",
+  "page": "https://commons.wikimedia.org/wiki/File%3ATokyo_bay_fireworks_2015.jpg",
+  "px": "5184x3456",
+  "bytes": 287937
+ },
+ "tokyo-night": {
+  "file": "Minato City, Tokyo, Japan (Night)-denoised.jpg",
+  "lic": "CC BY 4.0",
+  "artist": "David Kernan",
+  "page": "https://commons.wikimedia.org/wiki/File:Minato_City,_Tokyo,_Japan_(Night)-denoised.jpg",
+  "px": "4622x2600",
+  "bytes": 10311380
+ }
+}
