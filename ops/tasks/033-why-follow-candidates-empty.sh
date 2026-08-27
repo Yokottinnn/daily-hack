@@ -42,6 +42,19 @@ echo "> **上限ではなく供給が詰まっている。** cap を上げても
 echo "> どの仮説が当たりかを、実機のログとコードで決める。**推測で断定しない。**"
 
 echo
+echo "## 0. logs/ に実在するファイル名（**ログ名を当て推量しない**）"
+echo
+echo "027 は \`auto_detect_and_unfollow_inactive.log\` を見に行って「ログ無し＝一度も"
+echo "動いていない」と判定した。**その名前が実在するかを確かめていない。**"
+echo "名前が違えば、動いていても「動いていない」と出る。実在する一覧を先に出す。"
+echo
+ls -lt "$W/logs" 2>/dev/null | awk 'NR>1{printf "    %-46s %s %s %s\n", $9, $6, $7, $8}' | head -40
+echo
+echo "アンフォロー系にあたるログ:"
+ls "$W/logs" 2>/dev/null | grep -iE 'unfollow|inactive|detect' | sed 's/^/    /' \
+  || echo "    （該当なし）"
+
+echo
 echo "## 1. 直近 1 回の実行を丸ごと読む"
 echo
 for name in competitor-follower-follow hashtag-follow; do
