@@ -212,7 +212,7 @@ references: ["<出典URL>", ...]
 ```bash
 npm run build                                   # 通ること
 python3 scripts/check-article-ux.py dist/posts/<slug>/index.html   # 指摘ゼロにする
-python3 scripts/check-md-bold.py src/content/posts/<slug>.md       # ** の崩れ
+python3 scripts/check-md-bold.py dist/posts/<slug>/index.html      # ** の崩れ
 ```
 
 さらに手で確認する。
@@ -222,6 +222,9 @@ python3 scripts/check-md-bold.py src/content/posts/<slug>.md       # ** の崩�
 - 生成 HTML のタグ開閉が一致しているか
 - **本文の数字を表から機械的に再集計して一致するか**（手で数えない）
 - `.event-pick` の `href` の id がビルド後 HTML に存在するか
+
+**どちらもビルド後の HTML を渡す。** `.md` を渡すと `check-md-bold.py` は
+ソース中の `**` をすべて拾って大量に誤検出する（2026-08-22 に踏んだ）。
 
 `check-article-ux.py` の指摘を「既存記事も出ているから」で見逃さない。
 **新しく書いた記事は指摘ゼロで出す。**
