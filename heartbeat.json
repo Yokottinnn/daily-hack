@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27T16:15:31Z",
+  "generated_at": "2026-08-27T16:45:37Z",
   "host": "NaokinoMBP-2",
   "job_count": 20,
   "jobs": [
@@ -25,9 +25,7 @@
     "com.dailyhack.weekly-blog-report"
   ],
   "reconnect": "既に起動している",
-  "tasks": [
-      {"task": "035-sauna-material2.sh", "rc": 0, "out": "| `kaizoku` | — | — | 見つからず | | `suien` | — | — | 見つからず | | `kohaku` | `kohaku-1.jpg` | 1477x1108 | https://sauna-kohaku.com/floor-img/1.png?v=20260815 | | `kohaku` | `kohaku-2.jpg` | 2000x1333 | https://sauna-kohaku.com/floor-img/2.png?v=20260815 | reports/sauna-material"}
-  ],
+  "tasks": [],
   "auth": {
     "ok": true,
     "expires_at": "2026-08-27T20:50:24Z",
