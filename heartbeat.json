@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27T13:38:08Z",
+  "generated_at": "2026-08-27T14:08:38Z",
   "host": "NaokinoMBP-2",
   "job_count": 20,
   "jobs": [
@@ -26,10 +26,7 @@
   ],
   "reconnect": "既に起動している",
   "tasks": [
-      {"task": "027-daily-run-proof.sh", "rc": 0, "out": "動いている=8 / 止まっている=1 / daily-proof.md"},
-      {"task": "028-sauna-eyecatch-15.sh", "rc": 0, "out": "remote:  remote: Create a pull request for 'claude/sauna-eyecatch-15' on GitHub by visiting:         remote:      https://github.com/Yokottinnn/daily-hack/pull/new/claude/sauna-eyecatch-15         remote:  push した: claude/sauna-eyecatch-15（eyecatch 作り直し + カード候補）"},
-      {"task": "028-wire-ng-filter.sh", "rc": 0, "out": "NG判定を組み込んだ / wire-ng.md"},
-      {"task": "029-measure-conversion.sh", "rc": 0, "out": "変換率を測定 / conversion.md 146 行"}
+      {"task": "029-sauna-cards6.sh", "rc": 0, "out": "push した: claude/sauna-cards6（makuhari + odawara）"}
   ],
   "auth": {
     "ok": true,

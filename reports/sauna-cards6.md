@@ -1,0 +1,57 @@
+# カード用の写真 2 枚を本採用（2026-08-27T14:08:15Z）
+
+  - makuhari: OK
+  - odawara: OK
+
+## ライセンス台帳
+```json
+{
+  "sauna-room": {
+    "file": "Munich - Sauna in Bath House - 8470.jpg",
+    "lic": "CC BY-SA 3.0",
+    "artist": "Jorge Royan",
+    "page": "https://commons.wikimedia.org/wiki/File:Munich_-_Sauna_in_Bath_House_-_8470.jpg",
+    "px": "4368x2912",
+    "bytes": 3449484
+  },
+  "sento": {
+    "file": "Japanese communal bathhouse SENTO Sentō 銭湯の浴室.jpg",
+    "lic": "Public domain",
+    "artist": "ウィキ太郎(WikiTaro)",
+    "page": "https://commons.wikimedia.org/wiki/File:Japanese_communal_bathhouse_SENTO_Sent%C5%8D_%E9%8A%AD%E6%B9%AF%E3%81%AE%E6%B5%B4%E5%AE%A4.jpg",
+    "px": "2048x1536",
+    "bytes": 1855204
+  },
+  "tokyo": {
+    "file": "Minato City, Tokyo, Japan (Night)-denoised.jpg",
+    "lic": "CC BY 4.0",
+    "artist": "David Kernan",
+    "page": "https://commons.wikimedia.org/wiki/File:Minato_City,_Tokyo,_Japan_(Night)-denoised.jpg",
+    "px": "4622x2600",
+    "bytes": 10311380
+  },
+  "yokohama": {
+    "file": "Minato Mirai - Yokohama Skyline March 2025.jpg",
+    "lic": "CC BY 2.0",
+    "artist": "Justin Taylor",
+    "page": "https://commons.wikimedia.org/wiki/File:Minato_Mirai_-_Yokohama_Skyline_March_2025.jpg",
+    "px": "4032x3024",
+    "bytes": 4548279
+  },
+  "makuhari": {
+    "file": "Chiba-KaihinMakuhari - panoramio.jpg",
+    "lic": "CC BY 3.0",
+    "artist": "miyavix",
+    "page": "https://commons.wikimedia.org/wiki/File:Chiba-KaihinMakuhari_-_panoramio.jpg",
+    "px": "3776x2520",
+    "bytes": 3472188
+  },
+  "odawara": {
+    "file": "Odawara Castle 20211201.jpg",
+    "lic": "CC BY-SA 4.0",
+    "artist": "Suicasmo",
+    "page": "https://commons.wikimedia.org/wiki/File:Odawara_Castle_20211201.jpg",
+    "px": "5184x3456",
+    "bytes": 6729134
+  }
+}```
