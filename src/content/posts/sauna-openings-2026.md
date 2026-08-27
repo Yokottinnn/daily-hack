@@ -48,9 +48,21 @@ references: ["https://www.newoman.jp/takanawa/floorguide/detail/?scd=003014", "h
     <p>首都圏15のうち<strong>6割が東京</strong>。神奈川3・千葉2・埼玉1と続く。</p>
     <span class="pick-go">詳しく見る →</span>
   </a>
+  <a class="event-pick" href="#月別" style="--pick-img:url('/images/sauna-openings-2026/photos/makuhari.jpg')">
+    <span class="pick-date">最多の月</span>
+    <h4>7月に5施設</h4>
+    <p><strong>1月と6月はゼロ。</strong>夏に寄るのは、冬の繁忙期に運営を間に合わせるため。</p>
+    <span class="pick-go">詳しく見る →</span>
+  </a>
+  <a class="event-pick" href="#開業日が割れる理由" style="--pick-img:url('/images/sauna-openings-2026/photos/odawara.jpg')">
+    <span class="pick-date">注意</span>
+    <h4>開業日が割れる</h4>
+    <p>同じ施設で5/1・5/8・5/9。<strong>プレとグランドと体験記の掲載日</strong>が混ざってる。</p>
+    <span class="pick-go">詳しく見る →</span>
+  </a>
 </div>
 
-<span class="event-picks-credit">カード画像は Wikimedia Commons の再利用可ライセンス画像より（サウナ室: Jorge Royan / CC BY-SA 3.0、銭湯: ウィキ太郎(WikiTaro) / Public domain、東京: David Kernan / CC BY 4.0、横浜: Justin Taylor / CC BY 2.0）。**特定の施設の写真ではない。**</span>
+<span class="event-picks-credit">カード画像は Wikimedia Commons の再利用可ライセンス画像より（サウナ室: Jorge Royan / CC BY-SA 3.0、銭湯: ウィキ太郎(WikiTaro) / Public domain、東京: David Kernan / CC BY 4.0、横浜: Justin Taylor / CC BY 2.0、幕張: miyavix / CC BY 3.0、小田原: Suicasmo / CC BY-SA 4.0）。**特定の施設の写真ではない。**</span>
 
 <div class="cmp-table-wrap">
   <table class="cmp-table">
@@ -204,6 +216,11 @@ references: ["https://www.newoman.jp/takanawa/floorguide/detail/?scd=003014", "h
   <h2 id="月別">月別｜7月に5施設が集中した</h2>
 </div>
 
+<figure class="rn-figure">
+  <img src="/images/sauna-openings-2026/photos/makuhari.jpg" alt="海浜幕張の夜景。千葉は幕張と柏の2施設が2026年に開業した" loading="lazy" />
+  <figcaption>千葉は5月に毎日サウナ東京 幕張店、7月に sauna KOHAKU（柏）。<strong>7〜8月で首都圏の約半数が開いた。</strong><cite>出典: <a href="https://commons.wikimedia.org/wiki/File:Chiba-KaihinMakuhari_-_panoramio.jpg" target="_blank" rel="noopener">miyavix / Wikimedia Commons</a>（CC BY 3.0）※特定の施設の写真ではない</cite></figcaption>
+</figure>
+
 <div class="cmp-table-wrap">
   <table class="cmp-table">
     <thead><tr><th>月</th><th>件数</th><th>施設</th></tr></thead>
@@ -228,6 +245,11 @@ references: ["https://www.newoman.jp/takanawa/floorguide/detail/?scd=003014", "h
   <div class="mascot-wrap"><img src="/images/expr-08-cry.png" alt="Daily Hackマスコット" /></div>
   <h2 id="開業日が割れる理由">開業日が資料で割れる理由</h2>
 </div>
+
+<figure class="rn-figure">
+  <img src="/images/sauna-openings-2026/photos/odawara.jpg" alt="小田原城の門と堀。小田原には8月に海賊サウナ＆カプセルホテルが開業した" loading="lazy" />
+  <figcaption>海賊サウナ＆カプセルホテル（小田原駅前）は8/11 開業だが、<strong>8月中は事前予約制。</strong>「開業日」と「通常営業の開始」はずれる。<cite>出典: <a href="https://commons.wikimedia.org/wiki/File:Odawara_Castle_20211201.jpg" target="_blank" rel="noopener">Suicasmo / Wikimedia Commons</a>（CC BY-SA 4.0）※特定の施設の写真ではない</cite></figcaption>
+</figure>
 
 調べていて分かったのは、**同じ施設なのに媒体によって開業日が違う**こと。どちらかが間違っているとは限らない。
 
