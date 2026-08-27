@@ -30,5 +30,21 @@
     "page": "https://commons.wikimedia.org/wiki/File:Minato_Mirai_-_Yokohama_Skyline_March_2025.jpg",
     "px": "4032x3024",
     "bytes": 4548279
+  },
+  "makuhari": {
+    "file": "Chiba-KaihinMakuhari - panoramio.jpg",
+    "lic": "CC BY 3.0",
+    "artist": "miyavix",
+    "page": "https://commons.wikimedia.org/wiki/File:Chiba-KaihinMakuhari_-_panoramio.jpg",
+    "px": "3776x2520",
+    "bytes": 3472188
+  },
+  "odawara": {
+    "file": "Odawara Castle 20211201.jpg",
+    "lic": "CC BY-SA 4.0",
+    "artist": "Suicasmo",
+    "page": "https://commons.wikimedia.org/wiki/File:Odawara_Castle_20211201.jpg",
+    "px": "5184x3456",
+    "bytes": 6729134
   }
 }
