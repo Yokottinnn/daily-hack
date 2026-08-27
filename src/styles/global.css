@@ -435,6 +435,9 @@ footer.foot .pr { margin-top: 6px; }
 /* 1 施設の仕様（最寄・料金・男女）を並べる 2 列表。見出し行を持たない */
 .cmp-table.spec-table th { background: #fafafb; color: #4a4f57; font-weight: 700; font-size: 13px; width: 92px; border-right: 1px solid #eef0f3; }
 .cmp-table.spec-table td { white-space: normal; }
+/* 説明文が長い表。1 列に文章が入るものは折り返す */
+.cmp-table.wrap-table td { white-space: normal; }
+.cmp-table.wrap-table td:last-child { min-width: 18em; }
 
 /* Post body table — 全 markdown table 共通スタイル。装飾控えめ＋読みやすさ最優先。 */
 .post-body table {

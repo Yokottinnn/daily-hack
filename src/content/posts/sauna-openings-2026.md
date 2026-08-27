@@ -118,7 +118,7 @@ references: ["https://www.newoman.jp/takanawa/floorguide/detail/?scd=003014", "h
 **「サウナの新店」とひとことで言うが、価格帯はまるで別物。** 公式・プレスリリース・報道で料金を確認できた6施設を安い順に並べる。**確認できなかった施設は載せていない。**
 
 <div class="cmp-table-wrap">
-  <table class="cmp-table">
+  <table class="cmp-table wrap-table">
     <thead><tr><th>施設</th><th>料金</th><th>条件</th></tr></thead>
     <tbody>
       <tr class="recommended"><td><a href="https://www.1010.or.jp/map/item/item-cnt-331" target="_blank" rel="noopener">黄金湯 新宿</a></td><td><strong>550円</strong></td><td>大人（中学生以上）の入浴料。<strong>サウナは別料金</strong></td></tr>
@@ -535,7 +535,7 @@ references: ["https://www.newoman.jp/takanawa/floorguide/detail/?scd=003014", "h
 </div>
 
 <div class="cmp-table-wrap">
-  <table class="cmp-table">
+  <table class="cmp-table wrap-table">
     <thead><tr><th>月</th><th>件数</th><th>施設</th></tr></thead>
     <tbody>
       <tr><td>2月</td><td>3</td><td><a href="https://onsen.nifty.com/ootemachi-onsen/onsen024731/" target="_blank" rel="noopener">PARADISE 大手町</a>／<a href="https://www.newoman.jp/takanawa/floorguide/detail/?scd=003014" target="_blank" rel="noopener">高輪SAUNAS</a>／荒木町 Logout</td></tr>
@@ -562,7 +562,7 @@ references: ["https://www.newoman.jp/takanawa/floorguide/detail/?scd=003014", "h
 調べていて分かったのは、**同じ施設なのに媒体によって開業日が違う**こと。どちらかが間違っているとは限らない。
 
 <div class="cmp-table-wrap">
-  <table class="cmp-table">
+  <table class="cmp-table wrap-table">
     <thead><tr><th>施設</th><th>割れている情報</th><th>理由として考えられるもの</th></tr></thead>
     <tbody>
       <tr><td><a href="http://k-scc.co.jp/sauna/price/price.html" target="_blank" rel="noopener">サウナリゾート＆スパ BlueOcean</a></td><td>6/27 と 7/6</td><td><strong>先行営業とグランドオープンの違い。</strong>プレスリリースは7/6を「グランドオープン」としている</td></tr>
@@ -605,7 +605,7 @@ references: ["https://www.newoman.jp/takanawa/floorguide/detail/?scd=003014", "h
 **埋められなかったところを、埋めたふりで書かない。**
 
 <div class="cmp-table-wrap">
-  <table class="cmp-table">
+  <table class="cmp-table wrap-table">
     <thead><tr><th>項目</th><th>状態</th></tr></thead>
     <tbody>
       <tr><td>料金</td><td><strong>15施設中6つしか確認できていない。</strong>残り9は公式に料金表が出ていないか、会員制・予約制で公開されていない。<strong>推測値は載せていない</strong></td></tr>
