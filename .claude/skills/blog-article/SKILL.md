@@ -100,6 +100,40 @@ python3.11 scripts/gen-mosaic-hero.py OUT.jpg KICKER TITLE1 TITLE2 SUB CREDIT im
   ブランド画像であって施設写真ではない。** ページ内の `<img>` と CSS の `url()` から
   横長で 640×360 以上のものを拾うこと
 
+#### タイルは 6 枚とも見える配置にする
+
+**3×2 のタイルの上に見出しを重ねると、左の 2 枚が文字で潰れて 4 枚しか見えない。**
+2026-08-27 のサウナ記事で実際にそうなった。**「6 枚使った」ではなく
+「6 枚見える」が要件。**
+
+```bash
+python3 scripts/gen-tile6-hero.py OUT.jpg KICKER T1 T2 SUB CREDIT img1 … img6
+# 左に見出し帯（幅 596px・不透明）｜右に 2 列 × 3 行のタイル（各 491×294）
+```
+
+見出しとタイルの領域を**重ねずに分ける**。作ったら必ず `Read` で開いて、
+**6 枚を数える。**
+
+タイルは**別々の対象**にする。同じ施設の写真を 2 枚入れると「6 施設ぶん」に見えない。
+
+#### 表紙の隅の文字は、まず生成器のコードを読む
+
+2026-08-27 に、表紙の右下に出た `@heng_ji31590` を**「拾ってきた写真に入っていた
+第三者の透かし」だと判断して、その写真を記事から外した。** 誤りだった。
+`scripts/gen-mosaic-hero.py` が**このサイト自身のハンドルとして刻印している**もので、
+写真には何も入っていなかった。
+
+```bash
+grep -n 'heng_ji31590' scripts/gen-*.py   # 生成器が何を描いているか先に見る
+```
+
+- **合成後の画像だけを見て、素材の欠陥だと決めない。** 素材を等倍で開いて確かめる
+- 素材を外す前に、**外す理由が素材の側にあることを確認する**
+
+それでも**本物の透かしは弾く。** 公式サイトから拾った写真でも、中身が第三者の
+ストック写真のことがある。切り抜いて消すのは出典表示を削る行為なので不可。
+その施設の写真として使わない。
+
 ### 候補は「見て選ぶ」
 
 自動で 1 件目を採る運用はしない。`ops/tasks/022-sauna-photo-candidates.sh` が実例で、
@@ -116,15 +150,27 @@ python3.11 scripts/gen-mosaic-hero.py OUT.jpg KICKER TITLE1 TITLE2 SUB CREDIT im
 - 横長で使える（カード背景・1600×900 に切っても破綻しない）
 - ライセンスが再利用可（`fetch-commons-photo.py` が非フリーを弾くが、`_manifest.json` で確認する）
 
-### クラウドセッションでは生成できない
+### 合成はクラウドセッションでもできる。取れないのは「素材」だけ
 
-**このリポジトリのクラウドセッションには日本語フォントが無く（Noto Color Emoji のみ）、
-Commons にも到達できない**（egress が塞がれている。2026-08-22 実測）。
-`gen-*.py` は macOS のヒラギノを直接参照している。
+**「日本語フォントが無い」は誤り。** 2026-08-27 に `fc-list` を `noto|cjk` で絞って
+探したせいで見落としていた。実際には IPA ゴシックが入っている。
 
-**だから画像づくりは Mac に投げる。** `ops/tasks/NNN-*.sh` をコミットすれば
-30 分以内に Mac で走る（`CLAUDE.md` の「機械的な操作は ops/tasks に置く」）。
-タスクは生成した画像を**リポジトリにコミットして push する**ところまで書く。
+```bash
+ls /usr/share/fonts/opentype/ipafont-gothic/ipag.ttf   # 日本語フォント
+pip install Pillow                                     # pypi は NO_PROXY に入っている
+```
+
+**だから合成・確認・作り直しはこのセッションで完結する。** 何度でも作り直して
+`Read` で見ればよく、1 往復 30 分かかる `ops/tasks` を回す必要はない。
+
+**Mac に投げるのは「外から取ってくる」ところだけ。** クラウドセッションは
+egress が塞がれていて（`WebFetch` は全ホストで `EGRESS_BLOCKED`、`curl` は
+CONNECT 403）、公式サイトの写真も Commons の画像も取れない。
+
+```text
+素材を取る    → ops/tasks で Mac（30 分以内に走る）
+合成・確認     → このセッション（Pillow ＋ IPA ゴシック）
+```
 
 **画像が用意できるまで記事を公開しない。** 表紙なしで出すのは不可。
 
@@ -213,6 +259,19 @@ references: ["<出典URL>", ...]
 **対象が 15 個あるなら 15 節書く。** 多いから表でまとめる、は逆。
 検索は対象名で来るので、節が無いとその流入を丸ごと落とす。
 
+節の並びはこの順で固定する。**節ごとにばらつかせない。**
+
+```text
+### ① 施設名（開業日・都県）
+写真（あれば。figcaption に出典）
+仕様表（最寄・料金・男女の 2 列）
+その施設だけの一文
+X の実投稿 か YouTube（あれば）
+```
+
+**素材が無い節は素材無しで出す。** 埋めるために別の施設の写真を流用したり、
+一般的なサウナ写真で代用したりしない。
+
 ### X の実投稿を埋め込む
 
 **行った人の声が無い記事は、どこにでもある要約記事になる。**
@@ -224,7 +283,17 @@ references: ["<出典URL>", ...]
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 ```
 
+`blockquote.twitter-tweet` は `global.css` に定義済みで、`widgets.js` が
+読み込めなくても**カードとして読める形で出る。**
+
 - **実在する投稿だけ。** URL を組み立てて作らない。**捏造は記事全体の信用を壊す**
+- **本文・投稿者・日付は syndication API で取る。** 検索結果の抜粋を信じない
+
+  ```bash
+  curl -s "https://cdn.syndication.twimg.com/tweet-result?id=<TWEET_ID>&lang=ja&token=a"
+  # → text / user.name / user.screen_name / created_at
+  ```
+
 - クラウドからは x.com に到達できないので、`ops/tasks` 経由で Mac に探させる
 - 宣伝ではなく**体験の投稿**を選ぶ。公式の告知だけ並べても読者の役に立たない
 
@@ -234,13 +303,25 @@ references: ["<出典URL>", ...]
 その対象を扱った動画があれば埋め込む。
 
 ```html
-<div class="video-embed"><iframe src="https://www.youtube-nocookie.com/embed/<VIDEO_ID>"
-  title="（動画タイトル）" loading="lazy" allowfullscreen></iframe></div>
+<div class="yt-embed"><iframe src="https://www.youtube-nocookie.com/embed/<VIDEO_ID>"
+  title="（動画タイトル）" loading="lazy" allowfullscreen
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe></div>
 ```
 
+`.yt-embed` は `global.css` に定義済み（16:9・角丸・最大 720px）。**インラインの
+`style` を書かない。**
+
 - **実在する動画 ID だけ。** 存在しない ID は再生できず、崩れて気づかれる
+- **タイトルは oEmbed で照合する。** スクレイプしたタイトルは文字化けすることがあり、
+  それを信じると**別の施設の動画を貼る。** 2026-08-27 に 3 本がこれで弾かれた
+  （`suien` → 麻布十番の別店、`kaizoku` → **山賊**サウナ、`monnaka` → 幕張の別店）
+
+  ```bash
+  curl -s "https://www.youtube.com/oembed?format=json&url=https://www.youtube.com/watch?v=<ID>"
+  # → title と author_name が返る。対象施設と一致しなければ使わない
+  ```
+
 - `youtube-nocookie.com` を使う
-- 1 記事に 1〜3 本。全対象に付けようとしない
 
 ### 読者の「次の疑問」を先回りする
 
@@ -259,6 +340,7 @@ references: ["<出典URL>", ...]
 | 用途 | マークアップ |
 | --- | --- |
 | 比較表 | `<div class="cmp-table-wrap"><table class="cmp-table">`。推す行は `<tr class="recommended">` |
+| 1 対象の仕様（最寄・料金など） | `<table class="cmp-table spec-table">` に `<tbody>` だけ。ラベルは `<th>` |
 | 写真 | `<figure class="rn-figure">` + `figcaption` に `<cite>出典: <a …></cite>` |
 | 手順・分類の解説 | `<ul class="checklist"><li><div class="checklist-body"><strong>①…</strong><p>…</p>` |
 | 年表・時系列 | `<div class="tower-timeline"><div class="tl-year"><p class="tl-label">…<ul class="tl-items">` |
@@ -267,6 +349,19 @@ references: ["<出典URL>", ...]
 | 関連記事 | `<aside class="related-block">`（`related-block-thumb` に画像を入れる） |
 
 **マークアップは記憶で書かず、上の 3 本から実物をコピーして中身を差し替える。**
+
+#### 生の HTML ブロックの中で `**` は効かない
+
+Markdown の強調は**HTML ブロックの内側では処理されない。**`<table>` や `<div>` の
+中に `**〜**` を書くと、そのまま `**` として表示される。`check-md-bold.py` が
+拾うが、**HTML を書いたら最初から `<strong>` を使う。**
+
+`**〜**` が効かないもう 1 つの型が、**閉じ側の直前に句読点や引用符が来る**場合。
+
+```text
+✗ **"まちのリビング"**がコンセプト   → 「**まちのリビング**」がコンセプト
+✗ **無料。**18:30〜                 → **無料**。18:30〜
+```
 
 ### 締め
 
