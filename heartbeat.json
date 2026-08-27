@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27T15:09:09Z",
+  "generated_at": "2026-08-27T15:40:41Z",
   "host": "NaokinoMBP-2",
   "job_count": 20,
   "jobs": [
@@ -26,9 +26,10 @@
   ],
   "reconnect": "既に起動している",
   "tasks": [
-      {"task": "031-sauna-mosaic-and-refs.sh", "rc": 0, "out": "remote:  remote: Create a pull request for 'claude/sauna-mosaic-eyecatch' on GitHub by visiting:         remote:      https://github.com/Yokottinnn/daily-hack/pull/new/claude/sauna-mosaic-eyecatch         remote:  push した: claude/sauna-mosaic-eyecatch（tiles 5 枚 / 参考記事は reports/saun"},
-      {"task": "032-dump-reply-samples.sh", "rc": 0, "out": "返信の実物と生成設定を持ち帰った / reply-samples.md 253 行"},
-      {"task": "033-why-follow-candidates-empty.sh", "rc": 0, "out": "フォロー候補の詰まりを調べた / follow-bottleneck.md 356 行"}
+      {"task": "030-raise-follow-volume.sh", "rc": 0, "out": "competitor の cap=10 / raise-follow.md"},
+      {"task": "032-scrape-sauna-and-odaiba.sh", "rc": 0, "out": "remote:  remote: Create a pull request for 'claude/sauna-scrape-out' on GitHub by visiting:         remote:      https://github.com/Yokottinnn/daily-hack/pull/new/claude/sauna-scrape-out         remote:  push した: claude/sauna-scrape-out（tiles/ に候補、reports に sauna-refs2.md と sauna-t"},
+      {"task": "034-sauna-embeds.sh", "rc": 0, "out": "書き出した: reports/sauna-embeds.md（129 行）"},
+      {"task": "034-stop-referral-codes.sh", "rc": 0, "out": "紹介コード対策と危険テンプレ除去 / stop-referral.md 107 行"}
   ],
   "auth": {
     "ok": true,
@@ -101,10 +102,10 @@
       {"label": "ai.openclaw.x-login-monitor", "plist_mtime": "2026-08-22T11:07:15Z"}
   ],
   "followers": {
-    "now": 211,
+    "now": 214,
     "prev": 210,
     "prev_date": "2026-08-24",
-    "span_days": 2,
+    "span_days": 3,
     "target": 300,
     "deadline": "2026-09-30"
   },
