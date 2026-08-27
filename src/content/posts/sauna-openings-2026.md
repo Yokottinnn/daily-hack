@@ -30,7 +30,7 @@ references: ["https://www.newoman.jp/takanawa/floorguide/detail/?scd=003014", "h
     <p>新規13・既存のリニューアル2。<strong>7月だけで5施設</strong>が集中した。</p>
     <span class="pick-go">詳しく見る →</span>
   </a>
-  <a class="event-pick" href="#男性専用" style="--pick-img:url('/images/sauna-openings-2026/photos/sento.jpg')">
+  <a class="event-pick" href="#女性が入れるサウナ" style="--pick-img:url('/images/sauna-openings-2026/photos/sento.jpg')">
     <span class="pick-date">男女</span>
     <h4>女性は6施設だけ</h4>
     <p>男性専用が8、資料が割れるのが1。<strong>女性が入れる6のうち4は大型の複合施設。</strong></p>
@@ -57,10 +57,11 @@ references: ["https://www.newoman.jp/takanawa/floorguide/detail/?scd=003014", "h
     <thead><tr><th>切り口</th><th>数字</th><th>意味</th></tr></thead>
     <tbody>
       <tr><td>施設数</td><td><strong>15</strong></td><td><a href="#首都圏15施設リスト">新規13／既存のリニューアル2</a></td></tr>
-      <tr class="recommended"><td>男女</td><td><strong>男性専用 8／男女 6</strong></td><td><a href="#男性専用">残る1つ（PARADISE 大手町）は資料が割れる</a></td></tr>
+      <tr class="recommended"><td>男女</td><td><strong>男性専用 8／男女 6</strong></td><td><a href="#女性が入れるサウナ">残る1つ（PARADISE 大手町）は資料が割れる</a></td></tr>
       <tr><td>内訳</td><td><strong>東京 9／15（60%）</strong></td><td><a href="#地域">神奈川3・千葉2・埼玉1</a></td></tr>
       <tr><td>最多の月</td><td><strong>7月（5施設）</strong></td><td><a href="#月別">2月・5月が各3で続く</a></td></tr>
       <tr><td>料金の幅</td><td><strong>550円〜3,700円</strong></td><td><a href="#料金">裏の取れた6施設で<strong>6.7倍</strong></a></td></tr>
+      <tr><td>1軒ずつ</td><td><strong>15施設 全部</strong></td><td><a href="#15施設を1軒ずつ">X の実投稿と YouTube の動画つきで解説</a></td></tr>
     </tbody>
   </table>
 </div>
@@ -145,33 +146,362 @@ references: ["https://www.newoman.jp/takanawa/floorguide/detail/?scd=003014", "h
 
 <div class="section-with-mascot">
   <div class="mascot-wrap"><img src="/images/expr-09-arms-crossed.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="男性専用">男性専用が半分以上という構造</h2>
+  <h2 id="女性が入れるサウナ">女性が入れるサウナはどれか｜首都圏15施設のうち6軒</h2>
 </div>
 
 <div class="hakkako-says">
   <div class="hakkako-mascot"><img src="/images/expr-02-pout.png" alt="Daily Hackマスコット" /></div>
-  <div class="hakkako-quote">新店ニュースを見て「行こう」と思った女性が、公式サイトを開いて初めて男性専用だと知る——これ、2026年の首都圏の新店では<strong>2回に1回以上</strong>起きるってこと。先に知っておいたほうがいい。</div>
+  <div class="hakkako-quote">新店ニュースを見て「行こう」と思った女性が、公式サイトを開いて初めて男性専用だと知る——これ、2026年の首都圏の新店では<strong>2回に1回以上</strong>起きるってこと。だから先にこの表を置いとく。</div>
 </div>
 
-**女性がそのまま入れると確認できた6施設**は次のとおり。残り9のうち8は男性専用（または基本男性専用）、1つ（PARADISE 大手町）は資料が割れている。
+**15施設のうち、女性がそのまま入れると確認できたのは6軒。** 残り9のうち8は男性専用（または基本男性専用）、1つ（PARADISE 大手町）は資料が割れている。
 
 <div class="cmp-table-wrap">
   <table class="cmp-table">
-    <thead><tr><th>施設</th><th>エリア</th><th>特徴</th></tr></thead>
+    <thead><tr><th>施設（エリア）</th><th>女性側の中身</th><th>料金</th></tr></thead>
     <tbody>
-      <tr><td><a href="https://www.newoman.jp/takanawa/floorguide/detail/?scd=003014" target="_blank" rel="noopener">高輪SAUNAS</a></td><td>東京・高輪</td><td>女性側3室（男性側5室）。駅直結</td></tr>
-      <tr><td><a href="https://ryusenjinoyu.com/saunametsaoimachi/" target="_blank" rel="noopener">サウナメッツァ 大井町トラックス</a></td><td>東京・大井町</td><td>日本初のトラムサウナ。駅から徒歩2分</td></tr>
-      <tr><td><a href="https://www.1010.or.jp/map/item/item-cnt-331" target="_blank" rel="noopener">黄金湯 新宿</a></td><td>東京・東新宿</td><td>女湯はセルフロウリュサウナ</td></tr>
-      <tr><td><a href="https://prtimes.jp/main/html/rd/p/000000017.000070556.html" target="_blank" rel="noopener">門仲SAUNAS LO</a></td><td>東京・門前仲町</td><td>女性1室（男性3室）。マンションの1・2階</td></tr>
-      <tr><td><a href="http://k-scc.co.jp/sauna/price/price.html" target="_blank" rel="noopener">サウナリゾート＆スパ BlueOcean</a></td><td>神奈川・新横浜</td><td>24時間営業</td></tr>
-      <tr><td>横浜天然温泉 SPA EAS</td><td>神奈川・横浜</td><td>館内着のまま男女一緒に入れる没入型エリアを新設</td></tr>
+      <tr class="recommended"><td><a href="https://www.newoman.jp/takanawa/floorguide/detail/?scd=003014" target="_blank" rel="noopener">高輪SAUNAS</a><br><small>東京・高輪</small></td><td>女性側<strong>3室</strong>（男性側5室）。駅直結</td><td>3,200円ほか</td></tr>
+      <tr class="recommended"><td><a href="https://ryusenjinoyu.com/saunametsaoimachi/" target="_blank" rel="noopener">サウナメッツァ 大井町トラックス</a><br><small>東京・大井町</small></td><td>薬草の<strong>ウーブンサウナ</strong>。潜れる水風呂ほか5浴槽</td><td>平日1,800円〜</td></tr>
+      <tr class="recommended"><td><a href="https://www.1010.or.jp/map/item/item-cnt-331" target="_blank" rel="noopener">黄金湯 新宿</a><br><small>東京・東新宿</small></td><td>女湯は<strong>セルフロウリュ</strong>サウナ</td><td>550円（サウナ別）</td></tr>
+      <tr><td><a href="https://prtimes.jp/main/html/rd/p/000000017.000070556.html" target="_blank" rel="noopener">門仲SAUNAS LO</a><br><small>東京・門前仲町</small></td><td>女性<strong>1室</strong>（男性3室）</td><td>未発表</td></tr>
+      <tr class="recommended"><td><a href="http://k-scc.co.jp/sauna/price/price.html" target="_blank" rel="noopener">サウナリゾート＆スパ BlueOcean</a><br><small>神奈川・新横浜</small></td><td>24時間営業。駅前</td><td>平日1,750円（税別）</td></tr>
+      <tr><td>横浜天然温泉 SPA EAS<br><small>神奈川・横浜</small></td><td><strong>館内着のまま男女一緒</strong>に入れる没入型エリア</td><td>未確認</td></tr>
     </tbody>
   </table>
 </div>
 
-**気づくのは、6施設のうち4が「大型の複合施設」だということ**（高輪SAUNAS・サウナメッツァ大井町・BlueOcean・SPA EAS）。小規模な都市型サウナほど男性専用になりやすく、女性が選べるのは駅直結・ビル一棟型に寄る。
+### 女性が選べるのは「大型の複合施設」に寄る
+
+**6軒のうち4軒が大型の複合施設**（高輪SAUNAS・サウナメッツァ大井町・BlueOcean・SPA EAS）。
+小規模な都市型サウナほど男性専用になりやすく、女性が選べるのは駅直結・ビル一棟型に寄る。
 
 これは好みの問題ではなく、**脱衣所と浴室を2系統つくれるかどうかという面積の問題**である。ワンフロアで完結させたい小型店ほど、片方を切る判断になりやすい。
+
+### 「男女入れ替え」の日を狙う手もある
+
+高輪SAUNASは、男女の浴室・サウナ室を入れ替える日を設けている。**普段は入れない側のサウナ室に入れる。**
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">【SAUNASWITCH DAY】<br><br>6月15日（月）に「SAUNASWITCH DAY」を開催いたします！<br><br>この日は、男女の浴室・サウナ室が入れ替わる1日。<br>グランドオープン後、初めての試みです。<br><br>いつもと違う景色やサウナ室をたっぷりとお楽しみください。</p>&mdash; 高輪SAUNAS (@TAKANAWA_SAUNAS) <a href="https://twitter.com/TAKANAWA_SAUNAS/status/2058031816775438377">2026年5月23日</a></blockquote>
+
+### 「基本男性専用」でもレディースデーがある施設
+
+<div class="cmp-table-wrap">
+  <table class="cmp-table">
+    <thead><tr><th>施設</th><th>運用</th></tr></thead>
+    <tbody>
+      <tr><td><a href="https://www.supersento.com/kanto/chiba/maisa_tokyo.html" target="_blank" rel="noopener">毎日サウナ東京 幕張店</a></td><td>基本男性専用。<strong>不定期でレディースデー</strong></td></tr>
+      <tr><td>sauna KOHAKU（柏）</td><td>基本男性専用。<strong>定期的にレディースデー</strong>を開催</td></tr>
+      <tr><td>水宴 -suien-（麻布十番）</td><td>基本男性専用。曜日によって貸切利用に対応</td></tr>
+    </tbody>
+  </table>
+</div>
+
+**告知は公式SNSでしか出ないことが多い。** 行く前にアカウントを確認すること。
+
+<div class="section-with-mascot">
+  <div class="mascot-wrap"><img src="/images/expr-04-cheer.png" alt="Daily Hackマスコット" /></div>
+  <h2 id="15施設を1軒ずつ">15施設を1軒ずつ｜料金・駅・男女・中身</h2>
+</div>
+
+**表だけだと「自分が行く1軒」が決まらない。** ここから15軒すべてを、オープン日順に1軒ずつ見ていく。
+
+### ① PARADISE 大手町（2/1・東京）
+
+<figure class="rn-figure">
+  <img src="/images/sauna-openings-2026/facilities/paradise.jpg" alt="PARADISE 大手町の25mプール。高層ビルの25・26階にあるスパ・ジム・コワーキングの複合施設" loading="lazy" />
+  <figcaption>25階が全裸エリア、26階が水着エリア。<strong>25mプール</strong>を備える。<cite>画像: <a href="https://onsen.nifty.com/ootemachi-onsen/onsen024731/" target="_blank" rel="noopener">PARADISE 大手町</a>（各施設公式サイトより）</cite></figcaption>
+</figure>
+
+<div class="cmp-table-wrap">
+  <table class="cmp-table spec-table">
+    <tbody>
+      <tr><th>最寄</th><td>大手町 徒歩3分（B2a出口から直結）</td></tr>
+      <tr><th>料金</th><td><strong>1,980円〜</strong>（1時間・グランドオープン価格）。通常価格の記載は1時間2,178円・3時間3,278円</td></tr>
+      <tr><th>男女</th><td><strong>要確認</strong>（資料によって記載が割れる）</td></tr>
+    </tbody>
+  </table>
+</div>
+
+スパ・ジム・コワーキングを備える複合型。**働く・鍛える・ととのうが1か所で完結する**のが売り。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">PARADISE大手町は巨大プールでととのえる新感覚のサウナ体験が魅力<br><br>オフィス街のビルの高層フロア内にある施設で、都会で働くサラリーマンの隠れ家的な印象がある<br><br>施設内にはプロジェクションマッピングの映像や沢山の観葉植物があり、高級感のある香りなどまさに天国のような雰囲気を表現している</p>&mdash; エイジ｜サウナ廃人 (@Saunahaijin) <a href="https://twitter.com/Saunahaijin/status/2084418247773069347">2026年8月3日</a></blockquote>
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/dq7wjtVeW-k" title="【PARADISE大手町】地上26のパラダイスサウナついにオープン！（スパワークス）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+### ② 高輪SAUNAS（2/9・東京）
+
+<figure class="rn-figure">
+  <img src="/images/sauna-openings-2026/facilities/takanawa.jpg" alt="高輪SAUNASのサウナ室。木を基調とした広い空間に段状のベンチが並ぶ" loading="lazy" />
+  <figcaption>ニュウマン高輪 North 5階。1,600平米超に<strong>男女あわせて9つのサウナ室</strong>。<cite>画像: <a href="https://saunas-saunas.com/takanawa" target="_blank" rel="noopener">高輪SAUNAS 公式</a></cite></figcaption>
+</figure>
+
+<div class="cmp-table-wrap">
+  <table class="cmp-table spec-table">
+    <tbody>
+      <tr><th>最寄</th><td><strong>高輪ゲートウェイ駅 直結</strong>（ニュウマン高輪）</td></tr>
+      <tr><th>料金</th><td>男性 <strong>3,700円</strong>（平日4時間）／女性 3,200円ほか（2026年7月時点）</td></tr>
+      <tr><th>男女</th><td><strong>男女</strong>（男性側5室・女性側3室）</td></tr>
+    </tbody>
+  </table>
+</div>
+
+『サ道』原作者のタナカカツキ氏が総合プロデュース。アウフグース・ウィスキング・ハーバルプログラムなど**独自プログラム**が組まれている。最大5名のプライベートサウナ室「HUONE」もある。
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/nfMMu7p6Fas" title="週３でサウナに通う豆が感動した最新サウナ『高輪SAUNAS』（ぽんぽこちゃんねる）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+### ③ 荒木町サウナ Logout（2/27・東京）
+
+<div class="cmp-table-wrap">
+  <table class="cmp-table spec-table">
+    <tbody>
+      <tr><th>最寄</th><td>四谷三丁目ほか（新宿・荒木町の路地奥）</td></tr>
+      <tr><th>料金</th><td>未確認</td></tr>
+      <tr><th>男女</th><td>男性専用</td></tr>
+    </tbody>
+  </table>
+</div>
+
+**深海をイメージした没入型サウナ。** 青い光と黙浴の空間で、日常から"ログアウト"するのがコンセプト。
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/ycl2Od6sLg0" title="東京・荒木町の「Logout」さんで日常からログアウトしてきた日（湯浴み男子）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+### ④ サウナメッツァ 大井町トラックス（3/28・東京）
+
+<figure class="rn-figure">
+  <img src="/images/sauna-openings-2026/facilities/oimachi.jpg" alt="サウナメッツァ大井町トラックスのトラムサウナ。電車を模した内装で吊り革が下がっている" loading="lazy" />
+  <figcaption><strong>日本初のトラムサウナ。</strong>吊り革まで再現され、窓の外を実際の電車が通る。<cite>画像: <a href="https://ryusenjinoyu.com/saunametsaoimachi/" target="_blank" rel="noopener">サウナメッツァ大井町トラックス 公式</a></cite></figcaption>
+</figure>
+
+<div class="cmp-table-wrap">
+  <table class="cmp-table spec-table">
+    <tbody>
+      <tr><th>最寄</th><td><strong>大井町駅 徒歩2分</strong>（OIMACHI TRACKS 4F）</td></tr>
+      <tr><th>料金</th><td>平日 <strong>1,800円〜</strong>／土日 2,400円</td></tr>
+      <tr><th>男女</th><td><strong>男女</strong>（女性は薬草のウーブンサウナ）</td></tr>
+    </tbody>
+  </table>
+</div>
+
+竜泉寺の湯・スパメッツァ系列の新ブランド。男性側はトラムサウナに加えて**400年超のケロを使ったサウナ**とシングル水風呂。営業は6:00〜翌2:00で年中無休。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">いよいよ明日、3/28(土) 11:00 オープンとなります。<br><br>【ご利用に関するご案内】<br>・当館は完全キャッシュレスです。現金はご利用いただけません。<br>・ご利用は16歳以上の方に限らせていただきます。<br><br>皆さまのご来館を心よりお待ちしております！</p>&mdash; サウナメッツァ大井町トラックス (@saunametsa) <a href="https://twitter.com/saunametsa/status/2037376567412924703">2026年3月27日</a></blockquote>
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/ya0eS3zP8rI" title="電車型サウナでととのう「サウナメッツァ大井町トラックス」に行ってみた（ちゃんなべ）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+### ⑤ SHIAGARU SAUNA 神田×秋葉原（4/13・東京）
+
+<div class="cmp-table-wrap">
+  <table class="cmp-table spec-table">
+    <tbody>
+      <tr><th>最寄</th><td>岩本町 徒歩2分</td></tr>
+      <tr><th>料金</th><td>未確認</td></tr>
+      <tr><th>男女</th><td>男性専用</td></tr>
+    </tbody>
+  </table>
+</div>
+
+**"ととのう"の先の"しあがる"がテーマ。** サウナだけでなく、食事・睡眠・仕事まで含めてコンディションを整える男性専用のパブリックサウナ。**予約制**なので、行けば入れるとは限らない。
+
+### ⑥ サウナ蒸薪（5/3・埼玉）
+
+<div class="cmp-table-wrap">
+  <table class="cmp-table spec-table">
+    <tbody>
+      <tr><th>最寄</th><td>北本</td></tr>
+      <tr><th>料金</th><td>未確認</td></tr>
+      <tr><th>男女</th><td>男性専用</td></tr>
+    </tbody>
+  </table>
+</div>
+
+**大型薪ストーブの本格薪サウナ**と、天然地下水かけ流しの水風呂が主役。薪の炎と香り、地下水、外気浴で自然を感じさせる作り。
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/1ajS68oQgGM" title="サウナ蒸薪 北本本店 — 毎日サウナで修行した支配人が作る本格薪サウナ（サウナツクリタイ）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+### ⑦ おかえりサウナ板橋（5/6・東京）
+
+<div class="cmp-table-wrap">
+  <table class="cmp-table spec-table">
+    <tbody>
+      <tr><th>最寄</th><td><strong>板橋本町駅前</strong></td></tr>
+      <tr><th>料金</th><td>未確認</td></tr>
+      <tr><th>男女</th><td>男性専用</td></tr>
+    </tbody>
+  </table>
+</div>
+
+「**まちのリビング**」がコンセプト。気取らず自分のペースで過ごせるサウナで、**土壁を使ったフィンランド式サウナ**が特徴。
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/DBd_MUCJIJo" title="おかえりサウナ板橋へ行ってきたよ！（スーパー銭湯サウナチャンネル）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+### ⑧ 毎日サウナ東京 幕張店（5/8・千葉）
+
+<div class="cmp-table-wrap">
+  <table class="cmp-table spec-table">
+    <tbody>
+      <tr><th>最寄</th><td>幕張本郷 徒歩13分（駐車場210台・有料）</td></tr>
+      <tr><th>料金</th><td>平日60分 <strong>1,300円</strong>／120分1,900円／フリー2,500円。土日祝60分1,800円</td></tr>
+      <tr><th>男女</th><td>基本男性専用（<strong>不定期でレディースデー</strong>）</td></tr>
+    </tbody>
+  </table>
+</div>
+
+**5種のサウナ・3種の水風呂・3種の風呂**に、ととのいスペース約70席。24時間営業（6:00〜9:00は清掃）。「サウナ東京」と「毎日サウナ」が融合した新業態。
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/gNtxaP2v6_g" title="幕張にオープンした毎日サウナ東京はクオリティもコスパも日本一でした（タケお / 新潟サウナ旅）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+### ⑨ サウナリゾート＆スパ BlueOcean（7/6・神奈川）
+
+<figure class="rn-figure">
+  <img src="/images/sauna-openings-2026/facilities/blueocean.jpg" alt="サウナリゾート＆スパ BlueOceanのサウナ室。間接照明の効いた木のベンチと大きな窓" loading="lazy" />
+  <figcaption>新横浜駅前でビル一棟。<strong>24時間営業</strong>で、水風呂は16℃と8℃の2種類。<cite>画像: <a href="http://k-scc.co.jp/sauna/" target="_blank" rel="noopener">サウナリゾート＆スパ BlueOcean 公式</a></cite></figcaption>
+</figure>
+
+<div class="cmp-table-wrap">
+  <table class="cmp-table spec-table">
+    <tbody>
+      <tr><th>最寄</th><td><strong>新横浜駅前</strong></td></tr>
+      <tr><th>料金</th><td>15歳以上 平日 <strong>1,750円（税別）</strong>／特定日・土日祝 2,050円（税別）。ナイト（24:00〜翌9:00）平日3,980円</td></tr>
+      <tr><th>男女</th><td><strong>男女</strong></td></tr>
+    </tbody>
+  </table>
+</div>
+
+男性側は高温（105〜110℃）・没入（75℃前後）・オートロウリュ（85℃前後）の3種。音・光・映像を組み合わせた没入型サウナが売り。
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/2wokj0M2nNs" title="BLUE OCEAN SAUNA（マエ 全国の最高サウナ紹介）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+### ⑩ 黄金湯 新宿（♻️7/7・東京）
+
+<div class="cmp-table-wrap">
+  <table class="cmp-table spec-table">
+    <tbody>
+      <tr><th>最寄</th><td>東新宿 徒歩5分（都営大江戸線）</td></tr>
+      <tr><th>料金</th><td><strong>550円</strong>（大人・中学生以上／サウナは別料金）</td></tr>
+      <tr><th>男女</th><td><strong>男女</strong>（女湯はセルフロウリュ）</td></tr>
+    </tbody>
+  </table>
+</div>
+
+1964年創業の「金沢浴場」を、錦糸町の人気銭湯「黄金湯」が再生。モザイクタイルを活かした浴室に炭酸泉・薬風呂・水風呂を新設し、**男湯は溶岩石のオートロウリュ**。番台にバーとDJブースがある。
+
+**2026年8月26日からオールナイト営業が始まった。**
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">✨オールナイト営業スタート✨<br><br>ついに、2026年8月26日から待望のオールナイト営業が始まりました🌙<br><br>深夜のサウナや水風呂も、昼間とはまた違った雰囲気でじっくり楽しめます🧖‍♀️✨<br><br>深夜、たった600円で手足を思い切り伸ばして、温かい湯船に浸かれる――。</p>&mdash; 黄金湯 新宿【2026年7月リニューアルオープン】 (@koganeyu2) <a href="https://twitter.com/koganeyu2/status/2092828756553654388">2026年8月27日</a></blockquote>
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/B4Li60IPwA4" title="【ついに新宿へ】黄金湯 新宿店を最速体験（yu1ro サウナで会いましょうCh）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+### ⑪ sauna KOHAKU（7/10・千葉）
+
+<figure class="rn-figure">
+  <img src="/images/sauna-openings-2026/facilities/kohaku.jpg" alt="sauna KOHAKUの浴室。落ち着いた照明のタイル張りの空間にサウナ室の入口が見える" loading="lazy" />
+  <figcaption>プロサッカー選手・細谷真大氏がプロデュース。<strong>回復に振ったリカバリーサウナ。</strong><cite>画像: <a href="https://sauna-kohaku.com/" target="_blank" rel="noopener">sauna KOHAKU 公式</a></cite></figcaption>
+</figure>
+
+<div class="cmp-table-wrap">
+  <table class="cmp-table spec-table">
+    <tbody>
+      <tr><th>最寄</th><td>柏</td></tr>
+      <tr><th>料金</th><td>未確認</td></tr>
+      <tr><th>男女</th><td>基本男性専用（<strong>定期的にレディースデー</strong>）</td></tr>
+    </tbody>
+  </table>
+</div>
+
+サウナ・水風呂・休憩を通じて**心身を回復させることに重点**を置いた作り。
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/M3GA5ultlg4" title="sauna KOHAKU（マエ 全国の最高サウナ紹介）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+### ⑫ 水宴 -suien-（7月中旬・東京）
+
+<div class="cmp-table-wrap">
+  <table class="cmp-table spec-table">
+    <tbody>
+      <tr><th>最寄</th><td>麻布十番</td></tr>
+      <tr><th>料金</th><td>未確認</td></tr>
+      <tr><th>男女</th><td>基本男性専用（曜日によって貸切）</td></tr>
+    </tbody>
+  </table>
+</div>
+
+麻布十番の**24時間営業・和モダン**のサウナ。サウナ・水風呂・外気浴を落ち着いた空間で楽しめる。
+
+### ⑬ 横浜天然温泉 SPA EAS（♻️7/28・神奈川）
+
+<figure class="rn-figure">
+  <img src="/images/sauna-openings-2026/facilities/spaeas.jpg" alt="横浜天然温泉 SPA EASの露天エリア。滝の流れる岩風呂" loading="lazy" />
+  <figcaption>リニューアルで<strong>「SAUNA IMMERSIA」</strong>を新設。館内着のまま男女一緒に楽しめる。<cite>画像: <a href="https://www.spa-eas.com/" target="_blank" rel="noopener">横浜天然温泉 SPA EAS 公式</a></cite></figcaption>
+</figure>
+
+<div class="cmp-table-wrap">
+  <table class="cmp-table spec-table">
+    <tbody>
+      <tr><th>最寄</th><td>横浜</td></tr>
+      <tr><th>料金</th><td>未確認</td></tr>
+      <tr><th>男女</th><td><strong>男女</strong></td></tr>
+    </tbody>
+  </table>
+</div>
+
+巨大スクリーンと音響・照明演出を組み合わせた没入型サウナを新設してリニューアル。**この15施設で唯一、男女が同じ空間で過ごせる**サウナエリアを持つ。
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/ItLpakuX44o" title="7月28日リニューアルオープン！ #SPAEAS（うな）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+### ⑭ 海賊サウナ＆カプセルホテル（8/11・神奈川）
+
+<div class="cmp-table-wrap">
+  <table class="cmp-table spec-table">
+    <tbody>
+      <tr><th>最寄</th><td><strong>小田原駅前</strong></td></tr>
+      <tr><th>料金</th><td>未確認</td></tr>
+      <tr><th>男女</th><td>男性専用</td></tr>
+    </tbody>
+  </table>
+</div>
+
+サウナ・水風呂・風呂・カプセルを備え、**日帰りだけでなく宿泊サウナの拠点**としても使える。**8月中は事前予約制。**
+
+### ⑮ 門仲SAUNAS LO（8/31 予定・東京）
+
+<div class="cmp-table-wrap">
+  <table class="cmp-table spec-table">
+    <tbody>
+      <tr><th>最寄</th><td>門前仲町（江東区富岡）</td></tr>
+      <tr><th>料金</th><td>未発表</td></tr>
+      <tr><th>男女</th><td><strong>男女</strong>（男性3室・女性1室）</td></tr>
+    </tbody>
+  </table>
+</div>
+
+渋谷SAUNAS・高輪SAUNASに続く新ライン「SAUNAS LO」。**新築マンションの1・2階**に入り、**居住者は無料**で使える"住めるサウナ"。地域に開かれた"日常のサウナ"を掲げる。
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/EjikwlS7I8M" title="【SAUNAS新ライン】”門仲SAUNAS LO”が今夏開業予定（ちゃんなべ）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+<p class="source-note">埋め込んだ X の投稿と YouTube の動画は、<strong>すべて実在を確認したうえで載せている</strong>（X は syndication API で本文・投稿者・日付を、YouTube は oEmbed でタイトルと投稿者を照合）。<strong>確認できなかったものは載せていない</strong>。 各施設の写真は公式サイトより引用。</p>
 
 <div class="section-with-mascot">
   <div class="mascot-wrap"><img src="/images/expr-03-bashful.png" alt="Daily Hackマスコット" /></div>
