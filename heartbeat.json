@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27T14:38:45Z",
+  "generated_at": "2026-08-27T15:09:09Z",
   "host": "NaokinoMBP-2",
   "job_count": 20,
   "jobs": [
@@ -25,7 +25,11 @@
     "com.dailyhack.weekly-blog-report"
   ],
   "reconnect": "既に起動している",
-  "tasks": [],
+  "tasks": [
+      {"task": "031-sauna-mosaic-and-refs.sh", "rc": 0, "out": "remote:  remote: Create a pull request for 'claude/sauna-mosaic-eyecatch' on GitHub by visiting:         remote:      https://github.com/Yokottinnn/daily-hack/pull/new/claude/sauna-mosaic-eyecatch         remote:  push した: claude/sauna-mosaic-eyecatch（tiles 5 枚 / 参考記事は reports/saun"},
+      {"task": "032-dump-reply-samples.sh", "rc": 0, "out": "返信の実物と生成設定を持ち帰った / reply-samples.md 253 行"},
+      {"task": "033-why-follow-candidates-empty.sh", "rc": 0, "out": "フォロー候補の詰まりを調べた / follow-bottleneck.md 356 行"}
+  ],
   "auth": {
     "ok": true,
     "expires_at": "2026-08-27T20:50:24Z",
