@@ -68,6 +68,12 @@
 
 <!-- 新しい記録がこの下に追加される（新しいものが上） -->
 
+### 2026-08-27 — 4 ループ稼働を確認（本日 24 件投稿・フォロワー 206→211）。売春系を種類で弾く NG 判定を作り comment-orchestrator に組み込んだ（#233/#234）。フォロー量を cap 5→10 に上げる（#236）
+
+次のアクション:
+
+- [ ] cap 引き上げ後の実測を見る（次の発火 11:30/18:30 JST）。029 の変換率が出たら『cap を X にすれば +Y 人/日』を数字で出す。実測 +1.25 人/日 では 9/30 に約 254 人で 46 人 不足
+
 ### 2026-08-23 — 4 ループを全部 稼働させた（①auto-thread-chainifier ②badge-followback ③auto-detect-and-unfollow-inactive ④competitor-follower-follow/hashtag-follow）。途中 plutil -extract を -o 無しで実行して plist 56 件を破壊し、launchctl print のメモリ上設定から再生した
 
 次のアクション:
