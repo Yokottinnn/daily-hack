@@ -161,7 +161,7 @@ references: ["https://odaibadrone.com/", "https://www.tokyo-odaiba.net/event_tou
 **ここが一番の落とし穴。** 「9/4〜9/22」と書いてあるので毎日やっていると思って行くと、**9/7〜9/17の11日間は何もない。**
 
 <div class="cmp-table-wrap">
-  <table class="cmp-table">
+  <table class="cmp-table wrap-table">
     <thead><tr><th>期間</th><th>日付</th><th>日数</th></tr></thead>
     <tbody>
       <tr class="recommended"><td>第1期</td><td>9/4（金）・9/5（土）・9/6（日）</td><td>3日</td></tr>
@@ -264,7 +264,7 @@ references: ["https://odaibadrone.com/", "https://www.tokyo-odaiba.net/event_tou
 **埋められなかったところを、埋めたふりで書かない。**
 
 <div class="cmp-table-wrap">
-  <table class="cmp-table">
+  <table class="cmp-table wrap-table">
     <thead><tr><th>項目</th><th>状態</th></tr></thead>
     <tbody>
       <tr class="recommended"><td><a href="https://odaibadrone.com/" target="_blank" rel="noopener">Pixel Moon</a> の6コンテンツ</td><td><strong>名前が確認できたのは『ソニック・ザ・ヘッジホッグ』35周年の1本だけ。</strong>残り5本は未発表か、公式サイトから読み取れなかった</td></tr>
