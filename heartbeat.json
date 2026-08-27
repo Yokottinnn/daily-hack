@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27T15:40:41Z",
+  "generated_at": "2026-08-27T16:15:31Z",
   "host": "NaokinoMBP-2",
   "job_count": 20,
   "jobs": [
@@ -26,10 +26,7 @@
   ],
   "reconnect": "既に起動している",
   "tasks": [
-      {"task": "030-raise-follow-volume.sh", "rc": 0, "out": "competitor の cap=10 / raise-follow.md"},
-      {"task": "032-scrape-sauna-and-odaiba.sh", "rc": 0, "out": "remote:  remote: Create a pull request for 'claude/sauna-scrape-out' on GitHub by visiting:         remote:      https://github.com/Yokottinnn/daily-hack/pull/new/claude/sauna-scrape-out         remote:  push した: claude/sauna-scrape-out（tiles/ に候補、reports に sauna-refs2.md と sauna-t"},
-      {"task": "034-sauna-embeds.sh", "rc": 0, "out": "書き出した: reports/sauna-embeds.md（129 行）"},
-      {"task": "034-stop-referral-codes.sh", "rc": 0, "out": "紹介コード対策と危険テンプレ除去 / stop-referral.md 107 行"}
+      {"task": "035-sauna-material2.sh", "rc": 0, "out": "| `kaizoku` | — | — | 見つからず | | `suien` | — | — | 見つからず | | `kohaku` | `kohaku-1.jpg` | 1477x1108 | https://sauna-kohaku.com/floor-img/1.png?v=20260815 | | `kohaku` | `kohaku-2.jpg` | 2000x1333 | https://sauna-kohaku.com/floor-img/2.png?v=20260815 | reports/sauna-material"}
   ],
   "auth": {
     "ok": true,
