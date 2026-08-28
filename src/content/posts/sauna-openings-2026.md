@@ -16,6 +16,14 @@ references: ["https://www.newoman.jp/takanawa/floorguide/detail/?scd=003014", "h
 
 だからアタシが作った。2026年に**首都圏（東京・神奈川・千葉・埼玉）で開業した／これから開業する15施設**をオープン日順に全部並べて、**料金・最寄駅・男女の別**という、行く前に必ず要る3つを埋めた。料金は公式と報道で裏を取れたものだけを載せてる。
 
+**そもそも、なぜ2026年に集中したのか。** 「026」が「お・ふ・ろ」と読めることから、
+**2026年は「お風呂の年」として日本記念日協会に記念年登録されている**（2025年11月26日「いい風呂の日」に登録）。
+銭湯・サウナ・温浴施設と、これまで業態ごとに分かれていた団体が横断でつくった
+**「2026 お風呂の年プロジェクト」には全国 約2,000施設が参加**しており、
+2月26日からは全国を巡る「千載一湯♨026スタンプラリー」も始まっている。
+
+**次の「026」は3026年。文字どおり千年に一度**で、開業をこの年に寄せる理由になる。
+
 <div class="hakkako-says">
   <div class="hakkako-mascot"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">先に一番の驚きを言っとく。<strong>15施設のうち8が男性専用（または基本男性専用）。</strong>「2026年はサウナが熱い」って記事はいくらでもあるけど、<strong>女性がそのまま入れると確認できたのは6施設だけ</strong>。残る1つ（PARADISE 大手町）は資料が割れてる。この数字を出してるところ、アタシは見たことない。</div>
@@ -199,6 +207,31 @@ references: ["https://www.newoman.jp/takanawa/floorguide/detail/?scd=003014", "h
 **告知は公式SNSでしか出ないことが多い。** 行く前にアカウントを確認すること。
 
 <div class="section-with-mascot">
+  <div class="mascot-wrap"><img src="/images/expr-07-gasp.png" alt="Daily Hackマスコット" /></div>
+  <h2 id="目的別">目的別に選ぶ｜駅直結・24時間・安い・泊まれる</h2>
+</div>
+
+**「どれがいいか」ではなく「何を優先するか」で決める。** 15施設を、行き方の条件で並べ直した。
+条件が複数当てはまる施設は複数の欄に出てくる。
+
+<div class="cmp-table-wrap">
+  <table class="cmp-table wrap-table">
+    <thead><tr><th>優先すること</th><th>該当する施設</th></tr></thead>
+    <tbody>
+      <tr class="recommended"><td><strong>駅から歩かない</strong><br><small>徒歩3分以内・駅直結</small></td><td><a href="#-高輪saunas29東京">高輪SAUNAS</a>（高輪ゲートウェイ<strong>直結</strong>）／<a href="#-サウナメッツァ-大井町トラックス328東京">大井町トラックス</a>（徒歩2分）／<a href="#-paradise-大手町21東京">PARADISE 大手町</a>（徒歩3分・B2a直結）／<a href="#-shiagaru-sauna-神田秋葉原413東京">SHIAGARU SAUNA</a>（岩本町 徒歩2分）／<a href="#-サウナリゾートスパ-blueocean76神奈川">BlueOcean</a>（新横浜駅前）／<a href="#-おかえりサウナ板橋56東京">おかえりサウナ板橋</a>（板橋本町駅前）／<a href="#-海賊サウナカプセルホテル811神奈川">海賊サウナ</a>（小田原駅前）</td></tr>
+      <tr><td><strong>安く入りたい</strong><br><small>2,000円未満で入れる</small></td><td><a href="#-黄金湯-新宿️77東京">黄金湯 新宿</a> <strong>550円</strong>（サウナ別）／<a href="#-毎日サウナ東京-幕張店58千葉">毎日サウナ東京 幕張店</a> 平日60分 <strong>1,300円</strong>／<a href="#-サウナリゾートスパ-blueocean76神奈川">BlueOcean</a> 平日 1,750円（税別）／<a href="#-サウナメッツァ-大井町トラックス328東京">大井町トラックス</a> 平日 1,800円〜／<a href="#-paradise-大手町21東京">PARADISE 大手町</a> 1時間 1,980円〜</td></tr>
+      <tr><td><strong>深夜・早朝に入りたい</strong></td><td><a href="#-サウナリゾートスパ-blueocean76神奈川">BlueOcean</a>（<strong>24時間営業</strong>。ナイト 24:00〜翌9:00 は平日3,980円）／<a href="#-水宴--suien-7月中旬東京">水宴 -suien-</a>（24時間営業）／<a href="#-サウナメッツァ-大井町トラックス328東京">大井町トラックス</a>（6:00〜翌2:00・年中無休）</td></tr>
+      <tr><td><strong>泊まりたい</strong></td><td><a href="#-海賊サウナカプセルホテル811神奈川">海賊サウナ＆カプセルホテル</a>（小田原駅前。<strong>日帰りだけでなく宿泊の拠点にできる唯一の1軒</strong>）</td></tr>
+      <tr class="recommended"><td><strong>女性が入れる</strong></td><td><a href="#女性が入れるサウナ">6軒</a>。高輪SAUNAS／大井町トラックス／黄金湯 新宿／門仲SAUNAS LO／BlueOcean／SPA EAS</td></tr>
+      <tr><td><strong>薪・ケロの本格サウナ</strong></td><td><a href="#-サウナ蒸薪53埼玉">サウナ蒸薪</a>（大型薪ストーブ＋地下水かけ流し）／<a href="#-サウナメッツァ-大井町トラックス328東京">大井町トラックス</a>（<strong>400年超のケロ</strong>を使ったサウナ）／<a href="#-毎日サウナ東京-幕張店58千葉">毎日サウナ東京 幕張店</a>（薪サウナ）</td></tr>
+      <tr><td><strong>ひとりで貸し切りたい</strong></td><td><a href="#-水宴--suien-7月中旬東京">水宴 -suien-</a>（曜日によって貸切に対応）／<a href="#-高輪saunas29東京">高輪SAUNAS</a>（グループ貸切のプライベートサウナ室あり）</td></tr>
+    </tbody>
+  </table>
+</div>
+
+**料金が未確認の6施設（荒木町Logout・SHIAGARU SAUNA・サウナ蒸薪・おかえりサウナ板橋・sauna KOHAKU・海賊サウナ）は「安く入りたい」の欄に入れていない。** 公式に料金表が出ていないだけで、安い可能性はある。
+
+<div class="section-with-mascot">
   <div class="mascot-wrap"><img src="/images/expr-04-cheer.png" alt="Daily Hackマスコット" /></div>
   <h2 id="15施設を1軒ずつ">15施設を1軒ずつ｜料金・駅・男女・中身</h2>
 </div>
@@ -243,6 +276,7 @@ references: ["https://www.newoman.jp/takanawa/floorguide/detail/?scd=003014", "h
       <tr><th>最寄</th><td><strong>高輪ゲートウェイ駅 直結</strong>（ニュウマン高輪）</td></tr>
       <tr><th>料金</th><td>男性 <strong>3,700円</strong>（平日4時間）／女性 3,200円ほか（2026年7月時点）</td></tr>
       <tr><th>男女</th><td><strong>男女</strong>（男性側5室・女性側3室）</td></tr>
+      <tr><th>手がけた人</th><td><strong>タナカカツキ</strong>（『サ道』著者）が総合プロデュース。渋谷SAUNASに続く2号店で、規模は約3倍</td></tr>
     </tbody>
   </table>
 </div>
@@ -284,6 +318,7 @@ references: ["https://www.newoman.jp/takanawa/floorguide/detail/?scd=003014", "h
       <tr><th>最寄</th><td><strong>大井町駅 徒歩2分</strong>（OIMACHI TRACKS 4F）</td></tr>
       <tr><th>料金</th><td>平日 <strong>1,800円〜</strong>／土日 2,400円</td></tr>
       <tr><th>男女</th><td><strong>男女</strong>（女性は薬草のウーブンサウナ）</td></tr>
+      <tr><th>手がけた人</th><td>サウナ室は<strong>TTNE</strong>（ととのえ親方・松尾大氏らのサウナクリエイティブ集団）がプロデュース。運営は<a href="https://spaworks.jp/article/6102" target="_blank" rel="noopener">竜泉寺の湯・スパメッツァ系列</a></td></tr>
     </tbody>
   </table>
 </div>
@@ -309,6 +344,9 @@ references: ["https://www.newoman.jp/takanawa/floorguide/detail/?scd=003014", "h
 </div>
 
 **"ととのう"の先の"しあがる"がテーマ。** サウナだけでなく、食事・睡眠・仕事まで含めてコンディションを整える男性専用のパブリックサウナ。**予約制**なので、行けば入れるとは限らない。
+
+**福岡・天神発のブランドの東京進出**（運営は株式会社Torch）。屋久島地杉のハーフバレル型「深部体温サウナ」と、足先まで温める「末端体温サウナ」の**2室を使い分ける**設計で、
+サウナ室ごとに流す音の周波数まで変えている。
 
 ### ⑥ サウナ蒸薪（5/3・埼玉）
 
@@ -360,6 +398,9 @@ references: ["https://www.newoman.jp/takanawa/floorguide/detail/?scd=003014", "h
 
 **5種のサウナ・3種の水風呂・3種の風呂**に、ととのいスペース約70席。24時間営業（6:00〜9:00は清掃）。「サウナ東京」と「毎日サウナ」が融合した新業態。
 
+**赤坂の「サウナ東京」（都内最大級のサウナ室）と、八王子の「毎日サウナ」（薪ストーブ）を掛け合わせた店。**
+約40人が入る薪サウナ「薪火」と、地中深くからくみ上げた天然水が頭上から降る水風呂が置かれている。
+
 <div class="yt-embed">
 <iframe src="https://www.youtube-nocookie.com/embed/gNtxaP2v6_g" title="幕張にオープンした毎日サウナ東京はクオリティもコスパも日本一でした（タケお / 新潟サウナ旅）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
 </div>
@@ -395,6 +436,7 @@ references: ["https://www.newoman.jp/takanawa/floorguide/detail/?scd=003014", "h
       <tr><th>最寄</th><td>東新宿 徒歩5分（都営大江戸線）</td></tr>
       <tr><th>料金</th><td><strong>550円</strong>（大人・中学生以上／サウナは別料金）</td></tr>
       <tr><th>男女</th><td><strong>男女</strong>（女湯はセルフロウリュ）</td></tr>
+      <tr><th>手がけた人</th><td>内装設計＝<a href="https://www.yukonagayama.co.jp/20260130-2/" target="_blank" rel="noopener">永山祐子建築設計</a>（大阪・関西万博パビリオン／東急歌舞伎町タワー）、ブランディング＝<strong>高橋理子</strong>（錦糸町の黄金湯も担当）</td></tr>
     </tbody>
   </table>
 </div>
@@ -568,6 +610,7 @@ references: ["https://www.newoman.jp/takanawa/floorguide/detail/?scd=003014", "h
       <tr><td><a href="http://k-scc.co.jp/sauna/price/price.html" target="_blank" rel="noopener">サウナリゾート＆スパ BlueOcean</a></td><td>6/27 と 7/6</td><td><strong>先行営業とグランドオープンの違い。</strong>プレスリリースは7/6を「グランドオープン」としている</td></tr>
       <tr><td><a href="https://www.supersento.com/kanto/chiba/maisa_tokyo.html" target="_blank" rel="noopener">毎日サウナ東京 幕張店</a></td><td>5/1・5/8・5/9</td><td><strong>プレオープン → グランドオープン → 体験記の掲載日</strong>が混在している</td></tr>
       <tr><td><a href="https://prtimes.jp/main/html/rd/p/000000017.000070556.html" target="_blank" rel="noopener">門仲SAUNAS LO</a></td><td>「今夏」と 8/31</td><td>告知時点では月まで、直前になって<strong>日付が確定</strong>した</td></tr>
+      <tr><td><a href="https://www.1010.or.jp/map/item/item-cnt-331" target="_blank" rel="noopener">黄金湯 新宿</a></td><td>5月末 と 7月上旬</td><td><strong>告知後に開業が後ろへずれた。</strong>2026年1月の設計者発表では「5月末グランドオープン」、運営会社の後のリリースでは「7月上旬」になっている</td></tr>
       <tr><td><a href="https://onsen.nifty.com/ootemachi-onsen/onsen024731/" target="_blank" rel="noopener">PARADISE 大手町</a></td><td>料金が1,980円と2,178円</td><td><strong>グランドオープン価格と通常価格。</strong>期間限定の値付けが記事によって残っている</td></tr>
     </tbody>
   </table>
