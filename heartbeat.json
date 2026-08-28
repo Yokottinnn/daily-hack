@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27T23:48:07Z",
+  "generated_at": "2026-08-28T00:18:13Z",
   "host": "NaokinoMBP-2",
   "job_count": 20,
   "jobs": [
@@ -32,13 +32,10 @@
     "detail": "トークンの有効期限を過ぎている"
   },
   "activity": {
-    "date": "2026-08-27",
-    "posted_today": 24,
+    "date": "2026-08-28",
+    "posted_today": 0,
     "detail": "ログを走査した",
-    "sources": [
-      {"file": "comment-orchestrator.log", "count": 8},
-      {"file": "comment-warmup.log", "count": 16}
-    ]
+    "sources": []
   },
   "unloaded_count": 53,
   "unloaded": [
@@ -98,9 +95,9 @@
   ],
   "followers": {
     "now": 214,
-    "prev": 210,
-    "prev_date": "2026-08-24",
-    "span_days": 3,
+    "prev": 212,
+    "prev_date": "2026-08-25",
+    "span_days": 2,
     "target": 300,
     "deadline": "2026-09-30"
   },
