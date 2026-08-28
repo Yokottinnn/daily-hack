@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-28T15:21:19Z",
+  "generated_at": "2026-08-28T15:51:26Z",
   "host": "NaokinoMBP-2",
   "job_count": 20,
   "jobs": [
@@ -25,7 +25,9 @@
     "com.dailyhack.weekly-blog-report"
   ],
   "reconnect": "既に起動している",
-  "tasks": [],
+  "tasks": [
+      {"task": "035-wire-tone-gate.sh", "rc": 0, "out": "出口の検査を組み込んだ / wire-tone-gate.md"}
+  ],
   "auth": {
     "ok": false,
     "expires_at": "2026-08-27T20:50:24Z",
@@ -100,7 +102,7 @@
     "now": 214,
     "prev": 212,
     "prev_date": "2026-08-25",
-    "span_days": 2,
+    "span_days": 3,
     "target": 300,
     "deadline": "2026-09-30"
   },
