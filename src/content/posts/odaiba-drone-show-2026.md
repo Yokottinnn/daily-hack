@@ -1,9 +1,9 @@
 ---
 title: "お台場ドローンショー 2026 完全まとめ｜全3公演・22回の日程と時間【観覧無料】"
-description: "2026年にお台場で開かれるドローンショーは3本、公演日は12日、公演回数は22回。ドラえもん・東京アクアシンフォニー・ODAIBA DRONE SHOW「Pixel Moon」を、日程・時間・機数・観覧場所まで並べた。お月見がテーマなのに中秋の名月には終わっている、という落とし穴つき。"
+description: "2026年にお台場で開かれるドローンショーは3本・公演日12日・全22回。日程／時間／機数／観覧場所と、Pixel Moonに出る6つのIP（ソニック・ペルソナ・ゴジラ-0.0ほか）まで。お月見なのに中秋の名月には終わっている。"
 publishDate: 2026-08-27
 category: ["wangan-life", "roundups"]
-tags: ["お台場", "ドローンショー", "Pixel Moon", "東京アクアシンフォニー", "ドラえもん", "湾岸", "無料", "2026年"]
+tags: ["お台場", "ドローンショー", "Pixel Moon", "東京アクアシンフォニー", "ドラえもん", "ゴジラ", "東京リベンジャーズ", "ソニック", "ヒプノシスマイク", "湾岸", "無料", "2026年"]
 isPR: false
 draft: false
 eyecatchUrl: "/images/odaiba-drone-show-2026/eyecatch.jpg"
@@ -33,7 +33,7 @@ references: ["https://odaibadrone.com/", "https://www.tokyo-odaiba.net/event_tou
   <a class="event-pick" href="#pixel-moon" style="--pick-img:url('/images/odaiba-drone-show-2026/photos/tokyo-night.jpg')">
     <span class="pick-date">9/4-22</span><span class="pick-free">無料</span>
     <h4>1,000機のPixel Moon</h4>
-    <p>19日間のうち<strong>公演は8日だけ</strong>。9/7〜9/17の11日間は やっていない。</p>
+    <p>19日間のうち<strong>公演は8日だけ</strong>。ソニック・ペルソナ・ゴジラなど<strong>6つのIP</strong>が夜空に出る。</p>
     <span class="pick-go">詳しく見る →</span>
   </a>
   <a class="event-pick" href="#中秋の名月" style="--pick-img:url('/images/odaiba-drone-show-2026/photos/hanabi.jpg')">
@@ -56,6 +56,7 @@ references: ["https://odaibadrone.com/", "https://www.tokyo-odaiba.net/event_tou
       <tr><td>料金</td><td><strong>全部 無料</strong></td><td>3本とも観覧無料。事前申込も不要</td></tr>
       <tr><td>機数</td><td><strong>800〜1,000+</strong></td><td><a href="#pixel-moon">Pixel Moon が最大の1,000機超</a></td></tr>
       <tr><td>1公演の長さ</td><td><strong>10〜30分</strong></td><td>15分 → 10分 → 30分。<strong>年内で最長は9月</strong></td></tr>
+      <tr><td>登場するIP</td><td><strong>6本</strong></td><td><a href="#pixel-moon">ソニック／ぷよぷよ／ペルソナ／東京リベンジャーズ／ヒプノシスマイク／ゴジラ-0.0</a></td></tr>
     </tbody>
   </table>
 </div>
@@ -197,13 +198,34 @@ references: ["https://odaibadrone.com/", "https://www.tokyo-odaiba.net/event_tou
 
 **「21時まで粘れない」人**——子ども連れがまさにそう——は、**19:00がAの日を選ぶ**（9/5・9/6・9/20・9/21・9/22）。土日祝に寄っているので、そこは運がいい。
 
-### 6つのコンテンツ
+### 6つのコンテンツ｜3つが「周年」、2つが「これから始まるもの」
 
-公式が「コンテンツ数6」と出している。名前まで確認できているのは『**ソニック・ザ・ヘッジホッグ**』35周年の1本。
+公式が出している6本は次のとおり。**ゲーム3・アニメ1・音楽1・映画1**という配分になっている。
 
-セガを代表する音速のハリネズミが2026年に35周年を迎えた年で、ゲームだけでなく映画・アニメ・音楽へ広がったIPを、ドローンで描く構成になる。
+<div class="cmp-table-wrap">
+  <table class="cmp-table wrap-table">
+    <thead><tr><th>コンテンツ（<a href="https://odaibadrone.com/" target="_blank" rel="noopener">公式</a>）</th><th>区分</th><th>なぜ2026年なのか</th></tr></thead>
+    <tbody>
+      <tr class="recommended"><td>『ソニック・ザ・ヘッジホッグ』</td><td>ゲーム</td><td><strong>35周年</strong>。セガの音速のハリネズミ。ゲームから映画・アニメ・音楽へ広がった</td></tr>
+      <tr class="recommended"><td>『ぷよぷよ』</td><td>ゲーム</td><td><strong>35周年</strong>。1991年誕生</td></tr>
+      <tr class="recommended"><td>『ペルソナ』シリーズ</td><td>ゲーム</td><td><strong>30周年</strong>。1996年『女神異聞録ペルソナ』から</td></tr>
+      <tr><td>TVアニメ『東京リベンジャーズ』</td><td>アニメ</td><td>続編「三天戦争編」が<strong>10月2日から放送開始</strong></td></tr>
+      <tr><td>『ヒプノシスマイク -Division Rap Battle-』</td><td>音楽</td><td>18人のうち<strong>各ディビジョンのリーダー6人</strong>が登場（演出の都合）</td></tr>
+      <tr><td>映画『ゴジラ-0.0（マイナスゼロ）』</td><td>映画</td><td><strong>11月3日公開</strong>。山崎貴 監督。『ゴジラ-1.0』の続編</td></tr>
+    </tbody>
+  </table>
+</div>
 
-**残る5本は公式サイトの発表待ち。** 推測で埋めない。
+**6本のうち3本が「周年」**（35・35・30）。セガ系のIPが3本を占めていて、**セガの周年イヤーを空でまとめてやる**構成になっている。
+
+そして**残る2本は、ショーの時点でまだ始まっていない。** 東リベ「三天戦争編」の放送開始は10月2日、『ゴジラ-0.0』の公開は11月3日。ショーの最終日は9月22日なので、**どちらも「これから始まるもの」の先出し**である。夜空を使った予告編と言っていい。
+
+### 噴水ショーと連動する
+
+公式は「**世界最大級の噴水『東京アクアシンフォニー』とも連動演出**」と明記している。
+つまり**9月の「Pixel Moon」は、8月の②と同じ噴水を使う。** 30分という公演時間に「噴水含む」と但し書きがあるのは、そのため。
+
+**ドローンだけを見に行くつもりだと、構成を取り違える。** 水と光と音があって、その上に1,000機が乗る。
 
 <div class="section-with-mascot">
   <div class="mascot-wrap"><img src="/images/expr-06-shock.png" alt="Daily Hackマスコット" /></div>
@@ -233,6 +255,31 @@ references: ["https://odaibadrone.com/", "https://www.tokyo-odaiba.net/event_tou
   <div class="hakkako-mascot"><img src="/images/expr-02-pout.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">「お月見」って言われたら中秋の名月を思い浮かべるでしょ。でも<strong>ショーは5連休に合わせて組まれてる。</strong>天文じゃなくてカレンダーで決まってるの。責める話じゃないけど、<strong>知らないと3日ずれる。</strong></div>
 </div>
+
+<div class="section-with-mascot">
+  <div class="mascot-wrap"><img src="/images/expr-03-bashful.png" alt="Daily Hackマスコット" /></div>
+  <h2 id="アクセス">会場とアクセス｜台場海浜公園「マリンハウス前」</h2>
+</div>
+
+<figure class="rn-figure">
+  <img src="/images/odaiba-drone-show-2026/photos/tokyo-night.jpg" alt="東京タワーが見える港区の夜景。ドローンショーは東京タワーを背景に上がる" loading="lazy" />
+  <figcaption>公式は「レインボーブリッジ・東京タワーを背景に」としている。<cite>出典: <a href="https://commons.wikimedia.org/wiki/File:Minato_City,_Tokyo,_Japan_(Night)-denoised.jpg" target="_blank" rel="noopener">David Kernan / Wikimedia Commons</a>（CC BY 4.0）</cite></figcaption>
+</figure>
+
+<div class="cmp-table-wrap">
+  <table class="cmp-table spec-table">
+    <tbody>
+      <tr><th>会場</th><td><a href="https://odaibadrone.com/" target="_blank" rel="noopener">台場海浜公園</a>（〒135-0091 東京都港区台場1丁目4 <strong>マリンハウス前</strong>）</td></tr>
+      <tr><th>ゆりかもめ</th><td><strong>お台場海浜公園駅 徒歩5分</strong>／台場駅 徒歩10分</td></tr>
+      <tr><th>りんかい線</th><td>東京テレポート駅 徒歩10分</td></tr>
+      <tr><th>車</th><td><strong>非推奨。</strong>開催時は会場周辺で交通規制が実施される</td></tr>
+    </tbody>
+  </table>
+</div>
+
+**公式は公共交通機関（ゆりかもめ・りんかい線・水上バス）の利用を強く推奨している。** 開催時は会場の周りに交通規制が入る。
+
+**打ち上げは第三台場（台場公園）から、観覧は台場海浜公園。** 打ち上げ地点と観覧場所が別なので、「台場公園まで行けば近くで見られる」と考えないほうがいい。
 
 <div class="section-with-mascot">
   <div class="mascot-wrap"><img src="/images/expr-01-wave.png" alt="Daily Hackマスコット" /></div>
@@ -267,9 +314,8 @@ references: ["https://odaibadrone.com/", "https://www.tokyo-odaiba.net/event_tou
   <table class="cmp-table wrap-table">
     <thead><tr><th>項目</th><th>状態</th></tr></thead>
     <tbody>
-      <tr class="recommended"><td><a href="https://odaibadrone.com/" target="_blank" rel="noopener">Pixel Moon</a> の6コンテンツ</td><td><strong>名前が確認できたのは『ソニック・ザ・ヘッジホッグ』35周年の1本だけ。</strong>残り5本は未発表か、公式サイトから読み取れなかった</td></tr>
-      <tr><td>推奨の観覧場所</td><td><strong>公式のアクセスページに到達できていない。</strong>「レインボーブリッジ・東京タワーを背景に」とあることから湾側だが、どこから見るのが良いかは書けない</td></tr>
-      <tr><td>A と B の中身の違い</td><td>公式は A／B の記号しか出していない。<strong>何がどう違うのかは未発表</strong></td></tr>
+      <tr><td>A と B の中身の違い</td><td>公式は「2種類の TRACK を用意」としか出していない。<strong>どちらにどのコンテンツが入るかは未発表</strong></td></tr>
+      <tr><td>混雑と場所取り</td><td>会場と最寄駅は<a href="#アクセス">確認できた</a>が、<strong>どのくらい前に行けば見やすい場所を取れるかは分からない。</strong>公式も推奨の観覧位置までは出していない</td></tr>
       <tr><td>東京アクアシンフォニーの正確な会場</td><td>お台場の噴水エリアであることまで。区画名の裏が取れていない</td></tr>
       <tr><td>この3本で全部か</td><td><strong>言い切れない。</strong>お台場では単発のドローン演出が別枠で行われることがあり、小規模なものは落ちている可能性がある</td></tr>
     </tbody>
