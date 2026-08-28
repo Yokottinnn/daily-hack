@@ -388,6 +388,43 @@ python3 scripts/check-article-ux.py dist/posts/<slug>/index.html   # 指摘ゼ�
 python3 scripts/check-md-bold.py dist/posts/<slug>/index.html      # ** の崩れ
 ```
 
+#### ビルドの成否を先に見る。落ちていても検査 2 本は通る
+
+**検査スクリプトは `dist` を読む。** ビルドが落ちると `dist` は前回のまま残るので、
+**古い HTML を見て「OK」と言ってくる。** 2026-08-28 に `description` が
+160 字の上限を超えてビルドが落ちたのに、検査 2 本は通った。
+
+```bash
+npm run build 2>&1 | tail -2      # ← ここで "Complete!" を確認してから検査へ進む
+```
+
+`&&` でつないで、ビルドが落ちたら検査に進まないようにするのが安全。
+
+#### フロントマターの上限
+
+| 項目 | 上限 |
+| --- | --- |
+| `title` | 100 字 |
+| `description` | **160 字**（超えるとビルドが落ちる） |
+
+#### ページ内リンクの id は、ビルド後 HTML から取る
+
+`### ① PARADISE 大手町（2/1・東京）` から自動生成される id は
+`-paradise-大手町21東京` で、**丸数字も記号も落ちる。** 推測で書くと必ず外す。
+
+```bash
+npm run build
+python3 - <<'EOF'
+import re
+h=open('dist/posts/<slug>/index.html',encoding='utf-8').read()
+ids=set(re.findall(r'id="([^"]+)"',h)); hrefs=set(re.findall(r'href="#([^"]+)"',h))
+print('リンク切れ:',[x for x in hrefs if x not in ids])
+EOF
+```
+
+**未解決ゼロを機械で確認する。** 目で追わない。
+`♻️` のような絵文字は**異体字セレクタが id に残る**ので、なおさら手では書けない。
+
 さらに手で確認する。
 
 - **`eyecatchUrl` のファイルが実在するか**（`ls public/images/<slug>/eyecatch.jpg`）
