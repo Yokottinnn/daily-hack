@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-28T16:21:36Z",
+  "generated_at": "2026-08-28T16:51:43Z",
   "host": "NaokinoMBP-2",
   "job_count": 20,
   "jobs": [
@@ -25,9 +25,7 @@
     "com.dailyhack.weekly-blog-report"
   ],
   "reconnect": "既に起動している",
-  "tasks": [
-      {"task": "039-seo-rankings-0828.sh", "rc": 0, "out": "書き出した: /Users/ny/.openclaw/ops-heartbeat-wt/reports/seo-rankings.md（45 記事） 書き出した: reports/seo-rankings.md（201 行）"}
-  ],
+  "tasks": [],
   "auth": {
     "ok": false,
     "expires_at": "2026-08-27T20:50:24Z",
