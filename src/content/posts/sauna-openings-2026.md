@@ -102,7 +102,7 @@ references: ["https://www.newoman.jp/takanawa/floorguide/detail/?scd=003014", "h
       <tr><td>5/8</td><td><a href="https://www.supersento.com/kanto/chiba/maisa_tokyo.html" target="_blank" rel="noopener">毎日サウナ東京 幕張店</a></td><td>千葉</td><td>幕張本郷 徒歩13分</td><td>基本男性専用 ※2</td></tr>
       <tr class="recommended"><td>7/6</td><td><a href="http://k-scc.co.jp/sauna/price/price.html" target="_blank" rel="noopener">サウナリゾート＆スパ BlueOcean</a></td><td>神奈川</td><td>新横浜駅前</td><td><strong>男女</strong></td></tr>
       <tr class="recommended"><td>♻️7/7</td><td><a href="https://www.1010.or.jp/map/item/item-cnt-331" target="_blank" rel="noopener">黄金湯 新宿</a></td><td>東京</td><td>東新宿 徒歩5分</td><td><strong>男女</strong></td></tr>
-      <tr><td>7/10</td><td>sauna KOHAKU</td><td>千葉</td><td>柏</td><td>基本男性専用</td></tr>
+      <tr><td>7/10</td><td><a href="https://sauna-kohaku.com/" target="_blank" rel="noopener">sauna KOHAKU</a></td><td>千葉</td><td>柏</td><td>基本男性専用 ※4</td></tr>
       <tr><td>7月中旬</td><td>水宴 -suien-</td><td>東京</td><td>麻布十番</td><td>基本男性専用</td></tr>
       <tr class="recommended"><td>♻️7/28</td><td>横浜天然温泉 SPA EAS</td><td>神奈川</td><td>横浜</td><td><strong>男女</strong></td></tr>
       <tr><td>8/11</td><td>海賊サウナ＆カプセルホテル</td><td>神奈川</td><td>小田原駅前</td><td>男性専用</td></tr>
@@ -111,7 +111,7 @@ references: ["https://www.newoman.jp/takanawa/floorguide/detail/?scd=003014", "h
   </table>
 </div>
 
-<p class="source-note">※1 <strong>PARADISE 大手町は資料によって記載が割れる。</strong>25階が全裸エリア・26階が水着エリアという構成で、男性専用と読める資料と、そう書いていない資料の両方がある。行く前に公式で確認すること。<br />※2 毎日サウナ東京 幕張店は<strong>不定期でレディースデーあり</strong>。「基本男性専用」は常時の運用を指す。<br />※3 SAUNA汽汽は<strong>最大3名の完全個室・水着着用</strong>。男女で分ける作りではなく、貸切なので誰でも入れる。<br />リンクの無い施設は、開業の事実と概要までしか裏が取れていない。<strong>男女の別と最寄駅は変更されることがあるので、行く前に必ず各施設の公式ページで確認すること。</strong></p>
+<p class="source-note">※1 <strong>PARADISE 大手町は資料によって記載が割れる。</strong>25階が全裸エリア・26階が水着エリアという構成で、男性専用と読める資料と、そう書いていない資料の両方がある。行く前に公式で確認すること。<br />※2 毎日サウナ東京 幕張店は<strong>不定期でレディースデーあり</strong>。「基本男性専用」は常時の運用を指す。<br />※3 SAUNA汽汽は<strong>最大3名の完全個室・水着着用</strong>。男女で分ける作りではなく、貸切なので誰でも入れる。<br />※4 sauna KOHAKU は<strong>月1回・第2水曜日がレディースデー</strong>。公式に明記されている。<br />リンクの無い施設は、開業の事実と概要までしか裏が取れていない。<strong>男女の別と最寄駅は変更されることがあるので、行く前に必ず各施設の公式ページで確認すること。</strong></p>
 
 <p class="source-note"><strong>この記事は首都圏（東京・神奈川・千葉・埼玉）に絞っている。</strong>2026年は首都圏以外でも新店が出ており、大阪（CORE SAUNA 堺東駅前店・1/30）、愛知（ナゴヤサウナ・4/25、スパアクアス湯友楽・6/18）、福岡（TOTOPA 博多駅前店・8/7）、福島（しずのゆ福島・8月中旬）などがある。<strong>この表には入っていない。</strong></p>
 
@@ -217,7 +217,7 @@ references: ["https://www.newoman.jp/takanawa/floorguide/detail/?scd=003014", "h
     <thead><tr><th>施設</th><th>運用</th></tr></thead>
     <tbody>
       <tr><td><a href="https://www.supersento.com/kanto/chiba/maisa_tokyo.html" target="_blank" rel="noopener">毎日サウナ東京 幕張店</a></td><td>基本男性専用。<strong>不定期でレディースデー</strong></td></tr>
-      <tr><td>sauna KOHAKU（柏）</td><td>基本男性専用。<strong>定期的にレディースデー</strong>を開催</td></tr>
+      <tr><td><a href="https://sauna-kohaku.com/" target="_blank" rel="noopener">sauna KOHAKU</a>（柏）</td><td>基本男性専用。<strong>月1回・第2水曜日がレディースデー</strong>（公式に明記）</td></tr>
       <tr><td>水宴 -suien-（麻布十番）</td><td>基本男性専用。曜日によって貸切利用に対応</td></tr>
     </tbody>
   </table>
@@ -320,7 +320,8 @@ references: ["https://www.newoman.jp/takanawa/floorguide/detail/?scd=003014", "h
     <tbody>
       <tr><th>最寄</th><td><strong>高輪ゲートウェイ駅 直結</strong>（ニュウマン高輪）</td></tr>
       <tr><th>料金</th><td>男性 <strong>3,700円</strong>（平日4時間）／女性 3,200円ほか（2026年7月時点）</td></tr>
-      <tr><th>男女</th><td><strong>男女</strong>（男性側5室・女性側3室）</td></tr>
+      <tr><th>男女</th><td><strong>男女</strong>（男性側5室・女性側3室。<strong>水風呂は男女とも2種類</strong>）</td></tr>
+      <tr><th>営業時間</th><td>11:00〜26:00／<strong>不定休</strong>（<a href="https://saunas-saunas.com/takanawa/" target="_blank" rel="noopener">公式</a>）</td></tr>
       <tr><th>手がけた人</th><td><strong>タナカカツキ</strong>（『サ道』著者）が総合プロデュース。渋谷SAUNASに続く2号店で、規模は約3倍</td></tr>
     </tbody>
   </table>
@@ -362,7 +363,9 @@ references: ["https://www.newoman.jp/takanawa/floorguide/detail/?scd=003014", "h
     <tbody>
       <tr><th>最寄</th><td><strong>大井町駅 徒歩2分</strong>（OIMACHI TRACKS 4F）</td></tr>
       <tr><th>料金</th><td>平日 <strong>1,800円〜</strong>／土日 2,400円</td></tr>
-      <tr><th>男女</th><td><strong>男女</strong>（女性は薬草のウーブンサウナ）</td></tr>
+      <tr><th>男女</th><td><strong>男女</strong>（女性はハーブ・薬草の香るサウナ）</td></tr>
+      <tr><th>営業時間</th><td>6:00〜翌2:00（<strong>最終入館1:00</strong>）・年中無休</td></tr>
+      <tr><th>注意</th><td><strong>130分を超えると30分ごとに+500円。</strong>18:00以降も延長料金が加算される。館内着は別途700円</td></tr>
       <tr><th>手がけた人</th><td>サウナ室は<strong>TTNE</strong>（ととのえ親方・松尾大氏らのサウナクリエイティブ集団）がプロデュース。運営は<a href="https://spaworks.jp/article/6102" target="_blank" rel="noopener">竜泉寺の湯・スパメッツァ系列</a></td></tr>
     </tbody>
   </table>
@@ -526,7 +529,7 @@ references: ["https://www.newoman.jp/takanawa/floorguide/detail/?scd=003014", "h
     <tbody>
       <tr><th>最寄</th><td>柏</td></tr>
       <tr><th>料金</th><td>未確認</td></tr>
-      <tr><th>男女</th><td>基本男性専用（<strong>定期的にレディースデー</strong>）</td></tr>
+      <tr><th>男女</th><td>基本男性専用（<strong>月1回・第2水曜日がレディースデー</strong>）</td></tr>
     </tbody>
   </table>
 </div>
@@ -676,6 +679,7 @@ references: ["https://www.newoman.jp/takanawa/floorguide/detail/?scd=003014", "h
       <tr><td><a href="http://k-scc.co.jp/sauna/price/price.html" target="_blank" rel="noopener">サウナリゾート＆スパ BlueOcean</a></td><td>6/27 と 7/6</td><td><strong>先行営業とグランドオープンの違い。</strong>プレスリリースは7/6を「グランドオープン」としている</td></tr>
       <tr><td><a href="https://www.supersento.com/kanto/chiba/maisa_tokyo.html" target="_blank" rel="noopener">毎日サウナ東京 幕張店</a></td><td>5/1・5/8・5/9</td><td><strong>プレオープン → グランドオープン → 体験記の掲載日</strong>が混在している</td></tr>
       <tr><td><a href="https://prtimes.jp/main/html/rd/p/000000017.000070556.html" target="_blank" rel="noopener">門仲SAUNAS LO</a></td><td>「今夏」と 8/31</td><td>告知時点では月まで、直前になって<strong>日付が確定</strong>した</td></tr>
+      <tr><td><a href="https://sauna-kohaku.com/" target="_blank" rel="noopener">sauna KOHAKU</a></td><td>6/26 と 7/10</td><td><strong>プレオープンとグランドオープンの違い。</strong>公式は 6/26〜7/5 をプレオープン、7/10 をグランドオープンとしている</td></tr>
       <tr><td><a href="https://www.1010.or.jp/map/item/item-cnt-331" target="_blank" rel="noopener">黄金湯 新宿</a></td><td>5月末 と 7月上旬</td><td><strong>告知後に開業が後ろへずれた。</strong>2026年1月の設計者発表では「5月末グランドオープン」、運営会社の後のリリースでは「7月上旬」になっている</td></tr>
       <tr><td><a href="https://onsen.nifty.com/ootemachi-onsen/onsen024731/" target="_blank" rel="noopener">PARADISE 大手町</a></td><td>料金が1,980円と2,178円</td><td><strong>グランドオープン価格と通常価格。</strong>期間限定の値付けが記事によって残っている</td></tr>
     </tbody>
