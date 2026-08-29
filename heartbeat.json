@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-29T05:24:17Z",
+  "generated_at": "2026-08-29T05:54:24Z",
   "host": "NaokinoMBP-2",
   "job_count": 20,
   "jobs": [
@@ -25,7 +25,9 @@
     "com.dailyhack.weekly-blog-report"
   ],
   "reconnect": "既に起動している",
-  "tasks": [],
+  "tasks": [
+      {"task": "040-verify-tone-gate.sh", "rc": 0, "out": "tone-gate のログ 0 行 / verify-tone-gate.md 143 行"}
+  ],
   "auth": {
     "ok": false,
     "expires_at": "2026-08-27T20:50:24Z",
