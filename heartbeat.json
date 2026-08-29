@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-29T06:24:30Z",
+  "generated_at": "2026-08-29T06:54:36Z",
   "host": "NaokinoMBP-2",
   "job_count": 20,
   "jobs": [
@@ -25,9 +25,7 @@
     "com.dailyhack.weekly-blog-report"
   ],
   "reconnect": "既に起動している",
-  "tasks": [
-      {"task": "041-upload-draft-images.sh", "rc": 0, "out": "画像 0 枚を草案スレッドへ貼った / upload-draft-images.md"}
-  ],
+  "tasks": [],
   "auth": {
     "ok": false,
     "expires_at": "2026-08-27T20:50:24Z",
