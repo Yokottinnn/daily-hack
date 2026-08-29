@@ -21,8 +21,19 @@ if not imgs:
     print("画像を1枚以上指定すること", file=sys.stderr)
     sys.exit(1)
 
-FB = "/System/Library/Fonts/ヒラギノ角ゴシック W6.ttc"
-FL = "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc"
+# macOS はヒラギノ、Linux（クラウドセッション）は IPA ゴシックを使う。
+# **どちらでも同じコマンドで生成できるようにする**（2026-08-28 に代替を追加）。
+import os as _os
+_CAND_B = ["/System/Library/Fonts/ヒラギノ角ゴシック W6.ttc",
+           "/usr/share/fonts/opentype/ipafont-gothic/ipagp.ttf",
+           "/usr/share/fonts/opentype/ipafont-gothic/ipag.ttf"]
+_CAND_L = ["/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+           "/usr/share/fonts/opentype/ipafont-gothic/ipagp.ttf",
+           "/usr/share/fonts/opentype/ipafont-gothic/ipag.ttf"]
+FB = next((c for c in _CAND_B if _os.path.exists(c)), None)
+FL = next((c for c in _CAND_L if _os.path.exists(c)), None)
+if FB is None or FL is None:
+    raise SystemExit("日本語フォントが見つからない: " + " / ".join(_CAND_B))
 f = lambda sz, light=False: ImageFont.truetype(FL if light else FB, sz)
 MAG = (214, 62, 118)
 W, H = 1600, 900

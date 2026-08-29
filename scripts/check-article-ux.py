@@ -89,7 +89,12 @@ def check(path):
     # --- 5. 1セクション1ビジュアル ---
     # 見出しで本文を分割し、各セクションに視覚要素があるかを見る。
     # 視覚要素 = <img> / iframe(YouTube等) / X埋め込み / 写真カード / 図版
-    VISUAL = re.compile(r"<img\s|<iframe\s|twitter-tweet|event-pick|rn-figure|figure-card|<table")
+    # tower-timeline（年表・時系列）も視覚部品として数える。
+    # 2026-08-29: セールの節が「下の related-block の <img> をたまたま拾って」通っていた。
+    # 見出しを 1 つ挟んだだけで落ちたので、実際にはビジュアルが無かった。
+    # tower-timeline は skill の部品表にある正規の視覚部品なので、ここに足す。
+    VISUAL = re.compile(r"<img\s|<iframe\s|twitter-tweet|event-pick|rn-figure|figure-card"
+                        r"|<table|tower-timeline")
     parts = re.split(r'(<h[23][^>]*>.*?</h[23]>)', body, flags=re.S)
     # parts: [前文, 見出し, 本文, 見出し, 本文, ...]
     for i in range(1, len(parts) - 1, 2):
