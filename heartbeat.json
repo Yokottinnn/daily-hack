@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-29T05:54:24Z",
+  "generated_at": "2026-08-29T06:24:30Z",
   "host": "NaokinoMBP-2",
   "job_count": 20,
   "jobs": [
@@ -26,7 +26,7 @@
   ],
   "reconnect": "既に起動している",
   "tasks": [
-      {"task": "040-verify-tone-gate.sh", "rc": 0, "out": "tone-gate のログ 0 行 / verify-tone-gate.md 143 行"}
+      {"task": "041-upload-draft-images.sh", "rc": 0, "out": "画像 0 枚を草案スレッドへ貼った / upload-draft-images.md"}
   ],
   "auth": {
     "ok": false,
