@@ -696,6 +696,18 @@ TOKYO-BAYの**2.1倍**。この表の最下位（愛知東郷 46.0万円）と�
 
 **最古参にして最大。** 1981年開業で、2番目に古い甲子園（2004年）まで<strong>23年の空白</strong>がある。北館の建て替えで売上が<a href="#tokyo-bayの160億は増床がそのまま乗った">+160億</a>伸びた。
 
+**North Gate は買い物以外の使われ方も始まっている。** 旧ビビット南船橋の跡を継いだこの区画について、こんな投稿がある。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">ららぽーとTOKYO-BAY North Gate（旧ビビット南船橋）みどりの広場、かいだん広場に替わるリリイベ会場として名前が出始めたが屋内か〜2階からも見れそうなのは悪くないが…</p>&mdash; パラ (@luckypara) <a href="https://twitter.com/luckypara/status/2043164338505306509">2026年4月12日</a></blockquote>
+
+**屋外広場の代わりに、屋内のイベント会場として名前が挙がりはじめた。** 増床は売場を増やしただけではない、ということね。
+
+館内の広さは、歩いている映像を見たほうが早い。
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/3z9iAiT6dsY" title="【4K】Walk in Tokyo bay shopping mall (ららぽーと・TOKYO-BAY)（カピバラくん）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
 ### ② ららぽーと甲子園（2004年11月・兵庫）
 
 <div class="cmp-table-wrap">
@@ -712,6 +724,16 @@ TOKYO-BAYの**2.1倍**。この表の最下位（愛知東郷 46.0万円）と�
 </div>
 
 **関西の第1号で、20施設中2番目に古い。** 阪神甲子園球場のとなり。面積は11位と中位だが、関西進出の起点になった施設。
+
+**この土地には、ららぽーとの前に別の施設があった。** 西宮市長の投稿がそれを教えてくれる。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">現ららぽーと甲子園の地にあった阪神パークには、ライオンとヒョウの異種交配で生まれたレオポンがおりました。その剥製が市役所第二庁舎一階にやってきています！　開庁時間にご覧いただけます。ぜひ一度、お越しになりジョニーに会いにきてください！</p>&mdash; 石井としろう　西宮市長 (@toshiro141) <a href="https://twitter.com/toshiro141/status/1968852697651495145">2025年9月19日</a></blockquote>
+
+**跡地は阪神パーク**——ライオンとヒョウの交雑種「レオポン」を飼育していた遊園地で、2003年に閉園している。剥製は今も西宮市役所にある。**決算資料にも公式サイトにも出てこない、この土地の履歴。**
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/nkC4qEWTs5M" title="【兵庫】甲子園阪神パーク 閉園後、跡地はららぽーと甲子園が建設（タイム Travel Japan）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
 
 ### ③ ららぽーと豊洲（2006年10月・東京）
 
@@ -834,6 +856,12 @@ TOKYO-BAYの**2.1倍**。この表の最下位（愛知東郷 46.0万円）と�
 
 **鶴瀬からバス6分という立地で、売上4位・560億。** 面積4位・店舗数3位と、規模も上位に食い込む。駐車場は終日無料。
 
+**規模だけでなく、入っているものが強い。** チームラボの常設施設がある。
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/D_2epodYW-o" title="チームラボ行ってみた！！【ららぽーと富士見店】（HakuIro Channel）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
 ### ⑩ ららぽーと海老名（2015年10月・神奈川）
 
 <div class="cmp-table-wrap">
@@ -867,6 +895,16 @@ TOKYO-BAYの**2.1倍**。この表の最下位（愛知東郷 46.0万円）と�
 </div>
 
 **関西最大。** 面積3位・店舗数2位・売上3位570億と、3つの指標すべてで関西トップ。万博記念公園 徒歩2分。
+
+**隣には日本一高い観覧車（OSAKA WHEEL）がある。** そこでの体験がこれ。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">エキスポシティの観覧車の中にLOVOTがいて、観覧車に乗ってる最中ほとんどLOVOTに話しかけてました</p>&mdash; ヤシン (@Y_ashi_n) <a href="https://twitter.com/Y_ashi_n/status/1970041551423483922">2025年9月22日</a></blockquote>
+
+**買い物のついでに18分の観覧車**という使い方ができるのは、20施設でここだけ。館内の広さはこの動画が分かりやすい。
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/qRn8lbE8HgQ" title="【スニーカー・ニューエラ】日本最大級の商業施設!!ららぽーとEXPOCITYに掘り出し物を探しに初潜入!!（崎山翼 TsubasaSakiyama-AILES JAPAN）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
 
 ### ⑫ ららぽーと立川立飛（2015年12月・東京）
 
@@ -969,6 +1007,16 @@ TOKYO-BAYの**2.1倍**。この表の最下位（愛知東郷 46.0万円）と�
 </div>
 
 **九州でただ1つのららぽーと。** 面積5位・店舗数8位・売上6位480億。竹下駅 徒歩9分。平日は駐車終日無料。
+
+**この施設の顔は、高さ約24.8mの実物大νガンダム立像。** 開業前から見に行った人がいる。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">来春オープンのららぽーと福岡で立てられている実物大νガンダムを見てきました。<br>封印状態がいつまで続くのか、詳細には告知も出ていないため、都合が付く最短のスケジュールで偵察を強行です。<br>速報性も無い内容ですし、画像の整理が出来たら細かく見ていきます。</p>&mdash; よっくん (@yoshi115t) <a href="https://twitter.com/yoshi115t/status/1481469681055973376">2022年1月13日</a></blockquote>
+
+**「封印状態」を見に行く人がいる**あたりに、この立像の引力が出ている。いまは音楽に合わせて頭部と右腕が動く。
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/pXa0mKxiokc" title="ららぽーと福岡を満喫！νガンダム立像がかっこよすぎた！［GUNDAM SIDE-F・GUNDAM PARK］（香坂きのと模型人ーもけんちゅーTV）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
 
 ### ⑱ ららぽーと堺（2022年11月・大阪）
 
