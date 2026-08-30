@@ -133,38 +133,35 @@ fi
 # 3 つとも壊れ、**依頼が 3 日間 1 件も届かなかった。**
 #
 # このジョブは launchd から 30 分ごとに走り、接続にも認証にも依存しない。
-# `ops/tasks/*.sh` をコミットすれば、30 分以内に Mac で実行される。
+#
+# **実行そのものは `scripts/ops-run-tasks.sh` に移した。**
+# 2026-08-30、承認済みの X 投稿が 30 分間隔に阻まれて 2 時間 20 分 出せなかった。
+# 死活監視の間隔（30 分で妥当）と、命令が届くまでの時間（30 分では話にならない）は
+# **別の要求**なので、実行を切り出して 1 分間隔のポーラーからも叩けるようにした。
+# 経緯は `docs/x-post-latency-postmortem.md`。
+#
+# ここから呼ぶときは **push しない**（最後にこのスクリプトがまとめて push するため）。
+# 二重実行は `ops-run-tasks.sh` 側のロックが防ぐ。
 #
 # 実行済みの印は heartbeat ブランチ側に残す（push されるので二重実行しない）。
 # **出力は 300 字で切る。** 公開リポジトリに載るため、タスク側で秘密を出さないこと。
 
-tasks_result=""
-first_task=1
-mkdir -p "$WT/done"
-task_tmp="${TMPDIR:-/tmp}/ops-tasks"
-mkdir -p "$task_tmp"
+mkdir -p "$WT/done" "$WT/reports"
+runner="${TMPDIR:-/tmp}/ops-run-tasks-latest.sh"
+if git -C "$MAIN_REPO" show origin/main:scripts/ops-run-tasks.sh > "$runner" 2>/dev/null && [ -s "$runner" ]; then
+  /bin/bash "$runner" >&2
+else
+  echo "ops-heartbeat: ops-run-tasks.sh を取り出せない。タスクは走らせない" >&2
+fi
 
-# タスクが長い出力を返せる置き場。**300 字では実機の構造を持ち帰れない。**
-# ここに書いたファイルは heartbeat と一緒に push される。
-# **秘密を書かないこと。** 公開リポジトリに載る。
-export OPS_REPORT_DIR="$WT/reports"
-mkdir -p "$OPS_REPORT_DIR"
-
-for t in $(git -C "$MAIN_REPO" ls-tree --name-only "origin/main:ops/tasks" 2>/dev/null); do
-  case "$t" in *.sh) ;; *) continue ;; esac
-  [ -f "$WT/done/$t" ] && continue
-  git -C "$MAIN_REPO" show "origin/main:ops/tasks/$t" > "$task_tmp/$t" 2>/dev/null || continue
-  [ -s "$task_tmp/$t" ] || continue
-
-  out="$(/bin/bash "$task_tmp/$t" 2>&1)"
-  rc=$?
-  out="$(printf '%s' "$out" | tail -5 | tr '\n' ' ' | tr -d '"\\' | cut -c1-300)"
-  printf '%s rc=%s\n' "$(date -u +%Y-%m-%dT%H:%M:%SZ)" "$rc" > "$WT/done/$t"
-
-  [ $first_task -eq 1 ] && first_task=0 || tasks_result="$tasks_result,"
-  tasks_result="$tasks_result
-      {\"task\": \"$t\", \"rc\": $rc, \"out\": \"$out\"}"
-done
+# `ops-run-tasks.sh` は走ったときに `last-tasks.json` を書く。
+#
+# **読んだら空にする。** ポーラーが走らせた分もここに残るので、空にしないと
+# 次の周回でも同じ結果を載せてしまい、「2 回走った」ように見える。
+# 実体（`reports/` と `done/`）は残るので、消えて困るものは無い。
+tasks_json="$(cat "$WT/last-tasks.json" 2>/dev/null)"
+[ -n "$tasks_json" ] || tasks_json="[]"
+printf '[]\n' > "$WT/last-tasks.json" 2>/dev/null || true
 
 # --- 現在の稼働状況を集める ----------------------------------------------
 
@@ -429,12 +426,7 @@ fi
   [ $first -eq 0 ] && echo ""
   echo "  ],"
   echo "  \"reconnect\": \"$reconnect_status\","
-  if [ -n "$tasks_result" ]; then
-    echo "  \"tasks\": [$tasks_result"
-    echo "  ],"
-  else
-    echo "  \"tasks\": [],"
-  fi
+  printf '  "tasks": %s,\n' "$tasks_json"
   echo "  \"auth\": {"
   echo "    \"ok\": $auth_ok,"
   echo "    \"expires_at\": $auth_expires,"
@@ -487,6 +479,18 @@ fi
 # **報告を push する理由**: 2026-08-22 に、タスクは成功したのに `tasks` の記録が
 # 履歴から消えていた（毎回 1 コミットに潰す設計のため）。実体でしか確認できず、
 # 自己申告を照合できなかった。
+# **ポーラーと同じ worktree を使う。** 相手が commit している最中に `add -A` すると
+# 中途半端な index ができるので、`ops-run-tasks.sh` と同じロックを取ってから触る。
+# 取れなければ数秒待って諦める（次の周回で押せばよい。死活監視は 30 分粒度）。
+hb_lock="$WT/.tasks.lock"
+hb_got=0
+for _ in 1 2 3 4 5 6 7 8 9 10; do
+  if mkdir "$hb_lock" 2>/dev/null; then hb_got=1; date +%s > "$hb_lock/started_at"; break; fi
+  sleep 2
+done
+[ "$hb_got" = "1" ] || die "タスク実行中でロックが取れなかった。次の周回で押す"
+trap 'rm -rf "$hb_lock"' EXIT INT TERM
+
 git -C "$WT" add -A
 if git -C "$WT" diff --cached --quiet; then
   # 中身が同じでも「生きている」ことを示す必要があるため空コミットを打つ
