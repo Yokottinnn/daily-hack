@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T13:44:01Z",
+  "generated_at": "2026-08-30T13:45:07Z",
   "host": "NaokinoMBP-2",
   "job_count": 20,
   "jobs": [
@@ -25,7 +25,9 @@
     "com.dailyhack.weekly-blog-report"
   ],
   "reconnect": "既に起動している",
-  "tasks": [],
+  "tasks": [
+      {"task": "t005-reply-sauna-2of2.sh", "rc": 1, "out": ""}
+  ],
   "auth": {
     "ok": true,
     "expires_at": "2026-08-30T20:36:45Z",
@@ -100,7 +102,7 @@
     "now": 215,
     "prev": 214,
     "prev_date": "2026-08-27",
-    "span_days": 1,
+    "span_days": 2,
     "target": 300,
     "deadline": "2026-09-30"
   },
