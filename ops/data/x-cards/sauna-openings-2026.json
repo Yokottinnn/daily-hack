@@ -1,0 +1,49 @@
+{
+  "_doc": "X 告知用の正方形画像。作り方は .claude/skills/x-post-images/SKILL.md",
+  "slug": "sauna-openings-2026",
+  "imageBase": "public/images/sauna-openings-2026",
+  "out": "public/images/sauna-openings-2026/x",
+
+  "cover": {
+    "file": "1-summary.jpg",
+    "kicker": "2026年オープン ／ 東京・神奈川・千葉・埼玉",
+    "title": "首都圏のサウナ新店",
+    "sub": "料金・最寄駅・男女別 <em>17施設まとめ</em>",
+    "mascot": "expr-05-smug.png",
+    "columns": 2,
+    "cards": [
+      { "img": "facilities/maihama.jpg",  "badge": "♻️ 1/15", "title": "スパ＆ホテル<br>舞浜ユーラシア", "meta": "千葉・舞浜／70人収容の展望サウナ" },
+      { "img": "facilities/paradise.jpg", "badge": "2/1",     "title": "PARADISE 大手町",              "meta": "東京・大手町 徒歩3分／男性専用・25mプール" },
+      { "img": "facilities/takanawa.jpg", "badge": "2/9",     "title": "高輪SAUNAS",                   "meta": "東京・高輪ゲートウェイ直結／9室" },
+      { "img": "facilities/oimachi.jpg",  "badge": "3/28",    "title": "サウナメッツァ<br>大井町トラックス", "meta": "東京・大井町 徒歩2分／日本初のトラムサウナ" },
+      { "img": "facilities/blueocean.jpg","badge": "7/6",     "title": "サウナリゾート＆スパ<br>BlueOcean", "meta": "神奈川・新横浜／24時間営業" },
+      { "img": "facilities/kohaku.jpg",   "badge": "7/10",    "title": "sauna KOHAKU",                "meta": "千葉・柏／回復に振ったサウナ" }
+    ],
+    "note": "この6つを含めて<b>首都圏で17施設。</b>男性専用9・女性もそのまま入れる8で、ほぼ半々。",
+    "source": "出典: 各施設公式／東京銭湯マップ ほか"
+  },
+
+  "photos": [
+    {
+      "file": "2-maihama.jpg", "img": "facilities/maihama.jpg",
+      "badge": "♻️ 1/15 リニューアル", "name": "スパ＆ホテル 舞浜ユーラシア",
+      "lead": "70人収容・<b>国内最大級の開口面積</b>の展望サウナ「グランビューサウナ」",
+      "specs": ["千葉・舞浜", "2,100円〜", "男女"],
+      "credit": "画像: スパ＆ホテル 舞浜ユーラシア 公式"
+    },
+    {
+      "file": "3-takanawa.jpg", "img": "facilities/takanawa.jpg",
+      "badge": "2/9 オープン", "name": "高輪SAUNAS",
+      "lead": "1,600平米超に<b>男女あわせて9つのサウナ室</b>。『サ道』タナカカツキ氏が総合プロデュース",
+      "specs": ["高輪ゲートウェイ直結", "3,700円", "男女"],
+      "credit": "画像: 高輪SAUNAS 公式"
+    },
+    {
+      "file": "4-oimachi.jpg", "img": "facilities/oimachi.jpg",
+      "badge": "3/28 オープン", "name": "サウナメッツァ 大井町トラックス",
+      "lead": "<b>日本初のトラムサウナ。</b>吊り革まで再現され、窓の外を実際の電車が通る",
+      "specs": ["大井町 徒歩2分", "1,800円〜", "男女"],
+      "credit": "画像: サウナメッツァ大井町トラックス 公式"
+    }
+  ]
+}

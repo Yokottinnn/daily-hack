@@ -186,6 +186,26 @@ Skill(skill="x-reply-style")   ← 実体は .claude/skills/x-reply-style/SKILL.
 **フィードバックは会話に残さない。** 指摘を受けたら
 `.claude/skills/x-reply-style/SKILL.md` §6 の表に追記する。書かないと次で消える。
 
+### 8. X の告知画像を作る前に `x-post-images` スキルを読む（例外なし）
+
+**X の投稿に付ける画像を作る・差し替えるときは、`x-post-images` スキルを読んでから着手する。**
+1 枚でも作る前に読む。
+
+```text
+Skill(skill="x-post-images")   ← 実体は .claude/skills/x-post-images/SKILL.md
+```
+
+**正方形 1080×1080。** ブログのアイキャッチ（1600×900）を流用しない。
+**同じ画像を 2 度使わない。** 2 枚目以降はアイキャッチではなく**実物の写真**を使う。
+**出典は画像の中に焼き込む**（X では画像だけが独り歩きする）。
+
+生成は `node scripts/gen-x-cards.mjs ops/data/x-cards/<slug>.json`。
+**記事ごとにスクリプトを増やさない。** JSON を 1 本足すだけ。
+
+**2026-08-30 に、1 投稿目と 2 投稿目で同じ画像を出して差し戻された。**
+`page.setContent()` では `file://` の画像が読めず、**灰色の空カードがエラーも出さずに
+出力される**という穴も同時に踏んでいる。手順と落とし穴をスキルに書いてある。
+
 ## OpenClaw 連携
 
 OpenClaw は利用者の Mac（`home-mac` / 192.168.2.102）で動く常駐エージェント。
