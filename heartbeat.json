@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T13:13:54Z",
+  "generated_at": "2026-08-30T13:42:48Z",
   "host": "NaokinoMBP-2",
   "job_count": 20,
   "jobs": [
@@ -26,8 +26,8 @@
   ],
   "reconnect": "既に起動している",
   "tasks": [
-      {"task": "055-sauna-last.sh", "rc": 0, "out": "このように、サウナに入って「ととのう」だけではなく、食事や睡眠、仕事などの、サウナ施設から帰った後に取る行動に最適な心と身体になっている状態を「しあがる」と考えました。 しあがる remote:      https://github.com/Yo"},
-      {"task": "t002-post-sauna-thread.sh", "rc": 0, "out": "投稿していない（0 件）/ post-sauna.md"}
+      {"task": "t004-post-sauna-v2.sh", "rc": 0, "out": "投稿できていない（0 件）/ post-sauna-v2.md"},
+      {"task": "t005-reply-sauna-2of2.sh", "rc": 1, "out": ""}
   ],
   "auth": {
     "ok": true,
