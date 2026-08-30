@@ -138,27 +138,109 @@ try{
 ' "$W/logs/follower-snapshot.log" 2>&1 | head -18
 
 echo
-echo "## 5. 期限切れのトークンは何か（**キー名だけ。値は出さない**）"
+echo "## 5. トークンの期限切れ — 再ログインが要るのか、更新で済むのか"
 echo
-echo "heartbeat が \`auth.ok: false / トークンの有効期限を過ぎている\` を出している。"
-echo "**それでも投稿は続いている**ので、X の投稿に使う認証とは別の可能性がある。どれか確かめる。"
+echo "\`ops-heartbeat.sh:395\` を読むと、auth が見ているのは"
+echo "**Mac の Claude Code のログイン情報**（\`security find-generic-password -s 'Claude Code-credentials'\`）。"
+echo "**X の投稿に使う認証ではない。** だから投稿は動き続けている。"
 echo
-echo "ops-heartbeat.sh が auth を組み立てている箇所:"
-echo '```bash'
-grep -nE 'auth|expires_at|有効期限' "$HOME/.openclaw/workspace/scripts/ops-heartbeat.sh" 2>/dev/null \
-  | mask | cut -c1-140 | head -12
-echo '```'
-if [ ! -s /dev/null ]; then :; fi
-for f in "$HOME/projects/anta-baka-x/blog/scripts/ops-heartbeat.sh"; do
-  [ -f "$f" ] || continue
-  echo
-  echo "リポジトリ側の同ファイル:"
-  echo '```bash'
-  grep -nE 'auth|expires_at|有効期限' "$f" 2>/dev/null | mask | cut -c1-140 | head -12
-  echo '```'
+echo "> **ここが今の実装の弱いところ。** \`expiresAt\` はアクセストークンの期限で、"
+echo "> リフレッシュトークンがあれば次の利用時に自動更新される。"
+echo "> いまの判定は「更新すれば済む」と「本当に再ログインが要る」を区別していない。"
+echo
+echo "### 5-1. 認証情報の中身（**キーの有無だけ。値は一切出さない**）"
+echo
+cred="$(security find-generic-password -s 'Claude Code-credentials' -w 2>/dev/null || true)"
+src="Keychain"
+if [ -z "$cred" ] && [ -f "$HOME/.claude/.credentials.json" ]; then
+  cred="$(cat "$HOME/.claude/.credentials.json" 2>/dev/null || true)"
+  src="ファイル（$HOME/.claude/.credentials.json）"
+fi
+if [ -z "$cred" ]; then
+  echo "- **認証情報が読めない。** Keychain もファイルも取れなかった"
+  echo "  → この場合、期限切れ以前に**判定そのものが成立していない**"
+else
+  echo "- 取得元: $src"
+  for k in accessToken refreshToken expiresAt scopes subscriptionType; do
+    if printf '%s' "$cred" | grep -q "\"$k\""; then
+      echo "  - \`$k\`: **有り**"
+    else
+      echo "  - \`$k\`: 無し"
+    fi
+  done
+  exp_ms="$(printf '%s' "$cred" | grep -o '"expiresAt"[[:space:]]*:[[:space:]]*[0-9]*' | grep -oE '[0-9]+$' | head -1)"
+  if [ -n "$exp_ms" ]; then
+    now="$(date -u +%s)"; exp_s="$((exp_ms / 1000))"
+    # macOS は date -r、GNU は date -d @。**どちらでも読めるようにする**
+    echo "  - 期限: $(date -u -r "$exp_s" '+%Y-%m-%d %H:%M:%SZ' 2>/dev/null \
+                      || date -u -d "@$exp_s" '+%Y-%m-%d %H:%M:%SZ' 2>/dev/null || echo '読めない')"
+    if [ "$exp_s" -le "$now" ]; then
+      echo "  - 状態: **過ぎている**（$(( (now - exp_s) / 3600 )) 時間 経過）"
+      if printf '%s' "$cred" | grep -q '"refreshToken"'; then
+        echo "  - → **refreshToken がある。** 次の利用時に自動更新される見込み。**再ログインは不要な可能性が高い**"
+      else
+        echo "  - → **refreshToken が無い。** 自動更新できない。**再ログインが要る**"
+      fi
+    else
+      echo "  - 状態: 有効（残り $(( (exp_s - now) / 3600 )) 時間）"
+    fi
+  fi
+fi
+
+echo
+echo "### 5-2. 実際に Claude Code が動くか（一番確かな証拠）"
+echo
+echo "**期限の数字ではなく、動くかどうかで決める。**"
+CLI="$(command -v claude 2>/dev/null || echo /usr/local/bin/claude)"
+if [ -x "$CLI" ]; then
+  echo "- CLI: 有り（$CLI）"
+  echo "- \`claude --version\`: $($CLI --version 2>&1 | head -1 | mask)"
+else
+  echo "- CLI: **見つからない**"
+fi
+
+echo
+echo "### 5-3. 会話ログに認証エラーが出ているか"
+echo
+hit=0
+while IFS= read -r f; do
+  [ -n "$f" ] || continue
+  if tail -c 200000 "$f" 2>/dev/null | grep -qE 'OAuth session expired|Not logged in'; then
+    echo "- **$(basename "$f") に認証エラー**（更新 $(date -r "$f" '+%m-%d %H:%M' 2>/dev/null)）"
+    hit=1
+  fi
+done <<EOF
+$(find "$HOME/.claude/projects" -name '*.jsonl' -mmin -1440 2>/dev/null | head -20)
+EOF
+[ "$hit" = "0" ] && echo "- 直近 24 時間の会話ログに認証エラーは**出ていない**"
+
+echo
+echo "### 5-4. ブリッジ（remote-control）は生きているか"
+echo
+for lbl in com.dailyhack.rc-keeper com.dailyhack.openclaw.listener; do
+  if launchctl list 2>/dev/null | awk '{print $3}' | grep -qx "$lbl"; then
+    echo "- $lbl: **ロード済み**"
+  else
+    echo "- $lbl: **未ロード**"
+  fi
+done
+for lg in rc-keeper listener; do
+  L="$W/logs/$lg.log"
+  [ -f "$L" ] || L="$HOME/openclaw/logs/$lg.log"
+  [ -f "$L" ] || continue
+  echo "- $(basename "$L") 末尾:"
+  tail -4 "$L" 2>/dev/null | mask | cut -c1-130 | sed 's/^/      /'
 done
 
 echo
+echo "### 5-5. 判定"
+echo
+echo "    refreshToken が有り + 会話ログに認証エラー無し → **更新で済む。再ログイン不要**"
+echo "    refreshToken が無い、または認証エラーが出ている → **再ログインが要る**"
+echo "    認証情報そのものが読めない                     → **判定不能。数字を信じない**"
+echo
+echo "**「期限を過ぎている」だけでは再ログインの根拠にならない。** 上の 3 つで決める。"
+
 echo "## 6. まとめの判定"
 echo
 echo "- 返信が動いている＝**本日の x_tweet_id が 1 件以上**"
