@@ -188,6 +188,12 @@ North Gate 3階のフードコートは約1,400席。ららぽーとTOKYO-BAY全
 
 2027年以降は飲食の拡充と、特選ダイニング「FOURSYUN」の大規模改修が控えてる。
 
+行った人の評価は、実は運用の側にある。**席取りの仕組みを褒めている投稿**がこれ。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">ららぽーと横浜のフードコートは最高で、事前席取り禁止で(実際にしている人いない)、まず初めに全店舗の受付を集約している列にメニュー選びながら並んで、それが済んだ後に席選ぶ方式で、混んでいる時間帯でも空席に余裕があって、これがフードコートの最適解に近そうと思った</p>&mdash; mono (@_mono) <a href="https://twitter.com/_mono/status/1831308774528975161">2024年9月4日</a></blockquote>
+
+**「受付を集約してから席を選ぶ」** ——面積でも店舗数でもなく、こういう運び方の違いが体験を決める。決算資料には出てこない部分ね。
+
 **工事中は当然、売上は落ちる。** これを「人気が落ちた」と読むのは間違いよ。むしろ<strong>約93,000㎡というららぽーと2位の面積</strong>を持ちながら460億円しか出ていない今が底で、ここから戻す局面と見るべき。
 
 <p class="source-note">出典：<a href="https://www.mitsuifudosan.co.jp/corporate/news/2025/1211/" target="_blank" rel="noopener">三井不動産「開業20周年を迎える首都圏リージョナル型ショッピングセンター4施設 2026年以降順次大規模リニューアル」（2025年12月11日）</a>／<a href="https://www.mitsuifudosan.co.jp/corporate/news/2025/0916/" target="_blank" rel="noopener">同「ららぽーとTOKYO-BAY北館建替え計画 Ⅰ期グランドオープン」（2025年9月16日）</a>。</p>
@@ -642,6 +648,8 @@ North Gate 3階のフードコートは約1,400席。ららぽーとTOKYO-BAY全
   </table>
 </div>
 
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">ランチはららぽーと豊洲のフードコート<br>金子半之助で野菜天丼<br>カボチャ苦手なので海老に変えてもらったら値段変わらずなんですって！<br>2回聞き直しちゃいました裏技？<br>美味しかったです！</p>&mdash; すまいよみ@マンション東京東エリア (@sumaiyomi) <a href="https://twitter.com/sumaiyomi/status/2081597719945318768">2026年7月27日</a></blockquote>
+
 **駐車料金が全20施設でもっとも高い**（超過30分400円）。売上5位・520億で、いま<a href="#ららぽーと豊洲キッズパークはもう完成済み休憩席は4倍に">20周年リニューアルの最中</a>。
 
 ### ④ ららぽーと柏の葉（2006年11月・千葉）
@@ -992,6 +1000,14 @@ North Gate 3階のフードコートは約1,400席。ららぽーとTOKYO-BAY全
     </tbody>
   </table>
 </div>
+
+改修は先の話に見えるが、**入れ替えはもう始まっていて、住民はその只中にいる。**
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">川崎民しかわからないと思うけどラゾーナ閉店ラッシュで生活基盤が崩壊</p>&mdash; リステン (@Re_stane2) <a href="https://twitter.com/Re_stane2/status/2012747254998675893">2026年1月18日</a></blockquote>
+
+**「生活基盤が崩壊」** は大げさに聞こえるが、駅直結で日用品まで揃う施設が長期改修に入るというのは、周辺住民にとってそういう意味になる。メディア側の受け止めはこう。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">【新着】ラゾーナ川崎プラザが過去最大級のリニューアル実施、体感型商業施設へ。</p>&mdash; FASHIONSNAP (@fashionsnap) <a href="https://twitter.com/fashionsnap/status/2079805226895188458">2026年7月22日</a></blockquote>
 
 **フードコートが2026年9月末から2027年12月まで、1年2か月ぶん使えない。** 川崎駅直結でごはん目当てに寄る人は、この期間の計画を立て直したほうがいい。
 
