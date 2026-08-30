@@ -1,6 +1,6 @@
 ---
 title: "2026年オープンのサウナ新店 首都圏17施設｜料金・最寄駅・男女別まとめ"
-description: "2026年に首都圏で開業した／するサウナを17施設ぶん一覧化。料金は550円〜3,700円で6.7倍の開き、東京だけで10施設、そして女性がそのまま入れるのは8施設と男性専用8施設でちょうど半々。開業日が資料で割れる理由まで数字で並べた保存版。"
+description: "2026年に首都圏で開業した／するサウナを17施設ぶん一覧化。料金は550円〜3,700円で6.7倍の開き、東京だけで10施設、そして女性がそのまま入れるのは8施設で、残る9施設は男性専用。開業日が資料で割れる理由まで数字で並べた保存版。"
 publishDate: 2026-08-22
 category: ["roundups", "comparisons"]
 tags: ["サウナ", "ととのう", "2026年オープン", "新店", "首都圏", "高輪SAUNAS", "サウナメッツァ大井町", "PARADISE大手町", "黄金湯", "施設一覧", "舞浜ユーラシア", "SAUNA汽汽"]
@@ -9,7 +9,7 @@ draft: false
 eyecatchUrl: "/images/sauna-openings-2026/eyecatch.jpg"
 eyecatchAlt: "2026年オープンのサウナ新店 首都圏17施設｜料金・最寄駅・男女別まとめ"
 author: "hacker-ko"
-references: ["https://www.newoman.jp/takanawa/floorguide/detail/?scd=003014", "https://ryusenjinoyu.com/saunametsaoimachi/", "http://k-scc.co.jp/sauna/price/price.html", "https://www.1010.or.jp/map/item/item-cnt-331", "https://onsen.nifty.com/ootemachi-onsen/onsen024731/", "https://www.supersento.com/kanto/chiba/maisa_tokyo.html", "https://prtimes.jp/main/html/rd/p/000000017.000070556.html", "https://www.my-spa.jp/price/", "https://sauna-kiki.jp/", "https://prtimes.jp/main/html/rd/p/000000001.000176726.html"]
+references: ["https://www.newoman.jp/takanawa/floorguide/detail/?scd=003014", "https://ryusenjinoyu.com/saunametsaoimachi/", "http://k-scc.co.jp/sauna/price/price.html", "https://www.1010.or.jp/map/item/item-cnt-331", "https://onsen.nifty.com/ootemachi-onsen/onsen024731/", "https://www.supersento.com/kanto/chiba/maisa_tokyo.html", "https://prtimes.jp/main/html/rd/p/000000017.000070556.html", "https://www.my-spa.jp/price/", "https://sauna-kiki.jp/", "https://prtimes.jp/main/html/rd/p/000000001.000176726.html", "https://paradise-otemachi.com/"]
 ---
 
 「2026年、サウナの新店が多いらしい」「で、結局いくつできたの？」——検索して出てくるのは、施設名がずらっと並んだリストか、行った感想ばかり。**いくらで、どこの駅で、自分は入れるのか。この3つを揃えて並べた記事がない。**
@@ -26,7 +26,7 @@ references: ["https://www.newoman.jp/takanawa/floorguide/detail/?scd=003014", "h
 
 <div class="hakkako-says">
   <div class="hakkako-mascot"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
-  <div class="hakkako-quote">先に一番の驚きを言っとく。<strong>17施設のうち、男性専用（または基本男性専用）が8、女性がそのまま入れるのが8。ちょうど半々。</strong>残る1つ（PARADISE 大手町）は資料が割れてる。「2026年はサウナが熱い」って記事はいくらでもあるけど、<strong>この内訳を出してるところ、アタシは見たことない。</strong></div>
+  <div class="hakkako-quote">先に一番の驚きを言っとく。<strong>17施設のうち、男性専用（または基本男性専用）が9。女性がそのまま入れるのは8。</strong>過半数が男性専用よ。「2026年はサウナが熱い」って記事はいくらでもあるけど、<strong>この内訳を出してるところ、アタシは見たことない。</strong></div>
 </div>
 
 ## 30秒で分かる、首都圏のサウナ新店
@@ -40,8 +40,8 @@ references: ["https://www.newoman.jp/takanawa/floorguide/detail/?scd=003014", "h
   </a>
   <a class="event-pick" href="#女性が入れるサウナ" style="--pick-img:url('/images/sauna-openings-2026/photos/sento.jpg')">
     <span class="pick-date">男女</span>
-    <h4>男性専用8・男女8</h4>
-    <p>資料が割れるのが1。<strong>女性が入れる8のうち5は大型の複合施設。</strong></p>
+    <h4>男性専用9・男女8</h4>
+    <p><strong>過半数が男性専用。</strong>女性が入れる8のうち5は大型の複合施設。</p>
     <span class="pick-go">詳しく見る →</span>
   </a>
   <a class="event-pick" href="#料金" style="--pick-img:url('/images/sauna-openings-2026/photos/tokyo.jpg')">
@@ -65,7 +65,7 @@ references: ["https://www.newoman.jp/takanawa/floorguide/detail/?scd=003014", "h
     <thead><tr><th>切り口</th><th>数字</th><th>意味</th></tr></thead>
     <tbody>
       <tr><td>施設数</td><td><strong>17</strong></td><td><a href="#首都圏17施設リスト">新規14／既存のリニューアル3</a></td></tr>
-      <tr class="recommended"><td>男女</td><td><strong>男性専用 8／男女 8</strong></td><td><a href="#女性が入れるサウナ">ちょうど半々。残る1つ（PARADISE 大手町）は資料が割れる</a></td></tr>
+      <tr class="recommended"><td>男女</td><td><strong>男性専用 9／男女 8</strong></td><td><a href="#女性が入れるサウナ">PARADISE 大手町が男性専用と確定して 9 になった</a></td></tr>
       <tr><td>内訳</td><td><strong>東京 10／17（59%）</strong></td><td><a href="#地域">神奈川3・千葉3・埼玉1</a></td></tr>
       <tr><td>最多の月</td><td><strong>7月（5施設）</strong></td><td><a href="#月別">2月・5月が各3で続く。<strong>6月だけがゼロ</strong></a></td></tr>
       <tr><td>料金の幅</td><td><strong>550円〜3,700円</strong></td><td><a href="#料金">裏の取れた7施設で<strong>6.7倍</strong></a></td></tr>
@@ -91,7 +91,7 @@ references: ["https://www.newoman.jp/takanawa/floorguide/detail/?scd=003014", "h
     <thead><tr><th>オープン</th><th>施設名</th><th>都県</th><th>最寄</th><th>男女</th></tr></thead>
     <tbody>
       <tr class="recommended"><td>♻️1/15</td><td><a href="https://www.my-spa.jp/spa/" target="_blank" rel="noopener">スパ＆ホテル 舞浜ユーラシア</a></td><td>千葉</td><td>舞浜（浦安市）</td><td><strong>男女</strong></td></tr>
-      <tr><td>2/1</td><td><a href="https://onsen.nifty.com/ootemachi-onsen/onsen024731/" target="_blank" rel="noopener">PARADISE 大手町</a></td><td>東京</td><td>大手町 徒歩3分</td><td>要確認 ※1</td></tr>
+      <tr><td>2/1</td><td><a href="https://onsen.nifty.com/ootemachi-onsen/onsen024731/" target="_blank" rel="noopener">PARADISE 大手町</a></td><td>東京</td><td>大手町 徒歩3分</td><td>男性専用 ※1</td></tr>
       <tr class="recommended"><td>2/9</td><td><a href="https://www.newoman.jp/takanawa/floorguide/detail/?scd=003014" target="_blank" rel="noopener">高輪SAUNAS</a></td><td>東京</td><td>高輪ゲートウェイ直結</td><td><strong>男女</strong></td></tr>
       <tr><td>2/27</td><td>荒木町サウナ Logout</td><td>東京</td><td>四谷三丁目ほか</td><td>男性専用</td></tr>
       <tr class="recommended"><td>3/28</td><td><a href="https://ryusenjinoyu.com/saunametsaoimachi/" target="_blank" rel="noopener">サウナメッツァ 大井町トラックス</a></td><td>東京</td><td>大井町 徒歩2分</td><td><strong>男女</strong></td></tr>
@@ -111,7 +111,7 @@ references: ["https://www.newoman.jp/takanawa/floorguide/detail/?scd=003014", "h
   </table>
 </div>
 
-<p class="source-note">※1 <strong>PARADISE 大手町は資料によって記載が割れる。</strong>25階が全裸エリア・26階が水着エリアという構成で、男性専用と読める資料と、そう書いていない資料の両方がある。行く前に公式で確認すること。<br />※2 毎日サウナ東京 幕張店は<strong>不定期でレディースデーあり</strong>。「基本男性専用」は常時の運用を指す。<br />※3 SAUNA汽汽は<strong>最大3名の完全個室・水着着用</strong>。男女で分ける作りではなく、貸切なので誰でも入れる。<br />※4 sauna KOHAKU は<strong>月1回・第2水曜日がレディースデー</strong>。公式に明記されている。<br />リンクの無い施設は、開業の事実と概要までしか裏が取れていない。<strong>男女の別と最寄駅は変更されることがあるので、行く前に必ず各施設の公式ページで確認すること。</strong></p>
+<p class="source-note">※1 <strong>PARADISE 大手町のスパは男性専用。</strong>25階が全裸エリア・26階が水着エリアという構成で、水着レンタルは無料。<strong>不定期のレディースデーが検討されている</strong>が、開催の有無は公式（<a href="https://paradise-otemachi.com/" target="_blank" rel="noopener">paradise-otemachi.com</a>／公式Instagram）で告知される。<br />※2 毎日サウナ東京 幕張店は<strong>不定期でレディースデーあり</strong>。「基本男性専用」は常時の運用を指す。<br />※3 SAUNA汽汽は<strong>最大3名の完全個室・水着着用</strong>。男女で分ける作りではなく、貸切なので誰でも入れる。<br />※4 sauna KOHAKU は<strong>月1回・第2水曜日がレディースデー</strong>。公式に明記されている。<br />リンクの無い施設は、開業の事実と概要までしか裏が取れていない。<strong>男女の別と最寄駅は変更されることがあるので、行く前に必ず各施設の公式ページで確認すること。</strong></p>
 
 <p class="source-note"><strong>この記事は首都圏（東京・神奈川・千葉・埼玉）に絞っている。</strong>2026年は首都圏以外でも新店が出ており、大阪（CORE SAUNA 堺東駅前店・1/30）、愛知（ナゴヤサウナ・4/25、スパアクアス湯友楽・6/18）、福岡（TOTOPA 博多駅前店・8/7）、福島（しずのゆ福島・8月中旬）などがある。<strong>この表には入っていない。</strong></p>
 
@@ -165,7 +165,7 @@ references: ["https://www.newoman.jp/takanawa/floorguide/detail/?scd=003014", "h
   <div class="hakkako-quote">新店ニュースを見て「行こう」と思った女性が、公式サイトを開いて初めて男性専用だと知る——これ、2026年の首都圏の新店では<strong>ほぼ2回に1回</strong>起きるってこと。だから先にこの表を置いとく。</div>
 </div>
 
-**17施設のうち、女性がそのまま入れると確認できたのは8軒。** 残り9のうち8は男性専用（または基本男性専用）、1つ（PARADISE 大手町）は資料が割れている。**男性専用8 対 男女8 でちょうど半々。**
+**17施設のうち、女性がそのまま入れると確認できたのは8軒。** 残る**9軒はすべて男性専用（または基本男性専用）**で、最後まで割れていた PARADISE 大手町も**男性専用と確定した**。
 
 <div class="cmp-table-wrap">
   <table class="cmp-table">
@@ -295,7 +295,7 @@ references: ["https://www.newoman.jp/takanawa/floorguide/detail/?scd=003014", "h
     <tbody>
       <tr><th>最寄</th><td>大手町 徒歩3分（B2a出口から直結）</td></tr>
       <tr><th>料金</th><td><strong>1,980円〜</strong>（1時間・グランドオープン価格）。通常価格の記載は1時間2,178円・3時間3,278円</td></tr>
-      <tr><th>男女</th><td><strong>要確認</strong>（資料によって記載が割れる）</td></tr>
+      <tr><th>男女</th><td><strong>男性専用</strong>（26階の水着ゾーンも含めスパ全体。<strong>レディースデーは検討中</strong>）</td></tr>
     </tbody>
   </table>
 </div>
@@ -694,7 +694,7 @@ references: ["https://www.newoman.jp/takanawa/floorguide/detail/?scd=003014", "h
 </div>
 
 <ul class="checklist">
-  <li><div class="checklist-body"><strong>① 男女の別</strong><p>17施設中8が男性専用（または基本男性専用）。レディースデーは不定期のことが多く、公式の告知でしか分からない。<strong>「サウナ新店」の記事だけ見て行くと空振りする。</strong></p></div></li>
+  <li><div class="checklist-body"><strong>① 男女の別</strong><p>17施設中<strong>9が男性専用</strong>（または基本男性専用）。レディースデーは不定期のことが多く、公式の告知でしか分からない。<strong>「サウナ新店」の記事だけ見て行くと空振りする。</strong></p></div></li>
   <li><div class="checklist-body"><strong>② 予約が要るか</strong><p>海賊サウナは8月中が事前予約制。<strong>「行けば入れる」とは限らない。</strong>都市型の小型店ほど予約制を採りやすい。</p></div></li>
   <li><div class="checklist-body"><strong>③ 料金の条件</strong><p>同じ1,800円でも「60分」と「フリー」では別物。<strong>土日祝は300〜600円上がる施設が多い。</strong>グランドオープン価格が期間限定のこともある（PARADISE 大手町）。</p></div></li>
 </ul>
@@ -719,7 +719,7 @@ references: ["https://www.newoman.jp/takanawa/floorguide/detail/?scd=003014", "h
     <thead><tr><th>質問</th><th>答え</th></tr></thead>
     <tbody>
       <tr class="recommended"><td><strong>2026年に首都圏でオープンしたサウナは何軒？</strong></td><td><a href="#首都圏17施設リスト"><strong>17施設</strong></a>（新規14・既存のリニューアル3）。<a href="#地域">東京10・神奈川3・千葉3・埼玉1</a>で、<strong>東京だけで約6割</strong></td></tr>
-      <tr class="recommended"><td><strong>女性も入れる新店はどこ？</strong></td><td><a href="#女性が入れるサウナ"><strong>8軒</strong></a>。舞浜ユーラシア／高輪SAUNAS／サウナメッツァ大井町／SAUNA汽汽／黄金湯 新宿／門仲SAUNAS LO／BlueOcean／SPA EAS。<strong>男性専用8軒とちょうど半々</strong></td></tr>
+      <tr class="recommended"><td><strong>女性も入れる新店はどこ？</strong></td><td><a href="#女性が入れるサウナ"><strong>8軒</strong></a>。舞浜ユーラシア／高輪SAUNAS／サウナメッツァ大井町／SAUNA汽汽／黄金湯 新宿／門仲SAUNAS LO／BlueOcean／SPA EAS。<strong>残る9軒は男性専用</strong>で、過半数が男性専用</td></tr>
       <tr class="recommended"><td><strong>いちばん安いのは？</strong></td><td><a href="#料金">黄金湯 新宿の<strong>550円</strong></a>。ただしこれは<strong>銭湯の入浴料で、サウナは別料金</strong>。サウナ込みで安いのは毎日サウナ東京 幕張店の平日60分1,300円</td></tr>
       <tr><td><strong>いちばん高いのは？</strong></td><td><a href="#料金">高輪SAUNASの<strong>3,700円</strong></a>（男性・平日4時間）。550円との差は<strong>6.7倍</strong>だが、レストラン・ワークスペース・仮眠スペース込みの都市型リトリートなので、同じ「サウナ代」ではない</td></tr>
       <tr><td><strong>24時間やっているサウナは？</strong></td><td><a href="#目的別"><strong>3施設</strong></a>。BlueOcean（新横浜駅前）／毎日サウナ東京 幕張店（6:00〜9:00は清掃）／水宴 -suien-（麻布十番）。大井町トラックスも6:00〜翌2:00で年中無休</td></tr>
@@ -743,7 +743,7 @@ references: ["https://www.newoman.jp/takanawa/floorguide/detail/?scd=003014", "h
     <tbody>
       <tr><td>料金</td><td><strong>17施設中7つしか確認できていない。</strong>残り10は公式に料金表が出ていないか、会員制・予約制で公開されていない。<strong>推測値は載せていない</strong></td></tr>
       <tr><td>営業時間・定休日</td><td>荒木町Logout・SHIAGARU SAUNA・SAUNA汽汽・サウナ蒸薪・おかえりサウナ板橋・sauna KOHAKU・水宴・海賊サウナ・SPA EASは、開業の事実と概要までしか裏が取れていない</td></tr>
-      <tr class="recommended"><td>PARADISE 大手町の男女</td><td><strong>資料によって記載が割れる。</strong>25階が全裸エリア・26階が水着エリアという構成までは分かっている。<strong>公式サイトは今回もこちらから読めなかった</strong>（3ページとも接続エラー）。この1件があるため「男性専用は8か9か」が確定しない</td></tr>
+      <tr><td>PARADISE 大手町のレディースデー</td><td>スパが<strong>男性専用であることは確定した</strong>（公式ドメインが <code>paradise-otemachi.com</code> だと分かり、複数の媒体で一致）。ただし<strong>レディースデーが実際に始まったかは未確認。</strong>「検討中」「開催予定」までしか出ていない</td></tr>
       <tr><td>この17施設で首都圏の全部か</td><td><strong>言い切れない。</strong>実際、最初は15施設として出したあとに、別のまとめを当たって<strong>舞浜ユーラシアとSAUNA汽汽の2軒を足している。</strong>個室サウナのように小規模なものは、まだ落ちている可能性がある</td></tr>
       <tr><td>SAUNA汽汽の料金</td><td><strong>金額そのものが公式に出ていない。</strong>「1〜2名は同一料金」「3名は+3,000円」「レンタル水着+600円」という条件だけが公開されている</td></tr>
       <tr><td>首都圏以外</td><td>この記事の対象外。大阪・愛知・福岡・福島などにも2026年の新店がある（<a href="https://www.timeout.jp/tokyo/ja/things-to-do/new-sauna-bathing-facilities-opening-in-2026" target="_blank" rel="noopener">2026年オープンの注目サウナ・温浴施設</a>ほか）</td></tr>
