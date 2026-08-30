@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T15:44:43Z",
+  "generated_at": "2026-08-30T16:16:27Z",
   "host": "NaokinoMBP-2",
   "job_count": 7,
   "jobs": [
@@ -13,9 +13,9 @@
   ],
   "reconnect": "既に起動している",
   "tasks": [
-      {"task": "058-morning-videos.sh", "rc": 0, "out": "    - title  : 【コメダ珈琲店】念願のモーニングを食べに行ってみたら最高だった     - author : 北陽チャンネル - `FAJmAo2CrnY` **⑧ すき家**（メモ: 牛まぜのっけを限界まで美味しくする）     - title  : 【すき家】朝からこれは幸せ�"},
-      {"task": "059-morning-tweets2.sh", "rc": 0, "out": "### `1903804148522660112` — ⑧ すき家（メモ: まぜのっけ朝食 290円（2025年3月時点））  - `https://cdn.syndication.twimg.com/tweet-result` 本文が空だった - `https://api.fxtwitter.com/i/status/1903804148522660112` 失敗（HTTPError） **取得できなかった。この�"},
-      {"task": "t008-install-poller.sh", "rc": 0, "out": "**1 分ポーラーを入れた** / install-poller.md"}
+      {"task": "060-seo-rankings-0830.sh", "rc": 0, "out": "書き出した: /Users/ny/.openclaw/ops-heartbeat-wt/reports/seo-rankings-0830.md（42 記事） 書き出した: reports/seo-rankings-0830.md（237 行）"},
+      {"task": "t009-measure-latency.sh", "rc": 0, "out": "待ち時間 1693 秒 / 実行者 ops-heartbeat / measure-latency.md"},
+      {"task": "t010-fix-poller-path.sh", "rc": 0, "out": "**ポーラーを直した（exit 0）** / fix-poller-path.md"}
   ],
   "auth": {
     "ok": true,
