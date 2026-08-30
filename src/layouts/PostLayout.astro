@@ -12,6 +12,7 @@ import AdMax from '../components/AdMax.astro';
 import { getCollection } from 'astro:content';
 import DraftCommentWidget from '../components/DraftCommentWidget.astro';
 import { getPrimaryCategory, getCategories, postBelongsToCategory } from '../lib/category';
+import { collectHeadings } from '../lib/headings';
 
 export interface Props {
   post: CollectionEntry<'posts'>;
@@ -19,6 +20,8 @@ export interface Props {
 }
 
 const { post, headings } = Astro.props;
+// 目次は Markdown の見出しだけでは足りない。生 HTML で書いた <h2> も拾う。
+const tocHeadings = collectHeadings(post.body, headings);
 const data = post.data;
 const primaryCat = getPrimaryCategory(data);
 const postCategories = getCategories(data);
@@ -167,7 +170,7 @@ const articleJsonLd = {
       </article>
 
       <aside class="post-aside">
-        <TableOfContents headings={headings} />
+        <TableOfContents headings={tocHeadings} />
         <!-- 広告枠3: サイドバー（デスクトップのみ表示、TOC下） -->
         <div style="margin-top: 20px;">
           <AdMax slot="dailyhack-sidebar-sticky" variant="sidebar" />

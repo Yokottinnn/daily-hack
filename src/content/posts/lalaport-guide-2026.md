@@ -112,7 +112,7 @@ author: "hacker-ko"
 
 <div class="section-with-mascot">
   <div class="mascot-wrap"><img src="/images/expr-07-gasp.png" alt="Daily Hackマスコット" /></div>
-  <h2>前年と比べたら、はっきり明暗が出た</h2>
+  <h2 id="前年と比べたら明暗">前年と比べたら、はっきり明暗が出た</h2>
 </div>
 
 ここからがアタシの独自集計。**1つ前の決算資料（2026年3月期／2025年3月末時点）と突き合わせて、増減を出した。**
@@ -1125,7 +1125,7 @@ North Gate 3階のフードコートは約1,400席。ららぽーとTOKYO-BAY全
 
 <div class="section-with-mascot">
   <div class="mascot-wrap"><img src="/images/expr-09-arms-crossed.png" alt="Daily Hackマスコット" /></div>
-  <h2>行く前に知っておくと得すること</h2>
+  <h2 id="行く前に知っておくと得すること">行く前に知っておくと得すること</h2>
 </div>
 
 ### ポイントは「メダルランク」で還元率が変わる
