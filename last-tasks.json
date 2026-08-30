@@ -1,1 +1,3 @@
-[]
+[
+      {"task": "t011-measure-latency-v2.sh", "rc": 0, "out": "待ち時間 46 秒 / 実行者 ops-poller / measure-latency-v2.md"}
+  ]
