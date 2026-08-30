@@ -111,7 +111,7 @@ references: ["https://www.newoman.jp/takanawa/floorguide/detail/?scd=003014", "h
   </table>
 </div>
 
-<p class="source-note">※1 <strong>PARADISE 大手町のスパは男性専用。</strong>25階が全裸エリア・26階が水着エリアという構成で、水着レンタルは無料。<strong>不定期のレディースデーが検討されている</strong>が、開催の有無は公式（<a href="https://paradise-otemachi.com/" target="_blank" rel="noopener">paradise-otemachi.com</a>／公式Instagram）で告知される。<br />※2 毎日サウナ東京 幕張店は<strong>不定期でレディースデーあり</strong>。「基本男性専用」は常時の運用を指す。<br />※3 SAUNA汽汽は<strong>最大3名の完全個室・水着着用</strong>。男女で分ける作りではなく、貸切なので誰でも入れる。<br />※4 sauna KOHAKU は<strong>月1回・第2水曜日がレディースデー</strong>。公式に明記されている。<br />リンクの無い施設は、開業の事実と概要までしか裏が取れていない。<strong>男女の別と最寄駅は変更されることがあるので、行く前に必ず各施設の公式ページで確認すること。</strong></p>
+<p class="source-note">※1 <strong>PARADISE 大手町のスパは男性専用</strong>（<a href="https://paradise-otemachi.com/facility_spa.html" target="_blank" rel="noopener">公式が明記</a>。よくある質問でも「SPAは現在、男性専用です」と回答している）。<strong>公式にレディースデーの記載は無い。</strong>GYM と WORK は男女とも使える。<strong>18歳未満は全エリア利用不可。</strong><br />※2 毎日サウナ東京 幕張店は<strong>不定期でレディースデーあり</strong>。「基本男性専用」は常時の運用を指す。<br />※3 SAUNA汽汽は<strong>最大3名の完全個室・水着着用</strong>。男女で分ける作りではなく、貸切なので誰でも入れる。<br />※4 sauna KOHAKU は<strong>月1回・第2水曜日がレディースデー</strong>。公式に明記されている。<br />リンクの無い施設は、開業の事実と概要までしか裏が取れていない。<strong>男女の別と最寄駅は変更されることがあるので、行く前に必ず各施設の公式ページで確認すること。</strong></p>
 
 <p class="source-note"><strong>この記事は首都圏（東京・神奈川・千葉・埼玉）に絞っている。</strong>2026年は首都圏以外でも新店が出ており、大阪（CORE SAUNA 堺東駅前店・1/30）、愛知（ナゴヤサウナ・4/25、スパアクアス湯友楽・6/18）、福岡（TOTOPA 博多駅前店・8/7）、福島（しずのゆ福島・8月中旬）などがある。<strong>この表には入っていない。</strong></p>
 
@@ -135,7 +135,7 @@ references: ["https://www.newoman.jp/takanawa/floorguide/detail/?scd=003014", "h
       <tr><td><a href="https://www.supersento.com/kanto/chiba/maisa_tokyo.html" target="_blank" rel="noopener">毎日サウナ東京 幕張店</a></td><td>1,300円〜</td><td>平日60分。平日フリー2,500円／土日祝60分1,800円</td></tr>
       <tr><td><a href="http://k-scc.co.jp/sauna/price/price.html" target="_blank" rel="noopener">サウナリゾート＆スパ BlueOcean</a></td><td>1,750円（税別）</td><td>15歳以上・平日。特定日と土日祝は2,050円（税別）</td></tr>
       <tr><td><a href="https://ryusenjinoyu.com/saunametsaoimachi/" target="_blank" rel="noopener">サウナメッツァ 大井町トラックス</a></td><td>1,800円〜</td><td>平日。土日は2,400円</td></tr>
-      <tr><td><a href="https://onsen.nifty.com/ootemachi-onsen/onsen024731/" target="_blank" rel="noopener">PARADISE 大手町</a></td><td>1,980円〜</td><td>1時間のグランドオープン価格。通常価格の記載は1時間2,178円・3時間3,278円</td></tr>
+      <tr><td><a href="https://paradise-otemachi.com/facility_spa.html" target="_blank" rel="noopener">PARADISE 大手町</a></td><td>2,189円〜</td><td>1時間まで（税込）。3時間まで3,278円、延長1時間ごと1,100円。<strong>平日7:00〜10:00 は1,408円</strong></td></tr>
       <tr><td><a href="https://www.my-spa.jp/price/" target="_blank" rel="noopener">スパ＆ホテル 舞浜ユーラシア</a></td><td>2,100円</td><td>SPA入館・平日（入湯税込）。土日祝2,600円。<strong>5階の SPA+ は別途950円</strong></td></tr>
       <tr class="recommended"><td><a href="https://www.newoman.jp/takanawa/floorguide/detail/?scd=003014" target="_blank" rel="noopener">高輪SAUNAS</a></td><td><strong>3,700円</strong></td><td>男性・平日4時間。女性3,200円ほか（2026年7月時点）</td></tr>
     </tbody>
@@ -238,7 +238,7 @@ references: ["https://www.newoman.jp/takanawa/floorguide/detail/?scd=003014", "h
     <thead><tr><th>優先すること</th><th>該当する施設</th></tr></thead>
     <tbody>
       <tr class="recommended"><td><strong>駅から歩かない</strong><br><small>徒歩3分以内・駅直結</small></td><td><a href="#-高輪saunas29東京">高輪SAUNAS</a>（高輪ゲートウェイ<strong>直結</strong>）／<a href="#-サウナメッツァ-大井町トラックス328東京">大井町トラックス</a>（徒歩2分）／<a href="#-paradise-大手町21東京">PARADISE 大手町</a>（徒歩3分・B2a直結）／<a href="#-shiagaru-sauna-神田秋葉原413東京">SHIAGARU SAUNA</a>（岩本町 徒歩2分）／<a href="#-サウナリゾートスパ-blueocean76神奈川">BlueOcean</a>（新横浜駅前）／<a href="#-おかえりサウナ板橋56東京">おかえりサウナ板橋</a>（板橋本町駅前）／<a href="#-海賊サウナカプセルホテル811神奈川">海賊サウナ</a>（小田原駅前）</td></tr>
-      <tr><td><strong>安く入りたい</strong><br><small>2,200円未満で入れる</small></td><td><a href="#-黄金湯-新宿️77東京">黄金湯 新宿</a> <strong>550円</strong>（サウナ別）／<a href="#-毎日サウナ東京-幕張店58千葉">毎日サウナ東京 幕張店</a> 平日60分 <strong>1,300円</strong>／<a href="#-サウナリゾートスパ-blueocean76神奈川">BlueOcean</a> 平日 1,750円（税別）／<a href="#-サウナメッツァ-大井町トラックス328東京">大井町トラックス</a> 平日 1,800円〜／<a href="#-paradise-大手町21東京">PARADISE 大手町</a> 1時間 1,980円〜／<a href="#-スパホテル-舞浜ユーラシア️115千葉">舞浜ユーラシア</a> 平日 2,100円</td></tr>
+      <tr><td><strong>安く入りたい</strong><br><small>2,200円未満で入れる</small></td><td><a href="#-黄金湯-新宿️77東京">黄金湯 新宿</a> <strong>550円</strong>（サウナ別）／<a href="#-毎日サウナ東京-幕張店58千葉">毎日サウナ東京 幕張店</a> 平日60分 <strong>1,300円</strong>／<a href="#-サウナリゾートスパ-blueocean76神奈川">BlueOcean</a> 平日 1,750円（税別）／<a href="#-サウナメッツァ-大井町トラックス328東京">大井町トラックス</a> 平日 1,800円〜／<a href="#-paradise-大手町21東京">PARADISE 大手町</a> <strong>平日朝1,408円</strong>（通常は2,189円）／<a href="#-スパホテル-舞浜ユーラシア️115千葉">舞浜ユーラシア</a> 平日 2,100円</td></tr>
       <tr><td><strong>深夜・早朝に入りたい</strong></td><td><strong>24時間営業は3施設。</strong><a href="#-サウナリゾートスパ-blueocean76神奈川">BlueOcean</a>（ナイト 24:00〜翌9:00 は平日3,980円）／<a href="#-毎日サウナ東京-幕張店58千葉">毎日サウナ東京 幕張店</a>（6:00〜9:00は清掃）／<a href="#-水宴--suien-7月中旬東京">水宴 -suien-</a>。ほかに<a href="#-サウナメッツァ-大井町トラックス328東京">大井町トラックス</a>が6:00〜翌2:00・年中無休</td></tr>
       <tr><td><strong>泊まりたい</strong></td><td><a href="#-海賊サウナカプセルホテル811神奈川">海賊サウナ＆カプセルホテル</a>（小田原駅前）／<a href="#-スパホテル-舞浜ユーラシア️115千葉">スパ＆ホテル 舞浜ユーラシア</a>（<strong>宿泊しなくてもスパだけ使える</strong>）</td></tr>
       <tr class="recommended"><td><strong>女性が入れる</strong></td><td><a href="#女性が入れるサウナ">8軒</a>。舞浜ユーラシア／高輪SAUNAS／大井町トラックス／SAUNA汽汽／黄金湯 新宿／門仲SAUNAS LO／BlueOcean／SPA EAS</td></tr>
@@ -293,14 +293,20 @@ references: ["https://www.newoman.jp/takanawa/floorguide/detail/?scd=003014", "h
 <div class="cmp-table-wrap">
   <table class="cmp-table spec-table">
     <tbody>
-      <tr><th>最寄</th><td>大手町 徒歩3分（B2a出口から直結）</td></tr>
-      <tr><th>料金</th><td><strong>1,980円〜</strong>（1時間・グランドオープン価格）。通常価格の記載は1時間2,178円・3時間3,278円</td></tr>
-      <tr><th>男女</th><td><strong>男性専用</strong>（26階の水着ゾーンも含めスパ全体。<strong>レディースデーは検討中</strong>）</td></tr>
+      <tr><th>最寄</th><td>大手町 徒歩3分（B2a出口から直結）。大成大手町ビル 25〜26階</td></tr>
+      <tr><th>料金</th><td>1時間まで <strong>2,189円</strong>（税込）／3時間まで3,278円／延長1時間ごと1,100円。<br><strong>平日7:00〜10:00 は1,408円</strong>（最終受付9:00）</td></tr>
+      <tr><th>男女</th><td><strong>男性専用</strong>（スパ全体。<strong>公式にレディースデーの記載は無い</strong>）。GYM と WORK は男女とも使える</td></tr>
+      <tr><th>営業時間</th><td>最終入場 22:00。<strong>26階のスパ浴室エリアのみ 9:00〜22:00</strong></td></tr>
+      <tr><th>サウナ</th><td><strong>3室</strong>（中温室＝セルフロウリュ／大浴室／ミスト）。<strong>プールをそのまま使った巨大水風呂</strong>・展望ジャグジー・外気浴スペース</td></tr>
+      <tr><th>注意</th><td>ドロップインは予約不要（混雑時は入場制限）。<strong>18歳未満は全エリア利用不可</strong></td></tr>
+      <tr><th>公式</th><td><a href="https://paradise-otemachi.com/facility_spa.html" target="_blank" rel="noopener">PARADISE SPA 公式</a></td></tr>
     </tbody>
   </table>
 </div>
 
 スパ・ジム・コワーキングを備える複合型。**働く・鍛える・ととのうが1か所で完結する**のが売り。
+
+**この17施設で唯一、朝だけ別料金を出している。** 平日7:00〜10:00 の1,408円は、通常の2,189円に対して**781円安い**。大手町という立地から、**出社前に入る使い方**を前提にした値付けになっている。
 
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">PARADISE大手町は巨大プールでととのえる新感覚のサウナ体験が魅力<br><br>オフィス街のビルの高層フロア内にある施設で、都会で働くサラリーマンの隠れ家的な印象がある<br><br>施設内にはプロジェクションマッピングの映像や沢山の観葉植物があり、高級感のある香りなどまさに天国のような雰囲気を表現している</p>&mdash; エイジ｜サウナ廃人 (@Saunahaijin) <a href="https://twitter.com/Saunahaijin/status/2084418247773069347">2026年8月3日</a></blockquote>
 
@@ -681,7 +687,7 @@ references: ["https://www.newoman.jp/takanawa/floorguide/detail/?scd=003014", "h
       <tr><td><a href="https://prtimes.jp/main/html/rd/p/000000017.000070556.html" target="_blank" rel="noopener">門仲SAUNAS LO</a></td><td>「今夏」と 8/31</td><td>告知時点では月まで、直前になって<strong>日付が確定</strong>した</td></tr>
       <tr><td><a href="https://sauna-kohaku.com/" target="_blank" rel="noopener">sauna KOHAKU</a></td><td>6/26 と 7/10</td><td><strong>プレオープンとグランドオープンの違い。</strong>公式は 6/26〜7/5 をプレオープン、7/10 をグランドオープンとしている</td></tr>
       <tr><td><a href="https://www.1010.or.jp/map/item/item-cnt-331" target="_blank" rel="noopener">黄金湯 新宿</a></td><td>5月末 と 7月上旬</td><td><strong>告知後に開業が後ろへずれた。</strong>2026年1月の設計者発表では「5月末グランドオープン」、運営会社の後のリリースでは「7月上旬」になっている</td></tr>
-      <tr><td><a href="https://onsen.nifty.com/ootemachi-onsen/onsen024731/" target="_blank" rel="noopener">PARADISE 大手町</a></td><td>料金が1,980円と2,178円</td><td><strong>グランドオープン価格と通常価格。</strong>期間限定の値付けが記事によって残っている</td></tr>
+      <tr class="recommended"><td><a href="https://paradise-otemachi.com/facility_spa.html" target="_blank" rel="noopener">PARADISE 大手町</a></td><td>料金が1,980円と2,189円</td><td><strong>税抜と税込の違いだった。</strong>公式は「1,980円／税込2,189円」と併記していて、<strong>片方だけを引いた記事どうしが食い違って見えていた</strong>。期間限定の値引きではない</td></tr>
     </tbody>
   </table>
 </div>
@@ -743,7 +749,7 @@ references: ["https://www.newoman.jp/takanawa/floorguide/detail/?scd=003014", "h
     <tbody>
       <tr><td>料金</td><td><strong>17施設中7つしか確認できていない。</strong>残り10は公式に料金表が出ていないか、会員制・予約制で公開されていない。<strong>推測値は載せていない</strong></td></tr>
       <tr><td>営業時間・定休日</td><td>荒木町Logout・SHIAGARU SAUNA・SAUNA汽汽・サウナ蒸薪・おかえりサウナ板橋・sauna KOHAKU・水宴・海賊サウナ・SPA EASは、開業の事実と概要までしか裏が取れていない</td></tr>
-      <tr><td>PARADISE 大手町のレディースデー</td><td>スパが<strong>男性専用であることは確定した</strong>（公式ドメインが <code>paradise-otemachi.com</code> だと分かり、複数の媒体で一致）。ただし<strong>レディースデーが実際に始まったかは未確認。</strong>「検討中」「開催予定」までしか出ていない</td></tr>
+      <tr><td>PARADISE 大手町のレディースデー</td><td><strong>公式サイトには記載が無い。</strong>スパが男性専用であることは公式で確定したが、レディースデーに触れているのは一部の媒体だけで、<strong>公式のよくある質問は「SPAは現在、男性専用です」としか答えていない</strong></td></tr>
       <tr><td>この17施設で首都圏の全部か</td><td><strong>言い切れない。</strong>実際、最初は15施設として出したあとに、別のまとめを当たって<strong>舞浜ユーラシアとSAUNA汽汽の2軒を足している。</strong>個室サウナのように小規模なものは、まだ落ちている可能性がある</td></tr>
       <tr><td>SAUNA汽汽の料金</td><td><strong>金額そのものが公式に出ていない。</strong>「1〜2名は同一料金」「3名は+3,000円」「レンタル水着+600円」という条件だけが公開されている</td></tr>
       <tr><td>首都圏以外</td><td>この記事の対象外。大阪・愛知・福岡・福島などにも2026年の新店がある（<a href="https://www.timeout.jp/tokyo/ja/things-to-do/new-sauna-bathing-facilities-opening-in-2026" target="_blank" rel="noopener">2026年オープンの注目サウナ・温浴施設</a>ほか）</td></tr>
