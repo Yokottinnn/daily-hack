@@ -956,6 +956,12 @@ TOKYO-BAYの**2.1倍**。この表の最下位（愛知東郷 46.0万円）と�
 
 面積13位・店舗数6位。平塚駅から徒歩12分。**平日の駐車終日無料は「当面の間」の措置**で、恒久ではない。
 
+**徒歩12分がどんな道か。** 駅からの道案内がある。
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/4LGQpoXXvFI" title="【道案内動画】平塚駅からららぽーと湘南平塚（備忘録チャンネル）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
 ### ⑭ ららぽーと名古屋みなとアクルス（2018年9月・愛知）
 
 <div class="cmp-table-wrap">
@@ -972,6 +978,12 @@ TOKYO-BAYの**2.1倍**。この表の最下位（愛知東郷 46.0万円）と�
 </div>
 
 港区役所 徒歩2分。面積14位・店舗数10位。駐車は**平日4時間／土日祝2時間**と、曜日で倍違う。
+
+**2025年5月、館内に「うんこミュージアム」が入った。** 集客の作り方が他と違う施設。
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/cQKFgd_K3jQ" title="名古屋に人気施設「うんこミュージアム」誕生へ！ 5月4日(日)オープン ららぽーと名古屋みなとアクルス（CBCニュース）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
 
 ### ⑮ ららぽーと沼津（2019年10月・静岡）
 
@@ -990,6 +1002,14 @@ TOKYO-BAYの**2.1倍**。この表の最下位（愛知東郷 46.0万円）と�
 
 **売上9位・350億。** 沼津駅からバスという立地で、面積は8位と上位。駐車場は終日無料。
 
+**この施設は、街の側から語られることが多い。** 開業から半年後に、<a href="#売上効率ランキング1あたりいくら稼いでいるか">周辺の人口と商店街がどうなったか</a>を追った動画がある。
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/bmV8IsBoFa4" title="ららぽーと沼津のオープン(2019年10月4日)から半年、人口・商店街の影響は？（静岡発！地方再生論）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+**沼津の1㎡あたり売上が54.7万円にとどまるのは、施設の出来ではなく商圏の規模。** この動画はその商圏の側を映している。
+
 ### ⑯ ららぽーと愛知東郷（2020年9月・愛知）
 
 <div class="cmp-table-wrap">
@@ -1006,6 +1026,12 @@ TOKYO-BAYの**2.1倍**。この表の最下位（愛知東郷 46.0万円）と�
 </div>
 
 **鉄道の徒歩圏外**（日進からバス）。それでも売上10位・290億を出している。面積9位。駐車終日無料。
+
+**駅から歩けない施設が、どんな中身で290億を出しているか。**
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/5B6if7z4rS0" title="【東郷町】 ららぽーと愛知東郷を歩く LaLaport / Shopping Mall Walking Tour 2025年3月度" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
 
 ### ⑰ ららぽーと福岡（2022年4月・福岡）
 
@@ -1067,6 +1093,14 @@ TOKYO-BAYの**2.1倍**。この表の最下位（愛知東郷 46.0万円）と�
 </div>
 
 **三井アウトレットパークと一体の複合施設。** ららぽーと側153店に MOP の98店が加わる。売上450億は<strong>MOP との合算値</strong>で、他施設と単純には比べられない。
+
+**なぜここに建ったのか。** 門真はパナソニックの企業城下町で、開業時の報道はそこを軸にしていた。
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/rZlrsDxcPw0" title="門真市に「ららぽーと」と「三井アウトレットパーク」がオープン　"大阪の台所"「黒門市場」公認売り場で海鮮を　夏にはコストコも　「パナ」の街に賑わいはよみがえるのか【関西テレビ・newsランナー】" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+**アウトレットとの合算で450億**という数字は、こういう再生の文脈の上に乗っている。いまの館内はこちら。
 
 <div class="yt-embed">
 <iframe src="https://www.youtube-nocookie.com/embed/lFaoydmQKCw" title="ららぽーと門真 三井アウトレットパーク 大阪門真をさんぽしてみた 2026年2月（日本さんぽ）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
