@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T16:46:32Z",
+  "generated_at": "2026-08-30T17:17:43Z",
   "host": "NaokinoMBP-2",
   "job_count": 10,
   "jobs": [
@@ -16,7 +16,8 @@
   ],
   "reconnect": "既に起動している",
   "tasks": [
-      {"task": "t014-tab-guard-evidence.sh", "rc": 0, "out": "3件は生存。tab-guard の条件を報告に出した / tab-guard-evidence.md"}
+      {"task": "t015-halt-lock-and-proof.sh", "rc": 0, "out": "⚠️ **タブがまだ戻っていない。ロックは外さないこと** / halt-lock-and-proof.md"},
+      {"task": "t016-poller-stall-and-lock.sh", "rc": 0, "out": "🚨 **ロックの取り残しでポーラーが素通りしていた** / poller-stall-and-lock.md"}
   ],
   "auth": {
     "ok": true,

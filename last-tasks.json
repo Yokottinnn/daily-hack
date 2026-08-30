@@ -1,4 +1,1 @@
-[
-      {"task": "t015-halt-lock-and-proof.sh", "rc": 0, "out": "⚠️ **タブがまだ戻っていない。ロックは外さないこと** / halt-lock-and-proof.md"},
-      {"task": "t016-poller-stall-and-lock.sh", "rc": 0, "out": "🚨 **ロックの取り残しでポーラーが素通りしていた** / poller-stall-and-lock.md"}
-  ]
+[]
