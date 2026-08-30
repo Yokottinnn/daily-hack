@@ -754,6 +754,14 @@ TOKYO-BAYの**2.1倍**。この表の最下位（愛知東郷 46.0万円）と�
 
 **駐車料金が全20施設でもっとも高い**（超過30分400円）。売上5位・520億で、いま<a href="#ららぽーと豊洲キッズパークはもう完成済み休憩席は4倍に">20周年リニューアルの最中</a>。
 
+**この施設は地元の自治体も紹介している。** 江東区の公式チャンネルが館内を歩いた回がこれ。
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/LfroADW7DEQ" title="オジさんぽ～アーバンドック ららぽーと豊洲編～（江東区公式チャンネル）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+運河沿いのシーサイドデッキと**キッザニア東京**を抱えていて、「買い物だけの施設」ではない。<a href="#売上効率ランキング1あたりいくら稼いでいるか">1㎡あたり77.6万円で効率2位</a>という数字の中身は、このあたりにある。
+
 ### ④ ららぽーと柏の葉（2006年11月・千葉）
 
 <div class="cmp-table-wrap">
@@ -787,6 +795,14 @@ TOKYO-BAYの**2.1倍**。この表の最下位（愛知東郷 46.0万円）と�
 </div>
 
 **面積2位なのに売上は7位。** 実力を出しきれていない施設で、いま<a href="#ららぽーと横浜売上110億の当事者3か年で立て直す">3か年のリニューアル中</a>。工事の影響で売上が110億落ちた。
+
+**駅から歩く距離が、この施設のいちばんの弱点。** 鴨居駅から徒歩7分がどんな道のりかは、映像で見たほうが早い。
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/sIW4DfMelL8" title="【アクセス】「ららぽーと横浜」へのアクセス（JR鴨居駅から）（yu uchi）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+面積2位・店舗数4位という規模を持ちながら<a href="#売上効率ランキング1あたりいくら稼いでいるか">1㎡あたり49.5万円で効率9位</a>にとどまるのは、工事中であることに加えて、**この立地も効いている**とアタシは見てる。
 
 ### ⑥ ららぽーと磐田（2009年6月・静岡）
 
