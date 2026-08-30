@@ -1,3 +1,3 @@
 [
-      {"task": "t013-why-jobs-unloaded.sh", "rc": 0, "out": "原因調査を出した（変更なし）/ why-jobs-unloaded.md"}
+      {"task": "t014-tab-guard-evidence.sh", "rc": 0, "out": "3件は生存。tab-guard の条件を報告に出した / tab-guard-evidence.md"}
   ]
