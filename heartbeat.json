@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T17:17:43Z",
+  "generated_at": "2026-08-30T17:48:55Z",
   "host": "NaokinoMBP-2",
   "job_count": 10,
   "jobs": [
@@ -15,10 +15,7 @@
     "com.dailyhack.weekly-blog-report"
   ],
   "reconnect": "既に起動している",
-  "tasks": [
-      {"task": "t015-halt-lock-and-proof.sh", "rc": 0, "out": "⚠️ **タブがまだ戻っていない。ロックは外さないこと** / halt-lock-and-proof.md"},
-      {"task": "t016-poller-stall-and-lock.sh", "rc": 0, "out": "🚨 **ロックの取り残しでポーラーが素通りしていた** / poller-stall-and-lock.md"}
-  ],
+  "tasks": [],
   "auth": {
     "ok": true,
     "expires_at": "2026-08-30T20:36:45Z",
