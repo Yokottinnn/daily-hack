@@ -1,6 +1,6 @@
 ---
 title: "ららぽーと売上ランキング 2026｜全20施設を決算資料で並べた（面積・店舗数つき）"
-description: "ららぽーとの売上ランキングを、三井不動産の決算資料に載った店舗別売上で全20施設ぶん並べた。面積ランキング・店舗数ランキングつき。ラゾーナ川崎が全国3位という事実、横浜が110億円減った理由、2026年からのリニューアルまで。"
+description: "ららぽーとの売上ランキングを、三井不動産の決算資料に載った店舗別売上で全20施設ぶん並べた。面積・店舗数ランキングつき。さらに売上を面積で割った売上効率ランキングも作った。売上2位のTOKYO-BAYは効率だと7位に落ちる。横浜が110億円減った理由まで。"
 publishDate: 2026-08-09
 category: ["roundups", "comparisons"]
 tags: ["ららぽーと", "三井ショッピングパーク", "三井不動産", "ショッピングモール", "売上ランキング", "リニューアル", "ラゾーナ川崎", "TOKYO-BAY", "2026年版"]
@@ -12,7 +12,7 @@ author: "hacker-ko"
 
 「ららぽーとって全部でいくつあるの？」「どこが一番デカいの？」——検索しても、出てくるのは店舗一覧のコピペか、行った感想ばかり。**数字で答えてる記事がない。**
 
-だからアタシが作った。**三井不動産が決算資料で公開している店舗別売上**を軸に、**ららぽーとの売上ランキングを全20施設ぶん**並べる。あわせて**面積ランキング・店舗数ランキング・地域別**も用意した。おまけに前年の資料と突き合わせて、**どこが伸びてどこが落ちたか**まで出した。この差分はどこにも載ってない。
+だからアタシが作った。**三井不動産が決算資料で公開している店舗別売上**を軸に、**ららぽーとの売上ランキングを全20施設ぶん**並べる。あわせて**面積ランキング・店舗数ランキング・地域別**も用意した。さらに**売上を面積で割った売上効率ランキング**を作った。**この順位はどこにも出ていない**。おまけに前年の資料と突き合わせて、**どこが伸びてどこが落ちたか**まで出した。この差分はどこにも載ってない。
 
 <div class="hakkako-says">
   <div class="hakkako-mascot"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
@@ -490,6 +490,86 @@ North Gate 3階のフードコートは約1,400席。ららぽーとTOKYO-BAY全
 「たくさん見て回りたい」なら店舗数、「1店ずつゆっくり」なら1店あたりが広いほう。**広さと店数は別の指標**として見たほうがいい。
 
 ※門真は面積がMOP大阪門真との合計値、店舗数はMOP分を除いた値のため、1店あたりの比較からは外している。
+
+## 売上効率ランキング｜1㎡あたりいくら稼いでいるか
+
+**売上ランキングは「大きい施設が上に来る」ランキングでもある。** 面積が広ければ、当然たくさん売れる。
+そこで**売上を面積で割ってみた。** 決算資料の売上と面積は同じ表に載っているので、割り算するだけ。
+**この順位はどこにも出ていない。**
+
+<div class="cmp-table-wrap">
+  <table class="cmp-table wrap-table">
+    <thead><tr><th>順</th><th>施設</th><th>1㎡あたり<br>売上</th><th>1店舗あたり<br>売上</th><th>売上<br>順位</th><th>読みどころ</th></tr></thead>
+    <tbody>
+      <tr class="recommended"><td>1</td><td><a href="https://mitsui-shopping-park.com/lazona-kawasaki/" target="_blank" rel="noopener">ラゾーナ川崎プラザ</a></td><td><strong>125.3万円</strong></td><td>3.00億円</td><td>1位</td><td>売上1位でもあり、<strong>効率でも断トツ</strong></td></tr>
+      <tr class="recommended"><td>2</td><td><a href="https://mitsui-shopping-park.com/lalaport/toyosu/" target="_blank" rel="noopener">ららぽーと豊洲</a></td><td><strong>77.6万円</strong></td><td>2.48億円</td><td>5位</td><td><strong>売上は5位</strong>。面積6位・店舗数も少ないのに稼いでいる</td></tr>
+      <tr><td>3</td><td><a href="https://mitsui-shopping-park.com/lalaport/fujimi/" target="_blank" rel="noopener">ららぽーと富士見</a></td><td><strong>70.0万円</strong></td><td>1.93億円</td><td>4位</td><td>売上4位。面積4位なので順当</td></tr>
+      <tr><td>4</td><td><a href="https://mitsui-shopping-park.com/lalaport/kadoma/" target="_blank" rel="noopener">ららぽーと門真</a></td><td><strong>68.2万円</strong></td><td>1.80億円</td><td>8位</td><td><strong>三井アウトレットパーク大阪門真との合算値</strong>。面積の扱いが他と違う</td></tr>
+      <tr><td>5</td><td><a href="https://mitsui-shopping-park.com/lalaport/fukuoka/" target="_blank" rel="noopener">ららぽーと福岡</a></td><td><strong>65.8万円</strong></td><td>2.18億円</td><td>6位</td><td>売上6位。2022年開業でまだ新しい</td></tr>
+      <tr><td>6</td><td><a href="https://mitsui-shopping-park.com/lalaport/expocity/" target="_blank" rel="noopener">ららぽーとEXPOCITY</a></td><td><strong>64.8万円</strong></td><td>1.84億円</td><td>3位</td><td>売上3位。面積3位なので順当</td></tr>
+      <tr class="recommended"><td>7</td><td><a href="https://mitsui-shopping-park.com/lalaport/tokyo-bay/" target="_blank" rel="noopener">ららぽーとTOKYO-BAY</a></td><td><strong>59.4万円</strong></td><td>1.88億円</td><td>2位</td><td><strong>売上2位なのに効率は7位。</strong>面積1位（133,000㎡）だから売上が大きい</td></tr>
+      <tr><td>8</td><td><a href="https://mitsui-shopping-park.com/lalaport/numazu/" target="_blank" rel="noopener">ららぽーと沼津</a></td><td><strong>54.7万円</strong></td><td>1.67億円</td><td>9位</td><td>売上9位。面積8位</td></tr>
+      <tr><td>9</td><td><a href="https://mitsui-shopping-park.com/lalaport/yokohama/" target="_blank" rel="noopener">ららぽーと横浜</a></td><td><strong>49.5万円</strong></td><td>1.64億円</td><td>7位</td><td><strong>3か年リニューアルの工事中。</strong>売上−110億が効いている</td></tr>
+      <tr><td>10</td><td><a href="https://mitsui-shopping-park.com/lalaport/togo/" target="_blank" rel="noopener">ららぽーと愛知東郷</a></td><td><strong>46.0万円</strong></td><td>1.45億円</td><td>10位</td><td>売上10位・面積9位。この表でいちばん低い</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<p class="source-note">売上・面積・店舗数はいずれも<a href="https://www.mitsuifudosan.co.jp/corporate/ir/presentation/pdf/FR_BH2608j.pdf" target="_blank" rel="noopener">三井不動産「2027年3月期 第1四半期 決算説明資料」82ページ</a>の同じ表から取り、<strong>アタシが割り算したもの</strong>。<strong>面積は「約」の値なので、この数字も概算</strong>。売上は10億円単位の開示、店舗数も概数なので、1〜2位の差のような僅差は意味を持たない。<strong>門真は三井アウトレットパーク大阪門真との合算値</strong>なので、他と同じ条件では比べられない。</p>
+
+### 売上2位のTOKYO-BAYは、効率では7位
+
+**この表でいちばん効くのがここ。** ららぽーとTOKYO-BAYは売上790億円で堂々の2位だが、
+**1㎡あたりに直すと59.4万円で7位まで落ちる。** 面積が133,000㎡と2位の1.4倍あるので、
+売上が大きいのは当たり前ということ。
+
+逆に**ららぽーと豊洲は売上5位なのに、効率では2位（77.6万円）。**
+面積は67,000㎡で6位、店舗数も約210と少ないほうなのに、TOKYO-BAYの**1.3倍**稼いでいる。
+1店舗あたりで見ても**2.48億円で2位**。
+
+**そしてラゾーナ川崎プラザが異常。** 1㎡あたり**125.3万円**は、2位の豊洲の**1.6倍**、
+TOKYO-BAYの**2.1倍**。この表の最下位（愛知東郷 46.0万円）とは**2.7倍**の開きがある。
+面積は79,000㎡で豊洲より少し広いだけなのに、売上は**倍近い990億円**。
+<a href="#前年と比べたら明暗">全国のSCで3位</a>という数字は、こういう中身をしている。
+
+<div class="cmp-table-wrap">
+  <table class="cmp-table">
+    <thead><tr><th>施設</th><th>売上順位</th><th>効率順位</th><th>差</th></tr></thead>
+    <tbody>
+      <tr class="recommended"><td><a href="https://mitsui-shopping-park.com/lalaport/kadoma/" target="_blank" rel="noopener">ららぽーと門真</a></td><td>8位</td><td>4位</td><td><strong>＋4</strong></td></tr>
+      <tr class="recommended"><td><a href="https://mitsui-shopping-park.com/lalaport/toyosu/" target="_blank" rel="noopener">ららぽーと豊洲</a></td><td>5位</td><td>2位</td><td><strong>＋3</strong></td></tr>
+      <tr><td><a href="https://mitsui-shopping-park.com/lalaport/fujimi/" target="_blank" rel="noopener">ららぽーと富士見</a></td><td>4位</td><td>3位</td><td><strong>＋1</strong></td></tr>
+      <tr><td><a href="https://mitsui-shopping-park.com/lalaport/fukuoka/" target="_blank" rel="noopener">ららぽーと福岡</a></td><td>6位</td><td>5位</td><td><strong>＋1</strong></td></tr>
+      <tr><td><a href="https://mitsui-shopping-park.com/lalaport/numazu/" target="_blank" rel="noopener">ららぽーと沼津</a></td><td>9位</td><td>8位</td><td><strong>＋1</strong></td></tr>
+      <tr><td><a href="https://mitsui-shopping-park.com/lazona-kawasaki/" target="_blank" rel="noopener">ラゾーナ川崎プラザ</a></td><td>1位</td><td>1位</td><td>±0</td></tr>
+      <tr><td><a href="https://mitsui-shopping-park.com/lalaport/togo/" target="_blank" rel="noopener">ららぽーと愛知東郷</a></td><td>10位</td><td>10位</td><td>±0</td></tr>
+      <tr><td><a href="https://mitsui-shopping-park.com/lalaport/yokohama/" target="_blank" rel="noopener">ららぽーと横浜</a></td><td>7位</td><td>9位</td><td><strong>−2</strong></td></tr>
+      <tr class="recommended"><td><a href="https://mitsui-shopping-park.com/lalaport/expocity/" target="_blank" rel="noopener">ららぽーとEXPOCITY</a></td><td>3位</td><td>6位</td><td><strong>−3</strong></td></tr>
+      <tr class="recommended"><td><a href="https://mitsui-shopping-park.com/lalaport/tokyo-bay/" target="_blank" rel="noopener">ららぽーとTOKYO-BAY</a></td><td>2位</td><td>7位</td><td><strong>−5</strong></td></tr>
+    </tbody>
+  </table>
+</div>
+
+**順位が3つ以上動いたのは4施設。** 上がったのは門真（＋4）と豊洲（＋3）、
+落ちたのはTOKYO-BAY（−5）とEXPOCITY（−3）。**どれも「面積が大きいかどうか」で説明がつく。**
+
+### 効率が低いところには、たいてい理由がある
+
+下位3つには説明がつく。
+
+<div class="cmp-table-wrap">
+  <table class="cmp-table wrap-table">
+    <thead><tr><th>施設</th><th>1㎡あたり</th><th>低い理由</th></tr></thead>
+    <tbody>
+      <tr><td><a href="#-ららぽーと沼津2019年10月静岡">ららぽーと沼津</a></td><td>54.7万円</td><td>周辺人口が首都圏・関西の施設と比べて少ない。<strong>商圏の規模がそのまま出る</strong></td></tr>
+      <tr class="recommended"><td><a href="#-ららぽーと横浜2007年3月神奈川">ららぽーと横浜</a></td><td>49.5万円</td><td><strong>2026年春から3か年の大規模リニューアル中。</strong>売上が110億円減っている最中の数字で、<a href="#横浜の110億は工事中だから">工事が終われば戻る</a></td></tr>
+      <tr><td><a href="#-ららぽーと愛知東郷2020年9月愛知">ららぽーと愛知東郷</a></td><td>46.0万円</td><td>2020年9月開業。<strong>コロナ禍のさなかの立ち上がり</strong>で、商圏も郊外型</td></tr>
+    </tbody>
+  </table>
+</div>
+
+**「効率が低い＝ダメな施設」ではない。** 横浜は工事中の数字だし、沼津と愛知東郷は
+そもそも商圏の人口が違う。**同じ土俵で比べられるのは、都市型どうし・郊外型どうし**ということ。
 
 ## 地域で見ると、半分近くが関東に集まっている
 
@@ -1250,7 +1330,7 @@ North Gate 3階のフードコートは約1,400席。ららぽーとTOKYO-BAY全
 
 <p class="source-note">日程はいずれも各年の実績。2026年のブラックフライデー日程は本記事作成時点で<strong>未発表</strong>のため、例年どおりとは限らない。</p>
 
-## よくある質問｜何店舗・一番大きい・セールはいつ
+## よくある質問｜何店舗・一番大きい・一番効率がいい・セールはいつ
 
 **検索でよく聞かれることに、この記事の数字で答える。** 根拠の節へリンクを張っているので、詳しくはそちらへ。
 
@@ -1260,6 +1340,7 @@ North Gate 3階のフードコートは約1,400席。ららぽーとTOKYO-BAY全
     <tbody>
       <tr class="recommended"><td><strong>ららぽーとは全部で何店舗ある？</strong></td><td><strong>国内20施設</strong>（2026年8月時点）。<a href="#全国マップららぽーとがあるのは9都府県だけ">9都府県にしかない</a>。<strong>2026年の国内新規開業はゼロ</strong>で、既存施設のリニューアルの年になっている</td></tr>
       <tr class="recommended"><td><strong>ららぽーとで一番売上が高いのはどこ？</strong></td><td><a href="#店舗別売上ランキング三井不動産の決算資料そのまま">ラゾーナ川崎プラザの<strong>990億円</strong></a>。ただしこれは「ららぽーと」ブランドではない。<strong>ららぽーとの最大手はTOKYO-BAYの790億円</strong>で、200億の差がある</td></tr>
+      <tr class="recommended"><td><strong>一番効率よく稼いでいるのはどこ？</strong></td><td><a href="#売上効率ランキング1あたりいくら稼いでいるか">ラゾーナ川崎プラザの<strong>1㎡あたり125.3万円</strong></a>。2位の豊洲（77.6万円）の<strong>1.6倍</strong>で、この表の最下位とは<strong>2.7倍</strong>の開きがある。<strong>売上2位のTOKYO-BAYは、効率では7位まで落ちる</strong></td></tr>
       <tr class="recommended"><td><strong>ららぽーとで一番大きいのはどこ？</strong></td><td><a href="#大きさランキング面積で全20施設を並べる">ららぽーとTOKYO-BAY の <strong>約133,000㎡</strong></a>。2位の横浜（約93,000㎡）とは<strong>4万㎡の差</strong>があり、2位以下を大きく離している</td></tr>
       <tr><td><strong>店舗数が一番多いのは？</strong></td><td><a href="#店舗数ランキング広い店が多いではない">TOKYO-BAY の <strong>約390〜420店</strong></a>。ただし<strong>面積18位の海老名が店舗数では5位</strong>（約260店）で、広さと店数は一致しない</td></tr>
       <tr><td><strong>ららぽーとのセールはいつ？</strong></td><td><a href="#セールは年2回が本番">年2回が本番</a>。2026年の夏は<strong>7/3〜7/12</strong>（関西5施設は7/20まで）、初売りは<strong>1/1〜1/12</strong>。ほかに11月中旬〜下旬のブラックフライデーがある</td></tr>
