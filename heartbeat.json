@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T11:40:33Z",
+  "generated_at": "2026-08-30T12:11:47Z",
   "host": "NaokinoMBP-2",
   "job_count": 20,
   "jobs": [
@@ -26,14 +26,16 @@
   ],
   "reconnect": "既に起動している",
   "tasks": [
-      {"task": "044-upload-sauna-x-images.sh", "rc": 0, "out": "画像 5/4 枚を草案スレッドへ貼った / upload-sauna-x.md"},
-      {"task": "050-sauna-prices-and-lalaport-x.sh", "rc": 0, "out": "利用料金・アメニティ ※ 営業時間はイベント等により変更となる場合があります。最新情報は公式SNSをご確認ください。 営業日。 休館日、特別営業時間、イベント開催日をひと目で。 ※ "},
-      {"task": "051-morning-prices.sh", "rc": 0, "out": "※「○」→原材料に含まれます｡　｢△｣→原材料生産工場で、当該原材料を含む製品を製造しています。 ※調理の過程上、アレルギー物質の二次混入をすべて防ぐことはできません。ご理解の上、ご利用をお願いいたし�"}
+      {"task": "050-fetch-onsen-mark.sh", "rc": 1, "out": ""},
+      {"task": "051-repaste-sauna-cover.sh", "rc": 0, "out": "1 枚目を貼り直した / repaste-cover.md"},
+      {"task": "052-inspect-follow-supply.sh", "rc": 0, "out": "供給の詰まりを調べた / follow-supply.md 172 行"},
+      {"task": "052-morning-photos.sh", "rc": 0, "out": "ソーセージエッグW定食 玉 remote:      https://github.com/Yokottinnn/daily-hack/pull/new/claude/morning-material3         remote:  reports/morning-photos.md / branch claude/morning-material3"},
+      {"task": "053-morning-tweets.sh", "rc": 0, "out": "handle : @gachikun0423 date   : 2026-04-07T01:27:13.000Z text   : おはようございます！ 今日はコメダ珈琲"}
   ],
   "auth": {
-    "ok": false,
-    "expires_at": "2026-08-27T20:50:24Z",
-    "detail": "トークンの有効期限を過ぎている"
+    "ok": true,
+    "expires_at": "2026-08-30T19:57:23Z",
+    "detail": "有効期限内"
   },
   "activity": {
     "date": "2026-08-30",
