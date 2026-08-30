@@ -1,18 +1,21 @@
 {
-  "generated_at": "2026-08-30T15:14:28Z",
+  "generated_at": "2026-08-30T15:44:43Z",
   "host": "NaokinoMBP-2",
-  "job_count": 6,
+  "job_count": 7,
   "jobs": [
     "ai.openclaw.tab-guard",
     "com.dailyhack.openclaw.heartbeat",
     "com.dailyhack.openclaw.listener",
     "com.dailyhack.ops-heartbeat",
+    "com.dailyhack.ops-poller",
     "com.dailyhack.rc-keeper",
     "com.dailyhack.weekly-blog-report"
   ],
   "reconnect": "既に起動している",
   "tasks": [
-      {"task": "057-lalaport-toyosu-yokohama.sh", "rc": 0, "out": "    - title  : ららぽーと横浜 - 地域情報動画サイト 街ログ     - author : 【公式】えんてれ - `P7Vwdj0j53I` **⑤ 横浜**（メモ: 日本初の Apple Premium Partner C smart ららぽーと横浜店）     - title  : 日本初のApple Premium Partner「C smartららぽー�"}
+      {"task": "058-morning-videos.sh", "rc": 0, "out": "    - title  : 【コメダ珈琲店】念願のモーニングを食べに行ってみたら最高だった     - author : 北陽チャンネル - `FAJmAo2CrnY` **⑧ すき家**（メモ: 牛まぜのっけを限界まで美味しくする）     - title  : 【すき家】朝からこれは幸せ�"},
+      {"task": "059-morning-tweets2.sh", "rc": 0, "out": "### `1903804148522660112` — ⑧ すき家（メモ: まぜのっけ朝食 290円（2025年3月時点））  - `https://cdn.syndication.twimg.com/tweet-result` 本文が空だった - `https://api.fxtwitter.com/i/status/1903804148522660112` 失敗（HTTPError） **取得できなかった。この�"},
+      {"task": "t008-install-poller.sh", "rc": 0, "out": "**1 分ポーラーを入れた** / install-poller.md"}
   ],
   "auth": {
     "ok": true,
