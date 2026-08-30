@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T04:29:09Z",
+  "generated_at": "2026-08-30T04:59:15Z",
   "host": "NaokinoMBP-2",
   "job_count": 20,
   "jobs": [
@@ -25,9 +25,7 @@
     "com.dailyhack.weekly-blog-report"
   ],
   "reconnect": "既に起動している",
-  "tasks": [
-      {"task": "042-ops-status.sh", "rc": 0, "out": "稼働状況を出した / ops-status.md 180 行"}
-  ],
+  "tasks": [],
   "auth": {
     "ok": false,
     "expires_at": "2026-08-27T20:50:24Z",
