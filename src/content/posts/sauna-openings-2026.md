@@ -47,7 +47,7 @@ references: ["https://www.newoman.jp/takanawa/floorguide/detail/?scd=003014", "h
   <a class="event-pick" href="#料金" style="--pick-img:url('/images/sauna-openings-2026/photos/tokyo.jpg')">
     <span class="pick-date">料金</span>
     <h4>550円〜3,700円</h4>
-    <p>裏の取れた11施設で<strong>6.7倍</strong>の開き。同じ「サウナ代」として比べても意味がない。</p>
+    <p>裏の取れた13施設で<strong>6.7倍</strong>の開き。同じ「サウナ代」として比べても意味がない。</p>
     <span class="pick-go">詳しく見る →</span>
   </a>
   <a class="event-pick" href="#地域" style="--pick-img:url('/images/sauna-openings-2026/photos/yokohama.jpg')">
@@ -68,7 +68,7 @@ references: ["https://www.newoman.jp/takanawa/floorguide/detail/?scd=003014", "h
       <tr class="recommended"><td>男女</td><td><strong>男性専用 9／男女 8</strong></td><td><a href="#女性が入れるサウナ">PARADISE 大手町が男性専用と確定して 9 になった</a></td></tr>
       <tr><td>内訳</td><td><strong>東京 10／17（59%）</strong></td><td><a href="#地域">神奈川3・千葉3・埼玉1</a></td></tr>
       <tr><td>最多の月</td><td><strong>7月（5施設）</strong></td><td><a href="#月別">2月・5月が各3で続く。<strong>6月だけがゼロ</strong></a></td></tr>
-      <tr><td>料金の幅</td><td><strong>550円〜3,700円</strong></td><td><a href="#料金">裏の取れた11施設で<strong>6.7倍</strong></a></td></tr>
+      <tr><td>料金の幅</td><td><strong>550円〜3,700円</strong></td><td><a href="#料金">裏の取れた13施設で<strong>6.7倍</strong></a></td></tr>
       <tr><td>1軒ずつ</td><td><strong>17施設 全部</strong></td><td><a href="#17施設を1軒ずつ">X の実投稿と YouTube の動画つきで解説</a></td></tr>
     </tbody>
   </table>
@@ -117,7 +117,7 @@ references: ["https://www.newoman.jp/takanawa/floorguide/detail/?scd=003014", "h
 
 <div class="section-with-mascot">
   <div class="mascot-wrap"><img src="/images/expr-06-shock.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="料金">料金｜裏の取れた11施設で6.7倍の開き</h2>
+  <h2 id="料金">料金｜裏の取れた13施設で6.7倍の開き</h2>
 </div>
 
 <figure class="rn-figure">
@@ -125,7 +125,7 @@ references: ["https://www.newoman.jp/takanawa/floorguide/detail/?scd=003014", "h
   <figcaption>都心の新店は駅直結・高層階の複合型が多く、そのぶん価格帯も上がる。<cite>出典: <a href="https://commons.wikimedia.org/wiki/File:Minato_City,_Tokyo,_Japan_(Night)-denoised.jpg" target="_blank" rel="noopener">David Kernan / Wikimedia Commons</a>（CC BY 4.0）</cite></figcaption>
 </figure>
 
-**「サウナの新店」とひとことで言うが、価格帯はまるで別物。** 公式・プレスリリース・報道で料金を確認できた11施設を安い順に並べる。**確認できなかった施設は載せていない。**
+**「サウナの新店」とひとことで言うが、価格帯はまるで別物。** 公式・プレスリリース・報道で料金を確認できた13施設を安い順に並べる。**確認できなかった施設は載せていない。**
 
 <div class="cmp-table-wrap">
   <table class="cmp-table wrap-table">
@@ -133,6 +133,7 @@ references: ["https://www.newoman.jp/takanawa/floorguide/detail/?scd=003014", "h
     <tbody>
       <tr class="recommended"><td><a href="https://www.1010.or.jp/map/item/item-cnt-331" target="_blank" rel="noopener">黄金湯 新宿</a></td><td><strong>550円</strong></td><td>大人（中学生以上）の入浴料。<strong>サウナは別料金</strong></td></tr>
       <tr><td><a href="https://www.supersento.com/kanto/chiba/maisa_tokyo.html" target="_blank" rel="noopener">毎日サウナ東京 幕張店</a></td><td>1,300円〜</td><td>平日60分。平日フリー2,500円／土日祝60分1,800円</td></tr>
+      <tr><td><a href="https://www.supersento.com/kanto/kanagawa/kaizoku-sauna.html" target="_blank" rel="noopener">海賊サウナ＆カプセルホテル</a></td><td>1,300円〜</td><td>70分コース。時間帯で1,300円と1,500円の2通り。100分は1,800円〜。<strong>ドリンクバー込み・タオル別200円</strong></td></tr>
       <tr><td><a href="https://onsen.nifty.com/itabashi-onsen/onsen024792/" target="_blank" rel="noopener">おかえりサウナ板橋</a></td><td>1,330円〜</td><td>平日60分。土壁のフィンランドサウナ、水風呂15〜17℃</td></tr>
       <tr><td><a href="https://sauna-kohaku.com/" target="_blank" rel="noopener">sauna KOHAKU</a></td><td>1,600円〜</td><td>平日60分。土日祝1,800円。90分1,900円／120分2,200円／フリータイム2,600円。<strong>タオルは別料金</strong></td></tr>
       <tr><td><a href="http://k-scc.co.jp/sauna/price/price.html" target="_blank" rel="noopener">サウナリゾート＆スパ BlueOcean</a></td><td>1,750円（税別）</td><td>15歳以上・平日。特定日と土日祝は2,050円（税別）</td></tr>
@@ -140,6 +141,7 @@ references: ["https://www.newoman.jp/takanawa/floorguide/detail/?scd=003014", "h
       <tr><td><a href="https://onsen.nifty.com/shinjuku-onsen/onsen024709/" target="_blank" rel="noopener">荒木町サウナ Logout</a></td><td>1,800円〜</td><td>平日1時間。土日祝は2,100円〜。タオル無料貸出</td></tr>
       <tr><td><a href="https://www.my-spa.jp/price/" target="_blank" rel="noopener">スパ＆ホテル 舞浜ユーラシア</a></td><td>2,100円</td><td>SPA入館・平日（入湯税込）。土日祝2,600円。<strong>5階の SPA+ は別途950円</strong></td></tr>
       <tr><td><a href="https://paradise-otemachi.com/facility_spa.html" target="_blank" rel="noopener">PARADISE 大手町</a></td><td>2,189円〜</td><td>1時間まで（税込）。3時間まで3,278円、延長1時間ごと1,100円。<strong>平日7:00〜10:00 は1,408円</strong></td></tr>
+      <tr><td><a href="https://furosauna.com/2026/06/22/085837988/" target="_blank" rel="noopener">水宴 -suien-</a></td><td>2,500円</td><td>90分・火〜日（男性専用）。<strong>月曜は貸切39,800円／120分で男女とも入れる</strong></td></tr>
       <tr><td><a href="https://spa-eas.com/price/" target="_blank" rel="noopener">横浜天然温泉 SPA EAS</a></td><td>2,500円〜</td><td><strong>平日限定120分のサウナープラン。</strong>通常入館は平日4,400円／休日5,200円（消費税・入湯税込）</td></tr>
       <tr class="recommended"><td><a href="https://www.newoman.jp/takanawa/floorguide/detail/?scd=003014" target="_blank" rel="noopener">高輪SAUNAS</a></td><td><strong>3,700円</strong></td><td>男性・平日4時間。女性3,200円ほか（2026年7月時点）</td></tr>
     </tbody>
@@ -242,7 +244,7 @@ references: ["https://www.newoman.jp/takanawa/floorguide/detail/?scd=003014", "h
     <thead><tr><th>優先すること</th><th>該当する施設</th></tr></thead>
     <tbody>
       <tr class="recommended"><td><strong>駅から歩かない</strong><br><small>徒歩3分以内・駅直結</small></td><td><a href="#-高輪saunas29東京">高輪SAUNAS</a>（高輪ゲートウェイ<strong>直結</strong>）／<a href="#-サウナメッツァ-大井町トラックス328東京">大井町トラックス</a>（徒歩2分）／<a href="#-paradise-大手町21東京">PARADISE 大手町</a>（徒歩3分・B2a直結）／<a href="#-shiagaru-sauna-神田秋葉原413東京">SHIAGARU SAUNA</a>（岩本町 徒歩2分）／<a href="#-サウナリゾートスパ-blueocean76神奈川">BlueOcean</a>（新横浜駅前）／<a href="#-おかえりサウナ板橋56東京">おかえりサウナ板橋</a>（板橋本町駅前）／<a href="#-海賊サウナカプセルホテル811神奈川">海賊サウナ</a>（小田原駅前）</td></tr>
-      <tr><td><strong>安く入りたい</strong><br><small>2,200円未満で入れる</small></td><td><a href="#-黄金湯-新宿️77東京">黄金湯 新宿</a> <strong>550円</strong>（サウナ別）／<a href="#-毎日サウナ東京-幕張店58千葉">毎日サウナ東京 幕張店</a> 平日60分 <strong>1,300円</strong>／<a href="#-おかえりサウナ板橋56東京">おかえりサウナ板橋</a> 平日60分 <strong>1,330円</strong>／<a href="#-サウナリゾートスパ-blueocean76神奈川">BlueOcean</a> 平日 1,750円（税別）／<a href="#-サウナメッツァ-大井町トラックス328東京">大井町トラックス</a> 平日 1,800円〜／<a href="#-paradise-大手町21東京">PARADISE 大手町</a> <strong>平日朝1,408円</strong>（通常は2,189円）／<a href="#-スパホテル-舞浜ユーラシア️115千葉">舞浜ユーラシア</a> 平日 2,100円</td></tr>
+      <tr><td><strong>安く入りたい</strong><br><small>2,200円未満で入れる</small></td><td><a href="#-黄金湯-新宿️77東京">黄金湯 新宿</a> <strong>550円</strong>（サウナ別）／<a href="#-毎日サウナ東京-幕張店58千葉">毎日サウナ東京 幕張店</a> 平日60分 <strong>1,300円</strong>／<a href="#-海賊サウナカプセルホテル811神奈川">海賊サウナ</a> 70分 <strong>1,300円〜</strong>／<a href="#-おかえりサウナ板橋56東京">おかえりサウナ板橋</a> 平日60分 <strong>1,330円</strong>／<a href="#-サウナリゾートスパ-blueocean76神奈川">BlueOcean</a> 平日 1,750円（税別）／<a href="#-サウナメッツァ-大井町トラックス328東京">大井町トラックス</a> 平日 1,800円〜／<a href="#-paradise-大手町21東京">PARADISE 大手町</a> <strong>平日朝1,408円</strong>（通常は2,189円）／<a href="#-スパホテル-舞浜ユーラシア️115千葉">舞浜ユーラシア</a> 平日 2,100円</td></tr>
       <tr><td><strong>深夜・早朝に入りたい</strong></td><td><strong>24時間営業は3施設。</strong><a href="#-サウナリゾートスパ-blueocean76神奈川">BlueOcean</a>（ナイト 24:00〜翌9:00 は平日3,980円）／<a href="#-毎日サウナ東京-幕張店58千葉">毎日サウナ東京 幕張店</a>（6:00〜9:00は清掃）／<a href="#-水宴--suien-7月中旬東京">水宴 -suien-</a>。ほかに<a href="#-サウナメッツァ-大井町トラックス328東京">大井町トラックス</a>が6:00〜翌2:00・年中無休</td></tr>
       <tr><td><strong>泊まりたい</strong></td><td><a href="#-海賊サウナカプセルホテル811神奈川">海賊サウナ＆カプセルホテル</a>（小田原駅前）／<a href="#-スパホテル-舞浜ユーラシア️115千葉">スパ＆ホテル 舞浜ユーラシア</a>（<strong>宿泊しなくてもスパだけ使える</strong>）</td></tr>
       <tr class="recommended"><td><strong>女性が入れる</strong></td><td><a href="#女性が入れるサウナ">8軒</a>。舞浜ユーラシア／高輪SAUNAS／大井町トラックス／SAUNA汽汽／黄金湯 新宿／門仲SAUNAS LO／BlueOcean／SPA EAS</td></tr>
@@ -252,7 +254,7 @@ references: ["https://www.newoman.jp/takanawa/floorguide/detail/?scd=003014", "h
   </table>
 </div>
 
-**料金が未確認の4施設（SHIAGARU SAUNA・SAUNA汽汽・サウナ蒸薪・海賊サウナ）は「安く入りたい」の欄に入れていない。** 公式に料金表が出ていないだけで、安い可能性はある。
+**料金が未確認の4施設（SHIAGARU SAUNA・SAUNA汽汽・サウナ蒸薪・門仲SAUNAS LO）は「安く入りたい」の欄に入れていない。** 公式に料金表が出ていないだけで、安い可能性はある。
 
 <div class="section-with-mascot">
   <div class="mascot-wrap"><img src="/images/expr-04-cheer.png" alt="Daily Hackマスコット" /></div>
@@ -349,11 +351,11 @@ references: ["https://www.newoman.jp/takanawa/floorguide/detail/?scd=003014", "h
   <table class="cmp-table spec-table">
     <tbody>
       <tr><th>最寄</th><td><strong>四谷三丁目 出口4 徒歩3分</strong>（新宿区荒木町6-1 荒木町ガーデンズ103）</td></tr>
-      <tr><th>料金</th><td>平日 1時間 <strong>1,800円〜</strong>／土日祝 1時間 2,100円〜（タオル無料貸出）</td></tr>
+      <tr><th>料金</th><td>1時間 <strong>平日1,800円／土日祝2,100円</strong>（税込）。2時間 2,450／2,850円、3時間 2,950／3,400円。<strong>延長は30分ごと500円</strong>。タオル無料貸出</td></tr>
       <tr><th>男女</th><td>男性専用</td></tr>
       <tr><th>営業時間</th><td>平日 13:00〜23:00／土日祝 11:00〜23:00</td></tr>
       <tr><th>サウナ</th><td>95℃・ロウリュあり。<strong>水風呂 15〜17℃</strong></td></tr>
-      <tr><th>出典</th><td><a href="https://onsen.nifty.com/shinjuku-onsen/onsen024709/" target="_blank" rel="noopener">ニフティ温泉「荒木町サウナ Logout」</a>／<a href="https://adv.tokyo-np.co.jp/prtimes/article126752/" target="_blank" rel="noopener">開業リリース（東京新聞×PR TIMES）</a></td></tr>
+      <tr><th>公式</th><td><a href="https://sauna-logout.com/" target="_blank" rel="noopener">荒木町サウナ Logout 公式</a>／<a href="https://adv.tokyo-np.co.jp/prtimes/article126752/" target="_blank" rel="noopener">開業リリース（東京新聞×PR TIMES）</a></td></tr>
     </tbody>
   </table>
 </div>
@@ -394,6 +396,11 @@ references: ["https://www.newoman.jp/takanawa/floorguide/detail/?scd=003014", "h
 
 ### ⑥ SHIAGARU SAUNA 神田×秋葉原（4/13・東京）
 
+<figure class="rn-figure">
+  <img src="/images/sauna-openings-2026/facilities/shiagaru.jpg" alt="SHIAGARU SAUNA 神田×秋葉原店の外観。赤い庇と看板" loading="lazy" />
+  <figcaption>岩本町駅から徒歩2〜3分。<strong>深部体温サウナと末端体温サウナを使い分ける作り。</strong><cite>画像: <a href="https://shiagaru-sauna.com/tokyo-kanda-akihabara" target="_blank" rel="noopener">SHIAGARU SAUNA 公式</a></cite></figcaption>
+</figure>
+
 <div class="cmp-table-wrap">
   <table class="cmp-table spec-table">
     <tbody>
@@ -413,11 +420,18 @@ references: ["https://www.newoman.jp/takanawa/floorguide/detail/?scd=003014", "h
 
 ### ⑦ SAUNA汽汽 -キキ-（4/20・東京）
 
+<figure class="rn-figure">
+  <img src="/images/sauna-openings-2026/facilities/kiki.jpg" alt="SAUNA汽汽で使われるハーブ。シナモンやドライオレンジが並ぶ" loading="lazy" />
+  <figcaption><strong>天然ハーブの濃霧に包まれるスチームサウナ。</strong>1フロア貸切・最大3名・水着着用。<cite>画像: <a href="https://sauna-kiki.jp/" target="_blank" rel="noopener">SAUNA汽汽 公式</a></cite></figcaption>
+</figure>
+
 <div class="cmp-table-wrap">
   <table class="cmp-table spec-table">
     <tbody>
       <tr><th>最寄</th><td>中目黒 徒歩6分</td></tr>
-      <tr><th>料金</th><td>未確認（1〜2名は同一料金、<strong>3名は+3,000円</strong>、レンタル水着+600円という条件だけ公開されている）</td></tr>
+      <tr><th>料金</th><td><strong>未確認。</strong>公式の料金ページは金額を予約側で出す作りで取れなかった。条件は公開されていて、<strong>1〜2名は同一料金・3名は+3,000円・レンタル水着+600円</strong></td></tr>
+      <tr><th>最寄</th><td>中目黒駅 徒歩6分／代官山駅 徒歩8分</td></tr>
+      <tr><th>公式</th><td><a href="https://sauna-kiki.jp/" target="_blank" rel="noopener">SAUNA汽汽 公式</a></td></tr>
       <tr><th>男女</th><td><strong>男女</strong>（<strong>水着着用</strong>・最大3名の完全プライベートルーム）</td></tr>
       <tr><th>手がけた人</th><td>株式会社PLAY&amp;co。都内では数少ない<strong>男女一緒に入れるプライベートサウナ</strong>を手がけてきた「SAUNA&amp;co」の系列</td></tr>
     </tbody>
@@ -430,6 +444,11 @@ references: ["https://www.newoman.jp/takanawa/floorguide/detail/?scd=003014", "h
 全室に**チラー入りの水風呂**と、サウナ室内のシャワー（体表だけ冷ます「クナイプ」）を備え、**1室のなかで温冷が完結する。**
 
 ### ⑧ サウナ蒸薪（5/3・埼玉）
+
+<figure class="rn-figure">
+  <img src="/images/sauna-openings-2026/facilities/jyoshin.jpg" alt="サウナ蒸薪のサウナ室。木を組んだ広い室内" loading="lazy" />
+  <figcaption><strong>大型薪ストーブと2種類の地下水かけ流し水風呂。</strong>北本駅から車で約10分。<cite>画像: <a href="https://www.sauna-jyoshin.com/" target="_blank" rel="noopener">サウナ蒸薪 公式</a></cite></figcaption>
+</figure>
 
 <div class="cmp-table-wrap">
   <table class="cmp-table spec-table">
@@ -472,6 +491,11 @@ references: ["https://www.newoman.jp/takanawa/floorguide/detail/?scd=003014", "h
 </div>
 
 ### ⑩ 毎日サウナ東京 幕張店（5/8・千葉）
+
+<figure class="rn-figure">
+  <img src="/images/sauna-openings-2026/facilities/mainichi.jpg" alt="毎日サウナ東京 幕張店の夜の外観。EVERYDAY SAUNA TOKYO の看板" loading="lazy" />
+  <figcaption>24時間営業（6:00〜9:00は清掃）。<strong>薪サウナを備える。</strong><cite>画像: <a href="https://www.supersento.com/kanto/chiba/maisa_tokyo.html" target="_blank" rel="noopener">スーパー銭湯全国検索</a></cite></figcaption>
+</figure>
 
 <div class="cmp-table-wrap">
   <table class="cmp-table spec-table">
@@ -566,11 +590,18 @@ references: ["https://www.newoman.jp/takanawa/floorguide/detail/?scd=003014", "h
 
 ### ⑭ 水宴 -suien-（7月中旬・東京）
 
+<figure class="rn-figure">
+  <img src="/images/sauna-openings-2026/facilities/suien.jpg" alt="水宴のサウナ。ネオンの「水宴 suien」の文字と円形の水風呂" loading="lazy" />
+  <figcaption>麻布十番駅から徒歩2分の<strong>24時間営業</strong>。施工トラブルの跡をあえて意匠に使っている。<cite>画像: <a href="https://furosauna.com/2026/06/22/085837988/" target="_blank" rel="noopener">フロサウナ</a></cite></figcaption>
+</figure>
+
 <div class="cmp-table-wrap">
   <table class="cmp-table spec-table">
     <tbody>
       <tr><th>最寄</th><td>麻布十番</td></tr>
-      <tr><th>料金</th><td>未確認</td></tr>
+      <tr><th>料金</th><td>火〜日（男性専用）<strong>2,500円／90分</strong>。月曜は<strong>貸切39,800円／120分で男女とも入れる</strong></td></tr>
+      <tr><th>営業時間</th><td><strong>24時間営業</strong></td></tr>
+      <tr><th>出典</th><td><a href="https://furosauna.com/2026/06/22/085837988/" target="_blank" rel="noopener">フロサウナ「麻布十番に24時間営業サウナ『水宴』2026年7月誕生」</a>。<strong>公式サイトは見つかっていない</strong></td></tr>
       <tr><th>男女</th><td>基本男性専用（曜日によって貸切）</td></tr>
     </tbody>
   </table>
@@ -606,11 +637,18 @@ references: ["https://www.newoman.jp/takanawa/floorguide/detail/?scd=003014", "h
 
 ### ⑯ 海賊サウナ＆カプセルホテル（8/11・神奈川）
 
+<figure class="rn-figure">
+  <img src="/images/sauna-openings-2026/facilities/kaizoku.jpg" alt="海賊サウナのサウナ室。暗く木を組んだ室内" loading="lazy" />
+  <figcaption>メインサウナ「VOYAGE」は約90〜95℃。<strong>水風呂「GROTTO」は約14〜17℃。</strong><cite>画像: <a href="https://www.supersento.com/kanto/kanagawa/kaizoku-sauna.html" target="_blank" rel="noopener">スーパー銭湯全国検索</a></cite></figcaption>
+</figure>
+
 <div class="cmp-table-wrap">
   <table class="cmp-table spec-table">
     <tbody>
       <tr><th>最寄</th><td><strong>小田原駅前</strong></td></tr>
-      <tr><th>料金</th><td>未確認</td></tr>
+      <tr><th>料金</th><td>70分コース <strong>1,300円〜</strong>／100分コース 1,800円〜。<strong>時間帯で2通りある</strong>（70分は1,300円と1,500円、100分は1,800円と2,000円）。延長30分500円。<strong>ドリンクバー込み、タオルセットは別途200円</strong></td></tr>
+      <tr><th>営業時間</th><td>浴室 6:00〜24:10。<strong>朝サウナ6:00〜9:10／通常9:00〜21:00／サウナイト21:00〜24:10</strong>の3区分。基本無休・駐車場なし</td></tr>
+      <tr><th>出典</th><td><a href="https://www.supersento.com/kanto/kanagawa/kaizoku-sauna.html" target="_blank" rel="noopener">スーパー銭湯全国検索「海賊サウナ」</a>。<strong>公式サイトは見つかっていない</strong></td></tr>
       <tr><th>男女</th><td>男性専用</td></tr>
     </tbody>
   </table>
@@ -619,6 +657,11 @@ references: ["https://www.newoman.jp/takanawa/floorguide/detail/?scd=003014", "h
 サウナ・水風呂・風呂・カプセルを備え、**日帰りだけでなく宿泊サウナの拠点**としても使える。**8月中は事前予約制。**
 
 ### ⑰ 門仲SAUNAS LO（8/31 予定・東京）
+
+<figure class="rn-figure">
+  <img src="/images/sauna-openings-2026/facilities/monnaka.jpg" alt="門仲SAUNAS LO のティザー。門前仲町の店舗を描いたイラスト" loading="lazy" />
+  <figcaption>公式サイトに出ているのは<strong>このティザーの図だけ</strong>。写真はまだ公開されていない。<cite>画像: <a href="https://lo.saunas-saunas.com/monnaka/" target="_blank" rel="noopener">門仲SAUNAS LO 公式</a></cite></figcaption>
+</figure>
 
 <div class="cmp-table-wrap">
   <table class="cmp-table spec-table">
@@ -769,8 +812,9 @@ references: ["https://www.newoman.jp/takanawa/floorguide/detail/?scd=003014", "h
   <table class="cmp-table wrap-table">
     <thead><tr><th>項目</th><th>状態</th></tr></thead>
     <tbody>
-      <tr><td>料金</td><td><strong>17施設中11しか確認できていない。</strong>残り6（SHIAGARU SAUNA・SAUNA汽汽・サウナ蒸薪・水宴・海賊サウナ・門仲SAUNAS LO）は公式に料金表が出ていないか、予約カレンダー側にしか出ない。<strong>推測値は載せていない</strong></td></tr>
-      <tr><td>営業時間・定休日</td><td>SAUNA汽汽・水宴・海賊サウナ・門仲SAUNAS LOは、開業の事実と概要までしか裏が取れていない</td></tr>
+      <tr><td>料金</td><td><strong>17施設中13まで確認できた。</strong>残り4（SHIAGARU SAUNA・SAUNA汽汽・サウナ蒸薪・門仲SAUNAS LO）は<strong>金額が予約カレンダー側にしか出ない</strong>か、まだ発表されていない。<strong>推測値は載せていない</strong></td></tr>
+      <tr><td>営業時間・定休日</td><td>SAUNA汽汽と門仲SAUNAS LOは、開業の事実と概要までしか裏が取れていない</td></tr>
+      <tr><td>水宴と海賊サウナの出典</td><td><strong>どちらも公式サイトが見つからなかった。</strong>水宴はフロサウナの記事、海賊サウナはスーパー銭湯全国検索を出典にしている。<strong>一次情報ではないので、行く前に店に確認すること</strong></td></tr>
       <tr><td>PARADISE 大手町のレディースデー</td><td><strong>公式サイトには記載が無い。</strong>スパが男性専用であることは公式で確定したが、レディースデーに触れているのは一部の媒体だけで、<strong>公式のよくある質問は「SPAは現在、男性専用です」としか答えていない</strong></td></tr>
       <tr><td>この17施設で首都圏の全部か</td><td><strong>言い切れない。</strong>実際、最初は15施設として出したあとに、別のまとめを当たって<strong>舞浜ユーラシアとSAUNA汽汽の2軒を足している。</strong>個室サウナのように小規模なものは、まだ落ちている可能性がある</td></tr>
       <tr><td>SAUNA汽汽の料金</td><td><strong>金額そのものが公式に出ていない。</strong>「1〜2名は同一料金」「3名は+3,000円」「レンタル水着+600円」という条件だけが公開されている</td></tr>
