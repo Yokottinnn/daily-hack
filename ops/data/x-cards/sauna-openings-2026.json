@@ -12,7 +12,7 @@
     "columns": 2,
     "cards": [
       { "img": "facilities/maihama.jpg",  "badge": "♻️ 1/15", "title": "スパ＆ホテル<br>舞浜ユーラシア", "meta": "千葉・舞浜／70人収容の展望サウナ" },
-      { "img": "facilities/paradise.jpg", "badge": "2/1",     "title": "PARADISE 大手町",              "meta": "東京・大手町／25mプール併設" },
+      { "img": "facilities/paradise.jpg", "badge": "2/1",     "title": "PARADISE 大手町",              "meta": "東京・大手町 徒歩3分／男性専用・25mプール" },
       { "img": "facilities/takanawa.jpg", "badge": "2/9",     "title": "高輪SAUNAS",                   "meta": "東京・高輪ゲートウェイ直結／9室" },
       { "img": "facilities/oimachi.jpg",  "badge": "3/28",    "title": "サウナメッツァ<br>大井町トラックス", "meta": "東京・大井町 徒歩2分／日本初のトラムサウナ" },
       { "img": "facilities/blueocean.jpg","badge": "7/6",     "title": "サウナリゾート＆スパ<br>BlueOcean", "meta": "神奈川・新横浜／24時間営業" },
