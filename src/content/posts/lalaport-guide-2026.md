@@ -169,6 +169,12 @@ North Gate 3階のフードコートは約1,400席。ららぽーとTOKYO-BAY全
 
 <p class="source-note">出典：<a href="https://www.fashion-press.net/news/116749" target="_blank" rel="noopener">ファッションプレス「北館建替えで千葉最大級フードゾーン誕生、フードコート席数は日本一に」</a>／<a href="https://tetsudo-ch.com/13015281.html" target="_blank" rel="noopener">鉄道チャンネル「北館1期96店舗がオープン」</a>／<a href="https://toyokeizai.net/articles/-/929513" target="_blank" rel="noopener">東洋経済オンライン「日本一のフードコートの実力」</a>。引用したX投稿はいずれも認証済みアカウントのもので、投稿日時を検証済み。</p>
 
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/CdXttrz_wgc" title="【改装】船橋市の大型モール『ららぽーとTOKYO-BAY 北館』がリニューアルオープンしたので初日に見に行ってきた！（南関東 地域観察チャンネル）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+<p class="source-note">埋め込んだ YouTube は<strong>すべて oEmbed でタイトルと投稿者を照合し、実在を確認したもの</strong>。施設名が一致しない動画は使っていない。<strong>公式チャンネルではなく個人の訪問動画</strong>なので、内容は撮影時点のもの。</p>
+
 ### 横浜の−110億は「工事中だから」
 
 こっちは逆。ららぽーと横浜は2026年春から**2028年夏までの3か年**で、過去最大規模のリニューアルに入ってる。
@@ -910,6 +916,10 @@ North Gate 3階のフードコートは約1,400席。ららぽーとTOKYO-BAY全
 
 **三井アウトレットパークと一体の複合施設。** ららぽーと側153店に MOP の98店が加わる。売上450億は<strong>MOP との合算値</strong>で、他施設と単純には比べられない。
 
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/lFaoydmQKCw" title="ららぽーと門真 三井アウトレットパーク 大阪門真をさんぽしてみた 2026年2月（日本さんぽ）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
 ### ⑳ ららぽーと安城（2025年4月・愛知）
 
 <div class="cmp-table-wrap">
@@ -926,6 +936,10 @@ North Gate 3階のフードコートは約1,400席。ららぽーとTOKYO-BAY全
 </div>
 
 **20施設でいちばん新しい**（2025年4月）。面積10位。安城駅 徒歩10分で、駐車場は終日無料。
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/m_HIOlKEh5A" title="ららぽーと安城の全力の楽しみ方（名古屋グルメYouTuber【ナゴグル】）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
 
 ## これから変わる4施設｜2026年〜2029年
 
@@ -983,6 +997,10 @@ North Gate 3階のフードコートは約1,400席。ららぽーとTOKYO-BAY全
 
 <p class="source-note">出典：<a href="https://www.mitsuifudosan.co.jp/corporate/news/2026/0722_02/" target="_blank" rel="noopener">三井不動産「ラゾーナ川崎プラザ 過去最大級のリニューアル計画がスタート」（2026年7月22日）</a>／<a href="https://www.ryutsuu.biz/store/s072250.html" target="_blank" rel="noopener">流通ニュース</a>／<a href="https://tetsudo-ch.com/13033284.html" target="_blank" rel="noopener">鉄道チャンネル「いつから何が変わるか徹底解説」</a>。</p>
 
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/ioydKRaLkQI" title="行列店の味が川崎ラゾーナのフードコートで食べられる（タカハシタツヤの地元旅）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
 ### ららぽーと横浜｜売上−110億の当事者。3か年で立て直す
 
 <figure class="rn-figure">
@@ -1004,6 +1022,10 @@ North Gate 3階のフードコートは約1,400席。ららぽーとTOKYO-BAY全
 面積は約93,000㎡で**ららぽーと2位**。それで売上460億は明らかに実力を出せていない。工事が終わる2028年以降の数字が、この投資の答え合わせになる。
 
 <p class="source-note">出典：<a href="https://www.mitsuifudosan.co.jp/corporate/news/2026/0318/" target="_blank" rel="noopener">三井不動産（2026年3月18日）</a>／<a href="https://shin-yoko.net/2025/12/24/lalaport-2/" target="_blank" rel="noopener">新横浜新聞「ららぽーと横浜を大規模リニューアル」</a>。</p>
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/YGSFt_t2soU" title="ららぽーと横浜が3年間の大規模リニューアル！コストコ再販店やスリコ拡大など第1弾26店舗がついに決定（HN通信社）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
 
 ### ららぽーと柏の葉｜人が増えすぎて「食」が足りない
 
