@@ -480,23 +480,55 @@ fi
 # 履歴から消えていた（毎回 1 コミットに潰す設計のため）。実体でしか確認できず、
 # 自己申告を照合できなかった。
 # **ポーラーと同じ worktree を使う。** 相手が commit している最中に `add -A` すると
-# 中途半端な index ができるので、`ops-run-tasks.sh` と同じロックを取ってから触る。
-# 取れなければ数秒待って諦める（次の周回で押せばよい。死活監視は 30 分粒度）。
+# ぶつかるので、`ops-run-tasks.sh` と同じロックを取ってから触る。
+#
+# **ただし、取れなくても押すのをやめてはいけない。**
+# `.github/workflows/ops-watchdog.yml` の `STALE_MINUTES` は **90 分**。
+# heartbeat は 30 分間隔なので、1 回飛ばすと 60 分、**2 回連続で飛ばすと閾値に触れて
+# 「Mac が死んだ」と誤報する。** 押せないことは、それ自体が異常の合図として扱われる。
+#
+# 幸い **index の整合性は git 自身が `index.lock` で守る**（最悪 commit が 1 回失敗する
+# だけで、壊れることはない）。だからロックは「行儀よく待つ」ためのものと割り切り、
+# **待っても取れなければロック無しで進んで、失敗したら 1 回だけやり直す。**
 hb_lock="$WT/.tasks.lock"
 hb_got=0
-for _ in 1 2 3 4 5 6 7 8 9 10; do
+for _ in $(seq 1 30); do          # 最大 60 秒 待つ
   if mkdir "$hb_lock" 2>/dev/null; then hb_got=1; date +%s > "$hb_lock/started_at"; break; fi
   sleep 2
 done
-[ "$hb_got" = "1" ] || die "タスク実行中でロックが取れなかった。次の周回で押す"
-trap 'rm -rf "$hb_lock"' EXIT INT TERM
-
-git -C "$WT" add -A
-if git -C "$WT" diff --cached --quiet; then
-  # 中身が同じでも「生きている」ことを示す必要があるため空コミットを打つ
-  git -C "$WT" commit -q --allow-empty -m "ops: heartbeat $now ($count jobs)" || die "commit に失敗した"
+if [ "$hb_got" = "1" ]; then
+  trap 'rm -rf "$hb_lock"' EXIT INT TERM
 else
-  git -C "$WT" commit -q -m "ops: heartbeat $now ($count jobs)" || die "commit に失敗した"
+  echo "ops-heartbeat: ロックが取れなかった。押すのを優先してロック無しで進む" >&2
+fi
+
+hb_commit() {
+  git -C "$WT" add -A || return 1
+  if git -C "$WT" diff --cached --quiet; then
+    # 中身が同じでも「生きている」ことを示す必要があるため空コミットを打つ
+    git -C "$WT" commit -q --allow-empty -m "ops: heartbeat $now ($count jobs)"
+  else
+    git -C "$WT" commit -q -m "ops: heartbeat $now ($count jobs)"
+  fi
+}
+
+if ! hb_commit; then
+  # 相手の commit とぶつかった可能性。少し待ってやり直す
+  echo "ops-heartbeat: commit に失敗。10 秒待ってやり直す" >&2
+  sleep 10
+  if ! hb_commit; then
+    # **取り残された index.lock だけ外す。** 生きている相手のロックは消さない
+    gd="$(git -C "$WT" rev-parse --git-dir 2>/dev/null)"
+    il="$gd/index.lock"
+    if [ -n "$gd" ] && [ -f "$il" ]; then
+      lock_age=$(( $(date +%s) - $(stat -f %m "$il" 2>/dev/null || stat -c %Y "$il" 2>/dev/null || date +%s) ))
+      if [ "$lock_age" -gt 120 ] 2>/dev/null; then
+        echo "ops-heartbeat: ${lock_age} 秒前の index.lock を外す" >&2
+        rm -f "$il"
+      fi
+    fi
+    hb_commit || die "commit に失敗した"
+  fi
 fi
 
 # 履歴が無限に伸びないよう、毎回 1 コミットに潰して force push する
