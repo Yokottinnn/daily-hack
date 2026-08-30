@@ -56,6 +56,8 @@ node scripts/gen-x-cards.mjs ops/data/x-cards/<slug>.json
     "kicker": "2026年オープン ／ 東京・神奈川・千葉・埼玉",
     "title": "首都圏のサウナ新店",
     "sub": "料金・最寄駅・男女別 <em>17施設まとめ</em>",   // em は黄色になる
+    "mascot": "expr-05-smug.png",   // 右上にキャラ（省くと出ない）
+    "mark": true,                    // 右上に温泉マーク。false で消す
     "columns": 2,
     "cards": [
       { "img": "facilities/maihama.jpg", "badge": "♻️ 1/15",
@@ -74,6 +76,24 @@ node scripts/gen-x-cards.mjs ops/data/x-cards/<slug>.json
   ]
 }
 ```
+
+## 2-B. 右上のキャラと温泉マーク
+
+`mascot` に `public/images/` 直下のファイル名を書くと、濃紺の帯の右上に置く。
+
+- **透過 PNG を選ぶ。** `expr-01`〜`expr-09` はアルファ付き。
+  `mascot-avatar.png` は**アルファが無い**ので白い箱になる
+- 表情は記事の空気で選ぶ。得意げなら `expr-05-smug`、応援なら `expr-04-cheer`
+- **見出しが折り返さないか必ず見る。** キャラの幅だけ見出しの領域が狭くなる。
+  折れたら `title` を短くするか `<br>` で自分で切る
+
+温泉マーク（♨）は**画像を取りに来ず SVG で描いている。**
+
+> Wikimedia Commons はクラウドセッションの egress ポリシーで塞がれている
+> （`commons.wikimedia.org:443 connect_rejected`）。
+> 記号自体は JIS の地図記号で形に著作権は無く、**描いたほうが確実で透過も解像度も自由。**
+> ビットマップを拾うと縁が出るうえライセンス表記も要る。
+> どうしても実物が要るなら `ops/tasks` 経由で Mac に取らせる（Mac からは届く）。
 
 ## 3. 出典は必ず画像の中へ
 
@@ -111,6 +131,7 @@ node scripts/gen-x-cards.mjs ops/data/x-cards/<slug>.json
 | --- | --- | --- |
 | 2026-08-30 | 1・2 投稿目で画像が同じ／X 用に**正方形**に／1 枚目は記事冒頭のサマリーボックスを取り込んだまとめ／2〜4 枚目は**実際にオープンした施設の写真**／2 投稿目は記事の紹介 | このスキルと `scripts/gen-x-cards.mjs` を作成 |
 | 2026-08-30 | **1 枚目は施設名と写真を 6 施設ぶんまとめる。**構図は今のまま | cover のカードを「施設カード」型（`badge`/`title`/`meta`）に対応させ、3 段でも収まるよう自動で詰める `dense` を追加 |
+| 2026-08-30 | **右上にキャラを透過で置く。温泉マークも取ってきて同じく右上に** | `mascot` / `mark` を cover に追加。♨ は Commons が塞がれているため SVG で描画。キャラの幅だけ見出し領域が狭まるので、折り返さないよう `h1` を 68px・`max-width` 700px に調整 |
 
 <!-- 追記はこの表の下に。日付・指摘・反映 の 3 列を必ず埋める -->
 
