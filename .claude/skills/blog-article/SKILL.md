@@ -447,6 +447,41 @@ npm run build 2>&1 | tail -2      # ← ここで "Complete!" を確認してか
 | `title` | 100 字 |
 | `description` | **160 字**（超えるとビルドが落ちる） |
 
+#### 生 HTML の見出しには必ず `id` を書く
+
+**`.section-with-mascot` の中に `<h2>` を生 HTML で書くと、`id` が自動で振られない。**
+`id` が無い見出しは、目次にもページ内リンクにも出せない。
+
+```html
+<h2 id="料金">…</h2>   ← id を手で書く。書き忘れても ビルドは通る
+```
+
+目次は `src/lib/collectHeadings()` が Markdown の `##` と 生 HTML の `<h2 id="…">` を
+文書順にマージして作る。**`id` が無いものはマージ対象から落ちる。**
+
+2026-08-30 に、**サウナ記事の H2 10 本が目次に 1 本も出ていなかった**のを見つけた。
+目次が短いだけなので、ページを見ても異常だと分からない。
+
+```bash
+# 記事内の h2/h3 が全部 目次に出ているかを機械で確認する
+python3 - <<'EOF'
+import re
+h=open('dist/posts/<slug>/index.html',encoding='utf-8').read()
+toc=re.search(r'<nav class="toc".*?</nav>',h,re.S).group(0)
+t={re.sub('<[^>]+>','',x).strip() for x in re.findall(r'<a [^>]*>(.*?)</a>',toc,re.S)}
+art=re.search(r'<article.*?</article>',h,re.S).group(0)
+print('目次に無い見出し:',[re.sub('<[^>]+>','',m.group(2)).strip()
+  for m in re.finditer(r'<h([23])[^>]*>(.*?)</h\1>',art,re.S)
+  if re.sub('<[^>]+>','',m.group(2)).strip() not in t])
+EOF
+```
+
+#### 最初の見出しを生 HTML にすると markdownlint が落ちる
+
+記事の最初の見出しを `.section-with-mascot` の `<h2>` にして、その次に `###` を書くと
+**MD001（見出しは 1 段ずつ）でコミットが弾かれる。** markdownlint からは
+生 HTML の `<h2>` が見えないため。**最初の H2 は Markdown の `##` で書く。**
+
 #### ページ内リンクの id は、ビルド後 HTML から取る
 
 `### ① PARADISE 大手町（2/1・東京）` から自動生成される id は
