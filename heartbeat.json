@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T11:09:41Z",
+  "generated_at": "2026-08-30T11:40:33Z",
   "host": "NaokinoMBP-2",
   "job_count": 20,
   "jobs": [
@@ -26,7 +26,9 @@
   ],
   "reconnect": "既に起動している",
   "tasks": [
-      {"task": "049-morning-chains.sh", "rc": 0, "out": "/opt/homebrew/lib/python3.11/site-packages/PIL/Image.py:1136: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images   warnings.warn( morning-chains.md を書き出した reports/morning-chains.md / branch claude/morning-material"}
+      {"task": "044-upload-sauna-x-images.sh", "rc": 0, "out": "画像 5/4 枚を草案スレッドへ貼った / upload-sauna-x.md"},
+      {"task": "050-sauna-prices-and-lalaport-x.sh", "rc": 0, "out": "利用料金・アメニティ ※ 営業時間はイベント等により変更となる場合があります。最新情報は公式SNSをご確認ください。 営業日。 休館日、特別営業時間、イベント開催日をひと目で。 ※ "},
+      {"task": "051-morning-prices.sh", "rc": 0, "out": "※「○」→原材料に含まれます｡　｢△｣→原材料生産工場で、当該原材料を含む製品を製造しています。 ※調理の過程上、アレルギー物質の二次混入をすべて防ぐことはできません。ご理解の上、ご利用をお願いいたし�"}
   ],
   "auth": {
     "ok": false,
