@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T12:42:27Z",
+  "generated_at": "2026-08-30T13:13:54Z",
   "host": "NaokinoMBP-2",
   "job_count": 20,
   "jobs": [
@@ -26,8 +26,8 @@
   ],
   "reconnect": "既に起動している",
   "tasks": [
-      {"task": "054-sauna-fill.sh", "rc": 0, "out": "月～金 　　　13:00～23:00 (21:50最終入場) 土・日・祝　 11:00～23:00 (21:50 remote:      https://github.com/Yokottinnn/daily-hack/pull/new/claude/sauna-material4         remote:  reports/sauna-fill.md / branch claude/sauna-material4"},
-      {"task": "t001-widen-hashtags.sh", "rc": 0, "out": "ハッシュタグを 8 → 16 に増やした / widen-hashtags.md"}
+      {"task": "055-sauna-last.sh", "rc": 0, "out": "このように、サウナに入って「ととのう」だけではなく、食事や睡眠、仕事などの、サウナ施設から帰った後に取る行動に最適な心と身体になっている状態を「しあがる」と考えました。 しあがる remote:      https://github.com/Yo"},
+      {"task": "t002-post-sauna-thread.sh", "rc": 0, "out": "投稿していない（0 件）/ post-sauna.md"}
   ],
   "auth": {
     "ok": true,
@@ -36,11 +36,11 @@
   },
   "activity": {
     "date": "2026-08-30",
-    "posted_today": 15,
+    "posted_today": 21,
     "detail": "ログを走査した",
     "sources": [
-      {"file": "comment-orchestrator.log", "count": 5},
-      {"file": "comment-warmup.log", "count": 10}
+      {"file": "comment-orchestrator.log", "count": 7},
+      {"file": "comment-warmup.log", "count": 14}
     ]
   },
   "unloaded_count": 53,
