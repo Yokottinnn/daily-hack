@@ -35,6 +35,31 @@ const spec = JSON.parse(fs.readFileSync(path.resolve(ROOT, specPath), 'utf8'));
 const IMGBASE = path.resolve(ROOT, spec.imageBase);
 const OUT = path.resolve(ROOT, spec.out);
 const url = (p) => 'file://' + path.join(IMGBASE, p);
+// キャラ画像は記事ごとのフォルダではなく public/images 直下にある（expr-*.png / mascot-*.png）
+const mascotUrl = (p) =>
+  'file://' + (p.startsWith('/') ? path.join(ROOT, 'public', p) : path.join(ROOT, 'public/images', p));
+
+/**
+ * 温泉マーク（♨）。**画像を取りに行かず SVG で描く。**
+ *
+ * Wikimedia Commons はこのセッションの egress ポリシーで塞がれている
+ * （`commons.wikimedia.org:443 connect_rejected`）。
+ * 記号そのものは JIS の地図記号で、形に著作権は無い。**描いたほうが確実で、
+ * 透過も解像度も自由**（ビットマップを拾うと縁が出る・ライセンス表記が要る）。
+ */
+const ONSEN_MARK = `
+  <svg class="mark" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <circle cx="50" cy="50" r="48" fill="#ffffff" fill-opacity=".12"/>
+    <!-- 湯船 -->
+    <path d="M18 62 h64 a0 0 0 0 1 0 0 v3 a17 17 0 0 1 -17 17 H35 a17 17 0 0 1 -17 -17 z"
+          fill="#ffd45e"/>
+    <!-- 湯気 3 本 -->
+    <g stroke="#ffd45e" stroke-width="7" stroke-linecap="round" fill="none">
+      <path d="M34 52 c0 -8 -7 -10 -7 -18 c0 -8 7 -10 7 -17"/>
+      <path d="M50 52 c0 -9 -8 -11 -8 -20 c0 -9 8 -11 8 -19"/>
+      <path d="M66 52 c0 -8 -7 -10 -7 -18 c0 -8 7 -10 7 -17"/>
+    </g>
+  </svg>`;
 
 const BASE = `
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -65,10 +90,19 @@ function coverHtml(c) {
 
   return `<style>${BASE}
   body { background: #f7f7f9; display: flex; flex-direction: column; }
-  header { background: ${NAVY}; color: #fff; padding: ${dense ? 36 : 46}px 54px ${dense ? 30 : 40}px; }
+  header { background: ${NAVY}; color: #fff; padding: ${dense ? 36 : 46}px 54px ${dense ? 30 : 40}px;
+           position: relative; }
   .kicker { font-size: 26px; font-weight: 700; color: #9fb4d6; letter-spacing: .08em; }
-  h1 { font-size: ${dense ? 74 : 84}px; font-weight: 900; line-height: 1.1; margin-top: 8px; }
+  h1 { font-size: ${dense ? 68 : 78}px; font-weight: 900; line-height: 1.1; margin-top: 8px; }
   .sub { font-size: 29px; font-weight: 700; margin-top: 14px; color: #dbe4f2; }
+  /* 右上のキャラとマーク。**見出しに被らない**よう幅を確保して右端に置く */
+  .hero { position: absolute; top: ${dense ? 10 : 16}px; right: 40px;
+          display: flex; align-items: flex-start; gap: 10px; }
+  .hero .mark { width: ${dense ? 96 : 108}px; height: ${dense ? 96 : 108}px;
+                margin-top: ${dense ? 26 : 34}px; }
+  .hero .mascot { height: ${dense ? 168 : 188}px; }   /* 透過 PNG をそのまま置く。帯からはみ出させない */
+  /* **見出しを右上のクラスタに被せない。** 幅を先に確保しておく */
+  header h1, header .sub, header .kicker { max-width: ${dense ? 700 : 690}px; }
   .sub em { font-style: normal; color: #ffd45e; }
   .rule { height: 8px; background: linear-gradient(90deg, ${PINK}, #ff8a3d 55%, #ffc043); }
 
@@ -106,6 +140,10 @@ function coverHtml(c) {
   .brand { font-size: 30px; font-weight: 900; color: ${NAVY}; }
   </style>
   <header>
+    <div class="hero">
+      ${c.mark === false ? '' : ONSEN_MARK}
+      ${c.mascot ? `<img class="mascot" src="${mascotUrl(c.mascot)}" alt="">` : ''}
+    </div>
     <div class="kicker">${c.kicker}</div>
     <h1>${c.title}</h1>
     <div class="sub">${c.sub}</div>

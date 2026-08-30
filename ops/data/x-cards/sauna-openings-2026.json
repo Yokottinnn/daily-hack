@@ -9,6 +9,7 @@
     "kicker": "2026年オープン ／ 東京・神奈川・千葉・埼玉",
     "title": "首都圏のサウナ新店",
     "sub": "料金・最寄駅・男女別 <em>17施設まとめ</em>",
+    "mascot": "expr-05-smug.png",
     "columns": 2,
     "cards": [
       { "img": "facilities/maihama.jpg",  "badge": "♻️ 1/15", "title": "スパ＆ホテル<br>舞浜ユーラシア", "meta": "千葉・舞浜／70人収容の展望サウナ" },
