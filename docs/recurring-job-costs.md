@@ -48,6 +48,22 @@ cooldown 対象を候補から除外した。**生成品質は劣化していな
 
 軽量化前は同じ構成でそれぞれ $1.50 / $2.43 / $5.99 / $6.92 だった。**軽量化で約 33% 下がった。**
 
+## LLM を呼ばないジョブ（**課金は構造的に $0**）
+
+**推定ではない。** これらは Anthropic の API を一度も呼ばないため、
+回数を増やしても課金は増えない。増えるのは Mac の CPU 時間と通信だけである。
+
+| ジョブ | やること | 回数/日 | 1 回 | 1 日 | 1 か月 |
+| --- | --- | --- | --- | --- | --- |
+| `com.dailyhack.ops-heartbeat`（30 分） | `launchctl` 一覧・ログの mtime・`git fetch`・push | 48 | $0 | $0 | **$0** |
+| `com.dailyhack.ops-poller`（**1 分**） | `git fetch` と `ops/tasks` の実行 | 1,440 | $0 | $0 | **$0** |
+| `ai.openclaw.competitor-follower-follow` | フォロー実行（DOM 操作） | — | $0 | $0 | **$0** |
+| `ai.openclaw.hashtag-follow` | フォロー実行（DOM 操作） | — | $0 | $0 | **$0** |
+
+> **ポーラーを 30 分 → 1 分（30 倍）にしても API 課金は $0 のまま。**
+> 2026-08-30 に新設した。経緯は [`x-post-latency-postmortem.md`](x-post-latency-postmortem.md)。
+> 効果は実測で **待ち時間 46 秒**（前は最大 1,800 秒）。
+
 ### 上限の数字を、実績のように出さない
 
 `incoming-reply-watcher`（受信リプ返信・15 分ごと・Haiku）について、当初
