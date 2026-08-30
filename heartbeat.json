@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T09:30:16Z",
+  "generated_at": "2026-08-30T10:06:59Z",
   "host": "NaokinoMBP-2",
   "job_count": 20,
   "jobs": [
@@ -26,7 +26,10 @@
   ],
   "reconnect": "既に起動している",
   "tasks": [
-      {"task": "043-upload-draft-images-v2.sh", "rc": 0, "out": "画像 5 枚を草案スレッドへ貼った / upload-draft-images-v2.md"}
+      {"task": "044-sauna-fill-gaps.sh", "rc": 0, "out": "sauna-gaps.md を書き出した Not currently on any branch. nothing to commit, working tree clean reports/sauna-gaps.md / branch claude/sauna-gaps"},
+      {"task": "045-lalaport-x-youtube.sh", "rc": 0, "out": "lalaport-voices.md を書き出した reports/lalaport-voices.md"},
+      {"task": "046-paradise-official.sh", "rc": 0, "out": "paradise-official.md を書き出した reports/paradise-official.md"},
+      {"task": "047-fetch-tweet-ny.sh", "rc": 0, "out": "tweet-ny.md を書き出した / 本文 43 字 reports/tweet-ny.md"}
   ],
   "auth": {
     "ok": false,
@@ -35,11 +38,11 @@
   },
   "activity": {
     "date": "2026-08-30",
-    "posted_today": 9,
+    "posted_today": 15,
     "detail": "ログを走査した",
     "sources": [
-      {"file": "comment-orchestrator.log", "count": 3},
-      {"file": "comment-warmup.log", "count": 6}
+      {"file": "comment-orchestrator.log", "count": 5},
+      {"file": "comment-warmup.log", "count": 10}
     ]
   },
   "unloaded_count": 53,
