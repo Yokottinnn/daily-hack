@@ -119,3 +119,28 @@ tweet2 が「OpenClaw 復活 + git pull」の依頼を投げる先として使�
 - [`docs/session-handoff.md`](./session-handoff.md) — 現況と作業履歴
 - [`docs/session-log-export.md`](./session-log-export.md) — 相手セッションの会話ログを読む手段
 - [`docs/urgent-request-protocol.md`](./urgent-request-protocol.md) — 緊急依頼の扱い
+
+## `ops/tasks/` の番号は 2 セッションで衝突している
+
+**blog3 と tweet2 が同じ番号空間に書いている。** 2026-08-30 時点で実際にこうなっている。
+
+```text
+ops/tasks/050-fetch-onsen-mark.sh          ← tweet2
+ops/tasks/050-sauna-prices-and-lalaport-x.sh ← blog3
+ops/tasks/051-repaste-sauna-cover.sh       ← tweet2
+ops/tasks/051-morning-prices.sh            ← blog3
+ops/tasks/052-inspect-follow-supply.sh     ← tweet2
+ops/tasks/052-morning-photos.sh            ← blog3
+```
+
+**実行そのものは壊れない。** `done/` の印はファイル名ごとなので、同番号でも両方走る。
+
+**壊れるのは監視と会話。** 「050 は走った？」が通じない。実際に 2026-08-30 に、
+tweet2 が blog3 の `050`/`051` を自分のものと取り違えて「実行された」と誤検知した。
+
+### 決めごと
+
+- **番号ではなくファイル名で参照する。** 「050」ではなく `050-fetch-onsen-mark.sh`
+- **`done/` を見るときも grep はフルネームで。** `05[0-2]-` のような前方一致は当てにならない
+- 番号の帯を分けるのが本筋だが、**それは両セッションの合意が要る**ので
+  [`docs/cross-session-requests.md`](./cross-session-requests.md) に依頼として出してある
