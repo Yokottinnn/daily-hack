@@ -4,10 +4,13 @@
 「候補なし」で黙って終わる。**それを 2026-08-30 に 3 回やって 2 時間 20 分 失った**
 （経緯は [`x-post-latency-postmortem.md`](x-post-latency-postmortem.md)）。
 
-実体は Mac の `~/.openclaw/workspace/scripts/`。クラウドからは読めないので、
-**ここに写しを固定する。** 値はすべて実機の出力から取ったものであり、推測ではない。
+実体は Mac の `~/.openclaw/workspace/scripts/`。**クラウドからは読めないので、
+ここに写しを固定する。** 値はすべて実機の出力・実物のソースから取ったもので、推測ではない。
 
-最終更新: 2026-08-30（`t004` のレポート `post-sauna-v3.md` / `post-sauna.md` の実出力より）
+最終更新: 2026-08-30
+出典: `t002`/`t004` のレポート（`post-sauna.md` / `post-sauna-v3.md`）の実出力、
+および **PR #298**（別セッションが Mac 上の `auto-x-publisher.js` / `run-publish.sh` /
+`post-via-playwright.js` / `queue-manager.js` を直接読んで調べたもの）。
 
 ## 1. いちばん間違えるところ
 
@@ -49,50 +52,104 @@
 ### 積み方の例
 
 ```bash
-# ✅ 正しい形
+# ✅ 正しい形（**単発の投稿**。スレッドは 4 章の thread_chain を使う）
 node -e '
-const [id,text,dir]=process.argv.slice(1);          # ← slice(1)。slice(2) ではない
-const o={id, kind:"thread", text};                   # ← kind は thread
-o.images=["1-summary","2-maihama"].map(f=>`${dir}/${f}.jpg`);
-console.log(JSON.stringify(o));
-' "blog-promo-sauna-openings-2026-$(date +%Y%m%d-%H%M%S)" "$TEXT" "$IMGDIR" \
+const [id,text,csv]=process.argv.slice(1);   # ← slice(1)。slice(2) ではない
+console.log(JSON.stringify({
+  id, kind:"thread", text,                    # ← kind は thread
+  image_path: csv                             # ← images ではない。カンマ区切り
+}));
+' "blog-promo-$(date +%Y%m%d)-<slug>" "$TEXT" "$IMGDIR/1.jpg,$IMGDIR/2.jpg" \
   | node scripts/queue-manager.js enqueue
-
-node scripts/auto-x-publisher.js blog-promo          # ← ここは blog-promo
 ```
+
+**そのうえで、自動投稿に拾わせるなら 3 章の 5 条件を全部満たす必要がある。**
+満たさなければ `auto-x-publisher.js blog-promo` は `no candidate` を返して黙って終わる。
+**明示的に出したいなら `run-publish.sh <id>` を直接叩くほうが確実**（4 章）。
 
 > **`node -e 'code' A B C` は `process.argv = [execPath, A, B, C]`。**
 > スクリプトのパスが入らないので **`slice(1)`** が正しい。
 > `slice(2)` にすると先頭の引数が落ちる（`t002` で `id` に本文が入った）。
 
-## 3. まだ確定していないもの（**埋めるまで当て推量で使わない**）
+## 3. `auto-x-publisher.js` の候補条件は **5 つすべての AND**
 
-| 項目 | 状況 | 確定させる方法 |
+出典: **PR #298**（別セッションが Mac の実物を読んで調べたもの）。
+クラウドからは実体を読めないため、**ここが現状もっとも確度の高い記録**である。
+
+| 条件 | 要求 | `t004` の実際 |
 | --- | --- | --- |
-| 画像のフィールド名 | **未確定。** `t004` の全文検索は `images` を返したが根拠が弱い | `auto-x-publisher.js` の 205〜245 行（blog-promo の画像処理）を dump する |
-| 候補条件の `status` | **未確定。** 136〜137 行の前後が未取得 | 同 120〜150 行を丸ごと dump する |
-| リプライの親を渡すキー | **未確定** | `grep -n 'reply\|in_reply\|thread_parent' auto-x-publisher.js queue-manager.js` |
+| `status` | `awaiting_approval` | `pending` |
+| `kind` | `"thread"` | `"blog-promo"` |
+| `id` の接頭辞 | `"blog-promo-"` | `"sauna-x-"` |
+| `auto_publish` | `true` | フィールドなし |
+| `scheduled_at` | now 以前 | フィールドなし |
 
-**当面の逃げ方**: 画像キーは候補（`images` / `imagePaths` / `imageFiles` / `media` /
-`attachments`）を**全部入れて積む。** 余分なキーは無視されるだけだが、
-足りないと**画像なしで投稿されてしまう。**
+**`t004` は 5 つ全部を外していた。** だから `no candidate` だった。
 
-リプライのキーは逃げが利かない。**見つからないなら積まない。**
-無視されると [2/2] が**独立ツイートとして出て**、スレッドが繋がらない。
+### 画像は `image_path`。**カンマ区切りで最大 4 枚**
 
-## 4. 書く前のチェックリスト
+`run-publish.sh` が読むのは **`image_path`** で、`post-via-playwright.js:31` が
+`split(",")` している。**`images` ではない。**
+`t004` は publisher のソースに `images` という文字列が含まれるかだけを見て選んでいた。
+**全文検索で決めてはいけない。**
+
+### `queue-manager.js` に **`approve` は無い**
+
+実在する case は次の 9 つだけ。
+
+```
+next-pending / show / list-awaiting / list-by-status /
+mark-drafted / mark-skipped / mark-posted / enqueue / mark-dm-sent
+```
+
+`t004` / `t006` が呼ぼうとした `approve` は**存在しないコマンド**だった。
+
+## 4. スレッドは `run-publish.sh` の `thread_chain` で出す
+
+**`auto-x-publisher.js` を 2 回叩いてスレッドにすることはできない。**
+同じ日に blog-promo の thread が投稿済みだと
+`skip: "blog-promo already posted today"` を返すため、
+**[2/2] は構造的に出せない**（`t005` はこれで詰んでいた）。
+
+正しいのは `run-publish.sh <id>`。**`thread_chain[]` を解釈して、
+1 本目を本投稿、2 本目以降を直前への reply として順に出す。**
+[1/2] と [2/2] を **1 エントリ・1 回の呼び出し**で出せる。
+
+```json
+{
+  "id": "blog-promo-20260830-<slug>", "kind": "thread",
+  "text": "<1本目>", "image_path": "a.jpg,b.jpg,c.jpg,d.jpg",
+  "thread_chain": [
+    { "text": "<1本目>", "role": "hook", "image_path": "a.jpg,b.jpg,c.jpg,d.jpg" },
+    { "text": "<2本目>", "role": "cta",  "url": "<記事URL>" }
+  ]
+}
+```
+
+### 出す前に Chrome を確かめる
+
+`run-publish.sh` は冒頭で `ensure-chrome.sh` を呼ぶが、
+**cookie がディスクに永続化できておらず、再起動＝即ログアウト**である。
+ログアウト状態で `thread_chain` を走らせると **[1/2] だけ出て [2/2] が落ちる。**
+**CDP が健全でなければ出さない。**
+
+## 5. 書く前のチェックリスト
+
 
 - [ ] `kind` は `"thread"` か（`"blog-promo"` にしていないか）
 - [ ] `id` は `blog-promo-` で始まっているか
 - [ ] `node -e` の argv は `slice(1)` か
-- [ ] publisher に渡すのは **kind ではなくモード名**（`blog-promo`）か
-- [ ] 画像キーは候補を全部入れたか
+- [ ] 画像は **`image_path` にカンマ区切り**で入れたか（`images` ではない）
+- [ ] **スレッドなら `thread_chain[]` を作り、`run-publish.sh <id>` で出す**か
+      （`auto-x-publisher.js` を 2 回叩いても [2/2] は出ない）
+- [ ] `queue-manager.js approve` を呼んでいないか（**存在しない**）
+- [ ] 出す前に **CDP の健全性**を確かめているか（ログアウト中は [1/2] だけ出る）
 - [ ] 投稿前後に件数を数え、2 件以上なら止める仕掛けが入っているか
 - [ ] **人が手で投稿した可能性を考えたか**
       （キューの件数ガードは **X 上の手動投稿を検知できない**。
       2026-08-30 に利用者が手で投稿し、タスクを main から消して止めた）
 
-## 5. 関連
+## 6. 関連
 
 - `ops/tasks` の実行モデル: [`ops-task-runner.md`](ops-task-runner.md)
 - 遅延の経緯と対策: [`x-post-latency-postmortem.md`](x-post-latency-postmortem.md)
