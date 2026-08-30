@@ -46,8 +46,8 @@ references: ["https://www.newoman.jp/takanawa/floorguide/detail/?scd=003014", "h
   </a>
   <a class="event-pick" href="#料金" style="--pick-img:url('/images/sauna-openings-2026/photos/tokyo.jpg')">
     <span class="pick-date">料金</span>
-    <h4>550円〜3,700円</h4>
-    <p>裏の取れた14施設で<strong>6.7倍</strong>の開き。同じ「サウナ代」として比べても意味がない。</p>
+    <h4>安いのは550円、高いのは3,700円</h4>
+    <p>公式で裏を取れた14施設を<strong>安い順に並べた</strong>。上と下で<strong>6.7倍</strong>の開き。</p>
     <span class="pick-go">詳しく見る →</span>
   </a>
   <a class="event-pick" href="#地域" style="--pick-img:url('/images/sauna-openings-2026/photos/yokohama.jpg')">
@@ -68,7 +68,7 @@ references: ["https://www.newoman.jp/takanawa/floorguide/detail/?scd=003014", "h
       <tr class="recommended"><td>男女</td><td><strong>男性専用 9／男女 8</strong></td><td><a href="#女性が入れるサウナ">PARADISE 大手町が男性専用と確定して 9 になった</a></td></tr>
       <tr><td>内訳</td><td><strong>東京 10／17（59%）</strong></td><td><a href="#地域">神奈川3・千葉3・埼玉1</a></td></tr>
       <tr><td>最多の月</td><td><strong>7月（5施設）</strong></td><td><a href="#月別">2月・5月が各3で続く。<strong>6月だけがゼロ</strong></a></td></tr>
-      <tr><td>料金の幅</td><td><strong>550円〜3,700円</strong></td><td><a href="#料金">裏の取れた14施設で<strong>6.7倍</strong></a></td></tr>
+      <tr><td>料金の幅</td><td><strong>550円〜3,700円</strong></td><td><a href="#料金">安い順ランキングは14施設。上と下で<strong>6.7倍</strong></a></td></tr>
       <tr><td>1軒ずつ</td><td><strong>17施設 全部</strong></td><td><a href="#17施設を1軒ずつ">X の実投稿と YouTube の動画つきで解説</a></td></tr>
     </tbody>
   </table>
@@ -117,7 +117,7 @@ references: ["https://www.newoman.jp/takanawa/floorguide/detail/?scd=003014", "h
 
 <div class="section-with-mascot">
   <div class="mascot-wrap"><img src="/images/expr-06-shock.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="料金">料金｜裏の取れた14施設で6.7倍の開き</h2>
+  <h2 id="料金">サウナ料金 安い順ランキング｜550円から3,700円まで、首都圏14施設</h2>
 </div>
 
 <figure class="rn-figure">
@@ -125,7 +125,7 @@ references: ["https://www.newoman.jp/takanawa/floorguide/detail/?scd=003014", "h
   <figcaption>都心の新店は駅直結・高層階の複合型が多く、そのぶん価格帯も上がる。<cite>出典: <a href="https://commons.wikimedia.org/wiki/File:Minato_City,_Tokyo,_Japan_(Night)-denoised.jpg" target="_blank" rel="noopener">David Kernan / Wikimedia Commons</a>（CC BY 4.0）</cite></figcaption>
 </figure>
 
-**「サウナの新店」とひとことで言うが、価格帯はまるで別物。** 公式・プレスリリース・報道で料金を確認できた14施設を安い順に並べる。**確認できなかった施設は載せていない。**
+**「サウナの新店」とひとことで言うが、価格帯はまるで別物。** 公式・プレスリリース・報道で料金を確認できた**14施設を安い順に並べた**。いちばん安いのは**550円**、いちばん高いのは**3,700円**。**確認できなかった施設は載せていない。**
 
 <div class="cmp-table-wrap">
   <table class="cmp-table wrap-table">
