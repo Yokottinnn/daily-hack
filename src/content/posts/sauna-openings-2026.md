@@ -135,8 +135,8 @@ references: ["https://www.newoman.jp/takanawa/floorguide/detail/?scd=003014", "h
       <tr><td><a href="https://www.supersento.com/kanto/chiba/maisa_tokyo.html" target="_blank" rel="noopener">毎日サウナ東京 幕張店</a></td><td>1,300円〜</td><td>平日60分。平日フリー2,500円／土日祝60分1,800円</td></tr>
       <tr><td><a href="http://k-scc.co.jp/sauna/price/price.html" target="_blank" rel="noopener">サウナリゾート＆スパ BlueOcean</a></td><td>1,750円（税別）</td><td>15歳以上・平日。特定日と土日祝は2,050円（税別）</td></tr>
       <tr><td><a href="https://ryusenjinoyu.com/saunametsaoimachi/" target="_blank" rel="noopener">サウナメッツァ 大井町トラックス</a></td><td>1,800円〜</td><td>平日。土日は2,400円</td></tr>
-      <tr><td><a href="https://www.my-spa.jp/price/" target="_blank" rel="noopener">スパ＆ホテル 舞浜ユーラシア</a></td><td>2,100円</td><td>SPA入館・平日（入湯税込）。土日祝2,600円。<strong>5階の SPA+ は別途950円</strong></td></tr>
       <tr><td><a href="https://onsen.nifty.com/ootemachi-onsen/onsen024731/" target="_blank" rel="noopener">PARADISE 大手町</a></td><td>1,980円〜</td><td>1時間のグランドオープン価格。通常価格の記載は1時間2,178円・3時間3,278円</td></tr>
+      <tr><td><a href="https://www.my-spa.jp/price/" target="_blank" rel="noopener">スパ＆ホテル 舞浜ユーラシア</a></td><td>2,100円</td><td>SPA入館・平日（入湯税込）。土日祝2,600円。<strong>5階の SPA+ は別途950円</strong></td></tr>
       <tr class="recommended"><td><a href="https://www.newoman.jp/takanawa/floorguide/detail/?scd=003014" target="_blank" rel="noopener">高輪SAUNAS</a></td><td><strong>3,700円</strong></td><td>男性・平日4時間。女性3,200円ほか（2026年7月時点）</td></tr>
     </tbody>
   </table>
@@ -239,7 +239,7 @@ references: ["https://www.newoman.jp/takanawa/floorguide/detail/?scd=003014", "h
     <tbody>
       <tr class="recommended"><td><strong>駅から歩かない</strong><br><small>徒歩3分以内・駅直結</small></td><td><a href="#-高輪saunas29東京">高輪SAUNAS</a>（高輪ゲートウェイ<strong>直結</strong>）／<a href="#-サウナメッツァ-大井町トラックス328東京">大井町トラックス</a>（徒歩2分）／<a href="#-paradise-大手町21東京">PARADISE 大手町</a>（徒歩3分・B2a直結）／<a href="#-shiagaru-sauna-神田秋葉原413東京">SHIAGARU SAUNA</a>（岩本町 徒歩2分）／<a href="#-サウナリゾートスパ-blueocean76神奈川">BlueOcean</a>（新横浜駅前）／<a href="#-おかえりサウナ板橋56東京">おかえりサウナ板橋</a>（板橋本町駅前）／<a href="#-海賊サウナカプセルホテル811神奈川">海賊サウナ</a>（小田原駅前）</td></tr>
       <tr><td><strong>安く入りたい</strong><br><small>2,200円未満で入れる</small></td><td><a href="#-黄金湯-新宿️77東京">黄金湯 新宿</a> <strong>550円</strong>（サウナ別）／<a href="#-毎日サウナ東京-幕張店58千葉">毎日サウナ東京 幕張店</a> 平日60分 <strong>1,300円</strong>／<a href="#-サウナリゾートスパ-blueocean76神奈川">BlueOcean</a> 平日 1,750円（税別）／<a href="#-サウナメッツァ-大井町トラックス328東京">大井町トラックス</a> 平日 1,800円〜／<a href="#-paradise-大手町21東京">PARADISE 大手町</a> 1時間 1,980円〜／<a href="#-スパホテル-舞浜ユーラシア️115千葉">舞浜ユーラシア</a> 平日 2,100円</td></tr>
-      <tr><td><strong>深夜・早朝に入りたい</strong></td><td><a href="#-サウナリゾートスパ-blueocean76神奈川">BlueOcean</a>（<strong>24時間営業</strong>。ナイト 24:00〜翌9:00 は平日3,980円）／<a href="#-水宴--suien-7月中旬東京">水宴 -suien-</a>（24時間営業）／<a href="#-サウナメッツァ-大井町トラックス328東京">大井町トラックス</a>（6:00〜翌2:00・年中無休）</td></tr>
+      <tr><td><strong>深夜・早朝に入りたい</strong></td><td><strong>24時間営業は3施設。</strong><a href="#-サウナリゾートスパ-blueocean76神奈川">BlueOcean</a>（ナイト 24:00〜翌9:00 は平日3,980円）／<a href="#-毎日サウナ東京-幕張店58千葉">毎日サウナ東京 幕張店</a>（6:00〜9:00は清掃）／<a href="#-水宴--suien-7月中旬東京">水宴 -suien-</a>。ほかに<a href="#-サウナメッツァ-大井町トラックス328東京">大井町トラックス</a>が6:00〜翌2:00・年中無休</td></tr>
       <tr><td><strong>泊まりたい</strong></td><td><a href="#-海賊サウナカプセルホテル811神奈川">海賊サウナ＆カプセルホテル</a>（小田原駅前）／<a href="#-スパホテル-舞浜ユーラシア️115千葉">スパ＆ホテル 舞浜ユーラシア</a>（<strong>宿泊しなくてもスパだけ使える</strong>）</td></tr>
       <tr class="recommended"><td><strong>女性が入れる</strong></td><td><a href="#女性が入れるサウナ">8軒</a>。舞浜ユーラシア／高輪SAUNAS／大井町トラックス／SAUNA汽汽／黄金湯 新宿／門仲SAUNAS LO／BlueOcean／SPA EAS</td></tr>
       <tr><td><strong>薪・ケロの本格サウナ</strong></td><td><a href="#-サウナ蒸薪53埼玉">サウナ蒸薪</a>（大型薪ストーブ＋地下水かけ流し）／<a href="#-サウナメッツァ-大井町トラックス328東京">大井町トラックス</a>（<strong>400年超のケロ</strong>を使ったサウナ）／<a href="#-毎日サウナ東京-幕張店58千葉">毎日サウナ東京 幕張店</a>（薪サウナ）</td></tr>
@@ -706,6 +706,26 @@ references: ["https://www.newoman.jp/takanawa/floorguide/detail/?scd=003014", "h
       <tr><td>男女の別・レディースデー</td><td>公式サイトとSNSの告知。まとめ記事では分からない</td></tr>
       <tr><td>予約の要否</td><td>公式の予約ページ。開業直後は特に変わりやすい</td></tr>
       <tr><td>料金の時間区分と曜日区分</td><td>公式の料金ページ。「〜円から」の表記に注意</td></tr>
+    </tbody>
+  </table>
+</div>
+
+## よくある質問｜何軒・女性は・いちばん安いのは
+
+**検索でよく聞かれることに、この記事の数字で答える。** 根拠の節へリンクを張っているので、詳しくはそちらへ。
+
+<div class="cmp-table-wrap">
+  <table class="cmp-table wrap-table">
+    <thead><tr><th>質問</th><th>答え</th></tr></thead>
+    <tbody>
+      <tr class="recommended"><td><strong>2026年に首都圏でオープンしたサウナは何軒？</strong></td><td><a href="#首都圏17施設リスト"><strong>17施設</strong></a>（新規14・既存のリニューアル3）。<a href="#地域">東京10・神奈川3・千葉3・埼玉1</a>で、<strong>東京だけで約6割</strong></td></tr>
+      <tr class="recommended"><td><strong>女性も入れる新店はどこ？</strong></td><td><a href="#女性が入れるサウナ"><strong>8軒</strong></a>。舞浜ユーラシア／高輪SAUNAS／サウナメッツァ大井町／SAUNA汽汽／黄金湯 新宿／門仲SAUNAS LO／BlueOcean／SPA EAS。<strong>男性専用8軒とちょうど半々</strong></td></tr>
+      <tr class="recommended"><td><strong>いちばん安いのは？</strong></td><td><a href="#料金">黄金湯 新宿の<strong>550円</strong></a>。ただしこれは<strong>銭湯の入浴料で、サウナは別料金</strong>。サウナ込みで安いのは毎日サウナ東京 幕張店の平日60分1,300円</td></tr>
+      <tr><td><strong>いちばん高いのは？</strong></td><td><a href="#料金">高輪SAUNASの<strong>3,700円</strong></a>（男性・平日4時間）。550円との差は<strong>6.7倍</strong>だが、レストラン・ワークスペース・仮眠スペース込みの都市型リトリートなので、同じ「サウナ代」ではない</td></tr>
+      <tr><td><strong>24時間やっているサウナは？</strong></td><td><a href="#目的別"><strong>3施設</strong></a>。BlueOcean（新横浜駅前）／毎日サウナ東京 幕張店（6:00〜9:00は清掃）／水宴 -suien-（麻布十番）。大井町トラックスも6:00〜翌2:00で年中無休</td></tr>
+      <tr><td><strong>予約は要るの？</strong></td><td><strong>施設による。</strong>SHIAGARU SAUNAは予約制、海賊サウナは8月中が事前予約制、SAUNA汽汽は完全個室なので貸切。<strong>都市型の小型店ほど予約制を採りやすい</strong></td></tr>
+      <tr class="recommended"><td><strong>カップルで一緒に入れるサウナは？</strong></td><td><a href="#-sauna汽汽--キキ-420東京">SAUNA汽汽</a>（<strong>水着着用・最大3名の完全個室</strong>）と<a href="#-横浜天然温泉-spa-eas️728神奈川">SPA EAS</a>（館内着のまま男女一緒に入れる没入型エリア）。舞浜ユーラシアの5階も男女共用</td></tr>
+      <tr><td><strong>なぜ2026年に集中したの？</strong></td><td>「026」が「お・ふ・ろ」と読めることから、<strong>2026年は「お風呂の年」として日本記念日協会に記念年登録されている</strong>。全国 約2,000施設が横断プロジェクトに参加していて、<strong>次の「026」は3026年</strong></td></tr>
     </tbody>
   </table>
 </div>
