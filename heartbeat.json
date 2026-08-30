@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T12:11:47Z",
+  "generated_at": "2026-08-30T12:42:27Z",
   "host": "NaokinoMBP-2",
   "job_count": 20,
   "jobs": [
@@ -26,15 +26,12 @@
   ],
   "reconnect": "既に起動している",
   "tasks": [
-      {"task": "050-fetch-onsen-mark.sh", "rc": 1, "out": ""},
-      {"task": "051-repaste-sauna-cover.sh", "rc": 0, "out": "1 枚目を貼り直した / repaste-cover.md"},
-      {"task": "052-inspect-follow-supply.sh", "rc": 0, "out": "供給の詰まりを調べた / follow-supply.md 172 行"},
-      {"task": "052-morning-photos.sh", "rc": 0, "out": "ソーセージエッグW定食 玉 remote:      https://github.com/Yokottinnn/daily-hack/pull/new/claude/morning-material3         remote:  reports/morning-photos.md / branch claude/morning-material3"},
-      {"task": "053-morning-tweets.sh", "rc": 0, "out": "handle : @gachikun0423 date   : 2026-04-07T01:27:13.000Z text   : おはようございます！ 今日はコメダ珈琲"}
+      {"task": "054-sauna-fill.sh", "rc": 0, "out": "月～金 　　　13:00～23:00 (21:50最終入場) 土・日・祝　 11:00～23:00 (21:50 remote:      https://github.com/Yokottinnn/daily-hack/pull/new/claude/sauna-material4         remote:  reports/sauna-fill.md / branch claude/sauna-material4"},
+      {"task": "t001-widen-hashtags.sh", "rc": 0, "out": "ハッシュタグを 8 → 16 に増やした / widen-hashtags.md"}
   ],
   "auth": {
     "ok": true,
-    "expires_at": "2026-08-30T19:57:23Z",
+    "expires_at": "2026-08-30T20:36:45Z",
     "detail": "有効期限内"
   },
   "activity": {
