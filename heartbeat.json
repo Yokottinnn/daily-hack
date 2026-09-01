@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T23:01:25Z",
+  "generated_at": "2026-09-01T23:31:31Z",
   "host": "NaokinoMBP-2",
   "job_count": 10,
   "jobs": [
@@ -17,9 +17,9 @@
   "reconnect": "既に起動している",
   "tasks": [],
   "auth": {
-    "ok": true,
+    "ok": false,
     "expires_at": "2026-09-01T23:24:41Z",
-    "detail": "有効期限内"
+    "detail": "トークンの有効期限を過ぎている"
   },
   "activity": {
     "date": "2026-09-01",
