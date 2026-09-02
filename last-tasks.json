@@ -1,1 +1,3 @@
-[]
+[
+      {"task": "t017-halt-replies-and-dump.sh", "rc": 0, "out": "**返信を止めた。実物を持ち帰った** / halt-replies-and-dump.md"}
+  ]
