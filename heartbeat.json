@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-02T03:32:30Z",
-  "host": "NaokinoMBP-2",
+  "generated_at": "2026-09-02T04:02:36Z",
+  "host": "NaokinoMacBook-Pro-2.local",
   "job_count": 10,
   "jobs": [
     "ai.openclaw.comment-warmup",
