@@ -1,0 +1,67 @@
+{
+  "_note": "各チェーンの公式サイトの商品写真を引用している。Commons の自由ライセンス画像ではないため、figcaption の cite で出典を必ず示すこと。メニュー改定で元ページから消えることがあるので、取得元 URL をここに残す。取得日 2026-08-30（ops/tasks/052-morning-photos.sh）。",
+  "doutor": {
+    "brand": "ドトールコーヒー",
+    "item": "モーニング・セットB アボカド＆ツナポテト",
+    "source": "https://www.doutor.co.jp/dcs/menu/list/morning.html",
+    "source_type": "公式サイト（引用）",
+    "width": 690,
+    "height": 690
+  },
+  "komeda": {
+    "brand": "コメダ珈琲店",
+    "item": "モーニングサービス",
+    "source": "https://www.komeda.co.jp/menu/morning_komeda.html",
+    "source_type": "公式サイト（引用）",
+    "width": 640,
+    "height": 480
+  },
+  "matsuya": {
+    "brand": "松屋",
+    "item": "ソーセージエッグ定食",
+    "source": "https://www.matsuyafoods.co.jp/matsuya/menu/morning/",
+    "source_type": "公式サイト（引用）",
+    "width": 750,
+    "height": 600
+  },
+  "matsuya-tkg": {
+    "brand": "松屋",
+    "item": "Wで選べる玉子かけごはん",
+    "source": "https://www.matsuyafoods.co.jp/matsuya/menu/morning/",
+    "source_type": "公式サイト（引用）",
+    "width": 750,
+    "height": 600
+  },
+  "matsuya-gyuzara": {
+    "brand": "松屋",
+    "item": "牛皿定食",
+    "source": "https://www.matsuyafoods.co.jp/matsuya/menu/morning/",
+    "source_type": "公式サイト（引用）",
+    "width": 750,
+    "height": 600
+  },
+  "sukiya": {
+    "brand": "すき家",
+    "item": "まぜのっけ朝食",
+    "source": "https://www.sukiya.jp/menu/in/morning/",
+    "source_type": "公式サイト（引用）",
+    "width": 1068,
+    "height": 638
+  },
+  "ueshima": {
+    "brand": "上島珈琲店",
+    "item": "ベーコンエッグ＆厚切りバタートースト",
+    "source": "https://www.ueshima-coffee-ten.jp/menu/morning/",
+    "source_type": "公式サイト（引用）",
+    "width": 1200,
+    "height": 511
+  },
+  "yoshinoya": {
+    "brand": "吉野家",
+    "item": "朝定食",
+    "source": "https://www.yoshinoya.com/menu/morningset/",
+    "source_type": "公式サイト（引用）",
+    "width": 928,
+    "height": 928
+  }
+}
