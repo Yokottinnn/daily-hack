@@ -103,17 +103,49 @@ async function main() {
   }
 
   // --- 生成 ---
+  //
+  // **`anthropic-client.js` の呼び方を推測で決めない。**
+  // 2026-09-04 に `ant.create(...)` と書いて `is not a function` で落ちた。
+  // モジュールに**実際にある**関数を探して使い、見つからなければ
+  // **何があるかを報告する**（次の一手で必ず当たるように）。
   let text = '';
   try {
     const ant = require(path.join(process.env.HOME || '', '.openclaw', 'workspace', 'scripts', 'anthropic-client.js'));
-    const resp = await ant.create({
+
+    const req = {
       model: cfg.model,
       max_tokens: Number(cfg.max_tokens || 300),
       temperature: Number(cfg.temperature || 0.9),
       system: cfg.system.join('\n'),
       messages: [{ role: 'user', content: userMsg }],
-    });
-    const body = String(ant.textOf(resp) || '').trim();
+    };
+
+    let call = null, how = '';
+    if (typeof ant === 'function') { call = ant; how = 'module()'; }
+    else {
+      for (const k of ['create', 'call', 'complete', 'chat', 'send', 'generate', 'message', 'run', 'ask']) {
+        if (typeof ant[k] === 'function') { call = ant[k].bind(ant); how = k + '()'; break; }
+      }
+      if (!call && ant.messages && typeof ant.messages.create === 'function') {
+        call = ant.messages.create.bind(ant.messages); how = 'messages.create()';
+      }
+    }
+    if (!call) {
+      const keys = (ant && typeof ant === 'object') ? Object.keys(ant).join(', ') : typeof ant;
+      return skip('anthropic-client に呼べる関数が無い。export: [' + keys.slice(0, 200) + ']');
+    }
+
+    const resp = await call(req);
+
+    // 応答から本文を取り出すのも同様に、あるものを使う
+    let body = '';
+    if (typeof ant.textOf === 'function') body = String(ant.textOf(resp) || '');
+    else if (typeof resp === 'string') body = resp;
+    else if (resp && Array.isArray(resp.content)) body = resp.content.map(c => c && c.text || '').join('');
+    else if (resp && typeof resp.text === 'string') body = resp.text;
+    else if (resp && resp.completion) body = String(resp.completion);
+    else return skip('応答の形が分からない（' + how + ' / keys: ' + Object.keys(resp || {}).join(',').slice(0, 120) + '）');
+    body = body.trim();
     const m = body.match(/\{[\s\S]*\}/);
     if (!m) return skip('応答に JSON が無い');
     const parsed = JSON.parse(m[0]);
