@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T14:23:10Z",
+  "generated_at": "2026-09-04T14:53:17Z",
   "host": "NaokinoMacBook-Pro-2.local",
   "job_count": 9,
   "jobs": [
@@ -14,9 +14,7 @@
     "com.dailyhack.weekly-blog-report"
   ],
   "reconnect": "既に起動している",
-  "tasks": [
-      {"task": "066-morning-dishes2.sh", "rc": 0, "out": "    https://www.komeda.co.jp/img/menu_morning_komeda_side03.jpg   - `m5/ remote:      https://github.com/Yokottinnn/daily-hack/pull/new/claude/morning-dishes2         remote:  reports/morning-dishes2.md / branch claude/morning-dishes2"}
-  ],
+  "tasks": [],
   "auth": {
     "ok": true,
     "expires_at": "2026-09-04T17:24:49Z",
