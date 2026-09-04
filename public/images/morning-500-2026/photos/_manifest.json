@@ -16,14 +16,6 @@
     "width": 640,
     "height": 480
   },
-  "matsuya": {
-    "brand": "松屋",
-    "item": "ソーセージエッグ定食",
-    "source": "https://www.matsuyafoods.co.jp/matsuya/menu/morning/",
-    "source_type": "公式サイト（引用）",
-    "width": 750,
-    "height": 600
-  },
   "matsuya-tkg": {
     "brand": "松屋",
     "item": "Wで選べる玉子かけごはん",
