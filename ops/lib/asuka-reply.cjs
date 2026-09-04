@@ -112,12 +112,23 @@ async function main() {
   try {
     const ant = require(path.join(process.env.HOME || '', '.openclaw', 'workspace', 'scripts', 'anthropic-client.js'));
 
+    // **推測せず、動いている `asuka-fill.js` と同じ形にする。**
+    //
+    //   const resp = await ant.call({
+    //     model: MODEL, system: SYSTEM, user: userMsg,
+    //     max_tokens: 500, temperature: 0.7,
+    //   });
+    //
+    // `messages` 配列ではなく **`user` に文字列**を渡すクライアントだった。
+    // 2026-09-04、`messages` を渡して `messages.0.content: Field required` で
+    // 400 になった。クライアントが `user` から messages を組み立てるため、
+    // `user` が undefined のまま送られていた。
     const req = {
       model: cfg.model,
+      system: cfg.system.join('\n'),
+      user: userMsg,
       max_tokens: Number(cfg.max_tokens || 300),
       temperature: Number(cfg.temperature || 0.9),
-      system: cfg.system.join('\n'),
-      messages: [{ role: 'user', content: userMsg }],
     };
 
     let call = null, how = '';
