@@ -1,1 +1,4 @@
-[]
+[
+      {"task": "064-lalaport-photos-rest.sh", "rc": 0, "out": "    - `lala3/yokohama-cc3.jpg` 1280x960 ／ライセンス **CC BY-SA 4.0** ／作者 Tokumeigakarinoaoshima ／File:LaLaport Yokohama.jpg ／検索語 `ららぽーと横浜`     remote:      https://github.com/Yokottinnn/daily-hack/pull/new/claude/lalaport-photos3         remote:  reports/lalaport"},
+      {"task": "t023-preview-v3.sh", "rc": 0, "out": "まだ生成できていない。呼び出し方を報告に出した / preview-v3.md"}
+  ]
