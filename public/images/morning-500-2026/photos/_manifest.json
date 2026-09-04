@@ -87,5 +87,22 @@
     "source_type": "公式サイト（引用）",
     "width": 600,
     "height": 356
-  }
+  },
+  "stmarc-asamaruku": {
+    "brand": "サンマルクカフェ",
+    "item": "あさマルクカフェのセット一覧",
+    "source": "https://www.saint-marc-hd.com/saintmarccafe/news/1318/",
+    "source_type": "公式サイト（引用）",
+    "width": 1200,
+    "height": 675
+  },
+  "nakau-mazenokke": {
+    "brand": "なか卯",
+    "item": "まぜのっけごはん朝食",
+    "source": "https://www.nakau.co.jp/jp/menu/category/6.html",
+    "source_type": "公式サイト（引用）",
+    "width": 384,
+    "height": 270
+  },
+  "_note_mos": "③ モスバーガーの朝モスの写真は 065・066・067 の3回とも取れなかった。公式から出てくるのはブランドページ・コーヒーチケットの販促バナー・ポテト＋アイスティーで、朝モスの品目写真は公開されていない。写真なしで確定。"
 }
