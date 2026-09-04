@@ -222,26 +222,6 @@ Skill(skill="x-post-images")   ← 実体は .claude/skills/x-post-images/SKILL.
 `page.setContent()` では `file://` の画像が読めず、**灰色の空カードがエラーも出さずに
 出力される**という穴も同時に踏んでいる。手順と落とし穴をスキルに書いてある。
 
-### 5. 自分の役割の外を勝手に触らない（例外なし）
-
-セッションは役割で分かれている。**担当外の領域は、直せると分かっていても自分で直さない。**
-
-| セッション | 担当 |
-| --- | --- |
-| `daily-hack-blog3` | **ブログ記事**の企画・執筆・画像・公開 |
-| `daily-hack-tweet2` | **X の運用・戦略・自動化** |
-
-- 迷ったら、成果物が「記事」なら blog3、「X 上の動き」なら tweet2。
-- **担当外のことに気づいたら、直さずに
-  [`docs/cross-session-requests.md`](docs/cross-session-requests.md) に依頼として書く。**
-  黙って見送るのも、勝手に直すのも、どちらも違反。
-- 2 つのセッションは**直接会話できない**。届くのは Git にコミットされたファイルだけ。
-- 共有ファイル（`CLAUDE.md` / `docs/session-*.md` / `.claude/hooks/`）を触る前に必ず `git pull`。
-
-**2026-08-16 に、blog3 が X 運用の設計書を書き換え、同時刻に tweet2 も同じファイルを
-更新していてマージ衝突が 2 回起きた。** 境界と受け渡しの詳細は
-[`docs/session-roles.md`](docs/session-roles.md) を参照。
-
 ## OpenClaw 連携
 
 OpenClaw は利用者の Mac（`home-mac` / 192.168.2.102）で動く常駐エージェント。
