@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T13:17:48Z",
+  "generated_at": "2026-09-04T13:48:59Z",
   "host": "NaokinoMacBook-Pro-2.local",
   "job_count": 9,
   "jobs": [
@@ -15,8 +15,7 @@
   ],
   "reconnect": "既に起動している",
   "tasks": [
-      {"task": "064-lalaport-photos-rest.sh", "rc": 0, "out": "    - `lala3/yokohama-cc3.jpg` 1280x960 ／ライセンス **CC BY-SA 4.0** ／作者 Tokumeigakarinoaoshima ／File:LaLaport Yokohama.jpg ／検索語 `ららぽーと横浜`     remote:      https://github.com/Yokottinnn/daily-hack/pull/new/claude/lalaport-photos3         remote:  reports/lalaport"},
-      {"task": "t023-preview-v3.sh", "rc": 0, "out": "まだ生成できていない。呼び出し方を報告に出した / preview-v3.md"}
+      {"task": "065-morning-logos-menus.sh", "rc": 0, "out": "      `m4/mcd-dish1.jpg` 600x356 小 ← https://www.mcdonalds.co.jp/product_images/3782/9184.png?20260901170748       ページ: https://ww remote:      https://github.com/Yokottinnn/daily-hack/pull/new/claude/morning-logos         remote:  reports/morning-logos-menus.md / branch claude/morning-log"}
   ],
   "auth": {
     "ok": true,
