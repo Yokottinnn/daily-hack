@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T13:48:59Z",
+  "generated_at": "2026-09-04T14:23:10Z",
   "host": "NaokinoMacBook-Pro-2.local",
   "job_count": 9,
   "jobs": [
@@ -15,7 +15,7 @@
   ],
   "reconnect": "既に起動している",
   "tasks": [
-      {"task": "065-morning-logos-menus.sh", "rc": 0, "out": "      `m4/mcd-dish1.jpg` 600x356 小 ← https://www.mcdonalds.co.jp/product_images/3782/9184.png?20260901170748       ページ: https://ww remote:      https://github.com/Yokottinnn/daily-hack/pull/new/claude/morning-logos         remote:  reports/morning-logos-menus.md / branch claude/morning-log"}
+      {"task": "066-morning-dishes2.sh", "rc": 0, "out": "    https://www.komeda.co.jp/img/menu_morning_komeda_side03.jpg   - `m5/ remote:      https://github.com/Yokottinnn/daily-hack/pull/new/claude/morning-dishes2         remote:  reports/morning-dishes2.md / branch claude/morning-dishes2"}
   ],
   "auth": {
     "ok": true,
