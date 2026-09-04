@@ -21,8 +21,8 @@
     "item": "Wで選べる玉子かけごはん",
     "source": "https://www.matsuyafoods.co.jp/matsuya/menu/morning/",
     "source_type": "公式サイト（引用）",
-    "width": 750,
-    "height": 600
+    "width": 720,
+    "height": 720
   },
   "matsuya-gyuzara": {
     "brand": "松屋",
@@ -45,8 +45,8 @@
     "item": "ベーコンエッグ＆厚切りバタートースト",
     "source": "https://www.ueshima-coffee-ten.jp/menu/morning/",
     "source_type": "公式サイト（引用）",
-    "width": 1200,
-    "height": 511
+    "width": 1100,
+    "height": 825
   },
   "yoshinoya": {
     "brand": "吉野家",
@@ -61,8 +61,8 @@
     "item": "ソーセージエッグW定食",
     "source": "https://www.matsuyafoods.co.jp/matsuya/menu/morning/",
     "source_type": "公式サイト（引用）",
-    "width": 750,
-    "height": 600
+    "width": 720,
+    "height": 720
   },
   "yoshinoya-shiosaba-gyu": {
     "brand": "吉野家",
@@ -79,5 +79,13 @@
     "source_type": "公式サイト（引用）",
     "width": 928,
     "height": 928
+  },
+  "mcd-morning-set": {
+    "brand": "マクドナルド",
+    "item": "朝マックのセット",
+    "source": "https://www.mcdonalds.co.jp/menu/morning/",
+    "source_type": "公式サイト（引用）",
+    "width": 600,
+    "height": 356
   }
 }
