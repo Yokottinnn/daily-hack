@@ -152,7 +152,7 @@ async function main() {
     if (parsed.skip) return skip('生成側が skip: ' + (parsed.reason || ''));
     text = String(parsed.text || '').trim();
   } catch (e) {
-    return skip('生成に失敗: ' + (e && e.message ? e.message.slice(0, 80) : 'unknown'));
+    return skip('生成に失敗: ' + (e && e.message ? e.message.slice(0, 600) : 'unknown'));
   }
 
   if (!text) return skip('空文');
@@ -175,4 +175,4 @@ async function main() {
   out({ text, target_text: target, model: cfg.model, shared: rel.shared, warns: rel.warns });
 }
 
-main().catch(e => skip('想定外: ' + (e && e.message ? e.message.slice(0, 80) : 'unknown')));
+main().catch(e => skip('想定外: ' + (e && e.message ? e.message.slice(0, 600) : 'unknown')));
