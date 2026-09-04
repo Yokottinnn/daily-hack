@@ -723,6 +723,11 @@ TOKYO-BAYの**2.1倍**。この表の最下位（愛知東郷 46.0万円）と�
   </table>
 </div>
 
+<figure class="rn-figure">
+  <img src="/images/lalaport-guide-2026/photos/fac-koshien.jpg" alt="ららぽーと甲子園の正面入口。阪神甲子園球場のとなりに建つ" loading="lazy" />
+  <figcaption>正面入口。ここは<strong>阪神パークの跡地</strong>で、2003年の閉園後にららぽーとが建った。<cite>撮影: 茶家川 ／ <a href="https://commons.wikimedia.org/wiki/File:ららぽーと甲子園_正面入口.jpg" target="_blank" rel="noopener">Wikimedia Commons</a>（CC BY-SA 4.0）</cite></figcaption>
+</figure>
+
 **関西の第1号で、20施設中2番目に古い。** 阪神甲子園球場のとなり。面積は11位と中位だが、関西進出の起点になった施設。
 
 **この土地には、ららぽーとの前に別の施設があった。** 西宮市長の投稿がそれを教えてくれる。
@@ -776,6 +781,11 @@ TOKYO-BAYの**2.1倍**。この表の最下位（愛知東郷 46.0万円）と�
     </tbody>
   </table>
 </div>
+
+<figure class="rn-figure">
+  <img src="/images/lalaport-guide-2026/photos/fac-kashiwanoha.jpg" alt="ららぽーと柏の葉の外観。つくばエクスプレス柏の葉キャンパス駅から徒歩1分" loading="lazy" />
+  <figcaption>柏の葉キャンパス駅から徒歩1分。<strong>店舗面積は約49,500㎡で全20施設の最小</strong>だが、駅前という立地で人が集まりすぎている。<cite>撮影: Archiroid21 ／ <a href="https://commons.wikimedia.org/wiki/File:LaLaport_Kashiwanoha_2024.jpg" target="_blank" rel="noopener">Wikimedia Commons</a>（CC BY-SA 4.0）</cite></figcaption>
+</figure>
 
 **面積20位＝全20施設でいちばん小さい**（約49,500㎡）。ただし駅から徒歩1分で、<a href="#ららぽーと柏の葉人が増えすぎて食が足りない">人が増えすぎて「食」が足りない</a>状態になっている。
 
@@ -836,6 +846,11 @@ TOKYO-BAYの**2.1倍**。この表の最下位（愛知東郷 46.0万円）と�
   </table>
 </div>
 
+<figure class="rn-figure">
+  <img src="/images/lalaport-guide-2026/photos/fac-shinmisato.jpg" alt="ららぽーと新三郷ANNEXの外観。新三郷駅に直結している" loading="lazy" />
+  <figcaption>駅に直結するANNEX側の外観。本館とANNEXは連絡通路でつながっているが、<strong>駐車場の条件はこの2棟で別</strong>。<cite><a href="https://commons.wikimedia.org/wiki/File:ANNEX.jpg" target="_blank" rel="noopener">Wikimedia Commons</a>（CC0 / パブリックドメイン）</cite></figcaption>
+</figure>
+
 **新三郷駅 直結。** 駐車場は本館が終日無料だが、<strong>ANNEX側は有料</strong>。同じ施設内で条件が割れる珍しい例。
 
 ### ⑧ ららぽーと和泉（2014年10月・大阪）
@@ -852,6 +867,11 @@ TOKYO-BAYの**2.1倍**。この表の最下位（愛知東郷 46.0万円）と�
     </tbody>
   </table>
 </div>
+
+<figure class="rn-figure">
+  <img src="/images/lalaport-guide-2026/photos/fac-izumi.jpg" alt="ららぽーと和泉の外観と立体駐車場" loading="lazy" />
+  <figcaption>和泉中央からバス15分。<strong>駐車場は終日無料</strong>で、関西5施設ではいちばん小さい。<cite>撮影: Merie ／ <a href="https://commons.wikimedia.org/wiki/File:Lalaportizumi.jpg" target="_blank" rel="noopener">Wikimedia Commons</a>（CC BY-SA 4.0）</cite></figcaption>
+</figure>
 
 和泉中央からバス15分。面積17位で、駐車場は終日無料。**関西5施設のなかでは最も小さい。**
 
@@ -892,6 +912,11 @@ TOKYO-BAYの**2.1倍**。この表の最下位（愛知東郷 46.0万円）と�
     </tbody>
   </table>
 </div>
+
+<figure class="rn-figure">
+  <img src="/images/lalaport-guide-2026/photos/fac-ebina.jpg" alt="ららぽーと海老名の外観。海老名駅から徒歩1分" loading="lazy" />
+  <figcaption>海老名駅から徒歩1分。<strong>面積は18位なのに店舗数は5位（約260店）</strong>という、この記事でいちばん極端な例。<cite>撮影: machiro ／ <a href="https://commons.wikimedia.org/wiki/File:Lalaport-Ebina.jpg" target="_blank" rel="noopener">Wikimedia Commons</a>（CC BY-SA 3.0）</cite></figcaption>
+</figure>
 
 **面積18位なのに店舗数は5位**（約260店）。海老名駅 徒歩1分。「広い＝店が多い」が成り立たないことを、いちばんはっきり示す施設。
 
@@ -937,6 +962,11 @@ TOKYO-BAYの**2.1倍**。この表の最下位（愛知東郷 46.0万円）と�
   </table>
 </div>
 
+<figure class="rn-figure">
+  <img src="/images/lalaport-guide-2026/photos/fac-tachikawa.jpg" alt="ららぽーと立川立飛の外観。多摩都市モノレール立飛駅に直結" loading="lazy" />
+  <figcaption>立飛駅 直結。<strong>面積12位に対して店舗数7位</strong>と、店数がやや多い側に振れている。<cite>撮影: MaedaAkihiko ／ <a href="https://commons.wikimedia.org/wiki/File:Lalaport-TACHIKAWA-TACHIHI.jpg" target="_blank" rel="noopener">Wikimedia Commons</a>（CC BY-SA 4.0）</cite></figcaption>
+</figure>
+
 **立飛駅 直結。** 面積12位に対して店舗数7位（約240店）と、店数がやや多い側に振れている。平日は駐車終日無料。
 
 ### ⑬ ららぽーと湘南平塚（2016年10月・神奈川）
@@ -953,6 +983,11 @@ TOKYO-BAYの**2.1倍**。この表の最下位（愛知東郷 46.0万円）と�
     </tbody>
   </table>
 </div>
+
+<figure class="rn-figure">
+  <img src="/images/lalaport-guide-2026/photos/fac-hiratsuka.jpg" alt="ららぽーと湘南平塚の外観。平塚駅から徒歩12分" loading="lazy" />
+  <figcaption>平塚駅から徒歩12分。<strong>平日の駐車終日無料は「当面の間」の措置</strong>で、恒久ではない。<cite>撮影: Pycktop ／ <a href="https://commons.wikimedia.org/wiki/File:Mitsui_lalaport_hiratsuka.jpg" target="_blank" rel="noopener">Wikimedia Commons</a>（CC BY-SA 4.0）</cite></figcaption>
+</figure>
 
 面積13位・店舗数6位。平塚駅から徒歩12分。**平日の駐車終日無料は「当面の間」の措置**で、恒久ではない。
 
@@ -977,6 +1012,11 @@ TOKYO-BAYの**2.1倍**。この表の最下位（愛知東郷 46.0万円）と�
   </table>
 </div>
 
+<figure class="rn-figure">
+  <img src="/images/lalaport-guide-2026/photos/fac-minato.jpg" alt="夜のららぽーと名古屋みなとアクルス。minato AQULS のサインが光る" loading="lazy" />
+  <figcaption>夜の外観。<strong>駐車は平日4時間／土日祝2時間</strong>と、曜日で倍違う。<cite>撮影: 円周率３パーセント ／ <a href="https://commons.wikimedia.org/wiki/File:NGO_Minato_c20260103_1825a.jpg" target="_blank" rel="noopener">Wikimedia Commons</a>（CC BY-SA 4.0）</cite></figcaption>
+</figure>
+
 港区役所 徒歩2分。面積14位・店舗数10位。駐車は**平日4時間／土日祝2時間**と、曜日で倍違う。
 
 **2025年5月、館内に「うんこミュージアム」が入った。** 集客の作り方が他と違う施設。
@@ -999,6 +1039,11 @@ TOKYO-BAYの**2.1倍**。この表の最下位（愛知東郷 46.0万円）と�
     </tbody>
   </table>
 </div>
+
+<figure class="rn-figure">
+  <img src="/images/lalaport-guide-2026/photos/fac-numazu.jpg" alt="ららぽーと沼津の外観。2019年10月開業" loading="lazy" />
+  <figcaption><strong>売上9位・350億</strong>。面積は8位と上位だが、1㎡あたりでは54.7万円にとどまる。<cite>撮影: 月上之陵 ／ <a href="https://commons.wikimedia.org/wiki/File:ららぽーと沼津.jpg" target="_blank" rel="noopener">Wikimedia Commons</a>（CC BY-SA 4.0）</cite></figcaption>
+</figure>
 
 **売上9位・350億。** 沼津駅からバスという立地で、面積は8位と上位。駐車場は終日無料。
 
@@ -1024,6 +1069,11 @@ TOKYO-BAYの**2.1倍**。この表の最下位（愛知東郷 46.0万円）と�
     </tbody>
   </table>
 </div>
+
+<figure class="rn-figure">
+  <img src="/images/lalaport-guide-2026/photos/fac-togo.jpg" alt="ららぽーと愛知東郷の外観。鉄道の徒歩圏外にある" loading="lazy" />
+  <figcaption><strong>鉄道の徒歩圏外</strong>（日進からバス）。それでも売上10位・290億を出している。<cite>撮影: Tomio344456 ／ <a href="https://commons.wikimedia.org/wiki/File:LaLaport_AICHI_TOGO_(1),_Haruki_Togo_Town_2023.jpg" target="_blank" rel="noopener">Wikimedia Commons</a>（CC BY-SA 4.0）</cite></figcaption>
+</figure>
 
 **鉄道の徒歩圏外**（日進からバス）。それでも売上10位・290億を出している。面積9位。駐車終日無料。
 
