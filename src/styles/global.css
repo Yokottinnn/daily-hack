@@ -1216,11 +1216,18 @@ blockquote.twitter-tweet a:hover { color: var(--pink-700); }
   display: flex; align-items: center; gap: 12px; flex-wrap: wrap;
 }
 .post-body h3.brand-h .brand-logo {
-  flex: 0 0 auto; height: 32px; width: auto; max-width: 148px;
+  flex: 0 0 auto; height: 44px; width: auto; max-width: 190px;
   object-fit: contain; background: #fff; border-radius: 8px;
-  border: 1px solid var(--pink-200); padding: 5px 9px;
+  border: 1px solid var(--pink-200); padding: 4px 7px;
   box-shadow: 0 2px 6px -3px rgba(42, 25, 35, .4);
 }
 @media (max-width: 559px) {
-  .post-body h3.brand-h .brand-logo { height: 26px; max-width: 116px; padding: 4px 7px; }
+  .post-body h3.brand-h .brand-logo { height: 36px; max-width: 138px; padding: 3px 6px; }
+}
+
+/* 表のセルの中にロゴを置く（.cell-brand）。見出しを持たないチェーンのため。 */
+.cell-brand { display: flex; align-items: center; gap: 9px; }
+.cell-brand .brand-logo-sm {
+  flex: 0 0 auto; height: 30px; width: auto; max-width: 96px; object-fit: contain;
+  background: #fff; border-radius: 6px; border: 1px solid var(--pink-200); padding: 3px 5px;
 }

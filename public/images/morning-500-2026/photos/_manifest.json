@@ -63,5 +63,29 @@
     "source_type": "公式サイト（引用）",
     "width": 928,
     "height": 928
+  },
+  "matsuya-sausage-w": {
+    "brand": "松屋",
+    "item": "ソーセージエッグW定食",
+    "source": "https://www.matsuyafoods.co.jp/matsuya/menu/morning/",
+    "source_type": "公式サイト（引用）",
+    "width": 750,
+    "height": 600
+  },
+  "yoshinoya-shiosaba-gyu": {
+    "brand": "吉野家",
+    "item": "塩さば牛小鉢定食",
+    "source": "https://www.yoshinoya.com/menu/morningset/shiosaba-gyu-tei/",
+    "source_type": "公式サイト（引用）",
+    "width": 928,
+    "height": 928
+  },
+  "yoshinoya-shiosaba-toku": {
+    "brand": "吉野家",
+    "item": "塩さば特朝定食",
+    "source": "https://www.yoshinoya.com/menu/morningset/shiosaba-tokuasa-tei/",
+    "source_type": "公式サイト（引用）",
+    "width": 928,
+    "height": 928
   }
 }

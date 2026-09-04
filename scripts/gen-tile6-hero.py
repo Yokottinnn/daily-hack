@@ -7,6 +7,8 @@ gen-mosaic-hero.py は 3×2 の上に見出しを重ねるため左 2 枚が潰�
 
     python3 scripts/gen-tile6-hero.py OUT.jpg KICKER T1 T2 SUB CREDIT img1 … img6 [label1 … label6]
 
+ラベルは `名前` か `名前|ロゴ画像のパス`。後者は札の中に**ロゴを焼き込む**。
+
 **見出しは帯の中に必ず収まる。** 文字数に応じて自動で縮める（2026-09-04）。
 以前は 96px 固定だったため、8 文字の見出しがタイル側にはみ出して読めなくなっていた。
 
@@ -71,15 +73,37 @@ for i, name in enumerate(LABELS[:6]):
     y = row * (TH + GAP)
     size = 30
     fnt = f(size)
-    while size > 18 and d.textlength(name, font=fnt) > TW - 44:
+    while size > 18 and d.textlength(name.split("|")[0], font=fnt) > TW - 44:
         size -= 2
         fnt = f(size)
-    tw = d.textlength(name, font=fnt)
     bh = size + 20
     LABEL_BH = bh
     d.rectangle([x, y + TH - bh, x + TW - 1, y + TH - 1], fill=(17, 17, 22))
     d.rectangle([x, y + TH - bh, x + 6, y + TH - 1], fill=(233, 30, 99))
-    d.text((x + 18, y + TH - bh + 9), name, font=fnt, fill=(255, 255, 255))
+    tx = x + 18
+    # **札にロゴを添える。** `label|画像パス` の形で渡されたら、名前の左にロゴを置く。
+    if "|" in name:
+        name, logo_p = name.split("|", 1)
+        try:
+            lg = Image.open(logo_p)
+            lg = lg.convert("RGBA") if lg.mode in ("RGBA", "LA", "P") else lg.convert("RGB")
+            lh = bh - 14
+            lg = lg.resize((max(1, round(lg.width * lh / lg.height)), lh), Image.LANCZOS)
+            plate = Image.new("RGB", (lg.width + 10, lh + 8), (255, 255, 255))
+            if lg.mode == "RGBA":
+                plate.paste(lg, (5, 4), lg)
+            else:
+                plate.paste(lg, (5, 4))
+            py = y + TH - bh + (bh - plate.height) // 2
+            canvas.paste(plate, (tx, py))
+            tx += plate.width + 12
+        except Exception:
+            pass
+        fnt = f(size)
+        while size > 18 and d.textlength(name, font=fnt) > (x + TW - 14) - tx:
+            size -= 2
+            fnt = f(size)
+    d.text((tx, y + TH - bh + 9), name, font=fnt, fill=(255, 255, 255))
 
 # --- 左帯（不透明） ---
 d.rectangle([0, 0, PANEL - 1, H], fill=(17, 17, 22))
