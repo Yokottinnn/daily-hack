@@ -1,0 +1,103 @@
+# 別セッションの会話ログを持ち出して、続きを別の場所で話す
+
+`daily-hack-blog2` のように **Mac 上で動く bridge セッション**の会話は、Mac の
+`~/.claude/projects/<プロジェクト>/<session-uuid>.jsonl` にしか無い。クラウドセッションからは
+SSH も届かない（[`session-recovery.md`](./session-recovery.md)）ため、**ログを Git に載せて渡す**のが
+唯一の確実な経路になる。
+
+そのための道具が [`scripts/export-session-log.mjs`](../scripts/export-session-log.mjs)。
+**Claude のログインは要らない。** JSONL を読んで Markdown に整形するだけなので、
+`Not logged in · Please run /login` で会話できなくなったセッションのログでも取り出せる。
+
+## Mac 側でやること
+
+**スクリプトはリポジトリの外に置いて実行してよい。** `git rev-parse --show-toplevel` で
+リポジトリを見つけるため、`/tmp` から動かしても書き出し先と push 先は正しくなる。
+ブランチを切り替えずに済むので、未コミットの変更があっても止まらない。
+
+```bash
+# 1. リポジトリへ移動する（クローン先は決め打ちにしない。
+#    ~/.claude/projects/ のディレクトリ名に実パスが残っている）
+cd ~/projects/anta-baka-x/blog
+
+# 2. スクリプトだけを取り出す（作業ツリーは触らない）
+git fetch origin
+git show origin/<スクリプトのあるブランチ>:scripts/export-session-log.mjs > /tmp/export-session-log.mjs
+
+# 3. 最新セッションを書き出して push する
+node /tmp/export-session-log.mjs --latest --label blog2 --push
+```
+
+**`--project daily-hack` は当たらない。** `~/.claude/projects/` のディレクトリ名は cwd を
+ハイフンに潰したもので（`-Users-ny-projects-anta-baka-x-blog`）、リポジトリ名とは限らない。
+指定を省けば **いま居るリポジトリで動いたセッション**に自動で絞る。全件見るなら `--all`。
+
+スクリプトが `main` に入ったあとは、単に `node scripts/export-session-log.mjs ...` でよい。
+
+`--latest` は条件に合う中で**一番新しい**ログを選ぶ。ただし `/login` を打っただけの数行の
+セッションが最新になることもあるため、実行後に表示される session id・期間・最初の発話で
+狙ったセッションか確認する。
+
+**どれが目的のセッションか手元で判別できないときは `--each` を使う。** 候補をまとめて
+書き出し、索引（`README.md`）付きで 1 回の push にまとめる。往復を増やさずに済む。
+
+```bash
+node scripts/export-session-log.mjs --each --label blog2 --limit 15 --push
+# → docs/session-logs/blog2/README.md ＋ 各セッションの Markdown
+```
+
+```bash
+node scripts/export-session-log.mjs --list                      # このリポジトリのセッションを新しい順に
+node scripts/export-session-log.mjs --list --all                # マシン上の全セッション
+node scripts/export-session-log.mjs --list --grep "ららぽーと"    # 本文で探す
+node scripts/export-session-log.mjs <session-uuid> --label blog2 --push
+```
+
+`--push` は **使い捨ての worktree** でコミットして `session-log/<label>` へ送る。手元のブランチも
+作業ツリーも動かさないので、未コミットの変更を持ったまま実行してよい。同名ブランチが既に
+リモートにあれば、その続きに積む（巻き戻して non-fast-forward で弾かれることは無い）。
+
+session-uuid は一覧に出る**先頭 8 桁だけ**でも当たる。
+
+```bash
+node scripts/export-session-log.mjs 7d5942fa --label blog2 --push
+```
+
+## クラウドセッション側でやること
+
+```bash
+git fetch origin session-log/blog2
+git checkout session-log/blog2 -- docs/session-logs/
+```
+
+`docs/session-logs/blog2.md` を読めば、そのセッションの文脈をそのまま引き継げる。
+
+## 出力の中身
+
+| 残すもの | 落とすもの |
+| --- | --- |
+| ユーザーの発言（全文、既定 4000 字で切る） | ツール結果の本文（巨大なので） |
+| Claude の応答テキスト | thinking（`--include-thinking` で復活） |
+| 呼んだツール名と主な引数 1 行 | フック出力・メタ行 |
+
+## 注意
+
+- **機密が混ざる。** API キーらしき文字列（`sk-ant-`, `xoxb-`, `ghp_`, `AKIA`, JWT など）は
+  `[REDACTED]` に置換しているが、パターンに載らない秘密は残る。**push 前に必ず目視で確認する。**
+- `main` は保護ブランチ。`--push` は `session-log/<label>` ブランチへ送る。直接 `main` へは入れない。
+- 会話が長いと Markdown も大きくなる。`--max-chars` で 1 メッセージあたりの上限を調整できる。
+
+## 主なオプション
+
+| オプション | 意味 |
+| --- | --- |
+| `--list` | 履歴一覧（新しい順）。`--project` / `--grep` / `--limit` で絞る |
+| `--latest` | 絞り込んだ中の最新を選ぶ（session-uuid を貼らずに済む） |
+| `--each` | 候補を全部書き出し、索引付きで `docs/session-logs/<label>/` にまとめる |
+| `--all` | 「いま居るリポジトリ」で絞る既定を解除し、マシン上の全セッションを対象にする |
+| `--label <名前>` | 出力ファイル名とブランチ名に使う |
+| `--out <パス>` | 出力先を明示する（既定は `docs/session-logs/<label>.md`） |
+| `--max-chars N` | 1 メッセージあたりの文字数上限（既定 4000） |
+| `--include-thinking` | thinking も残す |
+| `--no-tools` | ツール呼び出し行を出さない |
+| `--push` / `--branch` | commit して push する／ブランチ名を指定する |

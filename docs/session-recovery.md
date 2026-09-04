@@ -109,18 +109,25 @@ sleep 10 && tmux capture-pane -pt dhblog2 | tail -30
 ```bash
 # 1) 動いている claude を終了する（Ctrl+C を2回、または /exit）
 
-# 2) リポジトリで起動し直す
+# 2) リポジトリで、会話 ID を指定して起動し直す
 cd /Users/ny/projects/anta-baka-x/blog
-claude
+claude --resume 7d5942fa-f5b8-4d5d-b1f9-ef8574d48450   # daily-hack-blog2 の実体
 
-# 3) 起動したら、その中で
+# 3) 認証を求められたら、その中で
 /login
 
 # 4) 認証が通ったら、クラウドから届くように公開し直す
 /remote-control
 ```
 
+**素の `claude` で起動しない。** 別セッションになり、それまでの文脈が引き継がれない。
+会話 ID が分からないときは `--resume` の一覧から選ぶか、
+`node scripts/export-session-log.mjs --list` で確認する。
+
 **`/login` だけでは足りない。** `/remote-control` を実行しないとクラウドから届かない。
+
+**すでに別ウィンドウで `/login` 済みなら、開き直すだけで通ることが多い。**
+資格情報は Keychain にあってマシン共通で、古いプロセスが読み直せないだけだからである。
 
 ## クラウドセッションからは Mac を操作できない
 
