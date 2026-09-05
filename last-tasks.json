@@ -1,1 +1,4 @@
-[]
+[
+      {"task": "t031-preview-real-voice-v3.sh", "rc": 0, "out": "**返信案が出た（投稿なし）** / preview-real-voice-v3.md"},
+      {"task": "t032-preview-ten.sh", "rc": 0, "out": "**返信案 4 件（投稿なし）** / preview-ten.md"}
+  ]
