@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T09:02:01Z",
+  "generated_at": "2026-09-05T09:32:07Z",
   "host": "NaokinoMacBook-Pro-2.local",
   "job_count": 10,
   "jobs": [
@@ -15,9 +15,7 @@
     "com.dailyhack.weekly-blog-report"
   ],
   "reconnect": "既に起動している",
-  "tasks": [
-      {"task": "t040-kickstart-follow-now.sh", "rc": 0, "out": "**フォローを即実行して実測した（$0）** / kickstart-follow.md"}
-  ],
+  "tasks": [],
   "auth": {
     "ok": true,
     "expires_at": "2026-09-05T10:51:11Z",
