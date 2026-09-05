@@ -1,1 +1,3 @@
-[]
+[
+      {"task": "t050-publish-morning-verbose.sh", "rc": 0, "out": "**まだ出せていない。エラーの全文をレポートに残した** / publish-morning-verbose.md"}
+  ]
