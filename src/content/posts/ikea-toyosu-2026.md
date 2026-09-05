@@ -65,6 +65,54 @@ references: ["https://www.ikea.com/jp/ja/stores/toyosu/", "https://prtimes.jp/ma
 <span class="event-picks-credit">カード画像は<a href="https://prtimes.jp/main/html/rd/p/000000424.000065734.html" target="_blank" rel="noopener">イケア・ジャパンのプレスリリース</a>および<a href="https://www.ikea.com/jp/ja/stores/toyosu/" target="_blank" rel="noopener">IKEA豊洲 公式ページ</a>より引用。</span>
 
 <div class="section-with-mascot">
+  <div class="mascot-wrap"><img src="/images/expr-04-cheer.png" alt="Daily Hackマスコット" /></div>
+  <h2 id="キャンペーン">オープン記念キャンペーン｜9月13日までが本番</h2>
+</div>
+
+**行くなら日付を先に見て。** オープン記念の特典が3本走っていて、**そのうち2本は9月13日で終わる。**
+
+<div class="cmp-table-wrap">
+  <table class="cmp-table wrap-table">
+    <thead><tr><th>内容</th><th>期間</th><th>条件</th></tr></thead>
+    <tbody>
+      <tr class="recommended"><td><strong>IKEA豊洲 限定セール</strong><br>人気アイテムが<strong>この店だけの価格</strong>に下がる</td><td><strong>9月3日〜13日</strong></td><td><a href="https://www.ikea.com/jp/ja/ikea-family/benefits/" target="_blank" rel="noopener">IKEA Family</a>（入会無料）</td></tr>
+      <tr><td><strong>オープン記念バッグ</strong>をプレゼント</td><td><strong>9月3日〜13日</strong></td><td><strong>5,000円以上</strong>の購入</td></tr>
+      <tr><td><strong>10%オフクーポン</strong><br>割引の上限は5,000円</td><td>配布 <strong>9月3日〜30日</strong><br>利用 <strong>10月1日〜31日</strong></td><td>2,000円以上の購入</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<p class="source-note">出典：<a href="https://prtimes.jp/main/html/rd/p/000000424.000065734.html" target="_blank" rel="noopener">イケア・ジャパン プレスリリース</a>／<a href="https://www.ikea.com/jp/ja/newsroom/corporate-news/20260723-toyosu-opening-day-pub4c569400/" target="_blank" rel="noopener">IKEA ニュースルーム</a>。<strong>内容は変更されることがある。行く日の公式ページで確認すること。</strong></p>
+
+### 実際いくら下がっているか｜サメが1,499円
+
+**限定セールの効き方が分かる投稿がこれ。** オープン翌日に行った人が、**BLÅHAJ（ブローハイ）のサメを1,499円**で買っている。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">あ、あの、新しくオープンしたIKEAららぽーと豊洲が10%オフでサメが1,499円なんだけど🦈</p>&mdash; あずさ🛋️🌃🎄 (@azzzzzzusa) <a href="https://twitter.com/azzzzzzusa/status/2095845219145281668">2026年9月4日</a></blockquote>
+
+<figure class="rn-figure">
+  <img src="/images/ikea-toyosu-2026/photos/zone-kids.jpg" alt="IKEA豊洲のソフトトイ売り場。サメやクマのぬいぐるみが並び、1,499円の値札が出ている" loading="lazy" />
+  <figcaption><strong>売り場の値札にも「1,499」が出ている。</strong>右奥の青いサメの山と、その上の棚に同じ数字。<strong>投稿と店内写真が一致している</strong>ので、これは実際に下がった価格。<cite>画像: <a href="https://prtimes.jp/main/html/rd/p/000000424.000065734.html" target="_blank" rel="noopener">イケア・ジャパン プレスリリース</a></cite></figcaption>
+</figure>
+
+### 押さえておく3点
+
+<ul class="checklist">
+  <li><div class="checklist-body"><strong>① セールとバッグは9月13日まで</strong><p>限定価格も5,000円以上でもらえるバッグも、<strong>この11日間だけ</strong>。オープン景気の期間なので、混雑もこの間が山になる。</p></div></li>
+  <li><div class="checklist-body"><strong>② クーポンは「配布9月・利用10月」でずれる</strong><p>9月中にもらっても<strong>使えるのは10月1日から</strong>。大きい買い物を予定しているなら、<strong>9月にクーポンだけ取って10月に買う</strong>のが一番得になる。</p></div></li>
+  <li><div class="checklist-body"><strong>③ どれもIKEA Familyが前提</strong><p>入会は無料。<strong>店頭でもその場で入れる</strong>ので、レジに並ぶ前に済ませておく。</p></div></li>
+</ul>
+
+<figure class="rn-figure">
+  <img src="/images/ikea-toyosu-2026/photos/item-bag.jpg" alt="IKEAのトートバッグ" loading="lazy" />
+  <figcaption>5,000円以上の購入でもらえるバッグ。<strong>持ち帰り前提の店で配るものとして筋が通っている</strong>。<cite>画像: <a href="https://www.ikea.com/jp/ja/stores/toyosu/" target="_blank" rel="noopener">IKEA豊洲 公式</a></cite></figcaption>
+</figure>
+
+**開店前日の9月1日には、IKEA Familyメンバー300組限定のプレオープンイベント**（14:00〜17:00）も開かれた。予約開始は8月19日10時で、**告知から予約開始まで2か月**空いていた。次に新店が出るときも、この間隔が目安になる。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">🇸🇪 「IKEA豊洲」が9月3日にオープン🎉 約9,500点の商品を展開し、インテリアの相談や注文もできる新店舗で、9月1日にはIKEA Familyメンバー限定のプレオープンデーも開催🛋️ #スウェーデン #IKEA #イケア</p>&mdash; LifTe~北欧の暮らし~ (@lifte_official) <a href="https://twitter.com/lifte_official/status/2080234122883330111">2026年7月23日</a></blockquote>
+
+<div class="section-with-mascot">
   <div class="mascot-wrap"><img src="/images/expr-09-arms-crossed.png" alt="Daily Hackマスコット" /></div>
   <h2 id="どこにあるか">IKEA豊洲はどこにある？｜ららぽーと豊洲2階・豊洲駅直結</h2>
 </div>
@@ -179,11 +227,7 @@ references: ["https://www.ikea.com/jp/ja/stores/toyosu/", "https://prtimes.jp/ma
   <figcaption><strong>ソフトトイのコーナー。</strong>クマ、パンダ、キリン、そして<strong>青いサメ（BLÅHAJ）</strong>が山積み。奥の黄色い壁は数字と学びのアイテムの棚。<cite>画像: <a href="https://prtimes.jp/main/html/rd/p/000000424.000065734.html" target="_blank" rel="noopener">イケア・ジャパン プレスリリース</a></cite></figcaption>
 </figure>
 
-**IKEAで一番有名なぬいぐるみが、この店にもある。** BLÅHAJ（ブローハイ）は SNS で長く人気が続いているサメで、開店直後に実際に買った人の投稿がこれ。
-
-<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">あ、あの、新しくオープンしたIKEAららぽーと豊洲が10%オフでサメが1,499円なんだけど🦈</p>&mdash; あずさ🛋️🌃🎄 (@azzzzzzusa) <a href="https://twitter.com/azzzzzzusa/status/2095845219145281668">2026年9月4日</a></blockquote>
-
-**「10%オフでサメが1,499円」。** 上の店内写真をよく見ると、サメの山の値札に <strong>1,499</strong> と出ている。<a href="#キャンペーン">オープン記念の限定セール</a>で下がった価格で、**開店直後に行った人だけが踏めた値段**ということになる。
+**IKEAで一番有名なぬいぐるみが、この店にもある。** BLÅHAJ（ブローハイ）は SNS で長く人気が続いているサメ。<a href="#キャンペーン">オープン記念の限定セール</a>では<strong>1,499円</strong>まで下がっていた。
 
 <figure class="rn-figure">
   <img src="/images/ikea-toyosu-2026/photos/item-blahaj.jpg" alt="BLÅHAJ ブローハイ サメのソフトトイ" loading="lazy" />
@@ -351,37 +395,6 @@ references: ["https://www.ikea.com/jp/ja/stores/toyosu/", "https://prtimes.jp/ma
 </div>
 
 **この2店がやっていた「駅前で雑貨を買って帰る」役割を、いま引き受けているのが豊洲のような商業施設内店舗**という見方ができる。**路面で家賃を払うより、人がすでに集まっている商業施設の中に入るほうが合理的**——という判断が、面積と品揃えの数字にそのまま出ている。
-
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-04-cheer.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="キャンペーン">オープン記念のキャンペーンとイベント</h2>
-</div>
-
-**開店に合わせた特典が3本走っている。** どれも<a href="https://www.ikea.com/jp/ja/ikea-family/benefits/" target="_blank" rel="noopener">IKEA Family</a>（入会無料）が条件。
-
-<div class="cmp-table-wrap">
-  <table class="cmp-table wrap-table">
-    <thead><tr><th>内容</th><th>期間</th><th>条件</th></tr></thead>
-    <tbody>
-      <tr class="recommended"><td><strong>IKEA豊洲 限定セール</strong><br>人気アイテムが店舗限定価格に</td><td><strong>2026年9月3日〜13日</strong></td><td>IKEA Family</td></tr>
-      <tr><td><strong>オープン記念バッグ プレゼント</strong></td><td>2026年9月3日〜13日</td><td><strong>5,000円以上の購入</strong></td></tr>
-      <tr><td><strong>10%オフクーポン</strong><br>割引上限5,000円</td><td>配布 <strong>9月3日〜30日</strong><br>利用 <strong>10月1日〜31日</strong></td><td>2,000円以上の購入</td></tr>
-    </tbody>
-  </table>
-</div>
-
-<p class="source-note">出典：<a href="https://prtimes.jp/main/html/rd/p/000000424.000065734.html" target="_blank" rel="noopener">イケア・ジャパン プレスリリース</a>／<a href="https://www.ikea.com/jp/ja/newsroom/corporate-news/20260723-toyosu-opening-day-pub4c569400/" target="_blank" rel="noopener">IKEA ニュースルーム</a>。<strong>内容は変更されることがある。行く日の公式ページで確認すること。</strong></p>
-
-**クーポンは「配布」と「利用」で月がずれる。** 9月中にもらって、**使えるのは10月**。9月に買ったものには当たらないので、大きい買い物を予定しているなら10月に回したほうが得になる。
-
-**開店前日の9月1日には、IKEA Familyメンバー300組限定のプレオープンイベント**（14:00〜17:00）も開かれた。予約は8月19日10時からで、**告知から予約開始まで2か月**空いていた。
-
-<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">🇸🇪 「IKEA豊洲」が9月3日にオープン🎉 約9,500点の商品を展開し、インテリアの相談や注文もできる新店舗で、9月1日にはIKEA Familyメンバー限定のプレオープンデーも開催🛋️ #スウェーデン #IKEA #イケア</p>&mdash; LifTe~北欧の暮らし~ (@lifte_official) <a href="https://twitter.com/lifte_official/status/2080234122883330111">2026年7月23日</a></blockquote>
-
-<figure class="rn-figure">
-  <img src="/images/ikea-toyosu-2026/photos/item-bag.jpg" alt="IKEAのトートバッグ" loading="lazy" />
-  <figcaption>5,000円以上の購入でもらえるバッグ。<strong>持ち帰り前提の店で配るものとして筋が通っている</strong>。<cite>画像: <a href="https://www.ikea.com/jp/ja/stores/toyosu/" target="_blank" rel="noopener">IKEA豊洲 公式</a></cite></figcaption>
-</figure>
 
 <div class="section-with-mascot">
   <div class="mascot-wrap"><img src="/images/expr-07-gasp.png" alt="Daily Hackマスコット" /></div>
