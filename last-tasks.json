@@ -1,4 +1,3 @@
 [
-      {"task": "t035-follow-actually-working.sh", "rc": 0, "out": "**フォローの実態を出した（変更なし・$0）** / follow-actually-working.md"},
-      {"task": "t036-follower-growth-now.sh", "rc": 0, "out": "**フォロワー増の現在地を出した（変更なし・$0）** / follower-growth-now.md"}
+      {"task": "t037-dump-follow-filters.sh", "rc": 0, "out": "**フィルタの実物を出した（変更なし・$0）** / follow-filters.md"}
   ]
