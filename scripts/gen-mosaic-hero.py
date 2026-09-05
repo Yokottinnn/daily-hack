@@ -5,6 +5,13 @@ gen-mosaic-hero.py — 複数イベントの画像をタイル合成した eyeca
 まとめ記事（イベント一覧・比較記事など）で「1枚の写真では中身が伝わらない」
 場合に使う。3x2 のタイルに各イベントのビジュアルを敷き、暗幕を重ねてタイトルを載せる。
 
+**これがこのブログの表紙の標準形**（利用者指示 2026-09-05）。タイルは画面全体を
+埋め、その上に透過の暗幕とロゴ・タイトルを重ねる。左に帯を作って分ける
+`gen-tile6-hero.py` の形式ではなく、**原則こちらを使う。**
+
+**左上と左下のタイルには「静かな写真」を置く。** そこは暗幕が濃く、文字が乗る。
+賑やかな写真を置くと文字も写真も両方死ぬ。
+
 Usage:
   python3.11 scripts/gen-mosaic-hero.py OUT.jpg KICKER TITLE1 TITLE2 SUB CREDIT img1 img2 ...
 
@@ -83,11 +90,32 @@ rr((50, 46, 50 + bw + 78, 102), 28, (255, 255, 255, 235))
 d.ellipse((68, 64, 90, 86), fill=MAG)
 d.text((100, 57), "Daily Hack", font=bp, fill=(42, 25, 35))
 
-ts((58, 296), kicker, f(34), fill=(255, 210, 225))
-ts((54, 344), t1, f(104))
-ts((54, 466), t2, f(78))
-rr((58, 596, 398, 608), 6, MAG + (255,))
-ts((58, 628), sub, f(36, light=True), fill=(245, 245, 245))
+# **文字は暗幕が濃い左側に収める。** グラデーションは W*0.72 で薄くなるので、
+# そこを越えると明るいタイルの上に白文字が乗って読めなくなる（2026-09-05）。
+TEXT_W = int(W * 0.60) - 58
+
+
+def shrink(text, start, floor=24):
+    """左の帯に収まる最大の文字サイズを返す。**はみ出させない。**"""
+    size = start
+    while size > floor and d.textlength(text, font=f(size)) > TEXT_W:
+        size -= 2
+    return size
+
+
+ks = shrink(kicker, 34, floor=22)
+ts((58, 296), kicker, f(ks), fill=(255, 210, 225))
+y = 296 + ks + 14
+# 見出し 2 行は長いほうに合わせてサイズをそろえる
+ts_size = min(shrink(t1, 104), shrink(t2, 104))
+ts((54, y), t1, f(ts_size))
+y += ts_size + 18
+ts((54, y), t2, f(ts_size))
+y += ts_size + 34
+rr((58, y, 398, y + 12), 6, MAG + (255,))
+y += 32
+ss = shrink(sub, 36, floor=24)
+ts((58, y), sub, f(ss, light=True), fill=(245, 245, 245))
 ts((58, H - 50), credit, f(19, light=True), fill=(225, 225, 225), off=1)
 
 hb = f(26); ht = "@heng_ji31590"

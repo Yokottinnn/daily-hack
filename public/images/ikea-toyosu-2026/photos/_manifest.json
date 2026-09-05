@@ -1,0 +1,122 @@
+{
+  "_note": "イケア・ジャパンのプレスリリースと公式サイトの画像を引用している。自由ライセンスではないため、figcaption の cite で出典を必ず示すこと。取得日 2026-09-05（ops/tasks/069-ikea-toyosu.sh）。",
+  "zone-entrance": {
+    "desc": "IKEA豊洲の入口。「Hej」の壁とIKEAサイン",
+    "source": "https://prtimes.jp/main/html/rd/p/000000424.000065734.html",
+    "source_type": "イケア・ジャパン プレスリリース（引用）",
+    "width": 1200,
+    "height": 800
+  },
+  "zone-living": {
+    "desc": "リビングのコーナー。ソファとクッション、照明",
+    "source": "https://prtimes.jp/main/html/rd/p/000000424.000065734.html",
+    "source_type": "イケア・ジャパン プレスリリース（引用）",
+    "width": 1200,
+    "height": 801
+  },
+  "zone-planning": {
+    "desc": "プランニングカウンター。スタッフに相談できる",
+    "source": "https://prtimes.jp/main/html/rd/p/000000424.000065734.html",
+    "source_type": "イケア・ジャパン プレスリリース（引用）",
+    "width": 1200,
+    "height": 801
+  },
+  "zone-kitchen": {
+    "desc": "キッチンと食器のゾーン。ダイニングと照明",
+    "source": "https://prtimes.jp/main/html/rd/p/000000424.000065734.html",
+    "source_type": "イケア・ジャパン プレスリリース（引用）",
+    "width": 1200,
+    "height": 801
+  },
+  "zone-overview": {
+    "desc": "店内全景。家具の展示が並ぶ",
+    "source": "https://prtimes.jp/main/html/rd/p/000000424.000065734.html",
+    "source_type": "イケア・ジャパン プレスリリース（引用）",
+    "width": 1200,
+    "height": 801
+  },
+  "zone-food": {
+    "desc": "スウェーデンフードマーケット。「Fika しましょう」のPOP",
+    "source": "https://prtimes.jp/main/html/rd/p/000000424.000065734.html",
+    "source_type": "イケア・ジャパン プレスリリース（引用）",
+    "width": 1200,
+    "height": 801
+  },
+  "zone-kids": {
+    "desc": "ソフトトイとキッズのコーナー",
+    "source": "https://prtimes.jp/main/html/rd/p/000000424.000065734.html",
+    "source_type": "イケア・ジャパン プレスリリース（引用）",
+    "width": 1200,
+    "height": 801
+  },
+  "item-raskog": {
+    "desc": "RÅSKOG ワゴン",
+    "source": "https://prtimes.jp/main/html/rd/p/000000414.000065734.html",
+    "source_type": "イケア・ジャパン プレスリリース（引用）",
+    "width": 1200,
+    "height": 1200
+  },
+  "item-stool": {
+    "desc": "木製スツール",
+    "source": "https://prtimes.jp/main/html/rd/p/000000414.000065734.html",
+    "source_type": "イケア・ジャパン プレスリリース（引用）",
+    "width": 1200,
+    "height": 1707
+  },
+  "item-basket": {
+    "desc": "RISATORP バスケット",
+    "source": "https://prtimes.jp/main/html/rd/p/000000414.000065734.html",
+    "source_type": "イケア・ジャパン プレスリリース（引用）",
+    "width": 1200,
+    "height": 1200
+  },
+  "item-cushion": {
+    "desc": "水玉のクッションカバー",
+    "source": "https://prtimes.jp/main/html/rd/p/000000414.000065734.html",
+    "source_type": "イケア・ジャパン プレスリリース（引用）",
+    "width": 1200,
+    "height": 1200
+  },
+  "item-sofa": {
+    "desc": "2人掛けソファ",
+    "source": "https://prtimes.jp/main/html/rd/p/000000414.000065734.html",
+    "source_type": "イケア・ジャパン プレスリリース（引用）",
+    "width": 1200,
+    "height": 1200
+  },
+  "item-orangutan": {
+    "desc": "DJUNGELSKOG オランウータンのソフトトイ",
+    "source": "https://prtimes.jp/main/html/rd/p/000000414.000065734.html",
+    "source_type": "イケア・ジャパン プレスリリース（引用）",
+    "width": 1200,
+    "height": 1354
+  },
+  "item-blahaj": {
+    "desc": "BLÅHAJ サメのソフトトイ",
+    "source": "https://www.ikea.com/jp/ja/stores/toyosu/",
+    "source_type": "イケア・ジャパン 公式サイト（引用）",
+    "width": 600,
+    "height": 600
+  },
+  "item-chair": {
+    "desc": "1人掛けチェア",
+    "source": "https://www.ikea.com/jp/ja/newsroom/corporate-news/20260723-toyosu-opening-day-pub4c569400/",
+    "source_type": "イケア・ジャパン ニュースルーム（引用）",
+    "width": 600,
+    "height": 600
+  },
+  "item-bag": {
+    "desc": "IKEAのトートバッグ",
+    "source": "https://www.ikea.com/jp/ja/stores/toyosu/",
+    "source_type": "イケア・ジャパン 公式サイト（引用）",
+    "width": 600,
+    "height": 337
+  },
+  "shibuya": {
+    "desc": "IKEA渋谷の外観",
+    "source": "https://www.ikea.com/jp/ja/stores/shibuya/",
+    "source_type": "イケア・ジャパン 公式サイト（引用）",
+    "width": 900,
+    "height": 506
+  }
+}
