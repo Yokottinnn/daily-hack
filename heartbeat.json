@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T13:34:04Z",
+  "generated_at": "2026-09-05T14:05:15Z",
   "host": "NaokinoMacBook-Pro-2.local",
   "job_count": 12,
   "jobs": [
@@ -17,9 +17,7 @@
     "com.dailyhack.weekly-blog-report"
   ],
   "reconnect": "既に起動している",
-  "tasks": [
-      {"task": "t051-fix-length-and-publish.sh", "rc": 0, "out": "**まだ出せていない。全文をレポートに残した** / fix-length-and-publish.md"}
-  ],
+  "tasks": [],
   "auth": {
     "ok": true,
     "expires_at": "2026-09-05T20:31:08Z",
