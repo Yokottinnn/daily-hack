@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-09-05T08:28:03Z",
+  "generated_at": "2026-09-05T09:02:01Z",
   "host": "NaokinoMacBook-Pro-2.local",
-  "job_count": 9,
+  "job_count": 10,
   "jobs": [
+    "ai.openclaw.badge-followback",
     "ai.openclaw.competitor-follower-follow",
     "ai.openclaw.hashtag-follow",
     "ai.openclaw.tab-guard",
@@ -14,7 +15,9 @@
     "com.dailyhack.weekly-blog-report"
   ],
   "reconnect": "既に起動している",
-  "tasks": [],
+  "tasks": [
+      {"task": "t040-kickstart-follow-now.sh", "rc": 0, "out": "**フォローを即実行して実測した（$0）** / kickstart-follow.md"}
+  ],
   "auth": {
     "ok": true,
     "expires_at": "2026-09-05T10:51:11Z",
@@ -26,11 +29,10 @@
     "detail": "ログを走査した",
     "sources": []
   },
-  "unloaded_count": 65,
+  "unloaded_count": 64,
   "unloaded": [
       {"label": "ai.openclaw.auto-detect-and-unfollow-inactive", "plist_mtime": "2026-08-22T15:39:05Z"},
       {"label": "ai.openclaw.auto-thread-chainifier", "plist_mtime": "2026-08-22T15:39:05Z"},
-      {"label": "ai.openclaw.badge-followback", "plist_mtime": "2026-08-22T17:09:25Z"},
       {"label": "ai.openclaw.blog-rss-watcher", "plist_mtime": "2026-08-22T11:07:15Z"},
       {"label": "ai.openclaw.bookmark-analyzer", "plist_mtime": "2026-05-15T14:58:24Z"},
       {"label": "ai.openclaw.bookmark-watcher", "plist_mtime": "2026-05-15T13:56:44Z"},
