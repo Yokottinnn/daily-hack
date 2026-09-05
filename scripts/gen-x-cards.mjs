@@ -23,8 +23,46 @@ import { fileURLToPath } from 'node:url';
 
 const ROOT = path.dirname(path.dirname(fileURLToPath(import.meta.url)));
 const SIZE = 1080;
-const NAVY = '#16243f';
-const PINK = '#e8407d';
+
+/**
+ * **帯の配色はブログのトークンから引く。**
+ *
+ * 2026-09-05 の指摘:
+ *   > そもそも画像上部の紺色の帯はブログのカラーと合ってないから変更して欲しい。
+ *   > 毎回同じ色じゃなくて、いくつかパターンを作ってほしい
+ *
+ * 紺 `#16243f` は `src/styles/global.css` の `:root` に**存在しない色**だった。
+ * ブログは **ピンク＋クリーム＋黄、地は濃いプラム `--ink: #2A1923`**。
+ *
+ * ここの値はすべて `:root` のトークンそのまま。**勝手な色を足さない。**
+ *   pink-500 #EC5C90 / pink-600 #D63E76 / pink-700 #A82959
+ *   cream-100 #FFF1C8 / cream-200 #FCE5A4 / yellow-500 #F5C518
+ *   ink #2A1923 / ink-3 #9A8791 / line #F1DCE5 / pink-50 #FFF5F8
+ */
+const THEMES = {
+  // 濃いプラム。ブログの本文色そのもの。落ち着いた既定
+  plum:  { bg: 'linear-gradient(135deg, #2A1923 0%, #46293A 100%)',
+           kicker: '#C9A9B8', text: '#FFFFFF', sub: '#F1DCE5', em: '#F5C518',
+           rule: 'linear-gradient(90deg, #EC5C90, #F5C518 55%, #FCE5A4)', brand: '#2A1923' },
+  // 濃いローズ。food・お得系で映える
+  berry: { bg: 'linear-gradient(135deg, #A82959 0%, #D63E76 100%)',
+           kicker: '#FCE5A4', text: '#FFFFFF', sub: '#FFE9F1', em: '#F5C518',
+           rule: 'linear-gradient(90deg, #F5C518, #FCE5A4 55%, #FFF1C8)', brand: '#A82959' },
+  // 明るいピンク。軽い話題向け
+  rose:  { bg: 'linear-gradient(135deg, #D63E76 0%, #EC5C90 100%)',
+           kicker: '#FFF1C8', text: '#FFFFFF', sub: '#FFF5F8', em: '#F5C518',
+           rule: 'linear-gradient(90deg, #2A1923, #A82959 55%, #F5C518)', brand: '#D63E76' },
+  // クリーム地に濃いプラム字。**反転パターン**。並べたとき一枚だけ明るくなる
+  cream: { bg: 'linear-gradient(135deg, #FFF1C8 0%, #FCE5A4 100%)',
+           kicker: '#A82959', text: '#2A1923', sub: '#5A4651', em: '#D63E76',
+           rule: 'linear-gradient(90deg, #D63E76, #EC5C90 55%, #F5C518)', brand: '#A82959' },
+  // ほぼ黒。数字・比較で締めたいとき
+  ink:   { bg: 'linear-gradient(135deg, #1E1219 0%, #2A1923 100%)',
+           kicker: '#9A8791', text: '#FFFFFF', sub: '#F1DCE5', em: '#EC5C90',
+           rule: 'linear-gradient(90deg, #EC5C90, #D63E76 55%, #F5C518)', brand: '#2A1923' },
+};
+const THEME_KEYS = Object.keys(THEMES);
+const PINK = '#EC5C90';
 
 const specPath = process.argv[2];
 if (!specPath) {
@@ -35,6 +73,23 @@ const spec = JSON.parse(fs.readFileSync(path.resolve(ROOT, specPath), 'utf8'));
 const IMGBASE = path.resolve(ROOT, spec.imageBase);
 const OUT = path.resolve(ROOT, spec.out);
 const url = (p) => 'file://' + path.join(IMGBASE, p);
+
+/**
+ * テーマの決め方。**毎回 同じ色にしない。**
+ *   1. `cover.theme` に名前があればそれ
+ *   2. 無ければ slug の文字コード和で選ぶ（記事ごとに散り、同じ記事では毎回 同じ）
+ */
+const pickTheme = () => {
+  const named = spec.cover && spec.cover.theme;
+  if (named && THEMES[named]) return { name: named, t: THEMES[named] };
+  if (named) console.warn(`  ⚠ theme "${named}" は無い。使えるのは: ${THEME_KEYS.join(' / ')}`);
+  const key = String(spec.slug || specPath);
+  let h = 0;
+  for (const ch of key) h = (h * 31 + ch.charCodeAt(0)) % 100000;
+  const name = THEME_KEYS[h % THEME_KEYS.length];
+  return { name, t: THEMES[name] };
+};
+const { name: THEME_NAME, t: TH } = pickTheme();
 // キャラ画像は記事ごとのフォルダではなく public/images 直下にある（expr-*.png / mascot-*.png）
 const mascotUrl = (p) =>
   'file://' + (p.startsWith('/') ? path.join(ROOT, 'public', p) : path.join(ROOT, 'public/images', p));
@@ -49,7 +104,7 @@ const mascotUrl = (p) =>
  */
 const ONSEN_MARK = `
   <svg class="mark" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-    <circle cx="50" cy="50" r="48" fill="#ffffff" fill-opacity=".12"/>
+    <circle cx="50" cy="50" r="48" fill="currentColor" fill-opacity=".12"/>
     <!-- 湯船 -->
     <path d="M18 62 h64 a0 0 0 0 1 0 0 v3 a17 17 0 0 1 -17 17 H35 a17 17 0 0 1 -17 -17 z"
           fill="#ffd45e"/>
@@ -90,11 +145,11 @@ function coverHtml(c) {
 
   return `<style>${BASE}
   body { background: #f7f7f9; display: flex; flex-direction: column; }
-  header { background: ${NAVY}; color: #fff; padding: ${dense ? 36 : 46}px 54px ${dense ? 30 : 40}px;
+  header { background: ${TH.bg}; color: ${TH.text}; padding: ${dense ? 36 : 46}px 54px ${dense ? 30 : 40}px;
            position: relative; }
-  .kicker { font-size: 26px; font-weight: 700; color: #9fb4d6; letter-spacing: .08em; }
+  .kicker { font-size: 26px; font-weight: 700; color: ${TH.kicker}; letter-spacing: .08em; }
   h1 { font-size: ${dense ? 68 : 78}px; font-weight: 900; line-height: 1.1; margin-top: 8px; }
-  .sub { font-size: 29px; font-weight: 700; margin-top: 14px; color: #dbe4f2; }
+  .sub { font-size: 29px; font-weight: 700; margin-top: 14px; color: ${TH.sub}; }
   /* 右上のキャラとマーク。**見出しに被らない**よう幅を確保して右端に置く */
   .hero { position: absolute; top: ${dense ? 10 : 16}px; right: 40px;
           display: flex; align-items: flex-start; gap: 10px; }
@@ -108,8 +163,8 @@ function coverHtml(c) {
                   mask-image: linear-gradient(to bottom, #000 72%, rgba(0,0,0,0) 97%); }
   /* **見出しを右上のクラスタに被せない。** 幅を先に確保しておく */
   header h1, header .sub, header .kicker { max-width: ${dense ? 700 : 690}px; }
-  .sub em { font-style: normal; color: #ffd45e; }
-  .rule { height: 8px; background: linear-gradient(90deg, ${PINK}, #ff8a3d 55%, #ffc043); }
+  .sub em { font-style: normal; color: ${TH.em}; }
+  .rule { height: 8px; background: ${TH.rule}; }
 
   /* 記事の .event-pick と同じ骨格。似せるのではなく揃える */
   .grid { flex: 1; display: grid; grid-template-columns: repeat(${cols}, 1fr);
@@ -142,7 +197,7 @@ function coverHtml(c) {
   footer { display: flex; justify-content: space-between; align-items: baseline;
            padding: ${dense ? 12 : 16}px 46px ${dense ? 20 : 26}px;
            font-size: 20px; color: #7a7f8c; font-weight: 700; }
-  .brand { font-size: 30px; font-weight: 900; color: ${NAVY}; }
+  .brand { font-size: 30px; font-weight: 900; color: ${TH.brand}; }
   </style>
   <header>
     <div class="hero">
