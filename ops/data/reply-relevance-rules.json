@@ -87,7 +87,7 @@
   "_banned": "見下し・詰問の型。他人へ向けると絡みになる（SKILL.md §1 ⑥）。選ばれうる状態のまま置かない。",
   "tail_chars": 7,
   "_tail_chars": "語尾も見る。実物 15 件は書き出しがバラバラでも語尾の型が同じだった（試してみなさい💡／教えなさいよ😤／同意😉）。片側だけ見ても捕まらない。",
-  "max_same_closer_in_recent": 1,
+  "max_same_closer_in_recent": 2,
   "closer_phrases": [
     "試してみなさい",
     "教えなさいよ",
@@ -243,7 +243,11 @@
     "で、",
     "あ、"
   ],
-  "max_same_opener_in_recent": 1,
-  "max_same_final_emoji_in_recent": 2,
-  "_added_2026_09_05c": "書き出しの相づち / 末尾の絵文字。t032 の 4 件で「ふーん、」2 件・😏 3 件が並んだが、先頭8字一致と末尾7字一致では捕まらなかった。"
+  "max_same_opener_in_recent": 3,
+  "max_same_final_emoji_in_recent": 3,
+  "_added_2026_09_05c": "書き出しの相づち / 末尾の絵文字。t032 の 4 件で「ふーん、」2 件・😏 3 件が並んだが、先頭8字一致と末尾7字一致では捕まらなかった。",
+  "max_same_opener_in_run": 1,
+  "max_same_final_emoji_in_run": 1,
+  "max_same_closer_in_run": 1,
+  "_added_2026_09_05d": "同じ実行の中（厳しく）と、日をまたいだ過去（緩く）を分離。一緒くたにして t033 が 0 件になったため。"
 }
