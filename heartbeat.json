@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T13:02:53Z",
+  "generated_at": "2026-09-05T13:34:04Z",
   "host": "NaokinoMacBook-Pro-2.local",
   "job_count": 12,
   "jobs": [
@@ -18,7 +18,7 @@
   ],
   "reconnect": "既に起動している",
   "tasks": [
-      {"task": "t049-publish-morning-now.sh", "rc": 0, "out": "**出せていない。** CDP の口とエラーの実物をレポートに出した / publish-morning-now.md"}
+      {"task": "t051-fix-length-and-publish.sh", "rc": 0, "out": "**まだ出せていない。全文をレポートに残した** / fix-length-and-publish.md"}
   ],
   "auth": {
     "ok": true,
