@@ -424,9 +424,9 @@ references: ["https://www.ikea.com/jp/ja/stores/toyosu/", "https://prtimes.jp/ma
     <li>
       <a href="/posts/lalaport-guide-2026/">
         <span class="related-block-thumb"><img src="/images/lalaport-guide-2026/photos/toyosu.jpg" alt="" loading="lazy" /></span>
-        <span class="related-block-text">
-          <strong>ららぽーと売上ランキング 2026｜全20施設を決算資料で並べた</strong>
-          <span>IKEA豊洲が入った「アーバンドック ららぽーと豊洲」は、全20施設で売上5位・360億円。1㎡あたりの効率では全体の2位につけている。</span>
+        <span class="related-block-body">
+          <span class="related-block-cat">まとめ</span>
+          <span class="related-block-name">ららぽーと売上ランキング 2026｜全20施設を決算資料で並べた</span>
         </span>
       </a>
     </li>

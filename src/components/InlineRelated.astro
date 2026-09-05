@@ -1,0 +1,62 @@
+---
+// 本文の途中に差し込む「あわせて読みたい」ブロック。
+// PostLayout がプールとして描画し、記事ページのスクリプトが本文中へ移動させる。
+// 手書きの <aside class="related-block"> と重複しないよう、リンク先はスクリプト側で除外する。
+import type { CollectionEntry } from 'astro:content';
+import { getPrimaryCategory } from '../lib/category';
+
+export interface Props {
+  posts: CollectionEntry<'posts'>[];
+  title?: string;
+}
+
+const { posts, title = 'あわせて読みたい' } = Astro.props;
+
+const categoryLabel: Record<string, string> = {
+  campaigns: 'キャンペーン速報',
+  services: 'サービス紹介',
+  comparisons: '比較',
+  roundups: 'まとめ',
+  howto: 'ハウツー',
+  'wangan-life': '湾岸ライフ',
+};
+
+const categoryFallback: Record<string, string> = {
+  campaigns: '/images/eyecatch/campaigns.jpg',
+  services: '/images/eyecatch/services.jpg',
+  comparisons: '/images/eyecatch/comparisons.jpg',
+  roundups: '/images/eyecatch/roundups.jpg',
+  howto: '/images/eyecatch/howto.jpg',
+  'wangan-life': '/images/eyecatch/services.jpg',
+};
+
+const items = posts.map((p) => {
+  const cat = getPrimaryCategory(p.data);
+  return {
+    href: `/posts/${p.id}/`,
+    title: p.data.title,
+    label: categoryLabel[cat] ?? cat,
+    image: p.data.eyecatch?.src ?? p.data.eyecatchUrl ?? categoryFallback[cat] ?? '/images/eyecatch/services.jpg',
+  };
+});
+---
+
+<aside class="related-block" data-auto-related>
+  <div class="related-block-head">
+    <span class="related-block-icon"><img src="/images/expr-04-cheer.png" alt="" /></span>
+    <p class="related-block-title">{title}</p>
+  </div>
+  <ul class="related-block-list">
+    {items.map((it) => (
+      <li data-href={it.href}>
+        <a href={it.href}>
+          <span class="related-block-thumb"><img src={it.image} alt="" loading="lazy" /></span>
+          <span class="related-block-body">
+            <span class="related-block-cat">{it.label}</span>
+            <span class="related-block-name">{it.title}</span>
+          </span>
+        </a>
+      </li>
+    ))}
+  </ul>
+</aside>

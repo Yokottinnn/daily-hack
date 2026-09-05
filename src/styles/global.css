@@ -1245,3 +1245,8 @@ blockquote.twitter-tweet a:hover { color: var(--pink-700); }
   transition: background .15s, border-color .15s;
 }
 .post-cats .post-cat:hover { background: var(--pink-100, var(--pink-50)); border-color: var(--pink-300); }
+
+/* スマホ下部固定広告のぶん、記事の末尾に余白を作る（広告に隠れないように） */
+@media (max-width: 879px) {
+  body:has(.admax--sticky-mobile) { padding-bottom: 76px; }
+}
