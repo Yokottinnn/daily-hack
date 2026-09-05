@@ -133,9 +133,21 @@ const BASE = `
 function coverHtml(c) {
   const cols = c.columns || 2;
   const rows = Math.ceil(c.cards.length / cols);
+  const dense = rows >= 3; // 3 段以上は文字を小さくしないと入らない
   // 透かしの濃さ。JSON の cover.mascotOpacity（0〜1）。既定 0.38
   const mascotOpacity = Number.isFinite(c.mascotOpacity) ? c.mascotOpacity : 0.38;
-  const dense = rows >= 3; // 3 段以上は文字を小さくしないと入らない
+
+  /** **見出しは 1 行に収める。** 2026-09-05 の指摘:
+   *    「一行でまとめて。文字サイズを少し小さくすればいい。透過した画像の上に乗ってもいい」
+   *  文字数から自動で縮める。長いときは幅の上限も外し、**透かしのキャラに重ねる。**
+   *  `cover.titleSize` を書けばその値を使う（自動計算より優先）。 */
+  const titlePlain = String(c.title || '').replace(/<[^>]*>/g, '');
+  const wide = titlePlain.length >= 11;
+  const autoSize = Math.max(48, Math.min(dense ? 68 : 78,
+                     Math.floor((dense ? 930 : 960) / Math.max(titlePlain.length, 1))));
+  const h1Size = Number.isFinite(c.titleSize) ? c.titleSize : autoSize;
+  // 短い見出しはキャラを避ける。長い見出しは**重ねてよい**ので画面幅いっぱいまで使う
+  const h1Max = wide ? (dense ? 960 : 972) : (dense ? 700 : 690);
 
   const cards = c.cards.map((k) => `
     <div class="pick" style="--pick-img:url('${url(k.img)}')">
@@ -147,15 +159,18 @@ function coverHtml(c) {
 
   return `<style>${BASE}
   body { background: #f7f7f9; display: flex; flex-direction: column; }
+  header .kicker, header h1, header .sub { position: relative; z-index: 1; }
   header { background: ${TH.bg}; color: ${TH.text}; padding: ${dense ? 36 : 46}px 54px ${dense ? 30 : 40}px;
            position: relative; }
   .kicker { font-size: 26px; font-weight: 700; color: ${TH.kicker}; letter-spacing: .08em; }
-  h1 { font-size: ${dense ? 68 : 78}px; font-weight: 900; line-height: 1.1; margin-top: 8px; }
+  /* 透かしの上に乗るので、可読性のため薄い影を足す */
+  h1 { font-size: ${h1Size}px; font-weight: 900; line-height: 1.1; margin-top: 8px;
+       white-space: nowrap; text-shadow: 0 2px 10px rgba(0,0,0,.18); }
   .sub { font-size: 29px; font-weight: 700; margin-top: 14px; color: ${TH.sub}; }
   /* 右上のキャラとマーク。**見出しに被らない**よう幅を確保して右端に置く */
   /* **帯の中で上下中央に置く。** 2026-09-05 の指摘「位置をもう少し下に、帯の中で中央に」。
      上端に貼り付けると帯の下半分が空いて、透かしとして浮いて見える。 */
-  .hero { position: absolute; top: 0; bottom: 0; right: 40px;
+  .hero { position: absolute; top: 0; bottom: 0; right: 40px; z-index: 0;
           display: flex; align-items: center; gap: 10px; }
   .hero .mark { width: ${dense ? 96 : 108}px; height: ${dense ? 96 : 108}px; }
   /* **透かしとして置く。** 2026-09-05 の指摘:
@@ -167,7 +182,8 @@ function coverHtml(c) {
                   -webkit-mask-image: linear-gradient(to bottom, #000 62%, rgba(0,0,0,0) 96%);
                   mask-image: linear-gradient(to bottom, #000 62%, rgba(0,0,0,0) 96%); }
   /* **見出しを右上のクラスタに被せない。** 幅を先に確保しておく */
-  header h1, header .sub, header .kicker { max-width: ${dense ? 700 : 690}px; }
+  header .sub, header .kicker { max-width: ${dense ? 700 : 690}px; }
+  header h1 { max-width: ${h1Max}px; }
   .sub em { font-style: normal; color: ${TH.em}; }
   .rule { height: 8px; background: ${TH.rule}; }
 
