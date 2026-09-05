@@ -1,1 +1,5 @@
-[]
+[
+      {"task": "t046-source-and-bootstrap.sh", "rc": 0, "out": "**供給源と bootstrap を調べた（変更なし・$0）** / source-and-bootstrap.md"},
+      {"task": "t047-read-unfollow-logic.sh", "rc": 0, "out": "**アンフォローの本体を調べた（変更なし・$0）** / unfollow-logic.md"},
+      {"task": "t048-post-morning-thread.sh", "rc": 0, "out": ""}
+  ]
