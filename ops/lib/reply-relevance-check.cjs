@@ -182,6 +182,43 @@ function checkRelevance(input, rules) {
     }
   }
 
+  // 4-A-2. **書き出しの相づち**の使い回し
+  //
+  // 2026-09-05 に 4 件中 2 件が「ふーん、」で始まった。
+  // 上の 4-A は**先頭 8 字の完全一致**を見るので、
+  // 「ふーん、京丹後のさ」と「ふーん、dブックの」は別物として通ってしまった。
+  // **相づちそのものを数える。**
+  const openers = Array.isArray(r.opening_phrases) ? r.opening_phrases : [];
+  const maxOpener = Number.isFinite(r.max_same_opener_in_recent) ? r.max_same_opener_in_recent : 1;
+  for (const o of openers) {
+    if (!text.startsWith(o)) continue;
+    const same = prev.filter(x => x.startsWith(o)).length;
+    if (same >= maxOpener) {
+      reasons.push(`書き出しの「${o}」が直近 ${win} 件に ${same} 件＝同じ入り方の繰り返し`);
+    }
+    break; // 最長一致 1 つだけ見る（リストは長い順に並べておく）
+  }
+
+  // 4-A-3. **末尾の絵文字**の使い回し
+  //
+  // 2026-09-05 に 4 件中 3 件が 😏 で終わった。
+  // 語尾（末尾 7 字）は毎回ちがうので 4-A では捕まらない。
+  // **顔だけ同じ**という固まり方をするので、絵文字単体で数える。
+  const maxEmoji = Number.isFinite(r.max_same_final_emoji_in_recent) ? r.max_same_final_emoji_in_recent : 2;
+  {
+    const lastEmoji = s => {
+      const m = String(s).match(/(?:\p{Extended_Pictographic}(?:️)?(?:‍\p{Extended_Pictographic}(?:️)?)*)\s*$/u);
+      return m ? m[0].trim().replace(/️/g, '') : '';
+    };
+    const e = lastEmoji(text);
+    if (e) {
+      const same = prev.filter(x => lastEmoji(x) === e).length;
+      if (same >= maxEmoji) {
+        reasons.push(`末尾の絵文字「${e}」が直近 ${win} 件に ${same} 件＝顔だけ同じで並ぶ`);
+      }
+    }
+  }
+
   // 4-B. **締めの決まり文句**の使い回し
   const closers = Array.isArray(r.closer_phrases) ? r.closer_phrases : [];
   const maxCloser = Number.isFinite(r.max_same_closer_in_recent) ? r.max_same_closer_in_recent : 2;
