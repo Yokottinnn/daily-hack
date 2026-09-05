@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T02:25:45Z",
+  "generated_at": "2026-09-05T02:55:51Z",
   "host": "NaokinoMacBook-Pro-2.local",
   "job_count": 9,
   "jobs": [
@@ -14,10 +14,12 @@
     "com.dailyhack.weekly-blog-report"
   ],
   "reconnect": "既に起動している",
-  "tasks": [],
+  "tasks": [
+      {"task": "t029-preview-real-voice-v2.sh", "rc": 0, "out": "**返信案が出た（投稿なし）** / preview-real-voice-v2.md"}
+  ],
   "auth": {
     "ok": true,
-    "expires_at": "2026-09-05T02:31:07Z",
+    "expires_at": "2026-09-05T10:51:11Z",
     "detail": "有効期限内"
   },
   "activity": {
