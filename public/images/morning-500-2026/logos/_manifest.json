@@ -1,0 +1,84 @@
+{
+  "_note": "各チェーンの公式サイトから取得したロゴ。**商標であり自由ライセンスではない。**どのチェーンの節かを示す識別目的で使っている。改変せず、そのまま置くこと。取得日 2026-09-04（ops/tasks/065-morning-logos-menus.sh）。",
+  "stmarc": {
+    "brand": "サンマルクカフェ",
+    "source": "https://www.saint-marc-hd.com/saintmarccafe/",
+    "source_type": "公式サイト（商標）",
+    "file": "stmarc.png",
+    "width": 176,
+    "height": 176
+  },
+  "mcd": {
+    "brand": "マクドナルド",
+    "source": "https://www.mcdonalds.co.jp/",
+    "source_type": "公式サイト（商標）",
+    "file": "mcd.png",
+    "width": 176,
+    "height": 176
+  },
+  "mos": {
+    "brand": "モスバーガー",
+    "source": "https://www.mos.jp/",
+    "source_type": "公式サイト（商標）",
+    "file": "mos.png",
+    "width": 176,
+    "height": 176
+  },
+  "komeda": {
+    "brand": "コメダ珈琲店",
+    "source": "https://www.komeda.co.jp/",
+    "source_type": "公式サイト（商標）",
+    "file": "komeda.png",
+    "width": 773,
+    "height": 176
+  },
+  "nakau": {
+    "brand": "なか卯",
+    "source": "https://www.nakau.co.jp/jp/",
+    "source_type": "公式サイト（商標）",
+    "file": "nakau.jpg",
+    "width": 176,
+    "height": 176
+  },
+  "matsuya": {
+    "brand": "松屋",
+    "source": "https://www.matsuyafoods.co.jp/",
+    "source_type": "公式サイト（商標）",
+    "file": "matsuya.jpg",
+    "width": 792,
+    "height": 176,
+    "note": "236x236 の版はタグラインが入っていて縮めると読めない。ヘッダの横長ロゴを使う"
+  },
+  "yoshinoya": {
+    "brand": "吉野家",
+    "source": "https://www.yoshinoya.com/",
+    "source_type": "公式サイト（商標）",
+    "file": "yoshinoya.png",
+    "width": 176,
+    "height": 176
+  },
+  "sukiya": {
+    "brand": "すき家",
+    "source": "https://www.sukiya.jp/",
+    "source_type": "公式サイト（商標）",
+    "file": "sukiya.jpg",
+    "width": 210,
+    "height": 176
+  },
+  "doutor": {
+    "brand": "ドトールコーヒー",
+    "source": "https://www.doutor.co.jp/",
+    "source_type": "公式サイト（商標）",
+    "file": "doutor.jpg",
+    "width": 176,
+    "height": 176
+  },
+  "ueshima": {
+    "brand": "上島珈琲店",
+    "source": "https://www.ueshima-coffee-ten.jp/",
+    "source_type": "公式サイト（商標）",
+    "file": "ueshima.jpg",
+    "width": 176,
+    "height": 176
+  }
+}

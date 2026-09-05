@@ -88,5 +88,60 @@
     "source": "Wikimedia Commons",
     "width": 1200,
     "height": 800
-  }
+  },
+  "fac-toyosu": {
+    "file": "File:LaLaport Toyosu Annex.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "ITA-ATU",
+    "page": "https://commons.wikimedia.org/wiki/File:LaLaport_Toyosu_Annex.jpg",
+    "source": "Wikimedia Commons",
+    "width": 1200,
+    "height": 900
+  },
+  "fac-yokohama": {
+    "file": "File:LaLa-port Yokohama.JPG",
+    "license": "Public domain",
+    "artist": "Itoshin87",
+    "page": "https://commons.wikimedia.org/wiki/File:LaLa-port_Yokohama.JPG",
+    "source": "Wikimedia Commons",
+    "width": 1200,
+    "height": 900
+  },
+  "fac-fujimi": {
+    "file": "File:LaLaport FUJIMI Entrance (Fujimi city,Saitama,Japan) 15-04.JPG",
+    "license": "CC BY-SA 4.0",
+    "artist": "Hamihoko",
+    "page": "https://commons.wikimedia.org/wiki/File:LaLaport_FUJIMI_Entrance_(Fujimi_city,Saitama,Japan)_15-04.JPG",
+    "source": "Wikimedia Commons",
+    "width": 1200,
+    "height": 576
+  },
+  "fac-expocity": {
+    "file": "File:Nifrel, Expocity, Suita, Osaka - Apr 12, 2019.jpg",
+    "license": "CC BY 2.0",
+    "artist": "Dick Thomas Johnson",
+    "page": "https://commons.wikimedia.org/wiki/File:Nifrel,_Expocity,_Suita,_Osaka_-_Apr_12,_2019.jpg",
+    "source": "Wikimedia Commons",
+    "width": 1200,
+    "height": 800
+  },
+  "fac-anjo": {
+    "file": "File:LaLaport Anjo 2025-05 ac.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Asturio Cantabrio",
+    "page": "https://commons.wikimedia.org/wiki/File:LaLaport_Anjo_2025-05_ac.jpg",
+    "source": "Wikimedia Commons",
+    "width": 1200,
+    "height": 800
+  },
+  "fac-vivit": {
+    "file": "File:Vivit Minamifunabashi201610.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Yu2222",
+    "page": "https://commons.wikimedia.org/wiki/File:Vivit_Minamifunabashi201610.jpg",
+    "source": "Wikimedia Commons",
+    "width": 1200,
+    "height": 900
+  },
+  "_note_official": "tokyobay / toyosu / yokohama / fujimi / expocity / fukuoka / kashiwa / anjo の 8 枚は 記事公開時（#138）から入っているもので、Commons ではなく三井ショッピングパーク公式サイトの写真。064（2026-09-04）で Commons 候補 31 枚と dHash を突き合わせ、一致が 1 件も無いことを確認した。fac- で始まるものが Commons 由来で、そちらは file / license / artist を持つ。"
 }

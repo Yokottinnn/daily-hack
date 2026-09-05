@@ -145,6 +145,11 @@ author: "hacker-ko"
   <figcaption>2025年10月31日にグランドオープンした「North Gate」。旧ビビット南船橋を統合し、店舗面積は約3割増えた。<cite>出典: <a href="https://prtimes.jp/main/html/rd/p/000000894.000051782.html" target="_blank" rel="noopener">三井不動産 プレスリリース</a></cite></figcaption>
 </figure>
 
+<figure class="rn-figure">
+  <img src="/images/lalaport-guide-2026/photos/fac-vivit.jpg" alt="統合前のビビット南船橋。2016年撮影" loading="lazy" />
+  <figcaption>統合前の<strong>ビビット南船橋</strong>（2016年撮影）。この建物ごと取り込んで、店舗面積が約102,000㎡→約133,000㎡になった。<cite>撮影: Yu2222 ／ <a href="https://commons.wikimedia.org/wiki/File:Vivit_Minamifunabashi201610.jpg" target="_blank" rel="noopener">Wikimedia Commons</a>（CC BY-SA 4.0）</cite></figcaption>
+</figure>
+
 2025年10月31日、**北館の建替え1期と、隣接していた「ビビット南船橋」の統合が完了**して「ららぽーとTOKYO-BAY North Gate」になった。店舗面積は約102,000㎡→約133,000㎡へ、一気に3割増えてる。
 
 増床分がまるごと売上に乗った格好ね。**何が入ったのかは次の見出しで詳しく見る。**
@@ -755,6 +760,11 @@ TOKYO-BAYの**2.1倍**。この表の最下位（愛知東郷 46.0万円）と�
   </table>
 </div>
 
+<figure class="rn-figure">
+  <img src="/images/lalaport-guide-2026/photos/fac-toyosu.jpg" alt="ららぽーと豊洲アネックスの外観。豊洲駅から徒歩5分" loading="lazy" />
+  <figcaption>アネックス棟。本館とあわせて<strong>売上5位・360億</strong>で、1㎡あたりでは全体の2位につけている。<cite>撮影: ITA-ATU ／ <a href="https://commons.wikimedia.org/wiki/File:LaLaport_Toyosu_Annex.jpg" target="_blank" rel="noopener">Wikimedia Commons</a>（CC BY-SA 3.0）</cite></figcaption>
+</figure>
+
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">ランチはららぽーと豊洲のフードコート<br>金子半之助で野菜天丼<br>カボチャ苦手なので海老に変えてもらったら値段変わらずなんですって！<br>2回聞き直しちゃいました裏技？<br>美味しかったです！</p>&mdash; すまいよみ@マンション東京東エリア (@sumaiyomi) <a href="https://twitter.com/sumaiyomi/status/2081597719945318768">2026年7月27日</a></blockquote>
 
 **駐車料金が全20施設でもっとも高い**（超過30分400円）。売上5位・520億で、いま<a href="#ららぽーと豊洲キッズパークはもう完成済み休憩席は4倍に">20周年リニューアルの最中</a>。
@@ -803,6 +813,11 @@ TOKYO-BAYの**2.1倍**。この表の最下位（愛知東郷 46.0万円）と�
     </tbody>
   </table>
 </div>
+
+<figure class="rn-figure">
+  <img src="/images/lalaport-guide-2026/photos/fac-yokohama.jpg" alt="ららぽーと横浜のエントランス。鴨居駅から徒歩7分" loading="lazy" />
+  <figcaption>エントランス側。<strong>面積2位なのに売上は7位</strong>で、いま3か年のリニューアル中。<cite><a href="https://commons.wikimedia.org/wiki/File:LaLa-port_Yokohama.JPG" target="_blank" rel="noopener">Wikimedia Commons</a>（パブリックドメイン）</cite></figcaption>
+</figure>
 
 **面積2位なのに売上は7位。** 実力を出しきれていない施設で、いま<a href="#ららぽーと横浜売上110億の当事者3か年で立て直す">3か年のリニューアル中</a>。工事の影響で売上が110億落ちた。
 
@@ -890,6 +905,11 @@ TOKYO-BAYの**2.1倍**。この表の最下位（愛知東郷 46.0万円）と�
   </table>
 </div>
 
+<figure class="rn-figure">
+  <img src="/images/lalaport-guide-2026/photos/fac-fujimi.jpg" alt="ららぽーと富士見の外観。鶴瀬駅からバス、2015年4月開業" loading="lazy" />
+  <figcaption><strong>売上4位・560億</strong>。鉄道の徒歩圏外にありながら、上位に食い込んでいる数少ない施設。<cite>撮影: Hamihoko ／ <a href="https://commons.wikimedia.org/wiki/File:LaLaport_FUJIMI_Entrance_(Fujimi_city,Saitama,Japan)_15-04.JPG" target="_blank" rel="noopener">Wikimedia Commons</a>（CC BY-SA 4.0）</cite></figcaption>
+</figure>
+
 **鶴瀬からバス6分という立地で、売上4位・560億。** 面積4位・店舗数3位と、規模も上位に食い込む。駐車場は終日無料。
 
 **規模だけでなく、入っているものが強い。** チームラボの常設施設がある。
@@ -934,6 +954,11 @@ TOKYO-BAYの**2.1倍**。この表の最下位（愛知東郷 46.0万円）と�
     </tbody>
   </table>
 </div>
+
+<figure class="rn-figure">
+  <img src="/images/lalaport-guide-2026/photos/fac-expocity.jpg" alt="ららぽーとEXPOCITYの敷地。水族館ニフレルと観覧車オオサカホイール" loading="lazy" />
+  <figcaption>手前が水族館「ニフレル」、奥が観覧車「オオサカホイール」。<strong>売上3位・570億</strong>を出しているのは、買い物以外の施設が同じ敷地に並んでいるから。<cite>撮影: Dick Thomas Johnson ／ <a href="https://commons.wikimedia.org/wiki/File:Nifrel,_Expocity,_Suita,_Osaka_-_Apr_12,_2019.jpg" target="_blank" rel="noopener">Wikimedia Commons</a>（CC BY 2.0）</cite></figcaption>
+</figure>
 
 **関西最大。** 面積3位・店舗数2位・売上3位570億と、3つの指標すべてで関西トップ。万博記念公園 徒歩2分。
 
@@ -1170,6 +1195,11 @@ TOKYO-BAYの**2.1倍**。この表の最下位（愛知東郷 46.0万円）と�
     </tbody>
   </table>
 </div>
+
+<figure class="rn-figure">
+  <img src="/images/lalaport-guide-2026/photos/fac-anjo.jpg" alt="ららぽーと安城の外観。2025年4月開業の最新施設" loading="lazy" />
+  <figcaption><strong>20施設でいちばん新しい</strong>（2025年4月開業）。三河安城駅からバス。<cite>撮影: Asturio Cantabrio ／ <a href="https://commons.wikimedia.org/wiki/File:LaLaport_Anjo_2025-05_ac.jpg" target="_blank" rel="noopener">Wikimedia Commons</a>（CC BY-SA 4.0）</cite></figcaption>
+</figure>
 
 **20施設でいちばん新しい**（2025年4月）。面積10位。安城駅 徒歩10分で、駐車場は終日無料。
 
