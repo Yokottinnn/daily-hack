@@ -45,7 +45,10 @@ function sharedTokens(a, b) {
   const hit = [];
   for (const x of A) {
     for (const y of B) {
-      if (x === y || (x.length >= 3 && y.includes(x)) || (y.length >= 3 && x.includes(y))) {
+      // **2 文字から包含を見る。** 3 文字以上だと「外貨」と「外貨建」が別語になり、
+      // 明らかに同じ話題なのに「読んでいない返信」と誤判定した（2026-09-05 に実測）。
+      // 日本語の 2 字漢語は独立した語なので、包含は同語とみなしてよい。
+      if (x === y || (x.length >= 2 && y.includes(x)) || (y.length >= 2 && x.includes(y))) {
         hit.push(x);
         break;
       }
@@ -79,6 +82,16 @@ function checkRelevance(input, rules) {
   const target = String((input && input.targetText) || '');
   const tpl = String((input && input.templateId) || '');
   const recent = Array.isArray(input && input.recentReplies) ? input.recentReplies : [];
+  // **同じ実行の中で作った文**は別枠。並んで人目に触れるので厳しく見る。
+  //
+  // 2026-09-05、この 2 つを一緒くたにして 0 件になった。
+  // 比較先の「直近 20 件」は**穴埋め時代の返信そのもの**で、意図的に型が固まっていた。
+  // そこを基準にすると 14 種の絵文字のほとんどが最初から「使用済み」になり、
+  // **新しい文が 1 つも通らない。**
+  //
+  //   同じ実行の中  … 並んで出る。**厳しく**（既定 1 件で打ち止め）
+  //   日をまたいだ過去 … 何日も離れている。**緩く**（既定 3 件で打ち止め）
+  const runR = Array.isArray(input && input.runReplies) ? input.runReplies.map(x => String(x || '')) : [];
 
   const reasons = [];
   const warns = [];
@@ -179,13 +192,68 @@ function checkRelevance(input, rules) {
     }
   }
 
+  // 4-A-2. **書き出しの相づち**の使い回し
+  //
+  // 2026-09-05 に 4 件中 2 件が「ふーん、」で始まった。
+  // 上の 4-A は**先頭 8 字の完全一致**を見るので、
+  // 「ふーん、京丹後のさ」と「ふーん、dブックの」は別物として通ってしまった。
+  // **相づちそのものを数える。**
+  const openers = Array.isArray(r.opening_phrases) ? r.opening_phrases : [];
+  const maxOpenerRun = Number.isFinite(r.max_same_opener_in_run) ? r.max_same_opener_in_run : 1;
+  const maxOpenerOld = Number.isFinite(r.max_same_opener_in_recent) ? r.max_same_opener_in_recent : 3;
+  for (const o of openers) {
+    if (!text.startsWith(o)) continue;
+    const inRun = runR.filter(x => x.startsWith(o)).length;
+    if (inRun >= maxOpenerRun) {
+      reasons.push(`書き出しの「${o}」を同じ実行で ${inRun} 件 使っている＝並ぶと同じ入り方`);
+    } else {
+      const same = prev.filter(x => x.startsWith(o)).length;
+      if (same >= maxOpenerOld) {
+        reasons.push(`書き出しの「${o}」が直近 ${win} 件に ${same} 件＝同じ入り方の繰り返し`);
+      }
+    }
+    break; // 最長一致 1 つだけ見る（リストは長い順に並べておく）
+  }
+
+  // 4-A-3. **末尾の絵文字**の使い回し
+  //
+  // 2026-09-05 に 4 件中 3 件が 😏 で終わった。
+  // 語尾（末尾 7 字）は毎回ちがうので 4-A では捕まらない。
+  // **顔だけ同じ**という固まり方をするので、絵文字単体で数える。
+  const maxEmojiRun = Number.isFinite(r.max_same_final_emoji_in_run) ? r.max_same_final_emoji_in_run : 1;
+  const maxEmojiOld = Number.isFinite(r.max_same_final_emoji_in_recent) ? r.max_same_final_emoji_in_recent : 3;
+  {
+    const lastEmoji = s => {
+      const m = String(s).match(/(?:\p{Extended_Pictographic}(?:️)?(?:‍\p{Extended_Pictographic}(?:️)?)*)\s*$/u);
+      return m ? m[0].trim().replace(/️/g, '') : '';
+    };
+    const e = lastEmoji(text);
+    if (e) {
+      const inRun = runR.filter(x => lastEmoji(x) === e).length;
+      if (inRun >= maxEmojiRun) {
+        reasons.push(`末尾の絵文字「${e}」を同じ実行で ${inRun} 件 使っている＝並ぶと顔が同じ`);
+      } else {
+        const same = prev.filter(x => lastEmoji(x) === e).length;
+        if (same >= maxEmojiOld) {
+          reasons.push(`末尾の絵文字「${e}」が直近 ${win} 件に ${same} 件＝顔だけ同じで並ぶ`);
+        }
+      }
+    }
+  }
+
   // 4-B. **締めの決まり文句**の使い回し
   const closers = Array.isArray(r.closer_phrases) ? r.closer_phrases : [];
-  const maxCloser = Number.isFinite(r.max_same_closer_in_recent) ? r.max_same_closer_in_recent : 2;
+  const maxCloserRun = Number.isFinite(r.max_same_closer_in_run) ? r.max_same_closer_in_run : 1;
+  const maxCloserOld = Number.isFinite(r.max_same_closer_in_recent) ? r.max_same_closer_in_recent : 2;
   for (const c of closers) {
     if (!text.includes(c)) continue;
+    const inRun = runR.filter(x => x.includes(c)).length;
+    if (inRun >= maxCloserRun) {
+      reasons.push(`締めの「${c}」を同じ実行で ${inRun} 件 使っている＝並ぶと同じ型`);
+      break;
+    }
     const same = prev.filter(x => x.includes(c)).length;
-    if (same >= maxCloser) {
+    if (same >= maxCloserOld) {
       reasons.push(`締めの「${c}」が直近 ${win} 件に ${same} 件＝同じ型の使い回し`);
       break;
     }
@@ -235,6 +303,49 @@ function checkRelevance(input, rules) {
     const c = text.match(calm);
     if (c && money.some(w => text.includes(w) || target.includes(w))) {
       reasons.push(`他人の資産への根拠のない断定「${c[0]}」＝相手の条件を知らずに言い切っている`);
+    }
+  }
+
+  // 4-G. **相場の予測**
+  //
+  // 2026-09-05 に「ここからの**回復も早い**と思うわ」が出た。
+  // 「回復」は相手の投稿に無く、**こちらが足した見通し。**
+  //
+  // 4-E は「大丈夫よ」の断定を弾いたが、**「思う」で緩めれば通ってしまう。**
+  // 断定を避けただけで中身は予測のままなので、**語尾ではなく中身で弾く。**
+  //
+  // 相手が自分で書いた見通しに乗るのは可（投稿にその語があれば通す）。
+  if (r.block_market_forecast !== false) {
+    const money = Array.isArray(r.finance_words) && r.finance_words.length
+      ? r.finance_words : [];
+    const fc = /(回復|反発|戻る|戻す|上がる|上向|持ち直|伸びる|下がる|落ちる|暴落する)/;
+    const m = text.match(fc);
+    if (m && !target.includes(m[0]) && money.some(w => text.includes(w) || target.includes(w))) {
+      reasons.push(`相場の予測「${m[0]}」＝相手の投稿に無い見通しを足している`);
+    }
+  }
+
+  // 4-H. **金融語の言い換え**
+  //
+  // 2026-09-05 に、相手の「旧NISA からの**資産**がある」を
+  // 「旧NISA の**貯金**がある」と書き換えた。**投資資産と貯金は別物。**
+  //
+  // 2026-09-04 の「サーモンゆず塩」→「塩辛いサーモン」と**同じ型**のずれ。
+  // 程度は軽いが根は同じなので、**混同すると意味が変わる組**だけを見る。
+  if (r.block_finance_paraphrase !== false) {
+    const pairs = Array.isArray(r.finance_paraphrase_pairs) && r.finance_paraphrase_pairs.length
+      ? r.finance_paraphrase_pairs
+      : [[['資産', '投資', '運用', '株', '投信', 'NISA', 'iDeCo'], ['貯金', '預金', '貯蓄']],
+         [['ポイント', 'pt'], ['現金', 'キャッシュバック']],
+         [['還元', '付与'], ['割引', '値引き']]];
+    for (const [src, dst] of pairs) {
+      // **こちらが使った語**が相手の投稿に無く、かつ**対になる語**が相手の投稿にある
+      const used = dst.find(w => text.includes(w) && !target.includes(w));
+      if (used && src.some(w => target.includes(w))) {
+        const orig = src.find(w => target.includes(w));
+        reasons.push(`言い換えている「${orig}」→「${used}」＝別物になっている`);
+        break;
+      }
     }
   }
 
