@@ -126,6 +126,40 @@ mark-drafted / mark-skipped / mark-posted / enqueue / mark-dm-sent
 }
 ```
 
+### 積む前に **X の重み**を数える（280。**全角は 2**）
+
+**2026-09-05 に、これだけが原因で 40 分 失った。** 本文の重みが **293** で
+上限 **280** を 13 超えており、**投稿ボタンが有効にならず中止**されていた。
+Chrome も CDP も画像も正常で、そちらばかり疑っていた。
+
+```javascript
+// post-via-playwright.js:125
+out({ ok:false, step, error: "X refused to enable the post button — nothing was posted" })
+```
+
+**日本語は 1 文字が 2。** 161 文字の和文はそれだけで 322 になりうる。
+「文字数」で数えると通ると思ってしまう。**必ず重みで数える。**
+
+```bash
+node -e 'const w=s=>{let n=0;for(const c of s)n+=c.codePointAt(0)<0x80?1:2;return n};
+         console.log(w(require("fs").readFileSync(0,"utf8")))' <<< "$TEXT"
+```
+
+**積む前に数え、280 を超えていたら積まない。** 積んでから気づくと、
+`run-publish.sh` は `{"ok":false,"step":"thread-main-exec","error":"Command failed: ..."}`
+としか返さず、**理由が分からない**（次項）。
+
+### `run-publish.sh` は子プロセスの stdout を捨てる
+
+`post-via-playwright.js` は失敗時も **stdout に JSON で理由を書く**が、
+`run-publish.sh` は `execSync` の `error.message`（＝`Command failed: <コマンド>`）
+しか出さないため、**その JSON は捨てられる。**
+
+だから「なぜ落ちたか」を知りたければ、**渡している引数を復元して自分で数える**か、
+**`post-via-playwright.js` を直接叩いて stdout を読む**しかない。
+ただし直接叩くと**成功したときに [1/2] だけ出て片肺になる**ので、
+**先に重みと画像枚数を検算するほうが速く、安全。**
+
 ### 出す前に Chrome を確かめる
 
 `run-publish.sh` は冒頭で `ensure-chrome.sh` を呼ぶが、
@@ -178,6 +212,7 @@ CLAUDE.md ルール 4 の「**何が失敗したかの実際の出力**を出す
 ## 5. 書く前のチェックリスト
 
 
+- [ ] **本文の重みを数えたか**（**280。全角は 2。** 和文は文字数の 2 倍になる）
 - [ ] `kind` は `"thread"` か（`"blog-promo"` にしていないか）
 - [ ] `id` は `blog-promo-` で始まっているか
 - [ ] `node -e` の argv は `slice(1)` か
