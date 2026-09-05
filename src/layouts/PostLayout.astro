@@ -111,11 +111,9 @@ const articleJsonLd = {
           { label: data.title },
         ]} />
         <header class="post-head">
-          <span class="art" style="display: inline-block; margin-right: 8px;">
+          <span class="post-cats">
             {postCategories.map((c) => (
-              <a href={`/category/${c}/`} style="text-decoration: none; margin-right: 6px;">
-                <span class="cat pink">{categoryLabel[c] ?? c}</span>
-              </a>
+              <a class="post-cat" href={`/category/${c}/`}>{categoryLabel[c] ?? c}</a>
             ))}
           </span>
           {data.isPR && <PRBadge />}
