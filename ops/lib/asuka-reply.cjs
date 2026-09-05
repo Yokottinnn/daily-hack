@@ -77,6 +77,24 @@ async function main() {
   try { ({ checkTone } = require(path.join(DIR, 'reply-tone-check.cjs'))); } catch (e) {}
   toneRules = loadJSON(path.join(DATA, 'reply-tone-rules.json'), null);
 
+  // --- LLM を呼ぶ前に、相手の投稿で見送る ---
+  //
+  // 2026-09-04 の実測: 候補 5 件のうち **3 件が PR / 楽天アフィリ / 拡散キャンペーン**だった。
+  // 生成側も「紹介コード・URLへの誘導」として skip したが、**それは LLM を呼んだ後。**
+  // 入口で落とせば、その 3 件ぶんの費用がまるごと消える。
+  //
+  // **相手を弾く `ng-filter` とは別。** あちらは売春・闇バイト系。ここは PR 投稿。
+  {
+    const ts = (relRules && relRules.target_skip) || {};
+    const hit = [];
+    for (const h of ts.hashtags || []) if (target.includes(h)) hit.push(h);
+    for (const d of ts.domains || []) if (target.includes(d)) hit.push(d);
+    for (const w of ts.campaign_words || []) if (target.includes(w)) hit.push(w);
+    if (hit.length) {
+      return skip('PR/アフィリ/拡散キャンペーンの投稿なので LLM を呼ばずに見送る: ' + hit.slice(0, 3).join(' / '));
+    }
+  }
+
   const QUEUE = process.env.OPS_QUEUE_PATH
     || path.join(process.env.HOME || '', '.openclaw', 'workspace', 'data', 'post_queue.json');
   // **直近は 8 件だけ渡す。** 20 件渡すと入力が約 1,000 字 増え、
@@ -112,12 +130,23 @@ async function main() {
   try {
     const ant = require(path.join(process.env.HOME || '', '.openclaw', 'workspace', 'scripts', 'anthropic-client.js'));
 
+    // **推測せず、動いている `asuka-fill.js` と同じ形にする。**
+    //
+    //   const resp = await ant.call({
+    //     model: MODEL, system: SYSTEM, user: userMsg,
+    //     max_tokens: 500, temperature: 0.7,
+    //   });
+    //
+    // `messages` 配列ではなく **`user` に文字列**を渡すクライアントだった。
+    // 2026-09-04、`messages` を渡して `messages.0.content: Field required` で
+    // 400 になった。クライアントが `user` から messages を組み立てるため、
+    // `user` が undefined のまま送られていた。
     const req = {
       model: cfg.model,
+      system: cfg.system.join('\n'),
+      user: userMsg,
       max_tokens: Number(cfg.max_tokens || 300),
       temperature: Number(cfg.temperature || 0.9),
-      system: cfg.system.join('\n'),
-      messages: [{ role: 'user', content: userMsg }],
     };
 
     let call = null, how = '';

@@ -35,7 +35,10 @@ WT="${OPS_HEARTBEAT_WORKTREE:-$HOME/.openclaw/ops-heartbeat-wt}"
 BRANCH="${OPS_HEARTBEAT_BRANCH:-ops/heartbeat}"
 LOCK="$WT/.tasks.lock"
 OUTJSON="$WT/last-tasks.json"
-STALE_SEC="${OPS_TASK_STALE_SEC:-1800}"
+# **300 秒。** 1800 秒（30 分）は 1 分間隔のポーラーに対して長すぎた。
+# 2026-09-04、取り残しのせいで 28 分 タスクが 1 件も走らなかった。
+# t016 で見つけて記録したのに直さず、同じことをもう一度起こした。
+STALE_SEC="${OPS_TASK_STALE_SEC:-300}"
 
 [ -d "$MAIN_REPO/.git" ] || { echo "ops-run-tasks: リポジトリが無い: $MAIN_REPO" >&2; exit 1; }
 [ -d "$WT" ] || { echo "ops-run-tasks: worktree が無い: $WT" >&2; exit 1; }
@@ -59,7 +62,7 @@ fi
 #
 # **`mkdir` は原子的。** `[ -e ]` してから作る形だと隙間で両方が通る。
 if ! mkdir "$LOCK" 2>/dev/null; then
-  # 取り残されたロックだけは外す。**それ以外は黙って譲る**
+  # 取り残されたロックだけは外す。**それ以外は譲る（ログは出す）**
   if [ -f "$LOCK/started_at" ]; then
     started="$(cat "$LOCK/started_at" 2>/dev/null || echo 0)"
     now_s="$(date +%s)"
@@ -68,9 +71,13 @@ if ! mkdir "$LOCK" 2>/dev/null; then
       rm -rf "$LOCK"
       mkdir "$LOCK" 2>/dev/null || exit 0
     else
+      # **黙って譲らない。** 無言だと「止まっている」のか「譲っている」のか
+      # 外から区別できない。2026-09-04 にこれで 28 分 気づけなかった。
+      echo "ops-run-tasks: 別の実行がロック中（$((now_s - started)) 秒経過）。譲る" >&2
       exit 0
     fi
   else
+    echo "ops-run-tasks: ロックはあるが started_at が無い。譲る" >&2
     exit 0
   fi
 fi
