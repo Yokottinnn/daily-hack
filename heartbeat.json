@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T02:55:51Z",
+  "generated_at": "2026-09-05T03:27:01Z",
   "host": "NaokinoMacBook-Pro-2.local",
   "job_count": 9,
   "jobs": [
@@ -14,9 +14,7 @@
     "com.dailyhack.weekly-blog-report"
   ],
   "reconnect": "既に起動している",
-  "tasks": [
-      {"task": "t029-preview-real-voice-v2.sh", "rc": 0, "out": "**返信案が出た（投稿なし）** / preview-real-voice-v2.md"}
-  ],
+  "tasks": [],
   "auth": {
     "ok": true,
     "expires_at": "2026-09-05T10:51:11Z",
