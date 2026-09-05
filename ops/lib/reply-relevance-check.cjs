@@ -82,6 +82,16 @@ function checkRelevance(input, rules) {
   const target = String((input && input.targetText) || '');
   const tpl = String((input && input.templateId) || '');
   const recent = Array.isArray(input && input.recentReplies) ? input.recentReplies : [];
+  // **同じ実行の中で作った文**は別枠。並んで人目に触れるので厳しく見る。
+  //
+  // 2026-09-05、この 2 つを一緒くたにして 0 件になった。
+  // 比較先の「直近 20 件」は**穴埋め時代の返信そのもの**で、意図的に型が固まっていた。
+  // そこを基準にすると 14 種の絵文字のほとんどが最初から「使用済み」になり、
+  // **新しい文が 1 つも通らない。**
+  //
+  //   同じ実行の中  … 並んで出る。**厳しく**（既定 1 件で打ち止め）
+  //   日をまたいだ過去 … 何日も離れている。**緩く**（既定 3 件で打ち止め）
+  const runR = Array.isArray(input && input.runReplies) ? input.runReplies.map(x => String(x || '')) : [];
 
   const reasons = [];
   const warns = [];
@@ -189,12 +199,18 @@ function checkRelevance(input, rules) {
   // 「ふーん、京丹後のさ」と「ふーん、dブックの」は別物として通ってしまった。
   // **相づちそのものを数える。**
   const openers = Array.isArray(r.opening_phrases) ? r.opening_phrases : [];
-  const maxOpener = Number.isFinite(r.max_same_opener_in_recent) ? r.max_same_opener_in_recent : 1;
+  const maxOpenerRun = Number.isFinite(r.max_same_opener_in_run) ? r.max_same_opener_in_run : 1;
+  const maxOpenerOld = Number.isFinite(r.max_same_opener_in_recent) ? r.max_same_opener_in_recent : 3;
   for (const o of openers) {
     if (!text.startsWith(o)) continue;
-    const same = prev.filter(x => x.startsWith(o)).length;
-    if (same >= maxOpener) {
-      reasons.push(`書き出しの「${o}」が直近 ${win} 件に ${same} 件＝同じ入り方の繰り返し`);
+    const inRun = runR.filter(x => x.startsWith(o)).length;
+    if (inRun >= maxOpenerRun) {
+      reasons.push(`書き出しの「${o}」を同じ実行で ${inRun} 件 使っている＝並ぶと同じ入り方`);
+    } else {
+      const same = prev.filter(x => x.startsWith(o)).length;
+      if (same >= maxOpenerOld) {
+        reasons.push(`書き出しの「${o}」が直近 ${win} 件に ${same} 件＝同じ入り方の繰り返し`);
+      }
     }
     break; // 最長一致 1 つだけ見る（リストは長い順に並べておく）
   }
@@ -204,7 +220,8 @@ function checkRelevance(input, rules) {
   // 2026-09-05 に 4 件中 3 件が 😏 で終わった。
   // 語尾（末尾 7 字）は毎回ちがうので 4-A では捕まらない。
   // **顔だけ同じ**という固まり方をするので、絵文字単体で数える。
-  const maxEmoji = Number.isFinite(r.max_same_final_emoji_in_recent) ? r.max_same_final_emoji_in_recent : 2;
+  const maxEmojiRun = Number.isFinite(r.max_same_final_emoji_in_run) ? r.max_same_final_emoji_in_run : 1;
+  const maxEmojiOld = Number.isFinite(r.max_same_final_emoji_in_recent) ? r.max_same_final_emoji_in_recent : 3;
   {
     const lastEmoji = s => {
       const m = String(s).match(/(?:\p{Extended_Pictographic}(?:️)?(?:‍\p{Extended_Pictographic}(?:️)?)*)\s*$/u);
@@ -212,20 +229,31 @@ function checkRelevance(input, rules) {
     };
     const e = lastEmoji(text);
     if (e) {
-      const same = prev.filter(x => lastEmoji(x) === e).length;
-      if (same >= maxEmoji) {
-        reasons.push(`末尾の絵文字「${e}」が直近 ${win} 件に ${same} 件＝顔だけ同じで並ぶ`);
+      const inRun = runR.filter(x => lastEmoji(x) === e).length;
+      if (inRun >= maxEmojiRun) {
+        reasons.push(`末尾の絵文字「${e}」を同じ実行で ${inRun} 件 使っている＝並ぶと顔が同じ`);
+      } else {
+        const same = prev.filter(x => lastEmoji(x) === e).length;
+        if (same >= maxEmojiOld) {
+          reasons.push(`末尾の絵文字「${e}」が直近 ${win} 件に ${same} 件＝顔だけ同じで並ぶ`);
+        }
       }
     }
   }
 
   // 4-B. **締めの決まり文句**の使い回し
   const closers = Array.isArray(r.closer_phrases) ? r.closer_phrases : [];
-  const maxCloser = Number.isFinite(r.max_same_closer_in_recent) ? r.max_same_closer_in_recent : 2;
+  const maxCloserRun = Number.isFinite(r.max_same_closer_in_run) ? r.max_same_closer_in_run : 1;
+  const maxCloserOld = Number.isFinite(r.max_same_closer_in_recent) ? r.max_same_closer_in_recent : 2;
   for (const c of closers) {
     if (!text.includes(c)) continue;
+    const inRun = runR.filter(x => x.includes(c)).length;
+    if (inRun >= maxCloserRun) {
+      reasons.push(`締めの「${c}」を同じ実行で ${inRun} 件 使っている＝並ぶと同じ型`);
+      break;
+    }
     const same = prev.filter(x => x.includes(c)).length;
-    if (same >= maxCloser) {
+    if (same >= maxCloserOld) {
       reasons.push(`締めの「${c}」が直近 ${win} 件に ${same} 件＝同じ型の使い回し`);
       break;
     }

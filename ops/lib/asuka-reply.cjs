@@ -128,8 +128,12 @@ async function main() {
   if (!Array.isArray(extra)) extra = [];
   extra = extra.map(String).filter(Boolean);
 
+  // プロンプトへ渡す見本には混ぜてよい（型を避けさせたいだけ）
   const recent = recentReplies(QUEUE, Number(process.env.RECENT_N || 8)).concat(extra).slice(-8);
-  const recentForGate = recentReplies(QUEUE, 20).concat(extra).slice(-20);
+  // **ゲートには分けて渡す。** 同じ実行の中は厳しく、日をまたいだ過去は緩く。
+  // 一緒くたにすると、比較先が穴埋め時代の型そのものなので 1 件も通らない。
+  const recentForGate = recentReplies(QUEUE, 20);
+  const runForGate = extra;
 
   // --- DRY_RUN: API を呼ばずに、何を送るつもりだったかだけ出す ---
   const userMsg = String(cfg.user_template || '{TARGET}')
@@ -221,7 +225,7 @@ async function main() {
   if (w > MAX_WEIGHT) return skip(`長すぎる（${w} weight > ${MAX_WEIGHT}）`);
 
   // --- ゲート ---
-  const rel = checkRelevance({ text, targetText: target, recentReplies: recentForGate }, relRules);
+  const rel = checkRelevance({ text, targetText: target, recentReplies: recentForGate, runReplies: runForGate }, relRules);
   if (!rel.ok) return skip('噛み合い検査で弾いた: ' + rel.reasons.join(' / '));
 
   if (checkTone && toneRules) {
