@@ -1,0 +1,98 @@
+{
+  "_doc": "X 告知用の正方形画像。作り方は .claude/skills/x-post-images/SKILL.md",
+  "slug": "ikea-toyosu-2026",
+  "imageBase": "public/images/ikea-toyosu-2026",
+  "out": "public/images/ikea-toyosu-2026/x",
+  "cover": {
+    "file": "1-summary.jpg",
+    "kicker": "2026年9月3日オープン",
+    "title": "IKEA豊洲のゾーン別まとめ",
+    "sub": "何がどこにあるか <em>6ゾーン全部</em>",
+    "mascot": "expr-09-arms-crossed.png",
+    "mark": false,
+    "columns": 2,
+    "cards": [
+      {
+        "img": "photos/zone-living.jpg",
+        "badge": "リビング",
+        "title": "ソファ 32,990円",
+        "meta": "クッション・ラグ・照明も同じ島／大物は配送"
+      },
+      {
+        "img": "photos/zone-kitchen.jpg",
+        "badge": "キッチン",
+        "title": "皿・グラス・保存容器",
+        "meta": "壁一面。持ち帰り前提の作りがいちばん強い"
+      },
+      {
+        "img": "photos/item-raskog.jpg",
+        "badge": "収納",
+        "title": "RÅSKOG ワゴン",
+        "meta": "キャスター付き3段／狭い部屋で効く定番"
+      },
+      {
+        "img": "photos/zone-food.jpg",
+        "badge": "食品",
+        "title": "スウェーデンフード",
+        "meta": "ジャム・ビスケット・コーヒー／手ぶらで寄れる"
+      },
+      {
+        "img": "photos/item-blahaj.jpg",
+        "badge": "キッズ",
+        "title": "サメ 1,499円",
+        "meta": "BLÅHAJ／限定セールで下がっていた"
+      },
+      {
+        "img": "photos/zone-planning.jpg",
+        "badge": "相談",
+        "title": "その場で注文できる",
+        "meta": "店に無いものはカウンターで頼む"
+      }
+    ],
+    "note": "<b>約600点のうち、約500点はその場で持ち帰れる。</b>電車で来て手で持ち帰るための店。",
+    "source": "画像: イケア・ジャパン プレスリリース／IKEA豊洲 公式",
+    "theme": "plum",
+    "mascotOpacity": 0.38
+  },
+  "photos": [
+    {
+      "file": "2-blahaj.jpg",
+      "img": "photos/item-blahaj.jpg",
+      "badge": "1,499円",
+      "name": "BLÅHAJ（ブローハイ）のサメ",
+      "lead": "オープン記念の限定セールで<b>1,499円</b>。売り場の値札にも同じ数字が出ている",
+      "specs": [
+        "限定セールは9/13まで",
+        "IKEA Family（無料）",
+        "キッズ・ソフトトイ"
+      ],
+      "credit": "画像: IKEA豊洲 公式サイト"
+    },
+    {
+      "file": "3-campaign.jpg",
+      "img": "photos/item-bag.jpg",
+      "badge": "9/13まで",
+      "name": "オープン記念キャンペーン",
+      "lead": "<b>5,000円以上でバッグ。</b>10%オフクーポンは<b>配布9月・利用10月</b>でずれる",
+      "specs": [
+        "限定セール 9/3〜13",
+        "バッグ 5,000円〜",
+        "クーポン割引は上限5,000円"
+      ],
+      "credit": "画像: IKEA豊洲 公式サイト"
+    },
+    {
+      "file": "4-access.jpg",
+      "img": "photos/zone-food.jpg",
+      "badge": "豊洲駅 直結",
+      "name": "ららぽーと豊洲 2階",
+      "lead": "<b>銀座から電車で約5分。</b>食品売り場だけ寄って帰る、が成立する立地",
+      "specs": [
+        "10:00〜21:00",
+        "約560㎡ / 約600点",
+        "銀座から約5分"
+      ],
+      "credit": "画像: イケア・ジャパン プレスリリース"
+    }
+  ]
+}
