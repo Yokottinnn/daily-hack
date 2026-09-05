@@ -8,6 +8,11 @@ export const ADMAX_TAGS: Record<string, string> = {
   'dailyhack-article-top':
     '<script src="https://adm.shinobi.jp/s/f0c6d38cc9b16edd10d1147791b55d38"></script>',
 
+  // 記事中盤1・2 — 本文の h2 の切れ目（JS が 1/3・2/3 の位置へ移動）
+  // admax 管理画面でタグを作って、下の 'PLACEHOLDER...' を <script src="..."></script> に置き換える
+  'dailyhack-article-middle': 'PLACEHOLDER_ADMAX_ARTICLE_MIDDLE',
+  'dailyhack-article-mid2': 'PLACEHOLDER_ADMAX_ARTICLE_MID2',
+
   // 記事末尾（PC向け） — 本文と関連記事の間
   'dailyhack-article-bottom':
     '<script src="https://adm.shinobi.jp/s/97c7bf3063818d989e02688038f24ddc"></script>',
