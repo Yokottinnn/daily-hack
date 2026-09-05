@@ -1,1 +1,3 @@
-[]
+[
+      {"task": "t030-dump-full-targets.sh", "rc": 0, "out": "**全文を出した（生成なし・$0）** / full-targets.md"}
+  ]
