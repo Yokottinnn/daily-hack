@@ -100,7 +100,12 @@ function coverHtml(c) {
           display: flex; align-items: flex-start; gap: 10px; }
   .hero .mark { width: ${dense ? 96 : 108}px; height: ${dense ? 96 : 108}px;
                 margin-top: ${dense ? 26 : 34}px; }
-  .hero .mascot { height: ${dense ? 168 : 188}px; }   /* 透過 PNG をそのまま置く。帯からはみ出させない */
+  /* **下端をぼかす。** 元画像はバストアップで裾が真横に切れており、
+     そのまま置くと濃紺の上で「白い箱」に見える（2026-09-05 に指摘された）。
+     PNG 自体は透過しているので、切り口だけを地に溶かせばよい。 */
+  .hero .mascot { height: ${dense ? 168 : 188}px;
+                  -webkit-mask-image: linear-gradient(to bottom, #000 72%, rgba(0,0,0,0) 97%);
+                  mask-image: linear-gradient(to bottom, #000 72%, rgba(0,0,0,0) 97%); }
   /* **見出しを右上のクラスタに被せない。** 幅を先に確保しておく */
   header h1, header .sub, header .kicker { max-width: ${dense ? 700 : 690}px; }
   .sub em { font-style: normal; color: #ffd45e; }
