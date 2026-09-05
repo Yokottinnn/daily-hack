@@ -1,0 +1,96 @@
+{
+  "_doc": "X 告知用の正方形画像。作り方は .claude/skills/x-post-images/SKILL.md",
+  "slug": "morning-500-2026",
+  "imageBase": "public/images/morning-500-2026",
+  "out": "public/images/morning-500-2026/x",
+  "cover": {
+    "file": "1-summary.jpg",
+    "kicker": "2026年版 ／ 全部 公式ページで確認",
+    "title": "チェーンの朝ごはん",
+    "sub": "いちばん安い朝食と値段 <em>安い順トップ6</em>",
+    "mascot": "expr-05-smug.png",
+    "mark": false,
+    "columns": 2,
+    "cards": [
+      {
+        "img": "photos/mcd-morning-set.jpg",
+        "badge": "180円〜",
+        "title": "マクドナルド",
+        "meta": "ソーセージマフィン単品／セットは450円〜"
+      },
+      {
+        "img": "photos/nakau-mazenokke.jpg",
+        "badge": "300円",
+        "title": "なか卯",
+        "meta": "目玉焼き朝食（小盛）／ごはん・みそ汁つき"
+      },
+      {
+        "img": "photos/matsuya-tkg.jpg",
+        "badge": "350円",
+        "title": "松屋",
+        "meta": "Wで選べる玉子かけごはん／店内はみそ汁無料"
+      },
+      {
+        "img": "photos/stmarc-asamaruku.jpg",
+        "badge": "390円",
+        "title": "サンマルクカフェ",
+        "meta": "THE クロワッサンセット／ドリンク込み"
+      },
+      {
+        "img": "photos/mos-yasai-burger.jpg",
+        "badge": "390円",
+        "title": "モスバーガー",
+        "meta": "朝の野菜バーガー／単品・ドリンクは別"
+      },
+      {
+        "img": "photos/yoshinoya.jpg",
+        "badge": "430円",
+        "title": "吉野家",
+        "meta": "納豆定食／ごはん・みそ汁・納豆・のり"
+      }
+    ],
+    "note": "<b>300円で「一食」が成立する。</b>牛丼チェーンは朝4:00から開いてる。",
+    "source": "出典: 各チェーン公式サイト（2026年8月時点）"
+  },
+  "photos": [
+    {
+      "file": "2-matsuya.jpg",
+      "img": "photos/matsuya-tkg.jpg",
+      "badge": "350円",
+      "name": "松屋「Wで選べる玉子かけごはん」",
+      "lead": "玉子かけごはんに小鉢が2つ。<b>店内で食べれば みそ汁が無料</b>でつく",
+      "specs": [
+        "350円",
+        "朝5:00〜11:00",
+        "みそ汁無料"
+      ],
+      "credit": "画像: 松屋フーズ 公式サイト"
+    },
+    {
+      "file": "3-komeda.jpg",
+      "img": "photos/komeda.jpg",
+      "badge": "ドリンク代だけ",
+      "name": "コメダ珈琲店のモーニング",
+      "lead": "<b>トーストとゆで玉子に値段がつかない。</b>頼んだ飲み物の代金だけで出てくる",
+      "specs": [
+        "開店〜11:00",
+        "パン+玉子",
+        "追加料金なし"
+      ],
+      "credit": "画像: コメダ珈琲店 公式サイト"
+    },
+    {
+      "file": "4-sukiya.jpg",
+      "img": "photos/sukiya.jpg",
+      "badge": "朝4:00から",
+      "name": "すき家「まぜのっけごはん朝食」",
+      "lead": "すき家・吉野家・なか卯は<b>朝4:00から</b>。ただし<b>5時前は7%高い</b>",
+      "specs": [
+        "4:00〜11:00",
+        "5時前は深夜料金",
+        "牛丼3チェーン"
+      ],
+      "credit": "画像: すき家 公式サイト"
+    }
+  ]
+}
