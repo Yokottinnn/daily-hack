@@ -160,7 +160,9 @@ const yandexVerification = import.meta.env.PUBLIC_YANDEX_VERIFICATION ?? '';
     <Header />
     <slot />
     <Footer />
-    {/* sticky-mobile 広告は UX 損なうため削除（2026-05-31）。文中バナーで代替。 */}
+    {/* sticky-mobile 広告は 2026-05-31 に UX を理由でここから外したが、
+        2026-09-05 に利用者の判断で記事ページにだけ戻した（PostLayout.astro）。
+        トップや一覧には出さない。経緯は docs/ad-slots.md */}
     <CookieConsent />
   </body>
 </html>
