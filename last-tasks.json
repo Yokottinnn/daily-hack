@@ -1,1 +1,3 @@
-[]
+[
+      {"task": "t041-follow-final-count.sh", "rc": 0, "out": "**フォローの最終結果を出した（$0）** / follow-final-count.md"}
+  ]
