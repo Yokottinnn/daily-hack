@@ -1,0 +1,123 @@
+{
+  "_note": "各チェーンの公式サイトの商品写真を引用している。Commons の自由ライセンス画像ではないため、figcaption の cite で出典を必ず示すこと。メニュー改定で元ページから消えることがあるので、取得元 URL をここに残す。取得日 2026-08-30（ops/tasks/052-morning-photos.sh）。",
+  "doutor": {
+    "brand": "ドトールコーヒー",
+    "item": "モーニング・セットB アボカド＆ツナポテト",
+    "source": "https://www.doutor.co.jp/dcs/menu/list/morning.html",
+    "source_type": "公式サイト（引用）",
+    "width": 690,
+    "height": 690
+  },
+  "komeda": {
+    "brand": "コメダ珈琲店",
+    "item": "モーニングサービス",
+    "source": "https://www.komeda.co.jp/menu/morning_komeda.html",
+    "source_type": "公式サイト（引用）",
+    "width": 640,
+    "height": 480
+  },
+  "matsuya-tkg": {
+    "brand": "松屋",
+    "item": "Wで選べる玉子かけごはん",
+    "source": "https://www.matsuyafoods.co.jp/matsuya/menu/morning/",
+    "source_type": "公式サイト（引用）",
+    "width": 720,
+    "height": 720
+  },
+  "matsuya-gyuzara": {
+    "brand": "松屋",
+    "item": "牛皿定食",
+    "source": "https://www.matsuyafoods.co.jp/matsuya/menu/morning/",
+    "source_type": "公式サイト（引用）",
+    "width": 750,
+    "height": 600
+  },
+  "sukiya": {
+    "brand": "すき家",
+    "item": "まぜのっけ朝食",
+    "source": "https://www.sukiya.jp/menu/in/morning/",
+    "source_type": "公式サイト（引用）",
+    "width": 1068,
+    "height": 638
+  },
+  "ueshima": {
+    "brand": "上島珈琲店",
+    "item": "ベーコンエッグ＆厚切りバタートースト",
+    "source": "https://www.ueshima-coffee-ten.jp/menu/morning/",
+    "source_type": "公式サイト（引用）",
+    "width": 1100,
+    "height": 825
+  },
+  "yoshinoya": {
+    "brand": "吉野家",
+    "item": "朝定食",
+    "source": "https://www.yoshinoya.com/menu/morningset/",
+    "source_type": "公式サイト（引用）",
+    "width": 928,
+    "height": 928
+  },
+  "matsuya-sausage-w": {
+    "brand": "松屋",
+    "item": "ソーセージエッグW定食",
+    "source": "https://www.matsuyafoods.co.jp/matsuya/menu/morning/",
+    "source_type": "公式サイト（引用）",
+    "width": 720,
+    "height": 720
+  },
+  "yoshinoya-shiosaba-gyu": {
+    "brand": "吉野家",
+    "item": "塩さば牛小鉢定食",
+    "source": "https://www.yoshinoya.com/menu/morningset/shiosaba-gyu-tei/",
+    "source_type": "公式サイト（引用）",
+    "width": 928,
+    "height": 928
+  },
+  "yoshinoya-shiosaba-toku": {
+    "brand": "吉野家",
+    "item": "塩さば特朝定食",
+    "source": "https://www.yoshinoya.com/menu/morningset/shiosaba-tokuasa-tei/",
+    "source_type": "公式サイト（引用）",
+    "width": 928,
+    "height": 928
+  },
+  "mcd-morning-set": {
+    "brand": "マクドナルド",
+    "item": "朝マックのセット",
+    "source": "https://www.mcdonalds.co.jp/menu/morning/",
+    "source_type": "公式サイト（引用）",
+    "width": 600,
+    "height": 356
+  },
+  "stmarc-asamaruku": {
+    "brand": "サンマルクカフェ",
+    "item": "あさマルクカフェのセット一覧",
+    "source": "https://www.saint-marc-hd.com/saintmarccafe/news/1318/",
+    "source_type": "公式サイト（引用）",
+    "width": 1200,
+    "height": 675
+  },
+  "nakau-mazenokke": {
+    "brand": "なか卯",
+    "item": "まぜのっけごはん朝食",
+    "source": "https://www.nakau.co.jp/jp/menu/category/6.html",
+    "source_type": "公式サイト（引用）",
+    "width": 384,
+    "height": 270
+  },
+  "mos-yasai-burger": {
+    "brand": "モスバーガー",
+    "item": "朝の野菜バーガー ～オーロラソース～",
+    "source": "https://www.mos.jp/menu/detail/?menu_id=121053&c_id=12",
+    "source_type": "公式サイト（引用）",
+    "width": 988,
+    "height": 659
+  },
+  "mos-plate": {
+    "brand": "モスバーガー",
+    "item": "朝モスのプレート（店舗限定）",
+    "source": "https://prtimes.jp/main/html/rd/p/000000558.000075449.html",
+    "source_type": "プレスリリース（引用）",
+    "width": 1100,
+    "height": 825
+  }
+}

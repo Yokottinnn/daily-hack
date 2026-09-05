@@ -1207,3 +1207,41 @@ blockquote.twitter-tweet a:hover { color: var(--pink-700); }
   .jp-inset { position: relative; left: auto; top: auto; width: 100%; margin-top: 12px; }
   .jp-inset .jp-pin { width: 21px; height: 21px; font-size: 10px; }
 }
+
+/* ── 見出しの横にブランドのロゴを置く（.brand-h） ─────────────
+   チェーンの比較記事で「どの店の節か」を一目で分かるようにする（Jordan 指摘 2026-09-04）。
+   ロゴは**高さだけ**そろえる。横長・正方形が混ざるので width は決め打ちしない。
+   透過 PNG がそのまま乗ると背景に沈むので、白地の枠に載せる。 */
+.post-body h3.brand-h {
+  display: flex; align-items: center; gap: 12px; flex-wrap: wrap;
+}
+.post-body h3.brand-h .brand-logo {
+  flex: 0 0 auto; height: 44px; width: auto; max-width: 190px;
+  object-fit: contain; background: #fff; border-radius: 8px;
+  border: 1px solid var(--pink-200); padding: 4px 7px;
+  box-shadow: 0 2px 6px -3px rgba(42, 25, 35, .4);
+}
+@media (max-width: 559px) {
+  .post-body h3.brand-h .brand-logo { height: 36px; max-width: 138px; padding: 3px 6px; }
+}
+
+/* 表のセルの中にロゴを置く（.cell-brand）。見出しを持たないチェーンのため。 */
+.cell-brand { display: flex; align-items: center; gap: 9px; }
+.cell-brand .brand-logo-sm {
+  flex: 0 0 auto; height: 30px; width: auto; max-width: 96px; object-fit: contain;
+  background: #fff; border-radius: 6px; border: 1px solid var(--pink-200); padding: 3px 5px;
+}
+
+/* ── 記事上部のカテゴリタグ（.post-cats） ────────────────────
+   **記事カードの `.art` を入れ物に流用していたのが不具合の原因**（Jordan 指摘 2026-09-05）。
+   `.art` は白背景・枠線・角丸18px を持つため、**タグ2つが1枚のカードに
+   囲まれて見えていた。** タグは1つずつ独立した形にする。 */
+.post-cats { display: inline-flex; flex-wrap: wrap; gap: 8px; vertical-align: middle; }
+.post-cats .post-cat {
+  display: inline-block; font-size: 11px; font-weight: 700; letter-spacing: .02em;
+  padding: 4px 11px; border-radius: 999px;
+  background: var(--pink-50); color: var(--pink-700);
+  border: 1px solid var(--pink-200); text-decoration: none;
+  transition: background .15s, border-color .15s;
+}
+.post-cats .post-cat:hover { background: var(--pink-100, var(--pink-50)); border-color: var(--pink-300); }
