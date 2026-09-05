@@ -7,10 +7,16 @@
 // ## 契約は `asuka-fill.js` と同じにする
 //
 //   入力(stdin): {"trend": {"text": "...", "author": "...", "tweet_url": "..."}, "kind": "comment"}
-//   出力(stdout): {"text": "..."}                       … 返信する
-//                 {"skip": true, "reason": "..."}       … 返信しない
+//   出力(stdout): {"ok": true,  "text": "..."}          … 返信する
+//                 {"ok": false, "error": "..."}         … 返信しない
 //
-// **呼び出し側を壊さない。** `comment-orchestrator.sh` は `JSON.parse(d).text` を読む。
+// **`ok` は必須。** 2026-09-05 に実物を読んで分かった。`comment-orchestrator.sh:124` は
+//
+//     GEN_OK=$(echo "$GEN_OUT" | node -e "... JSON.parse(d).ok ...")
+//     if [ "$GEN_OK" != "true" ]; then ... continue; fi
+//
+// で捨てるため、**`{text}` だけ返していた前の版は全件 無言で落ちていた。**
+// 推測で契約を決めない、を守れていなかった箇所。
 //
 // ## 出力は必ず 2 つのゲートを通す
 //
@@ -40,7 +46,18 @@ function loadJSON(p, fallback) {
 }
 
 function out(o) { process.stdout.write(JSON.stringify(o) + '\n'); }
-function skip(reason) { out({ skip: true, reason: String(reason || 'skip') }); }
+
+/** 返信しない。**`ok:false` で返す**（orchestrator はこれを見て次の候補へ進む）。 */
+function skip(reason) { out({ ok: false, error: String(reason || 'skip'), skip: true, reason: String(reason || 'skip') }); }
+
+/** `asuka-fill.js:18` と同じ数え方。全角 2・半角 1。上限 280。 */
+const MAX_WEIGHT = 280;
+const MIN_CHARS = 15;
+function weightOf(s) {
+  let w = 0;
+  for (const ch of s) w += ch.charCodeAt(0) < 0x80 ? 1 : 2;
+  return w;
+}
 
 /** 直近に出した返信を読む。型の繰り返しを避けるために使う。 */
 function recentReplies(queuePath, n) {
@@ -186,6 +203,13 @@ async function main() {
 
   if (!text) return skip('空文');
 
+  // --- 長さ（`asuka-fill.js` と同じ制約） ---
+  //
+  // 実装側は 15 字未満を捨て、280 weight 超で再生成していた。**声の一部なので合わせる。**
+  if (text.length < MIN_CHARS) return skip(`短すぎる（${text.length} 字 < ${MIN_CHARS}）`);
+  const w = weightOf(text);
+  if (w > MAX_WEIGHT) return skip(`長すぎる（${w} weight > ${MAX_WEIGHT}）`);
+
   // --- ゲート ---
   const rel = checkRelevance({ text, targetText: target, recentReplies: recentForGate }, relRules);
   if (!rel.ok) return skip('噛み合い検査で弾いた: ' + rel.reasons.join(' / '));
@@ -199,9 +223,10 @@ async function main() {
     } catch (e) { /* 検査が壊れていても生成文は既に噛み合い検査を通っている */ }
   }
 
+  // **`ok: true` を先頭に。** orchestrator はこれだけを見て通す。
   // **相手の投稿を一緒に返す。** これを enqueue が記録すれば、後から検証できる。
   // 実物 15 件では 1 件も残っておらず、噛み合いを事後に確かめられなかった。
-  out({ text, target_text: target, model: cfg.model, shared: rel.shared, warns: rel.warns });
+  out({ ok: true, text, weight: w, target_text: target, model: cfg.model, shared: rel.shared, warns: rel.warns });
 }
 
 main().catch(e => skip('想定外: ' + (e && e.message ? e.message.slice(0, 600) : 'unknown')));
