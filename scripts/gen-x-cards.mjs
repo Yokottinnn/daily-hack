@@ -136,6 +136,12 @@ function coverHtml(c) {
   const dense = rows >= 3; // 3 段以上は文字を小さくしないと入らない
   // 透かしの濃さ。JSON の cover.mascotOpacity（0〜1）。既定 0.38
   const mascotOpacity = Number.isFinite(c.mascotOpacity) ? c.mascotOpacity : 0.38;
+  /** **キャラの大きさ。** 2026-09-05 の指摘「もう少し大きくして。いまサイズが中途半端」。
+   *  帯の高さは padding とテキストで **おおよそ 233px**（dense）。そこに 168px を置くと
+   *  上下に 30px ずつ余って、**帯に収まりきらないのでも埋めきるのでもない**中途半端さになる。
+   *  **帯より少し大きく取って、はみ出た分は header 側で切る。**
+   *  下端は mask で消えているので、切り口は見えない。`cover.mascotHeight` で上書き可。 */
+  const mascotH = Number.isFinite(c.mascotHeight) ? c.mascotHeight : (dense ? 262 : 286);
 
   /** **見出しは 1 行に収める。** 2026-09-05 の指摘:
    *    「一行でまとめて。文字サイズを少し小さくすればいい。透過した画像の上に乗ってもいい」
@@ -160,8 +166,10 @@ function coverHtml(c) {
   return `<style>${BASE}
   body { background: #f7f7f9; display: flex; flex-direction: column; }
   header .kicker, header h1, header .sub { position: relative; z-index: 1; }
+  /* **overflow: hidden は必須。** キャラを帯より大きく取っているので、
+     これが無いと下のカード格子の上に裾がはみ出す。 */
   header { background: ${TH.bg}; color: ${TH.text}; padding: ${dense ? 36 : 46}px 54px ${dense ? 30 : 40}px;
-           position: relative; }
+           position: relative; overflow: hidden; }
   .kicker { font-size: 26px; font-weight: 700; color: ${TH.kicker}; letter-spacing: .08em; }
   /* 透かしの上に乗るので、可読性のため薄い影を足す */
   h1 { font-size: ${h1Size}px; font-weight: 900; line-height: 1.1; margin-top: 8px;
@@ -177,7 +185,7 @@ function coverHtml(c) {
        「キャラの画像はもっと透過させて。顔の部分とかはうっすら帯に表示されているような」
      全体の不透明度を下げ、下端は帯に溶かす（元画像はバストアップで裾が真横に切れている）。
      濃さは cover.mascotOpacity（0〜1）で変えられる。既定 0.38。 */
-  .hero .mascot { height: ${dense ? 168 : 188}px;
+  .hero .mascot { height: ${mascotH}px;
                   opacity: ${mascotOpacity};
                   -webkit-mask-image: linear-gradient(to bottom, #000 62%, rgba(0,0,0,0) 96%);
                   mask-image: linear-gradient(to bottom, #000 62%, rgba(0,0,0,0) 96%); }
