@@ -118,8 +118,18 @@ async function main() {
   // 1 件あたり $0.0024 → 月 $0.58 になる。8 件なら月 $0.42。
   // 型の使い回しを止める「硬い」制約は下の噛み合い検査（直近 20 件を見る）が持つので、
   // LLM には型を避けるための見本を数件 渡せば足りる。
-  const recent = recentReplies(QUEUE, Number(process.env.RECENT_N || 8));
-  const recentForGate = recentReplies(QUEUE, 20);
+  // **同じ実行の中で作った文も「直近」に混ぜる。**
+  //
+  // 2026-09-05、1 回の実行で 4 件 作らせたら 2 件が「ふーん、」で始まり、
+  // 3 件が 😏 で終わった。**キューの過去分としか比べていなかったため。**
+  // 実運用も 1 回に 2 件ずつ作るので、同じことが起きる。
+  let extra = [];
+  try { extra = JSON.parse(process.env.OPS_EXTRA_RECENT || '[]'); } catch (e) {}
+  if (!Array.isArray(extra)) extra = [];
+  extra = extra.map(String).filter(Boolean);
+
+  const recent = recentReplies(QUEUE, Number(process.env.RECENT_N || 8)).concat(extra).slice(-8);
+  const recentForGate = recentReplies(QUEUE, 20).concat(extra).slice(-20);
 
   // --- DRY_RUN: API を呼ばずに、何を送るつもりだったかだけ出す ---
   const userMsg = String(cfg.user_template || '{TARGET}')
