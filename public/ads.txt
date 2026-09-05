@@ -1,3 +1,10 @@
 # Daily Hack ads.txt
-# Google AdSense 承認後に下記 placeholder を実際の pub-ID に置換する
+#
+# 【忍者AdMAX】← いま実際に稼働している広告配信。**未設置。**
+#   忍者ツールズにログイン → AdMax → 広告枠一覧 → 「ads.txt を取得」で
+#   自サイト用の行が出るので、それをこのファイルへ貼る。
+#   取得した行の DIRECT / RESELLER が小文字になっている場合は大文字へ直す。
+#   ads.txt が無いドメインは在庫を買わない DSP があるため、収益に直接効く。
+#
+# 【Google AdSense】承認後に下記 placeholder を実際の pub-ID に置換する
 # google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0
