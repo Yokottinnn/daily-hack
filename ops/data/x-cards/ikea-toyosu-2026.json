@@ -52,7 +52,9 @@
     "note": "<b>約600点のうち、約500点はその場で持ち帰れる。</b>電車で来て手で持ち帰るための店。",
     "source": "画像: イケア・ジャパン プレスリリース／IKEA豊洲 公式",
     "theme": "plum",
-    "mascotOpacity": 0.38
+    "mascotOpacity": 0.38,
+    "bgImage": "photos/zone-entrance.jpg",
+    "bgOpacity": 0.22
   },
   "photos": [
     {
