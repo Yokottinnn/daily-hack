@@ -1,1 +1,3 @@
-[]
+[
+      {"task": "t044-restore-unfollow-v2.sh", "rc": 0, "out": "**アンフォローと計測を戻した（$0）** / restore-unfollow-v2.md"}
+  ]
