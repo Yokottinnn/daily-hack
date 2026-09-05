@@ -133,6 +133,8 @@ const BASE = `
 function coverHtml(c) {
   const cols = c.columns || 2;
   const rows = Math.ceil(c.cards.length / cols);
+  // 透かしの濃さ。JSON の cover.mascotOpacity（0〜1）。既定 0.38
+  const mascotOpacity = Number.isFinite(c.mascotOpacity) ? c.mascotOpacity : 0.38;
   const dense = rows >= 3; // 3 段以上は文字を小さくしないと入らない
 
   const cards = c.cards.map((k) => `
@@ -151,16 +153,19 @@ function coverHtml(c) {
   h1 { font-size: ${dense ? 68 : 78}px; font-weight: 900; line-height: 1.1; margin-top: 8px; }
   .sub { font-size: 29px; font-weight: 700; margin-top: 14px; color: ${TH.sub}; }
   /* 右上のキャラとマーク。**見出しに被らない**よう幅を確保して右端に置く */
-  .hero { position: absolute; top: ${dense ? 10 : 16}px; right: 40px;
-          display: flex; align-items: flex-start; gap: 10px; }
-  .hero .mark { width: ${dense ? 96 : 108}px; height: ${dense ? 96 : 108}px;
-                margin-top: ${dense ? 26 : 34}px; }
-  /* **下端をぼかす。** 元画像はバストアップで裾が真横に切れており、
-     そのまま置くと濃紺の上で「白い箱」に見える（2026-09-05 に指摘された）。
-     PNG 自体は透過しているので、切り口だけを地に溶かせばよい。 */
+  /* **帯の中で上下中央に置く。** 2026-09-05 の指摘「位置をもう少し下に、帯の中で中央に」。
+     上端に貼り付けると帯の下半分が空いて、透かしとして浮いて見える。 */
+  .hero { position: absolute; top: 0; bottom: 0; right: 40px;
+          display: flex; align-items: center; gap: 10px; }
+  .hero .mark { width: ${dense ? 96 : 108}px; height: ${dense ? 96 : 108}px; }
+  /* **透かしとして置く。** 2026-09-05 の指摘:
+       「キャラの画像はもっと透過させて。顔の部分とかはうっすら帯に表示されているような」
+     全体の不透明度を下げ、下端は帯に溶かす（元画像はバストアップで裾が真横に切れている）。
+     濃さは cover.mascotOpacity（0〜1）で変えられる。既定 0.38。 */
   .hero .mascot { height: ${dense ? 168 : 188}px;
-                  -webkit-mask-image: linear-gradient(to bottom, #000 72%, rgba(0,0,0,0) 97%);
-                  mask-image: linear-gradient(to bottom, #000 72%, rgba(0,0,0,0) 97%); }
+                  opacity: ${mascotOpacity};
+                  -webkit-mask-image: linear-gradient(to bottom, #000 62%, rgba(0,0,0,0) 96%);
+                  mask-image: linear-gradient(to bottom, #000 62%, rgba(0,0,0,0) 96%); }
   /* **見出しを右上のクラスタに被せない。** 幅を先に確保しておく */
   header h1, header .sub, header .kicker { max-width: ${dense ? 700 : 690}px; }
   .sub em { font-style: normal; color: ${TH.em}; }
