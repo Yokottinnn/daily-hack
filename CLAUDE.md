@@ -304,6 +304,8 @@ Skill(skill="x-post-images")   ← 実体は .claude/skills/x-post-images/SKILL.
   `PLACEHOLDER` で始まる値の slot は未登録の印
 - 記事側の作法は [`blog-article` スキル](.claude/skills/blog-article/SKILL.md) の
   「関連記事は本文の中に最低 2 箇所」に書いてある。**記事の Markdown に広告タグを書かない**
+- **枠の一覧・忍者AdMAX の「1ページ3個まで」・AdSense の有効化手順は
+  [`docs/ad-slots.md`](docs/ad-slots.md) にある。枠を触る前に読む**
 
 ## OpenClaw 連携
 
