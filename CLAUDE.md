@@ -104,6 +104,22 @@
 - 決まったルール・方針は会話ではなくこの `CLAUDE.md` に書く。
 - 進行中の状況は [`docs/session-handoff.md`](docs/session-handoff.md) に書く。
 
+#### `git checkout -B <branch> origin/main` は未マージのコミットを捨てる
+
+**書いて commit しても、これで消える。** 2026-09-05 に 3 回 やった（`t009` / `t021` /
+最上位ルール 9 の追加）。マージ済みのブランチを作り直す手癖でそのまま打っている。
+
+```bash
+# 危ない: 直前の commit が未マージなら、それごと消える
+git checkout -B feat/x origin/main
+
+# 安全: 先に確認する
+git log --oneline origin/main..HEAD    # 空でなければリセットしない
+```
+
+**リセットする前に上を打つ。** 消してしまったら `git reflog` か、
+commit ハッシュが分かっていれば `git cherry-pick <hash>` で戻せる。
+
 ### 4. X への投稿は OpenClaw が行う
 
 Claude が X に直接投稿することはない。確立している経路は次のとおりで、勝手に省略しない。
