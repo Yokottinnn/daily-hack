@@ -1,11 +1,13 @@
 {
-  "generated_at": "2026-09-05T10:02:13Z",
+  "generated_at": "2026-09-05T10:32:19Z",
   "host": "NaokinoMacBook-Pro-2.local",
-  "job_count": 10,
+  "job_count": 12,
   "jobs": [
+    "ai.openclaw.auto-detect-and-unfollow-inactive",
     "ai.openclaw.badge-followback",
     "ai.openclaw.competitor-follower-follow",
     "ai.openclaw.hashtag-follow",
+    "ai.openclaw.reply-followback-check",
     "ai.openclaw.tab-guard",
     "com.dailyhack.openclaw.heartbeat",
     "com.dailyhack.openclaw.listener",
@@ -27,9 +29,8 @@
     "detail": "ログを走査した",
     "sources": []
   },
-  "unloaded_count": 64,
+  "unloaded_count": 62,
   "unloaded": [
-      {"label": "ai.openclaw.auto-detect-and-unfollow-inactive", "plist_mtime": "2026-08-22T15:39:05Z"},
       {"label": "ai.openclaw.auto-thread-chainifier", "plist_mtime": "2026-08-22T15:39:05Z"},
       {"label": "ai.openclaw.blog-rss-watcher", "plist_mtime": "2026-08-22T11:07:15Z"},
       {"label": "ai.openclaw.bookmark-analyzer", "plist_mtime": "2026-05-15T14:58:24Z"},
@@ -74,7 +75,6 @@
       {"label": "ai.openclaw.qt-daily", "plist_mtime": "2026-08-22T11:07:15Z"},
       {"label": "ai.openclaw.qt-past-daily", "plist_mtime": "2026-06-13T09:21:42Z"},
       {"label": "ai.openclaw.refollow-may18-once", "plist_mtime": "2026-05-18T14:02:55Z"},
-      {"label": "ai.openclaw.reply-followback-check", "plist_mtime": "2026-05-13T07:01:35Z"},
       {"label": "ai.openclaw.reply-followers-cleanup", "plist_mtime": "2026-05-13T07:01:35Z"},
       {"label": "ai.openclaw.revenge-unfollow", "plist_mtime": "2026-08-22T11:07:15Z"},
       {"label": "ai.openclaw.scheduled-entry-watchdog", "plist_mtime": "2026-07-11T09:47:31Z"},
