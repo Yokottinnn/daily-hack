@@ -133,6 +133,48 @@ mark-drafted / mark-skipped / mark-posted / enqueue / mark-dm-sent
 ログアウト状態で `thread_chain` を走らせると **[1/2] だけ出て [2/2] が落ちる。**
 **CDP が健全でなければ出さない。**
 
+#### CDP の口は **18810**。`9222` ではない
+
+| 項目 | 値 | 根拠 |
+| --- | --- | --- |
+| CDP のポート | **18810** | `ensure-chrome.sh:PORT=18810` |
+| CDP の URL | `http://127.0.0.1:18810` | `post-via-playwright.js:10` の `CDP_URL` 既定値 |
+| 健全性の判定 | `scripts/cdp-health.js` | `ensure-chrome.sh:cdp_healthy()` |
+| プロファイル | `~/.openclaw/browser/cft-profile` | `ensure-chrome.sh:USER_DATA` |
+
+**2026-09-05 に `9222` を決め打ちして「CDP NG」と誤判定し、健全な Chrome を前に
+投稿を止めた。** 契約書にポートを書いていなかったので、ここに書く。
+
+**ポートが LISTEN しているだけでは健全ではない。** `ensure-chrome.sh` の但し書き:
+
+> ハングした Chrome も ポートを開いたまま `/json/version` に 200 を返し
+> ws ハンドシェイクも通るため、従来の lsof チェックはハングを "生存" と
+> 誤判定し続けた（CDP timeout ログ **18,087 件**）
+
+だから **`cdp-health.js` を使う。** `curl /json/version` で足りると思ってはいけない。
+
+### 失敗したら、エラーの全文を残す
+
+**マスクや `cut` で証拠を消さないこと。** 2026-09-05 に実際にこうなった。
+
+```
+{"ok":false,"step":"thread-main-exec","error":"Command failed: ... "<MASKED>
+```
+
+`[A-Za-z0-9/_+=-]{22,}` のような**無差別なマスクはエラー本文ごと潰す。**
+`cut -c1-170` も同じ。潰すのは**秘密だけ**にする。
+
+```bash
+# 秘密だけを潰す（エラー本文は残る）
+sed -E -e 's#(sk-[A-Za-z0-9_-]{6})[A-Za-z0-9_-]+#\1<MASKED>#g' \
+       -e 's#(Bearer )[A-Za-z0-9._-]{12,}#\1<MASKED>#g' \
+       -e 's#(auth_token=)[A-Za-z0-9]+#\1<MASKED>#g' \
+       -e 's#(ct0=)[A-Za-z0-9]+#\1<MASKED>#g'
+```
+
+CLAUDE.md ルール 4 の「**何が失敗したかの実際の出力**を出す。
+『うまくいきませんでした』では足りない」は、**自分のマスクにも向けられている。**
+
 ## 5. 書く前のチェックリスト
 
 
