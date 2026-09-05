@@ -202,6 +202,58 @@ function checkRelevance(input, rules) {
     }
   }
 
+  // 4-D. **壊れた活用**
+  //
+  // 2026-09-05 に「焦ら**なさい**」が出た。正しくは「焦らないで」か「焦りなさんな」。
+  // 否定の語幹（〜ら/〜わ/〜さ/〜か/〜が/〜ば/〜ま/〜な/〜た）に「なさい」を直付けした形で、
+  // **人は書かない壊れ方**。AI っぽさが一番出るのがここ。
+  //
+  // 「〜しなさい」「試してみなさい」「気をつけなさい」は**正しいので通す**
+  //（連用形＋なさい）。弾くのは未然形＋なさい だけ。
+  if (r.block_broken_conjugation !== false) {
+    // 未然形をとる行の音 + なさい。「し|み|け|ち|り|び|ぎ|に|み」等の連用形は含めない
+    const broken = /[らわさかがばまなただ]なさい/;
+    const m = text.match(broken);
+    if (m) {
+      reasons.push(`活用が壊れている「${m[0]}」＝人は書かない形（例: 焦らなさい → 焦らないで）`);
+    }
+  }
+
+  // 4-E. **他人の資産・結果への根拠のない断定**
+  //
+  // 2026-09-05 に「インデックス軸なら長期で見れば**大丈夫よ**」が出た。
+  // 相手の保有比率も期間も知らないのに、資産が大丈夫だと言い切っている。
+  // 金額断定（4-C）を禁じた理由と同じで、**金融の話題では実害が出る。**
+  //
+  // 「美味しいから大丈夫」のような日常文まで弾かないよう、**金融語と同居したときだけ**弾く。
+  if (r.block_unfounded_reassurance !== false) {
+    const money = Array.isArray(r.finance_words) && r.finance_words.length
+      ? r.finance_words
+      : ['投資', '資産', 'NISA', 'iDeCo', '株', '為替', 'ドル', '円安', '円高', '利回り',
+         '配当', 'インデックス', '積立', '含み損', '暴落', '相場', '外貨', '損失'];
+    const calm = /(大丈夫|心配ない|心配いらない|問題ない|安心して|必ず戻|絶対戻|いずれ戻|放っておけば)/;
+    const c = text.match(calm);
+    if (c && money.some(w => text.includes(w) || target.includes(w))) {
+      reasons.push(`他人の資産への根拠のない断定「${c[0]}」＝相手の条件を知らずに言い切っている`);
+    }
+  }
+
+  // 4-F. **テンプレに無い絵文字**
+  //
+  // 2026-09-05 に 😌 が出た。テンプレ 35 件が使っているのは 14 種で、そこに無い。
+  // **絵文字も声の一部**なので、範囲の外に出たら別人の顔になる。
+  const allowed = Array.isArray(r.allowed_emoji) ? r.allowed_emoji : [];
+  if (allowed.length) {
+    // サロゲートペア・異体字セレクタ・ZWJ をまたいで拾う
+    const emojiRe = /(?:\p{Extended_Pictographic}(?:️)?(?:‍\p{Extended_Pictographic}(?:️)?)*)/gu;
+    const used = String(text).match(emojiRe) || [];
+    const bad = [...new Set(used.map(e => e.replace(/️/g, '')))]
+      .filter(e => !allowed.map(a => a.replace(/️/g, '')).includes(e));
+    if (bad.length) {
+      reasons.push(`テンプレに無い絵文字「${bad.slice(0, 3).join('')}」＝声の範囲の外`);
+    }
+  }
+
   // 5. 直近重複
   const reps = immediateRepeats(text);
   const maxRep = Number.isFinite(r.max_immediate_repeat) ? r.max_immediate_repeat : 1;
