@@ -47,6 +47,9 @@ QJSON="$W/data/post_queue.json"
 RUNPUB="$W/scripts/run-publish.sh"
 ENSURE="$W/scripts/ensure-chrome.sh"
 PVP="$W/scripts/post-via-playwright.js"
+REPO="${DAILY_HACK_REPO:-/Users/ny/projects/anta-baka-x/blog}"
+IMGDIR="$W/data/x-morning-500"
+SRCDIR="public/images/morning-500-2026/x"
 
 hide() { sed -E 's/@[A-Za-z0-9_]{2,15}/@<伏せ>/g'; }
 mask() { sed -E 's#[A-Za-z0-9/_+=-]*[0-9][A-Za-z0-9/_+=-]*[A-Za-z][A-Za-z0-9/_+=-]{22,}#<MASKED>#g'; }
@@ -115,6 +118,40 @@ echo
 echo '```json'
 entry_dump | hide | mask
 echo '```'
+
+echo
+echo "## 0-B. 画像を取り直す（**古い絵で出さないため**）"
+echo
+echo "\`t048\` は画像を \`$IMGDIR\` に**取り出し済み**で、キューのエントリはその"
+echo "**実ファイルを指している。** その後に絵を差し替えているので、"
+echo "**取り直さないと古い絵のまま出る。** パスは同じなのでキューは触らなくてよい。"
+echo
+mkdir -p "$IMGDIR"
+git -C "$REPO" fetch -q origin main 2>/dev/null || true
+BAD=0
+echo '```'
+for f in 1-summary.jpg 2-matsuya.jpg 3-komeda.jpg 4-sukiya.jpg; do
+  old="$( [ -f "$IMGDIR/$f" ] && wc -c < "$IMGDIR/$f" | tr -d ' ' || echo 0 )"
+  if git -C "$REPO" show "origin/main:$SRCDIR/$f" > "$IMGDIR/$f.new" 2>/dev/null \
+     && [ -s "$IMGDIR/$f.new" ] && [ "$(wc -c < "$IMGDIR/$f.new" | tr -d ' ')" -ge 20000 ]; then
+    mv "$IMGDIR/$f.new" "$IMGDIR/$f"
+    new="$(wc -c < "$IMGDIR/$f" | tr -d ' ')"
+    if [ "$old" = "$new" ]; then
+      printf '  同じ      %-16s %s bytes\n' "$f" "$new"
+    else
+      printf '  **更新**  %-16s %s → %s bytes\n' "$f" "$old" "$new"
+    fi
+  else
+    printf '  **取れない** %s（origin/main に無い）\n' "$f"; BAD=1
+    rm -f "$IMGDIR/$f.new"
+  fi
+done
+echo '```'
+if [ "$BAD" = "1" ]; then
+  echo
+  echo "- **画像が揃わない。出さない。**"
+  exit 1
+fi
 
 echo
 echo "## 1. Chrome まわりのソースを出して読む"
