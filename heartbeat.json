@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T12:02:40Z",
+  "generated_at": "2026-09-05T12:32:47Z",
   "host": "NaokinoMacBook-Pro-2.local",
   "job_count": 12,
   "jobs": [
@@ -19,9 +19,9 @@
   "reconnect": "既に起動している",
   "tasks": [],
   "auth": {
-    "ok": false,
-    "expires_at": "2026-09-05T10:51:11Z",
-    "detail": "トークンの有効期限を過ぎている"
+    "ok": true,
+    "expires_at": "2026-09-05T20:31:08Z",
+    "detail": "有効期限内"
   },
   "activity": {
     "date": "2026-09-05",
