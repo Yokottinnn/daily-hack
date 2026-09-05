@@ -1,1 +1,3 @@
-[]
+[
+      {"task": "t026-dump-templates-voice.sh", "rc": 0, "out": "**テンプレを読めた（変更なし・$0）** / templates-voice.md"}
+  ]
