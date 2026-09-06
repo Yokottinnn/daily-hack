@@ -2,9 +2,20 @@
 # **都心の格安スーパー記事の素材を取ってくる。**
 #
 # 取るもの
-#   A) 6 チェーンの公式サイトから店内・商品の写真（横長・640x360 以上）
+#   A) 7 チェーンの公式サイトから店内・商品の写真
+#      （オーケー／ロピア／トライアル／業務スーパー／まいばすけっと／
+#        肉のハナマサ／ドン・キホーテ）
 #   B) YouTube を検索して oEmbed で題名と投稿者を照合（別チェーンの動画を弾く）
 #   C) 渡したツイート ID を syndication API で実在確認（本文・投稿者・日付）
+#   D) **各社が自分で公表しているページから価格を拾う**（同一商品の比較用）
+#
+# ドン・キホーテと価格比較は 2026-09-06 に利用者が追加を指示した。
+#
+#   「ドンキ入れていいよ」
+#   「すべて入れて。たとえば、特定の商品を比較して金額の比較をしてみて。」
+#
+# **価格はチラシ集約サイトから取らない。** 各社の公式ページだけを見る。
+# 記事でも価格は主題にせず 1 節に閉じ、「店舗・時期で変わる」と明記する。
 #
 # **クラウドセッションからは x.com にも公式サイトにも到達できない**ため Mac に頼む。
 # 合成と記事執筆はクラウド側でやる。
@@ -52,6 +63,7 @@ SITES = [
     ("gyomu",     "https://www.gyomusuper.jp/"),
     ("maibasket", "https://www.mybasket.co.jp/"),
     ("hanamasa",  "https://hanamasa.co.jp/"),
+    ("donki",     "https://www.donki.com/"),
 ]
 
 L.append("## A) 公式サイトの写真")
@@ -104,6 +116,7 @@ QUERIES = [
     ("gyomu",     "業務スーパー 購入品"),
     ("maibasket", "まいばすけっと 買い物"),
     ("hanamasa",  "肉のハナマサ 業務用"),
+    ("donki",     "MEGAドンキホーテ 食品 安い"),
 ]
 for key, q in QUERIES:
     L.append(""); L.append(f"### {key} — 検索語「{q}」")
@@ -146,6 +159,44 @@ for tid in TWEETS:
         L.append(f"  - 本文: {txt}")
     except Exception as e:
         L.append(f"- `{tid}` … **取れず**（{type(e).__name__}）。使わない")
+
+# ── D) 同一商品の価格を拾う ───────────────────────────
+# **価格は店舗と時期で変わる。** 記事では主題にせず、1 節に閉じて
+# 「店舗・時期で変わる」と明記する（スキル §2-B）。
+# ここでは各社が**自分で公表している**ページだけを見る。チラシ集約サイトは使わない。
+L.append(""); L.append("## D) 価格の材料（各社が自分で公表しているページ）")
+PRICE_PAGES = [
+    ("ok-honest",   "https://ok-corporation.jp/products/"),
+    ("ok-topics",   "https://ok-corporation.jp/topics/"),
+    ("lopia-chirashi", "https://lopia.jp/chirashi/"),
+    ("trial-item",  "https://www.trial-net.co.jp/product/"),
+    ("gyomu-item",  "https://www.gyomusuper.jp/product/"),
+    ("maibasket-item", "https://www.mybasket.co.jp/product/"),
+    ("hanamasa-item",  "https://hanamasa.co.jp/product/"),
+    ("donki-jyoyo", "https://www.donki.com/j-basic/"),
+]
+YEN = re.compile(r"(?:￥|¥)\s?([0-9,]{2,7})|([0-9,]{2,7})\s?円")
+for key, url in PRICE_PAGES:
+    L.append(""); L.append(f"### {key} — {url}")
+    try:
+        html = get(url)
+    except Exception as e:
+        L.append(f"- 取得失敗: {type(e).__name__} {e}")
+        continue
+    text = re.sub(r"<script.*?</script>|<style.*?</style>", " ", html, flags=re.S | re.I)
+    text = re.sub(r"<[^>]+>", " ", text)
+    text = re.sub(r"\s+", " ", text)
+    hits = []
+    for m in YEN.finditer(text):
+        val = m.group(1) or m.group(2)
+        s0, e0 = max(0, m.start() - 60), min(len(text), m.end() + 20)
+        hits.append(f"{val}円 … {text[s0:e0].strip()}")
+    if hits:
+        L.append(f"- 価格らしき記載 {len(hits)} 件。先頭 25 件:")
+        for h in hits[:25]:
+            L.append(f"  - {h}")
+    else:
+        L.append("- 価格の記載が拾えなかった")
 
 with open(OUT, "w") as f:
     f.write("\n".join(L) + "\n")
