@@ -48,8 +48,10 @@ Cloudflare の数字が出ておらず、**PV が測れていなかった。** �
 | Cloudflare | API トークン。`CF_API_TOKEN` 環境変数 → `~/.config/daily-hack/cf-token` → `~/openclaw/config/.env` の順に探す |
 | Slack | `~/openclaw/config/.env` の `OPENCLAW_BOT_TOKEN` |
 
-Cloudflare の Web Analytics は**サイトタグ**で絞る。ビーコンのトークンと同じ値で、
-`src/layouts/BaseLayout.astro` に平文で入っている（公開情報なので秘密ではない）。
+Cloudflare の Web Analytics は**サイトタグ**で絞る。**これは `BaseLayout.astro` の
+ビーコン token とは別物**で、`rum/site_info/list` に聞かないと分からない。
+思い込みで token を渡すと**エラー無しで 0 件が返り続ける**（2026-09-06 に踏んだ）。
+このスクリプトは実行時にアカウントへ聞き、取れなければ絞りを外す。
 
 **GSC API も Cloudflare API も無料。LLM を呼ばないため API クレジットは消費しない。**
 $0/回・$0/日・$0/月。
@@ -70,9 +72,18 @@ import urllib.request
 SA = "gsc-bot@daily-hack-blog.iam.gserviceaccount.com"
 SITE = "https://daily-hack.fieldbeside.com/"
 HOST = "daily-hack.fieldbeside.com"
-# Cloudflare Web Analytics のサイトタグ＝ビーコンの token。
-# BaseLayout.astro に平文で入っており、ページを開けば誰でも読める公開値。
-CF_SITE_TAG = "0dc312c59cff43f58507d2b4f669dd82"
+# **Cloudflare Web Analytics の siteTag は、ビーコンの token とは別物。**
+#
+# 2026-09-06、BaseLayout.astro:106 のビーコン token（0dc312c5…）を siteTag だと
+# 思い込んで渡したところ、**エラー無しで 0 件が返り続けた。**
+# 実際の site_tag は 73990e57… で、`rum/site_info/list` に聞いて初めて分かった。
+#
+#   ビーコンの token : 0dc312c59cff43f58507d2b4f669dd82  ← これは siteTag ではない
+#   本当の site_tag  : 73990e5796764bce8626e8706c08ce82  （host=fieldbeside.com）
+#
+# **固定値を書かない。実行時にアカウントへ聞く。** 取れなければ絞りを外す
+# （このアカウントのサイトは 1 件なので、絞らなくても同じ数字になる）。
+CF_SITE_TAG = None  # 実行時に埋める
 CF_GRAPHQL = "https://api.cloudflare.com/client/v4/graphql"
 SLACK_CHANNEL = "C0B4CJHH797"  # #fun_reward-hack_blog
 STATE = os.path.expanduser("~/.config/daily-hack/weekly-report-state.json")
@@ -279,8 +290,35 @@ def cf_account_id(token):
     return res[0]["id"]
 
 
+def cf_site_tag(token, account):
+    """Web Analytics のサイト一覧から site_tag を取る。**当て推量しない。**
+
+    1 件も返らなければ None を返し、呼び出し側は siteTag で絞らずに引く。"""
+    def _call():
+        req = urllib.request.Request(
+            f"https://api.cloudflare.com/client/v4/accounts/{account}"
+            "/rum/site_info/list?per_page=20",
+            headers={"Authorization": f"Bearer {token}"})
+        with urllib.request.urlopen(req, timeout=30) as r:
+            return json.loads(r.read() or b"{}")
+
+    try:
+        d = retry_ipv4(_call)
+    except Exception:
+        return None
+    sites = d.get("result") or []
+    if not sites:
+        return None
+    # ブログのホストに一致するものを優先。無ければ先頭
+    for s in sites:
+        zone = ((s.get("ruleset") or {}).get("zone_name") or "")
+        if zone and (zone in HOST or HOST.endswith(zone)):
+            return s.get("site_tag")
+    return sites[0].get("site_tag")
+
+
 CF_QUERY = """
-query($account: String!, $siteTag: String!, $start: Time!, $end: Time!) {
+query($account: String!, $siteTag: String, $start: Time!, $end: Time!) {
   viewer {
     accounts(filter: { accountTag: $account }) {
       total: rumPageloadEventsAdaptiveGroups(
@@ -313,10 +351,11 @@ query($account: String!, $siteTag: String!, $start: Time!, $end: Time!) {
 """
 
 
-def cf_fetch(token, account, start, end):
+def cf_fetch(token, account, start, end, site_tag=None):
+    # **siteTag が None なら絞らない。** GraphQL は null のフィルタを無視する。
     res = retry_ipv4(lambda: post_json(CF_GRAPHQL, {
         "query": CF_QUERY,
-        "variables": {"account": account, "siteTag": CF_SITE_TAG,
+        "variables": {"account": account, "siteTag": site_tag,
                       "start": f"{start}T00:00:00Z", "end": f"{end}T23:59:59Z"},
     }, {"Authorization": f"Bearer {token}"}, timeout=90))
     if res.get("errors"):
@@ -396,7 +435,9 @@ def build(args):
     cf_err = None
     try:
         tok = cf_token()
-        cf = cf_fetch(tok, cf_account_id(tok), cf_start, cf_end)
+        acc = cf_account_id(tok)
+        # **site_tag は聞いて確かめる。** 固定値を書いて 0 件を引き続けた（2026-09-06）
+        cf = cf_fetch(tok, acc, cf_start, cf_end, cf_site_tag(tok, acc))
     except Exception as e:
         cf_err = e
 
