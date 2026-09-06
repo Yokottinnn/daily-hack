@@ -1,3 +1,3 @@
 [
-      {"task": "x03-preview-ten-replies.sh", "rc": 0, "out": "**返信案を出した（投稿なし・起動なし）** / preview-ten-replies.md"}
+      {"task": "t060-weekly-report-with-cf.sh", "rc": 0, "out": "--- 出典: Cloudflare Web Analytics ／ Google Search Console。LLM 不使用のため API クレジットは消費しない（$0/回・$0/日・$0/月）。  --- t060: Python=`Python 3.11.14` / 終了コード=`1`（1 は「取れなかったものがある」）"}
   ]
