@@ -1,4 +1,3 @@
 [
-      {"task": "x13-fresh-unfollow-v3.sh", "rc": 0, "out": "**0 件だった。押す前後のボタン文字列をレポートに出した** / fresh-unfollow-v3.md"},
-      {"task": "x14-fill-replies-to-target.sh", "rc": 0, "out": "**まだ出せていない。各回の skip 理由をレポートに出した** / fill-replies-to-target.md"}
+      {"task": "x15-count-replies-now.sh", "rc": 0, "out": "**23:53 時点** / 今日 出た返信: 1 件 / 今日 外した数: 0 件 / count-replies-now.md"}
   ]
