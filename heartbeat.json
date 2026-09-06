@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-06T14:13:35Z",
-  "host": "NaokinoMacBook-Pro-2.local",
+  "generated_at": "2026-09-06T15:10:50Z",
+  "host": "NaokinoMBP-2",
   "job_count": 16,
   "jobs": [
     "ai.openclaw.auto-detect-and-unfollow-inactive",
@@ -21,11 +21,13 @@
     "com.dailyhack.weekly-blog-report"
   ],
   "reconnect": "既に起動している",
-  "tasks": [],
+  "tasks": [
+      {"task": "x14-fill-replies-to-target.sh", "rc": 0, "out": "**まだ出せていない。各回の skip 理由をレポートに出した** / fill-replies-to-target.md"}
+  ],
   "auth": {
-    "ok": true,
+    "ok": false,
     "expires_at": "2026-09-06T14:31:10Z",
-    "detail": "有効期限内"
+    "detail": "トークンの有効期限を過ぎている"
   },
   "activity": {
     "date": "2026-09-06",
