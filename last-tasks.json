@@ -1,4 +1,3 @@
 [
-      {"task": "x04-start-comment-warmup.sh", "rc": 0, "out": "**返信を再開した（8 件/日・$0.024/日）** / start-comment-warmup.md"},
-      {"task": "x05-rebuild-unfollow-plists.sh", "rc": 0, "out": "**plist を作り直した（load はしていない・$0）** / rebuild-unfollow-plists.md"}
+      {"task": "t062-find-rum-sitetag.sh", "rc": 0, "out": " ## 4) GSC をもう一度（t061 ではネットワークで落ちた） ``` oauth2.googleapis.com http=404 time=0.106111s ```"}
   ]
