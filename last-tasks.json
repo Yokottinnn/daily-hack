@@ -1,3 +1,3 @@
 [
-      {"task": "x08-load-rebuilt-plists.sh", "rc": 0, "out": "**復元した plist を起動した（$0）** / load-rebuilt-plists.md"}
+      {"task": "t067-lifetime-gsc.sh", "rc": 1, "out": "weekly-blog-report.py が無い: /Users/ny/projects/anta-baka-x/blog/scripts/"}
   ]
