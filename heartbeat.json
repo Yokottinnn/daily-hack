@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T15:10:50Z",
+  "generated_at": "2026-09-06T15:40:56Z",
   "host": "NaokinoMBP-2",
   "job_count": 16,
   "jobs": [
@@ -21,13 +21,11 @@
     "com.dailyhack.weekly-blog-report"
   ],
   "reconnect": "既に起動している",
-  "tasks": [
-      {"task": "x14-fill-replies-to-target.sh", "rc": 0, "out": "**まだ出せていない。各回の skip 理由をレポートに出した** / fill-replies-to-target.md"}
-  ],
+  "tasks": [],
   "auth": {
-    "ok": false,
-    "expires_at": "2026-09-06T14:31:10Z",
-    "detail": "トークンの有効期限を過ぎている"
+    "ok": true,
+    "expires_at": "2026-09-06T23:19:56Z",
+    "detail": "有効期限内"
   },
   "activity": {
     "date": "2026-09-06",
