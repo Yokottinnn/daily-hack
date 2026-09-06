@@ -124,10 +124,18 @@ commit ハッシュが分かっていれば `git cherry-pick <hash>` で戻せ�
 
 Claude が X に直接投稿することはない。確立している経路は次のとおりで、勝手に省略しない。
 
-1. `node scripts/generate-tweet.mjs <slug>` で草案を生成する。
+1. **文面は [`x-post-copy` スキル](.claude/skills/x-post-copy/SKILL.md) を読んでから書く。**
+   画像は [`x-post-images` スキル](.claude/skills/x-post-images/SKILL.md)（最上位ルール 8）。
 2. **草案の文面と画像を、このチャットに直接 出す。** 画像は `SendUserFile` で添付する。
 3. **確認をもらう。** 確認前に先へ進めない。
 4. 承認を得たら OpenClaw が投稿する（`@OpenClaw tweet <slug>`）。
+
+**声は実物から引く。想像で書かない。** 2026-09-05 に想像で書いたキャラ定義を差し戻され、
+2026-09-06 に「キャラ口調がまだ反映されきってない」と再度 指摘された。
+引き元は記事本文の `hakkako-says`、`ops/data/reply-style-prompt.json`、テンプレ 35 件。
+
+**X の重みは 280。和文は 1 文字が 2。** 数えずに積むと、投稿ボタンが有効にならず
+**エラーらしいエラーも出ずに落ちる**（2026-09-05 に 40 分 失った）。
 
 #### 草案は Slack に貼らない（2026-09-05 に指示）
 
