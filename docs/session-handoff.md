@@ -68,6 +68,18 @@
 
 <!-- 新しい記録がこの下に追加される（新しいものが上） -->
 
+### 2026-09-06 — 週次レポートを scripts/weekly-blog-report.py として作り直した（PV・訪問・流入経路・検索順位・前回比の9節／節ごとに独立して失敗し理由を書く／取れなければ rc=1）。収益化の勝ち筋を調査し docs/monetization-plan.md に記録（クリック型はAdSenseが天井・nendは2024/3終了・本命は成果報酬とLinkSwitch）
+
+次のアクション:
+
+- [ ] PR #375 をマージ → t052(既存実装を読む)・t053(新レポートを実機で1回実行)が Mac で走るのを待ち、結果を見て launchd の切り替えを決める
+
+### 2026-09-06 — fieldbeside.com（親ドメイン）の実体が別リポジトリ Yokottinnn/fieldbeside-website（index.html 1枚の静的サイト）だと特定し、ads.txt を足す PR を出した（fieldbeside-website#1）
+
+次のアクション:
+
+- [ ] Jordan: 忍者ツールズ → AdMax → 広告枠一覧 →「ads.txt を取得」で出た行をチャットに貼る。こちらで public/ads.txt に入れて PR を出す
+
 ### 2026-09-06 — AdSense 申請の準備を点検。審査に必要なページは全部揃っていた（記事72本・privacy・contact・about・disclaimer・robots・sitemap・PR表記）。ads.txt がサブドメインだとルートから SUBDOMAIN= で参照しないと無視される件を発見し記録（PR #374）
 
 次のアクション:
