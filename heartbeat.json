@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T12:41:10Z",
+  "generated_at": "2026-09-06T13:12:20Z",
   "host": "NaokinoMacBook-Pro-2.local",
   "job_count": 14,
   "jobs": [
@@ -20,7 +20,7 @@
   ],
   "reconnect": "既に起動している",
   "tasks": [
-      {"task": "t063-weekly-report-real.sh", "rc": 0, "out": "--- 出典: Cloudflare Web Analytics ／ Google Search Console。LLM 不使用のため API クレジットは消費しない（$0/回・$0/日・$0/月）。  --- t063: 7日=rc`0` / 30日=rc`0`"}
+      {"task": "t065-verify-embeds.sh", "rc": 0, "out": " - ✅ `2025480684190540286` … @tsuburenai   - 本文: ▼直前 本日、夜7時からは‼️ 都内のスーパー超激戦区３大スーパーに番組史上最多 116台のカメラを設置し徹底比較調査🎥✨  とにかく切り方が豊富な精肉🥩や顔くらい大きいく�"}
   ],
   "auth": {
     "ok": true,
@@ -29,9 +29,12 @@
   },
   "activity": {
     "date": "2026-09-06",
-    "posted_today": 0,
+    "posted_today": 3,
     "detail": "ログを走査した",
-    "sources": []
+    "sources": [
+      {"file": "comment-orchestrator.log", "count": 1},
+      {"file": "comment-warmup.log", "count": 2}
+    ]
   },
   "unloaded_count": 60,
   "unloaded": [
