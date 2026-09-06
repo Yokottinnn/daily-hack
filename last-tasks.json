@@ -1,4 +1,1 @@
-[
-      {"task": "t054-dump-weekly-report.sh", "rc": 0, "out": "書いた: /Users/ny/.openclaw/ops-heartbeat-wt/reports/t054-weekly-report-dump.md      237 /Users/ny/.openclaw/ops-heartbeat-wt/reports/t054-weekly-report-dump.md"},
-      {"task": "t055-run-new-weekly-report.sh", "rc": 0, "out": "| 全国アウトレット数 | 3 | 0 | 12.0 位 | | paypay 改悪 乗り換え | 2 | 1 | 80.5 位 | | ららぽーと 店舗 数 | 2 | 0 | 71.0 位 | | 2026年7月 値上げ 一覧 | 1 | 0 | 77.0 位 | === rc=1 ==="}
-  ]
+[]
