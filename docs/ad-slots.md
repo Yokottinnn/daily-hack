@@ -53,6 +53,31 @@ h2 の切れ目へ移動する**。h2 が 6 本未満なら 1 枠、2 本未満�
 `body:has(.admax--sticky-mobile)` に `padding-bottom: 76px` を当てて、記事の末尾が
 広告に隠れないようにしてある（`global.css`）。
 
+## ads.txt はサブドメインだと効かないことがある
+
+**このサイトは `daily-hack.fieldbeside.com`＝サブドメインで動いている。**
+
+ads.txt のクロールは**ルートドメインから始まる**。サブドメインの ads.txt は、
+**ルートドメインの ads.txt から `SUBDOMAIN=` で参照されている場合にだけ**
+クロール・適用される。参照が無ければサブドメイン側は無視され、
+ルートドメインの ads.txt にフォールバックする
+（[Ads.txt FAQs](https://support.google.com/adsense/answer/9785052?hl=en) /
+[Ensure your ads.txt files can be crawled](https://support.google.com/adsense/answer/7679060?hl=en)）。
+
+つまり `public/ads.txt`（= `daily-hack.fieldbeside.com/ads.txt`）に書くだけでは足りない。
+
+```text
+fieldbeside.com/ads.txt   ← このリポジトリの外。ここに次の 1 行が要る
+SUBDOMAIN=daily-hack.fieldbeside.com
+```
+
+**それが置けないなら、広告事業者の行を `fieldbeside.com/ads.txt` 側に書く。**
+HTTP と HTTPS の両方でアクセスできることも確認する。
+
+**忍者AdMAX の行はまだ 1 行も無い。** 管理画面（忍者ツールズ → AdMax →
+広告枠一覧 →「ads.txt を取得」）で自サイト用の行を取る。ログインが要るので
+クラウドセッションからは取れない。
+
 ## AdSense（自動広告で始める・2026-09-05 に決定）
 
 **配線は済んでいる。足りないのは環境変数だけ。**
@@ -82,3 +107,18 @@ h2 の切れ目へ移動する**。h2 が 6 本未満なら 1 枠、2 本未満�
 - **AdSense を模した見た目の広告を出す他社ネットワークは不可。** 忍者AdMAX は該当しない
 - **広告よりコンテンツが多いこと**（Valuable Inventory）。自動広告は管理画面で
   広告の量を絞れるので、忍者AdMAX の枠と合わせて多すぎないか見ること
+
+### 審査に必要なページの点検（2026-09-05 時点）
+
+| 項目 | 状態 |
+| --- | --- |
+| オリジナル記事の量 | **72 本** |
+| プライバシーポリシー | `src/pages/privacy.astro`。第9条に広告配信、第7条に Cookie |
+| 問い合わせ先 | `src/pages/contact.astro`（`info@fieldbeside.com`） |
+| 運営者情報 | `src/pages/about.astro`（Fieldbeside合同会社・事業内容） |
+| 免責事項 | `src/pages/disclaimer.astro` |
+| クロール許可 | `robots.txt` は `Allow: /`。sitemap も出ている |
+| PR 表記 | `isPR` の記事に `PRBadge` と注記が出る |
+
+**申請を止める要素は見当たらない。** 申請は Google アカウントでのログインが要るため
+クラウドセッションからは行えない。

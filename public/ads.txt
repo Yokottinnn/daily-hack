@@ -1,10 +1,24 @@
 # Daily Hack ads.txt
 #
-# 【忍者AdMAX】← いま実際に稼働している広告配信。**未設置。**
+# ■ 重要: このサイトはサブドメイン（daily-hack.fieldbeside.com）で動いている
+#
+#   ads.txt のクロールは **ルートドメインから始まる**。サブドメインの ads.txt は、
+#   ルートドメインの ads.txt から SUBDOMAIN= で参照されている場合にだけ
+#   クロール・適用される。参照が無ければサブドメイン側は無視され、
+#   ルートドメイン（fieldbeside.com）の ads.txt にフォールバックする。
+#   https://support.google.com/adsense/answer/9785052
+#
+#   → **fieldbeside.com/ads.txt に次の 1 行が要る**（このリポジトリの外）。
+#        SUBDOMAIN=daily-hack.fieldbeside.com
+#      それが置けないなら、広告事業者の行は fieldbeside.com/ads.txt 側に書く。
+#
+#   HTTP と HTTPS の両方でアクセスできることも確認すること。
+#
+# ■ 忍者AdMAX ← いま実際に稼働している広告配信。**行が未設置。**
 #   忍者ツールズにログイン → AdMax → 広告枠一覧 → 「ads.txt を取得」で
 #   自サイト用の行が出るので、それをこのファイルへ貼る。
 #   取得した行の DIRECT / RESELLER が小文字になっている場合は大文字へ直す。
 #   ads.txt が無いドメインは在庫を買わない DSP があるため、収益に直接効く。
 #
-# 【Google AdSense】承認後に下記 placeholder を実際の pub-ID に置換する
+# ■ Google AdSense ← 未審査。承認後に下記 placeholder を実際の pub-ID に置換する
 # google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0
