@@ -1,1 +1,3 @@
-[]
+[
+      {"task": "x02-wire-reply-generator.sh", "rc": 0, "out": "**全文生成に配線した（起動はしていない・$0）** / wire-reply-generator.md"}
+  ]
