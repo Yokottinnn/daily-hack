@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T11:39:50Z",
+  "generated_at": "2026-09-06T12:10:04Z",
   "host": "NaokinoMacBook-Pro-2.local",
   "job_count": 12,
   "jobs": [
@@ -17,7 +17,9 @@
     "com.dailyhack.weekly-blog-report"
   ],
   "reconnect": "既に起動している",
-  "tasks": [],
+  "tasks": [
+      {"task": "t060-weekly-report-with-cf.sh", "rc": 0, "out": "--- 出典: Cloudflare Web Analytics ／ Google Search Console。LLM 不使用のため API クレジットは消費しない（$0/回・$0/日・$0/月）。  --- t060: Python=`Python 3.11.14` / 終了コード=`1`（1 は「取れなかったものがある」）"}
+  ],
   "auth": {
     "ok": true,
     "expires_at": "2026-09-06T14:31:10Z",
