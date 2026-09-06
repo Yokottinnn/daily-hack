@@ -1,3 +1,3 @@
 [
-      {"task": "t067-lifetime-gsc.sh", "rc": 1, "out": "weekly-blog-report.py が無い: /Users/ny/projects/anta-baka-x/blog/scripts/"}
+      {"task": "x09-why-no-unfollow-button.sh", "rc": 0, "out": "**ボタンが無い理由を実画面で切り分けた（変更なし・$0）** / why-no-unfollow-button.md"}
   ]
