@@ -1,4 +1,4 @@
-# `ops/tasks` の実行モデル（守らないと詰む 3 つ）
+# `ops/tasks` の実行モデル（守らないと詰む 4 つ）
 
 `ops/tasks/*.sh` にコミットしたスクリプトは、Mac の `com.dailyhack.ops-heartbeat`
 （launchd）が `scripts/ops-heartbeat.sh` 経由で実行する。**書く前にここを読む。**
@@ -45,7 +45,36 @@ done
 
 逆に言うと、**先に走るタスクが失敗すると後続が巻き添えになる**設計は避ける。
 
-## 3. **自分を殺すタスクを書かない**（実際に踏みかけた）
+## 3. **`$0` はリポジトリの中を指さない**（2026-09-06 に 2 本 潰した）
+
+ランナーはタスクを **`/tmp/ops-tasks/` にコピーしてから実行する。**
+
+```bash
+out="$(/bin/bash "$task_tmp/$t" 2>&1)"   # ← コピーを叩いている
+```
+
+つまり `$0` は `/tmp/ops-tasks/t0NN-….sh`。
+
+```bash
+# ❌ cd / してしまう。git は fatal: not a git repository
+REPO_ROOT="$(cd "$(dirname "$0")/../.." && pwd)"
+cd "$REPO_ROOT"
+
+# ✅ 場所は変数で受ける
+REPO="${DAILY_HACK_REPO:-/Users/ny/projects/anta-baka-x/blog}"
+RDIR="${OPS_REPORT_DIR:-/tmp}"
+```
+
+**成果物は `$OPS_REPORT_DIR` に書くだけでよい。** 自分で `git add` も push も
+しない。ランナーが `ops/heartbeat` へ運ぶ。
+
+2026-09-06、`t052` と `t053` がこれで両方とも空振りした。`t053` は
+`cd /` の状態で `python3 scripts/weekly-blog-report.py` を叩き、
+**ファイルが無くて終了コード 2** で終わった。しかも**ランナーから見た rc は 0**
+（最後のコマンドが成功したため）で、失敗が表に出なかった。
+**1 回しか走らないので、直すには番号を振り直すしかない**（→ `t054` / `t055`）。
+
+## 4. **自分を殺すタスクを書かない**（実際に踏みかけた）
 
 タスクは heartbeat ジョブの子プロセスとして走る。だから次は**自殺**である。
 
