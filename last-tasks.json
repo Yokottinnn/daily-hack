@@ -1,3 +1,4 @@
 [
-      {"task": "t062-find-rum-sitetag.sh", "rc": 0, "out": " ## 4) GSC をもう一度（t061 ではネットワークで落ちた） ``` oauth2.googleapis.com http=404 time=0.106111s ```"}
+      {"task": "x06-fix-unfollow-executor.sh", "rc": 0, "out": "**起動はした。外れたかはレポートを読むこと** / fix-unfollow-executor.md"},
+      {"task": "x07-verify-both-loops.sh", "rc": 0, "out": "**3 系統の実際の出力を確かめた（変更なし・$0）** / verify-both-loops.md"}
   ]
