@@ -589,6 +589,46 @@ footer.foot .pr { margin-top: 6px; }
   .income-row { grid-template-columns: 76px 1fr 70px; gap: 8px; font-size: 12.5px; }
 }
 
+/* 数値比較バー（--w に % を入れる。income-bar の段階指定では刻めない数字向け） */
+.num-grid { display: grid; gap: 9px; margin: 22px 0; }
+.num-row { display: grid; grid-template-columns: 132px 1fr 92px; gap: 12px; align-items: center; font-size: 13.5px; }
+.num-row .num-label { font-weight: 800; color: var(--pink-700); line-height: 1.35; }
+.num-row .num-track { height: 22px; background: var(--pink-50); border: 1px solid var(--pink-200); border-radius: 999px; overflow: hidden; }
+.num-row .num-fill { height: 100%; width: var(--w, 10%); background: linear-gradient(90deg, var(--pink-300), var(--pink-500)); border-radius: 999px; }
+.num-row.is-top .num-fill { background: linear-gradient(90deg, var(--pink-500), var(--pink-700)); }
+.num-row .num-value { text-align: right; font-weight: 800; color: var(--ink); font-variant-numeric: tabular-nums; }
+.num-note { font-size: 12px; color: var(--ink-3); margin: -8px 0 22px; line-height: 1.6; }
+@media (max-width: 540px) {
+  .num-row { grid-template-columns: 96px 1fr 78px; gap: 8px; font-size: 12px; }
+  .num-row .num-track { height: 18px; }
+}
+
+/* 勢力図（店舗数 × 1店あたり年商 の2軸マップ） */
+.map-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; margin: 24px 0 8px; }
+.pos-map { position: relative; min-width: 480px; height: 340px; margin: 0 30px 0 46px;
+  background:
+    linear-gradient(to right, var(--line) 1px, transparent 1px) 0 0 / 25% 100%,
+    linear-gradient(to top, var(--line) 1px, transparent 1px) 0 100% / 100% 25%;
+  border-left: 2px solid var(--pink-300); border-bottom: 2px solid var(--pink-300); }
+.pos-dot { position: absolute; transform: translate(-50%, 50%); }
+.pos-dot i { display: block; width: 15px; height: 15px; border-radius: 50%; margin: 0 auto;
+  background: var(--pink-500); box-shadow: 0 0 0 3px #fff, 0 0 0 4px var(--pink-300); }
+.pos-dot.is-key i { width: 19px; height: 19px; background: var(--pink-700); }
+.pos-dot b { position: absolute; left: 50%; bottom: 22px; transform: translateX(-50%);
+  white-space: nowrap; font-size: 12px; font-weight: 800; color: var(--pink-700); background: #fff;
+  border: 1px solid var(--pink-200); border-radius: 999px; padding: 1px 8px; }
+.pos-dot.lbl-below b { bottom: auto; top: 22px; }
+.pos-dot.lbl-left b { left: auto; right: 22px; bottom: -8px; transform: none; }
+.pos-dot.lbl-right b { left: 22px; right: auto; bottom: -8px; transform: none; }
+.pos-axis-y { position: absolute; left: -46px; top: 0; bottom: 0; width: 42px; font-size: 11px; color: var(--ink-3); }
+.pos-axis-y span { position: absolute; right: 4px; transform: translateY(50%); }
+.pos-axis-x { position: relative; min-width: 480px; margin: 0 30px 0 46px; height: 22px; font-size: 11px; color: var(--ink-3); }
+.pos-axis-x span:first-child { transform: none; }
+.pos-axis-x span:last-child { transform: translateX(-100%); }
+.pos-axis-x span { position: absolute; transform: translateX(-50%); top: 4px; }
+.pos-zone { position: absolute; font-size: 11.5px; font-weight: 800; color: var(--pink-300); letter-spacing: .04em; }
+.map-caption { font-size: 12px; color: var(--ink-3); margin: 4px 0 26px; line-height: 1.6; }
+
 /* Source citation (small inline reference link) */
 .source-note { display: block; margin: 6px 0 18px; font-size: 11.5px; color: var(--ink-3); }
 .source-note a { color: var(--ink-2); border-bottom: 1px dotted var(--ink-3); }

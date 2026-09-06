@@ -93,8 +93,10 @@ def check(path):
     # 2026-08-29: セールの節が「下の related-block の <img> をたまたま拾って」通っていた。
     # 見出しを 1 つ挟んだだけで落ちたので、実際にはビジュアルが無かった。
     # tower-timeline は skill の部品表にある正規の視覚部品なので、ここに足す。
+    # 2026-09-06: num-grid（比較バー）と pos-map（勢力図）を足した。
+    # どちらも数字を図にした正規の視覚部品で、表や写真の代わりになる。
     VISUAL = re.compile(r"<img\s|<iframe\s|twitter-tweet|event-pick|rn-figure|figure-card"
-                        r"|<table|tower-timeline")
+                        r"|<table|tower-timeline|num-grid|pos-map|income-grid")
     parts = re.split(r'(<h[23][^>]*>.*?</h[23]>)', body, flags=re.S)
     # parts: [前文, 見出し, 本文, 見出し, 本文, ...]
     for i in range(1, len(parts) - 1, 2):
