@@ -1,4 +1,4 @@
 [
-      {"task": "t052-dump-weekly-report.sh", "rc": 0, "out": "prompt ファイル (home-mac): `${PROMPT_FILE}`  👇 prompt の先頭抜粋 (claude.ai/design/ に貼ってください): ``` ${SHORT_PROMPT}"},
-      {"task": "t053-run-new-weekly-report.sh", "rc": 0, "out": "t053 実行メモ: Python=`Python 3.11.14` / 終了コード=`2` （終了コード 1 は「取れなかったものがある」の意味。レポート本文に理由が出る） fatal: not a git repository (or any of the parent directories): .git fatal: not a git repository (or any of the parent d"}
+      {"task": "t054-dump-weekly-report.sh", "rc": 0, "out": "書いた: /Users/ny/.openclaw/ops-heartbeat-wt/reports/t054-weekly-report-dump.md      237 /Users/ny/.openclaw/ops-heartbeat-wt/reports/t054-weekly-report-dump.md"},
+      {"task": "t055-run-new-weekly-report.sh", "rc": 0, "out": "| 全国アウトレット数 | 3 | 0 | 12.0 位 | | paypay 改悪 乗り換え | 2 | 1 | 80.5 位 | | ららぽーと 店舗 数 | 2 | 0 | 71.0 位 | | 2026年7月 値上げ 一覧 | 1 | 0 | 77.0 位 | === rc=1 ==="}
   ]
