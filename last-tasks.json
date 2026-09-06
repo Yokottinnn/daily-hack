@@ -1,3 +1,4 @@
 [
-      {"task": "t061-weekly-report-ipv4.sh", "rc": 0, "out": "--- 出典: Cloudflare Web Analytics ／ Google Search Console。LLM 不使用のため API クレジットは消費しない（$0/回・$0/日・$0/月）。  --- t061: 終了コード=`1`"}
+      {"task": "x04-start-comment-warmup.sh", "rc": 0, "out": "**返信を再開した（8 件/日・$0.024/日）** / start-comment-warmup.md"},
+      {"task": "x05-rebuild-unfollow-plists.sh", "rc": 0, "out": "**plist を作り直した（load はしていない・$0）** / rebuild-unfollow-plists.md"}
   ]
