@@ -23,12 +23,6 @@
     "artist": "MASA (talk)",
     "page": "https://commons.wikimedia.org/wiki/File%3AGyomu%20Super%20Fukaebashi.jpg"
   },
-  "hanamasa-sotokanda.jpg": {
-    "title": "File:4 Chome-13-7 Sotokanda, Chiyoda, Tokyo 20130808 5.jpg",
-    "lic": "CC BY-SA 3.0",
-    "artist": "DXR",
-    "page": "https://commons.wikimedia.org/wiki/File%3A4%20Chome-13-7%20Sotokanda%2C%20Chiyoda%2C%20Tokyo%2020130808%205.jpg"
-  },
   "hanamasa-prices.jpg": {
     "title": "File:April 2025, meat prices at Hanamasa in Tokyo.jpg",
     "lic": "CC0",
@@ -64,5 +58,19 @@
     "lic": "CC BY-SA 4.0",
     "artist": "Suikotei",
     "page": "https://commons.wikimedia.org/wiki/File%3AMy%20Basket%20Iogi%20eki%20Higashi.jpg"
+  },
+  "lopia-store.jpg": {
+    "title": "ロピアの店舗看板",
+    "lic": "引用（出典表記）",
+    "artist": "39mag（サンキュ！マガジン）",
+    "page": "https://39mag.thankyu.co.jp/wp-content/uploads/2025/09/07172457/e151310d-8dc0-4d04-8d88-041a6bc12272-1.jpg",
+    "note": "2026-09-06 のレビューで名指しで指定された画像"
+  },
+  "hanamasa-plus.jpg": {
+    "title": "肉のハナマサPLUS の店頭",
+    "lic": "引用（出典表記）",
+    "artist": "相鉄不動産販売 すみかうる",
+    "page": "https://blog.sotetsu-re.co.jp/wp-content/uploads/2024/02/2-6.jpg",
+    "note": "2026-09-06 のレビューで提示された 3 候補のうち、寸法と写り（看板・店頭の野菜）で選んだ"
   }
 }

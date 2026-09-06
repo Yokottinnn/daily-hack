@@ -273,7 +273,15 @@ const articleJsonLd = {
       }
 
       function place(el, want) {
-        const target = claim(want);
+        let target = claim(want);
+        // **h2 が .section-with-mascot に包まれていたら、包みごと前に置く。**
+        // 中に入れると flex の子になり、マスコットと見出しの間に潰れて入る。
+        // 2026-09-06 のレビューで「デザインが崩れている。前後の空白もおかしい。バグ。」
+        // と指摘されたのがこれ。
+        if (target && target.parentNode && target.parentNode !== body &&
+            target.parentNode.classList.contains('section-with-mascot')) {
+          target = target.parentNode;
+        }
         if (target && target.parentNode) {
           target.parentNode.insertBefore(el, target);
           return true;
