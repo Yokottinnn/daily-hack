@@ -1,4 +1,4 @@
 [
-      {"task": "x11-force-reply-until-posted.sh", "rc": 0, "out": ""},
-      {"task": "x12-fresh-unfollow-v2.sh", "rc": 0, "out": "**0 件だった。押す前後のボタン文字列をレポートに出した** / fresh-unfollow-v2.md"}
+      {"task": "x13-fresh-unfollow-v3.sh", "rc": 0, "out": "**0 件だった。押す前後のボタン文字列をレポートに出した** / fresh-unfollow-v3.md"},
+      {"task": "x14-fill-replies-to-target.sh", "rc": 0, "out": "**まだ出せていない。各回の skip 理由をレポートに出した** / fill-replies-to-target.md"}
   ]
