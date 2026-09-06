@@ -590,27 +590,75 @@ def build(args):
     return "\n".join(L), bool(cf_err or gsc_err)
 
 
+# Slack に出す節と、その節で出す表の行数の上限。
+# **見出しの前方一致で拾う。** 節名に TOP15 / TOP20 のような可変の数字が入るため。
+# None は「全部出す」。ここに無い節は Slack には出さない（Markdown 版には全部ある）。
+SLACK_SECTIONS = (
+    ("サマリー", None),
+    ("流入経路", 8),
+    ("人気ページ", 5),
+    ("検索順位", 5),
+    ("惜しい記事", 5),
+    ("順位が動いた記事", 6),
+    ("当たり語", 5),
+    ("⚠️ 取れなかったもの", None),
+)
+
+
+def _slack_limit(section):
+    """その節を Slack に出すか、出すなら表を何行までにするか。"""
+    for prefix, limit in SLACK_SECTIONS:
+        if section.startswith(prefix):
+            return True, limit
+    return False, 0
+
+
 def to_slack(md, has_error):
-    """Slack は表を描けない。要点だけ抜いて短くする。"""
+    """Slack は表を描けない。節ごとに行数を絞って箇条書きに落とす。"""
     head = "🚨 " if has_error else "📊 "
     md = md.replace("**", "*")  # Slack の強調は * 1 つ
-    keep, section, kept_sections = [], None, {"サマリー", "流入経路", "⚠️ 取れなかったもの"}
+    keep = []
+    section = None
+    show = False
+    limit = None
+    rows = 0
     for line in md.split("\n"):
-        if line.startswith("## "):
-            section = line[3:].strip()
         if line.startswith("# "):
             keep.append(f"*{line[2:].strip()}*")
-        elif section in kept_sections:
-            if line.startswith("## "):
+            continue
+        if line.startswith("## "):
+            section = line[3:].strip()
+            show, limit = _slack_limit(section)
+            rows = 0
+            if show:
                 keep.append(f"\n*■ {section}*")
-            elif line.startswith("| --- "):
+            continue
+        if not show or not line.strip():
+            continue
+        if line.startswith("| --- "):
+            continue
+        if line.startswith("|"):
+            cells = [c.strip() for c in line.strip("|").split("|")]
+            cells = [c for c in cells if c]
+            rows += 1
+            if rows == 1:
+                # 表の見出し行。項目名が分からないと数字が読めないので残す
+                keep.append("_" + " / ".join(cells) + "_")
                 continue
-            elif line.startswith("|"):
-                cells = [c.strip() for c in line.strip("|").split("|")]
-                keep.append("• " + " / ".join(c for c in cells if c))
-            elif line.strip():
-                keep.append(line)
-    return head + "\n".join(keep)[:3500]
+            if limit is not None and rows > limit + 1:
+                if rows == limit + 2:
+                    keep.append(f"…ほか（全文は Markdown 版に）")
+                continue
+            keep.append("• " + " / ".join(cells))
+        else:
+            # 1 つの節に表が 2 つ入ることがある（流入経路の内訳とリファラ TOP）。
+            # 表と表のあいだの小見出しで数え直さないと、2 つ目が頭から削られる。
+            rows = 0
+            keep.append(line)
+    text = head + "\n".join(keep)
+    if len(text) > 3500:
+        text = text[:3480] + "\n…（以下省略）"
+    return text
 
 
 def slack_post(text, channel):
