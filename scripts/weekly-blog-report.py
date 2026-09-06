@@ -55,10 +55,12 @@ Cloudflare の Web Analytics は**サイトタグ**で絞る。ビーコンの�
 $0/回・$0/日・$0/月。
 """
 import argparse
+import contextlib
 import datetime
 import json
 import os
 import shutil
+import socket
 import subprocess
 import sys
 import urllib.error
@@ -113,6 +115,56 @@ class Section:
             out.extend(self.lines)
         out.append("")
         return out
+
+
+# ── IPv6 しか引けない環境で落ちるのを避ける ────────────────
+#
+# 2026-09-06、Mac から Cloudflare だけに届かなかった。
+#
+#   <urlopen error [Errno 65] No route to host>
+#
+# **GSC には同じスクリプトで届いていた。** macOS は AAAA を先に試すので、
+# IPv6 の経路が無いホストでこれが出る。**IPv4 に落として一度だけ やり直す。**
+
+_ORIG_GETADDRINFO = socket.getaddrinfo
+
+
+def _ipv4_only(*args, **kwargs):
+    res = _ORIG_GETADDRINFO(*args, **kwargs)
+    v4 = [r for r in res if r[0] == socket.AF_INET]
+    return v4 or res
+
+
+@contextlib.contextmanager
+def force_ipv4():
+    socket.getaddrinfo = _ipv4_only
+    try:
+        yield
+    finally:
+        socket.getaddrinfo = _ORIG_GETADDRINFO
+
+
+def _is_unreachable(e):
+    """経路が無い系のエラーか。IPv4 で試し直す価値があるものだけ拾う。"""
+    err = getattr(e, "reason", e)
+    return isinstance(err, OSError) and err.errno in (
+        socket.EAI_NONAME if hasattr(socket, "EAI_NONAME") else -2,
+        65,   # EHOSTUNREACH (macOS)
+        51,   # ENETUNREACH (macOS)
+        113,  # EHOSTUNREACH (Linux)
+        101,  # ENETUNREACH (Linux)
+    )
+
+
+def retry_ipv4(fn):
+    """まず素のまま試し、経路が無ければ IPv4 だけで一度やり直す。"""
+    try:
+        return fn()
+    except (urllib.error.URLError, OSError) as e:
+        if not _is_unreachable(e):
+            raise
+        with force_ipv4():
+            return fn()
 
 
 def post_json(url, payload, headers, timeout=60):
@@ -213,11 +265,14 @@ def cf_token():
 
 
 def cf_account_id(token):
-    req = urllib.request.Request(
-        "https://api.cloudflare.com/client/v4/accounts?per_page=5",
-        headers={"Authorization": f"Bearer {token}"})
-    with urllib.request.urlopen(req, timeout=30) as r:
-        data = json.loads(r.read() or b"{}")
+    def _call():
+        req = urllib.request.Request(
+            "https://api.cloudflare.com/client/v4/accounts?per_page=5",
+            headers={"Authorization": f"Bearer {token}"})
+        with urllib.request.urlopen(req, timeout=30) as r:
+            return json.loads(r.read() or b"{}")
+
+    data = retry_ipv4(_call)
     res = data.get("result") or []
     if not res:
         raise RuntimeError("Cloudflare のアカウントが取れない（トークンの権限を確認）")
@@ -259,11 +314,11 @@ query($account: String!, $siteTag: String!, $start: Time!, $end: Time!) {
 
 
 def cf_fetch(token, account, start, end):
-    res = post_json(CF_GRAPHQL, {
+    res = retry_ipv4(lambda: post_json(CF_GRAPHQL, {
         "query": CF_QUERY,
         "variables": {"account": account, "siteTag": CF_SITE_TAG,
                       "start": f"{start}T00:00:00Z", "end": f"{end}T23:59:59Z"},
-    }, {"Authorization": f"Bearer {token}"}, timeout=90)
+    }, {"Authorization": f"Bearer {token}"}, timeout=90))
     if res.get("errors"):
         msgs = "; ".join(e.get("message", "?") for e in res["errors"])[:300]
         raise RuntimeError(f"Cloudflare GraphQL エラー: {msgs}")
