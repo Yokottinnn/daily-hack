@@ -68,6 +68,12 @@
 
 <!-- 新しい記録がこの下に追加される（新しいものが上） -->
 
+### 2026-09-06 — AdSense 申請の準備を点検。審査に必要なページは全部揃っていた（記事72本・privacy・contact・about・disclaimer・robots・sitemap・PR表記）。ads.txt がサブドメインだとルートから SUBDOMAIN= で参照しないと無視される件を発見し記録（PR #374）
+
+次のアクション:
+
+- [ ] Jordan: ① AdSense に申請 ② fieldbeside.com/ads.txt に SUBDOMAIN=daily-hack.fieldbeside.com を置く ③ 忍者AdMAX の管理画面で ads.txt の行を取得
+
 ### 2026-09-05 — AdSense 審査準備を点検し、プライバシーポリシー第9条が事実と違っていた（未配信の AdSense を『利用しています』と断言、稼働中の忍者AdMAX は記載なし）のを直した。ads.txt に忍者AdMAX の行が無いことも判明（PR #373）
 
 次のアクション:
