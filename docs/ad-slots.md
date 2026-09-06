@@ -74,6 +74,11 @@ SUBDOMAIN=daily-hack.fieldbeside.com
 **それが置けないなら、広告事業者の行を `fieldbeside.com/ads.txt` 側に書く。**
 HTTP と HTTPS の両方でアクセスできることも確認する。
 
+**ルートドメインの実体は別リポジトリ `Yokottinnn/fieldbeside-website`。**
+`index.html` が 1 枚あるだけの静的サイトで、リポジトリのルートをそのまま配信している。
+そこへ `ads.txt` を足す PR を出してある（[fieldbeside-website#1](https://github.com/Yokottinnn/fieldbeside-website/pull/1)）。
+マージしたら `https://fieldbeside.com/ads.txt` が読めるようになる。
+
 **忍者AdMAX の行はまだ 1 行も無い。** 管理画面（忍者ツールズ → AdMax →
 広告枠一覧 →「ads.txt を取得」）で自サイト用の行を取る。ログインが要るので
 クラウドセッションからは取れない。

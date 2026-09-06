@@ -68,6 +68,12 @@
 
 <!-- 新しい記録がこの下に追加される（新しいものが上） -->
 
+### 2026-09-06 — fieldbeside.com（親ドメイン）の実体が別リポジトリ Yokottinnn/fieldbeside-website（index.html 1枚の静的サイト）だと特定し、ads.txt を足す PR を出した（fieldbeside-website#1）
+
+次のアクション:
+
+- [ ] Jordan: 忍者ツールズ → AdMax → 広告枠一覧 →「ads.txt を取得」で出た行をチャットに貼る。こちらで public/ads.txt に入れて PR を出す
+
 ### 2026-09-06 — AdSense 申請の準備を点検。審査に必要なページは全部揃っていた（記事72本・privacy・contact・about・disclaimer・robots・sitemap・PR表記）。ads.txt がサブドメインだとルートから SUBDOMAIN= で参照しないと無視される件を発見し記録（PR #374）
 
 次のアクション:
