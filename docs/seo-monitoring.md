@@ -42,6 +42,23 @@
 | 当たり語 TOP20 | GSC |
 | デバイス・国 | CF RUM |
 
+### 旧レポートが壊れていた理由（2026-09-06 に t054 で実体を読んで確定）
+
+旧 `~/scripts/weekly-blog-report.py` は、**Cloudflare の数字を GitHub Actions 経由で
+取っていた。** CF のトークンが GHA の Secret にしか無かったため。
+
+```python
+subprocess.run(["gh", "workflow", "run", "weekly-pv-report.yml", ...])
+time.sleep(22)
+rid = ... gh run list --limit 1 ...      # 22 秒で新しい run が出ている保証は無い
+log = ... gh run view $rid --log ...     # ここから STDOUT_TOTALS を文字列で拾う
+```
+
+**この橋が壊れて `${ALL_VISITS}` という文字列をそのまま拾っていた。**
+新しいレポートは Cloudflare の API を直接叩くので橋が要らない。
+**代わりに Mac 側へ API トークンを 1 つ置く必要がある**
+（`~/.config/daily-hack/cf-token`。権限は Account Analytics: Read）。
+
 **流入経路が取れるのは Cloudflare Web Analytics のビーコンが入っているから**
 （`BaseLayout.astro:106`）。`rumPageloadEventsAdaptiveGroups` を siteTag で引く。
 サイトタグはビーコンの token と同じ値で、ページを開けば読める公開値。
