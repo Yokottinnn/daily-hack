@@ -1,1 +1,4 @@
-[]
+[
+      {"task": "t052-dump-weekly-report.sh", "rc": 0, "out": "prompt ファイル (home-mac): `${PROMPT_FILE}`  👇 prompt の先頭抜粋 (claude.ai/design/ に貼ってください): ``` ${SHORT_PROMPT}"},
+      {"task": "t053-run-new-weekly-report.sh", "rc": 0, "out": "t053 実行メモ: Python=`Python 3.11.14` / 終了コード=`2` （終了コード 1 は「取れなかったものがある」の意味。レポート本文に理由が出る） fatal: not a git repository (or any of the parent directories): .git fatal: not a git repository (or any of the parent d"}
+  ]
