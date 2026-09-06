@@ -142,6 +142,11 @@ function coverHtml(c) {
    *  **帯より少し大きく取って、はみ出た分は header 側で切る。**
    *  下端は mask で消えているので、切り口は見えない。`cover.mascotHeight` で上書き可。 */
   const mascotH = Number.isFinite(c.mascotHeight) ? c.mascotHeight : (dense ? 262 : 286);
+  /** **帯の背景写真。** `cover.bgImage` に imageBase からの相対パスを書くと、
+   *  テーマの地色の上に薄く敷く。濃さは `cover.bgOpacity`（既定 0.22）。
+   *  **借りている写真ならクレジットを別途 出すこと**（`cover.source`）。 */
+  const bgImage = c.bgImage || null;
+  const bgOpacity = Number.isFinite(c.bgOpacity) ? c.bgOpacity : 0.22;
 
   /** **見出しは 1 行に収める。** 2026-09-05 の指摘:
    *    「一行でまとめて。文字サイズを少し小さくすればいい。透過した画像の上に乗ってもいい」
@@ -165,7 +170,8 @@ function coverHtml(c) {
 
   return `<style>${BASE}
   body { background: #f7f7f9; display: flex; flex-direction: column; }
-  header .kicker, header h1, header .sub { position: relative; z-index: 1; }
+  /* 重なりの順。**帯の写真 → キャラ → 文字**。数字を飛ばさない */
+  header .kicker, header h1, header .sub { position: relative; z-index: 2; }
   /* **overflow: hidden は必須。** キャラを帯より大きく取っているので、
      これが無いと下のカード格子の上に裾がはみ出す。 */
   header { background: ${TH.bg}; color: ${TH.text}; padding: ${dense ? 36 : 46}px 54px ${dense ? 30 : 40}px;
@@ -178,7 +184,18 @@ function coverHtml(c) {
   /* 右上のキャラとマーク。**見出しに被らない**よう幅を確保して右端に置く */
   /* **帯の中で上下中央に置く。** 2026-09-05 の指摘「位置をもう少し下に、帯の中で中央に」。
      上端に貼り付けると帯の下半分が空いて、透かしとして浮いて見える。 */
-  .hero { position: absolute; top: 0; bottom: 0; right: 40px; z-index: 0;
+  /* **帯の背景写真。** 2026-09-05 の指摘「上部の帯に◯◯の画像を透過させて背景としてうっすら」。
+     テーマの地色の上に薄く重ねる。濃さは cover.bgOpacity（既定 0.22）。
+     文字が乗るので**下側ほど濃くなるスクリムを重ねて可読性を確保する。** */
+  .bgphoto { position: absolute; inset: 0; z-index: 0;
+             background-image: ${bgImage ? `url('${url(bgImage)}')` : 'none'};
+             background-size: cover; background-position: center 42%;
+             opacity: ${bgOpacity}; }
+  .bgscrim { position: absolute; inset: 0; z-index: 0;
+             background: linear-gradient(180deg,
+               rgba(0,0,0,${TH.text === '#FFFFFF' ? .12 : .04}) 0%,
+               rgba(0,0,0,${TH.text === '#FFFFFF' ? .26 : .08}) 100%); }
+  .hero { position: absolute; top: 0; bottom: 0; right: 40px; z-index: 1;
           display: flex; align-items: center; gap: 10px; }
   .hero .mark { width: ${dense ? 96 : 108}px; height: ${dense ? 96 : 108}px; }
   /* **透かしとして置く。** 2026-09-05 の指摘:
@@ -229,6 +246,7 @@ function coverHtml(c) {
   .brand { font-size: 30px; font-weight: 900; color: ${TH.brand}; }
   </style>
   <header>
+    ${bgImage ? '<div class="bgphoto"></div><div class="bgscrim"></div>' : ''}
     <div class="hero">
       ${c.mark === false ? '' : ONSEN_MARK}
       ${c.mascot ? `<img class="mascot" src="${mascotUrl(c.mascot)}" alt="">` : ''}
