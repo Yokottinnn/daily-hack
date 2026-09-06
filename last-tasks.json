@@ -1,5 +1,3 @@
 [
-      {"task": "t052-mark-morning-posted.sh", "rc": 0, "out": "**キューを posted に直した（二重投稿の防止・$0）** / mark-morning-posted.md"},
-      {"task": "t053-post-ikea-thread.sh", "rc": 0, "out": "**IKEA豊洲の告知を出した。chain の 2 本を確認すること** / post-ikea-thread.md"},
-      {"task": "t056-three-loops-today.sh", "rc": 0, "out": "**3 系統の今日の実数を出した（変更なし・$0）** / three-loops-today.md"}
+      {"task": "t056-supermarket-materials.sh", "rc": 0, "out": "-rw-r--r--    1 ny  staff    23661 Sep  6 17:32 trial-2.jpg -rw-r--r--    1 ny  staff    35668 Sep  6 17:32 trial-3.jpg -rw-r--r--    1 ny  staff    33682 Sep  6 17:32 trial-4.png -rw-r--r--    1 ny  staff   106199 Sep  6 17:32 trial-5.jpg -rw-r--r--    1 ny  staff   121172 Sep  6 17:32 trial-6.png"}
   ]
