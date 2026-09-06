@@ -1,13 +1,15 @@
 {
-  "generated_at": "2026-09-06T12:10:04Z",
+  "generated_at": "2026-09-06T12:41:10Z",
   "host": "NaokinoMacBook-Pro-2.local",
-  "job_count": 12,
+  "job_count": 14,
   "jobs": [
     "ai.openclaw.auto-detect-and-unfollow-inactive",
     "ai.openclaw.badge-followback",
+    "ai.openclaw.comment-warmup",
     "ai.openclaw.competitor-follower-follow",
     "ai.openclaw.hashtag-follow",
     "ai.openclaw.reply-followback-check",
+    "ai.openclaw.reply-followers-cleanup",
     "ai.openclaw.tab-guard",
     "com.dailyhack.openclaw.heartbeat",
     "com.dailyhack.openclaw.listener",
@@ -18,7 +20,7 @@
   ],
   "reconnect": "既に起動している",
   "tasks": [
-      {"task": "t060-weekly-report-with-cf.sh", "rc": 0, "out": "--- 出典: Cloudflare Web Analytics ／ Google Search Console。LLM 不使用のため API クレジットは消費しない（$0/回・$0/日・$0/月）。  --- t060: Python=`Python 3.11.14` / 終了コード=`1`（1 は「取れなかったものがある」）"}
+      {"task": "t063-weekly-report-real.sh", "rc": 0, "out": "--- 出典: Cloudflare Web Analytics ／ Google Search Console。LLM 不使用のため API クレジットは消費しない（$0/回・$0/日・$0/月）。  --- t063: 7日=rc`0` / 30日=rc`0`"}
   ],
   "auth": {
     "ok": true,
@@ -31,7 +33,7 @@
     "detail": "ログを走査した",
     "sources": []
   },
-  "unloaded_count": 62,
+  "unloaded_count": 60,
   "unloaded": [
       {"label": "ai.openclaw.auto-thread-chainifier", "plist_mtime": "2026-08-22T15:39:05Z"},
       {"label": "ai.openclaw.blog-rss-watcher", "plist_mtime": "2026-08-22T11:07:15Z"},
@@ -42,7 +44,6 @@
       {"label": "ai.openclaw.chrome-cdp-heal", "plist_mtime": "2026-07-08T09:06:27Z"},
       {"label": "ai.openclaw.chrome-cdp", "plist_mtime": "2026-08-22T13:07:46Z"},
       {"label": "ai.openclaw.chrome-restart-hook", "plist_mtime": "2026-08-22T11:07:15Z"},
-      {"label": "ai.openclaw.comment-warmup", "plist_mtime": "2026-08-22T17:09:25Z"},
       {"label": "ai.openclaw.cookie-backup", "plist_mtime": "2026-07-04T12:46:06Z"},
       {"label": "ai.openclaw.cost-monitor-health", "plist_mtime": "2026-05-10T06:28:22Z"},
       {"label": "ai.openclaw.cost-monitor", "plist_mtime": "2026-05-10T06:28:22Z"},
@@ -77,7 +78,6 @@
       {"label": "ai.openclaw.qt-daily", "plist_mtime": "2026-08-22T11:07:15Z"},
       {"label": "ai.openclaw.qt-past-daily", "plist_mtime": "2026-06-13T09:21:42Z"},
       {"label": "ai.openclaw.refollow-may18-once", "plist_mtime": "2026-05-18T14:02:55Z"},
-      {"label": "ai.openclaw.reply-followers-cleanup", "plist_mtime": "2026-05-13T07:01:35Z"},
       {"label": "ai.openclaw.revenge-unfollow", "plist_mtime": "2026-08-22T11:07:15Z"},
       {"label": "ai.openclaw.scheduled-entry-watchdog", "plist_mtime": "2026-07-11T09:47:31Z"},
       {"label": "ai.openclaw.seo-health", "plist_mtime": "2026-08-08T00:42:27Z"},
@@ -85,8 +85,8 @@
       {"label": "ai.openclaw.sitemap-autosubmit", "plist_mtime": "2026-08-08T01:09:40Z"},
       {"label": "ai.openclaw.slack-watchdog", "plist_mtime": "2026-05-10T17:06:52Z"},
       {"label": "ai.openclaw.trend-daily", "plist_mtime": "2026-05-18T03:19:43Z"},
-      {"label": "ai.openclaw.unfollow-cleanup-evening", "plist_mtime": "2026-08-22T13:07:47Z"},
-      {"label": "ai.openclaw.unfollow-cleanup-morning", "plist_mtime": "2026-08-22T13:07:47Z"},
+      {"label": "ai.openclaw.unfollow-cleanup-evening", "plist_mtime": "2026-09-06T12:23:27Z"},
+      {"label": "ai.openclaw.unfollow-cleanup-morning", "plist_mtime": "2026-09-06T12:23:27Z"},
       {"label": "ai.openclaw.unfollow-daily", "plist_mtime": "2026-08-22T11:07:15Z"},
       {"label": "ai.openclaw.unfollow-evening", "plist_mtime": "2026-08-22T11:07:15Z"},
       {"label": "ai.openclaw.unfollow-stats-monitor", "plist_mtime": "2026-08-22T13:07:47Z"},
