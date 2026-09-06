@@ -1,1 +1,4 @@
-[]
+[
+      {"task": "x11-force-reply-until-posted.sh", "rc": 0, "out": ""},
+      {"task": "x12-fresh-unfollow-v2.sh", "rc": 0, "out": "**0 件だった。押す前後のボタン文字列をレポートに出した** / fresh-unfollow-v2.md"}
+  ]
