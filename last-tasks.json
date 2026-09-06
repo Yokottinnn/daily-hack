@@ -1,1 +1,5 @@
-[]
+[
+      {"task": "t052-mark-morning-posted.sh", "rc": 0, "out": "**キューを posted に直した（二重投稿の防止・$0）** / mark-morning-posted.md"},
+      {"task": "t053-post-ikea-thread.sh", "rc": 0, "out": "**IKEA豊洲の告知を出した。chain の 2 本を確認すること** / post-ikea-thread.md"},
+      {"task": "t056-three-loops-today.sh", "rc": 0, "out": "**3 系統の今日の実数を出した（変更なし・$0）** / three-loops-today.md"}
+  ]
