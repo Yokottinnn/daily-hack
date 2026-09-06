@@ -1,5 +1,1 @@
-[
-      {"task": "t057-reply-pipeline-truth.sh", "rc": 0, "out": "**返信の配管を実物で読んだ（変更なし・$0）** / reply-pipeline-truth.md"},
-      {"task": "t058-unfollow-executor-truth.sh", "rc": 0, "out": "**アンフォローの実行役を特定した（変更なし・$0）** / unfollow-executor-truth.md"},
-      {"task": "x01-install-reply-parts.sh", "rc": 0, "out": "**返信の部品を Mac に入れた（構文OK・ジョブ未起動・$0）** / install-reply-parts.md"}
-  ]
+[]
