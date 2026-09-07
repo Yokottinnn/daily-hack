@@ -37,6 +37,42 @@
 {"ok":true,"action":"skip","reason":"no candidate","kind":"blog-promo"}
 ```
 
+### Playwright のパッケージ名は **`playwright-core`**（`playwright` ではない）
+
+**2026-09-06〜08 に 4 回 連続で同じエラーを出した。**
+
+```
+Error: Cannot find module 'playwright'
+```
+
+このワークスペースに `playwright` は**存在しない**。
+
+| パス | |
+| --- | --- |
+| `~/.openclaw/workspace/node_modules/playwright` | **無い** |
+| **`~/.openclaw/workspace/node_modules/playwright-core`** | **有る。これを使う** |
+| `/opt/homebrew/lib/node_modules/playwright` | 有るが**グローバルで解決パスに乗らない** |
+
+**稼働中のスクリプトは 3 本とも `playwright-core` を読んでいる。**
+
+```javascript
+post-via-playwright.js:7   const { chromium } = require("playwright-core");
+unfollow-handle.js:5       const { chromium } = require("playwright-core");
+post-comment.js:9          const { chromium } = require("playwright-core");
+```
+
+**4 回とも診断を外した。** 「cwd が違う」「`command -v node` が v26 を拾う」と
+2 回 別の説明を書いたが、どちらも間違い。`/usr/local/bin/node`（v24）でも
+`/opt/homebrew/bin/node`（v26）でも、**無いパッケージは同じように落ちる。**
+
+> **ブラウザを触るスクリプトを書く前に、動いているスクリプトの `require` 行を読む。**
+> 1 行 見れば済んだことに、4 回 失敗した。
+
+```bash
+# 書く前にこれを打つ
+grep -m1 -n 'require("playwright' ~/.openclaw/workspace/scripts/post-via-playwright.js
+```
+
 ## 2. 確定している契約
 
 | 項目 | 値 | 根拠 |
