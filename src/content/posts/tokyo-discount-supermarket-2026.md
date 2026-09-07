@@ -1,6 +1,6 @@
 ---
 title: "都心の格安スーパー 2026｜主要7社を徹底分析して見えた勢力図"
-description: "都心で安いスーパー7社を決算資料で分解した。オーケーは経費率17.4%、まいばすけっとは東京都に879店。1店舗あたり年商はオーケー43億に対しまいばすけっと2.4億で18倍の開き。西友を買ったトライアルが都心に入ってきた2026年の勢力図まで。"
+description: "都心で安いスーパー7社を決算資料で分解した。オーケーは経費率17.4%、まいばすけっとは東京都に879店。1店舗あたり年商はオーケー43億に対しまいばすけっと2.4億で18倍の開き。西友を買収したトライアルが都心に入ってきた2026年の勢力図まで。"
 publishDate: 2026-09-06
 category: ["comparisons", "roundups"]
 tags: ["格安スーパー", "オーケー", "ロピア", "トライアル", "業務スーパー", "まいばすけっと", "肉のハナマサ", "ドン・キホーテ", "西友", "節約", "2026年版"]
@@ -36,7 +36,7 @@ references:
 <div class="event-picks">
   <a class="event-pick" href="#trial-seiyu" style="--pick-img:url('/images/tokyo-discount-supermarket-2026/photos/trial-seiyu-hanakoganei.jpg')">
     <span class="pick-date">2026年の最大の変化</span>
-    <h4>トライアルが西友を買った</h4>
+    <h4>トライアルが西友を買収</h4>
     <p>2025年7月に買収完了。グループ<strong>621店・売上1兆3,471億円</strong>。郊外の激安が、西友という都心の器を手に入れた。</p>
     <span class="pick-go">詳しく見る →</span>
   </a>
@@ -81,12 +81,14 @@ references:
 
 <div class="section-with-mascot">
   <div class="mascot-wrap"><img src="/images/expr-07-gasp.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="trial-seiyu">2026年、都心の地図が変わった｜トライアルが西友を買った</h2>
+  <h2 id="trial-seiyu">2026年、都心の地図が変わった｜トライアルが西友を買収</h2>
 </div>
 
 **都心の格安スーパーの話は、この1件を抜きにできない。**
 
-九州発のディスカウントストア「トライアル」が、**2025年7月1日に西友の全株式を取得して完全子会社化した。**
+九州発のディスカウントストア「トライアル」が、**2025年7月1日に西友の全株式を取得して完全子会社化した。** 買収額は**3,826億円**。株式は KKR 傘下のファンドから85%、ウォルマート傘下から15%を買い取っている。
+
+<p class="source-note">出典：<a href="https://trial-holdings.inc/news/release/67c7e56725df23ba67b568c5/" target="_blank" rel="noopener">トライアルホールディングス「株式会社西友の株式の取得（完全子会社化）に関するお知らせ」</a>／<a href="https://trial-holdings.inc/news/release/686382439f0b7297ddd48fb7/" target="_blank" rel="noopener">同「トライアルホールディングスと西友の経営統合が完了」</a>／<a href="https://www.ryutsuu.biz/strategy/r030512.html" target="_blank" rel="noopener">流通ニュース「トライアルHD／西友買収で売上高1兆2000億円、585店舗体制へ」</a></p>
 
 <figure class="rn-figure">
   <img src="/images/tokyo-discount-supermarket-2026/photos/trial-seiyu-hanakoganei.jpg" alt="西友の建物にTRIAL SEIYUの看板が乗った花小金井の店舗" loading="lazy" />
@@ -97,21 +99,34 @@ references:
 
 <div class="cmp-table-wrap">
 <table class="cmp-table">
-<thead><tr><th></th><th><a href="https://www.trial-net.co.jp/" target="_blank" rel="noopener">トライアル</a></th><th><a href="https://www.seiyu.co.jp/" target="_blank" rel="noopener">西友</a></th></tr></thead>
+<thead><tr><th>買収前</th><th><a href="https://www.trial-net.co.jp/" target="_blank" rel="noopener">トライアルHD</a></th><th><a href="https://www.seiyu.co.jp/" target="_blank" rel="noopener">西友</a></th></tr></thead>
 <tbody>
 <tr><td>地盤</td><td>九州・郊外</td><td><strong>首都圏・駅前</strong></td></tr>
 <tr><td>強み</td><td>AI・スマートカート・24時間</td><td>店舗の立地</td></tr>
-<tr><td>買収後の店舗数</td><td colspan="2"><strong>グループ621店（うち西友243店）</strong></td></tr>
-<tr class="recommended"><td>買収後の売上</td><td colspan="2"><strong>1兆3,471億円</strong>（2025年11月期）</td></tr>
+<tr><td><strong>店舗数</strong></td><td><strong>343店</strong>（2024年6月期）</td><td><strong>242店</strong>（2024年12月期）</td></tr>
+<tr><td><strong>売上</strong></td><td><strong>7,179億円</strong>（2024年6月期）</td><td><strong>4,835億円</strong>（2024年12月期）</td></tr>
 </tbody>
 </table>
 </div>
 
+**単純に足すと、買収の時点で585店・売上1兆2,014億円・営業利益426億円。** そこから1年で、こうなった。
+
+<div class="cmp-table-wrap">
+<table class="cmp-table">
+<thead><tr><th>買収後</th><th>グループ合計</th></tr></thead>
+<tbody>
+<tr><td>店舗数</td><td><strong>621店</strong>（うち西友243店）</td></tr>
+<tr class="recommended"><td>売上</td><td><strong>1兆3,471億円</strong>（2025年11月期）</td></tr>
+<tr><td>次期の見込み</td><td>売上1兆4,582億円（+8.2%）・営業利益390億円（+28.4%）</td></tr>
+</tbody>
+</table>
+</div>
+
+**店舗数は585 → 621で36店 増え、売上は1兆2,014億 → 1兆3,471億で1,457億円 増えた。** 買収の翌年に、足し算より上に出ている。
+
 **郊外で磨いた「安く売る仕組み」が、西友の駅前の箱に入ってくる。** これが2026年に起きていること。
 
 すでに新フォーマット「トライアル西友」が**2025年11月・2026年2月・2026年4月に3店**オープンしている。トライアル流の棚割りと共同キャンペーンが効いて、**既存店売上は10か月連続でプラス、客数も10%超まで回復した。**
-
-次期は売上1兆4,582億円（+8.2%）・営業利益390億円（+28.4%）を見込んでいる。
 
 <div class="yt-embed"><iframe src="https://www.youtube-nocookie.com/embed/42sjI0HAm7g"
   title="スーパーのレジ待ち時間がほぼなし？　トライアルのスキップカートが好評" loading="lazy" allowfullscreen
@@ -121,7 +136,7 @@ references:
 
 <div class="section-with-mascot">
   <div class="mascot-wrap"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="tv">同じものがいくらか｜テレビが116台のカメラで測った価格</h2>
+  <h2 id="tv">いくらで買えるのか｜テレビが116台のカメラで測った価格</h2>
 </div>
 
 **2026年2月22日、TBS「坂上＆指原のつぶれない店」が、都内のスーパー激戦区に番組史上最多の116台のカメラを入れた。** 対象は ロピア・オーケー・トライアル西友 の3社。
@@ -142,6 +157,32 @@ references:
 </tbody>
 </table>
 </div>
+
+<div class="hakkako-says">
+  <div class="hakkako-mascot"><img src="/images/expr-07-gasp.png" alt="Daily Hackマスコット" /></div>
+  <div class="hakkako-quote">言っとくけど、この3つは<strong>別々の商品</strong>よ。「くるみパンとカツ丼、どっちが安い？」なんて比べようがない。<strong>じゃあ同じ商品で並べればいいじゃない</strong>——それができない理由が、この7社の性格そのものなの。</div>
+</div>
+
+### なぜ「同じ商品を横並び」が作れないのか
+
+**7社のうち、値段を公表しているのは一部だけ。** しかも公表しない理由が、そのまま各社の安さの型になっている。
+
+<div class="cmp-table-wrap">
+<table class="cmp-table prose-table">
+<thead><tr><th>店</th><th>値段の公表</th><th>なぜそうなるか</th></tr></thead>
+<tbody>
+<tr><td><a href="https://ok-corporation.jp/" target="_blank" rel="noopener">オーケー</a></td><td><strong>チラシを出さない</strong></td><td><strong>EDLP だから。</strong>毎日同じ安い価格にすると、特売のための販促費・値札の貼り替え・人の張り付きが要らなくなる。この経費削減ぶんが価格に回っている</td></tr>
+<tr><td><a href="https://lopia.jp/" target="_blank" rel="noopener">ロピア</a></td><td>店舗ごと・その日ごと</td><td>精肉の仕入れがその日の相場で動く。<strong>全店共通の定価という考え方をとっていない</strong></td></tr>
+<tr><td><a href="https://hanamasa.co.jp/" target="_blank" rel="noopener">肉のハナマサ</a></td><td><strong>公表している</strong></td><td>飲食店のプロが仕入れに使う。<strong>事前に値段が分からないと発注できない</strong></td></tr>
+<tr><td><a href="https://www.seiyu.co.jp/flyer/chirashi/" target="_blank" rel="noopener">西友</a></td><td><strong>公表している</strong></td><td>駅前の一般客向け。チラシで来店を作る従来型のスーパー</td></tr>
+<tr><td><a href="https://www.gyomusuper.jp/" target="_blank" rel="noopener">業務スーパー</a></td><td>公表している</td><td>ただし<strong>自社製造品が中心で、他店に同じ商品が無い</strong>。並べる相手がいない</td></tr>
+</tbody>
+</table>
+</div>
+
+**「同じ棚に他店と同じ商品が並んでいない」——これがこの7社の実態。** だから番組も、同じ商品ではなく各社の看板商品を測るしかなかった。
+
+**そのうえで、この記事にはひとつだけ「同じ土俵の数字」がある。100gあたりの単価。** 下のハナマサの値札が実物で、**港区・南麻布で100gあたり89円**。看板商品どうしの比較と違って、これは他店の精肉と直接ぶつけられる数字になる。
 
 番組で「衝撃」と言われたロピアの巻き寿司は、実物がこれ。
 
@@ -188,45 +229,48 @@ references:
 
 ### 売上で並べると
 
+**まず並べてよい4社だけを出す。** 食品スーパーとして売上を比べられるのは、この4社。
+
 <div class="num-grid">
   <div class="num-row is-top">
-    <span class="num-label">ドン・キホーテ（PPIH）</span>
+    <span class="num-label">トライアルG（西友含む）</span>
     <div class="num-track"><div class="num-fill" style="--w:100%"></div></div>
-    <span class="num-value">2.25兆円</span>
-  </div>
-  <div class="num-row">
-    <span class="num-label">トライアルG</span>
-    <div class="num-track"><div class="num-fill" style="--w:60%"></div></div>
     <span class="num-value">1.35兆円</span>
   </div>
   <div class="num-row">
     <span class="num-label">オーケー</span>
-    <div class="num-track"><div class="num-fill" style="--w:34%"></div></div>
+    <div class="num-track"><div class="num-fill" style="--w:56%"></div></div>
     <span class="num-value">7,548億</span>
   </div>
   <div class="num-row">
     <span class="num-label">ロピア</span>
-    <div class="num-track"><div class="num-fill" style="--w:29%"></div></div>
+    <div class="num-track"><div class="num-fill" style="--w:49%"></div></div>
     <span class="num-value">6,555億</span>
   </div>
   <div class="num-row">
-    <span class="num-label">業務スーパー</span>
-    <div class="num-track"><div class="num-fill" style="--w:25%"></div></div>
-    <span class="num-value">5,517億</span>
-  </div>
-  <div class="num-row">
     <span class="num-label">まいばすけっと</span>
-    <div class="num-track"><div class="num-fill" style="--w:13%"></div></div>
+    <div class="num-track"><div class="num-fill" style="--w:22%"></div></div>
     <span class="num-value">約3,000億</span>
-  </div>
-  <div class="num-row">
-    <span class="num-label">JMHD スーパー事業</span>
-    <div class="num-track"><div class="num-fill" style="--w:8%"></div></div>
-    <span class="num-value">1,815億</span>
   </div>
 </div>
 
-<p class="num-note">売上の大きさは「安さ」とは関係がない。ドン・キホーテが1位なのは、そもそも扱っている商品の幅が違うから。</p>
+<p class="num-note">JMHD（肉のハナマサほか）の1,815億円は<strong>スーパー事業だけの数字</strong>なので、上の4社と同じ土俵に置ける。参考までに、まいばすけっとの約6割にあたる。</p>
+
+### 並べてはいけない2社
+
+**ドン・キホーテと業務スーパーは、同じ棒に並べるとミスリードになる。** 数字の意味が違う。
+
+<div class="cmp-table-wrap">
+<table class="cmp-table prose-table">
+<thead><tr><th>会社</th><th>売上</th><th>なぜ並べられないか</th></tr></thead>
+<tbody>
+<tr><td><a href="https://www.donki.com/" target="_blank" rel="noopener">ドン・キホーテ</a>（PPIH）</td><td>2兆2,467億円</td><td><strong>総合ディスカウントストアの数字。</strong>家電・日用品・化粧品・免税まで含み、しかもユニーなど<strong>グループ全体</strong>。食品スーパーとしての売上ではない</td></tr>
+<tr><td><a href="https://www.gyomusuper.jp/" target="_blank" rel="noopener">業務スーパー</a>（神戸物産）</td><td>5,517億円</td><td><strong>フランチャイズ店に卸した額。</strong>店頭で売れた額ではない。1,122店のほとんどがFC店で、直営は4店だけ</td></tr>
+</tbody>
+</table>
+</div>
+
+**「売上2.2兆円だからドンキがいちばん安い」は成り立たない。** 規模の話と安さの話は別で、この記事が見ているのは後者。
 
 ### 店舗数で並べると、順番が入れ替わる
 
@@ -268,7 +312,7 @@ references:
   </div>
 </div>
 
-<p class="num-note"><strong>売上1位のドン・キホーテが、店舗数では3位。売上6位のまいばすけっとが、店舗数では1位。</strong>この入れ替わりが、都心での戦い方の違いをそのまま表している。</p>
+<p class="num-note"><strong>店舗数はまいばすけっとと業務スーパーが1,000店超で、オーケー・ロピアは200店に届かない。</strong>売上の順番とまったく違う。この入れ替わりが、都心での戦い方の違いをそのまま表している。<br>※ドン・キホーテと業務スーパーは業態が違うため、店舗数は<strong>規模の参考</strong>として置いている。</p>
 
 ### 東京都に何店あるか
 
@@ -316,7 +360,7 @@ references:
 
 <p class="map-caption">業務スーパー（卸売）とドン・キホーテ（総合ディスカウント）は、1店あたり年商の意味が変わるため置いていない。</p>
 
-**左上と右下に、きれいに分かれる。** 同じ「格安スーパー」でも、ロピアとオーケーは大箱で客単価を取りに行き、まいばすけっとは小箱を都心に敷き詰めて回数で取りに行く。トライアルは西友を買ったことで、その真ん中に立った。
+**左上と右下に、きれいに分かれる。** 同じ「格安スーパー」でも、ロピアとオーケーは大箱で客単価を取りに行き、まいばすけっとは小箱を都心に敷き詰めて回数で取りに行く。トライアルは西友を買収したことで、その真ん中に立った。
 
 <div class="section-with-mascot">
   <div class="mascot-wrap"><img src="/images/expr-04-cheer.png" alt="Daily Hackマスコット" /></div>
@@ -520,7 +564,7 @@ references:
 7社の性格を、買うものから引けるようにした。
 
 <div class="cmp-table-wrap">
-<table class="cmp-table">
+<table class="cmp-table prose-table">
 <thead><tr><th>買うもの・場面</th><th>向いている店</th><th>理由</th></tr></thead>
 <tbody>
 <tr class="recommended"><td><strong>肉をまとめて</strong></td><td><a href="https://lopia.jp/" target="_blank" rel="noopener">ロピア</a> / <a href="https://hanamasa.co.jp/shop/tokyo/" target="_blank" rel="noopener">肉のハナマサ</a></td><td>片方は精肉店が源流、片方は業務用の大容量。100gあたりで効いてくる</td></tr>

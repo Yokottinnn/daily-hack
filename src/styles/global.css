@@ -435,6 +435,10 @@ footer.foot .pr { margin-top: 6px; }
 /* 1 施設の仕様（最寄・料金・男女）を並べる 2 列表。見出し行を持たない */
 .cmp-table.spec-table th { background: #fafafb; color: #4a4f57; font-weight: 700; font-size: 13px; width: 92px; border-right: 1px solid #eef0f3; }
 .cmp-table.spec-table td { white-space: normal; }
+/* 説明文が入る列がある表は折り返す。nowrap のままだと横スクロール送りになって読めない
+   （2026-09-08 のレビュー確認で、3 列目が右端で切れているのを描画して見つけた）。 */
+.cmp-table.prose-table td { white-space: normal; min-width: 180px; }
+.cmp-table.prose-table td:first-child { min-width: 120px; }
 /* 説明文が長い表。1 列に文章が入るものは折り返す */
 .cmp-table.wrap-table td { white-space: normal; }
 .cmp-table.wrap-table td:last-child { min-width: 18em; }
