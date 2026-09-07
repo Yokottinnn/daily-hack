@@ -50,10 +50,13 @@ const enabled = client.startsWith('ca-pub-');
 
 <style>
   .ad-container {
+    /* **min-height を置かない。** 未配信のとき、ラベルと空欄だけが本文に残る
+       （2026-09-06 のレビューで「動画の下に不自然な空白」と指摘された）。 */
     margin: 2.5rem 0;
     text-align: center;
-    min-height: 50px;
   }
+  /* AdSense が「配信なし」と判断した枠は畳む */
+  .ad-container:has(ins.adsbygoogle[data-ad-status="unfilled"]) { display: none; }
   .ad-label {
     font-size: 11px;
     color: var(--ink-3);

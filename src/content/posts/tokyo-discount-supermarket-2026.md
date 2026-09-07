@@ -1,5 +1,5 @@
 ---
-title: "都心の格安スーパー 2026｜7社を決算から分解した（なぜ安いか・店舗数・勢力図）"
+title: "都心の格安スーパー 2026｜主要7社を徹底分析して見えた勢力図"
 description: "都心で安いスーパー7社を決算資料で分解した。オーケーは経費率17.4%、まいばすけっとは東京都に879店。1店舗あたり年商はオーケー43億に対しまいばすけっと2.4億で18倍の開き。西友を買ったトライアルが都心に入ってきた2026年の勢力図まで。"
 publishDate: 2026-09-06
 category: ["comparisons", "roundups"]
@@ -7,7 +7,7 @@ tags: ["格安スーパー", "オーケー", "ロピア", "トライアル", "�
 isPR: false
 draft: false
 eyecatchUrl: "/images/tokyo-discount-supermarket-2026/eyecatch.jpg"
-eyecatchAlt: "都心の格安スーパー 2026｜7社を決算から分解した（なぜ安いか・店舗数・勢力図）"
+eyecatchAlt: "都心の格安スーパー 2026｜主要7社を徹底分析して見えた勢力図"
 author: "hacker-ko"
 references:
   - "https://ok-corporation.jp/company/performance/"
@@ -17,6 +17,9 @@ references:
   - "https://www.kobebussan.co.jp/business/retail.php"
   - "https://hanamasa.co.jp/shop/tokyo/"
   - "https://diamond-rm.net/management/businessplan/518841/"
+  - "http://www.kobebussan.co.jp/upload/ir/IRNews/943/943_20251212.pdf"
+  - "https://jm-holdings.co.jp/profile/profile.html"
+  - "https://ppih.co.jp/"
 ---
 
 「都心って何を買っても高いんでしょ？」「安いスーパーって結局どこなの？」——検索すると出てくるのは、行った感想か、チラシの貼り付けばかり。**なぜ安いのかを説明している記事がない。**
@@ -28,7 +31,7 @@ references:
   <div class="hakkako-quote">先に一番の驚きを言っとく。<strong>1店舗あたりの年商は、オーケーが43.4億円で、まいばすけっとが2.4億円。18倍の開きがある。</strong>どっちも「安いスーパー」なのに、稼ぎ方が正反対なの。</div>
 </div>
 
-## 30秒で分かる、都心の格安スーパー7社
+## 30秒で分かる、都心の格安スーパーの世界
 
 <div class="event-picks">
   <a class="event-pick" href="#trial-seiyu" style="--pick-img:url('/images/tokyo-discount-supermarket-2026/photos/trial-seiyu-hanakoganei.jpg')">
@@ -49,13 +52,7 @@ references:
     <p>全国1,262店のうち<strong>約7割が東京都</strong>。コンビニより安く、スーパーより近い。</p>
     <span class="pick-go">詳しく見る →</span>
   </a>
-  <a class="event-pick" href="#hanamasa" style="--pick-img:url('/images/tokyo-discount-supermarket-2026/photos/hanamasa-prices.jpg')">
-    <span class="pick-date">実物の値札</span>
-    <h4>ハナマサ 100gあたり89円</h4>
-    <p>港区・南麻布の店の値札。<strong>若鶏ササミ965gが税込927円</strong>。都心のど真ん中でこの値段。</p>
-    <span class="pick-go">詳しく見る →</span>
-  </a>
-  <a class="event-pick" href="#lopia" style="--pick-img:url('/images/tokyo-discount-supermarket-2026/photos/lopia-sushi.jpg')">
+  <a class="event-pick" href="#lopia" style="--pick-img:url('/images/tokyo-discount-supermarket-2026/photos/lopia-store.jpg')">
     <span class="pick-date">伸び方</span>
     <h4>ロピア 売上+26%</h4>
     <p>精肉店が源流。<strong>2026年2月期は6,555億円の見込み</strong>で、22都道府県と台湾に145店。</p>
@@ -63,7 +60,7 @@ references:
   </a>
   <a class="event-pick" href="#gyomu" style="--pick-img:url('/images/tokyo-discount-supermarket-2026/photos/gyomu-fukaebashi.jpg')">
     <span class="pick-date">作って売る</span>
-    <h4>業務スーパー 全国1,062店</h4>
+    <h4>業務スーパー 全国1,122店</h4>
     <p>自社グループの工場で作り、輸入も自前。<strong>仕入れではなく製造で安くしている</strong>唯一の会社。</p>
     <span class="pick-go">詳しく見る →</span>
   </a>
@@ -79,14 +76,8 @@ references:
     <p>2026年2月、TBSが3社に定点カメラを入れた。<strong>くるみパン259円・カツ丼299円</strong>。</p>
     <span class="pick-go">詳しく見る →</span>
   </a>
-  <a class="event-pick" href="#per-store" style="--pick-img:url('/images/tokyo-discount-supermarket-2026/photos/maibasket-shirokane.jpg')">
-    <span class="pick-date">この記事だけの数字</span>
-    <h4>1店あたり年商 18倍差</h4>
-    <p>オーケー43.4億 対 まいばすけっと2.4億。<strong>安さの作り方が正反対</strong>だと分かる。</p>
-    <span class="pick-go">詳しく見る →</span>
-  </a>
 </div>
-<span class="event-picks-credit">カード画像は Wikimedia Commons（CC BY-SA / CC0・各撮影者）より引用。</span>
+<span class="event-picks-credit">カード画像は Wikimedia Commons（CC BY-SA / CC0・各撮影者）ほかより引用。出典は各セクションに記載。</span>
 
 <div class="section-with-mascot">
   <div class="mascot-wrap"><img src="/images/expr-07-gasp.png" alt="Daily Hackマスコット" /></div>
@@ -128,24 +119,6 @@ references:
 
 トライアルの武器は**スキップカート**。カートに付いたスキャナで商品を読みながら買い、レジを通らずに出られる。人件費とレジ待ちを同時に削る仕組みで、これが西友の店舗に入っていく。
 
-<aside class="related-block">
-  <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-04-cheer.png" alt="" /></span>
-    <p class="related-block-title">あわせて読みたい</p>
-  </div>
-  <ul class="related-block-list">
-    <li>
-      <a href="/posts/wangan-supermarkets-2026/">
-        <span class="related-block-thumb"><img src="/images/tokyo-discount-supermarket-2026/photos/maibasket-iogi.jpg" alt="" loading="lazy" /></span>
-        <span class="related-block-body">
-          <span class="related-block-cat">比較</span>
-          <span class="related-block-name">湾岸エリア スーパー徹底比較｜豊洲・有明・晴海で安いのはどこか</span>
-        </span>
-      </a>
-    </li>
-  </ul>
-</aside>
-
 <div class="section-with-mascot">
   <div class="mascot-wrap"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
   <h2 id="tv">同じものがいくらか｜テレビが116台のカメラで測った価格</h2>
@@ -170,6 +143,13 @@ references:
 </table>
 </div>
 
+番組で「衝撃」と言われたロピアの巻き寿司は、実物がこれ。
+
+<figure class="rn-figure">
+  <img src="/images/tokyo-discount-supermarket-2026/photos/lopia-sushi.jpg" alt="ロピアの巻き寿司のパック" loading="lazy" />
+  <figcaption>ロピアの寿司。番組では「はみ出し巻き寿司」として取り上げられた。<cite>出典: <a href="https://commons.wikimedia.org/wiki/File:Lopia--sushi--2024-06-08%2001.jpg" target="_blank" rel="noopener">Wikimedia Commons（RuinDig/Yuki Uchida・CC BY 4.0）</a></cite></figcaption>
+</figure>
+
 さらに、**港区・南麻布の肉のハナマサで撮られた値札**がこれ。
 
 <figure class="rn-figure">
@@ -181,6 +161,162 @@ references:
   <li><div class="checklist-body"><strong>価格は店舗と時期で変わる</strong><p>同じチェーンでも店によって違い、改定もある。上の数字は「その時その店でいくらだったか」であって、いま行けばこの値段という保証ではない。</p></div></li>
   <li><div class="checklist-body"><strong>各社は統一の価格表を出していない</strong><p>とくにオーケーはEDLP（毎日同じ安い価格）を掲げていて、そもそもチラシを出さない。だから「全社の同じ商品を横並び」にした表は、公開情報からは作れない。</p></div></li>
 </ul>
+
+<div class="section-with-mascot">
+  <div class="mascot-wrap"><img src="/images/expr-07-gasp.png" alt="Daily Hackマスコット" /></div>
+  <h2 id="numbers">数字で見る都心の7大スーパー</h2>
+</div>
+
+**7社を同じ表に並べる。** 決算期がバラバラなので、そこも一緒に出す。
+
+<div class="cmp-table-wrap">
+<table class="cmp-table">
+<thead><tr><th>会社（ブランド）</th><th>決算期</th><th>売上</th><th>店舗数</th><th>1店あたり年商</th></tr></thead>
+<tbody>
+<tr class="recommended"><td><a href="https://lopia.jp/" target="_blank" rel="noopener">ロピア</a></td><td>2026年2月期（見込）</td><td>6,555億円</td><td>145</td><td><strong>約45.2億円</strong></td></tr>
+<tr><td><a href="https://ok-corporation.jp/" target="_blank" rel="noopener">オーケー</a></td><td>2026年3月期</td><td>7,548億円</td><td>174</td><td><strong>約43.4億円</strong></td></tr>
+<tr><td><a href="https://www.trial-net.co.jp/" target="_blank" rel="noopener">トライアルG</a>（<a href="https://www.seiyu.co.jp/" target="_blank" rel="noopener">西友</a>を含む）</td><td>2025年11月期</td><td>1兆3,471億円</td><td>621</td><td>約21.7億円</td></tr>
+<tr><td><a href="https://hanamasa.co.jp/shop/tokyo/" target="_blank" rel="noopener">肉のハナマサ</a>ほか（JMHD スーパー事業）</td><td>2025年7月期</td><td>1,815億円</td><td>114</td><td>約15.9億円</td></tr>
+<tr><td><a href="https://www.mybasket.co.jp/" target="_blank" rel="noopener">まいばすけっと</a></td><td>直近</td><td>約3,000億円</td><td>1,262</td><td><strong>約2.4億円</strong></td></tr>
+<tr><td><a href="https://www.gyomusuper.jp/" target="_blank" rel="noopener">業務スーパー</a>（神戸物産）</td><td>2025年10月期</td><td>5,517億円</td><td>1,122</td><td>—</td></tr>
+<tr><td><a href="https://www.donki.com/" target="_blank" rel="noopener">ドン・キホーテ</a>（PPIH）</td><td>2025年6月期</td><td>2兆2,467億円</td><td>787（国内664）</td><td>—</td></tr>
+</tbody>
+</table>
+</div>
+
+**下の2社に「1店あたり年商」を入れていないのは、計算しても意味が出ないから。** 神戸物産の売上は<strong>フランチャイズ店に卸した額</strong>であって、店頭で売れた額ではない。PPIH は総合ディスカウントストアで、食品以外が売上の大きな部分を占める。**同じ割り算をすると、比べてはいけないものを比べたことになる。**
+
+### 売上で並べると
+
+<div class="num-grid">
+  <div class="num-row is-top">
+    <span class="num-label">ドン・キホーテ（PPIH）</span>
+    <div class="num-track"><div class="num-fill" style="--w:100%"></div></div>
+    <span class="num-value">2.25兆円</span>
+  </div>
+  <div class="num-row">
+    <span class="num-label">トライアルG</span>
+    <div class="num-track"><div class="num-fill" style="--w:60%"></div></div>
+    <span class="num-value">1.35兆円</span>
+  </div>
+  <div class="num-row">
+    <span class="num-label">オーケー</span>
+    <div class="num-track"><div class="num-fill" style="--w:34%"></div></div>
+    <span class="num-value">7,548億</span>
+  </div>
+  <div class="num-row">
+    <span class="num-label">ロピア</span>
+    <div class="num-track"><div class="num-fill" style="--w:29%"></div></div>
+    <span class="num-value">6,555億</span>
+  </div>
+  <div class="num-row">
+    <span class="num-label">業務スーパー</span>
+    <div class="num-track"><div class="num-fill" style="--w:25%"></div></div>
+    <span class="num-value">5,517億</span>
+  </div>
+  <div class="num-row">
+    <span class="num-label">まいばすけっと</span>
+    <div class="num-track"><div class="num-fill" style="--w:13%"></div></div>
+    <span class="num-value">約3,000億</span>
+  </div>
+  <div class="num-row">
+    <span class="num-label">JMHD スーパー事業</span>
+    <div class="num-track"><div class="num-fill" style="--w:8%"></div></div>
+    <span class="num-value">1,815億</span>
+  </div>
+</div>
+
+<p class="num-note">売上の大きさは「安さ」とは関係がない。ドン・キホーテが1位なのは、そもそも扱っている商品の幅が違うから。</p>
+
+### 店舗数で並べると、順番が入れ替わる
+
+<div class="num-grid">
+  <div class="num-row is-top">
+    <span class="num-label">まいばすけっと</span>
+    <div class="num-track"><div class="num-fill" style="--w:100%"></div></div>
+    <span class="num-value">1,262店</span>
+  </div>
+  <div class="num-row">
+    <span class="num-label">業務スーパー</span>
+    <div class="num-track"><div class="num-fill" style="--w:89%"></div></div>
+    <span class="num-value">1,122店</span>
+  </div>
+  <div class="num-row">
+    <span class="num-label">ドン・キホーテ（国内）</span>
+    <div class="num-track"><div class="num-fill" style="--w:53%"></div></div>
+    <span class="num-value">664店</span>
+  </div>
+  <div class="num-row">
+    <span class="num-label">トライアルG</span>
+    <div class="num-track"><div class="num-fill" style="--w:49%"></div></div>
+    <span class="num-value">621店</span>
+  </div>
+  <div class="num-row">
+    <span class="num-label">オーケー</span>
+    <div class="num-track"><div class="num-fill" style="--w:14%"></div></div>
+    <span class="num-value">174店</span>
+  </div>
+  <div class="num-row">
+    <span class="num-label">ロピア</span>
+    <div class="num-track"><div class="num-fill" style="--w:11%"></div></div>
+    <span class="num-value">145店</span>
+  </div>
+  <div class="num-row">
+    <span class="num-label">JMHD スーパー事業</span>
+    <div class="num-track"><div class="num-fill" style="--w:9%"></div></div>
+    <span class="num-value">114店</span>
+  </div>
+</div>
+
+<p class="num-note"><strong>売上1位のドン・キホーテが、店舗数では3位。売上6位のまいばすけっとが、店舗数では1位。</strong>この入れ替わりが、都心での戦い方の違いをそのまま表している。</p>
+
+### 東京都に何店あるか
+
+**「都心で買える」という話をするなら、ここがいちばん効く。**
+
+<div class="cmp-table-wrap">
+<table class="cmp-table">
+<thead><tr><th>チェーン</th><th>全国</th><th>東京都</th><th>東京比率</th></tr></thead>
+<tbody>
+<tr class="recommended"><td><a href="https://www.mybasket.co.jp/" target="_blank" rel="noopener">まいばすけっと</a></td><td>1,262</td><td><strong>879</strong></td><td><strong>約70%</strong></td></tr>
+<tr><td><a href="https://hanamasa.co.jp/shop/tokyo/" target="_blank" rel="noopener">肉のハナマサ</a></td><td>65</td><td><strong>46</strong></td><td><strong>約71%</strong></td></tr>
+</tbody>
+</table>
+</div>
+
+**この2社だけが「東京7割」を公表している。** そして理由が正反対で、まいばすけっとは住宅地の密度、ハナマサは飲食店の業務用需要で成立している。
+
+### 勢力図｜大箱と小箱
+
+**横が店舗数、縦が1店あたり年商。** 右下へ行くほど「小さい店を数で敷く」型、左上へ行くほど「大きい店で稼ぐ」型になる。
+
+<div class="map-wrap">
+<div class="pos-map">
+  <div class="pos-axis-y">
+    <span style="top:0">50億</span>
+    <span style="top:50%">25億</span>
+    <span style="top:100%">0</span>
+  </div>
+  <span class="pos-zone" style="left:10px; top:72px;">↑ 大箱で稼ぐ</span>
+  <span class="pos-zone" style="right:8px; top:150px;">小箱を数で敷く →</span>
+  <div class="pos-dot is-key" style="left:10.4%; bottom:90.4%"><i></i><b>ロピア 45.2億</b></div>
+  <div class="pos-dot is-key lbl-right" style="left:12.4%; bottom:86.8%"><i></i><b>オーケー 43.4億</b></div>
+  <div class="pos-dot" style="left:44.4%; bottom:43.4%"><i></i><b>トライアルG 21.7億</b></div>
+  <div class="pos-dot lbl-below" style="left:8.1%; bottom:31.8%"><i></i><b>ハナマサほか 15.9億</b></div>
+  <div class="pos-dot is-key lbl-left" style="left:90.1%; bottom:4.8%"><i></i><b>まいばすけっと 2.4億</b></div>
+</div>
+<div class="pos-axis-x">
+  <span style="left:0">0店</span>
+  <span style="left:25%">350店</span>
+  <span style="left:50%">700店</span>
+  <span style="left:75%">1,050店</span>
+  <span style="left:100%">1,400店</span>
+</div>
+</div>
+
+<p class="map-caption">業務スーパー（卸売）とドン・キホーテ（総合ディスカウント）は、1店あたり年商の意味が変わるため置いていない。</p>
+
+**左上と右下に、きれいに分かれる。** 同じ「格安スーパー」でも、ロピアとオーケーは大箱で客単価を取りに行き、まいばすけっとは小箱を都心に敷き詰めて回数で取りに行く。トライアルは西友を買ったことで、その真ん中に立った。
 
 <div class="section-with-mascot">
   <div class="mascot-wrap"><img src="/images/expr-04-cheer.png" alt="Daily Hackマスコット" /></div>
@@ -222,8 +358,8 @@ references:
 </div>
 
 <figure class="rn-figure">
-  <img src="/images/tokyo-discount-supermarket-2026/photos/lopia-sushi.jpg" alt="ロピアの寿司パック" loading="lazy" />
-  <figcaption>ロピアの寿司。番組では「はみ出し巻き寿司」が話題になった。<cite>出典: <a href="https://commons.wikimedia.org/wiki/File:Lopia--sushi--2024-06-08%2001.jpg" target="_blank" rel="noopener">Wikimedia Commons（RuinDig/Yuki Uchida・CC BY 4.0）</a></cite></figcaption>
+  <img src="/images/tokyo-discount-supermarket-2026/photos/lopia-store.jpg" alt="ロピアの店舗看板。食生活ロピア" loading="lazy" />
+  <figcaption>看板は「食生活 ロピア」。赤い箱に白抜きのロゴが乗る。<cite>出典: <a href="https://39mag.thankyu.co.jp/" target="_blank" rel="noopener">サンキュ！マガジン</a></cite></figcaption>
 </figure>
 
 <table class="cmp-table spec-table">
@@ -265,7 +401,8 @@ references:
 
 <table class="cmp-table spec-table">
 <tbody>
-<tr><th>店舗数</th><td><strong>全国1,062店</strong></td></tr>
+<tr><th>店舗数</th><td><strong>全国1,122店</strong>（2025年10月末）</td></tr>
+<tr><th>売上（2025年10月期）</th><td><strong>5,517億円</strong>（前期比 +8.6%）／営業利益 398億円（+15.9%）</td></tr>
 <tr><th>運営</th><td>株式会社神戸物産（フランチャイズ中心）</td></tr>
 <tr><th>安さの型</th><td><strong>製販一体</strong>——自社グループの工場で作る／自前で大量輸入する</td></tr>
 <tr><th>公式</th><td><a href="https://www.gyomusuper.jp/" target="_blank" rel="noopener">業務スーパー</a></td></tr>
@@ -312,32 +449,14 @@ references:
   title="【節約】イオン系スーパー「まいばすけっと」購入品で1週間ラクうま献立7選" loading="lazy" allowfullscreen
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe></div>
 
-<aside class="related-block">
-  <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-04-cheer.png" alt="" /></span>
-    <p class="related-block-title">こちらもおすすめ</p>
-  </div>
-  <ul class="related-block-list">
-    <li>
-      <a href="/posts/fixed-cost-reduction-guide-2026/">
-        <span class="related-block-thumb"><img src="/images/tokyo-discount-supermarket-2026/photos/ok-kitayamata.jpg" alt="" loading="lazy" /></span>
-        <span class="related-block-body">
-          <span class="related-block-cat">ハウツー</span>
-          <span class="related-block-name">年12万円浮く固定費削減ガイド｜手をつける順番まで決めた</span>
-        </span>
-      </a>
-    </li>
-  </ul>
-</aside>
-
 <div class="section-with-mascot">
   <div class="mascot-wrap"><img src="/images/expr-07-gasp.png" alt="Daily Hackマスコット" /></div>
   <h2 id="hanamasa">⑤ 肉のハナマサ｜全国65店のうち46店が東京都</h2>
 </div>
 
 <figure class="rn-figure">
-  <img src="/images/tokyo-discount-supermarket-2026/photos/hanamasa-sotokanda.jpg" alt="肉のハナマサの店舗（千代田区外神田）" loading="lazy" />
-  <figcaption>千代田区・外神田の店舗。<cite>出典: <a href="https://commons.wikimedia.org/wiki/File:4%20Chome-13-7%20Sotokanda%2C%20Chiyoda%2C%20Tokyo%2020130808%205.jpg" target="_blank" rel="noopener">Wikimedia Commons（DXR・CC BY-SA 3.0）</a></cite></figcaption>
+  <img src="/images/tokyo-discount-supermarket-2026/photos/hanamasa-plus.jpg" alt="肉のハナマサPLUSの店頭。黄色い看板と店先の野菜" loading="lazy" />
+  <figcaption>「肉のハナマサPLUS」の店頭。<strong>For professional Plus For consumer</strong>——プロと一般客の両方に売る、と看板に書いてある。<cite>出典: <a href="https://blog.sotetsu-re.co.jp/" target="_blank" rel="noopener">相鉄不動産販売「すみかうる」</a></cite></figcaption>
 </figure>
 
 <table class="cmp-table spec-table">
@@ -382,23 +501,9 @@ references:
   <h2 id="per-store">1店舗あたり年商で見ると、安さの作り方は正反対だった</h2>
 </div>
 
-**ここがこの記事でいちばん言いたいところ。** 各社の売上を店舗数で割ると、こうなる。
+**ここがこの記事でいちばん言いたいところ。** [数字で見る都心の7大スーパー](#numbers)で出した勢力図は、そのまま「安さの作り方が2種類ある」という話になる。
 
-<div class="cmp-table-wrap">
-<table class="cmp-table">
-<thead><tr><th>チェーン</th><th>売上</th><th>店舗数</th><th>1店あたり年商</th></tr></thead>
-<tbody>
-<tr class="recommended"><td><strong><a href="https://lopia.jp/" target="_blank" rel="noopener">ロピア</a></strong></td><td>6,555億円</td><td>145</td><td><strong>約45.2億円</strong></td></tr>
-<tr><td><strong><a href="https://ok-corporation.jp/" target="_blank" rel="noopener">オーケー</a></strong></td><td>7,548億円</td><td>174</td><td><strong>約43.4億円</strong></td></tr>
-<tr><td><a href="https://www.trial-net.co.jp/" target="_blank" rel="noopener">トライアルグループ</a></td><td>1兆3,471億円</td><td>621</td><td>約21.7億円</td></tr>
-<tr><td><strong><a href="https://www.mybasket.co.jp/" target="_blank" rel="noopener">まいばすけっと</a></strong></td><td>約3,000億円</td><td>1,262</td><td><strong>約2.4億円</strong></td></tr>
-</tbody>
-</table>
-</div>
-
-**ロピア45.2億に対して、まいばすけっと2.4億。18.8倍の開き。**
-
-同じ「安いスーパー」なのに、稼ぎ方が正反対だと分かる。
+**ロピア45.2億に対して、まいばすけっと2.4億。18.8倍の開き。** 同じ「安いスーパー」なのに、稼ぎ方が正反対だと分かる。
 
 <ul class="checklist">
   <li><div class="checklist-body"><strong>大箱・高回転で薄利を成立させる型</strong><p>オーケー・ロピア・トライアル。1店に人を集め、量をさばいて、1品あたりの粗利が薄くても総額で回す。だから駅前の小さな物件には出せない。</p></div></li>
