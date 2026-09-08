@@ -16,19 +16,48 @@ const enabled = isAdMaxConfigured(slot);
 
 {enabled ? (
   <aside class={`admax admax--${variant}`} aria-label="広告" data-admax-slot={slot}>
-    {label && <span class="admax__label">スポンサーリンク</span>}
+    {label && <span class="admax__label" hidden>スポンサーリンク</span>}
     <div class="admax__container" set:html={tagHtml}></div>
   </aside>
 ) : (
   <div class="admax-placeholder" aria-hidden="true" data-admax-slot={slot}></div>
 )}
 
+<script is:inline>
+  // **広告が配信されなかった枠を畳む。**
+  // 忍者AdMAX は新しい URL だとしばらく何も返さないことがあり、そのとき
+  // 「スポンサーリンク」というラベルと空欄だけが本文に残る。
+  // 描画されたかどうかは高さでしか分からないので、読み込み後に実測して消す。
+  (function () {
+    function sweep() {
+      document.querySelectorAll('.admax').forEach(function (el) {
+        var box = el.querySelector('.admax__container');
+        if (!box) return;
+        // iframe / ins / img のいずれかが高さを持っていれば配信されている
+        var filled = Array.prototype.some.call(
+          box.querySelectorAll('iframe, ins, img, div'),
+          function (n) { return n.offsetHeight > 10; }
+        );
+        // ラベルも一緒に出し入れする。配信されるまで「スポンサーリンク」だけが
+        // 空欄の上に残るのが、いちばん不自然に見える。
+        var lab = el.querySelector('.admax__label');
+        if (lab) lab.hidden = !filled;
+        el.classList.toggle('is-filled', filled);
+      });
+    }
+    // **早めに何度も見る。** 6 秒待つと、その間ずっと空欄が本文に残る。
+    [300, 700, 1200, 2000, 3500, 6000].forEach(function (ms) { setTimeout(sweep, ms); });
+  })();
+</script>
+
 <style>
   .admax {
-    margin: 2.5rem 0;
+    /* **配信されるまでは余白も持たない。** 上のスクリプトが .is-filled を付けたときだけ開く。 */
+    margin: 0;
     text-align: center;
     max-width: 100%;
   }
+  .admax.is-filled { margin: 2.5rem 0; }
   .admax__label {
     display: block;
     font-size: 11px;
@@ -38,7 +67,9 @@ const enabled = isAdMaxConfigured(slot);
   }
   .admax__container {
     display: block;
-    min-height: 50px;
+    /* **min-height を置かない。** 配信されなかったとき、ラベルと 50px の空欄だけが
+       本文の途中に残る（2026-09-06 のレビューで「動画の下に不自然な空白」と指摘された）。
+       下のスクリプトが、中身が描画されなかった枠ごと畳む。 */
     /* PC向け728px等の固定幅広告がモバイルviewportを押し広げ「空白までスクロール」する不具合の防止。
        はみ出し分はコンテナ内の横スクロールに閉じ込め、ページ全体は広げない。 */
     max-width: 100%;
