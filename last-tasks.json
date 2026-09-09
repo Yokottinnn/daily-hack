@@ -1,3 +1,4 @@
 [
-      {"task": "x16-diagnose-both-blockers.sh", "rc": 0, "out": "**00:21 診断のみ・$0** / playwright は 3 通りとも NG / diagnose-both-blockers.md"}
+      {"task": "t070-same-sku-prices.sh", "rc": 0, "out": " ## 2 社以上に出てきた商品  **1 件も無かった。** 公表物からは同じ商品の横並びは作れない。 その場合は、節の題を実際の中身に合わせて直すのが正しい。"},
+      {"task": "x17-unfollow-playwright-core.sh", "rc": 0, "out": "**0 件だった。押す前後のボタン文字列をレポートに出した** / unfollow-playwright-core.md"}
   ]
