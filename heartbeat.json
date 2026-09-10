@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T23:45:24Z",
+  "generated_at": "2026-09-10T00:15:31Z",
   "host": "NaokinoMacBook-Pro-2.local",
   "job_count": 7,
   "jobs": [
@@ -19,15 +19,10 @@
     "detail": "トークンの有効期限を過ぎている"
   },
   "activity": {
-    "date": "2026-09-09",
-    "posted_today": 15,
+    "date": "2026-09-10",
+    "posted_today": 0,
     "detail": "ログを走査した",
-    "sources": [
-      {"file": "comment-orchestrator.log", "count": 3},
-      {"file": "comment-warmup.log", "count": 6},
-      {"file": "trend-daily.log", "count": 4},
-      {"file": "trend-orchestrator.log", "count": 2}
-    ]
+    "sources": []
   },
   "unloaded_count": 67,
   "unloaded": [
@@ -101,9 +96,9 @@
   ],
   "followers": {
     "now": 227,
-    "prev": 215,
-    "prev_date": "2026-08-29",
-    "span_days": 10,
+    "prev": 224,
+    "prev_date": "2026-09-07",
+    "span_days": 1,
     "target": 300,
     "deadline": "2026-09-30"
   },
