@@ -1,8 +1,1 @@
-[
-      {"task": "x18-who-kills-the-browser.sh", "rc": 0, "out": "**21:38 ブラウザ消失の証拠を集めた（変更なし・$0）** / uptime: 21:38  up 22:27, 4 users, load averages: 2.05 1.80 1 / browser.close の該当 30 件 / who-kills-the-browser.md"},
-      {"task": "x19-list-recent-replies.sh", "rc": 0, "out": "**21:38 返信リンク 直近 20 件を出した（$0）** / 投稿済み 累計: 857 件 / recent-replies.md"},
-      {"task": "x21-why-only-one-reply-per-day.sh", "rc": 0, "out": "**21:38 16 件/日 に届かない理由を分解（$0）** / 課金して 0 件だったもの 0 件 23 件 / why-only-one-reply.md"},
-      {"task": "x22-measure-token-split.sh", "rc": 0, "out": "**21:38 トークン内訳を実測（$0）** / どのログにも usage が記録されていない / token-split.md"},
-      {"task": "x23-cut-llm-cost.sh", "rc": 0, "out": "**21:38 LLM コスト削減 ①skip短縮 ②前段フィルタ を適用（$0）** / 構文 OK 2/2 / cut-llm-cost.md"},
-      {"task": "x24-revive-automation.sh", "rc": 0, "out": "**21:38 自動化を復旧（$0）** / 戻した: 8 本 / CDP 不明 /  / revive-automation.md"}
-  ]
+[]
