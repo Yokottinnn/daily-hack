@@ -1,1 +1,3 @@
-[]
+[
+      {"task": "x25-clear-login-guard.sh", "rc": 0, "out": "**22:22 login-mode-guard を調べた（$0）** / フラグファイルが特定できていない / ログイン状態 不明 / clear-login-guard.md"}
+  ]
