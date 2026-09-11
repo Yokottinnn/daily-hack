@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T23:50:55Z",
+  "generated_at": "2026-09-11T00:21:02Z",
   "host": "NaokinoMacBook-Pro-2.local",
   "job_count": 7,
   "jobs": [
@@ -19,7 +19,7 @@
     "detail": "トークンの有効期限を過ぎている"
   },
   "activity": {
-    "date": "2026-09-10",
+    "date": "2026-09-11",
     "posted_today": 0,
     "detail": "ログを走査した",
     "sources": []
@@ -96,9 +96,9 @@
   ],
   "followers": {
     "now": 227,
-    "prev": 224,
-    "prev_date": "2026-09-07",
-    "span_days": 1,
+    "prev": 227,
+    "prev_date": "2026-09-08",
+    "span_days": 0,
     "target": 300,
     "deadline": "2026-09-30"
   },
