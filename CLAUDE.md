@@ -337,6 +337,44 @@ Skill(skill="x-post-images")   ← 実体は .claude/skills/x-post-images/SKILL.
 
 手順と実際に打つコマンドは [`docs/fact-reporting.md`](docs/fact-reporting.md) にある。
 
+### 12. `ops/tasks` を含む PR は、そのターン内でマージまで見届ける（2026-09-12）
+
+**PR を作った時点では何も起きていない。** `ops/tasks/*.sh` は
+**`main` にマージされて初めて Mac が実行する。** 作っただけで終えると、
+何も直っていないのに「直した」と言ったことになる。
+
+**2026-09-10、`x26`（止まっている真因を直すタスク）の PR を作ったところで終えた。
+2 日間 誰も走らせず、3 ループは止まったままだった。**
+
+- PR を作ったら、**同じターンで CI を見てマージする。**
+  CI 待ちなら待つ。**「あとでマージします」と書いて終えない**
+- マージしたら、**`done/` にその名前が出るまで見る。** 出ていなければ届いていない
+- ターンを終える前に **`git log --oneline origin/main -1`** で、
+  自分の変更が `main` に入っているか確かめる
+
+### 13. `rc=0` は「やった」証拠にならない（2026-09-12 に 2 回 踏んだ）
+
+**成功を返すのに何もしていない**ものが、この環境には複数ある。
+
+| やったこと | rc | 実際 |
+| --- | --- | --- |
+| `launchctl load -w <plist>` | **0** | **載っていない**（macOS では deprecated。`bootstrap` が要る） |
+| `ensure-chrome.sh`（login ロックあり） | **0** | **Chrome を起動していない**（意図的な no-op） |
+
+**必ず「結果の状態」を別の口で確かめる。**
+
+```bash
+launchctl bootstrap gui/$(id -u) "$P"      # load ではなく bootstrap
+launchctl list | grep -qF "$LABEL"          # ← **これが証拠**
+```
+
+- ジョブ: `launchctl list` に出るか
+- Chrome: `cdp-health.js` が通るか（**ポートの LISTEN では足りない**）
+- 投稿: **キューの `x_tweet_id`**（ルール 11）
+
+**ログに「reloaded」と書く前に、載ったかを見る。** 実際に、載っていないのに
+8 本すべて「reloaded」とログに書いた。
+
 ## OpenClaw 連携
 
 OpenClaw は利用者の Mac（`home-mac` / 192.168.2.102）で動く常駐エージェント。
