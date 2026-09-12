@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T12:59:16Z",
+  "generated_at": "2026-09-12T13:29:22Z",
   "host": "NaokinoMacBook-Pro-2.local",
   "job_count": 7,
   "jobs": [
@@ -24,7 +24,7 @@
     "detail": "ログを走査した",
     "sources": []
   },
-  "unloaded_count": 67,
+  "unloaded_count": 68,
   "unloaded": [
       {"label": "ai.openclaw.auto-detect-and-unfollow-inactive", "plist_mtime": "2026-08-22T15:39:05Z"},
       {"label": "ai.openclaw.auto-thread-chainifier", "plist_mtime": "2026-08-22T15:39:05Z"},
@@ -92,7 +92,8 @@
       {"label": "ai.openclaw.variety-audit", "plist_mtime": "2026-06-13T10:30:38Z"},
       {"label": "ai.openclaw.weekly-design-reminder", "plist_mtime": "2026-05-13T15:46:57Z"},
       {"label": "ai.openclaw.x-login-compat-test", "plist_mtime": "2026-07-04T12:49:53Z"},
-      {"label": "ai.openclaw.x-login-monitor", "plist_mtime": "2026-08-22T11:07:15Z"}
+      {"label": "ai.openclaw.x-login-monitor", "plist_mtime": "2026-08-22T11:07:15Z"},
+      {"label": "ai.openclaw.x-loop-guardian", "plist_mtime": "2026-09-12T13:21:20Z"}
   ],
   "followers": {
     "now": 227,

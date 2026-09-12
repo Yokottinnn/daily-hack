@@ -1,5 +1,1 @@
-[
-      {"task": "x27-heartbeat-visibility.sh", "rc": 1, "out": ""},
-      {"task": "x28-install-loop-guardian.sh", "rc": 1, "out": ""},
-      {"task": "x29-who-writes-login-lock.sh", "rc": 0, "out": "**22:21 鍵を作っている主を調べた（変更なし・$0）** / who-writes-login-lock.md"}
-  ]
+[]
