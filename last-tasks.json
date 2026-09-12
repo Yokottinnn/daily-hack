@@ -1,1 +1,3 @@
-[]
+[
+      {"task": "x30-fix-guardian-bootstrap.sh", "rc": 0, "out": "**22:29 launchctl を bootstrap に直した（$0）** / **ロード済み: 0 / 8** / fix-guardian-bootstrap.md"}
+  ]
