@@ -412,9 +412,88 @@ if [ -n "$cred" ]; then
   fi
 fi
 
+
+# ─── X_HEALTH_BLOCK (2026-09-12) ────────────────────────────────────────
+# **止まっていることを 30 分で見えるようにする。**
+#
+# 2026-09-08〜12、次の 2 つが「エラーを 1 行も出さずに」X の 3 ループを止めた。
+#
+#   * /tmp/x-login-in-progress が刺さり、ensure-chrome.sh が exit 0 で何もしない
+#   * tab-guard が CDP 断を「ウィンドウ全消え」と誤判定し、ai.openclaw.* を全 unload
+#
+# **どちらも rc では検知できない。値として出すしかない。**
+# いちばん大事なのは last_reply（キューの x_tweet_id ＝ 一次情報）。
+x_health_json() {
+  local ws="$HOME/.openclaw/workspace"
+
+  # 手動ログイン用の鍵（消し忘れると 26 本のジョブが静かに空振りする）
+  local lock=/tmp/x-login-in-progress
+  local lp="false" lage=0
+  if [ -f "$lock" ]; then
+    lp="true"
+    lage=$(( ( $(date '+%s') - $(stat -f '%m' "$lock" 2>/dev/null || echo 0) ) / 3600 ))
+  fi
+
+  # CDP の健全性（ポートの LISTEN では足りない）
+  local cdp="false"
+  if [ -f "$ws/scripts/cdp-health.js" ]; then
+    ( cd "$ws/scripts" && /usr/local/bin/node cdp-health.js >/dev/null 2>&1 ) && cdp="true"
+  fi
+
+  # 3 ループに必要な 8 本が載っているか
+  local expect="comment-warmup competitor-follower-follow hashtag-follow badge-followback reply-followback-check reply-followers-cleanup incoming-reply-watcher pipeline-heartbeat"
+  local loaded=0 missing="" j
+  for j in $expect; do
+    if launchctl list 2>/dev/null | grep -qF "ai.openclaw.$j"; then
+      loaded=$((loaded + 1))
+    else
+      missing="$missing\"$j\","
+    fi
+  done
+  missing="${missing%,}"
+
+  # **最後に返信が X に出た時刻。** 8 時間 出ていなければ stale。
+  local last_reply="null" reply_age=-1 stale="false" r
+  local q="$ws/data/post_queue.json"
+  if [ -f "$q" ]; then
+    r=$(/usr/local/bin/node -e '
+const fs=require("fs");
+try{
+  const q=JSON.parse(fs.readFileSync(process.argv[1],"utf8"));
+  const rows=(q.queue||[]).filter(e=>e&&(e.kind==="comment"||e.kind==="reply")&&(e.x_tweet_id||e.tweet_id));
+  const t=rows.map(e=>new Date(e.posted_at||e.created_at||0).getTime()).filter(n=>n>0);
+  if(!t.length){ console.log("null -1"); process.exit(0); }
+  const m=Math.max.apply(null,t);
+  console.log(JSON.stringify(new Date(m).toISOString())+" "+Math.floor((Date.now()-m)/3600000));
+}catch(e){ console.log("null -1"); }
+' "$q" 2>/dev/null) || r="null -1"
+    last_reply="${r%% *}"; reply_age="${r##* }"
+    [ "${reply_age:-99}" -ge 8 ] 2>/dev/null && stale="true"
+  fi
+
+  # tab-guard が非常ブレーキを引いているか（ai.openclaw.* が 1 本だけ＝その署名）
+  local ai_n
+  # **`grep -c` は 0 件でも "0" を出力しつつ exit 1 を返す。**
+  # `|| echo 0` を付けると "0\n0" になり JSON が壊れる（2026-09-12 に検証で捕まえた）。
+  ai_n=$(launchctl list 2>/dev/null | awk '{print $3}' | grep -c '^ai\.openclaw\.' || true)
+  ai_n=$(printf '%s' "${ai_n:-0}" | tr -dc '0-9')
+  [ -z "$ai_n" ] && ai_n=0
+  local halted="false"
+  [ "${ai_n:-0}" -le 1 ] && halted="true"
+
+  printf '  "login_lock": {"present": %s, "age_hours": %s},\n' "$lp" "$lage"
+  printf '  "cdp": {"healthy": %s, "port": 18810},\n' "$cdp"
+  printf '  "x_jobs": {"loaded": %s, "expected": 8, "ai_total": %s, "halted": %s, "missing": [%s]},\n' \
+    "$loaded" "${ai_n:-0}" "$halted" "$missing"
+  printf '  "last_reply": {"at": %s, "age_hours": %s, "stale": %s},\n' \
+    "$last_reply" "$reply_age" "$stale"
+}
+# ─── /X_HEALTH_BLOCK ────────────────────────────────────────────────────
+
 {
   echo "{"
   echo "  \"generated_at\": \"$now\","
+  x_health_json
   echo "  \"host\": \"$host\","
   echo "  \"job_count\": $count,"
   echo "  \"jobs\": ["
