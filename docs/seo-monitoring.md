@@ -289,3 +289,44 @@ GSC API・Cloudflare GraphQL・GitHub Actions・Slack Webhook は**いずれも 
 - `scripts/seo-submit.mjs` はどのワークフローからも呼ばれていない。
 - Cloudflare 無料プランの Analytics は **8日分しか保持しない**ため、PV の月次比較はできない。
   長期トレンドが要るなら別途蓄積が必要。
+
+## インデックス状況の実測（2026-09-12・t071）
+
+**「sitemap に載っている」と「インデックスされている」は別。** 前者はビルド後の HTML で
+確認できるが、後者は GSC の URL 検査 API でしか分からない。当て推量で答えない。
+
+```bash
+# ops/tasks/t071-index-status.sh がやっていること
+POST https://searchconsole.googleapis.com/v1/urlInspection/index:inspect
+     {"inspectionUrl": "<記事URL>", "siteUrl": "https://daily-hack.fieldbeside.com/"}
+# scope: https://www.googleapis.com/auth/webmasters.readonly
+```
+
+### 結果（5 URL すべて PASS）
+
+| ページ | verdict | 登録状態 | 最終クロール |
+| --- | --- | --- | --- |
+| 都心の格安スーパー 2026 | PASS | Submitted and indexed | 2026-09-08 22:47Z |
+| IKEA豊洲 完全ガイド | PASS | Submitted and indexed | 2026-09-07 04:43Z |
+| ららぽーとガイド | PASS | Submitted and indexed | 2026-09-07 14:50Z |
+| 湾岸スーパー徹底比較 | PASS | Submitted and indexed | 2026-09-07 15:07Z |
+| トップ | PASS | Submitted and indexed | 2026-09-07 20:33Z |
+
+`robotsTxtState: ALLOWED` / `indexingState: INDEXING_ALLOWED` /
+`pageFetchState: SUCCESSFUL` / `googleCanonical == userCanonical`。
+**重複扱いにされているものは 1 つも無い。**
+
+### ここで分かった落とし穴
+
+- **`crawledAs: MOBILE`。** 判定はモバイル版で行われる。PC だけ見て崩れに気づかないのは危ない
+- **`referringUrls` が 1 本しか返らない。** 実際には内部リンクが 67 ページあるのに、
+  GSC が出すのは代表 1 本だけ。**これを被リンク数と読み違えない**
+- **最終クロールは編集より前のことがある。** 上の記事は 09-08 22:47Z のクロールだが、
+  09-12 にも本文を直している。**いま index にあるのは 09-08 時点の版**
+
+### 「インデックスされているか」を調べる順番
+
+1. ビルド後の HTML: `canonical` / `meta robots` / 構造化データ / OGP
+2. `dist/sitemap-0.xml` に `<loc>` があるか、`dist/robots.txt` が拒否していないか
+3. `grep -rl "/posts/<slug>/" dist --include='*.html' | wc -l` で孤立していないか
+4. **ここまで全部 正しくても、実際の登録は 1〜3 では分からない。** t071 と同じ API を叩く
