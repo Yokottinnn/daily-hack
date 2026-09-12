@@ -441,10 +441,22 @@ x_health_json() {
   fi
 
   # 3 ループに必要な 8 本が載っているか
+  #
+  # **`launchctl list` はジョブごとに呼び直さない。** 2026-09-13 に、同じスクリプトの中で
+  # 「4/8 本」と全件ダンプの「8 本 全部 居る」が食い違った。ジョブごとに呼ぶと、
+  # 1 回でも取りこぼした瞬間に「未ロード」と誤判定し、**実際には載っているのに
+  # 4 日 間「載っていない」と報告し続けた。**
+  #
+  # スナップショットを 1 回だけ取り、**3 列目のラベル完全一致**で数える。
+  # 空が返ったら数えずに前回値を出さない（`ai_total` が 0 のままなら異常として見える）。
   local expect="comment-warmup competitor-follower-follow hashtag-follow badge-followback reply-followback-check reply-followers-cleanup incoming-reply-watcher pipeline-heartbeat"
+  local snap=""
+  snap=$(launchctl list 2>/dev/null | awk '{print $3}')
+  # 取れなければ 1 回だけ待って撮り直す
+  if [ -z "$snap" ]; then sleep 2; snap=$(launchctl list 2>/dev/null | awk '{print $3}'); fi
   local loaded=0 missing="" j
   for j in $expect; do
-    if launchctl list 2>/dev/null | grep -qF "ai.openclaw.$j"; then
+    if printf '%s\n' "$snap" | grep -qxF "ai.openclaw.$j"; then
       loaded=$((loaded + 1))
     else
       missing="$missing\"$j\","
@@ -475,7 +487,7 @@ try{
   local ai_n
   # **`grep -c` は 0 件でも "0" を出力しつつ exit 1 を返す。**
   # `|| echo 0` を付けると "0\n0" になり JSON が壊れる（2026-09-12 に検証で捕まえた）。
-  ai_n=$(launchctl list 2>/dev/null | awk '{print $3}' | grep -c '^ai\.openclaw\.' || true)
+  ai_n=$(printf '%s\n' "$snap" | grep -c '^ai\.openclaw\.' || true)
   ai_n=$(printf '%s' "${ai_n:-0}" | tr -dc '0-9')
   [ -z "$ai_n" ] && ai_n=0
   local halted="false"
@@ -487,6 +499,35 @@ try{
     "$loaded" "${ai_n:-0}" "$halted" "$missing"
   printf '  "last_reply": {"at": %s, "age_hours": %s, "stale": %s},\n' \
     "$last_reply" "$reply_age" "$stale"
+
+  # ─── 返信が 8 時間 出ていなければ Slack に 1 回だけ鳴らす（2026-09-13） ───
+  #
+  # **2026-09-09 22:03 を最後に 75 時間 返信が出ず、誰も気づかなかった。**
+  # heartbeat は 30 分ごとに出ていたが、`ops/heartbeat` ブランチは**誰も見ない。**
+  # 見に行かないと分からない情報は、無いのと同じだった。
+  #
+  # **API 課金は発生しない**（Slack の chat.postMessage のみ。LLM を呼ばない）。
+  # 1 回あたり $0 ／ 1 日あたり $0 ／ 1 か月あたり $0。
+  #
+  # **鳴らすのは 1 回だけ。** 30 分ごとに鳴ると、鳴っていること自体が無視される。
+  # 返信が出たら（stale=false）印を消し、次に止まったときはまた鳴る。
+  local alerted="/tmp/.x-reply-stale-alerted"
+  if [ "$stale" = "true" ] && [ ! -f "$alerted" ]; then
+    if [ -f "$HOME/openclaw/config/.env" ]; then
+      # shellcheck disable=SC1091
+      . "$HOME/openclaw/config/.env" 2>/dev/null || true
+      if [ -n "${OPENCLAW_BOT_TOKEN:-}" ]; then
+        curl -s -X POST https://slack.com/api/chat.postMessage \
+          -H "Authorization: Bearer $OPENCLAW_BOT_TOKEN" \
+          -H 'Content-type: application/json; charset=utf-8' \
+          --data "$(printf '{"channel":"C0B4CJHH797","text":"%s"}' \
+            ":rotating_light: *X の返信が ${reply_age} 時間 出ていない* — 最後: ${last_reply} ／ ループ ${loaded}/8 本 ／ CDP healthy=${cdp}")" \
+          >/dev/null 2>&1 && touch "$alerted"
+      fi
+    fi
+  elif [ "$stale" != "true" ]; then
+    rm -f "$alerted" 2>/dev/null
+  fi
 }
 # ─── /X_HEALTH_BLOCK ────────────────────────────────────────────────────
 
