@@ -1,15 +1,16 @@
 {
-  "generated_at": "2026-09-12T17:35:18Z",
+  "generated_at": "2026-09-12T18:05:25Z",
   "login_lock": {"present": false, "age_hours": 0},
   "cdp": {"healthy": true, "port": 18810},
-  "x_jobs": {"loaded": 8, "expected": 8, "ai_total": 9, "halted": false, "missing": []},
-  "last_reply": {"at": "2026-09-09T13:03:32.999Z", "age_hours": 76, "stale": true},
+  "x_jobs": {"loaded": 8, "expected": 8, "ai_total": 10, "halted": false, "missing": []},
+  "last_reply": {"at": "2026-09-09T13:03:32.999Z", "age_hours": 77, "stale": true},
   "host": "NaokinoMacBook-Pro-2.local",
-  "job_count": 15,
+  "job_count": 16,
   "jobs": [
     "ai.openclaw.badge-followback",
     "ai.openclaw.comment-warmup",
     "ai.openclaw.competitor-follower-follow",
+    "ai.openclaw.daily-supervisor",
     "ai.openclaw.hashtag-follow",
     "ai.openclaw.incoming-reply-watcher",
     "ai.openclaw.pipeline-heartbeat",
@@ -25,7 +26,8 @@
   ],
   "reconnect": "既に起動している",
   "tasks": [
-      {"task": "x43-repair-v2-heredoc.sh", "rc": 0, "out": "修理 v2 とフォロー実数 / repair-v2.md 145 行"}
+      {"task": "x46-install-mutual-prune.sh", "rc": 1, "out": ""},
+      {"task": "x47-daily-supervisor.sh", "rc": 0, "out": "番人を常駐化 / daily-supervisor.md 124 行"}
   ],
   "auth": {
     "ok": true,
@@ -110,6 +112,7 @@
     "deadline": "2026-09-30"
   },
   "reloaders": [
+      {"label": "ai.openclaw.daily-supervisor", "interval": "", "program": "/bin/bash /Users/ny/.openclaw/workspace/scripts/daily-supervisor.sh RunAtLoad StandardErrorPath /Users/ny/.openclaw/workspace/logs/daily-supervisor.err StandardOutPath /Users/ny/.openclaw/workspace/logs/daily-supervisor.out StartCalendarInterval Hour Minute Hour Minute WorkingDirectory /Users/ny/.op"},
       {"label": "ai.openclaw.tab-guard", "interval": "", "program": "/usr/local/bin/node /Users/ny/.openclaw/workspace/scripts/tab-guard.js --watch RunAtLoad StandardErrorPath /Users/ny/.openclaw/workspace/logs/tab-guard-err.log StandardOutPath /Users/ny/.openclaw/workspace/logs/tab-guard.out WorkingDirectory /Users/ny/.openclaw/workspace"},
       {"label": "com.dailyhack.rc-keeper", "interval": "300", "program": "/Users/ny/bin/dh-rc-keeper RunAtLoad StandardErrorPath /Users/ny/.dh-rc-keeper.stderr.log StandardOutPath /Users/ny/.dh-rc-keeper.stdout.log StartInterval"}
   ]

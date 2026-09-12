@@ -1,4 +1,1 @@
-[
-      {"task": "x46-install-mutual-prune.sh", "rc": 1, "out": ""},
-      {"task": "x47-daily-supervisor.sh", "rc": 0, "out": "番人を常駐化 / daily-supervisor.md 124 行"}
-  ]
+[]
