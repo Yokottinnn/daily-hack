@@ -182,6 +182,22 @@ references:
 
 **「同じ棚に他店と同じ商品が並んでいない」——これがこの7社の実態。** だから番組も、同じ商品ではなく各社の看板商品を測るしかなかった。
 
+**実際に確かめた。** 各社のチラシ・特売・商品ページ **8ページを取得して、価格の記載を機械的に数えた**（2026-09-10）。
+
+<div class="cmp-table-wrap">
+<table class="cmp-table">
+<thead><tr><th>取得したページ</th><th>本文の長さ</th><th>価格の記載</th></tr></thead>
+<tbody>
+<tr><td><a href="https://www.seiyu.co.jp/flyer/chirashi/" target="_blank" rel="noopener">西友 チラシ</a>／<a href="https://www.seiyu.co.jp/" target="_blank" rel="noopener">トップ</a></td><td>1,418字／2,320字</td><td><strong>0件</strong></td></tr>
+<tr><td><a href="https://www.gyomusuper.jp/saiyasune.php" target="_blank" rel="noopener">業務スーパー 最安値</a>／<a href="https://www.gyomusuper.jp/product/index.php" target="_blank" rel="noopener">商品</a></td><td>2,591字／4,284字</td><td><strong>0件</strong></td></tr>
+<tr><td><a href="https://www.donki.com/chirashi/" target="_blank" rel="noopener">ドン・キホーテ WEBチラシ</a>／<a href="https://www.donki.com/products/" target="_blank" rel="noopener">商品情報</a></td><td>9,388字／2,455字</td><td><strong>0件</strong></td></tr>
+<tr><td><a href="https://hanamasa.co.jp/" target="_blank" rel="noopener">肉のハナマサ</a>／<a href="https://ok-corporation.jp/" target="_blank" rel="noopener">オーケー</a> トップ</td><td>734字／2,511字</td><td><strong>0件</strong></td></tr>
+</tbody>
+</table>
+</div>
+
+**8ページとも取得はできたのに、価格は 1 件も出てこない。** 値段は文字ではなく、**チラシの画像の中にある**から。だから「今週の卵はどこが安いか」を横断で調べる方法が、そもそも用意されていない。
+
 **そのうえで、この記事にはひとつだけ「同じ土俵の数字」がある。100gあたりの単価。** 下のハナマサの値札が実物で、**港区・南麻布で100gあたり89円**。看板商品どうしの比較と違って、これは他店の精肉と直接ぶつけられる数字になる。
 
 番組で「衝撃」と言われたロピアの巻き寿司は、実物がこれ。
