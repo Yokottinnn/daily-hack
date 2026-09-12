@@ -1,1 +1,4 @@
-[]
+[
+      {"task": "x35-kickstart-and-count.sh", "rc": 0, "out": ""},
+      {"task": "x36-fix-tab-guard-b.sh", "rc": 0, "out": "**00:46 tab-guard の B 条件を直した（$0）** / **最終: 4 / 8 本** / fix-tab-guard-b.md"}
+  ]
