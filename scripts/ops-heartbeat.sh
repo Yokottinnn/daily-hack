@@ -500,6 +500,36 @@ try{
   printf '  "last_reply": {"at": %s, "age_hours": %s, "stale": %s},\n' \
     "$last_reply" "$reply_age" "$stale"
 
+  # ─── 番人（daily-supervisor）の判定を そのまま載せる（2026-09-13） ───
+  #
+  # **番人は「今日 走ったか」を観測できる事実で判定し、走っていなければ走らせる。**
+  # その結果がここに載ることで、**`ops/heartbeat` を見るだけで
+  # 「今日 走らなかったジョブ」が分かる。**
+  #
+  # `launchctl list` に出ることは仕事をした証拠にならない（最上位ルール 13）。
+  # `x_jobs.loaded` は「**載っているか**」、`supervisor.not_run` は「**走ったか**」で、別物。
+  # 2026-09-13 に、8/8 本 載っているのに返信が 75 時間 出ていない状態を実際に見た。
+  local sup="null" sup_f="$ws/data/job-stamps/status.json"
+  if [ -f "$sup_f" ]; then
+    sup=$(/usr/local/bin/node -e '
+const fs=require("fs");
+try{
+  const d=JSON.parse(fs.readFileSync(process.argv[1],"utf8"));
+  const jobs=Array.isArray(d.jobs)?d.jobs:[];
+  console.log(JSON.stringify({
+    at: d.generated_at||null,
+    date_jst: d.date_jst||null,
+    ran: jobs.filter(j=>j&&j.ran_today).length,
+    total: jobs.length,
+    not_run: String(d.not_run||"").split(/\s+/).filter(Boolean),
+    fixed: String(d.fixed||"").split(/\s+/).filter(Boolean),
+  }));
+}catch(e){ console.log("null"); }
+' "$sup_f" 2>/dev/null) || sup="null"
+    [ -z "$sup" ] && sup="null"
+  fi
+  printf '  "supervisor": %s,\n' "$sup"
+
   # ─── 返信が 8 時間 出ていなければ Slack に 1 回だけ鳴らす（2026-09-13） ───
   #
   # **2026-09-09 22:03 を最後に 75 時間 返信が出ず、誰も気づかなかった。**

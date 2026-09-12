@@ -92,6 +92,20 @@ mkdir -p "$OPS_REPORT_DIR"
 task_tmp="${TMPDIR:-/tmp}/ops-tasks"
 mkdir -p "$task_tmp"
 
+# --- 1 本あたりの制限時間 ---------------------------------------------------
+#
+# **タスクが止まると、後ろのタスクが 1 本も届かなくなる。**
+# 実行は直列で、`done/` の印はタスクが終わってから書くため、
+# 止まったタスクは印が付かず、次の周回でも同じところで止まる。
+#
+# 既定は 15 分。投稿を 3 分 待つタスクが複数あるので、短すぎると誤爆する。
+TASK_TIMEOUT="${OPS_TASK_TIMEOUT:-900}"
+TIMEOUT_BIN=""
+for _c in timeout gtimeout; do
+  if command -v "$_c" >/dev/null 2>&1; then TIMEOUT_BIN="$(command -v "$_c")"; break; fi
+done
+[ -z "$TIMEOUT_BIN" ] && echo "ops-run-tasks: timeout が無いので制限時間なしで走らせる" >&2
+
 ran=0
 results=""
 first=1
@@ -102,9 +116,29 @@ for t in $(git -C "$MAIN_REPO" ls-tree --name-only "origin/main:ops/tasks" 2>/de
   git -C "$MAIN_REPO" show "origin/main:ops/tasks/$t" > "$task_tmp/$t" 2>/dev/null || continue
   [ -s "$task_tmp/$t" ] || continue
 
-  out="$(/bin/bash "$task_tmp/$t" 2>&1)"
-  rc=$?
+  # **1 本あたりの制限時間。** これが無いと、長いタスク 1 本が後ろ全部を止める。
+  #
+  # 2026-09-13 に実際に起きた。`x44` が「目標 16 件に届くまで最大 8 回 繰り返す」
+  # ループ（最大 8 回 × 3 分）に入り、**23 分 経っても終わらず、
+  # `x45` / `x46` / `x47` が 1 本も届かなかった。**
+  #
+  # `done/` は**タスクが終わってから**書くので、止まったままだと印も付かない。
+  # 次の周回も同じところで止まり、**キュー全体が永久に進まない。**
+  #
+  # `timeout` は macOS の素の状態には無い（coreutils）。
+  # **無ければ無いで動くようにする。** 当て推量で失敗させない。
+  if [ -n "$TIMEOUT_BIN" ]; then
+    out="$("$TIMEOUT_BIN" -s TERM -k 30 "$TASK_TIMEOUT" /bin/bash "$task_tmp/$t" 2>&1)"
+    rc=$?
+  else
+    out="$(/bin/bash "$task_tmp/$t" 2>&1)"
+    rc=$?
+  fi
   out="$(printf '%s' "$out" | tail -5 | tr '\n' ' ' | tr -d '"\\' | cut -c1-300)"
+  # rc=124 は timeout が切った合図。**印を必ず付ける**ので、次の周回では飛ばされる
+  if [ "$rc" = "124" ] || [ "$rc" = "137" ]; then
+    out="制限時間 ${TASK_TIMEOUT} 秒 を超えたので打ち切った / $out"
+  fi
   printf '%s rc=%s\n' "$(date -u +%Y-%m-%dT%H:%M:%SZ)" "$rc" > "$WT/done/$t"
 
   ran=$((ran + 1))
