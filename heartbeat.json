@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T16:30:01Z",
+  "generated_at": "2026-09-12T17:00:08Z",
   "login_lock": {"present": false, "age_hours": 0},
   "cdp": {"healthy": true, "port": 18810},
   "x_jobs": {"loaded": 4, "expected": 8, "ai_total": 9, "halted": false, "missing": ["comment-warmup","reply-followers-cleanup","incoming-reply-watcher","pipeline-heartbeat"]},
