@@ -1,13 +1,15 @@
 {
-  "generated_at": "2026-09-12T18:05:25Z",
+  "generated_at": "2026-09-12T18:36:37Z",
   "login_lock": {"present": false, "age_hours": 0},
   "cdp": {"healthy": true, "port": 18810},
-  "x_jobs": {"loaded": 8, "expected": 8, "ai_total": 10, "halted": false, "missing": []},
-  "last_reply": {"at": "2026-09-09T13:03:32.999Z", "age_hours": 77, "stale": true},
+  "x_jobs": {"loaded": 8, "expected": 8, "ai_total": 11, "halted": false, "missing": []},
+  "last_reply": {"at": "2026-09-12T18:06:31.876Z", "age_hours": 0, "stale": false},
+  "supervisor": {"at":"2026-09-12T18:05:57Z","date_jst":"2026-09-13","ran":8,"total":9,"not_run":["mutual-prune"],"fixed":[]},
   "host": "NaokinoMacBook-Pro-2.local",
-  "job_count": 16,
+  "job_count": 17,
   "jobs": [
     "ai.openclaw.badge-followback",
+    "ai.openclaw.caffeinate",
     "ai.openclaw.comment-warmup",
     "ai.openclaw.competitor-follower-follow",
     "ai.openclaw.daily-supervisor",
@@ -25,10 +27,7 @@
     "com.dailyhack.weekly-blog-report"
   ],
   "reconnect": "既に起動している",
-  "tasks": [
-      {"task": "x46-install-mutual-prune.sh", "rc": 1, "out": ""},
-      {"task": "x47-daily-supervisor.sh", "rc": 0, "out": "番人を常駐化 / daily-supervisor.md 124 行"}
-  ],
+  "tasks": [],
   "auth": {
     "ok": true,
     "expires_at": "2026-09-12T20:43:03Z",
@@ -36,9 +35,12 @@
   },
   "activity": {
     "date": "2026-09-12",
-    "posted_today": 0,
+    "posted_today": 6,
     "detail": "ログを走査した",
-    "sources": []
+    "sources": [
+      {"file": "comment-orchestrator.log", "count": 2},
+      {"file": "comment-warmup.log", "count": 4}
+    ]
   },
   "unloaded_count": 60,
   "unloaded": [
