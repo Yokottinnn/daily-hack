@@ -1,4 +1,3 @@
 [
-      {"task": "x37-fetch-airwallet-campaign.sh", "rc": 0, "out": "エアウォレット キャンペーン一次情報 / airwallet-campaign.md 147 行"},
-      {"task": "x38-why-four-wont-load.sh", "rc": 0, "out": ""}
+      {"task": "x39-tab-guard-writes-the-lock.sh", "rc": 0, "out": ""}
   ]
