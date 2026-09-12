@@ -126,6 +126,20 @@ jobs:
           unloaded_n=$(jq -r '.unloaded_count // 0' hb/heartbeat.json)
           unloaded_list=$(jq -r '[.unloaded[]?.label] | join(" ")' hb/heartbeat.json)
 
+          # **返信が最後に X へ出た時刻。これが唯一の「動いているか」の判定。**
+          #
+          # `activity.posted_today` は**ログの行数**で、二重計上するし
+          # 「動いたこと」と「出たこと」を区別しない（CLAUDE.md 最上位ルール 11）。
+          # `last_reply` はキューの `x_tweet_id` から取る一次情報。
+          #
+          # 2026-09-09 22:03 を最後に 75 時間 返信が出なかったが、
+          # **`posted_today` 側の判定では捕まらなかった。** ここで鳴らす。
+          lr_at=$(jq -r '.last_reply.at // "null"' hb/heartbeat.json)
+          lr_age=$(jq -r '.last_reply.age_hours // -1' hb/heartbeat.json)
+          lr_stale=$(jq -r '.last_reply.stale | tostring' hb/heartbeat.json)
+          jobs_loaded=$(jq -r '.x_jobs.loaded // -1' hb/heartbeat.json)
+          jobs_missing=$(jq -r '[.x_jobs.missing[]?] | join(" ")' hb/heartbeat.json)
+
           # **成果そのもの。** ジョブが載っていても CDP が落ちていれば 0 件実行になる。
           # 壊れ方を知らなくても、未知のジョブが死んでも、ここで必ず捕まる。
           f_now=$(jq -r '.followers.now | tostring' hb/heartbeat.json)
@@ -157,12 +171,21 @@ jobs:
             echo "- **plist はあるのに未ロード: ${unloaded_n} 件**${unloaded_list:+ — $unloaded_list}"
             echo "- 認証: \`$auth_ok\`（$auth_detail）${auth_hours:+ / 残り ${auth_hours} 時間}"
             echo "- 本日の投稿: **${posted} 件**（$act_detail）${act_sources:+ / $act_sources}"
+            echo "- **最後に返信が出た時刻: \`${lr_at}\`（${lr_age} 時間前）**"
+            echo "- X の 3 ループ: **${jobs_loaded} / 8 本**${jobs_missing:+ — 欠け: $jobs_missing}"
             echo "- フォロワー: **${f_now}**${f_delta:+（${f_span} 日で ${f_delta} 人）}${f_target:+ / 目標 ${f_target}}${f_deadline:+ まで ${f_deadline}}${f_need:+ / 必要 ${f_need} 人＋/日}"
           } >> "$GITHUB_STEP_SUMMARY"
 
           problem=""
           [ "$age" -gt "$STALE_MINUTES" ] && problem="stale"
           [ -n "$missing" ] && problem="${problem:+$problem,}missing"
+          # **返信が出ていない。** 一次情報（キューの x_tweet_id）での判定。
+          # 判定不能（-1）は「出ていない」と混同しない。
+          [ "$lr_stale" = "true" ] && [ "$lr_age" -ge 0 ] 2>/dev/null \
+            && problem="${problem:+$problem,}no_reply_${lr_age}h"
+          # 3 ループの欠け。判定不能（-1）は鳴らさない。
+          [ "$jobs_loaded" -ge 0 ] 2>/dev/null && [ "$jobs_loaded" -lt 8 ] 2>/dev/null \
+            && problem="${problem:+$problem,}x_jobs_${jobs_loaded}of8"
           # 失効済み
           [ "$auth_ok" = "false" ] && problem="${problem:+$problem,}auth"
           # 失効前の警告。ここで鳴らせば、切れる前に /login できる
