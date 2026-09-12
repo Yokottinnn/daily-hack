@@ -1,1 +1,3 @@
-[]
+[
+      {"task": "x44-teach-the-model-what-is-banned.sh", "rc": 0, "out": "禁止リストと今日の埋め / teach-banned.md 146 行"}
+  ]
