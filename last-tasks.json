@@ -1,1 +1,3 @@
-[]
+[
+      {"task": "x26-unlock-x-login.sh", "rc": 0, "out": "**21:48 x-login ロックを外した（$0）** / 触らない / ログイン状態 不明 / unlock-x-login.md"}
+  ]
