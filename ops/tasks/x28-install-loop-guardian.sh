@@ -125,14 +125,27 @@ for j in $EXPECT; do
 done
 
 # ---- B. login ロックの消し忘れ ----
+# **時間だけで判定しない。** 2026-09-12 に mtime が「0 時間」のまま
+# 4 日 刺さり続けていた（何かが touch し直している）。時間だけ見ると永久に外せない。
+#
+# **手動ログイン中なら Chrome が起動しているはず。**
+# Chrome が 1 つも無いのに鍵がある = **矛盾＝消し忘れ**。これを主判定にする。
 if [ -f "$LOCK" ]; then
   AGE=$(( ( $(date '+%s') - $(stat -f '%m' "$LOCK" 2>/dev/null || echo 0) ) / 3600 ))
-  if [ "$AGE" -ge "$STALE_HOURS" ]; then
+  CHROME_UP=0
+  pgrep -f 'Google Chrome' >/dev/null 2>&1 && CHROME_UP=1
+  REASON=""
+  if [ "$CHROME_UP" = "0" ]; then
+    REASON="chrome-not-running(${AGE}h)"      # 手で入れるはずの画面が無い＝矛盾
+  elif [ "$AGE" -ge "$STALE_HOURS" ]; then
+    REASON="stale(${AGE}h)"
+  fi
+  if [ -n "$REASON" ]; then
     mv "$LOCK" "$LOCK.parked-$(date '+%Y%m%d-%H%M%S')" 2>/dev/null \
-      && { log "parked stale login lock (${AGE}h)"; FIXED=$((FIXED+1)); } \
+      && { log "parked login lock: $REASON"; FIXED=$((FIXED+1)); } \
       || PROBLEMS="$PROBLEMS lock-park-failed"
   else
-    log "login lock present but fresh (${AGE}h) — leaving it"
+    log "login lock present, chrome running, fresh (${AGE}h) — leaving it"
   fi
 fi
 
