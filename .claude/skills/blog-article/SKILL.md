@@ -735,7 +735,42 @@ npx --yes http-server dist -p 4321 --silent &
 ## 5. 公開とその後
 
 1. PR を作ってマージ（`main` は保護ブランチ・直 push 不可）
-2. 公開 URL が確定したら **X 告知は tweet2 に依頼する**
+2. **プレビュー URL を報告に載せる**（下記・`CLAUDE.md` 最上位ルール 16）
+3. 公開 URL が確定したら **X 告知は tweet2 に依頼する**
    （`docs/cross-session-requests.md` に記事 URL・要点 3 つ・画像パスを書く）。
    **blog3 は X に投稿しない**（`CLAUDE.md` 最上位ルール 4・5）
-3. `npm run handoff -- "…" --next "…"` で引き継ぎを残す
+4. `npm run handoff -- "…" --next "…"` で引き継ぎを残す
+
+### プレビュー URL を必ず一緒に出す（2026-09-13 に指示・例外なし）
+
+> 記事はまず作成して公開してしまっていいのだけど、必ず開発環境のプレビューを
+> 一緒に共有してレビューをできるようにして。
+
+**公開の可否を確認する必要はない。そのまま出してよい。**
+**だが、報告にプレビュー URL が無いとレビューができない。**
+
+利用者は**下書きフィードバックの仕組みでページに直接 指摘を書き込む。**
+これが使えるのは `*.pages.dev` のプレビューのほうで、**本番 URL では指摘が入れられない。**
+2026-09-12 に本番 URL だけを出して「**いやプレビューのページでちょうだいよ／
+フィードバックできないよ**」と差し戻された。
+
+```text
+PR を作る → GitHub Actions が Cloudflare Pages へデプロイ
+          → **PR に bot がコメントで URL を書く**
+          → その URL を報告に載せる → マージ
+```
+
+```text
+mcp__github__pull_request_read(method="get_comments", pullNumber=<PR>)
+  → "🚀 Preview deployment: https://<8桁hex>.daily-hack.pages.dev"
+```
+
+| | |
+| --- | --- |
+| **URL の形** | `https://<8桁hex>.daily-hack.pages.dev/posts/<slug>/` |
+| **組み立てられない** | ハッシュはコミット由来。`<branch>.daily-hack.pages.dev` だと思って書くと外す |
+| **マージ後も生きる** | 先にマージしてしまっても、PR のコメントから取れる |
+| **ブランチ更新で変わる** | `update_pull_request_branch` のあとは**新しいコメントの URL**を出す |
+| **パスまで付ける** | トップだけ渡すと相手に記事を探させることになる |
+
+**記事を出したと報告する文に、プレビュー URL が入っていなければ未完了。**
