@@ -100,11 +100,59 @@ mkdir -p "$task_tmp"
 #
 # 既定は 15 分。投稿を 3 分 待つタスクが複数あるので、短すぎると誤爆する。
 TASK_TIMEOUT="${OPS_TASK_TIMEOUT:-900}"
-TIMEOUT_BIN=""
-for _c in timeout gtimeout; do
-  if command -v "$_c" >/dev/null 2>&1; then TIMEOUT_BIN="$(command -v "$_c")"; break; fi
-done
-[ -z "$TIMEOUT_BIN" ] && echo "ops-run-tasks: timeout が無いので制限時間なしで走らせる" >&2
+
+# **`timeout` は macOS に無い。** 2026-09-13 に実測した。
+#
+#   line 368: timeout: command not found
+#
+# クラウド側（Linux）で検証したときは通っていたので、**環境が違うのに
+# そこで確かめたつもりになっていた。** coreutils を前提にしない。
+#
+# 素の bash だけで打ち切る。
+#
+# **プロセスグループ指定（`kill -TERM -$pid`）は使わない。**
+# 子がグループリーダーになっていない環境では、**呼び出し側のグループごと落とす。**
+# 2026-09-13 の検証で、テスト用シェル自身が落ちた（exit 144）。
+# ポーラーを自分で殺しては元も子もない。
+#
+# 代わりに `ps` の親子関係を辿って、**下向きにだけ**落とす。
+
+# **子孫を全部 拾って落とす。** `pkill -P` は直接の子だけなので孫が残る。
+# 2026-09-13 の検証で実際に `sleep` が 1 件 生き残った。
+# 止め損ねると Chrome や node が居座り、次の周回の邪魔をする。
+descendants() {
+  # 子孫の PID を深さ優先で並べる（自分自身は含めない）
+  local root="$1" p kids
+  kids="$(ps -Ao pid,ppid 2>/dev/null | awk -v r="$root" '$2==r {print $1}')"
+  for p in $kids; do echo "$p"; descendants "$p"; done
+}
+
+run_limited() {
+  # 使い方: run_limited <秒> <出力先ファイル> <コマンド...>
+  # 戻り値: コマンドの rc。打ち切ったときは 124
+  local limit="$1" outf="$2"; shift 2
+  "$@" > "$outf" 2>&1 &
+  local pid=$! w=0
+  while [ "$w" -lt "$limit" ]; do
+    kill -0 "$pid" 2>/dev/null || break
+    sleep 1
+    w=$((w + 1))
+  done
+  if kill -0 "$pid" 2>/dev/null; then
+    # **落とす前に PID を控える。**
+    # TERM を撃つと孫は親を失って付け替わり、KILL の時点ではもう辿れない。
+    # 2026-09-13 の検証で、それで `sleep` が 1 件 生き残った。
+    local victims p
+    victims="$(descendants "$pid") $pid"
+    for p in $victims; do kill -TERM "$p" 2>/dev/null || true; done
+    sleep 3
+    for p in $victims; do kill -KILL "$p" 2>/dev/null || true; done
+    wait "$pid" 2>/dev/null || true
+    return 124
+  fi
+  wait "$pid"
+  return $?
+}
 
 ran=0
 results=""
@@ -127,16 +175,14 @@ for t in $(git -C "$MAIN_REPO" ls-tree --name-only "origin/main:ops/tasks" 2>/de
   #
   # `timeout` は macOS の素の状態には無い（coreutils）。
   # **無ければ無いで動くようにする。** 当て推量で失敗させない。
-  if [ -n "$TIMEOUT_BIN" ]; then
-    out="$("$TIMEOUT_BIN" -s TERM -k 30 "$TASK_TIMEOUT" /bin/bash "$task_tmp/$t" 2>&1)"
-    rc=$?
-  else
-    out="$(/bin/bash "$task_tmp/$t" 2>&1)"
-    rc=$?
-  fi
+  task_out="$task_tmp/$t.out"
+  run_limited "$TASK_TIMEOUT" "$task_out" /bin/bash "$task_tmp/$t"
+  rc=$?
+  out="$(cat "$task_out" 2>/dev/null)"
+  rm -f "$task_out" 2>/dev/null
   out="$(printf '%s' "$out" | tail -5 | tr '\n' ' ' | tr -d '"\\' | cut -c1-300)"
-  # rc=124 は timeout が切った合図。**印を必ず付ける**ので、次の周回では飛ばされる
-  if [ "$rc" = "124" ] || [ "$rc" = "137" ]; then
+  # rc=124 は打ち切った合図。**印を必ず付ける**ので、次の周回では飛ばされる
+  if [ "$rc" = "124" ]; then
     out="制限時間 ${TASK_TIMEOUT} 秒 を超えたので打ち切った / $out"
   fi
   printf '%s rc=%s\n' "$(date -u +%Y-%m-%dT%H:%M:%SZ)" "$rc" > "$WT/done/$t"

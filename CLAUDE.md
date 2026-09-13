@@ -375,6 +375,43 @@ launchctl list | grep -qF "$LABEL"          # ← **これが証拠**
 **ログに「reloaded」と書く前に、載ったかを見る。** 実際に、載っていないのに
 8 本すべて「reloaded」とログに書いた。
 
+### 14. クラウド（Linux）で確かめても、Mac で確かめたことにならない（2026-09-13）
+
+**クラウドセッションは Linux、実行先は macOS。別物である。**
+「ローカルで検証した」と書いたものが、Mac では動かないことが 1 日で 2 回 起きた。
+
+| クラウド（Linux・Node v22） | Mac（macOS・Node v24） |
+| --- | --- |
+| `timeout` が**在る** | **無い**（coreutils。`gtimeout` も入っていない） |
+| `node --check foo.js.new` が**通る** | **弾く**（`ERR_UNKNOWN_FILE_EXTENSION`） |
+
+どちらも**黙って壊れた。** 番人は初回実行に失敗して `status.json` を作らず、
+`mutual-prune.js` は 1 行も設置されなかった。**どちらもレポートを読むまで気づけなかった。**
+
+#### `ops/tasks` を書くときに使ってはいけないもの
+
+| 使わない | 代わりに |
+| --- | --- |
+| `timeout` / `gtimeout` | **素の bash で打ち切る**（`scripts/ops-run-tasks.sh` の `run_limited` を写す） |
+| 一時ファイルに `.new` / `.tmp` を付ける | **拡張子は保つ**（`.mutual-prune-install.js` のように隠しファイル名にする） |
+| `playwright` | **`playwright-core`**（ルール 13 の表と同じ根） |
+| `sed -i` | macOS は `-i ''` が要る。**`awk` で書いて `mv`** |
+| `date -d` | macOS は `-v`。**`date` の計算を避けて node に渡す** |
+| `stat -c` | macOS は `stat -f`。**このリポジトリの既存タスクの書き方を写す** |
+
+#### プロセスを打ち切るときの落とし穴（2 回 踏んだ）
+
+- **`kill -TERM -$pid`（プロセスグループ指定）を使わない。** 子がグループリーダーで
+  なければ**呼び出し側のグループごと落ちる。** テスト用シェルが実際に死んだ（exit 144）
+- **落とす前に子孫の PID を控える。** TERM を撃つと孫は親を失って付け替わり、
+  KILL の時点ではもう辿れない。実際に `sleep` が 1 件 生き残った
+
+#### 先に棚卸しを見る
+
+Mac で何が使えるかは [`docs/mac-environment.md`](docs/mac-environment.md) にある。
+**推測で書く前にここを読む。** 載っていないものを使うなら、
+タスクの先頭で `command -v` を確かめ、**無ければ代替に切り替えるか、理由を書いて止まる。**
+
 ## OpenClaw 連携
 
 OpenClaw は利用者の Mac（`home-mac` / 192.168.2.102）で動く常駐エージェント。
