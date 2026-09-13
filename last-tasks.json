@@ -1,4 +1,3 @@
 [
-      {"task": "x68-skip-ads-before-picking.sh", "rc": 0, "out": "広告を選ぶ前に弾く / skip-ads-before-picking.md 93 行"},
-      {"task": "x69-hashtag-supply.sh", "rc": 0, "out": "ハッシュタグ側の候補不足 / hashtag-supply.md 140 行"}
+      {"task": "x70-kickstart-and-verify.sh", "rc": 0, "out": "手動起動と確認 / kickstart-and-verify.md 73 行"}
   ]
