@@ -1,1 +1,5 @@
-[]
+[
+      {"task": "x50-fix-env-assumptions.sh", "rc": 0, "out": "環境差の修正と全体の再起動 / fix-env-assumptions.md 206 行"},
+      {"task": "x51-install-mutual-prune-v2.sh", "rc": 124, "out": "制限時間 900 秒 を超えたので打ち切った / "},
+      {"task": "x52-mac-environment-inventory.sh", "rc": 0, "out": "Mac 環境の棚卸し / mac-environment.md 164 行"}
+  ]
