@@ -1,3 +1,3 @@
 [
-      {"task": "x65-caps-and-verify-x64.sh", "rc": 0, "out": "上限と x64 の確認 / caps-and-verify-x64.md 142 行"}
+      {"task": "x66-read-orchestrator.sh", "rc": 0, "out": "orchestrator の実物 / read-orchestrator.md 264 行"}
   ]
