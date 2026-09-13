@@ -68,6 +68,12 @@
 
 <!-- 新しい記録がこの下に追加される（新しいものが上） -->
 
+### 2026-09-13 — x68（広告を選ぶ前に弾く）と x67（返信きっかけのフォローにフォロワー数を記録）を適用し、21:06 の手動起動で両方 効いたことを実測で確認。ad_skipped=3/considered=11/picked=4、followers=1100 の記録が初めて入った。今日の投稿は 12 件 すべて x_tweet_id あり。x69 で hashtag-follow が trend-detect を供給元にしていることが判明し、弾かれる理由は follower count out of range が 94 件 で突出
+
+次のアクション:
+
+- [ ] follow-handle.js の exec err 28 件 の原因を見る。フォロワー数の上限 50000・下限 100 は followers_at_follow が溜まるまで触らない。滞留 58 件 のアンフォローは未着手
+
 ### 2026-09-13 — x65/x66/x67 を実行。フォローの上限の実値を確認（competitor 30・hashtag 90・reply_follow 30・MAX_PICKS 4・FORCE_RUN=1 で日曜スキップ無効）。今日のフォロー 9〜11 件 のうち 9 件 が既に返信きっかけで、競合刈り取りは 30 件 試して 1 件 通過のみ。comment-orchestrator.sh にも followers_at_follow の記録を追加（bash -n OK・退避あり）
 
 次のアクション:
