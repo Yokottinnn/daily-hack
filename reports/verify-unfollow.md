@@ -36,11 +36,11 @@ x58 は「期限がいちばん古い 1 件」を選んだが、**それは x53 
 **3 件 より多く外さない。** 直ったかを確かめるだけ。
 
 ```
-/var/folders/qm/dwxlvygj76q_fq054b8jrrr80000gn/T//ops-tasks/x60-verify-unfollow-properly.sh: line 63: 95789 Terminated: 15          "$@" > "$outf" 2>&1
-  実際にフォロー中: **177 件**
+/var/folders/qm/dwxlvygj76q_fq054b8jrrr80000gn/T//ops-tasks/x60-verify-unfollow-properly.sh: line 63: 96511 Terminated: 15          "$@" > "$outf" 2>&1
+  実際にフォロー中: **174 件**
   状態ファイルの期限到来: 260 件
-  **そのうち 実際にまだフォローしている: 38 件**
-  → 差の 222 件 は**既に外れている**（状態ファイルが古い）
+  **そのうち 実際にまだフォローしている: 35 件**
+  → 差の 225 件 は**既に外れている**（状態ファイルが古い）
   
     @<伏せ> → **外れた**（testid / 確認ダイアログ 有）
     @<伏せ> → **外れた**（testid / 確認ダイアログ 有）
