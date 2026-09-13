@@ -625,11 +625,17 @@ footer.foot .pr { margin-top: 6px; }
 .pos-dot.lbl-left b { left: auto; right: 22px; bottom: -8px; transform: none; }
 .pos-dot.lbl-right b { left: 22px; right: auto; bottom: -8px; transform: none; }
 .pos-axis-y { position: absolute; left: -46px; top: 0; bottom: 0; width: 42px; font-size: 11px; color: var(--ink-3); }
-.pos-axis-y span { position: absolute; right: 4px; transform: translateY(50%); }
+.pos-axis-y span { position: absolute; right: 4px; transform: translateY(50%); white-space: nowrap; }
 .pos-axis-x { position: relative; min-width: 480px; margin: 0 30px 0 46px; height: 22px; font-size: 11px; color: var(--ink-3); }
+/* **一般規則を先に置く。** 後ろに書くと :first-child / :last-child の transform を
+   同じ詳細度で打ち消してしまい、両端のラベルが枠の外で切れる
+   （2026-09-13 に「初期投資」が「初」になっているのを描画して見つけた）。 */
+/* **nowrap が要る。** 絶対配置で右端に置くと、収まる幅が無いぶん折り返して
+   1 文字幅に潰れる。「初期投資」が「初」になっていたのはこれ（2026-09-13 に実測：
+   span の offsetWidth が 11px しか無かった）。切れていたのではなく、潰れていた。 */
+.pos-axis-x span { position: absolute; transform: translateX(-50%); top: 4px; white-space: nowrap; }
 .pos-axis-x span:first-child { transform: none; }
 .pos-axis-x span:last-child { transform: translateX(-100%); }
-.pos-axis-x span { position: absolute; transform: translateX(-50%); top: 4px; }
 .pos-zone { position: absolute; font-size: 11.5px; font-weight: 800; color: var(--pink-300); letter-spacing: .04em; }
 .map-caption { font-size: 12px; color: var(--ink-3); margin: 4px 0 26px; line-height: 1.6; }
 
