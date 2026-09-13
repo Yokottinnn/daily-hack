@@ -198,9 +198,31 @@ for t in $(git -C "$MAIN_REPO" ls-tree --name-only "origin/main:ops/tasks" 2>/de
   #
   # `timeout` は macOS の素の状態には無い（coreutils）。
   # **無ければ無いで動くようにする。** 当て推量で失敗させない。
+  # **走り始めたことを先に残す。**
+  #
+  # `done/` の印も `reports/` もタスクが終わってから出るので、
+  # **長いタスクの最中は「止まっている」と「進んでいる」が外から区別できない。**
+  # 2026-09-13 に heartbeat が 49 分 止まったとき、まさにこれで判別できなかった。
+  #
+  # ロックの中に置くので、**実行が終われば trap で消える。** 残っていたら
+  # 「そのタスクを走らせている最中（または落ちた）」という意味になる。
+  printf '%s %s\n' "$(date -u +%Y-%m-%dT%H:%M:%SZ)" "$t" > "$LOCK/running" 2>/dev/null || true
+  # 見える場所にも置き、**走り始めた時点で push する。**
+  # 終わってから push したのでは、長いタスクの最中にちょうど見えない。
+  # 1 ファイルだけの小さな push なので、1 分間隔のポーラーでも負担にならない。
+  printf '{"task":"%s","started_at":"%s","budget_left":%s}\n' \
+    "$t" "$(date -u +%Y-%m-%dT%H:%M:%SZ)" "$(( RUN_BUDGET - elapsed ))" \
+    > "$WT/running.json" 2>/dev/null || true
+  if [ "${OPS_PUSH:-}" = "1" ]; then
+    git -C "$WT" add -A running.json >/dev/null 2>&1 || true
+    git -C "$WT" commit -q -m "ops: running $t" >/dev/null 2>&1 || true
+    git -C "$WT" push -q --force origin "HEAD:$BRANCH" >/dev/null 2>&1 || true
+  fi
+
   task_out="$task_tmp/$t.out"
   run_limited "$TASK_TIMEOUT" "$task_out" /bin/bash "$task_tmp/$t"
   rc=$?
+  rm -f "$WT/running.json" 2>/dev/null || true
   out="$(cat "$task_out" 2>/dev/null)"
   rm -f "$task_out" 2>/dev/null
   out="$(printf '%s' "$out" | tail -5 | tr '\n' ' ' | tr -d '"\\' | cut -c1-300)"

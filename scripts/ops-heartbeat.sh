@@ -163,6 +163,16 @@ tasks_json="$(cat "$WT/last-tasks.json" 2>/dev/null)"
 [ -n "$tasks_json" ] || tasks_json="[]"
 printf '[]\n' > "$WT/last-tasks.json" 2>/dev/null || true
 
+# **いま走っているタスク。** `ops-run-tasks.sh` が走り始めた時点で書く。
+#
+# `done/` の印も `reports/` もタスクが終わってから出るので、
+# 長いタスクの最中は「止まっている」と「進んでいる」が外から区別できない。
+# 2026-09-13 に heartbeat が 49 分 止まったとき、まさにこれで判別できなかった。
+#
+# **残っていれば「実行中、または落ちた」。** 終われば消える。
+running_json="$(cat "$WT/running.json" 2>/dev/null)"
+[ -n "$running_json" ] || running_json="null"
+
 # --- 現在の稼働状況を集める ----------------------------------------------
 
 now="$(date -u +%Y-%m-%dT%H:%M:%SZ)"
@@ -577,6 +587,7 @@ try{
   echo "  ],"
   echo "  \"reconnect\": \"$reconnect_status\","
   printf '  "tasks": %s,\n' "$tasks_json"
+  printf '  "running": %s,\n' "$running_json"
   echo "  \"auth\": {"
   echo "    \"ok\": $auth_ok,"
   echo "    \"expires_at\": $auth_expires,"
