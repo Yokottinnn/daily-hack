@@ -43,14 +43,14 @@
 | `follows_back` | **相手がこちらをフォローしているか** |
 | `checked_at` | いつ確かめたか |
 
-既に外れているものには `unfollowed_at` を入れて、**期限到�/var/folders/qm/dwxlvygj76q_fq054b8jrrr80000gn/T//ops-tasks/x61-record-followback-truth.sh: line 72: 17407 Terminated: 15          "$@" > "$outf" 2>&1
+既に外れているものには `unfollowed_at` を入れて、**期限到�/var/folders/qm/dwxlvygj76q_fq054b8jrrr80000gn/T//ops-tasks/x61-record-followback-truth.sh: line 72: 17407 Terminated: 15          "$@" >/var/folders/qm/dwxlvygj76q_fq054b8jrrr80000gn/T//ops-tasks/x61-record-followback-truth.sh: line 72: 17832 Terminated: 15          "$@" > "$outf" 2>&1
   いまフォロー中 : **173 件**
   いまフォロワー : **254 件**
   
   === 記録した ===
     状態ファイルの件数        : 346 件
     いまもフォローしている    : **59 件**
-    既に外れている            : 287 件（うち **272 件** に印を付けた）
+    既に外れている            : 287 件（うち **0 件** に印を付けた）
     相手がこちらをフォロー    : **56 件**
     **フォロー返し率: 16.2%**（56 / 346）
   
