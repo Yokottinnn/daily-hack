@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-13T02:36:02Z",
+  "generated_at": "2026-09-13T03:06:09Z",
   "login_lock": {"present": false, "age_hours": 0},
   "cdp": {"healthy": true, "port": 18810},
   "x_jobs": {"loaded": 8, "expected": 8, "ai_total": 12, "halted": false, "missing": []},
-  "last_reply": {"at": "2026-09-12T18:06:31.876Z", "age_hours": 8, "stale": true},
+  "last_reply": {"at": "2026-09-13T03:03:41.082Z", "age_hours": 0, "stale": false},
   "supervisor": {"at":"2026-09-12T20:00:06Z","date_jst":"2026-09-13","ran":8,"total":9,"not_run":["mutual-prune"],"fixed":[]},
   "host": "NaokinoMacBook-Pro-2.local",
   "job_count": 18,
@@ -36,11 +36,11 @@
   },
   "activity": {
     "date": "2026-09-13",
-    "posted_today": 6,
+    "posted_today": 12,
     "detail": "ログを走査した",
     "sources": [
-      {"file": "comment-orchestrator.log", "count": 2},
-      {"file": "comment-warmup.log", "count": 4}
+      {"file": "comment-orchestrator.log", "count": 4},
+      {"file": "comment-warmup.log", "count": 8}
     ]
   },
   "unloaded_count": 60,
