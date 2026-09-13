@@ -1,3 +1,3 @@
 [
-      {"task": "x61-record-followback-truth.sh", "rc": 0, "out": "フォロー返しを記録する / record-followback.md 115 行"}
+      {"task": "x62-measure-pass-rate.sh", "rc": 0, "out": "通過率の実績とフォロワー数の書き場所 / measure-pass-rate.md 244 行"}
   ]
