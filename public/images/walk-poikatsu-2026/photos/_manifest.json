@@ -1,0 +1,38 @@
+{
+  "shoes.jpg": {
+    "title": "File:Feet of women cycling and walking.jpg",
+    "lic": "CC BY-SA 4.0",
+    "artist": "Philippe Alès",
+    "page": "https://commons.wikimedia.org/wiki/File:Feet%20of%20women%20cycling%20and%20walking.jpg"
+  },
+  "crossing-day.jpg": {
+    "title": "File:JAP Tokyo Shibuya Hachiko Square.jpg",
+    "lic": "CC BY-SA 4.0",
+    "artist": "Grueslayer",
+    "page": "https://commons.wikimedia.org/wiki/File:JAP%20Tokyo%20Shibuya%20Hachiko%20Square.jpg"
+  },
+  "crossing-night.jpg": {
+    "title": "File:1 shibuya crossing 2012.jpg",
+    "lic": "CC BY-SA 4.0",
+    "artist": "chensiyuan",
+    "page": "https://commons.wikimedia.org/wiki/File:1%20shibuya%20crossing%202012.jpg"
+  },
+  "park.jpg": {
+    "title": "File:Kids walking on park path (Unsplash).jpg",
+    "lic": "CC0",
+    "artist": "Jamie Taylor",
+    "page": "https://commons.wikimedia.org/wiki/File:Kids%20walking%20on%20park%20path%20(Unsplash).jpg"
+  },
+  "airplane.jpg": {
+    "title": "File:Airliner wing and clouds over South Pacific.jpg",
+    "lic": "CC BY-SA 4.0",
+    "artist": "Daniel Case",
+    "page": "https://commons.wikimedia.org/wiki/File:Airliner%20wing%20and%20clouds%20over%20South%20Pacific.jpg"
+  },
+  "bitcoin.jpg": {
+    "title": "File:25 BTC Gold Casascius coin 2011 by Gage Skidmore.jpg",
+    "lic": "CC BY-SA 3.0",
+    "artist": "Gage Skidmore",
+    "page": "https://commons.wikimedia.org/wiki/File:25%20BTC%20Gold%20Casascius%20coin%202011%20by%20Gage%20Skidmore.jpg"
+  }
+}
