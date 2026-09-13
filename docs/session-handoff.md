@@ -68,6 +68,12 @@
 
 <!-- 新しい記録がこの下に追加される（新しいものが上） -->
 
+### 2026-09-13 — x65/x66/x67 を実行。フォローの上限の実値を確認（competitor 30・hashtag 90・reply_follow 30・MAX_PICKS 4・FORCE_RUN=1 で日曜スキップ無効）。今日のフォロー 9〜11 件 のうち 9 件 が既に返信きっかけで、競合刈り取りは 30 件 試して 1 件 通過のみ。comment-orchestrator.sh にも followers_at_follow の記録を追加（bash -n OK・退避あり）
+
+次のアクション:
+
+- [ ] 候補を選ぶ前に広告を弾く変更（生成 9 → 16 件/日・月 $0.81 → $1.44・+$0.63）の可否を確認してから実装する。記録が入ったかは 22:00 JST の周回後に reply-followers.json で確かめる
+
 ### 2026-09-13 — x62/x63/x64 を実行。通過率は 56%（picked 16 / enqueue 9・9/13 実測）で、却下の主因はゲートではなく入口の広告投稿スキップ（$0）。source 別フォロー返し率は competitor-follower 11.9% / comment-orchestrator 21.5% / hashtag-follow 15.4%（全体 16.2%）。follow-handle.js が返す profile からフォロワー数を記録するよう competitor-follower-follow.js と hashtag-follow.js を修正（適用済み・退避あり）
 
 次のアクション:
