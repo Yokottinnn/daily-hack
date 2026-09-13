@@ -540,6 +540,60 @@ try{
   fi
   printf '  "supervisor": %s,\n' "$sup"
 
+  # ─── 帯ごとのフォロー返し率（2026-09-13） ───
+  #
+  # **上限 50000 ・ 下限 100 は 2026-05-25 に決めたまま検証されていない。**
+  # x69 の実測では、弾かれた理由の 1 位が `follower count out of range` で 94 件。
+  # **いちばん多く弾いている条件なのに、それが正しいかを示すデータが無かった。**
+  #
+  # x64 / x67 で `followers_at_follow` を記録し始めた（2026-09-13 21:10 が 1 件目）。
+  # **ここに帯ごとの返し率を出しておけば、溜まった時点で判断できる。**
+  #
+  # **`mature` は「フォローから 72 時間 以上 経った分」。**
+  # 直後は返ってこないので、率は mature で見る。n が小さい帯の率は当てにならない。
+  #
+  # **API 課金は発生しない**（JSON を読んで数えるだけ）。
+  # 1 回あたり $0 ／ 1 日あたり $0 ／ 1 か月あたり $0。
+  local fb="null" fb_f="$ws/data/reply-followers.json"
+  if [ -f "$fb_f" ]; then
+    fb=$(/usr/local/bin/node -e '
+const fs = require("fs");
+try {
+  const j = JSON.parse(fs.readFileSync(process.argv[1], "utf8"));
+  const rows = Object.entries(j).map(([k, v]) => (v && typeof v === "object" ? v : {}));
+  const EDGES = [[0,99],[100,299],[300,999],[1000,4999],[5000,49999],[50000,1e9]];
+  const key = (n) => { for (const [a,b] of EDGES) if (n >= a && n <= b) return a + "-" + (b >= 1e9 ? "up" : b); return "?"; };
+  const MATURE_MS = 72 * 3600 * 1000, now = Date.now();
+  const bands = {};
+  let withCount = 0;
+  for (const r of rows) {
+    const f = r.followers_at_follow;
+    if (typeof f !== "number") continue;
+    withCount++;
+    const k = key(f);
+    const c = bands[k] || (bands[k] = { n: 0, back: 0, mature: 0, mature_back: 0 });
+    c.n++;
+    const back = r.follows_back === true;
+    if (back) c.back++;
+    const t = Date.parse(r.followed_at || "");
+    if (t && now - t >= MATURE_MS) { c.mature++; if (back) c.mature_back++; }
+  }
+  for (const k of Object.keys(bands)) {
+    const c = bands[k];
+    c.rate = c.mature ? Math.round((c.mature_back / c.mature) * 1000) / 10 : null;
+  }
+  console.log(JSON.stringify({
+    with_count: withCount,
+    total_rows: rows.length,
+    bands,
+    note: withCount < 20 ? "件数が足りない。判断しない" : "mature の率で見る",
+  }));
+} catch (e) { console.log("null"); }
+' "$fb_f" 2>/dev/null) || fb="null"
+    [ -z "$fb" ] && fb="null"
+  fi
+  printf '  "followback_bands": %s,\n' "$fb"
+
   # ─── 返信が 8 時間 出ていなければ Slack に 1 回だけ鳴らす（2026-09-13） ───
   #
   # **2026-09-09 22:03 を最後に 75 時間 返信が出ず、誰も気づかなかった。**
