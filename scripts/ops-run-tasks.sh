@@ -158,9 +158,32 @@ ran=0
 results=""
 first=1
 
+# --- 1 回の呼び出し全体の持ち時間 ------------------------------------------
+#
+# **`ops-heartbeat.sh` はここを同期で待つ。** 長いタスクが続くと
+# 30 分ごとの死活監視そのものが遅れる。
+#
+# 2026-09-13 に実際に起きた。`x50`（trend-detect 最大 5 分 ＋ orchestrator 最大 7 分
+# ＋ kickstart 3 本）だけで 15 分 近くかかり、**heartbeat が 49 分 止まった。**
+# 「押されなくなること自体が異常の証拠」という設計なので、
+# **監視が遅れること自体が、黙った故障と見分けがつかなくなる。**
+#
+# 予算を超えたら**新しいタスクを始めない。** 残りは次の周回へ回す。
+# **途中で切るのではなく、始めない。** 1 分ごとのポーラーがすぐ拾う。
+RUN_BUDGET="${OPS_RUN_BUDGET:-1200}"
+RUN_START="$(date +%s)"
+
 for t in $(git -C "$MAIN_REPO" ls-tree --name-only "origin/main:ops/tasks" 2>/dev/null); do
   case "$t" in *.sh) ;; *) continue ;; esac
   [ -f "$WT/done/$t" ] && continue
+
+  # **始める前に残り時間を見る。**
+  elapsed=$(( $(date +%s) - RUN_START ))
+  if [ "$elapsed" -ge "$RUN_BUDGET" ]; then
+    echo "ops-run-tasks: 予算 ${RUN_BUDGET} 秒 を使い切った（${elapsed} 秒）。残りは次の周回へ" >&2
+    break
+  fi
+
   git -C "$MAIN_REPO" show "origin/main:ops/tasks/$t" > "$task_tmp/$t" 2>/dev/null || continue
   [ -s "$task_tmp/$t" ] || continue
 
