@@ -1,1 +1,4 @@
-[]
+[
+      {"task": "x54-why-zero-candidates.sh", "rc": 0, "out": "候補 0 件 の切り分け / why-zero-candidates.md 149 行"},
+      {"task": "x55-add-candidate-sources.sh", "rc": 0, "out": "候補の供給元を測る / candidate-sources.md 96 行"}
+  ]
