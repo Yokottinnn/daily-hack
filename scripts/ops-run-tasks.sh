@@ -158,9 +158,32 @@ ran=0
 results=""
 first=1
 
+# --- 1 回の呼び出し全体の持ち時間 ------------------------------------------
+#
+# **`ops-heartbeat.sh` はここを同期で待つ。** 長いタスクが続くと
+# 30 分ごとの死活監視そのものが遅れる。
+#
+# 2026-09-13 に実際に起きた。`x50`（trend-detect 最大 5 分 ＋ orchestrator 最大 7 分
+# ＋ kickstart 3 本）だけで 15 分 近くかかり、**heartbeat が 49 分 止まった。**
+# 「押されなくなること自体が異常の証拠」という設計なので、
+# **監視が遅れること自体が、黙った故障と見分けがつかなくなる。**
+#
+# 予算を超えたら**新しいタスクを始めない。** 残りは次の周回へ回す。
+# **途中で切るのではなく、始めない。** 1 分ごとのポーラーがすぐ拾う。
+RUN_BUDGET="${OPS_RUN_BUDGET:-1200}"
+RUN_START="$(date +%s)"
+
 for t in $(git -C "$MAIN_REPO" ls-tree --name-only "origin/main:ops/tasks" 2>/dev/null); do
   case "$t" in *.sh) ;; *) continue ;; esac
   [ -f "$WT/done/$t" ] && continue
+
+  # **始める前に残り時間を見る。**
+  elapsed=$(( $(date +%s) - RUN_START ))
+  if [ "$elapsed" -ge "$RUN_BUDGET" ]; then
+    echo "ops-run-tasks: 予算 ${RUN_BUDGET} 秒 を使い切った（${elapsed} 秒）。残りは次の周回へ" >&2
+    break
+  fi
+
   git -C "$MAIN_REPO" show "origin/main:ops/tasks/$t" > "$task_tmp/$t" 2>/dev/null || continue
   [ -s "$task_tmp/$t" ] || continue
 
@@ -175,9 +198,31 @@ for t in $(git -C "$MAIN_REPO" ls-tree --name-only "origin/main:ops/tasks" 2>/de
   #
   # `timeout` は macOS の素の状態には無い（coreutils）。
   # **無ければ無いで動くようにする。** 当て推量で失敗させない。
+  # **走り始めたことを先に残す。**
+  #
+  # `done/` の印も `reports/` もタスクが終わってから出るので、
+  # **長いタスクの最中は「止まっている」と「進んでいる」が外から区別できない。**
+  # 2026-09-13 に heartbeat が 49 分 止まったとき、まさにこれで判別できなかった。
+  #
+  # ロックの中に置くので、**実行が終われば trap で消える。** 残っていたら
+  # 「そのタスクを走らせている最中（または落ちた）」という意味になる。
+  printf '%s %s\n' "$(date -u +%Y-%m-%dT%H:%M:%SZ)" "$t" > "$LOCK/running" 2>/dev/null || true
+  # 見える場所にも置き、**走り始めた時点で push する。**
+  # 終わってから push したのでは、長いタスクの最中にちょうど見えない。
+  # 1 ファイルだけの小さな push なので、1 分間隔のポーラーでも負担にならない。
+  printf '{"task":"%s","started_at":"%s","budget_left":%s}\n' \
+    "$t" "$(date -u +%Y-%m-%dT%H:%M:%SZ)" "$(( RUN_BUDGET - elapsed ))" \
+    > "$WT/running.json" 2>/dev/null || true
+  if [ "${OPS_PUSH:-}" = "1" ]; then
+    git -C "$WT" add -A running.json >/dev/null 2>&1 || true
+    git -C "$WT" commit -q -m "ops: running $t" >/dev/null 2>&1 || true
+    git -C "$WT" push -q --force origin "HEAD:$BRANCH" >/dev/null 2>&1 || true
+  fi
+
   task_out="$task_tmp/$t.out"
   run_limited "$TASK_TIMEOUT" "$task_out" /bin/bash "$task_tmp/$t"
   rc=$?
+  rm -f "$WT/running.json" 2>/dev/null || true
   out="$(cat "$task_out" 2>/dev/null)"
   rm -f "$task_out" 2>/dev/null
   out="$(printf '%s' "$out" | tail -5 | tr '\n' ' ' | tr -d '"\\' | cut -c1-300)"
