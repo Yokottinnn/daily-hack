@@ -1,1 +1,5 @@
-[]
+[
+      {"task": "x57-follower-count-and-followback.sh", "rc": 0, "out": "フォロワー数 0 の正体と返し率 / follower-count-truth.md 111 行"},
+      {"task": "x58-fix-unfollow-handle.sh", "rc": 0, "out": "アンフォローを直す / fix-unfollow-handle.md 147 行"},
+      {"task": "x59-block-beggar-posts.sh", "rc": 0, "out": "物乞い投稿を入口で落とす / block-beggar.md 65 行"}
+  ]
