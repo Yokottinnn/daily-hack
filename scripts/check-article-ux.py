@@ -27,7 +27,7 @@ Usage:
   npm run build && python3.11 scripts/check-article-ux.py
   python3.11 scripts/check-article-ux.py dist/posts/<slug>/index.html
 """
-import re, sys, glob, pathlib
+import re, sys, glob, json, pathlib
 
 def body_of(html):
     m = re.search(r'<article[^>]*>(.*?)</article>', html, re.S)
@@ -113,21 +113,83 @@ def check(path):
     return issues
 
 
-def main():
-    targets = sys.argv[1:] or sorted(glob.glob("dist/posts/*/index.html"))
-    if not targets:
-        print("dist/ が無い。先に npm run build を実行すること。", file=sys.stderr)
-        return 2
-    bad = 0
+BASELINE = pathlib.Path(__file__).resolve().parent.parent / "docs" / "article-ux-baseline.json"
+
+
+def collect(targets):
+    """{記事slug: [指摘, ...]} を返す。"""
+    out = {}
     for t in targets:
         iss = check(t)
         if iss:
-            bad += 1
-            print(f"\n⚠ {pathlib.Path(t).parent.name}")
-            for i in iss:
-                print(f"    • {i}")
-    if bad:
-        print(f"\n{bad} 記事に指摘あり。")
+            out[pathlib.Path(t).parent.name] = sorted(iss)
+    return out
+
+
+def main():
+    args = [a for a in sys.argv[1:] if not a.startswith("--")]
+    flags = {a for a in sys.argv[1:] if a.startswith("--")}
+    targets = args or sorted(glob.glob("dist/posts/*/index.html"))
+    if not targets:
+        print("dist/ が無い。先に npm run build を実行すること。", file=sys.stderr)
+        return 2
+
+    found = collect(targets)
+
+    # --- ベースラインを書き出す ---
+    if "--update-baseline" in flags:
+        BASELINE.parent.mkdir(parents=True, exist_ok=True)
+        BASELINE.write_text(
+            json.dumps(found, ensure_ascii=False, indent=2, sort_keys=True) + "\n",
+            encoding="utf-8")
+        n = sum(len(v) for v in found.values())
+        print(f"ベースラインを書いた: {BASELINE}（{len(found)} 記事 / {n} 件）")
+        return 0
+
+    # --- ベースラインと比べる（CI はこちら） ---
+    #
+    # **2026-09-14 の時点で 74 本中 63 本に指摘がある。** ルールが 2026-08 に
+    # 出来たのに、それ以前の記事へ一度も当てていなかったため。いきなり全部を
+    # 落とすと PR が 1 本も通らないので、**ベースラインに載っている指摘は見逃し、
+    # 新しく増えたものだけで落とす。**
+    #
+    # こうすると「新しい記事は指摘ゼロ」と「直した記事を悪化させない」が両立し、
+    # 積み残しは docs/article-ux-baseline.json に見える形で残る。
+    if "--baseline" in flags:
+        if not BASELINE.exists():
+            print(f"ベースラインが無い: {BASELINE}\n"
+                  f"先に --update-baseline で作ること。", file=sys.stderr)
+            return 2
+        base = json.loads(BASELINE.read_text(encoding="utf-8"))
+        new_issues = {}
+        for slug, iss in found.items():
+            known = set(base.get(slug, []))
+            added = [i for i in iss if i not in known]
+            if added:
+                new_issues[slug] = added
+        if new_issues:
+            print("\n🚨 ベースラインに無い指摘が増えている。")
+            for slug, iss in sorted(new_issues.items()):
+                print(f"\n⚠ {slug}")
+                for i in iss:
+                    print(f"    • {i}")
+            print("\n直すこと。意図した変更なら、こちらでベースラインを更新する:")
+            print("    python3 scripts/check-article-ux.py --update-baseline")
+            return 1
+        gone = sum(1 for slug in base if slug not in found)
+        left = sum(len(v) for v in found.values())
+        print(f"✓ 新しい指摘なし（既知の積み残し {len(found)} 記事 / {left} 件）")
+        if gone:
+            print(f"  {gone} 記事が指摘ゼロになった。--update-baseline で反映できる。")
+        return 0
+
+    # --- 素の実行（1 本を書いているときはこれ） ---
+    for slug, iss in sorted(found.items()):
+        print(f"\n⚠ {slug}")
+        for i in iss:
+            print(f"    • {i}")
+    if found:
+        print(f"\n{len(found)} 記事に指摘あり。")
         return 1
     print(f"✓ {len(targets)} 記事すべて OK")
     return 0
