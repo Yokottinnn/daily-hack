@@ -38,6 +38,20 @@ jobs:
       - name: Astro type check
         run: npx astro check --minimumSeverity error
 
+      # **記事の品質チェックを CI に入れる（2026-09-14）。**
+      #
+      # `check-article-ux.py` は 2026-08-09 からあったが、**呼んでいる場所が
+      # どこにも無かった。** 書いている本人が 1 ファイルを手で指定したときしか
+      # 走らず、ルールが出来る前に書かれた記事には一度も当たっていなかった。
+      # 2026-09-14 に全記事へ当てたら 74 本中 63 本に指摘が出た。
+      #
+      # 積み残しは docs/article-ux-baseline.json に記録し、**新しく増えた指摘だけ**
+      # で落とす。新記事は指摘ゼロ、既存記事は悪化させられない、が両立する。
+      - name: Article quality check
+        run: |
+          python3 scripts/check-article-ux.py --baseline
+          python3 scripts/check-md-bold.py dist/posts/*/index.html
+
       - name: Deploy to Cloudflare Pages
         id: deploy
         uses: cloudflare/wrangler-action@v3
