@@ -2,6 +2,7 @@
 title: "大磯プリンスホテル×SEIBU PRINCE CLUB（SPGR）特典完全ガイド｜インフィニティプール・ロングビーチを最安で攻略 2026年版"
 description: "2026年5月16-17日に大磯プリンスホテルへ実際に滞在したアタシが、インフィニティプール・THERMAL SPA・大磯ロングビーチを家計に優しく攻略する方法を本気で解説。SPGR会員特典差まで全部ぶっちゃける。"
 publishDate: 2026-05-20
+updatedDate: 2026-09-14
 category: ["services", "campaigns"]
 tags: ["大磯プリンスホテル", "SEIBU PRINCE CLUB", "Seibu Prince Global Rewards", "プレミアム会員", "インフィニティプール", "大磯ロングビーチ", "ホテル", "旅行"]
 isPR: false
@@ -22,6 +23,48 @@ author: "hacker-ko"
   <div class="hakkako-mascot"><img src="/images/expr-04-cheer.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">先に結論。<strong>SPGRは年会費無料</strong>。Blueでも公式ベストレート＆ポイント還元3%付くから登録しないのは情弱。Platinum以上に上げると大磯ロングビーチ無料パス＋朝食ビュッフェ無料で、家族滞在なら<strong>年間10万円単位</strong>で得するわよ。</div>
 </div>
+
+## 30秒で分かる、大磯プリンス×SPGR
+
+<div class="event-picks">
+  <a class="event-pick" href="#thermal-spa-swave大磯プリンスの本当の目玉施設" style="--pick-img:url('/images/oiso/infinity-pool.jpg')">
+    <span class="pick-date">目玉</span>
+    <h4>インフィニティプール</h4>
+    <p>水温<strong>30〜38℃</strong>で季節調整。<strong>真冬でも入れる</strong>温水プールで、朝6時〜24時まで泳げる。</p>
+    <span class="pick-go">詳しく見る →</span>
+  </a>
+  <a class="event-pick" href="#大磯ロングビーチ首都圏最大級のプールspgr会員で家族割" style="--pick-img:url('/images/oiso/longbeach-overview.jpg')">
+    <span class="pick-date">夏季限定</span>
+    <h4>大磯ロングビーチ</h4>
+    <p>全長約1kmに<strong>9プール</strong>。宿泊者は半額、Platinum以上は<strong>1日4枚まで無料パス</strong>。</p>
+    <span class="pick-go">詳しく見る →</span>
+  </a>
+  <a class="event-pick" href="#seibu-prince-global-rewardsspgrとは旧seibu-prince-club" style="--pick-img:url('/images/oiso/hotel-exterior.jpg')">
+    <span class="pick-date">入口</span>
+    <h4>SPGRは年会費0円</h4>
+    <p>入会金も年会費も<strong>完全無料</strong>。登録しただけのBlueでも公式ベストレート＋<strong>約2.7%還元</strong>。</p>
+    <span class="pick-go">詳しく見る →</span>
+  </a>
+  <a class="event-pick" href="#大磯プリンス特化の会員特典spgrで何が変わる" style="--pick-img:url('/images/oiso/lobby-entrance.jpg')">
+    <span class="pick-date">特典</span>
+    <h4>大磯で効く会員特典</h4>
+    <p>ロングビーチ<strong>大人￥700引き</strong>、誕生月のドリンク、Platinum以上はカバーチャージ免除。</p>
+    <span class="pick-go">詳しく見る →</span>
+  </a>
+  <a class="event-pick" href="#sdining-の特別ディナー記念日に使うとお得感マシマシ" style="--pick-img:url('/images/oiso/sdining-main.jpg')">
+    <span class="pick-date">食事</span>
+    <h4>S.DINING</h4>
+    <p>湘南の食材を使った季節のコース。系列レストラン<strong>10回利用でギフト券</strong>が出る。</p>
+    <span class="pick-go">詳しく見る →</span>
+  </a>
+  <a class="event-pick" href="#年間利用シミュレーションどこから元が取れる" style="--pick-img:url('/images/oiso/sunset-pool-eyecatch.jpg')">
+    <span class="pick-date">損益分岐</span>
+    <h4>どこから元が取れる</h4>
+    <p>家族4人で1泊＋プールなら、Platinumに上げただけで<strong>1回の滞在で¥16,000</strong>浮く。</p>
+    <span class="pick-go">詳しく見る →</span>
+  </a>
+</div>
+<span class="event-picks-credit">カード画像は Daily Hack 編集部が2026年5月16〜17日の滞在時に撮影。</span>
 
 ## 大磯プリンスホテルってどんな場所？｜湘南の海沿いリゾート
 
@@ -58,6 +101,14 @@ author: "hacker-ko"
 <div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+35PU3E+4XZI+BXIYP" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/travelist-hotel-300x250.jpg" alt="【国内ホテル・宿泊・旅館予約｜トラベリスト】" width="300" height="250" loading="lazy"></a></div>
 <div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+36B9P6+44YI+HY069" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/yumeyado-300x250.jpg" alt="平日お得な宿泊ならゆめやどにおまかせ【ゆめやど】" width="300" height="250" loading="lazy"></a></div>
 </div>
+
+客室から朝食、プール、スパ、サウナまでひと通り映ってる動画があるので、行く前の下見に使える。
+
+<div class="yt-embed"><iframe src="https://www.youtube-nocookie.com/embed/7lO8fT0GTtY"
+  title="【完全版】大磯プリンスホテル ホテル紹介 [客室・設備・朝食・プール・スパ・サウナ 完全網羅]" loading="lazy" allowfullscreen
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe></div>
+
+<p class="source-note">動画：マルコ旅「【完全版】大磯プリンスホテル ホテル紹介」（YouTube）</p>
 
 ## THERMAL SPA S.WAVE｜大磯プリンスの本当の目玉施設
 
@@ -109,7 +160,7 @@ author: "hacker-ko"
 
 | 部屋 | 温度 | 推奨滞在 | 特徴 |
 |---|---|---|---|
-| フィンランドサウナ | 80〜100℃ | 5〜10分 | 高温乾式で積極発汗、サウナーの定番 |
+| [フィンランドサウナ](https://www.princehotels.co.jp/oiso/spa/) | 80〜100℃ | 5〜10分 | 高温乾式で積極発汗、サウナーの定番 |
 | パノラミックサウナ | 40〜50℃ | 30分 | 富士山・太平洋を眺める低温サウナ |
 | 岩盤浴室 | 約55℃ | 20分 | 発汗促進・免疫力向上を訴求 |
 | テピダリウム | 約35℃ | 30分 | アロマ香る瞑想空間 |
@@ -180,11 +231,29 @@ author: "hacker-ko"
   </figure>
 </div>
 
+サウナ室4種を実際に回した様子は、映像で見たほうが早い。
+
+<div class="yt-embed"><iframe src="https://www.youtube-nocookie.com/embed/_pajbI2NmeI"
+  title="【神奈川県大磯町】4種類のサウナと絶景インフィニティプールに大感動！【大磯プリンスホテル】" loading="lazy" allowfullscreen
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe></div>
+
+<p class="source-note">動画：キイロマッキー【サウナチャンネル】「4種類のサウナと絶景インフィニティプールに大感動！」（YouTube）</p>
+
 ### 4F SPA BAR & トリートメント｜湯上がりの仕上げ
 
-スパフロアには **SPA BAR（営業10:00〜20:00）** も併設。アルコール ¥900〜¥1,650／ノンアルコール ¥200〜¥1,000で、湯上がりに水平線見ながら一杯やれる。2026年7/4〜9/13は **季節限定パイナップルソーダ ¥1,000** も登場。
+スパフロアには **SPA BAR** も併設。湯上がりに水平線見ながら一杯やれる。トリートメントの **SEA VOYAGE SHONAN SALON** はアルガンオイル等を使ったボディ・フェイシャル系で、誕生月や記念日に予約しておくと記憶に残る使い方になる。
 
-トリートメントは **SEA VOYAGE SHONAN SALON**（10:00〜21:00、最終受付20:30）。アルガンオイル等を使ったボディ・フェイシャル系。誕生月や記念日に予約しておくと記憶に残る使い方になる。
+<div class="cmp-table-wrap">
+<table class="cmp-table spec-table">
+  <tbody>
+    <tr><th>SPA BAR 営業</th><td>10:00〜20:00</td></tr>
+    <tr><th>アルコール</th><td>¥900〜¥1,650</td></tr>
+    <tr><th>ノンアルコール</th><td>¥200〜¥1,000</td></tr>
+    <tr class="recommended"><th>夏の限定</th><td><strong>季節限定パイナップルソーダ ¥1,000</strong>（2026年7/4〜9/13）</td></tr>
+    <tr><th>トリートメント</th><td><a href="https://www.princehotels.co.jp/oiso/spa/" target="_blank" rel="noopener">SEA VOYAGE SHONAN SALON</a>　10:00〜21:00（最終受付20:30）</td></tr>
+  </tbody>
+</table>
+</div>
 
 ### 料金（2026年3月時点）｜会員価格は明確に得
 
@@ -192,7 +261,7 @@ author: "hacker-ko"
 
 | 利用区分 | 料金 | 備考 |
 |---|---|---|
-| 宿泊者（事前予約・スパ追加） | **+¥1,600 / 泊** | 3F温泉＋4Fスパ |
+| [宿泊者（事前予約・スパ追加）](https://www.princehotels.co.jp/oiso/spa/) | **+¥1,600 / 泊** | 3F温泉＋4Fスパ |
 | 宿泊者（当日申込・スパ追加） | +¥2,000 / 泊 | フロントで当日 |
 | **日帰り 温泉&スパ（SPGR会員）** | **¥4,400** | 一般は¥5,000、完全予約制 |
 | 日帰り 温泉のみ（3F） | 大人 ¥1,700 / 小人 ¥900 | 予約不要 |
@@ -208,38 +277,35 @@ author: "hacker-ko"
 
 ここの本気は季節演出。同じスパなのに季節で表情を変えてくるから、SPGR会員＝再訪する人ほど得する設計になってる。
 
-<div class="highlight-grid cols-2">
-  <div class="highlight-item">
-    <span class="highlight-tag">春</span>
-    <h4>SAKURA ART イルミネーション</h4>
-    <p>夜間ライトアップ演出（公式 体験ページに記載）。</p>
-  </div>
-  <div class="highlight-item">
-    <span class="highlight-tag">夏</span>
-    <h4>ハワイアン演出 + パイナップルソーダ</h4>
-    <p>2026/7/4〜9/13、SPA BAR で季節限定ノンアル登場。</p>
-  </div>
-  <div class="highlight-item">
-    <span class="highlight-tag">秋</span>
-    <h4>月光浴 × お月見スイーツ</h4>
-    <p>静かなインフィニティプールで月光浴、スイーツ付き。</p>
-  </div>
-  <div class="highlight-item">
-    <span class="highlight-tag">冬</span>
-    <h4>温水プール + 焚き火ガーデン</h4>
-    <p>水温維持で冬も入れる + マジックアワーの焚き火演出（冬季限定）。</p>
-  </div>
+<div class="cmp-table-wrap">
+<table class="cmp-table">
+  <thead><tr><th>季節</th><th>演出</th><th>中身</th></tr></thead>
+  <tbody>
+    <tr><th>春</th><td><a href="https://www.princehotels.co.jp/oiso/spa/" target="_blank" rel="noopener">SAKURA ART イルミネーション</a></td><td>夜間ライトアップ演出（公式 体験ページに記載）</td></tr>
+    <tr class="recommended"><th>夏</th><td>ハワイアン演出 ＋ パイナップルソーダ</td><td>2026/7/4〜9/13、SPA BAR で季節限定ノンアルが出る</td></tr>
+    <tr><th>秋</th><td>月光浴 × お月見スイーツ</td><td>静かなインフィニティプールで月光浴、スイーツ付き</td></tr>
+    <tr><th>冬</th><td>温水プール ＋ 焚き火ガーデン</td><td>水温維持で冬も入れる。マジックアワーの焚き火演出（冬季限定）</td></tr>
+  </tbody>
+</table>
 </div>
+
+<p class="source-note">出典：<a href="https://www.princehotels.co.jp/oiso/spa/" target="_blank" rel="noopener">大磯プリンスホテル THERMAL SPA S.WAVE 公式</a></p>
 
 ### 入場ルール｜失敗パターンを先に潰しておく
 
 行く前に押さえとくべき制約も公式に明記されてる:
 
-- **12歳以上限定**（2027/3/31 まで宿泊者に限り 4〜11歳も利用可、保護者同伴・専用水着持参・おむつ不可）
-- **タトゥー / アートメイク / シール全般 入場不可**
-- 水着以外の素材（Tシャツ・短パン等）着用禁止
-- **サウナ内撮影禁止**
-- 日帰り利用は **前日23:59までの予約必須**
+<div class="cmp-table-wrap">
+<table class="cmp-table spec-table">
+  <tbody>
+    <tr><th>年齢</th><td><strong>12歳以上限定</strong>。2027/3/31 までは宿泊者に限り 4〜11歳も利用可（保護者同伴・専用水着持参・おむつ不可）</td></tr>
+    <tr><th>タトゥー</th><td><strong>アートメイク・シール全般を含めて入場不可</strong></td></tr>
+    <tr><th>服装</th><td>水着以外の素材（Tシャツ・短パン等）は着用禁止</td></tr>
+    <tr><th>撮影</th><td><strong>サウナ内は撮影禁止</strong></td></tr>
+    <tr><th>予約</th><td>日帰り利用は<strong>前日23:59までの予約必須</strong>（<a href="https://www.princehotels.co.jp/oiso/spa/" target="_blank" rel="noopener">公式 THERMAL SPA S.WAVE</a>）</td></tr>
+  </tbody>
+</table>
+</div>
 
 「子連れだからどうせ全員一緒に楽しめない」って思ってる人、**逆に大人だけの空間として割り切るの**が正解。子供は3F温泉or大磯ロングビーチ、大人は4Fスパ、で家族で分担するのが大磯流の使い方よ。
 
@@ -272,7 +338,7 @@ author: "hacker-ko"
 
 | ティア | 到達条件 | ポイント還元 |
 |---|---|---|
-| **Blue**（エントリー） | 登録のみ | 約2.7%（基本3pt/110円） |
+| **[Blue](https://www.seibuprince.com/loyalty)**（エントリー） | 登録のみ | 約2.7%（基本3pt/110円） |
 | **Gold** | 年間20メダル（=年間20万円利用） | 約3.0%（110%還元） |
 | **Platinum** | 年間50メダル（=年間50万円利用） | 約3.5%（130%還元） |
 | **Diamond**（最上位） | 年間200メダル（=年間200万円利用） | 約4.1%（150%還元） |
@@ -283,7 +349,7 @@ author: "hacker-ko"
 
 | 特典 | Blue | Gold | Platinum | Diamond |
 |---|---|---|---|---|
-| 公式ベストレート保証 | ◯ | ◯ | ◯ | ◯ |
+| [公式ベストレート保証](https://www.seibuprince.com/loyalty) | ◯ | ◯ | ◯ | ◯ |
 | ポイント還元率 | 100% | 110% | 130% | 150% |
 | 誕生月特典（ドリンク＋ポイント） | ◯ | ◯ | ◯ | ◯ |
 | レイトチェックアウト | — | ◯ | ◯ | ◯ |
@@ -372,21 +438,36 @@ author: "hacker-ko"
 
 ### ケースB: 年5泊 各種利用（夫婦2人・記念日ディナー含む）
 
-- 宿泊 ¥20,000 × 5回 = ¥100,000
-- ディナー（滄/S.DINING）¥15,000 × 3回 = ¥45,000
-- スパ・温泉ビジターチケット ¥3,000 × 2回 = ¥6,000
+<div class="cmp-table-wrap">
+<table class="cmp-table">
+  <thead><tr><th>使うもの</th><th>単価 × 回数</th><th>小計</th></tr></thead>
+  <tbody>
+    <tr><th>宿泊</th><td>¥20,000 × 5回</td><td>¥100,000</td></tr>
+    <tr><th>ディナー（<a href="https://www.princehotels.co.jp/oiso/restaurant/" target="_blank" rel="noopener">滄 / S.DINING</a>）</th><td>¥15,000 × 3回</td><td>¥45,000</td></tr>
+    <tr><th>スパ・温泉ビジターチケット</th><td>¥3,000 × 2回</td><td>¥6,000</td></tr>
+    <tr class="recommended"><th>合計</th><td>—</td><td><strong>約¥151,000</strong></td></tr>
+  </tbody>
+</table>
+</div>
 
 → 累計約¥151,000 = メダル15個。**+1回宿泊で年20メダル=Gold達成、もう1〜2回でPlatinum射程**。Platinum後の朝食無料＋カバーチャージ免除でさらに**年¥30,000-50,000の付加価値**。
 
 固定費の見直しと組み合わせれば、**旅行費だけで年間10万円単位の節約**は普通に可能。固定費の方も気になる人は [年12万円浮く固定費削減ガイド](/posts/fixed-cost-reduction-guide-2026/) もチェックしなさい。
 
-## 既に使ってる人の声（公開情報を集約）
+## 行った人の声｜X の実投稿から
 
-公式以外の媒体で見つけた、**SPGR×大磯プリンスを実際に使った人の感想**をかいつまんで紹介:
+アタシの感想だけだと偏るから、**実際に行った人が X に上げてる投稿**を置いとく。
 
-- **「チェックイン〜アウトまでインフィニティプール・温泉・サウナを何度でも使える点が宿泊者最大のメリット」**（個人ブログ 宿泊レポート）— [shimautablog.com](https://shimautablog.com/oiso-princehotels-spa/)
-- **「Platinum/Diamondは大磯ロングビーチに1名4枚/日まで無料パスがつくため、家族滞在ならホテル料金以上に元が取れる」**（東京ラグジュアリースタイル）— [kuneruasobu1192.jp](https://kuneruasobu1192.jp/princehotels-oiso-pool/)
-- **「三世代滞在でもインフィニティプールは『海を泳いでいる感覚』。SPGR会員のベストレート＋アプリ無料登録がコスパの起点」**（Yahoo!ニュース エキスパート 岡のぞみ氏）— [news.yahoo.co.jp](https://news.yahoo.co.jp/expert/articles/ab15bdc558d2ef4a62143530651a1d5ddd36f622)
+サウナ好きの間では「**ドラマ『サ道』第9話のロケ地**」として知られてる場所でもある。4セット回した人の記録がこれ。
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">昨日は久々にサウナ3軒ハシゴしてきました！✨<br>サ道のロケ地にもなってる大磯プリンスホテルはナカちゃんコースで4セット堪能してきました👍<br><br>前から行ってみたかった山賊サウナさんは16時のワッカさん17時の山賊さんのアウフを受けれて大満足です🥰<br><br>〆は天山で蒸しサウナに入って鰻を食べて帰宅！</p>&mdash; SHO♨️@KmR推し連合 (@OXYMORON1992) <a href="https://twitter.com/OXYMORON1992/status/1814541069021028395">2024年7月20日</a></blockquote>
+
+そして**オフシーズンこそ狙い目**という話。インフィニティプールは水温30〜38℃で季節調整されるから、夏以外でも入れる。眼下のロングビーチが閉まってる時期は、むしろ静かになる。
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">昨日は旦那と日帰りで大磯プリンスホテルのデイユースプランに行ってきたよ。水着着用のインフィニティープールで最高の景色を眺めたりサウナや温泉入ってから部屋で仮眠して、午後はまたスパと温泉。なーんも考えずにただただのんびり。眼下は大磯ロングビーチだけどオフシーズンで静か～。</p>&mdash; さばお（仕事用） (@savaoo) <a href="https://twitter.com/savaoo/status/1227445236156313600">2020年2月12日</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+**この2つに共通してるのは「1日の使い方」の話**をしてること。1回入って終わりじゃなく、温泉→サウナ→仮眠→またスパ、で滞在を組み立ててる。SPGRで宿泊者フリーパスが効くのはまさにここで、**回数を増やすほど1回あたりの単価が下がる**設計になってる。
 
 ## 登録手順｜SPGRアプリで3分
 
