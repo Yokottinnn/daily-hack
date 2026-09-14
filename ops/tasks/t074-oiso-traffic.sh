@@ -348,6 +348,47 @@ try:
 except Exception as e:
     L.append(f"⚠️ **GSC 全体で落ちた。** {type(e).__name__}: {str(e)[:250]}")
 
+# ============ 3. インデックス状況（URL 検査 API） ============
+L += ["", "## 3. インデックス状況（GSC URL 検査 API）", ""]
+
+def inspect_block():
+    g = find_gcloud()
+    if not g:
+        L.append("⚠️ gcloud が無いので検査できなかった。")
+        return
+    env = dict(os.environ); env["CLOUDSDK_PYTHON"] = sys.executable
+    r = subprocess.run([g, "auth", "print-access-token", f"--account={SA}",
+                        "--scopes=https://www.googleapis.com/auth/webmasters.readonly"],
+                       capture_output=True, text=True, env=env)
+    if r.returncode != 0:
+        L.append("⚠️ 認証失敗 rc=%d: %s"
+                 % (r.returncode, (r.stderr or "").strip().replace("\n", " ")[:200]))
+        return
+    tok = r.stdout.strip()
+    body = json.dumps({"inspectionUrl": PAGE, "siteUrl": SITE,
+                       "languageCode": "ja-JP"}).encode()
+    req = urllib.request.Request(
+        "https://searchconsole.googleapis.com/v1/urlInspection/index:inspect",
+        data=body, method="POST",
+        headers={"Authorization": "Bearer " + tok, "Content-Type": "application/json"})
+    d = retry_ipv4(lambda: json.loads(urllib.request.urlopen(req, timeout=60).read()))
+    idx = ((d.get("inspectionResult") or {}).get("indexStatusResult") or {})
+    L += ["| 項目 | 値 |", "| --- | --- |",
+          f"| verdict | **{idx.get('verdict','—')}** |",
+          f"| 登録状態 | **{idx.get('coverageState','—')}** |",
+          f"| 最終クロール | {idx.get('lastCrawlTime','—')} |",
+          f"| robots | {idx.get('robotsTxtState','—')} |",
+          f"| 取得結果 | {idx.get('pageFetchState','—')} |",
+          f"| Google の canonical | `{idx.get('googleCanonical','—')}` |",
+          f"| こちらの canonical | `{idx.get('userCanonical','—')}` |",
+          f"| クロール端末 | {idx.get('crawledAs','—')} |",
+          f"| 参照元 | {', '.join(idx.get('referringUrls') or []) or '—'} |", ""]
+
+try:
+    inspect_block()
+except Exception as e:
+    L.append(f"⚠️ **URL 検査で落ちた。** {type(e).__name__}: {str(e)[:250]}")
+
 L += ["", "## 読むときの注意", "",
       "- **PV（CF）と クリック（GSC）は別物。** PV は全流入、クリックは Google 検索だけ",
       "- **クリックは延べ。** 同じ人が 3 回 来れば 3。ユニークユーザーは どちらも出せない",
