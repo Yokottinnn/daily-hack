@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T15:27:01Z",
+  "generated_at": "2026-09-14T15:57:10Z",
   "login_lock": {"present": false, "age_hours": 0},
   "cdp": {"healthy": true, "port": 18810},
   "x_jobs": {"loaded": 8, "expected": 8, "ai_total": 12, "halted": false, "missing": []},
@@ -29,7 +29,9 @@
     "com.dailyhack.weekly-blog-report"
   ],
   "reconnect": "既に起動している",
-  "tasks": [],
+  "tasks": [
+      {"task": "t076-index-all.sh", "rc": 0, "out": " - **「クロール済み - インデックス未登録」** = 見には来たが載せないと判断された。   内部リンクが弱い・内容が薄い・似た記事があるのどれかを疑う - **「検出 - インデックス未登録」** = まだ見にも来ていない。サイト�"}
+  ],
   "running": null,
   "auth": {
     "ok": true,
