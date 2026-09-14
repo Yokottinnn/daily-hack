@@ -1,4 +1,4 @@
 [
-      {"task": "t081-pull-mac-clone.sh", "rc": 0, "out": "?? ops/tasks/t006-post-sauna-thread.sh ?? scripts/__pycache__/ ```  手で確認してから、もう一度 タスクを出す。"},
-      {"task": "t082-install-weekly-report.sh", "rc": 0, "out": " 🚨 **コピー元が無い。何もしていない。**  t081 でクローンが main に追いついていない可能性が高い。 先に t081 の結果を見ること。"}
+      {"task": "t083-clone-to-main.sh", "rc": 0, "out": "``` ?? drafts/ ?? ops/tasks/t006-post-sauna-thread.sh ?? scripts/__pycache__/fix-md-bold.cpython-311.pyc ```"},
+      {"task": "t084-install-weekly-report.sh", "rc": 0, "out": " ## 次の週次レポートで見ること  **`${ALL_VISITS}` が数字になっていること。** なっていなければ、 plist が別の場所を指しているか、python3.11 に依存が入っていない。"}
   ]
