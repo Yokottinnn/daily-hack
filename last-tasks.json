@@ -1,1 +1,4 @@
-[]
+[
+      {"task": "x81-prune-writes-back.sh", "rc": 0, "out": "mutual-prune の反映 / prune-writes-back.md 68 行"},
+      {"task": "x82-cleanup-backlog.sh", "rc": 0, "out": "滞留の実態 / cleanup-backlog.md 163 行"}
+  ]
