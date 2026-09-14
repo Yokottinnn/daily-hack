@@ -92,6 +92,22 @@ references: ["https://tokyo-toyosu.manyo.co.jp/price/", "http://www.shopping-sum
 
 > ※X(旧Twitter)の個別投稿は本文では引用せず傾向として要約。口コミは時期・個人差があるため、最新の評判は各施設のサ活ページ等で確認を。
 
+<aside class="related-block">
+  <div class="related-block-head">
+    <span class="related-block-icon"><img src="/images/expr-05-smug.png" alt="" /></span>
+    <p class="related-block-title">湾岸を出て“絶景サウナ”に行くなら</p>
+  </div>
+  <ul class="related-block-list">
+    <li><a href="/posts/oiso-prince-spgr-guide-2026/">
+      <span class="related-block-thumb"><img src="/images/oiso/infinity-pool.jpg" alt="" loading="lazy" /></span>
+      <span class="related-block-body">
+        <span class="related-block-cat">ガイド</span>
+        <span class="related-block-name">大磯プリンス×SPGR完全ガイド｜インフィニティプール・ロングビーチを最安で</span>
+      </span>
+    </a></li>
+  </ul>
+</aside>
+
 ## 🧖 用途別おすすめ
 
 <div class="compare-cards">

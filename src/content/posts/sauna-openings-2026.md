@@ -800,6 +800,22 @@ references: ["https://www.newoman.jp/takanawa/floorguide/detail/?scd=003014", "h
   </table>
 </div>
 
+<aside class="related-block">
+  <div class="related-block-head">
+    <span class="related-block-icon"><img src="/images/expr-04-cheer.png" alt="" /></span>
+    <p class="related-block-title">新店じゃないけど、外せない1軒</p>
+  </div>
+  <ul class="related-block-list">
+    <li><a href="/posts/oiso-prince-spgr-guide-2026/">
+      <span class="related-block-thumb"><img src="/images/oiso/infinity-pool.jpg" alt="" loading="lazy" /></span>
+      <span class="related-block-body">
+        <span class="related-block-cat">ガイド</span>
+        <span class="related-block-name">大磯プリンス×SPGR完全ガイド｜インフィニティプール・ロングビーチを最安で</span>
+      </span>
+    </a></li>
+  </ul>
+</aside>
+
 ## よくある質問｜何軒・女性は・いちばん安いのは
 
 **検索でよく聞かれることに、この記事の数字で答える。** 根拠の節へリンクを張っているので、詳しくはそちらへ。
