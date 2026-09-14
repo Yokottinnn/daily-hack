@@ -1,4 +1,4 @@
 [
-      {"task": "t083-clone-to-main.sh", "rc": 0, "out": "``` ?? drafts/ ?? ops/tasks/t006-post-sauna-thread.sh ?? scripts/__pycache__/fix-md-bold.cpython-311.pyc ```"},
-      {"task": "t084-install-weekly-report.sh", "rc": 0, "out": " ## 次の週次レポートで見ること  **`${ALL_VISITS}` が数字になっていること。** なっていなければ、 plist が別の場所を指しているか、python3.11 に依存が入っていない。"}
+      {"task": "t085-weekly-report-verify.sh", "rc": 0, "out": "(残っていない) ```  ✅ **レポートが生成できた。** marker を置いた: `/Users/ny/.config/daily-hack/weekly-report-ok`    t086 が plist に `--slack` を足してよい。"},
+      {"task": "t086-weekly-plist-slack.sh", "rc": 0, "out": " ## 次の月曜に見ること  - Slack `#fun_reward-hack_blog` にレポートが**届くこと** - そこに `${ALL_VISITS}` のような**未展開の変数が無いこと**"}
   ]
