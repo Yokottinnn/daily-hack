@@ -131,6 +131,46 @@ python3 -c 'import sys,json; print(json.load(sys.stdin)["user"]["screen_name"])'
 **「動いて、それらしい値が出た」は、正しさの証拠にならない。**
 `t065` は ✅ を 9 個 並べて、そのうち 1 個が別人だった。
 
+## 6. **`py_compile` が通っても、実行すると落ちる**（2026-09-14 に 1 周 無駄にした）
+
+`t074` は Python の構文検査（`python3 -m py_compile`）を通したうえで Mac に送り、
+**3 つのセクション全部が同じ例外で落ちて空のレポートになった。**
+
+```text
+UnboundLocalError: cannot access local variable 'L' where it is not associated with a value
+```
+
+関数の中で `L += [...]` と書いたのが原因。**代入なので `L` がローカル扱いになり、
+モジュール側の `L` が見えなくなる。** `L.append()` は代入ではないので落ちない。
+つまり**同じ関数の中で両方 書くと、片方だけが壊れる。**
+
+```python
+L = ["見出し"]
+
+def block():
+    global L          # ← **これが要る**
+    L += ["行"]       # global が無いと L がローカルになり、読んだ時点で落ちる
+```
+
+**構文検査は「書き方が正しいか」しか見ない。** 名前解決・型・API の応答は実行時にしか出ない。
+タスクは 1 回しか走らないので（ルール 1）、**落ちたら番号を振り直して 1 周 やり直しになる。**
+
+### 送る前にやること
+
+**ネットワークをスタブして、最後まで 1 回 通す。** 数分で済む。
+
+```python
+# urlopen と subprocess.run を差し替えて、本物の応答の形だけ返す
+urllib.request.urlopen = fake_urlopen
+subprocess.run = lambda *a, **k: types.SimpleNamespace(returncode=0, stdout="tok", stderr="")
+exec(compile(src, "task.py", "exec"), {"__name__": "__main__"})
+```
+
+**通ったあとにレポートの `⚠️` の数を数える。** 0 でなければ、まだどこかが落ちている。
+
+代入の漏れだけなら AST でも拾える（モジュール変数を `global` 無しで代入している関数を探す）が、
+**スタブ実行のほうが確実で、API の応答の形が変わっているときも同時に見つかる。**
+
 ## 併せて読む
 
 - 秘密を出さない・当て推量でファイルを作らない: `CLAUDE.md`「機械的な操作は `ops/tasks/` に置く」
