@@ -1,4 +1,4 @@
 [
-      {"task": "x81-prune-writes-back.sh", "rc": 0, "out": "mutual-prune の反映 / prune-writes-back.md 68 行"},
-      {"task": "x82-cleanup-backlog.sh", "rc": 0, "out": "滞留の実態 / cleanup-backlog.md 163 行"}
+      {"task": "t081-pull-mac-clone.sh", "rc": 0, "out": "?? ops/tasks/t006-post-sauna-thread.sh ?? scripts/__pycache__/ ```  手で確認してから、もう一度 タスクを出す。"},
+      {"task": "t082-install-weekly-report.sh", "rc": 0, "out": " 🚨 **コピー元が無い。何もしていない。**  t081 でクローンが main に追いついていない可能性が高い。 先に t081 の結果を見ること。"}
   ]
