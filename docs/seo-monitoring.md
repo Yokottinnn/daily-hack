@@ -330,3 +330,69 @@ POST https://searchconsole.googleapis.com/v1/urlInspection/index:inspect
 2. `dist/sitemap-0.xml` に `<loc>` があるか、`dist/robots.txt` が拒否していないか
 3. `grep -rl "/posts/<slug>/" dist --include='*.html' | wc -l` で孤立していないか
 4. **ここまで全部 正しくても、実際の登録は 1〜3 では分からない。** t071 と同じ API を叩く
+
+## インデックス未登録への対処（2026-09-14・t075〜t079）
+
+### 発端
+
+大磯プリンス記事の PV と検索流入を調べたら、**90 日の PV が 0・全期間のクリックが 1**。
+原因は順位ではなく、**そもそもインデックスに入っていないこと**だった。
+
+```text
+verdict: NEUTRAL
+coverageState: クロール済み - インデックス未登録
+lastCrawlTime: 2026-06-22   ← 約 3 か月 前で止まっている
+referringUrls: /author/ の 1 本だけ
+```
+
+**全 74 本を URL 検査 API で調べた**ところ（t076 で 34 本ぶん）、
+**28 本が登録済み、6 本が未登録**。1 本だけの問題ではなかった。
+
+### 「クロール済み - インデックス未登録」と「検出 - インデックス未登録」は違う
+
+| 状態 | 意味 | 効く手 |
+| --- | --- | --- |
+| **クロール済み - インデックス未登録** | 見には来たが、載せる価値が無いと判断された | 中身を厚くする・内部リンクを増やす・更新する |
+| **検出 - インデックス未登録** | まだ見にも来ていない | サイトマップと内部リンク |
+| 送信して登録されました | 正常 | — |
+
+### URL 検査 API では「インデックス登録をリクエスト」できない
+
+**これは調べる API であって、送る API ではない。** 送る手段は 2 つしかない。
+
+| 手段 | 使えるか |
+| --- | --- |
+| Search Console 画面の「インデックス登録をリクエスト」 | **使える。1 プロパティあたり 1 日 10〜12 本が目安**（非公開・押すとグレーアウト） |
+| Indexing API | **使わない。** 公式に対象が JobPosting と BroadcastEvent に限られている |
+
+#### 手順（画面から）
+
+1. [Search Console](https://search.google.com/search-console) を開き、プロパティ
+   `https://daily-hack.fieldbeside.com/` を選ぶ
+2. 上部の検索窓に**記事の URL をそのまま貼って Enter**（URL 検査）
+3. 「URL が Google に登録されていません」と出たら **「インデックス登録をリクエスト」**
+4. 「リクエストは登録待ちです」が出れば受理。**押し直しても早くならない**
+5. **1 日 10〜12 本が上限。** 未登録の記事が多いときは、流入の見込みが高い順に押す
+
+**押した日と URL を記録する。** 押しただけでは入らないので、
+数日後に t076 系のタスクでもう一度 `coverageState` を見る。
+
+### サイトマップに `lastmod` が無かった（2026-09-14 に修正）
+
+**`lastmod` の無いサイトマップは「何も変わっていない」と言っているのと同じ。**
+`@astrojs/sitemap` は既定では出さないため、74 本すべてに日付が付いていなかった。
+
+`astro.config.mjs` の `sitemap({ serialize })` で、各記事の
+**`updatedDate` があればそれを、無ければ `publishDate`** を入れるようにした。
+
+```bash
+# 確認: 記事 URL の数と lastmod の数が一致すること（一覧ページには付かない）
+python3 -c "
+import re
+x=open('dist/sitemap-0.xml').read()
+m=re.findall(r'<url><loc>([^<]*)</loc>(?:<lastmod>([^<]*)</lastmod>)?</url>',x)
+p=[(u,l) for u,l in m if '/posts/' in u and not re.search(r'/posts/\d*/$',u)]
+print(len(p),'本中',sum(1 for _,l in p if l),'本に lastmod')"
+```
+
+**記事を直したら `updatedDate` を更新する。** そこが再クロールの合図になる。
