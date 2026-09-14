@@ -1,3 +1,3 @@
 [
-      {"task": "t077-oiso-materials.sh", "rc": 0, "out": "## 使い方  - **タイトルが大磯プリンス以外なら使わない。** 2026-08-27 に 3 本 これで弾いた - **X は宣伝ではなく体験の投稿を選ぶ。** `#AD` が付くものは後回し - `❌` のものは記事に入れない。**組み立てた URL は必ず壊れる**"}
+      {"task": "x78-verify-mutual-prune.sh", "rc": 0, "out": "mutual-prune の実績 / verify-mutual-prune.md 126 行"}
   ]
