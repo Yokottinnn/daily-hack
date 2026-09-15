@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-15T12:36:52Z",
+  "generated_at": "2026-09-15T13:07:01Z",
   "login_lock": {"present": false, "age_hours": 0},
   "cdp": {"healthy": true, "port": 18810},
   "x_jobs": {"loaded": 8, "expected": 8, "ai_total": 12, "halted": false, "missing": []},
-  "last_reply": {"at": "2026-09-15T07:04:02.431Z", "age_hours": 5, "stale": false},
+  "last_reply": {"at": "2026-09-15T13:04:07.121Z", "age_hours": 0, "stale": false},
   "supervisor": {"at":"2026-09-15T08:00:07Z","date_jst":"2026-09-15","ran":9,"total":9,"not_run":[],"fixed":[]},
-  "followback_bands": {"with_count":40,"total_rows":386,"bands":{"1000-4999":{"n":14,"back":0,"mature":0,"mature_back":0,"rate":null},"300-999":{"n":5,"back":0,"mature":0,"mature_back":0,"rate":null},"0-99":{"n":7,"back":0,"mature":0,"mature_back":0,"rate":null},"5000-49999":{"n":13,"back":0,"mature":0,"mature_back":0,"rate":null},"100-299":{"n":1,"back":0,"mature":0,"mature_back":0,"rate":null}},"note":"mature の率で見る"},
+  "followback_bands": {"with_count":42,"total_rows":388,"bands":{"1000-4999":{"n":15,"back":0,"mature":0,"mature_back":0,"rate":null},"300-999":{"n":6,"back":0,"mature":0,"mature_back":0,"rate":null},"0-99":{"n":7,"back":0,"mature":0,"mature_back":0,"rate":null},"5000-49999":{"n":13,"back":0,"mature":0,"mature_back":0,"rate":null},"100-299":{"n":1,"back":0,"mature":0,"mature_back":0,"rate":null}},"note":"mature の率で見る"},
   "host": "NaokinoMacBook-Pro-2.local",
   "job_count": 18,
   "jobs": [
@@ -38,11 +38,11 @@
   },
   "activity": {
     "date": "2026-09-15",
-    "posted_today": 26,
+    "posted_today": 35,
     "detail": "ログを走査した",
     "sources": [
-      {"file": "comment-orchestrator.log", "count": 9},
-      {"file": "comment-warmup.log", "count": 17}
+      {"file": "comment-orchestrator.log", "count": 12},
+      {"file": "comment-warmup.log", "count": 23}
     ]
   },
   "unloaded_count": 60,
