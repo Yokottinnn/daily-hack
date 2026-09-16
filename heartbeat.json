@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T15:15:54Z",
+  "generated_at": "2026-09-16T15:46:07Z",
   "login_lock": {"present": false, "age_hours": 0},
   "cdp": {"healthy": true, "port": 18810},
   "x_jobs": {"loaded": 8, "expected": 8, "ai_total": 12, "halted": false, "missing": []},
@@ -32,9 +32,9 @@
   "tasks": [],
   "running": null,
   "auth": {
-    "ok": false,
-    "expires_at": "2026-09-16T13:44:26Z",
-    "detail": "トークンの有効期限を過ぎている"
+    "ok": true,
+    "expires_at": "2026-09-16T23:42:02Z",
+    "detail": "有効期限内"
   },
   "activity": {
     "date": "2026-09-16",
