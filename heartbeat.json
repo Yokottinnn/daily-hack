@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-16T23:49:30Z",
+  "generated_at": "2026-09-17T00:19:43Z",
   "login_lock": {"present": false, "age_hours": 0},
   "cdp": {"healthy": true, "port": 18810},
   "x_jobs": {"loaded": 8, "expected": 8, "ai_total": 12, "halted": false, "missing": []},
-  "last_reply": {"at": "2026-09-16T20:05:03.553Z", "age_hours": 3, "stale": false},
+  "last_reply": {"at": "2026-09-16T20:05:03.553Z", "age_hours": 4, "stale": false},
   "supervisor": {"at":"2026-09-16T20:04:45Z","date_jst":"2026-09-17","ran":9,"total":9,"not_run":[],"fixed":[]},
   "followback_bands": {"with_count":56,"total_rows":403,"bands":{"1000-4999":{"n":18,"back":0,"mature":2,"mature_back":0,"rate":0},"300-999":{"n":9,"back":0,"mature":2,"mature_back":0,"rate":0},"0-99":{"n":13,"back":0,"mature":1,"mature_back":0,"rate":0},"5000-49999":{"n":15,"back":0,"mature":1,"mature_back":0,"rate":0},"100-299":{"n":1,"back":0,"mature":0,"mature_back":0,"rate":null}},"note":"mature の率で見る"},
   "host": "NaokinoMacBook-Pro-2.local",
@@ -32,17 +32,17 @@
   "tasks": [],
   "running": null,
   "auth": {
-    "ok": false,
-    "expires_at": "2026-09-16T23:42:02Z",
-    "detail": "トークンの有効期限を過ぎている"
+    "ok": true,
+    "expires_at": "2026-09-17T08:18:12Z",
+    "detail": "有効期限内"
   },
   "activity": {
-    "date": "2026-09-16",
-    "posted_today": 47,
+    "date": "2026-09-17",
+    "posted_today": 9,
     "detail": "ログを走査した",
     "sources": [
-      {"file": "comment-orchestrator.log", "count": 16},
-      {"file": "comment-warmup.log", "count": 31}
+      {"file": "comment-orchestrator.log", "count": 3},
+      {"file": "comment-warmup.log", "count": 6}
     ]
   },
   "unloaded_count": 60,
