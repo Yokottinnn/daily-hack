@@ -242,6 +242,24 @@ done
 
 unloaded=""
 first_ul=1
+# --- クローンが main から離れていないか ------------------------------------
+#
+# **2026-09-14 に、クローンが作業ブランチ `ops/t006-sauna-thread-v3` のまま
+# 2 週間 放置されていたのが見つかった。** 186 コミット 遅れていて、
+# `scripts/weekly-blog-report.py` が存在せず、リポジトリのファイルに依存する
+# ops タスクが 2 週間ぶん全部 空振りしていた（t067 / t082 / t083）。
+#
+# **誰も見ていなかったから 2 週間 気づかなかった。** 毎回 heartbeat に載せる。
+clone_branch="$(git -C "$MAIN_REPO" rev-parse --abbrev-ref HEAD 2>/dev/null || echo "unknown")"
+clone_behind="null"
+clone_dirty=0
+if [ -d "$MAIN_REPO/.git" ]; then
+  git -C "$MAIN_REPO" fetch -q origin main 2>/dev/null || true
+  n="$(git -C "$MAIN_REPO" rev-list --count HEAD..origin/main 2>/dev/null || echo "")"
+  [ -n "$n" ] && clone_behind="$n"
+  clone_dirty="$(git -C "$MAIN_REPO" status --porcelain 2>/dev/null | grep -vc '^??' || echo 0)"
+fi
+
 unloaded_count=0
 for plist in "$HOME/Library/LaunchAgents"/ai.openclaw.*.plist \
              "$HOME/Library/LaunchAgents"/com.dailyhack.*.plist; do
@@ -685,6 +703,13 @@ try {
   else
     echo "  \"unloaded\": [],"
   fi
+  # **クローンが main から離れていないか。** 離れると、リポジトリのファイルに
+  # 依存する ops タスクが黙って空振りする（2026-09-14 に 2 週間ぶん踏んだ）
+  echo "  \"clone\": {"
+  echo "    \"branch\": \"$clone_branch\","
+  echo "    \"behind\": $clone_behind,"
+  echo "    \"dirty\": $clone_dirty"
+  echo "  },"
   # 成果そのもの。ジョブの生死は代理指標にすぎないので、最後はここで見る
   echo "  \"followers\": {"
   echo "    \"now\": $follower_now,"
