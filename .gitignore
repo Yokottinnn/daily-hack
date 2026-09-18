@@ -36,3 +36,9 @@ public/images/*.bak.*
 
 # 会話ログの書き出し先。session-log/<label> ブランチに置くもので、main には入れない
 docs/session-logs/
+
+# Python のビルド成果物。**コミットしない。**
+# 2026-09-18 に scripts/__pycache__/*.pyc が追跡されていて、
+# スクリプトを動かすたびに「未コミットの変更」として引っかかっていた。
+__pycache__/
+*.pyc
