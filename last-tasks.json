@@ -1,3 +1,3 @@
 [
-      {"task": "t087-kickstart-weekly.sh", "rc": 0, "out": " ## 次にこのセッションが見ること  **Slack `#fun_reward-hack_blog` に週次レポートが届いているか。** 届いていて、`${ALL_VISITS}` のような未展開の変数が無ければ、直っている。"}
+      {"task": "t088-app-images.sh", "rc": 0, "out": "🚨 `/Users/ny/projects/anta-baka-x/blog/ops/data/walk-poikatsu-apps.json` が無い。クローンが main に追いついていない可能性。"}
   ]
