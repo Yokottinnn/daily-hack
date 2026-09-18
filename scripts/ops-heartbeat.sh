@@ -146,6 +146,28 @@ fi
 # 実行済みの印は heartbeat ブランチ側に残す（push されるので二重実行しない）。
 # **出力は 300 字で切る。** 公開リポジトリに載るため、タスク側で秘密を出さないこと。
 
+# --- タスクを走らせる前に、クローンを main の最新にする ----------------------
+#
+# **2026-09-18、`t088` が「ops/data/walk-poikatsu-apps.json が無い」で空振りした。**
+# 同じ PR で足したファイルを、タスクがリポジトリから読もうとしたため。
+# ランナー自身は `git show origin/main:` で取り出しているので常に最新だが、
+# **作業ツリーは誰も更新していなかった。** t067（weekly-blog-report.py が無い）も
+# 2026-08-30 からの 186 コミット遅れも、根はこれ。
+#
+# **安全側に倒す。** main にいて、追跡ファイルに変更が無いときだけ早送りする。
+# 未追跡ファイルには触らない（`git clean` は打たない）。
+if [ -d "$MAIN_REPO/.git" ]; then
+  _br="$(git -C "$MAIN_REPO" rev-parse --abbrev-ref HEAD 2>/dev/null)"
+  _dirty="$(git -C "$MAIN_REPO" status --porcelain --untracked-files=no 2>/dev/null | head -1)"
+  if [ "$_br" = "main" ] && [ -z "$_dirty" ]; then
+    git -C "$MAIN_REPO" fetch -q origin main 2>/dev/null || true
+    git -C "$MAIN_REPO" merge --ff-only origin/main >/dev/null 2>&1 || true
+  else
+    # **黙って諦めない。** heartbeat に出るので、離れていれば気づける
+    echo "ops-heartbeat: クローンを早送りしない（branch=$_br dirty=${_dirty:+yes})" >&2
+  fi
+fi
+
 mkdir -p "$WT/done" "$WT/reports"
 runner="${TMPDIR:-/tmp}/ops-run-tasks-latest.sh"
 if git -C "$MAIN_REPO" show origin/main:scripts/ops-run-tasks.sh > "$runner" 2>/dev/null && [ -s "$runner" ]; then
