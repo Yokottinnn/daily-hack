@@ -1112,6 +1112,14 @@ blockquote.twitter-tweet a:hover { color: var(--pink-700); }
 .rn-figure figcaption cite { display: block; margin-top: 4px; font-style: normal; font-size: 11.5px; color: var(--ink-3); }
 .rn-figure figcaption cite a { color: var(--ink-2); border-bottom: 1px dotted var(--ink-3); }
 
+/* アプリのスクリーンショット（App Store の掲載素材）。
+   **縦長なので、本文幅いっぱいに出すと 1 枚で画面を占領する。**
+   2026-09-18 に 20 アプリぶん並べたところ、記事が縦に伸びきって読めなくなった。
+   端末の画面らしい幅に制限して中央に置く。 */
+.rn-figure.app-shot { max-width: 320px; margin-inline: auto; }
+.rn-figure.app-shot figcaption { font-size: 12px; }
+@media (max-width: 480px) { .rn-figure.app-shot { max-width: 240px; } }
+
 /* ── アプリのダウンロード導線（.app-cta） ─────────────────
    アプリを本文で紹介するときは「どこで落とすか」を必ず置く。
    文章だけだと読者が行動に移せない（Jordan 指摘 2026-08-10）。
