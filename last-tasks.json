@@ -1,1 +1,3 @@
-[]
+[
+      {"task": "t087-kickstart-weekly.sh", "rc": 0, "out": " ## 次にこのセッションが見ること  **Slack `#fun_reward-hack_blog` に週次レポートが届いているか。** 届いていて、`${ALL_VISITS}` のような未展開の変数が無ければ、直っている。"}
+  ]
