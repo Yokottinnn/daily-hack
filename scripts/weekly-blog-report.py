@@ -529,14 +529,21 @@ def build(args):
                 if ((r.get("dimensions") or {}).get("requestPath") or "").startswith("/posts/")]
         prev_pages = (state.get("pages") or {})
         page_now = {}
-        s.lines.append("| # | PV | 訪問 | 前回比 | ページ |")
-        s.lines.append("| --- | --- | --- | --- | --- |")
-        for i, r in enumerate(rows[:args.top_pages], 1):
-            p = (r.get("dimensions") or {})["requestPath"]
-            pv = int(r.get("count") or 0)
-            vis = int((r.get("sum") or {}).get("visits") or 0)
-            page_now[p] = pv
-            s.lines.append(f"| {i} | {pv:,} | {vis:,} | {delta(pv, prev_pages.get(p))} | `{p}` |")
+        if not rows:
+            # **0 なら 0 と言う。** 見出しだけ出して表が空だと、壊れているのか
+            # 本当に無いのかが読む側から区別できない（2026-09-18 に実際にそう見えた）。
+            s.lines.append("**記事ページ（`/posts/…`）の PV は 0。**"
+                           " この期間に開かれたのは、トップ・検索・固定ページだけ。")
+        else:
+            s.lines.append("| # | PV | 訪問 | 前回比 | ページ |")
+            s.lines.append("| --- | --- | --- | --- | --- |")
+            for i, r in enumerate(rows[:args.top_pages], 1):
+                p = (r.get("dimensions") or {})["requestPath"]
+                pv = int(r.get("count") or 0)
+                vis = int((r.get("sum") or {}).get("visits") or 0)
+                page_now[p] = pv
+                s.lines.append(
+                    f"| {i} | {pv:,} | {vis:,} | {delta(pv, prev_pages.get(p))} | `{p}` |")
         state["pages"] = page_now
     L += s.render()
 
