@@ -1,0 +1,23 @@
+[
+  {"key":"jal",        "cat":"mile",      "label":"JAL Wellness & Travel", "term":"JAL Wellness Travel"},
+  {"key":"anapocket",  "cat":"mile",      "label":"ANA Pocket",            "term":"ANA Pocket"},
+  {"key":"trima",      "cat":"point",     "label":"トリマ",                 "term":"トリマ 移動 ポイント"},
+  {"key":"rakutenhc",  "cat":"point",     "label":"楽天ヘルスケア",         "term":"楽天ヘルスケア"},
+  {"key":"dhealth",    "cat":"point",     "label":"dヘルスケア",            "term":"dヘルスケア"},
+  {"key":"arucoin",    "cat":"point",     "label":"アルコイン",             "term":"アルコイン 歩いて"},
+  {"key":"everypoint", "cat":"point",     "label":"EveryPoint",            "term":"EveryPoint 歩数"},
+  {"key":"cokeon",     "cat":"goods",     "label":"Coke ON",               "term":"Coke ON"},
+  {"key":"sugisapo",   "cat":"goods",     "label":"スギサポwalk+",          "term":"スギサポ walk"},
+  {"key":"renobody",   "cat":"goods",     "label":"RenoBody",              "term":"RenoBody 歩数計"},
+  {"key":"arukuto",    "cat":"goods",     "label":"aruku&",                "term":"aruku& あるくと"},
+  {"key":"healthree",  "cat":"web3",      "label":"HEALTHREE",             "term":"HEALTHREE ヘルスリー"},
+  {"key":"bitwalk",    "cat":"web3",      "label":"BitWalk",               "term":"BitWalk ビットウォーク"},
+  {"key":"stellawalk", "cat":"web3",      "label":"ステラウォーク",         "term":"ステラウォーク"},
+  {"key":"sweatcoin",  "cat":"web3",      "label":"Sweatcoin",             "term":"Sweatcoin"},
+  {"key":"stepn",      "cat":"web3",      "label":"STEPN",                 "term":"STEPN"},
+  {"key":"vitality",   "cat":"insurance", "label":"住友生命 Vitality",      "term":"住友生命 Vitality"},
+  {"key":"tokyouplus", "cat":"insurance", "label":"東京健康UPlus",          "term":"東京健康 UPlus"},
+  {"key":"poisura",    "cat":"point",     "label":"ポイすら",               "term":"ポイすら"},
+  {"key":"rakutensr",  "cat":"point",     "label":"楽天シニア",             "term":"楽天シニア"},
+  {"key":"kencom",     "cat":"insurance", "label":"kencom",                "term":"kencom ケンコム"}
+]
