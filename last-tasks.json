@@ -1,3 +1,1 @@
-[
-      {"task": "t091-app-images.sh", "rc": 0, "out": "- 画像: `reports/appshots/<key>-<候補番号>-icon.jpg` / `-shot1.jpg`   **1 件目を無条件に採らない。** 正式名と提供元が対象と一致する候補を クラウド側が目で見て選ぶ（blog-article スキル「候補は見て選ぶ」）。"}
-  ]
+[]

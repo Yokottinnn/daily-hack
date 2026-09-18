@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T13:10:28Z",
+  "generated_at": "2026-09-18T13:41:53Z",
   "login_lock": {"present": false, "age_hours": 0},
   "cdp": {"healthy": true, "port": 18810},
   "x_jobs": {"loaded": 8, "expected": 8, "ai_total": 12, "halted": false, "missing": []},
@@ -29,9 +29,7 @@
     "com.dailyhack.weekly-blog-report"
   ],
   "reconnect": "既に起動している",
-  "tasks": [
-      {"task": "t089-app-images.sh", "rc": 0, "out": "| 3 | 楽天シニア-人気の歩数計でポイントを貯めよう！健康アプリ | Rakuten Group, Inc. | https://apps.apple.com/jp/app/%E6%A5%BD%E5%A4%A9%E3%82%B7%E3%83%8B%E3%82%A2-%E4%BA%BA%E6%B0%97%E3%81%AE%E6%AD%A9%E6%95%B0%E8%A8%88%E3%81%A7%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88%E3%82%92%E8"}
-  ],
+  "tasks": [],
   "running": null,
   "auth": {
     "ok": true,
