@@ -582,8 +582,26 @@ try {
   const EDGES = [[0,99],[100,299],[300,999],[1000,4999],[5000,49999],[50000,1e9]];
   const key = (n) => { for (const [a,b] of EDGES) if (n >= a && n <= b) return a + "-" + (b >= 1e9 ? "up" : b); return "?"; };
   const MATURE_MS = 72 * 3600 * 1000, now = Date.now();
+
+  // 2026-09-18 x83: **`follows_back` だけを見ると全部 0% になる。**
+  //
+  // `follows_back` は x61 が 2026-09-13 に /followers を一括で読んで書いたきり。
+  // 実運用で毎日 判定しているのは `reply-followback-check` で、
+  // そちらが書くのは **`followback_status`**（ログは "yes (keep)" / "no, ..."）。
+  //
+  // 集計が新しいキーだけを見ていたため、9/14 以降の 76 件 が全部「返っていない」
+  // 扱いになっていた。**ジョブではなく集計側のバグ。** 両方を見る。
+  const isBack = (r) => r.follows_back === true
+    || String(r.followback_status || "").toLowerCase() === "yes";
+
+  // **値を推測しない。** 実際に入っている値の分布も出して、次に見る人が確かめられるようにする
+  const statusValues = {};
   const bands = {};
   let withCount = 0;
+  for (const r of rows) {
+    const s = String(r.followback_status === undefined ? "(無し)" : r.followback_status);
+    statusValues[s] = (statusValues[s] || 0) + 1;
+  }
   for (const r of rows) {
     const f = r.followers_at_follow;
     if (typeof f !== "number") continue;
@@ -591,7 +609,7 @@ try {
     const k = key(f);
     const c = bands[k] || (bands[k] = { n: 0, back: 0, mature: 0, mature_back: 0 });
     c.n++;
-    const back = r.follows_back === true;
+    const back = isBack(r);
     if (back) c.back++;
     const t = Date.parse(r.followed_at || "");
     if (t && now - t >= MATURE_MS) { c.mature++; if (back) c.mature_back++; }
@@ -604,6 +622,7 @@ try {
     with_count: withCount,
     total_rows: rows.length,
     bands,
+    status_values: statusValues,
     note: withCount < 20 ? "件数が足りない。判断しない" : "mature の率で見る",
   }));
 } catch (e) { console.log("null"); }
