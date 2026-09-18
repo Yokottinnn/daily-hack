@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-18T08:06:57Z",
+  "generated_at": "2026-09-18T08:37:19Z",
   "login_lock": {"present": false, "age_hours": 0},
-  "cdp": {"healthy": false, "port": 18810},
+  "cdp": {"healthy": true, "port": 18810},
   "x_jobs": {"loaded": 8, "expected": 8, "ai_total": 12, "halted": false, "missing": []},
   "last_reply": {"at": "2026-09-18T07:05:49.071Z", "age_hours": 1, "stale": false},
   "supervisor": {"at":"2026-09-18T08:00:31Z","date_jst":"2026-09-18","ran":9,"total":9,"not_run":[],"fixed":[]},
