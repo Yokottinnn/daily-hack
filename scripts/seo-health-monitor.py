@@ -38,6 +38,10 @@ INDEX_SCAN_BUDGET_SEC = 300   # インデックス走査の時間予算（超え
 DRY = "--dry-run" in sys.argv
 SKIP_INDEX = "--no-index" in sys.argv
 
+# **未インデックス率がこれを超えたら、悪化していなくても鳴らす。**
+# 差分（前回比）だけだと、最初から悪い状態が永久に映らない（2026-09-14 の反省）。
+INDEX_BAD_RATE_ALERT = float(os.environ.get("INDEX_BAD_RATE_ALERT", "0.05"))
+
 UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/130 Safari/537.36")
 
@@ -163,6 +167,7 @@ def main():
         posts = posts[offset:] + posts[:offset]
         scan_start = time.monotonic()
         scanned = 0
+        bad_urls = []
         for u in posts:
             if time.monotonic() - scan_start > INDEX_SCAN_BUDGET_SEC:
                 break
@@ -171,6 +176,9 @@ def main():
             cov = (r.get("inspectionResult", {}).get("indexStatusResult", {})
                     .get("coverageState", "ERR"))
             idx_summary[cov] = idx_summary.get(cov, 0) + 1
+            # **どの記事が未登録かを名指しで出す。** 率だけでは次の手が打てない
+            if "登録されました" not in cov:
+                bad_urls.append(u)
             scanned += 1
         bad = sum(v for k, v in idx_summary.items() if "登録されました" not in k)
         next_offset = (offset + scanned) % max(len(posts), 1)
@@ -183,6 +191,18 @@ def main():
         prate = prev.get("index_bad_rate")
         if prate is not None and scanned >= 10 and rate > prate + 0.10:
             warns.append(f"未インデックス率が {prate*100:.0f}% → {rate*100:.0f}% に悪化")
+        # **差分だけでは、最初から悪い状態が永久に映らない。**
+        # 2026-09-14 に 74 本を全数調査したところ 9 本が「クロール済み -
+        # インデックス未登録」だったが、率が 12% で安定していたため
+        # 上の「前回比 +10pt」条件は一度も満たされず、警報は鳴らなかった。
+        # **水準そのものでも鳴らす。**
+        if scanned >= 10 and rate >= INDEX_BAD_RATE_ALERT:
+            warns.append(
+                f"未インデックス率が {rate*100:.0f}%（{bad}/{scanned} 本）。"
+                f"閾値 {INDEX_BAD_RATE_ALERT*100:.0f}% を超えている")
+            if bad_urls:
+                warns.append("  未登録: " + " ".join(
+                    u.replace(SITE.rstrip("/"), "") for u in bad_urls[:10]))
 
     # ---- 通知 ----
     head = "🚨 *SEO health — 異常あり*" if alerts else ("⚠️ *SEO health — 要確認*" if warns else "✅ *SEO health — 正常*")
