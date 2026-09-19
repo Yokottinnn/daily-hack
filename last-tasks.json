@@ -1,3 +1,4 @@
 [
-      {"task": "x84-rebootstrap-x-jobs.sh", "rc": 0, "out": "X のループを載せ直す / rebootstrap-x-jobs.md 95 行"}
+      {"task": "x85-kickstart-after-recovery.sh", "rc": 0, "out": "復旧後の 1 回 / kickstart-after-recovery.md 56 行"},
+      {"task": "x86-why-jobs-drop-on-reboot.sh", "rc": 0, "out": "再起動で外れる理由 / why-jobs-drop.md 120 行"}
   ]
