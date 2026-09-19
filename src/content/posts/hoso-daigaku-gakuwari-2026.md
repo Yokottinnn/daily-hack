@@ -203,25 +203,73 @@ references:
   <h2 id="shot">都度の学割｜使った回だけ浮くもの</h2>
 </div>
 
-**こちらは「1回いくら浮くか」で見る。** 毎月 固定で出ていくものではないので、**年に何回 使うかを自分で掛ける**必要がある。
+**こちらは「1回いくら浮くか」で見る。** 毎月 固定で出ていくものではないので、**年に何回 使うかを自分で掛ける**必要がある。数が多いのでカテゴリに分けた。
+
+### 映画館｜1回400〜600円、劇場ごとに設定が違う
 
 <div class="cmp-table-wrap">
 <table class="cmp-table">
-<thead><tr><th>使うもの</th><th>一般</th><th>学生</th><th>1回で浮く額</th><th>年12回なら</th></tr></thead>
+<thead><tr><th>劇場</th><th>一般</th><th>大学生</th><th>1回で浮く額</th><th>月1本なら年</th></tr></thead>
 <tbody>
-<tr class="recommended"><td><a href="https://www.campusmembers.jp/" target="_blank" rel="noopener">国立美術館の所蔵作品展</a></td><td>500〜700円</td><td><strong>無料</strong></td><td><strong>500〜700円</strong></td><td>6,000〜8,400円</td></tr>
-<tr><td><a href="https://www.tohotheater.jp/" target="_blank" rel="noopener">TOHOシネマズ</a></td><td>2,000〜2,200円</td><td>1,500〜1,600円</td><td>400〜600円</td><td>4,800〜7,200円</td></tr>
-<tr><td><a href="https://www.aeoncinema.com/" target="_blank" rel="noopener">イオンシネマ</a></td><td>2,000円</td><td>1,700円</td><td>300円</td><td>3,600円</td></tr>
+<tr class="recommended"><td><a href="https://www.tohotheater.jp/" target="_blank" rel="noopener">TOHOシネマズ</a></td><td>2,000〜2,200円</td><td>1,500〜1,600円</td><td><strong>400〜600円</strong></td><td>4,800〜7,200円</td></tr>
 <tr><td><a href="https://109cinemas.net/" target="_blank" rel="noopener">109シネマズ</a></td><td>2,000円前後</td><td>1,500円前後</td><td>500円前後</td><td>6,000円前後</td></tr>
-<tr><td><a href="https://big-echo.jp/" target="_blank" rel="noopener">カラオケの学生料金</a></td><td>店舗による</td><td>学割あり</td><td>数百円</td><td>数千円</td></tr>
-<tr><td><a href="https://www.the0123.com/" target="_blank" rel="noopener">引越しの学割パック</a></td><td>通常料金</td><td>学割パック</td><td>数千〜1万円</td><td>引っ越すときだけ</td></tr>
+<tr><td><a href="https://www.aeoncinema.com/" target="_blank" rel="noopener">イオンシネマ</a></td><td>2,000円</td><td>1,700円</td><td>300円</td><td>3,600円</td></tr>
 </tbody>
 </table>
 </div>
 
 <p class="source-note">映画館の料金は2026年に改定されており、<strong>劇場ごとに設定が違う</strong>（TOHOシネマズは都心部が高い）。行く前に各劇場の公式で確認すること</p>
 
-**都度のほうは「回数を掛けて初めて効く」。** 映画を年1本しか見ない人にとっては500円の話でしかないが、**月1本 見る人には年6,000円**。ここは自分の生活に掛け算してほしい。
+### テーマパーク｜年齢を問わない学生券がある
+
+**ここが「大人の学生」にいちばん効くところ。** 東京ディズニーリゾートの学生券は、公式のよくあるご質問で**年齢も通学形態も問わない**と明記されている。
+
+<div class="cmp-table-wrap">
+<table class="cmp-table">
+<thead><tr><th>券種</th><th>価格</th><th>対象</th><th>いつ</th></tr></thead>
+<tbody>
+<tr class="recommended"><td><a href="https://www.tokyodisneyresort.jp/dream/event/college2026.html" target="_blank" rel="noopener">TDR カレッジパスポート</a></td><td><strong>7,000〜9,000円</strong></td><td>大学・大学院・短大・専門・予備校生。<strong>年齢を問わず、通信制も対象</strong></td><td>期間限定（春・秋）</td></tr>
+<tr><td><a href="https://www.usj.co.jp/web/ja/jp" target="_blank" rel="noopener">USJ 1デイ学割パス</a></td><td>7,900〜10,900円</td><td>中学生以上の学生。<strong>購入時に学生証をアップロード</strong></td><td>期間限定（ユニ春）</td></tr>
+</tbody>
+</table>
+</div>
+
+<p class="source-note">出典：<a href="https://faq.tokyodisneyresort.jp/tdr/faq_detail.html?id=25436" target="_blank" rel="noopener">東京ディズニーリゾート よくあるご質問／カレッジパスポートの対象</a>／<a href="https://www.usj.co.jp/company/news/2025/1120/" target="_blank" rel="noopener">USJ「ユニ春 2026」</a>。<strong>どちらも通年ではなく期間限定</strong>で、価格は入園日によって変わる</p>
+
+### 本・カラオケ・引越し｜生活の側で効くもの
+
+<div class="cmp-table-wrap">
+<table class="cmp-table">
+<thead><tr><th>使うもの</th><th>学生だと</th><th>条件</th></tr></thead>
+<tbody>
+<tr class="recommended"><td><a href="https://tic-coop.com/coop/" target="_blank" rel="noopener">東京インターカレッジコープ</a>（大学生協）</td><td>書籍・DVDが<strong>10%引き</strong></td><td>生協の無い大学の学生が対象。<strong>出資金は脱退時に返る</strong></td></tr>
+<tr><td><a href="https://big-echo.jp/" target="_blank" rel="noopener">ビッグエコー</a></td><td>学生料金</td><td>在学が証明できれば<strong>通信制も対象</strong>、年齢の上限は置いていない</td></tr>
+<tr><td><a href="https://www.karaokemanekineko.jp/" target="_blank" rel="noopener">カラオケまねきねこ</a></td><td>学生フリータイム</td><td><strong>店舗ごとに条件が違う</strong>。全員の学生証提示が要る</td></tr>
+<tr><td><a href="https://www.the0123.com/" target="_blank" rel="noopener">アート引越センター</a></td><td>学割パック</td><td>引っ越すときだけ。単身向けの定額パック</td></tr>
+</tbody>
+</table>
+</div>
+
+<p class="source-note">大学生協は<strong>地域と加入資格が決まっている</strong>。東京インターカレッジコープは、東京都内の生協が無い学校に通う学生か、都内在住で都外の生協が無い学校に通う学生が対象</p>
+
+### 買い物｜Apple の教育ストアは「卒業をめざす学生」向け
+
+**1回で効く額がいちばん大きいのがここ。** MacやiPadを買うときだけの話だが、**数千円から1万円台**が本体価格から引かれる。新学期キャンペーンの時期はギフトカードの還元が上乗せされる。
+
+<div class="cmp-table-wrap">
+<table class="cmp-table spec-table">
+<tbody>
+<tr><th>どこで買うか</th><td><a href="https://www.apple.com/jp-edu/store" target="_blank" rel="noopener">Apple 学生・教職員向けストア</a>。通常のストアとは別の入口</td></tr>
+<tr><th>いくら安いか</th><td>製品によるが<strong>本体価格から数千円〜1万円台</strong>。新学期キャンペーン中は<strong>ギフトカードの還元が別に付く</strong></td></tr>
+<tr><th>誰が対象か</th><td><strong>全科履修生。</strong>「卒業をめざす学生」を想定した制度なので、選科・科目履修生は通らないと考えておく</td></tr>
+<tr><th>いつ買うか</th><td>新学期キャンペーンは<strong>例年 年明けから春にかけて</strong>。急がないなら、その時期まで待つと還元が乗る</td></tr>
+</tbody>
+</table>
+</div>
+
+<p class="source-note">還元額と対象製品は毎年 変わる。買う前に<a href="https://www.apple.com/jp-edu/store" target="_blank" rel="noopener">Apple の教育ストア</a>で確認すること</p>
+
+**都度のほうは「回数を掛けて初めて効く」。** 映画を年1本しか見ない人にとっては500円の話でしかないが、**月1本 見る人には年6,000円**。ディズニーを年1回 行くだけでも**3,000円前後**が浮く。ここは自分の生活に掛け算してほしい。
 
 <div class="section-with-mascot">
   <div class="mascot-wrap"><img src="/images/expr-07-gasp.png" alt="Daily Hackマスコット" /></div>
@@ -262,6 +310,7 @@ references:
 <tr><td><a href="https://www.docomo.ne.jp/" target="_blank" rel="noopener">ドコモ・au・ソフトバンクの学割</a></td><td>U18・U22など<strong>年齢</strong></td><td><strong>使えない</strong></td></tr>
 <tr><td><a href="https://www.jal.co.jp/jp/ja/dom/fare/skymate/" target="_blank" rel="noopener">JAL スカイメイト</a></td><td>12〜25歳</td><td><strong>使えない</strong></td></tr>
 <tr><td><a href="https://www.ana.co.jp/" target="_blank" rel="noopener">ANA スマートU25</a></td><td>12〜25歳</td><td><strong>使えない</strong></td></tr>
+<tr><td><a href="https://www.nikkei.com/promotion/campaign/student/" target="_blank" rel="noopener">日経電子版の学割プラン</a></td><td><strong>23歳以下</strong>の正規在学者</td><td><strong>使えない</strong></td></tr>
 <tr><td>劇場・美術館のU25席</td><td>25歳以下</td><td><strong>使えない</strong></td></tr>
 <tr class="recommended"><td>Adobe・Apple・サブスク・映画館・美術館</td><td><strong>学生であること</strong></td><td><strong>使える</strong></td></tr>
 </tbody>
@@ -271,6 +320,8 @@ references:
 <p class="source-note">各社の公表条件（2026年9月時点）。携帯キャリアの学割は毎年 内容と対象年齢が変わる</p>
 
 **「学割」という同じ言葉で、条件がまったく違う。** ここを分けずに一覧を作っている記事が多いので、**入学してから「使えなかった」となりやすい。** 年齢が条件のものは、学生証を何枚 持っていても通らない。
+
+**紛らわしいのが日経電子版。** 学割プランはあるが条件が「23歳以下の正規在学者」なので、大人の学生は通常価格のまま。一方で<strong>ディズニーのカレッジパスポートは年齢を問わない</strong>——同じ「学生向け」でも、**どちらの条件で書かれているかを毎回 読む**しかない。
 
 <div class="section-with-mascot">
   <div class="mascot-wrap"><img src="/images/expr-07-gasp.png" alt="Daily Hackマスコット" /></div>
