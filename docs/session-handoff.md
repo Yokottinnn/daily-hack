@@ -68,6 +68,12 @@
 
 <!-- 新しい記録がこの下に追加される（新しいものが上） -->
 
+### 2026-09-19 — 参照元の X 投稿（connect24h/2100750468171657241）を取る t093 を main に入れた（PR #500）。クラウドは x.com・cdn.syndication.twimg.com・publish.twitter.com・api.fxtwitter.com・api.vxtwitter.com すべて EGRESS_BLOCKED で読めない。ops-heartbeat が 2026-09-19 11:21 JST から停止中のため、t093 も t092 も 1 度も実行されていない。
+
+次のアクション:
+
+- [ ] 投稿本文が手に入り次第、放送大学 学割の記事（PR #499 / プレビュー https://273878df.daily-hack.pages.dev/posts/hoso-daigaku-gakuwari-2026/）に取り込む
+
 ### 2026-09-18 — 歩いてポイ活のレビュー3件に対応: 表紙を実アプリ6枚のタイルに作り直し、20アプリ全てにApp Store公式スクショと仕様表を追加、記事の「21」を実態の20に訂正
 
 次のアクション:
