@@ -1,4 +1,3 @@
 [
-      {"task": "t094-ouj-enrollment.sh", "rc": 0, "out": "## 学費  `https://www.ouj.ac.jp/admission/gakubu/tuition/`  取れた行: 336 行中 **34 行**が該当"},
-      {"task": "t095-gakuwari-tiles.sh", "rc": 0, "out": "（条件に合う画像が無かった。検索語を変えて取り直す）  ## books  検索語: `bookstore bookshelves interior`"}
+      {"task": "t096-gakuwari-tiles2.sh", "rc": 0, "out": "  - ✅ `train-2.jpg` ← File:Line scan photo of Shinkansen N700A Series Set G13 in 2017, car 16.png / 6830x1640 / CC BY-SA 4.0 / Dllu   - ✅ `train-3.jpg` ← File:Line scan photo of Shinkansen N700A Series Set G13 in 2017, car 12.png / 5844x1640 / CC BY-SA 4.0 / Dllu   ## museum"}
   ]
