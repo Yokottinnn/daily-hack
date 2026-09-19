@@ -68,6 +68,12 @@
 
 <!-- 新しい記録がこの下に追加される（新しいものが上） -->
 
+### 2026-09-20 — tab-guard の 2 バグ修正（x89）が当たったことをレポートで確認（PID=26232・終了コード 0・30 秒 でエラーログ増加 0・状態ファイルに reachable/chrome_alive_at）。さらに heartbeat.json が 9/18 以降 不正な JSON で、ops-watchdog の jq が全部 落ちて監視が 2 日間 素通りしていたのを発見し修正（#518 マージ済み a2eb686）。生成側で自己 parse 検査、監視側で jq -e . の前置きと badjson 警報を追加。CLAUDE.md 最上位ルール 13 に grep -c || echo 0 の落とし穴を追記。終了コード 5/2 を測る x90 を投入
+
+次のアクション:
+
+- [ ] x90 のレポート（reports/exit-5-and-2.md）を読み、comment-warmup の 5 が「候補なし」かどうか、pipeline-heartbeat のどの check が CRIT かを確定する。次の heartbeat で heartbeat.json が正しい JSON になっているかも確認する
+
 ### 2026-09-20 — 再起動でジョブが外れる原因が確定。tab-guard.js:69 の haltAutomation が ai.openclaw.*.plist を tab-guard 以外すべて unload する。発火条件のひとつが「Chrome プロセスの消滅」で、再起動すると必ず成立するため 9/12 と 9/20 の両方で全滅した。com.dailyhack.* はパターン外なので無傷だった。さらに tab-guard が 10 秒 ごとに再起動を繰り返していてログが 20MB。comment-warmup の終了コード 5 は返信欄が見つからない DOM エラー（ただし 01:17 には投稿成功しているので全滅ではない）
 
 次のアクション:
