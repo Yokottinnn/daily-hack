@@ -1,13 +1,13 @@
 ---
-title: "歩いてポイ活 2026年最新版｜21アプリを5カテゴリに分けて勢力図にした"
-description: "歩いてポイントが貯まるアプリ21個を、航空マイル・共通ポイント・現物交換・Web3・保険自治体の5カテゴリに整理した。1日1万歩を1年続けたら実際いくらになるかを全部そろえて計算。BitWalkのCM「10万円」の中身と、突然消えたMilesの話まで。"
+title: "歩いてポイ活 2026年最新版｜20アプリを5カテゴリに分けて勢力図にした"
+description: "歩いてポイントが貯まるアプリ20個を、航空マイル・共通ポイント・現物交換・Web3・保険自治体の5カテゴリに整理した。1日1万歩を1年続けたら実際いくらになるかを全部そろえて計算。BitWalkのCM「10万円」の中身と、突然消えたMilesの話まで。"
 publishDate: 2026-09-13
 category: ["roundups", "comparisons"]
 tags: ["ポイ活", "歩いてポイ活", "ANA Pocket", "JAL Wellness & Travel", "トリマ", "BitWalk", "ヘルスリー", "Web3", "マイル", "2026年版"]
 isPR: false
 draft: false
 eyecatchUrl: "/images/walk-poikatsu-2026/eyecatch.jpg"
-eyecatchAlt: "歩いてポイ活 2026年最新版｜21アプリを5カテゴリに分けて勢力図にした"
+eyecatchAlt: "歩いてポイ活 2026年最新版｜20アプリを5カテゴリに分けて勢力図にした"
 author: "hacker-ko"
 references:
   - "https://www.jal.co.jp/jp/ja/jmb/wellness/"
@@ -22,7 +22,7 @@ references:
 
 「歩くだけでポイントが貯まるアプリ、結局どれがいいの？」「マイルが貯まるって聞いたけど本当？」——検索して出てくるのは、アプリを10個 並べた一覧か、紹介コード付きの案内ばかり。**同じものさしで並べた記事がない。**
 
-だからアタシが作った。**歩いてポイントや暗号資産がもらえるアプリ21個**を、**5つのカテゴリ**に分けて勢力図に置いた。そのうえで、**1日1万歩を1年 続けたら いくらになるか**を、各社が公表している条件から全部そろえて計算した。
+だからアタシが作った。**歩いてポイントや暗号資産がもらえるアプリ20個**を、**5つのカテゴリ**に分けて勢力図に置いた。そのうえで、**1日1万歩を1年 続けたら いくらになるか**を、各社が公表している条件から全部そろえて計算した。
 
 <div class="hakkako-says">
   <div class="hakkako-mascot"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
@@ -34,7 +34,7 @@ references:
 <div class="event-picks">
   <a class="event-pick" href="#map" style="--pick-img:url('/images/walk-poikatsu-2026/photos/crossing-night.jpg')">
     <span class="pick-date">全体像</span>
-    <h4>21アプリ・5カテゴリ</h4>
+    <h4>20アプリ・5カテゴリ</h4>
     <p>航空マイル／共通ポイント／現物交換／Web3／保険・自治体。<strong>もらえるものが全部 違う</strong>。</p>
     <span class="pick-go">詳しく見る →</span>
   </a>
@@ -73,7 +73,7 @@ references:
 
 <div class="section-with-mascot">
   <div class="mascot-wrap"><img src="/images/expr-07-gasp.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="map">勢力図｜5つのカテゴリに、21のアプリを置いた</h2>
+  <h2 id="map">勢力図｜5つのカテゴリに、20のアプリを置いた</h2>
 </div>
 
 **「歩いてポイ活」はひとかたまりではない。** もらえるものも、かかるお金も、確実性もまったく違う。
@@ -83,10 +83,10 @@ references:
 <thead><tr><th>カテゴリ</th><th>もらえるもの</th><th>主なサービス</th></tr></thead>
 <tbody>
 <tr class="recommended"><td><strong>① 航空マイル型</strong></td><td>JAL／ANAのマイル</td><td><a href="https://www.jal.co.jp/jp/ja/jmb/wellness/" target="_blank" rel="noopener">JAL Wellness &amp; Travel</a>／ANA Pocket</td></tr>
-<tr><td><strong>② 共通ポイント型</strong></td><td>楽天・d・PayPay・現金</td><td><a href="https://www.trip-mile.com/" target="_blank" rel="noopener">トリマ</a>／楽天ヘルスケア／dヘルスケア／アルコイン／EveryPoint</td></tr>
+<tr><td><strong>② 共通ポイント型</strong></td><td>楽天・d・PayPay・現金</td><td><a href="https://www.trip-mile.com/" target="_blank" rel="noopener">トリマ</a>／楽天ヘルスケア／dヘルスケア／アルコイン／エブリポイント／ポイすら／楽天シニア</td></tr>
 <tr><td><strong>③ 現物・特典交換型</strong></td><td>ドリンク・特産品・自社ポイント</td><td>Coke ON／スギサポwalk+／RenoBody／<a href="https://www.arukuto.jp/" target="_blank" rel="noopener">aruku&amp;</a></td></tr>
 <tr><td><strong>④ Web3型</strong></td><td>暗号資産・NFT</td><td>HEALTHREE／BitWalk／ステラウォーク／Sweatcoin／STEPN</td></tr>
-<tr><td><strong>⑤ 保険・自治体型</strong></td><td>保険料の割引・商品券</td><td><a href="https://vitality.sumitomolife.co.jp/about/status/" target="_blank" rel="noopener">住友生命 Vitality</a>／<a href="https://kenkou-uplus.metro.tokyo.lg.jp/" target="_blank" rel="noopener">東京健康UPlus</a>／各自治体の健康ポイント</td></tr>
+<tr><td><strong>⑤ 保険・自治体型</strong></td><td>保険料の割引・商品券</td><td><a href="https://vitality.sumitomolife.co.jp/about/status/" target="_blank" rel="noopener">住友生命 Vitality</a>／kencom／<a href="https://kenkou-uplus.metro.tokyo.lg.jp/" target="_blank" rel="noopener">東京健康UPlus</a>（アプリではなく都のWebサービス）／各自治体の健康ポイント</td></tr>
 </tbody>
 </table>
 </div>
@@ -187,6 +187,22 @@ references:
 
 ### JAL Wellness &amp; Travel｜月額550円の損益分岐点
 
+<figure class="rn-figure app-shot">
+  <img src="/images/walk-poikatsu-2026/apps/jal-shot.jpg" alt="JAL Wellness &amp; Travel のアプリ画面" loading="lazy" />
+  <figcaption>歩数に応じて JAL のマイル。月8,000歩/日の達成日数で段階的に増える<cite>画像: <a href="https://apps.apple.com/jp/app/jal-wellness-travel/id1498726068" target="_blank" rel="noopener">App Store 掲載素材</a>（JAL Brand Communications Co.,Ltd.）</cite></figcaption>
+</figure>
+
+<div class="cmp-table-wrap">
+<table class="cmp-table spec-table">
+  <tbody>
+    <tr><th>正式名</th><td>JAL Wellness & Travel</td></tr>
+    <tr><th>提供元</th><td>JAL Brand Communications Co.,Ltd.</td></tr>
+    <tr><th>費用</th><td><strong>月額550円（初月無料）</strong></td></tr>
+    <tr><th>入手先</th><td><a href="https://www.jal.co.jp/jp/ja/jmb/wellness/" target="_blank" rel="noopener">公式サイト</a>／<a href="https://apps.apple.com/jp/app/jal-wellness-travel/id1498726068" target="_blank" rel="noopener">App Store</a></td></tr>
+  </tbody>
+</table>
+</div>
+
 <table class="cmp-table spec-table">
 <tbody>
 <tr><th>料金</th><td><strong>月額550円（税込）</strong>。初回は入会日から翌月末まで無料</td></tr>
@@ -211,6 +227,22 @@ references:
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe></div>
 
 ### ANA Pocket｜無料でも貯まる。ただし「移動」より「広告」
+
+<figure class="rn-figure app-shot">
+  <img src="/images/walk-poikatsu-2026/apps/anapocket-shot.jpg" alt="ANA Pocket のアプリ画面" loading="lazy" />
+  <figcaption>移動でポイント。ANAマイル・楽天ポイント・ギフト券などに交換<cite>画像: <a href="https://apps.apple.com/jp/app/ana-pocket-%E7%A7%BB%E5%8B%95%E3%81%A7%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88%E3%82%92%E4%BA%A4%E6%8F%9B-%E4%B9%97%E3%82%8A%E7%89%A9%E3%81%A7%E3%82%82%E3%83%9D%E3%82%A4%E6%B4%BB/id1598209192" target="_blank" rel="noopener">App Store 掲載素材</a>（ANA X Inc.）</cite></figcaption>
+</figure>
+
+<div class="cmp-table-wrap">
+<table class="cmp-table spec-table">
+  <tbody>
+    <tr><th>正式名</th><td>ANA Pocket 移動でポイントを交換！乗り物でもポイ活</td></tr>
+    <tr><th>提供元</th><td>ANA X Inc.</td></tr>
+    <tr><th>費用</th><td><strong>無料（有料プランあり）</strong></td></tr>
+    <tr><th>入手先</th><td><a href="https://www.ana.co.jp/ja/jp/amc/reference/anamile/pocket/" target="_blank" rel="noopener">公式サイト</a>／<a href="https://apps.apple.com/jp/app/ana-pocket-%E7%A7%BB%E5%8B%95%E3%81%A7%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88%E3%82%92%E4%BA%A4%E6%8F%9B-%E4%B9%97%E3%82%8A%E7%89%A9%E3%81%A7%E3%82%82%E3%83%9D%E3%82%A4%E6%B4%BB/id1598209192" target="_blank" rel="noopener">App Store</a></td></tr>
+  </tbody>
+</table>
+</div>
 
 <table class="cmp-table spec-table">
 <tbody>
@@ -247,6 +279,22 @@ references:
 
 ### トリマ｜歩数と移動距離の両方。交換の手数料に注意
 
+<figure class="rn-figure app-shot">
+  <img src="/images/walk-poikatsu-2026/apps/trima-shot.jpg" alt="トリマ のアプリ画面" loading="lazy" />
+  <figcaption>歩数と移動距離の両方でマイル。100マイル＝1円で各種ポイントへ<cite>画像: <a href="https://apps.apple.com/jp/app/%E3%83%88%E3%83%AA%E3%83%9E-%E6%AD%A9%E6%95%B0-%E7%A7%BB%E5%8B%95%E3%81%A7%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88-%E6%95%A3%E6%AD%A9%E3%82%84%E3%82%A6%E3%82%A9%E3%83%BC%E3%82%AD%E3%83%B3%E3%82%B0-%E6%AD%A9%E3%81%84%E3%81%A6%E7%A8%BC%E3%81%90/id1502193377" target="_blank" rel="noopener">App Store 掲載素材</a>（GeoTechnologies, Inc.）</cite></figcaption>
+</figure>
+
+<div class="cmp-table-wrap">
+<table class="cmp-table spec-table">
+  <tbody>
+    <tr><th>正式名</th><td>トリマ-歩数・移動でポイント！散歩やウォーキング、歩いて稼ぐ</td></tr>
+    <tr><th>提供元</th><td>GeoTechnologies, Inc.</td></tr>
+    <tr><th>費用</th><td><strong>無料</strong></td></tr>
+    <tr><th>入手先</th><td><a href="https://www.trip-mile.com/" target="_blank" rel="noopener">公式サイト</a>／<a href="https://apps.apple.com/jp/app/%E3%83%88%E3%83%AA%E3%83%9E-%E6%AD%A9%E6%95%B0-%E7%A7%BB%E5%8B%95%E3%81%A7%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88-%E6%95%A3%E6%AD%A9%E3%82%84%E3%82%A6%E3%82%A9%E3%83%BC%E3%82%AD%E3%83%B3%E3%82%B0-%E6%AD%A9%E3%81%84%E3%81%A6%E7%A8%BC%E3%81%90/id1502193377" target="_blank" rel="noopener">App Store</a></td></tr>
+  </tbody>
+</table>
+</div>
+
 <table class="cmp-table spec-table">
 <tbody>
 <tr><th>貯まるもの</th><td>トリマ独自の「マイル」→ ドットマネー経由で現金・電子マネー</td></tr>
@@ -271,6 +319,38 @@ references:
 
 ### 楽天ヘルスケア・dヘルスケア｜「必ずもらえる」ではない
 
+<figure class="rn-figure app-shot">
+  <img src="/images/walk-poikatsu-2026/apps/rakutenhc-shot.jpg" alt="楽天ヘルスケア のアプリ画面" loading="lazy" />
+  <figcaption>歩数目標の達成で抽選。当たれば楽天ポイント<cite>画像: <a href="https://apps.apple.com/jp/app/%E6%A5%BD%E5%A4%A9%E3%83%98%E3%83%AB%E3%82%B9%E3%82%B1%E3%82%A2-%E3%83%9D%E3%82%A4%E6%B4%BB%E3%82%A2%E3%83%97%E3%83%AA-%E6%AD%A9%E6%95%B0%E8%A8%88-%E7%A7%BB%E5%8B%95%E3%81%A7%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88%E8%B2%AF%E3%82%81%E3%82%8B/id1585068047" target="_blank" rel="noopener">App Store 掲載素材</a>（Rakuten Group, Inc.）</cite></figcaption>
+</figure>
+
+<div class="cmp-table-wrap">
+<table class="cmp-table spec-table">
+  <tbody>
+    <tr><th>正式名</th><td>楽天ヘルスケア-ポイ活アプリ！歩数計・移動でポイント貯める</td></tr>
+    <tr><th>提供元</th><td>Rakuten Group, Inc.</td></tr>
+    <tr><th>費用</th><td><strong>無料</strong></td></tr>
+    <tr><th>入手先</th><td><a href="https://healthcare.rakuten.co.jp/" target="_blank" rel="noopener">公式サイト</a>／<a href="https://apps.apple.com/jp/app/%E6%A5%BD%E5%A4%A9%E3%83%98%E3%83%AB%E3%82%B9%E3%82%B1%E3%82%A2-%E3%83%9D%E3%82%A4%E6%B4%BB%E3%82%A2%E3%83%97%E3%83%AA-%E6%AD%A9%E6%95%B0%E8%A8%88-%E7%A7%BB%E5%8B%95%E3%81%A7%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88%E8%B2%AF%E3%82%81%E3%82%8B/id1585068047" target="_blank" rel="noopener">App Store</a></td></tr>
+  </tbody>
+</table>
+</div>
+
+<figure class="rn-figure app-shot">
+  <img src="/images/walk-poikatsu-2026/apps/dhealth-shot.jpg" alt="dヘルスケア のアプリ画面" loading="lazy" />
+  <figcaption>歩数ミッションの達成で抽選。当たれば d ポイント<cite>画像: <a href="https://apps.apple.com/jp/app/d%E3%83%98%E3%83%AB%E3%82%B9%E3%82%B1%E3%82%A2-%E6%AD%A9%E6%95%B0%E3%81%A7d%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88%E3%81%8C%E3%81%9F%E3%81%BE%E3%82%8B%E5%81%A5%E5%BA%B7%E7%AE%A1%E7%90%86%E3%82%A2%E3%83%97%E3%83%AA/id1352137023" target="_blank" rel="noopener">App Store 掲載素材</a>（NTT DOCOMO, INC.）</cite></figcaption>
+</figure>
+
+<div class="cmp-table-wrap">
+<table class="cmp-table spec-table">
+  <tbody>
+    <tr><th>正式名</th><td>dヘルスケア -歩数でdポイントがたまる健康管理アプリ-</td></tr>
+    <tr><th>提供元</th><td>NTT DOCOMO, INC.</td></tr>
+    <tr><th>費用</th><td><strong>無料（有料コースあり）</strong></td></tr>
+    <tr><th>入手先</th><td><a href="https://healthcare.smt.docomo.ne.jp/" target="_blank" rel="noopener">公式サイト</a>／<a href="https://apps.apple.com/jp/app/d%E3%83%98%E3%83%AB%E3%82%B9%E3%82%B1%E3%82%A2-%E6%AD%A9%E6%95%B0%E3%81%A7d%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88%E3%81%8C%E3%81%9F%E3%81%BE%E3%82%8B%E5%81%A5%E5%BA%B7%E7%AE%A1%E7%90%86%E3%82%A2%E3%83%97%E3%83%AA/id1352137023" target="_blank" rel="noopener">App Store</a></td></tr>
+  </tbody>
+</table>
+</div>
+
 <div class="cmp-table-wrap">
 <table class="cmp-table prose-table">
 <thead><tr><th>サービス</th><th>条件</th><th>もらえ方</th></tr></thead>
@@ -288,6 +368,78 @@ references:
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 **Androidは歩数の取り方が「ヘルスコネクト」に変わっている。** 連携し直さないと歩数がゼロのまま増えない。**入れただけで放置すると、貯まっていないことに気づかない。**
+
+### アルコイン
+
+<figure class="rn-figure app-shot">
+  <img src="/images/walk-poikatsu-2026/apps/arucoin-shot.jpg" alt="アルコイン のアプリ画面" loading="lazy" />
+  <figcaption>歩数でコインが貯まり、ギフト券などに交換できる<cite>画像: <a href="https://apps.apple.com/jp/app/%E3%82%A2%E3%83%AB%E3%82%B3%E3%82%A4%E3%83%B3-%E6%AD%A9%E3%81%84%E3%81%A6%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88%E3%81%8C%E8%B2%AF%E3%81%BE%E3%82%8B-%E3%81%8A%E5%BE%97%E3%81%AA%E6%AD%A9%E6%95%B0%E8%A8%88%E3%82%A2%E3%83%97%E3%83%AA/id1449250359" target="_blank" rel="noopener">App Store 掲載素材</a>（AGOOP Corp.）</cite></figcaption>
+</figure>
+
+<div class="cmp-table-wrap">
+<table class="cmp-table spec-table">
+  <tbody>
+    <tr><th>正式名</th><td>アルコイン 歩いてポイントが貯まる！お得な歩数計アプリ</td></tr>
+    <tr><th>提供元</th><td>AGOOP Corp.</td></tr>
+    <tr><th>費用</th><td><strong>無料</strong></td></tr>
+    <tr><th>入手先</th><td><a href="https://www.agoop.co.jp/" target="_blank" rel="noopener">公式サイト</a>／<a href="https://apps.apple.com/jp/app/%E3%82%A2%E3%83%AB%E3%82%B3%E3%82%A4%E3%83%B3-%E6%AD%A9%E3%81%84%E3%81%A6%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88%E3%81%8C%E8%B2%AF%E3%81%BE%E3%82%8B-%E3%81%8A%E5%BE%97%E3%81%AA%E6%AD%A9%E6%95%B0%E8%A8%88%E3%82%A2%E3%83%97%E3%83%AA/id1449250359" target="_blank" rel="noopener">App Store</a></td></tr>
+  </tbody>
+</table>
+</div>
+
+### エブリポイント
+
+<figure class="rn-figure app-shot">
+  <img src="/images/walk-poikatsu-2026/apps/everypoint-shot.jpg" alt="エブリポイント のアプリ画面" loading="lazy" />
+  <figcaption>歩数・ゲーム・ミッションでポイント。交換先が多い<cite>画像: <a href="https://apps.apple.com/jp/app/%E3%82%A8%E3%83%96%E3%83%AA%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88-%E6%AD%A9%E3%81%8F%E3%83%9D%E3%82%A4%E6%B4%BB-%E6%AD%A9%E6%95%B0%E3%81%A7%E3%81%8A%E5%B0%8F%E9%81%A3%E3%81%84%E7%A8%BC%E3%81%8E-%E4%B8%87%E6%AD%A9%E8%A8%88/id6743367643" target="_blank" rel="noopener">App Store 掲載素材</a>（PIXELA Corporation）</cite></figcaption>
+</figure>
+
+<div class="cmp-table-wrap">
+<table class="cmp-table spec-table">
+  <tbody>
+    <tr><th>正式名</th><td>エブリポイント - 歩くポイ活！歩数でお小遣い稼ぎ 万歩計</td></tr>
+    <tr><th>提供元</th><td>PIXELA Corporation</td></tr>
+    <tr><th>費用</th><td><strong>無料</strong></td></tr>
+    <tr><th>入手先</th><td><a href="https://www.pixela.co.jp/products/everypoint/" target="_blank" rel="noopener">公式サイト</a>／<a href="https://apps.apple.com/jp/app/%E3%82%A8%E3%83%96%E3%83%AA%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88-%E6%AD%A9%E3%81%8F%E3%83%9D%E3%82%A4%E6%B4%BB-%E6%AD%A9%E6%95%B0%E3%81%A7%E3%81%8A%E5%B0%8F%E9%81%A3%E3%81%84%E7%A8%BC%E3%81%8E-%E4%B8%87%E6%AD%A9%E8%A8%88/id6743367643" target="_blank" rel="noopener">App Store</a></td></tr>
+  </tbody>
+</table>
+</div>
+
+### ポイすら
+
+<figure class="rn-figure app-shot">
+  <img src="/images/walk-poikatsu-2026/apps/poisura-shot.jpg" alt="ポイすら のアプリ画面" loading="lazy" />
+  <figcaption>歩数でキャラクターを育てながらポイントを貯める<cite>画像: <a href="https://apps.apple.com/jp/app/%E3%83%9D%E3%82%A4%E3%81%99%E3%82%89-%E6%AD%A9%E3%81%84%E3%81%A6%E8%82%B2%E3%81%A6%E3%81%A6%E3%83%9D%E3%82%A4%E6%B4%BB%E3%82%A2%E3%83%97%E3%83%AA/id6738946565" target="_blank" rel="noopener">App Store 掲載素材</a>（BAROWS  Inc）</cite></figcaption>
+</figure>
+
+<div class="cmp-table-wrap">
+<table class="cmp-table spec-table">
+  <tbody>
+    <tr><th>正式名</th><td>ポイすら　歩いて育ててポイ活アプリ</td></tr>
+    <tr><th>提供元</th><td>BAROWS  Inc</td></tr>
+    <tr><th>費用</th><td><strong>無料</strong></td></tr>
+    <tr><th>入手先</th><td><a href="https://apps.apple.com/jp/app/%E3%83%9D%E3%82%A4%E3%81%99%E3%82%89-%E6%AD%A9%E3%81%84%E3%81%A6%E8%82%B2%E3%81%A6%E3%81%A6%E3%83%9D%E3%82%A4%E6%B4%BB%E3%82%A2%E3%83%97%E3%83%AA/id6738946565" target="_blank" rel="noopener">App Store</a></td></tr>
+  </tbody>
+</table>
+</div>
+
+### 楽天シニア
+
+<figure class="rn-figure app-shot">
+  <img src="/images/walk-poikatsu-2026/apps/rakutensr-shot.jpg" alt="楽天シニア のアプリ画面" loading="lazy" />
+  <figcaption>歩数と健康記録で楽天ポイント。シニア向けに設計されている<cite>画像: <a href="https://apps.apple.com/jp/app/%E6%A5%BD%E5%A4%A9%E3%82%B7%E3%83%8B%E3%82%A2-%E4%BA%BA%E6%B0%97%E3%81%AE%E6%AD%A9%E6%95%B0%E8%A8%88%E3%81%A7%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88%E3%82%92%E8%B2%AF%E3%82%81%E3%82%88%E3%81%86-%E5%81%A5%E5%BA%B7%E3%82%A2%E3%83%97%E3%83%AA/id1451690957" target="_blank" rel="noopener">App Store 掲載素材</a>（Rakuten Group, Inc.）</cite></figcaption>
+</figure>
+
+<div class="cmp-table-wrap">
+<table class="cmp-table spec-table">
+  <tbody>
+    <tr><th>正式名</th><td>楽天シニア-人気の歩数計でポイントを貯めよう！健康アプリ</td></tr>
+    <tr><th>提供元</th><td>Rakuten Group, Inc.</td></tr>
+    <tr><th>費用</th><td><strong>無料</strong></td></tr>
+    <tr><th>入手先</th><td><a href="https://senior.rakuten.co.jp/" target="_blank" rel="noopener">公式サイト</a>／<a href="https://apps.apple.com/jp/app/%E6%A5%BD%E5%A4%A9%E3%82%B7%E3%83%8B%E3%82%A2-%E4%BA%BA%E6%B0%97%E3%81%AE%E6%AD%A9%E6%95%B0%E8%A8%88%E3%81%A7%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88%E3%82%92%E8%B2%AF%E3%82%81%E3%82%88%E3%81%86-%E5%81%A5%E5%BA%B7%E3%82%A2%E3%83%97%E3%83%AA/id1451690957" target="_blank" rel="noopener">App Store</a></td></tr>
+  </tbody>
+</table>
+</div>
 
 <div class="section-with-mascot">
   <div class="mascot-wrap"><img src="/images/expr-04-cheer.png" alt="Daily Hackマスコット" /></div>
@@ -314,6 +466,78 @@ references:
 **Coke ON の条件は週35,000歩＝1日5,000歩。** 1万歩 歩く人なら毎週 確実にスタンプが付く。**15週ごとに1本**なので、1年で約3.4本。
 
 **aruku&amp; だけは性格が違う。** 貯まるのはポイントではなく**抽選への応募権**で、当たれば地域の特産品や現金が届く。**確実性を捨てて、当たりの大きさを取る型。**
+
+### Coke ON
+
+<figure class="rn-figure app-shot">
+  <img src="/images/walk-poikatsu-2026/apps/cokeon-shot.jpg" alt="Coke ON のアプリ画面" loading="lazy" />
+  <figcaption>週35,000歩で1スタンプ。15スタンプで自販機のドリンク1本<cite>画像: <a href="https://apps.apple.com/jp/app/coke-on-%E3%82%B3%E3%83%BC%E3%82%AF%E3%82%AA%E3%83%B3/id1088184021" target="_blank" rel="noopener">App Store 掲載素材</a>（The Coca-Cola Company）</cite></figcaption>
+</figure>
+
+<div class="cmp-table-wrap">
+<table class="cmp-table spec-table">
+  <tbody>
+    <tr><th>正式名</th><td>Coke ON(コークオン)</td></tr>
+    <tr><th>提供元</th><td>The Coca-Cola Company</td></tr>
+    <tr><th>費用</th><td><strong>無料</strong></td></tr>
+    <tr><th>入手先</th><td><a href="https://apps.apple.com/jp/app/coke-on-%E3%82%B3%E3%83%BC%E3%82%AF%E3%82%AA%E3%83%B3/id1088184021" target="_blank" rel="noopener">App Store</a></td></tr>
+  </tbody>
+</table>
+</div>
+
+### スギサポwalk+
+
+<figure class="rn-figure app-shot">
+  <img src="/images/walk-poikatsu-2026/apps/sugisapo-shot.jpg" alt="スギサポwalk+ のアプリ画面" loading="lazy" />
+  <figcaption>歩数でスターが貯まる。100スター＝1スギポイント（1,000スターから）<cite>画像: <a href="https://apps.apple.com/jp/app/%E3%82%B9%E3%82%AE%E3%82%B5%E3%83%9Dwalk/id6737874561" target="_blank" rel="noopener">App Store 掲載素材</a>（SUGI WELLNESS CO., LTD.）</cite></figcaption>
+</figure>
+
+<div class="cmp-table-wrap">
+<table class="cmp-table spec-table">
+  <tbody>
+    <tr><th>正式名</th><td>スギサポwalk+</td></tr>
+    <tr><th>提供元</th><td>SUGI WELLNESS CO., LTD.</td></tr>
+    <tr><th>費用</th><td><strong>無料</strong></td></tr>
+    <tr><th>入手先</th><td><a href="https://www.sugi-net.jp/sugisapo/" target="_blank" rel="noopener">公式サイト</a>／<a href="https://apps.apple.com/jp/app/%E3%82%B9%E3%82%AE%E3%82%B5%E3%83%9Dwalk/id6737874561" target="_blank" rel="noopener">App Store</a></td></tr>
+  </tbody>
+</table>
+</div>
+
+### RenoBody
+
+<figure class="rn-figure app-shot">
+  <img src="/images/walk-poikatsu-2026/apps/renobody-shot.jpg" alt="RenoBody のアプリ画面" loading="lazy" />
+  <figcaption>1日8,000歩で1 WAON POINT。条件を満たせば必ず入る<cite>画像: <a href="https://apps.apple.com/jp/app/renobody-%E6%AD%A9%E3%81%8F%E3%81%A0%E3%81%91%E3%81%A7%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88%E3%81%8C%E3%82%82%E3%82%89%E3%81%88%E3%82%8B%E6%AD%A9%E6%95%B0%E8%A8%88%E3%82%A2%E3%83%97%E3%83%AA/id879464961" target="_blank" rel="noopener">App Store 掲載素材</a>（Wellmira Inc.）</cite></figcaption>
+</figure>
+
+<div class="cmp-table-wrap">
+<table class="cmp-table spec-table">
+  <tbody>
+    <tr><th>正式名</th><td>RenoBody～歩くだけでポイントがもらえる歩数計アプリ～</td></tr>
+    <tr><th>提供元</th><td>Wellmira Inc.</td></tr>
+    <tr><th>費用</th><td><strong>無料</strong></td></tr>
+    <tr><th>入手先</th><td><a href="https://info.renobody.jp/prod/index.html" target="_blank" rel="noopener">公式サイト</a>／<a href="https://apps.apple.com/jp/app/renobody-%E6%AD%A9%E3%81%8F%E3%81%A0%E3%81%91%E3%81%A7%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88%E3%81%8C%E3%82%82%E3%82%89%E3%81%88%E3%82%8B%E6%AD%A9%E6%95%B0%E8%A8%88%E3%82%A2%E3%83%97%E3%83%AA/id879464961" target="_blank" rel="noopener">App Store</a></td></tr>
+  </tbody>
+</table>
+</div>
+
+### aruku&amp;
+
+<figure class="rn-figure app-shot">
+  <img src="/images/walk-poikatsu-2026/apps/arukuto-shot.jpg" alt="aruku&amp; のアプリ画面" loading="lazy" />
+  <figcaption>住民からの歩数依頼を達成してカードを集め、特産品の抽選に応募<cite>画像: <a href="https://apps.apple.com/jp/app/aruku-%E3%81%82%E3%82%8B%E3%81%8F%E3%81%A8-%E6%AD%A9%E3%81%84%E3%81%A6%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88%E3%81%8C%E8%B2%AF%E3%81%BE%E3%82%8B%E6%AD%A9%E6%95%B0%E8%A8%88%E3%82%A2%E3%83%97%E3%83%AA/id1165290449" target="_blank" rel="noopener">App Store 掲載素材</a>（ONE COMPATH CO., LTD.）</cite></figcaption>
+</figure>
+
+<div class="cmp-table-wrap">
+<table class="cmp-table spec-table">
+  <tbody>
+    <tr><th>正式名</th><td>aruku&(あるくと) 歩いてポイントが貯まる歩数計アプリ</td></tr>
+    <tr><th>提供元</th><td>ONE COMPATH CO., LTD.</td></tr>
+    <tr><th>費用</th><td><strong>無料</strong></td></tr>
+    <tr><th>入手先</th><td><a href="https://www.arukuto.jp/" target="_blank" rel="noopener">公式サイト</a>／<a href="https://apps.apple.com/jp/app/aruku-%E3%81%82%E3%82%8B%E3%81%8F%E3%81%A8-%E6%AD%A9%E3%81%84%E3%81%A6%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88%E3%81%8C%E8%B2%AF%E3%81%BE%E3%82%8B%E6%AD%A9%E6%95%B0%E8%A8%88%E3%82%A2%E3%83%97%E3%83%AA/id1165290449" target="_blank" rel="noopener">App Store</a></td></tr>
+  </tbody>
+</table>
+</div>
 
 <div class="section-with-mascot">
   <div class="mascot-wrap"><img src="/images/expr-07-gasp.png" alt="Daily Hackマスコット" /></div>
@@ -342,6 +566,22 @@ references:
 
 ### BitWalk｜CMの「10万円分」に対する試算
 
+<figure class="rn-figure app-shot">
+  <img src="/images/walk-poikatsu-2026/apps/bitwalk-shot.jpg" alt="BitWalk のアプリ画面" loading="lazy" />
+  <figcaption>歩数でビットコインがもらえる。相場で金額が変わる<cite>画像: <a href="https://apps.apple.com/jp/app/%E6%AD%A9%E3%81%84%E3%81%A6%E3%83%9D%E3%82%A4%E6%B4%BB-%E3%83%93%E3%83%83%E3%83%88%E3%82%A6%E3%82%A9%E3%83%BC%E3%82%AF-%E6%AD%A9%E6%95%B0%E3%81%A7%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88-%E3%83%93%E3%83%83%E3%83%88%E3%82%B3%E3%82%A4%E3%83%B3/id1634543016" target="_blank" rel="noopener">App Store 掲載素材</a>（Paddle, inc）</cite></figcaption>
+</figure>
+
+<div class="cmp-table-wrap">
+<table class="cmp-table spec-table">
+  <tbody>
+    <tr><th>正式名</th><td>歩いてポイ活 ビットウォーク:歩数でポイント／ビットコイン</td></tr>
+    <tr><th>提供元</th><td>Paddle, inc</td></tr>
+    <tr><th>費用</th><td><strong>無料</strong></td></tr>
+    <tr><th>入手先</th><td><a href="https://apps.apple.com/jp/app/%E6%AD%A9%E3%81%84%E3%81%A6%E3%83%9D%E3%82%A4%E6%B4%BB-%E3%83%93%E3%83%83%E3%83%88%E3%82%A6%E3%82%A9%E3%83%BC%E3%82%AF-%E6%AD%A9%E6%95%B0%E3%81%A7%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88-%E3%83%93%E3%83%83%E3%83%88%E3%82%B3%E3%82%A4%E3%83%B3/id1634543016" target="_blank" rel="noopener">App Store</a></td></tr>
+  </tbody>
+</table>
+</div>
+
 **このカテゴリでいちばん広告を見かけるのがBitWalk。** その表現に対して、実際の歩数から計算した投稿がある。
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">#bitwalkビットウォークのCMで「10万円分貯まった」との主張がありますが、実際のユーザー体験や報告からすると、これほどの金額を貯めるには相当な時間と労力が必要です。例えば、1日12,500歩を歩き、すべてのスタンプ交換時に広告を視聴した場合、最大で約7.5円相当のビットコインを獲得できます。こ</p>
@@ -353,6 +593,22 @@ references:
 **「歩いてビットコインがもらえる」は本当。「10万円 貯まる」とは速度が違う。** ここを混ぜて読むと期待を外す。
 
 ### HEALTHREE（ヘルスリー）｜RPGとして続ける型
+
+<figure class="rn-figure app-shot">
+  <img src="/images/walk-poikatsu-2026/apps/healthree-shot.jpg" alt="HEALTHREE のアプリ画面" loading="lazy" />
+  <figcaption>歩いて進める運動型RPG。ゲーム内トークンが動く<cite>画像: <a href="https://apps.apple.com/jp/app/%E3%83%98%E3%83%AB%E3%82%B9%E3%83%AA%E3%83%BC-%E6%AD%A9%E3%81%84%E3%81%A6%E9%80%B2%E3%82%81%E3%82%8B%E9%81%8B%E5%8B%95%E5%9E%8Brpg/id6449821527" target="_blank" rel="noopener">App Store 掲載素材</a>（HEALTHREE TECHNOLOGIES LTD.）</cite></figcaption>
+</figure>
+
+<div class="cmp-table-wrap">
+<table class="cmp-table spec-table">
+  <tbody>
+    <tr><th>正式名</th><td>ヘルスリー｜歩いて進める運動型RPG</td></tr>
+    <tr><th>提供元</th><td>HEALTHREE TECHNOLOGIES LTD.</td></tr>
+    <tr><th>費用</th><td><strong>無料</strong></td></tr>
+    <tr><th>入手先</th><td><a href="https://apps.apple.com/jp/app/%E3%83%98%E3%83%AB%E3%82%B9%E3%83%AA%E3%83%BC-%E6%AD%A9%E3%81%84%E3%81%A6%E9%80%B2%E3%82%81%E3%82%8B%E9%81%8B%E5%8B%95%E5%9E%8Brpg/id6449821527" target="_blank" rel="noopener">App Store</a></td></tr>
+  </tbody>
+</table>
+</div>
 
 **日本発のWeb3ヘルスケアアプリで、NTTドコモが出資するAstarネットワーク上で動いている。** 歩く・寝る・食べるといった行動でトークン（$UHT / $GHT）が貯まり、**CLOTHES NFTでアバターを着せ替えながら進める運動型RPG**という作りになっている。
 
@@ -370,6 +626,22 @@ references:
 
 ### STEPN｜初期投資が要るのはここだけ
 
+<figure class="rn-figure app-shot">
+  <img src="/images/walk-poikatsu-2026/apps/stepn-shot.jpg" alt="STEPN のアプリ画面" loading="lazy" />
+  <figcaption>NFTスニーカーを買って歩く。<strong>このカテゴリで唯一 先に払う</strong><cite>画像: <a href="https://apps.apple.com/jp/app/stepn/id1598112424" target="_blank" rel="noopener">App Store 掲載素材</a>（FindSatoshi Lab Limited）</cite></figcaption>
+</figure>
+
+<div class="cmp-table-wrap">
+<table class="cmp-table spec-table">
+  <tbody>
+    <tr><th>正式名</th><td>STEPN</td></tr>
+    <tr><th>提供元</th><td>FindSatoshi Lab Limited</td></tr>
+    <tr><th>費用</th><td><strong>初期投資が必要</strong></td></tr>
+    <tr><th>入手先</th><td><a href="https://apps.apple.com/jp/app/stepn/id1598112424" target="_blank" rel="noopener">App Store</a></td></tr>
+  </tbody>
+</table>
+</div>
+
 **NFTスニーカーを買ってから走る方式。** 2022年にはGSTが500円ほどの価値を持っていたが、**2026年1月時点で1円未満まで下落**している。Solanaチェーンでは**NFTスニーカーが数千円から買えるケースもある**ところまで値が下がった。
 
 **勢力図の右下に置いたのはこのため。** 先に払って、戻りは相場次第。
@@ -377,6 +649,42 @@ references:
 <div class="yt-embed"><iframe src="https://www.youtube-nocookie.com/embed/XlT3lRz2eDk"
   title="【まだタダで歩いてるの？】歩いて仮想通貨を稼ぐ新時代到来！！！ステラウォークとSTEPご紹介しています♪" loading="lazy" allowfullscreen
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe></div>
+
+### ステラウォーク
+
+<figure class="rn-figure app-shot">
+  <img src="/images/walk-poikatsu-2026/apps/stellawalk-shot.jpg" alt="ステラウォーク のアプリ画面" loading="lazy" />
+  <figcaption>歩数で暗号資産（ステラルーメン）がもらえる<cite>画像: <a href="https://apps.apple.com/jp/app/%E3%82%B9%E3%83%86%E3%83%A9%E3%82%A6%E3%82%A9%E3%83%BC%E3%82%AF-%E6%AD%A9%E3%81%8F%E3%81%A0%E3%81%91%E3%81%A7%E6%9A%97%E5%8F%B7%E8%B3%87%E7%94%A3%E3%81%8C%E8%B2%B0%E3%81%88%E3%82%8B/id1599065744" target="_blank" rel="noopener">App Store 掲載素材</a>（DoshCook LLC）</cite></figcaption>
+</figure>
+
+<div class="cmp-table-wrap">
+<table class="cmp-table spec-table">
+  <tbody>
+    <tr><th>正式名</th><td>ステラウォーク - 歩くだけで暗号資産が貰える！</td></tr>
+    <tr><th>提供元</th><td>DoshCook LLC</td></tr>
+    <tr><th>費用</th><td><strong>無料</strong></td></tr>
+    <tr><th>入手先</th><td><a href="https://apps.apple.com/jp/app/%E3%82%B9%E3%83%86%E3%83%A9%E3%82%A6%E3%82%A9%E3%83%BC%E3%82%AF-%E6%AD%A9%E3%81%8F%E3%81%A0%E3%81%91%E3%81%A7%E6%9A%97%E5%8F%B7%E8%B3%87%E7%94%A3%E3%81%8C%E8%B2%B0%E3%81%88%E3%82%8B/id1599065744" target="_blank" rel="noopener">App Store</a></td></tr>
+  </tbody>
+</table>
+</div>
+
+### Sweatcoin
+
+<figure class="rn-figure app-shot">
+  <img src="/images/walk-poikatsu-2026/apps/sweatcoin-shot.jpg" alt="Sweatcoin のアプリ画面" loading="lazy" />
+  <figcaption>歩数でアプリ内通貨。商品やギフト券と交換できる<cite>画像: <a href="https://apps.apple.com/jp/app/sweatcoin-%E3%81%86%E3%81%89%E3%83%BC%E3%81%8D%E3%82%93%E3%81%90%E3%81%82%E3%81%B7%E3%82%8A-%E6%AD%A9%E3%81%8F/id971023427" target="_blank" rel="noopener">App Store 掲載素材</a>（Sweatco Ltd）</cite></figcaption>
+</figure>
+
+<div class="cmp-table-wrap">
+<table class="cmp-table spec-table">
+  <tbody>
+    <tr><th>正式名</th><td>Sweatcoin - うぉーきんぐあぷり・歩く</td></tr>
+    <tr><th>提供元</th><td>Sweatco Ltd</td></tr>
+    <tr><th>費用</th><td><strong>無料（有料プランあり）</strong></td></tr>
+    <tr><th>入手先</th><td><a href="https://apps.apple.com/jp/app/sweatcoin-%E3%81%86%E3%81%89%E3%83%BC%E3%81%8D%E3%82%93%E3%81%90%E3%81%82%E3%81%B7%E3%82%8A-%E6%AD%A9%E3%81%8F/id971023427" target="_blank" rel="noopener">App Store</a></td></tr>
+  </tbody>
+</table>
+</div>
 
 <div class="section-with-mascot">
   <div class="mascot-wrap"><img src="/images/expr-04-cheer.png" alt="Daily Hackマスコット" /></div>
@@ -402,6 +710,42 @@ references:
 **Vitalityは「ポイントがもらえる」ではなく「保険料が変わる」。** 桁が違うのはこのため。ただし**保険に入っていることが前提**なので、アプリを入れれば誰でも、という話ではない。
 
 **自治体の健康ポイントは、アプリを探している人ほど見落とす。** ストアで検索しても出てこず、区市町村のサイトにある。**東京都は1,000ptを都の側から上乗せする**仕組みまで用意している。
+
+### 住友生命 Vitality
+
+<figure class="rn-figure app-shot">
+  <img src="/images/walk-poikatsu-2026/apps/vitality-shot.jpg" alt="住友生命 Vitality のアプリ画面" loading="lazy" />
+  <figcaption>歩数などのポイントでステータスが決まり、保険料が変動する<cite>画像: <a href="https://apps.apple.com/jp/app/vitality/id1352961017" target="_blank" rel="noopener">App Store 掲載素材</a>（SUMITOMO LIFE INSURANCE COMPANY）</cite></figcaption>
+</figure>
+
+<div class="cmp-table-wrap">
+<table class="cmp-table spec-table">
+  <tbody>
+    <tr><th>正式名</th><td>Vitality</td></tr>
+    <tr><th>提供元</th><td>SUMITOMO LIFE INSURANCE COMPANY</td></tr>
+    <tr><th>費用</th><td><strong>保険に付帯</strong></td></tr>
+    <tr><th>入手先</th><td><a href="https://vitality.sumitomolife.co.jp/about/status/" target="_blank" rel="noopener">公式サイト</a>／<a href="https://apps.apple.com/jp/app/vitality/id1352961017" target="_blank" rel="noopener">App Store</a></td></tr>
+  </tbody>
+</table>
+</div>
+
+### kencom
+
+<figure class="rn-figure app-shot">
+  <img src="/images/walk-poikatsu-2026/apps/kencom-shot.jpg" alt="kencom のアプリ画面" loading="lazy" />
+  <figcaption>歩数や健診でポイント。加入している健保の特典と結びつく<cite>画像: <a href="https://apps.apple.com/jp/app/kencom-%E3%82%B1%E3%83%B3%E3%82%B3%E3%83%A0/id1034656740" target="_blank" rel="noopener">App Store 掲載素材</a>（DeSC Healthcare Inc.）</cite></figcaption>
+</figure>
+
+<div class="cmp-table-wrap">
+<table class="cmp-table spec-table">
+  <tbody>
+    <tr><th>正式名</th><td>kencom(ケンコム)</td></tr>
+    <tr><th>提供元</th><td>DeSC Healthcare Inc.</td></tr>
+    <tr><th>費用</th><td><strong>健保加入者向け</strong></td></tr>
+    <tr><th>入手先</th><td><a href="https://kencom.jp/" target="_blank" rel="noopener">公式サイト</a>／<a href="https://apps.apple.com/jp/app/kencom-%E3%82%B1%E3%83%B3%E3%82%B3%E3%83%A0/id1034656740" target="_blank" rel="noopener">App Store</a></td></tr>
+  </tbody>
+</table>
+</div>
 
 <div class="section-with-mascot">
   <div class="mascot-wrap"><img src="/images/expr-07-gasp.png" alt="Daily Hackマスコット" /></div>
