@@ -279,7 +279,11 @@ if [ -d "$MAIN_REPO/.git" ]; then
   git -C "$MAIN_REPO" fetch -q origin main 2>/dev/null || true
   n="$(git -C "$MAIN_REPO" rev-list --count HEAD..origin/main 2>/dev/null || echo "")"
   [ -n "$n" ] && clone_behind="$n"
-  clone_dirty="$(git -C "$MAIN_REPO" status --porcelain 2>/dev/null | grep -vc '^??' || echo 0)"
+  # **`grep -c` は 0 件でも「0」を出したうえで終了コード 1 を返す。**
+  # `|| echo 0` を付けると **"0\n0" の 2 行**になり、`"dirty": 0\n0` という
+  # **壊れた JSON** ができる。2026-09-18〜20 の 2 日間、監視の `jq` が全部 落ちていた。
+  clone_dirty="$(git -C "$MAIN_REPO" status --porcelain 2>/dev/null | grep -vc '^??' | head -1)"
+  case "$clone_dirty" in ''|*[!0-9]*) clone_dirty=0 ;; esac
 fi
 
 unloaded_count=0
@@ -749,6 +753,34 @@ try {
   fi
   echo "}"
 } > "$WT/heartbeat.json"
+
+# --- **出した JSON が読めるかを、別の口で確かめる** -----------------------
+#
+# `heartbeat.json` は **`ops-watchdog.yml` が `jq` で 20 回 以上 読む。**
+# 1 文字でも壊れると **20 回 すべてが落ち、警報が出なくなる。**
+# それでいて heartbeat 自体は rc=0 で push され続けるため、
+# **壊れていること自体が誰にも見えない**（最上位ルール 13）。
+#
+# 2026-09-18 に `grep -c` の `|| echo 0` で "0\n0" を書き、**2 日間 気づかなかった。**
+# 書いた側で必ず検査する。壊れていたら実物を残し、**最低限 読める形に差し替える。**
+if ! node -e 'JSON.parse(require("fs").readFileSync(process.argv[1],"utf8"))' "$WT/heartbeat.json" 2>/dev/null; then
+  _jerr="$(node -e 'try{JSON.parse(require("fs").readFileSync(process.argv[1],"utf8"))}catch(e){process.stdout.write(String(e.message).slice(0,200))}' "$WT/heartbeat.json" 2>/dev/null)"
+  echo "ops-heartbeat: **heartbeat.json が不正な JSON。** $_jerr" >&2
+  cp "$WT/heartbeat.json" "$WT/heartbeat.broken.json" 2>/dev/null || true
+  node -e '
+    const fs = require("fs");
+    fs.writeFileSync(process.argv[1], JSON.stringify({
+      generated_at: process.argv[2],
+      host: process.argv[3],
+      job_count: Number(process.argv[4]) || 0,
+      json_error: true,
+      json_error_detail: process.argv[5] || "",
+      note: "生成した JSON が壊れていた。実物は heartbeat.broken.json にある",
+    }, null, 2) + "\n");
+  ' "$WT/heartbeat.json" "$now" "$host" "$count" "$_jerr" 2>/dev/null || true
+else
+  rm -f "$WT/heartbeat.broken.json" 2>/dev/null || true
+fi
 
 # --- push する -----------------------------------------------------------
 
