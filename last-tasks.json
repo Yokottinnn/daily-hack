@@ -1,1 +1,3 @@
-[]
+[
+      {"task": "x89-fix-tab-guard.sh", "rc": 0, "out": "tab-guard の修正 / fix-tab-guard.md 111 行"}
+  ]
