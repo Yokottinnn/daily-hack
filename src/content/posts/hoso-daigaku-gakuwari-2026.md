@@ -152,6 +152,7 @@ references:
 <tr><td><a href="https://www.apple.com/jp/apple-music/" target="_blank" rel="noopener">Apple Music</a></td><td>1,080円</td><td>680円</td><td>400円</td><td>UNiDAYS</td></tr>
 <tr><td><a href="https://www.amazon.co.jp/b?node=5961517051" target="_blank" rel="noopener">Amazon Prime Student</a></td><td>600円</td><td>300円</td><td>300円</td><td>学籍番号・6か月無料体験</td></tr>
 <tr><td><a href="https://www.parallels.com/jp/products/desktop/education/" target="_blank" rel="noopener">Parallels Desktop</a></td><td>年11,700円</td><td>年5,700円</td><td>500円相当</td><td>在学確認</td></tr>
+<tr><td><a href="https://www.nikkei.com/promotion/campaign/student/" target="_blank" rel="noopener">日経電子版（学生限定キャンペーン）</a></td><td>4,277円</td><td>2カ月無料＋6か月は2,777円</td><td>1,500円（6か月）</td><td>申込時に学生であること</td></tr>
 </tbody>
 </table>
 </div>
@@ -242,7 +243,7 @@ references:
 <table class="cmp-table">
 <thead><tr><th>使うもの</th><th>学生だと</th><th>条件</th></tr></thead>
 <tbody>
-<tr class="recommended"><td><a href="https://tic-coop.com/coop/" target="_blank" rel="noopener">東京インターカレッジコープ</a>（大学生協）</td><td>書籍・DVDが<strong>10%引き</strong></td><td>生協の無い大学の学生が対象。<strong>出資金は脱退時に返る</strong></td></tr>
+<tr class="recommended"><td><a href="https://tic-coop.com/coop/" target="_blank" rel="noopener">東京インターカレッジコープ</a>（大学生協）</td><td>書籍・DVDが<strong>10%引き</strong></td><td>都内で生協の無い学校の学生・院生・教職員が対象。<strong>出資金は一口5,000円で、卒業時に返還</strong></td></tr>
 <tr><td><a href="https://big-echo.jp/" target="_blank" rel="noopener">ビッグエコー</a></td><td>学生料金</td><td>在学が証明できれば<strong>通信制も対象</strong>、年齢の上限は置いていない</td></tr>
 <tr><td><a href="https://www.karaokemanekineko.jp/" target="_blank" rel="noopener">カラオケまねきねこ</a></td><td>学生フリータイム</td><td><strong>店舗ごとに条件が違う</strong>。全員の学生証提示が要る</td></tr>
 <tr><td><a href="https://www.the0123.com/" target="_blank" rel="noopener">アート引越センター</a></td><td>学割パック</td><td>引っ越すときだけ。単身向けの定額パック</td></tr>
@@ -250,7 +251,7 @@ references:
 </table>
 </div>
 
-<p class="source-note">大学生協は<strong>地域と加入資格が決まっている</strong>。東京インターカレッジコープは、東京都内の生協が無い学校に通う学生か、都内在住で都外の生協が無い学校に通う学生が対象</p>
+<p class="source-note">出典：<a href="https://tic-coop.com/coop/join.php" target="_blank" rel="noopener">東京インターカレッジコープ 加入案内</a>（出資金は一口5,000円・卒業時に返還）。<strong>大学生協は地域と加入資格が決まっている</strong>ので、<a href="https://tic-coop.com/school/" target="_blank" rel="noopener">加入対象校一覧</a>を先に見ること</p>
 
 ### 買い物｜Apple の教育ストアは「卒業をめざす学生」向け
 
@@ -310,7 +311,6 @@ references:
 <tr><td><a href="https://www.docomo.ne.jp/" target="_blank" rel="noopener">ドコモ・au・ソフトバンクの学割</a></td><td>U18・U22など<strong>年齢</strong></td><td><strong>使えない</strong></td></tr>
 <tr><td><a href="https://www.jal.co.jp/jp/ja/dom/fare/skymate/" target="_blank" rel="noopener">JAL スカイメイト</a></td><td>12〜25歳</td><td><strong>使えない</strong></td></tr>
 <tr><td><a href="https://www.ana.co.jp/" target="_blank" rel="noopener">ANA スマートU25</a></td><td>12〜25歳</td><td><strong>使えない</strong></td></tr>
-<tr><td><a href="https://www.nikkei.com/promotion/campaign/student/" target="_blank" rel="noopener">日経電子版の学割プラン</a></td><td><strong>23歳以下</strong>の正規在学者</td><td><strong>使えない</strong></td></tr>
 <tr><td>劇場・美術館のU25席</td><td>25歳以下</td><td><strong>使えない</strong></td></tr>
 <tr class="recommended"><td>Adobe・Apple・サブスク・映画館・美術館</td><td><strong>学生であること</strong></td><td><strong>使える</strong></td></tr>
 </tbody>
@@ -321,7 +321,7 @@ references:
 
 **「学割」という同じ言葉で、条件がまったく違う。** ここを分けずに一覧を作っている記事が多いので、**入学してから「使えなかった」となりやすい。** 年齢が条件のものは、学生証を何枚 持っていても通らない。
 
-**紛らわしいのが日経電子版。** 学割プランはあるが条件が「23歳以下の正規在学者」なので、大人の学生は通常価格のまま。一方で<strong>ディズニーのカレッジパスポートは年齢を問わない</strong>——同じ「学生向け」でも、**どちらの条件で書かれているかを毎回 読む**しかない。
+**見分け方は1つだけ。** 条件の書き方が「◯歳以下」なら諦める、「学生であること」なら通る。<strong>ディズニーのカレッジパスポートは年齢を問わないと明記している</strong>のに対し、携帯キャリアは軒並み「U18」「U22」と年齢で切っている。**同じ「学生向け」でも、どちらの条件で書かれているかを毎回 読む**しかない。
 
 <div class="section-with-mascot">
   <div class="mascot-wrap"><img src="/images/expr-07-gasp.png" alt="Daily Hackマスコット" /></div>
@@ -427,7 +427,9 @@ references:
 </table>
 </div>
 
-**在学証明書は学習センターの窓口か郵送で発行してもらえる。** 学生証だけで通らなかったときの二の矢として覚えておくと、申請でつまずかない。
+**在学証明書は学習センターの窓口か郵送で発行してもらえる。手数料は1通200円。** 学生証だけで通らなかったときの二の矢として覚えておくと、申請でつまずかない。
+
+<p class="source-note">出典：<a href="https://www.ouj.ac.jp/about/certificate/" target="_blank" rel="noopener">放送大学 証明書発行</a>（手数料1通200円）</p>
 
 <div class="section-with-mascot">
   <div class="mascot-wrap"><img src="/images/expr-07-gasp.png" alt="Daily Hackマスコット" /></div>
