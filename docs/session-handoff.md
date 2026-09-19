@@ -68,6 +68,12 @@
 
 <!-- 新しい記録がこの下に追加される（新しいものが上） -->
 
+### 2026-09-20 — 2026-09-19 11:21 JST に Mac が落ち、9/20 00:20 JST に復帰。ops の経路（ポーラー・heartbeat・タスク実行）は正常に戻り t092〜t095 が rc=0 で完了。ただし LaunchAgents が載り直しておらず x_jobs loaded 0/8、last_reply は 19 時間 前で stale。認証と CDP は生きている。番人も外れているため自動では戻らないので、x84 で 12 本 を bootstrap する
+
+次のアクション:
+
+- [ ] x84 の結果を launchctl list で確かめる。載った後は次の定時（comment-warmup 12/16/19/22 時 ほか）で自然に戻る。いま走らせるなら kickstart だが LLM 代が出るので承認を取ってから
+
 ### 2026-09-19 — 参照元の X 投稿（connect24h/2100750468171657241）を取る t093 を main に入れた（PR #500）。クラウドは x.com・cdn.syndication.twimg.com・publish.twitter.com・api.fxtwitter.com・api.vxtwitter.com すべて EGRESS_BLOCKED で読めない。ops-heartbeat が 2026-09-19 11:21 JST から停止中のため、t093 も t092 も 1 度も実行されていない。
 
 次のアクション:
