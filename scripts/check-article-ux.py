@@ -116,9 +116,20 @@ def check(path):
 BASELINE = pathlib.Path(__file__).resolve().parent.parent / "docs" / "article-ux-baseline.json"
 
 
+def is_article(path):
+    """**ページ送りのページを記事と数えない。**
+
+    `dist/posts/2/index.html` のような番号だけのディレクトリは記事一覧の
+    2 ページ目であって記事ではない。**記事を 1 本 足すとページ割りがずれる**ので、
+    ベースラインに入れると新記事のたびに誤検知する（2026-09-19 に実際に踏んだ）。
+    """
+    return not pathlib.Path(path).parent.name.isdigit()
+
+
 def collect(targets):
     """{記事slug: [指摘, ...]} を返す。"""
     out = {}
+    targets = [t for t in targets if is_article(t)]
     for t in targets:
         iss = check(t)
         if iss:
