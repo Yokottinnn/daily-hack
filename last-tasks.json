@@ -1,1 +1,4 @@
-[]
+[
+      {"task": "t094-ouj-enrollment.sh", "rc": 0, "out": "## 学費  `https://www.ouj.ac.jp/admission/gakubu/tuition/`  取れた行: 336 行中 **34 行**が該当"},
+      {"task": "t095-gakuwari-tiles.sh", "rc": 0, "out": "（条件に合う画像が無かった。検索語を変えて取り直す）  ## books  検索語: `bookstore bookshelves interior`"}
+  ]
