@@ -88,6 +88,44 @@ jobs:
           SLACK_CHECK: ${{ secrets.SLACK_WEBHOOK_URL }}
         run: |
           set -uo pipefail
+
+          # **まず JSON として読めるかを見る。**
+          # 以下 20 箇所以上が `jq` で読むため、1 文字でも壊れていると
+          # **全部が空になり、判定がすべて素通りする。** それでいてこの job は
+          # 成功扱いで終わるので、**壊れていること自体が誰にも見えない。**
+          # 2026-09-18 に `grep -c` の `|| echo 0` で "0\n0" が混入し、
+          # **2 日間 気づかなかった**（CLAUDE.md 最上位ルール 13）。
+          if ! jq -e . hb/heartbeat.json >/dev/null 2>&1; then
+            {
+              echo "age=-1"
+              echo "host=unknown"
+              echo "gen=unknown"
+              echo "missing="
+              echo "auth_ok=null"
+              echo "auth_detail=heartbeat.json が壊れていて読めない"
+              echo "auth_hours="
+              echo "posted=0"
+              echo "unloaded_n=0"
+              echo "unloaded_list="
+              echo "f_now=null"
+              echo "f_delta="
+              echo "f_span="
+              echo "f_need="
+              echo "problem=badjson"
+            } >> "$GITHUB_OUTPUT"
+            {
+              echo "### ops-watchdog"
+              echo ""
+              echo "- **\`heartbeat.json\` が不正な JSON で読めない。**"
+              echo "- 監視の判定は**すべて素通りしている**。ジョブの生死は分からない。"
+              echo ""
+              echo '```'
+              jq . hb/heartbeat.json 2>&1 | head -5
+              echo '```'
+            } >> "$GITHUB_STEP_SUMMARY"
+            exit 0
+          fi
+
           gen=$(jq -r '.generated_at' hb/heartbeat.json)
           host=$(jq -r '.host' hb/heartbeat.json)
           jobs=$(jq -r '.jobs[]?' hb/heartbeat.json | sort)
@@ -217,6 +255,11 @@ jobs:
           if [ -z "${SLACK_CHECK:-}" ]; then
             problem="${problem:+$problem,}nowebhook"
           fi
+          # heartbeat 側が「生成した JSON が壊れていた」と自己申告している場合。
+          # 最低限 読める形に差し替えられているので parse は通るが、中身は空。
+          if [ "$(jq -r '.json_error | tostring' hb/heartbeat.json)" = "true" ]; then
+            problem="${problem:+$problem,}badjson"
+          fi
 
           {
             echo "age=$age"
@@ -304,6 +347,14 @@ jobs:
                 echo "  目標には 1 日 ${F_NEED} 人 必要。"
                 echo "  ジョブが載っていても実行できていない可能性がある"
                 echo "  （2026-07-07 は Chrome CDP の接続断で 46 日間 0 件だった）。"
+                ;;
+            esac
+            case "$PROBLEM" in
+              *badjson*)
+                echo "• *\`heartbeat.json\` が不正な JSON で、監視の判定がすべて素通りしている*"
+                echo "  ジョブの生死・認証・投稿数のどれも読めていない。"
+                echo "  つまり**この通知以外は何も検知できていない**状態。"
+                echo "  生成側は \`scripts/ops-heartbeat.sh\`。実物は heartbeat.broken.json。"
                 ;;
             esac
             case "$PROBLEM" in
