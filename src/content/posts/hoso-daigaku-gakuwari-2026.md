@@ -129,6 +129,29 @@ references:
 
 **10年で54,000円、月あたり450円。** 1年で切り取った「月1,750円」（選科履修生21,000円÷12）と比べると、**4分の1以下**になる。同じ制度を見ていても、**期間の取り方だけで数字が4倍 変わる。**
 
+### 共済に入っているなら、入学料は半額
+
+**これは知られていない。** 国家公務員共済組合・公立学校共済組合・日本私立学校振興共済事業団の加入者は、**放送大学の入学料が半額**になる。しかも**被扶養者も対象**なので、本人が公務員・教職員・私学職員でなくても、配偶者や親がそうなら効く。
+
+<div class="cmp-table-wrap">
+<table class="cmp-table">
+<thead><tr><th>学生種</th><th>一般の入学料</th><th>共済の割引後</th><th>10年の最安合計</th><th>1か月あたり</th></tr></thead>
+<tbody>
+<tr class="recommended"><td>全科履修生</td><td>24,000円</td><td><strong>12,000円</strong></td><td><strong>42,000円</strong></td><td><strong>350円</strong></td></tr>
+<tr><td>選科履修生</td><td>9,000円</td><td>4,500円</td><td>—（1年で満了）</td><td>—</td></tr>
+<tr><td>科目履修生</td><td>7,000円</td><td>3,500円</td><td>—（半年で満了）</td><td>—</td></tr>
+</tbody>
+</table>
+</div>
+
+<p class="source-note">出典：<a href="https://www.ouj.ac.jp/about/mutualaid-discount/" target="_blank" rel="noopener">放送大学 共済加入者の入学料半額割引について</a>。<strong>修士全科生・博士全科生は対象外</strong></p>
+
+**ただし落とし穴がある。** 公式にこう書いてある。
+
+<blockquote><p>共済専用出願票・専用封筒で出願されないと組合員特典は受けられません。通常の出願をされた後で組合員特典を利用した出願への変更はできません。</p></blockquote>
+
+**出願の前に気づかないと、あとから取り返せない。** 該当しそうなら、募集要項を共済経由で取り寄せるところから始める。
+
 <ul class="checklist">
   <li><div class="checklist-body"><strong>休学は在学年限に入らない。</strong><p>全科履修生は通算8学期（4年）休学でき、その期間は10年の年限に算入されない。<strong>10年＋4年＝通算14年 在籍できる</strong>計算で、54,000円を168か月で割れば月321円になる。</p></div></li>
   <li><div class="checklist-body"><strong>除籍されても、入学し直せる。</strong><p>公式も「一度学籍を失っても再入学し再び在学することは可能です（入学料は再度必要です）」と明記している。<strong>入学料を再度 払えば、そこからまた10年</strong>。実際に「10年の在学期間が終わり、再入学して2回目の全科履修生」という在学生の声が公式サイトに載っている。</p></div></li>
@@ -173,7 +196,7 @@ references:
 <tr><td><a href="https://www.notion.com/product/notion-for-education" target="_blank" rel="noopener">Notion</a></td><td>Plusプラン</td><td><strong>無料</strong></td><td>アップロード無制限・履歴延長</td></tr>
 <tr><td><a href="https://www.jetbrains.com/ja-jp/community/education/" target="_blank" rel="noopener">JetBrains</a></td><td>年3万円前後</td><td><strong>無料</strong></td><td>IDE全部入りのライセンス</td></tr>
 <tr><td><a href="https://education.github.com/pack" target="_blank" rel="noopener">GitHub Student Pack</a></td><td>各社の有料枠</td><td><strong>無料</strong></td><td>Copilotほか開発ツールの束</td></tr>
-<tr><td><a href="https://www.microsoft.com/ja-JP/education/products/office" target="_blank" rel="noopener">Microsoft 365</a></td><td>年14,900円前後</td><td><strong>無料</strong></td><td>Word・Excel・PowerPoint</td></tr>
+<tr><td><a href="https://www.microsoft.com/ja-JP/education/products/office" target="_blank" rel="noopener">Microsoft 365</a></td><td>年14,900円前後</td><td><strong>無料</strong></td><td>Word・Excel・PowerPoint。買い切り版がほしいなら<a href="https://www.ouj.ac.jp/about/office-gakuwari/" target="_blank" rel="noopener">ウチダのOffice学割</a>も使える</td></tr>
 <tr><td><a href="https://www.autodesk.com/jp/education/home" target="_blank" rel="noopener">Autodesk</a></td><td>年数十万円</td><td><strong>無料</strong></td><td>AutoCAD・Fusion など</td></tr>
 </tbody>
 </table>
@@ -237,7 +260,7 @@ references:
 
 <p class="source-note">出典：<a href="https://faq.tokyodisneyresort.jp/tdr/faq_detail.html?id=25436" target="_blank" rel="noopener">東京ディズニーリゾート よくあるご質問／カレッジパスポートの対象</a>／<a href="https://www.usj.co.jp/company/news/2025/1120/" target="_blank" rel="noopener">USJ「ユニ春 2026」</a>。<strong>どちらも通年ではなく期間限定</strong>で、価格は入園日によって変わる</p>
 
-### 本・カラオケ・引越し｜生活の側で効くもの
+### 本・カラオケ・引越し・託児｜生活の側で効くもの
 
 <div class="cmp-table-wrap">
 <table class="cmp-table">
@@ -247,6 +270,7 @@ references:
 <tr><td><a href="https://big-echo.jp/" target="_blank" rel="noopener">ビッグエコー</a></td><td>学生料金</td><td>在学が証明できれば<strong>通信制も対象</strong>、年齢の上限は置いていない</td></tr>
 <tr><td><a href="https://www.karaokemanekineko.jp/" target="_blank" rel="noopener">カラオケまねきねこ</a></td><td>学生フリータイム</td><td><strong>店舗ごとに条件が違う</strong>。全員の学生証提示が要る</td></tr>
 <tr><td><a href="https://www.the0123.com/" target="_blank" rel="noopener">アート引越センター</a></td><td>学割パック</td><td>引っ越すときだけ。単身向けの定額パック</td></tr>
+<tr><td><a href="https://www.ouj.ac.jp/about/nursery/" target="_blank" rel="noopener">キッズスクウェアの一時預かり</a></td><td>放送大学向けの割引料金</td><td>放送大学が提携している。<strong>全科・選科・科目のどれでも対象</strong>で、予約時に申し出て当日 学生証を出す</td></tr>
 </tbody>
 </table>
 </div>
@@ -445,6 +469,7 @@ references:
 <tr><th>除籍されたら終わりか</th><td>終わりではない。<strong>再入学できる</strong>（入学料は再度 必要）。一定期間内なら入学料の割引もある</td></tr>
 <tr><th>授業を受けなくてもいいか</th><td>受講は任意。ただし<strong>学費の納入が在籍の条件</strong>なので、科目登録そのものを飛ばすと除籍になる</td></tr>
 <tr><th>学生証はいつ届くか</th><td>学期が始まってから、所属する学習センターで受け取る。<strong>申し込んですぐ使えるわけではない</strong>ので、学割の申請時期は余裕を見ておく</td></tr>
+<tr><th>入学料を安くする方法はあるか</th><td>ある。<strong>共済（国家公務員・公立学校・私学事業団）の加入者と被扶養者は入学料が半額。</strong>全科履修生なら24,000円→12,000円で、<strong>10年の合計は42,000円＝月350円</strong>。<a href="https://www.ouj.ac.jp/about/mutualaid-discount/" target="_blank" rel="noopener">共済専用の出願票で出願する</a>必要がある</td></tr>
 <tr><th>一番 安く10年 持つには</th><td><strong>全科履修生で、<a href="https://www.ouj.ac.jp/admission/gakubu/tuition/" target="_blank" rel="noopener">1単位6,000円</a>の科目を3学期に1回。</strong>10年54,000円＝月450円</td></tr>
 </tbody>
 </table>
