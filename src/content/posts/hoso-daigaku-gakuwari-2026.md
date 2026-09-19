@@ -129,6 +129,29 @@ references:
 
 **10年で54,000円、月あたり450円。** 1年で切り取った「月1,750円」（選科履修生21,000円÷12）と比べると、**4分の1以下**になる。同じ制度を見ていても、**期間の取り方だけで数字が4倍 変わる。**
 
+### 共済に入っているなら、入学料は半額
+
+**これは知られていない。** 国家公務員共済組合・公立学校共済組合・日本私立学校振興共済事業団の加入者は、**放送大学の入学料が半額**になる。しかも**被扶養者も対象**なので、本人が公務員・教職員・私学職員でなくても、配偶者や親がそうなら効く。
+
+<div class="cmp-table-wrap">
+<table class="cmp-table">
+<thead><tr><th>学生種</th><th>一般の入学料</th><th>共済の割引後</th><th>10年の最安合計</th><th>1か月あたり</th></tr></thead>
+<tbody>
+<tr class="recommended"><td>全科履修生</td><td>24,000円</td><td><strong>12,000円</strong></td><td><strong>42,000円</strong></td><td><strong>350円</strong></td></tr>
+<tr><td>選科履修生</td><td>9,000円</td><td>4,500円</td><td>—（1年で満了）</td><td>—</td></tr>
+<tr><td>科目履修生</td><td>7,000円</td><td>3,500円</td><td>—（半年で満了）</td><td>—</td></tr>
+</tbody>
+</table>
+</div>
+
+<p class="source-note">出典：<a href="https://www.ouj.ac.jp/about/mutualaid-discount/" target="_blank" rel="noopener">放送大学 共済加入者の入学料半額割引について</a>。<strong>修士全科生・博士全科生は対象外</strong></p>
+
+**ただし落とし穴がある。** 公式にこう書いてある。
+
+<blockquote><p>共済専用出願票・専用封筒で出願されないと組合員特典は受けられません。通常の出願をされた後で組合員特典を利用した出願への変更はできません。</p></blockquote>
+
+**出願の前に気づかないと、あとから取り返せない。** 該当しそうなら、募集要項を共済経由で取り寄せるところから始める。
+
 <ul class="checklist">
   <li><div class="checklist-body"><strong>休学は在学年限に入らない。</strong><p>全科履修生は通算8学期（4年）休学でき、その期間は10年の年限に算入されない。<strong>10年＋4年＝通算14年 在籍できる</strong>計算で、54,000円を168か月で割れば月321円になる。</p></div></li>
   <li><div class="checklist-body"><strong>除籍されても、入学し直せる。</strong><p>公式も「一度学籍を失っても再入学し再び在学することは可能です（入学料は再度必要です）」と明記している。<strong>入学料を再度 払えば、そこからまた10年</strong>。実際に「10年の在学期間が終わり、再入学して2回目の全科履修生」という在学生の声が公式サイトに載っている。</p></div></li>
@@ -152,6 +175,7 @@ references:
 <tr><td><a href="https://www.apple.com/jp/apple-music/" target="_blank" rel="noopener">Apple Music</a></td><td>1,080円</td><td>680円</td><td>400円</td><td>UNiDAYS</td></tr>
 <tr><td><a href="https://www.amazon.co.jp/b?node=5961517051" target="_blank" rel="noopener">Amazon Prime Student</a></td><td>600円</td><td>300円</td><td>300円</td><td>学籍番号・6か月無料体験</td></tr>
 <tr><td><a href="https://www.parallels.com/jp/products/desktop/education/" target="_blank" rel="noopener">Parallels Desktop</a></td><td>年11,700円</td><td>年5,700円</td><td>500円相当</td><td>在学確認</td></tr>
+<tr><td><a href="https://www.nikkei.com/promotion/campaign/student/" target="_blank" rel="noopener">日経電子版（学生限定キャンペーン）</a></td><td>4,277円</td><td>2カ月無料＋6か月は2,777円</td><td>1,500円（6か月）</td><td>申込時に学生であること</td></tr>
 </tbody>
 </table>
 </div>
@@ -172,7 +196,7 @@ references:
 <tr><td><a href="https://www.notion.com/product/notion-for-education" target="_blank" rel="noopener">Notion</a></td><td>Plusプラン</td><td><strong>無料</strong></td><td>アップロード無制限・履歴延長</td></tr>
 <tr><td><a href="https://www.jetbrains.com/ja-jp/community/education/" target="_blank" rel="noopener">JetBrains</a></td><td>年3万円前後</td><td><strong>無料</strong></td><td>IDE全部入りのライセンス</td></tr>
 <tr><td><a href="https://education.github.com/pack" target="_blank" rel="noopener">GitHub Student Pack</a></td><td>各社の有料枠</td><td><strong>無料</strong></td><td>Copilotほか開発ツールの束</td></tr>
-<tr><td><a href="https://www.microsoft.com/ja-JP/education/products/office" target="_blank" rel="noopener">Microsoft 365</a></td><td>年14,900円前後</td><td><strong>無料</strong></td><td>Word・Excel・PowerPoint</td></tr>
+<tr><td><a href="https://www.microsoft.com/ja-JP/education/products/office" target="_blank" rel="noopener">Microsoft 365</a></td><td>年14,900円前後</td><td><strong>無料</strong></td><td>Word・Excel・PowerPoint。買い切り版がほしいなら<a href="https://www.ouj.ac.jp/about/office-gakuwari/" target="_blank" rel="noopener">ウチダのOffice学割</a>も使える</td></tr>
 <tr><td><a href="https://www.autodesk.com/jp/education/home" target="_blank" rel="noopener">Autodesk</a></td><td>年数十万円</td><td><strong>無料</strong></td><td>AutoCAD・Fusion など</td></tr>
 </tbody>
 </table>
@@ -203,25 +227,74 @@ references:
   <h2 id="shot">都度の学割｜使った回だけ浮くもの</h2>
 </div>
 
-**こちらは「1回いくら浮くか」で見る。** 毎月 固定で出ていくものではないので、**年に何回 使うかを自分で掛ける**必要がある。
+**こちらは「1回いくら浮くか」で見る。** 毎月 固定で出ていくものではないので、**年に何回 使うかを自分で掛ける**必要がある。数が多いのでカテゴリに分けた。
+
+### 映画館｜1回400〜600円、劇場ごとに設定が違う
 
 <div class="cmp-table-wrap">
 <table class="cmp-table">
-<thead><tr><th>使うもの</th><th>一般</th><th>学生</th><th>1回で浮く額</th><th>年12回なら</th></tr></thead>
+<thead><tr><th>劇場</th><th>一般</th><th>大学生</th><th>1回で浮く額</th><th>月1本なら年</th></tr></thead>
 <tbody>
-<tr class="recommended"><td><a href="https://www.campusmembers.jp/" target="_blank" rel="noopener">国立美術館の所蔵作品展</a></td><td>500〜700円</td><td><strong>無料</strong></td><td><strong>500〜700円</strong></td><td>6,000〜8,400円</td></tr>
-<tr><td><a href="https://www.tohotheater.jp/" target="_blank" rel="noopener">TOHOシネマズ</a></td><td>2,000〜2,200円</td><td>1,500〜1,600円</td><td>400〜600円</td><td>4,800〜7,200円</td></tr>
-<tr><td><a href="https://www.aeoncinema.com/" target="_blank" rel="noopener">イオンシネマ</a></td><td>2,000円</td><td>1,700円</td><td>300円</td><td>3,600円</td></tr>
+<tr class="recommended"><td><a href="https://www.tohotheater.jp/" target="_blank" rel="noopener">TOHOシネマズ</a></td><td>2,000〜2,200円</td><td>1,500〜1,600円</td><td><strong>400〜600円</strong></td><td>4,800〜7,200円</td></tr>
 <tr><td><a href="https://109cinemas.net/" target="_blank" rel="noopener">109シネマズ</a></td><td>2,000円前後</td><td>1,500円前後</td><td>500円前後</td><td>6,000円前後</td></tr>
-<tr><td><a href="https://big-echo.jp/" target="_blank" rel="noopener">カラオケの学生料金</a></td><td>店舗による</td><td>学割あり</td><td>数百円</td><td>数千円</td></tr>
-<tr><td><a href="https://www.the0123.com/" target="_blank" rel="noopener">引越しの学割パック</a></td><td>通常料金</td><td>学割パック</td><td>数千〜1万円</td><td>引っ越すときだけ</td></tr>
+<tr><td><a href="https://www.aeoncinema.com/" target="_blank" rel="noopener">イオンシネマ</a></td><td>2,000円</td><td>1,700円</td><td>300円</td><td>3,600円</td></tr>
 </tbody>
 </table>
 </div>
 
 <p class="source-note">映画館の料金は2026年に改定されており、<strong>劇場ごとに設定が違う</strong>（TOHOシネマズは都心部が高い）。行く前に各劇場の公式で確認すること</p>
 
-**都度のほうは「回数を掛けて初めて効く」。** 映画を年1本しか見ない人にとっては500円の話でしかないが、**月1本 見る人には年6,000円**。ここは自分の生活に掛け算してほしい。
+### テーマパーク｜年齢を問わない学生券がある
+
+**ここが「大人の学生」にいちばん効くところ。** 東京ディズニーリゾートの学生券は、公式のよくあるご質問で**年齢も通学形態も問わない**と明記されている。
+
+<div class="cmp-table-wrap">
+<table class="cmp-table">
+<thead><tr><th>券種</th><th>価格</th><th>対象</th><th>いつ</th></tr></thead>
+<tbody>
+<tr class="recommended"><td><a href="https://www.tokyodisneyresort.jp/dream/event/college2026.html" target="_blank" rel="noopener">TDR カレッジパスポート</a></td><td><strong>7,000〜9,000円</strong></td><td>大学・大学院・短大・専門・予備校生。<strong>年齢を問わず、通信制も対象</strong></td><td>期間限定（春・秋）</td></tr>
+<tr><td><a href="https://www.usj.co.jp/web/ja/jp" target="_blank" rel="noopener">USJ 1デイ学割パス</a></td><td>7,900〜10,900円</td><td>中学生以上の学生。<strong>購入時に学生証をアップロード</strong></td><td>期間限定（ユニ春）</td></tr>
+</tbody>
+</table>
+</div>
+
+<p class="source-note">出典：<a href="https://faq.tokyodisneyresort.jp/tdr/faq_detail.html?id=25436" target="_blank" rel="noopener">東京ディズニーリゾート よくあるご質問／カレッジパスポートの対象</a>／<a href="https://www.usj.co.jp/company/news/2025/1120/" target="_blank" rel="noopener">USJ「ユニ春 2026」</a>。<strong>どちらも通年ではなく期間限定</strong>で、価格は入園日によって変わる</p>
+
+### 本・カラオケ・引越し・託児｜生活の側で効くもの
+
+<div class="cmp-table-wrap">
+<table class="cmp-table">
+<thead><tr><th>使うもの</th><th>学生だと</th><th>条件</th></tr></thead>
+<tbody>
+<tr class="recommended"><td><a href="https://tic-coop.com/coop/" target="_blank" rel="noopener">東京インターカレッジコープ</a>（大学生協）</td><td>書籍・DVDが<strong>10%引き</strong></td><td>都内で生協の無い学校の学生・院生・教職員が対象。<strong>出資金は一口5,000円で、卒業時に返還</strong></td></tr>
+<tr><td><a href="https://big-echo.jp/" target="_blank" rel="noopener">ビッグエコー</a></td><td>学生料金</td><td>在学が証明できれば<strong>通信制も対象</strong>、年齢の上限は置いていない</td></tr>
+<tr><td><a href="https://www.karaokemanekineko.jp/" target="_blank" rel="noopener">カラオケまねきねこ</a></td><td>学生フリータイム</td><td><strong>店舗ごとに条件が違う</strong>。全員の学生証提示が要る</td></tr>
+<tr><td><a href="https://www.the0123.com/" target="_blank" rel="noopener">アート引越センター</a></td><td>学割パック</td><td>引っ越すときだけ。単身向けの定額パック</td></tr>
+<tr><td><a href="https://www.ouj.ac.jp/about/nursery/" target="_blank" rel="noopener">キッズスクウェアの一時預かり</a></td><td>放送大学向けの割引料金</td><td>放送大学が提携している。<strong>全科・選科・科目のどれでも対象</strong>で、予約時に申し出て当日 学生証を出す</td></tr>
+</tbody>
+</table>
+</div>
+
+<p class="source-note">出典：<a href="https://tic-coop.com/coop/join.php" target="_blank" rel="noopener">東京インターカレッジコープ 加入案内</a>（出資金は一口5,000円・卒業時に返還）。<strong>大学生協は地域と加入資格が決まっている</strong>ので、<a href="https://tic-coop.com/school/" target="_blank" rel="noopener">加入対象校一覧</a>を先に見ること</p>
+
+### 買い物｜Apple の教育ストアは「卒業をめざす学生」向け
+
+**1回で効く額がいちばん大きいのがここ。** MacやiPadを買うときだけの話だが、**数千円から1万円台**が本体価格から引かれる。新学期キャンペーンの時期はギフトカードの還元が上乗せされる。
+
+<div class="cmp-table-wrap">
+<table class="cmp-table spec-table">
+<tbody>
+<tr><th>どこで買うか</th><td><a href="https://www.apple.com/jp-edu/store" target="_blank" rel="noopener">Apple 学生・教職員向けストア</a>。通常のストアとは別の入口</td></tr>
+<tr><th>いくら安いか</th><td>製品によるが<strong>本体価格から数千円〜1万円台</strong>。新学期キャンペーン中は<strong>ギフトカードの還元が別に付く</strong></td></tr>
+<tr><th>誰が対象か</th><td><strong>全科履修生。</strong>「卒業をめざす学生」を想定した制度なので、選科・科目履修生は通らないと考えておく</td></tr>
+<tr><th>いつ買うか</th><td>新学期キャンペーンは<strong>例年 年明けから春にかけて</strong>。急がないなら、その時期まで待つと還元が乗る</td></tr>
+</tbody>
+</table>
+</div>
+
+<p class="source-note">還元額と対象製品は毎年 変わる。買う前に<a href="https://www.apple.com/jp-edu/store" target="_blank" rel="noopener">Apple の教育ストア</a>で確認すること</p>
+
+**都度のほうは「回数を掛けて初めて効く」。** 映画を年1本しか見ない人にとっては500円の話でしかないが、**月1本 見る人には年6,000円**。ディズニーを年1回 行くだけでも**3,000円前後**が浮く。ここは自分の生活に掛け算してほしい。
 
 <div class="section-with-mascot">
   <div class="mascot-wrap"><img src="/images/expr-07-gasp.png" alt="Daily Hackマスコット" /></div>
@@ -271,6 +344,8 @@ references:
 <p class="source-note">各社の公表条件（2026年9月時点）。携帯キャリアの学割は毎年 内容と対象年齢が変わる</p>
 
 **「学割」という同じ言葉で、条件がまったく違う。** ここを分けずに一覧を作っている記事が多いので、**入学してから「使えなかった」となりやすい。** 年齢が条件のものは、学生証を何枚 持っていても通らない。
+
+**見分け方は1つだけ。** 条件の書き方が「◯歳以下」なら諦める、「学生であること」なら通る。<strong>ディズニーのカレッジパスポートは年齢を問わないと明記している</strong>のに対し、携帯キャリアは軒並み「U18」「U22」と年齢で切っている。**同じ「学生向け」でも、どちらの条件で書かれているかを毎回 読む**しかない。
 
 <div class="section-with-mascot">
   <div class="mascot-wrap"><img src="/images/expr-07-gasp.png" alt="Daily Hackマスコット" /></div>
@@ -376,7 +451,9 @@ references:
 </table>
 </div>
 
-**在学証明書は学習センターの窓口か郵送で発行してもらえる。** 学生証だけで通らなかったときの二の矢として覚えておくと、申請でつまずかない。
+**在学証明書は学習センターの窓口か郵送で発行してもらえる。手数料は1通200円。** 学生証だけで通らなかったときの二の矢として覚えておくと、申請でつまずかない。
+
+<p class="source-note">出典：<a href="https://www.ouj.ac.jp/about/certificate/" target="_blank" rel="noopener">放送大学 証明書発行</a>（手数料1通200円）</p>
 
 <div class="section-with-mascot">
   <div class="mascot-wrap"><img src="/images/expr-07-gasp.png" alt="Daily Hackマスコット" /></div>
@@ -392,6 +469,7 @@ references:
 <tr><th>除籍されたら終わりか</th><td>終わりではない。<strong>再入学できる</strong>（入学料は再度 必要）。一定期間内なら入学料の割引もある</td></tr>
 <tr><th>授業を受けなくてもいいか</th><td>受講は任意。ただし<strong>学費の納入が在籍の条件</strong>なので、科目登録そのものを飛ばすと除籍になる</td></tr>
 <tr><th>学生証はいつ届くか</th><td>学期が始まってから、所属する学習センターで受け取る。<strong>申し込んですぐ使えるわけではない</strong>ので、学割の申請時期は余裕を見ておく</td></tr>
+<tr><th>入学料を安くする方法はあるか</th><td>ある。<strong>共済（国家公務員・公立学校・私学事業団）の加入者と被扶養者は入学料が半額。</strong>全科履修生なら24,000円→12,000円で、<strong>10年の合計は42,000円＝月350円</strong>。<a href="https://www.ouj.ac.jp/about/mutualaid-discount/" target="_blank" rel="noopener">共済専用の出願票で出願する</a>必要がある</td></tr>
 <tr><th>一番 安く10年 持つには</th><td><strong>全科履修生で、<a href="https://www.ouj.ac.jp/admission/gakubu/tuition/" target="_blank" rel="noopener">1単位6,000円</a>の科目を3学期に1回。</strong>10年54,000円＝月450円</td></tr>
 </tbody>
 </table>
