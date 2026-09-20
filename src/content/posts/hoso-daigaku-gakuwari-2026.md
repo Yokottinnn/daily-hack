@@ -195,20 +195,44 @@ references:
 <tr class="recommended"><td><a href="https://www.figma.com/education/" target="_blank" rel="noopener">Figma</a></td><td>プロフェッショナル<strong>1席 月16ドル</strong>（年払い）</td><td><strong>無料</strong></td><td><strong>約28,000円</strong></td><td>プロ相当の機能が在学中ずっと。FigJamも付く</td></tr>
 <tr><td><a href="https://www.notion.com/product/notion-for-education" target="_blank" rel="noopener">Notion</a></td><td>プラス（有料プラン）</td><td><strong>無料</strong></td><td>プラン1本ぶん</td><td>アップロード無制限・履歴30日・ゲスト100人</td></tr>
 <tr><td><a href="https://www.jetbrains.com/ja-jp/community/education/" target="_blank" rel="noopener">JetBrains</a></td><td>All Products Pack（年払いの有料ライセンス）</td><td><strong>無料</strong></td><td>ライセンス1本ぶん</td><td>IntelliJ・PyCharm・WebStormなどIDE全部入り</td></tr>
-<tr><td><a href="https://education.github.com/pack" target="_blank" rel="noopener">GitHub Student Pack</a></td><td>Copilot Pro <strong>月10ドル</strong>ほか各社の有料枠</td><td><strong>無料</strong></td><td><strong>Copilotだけで年120ドル</strong></td><td>Copilot Proに加えて、DigitalOcean・Namecheapなど数十社の無料枠</td></tr>
+<tr><td><a href="https://education.github.com/pack" target="_blank" rel="noopener">GitHub Student Pack</a></td><td>Copilot Pro <strong>月10ドル</strong>ほか各社の有料枠</td><td><strong>無料</strong></td><td><strong>Copilotだけで年120ドル</strong></td><td>下の表に中身を出した。<strong>金額を公表しているものを足すだけで年1,000ドル超</strong></td></tr>
 <tr><td><a href="https://www.microsoft.com/ja-JP/education/products/office" target="_blank" rel="noopener">Microsoft 365</a></td><td>個人向けは年1万円台〜</td><td><strong>無料</strong>（教育機関向けA1）</td><td>サブスク1本ぶん</td><td>Web版Office＋1TBのOneDrive。買い切り版がほしいなら<a href="https://www.ouj.ac.jp/about/office-gakuwari/" target="_blank" rel="noopener">ウチダのOffice学割</a>も使える</td></tr>
 <tr><td><a href="https://www.autodesk.com/jp/education/home" target="_blank" rel="noopener">Autodesk</a></td><td>AutoCADは年10万円台</td><td><strong>無料</strong>（教育用ライセンス）</td><td><strong>ここが一番 大きい</strong></td><td>AutoCAD・Fusion・Revit・Mayaなど。1年ごとに更新</td></tr>
-<tr><td><a href="https://www.wolframalpha.com/pro-for-students" target="_blank" rel="noopener">Wolfram|Alpha Pro</a></td><td>Proの月額</td><td><strong>学生向けの割引価格</strong></td><td>月あたり数百円</td><td>途中式の表示・計算時間の上限解除</td></tr>
+<tr><td><a href="https://www.wolframalpha.com/pro-for-students" target="_blank" rel="noopener">Wolfram|Alpha Pro</a></td><td>Pro <strong>年12,720円</strong></td><td><strong>年7,560円</strong>（Student）</td><td><strong>5,160円</strong></td><td>途中式の表示・計算時間の上限解除</td></tr>
 <tr><td><a href="https://www.overleaf.com/edu" target="_blank" rel="noopener">Overleaf</a></td><td>有料プランの月額</td><td><strong>Studentプラン</strong></td><td>プラン差ぶん</td><td>LaTeXの共同編集・履歴無制限。卒論を書くなら</td></tr>
 <tr><td><a href="https://www.lucidchart.com/pages/ja/education" target="_blank" rel="noopener">Lucidchart</a></td><td>個人向け有料プラン</td><td><strong>無料</strong>（教育機関プラン）</td><td>プラン1本ぶん</td><td>作図の無制限化。ac.jpアドレスで申請する</td></tr>
 <tr><td><a href="https://www.unrealengine.com/" target="_blank" rel="noopener">Unreal Engine</a></td><td>商用は売上に応じたロイヤリティ</td><td><strong>学習用途は無料</strong></td><td>—</td><td>教育機関向けにフル機能。Quixel素材も使える</td></tr>
-<tr><td><a href="https://azure.microsoft.com/ja-jp/free/students/" target="_blank" rel="noopener">Azure for Students</a></td><td>従量課金</td><td><strong>100ドルぶんのクレジット</strong></td><td><strong>100ドル</strong></td><td>クレジットカード不要。25以上のサービスが無料枠つき</td></tr>
+<tr><td><a href="https://azure.microsoft.com/ja-jp/free/students/" target="_blank" rel="noopener">Azure for Students</a></td><td>従量課金</td><td><strong>100ドルのクレジット</strong>＋無料枠</td><td><strong>100ドル</strong></td><td><strong>クレジットカード不要。</strong>25以上のサービスが12か月 無料、65以上は月枠の制限なしで常時 無料。在学中は毎年 更新できる</td></tr>
 <tr><td><a href="https://www.tableau.com/ja-jp/academic/students" target="_blank" rel="noopener">Tableau</a></td><td>Creatorの有料ライセンス</td><td><strong>無料</strong>（1年ごとに更新）</td><td>ライセンス1本ぶん</td><td>Desktop＋Prep Builder。BIを触っておきたい人に</td></tr>
 </tbody>
 </table>
 </div>
 
 <p class="source-note"><strong>太字の金額は公式の料金ページで実物を確認したもの</strong>（<a href="https://www.figma.com/ja-jp/pricing/" target="_blank" rel="noopener">Figma</a>のプロフェッショナル16ドル／<a href="https://github.com/features/copilot/plans" target="_blank" rel="noopener">GitHub</a>のCopilot Pro 10ドル、いずれも2026年9月時点）。<strong>それ以外は「有料プランが無料になる」という事実だけを書いている</strong>ので、実額は各公式で見ること。料金は改定されるし、ドル建ては為替でも動く。<strong>在学確認は原則 毎年</strong>あり、在籍が切れると次の更新で弾かれる</p>
+
+#### GitHub Student Pack の中身｜公表額を足すと年1,000ドルを超える
+
+**「各社の有料枠」だと中身が分からないので、金額を公表しているものだけ抜き出す。** 下は<a href="https://education.github.com/pack" target="_blank" rel="noopener">GitHub Student Developer Pack</a>のページに出ている特典の実額。
+
+<div class="cmp-table-wrap">
+<table class="cmp-table">
+<thead><tr><th>特典</th><th>公表されている金額</th><th>期間</th></tr></thead>
+<tbody>
+<tr class="recommended"><td><a href="https://newrelic.com/" target="_blank" rel="noopener">New Relic</a></td><td><strong>月300ドル相当</strong></td><td>在学中ずっと</td></tr>
+<tr><td><a href="https://requestly.com/" target="_blank" rel="noopener">Requestly Professional</a></td><td><strong>270ドル相当</strong></td><td>1年間</td></tr>
+<tr><td><a href="https://azure.microsoft.com/ja-jp/free/students/" target="_blank" rel="noopener">Microsoft Azure</a></td><td><strong>100ドルのクレジット</strong>＋25以上のサービスが無料</td><td>18歳以上が対象</td></tr>
+<tr><td><a href="https://visualstudio.microsoft.com/" target="_blank" rel="noopener">Visual Studio ＋ Pluralsight</a></td><td>Azureの1年ぶん＋初月<strong>200ドルのクレジット</strong></td><td>1年間</td></tr>
+<tr><td><a href="https://www.mongodb.com/" target="_blank" rel="noopener">MongoDB Atlas</a></td><td><strong>50ドルのクレジット</strong>＋<strong>150ドル相当</strong>の認定試験が無料</td><td>—</td></tr>
+<tr><td><a href="https://www.digitalocean.com/" target="_blank" rel="noopener">DigitalOcean</a></td><td><strong>月13ドル</strong>のクレジット</td><td><strong>24か月</strong>（合計312ドル）</td></tr>
+<tr><td><a href="https://stripe.com/jp" target="_blank" rel="noopener">Stripe</a></td><td><strong>25ドル</strong>のクレジット（手数料に充当）</td><td>—</td></tr>
+<tr><td><a href="https://github.com/features/copilot" target="_blank" rel="noopener">GitHub Copilot Pro</a></td><td><strong>月10ドル</strong>が無料</td><td>在学確認が通る間</td></tr>
+</tbody>
+</table>
+</div>
+
+<p class="source-note">出典：<a href="https://education.github.com/pack" target="_blank" rel="noopener">GitHub Student Developer Pack</a>（2026年9月時点の掲載）。<strong>特典は入れ替わる</strong>ので、申し込む前に一覧を見ること。金額が書かれていない特典も多数 あり、上は<strong>金額を明示しているものだけ</strong>を抜いた</p>
+
+**New Relic の月300ドルだけで、10年ぶんの学生証を1か月で超える。** もちろん「300ドル相当の枠が使える」であって現金が入るわけではないが、**個人開発でサーバー監視を入れたい人にとっては実額そのもの**になる。DigitalOceanの月13ドル×24か月も、個人のVPS代がまるごと2年 消える計算になる。
 
 **ここが「けっこうおいしい」ところ。** Figmaのプロフェッショナルは**1席 月16ドル**なので、これ1つで**年192ドル**。GitHub Copilot Proの**月10ドル**を足せば**年312ドル**で、学生証の元手（10年で54,000円）を**最初の1年で超える。**
 
@@ -279,6 +303,8 @@ references:
 <tr><td><a href="https://big-echo.jp/" target="_blank" rel="noopener">ビッグエコー</a></td><td>学生料金</td><td>在学が証明できれば<strong>通信制も対象</strong>、年齢の上限は置いていない</td></tr>
 <tr class="recommended"><td><a href="https://www.round1.co.jp/campaign/specialprice.html" target="_blank" rel="noopener">ラウンドワン</a>（カラオケ）</td><td>ドリンクバー付フリータイムが<strong>490円</strong></td><td>平日18時までの入室。<strong>別途1オーダー制</strong>。ボウリング・スポッチャにも学生料金がある</td></tr>
 <tr><td><a href="https://www.karaokemanekineko.jp/" target="_blank" rel="noopener">カラオケまねきねこ</a></td><td>学生フリータイム</td><td><strong>店舗ごとに条件が違う</strong>。全員の学生証提示が要る</td></tr>
+<tr><td><a href="https://www.gyukaku.ne.jp/" target="_blank" rel="noopener">牛角</a></td><td><strong>学生グループ限定 食べ放題 2,500円（税込）</strong></td><td>平日限定。<strong>グループ全員の学生証提示が必須</strong>で、中学生以上の学生グループが対象。年齢の上限は書かれていない</td></tr>
+<tr><td><a href="https://travel.willer.co.jp/" target="_blank" rel="noopener">WILLER（高速バス）</a></td><td>学生限定の春休み割で<strong>最大2,000円OFF</strong></td><td>2月・3月の予約が対象。<strong>会員登録で「学生」を選び、卒業予定年月を入れる</strong>（過ぎると自動で解除される）</td></tr>
 <tr><td><a href="https://www.the0123.com/" target="_blank" rel="noopener">アート引越センター</a></td><td>学割パック</td><td>引っ越すときだけ。単身向けの定額パック</td></tr>
 <tr><td><a href="https://www.ouj.ac.jp/about/nursery/" target="_blank" rel="noopener">キッズスクウェアの一時預かり</a></td><td>放送大学向けの割引料金</td><td>放送大学が提携している。<strong>全科・選科・科目のどれでも対象</strong>で、予約時に申し出て当日 学生証を出す</td></tr>
 </tbody>
