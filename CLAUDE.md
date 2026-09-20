@@ -410,13 +410,32 @@ ArtifactData(action="list", url=<上の URL>, collection="pins")   ← これで
 **必ず「結果の状態」を別の口で確かめる。**
 
 ```bash
-launchctl bootstrap gui/$(id -u) "$P"      # load ではなく bootstrap
-launchctl list | grep -qF "$LABEL"          # ← **これが証拠**
+launchctl bootstrap gui/$(id -u) "$P"          # load ではなく bootstrap
+launchctl print "gui/$(id -u)/$LABEL"           # ← **これが証拠**
 ```
 
-- ジョブ: `launchctl list` に出るか
+- ジョブ: **`launchctl print <ドメイン>/<ラベル>` が通るか**
 - Chrome: `cdp-health.js` が通るか（**ポートの LISTEN では足りない**）
 - 投稿: **キューの `x_tweet_id`**（ルール 11）
+
+##### `launchctl list` に出ないことは「載っていない」証拠にならない（2026-09-20）
+
+**`list` は呼び出し側のドメインしか見ないうえ、載っていても出ないことがある。**
+
+2026-09-20、`com.dailyhack.refresh-daily` を入れて 3 回とも
+「載っていない」と報告した。**実際には 1 回目で載っていた。**
+
+| 打ったもの | 出たもの | 実際 |
+| --- | --- | --- |
+| `bootstrap`（1 回目） | rc=**0** | **載った** |
+| `bootstrap`（2 回目） | rc=**5** Input/output error | **もう載っている**ときの出方 |
+| `launchctl list \| grep` | **出ない** | ← **これを証拠にしたのが誤り** |
+| **`launchctl print gui/501/<ラベル>`** | `state = not running` / `runs = 0` | **載っている** |
+
+- **`bootstrap` の 2 回目が rc=5 なら、たいてい「もう載っている」。**
+  消えた証拠ではなく、**入った証拠**として読む
+- `print` は **`path` / `program` / `runs` / `last exit code`** まで出る。
+  `list` の 1 行より、こちらで見る
 
 **ログに「reloaded」と書く前に、載ったかを見る。** 実際に、載っていないのに
 8 本すべて「reloaded」とログに書いた。

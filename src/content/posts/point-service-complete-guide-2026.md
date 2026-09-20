@@ -461,18 +461,16 @@ references: ["https://kakakumag.com/money/?id=20897", "https://www.warau.jp/", "
 
 ## ❓ よくある質問（FAQ）
 
-**Q. ポイントは結局どれを貯めるのが正解？**
-A. 「一番得なポイント」は人によって違う。**自分の生活動線（よく使う通販・スマホキャリア・最寄り店）に一番近い1つ**が正解。万人共通の正解はない。
-
-**Q. Tポイントはもう無いの？**
-A. **2024年4月に Vポイントへ統合**され、「Tポイント」という名称は一本化されました。旧Tポイント提携先は引き続き使えます。
-
-**Q. 何個のサービスを使うのがちょうどいい？**
-A. 目安は**共通ポイント1＋第二の軸1＋ポイントサイト1〜2＋移動ポイ活1**。これ以上は管理が破綻しやすい。
-
-**Q. ポイントサイトは危なくない？**
-A. 大手（モッピー/ハピタス/ポイントタウン等）は運営歴・会員数・プライバシーマーク等で信頼性が高い。<strong>「複数サイトの横断比較」と「獲得条件の確認」</strong>だけ守れば大丈夫。
-
+<div class="cmp-table-wrap">
+  <table class="cmp-table spec-table faq-table">
+    <tbody>
+      <tr><th>ポイントは結局どれを貯めるのが正解？</th><td>「一番得なポイント」は人によって違う。<strong>自分の生活動線（よく使う通販・スマホキャリア・最寄り店）に一番近い1つ</strong>が正解。万人共通の正解はない。</td></tr>
+      <tr><th>Tポイントはもう無いの？</th><td><strong>2024年4月に Vポイントへ統合</strong>され、「Tポイント」という名称は一本化されました。旧Tポイント提携先は引き続き使えます。</td></tr>
+      <tr><th>何個のサービスを使うのがちょうどいい？</th><td>目安は<strong>共通ポイント1＋第二の軸1＋ポイントサイト1〜2＋移動ポイ活1</strong>。これ以上は管理が破綻しやすい。</td></tr>
+      <tr><th>ポイントサイトは危なくない？</th><td>大手（モッピー/ハピタス/ポイントタウン等）は運営歴・会員数・プライバシーマーク等で信頼性が高い。<strong>「複数サイトの横断比較」と「獲得条件の確認」</strong>だけ守れば大丈夫。</td></tr>
+    </tbody>
+  </table>
+</div>
 <!-- a8-banners auto-inserted by banner-fill (slot3-before-tail) -->
 <div class="affiliate-block">
 <div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B43JB+C507KQ+389A+67RK1" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/chobirich-300x250.jpg" alt="ちょびリッチ" width="300" height="250" loading="lazy"></a></div>

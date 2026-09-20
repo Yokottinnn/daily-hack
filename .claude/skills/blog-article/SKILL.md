@@ -819,9 +819,19 @@ Markdown の強調は**HTML ブロックの内側では処理されない。**`<
 
 ```bash
 npm run build                                   # 通ること
+npx astro check --minimumSeverity error         # **CI はこれも見る。** build だけでは通る
 python3 scripts/check-article-ux.py dist/posts/<slug>/index.html   # 指摘ゼロにする
 python3 scripts/check-md-bold.py dist/posts/<slug>/index.html      # ** の崩れ
 ```
+
+#### `npm run build` が通っても `astro check` は落ちる
+
+**別物である。** `build` は型を見ない。CI（`test-build.yml`）は
+`npx astro check --minimumSeverity error` を別ステップで走らせるので、
+**ローカルで build だけ見て push すると CI で落ちる。**
+
+2026-09-20 に踏んだ。`post.body` は **`string | undefined`** で、
+そのまま関数へ渡して 3 件 の型エラーになった。**build は 517 ページ 成功していた。**
 
 #### ビルドの成否を先に見る。落ちていても検査 2 本は通る
 

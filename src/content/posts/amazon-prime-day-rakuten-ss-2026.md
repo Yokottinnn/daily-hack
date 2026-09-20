@@ -160,18 +160,16 @@ references:
 
 ## ❓ よくある質問（FAQ）
 
-**Q. プライム会員じゃないと本当に買えない？**
-A. プライムデーはプライム会員限定セール。ただし**無料体験**で参加できるから、未加入でもこの期間だけ体験を使えばOK。続けるかは使い勝手で決めればいい。
-
-**Q. ポイントサイト経由って、値段が高くなったりしない？**
-A. ならない。**支払う金額は同じ**で、経由したぶんのポイントが“別枠で上乗せ”されるだけ。デメリットは「サイトを1回踏む手間」だけよ。
-
-**Q. Amazonと楽天、結局どっちが得？**
-A. 物による。**単品が安いのがAmazon、ポイント倍率で高額品が伸びるのが楽天**。だから「買い時カレンダー」で分けるのが正解。急がない高額品は9月の楽天に寄せなさい。
-
-**Q. 先行セールはあるの？**
-A. 例年プライムデー前に先行的な値下げが出ることはあるけど、2026年の公式ページに先行セール期間の明記はない。**確定情報は本セール7/10-13**として動くのが安全。
-
+<div class="cmp-table-wrap">
+  <table class="cmp-table spec-table faq-table">
+    <tbody>
+      <tr><th>プライム会員じゃないと本当に買えない？</th><td>プライムデーはプライム会員限定セール。ただし<strong>無料体験</strong>で参加できるから、未加入でもこの期間だけ体験を使えばOK。続けるかは使い勝手で決めればいい。</td></tr>
+      <tr><th>ポイントサイト経由って、値段が高くなったりしない？</th><td>ならない。<strong>支払う金額は同じ</strong>で、経由したぶんのポイントが“別枠で上乗せ”されるだけ。デメリットは「サイトを1回踏む手間」だけよ。</td></tr>
+      <tr><th>Amazonと楽天、結局どっちが得？</th><td>物による。<strong>単品が安いのがAmazon、ポイント倍率で高額品が伸びるのが楽天</strong>。だから「買い時カレンダー」で分けるのが正解。急がない高額品は9月の楽天に寄せなさい。</td></tr>
+      <tr><th>先行セールはあるの？</th><td>例年プライムデー前に先行的な値下げが出ることはあるけど、2026年の公式ページに先行セール期間の明記はない。<strong>確定情報は本セール7/10-13</strong>として動くのが安全。</td></tr>
+    </tbody>
+  </table>
+</div>
 <!-- a8-banners auto-inserted by banner-fill (slot3-before-tail) -->
 <div class="affiliate-block">
 <div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B43JB+C507KQ+389A+67RK1" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/chobirich-300x250.jpg" alt="ちょびリッチ" width="300" height="250" loading="lazy"></a></div>

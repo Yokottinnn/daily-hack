@@ -14,6 +14,7 @@ import { getCollection } from 'astro:content';
 import DraftCommentWidget from '../components/DraftCommentWidget.astro';
 import { getPrimaryCategory, getCategories, postBelongsToCategory } from '../lib/category';
 import { collectHeadings } from '../lib/headings';
+import { faqJsonLd, howToJsonLd, sections } from '../lib/aio';
 
 export interface Props {
   post: CollectionEntry<'posts'>;
@@ -75,8 +76,19 @@ const siblingClusters = data.parentPillar
 // ── 本文中に差し込む関連記事（最低2箇所） ──
 // タグ一致 > 同じピラー > 同じカテゴリ の順で近い記事を選ぶ。
 // 実際にどれを何箇所置くかは、手書きの related-block を数えたうえでクライアント側が決める。
+//
+// **どこからもリンクされていない記事を、わずかに優先する**（2026-09-20）。
+// 全 75 本 のうち **26 本 が被リンク 0** で、自動の関連記事にも入りにくい状態だった。
+// **近さの順位は壊さない。** 同点のときに、孤立している側を先に出すだけ。
+const inboundCount = new Map<string, number>();
+for (const p of allPosts) {
+  for (const m of (p.body ?? '').matchAll(/\/posts\/([a-z0-9-]+)\//g)) {
+    if (m[1] === p.id) continue;
+    inboundCount.set(m[1], (inboundCount.get(m[1]) ?? 0) + 1);
+  }
+}
 const postTags = new Set(data.tags ?? []);
-const inlineRelatedPool = allPosts
+const inlineRelatedCandidates = allPosts
   .filter((p) => p.id !== post.id)
   .map((p) => {
     const sharedTags = (p.data.tags ?? []).filter((t) => postTags.has(t)).length;
@@ -87,16 +99,39 @@ const inlineRelatedPool = allPosts
     return {
       post: p,
       score: sharedTags * 3 + sameCategory * 2 + sameSeries * 2 + isPillar * 4,
+      inbound: inboundCount.get(p.id) ?? 0,
     };
   })
   .filter((x) => x.score > 0)
   .sort(
     (a, b) =>
       b.score - a.score ||
+      // **同点なら、被リンクが少ないほうを先に出す**
+      a.inbound - b.inbound ||
       b.post.data.publishDate.getTime() - a.post.data.publishDate.getTime(),
   )
-  .slice(0, 6)
-  .map((x) => x.post);
+  .slice(0, 6);
+
+// **6 枠のうち 1 つを「どこからもリンクされていない記事」に空ける**（2026-09-20）。
+// 同点のときに優先するだけでは届かなかった。**タグを 1 つも共有しない記事**が
+// 2 本 あり、近さで並べるかぎり永久に 6 位以内へ入らない。
+// 近い 5 本はそのまま残し、**最後の 1 枠だけ**を孤立している記事に譲る。
+// **1 つ選ぶだけでは、全ページが同じ記事を選んでしまう。**
+// 出典の記事ごとに違う孤立記事へ割り振る（slug から決まるので、ビルドしても揺れない）。
+const orphans = allPosts
+  .filter((p) => p.id !== post.id && (inboundCount.get(p.id) ?? 0) === 0)
+  .sort((a, b) => a.id.localeCompare(b.id));
+let seed = 0;
+for (const ch of post.id) seed = (seed * 31 + ch.charCodeAt(0)) >>> 0;
+const orphan = orphans.length
+  ? { post: orphans[seed % orphans.length], score: 1, inbound: 0 }
+  : undefined;
+
+const inlineRelatedPool = (
+  orphan && !inlineRelatedCandidates.some((x) => x.post.id === orphan.post.id)
+    ? [...inlineRelatedCandidates.slice(0, 5), orphan]
+    : inlineRelatedCandidates
+).map((x) => x.post);
 
 // 2件ずつのブロックに割る（最大3ブロック＝本文中に最大3箇所）
 const inlineRelatedBlocks: (typeof inlineRelatedPool)[] = [];
@@ -122,12 +157,22 @@ const articleJsonLd = {
     },
   },
   mainEntityOfPage: { '@type': 'WebPage', '@id': fullUrl },
+  // **AI に引用されるための追加**（2026-09-20）。本文にある節名をそのまま出す
+  articleSection: sections(post.body),
+  inLanguage: 'ja',
+  isAccessibleForFree: true,
 };
+
+// **記事本文から作る。** 取れなければ出さない（空の FAQPage は評価を落とす）
+const faqLd = faqJsonLd(post.body);
+const howToLd = howToJsonLd(post.body, data.title);
 ---
 
 <BaseLayout title={data.title} description={data.description} ogImage={eyecatchSrc} noindex={data.draft}>
   <slot name="head" slot="head">
     <script type="application/ld+json" set:html={JSON.stringify(articleJsonLd)} />
+    {faqLd && <script type="application/ld+json" set:html={JSON.stringify(faqLd)} />}
+    {howToLd && <script type="application/ld+json" set:html={JSON.stringify(howToLd)} />}
   </slot>
   {data.draft && (
     <div style="position: fixed; top: 88px; right: 14px; z-index: 90; background: #F5C518; color: #2A1923; padding: 6px 14px; border-radius: 999px; font-size: 12px; font-weight: 800; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">

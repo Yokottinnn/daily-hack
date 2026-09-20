@@ -4,5 +4,9 @@ Allow: /
 # Block crawling of internal/admin paths
 Disallow: /pagefind/
 
+# AI クローラ・生成AI 向けの索引（記事の要約と最終更新日）
+# https://llmstxt.org/
+LLM-Index: https://daily-hack.fieldbeside.com/llms.txt
+
 # Sitemap
 Sitemap: https://daily-hack.fieldbeside.com/sitemap-index.xml
