@@ -1,0 +1,57 @@
+{
+  "_note": "各チェーンの公式サイトから取得したロゴ。**商標であり自由ライセンスではない。**どのチェーンの節かを示す識別目的で使っている。改変せず、そのまま置くこと。取得日 2026-09-20（ops/tasks/t111-super-logos.sh）。 余白のみ切り落とし、ロゴ自体は改変していない。",
+  "ok": {
+    "brand": "オーケー",
+    "source": "https://ok-corporation.jp/apple-touch-icon-180x180.png",
+    "page": "https://ok-corporation.jp/",
+    "source_type": "公式サイト（商標）",
+    "file": "ok.png",
+    "width": 180,
+    "height": 180
+  },
+  "lopia": {
+    "brand": "ロピア",
+    "source": "https://lopia.jp/images/logo_lopia.png",
+    "page": "https://lopia.jp/",
+    "source_type": "公式サイト（商標）",
+    "file": "lopia.png",
+    "width": 156,
+    "height": 114
+  },
+  "mybasket": {
+    "brand": "まいばすけっと",
+    "source": "https://www.mybasket.co.jp/cnt_common/images/logo.png",
+    "page": "https://www.mybasket.co.jp/",
+    "source_type": "公式サイト（商標）",
+    "file": "mybasket.png",
+    "width": 597,
+    "height": 103
+  },
+  "hanamasa": {
+    "brand": "肉のハナマサ",
+    "source": "https://hanamasa.co.jp/common/images/header_logo.gif",
+    "page": "https://hanamasa.co.jp/",
+    "source_type": "公式サイト（商標）",
+    "file": "hanamasa.png",
+    "width": 203,
+    "height": 37
+  },
+  "seiyu": {
+    "brand": "西友",
+    "source": "https://www.seiyu.co.jp/wp-content/themes/seiyu-corporate/img/share/img-ogp.jpg",
+    "page": "https://www.seiyu.co.jp/",
+    "source_type": "公式サイト（商標）",
+    "file": "seiyu.png",
+    "width": 528,
+    "height": 112
+  },
+  "donki": {
+    "brand": "ドン・キホーテ",
+    "source": "https://www.donki.com/apple-touch-icon-precomposed.png",
+    "page": "https://www.donki.com/",
+    "source_type": "公式サイト（商標）",
+    "file": "donki.png",
+    "width": 145,
+    "height": 137
+  }
+}
