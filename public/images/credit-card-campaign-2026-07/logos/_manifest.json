@@ -1,0 +1,35 @@
+{
+  "_note": "識別目的で使うロゴ。**商標であり自由ライセンスではない。** 改変しない（CSS の枠は可）。取得元と取得日をここに残す。",
+  "jcb.png": {
+    "brand": "JCB",
+    "source": "https://commons.wikimedia.org/wiki/File:JCB_logo.svg",
+    "page": "https://commons.wikimedia.org/wiki/File:JCB_logo.svg",
+    "fetched": "2026-09-20",
+    "license_note": "Public domain（コモンズの表記）。商標であることに変わりはない",
+    "task": "ops/tasks/t130-*.sh"
+  },
+  "smbccard.png": {
+    "brand": "三井住友カード",
+    "source": "https://www.smbc-card.com/",
+    "page": "https://www.smbc-card.com/",
+    "fetched": "2026-09-20",
+    "license_note": "公式サイトのロゴ画像（商標）",
+    "task": "ops/tasks/t130-*.sh"
+  },
+  "rakutencard.png": {
+    "brand": "楽天カード",
+    "source": "https://www.rakuten-card.co.jp/",
+    "page": "https://www.rakuten-card.co.jp/",
+    "fetched": "2026-09-20",
+    "license_note": "公式サイトのロゴ画像（商標）",
+    "task": "ops/tasks/t130-*.sh"
+  },
+  "aeoncard.png": {
+    "brand": "イオンカード（AEON）",
+    "source": "https://www.aeon.co.jp/",
+    "page": "https://www.aeon.co.jp/",
+    "fetched": "2026-09-20",
+    "license_note": "公式サイトのロゴ画像（商標）",
+    "task": "ops/tasks/t130-*.sh"
+  }
+}

@@ -120,7 +120,7 @@ author: "hacker-ko"
   <img src="https://img.travel.rakuten.co.jp/special/sales/202605/images/kv_pc.png" alt="楽天トラベル アーリーサマーフェア キービジュアル" loading="lazy" referrerpolicy="no-referrer" />
   <figcaption>
     楽天トラベル アーリーサマーフェア（〜5/29 9:59）。宿最大25%OFF・楽パック最大2万円OFF・海外最大5万円OFF・レンタカー最大41%OFF・遊び体験最大10%OFFの一斉セール。
-    <cite>出典: <a href="https://event.travel.rakuten.co.jp/special/sales/" target="_blank" rel="noopener">楽天トラベル公式</a></cite>
+    <cite>出典: <img class="brand-logo-sm" src="/images/summer-travel-timesale-2026/logos/rakutentravel.png" alt="楽天トラベルのロゴ" loading="lazy" /><a href="https://event.travel.rakuten.co.jp/special/sales/" target="_blank" rel="noopener">楽天トラベル公式</a></cite>
   </figcaption>
 </figure>
 
