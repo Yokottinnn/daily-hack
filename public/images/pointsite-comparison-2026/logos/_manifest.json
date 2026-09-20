@@ -1,0 +1,19 @@
+{
+  "_note": "識別目的で使うロゴ。**商標であり自由ライセンスではない。** 改変しない（CSS の枠は可）。取得元と取得日をここに残す。",
+  "pointincome.png": {
+    "brand": "ポイントインカム",
+    "source": "https://pointi.jp/",
+    "page": "https://pointi.jp/",
+    "fetched": "2026-09-20",
+    "license_note": "公式サイトのロゴ画像（商標）",
+    "task": "ops/tasks/t130-*.sh"
+  },
+  "pointtown.png": {
+    "brand": "ポイントタウン by GMO",
+    "source": "https://www.pointtown.com/",
+    "page": "https://www.pointtown.com/",
+    "fetched": "2026-09-20",
+    "license_note": "公式サイトのロゴ画像（商標）",
+    "task": "ops/tasks/t130-*.sh"
+  }
+}

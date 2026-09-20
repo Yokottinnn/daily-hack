@@ -139,7 +139,7 @@ author: "hacker-ko"
   <article class="compare-card">
     <span class="compare-card-tag is-sub">市場連動型</span>
     <span class="compare-card-mascot"><img src="/images/expr-02-pout.png" alt="" /></span>
-    <h3>Looopでんき</h3>
+    <h3 class="brand-h"><img class="brand-logo" src="/images/electricity-gas-savings-2026/logos/looop.png" alt="Looopでんきのロゴ" loading="lazy" /><span>Looopでんき</span></h3>
     <p class="tagline">基本料金0円＋市場連動型「スマートタイムONE」が看板。価格変動を読める人向け。</p>
     <dl>
       <dt>基本料金</dt><dd>0円</dd>

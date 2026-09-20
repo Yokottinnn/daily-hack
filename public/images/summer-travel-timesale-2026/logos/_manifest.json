@@ -1,0 +1,11 @@
+{
+  "_note": "識別目的で使うロゴ。**商標であり自由ライセンスではない。** 改変しない（CSS の枠は可）。取得元と取得日をここに残す。",
+  "rakutentravel.png": {
+    "brand": "楽天トラベル",
+    "source": "https://travel.rakuten.co.jp/",
+    "page": "https://travel.rakuten.co.jp/",
+    "fetched": "2026-09-20",
+    "license_note": "公式サイトのロゴ画像（商標）",
+    "task": "ops/tasks/t130-*.sh"
+  }
+}

@@ -29,13 +29,13 @@ references:
 | カード | 特典（上限） | 主な条件 | 年会費 | 通常還元 | 難易度 | 申込 |
 |---|---|---|---|---|---|---|
 | **エポスカード** | 2,000円相当 | **入会するだけ**（利用条件なし） | 無料 | 0.5% | ★ | <a href="https://www.eposcard.co.jp/admission/index.html" target="_blank" rel="noopener">公式CP →</a> |
-| **楽天カード** | 5,000〜8,000pt | JCB選択＋新規＋3回利用（期間限定） | 無料 | 1.0% | ★★ | <a href="https://r10.to/hPxfRD" target="_blank" rel="sponsored noopener nofollow"><strong>🎁紹介 →</strong></a> |
+| <span class="cell-brand"><img class="brand-logo-sm" src="/images/credit-card-campaign-2026-07/logos/rakutencard.png" alt="楽天カードのロゴ" loading="lazy" /><strong>楽天カード</strong></span> | 5,000〜8,000pt | JCB選択＋新規＋3回利用（期間限定） | 無料 | 1.0% | ★★ | <a href="https://r10.to/hPxfRD" target="_blank" rel="sponsored noopener nofollow"><strong>🎁紹介 →</strong></a> |
 | **PayPayカード** | 5,000pt | 対象経路から新規入会＋条件達成 | 無料 | 1.0% | ★★ | <a href="https://www.paypay-card.co.jp/event/" target="_blank" rel="noopener">公式CP →</a> |
 | **リクルートカード** | 最大8,000円相当 | 新規＋初回利用＋携帯料金決済等・JCB限定 | 無料 | **1.2%** | ★★★ | <a href="https://recruit-card.jp/introCampTop/?introId=sNLwzpFx" target="_blank" rel="sponsored noopener nofollow"><strong>🎁紹介 →</strong></a> |
 | **dカード** | 最大3,900pt | 入会＋固定費支払＋対象決済5回等 | 無料 | 1.0% | ★★★ | <a href="https://dcard.docomo.ne.jp/std/campaigns/202607_1cm/cpn-shinkinyuukai-tokuten/index.html" target="_blank" rel="noopener">公式CP →</a> |
-| **イオンカード** | 最大5,000 WAON POINT | Web新規＋利用・AEON Pay条件 | 無料 | 0.5% | ★★★ | <a href="https://www.aeon.co.jp/campaign/lp/aeoncardwaon/2403-H030/" target="_blank" rel="noopener">公式CP →</a> |
-| **JCBカードW** | スマホ決済20%還元（最大12,000円） | アプリ登録＋約6万円のスマホ決済 | 無料 | 1.0% | ★★★ | <a href="https://www.jcb.co.jp/campaign/sp_20cb_2604/index.html" target="_blank" rel="noopener">公式CP →</a> |
-| **三井住友カード(NL)** | 最大13,000円相当（SBI連携で最大29,000） | 要エントリー＋タッチ決済。上位はSBI連携 | 無料 | 0.5%（タッチ最大7%） | ★★★★ | <a href="https://www.smbc-card.com/camp/numberless/index.jsp" target="_blank" rel="noopener">公式CP →</a> |
+| <span class="cell-brand"><img class="brand-logo-sm" src="/images/credit-card-campaign-2026-07/logos/aeoncard.png" alt="イオンカードのロゴ" loading="lazy" /><strong>イオンカード</strong></span> | 最大5,000 WAON POINT | Web新規＋利用・AEON Pay条件 | 無料 | 0.5% | ★★★ | <a href="https://www.aeon.co.jp/campaign/lp/aeoncardwaon/2403-H030/" target="_blank" rel="noopener">公式CP →</a> |
+| <span class="cell-brand"><img class="brand-logo-sm" src="/images/credit-card-campaign-2026-07/logos/jcb.png" alt="JCBカードWのロゴ" loading="lazy" /><strong>JCBカードW</strong></span> | スマホ決済20%還元（最大12,000円） | アプリ登録＋約6万円のスマホ決済 | 無料 | 1.0% | ★★★ | <a href="https://www.jcb.co.jp/campaign/sp_20cb_2604/index.html" target="_blank" rel="noopener">公式CP →</a> |
+| <span class="cell-brand"><img class="brand-logo-sm" src="/images/credit-card-campaign-2026-07/logos/smbccard.png" alt="三井住友カード(NL)のロゴ" loading="lazy" /><strong>三井住友カード(NL)</strong></span> | 最大13,000円相当（SBI連携で最大29,000） | 要エントリー＋タッチ決済。上位はSBI連携 | 無料 | 0.5%（タッチ最大7%） | ★★★★ | <a href="https://www.smbc-card.com/camp/numberless/index.jsp" target="_blank" rel="noopener">公式CP →</a> |
 
 <p class="source-note">出典: 各カード公式（<a href="https://www.smbc-card.com/camp/numberless/index.jsp">三井住友</a>／<a href="https://www.rakuten-card.co.jp/campaign/">楽天</a>／<a href="https://dcard.docomo.ne.jp/std/campaigns/202607_1cm/cpn-shinkinyuukai-tokuten/index.html">dカード</a> 他）。2026年7月時点。<strong>「最大◯円」は全条件達成時の上限値</strong>で、実際の受取は条件達成度・付与時期（翌月〜数カ月後）で変動。期間限定ポイントは有効期限が短い場合あり。申込前に必ず各公式で最新条件を確認してください。</p>
 

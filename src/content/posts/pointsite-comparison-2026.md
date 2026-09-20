@@ -61,12 +61,12 @@ author: "hacker-ko"
   </article>
   <article class="compare-card">
     <span class="compare-card-tag is-sub">サブ・継続派</span>
-    <h3>ポイントインカム</h3>
+    <h3 class="brand-h"><img class="brand-logo" src="/images/pointsite-comparison-2026/logos/pointincome.png" alt="ポイントインカムのロゴ" loading="lazy" /><span>ポイントインカム</span></h3>
     <p class="tagline">ランク制度＆長期利用ボーナスで「使い続けるほど得」する設計。<strong>コツコツ派の保険</strong>。</p>
   </article>
   <article class="compare-card">
     <span class="compare-card-tag is-sub">サブ・安心感重視</span>
-    <h3>ポイントタウン</h3>
+    <h3 class="brand-h"><img class="brand-logo" src="/images/pointsite-comparison-2026/logos/pointtown.png" alt="ポイントタウンのロゴ" loading="lazy" /><span>ポイントタウン</span></h3>
     <p class="tagline">GMO傘下・上場企業運営の老舗。<strong>GMO系案件用＋リスク分散</strong>として手元に。</p>
   </article>
 </div>
@@ -148,7 +148,7 @@ author: "hacker-ko"
     <span class="compare-card-image is-logo"><img src="https://pointi.jp/img_share/rogo.png" alt="ポイントインカム 公式ロゴ" loading="lazy" /></span>
     <span class="compare-card-tag is-sub">サブ・継続派</span>
     <span class="compare-card-mascot"><img src="/images/expr-01-wave.png" alt="" /></span>
-    <h3>ポイントインカム</h3>
+    <h3 class="brand-h"><img class="brand-logo" src="/images/pointsite-comparison-2026/logos/pointincome.png" alt="ポイントインカムのロゴ" loading="lazy" /><span>ポイントインカム</span></h3>
     <p class="tagline">使い続けるほど得する「ランク制度」と長期利用ボーナスが最強。</p>
     <dl>
       <dt>運営</dt><dd>ファイブゲート株式会社</dd>
@@ -168,7 +168,7 @@ author: "hacker-ko"
     <span class="compare-card-image"><img src="https://img.pointtown.com/pc/images/regist/character-kuma.png" alt="ポイントタウン キャラクター" loading="lazy" /></span>
     <span class="compare-card-tag is-sub">サブ・安心感重視</span>
     <span class="compare-card-mascot"><img src="/images/expr-06-shock.png" alt="" /></span>
-    <h3>ポイントタウン</h3>
+    <h3 class="brand-h"><img class="brand-logo" src="/images/pointsite-comparison-2026/logos/pointtown.png" alt="ポイントタウンのロゴ" loading="lazy" /><span>ポイントタウン</span></h3>
     <p class="tagline">GMOグループ運営の安心感。サブで持っておく価値あり。</p>
     <dl>
       <dt>運営</dt><dd>GMOメディア株式会社（東証スタンダード上場）</dd>

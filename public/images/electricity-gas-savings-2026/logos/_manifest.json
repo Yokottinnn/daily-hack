@@ -47,5 +47,13 @@
     "fetched": "2026-09-20",
     "license_note": "公式サイトのロゴ画像（商標）。**SVG を Chromium で PNG にした**",
     "task": "ops/tasks/t128-logos-retry4.sh"
+  },
+  "looop.png": {
+    "brand": "Looopでんき",
+    "source": "https://looop-denki.com/assets/images/logo.svg",
+    "page": "https://looop-denki.com/assets/images/logo.svg",
+    "fetched": "2026-09-20",
+    "license_note": "公式サイトのロゴ画像（商標）。**SVG を Chromium で PNG にした**",
+    "task": "ops/tasks/t129-*.sh"
   }
 }
