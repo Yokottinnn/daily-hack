@@ -31,5 +31,13 @@
     "fetched": "2026-09-20",
     "license_note": "公式サイトのロゴ画像（商標）",
     "task": "ops/tasks/t130-*.sh"
+  },
+  "paypaycard.png": {
+    "brand": "PayPayカード",
+    "source": "https://www.paypay-card.co.jp/company/ の SVG",
+    "page": "https://www.paypay-card.co.jp/company/",
+    "fetched": "2026-09-20",
+    "license_note": "公式サイトのロゴ画像（商標）。**SVG を Chromium で PNG にした**",
+    "task": "ops/tasks/t133-logos-retry5.sh"
   }
 }
