@@ -82,6 +82,8 @@
   .editor .count { margin:8px 0 0; font-family:var(--mono); font-size:12px;
                    color:var(--muted); font-variant-numeric:tabular-nums; }
   .editor .count.over { color:var(--accent); font-weight:700; }
+  .editor .count[data-state]::after { content:" ・ " attr(data-state); color:var(--done); }
+  .autosave { align-self:center; font-family:var(--mono); font-size:11.5px; color:var(--done); }
 
   .shots { padding:0 15px 15px; border-top:1px solid var(--line); }
   .shots > .subhead { margin:14px 0 0; font-family:var(--mono); font-size:11px; font-weight:700;
@@ -189,6 +191,7 @@
     <p><b>このページは Claude を自動では起動しません。</b>コメントを書いても、それだけでは何も始まりません。</p>
     <p>動き出すきっかけは 2 つです。<b>①「修正をお願いする」を押す</b>——押したことがこのページに記録され、Claude が次にこのページを読んだときに未処理として拾います。<b>②チャットで「コメントした」と言う</b>——こちらが最速です。</p>
     <p><b>文面をその場で書き換えた場合は、コメントを待たずにそのまま採用されます。</b>Claude は書き換え後の文面を読みます。</p>
+    <p><b>打った時点で勝手に保存されます。</b>ボタンを押し忘れても消えません。入力欄の横に「保存済み」と出て、上の「◯件」が 1 つ増えます。<b>増えないときは届いていません</b>ので、そのときは教えてください。</p>
   </section>
 
   <main id="main"></main>
@@ -252,12 +255,26 @@
   async function addPin(body) {
     if (!db) { say("保存できません。公開されたリンクから開いてください。"); return false; }
     try {
-      await db.collection("pins").add({ ...body, done: false, createdAt: new Date().toISOString() });
-      say(""); return true;
+      const ref = await db.collection("pins")
+        .add({ ...body, done: false, createdAt: new Date().toISOString() });
+      // **書けたことを別の口で確かめる。** 戻り値が返ってきただけでは証拠にならない
+      const back = await ref.get();
+      if (!back.exists) {
+        say("保存したはずのコメントが見つかりません。もう一度 試してください。");
+        return false;
+      }
+      say("");
+      tell("コメントを保存しました。この件数が増えていれば Claude から読めます。");
+      return ref.id;
     } catch (e) {
       say("保存できませんでした（" + (e && e.code ? e.code : "不明") + "）。もう一度 試してください。");
-      return false;
+      return null;
     }
+  }
+
+  async function editPin(id, text) {
+    try { await db.doc("pins/" + id).update({ text }); say(""); return true; }
+    catch (e) { say("更新できませんでした（" + (e && e.code ? e.code : "不明") + "）。"); return false; }
   }
 
   function makeComposer(onSubmit) {
@@ -269,25 +286,62 @@
     ta.placeholder = "ここをこう直したい、と書いてください";
     const row = document.createElement("div"); row.className = "row";
     const ok = document.createElement("button");
-    ok.type = "submit"; ok.className = "primary"; ok.textContent = "コメントする";
-    const no = document.createElement("button"); no.type = "button"; no.textContent = "やめる";
-    row.append(ok, no);
+    ok.type = "submit"; ok.className = "primary"; ok.textContent = "書けた";
+    const no = document.createElement("button"); no.type = "button"; no.textContent = "このコメントを消す";
+    const state = document.createElement("span"); state.className = "autosave";
+    row.append(ok, no, state);
     form.append(where, ta, row);
 
-    let ctx = null;
-    const close = () => { ctx = null; form.hidden = true; ta.value = ""; render(); };
+    // **押し忘れで消える設計をやめる。** 打った時点で勝手に保存する
+    // （「コメントした」と言われたのに 1 件も届いていないことが 2 回 起きた）
+    let ctx = null, id = null, timer = null, busy = false;
+
+    let lastSaved = "";
+    async function flush() {
+      const text = ta.value.trim();
+      // **変わっていないなら書かない**（同じ文字で update が二重に飛んでいた）
+      if (!ctx || !text || busy || text === lastSaved) return;
+      busy = true;
+      lastSaved = text;
+      try {
+        if (id) { if (await editPin(id, text)) state.textContent = "保存済み"; }
+        else {
+          const made = await onSubmit(ctx, text);
+          if (made) { id = made; state.textContent = "保存済み"; }
+          else state.textContent = "保存できていません";
+        }
+      } finally { busy = false; }
+    }
+
+    const reset = () => { clearTimeout(timer); ctx = null; id = null; lastSaved = "";
+                          form.hidden = true; ta.value = ""; state.textContent = ""; render(); };
+
     form.open = (context, label) => {
-      ctx = context; where.replaceChildren(...label); form.hidden = false; ta.focus(); render();
+      clearTimeout(timer); ctx = context; id = null; ta.value = ""; lastSaved = "";
+      state.textContent = "打てば自動で保存します";
+      where.replaceChildren(...label); form.hidden = false; ta.focus(); render();
     };
     form.ctx = () => ctx;
-    no.addEventListener("click", close);
+
+    ta.addEventListener("input", () => {
+      clearTimeout(timer);
+      state.textContent = "…";
+      timer = setTimeout(flush, 900);
+    });
+    ta.addEventListener("blur", () => { clearTimeout(timer); flush(); });
+
+    no.addEventListener("click", async () => {
+      clearTimeout(timer);
+      if (id && db) { try { await db.doc("pins/" + id).delete(); } catch (e) { say("消せませんでした。"); } }
+      reset();
+    });
     form.addEventListener("submit", async (e) => {
       e.preventDefault();
-      const text = ta.value.trim();
-      if (!text || !ctx) return;
+      clearTimeout(timer);
       ok.disabled = true;
-      if (await onSubmit(ctx, text)) close();
+      await flush();
       ok.disabled = false;
+      if (id) reset();
     });
     return form;
   }
@@ -331,7 +385,7 @@
       const count = document.createElement("p"); count.className = "count";
       const erow = document.createElement("div"); erow.className = "row";
       const eSave = document.createElement("button");
-      eSave.type = "button"; eSave.className = "primary"; eSave.textContent = "この文面で保存";
+      eSave.type = "button"; eSave.className = "primary"; eSave.textContent = "書けた";
       const eCancel = document.createElement("button"); eCancel.type = "button"; eCancel.textContent = "やめる";
       const eReset = document.createElement("button"); eReset.type = "button"; eReset.textContent = "元に戻す";
       erow.append(eSave, eCancel, eReset);
@@ -367,7 +421,23 @@
         count.classList.toggle("over", x > 280);
         eSave.disabled = x > 280 || !eta.value.trim();
       };
-      eta.addEventListener("input", recount);
+      // **ここも押し忘れで消えないように、打った時点で保存する**
+      const saveDraft = async () => {
+        if (!db || !eta.value.trim() || weight(eta.value) > 280) return;
+        try {
+          await db.doc("drafts/" + target.replace("/", "-"))
+            .set({ target, text: eta.value, updatedAt: new Date().toISOString() });
+          count.dataset.state = "保存済み";
+          tell("文面を保存しました。Claude はこの文面を読みます。");
+        } catch (e) { say("保存できませんでした（" + (e && e.code ? e.code : "不明") + "）。"); }
+      };
+      let eTimer = null;
+      eta.addEventListener("input", () => {
+        recount();
+        clearTimeout(eTimer);
+        eTimer = setTimeout(saveDraft, 1200);
+      });
+      eta.addEventListener("blur", () => { clearTimeout(eTimer); saveDraft(); });
       bEdit.addEventListener("click", () => {
         eta.value = textOf(target);
         editor.hidden = false; body.hidden = true; tip.hidden = true;
