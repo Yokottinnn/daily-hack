@@ -70,11 +70,20 @@ python3 scripts/faq-to-table.py <slug> [<slug> ...]
 
 ```text
 launchd（毎日 05:30）
-  → scripts/refresh-daily.sh
-      → scripts/refresh-article.mjs --apply
-      → npm run build（落ちたら PR を作らない）
-      → gh pr create（**マージは人**）
+  → ~/.openclaw/bin/refresh-daily-boot.sh     ← **ディスクに置くのはこれだけ**
+      → git show origin/main:scripts/refresh-daily.sh   ← **毎回 最新を取り出す**
+          → scripts/refresh-article.mjs --apply
+          → npm run build（落ちたら PR を作らない）
+          → gh pr create（**マージは人**）
 ```
+
+**Mac の作業ツリーは `origin/main` に追従していない。**
+マージしてもディスク上にファイルは現れないので、plist から
+作業ツリーのパスを直に呼ぶと動かない（t138 がそれで失敗した）。
+`ops-run-tasks.sh` の自己更新と同じく、**`git show` で取り出して走らせる。**
+
+**作業ツリーが汚れていたら、ジョブは何もせずに終わる。**
+この先の `reset --hard` で人の書きかけを消さないため。
 
 ### 選び方
 

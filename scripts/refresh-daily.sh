@@ -18,6 +18,14 @@
 # - **出典 URL が無い指摘は、当てる前に捨てる**（`refresh-article.mjs` の関門）
 # - **自動マージしない。** PR を作るところまで
 # - **1 日 1 本。** `MAX_PER_RUN` を増やすのは増額の提案なので、勝手に変えない
+# - **作業ツリーが汚れていたら、触らずに終わる。** `reset --hard` で人の作業を消さない
+#
+# ## 自分をディスクに置かない（2026-09-20）
+#
+# t138 は `$REPO/scripts/refresh-daily.sh` を直に呼ぶ plist を書いて**失敗した。**
+# Mac の作業ツリーは `origin/main` に追従していないので、**マージしてもファイルは現れない。**
+# `ops-run-tasks.sh` と同じく、**`git show origin/main:` で取り出して走らせる**
+# 起動用の薄いシム（`~/.openclaw/bin/refresh-daily-boot.sh`）から呼ばれる。
 #
 # macOS で動く（最上位ルール 14）。`timeout` も `sed -i` も `date -d` も使わない。
 set -uo pipefail
@@ -50,7 +58,22 @@ fi
 
 # **main から始める。** 前回のブランチに積み上げない
 git fetch origin main --quiet || { echo "fetch 失敗"; exit 1; }
+
+# **作業ツリーが汚れていたら、何もせずに終わる。**
+# この先の `reset --hard` は、人が手元で書きかけているものを黙って消す。
+# `ops-run-tasks.sh` が「作業ツリーには触らない」と決めているのと同じ理由。
+DIRTY="$(git status --porcelain | head -20)"
+if [ -n "$DIRTY" ]; then
+  echo "作業ツリーが汚れている。触らずに終わる:"
+  echo "$DIRTY"
+  exit 0
+fi
+
 git checkout -q main && git reset -q --hard origin/main || { echo "main に戻れない"; exit 1; }
+
+# **どこで落ちても main に戻す。** 中途半端なブランチに居座ると、
+# 翌日の実行も、人が開いたときの状態も壊れる。
+trap 'git checkout -q main 2>/dev/null || true' EXIT
 
 BR="refresh/$(date '+%Y%m%d-%H%M')"
 git checkout -q -b "$BR"
