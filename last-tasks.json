@@ -1,3 +1,3 @@
 [
-      {"task": "t122-logos-retry3.sh", "rc": 0, "out": "### アルコイン（id 1441780272）    - ✗ 見つからない（ID が違う可能性）  ### スギサポwalk+（id 1441937070）"}
+      {"task": "t123-wangan-logos.sh", "rc": 0, "out": "  - ✗ URLError  ### livedoor    - ✗ URLError"}
   ]
