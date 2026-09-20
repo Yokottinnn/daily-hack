@@ -42,3 +42,4 @@ docs/session-logs/
 # スクリプトを動かすたびに「未コミットの変更」として引っかかっていた。
 __pycache__/
 *.pyc
+.image-review.built.html
