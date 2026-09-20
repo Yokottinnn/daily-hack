@@ -57,10 +57,32 @@ function readState() {
   }
 }
 
-/** **いちばん放置されている記事を選ぶ。** 一周するまで同じ記事に戻らない */
+/** **いちばん放置されている記事を選ぶ。** 一周するまで同じ記事に戻らない
+ *
+ * ただし **`ops/data/unindexed.txt` に載っている記事を先に回す**（2026-09-20）。
+ * 「クロール済み - インデックス未登録」は**見には来たが載せないと判断された**状態で、
+ * サイトマップの再送信では動かない。効くのは中身のほうなので、ここを最優先にする。
+ */
 function pick(state) {
   const forced = arg('--slug');
   if (forced) return forced;
+
+  const prioPath = path.join(ROOT, 'ops/data/unindexed.txt');
+  let prio = [];
+  try {
+    prio = fs
+      .readFileSync(prioPath, 'utf8')
+      .split('\n')
+      .map((l) => l.replace(/#.*$/, '').trim())
+      .filter(Boolean);
+  } catch {
+    prio = [];
+  }
+  // **まだ一度も見ていない優先記事**があれば、そこから
+  const unseen = prio.filter(
+    (s) => fs.existsSync(path.join(POSTS, `${s}.md`)) && !(state.done || {})[s],
+  );
+  if (unseen.length) return unseen[0];
   const rows = fs
     .readdirSync(POSTS)
     .filter((f) => f.endsWith('.md'))
