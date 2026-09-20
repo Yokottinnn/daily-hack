@@ -14,6 +14,7 @@ import { getCollection } from 'astro:content';
 import DraftCommentWidget from '../components/DraftCommentWidget.astro';
 import { getPrimaryCategory, getCategories, postBelongsToCategory } from '../lib/category';
 import { collectHeadings } from '../lib/headings';
+import { faqJsonLd, howToJsonLd, sections } from '../lib/aio';
 
 export interface Props {
   post: CollectionEntry<'posts'>;
@@ -122,12 +123,22 @@ const articleJsonLd = {
     },
   },
   mainEntityOfPage: { '@type': 'WebPage', '@id': fullUrl },
+  // **AI に引用されるための追加**（2026-09-20）。本文にある節名をそのまま出す
+  articleSection: sections(post.body),
+  inLanguage: 'ja',
+  isAccessibleForFree: true,
 };
+
+// **記事本文から作る。** 取れなければ出さない（空の FAQPage は評価を落とす）
+const faqLd = faqJsonLd(post.body);
+const howToLd = howToJsonLd(post.body, data.title);
 ---
 
 <BaseLayout title={data.title} description={data.description} ogImage={eyecatchSrc} noindex={data.draft}>
   <slot name="head" slot="head">
     <script type="application/ld+json" set:html={JSON.stringify(articleJsonLd)} />
+    {faqLd && <script type="application/ld+json" set:html={JSON.stringify(faqLd)} />}
+    {howToLd && <script type="application/ld+json" set:html={JSON.stringify(howToLd)} />}
   </slot>
   {data.draft && (
     <div style="position: fixed; top: 88px; right: 14px; z-index: 90; background: #F5C518; color: #2A1923; padding: 6px 14px; border-radius: 999px; font-size: 12px; font-weight: 800; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
