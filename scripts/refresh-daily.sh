@@ -51,10 +51,19 @@ if [ -z "${!KEY_NAME:-}" ]; then
     set -a; . "$ENVF"; set +a
   fi
 fi
+# **launchd の環境変数に在る**（2026-09-20 に t142 で判明）。
+# シェルにも .env にも無いが、`launchctl getenv` では取れる。
+# X 系のジョブはここから読んでいる。**値はログに出さない。**
 if [ -z "${!KEY_NAME:-}" ]; then
-  echo "$KEY_NAME が無い。何もせず終わる。"
+  _v="$(launchctl getenv "$KEY_NAME" 2>/dev/null)"
+  [ -n "$_v" ] && export "$KEY_NAME=$_v"
+  unset _v
+fi
+if [ -z "${!KEY_NAME:-}" ]; then
+  echo "鍵が無い（環境変数・.env・launchctl getenv のどれにも）。何もせず終わる。"
   exit 0
 fi
+echo "鍵を読めた（値は出さない）。"
 
 # **main から始める。** 前回のブランチに積み上げない
 git fetch origin main --quiet || { echo "fetch 失敗"; exit 1; }
