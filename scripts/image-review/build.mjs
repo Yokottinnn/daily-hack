@@ -21,7 +21,7 @@ const OUT = process.argv[2] || path.join(ROOT, ".image-review.built.html");
 
 // 画像を足す・差し替えるときはここと page.html の SETS を**両方** 直す
 const FILES = {
-  "walk-poikatsu-2026": ["1-summary.jpg", "2-waon.jpg", "3-bitwalk.jpg", "4-jal.jpg"],
+  "walk-poikatsu-2026": ["1-summary.jpg", "2-waon.jpg", "3-web3.jpg", "4-mile.jpg"],
   "tokyo-discount-supermarket-2026": ["1-summary.jpg", "2-trial-seiyu.jpg", "3-hanamasa.jpg", "4-tv.jpg"],
 };
 
