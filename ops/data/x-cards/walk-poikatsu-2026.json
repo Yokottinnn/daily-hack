@@ -1,16 +1,14 @@
 {
   "_doc": "X 告知用の正方形画像。作り方は .claude/skills/x-post-images/SKILL.md",
-  "_note": "写真は Wikimedia Commons の 6 枚（photos/_manifest.json）。apps-mosaic.jpg は記事内のアプリ画面 20 枚を 5×4 で合成したもの",
+  "_note": "**CC の写真は使っていない。** 2026-09-20 に「画像の出所は不要」と指示されたため、権利表記が要る Commons の写真をやめ、記事のアプリ画面（App Store 掲載素材）と各社ロゴ（商標・識別目的）だけで組み直した。合成は scripts/image-review ではなく .compose.mjs 相当の手順（スキル §4 の goto 方式）",
   "slug": "walk-poikatsu-2026",
   "imageBase": "public/images/walk-poikatsu-2026",
   "out": "public/images/walk-poikatsu-2026/x",
   "cover": {
     "file": "1-summary.jpg",
     "kicker": "20アプリ ／ 5カテゴリ ／ 1日1万歩・1年で統一換算",
-    "title": "歩いてポイ活、勝つのはWAON",
-    "sub": "確実に入る最高額は <em>年365円</em>だった",
-    "bgImage": "photos/crossing-night.jpg",
-    "bgOpacity": 0.24,
+    "title": "歩いてポイ活、勝つのはどこだ",
+    "sub": "確実に入る最高額は <em>WAON POINTの年365円</em>",
     "mark": false,
     "columns": 2,
     "theme": "berry",
@@ -22,26 +20,25 @@
         "meta": "航空マイル／共通ポイント／現物交換／Web3／保険・自治体"
       },
       {
-        "img": "waon-card.jpg",
+        "img": "waon-strip.jpg",
         "badge": "最高額",
-        "title": "年365円",
-        "meta": "8,000歩で1 WAON POINT × 365日。派手さはゼロ"
+        "title": "WAON POINTで年365円",
+        "meta": "1日8,000歩で1 WAON POINT × 365日。RenoBodyで無料、条件を満たせば必ず入る"
       },
       {
-        "img": "photos/bitcoin.jpg",
-        "badge": "Web3",
-        "title": "1日12,500歩で約7.5円",
-        "meta": "CMの「10万円」に対して、使った人が試算した"
+        "img": "mile-strip.jpg",
+        "badge": "月額制",
+        "title": "JALもANAも月550円",
+        "meta": "JALは月550円で300〜1,000マイル。ANAは無料版があり、Proが月550円"
       },
       {
-        "img": "photos/airplane.jpg",
-        "badge": "ここだけ有料",
-        "title": "JALは月550円",
-        "meta": "歩くのにお金を払う型。元が取れるかで選ぶ"
+        "img": "web3-strip.jpg",
+        "badge": "相場で動く",
+        "title": "STEPNは500円→1円未満",
+        "meta": "GSTは2022年に500円ほど。2026年1月時点で1円未満まで下落した"
       }
     ],
-    "note": "1日1万歩を1年 続けても、<b>どれも年3桁円。</b>同じものさしで20個 並べた。",
-    "source": "画像: Wikimedia Commons（chensiyuan CC BY-SA 4.0／Gage Skidmore CC BY-SA 3.0／Daniel Case CC BY-SA 4.0）／WAON POINT はイオン株式会社の登録商標／アプリ画面は各サービス"
+    "note": "1日1万歩を1年 続けても、<b>確実に入るものは年3桁円。</b>同じものさしで20個 並べた。"
   },
   "photos": [
     {
@@ -54,32 +51,31 @@
         "RenoBody",
         "無料",
         "条件を満たせば必ず入る"
-      ],
-      "credit": "WAON POINT はイオン株式会社の登録商標"
+      ]
     },
     {
-      "file": "3-bitwalk.jpg",
-      "img": "photos/bitcoin.jpg",
-      "badge": "「10万円貯まる」の中身",
-      "name": "1日12,500歩で、約7.5円",
-      "lead": "広告を全部 見た場合の試算。<b>1年 毎日 続けて2,700円ほど</b>",
+      "file": "3-web3.jpg",
+      "img": "web3-apps.jpg",
+      "badge": "かつての爆益は、もう無い",
+      "name": "STEPNは500円から1円未満へ",
+      "lead": "GSTは<b>2022年に500円ほど</b>の価値があった。<b>2026年1月時点で1円未満。</b>BitWalkは1日12,500歩で約7.5円、HEALTHREEは交換レート自体が相場で動く",
       "specs": [
-        "BitWalk",
-        "使った人の試算"
-      ],
-      "credit": "画像: Gage Skidmore / CC BY-SA 3.0（Wikimedia Commons）"
+        "Web3型",
+        "円換算が日々 変わる",
+        "ヘルスリーはRPG型"
+      ]
     },
     {
-      "file": "4-jal.jpg",
-      "img": "photos/airplane.jpg",
-      "badge": "ここだけ有料",
-      "name": "歩くのに、月550円",
-      "lead": "JAL Wellness &amp; Travel は<b>月額550円（初月無料）。</b>ANAは無料版から使える",
+      "file": "4-mile.jpg",
+      "img": "mile-apps.jpg",
+      "badge": "月額制で有料",
+      "name": "歩き続ければ、マイルは貯まる",
+      "lead": "JAL Wellness &amp; Travel は<b>月550円で300〜1,000マイル。歩数中心なら450〜600マイル</b>が目安。ANA Pocketは無料版があり、Proが月550円で1,000マイル前後",
       "specs": [
         "航空マイル型",
+        "JALは初月無料",
         "元が取れるかで選ぶ"
-      ],
-      "credit": "画像: Daniel Case / CC BY-SA 4.0（Wikimedia Commons）"
+      ]
     }
   ]
 }

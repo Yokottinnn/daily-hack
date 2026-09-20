@@ -292,7 +292,7 @@ function photoHtml(f) {
     <h2>${f.name}</h2>
     ${f.lead ? `<div class="lead">${f.lead}</div>` : ''}
     <div class="specs">${specs}</div>
-    <div class="credit">${f.credit}</div>
+    ${f.credit ? `<div class="credit">${f.credit}</div>` : ''}
   </div>`;
 }
 
