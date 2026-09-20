@@ -56,15 +56,48 @@ ArtifactData(action="list", url="https://claude.ai/artifact/1o7gjZZghit8kn3W4AXU
 
 `x` / `y` は**画像の左上を 0、右下を 1 とした割合。** 枚数ではなく座標で指せる。
 
+## 作り直し方
+
+**ページの実体はリポジトリにある。** Artifact だけに置くと、作り直せなくなる。
+
+```text
+scripts/image-review/page.html    ← 中身（画像は data URI で差し込む口がある）
+scripts/image-review/build.mjs    ← 画像を埋めて 1 枚 の HTML にする
+```
+
+```bash
+node scripts/image-review/build.mjs
+# → .image-review.built.html（gitignore 済み）
+# → Artifact ツールで url=<上の URL> を渡して publish する
+```
+
+**画像を差し替えたら `build.mjs` の `FILES` と `page.html` の `SETS` を両方 直す。**
+
 ## 落とし穴
+
+### 相対パスで画像を隣に置くと、公開後に出ない（2026-09-20 に踏んだ）
+
+**最初の版は `files` で画像を隣に publish し、`img/<slug>/<file>` で参照していた。
+公開したら 8 枚 とも出なかった。**
+
+- **ローカルでは 8 枚 とも読めていた**（Chromium で開いて `naturalWidth` を確認した）。
+  JS エラーも無い。**こちらで見ているかぎり気づけない**
+- 利用者に「バグってる」と言われて初めて分かった
+
+**画像は data URI でページに埋め込む。** 外部ファイルを読ませない。
+1.81 MB の画像 8 枚 で、ページは 2.43 MB（上限 16 MB）。
+
+**読めなかったときは画像の上に「この画像が読み込めていません」と出す。**
+黙って灰色の枠になるのをやめる。
+
+### そのほか
 
 - **セッションは republish / コメントで起こされない。**
   `mint_failed` で durable wake subscription が登録できなかった
   （`ArtifactComments(action="watch")` も同じ）。
   **通知は来ない前提で、こちらから `ArtifactData` を読みに行く。**
-- **画像はページと一緒に publish している**（`files` で `img/<slug>/<file>`）。
-  **画像を作り直したら、同じファイルパスで publish し直す。**
-  別のパスで publish すると URL が変わり、コメントが付いた場所と合わなくなる。
+- **画像を作り直したら、`url` を渡して publish し直す。**
+  `url` を渡さずに publish すると**別の Artifact ができ**、コメントが付いた場所と合わなくなる。
 - **`db` を宣言した Artifact は組織内限定になる。** 公開リンクにはできない。
   利用者本人が開くぶんには問題ない。
 - **コメントは Artifact に紐づく。** Artifact を削除すると DB ごと消える。
