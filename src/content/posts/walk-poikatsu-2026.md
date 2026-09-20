@@ -177,7 +177,51 @@ references:
 
 **桁が違う話をしているように見えて、実は全部 3桁円。** 歩数だけで生活が変わる金額にはならない。**変わるのは「歩く理由ができる」ほう。**
 
-**ここに載せていないアプリは、金額を先に決められない作りになっている。** 楽天ヘルスケアと d ヘルスケアは達成後に<strong>くじ</strong>を引く形で、当たる額が毎回 変わる。BitWalk・ステラウォーク・Sweatcoin は暗号資産なので、<strong>もらえる量が同じでも円換算が日々 動く</strong>。アプリごとの貯まり方は、下の各節の表にすべて書いた。
+**ここに載せていないアプリは、公式が金額を決めていない。** 楽天ヘルスケアと d ヘルスケアは達成後に<strong>くじ</strong>を引く形で、当たる額が毎回 変わる。BitWalk・ステラウォーク・Sweatcoin は暗号資産なので、<strong>もらえる量が同じでも円換算が日々 動く</strong>。
+
+**それでも「だいたいいくらか」は知りたいはずなので、20 サービス全部 出した。** 下は公式が条件を公表しているものと、**実際に使った人が金額を公開しているもの**を、同じ「月いくら」の単位に揃えた一覧。
+
+### 20サービス全部の「月いくら」一覧
+
+<div class="cmp-table-wrap">
+<table class="cmp-table prose-table">
+<thead><tr><th>サービス</th><th>月いくら</th><th>その数字の出どころ</th><th>費用</th></tr></thead>
+<tbody>
+<tr class="recommended"><td><strong><a href="https://info.renobody.jp/prod/index.html" target="_blank" rel="noopener">RenoBody</a></strong></td><td><strong>約30円</strong>（年365円）</td><td><strong>公式の条件から計算。</strong>1日8,000歩で1 WAON POINT</td><td>無料</td></tr>
+<tr><td><strong><a href="https://apps.apple.com/jp/app/coke-on-%E3%82%B3%E3%83%BC%E3%82%AF%E3%82%AA%E3%83%B3/id1088184021" target="_blank" rel="noopener">Coke ON</a></strong></td><td><strong>約0.3本</strong>（年約3.4本）</td><td><strong>公式の条件から計算。</strong>週35,000歩で1スタンプ、15個で1本</td><td>無料</td></tr>
+<tr><td><strong><a href="https://senior.rakuten.co.jp/" target="_blank" rel="noopener">楽天シニア</a></strong></td><td><strong>13P前後</strong>（年156P）</td><td><strong>公式の条件から計算。</strong>1日4,000歩でスタンプ1個、7個で3P</td><td>無料</td></tr>
+<tr><td><strong><a href="https://www.arukuto.jp/" target="_blank" rel="noopener">aruku&amp;</a></strong></td><td><strong>約300ポイント</strong>（年3,650）</td><td><strong>公式の条件から計算。</strong>1,000歩ごとに1ポイント。使い道は名産品の応募が中心</td><td>無料</td></tr>
+<tr><td><strong><a href="https://www.trip-mile.com/" target="_blank" rel="noopener">トリマ</a></strong></td><td><strong>60〜370円</strong>（移動が多いと1,000円前後）</td><td>利用者の公開実績。広告を見るかで3倍 違う。<strong>交換手数料20%込みで実質120マイル＝1円</strong></td><td>無料</td></tr>
+<tr><td><strong><a href="https://every-point.jp/" target="_blank" rel="noopener">エブリポイント</a></strong></td><td><strong>1,000〜1,500円</strong></td><td>利用者の公開実績。<strong>この記事で調べた無料アプリでは最大</strong></td><td>無料</td></tr>
+<tr><td><strong><a href="https://arucoin.jp/" target="_blank" rel="noopener">アルコイン</a></strong></td><td><strong>数十〜200円</strong></td><td>利用者の公開実績（1か月で527コインの報告）</td><td>無料</td></tr>
+<tr><td><strong><a href="https://poisura.com/" target="_blank" rel="noopener">ポイすら</a></strong></td><td><strong>数十〜数百円</strong></td><td>金のチケットの交換先次第。公式は額を公表していない</td><td>無料</td></tr>
+<tr><td><strong><a href="https://www.sugi-net.jp/sugisapo/" target="_blank" rel="noopener">スギサポwalk+</a></strong></td><td><strong>100円 前後</strong></td><td>利用者の公開実績。<strong>100スター＝1スギポイント、1,000スターから交換</strong>（公式）</td><td>無料</td></tr>
+<tr><td><strong><a href="https://healthcare.faq.rakuten.net/" target="_blank" rel="noopener">楽天ヘルスケア</a></strong></td><td><strong>100P 前後</strong></td><td>利用者の公開実績。<strong>くじは1P・5P・10P</strong>で、3日連続・7日連続で回数が増える</td><td>無料</td></tr>
+<tr><td><strong><a href="https://health.docomo.ne.jp/" target="_blank" rel="noopener">dヘルスケア</a></strong></td><td><strong>無料版は数十P／有料版は350P 前後</strong></td><td>利用者の公開実績。<strong>無料版はハズレ（0P）がある</strong></td><td>無料／月330円</td></tr>
+<tr><td><strong><a href="https://www.jal.co.jp/jp/ja/jmb/wellness/" target="_blank" rel="noopener">JAL Wellness &amp; Travel</a></strong></td><td><strong>300〜1,000マイル</strong></td><td>利用者の公開実績。<strong>歩数中心なら450〜600マイル</strong>が目安</td><td>月550円</td></tr>
+<tr><td><strong><a href="https://www.ana.co.jp/ja/jp/guide/ana-pocket/" target="_blank" rel="noopener">ANA Pocket</a></strong></td><td><strong>無料版60〜600マイル／Proは1,000マイル前後</strong></td><td>利用者の公開実績。<strong>無料版は1,000ポイントで2マイル</strong></td><td>無料／月550円</td></tr>
+<tr><td><strong><a href="https://bitwalk.jp/" target="_blank" rel="noopener">BitWalk</a></strong></td><td><strong>150〜500円</strong></td><td>利用者の公開実績（1日7,000〜8,000歩＋広告14〜16回で5〜6円）。<strong>ビットコインの相場で動く</strong></td><td>無料</td></tr>
+<tr><td><strong><a href="https://stellarwalk.jp/" target="_blank" rel="noopener">ステラウォーク</a></strong></td><td><strong>30〜240円</strong></td><td>利用者の公開実績。<strong>換金率はアプリの利用者数で変わる</strong>ので、同じ歩数でも額が動く</td><td>無料</td></tr>
+<tr><td><strong><a href="https://sweatco.in/" target="_blank" rel="noopener">Sweatcoin</a></strong></td><td><strong>15円 前後</strong></td><td>利用者の公開実績（1日1 SWEAT前後）。<strong>年を追うごとに貯まりにくくなる設計</strong></td><td>無料</td></tr>
+<tr><td><strong><a href="https://healthree.io/" target="_blank" rel="noopener">HEALTHREE</a></strong></td><td><strong>上位ランクで4,600〜22,540円 相当</strong></td><td>提供元の検証記事。<strong>上位ランクの数字</strong>であって、始めたばかりの人の額ではない</td><td>無料（課金あり）</td></tr>
+<tr><td><strong><a href="https://stepn.com/" target="_blank" rel="noopener">STEPN</a></strong></td><td><strong>相場次第（マイナスもある）</strong></td><td><strong>NFTスニーカーを先に買う</strong>ので、回収できるかどうかが相場に乗る。ここだけ性質が違う</td><td>初期投資</td></tr>
+<tr><td><strong><a href="https://vitality.sumitomolife.co.jp/" target="_blank" rel="noopener">住友生命 Vitality</a></strong></td><td><strong>保険料が最大30%引き</strong></td><td><strong>公式。</strong>1年目は15%引きで、ゴールド維持なら30%・シルバー20%・ブロンズ10%。<strong>利用料は月880円</strong></td><td>月880円＋保険料</td></tr>
+<tr><td><strong><a href="https://kencom.jp/" target="_blank" rel="noopener">kencom</a></strong></td><td><strong>健保による</strong></td><td>加入している健康保険組合が導入していないと使えない。<strong>まず自分が対象かを確認する</strong></td><td>無料（健保加入者）</td></tr>
+</tbody>
+</table>
+</div>
+
+<p class="source-note"><strong>「公式の条件から計算」と「利用者の公開実績」を分けてある。</strong>前者は各社が公表している付与条件を1日1万歩・365日の前提に当てはめたもの。後者は<strong>使った人がブログやnoteで公開している金額</strong>で、歩数・移動手段・広告視聴の回数で大きく変わる。<strong>暗号資産型（BitWalk・ステラウォーク・Sweatcoin・HEALTHREE・STEPN）は相場で円換算が日々 動く</strong>ので、この表の額はそのまま将来に当てはまらない</p>
+
+**この一覧で言えることは3つある。**
+
+<ul class="checklist">
+  <li><div class="checklist-body"><strong>無料で最も戻るのはエブリポイント。</strong><p>月1,000〜1,500円の報告があり、他の無料アプリが3桁円であることを考えると桁が1つ 違う。<strong>ただしこれは利用者の実績</strong>で、公式が保証している額ではない。</p></div></li>
+  <li><div class="checklist-body"><strong>有料版は「元が取れるか」で見る。</strong><p>JALが月550円で300〜1,000マイル、ANA Proが月550円で1,000マイル前後、dヘルスケア有料版が月330円で350P 前後。<strong>マイルを1円 以上で使える人なら合う</strong>が、そうでないなら無料版のほうが確実になる。</p></div></li>
+  <li><div class="checklist-body"><strong>桁が違って見えるものほど、条件が厳しい。</strong><p>HEALTHREEの月2万円台は<strong>上位ランクの数字</strong>、Vitalityの30%引きは<strong>保険に入っていることが前提</strong>、STEPNは<strong>先にNFTを買う</strong>。金額の大きさだけで並べると判断を誤る。</p></div></li>
+</ul>
+
+アプリごとの貯まり方は、下の各節の表にもすべて書いた。
 
 <div class="section-with-mascot">
   <div class="mascot-wrap"><img src="/images/expr-04-cheer.png" alt="Daily Hackマスコット" /></div>
