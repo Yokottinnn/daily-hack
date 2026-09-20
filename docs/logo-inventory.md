@@ -118,6 +118,21 @@
 | `credit-card-kaiaku-2026` | 0 | **0** | -:0 |
 | `gyudon-chains-cashless-2026-jun` | 0 | **0** | -:0 |
 
+
+## 数え方を 1 つ増やした（2026-09-20）
+
+**ドメイン数だけでは取りこぼす。** B 区分の記事は**ブランド名が見出しに出ていて、
+リンクが無い**ことが多かった。
+
+| 記事 | ドメイン | 見出し | 中身 |
+| --- | --- | --- | --- |
+| `qr-payment-comparison-2026` | 4 | **8** | PayPay / 楽天ペイ / d払い が h3 で並ぶ。リンクは 0 |
+| `yodobashi-vs-amazon-rakuten-2026` | 3 | **8** | ヨドバシ.com / Amazon / 楽天市場 |
+| `nisa-investment-beginner-guide-2026` | 3 | — | SBI証券 / 楽天証券 |
+
+`scripts/logo-inventory.py` は**見出しの数も出す**ようにした。
+**ドメインが少なくても見出しが多ければ、中を見る。**
+
 ## 数え直すとき
 
 ```bash

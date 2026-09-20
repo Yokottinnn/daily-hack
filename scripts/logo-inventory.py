@@ -16,6 +16,10 @@ import sys
 # 自サイト・SNS・百科事典・プレスリリースは「ブランド」として数えない
 SKIP = re.compile(r"daily-hack|twitter\.com|x\.com|wikipedia|wikimedia|youtube|prtimes|note\.com")
 LINK = re.compile(r'<a href="(https?://[^"]+)"[^>]*>([^<]{2,30})</a>')
+# **リンクのドメイン数だけでは足りない**（2026-09-20 に外した）。
+# B 区分の記事は**ブランド名が見出しに出ていて、リンクが無い**ことが多い。
+# QR 決済は PayPay / 楽天ペイ / d払い が h3 で並んでいるのに、リンクは 0 だった。
+HEAD = re.compile(r"^(?:###+\s+|<h[234][^>]*>)([^<\n]{2,24})", re.M)
 
 
 def scan(root=pathlib.Path("src/content/posts")):
@@ -25,11 +29,14 @@ def scan(root=pathlib.Path("src/content/posts")):
             if SKIP.search(url):
                 continue
             hosts[re.sub(r"^www\.", "", url.split("/")[2])] += 1
+        text = f.read_text(encoding="utf-8")
+        heads = {h.strip() for h in HEAD.findall(text) if h.strip()}
         yield {
             "slug": f.stem,
             "has_logos": pathlib.Path(f"public/images/{f.stem}/logos").is_dir(),
             "links": sum(hosts.values()),
             "domains": len(hosts),
+            "headings": len(heads),
             "top": hosts.most_common(1),
         }
 
@@ -38,14 +45,14 @@ def main():
     rows = sorted(scan(), key=lambda r: (-r["domains"], -r["links"]))
     md = "--md" in sys.argv
     if md:
-        print("| 記事 | ブランドのリンク | ドメイン数 | いちばん多い先 |")
-        print("| --- | --- | --- | --- |")
+        print("| 記事 | ブランドのリンク | ドメイン数 | 見出しの数 | いちばん多い先 |")
+        print("| --- | --- | --- | --- | --- |")
     for r in rows:
         top = f"{r['top'][0][0]}:{r['top'][0][1]}" if r["top"] else "-"
         if md:
-            print(f"| `{r['slug']}` | {r['links']} | **{r['domains']}** | {top} |")
+            print(f"| `{r['slug']}` | {r['links']} | **{r['domains']}** | {r['headings']} | {top} |")
         else:
-            print(f"{'済' if r['has_logos'] else '未'}\t{r['links']}\t{r['domains']}\t{r['slug']}\t{top}")
+            print(f"{'済' if r['has_logos'] else '未'}\t{r['links']}\t{r['domains']}\t{r['headings']}\t{r['slug']}\t{top}")
 
 
 if __name__ == "__main__":
