@@ -1,0 +1,60 @@
+# ops-heartbeat が 30 分ごとに載せ直すジョブの一覧
+#
+# ## なぜこれが要るのか
+#
+# **2026-09-09 に `ai.openclaw.*` が 48 本 一斉に外れ、11 日間 誰も気づかなかった。**
+# 犯人は `tab-guard.js` の `haltAutomation`（再起動のたびに誤発火していた）。
+# 2026-09-12・2026-09-20 にも同じことが起きている。
+#
+# 番人 `x-loop-guardian` は用意してあったが、2 つの理由で効かなかった。
+#
+#   1. **見ている対象が X の 8 ループだけ**だった
+#   2. **番人自身が `ai.openclaw.*`** なので、tab-guard に一緒に外された
+#
+# `com.dailyhack.ops-heartbeat` は **3 回 とも生き残っている**（tab-guard は
+# `ai.openclaw.*` しか外さない）。**外されない側に載せ直しを持たせる。**
+#
+# ## 意図的に止めたいとき
+#
+# **この一覧から消すのではなく、plist を `.disabled` にリネームする。**
+# `.plist` で終わらないファイルは載せ直しの対象外になる。
+# 一覧から消すだけだと、`unloaded` の警報は鳴り続ける。
+#
+# ## 足すときの約束（最上位ルール 2-B）
+#
+# **LLM を呼ぶジョブをここに足すのは、増額の提案である。**
+# 1 回あたり・1 日あたり・1 か月あたりを出して確認を取ってから足す。
+# 「元に戻すだけ」も増額に変わりはない。
+#
+# 現時点で載っているのは、**すでに動いているもの（実測 $0.021/日 に含まれる）**と
+# **$0 のもの（DOM 操作・CDP 読み取りのみ）**だけ。
+#
+# 落ちたまま戻していないもの（LLM を呼ぶため要確認）:
+#   draft-noon / draft-eve / draft-late / engage-daily / qt-daily / qt-past-daily
+#   trend-daily / grok-trending-daily / daily-action-norm / daily-must-rule-review
+#   variety-audit / memory-review / bookmark-analyzer
+#
+# 1 行 1 ラベル。`#` 始まりと空行は無視される。
+
+# --- X の 8 ループ（実測 $0.021/日 に含まれる）---
+ai.openclaw.comment-warmup
+ai.openclaw.competitor-follower-follow
+ai.openclaw.hashtag-follow
+ai.openclaw.badge-followback
+ai.openclaw.reply-followback-check
+ai.openclaw.reply-followers-cleanup
+ai.openclaw.incoming-reply-watcher
+ai.openclaw.pipeline-heartbeat
+
+# --- 支える側（$0。DOM 操作・監視のみ）---
+ai.openclaw.mutual-prune
+ai.openclaw.daily-supervisor
+ai.openclaw.caffeinate
+ai.openclaw.tab-guard
+
+# --- 成果を測る口（$0。CDP で /followers を読むだけ）---
+# 2026-09-09 に止まり、9/8 の 227 が 12 日間「いま」として出ていた
+ai.openclaw.follower-snapshot
+
+# --- 番人本体（$0）。これ自体が外されるので、ここから戻す ---
+ai.openclaw.x-loop-guardian
