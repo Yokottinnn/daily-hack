@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-20T20:49:06Z",
+  "generated_at": "2026-09-20T21:19:15Z",
   "login_lock": {"present": false, "age_hours": 0},
   "cdp": {"healthy": true, "port": 18810},
   "x_jobs": {"loaded": 8, "expected": 8, "ai_total": 14, "halted": false, "missing": []},
-  "last_reply": {"at": "2026-09-20T20:05:21.593Z", "age_hours": 0, "stale": false},
+  "last_reply": {"at": "2026-09-20T20:05:21.593Z", "age_hours": 1, "stale": false},
   "supervisor": {"at":"2026-09-20T20:04:37Z","date_jst":"2026-09-21","ran":9,"total":9,"not_run":[],"fixed":[]},
   "followback_bands": {"with_count":100,"total_rows":447,"bands":{"1000-4999":{"n":34,"back":5,"mature":28,"mature_back":5,"rate":17.9},"300-999":{"n":17,"back":6,"mature":14,"mature_back":6,"rate":42.9},"0-99":{"n":23,"back":3,"mature":13,"mature_back":3,"rate":23.1},"5000-49999":{"n":24,"back":1,"mature":19,"mature_back":1,"rate":5.3},"100-299":{"n":2,"back":1,"mature":1,"mature_back":1,"rate":100}},"status_values":{"no":327,"revenge_ghost_already_unfollowed":48,"unfollowed":16,"yes_late":1,"yes":36,"pending":19},"note":"mature の率で見る"},
   "host": "NaokinoMacBook-Pro-2.local",
