@@ -1,0 +1,75 @@
+{
+  "_note": "識別目的で使うロゴ。**商標であり自由ライセンスではない。**改変せず、余白のみ切って置くこと。取得日 2026-09-20。",
+  "jyoshin": {
+    "brand": "サウナ蒸薪",
+    "file": "jyoshin.png",
+    "source": "https://www.sauna-jyoshin.com/apple-touch-icon.png",
+    "page": "https://www.sauna-jyoshin.com/",
+    "license_note": "公式サイト（商標）",
+    "width": 144,
+    "height": 145
+  },
+  "kohaku": {
+    "brand": "sauna KOHAKU",
+    "file": "kohaku.png",
+    "source": "https://sauna-kohaku.com/images/ogp.jpg",
+    "page": "https://sauna-kohaku.com/",
+    "license_note": "公式サイト（商標）",
+    "width": 600,
+    "height": 317
+  },
+  "logout": {
+    "brand": "荒木町サウナ Logout",
+    "file": "logout.png",
+    "source": "https://sauna-logout.com/wp-content/uploads/2025/10/E9E4E3D1-4512-4789-82FE-FC3B0D0F4A49.jpeg",
+    "page": "https://sauna-logout.com/",
+    "license_note": "公式サイト（商標）",
+    "width": 600,
+    "height": 600
+  },
+  "metsa": {
+    "brand": "サウナメッツァ",
+    "file": "metsa.png",
+    "source": "https://www.ryusenjinoyu.com/saunametsaoimachi/assets/img/ogp.jpg",
+    "page": "https://ryusenjinoyu.com/saunametsaoimachi/",
+    "license_note": "公式サイト（商標）",
+    "width": 376,
+    "height": 392
+  },
+  "myspa": {
+    "brand": "舞浜ユーラシア",
+    "file": "myspa.png",
+    "source": "https://www.my-spa.jp/lb2025/wp-content/uploads/fbrfg/apple-touch-icon.png",
+    "page": "https://www.my-spa.jp/spa/",
+    "license_note": "公式サイト（商標）",
+    "width": 177,
+    "height": 135
+  },
+  "newoman": {
+    "brand": "NEWoMan",
+    "file": "newoman.png",
+    "source": "https://www.newoman.jp/assets-kakukan/images/common/ogp.png",
+    "page": "https://www.newoman.jp/takanawa/",
+    "license_note": "公式サイト（商標）",
+    "width": 572,
+    "height": 84
+  },
+  "saunas_monnaka": {
+    "brand": "門仲SAUNAS LO",
+    "file": "saunas_monnaka.png",
+    "source": "https://lo.saunas-saunas.com/monnaka/wp-content/uploads/2026/05/image.png",
+    "page": "https://lo.saunas-saunas.com/monnaka/",
+    "license_note": "公式サイト（商標）",
+    "width": 600,
+    "height": 315
+  },
+  "spaeas": {
+    "brand": "SPA EAS",
+    "file": "spaeas.png",
+    "source": "https://spa-eas.com/app/wp-content/themes/spaeas-site/assets/images/favicon-hb-512.png",
+    "page": "https://spa-eas.com/",
+    "license_note": "公式サイト（商標）",
+    "width": 512,
+    "height": 512
+  }
+}

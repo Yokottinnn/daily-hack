@@ -1,0 +1,21 @@
+{
+  "_note": "識別目的で使うロゴ。**商標であり自由ライセンスではない。**改変せず、余白のみ切って置くこと。取得日 2026-09-20。",
+  "premium": {
+    "brand": "プレミアム・アウトレット",
+    "file": "premium.png",
+    "source": "https://www.premiumoutlets.co.jp/_assets/images/common/ogp/po.png",
+    "page": "https://www.premiumoutlets.co.jp/",
+    "license_note": "公式サイト（商標）",
+    "width": 600,
+    "height": 312
+  },
+  "aeonmall": {
+    "brand": "イオンモール",
+    "file": "aeonmall.png",
+    "source": "https://www.aeonmall.com/img/common/ogp.png",
+    "page": "https://www.aeonmall.com/",
+    "license_note": "公式サイト（商標）",
+    "width": 600,
+    "height": 311
+  }
+}
