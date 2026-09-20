@@ -345,6 +345,23 @@ if [ -f "$FSLOG" ]; then
   [ -z "$follower_prev" ] && follower_prev="null"
 fi
 
+# **`follower_now` は「最後に記録された日の値」であって「いまの値」ではない。**
+# 記録が止まれば、**古い数字が「いま」として出続ける**（最上位ルール 11）。
+#
+# 2026-09-20 に、**9/8 の 227 を 12 日間「いま」として出していた。**
+# しかも `now_date == prev_date` になるため `span_days` が 0 になり、
+# watchdog 側の「増えていない」判定は `span >= 3` の条件で**丸ごと飛んでいた。**
+# 止まっていること自体が、どこにも出ていなかった。
+follower_stale="null"
+follower_age_days="null"
+if [ -n "${now_date:-}" ]; then
+  _nd="$(date -u -j -f %Y-%m-%d "$now_date" +%s 2>/dev/null || date -u -d "$now_date" +%s 2>/dev/null || echo "")"
+  if [ -n "$_nd" ]; then
+    follower_age_days=$(( ( $(date -u +%s) - _nd ) / 86400 ))
+    if [ "$follower_age_days" -ge 2 ]; then follower_stale="true"; else follower_stale="false"; fi
+  fi
+fi
+
 # 目標設定（014 までで target=300 / deadline=2026-09-30 を入れてある）
 follower_target="null"
 follower_deadline=""
@@ -742,6 +759,9 @@ try {
   echo "    \"prev\": $follower_prev,"
   echo "    \"prev_date\": \"$follower_prev_date\","
   echo "    \"span_days\": $follower_days,"
+  # **記録そのものが止まっていないか。** now は「最後に記録された日の値」
+  echo "    \"record_age_days\": $follower_age_days,"
+  echo "    \"record_stale\": $follower_stale,"
   echo "    \"target\": $follower_target,"
   echo "    \"deadline\": \"$follower_deadline\""
   echo "  },"
