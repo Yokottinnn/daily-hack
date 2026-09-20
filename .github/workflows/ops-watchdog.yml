@@ -67,7 +67,9 @@ jobs:
       #
       # 下げ忘れを防ぐため、`autoload` で戻したぶんは自動でここに現れない。
       # 数が減ったら、この値も一緒に下げること。
-      UNLOADED_BASELINE: '46'
+      # 2026-09-20 07:03 UTC の実測値。`autoload` で 2 本 戻って 60 → **58**。
+      # （12 本は元から載っていたので、戻ったのは follower-snapshot と x-loop-guardian）
+      UNLOADED_BASELINE: '58'
     steps:
       - name: Fetch heartbeat branch
         id: fetch
