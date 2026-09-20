@@ -51,13 +51,28 @@ if [ -z "${!KEY_NAME:-}" ]; then
     set -a; . "$ENVF"; set +a
   fi
 fi
-# **launchd の環境変数に在る**（2026-09-20 に t142 で判明）。
-# シェルにも .env にも無いが、`launchctl getenv` では取れる。
-# X 系のジョブはここから読んでいる。**値はログに出さない。**
+# **`launchctl getenv` は当てにならない。**
+# 未設定でも **rc=0 を返す**（最上位ルール 13 そのもの）。
+# t142 は rc だけを見て「在る」と書き、t143 で値を取ったら空だった。
+# **値が空でないことまで見る。**
 if [ -z "${!KEY_NAME:-}" ]; then
   _v="$(launchctl getenv "$KEY_NAME" 2>/dev/null)"
   [ -n "$_v" ] && export "$KEY_NAME=$_v"
   unset _v
+fi
+
+# **実体は launchd の plist の EnvironmentVariables に在る。**
+# Claude Code Remote のエージェントがそこから読んでいる（t142 で判明）。
+# **値はログに出さない。** 読めたかどうかだけ書く。
+if [ -z "${!KEY_NAME:-}" ]; then
+  for _p in "$HOME/Library/LaunchAgents/com.bubblesnow.remote.plist" \
+            "$HOME/Library/LaunchAgents/com.bubblesnow.remote.daily-hack.plist" \
+            "$HOME/Library/LaunchAgents/com.bubblesnow.remote.daily-hack-blog.plist"; do
+    [ -f "$_p" ] || continue
+    _v="$(plutil -extract "EnvironmentVariables.$KEY_NAME" raw -o - "$_p" 2>/dev/null)"
+    if [ -n "$_v" ]; then export "$KEY_NAME=$_v"; break; fi
+  done
+  unset _p _v
 fi
 if [ -z "${!KEY_NAME:-}" ]; then
   echo "鍵が無い（環境変数・.env・launchctl getenv のどれにも）。何もせず終わる。"
