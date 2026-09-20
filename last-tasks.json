@@ -1,3 +1,4 @@
 [
-      {"task": "x99-attribute-the-48.sh", "rc": 0, "out": "増えた 48 人 の出どころ / attribute-48.md 76 行"}
+      {"task": "t113-super-logos-rest.sh", "rc": 0, "out": "起点 `https://www.trial-net.co.jp/recruit/`  候補 **10 件**    - ✗ `https://www.trial-net.co.jpundefined`: URLError"},
+      {"task": "t114-super-x-timelines.sh", "rc": 0, "out": "❌ HTTP 429（レート制限。次の周回で取り直す）  ## 西友（@seiyu_japan）  ❌ HTTP 429（レート制限。次の周回で取り直す）"}
   ]
