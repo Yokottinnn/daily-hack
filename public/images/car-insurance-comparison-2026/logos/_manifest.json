@@ -1,0 +1,51 @@
+{
+  "_note": "識別目的で使うロゴ。**商標であり自由ライセンスではない。** 改変しない（CSS の枠は可）。取得元と取得日をここに残す。",
+  "axa.png": {
+    "brand": "アクサダイレクト（AXA）",
+    "source": "https://commons.wikimedia.org/wiki/File:AXA_Logo.svg",
+    "page": "https://commons.wikimedia.org/wiki/File:AXA_Logo.svg",
+    "fetched": "2026-09-20",
+    "license_note": "Public domain（コモンズの表記）。商標であることに変わりはない",
+    "task": "ops/tasks/t125-logos-insurance-energy.sh"
+  },
+  "zurich.png": {
+    "brand": "チューリッヒ",
+    "source": "https://commons.wikimedia.org/wiki/File:Zurich_Insurance_Group_Logo_Horizontal.svg",
+    "page": "https://commons.wikimedia.org/wiki/File:Zurich_Insurance_Group_Logo_Horizontal.svg",
+    "fetched": "2026-09-20",
+    "license_note": "Public domain（コモンズの表記）。商標であることに変わりはない",
+    "task": "ops/tasks/t125-logos-insurance-energy.sh"
+  },
+  "sbisonpo.png": {
+    "brand": "SBI損保",
+    "source": "https://www.sbisonpo.co.jp/apple-touch-icon.png",
+    "page": "https://www.sbisonpo.co.jp/",
+    "fetched": "2026-09-20",
+    "license_note": "公式サイトのロゴ画像（商標）",
+    "task": "ops/tasks/t125-logos-insurance-energy.sh"
+  },
+  "mitsuidirect.png": {
+    "brand": "三井ダイレクト損保",
+    "source": "https://www.mitsui-direct.co.jp/common/md_common/assets/v4/img/img/apple-touch-icon.png",
+    "page": "https://www.mitsui-direct.co.jp/",
+    "fetched": "2026-09-20",
+    "license_note": "公式サイトのロゴ画像（商標）",
+    "task": "ops/tasks/t125-logos-insurance-energy.sh"
+  },
+  "sompodirect.png": {
+    "brand": "おとなの自動車保険（SOMPOダイレクト）",
+    "source": "https://d18f657670wm8u.cloudfront.net/image/logo-otona-corp.png",
+    "page": "https://www.ins-saison.co.jp/",
+    "fetched": "2026-09-20",
+    "license_note": "公式サイトのロゴ画像（商標）",
+    "task": "ops/tasks/t125-logos-insurance-energy.sh"
+  },
+  "insweb.png": {
+    "brand": "SBI インズウェブ",
+    "source": "https://www.insweb.co.jp/car/wp-content/uploads/sites/2/favicon528-1.png",
+    "page": "https://www.insweb.co.jp/car/",
+    "fetched": "2026-09-20",
+    "license_note": "公式サイトのロゴ画像（商標）",
+    "task": "ops/tasks/t125-logos-insurance-energy.sh"
+  }
+}

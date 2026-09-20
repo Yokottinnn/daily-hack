@@ -1,0 +1,43 @@
+{
+  "_note": "識別目的で使うロゴ。**商標であり自由ライセンスではない。** 改変しない（CSS の枠は可）。取得元と取得日をここに残す。",
+  "eneos.png": {
+    "brand": "ENEOS",
+    "source": "https://commons.wikimedia.org/wiki/File:ENEOS_logo.svg",
+    "page": "https://commons.wikimedia.org/wiki/File:ENEOS_logo.svg",
+    "fetched": "2026-09-20",
+    "license_note": "Public domain（コモンズの表記）。商標であることに変わりはない",
+    "task": "ops/tasks/t125-logos-insurance-energy.sh"
+  },
+  "tokyogas.png": {
+    "brand": "東京ガス",
+    "source": "https://commons.wikimedia.org/wiki/File:Tokyo_gas_logo.svg",
+    "page": "https://commons.wikimedia.org/wiki/File:Tokyo_gas_logo.svg",
+    "fetched": "2026-09-20",
+    "license_note": "Public domain（コモンズの表記）。商標であることに変わりはない",
+    "task": "ops/tasks/t125-logos-insurance-energy.sh"
+  },
+  "softbank.png": {
+    "brand": "ソフトバンク",
+    "source": "https://commons.wikimedia.org/wiki/File:SoftBank_logo_width.png",
+    "page": "https://commons.wikimedia.org/wiki/File:SoftBank_logo_width.png",
+    "fetched": "2026-09-20",
+    "license_note": "Public domain（コモンズの表記）。商標であることに変わりはない",
+    "task": "ops/tasks/t125-logos-insurance-energy.sh"
+  },
+  "octopus.png": {
+    "brand": "オクトパスエナジー",
+    "source": "https://commons.wikimedia.org/wiki/File:Octopus_Energy_logo_(2019).svg",
+    "page": "https://commons.wikimedia.org/wiki/File:Octopus_Energy_logo_(2019).svg",
+    "fetched": "2026-09-20",
+    "license_note": "Public domain（コモンズの表記）。商標であることに変わりはない",
+    "task": "ops/tasks/t125-logos-insurance-energy.sh"
+  },
+  "au.png": {
+    "brand": "au",
+    "source": "https://commons.wikimedia.org/wiki/File:Au_mobile_network_operator_logo_(1st).svg",
+    "page": "https://commons.wikimedia.org/wiki/File:Au_mobile_network_operator_logo_(1st).svg",
+    "fetched": "2026-09-20",
+    "license_note": "Public domain（コモンズの表記）。商標であることに変わりはない",
+    "task": "ops/tasks/t125-logos-insurance-energy.sh"
+  }
+}

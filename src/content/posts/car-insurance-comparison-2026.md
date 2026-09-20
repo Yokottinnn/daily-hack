@@ -66,7 +66,7 @@ references: ["https://www.sonysonpo.co.jp/", "https://www.sbisonpo.co.jp/", "htt
   </div>
   <div class="highlight-item">
     <span class="highlight-tag">ゴールド免許・40-50代</span>
-    <h4>おとなの自動車保険</h4>
+    <h4 class="brand-h"><img class="brand-logo" src="/images/car-insurance-comparison-2026/logos/sompodirect.png" alt="おとなの自動車保険のロゴ" loading="lazy" /><span>おとなの自動車保険</span></h4>
     <p>1歳刻み年齢料率＋ゴールド免許割引で、事故率の低い40-50代が最も安くなる設計。</p>
   </div>
   <div class="highlight-item">
@@ -111,11 +111,11 @@ references: ["https://www.sonysonpo.co.jp/", "https://www.sbisonpo.co.jp/", "htt
 | 保険会社 | 保険料の傾向 | ロードサービス | 弁護士特約 | 事故対応 | ネット割引 | 主な特徴 |
 |---|---|---|---|---|---|---|
 | **ソニー損保** | 中（走行距離区分で変動） | 全契約無料・約10,000拠点 | 有（オプション） | 24時間365日／セコム現場かけつけ | 最大10,000円（新規ネット）+証券不発行で500円 | 走行距離7区分で「乗らない人ほど安い」、ロード使っても等級不変 |
-| **SBI損保** | 安い〜中 | 全契約無料 | 有（300万円/被保険者1名） | 24時間365日 | ネット割で割安 | 価格.com満足度1位常連、補償シンプル設計 |
-| **チューリッヒ** | 安い | 全契約無料 | 有（オプション） | 24時間365日 | ネット最大20,000円＋e割・早割・LINE割 | ネット割の総額最大が業界トップ級 |
-| **三井ダイレクト損保** | 中 | 全契約無料・約8,100拠点 | 有（オプション） | 24時間365日 | ネット割／早割／無事故割 | 走行距離区分制、「大手乗換で平均2万円超安」公式アピール |
-| **アクサダイレクト** | 中 | 全契約無料・約10,770拠点 | 有（オプション） | 24時間365日 | ネット最大20,000円 | 子育て応援割引・EV割引・無事故2,000円割引など割引数が豊富 |
-| **おとなの自動車保険**<br>（SOMPOダイレクト） | 40-50代に最安傾向 | ALSOK事故現場サポート全員無料付帯 | 有（オプション） | 24時間365日 | 新規最大22,600円（ネット+早割等） | 1歳刻み年齢料率／対人・対物・無保険車傷害が全て無制限自動付帯 |
+| <span class="cell-brand"><img class="brand-logo-sm" src="/images/car-insurance-comparison-2026/logos/sbisonpo.png" alt="SBI損保のロゴ" loading="lazy" /><strong>SBI損保</strong></span> | 安い〜中 | 全契約無料 | 有（300万円/被保険者1名） | 24時間365日 | ネット割で割安 | 価格.com満足度1位常連、補償シンプル設計 |
+| <span class="cell-brand"><img class="brand-logo-sm" src="/images/car-insurance-comparison-2026/logos/zurich.png" alt="チューリッヒのロゴ" loading="lazy" /><strong>チューリッヒ</strong></span> | 安い | 全契約無料 | 有（オプション） | 24時間365日 | ネット最大20,000円＋e割・早割・LINE割 | ネット割の総額最大が業界トップ級 |
+| <span class="cell-brand"><img class="brand-logo-sm" src="/images/car-insurance-comparison-2026/logos/mitsuidirect.png" alt="三井ダイレクト損保のロゴ" loading="lazy" /><strong>三井ダイレクト損保</strong></span> | 中 | 全契約無料・約8,100拠点 | 有（オプション） | 24時間365日 | ネット割／早割／無事故割 | 走行距離区分制、「大手乗換で平均2万円超安」公式アピール |
+| <span class="cell-brand"><img class="brand-logo-sm" src="/images/car-insurance-comparison-2026/logos/axa.png" alt="アクサダイレクトのロゴ" loading="lazy" /><strong>アクサダイレクト</strong></span> | 中 | 全契約無料・約10,770拠点 | 有（オプション） | 24時間365日 | ネット最大20,000円 | 子育て応援割引・EV割引・無事故2,000円割引など割引数が豊富 |
+| <span class="cell-brand"><img class="brand-logo-sm" src="/images/car-insurance-comparison-2026/logos/sompodirect.png" alt="おとなの自動車保険のロゴ" loading="lazy" /><strong>おとなの自動車保険</strong><br>（SOMPOダイレクト）</span> | 40-50代に最安傾向 | ALSOK事故現場サポート全員無料付帯 | 有（オプション） | 24時間365日 | 新規最大22,600円（ネット+早割等） | 1歳刻み年齢料率／対人・対物・無保険車傷害が全て無制限自動付帯 |
 | **東京海上ダイレクト**<br>（旧イーデザイン損保） | 中 | 全契約無料 | 有（オプション） | 24時間365日／セコム現場急行 | 新規ネット12,000円割引 | 「&e（アンディー）」テレマティクス特約／東京海上日動グループの安心感 |
 | **楽天損保 ドライブアシスト** | 中 | 全契約無料 | 有（オプション） | 24時間365日／現場かけつけ | ネット最大25%OFF、ダイヤモンド会員は最大30%OFF | 保険料支払いで楽天ポイント1〜3%還元、ポイントで支払いも可 |
 
@@ -141,7 +141,7 @@ references: ["https://www.sonysonpo.co.jp/", "https://www.sbisonpo.co.jp/", "htt
 
   <article class="compare-card recommended">
     <span class="compare-card-mascot"><img src="/images/expr-04-cheer.png" alt="" /></span>
-    <h3>SBI損保</h3>
+    <h3 class="brand-h"><img class="brand-logo" src="/images/car-insurance-comparison-2026/logos/sbisonpo.png" alt="SBI損保のロゴ" loading="lazy" /><span>SBI損保</span></h3>
     <p class="tagline">価格.com満足度ランキング常連の「安さ最強」候補。補償シンプルで分かりやすい。</p>
     <dl>
       <dt>保険料の特徴</dt><dd>ダイレクト型の中でも保険料の安さで定評。価格.com 2026年満足度ランキングで総合・保険料・補償内容3部門1位</dd>
@@ -156,7 +156,7 @@ references: ["https://www.sonysonpo.co.jp/", "https://www.sbisonpo.co.jp/", "htt
 
   <article class="compare-card">
     <span class="compare-card-mascot"><img src="/images/expr-06-shock.png" alt="" /></span>
-    <h3>チューリッヒ</h3>
+    <h3 class="brand-h"><img class="brand-logo" src="/images/car-insurance-comparison-2026/logos/zurich.png" alt="チューリッヒのロゴ" loading="lazy" /><span>チューリッヒ</span></h3>
     <p class="tagline">ネット割引の総額が業界最大級。割引マシマシで初年度の体感価格を最小化したい人へ。</p>
     <dl>
       <dt>保険料の特徴</dt><dd>ダイレクト販売で中間コストカット、ネット割が他社比でも大きい</dd>
@@ -171,7 +171,7 @@ references: ["https://www.sonysonpo.co.jp/", "https://www.sbisonpo.co.jp/", "htt
 
   <article class="compare-card">
     <span class="compare-card-mascot"><img src="/images/expr-01-wave.png" alt="" /></span>
-    <h3>三井ダイレクト損保</h3>
+    <h3 class="brand-h"><img class="brand-logo" src="/images/car-insurance-comparison-2026/logos/mitsuidirect.png" alt="三井ダイレクト損保のロゴ" loading="lazy" /><span>三井ダイレクト損保</span></h3>
     <p class="tagline">MS&ADグループの安心感＋ダイレクト型の価格。バランス型の有力候補。</p>
     <dl>
       <dt>保険料の特徴</dt><dd>走行距離区分制、「大手損保からの乗り換えで平均2万円超安くなった」と公式アピール</dd>
@@ -186,7 +186,7 @@ references: ["https://www.sonysonpo.co.jp/", "https://www.sbisonpo.co.jp/", "htt
 
   <article class="compare-card">
     <span class="compare-card-mascot"><img src="/images/expr-04-cheer.png" alt="" /></span>
-    <h3>アクサダイレクト</h3>
+    <h3 class="brand-h"><img class="brand-logo" src="/images/car-insurance-comparison-2026/logos/axa.png" alt="アクサダイレクトのロゴ" loading="lazy" /><span>アクサダイレクト</span></h3>
     <p class="tagline">割引メニューの豊富さが頭ひとつ抜けてる。家族構成・車種の変化に強い。</p>
     <dl>
       <dt>保険料の特徴</dt><dd>インターネット割引最大20,000円。2026年4月から運転者限定特約が「本人型／本人配偶者型／家族型」の3区分に再編で節約しやすく</dd>
@@ -201,7 +201,7 @@ references: ["https://www.sonysonpo.co.jp/", "https://www.sbisonpo.co.jp/", "htt
 
   <article class="compare-card recommended">
     <span class="compare-card-mascot"><img src="/images/expr-05-smug.png" alt="" /></span>
-    <h3>おとなの自動車保険<br>（SOMPOダイレクト損害保険）</h3>
+    <h3 class="brand-h"><img class="brand-logo" src="/images/car-insurance-comparison-2026/logos/sompodirect.png" alt="おとなの自動車保険のロゴ" loading="lazy" /><span>おとなの自動車保険<br>（SOMPOダイレクト損害保険）</span></h3>
     <p class="tagline">40-50代に最も有利な1歳刻み年齢料率。事故率の低い世代ほど安くなる設計。</p>
     <dl>
       <dt>運営会社</dt><dd>SOMPOダイレクト損害保険（旧セゾン自動車火災保険、2024年10月商号変更）</dd>

@@ -107,7 +107,7 @@ author: "hacker-ko"
   <article class="compare-card recommended">
     <span class="compare-card-tag is-main">推奨枠</span>
     <span class="compare-card-mascot"><img src="/images/expr-04-cheer.png" alt="" /></span>
-    <h3>ENEOSでんき</h3>
+    <h3 class="brand-h"><img class="brand-logo" src="/images/electricity-gas-savings-2026/logos/eneos.png" alt="ENEOSでんきのロゴ" loading="lazy" /><span>ENEOSでんき</span></h3>
     <p class="tagline">大手石油元売り・JXTGエネルギー運営の安定感。長期契約でさらに割引が乗る老舗。</p>
     <dl>
       <dt>基本料金</dt><dd>大手とほぼ同水準（契約アンペアで変動）</dd>
@@ -123,7 +123,7 @@ author: "hacker-ko"
   <article class="compare-card recommended">
     <span class="compare-card-tag is-sub">サブ推奨</span>
     <span class="compare-card-mascot"><img src="/images/expr-01-wave.png" alt="" /></span>
-    <h3>オクトパスエナジー</h3>
+    <h3 class="brand-h"><img class="brand-logo" src="/images/electricity-gas-savings-2026/logos/octopus.png" alt="オクトパスエナジーのロゴ" loading="lazy" /><span>オクトパスエナジー</span></h3>
     <p class="tagline">英国発・東京ガスとの合弁。再エネ100%プランで環境派にも刺さる新興勢力。</p>
     <dl>
       <dt>基本料金</dt><dd>大手と同水準</dd>
@@ -155,7 +155,7 @@ author: "hacker-ko"
   <article class="compare-card">
     <span class="compare-card-tag is-sub">au経済圏</span>
     <span class="compare-card-mascot"><img src="/images/expr-04-cheer.png" alt="" /></span>
-    <h3>auでんき</h3>
+    <h3 class="brand-h"><img class="brand-logo" src="/images/electricity-gas-savings-2026/logos/au.png" alt="auでんきのロゴ" loading="lazy" /><span>auでんき</span></h3>
     <p class="tagline">au・UQモバイルユーザー＆Ponta派の本命。電気代でPontaポイントが貯まる。</p>
     <dl>
       <dt>基本料金</dt><dd>大手とほぼ同水準（契約アンペアで変動）</dd>
@@ -171,7 +171,7 @@ author: "hacker-ko"
   <article class="compare-card">
     <span class="compare-card-tag is-sub">SoftBank経済圏</span>
     <span class="compare-card-mascot"><img src="/images/expr-01-wave.png" alt="" /></span>
-    <h3>ソフトバンクでんき</h3>
+    <h3 class="brand-h"><img class="brand-logo" src="/images/electricity-gas-savings-2026/logos/softbank.png" alt="ソフトバンクでんきのロゴ" loading="lazy" /><span>ソフトバンクでんき</span></h3>
     <p class="tagline">ソフトバンク・ワイモバイル・PayPayユーザーに刺さるセット割。</p>
     <dl>
       <dt>基本料金</dt><dd>大手とほぼ同水準</dd>
@@ -278,7 +278,7 @@ author: "hacker-ko"
   <article class="compare-card recommended">
     <span class="compare-card-tag is-main">本命</span>
     <span class="compare-card-mascot"><img src="/images/expr-05-smug.png" alt="" /></span>
-    <h3>東京ガス</h3>
+    <h3 class="brand-h"><img class="brand-logo" src="/images/electricity-gas-savings-2026/logos/tokyogas.png" alt="東京ガスのロゴ" loading="lazy" /><span>東京ガス</span></h3>
     <p class="tagline">首都圏の老舗・最大手。電気とのセット割「ずっとも電気」で総合最強。</p>
     <dl>
       <dt>基本料金</dt><dd>使用量帯ごとに段階設定（A/B/C表）</dd>
@@ -310,7 +310,7 @@ author: "hacker-ko"
   <article class="compare-card">
     <span class="compare-card-tag is-sub">ENEOS経済圏</span>
     <span class="compare-card-mascot"><img src="/images/expr-01-wave.png" alt="" /></span>
-    <h3>ENEOS都市ガス</h3>
+    <h3 class="brand-h"><img class="brand-logo" src="/images/electricity-gas-savings-2026/logos/eneos.png" alt="ENEOS都市ガスのロゴ" loading="lazy" /><span>ENEOS都市ガス</span></h3>
     <p class="tagline">ENEOSでんきとセットで請求まとめ＆Tポイント還元。電気と一括で固めたい人向け。</p>
     <dl>
       <dt>基本料金</dt><dd>東京ガスとほぼ同水準</dd>

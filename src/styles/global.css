@@ -1310,11 +1310,14 @@ blockquote.twitter-tweet a:hover { color: var(--pink-700); }
    **flex の縦積みにしたら、リンクのテキストまで 1 行ずつ折れた**（同日に差し戻された）。
    「西友 チラシ ／ トップ」が 3 行になる。**ロゴだけ block にして、文字は普通に流す。** */
 .cell-brand { display: block; min-width: 124px; }
-.cell-brand .brand-logo-sm { display: block; margin: 0 0 5px; }
-.cell-brand .brand-logo-sm {
-  height: 30px; width: auto; max-width: 96px; object-fit: contain;
+/* **`.cell-brand` の外に置かれても素の大きさで出さない**（2026-09-20 に踏んだ）。
+   囲み忘れたセルで **512px のアイコンがそのまま出て、行が 300px 高くなった。**
+   見た目は「巨大な画像」なので気づけるが、**気づくのは公開後**。基準の寸法はここで持つ。 */
+.post-body .brand-logo-sm {
+  height: 30px; width: auto; max-width: 96px; object-fit: contain; vertical-align: middle;
   background: #fff; border-radius: 6px; border: 1px solid var(--pink-200); padding: 3px 5px;
 }
+.cell-brand .brand-logo-sm { display: block; margin: 0 0 5px; }
 
 /* ── 記事上部のカテゴリタグ（.post-cats） ────────────────────
    **記事カードの `.art` を入れ物に流用していたのが不具合の原因**（Jordan 指摘 2026-09-05）。
