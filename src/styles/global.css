@@ -1307,10 +1307,12 @@ blockquote.twitter-tweet a:hover { color: var(--pink-700); }
 
 /* 表のセルの中にロゴを置く（.cell-brand）。見出しを持たないチェーンのため。 */
 /* **ロゴは改行して、名前の上に置く**（2026-09-20 に指示）。
-   横並びだと名前が押されて折り返し、行の高さがばらつく。縦に積むと全行そろう。 */
-.cell-brand { display: flex; flex-direction: column; align-items: flex-start; gap: 6px; }
+   **flex の縦積みにしたら、リンクのテキストまで 1 行ずつ折れた**（同日に差し戻された）。
+   「西友 チラシ ／ トップ」が 3 行になる。**ロゴだけ block にして、文字は普通に流す。** */
+.cell-brand { display: block; min-width: 124px; }
+.cell-brand .brand-logo-sm { display: block; margin: 0 0 5px; }
 .cell-brand .brand-logo-sm {
-  flex: 0 0 auto; height: 30px; width: auto; max-width: 96px; object-fit: contain;
+  height: 30px; width: auto; max-width: 96px; object-fit: contain;
   background: #fff; border-radius: 6px; border: 1px solid var(--pink-200); padding: 3px 5px;
 }
 
