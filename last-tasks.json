@@ -1,4 +1,3 @@
 [
-      {"task": "t131-index-status.sh", "rc": 0, "out": "- **最終クロールが古い** = 更新されていないと見なされている。更新すると戻ってくることがある  ## サイトマップの再送信  - `sitemap-0.xml` を送信した（HTTP 204）"},
-      {"task": "t132-logos-btier.sh", "rc": 0, "out": " ### 楽天市場    - ✅ `rakutenec-1.png` / 960x153 / **Public domain**         ← File:Ichiba-web-header-logo.svg"}
+      {"task": "t133-logos-retry5.sh", "rc": 0, "out": "   - ✅ `jalan-1.png` / 960x258 / **Public domain**         ← File:Recruit Holdings Logo.gif   - ✅ `jalan-2.png` / 960x402 / **Public domain**         ← File:Recruit Holdings logo.svg"}
   ]

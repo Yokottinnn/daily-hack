@@ -1,0 +1,155 @@
+{
+  "_note": "識別目的で使うロゴ。**商標であり自由ライセンスではない。**取得日 2026-09-20（ops/tasks/t128-logos-retry5.sh）。",
+  "dcard": [
+    {
+      "brand": "dカード",
+      "file": "dcard-1.png",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/NTT_docomo_%28NTT_Blue%29_simple_logo.svg/960px-NTT_docomo_%28NTT_Blue%29_simple_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File%3ANTT_docomo_%28NTT_Blue%29_simple_logo.svg",
+      "license_note": "Public domain",
+      "width": 960,
+      "height": 195
+    },
+    {
+      "brand": "dカード",
+      "file": "dcard-2.png",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/NTT_docomo_%28NTT_blue%29.svg/960px-NTT_docomo_%28NTT_blue%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File%3ANTT_docomo_%28NTT_blue%29.svg",
+      "license_note": "Public domain",
+      "width": 960,
+      "height": 208
+    }
+  ],
+  "jalan": [
+    {
+      "brand": "じゃらん",
+      "file": "jalan-1.png",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Recruit_Holdings_Logo.gif/960px-Recruit_Holdings_Logo.gif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File%3ARecruit_Holdings_Logo.gif",
+      "license_note": "Public domain",
+      "width": 960,
+      "height": 258
+    },
+    {
+      "brand": "じゃらん",
+      "file": "jalan-2.png",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Recruit_Holdings_logo.svg/960px-Recruit_Holdings_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File%3ARecruit_Holdings_logo.svg",
+      "license_note": "Public domain",
+      "width": 960,
+      "height": 402
+    }
+  ],
+  "moppy2": [
+    {
+      "brand": "モッピー（企業）",
+      "file": "moppy2-1.svg",
+      "source": "https://ceres-inc.jp/assets/images/common/logo_l.svg",
+      "page": "https://ceres-inc.jp/",
+      "license_note": "公式サイトのロゴ画像（商標）",
+      "format": "svg"
+    },
+    {
+      "brand": "モッピー（企業）",
+      "file": "moppy2-2.png",
+      "source": "https://media.ceres-inc.jp/services/img/1.png",
+      "page": "https://ceres-inc.jp/",
+      "license_note": "公式サイトのロゴ画像（商標）",
+      "width": 100,
+      "height": 22
+    },
+    {
+      "brand": "モッピー（企業）",
+      "file": "moppy2-3.png",
+      "source": "https://media.ceres-inc.jp/services/img/10.jpg",
+      "page": "https://ceres-inc.jp/",
+      "license_note": "公式サイトのロゴ画像（商標）",
+      "width": 582,
+      "height": 167
+    },
+    {
+      "brand": "モッピー（企業）",
+      "file": "moppy2-4.png",
+      "source": "https://media.ceres-inc.jp/services/img/12.png",
+      "page": "https://ceres-inc.jp/",
+      "license_note": "公式サイトのロゴ画像（商標）",
+      "width": 312,
+      "height": 78
+    }
+  ],
+  "hapitas": [
+    {
+      "brand": "ハピタス",
+      "file": "hapitas-1.png",
+      "source": "https://sp.hapitas.jp/apple-touch-icon.png",
+      "page": "https://sp.hapitas.jp/",
+      "license_note": "公式サイトのロゴ画像（商標）",
+      "width": 180,
+      "height": 180
+    }
+  ],
+  "epos2": [
+    {
+      "brand": "エポスカード",
+      "file": "epos2-1.png",
+      "source": "https://www.eposcard.co.jp/common-files/img/com_head_logo01.png",
+      "page": "https://www.eposcard.co.jp/company/",
+      "license_note": "公式サイトのロゴ画像（商標）",
+      "width": 228,
+      "height": 70
+    },
+    {
+      "brand": "エポスカード",
+      "file": "epos2-2.png",
+      "source": "https://www.eposcard.co.jp/common-files/img/sp_com_epotoku_logo02.gif",
+      "page": "https://www.eposcard.co.jp/company/",
+      "license_note": "公式サイトのロゴ画像（商標）",
+      "width": 130,
+      "height": 80
+    },
+    {
+      "brand": "エポスカード",
+      "file": "epos2-3.png",
+      "source": "https://www.eposcard.co.jp/common-files/img/sp_com_tamaru_logo02.gif",
+      "page": "https://www.eposcard.co.jp/company/",
+      "license_note": "公式サイトのロゴ画像（商標）",
+      "width": 130,
+      "height": 80
+    },
+    {
+      "brand": "エポスカード",
+      "file": "epos2-4.png",
+      "source": "https://www.eposcard.co.jp/ownernet/common-files/img/header_logo01.png",
+      "page": "https://www.eposcard.co.jp/company/",
+      "license_note": "公式サイトのロゴ画像（商標）",
+      "width": 210,
+      "height": 41
+    }
+  ],
+  "paypaycard": [
+    {
+      "brand": "PayPayカード",
+      "file": "paypaycard-1.svg",
+      "source": "https://www.paypay-card.co.jp/company/images/logo.svg?20240628",
+      "page": "https://www.paypay-card.co.jp/company/",
+      "license_note": "公式サイトのロゴ画像（商標）",
+      "format": "svg"
+    },
+    {
+      "brand": "PayPayカード",
+      "file": "paypaycard-2.svg",
+      "source": "https://www.paypay-card.co.jp/company/images/logo-sp.svg?20240628",
+      "page": "https://www.paypay-card.co.jp/company/",
+      "license_note": "公式サイトのロゴ画像（商標）",
+      "format": "svg"
+    },
+    {
+      "brand": "PayPayカード",
+      "file": "paypaycard-3.svg",
+      "source": "https://www.paypay-card.co.jp/company/images/logo-white.svg",
+      "page": "https://www.paypay-card.co.jp/company/",
+      "license_note": "公式サイトのロゴ画像（商標）",
+      "format": "svg"
+    }
+  ]
+}
