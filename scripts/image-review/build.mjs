@@ -38,9 +38,30 @@ for (const [slug, files] of Object.entries(FILES)) {
   }
 }
 
+// 投稿文。**X の重みをここで数えて、280 を超えていたら止める**
+// （超えると投稿ボタンが有効にならず、エラーらしいエラーも出ずに落ちる）
+const posts = JSON.parse(fs.readFileSync(path.join(HERE, "posts.json"), "utf8"));
+const weight = (s) => {
+  let n = 0;
+  // **URL は t.co で常に 23。** 生の長さで数えると外す
+  for (const c of s.replace(/https?:\/\/\S+/g, "#".repeat(23))) n += c.codePointAt(0) < 0x80 ? 1 : 2;
+  return n;
+};
+for (const [k, list] of Object.entries(posts)) {
+  list.forEach((t, i) => {
+    const w = weight(t);
+    console.log(`  ${k} [${i + 1}/${list.length}]  重み ${w} / 280（余裕 ${280 - w}）`);
+    if (w > 275) throw new Error(`${k} [${i + 1}] が重み ${w}。280 以内・余裕 5 以上にする`);
+  });
+}
+
 const src = fs.readFileSync(TEMPLATE, "utf8");
-if (!src.includes("/*__IMAGES__*/{}")) throw new Error("page.html に差し込み口が無い");
-const out = src.replace("/*__IMAGES__*/{}", JSON.stringify(map));
+for (const slot of ["/*__IMAGES__*/{}", "/*__POSTS__*/{}"]) {
+  if (!src.includes(slot)) throw new Error("page.html に差し込み口が無い: " + slot);
+}
+const out = src
+  .replace("/*__IMAGES__*/{}", JSON.stringify(map))
+  .replace("/*__POSTS__*/{}", JSON.stringify(posts));
 fs.writeFileSync(OUT, out);
 
 // **対象 N / 埋めた M を必ず両方 出す。** 合わなければここで気づける（最上位ルール 14）
