@@ -53,5 +53,32 @@
     "file": "donki.png",
     "width": 145,
     "height": 137
+  },
+  "gyomu": {
+    "brand": "業務スーパー",
+    "file": "gyomu.png",
+    "source": null,
+    "page": null,
+    "source_type": "利用者の指定（Google Play のアイコン）",
+    "width": 512,
+    "height": 512
+  },
+  "trial": {
+    "brand": "トライアル",
+    "file": "trial.png",
+    "source": "https://storage.googleapis.com/p_62df6d7ecf43187b7e0b68b2/4a41ecbf-f5d1-4f8d-82e7-1e72f3c44a16/%E3%83%88%E3%83%A9%E3%82%A4%E3%82%A2%E3%83%AB%E3%82%AB%E3%83%B3%E3%83%8F%E3%82%9A%E3%83%8B%E3%83%BC_%E3%83%AD%E3%82%B3%E3%82%99.zip!âgâëâCâAâïâJâôâpâjü[_âìâS.png",
+    "page": "https://trial-holdings.inc/news/media/",
+    "source_type": "公式メディアキットの配布物（商標）",
+    "width": 600,
+    "height": 93
+  },
+  "trialseiyu": {
+    "brand": "トライアル西友",
+    "file": "trialseiyu.png",
+    "source": "https://storage.googleapis.com/p_62df6d7ecf43187b7e0b68b2/3f95e756-e747-4a32-ab18-7b38694fde78/%E3%83%88%E3%83%A9%E3%82%A4%E3%82%A2%E3%83%AB%E8%A5%BF%E5%8F%8B%E3%83%AD%E3%82%B3%E3%82%99.zip!πâêπâ⌐πéñπéóπâ½ΦÑ┐σÅïπâ¡πé│πéÖ.jpg",
+    "page": "https://trial-holdings.inc/news/media/",
+    "source_type": "公式メディアキットの配布物（商標）",
+    "width": 337,
+    "height": 320
   }
 }
