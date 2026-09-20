@@ -22,7 +22,7 @@
         "meta": "航空マイル／共通ポイント／現物交換／Web3／保険・自治体"
       },
       {
-        "img": "photos/shoes.jpg",
+        "img": "waon-card.jpg",
         "badge": "最高額",
         "title": "年365円",
         "meta": "8,000歩で1 WAON POINT × 365日。派手さはゼロ"
@@ -34,22 +34,22 @@
         "meta": "CMの「10万円」に対して、使った人が試算した"
       },
       {
-        "img": "photos/park.jpg",
-        "badge": "消えた",
-        "title": "Miles 2025/5/14",
-        "meta": "当日になって告知。猶予も無く公式サイトごと閉鎖"
+        "img": "photos/airplane.jpg",
+        "badge": "ここだけ有料",
+        "title": "JALは月550円",
+        "meta": "歩くのにお金を払う型。元が取れるかで選ぶ"
       }
     ],
     "note": "1日1万歩を1年 続けても、<b>どれも年3桁円。</b>同じものさしで20個 並べた。",
-    "source": "画像: Wikimedia Commons（Grueslayer・chensiyuan・Philippe Alès CC BY-SA 4.0／Gage Skidmore CC BY-SA 3.0／Jamie Taylor CC0）"
+    "source": "画像: Wikimedia Commons（chensiyuan CC BY-SA 4.0／Gage Skidmore CC BY-SA 3.0／Daniel Case CC BY-SA 4.0）／WAON POINT はイオン株式会社の登録商標／アプリ画面は各サービス"
   },
   "photos": [
     {
       "file": "2-waon.jpg",
       "img": "waon-card.jpg",
       "badge": "確実に入る最高額",
-      "name": "年365円、ただのWAONポイント",
-      "lead": "8,000歩で1 WAON POINT × 365日。<b>暗号資産でもマイルでもなかった</b>",
+      "name": "毎日8,000歩で、年365円",
+      "lead": "<b>これが確実にもらえる最高額。</b>暗号資産でもマイルでもなく、WAON POINT だった",
       "specs": [
         "RenoBody",
         "無料",
@@ -70,14 +70,14 @@
       "credit": "画像: Gage Skidmore / CC BY-SA 3.0（Wikimedia Commons）"
     },
     {
-      "file": "4-miles.jpg",
+      "file": "4-jal.jpg",
       "img": "photos/airplane.jpg",
-      "badge": "消えたアプリ",
-      "name": "Milesは予告なく終わった",
-      "lead": "2025年5月14日、<b>当日になって告知。</b>猶予期間も無く、公式サイトごと閉鎖された",
+      "badge": "ここだけ有料",
+      "name": "歩くのに、月550円",
+      "lead": "JAL Wellness &amp; Travel は<b>月額550円（初月無料）。</b>ANAは無料版から使える",
       "specs": [
-        "2021年10月 開始",
-        "すべての交通手段でマイル"
+        "航空マイル型",
+        "元が取れるかで選ぶ"
       ],
       "credit": "画像: Daniel Case / CC BY-SA 4.0（Wikimedia Commons）"
     }
