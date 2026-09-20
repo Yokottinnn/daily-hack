@@ -62,7 +62,10 @@ git fetch origin main --quiet || { echo "fetch 失敗"; exit 1; }
 # **作業ツリーが汚れていたら、何もせずに終わる。**
 # この先の `reset --hard` は、人が手元で書きかけているものを黙って消す。
 # `ops-run-tasks.sh` が「作業ツリーには触らない」と決めているのと同じ理由。
-DIRTY="$(git status --porcelain | head -20)"
+# **追跡されていないファイルは数えない。** `reset --hard` はそれらを消さないので、
+# 止める理由にならない。2026-09-20、Mac に `drafts/` と作りかけのタスクが
+# 置かれていて、**それだけでジョブが毎日 何もせずに終わる**ところだった。
+DIRTY="$(git status --porcelain --untracked-files=no | head -20)"
 if [ -n "$DIRTY" ]; then
   echo "作業ツリーが汚れている。触らずに終わる:"
   echo "$DIRTY"
