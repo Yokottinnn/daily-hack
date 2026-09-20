@@ -1,4 +1,3 @@
 [
-      {"task": "x102-drop-3-seeds.sh", "rc": 0, "out": "悪い 3 種 を外す / drop-3-seeds.md 93 行"},
-      {"task": "x103-trial-check-follower.sh", "rc": 0, "out": "check-follower の呼び方 / trial-check-follower.md 77 行"}
+      {"task": "x104-measure-seed-candidates.sh", "rc": 0, "out": "候補 14 件 の実数 / seed-candidate-stats.md 115 行"}
   ]
