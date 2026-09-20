@@ -190,21 +190,29 @@ references:
 
 <div class="cmp-table-wrap">
 <table class="cmp-table">
-<thead><tr><th>サービス</th><th>通常</th><th>学生だと</th><th>何がうれしいか</th></tr></thead>
+<thead><tr><th>サービス</th><th>通常いくらか</th><th>学生だと</th><th>1年で浮く額</th><th>何がうれしいか</th></tr></thead>
 <tbody>
-<tr class="recommended"><td><a href="https://www.figma.com/education/" target="_blank" rel="noopener">Figma</a></td><td>有料プラン</td><td><strong>無料</strong></td><td>プロ相当の機能が在学中ずっと</td></tr>
-<tr><td><a href="https://www.notion.com/product/notion-for-education" target="_blank" rel="noopener">Notion</a></td><td>Plusプラン</td><td><strong>無料</strong></td><td>アップロード無制限・履歴延長</td></tr>
-<tr><td><a href="https://www.jetbrains.com/ja-jp/community/education/" target="_blank" rel="noopener">JetBrains</a></td><td>年3万円前後</td><td><strong>無料</strong></td><td>IDE全部入りのライセンス</td></tr>
-<tr><td><a href="https://education.github.com/pack" target="_blank" rel="noopener">GitHub Student Pack</a></td><td>各社の有料枠</td><td><strong>無料</strong></td><td>Copilotほか開発ツールの束</td></tr>
-<tr><td><a href="https://www.microsoft.com/ja-JP/education/products/office" target="_blank" rel="noopener">Microsoft 365</a></td><td>年14,900円前後</td><td><strong>無料</strong></td><td>Word・Excel・PowerPoint。買い切り版がほしいなら<a href="https://www.ouj.ac.jp/about/office-gakuwari/" target="_blank" rel="noopener">ウチダのOffice学割</a>も使える</td></tr>
-<tr><td><a href="https://www.autodesk.com/jp/education/home" target="_blank" rel="noopener">Autodesk</a></td><td>年数十万円</td><td><strong>無料</strong></td><td>AutoCAD・Fusion など</td></tr>
+<tr class="recommended"><td><a href="https://www.figma.com/education/" target="_blank" rel="noopener">Figma</a></td><td>プロフェッショナル<strong>1席 月16ドル</strong>（年払い）</td><td><strong>無料</strong></td><td><strong>約28,000円</strong></td><td>プロ相当の機能が在学中ずっと。FigJamも付く</td></tr>
+<tr><td><a href="https://www.notion.com/product/notion-for-education" target="_blank" rel="noopener">Notion</a></td><td>プラス（有料プラン）</td><td><strong>無料</strong></td><td>プラン1本ぶん</td><td>アップロード無制限・履歴30日・ゲスト100人</td></tr>
+<tr><td><a href="https://www.jetbrains.com/ja-jp/community/education/" target="_blank" rel="noopener">JetBrains</a></td><td>All Products Pack（年払いの有料ライセンス）</td><td><strong>無料</strong></td><td>ライセンス1本ぶん</td><td>IntelliJ・PyCharm・WebStormなどIDE全部入り</td></tr>
+<tr><td><a href="https://education.github.com/pack" target="_blank" rel="noopener">GitHub Student Pack</a></td><td>Copilot Pro <strong>月10ドル</strong>ほか各社の有料枠</td><td><strong>無料</strong></td><td><strong>Copilotだけで年120ドル</strong></td><td>Copilot Proに加えて、DigitalOcean・Namecheapなど数十社の無料枠</td></tr>
+<tr><td><a href="https://www.microsoft.com/ja-JP/education/products/office" target="_blank" rel="noopener">Microsoft 365</a></td><td>個人向けは年1万円台〜</td><td><strong>無料</strong>（教育機関向けA1）</td><td>サブスク1本ぶん</td><td>Web版Office＋1TBのOneDrive。買い切り版がほしいなら<a href="https://www.ouj.ac.jp/about/office-gakuwari/" target="_blank" rel="noopener">ウチダのOffice学割</a>も使える</td></tr>
+<tr><td><a href="https://www.autodesk.com/jp/education/home" target="_blank" rel="noopener">Autodesk</a></td><td>AutoCADは年10万円台</td><td><strong>無料</strong>（教育用ライセンス）</td><td><strong>ここが一番 大きい</strong></td><td>AutoCAD・Fusion・Revit・Mayaなど。1年ごとに更新</td></tr>
+<tr><td><a href="https://www.wolframalpha.com/pro-for-students" target="_blank" rel="noopener">Wolfram|Alpha Pro</a></td><td>Proの月額</td><td><strong>学生向けの割引価格</strong></td><td>月あたり数百円</td><td>途中式の表示・計算時間の上限解除</td></tr>
+<tr><td><a href="https://www.overleaf.com/edu" target="_blank" rel="noopener">Overleaf</a></td><td>有料プランの月額</td><td><strong>Studentプラン</strong></td><td>プラン差ぶん</td><td>LaTeXの共同編集・履歴無制限。卒論を書くなら</td></tr>
+<tr><td><a href="https://www.lucidchart.com/pages/ja/education" target="_blank" rel="noopener">Lucidchart</a></td><td>個人向け有料プラン</td><td><strong>無料</strong>（教育機関プラン）</td><td>プラン1本ぶん</td><td>作図の無制限化。ac.jpアドレスで申請する</td></tr>
+<tr><td><a href="https://www.unrealengine.com/" target="_blank" rel="noopener">Unreal Engine</a></td><td>商用は売上に応じたロイヤリティ</td><td><strong>学習用途は無料</strong></td><td>—</td><td>教育機関向けにフル機能。Quixel素材も使える</td></tr>
+<tr><td><a href="https://azure.microsoft.com/ja-jp/free/students/" target="_blank" rel="noopener">Azure for Students</a></td><td>従量課金</td><td><strong>100ドルぶんのクレジット</strong></td><td><strong>100ドル</strong></td><td>クレジットカード不要。25以上のサービスが無料枠つき</td></tr>
+<tr><td><a href="https://www.tableau.com/ja-jp/academic/students" target="_blank" rel="noopener">Tableau</a></td><td>Creatorの有料ライセンス</td><td><strong>無料</strong>（1年ごとに更新）</td><td>ライセンス1本ぶん</td><td>Desktop＋Prep Builder。BIを触っておきたい人に</td></tr>
 </tbody>
 </table>
 </div>
 
-<p class="source-note">各社の教育プランの条件（2026年9月時点）。<strong>在学確認は原則 毎年</strong>あり、在籍が切れると次の更新で弾かれる</p>
+<p class="source-note"><strong>太字の金額は公式の料金ページで実物を確認したもの</strong>（<a href="https://www.figma.com/ja-jp/pricing/" target="_blank" rel="noopener">Figma</a>のプロフェッショナル16ドル／<a href="https://github.com/features/copilot/plans" target="_blank" rel="noopener">GitHub</a>のCopilot Pro 10ドル、いずれも2026年9月時点）。<strong>それ以外は「有料プランが無料になる」という事実だけを書いている</strong>ので、実額は各公式で見ること。料金は改定されるし、ドル建ては為替でも動く。<strong>在学確認は原則 毎年</strong>あり、在籍が切れると次の更新で弾かれる</p>
 
-**ここが「けっこうおいしい」ところ。** Microsoft 365とJetBrainsとFigmaを足すだけで、**年5万円ぶんくらいが0円**になる。学生証の元手が10年で54,000円なのだから、**1年ぶんで回収が終わる**計算になる。
+**ここが「けっこうおいしい」ところ。** Figmaのプロフェッショナルは**1席 月16ドル**なので、これ1つで**年192ドル**。GitHub Copilot Proの**月10ドル**を足せば**年312ドル**で、学生証の元手（10年で54,000円）を**最初の1年で超える。**
+
+**AutodeskとTableauを使う職種なら、桁が変わる。** どちらも通常は年10万円 前後のライセンスで、学生は無料。建築・製造・データ分析の仕事をしている人が「業務では会社のライセンス、自習は自分の学生ライセンス」と分けるのは、実際によくある使い方になっている。**この2つが要る人にとっては、ここだけで入学の理由になる。**
 
 <aside class="related-block">
   <div class="related-block-head">
@@ -254,11 +262,12 @@ references:
 <tbody>
 <tr class="recommended"><td><a href="https://www.tokyodisneyresort.jp/dream/event/college2026.html" target="_blank" rel="noopener">TDR カレッジパスポート</a></td><td><strong>7,000〜9,000円</strong></td><td>大学・大学院・短大・専門・予備校生。<strong>年齢を問わず、通信制も対象</strong></td><td>期間限定（春・秋）</td></tr>
 <tr><td><a href="https://www.usj.co.jp/web/ja/jp" target="_blank" rel="noopener">USJ 1デイ学割パス</a></td><td>7,900〜10,900円</td><td>中学生以上の学生。<strong>購入時に学生証をアップロード</strong></td><td>期間限定（ユニ春）</td></tr>
+<tr><td><a href="https://www.fujiq.jp/special/gakuwari2026_2/index.html" target="_blank" rel="noopener">富士急ハイランド 学割ワンデイパス</a></td><td><strong>通常より最大2,100円 安い</strong></td><td>学生限定。<strong>オンライン販売のみ</strong>で、窓口では買えない</td><td>期間限定（秋の絶叫学割）</td></tr>
 </tbody>
 </table>
 </div>
 
-<p class="source-note">出典：<a href="https://faq.tokyodisneyresort.jp/tdr/faq_detail.html?id=25436" target="_blank" rel="noopener">東京ディズニーリゾート よくあるご質問／カレッジパスポートの対象</a>／<a href="https://www.usj.co.jp/company/news/2025/1120/" target="_blank" rel="noopener">USJ「ユニ春 2026」</a>。<strong>どちらも通年ではなく期間限定</strong>で、価格は入園日によって変わる</p>
+<p class="source-note">出典：<a href="https://faq.tokyodisneyresort.jp/tdr/faq_detail.html?id=25436" target="_blank" rel="noopener">東京ディズニーリゾート よくあるご質問／カレッジパスポートの対象</a>／<a href="https://www.usj.co.jp/company/news/2025/1120/" target="_blank" rel="noopener">USJ「ユニ春 2026」</a>／<a href="https://www.fujiq.jp/special/gakuwari2026_2/index.html" target="_blank" rel="noopener">富士急ハイランド「秋の絶叫学割キャンペーン」</a>。<strong>3つとも通年ではなく期間限定</strong>で、価格は入園日によって変わる</p>
 
 ### 本・カラオケ・引越し・託児｜生活の側で効くもの
 
@@ -268,6 +277,7 @@ references:
 <tbody>
 <tr class="recommended"><td><a href="https://tic-coop.com/coop/" target="_blank" rel="noopener">東京インターカレッジコープ</a>（大学生協）</td><td>書籍・DVDが<strong>10%引き</strong></td><td>都内で生協の無い学校の学生・院生・教職員が対象。<strong>出資金は一口5,000円で、卒業時に返還</strong></td></tr>
 <tr><td><a href="https://big-echo.jp/" target="_blank" rel="noopener">ビッグエコー</a></td><td>学生料金</td><td>在学が証明できれば<strong>通信制も対象</strong>、年齢の上限は置いていない</td></tr>
+<tr class="recommended"><td><a href="https://www.round1.co.jp/campaign/specialprice.html" target="_blank" rel="noopener">ラウンドワン</a>（カラオケ）</td><td>ドリンクバー付フリータイムが<strong>490円</strong></td><td>平日18時までの入室。<strong>別途1オーダー制</strong>。ボウリング・スポッチャにも学生料金がある</td></tr>
 <tr><td><a href="https://www.karaokemanekineko.jp/" target="_blank" rel="noopener">カラオケまねきねこ</a></td><td>学生フリータイム</td><td><strong>店舗ごとに条件が違う</strong>。全員の学生証提示が要る</td></tr>
 <tr><td><a href="https://www.the0123.com/" target="_blank" rel="noopener">アート引越センター</a></td><td>学割パック</td><td>引っ越すときだけ。単身向けの定額パック</td></tr>
 <tr><td><a href="https://www.ouj.ac.jp/about/nursery/" target="_blank" rel="noopener">キッズスクウェアの一時預かり</a></td><td>放送大学向けの割引料金</td><td>放送大学が提携している。<strong>全科・選科・科目のどれでも対象</strong>で、予約時に申し出て当日 学生証を出す</td></tr>
@@ -275,24 +285,92 @@ references:
 </table>
 </div>
 
+<div class="real-photos cols-2">
+<figure class="real-photo">
+<img src="/images/hoso-daigaku-gakuwari-2026/photos/karaoke-1.jpg" alt="カラオケルームの室内" loading="lazy" />
+<figcaption>ラウンドワンの学生料金は、ドリンクバー付フリータイムが490円（平日18時までの入室・別途1オーダー制）。年齢の上限は置かれていない。<cite>画像: ウィキメディア・コモンズ / 松岡明芳 / CC BY-SA 3.0</cite></figcaption>
+</figure>
+<figure class="real-photo">
+<img src="/images/hoso-daigaku-gakuwari-2026/photos/gym-2.jpg" alt="フィットネスジムの内部" loading="lazy" />
+<figcaption>スポーツクラブの学生料金は、公式サイトが会員ページの奥にあることが多く、店舗ごとに設定も違う。入会前に店舗へ直接 確認するのが早い。<cite>画像: ウィキメディア・コモンズ / Todtanis / CC BY-SA 3.0</cite></figcaption>
+</figure>
+</div>
+
 <p class="source-note">出典：<a href="https://tic-coop.com/coop/join.php" target="_blank" rel="noopener">東京インターカレッジコープ 加入案内</a>（出資金は一口5,000円・卒業時に返還）。<strong>大学生協は地域と加入資格が決まっている</strong>ので、<a href="https://tic-coop.com/school/" target="_blank" rel="noopener">加入対象校一覧</a>を先に見ること</p>
 
-### 買い物｜Apple の教育ストアは「卒業をめざす学生」向け
+### 買い物｜Apple の教育ストアで、何がいくらで買えるのか
 
 **1回で効く額がいちばん大きいのがここ。** MacやiPadを買うときだけの話だが、**数千円から1万円台**が本体価格から引かれる。新学期キャンペーンの時期はギフトカードの還元が上乗せされる。
+
+<div class="real-photos cols-2">
+<figure class="real-photo">
+<img src="/images/hoso-daigaku-gakuwari-2026/photos/macbook-1.jpg" alt="MacBook Air のキーボード" loading="lazy" />
+<figcaption>Macは教育ストアの割引がいちばん大きい製品。学生・教職員向けストアは通常のストアと入口そのものが別になっている。<cite>画像: ウィキメディア・コモンズ / Tokfo / CC0</cite></figcaption>
+</figure>
+<figure class="real-photo">
+<img src="/images/hoso-daigaku-gakuwari-2026/photos/ipad-1.jpg" alt="iPad 本体" loading="lazy" />
+<figcaption>iPadも教育ストアの対象。教育ストアの表示価格は無印iPadが70,800円から、iPad Airが120,800円から。<cite>画像: ウィキメディア・コモンズ / 彭家杰 / CC BY-SA 4.0</cite></figcaption>
+</figure>
+</div>
+
+**何が買えるのか、教育ストアの表示価格で並べる。** 下は<a href="https://www.apple.com/jp-edu/store" target="_blank" rel="noopener">Apple 学生・教職員向けストア</a>の製品ページに出ている金額をそのまま拾ったもの。
+
+<div class="cmp-table-wrap">
+<table class="cmp-table">
+<thead><tr><th>製品</th><th>教育ストアの表示価格</th><th>構成の目安</th></tr></thead>
+<tbody>
+<tr class="recommended"><td><a href="https://www.apple.com/jp-edu/shop/buy-ipad/ipad" target="_blank" rel="noopener">iPad</a></td><td><strong>70,800円</strong>から</td><td>Wi-Fi版で70,800／87,800／122,800円。Cellular版は95,800／112,800／147,800円</td></tr>
+<tr><td><a href="https://www.apple.com/jp-edu/shop/buy-ipad/ipad-air" target="_blank" rel="noopener">iPad Air</a></td><td><strong>120,800円</strong>から</td><td>11インチが120,800〜222,800円、13インチが160,800〜262,800円。Cellularは各＋25,000円前後</td></tr>
+<tr><td><a href="https://www.apple.com/jp-edu/shop/buy-ipad" target="_blank" rel="noopener">iPad Pro</a></td><td><strong>191,800円</strong>から</td><td>最上位。Apple Pencil ProとMagic Keyboardに対応</td></tr>
+<tr><td><a href="https://www.apple.com/jp-edu/shop/buy-mac" target="_blank" rel="noopener">Mac（MacBook Air／Pro・iMac・Mac mini・Mac Studio）</a></td><td>製品ごと</td><td>教育ストアは全ラインが対象。<strong>分割は最大24回まで金利0%</strong></td></tr>
+<tr><td><a href="https://www.apple.com/jp-edu/shop/accessories/all/education-savings" target="_blank" rel="noopener">アクセサリ</a></td><td>学生・教職員価格</td><td>Apple Pencil・Magic Keyboardなども専用ページがある</td></tr>
+<tr><td><a href="https://www.apple.com/jp-edu/shop/browse/overlay/store/edu_pricing" target="_blank" rel="noopener">AppleCare+</a></td><td><strong>最大10%オフ</strong></td><td>AppleCare+ for MacとAppleCare+ 盗難・紛失プラン for iPadが対象</td></tr>
+<tr><td><a href="https://www.apple.com/jp/apple-music/" target="_blank" rel="noopener">Apple Music 学生プラン</a></td><td><strong>月480円／年4,800円</strong></td><td>教育ストアの脚注に明記。新規登録者が対象で、在学確認が要る</td></tr>
+</tbody>
+</table>
+</div>
+
+<p class="source-note">出典：<a href="https://www.apple.com/jp-edu/store" target="_blank" rel="noopener">Apple 学生・教職員向けストア</a>の各製品ページ（2026年9月時点の表示価格）。<strong>還元額と対象製品は毎年 変わる</strong>ので、買う前に必ず公式で確認すること</p>
 
 <div class="cmp-table-wrap">
 <table class="cmp-table spec-table">
 <tbody>
 <tr><th>どこで買うか</th><td><a href="https://www.apple.com/jp-edu/store" target="_blank" rel="noopener">Apple 学生・教職員向けストア</a>。通常のストアとは別の入口</td></tr>
-<tr><th>いくら安いか</th><td>製品によるが<strong>本体価格から数千円〜1万円台</strong>。新学期キャンペーン中は<strong>ギフトカードの還元が別に付く</strong></td></tr>
-<tr><th>誰が対象か</th><td><strong>全科履修生。</strong>「卒業をめざす学生」を想定した制度なので、選科・科目履修生は通らないと考えておく</td></tr>
-<tr><th>いつ買うか</th><td>新学期キャンペーンは<strong>例年 年明けから春にかけて</strong>。急がないなら、その時期まで待つと還元が乗る</td></tr>
+<tr><th>誰が対象か</th><td>公式の記載は「<strong>大学生、高等専門学校および専門学校生、これらの学校に進学が決まった生徒</strong>、大学受験予備校生、その保護者の方の代理購入に加えて、教育機関の教職員」。<strong>卒業をめざす課程が前提</strong>なので、選科・科目履修生は通らないと考えておく</td></tr>
+<tr><th>どう認証するか</th><td>UNiDAYS。<strong>放送大学でも通ったという報告がある</strong>（下の投稿）。合格通知書で通した例もある</td></tr>
+<tr><th>支払い</th><td>30,000円以上の購入で<strong>2回から最大24回まで金利0%の分割</strong>（オリコ・JCB・三井住友・楽天カード）。ペイディあと払いプランApple専用も使える</td></tr>
+<tr><th>いつ買うか</th><td>新学期キャンペーンは<strong>例年 年明けから春にかけて</strong>。急がないなら、その時期まで待つと<strong>ギフトカードの還元が別に乗る</strong></td></tr>
 </tbody>
 </table>
 </div>
 
-<p class="source-note">還元額と対象製品は毎年 変わる。買う前に<a href="https://www.apple.com/jp-edu/store" target="_blank" rel="noopener">Apple の教育ストア</a>で確認すること</p>
+#### 実際に学割で買った人の投稿
+
+**ここは体験談が多い。** 金額の実物を出している投稿と、放送大学で認証が通ったという投稿を並べる。
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">学生の人は、Apple製品買う時にApple学割使った方がマジで良いです<br><br>M2搭載 Mac Miniは<br>84,800円→70,800円<br><br>M2 Pro搭載 14インチ MacBook Proは<br>288,800円→266,800円<br><br>15,000円弱値引きされるのは強すぎるわ…🫶</p>&mdash; みちログ (@GadgetMitchy) <a href="https://twitter.com/GadgetMitchy/status/1615539908353089537">January 18, 2023</a></blockquote>
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">Appleの学生教職員向けページでUNiDAYSの認証しました。放送大学でもOK。<br><br>特にMacを買う予定はなくて、学割後の値段を見てみたかっただけですが…まだM2 Proのがメインで充分です</p>&mdash; 桜野らむね (@ramunesakurano) <a href="https://twitter.com/ramunesakurano/status/1769641957108924456">March 18, 2024</a></blockquote>
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">合格通知書でいけましたね<br>入学前のApple学割の申請のしかた後でブログに載せとくわ〜</p>&mdash; Laddge (@laddge_) <a href="https://twitter.com/laddge_/status/1766036135741120542">March 8, 2024</a></blockquote>
+
+<p class="source-note">引用はいずれも投稿者本人のポスト。<strong>Mac miniの14,000円引き・MacBook Proの22,000円引きは2023年時点の価格</strong>なので、いまの割引額とは違う。「どのくらい引かれるものなのか」の目安として読んでほしい</p>
+
+**放送大学で認証が通るかは、ここがいちばん聞かれる。** 上の2つ目の投稿が「放送大学でもOK」と実際に通した報告で、3つ目は入学前の合格通知書で申請できたという話。<strong>ただしどちらも個人の報告であって、Apple が放送大学を名指しで対象と書いているわけではない</strong>。認証は UNiDAYS 側の判定なので、**買う前に認証だけ先に通しておく**のが安全になる。
+
+#### 「なんで放送大学に入らないの」と言われる理由
+
+**Apple だけの話ではない、という投稿もよく伸びている。** 2万3千いいねが付いた投稿がこれ。
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">クリエイティブに興味のある大人は、みんな放送大学に入ったほうがいい。受講科目以外の放送授業も視聴し放題なうえに、Adobeも学割で使えるし、Apple製品も学割で買えるし、美術館や映画館も学割で入れる。初年度の入学金を払ってしまえば、あとは年最低24,000円で学生になれる。</p>&mdash; 𝓜𝓲𝔂𝓾 (@miyukii_tw) <a href="https://twitter.com/miyukii_tw/status/1853745685616857096">November 5, 2024</a></blockquote>
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">お前らなんで放送大学入らんの？快活クラブ、Apple製品、Amazonプライム、Office、公共交通機関、Adobe　全部学割なるで</p>&mdash; 哲学ニュースnwk (@nwknews) <a href="https://twitter.com/nwknews/status/2023984237192351843">February 18, 2026</a></blockquote>
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">脱毛するのに学割を使うべく、放送大学入った友達面白すぎるな<br>あとはAmazon primeとApple製品か</p>&mdash; 재성 (@quantamvivid) <a href="https://twitter.com/quantamvivid/status/1870431902152495496">December 21, 2024</a></blockquote>
+
+<p class="source-note">引用はいずれも投稿者本人のポスト。1つ目の「年最低24,000円」は<strong>選科履修生を毎年 出し直す場合の額</strong>で、この記事が出している月450円は<strong>全科履修生で10年 在籍を続けた場合</strong>の割り算。前提が違うだけで、どちらも正しい</p>
+
+**言われていることは、だいたいこの記事の一覧と重なる。** 違うのは金額の出し方で、「年24,000円」は毎年 入り直す前提、この記事の「月450円」は10年 持たせる前提になっている。**10年の在学年限を使い切るほうが、1年あたりは4分の1で済む。**
 
 **都度のほうは「回数を掛けて初めて効く」。** 映画を年1本しか見ない人にとっては500円の話でしかないが、**月1本 見る人には年6,000円**。ディズニーを年1回 行くだけでも**3,000円前後**が浮く。ここは自分の生活に掛け算してほしい。
 
@@ -316,6 +394,34 @@ references:
 </div>
 
 <p class="source-note">出典：<a href="https://www.ouj.ac.jp/about/campusmembers/" target="_blank" rel="noopener">放送大学 国立美術館キャンパスメンバーズ制度について</a>／<a href="https://www.campusmembers.jp/" target="_blank" rel="noopener">独立行政法人国立美術館 キャンパスメンバーズ</a></p>
+
+### いくらがいくらになるのか｜2026年10月から所蔵作品展は一律1,000円になる
+
+**ここは今年、金額そのものが動く。** 国立美術館は2026年9月18日に観覧料の改定を発表していて、**所蔵作品展の一般料金が6館とも1,000円に揃う。** つまり**学生証で浮く額が、来月から増える。**
+
+<div class="cmp-table-wrap">
+<table class="cmp-table">
+<thead><tr><th>館</th><th>一般（現行→新）</th><th>大学生（現行→新）</th><th>学生証を出すと</th><th>改定後に1回 浮く額</th></tr></thead>
+<tbody>
+<tr class="recommended"><td><a href="https://www.momat.go.jp/" target="_blank" rel="noopener">東京国立近代美術館</a></td><td>500円 → <strong>1,000円</strong></td><td>250円 → 500円</td><td><strong>0円</strong></td><td><strong>1,000円</strong></td></tr>
+<tr><td><a href="https://www.momat.go.jp/craft-museum" target="_blank" rel="noopener">国立工芸館</a></td><td>300円 → <strong>1,000円</strong></td><td>150円 → 500円</td><td><strong>0円</strong></td><td><strong>1,000円</strong></td></tr>
+<tr><td><a href="https://www.nmwa.go.jp/" target="_blank" rel="noopener">国立西洋美術館</a></td><td>500円 → <strong>1,000円</strong></td><td>250円 → 500円</td><td><strong>0円</strong></td><td><strong>1,000円</strong></td></tr>
+<tr><td><a href="https://www.momak.go.jp/" target="_blank" rel="noopener">京都国立近代美術館</a></td><td>430円 → <strong>1,000円</strong></td><td>130円 → 500円</td><td><strong>0円</strong></td><td><strong>1,000円</strong></td></tr>
+<tr><td><a href="https://www.nmao.go.jp/" target="_blank" rel="noopener">国立国際美術館</a></td><td>430円 → <strong>1,000円</strong></td><td>130円 → 500円</td><td><strong>0円</strong></td><td><strong>1,000円</strong></td></tr>
+<tr><td><a href="https://www.nfaj.go.jp/" target="_blank" rel="noopener">国立映画アーカイブ</a>（所蔵作品上映）</td><td>250円 → <strong>500円</strong></td><td>130円 → 250円</td><td><strong>0円</strong></td><td><strong>500円</strong></td></tr>
+</tbody>
+</table>
+</div>
+
+<p class="source-note">出典：<a href="https://www.artmuseums.go.jp/2026/09/13310.html" target="_blank" rel="noopener">独立行政法人国立美術館「所蔵作品展における観覧料金の改定について」（2026年9月18日）</a>。<strong>改定は2026年10月以降の会期から順次</strong>で、館ごとに実施日がずれる（<a href="https://www.nfaj.go.jp/topics/20260919/" target="_blank" rel="noopener">国立映画アーカイブは2027年1月5日から</a>）。高校生以下・18歳未満・65歳以上・障がい者手帳をお持ちの方とその付添者1名の無料措置は改定後も継続</p>
+
+**改定前と改定後で、学生証の価値が2倍になる館がある。** 京都国立近代美術館なら、いまは一般430円・大学生130円なので、学生証で浮くのは430円。**改定後は1,000円**になる。
+
+<ul class="checklist">
+  <li><div class="checklist-body"><strong>月2回 通えば、改定後は年24,000円。</strong><p>所蔵作品展を月2回 見る人で、1回1,000円が0円になるなら年24,000円。<strong>10年ぶんの学生証（54,000円）を2年3か月で回収する</strong>計算になる。</p></div></li>
+  <li><div class="checklist-body"><strong>2人で行くなら、倍ではない。</strong><p>キャンパスメンバーズは学生証を持っている本人ぶんだけ。<strong>同伴者は一般料金</strong>で、改定後は1,000円 払うことになる。</p></div></li>
+  <li><div class="checklist-body"><strong>企画展は「無料」ではなく「団体料金」。</strong><p>上の表は所蔵作品展の話。企画展は共催団体との協議で展覧会ごとに決まり、キャンパスメンバーズの特典は団体料金での観覧になる。<a href="https://www.momak.go.jp/Japanese/guide/hoursAdmission.html" target="_blank" rel="noopener">京都国立近代美術館</a>の例だと、企画展は一般2,000円・大学生1,300円、団体・前売は1,700円／1,100円という設定。</p></div></li>
+</ul>
 
 **注目してほしいのは「対象になる学生」の行。** AdobeやAppleは全科履修生でないと通らないことが多いのに、**これは科目履修生でも使える**。つまり**入学料7,000円＋授業料12,000円＝19,000円の半年 在籍**でも、6館の所蔵作品展が無料になる。
 
@@ -371,6 +477,8 @@ references:
 **さらに条件が2つ 付く。** 放送大学の公式はこう書いている。
 
 <blockquote><p>JR、私鉄等、バスへの学割の適用については、全科履修生が学習センター等に通学する場合などに認められます。事前申請による学割証の提示が必要です。</p></blockquote>
+
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <ul class="checklist">
   <li><div class="checklist-body"><strong>対象は全科履修生だけ。</strong><p>選科履修生と科目履修生は学割証そのものが出ない。修士全科生・博士全科生は対象。</p></div></li>
