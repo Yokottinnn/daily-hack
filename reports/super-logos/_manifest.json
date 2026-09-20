@@ -1,0 +1,123 @@
+{
+  "_note": "各チェーンの公式サイトから取得したロゴ。**商標であり自由ライセンスではない。**どのチェーンの節かを示す識別目的で使っている。改変せず、そのまま置くこと。取得日 2026-09-20（ops/tasks/t111-super-logos.sh）。",
+  "ok": [
+    {
+      "brand": "オーケー",
+      "source": "https://ok-corporation.jp/archives/001/201812/5257c7f407fa8e4b43323305df02e89b.jpg",
+      "page": "https://ok-corporation.jp/",
+      "source_type": "公式サイト（商標）",
+      "file": "ok-1.png",
+      "width": 1200,
+      "height": 630
+    },
+    {
+      "brand": "オーケー",
+      "source": "https://ok-corporation.jp/apple-touch-icon-180x180.png",
+      "page": "https://ok-corporation.jp/",
+      "source_type": "公式サイト（商標）",
+      "file": "ok-2.png",
+      "width": 180,
+      "height": 180
+    }
+  ],
+  "lopia": [
+    {
+      "brand": "ロピア",
+      "source": "https://lopia.jp/images/logo_lopia.png",
+      "page": "https://lopia.jp/",
+      "source_type": "公式サイト（商標）",
+      "file": "lopia-1.png",
+      "width": 156,
+      "height": 114
+    },
+    {
+      "brand": "ロピア",
+      "source": "https://lopia.jp/assets/logo_lopia_official-XYBcWBTL.png",
+      "page": "https://lopia.jp/",
+      "source_type": "公式サイト（商標）",
+      "file": "lopia-2.png",
+      "width": 557,
+      "height": 651
+    }
+  ],
+  "seiyu": [
+    {
+      "brand": "西友",
+      "source": "https://www.seiyu.co.jp/wp-content/themes/seiyu-corporate/img/share/img-ogp.jpg",
+      "page": "https://www.seiyu.co.jp/",
+      "source_type": "公式サイト（商標）",
+      "file": "seiyu-1.png",
+      "width": 1200,
+      "height": 630
+    },
+    {
+      "brand": "西友",
+      "source": "https://www.seiyu.co.jp/wp-content/themes/seiyu-corporate/img/share/ico-touch_icon.png",
+      "page": "https://www.seiyu.co.jp/",
+      "source_type": "公式サイト（商標）",
+      "file": "seiyu-2.png",
+      "width": 150,
+      "height": 150
+    }
+  ],
+  "hanamasa": [
+    {
+      "brand": "肉のハナマサ",
+      "source": "https://hanamasa.co.jp/common/images/header_logo.gif",
+      "page": "https://hanamasa.co.jp/",
+      "source_type": "公式サイト（商標）",
+      "file": "hanamasa-1.png",
+      "width": 242,
+      "height": 86
+    }
+  ],
+  "mybasket": [
+    {
+      "brand": "まいばすけっと",
+      "source": "https://www.mybasket.co.jp/apple-touch-icon.png",
+      "page": "https://www.mybasket.co.jp/",
+      "source_type": "公式サイト（商標）",
+      "file": "mybasket-1.png",
+      "width": 180,
+      "height": 180
+    },
+    {
+      "brand": "まいばすけっと",
+      "source": "https://www.mybasket.co.jp/cnt_common/images/logo.png",
+      "page": "https://www.mybasket.co.jp/",
+      "source_type": "公式サイト（商標）",
+      "file": "mybasket-2.png",
+      "width": 600,
+      "height": 104
+    },
+    {
+      "brand": "mybasket",
+      "source": "https://prtimes.jp/data/corp/70747/ogp/tmp-c75504d554772a8fae2d7a11f947531e-81e34b1401b286a22be754e473212f72.jpg",
+      "page": "https://prtimes.jp/main/html/searchrlp/company_id/70747",
+      "source_type": "公式サイト（商標）",
+      "file": "mybasket-1.png",
+      "width": 1200,
+      "height": 630
+    }
+  ],
+  "donki": [
+    {
+      "brand": "ドン・キホーテ",
+      "source": "https://www.donki.com/updata/bnnr/2026090217883164340.jpg",
+      "page": "https://www.donki.com/",
+      "source_type": "公式サイト（商標）",
+      "file": "donki-1.png",
+      "width": 1080,
+      "height": 418
+    },
+    {
+      "brand": "ドン・キホーテ",
+      "source": "https://www.donki.com/apple-touch-icon-precomposed.png",
+      "page": "https://www.donki.com/",
+      "source_type": "公式サイト（商標）",
+      "file": "donki-2.png",
+      "width": 152,
+      "height": 152
+    }
+  ]
+}

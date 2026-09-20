@@ -1,1 +1,4 @@
-[]
+[
+      {"task": "t111-super-logos.sh", "rc": 0, "out": "  - ✅ `lopia-2.png` ← `https://lopia.jp/assets/logo_lopia_official-XYBcWBTL.png` / 557x651 / RGBA  ## トライアル  起点 `https://www.trial-net.co.jp/`"},
+      {"task": "t112-super-timesale.sh", "rc": 0, "out": "2026年8月25日 ／ オーケー 春日部店 8月25日オープン オーケー 春日部店 8月25日オープン ／ 2026年5月26日 2026年5月26日 ／ オーケー 豊中穂積店 5月26日オープン オーケー 豊中穂積店 5月26日オープン ／ 2026年5月13日 2026年5月13日 �"}
+  ]
