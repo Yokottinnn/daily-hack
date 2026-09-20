@@ -86,5 +86,85 @@
     "fetched": "2026-09-20",
     "license_note": "Public domain（コモンズの表記）。商標であることに変わりはない",
     "task": "ops/tasks/t122-logos-retry3.sh"
+  },
+  "anapocket.png": {
+    "brand": "ANA Pocket",
+    "source": "App Store の登録アイコン（artworkUrl512）",
+    "page": "https://apps.apple.com/jp/app/id1598209192",
+    "fetched": "2026-09-20",
+    "license_note": "商標。識別目的で使用",
+    "task": "ops/tasks/t124-app-icons-byname.sh"
+  },
+  "arucoin.png": {
+    "brand": "アルコイン",
+    "source": "App Store の登録アイコン（artworkUrl512）",
+    "page": "https://apps.apple.com/jp/app/id1449250359",
+    "fetched": "2026-09-20",
+    "license_note": "商標。識別目的で使用",
+    "task": "ops/tasks/t124-app-icons-byname.sh"
+  },
+  "bitwalk.png": {
+    "brand": "BitWalk（歩いてポイ活 ビットウォーク）",
+    "source": "App Store の登録アイコン（artworkUrl512）",
+    "page": "https://apps.apple.com/jp/app/id1634543016",
+    "fetched": "2026-09-20",
+    "license_note": "商標。識別目的で使用",
+    "task": "ops/tasks/t124-app-icons-byname.sh"
+  },
+  "healthree.png": {
+    "brand": "HEALTHREE（ヘルスリー）",
+    "source": "App Store の登録アイコン（artworkUrl512）",
+    "page": "https://apps.apple.com/jp/app/id6449821527",
+    "fetched": "2026-09-20",
+    "license_note": "商標。識別目的で使用",
+    "task": "ops/tasks/t124-app-icons-byname.sh"
+  },
+  "poisura.png": {
+    "brand": "ポイすら",
+    "source": "App Store の登録アイコン（artworkUrl512）",
+    "page": "https://apps.apple.com/jp/app/id6738946565",
+    "fetched": "2026-09-20",
+    "license_note": "商標。識別目的で使用",
+    "task": "ops/tasks/t124-app-icons-byname.sh"
+  },
+  "rakutensenior.png": {
+    "brand": "楽天シニア",
+    "source": "App Store の登録アイコン（artworkUrl512）",
+    "page": "https://apps.apple.com/jp/app/id1451690957",
+    "fetched": "2026-09-20",
+    "license_note": "商標。識別目的で使用",
+    "task": "ops/tasks/t124-app-icons-byname.sh"
+  },
+  "stellawalk.png": {
+    "brand": "ステラウォーク",
+    "source": "App Store の登録アイコン（artworkUrl512）",
+    "page": "https://apps.apple.com/jp/app/id1599065744",
+    "fetched": "2026-09-20",
+    "license_note": "商標。識別目的で使用",
+    "task": "ops/tasks/t124-app-icons-byname.sh"
+  },
+  "stepn.png": {
+    "brand": "STEPN",
+    "source": "App Store の登録アイコン（artworkUrl512）",
+    "page": "https://apps.apple.com/jp/app/id1598112424",
+    "fetched": "2026-09-20",
+    "license_note": "商標。識別目的で使用",
+    "task": "ops/tasks/t124-app-icons-byname.sh"
+  },
+  "sugisapo.png": {
+    "brand": "スギサポwalk+",
+    "source": "App Store の登録アイコン（artworkUrl512）",
+    "page": "https://apps.apple.com/jp/app/id6737874561",
+    "fetched": "2026-09-20",
+    "license_note": "商標。識別目的で使用",
+    "task": "ops/tasks/t124-app-icons-byname.sh"
+  },
+  "sweatcoin.png": {
+    "brand": "Sweatcoin",
+    "source": "App Store の登録アイコン（artworkUrl512）",
+    "page": "https://apps.apple.com/jp/app/id971023427",
+    "fetched": "2026-09-20",
+    "license_note": "商標。識別目的で使用",
+    "task": "ops/tasks/t124-app-icons-byname.sh"
   }
 }
