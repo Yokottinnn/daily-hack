@@ -1,0 +1,20 @@
+# **「クロール済み - インデックス未登録」の記事。** リフレッシュはここから先に回す。
+#
+# Google は見に来たが「載せない」と判断した状態。**サイトマップの再送信では動かない。**
+# 効くのは中身のほうなので、ここを最優先で直す。
+#
+# 測ったのは t131 / t134 / t135（**2026-09-20 23:01〜23:41 時点**）。
+# **測り直したら、このファイルを書き換える。** 古い一覧のまま回さない。
+#
+# 直したものは `ops/data/refresh-state.json` の `done` に日付が入り、二度は選ばれない。
+
+mens-hairremoval-comparison-2026
+cardloan-comparison-2026
+car-insurance-comparison-2026
+ana-pocket-vs-jal-wellness-2026
+furusato-tax-food-picks-2026
+furusato-tax-daily-goods-2026
+pointsite-comparison-2026
+oiso-prince-spgr-guide-2026
+credit-card-no-annual-fee-comparison-2026
+point-service-complete-guide-2026
