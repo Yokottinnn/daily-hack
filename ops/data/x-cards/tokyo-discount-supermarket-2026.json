@@ -1,6 +1,6 @@
 {
   "_doc": "X 告知用の正方形画像。作り方は .claude/skills/x-post-images/SKILL.md",
-  "_note": "logos-7.jpg は記事の logos/ から 7 社 を組んだもの（ロゴは商標・識別目的）。写真は photos/_manifest.json にライセンス",
+  "_note": "**権利表記が要る素材を使っていない。** 2026-09-20 に「出所不要。今後もいらない」と指示されたため、CC BY / CC BY-SA の写真を全部 外した。残っているのは CC0 の 2 枚（hanamasa-prices / maibasket-shirokane）と、各社ロゴの合成（商標・識別目的）だけ。**ここに CC BY-SA を戻すなら、出所の行も戻すこと。**",
   "slug": "tokyo-discount-supermarket-2026",
   "imageBase": "public/images/tokyo-discount-supermarket-2026",
   "out": "public/images/tokyo-discount-supermarket-2026/x",
@@ -9,52 +9,48 @@
     "kicker": "主要7社 ／ 決算資料で分解 ／ 2026年の勢力図",
     "title": "同じ「安い」でも、稼ぎ方が正反対",
     "sub": "1店舗あたり年商は <em>18倍</em>の開き",
-    "bgImage": "photos/ok-kitayamata.jpg",
-    "bgOpacity": 0.24,
     "mark": false,
     "columns": 2,
-    "theme": "cream",
+    "theme": "ink",
     "cards": [
       {
         "img": "logos-7.jpg",
-        "badge": "並べた",
+        "badge": "大手グループが堅調",
         "title": "主要7社",
         "meta": "オーケー／ロピア／まいばすけっと／ハナマサ／業務スーパー／ドンキ／トライアル西友"
       },
       {
-        "img": "photos/ok-hiyoshi.jpg",
+        "img": "ok-vs-mybasket.jpg",
         "badge": "18倍",
         "title": "43.4億と2.4億",
         "meta": "1店舗あたり年商。大箱で稼ぐ型と、小箱を敷き詰める型"
       },
       {
-        "img": "photos/trial-seiyu-hanakoganei.jpg",
+        "img": "trial-seiyu-strip.jpg",
         "badge": "2025年7月",
         "title": "西友はトライアルに",
         "meta": "グループ621店・売上1兆3,471億円。郊外の激安が都心の器を得た"
       },
       {
-        "img": "photos/maibasket-shirokane.jpg",
+        "img": "mybasket-strip.jpg",
         "badge": "東京7割",
         "title": "まいばすけっと879店",
         "meta": "全国1,262店のうち約7割が東京都"
       }
     ],
-    "note": "「なぜ安いか」を<b>決算資料で分解した。</b>感想でもチラシでもなく、数字で。",
-    "source": "画像: Wikimedia Commons（Suikotei・運動会プロテインパワー CC BY-SA 4.0／Syced CC0）／ロゴは各社の商標"
+    "note": "「なぜ安いか」を<b>決算資料で分解した。</b>感想でもチラシでもなく、数字で。"
   },
   "photos": [
     {
-      "file": "2-trial-seiyu.jpg",
-      "img": "photos/trial-seiyu-hanakoganei.jpg",
-      "badge": "2026年の一番の変化",
-      "name": "西友の建物に「TRIAL SEIYU」",
-      "lead": "2025年7月に買収完了。<b>グループ621店・売上1兆3,471億円</b>（2025年11月期）",
+      "file": "2-maibasket.jpg",
+      "img": "photos/maibasket-shirokane.jpg",
+      "badge": "小箱を敷き詰める型",
+      "name": "1,262店のうち879店が東京都",
+      "lead": "1店舗あたり年商は<b>2.4億円。</b>オーケーの43.4億円に対して<b>18分の1</b>だが、都心の密度で取りにいく",
       "specs": [
-        "うち西友243店",
-        "2026年4月 撮影"
-      ],
-      "credit": "画像: 運動会プロテインパワー / CC BY-SA 4.0（Wikimedia Commons）"
+        "まいばすけっと",
+        "東京に約7割"
+      ]
     },
     {
       "file": "3-hanamasa.jpg",
@@ -64,21 +60,19 @@
       "lead": "若鶏バラ凍ササミ。<b>100gあたり89円</b>（税抜）。加工者は南麻布店",
       "specs": [
         "肉のハナマサ",
-        "2025年4月 撮影"
-      ],
-      "credit": "画像: Syced / CC0（Wikimedia Commons）"
+        "65店中46店が東京都"
+      ]
     },
     {
       "file": "4-tv.jpg",
-      "img": "photos/ok-isehara.jpg",
+      "img": "tv3-logos.jpg",
       "badge": "カメラ116台で測った",
       "name": "くるみパン259円、カツ丼299円",
       "lead": "2026年2月、TBSが3社に定点カメラを入れた。<b>くるみパンはオーケー、カツ丼はトライアル西友</b>",
       "specs": [
         "番組の実測値",
         "ロピアは巻き寿司が話題に"
-      ],
-      "credit": "画像: Suikotei / CC BY-SA 4.0（Wikimedia Commons）"
+      ]
     }
   ]
 }
