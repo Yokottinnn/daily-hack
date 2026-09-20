@@ -54,6 +54,8 @@
   .set > header { padding-bottom:6px; border-bottom:2px solid var(--ink); }
   .set h2 { margin:0; font-size:19px; }
   .set .slug { font-family:var(--mono); font-size:11.5px; color:var(--muted); }
+  .set .posted { margin:6px 0 0; font-size:12.5px; color:var(--done); font-weight:700; }
+  .set .posted a { color:var(--done); }
 
   .post { margin-top:20px; background:var(--surface); border:1px solid var(--line);
           border-radius:3px; box-shadow:var(--shadow); overflow:hidden; }
@@ -170,7 +172,7 @@
     <p class="eyebrow">daily-hack &nbsp;/&nbsp; @heng_ji31590</p>
     <h1>X告知レビュー</h1>
     <p class="lead">
-      投稿ごとに<b>文面と、その投稿に付ける画像</b>が並んでいます。
+      <b>いまレビューが要るのは「都心の格安スーパー」（下半分）です。</b>歩いてポイ活はもう投稿しました。<br>投稿ごとに<b>文面と、その投稿に付ける画像</b>が並んでいます。
       文面は<b>なぞってコメント</b>も、<b>その場で直接 書き換える</b>のもできます。
       画像は<b>直したいところをクリック</b>。
     </p>
@@ -209,6 +211,7 @@
   const SETS = [
     {
       key: "walk", title: "歩いてポイ活 2026年最新版", slug: "walk-poikatsu-2026",
+      posted: ["2101694599215599678", "2101694677514846544"],
       images: [
         { file: "1-summary.jpg", name: "表紙（4カード）", cap: "歩いてポイ活、勝つのはどこだ" },
         { file: "2-waon.jpg",    name: "2枚目",          cap: "毎日8,000歩で、年365円" },
@@ -354,6 +357,20 @@
     const h2 = document.createElement("h2"); h2.textContent = set.title;
     const slug = document.createElement("div"); slug.className = "slug"; slug.textContent = set.slug;
     head.append(h2, slug);
+    if (set.posted) {
+      // **出したものを、まだ見るものと混ぜない**
+      const done = document.createElement("p");
+      done.className = "posted";
+      done.append(document.createTextNode("投稿済み（" + set.posted.length + " 本）： "));
+      set.posted.forEach((tid, i) => {
+        const a = document.createElement("a");
+        a.href = "https://x.com/heng_ji31590/status/" + tid;
+        a.target = "_blank"; a.rel = "noopener";
+        a.textContent = "[" + (i + 1) + "/" + set.posted.length + "]";
+        done.append(a, document.createTextNode(i < set.posted.length - 1 ? " ・ " : ""));
+      });
+      head.append(done);
+    }
     sec.append(head);
 
     const posts = POSTS[set.key] || [];
