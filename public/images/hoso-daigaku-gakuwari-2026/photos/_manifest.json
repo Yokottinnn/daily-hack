@@ -1,38 +1,80 @@
 {
- "music.jpg": {
-  "title": "Headphones 1.jpg",
-  "lic": "CC BY-SA 3.0",
-  "artist": "No machine-readable author provided.  PJ  assumed (based on copyright claims).",
-  "page": "https://commons.wikimedia.org/wiki/File%3AHeadphones_1.jpg"
- },
- "books.jpg": {
-  "title": "Eslite Bookstore Dunnan Interior 201507.jpg",
-  "lic": "CC BY 3.0",
-  "artist": "Wpcpey",
-  "page": "https://commons.wikimedia.org/wiki/File%3AEslite_Bookstore_Dunnan_Interior_201507.jpg"
- },
- "museum.jpg": {
-  "title": "Kelvingrove Art Gallery and Museum Central Hall.jpg",
-  "lic": "CC BY 3.0",
-  "artist": "Michael D Beckwith",
-  "page": "https://commons.wikimedia.org/wiki/File%3AKelvingrove_Art_Gallery_and_Museum_Central_Hall.jpg"
- },
- "design.jpg": {
-  "title": "Apple-camera-desk-office (24031346580).jpg",
-  "lic": "CC0",
-  "artist": "www.Pixel.la Free Stock Photos",
-  "page": "https://commons.wikimedia.org/wiki/File%3AApple-camera-desk-office_%2824031346580%29.jpg"
- },
- "cinema.jpg": {
-  "title": "Luxury Movie Theater Seats.jpg",
-  "lic": "CC BY-SA 4.0",
-  "artist": "Author0612",
-  "page": "https://commons.wikimedia.org/wiki/File%3ALuxury_Movie_Theater_Seats.jpg"
- },
- "train.jpg": {
-  "title": "Hamamatsu Station Tokaido Shinkansen platform - 2.jpg",
-  "lic": "CC BY-SA 4.0",
-  "artist": "Indiana jo",
-  "page": "https://commons.wikimedia.org/wiki/File%3AHamamatsu_Station_Tokaido_Shinkansen_platform_-_2.jpg"
- }
+  "music.jpg": {
+    "title": "Headphones 1.jpg",
+    "lic": "CC BY-SA 3.0",
+    "artist": "No machine-readable author provided.  PJ  assumed (based on copyright claims).",
+    "page": "https://commons.wikimedia.org/wiki/File%3AHeadphones_1.jpg"
+  },
+  "books.jpg": {
+    "title": "Eslite Bookstore Dunnan Interior 201507.jpg",
+    "lic": "CC BY 3.0",
+    "artist": "Wpcpey",
+    "page": "https://commons.wikimedia.org/wiki/File%3AEslite_Bookstore_Dunnan_Interior_201507.jpg"
+  },
+  "museum.jpg": {
+    "title": "Kelvingrove Art Gallery and Museum Central Hall.jpg",
+    "lic": "CC BY 3.0",
+    "artist": "Michael D Beckwith",
+    "page": "https://commons.wikimedia.org/wiki/File%3AKelvingrove_Art_Gallery_and_Museum_Central_Hall.jpg"
+  },
+  "design.jpg": {
+    "title": "Apple-camera-desk-office (24031346580).jpg",
+    "lic": "CC0",
+    "artist": "www.Pixel.la Free Stock Photos",
+    "page": "https://commons.wikimedia.org/wiki/File%3AApple-camera-desk-office_%2824031346580%29.jpg"
+  },
+  "cinema.jpg": {
+    "title": "Luxury Movie Theater Seats.jpg",
+    "lic": "CC BY-SA 4.0",
+    "artist": "Author0612",
+    "page": "https://commons.wikimedia.org/wiki/File%3ALuxury_Movie_Theater_Seats.jpg"
+  },
+  "train.jpg": {
+    "title": "Hamamatsu Station Tokaido Shinkansen platform - 2.jpg",
+    "lic": "CC BY-SA 4.0",
+    "artist": "Indiana jo",
+    "page": "https://commons.wikimedia.org/wiki/File%3AHamamatsu_Station_Tokaido_Shinkansen_platform_-_2.jpg"
+  },
+  "macbook-1.jpg": {
+    "title": "File:Klavaro de MacBook Air.jpg",
+    "lic": "CC0",
+    "artist": "Tokfo",
+    "page": "https://commons.wikimedia.org/wiki/File%3AKlavaro_de_MacBook_Air.jpg"
+  },
+  "macbook-3.jpg": {
+    "title": "File:MacBook vs MacBook Air.png",
+    "lic": "CC BY 2.0",
+    "artist": "raneko",
+    "page": "https://commons.wikimedia.org/wiki/File%3AMacBook_vs_MacBook_Air.png"
+  },
+  "ipad-1.jpg": {
+    "title": "File:IPad Wiki.jpg",
+    "lic": "CC BY-SA 4.0",
+    "artist": "彭家杰",
+    "page": "https://commons.wikimedia.org/wiki/File%3AIPad_Wiki.jpg"
+  },
+  "applestore-2.jpg": {
+    "title": "File:San Francisco Apple Store interior, lower floor.jpg",
+    "lic": "CC BY-SA 4.0",
+    "artist": "Dllu",
+    "page": "https://commons.wikimedia.org/wiki/File%3ASan_Francisco_Apple_Store_interior%2C_lower_floor.jpg"
+  },
+  "park-1.jpg": {
+    "title": "File:Baishamen Park - amusement park - roller coaster, kiddie - 01.jpg",
+    "lic": "CC0",
+    "artist": "Anna Frodesiak",
+    "page": "https://commons.wikimedia.org/wiki/File%3ABaishamen_Park_-_amusement_park_-_roller_coaster%2C_kiddie_-_01.jpg"
+  },
+  "gym-2.jpg": {
+    "title": "File:Highgrove Gym.jpg",
+    "lic": "CC BY-SA 3.0",
+    "artist": "Todtanis",
+    "page": "https://commons.wikimedia.org/wiki/File%3AHighgrove_Gym.jpg"
+  },
+  "karaoke-1.jpg": {
+    "title": "File:Karaoke-Big echo-P5262150.jpg",
+    "lic": "CC BY-SA 3.0",
+    "artist": "松岡明芳",
+    "page": "https://commons.wikimedia.org/wiki/File%3AKaraoke-Big_echo-P5262150.jpg"
+  }
 }
