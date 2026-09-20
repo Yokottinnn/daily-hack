@@ -3,158 +3,163 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;700&display=swap">
 <style>
   :root {
-    --paper:   #eef0f3;
-    --surface: #ffffff;
-    --sunk:    #e4e7ec;
-    --ink:     #15181c;
-    --muted:   #646b74;
-    --line:    #d3d8df;
-    --accent:  #cf2740;
-    --accent-ink: #ffffff;
-    --mark:    #ffe08a;
-    --mark-ink: #15181c;
-    --done:    #3c7a5e;
-    --shadow:  0 1px 2px rgba(20,24,30,.06), 0 8px 24px -14px rgba(20,24,30,.35);
-
-    --jp: "Hiragino Kaku Gothic ProN", "Hiragino Sans", "Yu Gothic", "Noto Sans JP", system-ui, sans-serif;
-    --mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+    --paper:#eef0f3; --surface:#ffffff; --sunk:#e4e7ec; --ink:#15181c; --muted:#646b74;
+    --line:#d3d8df; --accent:#cf2740; --accent-ink:#ffffff;
+    --mark:#ffe08a; --mark-ink:#15181c; --done:#3c7a5e; --edit:#1f6f8b;
+    --shadow:0 1px 2px rgba(20,24,30,.06), 0 8px 24px -14px rgba(20,24,30,.35);
+    --jp:"Hiragino Kaku Gothic ProN","Hiragino Sans","Yu Gothic","Noto Sans JP",system-ui,sans-serif;
+    --mono:"JetBrains Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
   }
   @media (prefers-color-scheme: dark) {
     :root:not([data-theme="light"]) {
       --paper:#121417; --surface:#1a1d21; --sunk:#101215; --ink:#e8eaed; --muted:#969ca5;
       --line:#2b2f35; --accent:#ff5c72; --accent-ink:#1a0007;
-      --mark:#7a5a12; --mark-ink:#fff4d6; --done:#5fae8a;
+      --mark:#7a5a12; --mark-ink:#fff4d6; --done:#5fae8a; --edit:#69b6cf;
       --shadow:0 1px 2px rgba(0,0,0,.5), 0 8px 24px -14px rgba(0,0,0,.8);
     }
   }
   :root[data-theme="dark"] {
     --paper:#121417; --surface:#1a1d21; --sunk:#101215; --ink:#e8eaed; --muted:#969ca5;
     --line:#2b2f35; --accent:#ff5c72; --accent-ink:#1a0007;
-    --mark:#7a5a12; --mark-ink:#fff4d6; --done:#5fae8a;
+    --mark:#7a5a12; --mark-ink:#fff4d6; --done:#5fae8a; --edit:#69b6cf;
     --shadow:0 1px 2px rgba(0,0,0,.5), 0 8px 24px -14px rgba(0,0,0,.8);
   }
 
-  body { background: var(--paper); color: var(--ink); font-family: var(--jp);
-         font-size: 15px; line-height: 1.75; -webkit-font-smoothing: antialiased; }
-  .wrap { max-width: 880px; margin: 0 auto; padding-inline: 20px; padding-block: 0 96px; }
+  body { background:var(--paper); color:var(--ink); font-family:var(--jp);
+         font-size:15px; line-height:1.75; -webkit-font-smoothing:antialiased; }
+  .wrap { max-width:880px; margin:0 auto; padding-inline:20px; padding-block:0 96px; }
 
-  .top { padding-block: 40px 20px; }
-  .eyebrow { margin: 0 0 10px; font-family: var(--mono); font-size: 11px; font-weight: 700;
-             letter-spacing: .14em; text-transform: uppercase; color: var(--muted); }
-  h1 { margin: 0; font-size: clamp(26px, 5vw, 34px); line-height: 1.3; text-wrap: balance; }
-  .lead { margin: 14px 0 0; max-width: 40em; color: var(--muted); }
-  .lead b { color: var(--ink); font-weight: 700; }
+  .top { padding-block:40px 18px; }
+  .eyebrow { margin:0 0 10px; font-family:var(--mono); font-size:11px; font-weight:700;
+             letter-spacing:.14em; text-transform:uppercase; color:var(--muted); }
+  h1 { margin:0; font-size:clamp(26px,5vw,34px); line-height:1.3; text-wrap:balance; }
+  .lead { margin:14px 0 0; max-width:42em; color:var(--muted); }
+  .lead b { color:var(--ink); font-weight:700; }
 
-  .bar { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 20;
-         display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 18px;
-         margin-block: 22px; padding: 11px 16px;
-         background: var(--surface); border: 1px solid var(--line); border-radius: 3px;
-         box-shadow: var(--shadow); }
-  .bar .n { font-family: var(--mono); font-weight: 700; font-size: 17px; font-variant-numeric: tabular-nums; }
-  .bar .open .n { color: var(--accent); }
-  .bar span.lbl { font-size: 12px; color: var(--muted); }
-  .bar .spacer { flex: 1 1 60px; }
-  .warn { width: 100%; margin: 0; padding-top: 8px; border-top: 1px solid var(--line);
-          font-size: 12.5px; color: var(--accent); }
+  .bar { position:sticky; top:env(safe-area-inset-top,0px); z-index:30;
+         display:flex; flex-wrap:wrap; align-items:center; gap:8px 16px;
+         margin-block:20px; padding:10px 14px;
+         background:var(--surface); border:1px solid var(--line); border-radius:3px;
+         box-shadow:var(--shadow); }
+  .bar .n { font-family:var(--mono); font-weight:700; font-size:17px; font-variant-numeric:tabular-nums; }
+  .bar .open .n { color:var(--accent); }
+  .bar .lbl { font-size:12px; color:var(--muted); }
+  .bar .spacer { flex:1 1 40px; }
+  .warn { width:100%; margin:0; padding-top:8px; border-top:1px solid var(--line);
+          font-size:12.5px; color:var(--accent); }
+  .said { width:100%; margin:0; padding-top:8px; border-top:1px solid var(--line);
+          font-size:12.5px; color:var(--done); }
 
-  .set { margin-block: 44px 0; }
-  .set > header { padding-bottom: 6px; border-bottom: 2px solid var(--ink); }
-  .set h2 { margin: 0; font-size: 19px; }
-  .set .slug { font-family: var(--mono); font-size: 11.5px; color: var(--muted); }
-  .subhead { margin: 26px 0 0; font-family: var(--mono); font-size: 11px; font-weight: 700;
-             letter-spacing: .14em; text-transform: uppercase; color: var(--muted); }
+  .set { margin-block:44px 0; }
+  .set > header { padding-bottom:6px; border-bottom:2px solid var(--ink); }
+  .set h2 { margin:0; font-size:19px; }
+  .set .slug { font-family:var(--mono); font-size:11.5px; color:var(--muted); }
 
-  /* --- 投稿文 --- */
-  .post { margin-top: 12px; background: var(--surface); border: 1px solid var(--line);
-          border-radius: 3px; box-shadow: var(--shadow); overflow: hidden; }
-  .post-head { display: flex; align-items: baseline; gap: 10px;
-               padding: 9px 16px; background: var(--sunk); border-bottom: 1px solid var(--line); }
-  .post-head .seq { font-family: var(--mono); font-weight: 700; font-size: 12.5px; }
-  .post-head .w { font-family: var(--mono); font-size: 11.5px; color: var(--muted);
-                  font-variant-numeric: tabular-nums; }
-  .post-head .grow { flex: 1; }
-  .post-head button { padding: 3px 11px; font-size: 11.5px; font-weight: 500; }
-  .post-body { margin: 0; padding: 16px; white-space: pre-wrap; word-break: break-word;
-               font-family: var(--jp); font-size: 15.5px; line-height: 1.85;
-               cursor: text; -webkit-user-select: text; user-select: text; }
-  .post-body mark { background: var(--mark); color: var(--mark-ink);
-                    padding: 1px 0; border-radius: 2px; }
-  .post-body mark[data-done="1"] { background: transparent; box-shadow: inset 0 -2px 0 var(--done); }
-  .post-body mark sup { font-family: var(--mono); font-size: 10px; font-weight: 700;
-                        color: var(--accent); padding-left: 2px; }
-  .picktip { padding: 0 16px 14px; margin: 0; font-size: 12px; color: var(--muted); }
+  .post { margin-top:20px; background:var(--surface); border:1px solid var(--line);
+          border-radius:3px; box-shadow:var(--shadow); overflow:hidden; }
+  .post-head { display:flex; flex-wrap:wrap; align-items:center; gap:6px 10px;
+               padding:9px 14px; background:var(--sunk); border-bottom:1px solid var(--line); }
+  .post-head .seq { font-family:var(--mono); font-weight:700; font-size:12.5px; }
+  .post-head .w { font-family:var(--mono); font-size:11.5px; color:var(--muted);
+                  font-variant-numeric:tabular-nums; }
+  .post-head .w.over { color:var(--accent); font-weight:700; }
+  .post-head .edited { font-size:11px; color:var(--edit); font-weight:700; }
+  .post-head .grow { flex:1 1 20px; }
+  .post-head button { padding:3px 11px; font-size:11.5px; font-weight:500; }
+  .post-body { margin:0; padding:15px; white-space:pre-wrap; word-break:break-word;
+               font-size:15.5px; line-height:1.85; cursor:text; user-select:text; }
+  .post-body mark { background:var(--mark); color:var(--mark-ink); padding:1px 0; border-radius:2px; }
+  .post-body mark[data-done="1"] { background:transparent; box-shadow:inset 0 -2px 0 var(--done); }
+  .post-body mark sup { font-family:var(--mono); font-size:10px; font-weight:700;
+                        color:var(--accent); padding-left:2px; }
+  .picktip { padding:0 15px 13px; margin:0; font-size:12px; color:var(--muted); }
 
-  /* --- 画像 --- */
-  .proof { margin-top: 22px; }
-  .proof-head { display: flex; align-items: baseline; gap: 10px; margin-bottom: 8px; }
-  .proof-head .num { font-family: var(--mono); font-weight: 700; font-size: 12px;
-                     color: var(--muted); font-variant-numeric: tabular-nums; }
-  .proof-head h3 { margin: 0; font-size: 15px; font-weight: 700; }
-  .proof-head .cap { color: var(--muted); font-size: 12.5px; }
+  .editor { padding:14px; border-top:1px solid var(--line); background:var(--sunk); }
+  .editor textarea { width:100%; box-sizing:border-box; min-height:190px; resize:vertical;
+                     padding:11px 12px; font-family:var(--jp); font-size:15.5px; line-height:1.85;
+                     color:var(--ink); background:var(--surface);
+                     border:1px solid var(--edit); border-radius:2px; }
+  .editor .count { margin:8px 0 0; font-family:var(--mono); font-size:12px;
+                   color:var(--muted); font-variant-numeric:tabular-nums; }
+  .editor .count.over { color:var(--accent); font-weight:700; }
 
-  .canvas { position: relative; display: block; width: 100%; max-width: 100%;
-            border: 1px solid var(--line); border-radius: 3px; background: var(--sunk);
-            overflow: hidden; cursor: crosshair; box-shadow: var(--shadow); }
-  .canvas img { display: block; width: 100%; height: auto; }
-  .hint { position: absolute; inset: auto 0 0 0; padding: 7px 10px; font-size: 11.5px;
-          color: #fff; background: linear-gradient(transparent, rgba(0,0,0,.72));
-          pointer-events: none; opacity: 0; transition: opacity .16s; }
-  .canvas:hover .hint, .canvas:focus-visible .hint { opacity: 1; }
-  @media (prefers-reduced-motion: reduce) { .hint { transition: none; } }
+  .shots { padding:0 15px 15px; border-top:1px solid var(--line); }
+  .shots > .subhead { margin:14px 0 0; font-family:var(--mono); font-size:11px; font-weight:700;
+                      letter-spacing:.14em; text-transform:uppercase; color:var(--muted); }
+  .proof { margin-top:16px; }
+  .proof-head { display:flex; flex-wrap:wrap; align-items:baseline; gap:8px; margin-bottom:7px; }
+  .proof-head .num { font-family:var(--mono); font-weight:700; font-size:12px; color:var(--muted); }
+  .proof-head h3 { margin:0; font-size:14.5px; font-weight:700; }
+  .proof-head .cap { color:var(--muted); font-size:12.5px; }
 
-  .pin { position: absolute; transform: translate(-50%, -50%);
-         width: 26px; height: 26px; border-radius: 50%; display: grid; place-items: center;
-         background: var(--accent); color: var(--accent-ink);
-         font-family: var(--mono); font-weight: 700; font-size: 12px;
-         border: 0; padding: 0; cursor: pointer;
-         box-shadow: 0 0 0 2px var(--surface), 0 2px 7px rgba(0,0,0,.45); }
-  .pin[data-done="1"] { background: var(--done); color: #fff; }
-  .pin.ghost { background: var(--ink); color: var(--paper); }
+  .canvas { position:relative; display:block; width:100%; max-width:100%;
+            border:1px solid var(--line); border-radius:3px; background:var(--sunk);
+            overflow:hidden; cursor:crosshair; }
+  .canvas img { display:block; width:100%; height:auto; }
+  .hint { position:absolute; inset:auto 0 0 0; padding:7px 10px; font-size:11.5px; color:#fff;
+          background:linear-gradient(transparent, rgba(0,0,0,.72));
+          pointer-events:none; opacity:0; transition:opacity .16s; }
+  .canvas:hover .hint, .canvas:focus-visible .hint { opacity:1; }
+  @media (prefers-reduced-motion: reduce) { .hint { transition:none; } }
 
-  /* --- 入力 --- */
-  .composer { margin-top: 10px; padding: 12px; background: var(--surface);
-              border: 1px solid var(--accent); border-radius: 3px; }
-  .composer .where { margin: 0 0 8px; font-size: 12.5px; color: var(--muted); }
-  .composer .where q { color: var(--ink); background: var(--mark); color: var(--mark-ink);
-                       padding: 1px 4px; border-radius: 2px; }
-  .composer textarea { width: 100%; box-sizing: border-box; min-height: 76px; resize: vertical;
-                       padding: 9px 10px; font-family: var(--jp); font-size: 14.5px; line-height: 1.7;
-                       color: var(--ink); background: var(--paper);
-                       border: 1px solid var(--line); border-radius: 2px; }
-  .row { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; }
-  button { font-family: var(--jp); font-size: 13.5px; font-weight: 700; padding: 7px 15px;
-           border-radius: 2px; border: 1px solid var(--line);
-           background: var(--surface); color: var(--ink); cursor: pointer; }
-  button.primary { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
-  button:disabled { opacity: .5; cursor: default; }
-  :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  .pin { position:absolute; transform:translate(-50%,-50%); width:26px; height:26px;
+         border-radius:50%; display:grid; place-items:center;
+         background:var(--accent); color:var(--accent-ink);
+         font-family:var(--mono); font-weight:700; font-size:12px;
+         border:0; padding:0; cursor:pointer;
+         box-shadow:0 0 0 2px var(--surface), 0 2px 7px rgba(0,0,0,.45); }
+  .pin[data-done="1"] { background:var(--done); color:#fff; }
+  .pin.ghost { background:var(--ink); color:var(--paper); }
 
-  /* --- コメント一覧 --- */
-  .threads { list-style: none; margin: 10px 0 0; padding: 0; display: flex; flex-direction: column; gap: 1px; }
-  .threads:empty { display: none; }
-  .threads li { display: grid; grid-template-columns: 26px 1fr auto; gap: 10px; align-items: start;
-                padding: 10px 12px; background: var(--surface); border: 1px solid var(--line); }
-  .threads li + li { border-top: 0; }
-  .threads li[data-done="1"] { background: transparent; }
-  .threads li[data-done="1"] .body { color: var(--muted); text-decoration: line-through; }
-  .tag { width: 22px; height: 22px; margin-top: 2px; border-radius: 50%; display: grid; place-items: center;
-         background: var(--accent); color: var(--accent-ink);
-         font-family: var(--mono); font-weight: 700; font-size: 11px; }
-  li[data-done="1"] .tag { background: var(--done); color: #fff; }
-  .quote { display: block; margin-bottom: 3px; font-size: 12.5px; color: var(--muted); }
-  .quote b { color: var(--ink); font-weight: 500; background: var(--mark); color: var(--mark-ink);
-             padding: 0 3px; border-radius: 2px; }
-  .body { white-space: pre-wrap; word-break: break-word; font-size: 14px; line-height: 1.7; }
-  .meta { margin-top: 3px; font-family: var(--mono); font-size: 10.5px; color: var(--muted);
-          font-variant-numeric: tabular-nums; }
-  .acts { display: flex; gap: 4px; }
-  .acts button { padding: 3px 9px; font-size: 11.5px; font-weight: 500; }
-  .empty { margin: 10px 0 0; font-size: 12.5px; color: var(--muted); }
+  .composer { margin-top:10px; padding:12px; background:var(--surface);
+              border:1px solid var(--accent); border-radius:3px; }
+  .composer .where { margin:0 0 8px; font-size:12.5px; color:var(--muted); }
+  .composer .where q { background:var(--mark); color:var(--mark-ink); padding:1px 4px; border-radius:2px; }
+  .composer textarea { width:100%; box-sizing:border-box; min-height:74px; resize:vertical;
+                       padding:9px 10px; font-family:var(--jp); font-size:14.5px; line-height:1.7;
+                       color:var(--ink); background:var(--paper);
+                       border:1px solid var(--line); border-radius:2px; }
+  .row { display:flex; flex-wrap:wrap; gap:8px; margin-top:10px; }
+  button { font-family:var(--jp); font-size:13.5px; font-weight:700; padding:7px 15px;
+           border-radius:2px; border:1px solid var(--line);
+           background:var(--surface); color:var(--ink); cursor:pointer; }
+  button.primary { background:var(--accent); color:var(--accent-ink); border-color:var(--accent); }
+  button.go { background:var(--done); color:#fff; border-color:var(--done); }
+  button:disabled { opacity:.5; cursor:default; }
+  :focus-visible { outline:2px solid var(--accent); outline-offset:2px; }
+
+  .threads { list-style:none; margin:10px 0 0; padding:0; display:flex; flex-direction:column; gap:1px; }
+  .threads:empty { display:none; }
+  .threads li { display:grid; grid-template-columns:26px 1fr auto; gap:10px; align-items:start;
+                padding:10px 12px; background:var(--surface); border:1px solid var(--line); }
+  .threads li + li { border-top:0; }
+  .threads li[data-done="1"] { background:transparent; }
+  .threads li[data-done="1"] .body { color:var(--muted); text-decoration:line-through; }
+  .tag { width:22px; height:22px; margin-top:2px; border-radius:50%; display:grid; place-items:center;
+         background:var(--accent); color:var(--accent-ink);
+         font-family:var(--mono); font-weight:700; font-size:11px; }
+  li[data-done="1"] .tag { background:var(--done); color:#fff; }
+  .quote { display:block; margin-bottom:3px; font-size:12.5px; color:var(--muted); }
+  .quote b { font-weight:500; background:var(--mark); color:var(--mark-ink); padding:0 3px; border-radius:2px; }
+  .lost { display:block; margin-bottom:3px; font-size:11.5px; color:var(--muted); }
+  .body { white-space:pre-wrap; word-break:break-word; font-size:14px; line-height:1.7; }
+  .meta { margin-top:3px; font-family:var(--mono); font-size:10.5px; color:var(--muted);
+          font-variant-numeric:tabular-nums; }
+  .acts { display:flex; gap:4px; }
+  .acts button { padding:3px 9px; font-size:11.5px; font-weight:500; }
+  .empty { margin:10px 0 0; font-size:12.5px; color:var(--muted); }
+
+  .howto { margin-block:20px 0; padding:14px 16px; background:var(--surface);
+           border:1px solid var(--line); border-left:4px solid var(--edit); border-radius:0 3px 3px 0; }
+  .howto h2 { margin:0 0 8px; font-size:14px; }
+  .howto p { margin:0 0 6px; font-size:13px; color:var(--muted); }
+  .howto p:last-child { margin-bottom:0; }
+  .howto b { color:var(--ink); }
 
   @media (max-width: 460px) {
-    .wrap { padding-inline: 16px; }
-    .threads li { grid-template-columns: 22px 1fr; }
-    .acts { grid-column: 2; }
+    .wrap { padding-inline:16px; }
+    .threads li { grid-template-columns:22px 1fr; }
+    .acts { grid-column:2; }
   }
 </style>
 
@@ -163,8 +168,9 @@
     <p class="eyebrow">daily-hack &nbsp;/&nbsp; @heng_ji31590</p>
     <h1>X告知レビュー</h1>
     <p class="lead">
-      <b>投稿文は直したいところをなぞる</b>と、そこにコメントを書けます。
-      <b>画像は直したいところをクリック</b>してください。書いたものはこのページに残り、こちらから読めます。
+      投稿ごとに<b>文面と、その投稿に付ける画像</b>が並んでいます。
+      文面は<b>なぞってコメント</b>も、<b>その場で直接 書き換える</b>のもできます。
+      画像は<b>直したいところをクリック</b>。
     </p>
   </header>
 
@@ -172,9 +178,18 @@
     <span><span class="n" id="n-total">—</span> <span class="lbl">件</span></span>
     <span class="open"><span class="n" id="n-open">—</span> <span class="lbl">未対応</span></span>
     <span class="spacer"></span>
+    <button type="button" class="go" id="ask">修正をお願いする</button>
     <span class="lbl" id="conn">読み込み中…</span>
     <p class="warn" id="warn" hidden></p>
+    <p class="said" id="said" hidden></p>
   </div>
+
+  <section class="howto">
+    <h2>直したものは、いつ反映されるか</h2>
+    <p><b>このページは Claude を自動では起動しません。</b>コメントを書いても、それだけでは何も始まりません。</p>
+    <p>動き出すきっかけは 2 つです。<b>①「修正をお願いする」を押す</b>——押したことがこのページに記録され、Claude が次にこのページを読んだときに未処理として拾います。<b>②チャットで「コメントした」と言う</b>——こちらが最速です。</p>
+    <p><b>文面をその場で書き換えた場合は、コメントを待たずにそのまま採用されます。</b>Claude は書き換え後の文面を読みます。</p>
+  </section>
 
   <main id="main"></main>
 </div>
@@ -186,14 +201,11 @@
   // 画像はページに埋め込む。**相対パスで外部ファイルを読ませない**
   // （公開後に解決できず、8 枚 とも出なかった）
   const IMG = /*__IMAGES__*/{};
-  // 投稿文。build.mjs が差し込む
   const POSTS = /*__POSTS__*/{};
 
   const SETS = [
     {
-      key: "walk",
-      title: "歩いてポイ活 2026年最新版",
-      slug: "walk-poikatsu-2026",
+      key: "walk", title: "歩いてポイ活 2026年最新版", slug: "walk-poikatsu-2026",
       images: [
         { file: "1-summary.jpg", name: "表紙（4カード）", cap: "歩いてポイ活、勝つのはどこだ" },
         { file: "2-waon.jpg",    name: "2枚目",          cap: "毎日8,000歩で、年365円" },
@@ -202,9 +214,7 @@
       ]
     },
     {
-      key: "super",
-      title: "都心の格安スーパー 2026",
-      slug: "tokyo-discount-supermarket-2026",
+      key: "super", title: "都心の格安スーパー 2026", slug: "tokyo-discount-supermarket-2026",
       images: [
         { file: "1-summary.jpg",     name: "表紙（4カード）", cap: "同じ「安い」でも、稼ぎ方が正反対" },
         { file: "2-trial-seiyu.jpg", name: "2枚目",          cap: "西友の建物に「TRIAL SEIYU」" },
@@ -219,15 +229,16 @@
   const elOpen = document.getElementById("n-open");
   const elConn = document.getElementById("conn");
   const elWarn = document.getElementById("warn");
+  const elSaid = document.getElementById("said");
+  const btnAsk = document.getElementById("ask");
 
-  const slots = new Map();   // target -> 描画に必要なもの
+  const slots = new Map();
   let db = null;
   let rows = [];
+  let drafts = {};   // target -> 書き換えた文面
 
-  function say(msg) {
-    elWarn.hidden = !msg;
-    elWarn.textContent = msg || "";
-  }
+  const say = (m) => { elWarn.hidden = !m; elWarn.textContent = m || ""; };
+  const tell = (m) => { elSaid.hidden = !m; elSaid.textContent = m || ""; };
 
   // **X の重みは 280。全角は 2、URL は t.co で常に 23**
   function weight(s) {
@@ -238,46 +249,36 @@
     return n;
   }
 
-  async function save(body) {
-    if (!db) { say("保存できません。このページでコメントを保持する機能が使えていません。"); return false; }
+  async function addPin(body) {
+    if (!db) { say("保存できません。公開されたリンクから開いてください。"); return false; }
     try {
       await db.collection("pins").add({ ...body, done: false, createdAt: new Date().toISOString() });
-      say("");
-      return true;
-    } catch (err) {
-      say("保存できませんでした（" + (err && err.code ? err.code : "不明") + "）。もう一度 試してください。");
+      say(""); return true;
+    } catch (e) {
+      say("保存できませんでした（" + (e && e.code ? e.code : "不明") + "）。もう一度 試してください。");
       return false;
     }
   }
 
-  // 共通の入力欄
   function makeComposer(onSubmit) {
     const form = document.createElement("form");
     form.className = "composer";
     form.hidden = true;
-    const where = document.createElement("p");
-    where.className = "where";
+    const where = document.createElement("p"); where.className = "where";
     const ta = document.createElement("textarea");
     ta.placeholder = "ここをこう直したい、と書いてください";
-    const row = document.createElement("div");
-    row.className = "row";
+    const row = document.createElement("div"); row.className = "row";
     const ok = document.createElement("button");
     ok.type = "submit"; ok.className = "primary"; ok.textContent = "コメントする";
-    const no = document.createElement("button");
-    no.type = "button"; no.textContent = "やめる";
+    const no = document.createElement("button"); no.type = "button"; no.textContent = "やめる";
     row.append(ok, no);
     form.append(where, ta, row);
 
     let ctx = null;
     const close = () => { ctx = null; form.hidden = true; ta.value = ""; render(); };
     form.open = (context, label) => {
-      ctx = context;
-      where.replaceChildren(...label);
-      form.hidden = false;
-      ta.focus();
-      render();
+      ctx = context; where.replaceChildren(...label); form.hidden = false; ta.focus(); render();
     };
-    form.close = close;
     form.ctx = () => ctx;
     no.addEventListener("click", close);
     form.addEventListener("submit", async (e) => {
@@ -296,144 +297,168 @@
     const sec = document.createElement("section");
     sec.className = "set";
     const head = document.createElement("header");
-    const h2 = document.createElement("h2");
-    h2.textContent = set.title;
-    const slug = document.createElement("div");
-    slug.className = "slug";
-    slug.textContent = set.slug;
+    const h2 = document.createElement("h2"); h2.textContent = set.title;
+    const slug = document.createElement("div"); slug.className = "slug"; slug.textContent = set.slug;
     head.append(h2, slug);
     sec.append(head);
 
-    // ── 投稿文 ──
     const posts = POSTS[set.key] || [];
-    if (posts.length) {
-      const lbl = document.createElement("p");
-      lbl.className = "subhead";
-      lbl.textContent = "投稿文";
-      sec.append(lbl);
-    }
-    posts.forEach((text, i) => {
+    posts.forEach((baseText, i) => {
       const target = set.key + "/text-" + (i + 1);
       const art = document.createElement("article");
       art.className = "post";
 
-      const ph = document.createElement("div");
-      ph.className = "post-head";
-      const seq = document.createElement("span");
-      seq.className = "seq";
+      const ph = document.createElement("div"); ph.className = "post-head";
+      const seq = document.createElement("span"); seq.className = "seq";
       seq.textContent = "[" + (i + 1) + "/" + posts.length + "]";
-      const w = document.createElement("span");
-      const wt = weight(text);
-      w.className = "w";
-      w.textContent = "重み " + wt + " / 280（余裕 " + (280 - wt) + "）";
-      const grow = document.createElement("span");
-      grow.className = "grow";
-      const whole = document.createElement("button");
-      whole.type = "button";
-      whole.textContent = "この投稿 全体にコメント";
-      ph.append(seq, w, grow, whole);
+      const w = document.createElement("span"); w.className = "w";
+      const edited = document.createElement("span"); edited.className = "edited"; edited.hidden = true;
+      edited.textContent = "書き換え済み";
+      const grow = document.createElement("span"); grow.className = "grow";
+      const bEdit = document.createElement("button"); bEdit.type = "button";
+      bEdit.textContent = "文面を直接 直す";
+      const bWhole = document.createElement("button"); bWhole.type = "button";
+      bWhole.textContent = "全体にコメント";
+      ph.append(seq, w, edited, grow, bEdit, bWhole);
 
-      const body = document.createElement("div");
-      body.className = "post-body";
-
-      const tip = document.createElement("p");
-      tip.className = "picktip";
+      const body = document.createElement("div"); body.className = "post-body";
+      const tip = document.createElement("p"); tip.className = "picktip";
       tip.textContent = "直したいところをなぞると、そこにコメントを置けます。";
 
-      const composer = makeComposer((ctx, comment) =>
-        save({ target, set: set.key, slug: set.slug, kind: "text",
-               quote: ctx.quote, start: ctx.start, end: ctx.end, text: comment }));
-
-      const threads = document.createElement("ul");
-      threads.className = "threads";
-
-      art.append(ph, body, tip);
-      sec.append(art, composer, threads);
-
-      slots.set(target, { kind: "text", text, body, threads, composer });
-
-      // なぞった範囲を拾う
-      body.addEventListener("mouseup", () => pick(target));
-      body.addEventListener("touchend", () => setTimeout(() => pick(target), 10));
-      whole.addEventListener("click", () => {
-        composer.open({ quote: "", start: -1, end: -1 },
-          [document.createTextNode("この投稿 全体について")]);
-      });
-    });
-
-    // ── 画像 ──
-    const ilbl = document.createElement("p");
-    ilbl.className = "subhead";
-    ilbl.textContent = "画像 4 枚";
-    sec.append(ilbl);
-
-    set.images.forEach((im, i) => {
-      const target = set.key + "/" + im.file;
-      const art = document.createElement("article");
-      art.className = "proof";
-
-      const ph = document.createElement("div");
-      ph.className = "proof-head";
-      const num = document.createElement("span");
-      num.className = "num";
-      num.textContent = String(i + 1).padStart(2, "0");
-      const h3 = document.createElement("h3");
-      h3.textContent = im.name;
-      const cap = document.createElement("span");
-      cap.className = "cap";
-      cap.textContent = im.cap;
-      ph.append(num, h3, cap);
-
-      const canvas = document.createElement("div");
-      canvas.className = "canvas";
-      canvas.tabIndex = 0;
-      canvas.setAttribute("role", "button");
-      canvas.setAttribute("aria-label", im.name + " にコメントを置く");
-      const img = document.createElement("img");
-      img.src = IMG[set.slug + "/" + im.file] || "";
-      img.alt = im.cap;
-      img.draggable = false;
-      const pins = document.createElement("div");
-      const hint = document.createElement("div");
-      hint.className = "hint";
-      hint.textContent = "直したいところをクリック";
-      canvas.append(img, pins, hint);
-      // **読めなかったことを黙らせない**（1 度 それで気づけなかった）
-      img.addEventListener("error", () => {
-        hint.textContent = "この画像が読み込めていません";
-        hint.style.opacity = "1";
-      });
+      // --- その場で書き換える ---
+      const editor = document.createElement("div"); editor.className = "editor"; editor.hidden = true;
+      const eta = document.createElement("textarea");
+      const count = document.createElement("p"); count.className = "count";
+      const erow = document.createElement("div"); erow.className = "row";
+      const eSave = document.createElement("button");
+      eSave.type = "button"; eSave.className = "primary"; eSave.textContent = "この文面で保存";
+      const eCancel = document.createElement("button"); eCancel.type = "button"; eCancel.textContent = "やめる";
+      const eReset = document.createElement("button"); eReset.type = "button"; eReset.textContent = "元に戻す";
+      erow.append(eSave, eCancel, eReset);
+      editor.append(eta, count, erow);
 
       const composer = makeComposer((ctx, comment) =>
-        save({ target, set: set.key, slug: set.slug, kind: "image",
-               file: im.file, x: ctx.x, y: ctx.y, text: comment }));
+        addPin({ target, set: set.key, slug: set.slug, kind: "text",
+                 quote: ctx.quote, start: ctx.start, end: ctx.end, text: comment }));
 
-      const threads = document.createElement("ul");
-      threads.className = "threads";
-      const empty = document.createElement("p");
-      empty.className = "empty";
-      empty.textContent = "まだコメントはありません。";
+      const threads = document.createElement("ul"); threads.className = "threads";
 
-      art.append(ph, canvas, composer, threads, empty);
+      // **入力欄と一覧は本文のすぐ下に置く。** 画像の下に回すと、
+      // なぞった場所から遠く離れて何が起きたか分からなくなる
+      const pad = document.createElement("div");
+      pad.style.padding = "0 15px 14px";
+      pad.append(composer, threads);
+      art.append(ph, body, tip, pad, editor);
       sec.append(art);
 
-      slots.set(target, { kind: "image", pins, threads, empty, composer });
+      const slot = { kind: "text", target, base: baseText, body, threads, composer,
+                     w, edited, editor, eta, count, tip, bEdit };
+      slots.set(target, slot);
 
-      const openAt = (x, y) => composer.open({ x, y },
-        [document.createTextNode("位置 " + Math.round(x * 100) + "% / " + Math.round(y * 100) + "%")]);
-      canvas.addEventListener("click", (e) => {
-        if (e.target.closest(".pin")) return;
-        const r = canvas.getBoundingClientRect();
-        openAt(Math.min(1, Math.max(0, (e.clientX - r.left) / r.width)),
-               Math.min(1, Math.max(0, (e.clientY - r.top) / r.height)));
+      body.addEventListener("mouseup", () => pickText(target));
+      body.addEventListener("touchend", () => setTimeout(() => pickText(target), 10));
+      bWhole.addEventListener("click", () =>
+        composer.open({ quote: "", start: -1, end: -1 },
+          [document.createTextNode("この投稿 全体について")]));
+
+      const recount = () => {
+        const x = weight(eta.value);
+        count.textContent = "重み " + x + " / 280（余裕 " + (280 - x) + "）";
+        count.classList.toggle("over", x > 280);
+        eSave.disabled = x > 280 || !eta.value.trim();
+      };
+      eta.addEventListener("input", recount);
+      bEdit.addEventListener("click", () => {
+        eta.value = textOf(target);
+        editor.hidden = false; body.hidden = true; tip.hidden = true;
+        recount(); eta.focus();
       });
-      canvas.addEventListener("keydown", (e) => {
-        if (e.key === "Enter" || e.key === " ") { e.preventDefault(); openAt(0.5, 0.5); }
+      const closeEditor = () => { editor.hidden = true; body.hidden = false; tip.hidden = false; };
+      eCancel.addEventListener("click", closeEditor);
+      eSave.addEventListener("click", async () => {
+        if (!db) { say("保存できません。公開されたリンクから開いてください。"); return; }
+        eSave.disabled = true;
+        try {
+          await db.doc("drafts/" + target.replace("/", "-"))
+            .set({ target, text: eta.value, updatedAt: new Date().toISOString() });
+          tell("文面を保存しました。Claude はこの文面を読みます。");
+          closeEditor();
+        } catch (e) { say("保存できませんでした（" + (e && e.code ? e.code : "不明") + "）。"); }
+        eSave.disabled = false;
       });
+      eReset.addEventListener("click", async () => {
+        if (!db) return;
+        try { await db.doc("drafts/" + target.replace("/", "-")).delete(); closeEditor(); }
+        catch (e) { say("戻せませんでした。"); }
+      });
+
+      // --- この投稿に付ける画像 ---
+      if (i === 0 && set.images.length) {
+        const shots = document.createElement("div"); shots.className = "shots";
+        const lbl = document.createElement("p"); lbl.className = "subhead";
+        lbl.textContent = "この投稿に付ける画像 " + set.images.length + " 枚";
+        shots.append(lbl);
+
+        set.images.forEach((im, k) => {
+          const it = set.key + "/" + im.file;
+          const pr = document.createElement("article"); pr.className = "proof";
+          const prh = document.createElement("div"); prh.className = "proof-head";
+          const num = document.createElement("span"); num.className = "num";
+          num.textContent = String(k + 1).padStart(2, "0");
+          const h3 = document.createElement("h3"); h3.textContent = im.name;
+          const cap = document.createElement("span"); cap.className = "cap"; cap.textContent = im.cap;
+          prh.append(num, h3, cap);
+
+          const canvas = document.createElement("div");
+          canvas.className = "canvas"; canvas.tabIndex = 0;
+          canvas.setAttribute("role", "button");
+          canvas.setAttribute("aria-label", im.name + " にコメントを置く");
+          const img = document.createElement("img");
+          img.src = IMG[set.slug + "/" + im.file] || "";
+          img.alt = im.cap; img.draggable = false;
+          const pins = document.createElement("div");
+          const hint = document.createElement("div"); hint.className = "hint";
+          hint.textContent = "直したいところをクリック";
+          canvas.append(img, pins, hint);
+          // **読めなかったことを黙らせない**（1 度 それで気づけなかった）
+          img.addEventListener("error", () => {
+            hint.textContent = "この画像が読み込めていません"; hint.style.opacity = "1";
+          });
+
+          const ic = makeComposer((ctx, comment) =>
+            addPin({ target: it, set: set.key, slug: set.slug, kind: "image",
+                     file: im.file, x: ctx.x, y: ctx.y, text: comment }));
+          const ith = document.createElement("ul"); ith.className = "threads";
+          const empty = document.createElement("p"); empty.className = "empty";
+          empty.textContent = "まだコメントはありません。";
+
+          pr.append(prh, canvas, ic, ith, empty);
+          shots.append(pr);
+          slots.set(it, { kind: "image", pins, threads: ith, empty, composer: ic });
+
+          const openAt = (x, y) => ic.open({ x, y },
+            [document.createTextNode("位置 " + Math.round(x * 100) + "% / " + Math.round(y * 100) + "%")]);
+          canvas.addEventListener("click", (e) => {
+            if (e.target.closest(".pin")) return;
+            const r = canvas.getBoundingClientRect();
+            openAt(Math.min(1, Math.max(0, (e.clientX - r.left) / r.width)),
+                   Math.min(1, Math.max(0, (e.clientY - r.top) / r.height)));
+          });
+          canvas.addEventListener("keydown", (e) => {
+            if (e.key === "Enter" || e.key === " ") { e.preventDefault(); openAt(0.5, 0.5); }
+          });
+        });
+        art.append(shots);
+      }
     });
 
     main.append(sec);
   }
+
+  const textOf = (target) => {
+    const d = drafts[target];
+    return typeof d === "string" ? d : slots.get(target).base;
+  };
 
   // ---------- なぞった範囲 → 文字位置 ----------
   function offsetOf(root, node, off) {
@@ -447,7 +472,7 @@
     return -1;
   }
 
-  function pick(target) {
+  function pickText(target) {
     const slot = slots.get(target);
     const sel = window.getSelection();
     if (!sel || sel.isCollapsed || !sel.rangeCount) return;
@@ -457,7 +482,7 @@
     let b = offsetOf(slot.body, r.endContainer, r.endOffset);
     if (a < 0 || b < 0) return;
     if (a > b) { const t = a; a = b; b = t; }
-    const quote = slot.text.slice(a, b).trim();
+    const quote = textOf(target).slice(a, b).trim();
     if (!quote) return;
     const q = document.createElement("q");
     q.textContent = quote.length > 40 ? quote.slice(0, 40) + "…" : quote;
@@ -466,30 +491,54 @@
   }
 
   // ---------- 描画 ----------
-  function forTarget(t) { return rows.filter((r) => r.target === t); }
+  const forTarget = (t) => rows.filter((r) => r.target === t);
+
+  // 文面を書き換えると位置がずれる。**引用で探し直す**
+  function locate(text, r) {
+    if (r.start >= 0 && r.end <= text.length && text.slice(r.start, r.end) === r.quote) {
+      return [r.start, r.end];
+    }
+    if (r.quote) {
+      const i = text.indexOf(r.quote);
+      if (i >= 0) return [i, i + r.quote.length];
+    }
+    return null;
+  }
 
   function renderText(target) {
     const slot = slots.get(target);
-    const mine = forTarget(target).filter((r) => r.start >= 0)
-      .slice().sort((a, b) => a.start - b.start);
+    const text = textOf(target);
     const all = forTarget(target);
+
+    const wt = weight(text);
+    slot.w.textContent = "重み " + wt + " / 280（余裕 " + (280 - wt) + "）";
+    slot.w.classList.toggle("over", wt > 280);
+    slot.edited.hidden = typeof drafts[target] !== "string";
+
+    const marks = [];
+    all.forEach((r) => {
+      const at = locate(text, r);
+      if (at) marks.push({ r, a: at[0], b: at[1], n: all.indexOf(r) + 1 });
+    });
+    marks.sort((p, q) => p.a - q.a);
+
     const frag = document.createDocumentFragment();
     let cur = 0;
-    for (const r of mine) {
-      if (r.start < cur || r.end > slot.text.length) continue;   // 重なりは先勝ち
-      frag.append(document.createTextNode(slot.text.slice(cur, r.start)));
-      const m = document.createElement("mark");
-      m.dataset.done = r.done ? "1" : "0";
-      m.append(document.createTextNode(slot.text.slice(r.start, r.end)));
-      const sup = document.createElement("sup");
-      sup.textContent = String(all.indexOf(r) + 1);
-      m.append(sup);
-      frag.append(m);
-      cur = r.end;
+    for (const m of marks) {
+      if (m.a < cur) continue;                       // 重なりは先勝ち
+      frag.append(document.createTextNode(text.slice(cur, m.a)));
+      const el = document.createElement("mark");
+      el.dataset.done = m.r.done ? "1" : "0";
+      el.append(document.createTextNode(text.slice(m.a, m.b)));
+      const sup = document.createElement("sup"); sup.textContent = String(m.n);
+      el.append(sup);
+      frag.append(el);
+      cur = m.b;
     }
-    frag.append(document.createTextNode(slot.text.slice(cur)));
+    frag.append(document.createTextNode(text.slice(cur)));
     slot.body.replaceChildren(frag);
-    renderThreads(target);
+
+    renderThreads(target, (r) => !locate(text, r) && r.start >= 0);
   }
 
   function renderPins(target) {
@@ -498,8 +547,7 @@
     slot.pins.replaceChildren();
     mine.forEach((r, i) => {
       const b = document.createElement("button");
-      b.type = "button";
-      b.className = "pin";
+      b.type = "button"; b.className = "pin";
       b.dataset.done = r.done ? "1" : "0";
       b.style.left = (r.x * 100) + "%";
       b.style.top = (r.y * 100) + "%";
@@ -517,42 +565,36 @@
       slot.pins.append(g);
     }
     slot.empty.hidden = mine.length > 0;
-    renderThreads(target);
+    renderThreads(target, () => false);
   }
 
-  function renderThreads(target) {
+  function renderThreads(target, isLost) {
     const slot = slots.get(target);
-    const mine = forTarget(target);
     slot.threads.replaceChildren();
-    mine.forEach((r, i) => {
+    forTarget(target).forEach((r, i) => {
       const li = document.createElement("li");
       li.dataset.done = r.done ? "1" : "0";
-
-      const tag = document.createElement("span");
-      tag.className = "tag";
-      tag.textContent = String(i + 1);
+      const tag = document.createElement("span"); tag.className = "tag"; tag.textContent = String(i + 1);
 
       const col = document.createElement("div");
       if (r.quote) {
-        const q = document.createElement("span");
-        q.className = "quote";
+        const q = document.createElement("span"); q.className = "quote";
         const b = document.createElement("b");
         b.textContent = r.quote.length > 48 ? r.quote.slice(0, 48) + "…" : r.quote;
-        q.append(b);
-        col.append(q);
+        q.append(b); col.append(q);
       }
-      const body = document.createElement("div");
-      body.className = "body";
-      body.textContent = r.text;
-      const meta = document.createElement("div");
-      meta.className = "meta";
+      if (isLost(r)) {
+        const l = document.createElement("span"); l.className = "lost";
+        l.textContent = "（文面が書き換わったため、この箇所は今の文面にありません）";
+        col.append(l);
+      }
+      const body = document.createElement("div"); body.className = "body"; body.textContent = r.text;
+      const meta = document.createElement("div"); meta.className = "meta";
       meta.textContent = fmt(r.createdAt) + (r.done ? " ・ 対応済み" : "");
       col.append(body, meta);
 
-      const acts = document.createElement("div");
-      acts.className = "acts";
-      const bDone = document.createElement("button");
-      bDone.type = "button";
+      const acts = document.createElement("div"); acts.className = "acts";
+      const bDone = document.createElement("button"); bDone.type = "button";
       bDone.textContent = r.done ? "戻す" : "対応済み";
       bDone.addEventListener("click", async () => {
         if (!db) return;
@@ -561,9 +603,7 @@
         catch (e) { say("更新できませんでした。"); }
         finally { bDone.disabled = false; }
       });
-      const bDel = document.createElement("button");
-      bDel.type = "button";
-      bDel.textContent = "削除";
+      const bDel = document.createElement("button"); bDel.type = "button"; bDel.textContent = "削除";
       bDel.addEventListener("click", async () => {
         if (!db) return;
         bDel.disabled = true;
@@ -595,6 +635,24 @@
 
   render();
 
+  // ---------- 「修正をお願いする」 ----------
+  btnAsk.addEventListener("click", async () => {
+    if (!db) { say("押せません。公開されたリンクから開いてください。"); return; }
+    btnAsk.disabled = true;
+    try {
+      const open = rows.filter((r) => !r.done).length;
+      const edits = Object.keys(drafts).length;
+      await db.collection("requests").add({
+        status: "open", askedAt: new Date().toISOString(),
+        openComments: open, editedPosts: edits
+      });
+      tell("受け付けました（未対応 " + open + " 件・書き換え " + edits + " 本）。"
+        + "Claude が次にこのページを読んだときに拾います。"
+        + "すぐ動かしたいときは、チャットで「コメントした」と伝えてください。");
+    } catch (e) { say("受け付けできませんでした（" + (e && e.code ? e.code : "不明") + "）。"); }
+    btnAsk.disabled = false;
+  });
+
   // ---------- 保存先 ----------
   (async () => {
     let cap = null;
@@ -602,24 +660,24 @@
     if (!cap) {
       elConn.textContent = "保存できません";
       say("このページではコメントを保持できません。公開されたリンクから開いてください。");
+      btnAsk.disabled = true;
       return;
     }
     db = cap;
-    elConn.textContent = "コメントは自動で保存されます";
+    elConn.textContent = "自動で保存されます";
+
     db.collection("pins").orderBy("createdAt").onSnapshot(
       (snap) => {
         rows = snap.docs.map((d) => {
           const v = d.data() || {};
           return {
-            id: d.id,
-            target: String(v.target || ""),
+            id: d.id, target: String(v.target || ""),
             x: typeof v.x === "number" ? v.x : 0.5,
             y: typeof v.y === "number" ? v.y : 0.5,
             quote: typeof v.quote === "string" ? v.quote : "",
             start: typeof v.start === "number" ? v.start : -1,
             end: typeof v.end === "number" ? v.end : -1,
-            text: String(v.text || ""),
-            done: v.done === true,
+            text: String(v.text || ""), done: v.done === true,
             createdAt: String(v.createdAt || "")
           };
         });
@@ -629,6 +687,19 @@
         elConn.textContent = "接続が切れました";
         say("コメントの読み込みが止まりました（" + err.code + "）。ページを開き直してください。");
       }
+    );
+
+    db.collection("drafts").onSnapshot(
+      (snap) => {
+        const next = {};
+        snap.docs.forEach((d) => {
+          const v = d.data() || {};
+          if (typeof v.target === "string" && typeof v.text === "string") next[v.target] = v.text;
+        });
+        drafts = next;
+        render();
+      },
+      () => { /* 書き換えが読めなくても、元の文面で動く */ }
     );
   })();
 })();
