@@ -1,0 +1,168 @@
+{
+  "_note": "識別目的で使うロゴ。**商標であり自由ライセンスではない。**改変せず、余白のみ切って置くこと。取得日 2026-09-20（ops/tasks/t118-walk-outlet-logos.sh）。",
+  "torima": [
+    {
+      "brand": "トリマ",
+      "file": "torima-site.png",
+      "source": "https://static.wixstatic.com/media/1c6895_02809b01f3444f4eb9d6431545465927~mv2.png/v1/fill/w_1200,h_630,al_c/1c6895_02809b01f3444f4eb9d6431545465927~mv2.png",
+      "page": "https://www.trip-mile.com/",
+      "license_note": "公式サイト（商標）",
+      "width": 1200,
+      "height": 630
+    }
+  ],
+  "rakutenhealth": [
+    {
+      "brand": "楽天ヘルスケア",
+      "file": "rakutenhealth-site.png",
+      "source": "https://healthcare.rakuten.co.jp/assets/images/top-ogp.png",
+      "page": "https://healthcare.rakuten.co.jp/",
+      "license_note": "公式サイト（商標）",
+      "width": 1200,
+      "height": 630
+    }
+  ],
+  "arucoin": [
+    {
+      "brand": "アルコイン",
+      "file": "arucoin-site.png",
+      "source": "https://agoop.co.jp/wp-content/uploads/2020/03/ogimage.jpg",
+      "page": "https://www.agoop.co.jp/",
+      "license_note": "公式サイト（商標）",
+      "width": 1200,
+      "height": 630
+    }
+  ],
+  "renobody": [
+    {
+      "brand": "RenoBody",
+      "file": "renobody-site.png",
+      "source": "https://info.renobody.jp/prod/asset/img/sp/logo_menu.png",
+      "page": "https://info.renobody.jp/prod/index.html",
+      "license_note": "公式サイト（商標）",
+      "width": 423,
+      "height": 99
+    }
+  ],
+  "pixela": [
+    {
+      "brand": "ピクセラ",
+      "file": "pixela-site.png",
+      "source": "https://www.pixela.co.jp/common/image/pixela_ogp.png",
+      "page": "https://www.pixela.co.jp/",
+      "license_note": "公式サイト（商標）",
+      "width": 500,
+      "height": 500
+    }
+  ],
+  "rakutensenior": [
+    {
+      "brand": "楽天シニア",
+      "file": "rakutensenior-site.png",
+      "source": "https://senior.rakuten.co.jp/assets/img/top/ogp_202311.png",
+      "page": "https://senior.rakuten.co.jp/",
+      "license_note": "公式サイト（商標）",
+      "width": 1200,
+      "height": 630
+    }
+  ],
+  "arukuto": [
+    {
+      "brand": "aruku&",
+      "file": "arukuto-site.png",
+      "source": "https://www.arukuto.jp/wp-content/themes/arukuto/img/ogp.png",
+      "page": "https://www.arukuto.jp/",
+      "license_note": "公式サイト（商標）",
+      "width": 1200,
+      "height": 630
+    }
+  ],
+  "vitality": [
+    {
+      "brand": "住友生命 Vitality",
+      "file": "vitality-site.png",
+      "source": "https://vitality.sumitomolife.co.jp/cnt_common/images/ogp.png",
+      "page": "https://vitality.sumitomolife.co.jp/",
+      "license_note": "公式サイト（商標）",
+      "width": 1200,
+      "height": 630
+    }
+  ],
+  "kencom": [
+    {
+      "brand": "kencom",
+      "file": "kencom-site.png",
+      "source": "https://img-a.kencom.jp/assets/common/og_image-18816b43025dc6c4d2429c0e286257b1.png",
+      "page": "https://kencom.jp/",
+      "license_note": "公式サイト（商標）",
+      "width": 1200,
+      "height": 630
+    }
+  ],
+  "uplus": [
+    {
+      "brand": "東京健康UPlus",
+      "file": "uplus-site.png",
+      "source": "https://kenkou-uplus.metro.tokyo.lg.jp/common/img/og.png",
+      "page": "https://kenkou-uplus.metro.tokyo.lg.jp/",
+      "license_note": "公式サイト（商標）",
+      "width": 1200,
+      "height": 630
+    }
+  ],
+  "cokeon": [
+    {
+      "brand": "Coke ON",
+      "file": "cokeon-site.png",
+      "source": "https://c.cocacola.co.jp/app/images/ogimage.png",
+      "page": "https://c.cocacola.co.jp/app/",
+      "license_note": "公式サイト（商標）",
+      "width": 1200,
+      "height": 630
+    }
+  ],
+  "premium": [
+    {
+      "brand": "プレミアム・アウトレット",
+      "file": "premium-site.png",
+      "source": "https://www.premiumoutlets.co.jp/_assets/images/common/ogp/po.png",
+      "page": "https://www.premiumoutlets.co.jp/",
+      "license_note": "公式サイト（商標）",
+      "width": 1200,
+      "height": 630
+    }
+  ],
+  "mitsui": [
+    {
+      "brand": "三井ショッピングパーク",
+      "file": "mitsui-site.png",
+      "source": "https://mitsui-shopping-park.com/common/image/common/og-mitsui.jpg",
+      "page": "https://mitsui-shopping-park.com/",
+      "license_note": "公式サイト（商標）",
+      "width": 1200,
+      "height": 630
+    }
+  ],
+  "hiroshima": [
+    {
+      "brand": "THE OUTLETS HIROSHIMA",
+      "file": "hiroshima-site.png",
+      "source": "https://the-outlets-hiroshima.com/files/shops/12483000096764bdf798c7d/logo.png",
+      "page": "https://the-outlets-hiroshima.com/",
+      "license_note": "公式サイト（商標）",
+      "width": 640,
+      "height": 334
+    }
+  ],
+  "aeonmall": [
+    {
+      "brand": "イオンモール",
+      "file": "aeonmall-site.png",
+      "source": "https://www.aeonmall.com/img/common/ogp.png",
+      "page": "https://www.aeonmall.com/",
+      "license_note": "公式サイト（商標）",
+      "width": 1200,
+      "height": 630
+    }
+  ]
+}

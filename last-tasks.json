@@ -1,1 +1,6 @@
-[]
+[
+      {"task": "t116-gakuwari-logos-a.sh", "rc": 0, "out": " ## Notion    - ✗ 画像として開けない（UnidentifiedImageError） ← `https://upload.wikimedia.org/wikipedia/commons/e/e9/Notion-logo.svg?utm_source=c`   - ✅ `notion-site.png` / 2400x1250 / **公式サイト（商標）**"},
+      {"task": "t117-gakuwari-logos-b.sh", "rc": 0, "out": "   - ✗ 起点が読めない（TimeoutError）   - **取れなかった。** 次はメディアキット／プレスリリースを直接 当たる  ## ユニバーサル・スタジオ・ジャパン"},
+      {"task": "t118-walk-outlet-logos.sh", "rc": 0, "out": "   - ✅ `rakutenhealth-site.png` / 1200x630 / **公式サイト（商標）**         ← `https://healthcare.rakuten.co.jp/assets/images/top-ogp.png`  ## dヘルスケア"},
+      {"task": "t119-gyomu-logo-given.sh", "rc": 0, "out": "**URL は利用者が名指ししたものをそのまま使っている。**  `https://play-lh.googleusercontent.com/05N6s2kPrcS7UA_YS7qHblsJ1Lzxo6C2MNatbOFA0tW4SEykbqihG2U9FRYXvenZwv_bpXfeSp3vAJRKV_OA`  ✅ `gyomu.png` / 512x512 / RGBA"}
+  ]
