@@ -51,12 +51,12 @@ author: "hacker-ko"
 <div class="compare-cards">
   <article class="compare-card recommended">
     <span class="compare-card-tag is-main">メイン</span>
-    <h3>モッピー</h3>
+    <h3 class="brand-h"><img class="brand-logo" src="/images/pointsite-comparison-2026/logos/moppy.png" alt="モッピーのロゴ" loading="lazy" /><span>モッピー</span></h3>
     <p class="tagline">案件数No.1・ANAマイル交換でマイラー圧勝。<strong>メインに据えるならココ</strong>。</p>
   </article>
   <article class="compare-card">
     <span class="compare-card-tag is-sub">サブ・ショッピング系</span>
-    <h3>ハピタス</h3>
+    <h3 class="brand-h"><img class="brand-logo" src="/images/pointsite-comparison-2026/logos/hapitas.png" alt="ハピタスのロゴ" loading="lazy" /><span>ハピタス</span></h3>
     <p class="tagline">楽天・Yahoo!ショッピングの還元率が頭ひとつ抜けてる。<strong>買い物のときだけ切替</strong>。</p>
   </article>
   <article class="compare-card">
@@ -108,7 +108,7 @@ author: "hacker-ko"
     <span class="compare-card-image"><img src="https://img.moppy.jp/pub/global/pc/top/nologin/redesign_202510/mainvisual_moppy.png" alt="モッピー メインビジュアル" loading="lazy" /></span>
     <span class="compare-card-tag is-main">メイン</span>
     <span class="compare-card-mascot"><img src="/images/expr-05-smug.png" alt="" /></span>
-    <h3>モッピー</h3>
+    <h3 class="brand-h"><img class="brand-logo" src="/images/pointsite-comparison-2026/logos/moppy.png" alt="モッピーのロゴ" loading="lazy" /><span>モッピー</span></h3>
     <p class="tagline">国内最大級・案件数No.1。マイラー御用達の絶対王者。</p>
     <dl>
       <dt>運営</dt><dd>株式会社セレス（東証プライム上場）</dd>
@@ -128,7 +128,7 @@ author: "hacker-ko"
     <span class="compare-card-image is-logo"><img src="https://img.hapitas.jp/img/images/logo.png" alt="ハピタス 公式ロゴ" loading="lazy" /></span>
     <span class="compare-card-tag is-sub">サブ・ショッピング系</span>
     <span class="compare-card-mascot"><img src="/images/expr-04-cheer.png" alt="" /></span>
-    <h3>ハピタス</h3>
+    <h3 class="brand-h"><img class="brand-logo" src="/images/pointsite-comparison-2026/logos/hapitas.png" alt="ハピタスのロゴ" loading="lazy" /><span>ハピタス</span></h3>
     <p class="tagline">ショッピング案件の還元率がエグい。買い物中心ならコレ。</p>
     <dl>
       <dt>運営</dt><dd>株式会社オズビジョン</dd>

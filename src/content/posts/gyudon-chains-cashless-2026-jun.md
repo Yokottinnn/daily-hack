@@ -62,7 +62,7 @@ references: ["https://www.matsuyafoods.co.jp/matsuya/whatsnew/campaign/154328.ht
 
 ## 🍚 各チェーン詳細
 
-### 🐂 松屋（60周年記念で過去最強）
+<h3 class="brand-h"><img class="brand-logo" src="/images/gyudon-chains-cashless-2026-jun/logos/matsuya.png" alt="松屋のロゴ" loading="lazy" /><span>🐂 松屋（60周年記念で過去最強）</span></h3>
 
 - **PayPay**: 6/15-16 の2日限定で**最大40%還元（350pt/回上限）**。6/1-30 は通常**10%還元（200pt/回上限）**。要松屋アプリ事前注文 + 800円以上
 - **d払い**: 6/1-6/20、既存ユーザ<strong>+15%還元</strong>／新規・復帰<strong>+20%還元</strong>。上限 1回 300pt・期間 5,000pt
@@ -72,7 +72,7 @@ references: ["https://www.matsuyafoods.co.jp/matsuya/whatsnew/campaign/154328.ht
 
 詳細: [松屋60周年4大コード決済キャンペーン徹底比較](/posts/matsuya-60th-cashless-2026-jun/)
 
-### 🐂 吉野家（d払いテイクアウト 20%還元）
+<h3 class="brand-h"><img class="brand-logo" src="/images/gyudon-chains-cashless-2026-jun/logos/yoshinoya.png" alt="吉野家のロゴ" loading="lazy" /><span>🐂 吉野家（d払いテイクアウト 20%還元）</span></h3>
 
 - **d払い**: d払いの「予約・注文サービス」内「**吉野家テイクアウト**」専用、**通常還元 + 20%還元**（〜2026年6月6日）
 - **楽天ペイ**: 楽天カードからチャージ → 楽天ペイ決済（1.5%）+ 楽天ポイントカード提示（0.5%）= **2.0%還元**
@@ -80,7 +80,7 @@ references: ["https://www.matsuyafoods.co.jp/matsuya/whatsnew/campaign/154328.ht
 - **対応決済**: PayPay/d払い/楽天ペイ/au PAY/メルペイ/クオカードPay/AliPay/WeChatPay
 - **その他**: 吉野家公式アプリにクーポン配信あり（牛丼並大盛り無料券、サイドメニュー無料券など）
 
-### 🐂 すき家（ゼンショー共通ポイント15倍）
+<h3 class="brand-h"><img class="brand-logo" src="/images/gyudon-chains-cashless-2026-jun/logos/sukiya.png" alt="すき家のロゴ" loading="lazy" /><span>🐂 すき家（ゼンショー共通ポイント15倍）</span></h3>
 
 - **🏆 三井住友カードNL/CL/Gold**: スマホタッチ決済 or モバイルオーダー利用で**7%還元**（年会費永年無料NLでもOK）
 - **🏆 ゼンショー共通ポイント**: 楽天ポイント・dポイント・Vポイント・Pontaポイントが、月内の来店回数に応じて倍率UP
@@ -93,7 +93,7 @@ references: ["https://www.matsuyafoods.co.jp/matsuya/whatsnew/campaign/154328.ht
 - **楽天ペイ**: 楽天カード→楽天キャッシュ→楽天ペイ + 楽天ポイントカード提示 = 2.0%
 - **対象店舗**: 全国のすき家（一部例外あり）
 
-### 🐂 なか卯（ゼンショー共通ポイント15倍 + アプリクーポン）
+<h3 class="brand-h"><img class="brand-logo" src="/images/gyudon-chains-cashless-2026-jun/logos/nakau.png" alt="なか卯のロゴ" loading="lazy" /><span>🐂 なか卯（ゼンショー共通ポイント15倍 + アプリクーポン）</span></h3>
 
 - **🏆 三井住友カードNL/CL/Gold**: タッチ決済 or モバイルオーダーで**7%還元**（すき家と同じ仕様）
 - **🏆 ゼンショー共通ポイント**: dポイント・Vポイント・楽天ポイント が**最大15倍**（来店回数連動、すき家と同じ仕様）

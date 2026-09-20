@@ -15,5 +15,21 @@
     "fetched": "2026-09-20",
     "license_note": "公式サイトのロゴ画像（商標）",
     "task": "ops/tasks/t130-*.sh"
+  },
+  "moppy.png": {
+    "brand": "モッピー",
+    "source": "public/images/point-service-complete-guide-2026/logos/ から複製",
+    "page": "同記事の _manifest.json に取得元がある",
+    "fetched": "2026-09-20",
+    "license_note": "商標。識別目的で使用",
+    "task": "既に取得済みのものを使い回した（t130 では取れなかった）"
+  },
+  "hapitas.png": {
+    "brand": "ハピタス",
+    "source": "public/images/point-service-complete-guide-2026/logos/ から複製",
+    "page": "同記事の _manifest.json に取得元がある",
+    "fetched": "2026-09-20",
+    "license_note": "商標。識別目的で使用",
+    "task": "既に取得済みのものを使い回した（t130 では取れなかった）"
   }
 }
