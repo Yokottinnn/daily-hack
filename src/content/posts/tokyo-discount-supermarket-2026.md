@@ -375,11 +375,11 @@ references:
   </div>
   <span class="pos-zone" style="left:10px; top:72px;">↑ 大箱で稼ぐ</span>
   <span class="pos-zone" style="right:8px; top:150px;">小箱を数で敷く →</span>
-  <div class="pos-dot is-key" style="left:10.4%; bottom:90.4%"><i></i><b>ロピア 45.2億</b></div>
-  <div class="pos-dot is-key lbl-right" style="left:12.4%; bottom:86.8%"><i></i><b>オーケー 43.4億</b></div>
+  <div class="pos-dot is-key lbl-left" style="left:10.4%; bottom:90.4%"><i></i><b class="with-logo"><img class="brand-logo-xs" src="/images/tokyo-discount-supermarket-2026/logos/lopia.png" alt="" loading="lazy" />ロピア 45.2億</b></div>
+  <div class="pos-dot is-key lbl-right" style="left:12.4%; bottom:86.8%"><i></i><b class="with-logo"><img class="brand-logo-xs" src="/images/tokyo-discount-supermarket-2026/logos/ok.png" alt="" loading="lazy" />オーケー 43.4億</b></div>
   <div class="pos-dot" style="left:44.4%; bottom:43.4%"><i></i><b>トライアルG 21.7億</b></div>
-  <div class="pos-dot lbl-below" style="left:8.1%; bottom:31.8%"><i></i><b>ハナマサほか 15.9億</b></div>
-  <div class="pos-dot is-key lbl-left" style="left:90.1%; bottom:4.8%"><i></i><b>まいばすけっと 2.4億</b></div>
+  <div class="pos-dot lbl-below" style="left:8.1%; bottom:31.8%"><i></i><b class="with-logo"><img class="brand-logo-xs" src="/images/tokyo-discount-supermarket-2026/logos/hanamasa.png" alt="" loading="lazy" />ハナマサほか 15.9億</b></div>
+  <div class="pos-dot is-key lbl-left" style="left:90.1%; bottom:4.8%"><i></i><b class="with-logo"><img class="brand-logo-xs" src="/images/tokyo-discount-supermarket-2026/logos/mybasket.png" alt="" loading="lazy" />まいばすけっと 2.4億</b></div>
 </div>
 <div class="pos-axis-x">
   <span style="left:0">0店</span>

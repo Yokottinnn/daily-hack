@@ -609,7 +609,7 @@ footer.foot .pr { margin-top: 6px; }
 
 /* 勢力図（店舗数 × 1店あたり年商 の2軸マップ） */
 .map-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; margin: 24px 0 8px; }
-.pos-map { position: relative; min-width: 480px; height: 340px; margin: 0 30px 0 46px;
+.pos-map { position: relative; min-width: 480px; height: 420px; margin: 0 30px 0 46px;
   background:
     linear-gradient(to right, var(--line) 1px, transparent 1px) 0 0 / 25% 100%,
     linear-gradient(to top, var(--line) 1px, transparent 1px) 0 100% / 100% 25%;
@@ -621,7 +621,20 @@ footer.foot .pr { margin-top: 6px; }
 .pos-dot b { position: absolute; left: 50%; bottom: 22px; transform: translateX(-50%);
   white-space: nowrap; font-size: 12px; font-weight: 800; color: var(--pink-700); background: #fff;
   border: 1px solid var(--pink-200); border-radius: 999px; padding: 1px 8px; }
-.pos-dot.lbl-below b { bottom: auto; top: 22px; }
+
+/* **勢力図のラベルにもロゴを置く**（2026-09-20 に指示）。
+   点の横が文字だけだと、どの店の話か読まないと分からない。 */
+.pos-dot b .brand-logo-xs {
+  display: block; height: 18px; width: auto; max-width: 74px; object-fit: contain;
+  margin: 0 auto 3px; background: #fff; border-radius: 4px;
+  border: 1px solid var(--pink-200); padding: 2px 4px;
+}
+.pos-dot.lbl-left b .brand-logo-xs, .pos-dot.lbl-right b .brand-logo-xs { margin-left: 0; }
+/* ロゴが入る札は丸ピルだと窮屈なので、角丸の箱にする */
+.pos-dot b.with-logo { border-radius: 10px; padding: 4px 8px 3px; line-height: 1.25; }
+@media (max-width: 559px) {
+  .pos-dot b .brand-logo-xs { height: 17px; max-width: 62px; }
+}.pos-dot.lbl-below b { bottom: auto; top: 22px; }
 .pos-dot.lbl-left b { left: auto; right: 22px; bottom: -8px; transform: none; }
 .pos-dot.lbl-right b { left: 22px; right: auto; bottom: -8px; transform: none; }
 .pos-axis-y { position: absolute; left: -46px; top: 0; bottom: 0; width: 42px; font-size: 11px; color: var(--ink-3); }
@@ -1293,7 +1306,9 @@ blockquote.twitter-tweet a:hover { color: var(--pink-700); }
    `.section-with-mascot h2.brand-h .brand-logo` を足して詳細度で勝たせている。 */
 
 /* 表のセルの中にロゴを置く（.cell-brand）。見出しを持たないチェーンのため。 */
-.cell-brand { display: flex; align-items: center; gap: 9px; }
+/* **ロゴは改行して、名前の上に置く**（2026-09-20 に指示）。
+   横並びだと名前が押されて折り返し、行の高さがばらつく。縦に積むと全行そろう。 */
+.cell-brand { display: flex; flex-direction: column; align-items: flex-start; gap: 6px; }
 .cell-brand .brand-logo-sm {
   flex: 0 0 auto; height: 30px; width: auto; max-width: 96px; object-fit: contain;
   background: #fff; border-radius: 6px; border: 1px solid var(--pink-200); padding: 3px 5px;
