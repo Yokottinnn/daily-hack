@@ -82,11 +82,11 @@ references:
 <table class="cmp-table prose-table">
 <thead><tr><th>カテゴリ</th><th>もらえるもの</th><th>主なサービス</th></tr></thead>
 <tbody>
-<tr class="recommended"><td><strong>① 航空マイル型</strong></td><td>JAL／ANAのマイル</td><td><a href="https://www.jal.co.jp/jp/ja/jmb/wellness/" target="_blank" rel="noopener">JAL Wellness &amp; Travel</a>／ANA Pocket</td></tr>
-<tr><td><strong>② 共通ポイント型</strong></td><td>楽天・d・PayPay・現金</td><td><a href="https://www.trip-mile.com/" target="_blank" rel="noopener">トリマ</a>／楽天ヘルスケア／dヘルスケア／アルコイン／エブリポイント／ポイすら／楽天シニア</td></tr>
-<tr><td><strong>③ 現物・特典交換型</strong></td><td>ドリンク・特産品・自社ポイント</td><td>Coke ON／スギサポwalk+／RenoBody／<a href="https://www.arukuto.jp/" target="_blank" rel="noopener">aruku&amp;</a></td></tr>
-<tr><td><strong>④ Web3型</strong></td><td>暗号資産・NFT</td><td>HEALTHREE／BitWalk／ステラウォーク／Sweatcoin／STEPN</td></tr>
-<tr><td><strong>⑤ 保険・自治体型</strong></td><td>保険料の割引・商品券</td><td><a href="https://vitality.sumitomolife.co.jp/about/status/" target="_blank" rel="noopener">住友生命 Vitality</a>／kencom／<a href="https://kenkou-uplus.metro.tokyo.lg.jp/" target="_blank" rel="noopener">東京健康UPlus</a>（アプリではなく都のWebサービス）／各自治体の健康ポイント</td></tr>
+<tr class="recommended"><td><strong>① 航空マイル型</strong></td><td>JAL／ANAのマイル</td><td><a href="https://www.jal.co.jp/jp/ja/jmb/wellness/" target="_blank" rel="noopener">JAL Wellness &amp; Travel</a>／<a href="https://www.ana.co.jp/ja/jp/amc/reference/anamile/pocket/" target="_blank" rel="noopener">ANA Pocket</a></td></tr>
+<tr><td><strong>② 共通ポイント型</strong></td><td>楽天・d・PayPay・現金</td><td><a href="https://www.trip-mile.com/" target="_blank" rel="noopener">トリマ</a>／<a href="https://healthcare.rakuten.co.jp/" target="_blank" rel="noopener">楽天ヘルスケア</a>／<a href="https://apps.apple.com/jp/app/d%E3%83%98%E3%83%AB%E3%82%B9%E3%82%B1%E3%82%A2-%E6%AD%A9%E6%95%B0%E3%81%A7d%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88%E3%81%8C%E3%81%9F%E3%81%BE%E3%82%8B%E5%81%A5%E5%BA%B7%E7%AE%A1%E7%90%86%E3%82%A2%E3%83%97%E3%83%AA/id1352137023" target="_blank" rel="noopener">dヘルスケア</a>／<a href="https://www.agoop.co.jp/" target="_blank" rel="noopener">アルコイン</a>／<a href="https://www.pixela.co.jp/products/everypoint/" target="_blank" rel="noopener">エブリポイント</a>／<a href="https://apps.apple.com/jp/app/%E3%83%9D%E3%82%A4%E3%81%99%E3%82%89-%E6%AD%A9%E3%81%84%E3%81%A6%E8%82%B2%E3%81%A6%E3%81%A6%E3%83%9D%E3%82%A4%E6%B4%BB%E3%82%A2%E3%83%97%E3%83%AA/id6738946565" target="_blank" rel="noopener">ポイすら</a>／<a href="https://senior.rakuten.co.jp/" target="_blank" rel="noopener">楽天シニア</a></td></tr>
+<tr><td><strong>③ 現物・特典交換型</strong></td><td>ドリンク・特産品・自社ポイント</td><td><a href="https://apps.apple.com/jp/app/coke-on-%E3%82%B3%E3%83%BC%E3%82%AF%E3%82%AA%E3%83%B3/id1088184021" target="_blank" rel="noopener">Coke ON</a>／<a href="https://www.sugi-net.jp/sugisapo/" target="_blank" rel="noopener">スギサポwalk+</a>／<a href="https://info.renobody.jp/prod/index.html" target="_blank" rel="noopener">RenoBody</a>／<a href="https://www.arukuto.jp/" target="_blank" rel="noopener">aruku&amp;</a></td></tr>
+<tr><td><strong>④ Web3型</strong></td><td>暗号資産・NFT</td><td><a href="https://apps.apple.com/jp/app/%E3%83%98%E3%83%AB%E3%82%B9%E3%83%AA%E3%83%BC-%E6%AD%A9%E3%81%84%E3%81%A6%E9%80%B2%E3%82%81%E3%82%8B%E9%81%8B%E5%8B%95%E5%9E%8Brpg/id6449821527" target="_blank" rel="noopener">HEALTHREE</a>／<a href="https://apps.apple.com/jp/app/%E6%AD%A9%E3%81%84%E3%81%A6%E3%83%9D%E3%82%A4%E6%B4%BB-%E3%83%93%E3%83%83%E3%83%88%E3%82%A6%E3%82%A9%E3%83%BC%E3%82%AF-%E6%AD%A9%E6%95%B0%E3%81%A7%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88-%E3%83%93%E3%83%83%E3%83%88%E3%82%B3%E3%82%A4%E3%83%B3/id1634543016" target="_blank" rel="noopener">BitWalk</a>／<a href="https://apps.apple.com/jp/app/%E3%82%B9%E3%83%86%E3%83%A9%E3%82%A6%E3%82%A9%E3%83%BC%E3%82%AF-%E6%AD%A9%E3%81%8F%E3%81%A0%E3%81%91%E3%81%A7%E6%9A%97%E5%8F%B7%E8%B3%87%E7%94%A3%E3%81%8C%E8%B2%B0%E3%81%88%E3%82%8B/id1599065744" target="_blank" rel="noopener">ステラウォーク</a>／<a href="https://apps.apple.com/jp/app/sweatcoin-%E3%81%86%E3%81%89%E3%83%BC%E3%81%8D%E3%82%93%E3%81%90%E3%81%82%E3%81%B7%E3%82%8A-%E6%AD%A9%E3%81%8F/id971023427" target="_blank" rel="noopener">Sweatcoin</a>／<a href="https://apps.apple.com/jp/app/stepn/id1598112424" target="_blank" rel="noopener">STEPN</a></td></tr>
+<tr><td><strong>⑤ 保険・自治体型</strong></td><td>保険料の割引・商品券</td><td><a href="https://vitality.sumitomolife.co.jp/about/status/" target="_blank" rel="noopener">住友生命 Vitality</a>／<a href="https://kencom.jp/" target="_blank" rel="noopener">kencom</a>／<a href="https://kenkou-uplus.metro.tokyo.lg.jp/" target="_blank" rel="noopener">東京健康UPlus</a>（アプリではなく都のWebサービス）／各自治体の健康ポイント</td></tr>
 </tbody>
 </table>
 </div>
@@ -165,15 +165,19 @@ references:
 <thead><tr><th>サービス</th><th>公表されている条件</th><th>1万歩×1年の計算</th></tr></thead>
 <tbody>
 <tr class="recommended"><td><strong><a href="https://info.renobody.jp/prod/index.html" target="_blank" rel="noopener">RenoBody</a></strong></td><td>1日8,000歩で<strong>1 WAON POINT</strong></td><td><strong>365P＝365円</strong>。毎日 達成できる</td></tr>
-<tr><td><strong>Coke ON</strong></td><td>週35,000歩で1スタンプ、<strong>15スタンプで1本無料</strong></td><td>1万歩なら週7万歩で条件クリア。<strong>15週で1本 → 年約3.4本</strong></td></tr>
-<tr><td><strong>スギサポwalk+</strong></td><td><strong>100スター＝1スギポイント</strong>、1,000スターから交換</td><td>スターの付与条件が歩数で変動。<strong>交換の下限が1,000スター＝10ポイント</strong></td></tr>
-<tr><td><strong>トリマ</strong></td><td><strong>100マイル＝1円</strong>。他社交換は手数料20%</td><td>歩数だけなら小さい。<strong>実質120マイル＝1円</strong>（プラチナ以上は手数料免除）</td></tr>
-<tr><td><strong>BitWalk</strong></td><td>1日<strong>最大40スタンプ・20,000歩</strong>まで</td><td>広告視聴を全部こなした場合の試算は<a href="#web3">後述</a></td></tr>
+<tr><td><strong><a href="https://apps.apple.com/jp/app/coke-on-%E3%82%B3%E3%83%BC%E3%82%AF%E3%82%AA%E3%83%B3/id1088184021" target="_blank" rel="noopener">Coke ON</a></strong></td><td>週35,000歩で1スタンプ、<strong>15スタンプで1本無料</strong></td><td>1万歩なら週7万歩で条件クリア。<strong>15週で1本 → 年約3.4本</strong></td></tr>
+<tr><td><strong><a href="https://www.sugi-net.jp/sugisapo/" target="_blank" rel="noopener">スギサポwalk+</a></strong></td><td><strong>100スター＝1スギポイント</strong>、1,000スターから交換</td><td>スターの付与条件が歩数で変動。<strong>交換の下限が1,000スター＝10ポイント</strong></td></tr>
+<tr><td><strong><a href="https://senior.rakuten.co.jp/" target="_blank" rel="noopener">楽天シニア</a></strong></td><td>1日4,000歩で翌日<strong>スタンプ1個</strong>。3個で1P、<strong>7個で3P</strong></td><td>毎日 達成なら年365スタンプ。<strong>7個ごとに3P ＝ 年156P前後</strong></td></tr>
+<tr><td><strong><a href="https://www.arukuto.jp/" target="_blank" rel="noopener">aruku&amp;</a></strong></td><td><strong>1,000歩ごとに1ポイント</strong>（aruku&amp;ポイント）</td><td>1万歩なら<strong>1日10ポイント・年3,650ポイント</strong>。使い道は名産品の応募が中心</td></tr>
+<tr><td><strong><a href="https://www.trip-mile.com/" target="_blank" rel="noopener">トリマ</a></strong></td><td><strong>100マイル＝1円</strong>。他社交換は手数料20%</td><td>歩数だけなら小さい。<strong>実質120マイル＝1円</strong>（プラチナ以上は手数料免除）</td></tr>
+<tr><td><strong><a href="https://apps.apple.com/jp/app/%E6%AD%A9%E3%81%84%E3%81%A6%E3%83%9D%E3%82%A4%E6%B4%BB-%E3%83%93%E3%83%83%E3%83%88%E3%82%A6%E3%82%A9%E3%83%BC%E3%82%AF-%E6%AD%A9%E6%95%B0%E3%81%A7%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88-%E3%83%93%E3%83%83%E3%83%88%E3%82%B3%E3%82%A4%E3%83%B3/id1634543016" target="_blank" rel="noopener">BitWalk</a></strong></td><td>1日<strong>最大40スタンプ・20,000歩</strong>まで</td><td>広告視聴を全部こなした場合の試算は<a href="#web3">後述</a></td></tr>
 </tbody>
 </table>
 </div>
 
 **桁が違う話をしているように見えて、実は全部 3桁円。** 歩数だけで生活が変わる金額にはならない。**変わるのは「歩く理由ができる」ほう。**
+
+**ここに載せていないアプリは、金額を先に決められない作りになっている。** 楽天ヘルスケアと d ヘルスケアは達成後に<strong>くじ</strong>を引く形で、当たる額が毎回 変わる。BitWalk・ステラウォーク・Sweatcoin は暗号資産なので、<strong>もらえる量が同じでも円換算が日々 動く</strong>。アプリごとの貯まり方は、下の各節の表にすべて書いた。
 
 <div class="section-with-mascot">
   <div class="mascot-wrap"><img src="/images/expr-04-cheer.png" alt="Daily Hackマスコット" /></div>
@@ -197,6 +201,7 @@ references:
   <tbody>
     <tr><th>正式名</th><td>JAL Wellness & Travel</td></tr>
     <tr><th>提供元</th><td>JAL Brand Communications Co.,Ltd.</td></tr>
+    <tr><th>貯まり方</th><td>歩数目標の達成で<strong>JALマイル</strong>。ボーナスマイルや抽選券も付く</td></tr>
     <tr><th>費用</th><td><strong>月額550円（初月無料）</strong></td></tr>
     <tr><th>入手先</th><td><a href="https://www.jal.co.jp/jp/ja/jmb/wellness/" target="_blank" rel="noopener">公式サイト</a>／<a href="https://apps.apple.com/jp/app/jal-wellness-travel/id1498726068" target="_blank" rel="noopener">App Store</a></td></tr>
   </tbody>
@@ -238,6 +243,7 @@ references:
   <tbody>
     <tr><th>正式名</th><td>ANA Pocket 移動でポイントを交換！乗り物でもポイ活</td></tr>
     <tr><th>提供元</th><td>ANA X Inc.</td></tr>
+    <tr><th>貯まり方</th><td>移動でポイント →「<strong>ガチャ</strong>」でANAマイル・他社ポイント・デジタルギフトに交換</td></tr>
     <tr><th>費用</th><td><strong>無料（有料プランあり）</strong></td></tr>
     <tr><th>入手先</th><td><a href="https://www.ana.co.jp/ja/jp/amc/reference/anamile/pocket/" target="_blank" rel="noopener">公式サイト</a>／<a href="https://apps.apple.com/jp/app/ana-pocket-%E7%A7%BB%E5%8B%95%E3%81%A7%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88%E3%82%92%E4%BA%A4%E6%8F%9B-%E4%B9%97%E3%82%8A%E7%89%A9%E3%81%A7%E3%82%82%E3%83%9D%E3%82%A4%E6%B4%BB/id1598209192" target="_blank" rel="noopener">App Store</a></td></tr>
   </tbody>
@@ -289,6 +295,7 @@ references:
   <tbody>
     <tr><th>正式名</th><td>トリマ-歩数・移動でポイント！散歩やウォーキング、歩いて稼ぐ</td></tr>
     <tr><th>提供元</th><td>GeoTechnologies, Inc.</td></tr>
+    <tr><th>貯まり方</th><td><strong>100マイル＝1円</strong>。歩数と移動距離の両方でマイルが貯まる</td></tr>
     <tr><th>費用</th><td><strong>無料</strong></td></tr>
     <tr><th>入手先</th><td><a href="https://www.trip-mile.com/" target="_blank" rel="noopener">公式サイト</a>／<a href="https://apps.apple.com/jp/app/%E3%83%88%E3%83%AA%E3%83%9E-%E6%AD%A9%E6%95%B0-%E7%A7%BB%E5%8B%95%E3%81%A7%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88-%E6%95%A3%E6%AD%A9%E3%82%84%E3%82%A6%E3%82%A9%E3%83%BC%E3%82%AD%E3%83%B3%E3%82%B0-%E6%AD%A9%E3%81%84%E3%81%A6%E7%A8%BC%E3%81%90/id1502193377" target="_blank" rel="noopener">App Store</a></td></tr>
   </tbody>
@@ -329,6 +336,7 @@ references:
   <tbody>
     <tr><th>正式名</th><td>楽天ヘルスケア-ポイ活アプリ！歩数計・移動でポイント貯める</td></tr>
     <tr><th>提供元</th><td>Rakuten Group, Inc.</td></tr>
+    <tr><th>貯まり方</th><td><strong>1日5,000歩</strong>を達成すると翌日ラッキーくじ。<strong>抽選で毎回ポイントが変わる</strong></td></tr>
     <tr><th>費用</th><td><strong>無料</strong></td></tr>
     <tr><th>入手先</th><td><a href="https://healthcare.rakuten.co.jp/" target="_blank" rel="noopener">公式サイト</a>／<a href="https://apps.apple.com/jp/app/%E6%A5%BD%E5%A4%A9%E3%83%98%E3%83%AB%E3%82%B9%E3%82%B1%E3%82%A2-%E3%83%9D%E3%82%A4%E6%B4%BB%E3%82%A2%E3%83%97%E3%83%AA-%E6%AD%A9%E6%95%B0%E8%A8%88-%E7%A7%BB%E5%8B%95%E3%81%A7%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88%E8%B2%AF%E3%82%81%E3%82%8B/id1585068047" target="_blank" rel="noopener">App Store</a></td></tr>
   </tbody>
@@ -345,6 +353,7 @@ references:
   <tbody>
     <tr><th>正式名</th><td>dヘルスケア -歩数でdポイントがたまる健康管理アプリ-</td></tr>
     <tr><th>提供元</th><td>NTT DOCOMO, INC.</td></tr>
+    <tr><th>貯まり方</th><td>歩数・体重などのミッション達成で<strong>抽選</strong>。当たるとdポイント</td></tr>
     <tr><th>費用</th><td><strong>無料（有料コースあり）</strong></td></tr>
     <tr><th>入手先</th><td><a href="https://healthcare.smt.docomo.ne.jp/" target="_blank" rel="noopener">公式サイト</a>／<a href="https://apps.apple.com/jp/app/d%E3%83%98%E3%83%AB%E3%82%B9%E3%82%B1%E3%82%A2-%E6%AD%A9%E6%95%B0%E3%81%A7d%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88%E3%81%8C%E3%81%9F%E3%81%BE%E3%82%8B%E5%81%A5%E5%BA%B7%E7%AE%A1%E7%90%86%E3%82%A2%E3%83%97%E3%83%AA/id1352137023" target="_blank" rel="noopener">App Store</a></td></tr>
   </tbody>
@@ -355,8 +364,8 @@ references:
 <table class="cmp-table prose-table">
 <thead><tr><th>サービス</th><th>条件</th><th>もらえ方</th></tr></thead>
 <tbody>
-<tr><td><strong>楽天ヘルスケア</strong></td><td>1日5,000歩の達成など</td><td><strong>くじ</strong>。当たると楽天ポイント</td></tr>
-<tr><td><strong>dヘルスケア</strong></td><td>歩数・体重記録などのミッション</td><td><strong>抽選</strong>でdポイント。<strong>有料会員は必ず当選</strong></td></tr>
+<tr><td><strong><a href="https://healthcare.rakuten.co.jp/" target="_blank" rel="noopener">楽天ヘルスケア</a></strong></td><td>1日5,000歩の達成など</td><td><strong>くじ</strong>。当たると楽天ポイント</td></tr>
+<tr><td><strong><a href="https://healthcare.smt.docomo.ne.jp/" target="_blank" rel="noopener">dヘルスケア</a></strong></td><td>歩数・体重記録などのミッション</td><td><strong>抽選</strong>でdポイント。<strong>有料会員は必ず当選</strong></td></tr>
 </tbody>
 </table>
 </div>
@@ -381,6 +390,7 @@ references:
   <tbody>
     <tr><th>正式名</th><td>アルコイン 歩いてポイントが貯まる！お得な歩数計アプリ</td></tr>
     <tr><th>提供元</th><td>AGOOP Corp.</td></tr>
+    <tr><th>貯まり方</th><td>毎日・毎週の<strong>目標歩数の達成でコイン</strong>。Amazonギフトコードなどに交換</td></tr>
     <tr><th>費用</th><td><strong>無料</strong></td></tr>
     <tr><th>入手先</th><td><a href="https://www.agoop.co.jp/" target="_blank" rel="noopener">公式サイト</a>／<a href="https://apps.apple.com/jp/app/%E3%82%A2%E3%83%AB%E3%82%B3%E3%82%A4%E3%83%B3-%E6%AD%A9%E3%81%84%E3%81%A6%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88%E3%81%8C%E8%B2%AF%E3%81%BE%E3%82%8B-%E3%81%8A%E5%BE%97%E3%81%AA%E6%AD%A9%E6%95%B0%E8%A8%88%E3%82%A2%E3%83%97%E3%83%AA/id1449250359" target="_blank" rel="noopener">App Store</a></td></tr>
   </tbody>
@@ -399,6 +409,7 @@ references:
   <tbody>
     <tr><th>正式名</th><td>エブリポイント - 歩くポイ活！歩数でお小遣い稼ぎ 万歩計</td></tr>
     <tr><th>提供元</th><td>PIXELA Corporation</td></tr>
+    <tr><th>貯まり方</th><td>歩数と移動距離をポイントに換算。<strong>ドットマネー経由で WAON POINT</strong></td></tr>
     <tr><th>費用</th><td><strong>無料</strong></td></tr>
     <tr><th>入手先</th><td><a href="https://www.pixela.co.jp/products/everypoint/" target="_blank" rel="noopener">公式サイト</a>／<a href="https://apps.apple.com/jp/app/%E3%82%A8%E3%83%96%E3%83%AA%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88-%E6%AD%A9%E3%81%8F%E3%83%9D%E3%82%A4%E6%B4%BB-%E6%AD%A9%E6%95%B0%E3%81%A7%E3%81%8A%E5%B0%8F%E9%81%A3%E3%81%84%E7%A8%BC%E3%81%8E-%E4%B8%87%E6%AD%A9%E8%A8%88/id6743367643" target="_blank" rel="noopener">App Store</a></td></tr>
   </tbody>
@@ -417,6 +428,7 @@ references:
   <tbody>
     <tr><th>正式名</th><td>ポイすら　歩いて育ててポイ活アプリ</td></tr>
     <tr><th>提供元</th><td>BAROWS  Inc</td></tr>
+    <tr><th>貯まり方</th><td>歩いて集めた<strong>金のチケット</strong>を PayPay・Amazonギフト券・QUOカードPay などに交換</td></tr>
     <tr><th>費用</th><td><strong>無料</strong></td></tr>
     <tr><th>入手先</th><td><a href="https://apps.apple.com/jp/app/%E3%83%9D%E3%82%A4%E3%81%99%E3%82%89-%E6%AD%A9%E3%81%84%E3%81%A6%E8%82%B2%E3%81%A6%E3%81%A6%E3%83%9D%E3%82%A4%E6%B4%BB%E3%82%A2%E3%83%97%E3%83%AA/id6738946565" target="_blank" rel="noopener">App Store</a></td></tr>
   </tbody>
@@ -435,6 +447,7 @@ references:
   <tbody>
     <tr><th>正式名</th><td>楽天シニア-人気の歩数計でポイントを貯めよう！健康アプリ</td></tr>
     <tr><th>提供元</th><td>Rakuten Group, Inc.</td></tr>
+    <tr><th>貯まり方</th><td><strong>1日4,000歩で翌日スタンプ1個。3個で1ポイント、7個で3ポイント</strong>（楽天ポイント）</td></tr>
     <tr><th>費用</th><td><strong>無料</strong></td></tr>
     <tr><th>入手先</th><td><a href="https://senior.rakuten.co.jp/" target="_blank" rel="noopener">公式サイト</a>／<a href="https://apps.apple.com/jp/app/%E6%A5%BD%E5%A4%A9%E3%82%B7%E3%83%8B%E3%82%A2-%E4%BA%BA%E6%B0%97%E3%81%AE%E6%AD%A9%E6%95%B0%E8%A8%88%E3%81%A7%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88%E3%82%92%E8%B2%AF%E3%82%81%E3%82%88%E3%81%86-%E5%81%A5%E5%BA%B7%E3%82%A2%E3%83%97%E3%83%AA/id1451690957" target="_blank" rel="noopener">App Store</a></td></tr>
   </tbody>
@@ -457,7 +470,7 @@ references:
 <tbody>
 <tr class="recommended"><td><strong><a href="https://info.renobody.jp/prod/index.html" target="_blank" rel="noopener">RenoBody</a></strong></td><td>1日<strong>8,000歩</strong></td><td><strong>1 WAON POINT／日</strong>。条件を満たせば必ず入る</td></tr>
 <tr><td><strong><a href="https://apps.apple.com/JP/app/id1088184021" target="_blank" rel="noopener">Coke ON</a></strong></td><td><strong>週35,000歩</strong>で1スタンプ</td><td><strong>15スタンプで自販機のドリンク1本</strong>が無料</td></tr>
-<tr><td><strong>スギサポwalk+</strong></td><td>歩数でスターが貯まる</td><td><strong>100スター＝1スギポイント</strong>（1,000スターから交換）</td></tr>
+<tr><td><strong><a href="https://www.sugi-net.jp/sugisapo/" target="_blank" rel="noopener">スギサポwalk+</a></strong></td><td>歩数でスターが貯まる</td><td><strong>100スター＝1スギポイント</strong>（1,000スターから交換）</td></tr>
 <tr><td><strong><a href="https://www.arukuto.jp/" target="_blank" rel="noopener">aruku&amp;</a></strong></td><td>住民からの「◯歩 歩いて」依頼を達成</td><td>カード → <strong>地域の特産品が当たる抽選</strong>に応募</td></tr>
 </tbody>
 </table>
@@ -479,6 +492,7 @@ references:
   <tbody>
     <tr><th>正式名</th><td>Coke ON(コークオン)</td></tr>
     <tr><th>提供元</th><td>The Coca-Cola Company</td></tr>
+    <tr><th>貯まり方</th><td>歩数目標の達成で<strong>スタンプ1個。15個でドリンクチケット1枚</strong>（1本無料）</td></tr>
     <tr><th>費用</th><td><strong>無料</strong></td></tr>
     <tr><th>入手先</th><td><a href="https://apps.apple.com/jp/app/coke-on-%E3%82%B3%E3%83%BC%E3%82%AF%E3%82%AA%E3%83%B3/id1088184021" target="_blank" rel="noopener">App Store</a></td></tr>
   </tbody>
@@ -497,6 +511,7 @@ references:
   <tbody>
     <tr><th>正式名</th><td>スギサポwalk+</td></tr>
     <tr><th>提供元</th><td>SUGI WELLNESS CO., LTD.</td></tr>
+    <tr><th>貯まり方</th><td>歩数目標の達成で<strong>スター</strong>（目標は所属リーグで変わる）。スターは<strong>スギポイント</strong>に交換</td></tr>
     <tr><th>費用</th><td><strong>無料</strong></td></tr>
     <tr><th>入手先</th><td><a href="https://www.sugi-net.jp/sugisapo/" target="_blank" rel="noopener">公式サイト</a>／<a href="https://apps.apple.com/jp/app/%E3%82%B9%E3%82%AE%E3%82%B5%E3%83%9Dwalk/id6737874561" target="_blank" rel="noopener">App Store</a></td></tr>
   </tbody>
@@ -515,6 +530,7 @@ references:
   <tbody>
     <tr><th>正式名</th><td>RenoBody～歩くだけでポイントがもらえる歩数計アプリ～</td></tr>
     <tr><th>提供元</th><td>Wellmira Inc.</td></tr>
+    <tr><th>貯まり方</th><td><strong>1日8,000歩で1 WAON POINT</strong>。条件を満たせば毎日 必ず入る</td></tr>
     <tr><th>費用</th><td><strong>無料</strong></td></tr>
     <tr><th>入手先</th><td><a href="https://info.renobody.jp/prod/index.html" target="_blank" rel="noopener">公式サイト</a>／<a href="https://apps.apple.com/jp/app/renobody-%E6%AD%A9%E3%81%8F%E3%81%A0%E3%81%91%E3%81%A7%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88%E3%81%8C%E3%82%82%E3%82%89%E3%81%88%E3%82%8B%E6%AD%A9%E6%95%B0%E8%A8%88%E3%82%A2%E3%83%97%E3%83%AA/id879464961" target="_blank" rel="noopener">App Store</a></td></tr>
   </tbody>
@@ -533,6 +549,7 @@ references:
   <tbody>
     <tr><th>正式名</th><td>aruku&(あるくと) 歩いてポイントが貯まる歩数計アプリ</td></tr>
     <tr><th>提供元</th><td>ONE COMPATH CO., LTD.</td></tr>
+    <tr><th>貯まり方</th><td><strong>1,000歩ごとに aruku&amp;ポイント</strong>。ミッション達成で毎月Vポイント、応募カードで名産品の抽選</td></tr>
     <tr><th>費用</th><td><strong>無料</strong></td></tr>
     <tr><th>入手先</th><td><a href="https://www.arukuto.jp/" target="_blank" rel="noopener">公式サイト</a>／<a href="https://apps.apple.com/jp/app/aruku-%E3%81%82%E3%82%8B%E3%81%8F%E3%81%A8-%E6%AD%A9%E3%81%84%E3%81%A6%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88%E3%81%8C%E8%B2%AF%E3%81%BE%E3%82%8B%E6%AD%A9%E6%95%B0%E8%A8%88%E3%82%A2%E3%83%97%E3%83%AA/id1165290449" target="_blank" rel="noopener">App Store</a></td></tr>
   </tbody>
@@ -557,9 +574,9 @@ references:
 <tbody>
 <tr class="recommended"><td><strong><a href="https://coinpost.jp/crypto/move-to-earn/bitwalk/" target="_blank" rel="noopener">BitWalk</a></strong></td><td><strong>不要</strong></td><td>歩数でスタンプ（<strong>1日 最大40・20,000歩</strong>）→ ビットコイン。<strong>広告収益の還元型</strong>でブロックチェーンは介さない</td></tr>
 <tr><td><strong><a href="https://hedge.guide/feature/healthree-bc202307.html" target="_blank" rel="noopener">HEALTHREE（ヘルスリー）</a></strong></td><td><strong>不要</strong>（NFTは任意）</td><td>Astar上の国産Move to Earn。歩いて$UHTを獲得し、<strong>アバターを育てるRPG</strong>要素つき</td></tr>
-<tr><td><strong>ステラウォーク</strong></td><td>不要</td><td>歩数で<strong>ステラルーメン（XLM）</strong>がもらえる</td></tr>
-<tr><td><strong>Sweatcoin</strong></td><td>不要</td><td><strong>NFTの要素が無い</strong>。SWEATは国内取引所で扱いがなく、換金は海外経由</td></tr>
-<tr><td><strong>STEPN</strong></td><td><strong>必要</strong></td><td>NFTスニーカーを買って走る。<strong>GSTは2022年のピークから1円未満まで下落</strong></td></tr>
+<tr><td><strong><a href="https://apps.apple.com/jp/app/%E3%82%B9%E3%83%86%E3%83%A9%E3%82%A6%E3%82%A9%E3%83%BC%E3%82%AF-%E6%AD%A9%E3%81%8F%E3%81%A0%E3%81%91%E3%81%A7%E6%9A%97%E5%8F%B7%E8%B3%87%E7%94%A3%E3%81%8C%E8%B2%B0%E3%81%88%E3%82%8B/id1599065744" target="_blank" rel="noopener">ステラウォーク</a></strong></td><td>不要</td><td>歩数で<strong>ステラルーメン（XLM）</strong>がもらえる</td></tr>
+<tr><td><strong><a href="https://apps.apple.com/jp/app/sweatcoin-%E3%81%86%E3%81%89%E3%83%BC%E3%81%8D%E3%82%93%E3%81%90%E3%81%82%E3%81%B7%E3%82%8A-%E6%AD%A9%E3%81%8F/id971023427" target="_blank" rel="noopener">Sweatcoin</a></strong></td><td>不要</td><td><strong>NFTの要素が無い</strong>。SWEATは国内取引所で扱いがなく、換金は海外経由</td></tr>
+<tr><td><strong><a href="https://apps.apple.com/jp/app/stepn/id1598112424" target="_blank" rel="noopener">STEPN</a></strong></td><td><strong>必要</strong></td><td>NFTスニーカーを買って走る。<strong>GSTは2022年のピークから1円未満まで下落</strong></td></tr>
 </tbody>
 </table>
 </div>
@@ -576,6 +593,7 @@ references:
   <tbody>
     <tr><th>正式名</th><td>歩いてポイ活 ビットウォーク:歩数でポイント／ビットコイン</td></tr>
     <tr><th>提供元</th><td>Paddle, inc</td></tr>
+    <tr><th>貯まり方</th><td>歩数に応じて<strong>ビットコイン</strong>。広告費の一部が原資で、<strong>1日 最大40スタンプ・20,000歩</strong>まで</td></tr>
     <tr><th>費用</th><td><strong>無料</strong></td></tr>
     <tr><th>入手先</th><td><a href="https://apps.apple.com/jp/app/%E6%AD%A9%E3%81%84%E3%81%A6%E3%83%9D%E3%82%A4%E6%B4%BB-%E3%83%93%E3%83%83%E3%83%88%E3%82%A6%E3%82%A9%E3%83%BC%E3%82%AF-%E6%AD%A9%E6%95%B0%E3%81%A7%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88-%E3%83%93%E3%83%83%E3%83%88%E3%82%B3%E3%82%A4%E3%83%B3/id1634543016" target="_blank" rel="noopener">App Store</a></td></tr>
   </tbody>
@@ -604,6 +622,7 @@ references:
   <tbody>
     <tr><th>正式名</th><td>ヘルスリー｜歩いて進める運動型RPG</td></tr>
     <tr><th>提供元</th><td>HEALTHREE TECHNOLOGIES LTD.</td></tr>
+    <tr><th>貯まり方</th><td>歩いて進める RPG。<strong>ゲーム内トークン</strong>が貯まる</td></tr>
     <tr><th>費用</th><td><strong>無料</strong></td></tr>
     <tr><th>入手先</th><td><a href="https://apps.apple.com/jp/app/%E3%83%98%E3%83%AB%E3%82%B9%E3%83%AA%E3%83%BC-%E6%AD%A9%E3%81%84%E3%81%A6%E9%80%B2%E3%82%81%E3%82%8B%E9%81%8B%E5%8B%95%E5%9E%8Brpg/id6449821527" target="_blank" rel="noopener">App Store</a></td></tr>
   </tbody>
@@ -636,6 +655,7 @@ references:
   <tbody>
     <tr><th>正式名</th><td>STEPN</td></tr>
     <tr><th>提供元</th><td>FindSatoshi Lab Limited</td></tr>
+    <tr><th>貯まり方</th><td>歩いて<strong>GST</strong>。ただし<strong>NFTスニーカーを先に買う</strong>必要がある</td></tr>
     <tr><th>費用</th><td><strong>初期投資が必要</strong></td></tr>
     <tr><th>入手先</th><td><a href="https://apps.apple.com/jp/app/stepn/id1598112424" target="_blank" rel="noopener">App Store</a></td></tr>
   </tbody>
@@ -662,6 +682,7 @@ references:
   <tbody>
     <tr><th>正式名</th><td>ステラウォーク - 歩くだけで暗号資産が貰える！</td></tr>
     <tr><th>提供元</th><td>DoshCook LLC</td></tr>
+    <tr><th>貯まり方</th><td>歩数に応じてカプセル → エメラルド → <strong>XLM（ステラルーメン）</strong>。<strong>申請は月初の3営業日だけ</strong></td></tr>
     <tr><th>費用</th><td><strong>無料</strong></td></tr>
     <tr><th>入手先</th><td><a href="https://apps.apple.com/jp/app/%E3%82%B9%E3%83%86%E3%83%A9%E3%82%A6%E3%82%A9%E3%83%BC%E3%82%AF-%E6%AD%A9%E3%81%8F%E3%81%A0%E3%81%91%E3%81%A7%E6%9A%97%E5%8F%B7%E8%B3%87%E7%94%A3%E3%81%8C%E8%B2%B0%E3%81%88%E3%82%8B/id1599065744" target="_blank" rel="noopener">App Store</a></td></tr>
   </tbody>
@@ -680,6 +701,7 @@ references:
   <tbody>
     <tr><th>正式名</th><td>Sweatcoin - うぉーきんぐあぷり・歩く</td></tr>
     <tr><th>提供元</th><td>Sweatco Ltd</td></tr>
+    <tr><th>貯まり方</th><td>歩数に応じて<strong>SWEAT</strong>。GPS で歩数を認証する</td></tr>
     <tr><th>費用</th><td><strong>無料（有料プランあり）</strong></td></tr>
     <tr><th>入手先</th><td><a href="https://apps.apple.com/jp/app/sweatcoin-%E3%81%86%E3%81%89%E3%83%BC%E3%81%8D%E3%82%93%E3%81%90%E3%81%82%E3%81%B7%E3%82%8A-%E6%AD%A9%E3%81%8F/id971023427" target="_blank" rel="noopener">App Store</a></td></tr>
   </tbody>
@@ -723,6 +745,7 @@ references:
   <tbody>
     <tr><th>正式名</th><td>Vitality</td></tr>
     <tr><th>提供元</th><td>SUMITOMO LIFE INSURANCE COMPANY</td></tr>
+    <tr><th>貯まり方</th><td>週の運動目標の達成で<strong>ドリンクチケット</strong>。ポイントは<strong>保険料の割引</strong>に反映される</td></tr>
     <tr><th>費用</th><td><strong>保険に付帯</strong></td></tr>
     <tr><th>入手先</th><td><a href="https://vitality.sumitomolife.co.jp/about/status/" target="_blank" rel="noopener">公式サイト</a>／<a href="https://apps.apple.com/jp/app/vitality/id1352961017" target="_blank" rel="noopener">App Store</a></td></tr>
   </tbody>
@@ -741,6 +764,7 @@ references:
   <tbody>
     <tr><th>正式名</th><td>kencom(ケンコム)</td></tr>
     <tr><th>提供元</th><td>DeSC Healthcare Inc.</td></tr>
+    <tr><th>貯まり方</th><td>歩数などの達成で<strong>コイン</strong>。ギフトチャレンジ（抽選）に使える。<strong>健保加入者向け</strong></td></tr>
     <tr><th>費用</th><td><strong>健保加入者向け</strong></td></tr>
     <tr><th>入手先</th><td><a href="https://kencom.jp/" target="_blank" rel="noopener">公式サイト</a>／<a href="https://apps.apple.com/jp/app/kencom-%E3%82%B1%E3%83%B3%E3%82%B3%E3%83%A0/id1034656740" target="_blank" rel="noopener">App Store</a></td></tr>
   </tbody>
@@ -778,7 +802,7 @@ references:
 <tr class="recommended"><td><strong>とりあえず確実に貯めたい</strong></td><td><a href="https://info.renobody.jp/prod/index.html" target="_blank" rel="noopener">RenoBody</a> ＋ <a href="https://apps.apple.com/JP/app/id1088184021" target="_blank" rel="noopener">Coke ON</a></td><td>どちらも無料で、条件を満たせば必ず入る。<strong>考えることが無い</strong></td></tr>
 <tr><td><strong>通勤で長く移動する</strong></td><td><a href="https://www.trip-mile.com/" target="_blank" rel="noopener">トリマ</a> ＋ <a href="https://www.ana.co.jp/ja/jp/shoppingandlife/point/" target="_blank" rel="noopener">ANA Pocket</a></td><td><strong>歩数だけでなく移動距離</strong>が乗る。電車・車が多い人ほど効く</td></tr>
 <tr><td><strong>旅行によく行く</strong></td><td><a href="https://www.jal.co.jp/jp/ja/jmb/wellness/" target="_blank" rel="noopener">JAL Wellness &amp; Travel</a></td><td>空港チェックインでマイルが付く。<strong>歩数だけなら割に合わない</strong></td></tr>
-<tr><td><strong>楽天／dのポイントを普段 使う</strong></td><td>楽天ヘルスケア ／ dヘルスケア</td><td>すでに持っているポイントに合流できる。抽選なので過度な期待はしない</td></tr>
+<tr><td><strong>楽天／dのポイントを普段 使う</strong></td><td><a href="https://healthcare.rakuten.co.jp/" target="_blank" rel="noopener">楽天ヘルスケア</a> ／ <a href="https://healthcare.smt.docomo.ne.jp/" target="_blank" rel="noopener">dヘルスケア</a></td><td>すでに持っているポイントに合流できる。抽選なので過度な期待はしない</td></tr>
 <tr><td><strong>ゲームとして続けたい</strong></td><td><a href="https://hedge.guide/feature/healthree-bc202307.html" target="_blank" rel="noopener">HEALTHREE</a> ／ <a href="https://www.arukuto.jp/" target="_blank" rel="noopener">aruku&amp;</a></td><td>金額より<strong>続く仕掛け</strong>がある。歩く理由が欲しい人向け</td></tr>
 <tr><td><strong>保険に入っている</strong></td><td><a href="https://vitality.sumitomolife.co.jp/about/status/" target="_blank" rel="noopener">Vitality</a> ／ 自治体の健康ポイント</td><td><strong>金額の桁が違う</strong>。まず自分が対象かを確認する</td></tr>
 </tbody>
