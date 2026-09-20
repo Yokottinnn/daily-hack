@@ -68,6 +68,12 @@
 
 <!-- 新しい記録がこの下に追加される（新しいものが上） -->
 
+### 2026-09-20 — heartbeat.json が 9/18 以降 不正な JSON で監視が 2 日間 素通りしていたのを発見・修正（#518）。x91 で未ロード 60 件 を仕分け、ゴミではなく 2026-09-09 の tab-guard 一斉 unload の生き残り 48 本 だと確定。x92 で follower-snapshot を戻し、実フォロワーが 227 ではなく 264 だったことが判明（+37 / 12 日）。フォロワー記録の停止を heartbeat の record_stale として鳴らすようにした（#521 #522）
+
+次のアクション:
+
+- [ ] LLM を呼ぶ 48 本（draft-* / engage-daily / qt-* / trend-daily / grok-trending-daily など）を戻すかどうか、1 本ずつコストを出して判断する。grok_trending の「healed と言い続けて直らない」ループと、comment-warmup の終了コード 5（auto-reply.js:176）も未確定
+
 ### 2026-09-20 — tab-guard の 2 バグ修正（x89）が当たったことをレポートで確認（PID=26232・終了コード 0・30 秒 でエラーログ増加 0・状態ファイルに reachable/chrome_alive_at）。さらに heartbeat.json が 9/18 以降 不正な JSON で、ops-watchdog の jq が全部 落ちて監視が 2 日間 素通りしていたのを発見し修正（#518 マージ済み a2eb686）。生成側で自己 parse 検査、監視側で jq -e . の前置きと badjson 警報を追加。CLAUDE.md 最上位ルール 13 に grep -c || echo 0 の落とし穴を追記。終了コード 5/2 を測る x90 を投入
 
 次のアクション:
