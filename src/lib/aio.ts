@@ -10,6 +10,9 @@
  * - 本文の h2 見出し            → `Article.articleSection`
  *
  * **取れなければ出さない。** 空の FAQPage を出すと、かえって評価を落とす。
+ *
+ * **`post.body` は `string | undefined`。** 型を絞らずに渡して CI の
+ * `astro check` が落ちた（2026-09-20）。`npm run build` だけでは通ってしまう。
  */
 
 const TAG = /<[^>]+>/g;
@@ -49,7 +52,8 @@ function rowsOfTables(body: string, needClass: string): Row[][] {
   return out;
 }
 
-export function faqJsonLd(body: string) {
+export function faqJsonLd(body: string | undefined) {
+  if (!body) return null;
   const tables = rowsOfTables(body, 'faq-table');
   const rows = tables.flat();
   // **3 件 未満なら出さない。** 1〜2 件の FAQPage は意味がない
@@ -65,7 +69,8 @@ export function faqJsonLd(body: string) {
   };
 }
 
-export function howToJsonLd(body: string, name: string) {
+export function howToJsonLd(body: string | undefined, name: string) {
+  if (!body) return null;
   // 手順の表は 1 列目が ① ② ③ … になっている（bullets-to-spec-table / 手で書いたもの）
   const re = /<table[^>]*class="[^"]*cmp-table[^"]*"[^>]*>([\s\S]*?)<\/table>/g;
   let m: RegExpExecArray | null;
@@ -97,7 +102,8 @@ export function howToJsonLd(body: string, name: string) {
 }
 
 /** 本文の h2（Markdown と生 HTML の両方）を節名として並べる */
-export function sections(body: string): string[] {
+export function sections(body: string | undefined): string[] {
+  if (!body) return [];
   const out: string[] = [];
   for (const m of body.matchAll(/^##\s+(.+)$/gm)) out.push(plain(m[1]));
   for (const m of body.matchAll(/<h2[^>]*>([\s\S]*?)<\/h2>/g)) out.push(plain(m[1]));
