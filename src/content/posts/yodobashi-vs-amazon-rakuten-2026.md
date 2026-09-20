@@ -68,7 +68,7 @@ references:
   </article>
   <article class="compare-card">
     <span class="compare-card-mascot"><img src="/images/expr-05-smug.png" alt="" /></span>
-    <h3>Amazon.co.jp</h3>
+    <h3 class="brand-h"><img class="brand-logo" src="/images/yodobashi-vs-amazon-rakuten-2026/logos/amazon.png" alt="Amazon.co.jpのロゴ" loading="lazy" /><span>Amazon.co.jp</span></h3>
     <dl>
       <dt>強み</dt><dd>圧倒的な品揃え・プライムの配送速度・定期便最大15%OFF・セール</dd>
       <dt>弱点</dt><dd>第三者出品に模倣品・品質トラブルの報告。見極めスキルが要る</dd>
@@ -77,7 +77,7 @@ references:
   </article>
   <article class="compare-card">
     <span class="compare-card-mascot"><img src="/images/expr-03-bashful.png" alt="" /></span>
-    <h3>楽天市場</h3>
+    <h3 class="brand-h"><img class="brand-logo" src="/images/yodobashi-vs-amazon-rakuten-2026/logos/rakutenichiba.png" alt="楽天市場のロゴ" loading="lazy" /><span>楽天市場</span></h3>
     <dl>
       <dt>強み</dt><dd>楽天経済圏でポイントが積み上がる（SPU）・買い回りで倍率UP・ふるさと納税</dd>
       <dt>弱点</dt><dd>送料は店舗ごとでバラバラ・最大倍率は条件達成時のみ・価格は要比較</dd>

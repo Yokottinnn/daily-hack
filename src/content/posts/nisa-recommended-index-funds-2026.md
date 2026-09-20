@@ -259,7 +259,7 @@ author: "hacker-ko"
 
 <div class="compare-cards">
   <article class="compare-card">
-    <h3>SBI証券ユーザー</h3>
+    <h3 class="brand-h"><img class="brand-logo" src="/images/nisa-recommended-index-funds-2026/logos/sbisec.png" alt="SBI証券ユーザーのロゴ" loading="lazy" /><span>SBI証券ユーザー</span></h3>
     <p class="tagline">三井住友カード積立で最大3%還元のあんた。</p>
     <dl>
       <dt>第一候補</dt><dd><strong>eMAXIS Slim 全世界株式（オール・カントリー）</strong></dd>
@@ -271,7 +271,7 @@ author: "hacker-ko"
   </article>
 
   <article class="compare-card">
-    <h3>楽天証券ユーザー</h3>
+    <h3 class="brand-h"><img class="brand-logo" src="/images/nisa-recommended-index-funds-2026/logos/rakutensec.png" alt="楽天証券ユーザーのロゴ" loading="lazy" /><span>楽天証券ユーザー</span></h3>
     <p class="tagline">楽天カード積立 + 楽天ポイント投資のあんた。</p>
     <dl>
       <dt>第一候補</dt><dd><strong>楽天・オールカントリー株式インデックス・ファンド</strong>（楽天版オルカン、コスト最安級）</dd>

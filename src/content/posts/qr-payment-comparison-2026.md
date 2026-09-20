@@ -73,7 +73,7 @@ QRコード決済の還元は **「基本還元 × チャージ元クレカ還�
 <div class="compare-cards" style="grid-template-columns: 1fr;">
   <article class="compare-card recommended">
     <img class="compare-card-side-img" src="https://image.paypay.ne.jp/page/top/images/img_about_04.png" alt="PayPay 決済イメージ" loading="lazy" />
-    <h3>PayPay｜街決済の王者</h3>
+    <h3 class="brand-h"><img class="brand-logo" src="/images/qr-payment-comparison-2026/logos/paypay.png" alt="PayPayのロゴ" loading="lazy" /><span>PayPay｜街決済の王者</span></h3>
     <p class="tagline">迷ったらコレ。加盟店数で他を寄せ付けない、日常の主役。</p>
     <dl>
       <dt>基本還元</dt><dd>0.5%（PayPayステップ達成で最大1.5%）</dd>
@@ -99,7 +99,7 @@ QRコード決済の還元は **「基本還元 × チャージ元クレカ還�
 <div class="compare-cards" style="grid-template-columns: 1fr;">
   <article class="compare-card recommended">
     <img class="compare-card-side-img" src="https://payment.rakuten.co.jp/img/logo-Rpayment20241101.svg" alt="楽天ペイ 公式ロゴ" loading="lazy" />
-    <h3>楽天ペイ｜楽天経済圏の出口</h3>
+    <h3 class="brand-h"><img class="brand-logo" src="/images/qr-payment-comparison-2026/logos/rakutenpay.png" alt="楽天ペイのロゴ" loading="lazy" /><span>楽天ペイ｜楽天経済圏の出口</span></h3>
     <p class="tagline">期間限定ポイントの消化先がコレ。楽天市場SPUにも組み込める。</p>
     <dl>
       <dt>基本還元</dt><dd>1.0%（楽天キャッシュチャージ + 楽天カード支払いで最大1.5%）</dd>
@@ -176,7 +176,7 @@ QRコード決済の還元は **「基本還元 × チャージ元クレカ還�
 <div class="compare-cards">
   <article class="compare-card recommended">
     <span class="compare-card-image"><img src="https://image.paypay.ne.jp/page/top/images/img_about_04.png" alt="PayPay" loading="lazy" /></span>
-    <h3>PayPay</h3>
+    <h3 class="brand-h"><img class="brand-logo" src="/images/qr-payment-comparison-2026/logos/paypay.png" alt="PayPayのロゴ" loading="lazy" /><span>PayPay</span></h3>
     <p class="tagline">加盟店◎・キャンペーン◎</p>
     <dl>
       <dt>基本還元</dt><dd>0.5%（最大1.5%）</dd>
@@ -190,7 +190,7 @@ QRコード決済の還元は **「基本還元 × チャージ元クレカ還�
   </article>
   <article class="compare-card">
     <span class="compare-card-image is-logo"><img src="https://payment.rakuten.co.jp/img/logo-Rpayment20241101.svg" alt="楽天ペイ" loading="lazy" /></span>
-    <h3>楽天ペイ</h3>
+    <h3 class="brand-h"><img class="brand-logo" src="/images/qr-payment-comparison-2026/logos/rakutenpay.png" alt="楽天ペイのロゴ" loading="lazy" /><span>楽天ペイ</span></h3>
     <p class="tagline">楽天経済圏の出口</p>
     <dl>
       <dt>基本還元</dt><dd>1.0%（最大1.5%）</dd>
