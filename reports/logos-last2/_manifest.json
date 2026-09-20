@@ -1,0 +1,108 @@
+{
+  "_note": "識別目的で使うロゴ。**商標であり自由ライセンスではない。**取得日 2026-09-20（ops/tasks/t128-logos-last2.sh）。",
+  "looop": [
+    {
+      "brand": "Looopでんき",
+      "file": "looop-1.png",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Looop_inc.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "page": "https://commons.wikimedia.org/wiki/File%3ALooop_inc.png",
+      "license_note": "CC BY-SA 4.0",
+      "width": 179,
+      "height": 61
+    }
+  ],
+  "looop_a": [
+    {
+      "brand": "Looopでんき（会社トップ）",
+      "file": "looop_a-1.svg",
+      "source": "https://images.microcms-assets.io/assets/2f8e47d2d6854af1b537f7ae8a89d667/d833bb9b62ab42378f1c3fed8861acc8/common_logo01.svg",
+      "page": "https://looop.co.jp/",
+      "license_note": "公式サイトのロゴ画像（商標）",
+      "format": "svg"
+    },
+    {
+      "brand": "Looopでんき（会社トップ）",
+      "file": "looop_a-2.svg",
+      "source": "https://images.microcms-assets.io/assets/2f8e47d2d6854af1b537f7ae8a89d667/6e4d0dc0eef94fbeb5a084ae9b456d8b/common_logo04.svg",
+      "page": "https://looop.co.jp/",
+      "license_note": "公式サイトのロゴ画像（商標）",
+      "format": "svg"
+    }
+  ],
+  "looop_b": [
+    {
+      "brand": "Looopでんき（サービス）",
+      "file": "looop_b-1.svg",
+      "source": "https://looop-denki.com/assets/images/logo.svg",
+      "page": "https://looop-denki.com/",
+      "license_note": "公式サイトのロゴ画像（商標）",
+      "format": "svg"
+    },
+    {
+      "brand": "Looopでんき（サービス）",
+      "file": "looop_b-2.svg",
+      "source": "https://looop-denki.com/assets/images/home/app/img-logo.svg",
+      "page": "https://looop-denki.com/",
+      "license_note": "公式サイトのロゴ画像（商標）",
+      "format": "svg"
+    },
+    {
+      "brand": "Looopでんき（サービス）",
+      "file": "looop_b-3.png",
+      "source": "https://looop-denki.com/assets/images/logo_footer.png",
+      "page": "https://looop-denki.com/",
+      "license_note": "公式サイトのロゴ画像（商標）",
+      "width": 152,
+      "height": 46
+    }
+  ],
+  "looop_c": [
+    {
+      "brand": "Looopでんき（低圧）",
+      "file": "looop_c-1.svg",
+      "source": "https://looop-denki.com/assets/images/logo.svg",
+      "page": "https://looop-denki.com/low-v/",
+      "license_note": "公式サイトのロゴ画像（商標）",
+      "format": "svg"
+    },
+    {
+      "brand": "Looopでんき（低圧）",
+      "file": "looop_c-2.svg",
+      "source": "https://looop-denki.com/assets/images/home/app/img-logo.svg",
+      "page": "https://looop-denki.com/low-v/",
+      "license_note": "公式サイトのロゴ画像（商標）",
+      "format": "svg"
+    },
+    {
+      "brand": "Looopでんき（低圧）",
+      "file": "looop_c-3.png",
+      "source": "https://looop-denki.com/assets/images/logo_footer.png",
+      "page": "https://looop-denki.com/low-v/",
+      "license_note": "公式サイトのロゴ画像（商標）",
+      "width": 152,
+      "height": 46
+    }
+  ],
+  "bang_a": [
+    {
+      "brand": "保険スクエアbang!（トップ）",
+      "file": "bang_a-1.png",
+      "source": "https://img.phoenix.webcrew.co.jp/12200/images/logo.gif",
+      "page": "https://www.bang.co.jp/",
+      "license_note": "公式サイトのロゴ画像（商標）",
+      "width": 309,
+      "height": 26
+    }
+  ],
+  "bang_c": [
+    {
+      "brand": "保険スクエアbang!（会社）",
+      "file": "bang_c-1.png",
+      "source": "https://img.phoenix.webcrew.co.jp/12200/images/logo.gif",
+      "page": "https://www.bang.co.jp/company/",
+      "license_note": "公式サイトのロゴ画像（商標）",
+      "width": 309,
+      "height": 26
+    }
+  ]
+}
