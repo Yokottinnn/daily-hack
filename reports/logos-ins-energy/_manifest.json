@@ -1,0 +1,265 @@
+{
+  "_note": "識別目的で使うロゴ。**商標であり自由ライセンスではない。**取得日 2026-09-20（ops/tasks/t125-logos-insurance-energy.sh）。",
+  "sony": [
+    {
+      "brand": "ソニー損保",
+      "file": "sony-1.png",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Logo_of_the_Sony_Corporation_%28make.believe%29.svg/960px-Logo_of_the_Sony_Corporation_%28make.believe%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File%3ALogo_of_the_Sony_Corporation_%28make.believe%29.svg",
+      "license_note": "Public domain",
+      "width": 960,
+      "height": 327
+    },
+    {
+      "brand": "ソニー損保",
+      "file": "sony-2.png",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Sony_Interactive_Entertainment_logo_%282016%29.svg/960px-Sony_Interactive_Entertainment_logo_%282016%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File%3ASony_Interactive_Entertainment_logo_%282016%29.svg",
+      "license_note": "Public domain",
+      "width": 960,
+      "height": 350
+    }
+  ],
+  "zurich": [
+    {
+      "brand": "チューリッヒ",
+      "file": "zurich-1.png",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Zurich_Insurance_Group_Logo_Horizontal.svg/960px-Zurich_Insurance_Group_Logo_Horizontal.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File%3AZurich_Insurance_Group_Logo_Horizontal.svg",
+      "license_note": "Public domain",
+      "width": 960,
+      "height": 227
+    },
+    {
+      "brand": "チューリッヒ",
+      "file": "zurich-2.png",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Zurich_Insurance_Group_logo.svg/960px-Zurich_Insurance_Group_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File%3AZurich_Insurance_Group_logo.svg",
+      "license_note": "Public domain",
+      "width": 960,
+      "height": 603
+    }
+  ],
+  "axa": [
+    {
+      "brand": "アクサダイレクト",
+      "file": "axa-1.png",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/AXA_Logo.svg/960px-AXA_Logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File%3AAXA_Logo.svg",
+      "license_note": "Public domain",
+      "width": 960,
+      "height": 960
+    },
+    {
+      "brand": "アクサダイレクト",
+      "file": "axa-2.png",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/AXA_Logo_EN.svg/960px-AXA_Logo_EN.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File%3AAXA_Logo_EN.svg",
+      "license_note": "Public domain",
+      "width": 960,
+      "height": 1223
+    }
+  ],
+  "rakuten": [
+    {
+      "brand": "楽天損保",
+      "file": "rakuten-1.png",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Rakuten_TV_logo.svg/960px-Rakuten_TV_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File%3ARakuten_TV_logo.svg",
+      "license_note": "Public domain",
+      "width": 960,
+      "height": 217
+    },
+    {
+      "brand": "楽天損保",
+      "file": "rakuten-2.png",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Rakuten_TV_2017_logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "page": "https://commons.wikimedia.org/wiki/File%3ARakuten_TV_2017_logo.png",
+      "license_note": "CC BY-SA 4.0",
+      "width": 701,
+      "height": 107
+    }
+  ],
+  "eneos": [
+    {
+      "brand": "ENEOS",
+      "file": "eneos-1.png",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/c/cc/ENEOS_text_logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "page": "https://commons.wikimedia.org/wiki/File%3AENEOS_text_logo.png",
+      "license_note": "Public domain",
+      "width": 256,
+      "height": 55
+    },
+    {
+      "brand": "ENEOS",
+      "file": "eneos-2.png",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/ENEOS_logo.svg/960px-ENEOS_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File%3AENEOS_logo.svg",
+      "license_note": "Public domain",
+      "width": 960,
+      "height": 167
+    }
+  ],
+  "tokyogas": [
+    {
+      "brand": "東京ガス",
+      "file": "tokyogas-1.png",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Tokyo_gas_logo.svg/960px-Tokyo_gas_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File%3ATokyo_gas_logo.svg",
+      "license_note": "Public domain",
+      "width": 960,
+      "height": 167
+    },
+    {
+      "brand": "東京ガス",
+      "file": "tokyogas-2.png",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/7/73/Tokyo_Gas_logo.gif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "page": "https://commons.wikimedia.org/wiki/File%3ATokyo_Gas_logo.gif",
+      "license_note": "Public domain",
+      "width": 204,
+      "height": 45
+    }
+  ],
+  "softbank": [
+    {
+      "brand": "ソフトバンクでんき",
+      "file": "softbank-1.png",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/f/f9/SoftBank_logo_square.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "page": "https://commons.wikimedia.org/wiki/File%3ASoftBank_logo_square.png",
+      "license_note": "Public domain",
+      "width": 500,
+      "height": 540
+    },
+    {
+      "brand": "ソフトバンクでんき",
+      "file": "softbank-2.png",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/2/2d/SoftBank_logo_width.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "page": "https://commons.wikimedia.org/wiki/File%3ASoftBank_logo_width.png",
+      "license_note": "Public domain",
+      "width": 693,
+      "height": 107
+    }
+  ],
+  "octopus": [
+    {
+      "brand": "オクトパスエナジー",
+      "file": "octopus-1.png",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Octopus_Energy_logo_%282019%29.svg/960px-Octopus_Energy_logo_%282019%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File%3AOctopus_Energy_logo_%282019%29.svg",
+      "license_note": "Public domain",
+      "width": 960,
+      "height": 137
+    },
+    {
+      "brand": "オクトパスエナジー",
+      "file": "octopus-2.png",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Logo_Octopus_Energy_France.png/960px-Logo_Octopus_Energy_France.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File%3ALogo_Octopus_Energy_France.png",
+      "license_note": "CC BY-SA 4.0",
+      "width": 960,
+      "height": 960
+    }
+  ],
+  "au": [
+    {
+      "brand": "auでんき",
+      "file": "au-1.png",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Au_mobile_network_operator_logo_%281st%29.svg/960px-Au_mobile_network_operator_logo_%281st%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File%3AAu_mobile_network_operator_logo_%281st%29.svg",
+      "license_note": "Public domain",
+      "width": 960,
+      "height": 560
+    },
+    {
+      "brand": "auでんき",
+      "file": "au-2.png",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Au_Financial_Service_logo.svg/960px-Au_Financial_Service_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File%3AAu_Financial_Service_logo.svg",
+      "license_note": "Public domain",
+      "width": 960,
+      "height": 86
+    }
+  ],
+  "sbisonpo": [
+    {
+      "brand": "SBI損保",
+      "file": "sbisonpo-1.png",
+      "source": "https://www.sbisonpo.co.jp/apple-touch-icon.png",
+      "page": "https://www.sbisonpo.co.jp/",
+      "license_note": "公式サイトのロゴ画像（商標）",
+      "width": 180,
+      "height": 180
+    }
+  ],
+  "mitsuidir": [
+    {
+      "brand": "三井ダイレクト損保",
+      "file": "mitsuidir-1.png",
+      "source": "https://www.mitsui-direct.co.jp/common/md_common/assets/v4/img/img/apple-touch-icon.png",
+      "page": "https://www.mitsui-direct.co.jp/",
+      "license_note": "公式サイトのロゴ画像（商標）",
+      "width": 180,
+      "height": 180
+    }
+  ],
+  "sompodir": [
+    {
+      "brand": "SOMPOダイレクト",
+      "file": "sompodir-1.png",
+      "source": "https://d18f657670wm8u.cloudfront.net/image/logo-otona-corp.png?20251219",
+      "page": "https://www.ins-saison.co.jp/",
+      "license_note": "公式サイトのロゴ画像（商標）",
+      "width": 300,
+      "height": 89
+    },
+    {
+      "brand": "SOMPOダイレクト",
+      "file": "sompodir-2.png",
+      "source": "https://d18f657670wm8u.cloudfront.net/image/logo-eraberu-corp.png?20251219",
+      "page": "https://www.ins-saison.co.jp/",
+      "license_note": "公式サイトのロゴ画像（商標）",
+      "width": 250,
+      "height": 128
+    }
+  ],
+  "lemongas": [
+    {
+      "brand": "レモンガス",
+      "file": "lemongas-1.png",
+      "source": "https://www.lemongas.co.jp/lg/wp-content/themes/twentytwenty/images/footerlogo.png",
+      "page": "https://lemongas.co.jp/",
+      "license_note": "公式サイトのロゴ画像（商標）",
+      "width": 427,
+      "height": 42
+    }
+  ],
+  "insweb": [
+    {
+      "brand": "SBI インズウェブ",
+      "file": "insweb-1.png",
+      "source": "https://www.insweb.co.jp/car/wp-content/uploads/sites/2/logo_axa.gif",
+      "page": "https://www.insweb.co.jp/car/",
+      "license_note": "公式サイトのロゴ画像（商標）",
+      "width": 128,
+      "height": 68
+    },
+    {
+      "brand": "SBI インズウェブ",
+      "file": "insweb-2.png",
+      "source": "https://www.insweb.co.jp/car/wp-content/uploads/sites/2/otona_logo.png",
+      "page": "https://www.insweb.co.jp/car/",
+      "license_note": "公式サイトのロゴ画像（商標）",
+      "width": 128,
+      "height": 68
+    },
+    {
+      "brand": "SBI インズウェブ",
+      "file": "insweb-3.png",
+      "source": "https://www.insweb.co.jp/car/wp-content/uploads/sites/2/favicon528-1.png",
+      "page": "https://www.insweb.co.jp/car/",
+      "license_note": "公式サイトのロゴ画像（商標）",
+      "width": 528,
+      "height": 528
+    }
+  ]
+}
