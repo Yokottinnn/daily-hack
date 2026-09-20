@@ -1,0 +1,59 @@
+{
+  "_note": "識別目的で使うロゴ。**商標であり自由ライセンスではない。** 改変しない（CSS の枠は可）。取得元と取得日をここに残す。",
+  "alacarte.png": {
+    "brand": "À La Carte Da Nang Beach",
+    "source": "https://alacartedanangbeach.com/en/",
+    "page": "https://alacartedanangbeach.com/en/",
+    "fetched": "2026-09-20",
+    "license_note": "公式サイトのロゴ画像（商標）",
+    "task": "ops/tasks/t127-*.sh"
+  },
+  "amiana.png": {
+    "brand": "Amiana Resort Nha Trang",
+    "source": "https://amianaresortsandhotels.com/",
+    "page": "https://amianaresortsandhotels.com/",
+    "fetched": "2026-09-20",
+    "license_note": "公式サイトのロゴ画像（商標）",
+    "task": "ops/tasks/t127-*.sh"
+  },
+  "ayana.png": {
+    "brand": "AYANA Resort Bali",
+    "source": "https://www.ayana.com/ja/bali/",
+    "page": "https://www.ayana.com/ja/bali/",
+    "fetched": "2026-09-20",
+    "license_note": "公式サイトのロゴ画像（商標）。**白抜きなので CSS で枠を暗くしている**",
+    "task": "ops/tasks/t127-*.sh"
+  },
+  "beresort.png": {
+    "brand": "BE Resort Mactan",
+    "source": "https://beresortmactan.com/",
+    "page": "https://beresortmactan.com/",
+    "fetched": "2026-09-20",
+    "license_note": "公式サイトのロゴ画像（商標）",
+    "task": "ops/tasks/t127-*.sh"
+  },
+  "clubmed.png": {
+    "brand": "クラブメッド",
+    "source": "https://commons.wikimedia.org/wiki/File:Club_Med_logo.svg",
+    "page": "https://commons.wikimedia.org/wiki/File:Club_Med_logo.svg",
+    "fetched": "2026-09-20",
+    "license_note": "Public domain（コモンズの表記）。商標であることに変わりはない",
+    "task": "ops/tasks/t127-*.sh"
+  },
+  "orchid.png": {
+    "brand": "Phuket Orchid Resort and Spa",
+    "source": "https://www.katagroup.com/orchid/",
+    "page": "https://www.katagroup.com/orchid/",
+    "fetched": "2026-09-20",
+    "license_note": "公式サイトのロゴ画像（商標）",
+    "task": "ops/tasks/t127-*.sh"
+  },
+  "pullman.png": {
+    "brand": "Pullman Hotels and Resorts",
+    "source": "https://commons.wikimedia.org/wiki/File:Pullman_Logo_2013.png",
+    "page": "https://commons.wikimedia.org/wiki/File:Pullman_Logo_2013.png",
+    "fetched": "2026-09-20",
+    "license_note": "Public domain（コモンズの表記）。商標であることに変わりはない",
+    "task": "ops/tasks/t127-*.sh"
+  }
+}

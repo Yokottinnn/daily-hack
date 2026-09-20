@@ -524,6 +524,47 @@ https://itunes.apple.com/jp/lookup?id=<APP_ID>
 **`trackName` を出さないと ID の取り違えに気づけない。**
 実際に d ヘルスケアの ID を間違えて**楽天ヘルスケアのページを見ていた**ことがある。
 
+#### SVG は Mac で変換できない。持ち帰って Chromium でラスタライズする
+
+**いまどきの公式サイトのロゴは、ほとんど SVG。** そして **Pillow は SVG を開けない**
+（`UnidentifiedImageError`）。`ops/tasks` 側で変換しようとしても、
+**Mac には `rsvg-convert` も `inkscape` も `magick` も `cairosvg` も入っていない**
+（[`docs/mac-environment.md`](../../../docs/mac-environment.md) に実測がある）。
+
+```python
+# ops/tasks 側 … 中身が <svg> なら、変換せずそのまま置く
+if blob[:400].lstrip()[:4] == b"<svg":
+    open(f"{DIR}/{name}.svg", "wb").write(blob)
+```
+
+```bash
+# クラウド側 … Chromium で PNG にする（透過のまま・2 倍 解像度）
+node scripts/svg-to-png.mjs path/to/*.svg
+```
+
+#### 白抜きのロゴは、画像ではなく枠を暗くする
+
+**公式が白版しか置いていないことがある**（AYANA・à la carte・Amiana で踏んだ）。
+白地に置くと**何も無いように見える。** コンタクトシートでは「空の白い箱」になる。
+
+**画像は加工しない。** 色を反転させるのは改変にあたる。**`class="... on-dark"` を足して、
+枠の背景だけ暗くする。** CSS は `global.css` にもう在る。
+
+#### 認証マークやテナントの札を掴まない
+
+公式サイトの `logo` を含む img には、**ロゴではないもの**が普通に混ざる。
+
+| 実際に掴んだもの | 何だったか |
+| --- | --- |
+| Travelife Gold Certified | **宿の認証マーク** |
+| STGs STAR / GMP Quality | 同上 |
+| ĐÃ THÔNG BÁO BỘ CÔNG THƯƠNG | **ベトナム商工省への届出バッジ** |
+| プライバシーマーク | 同上 |
+| Shibuya PIT ZERO / Sendai PIT | **同じ運営の別会場** |
+
+**同じ運営の別会場・別ブランドが一番 危ない。** ファイル名では見分けがつかない
+（`logo_pitzero.jpg` が Shibuya PIT ZERO だった）。**目で見るしかない。**
+
 #### 商標の扱い
 
 **ロゴは商標であって、自由ライセンスではない。**

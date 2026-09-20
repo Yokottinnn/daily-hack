@@ -102,7 +102,7 @@ Xでも「円安でも近場アジアは戦える」という声は多いの。�
 ベトナム中部の新星リゾート。**成田から直行約5時間40分**、日本国籍は**45日間ビザ免除**（2028/3/14まで）と、手軽さが段違い。ミーケビーチ沿いに高層ホテルが並び、世界遺産ホイアンへも小旅行できる。**7〜8月は海遊びの適期**（9月後半から雨季＋台風に注意）。
 
 - **費用の目安**：往復はLCC/経由で約5〜9万円台、直行で約9〜13万円台（JAL公式「130,120円〜」）。
-- **ホテル**：<a href="https://alacartedanangbeach.com/en/" target="_blank" rel="noopener nofollow">À La Carte Da Nang Beach</a>（ミーケビーチ前・最上階インフィニティプール／約USD78≒1.2万円〜・目安）、<a href="https://www.pullman-danang.com/" target="_blank" rel="noopener nofollow">Pullman Danang Beach Resort</a>（5つ星）。
+- **ホテル**：<img class="brand-logo-sm" src="/images/budget-overseas-resorts-2026/logos/alacarte.png" alt="À La Carte Da Nang Beachのロゴ" loading="lazy" /><a href="https://alacartedanangbeach.com/en/" target="_blank" rel="noopener nofollow">À La Carte Da Nang Beach</a>（ミーケビーチ前・最上階インフィニティプール／約USD78≒1.2万円〜・目安）、<img class="brand-logo-sm" src="/images/budget-overseas-resorts-2026/logos/pullman.png" alt="Pullman Danang Beach Resortのロゴ" loading="lazy" /><a href="https://www.pullman-danang.com/" target="_blank" rel="noopener nofollow">Pullman Danang Beach Resort</a>（5つ星）。
 - **治安**：ベトナムは危険情報の指定なし。2人組のスリ・バイク横断に注意。
 
 Xでも、ダナンの朝焼けビーチリゾートは"言葉を失う"と話題。
@@ -116,7 +116,7 @@ Xでも、ダナンの朝焼けビーチリゾートは"言葉を失う"と話�
 英語も通じるマクタン島のビーチリゾート。**直行約5時間、30日以内はビザ不要**（eTravel事前登録は必要）。3〜5月が乾季ベストだけど、**7月は比較的天候が安定、8月後半〜9月は台風リスクがある分、料金が下がる**。
 
 - **費用の目安**：往復は最安約46,100円・平均約61,200円。
-- **ホテル**：<a href="https://beresortmactan.com/" target="_blank" rel="noopener nofollow">BE Resort Mactan</a>（ビーチフロント／約P3,567≒9千円〜・目安）、<a href="https://www.costabellaresort.com/" target="_blank" rel="noopener nofollow">Costabella Tropical Beach Hotel</a>（白砂＋スパ）。
+- **ホテル**：<img class="brand-logo-sm" src="/images/budget-overseas-resorts-2026/logos/beresort.png" alt="BE Resort Mactanのロゴ" loading="lazy" /><a href="https://beresortmactan.com/" target="_blank" rel="noopener nofollow">BE Resort Mactan</a>（ビーチフロント／約P3,567≒9千円〜・目安）、<a href="https://www.costabellaresort.com/" target="_blank" rel="noopener nofollow">Costabella Tropical Beach Hotel</a>（白砂＋スパ）。
 - **治安**：ビサヤ地方はレベル1（十分注意）。スリ・夜間の単独行動に注意。
 
 <div class="yt-embed" style="position:relative;max-width:720px;margin:22px auto;aspect-ratio:16/9;border-radius:16px;overflow:hidden;box-shadow:0 10px 26px -14px rgba(0,0,0,.35);">
@@ -130,7 +130,7 @@ Xでも、ダナンの朝焼けビーチリゾートは"言葉を失う"と話�
 東南アジア屈指のリゾート。**成田からガルーダ直行約7〜7.5時間**、そして**乾季4〜10月の7〜8月はまさにハイシーズン＝晴天続きで夏に強い**（9月は混雑が緩んでコスパ良）。ビザは免除ではなく**到着ビザ(VOA)が必要**（約50万ルピア≒USD35前後・要現地確認）。
 
 - **費用の目安**：往復は通常期11〜13万円（お盆ピークは約20万円）。
-- **ホテル**：<a href="https://www.clubmed.co.jp/r/bali/y" target="_blank" rel="noopener nofollow">クラブメッド・バリ</a>（ヌサドゥア・オールインクルーシブ／東京発5日約17万円〜・目安）、<a href="https://www.ayana.com/ja/bali/" target="_blank" rel="noopener nofollow">AYANA Resort Bali</a>（ジンバラン・名物Rock Bar／2名1室 約4.9万円〜/泊・目安）。
+- **ホテル**：<img class="brand-logo-sm" src="/images/budget-overseas-resorts-2026/logos/clubmed.png" alt="クラブメッド・バリのロゴ" loading="lazy" /><a href="https://www.clubmed.co.jp/r/bali/y" target="_blank" rel="noopener nofollow">クラブメッド・バリ</a>（ヌサドゥア・オールインクルーシブ／東京発5日約17万円〜・目安）、<img class="brand-logo-sm on-dark" src="/images/budget-overseas-resorts-2026/logos/ayana.png" alt="AYANA Resort Baliのロゴ" loading="lazy" /><a href="https://www.ayana.com/ja/bali/" target="_blank" rel="noopener nofollow">AYANA Resort Bali</a>（ジンバラン・名物Rock Bar／2名1室 約4.9万円〜/泊・目安）。
 - **治安**：外務省がテロのリスクに言及（宗教・警察施設に近づきすぎない）。スリ・ぼったくりは観光都市並み。
 
 Xでは「バリのリッツはコスパ最強」「ひとり2,500円で泊まれた」と、**高級から激安まで振れ幅が大きい**のがバリの魅力。
@@ -168,7 +168,7 @@ Xでは「バリのリッツはコスパ最強」「ひとり2,500円で泊ま�
 ベトナム南中部のビーチシティ。エメラルドブルーの海と、**5つ星でも1万円前後**という価格破壊が魅力。45日ビザ免除。**乾季3〜8月で7〜8月は透明度が高くシュノーケリング向き**（9月から雨季）。直行はなくホーチミン等で乗継。
 
 - **費用の目安**：乗継で往復約55,960円〜。
-- **ホテル**：<a href="https://amianaresortsandhotels.com/" target="_blank" rel="noopener nofollow">Amiana Resort Nha Trang</a>（プライベートビーチ＋プール／料金は公式非掲載・要確認）、格安5つ星なら<a href="https://vinpearl.com/en/hotels/vinpearl-resort-nha-trang" target="_blank" rel="noopener nofollow">Vinpearl Resort Nha Trang</a>。
+- **ホテル**：<img class="brand-logo-sm" src="/images/budget-overseas-resorts-2026/logos/amiana.png" alt="Amiana Resort Nha Trangのロゴ" loading="lazy" /><a href="https://amianaresortsandhotels.com/" target="_blank" rel="noopener nofollow">Amiana Resort Nha Trang</a>（プライベートビーチ＋プール／料金は公式非掲載・要確認）、格安5つ星なら<a href="https://vinpearl.com/en/hotels/vinpearl-resort-nha-trang" target="_blank" rel="noopener nofollow">Vinpearl Resort Nha Trang</a>。
 - **治安**：特別な危険情報の指定なし。両替・タクシーのぼったくりに注意。
 
 Xでは「円安でハワイが遠いならニャチャン」という声が伸びてる。
@@ -190,7 +190,7 @@ Xでは「円安でハワイが遠いならニャチャン」という声が伸�
 タイ最大のビーチリゾート。**乾季は11〜4月で、7〜9月は南西モンスーンの雨季（グリーンシーズン）**。とくに9月は降水ピーク級でダイビングには不向きだけど、**航空券・ホテルが大きく下がる**。ビザは、2026/5/19に免除日数の短縮（60→30日）が閣議承認され、**8月時点の適用日数は要確認**（ETA・TDACも必要）。
 
 - **費用の目安**：往復は8月約61,669円／9月約55,844円（LCC乗継・年間最安クラス）。
-- **ホテル**：<a href="https://www.katagroup.com/orchid/" target="_blank" rel="noopener nofollow">Phuket Orchid Resort and Spa</a>（カロンビーチ徒歩5分・ウォーターパーク／約USD47〜133≒7千〜2万円・目安）。
+- **ホテル**：<img class="brand-logo-sm" src="/images/budget-overseas-resorts-2026/logos/orchid.png" alt="Phuket Orchid Resort and Spaのロゴ" loading="lazy" /><a href="https://www.katagroup.com/orchid/" target="_blank" rel="noopener nofollow">Phuket Orchid Resort and Spa</a>（カロンビーチ徒歩5分・ウォーターパーク／約USD47〜133≒7千〜2万円・目安）。
 - **治安**：主要観光地はレベル1。①バイク事故が世界ワースト級 ②不敬罪（SNSも対象・重罰）に注意。南部国境4県は別エリアで渡航中止勧告。
 
 <div class="yt-embed" style="position:relative;max-width:720px;margin:22px auto;aspect-ratio:16/9;border-radius:16px;overflow:hidden;box-shadow:0 10px 26px -14px rgba(0,0,0,.35);">
@@ -248,7 +248,7 @@ Xでは「円安でハワイが遠いならニャチャン」という声が伸�
 
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">日本屈指の美しさを誇る<br>川平湾のすぐ近く。<br><br>クラブメッド石垣島カビラは<br>最高のロケーションで<br>贅沢な時間を過ごせるリゾート。<br><br>透き通る海でのアクティビティも<br>至高のグルメも、すべて旅費に含まれる<br>オールインクルーシブ。<br><br>ここでしか味わえない<br>極上の沖縄が待っています。</p>&mdash; アッキー (@akkiybolg) <a href="https://twitter.com/akkiybolg/status/2075328517039120838">2026年7月10日</a></blockquote>
 
-<p class="source-note">公式: <a href="https://www.clubmed.co.jp/r/kabira-ishigaki/y" target="_blank" rel="noopener nofollow">クラブメッド石垣島カビラ</a>。料金・プラン・空室は時期変動のため公式で最新をご確認を。</p>
+<p class="source-note">公式: <img class="brand-logo-sm" src="/images/budget-overseas-resorts-2026/logos/clubmed.png" alt="クラブメッド石垣島カビラのロゴ" loading="lazy" /><a href="https://www.clubmed.co.jp/r/kabira-ishigaki/y" target="_blank" rel="noopener nofollow">クラブメッド石垣島カビラ</a>。料金・プラン・空室は時期変動のため公式で最新をご確認を。</p>
 
 ### 🌊 宮古島｜シギラリゾート（宮古ブルー×黄金温泉）
 
