@@ -1,0 +1,19 @@
+{
+  "_note": "識別目的で使うロゴ。**商標であり自由ライセンスではない。** 改変しない（CSS の枠は可）。取得元と取得日をここに残す。",
+  "amazon.png": {
+    "brand": "Amazon.co.jp",
+    "source": "https://www.pointtown.com/ 上の Amazon ロゴ",
+    "page": "https://www.pointtown.com/ 上の Amazon ロゴ",
+    "fetched": "2026-09-20",
+    "license_note": "商標。識別目的で使用",
+    "task": "ops/tasks/t130-*.sh"
+  },
+  "rakutenichiba.png": {
+    "brand": "楽天市場",
+    "source": "コモンズ / 公式の楽天市場ロゴ",
+    "page": "コモンズ / 公式の楽天市場ロゴ",
+    "fetched": "2026-09-20",
+    "license_note": "商標。識別目的で使用",
+    "task": "ops/tasks/t132-*.sh"
+  }
+}

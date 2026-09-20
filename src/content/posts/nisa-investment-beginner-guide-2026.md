@@ -204,7 +204,7 @@ author: "hacker-ko"
 <div class="compare-cards">
   <article class="compare-card recommended">
     <span class="compare-card-mascot"><img src="/images/expr-05-smug.png" alt="" /></span>
-    <h3>SBI証券</h3>
+    <h3 class="brand-h"><img class="brand-logo" src="/images/nisa-investment-beginner-guide-2026/logos/sbisec.png" alt="SBI証券のロゴ" loading="lazy" /><span>SBI証券</span></h3>
     <p class="tagline">ネット証券口座数No.1。クレカ積立・銘柄数・三井住友カード連携で総合力最強。</p>
     <dl>
       <dt>NISA口座開設手数料</dt><dd>無料</dd>
@@ -218,7 +218,7 @@ author: "hacker-ko"
 
   <article class="compare-card recommended">
     <span class="compare-card-mascot"><img src="/images/expr-04-cheer.png" alt="" /></span>
-    <h3>楽天証券</h3>
+    <h3 class="brand-h"><img class="brand-logo" src="/images/nisa-investment-beginner-guide-2026/logos/rakutensec.png" alt="楽天証券のロゴ" loading="lazy" /><span>楽天証券</span></h3>
     <p class="tagline">楽天経済圏との連携が最強。楽天カード積立で楽天ポイントが貯まる定番。</p>
     <dl>
       <dt>NISA口座開設手数料</dt><dd>無料</dd>
