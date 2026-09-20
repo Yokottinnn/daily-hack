@@ -68,6 +68,12 @@
 
 <!-- 新しい記録がこの下に追加される（新しいものが上） -->
 
+### 2026-09-20 — 学割の「通常いくらか」を全部 実額にした（JetBrains 203,170円 / Tableau 月9,000円 / AutoCAD 77,000円 ほか9件）＋ 歩いてポイ活に20サービス全部の「月いくら」一覧
+
+次のアクション:
+
+- [ ] 読めなかった料金ページ（JetBrains/Tableau/AutoCAD/Notion）を Mac で読み直して公式の額に置き換える。スーパー記事のロゴ表示とタイムセール情報
+
 ### 2026-09-20 — フォロワー経路の効き目を測り切った。実フォロワーは 264（227 ではない）。競合の種ごとの返り率は himawari56757 26.0% 〜 ukk_hx 4.2% で 6 倍 の開き。群で見ると 外す 3 つ が 89 件→7 人（7.9%）、残す 4 つ が 133 件→28 人（21.1%）。規模では説明がつかず（okamiler_pn 18.2%/平均7757 と ukk_hx 4.2%/平均6993）、効いているのはジャンルの近さ。種の一覧は competitor-follower-follow.js:27 の COMPETITORS に直書き、epoch日%7 で 1 日 1 種。環境変数では渡せない。influencers.json は 7 件 のみで候補プールは空。候補は hashtag-follow の「大きすぎる」弾き（711SEJ 707万〜Gian_Support 1.1万）と comment-warmup の選定頻度（money_yossy 85回, POIKATSU_OTAKE 43回, fxmeitantei 30回, bicsim_official 22回, coupon_gorilla1 11回 など）から拾える
 
 次のアクション:
