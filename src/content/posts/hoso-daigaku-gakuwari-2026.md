@@ -38,7 +38,7 @@ references:
 <tr class="recommended"><td>大人でも学割は使えるか</td><td><strong>使える。</strong>年齢の上限は無い。放送大学は1科目から入学でき、<strong>正規の大学生として学生証が出る</strong></td></tr>
 <tr><td>学割はいつまで効くか</td><td><strong>最長10年。</strong>全科履修生の在学年限が10年で、<strong>休学8学期を足すと通算14年</strong></td></tr>
 <tr><td>いくらかかるか</td><td>除籍にならない最小構成で<strong>10年54,000円＝月450円</strong>。放送授業でそろえても月700円</td></tr>
-<tr><td>一番 効くのは何か</td><td>毎月なら<a href="https://www.adobe.com/jp/creativecloud/plans.html" target="_blank" rel="noopener">Adobe</a>。都度なら<strong><a href="https://www.campusmembers.jp/" target="_blank" rel="noopener">国立美術館の所蔵作品展が無料</a></strong>（全学生種OK）</td></tr>
+<tr><td>一番 効くのは何か</td><td><span class="cell-brand">毎月なら<img class="brand-logo-sm" src="/images/hoso-daigaku-gakuwari-2026/logos/adobe.png" alt="" loading="lazy" /><a href="https://www.adobe.com/jp/creativecloud/plans.html" target="_blank" rel="noopener">Adobe</a>。都度なら<strong><a href="https://www.campusmembers.jp/" target="_blank" rel="noopener">国立美術館の所蔵作品展が無料</a></strong>（全学生種OK）</span></td></tr>
 <tr><td>大人には効かないものは</td><td><strong>携帯キャリアの学割（U22など）と航空のスカイメイト（〜25歳）。</strong>年齢で弾かれる</td></tr>
 </tbody>
 </table>
@@ -103,9 +103,9 @@ references:
 <table class="cmp-table">
 <thead><tr><th>学生種</th><th>在学できる期間</th><th>入学料</th><th>10年 もたせられるか</th></tr></thead>
 <tbody>
-<tr><td><a href="https://www.ouj.ac.jp/gakubu/about/type/" target="_blank" rel="noopener">科目履修生</a></td><td>半年（1学期間）</td><td>7,000円</td><td>もたない。<strong>毎回 入学し直し</strong></td></tr>
-<tr><td><a href="https://www.ouj.ac.jp/gakubu/about/type/" target="_blank" rel="noopener">選科履修生</a></td><td>1年（2学期間）</td><td>9,000円</td><td>もたない。<strong>1年ごとに入学し直し</strong></td></tr>
-<tr class="recommended"><td><a href="https://www.ouj.ac.jp/gakubu/about/type/" target="_blank" rel="noopener">全科履修生</a></td><td><strong>最長10年</strong></td><td>24,000円</td><td><strong>もつ。</strong>休学8学期を足せば通算14年</td></tr>
+<tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/hoso-daigaku-gakuwari-2026/logos/ouj.png" alt="" loading="lazy" /><a href="https://www.ouj.ac.jp/gakubu/about/type/" target="_blank" rel="noopener">科目履修生</a></span></td><td>半年（1学期間）</td><td>7,000円</td><td>もたない。<strong>毎回 入学し直し</strong></td></tr>
+<tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/hoso-daigaku-gakuwari-2026/logos/ouj.png" alt="" loading="lazy" /><a href="https://www.ouj.ac.jp/gakubu/about/type/" target="_blank" rel="noopener">選科履修生</a></span></td><td>1年（2学期間）</td><td>9,000円</td><td>もたない。<strong>1年ごとに入学し直し</strong></td></tr>
+<tr class="recommended"><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/hoso-daigaku-gakuwari-2026/logos/ouj.png" alt="" loading="lazy" /><a href="https://www.ouj.ac.jp/gakubu/about/type/" target="_blank" rel="noopener">全科履修生</a></span></td><td><strong>最長10年</strong></td><td>24,000円</td><td><strong>もつ。</strong>休学8学期を足せば通算14年</td></tr>
 </tbody>
 </table>
 </div>
@@ -169,13 +169,13 @@ references:
 <table class="cmp-table">
 <thead><tr><th>サービス</th><th>通常</th><th>学割</th><th>毎月 浮く額</th><th>認証</th></tr></thead>
 <tbody>
-<tr class="recommended"><td><a href="https://www.adobe.com/jp/creativecloud/plans.html" target="_blank" rel="noopener">Adobe Creative Cloud Pro</a></td><td>9,080円</td><td>4,180円</td><td><strong>4,900円</strong></td><td>学生証・在学証明書</td></tr>
+<tr class="recommended"><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/hoso-daigaku-gakuwari-2026/logos/adobe.png" alt="" loading="lazy" /><a href="https://www.adobe.com/jp/creativecloud/plans.html" target="_blank" rel="noopener">Adobe Creative Cloud Pro</a></span></td><td>9,080円</td><td>4,180円</td><td><strong>4,900円</strong></td><td>学生証・在学証明書</td></tr>
 <tr><td><a href="https://www.youtube.com/premium" target="_blank" rel="noopener">YouTube Premium</a></td><td>1,280円</td><td>780円</td><td>500円</td><td>SheerID</td></tr>
 <tr><td><a href="https://www.spotify.com/jp-ja/student/" target="_blank" rel="noopener">Spotify Premium</a></td><td>1,080円</td><td>580円</td><td>500円</td><td>SheerID</td></tr>
-<tr><td><a href="https://www.apple.com/jp/apple-music/" target="_blank" rel="noopener">Apple Music</a></td><td>1,080円</td><td>680円</td><td>400円</td><td>UNiDAYS</td></tr>
+<tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/hoso-daigaku-gakuwari-2026/logos/apple.png" alt="" loading="lazy" /><a href="https://www.apple.com/jp/apple-music/" target="_blank" rel="noopener">Apple Music</a></span></td><td>1,080円</td><td>680円</td><td>400円</td><td>UNiDAYS</td></tr>
 <tr><td><a href="https://www.amazon.co.jp/b?node=5961517051" target="_blank" rel="noopener">Amazon Prime Student</a></td><td>600円</td><td>300円</td><td>300円</td><td>学籍番号・6か月無料体験</td></tr>
-<tr><td><a href="https://www.parallels.com/jp/products/desktop/education/" target="_blank" rel="noopener">Parallels Desktop</a></td><td>年11,700円</td><td>年5,700円</td><td>500円相当</td><td>在学確認</td></tr>
-<tr><td><a href="https://www.nikkei.com/promotion/campaign/student/" target="_blank" rel="noopener">日経電子版（学生限定キャンペーン）</a></td><td>4,277円</td><td>2カ月無料＋6か月は2,777円</td><td>1,500円（6か月）</td><td>申込時に学生であること</td></tr>
+<tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/hoso-daigaku-gakuwari-2026/logos/parallels.png" alt="" loading="lazy" /><a href="https://www.parallels.com/jp/products/desktop/education/" target="_blank" rel="noopener">Parallels Desktop</a></span></td><td>年11,700円</td><td>年5,700円</td><td>500円相当</td><td>在学確認</td></tr>
+<tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/hoso-daigaku-gakuwari-2026/logos/nikkei.png" alt="" loading="lazy" /><a href="https://www.nikkei.com/promotion/campaign/student/" target="_blank" rel="noopener">日経電子版（学生限定キャンペーン）</a></span></td><td>4,277円</td><td>2カ月無料＋6か月は2,777円</td><td>1,500円（6か月）</td><td>申込時に学生であること</td></tr>
 </tbody>
 </table>
 </div>
@@ -196,10 +196,10 @@ references:
 <tr><td><a href="https://www.notion.com/product/notion-for-education" target="_blank" rel="noopener">Notion</a></td><td>プラス <strong>月1,650円</strong>（年払い・1人）</td><td><strong>無料</strong></td><td><strong>19,800円</strong></td><td>アップロード無制限・履歴30日・ゲスト100人</td></tr>
 <tr><td><a href="https://www.jetbrains.com/ja-jp/community/education/" target="_blank" rel="noopener">JetBrains</a></td><td>All Products Pack <strong>年203,170円</strong>（税込）</td><td><strong>無料</strong></td><td><strong>203,170円</strong></td><td>IntelliJ・PyCharm・WebStormなどIDE全部入り</td></tr>
 <tr><td><a href="https://education.github.com/pack" target="_blank" rel="noopener">GitHub Student Pack</a></td><td>Copilot Pro <strong>月10ドル</strong>ほか各社の有料枠</td><td><strong>無料</strong></td><td><strong>1,000ドル超</strong></td><td>下の表に中身を出した。<strong>New Relicの月300ドル相当だけで桁が変わる</strong></td></tr>
-<tr><td><a href="https://www.microsoft.com/ja-JP/education/products/office" target="_blank" rel="noopener">Microsoft 365</a></td><td>Personal <strong>年21,300円</strong>（Copilot無しのClassicは14,900円）</td><td><strong>無料</strong>（教育機関向けA1）</td><td><strong>21,300円</strong></td><td>Web版Office＋1TBのOneDrive。買い切り版がほしいなら<a href="https://www.ouj.ac.jp/about/office-gakuwari/" target="_blank" rel="noopener">ウチダのOffice学割</a>も使える</td></tr>
+<tr><td><a href="https://www.microsoft.com/ja-JP/education/products/office" target="_blank" rel="noopener">Microsoft 365</a></td><td>Personal <strong>年21,300円</strong>（Copilot無しのClassicは14,900円）</td><td><strong>無料</strong>（教育機関向けA1）</td><td><strong>21,300円</strong></td><td><span class="cell-brand">Web版Office＋1TBのOneDrive。買い切り版がほしいなら<img class="brand-logo-sm" src="/images/hoso-daigaku-gakuwari-2026/logos/ouj.png" alt="" loading="lazy" /><a href="https://www.ouj.ac.jp/about/office-gakuwari/" target="_blank" rel="noopener">ウチダのOffice学割</a>も使える</span></td></tr>
 <tr><td><a href="https://www.autodesk.com/jp/education/home" target="_blank" rel="noopener">Autodesk</a></td><td>AutoCAD <strong>年77,000円</strong>（税込・1年契約）</td><td><strong>無料</strong>（教育用ライセンス）</td><td><strong>77,000円</strong></td><td>AutoCAD・Fusion・Revit・Mayaなど。1年ごとに更新</td></tr>
-<tr><td><a href="https://www.wolframalpha.com/pro-for-students" target="_blank" rel="noopener">Wolfram|Alpha Pro</a></td><td>Pro <strong>年12,720円</strong></td><td><strong>年7,560円</strong>（Student）</td><td><strong>5,160円</strong></td><td>途中式の表示・計算時間の上限解除</td></tr>
-<tr><td><a href="https://www.overleaf.com/edu" target="_blank" rel="noopener">Overleaf</a></td><td>Standard <strong>月21ドル</strong></td><td><strong>月10ドル</strong>（Student・月払い）</td><td><strong>132ドル</strong></td><td>LaTeXの共同編集・履歴無制限。卒論を書くなら</td></tr>
+<tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/hoso-daigaku-gakuwari-2026/logos/wolfram.png" alt="" loading="lazy" /><a href="https://www.wolframalpha.com/pro-for-students" target="_blank" rel="noopener">Wolfram|Alpha Pro</a></span></td><td>Pro <strong>年12,720円</strong></td><td><strong>年7,560円</strong>（Student）</td><td><strong>5,160円</strong></td><td>途中式の表示・計算時間の上限解除</td></tr>
+<tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/hoso-daigaku-gakuwari-2026/logos/overleaf.png" alt="" loading="lazy" /><a href="https://www.overleaf.com/edu" target="_blank" rel="noopener">Overleaf</a></span></td><td>Standard <strong>月21ドル</strong></td><td><strong>月10ドル</strong>（Student・月払い）</td><td><strong>132ドル</strong></td><td>LaTeXの共同編集・履歴無制限。卒論を書くなら</td></tr>
 <tr><td><a href="https://www.lucidchart.com/pages/ja/education" target="_blank" rel="noopener">Lucidchart</a></td><td>Individual <strong>月7.95〜9ドル</strong></td><td><strong>無料</strong>（教育機関プラン）</td><td><strong>95〜108ドル</strong></td><td>作図の無制限化。ac.jpアドレスで申請する</td></tr>
 <tr><td><a href="https://www.unrealengine.com/" target="_blank" rel="noopener">Unreal Engine</a></td><td>商用は売上<strong>100万ドル超</strong>の部分に5%のロイヤリティ</td><td><strong>学習・教育用途は無料</strong></td><td>—</td><td>教育機関向けにフル機能。Quixel素材も使える</td></tr>
 <tr><td><a href="https://azure.microsoft.com/ja-jp/free/students/" target="_blank" rel="noopener">Azure for Students</a></td><td><strong>定額の料金プランが無い</strong>（使ったぶんだけの従量課金）</td><td><strong>100ドルのクレジット</strong>＋無料枠</td><td><strong>100ドル</strong></td><td><strong>クレジットカード不要。</strong>25以上が12か月 無料、65以上は月枠の制限なしで常時 無料</td></tr>
@@ -218,13 +218,13 @@ references:
 <table class="cmp-table">
 <thead><tr><th>特典</th><th>公表されている金額</th><th>期間</th></tr></thead>
 <tbody>
-<tr class="recommended"><td><a href="https://newrelic.com/" target="_blank" rel="noopener">New Relic</a></td><td><strong>月300ドル相当</strong></td><td>在学中ずっと</td></tr>
+<tr class="recommended"><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/hoso-daigaku-gakuwari-2026/logos/newrelic.png" alt="" loading="lazy" /><a href="https://newrelic.com/" target="_blank" rel="noopener">New Relic</a></span></td><td><strong>月300ドル相当</strong></td><td>在学中ずっと</td></tr>
 <tr><td><a href="https://requestly.com/" target="_blank" rel="noopener">Requestly Professional</a></td><td><strong>270ドル相当</strong></td><td>1年間</td></tr>
 <tr><td><a href="https://azure.microsoft.com/ja-jp/free/students/" target="_blank" rel="noopener">Microsoft Azure</a></td><td><strong>100ドルのクレジット</strong>＋25以上のサービスが無料</td><td>18歳以上が対象</td></tr>
 <tr><td><a href="https://visualstudio.microsoft.com/" target="_blank" rel="noopener">Visual Studio ＋ Pluralsight</a></td><td>Azureの1年ぶん＋初月<strong>200ドルのクレジット</strong></td><td>1年間</td></tr>
-<tr><td><a href="https://www.mongodb.com/" target="_blank" rel="noopener">MongoDB Atlas</a></td><td><strong>50ドルのクレジット</strong>＋<strong>150ドル相当</strong>の認定試験が無料</td><td>—</td></tr>
-<tr><td><a href="https://www.digitalocean.com/" target="_blank" rel="noopener">DigitalOcean</a></td><td><strong>月13ドル</strong>のクレジット</td><td><strong>24か月</strong>（合計312ドル）</td></tr>
-<tr><td><a href="https://stripe.com/jp" target="_blank" rel="noopener">Stripe</a></td><td><strong>25ドル</strong>のクレジット（手数料に充当）</td><td>—</td></tr>
+<tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/hoso-daigaku-gakuwari-2026/logos/mongodb.png" alt="" loading="lazy" /><a href="https://www.mongodb.com/" target="_blank" rel="noopener">MongoDB Atlas</a></span></td><td><strong>50ドルのクレジット</strong>＋<strong>150ドル相当</strong>の認定試験が無料</td><td>—</td></tr>
+<tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/hoso-daigaku-gakuwari-2026/logos/digitalocean.png" alt="" loading="lazy" /><a href="https://www.digitalocean.com/" target="_blank" rel="noopener">DigitalOcean</a></span></td><td><strong>月13ドル</strong>のクレジット</td><td><strong>24か月</strong>（合計312ドル）</td></tr>
+<tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/hoso-daigaku-gakuwari-2026/logos/stripe.png" alt="" loading="lazy" /><a href="https://stripe.com/jp" target="_blank" rel="noopener">Stripe</a></span></td><td><strong>25ドル</strong>のクレジット（手数料に充当）</td><td>—</td></tr>
 <tr><td><a href="https://github.com/features/copilot" target="_blank" rel="noopener">GitHub Copilot Pro</a></td><td><strong>月10ドル</strong>が無料</td><td>在学確認が通る間</td></tr>
 </tbody>
 </table>
@@ -245,11 +245,11 @@ references:
 <tr><th><a href="https://www.microsoft.com/ja-jp/microsoft-365/p/microsoft-365-personal/cfq7ttc0k5bc" target="_blank" rel="noopener">Microsoft 365 Personal</a></th><td><strong>21,300円</strong>／年</td></tr>
 <tr><th><a href="https://www.notion.com/pricing" target="_blank" rel="noopener">Notion プラス</a></th><td><strong>19,800円</strong>／年</td></tr>
 <tr><th><a href="https://www.figma.com/ja-jp/pricing/" target="_blank" rel="noopener">Figma プロフェッショナル</a></th><td><strong>192ドル</strong>／年（約27,800円）</td></tr>
-<tr><th><a href="https://www.overleaf.com/user/subscription/plans" target="_blank" rel="noopener">Overleaf Standard</a></th><td><strong>252ドル</strong>／年（約36,500円）</td></tr>
+<tr><th><img class="brand-logo-sm" src="/images/hoso-daigaku-gakuwari-2026/logos/overleaf.png" alt="" loading="lazy" /><a href="https://www.overleaf.com/user/subscription/plans" target="_blank" rel="noopener">Overleaf Standard</a></th><td><strong>252ドル</strong>／年（約36,500円）</td></tr>
 <tr><th><a href="https://github.com/features/copilot/plans" target="_blank" rel="noopener">GitHub Copilot Pro</a></th><td><strong>120ドル</strong>／年（約17,400円）</td></tr>
 <tr><th><a href="https://www.lucidchart.com/pages/ja/pricing" target="_blank" rel="noopener">Lucidchart Individual</a></th><td><strong>95〜108ドル</strong>／年（約14,000〜15,700円）</td></tr>
 <tr><th><a href="https://azure.microsoft.com/ja-jp/free/students/" target="_blank" rel="noopener">Azure のクレジット</a></th><td><strong>100ドル</strong>（約14,500円）</td></tr>
-<tr><th><a href="https://www.wolframalpha.com/pro/pricing/students" target="_blank" rel="noopener">Wolfram|Alpha Pro</a></th><td><strong>12,720円</strong>／年（学生は7,560円なので差は5,160円）</td></tr>
+<tr><th><img class="brand-logo-sm" src="/images/hoso-daigaku-gakuwari-2026/logos/wolfram.png" alt="" loading="lazy" /><a href="https://www.wolframalpha.com/pro/pricing/students" target="_blank" rel="noopener">Wolfram|Alpha Pro</a></th><td><strong>12,720円</strong>／年（学生は7,560円なので差は5,160円）</td></tr>
 <tr class="recommended"><th>合計</th><td><strong>年およそ55万円ぶん</strong>（1ドル145円で換算）</td></tr>
 </tbody>
 </table>
@@ -288,9 +288,9 @@ references:
 <table class="cmp-table">
 <thead><tr><th>劇場</th><th>一般</th><th>大学生</th><th>1回で浮く額</th><th>月1本なら年</th></tr></thead>
 <tbody>
-<tr class="recommended"><td><a href="https://www.tohotheater.jp/" target="_blank" rel="noopener">TOHOシネマズ</a></td><td>2,000〜2,200円</td><td>1,500〜1,600円</td><td><strong>400〜600円</strong></td><td>4,800〜7,200円</td></tr>
-<tr><td><a href="https://109cinemas.net/" target="_blank" rel="noopener">109シネマズ</a></td><td>2,000円前後</td><td>1,500円前後</td><td>500円前後</td><td>6,000円前後</td></tr>
-<tr><td><a href="https://www.aeoncinema.com/" target="_blank" rel="noopener">イオンシネマ</a></td><td>2,000円</td><td>1,700円</td><td>300円</td><td>3,600円</td></tr>
+<tr class="recommended"><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/hoso-daigaku-gakuwari-2026/logos/toho.png" alt="" loading="lazy" /><a href="https://www.tohotheater.jp/" target="_blank" rel="noopener">TOHOシネマズ</a></span></td><td>2,000〜2,200円</td><td>1,500〜1,600円</td><td><strong>400〜600円</strong></td><td>4,800〜7,200円</td></tr>
+<tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/hoso-daigaku-gakuwari-2026/logos/cinemas109.png" alt="" loading="lazy" /><a href="https://109cinemas.net/" target="_blank" rel="noopener">109シネマズ</a></span></td><td>2,000円前後</td><td>1,500円前後</td><td>500円前後</td><td>6,000円前後</td></tr>
+<tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/hoso-daigaku-gakuwari-2026/logos/aeoncinema.png" alt="" loading="lazy" /><a href="https://www.aeoncinema.com/" target="_blank" rel="noopener">イオンシネマ</a></span></td><td>2,000円</td><td>1,700円</td><td>300円</td><td>3,600円</td></tr>
 </tbody>
 </table>
 </div>
@@ -306,7 +306,7 @@ references:
 <thead><tr><th>券種</th><th>価格</th><th>対象</th><th>いつ</th></tr></thead>
 <tbody>
 <tr class="recommended"><td><a href="https://www.tokyodisneyresort.jp/dream/event/college2026.html" target="_blank" rel="noopener">TDR カレッジパスポート</a></td><td><strong>7,000〜9,000円</strong></td><td>大学・大学院・短大・専門・予備校生。<strong>年齢を問わず、通信制も対象</strong></td><td>期間限定（春・秋）</td></tr>
-<tr><td><a href="https://www.usj.co.jp/web/ja/jp" target="_blank" rel="noopener">USJ 1デイ学割パス</a></td><td>7,900〜10,900円</td><td>中学生以上の学生。<strong>購入時に学生証をアップロード</strong></td><td>期間限定（ユニ春）</td></tr>
+<tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/hoso-daigaku-gakuwari-2026/logos/usj.png" alt="" loading="lazy" /><a href="https://www.usj.co.jp/web/ja/jp" target="_blank" rel="noopener">USJ 1デイ学割パス</a></span></td><td>7,900〜10,900円</td><td>中学生以上の学生。<strong>購入時に学生証をアップロード</strong></td><td>期間限定（ユニ春）</td></tr>
 <tr><td><a href="https://www.fujiq.jp/special/gakuwari2026_2/index.html" target="_blank" rel="noopener">富士急ハイランド 学割ワンデイパス</a></td><td><strong>通常より最大2,100円 安い</strong></td><td>学生限定。<strong>オンライン販売のみ</strong>で、窓口では買えない</td><td>期間限定（秋の絶叫学割）</td></tr>
 </tbody>
 </table>
@@ -320,14 +320,14 @@ references:
 <table class="cmp-table">
 <thead><tr><th>使うもの</th><th>学生だと</th><th>条件</th></tr></thead>
 <tbody>
-<tr class="recommended"><td><a href="https://tic-coop.com/coop/" target="_blank" rel="noopener">東京インターカレッジコープ</a>（大学生協）</td><td>書籍・DVDが<strong>10%引き</strong></td><td>都内で生協の無い学校の学生・院生・教職員が対象。<strong>出資金は一口5,000円で、卒業時に返還</strong></td></tr>
-<tr><td><a href="https://big-echo.jp/" target="_blank" rel="noopener">ビッグエコー</a></td><td>学生料金</td><td>在学が証明できれば<strong>通信制も対象</strong>、年齢の上限は置いていない</td></tr>
-<tr class="recommended"><td><a href="https://www.round1.co.jp/campaign/specialprice.html" target="_blank" rel="noopener">ラウンドワン</a>（カラオケ）</td><td>ドリンクバー付フリータイムが<strong>490円</strong></td><td>平日18時までの入室。<strong>別途1オーダー制</strong>。ボウリング・スポッチャにも学生料金がある</td></tr>
-<tr><td><a href="https://www.karaokemanekineko.jp/" target="_blank" rel="noopener">カラオケまねきねこ</a></td><td>学生フリータイム</td><td><strong>店舗ごとに条件が違う</strong>。全員の学生証提示が要る</td></tr>
-<tr><td><a href="https://www.gyukaku.ne.jp/" target="_blank" rel="noopener">牛角</a></td><td><strong>学生グループ限定 食べ放題 2,500円（税込）</strong></td><td>平日限定。<strong>グループ全員の学生証提示が必須</strong>で、中学生以上の学生グループが対象。年齢の上限は書かれていない</td></tr>
+<tr class="recommended"><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/hoso-daigaku-gakuwari-2026/logos/ticcoop.png" alt="" loading="lazy" /><a href="https://tic-coop.com/coop/" target="_blank" rel="noopener">東京インターカレッジコープ</a>（大学生協）</span></td><td>書籍・DVDが<strong>10%引き</strong></td><td>都内で生協の無い学校の学生・院生・教職員が対象。<strong>出資金は一口5,000円で、卒業時に返還</strong></td></tr>
+<tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/hoso-daigaku-gakuwari-2026/logos/bigecho.png" alt="" loading="lazy" /><a href="https://big-echo.jp/" target="_blank" rel="noopener">ビッグエコー</a></span></td><td>学生料金</td><td>在学が証明できれば<strong>通信制も対象</strong>、年齢の上限は置いていない</td></tr>
+<tr class="recommended"><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/hoso-daigaku-gakuwari-2026/logos/round1.png" alt="" loading="lazy" /><a href="https://www.round1.co.jp/campaign/specialprice.html" target="_blank" rel="noopener">ラウンドワン</a>（カラオケ）</span></td><td>ドリンクバー付フリータイムが<strong>490円</strong></td><td>平日18時までの入室。<strong>別途1オーダー制</strong>。ボウリング・スポッチャにも学生料金がある</td></tr>
+<tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/hoso-daigaku-gakuwari-2026/logos/manekineko.png" alt="" loading="lazy" /><a href="https://www.karaokemanekineko.jp/" target="_blank" rel="noopener">カラオケまねきねこ</a></span></td><td>学生フリータイム</td><td><strong>店舗ごとに条件が違う</strong>。全員の学生証提示が要る</td></tr>
+<tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/hoso-daigaku-gakuwari-2026/logos/gyukaku.png" alt="" loading="lazy" /><a href="https://www.gyukaku.ne.jp/" target="_blank" rel="noopener">牛角</a></span></td><td><strong>学生グループ限定 食べ放題 2,500円（税込）</strong></td><td>平日限定。<strong>グループ全員の学生証提示が必須</strong>で、中学生以上の学生グループが対象。年齢の上限は書かれていない</td></tr>
 <tr><td><a href="https://travel.willer.co.jp/" target="_blank" rel="noopener">WILLER（高速バス）</a></td><td>学生限定の春休み割で<strong>最大2,000円OFF</strong></td><td>2月・3月の予約が対象。<strong>会員登録で「学生」を選び、卒業予定年月を入れる</strong>（過ぎると自動で解除される）</td></tr>
-<tr><td><a href="https://www.the0123.com/" target="_blank" rel="noopener">アート引越センター</a></td><td>学割パック</td><td>引っ越すときだけ。単身向けの定額パック</td></tr>
-<tr><td><a href="https://www.ouj.ac.jp/about/nursery/" target="_blank" rel="noopener">キッズスクウェアの一時預かり</a></td><td>放送大学向けの割引料金</td><td>放送大学が提携している。<strong>全科・選科・科目のどれでも対象</strong>で、予約時に申し出て当日 学生証を出す</td></tr>
+<tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/hoso-daigaku-gakuwari-2026/logos/art0123.png" alt="" loading="lazy" /><a href="https://www.the0123.com/" target="_blank" rel="noopener">アート引越センター</a></span></td><td>学割パック</td><td>引っ越すときだけ。単身向けの定額パック</td></tr>
+<tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/hoso-daigaku-gakuwari-2026/logos/ouj.png" alt="" loading="lazy" /><a href="https://www.ouj.ac.jp/about/nursery/" target="_blank" rel="noopener">キッズスクウェアの一時預かり</a></span></td><td>放送大学向けの割引料金</td><td>放送大学が提携している。<strong>全科・選科・科目のどれでも対象</strong>で、予約時に申し出て当日 学生証を出す</td></tr>
 </tbody>
 </table>
 </div>
@@ -366,13 +366,13 @@ references:
 <table class="cmp-table">
 <thead><tr><th>製品</th><th>教育ストアの表示価格</th><th>構成の目安</th></tr></thead>
 <tbody>
-<tr class="recommended"><td><a href="https://www.apple.com/jp-edu/shop/buy-ipad/ipad" target="_blank" rel="noopener">iPad</a></td><td><strong>70,800円</strong>から</td><td>Wi-Fi版で70,800／87,800／122,800円。Cellular版は95,800／112,800／147,800円</td></tr>
-<tr><td><a href="https://www.apple.com/jp-edu/shop/buy-ipad/ipad-air" target="_blank" rel="noopener">iPad Air</a></td><td><strong>120,800円</strong>から</td><td>11インチが120,800〜222,800円、13インチが160,800〜262,800円。Cellularは各＋25,000円前後</td></tr>
-<tr><td><a href="https://www.apple.com/jp-edu/shop/buy-ipad" target="_blank" rel="noopener">iPad Pro</a></td><td><strong>191,800円</strong>から</td><td>最上位。Apple Pencil ProとMagic Keyboardに対応</td></tr>
-<tr><td><a href="https://www.apple.com/jp-edu/shop/buy-mac" target="_blank" rel="noopener">Mac（MacBook Air／Pro・iMac・Mac mini・Mac Studio）</a></td><td>製品ごと</td><td>教育ストアは全ラインが対象。<strong>分割は最大24回まで金利0%</strong></td></tr>
-<tr><td><a href="https://www.apple.com/jp-edu/shop/accessories/all/education-savings" target="_blank" rel="noopener">アクセサリ</a></td><td>学生・教職員価格</td><td>Apple Pencil・Magic Keyboardなども専用ページがある</td></tr>
-<tr><td><a href="https://www.apple.com/jp-edu/shop/browse/overlay/store/edu_pricing" target="_blank" rel="noopener">AppleCare+</a></td><td><strong>最大10%オフ</strong></td><td>AppleCare+ for MacとAppleCare+ 盗難・紛失プラン for iPadが対象</td></tr>
-<tr><td><a href="https://www.apple.com/jp/apple-music/" target="_blank" rel="noopener">Apple Music 学生プラン</a></td><td><strong>月480円／年4,800円</strong></td><td>教育ストアの脚注に明記。新規登録者が対象で、在学確認が要る</td></tr>
+<tr class="recommended"><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/hoso-daigaku-gakuwari-2026/logos/apple.png" alt="" loading="lazy" /><a href="https://www.apple.com/jp-edu/shop/buy-ipad/ipad" target="_blank" rel="noopener">iPad</a></span></td><td><strong>70,800円</strong>から</td><td>Wi-Fi版で70,800／87,800／122,800円。Cellular版は95,800／112,800／147,800円</td></tr>
+<tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/hoso-daigaku-gakuwari-2026/logos/apple.png" alt="" loading="lazy" /><a href="https://www.apple.com/jp-edu/shop/buy-ipad/ipad-air" target="_blank" rel="noopener">iPad Air</a></span></td><td><strong>120,800円</strong>から</td><td>11インチが120,800〜222,800円、13インチが160,800〜262,800円。Cellularは各＋25,000円前後</td></tr>
+<tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/hoso-daigaku-gakuwari-2026/logos/apple.png" alt="" loading="lazy" /><a href="https://www.apple.com/jp-edu/shop/buy-ipad" target="_blank" rel="noopener">iPad Pro</a></span></td><td><strong>191,800円</strong>から</td><td>最上位。Apple Pencil ProとMagic Keyboardに対応</td></tr>
+<tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/hoso-daigaku-gakuwari-2026/logos/apple.png" alt="" loading="lazy" /><a href="https://www.apple.com/jp-edu/shop/buy-mac" target="_blank" rel="noopener">Mac（MacBook Air／Pro・iMac・Mac mini・Mac Studio）</a></span></td><td>製品ごと</td><td>教育ストアは全ラインが対象。<strong>分割は最大24回まで金利0%</strong></td></tr>
+<tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/hoso-daigaku-gakuwari-2026/logos/apple.png" alt="" loading="lazy" /><a href="https://www.apple.com/jp-edu/shop/accessories/all/education-savings" target="_blank" rel="noopener">アクセサリ</a></span></td><td>学生・教職員価格</td><td>Apple Pencil・Magic Keyboardなども専用ページがある</td></tr>
+<tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/hoso-daigaku-gakuwari-2026/logos/apple.png" alt="" loading="lazy" /><a href="https://www.apple.com/jp-edu/shop/browse/overlay/store/edu_pricing" target="_blank" rel="noopener">AppleCare+</a></span></td><td><strong>最大10%オフ</strong></td><td>AppleCare+ for MacとAppleCare+ 盗難・紛失プラン for iPadが対象</td></tr>
+<tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/hoso-daigaku-gakuwari-2026/logos/apple.png" alt="" loading="lazy" /><a href="https://www.apple.com/jp/apple-music/" target="_blank" rel="noopener">Apple Music 学生プラン</a></span></td><td><strong>月480円／年4,800円</strong></td><td>教育ストアの脚注に明記。新規登録者が対象で、在学確認が要る</td></tr>
 </tbody>
 </table>
 </div>
@@ -382,7 +382,7 @@ references:
 <div class="cmp-table-wrap">
 <table class="cmp-table spec-table">
 <tbody>
-<tr><th>どこで買うか</th><td><a href="https://www.apple.com/jp-edu/store" target="_blank" rel="noopener">Apple 学生・教職員向けストア</a>。通常のストアとは別の入口</td></tr>
+<tr><th>どこで買うか</th><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/hoso-daigaku-gakuwari-2026/logos/apple.png" alt="" loading="lazy" /><a href="https://www.apple.com/jp-edu/store" target="_blank" rel="noopener">Apple 学生・教職員向けストア</a>。通常のストアとは別の入口</span></td></tr>
 <tr><th>誰が対象か</th><td>公式の記載は「<strong>大学生、高等専門学校および専門学校生、これらの学校に進学が決まった生徒</strong>、大学受験予備校生、その保護者の方の代理購入に加えて、教育機関の教職員」。<strong>卒業をめざす課程が前提</strong>なので、選科・科目履修生は通らないと考えておく</td></tr>
 <tr><th>どう認証するか</th><td>UNiDAYS。<strong>放送大学でも通ったという報告がある</strong>（下の投稿）。合格通知書で通した例もある</td></tr>
 <tr><th>支払い</th><td>30,000円以上の購入で<strong>2回から最大24回まで金利0%の分割</strong>（オリコ・JCB・三井住友・楽天カード）。ペイディあと払いプランApple専用も使える</td></tr>
@@ -431,8 +431,8 @@ references:
 <div class="cmp-table-wrap">
 <table class="cmp-table spec-table">
 <tbody>
-<tr><th>対象館</th><td><a href="https://www.momat.go.jp/" target="_blank" rel="noopener">東京国立近代美術館</a>本館／<a href="https://www.momak.go.jp/" target="_blank" rel="noopener">京都国立近代美術館</a>／<a href="https://www.nmwa.go.jp/" target="_blank" rel="noopener">国立西洋美術館</a>／<a href="https://www.nact.jp/" target="_blank" rel="noopener">国立新美術館</a>／<a href="https://www.nmao.go.jp/" target="_blank" rel="noopener">国立国際美術館</a>／<a href="https://www.momat.go.jp/craft-museum" target="_blank" rel="noopener">国立工芸館</a></td></tr>
-<tr><th>所蔵作品展</th><td><strong>無料</strong>（国立新美術館は所蔵作品展を行っていない）。<a href="https://www.nfaj.go.jp/" target="_blank" rel="noopener">国立映画アーカイブ</a>の所蔵作品上映も無料</td></tr>
+<tr><th>対象館</th><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/hoso-daigaku-gakuwari-2026/logos/momat.png" alt="" loading="lazy" /><a href="https://www.momat.go.jp/" target="_blank" rel="noopener">東京国立近代美術館</a>本館／<a href="https://www.momak.go.jp/" target="_blank" rel="noopener">京都国立近代美術館</a>／<a href="https://www.nmwa.go.jp/" target="_blank" rel="noopener">国立西洋美術館</a>／<a href="https://www.nact.jp/" target="_blank" rel="noopener">国立新美術館</a>／<a href="https://www.nmao.go.jp/" target="_blank" rel="noopener">国立国際美術館</a>／<a href="https://www.momat.go.jp/craft-museum" target="_blank" rel="noopener">国立工芸館</a></span></td></tr>
+<tr><th>所蔵作品展</th><td><span class="cell-brand"><strong>無料</strong>（国立新美術館は所蔵作品展を行っていない）。<img class="brand-logo-sm" src="/images/hoso-daigaku-gakuwari-2026/logos/nfaj.png" alt="" loading="lazy" /><a href="https://www.nfaj.go.jp/" target="_blank" rel="noopener">国立映画アーカイブ</a>の所蔵作品上映も無料</span></td></tr>
 <tr><th>特別展・共催展</th><td><strong>団体料金</strong>で観覧できる</td></tr>
 <tr><th>対象になる学生</th><td><strong>全科履修生・選科履修生・科目履修生</strong>のほか、特別聴講学生、修士全科生・修士選科生・修士科目生、博士全科生</td></tr>
 <tr><th>使い方</th><td>券売窓口か展示会入口で<strong>キャンパスメンバーズ利用と伝え、有効期限内の学生証を提示</strong>する</td></tr>
@@ -450,12 +450,12 @@ references:
 <table class="cmp-table">
 <thead><tr><th>館</th><th>一般（現行→新）</th><th>大学生（現行→新）</th><th>学生証を出すと</th><th>改定後に1回 浮く額</th></tr></thead>
 <tbody>
-<tr class="recommended"><td><a href="https://www.momat.go.jp/" target="_blank" rel="noopener">東京国立近代美術館</a></td><td>500円 → <strong>1,000円</strong></td><td>250円 → 500円</td><td><strong>0円</strong></td><td><strong>1,000円</strong></td></tr>
-<tr><td><a href="https://www.momat.go.jp/craft-museum" target="_blank" rel="noopener">国立工芸館</a></td><td>300円 → <strong>1,000円</strong></td><td>150円 → 500円</td><td><strong>0円</strong></td><td><strong>1,000円</strong></td></tr>
+<tr class="recommended"><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/hoso-daigaku-gakuwari-2026/logos/momat.png" alt="" loading="lazy" /><a href="https://www.momat.go.jp/" target="_blank" rel="noopener">東京国立近代美術館</a></span></td><td>500円 → <strong>1,000円</strong></td><td>250円 → 500円</td><td><strong>0円</strong></td><td><strong>1,000円</strong></td></tr>
+<tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/hoso-daigaku-gakuwari-2026/logos/momat.png" alt="" loading="lazy" /><a href="https://www.momat.go.jp/craft-museum" target="_blank" rel="noopener">国立工芸館</a></span></td><td>300円 → <strong>1,000円</strong></td><td>150円 → 500円</td><td><strong>0円</strong></td><td><strong>1,000円</strong></td></tr>
 <tr><td><a href="https://www.nmwa.go.jp/" target="_blank" rel="noopener">国立西洋美術館</a></td><td>500円 → <strong>1,000円</strong></td><td>250円 → 500円</td><td><strong>0円</strong></td><td><strong>1,000円</strong></td></tr>
 <tr><td><a href="https://www.momak.go.jp/" target="_blank" rel="noopener">京都国立近代美術館</a></td><td>430円 → <strong>1,000円</strong></td><td>130円 → 500円</td><td><strong>0円</strong></td><td><strong>1,000円</strong></td></tr>
 <tr><td><a href="https://www.nmao.go.jp/" target="_blank" rel="noopener">国立国際美術館</a></td><td>430円 → <strong>1,000円</strong></td><td>130円 → 500円</td><td><strong>0円</strong></td><td><strong>1,000円</strong></td></tr>
-<tr><td><a href="https://www.nfaj.go.jp/" target="_blank" rel="noopener">国立映画アーカイブ</a>（所蔵作品上映）</td><td>250円 → <strong>500円</strong></td><td>130円 → 250円</td><td><strong>0円</strong></td><td><strong>500円</strong></td></tr>
+<tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/hoso-daigaku-gakuwari-2026/logos/nfaj.png" alt="" loading="lazy" /><a href="https://www.nfaj.go.jp/" target="_blank" rel="noopener">国立映画アーカイブ</a>（所蔵作品上映）</span></td><td>250円 → <strong>500円</strong></td><td>130円 → 250円</td><td><strong>0円</strong></td><td><strong>500円</strong></td></tr>
 </tbody>
 </table>
 </div>
@@ -485,7 +485,7 @@ references:
 <table class="cmp-table">
 <thead><tr><th>制度</th><th>条件</th><th>大人の学生は</th></tr></thead>
 <tbody>
-<tr><td><a href="https://www.docomo.ne.jp/" target="_blank" rel="noopener">ドコモ・au・ソフトバンクの学割</a></td><td>U18・U22など<strong>年齢</strong></td><td><strong>使えない</strong></td></tr>
+<tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/hoso-daigaku-gakuwari-2026/logos/docomo.png" alt="" loading="lazy" /><a href="https://www.docomo.ne.jp/" target="_blank" rel="noopener">ドコモ・au・ソフトバンクの学割</a></span></td><td>U18・U22など<strong>年齢</strong></td><td><strong>使えない</strong></td></tr>
 <tr><td><a href="https://www.jal.co.jp/jp/ja/dom/fare/skymate/" target="_blank" rel="noopener">JAL スカイメイト</a></td><td>12〜25歳</td><td><strong>使えない</strong></td></tr>
 <tr><td><a href="https://www.ana.co.jp/" target="_blank" rel="noopener">ANA スマートU25</a></td><td>12〜25歳</td><td><strong>使えない</strong></td></tr>
 <tr><td>劇場・美術館のU25席</td><td>25歳以下</td><td><strong>使えない</strong></td></tr>
@@ -569,7 +569,7 @@ references:
 <table class="cmp-table">
 <thead><tr><th>こういう人</th><th>毎月 浮く額</th><th>元手との差</th><th>10年で</th></tr></thead>
 <tbody>
-<tr class="recommended"><td><a href="https://www.adobe.com/jp/creativecloud/plans.html" target="_blank" rel="noopener">Adobe</a>を使う</td><td>4,900円</td><td><strong>＋4,450円</strong></td><td><strong>約534,000円のプラス</strong></td></tr>
+<tr class="recommended"><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/hoso-daigaku-gakuwari-2026/logos/adobe.png" alt="" loading="lazy" /><a href="https://www.adobe.com/jp/creativecloud/plans.html" target="_blank" rel="noopener">Adobe</a>を使う</span></td><td>4,900円</td><td><strong>＋4,450円</strong></td><td><strong>約534,000円のプラス</strong></td></tr>
 <tr><td>ac.jpメール系だけ（<a href="https://www.microsoft.com/ja-JP/education/products/office" target="_blank" rel="noopener">Microsoft 365</a>＋<a href="https://www.figma.com/education/" target="_blank" rel="noopener">Figma</a>）</td><td>約2,500円相当</td><td>＋2,050円</td><td>約246,000円のプラス</td></tr>
 <tr><td>美術館を月2回（2人ぶん）</td><td>2,000〜2,800円</td><td>＋1,550〜2,350円</td><td>約186,000〜282,000円のプラス</td></tr>
 <tr><td>音楽・動画のサブスク3つ</td><td>1,200円</td><td>＋750円</td><td>約90,000円のプラス</td></tr>
@@ -601,7 +601,7 @@ references:
 <tr><th>SheerID方式</th><td><a href="https://www.youtube.com/premium" target="_blank" rel="noopener">YouTube Premium</a>・<a href="https://www.spotify.com/jp-ja/student/" target="_blank" rel="noopener">Spotify</a> など。学校名の欄で <strong>The Open University of Japan</strong> を探す。出てこなければ<strong>学生証の画像か在学証明書をアップロード</strong>して審査を依頼する</td></tr>
 <tr><th>学籍番号方式</th><td><a href="https://www.amazon.co.jp/b?node=5961517051" target="_blank" rel="noopener">Prime Student</a>。放送大学の学生番号を入力する。照合できなければ<strong>在学証明書を提出</strong>する窓口がある</td></tr>
 <tr><th>ac.jpメール方式</th><td><a href="https://www.figma.com/education/" target="_blank" rel="noopener">Figma</a>・<a href="https://www.notion.com/product/notion-for-education" target="_blank" rel="noopener">Notion</a>・<a href="https://www.jetbrains.com/ja-jp/community/education/" target="_blank" rel="noopener">JetBrains</a> など。<strong>入学後にWAKABAから付与される大学メール</strong>で申請する</td></tr>
-<tr><th>書類方式</th><td><a href="https://www.adobe.com/jp/creativecloud/plans.html" target="_blank" rel="noopener">Adobe</a>・<a href="https://www.apple.com/jp-edu/store" target="_blank" rel="noopener">Apple 教育ストア</a> など。<strong>学生証または在学証明書</strong>を提出する。どちらも<strong>卒業をめざす学生</strong>を想定しているので、全科履修生で入るのが確実</td></tr>
+<tr><th>書類方式</th><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/hoso-daigaku-gakuwari-2026/logos/adobe.png" alt="" loading="lazy" /><a href="https://www.adobe.com/jp/creativecloud/plans.html" target="_blank" rel="noopener">Adobe</a>・<img class="brand-logo-sm" src="/images/hoso-daigaku-gakuwari-2026/logos/apple.png" alt="" loading="lazy" /><a href="https://www.apple.com/jp-edu/store" target="_blank" rel="noopener">Apple 教育ストア</a> など。<strong>学生証または在学証明書</strong>を提出する。どちらも<strong>卒業をめざす学生</strong>を想定しているので、全科履修生で入るのが確実</span></td></tr>
 </tbody>
 </table>
 </div>
@@ -618,14 +618,14 @@ references:
 <div class="cmp-table-wrap">
 <table class="cmp-table spec-table">
 <tbody>
-<tr><th>年齢の上限はあるか</th><td>無い。<a href="https://www.ouj.ac.jp/admission/gakubu/requirement/" target="_blank" rel="noopener">放送大学の入学資格</a>に年齢の条件は無い。<strong>ただし学割の側に年齢条件があるもの</strong>（携帯キャリア・<a href="https://www.jal.co.jp/jp/ja/dom/fare/skymate/" target="_blank" rel="noopener">航空のスカイメイト</a>）は使えない</td></tr>
-<tr><th>10年ずっと学生でいられるのか</th><td><strong>いられる。</strong><a href="https://www.ouj.ac.jp/help/faq/01/" target="_blank" rel="noopener">全科履修生の在学年限</a>が10年。ただし<strong>4学期 続けて学費を納めないと除籍</strong>になるので、3学期に1回は科目を登録する</td></tr>
+<tr><th>年齢の上限はあるか</th><td><span class="cell-brand">無い。<img class="brand-logo-sm" src="/images/hoso-daigaku-gakuwari-2026/logos/ouj.png" alt="" loading="lazy" /><a href="https://www.ouj.ac.jp/admission/gakubu/requirement/" target="_blank" rel="noopener">放送大学の入学資格</a>に年齢の条件は無い。<strong>ただし学割の側に年齢条件があるもの</strong>（携帯キャリア・<a href="https://www.jal.co.jp/jp/ja/dom/fare/skymate/" target="_blank" rel="noopener">航空のスカイメイト</a>）は使えない</span></td></tr>
+<tr><th>10年ずっと学生でいられるのか</th><td><span class="cell-brand"><strong>いられる。</strong><img class="brand-logo-sm" src="/images/hoso-daigaku-gakuwari-2026/logos/ouj.png" alt="" loading="lazy" /><a href="https://www.ouj.ac.jp/help/faq/01/" target="_blank" rel="noopener">全科履修生の在学年限</a>が10年。ただし<strong>4学期 続けて学費を納めないと除籍</strong>になるので、3学期に1回は科目を登録する</span></td></tr>
 <tr><th>休学しても学割は続くか</th><td>休学期間は在学年限に算入されず、<strong>通算14年 在籍できる</strong>。学生証の扱いは学習センターに確認すること</td></tr>
 <tr><th>除籍されたら終わりか</th><td>終わりではない。<strong>再入学できる</strong>（入学料は再度 必要）。一定期間内なら入学料の割引もある</td></tr>
 <tr><th>授業を受けなくてもいいか</th><td>受講は任意。ただし<strong>学費の納入が在籍の条件</strong>なので、科目登録そのものを飛ばすと除籍になる</td></tr>
 <tr><th>学生証はいつ届くか</th><td>学期が始まってから、所属する学習センターで受け取る。<strong>申し込んですぐ使えるわけではない</strong>ので、学割の申請時期は余裕を見ておく</td></tr>
-<tr><th>入学料を安くする方法はあるか</th><td>ある。<strong>共済（国家公務員・公立学校・私学事業団）の加入者と被扶養者は入学料が半額。</strong>全科履修生なら24,000円→12,000円で、<strong>10年の合計は42,000円＝月350円</strong>。<a href="https://www.ouj.ac.jp/about/mutualaid-discount/" target="_blank" rel="noopener">共済専用の出願票で出願する</a>必要がある</td></tr>
-<tr><th>一番 安く10年 持つには</th><td><strong>全科履修生で、<a href="https://www.ouj.ac.jp/admission/gakubu/tuition/" target="_blank" rel="noopener">1単位6,000円</a>の科目を3学期に1回。</strong>10年54,000円＝月450円</td></tr>
+<tr><th>入学料を安くする方法はあるか</th><td><span class="cell-brand">ある。<strong>共済（国家公務員・公立学校・私学事業団）の加入者と被扶養者は入学料が半額。</strong>全科履修生なら24,000円→12,000円で、<strong>10年の合計は42,000円＝月350円</strong>。<img class="brand-logo-sm" src="/images/hoso-daigaku-gakuwari-2026/logos/ouj.png" alt="" loading="lazy" /><a href="https://www.ouj.ac.jp/about/mutualaid-discount/" target="_blank" rel="noopener">共済専用の出願票で出願する</a>必要がある</span></td></tr>
+<tr><th>一番 安く10年 持つには</th><td><span class="cell-brand"><strong>全科履修生で、<img class="brand-logo-sm" src="/images/hoso-daigaku-gakuwari-2026/logos/ouj.png" alt="" loading="lazy" /><a href="https://www.ouj.ac.jp/admission/gakubu/tuition/" target="_blank" rel="noopener">1単位6,000円</a>の科目を3学期に1回。</strong>10年54,000円＝月450円</span></td></tr>
 </tbody>
 </table>
 </div>

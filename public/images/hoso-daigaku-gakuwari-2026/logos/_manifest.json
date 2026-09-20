@@ -1,0 +1,219 @@
+{
+  "_note": "識別目的で使うロゴ。**商標であり自由ライセンスではない。**改変せず、余白のみ切って置くこと。取得日 2026-09-20（ops/tasks/t116・t117）。",
+  "adobe": {
+    "brand": "Adobe",
+    "file": "adobe.png",
+    "source": null,
+    "page": null,
+    "license_note": "公式サイト（商標）",
+    "width": 600,
+    "height": 156
+  },
+  "aeoncinema": {
+    "brand": "イオンシネマ",
+    "file": "aeoncinema.png",
+    "source": "https://www.aeoncinema.com/common/images/sakuhinpage/thumb_for_ogp.gif",
+    "page": "https://www.aeoncinema.com/",
+    "license_note": "公式サイト（商標）",
+    "width": 98,
+    "height": 65
+  },
+  "apple": {
+    "brand": "Apple",
+    "file": "apple.png",
+    "source": null,
+    "page": null,
+    "license_note": "公式サイト（商標）",
+    "width": 199,
+    "height": 231
+  },
+  "art0123": {
+    "brand": "アート引越センター",
+    "file": "art0123.png",
+    "source": "https://www.the0123.com/common/img/og_img.gif",
+    "page": "https://www.the0123.com/",
+    "license_note": "公式サイト（商標）",
+    "width": 277,
+    "height": 148
+  },
+  "bigecho": {
+    "brand": "ビッグエコー",
+    "file": "bigecho.png",
+    "source": "https://big-echo.jp/wordpress/wp-content/uploads/2013/11/brand_logo_bigecho1_1.gif",
+    "page": "https://big-echo.jp/",
+    "license_note": "公式サイト（商標）",
+    "width": 227,
+    "height": 66
+  },
+  "cinemas109": {
+    "brand": "109シネマズ",
+    "file": "cinemas109.png",
+    "source": "https://109cinemas.net/img/ogp.png",
+    "page": "https://109cinemas.net/",
+    "license_note": "公式サイト（商標）",
+    "width": 600,
+    "height": 142
+  },
+  "digitalocean": {
+    "brand": "DigitalOcean",
+    "file": "digitalocean.png",
+    "source": null,
+    "page": null,
+    "license_note": "公式サイト（商標）",
+    "width": 180,
+    "height": 180
+  },
+  "docomo": {
+    "brand": "NTTドコモ",
+    "file": "docomo.png",
+    "source": "https://www.docomo.ne.jp/smt/images/common/favicon.png",
+    "page": "https://www.docomo.ne.jp/",
+    "license_note": "公式サイト（商標）",
+    "width": 107,
+    "height": 20
+  },
+  "manekineko": {
+    "brand": "カラオケまねきねこ",
+    "file": "manekineko.png",
+    "source": "https://d1k5d0nneloh3k.cloudfront.net/wp-content/uploads/2025/11/19144910/ogimage.png",
+    "page": "https://www.karaokemanekineko.jp/",
+    "license_note": "公式サイト（商標）",
+    "width": 141,
+    "height": 259
+  },
+  "mongodb": {
+    "brand": "MongoDB",
+    "file": "mongodb.png",
+    "source": null,
+    "page": null,
+    "license_note": "公式サイト（商標）",
+    "width": 600,
+    "height": 315
+  },
+  "newrelic": {
+    "brand": "NewRelic",
+    "file": "newrelic.png",
+    "source": null,
+    "page": null,
+    "license_note": "公式サイト（商標）",
+    "width": 600,
+    "height": 338
+  },
+  "nfaj": {
+    "brand": "国立映画アーカイブ",
+    "file": "nfaj.png",
+    "source": "https://www.nfaj.go.jp/wp-content/uploads/cropped-logo1-1.png",
+    "page": "https://www.nfaj.go.jp/",
+    "license_note": "公式サイト（商標）",
+    "width": 478,
+    "height": 416
+  },
+  "nikkei": {
+    "brand": "日本経済新聞",
+    "file": "nikkei.png",
+    "source": null,
+    "page": null,
+    "license_note": "公式サイト（商標）",
+    "width": 600,
+    "height": 315
+  },
+  "momat": {
+    "brand": "東京国立近代美術館",
+    "file": "momat.png",
+    "source": "https://www.momat.go.jp/wp-content/themes/momat/images/favicon/apple-touch-icon.webp",
+    "page": "https://www.momat.go.jp/",
+    "license_note": "公式サイト（商標）",
+    "width": 168,
+    "height": 44
+  },
+  "ouj": {
+    "brand": "放送大学",
+    "file": "ouj.png",
+    "source": null,
+    "page": null,
+    "license_note": "公式サイト（商標）",
+    "width": 600,
+    "height": 315
+  },
+  "overleaf": {
+    "brand": "Overleaf",
+    "file": "overleaf.png",
+    "source": null,
+    "page": null,
+    "license_note": "公式サイト（商標）",
+    "width": 185,
+    "height": 216
+  },
+  "parallels": {
+    "brand": "Parallels",
+    "file": "parallels.png",
+    "source": null,
+    "page": null,
+    "license_note": "公式サイト（商標）",
+    "width": 74,
+    "height": 152
+  },
+  "round1": {
+    "brand": "ラウンドワン",
+    "file": "round1.png",
+    "source": "https://www.round1.co.jp/img/common/logo.png",
+    "page": "https://www.round1.co.jp/",
+    "license_note": "公式サイト（商標）",
+    "width": 201,
+    "height": 60
+  },
+  "stripe": {
+    "brand": "Stripe",
+    "file": "stripe.png",
+    "source": null,
+    "page": null,
+    "license_note": "公式サイト（商標）",
+    "width": 600,
+    "height": 300
+  },
+  "ticcoop": {
+    "brand": "東京インターカレッジコープ",
+    "file": "ticcoop.png",
+    "source": "https://tic-coop.com/user_data/packages/default/img/common/logo_intercollege.png",
+    "page": "https://tic-coop.com/coop/",
+    "license_note": "公式サイト（商標）",
+    "width": 357,
+    "height": 45
+  },
+  "toho": {
+    "brand": "TOHOシネマズ",
+    "file": "toho.png",
+    "source": "https://www.tohotheater.jp/responsive/images/icon/TClogo_main.png",
+    "page": "https://www.tohotheater.jp/",
+    "license_note": "公式サイト（商標）",
+    "width": 130,
+    "height": 85
+  },
+  "usj": {
+    "brand": "USJ",
+    "file": "usj.png",
+    "source": "https://www.usj.co.jp/contentdata/usj/ja/jp/files/assets/logos/universal-japan-logo-b.png",
+    "page": "https://www.usj.co.jp/web/ja/jp",
+    "license_note": "公式サイト（商標）",
+    "width": 220,
+    "height": 124
+  },
+  "wolfram": {
+    "brand": "WolframAlpha",
+    "file": "wolfram.png",
+    "source": null,
+    "page": null,
+    "license_note": "公式サイト（商標）",
+    "width": 600,
+    "height": 410
+  },
+  "gyukaku": {
+    "brand": "牛角",
+    "file": "gyukaku.png",
+    "source": "https://www.gyukaku.ne.jp/img/ogp.jpg",
+    "page": "https://www.gyukaku.ne.jp/",
+    "license_note": "公式サイト（商標）",
+    "width": 600,
+    "height": 315
+  }
+}
