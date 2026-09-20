@@ -202,7 +202,7 @@ references:
 <tr><td><a href="https://www.overleaf.com/edu" target="_blank" rel="noopener">Overleaf</a></td><td>Standard <strong>月21ドル</strong></td><td><strong>月10ドル</strong>（Student・月払い）</td><td><strong>132ドル</strong></td><td>LaTeXの共同編集・履歴無制限。卒論を書くなら</td></tr>
 <tr><td><a href="https://www.lucidchart.com/pages/ja/education" target="_blank" rel="noopener">Lucidchart</a></td><td>Individual <strong>月7.95〜9ドル</strong></td><td><strong>無料</strong>（教育機関プラン）</td><td><strong>95〜108ドル</strong></td><td>作図の無制限化。ac.jpアドレスで申請する</td></tr>
 <tr><td><a href="https://www.unrealengine.com/" target="_blank" rel="noopener">Unreal Engine</a></td><td>商用は売上<strong>100万ドル超</strong>の部分に5%のロイヤリティ</td><td><strong>学習・教育用途は無料</strong></td><td>—</td><td>教育機関向けにフル機能。Quixel素材も使える</td></tr>
-<tr><td><a href="https://azure.microsoft.com/ja-jp/free/students/" target="_blank" rel="noopener">Azure for Students</a></td><td>従量課金</td><td><strong>100ドルのクレジット</strong>＋無料枠</td><td><strong>100ドル</strong></td><td><strong>クレジットカード不要。</strong>25以上が12か月 無料、65以上は月枠の制限なしで常時 無料</td></tr>
+<tr><td><a href="https://azure.microsoft.com/ja-jp/free/students/" target="_blank" rel="noopener">Azure for Students</a></td><td><strong>定額の料金プランが無い</strong>（使ったぶんだけの従量課金）</td><td><strong>100ドルのクレジット</strong>＋無料枠</td><td><strong>100ドル</strong></td><td><strong>クレジットカード不要。</strong>25以上が12か月 無料、65以上は月枠の制限なしで常時 無料</td></tr>
 <tr><td><a href="https://www.tableau.com/ja-jp/academic/students" target="_blank" rel="noopener">Tableau</a></td><td>Creator <strong>1人 月9,000円</strong>（年契約）</td><td><strong>無料</strong>（1年ごとに更新）</td><td><strong>108,000円</strong></td><td>Desktop＋Prep Builder。BIを触っておきたい人に</td></tr>
 </tbody>
 </table>
