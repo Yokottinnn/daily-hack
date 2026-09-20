@@ -1,0 +1,66 @@
+{
+  "_note": "識別目的で使うロゴ。**商標であり自由ライセンスではない。**改変せず、余白のみ切って置くこと。取得日 2026-09-20。",
+  "aeonmall": {
+    "brand": "イオンモール",
+    "file": "aeonmall.png",
+    "source": "https://www.aeonmall.com/img/common/ogp.png",
+    "page": "https://www.aeonmall.com/",
+    "license_note": "公式サイト（商標）",
+    "width": 600,
+    "height": 311
+  },
+  "arukuto": {
+    "brand": "aruku&",
+    "file": "arukuto.png",
+    "source": "https://www.arukuto.jp/wp-content/themes/arukuto/img/ogp.png",
+    "page": "https://www.arukuto.jp/",
+    "license_note": "公式サイト（商標）",
+    "width": 600,
+    "height": 160
+  },
+  "kencom": {
+    "brand": "kencom",
+    "file": "kencom.png",
+    "source": "https://img-a.kencom.jp/assets/common/og_image-18816b43025dc6c4d2429c0e286257b1.png",
+    "page": "https://kencom.jp/",
+    "license_note": "公式サイト（商標）",
+    "width": 600,
+    "height": 315
+  },
+  "pixela": {
+    "brand": "ピクセラ",
+    "file": "pixela.png",
+    "source": "https://www.pixela.co.jp/common/image/pixela_ogp.png",
+    "page": "https://www.pixela.co.jp/",
+    "license_note": "公式サイト（商標）",
+    "width": 189,
+    "height": 181
+  },
+  "rakutenhealth": {
+    "brand": "楽天ヘルスケア",
+    "file": "rakutenhealth.png",
+    "source": "https://healthcare.rakuten.co.jp/assets/images/top-ogp.png",
+    "page": "https://healthcare.rakuten.co.jp/",
+    "license_note": "公式サイト（商標）",
+    "width": 532,
+    "height": 277
+  },
+  "renobody": {
+    "brand": "RenoBody",
+    "file": "renobody.png",
+    "source": "https://info.renobody.jp/prod/asset/img/sp/logo_menu.png",
+    "page": "https://info.renobody.jp/prod/index.html",
+    "license_note": "公式サイト（商標）",
+    "width": 423,
+    "height": 99
+  },
+  "uplus": {
+    "brand": "東京健康UPlus",
+    "file": "uplus.png",
+    "source": "https://kenkou-uplus.metro.tokyo.lg.jp/common/img/og.png",
+    "page": "https://kenkou-uplus.metro.tokyo.lg.jp/",
+    "license_note": "公式サイト（商標）",
+    "width": 600,
+    "height": 303
+  }
+}

@@ -215,5 +215,140 @@
     "license_note": "公式サイト（商標）",
     "width": 600,
     "height": 315
+  },
+  "azure": {
+    "brand": "MicrosoftAzure",
+    "file": "azure.png",
+    "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Microsoft_Azure_Logo.svg/960px-Microsoft_Azure_Logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File%3AMicrosoft_Azure_Logo.svg",
+    "license_note": "Public domain",
+    "width": 600,
+    "height": 173
+  },
+  "figma": {
+    "brand": "Figma",
+    "file": "figma.png",
+    "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Figma-logo.svg/960px-Figma-logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File%3AFigma-logo.svg",
+    "license_note": "Public domain",
+    "width": 600,
+    "height": 900
+  },
+  "github": {
+    "brand": "GitHub",
+    "file": "github.png",
+    "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/GitHub_logo_2013.svg/960px-GitHub_logo_2013.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File%3AGitHub_logo_2013.svg",
+    "license_note": "Public domain",
+    "width": 600,
+    "height": 164
+  },
+  "jetbrains": {
+    "brand": "JetBrains",
+    "file": "jetbrains.png",
+    "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/JetBrains_company_logo.svg/960px-JetBrains_company_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File%3AJetBrains_company_logo.svg",
+    "license_note": "Public domain",
+    "width": 600,
+    "height": 130
+  },
+  "lucid": {
+    "brand": "Lucidchart",
+    "file": "lucid.png",
+    "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Lucidchart-Primary3D-Logo-Default-TypeCG100-onClear-np-RGB-L.png/960px-Lucidchart-Primary3D-Logo-Default-TypeCG100-onClear-np-RGB-L.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File%3ALucidchart-Primary3D-Logo-Default-TypeCG100-onClear-np-RGB-L.png",
+    "license_note": "Public domain",
+    "width": 600,
+    "height": 86
+  },
+  "notion": {
+    "brand": "Notion",
+    "file": "notion.png",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/4/45/Notion_app_logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File%3ANotion_app_logo.png",
+    "license_note": "Public domain",
+    "width": 496,
+    "height": 512
+  },
+  "spotify": {
+    "brand": "Spotify",
+    "file": "spotify.png",
+    "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Spotify_New_Full_Logo_RGB_Green.png/960px-Spotify_New_Full_Logo_RGB_Green.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File%3ASpotify_New_Full_Logo_RGB_Green.png",
+    "license_note": "CC0",
+    "width": 600,
+    "height": 165
+  },
+  "tableau": {
+    "brand": "Tableau",
+    "file": "tableau.png",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/0/01/Tableau_Software_Logo_Small.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File%3ATableau_Software_Logo_Small.png",
+    "license_note": "Public domain",
+    "width": 480,
+    "height": 94
+  },
+  "unreal": {
+    "brand": "UnrealEngine",
+    "file": "unreal.png",
+    "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Unreal_Engine_Logo_%28new_typeface%29.svg/960px-Unreal_Engine_Logo_%28new_typeface%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File%3AUnreal_Engine_Logo_%28new_typeface%29.svg",
+    "license_note": "Public domain",
+    "width": 600,
+    "height": 729
+  },
+  "visualstudio": {
+    "brand": "VisualStudio",
+    "file": "visualstudio.png",
+    "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Visual_Studio_Logo_%282013-2017%29.svg/960px-Visual_Studio_Logo_%282013-2017%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File%3AVisual_Studio_Logo_%282013-2017%29.svg",
+    "license_note": "CC BY-SA 3.0",
+    "width": 600,
+    "height": 621
+  },
+  "autodesk": {
+    "brand": "Autodesk",
+    "file": "autodesk.png",
+    "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Autodesk_Logo_2021.svg/960px-Autodesk_Logo_2021.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File%3AAutodesk_Logo_2021.svg",
+    "license_note": "Public domain",
+    "width": 600,
+    "height": 62
+  },
+  "fujiq": {
+    "brand": "富士急ハイランド",
+    "file": "fujiq.png",
+    "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Fuji-Q_Highland_logo.svg/960px-Fuji-Q_Highland_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File%3AFuji-Q_Highland_logo.svg",
+    "license_note": "Public domain",
+    "width": 600,
+    "height": 72
+  },
+  "willer": {
+    "brand": "WILLER",
+    "file": "willer.png",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Willer_Express_Logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File%3AWiller_Express_Logo.png",
+    "license_note": "Public domain",
+    "width": 400,
+    "height": 91
+  },
+  "microsoft": {
+    "brand": "Microsoft365",
+    "file": "microsoft.png",
+    "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Microsoft_Office_logos_%282013-2019%29.svg/960px-Microsoft_Office_logos_%282013-2019%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File%3AMicrosoft_Office_logos_%282013-2019%29.svg",
+    "license_note": "Public domain",
+    "width": 600,
+    "height": 261
+  },
+  "amazon": {
+    "brand": "AmazonPrime",
+    "file": "amazon.png",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/1/16/Amazon_Prime_logo_%282023%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File%3AAmazon_Prime_logo_%282023%29.png",
+    "license_note": "Public domain",
+    "width": 600,
+    "height": 115
   }
 }

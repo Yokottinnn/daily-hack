@@ -75,12 +75,12 @@ author: "hacker-ko"
   <table class="cmp-table">
     <thead><tr><th>順</th><th>施設</th><th>運営</th><th>売上<br>(FY2024)</th><th>前年比</th></tr></thead>
     <tbody>
-      <tr class="recommended"><td>1</td><td><a href="https://www.premiumoutlets.co.jp/gotemba/" target="_blank" rel="noopener">御殿場プレミアム・アウトレット</a></td><td>三菱地所サイモン</td><td><strong>1,409億円</strong></td><td>+13.7%</td></tr>
-      <tr><td>2</td><td><a href="https://www.premiumoutlets.co.jp/kobesanda/" target="_blank" rel="noopener">神戸三田プレミアム・アウトレット</a></td><td>三菱地所サイモン</td><td>742億円</td><td>+10.1%</td></tr>
+      <tr class="recommended"><td>1</td><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/outlet-mall-guide-2026/logos/premium.png" alt="" loading="lazy" /><a href="https://www.premiumoutlets.co.jp/gotemba/" target="_blank" rel="noopener">御殿場プレミアム・アウトレット</a></span></td><td>三菱地所サイモン</td><td><strong>1,409億円</strong></td><td>+13.7%</td></tr>
+      <tr><td>2</td><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/outlet-mall-guide-2026/logos/premium.png" alt="" loading="lazy" /><a href="https://www.premiumoutlets.co.jp/kobesanda/" target="_blank" rel="noopener">神戸三田プレミアム・アウトレット</a></span></td><td>三菱地所サイモン</td><td>742億円</td><td>+10.1%</td></tr>
       <tr><td>3</td><td><a href="https://mitsui-shopping-park.com/mop/kisarazu/" target="_blank" rel="noopener">三井アウトレットパーク木更津</a></td><td>三井不動産</td><td>690億円</td><td>+8%</td></tr>
       <tr><td>4</td><td><a href="https://mitsui-shopping-park.com/mop/nagashima/" target="_blank" rel="noopener">MOPジャズドリーム長島</a></td><td>三井不動産</td><td>610億円</td><td>—</td></tr>
       <tr><td>5</td><td><a href="https://www.karuizawa-psp.jp/" target="_blank" rel="noopener">軽井沢・プリンスショッピングプラザ</a></td><td>西武不動産</td><td>590億円</td><td>+4.4%</td></tr>
-      <tr><td>6</td><td><a href="https://www.premiumoutlets.co.jp/rinku/" target="_blank" rel="noopener">りんくうプレミアム・アウトレット</a></td><td>三菱地所サイモン</td><td>556億円</td><td>+10.7%</td></tr>
+      <tr><td>6</td><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/outlet-mall-guide-2026/logos/premium.png" alt="" loading="lazy" /><a href="https://www.premiumoutlets.co.jp/rinku/" target="_blank" rel="noopener">りんくうプレミアム・アウトレット</a></span></td><td>三菱地所サイモン</td><td>556億円</td><td>+10.7%</td></tr>
     </tbody>
   </table>
 </div>
@@ -193,8 +193,8 @@ author: "hacker-ko"
     <thead><tr><th>施設</th><th>所在</th><th>開業</th><th>店舗数</th><th>特徴</th></tr></thead>
     <tbody>
       <tr><td><a href="https://the-outlets-hiroshima.com/" target="_blank" rel="noopener">ジ・アウトレット広島</a></td><td>広島・佐伯区</td><td>2018/4</td><td>約230</td><td>中国地方最大級。2021年増床</td></tr>
-      <tr><td><a href="https://the-outlets-kitakyushu.aeonmall.com/" target="_blank" rel="noopener">ジ・アウトレット北九州</a></td><td>福岡・八幡東区</td><td>2022/4</td><td>約170</td><td>スペースワールド跡地</td></tr>
-      <tr><td><a href="https://the-outlets-shonan-hiratsuka.aeonmall.com/" target="_blank" rel="noopener">ジ・アウトレット湘南平塚</a></td><td>神奈川・平塚</td><td>2023/4</td><td>約150</td><td>関東初のTHE OUTLETS</td></tr>
+      <tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/outlet-mall-guide-2026/logos/aeonmall.png" alt="" loading="lazy" /><a href="https://the-outlets-kitakyushu.aeonmall.com/" target="_blank" rel="noopener">ジ・アウトレット北九州</a></span></td><td>福岡・八幡東区</td><td>2022/4</td><td>約170</td><td>スペースワールド跡地</td></tr>
+      <tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/outlet-mall-guide-2026/logos/aeonmall.png" alt="" loading="lazy" /><a href="https://the-outlets-shonan-hiratsuka.aeonmall.com/" target="_blank" rel="noopener">ジ・アウトレット湘南平塚</a></span></td><td>神奈川・平塚</td><td>2023/4</td><td>約150</td><td>関東初のTHE OUTLETS</td></tr>
     </tbody>
   </table>
 </div>
