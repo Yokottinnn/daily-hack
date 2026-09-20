@@ -1,3 +1,3 @@
 [
-      {"task": "t120-sauna-logos.sh", "rc": 0, "out": "   - ✅ `metsa_oimachi-site.png` / 1200x630 / **公式サイト（商標）**         ← `https://www.ryusenjinoyu.com/saunametsaoimachi/assets/img/ogp.jpg`  ## 竜泉寺の湯・スパメッツァ"}
+      {"task": "x106-fetch-waon-logo.sh", "rc": 0, "out": "WAON POINT ロゴ / waon-logo.md 50 行"}
   ]
