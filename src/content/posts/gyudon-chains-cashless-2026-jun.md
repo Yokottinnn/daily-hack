@@ -64,21 +64,33 @@ references: ["https://www.matsuyafoods.co.jp/matsuya/whatsnew/campaign/154328.ht
 
 <h3 class="brand-h"><img class="brand-logo" src="/images/gyudon-chains-cashless-2026-jun/logos/matsuya.png" alt="松屋のロゴ" loading="lazy" /><span>🐂 松屋（60周年記念で過去最強）</span></h3>
 
-- **PayPay**: 6/15-16 の2日限定で**最大40%還元（350pt/回上限）**。6/1-30 は通常**10%還元（200pt/回上限）**。要松屋アプリ事前注文 + 800円以上
-- **d払い**: 6/1-6/20、既存ユーザ<strong>+15%還元</strong>／新規・復帰<strong>+20%還元</strong>。上限 1回 300pt・期間 5,000pt
-- **楽天ペイ**: 6/1-6/30、スタンプラリー方式で楽天ポイント**最大10%還元**（上限 2,000pt）+ 上位600名 6,000pt
-- **au PAY**: 6/1-6/30、Pontaポイント最大300pt+上位10,000名ランキング賞
-- **対象注文方法**: 松弁ネット / 松屋モバイルオーダー / 松弁デリバリー（事前決済のみ）
+<div class="cmp-table-wrap">
+  <table class="cmp-table spec-table">
+    <tbody>
+      <tr><th>PayPay</th><td>6/15-16 の2日限定で<strong>最大40%還元（350pt/回上限）</strong>。6/1-30 は通常<strong>10%還元（200pt/回上限）</strong>。要松屋アプリ事前注文 + 800円以上</td></tr>
+      <tr><th>d払い</th><td>6/1-6/20、既存ユーザ<strong>+15%還元</strong>／新規・復帰<strong>+20%還元</strong>。上限 1回 300pt・期間 5,000pt</td></tr>
+      <tr><th>楽天ペイ</th><td>6/1-6/30、スタンプラリー方式で楽天ポイント<strong>最大10%還元</strong>（上限 2,000pt）+ 上位600名 6,000pt</td></tr>
+      <tr><th>au PAY</th><td>6/1-6/30、Pontaポイント最大300pt+上位10,000名ランキング賞</td></tr>
+      <tr><th>対象注文方法</th><td>松弁ネット / 松屋モバイルオーダー / 松弁デリバリー（事前決済のみ）</td></tr>
+    </tbody>
+  </table>
+</div>
 
 詳細: [松屋60周年4大コード決済キャンペーン徹底比較](/posts/matsuya-60th-cashless-2026-jun/)
 
 <h3 class="brand-h"><img class="brand-logo" src="/images/gyudon-chains-cashless-2026-jun/logos/yoshinoya.png" alt="吉野家のロゴ" loading="lazy" /><span>🐂 吉野家（d払いテイクアウト 20%還元）</span></h3>
 
-- **d払い**: d払いの「予約・注文サービス」内「**吉野家テイクアウト**」専用、**通常還元 + 20%還元**（〜2026年6月6日）
-- **楽天ペイ**: 楽天カードからチャージ → 楽天ペイ決済（1.5%）+ 楽天ポイントカード提示（0.5%）= **2.0%還元**
-- **PayPay**: 基本還元率 0.5%（200円=1pt）。クーポン配布時のみ最大5%
-- **対応決済**: PayPay/d払い/楽天ペイ/au PAY/メルペイ/クオカードPay/AliPay/WeChatPay
-- **その他**: 吉野家公式アプリにクーポン配信あり（牛丼並大盛り無料券、サイドメニュー無料券など）
+<div class="cmp-table-wrap">
+  <table class="cmp-table spec-table">
+    <tbody>
+      <tr><th>d払い</th><td>d払いの「予約・注文サービス」内「<strong>吉野家テイクアウト</strong>」専用、<strong>通常還元 + 20%還元</strong>（〜2026年6月6日）</td></tr>
+      <tr><th>楽天ペイ</th><td>楽天カードからチャージ → 楽天ペイ決済（1.5%）+ 楽天ポイントカード提示（0.5%）= <strong>2.0%還元</strong></td></tr>
+      <tr><th>PayPay</th><td>基本還元率 0.5%（200円=1pt）。クーポン配布時のみ最大5%</td></tr>
+      <tr><th>対応決済</th><td>PayPay/d払い/楽天ペイ/au PAY/メルペイ/クオカードPay/AliPay/WeChatPay</td></tr>
+      <tr><th>その他</th><td>吉野家公式アプリにクーポン配信あり（牛丼並大盛り無料券、サイドメニュー無料券など）</td></tr>
+    </tbody>
+  </table>
+</div>
 
 <h3 class="brand-h"><img class="brand-logo" src="/images/gyudon-chains-cashless-2026-jun/logos/sukiya.png" alt="すき家のロゴ" loading="lazy" /><span>🐂 すき家（ゼンショー共通ポイント15倍）</span></h3>
 
@@ -95,12 +107,18 @@ references: ["https://www.matsuyafoods.co.jp/matsuya/whatsnew/campaign/154328.ht
 
 <h3 class="brand-h"><img class="brand-logo" src="/images/gyudon-chains-cashless-2026-jun/logos/nakau.png" alt="なか卯のロゴ" loading="lazy" /><span>🐂 なか卯（ゼンショー共通ポイント15倍 + アプリクーポン）</span></h3>
 
-- **🏆 三井住友カードNL/CL/Gold**: タッチ決済 or モバイルオーダーで**7%還元**（すき家と同じ仕様）
-- **🏆 ゼンショー共通ポイント**: dポイント・Vポイント・楽天ポイント が**最大15倍**（来店回数連動、すき家と同じ仕様）
-- **公式アプリクーポン**: 50円引きなどの基本クーポン
-- **PayPay**: 基本 0.5%、クーポン併用時最大5%
-- **三段重ね**: 公式アプリクーポン50円引き + PayPay 5%付与 + dポイント15倍 = **3つ同時OK**
-- **対応決済**: PayPay/メルペイ/au PAY/d払い/楽天ペイ/J-Coin Pay/イオンペイ/AliPay/WeChat Pay
+<div class="cmp-table-wrap">
+  <table class="cmp-table spec-table">
+    <tbody>
+      <tr><th>🏆 三井住友カードNL/CL/Gold</th><td>タッチ決済 or モバイルオーダーで<strong>7%還元</strong>（すき家と同じ仕様）</td></tr>
+      <tr><th>🏆 ゼンショー共通ポイント</th><td>dポイント・Vポイント・楽天ポイント が<strong>最大15倍</strong>（来店回数連動、すき家と同じ仕様）</td></tr>
+      <tr><th>公式アプリクーポン</th><td>50円引きなどの基本クーポン</td></tr>
+      <tr><th>PayPay</th><td>基本 0.5%、クーポン併用時最大5%</td></tr>
+      <tr><th>三段重ね</th><td>公式アプリクーポン50円引き + PayPay 5%付与 + dポイント15倍 = <strong>3つ同時OK</strong></td></tr>
+      <tr><th>対応決済</th><td>PayPay/メルペイ/au PAY/d払い/楽天ペイ/J-Coin Pay/イオンペイ/AliPay/WeChat Pay</td></tr>
+    </tbody>
+  </table>
+</div>
 
 ---
 

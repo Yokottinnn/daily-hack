@@ -26,7 +26,7 @@ references: ["https://www.anapocket.com/pro", "https://www.jal.co.jp/jp/ja/jmb/w
 
 ## ⚔️ まずは結論 — ANA Pocket vs JAL Wellness 早見表
 
-| 比較軸 | 🔵 ANA Pocket | 🔴 JAL Wellness & Travel |
+| 比較軸 | 🔵 <a href="https://www.anapocket.com/pro" target="_blank" rel="noopener nofollow">ANA Pocket</a> | 🔴 <a href="https://www.jal.co.jp/jp/ja/jmb/wellness/" target="_blank" rel="noopener nofollow">JAL Wellness &amp; Travel</a> |
 |:---|:---|:---|
 | **貯まるマイル** | ANAマイル | JALマイル |
 | **貯め方** | 移動距離（徒歩・自転車・電車・車・新幹線・飛行機） | 1日の歩数チャレンジ＋くじ |
@@ -55,11 +55,18 @@ ANA Pocketは**徒歩だけじゃなく電車・車・新幹線・飛行機ま�
 </figure>
 </div>
 
-- **料金**: 無料の「Lite」と、月額550円の「**Pro**」。Proは同じ移動でもLiteの**約1.3倍**ポイントが貯まる
-- **Pro特典**: 継続利用者に**毎月5,000ポイントを自動付与**＋「**Proマイルガチャ**」（1回最低7マイル〜最大10,000マイル）
-- **実際の獲得**: あるFPの1年実績は**年8,955マイル＝月約746マイル**で、月額550円を上回るパフォーマンス。移動量が多い人は**月1,000〜1,500マイル**の報告も
-- **ポイント→マイル**: 貯めたポイントはANAマイルのほか各種ポイントにも交換可能
-- **注意**: 2025年に獲得ポイントの改定（減少・広告視聴時間の延長）あり。仕様は流動的
+<div class="cmp-table-wrap">
+  <table class="cmp-table spec-table">
+    <tbody>
+      <tr><th>料金</th><td>無料の「Lite」と、月額550円の「<strong>Pro</strong>」。Proは同じ移動でもLiteの<strong>約1.3倍</strong>ポイントが貯まる</td></tr>
+      <tr><th>Pro特典</th><td>継続利用者に<strong>毎月5,000ポイントを自動付与</strong>＋「<strong>Proマイルガチャ</strong>」（1回最低7マイル〜最大10,000マイル）</td></tr>
+      <tr><th>実際の獲得</th><td>あるFPの1年実績は<strong>年8,955マイル＝月約746マイル</strong>で、月額550円を上回るパフォーマンス。移動量が多い人は<strong>月1,000〜1,500マイル</strong>の報告も</td></tr>
+      <tr><th>ポイント→マイル</th><td>貯めたポイントはANAマイルのほか各種ポイントにも交換可能</td></tr>
+      <tr><th>注意</th><td>2025年に獲得ポイントの改定（減少・広告視聴時間の延長）あり。仕様は流動的</td></tr>
+      <tr><th>公式</th><td><a href="https://www.anapocket.com/pro" target="_blank" rel="noopener nofollow">ANA Pocket 公式</a></td></tr>
+    </tbody>
+  </table>
+</div>
 
 <div class="hakkako-says">
 <img src="/images/expr-04-cheer.png" alt="ハッカー子" />
@@ -77,11 +84,18 @@ JALは<strong>「1日の歩数チャレンジ」を達成してマイル＋く�
 </figure>
 </div>
 
-- **料金**: 月額550円（初回入会〜翌月末まで無料）
-- **貯め方**: 毎日の歩数目標達成でマイル、さらに<strong>くじ（抽選）</strong>でマイル上乗せ。チェックインスポット等のボーナスも
-- **実際の獲得**: **2025年は年間3,092マイル**（毎日8,000歩以上の人）。1マイル2円換算で年会費6,600円とほぼトントン〜やや得。毎日1万歩でも確定分は**月約120マイル**＋くじ、月の半分ジョギングする人で**月約273マイル**
-- **真価**: マイルだけ見ると控えめだが、**「歩く動機づけ＝健康」とJALマイルが同時に手に入る**のが本質的な価値
-- **注意**: 8,000歩を下回る生活だと月額の元を取りにくい
+<div class="cmp-table-wrap">
+  <table class="cmp-table spec-table">
+    <tbody>
+      <tr><th>料金</th><td>月額550円（初回入会〜翌月末まで無料）</td></tr>
+      <tr><th>貯め方</th><td>毎日の歩数目標達成でマイル、さらに<strong>くじ（抽選）</strong>でマイル上乗せ。チェックインスポット等のボーナスも</td></tr>
+      <tr><th>実際の獲得</th><td><strong>2025年は年間3,092マイル</strong>（毎日8,000歩以上の人）。1マイル2円換算で年会費6,600円とほぼトントン〜やや得。毎日1万歩でも確定分は<strong>月約120マイル</strong>＋くじ、月の半分ジョギングする人で<strong>月約273マイル</strong></td></tr>
+      <tr><th>真価</th><td>マイルだけ見ると控えめだが、<strong>「歩く動機づけ＝健康」とJALマイルが同時に手に入る</strong>のが本質的な価値</td></tr>
+      <tr><th>注意</th><td>8,000歩を下回る生活だと月額の元を取りにくい</td></tr>
+      <tr><th>公式</th><td><a href="https://www.jal.co.jp/jp/ja/jmb/wellness/" target="_blank" rel="noopener nofollow">JAL Wellness &amp; Travel 公式</a></td></tr>
+    </tbody>
+  </table>
+</div>
 
 <div class="hakkako-says">
 <img src="/images/expr-09-arms-crossed.png" alt="ハッカー子" />
@@ -110,6 +124,18 @@ X上でも「**1年契約で貯まる1,500マイルで、4地域から選べる�
 
 ## 🆚 ライフスタイル別・どっちを選ぶ？
 
+<div class="cmp-table-wrap">
+  <table class="cmp-table">
+    <thead><tr><th>あなたの生活</th><th>🔵 <a href="https://www.anapocket.com/pro" target="_blank" rel="noopener nofollow">ANA Pocket</a></th><th>🔴 <a href="https://www.jal.co.jp/jp/ja/jmb/wellness/" target="_blank" rel="noopener nofollow">JAL Wellness</a></th></tr></thead>
+    <tbody>
+      <tr><td>移動のしかた</td><td><strong>電車通勤・車移動が多い</strong>（歩数は少なめ）</td><td><strong>毎日8,000〜10,000歩あるく</strong>（運動習慣がある）</td></tr>
+      <tr><td>貯めているマイル</td><td>ANAマイル／ANAで旅行する</td><td>JALマイル／JALで旅行する</td></tr>
+      <tr><td>始め方</td><td>まず無料で試したい（Liteから）</td><td>歩く動機づけが欲しい</td></tr>
+      <tr><td>狙い</td><td>生活を変えずにマイルを増やしたい。月の獲得量を最大化したい</td><td>健康管理とマイル獲得を両立したい。マイルは「おまけ」でよい</td></tr>
+    </tbody>
+  </table>
+</div>
+
 <div class="vs-pair">
 <div class="vs-card">
 <h4>🔵 ANA Pocket を選ぶべき人</h4>
@@ -134,6 +160,17 @@ X上でも「**1年契約で貯まる1,500マイルで、4地域から選べる�
 </div>
 
 ### 🥇 アタシの結論
+
+<div class="cmp-table-wrap">
+  <table class="cmp-table">
+    <thead><tr><th>こういう人</th><th>結論</th><th>理由</th></tr></thead>
+    <tbody>
+      <tr class="recommended"><td>マイルの貯まりやすさ重視</td><td>🔵 <a href="https://www.anapocket.com/pro" target="_blank" rel="noopener nofollow">ANA Pocket</a>（Pro）</td><td>移動距離型で間口が広い。<strong>月746〜1,500マイル</strong>は陸マイル系で頭ひとつ抜けている</td></tr>
+      <tr><td>健康習慣とセットで貯めたい・JAL派</td><td>🔴 <a href="https://www.jal.co.jp/jp/ja/jmb/wellness/" target="_blank" rel="noopener nofollow">JAL Wellness</a></td><td>歩数がそのままJALマイルになる満足感は唯一無二</td></tr>
+      <tr><td>どっち陣営でもない</td><td>🔵 ANA Pocket（Lite）から</td><td>無料で始められる。移動で貯まる感覚を先に掴む</td></tr>
+    </tbody>
+  </table>
+</div>
 
 - **マイルの貯まりやすさ重視 → ANA Pocket（Pro）**。移動距離型で間口が広く、月746〜1,500マイルは陸マイル系で頭ひとつ抜けてる。
 - **健康習慣とセットで貯めたい・JAL派 → JAL Wellness**。歩数がそのままJALマイルになる満足感は唯一無二。

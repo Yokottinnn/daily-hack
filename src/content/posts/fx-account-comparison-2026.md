@@ -25,6 +25,20 @@ references: ["https://fx.dmm.com/", "https://www.gaitame.com/", "https://min-fx.
 
 ## 🏆 30秒サマリ — タイプ別ベストFX口座
 
+<div class="cmp-table-wrap">
+  <table class="cmp-table">
+    <thead><tr><th>こういう人</th><th>向いている口座</th><th>理由</th></tr></thead>
+    <tbody>
+      <tr class="recommended"><td><strong>初心者全般</strong></td><td><a href="https://fx.dmm.com/" target="_blank" rel="noopener nofollow">DMM FX</a></td><td>最大30万円キャッシュバック・LINEサポート24h</td></tr>
+      <tr><td><strong>手厚いサポート派</strong></td><td><a href="https://www.gaitame.com/" target="_blank" rel="noopener nofollow">外為どっとコム</a></td><td>24時間電話サポート・最大40万円CB</td></tr>
+      <tr><td><strong>取引コスト最重視</strong></td><td><a href="https://www.click-sec.com/corp/fx/" target="_blank" rel="noopener nofollow">GMOクリック証券</a></td><td>取引高 12年連続世界1位・スプレッド0.2銭・最大55万円CB</td></tr>
+      <tr><td><strong>楽天経済圏</strong></td><td><a href="https://www.rakuten-sec.co.jp/fx/" target="_blank" rel="noopener nofollow">楽天FX</a></td><td>楽天ポイントが貯まる・MarketSpeed FX</td></tr>
+      <tr><td><strong>少額スタート</strong></td><td><a href="https://www.matsui.co.jp/service/fx/" target="_blank" rel="noopener nofollow">松井FX</a> ／ <a href="https://www.sbifxt.co.jp/" target="_blank" rel="noopener nofollow">SBI FXトレード</a></td><td>1通貨単位から。約5円分のポジションで始められる</td></tr>
+      <tr><td><strong>自動売買を試したい</strong></td><td><a href="https://min-fx.jp/" target="_blank" rel="noopener nofollow">みんなのFX</a></td><td>みんなのシストレ・1,000通貨から</td></tr>
+    </tbody>
+  </table>
+</div>
+
 <ul class="checklist">
 <li>
 <div class="checklist-body">
@@ -70,14 +84,14 @@ references: ["https://fx.dmm.com/", "https://www.gaitame.com/", "https://min-fx.
 
 | 社名 | スプレッド USD/JPY | 最低取引単位 | キャッシュバック上限 | 取引ツール | スマホアプリ | サポート |
 |---|---|---|---|---|---|---|
-| **DMM FX** | 0.2銭 原則固定 | 10,000通貨 | 最大 **30万円** | DMMFX PLUS | 高評価 | LINE 24h |
-| **外為どっとコム** | 0.2銭 原則固定 | 1,000通貨 | 最大 **40万円** | 外貨ネクストネオ | 評価高 | **24h電話** |
-| **GMOクリック証券** | 0.2銭 原則固定 | 10,000通貨 | 最大 **55万円** | はっちゅう君FXプラス | 業界高評価 | メール・電話 |
-| **みんなのFX** | 0.2銭 原則固定 | 1,000通貨 | 最大 **50万円** | みんなのFXトレーダー | 改善中 | メール・電話 |
-| **楽天FX** | 0.2銭 原則固定 | 1,000通貨 | 最大 **30万円** | MarketSpeed FX | iSPEED FX | メール・電話 |
-| **松井FX** | 0.2銭 原則固定 | **1通貨** | 最大 1万円 | ネットストック | 標準 | メール・電話 |
-| **SBI FXトレード** | 0.18銭 原則固定 | **1通貨** | 最大 30万円 | SBI FXTRADE | 高評価 | メール・電話 |
-| **マネックスFX** | 0.2銭 原則固定 | 1,000通貨 | 最大 30万円 | MonexTraderFX | 標準 | メール・電話 |
+| **<a href="https://fx.dmm.com/" target="_blank" rel="noopener nofollow">DMM FX</a>** | 0.2銭 原則固定 | 10,000通貨 | 最大 **30万円** | DMMFX PLUS | 高評価 | LINE 24h |
+| **<a href="https://www.gaitame.com/" target="_blank" rel="noopener nofollow">外為どっとコム</a>** | 0.2銭 原則固定 | 1,000通貨 | 最大 **40万円** | 外貨ネクストネオ | 評価高 | **24h電話** |
+| **<a href="https://www.click-sec.com/corp/fx/" target="_blank" rel="noopener nofollow">GMOクリック証券</a>** | 0.2銭 原則固定 | 10,000通貨 | 最大 **55万円** | はっちゅう君FXプラス | 業界高評価 | メール・電話 |
+| **<a href="https://min-fx.jp/" target="_blank" rel="noopener nofollow">みんなのFX</a>** | 0.2銭 原則固定 | 1,000通貨 | 最大 **50万円** | みんなのFXトレーダー | 改善中 | メール・電話 |
+| **<a href="https://www.rakuten-sec.co.jp/fx/" target="_blank" rel="noopener nofollow">楽天FX</a>** | 0.2銭 原則固定 | 1,000通貨 | 最大 **30万円** | MarketSpeed FX | iSPEED FX | メール・電話 |
+| **<a href="https://www.matsui.co.jp/service/fx/" target="_blank" rel="noopener nofollow">松井FX</a>** | 0.2銭 原則固定 | **1通貨** | 最大 1万円 | ネットストック | 標準 | メール・電話 |
+| **<a href="https://www.sbifxt.co.jp/" target="_blank" rel="noopener nofollow">SBI FXトレード</a>** | 0.18銭 原則固定 | **1通貨** | 最大 30万円 | SBI FXTRADE | 高評価 | メール・電話 |
+| **<a href="https://mst.monex.co.jp/mst/servlet/ITS/fx/" target="_blank" rel="noopener nofollow">マネックスFX</a>** | 0.2銭 原則固定 | 1,000通貨 | 最大 30万円 | MonexTraderFX | 標準 | メール・電話 |
 
 > 💡 **キャッシュバック達成条件**：各社「新規口座開設＋取引数量〇万Lot以上」の階段方式。最高額は数千万Lot必要なので**現実的には5〜10万円達成が目安**。「最大55万」は理論値。
 
@@ -87,84 +101,153 @@ references: ["https://fx.dmm.com/", "https://www.gaitame.com/", "https://min-fx.
 
 ### 🥇 DMM FX — 初心者総合No.1
 
-- **スプレッド**: USD/JPY 0.2銭（原則固定・例外あり）、EUR/JPY 0.5銭、GBP/JPY 0.9銭
-- **最低取引単位**: 10,000通貨（約50万円分のポジション）
-- **キャッシュバック**: 最大30万円（新規口座開設＋取引数量達成）
-- **取引ツール**: DMMFX PLUS（PC用）、DMMFX STANDARD（PC高速版）
-- **スマホアプリ**: チャート操作軽快、テクニカル指標豊富、初心者ガイド充実
-- **サポート**: LINEで24時間相談可能（業界唯一）
-- **強み**: 初心者向けコンテンツ多、口座開設最短即日、Tポイント貯まる
-- **注意**: 最低取引単位が10,000通貨なので、**少額（数千円）で練習したい人には不向き**
+<div class="cmp-table-wrap">
+  <table class="cmp-table spec-table">
+    <tbody>
+      <tr><th>スプレッド</th><td>USD/JPY 0.2銭（原則固定・例外あり）、EUR/JPY 0.5銭、GBP/JPY 0.9銭</td></tr>
+      <tr><th>最低取引単位</th><td>10,000通貨（約50万円分のポジション）</td></tr>
+      <tr><th>キャッシュバック</th><td>最大30万円（新規口座開設＋取引数量達成）</td></tr>
+      <tr><th>取引ツール</th><td>DMMFX PLUS（PC用）、DMMFX STANDARD（PC高速版）</td></tr>
+      <tr><th>スマホアプリ</th><td>チャート操作軽快、テクニカル指標豊富、初心者ガイド充実</td></tr>
+      <tr><th>サポート</th><td>LINEで24時間相談可能（業界唯一）</td></tr>
+      <tr><th>強み</th><td>初心者向けコンテンツ多、口座開設最短即日、Tポイント貯まる</td></tr>
+      <tr><th>注意</th><td>最低取引単位が10,000通貨なので、<strong>少額（数千円）で練習したい人には不向き</strong></td></tr>
+      <tr><th>公式サイト</th><td><a href="https://fx.dmm.com/" target="_blank" rel="noopener nofollow">DMM FX 公式</a></td></tr>
+    </tbody>
+  </table>
+</div>
 
 ### 🥈 外為どっとコム — サポート充実
 
-- **スプレッド**: USD/JPY 0.2銭（原則固定）、業界水準
-- **最低取引単位**: 1,000通貨（約5万円分のポジション）
-- **キャッシュバック**: 最大40万円（時期によりキャンペーン変動）
-- **取引ツール**: 外貨ネクストネオ（PC用、初心者向けUI）、エクシール（中・上級者用）
-- **サポート**: <strong>24時間電話サポート</strong>（業界唯一）、初心者セミナー無料、為替レポート豊富
-- **強み**: 「人に聞きながら学びたい」派の最適解、口座開設後の電話サポートで挫折率低い
-- **注意**: スマホアプリは標準的（DMMほどではない）
+<div class="cmp-table-wrap">
+  <table class="cmp-table spec-table">
+    <tbody>
+      <tr><th>スプレッド</th><td>USD/JPY 0.2銭（原則固定）、業界水準</td></tr>
+      <tr><th>最低取引単位</th><td>1,000通貨（約5万円分のポジション）</td></tr>
+      <tr><th>キャッシュバック</th><td>最大40万円（時期によりキャンペーン変動）</td></tr>
+      <tr><th>取引ツール</th><td>外貨ネクストネオ（PC用、初心者向けUI）、エクシール（中・上級者用）</td></tr>
+      <tr><th>サポート</th><td><strong>24時間電話サポート</strong>（業界唯一）、初心者セミナー無料、為替レポート豊富</td></tr>
+      <tr><th>強み</th><td>「人に聞きながら学びたい」派の最適解、口座開設後の電話サポートで挫折率低い</td></tr>
+      <tr><th>注意</th><td>スマホアプリは標準的（DMMほどではない）</td></tr>
+      <tr><th>公式サイト</th><td><a href="https://www.gaitame.com/" target="_blank" rel="noopener nofollow">外為どっとコム 公式</a></td></tr>
+    </tbody>
+  </table>
+</div>
 
 ### 🥉 GMOクリック証券 — 本気組の最適解
 
-- **スプレッド**: USD/JPY 0.2銭（原則固定・スプレッド最狭水準が継続的）
-- **最低取引単位**: 10,000通貨
-- **キャッシュバック**: 最大55万円
-- **取引ツール**: はっちゅう君FXプラス（業界高評価）、プラチナチャート＋
-- **スマホアプリ**: FXトレーダー機能網羅、テクニカル分析十分
-- **サポート**: メール・電話
-- **強み**: **FX取引高 12年連続世界1位**、スプレッドが安定して狭い、約定力高い、長期トレーダーに人気
-- **注意**: 初心者向けコンテンツはDMM/外為どっとコムほどではない
+<div class="cmp-table-wrap">
+  <table class="cmp-table spec-table">
+    <tbody>
+      <tr><th>スプレッド</th><td>USD/JPY 0.2銭（原則固定・スプレッド最狭水準が継続的）</td></tr>
+      <tr><th>最低取引単位</th><td>10,000通貨</td></tr>
+      <tr><th>キャッシュバック</th><td>最大55万円</td></tr>
+      <tr><th>取引ツール</th><td>はっちゅう君FXプラス（業界高評価）、プラチナチャート＋</td></tr>
+      <tr><th>スマホアプリ</th><td>FXトレーダー機能網羅、テクニカル分析十分</td></tr>
+      <tr><th>サポート</th><td>メール・電話</td></tr>
+      <tr><th>強み</th><td><strong>FX取引高 12年連続世界1位</strong>、スプレッドが安定して狭い、約定力高い、長期トレーダーに人気</td></tr>
+      <tr><th>注意</th><td>初心者向けコンテンツはDMM/外為どっとコムほどではない</td></tr>
+      <tr><th>公式サイト</th><td><a href="https://www.click-sec.com/corp/fx/" target="_blank" rel="noopener nofollow">GMOクリック証券 公式</a></td></tr>
+    </tbody>
+  </table>
+</div>
 
 ### 🟦 みんなのFX（トレイダーズ証券） — 自動売買派
 
-- **スプレッド**: USD/JPY 0.2銭（原則固定）
-- **最低取引単位**: 1,000通貨
-- **キャッシュバック**: 最大50万円
-- **取引ツール**: みんなのFXトレーダー（標準）、**みんなのシストレ**（自動売買コピートレード）
-- **強み**: 上位トレーダーの売買戦略を**ワンクリックでコピー**可能、月間収益ランキング公開
-- **注意**: シストレ運用は自動でもリスクあり、選定したストラテジーで損失出ることも
+<div class="cmp-table-wrap">
+  <table class="cmp-table spec-table">
+    <tbody>
+      <tr><th>スプレッド</th><td>USD/JPY 0.2銭（原則固定）</td></tr>
+      <tr><th>最低取引単位</th><td>1,000通貨</td></tr>
+      <tr><th>キャッシュバック</th><td>最大50万円</td></tr>
+      <tr><th>取引ツール</th><td>みんなのFXトレーダー（標準）、<strong>みんなのシストレ</strong>（自動売買コピートレード）</td></tr>
+      <tr><th>強み</th><td>上位トレーダーの売買戦略を<strong>ワンクリックでコピー</strong>可能、月間収益ランキング公開</td></tr>
+      <tr><th>注意</th><td>シストレ運用は自動でもリスクあり、選定したストラテジーで損失出ることも</td></tr>
+      <tr><th>公式サイト</th><td><a href="https://min-fx.jp/" target="_blank" rel="noopener nofollow">みんなのFX 公式</a></td></tr>
+    </tbody>
+  </table>
+</div>
 
 ### 🔴 楽天FX（楽天証券） — 楽天経済圏
 
-- **スプレッド**: USD/JPY 0.2銭（原則固定）
-- **最低取引単位**: 1,000通貨
-- **キャッシュバック**: 最大30万円
-- **取引ツール**: MarketSpeed FX（PC用、楽天証券共通の高機能）、iSPEED FX（スマホ）
-- **強み**: 取引で<strong>楽天ポイント貯まる</strong>（1万通貨取引で1ポイント目安）、楽天証券総合口座で株とFX両方管理
-- **注意**: 為替レポート・教材は他社に比べてやや少なめ
+<div class="cmp-table-wrap">
+  <table class="cmp-table spec-table">
+    <tbody>
+      <tr><th>スプレッド</th><td>USD/JPY 0.2銭（原則固定）</td></tr>
+      <tr><th>最低取引単位</th><td>1,000通貨</td></tr>
+      <tr><th>キャッシュバック</th><td>最大30万円</td></tr>
+      <tr><th>取引ツール</th><td>MarketSpeed FX（PC用、楽天証券共通の高機能）、iSPEED FX（スマホ）</td></tr>
+      <tr><th>強み</th><td>取引で<strong>楽天ポイント貯まる</strong>（1万通貨取引で1ポイント目安）、楽天証券総合口座で株とFX両方管理</td></tr>
+      <tr><th>注意</th><td>為替レポート・教材は他社に比べてやや少なめ</td></tr>
+      <tr><th>公式サイト</th><td><a href="https://www.rakuten-sec.co.jp/fx/" target="_blank" rel="noopener nofollow">楽天FX 公式</a></td></tr>
+    </tbody>
+  </table>
+</div>
 
 ### 💎 松井FX（松井証券） — 超少額スタート
 
-- **スプレッド**: USD/JPY 0.2銭（原則固定）
-- **最低取引単位**: **1通貨**（約5円分のポジションから！）
-- **キャッシュバック**: 最大1万円程度（控えめ）
-- **取引ツール**: ネットストックトレーダー（PC）、松井証券 株アプリ（スマホ・統合）
-- **強み**: **1通貨から始められる**ので、リアルマネー練習に最適。100年以上の老舗、信頼性高
-- **注意**: 1通貨だと利益も極小、本格的に取引するには通貨数量を増やす必要あり
+<div class="cmp-table-wrap">
+  <table class="cmp-table spec-table">
+    <tbody>
+      <tr><th>スプレッド</th><td>USD/JPY 0.2銭（原則固定）</td></tr>
+      <tr><th>最低取引単位</th><td><strong>1通貨</strong>（約5円分のポジションから！）</td></tr>
+      <tr><th>キャッシュバック</th><td>最大1万円程度（控えめ）</td></tr>
+      <tr><th>取引ツール</th><td>ネットストックトレーダー（PC）、松井証券 株アプリ（スマホ・統合）</td></tr>
+      <tr><th>強み</th><td><strong>1通貨から始められる</strong>ので、リアルマネー練習に最適。100年以上の老舗、信頼性高</td></tr>
+      <tr><th>注意</th><td>1通貨だと利益も極小、本格的に取引するには通貨数量を増やす必要あり</td></tr>
+      <tr><th>公式サイト</th><td><a href="https://www.matsui.co.jp/service/fx/" target="_blank" rel="noopener nofollow">松井FX 公式</a></td></tr>
+    </tbody>
+  </table>
+</div>
 
 ### 🌟 SBI FXトレード — 1通貨＋スプレッド0.18銭
 
-- **スプレッド**: USD/JPY **0.18銭**原則固定（業界最狭水準）
-- **最低取引単位**: **1通貨**（松井と同じく約5円から）
-- **キャッシュバック**: 最大30万円
-- **取引ツール**: SBI FXTRADE（PC・スマホアプリ統合）
-- **強み**: **1通貨スタート × スプレッド最狭** という珍しい組合せ、SBI証券グループの信頼性
-- **注意**: 取引ツールはやや独自仕様、慣れるまで時間かかる
+<div class="cmp-table-wrap">
+  <table class="cmp-table spec-table">
+    <tbody>
+      <tr><th>スプレッド</th><td>USD/JPY <strong>0.18銭</strong>原則固定（業界最狭水準）</td></tr>
+      <tr><th>最低取引単位</th><td><strong>1通貨</strong>（松井と同じく約5円から）</td></tr>
+      <tr><th>キャッシュバック</th><td>最大30万円</td></tr>
+      <tr><th>取引ツール</th><td>SBI FXTRADE（PC・スマホアプリ統合）</td></tr>
+      <tr><th>強み</th><td><strong>1通貨スタート × スプレッド最狭</strong> という珍しい組合せ、SBI証券グループの信頼性</td></tr>
+      <tr><th>注意</th><td>取引ツールはやや独自仕様、慣れるまで時間かかる</td></tr>
+      <tr><th>公式サイト</th><td><a href="https://www.sbifxt.co.jp/" target="_blank" rel="noopener nofollow">SBI FXトレード 公式</a></td></tr>
+    </tbody>
+  </table>
+</div>
 
 ### 🟧 マネックスFX
 
-- **スプレッド**: USD/JPY 0.2銭（原則固定）
-- **最低取引単位**: 1,000通貨
-- **キャッシュバック**: 最大30万円
-- **取引ツール**: MonexTraderFX（PC）、独自スマホアプリ
-- **強み**: マネックス証券との総合口座、取扱通貨ペア多め（米国株メインのマネックス利用者と相性○）
-- **注意**: FX専業他社と比べ、FX関連コンテンツは少なめ
+<div class="cmp-table-wrap">
+  <table class="cmp-table spec-table">
+    <tbody>
+      <tr><th>スプレッド</th><td>USD/JPY 0.2銭（原則固定）</td></tr>
+      <tr><th>最低取引単位</th><td>1,000通貨</td></tr>
+      <tr><th>キャッシュバック</th><td>最大30万円</td></tr>
+      <tr><th>取引ツール</th><td>MonexTraderFX（PC）、独自スマホアプリ</td></tr>
+      <tr><th>強み</th><td>マネックス証券との総合口座、取扱通貨ペア多め（米国株メインのマネックス利用者と相性○）</td></tr>
+      <tr><th>注意</th><td>FX専業他社と比べ、FX関連コンテンツは少なめ</td></tr>
+      <tr><th>公式サイト</th><td><a href="https://mst.monex.co.jp/mst/servlet/ITS/fx/" target="_blank" rel="noopener nofollow">マネックスFX 公式</a></td></tr>
+    </tbody>
+  </table>
+</div>
 
 ---
 
 ## 🎯 失敗しないFX始め方 5ステップ
+
+<div class="cmp-table-wrap">
+  <table class="cmp-table">
+    <thead><tr><th>順</th><th>やること</th><th>本文で示した目安</th></tr></thead>
+    <tbody>
+      <tr><td><strong>①</strong></td><td>まず複数口座を開く（無料）</td><td><a href="https://fx.dmm.com/" target="_blank" rel="noopener nofollow">DMM FX</a> ＋ <a href="https://www.gaitame.com/" target="_blank" rel="noopener nofollow">外為どっとコム</a> ＋ <a href="https://www.click-sec.com/corp/fx/" target="_blank" rel="noopener nofollow">GMOクリック証券</a>の3社</td></tr>
+      <tr><td><strong>②</strong></td><td>最初の入金額を決める</td><td><strong>5万円以下</strong></td></tr>
+      <tr><td><strong>③</strong></td><td>最初の取引数量を決める</td><td><strong>1,000通貨</strong>。心理的負荷が10分の1</td></tr>
+      <tr><td><strong>④</strong></td><td>損切りラインを取引前に決める</td><td>指値・逆指値で自動執行</td></tr>
+      <tr><td><strong>⑤</strong></td><td>デモトレードを卒業する</td><td><strong>1ヶ月</strong>。メンタル負荷ゼロで学習効率が落ちるため</td></tr>
+    </tbody>
+  </table>
+</div>
 
 <ul class="checklist">
 <li>
@@ -203,6 +286,18 @@ references: ["https://fx.dmm.com/", "https://www.gaitame.com/", "https://min-fx.
 
 ## 💰 キャッシュバック最大化テクニック
 
+<div class="cmp-table-wrap">
+  <table class="cmp-table">
+    <thead><tr><th>技</th><th>中身</th><th>本文で示した目安</th></tr></thead>
+    <tbody>
+      <tr><td><strong>①</strong></td><td>複数社の新規開設キャンペーンを順次回す</td><td><strong>半年で10〜20万円</strong></td></tr>
+      <tr><td><strong>②</strong></td><td>達成条件は「取引数量」で決まる</td><td>入口は5,000〜3万円帯のキャンペーン</td></tr>
+      <tr><td><strong>③</strong></td><td>アフィリエイト経由と公式キャンペーンを併用する</td><td>併用可</td></tr>
+      <tr><td><strong>④</strong></td><td>付与時期を確認する</td><td>口座開設した月にすぐ入るとは限らない</td></tr>
+    </tbody>
+  </table>
+</div>
+
 <ul class="checklist">
 <li>
 <div class="checklist-body">
@@ -233,6 +328,19 @@ references: ["https://fx.dmm.com/", "https://www.gaitame.com/", "https://min-fx.
 ---
 
 ## ⚠️ FX のリスク管理 — 知らないと地獄
+
+<div class="cmp-table-wrap">
+  <table class="cmp-table">
+    <thead><tr><th>気をつけること</th><th>本文で示した線引き</th></tr></thead>
+    <tbody>
+      <tr><td><strong>① レバレッジ</strong></td><td>最大25倍だが、<strong>初心者は実質3〜5倍まで</strong></td></tr>
+      <tr><td><strong>② ロスカット</strong></td><td>証拠金維持率が割れると<strong>強制決済</strong>される</td></tr>
+      <tr><td><strong>③ 週末ギャップ</strong></td><td>持ち越すなら週末リスクを覚悟する</td></tr>
+      <tr><td><strong>④ 情報商材</strong></td><td>「絶対勝てる」「自動売買で月10%」は詐欺。無料の公式コンテンツで足りる</td></tr>
+      <tr><td><strong>⑤ 元本</strong></td><td><strong>保証なし。</strong>余裕資金で</td></tr>
+    </tbody>
+  </table>
+</div>
 
 <ul class="checklist">
 <li>
