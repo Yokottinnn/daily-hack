@@ -55,6 +55,19 @@ jobs:
       # ジョブが載ったまま CDP 断で 1 件も実行されず、それでも数値はわずかに動く。
       # ゼロ判定はこの形を通してしまう。目標ペースとの比で見る。
       FOLLOWER_PACE_MIN_PCT: '25'
+      # **既に落ちていると分かっているジョブの数。** ここを超えたときだけ鳴らす。
+      #
+      # 2026-09-09 に `ai.openclaw.*` が 48 本 一斉に外れた。実行ファイルは全部 在り、
+      # **畳んだのではなく落ちている。** ただし多くが LLM を呼ぶため、
+      # 戻すかどうかは 1 本ずつ金額を出して決める（最上位ルール 2-B）。
+      #
+      # **0 のままにすると 30 分ごとに鳴り続け、本当の異常が埋もれる。**
+      # かといって黙らせると、新しく落ちたものが分からない。
+      # **「これ以上 増えたら鳴らす」にして、決めたぶんだけ下げていく。**
+      #
+      # 下げ忘れを防ぐため、`autoload` で戻したぶんは自動でここに現れない。
+      # 数が減ったら、この値も一緒に下げること。
+      UNLOADED_BASELINE: '46'
     steps:
       - name: Fetch heartbeat branch
         id: fetch
@@ -164,6 +177,14 @@ jobs:
           unloaded_n=$(jq -r '.unloaded_count // 0' hb/heartbeat.json)
           unloaded_list=$(jq -r '[.unloaded[]?.label] | join(" ")' hb/heartbeat.json)
 
+          # **載せ直しが効いているか。** heartbeat は 30 分ごとに
+          # `ops/data/autoload-jobs.txt` のジョブを bootstrap し直す。
+          # **打ったのに載らなかったものがあれば、そこが本当の異常。**
+          # 「対象 N / 打った M / 載った K」の 3 つを見る（最上位ルール 14）。
+          a_target=$(jq -r '.autoload.target // -1' hb/heartbeat.json)
+          a_tried=$(jq -r '.autoload.tried // 0' hb/heartbeat.json)
+          a_loaded=$(jq -r '.autoload.loaded // 0' hb/heartbeat.json)
+
           # **返信が最後に X へ出た時刻。これが唯一の「動いているか」の判定。**
           #
           # `activity.posted_today` は**ログの行数**で、二重計上するし
@@ -212,7 +233,8 @@ jobs:
             echo "- heartbeat: \`$gen\`（${age} 分前）"
             echo "- 稼働ジョブ: $(printf '%s\n' "$jobs" | grep -c . || true) 件"
             [ -n "$missing" ] && echo "- **欠落:**$missing"
-            echo "- **plist はあるのに未ロード: ${unloaded_n} 件**${unloaded_list:+ — $unloaded_list}"
+            echo "- **plist はあるのに未ロード: ${unloaded_n} 件**（既知 ${UNLOADED_BASELINE} 件）"
+            echo "- 載せ直し: 対象 ${a_target} / 打った ${a_tried} / **載った ${a_loaded}**"
             echo "- 認証: \`$auth_ok\`（$auth_detail）${auth_hours:+ / 残り ${auth_hours} 時間}"
             echo "- 本日の投稿: **${posted} 件**（$act_detail）${act_sources:+ / $act_sources}"
             echo "- **最後に返信が出た時刻: \`${lr_at}\`（${lr_age} 時間前）**"
@@ -244,8 +266,14 @@ jobs:
              && printf '%s\n' "$jobs" | grep -q 'comment-warmup'; then
             problem="${problem:+$problem,}silent"
           fi
-          # plist はあるのに載っていない＝止まっている。名前を知らなくても捕まる
-          [ "$unloaded_n" -gt 0 ] && problem="${problem:+$problem,}unloaded"
+          # plist はあるのに載っていない＝止まっている。名前を知らなくても捕まる。
+          # **既知のぶん（UNLOADED_BASELINE）を超えたときだけ鳴らす。**
+          # 0 で鳴らすと 30 分ごとに鳴り続け、本当の異常が埋もれる。
+          [ "$unloaded_n" -gt "$UNLOADED_BASELINE" ] 2>/dev/null \
+            && problem="${problem:+$problem,}unloaded"
+          # **載せ直しを打ったのに載らなかった。** これは既知のぶんとは別の異常。
+          [ "$a_tried" -gt "$a_loaded" ] 2>/dev/null \
+            && problem="${problem:+$problem,}arestore"
           # 成果が動いていない。ジョブの生死をすり抜けた故障はここで捕まる。
           # 実測 delta 人 / span 日 が、必要ペース need 人/日 の
           # FOLLOWER_PACE_MIN_PCT % を下回ったら鳴らす。
@@ -280,6 +308,9 @@ jobs:
             echo "posted=$posted"
             echo "unloaded_n=$unloaded_n"
             echo "unloaded_list=$unloaded_list"
+            echo "a_target=$a_target"
+            echo "a_tried=$a_tried"
+            echo "a_loaded=$a_loaded"
             echo "f_now=$f_now"
             echo "f_delta=$f_delta"
             echo "f_span=$f_span"
@@ -306,6 +337,9 @@ jobs:
           F_DELTA: ${{ steps.evaluate.outputs.f_delta }}
           F_SPAN: ${{ steps.evaluate.outputs.f_span }}
           F_AGE: ${{ steps.evaluate.outputs.f_age }}
+          A_TARGET: ${{ steps.evaluate.outputs.a_target }}
+          A_TRIED: ${{ steps.evaluate.outputs.a_tried }}
+          A_LOADED: ${{ steps.evaluate.outputs.a_loaded }}
           F_NEED: ${{ steps.evaluate.outputs.f_need }}
         run: |
           set -uo pipefail
@@ -357,6 +391,13 @@ jobs:
                 echo "  目標には 1 日 ${F_NEED} 人 必要。"
                 echo "  ジョブが載っていても実行できていない可能性がある"
                 echo "  （2026-07-07 は Chrome CDP の接続断で 46 日間 0 件だった）。"
+                ;;
+            esac
+            case "$PROBLEM" in
+              *arestore*)
+                echo "• *載せ直しを打ったのに載らなかったジョブがある*（打った ${A_TRIED} / 載った ${A_LOADED}）"
+                echo "  \`ops/data/autoload-jobs.txt\` に入っているのに \`launchctl list\` に出てこない。"
+                echo "  plist が壊れているか、bootstrap がエラーを返している。"
                 ;;
             esac
             case "$PROBLEM" in

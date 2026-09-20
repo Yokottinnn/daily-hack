@@ -567,6 +567,25 @@ ops/tasks/001-load-follower-snapshot.sh をコミット
 - **当て推量でファイルを作らない。** 見つからなければ候補を挙げて `exit 1` する
 - 対話や判断が要る依頼だけ、下のトリガー経路を使う
 
+### 落ちたジョブは `ops/data/autoload-jobs.txt` で戻す
+
+**`tab-guard.js` は `ai.openclaw.*` を一斉に外す。** 2026-09-09 に 48 本 が外れ、
+**11 日間 誰も気づかなかった。** 9/12・9/20 にも同じことが起きている。
+
+番人 `x-loop-guardian` はあったが効かなかった。**見ている対象が X の 8 ループだけ**で、
+しかも**番人自身が `ai.openclaw.*`** なので一緒に外されていた。
+
+**`com.dailyhack.ops-heartbeat` は 3 回 とも生き残っている**（tab-guard は
+`ai.openclaw.*` しか外さない）。そこで **30 分ごとの heartbeat が
+`ops/data/autoload-jobs.txt` のジョブを `bootstrap` し直す。**
+
+- **意図的に止めたいものは、一覧から消すのではなく plist を `.disabled` にリネームする。**
+  一覧から消すだけだと `unloaded` の警報が鳴り続ける
+- **LLM を呼ぶジョブを一覧に足すのは増額の提案である**（最上位ルール 2-B）。
+  「元に戻すだけ」も増額に変わりはない。金額を出してから足す
+- 結果は `heartbeat.json` の `autoload` に **対象 N / 打った M / 載った K** で出る。
+  **`rc` ではなく `launchctl list` で確かめている**（最上位ルール 13）
+
 ### 対話が要る依頼はトリガー経路。Slack に書いた依頼は届かない
 
 **Slack は報告を受け取る場所であって、依頼を出す場所ではない。**
