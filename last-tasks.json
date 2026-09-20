@@ -1,1 +1,3 @@
-[]
+[
+      {"task": "t139-install-refresh-job-v2.sh", "rc": 0, "out": " - **毎日 05:30 に 1 本** 調べ、確度「高」だけ当てて **PR を作る** - **マージは人がやる。** 自動では入らない - 1 本目は `ops/data/unindexed.txt` の先頭（未インデックスの記事から回す） - 実額: `ops/data/refresh-state.json` の `total_usd`�"}
+  ]
