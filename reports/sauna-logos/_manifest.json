@@ -1,0 +1,168 @@
+{
+  "_note": "識別目的で使うロゴ。**商標であり自由ライセンスではない。**改変せず、余白のみ切って置くこと。取得日 2026-09-20（ops/tasks/t120-sauna-logos.sh）。",
+  "myspa": [
+    {
+      "brand": "スパ＆ホテル 舞浜ユーラシア",
+      "file": "myspa-site.png",
+      "source": "https://www.my-spa.jp/lb2025/wp-content/uploads/fbrfg/apple-touch-icon.png",
+      "page": "https://www.my-spa.jp/spa/",
+      "license_note": "公式サイト（商標）",
+      "width": 180,
+      "height": 180
+    }
+  ],
+  "saunas_takanawa": [
+    {
+      "brand": "高輪SAUNAS",
+      "file": "saunas_takanawa-site.png",
+      "source": "https://saunas-saunas.com/takanawa/wp-content/uploads/2026/01/og-takanawa-1.jpg",
+      "page": "https://saunas-saunas.com/takanawa",
+      "license_note": "公式サイト（商標）",
+      "width": 1200,
+      "height": 630
+    }
+  ],
+  "saunas_monnaka": [
+    {
+      "brand": "門仲SAUNAS LO",
+      "file": "saunas_monnaka-site.png",
+      "source": "https://lo.saunas-saunas.com/monnaka/wp-content/uploads/2026/05/image.png",
+      "page": "https://lo.saunas-saunas.com/monnaka/",
+      "license_note": "公式サイト（商標）",
+      "width": 2400,
+      "height": 1260
+    }
+  ],
+  "metsa_oimachi": [
+    {
+      "brand": "サウナメッツァ 大井町トラックス",
+      "file": "metsa_oimachi-site.png",
+      "source": "https://www.ryusenjinoyu.com/saunametsaoimachi/assets/img/ogp.jpg",
+      "page": "https://ryusenjinoyu.com/saunametsaoimachi/",
+      "license_note": "公式サイト（商標）",
+      "width": 1200,
+      "height": 630
+    }
+  ],
+  "spaworks": [
+    {
+      "brand": "竜泉寺の湯・スパメッツァ",
+      "file": "spaworks-site.png",
+      "source": "https://spaworks.jp/assets/images/ogp.png",
+      "page": "https://spaworks.jp/",
+      "license_note": "公式サイト（商標）",
+      "width": 1200,
+      "height": 630
+    }
+  ],
+  "kiki": [
+    {
+      "brand": "SAUNA汽汽",
+      "file": "kiki-site.png",
+      "source": "https://www.sauna-kiki.jp/wp-content/uploads/2026/04/kiki_ogp.webp",
+      "page": "https://sauna-kiki.jp/",
+      "license_note": "公式サイト（商標）",
+      "width": 1200,
+      "height": 630
+    }
+  ],
+  "mainichi": [
+    {
+      "brand": "毎日サウナ東京",
+      "file": "mainichi-site.png",
+      "source": "https://www.supersento.com/touch-icon-iphone.png",
+      "page": "https://www.supersento.com/",
+      "license_note": "公式サイト（商標）",
+      "width": 152,
+      "height": 152
+    }
+  ],
+  "kohaku": [
+    {
+      "brand": "sauna KOHAKU",
+      "file": "kohaku-site.png",
+      "source": "https://sauna-kohaku.com/images/ogp.jpg",
+      "page": "https://sauna-kohaku.com/",
+      "license_note": "公式サイト（商標）",
+      "width": 1200,
+      "height": 630
+    }
+  ],
+  "paradise": [
+    {
+      "brand": "パラダイス大手町",
+      "file": "paradise-site.png",
+      "source": "https://paradise-otemachi.com/wp-2026/wp-content/uploads/2026/07/screenshot.jpg",
+      "page": "https://paradise-otemachi.com/",
+      "license_note": "公式サイト（商標）",
+      "width": 1200,
+      "height": 900
+    }
+  ],
+  "shiagaru": [
+    {
+      "brand": "SHIAGARU SAUNA",
+      "file": "shiagaru-site.png",
+      "source": "https://shiagaru-sauna.com/ogp/ogp.png",
+      "page": "https://shiagaru-sauna.com/",
+      "license_note": "公式サイト（商標）",
+      "width": 1200,
+      "height": 630
+    }
+  ],
+  "suien": [
+    {
+      "brand": "水宴 -suien-",
+      "file": "suien-site.png",
+      "source": "https://furosauna.com/wp-content/uploads/2022/03/furosauna_v2.jpg",
+      "page": "https://furosauna.com/",
+      "license_note": "公式サイト（商標）",
+      "width": 1000,
+      "height": 500
+    }
+  ],
+  "spaeas": [
+    {
+      "brand": "横浜天然温泉 SPA EAS",
+      "file": "spaeas-site.png",
+      "source": "https://spa-eas.com/app/wp-content/themes/spaeas-site/assets/images/favicon-hb-512.png",
+      "page": "https://spa-eas.com/",
+      "license_note": "公式サイト（商標）",
+      "width": 512,
+      "height": 512
+    }
+  ],
+  "logout": [
+    {
+      "brand": "荒木町サウナ Logout",
+      "file": "logout-site.png",
+      "source": "https://sauna-logout.com/wp-content/uploads/2025/10/E9E4E3D1-4512-4789-82FE-FC3B0D0F4A49.jpeg",
+      "page": "https://sauna-logout.com/",
+      "license_note": "公式サイト（商標）",
+      "width": 640,
+      "height": 640
+    }
+  ],
+  "jyoshin": [
+    {
+      "brand": "サウナ蒸薪",
+      "file": "jyoshin-site.png",
+      "source": "https://www.sauna-jyoshin.com/apple-touch-icon.png",
+      "page": "https://www.sauna-jyoshin.com/",
+      "license_note": "公式サイト（商標）",
+      "width": 180,
+      "height": 180
+    }
+  ],
+  "newoman": [
+    {
+      "brand": "NEWoMan 高輪",
+      "file": "newoman-site.png",
+      "source": "https://www.newoman.jp/assets-kakukan/images/common/ogp.png",
+      "page": "https://www.newoman.jp/takanawa/",
+      "license_note": "公式サイト（商標）",
+      "width": 1200,
+      "height": 630
+    }
+  ]
+}
