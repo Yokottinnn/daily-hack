@@ -64,11 +64,19 @@ def check(path):
     # 誤検知を避けるため「固有名詞が並ぶ一覧」に限定する。
     # 時系列表（時期/内容）や料金表（メダル/還元率）は対象外。直後に出典リンクがある表も除外。
     # 「地方」「都道府県」は施設名ではなく集計軸なので、リンク先が存在しない
-    SKIP_HEAD = re.compile(r"時期|日程|状況|何が起きるか|メダル|還元率|年間積算|ブランド|位置づけ|地方|都道府県")
+    # **手順・注意点・仕様の表は「サービス名の一覧」ではない**ので、リンクを求めない
+    # （2026-09-20 に追加。FX 記事で手順表が 3 本 引っかかった）
+    SKIP_HEAD = re.compile(r"時期|日程|状況|何が起きるか|メダル|還元率|年間積算|ブランド|位置づけ|地方|都道府県"
+                           r"|やること|気をつけること|手順|中身|項目|条件|目安")
     for m in re.finditer(r"<table[^>]*>(.*?)</table>", body, re.S):
         t = m.group(1)
         rows = t.count("<tr")
         if rows < 5 or "<a " in t:
+            continue
+        # **`spec-table` は 1 対象の仕様表**（最寄・料金・条件）であって、
+        # 施設名・サービス名の一覧ではない。リンクを求める対象から外す
+        # （2026-09-20 に追加。箇条書きを仕様表に直したら 10 本 以上 引っかかった）
+        if "spec-table" in m.group(0)[:120]:
             continue
         thead = re.sub(r"<[^>]+>", " ", (re.search(r"<thead.*?</thead>", t, re.S) or re.match("", "")).group(0) if re.search(r"<thead.*?</thead>", t, re.S) else "")
         if SKIP_HEAD.search(thead):
