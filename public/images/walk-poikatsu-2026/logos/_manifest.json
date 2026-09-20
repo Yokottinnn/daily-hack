@@ -62,5 +62,29 @@
     "license_note": "公式サイト（商標）",
     "width": 600,
     "height": 303
+  },
+  "cokeon.png": {
+    "brand": "Coke ON",
+    "source": "App Store の登録アイコン（artworkUrl512）",
+    "page": "https://apps.apple.com/jp/app/id1088184021",
+    "fetched": "2026-09-20",
+    "license_note": "商標。識別目的で使用",
+    "task": "ops/tasks/t122-logos-retry3.sh"
+  },
+  "dhealth.png": {
+    "brand": "dヘルスケア",
+    "source": "App Store の登録アイコン（artworkUrl512）",
+    "page": "https://apps.apple.com/jp/app/id1352137023",
+    "fetched": "2026-09-20",
+    "license_note": "商標。識別目的で使用",
+    "task": "ops/tasks/t122-logos-retry3.sh"
+  },
+  "vitality.png": {
+    "brand": "住友生命（Vitality）",
+    "source": "https://commons.wikimedia.org/wiki/File:Sumitomo_Life_Insurance_Company_logo.svg",
+    "page": "https://commons.wikimedia.org/wiki/File:Sumitomo_Life_Insurance_Company_logo.svg",
+    "fetched": "2026-09-20",
+    "license_note": "Public domain（コモンズの表記）。商標であることに変わりはない",
+    "task": "ops/tasks/t122-logos-retry3.sh"
   }
 }

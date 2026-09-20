@@ -62,7 +62,7 @@ author: "hacker-ko"
 
 <span class="event-picks-credit">カード画像は<a href="https://mitsui-shopping-park.com/" target="_blank" rel="noopener">三井ショッピングパーク公式サイト</a>および<a href="https://prtimes.jp/main/html/rd/p/000000894.000051782.html" target="_blank" rel="noopener">三井不動産のニュースリリース</a>より引用。</span>
 
-## 店舗別売上ランキング｜三井不動産の決算資料そのまま
+<h2 class="brand-h" id="店舗別売上ランキング三井不動産の決算資料そのまま"><img class="brand-logo" src="/images/lalaport-guide-2026/logos/mitsuifudosan.png" alt="三井不動産のロゴ" loading="lazy" /><span>店舗別売上ランキング｜三井不動産の決算資料そのまま</span></h2>
 
 三井不動産は決算説明資料で、店舗面積が大きい施設に限って**店舗売上を10億円単位で開示**している。2026年3月末時点の上位10施設がこれ。
 
