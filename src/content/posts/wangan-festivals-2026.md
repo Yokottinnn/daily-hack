@@ -85,13 +85,19 @@ references: ["https://tokyo-hanabi-festival.com/", "https://koto-hanabi.com/", "
 <figcaption>晴海沖・東京港から上がる花火（休止前の開催時の様子）。レインボーブリッジ越しに湾岸の夜空を埋める尺玉が、2026年このスケールで戻ってくる。<cite>出典: Wikimedia Commons ／ 河田 貫成, CC BY-SA 4.0（<a href="https://commons.wikimedia.org/wiki/File:Tokyo_bay_fireworks_2015.jpg" target="_blank" rel="noopener nofollow">Tokyo bay fireworks 2015</a>）</cite></figcaption>
 </figure>
 
-- **開催日**：2026年10月24日（土）　17:30〜19:00（予定）
-- **場所**：晴海埠頭沖・東京港海上（最寄り＝勝どき駅／月島駅／豊洲駅エリア）
-- **規模**：約12,000発
-- **観覧**：⚠️ **全席チケット制（申込制）。歩道での立ち止まり観覧は不可**。晴海・豊海・豊洲・有明・港・台場に分散した観覧エリアで、**区民優先枠**が大量に用意されるのが復活版の特徴。料金は5,000〜10,000円の予定、**当日券なし**。
-- **チケット発売**：7月（上旬）発売予定
-- **公式**：[東京湾大華火祭 公式サイト](https://tokyo-hanabi-festival.com/)
-- **湾岸民の楽しみ方**：晴海・勝どき・豊洲の住民は、まず**地元の区民優先会場**を最優先で確保を。昔の「タワマンや海辺から無料で眺める」前提はチケット制で変わったので、早めの申込が命。
+<div class="cmp-table-wrap">
+  <table class="cmp-table spec-table">
+    <tbody>
+      <tr><th>開催日</th><td>2026年10月24日（土）　17:30〜19:00（予定）</td></tr>
+      <tr><th>場所</th><td>晴海埠頭沖・東京港海上（最寄り＝勝どき駅／月島駅／豊洲駅エリア）</td></tr>
+      <tr><th>規模</th><td>約12,000発</td></tr>
+      <tr><th>観覧</th><td>⚠️ <strong>全席チケット制（申込制）。歩道での立ち止まり観覧は不可</strong>。晴海・豊海・豊洲・有明・港・台場に分散した観覧エリアで、<strong>区民優先枠</strong>が大量に用意されるのが復活版の特徴。料金は5,000〜10,000円の予定、<strong>当日券なし</strong>。</td></tr>
+      <tr><th>チケット発売</th><td>7月（上旬）発売予定</td></tr>
+      <tr><th>公式</th><td>[東京湾大華火祭 公式サイト](https://tokyo-hanabi-festival.com/)</td></tr>
+      <tr><th>湾岸民の楽しみ方</th><td>晴海・勝どき・豊洲の住民は、まず<strong>地元の区民優先会場</strong>を最優先で確保を。昔の「タワマンや海辺から無料で眺める」前提はチケット制で変わったので、早めの申込が命。</td></tr>
+    </tbody>
+  </table>
+</div>
 
 <div class="hakkako-says">
 <img src="/images/expr-07-gasp.png" alt="ハッカー子" />
@@ -107,11 +113,17 @@ references: ["https://tokyo-hanabi-festival.com/", "https://koto-hanabi.com/", "
 <figcaption>佃島の鎮守・住吉神社。本祭りの年は、ここを起点に八角神輿の宮出しと船渡御が行われ、高層マンションの足元に江戸の祭礼が広がる。<cite>出典: Wikimedia Commons ／ Ysakuma14, CC BY-SA 4.0（<a href="https://commons.wikimedia.org/wiki/File:%E4%B8%AD%E5%A4%AE%E5%8C%BA%E4%BD%83%E5%B3%B6_%E4%BD%8F%E5%90%89%E7%A5%9E%E7%A4%BE.jpg" target="_blank" rel="noopener nofollow">中央区佃島 住吉神社</a>）</cite></figcaption>
 </figure>
 
-- **開催**：2026年8月6日（木）〜10日（月）　※獅子頭宮出し8/8、八角神輿・船渡御8/9（時刻は公式発表で要確認）
-- **場所**：住吉神社・佃島一帯（佃公園・佃小橋周辺）／最寄り＝月島駅6番出口 徒歩約5分
-- **見どころ**：八角神輿（区指定有形民俗文化財・1838年作）、大幟、船渡御
-- **公式**：[住吉神社](https://www.sumiyoshijinja.or.jp/)
-- **穴場**：**佃小橋・佃堀**周辺の水辺。船渡御と大幟をいちばん“絵になる”角度で見られる。
+<div class="cmp-table-wrap">
+  <table class="cmp-table spec-table">
+    <tbody>
+      <tr><th>開催</th><td>2026年8月6日（木）〜10日（月）　※獅子頭宮出し8/8、八角神輿・船渡御8/9（時刻は公式発表で要確認）</td></tr>
+      <tr><th>場所</th><td>住吉神社・佃島一帯（佃公園・佃小橋周辺）／最寄り＝月島駅6番出口 徒歩約5分</td></tr>
+      <tr><th>見どころ</th><td>八角神輿（区指定有形民俗文化財・1838年作）、大幟、船渡御</td></tr>
+      <tr><th>公式</th><td>[住吉神社](https://www.sumiyoshijinja.or.jp/)</td></tr>
+      <tr><th>穴場</th><td><strong>佃小橋・佃堀</strong>周辺の水辺。船渡御と大幟をいちばん“絵になる”角度で見られる。</td></tr>
+    </tbody>
+  </table>
+</div>
 
 ### 🏮 月島・勝どき・佃の盆踊り（例年・夏）
 
@@ -123,13 +135,19 @@ references: ["https://tokyo-hanabi-festival.com/", "https://koto-hanabi.com/", "
 
 ### 🎆 江東花火大会（8/11・荒川）★湾岸の夏の主役
 
-- **開催日**：2026年8月11日（火・祝）　19:00〜20:00（打ち上げ19:10頃〜）
-- **場所**：荒川・砂町水辺公園（葛西橋〜清砂大橋の間）
-- **規模**：約6,000発（スターマイン中心）
-- **観覧**：**全席指定制・場所取り不要**。有料指定席に加えて**区民限定の無料招待席**あり（人数限定・早期締切想定）。チケット発売は7月中旬との地域報道。
-- **荒天時**：小雨決行・荒天中止・**順延なし**
-- **公式**：[江東花火大会 公式](https://koto-hanabi.com/)／[江東区 公式ページ](https://www.city.koto.lg.jp/101021/kurashi/komyunitei/hanabi/67.html)
-- **湾岸民の楽しみ方**：豊洲・東雲・辰巳からは荒川方面へ少し移動が必要。場所取り不要の指定席制なので、小さい子連れでも安心。区民無料枠は数量限定なので発売日チェックを。
+<div class="cmp-table-wrap">
+  <table class="cmp-table spec-table">
+    <tbody>
+      <tr><th>開催日</th><td>2026年8月11日（火・祝）　19:00〜20:00（打ち上げ19:10頃〜）</td></tr>
+      <tr><th>場所</th><td>荒川・砂町水辺公園（葛西橋〜清砂大橋の間）</td></tr>
+      <tr><th>規模</th><td>約6,000発（スターマイン中心）</td></tr>
+      <tr><th>観覧</th><td><strong>全席指定制・場所取り不要</strong>。有料指定席に加えて<strong>区民限定の無料招待席</strong>あり（人数限定・早期締切想定）。チケット発売は7月中旬との地域報道。</td></tr>
+      <tr><th>荒天時</th><td>小雨決行・荒天中止・<strong>順延なし</strong></td></tr>
+      <tr><th>公式</th><td>[江東花火大会 公式](https://koto-hanabi.com/)／[江東区 公式ページ](https://www.city.koto.lg.jp/101021/kurashi/komyunitei/hanabi/67.html)</td></tr>
+      <tr><th>湾岸民の楽しみ方</th><td>豊洲・東雲・辰巳からは荒川方面へ少し移動が必要。場所取り不要の指定席制なので、小さい子連れでも安心。区民無料枠は数量限定なので発売日チェックを。</td></tr>
+    </tbody>
+  </table>
+</div>
 
 ### ⛩️ 深川八幡祭り（富岡八幡宮例大祭）（8/12〜16）★3年に1度の本祭り
 
@@ -146,10 +164,16 @@ references: ["https://tokyo-hanabi-festival.com/", "https://koto-hanabi.com/", "
 </figure>
 </div>
 
-- **開催**：2026年8月12日（水）〜16日（日）　※神輿連合渡御＝8/16（日）
-- **場所**：富岡八幡宮（門前仲町駅 徒歩約3分）／連合渡御ルートは門前仲町〜永代〜越中島〜豊洲方面まで広域
-- **公式**：[富岡八幡宮 例祭](http://www.tomiokahachimangu.or.jp/annai/maturi/maturih1.html)
-- **穴場**：連合渡御ルートは**豊洲橋・朝凪橋など湾岸の橋**を通過するので、**豊洲側の住民は地元で水掛けに参加できる**。通過時刻・ルートは直前発表なので当日朝に公式を確認。
+<div class="cmp-table-wrap">
+  <table class="cmp-table spec-table">
+    <tbody>
+      <tr><th>開催</th><td>2026年8月12日（水）〜16日（日）　※神輿連合渡御＝8/16（日）</td></tr>
+      <tr><th>場所</th><td>富岡八幡宮（門前仲町駅 徒歩約3分）／連合渡御ルートは門前仲町〜永代〜越中島〜豊洲方面まで広域</td></tr>
+      <tr><th>公式</th><td>[富岡八幡宮 例祭](http://www.tomiokahachimangu.or.jp/annai/maturi/maturih1.html)</td></tr>
+      <tr><th>穴場</th><td>連合渡御ルートは<strong>豊洲橋・朝凪橋など湾岸の橋</strong>を通過するので、<strong>豊洲側の住民は地元で水掛けに参加できる</strong>。通過時刻・ルートは直前発表なので当日朝に公式を確認。</td></tr>
+    </tbody>
+  </table>
+</div>
 
 ### 🏮 キラナの大夏祭り＆豊洲の盆踊り（7〜8月）
 
@@ -200,18 +224,16 @@ references: ["https://tokyo-hanabi-festival.com/", "https://koto-hanabi.com/", "
 
 ## ❓ よくある質問（FAQ）
 
-**Q. 東京湾大華火祭は無料で見られないの？**
-A. 復活版は**全席チケット制**で、歩道での立ち止まり観覧は不可。ただし**区民優先枠**が大量に設けられる予定なので、晴海・勝どき・豊洲などの区民は地元会場の枠を狙うのが現実的。
-
-**Q. 2026年が“当たり年”ってどういうこと？**
-A. 佃の住吉神社例祭と深川八幡祭りは、どちらも**3年に1度の本祭り**。その2つが**同じ2026年の8月に重なる**ため、神輿・船渡御・連合渡御を1シーズンで両方楽しめる稀少な年なの。
-
-**Q. 子連れでも大丈夫？**
-A. 江東花火は**全席指定・場所取り不要**で子連れ向き。祭りは人出が多いので、**昼の時間帯**＆抱っこ紐がおすすめ。
-
-**Q. 日程が「未発表」のものはどうすれば？**
-A. 盆踊りや一部の納涼祭は各町会・自治会の告知待ち。例年の時期を載せているので、その頃に公式・自治会SNSをチェックして。
-
+<div class="cmp-table-wrap">
+  <table class="cmp-table spec-table faq-table">
+    <tbody>
+      <tr><th>東京湾大華火祭は無料で見られないの？</th><td>復活版は<strong>全席チケット制</strong>で、歩道での立ち止まり観覧は不可。ただし<strong>区民優先枠</strong>が大量に設けられる予定なので、晴海・勝どき・豊洲などの区民は地元会場の枠を狙うのが現実的。</td></tr>
+      <tr><th>2026年が“当たり年”ってどういうこと？</th><td>佃の住吉神社例祭と深川八幡祭りは、どちらも<strong>3年に1度の本祭り</strong>。その2つが<strong>同じ2026年の8月に重なる</strong>ため、神輿・船渡御・連合渡御を1シーズンで両方楽しめる稀少な年なの。</td></tr>
+      <tr><th>子連れでも大丈夫？</th><td>江東花火は<strong>全席指定・場所取り不要</strong>で子連れ向き。祭りは人出が多いので、<strong>昼の時間帯</strong>＆抱っこ紐がおすすめ。</td></tr>
+      <tr><th>日程が「未発表」のものはどうすれば？</th><td>盆踊りや一部の納涼祭は各町会・自治会の告知待ち。例年の時期を載せているので、その頃に公式・自治会SNSをチェックして。</td></tr>
+    </tbody>
+  </table>
+</div>
 ## まとめ — 2026年の湾岸は“一生モノ”の夏・秋
 
 11年ぶりの大華火、3年に1度が重なる本祭り。**2026年の湾岸エリアは、ここ数年で一番イベントが濃い1年**になる。ポイントは、
