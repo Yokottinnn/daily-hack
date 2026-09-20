@@ -68,6 +68,12 @@
 
 <!-- 新しい記録がこの下に追加される（新しいものが上） -->
 
+### 2026-09-20 — フォロワー経路の効き目を測り切った。実フォロワーは 264（227 ではない）。競合の種ごとの返り率は himawari56757 26.0% 〜 ukk_hx 4.2% で 6 倍 の開き。群で見ると 外す 3 つ が 89 件→7 人（7.9%）、残す 4 つ が 133 件→28 人（21.1%）。規模では説明がつかず（okamiler_pn 18.2%/平均7757 と ukk_hx 4.2%/平均6993）、効いているのはジャンルの近さ。種の一覧は competitor-follower-follow.js:27 の COMPETITORS に直書き、epoch日%7 で 1 日 1 種。環境変数では渡せない。influencers.json は 7 件 のみで候補プールは空。候補は hashtag-follow の「大きすぎる」弾き（711SEJ 707万〜Gian_Support 1.1万）と comment-warmup の選定頻度（money_yossy 85回, POIKATSU_OTAKE 43回, fxmeitantei 30回, bicsim_official 22回, coupon_gorilla1 11回 など）から拾える
+
+次のアクション:
+
+- [ ] 候補アカウントの実際のフォロワー数とプロフィールを測ってから 3 つ を選ぶ。大手ブランド公式はフォロワーが一般層なので種には向かない可能性が高い。決まったら competitor-follower-follow.js:27-31 の配列を完全一致で置き換える（/bin/bash）
+
 ### 2026-09-20 — heartbeat.json が 9/18 以降 不正な JSON で監視が 2 日間 素通りしていたのを発見・修正（#518）。x91 で未ロード 60 件 を仕分け、ゴミではなく 2026-09-09 の tab-guard 一斉 unload の生き残り 48 本 だと確定。x92 で follower-snapshot を戻し、実フォロワーが 227 ではなく 264 だったことが判明（+37 / 12 日）。フォロワー記録の停止を heartbeat の record_stale として鳴らすようにした（#521 #522）
 
 次のアクション:
