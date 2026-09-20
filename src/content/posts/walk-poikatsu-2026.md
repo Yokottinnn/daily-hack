@@ -364,8 +364,8 @@ references:
 <table class="cmp-table prose-table">
 <thead><tr><th>サービス</th><th>条件</th><th>もらえ方</th></tr></thead>
 <tbody>
-<tr><td><strong>楽天ヘルスケア</strong></td><td>1日5,000歩の達成など</td><td><strong>くじ</strong>。当たると楽天ポイント</td></tr>
-<tr><td><strong>dヘルスケア</strong></td><td>歩数・体重記録などのミッション</td><td><strong>抽選</strong>でdポイント。<strong>有料会員は必ず当選</strong></td></tr>
+<tr><td><strong><a href="https://healthcare.rakuten.co.jp/" target="_blank" rel="noopener">楽天ヘルスケア</a></strong></td><td>1日5,000歩の達成など</td><td><strong>くじ</strong>。当たると楽天ポイント</td></tr>
+<tr><td><strong><a href="https://healthcare.smt.docomo.ne.jp/" target="_blank" rel="noopener">dヘルスケア</a></strong></td><td>歩数・体重記録などのミッション</td><td><strong>抽選</strong>でdポイント。<strong>有料会員は必ず当選</strong></td></tr>
 </tbody>
 </table>
 </div>
@@ -574,9 +574,9 @@ references:
 <tbody>
 <tr class="recommended"><td><strong><a href="https://coinpost.jp/crypto/move-to-earn/bitwalk/" target="_blank" rel="noopener">BitWalk</a></strong></td><td><strong>不要</strong></td><td>歩数でスタンプ（<strong>1日 最大40・20,000歩</strong>）→ ビットコイン。<strong>広告収益の還元型</strong>でブロックチェーンは介さない</td></tr>
 <tr><td><strong><a href="https://hedge.guide/feature/healthree-bc202307.html" target="_blank" rel="noopener">HEALTHREE（ヘルスリー）</a></strong></td><td><strong>不要</strong>（NFTは任意）</td><td>Astar上の国産Move to Earn。歩いて$UHTを獲得し、<strong>アバターを育てるRPG</strong>要素つき</td></tr>
-<tr><td><strong>ステラウォーク</strong></td><td>不要</td><td>歩数で<strong>ステラルーメン（XLM）</strong>がもらえる</td></tr>
-<tr><td><strong>Sweatcoin</strong></td><td>不要</td><td><strong>NFTの要素が無い</strong>。SWEATは国内取引所で扱いがなく、換金は海外経由</td></tr>
-<tr><td><strong>STEPN</strong></td><td><strong>必要</strong></td><td>NFTスニーカーを買って走る。<strong>GSTは2022年のピークから1円未満まで下落</strong></td></tr>
+<tr><td><strong><a href="https://apps.apple.com/jp/app/%E3%82%B9%E3%83%86%E3%83%A9%E3%82%A6%E3%82%A9%E3%83%BC%E3%82%AF-%E6%AD%A9%E3%81%8F%E3%81%A0%E3%81%91%E3%81%A7%E6%9A%97%E5%8F%B7%E8%B3%87%E7%94%A3%E3%81%8C%E8%B2%B0%E3%81%88%E3%82%8B/id1599065744" target="_blank" rel="noopener">ステラウォーク</a></strong></td><td>不要</td><td>歩数で<strong>ステラルーメン（XLM）</strong>がもらえる</td></tr>
+<tr><td><strong><a href="https://apps.apple.com/jp/app/sweatcoin-%E3%81%86%E3%81%89%E3%83%BC%E3%81%8D%E3%82%93%E3%81%90%E3%81%82%E3%81%B7%E3%82%8A-%E6%AD%A9%E3%81%8F/id971023427" target="_blank" rel="noopener">Sweatcoin</a></strong></td><td>不要</td><td><strong>NFTの要素が無い</strong>。SWEATは国内取引所で扱いがなく、換金は海外経由</td></tr>
+<tr><td><strong><a href="https://apps.apple.com/jp/app/stepn/id1598112424" target="_blank" rel="noopener">STEPN</a></strong></td><td><strong>必要</strong></td><td>NFTスニーカーを買って走る。<strong>GSTは2022年のピークから1円未満まで下落</strong></td></tr>
 </tbody>
 </table>
 </div>
@@ -802,7 +802,7 @@ references:
 <tr class="recommended"><td><strong>とりあえず確実に貯めたい</strong></td><td><a href="https://info.renobody.jp/prod/index.html" target="_blank" rel="noopener">RenoBody</a> ＋ <a href="https://apps.apple.com/JP/app/id1088184021" target="_blank" rel="noopener">Coke ON</a></td><td>どちらも無料で、条件を満たせば必ず入る。<strong>考えることが無い</strong></td></tr>
 <tr><td><strong>通勤で長く移動する</strong></td><td><a href="https://www.trip-mile.com/" target="_blank" rel="noopener">トリマ</a> ＋ <a href="https://www.ana.co.jp/ja/jp/shoppingandlife/point/" target="_blank" rel="noopener">ANA Pocket</a></td><td><strong>歩数だけでなく移動距離</strong>が乗る。電車・車が多い人ほど効く</td></tr>
 <tr><td><strong>旅行によく行く</strong></td><td><a href="https://www.jal.co.jp/jp/ja/jmb/wellness/" target="_blank" rel="noopener">JAL Wellness &amp; Travel</a></td><td>空港チェックインでマイルが付く。<strong>歩数だけなら割に合わない</strong></td></tr>
-<tr><td><strong>楽天／dのポイントを普段 使う</strong></td><td>楽天ヘルスケア ／ dヘルスケア</td><td>すでに持っているポイントに合流できる。抽選なので過度な期待はしない</td></tr>
+<tr><td><strong>楽天／dのポイントを普段 使う</strong></td><td><a href="https://healthcare.rakuten.co.jp/" target="_blank" rel="noopener">楽天ヘルスケア</a> ／ <a href="https://healthcare.smt.docomo.ne.jp/" target="_blank" rel="noopener">dヘルスケア</a></td><td>すでに持っているポイントに合流できる。抽選なので過度な期待はしない</td></tr>
 <tr><td><strong>ゲームとして続けたい</strong></td><td><a href="https://hedge.guide/feature/healthree-bc202307.html" target="_blank" rel="noopener">HEALTHREE</a> ／ <a href="https://www.arukuto.jp/" target="_blank" rel="noopener">aruku&amp;</a></td><td>金額より<strong>続く仕掛け</strong>がある。歩く理由が欲しい人向け</td></tr>
 <tr><td><strong>保険に入っている</strong></td><td><a href="https://vitality.sumitomolife.co.jp/about/status/" target="_blank" rel="noopener">Vitality</a> ／ 自治体の健康ポイント</td><td><strong>金額の桁が違う</strong>。まず自分が対象かを確認する</td></tr>
 </tbody>
