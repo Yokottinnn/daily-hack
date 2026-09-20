@@ -1283,27 +1283,29 @@ blockquote.twitter-tweet a:hover { color: var(--pink-700); }
    チェーンの比較記事で「どの店の節か」を一目で分かるようにする（Jordan 指摘 2026-09-04）。
    ロゴは**高さだけ**そろえる。横長・正方形が混ざるので width は決め打ちしない。
    透過 PNG がそのまま乗ると背景に沈むので、白地の枠に載せる。 */
-.post-body h2.brand-h,
-.post-body h3.brand-h {
+/* **見出しのレベルを決め打ちしない**（2026-09-20 に踏んだ）。
+   h2 / h3 しか書いていなかったため、**h4.brand-h のロゴだけ素の大きさで出た**
+   （`max-width:100%` が当たって高さ 89px。他は 44px）。
+   スマホ幅で全記事を開く掃き出しで見つけた。**レベルを足すときに漏れる**ので、
+   `.brand-h` そのものに当てる。 */
+.post-body .brand-h {
   display: flex; align-items: center; gap: 12px; flex-wrap: wrap;
 }
-.post-body h2.brand-h .brand-logo,
-.post-body h3.brand-h .brand-logo,
-.section-with-mascot h2.brand-h .brand-logo {
+.post-body .brand-h .brand-logo,
+.section-with-mascot .brand-h .brand-logo {
   flex: 0 0 auto; height: 44px; width: auto; max-width: 190px;
   object-fit: contain; background: #fff; border-radius: 8px;
   border: 1px solid var(--pink-200); padding: 4px 7px;
   box-shadow: 0 2px 6px -3px rgba(42, 25, 35, .4);
 }
 @media (max-width: 559px) {
-  .post-body h2.brand-h .brand-logo,
-  .post-body h3.brand-h .brand-logo,
-  .section-with-mascot h2.brand-h .brand-logo { height: 36px; max-width: 138px; padding: 3px 6px; }
+  .post-body .brand-h .brand-logo,
+  .section-with-mascot .brand-h .brand-logo { height: 36px; max-width: 138px; padding: 3px 6px; }
 }
 /* **`.section-with-mascot img` を必ず上書きすること。**（2026-09-20 に踏んだ）
    あちらは子孫の img すべてに `width:100%; height:100%; border-radius:50%` を掛けるので、
    見出しに入れたロゴが**マスコットと同じ巨大な丸**になって出た。
-   `.section-with-mascot h2.brand-h .brand-logo` を足して詳細度で勝たせている。 */
+   `.section-with-mascot .brand-h .brand-logo` を足して詳細度で勝たせている。 */
 
 /* 表のセルの中にロゴを置く（.cell-brand）。見出しを持たないチェーンのため。 */
 /* **ロゴは改行して、名前の上に置く**（2026-09-20 に指示）。
