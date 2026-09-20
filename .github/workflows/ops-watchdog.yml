@@ -185,6 +185,12 @@ jobs:
           f_target=$(jq -r '.followers.target | tostring' hb/heartbeat.json)
           f_deadline=$(jq -r '.followers.deadline // ""' hb/heartbeat.json)
           f_span=$(jq -r '.followers.span_days | tostring' hb/heartbeat.json)
+          # **記録そのものが止まっていないか。** now は「最後に記録された日の値」で、
+          # 止まると**古い数字が「いま」として出続ける。** しかも now_date == prev_date に
+          # なって span が 0 になるため、下の nogrowth 判定は丸ごと飛ぶ。
+          # 2026-09-20 に、9/8 の 227 を 12 日間 出し続けていた（follower-snapshot が未ロード）。
+          f_stale=$(jq -r '.followers.record_stale | tostring' hb/heartbeat.json)
+          f_age=$(jq -r '.followers.record_age_days | tostring' hb/heartbeat.json)
           f_delta=""
           f_need=""
           # **判定不能を「増えていない」と混同しない。** 日付が読めず span が出ない
@@ -255,6 +261,8 @@ jobs:
           if [ -z "${SLACK_CHECK:-}" ]; then
             problem="${problem:+$problem,}nowebhook"
           fi
+          # フォロワーの記録そのものが止まっている。**成果の監視が死んでいる状態。**
+          [ "$f_stale" = "true" ] && problem="${problem:+$problem,}fstale"
           # heartbeat 側が「生成した JSON が壊れていた」と自己申告している場合。
           # 最低限 読める形に差し替えられているので parse は通るが、中身は空。
           if [ "$(jq -r '.json_error | tostring' hb/heartbeat.json)" = "true" ]; then
@@ -275,6 +283,7 @@ jobs:
             echo "f_now=$f_now"
             echo "f_delta=$f_delta"
             echo "f_span=$f_span"
+            echo "f_age=$f_age"
             echo "f_need=$f_need"
             echo "problem=$problem"
           } >> "$GITHUB_OUTPUT"
@@ -296,6 +305,7 @@ jobs:
           F_NOW: ${{ steps.evaluate.outputs.f_now }}
           F_DELTA: ${{ steps.evaluate.outputs.f_delta }}
           F_SPAN: ${{ steps.evaluate.outputs.f_span }}
+          F_AGE: ${{ steps.evaluate.outputs.f_age }}
           F_NEED: ${{ steps.evaluate.outputs.f_need }}
         run: |
           set -uo pipefail
@@ -347,6 +357,13 @@ jobs:
                 echo "  目標には 1 日 ${F_NEED} 人 必要。"
                 echo "  ジョブが載っていても実行できていない可能性がある"
                 echo "  （2026-07-07 は Chrome CDP の接続断で 46 日間 0 件だった）。"
+                ;;
+            esac
+            case "$PROBLEM" in
+              *fstale*)
+                echo "• *フォロワーの記録が ${F_AGE} 日 止まっている*（現在値とされている ${F_NOW} も古い）"
+                echo "  \`ai.openclaw.follower-snapshot\` が動いていない可能性が高い。"
+                echo "  **成果の監視そのものが死んでいる状態**で、増えていなくても鳴らない。"
                 ;;
             esac
             case "$PROBLEM" in
