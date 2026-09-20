@@ -336,15 +336,31 @@ references:
 
 <div class="cmp-table-wrap">
 <table class="cmp-table">
-<thead><tr><th>チェーン</th><th>全国</th><th>東京都</th><th>東京比率</th></tr></thead>
+<thead><tr><th>チェーン</th><th>全国</th><th>東京都</th><th>東京比率</th><th>出どころ</th></tr></thead>
 <tbody>
-<tr class="recommended"><td><a href="https://www.mybasket.co.jp/" target="_blank" rel="noopener">まいばすけっと</a></td><td>1,262</td><td><strong>879</strong></td><td><strong>約70%</strong></td></tr>
-<tr><td><a href="https://hanamasa.co.jp/shop/tokyo/" target="_blank" rel="noopener">肉のハナマサ</a></td><td>65</td><td><strong>46</strong></td><td><strong>約71%</strong></td></tr>
+<tr class="recommended"><td><a href="https://www.mybasket.co.jp/" target="_blank" rel="noopener">まいばすけっと</a></td><td>1,262</td><td><strong>879</strong></td><td><strong>約70%</strong></td><td><strong>公式の公表</strong></td></tr>
+<tr class="recommended"><td><a href="https://hanamasa.co.jp/shop/tokyo/" target="_blank" rel="noopener">肉のハナマサ</a></td><td>65</td><td><strong>46</strong></td><td><strong>約71%</strong></td><td><strong>公式の公表</strong></td></tr>
+<tr><td><a href="https://www.gyomusuper.jp/shop/list.php?pref_id=13" target="_blank" rel="noopener">業務スーパー</a></td><td>1,122</td><td>86</td><td>約8%</td><td>店舗一覧の集計</td></tr>
+<tr><td><a href="https://ok-corporation.jp/shop/" target="_blank" rel="noopener">オーケー</a></td><td>174</td><td>82</td><td><strong>約47%</strong></td><td>店舗一覧の集計</td></tr>
+<tr><td><a href="https://www.donki.com/" target="_blank" rel="noopener">ドン・キホーテ</a></td><td>664（国内）</td><td>76</td><td>約11%</td><td>店舗一覧の集計</td></tr>
+<tr><td><a href="https://www.seiyu.co.jp/" target="_blank" rel="noopener">西友</a></td><td>（トライアルG 621に含む）</td><td>75</td><td>—</td><td>店舗一覧の集計</td></tr>
+<tr><td><a href="https://lopia.jp/shops/" target="_blank" rel="noopener">ロピア</a></td><td>145</td><td>12</td><td>約8%</td><td>店舗一覧の集計</td></tr>
 </tbody>
 </table>
 </div>
 
-**この2社だけが「東京7割」を公表している。** そして理由が正反対で、まいばすけっとは住宅地の密度、ハナマサは飲食店の業務用需要で成立している。
+<p class="source-note"><strong>「公式の公表」と「店舗一覧の集計」を分けてある。</strong>まいばすけっととハナマサは会社自身が東京比率を出しているが、<strong>他の5社は公表していない</strong>ので、店舗検索ページの東京都の件数を数えた値（2026年9月時点）を置いた。店舗は増減するので、正確な数はリンク先の店舗一覧で見ること</p>
+
+**東京の密度で見ると、順位がまるごと入れ替わる。** 全国店舗数ではまいばすけっと（1,262）と業務スーパー（1,122）が並ぶのに、**東京都では879対86で10倍の差**がつく。業務スーパーはフランチャイズで全国に散っている一方、まいばすけっとは**首都圏に寄せて出している**からで、同じ「1,000店超」でも中身がまったく違う。
+
+**東京比率で見るべきは、まいばすけっと・ハナマサ・オーケーの3社。**
+
+<ul class="checklist">
+  <li><div class="checklist-body"><strong>まいばすけっと 約70%（879店）｜住宅地の密度で成立している。</strong><p>1店あたり年商は2.4億円と最小だが、<strong>都内で最も遭遇しやすい</strong>。「安さ」より「そこにある」が価値になっている。</p></div></li>
+  <li><div class="checklist-body"><strong>肉のハナマサ 約71%（46店）｜飲食店の業務用需要で成立している。</strong><p>比率はまいばすけっとと同じでも、理由が正反対。<strong>店舗数が46しかない</strong>ので、近くに無ければ関係のない話になる。</p></div></li>
+  <li><div class="checklist-body"><strong>オーケー 約47%（82店）｜174店の半分が東京にある。</strong><p>全国では小さいチェーンだが、<strong>東京に半分を集めている</strong>。この記事が見ている「毎日安い」を都内で受け取れるのは、この密度があるから。</p></div></li>
+  <li><div class="checklist-body"><strong>ロピアは東京12店。</strong><p>1店あたり年商45.2億円で7社中トップなのに、<strong>都内では12店しかない</strong>。神奈川が本拠で、東京はこれから増える段階にある。</p></div></li>
+</ul>
 
 ### 勢力図｜大箱と小箱
 
