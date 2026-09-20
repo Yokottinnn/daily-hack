@@ -199,6 +199,58 @@ running_json="$(cat "$WT/running.json" 2>/dev/null)"
 
 now="$(date -u +%Y-%m-%dT%H:%M:%SZ)"
 host="$(hostname)"
+# --- 落ちたジョブを載せ直す --------------------------------------------------
+#
+# **2026-09-09 に `ai.openclaw.*` が 48 本 一斉に外れ、11 日間 誰も気づかなかった。**
+# 犯人は `tab-guard.js` の `haltAutomation`。9/12・9/20 にも同じことが起きている。
+#
+# 番人 `x-loop-guardian` は用意してあったが効かなかった。理由は 2 つ。
+#
+#   1. **見ている対象が X の 8 ループだけ**だった
+#   2. **番人自身が `ai.openclaw.*`** なので、tab-guard に一緒に外された
+#
+# **`com.dailyhack.ops-heartbeat` は 3 回 とも生き残っている**（tab-guard は
+# `ai.openclaw.*` しか外さない）。だから外されない側に載せ直しを持たせる。
+#
+# **対象は `ops/data/autoload-jobs.txt` の明示リストだけ。**
+# 勝手に全部 戻すと、LLM を呼ぶジョブまで復活して**黙って費用が増える**
+# （最上位ルール 2-B）。意図的に止めたいものは plist を `.disabled` にリネームする。
+autoload_target=0
+autoload_tried=0
+autoload_loaded=0
+autoload_labels=""
+_LA="$HOME/Library/LaunchAgents"
+_uid="$(id -u)"
+_alist="${TMPDIR:-/tmp}/ops-autoload-jobs.txt"
+if ! git -C "$MAIN_REPO" show origin/main:ops/data/autoload-jobs.txt > "$_alist" 2>/dev/null \
+   || [ ! -s "$_alist" ]; then
+  cp "$MAIN_REPO/ops/data/autoload-jobs.txt" "$_alist" 2>/dev/null || : > "$_alist"
+fi
+# **末尾に改行が無い最後の 1 行を落とさない**（最上位ルール 14）
+while IFS= read -r _lbl || [ -n "$_lbl" ]; do
+  case "$_lbl" in ''|'#'*) continue ;; esac
+  _lbl="$(printf '%s' "$_lbl" | tr -d ' \t\r')"
+  [ -n "$_lbl" ] || continue
+  autoload_target=$((autoload_target + 1))
+  # **完全一致で見る。** `grep -F` だと `chrome-cdp` が `chrome-cdp-heal` に当たる
+  launchctl list 2>/dev/null | awk -v l="$_lbl" '$3==l {f=1} END {exit !f}' && continue
+  _p="$_LA/$_lbl.plist"
+  # `.disabled` にリネームされていれば、ここで対象外になる（意図的な停止）
+  [ -f "$_p" ] || continue
+  autoload_tried=$((autoload_tried + 1))
+  # **`load` ではなく `bootstrap`。** `load -w` は載せずに rc=0 を返す
+  launchctl bootstrap "gui/$_uid" "$_p" >/dev/null 2>&1 || true
+  # **rc は証拠にならない**（最上位ルール 13）。`launchctl list` で確かめる
+  if launchctl list 2>/dev/null | awk -v l="$_lbl" '$3==l {f=1} END {exit !f}'; then
+    autoload_loaded=$((autoload_loaded + 1))
+    autoload_labels="$autoload_labels${autoload_labels:+ }$_lbl"
+    echo "ops-heartbeat: 載せ直した $_lbl" >&2
+  else
+    echo "ops-heartbeat: **載せ直せなかった** $_lbl" >&2
+  fi
+done < "$_alist"
+rm -f "$_alist" 2>/dev/null || true
+
 jobs="$(launchctl list 2>/dev/null | awk '{print $3}' | grep -E '^(ai\.openclaw|com\.dailyhack)\.' | sort)"
 count="$(printf '%s' "$jobs" | grep -c . || true)"
 
@@ -739,6 +791,20 @@ try {
   fi
   echo "  },"
   # plist はあるのに載っていないもの。名前を列挙せずに「消えた」を検知する要
+  # **「対象 N 件 / 打った M 件 / 載った K 件」を必ず 3 つとも出す**（最上位ルール 14）。
+  # 数が合わなければ、そこで気づける
+  echo "  \"autoload\": {"
+  echo "    \"target\": $autoload_target,"
+  echo "    \"tried\": $autoload_tried,"
+  echo "    \"loaded\": $autoload_loaded,"
+  printf '    "labels": ['
+  _first_al=1
+  for _l in $autoload_labels; do
+    [ $_first_al -eq 1 ] && _first_al=0 || printf ', '
+    printf '"%s"' "$_l"
+  done
+  echo "]"
+  echo "  },"
   echo "  \"unloaded_count\": $unloaded_count,"
   if [ -n "$unloaded" ]; then
     echo "  \"unloaded\": [$unloaded"
