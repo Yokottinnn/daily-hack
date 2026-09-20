@@ -1319,6 +1319,12 @@ blockquote.twitter-tweet a:hover { color: var(--pink-700); }
 }
 .cell-brand .brand-logo-sm { display: block; margin: 0 0 5px; }
 
+/* **白抜きのロゴは白地で消える**（2026-09-20 に 4 件 掴んだ）。
+   AYANA・à la carte・Amiana のように、**公式が白版しか置いていない**ことがある。
+   **画像は加工しない**（最上位ルール 17）ので、**枠のほうを暗くする。** */
+.post-body .brand-logo.on-dark,
+.post-body .brand-logo-sm.on-dark { background: #2a2f36; border-color: #2a2f36; }
+
 /* ── 記事上部のカテゴリタグ（.post-cats） ────────────────────
    **記事カードの `.art` を入れ物に流用していたのが不具合の原因**（Jordan 指摘 2026-09-05）。
    `.art` は白背景・枠線・角丸18px を持つため、**タグ2つが1枚のカードに

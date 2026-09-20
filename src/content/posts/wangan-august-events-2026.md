@@ -220,7 +220,7 @@ author: "hacker-ko"
 
 ## 【割引】温泉を最安で入る方法と、タダのバス
 
-### 豊洲千客万来の天然温泉、実は3通りの割引がある
+<h3 class="brand-h" id="豊洲千客万来の天然温泉実は3通りの割引がある"><img class="brand-logo" src="/images/wangan-august-events-2026/logos/manyo.png" alt="東京豊洲 万葉倶楽部のロゴ" loading="lazy" /><span>豊洲千客万来の天然温泉、実は3通りの割引がある</span></h3>
 
 東京豊洲 万葉倶楽部の通常料金は**大人3,850円／小学生2,000円**。そのまま払うのはもったいない。
 
@@ -302,19 +302,19 @@ author: "hacker-ko"
       <tr><td>8/14〜16</td><td><a href="https://toyosu-senkyakubanrai.jp/" target="_blank" rel="noopener">ミニ遊縁日</a></td><td>豊洲千客万来</td><td>要確認</td></tr>
       <tr><td>8/15</td><td><a href="https://www.baynet.ne.jp/fukagawamatsuri/" target="_blank" rel="noopener">富岡八幡宮例大祭 豊洲巡行</a></td><td>豊洲</td><td>無料</td></tr>
       <tr><td>8/15〜16</td><td><a href="https://popgalaxy.net/" target="_blank" rel="noopener">POP GALAXY 2026</a></td><td>お台場R地区</td><td>一般4,500円</td></tr>
-      <tr><td>8/15〜16</td><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/wangan-august-events-2026/logos/comiket.png" alt="コミックマーケットのロゴ" loading="lazy" /><a href="https://www.comiket.co.jp/" target="_blank" rel="noopener">コミックマーケット C108</a></span></td><td>東京ビッグサイト</td><td>—</td></tr>
+      <tr><td>8/15〜16</td><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/wangan-august-events-2026/logos/comiket.png" alt="コミックマーケットのロゴ" loading="lazy" /><a href="https://www.comiket.co.jp/" target="_blank" rel="noopener">コミックマーケット C108</a></span></td><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/wangan-august-events-2026/logos/bigsight.png" alt="東京ビッグサイトのロゴ" loading="lazy" />東京ビッグサイト</span></td><td>—</td></tr>
       <tr><td>8/16</td><td><a href="https://www.baynet.ne.jp/fukagawamatsuri/" target="_blank" rel="noopener">富岡八幡宮例大祭 神輿連合渡御</a></td><td>深川地域</td><td>無料</td></tr>
       <tr><td>8/17</td><td>親子で楽しむはじめての香り実験</td><td>豊洲公園</td><td>要確認</td></tr>
       <tr><td>8/20</td><td>キッズ入札クエスト</td><td>うるる本社（晴海）</td><td>要確認</td></tr>
-      <tr><td>8/20〜21</td><td><a href="https://seafood-show.jp/" target="_blank" rel="noopener">親子おさかな学習会 inシーフードショー</a></td><td>東京ビッグサイト</td><td>申込制</td></tr>
+      <tr><td>8/20〜21</td><td><a href="https://seafood-show.jp/" target="_blank" rel="noopener">親子おさかな学習会 inシーフードショー</a></td><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/wangan-august-events-2026/logos/bigsight.png" alt="東京ビッグサイトのロゴ" loading="lazy" />東京ビッグサイト</span></td><td>申込制</td></tr>
       <tr><td>8/21〜22</td><td><a href="https://www.city.chuo.lg.jp/" target="_blank" rel="noopener">中央区大江戸まつり盆おどり大会</a></td><td>浜町公園</td><td>無料</td></tr>
       <tr class="recommended"><td>8/22</td><td>★ <a href="https://toyosugururi.jp/event/style-market/entry-1048.html" target="_blank" rel="noopener">TOYOSU MOVIE NIGHT 2026</a></td><td>豊洲公園</td><td>無料</td></tr>
       <tr><td>8/22</td><td><a href="https://event.e-lantern.jp/" target="_blank" rel="noopener">お台場ランタン</a></td><td>お台場海浜公園</td><td>6,980円〜</td></tr>
-      <tr><td>8/28</td><td><a href="https://toyosu.pia-pit.jp/" target="_blank" rel="noopener">吉本興業 ぼーんとぅ盆踊り2026夏</a></td><td>豊洲PIT</td><td>要確認</td></tr>
+      <tr><td>8/28</td><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/wangan-august-events-2026/logos/yoshimoto.png" alt="吉本興業のロゴ" loading="lazy" /><a href="https://toyosu.pia-pit.jp/" target="_blank" rel="noopener">吉本興業 ぼーんとぅ盆踊り2026夏</a></span></td><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/wangan-august-events-2026/logos/toyosupit.png" alt="豊洲PITのロゴ" loading="lazy" />豊洲PIT</span></td><td>要確認</td></tr>
       <tr><td>8/28〜29</td><td>第27回 勝どきDE盆踊り</td><td>月島第二児童公園</td><td>無料</td></tr>
       <tr><td>8/29</td><td>豊洲アクアスロンフェスティバル2026</td><td>豊洲ぐるり公園</td><td>要申込</td></tr>
       <tr class="recommended"><td>8/29〜30</td><td>★ <a href="https://toyosugururi.jp/event/smallmarket/entry-1056.html" target="_blank" rel="noopener">Toyosu Park Jazz Night 2026</a></td><td>豊洲公園</td><td>無料</td></tr>
-      <tr><td>8/29〜30</td><td><a href="https://www.toys.or.jp/toyshow/" target="_blank" rel="noopener">東京おもちゃショー（一般公開）</a></td><td>東京ビッグサイト</td><td>要確認</td></tr>
+      <tr><td>8/29〜30</td><td><a href="https://www.toys.or.jp/toyshow/" target="_blank" rel="noopener">東京おもちゃショー（一般公開）</a></td><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/wangan-august-events-2026/logos/bigsight.png" alt="東京ビッグサイトのロゴ" loading="lazy" />東京ビッグサイト</span></td><td>要確認</td></tr>
       <tr><td>8/30</td><td>夏のおわりのおはなし会</td><td>豊洲図書館</td><td>無料</td></tr>
       <tr><td>8/31</td><td><a href="https://www.toyota-arena-tokyo.jp/pages/gc1u0oubtwl/" target="_blank" rel="noopener">あおみ夏祭り2026</a></td><td>シンボルプロムナード公園</td><td>無料</td></tr>
       <tr class="recommended"><td>〜9/6</td><td>★ <a href="https://toyosugururi.jp/" target="_blank" rel="noopener">じゃぶじゃぶ池</a></td><td>豊洲公園</td><td>無料</td></tr>

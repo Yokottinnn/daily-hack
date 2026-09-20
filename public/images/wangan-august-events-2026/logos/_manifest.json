@@ -15,5 +15,37 @@
     "fetched": "2026-09-20",
     "license_note": "Public domain（コモンズの表記）。商標であることに変わりはない",
     "task": "ops/tasks/t122-logos-retry3.sh"
+  },
+  "bigsight.png": {
+    "brand": "東京ビッグサイト",
+    "source": "https://commons.wikimedia.org/wiki/File:Tokyo_big_sight.svg",
+    "page": "https://commons.wikimedia.org/wiki/File:Tokyo_big_sight.svg",
+    "fetched": "2026-09-20",
+    "license_note": "Public domain（コモンズの表記）。商標であることに変わりはない",
+    "task": "ops/tasks/t126-*.sh"
+  },
+  "manyo.png": {
+    "brand": "東京豊洲 万葉倶楽部",
+    "source": "https://tokyo-toyosu.manyo.co.jp/ の apple-touch-icon",
+    "page": "https://tokyo-toyosu.manyo.co.jp/ の apple-touch-icon",
+    "fetched": "2026-09-20",
+    "license_note": "公式サイトのロゴ画像（商標）",
+    "task": "ops/tasks/t126-*.sh"
+  },
+  "toyosupit.png": {
+    "brand": "豊洲PIT（10周年版）",
+    "source": "https://toyosu.pia-pit.jp/assets/images/logo_10th_anniv.jpg",
+    "page": "https://toyosu.pia-pit.jp/assets/images/logo_10th_anniv.jpg",
+    "fetched": "2026-09-20",
+    "license_note": "公式サイトのロゴ画像（商標）",
+    "task": "ops/tasks/t126-*.sh"
+  },
+  "yoshimoto.png": {
+    "brand": "吉本興業",
+    "source": "https://commons.wikimedia.org/wiki/File:Yoshimoto.svg",
+    "page": "https://commons.wikimedia.org/wiki/File:Yoshimoto.svg",
+    "fetched": "2026-09-20",
+    "license_note": "Public domain（コモンズの表記）。商標であることに変わりはない",
+    "task": "ops/tasks/t126-*.sh"
   }
 }
