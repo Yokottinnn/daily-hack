@@ -152,7 +152,7 @@ references:
 <thead><tr><th>店</th><th>商品</th><th>価格</th></tr></thead>
 <tbody>
 <tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/tokyo-discount-supermarket-2026/logos/ok.png" alt="" loading="lazy" /><a href="https://ok-corporation.jp/" target="_blank" rel="noopener">オーケー</a></span></td><td>くるみパン（顔くらいの大きさ）</td><td><strong>259円</strong></td></tr>
-<tr><td><a href="https://www.trial-net.co.jp/" target="_blank" rel="noopener">トライアル西友</a></td><td>カツ丼</td><td><strong>299円</strong></td></tr>
+<tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/tokyo-discount-supermarket-2026/logos/trialseiyu.png" alt="" loading="lazy" /><a href="https://www.trial-net.co.jp/" target="_blank" rel="noopener">トライアル西友</a></span></td><td>カツ丼</td><td><strong>299円</strong></td></tr>
 <tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/tokyo-discount-supermarket-2026/logos/lopia.png" alt="" loading="lazy" /><a href="https://lopia.jp/" target="_blank" rel="noopener">ロピア</a></span></td><td>野菜詰め放題</td><td><strong>430円</strong></td></tr>
 </tbody>
 </table>
@@ -175,7 +175,7 @@ references:
 <tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/tokyo-discount-supermarket-2026/logos/lopia.png" alt="" loading="lazy" /><a href="https://lopia.jp/" target="_blank" rel="noopener">ロピア</a></span></td><td>店舗ごと・その日ごと</td><td>精肉の仕入れがその日の相場で動く。<strong>全店共通の定価という考え方をとっていない</strong></td></tr>
 <tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/tokyo-discount-supermarket-2026/logos/hanamasa.png" alt="" loading="lazy" /><a href="https://hanamasa.co.jp/" target="_blank" rel="noopener">肉のハナマサ</a></span></td><td><strong>公表している</strong></td><td>飲食店のプロが仕入れに使う。<strong>事前に値段が分からないと発注できない</strong></td></tr>
 <tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/tokyo-discount-supermarket-2026/logos/seiyu.png" alt="" loading="lazy" /><a href="https://www.seiyu.co.jp/flyer/chirashi/" target="_blank" rel="noopener">西友</a></span></td><td><strong>公表している</strong></td><td>駅前の一般客向け。チラシで来店を作る従来型のスーパー</td></tr>
-<tr><td><a href="https://www.gyomusuper.jp/" target="_blank" rel="noopener">業務スーパー</a></td><td>公表している</td><td>ただし<strong>自社製造品が中心で、他店に同じ商品が無い</strong>。並べる相手がいない</td></tr>
+<tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/tokyo-discount-supermarket-2026/logos/gyomu.png" alt="" loading="lazy" /><a href="https://www.gyomusuper.jp/" target="_blank" rel="noopener">業務スーパー</a></span></td><td>公表している</td><td>ただし<strong>自社製造品が中心で、他店に同じ商品が無い</strong>。並べる相手がいない</td></tr>
 </tbody>
 </table>
 </div>
@@ -189,7 +189,7 @@ references:
 <thead><tr><th>取得したページ</th><th>本文の長さ</th><th>価格の記載</th></tr></thead>
 <tbody>
 <tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/tokyo-discount-supermarket-2026/logos/seiyu.png" alt="" loading="lazy" /><a href="https://www.seiyu.co.jp/flyer/chirashi/" target="_blank" rel="noopener">西友 チラシ</a>／<a href="https://www.seiyu.co.jp/" target="_blank" rel="noopener">トップ</a></span></td><td>1,418字／2,320字</td><td><strong>0件</strong></td></tr>
-<tr><td><a href="https://www.gyomusuper.jp/saiyasune.php" target="_blank" rel="noopener">業務スーパー 最安値</a>／<a href="https://www.gyomusuper.jp/product/index.php" target="_blank" rel="noopener">商品</a></td><td>2,591字／4,284字</td><td><strong>0件</strong></td></tr>
+<tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/tokyo-discount-supermarket-2026/logos/gyomu.png" alt="" loading="lazy" /><a href="https://www.gyomusuper.jp/saiyasune.php" target="_blank" rel="noopener">業務スーパー 最安値</a>／<a href="https://www.gyomusuper.jp/product/index.php" target="_blank" rel="noopener">商品</a></span></td><td>2,591字／4,284字</td><td><strong>0件</strong></td></tr>
 <tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/tokyo-discount-supermarket-2026/logos/donki.png" alt="" loading="lazy" /><a href="https://www.donki.com/chirashi/" target="_blank" rel="noopener">ドン・キホーテ WEBチラシ</a>／<a href="https://www.donki.com/products/" target="_blank" rel="noopener">商品情報</a></span></td><td>9,388字／2,455字</td><td><strong>0件</strong></td></tr>
 <tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/tokyo-discount-supermarket-2026/logos/hanamasa.png" alt="" loading="lazy" /><a href="https://hanamasa.co.jp/" target="_blank" rel="noopener">肉のハナマサ</a>／<img class="brand-logo-sm" src="/images/tokyo-discount-supermarket-2026/logos/ok.png" alt="" loading="lazy" /><a href="https://ok-corporation.jp/" target="_blank" rel="noopener">オーケー</a> トップ</span></td><td>734字／2,511字</td><td><strong>0件</strong></td></tr>
 </tbody>
@@ -232,10 +232,10 @@ references:
 <tbody>
 <tr class="recommended"><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/tokyo-discount-supermarket-2026/logos/lopia.png" alt="" loading="lazy" /><a href="https://lopia.jp/" target="_blank" rel="noopener">ロピア</a></span></td><td>2026年2月期（見込）</td><td>6,555億円</td><td>145</td><td><strong>約45.2億円</strong></td></tr>
 <tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/tokyo-discount-supermarket-2026/logos/ok.png" alt="" loading="lazy" /><a href="https://ok-corporation.jp/" target="_blank" rel="noopener">オーケー</a></span></td><td>2026年3月期</td><td>7,548億円</td><td>174</td><td><strong>約43.4億円</strong></td></tr>
-<tr><td><span class="cell-brand"><a href="https://www.trial-net.co.jp/" target="_blank" rel="noopener">トライアルG</a>（<img class="brand-logo-sm" src="/images/tokyo-discount-supermarket-2026/logos/seiyu.png" alt="" loading="lazy" /><a href="https://www.seiyu.co.jp/" target="_blank" rel="noopener">西友</a>を含む）</span></td><td>2025年11月期</td><td>1兆3,471億円</td><td>621</td><td>約21.7億円</td></tr>
+<tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/tokyo-discount-supermarket-2026/logos/trial.png" alt="" loading="lazy" /><a href="https://www.trial-net.co.jp/" target="_blank" rel="noopener">トライアルG</a>（<img class="brand-logo-sm" src="/images/tokyo-discount-supermarket-2026/logos/seiyu.png" alt="" loading="lazy" /><a href="https://www.seiyu.co.jp/" target="_blank" rel="noopener">西友</a>を含む）</span></td><td>2025年11月期</td><td>1兆3,471億円</td><td>621</td><td>約21.7億円</td></tr>
 <tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/tokyo-discount-supermarket-2026/logos/hanamasa.png" alt="" loading="lazy" /><a href="https://hanamasa.co.jp/shop/tokyo/" target="_blank" rel="noopener">肉のハナマサ</a>ほか（JMHD スーパー事業）</span></td><td>2025年7月期</td><td>1,815億円</td><td>114</td><td>約15.9億円</td></tr>
 <tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/tokyo-discount-supermarket-2026/logos/mybasket.png" alt="" loading="lazy" /><a href="https://www.mybasket.co.jp/" target="_blank" rel="noopener">まいばすけっと</a></span></td><td>直近</td><td>約3,000億円</td><td>1,262</td><td><strong>約2.4億円</strong></td></tr>
-<tr><td><a href="https://www.gyomusuper.jp/" target="_blank" rel="noopener">業務スーパー</a>（神戸物産）</td><td>2025年10月期</td><td>5,517億円</td><td>1,122</td><td>—</td></tr>
+<tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/tokyo-discount-supermarket-2026/logos/gyomu.png" alt="" loading="lazy" /><a href="https://www.gyomusuper.jp/" target="_blank" rel="noopener">業務スーパー</a>（神戸物産）</span></td><td>2025年10月期</td><td>5,517億円</td><td>1,122</td><td>—</td></tr>
 <tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/tokyo-discount-supermarket-2026/logos/donki.png" alt="" loading="lazy" /><a href="https://www.donki.com/" target="_blank" rel="noopener">ドン・キホーテ</a>（PPIH）</span></td><td>2025年6月期</td><td>2兆2,467億円</td><td>787（国内664）</td><td>—</td></tr>
 </tbody>
 </table>
@@ -281,7 +281,7 @@ references:
 <thead><tr><th>会社</th><th>売上</th><th>なぜ並べられないか</th></tr></thead>
 <tbody>
 <tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/tokyo-discount-supermarket-2026/logos/donki.png" alt="" loading="lazy" /><a href="https://www.donki.com/" target="_blank" rel="noopener">ドン・キホーテ</a>（PPIH）</span></td><td>2兆2,467億円</td><td><strong>総合ディスカウントストアの数字。</strong>家電・日用品・化粧品・免税まで含み、しかもユニーなど<strong>グループ全体</strong>。食品スーパーとしての売上ではない</td></tr>
-<tr><td><a href="https://www.gyomusuper.jp/" target="_blank" rel="noopener">業務スーパー</a>（神戸物産）</td><td>5,517億円</td><td><strong>フランチャイズ店に卸した額。</strong>店頭で売れた額ではない。1,122店のほとんどがFC店で、直営は4店だけ</td></tr>
+<tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/tokyo-discount-supermarket-2026/logos/gyomu.png" alt="" loading="lazy" /><a href="https://www.gyomusuper.jp/" target="_blank" rel="noopener">業務スーパー</a>（神戸物産）</span></td><td>5,517億円</td><td><strong>フランチャイズ店に卸した額。</strong>店頭で売れた額ではない。1,122店のほとんどがFC店で、直営は4店だけ</td></tr>
 </tbody>
 </table>
 </div>
@@ -340,7 +340,7 @@ references:
 <tbody>
 <tr class="recommended"><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/tokyo-discount-supermarket-2026/logos/mybasket.png" alt="" loading="lazy" /><a href="https://www.mybasket.co.jp/" target="_blank" rel="noopener">まいばすけっと</a></span></td><td>1,262</td><td><strong>879</strong></td><td><strong>約70%</strong></td><td><strong>公式の公表</strong></td></tr>
 <tr class="recommended"><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/tokyo-discount-supermarket-2026/logos/hanamasa.png" alt="" loading="lazy" /><a href="https://hanamasa.co.jp/shop/tokyo/" target="_blank" rel="noopener">肉のハナマサ</a></span></td><td>65</td><td><strong>46</strong></td><td><strong>約71%</strong></td><td><strong>公式の公表</strong></td></tr>
-<tr><td><a href="https://www.gyomusuper.jp/shop/list.php?pref_id=13" target="_blank" rel="noopener">業務スーパー</a></td><td>1,122</td><td>86</td><td>約8%</td><td>店舗一覧の集計</td></tr>
+<tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/tokyo-discount-supermarket-2026/logos/gyomu.png" alt="" loading="lazy" /><a href="https://www.gyomusuper.jp/shop/list.php?pref_id=13" target="_blank" rel="noopener">業務スーパー</a></span></td><td>1,122</td><td>86</td><td>約8%</td><td>店舗一覧の集計</td></tr>
 <tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/tokyo-discount-supermarket-2026/logos/ok.png" alt="" loading="lazy" /><a href="https://ok-corporation.jp/shop/" target="_blank" rel="noopener">オーケー</a></span></td><td>174</td><td>82</td><td><strong>約47%</strong></td><td>店舗一覧の集計</td></tr>
 <tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/tokyo-discount-supermarket-2026/logos/donki.png" alt="" loading="lazy" /><a href="https://www.donki.com/" target="_blank" rel="noopener">ドン・キホーテ</a></span></td><td>664（国内）</td><td>76</td><td>約11%</td><td>店舗一覧の集計</td></tr>
 <tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/tokyo-discount-supermarket-2026/logos/seiyu.png" alt="" loading="lazy" /><a href="https://www.seiyu.co.jp/" target="_blank" rel="noopener">西友</a></span></td><td>（トライアルG 621に含む）</td><td>75</td><td>—</td><td>店舗一覧の集計</td></tr>
@@ -377,7 +377,7 @@ references:
   <span class="pos-zone" style="right:8px; top:150px;">小箱を数で敷く →</span>
   <div class="pos-dot is-key lbl-left" style="left:10.4%; bottom:90.4%"><i></i><b class="with-logo"><img class="brand-logo-xs" src="/images/tokyo-discount-supermarket-2026/logos/lopia.png" alt="" loading="lazy" />ロピア 45.2億</b></div>
   <div class="pos-dot is-key lbl-right" style="left:12.4%; bottom:86.8%"><i></i><b class="with-logo"><img class="brand-logo-xs" src="/images/tokyo-discount-supermarket-2026/logos/ok.png" alt="" loading="lazy" />オーケー 43.4億</b></div>
-  <div class="pos-dot" style="left:44.4%; bottom:43.4%"><i></i><b>トライアルG 21.7億</b></div>
+  <div class="pos-dot" style="left:44.4%; bottom:43.4%"><i></i><b class="with-logo"><img class="brand-logo-xs" src="/images/tokyo-discount-supermarket-2026/logos/trial.png" alt="" loading="lazy" />トライアルG 21.7億</b></div>
   <div class="pos-dot lbl-below" style="left:8.1%; bottom:31.8%"><i></i><b class="with-logo"><img class="brand-logo-xs" src="/images/tokyo-discount-supermarket-2026/logos/hanamasa.png" alt="" loading="lazy" />ハナマサほか 15.9億</b></div>
   <div class="pos-dot is-key lbl-left" style="left:90.1%; bottom:4.8%"><i></i><b class="with-logo"><img class="brand-logo-xs" src="/images/tokyo-discount-supermarket-2026/logos/mybasket.png" alt="" loading="lazy" />まいばすけっと 2.4億</b></div>
 </div>
@@ -467,7 +467,7 @@ references:
 
 <div class="section-with-mascot">
   <div class="mascot-wrap"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="gyomu">③ 業務スーパー｜7社でただ1社、自分で作っている</h2>
+  <h2 class="brand-h" id="gyomu"><img class="brand-logo" src="/images/tokyo-discount-supermarket-2026/logos/gyomu.png" alt="業務スーパーのロゴ" loading="lazy" /><span>③ 業務スーパー｜7社でただ1社、自分で作っている</span></h2>
 </div>
 
 <figure class="rn-figure">
@@ -481,7 +481,7 @@ references:
 <tr><th>売上（2025年10月期）</th><td><strong>5,517億円</strong>（前期比 +8.6%）／営業利益 398億円（+15.9%）</td></tr>
 <tr><th>運営</th><td>株式会社神戸物産（フランチャイズ中心）</td></tr>
 <tr><th>安さの型</th><td><strong>製販一体</strong>——自社グループの工場で作る／自前で大量輸入する</td></tr>
-<tr><th>公式</th><td><a href="https://www.gyomusuper.jp/" target="_blank" rel="noopener">業務スーパー</a></td></tr>
+<tr><th>公式</th><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/tokyo-discount-supermarket-2026/logos/gyomu.png" alt="" loading="lazy" /><a href="https://www.gyomusuper.jp/" target="_blank" rel="noopener">業務スーパー</a></span></td></tr>
 </tbody>
 </table>
 
@@ -601,11 +601,11 @@ references:
 <tbody>
 <tr class="recommended"><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/tokyo-discount-supermarket-2026/logos/ok.png" alt="" loading="lazy" /><a href="https://ok-corporation.jp/flyer" target="_blank" rel="noopener">オーケー 今週の商品情報紙</a></span></td><td>週次のPDF</td><td><strong>関東版・関西版が別</strong>。「今週これが安い」ではなく<strong>「この商品はいくら」を載せる形</strong></td><td><a href="https://x.com/OK_EDLP" target="_blank" rel="noopener">@OK_EDLP</a></td></tr>
 <tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/tokyo-discount-supermarket-2026/logos/seiyu.png" alt="" loading="lazy" /><a href="https://www.seiyu.co.jp/flyer/chirashi/" target="_blank" rel="noopener">西友 チラシを探す</a></span></td><td>エリア別のチラシ</td><td><strong>期間が明記された従来型のチラシ</strong>。店舗のエリアを選ぶと出る。<strong>毎週 月曜・土曜は楽天ポイント増量日</strong></td><td><a href="https://x.com/seiyu_japan" target="_blank" rel="noopener">@seiyu_japan</a></td></tr>
-<tr><td><span class="cell-brand"><a href="https://www.trial-net.co.jp/shops" target="_blank" rel="noopener">トライアル 店舗・チラシ</a></span></td><td><strong>アプリ「TRIAL＋」に寄せている</strong></td><td>チラシと<strong>限定クーポン</strong>がアプリに届く。マイレージキャンペーンも同じ入口</td><td><a href="https://x.com/TRIALCOMPANY" target="_blank" rel="noopener">@TRIALCOMPANY</a></td></tr>
+<tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/tokyo-discount-supermarket-2026/logos/trial.png" alt="" loading="lazy" /><a href="https://www.trial-net.co.jp/shops" target="_blank" rel="noopener">トライアル 店舗・チラシ</a></span></td><td><strong>アプリ「TRIAL＋」に寄せている</strong></td><td>チラシと<strong>限定クーポン</strong>がアプリに届く。マイレージキャンペーンも同じ入口</td><td><a href="https://x.com/TRIALCOMPANY" target="_blank" rel="noopener">@TRIALCOMPANY</a></td></tr>
 <tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/tokyo-discount-supermarket-2026/logos/lopia.png" alt="" loading="lazy" /><a href="https://lopia.jp/" target="_blank" rel="noopener">ロピア</a></span></td><td><strong>全国共通のチラシが無い</strong></td><td>値段が店舗ごと・その日ごとに動くため、<strong>全店に配れるチラシを作れない</strong>。店頭とXで告知する</td><td><a href="https://x.com/lopia_official" target="_blank" rel="noopener">@lopia_official</a></td></tr>
 <tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/tokyo-discount-supermarket-2026/logos/donki.png" alt="" loading="lazy" /><a href="https://www.donki.com/chirashi/" target="_blank" rel="noopener">ドン・キホーテ WEBチラシ</a></span></td><td>店舗別のWEBチラシ</td><td>アプリ「majica」の会員限定フェアが別にある</td><td>—</td></tr>
 <tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/tokyo-discount-supermarket-2026/logos/hanamasa.png" alt="" loading="lazy" /><a href="https://hanamasa.co.jp/" target="_blank" rel="noopener">肉のハナマサ</a></span></td><td>公式サイトのお知らせ</td><td><strong>値段を常時 公表している</strong>ので、「安い日」を告知する作りになっていない</td><td><strong>公式サイトにリンク無し</strong></td></tr>
-<tr><td><span class="cell-brand"><a href="https://www.gyomusuper.jp/shop/list.php?pref_id=13" target="_blank" rel="noopener">業務スーパー 東京都の店舗</a></span></td><td>店舗ごと</td><td>自社製造品が中心で、<strong>特売より通常価格そのものが安い</strong>作り</td><td>—</td></tr>
+<tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/tokyo-discount-supermarket-2026/logos/gyomu.png" alt="" loading="lazy" /><a href="https://www.gyomusuper.jp/shop/list.php?pref_id=13" target="_blank" rel="noopener">業務スーパー 東京都の店舗</a></span></td><td>店舗ごと</td><td>自社製造品が中心で、<strong>特売より通常価格そのものが安い</strong>作り</td><td>—</td></tr>
 </tbody>
 </table>
 </div>
@@ -634,10 +634,10 @@ references:
 <tbody>
 <tr class="recommended"><td><strong>肉をまとめて</strong></td><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/tokyo-discount-supermarket-2026/logos/lopia.png" alt="" loading="lazy" /><a href="https://lopia.jp/" target="_blank" rel="noopener">ロピア</a> / <img class="brand-logo-sm" src="/images/tokyo-discount-supermarket-2026/logos/hanamasa.png" alt="" loading="lazy" /><a href="https://hanamasa.co.jp/shop/tokyo/" target="_blank" rel="noopener">肉のハナマサ</a></span></td><td>片方は精肉店が源流、片方は業務用の大容量。100gあたりで効いてくる</td></tr>
 <tr><td><strong>日用品・調味料をまとめて</strong></td><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/tokyo-discount-supermarket-2026/logos/ok.png" alt="" loading="lazy" /><a href="https://ok-corporation.jp/" target="_blank" rel="noopener">オーケー</a></span></td><td>EDLPなので特売日を狙う必要がない。いつ行っても同じ</td></tr>
-<tr><td><strong>冷凍食品・大容量</strong></td><td><a href="https://www.gyomusuper.jp/" target="_blank" rel="noopener">業務スーパー</a></td><td>自社製造の商品が中心で、そもそも他店に同じものが無い</td></tr>
+<tr><td><strong>冷凍食品・大容量</strong></td><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/tokyo-discount-supermarket-2026/logos/gyomu.png" alt="" loading="lazy" /><a href="https://www.gyomusuper.jp/" target="_blank" rel="noopener">業務スーパー</a></span></td><td>自社製造の商品が中心で、そもそも他店に同じものが無い</td></tr>
 <tr><td><strong>今日の晩ごはんだけ</strong></td><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/tokyo-discount-supermarket-2026/logos/mybasket.png" alt="" loading="lazy" /><a href="https://www.mybasket.co.jp/" target="_blank" rel="noopener">まいばすけっと</a></span></td><td>歩いて行ける距離にある。24時までやっている店が多い</td></tr>
-<tr><td><strong>深夜</strong></td><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/tokyo-discount-supermarket-2026/logos/donki.png" alt="" loading="lazy" /><a href="https://www.donki.com/" target="_blank" rel="noopener">ドン・キホーテ</a> / <img class="brand-logo-sm" src="/images/tokyo-discount-supermarket-2026/logos/hanamasa.png" alt="" loading="lazy" /><a href="https://hanamasa.co.jp/shop/tokyo/" target="_blank" rel="noopener">肉のハナマサ</a> / <a href="https://www.trial-net.co.jp/" target="_blank" rel="noopener">トライアル西友</a></span></td><td>24時間営業の店がある</td></tr>
-<tr><td><strong>レジ待ちを避けたい</strong></td><td><a href="https://www.trial-net.co.jp/" target="_blank" rel="noopener">トライアル西友</a></td><td>スキップカートでレジを通らずに出られる</td></tr>
+<tr><td><strong>深夜</strong></td><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/tokyo-discount-supermarket-2026/logos/donki.png" alt="" loading="lazy" /><a href="https://www.donki.com/" target="_blank" rel="noopener">ドン・キホーテ</a> / <img class="brand-logo-sm" src="/images/tokyo-discount-supermarket-2026/logos/hanamasa.png" alt="" loading="lazy" /><a href="https://hanamasa.co.jp/shop/tokyo/" target="_blank" rel="noopener">肉のハナマサ</a> / <img class="brand-logo-sm" src="/images/tokyo-discount-supermarket-2026/logos/trialseiyu.png" alt="" loading="lazy" /><a href="https://www.trial-net.co.jp/" target="_blank" rel="noopener">トライアル西友</a></span></td><td>24時間営業の店がある</td></tr>
+<tr><td><strong>レジ待ちを避けたい</strong></td><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/tokyo-discount-supermarket-2026/logos/trialseiyu.png" alt="" loading="lazy" /><a href="https://www.trial-net.co.jp/" target="_blank" rel="noopener">トライアル西友</a></span></td><td>スキップカートでレジを通らずに出られる</td></tr>
 </tbody>
 </table>
 </div>
