@@ -33,14 +33,27 @@ const b = await chromium.launch(fs.existsSync(bundled) ? { executablePath: bundl
 for (const f of files) {
   const svg = fs.readFileSync(f, 'utf8');
   const p = await b.newPage({ viewport: { width: 1200, height: 1200 }, deviceScaleFactor: 2 });
-  await p.setContent(`<html><body style="margin:0;display:inline-block">${svg}</body></html>`);
-  const el = await p.$('svg');
-  if (!el) { console.log('✗ svg 要素が無い:', f); await p.close(); continue; }
+  // **width / height を持たない SVG がある。** そのままだと大きさ 0 で
+  // 「element is not visible」になり、30 秒 待たされた末に落ちる（実際に踏んだ）。
+  // **CSS で必ず大きさを与える。**
+  await p.setContent(
+    `<html><head><style>
+       body { margin: 0; display: inline-block; }
+       svg { width: 600px !important; height: auto !important; display: block !important; }
+     </style></head><body>${svg}</body></html>`);
   const out = f.replace(/\.svg$/, '.png');
-  // **透過のまま出す。** 白抜きのロゴは CSS の `on-dark` で枠を暗くして使う
-  await el.screenshot({ path: out, omitBackground: true });
-  const { width, height } = await el.boundingBox();
-  console.log(`✅ ${path.basename(out)} / ${Math.round(width)}x${Math.round(height)}`);
+  try {
+    const el = await p.$('svg');
+    if (!el) throw new Error('svg 要素が無い');
+    const box = await el.boundingBox();
+    if (!box || box.width < 1 || box.height < 1) throw new Error('大きさが 0');
+    // **透過のまま出す。** 白抜きのロゴは CSS の `on-dark` で枠を暗くして使う
+    await el.screenshot({ path: out, omitBackground: true, timeout: 8000 });
+    console.log(`✅ ${path.basename(out)} / ${Math.round(box.width)}x${Math.round(box.height)}`);
+  } catch (e) {
+    // **1 枚 失敗しても残りを続ける。** 落ちると全部 やり直しになる
+    console.log(`✗ ${path.basename(f)} … ${String(e.message).slice(0, 60)}`);
+  }
   await p.close();
 }
 await b.close();

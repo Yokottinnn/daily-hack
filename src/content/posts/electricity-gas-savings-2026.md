@@ -294,7 +294,7 @@ author: "hacker-ko"
   <article class="compare-card recommended">
     <span class="compare-card-tag is-sub">割安重視</span>
     <span class="compare-card-mascot"><img src="/images/expr-04-cheer.png" alt="" /></span>
-    <h3>レモンガス</h3>
+    <h3 class="brand-h"><img class="brand-logo" src="/images/electricity-gas-savings-2026/logos/lemongas.png" alt="レモンガスのロゴ" loading="lazy" /><span>レモンガス</span></h3>
     <p class="tagline">関東圏で東京ガスから乗り換える代表格。基本料金・従量料金とも安く設計。</p>
     <dl>
       <dt>基本料金</dt><dd>東京ガスより数%安い水準</dd>
