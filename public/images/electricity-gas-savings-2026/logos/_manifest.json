@@ -39,5 +39,13 @@
     "fetched": "2026-09-20",
     "license_note": "Public domain（コモンズの表記）。商標であることに変わりはない",
     "task": "ops/tasks/t125-logos-insurance-energy.sh"
+  },
+  "lemongas.png": {
+    "brand": "レモンガス",
+    "source": "https://www.lemongas.co.jp/lg/wp-content/themes/twentytwenty/images/logo.svg",
+    "page": "https://www.lemongas.co.jp/",
+    "fetched": "2026-09-20",
+    "license_note": "公式サイトのロゴ画像（商標）。**SVG を Chromium で PNG にした**",
+    "task": "ops/tasks/t128-logos-retry4.sh"
   }
 }

@@ -166,5 +166,21 @@
     "fetched": "2026-09-20",
     "license_note": "商標。識別目的で使用",
     "task": "ops/tasks/t124-app-icons-byname.sh"
+  },
+  "jalwellness.png": {
+    "brand": "JAL Wellness & Travel",
+    "source": "App Store の登録アイコン（artworkUrl512）",
+    "page": "https://apps.apple.com/jp/app/id1498726068",
+    "fetched": "2026-09-20",
+    "license_note": "商標。識別目的で使用",
+    "task": "ops/tasks/t128-logos-retry4.sh"
+  },
+  "torima.png": {
+    "brand": "トリマ",
+    "source": "https://www.trip-mile.com/ のロゴ画像",
+    "page": "https://www.trip-mile.com/",
+    "fetched": "2026-09-20",
+    "license_note": "公式サイトのロゴ画像（商標）",
+    "task": "ops/tasks/t128-logos-retry4.sh"
   }
 }

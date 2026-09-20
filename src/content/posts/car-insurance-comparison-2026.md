@@ -76,7 +76,7 @@ references: ["https://www.sonysonpo.co.jp/", "https://www.sbisonpo.co.jp/", "htt
   </div>
   <div class="highlight-item">
     <span class="highlight-tag">楽天経済圏ユーザー</span>
-    <h4>楽天損保 ドライブアシスト</h4>
+    <h4 class="brand-h"><img class="brand-logo" src="/images/car-insurance-comparison-2026/logos/rakutensonpo.png" alt="楽天損保 ドライブアシストのロゴ" loading="lazy" /><span>楽天損保 ドライブアシスト</span></h4>
     <p>保険料支払いで楽天ポイント貯まる&使える。ネット割+ダイヤモンド会員割で最大30%OFF。</p>
   </div>
 </div>
@@ -110,14 +110,14 @@ references: ["https://www.sonysonpo.co.jp/", "https://www.sbisonpo.co.jp/", "htt
 
 | 保険会社 | 保険料の傾向 | ロードサービス | 弁護士特約 | 事故対応 | ネット割引 | 主な特徴 |
 |---|---|---|---|---|---|---|
-| **ソニー損保** | 中（走行距離区分で変動） | 全契約無料・約10,000拠点 | 有（オプション） | 24時間365日／セコム現場かけつけ | 最大10,000円（新規ネット）+証券不発行で500円 | 走行距離7区分で「乗らない人ほど安い」、ロード使っても等級不変 |
+| <span class="cell-brand"><img class="brand-logo-sm" src="/images/car-insurance-comparison-2026/logos/sonysonpo.png" alt="ソニー損保のロゴ" loading="lazy" /><strong>ソニー損保</strong></span> | 中（走行距離区分で変動） | 全契約無料・約10,000拠点 | 有（オプション） | 24時間365日／セコム現場かけつけ | 最大10,000円（新規ネット）+証券不発行で500円 | 走行距離7区分で「乗らない人ほど安い」、ロード使っても等級不変 |
 | <span class="cell-brand"><img class="brand-logo-sm" src="/images/car-insurance-comparison-2026/logos/sbisonpo.png" alt="SBI損保のロゴ" loading="lazy" /><strong>SBI損保</strong></span> | 安い〜中 | 全契約無料 | 有（300万円/被保険者1名） | 24時間365日 | ネット割で割安 | 価格.com満足度1位常連、補償シンプル設計 |
 | <span class="cell-brand"><img class="brand-logo-sm" src="/images/car-insurance-comparison-2026/logos/zurich.png" alt="チューリッヒのロゴ" loading="lazy" /><strong>チューリッヒ</strong></span> | 安い | 全契約無料 | 有（オプション） | 24時間365日 | ネット最大20,000円＋e割・早割・LINE割 | ネット割の総額最大が業界トップ級 |
 | <span class="cell-brand"><img class="brand-logo-sm" src="/images/car-insurance-comparison-2026/logos/mitsuidirect.png" alt="三井ダイレクト損保のロゴ" loading="lazy" /><strong>三井ダイレクト損保</strong></span> | 中 | 全契約無料・約8,100拠点 | 有（オプション） | 24時間365日 | ネット割／早割／無事故割 | 走行距離区分制、「大手乗換で平均2万円超安」公式アピール |
 | <span class="cell-brand"><img class="brand-logo-sm" src="/images/car-insurance-comparison-2026/logos/axa.png" alt="アクサダイレクトのロゴ" loading="lazy" /><strong>アクサダイレクト</strong></span> | 中 | 全契約無料・約10,770拠点 | 有（オプション） | 24時間365日 | ネット最大20,000円 | 子育て応援割引・EV割引・無事故2,000円割引など割引数が豊富 |
 | <span class="cell-brand"><img class="brand-logo-sm" src="/images/car-insurance-comparison-2026/logos/sompodirect.png" alt="おとなの自動車保険のロゴ" loading="lazy" /><strong>おとなの自動車保険</strong><br>（SOMPOダイレクト）</span> | 40-50代に最安傾向 | ALSOK事故現場サポート全員無料付帯 | 有（オプション） | 24時間365日 | 新規最大22,600円（ネット+早割等） | 1歳刻み年齢料率／対人・対物・無保険車傷害が全て無制限自動付帯 |
 | **東京海上ダイレクト**<br>（旧イーデザイン損保） | 中 | 全契約無料 | 有（オプション） | 24時間365日／セコム現場急行 | 新規ネット12,000円割引 | 「&e（アンディー）」テレマティクス特約／東京海上日動グループの安心感 |
-| **楽天損保 ドライブアシスト** | 中 | 全契約無料 | 有（オプション） | 24時間365日／現場かけつけ | ネット最大25%OFF、ダイヤモンド会員は最大30%OFF | 保険料支払いで楽天ポイント1〜3%還元、ポイントで支払いも可 |
+| <span class="cell-brand"><img class="brand-logo-sm" src="/images/car-insurance-comparison-2026/logos/rakutensonpo.png" alt="楽天損保 ドライブアシストのロゴ" loading="lazy" /><strong>楽天損保 ドライブアシスト</strong></span> | 中 | 全契約無料 | 有（オプション） | 24時間365日／現場かけつけ | ネット最大25%OFF、ダイヤモンド会員は最大30%OFF | 保険料支払いで楽天ポイント1〜3%還元、ポイントで支払いも可 |
 
 <p class="source-note">※ 2026年5月時点の各社公式サイト情報を元に整理。「保険料の傾向」は同等補償条件でのダイレクト型内相対感のイメージで、実際の保険料は年齢・等級・型式・地域・走行距離・補償内容により大きく変動します。<strong>必ず一括見積もりで実条件で比較</strong>してください。出典: <a href="https://www.sonysonpo.co.jp/auto/" target="_blank" rel="noopener nofollow">ソニー損保公式</a>／<a href="https://www.sbisonpo.co.jp/car/" target="_blank" rel="noopener nofollow">SBI損保公式</a>／<a href="https://www.zurich.co.jp/car/" target="_blank" rel="noopener nofollow">チューリッヒ公式</a>／<a href="https://www.mitsui-direct.co.jp/car/" target="_blank" rel="noopener nofollow">三井ダイレクト損保公式</a>／<a href="https://www.axa-direct.co.jp/auto/" target="_blank" rel="noopener nofollow">アクサダイレクト公式</a>／<a href="https://www.ins-saison.co.jp/" target="_blank" rel="noopener nofollow">SOMPOダイレクト公式</a>／<a href="https://www.edsp.co.jp/" target="_blank" rel="noopener nofollow">東京海上ダイレクト公式</a>／<a href="https://www.rakuten-sonpo.co.jp/" target="_blank" rel="noopener nofollow">楽天損保公式</a>。</p>
 
@@ -126,7 +126,7 @@ references: ["https://www.sonysonpo.co.jp/", "https://www.sbisonpo.co.jp/", "htt
 <div class="compare-cards">
   <article class="compare-card recommended">
     <span class="compare-card-mascot"><img src="/images/expr-05-smug.png" alt="" /></span>
-    <h3>ソニー損保</h3>
+    <h3 class="brand-h"><img class="brand-logo" src="/images/car-insurance-comparison-2026/logos/sonysonpo.png" alt="ソニー損保のロゴ" loading="lazy" /><span>ソニー損保</span></h3>
     <p class="tagline">走行距離区分制の代表格。「乗らない人」ほど安くなる、ダイレクト型の王道。</p>
     <dl>
       <dt>保険料の特徴</dt><dd>予想年間走行距離を「3,000km以下〜無制限」の7区分から選び、走らない人ほど安い設計</dd>
@@ -232,7 +232,7 @@ references: ["https://www.sonysonpo.co.jp/", "https://www.sbisonpo.co.jp/", "htt
 
   <article class="compare-card">
     <span class="compare-card-mascot"><img src="/images/expr-01-wave.png" alt="" /></span>
-    <h3>楽天損保 ドライブアシスト</h3>
+    <h3 class="brand-h"><img class="brand-logo" src="/images/car-insurance-comparison-2026/logos/rakutensonpo.png" alt="楽天損保 ドライブアシストのロゴ" loading="lazy" /><span>楽天損保 ドライブアシスト</span></h3>
     <p class="tagline">楽天経済圏ユーザーの本命。保険料の支払い・受取で楽天ポイントが循環する。</p>
     <dl>
       <dt>保険料の特徴</dt><dd>インターネット契約で最大25%OFF、楽天ダイヤモンド会員なら新規最大30%OFF</dd>

@@ -47,5 +47,21 @@
     "fetched": "2026-09-20",
     "license_note": "公式サイトのロゴ画像（商標）",
     "task": "ops/tasks/t125-logos-insurance-energy.sh"
+  },
+  "sonysonpo.png": {
+    "brand": "ソニー損保",
+    "source": "https://www.sonysonpo.co.jp/share/image/portal/top/logo_sonpo.svg",
+    "page": "https://www.sonysonpo.co.jp/",
+    "fetched": "2026-09-20",
+    "license_note": "公式サイトのロゴ画像（商標）。**SVG を Chromium で PNG にした**",
+    "task": "ops/tasks/t128-logos-retry4.sh"
+  },
+  "rakutensonpo.png": {
+    "brand": "楽天損保",
+    "source": "https://www.rakuten-sonpo.co.jp/Portals/0/images/common/header/logo_pc.png",
+    "page": "https://www.rakuten-sonpo.co.jp/",
+    "fetched": "2026-09-20",
+    "license_note": "公式サイトのロゴ画像（商標）",
+    "task": "ops/tasks/t128-logos-retry4.sh"
   }
 }
