@@ -1,0 +1,85 @@
+{
+  "_doc": "X 告知用の正方形画像。作り方は .claude/skills/x-post-images/SKILL.md",
+  "_note": "写真は Wikimedia Commons の 6 枚（photos/_manifest.json）。apps-mosaic.jpg は記事内のアプリ画面 20 枚を 5×4 で合成したもの",
+  "slug": "walk-poikatsu-2026",
+  "imageBase": "public/images/walk-poikatsu-2026",
+  "out": "public/images/walk-poikatsu-2026/x",
+  "cover": {
+    "file": "1-summary.jpg",
+    "kicker": "20アプリ ／ 5カテゴリ ／ 1日1万歩・1年で統一換算",
+    "title": "歩いてポイ活、勝つのはWAON",
+    "sub": "確実に入る最高額は <em>年365円</em>だった",
+    "bgImage": "photos/crossing-night.jpg",
+    "bgOpacity": 0.24,
+    "mark": false,
+    "columns": 2,
+    "theme": "berry",
+    "cards": [
+      {
+        "img": "apps-mosaic.jpg",
+        "badge": "全体像",
+        "title": "20アプリ・5カテゴリ",
+        "meta": "航空マイル／共通ポイント／現物交換／Web3／保険・自治体"
+      },
+      {
+        "img": "photos/shoes.jpg",
+        "badge": "最高額",
+        "title": "年365円",
+        "meta": "8,000歩で1 WAON POINT × 365日。派手さはゼロ"
+      },
+      {
+        "img": "photos/bitcoin.jpg",
+        "badge": "Web3",
+        "title": "1日12,500歩で約7.5円",
+        "meta": "CMの「10万円」に対して、使った人が試算した"
+      },
+      {
+        "img": "photos/park.jpg",
+        "badge": "消えた",
+        "title": "Miles 2025/5/14",
+        "meta": "当日になって告知。猶予も無く公式サイトごと閉鎖"
+      }
+    ],
+    "note": "1日1万歩を1年 続けても、<b>どれも年3桁円。</b>同じものさしで20個 並べた。",
+    "source": "画像: Wikimedia Commons（Grueslayer・chensiyuan・Philippe Alès CC BY-SA 4.0／Gage Skidmore CC BY-SA 3.0／Jamie Taylor CC0）"
+  },
+  "photos": [
+    {
+      "file": "2-waon.jpg",
+      "img": "waon-card.jpg",
+      "badge": "確実に入る最高額",
+      "name": "年365円、ただのWAONポイント",
+      "lead": "8,000歩で1 WAON POINT × 365日。<b>暗号資産でもマイルでもなかった</b>",
+      "specs": [
+        "RenoBody",
+        "無料",
+        "条件を満たせば必ず入る"
+      ],
+      "credit": "WAON POINT はイオン株式会社の登録商標"
+    },
+    {
+      "file": "3-bitwalk.jpg",
+      "img": "photos/bitcoin.jpg",
+      "badge": "「10万円貯まる」の中身",
+      "name": "1日12,500歩で、約7.5円",
+      "lead": "広告を全部 見た場合の試算。<b>1年 毎日 続けて2,700円ほど</b>",
+      "specs": [
+        "BitWalk",
+        "使った人の試算"
+      ],
+      "credit": "画像: Gage Skidmore / CC BY-SA 3.0（Wikimedia Commons）"
+    },
+    {
+      "file": "4-miles.jpg",
+      "img": "photos/airplane.jpg",
+      "badge": "消えたアプリ",
+      "name": "Milesは予告なく終わった",
+      "lead": "2025年5月14日、<b>当日になって告知。</b>猶予期間も無く、公式サイトごと閉鎖された",
+      "specs": [
+        "2021年10月 開始",
+        "すべての交通手段でマイル"
+      ],
+      "credit": "画像: Daniel Case / CC BY-SA 4.0（Wikimedia Commons）"
+    }
+  ]
+}
