@@ -50,7 +50,19 @@
   .said { width:100%; margin:0; padding-top:8px; border-top:1px solid var(--line);
           font-size:12.5px; color:var(--done); }
 
-  .set { margin-block:44px 0; }
+  .tabs { display:flex; flex-wrap:wrap; gap:8px; margin-block:22px 0; }
+  .tabs button { display:flex; align-items:center; gap:8px; padding:9px 16px;
+                 font-size:13.5px; font-weight:700; border-radius:3px;
+                 border:1px solid var(--line); background:var(--surface); color:var(--muted); }
+  .tabs button[aria-current] { color:var(--ink); border-color:var(--ink);
+                               box-shadow:inset 0 -3px 0 var(--accent); }
+  .tabs button em { font-style:normal; font-size:11px; font-weight:700; color:var(--done); }
+  .tabs button i { font-style:normal; min-width:20px; padding:0 6px; border-radius:999px;
+                   background:var(--accent); color:var(--accent-ink);
+                   font-family:var(--mono); font-size:11px; text-align:center; }
+  .tabs button i:empty { display:none; }
+
+  .set { margin-block:26px 0; }
   .set > header { padding-bottom:6px; border-bottom:2px solid var(--ink); }
   .set h2 { margin:0; font-size:19px; }
   .set .slug { font-family:var(--mono); font-size:11.5px; color:var(--muted); }
@@ -349,7 +361,11 @@
     return form;
   }
 
+  // **未投稿を先に。** 済んだものが上にあると、どれを見ればいいのか分からない
+  SETS.sort((x, y) => (x.posted ? 1 : 0) - (y.posted ? 1 : 0));
+
   // ---------- 組み立て ----------
+  const sections = [];
   for (const set of SETS) {
     const sec = document.createElement("section");
     sec.className = "set";
@@ -539,13 +555,61 @@
       }
     });
 
+    sections.push({ set, sec });
     main.append(sec);
   }
 
-  const textOf = (target) => {
+  // ---------- 投稿ごとに切り替える ----------
+  // **1 画面に 1 記事だけ出す。** 済んだものと混ざると、どれを見ればいいのか分からない
+  const tabs = document.createElement("nav");
+  tabs.className = "tabs";
+  tabs.setAttribute("aria-label", "記事の切り替え");
+  const KEY = "x-review-tab";
+  let active = 0;
+  try {
+    const saved = localStorage.getItem(KEY);
+    const i = sections.findIndex((x) => x.set.key === saved);
+    if (i >= 0) active = i;
+  } catch (e) { /* 使えなくても動く */ }
+
+  const buttons = sections.map(({ set }, i) => {
+    const b = document.createElement("button");
+    b.type = "button";
+    const name = document.createElement("span");
+    name.textContent = set.title;
+    b.append(name);
+    if (set.posted) {
+      const chip = document.createElement("em");
+      chip.textContent = "投稿済み";
+      b.append(chip);
+    } else {
+      const n = document.createElement("i");
+      n.dataset.count = set.key;
+      b.append(n);
+    }
+    b.addEventListener("click", () => show(i));
+    tabs.append(b);
+    return b;
+  });
+
+  function show(i) {
+    active = i;
+    sections.forEach((x, k) => { x.sec.hidden = k !== i; });
+    buttons.forEach((b, k) => {
+      if (k === i) b.setAttribute("aria-current", "true");
+      else b.removeAttribute("aria-current");
+    });
+    try { localStorage.setItem(KEY, sections[i].set.key); } catch (e) { /* 使えなくても動く */ }
+    render();
+  }
+  main.before(tabs);
+
+  // **関数宣言にする。** `const` だと、先に呼ぶ `show()` が
+  // 「Cannot access 'textOf' before initialization」で落ちる（実際に踏んだ）
+  function textOf(target) {
     const d = drafts[target];
     return typeof d === "string" ? d : slots.get(target).base;
-  };
+  }
 
   // ---------- なぞった範囲 → 文字位置 ----------
   function offsetOf(root, node, off) {
@@ -716,11 +780,24 @@
     for (const [target, slot] of slots) {
       if (slot.kind === "text") renderText(target); else renderPins(target);
     }
-    elTotal.textContent = rows.length;
-    elOpen.textContent = rows.filter((r) => !r.done).length;
+    // **いま見ている記事の件数**を出す（全部の合計だと、どれの話か分からない）
+    const here = sections.length ? sections[active].set.key : null;
+    const mine = here ? rows.filter((r) => r.set === here) : rows;
+    elTotal.textContent = mine.length;
+    elOpen.textContent = mine.filter((r) => !r.done).length;
+    // タブ側にも未対応の数を出す
+    for (const set of SETS) {
+      const el = document.querySelector('.tabs i[data-count="' + set.key + '"]');
+      if (!el) continue;
+      const n = rows.filter((r) => r.set === set.key && !r.done).length;
+      el.textContent = n ? String(n) : "";
+      el.hidden = !n;
+    }
   }
 
-  render();
+  // **ここまで来て初めて呼ぶ。** 先に呼ぶと render() の中の関数が
+  // まだ初期化されておらず「Cannot access ... before initialization」で落ちる（2 回 踏んだ）
+  show(active);
 
   // ---------- 「修正をお願いする」 ----------
   btnAsk.addEventListener("click", async () => {
@@ -759,6 +836,7 @@
           const v = d.data() || {};
           return {
             id: d.id, target: String(v.target || ""),
+            set: String(v.set || String(v.target || "").split("/")[0] || ""),
             x: typeof v.x === "number" ? v.x : 0.5,
             y: typeof v.y === "number" ? v.y : 0.5,
             quote: typeof v.quote === "string" ? v.quote : "",
