@@ -1,0 +1,162 @@
+{
+  "_note": "識別目的で使うロゴ。**商標であり自由ライセンスではない。**取得日 2026-09-20（ops/tasks/t126-wangan-logos-retry.sh）。",
+  "lalaport": [
+    {
+      "brand": "ららぽーと",
+      "file": "lalaport-1.png",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/LaLaport_BBCC_Logo.svg/960px-LaLaport_BBCC_Logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File%3ALaLaport_BBCC_Logo.svg",
+      "license_note": "CC BY 4.0",
+      "width": 960,
+      "height": 490
+    },
+    {
+      "brand": "ららぽーと",
+      "file": "lalaport-2.png",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Logos_Products_at_LaLaport_Kadoma.jpg/960px-Logos_Products_at_LaLaport_Kadoma.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File%3ALogos_Products_at_LaLaport_Kadoma.jpg",
+      "license_note": "CC BY-SA 4.0",
+      "width": 960,
+      "height": 540
+    }
+  ],
+  "bigsight": [
+    {
+      "brand": "東京ビッグサイト",
+      "file": "bigsight-1.png",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Tokyo_big_sight.svg/960px-Tokyo_big_sight.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File%3ATokyo_big_sight.svg",
+      "license_note": "Public domain",
+      "width": 960,
+      "height": 1132
+    },
+    {
+      "brand": "東京ビッグサイト",
+      "file": "bigsight-2.png",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/HITACHI%2C_Inspire_the_Next%2C_sign.jpg/960px-HITACHI%2C_Inspire_the_Next%2C_sign.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File%3AHITACHI%2C_Inspire_the_Next%2C_sign.jpg",
+      "license_note": "CC BY-SA 3.0",
+      "width": 960,
+      "height": 720
+    }
+  ],
+  "yoshimoto": [
+    {
+      "brand": "吉本興業",
+      "file": "yoshimoto-1.png",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/BS_Yoshimoto_Logo.svg/960px-BS_Yoshimoto_Logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File%3ABS_Yoshimoto_Logo.svg",
+      "license_note": "Public domain",
+      "width": 960,
+      "height": 328
+    },
+    {
+      "brand": "吉本興業",
+      "file": "yoshimoto-2.png",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Yoshimoto.svg/960px-Yoshimoto.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File%3AYoshimoto.svg",
+      "license_note": "Public domain",
+      "width": 960,
+      "height": 286
+    }
+  ],
+  "sumitomo": [
+    {
+      "brand": "住友不動産",
+      "file": "sumitomo-1.png",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Sumitomo_Realty_and_Development_logo.svg/960px-Sumitomo_Realty_and_Development_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File%3ASumitomo_Realty_and_Development_logo.svg",
+      "license_note": "Public domain",
+      "width": 960,
+      "height": 174
+    },
+    {
+      "brand": "住友不動産",
+      "file": "sumitomo-2.png",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Sumitomo_RD.svg/960px-Sumitomo_RD.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File%3ASumitomo_RD.svg",
+      "license_note": "Public domain",
+      "width": 960,
+      "height": 721
+    }
+  ],
+  "livedoor": [
+    {
+      "brand": "livedoor",
+      "file": "livedoor-1.png",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Sasameki_koto_logo-transparent.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "page": "https://commons.wikimedia.org/wiki/File%3ASasameki_koto_logo-transparent.png",
+      "license_note": "Public domain",
+      "width": 529,
+      "height": 194
+    },
+    {
+      "brand": "livedoor",
+      "file": "livedoor-2.png",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/1/15/Sasameki_koto_logo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "page": "https://commons.wikimedia.org/wiki/File%3ASasameki_koto_logo.jpg",
+      "license_note": "Public domain",
+      "width": 529,
+      "height": 194
+    }
+  ],
+  "manyo": [
+    {
+      "brand": "東京豊洲 万葉倶楽部",
+      "file": "manyo-1.png",
+      "source": "https://tokyo-toyosu.manyo.co.jp/admin/wp-content/uploads/2024/02/cropped-グループ-20621-180x180.png",
+      "page": "https://tokyo-toyosu.manyo.co.jp/",
+      "license_note": "公式サイトのロゴ画像（商標）",
+      "width": 180,
+      "height": 180
+    }
+  ],
+  "toyosupit": [
+    {
+      "brand": "豊洲PIT",
+      "file": "toyosupit-1.svg",
+      "source": "https://toyosu.pia-pit.jp/assets/images/logo.svg",
+      "page": "https://toyosu.pia-pit.jp/",
+      "license_note": "公式サイトのロゴ画像（商標）",
+      "format": "svg"
+    },
+    {
+      "brand": "豊洲PIT",
+      "file": "toyosupit-2.png",
+      "source": "https://toyosu.pia-pit.jp/assets/images/logo_pitzero.jpg",
+      "page": "https://toyosu.pia-pit.jp/",
+      "license_note": "公式サイトのロゴ画像（商標）",
+      "width": 362,
+      "height": 110
+    },
+    {
+      "brand": "豊洲PIT",
+      "file": "toyosupit-3.png",
+      "source": "https://toyosu.pia-pit.jp/assets/images/logo_10th_anniv.jpg",
+      "page": "https://toyosu.pia-pit.jp/",
+      "license_note": "公式サイトのロゴ画像（商標）",
+      "width": 440,
+      "height": 160
+    }
+  ],
+  "senkyaku": [
+    {
+      "brand": "豊洲 千客万来",
+      "file": "senkyaku-1.png",
+      "source": "https://www.toyosu-senkyakubanrai.jp/image/top/top_pc_shopnews_logo2.png",
+      "page": "https://www.toyosu-senkyakubanrai.jp/",
+      "license_note": "公式サイトのロゴ画像（商標）",
+      "width": 1200,
+      "height": 364
+    },
+    {
+      "brand": "豊洲 千客万来",
+      "file": "senkyaku-2.png",
+      "source": "https://www.toyosu-senkyakubanrai.jp/image/top/top_pc_shopnews_logo3.png",
+      "page": "https://www.toyosu-senkyakubanrai.jp/",
+      "license_note": "公式サイトのロゴ画像（商標）",
+      "width": 1200,
+      "height": 384
+    }
+  ]
+}

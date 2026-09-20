@@ -1,3 +1,4 @@
 [
-      {"task": "t125-logos-insurance-energy.sh", "rc": 0, "out": "        ← File:Zurich Insurance Group Logo Horizontal.svg   - ✅ `zurich-2.png` / 960x603 / **Public domain**         ← File:Zurich Insurance Group logo.svg  ### アクサダイレクト"}
+      {"task": "t126-wangan-logos-retry.sh", "rc": 0, "out": "   - ✅ `yoshimoto-1.png` / 960x328 / **Public domain**         ← File:BS Yoshimoto Logo.svg   - ✅ `yoshimoto-2.png` / 960x286 / **Public domain**         ← File:Yoshimoto.svg"},
+      {"task": "t127-resort-ikea-logos.sh", "rc": 0, "out": "   - ✅ `pullman-1.png` / 500x82 / **Public domain**         ← File:Pullman Logo 2013.png   - ✅ `pullman-2.png` / 960x159 / **Public domain**         ← File:Pullman logo 2013.svg"}
   ]
