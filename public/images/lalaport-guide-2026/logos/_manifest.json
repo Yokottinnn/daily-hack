@@ -1,0 +1,11 @@
+{
+  "_note": "識別目的で使うロゴ。**商標であり自由ライセンスではない。** 改変しない（CSS の枠は可）。取得元と取得日をここに残す。",
+  "mitsuifudosan.png": {
+    "brand": "三井不動産",
+    "source": "https://commons.wikimedia.org/wiki/File:Mitsui_Fudosan_Logo_1991.svg",
+    "page": "https://commons.wikimedia.org/wiki/File:Mitsui_Fudosan_Logo_1991.svg",
+    "fetched": "2026-09-20",
+    "license_note": "Public domain（コモンズの表記）。商標であることに変わりはない",
+    "task": "ops/tasks/t122-logos-retry3.sh"
+  }
+}

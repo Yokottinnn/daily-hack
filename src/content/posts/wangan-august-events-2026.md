@@ -291,7 +291,7 @@ author: "hacker-ko"
     <thead><tr><th>日程</th><th>イベント</th><th>場所</th><th>料金</th></tr></thead>
     <tbody>
       <tr class="recommended"><td>8/8〜16</td><td>★ <a href="https://mitsui-shopping-park.com/lalaport/toyosu/event/3420509.html" target="_blank" rel="noopener">とよす夏祭り2026</a></td><td>ららぽーと豊洲</td><td>無料</td></tr>
-      <tr><td>8/6〜16</td><td><a href="https://www.tomica-tokyo.com/" target="_blank" rel="noopener">トミカ博 in TOKYO</a></td><td>有明GYM-EX</td><td>大人1,400円</td></tr>
+      <tr><td>8/6〜16</td><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/wangan-august-events-2026/logos/tomica.png" alt="トミカのロゴ" loading="lazy" /><a href="https://www.tomica-tokyo.com/" target="_blank" rel="noopener">トミカ博 in TOKYO</a></span></td><td>有明GYM-EX</td><td>大人1,400円</td></tr>
       <tr><td>8/8〜10</td><td><a href="https://www.sumiyoshijinja.or.jp/" target="_blank" rel="noopener">住吉神社 例大祭</a></td><td>中央区・佃</td><td>無料</td></tr>
       <tr><td>8/8</td><td>★ 豊洲場外マルシェ＆クラフトサマーマーケット</td><td>ミチノテラス豊洲</td><td>無料</td></tr>
       <tr><td>8/8</td><td>海風渡御〜富岡八幡宮 有明初巡幸〜</td><td>東京ドリームパーク</td><td>無料</td></tr>
@@ -302,7 +302,7 @@ author: "hacker-ko"
       <tr><td>8/14〜16</td><td><a href="https://toyosu-senkyakubanrai.jp/" target="_blank" rel="noopener">ミニ遊縁日</a></td><td>豊洲千客万来</td><td>要確認</td></tr>
       <tr><td>8/15</td><td><a href="https://www.baynet.ne.jp/fukagawamatsuri/" target="_blank" rel="noopener">富岡八幡宮例大祭 豊洲巡行</a></td><td>豊洲</td><td>無料</td></tr>
       <tr><td>8/15〜16</td><td><a href="https://popgalaxy.net/" target="_blank" rel="noopener">POP GALAXY 2026</a></td><td>お台場R地区</td><td>一般4,500円</td></tr>
-      <tr><td>8/15〜16</td><td><a href="https://www.comiket.co.jp/" target="_blank" rel="noopener">コミックマーケット C108</a></td><td>東京ビッグサイト</td><td>—</td></tr>
+      <tr><td>8/15〜16</td><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/wangan-august-events-2026/logos/comiket.png" alt="コミックマーケットのロゴ" loading="lazy" /><a href="https://www.comiket.co.jp/" target="_blank" rel="noopener">コミックマーケット C108</a></span></td><td>東京ビッグサイト</td><td>—</td></tr>
       <tr><td>8/16</td><td><a href="https://www.baynet.ne.jp/fukagawamatsuri/" target="_blank" rel="noopener">富岡八幡宮例大祭 神輿連合渡御</a></td><td>深川地域</td><td>無料</td></tr>
       <tr><td>8/17</td><td>親子で楽しむはじめての香り実験</td><td>豊洲公園</td><td>要確認</td></tr>
       <tr><td>8/20</td><td>キッズ入札クエスト</td><td>うるる本社（晴海）</td><td>要確認</td></tr>
