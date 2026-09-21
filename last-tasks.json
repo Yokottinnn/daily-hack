@@ -1,1 +1,4 @@
-[]
+[
+      {"task": "x123-clear-deleted-supermarket-entry.sh", "rc": 0, "out": "消された告知を片付けた / clear-deleted-supermarket-entry.md 64 行"},
+      {"task": "x125-repost-tokyo-supermarket.sh", "rc": 0, "out": "**格安スーパーの告知を出し直した。chain の 2 本を確認すること** / repost-tokyo-supermarket.md"}
+  ]
