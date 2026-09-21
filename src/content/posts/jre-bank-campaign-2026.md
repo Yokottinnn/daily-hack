@@ -43,7 +43,7 @@ author: "hacker-ko"
   </ul>
 </aside>
 
-## 結論：JR東日本ユーザーなら「持ってないだけで損」の銀行
+<h2 class="brand-h" id="結論jr東日本ユーザーなら持ってないだけで損の銀行"><img class="brand-logo" src="/images/jre-bank-campaign-2026/logos/jrebank.png" alt="JRE BANKのロゴ" loading="lazy" /><span>結論：JR東日本ユーザーなら「持ってないだけで損」の銀行</span></h2>
 
 時間がないあんたへ先に結論を置いておく。
 
@@ -122,7 +122,7 @@ author: "hacker-ko"
 
 <div class="vs-pair">
   <div class="vs-card primary">
-    <h4>JRE BANK</h4>
+    <h4 class="brand-h"><img class="brand-logo" src="/images/jre-bank-campaign-2026/logos/jrebank.png" alt="JRE BANK のロゴ" loading="lazy" /><span>JRE BANK</span></h4>
     <ul>
       <li><strong>強み：JRE BANK優待割引券（4割引）が最大年10枚</strong>（条件達成時、年2回判定）</li>
       <li>強み：「どこかにビューーン！」2,000pt割引クーポン</li>
@@ -133,7 +133,7 @@ author: "hacker-ko"
     </ul>
   </div>
   <div class="vs-card">
-    <h4>一般のネット銀行（楽天・Olive・住信SBI等）</h4>
+    <h4 class="brand-h"><img class="brand-logo" src="/images/jre-bank-campaign-2026/logos/rakutenbank.png" alt="楽天銀行のロゴ" loading="lazy" /><span>一般のネット銀行（楽天・Olive・住信SBI等）</span></h4>
     <ul>
       <li>強み：振込手数料・ATM手数料の無料化が手厚い</li>
       <li>強み：証券・カード経済圏との連携でポイント貯まる</li>
@@ -216,6 +216,17 @@ JRE BANK には **JR東日本×楽天銀行が運営する「口座紹介プロ�
 
 アタシの紹介コードは **`J94101753`**。これを申込フォームの「紹介コード入力欄」に入れて開設するだけで、あんた（被紹介者）にも具体的な特典が降ってくる。順番に整理してあげるわよ。
 
+<div class="cmp-table-wrap">
+<table class="cmp-table spec-table">
+<tbody>
+<tr><th>運営</th><td>JR東日本 × 楽天銀行</td></tr>
+<tr><th>紹介コードとは</th><td>既存の口座保有者が発行する固有の英数字。<strong>口座 1 つにつき 1 つ</strong></td></tr>
+<tr class="recommended"><th>入れるところ</th><td><strong>新規申込フォームの「紹介コード入力欄」</strong>。ここでしか入れられない</td></tr>
+<tr><th>このサイトのコード</th><td><code>J94101753</code></td></tr>
+</tbody>
+</table>
+</div>
+
 ### 被紹介者（紹介された人=あんた）が貰える特典
 
 **結論: 紹介コード入力＋口座開設キャンペーン併用で、JRE POINT 最大 7,000 ポイントが貰える**（公式表記）。
@@ -231,12 +242,48 @@ JRE BANK には **JR東日本×楽天銀行が運営する「口座紹介プロ�
   - 判定日: **2026年8月31日**
   - ポイント付与時期: **2026年10月末予定**
 
+<div class="cmp-table-wrap">
+<table class="cmp-table spec-table">
+<thead><tr><th>もらえるもの</th><th>条件</th><th>ポイント</th></tr></thead>
+<tbody>
+<tr><th>紹介コード入力</th><td>申込フォームの「紹介コード入力欄」に入力し、判定日までに JRE POINT リンク登録を完了</td><td><strong>1,100 pt</strong>（通常ポイント）</td></tr>
+<tr><th>口座開設キャンペーン</th><td>入金額・給与受取・JRE POINT リンク登録などの達成段階に応じて加算。<strong>紹介プログラムと併用可</strong></td><td>最大 <strong>5,900 pt</strong></td></tr>
+<tr class="recommended"><th>合算</th><td>両方を満たしたとき</td><td>最大 <strong>7,000 pt</strong></td></tr>
+</tbody>
+</table>
+</div>
+
+<div class="cmp-table-wrap">
+<table class="cmp-table spec-table">
+<tbody>
+<tr><th>申込期間</th><td>2026年5月1日 〜 <strong>7月31日</strong></td></tr>
+<tr><th>口座開設の完了期間</th><td>2026年5月1日 〜 <strong>8月31日</strong></td></tr>
+<tr><th>判定日</th><td><strong>2026年8月31日</strong></td></tr>
+<tr><th>ポイント付与</th><td>2026年10月末 予定</td></tr>
+</tbody>
+</table>
+</div>
+
+<p class="source-note">※ 受付期間は2026年5月時点の公式表記。<strong>期間はその後 変わることがあるので、申込前に<a href="https://www.jrebank.jp/" target="_blank" rel="noopener">公式</a>で確認して。</strong></p>
+
 ### 紹介コードの絶対ルール
 
 - **申込フォーム途中の「紹介コード」欄に必ず入力**。口座開設申込完了**後の追加入力は公式に不可**（後から「忘れた」は一切救済されない）
 - 紹介コードを入力しても、別途併用キャンペーンの達成条件（入金額・給与受取・JRE POINT WEBサイトへのリンク登録）を満たさないとフル7,000ポイントには届かない
 - **JRE POINT リンク登録（JRE POINT WEB会員）が必須**。未登録なら先に無料登録（3分）して、その会員IDを口座開設時に紐づける
 - 口座解約・利用停止・JRE POINTリンク登録解除をした場合、特典対象外になる可能性あり
+
+<div class="cmp-table-wrap">
+<table class="cmp-table spec-table">
+<thead><tr><th>ここを外すと</th><th>どうなるか</th></tr></thead>
+<tbody>
+<tr class="recommended"><th>申込フォーム途中の「紹介コード」欄に入れ忘れた</th><td><strong>申込完了後の追加入力は不可。</strong> 「忘れた」の救済は一切ない</td></tr>
+<tr><th>併用キャンペーンの条件を満たさない</th><td>入金額・給与受取・JRE POINT リンク登録のどれかが欠けると、<strong>フルの 7,000 pt には届かない</strong></td></tr>
+<tr><th>JRE POINT リンク登録をしていない</th><td><strong>必須。</strong> 先に無料登録（3分）して、その会員ID を口座開設時に紐づける</td></tr>
+<tr><th>口座解約・利用停止・リンク登録解除</th><td>特典の対象外になる可能性あり</td></tr>
+</tbody>
+</table>
+</div>
 
 ### 紹介者（=アタシ）にも特典が入る（透明性）
 
@@ -263,6 +310,19 @@ JRE BANK には **JR東日本×楽天銀行が運営する「口座紹介プロ�
   <div class="flow-step"><strong>⑤ 入金・条件達成</strong>：特典の付与には<strong>残高条件・給与受取・口座振替・JRE POINTリンク登録などの達成</strong>が必要。詳細は公式FAQで最新条件をチェック。給与振込先を切り替えるのが最速ルート。</div>
 </div>
 
+<div class="cmp-table-wrap">
+<table class="cmp-table spec-table">
+<thead><tr><th>手順</th><th>やること</th><th>かかる時間</th></tr></thead>
+<tbody>
+<tr><th>①</th><td>楽天銀行アプリをダウンロード（<strong>既に口座がある人もそのままでOK</strong>）</td><td rowspan="3">申込の操作で <strong>5〜10分</strong></td></tr>
+<tr><th>②</th><td>アプリ内で「JRE BANK」モードへ切替。JRE POINT WEB 会員ID と紐づけ（未登録なら無料・3分）</td></tr>
+<tr class="recommended"><th>③</th><td><strong>申込フォーム途中の紹介コード欄に入力</strong>。ここを飛ばすと 1,100 pt が入らない</td></tr>
+<tr><th>④</th><td>eKYC で本人確認（マイナンバーカード＋自撮り・郵送不要）</td><td>開設通知まで <strong>最短即日〜数営業日</strong></td></tr>
+<tr><th>⑤</th><td>入金・給与受取・口座振替・JRE POINT リンク登録などの条件を達成</td><td>ポイント付与は <strong>2026年10月末 予定</strong></td></tr>
+</tbody>
+</table>
+</div>
+
 特に気をつけてほしいポイントは3つ。**(a) 紹介コードは申込フォーム内で入力するタイミングが唯一**で、口座開設後に「忘れたから追加で」は公式に救済不可。**(b) JRE POINT WEB 会員のリンク登録を必ず判定日（2026/8/31）までに完了**しておくこと（解除すると特典対象外になる可能性あり）。**(c) 紹介プログラム1,100pt と口座開設キャンペーン最大5,900pt は併用可**で、合算 最大 7,000 pt が貰える設計になっている、ということは見落としがちなので頭に入れておいて。
 
 紹介コード経由で申し込むなら、<a href="https://www.rakuten-bank.co.jp/rd/app/jre/introduction_code/s001.html" target="_blank" rel="sponsored noopener nofollow">こちらの紹介リンク</a>からどうぞ。紹介コードは **`J94101753`** よ。
@@ -271,7 +331,7 @@ JRE BANK には **JR東日本×楽天銀行が運営する「口座紹介プロ�
 
 <p class="source-note">出典: <a href="https://www.rakuten-bank.co.jp/rd/app/jre/" target="_blank" rel="noopener nofollow">楽天銀行 JRE BANK 申込ガイド</a> ／ <a href="https://www.rakuten-bank.co.jp/jrebank/campaign/referral/" target="_blank" rel="noopener nofollow">JRE BANK 口座紹介プログラム</a></p>
 
-## JRE BANK 基本スペック｜申込前に最終確認
+<h2 class="brand-h" id="jre-bank-基本スペック申込前に最終確認"><img class="brand-logo" src="/images/jre-bank-campaign-2026/logos/jrebank.png" alt="JRE BANKのロゴ" loading="lazy" /><span>JRE BANK 基本スペック｜申込前に最終確認</span></h2>
 
 数字でカチッと整理しておく。これ見て「やる価値ある」と思ったら開設。
 
