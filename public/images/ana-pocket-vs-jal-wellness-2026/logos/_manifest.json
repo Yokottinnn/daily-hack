@@ -1,0 +1,23 @@
+{
+ "_note": "識別目的で使うロゴ。**商標であり自由ライセンスではない。** 改変しない（CSS の枠は可）。取得元と取得日をここに残す。",
+ "anapocket.png": {
+  "brand": "ANA Pocket",
+  "source": "App Store の登録アイコン（artworkUrl512）",
+  "page": "https://apps.apple.com/jp/app/id1598209192",
+  "fetched": "2026-09-20",
+  "license_note": "商標。識別目的で使用",
+  "task": "ops/tasks/t124-app-icons-byname.sh",
+  "copied_from": "public/images/walk-poikatsu-2026/logos/anapocket.png",
+  "copied": "2026-09-21"
+ },
+ "jalwellness.png": {
+  "brand": "JAL Wellness & Travel",
+  "source": "App Store の登録アイコン（artworkUrl512）",
+  "page": "https://apps.apple.com/jp/app/id1498726068",
+  "fetched": "2026-09-20",
+  "license_note": "商標。識別目的で使用",
+  "task": "ops/tasks/t128-logos-retry4.sh",
+  "copied_from": "public/images/walk-poikatsu-2026/logos/jalwellness.png",
+  "copied": "2026-09-21"
+ }
+}
