@@ -45,4 +45,4 @@ git mv ops/tasks/pending/x112-post-tokyo-supermarket.sh ops/tasks/
 
 | ファイル | いつ上げるか | なぜ待たせているか |
 | --- | --- | --- |
-| `x112-post-tokyo-supermarket.sh` | **2026-09-21 17:00 JST** | **利用者が時刻を選んだ**（「21日中に投稿してほしい」→ 17:00〜18:00）。文面・画像とも承認済み |
+| （いまは空）| | |
