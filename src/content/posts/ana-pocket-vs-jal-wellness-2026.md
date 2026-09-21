@@ -26,7 +26,7 @@ references: ["https://www.anapocket.com/pro", "https://www.jal.co.jp/jp/ja/jmb/w
 
 ## ⚔️ まずは結論 — ANA Pocket vs JAL Wellness 早見表
 
-| 比較軸 | 🔵 <a href="https://www.anapocket.com/pro" target="_blank" rel="noopener nofollow">ANA Pocket</a> | 🔴 <a href="https://www.jal.co.jp/jp/ja/jmb/wellness/" target="_blank" rel="noopener nofollow">JAL Wellness &amp; Travel</a> |
+| 比較軸 | <span class="cell-brand"><img class="brand-logo-sm" src="/images/ana-pocket-vs-jal-wellness-2026/logos/anapocket.png" alt="" loading="lazy" /><a href="https://www.anapocket.com/pro" target="_blank" rel="noopener nofollow">ANA Pocket</a></span> | <span class="cell-brand"><img class="brand-logo-sm" src="/images/ana-pocket-vs-jal-wellness-2026/logos/jalwellness.png" alt="" loading="lazy" /><a href="https://www.jal.co.jp/jp/ja/jmb/wellness/" target="_blank" rel="noopener nofollow">JAL Wellness &amp; Travel</a></span> |
 |:---|:---|:---|
 | **貯まるマイル** | ANAマイル | JALマイル |
 | **貯め方** | 移動距離（徒歩・自転車・電車・車・新幹線・飛行機） | 1日の歩数チャレンジ＋くじ |
@@ -44,7 +44,7 @@ references: ["https://www.anapocket.com/pro", "https://www.jal.co.jp/jp/ja/jmb/w
 <div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+N7Y56+3ZZC+HY069" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/warau-300x250.jpg" alt="ポイ活ならワラウ【ワラウ】（広告利用ボーナスクリア）" width="300" height="250" loading="lazy"></a></div>
 </div>
 
-## 🔵 ANA Pocket — 移動距離型の王道
+<h2 class="brand-h" id="-ana-pocket--移動距離型の王道"><img class="brand-logo" src="/images/ana-pocket-vs-jal-wellness-2026/logos/anapocket.png" alt="ANA Pocketのロゴ" loading="lazy" /><span>🔵 ANA Pocket — 移動距離型の王道</span></h2>
 
 ANA Pocketは**徒歩だけじゃなく電車・車・新幹線・飛行機まで、あらゆる移動距離がポイントになる**のが最大の特徴。歩かなくても通勤や買い物の移動で勝手に貯まる。
 
@@ -73,7 +73,7 @@ ANA Pocketは**徒歩だけじゃなく電車・車・新幹線・飛行機ま�
 <p>ANA Pocketの強みは<strong>「無料でも始められて、課金(Pro)するとちゃんと元が取れる」</strong>ところ。電車通勤や車移動の人は“歩かなくても”貯まるから、生活を変えずにマイルが増える。アタシみたいに街なかをよく移動する人とは相性◎。</p>
 </div>
 
-## 🔴 JAL Wellness & Travel — 歩数×健康型
+<h2 class="brand-h" id="-jal-wellness--travel--歩数健康型"><img class="brand-logo" src="/images/ana-pocket-vs-jal-wellness-2026/logos/jalwellness.png" alt="JAL Wellness & Travelのロゴ" loading="lazy" /><span>🔴 JAL Wellness &amp; Travel — 歩数×健康型</span></h2>
 
 JALは<strong>「1日の歩数チャレンジ」を達成してマイル＋くじ</strong>を狙う、健康管理アプリ寄りの設計。歩けば歩くほど貯まるけど、**歩かない日はほぼ貯まらない**。
 
