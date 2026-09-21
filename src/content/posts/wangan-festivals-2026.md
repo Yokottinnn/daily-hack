@@ -29,6 +29,13 @@ references: ["https://tokyo-hanabi-festival.com/", "https://koto-hanabi.com/", "
 
 ## ⚡ 30秒サマリ（湾岸民が今年まず押さえる3つ）
 
+<div class="real-photos">
+<figure class="real-photo">
+<img src="/images/wangan-festivals-2026/photos/arakawa-kakoubashi.jpg" alt="荒川の河川敷から見た荒川河口橋 — 江東花火大会の会場になる荒川・砂町水辺公園の一帯" loading="lazy" />
+<figcaption>江東花火大会の会場は<strong>荒川・砂町水辺公園</strong>。隅田川ではなく荒川沿いで、土手がそのまま観覧エリアになる。<cite>出典: <a href="https://commons.wikimedia.org/wiki/File%3A%E8%8D%92%E5%B7%9D%E5%8F%B3%E5%B2%B8%E7%B5%82%E7%82%B9%E3%82%88%E3%82%8A%E8%8D%92%E5%B7%9D%E6%B2%B3%E5%8F%A3%E6%A9%8B%E3%81%AE%E7%9C%BA%E3%82%81_-_panoramio.jpg">Wikimedia Commons</a>／Kiyo（CC BY-SA 3.0）</cite></figcaption>
+</figure>
+</div>
+
 <ul class="checklist">
 <li>
 <div class="checklist-body">
@@ -73,6 +80,13 @@ references: ["https://tokyo-hanabi-festival.com/", "https://koto-hanabi.com/", "
 | お台場レインボー花火 | 番外（冬） | 例年開催・冬の日程未発表 | 例年 12月の週末 | 港区 台場 |
 
 ## 🌸 中央区エリア（晴海・月島・勝どき・佃）
+
+<div class="real-photos">
+<figure class="real-photo">
+<img src="/images/wangan-festivals-2026/photos/harumi-skyline.jpg" alt="レインボーブリッジから見た晴海・豊洲方面のスカイライン — 東京湾大華火祭の打ち上げは晴海沖" loading="lazy" />
+<figcaption>東京湾大華火祭の打ち上げは<strong>晴海沖</strong>。水面いっぱいに尺玉が上がるので、対岸からでも見える範囲は広い。<cite>出典: <a href="https://commons.wikimedia.org/wiki/File%3AHarumi_from_Rainbow_Bridge090505.JPG">Wikimedia Commons</a>／妖精書士（パブリックドメイン）</cite></figcaption>
+</figure>
+</div>
 
 湾岸のド真ん中。今年は**大華火**と**佃の本祭り**という二大看板が揃う、まさに主役エリア。
 
