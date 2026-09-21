@@ -103,8 +103,15 @@ def check(path):
     # tower-timeline は skill の部品表にある正規の視覚部品なので、ここに足す。
     # 2026-09-06: num-grid（比較バー）と pos-map（勢力図）を足した。
     # どちらも数字を図にした正規の視覚部品で、表や写真の代わりになる。
+    # 2026-09-21: **`<dl>`（仕様表）と compare-card** を足した。
+    # `compare-card` は「画像 → h3 → `<dl>`」の順に並ぶので、**見出しで分割すると
+    # 画像が前のチャンクへ行き、後ろには `<dl>` しか残らない。**
+    # 実物は仕様表として視覚化されているのに「ビジュアルが無い」と出ていた
+    # （jre-bank-campaign-2026）。`<dl>` はこのリポジトリでは **25 記事で仕様表**として
+    # 使われていて、文字の壁ではない。
     VISUAL = re.compile(r"<img\s|<iframe\s|twitter-tweet|event-pick|rn-figure|figure-card"
-                        r"|<table|tower-timeline|num-grid|pos-map|income-grid")
+                        r"|<table|tower-timeline|num-grid|pos-map|income-grid"
+                        r"|compare-card|<dl>|<dl\s")
     parts = re.split(r'(<h[23][^>]*>.*?</h[23]>)', body, flags=re.S)
     # parts: [前文, 見出し, 本文, 見出し, 本文, ...]
     for i in range(1, len(parts) - 1, 2):
