@@ -76,7 +76,7 @@ references:
   <h2>カード別に、何が変わったかを詳しく</h2>
 </div>
 
-### ① 三井住友カード（NL/ゴールド）— 「チャージ修行」と「現物タッチ」が封じられた
+<h3 class="brand-h" id="-三井住友カード"><img class="brand-logo" src="/images/credit-card-kaiaku-2026/logos/smbccard.png" alt="三井住友カードのロゴ" loading="lazy" /><span>① 三井住友カード（NL/ゴールド）— 「チャージ修行」と「現物タッチ」が封じられた</span></h3>
 
 三井住友陣営は、ここ1〜2年で地味に効く改定を重ねてる。ポイントは2つ。
 
@@ -84,13 +84,32 @@ references:
 
 そして2026年3月1日からの本丸がこれ。年会費永年無料の条件になっている「**年間100万円利用**」の集計対象から、**au PAY・Kyash・JAL Pay・バンドルカード へのチャージが除外**される（[三井住友カード公式](https://www.smbc-card.com/mem/cardinfo/25/cardinfo4030019.jsp)）。これまで「チャージを回して100万円を達成（＝いわゆる100万円修行）」してた人は、ルートが塞がれた。**実利用で100万円に届くか**を一度シミュレーションし直す必要があるわ。
 
+<div class="cmp-table-wrap">
+<table class="cmp-table spec-table">
+<thead><tr><th>いつ</th><th>何が変わったか</th><th>どうする</th></tr></thead>
+<tbody>
+<tr><th>実施済み</th><td><strong>カード現物のタッチ決済 5% → 1.5%</strong>（スマホのタッチは最大 7% のまま）</td><td>Google Pay / Apple Pay に登録して<strong>スマホでタッチ</strong>する</td></tr>
+<tr class="recommended"><th>2026年3月1日</th><td>年会費無料の条件「年間100万円利用」の集計から、<strong>au PAY・Kyash・JAL Pay・バンドルカードへのチャージが除外</strong></td><td><strong>実利用で100万円に届くか</strong>を計算し直す</td></tr>
+</tbody>
+</table>
+</div>
+
 ### ② dカード — 公共料金が「半減」、固定費の置き場所を見直す合図
 
 dカードは2026年2月1日から、**公共料金・税金などの一部利用先で還元率が1.0%→0.5%に半減**（[dカード公式](https://dcard.docomo.ne.jp/std/info/correction20251101.html)）。電気・ガス・水道・税金をdカードに集約して1%を取ってた人は、**実質的に取り分が半分**になった。
 
 固定費は金額が大きいぶん、還元率の差がそのまま効く。年間36万円の公共料金なら、1.0%→0.5%で**年3,600円→1,800円**。この手の「半減」は気づきにくいから、**公共料金の決済カードを高還元カードに振り直す**のが正解。
 
-### ③ PayPayカード — 「チャージで稼ぐ」が通用しなくなった
+<div class="cmp-table-wrap">
+<table class="cmp-table spec-table">
+<thead><tr><th>いつ</th><th>何が変わったか</th><th>年36万円の公共料金なら</th></tr></thead>
+<tbody>
+<tr><th>2026年2月1日</th><td>公共料金・税金などの一部利用先で <strong>1.0% → 0.5% に半減</strong></td><td><strong>年3,600円 → 1,800円</strong></td></tr>
+</tbody>
+</table>
+</div>
+
+<h3 class="brand-h" id="-paypayカード"><img class="brand-logo" src="/images/credit-card-kaiaku-2026/logos/paypaycard.png" alt="PayPayカードのロゴ" loading="lazy" /><span>③ PayPayカード — 「チャージで稼ぐ」が通用しなくなった</span></h3>
 
 PayPay陣営は自社決済への集約を強めていて、<strong>チャージ系の還元は0%、税金は0.5%</strong>へと縮小が進んでる。他社カードからのチャージで還元を取る“裏ルート”は、もうほぼ閉じたと思っていい。詳しい変更点と対策は別記事でガッツリ解説してるから、PayPayをメインにしてる人はそっちを必ず読んで。
 
@@ -102,7 +121,18 @@ PayPay陣営は自社決済への集約を強めていて、<strong>チャージ
 
 「エポスでチャージ→各種ペイで支払い」で二重取りしてたマニアには痛い変更。ただし**ゴールド／プラチナの年間ボーナスポイント判定の“年間利用額”には、チャージ額が引き続き集計される**点は押さえておいて（つまりインビテーションや年100万ボーナス狙いの利用額カウントは残る）。
 
-### ⑤ 楽天ペイ — これは“朗報”、引き下げが見合わせに
+<div class="cmp-table-wrap">
+<table class="cmp-table spec-table">
+<tbody>
+<tr><th>いつから</th><td><strong>2026年8月1日</strong></td></tr>
+<tr><th>終わるもの</th><td>決済サービスへの<strong>チャージ時のポイント加算</strong></td></tr>
+<tr><th>対象</th><td>ANA Pay ／ au PAY ／ JAL Pay ／ ソフトバンク・ワイモバイルまとめて支払い（PayPay残高チャージ含む）／ 楽天Edy ／ 交通系IC（Apple Pay・Google Pay 経由を含む）</td></tr>
+<tr class="recommended"><th>残るもの</th><td>ゴールド／プラチナの<strong>年間ボーナスポイント判定の「年間利用額」にはチャージ額が引き続き集計される</strong></td></tr>
+</tbody>
+</table>
+</div>
+
+<h3 class="brand-h" id="-楽天ペイ"><img class="brand-logo" src="/images/credit-card-kaiaku-2026/logos/rakutenpay.png" alt="楽天ペイのロゴ" loading="lazy" /><span>⑤ 楽天ペイ — これは“朗報”、引き下げが見合わせに</span></h3>
 
 暗い話ばかりじゃない。楽天ペイは2026年3月に予定していた<strong>還元率1.5%→1.0%への引き下げ＆ポイントカード提示条件の厳格化を「見合わせ」</strong>た（[ITmedia](https://www.itmedia.co.jp/mobile/articles/2601/16/news126.html)）。ユーザーの反発が効いた形ね。**当面1.5%還元の価値が残る**から、楽天経済圏の人はここは安心していい。ただしチャージルート側（エポス等の改悪）は別問題なので、チャージ元のカードは見直しておくこと。
 
