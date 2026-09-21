@@ -1,5 +1,5 @@
 #!/bin/bash
-# **dカードとエポスカードのロゴを、名前で調べて取る（t146）。LLM 不使用・$0。**
+# **カード 2 ブランドとメンズ脱毛 5 社のロゴを、名前で調べて取る（t146）。LLM 不使用・$0。**
 #
 # `credit-card-kaiaku-2026` の見出しに 5 ブランドが並んでいるのに、**ロゴが 1 つも無い**
 # （最上位ルール 17）。うち 3 つはリポジトリに在ったので流用する。
@@ -76,6 +76,13 @@ TARGETS = [
      "https://dcard.docomo.ne.jp/"),
     ("eposcard", "エポスカード", ["Epos Card logo", "エポスカード"],
      "https://www.eposcard.co.jp/"),
+    # **メンズ脱毛の 5 社**（mens-hairremoval-comparison-2026・ロゴが 1 つも無い）
+    ("mensrize", "メンズリゼ", ["Mens Rize clinic logo"], "https://www.mens-rize.com/"),
+    ("sbcmens", "湘南美容クリニック", ["Shonan Beauty Clinic logo", "湘南美容外科"],
+     "https://www.sbc-mens.net/"),
+    ("gorilla", "ゴリラクリニック", ["Gorilla Clinic logo"], "https://gorilla.clinic/"),
+    ("rinx", "RINX", ["RINX mens datsumou logo"], "https://mens-rinx.jp/"),
+    ("menstbc", "メンズTBC", ["TBC group logo", "メンズTBC"], "https://www.tbc.co.jp/mens/"),
 ]
 
 for key, jp, terms, site in TARGETS:
