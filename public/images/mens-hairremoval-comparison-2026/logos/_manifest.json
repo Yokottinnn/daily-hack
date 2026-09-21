@@ -1,0 +1,47 @@
+{
+ "_note": "識別目的で使うロゴ。**商標であり自由ライセンスではない。** 改変しない（CSS の枠は可）。取得元と取得日をここに残す。",
+ "mensrize.png": {
+  "brand": "メンズリゼ",
+  "source": "https://www.mens-rize.com/img/common/logo.svg",
+  "page": "https://www.mens-rize.com/",
+  "fetched": "2026-09-21",
+  "note": "SVG を Chromium でラスタライズ（scripts/svg-to-png.mjs）",
+  "license_note": "商標。識別目的で使用",
+  "task": "ops/tasks/t146-dcard-epos-logos.sh"
+ },
+ "sbcmens.png": {
+  "brand": "湘南美容クリニック（SBC MEN'S）",
+  "source": "https://www.sbc-mens.net/assets/images/common/header_logo2022.png",
+  "page": "https://www.sbc-mens.net/",
+  "fetched": "2026-09-21",
+  "license_note": "商標。識別目的で使用",
+  "task": "ops/tasks/t146-dcard-epos-logos.sh"
+ },
+ "gorilla.png": {
+  "brand": "ゴリラクリニック",
+  "source": "https://gorilla.clinic/fwp/wp-content/themes/theme/assets/img/logo/logo.svg",
+  "page": "https://gorilla.clinic/",
+  "fetched": "2026-09-21",
+  "note": "シンボルマーク。SVG をラスタライズ",
+  "license_note": "商標。識別目的で使用",
+  "task": "ops/tasks/t146-dcard-epos-logos.sh"
+ },
+ "rinx.png": {
+  "brand": "RINX（リンクス）",
+  "source": "https://mens-rinx.jp/assets/img/header-tel-logo.svg",
+  "page": "https://mens-rinx.jp/",
+  "fetched": "2026-09-21",
+  "note": "文字組みのある版を採った（logo.png は R マークのみ）",
+  "license_note": "商標。識別目的で使用",
+  "task": "ops/tasks/t146-dcard-epos-logos.sh"
+ },
+ "menstbc.png": {
+  "brand": "メンズTBC",
+  "source": "https://www.tbc.co.jp/cnt_common/images/logo_mens.png",
+  "page": "https://www.tbc.co.jp/mens/",
+  "fetched": "2026-09-21",
+  "note": "**白抜き。** 画像は加工せず on-dark で枠を暗くして使う",
+  "license_note": "商標。識別目的で使用",
+  "task": "ops/tasks/t146-dcard-epos-logos.sh"
+ }
+}

@@ -104,11 +104,11 @@ references:
 
 | 会社 | 種別 | ヒゲ3部位 5/6回 | 全身5回（ヒゲ・VIO別） | VIO 5/6回 | 痛み・機器 | カウンセリング |
 |---|---|---|---|---|---|---|
-| **[メンズリゼ](https://www.mens-rize.com/price/)** | 医療 | **59,800円**（ヒゲ全部位5回） | **229,800円** | **99,800円** | 蓄熱式＋熱破壊式の3機種使い分け／麻酔有料 | 無料・予約制 |
-| **[湘南美容クリニック](https://www.sbc-mens.net/contents/datsumo/hige/)** | 医療 | **16,800円**（3部位6回・全員同一料金） | **293,330円**（パーフェクト全身6回） | **84,000円**（6回） | アレキサンドライト中心／笑気麻酔2,200円 | 無料・即日施術可 |
-| **[ゴリラクリニック](https://gorilla.clinic/operation/epilation/parts/hige/menu/)** | 医療 | **39,800円**（3部位6回）／全部位 76,800円（6部位6回） | **354,800円**（全身6回・男性専門） | **140,800円**（5回） | メディオスター等4機種／笑気麻酔6,000円 | 無料・男性専門 |
-| **[RINX](https://mens-rinx.jp/price)** | サロン（光） | **84,000円**（6部位6回） | **266,000円**（14部位6回・ヒゲ別） | 部位別／全身パックに内包 | THR光脱毛・男性専用設計／痛み弱め | 無料・テスト照射あり |
-| **[メンズTBC](https://www.tbc.co.jp/mens/)** | サロン（美容電気＋光） | **130〜143円/本**（スーパー脱毛・ビジター価格） | プランによる（要見積） | 同上 | 1本ずつ針で処理（電気）＋光のハイブリッド | 体験1,000円・入会金17,160円 |
+| <span class="cell-brand"><img class="brand-logo-sm" src="/images/mens-hairremoval-comparison-2026/logos/mensrize.png" alt="" loading="lazy" /><a href="https://www.mens-rize.com/price/">メンズリゼ</a></span> | 医療 | **59,800円**（ヒゲ全部位5回） | **229,800円** | **99,800円** | 蓄熱式＋熱破壊式の3機種使い分け／麻酔有料 | 無料・予約制 |
+| <span class="cell-brand"><img class="brand-logo-sm" src="/images/mens-hairremoval-comparison-2026/logos/sbcmens.png" alt="" loading="lazy" /><a href="https://www.sbc-mens.net/contents/datsumo/hige/">湘南美容クリニック</a></span> | 医療 | **16,800円**（3部位6回・全員同一料金） | **293,330円**（パーフェクト全身6回） | **84,000円**（6回） | アレキサンドライト中心／笑気麻酔2,200円 | 無料・即日施術可 |
+| <span class="cell-brand"><img class="brand-logo-sm" src="/images/mens-hairremoval-comparison-2026/logos/gorilla.png" alt="" loading="lazy" /><a href="https://gorilla.clinic/operation/epilation/parts/hige/menu/">ゴリラクリニック</a></span> | 医療 | **39,800円**（3部位6回）／全部位 76,800円（6部位6回） | **354,800円**（全身6回・男性専門） | **140,800円**（5回） | メディオスター等4機種／笑気麻酔6,000円 | 無料・男性専門 |
+| <span class="cell-brand"><img class="brand-logo-sm" src="/images/mens-hairremoval-comparison-2026/logos/rinx.png" alt="" loading="lazy" /><a href="https://mens-rinx.jp/price">RINX</a></span> | サロン（光） | **84,000円**（6部位6回） | **266,000円**（14部位6回・ヒゲ別） | 部位別／全身パックに内包 | THR光脱毛・男性専用設計／痛み弱め | 無料・テスト照射あり |
+| <span class="cell-brand"><img class="brand-logo-sm on-dark" src="/images/mens-hairremoval-comparison-2026/logos/menstbc.png" alt="" loading="lazy" /><a href="https://www.tbc.co.jp/mens/">メンズTBC</a></span> | サロン（美容電気＋光） | **130〜143円/本**（スーパー脱毛・ビジター価格） | プランによる（要見積） | 同上 | 1本ずつ針で処理（電気）＋光のハイブリッド | 体験1,000円・入会金17,160円 |
 
 <p class="source-note">※ 料金は2026年5月時点の各社公式サイト表記（税込）。コース内容・適用条件は申込時期や院により異なります。最新条件は必ず各社公式で確認してください。</p>
 
@@ -174,7 +174,7 @@ references:
 
 ## 各社詳細
 
-### 1. メンズリゼ — 医療系総合バランス最強
+<h3 class="brand-h" id="-メンズリゼ--医療系総合バランス最強"><img class="brand-logo" src="/images/mens-hairremoval-comparison-2026/logos/mensrize.png" alt="メンズリゼのロゴ" loading="lazy" /><span>1. メンズリゼ — 医療系総合バランス最強</span></h3>
 
 <div class="section-with-mascot">
   <div class="mascot-wrap"><img src="/images/expr-04-cheer.png" alt="" /></div>
@@ -197,7 +197,7 @@ references:
 
 [メンズリゼ公式サイトで料金確認 →](https://www.mens-rize.com/price/){target="_blank" rel="nofollow noopener"}
 
-### 2. 湘南美容クリニック（SBC MEN'S） — ヒゲだけ最安・全国網
+<h3 class="brand-h" id="-湘南美容クリニックsbc-mens--ヒゲだけ最安全国網"><img class="brand-logo" src="/images/mens-hairremoval-comparison-2026/logos/sbcmens.png" alt="湘南美容クリニックのロゴ" loading="lazy" /><span>2. 湘南美容クリニック（SBC MEN'S） — ヒゲだけ最安・全国網</span></h3>
 
 | 項目 | 内容 |
 |---|---|
@@ -215,7 +215,7 @@ references:
 
 [湘南美容クリニックMEN'S公式 →](https://www.sbc-mens.net/contents/datsumo/hige/){target="_blank" rel="nofollow noopener"}
 
-### 3. ゴリラクリニック — 男性専門・「ゴリゴリ通う」覚悟向け
+<h3 class="brand-h" id="-ゴリラクリニック--男性専門ゴリゴリ通う覚悟向け"><img class="brand-logo" src="/images/mens-hairremoval-comparison-2026/logos/gorilla.png" alt="ゴリラクリニックのロゴ" loading="lazy" /><span>3. ゴリラクリニック — 男性専門・「ゴリゴリ通う」覚悟向け</span></h3>
 
 <img src="/images/expr-09-arms-crossed.png" alt="ハッカー子" class="mascot-inline-right" style="width:140px;float:right;margin:0 0 12px 16px;" />
 
@@ -235,7 +235,7 @@ references:
 
 [ゴリラクリニック公式 →](https://gorilla.clinic/operation/epilation/parts/hige/menu/){target="_blank" rel="nofollow noopener"}
 
-### 4. RINX（リンクス） — サロン最大手・80%OFFアフター保証
+<h3 class="brand-h" id="-rinxリンクス--サロン最大手80offアフター保証"><img class="brand-logo" src="/images/mens-hairremoval-comparison-2026/logos/rinx.png" alt="RINXのロゴ" loading="lazy" /><span>4. RINX（リンクス） — サロン最大手・80%OFFアフター保証</span></h3>
 
 | 項目 | 内容 |
 |---|---|
@@ -251,7 +251,7 @@ references:
 
 [RINX公式サイト →](https://mens-rinx.jp/){target="_blank" rel="nofollow noopener"}
 
-### 5. メンズTBC — 「この1本だけ確実に」が欲しいデザイン派へ
+<h3 class="brand-h" id="-メンズtbc--この1本だけ確実にが欲しいデザイン派へ"><img class="brand-logo on-dark" src="/images/mens-hairremoval-comparison-2026/logos/menstbc.png" alt="メンズTBCのロゴ" loading="lazy" /><span>5. メンズTBC — 「この1本だけ確実に」が欲しいデザイン派へ</span></h3>
 
 | 項目 | 内容 |
 |---|---|
