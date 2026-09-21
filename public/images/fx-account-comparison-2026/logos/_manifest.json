@@ -1,0 +1,45 @@
+{
+ "_note": "識別目的で使うロゴ。**商標であり自由ライセンスではない。** 改変しない（CSS の枠は可）。取得元と取得日をここに残す。",
+ "gaitame.png": {
+  "brand": "外為どっとコム",
+  "source": "https://www.gaitame.com/assets/img/global/logo-gaitame.svg",
+  "page": "https://www.gaitame.com/",
+  "fetched": "2026-09-21",
+  "note": "SVG を Chromium でラスタライズ",
+  "license_note": "商標。識別目的で使用",
+  "task": "ops/tasks/t150-fx-logos.sh"
+ },
+ "minnafx.png": {
+  "brand": "みんなのFX（トレイダーズ証券）",
+  "source": "https://min-fx.jp/images/home/logominfx.svg",
+  "page": "https://min-fx.jp/",
+  "fetched": "2026-09-21",
+  "note": "SVG をラスタライズ",
+  "license_note": "商標。識別目的で使用",
+  "task": "ops/tasks/t150-fx-logos.sh"
+ },
+ "matsui.png": {
+  "brand": "松井証券",
+  "source": "https://www.matsui.co.jp/apple-touch-icon.png",
+  "page": "https://www.matsui.co.jp/",
+  "fetched": "2026-09-21",
+  "note": "**ヘッダーの SVG はキャッチコピー入りだったので、素直な apple-touch-icon を採った**",
+  "license_note": "商標。識別目的で使用",
+  "task": "ops/tasks/t150-fx-logos.sh"
+ },
+ "sbifx.png": {
+  "brand": "SBI FXトレード",
+  "source": "https://www.sbifxt.co.jp/images/sbifxt_logo_250929.png",
+  "page": "https://www.sbifxt.co.jp/",
+  "fetched": "2026-09-21",
+  "license_note": "商標。識別目的で使用",
+  "task": "ops/tasks/t150-fx-logos.sh"
+ },
+ "rakutensec.png": {
+  "brand": "楽天証券",
+  "copied_from": "public/images/nisa-investment-beginner-guide-2026/logos/rakutensec.png",
+  "copied": "2026-09-21",
+  "note": "**在庫を流用。** 目で見て正しいブランドであることを確認済み",
+  "license_note": "商標。識別目的で使用"
+ }
+}
