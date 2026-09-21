@@ -72,5 +72,13 @@
     "px": "1280x960",
     "commons_title": "File:Harumi from Rainbow Bridge090505.JPG",
     "added": "2026-09-21（ops/tasks/t145）"
+  },
+  "toyosu-gururi": {
+    "file": "toyosu-gururi.jpg",
+    "lic": "CC BY-SA 4.0",
+    "artist": "Lombroso",
+    "page": "https://commons.wikimedia.org/wiki/File%3AToyosu_Gururi_Park%2C_at_Toyosu%2C_Koto%2C_Tokyo_%282019-01-01%29_02.jpg",
+    "px": "1920x1440",
+    "added": "2026-09-21（一般会場の実物。ops/tasks/t145 で取得）"
   }
 }
