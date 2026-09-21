@@ -1,4 +1,3 @@
 [
-      {"task": "x118-verify-autoload-loaded.sh", "rc": 0, "out": "autoload 14 本 の実態 / verify-autoload-loaded.md 86 行"},
-      {"task": "x119-trace-follower-history-readers.sh", "rc": 0, "out": "follower-history の読み手を洗う / trace-follower-history-readers.md 159 行"}
+      {"task": "t152-bank-logos.sh", "rc": 0, "out": "**9 件 持ち帰った。** **採否はクラウド側で目で見て決める。** **運営会社・別サービスのロゴが混ざる**ので、そのまま入れない。  経過 **47 秒**。"}
   ]
