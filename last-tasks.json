@@ -1,1 +1,4 @@
-[]
+[
+      {"task": "x120-read-unfollow-cleanup-usage.sh", "rc": 0, "out": "unfollow-cleanup の使い方を読む / read-unfollow-cleanup-usage.md 318 行"},
+      {"task": "x121-read-pipeline-heartbeat-now.sh", "rc": 0, "out": "pipeline-heartbeat のいまとコスト実額 / pipeline-heartbeat-now.md 95 行"}
+  ]
