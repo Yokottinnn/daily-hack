@@ -40,9 +40,12 @@ done
 [ -n "$PY" ] || { echo "Python 3.10 以上が無い" | tee "$OUT"; exit 1; }
 
 "$PY" - "$OUT" "$DIR" <<'PYEOF'
-import datetime as dt, json, re, sys, urllib.parse, urllib.request
+import datetime as dt, json, re, sys, time, urllib.parse, urllib.request
 
 OUT, DIR = sys.argv[1], sys.argv[2]
+# **1 タスク 5 分 以内**（最上位ルール 15）。対象が 7 件あるので、時間で打ち切る
+T0 = time.monotonic()
+BUDGET = 210.0
 UA = {"User-Agent": "daily-hack-ops/1.0 (blog editorial use; github.com/Yokottinnn/daily-hack)"}
 
 def get(url, timeout=25):
@@ -86,6 +89,9 @@ TARGETS = [
 ]
 
 for key, jp, terms, site in TARGETS:
+    if time.monotonic() - T0 > BUDGET:
+        lines += [f"## {jp}", "", "- ⏱️ **時間切れで見ていない**（次のタスクで取る）", ""]
+        continue
     lines += [f"## {jp}", ""]
     got = False
     for t in terms:
