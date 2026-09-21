@@ -68,6 +68,12 @@
 
 <!-- 新しい記録がこの下に追加される（新しいものが上） -->
 
+### 2026-09-21 — PR #618/#621/#622 をマージ。フォロワーのペースを一次情報で確定（12日平均 3.25人/日・9/30 に 295人 で 5人 不足）。autoload 14本 は全部 載っていた（tried:0 は正常）。死んでいる follower-history.json の読み手は unfollow-cleanup.js だけと判明
+
+次のアクション:
+
+- [ ] x120 のレポートで unfollow-cleanup が follower-history を読んでいるか確かめる。17:00 JST に格安スーパーの告知（x112・scratchpad に用意済み）を出す。pipeline-heartbeat が last exit code=2 で落ちている
+
 ### 2026-09-21 — フォロワー記録の実体を特定（follower-snapshots/YYYY-MM-DD.json の count）。follower-history.json は 5/23 で死んでおり最後が followers:0 の誤読。9/9〜9/19 の 11 日分は記録が欠けている（48本のジョブが外れていた期間と一致）
 
 次のアクション:
