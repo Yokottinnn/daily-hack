@@ -45,4 +45,4 @@ git mv ops/tasks/pending/x112-post-tokyo-supermarket.sh ops/tasks/
 
 | ファイル | いつ上げるか | なぜ待たせているか |
 | --- | --- | --- |
-| `x123-clear-deleted-supermarket-entry.sh` | **出し直すタスクと同時** | 利用者が画像を直すため投稿を消した。**先に上げるとキューだけ消えて投稿が無い隙間ができる** |
+| （いまは空）| | |

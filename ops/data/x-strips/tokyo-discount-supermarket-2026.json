@@ -1,0 +1,53 @@
+{
+  "_doc": "X 告知カードに敷く帯（1000x560）。node scripts/gen-x-strips.mjs ops/data/x-strips/tokyo-discount-supermarket-2026.json",
+  "_note": "**出所の行は焼き込まない**（2026-09-20 の指示・最上位ルール 8）。だから素材は CC0・各社ロゴ・自作の合成だけ。2026-09-21 に『店舗画像を透過した背景にして』と指摘され、まいばすけっとは CC0 の実写を敷けたが、**トライアル／西友は Commons に CC0 / PD が 1 枚も無かった**（x124 の実測。実店舗の写真 11 件 は全部 CC BY か CC BY-SA）。そちらは**ロゴを大きく薄く敷いた自作の合成**にしてある。CC BY-SA を戻すなら、出所の行も戻すこと。",
+  "slug": "tokyo-discount-supermarket-2026",
+  "imageBase": "public/images/tokyo-discount-supermarket-2026",
+  "strips": [
+    {
+      "out": "mybasket-strip.jpg",
+      "_src": "photos/maibasket-shirokane.jpg は CC0（Syced / Commons）。出所の行が要らない",
+      "photo": "photos/maibasket-shirokane.jpg",
+      "photoPos": "center 68%",
+      "photoOpacity": 0.55,
+      "photoSaturate": 0.82,
+      "veilTop": 0.58,
+      "veilMid": 0.22,
+      "logoTop": 44,
+      "logos": [
+        {
+          "file": "logos/mybasket.png",
+          "w": 430
+        }
+      ]
+    },
+    {
+      "out": "trial-seiyu-strip.jpg",
+      "_src": "**店舗写真は使えない。** CC0 / PD が存在せず、手元の trial-seiyu-hanakoganei.jpg は CC BY-SA 4.0。ロゴ自体を敷いて背景にしている（商標・識別目的）",
+      "wash": [
+        {
+          "file": "logos/trial.png",
+          "w": 760,
+          "opacity": 0.19
+        }
+      ],
+      "washShift": -30,
+      "washRotate": -7,
+      "veilTop": 0.4,
+      "veilMid": 0.18,
+      "logoTop": 46,
+      "gap": 30,
+      "joiner": "×",
+      "logos": [
+        {
+          "file": "logos/trial.png",
+          "w": 300
+        },
+        {
+          "file": "logos/seiyu.png",
+          "w": 240
+        }
+      ]
+    }
+  ]
+}
