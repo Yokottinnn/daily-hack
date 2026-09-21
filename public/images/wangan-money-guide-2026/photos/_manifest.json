@@ -37,5 +37,18 @@
    "artist": "User:Kentin",
    "px": "1920x1440"
   }
- ]
+ ],
+ "_eyecatch": {
+  "file": "../eyecatch.jpg",
+  "made": "2026-09-21",
+  "how": "scripts/gen-mosaic-hero.py（タイル6枚＋透過オーバーレイ。blog-article スキルの標準形）",
+  "tiles": [
+   "wangan-festivals-2026/photos/harumi-skyline.jpg",
+   "kachidoki-canal.jpg",
+   "sunamachi-ginza.jpg",
+   "toyosu-gururi.jpg",
+   "rainbow-bridge.jpg",
+   "wangan-festivals-2026/photos/arakawa-kakoubashi.jpg"
+  ]
+ }
 }
