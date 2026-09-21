@@ -85,12 +85,12 @@ references: ["https://fx.dmm.com/", "https://www.gaitame.com/", "https://min-fx.
 | 社名 | スプレッド USD/JPY | 最低取引単位 | キャッシュバック上限 | 取引ツール | スマホアプリ | サポート |
 |---|---|---|---|---|---|---|
 | **<a href="https://fx.dmm.com/" target="_blank" rel="noopener nofollow">DMM FX</a>** | 0.2銭 原則固定 | 10,000通貨 | 最大 **30万円** | DMMFX PLUS | 高評価 | LINE 24h |
-| **<a href="https://www.gaitame.com/" target="_blank" rel="noopener nofollow">外為どっとコム</a>** | 0.2銭 原則固定 | 1,000通貨 | 最大 **40万円** | 外貨ネクストネオ | 評価高 | **24h電話** |
+| <span class="cell-brand"><img class="brand-logo-sm" src="/images/fx-account-comparison-2026/logos/gaitame.png" alt="" loading="lazy" /><a href="https://www.gaitame.com/" target="_blank" rel="noopener nofollow">外為どっとコム</a></span> | 0.2銭 原則固定 | 1,000通貨 | 最大 **40万円** | 外貨ネクストネオ | 評価高 | **24h電話** |
 | **<a href="https://www.click-sec.com/corp/fx/" target="_blank" rel="noopener nofollow">GMOクリック証券</a>** | 0.2銭 原則固定 | 10,000通貨 | 最大 **55万円** | はっちゅう君FXプラス | 業界高評価 | メール・電話 |
-| **<a href="https://min-fx.jp/" target="_blank" rel="noopener nofollow">みんなのFX</a>** | 0.2銭 原則固定 | 1,000通貨 | 最大 **50万円** | みんなのFXトレーダー | 改善中 | メール・電話 |
-| **<a href="https://www.rakuten-sec.co.jp/fx/" target="_blank" rel="noopener nofollow">楽天FX</a>** | 0.2銭 原則固定 | 1,000通貨 | 最大 **30万円** | MarketSpeed FX | iSPEED FX | メール・電話 |
-| **<a href="https://www.matsui.co.jp/service/fx/" target="_blank" rel="noopener nofollow">松井FX</a>** | 0.2銭 原則固定 | **1通貨** | 最大 1万円 | ネットストック | 標準 | メール・電話 |
-| **<a href="https://www.sbifxt.co.jp/" target="_blank" rel="noopener nofollow">SBI FXトレード</a>** | 0.18銭 原則固定 | **1通貨** | 最大 30万円 | SBI FXTRADE | 高評価 | メール・電話 |
+| <span class="cell-brand"><img class="brand-logo-sm" src="/images/fx-account-comparison-2026/logos/minnafx.png" alt="" loading="lazy" /><a href="https://min-fx.jp/" target="_blank" rel="noopener nofollow">みんなのFX</a></span> | 0.2銭 原則固定 | 1,000通貨 | 最大 **50万円** | みんなのFXトレーダー | 改善中 | メール・電話 |
+| <span class="cell-brand"><img class="brand-logo-sm" src="/images/fx-account-comparison-2026/logos/rakutensec.png" alt="" loading="lazy" /><a href="https://www.rakuten-sec.co.jp/fx/" target="_blank" rel="noopener nofollow">楽天FX</a></span> | 0.2銭 原則固定 | 1,000通貨 | 最大 **30万円** | MarketSpeed FX | iSPEED FX | メール・電話 |
+| <span class="cell-brand"><img class="brand-logo-sm" src="/images/fx-account-comparison-2026/logos/matsui.png" alt="" loading="lazy" /><a href="https://www.matsui.co.jp/service/fx/" target="_blank" rel="noopener nofollow">松井FX</a></span> | 0.2銭 原則固定 | **1通貨** | 最大 1万円 | ネットストック | 標準 | メール・電話 |
+| <span class="cell-brand"><img class="brand-logo-sm" src="/images/fx-account-comparison-2026/logos/sbifx.png" alt="" loading="lazy" /><a href="https://www.sbifxt.co.jp/" target="_blank" rel="noopener nofollow">SBI FXトレード</a></span> | 0.18銭 原則固定 | **1通貨** | 最大 30万円 | SBI FXTRADE | 高評価 | メール・電話 |
 | **<a href="https://mst.monex.co.jp/mst/servlet/ITS/fx/" target="_blank" rel="noopener nofollow">マネックスFX</a>** | 0.2銭 原則固定 | 1,000通貨 | 最大 30万円 | MonexTraderFX | 標準 | メール・電話 |
 
 > 💡 **キャッシュバック達成条件**：各社「新規口座開設＋取引数量〇万Lot以上」の階段方式。最高額は数千万Lot必要なので**現実的には5〜10万円達成が目安**。「最大55万」は理論値。
@@ -117,7 +117,7 @@ references: ["https://fx.dmm.com/", "https://www.gaitame.com/", "https://min-fx.
   </table>
 </div>
 
-### 🥈 外為どっとコム — サポート充実
+<h3 class="brand-h" id="-外為どっとコム--サポート充実"><img class="brand-logo" src="/images/fx-account-comparison-2026/logos/gaitame.png" alt="外為どっとコムのロゴ" loading="lazy" /><span>🥈 外為どっとコム — サポート充実</span></h3>
 
 <div class="cmp-table-wrap">
   <table class="cmp-table spec-table">
@@ -152,7 +152,7 @@ references: ["https://fx.dmm.com/", "https://www.gaitame.com/", "https://min-fx.
   </table>
 </div>
 
-### 🟦 みんなのFX（トレイダーズ証券） — 自動売買派
+<h3 class="brand-h" id="-みんなのfxトレイダーズ証券--自動売買派"><img class="brand-logo" src="/images/fx-account-comparison-2026/logos/minnafx.png" alt="みんなのFXのロゴ" loading="lazy" /><span>🟦 みんなのFX（トレイダーズ証券） — 自動売買派</span></h3>
 
 <div class="cmp-table-wrap">
   <table class="cmp-table spec-table">
@@ -168,7 +168,7 @@ references: ["https://fx.dmm.com/", "https://www.gaitame.com/", "https://min-fx.
   </table>
 </div>
 
-### 🔴 楽天FX（楽天証券） — 楽天経済圏
+<h3 class="brand-h" id="-楽天fx楽天証券--楽天経済圏"><img class="brand-logo" src="/images/fx-account-comparison-2026/logos/rakutensec.png" alt="楽天証券のロゴ" loading="lazy" /><span>🔴 楽天FX（楽天証券） — 楽天経済圏</span></h3>
 
 <div class="cmp-table-wrap">
   <table class="cmp-table spec-table">
@@ -184,7 +184,7 @@ references: ["https://fx.dmm.com/", "https://www.gaitame.com/", "https://min-fx.
   </table>
 </div>
 
-### 💎 松井FX（松井証券） — 超少額スタート
+<h3 class="brand-h" id="-松井fx松井証券--超少額スタート"><img class="brand-logo" src="/images/fx-account-comparison-2026/logos/matsui.png" alt="松井証券のロゴ" loading="lazy" /><span>💎 松井FX（松井証券） — 超少額スタート</span></h3>
 
 <div class="cmp-table-wrap">
   <table class="cmp-table spec-table">
@@ -200,7 +200,7 @@ references: ["https://fx.dmm.com/", "https://www.gaitame.com/", "https://min-fx.
   </table>
 </div>
 
-### 🌟 SBI FXトレード — 1通貨＋スプレッド0.18銭
+<h3 class="brand-h" id="-sbi-fxトレード--1通貨スプレッド018銭"><img class="brand-logo" src="/images/fx-account-comparison-2026/logos/sbifx.png" alt="SBI FXトレードのロゴ" loading="lazy" /><span>🌟 SBI FXトレード — 1通貨＋スプレッド0.18銭</span></h3>
 
 <div class="cmp-table-wrap">
   <table class="cmp-table spec-table">
