@@ -50,10 +50,24 @@
   .said { width:100%; margin:0; padding-top:8px; border-top:1px solid var(--line);
           font-size:12.5px; color:var(--done); }
 
-  .set { margin-block:44px 0; }
+  .tabs { display:flex; flex-wrap:wrap; gap:8px; margin-block:22px 0; }
+  .tabs button { display:flex; align-items:center; gap:8px; padding:9px 16px;
+                 font-size:13.5px; font-weight:700; border-radius:3px;
+                 border:1px solid var(--line); background:var(--surface); color:var(--muted); }
+  .tabs button[aria-current] { color:var(--ink); border-color:var(--ink);
+                               box-shadow:inset 0 -3px 0 var(--accent); }
+  .tabs button em { font-style:normal; font-size:11px; font-weight:700; color:var(--done); }
+  .tabs button i { font-style:normal; min-width:20px; padding:0 6px; border-radius:999px;
+                   background:var(--accent); color:var(--accent-ink);
+                   font-family:var(--mono); font-size:11px; text-align:center; }
+  .tabs button i:empty { display:none; }
+
+  .set { margin-block:26px 0; }
   .set > header { padding-bottom:6px; border-bottom:2px solid var(--ink); }
   .set h2 { margin:0; font-size:19px; }
   .set .slug { font-family:var(--mono); font-size:11.5px; color:var(--muted); }
+  .set .posted { margin:6px 0 0; font-size:12.5px; color:var(--done); font-weight:700; }
+  .set .posted a { color:var(--done); }
 
   .post { margin-top:20px; background:var(--surface); border:1px solid var(--line);
           border-radius:3px; box-shadow:var(--shadow); overflow:hidden; }
@@ -170,7 +184,7 @@
     <p class="eyebrow">daily-hack &nbsp;/&nbsp; @heng_ji31590</p>
     <h1>X告知レビュー</h1>
     <p class="lead">
-      投稿ごとに<b>文面と、その投稿に付ける画像</b>が並んでいます。
+      <b>いまレビューが要るのは「都心の格安スーパー」（下半分）です。</b>歩いてポイ活はもう投稿しました。<br>投稿ごとに<b>文面と、その投稿に付ける画像</b>が並んでいます。
       文面は<b>なぞってコメント</b>も、<b>その場で直接 書き換える</b>のもできます。
       画像は<b>直したいところをクリック</b>。
     </p>
@@ -209,6 +223,7 @@
   const SETS = [
     {
       key: "walk", title: "歩いてポイ活 2026年最新版", slug: "walk-poikatsu-2026",
+      posted: ["2101694599215599678", "2101694677514846544"],
       images: [
         { file: "1-summary.jpg", name: "表紙（4カード）", cap: "歩いてポイ活、勝つのはどこだ" },
         { file: "2-waon.jpg",    name: "2枚目",          cap: "毎日8,000歩で、年365円" },
@@ -219,10 +234,10 @@
     {
       key: "super", title: "都心の格安スーパー 2026", slug: "tokyo-discount-supermarket-2026",
       images: [
-        { file: "1-summary.jpg",     name: "表紙（4カード）", cap: "同じ「安い」でも、稼ぎ方が正反対" },
-        { file: "2-trial-seiyu.jpg", name: "2枚目",          cap: "西友の建物に「TRIAL SEIYU」" },
-        { file: "3-hanamasa.jpg",    name: "3枚目",          cap: "965gで、税込927円" },
-        { file: "4-tv.jpg",          name: "4枚目",          cap: "くるみパン259円、カツ丼299円" }
+        { file: "1-summary.jpg",   name: "表紙（4カード）", cap: "同じ「安い」でも、稼ぎ方が正反対" },
+        { file: "2-maibasket.jpg", name: "2枚目",          cap: "1,262店のうち879店が東京都" },
+        { file: "3-hanamasa.jpg",  name: "3枚目",          cap: "965gで、税込927円" },
+        { file: "4-tv.jpg",        name: "4枚目",          cap: "くるみパン259円、カツ丼299円" }
       ]
     }
   ];
@@ -346,7 +361,11 @@
     return form;
   }
 
+  // **未投稿を先に。** 済んだものが上にあると、どれを見ればいいのか分からない
+  SETS.sort((x, y) => (x.posted ? 1 : 0) - (y.posted ? 1 : 0));
+
   // ---------- 組み立て ----------
+  const sections = [];
   for (const set of SETS) {
     const sec = document.createElement("section");
     sec.className = "set";
@@ -354,6 +373,20 @@
     const h2 = document.createElement("h2"); h2.textContent = set.title;
     const slug = document.createElement("div"); slug.className = "slug"; slug.textContent = set.slug;
     head.append(h2, slug);
+    if (set.posted) {
+      // **出したものを、まだ見るものと混ぜない**
+      const done = document.createElement("p");
+      done.className = "posted";
+      done.append(document.createTextNode("投稿済み（" + set.posted.length + " 本）： "));
+      set.posted.forEach((tid, i) => {
+        const a = document.createElement("a");
+        a.href = "https://x.com/heng_ji31590/status/" + tid;
+        a.target = "_blank"; a.rel = "noopener";
+        a.textContent = "[" + (i + 1) + "/" + set.posted.length + "]";
+        done.append(a, document.createTextNode(i < set.posted.length - 1 ? " ・ " : ""));
+      });
+      head.append(done);
+    }
     sec.append(head);
 
     const posts = POSTS[set.key] || [];
@@ -522,13 +555,61 @@
       }
     });
 
+    sections.push({ set, sec });
     main.append(sec);
   }
 
-  const textOf = (target) => {
+  // ---------- 投稿ごとに切り替える ----------
+  // **1 画面に 1 記事だけ出す。** 済んだものと混ざると、どれを見ればいいのか分からない
+  const tabs = document.createElement("nav");
+  tabs.className = "tabs";
+  tabs.setAttribute("aria-label", "記事の切り替え");
+  const KEY = "x-review-tab";
+  let active = 0;
+  try {
+    const saved = localStorage.getItem(KEY);
+    const i = sections.findIndex((x) => x.set.key === saved);
+    if (i >= 0) active = i;
+  } catch (e) { /* 使えなくても動く */ }
+
+  const buttons = sections.map(({ set }, i) => {
+    const b = document.createElement("button");
+    b.type = "button";
+    const name = document.createElement("span");
+    name.textContent = set.title;
+    b.append(name);
+    if (set.posted) {
+      const chip = document.createElement("em");
+      chip.textContent = "投稿済み";
+      b.append(chip);
+    } else {
+      const n = document.createElement("i");
+      n.dataset.count = set.key;
+      b.append(n);
+    }
+    b.addEventListener("click", () => show(i));
+    tabs.append(b);
+    return b;
+  });
+
+  function show(i) {
+    active = i;
+    sections.forEach((x, k) => { x.sec.hidden = k !== i; });
+    buttons.forEach((b, k) => {
+      if (k === i) b.setAttribute("aria-current", "true");
+      else b.removeAttribute("aria-current");
+    });
+    try { localStorage.setItem(KEY, sections[i].set.key); } catch (e) { /* 使えなくても動く */ }
+    render();
+  }
+  main.before(tabs);
+
+  // **関数宣言にする。** `const` だと、先に呼ぶ `show()` が
+  // 「Cannot access 'textOf' before initialization」で落ちる（実際に踏んだ）
+  function textOf(target) {
     const d = drafts[target];
     return typeof d === "string" ? d : slots.get(target).base;
-  };
+  }
 
   // ---------- なぞった範囲 → 文字位置 ----------
   function offsetOf(root, node, off) {
@@ -699,11 +780,24 @@
     for (const [target, slot] of slots) {
       if (slot.kind === "text") renderText(target); else renderPins(target);
     }
-    elTotal.textContent = rows.length;
-    elOpen.textContent = rows.filter((r) => !r.done).length;
+    // **いま見ている記事の件数**を出す（全部の合計だと、どれの話か分からない）
+    const here = sections.length ? sections[active].set.key : null;
+    const mine = here ? rows.filter((r) => r.set === here) : rows;
+    elTotal.textContent = mine.length;
+    elOpen.textContent = mine.filter((r) => !r.done).length;
+    // タブ側にも未対応の数を出す
+    for (const set of SETS) {
+      const el = document.querySelector('.tabs i[data-count="' + set.key + '"]');
+      if (!el) continue;
+      const n = rows.filter((r) => r.set === set.key && !r.done).length;
+      el.textContent = n ? String(n) : "";
+      el.hidden = !n;
+    }
   }
 
-  render();
+  // **ここまで来て初めて呼ぶ。** 先に呼ぶと render() の中の関数が
+  // まだ初期化されておらず「Cannot access ... before initialization」で落ちる（2 回 踏んだ）
+  show(active);
 
   // ---------- 「修正をお願いする」 ----------
   btnAsk.addEventListener("click", async () => {
@@ -742,6 +836,7 @@
           const v = d.data() || {};
           return {
             id: d.id, target: String(v.target || ""),
+            set: String(v.set || String(v.target || "").split("/")[0] || ""),
             x: typeof v.x === "number" ? v.x : 0.5,
             y: typeof v.y === "number" ? v.y : 0.5,
             quote: typeof v.quote === "string" ? v.quote : "",
