@@ -1,3 +1,4 @@
 [
-      {"task": "x117-read-snapshot-dir.sh", "rc": 0, "out": "follower-snapshots を読む / read-snapshot-dir.md 105 行"}
+      {"task": "x118-verify-autoload-loaded.sh", "rc": 0, "out": "autoload 14 本 の実態 / verify-autoload-loaded.md 86 行"},
+      {"task": "x119-trace-follower-history-readers.sh", "rc": 0, "out": "follower-history の読み手を洗う / trace-follower-history-readers.md 159 行"}
   ]
