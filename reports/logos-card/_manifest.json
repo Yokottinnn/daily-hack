@@ -1,0 +1,296 @@
+{
+ "_note": "取得日 2026-09-21（ops/tasks/t146-dcard-epos-logos.sh）。",
+ "items": [
+  {
+   "file": "dcard-commons-0.png",
+   "brand": "dカード",
+   "source": "commons",
+   "commons_title": "File:512 Mb xD Card.JPG",
+   "license": "CC BY-SA 4.0",
+   "artist": "U-95",
+   "page": "https://commons.wikimedia.org/wiki/File%3A512_Mb_xD_Card.JPG"
+  },
+  {
+   "file": "dcard-commons-1.png",
+   "brand": "dカード",
+   "source": "commons",
+   "commons_title": "File:Dポイント.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Lamene",
+   "page": "https://commons.wikimedia.org/wiki/File%3AD%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88.jpg"
+  },
+  {
+   "file": "dcard-commons-2.png",
+   "brand": "dカード",
+   "source": "commons",
+   "commons_title": "File:Card-dynamic-clay.png",
+   "license": "CC0",
+   "artist": "Vijay Verma",
+   "page": "https://commons.wikimedia.org/wiki/File%3ACard-dynamic-clay.png"
+  },
+  {
+   "file": "dcard-commons-3.png",
+   "brand": "dカード",
+   "source": "commons",
+   "commons_title": "File:Card-dynamic-color.png",
+   "license": "CC0",
+   "artist": "Vijay Verma",
+   "page": "https://commons.wikimedia.org/wiki/File%3ACard-dynamic-color.png"
+  },
+  {
+   "file": "dcard-commons-4.png",
+   "brand": "dカード",
+   "source": "commons",
+   "commons_title": "File:Card-dynamic-gradient.png",
+   "license": "CC0",
+   "artist": "Vijay Verma",
+   "page": "https://commons.wikimedia.org/wiki/File%3ACard-dynamic-gradient.png"
+  },
+  {
+   "file": "dcard-commons-5.png",
+   "brand": "dカード",
+   "source": "commons",
+   "commons_title": "File:Card-dynamic-premium.png",
+   "license": "CC0",
+   "artist": "Vijay Verma",
+   "page": "https://commons.wikimedia.org/wiki/File%3ACard-dynamic-premium.png"
+  },
+  {
+   "file": "eposcard-commons-6.png",
+   "brand": "エポスカード",
+   "source": "commons",
+   "commons_title": "File:Marui Jam Shibuya.JPG",
+   "license": "CC BY-SA 3.0",
+   "artist": "つる１２１４",
+   "page": "https://commons.wikimedia.org/wiki/File%3AMarui_Jam_Shibuya.JPG"
+  },
+  {
+   "file": "eposcard-commons-7.png",
+   "brand": "エポスカード",
+   "source": "commons",
+   "commons_title": "File:EPOS-CARD-CENTER-Central-Park-Nagoya.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "HQA02330",
+   "page": "https://commons.wikimedia.org/wiki/File%3AEPOS-CARD-CENTER-Central-Park-Nagoya.jpg"
+  },
+  {
+   "file": "eposcard-commons-8.png",
+   "brand": "エポスカード",
+   "source": "commons",
+   "commons_title": "File:Central-Park-Nagoya-001.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "HQA02330",
+   "page": "https://commons.wikimedia.org/wiki/File%3ACentral-Park-Nagoya-001.jpg"
+  },
+  {
+   "file": "eposcard-commons-9.png",
+   "brand": "エポスカード",
+   "source": "commons",
+   "commons_title": "File:Epos 001 drawing.svg",
+   "license": "CC0",
+   "artist": "Retired electrician",
+   "page": "https://commons.wikimedia.org/wiki/File%3AEpos_001_drawing.svg"
+  },
+  {
+   "file": "eposcard-commons-10.png",
+   "brand": "エポスカード",
+   "source": "commons",
+   "commons_title": "File:Rosa 'Epos' 02.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Wilrooij",
+   "page": "https://commons.wikimedia.org/wiki/File%3ARosa_%27Epos%27_02.jpg"
+  },
+  {
+   "file": "eposcard-commons-11.png",
+   "brand": "エポスカード",
+   "source": "commons",
+   "commons_title": "File:JP 日本 Japan 沖繩 OKINAWA Mihama Chatan SteakHouse88 Restaurant January 2025 R12S 45.jpg",
+   "license": "CC0",
+   "artist": "Naha Mama Pavilionz",
+   "page": "https://commons.wikimedia.org/wiki/File%3AJP_%E6%97%A5%E6%9C%AC_Japan_%E6%B2%96%E7%B9%A9_OKINAWA_Mihama_Chatan_SteakHouse88_Restaurant_January_2025_R12S_45.jpg"
+  },
+  {
+   "file": "eposcard-site-0.png",
+   "brand": "エポスカード",
+   "source": "official",
+   "page": "https://www.eposcard.co.jp/",
+   "src": "https://www.eposcard.co.jp/common-files/img/com_head_logo01.png",
+   "license": "商標（識別目的で使用）"
+  },
+  {
+   "file": "eposcard-site-1.jpg",
+   "brand": "エポスカード",
+   "source": "official",
+   "page": "https://www.eposcard.co.jp/",
+   "src": "https://www.eposcard.co.jp/common-files/img/sp_com_epotoku_logo02.gif",
+   "license": "商標（識別目的で使用）"
+  },
+  {
+   "file": "eposcard-site-2.jpg",
+   "brand": "エポスカード",
+   "source": "official",
+   "page": "https://www.eposcard.co.jp/",
+   "src": "https://www.eposcard.co.jp/common-files/img/sp_com_tamaru_logo02.gif",
+   "license": "商標（識別目的で使用）"
+  },
+  {
+   "file": "mensrize-site-0.jpg",
+   "brand": "メンズリゼ",
+   "source": "official",
+   "page": "https://www.mens-rize.com/",
+   "src": "https://www.mens-rize.com/img/common/logo.svg",
+   "license": "商標（識別目的で使用）"
+  },
+  {
+   "file": "mensrize-site-1.jpg",
+   "brand": "メンズリゼ",
+   "source": "official",
+   "page": "https://www.mens-rize.com/",
+   "src": "https://www.mens-rize.com/img/common/logo.svg",
+   "license": "商標（識別目的で使用）"
+  },
+  {
+   "file": "sbcmens-commons-17.png",
+   "brand": "湘南美容クリニック",
+   "source": "commons",
+   "commons_title": "File:品川美容外科 湘南美容外科クリニック 品川スキンクリニック (15924189095).jpg",
+   "license": "CC BY 2.0",
+   "artist": "Zengame",
+   "page": "https://commons.wikimedia.org/wiki/File%3A%E5%93%81%E5%B7%9D%E7%BE%8E%E5%AE%B9%E5%A4%96%E7%A7%91_%E6%B9%98%E5%8D%97%E7%BE%8E%E5%AE%B9%E5%A4%96%E7%A7%91%E3%82%AF%E3%83%AA%E3%83%8B%E3%83%83%E3%82%AF_%E5%93%81%E5%B7%9D%E3%82%B9%E3%82%AD%E3%83%B3%E3%82%AF%E3%83%AA%E3%83%8B%E3%83%83%E3%82%AF_%2815924189095%29.jpg"
+  },
+  {
+   "file": "sbcmens-site-0.png",
+   "brand": "湘南美容クリニック",
+   "source": "official",
+   "page": "https://www.sbc-mens.net/",
+   "src": "https://www.sbc-mens.net/assets/images/common/header_logo2022.png?2026911185220",
+   "license": "商標（識別目的で使用）"
+  },
+  {
+   "file": "sbcmens-site-1.png",
+   "brand": "湘南美容クリニック",
+   "source": "official",
+   "page": "https://www.sbc-mens.net/",
+   "src": "https://www.sbc-mens.net/assets/images/index/sns_line_logo.png?2026911185220",
+   "license": "商標（識別目的で使用）"
+  },
+  {
+   "file": "sbcmens-site-2.png",
+   "brand": "湘南美容クリニック",
+   "source": "official",
+   "page": "https://www.sbc-mens.net/",
+   "src": "https://www.sbc-mens.net/assets/images/index/sns_insta_logo.png?2026911185220",
+   "license": "商標（識別目的で使用）"
+  },
+  {
+   "file": "gorilla-site-0.svg",
+   "brand": "ゴリラクリニック",
+   "source": "official",
+   "page": "https://gorilla.clinic/",
+   "src": "https://gorilla.clinic/fwp/wp-content/themes/theme/assets/img/logo/logo_face.svg",
+   "license": "商標（識別目的で使用）"
+  },
+  {
+   "file": "gorilla-site-1.svg",
+   "brand": "ゴリラクリニック",
+   "source": "official",
+   "page": "https://gorilla.clinic/",
+   "src": "https://gorilla.clinic/fwp/wp-content/themes/theme/assets/img/logo/logo.svg",
+   "license": "商標（識別目的で使用）"
+  },
+  {
+   "file": "gorilla-site-2.svg",
+   "brand": "ゴリラクリニック",
+   "source": "official",
+   "page": "https://gorilla.clinic/",
+   "src": "https://gorilla.clinic/fwp/wp-content/themes/theme/assets/img/logo/logo_face.svg?250919",
+   "license": "商標（識別目的で使用）"
+  },
+  {
+   "file": "rinx-site-0.png",
+   "brand": "RINX",
+   "source": "official",
+   "page": "https://mens-rinx.jp/",
+   "src": "https://mens-rinx.jp/assets/img/logo.png?1680258211",
+   "license": "商標（識別目的で使用）"
+  },
+  {
+   "file": "rinx-site-1.png",
+   "brand": "RINX",
+   "source": "official",
+   "page": "https://mens-rinx.jp/",
+   "src": "https://mens-rinx.jp/assets/img/logo.png",
+   "license": "商標（識別目的で使用）"
+  },
+  {
+   "file": "rinx-site-2.svg",
+   "brand": "RINX",
+   "source": "official",
+   "page": "https://mens-rinx.jp/",
+   "src": "https://mens-rinx.jp/assets/img/header-tel-logo.svg?1768280039",
+   "license": "商標（識別目的で使用）"
+  },
+  {
+   "file": "menstbc-commons-27.png",
+   "brand": "メンズTBC",
+   "source": "commons",
+   "commons_title": "File:ENERGY EFFICIENT ENGINE TBC - NARA - 17476239.jpg",
+   "license": "Public domain",
+   "artist": "Unknown authorUnknown author or not provided",
+   "page": "https://commons.wikimedia.org/wiki/File%3AENERGY_EFFICIENT_ENGINE_TBC_-_NARA_-_17476239.jpg"
+  },
+  {
+   "file": "menstbc-commons-28.png",
+   "brand": "メンズTBC",
+   "source": "commons",
+   "commons_title": "File:ENERGY EFFICIENT ENGINE TBC - NARA - 17476240.jpg",
+   "license": "Public domain",
+   "artist": "Unknown authorUnknown author or not provided",
+   "page": "https://commons.wikimedia.org/wiki/File%3AENERGY_EFFICIENT_ENGINE_TBC_-_NARA_-_17476240.jpg"
+  },
+  {
+   "file": "menstbc-commons-29.png",
+   "brand": "メンズTBC",
+   "source": "commons",
+   "commons_title": "File:FLAT PLATE TBC SPECIMENS - NARA - 17498709.jpg",
+   "license": "Public domain",
+   "artist": "Unknown authorUnknown author or not provided",
+   "page": "https://commons.wikimedia.org/wiki/File%3AFLAT_PLATE_TBC_SPECIMENS_-_NARA_-_17498709.jpg"
+  },
+  {
+   "file": "menstbc-commons-30.png",
+   "brand": "メンズTBC",
+   "source": "commons",
+   "commons_title": "File:FLAT PLATE TBC SPECIMENS - NARA - 17498828.jpg",
+   "license": "Public domain",
+   "artist": "Unknown authorUnknown author or not provided",
+   "page": "https://commons.wikimedia.org/wiki/File%3AFLAT_PLATE_TBC_SPECIMENS_-_NARA_-_17498828.jpg"
+  },
+  {
+   "file": "menstbc-commons-31.png",
+   "brand": "メンズTBC",
+   "source": "commons",
+   "commons_title": "File:FLAT PLATE TBC SPECIMENS - NARA - 17498829.jpg",
+   "license": "Public domain",
+   "artist": "Unknown authorUnknown author or not provided",
+   "page": "https://commons.wikimedia.org/wiki/File%3AFLAT_PLATE_TBC_SPECIMENS_-_NARA_-_17498829.jpg"
+  },
+  {
+   "file": "menstbc-commons-32.png",
+   "brand": "メンズTBC",
+   "source": "commons",
+   "commons_title": "File:FLAT PLATE TBC SPECIMENS - NARA - 17498830.jpg",
+   "license": "Public domain",
+   "artist": "Unknown authorUnknown author or not provided",
+   "page": "https://commons.wikimedia.org/wiki/File%3AFLAT_PLATE_TBC_SPECIMENS_-_NARA_-_17498830.jpg"
+  },
+  {
+   "file": "menstbc-site-0.png",
+   "brand": "メンズTBC",
+   "source": "official",
+   "page": "https://www.tbc.co.jp/mens/",
+   "src": "https://www.tbc.co.jp/cnt_common/images/logo_mens.png",
+   "license": "商標（識別目的で使用）"
+  }
+ ]
+}
