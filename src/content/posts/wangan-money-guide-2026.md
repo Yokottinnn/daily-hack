@@ -24,6 +24,13 @@ references: ["https://www.city.chuo.lg.jp/", "https://www.city.koto.lg.jp/", "ht
 
 ## ⚡ 30秒で分かる「どこで差がつくか」
 
+<div class="real-photos">
+<figure class="real-photo">
+<img src="/images/wangan-money-guide-2026/photos/toyosu-gururi.jpg" alt="豊洲ぐるり公園から見た湾岸のタワーマンション群 — 中央区・江東区・港区が向かい合う東京湾の内側" loading="lazy" />
+<figcaption>3区は同じ湾を囲んでいるのに、<strong>給付の中身はまるで違う</strong>。橋を1本 渡るだけで数十万円 変わることがある。<cite>出典: <a href="https://commons.wikimedia.org/wiki/File%3AToyosu_Gururi_Park%2C_at_Toyosu%2C_Koto%2C_Tokyo_%282019-01-01%29_02.jpg">Wikimedia Commons</a>／Lombroso（CC BY-SA 4.0）</cite></figcaption>
+</figure>
+</div>
+
 <ul class="checklist">
 <li>
 <div class="checklist-body">
@@ -59,6 +66,13 @@ references: ["https://www.city.chuo.lg.jp/", "https://www.city.koto.lg.jp/", "ht
 
 ### 出産まわりの給付 ── ★ここで大きく差がつく
 
+<div class="real-photos">
+<figure class="real-photo">
+<img src="/images/wangan-money-guide-2026/photos/rainbow-bridge.jpg" alt="レインボーブリッジと港区側の水辺 — 出産費用助成が最も手厚い港区" loading="lazy" />
+<figcaption>出産費用助成が最も手厚いのは<strong>港区</strong>。ただし<strong>「出産前後で通算1年以上の在住」</strong>が条件で、直前に引っ越しても届かない。<cite>出典: <a href="https://commons.wikimedia.org/wiki/File%3ARainbow_Bridge-2.jpg">Wikimedia Commons</a>／ZENsan（CC BY-SA 3.0）</cite></figcaption>
+</figure>
+</div>
+
 <div class="compare-cards">
 <div class="compare-card recommended">
 <h4>🟦 港区：出産費用助成が手厚い</h4>
@@ -92,6 +106,13 @@ references: ["https://www.city.chuo.lg.jp/", "https://www.city.koto.lg.jp/", "ht
 
 ## 🎫 区独自の“お得施策”
 
+<div class="real-photos">
+<figure class="real-photo">
+<img src="/images/wangan-money-guide-2026/photos/sunamachi-ginza.jpg" alt="砂町銀座商店街の入口 — 江東区の生活圏にある商店街" loading="lazy" />
+<figcaption>プレミアム商品券が効くのは、こういう<strong>地元の商店街や個人店</strong>。大型店だけで使うつもりなら、還元率ほどの差は出ない。<cite>出典: <a href="https://commons.wikimedia.org/wiki/File%3ASunamachi_ginza_shopping_street_koto_tokyo_2009.JPG">Wikimedia Commons</a>／User:Kentin（CC BY-SA 3.0）</cite></figcaption>
+</figure>
+</div>
+
 ### プレミアム付商品券（2026年度）── 中央区が還元率トップ
 
 | 区 | 名称 | プレミアム率 | 1万円で |
@@ -116,6 +137,15 @@ references: ["https://www.city.chuo.lg.jp/", "https://www.city.koto.lg.jp/", "ht
 
 タワマンの管理費・修繕積立金は**物件・管理組合ごとに大きく異なり、一律の相場は存在しない**（区公式にもデータなし）。一般論として、湾岸の大規模タワマンは共用施設が充実するぶん管理費は割高傾向、修繕積立金は段階増額方式が多い。家賃も晴海・豊洲・勝どきで幅が大きい。
 
+<table class="cmp-table spec-table">
+<thead><tr><th>見るところ</th><th>なぜ幅が出るか</th><th>どこで確かめるか</th></tr></thead>
+<tbody>
+<tr><th>管理費</th><td>共用施設が充実しているぶん割高になりやすい。物件・管理組合ごとに違う</td><td>物件名で不動産ポータル（最新の募集要項）</td></tr>
+<tr><th>修繕積立金</th><td><strong>段階増額方式</strong>が多く、買ったときの額が続くとは限らない</td><td>長期修繕計画（管理組合の資料）</td></tr>
+<tr><th>家賃</th><td>晴海・豊洲・勝どきで幅が大きい</td><td>同上。<strong>エリア平均ではなく物件で見る</strong></td></tr>
+</tbody>
+</table>
+
 > ⚠️ 具体額は変動が激しいので、物件名で不動産ポータル（最新の相場）を必ず確認して。ここでは「**一律相場を鵜呑みにしない**」のが正解とだけ言っておく。生活費の“日々の節約”は下の関連記事（スーパー・節約スポット）が実用的。
 
 ## 💸 湾岸の高所得世帯こそ「ふるさと納税」が効く
@@ -127,9 +157,24 @@ references: ["https://www.city.chuo.lg.jp/", "https://www.city.koto.lg.jp/", "ht
 1. **仲介サイトの“ポイント還元”は2025年10月から廃止済み**。「ポイント込みでお得」系の古い情報はもう通用しない。
 2. **2026年度（令和8年度）税制改正でふるさと納税の見直しの動き**がある。高所得者ほど有利な構造への公平性議論が背景。**最新の限度額シミュレーターで都度確認**を。
 
+<table class="cmp-table spec-table">
+<thead><tr><th>いつ</th><th>何が変わったか</th><th>いま取るべき行動</th></tr></thead>
+<tbody>
+<tr><th>2025年10月</th><td>仲介サイトの<strong>ポイント還元が廃止</strong>された</td><td>「ポイント込みでお得」系の古い記事を基準にしない</td></tr>
+<tr><th>2026年度（令和8年度）</th><td>税制改正で<strong>ふるさと納税の見直しの動き</strong>。高所得者ほど有利な構造への公平性議論が背景</td><td><strong>限度額シミュレーターで都度 確認</strong>する</td></tr>
+</tbody>
+</table>
+
 > 関連の貯め方・決済の最適化はこちら → [ポイントサービス徹底分析 2026](/posts/point-service-complete-guide-2026/) ／ [年会費無料×高還元クレカ比較 2026](/posts/credit-card-no-annual-fee-comparison-2026/)
 
 ## ⚠️ 引っ越し・住み替えで“給付を取りこぼす”落とし穴
+
+<div class="real-photos">
+<figure class="real-photo">
+<img src="/images/wangan-money-guide-2026/photos/kachidoki-canal.jpg" alt="勝どきの運河沿いの住宅と高層ビル — 中央区の湾岸エリア" loading="lazy" />
+<figcaption>湾岸<strong>内</strong>の住み替えでも、区をまたげば条件は変わる。運河を挟んだ向こう側が別の区、ということが普通に起きる。<cite>出典: <a href="https://commons.wikimedia.org/wiki/File%3AKachidoki_canals_%2832924622428%29.jpg">Wikimedia Commons</a>／Raita Futo from Tokyo, Japan（CC BY 2.0）</cite></figcaption>
+</figure>
+</div>
 
 湾岸内での住み替えでも、**給付には居住要件・基準日**があるので注意：
 
