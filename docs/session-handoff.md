@@ -68,6 +68,12 @@
 
 <!-- 新しい記録がこの下に追加される（新しいものが上） -->
 
+### 2026-09-21 — PR #624 をマージ（x112 を pending/ に退避）。x120/x121 のレポートを読んだ。cost_24h_usd は /bin/bash.081/日 で、9/20 の /bin/bash.021 から 4 倍（6 picks 化と返信 17 件が効いている）。unfollow-cleanup の plist は 2 本とも未ロード。reply-followers-cleanup が 9/15 から毎日 同じ 20 件 を選び続け due が 220→243 に増えている
+
+次のアクション:
+
+- [ ] 17:00 JST に pending/x112 を ops/tasks/ へ git mv。x122 でフォロー先の帯を測る。reply-followers-cleanup の空回りを調べる
+
 ### 2026-09-21 — PR #622 をマージ（x120=unfollow-cleanup の読み手・x121=cost_24h_usd の実額）。pipeline-heartbeat の exit=2 は落ちているのではなく overall=CRIT の報告だと確認（x90 のレポート）。x112 を ops/tasks/pending/ に退避してセッションが消えても残るようにした
 
 次のアクション:
