@@ -73,7 +73,7 @@ references:
 
 <div class="section-with-mascot">
   <div class="mascot-wrap"><img src="/images/expr-07-gasp.png" alt="" /></div>
-  <h2>カード別に、何が変わったかを詳しく</h2>
+  <h2 id="カード別に何が変わったかを詳しく">カード別に、何が変わったかを詳しく</h2>
 </div>
 
 <h3 class="brand-h" id="-三井住友カード"><img class="brand-logo" src="/images/credit-card-kaiaku-2026/logos/smbccard.png" alt="三井住友カードのロゴ" loading="lazy" /><span>① 三井住友カード（NL/ゴールド）— 「チャージ修行」と「現物タッチ」が封じられた</span></h3>
@@ -94,7 +94,7 @@ references:
 </table>
 </div>
 
-### ② dカード — 公共料金が「半減」、固定費の置き場所を見直す合図
+<h3 class="brand-h" id="-dカード--公共料金が半減固定費の置き場所を見直す合図"><img class="brand-logo" src="/images/credit-card-kaiaku-2026/logos/dcard.png" alt="dカードのロゴ" loading="lazy" /><span>② dカード — 公共料金が「半減」、固定費の置き場所を見直す合図</span></h3>
 
 dカードは2026年2月1日から、**公共料金・税金などの一部利用先で還元率が1.0%→0.5%に半減**（[dカード公式](https://dcard.docomo.ne.jp/std/info/correction20251101.html)）。電気・ガス・水道・税金をdカードに集約して1%を取ってた人は、**実質的に取り分が半分**になった。
 
@@ -115,7 +115,7 @@ PayPay陣営は自社決済への集約を強めていて、<strong>チャージ
 
 > PayPayの全変更点と対策は → **[PayPay大改悪まとめ 2026年6月](/posts/paypay-2026-june-revision-guide/)**
 
-### ④ エポスカード — 2026年8月、チャージのポイント加算が終了
+<h3 class="brand-h" id="-エポスカード--2026年8月チャージのポイント加算が終了"><img class="brand-logo" src="/images/credit-card-kaiaku-2026/logos/eposcard.jpg" alt="エポスカードのロゴ" loading="lazy" /><span>④ エポスカード — 2026年8月、チャージのポイント加算が終了</span></h3>
 
 エポスは2026年8月1日から、**決済サービスへのチャージ時のポイント加算を終了**する（[エポスNet公式](https://www.eposcard.co.jp/articles/news/260601.html)）。対象は ANA Pay・au PAY・JAL Pay・ソフトバンク／ワイモバイルまとめて支払い（PayPay残高チャージ含む）・楽天Edy・交通系ICへのチャージ（Apple Pay/Google Pay経由含む）など、かなり広い。
 
@@ -144,7 +144,7 @@ PayPay陣営は自社決済への集約を強めていて、<strong>チャージ
 
 <div class="section-with-mascot">
   <div class="mascot-wrap"><img src="/images/expr-05-smug.png" alt="" /></div>
-  <h2>で、どこに乗り換える？ 2026年の堅実な逃げ先</h2>
+  <h2 id="でどこに乗り換える2026年の堅実な逃げ先">で、どこに乗り換える？ 2026年の堅実な逃げ先</h2>
 </div>
 
 改悪のたびにカードを乗り換えるのは正直しんどい。だから選ぶ基準は<strong>「改悪に強い＝基本還元率が高く、用途を選ばない王道カード」</strong>。小手先のチャージ技に依存しない、素の還元が太い2枚を挙げておく。
