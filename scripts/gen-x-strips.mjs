@@ -143,20 +143,33 @@ function stripHtml(s) {
       <img src="${esc(h.file || h.logo)}"${h.logo ? ' class="heroLogo"' : ''}>
     </div>` : '';
 
+  /* 1 位の札。**2 位以下の行（`rows`）と同じ見た目にする**——白いカード 1 枚に
+   * ロゴも文字も写真も全部 入れる（2026-09-22 の指摘）。
+   *   「松屋のカードと同じように、大きな白いカードの中にロゴや文章など全てまとめる」
+   *   「カード内は色つけなくていいよ。枠線つけてるんだから白の背景で十分」
+   * **地に色を敷かない。** 区別は枠線と大きさだけでつける */
   const c = s.hcard;
   if (c && c.logo) {
     const p = path.join(base, c.logo);
     if (!exists(p)) throw new Error(`ロゴが無い: ${p}`);
   }
+  if (c && c.photo) {
+    const p = path.join(base, c.photo.file);
+    if (!exists(p)) throw new Error(`実写が無い: ${p}（当て推量で作らない）`);
+  }
   const hcardHtml = c ? `
     <div class="hcard">
-      ${c.rank ? `<div class="hrank">${esc(c.rank)}</div>` : ''}
-      ${c.logo ? `<img class="hlogo" src="${esc(c.logo)}">` : ''}
       <div class="hbody">
+        ${c.rank ? `<div class="hrank">${esc(c.rank)}</div>` : ''}
+        ${c.logo || c.brand ? `<div class="hbrand">
+          ${c.logo ? `<img class="hlogo" src="${esc(c.logo)}">` : ''}
+          ${c.brand ? `<span>${esc(c.brand)}</span>` : ''}
+        </div>` : ''}
         ${c.name ? `<div class="hname">${esc(c.name)}</div>` : ''}
         ${c.price ? `<div class="hprice">${esc(c.price)}</div>` : ''}
         ${c.sub ? `<div class="hsub">${esc(c.sub)}</div>` : ''}
       </div>
+      ${c.photo ? `<div class="hphoto"><img src="${esc(c.photo.file)}"></div>` : ''}
     </div>` : '';
 
   return `<!doctype html><meta charset="utf-8">
@@ -211,8 +224,9 @@ function stripHtml(s) {
   /* 比較行。**ロゴは名前の左**（最上位ルール 17） */
   .rows { position:absolute; left:0; right:0; top:${s.rowsTop ?? 150}px; padding:0 ${s.rowsPad ?? 62}px;
           display:flex; flex-direction:column; gap:${s.rowGap ?? 16}px; }
+  /* **1 位の札と同じ白。** 地に色を敷かない（2026-09-22 の指摘） */
   .row { display:flex; align-items:center; gap:20px;
-         background:rgba(255,255,255,.90); border-radius:16px;
+         background:#fff; border-radius:16px;
          padding:${s.rowPad ?? 14}px 24px; box-shadow:0 2px 10px rgba(30,18,25,.10); }
   .row.dim { opacity:.62; }
   .row.win { background:#FFF1C8; box-shadow:0 6px 22px rgba(214,62,118,.28);
@@ -255,25 +269,35 @@ function stripHtml(s) {
   .hero img.heroLogo { object-fit:contain; padding:${h?.logoPad ?? 34}px; box-sizing:border-box; }
 
   /* ---- 1 位の札 ---- */
-  .hcard { position:absolute; top:${c?.top ?? 300}px; left:${c?.left ?? 508}px;
-           width:${c?.w ?? 512}px; height:${c?.h ?? 296}px; box-sizing:border-box;
-           background:#FFF1C8; border-radius:24px; outline:5px solid #D63E76;
-           box-shadow:0 10px 30px rgba(214,62,118,.28);
-           display:flex; flex-direction:${c?.dir || 'column'};
-           align-items:center; justify-content:center; gap:${c?.gap ?? 12}px;
-           padding:${c?.pad ?? 20}px; }
-  .hrank { position:absolute; top:-18px; left:50%; transform:translateX(-50%);
-           background:#D63E76; color:#fff; white-space:nowrap;
-           font:800 22px/1 "Noto Sans JP", system-ui, sans-serif;
-           padding:9px 20px; border-radius:999px; box-shadow:0 4px 12px rgba(30,18,25,.22); }
-  .hlogo { width:${c?.logoW ?? 156}px; height:auto; display:block; object-fit:contain; flex:none; }
-  .hbody { display:flex; flex-direction:column; align-items:center; gap:2px; }
+  /* **地は白。** 色で目立たせず、枠線と大きさで 2 位以下と差をつける（2026-09-22 の指摘）。
+   * 中身はすべてこのカードの内側に置く。外に浮かせる要素を作らない */
+  .hcard { position:absolute; top:${c?.top ?? 300}px; left:${c?.left ?? 60}px;
+           width:${c?.w ?? 960}px; height:${c?.h ?? 300}px; box-sizing:border-box;
+           background:#fff; border-radius:24px;
+           border:${c?.border ?? 4}px solid ${c?.borderColor || '#D63E76'};
+           box-shadow:0 6px 20px rgba(30,18,25,.12);
+           display:flex; flex-direction:${c?.dir || 'row'};
+           align-items:center; gap:${c?.gap ?? 26}px; padding:${c?.pad ?? 24}px; }
+  .hbody { flex:1; min-width:0; display:flex; flex-direction:column;
+           align-items:flex-start; gap:${c?.bodyGap ?? 6}px; }
+  .hrank { font:800 ${c?.rankSize ?? 23}px/1 "Noto Sans JP", system-ui, sans-serif;
+           color:#D63E76; letter-spacing:.04em; white-space:nowrap; }
+  .hbrand { display:flex; align-items:center; gap:14px; }
+  .hbrand span { font:700 ${c?.brandSize ?? 36}px/1.1 "Noto Sans JP", system-ui, sans-serif;
+                 color:#1E1219; }
+  .hlogo { width:${c?.logoW ?? 84}px; height:auto; display:block; object-fit:contain; flex:none; }
   .hname { font:700 ${c?.nameSize ?? 30}px/1.25 "Noto Sans JP", system-ui, sans-serif;
-           color:#1E1219; text-align:center; }
-  .hprice { font:900 ${c?.priceSize ?? 82}px/1.05 "Noto Sans JP", system-ui, sans-serif;
+           color:#1E1219; }
+  .hprice { font:900 ${c?.priceSize ?? 78}px/1.05 "Noto Sans JP", system-ui, sans-serif;
             color:#D63E76; font-variant-numeric:tabular-nums; }
-  .hsub { font:700 ${c?.subSize ?? 24}px/1.3 "Noto Sans JP", system-ui, sans-serif;
-          color:#8a5f70; text-align:center; }
+  .hsub { font:700 ${c?.subSize ?? 22}px/1.35 "Noto Sans JP", system-ui, sans-serif;
+          color:#6b5460; }
+  /* カードの中に実写を収める。**外に別パネルを置かない** */
+  .hphoto { flex:none; width:${c?.photo?.w ?? 400}px; height:100%;
+            border-radius:${c?.photo?.radius ?? 16}px; overflow:hidden; background:#f2f2f2; }
+  .hphoto img { width:100%; height:100%; display:block; object-fit:cover;
+                object-position:${c?.photo?.pos || 'center 0%'};
+                transform:scale(${c?.photo?.zoom ?? 1}); }
 </style>
 <div class="strip">
   ${photoLayer}
