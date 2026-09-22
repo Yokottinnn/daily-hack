@@ -68,7 +68,7 @@ author: "hacker-ko"
 
 <div class="section-with-mascot">
   <div class="mascot-wrap"><img src="/images/expr-09-arms-crossed.png" alt="" /></div>
-  <h2>年会費無料×還元率1%以上 おすすめ5枚</h2>
+  <h2 id="年会費無料還元率1以上-おすすめ5枚">年会費無料×還元率1%以上 おすすめ5枚</h2>
 </div>
 
 「全部1%以上じゃん、どれでもいいの？」って思ったあんた、まだ甘い。**特定店舗の上乗せが本体**よ。1枚ずつアタシ目線でまとめてあげる。
@@ -77,7 +77,7 @@ author: "hacker-ko"
   <article class="compare-card recommended">
     <span class="compare-card-image"><img src="https://image.card.jp.rakuten-static.com/card_corp/pc/contents/premiumprogram/kanban.png" alt="楽天カードのキャンペーンバナー" loading="lazy" /></span>
     <span class="compare-card-mascot"><img src="/images/expr-05-smug.png" alt="" /></span>
-    <h3>楽天カード</h3>
+    <h3 class="brand-h"><img class="brand-logo" src="/images/credit-card-no-annual-fee-comparison-2026/logos/rakuten-card.png" alt="楽天カードのロゴ" loading="lazy" /><span>楽天カード</span></h3>
     <p class="tagline">楽天経済圏ユーザーは議論終了。SPUで楽天市場が爆盛り。</p>
     <dl>
       <dt>年会費</dt><dd>永年無料</dd>
@@ -90,9 +90,8 @@ author: "hacker-ko"
   </article>
 
   <article class="compare-card">
-    <span class="compare-card-image"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0nS1U10hbLAw9OJmiGwI0XQhwCMBMrFD0FQ" alt="三井住友カード（NL）" loading="lazy" /></span>
     <span class="compare-card-mascot"><img src="/images/expr-04-cheer.png" alt="" /></span>
-    <h3>三井住友カード（NL）</h3>
+    <h3 class="brand-h"><img class="brand-logo" src="/images/credit-card-no-annual-fee-comparison-2026/logos/smbccard.png" alt="三井住友カードのロゴ" loading="lazy" /><span>三井住友カード（NL）</span></h3>
     <p class="tagline">コンビニ・マック・サイゼで生きてるなら、スマホタッチで7%還元。</p>
     <dl>
       <dt>年会費</dt><dd>永年無料</dd>
@@ -107,7 +106,7 @@ author: "hacker-ko"
   <article class="compare-card recommended">
     <span class="compare-card-image"><img src="https://www.jcb.co.jp/promotion/ordercard/w/images/renewal/info_img01_sp.jpg" alt="JCBカードWのキャンペーン" loading="lazy" /></span>
     <span class="compare-card-mascot"><img src="/images/expr-04-cheer.png" alt="" /></span>
-    <h3>JCBカードW</h3>
+    <h3 class="brand-h"><img class="brand-logo" src="/images/credit-card-no-annual-fee-comparison-2026/logos/jcb.png" alt="JCBのロゴ" loading="lazy" /><span>JCBカードW</span></h3>
     <p class="tagline">39歳以下しか作れない期間限定。Amazon・スタバで還元が爆上がり。</p>
     <dl>
       <dt>年会費</dt><dd>永年無料</dd>
@@ -122,7 +121,7 @@ author: "hacker-ko"
   <article class="compare-card">
     <span class="compare-card-image"><img src="https://recruit-card.jp/site_assets/lp/sp/img/basic-card/feature-rich/campaign_card_master.png" alt="リクルートカードのキャンペーンバナー" loading="lazy" /></span>
     <span class="compare-card-mascot"><img src="/images/expr-01-wave.png" alt="" /></span>
-    <h3>リクルートカード</h3>
+    <h3 class="brand-h"><img class="brand-logo" src="/images/credit-card-no-annual-fee-comparison-2026/logos/recruit-card.png" alt="リクルートカードのロゴ" loading="lazy" /><span>リクルートカード</span></h3>
     <p class="tagline">基本還元率1.2%の業界トップクラス。じゃらん・ホットペッパー族に刺さる。</p>
     <dl>
       <dt>年会費</dt><dd>永年無料</dd>
@@ -137,7 +136,7 @@ author: "hacker-ko"
   <article class="compare-card">
     <span class="compare-card-image"><img src="https://about.paypay.ne.jp/uploads/2025/02/20250228_02_image01_sp.jpg" alt="PayPayカードのキャンペーン" loading="lazy" /></span>
     <span class="compare-card-mascot"><img src="/images/expr-06-shock.png" alt="" /></span>
-    <h3>PayPayカード</h3>
+    <h3 class="brand-h"><img class="brand-logo" src="/images/credit-card-no-annual-fee-comparison-2026/logos/paypaycard.png" alt="PayPayカードのロゴ" loading="lazy" /><span>PayPayカード</span></h3>
     <p class="tagline">PayPay残高に直接チャージできる唯一のクレカ。Yahoo!ショッピング派の正解。</p>
     <dl>
       <dt>年会費</dt><dd>永年無料</dd>
@@ -154,7 +153,7 @@ author: "hacker-ko"
 
 ## 用途別おすすめ: あんたの財布、どこで開く？
 
-### 楽天経済圏で生きてるなら → 楽天カード
+<h3 class="brand-h" id="楽天経済圏で生きてるなら楽天カード"><img class="brand-logo" src="/images/credit-card-no-annual-fee-comparison-2026/logos/rakuten-card.png" alt="楽天カードのロゴ" loading="lazy" /><span>楽天経済圏で生きてるなら → 楽天カード</span></h3>
 
 楽天市場・楽天モバイル・楽天証券・楽天銀行をすでに使ってる、もしくは使う予定があるなら、**楽天カード一択で議論終了**。
 
@@ -164,7 +163,7 @@ author: "hacker-ko"
 
 > 💡 **お得Tip**: 楽天カード作る前に、楽天銀行と楽天証券を先に開設しておくとSPUが一気に積み上がるからお得よ。
 
-### コンビニ・マック・サイゼ・ガストが多いなら → 三井住友カード（NL）
+<h3 class="brand-h" id="コンビニ・マック・サイゼ・ガストが多いなら三井住友カードnl"><img class="brand-logo" src="/images/credit-card-no-annual-fee-comparison-2026/logos/smbccard.png" alt="三井住友カードのロゴ" loading="lazy" /><span>コンビニ・マック・サイゼ・ガストが多いなら → 三井住友カード（NL）</span></h3>
 
 ローソン・セブン・ファミマ、マック、サイゼ、すき家、ドトール……このあたりで月1万円以上使ってる人は、**三井住友カード（NL）でスマホタッチ決済すれば最大7%還元**。これ、月1万円使うだけで年間8,400円の還元よ。
 
@@ -172,19 +171,19 @@ author: "hacker-ko"
 
 > ⚡ **重要**: 「カード現物」のタッチ決済は3%還元止まり。**スマホ（Apple Pay / Google Pay）に登録してタッチ**で7%還元になるから、設定を絶対忘れないで。
 
-### Amazon・ヨドバシ・スタバ多用なら → JCBカードW
+<h3 class="brand-h" id="amazon・ヨドバシ・スタバ多用ならjcbカードw"><img class="brand-logo" src="/images/credit-card-no-annual-fee-comparison-2026/logos/jcb.png" alt="JCBのロゴ" loading="lazy" /><span>Amazon・ヨドバシ・スタバ多用なら → JCBカードW</span></h3>
 
 JCBカードWは**39歳以下しか申し込めない**期間限定カード（一度作れば40歳超えても保有OK）。基本還元率1%（JCB一般カードの2倍）に加えて、Amazon・スタバ・セブン・ビックカメラ等の**JCB ORIGINAL SERIESパートナー**で還元率が爆上がりする。
 
 Amazonユーザーなら基本2%、スタバなら最大10%超。アタシのおすすめは「JCBカードW + Amazonで使う用」というサブ運用ね。**39歳までに作っておかないと一生作れなくなる**から、対象年齢の人は今すぐ動きなさい。
 
-### 旅行・じゃらん・ホットペッパーをよく使うなら → リクルートカード
+<h3 class="brand-h" id="旅行・じゃらん・ホットペッパーをよく使うならリクルートカード"><img class="brand-logo" src="/images/credit-card-no-annual-fee-comparison-2026/logos/recruit-card.png" alt="リクルートカードのロゴ" loading="lazy" /><span>旅行・じゃらん・ホットペッパーをよく使うなら → リクルートカード</span></h3>
 
 地味だけど基本還元率1.2%という**業界トップクラス**のカード。じゃらん・ホットペッパーグルメ・ホットペッパービューティで使えば3.2%、リクルート系列のサービスに刺さる人には最強。Pontaポイント・dポイントに交換できるから出口も広い。
 
 「特定のサービスに寄せたくない、とにかく基本還元率が高いカードがほしい」という人にも刺さる、玄人好みの1枚よ。<a href="https://recruit-card.jp/introCampTop/?introId=sNLwzpFx" target="_blank" rel="sponsored noopener nofollow">紹介プログラム経由</a>で申し込むと、通常キャンペーンに追加特典が上乗せされるから、ここから入るのが正解。
 
-### PayPay・Yahoo!ショッピング民なら → PayPayカード
+<h3 class="brand-h" id="paypay・yahooショッピング民ならpaypayカード"><img class="brand-logo" src="/images/credit-card-no-annual-fee-comparison-2026/logos/paypaycard.png" alt="PayPayカードのロゴ" loading="lazy" /><span>PayPay・Yahoo!ショッピング民なら → PayPayカード</span></h3>
 
 PayPay残高にチャージできる**唯一の主要クレカ**。PayPayステップの還元率底上げ、Yahoo!ショッピングでの上乗せ、LOHACOでの優遇など、ソフトバンク経済圏ユーザーには欠かせない。
 
