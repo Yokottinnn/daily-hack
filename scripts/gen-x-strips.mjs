@@ -39,8 +39,11 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { chromium } from 'playwright';
 
-const W = 1000;
-const H = 560;
+/** 既定はカードの帯（1000x560）。
+ *  **全面用は 1080x1080。** そのときは `size` を JSON に書く。
+ *  帯の下半分はカードのグラデと文字で潰れる／全面は `darkenBottom` で自分で暗くする */
+const DEFAULT_W = 1000;
+const DEFAULT_H = 560;
 
 const specPath = process.argv[2];
 if (!specPath) {
@@ -59,6 +62,8 @@ const esc = (s) => String(s ?? '').replace(/[&<>"]/g, (c) =>
   ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
 
 function stripHtml(s) {
+  const W = (s.size && s.size[0]) || DEFAULT_W;
+  const H = (s.size && s.size[1]) || DEFAULT_H;
   const photo = s.photo ? path.join(base, s.photo) : null;
   if (s.photo && !exists(photo)) {
     throw new Error(`素材が無い: ${photo}（当て推量で作らない）`);
@@ -88,6 +93,28 @@ function stripHtml(s) {
       ${wash.map((w) => `<img src="${esc(w.src)}" style="width:${w.w || 620}px; opacity:${w.opacity ?? 0.13}">`).join('\n      ')}
     </div>
     <div class="veil"></div>` : '');
+
+  /* **ブランド名を並べたら、その左にロゴを置く**（CLAUDE.md 最上位ルール 17）。
+   * `dim: true` の行は負け側。薄くして、勝者との差を見せる */
+  const rows = (s.rows || []).map((r) => {
+    if (!r.logo) return { ...r, src: null };
+    const p = path.join(base, r.logo);
+    if (!exists(p)) throw new Error(`ロゴが無い: ${p}`);
+    return { ...r, src: r.logo };
+  });
+
+  const rowsHtml = rows.length ? `
+    <div class="rows">
+      ${rows.map((r) => `
+      <div class="row${r.dim ? ' dim' : ''}${r.win ? ' win' : ''}">
+        ${r.src ? `<img class="rlogo" src="${esc(r.src)}">` : '<span class="rlogo"></span>'}
+        <span class="rname">${esc(r.name)}</span>
+        <span class="rprice">${esc(r.price)}</span>
+      </div>`).join('')}
+    </div>` : '';
+
+  const headHtml = s.headline ? `<div class="headline">${esc(s.headline)}</div>` : '';
+  const noteHtml = s.note ? `<div class="snote">${esc(s.note)}</div>` : '';
 
   return `<!doctype html><meta charset="utf-8">
 <style>
@@ -128,9 +155,41 @@ function stripHtml(s) {
                filter: drop-shadow(0 2px 10px rgba(255,255,255,.95))
                        drop-shadow(0 1px 3px rgba(0,0,0,.18)); }
   .x { font: 700 30px/1 "Noto Sans JP", system-ui, sans-serif; color:#5b6470; }
+
+  /* **全面用（1080x1080）は下を暗くしてから文字を乗せる。**
+   * ロゴは白背景が多く、明るい画像になって白い見出しが埋もれる（スキル §3） */
+  .darken { position:absolute; left:0; right:0; bottom:0; height:${(s.darkenBottom ?? 0.4) * 100}%;
+            background: linear-gradient(180deg, rgba(30,18,25,0) 0%, rgba(30,18,25,.86) 58%, rgba(30,18,25,.96) 100%); }
+
+  .headline { position:absolute; left:0; right:0; top:${s.headTop ?? 40}px; padding:0 54px;
+              font:800 ${s.headSize ?? 46}px/1.28 "Noto Sans JP", system-ui, sans-serif;
+              color:${s.headColor || '#1E1219'}; text-align:center; letter-spacing:-.01em; }
+
+  /* 比較行。**ロゴは名前の左**（最上位ルール 17） */
+  .rows { position:absolute; left:0; right:0; top:${s.rowsTop ?? 150}px; padding:0 ${s.rowsPad ?? 62}px;
+          display:flex; flex-direction:column; gap:${s.rowGap ?? 16}px; }
+  .row { display:flex; align-items:center; gap:20px;
+         background:rgba(255,255,255,.90); border-radius:16px;
+         padding:${s.rowPad ?? 14}px 24px; box-shadow:0 2px 10px rgba(30,18,25,.10); }
+  .row.dim { opacity:.62; }
+  .row.win { background:#FFF1C8; box-shadow:0 6px 22px rgba(214,62,118,.28);
+             outline:4px solid #D63E76; }
+  .rlogo { width:${s.logoW ?? 78}px; height:${s.logoH ?? 46}px; object-fit:contain; display:block; flex:none; }
+  .rname { flex:1; font:700 ${s.nameSize ?? 31}px/1.2 "Noto Sans JP", system-ui, sans-serif; color:#1E1219; }
+  .rprice { font:800 ${s.priceSize ?? 40}px/1 "Noto Sans JP", system-ui, sans-serif;
+            color:#A82959; font-variant-numeric:tabular-nums; white-space:nowrap; }
+  .row.win .rprice { color:#D63E76; }
+
+  .snote { position:absolute; left:0; right:0; bottom:${s.noteBottom ?? 34}px; padding:0 58px;
+           font:700 ${s.noteSize ?? 27}px/1.45 "Noto Sans JP", system-ui, sans-serif;
+           color:${s.noteColor || '#FFFFFF'}; text-align:center; }
 </style>
 <div class="strip">
   ${photoLayer}
+  ${s.darkenBottom ? '<div class="darken"></div>' : ''}
+  ${headHtml}
+  ${rowsHtml}
+  ${noteHtml}
   <div class="logos">
     ${logos.map((l, i) =>
       (i > 0 && s.joiner ? `<span class="x">${esc(s.joiner)}</span>` : '') +
@@ -144,15 +203,21 @@ const bundled = '/opt/pw-browsers/chromium-1194/chrome-linux/chrome';
 const browser = await chromium.launch(
   fs.existsSync(bundled) ? { executablePath: bundled } : {}
 );
-const page = await browser.newPage({ viewport: { width: W, height: H }, deviceScaleFactor: 1 });
+const page = await browser.newPage({ deviceScaleFactor: 1 });
 
 let made = 0;
 for (const s of spec.strips) {
   const html = stripHtml(s);
   // **素材の隣に書く。** `setContent()` だと file:// の画像が読めず、
   // **灰色の空カードがエラーも出さずに出力される**（2026-08-30 に踏んだ）
-  const tmp = path.join(base, `.strip-${s.out.replace(/\.\w+$/, '')}.html`);
+  // **`out` に `/` が入りうる（`x/2-rank.jpg`）。** 一時 HTML の名前には使えないので
+  // ファイル名だけ取る。**素材の隣に置くことが目的**なので base 直下でよい
+  const tmp = path.join(base, `.strip-${path.basename(s.out).replace(/\.\w+$/, '')}.html`);
   fs.writeFileSync(tmp, html);
+  // **サイズは 1 枚ずつ違う。** 帯は 1000x560、全面は 1080x1080
+  const w = (s.size && s.size[0]) || DEFAULT_W;
+  const h = (s.size && s.size[1]) || DEFAULT_H;
+  await page.setViewportSize({ width: w, height: h });
   try {
     await page.goto('file://' + abs(tmp), { waitUntil: 'load' });
     // **画像が本当に読めたか確かめる。** 読めていなければ止める
@@ -169,11 +234,12 @@ for (const s of spec.strips) {
     if (!bgOk) throw new Error('背景写真が当たっていない');
 
     const out = path.join(base, s.out);
+    fs.mkdirSync(path.dirname(out), { recursive: true });
     await page.screenshot({ path: out, type: 'jpeg', quality: 92 });
     const bytes = fs.statSync(out).size;
     // **小さすぎる＝真っ白。** rc=0 で通ってしまうので自分で見る
     if (bytes < 4000) throw new Error(`出力が ${bytes} bytes。ほぼ空`);
-    console.log(`  ${s.out.padEnd(24)} ${W}x${H}  ${Math.round(bytes / 1024)}KB`);
+    console.log(`  ${s.out.padEnd(26)} ${w}x${h}  ${Math.round(bytes / 1024)}KB`);
     made++;
   } finally {
     fs.rmSync(tmp, { force: true });
