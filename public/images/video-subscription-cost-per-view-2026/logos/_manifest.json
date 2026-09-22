@@ -1,0 +1,46 @@
+{
+ "_note": "識別目的で使うロゴ。**商標であり自由ライセンスではない。** 改変しない（CSS の枠は可）。取得元と取得日をここに残す。すべて ops/tasks/t158-logos-vod.sh で 2026-09-22 に取得。",
+ "netflix.png": {
+  "brand": "Netflix",
+  "source": "occ.a.nflxso.net の BrandNetflixLogotype SVG",
+  "page": "https://www.netflix.com/jp/",
+  "fetched": "2026-09-22",
+  "license_note": "商標。識別目的で使用。**SVG を Chromium で PNG にした**"
+ },
+ "unext.png": {
+  "brand": "U-NEXT",
+  "source": "https://video.unext.jp/apple-touch-icon.png",
+  "page": "https://video.unext.jp/",
+  "fetched": "2026-09-22",
+  "license_note": "商標。識別目的で使用"
+ },
+ "primevideo.png": {
+  "brand": "Amazon Prime Video",
+  "source": "https://m.media-amazon.com/images/G/01/digital/video/DVUI/favicons/apple-touch-icon-72x72.png",
+  "page": "https://www.primevideo.com/",
+  "fetched": "2026-09-22",
+  "license_note": "商標。識別目的で使用"
+ },
+ "disneyplus.png": {
+  "brand": "Disney+",
+  "source": "https://static-assets.bamgrid.com/product/disneyplus/favicons/disPlus-favicon-180x180.png",
+  "page": "https://www.disneyplus.com/ja-jp",
+  "fetched": "2026-09-22",
+  "license_note": "商標。識別目的で使用",
+  "_rejected": "cnbl-cdn の Disney+ Logo は白抜きで、白背景では見えないので使わない"
+ },
+ "hulu.png": {
+  "brand": "Hulu",
+  "source": "https://www.hulu.jp/apple-touch-icon.png",
+  "page": "https://www.hulu.jp/",
+  "fetched": "2026-09-22",
+  "license_note": "商標。識別目的で使用"
+ },
+ "dazn.png": {
+  "brand": "DAZN",
+  "source": "https://www.dazn.com/icons/apple-touch-icon-1024x1024.png",
+  "page": "https://www.dazn.com/ja-JP/home",
+  "fetched": "2026-09-22",
+  "license_note": "商標。識別目的で使用"
+ }
+}

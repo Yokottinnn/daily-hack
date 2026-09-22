@@ -1,0 +1,56 @@
+{
+ "_note": "識別目的で使うロゴ。**商標であり自由ライセンスではない。** 改変しない（CSS の枠は可）。取得元と取得日をここに残す。 irumo は記事本文に出てこないので入れていない（使わないロゴは置かない）。",
+ "rakutenmobile.png": {
+  "brand": "楽天モバイル",
+  "source": "https://network.mobile.rakuten.co.jp/apple-touch-icon.png",
+  "page": "https://network.mobile.rakuten.co.jp/",
+  "fetched": "2026-09-22",
+  "task": "ops/tasks/t155-brand-logos-batch.sh",
+  "license_note": "商標。識別目的で使用",
+  "_rejected": "トップの logo-thankyou-1000.svg は「THANK YOU 1,000万回線」のキャンペーン版なので使わない"
+ },
+ "ahamo.png": {
+  "brand": "ahamo",
+  "source": "https://cache.cil.ahamo.com/assets/images/common/logo.svg",
+  "page": "https://ahamo.com/",
+  "fetched": "2026-09-22",
+  "task": "ops/tasks/t155-brand-logos-batch.sh",
+  "license_note": "商標。識別目的で使用。**SVG を Chromium で PNG にした**"
+ },
+ "povo.png": {
+  "brand": "povo 2.0",
+  "source": "https://povo.jp/cms/povo/apple-touch-icon.png",
+  "page": "https://povo.jp/spec/",
+  "fetched": "2026-09-22",
+  "task": "ops/tasks/t156-logos-retry-jal-satofull-linemo-povo.sh",
+  "license_note": "商標。識別目的で使用",
+  "_rejected": "common/logo.svg は「君にピッタリの自由へ、一緒に。」のタグライン付きロックアップなので使わない"
+ },
+ "linemo.png": {
+  "brand": "LINEMO",
+  "source": "https://www.linemo.jp/assets/images/common/logo_normal.svg",
+  "page": "https://www.linemo.jp/support/",
+  "fetched": "2026-09-22",
+  "task": "ops/tasks/t156-logos-retry-jal-satofull-linemo-povo.sh",
+  "license_note": "商標。識別目的で使用。**SVG を Chromium で PNG にした**",
+  "_rejected": "トップと /service/ の logo.svg は「5th」の周年装飾入りなので使わない。logo_sb.webp は SoftBank のロゴ（運営会社）なので使わない"
+ },
+ "uqmobile.png": {
+  "brand": "UQ mobile",
+  "source": "https://www.uqwimax.jp/assets/v2/common/images/logo_uqmobile.svg",
+  "page": "https://www.uqwimax.jp/mobile/",
+  "fetched": "2026-09-22",
+  "task": "ops/tasks/t157-logos-furusato-uq-ymobile.sh",
+  "license_note": "商標。識別目的で使用。**SVG を Chromium で PNG にした**",
+  "_rejected": "logo_uqwimax.svg は UQ WiMAX（別サービス）なので使わない"
+ },
+ "ymobile.png": {
+  "brand": "Y!mobile",
+  "source": "https://www.ymobile.jp/common_c/images/common/apple_touch_icon.png",
+  "page": "https://www.ymobile.jp/",
+  "fetched": "2026-09-22",
+  "task": "ops/tasks/t157-logos-furusato-uq-ymobile.sh",
+  "license_note": "商標。識別目的で使用",
+  "_rejected": "logo-sb.webp は SoftBank のロゴ（運営会社）なので使わない"
+ }
+}
