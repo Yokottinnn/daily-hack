@@ -228,14 +228,9 @@ author: "hacker-ko"
 
 東京ガーデンシアター・三井ショッピングパーク有明・ホテル一体型の複合施設。**泉天空の湯 有明ガーデン**は土日でも入湯料2,500円台。家族で行っても1万円以下に収まる神コスパ温泉。
 
-<div class="real-photos cols-3">
-  <figure class="real-photo">
-    <img src="https://www.shopping-sumitomo-rd.com/images/top/241/pc.jpg" alt="有明ガーデン 施設メインビジュアル" loading="lazy" referrerpolicy="no-referrer" />
-    <figcaption>
-      200店舗オーバーの巨大モールなのに、平日昼間は地元住民しかいなくてめっちゃ快適。フードコート席取り放題。
-      <cite>出典: <a href="https://www.shopping-sumitomo-rd.com/ariake/shopping/" target="_blank" rel="noopener">住友不動産ショッピングシティ 有明ガーデン公式</a></cite>
-    </figcaption>
-  </figure>
+200店舗オーバーの巨大モールなのに、平日昼間は地元住民しかいなくてめっちゃ快適。フードコート席も取り放題。
+
+<div class="real-photos cols-2">
   <figure class="real-photo">
     <img src="https://www.shopping-sumitomo-rd.com/images/top/287/pc.jpg" alt="有明ガーデン プロモーションビジュアル" loading="lazy" referrerpolicy="no-referrer" />
     <figcaption>
