@@ -30,9 +30,9 @@ references: ["https://www.ana.co.jp/travelandlife/article/001953/", "https://www
 
 | タイプ | 仕組み | 代表アプリ | 貯まるもの |
 |:---|:---|:---|:---|
-| **移動距離型** | 歩数＋乗り物の移動距離でポイント | トリマ / ANA Pocket | 現金・ギフト券 / マイル |
-| **歩数チャレンジ型** | 1日◯歩でくじ・ミッション達成 | JAL Wellness & Travel / dヘルスケア / 楽天ヘルスケア | マイル / 経済圏ポイント |
-| **広告視聴ブースト型** | 動画広告を見て獲得倍率UP | トリマ（動画広告）/ ANA Pocket（ガチャ） | 上記の上乗せ |
+| **移動距離型** | 歩数＋乗り物の移動距離でポイント | <span class="cell-brand"><img class="brand-logo-sm" src="/images/move-to-earn-poikatsu-apps-2026/logos/torima.png" alt="" loading="lazy" />トリマ</span> / <span class="cell-brand"><img class="brand-logo-sm" src="/images/move-to-earn-poikatsu-apps-2026/logos/anapocket.png" alt="" loading="lazy" />ANA Pocket</span> | 現金・ギフト券 / マイル |
+| **歩数チャレンジ型** | 1日◯歩でくじ・ミッション達成 | <span class="cell-brand"><img class="brand-logo-sm" src="/images/move-to-earn-poikatsu-apps-2026/logos/jalwellness.png" alt="" loading="lazy" />JAL Wellness &amp; Travel</span> / <span class="cell-brand"><img class="brand-logo-sm" src="/images/move-to-earn-poikatsu-apps-2026/logos/dhealth.png" alt="" loading="lazy" />dヘルスケア</span> / <span class="cell-brand"><img class="brand-logo-sm" src="/images/move-to-earn-poikatsu-apps-2026/logos/rakutenhealth.png" alt="" loading="lazy" />楽天ヘルスケア</span> | マイル / 経済圏ポイント |
+| **広告視聴ブースト型** | 動画広告を見て獲得倍率UP | <span class="cell-brand"><img class="brand-logo-sm" src="/images/move-to-earn-poikatsu-apps-2026/logos/torima.png" alt="" loading="lazy" />トリマ（動画広告）</span> / <span class="cell-brand"><img class="brand-logo-sm" src="/images/move-to-earn-poikatsu-apps-2026/logos/anapocket.png" alt="" loading="lazy" />ANA Pocket（ガチャ）</span> | 上記の上乗せ |
 
 ポイントは、**「移動距離型」は車移動が多い人ほど爆発的に貯まる**こと。逆に<strong>「歩数チャレンジ型」は1日8,000〜10,000歩あるく人向け</strong>。あんたの生活がどっちかで、選ぶアプリが変わる。
 
@@ -48,11 +48,11 @@ references: ["https://www.ana.co.jp/travelandlife/article/001953/", "https://www
 
 | アプリ | 月額 | 貯まるもの | 主な獲得方法 | こんな人向け |
 |:---|:---:|:---|:---|:---|
-| 🟢 **トリマ** | 無料 | 現金・ギフト券・各種ポイント | 移動距離＋歩数＋動画広告 | 車移動が多い / 現金が欲しい |
-| 🔵 **ANA Pocket** | 無料 or Pro 550円 | ANAマイル・各種ポイント | 移動距離（徒歩・電車・車）＋ガチャ | ANAマイラー |
-| 🔴 **JAL Wellness & Travel** | 550円（無料体験あり） | JALマイル | 1日の歩数チャレンジ＋くじ | JALマイラー / 1日8,000歩以上 |
-| 🟠 **dヘルスケア** | 無料 or 有料 | dポイント | 歩数・体重記録ミッション | ドコモ経済圏 |
-| ⚫ **楽天ヘルスケア** | 無料 | 楽天ポイント | 5,000歩でくじ | 楽天経済圏 |
+| <span class="cell-brand"><img class="brand-logo-sm" src="/images/move-to-earn-poikatsu-apps-2026/logos/torima.png" alt="" loading="lazy" /><strong><a href="https://www.trip-mile.com/" target="_blank" rel="noopener nofollow">トリマ</a></strong></span> | 無料 | 現金・ギフト券・各種ポイント | 移動距離＋歩数＋動画広告 | 車移動が多い / 現金が欲しい |
+| <span class="cell-brand"><img class="brand-logo-sm" src="/images/move-to-earn-poikatsu-apps-2026/logos/anapocket.png" alt="" loading="lazy" /><strong><a href="https://www.anapocket.com/pro" target="_blank" rel="noopener nofollow">ANA Pocket</a></strong></span> | 無料 or Pro 550円 | ANAマイル・各種ポイント | 移動距離（徒歩・電車・車）＋ガチャ | ANAマイラー |
+| <span class="cell-brand"><img class="brand-logo-sm" src="/images/move-to-earn-poikatsu-apps-2026/logos/jalwellness.png" alt="" loading="lazy" /><strong><a href="https://www.jal.co.jp/jp/ja/jmb/wellness/" target="_blank" rel="noopener nofollow">JAL Wellness &amp; Travel</a></strong></span> | 550円（無料体験あり） | JALマイル | 1日の歩数チャレンジ＋くじ | JALマイラー / 1日8,000歩以上 |
+| <span class="cell-brand"><img class="brand-logo-sm" src="/images/move-to-earn-poikatsu-apps-2026/logos/dhealth.png" alt="" loading="lazy" /><strong><a href="https://apps.apple.com/jp/app/id1352137023" target="_blank" rel="noopener nofollow">dヘルスケア</a></strong></span> | 無料 or 有料 | dポイント | 歩数・体重記録ミッション | ドコモ経済圏 |
+| <span class="cell-brand"><img class="brand-logo-sm" src="/images/move-to-earn-poikatsu-apps-2026/logos/rakutenhealth.png" alt="" loading="lazy" /><strong><a href="https://healthcare.rakuten.co.jp/" target="_blank" rel="noopener nofollow">楽天ヘルスケア</a></strong></span> | 無料 | 楽天ポイント | 5,000歩でくじ | 楽天経済圏 |
 
 > 💡 **注目ポイント**：JALは「無課金だとほぼ機能しない」課金前提アプリ。ANA Pocketは無料でも回るがPro版で化ける。dヘルスケア・楽天ヘルスケアは**無料のままでもOK**な気軽さが強み。
 
@@ -62,13 +62,13 @@ references: ["https://www.ana.co.jp/travelandlife/article/001953/", "https://www
 
 | アプリ | 月の獲得実績（目安） | 円換算の目安 | 月額コスト | 実質手取り |
 |:---|:---|:---:|:---:|:---:|
-| **トリマ** | 700〜1,200円分（上位者は数千円） | 約700〜1,200円 | 0円 | **+700〜1,200円** |
-| **ANA Pocket（Pro）** | 月746〜1,500マイル | 約1,100〜2,250円相当 | 550円 | **+550〜1,700円相当** |
-| **ANA Pocket（無料）** | 月100〜300ポイント程度 | 数十〜百円台 | 0円 | +少額 |
-| **JAL Wellness & Travel** | 年3,092マイル（1万歩なら年5,024マイルも）= 月約260〜420マイル | 約400〜840円相当/月 | 550円 | **−150〜+290円相当** |
-| **dヘルスケア（無料）** | 月33ポイント前後 | 約33円 | 0円 | +33円 |
-| **dヘルスケア（有料）** | 月200〜250ポイント | 約200〜250円 | 有料 | コスト次第 |
-| **楽天ヘルスケア** | 月100〜150ポイント | 約100〜150円 | 0円 | **+100〜150円** |
+| <span class="cell-brand"><img class="brand-logo-sm" src="/images/move-to-earn-poikatsu-apps-2026/logos/torima.png" alt="" loading="lazy" /><strong><a href="https://www.trip-mile.com/" target="_blank" rel="noopener nofollow">トリマ</a></strong></span> | 700〜1,200円分（上位者は数千円） | 約700〜1,200円 | 0円 | **+700〜1,200円** |
+| <span class="cell-brand"><img class="brand-logo-sm" src="/images/move-to-earn-poikatsu-apps-2026/logos/anapocket.png" alt="" loading="lazy" /><strong><a href="https://www.anapocket.com/pro" target="_blank" rel="noopener nofollow">ANA Pocket（Pro）</a></strong></span> | 月746〜1,500マイル | 約1,100〜2,250円相当 | 550円 | **+550〜1,700円相当** |
+| <span class="cell-brand"><img class="brand-logo-sm" src="/images/move-to-earn-poikatsu-apps-2026/logos/anapocket.png" alt="" loading="lazy" /><strong><a href="https://www.anapocket.com/pro" target="_blank" rel="noopener nofollow">ANA Pocket（無料）</a></strong></span> | 月100〜300ポイント程度 | 数十〜百円台 | 0円 | +少額 |
+| <span class="cell-brand"><img class="brand-logo-sm" src="/images/move-to-earn-poikatsu-apps-2026/logos/jalwellness.png" alt="" loading="lazy" /><strong><a href="https://www.jal.co.jp/jp/ja/jmb/wellness/" target="_blank" rel="noopener nofollow">JAL Wellness &amp; Travel</a></strong></span> | 年3,092マイル（1万歩なら年5,024マイルも）= 月約260〜420マイル | 約400〜840円相当/月 | 550円 | **−150〜+290円相当** |
+| <span class="cell-brand"><img class="brand-logo-sm" src="/images/move-to-earn-poikatsu-apps-2026/logos/dhealth.png" alt="" loading="lazy" /><strong><a href="https://apps.apple.com/jp/app/id1352137023" target="_blank" rel="noopener nofollow">dヘルスケア（無料）</a></strong></span> | 月33ポイント前後 | 約33円 | 0円 | +33円 |
+| <span class="cell-brand"><img class="brand-logo-sm" src="/images/move-to-earn-poikatsu-apps-2026/logos/dhealth.png" alt="" loading="lazy" /><strong><a href="https://apps.apple.com/jp/app/id1352137023" target="_blank" rel="noopener nofollow">dヘルスケア（有料）</a></strong></span> | 月200〜250ポイント | 約200〜250円 | 有料 | コスト次第 |
+| <span class="cell-brand"><img class="brand-logo-sm" src="/images/move-to-earn-poikatsu-apps-2026/logos/rakutenhealth.png" alt="" loading="lazy" /><strong><a href="https://healthcare.rakuten.co.jp/" target="_blank" rel="noopener nofollow">楽天ヘルスケア</a></strong></span> | 月100〜150ポイント | 約100〜150円 | 0円 | **+100〜150円** |
 
 <div class="hakkako-says">
 <img src="/images/expr-07-gasp.png" alt="ハッカー子" />
@@ -147,6 +147,18 @@ references: ["https://www.ana.co.jp/travelandlife/article/001953/", "https://www
 </li>
 </ul>
 
+<div class="cmp-table-wrap">
+<table class="cmp-table spec-table">
+<thead><tr><th>見えにくいコスト</th><th>どれくらい</th><th>どうする</th></tr></thead>
+<tbody>
+<tr class="recommended"><th>時間</th><td>倍率を上げる動画広告は <strong>1 本 15〜30秒</strong>。それを何十回も見る</td><td><strong>ながら見できるときだけ</strong>にする</td></tr>
+<tr><th>通信量</th><td>移動距離型は<strong>常時 GPS ＋ 通信</strong>。トリマは通信量が多め</td><td>Wi-Fi 同期・省電力の設定を確認する</td></tr>
+<tr><th>期待値</th><td>移動量が多い人で<strong>月 1,000〜2,000円</strong>。「月◯万円」の宣伝は基本 盛っている</td><td><strong>どうせ動くついでに拾う</strong>と割り切る</td></tr>
+<tr><th>仕様変更</th><td>ANA Pocket は 2025年に<strong>獲得ポイント減・広告視聴時間増</strong></td><td><strong>課金前に公式の最新を見る</strong></td></tr>
+</tbody>
+</table>
+</div>
+
 ## 📅 2026年最新版の更新ポイント
 
 この記事は**毎年見直す前提**で書いている。2026年6月時点での主な状況はこう：
@@ -155,6 +167,18 @@ references: ["https://www.ana.co.jp/travelandlife/article/001953/", "https://www
 - **JAL Wellness & Travel**：550円/月の課金型は変わらず。1日8,000〜10,000歩あるく人なら年5,000マイル超も射程。歩かない人は不向き。
 - **トリマ**：移動距離＋歩数＋広告の三本柱は健在。ルール改定で獲得効率が上下するので、交換レートは都度確認。
 - **dヘルスケア／楽天ヘルスケア**：無料で気軽に回せる立ち位置は不変。経済圏ポイントの“ついで取り”として安定。
+
+<div class="cmp-table-wrap">
+<table class="cmp-table">
+<thead><tr><th>アプリ</th><th>2026年6月 時点の状況</th></tr></thead>
+<tbody>
+<tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/move-to-earn-poikatsu-apps-2026/logos/anapocket.png" alt="" loading="lazy" /><strong>ANA Pocket</strong></span></td><td>2025年8月にブースト機能の改定・チャレンジ獲得ポイント減。<strong>Pro（550円）の損益分岐は月 550マイル</strong>で、平均的な移動量なら元は取れる</td></tr>
+<tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/move-to-earn-poikatsu-apps-2026/logos/jalwellness.png" alt="" loading="lazy" /><strong>JAL Wellness &amp; Travel</strong></span></td><td>550円/月 の課金型は変わらず。<strong>1日 8,000〜10,000歩</strong> あるく人なら年 5,000マイル超も射程。歩かない人は不向き</td></tr>
+<tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/move-to-earn-poikatsu-apps-2026/logos/torima.png" alt="" loading="lazy" /><strong>トリマ</strong></span></td><td>移動距離＋歩数＋広告の三本柱は健在。<strong>ルール改定で獲得効率が上下する</strong>ので交換レートは都度 確認</td></tr>
+<tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/move-to-earn-poikatsu-apps-2026/logos/dhealth.png" alt="" loading="lazy" /><strong>dヘルスケア</strong></span> / <span class="cell-brand"><img class="brand-logo-sm" src="/images/move-to-earn-poikatsu-apps-2026/logos/rakutenhealth.png" alt="" loading="lazy" /><strong>楽天ヘルスケア</strong></span></td><td>無料で気軽に回せる立ち位置は不変。<strong>経済圏ポイントの「ついで取り」</strong>として安定</td></tr>
+</tbody>
+</table>
+</div>
 
 > 📌 **来年の更新時に見るべき指標**：①各アプリの月額・損益分岐点 ②獲得ポイントの改悪/改善 ③交換レート ④新規参入アプリ（毎年新顔が出る）。
 
