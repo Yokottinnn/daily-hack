@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T23:32:22Z",
+  "generated_at": "2026-09-22T00:02:33Z",
   "login_lock": {"present": false, "age_hours": 0},
   "cdp": {"healthy": true, "port": 18810},
   "x_jobs": {"loaded": 8, "expected": 8, "ai_total": 14, "halted": false, "missing": []},
@@ -36,17 +36,17 @@
   "tasks": [],
   "running": null,
   "auth": {
-    "ok": false,
-    "expires_at": "2026-09-21T21:39:06Z",
-    "detail": "トークンの有効期限を過ぎている"
+    "ok": true,
+    "expires_at": "2026-09-22T07:52:33Z",
+    "detail": "有効期限内"
   },
   "activity": {
-    "date": "2026-09-21",
-    "posted_today": 58,
+    "date": "2026-09-22",
+    "posted_today": 11,
     "detail": "ログを走査した",
     "sources": [
-      {"file": "comment-orchestrator.log", "count": 20},
-      {"file": "comment-warmup.log", "count": 38}
+      {"file": "comment-orchestrator.log", "count": 4},
+      {"file": "comment-warmup.log", "count": 7}
     ]
   },
   "autoload": {
@@ -126,7 +126,7 @@
     "prev": 227,
     "prev_date": "2026-09-08",
     "span_days": 13,
-    "record_age_days": 0,
+    "record_age_days": 1,
     "record_stale": false,
     "target": 300,
     "deadline": "2026-09-30"
