@@ -24,7 +24,7 @@ references: ["https://coki.jp/article/column/83119/", "https://b4c.jp/poigiken/a
 <p>先に一番大事なやつ言っとくね。<strong>①eKYC（本人確認）は今すぐ済ませる（やってないと還元ゼロ）②公共料金のPayPayカード払いはやめて他カードに移す③ポイントは「払う」んじゃなく貯めて使い道を選ぶ</strong>。この3つだけでも被害は最小化できる。順番に説明するよ。</p>
 </div>
 
-## ⚠️ 2026年6月2日 PayPay改悪 5つの変更点
+<h2 class="brand-h" id="paypay-2026-06-changes"><img class="brand-logo" src="/images/paypay-2026-june-revision-guide/logos/paypay.png" alt="PayPay" loading="lazy" /><span>⚠️ 2026年6月2日 PayPay改悪 5つの変更点</span></h2>
 
 まず全体像。今回の改定で変わったのはこの5つ。**赤字＝改悪**。
 
@@ -34,7 +34,7 @@ references: ["https://coki.jp/article/column/83119/", "https://b4c.jp/poigiken/a
 | **公共料金・税金の還元** | 1.0%（200円→2pt） | **0.5%（200円→1pt）** | 🔴 大 |
 | **交通系IC等チャージ（17社）** | 0.5〜1.0% | **付与対象外（0%）** | 🔴 大 |
 | **eKYC（本人確認）** | 任意 | **必須化（未完了は還元ゼロ）** | 🔴 特大 |
-| **PayPayカードゴールド +0.5%上乗せ** | 基本1.5% | **基本1.0%**（年100万利用で11,000pt新設） | 🟡 中 |
+| <span class="cell-brand"><img class="brand-logo-sm" src="/images/paypay-2026-june-revision-guide/logos/paypaycard.png" alt="PayPayカード" loading="lazy" /><strong>PayPayカードゴールド +0.5%上乗せ</strong></span> | 基本1.5% | **基本1.0%**（年100万利用で11,000pt新設） | 🟡 中 |
 
 > 🎯 **要するに**：「PayPayで何でも払えばポイントが貯まる」時代は終わった。**“どこで払うか”を選ばないと損する**フェーズに入ったってこと。
 
@@ -64,7 +64,7 @@ references: ["https://coki.jp/article/column/83119/", "https://b4c.jp/poigiken/a
 
 6/2以降、**本人確認（eKYC）が未完了だと、ポイント付与もPayPayステップの倍率カウントも対象外**＝実質還元ゼロ。アプリの案内に従って数分で終わるので、**まだの人は今日やる**。これだけで“知らずに全損”を防げる。
 
-### ⑤ PayPayカードゴールドの+0.5%上乗せ廃止
+<h3 class="brand-h" id="paypaycard-gold-bonus-end"><img class="brand-logo" src="/images/paypay-2026-june-revision-guide/logos/paypaycard.png" alt="PayPayカード" loading="lazy" /><span>⑤ PayPayカードゴールドの+0.5%上乗せ廃止</span></h3>
 
 ゴールドの「基本1.5%」を支えてた<strong>+0.5%上乗せが廃止→基本1.0%に</strong>。代わりに**年間100万円利用で11,000ptボーナス**（年会費11,000円と実質相殺）が新設。年100万円使わない人は**ゴールドの旨味が薄れた**。
 
@@ -105,7 +105,7 @@ references: ["https://coki.jp/article/column/83119/", "https://b4c.jp/poigiken/a
 
 「結局PayPayカードのまま使うべき？乗り換える？」を、**普段使い（店舗・ネットの通常決済）の還元率1.0%は据え置き**な点を踏まえて整理した。差が出るのは**公共料金・チャージ**の部分。
 
-| 月の固定費（公共料金等）をPayPay払い | PayPayカード（改定後） | 楽天カード | JRE CARD（Suica民） |
+| 月の固定費（公共料金等）をPayPay払い | <span class="cell-brand"><img class="brand-logo-sm" src="/images/paypay-2026-june-revision-guide/logos/paypaycard.png" alt="PayPayカード" loading="lazy" /><a href="https://www.paypay-card.co.jp/" target="_blank" rel="noopener">PayPayカード</a>（改定後）</span> | <span class="cell-brand"><img class="brand-logo-sm" src="/images/paypay-2026-june-revision-guide/logos/rakuten-card.png" alt="楽天カード" loading="lazy" /><a href="https://www.rakuten-card.co.jp/" target="_blank" rel="noopener">楽天カード</a></span> | <a href="https://www.jreast.co.jp/card/" target="_blank" rel="noopener">JRE CARD</a>（Suica民） |
 |:---|:---:|:---:|:---:|
 | **公共料金の還元率** | 0.5% | 1.0% | 0.5%〜（Suicaチャージは1.5%） |
 | **交通系ICチャージ還元** | 0%（廃止） | 0.5% | **1.5%（モバイルSuica）** |

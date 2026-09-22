@@ -1,0 +1,39 @@
+{
+ "_note": "識別目的で使うロゴ。**商標であり自由ライセンスではない。** 改変しない（CSS の枠は可）。取得元と取得日をここに残す。",
+ "paypaycard.png": {
+  "brand": "PayPayカード",
+  "source": "https://www.paypay-card.co.jp/company/ の SVG",
+  "page": "https://www.paypay-card.co.jp/company/",
+  "fetched": "2026-09-20",
+  "license_note": "公式サイトのロゴ画像（商標）。**SVG を Chromium で PNG にした**",
+  "task": "ops/tasks/t133-logos-retry5.sh",
+  "copied_from": "public/images/credit-card-kaiaku-2026/logos/paypaycard.png",
+  "copied": "2026-09-22"
+ },
+ "smbccard.png": {
+  "brand": "三井住友カード",
+  "source": "https://www.smbc-card.com/",
+  "page": "https://www.smbc-card.com/",
+  "fetched": "2026-09-20",
+  "license_note": "公式サイトのロゴ画像（商標）",
+  "task": "ops/tasks/t130-*.sh",
+  "copied_from": "public/images/credit-card-kaiaku-2026/logos/smbccard.png",
+  "copied": "2026-09-22"
+ },
+ "recruit-card.png": {
+  "brand": "リクルートカード",
+  "source": "（既存。この記事で以前から使用）",
+  "fetched": "不明",
+  "license_note": "商標。識別目的で使用",
+  "copied_from": "public/images/credit-card-kaiaku-2026/logos/recruit-card.png",
+  "copied": "2026-09-22"
+ },
+ "rakuten-card.png": {
+  "brand": "楽天カード",
+  "source": "（既存。この記事で以前から使用）",
+  "fetched": "不明",
+  "license_note": "商標。識別目的で使用",
+  "copied_from": "public/images/credit-card-kaiaku-2026/logos/rakuten-card.png",
+  "copied": "2026-09-22"
+ }
+}
