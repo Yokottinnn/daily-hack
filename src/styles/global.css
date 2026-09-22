@@ -475,6 +475,19 @@ footer.foot .pr { margin-top: 6px; }
   font-size: 14.5px;
   line-height: 1.6;
 }
+/* **スマホでは表を横スクロールさせる。**
+   `.post-body` は `overflow-x: hidden` なので、はみ出した表は**スクロールできずに切れる**。
+   デスクトップの `display: table` は tbody が幅を埋めるために要る（上のコメント参照）ので、
+   **狭いときだけ** `display: block` に落として表自身にスクロールを持たせる。
+   幅が足りている表は `scrollWidth == clientWidth` になるので、見た目は変わらない。 */
+@media (max-width: 600px) {
+  .post-body table {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+}
 .post-body table thead th {
   background: #f7f8fa;
   color: #2c3038;

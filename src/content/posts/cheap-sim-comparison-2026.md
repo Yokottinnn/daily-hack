@@ -48,17 +48,17 @@ author: "hacker-ko"
 <div class="highlight-grid cols-3">
   <div class="highlight-item">
     <span class="highlight-tag">無制限派</span>
-    <h4>楽天モバイル</h4>
+    <h4 class="brand-h"><img class="brand-logo" src="/images/cheap-sim-comparison-2026/logos/rakutenmobile.png" alt="楽天モバイルのロゴ" loading="lazy" /><span>楽天モバイル</span></h4>
     <p>上限3,278円。楽天経済圏なら議論終了。</p>
   </div>
   <div class="highlight-item">
     <span class="highlight-tag">品質重視</span>
-    <h4>ahamo</h4>
+    <h4 class="brand-h"><img class="brand-logo" src="/images/cheap-sim-comparison-2026/logos/ahamo.png" alt="ahamo のロゴ" loading="lazy" /><span>ahamo</span></h4>
     <p>ドコモ回線そのまま2,970円。5分かけ放題込み。</p>
   </div>
   <div class="highlight-item">
     <span class="highlight-tag">使った分だけ</span>
-    <h4>povo 2.0</h4>
+    <h4 class="brand-h"><img class="brand-logo" src="/images/cheap-sim-comparison-2026/logos/povo.png" alt="povo のロゴ" loading="lazy" /><span>povo 2.0</span></h4>
     <p>基本料0円・トッピング型。サブ回線最適。</p>
   </div>
 </div>
@@ -221,7 +221,7 @@ author: "hacker-ko"
 
 ## 用途別おすすめ: あんたの使い方、ちゃんと棚卸ししなさい
 
-### データ無制限で動画もテザリングもしたい → 楽天モバイル
+<h3 class="brand-h" id="sim-rakutenmobile"><img class="brand-logo" src="/images/cheap-sim-comparison-2026/logos/rakutenmobile.png" alt="楽天モバイルのロゴ" loading="lazy" /><span>データ無制限で動画もテザリングもしたい → 楽天モバイル</span></h3>
 
 YouTube・Netflixを外で見る、テザリングでPCを使う、こういう「データ量読めないし上限気にしたくない」派は**楽天モバイル一択で議論終了**。
 
@@ -233,7 +233,7 @@ YouTube・Netflixを外で見る、テザリングでPCを使う、こういう�
 
 > 💡 **お得Tip**: 楽天カード・楽天銀行・楽天証券をセットで開設しておくとSPUが一気に積み上がる。楽天モバイル単体で乗り換えるより、楽天経済圏全体に寄せる方がトータルリターンが大きいわよ。
 
-### 品質最優先・月20〜30GB前後 → ahamo
+<h3 class="brand-h" id="sim-ahamo"><img class="brand-logo" src="/images/cheap-sim-comparison-2026/logos/ahamo.png" alt="ahamo のロゴ" loading="lazy" /><span>品質最優先・月20〜30GB前後 → ahamo</span></h3>
 
 「とにかく繋がりの安定が大事」「地下鉄・地方出張で困りたくない」って人は、**ahamo一択で議論終了**。NTTドコモ本体回線そのままで、5G/4Gの実エリアが最強クラス。
 
@@ -241,7 +241,7 @@ YouTube・Netflixを外で見る、テザリングでPCを使う、こういう�
 
 > ⚡ **重要**: ahamoは**店頭サポートが有料**（1回3,300円）。スマホ操作を自力で完結できる人向けのプランよ。心配な人は最初の1ヶ月だけ家族・友人にセットアップ手伝ってもらいなさい。
 
-### 月の使用量がバラバラ・サブ回線が欲しい → povo 2.0
+<h3 class="brand-h" id="sim-povo"><img class="brand-logo" src="/images/cheap-sim-comparison-2026/logos/povo.png" alt="povo のロゴ" loading="lazy" /><span>月の使用量がバラバラ・サブ回線が欲しい → povo 2.0</span></h3>
 
 「基本は自宅Wi-Fiで足りる、月によっては全然データ使わない」って人、**毎月3,000円も払い続けるのアホらしくない？** povo 2.0は**基本料0円**で、必要な月だけ「3GB 990円」「使い放題24時間 330円」みたいに**トッピング型**で買える。
 
@@ -249,13 +249,13 @@ YouTube・Netflixを外で見る、テザリングでPCを使う、こういう�
 
 > ⚠️ **注意**: 180日間トッピング無しの状態が続くと利用停止になる可能性あり。サブ運用するなら、半年に1回は安いトッピングを買って契約を維持しなさい。
 
-### LINEを大量に使う・SNS族 → LINEMO
+<h3 class="brand-h" id="sim-linemo"><img class="brand-logo" src="/images/cheap-sim-comparison-2026/logos/linemo.png" alt="LINEMO のロゴ" loading="lazy" /><span>LINEを大量に使う・SNS族 → LINEMO</span></h3>
 
 LINEのトーク・音声通話・ビデオ通話・スタンプ送信が**全部ギガ消費ゼロ**（LINEギガフリー）。リモートで家族・友達とLINE通話を1日中つなぎっぱなしにしてる人、月のデータ使用量が劇的に減るから3GBのミニプラン990円で生きていける可能性ある。
 
 ソフトバンク本体回線で品質も問題なし。**ahamoと比べて派手なキャンペーンが定期的に走る**ので、申込タイミングを狙えばPayPayポイント1万円分以上の還元を取れることもあるわよ。
 
-### 店頭サポートが必須 → UQ mobile / Y!mobile
+<h3 class="brand-h" id="sim-uq-ymobile"><img class="brand-logo" src="/images/cheap-sim-comparison-2026/logos/uqmobile.png" alt="UQ mobile のロゴ" loading="lazy" /><img class="brand-logo" src="/images/cheap-sim-comparison-2026/logos/ymobile.png" alt="Y!mobile のロゴ" loading="lazy" /><span>店頭サポートが必須 → UQ mobile / Y!mobile</span></h3>
 
 「スマホ操作が苦手で、何かあったら店頭で聞きたい」「実家の親に持たせたい」って場合は、**UQ mobile（au系）またはY!mobile（SoftBank系）の二択**。料金は素のままだと高めだけど、自宅セット割・家族セット割を組み合わせると月3,000円台前半まで落ちる。
 

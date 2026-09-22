@@ -54,12 +54,12 @@ references:
 
 | サービス | 月額（概算・税込目安） | 主な強み | 見放題のボリューム感 |
 |---|---|---|---|
-| Netflix | 約790円〜1,980円（プラン別） | オリジナル作品の質と量 | 多い（独占多数） |
-| U-NEXT | 約2,189円 | 見放題本数が業界最大級＋雑誌・毎月ポイント付与 | 非常に多い |
-| Amazon Prime Video | 約600円（プライム会費に内包） | 配送特典等とセットで激安 | 中〜多 |
-| Disney+ | 約990円〜 | ディズニー/ピクサー/マーベル/スター・ウォーズ | 中（独占強い） |
-| Hulu | 約1,026円 | 国内ドラマ・日テレ系・海外ドラマに強い | 多い |
-| DAZN | 約4,200円〜（スタンダード） | ライブスポーツ特化 | スポーツ中継中心 |
+| <span class="cell-brand"><img class="brand-logo-sm" src="/images/video-subscription-cost-per-view-2026/logos/netflix.png" alt="Netflix のロゴ" loading="lazy" />Netflix</span> | 約790円〜1,980円（プラン別） | オリジナル作品の質と量 | 多い（独占多数） |
+| <span class="cell-brand"><img class="brand-logo-sm" src="/images/video-subscription-cost-per-view-2026/logos/unext.png" alt="U-NEXT のロゴ" loading="lazy" />U-NEXT</span> | 約2,189円 | 見放題本数が業界最大級＋雑誌・毎月ポイント付与 | 非常に多い |
+| <span class="cell-brand"><img class="brand-logo-sm" src="/images/video-subscription-cost-per-view-2026/logos/primevideo.png" alt="Amazon Prime Video のロゴ" loading="lazy" />Amazon Prime Video</span> | 約600円（プライム会費に内包） | 配送特典等とセットで激安 | 中〜多 |
+| <span class="cell-brand"><img class="brand-logo-sm" src="/images/video-subscription-cost-per-view-2026/logos/disneyplus.png" alt="Disney+ のロゴ" loading="lazy" />Disney+</span> | 約990円〜 | ディズニー/ピクサー/マーベル/スター・ウォーズ | 中（独占強い） |
+| <span class="cell-brand"><img class="brand-logo-sm" src="/images/video-subscription-cost-per-view-2026/logos/hulu.png" alt="Hulu のロゴ" loading="lazy" />Hulu</span> | 約1,026円 | 国内ドラマ・日テレ系・海外ドラマに強い | 多い |
+| <span class="cell-brand"><img class="brand-logo-sm" src="/images/video-subscription-cost-per-view-2026/logos/dazn.png" alt="DAZN のロゴ" loading="lazy" />DAZN</span> | 約4,200円〜（スタンダード） | ライブスポーツ特化 | スポーツ中継中心 |
 
 ポイント整理すると、
 
@@ -75,12 +75,12 @@ references:
 
 | サービス | 月額目安 | 実質1本単価（÷3） |
 |---|---|---|
-| Amazon Prime Video | 約600円 | **約200円** |
-| Netflix（広告つき等の安プラン） | 約790円 | 約263円 |
-| Disney+ | 約990円 | 約330円 |
-| Hulu | 約1,026円 | 約342円 |
-| U-NEXT | 約2,189円 | 約730円 😱 |
-| DAZN | 約4,200円 | 約1,400円 😱😱 |
+| <span class="cell-brand"><img class="brand-logo-sm" src="/images/video-subscription-cost-per-view-2026/logos/primevideo.png" alt="Amazon Prime Video のロゴ" loading="lazy" />Amazon Prime Video</span> | 約600円 | **約200円** |
+| <span class="cell-brand"><img class="brand-logo-sm" src="/images/video-subscription-cost-per-view-2026/logos/netflix.png" alt="Netflix のロゴ" loading="lazy" />Netflix（広告つき等の安プラン）</span> | 約790円 | 約263円 |
+| <span class="cell-brand"><img class="brand-logo-sm" src="/images/video-subscription-cost-per-view-2026/logos/disneyplus.png" alt="Disney+ のロゴ" loading="lazy" />Disney+</span> | 約990円 | 約330円 |
+| <span class="cell-brand"><img class="brand-logo-sm" src="/images/video-subscription-cost-per-view-2026/logos/hulu.png" alt="Hulu のロゴ" loading="lazy" />Hulu</span> | 約1,026円 | 約342円 |
+| <span class="cell-brand"><img class="brand-logo-sm" src="/images/video-subscription-cost-per-view-2026/logos/unext.png" alt="U-NEXT のロゴ" loading="lazy" />U-NEXT</span> | 約2,189円 | 約730円 😱 |
+| <span class="cell-brand"><img class="brand-logo-sm" src="/images/video-subscription-cost-per-view-2026/logos/dazn.png" alt="DAZN のロゴ" loading="lazy" />DAZN</span> | 約4,200円 | 約1,400円 😱😱 |
 
 ライト層でU-NEXT契約してる人、**1本730円**払ってるのよ。それレンタルで借りた方が安い。ライト層の正解はぶっちぎりで**Amazon Prime Video**ね。
 
@@ -88,11 +88,11 @@ references:
 
 | サービス | 月額目安 | 実質1本単価（÷8） |
 |---|---|---|
-| Amazon Prime Video | 約600円 | **約75円** |
-| Netflix（安プラン） | 約790円 | 約99円 |
-| Disney+ | 約990円 | 約124円 |
-| Hulu | 約1,026円 | 約128円 |
-| U-NEXT | 約2,189円 | 約274円 |
+| <span class="cell-brand"><img class="brand-logo-sm" src="/images/video-subscription-cost-per-view-2026/logos/primevideo.png" alt="Amazon Prime Video のロゴ" loading="lazy" />Amazon Prime Video</span> | 約600円 | **約75円** |
+| <span class="cell-brand"><img class="brand-logo-sm" src="/images/video-subscription-cost-per-view-2026/logos/netflix.png" alt="Netflix のロゴ" loading="lazy" />Netflix（安プラン）</span> | 約790円 | 約99円 |
+| <span class="cell-brand"><img class="brand-logo-sm" src="/images/video-subscription-cost-per-view-2026/logos/disneyplus.png" alt="Disney+ のロゴ" loading="lazy" />Disney+</span> | 約990円 | 約124円 |
+| <span class="cell-brand"><img class="brand-logo-sm" src="/images/video-subscription-cost-per-view-2026/logos/hulu.png" alt="Hulu のロゴ" loading="lazy" />Hulu</span> | 約1,026円 | 約128円 |
+| <span class="cell-brand"><img class="brand-logo-sm" src="/images/video-subscription-cost-per-view-2026/logos/unext.png" alt="U-NEXT のロゴ" loading="lazy" />U-NEXT</span> | 約2,189円 | 約274円 |
 
 8本も観るとガラッと変わる。Amazonは1本75円、Netflixも100円切ってきた。U-NEXTはまだ274円で割高に見えるけど、**毎月もらえるポイントで新作レンタルや映画館チケットに使える分**を引くと体感はもっと下がる。ミドル層は「Amazon＋もう1社」の二刀流が現実的ね。
 
@@ -100,11 +100,11 @@ references:
 
 | サービス | 月額目安 | 実質1本単価（÷20） |
 |---|---|---|
-| Amazon Prime Video | 約600円 | **約30円** |
-| Netflix（安プラン） | 約790円 | 約40円 |
-| Disney+ | 約990円 | 約50円 |
-| Hulu | 約1,026円 | 約51円 |
-| U-NEXT | 約2,189円 | 約109円 |
+| <span class="cell-brand"><img class="brand-logo-sm" src="/images/video-subscription-cost-per-view-2026/logos/primevideo.png" alt="Amazon Prime Video のロゴ" loading="lazy" />Amazon Prime Video</span> | 約600円 | **約30円** |
+| <span class="cell-brand"><img class="brand-logo-sm" src="/images/video-subscription-cost-per-view-2026/logos/netflix.png" alt="Netflix のロゴ" loading="lazy" />Netflix（安プラン）</span> | 約790円 | 約40円 |
+| <span class="cell-brand"><img class="brand-logo-sm" src="/images/video-subscription-cost-per-view-2026/logos/disneyplus.png" alt="Disney+ のロゴ" loading="lazy" />Disney+</span> | 約990円 | 約50円 |
+| <span class="cell-brand"><img class="brand-logo-sm" src="/images/video-subscription-cost-per-view-2026/logos/hulu.png" alt="Hulu のロゴ" loading="lazy" />Hulu</span> | 約1,026円 | 約51円 |
+| <span class="cell-brand"><img class="brand-logo-sm" src="/images/video-subscription-cost-per-view-2026/logos/unext.png" alt="U-NEXT のロゴ" loading="lazy" />U-NEXT</span> | 約2,189円 | 約109円 |
 
 ヘビー層になると全社が缶ジュース以下。ここで効いてくるのが<strong>「観たい作品が尽きないか」</strong>よ。20本観るならカタログの厚みが命。**見放題本数が業界最大級のU-NEXT**は、1本109円でも「観るものが切れない」から実質コスパで逆転する。安いサービスで観たい作品が枯れて結局課金…が一番もったいない。
 
