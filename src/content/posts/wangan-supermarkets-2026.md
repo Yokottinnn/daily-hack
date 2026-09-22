@@ -66,18 +66,18 @@ references: ["https://rinconomiblog.com/supermarket-harumi/", "https://retailgui
 
 経済圏でメイン店舗を決めれば、ポイ活効率は **2〜3 倍** 変わる。湾岸エリア限定の「使える店舗（エリア）」リスト付き。
 
-| ロゴ | ポイント | 一番強い店舗（エリア） | 還元率 | 主要お得日 |
-|:---:|---|---|---|---|
-| <img src="/images/wangan-supermarkets-2026/icons/point-waon.png" alt="WAON" width="60" /> | **WAON / WAON POINT** | ダイエー（豊洲）・まいばすけっと（晴海/勝どき/月島/豊洲） | 0.5〜1% | 毎月 20・30 日 5%OFF、15 日 G.G デー（55+）、10 日 ありが10、5・15・25 日 ポイント2倍 |
-| <img src="/images/wangan-supermarkets-2026/icons/point-dpoint.png" alt="d払い" width="60" /> | **d ポイント** | ライフ（豊洲/勝どき）・マルエツ（晴海/勝どき/月島）・リンコス（月島） | 0.5〜1% | 毎週金土 d 曜日（+3%）、ライフ 5の付く日 |
-| <img src="/images/wangan-supermarkets-2026/icons/point-rakuten.svg" alt="楽天" width="60" /> | **楽天ポイント** | ライフ（豊洲/勝どき）・マルエツ全店・成城石井（晴海/豊洲） | 0.5〜1% | サミット（晴海）は楽天ペイ最大 20%（不定期） |
-| <img src="/images/wangan-supermarkets-2026/icons/point-paypay.png" alt="PayPay" width="60" /> | **PayPay** | ライフ全店・成城石井（晴海/豊洲）・サミット（晴海） | 0.5% | PayPay ステップ・週末ジャンボくじ |
-| <img src="/images/wangan-supermarkets-2026/icons/point-mitsui-sp.png" alt="三井ショッピングパーク" width="60" /> | **三井ショッピングパーク** | 成城石井（豊洲・ららぽーと内）※サミットHARUMI FLAGはMSP対象外（サミットポイントは別途貯まる） | 1%（税抜100円=1pt） | MSPカード《セゾン》クレジット同上、ポイントUP月間あり |
-| <img src="/images/wangan-supermarkets-2026/icons/logo-summit.png" alt="サミット" width="60" /> | **サミットポイント** | サミット（HARUMI FLAG） | 0.5%（税抜200円=1pt） | **火曜 ポイント10倍（実質5%）**、木・日 5倍（2.5%）、アプリ会員価格 |
-| <img src="/images/wangan-supermarkets-2026/icons/logo-sanwa.jpg" alt="三和" width="60" /> | **三和ポイント** 🆕 | SANWA（豊洲ららぽーと／2026年9月〜） | 0.5%〜**実質最大3.3%** | **毎週土・日 ポイント5倍**（14時まで・2,500円以上）、クレカ決済は対象外 |
-| <img src="/images/wangan-supermarkets-2026/icons/point-lc.png" alt="LCポイント" width="60" /> | **LC ポイント（独自）** | ライフ（豊洲・勝どき） | 0.5%（LC JCB 決済で実質 3 倍） | 毎月 7・17・27 日 LC JCB 5 倍、LaCuCa チャージデー（1・2・3・15・16・17 日） |
-| <img src="/images/wangan-supermarkets-2026/icons/point-bunkado.png" alt="文化堂" width="60" /> | **文化堂ポイント** | 文化堂（月島・勝どき） | 0.5〜1% | 木曜ポイント 2 倍、毎月 10・20・30 日 特売 |
-| <img src="/images/wangan-supermarkets-2026/icons/point-ponta.png" alt="Ponta" width="60" /> | **Ponta** | ライフ（豊洲・勝どき） | 0.5〜1% | auPAY +0.5%、毎月 3・13・23 日 三太郎の日 |
+| ポイント | 一番強い店舗（エリア） | 還元率 | 主要お得日 |
+|---|---|---|---|
+| <span class="cell-brand"><img class="brand-logo-sm" src="/images/wangan-supermarkets-2026/icons/point-waon.png" alt="WAONのロゴ" loading="lazy" /><strong>WAON / WAON POINT</strong></span> | ダイエー（豊洲）・まいばすけっと（晴海/勝どき/月島/豊洲） | 0.5〜1% | 毎月 20・30 日 5%OFF、15 日 G.G デー（55+）、10 日 ありが10、5・15・25 日 ポイント2倍 |
+| <span class="cell-brand"><img class="brand-logo-sm" src="/images/wangan-supermarkets-2026/icons/point-dpoint.png" alt="d払いのロゴ" loading="lazy" /><strong>d ポイント</strong></span> | ライフ（豊洲/勝どき）・マルエツ（晴海/勝どき/月島）・リンコス（月島） | 0.5〜1% | 毎週金土 d 曜日（+3%）、ライフ 5の付く日 |
+| <span class="cell-brand"><img class="brand-logo-sm" src="/images/wangan-supermarkets-2026/icons/point-rakuten.svg" alt="楽天のロゴ" loading="lazy" /><strong>楽天ポイント</strong></span> | ライフ（豊洲/勝どき）・マルエツ全店・成城石井（晴海/豊洲） | 0.5〜1% | サミット（晴海）は楽天ペイ最大 20%（不定期） |
+| <span class="cell-brand"><img class="brand-logo-sm" src="/images/wangan-supermarkets-2026/icons/point-paypay.png" alt="PayPayのロゴ" loading="lazy" /><strong>PayPay</strong></span> | ライフ全店・成城石井（晴海/豊洲）・サミット（晴海） | 0.5% | PayPay ステップ・週末ジャンボくじ |
+| <span class="cell-brand"><img class="brand-logo-sm" src="/images/wangan-supermarkets-2026/icons/point-mitsui-sp.png" alt="三井ショッピングパークのロゴ" loading="lazy" /><strong>三井ショッピングパーク</strong></span> | 成城石井（豊洲・ららぽーと内）※サミットHARUMI FLAGはMSP対象外（サミットポイントは別途貯まる） | 1%（税抜100円=1pt） | MSPカード《セゾン》クレジット同上、ポイントUP月間あり |
+| <span class="cell-brand"><img class="brand-logo-sm" src="/images/wangan-supermarkets-2026/icons/logo-summit.png" alt="サミットのロゴ" loading="lazy" /><strong>サミットポイント</strong></span> | サミット（HARUMI FLAG） | 0.5%（税抜200円=1pt） | **火曜 ポイント10倍（実質5%）**、木・日 5倍（2.5%）、アプリ会員価格 |
+| <span class="cell-brand"><img class="brand-logo-sm" src="/images/wangan-supermarkets-2026/icons/logo-sanwa.jpg" alt="三和のロゴ" loading="lazy" /><strong>三和ポイント</strong> 🆕</span> | SANWA（豊洲ららぽーと／2026年9月〜） | 0.5%〜**実質最大3.3%** | **毎週土・日 ポイント5倍**（14時まで・2,500円以上）、クレカ決済は対象外 |
+| <span class="cell-brand"><img class="brand-logo-sm" src="/images/wangan-supermarkets-2026/icons/point-lc.png" alt="LCポイントのロゴ" loading="lazy" /><strong>LC ポイント（独自）</strong></span> | ライフ（豊洲・勝どき） | 0.5%（LC JCB 決済で実質 3 倍） | 毎月 7・17・27 日 LC JCB 5 倍、LaCuCa チャージデー（1・2・3・15・16・17 日） |
+| <span class="cell-brand"><img class="brand-logo-sm" src="/images/wangan-supermarkets-2026/icons/point-bunkado.png" alt="文化堂のロゴ" loading="lazy" /><strong>文化堂ポイント</strong></span> | 文化堂（月島・勝どき） | 0.5〜1% | 木曜ポイント 2 倍、毎月 10・20・30 日 特売 |
+| <span class="cell-brand"><img class="brand-logo-sm" src="/images/wangan-supermarkets-2026/icons/point-ponta.png" alt="Pontaのロゴ" loading="lazy" /><strong>Ponta</strong></span> | ライフ（豊洲・勝どき） | 0.5〜1% | auPAY +0.5%、毎月 3・13・23 日 三太郎の日 |
 
 > ⚠️ **HARUMI FLAG サミットの注意点（誤解されがち）**：[ららテラスHARUMI FLAG 公式案内](https://mitsui-shopping-park.com/lalat-harumiflag/info/2666417.html)の通り、サミットストア HARUMI FLAG 店は **三井ショッピングパーク（MSP）ポイントの付与・利用、MSPカード《セゾン》クレジット払い・アプリde支払い・メンバーズプログラム積算が対象外**。ただし **サミット独自の「サミットポイント」はしっかり貯まる**ので “ポイントが付かない店” ではない。基本は税抜200円=1pt（0.5%）、**木・日は5倍（2.5%）、火曜は10倍（実質5%）** と高還元で、[サミットアプリ](https://www.summitstore.co.jp/app-about/)がデジタルポイントカード兼会員価格・クーポンになり、10,000pt→現金1万円に交換可（火曜はキャッシュバックデー）。**MSP 経済圏に寄せたい人だけ** 成城石井ららぽーと豊洲店との併用がベター。
 >
@@ -153,7 +153,7 @@ references: ["https://rinconomiblog.com/supermarket-harumi/", "https://retailgui
 <figcaption>晴海エリアの 5 店舗。HARUMI FLAG（中央南端）の <strong>サミットストア</strong> が最大、トリトンスクエア（中央北部）に <strong>マルエツプチ + 成城石井</strong> の高密度ゾーン。</figcaption>
 </figure>
 
-### <img src="/images/wangan-supermarkets-2026/icons/logo-maruetsu.png" alt="マルエツ" width="80" style="vertical-align: middle" /> マルエツ プチ 晴海店（晴海トリトン 1F）
+<h3 class="brand-h" id="-マルエツ-プチ-晴海店晴海トリトン-1f"><img class="brand-logo" src="/images/wangan-supermarkets-2026/icons/logo-maruetsu.png" alt="マルエツのロゴ" loading="lazy" /><span>マルエツ プチ 晴海店（晴海トリトン 1F）</span></h3>
 
 <figure>
 <img src="/images/wangan-supermarkets-2026/maruetsu-petit-harumi.jpg" alt="マルエツ プチ 晴海店（出典：晴海トリトン公式）" />
@@ -169,7 +169,7 @@ references: ["https://rinconomiblog.com/supermarket-harumi/", "https://retailgui
 
 [📍 Google マップで店舗を探す](https://www.google.com/maps/search/?api=1&query=マルエツプチ+晴海店+晴海トリトンスクエア) ／ [公式店舗ページ](https://www.maruetsu.co.jp/store/9358/)
 
-### <img src="/images/wangan-supermarkets-2026/icons/logo-maruetsu.png" alt="マルエツ" width="80" style="vertical-align: middle" /> マルエツ 晴海三丁目店（24h）
+<h3 class="brand-h" id="-マルエツ-晴海三丁目店24h"><img class="brand-logo" src="/images/wangan-supermarkets-2026/icons/logo-maruetsu.png" alt="マルエツのロゴ" loading="lazy" /><span>マルエツ 晴海三丁目店（24h）</span></h3>
 
 <figure>
 <img src="/images/wangan-supermarkets-2026/maruetsu-harumi-3.jpg" alt="マルエツ 晴海三丁目店 外観" />
@@ -184,7 +184,7 @@ references: ["https://rinconomiblog.com/supermarket-harumi/", "https://retailgui
 
 [📍 Google マップで店舗を探す](https://www.google.com/maps/search/?api=1&query=マルエツ+晴海三丁目店+東京都中央区晴海3-13-2) ／ [公式店舗ページ](https://www.maruetsu.co.jp/store/9483/)
 
-### <img src="/images/wangan-supermarkets-2026/icons/logo-seijoishii.png" alt="成城石井" width="80" style="vertical-align: middle" /> 成城石井 晴海トリトン店
+<h3 class="brand-h" id="-成城石井-晴海トリトン店"><img class="brand-logo" src="/images/wangan-supermarkets-2026/icons/logo-seijoishii.png" alt="成城石井のロゴ" loading="lazy" /><span>成城石井 晴海トリトン店</span></h3>
 
 <figure>
 <img src="/images/wangan-supermarkets-2026/seijoishii-harumi-triton.jpg" alt="成城石井 晴海トリトン店（出典：晴海トリトン公式）" />
@@ -201,7 +201,7 @@ references: ["https://rinconomiblog.com/supermarket-harumi/", "https://retailgui
 
 [📍 Google マップで店舗を探す](https://www.google.com/maps/search/?api=1&query=成城石井+晴海トリトン店+晴海トリトンスクエア2F) ／ [公式店舗ページ](https://shop.seijoishii.com/seijoishii/spot/detail?code=0087)
 
-### <img src="/images/wangan-supermarkets-2026/icons/logo-tobustore.jpg" alt="東武ストア" width="80" style="vertical-align: middle" /> 東武ストア 晴海三丁目店
+<h3 class="brand-h" id="-東武ストア-晴海三丁目店"><img class="brand-logo" src="/images/wangan-supermarkets-2026/icons/logo-tobustore.jpg" alt="東武ストアのロゴ" loading="lazy" /><span>東武ストア 晴海三丁目店</span></h3>
 
 <figure>
 <img src="/images/wangan-supermarkets-2026/tobustore-harumi-3.jpg" alt="東武ストア 晴海三丁目店 外観" />
@@ -216,7 +216,7 @@ references: ["https://rinconomiblog.com/supermarket-harumi/", "https://retailgui
 
 [📍 Google マップで店舗を探す](https://www.google.com/maps/search/?api=1&query=東武ストア+晴海三丁目店+東京都中央区晴海3-9-1) ／ [公式店舗ページ](https://www.tobustore.co.jp/index.php/shop/detail/74)
 
-### <img src="/images/wangan-supermarkets-2026/icons/logo-summit.png" alt="サミット" width="80" style="vertical-align: middle" /> サミットストア ららテラス HARUMI FLAG 店
+<h3 class="brand-h" id="-サミットストア-ららテラス-harumi-flag-店"><img class="brand-logo" src="/images/wangan-supermarkets-2026/icons/logo-summit.png" alt="サミットのロゴ" loading="lazy" /><span>サミットストア ららテラス HARUMI FLAG 店</span></h3>
 
 <figure>
 <img src="/images/wangan-supermarkets-2026/summit-harumi-flag.jpg" alt="サミットストア ららテラスHARUMI FLAG店（出典：三井ショッピングパーク公式）" />
@@ -251,7 +251,7 @@ references: ["https://rinconomiblog.com/supermarket-harumi/", "https://retailgui
 <figcaption>勝どきエリアの 4 店舗。<strong>ライフ勝どきミッドが駅 A5 出口直結</strong>の最強立地、マルエツ勝どき六丁目は 24h、文化堂勝どきは駅 A1 至近。</figcaption>
 </figure>
 
-### <img src="/images/wangan-supermarkets-2026/icons/logo-life.png" alt="ライフ" width="80" style="vertical-align: middle" /> ライフ 勝どきミッド店（駅直結）
+<h3 class="brand-h" id="-ライフ-勝どきミッド店駅直結"><img class="brand-logo" src="/images/wangan-supermarkets-2026/icons/logo-life.png" alt="ライフのロゴ" loading="lazy" /><span>ライフ 勝どきミッド店（駅直結）</span></h3>
 
 <figure>
 <img src="/images/wangan-supermarkets-2026/life-kachidoki-mid.png" alt="ライフ 勝どきミッド店（出典：ライフコーポレーション公式）" />
@@ -267,7 +267,7 @@ references: ["https://rinconomiblog.com/supermarket-harumi/", "https://retailgui
 
 [📍 Google マップで店舗を探す](https://www.google.com/maps/search/?api=1&query=ライフ+勝どきミッド店+東京都中央区勝どき4-6-6) ／ [公式店舗ページ](https://store.lifecorp.jp/detail/east667/)
 
-### <img src="/images/wangan-supermarkets-2026/icons/logo-maruetsu.png" alt="マルエツ" width="80" style="vertical-align: middle" /> マルエツ 勝どき六丁目店
+<h3 class="brand-h" id="-マルエツ-勝どき六丁目店"><img class="brand-logo" src="/images/wangan-supermarkets-2026/icons/logo-maruetsu.png" alt="マルエツのロゴ" loading="lazy" /><span>マルエツ 勝どき六丁目店</span></h3>
 
 <figure>
 <img src="/images/wangan-supermarkets-2026/maruetsu-kachidoki-6.jpg" alt="マルエツ 勝どき六丁目店 外観" />
@@ -283,7 +283,7 @@ references: ["https://rinconomiblog.com/supermarket-harumi/", "https://retailgui
 
 [📍 Google マップで店舗を探す](https://www.google.com/maps/search/?api=1&query=マルエツ+勝どき六丁目店+東京都中央区勝どき6-3-2) ／ [公式店舗ページ](https://www.maruetsu.co.jp/store/9343/)
 
-### <img src="/images/wangan-supermarkets-2026/icons/logo-bunkado.png" alt="文化堂" width="80" style="vertical-align: middle" /> 文化堂 勝どき店
+<h3 class="brand-h" id="-文化堂-勝どき店"><img class="brand-logo" src="/images/wangan-supermarkets-2026/icons/logo-bunkado.png" alt="文化堂のロゴ" loading="lazy" /><span>文化堂 勝どき店</span></h3>
 
 <figure>
 <img src="/images/wangan-supermarkets-2026/bunkado-kachidoki.jpg" alt="文化堂 勝どき店（出典：文化堂公式）" />
@@ -299,7 +299,7 @@ references: ["https://rinconomiblog.com/supermarket-harumi/", "https://retailgui
 
 [📍 Google マップで店舗を探す](https://www.google.com/maps/search/?api=1&query=文化堂+勝どき店+東京都中央区勝どき1-7-1) ／ [公式店舗ページ](https://www.bunkado.com/tenpo_kachidoki.html)
 
-### <img src="/images/wangan-supermarkets-2026/icons/logo-maibasuketto.png" alt="まいばすけっと" width="80" style="vertical-align: middle" /> まいばすけっと 勝どき 3 丁目店
+<h3 class="brand-h" id="-まいばすけっと-勝どき-3-丁目店"><img class="brand-logo" src="/images/wangan-supermarkets-2026/icons/logo-maibasuketto.png" alt="まいばすけっとのロゴ" loading="lazy" /><span>まいばすけっと 勝どき 3 丁目店</span></h3>
 
 <figure>
 <img src="/images/wangan-supermarkets-2026/maibasuketto-kachidoki-3.jpg" alt="まいばすけっと 勝どき3丁目店" />
@@ -324,7 +324,7 @@ references: ["https://rinconomiblog.com/supermarket-harumi/", "https://retailgui
 <figcaption>月島エリアの 4 店舗。<strong>リバーシティ21 内にマルエツ佃 + リンコス</strong>が並存、文化堂月島ともんじゃ街の老舗、まいばすけっと月島2丁目はもんじゃストリート裏。</figcaption>
 </figure>
 
-### <img src="/images/wangan-supermarkets-2026/icons/logo-maruetsu.png" alt="マルエツ" width="80" style="vertical-align: middle" /> マルエツ 佃店
+<h3 class="brand-h" id="-マルエツ-佃店"><img class="brand-logo" src="/images/wangan-supermarkets-2026/icons/logo-maruetsu.png" alt="マルエツのロゴ" loading="lazy" /><span>マルエツ 佃店</span></h3>
 
 <figure>
 <img src="/images/wangan-supermarkets-2026/maruetsu-tsukuda.jpg" alt="マルエツ 佃店（リバーシティ21）" />
@@ -340,7 +340,7 @@ references: ["https://rinconomiblog.com/supermarket-harumi/", "https://retailgui
 
 [📍 Google マップで店舗を探す](https://www.google.com/maps/search/?api=1&query=マルエツ+佃店+東京都中央区佃2-2-8) ／ [公式店舗ページ](https://www.maruetsu.co.jp/store/9275/)
 
-### <img src="/images/wangan-supermarkets-2026/icons/logo-maruetsu.png" alt="リンコス（マルエツ系）" width="80" style="vertical-align: middle" /> リンコス リバーシティ店
+<h3 class="brand-h" id="-リンコス-リバーシティ店"><img class="brand-logo" src="/images/wangan-supermarkets-2026/icons/logo-maruetsu.png" alt="リンコス（マルエツ系）のロゴ" loading="lazy" /><span>リンコス リバーシティ店</span></h3>
 
 <figure>
 <img src="/images/wangan-supermarkets-2026/lincos-river-city.jpg" alt="リンコス リバーシティ店" />
@@ -356,7 +356,7 @@ references: ["https://rinconomiblog.com/supermarket-harumi/", "https://retailgui
 
 [📍 Google マップで店舗を探す](https://www.google.com/maps/search/?api=1&query=リンコス+リバーシティ店+リバーシティ21ピアウエスト) ／ [公式店舗ページ](https://www.maruetsu.co.jp/store/9276/)
 
-### <img src="/images/wangan-supermarkets-2026/icons/logo-bunkado.png" alt="文化堂" width="80" style="vertical-align: middle" /> 文化堂 月島店
+<h3 class="brand-h" id="-文化堂-月島店"><img class="brand-logo" src="/images/wangan-supermarkets-2026/icons/logo-bunkado.png" alt="文化堂のロゴ" loading="lazy" /><span>文化堂 月島店</span></h3>
 
 <figure>
 <img src="/images/wangan-supermarkets-2026/bunkado-tsukishima.jpg" alt="文化堂 月島店（出典：文化堂公式）" />
@@ -372,7 +372,7 @@ references: ["https://rinconomiblog.com/supermarket-harumi/", "https://retailgui
 
 [📍 Google マップで店舗を探す](https://www.google.com/maps/search/?api=1&query=文化堂+月島店+東京都中央区月島2-10-2) ／ [公式店舗ページ](https://www.bunkado.com/tenpo_tsukishima.html)
 
-### <img src="/images/wangan-supermarkets-2026/icons/logo-maibasuketto.png" alt="まいばすけっと" width="80" style="vertical-align: middle" /> まいばすけっと 月島 2 丁目店
+<h3 class="brand-h" id="-まいばすけっと-月島-2-丁目店"><img class="brand-logo" src="/images/wangan-supermarkets-2026/icons/logo-maibasuketto.png" alt="まいばすけっとのロゴ" loading="lazy" /><span>まいばすけっと 月島 2 丁目店</span></h3>
 
 <figure>
 <img src="/images/wangan-supermarkets-2026/maibasuketto-tsukishima-2.jpg" alt="まいばすけっと 月島2丁目店" />
@@ -397,7 +397,7 @@ references: ["https://rinconomiblog.com/supermarket-harumi/", "https://retailgui
 <figcaption>豊洲エリアの 5 店舗。<strong>ライフ豊洲（3階建て大型）</strong>が中心、ダイエーは朝 7 時〜深夜 0 時、ららぽーとに成城石井と<strong>2026年9月オープン予定の SANWA（三和）</strong>、まいばすけっと豊洲1丁目が日常使い。</figcaption>
 </figure>
 
-### <img src="/images/wangan-supermarkets-2026/icons/logo-sanwa.jpg" alt="スーパー三和 SANWA" width="80" style="vertical-align: middle" /> SANWA（スーパー三和）ららぽーと豊洲店【2026年9月オープン予定・注目の新店】
+<h3 class="brand-h" id="-sanwaスーパー三和ららぽーと豊洲店2026年9月オープン予定注目の新店"><img class="brand-logo" src="/images/wangan-supermarkets-2026/icons/logo-sanwa.jpg" alt="スーパー三和 SANWAのロゴ" loading="lazy" /><span>SANWA（スーパー三和）ららぽーと豊洲店【2026年9月オープン予定・注目の新店】</span></h3>
 
 <figure>
 <img src="/images/wangan-supermarkets-2026/sanwa-lalaport-toyosu.jpg" alt="SANWA（スーパー三和）の店内イメージ — 精肉・生鮮に強い品質重視型スーパー（出典：スーパー三和 公式告知）" />
@@ -416,7 +416,7 @@ references: ["https://rinconomiblog.com/supermarket-harumi/", "https://retailgui
 
 [📍 Google マップで店舗を探す](https://www.google.com/maps/search/?api=1&query=スーパー三和+ららぽーと豊洲店+東京都江東区豊洲2-4-9) ／ [公式サイト](https://www.heartful-sanwa.co.jp/)
 
-### <img src="/images/wangan-supermarkets-2026/icons/logo-life.png" alt="ライフ" width="80" style="vertical-align: middle" /> ライフ 豊洲店（3 階建て大型）
+<h3 class="brand-h" id="-ライフ-豊洲店3-階建て大型"><img class="brand-logo" src="/images/wangan-supermarkets-2026/icons/logo-life.png" alt="ライフのロゴ" loading="lazy" /><span>ライフ 豊洲店（3 階建て大型）</span></h3>
 
 <figure>
 <img src="/images/wangan-supermarkets-2026/life-toyosu.jpg" alt="ライフ 豊洲店（出典：ライフコーポレーション公式）" />
@@ -432,7 +432,7 @@ references: ["https://rinconomiblog.com/supermarket-harumi/", "https://retailgui
 
 [📍 Google マップで店舗を探す](https://www.google.com/maps/search/?api=1&query=ライフ+豊洲店+東京都江東区豊洲4-11-6) ／ [公式店舗ページ](https://store.lifecorp.jp/detail/east659/)
 
-### <img src="/images/wangan-supermarkets-2026/icons/logo-daiei.png" alt="ダイエー" width="80" style="vertical-align: middle" /> ダイエー 豊洲店
+<h3 class="brand-h" id="-ダイエー-豊洲店"><img class="brand-logo" src="/images/wangan-supermarkets-2026/icons/logo-daiei.png" alt="ダイエーのロゴ" loading="lazy" /><span>ダイエー 豊洲店</span></h3>
 
 <figure>
 <img src="/images/wangan-supermarkets-2026/daiei-toyosu.jpg" alt="ダイエー 豊洲店" />
@@ -448,7 +448,7 @@ references: ["https://rinconomiblog.com/supermarket-harumi/", "https://retailgui
 
 [📍 Google マップで店舗を探す](https://www.google.com/maps/search/?api=1&query=ダイエー+豊洲店+ブランズタワー豊洲) ／ [公式店舗ページ](https://www.aeonfoodstyle.com/stores/d0888/)
 
-### <img src="/images/wangan-supermarkets-2026/icons/logo-seijoishii.png" alt="成城石井" width="80" style="vertical-align: middle" /> 成城石井 ららぽーと豊洲店
+<h3 class="brand-h" id="-成城石井-ららぽーと豊洲店"><img class="brand-logo" src="/images/wangan-supermarkets-2026/icons/logo-seijoishii.png" alt="成城石井のロゴ" loading="lazy" /><span>成城石井 ららぽーと豊洲店</span></h3>
 
 <figure>
 <img src="/images/wangan-supermarkets-2026/seijoishii-lalaport.jpg" alt="成城石井 ららぽーと豊洲店（出典：三井ショッピングパーク公式）" />
@@ -464,7 +464,7 @@ references: ["https://rinconomiblog.com/supermarket-harumi/", "https://retailgui
 
 [📍 Google マップで店舗を探す](https://www.google.com/maps/search/?api=1&query=成城石井+ららぽーと豊洲店+東京都江東区豊洲2-2-1) ／ [公式店舗ページ](https://shop.seijoishii.com/seijoishii/spot/detail?code=0222)
 
-### <img src="/images/wangan-supermarkets-2026/icons/logo-maibasuketto.png" alt="まいばすけっと" width="80" style="vertical-align: middle" /> まいばすけっと 豊洲 1 丁目店
+<h3 class="brand-h" id="-まいばすけっと-豊洲-1-丁目店"><img class="brand-logo" src="/images/wangan-supermarkets-2026/icons/logo-maibasuketto.png" alt="まいばすけっとのロゴ" loading="lazy" /><span>まいばすけっと 豊洲 1 丁目店</span></h3>
 
 <figure>
 <img src="/images/wangan-supermarkets-2026/maibasuketto-toyosu-1.jpg" alt="まいばすけっと 豊洲1丁目店" />
