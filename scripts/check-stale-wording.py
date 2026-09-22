@@ -25,13 +25,23 @@ import sys
 
 POSTS = pathlib.Path(__file__).resolve().parent.parent / "src/content/posts"
 
-# **「これから起きる」と読める語。** 時間が経つと嘘になる
-# **「見込み」「する予定」は入れない。** 「見込み年収」「年間来店見込み回数」のような、
-# 時間が経っても嘘にならない使い方が多く、**誤検知のほうが多かった**（実測）。
-PAT = re.compile(
-    r"発売予定|開催予定|日程未発表|価格は未発表|まだ未発表|今後発表|近日公開|近日発売"
-    r"|まもなく発表|発表され次第|発表待ち|告知待ち|正式日程は|続報を待"
-)
+# **語は `ops/data/stale-words.txt` に置いてある。** `refresh-article.mjs` も
+# 同じファイルを読む。**パターンを 2 箇所に書かない**（片方だけ直して食い違う）。
+WORDS = pathlib.Path(__file__).resolve().parent.parent / "ops/data/stale-words.txt"
+
+
+def load_words():
+    out = []
+    for line in WORDS.read_text().split("\n"):
+        line = line.split("#", 1)[0].strip()
+        if line:
+            out.append(re.escape(line))
+    if not out:
+        raise SystemExit(f"語が 1 つも読めない: {WORDS}")
+    return re.compile("|".join(out))
+
+
+PAT = load_words()
 
 # **日数のしきい値。** 公開直後の「予定」は正しいことが多い
 WARN_DAYS = 60

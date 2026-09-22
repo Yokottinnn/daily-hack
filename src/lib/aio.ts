@@ -40,11 +40,16 @@ function rowsOfTables(body: string, needClass: string): Row[][] {
   while ((m = re.exec(body))) {
     if (!m[1].split(/\s+/).includes(needClass)) continue;
     const rows: Row[] = [];
-    const rre = /<tr[^>]*>\s*<th[^>]*>([\s\S]*?)<\/th>\s*<td[^>]*>([\s\S]*?)<\/td>/g;
+    // **`<th>` の表と `<td>` 2 列の表、どちらも拾う。**
+    // FAQ は記事によって `<th>質問</th><td>答え</td>` とも
+    // `<td><strong>質問</strong></td><td>答え</td>` とも書かれている。
+    // **`<th>` だけを見ていたせいで、表になっている FAQ を取りこぼしていた**
+    // （2026-09-22。16 記事が FAQPage を出せていなかった）。
+    const rre = /<tr[^>]*>\s*<t([hd])[^>]*>([\s\S]*?)<\/t\1>\s*<td[^>]*>([\s\S]*?)<\/td>/g;
     let r: RegExpExecArray | null;
     while ((r = rre.exec(m[2]))) {
-      const th = plain(r[1]);
-      const td = plain(r[2]);
+      const th = plain(r[2]);
+      const td = plain(r[3]);
       if (th && td) rows.push({ th, td });
     }
     if (rows.length) out.push(rows);

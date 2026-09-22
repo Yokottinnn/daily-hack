@@ -57,11 +57,24 @@ function readState() {
   }
 }
 
-/** **いちばん放置されている記事を選ぶ。** 一周するまで同じ記事に戻らない
+/** **どの記事を直すかを決める。** 一周するまで同じ記事に戻らない。
  *
- * ただし **`ops/data/unindexed.txt` に載っている記事を先に回す**（2026-09-20）。
- * 「クロール済み - インデックス未登録」は**見には来たが載せないと判断された**状態で、
- * サイトマップの再送信では動かない。効くのは中身のほうなので、ここを最優先にする。
+ * 順番は 3 段。**放置日数だけで選ぶのをやめた**（2026-09-22）。
+ *
+ *   1. **未インデックス**（`ops/data/unindexed.txt`）でまだ見ていないもの
+ *   2. **期限切れの語を含む記事**（`ops/data/stale-words.txt`）。最終更新が古い順
+ *   3. いちばん放置されている記事
+ *
+ * ## なぜ 2 を足したか
+ *
+ * 実際に古くて差し戻されたのは**期限のあるもの**だった。
+ * 東京湾大華火祭の節が「チケット発売は 7月予定」「料金は 5,000〜10,000円の予定」の
+ * まま 3 か月 残っていて、**実際には抽選が 3 回とも終わっていた**（2026-09-21）。
+ *
+ * **放置日数順だと、これが 75 日 後まで回ってこない。**
+ * 「発売予定」「告知待ち」のような**時間が経つと嘘になる語**を持つ記事を先に回す。
+ *
+ * 語は `check-stale-wording.py` と**同じファイルを読む**。2 箇所に書かない。
  */
 function pick(state) {
   const forced = arg('--slug');
@@ -83,6 +96,21 @@ function pick(state) {
     (s) => fs.existsSync(path.join(POSTS, `${s}.md`)) && !(state.done || {})[s],
   );
   if (unseen.length) return unseen[0];
+
+  // **期限切れの語**。`check-stale-wording.py` と同じファイルを読む
+  let stale = null;
+  try {
+    const words = fs
+      .readFileSync(path.join(ROOT, 'ops/data/stale-words.txt'), 'utf8')
+      .split('\n')
+      .map((l) => l.split('#')[0].trim())
+      .filter(Boolean)
+      .map((w) => w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'));
+    if (words.length) stale = new RegExp(words.join('|'));
+  } catch {
+    stale = null; // 無ければ 3 段目だけで選ぶ
+  }
+
   const rows = fs
     .readdirSync(POSTS)
     .filter((f) => f.endsWith('.md'))
@@ -93,10 +121,16 @@ function pick(state) {
       const pub = (src.match(/^publishDate:\s*(\S+)/m) || [])[1] || '1970-01-01';
       const upd = (src.match(/^updatedDate:\s*(\S+)/m) || [])[1] || pub;
       const seen = (state.done && state.done[slug]) || upd;
-      return { slug, seen };
+      // **フロントマターは見ない。** title や tags の語で誤爆させない
+      const body = src.replace(/^---[\s\S]*?\n---\n/, '');
+      return { slug, seen, stale: stale ? stale.test(body) : false };
     })
     .filter(Boolean)
     .sort((a, b) => a.seen.localeCompare(b.seen));
+
+  // **期限切れの語を持つ記事を先に。** 同じ区分の中では放置が長い順
+  const staleRows = rows.filter((r) => r.stale && !(state.done || {})[r.slug]);
+  if (staleRows.length) return staleRows[0].slug;
   return rows.length ? rows[0].slug : null;
 }
 

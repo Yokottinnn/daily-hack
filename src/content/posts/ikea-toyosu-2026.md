@@ -402,7 +402,7 @@ references: ["https://www.ikea.com/jp/ja/stores/toyosu/", "https://prtimes.jp/ma
 </div>
 
 <div class="cmp-table-wrap">
-  <table class="cmp-table wrap-table">
+  <table class="cmp-table wrap-table faq-table">
     <thead><tr><th>聞かれること</th><th>答え</th></tr></thead>
     <tbody>
       <tr><td><strong>ミートボールは食べられる？</strong></td><td><strong>食事ができるのは<a href="https://www.ikea.com/jp/ja/stores/shibuya/" target="_blank" rel="noopener">IKEA渋谷</a>の7階</strong>（スウェーデンレストラン）や大型店のイケアレストラン。豊洲は約560㎡の売り場に商品を並べる作りで、<strong>ミートボールやサーモンは「スウェーデンフードマーケット」で食材として買う</strong>形になる</td></tr>
