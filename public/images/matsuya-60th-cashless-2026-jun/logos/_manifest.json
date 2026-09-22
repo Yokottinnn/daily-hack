@@ -1,0 +1,23 @@
+{
+ "_note": "識別目的で使うロゴ。**商標であり自由ライセンスではない。** 改変しない（CSS の枠は可）。取得元と取得日をここに残す。",
+ "paypay.png": {
+  "brand": "PayPay",
+  "source": "https://travel.yahoo.co.jp/ 上の PayPay アイコン",
+  "page": "https://travel.yahoo.co.jp/ 上の PayPay アイコン",
+  "fetched": "2026-09-20",
+  "license_note": "商標。識別目的で使用",
+  "task": "ops/tasks/t130-*.sh",
+  "copied_from": "public/images/qr-payment-comparison-2026/logos/paypay.png",
+  "copied": "2026-09-22"
+ },
+ "rakutenpay.png": {
+  "brand": "楽天ペイ",
+  "source": "https://pay.rakuten.co.jp/",
+  "page": "https://pay.rakuten.co.jp/",
+  "fetched": "2026-09-20",
+  "license_note": "商標。識別目的で使用",
+  "task": "ops/tasks/t132-*.sh",
+  "copied_from": "public/images/qr-payment-comparison-2026/logos/rakutenpay.png",
+  "copied": "2026-09-22"
+ }
+}
