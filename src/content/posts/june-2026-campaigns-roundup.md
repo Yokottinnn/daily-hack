@@ -93,7 +93,7 @@ author: "hacker-ko"
   <article class="compare-card recommended">
     <span class="compare-card-image"><img src="https://www.rakuten-bank.co.jp/jrebank/campaign/referral/images/img-main-sp.png" alt="JRE BANK" loading="lazy" /></span>
     <span class="compare-card-mascot"><img src="/images/expr-04-cheer.png" alt="" /></span>
-    <h3>2. JRE BANK 開設</h3>
+    <h3 class="brand-h"><img class="brand-logo" src="/images/june-2026-campaigns-roundup/logos/jrebank.png" alt="JRE BANKのロゴ" loading="lazy" /><span>2. JRE BANK 開設</span></h3>
     <p class="tagline">JR東日本ユーザーは"無条件"で勝てる銀行。新幹線4割引・キャッシュバックが地味に強烈。</p>
     <dl>
       <dt>カテゴリ</dt><dd>銀行</dd>
@@ -108,7 +108,7 @@ author: "hacker-ko"
   <article class="compare-card recommended">
     <span class="compare-card-image is-logo"><img src="https://www.rakuten-bank.co.jp/shared/images/header/logo_pc.svg" alt="楽天銀行" loading="lazy" /></span>
     <span class="compare-card-mascot"><img src="/images/expr-01-wave.png" alt="" /></span>
-    <h3>3. 楽天銀行 紹介プログラム</h3>
+    <h3 class="brand-h"><img class="brand-logo" src="/images/june-2026-campaigns-roundup/logos/rakutenbank.png" alt="楽天銀行のロゴ" loading="lazy" /><span>3. 楽天銀行 紹介プログラム</span></h3>
     <p class="tagline">楽天経済圏の入口。ハッピープログラム登録で確実に200pt、紹介者は最大2,000pt。</p>
     <dl>
       <dt>カテゴリ</dt><dd>銀行</dd>
@@ -123,7 +123,7 @@ author: "hacker-ko"
   <article class="compare-card recommended">
     <span class="compare-card-image"><img src="https://image.card.jp.rakuten-static.com/card_corp/pc/contents/premiumprogram/kanban.png" alt="楽天カードのキャンペーン" loading="lazy" /></span>
     <span class="compare-card-mascot"><img src="/images/expr-05-smug.png" alt="" /></span>
-    <h3>4. 楽天カード（紹介経由）</h3>
+    <h3 class="brand-h"><img class="brand-logo" src="/images/june-2026-campaigns-roundup/logos/rakuten-card.png" alt="楽天カードのロゴ" loading="lazy" /><span>4. 楽天カード（紹介経由）</span></h3>
     <p class="tagline">入会キャンペーン + 紹介プログラム上乗せで6月も二重取りができる定番。</p>
     <dl>
       <dt>カテゴリ</dt><dd>クレカ</dd>
@@ -138,7 +138,7 @@ author: "hacker-ko"
   <article class="compare-card recommended">
     <span class="compare-card-image"><img src="https://www.jcb.co.jp/promotion/ordercard/w/images/renewal/info_img01_sp.jpg" alt="JCBカードWのキャンペーン" loading="lazy" /></span>
     <span class="compare-card-mascot"><img src="/images/expr-04-cheer.png" alt="" /></span>
-    <h3>5. JCBカードW</h3>
+    <h3 class="brand-h"><img class="brand-logo" src="/images/june-2026-campaigns-roundup/logos/jcb.png" alt="JCBのロゴ" loading="lazy" /><span>5. JCBカードW</span></h3>
     <p class="tagline">39歳以下なら今月中に申し込みなさい。Amazon・スタバの還元率は他カードを置き去り。</p>
     <dl>
       <dt>カテゴリ</dt><dd>クレカ</dd>
@@ -153,7 +153,7 @@ author: "hacker-ko"
   <article class="compare-card recommended">
     <span class="compare-card-image"><img src="https://recruit-card.jp/site_assets/lp/sp/img/basic-card/feature-rich/campaign_card_master.png" alt="リクルートカードのキャンペーン" loading="lazy" /></span>
     <span class="compare-card-mascot"><img src="/images/expr-01-wave.png" alt="" /></span>
-    <h3>6. リクルートカード（紹介経由）</h3>
+    <h3 class="brand-h"><img class="brand-logo" src="/images/june-2026-campaigns-roundup/logos/recruit-card.png" alt="リクルートカードのロゴ" loading="lazy" /><span>6. リクルートカード（紹介経由）</span></h3>
     <p class="tagline">基本還元率1.2%の最高峰。紹介プログラム経由で通常キャンペーンに上乗せ特典。</p>
     <dl>
       <dt>カテゴリ</dt><dd>クレカ</dd>
@@ -168,7 +168,7 @@ author: "hacker-ko"
   <article class="compare-card recommended">
     <span class="compare-card-image"><img src="https://image.paypay.ne.jp/page/top/images/img_about_04.png" alt="PayPayの新規登録特典" loading="lazy" /></span>
     <span class="compare-card-mascot"><img src="/images/expr-06-shock.png" alt="" /></span>
-    <h3>7. PayPay 新規登録</h3>
+    <h3 class="brand-h"><img class="brand-logo" src="/images/june-2026-campaigns-roundup/logos/paypay.png" alt="PayPayのロゴ" loading="lazy" /><span>7. PayPay 新規登録</span></h3>
     <p class="tagline">QR決済シェアNo.1。新規登録 + 本人確認で即時ポイント。インストールするだけで負けない案件。</p>
     <dl>
       <dt>カテゴリ</dt><dd>QR決済</dd>
@@ -183,7 +183,7 @@ author: "hacker-ko"
   <article class="compare-card recommended">
     <span class="compare-card-image is-logo"><img src="https://payment.rakuten.co.jp/img/logo-Rpayment20241101.svg" alt="楽天ペイ" loading="lazy" /></span>
     <span class="compare-card-mascot"><img src="/images/expr-04-cheer.png" alt="" /></span>
-    <h3>8. 楽天ペイ 新規登録</h3>
+    <h3 class="brand-h"><img class="brand-logo" src="/images/june-2026-campaigns-roundup/logos/rakutenpay.png" alt="楽天ペイのロゴ" loading="lazy" /><span>8. 楽天ペイ 新規登録</span></h3>
     <p class="tagline">楽天カードとの組み合わせで還元率が爆上がり。SPU連携も狙えるから楽天民は必須。</p>
     <dl>
       <dt>カテゴリ</dt><dd>QR決済</dd>
@@ -213,7 +213,7 @@ author: "hacker-ko"
   <article class="compare-card">
     <span class="compare-card-image"><img src="https://about.paypay.ne.jp/uploads/2025/02/20250228_02_image01_sp.jpg" alt="PayPayカード" loading="lazy" /></span>
     <span class="compare-card-mascot"><img src="/images/expr-05-smug.png" alt="" /></span>
-    <h3>10. PayPayカード</h3>
+    <h3 class="brand-h"><img class="brand-logo" src="/images/june-2026-campaigns-roundup/logos/paypaycard.png" alt="PayPayカードのロゴ" loading="lazy" /><span>10. PayPayカード</span></h3>
     <p class="tagline">PayPay残高に直接チャージできる唯一のクレカ。ソフトバンク経済圏なら効率が段違い。</p>
     <dl>
       <dt>カテゴリ</dt><dd>クレカ</dd>
@@ -269,7 +269,7 @@ author: "hacker-ko"
 
   <article class="compare-card">
     <span class="compare-card-mascot"><img src="/images/expr-04-cheer.png" alt="" /></span>
-    <h3>14. 楽天市場アプリ 初回特典</h3>
+    <h3 class="brand-h"><img class="brand-logo" src="/images/june-2026-campaigns-roundup/logos/rakutenichiba.png" alt="楽天市場のロゴ" loading="lazy" /><span>14. 楽天市場アプリ 初回特典</span></h3>
     <p class="tagline">アプリで久しぶり or 初回の買い物をするだけで最大1,000ポイント。やらない理由がない案件。</p>
     <dl>
       <dt>カテゴリ</dt><dd>EC</dd>
