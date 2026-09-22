@@ -47,7 +47,7 @@ references: ["https://www.paypay-card.co.jp/info/009410.html", "https://k-tai.wa
 
 <div class="compare-cards">
 <div class="compare-card">
-<h4>1. PayPay 6/2 大改悪</h4>
+<h4 class="brand-h"><img class="brand-logo" src="/images/point-kaiaku-timeline-2026/logos/paypay.png" alt="PayPayのロゴ" loading="lazy" /><span>1. PayPay 6/2 大改悪</span></h4>
 <ul>
 <li>公共料金1→0.5%＋チャージ二重取り全廃＋ポイント払い付与対象外</li>
 <li>月5万円の公共料金で<strong>年約3,000pt減</strong>、チャージ派は年数千〜万pt消失</li>
@@ -84,6 +84,17 @@ references: ["https://www.paypay-card.co.jp/info/009410.html", "https://k-tai.wa
 - **チャージ二重取り封じの連鎖**：JAL Pay→PayPayと続き、二重取りスキーム全般が今後さらに塞がれる兆候（※各社未発表分は要確認）
 - **eKYC（本人確認）必須化の広がり**：PayPayが付与条件に組み込んだことで、他コード決済も同様要件を検討する流れになり得る（※憶測）
 
+<div class="cmp-table-wrap">
+<table class="cmp-table">
+<thead><tr><th>兆候</th><th>もう起きたこと</th><th>確度</th></tr></thead>
+<tbody>
+<tr><th>公共料金 0.5% が業界標準に</th><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/point-kaiaku-timeline-2026/logos/dcard.png" alt="" loading="lazy" />dカード</span> → <span class="cell-brand"><img class="brand-logo-sm" src="/images/point-kaiaku-timeline-2026/logos/paypay.png" alt="" loading="lazy" />PayPay</span> と<strong>主要 2 社が同水準</strong>になった</td><td>※憶測（他社の追随は未発表）</td></tr>
+<tr><th>チャージ二重取りの封じ込め</th><td>JAL Pay → <span class="cell-brand"><img class="brand-logo-sm" src="/images/point-kaiaku-timeline-2026/logos/paypay.png" alt="" loading="lazy" />PayPay</span> と続いた</td><td>※各社の未発表分は要確認</td></tr>
+<tr><th>eKYC 必須化の広がり</th><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/point-kaiaku-timeline-2026/logos/paypay.png" alt="" loading="lazy" />PayPay</span> が<strong>付与条件に組み込んだ</strong></td><td>※憶測</td></tr>
+</tbody>
+</table>
+</div>
+
 > ⚠️ 上記は観測・憶測を含む。確定情報ではないので、各社の公式発表で最終確認してね。
 
 ## 🧭 じゃあ今、何に乗り換える？
@@ -95,7 +106,7 @@ references: ["https://www.paypay-card.co.jp/info/009410.html", "https://k-tai.wa
 <div class="ref-cta">
 <img src="/images/point-service-complete-guide-2026/logos/rakuten-card.png" alt="楽天カード" loading="lazy">
 <div class="rc-body">
-<h4>楽天経済圏の土台「楽天カード」紹介リンク</h4>
+<h4 class="brand-h"><img class="brand-logo" src="/images/point-kaiaku-timeline-2026/logos/rakuten-card.png" alt="楽天カードのロゴ" loading="lazy" /><span>楽天経済圏の土台「楽天カード」紹介リンク</span></h4>
 <p>SPU・5と0のつく日が効く年会費無料の1枚。<strong>下の紹介リンク経由の新規入会＋利用で、“あなた”にも入会ポイント（時期により最大5,000pt）</strong>。</p>
 </div>
 <a class="rc-btn" href="https://r10.to/hPxfRD" target="_blank" rel="sponsored noopener nofollow">紹介リンクで入会 →</a>

@@ -29,6 +29,19 @@ relatedReferrals: ["olive-smbc"]
 4. **コンビニ・飲食店利用**: 累計15,000円利用で5,000円相当
 5. **その他オファー**: 最大18,000円相当（個別案件）
 
+<div class="cmp-table-wrap">
+<table class="cmp-table spec-table">
+<thead><tr><th>条件</th><th>もらえる額</th><th>やること</th></tr></thead>
+<tbody>
+<tr><th>基本特典（紹介経由）</th><td>1,000円相当</td><td>翌月末に<strong>残高 10,000円以上</strong></td></tr>
+<tr class="recommended"><th>給与受取設定</th><td><strong>5,000円相当</strong></td><td>給与の受取口座にする</td></tr>
+<tr><th>アプリログイン</th><td>1,000円相当</td><td>アプリにログインする</td></tr>
+<tr><th>コンビニ・飲食店利用</th><td>5,000円相当</td><td><strong>累計 15,000円</strong> 使う</td></tr>
+<tr><th>その他オファー</th><td>最大 18,000円相当</td><td>個別案件（人により違う）</td></tr>
+</tbody>
+</table>
+</div>
+
 > ⚠️ **注意**: 「最大30,000円」は全条件達成時の上限額です。標準的なユーザーが現実的に獲得できるのは10,000〜20,000円相当のレンジです。
 
 ## 申し込み手順
@@ -51,12 +64,12 @@ relatedReferrals: ["olive-smbc"]
 
 「楽天カード・PayPayカードと何が違うの？」という人向けに整理します。
 
-| 項目 | Olive | 楽天カード | PayPayカード |
+| 項目 | Olive | <span class="cell-brand"><img class="brand-logo-sm" src="/images/olive-30000-cb-may-2026/logos/rakuten-card.png" alt="" loading="lazy" />楽天カード</span> | <span class="cell-brand"><img class="brand-logo-sm" src="/images/olive-30000-cb-may-2026/logos/paypaycard.png" alt="" loading="lazy" />PayPayカード</span> |
 |---|---|---|---|
 | 基本還元率 | 0.5% | 1.0% | 1.0% |
 | 対象店舗最大還元 | 7%（コンビニ等） | 楽天市場で3〜5% | PayPay加盟店で1.5% |
-| 銀行アプリ連携 | 三井住友銀行（口座一体型） | 楽天銀行（別途設定） | PayPay銀行（別途設定） |
-| 証券口座連携 | SBI証券 | 楽天証券 | PayPay証券 |
+| 銀行アプリ連携 | 三井住友銀行（口座一体型） | <span class="cell-brand"><img class="brand-logo-sm" src="/images/olive-30000-cb-may-2026/logos/rakutenbank.png" alt="" loading="lazy" />楽天銀行（別途設定）</span> | PayPay銀行（別途設定） |
+| 証券口座連携 | SBI証券 | <span class="cell-brand"><img class="brand-logo-sm" src="/images/olive-30000-cb-may-2026/logos/rakutensec.png" alt="" loading="lazy" />楽天証券</span> | PayPay証券 |
 
 OliveはVポイント経済圏の中心で、<strong>「銀行口座 + クレジットカード + キャッシュカードが1枚に集約される」</strong>設計が他にない強みです。物理カードが減ってミニマリスト志向の人にも合います。
 
