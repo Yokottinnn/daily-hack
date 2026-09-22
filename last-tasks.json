@@ -1,3 +1,4 @@
 [
-      {"task": "t159-logos-jal-satofull-commons.sh", "rc": 0, "out": "**0 件 持ち帰った。** **`Non-free logo` と書いてあるものは使わない。** **`PD-textlogo` / `PD-simple` なら、商標として識別目的で使える。**  経過 **25 秒**。"}
+      {"task": "t160-logos-cardloan-commons.sh", "rc": 0, "out": "**0 件 持ち帰った。** **`Non-free logo` と書いてあるものは使わない。** **`PD-textlogo` / `PD-simple` なら、商標として識別目的で使える。**  経過 **3 秒**。"},
+      {"task": "t161-logos-banks-commons.sh", "rc": 0, "out": "**0 件 持ち帰った。** **`Non-free logo` と書いてあるものは使わない。** **`PD-textlogo` / `PD-simple` なら、商標として識別目的で使える。**  経過 **2 秒**。"}
   ]
