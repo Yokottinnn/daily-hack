@@ -68,3 +68,55 @@
 
 `https://www.ana.co.jp/ja/jp/`
 
+- HTML **775080 bytes**
+  - <img src="/common-layout2/images/www2/logo_ana_tagline.svg" width="260" height="24" alt="ANA Inspiration of JAPAN">
+  - <img src="/common-layout2/images/www2/footer_logo_skytrax.png" width="72" height="72" loading="lazy" alt="">
+  - <img src="/common-layout2/images/www2/footer_logo_apex.png" width="72" height="72" loading="lazy" alt="">
+  - <img src="/common-layout2/images/www2/logo_star_alliance.svg" width="216" height="22" loading="lazy" alt="A STAR ALLIANCE MEMBER">
+  - <img src="/www2/biz/top/logo_ana_biz.png" width="104" height="38" loading="lazy" alt="ANA Biz" class="asw-headline__image-head">
+  - ⬇️ `ana-img0.svg`（**4244 bytes**）← `https://www.ana.co.jp/common-layout2/images/www2/logo_ana_tagline.svg`
+  - ⬇️ `ana-img1.png`（**26970 bytes**）← `https://www.ana.co.jp/common-layout2/images/www2/footer_logo_skytrax.png`
+
+## JAL
+
+`https://www.jal.co.jp/jp/ja/`
+
+- HTML **384 bytes**
+
+## 楽天ふるさと納税
+
+`https://event.rakuten.co.jp/furusato/`
+
+- HTML **365142 bytes**
+  - <img class="header-logo-image" src="https://r.r10s.jp/evt/event/furusato/_cmn/img/20250418_logo.svg" alt="【楽天市場】楽天ふるさと納税" />
+  - ⬇️ `rakuten-furusato-img0.svg`（**9530 bytes**）← `https://r.r10s.jp/evt/event/furusato/_cmn/img/20250418_logo.svg`
+  - ⬇️ `rakuten-furusato-ogp.png`（**14374 bytes**）← `https://r.r10s.jp/evt/event/furusato/_pc/img/banner/furusato_ogp.png`
+
+## さとふる
+
+`https://www.satofull.jp/`
+
+- ⚠️ **開けない**
+
+## ふるなび
+
+`https://furunavi.jp/`
+
+- HTML **523310 bytes**
+  - <img src="https://cf.furunavi.jp/images/header_logo.svg?202311091200" alt="ふるさと納税サイト【ふるなび】｜限定返礼品・ランキングで選べる" title="ふるさと納税サイトふるなびトップページに戻る" loading="lazy" />
+  - <img src="https://cf.furunavi.jp/images/header_logo_small.svg?202311091200" alt="ふるさと納税サイト「ふるなび」" loading="lazy" />
+  - <img src="https://cf.furunavi.jp/images/logo_disaster_support.png" alt="ふるなび災害支援" loading="lazy" />
+  - <img src="https://cf.furunavi.jp/images/logo_footer_furunaviapp.png" width="118" height="118" alt="ふるなびアプリ" loading="lazy">
+  - <img class="applink-link-logo" src="https://cf.furunavi.jp/images/logo_app_store.svg" width="109" height="40" alt="App Storeからダウンロード" loading="lazy">
+  - ⬇️ `furunavi-img0.svg`（**6550 bytes**）← `https://cf.furunavi.jp/images/header_logo.svg?202311091200`
+  - ⬇️ `furunavi-img1.svg`（**3193 bytes**）← `https://cf.furunavi.jp/images/header_logo_small.svg?202311091200`
+  - ⬇️ `furunavi-ogp.png`（**72516 bytes**）← `https://cf.furunavi.jp/images/ogpimage.png?202312051200`
+  - ⬇️ `furunavi-icon.png`（**19522 bytes**）← `https://cf.furunavi.jp/images/apple-touch-icon.png?202311091200`
+
+---
+
+**24 件 持ち帰った。**
+**採否はクラウド側でコンタクトシートにして目で見て決める。**
+**別サービス・認証マーク・キャンペーンバナーが混ざる**ので、そのまま入れない。
+
+経過 **54 秒**。
