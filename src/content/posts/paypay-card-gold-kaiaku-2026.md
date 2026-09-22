@@ -23,7 +23,7 @@ references:
   <div class="hakkako-quote">核心を先に。<strong>2026年6月2日で"毎回+0.5%"が終了 → 「年間100万円以上で11,000pt」の定額還元に転換</strong>。だから<strong>年100〜220万円使う人はむしろ得、損するのは"100万円未満の少額派"と"220万円超の高額派"</strong>。あなたの年間利用額で答えが変わるのよ。</div>
 </div>
 
-## 何が変わった？（2026年6月2日〜）
+<h2 class="brand-h" id="paypaycard-gold-changes"><img class="brand-logo" src="/images/paypay-card-gold-kaiaku-2026/logos/paypaycard.png" alt="PayPayカードのロゴ" loading="lazy" /><span>PayPayカードゴールドは何が変わった？（2026年6月2日〜）</span></h2>
 
 <div class="compare-cards">
   <article class="compare-card">
@@ -73,7 +73,7 @@ references:
 <div class="compare-cards">
   <article class="compare-card">
     <span class="compare-card-mascot"><img src="/images/expr-04-cheer.png" alt="" /></span>
-    <h3>三井住友ゴールド(NL)</h3>
+<h3 class="brand-h"><img class="brand-logo" src="/images/paypay-card-gold-kaiaku-2026/logos/smbccard.png" alt="三井住友カードのロゴ" loading="lazy" /><span>三井住友ゴールド(NL)</span></h3>
     <dl>
       <dt>年会費</dt><dd>5,500円→<strong>年100万利用で翌年以降 永年無料</strong></dd>
       <dt>特典</dt><dd>年100万で10,000pt＋対象店タッチ決済最大7%・空港ラウンジ</dd>
@@ -82,7 +82,7 @@ references:
   </article>
   <article class="compare-card">
     <span class="compare-card-mascot"><img src="/images/expr-05-smug.png" alt="" /></span>
-    <h3>リクルートカード</h3>
+<h3 class="brand-h"><img class="brand-logo" src="/images/paypay-card-gold-kaiaku-2026/logos/recruit-card.png" alt="リクルートカードのロゴ" loading="lazy" /><span>リクルートカード</span></h3>
     <dl>
       <dt>年会費</dt><dd>永年無料</dd>
       <dt>還元</dt><dd><strong>無条件1.2%</strong>（業界最高水準）</dd>
@@ -91,7 +91,7 @@ references:
   </article>
   <article class="compare-card">
     <span class="compare-card-mascot"><img src="/images/expr-03-bashful.png" alt="" /></span>
-    <h3>楽天カード</h3>
+<h3 class="brand-h"><img class="brand-logo" src="/images/paypay-card-gold-kaiaku-2026/logos/rakuten-card.png" alt="楽天カードのロゴ" loading="lazy" /><span>楽天カード</span></h3>
     <dl>
       <dt>年会費</dt><dd>永年無料</dd>
       <dt>還元</dt><dd>基本1.0%＋楽天市場で最大3倍</dd>

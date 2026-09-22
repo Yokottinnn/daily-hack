@@ -117,13 +117,13 @@ parentPillar: summer-travel-timesale-2026
 
 サイト単体の割引よりも、**自分が普段ためている経済圏 × そのサイト** の組み合わせのほうが大事。
 
-### PayPay 経済圏 → Yahoo!トラベル
+<h3 class="brand-h" id="paypay-経済圏--yahooトラベル"><img class="brand-logo" src="/images/summer-cospa-travel-2026/logos/paypay.png" alt="PayPayのロゴ" loading="lazy" /><span>PayPay 経済圏 → Yahoo!トラベル</span></h3>
 
 - 「**いつでも・誰でも10%お得**」（基本 2%＋CP 5〜8%）＋「**サマ割**」（20〜45% 還元プラン）の **重ね掛け**
 - 予約時に **PayPay 即時利用**すれば「ポイント還元」が「割引」に変身（最終支払額が今すぐ下がる）
 - LYP プレミアム（月508円）は **1泊で元が取れる**。短期入会→旅行終わったら退会で OK
 
-### 楽天経済圏 → 楽天トラベル
+<h3 class="brand-h" id="楽天経済圏--楽天トラベル"><img class="brand-logo" src="/images/summer-cospa-travel-2026/logos/rakutentravel.png" alt="楽天トラベルのロゴ" loading="lazy" /><span>楽天経済圏 → 楽天トラベル</span></h3>
 
 - 「**スーパーDEAL**（30〜40% ポイント還元）」＋「**5と0のつく日**（最大20%OFF＋ポイント10倍）」＋「**アーリーサマー**（最大25%OFF＋楽パック2万円OFF）」
 - **航空券＋宿の楽パック**で 2 万円クーポンが効くので、沖縄・北海道は楽パック一択
