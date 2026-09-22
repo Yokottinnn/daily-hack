@@ -1513,7 +1513,7 @@ TOKYO-BAYの**2.1倍**。この表の最下位（愛知東郷 46.0万円）と�
 **検索でよく聞かれることに、この記事の数字で答える。** 根拠の節へリンクを張っているので、詳しくはそちらへ。
 
 <div class="cmp-table-wrap">
-  <table class="cmp-table wrap-table">
+  <table class="cmp-table wrap-table faq-table">
     <thead><tr><th>質問</th><th>答え</th></tr></thead>
     <tbody>
       <tr class="recommended"><td><strong>ららぽーとは全部で何店舗ある？</strong></td><td><strong>国内20施設</strong>（2026年8月時点）。<a href="#全国マップららぽーとがあるのは9都府県だけ">9都府県にしかない</a>。<strong>2026年の国内新規開業はゼロ</strong>で、既存施設のリニューアルの年になっている</td></tr>

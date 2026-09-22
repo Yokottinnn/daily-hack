@@ -821,7 +821,7 @@ references: ["https://www.newoman.jp/takanawa/floorguide/detail/?scd=003014", "h
 **検索でよく聞かれることに、この記事の数字で答える。** 根拠の節へリンクを張っているので、詳しくはそちらへ。
 
 <div class="cmp-table-wrap">
-  <table class="cmp-table wrap-table">
+  <table class="cmp-table wrap-table faq-table">
     <thead><tr><th>質問</th><th>答え</th></tr></thead>
     <tbody>
       <tr class="recommended"><td><strong>2026年に首都圏でオープンしたサウナは何軒？</strong></td><td><a href="#首都圏17施設リスト"><strong>17施設</strong></a>（新規14・既存のリニューアル3）。<a href="#地域">東京10・神奈川3・千葉3・埼玉1</a>で、<strong>東京だけで約6割</strong></td></tr>
