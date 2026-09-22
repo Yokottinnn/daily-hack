@@ -105,7 +105,7 @@ references: ["https://x.com/nogenkin/status/2059951364571385956", "https://www.m
 
 ---
 
-## 💴 PayPay — 6/15-16の40%還元が破壊力（6月の本命）
+<h2 class="brand-h" id="-paypay--615-16の40還元が破壊力6月の本命"><img class="brand-logo" src="/images/matsuya-60th-cashless-2026-jun/logos/paypay.png" alt="PayPayのロゴ" loading="lazy" /><span>💴 PayPay — 6/15-16の40%還元が破壊力（6月の本命）</span></h2>
 
 <figure>
 <img src="/images/matsuya-60th-cashless-2026-jun/campaign-paypay.jpg" alt="松屋60周年創業記念 PayPay クーポン — 6/15-16 最大40%還元、6/1-30 最大10%還元（出典：松屋フーズ公式）" />
@@ -145,7 +145,7 @@ references: ["https://x.com/nogenkin/status/2059951364571385956", "https://www.m
 
 ---
 
-## 🅁 楽天ペイ — スタンプラリーで楽天ポイント最大10%＋上位賞
+<h2 class="brand-h" id="-楽天ペイ--スタンプラリーで楽天ポイント最大10上位賞"><img class="brand-logo" src="/images/matsuya-60th-cashless-2026-jun/logos/rakutenpay.png" alt="楽天ペイのロゴ" loading="lazy" /><span>🅁 楽天ペイ — スタンプラリーで楽天ポイント最大10%＋上位賞</span></h2>
 
 <figure>
 <img src="/images/matsuya-60th-cashless-2026-jun/campaign-rakutenpay.jpg" alt="松屋60周年創業記念 楽天ペイ スタンプラリーキャンペーン — 最大10%還元＋上位600名に最大6,000pt（出典：松屋フーズ公式）" />
