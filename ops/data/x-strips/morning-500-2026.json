@@ -1,124 +1,66 @@
 {
-  "_doc": "X 告知の素材（カードの帯 1000x560 ＋ 全面 1080x1080）。node scripts/gen-x-strips.mjs ops/data/x-strips/morning-500-2026.json",
-  "_note": "**出所の行は出さない**（2026-09-20 の指示・最上位ルール 8）。この記事の `photos/` は**全部「公式サイト（引用）」**で、出所表記が要る素材なので 1 枚も使えない。使っているのは **各社ロゴ（商標・識別目的）と自作の合成だけ。** 写真を戻すなら、出所の行も戻すこと。ロゴは改変していない（色も形も変えず、余白だけ）。",
+  "_doc": "X 告知の画像（1080x1080・**1 枚だけ**）。node scripts/gen-x-strips.mjs ops/data/x-strips/morning-500-2026.json",
+  "_note": "**2026-09-22 のレビューページの指示で 4 枚 → 1 枚にした。**「この内容を表紙っぽくして整えて。他の画像は全部いらない。画像は1枚だけで良い。」「なか卯の朝ごはん定食の画像は欲しいので添付してね。」 **出所の行は出さない**（最上位ルール 8）。ロゴは各社の商標・識別目的。**`photos/nakau-mazenokke.jpg` は「公式サイト（引用）」で権利表記が要る素材**なので、出所の行を出さない方針と両立しない。写真ありの `A` と、写真なし（なか卯ロゴ）の `B` を両方 作って利用者に選んでもらう。**選ばれなかったほうはこの JSON から消すこと。**",
   "slug": "morning-500-2026",
   "imageBase": "public/images/morning-500-2026",
   "strips": [
     {
-      "_use": "cover カード①：同条件で並べる 4 社のロゴ。文字はカード側が持つ",
-      "out": "s-rank.jpg",
-      "bg": [
-        "#FFF7E6",
-        "#FFE9C4"
-      ],
-      "logoTop": 52,
-      "gap": 30,
-      "logos": [
-        {
-          "file": "logos/nakau.jpg",
-          "w": 150
-        },
-        {
-          "file": "logos/matsuya.jpg",
-          "w": 210
-        },
-        {
-          "file": "logos/yoshinoya.png",
-          "w": 140
-        },
-        {
-          "file": "logos/mcd.png",
-          "w": 120
-        }
-      ]
-    },
-    {
-      "_use": "cover カード②：マクドナルドのロゴを大きく",
-      "out": "s-mcd.jpg",
-      "bg": [
-        "#FFF1F5",
-        "#FBDCE6"
-      ],
-      "logoTop": 44,
-      "logos": [
-        {
-          "file": "logos/mcd.png",
-          "w": 190
-        }
-      ]
-    },
-    {
-      "_use": "cover カード③：なか卯のロゴを大きく",
-      "out": "s-nakau.jpg",
-      "bg": [
-        "#FFF7E6",
-        "#FFE3B8"
-      ],
-      "logoTop": 44,
-      "logos": [
-        {
-          "file": "logos/nakau.jpg",
-          "w": 200
-        }
-      ]
-    },
-    {
-      "_use": "cover カード④：朝4:00 の 3 社",
-      "out": "s-hours.jpg",
-      "bg": [
-        "#EEF1F6",
-        "#DDE2EB"
-      ],
-      "logoTop": 52,
-      "gap": 34,
-      "logos": [
-        {
-          "file": "logos/nakau.jpg",
-          "w": 150
-        },
-        {
-          "file": "logos/yoshinoya.png",
-          "w": 140
-        },
-        {
-          "file": "logos/sukiya.jpg",
-          "w": 150
-        }
-      ]
-    },
-    {
-      "_use": "全面②：同じ土俵で並べ直した順位（1080x1080）",
-      "out": "x/2-rank.jpg",
+      "_use": "版A：表紙型 ＋ なか卯の実写（まぜのっけごはん朝食）。**写真は 384x270 しかない**ので 420px 幅に留める（1.09 倍）",
+      "out": "x/cover-a.jpg",
       "size": [
         1080,
         1080
       ],
       "bg": [
         "#FFF7E6",
-        "#FFE0B0"
+        "#FFD79A"
       ],
-      "darkenBottom": 0.3,
-      "headline": "「ごはん・みそ汁つきの一食」で揃えると",
-      "headTop": 78,
-      "headSize": 50,
-      "rowsTop": 250,
-      "rowsPad": 90,
-      "rowGap": 26,
-      "rowPad": 26,
-      "logoW": 104,
-      "logoH": 64,
-      "nameSize": 44,
-      "priceSize": 58,
-      "note": "マフィン1個と定食を、同じ「最安」で語らない",
-      "noteBottom": 58,
-      "noteSize": 30,
+      "band": {
+        "h": 276,
+        "bg": [
+          "#A82959",
+          "#D63E76"
+        ],
+        "kicker": "牛丼チェーン ／ カフェ ／ 値段は全部 公式で確認",
+        "title": "同じ土俵で並べたら最安が変わる",
+        "titleSize": 58,
+        "sub": "「ごはん・みそ汁つきの一食」で揃えた本当の最安"
+      },
+      "hero": {
+        "file": "photos/nakau-mazenokke.jpg",
+        "top": 302,
+        "left": 60,
+        "w": 470,
+        "h": 296,
+        "pos": "center 0%",
+        "zoom": 1.1
+      },
+      "hcard": {
+        "top": 302,
+        "left": 558,
+        "w": 462,
+        "h": 296,
+        "rank": "同じ条件で1位",
+        "logo": "logos/nakau.jpg",
+        "logoW": 104,
+        "name": "目玉焼き朝食（小盛）",
+        "price": "300円",
+        "sub": "ごはん・みそ汁つきで一食が完結",
+        "nameSize": 28,
+        "priceSize": 68,
+        "subSize": 22,
+        "gap": 8,
+        "pad": 22
+      },
+      "rowsTop": 638,
+      "rowsPad": 60,
+      "rowGap": 14,
+      "rowPad": 16,
+      "logoW": 92,
+      "logoH": 52,
+      "nameSize": 38,
+      "priceSize": 50,
       "rows": [
-        {
-          "logo": "logos/nakau.jpg",
-          "name": "なか卯",
-          "price": "300円",
-          "win": true
-        },
         {
           "logo": "logos/matsuya.jpg",
           "name": "松屋",
@@ -136,109 +78,88 @@
           "price": "450円〜",
           "dim": true
         }
-      ]
+      ],
+      "note": "マフィン1個と定食を、同じ「最安」で語らない",
+      "noteBottom": 50,
+      "noteSize": 29,
+      "noteColor": "#1E1219"
     },
     {
-      "_use": "全面③：180円の正体（1080x1080）",
-      "out": "x/3-mcd.jpg",
+      "_use": "版B：表紙型 ＋ なか卯ロゴ（**権利表記が要らない素材だけ**で組んだ版）",
+      "out": "x/cover-b.jpg",
       "size": [
         1080,
         1080
       ],
       "bg": [
-        "#FFF1F5",
-        "#F7C9DA"
+        "#FFF7E6",
+        "#FFD79A"
       ],
-      "wash": [
-        {
-          "file": "logos/mcd.png",
-          "w": 760,
-          "opacity": 0.14
-        }
-      ],
-      "washShift": -90,
-      "washRotate": 0,
-      "veilTop": 0.3,
-      "veilMid": 0.1,
-      "darkenBottom": 0.3,
-      "headline": "その180円、マフィン1個だけよ",
-      "headTop": 86,
-      "headSize": 54,
-      "rowsTop": 290,
-      "rowsPad": 110,
-      "rowGap": 28,
-      "rowPad": 30,
-      "logoW": 100,
-      "logoH": 64,
-      "nameSize": 44,
-      "priceSize": 58,
-      "note": "飲み物もハッシュポテトも別。同じ一食にすると450円〜",
-      "noteBottom": 62,
-      "noteSize": 31,
-      "rows": [
-        {
-          "logo": "logos/mcd.png",
-          "name": "マフィン単品",
-          "price": "180円",
-          "dim": true
-        },
-        {
-          "logo": "logos/mcd.png",
-          "name": "同じ一食にすると",
-          "price": "450円〜"
-        }
-      ]
-    },
-    {
-      "_use": "全面④：朝4:00から（1080x1080）",
-      "out": "x/4-hours.jpg",
-      "size": [
-        1080,
-        1080
-      ],
-      "bg": [
-        "#EEF1F6",
-        "#D5DBE6"
-      ],
-      "darkenBottom": 0.3,
-      "headline": "牛丼チェーンは朝4:00から11:00まで",
-      "headTop": 80,
-      "headSize": 48,
-      "rowsTop": 250,
-      "rowsPad": 90,
-      "rowGap": 24,
-      "rowPad": 24,
-      "logoW": 100,
-      "logoH": 62,
-      "nameSize": 42,
+      "band": {
+        "h": 276,
+        "bg": [
+          "#A82959",
+          "#D63E76"
+        ],
+        "kicker": "牛丼チェーン ／ カフェ ／ 値段は全部 公式で確認",
+        "title": "同じ土俵で並べたら最安が変わる",
+        "titleSize": 58,
+        "sub": "「ごはん・みそ汁つきの一食」で揃えた本当の最安"
+      },
+      "hero": {
+        "logo": "logos/nakau.jpg",
+        "top": 302,
+        "left": 60,
+        "w": 470,
+        "h": 296,
+        "logoPad": 60
+      },
+      "hcard": {
+        "top": 302,
+        "left": 558,
+        "w": 462,
+        "h": 296,
+        "rank": "同じ条件で1位",
+        "name": "なか卯 目玉焼き朝食（小盛）",
+        "nameSize": 30,
+        "price": "300円",
+        "priceSize": 84,
+        "sub": "ごはん・みそ汁つきで一食が完結",
+        "subSize": 23,
+        "gap": 10,
+        "pad": 22
+      },
+      "rowsTop": 638,
+      "rowsPad": 60,
+      "rowGap": 14,
+      "rowPad": 16,
+      "logoW": 92,
+      "logoH": 52,
+      "nameSize": 38,
       "priceSize": 50,
-      "note": "なか卯はモバイルオーダーなら早朝の割増がかからない",
-      "noteBottom": 58,
-      "noteSize": 31,
       "rows": [
         {
-          "logo": "logos/nakau.jpg",
-          "name": "なか卯",
-          "price": "4:00〜11:00",
-          "win": true
+          "logo": "logos/matsuya.jpg",
+          "name": "松屋",
+          "price": "350円"
         },
         {
           "logo": "logos/yoshinoya.png",
           "name": "吉野家",
-          "price": "4:00〜11:00"
+          "price": "430円",
+          "dim": true
         },
         {
-          "logo": "logos/sukiya.jpg",
-          "name": "すき家",
-          "price": "4:00〜11:00"
-        },
-        {
-          "logo": "logos/matsuya.jpg",
-          "name": "松屋",
-          "price": "5:00〜11:00",
+          "logo": "logos/mcd.png",
+          "name": "マクドナルド",
+          "price": "450円〜",
           "dim": true
         }
-      ]
+      ],
+      "note": "マフィン1個と定食を、同じ「最安」で語らない",
+      "noteBottom": 50,
+      "noteSize": 29,
+      "noteColor": "#1E1219"
     }
   ]
 }

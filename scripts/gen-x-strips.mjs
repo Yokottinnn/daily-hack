@@ -116,6 +116,49 @@ function stripHtml(s) {
   const headHtml = s.headline ? `<div class="headline">${esc(s.headline)}</div>` : '';
   const noteHtml = s.note ? `<div class="snote">${esc(s.note)}</div>` : '';
 
+  /* **表紙っぽくする 3 つの部品**（2026-09-22 にレビューページで指示された）。
+   *   「この内容を表紙っぽくして整えて。他の画像は全部いらない。画像は1枚だけで良い。」
+   * `band`  … 上の帯（kicker / title / sub）。`gen-x-cards.mjs` の cover と同じ骨格
+   * `hero`  … 実写を角丸のパネルで置く。**元画像より大きく引き伸ばさない**こと
+   * `hcard` … 1 位だけを大きく見せる札。2 位以下は `rows` に流す */
+  const b = s.band;
+  const bandHtml = b ? `
+    <div class="band">
+      ${b.kicker ? `<div class="kicker">${esc(b.kicker)}</div>` : ''}
+      ${b.title ? `<div class="btitle">${esc(b.title)}</div>` : ''}
+      ${b.sub ? `<div class="bsub">${esc(b.sub)}</div>` : ''}
+    </div>` : '';
+
+  const h = s.hero;
+  if (h && h.file) {
+    const p = path.join(base, h.file);
+    if (!exists(p)) throw new Error(`実写が無い: ${p}（当て推量で作らない）`);
+  }
+  if (h && h.logo) {
+    const p = path.join(base, h.logo);
+    if (!exists(p)) throw new Error(`ロゴが無い: ${p}`);
+  }
+  const heroHtml = h ? `
+    <div class="hero">
+      <img src="${esc(h.file || h.logo)}"${h.logo ? ' class="heroLogo"' : ''}>
+    </div>` : '';
+
+  const c = s.hcard;
+  if (c && c.logo) {
+    const p = path.join(base, c.logo);
+    if (!exists(p)) throw new Error(`ロゴが無い: ${p}`);
+  }
+  const hcardHtml = c ? `
+    <div class="hcard">
+      ${c.rank ? `<div class="hrank">${esc(c.rank)}</div>` : ''}
+      ${c.logo ? `<img class="hlogo" src="${esc(c.logo)}">` : ''}
+      <div class="hbody">
+        ${c.name ? `<div class="hname">${esc(c.name)}</div>` : ''}
+        ${c.price ? `<div class="hprice">${esc(c.price)}</div>` : ''}
+        ${c.sub ? `<div class="hsub">${esc(c.sub)}</div>` : ''}
+      </div>
+    </div>` : '';
+
   return `<!doctype html><meta charset="utf-8">
 <style>
   @page { margin: 0 }
@@ -183,10 +226,61 @@ function stripHtml(s) {
   .snote { position:absolute; left:0; right:0; bottom:${s.noteBottom ?? 34}px; padding:0 58px;
            font:700 ${s.noteSize ?? 27}px/1.45 "Noto Sans JP", system-ui, sans-serif;
            color:${s.noteColor || '#FFFFFF'}; text-align:center; }
+
+  /* ---- 表紙の帯 ---- */
+  .band { position:absolute; left:0; right:0; top:0; height:${b?.h ?? 276}px;
+          background: linear-gradient(135deg, ${b?.bg?.[0] || '#A82959'} 0%, ${b?.bg?.[1] || '#D63E76'} 100%);
+          display:flex; flex-direction:column; align-items:center; justify-content:center;
+          gap:${b?.gap ?? 14}px; padding:0 46px; box-sizing:border-box; }
+  .kicker { font:700 ${b?.kickerSize ?? 27}px/1.3 "Noto Sans JP", system-ui, sans-serif;
+            color:#FFE9C4; letter-spacing:.02em; text-align:center; }
+  .btitle { font:800 ${b?.titleSize ?? 58}px/1.2 "Noto Sans JP", system-ui, sans-serif;
+            color:#fff; text-align:center; letter-spacing:-.015em;
+            text-shadow:0 2px 12px rgba(30,18,25,.28); }
+  .bsub { font:700 ${b?.subSize ?? 29}px/1.4 "Noto Sans JP", system-ui, sans-serif;
+          color:#FFD9E6; text-align:center; }
+
+  /* ---- 実写／ロゴのパネル ---- */
+  .hero { position:absolute; top:${h?.top ?? 300}px; left:${h?.left ?? 60}px;
+          width:${h?.w ?? 420}px; height:${h?.h ?? 296}px;
+          border-radius:${h?.radius ?? 22}px; overflow:hidden; background:#fff;
+          border:${h?.border ?? 6}px solid #fff; box-sizing:border-box;
+          box-shadow:0 10px 30px rgba(30,18,25,.22); }
+  /* **zoom は寄せて切るため。** 元画像の地の暗い縁を落とす用で、
+   * 1.3 を超えると 384px の素材ではぼやける */
+  .hero img { width:100%; height:100%; display:block;
+              object-fit:cover; object-position:${h?.pos || 'center 50%'};
+              transform: scale(${h?.zoom ?? 1}); transform-origin:center; }
+  /* **ロゴは切らない。** 商標なので余白ごと収める（最上位ルール 17） */
+  .hero img.heroLogo { object-fit:contain; padding:${h?.logoPad ?? 34}px; box-sizing:border-box; }
+
+  /* ---- 1 位の札 ---- */
+  .hcard { position:absolute; top:${c?.top ?? 300}px; left:${c?.left ?? 508}px;
+           width:${c?.w ?? 512}px; height:${c?.h ?? 296}px; box-sizing:border-box;
+           background:#FFF1C8; border-radius:24px; outline:5px solid #D63E76;
+           box-shadow:0 10px 30px rgba(214,62,118,.28);
+           display:flex; flex-direction:${c?.dir || 'column'};
+           align-items:center; justify-content:center; gap:${c?.gap ?? 12}px;
+           padding:${c?.pad ?? 20}px; }
+  .hrank { position:absolute; top:-18px; left:50%; transform:translateX(-50%);
+           background:#D63E76; color:#fff; white-space:nowrap;
+           font:800 22px/1 "Noto Sans JP", system-ui, sans-serif;
+           padding:9px 20px; border-radius:999px; box-shadow:0 4px 12px rgba(30,18,25,.22); }
+  .hlogo { width:${c?.logoW ?? 156}px; height:auto; display:block; object-fit:contain; flex:none; }
+  .hbody { display:flex; flex-direction:column; align-items:center; gap:2px; }
+  .hname { font:700 ${c?.nameSize ?? 30}px/1.25 "Noto Sans JP", system-ui, sans-serif;
+           color:#1E1219; text-align:center; }
+  .hprice { font:900 ${c?.priceSize ?? 82}px/1.05 "Noto Sans JP", system-ui, sans-serif;
+            color:#D63E76; font-variant-numeric:tabular-nums; }
+  .hsub { font:700 ${c?.subSize ?? 24}px/1.3 "Noto Sans JP", system-ui, sans-serif;
+          color:#8a5f70; text-align:center; }
 </style>
 <div class="strip">
   ${photoLayer}
   ${s.darkenBottom ? '<div class="darken"></div>' : ''}
+  ${bandHtml}
+  ${heroHtml}
+  ${hcardHtml}
   ${headHtml}
   ${rowsHtml}
   ${noteHtml}

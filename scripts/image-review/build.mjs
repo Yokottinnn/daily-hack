@@ -23,7 +23,8 @@ const OUT = process.argv[2] || path.join(ROOT, ".image-review.built.html");
 const FILES = {
   "walk-poikatsu-2026": ["1-summary.jpg", "2-waon.jpg", "3-web3.jpg", "4-mile.jpg"],
   "tokyo-discount-supermarket-2026": ["1-summary.jpg", "2-maibasket.jpg", "3-hanamasa.jpg", "4-tv.jpg"],
-  "morning-500-2026": ["1-summary.jpg", "2-rank.jpg", "3-mcd.jpg", "4-hours.jpg"],
+  // **1 枚だけにした**（2026-09-22 のコメント）。A/B は二択で、選ばれたほうだけ残す
+  "morning-500-2026": ["cover-a.jpg", "cover-b.jpg"],
 };
 
 const map = {};
