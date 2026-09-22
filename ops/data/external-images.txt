@@ -1,0 +1,97 @@
+# **記事が外部サイトから直に読んでいる画像の一覧。**（slug <TAB> URL）
+#
+# **生きているかを `ops/tasks/t154-check-external-images.sh` が確かめる。**
+# クラウドセッションからは外部 HTTPS に出られないので、Mac に見に行かせる。
+#
+# ## なぜ数えるのか
+#
+# **他所のサイトの画像は、こちらの都合と関係なく消える。**
+# `20250228_02_image01_sp.jpg` のような**キャンペーン画像**は、そのキャンペーンが
+# 終われば消える。消えても**ビルドも検査も通る**ので、誰も気づけない。
+#
+# `scripts/list-external-images.py` で作り直す。
+credit-card-no-annual-fee-comparison-2026	https://image.card.jp.rakuten-static.com/card_corp/pc/contents/premiumprogram/kanban.png
+credit-card-no-annual-fee-comparison-2026	https://www.jcb.co.jp/promotion/ordercard/w/images/renewal/info_img01_sp.jpg
+credit-card-no-annual-fee-comparison-2026	https://recruit-card.jp/site_assets/lp/sp/img/basic-card/feature-rich/campaign_card_master.png
+credit-card-no-annual-fee-comparison-2026	https://about.paypay.ne.jp/uploads/2025/02/20250228_02_image01_sp.jpg
+electricity-gas-savings-2026	https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=900&q=80
+electricity-gas-savings-2026	https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=900&q=80
+electricity-gas-savings-2026	https://images.unsplash.com/photo-1497366216548-37526070297c?w=900&q=80
+electricity-gas-savings-2026	https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1200&q=80
+fixed-cost-reduction-guide-2026	https://images.unsplash.com/photo-1556656793-08538906a9f8?w=900&q=80
+fixed-cost-reduction-guide-2026	https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=900&q=80
+fixed-cost-reduction-guide-2026	https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=900&q=80
+fixed-cost-reduction-guide-2026	https://images.unsplash.com/photo-1556656793-08538906a9f8?w=1200&q=80
+furusato-tax-beginner-guide-2026	https://images.unsplash.com/photo-1586201375761-83865001e31c?w=900&q=80
+furusato-tax-beginner-guide-2026	https://images.unsplash.com/photo-1583947215259-38e31be8751f?w=900&q=80
+furusato-tax-beginner-guide-2026	https://images.unsplash.com/photo-1518770660439-4636190af475?w=900&q=80
+jre-bank-campaign-2026	https://www.jrebank.jp/top/images/bonus1.png
+jre-bank-campaign-2026	https://www.jrebank.jp/top/images/bonus2.png
+jre-bank-campaign-2026	https://www.jrebank.jp/top/images/bonus3.png
+jre-bank-campaign-2026	https://www.jrebank.jp/top/images/bonus4.png
+jre-bank-campaign-2026	https://www.jrebank.jp/top/images/bonus1.png
+jre-bank-campaign-2026	https://www.jrebank.jp/top/images/bonus2.png
+jre-bank-campaign-2026	https://www.jrebank.jp/top/images/bonus3.png
+jre-bank-campaign-2026	https://www.jrebank.jp/top/images/bonus4.png
+jre-bank-campaign-2026	https://www.jrebank.jp/top/images/ogp.jpg
+june-2026-campaigns-roundup	https://www.smbc.co.jp/kojin/olive/imgs/index_img_18_pc.png
+june-2026-campaigns-roundup	https://www.rakuten-bank.co.jp/jrebank/campaign/referral/images/img-main-sp.png
+june-2026-campaigns-roundup	https://www.rakuten-bank.co.jp/shared/images/header/logo_pc.svg
+june-2026-campaigns-roundup	https://image.card.jp.rakuten-static.com/card_corp/pc/contents/premiumprogram/kanban.png
+june-2026-campaigns-roundup	https://www.jcb.co.jp/promotion/ordercard/w/images/renewal/info_img01_sp.jpg
+june-2026-campaigns-roundup	https://recruit-card.jp/site_assets/lp/sp/img/basic-card/feature-rich/campaign_card_master.png
+june-2026-campaigns-roundup	https://image.paypay.ne.jp/page/top/images/img_about_04.png
+june-2026-campaigns-roundup	https://payment.rakuten.co.jp/img/logo-Rpayment20241101.svg
+june-2026-campaigns-roundup	https://service.smt.docomo.ne.jp/keitai_payment/assets/top/image/illust_point_description_01.png
+june-2026-campaigns-roundup	https://about.paypay.ne.jp/uploads/2025/02/20250228_02_image01_sp.jpg
+june-2026-campaigns-roundup	https://images.unsplash.com/photo-1556742502-ec7c0e9f34b1?w=1200&q=80
+nisa-recommended-index-funds-2026	https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=400&q=80
+nisa-recommended-index-funds-2026	https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1200&q=80
+nisa-recommended-index-funds-2026	https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=400&q=80
+oiso-prince-spgr-guide-2026	https://www.princehotels.co.jp/oiso/spa/img/experience/pool01.jpg
+oiso-prince-spgr-guide-2026	https://www.princehotels.co.jp/oiso/spa/img/experience/pool02.jpg
+oiso-prince-spgr-guide-2026	https://www.princehotels.co.jp/oiso/spa/img/experience/pool03.jpg
+oiso-prince-spgr-guide-2026	https://www.princehotels.co.jp/oiso/spa/img/experience/sauna03.jpg
+oiso-prince-spgr-guide-2026	https://www.princehotels.co.jp/oiso/spa/img/experience/sauna01.jpg
+oiso-prince-spgr-guide-2026	https://www.princehotels.co.jp/oiso/spa/img/experience/relaxation03.jpg
+oiso-prince-spgr-guide-2026	https://www.princehotels.co.jp/oiso/spa/img/experience/relaxation01.jpg
+oiso-prince-spgr-guide-2026	https://www.princehotels.co.jp/oiso/spa/img/experience/onsen03.jpg
+oiso-prince-spgr-guide-2026	https://www.princehotels.co.jp/oiso/spa/img/experience/onsen05.jpg
+pointsite-comparison-2026	https://img.moppy.jp/pub/global/pc/top/nologin/redesign_202510/mainvisual_moppy.png
+pointsite-comparison-2026	https://img.hapitas.jp/img/images/logo.png
+pointsite-comparison-2026	https://pointi.jp/img_share/rogo.png
+pointsite-comparison-2026	https://img.pointtown.com/pc/images/regist/character-kuma.png
+qr-payment-comparison-2026	https://image.paypay.ne.jp/page/top/images/img_about_04.png
+qr-payment-comparison-2026	https://payment.rakuten.co.jp/img/logo-Rpayment20241101.svg
+qr-payment-comparison-2026	https://service.smt.docomo.ne.jp/keitai_payment/assets/top/image/illust_point_description_01.png
+qr-payment-comparison-2026	https://image.paypay.ne.jp/page/top/images/img_about_04.png
+qr-payment-comparison-2026	https://payment.rakuten.co.jp/img/logo-Rpayment20241101.svg
+qr-payment-comparison-2026	https://service.smt.docomo.ne.jp/keitai_payment/assets/top/image/illust_point_description_01.png
+qr-payment-comparison-2026	https://images.unsplash.com/photo-1579621970795-87facc2f976d?w=1200&q=80
+summer-travel-timesale-2026	https://www.jre-travel.com/content/dam/jretravel/site/page/drp/images_2022/timesale/ts2026/mv_timesale2605_pc.png
+summer-travel-timesale-2026	https://www.jalan.net/theme/jalancouponfes/img/kv.png
+summer-travel-timesale-2026	https://img.travel.rakuten.co.jp/special/sales/202605/images/kv_pc.png
+summer-travel-timesale-2026	https://www.img-ikyu.com/contents/dg/special/2026/timesale_gogo/image_01.jpg
+summer-travel-timesale-2026	https://www.img-ikyu.com/contents/dg/image/icon/yahoo_travel/20260501_pc.png
+wangan-saving-spots-2026	https://toyosugururi.jp/media/001/202601/3d77d6bc5ec3a99f9c3fbd9620c48283dc930ae687fc6791d0bd234bee400884.jpg
+wangan-saving-spots-2026	https://toyosugururi.jp/media/001/202412/4a8f69b4715a54fd3554047d95a08a2d826d5b788a4e69d731464c6e7ea02d24.jpg
+wangan-saving-spots-2026	https://toyosugururi.jp/media/001/202601/e9629354837872fd34dd95e6026db223e48ed3a7ef066e0f367a08684f83dd74.jpg
+wangan-saving-spots-2026	https://www.tptc.co.jp/cms/tptc/park/pages/images/02_01/img_slider_02.jpg
+wangan-saving-spots-2026	https://www.tptc.co.jp/cms/tptc/park/pages/images/02_01/5.jpg
+wangan-saving-spots-2026	https://www.tptc.co.jp/cms/tptc/park/pages/images/02_01/monument_tokyo.jpg
+wangan-saving-spots-2026	https://www.mitsuifudosan.co.jp/corporate/news/2026/0311/img/20260311_01.jpg
+wangan-saving-spots-2026	https://www.mitsuifudosan.co.jp/corporate/news/2026/0311/img/20260311_03.jpg
+wangan-saving-spots-2026	https://www.mitsuifudosan.co.jp/corporate/news/2026/0311/img/20260311_04.jpg
+wangan-saving-spots-2026	https://www.toyosu-market.or.jp/wordpress/wp-content/uploads/2022/03/image-12.jpeg
+wangan-saving-spots-2026	https://www.toyosu-market.or.jp/wordpress/wp-content/uploads/2022/03/image-17.jpeg
+wangan-saving-spots-2026	https://www.toyosu-market.or.jp/wordpress/wp-content/uploads/2022/04/4f05704c1013c5d6df62f4bbee3d7af8-1-764x860.jpg
+wangan-saving-spots-2026	https://www.gotokyo.org/jp/spot/85/images/main.webp
+wangan-saving-spots-2026	https://walk.monja.gr.jp/assets/img/article/ph-osampo4-explain1.jpg
+wangan-saving-spots-2026	https://walk.monja.gr.jp/assets/img/article/ph-osampo4-explain2.jpg
+wangan-saving-spots-2026	https://www.shopping-sumitomo-rd.com/images/top/241/pc.jpg
+wangan-saving-spots-2026	https://www.shopping-sumitomo-rd.com/images/top/287/pc.jpg
+wangan-saving-spots-2026	https://www.shopping-sumitomo-rd.com/images/top/122/pc.jpg
+wangan-saving-spots-2026	https://www.city.koto.lg.jp/060901/shisetsuannai/kokyo/omonashisetsu/shisetsu/images/11_5115s.jpg
+wangan-saving-spots-2026	https://www.toyosu-senkyakubanrai.jp/wp/wp-content/uploads/2025/03/fdd6fa644ecf64b56804ebec8eb7d3a7.png
+wangan-saving-spots-2026	https://www.toyosu-senkyakubanrai.jp/wp/wp-content/uploads/2025/04/af4e4c3fb1b12c929d64714642ebeb5d-1.jpg
+wangan-saving-spots-2026	https://www.toyosu-senkyakubanrai.jp/wp/wp-content/uploads/2025/04/0a605cbf0cc4adc6067616082af2cf36-scaled.jpg
