@@ -1,3 +1,4 @@
 [
-      {"task": "x135-read-post-comment-source.sh", "rc": 0, "out": "post-comment.js と添付の実装を読んだ / post-comment-source.md"}
+      {"task": "t176-refresh-run3.sh", "rc": 0, "out": "- `@anthropic-ai/sdk`: ❌ **無い。**   - node: `/opt/homebrew/bin/node` / npm: `/opt/homebrew/bin/npm`   - `PATH`: `/opt/homebrew/bin:/usr/bin:/bin:/usr/sbin:/sbin`  **t175 では在ると出ていた。** 状況が変わっているので、**走らせずに止める。**"},
+      {"task": "t177-logos-real-browser2.sh", "rc": 0, "out": "**13 件 持ち帰った。** **持株会社・親会社のロゴをサービスのロゴとして使わない**（最上位ルール 17）。 **採否はクラウド側でコンタクトシートを見て決める。**  経過 **31 秒**。"}
   ]
