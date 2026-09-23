@@ -106,11 +106,11 @@ references:
 | 会社 | 実質年率 | 限度額（最大） | 審査時間 | 在籍確認 | 無利息期間 | WEB完結 |
 |---|---|---|---|---|---|---|
 | **プロミス** | 4.5〜17.8% | 500万円 | 最短3分 | 原則電話なし | 初回30日 ※借入翌日から | ◯ |
-| **アコム** | 3.0〜18.0% | 800万円 | 最短20分 | 原則電話なし（実績約1%） | 初回30日 ※契約翌日から | ◯ |
-| **SMBCモビット** | 3.0〜18.0% | 800万円 | 最短15分 | WEB完結なら電話・郵送ゼロ | なし（その代わりVポイント還元） | ◎（条件あり） |
-| **レイク** | 4.5〜18.0% | 500万円 | 最短15秒回答／最短25分融資 | 原則電話なし | **最長365日**（条件達成時）／60日／30日から選択 | ◯ |
-| **アイフル** | 3.0〜18.0% | 800万円 | 最短18分 | 原則電話なし（実績約99.1%） | 初回30日 ※契約翌日から | ◯（カードレス標準） |
-| **三井住友カード プレミアムカードローン** | 1.5〜14.5% | 500万円（会員枠） | 最短30分 | 電話あり（同意ベース運用） | なし | ◯（三井住友カード会員限定） |
+| <span class="cell-brand"><img class="brand-logo-sm" src="/images/cardloan-comparison-2026/logos/acom.png" alt="アコムのロゴ" loading="lazy" /><strong>アコム</strong></span> | 3.0〜18.0% | 800万円 | 最短20分 | 原則電話なし（実績約1%） | 初回30日 ※契約翌日から | ◯ |
+| <span class="cell-brand"><img class="brand-logo-sm" src="/images/cardloan-comparison-2026/logos/mobit.png" alt="SMBCモビットのロゴ" loading="lazy" /><strong>SMBCモビット</strong></span> | 3.0〜18.0% | 800万円 | 最短15分 | WEB完結なら電話・郵送ゼロ | なし（その代わりVポイント還元） | ◎（条件あり） |
+| <span class="cell-brand"><img class="brand-logo-sm" src="/images/cardloan-comparison-2026/logos/lake.png" alt="レイクのロゴ" loading="lazy" /><strong>レイク</strong></span> | 4.5〜18.0% | 500万円 | 最短15秒回答／最短25分融資 | 原則電話なし | **最長365日**（条件達成時）／60日／30日から選択 | ◯ |
+| <span class="cell-brand"><img class="brand-logo-sm" src="/images/cardloan-comparison-2026/logos/aiful.png" alt="アイフルのロゴ" loading="lazy" /><strong>アイフル</strong></span> | 3.0〜18.0% | 800万円 | 最短18分 | 原則電話なし（実績約99.1%） | 初回30日 ※契約翌日から | ◯（カードレス標準） |
+| <span class="cell-brand"><img class="brand-logo-sm" src="/images/cardloan-comparison-2026/logos/smbccard.png" alt="三井住友カードのロゴ" loading="lazy" /><strong>三井住友カード プレミアムカードローン</strong></span> | 1.5〜14.5% | 500万円（会員枠） | 最短30分 | 電話あり（同意ベース運用） | なし | ◯（三井住友カード会員限定） |
 | **オリックス・クレジット VIPローンカード** | 1.7〜17.8% | 800万円 | 最短60分 | あり（書面代替交渉可） | なし | ◯ |
 
 <p class="source-note">※「在籍確認」は2026年5月時点の各社公式表記。審査内容・申込条件により電話確認が発生する場合があります。最短時間は申込時間帯・本人確認の進行状況により遅延することがあります。</p>
@@ -176,9 +176,8 @@ references:
 
 **ポイント**: プロミスの無利息期間は他社と違って「契約日の翌日」ではなく「**初回借入日の翌日**」から30日のカウント。これ地味だけど効く。契約だけ先に済ませて、給料日3日前に借りる、というタイミング調整ができる。
 
-[プロミス公式サイトで条件を確認 →](https://www.promise.co.jp/){target="_blank" rel="nofollow noopener"}
-
-### 2. アコム（三菱UFJフィナンシャル・グループ）
+<p><a href="https://www.promise.co.jp/" target="_blank" rel="nofollow noopener">プロミス公式サイトで条件を確認 →</a></p>
+<h3 class="brand-h" id="loan-acom"><img class="brand-logo" src="/images/cardloan-comparison-2026/logos/acom.png" alt="アコムのロゴ" loading="lazy" /><span>2. アコム（三菱UFJフィナンシャル・グループ）</span></h3>
 
 | 項目 | 内容 |
 |---|---|
@@ -192,9 +191,8 @@ references:
 
 **ポイント**: アコムは「電話の在籍確認を**しない**」と公式に明言してる数少ない大手。実績データも公開しているから、勤務先バレが最大の不安な人には心理的なハードルが一番低い。三菱UFJ FGの安心感も大きい。
 
-[アコム公式サイトで条件を確認 →](https://www.acom.co.jp/){target="_blank" rel="nofollow noopener"}
-
-### 3. SMBCモビット（SMBCコンシューマーファイナンス）
+<p><a href="https://www.acom.co.jp/" target="_blank" rel="nofollow noopener">アコム公式サイトで条件を確認 →</a></p>
+<h3 class="brand-h" id="loan-mobit"><img class="brand-logo" src="/images/cardloan-comparison-2026/logos/mobit.png" alt="SMBCモビットのロゴ" loading="lazy" /><span>3. SMBCモビット（SMBCコンシューマーファイナンス）</span></h3>
 
 | 項目 | 内容 |
 |---|---|
@@ -208,9 +206,8 @@ references:
 
 **ポイント**: 無利息がない代わりに、**WEB完結を選べば在籍確認の電話も自宅への郵送物も100%発生しない**という設計が他社と一線を画す。Vポイント経済圏との統合も強い（返済額200円ごとに1pt）。
 
-[SMBCモビット公式サイトで条件を確認 →](https://www.mobit.ne.jp/){target="_blank" rel="nofollow noopener"}
-
-### 4. レイク（新生フィナンシャル）
+<p><a href="https://www.mobit.ne.jp/" target="_blank" rel="nofollow noopener">SMBCモビット公式サイトで条件を確認 →</a></p>
+<h3 class="brand-h" id="loan-lake"><img class="brand-logo" src="/images/cardloan-comparison-2026/logos/lake.png" alt="レイクのロゴ" loading="lazy" /><span>4. レイク（新生フィナンシャル）</span></h3>
 
 | 項目 | 内容 |
 |---|---|
@@ -223,9 +220,8 @@ references:
 
 **ポイント**: **無利息期間が業界唯一の最長365日**。ただし「365日無利息になるのは契約額50万円以上の場合の借入額5万円までの部分」など条件が細かいから、申込前に公式で「あなたのケースで何日無利息か」を必ず確認。短期返済前提なら60日無利息でも他社より圧倒的に有利。
 
-[レイク公式サイトで条件を確認 →](https://lake.jp/){target="_blank" rel="nofollow noopener"}
-
-### 5. アイフル（独立系）
+<p><a href="https://lake.jp/" target="_blank" rel="nofollow noopener">レイク公式サイトで条件を確認 →</a></p>
+<h3 class="brand-h" id="loan-aiful"><img class="brand-logo" src="/images/cardloan-comparison-2026/logos/aiful.png" alt="アイフルのロゴ" loading="lazy" /><span>5. アイフル（独立系）</span></h3>
 
 | 項目 | 内容 |
 |---|---|
@@ -239,9 +235,8 @@ references:
 
 **ポイント**: 独立系（銀行系・カード会社系列ではない）の最大手。**カードレス契約が標準**で、自宅に郵送物が一切届かない設計が他社より徹底してる。家族同居で絶対バレたくない人にはコレ。
 
-[アイフル公式サイトで条件を確認 →](https://www.aiful.co.jp/){target="_blank" rel="nofollow noopener"}
-
-### 6. 三井住友カード プレミアムカードローン
+<p><a href="https://www.aiful.co.jp/" target="_blank" rel="nofollow noopener">アイフル公式サイトで条件を確認 →</a></p>
+<h3 class="brand-h" id="loan-smbccard"><img class="brand-logo" src="/images/cardloan-comparison-2026/logos/smbccard.png" alt="三井住友カードのロゴ" loading="lazy" /><span>6. 三井住友カード プレミアムカードローン</span></h3>
 
 | 項目 | 内容 |
 |---|---|
@@ -254,8 +249,7 @@ references:
 
 **ポイント**: 2025年10月に「premium」と「plus」を統合した、三井住友カード会員向けの低金利カードローン。**消費者金融上限18%の世界からは脱出できる**金利帯（最大14.5%）が魅力。すでに三井住友カードを持ってる人なら追加審査が軽くなる傾向。**「カードローン カードローン」と銘打った旧商品（SMBCモビットに統合済）は2024年以降新規受付終了**してるから、現行商品はこのプレミアムカードローン。
 
-[三井住友カード プレミアムカードローン公式 →](https://www.smbc-card.com/nyukai/loan/premiumplus/index.jsp){target="_blank" rel="nofollow noopener"}
-
+<p><a href="https://www.smbc-card.com/nyukai/loan/premiumplus/index.jsp" target="_blank" rel="nofollow noopener">三井住友カード プレミアムカードローン公式 →</a></p>
 ### 7. オリックス・クレジット VIPローンカード
 
 | 項目 | 内容 |
@@ -270,8 +264,7 @@ references:
 
 **ポイント**: **下限金利1.7%は7社中最強**。年収300万円以上で限度額を100万円以上引きたい人なら、消費者金融より圧倒的に有利。即日融資の俊敏さは消費者金融に劣るけど、**「金利を取りに行く」用途では筆頭候補**。
 
-[オリックス・クレジット公式 →](https://www.orixcredit.jp/){target="_blank" rel="nofollow noopener"}
-
+<p><a href="https://www.orixcredit.jp/" target="_blank" rel="nofollow noopener">オリックス・クレジット公式 →</a></p>
 ---
 
 ## 「在籍確認なし」の実態 — ここを誤解してる人が多い
