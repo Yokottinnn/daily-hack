@@ -88,15 +88,34 @@ echo "鍵を読めた（値は出さない）。"
 #
 # **依存に入れたので `npm ci` すれば入る**が、Mac の `node_modules` は
 # `git reset --hard` では更新されない。**無ければここで入れる。**
+#
+# **`npm` を PATH に頼らない**（2026-09-23 に踏んだ）。
+# launchd から起動されるとログイン時の PATH が乗らないので、素の `npm` は
+# 見つからないことがある。**`node` の隣を先に見る。**
+#
+# **出力を捨てない。** 最初の版は `>/dev/null 2>&1 || true` にしていたため、
+# 「入れられなかった」としか残らず、**理由が分からなかった。**
 if ! "$NODE_BIN" -e "require.resolve('@anthropic-ai/sdk/package.json')" >/dev/null 2>&1; then
   echo "@anthropic-ai/sdk が無い。入れる。"
-  npm install --no-audit --no-fund --silent @anthropic-ai/sdk >/dev/null 2>&1 || true
+  NPM_BIN="$(dirname "$NODE_BIN")/npm"
+  [ -x "$NPM_BIN" ] || NPM_BIN="$(command -v npm || true)"
+  if [ -z "$NPM_BIN" ] || [ ! -x "$NPM_BIN" ]; then
+    echo "npm が見つからない（node は $NODE_BIN）。PATH=$PATH"
+    exit 1
+  fi
+  echo "npm: $NPM_BIN"
+  "$NPM_BIN" install --no-audit --no-fund @anthropic-ai/sdk 2>&1 | tail -20
   if ! "$NODE_BIN" -e "require.resolve('@anthropic-ai/sdk/package.json')" >/dev/null 2>&1; then
     echo "@anthropic-ai/sdk を入れられなかった。何もせず終わる。"
     exit 1
   fi
   echo "@anthropic-ai/sdk を入れた。"
 fi
+
+# **`npm install` は `package.json` / `package-lock.json` を書き換える。**
+# このあとの汚れ判定で止まらないよう、**依存の追加ぶんだけ元に戻す。**
+# 宣言は `main` 側に既に入っているので、ここで残す必要はない。
+git checkout -q -- package.json package-lock.json 2>/dev/null || true
 
 # **main から始める。** 前回のブランチに積み上げない
 git fetch origin main --quiet || { echo "fetch 失敗"; exit 1; }
