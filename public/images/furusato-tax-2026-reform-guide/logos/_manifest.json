@@ -1,0 +1,14 @@
+{
+ "_note": "識別目的で使うロゴ。**商標であり自由ライセンスではない。** 改変しない（CSS の枠は可）。取得元と取得日をここに残す。 **`furusato-tax-beginner-guide-2026` からコピーした**（2026-09-23）。",
+ "_missing": "**2 枚目のカード「さとふる / ふるなび / ふるさとチョイス」にはロゴを置いていない。** さとふるだけ未取得で、3 社のうち 2 社にしか付かないと「1 社だけ抜けている」ように見えるため。さとふるが取れた時点で 3 枚まとめて入れる。",
+ "rakuten-furusato.png": {
+  "brand": "楽天ふるさと納税",
+  "source": "https://r.r10s.jp/evt/event/furusato/_cmn/img/20250418_logo.svg",
+  "page": "https://event.rakuten.co.jp/furusato/",
+  "fetched": "2026-09-22",
+  "task": "ops/tasks/t155-brand-logos-batch.sh",
+  "license_note": "商標。識別目的で使用。**SVG を Chromium で PNG にした**",
+  "copied_from": "public/images/furusato-tax-beginner-guide-2026/logos/rakuten-furusato.png",
+  "copied": "2026-09-23"
+ }
+}
