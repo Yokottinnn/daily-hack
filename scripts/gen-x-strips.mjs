@@ -108,13 +108,69 @@ function stripHtml(s) {
       ${rows.map((r) => `
       <div class="row${r.dim ? ' dim' : ''}${r.win ? ' win' : ''}">
         ${r.src ? `<img class="rlogo" src="${esc(r.src)}">` : '<span class="rlogo"></span>'}
-        <span class="rname">${esc(r.name)}</span>
+        <span class="rname">${esc(r.name)}${r.item ? `<i class="ritem">${esc(r.item)}</i>` : ''}</span>
         <span class="rprice">${esc(r.price)}</span>
       </div>`).join('')}
     </div>` : '';
 
   const headHtml = s.headline ? `<div class="headline">${esc(s.headline)}</div>` : '';
   const noteHtml = s.note ? `<div class="snote">${esc(s.note)}</div>` : '';
+
+  /* **表紙っぽくする 3 つの部品**（2026-09-22 にレビューページで指示された）。
+   *   「この内容を表紙っぽくして整えて。他の画像は全部いらない。画像は1枚だけで良い。」
+   * `band`  … 上の帯（kicker / title / sub）。`gen-x-cards.mjs` の cover と同じ骨格
+   * `hero`  … 実写を角丸のパネルで置く。**元画像より大きく引き伸ばさない**こと
+   * `hcard` … 1 位だけを大きく見せる札。2 位以下は `rows` に流す */
+  const b = s.band;
+  const bandHtml = b ? `
+    <div class="band">
+      ${b.kicker ? `<div class="kicker">${esc(b.kicker)}</div>` : ''}
+      ${b.title ? `<div class="btitle">${esc(b.title)}</div>` : ''}
+      ${b.sub ? `<div class="bsub">${esc(b.sub)}</div>` : ''}
+    </div>` : '';
+
+  const h = s.hero;
+  if (h && h.file) {
+    const p = path.join(base, h.file);
+    if (!exists(p)) throw new Error(`実写が無い: ${p}（当て推量で作らない）`);
+  }
+  if (h && h.logo) {
+    const p = path.join(base, h.logo);
+    if (!exists(p)) throw new Error(`ロゴが無い: ${p}`);
+  }
+  const heroHtml = h ? `
+    <div class="hero">
+      <img src="${esc(h.file || h.logo)}"${h.logo ? ' class="heroLogo"' : ''}>
+    </div>` : '';
+
+  /* 1 位の札。**2 位以下の行（`rows`）と同じ見た目にする**——白いカード 1 枚に
+   * ロゴも文字も写真も全部 入れる（2026-09-22 の指摘）。
+   *   「松屋のカードと同じように、大きな白いカードの中にロゴや文章など全てまとめる」
+   *   「カード内は色つけなくていいよ。枠線つけてるんだから白の背景で十分」
+   * **地に色を敷かない。** 区別は枠線と大きさだけでつける */
+  const c = s.hcard;
+  if (c && c.logo) {
+    const p = path.join(base, c.logo);
+    if (!exists(p)) throw new Error(`ロゴが無い: ${p}`);
+  }
+  if (c && c.photo) {
+    const p = path.join(base, c.photo.file);
+    if (!exists(p)) throw new Error(`実写が無い: ${p}（当て推量で作らない）`);
+  }
+  const hcardHtml = c ? `
+    <div class="hcard">
+      <div class="hbody">
+        ${c.rank ? `<div class="hrank">${esc(c.rank)}</div>` : ''}
+        ${c.logo || c.brand ? `<div class="hbrand">
+          ${c.logo ? `<img class="hlogo" src="${esc(c.logo)}">` : ''}
+          ${c.brand ? `<span>${esc(c.brand)}</span>` : ''}
+        </div>` : ''}
+        ${c.name ? `<div class="hname">${esc(c.name)}</div>` : ''}
+        ${c.price ? `<div class="hprice">${esc(c.price)}</div>` : ''}
+        ${c.sub ? `<div class="hsub">${esc(c.sub)}</div>` : ''}
+      </div>
+      ${c.photo ? `<div class="hphoto"><img src="${esc(c.photo.file)}"></div>` : ''}
+    </div>` : '';
 
   return `<!doctype html><meta charset="utf-8">
 <style>
@@ -168,14 +224,20 @@ function stripHtml(s) {
   /* 比較行。**ロゴは名前の左**（最上位ルール 17） */
   .rows { position:absolute; left:0; right:0; top:${s.rowsTop ?? 150}px; padding:0 ${s.rowsPad ?? 62}px;
           display:flex; flex-direction:column; gap:${s.rowGap ?? 16}px; }
+  /* **1 位の札と同じ白。** 地に色を敷かない（2026-09-22 の指摘） */
   .row { display:flex; align-items:center; gap:20px;
-         background:rgba(255,255,255,.90); border-radius:16px;
+         background:#fff; border-radius:16px;
          padding:${s.rowPad ?? 14}px 24px; box-shadow:0 2px 10px rgba(30,18,25,.10); }
   .row.dim { opacity:.62; }
   .row.win { background:#FFF1C8; box-shadow:0 6px 22px rgba(214,62,118,.28);
              outline:4px solid #D63E76; }
   .rlogo { width:${s.logoW ?? 78}px; height:${s.logoH ?? 46}px; object-fit:contain; display:block; flex:none; }
-  .rname { flex:1; font:700 ${s.nameSize ?? 31}px/1.2 "Noto Sans JP", system-ui, sans-serif; color:#1E1219; }
+  .rname { flex:1; min-width:0; font:700 ${s.nameSize ?? 31}px/1.2 "Noto Sans JP", system-ui, sans-serif;
+           color:#1E1219; white-space:nowrap; overflow:hidden; }
+  /* **何のセットか分かるように商品名を出す**（2026-09-22 の指摘）。
+   * ブランド名の右に小さく続ける。**記事の表にある表記のまま**使う */
+  .ritem { font-style:normal; font-weight:700; margin-left:14px;
+           font-size:${s.itemSize ?? 26}px; color:#6b5460; }
   .rprice { font:800 ${s.priceSize ?? 40}px/1 "Noto Sans JP", system-ui, sans-serif;
             color:#A82959; font-variant-numeric:tabular-nums; white-space:nowrap; }
   .row.win .rprice { color:#D63E76; }
@@ -183,10 +245,71 @@ function stripHtml(s) {
   .snote { position:absolute; left:0; right:0; bottom:${s.noteBottom ?? 34}px; padding:0 58px;
            font:700 ${s.noteSize ?? 27}px/1.45 "Noto Sans JP", system-ui, sans-serif;
            color:${s.noteColor || '#FFFFFF'}; text-align:center; }
+
+  /* ---- 表紙の帯 ---- */
+  .band { position:absolute; left:0; right:0; top:0; height:${b?.h ?? 276}px;
+          background: linear-gradient(135deg, ${b?.bg?.[0] || '#A82959'} 0%, ${b?.bg?.[1] || '#D63E76'} 100%);
+          display:flex; flex-direction:column; align-items:center; justify-content:center;
+          gap:${b?.gap ?? 14}px; padding:0 46px; box-sizing:border-box; }
+  .kicker { font:700 ${b?.kickerSize ?? 27}px/1.3 "Noto Sans JP", system-ui, sans-serif;
+            color:#FFE9C4; letter-spacing:.02em; text-align:center; }
+  .btitle { font:800 ${b?.titleSize ?? 58}px/1.2 "Noto Sans JP", system-ui, sans-serif;
+            color:#fff; text-align:center; letter-spacing:-.015em;
+            text-shadow:0 2px 12px rgba(30,18,25,.28); }
+  .bsub { font:700 ${b?.subSize ?? 29}px/1.4 "Noto Sans JP", system-ui, sans-serif;
+          color:#FFD9E6; text-align:center; }
+
+  /* ---- 実写／ロゴのパネル ---- */
+  .hero { position:absolute; top:${h?.top ?? 300}px; left:${h?.left ?? 60}px;
+          width:${h?.w ?? 420}px; height:${h?.h ?? 296}px;
+          border-radius:${h?.radius ?? 22}px; overflow:hidden; background:#fff;
+          border:${h?.border ?? 6}px solid #fff; box-sizing:border-box;
+          box-shadow:0 10px 30px rgba(30,18,25,.22); }
+  /* **zoom は寄せて切るため。** 元画像の地の暗い縁を落とす用で、
+   * 1.3 を超えると 384px の素材ではぼやける */
+  .hero img { width:100%; height:100%; display:block;
+              object-fit:cover; object-position:${h?.pos || 'center 50%'};
+              transform: scale(${h?.zoom ?? 1}); transform-origin:center; }
+  /* **ロゴは切らない。** 商標なので余白ごと収める（最上位ルール 17） */
+  .hero img.heroLogo { object-fit:contain; padding:${h?.logoPad ?? 34}px; box-sizing:border-box; }
+
+  /* ---- 1 位の札 ---- */
+  /* **地は白。** 色で目立たせず、枠線と大きさで 2 位以下と差をつける（2026-09-22 の指摘）。
+   * 中身はすべてこのカードの内側に置く。外に浮かせる要素を作らない */
+  .hcard { position:absolute; top:${c?.top ?? 300}px; left:${c?.left ?? 60}px;
+           width:${c?.w ?? 960}px; height:${c?.h ?? 300}px; box-sizing:border-box;
+           background:#fff; border-radius:24px;
+           border:${c?.border ?? 4}px solid ${c?.borderColor || '#D63E76'};
+           box-shadow:0 6px 20px rgba(30,18,25,.12);
+           display:flex; flex-direction:${c?.dir || 'row'};
+           align-items:center; gap:${c?.gap ?? 26}px; padding:${c?.pad ?? 24}px; }
+  .hbody { flex:1; min-width:0; display:flex; flex-direction:column;
+           align-items:flex-start; gap:${c?.bodyGap ?? 6}px; }
+  .hrank { font:800 ${c?.rankSize ?? 23}px/1 "Noto Sans JP", system-ui, sans-serif;
+           color:#D63E76; letter-spacing:.04em; white-space:nowrap; }
+  .hbrand { display:flex; align-items:center; gap:14px; }
+  .hbrand span { font:700 ${c?.brandSize ?? 36}px/1.1 "Noto Sans JP", system-ui, sans-serif;
+                 color:#1E1219; }
+  .hlogo { width:${c?.logoW ?? 84}px; height:auto; display:block; object-fit:contain; flex:none; }
+  .hname { font:700 ${c?.nameSize ?? 30}px/1.25 "Noto Sans JP", system-ui, sans-serif;
+           color:#1E1219; }
+  .hprice { font:900 ${c?.priceSize ?? 78}px/1.05 "Noto Sans JP", system-ui, sans-serif;
+            color:#D63E76; font-variant-numeric:tabular-nums; }
+  .hsub { font:700 ${c?.subSize ?? 22}px/1.35 "Noto Sans JP", system-ui, sans-serif;
+          color:#6b5460; }
+  /* カードの中に実写を収める。**外に別パネルを置かない** */
+  .hphoto { flex:none; width:${c?.photo?.w ?? 400}px; height:100%;
+            border-radius:${c?.photo?.radius ?? 16}px; overflow:hidden; background:#f2f2f2; }
+  .hphoto img { width:100%; height:100%; display:block; object-fit:cover;
+                object-position:${c?.photo?.pos || 'center 0%'};
+                transform:scale(${c?.photo?.zoom ?? 1}); }
 </style>
 <div class="strip">
   ${photoLayer}
   ${s.darkenBottom ? '<div class="darken"></div>' : ''}
+  ${bandHtml}
+  ${heroHtml}
+  ${hcardHtml}
   ${headHtml}
   ${rowsHtml}
   ${noteHtml}

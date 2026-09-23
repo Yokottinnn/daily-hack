@@ -1,244 +1,94 @@
 {
-  "_doc": "X 告知の素材（カードの帯 1000x560 ＋ 全面 1080x1080）。node scripts/gen-x-strips.mjs ops/data/x-strips/morning-500-2026.json",
-  "_note": "**出所の行は出さない**（2026-09-20 の指示・最上位ルール 8）。この記事の `photos/` は**全部「公式サイト（引用）」**で、出所表記が要る素材なので 1 枚も使えない。使っているのは **各社ロゴ（商標・識別目的）と自作の合成だけ。** 写真を戻すなら、出所の行も戻すこと。ロゴは改変していない（色も形も変えず、余白だけ）。",
+  "_doc": "X 告知の画像（1080x1080・**1 枚だけ**）。node scripts/gen-x-strips.mjs ops/data/x-strips/morning-500-2026.json",
+  "_note": "**出所の行は出さない**（最上位ルール 8）。ロゴは各社の商標・識別目的。**`photos/nakau-mazenokke.jpg` は「公式サイト（引用）」で権利表記が要る素材**だが、2026-09-22 に利用者が版A（実写あり・出所の行なし）を選んだ。写真を外すなら、なか卯ロゴだけの版に戻せばこの矛盾は消える。**写っているのは「まぜのっけごはん朝食」**で、300円の「目玉焼き朝食」ではない（公式が出しているなか卯の朝食写真がこれしか無い）。",
+  "_feedback": "2026-09-22 のレビューページのコメント 4 件で作り直した。①「同じ土俵で〜」は言いたいことが不明 → 「飲食チェーンの最強の『朝ごはん定食』」に。②最安ではなく**コスパ**を知りたい → 帯の副題を差し替え。③左右を入れ替え、**松屋のカードと同じ白いカード 1 枚**にロゴ・文章・写真を全部 収める。**カード内に色は敷かない**（枠線があれば白で足りる）。④下の一文が伝わらない → マクドナルドが最下位になる理由を書いた。",
   "slug": "morning-500-2026",
   "imageBase": "public/images/morning-500-2026",
   "strips": [
     {
-      "_use": "cover カード①：同条件で並べる 4 社のロゴ。文字はカード側が持つ",
-      "out": "s-rank.jpg",
-      "bg": [
-        "#FFF7E6",
-        "#FFE9C4"
-      ],
-      "logoTop": 52,
-      "gap": 30,
-      "logos": [
-        {
-          "file": "logos/nakau.jpg",
-          "w": 150
-        },
-        {
-          "file": "logos/matsuya.jpg",
-          "w": 210
-        },
-        {
-          "file": "logos/yoshinoya.png",
-          "w": 140
-        },
-        {
-          "file": "logos/mcd.png",
-          "w": 120
-        }
-      ]
-    },
-    {
-      "_use": "cover カード②：マクドナルドのロゴを大きく",
-      "out": "s-mcd.jpg",
-      "bg": [
-        "#FFF1F5",
-        "#FBDCE6"
-      ],
-      "logoTop": 44,
-      "logos": [
-        {
-          "file": "logos/mcd.png",
-          "w": 190
-        }
-      ]
-    },
-    {
-      "_use": "cover カード③：なか卯のロゴを大きく",
-      "out": "s-nakau.jpg",
-      "bg": [
-        "#FFF7E6",
-        "#FFE3B8"
-      ],
-      "logoTop": 44,
-      "logos": [
-        {
-          "file": "logos/nakau.jpg",
-          "w": 200
-        }
-      ]
-    },
-    {
-      "_use": "cover カード④：朝4:00 の 3 社",
-      "out": "s-hours.jpg",
-      "bg": [
-        "#EEF1F6",
-        "#DDE2EB"
-      ],
-      "logoTop": 52,
-      "gap": 34,
-      "logos": [
-        {
-          "file": "logos/nakau.jpg",
-          "w": 150
-        },
-        {
-          "file": "logos/yoshinoya.png",
-          "w": 140
-        },
-        {
-          "file": "logos/sukiya.jpg",
-          "w": 150
-        }
-      ]
-    },
-    {
-      "_use": "全面②：同じ土俵で並べ直した順位（1080x1080）",
-      "out": "x/2-rank.jpg",
+      "_use": "表紙型 1 枚。帯 ＋ 1 位の白カード（ロゴ・文章・実写を内包）＋ 2 位以下の行",
+      "out": "x/cover-a.jpg",
       "size": [
         1080,
         1080
       ],
       "bg": [
         "#FFF7E6",
-        "#FFE0B0"
+        "#FFD79A"
       ],
-      "darkenBottom": 0.3,
-      "headline": "「ごはん・みそ汁つきの一食」で揃えると",
-      "headTop": 78,
-      "headSize": 50,
-      "rowsTop": 250,
-      "rowsPad": 90,
-      "rowGap": 26,
-      "rowPad": 26,
-      "logoW": 104,
-      "logoH": 64,
-      "nameSize": 44,
-      "priceSize": 58,
-      "note": "マフィン1個と定食を、同じ「最安」で語らない",
-      "noteBottom": 58,
-      "noteSize": 30,
+      "band": {
+        "h": 276,
+        "bg": [
+          "#A82959",
+          "#D63E76"
+        ],
+        "kicker": "牛丼チェーン ／ カフェ ／ 値段は全部 公式で確認",
+        "title": "飲食チェーンの最強の「朝ごはん定食」",
+        "titleSize": 50,
+        "sub": "ごはん・みそ汁つきで揃えて比べた、コスパ最強の一食"
+      },
+      "hcard": {
+        "top": 300,
+        "left": 60,
+        "w": 960,
+        "h": 320,
+        "pad": 28,
+        "gap": 26,
+        "bodyGap": 10,
+        "logo": "logos/nakau.jpg",
+        "logoW": 64,
+        "brand": "なか卯",
+        "brandSize": 32,
+        "name": "目玉焼き朝食（小盛）",
+        "nameSize": 28,
+        "price": "300円",
+        "priceSize": 72,
+        "sub": "ごはん・みそ汁つきで一食が完結",
+        "subSize": 22,
+        "photo": {
+          "file": "photos/nakau-mazenokke.jpg",
+          "w": 400,
+          "radius": 16,
+          "pos": "center 28%",
+          "zoom": 1.0
+        }
+      },
+      "rowsTop": 650,
+      "rowsPad": 60,
+      "rowGap": 12,
+      "rowPad": 16,
+      "logoW": 92,
+      "logoH": 52,
+      "nameSize": 34,
+      "priceSize": 50,
       "rows": [
-        {
-          "logo": "logos/nakau.jpg",
-          "name": "なか卯",
-          "price": "300円",
-          "win": true
-        },
         {
           "logo": "logos/matsuya.jpg",
           "name": "松屋",
-          "price": "350円"
+          "price": "350円",
+          "item": "Wで選べる玉子かけごはん"
         },
         {
           "logo": "logos/yoshinoya.png",
           "name": "吉野家",
           "price": "430円",
-          "dim": true
+          "dim": true,
+          "item": "納豆定食"
         },
         {
           "logo": "logos/mcd.png",
           "name": "マクドナルド",
           "price": "450円〜",
-          "dim": true
-        }
-      ]
-    },
-    {
-      "_use": "全面③：180円の正体（1080x1080）",
-      "out": "x/3-mcd.jpg",
-      "size": [
-        1080,
-        1080
-      ],
-      "bg": [
-        "#FFF1F5",
-        "#F7C9DA"
-      ],
-      "wash": [
-        {
-          "file": "logos/mcd.png",
-          "w": 760,
-          "opacity": 0.14
+          "dim": true,
+          "item": "チキンマックマフィン セット"
         }
       ],
-      "washShift": -90,
-      "washRotate": 0,
-      "veilTop": 0.3,
-      "veilMid": 0.1,
-      "darkenBottom": 0.3,
-      "headline": "その180円、マフィン1個だけよ",
-      "headTop": 86,
-      "headSize": 54,
-      "rowsTop": 290,
-      "rowsPad": 110,
-      "rowGap": 28,
-      "rowPad": 30,
-      "logoW": 100,
-      "logoH": 64,
-      "nameSize": 44,
-      "priceSize": 58,
-      "note": "飲み物もハッシュポテトも別。同じ一食にすると450円〜",
-      "noteBottom": 62,
-      "noteSize": 31,
-      "rows": [
-        {
-          "logo": "logos/mcd.png",
-          "name": "マフィン単品",
-          "price": "180円",
-          "dim": true
-        },
-        {
-          "logo": "logos/mcd.png",
-          "name": "同じ一食にすると",
-          "price": "450円〜"
-        }
-      ]
-    },
-    {
-      "_use": "全面④：朝4:00から（1080x1080）",
-      "out": "x/4-hours.jpg",
-      "size": [
-        1080,
-        1080
-      ],
-      "bg": [
-        "#EEF1F6",
-        "#D5DBE6"
-      ],
-      "darkenBottom": 0.3,
-      "headline": "牛丼チェーンは朝4:00から11:00まで",
-      "headTop": 80,
-      "headSize": 48,
-      "rowsTop": 250,
-      "rowsPad": 90,
-      "rowGap": 24,
-      "rowPad": 24,
-      "logoW": 100,
-      "logoH": 62,
-      "nameSize": 42,
-      "priceSize": 50,
-      "note": "なか卯はモバイルオーダーなら早朝の割増がかからない",
-      "noteBottom": 58,
-      "noteSize": 31,
-      "rows": [
-        {
-          "logo": "logos/nakau.jpg",
-          "name": "なか卯",
-          "price": "4:00〜11:00",
-          "win": true
-        },
-        {
-          "logo": "logos/yoshinoya.png",
-          "name": "吉野家",
-          "price": "4:00〜11:00"
-        },
-        {
-          "logo": "logos/sukiya.jpg",
-          "name": "すき家",
-          "price": "4:00〜11:00"
-        },
-        {
-          "logo": "logos/matsuya.jpg",
-          "name": "松屋",
-          "price": "5:00〜11:00",
-          "dim": true
-        }
-      ]
+      "note": "朝マックの180円はマフィン1個だけ。一食で揃えると450円〜",
+      "noteBottom": 50,
+      "noteSize": 28,
+      "noteColor": "#1E1219",
+      "itemSize": 23,
+      "_feedback_2": "2026-09-23 のコメント 3 件。①「同じ条件で1位」を削り余白に回した。②写真が上に寄りすぎて みそ汁 が切れていたので zoom をやめた。③何のセットか分かるよう**記事の順位表にある商品名**を 3 行 すべてに入れた（松屋=Wで選べる玉子かけごはん／吉野家=納豆定食／マクドナルド=チキンマックマフィン セット）。"
     }
   ]
 }

@@ -68,6 +68,7 @@
   .set .slug { font-family:var(--mono); font-size:11.5px; color:var(--muted); }
   .set .posted { margin:6px 0 0; font-size:12.5px; color:var(--done); font-weight:700; }
   .set .posted a { color:var(--done); }
+  .set .attach { margin:6px 0 0; font-size:12.5px; color:var(--edit); font-weight:700; }
 
   .post { margin-top:20px; background:var(--surface); border:1px solid var(--line);
           border-radius:3px; box-shadow:var(--shadow); overflow:hidden; }
@@ -245,13 +246,17 @@
       ]
     },
     {
-      // **未投稿。** 2026-09-22 に新規作成（矢印で切る型の初適用）
+      // **未投稿。** 2026-09-22 に新規作成し、同日のコメント 9 件で 2 度 作り直した。
+      //   1 度目（5 件）: 4 枚 → 1 枚。「表紙っぽくして整えて」「なか卯の実写を入れて」
+      //   2 度目（4 件）: 見出しを「飲食チェーンの最強の『朝ごはん定食』」に。
+      //                   **最安ではなくコスパ。** 左右を入れ替え、
+      //                   **白いカード 1 枚**にロゴ・文章・写真を全部 収める（色は敷かない）
       key: "morning", title: "500円モーニング 2026", slug: "morning-500-2026",
+      // **2026-09-22 にダイアログで決定。** [1/2] は文字だけで「↓↓」で切り、
+      // その先の [2/2] に画像を付ける。**勝手に変えない**（最上位ルール 18）
+      attach: "[2/2]（[1/2] は文字だけ。「↓↓」の仕掛けを残すため）",
       images: [
-        { file: "1-summary.jpg", name: "表紙（4カード）", cap: "同じ土俵で並べたら最安が変わる" },
-        { file: "2-rank.jpg",    name: "2枚目",          cap: "「一食」で揃えた順位。なか卯300円" },
-        { file: "3-mcd.jpg",     name: "3枚目",          cap: "180円はマフィン1個。一食なら450円〜" },
-        { file: "4-hours.jpg",   name: "4枚目",          cap: "牛丼チェーンは朝4:00から11:00" }
+        { file: "cover-a.jpg", name: "表紙（1枚）", cap: "飲食チェーンの最強の「朝ごはん定食」" }
       ]
     }
   ];
@@ -400,6 +405,14 @@
         done.append(a, document.createTextNode(i < set.posted.length - 1 ? " ・ " : ""));
       });
       head.append(done);
+    }
+    // **画像をどちらの投稿に付けるかを、ページに出しておく。**
+    // 会話にしか無いと次のターンで薄れる（最上位ルール 3・18）
+    if (set.attach) {
+      const at = document.createElement("p");
+      at.className = "attach";
+      at.textContent = "画像の付け先： " + set.attach;
+      head.append(at);
     }
     sec.append(head);
 
