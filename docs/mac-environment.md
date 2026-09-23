@@ -48,6 +48,48 @@ node scripts/svg-to-png.mjs <file.svg> ...
 - `python3` は 3.10 以上。`/opt/homebrew/bin/python3.12` / `python3.11` も探して使う。
 - **Pillow は在る。** ただし SVG は開けない（上記）。
 
+## node / npm と、パッケージの在りか（2026-09-23 に実測・t175）
+
+| | 場所 | 版 |
+| --- | --- | --- |
+| node | `/opt/homebrew/bin/node` | **v26.0.0** |
+| npm | `/opt/homebrew/bin/npm` | **11.12.1** |
+
+**`ops/tasks` から見える `PATH` はこれだけ。** ログイン時のものは乗らない。
+
+```text
+/opt/homebrew/bin : /usr/bin : /bin : /usr/sbin : /sbin
+```
+
+`/opt/homebrew/bin` が入っているので、**`npm` は素で呼べる。**
+
+### パッケージはリポジトリごとに別。**「無い」の前に場所を探す**
+
+| パッケージ | 在りか |
+| --- | --- |
+| `@anthropic-ai/sdk` | `~/projects/anta-baka-x/blog/node_modules`（426 項目・**書き込み可**） |
+| `playwright-core` | **`~/.openclaw/workspace/node_modules`** と `~/openclaw/node_modules` |
+
+**ブログのリポジトリに `playwright-core` は無い。** X のループが持っている。
+**入れ直さずに、そこから読む。**
+
+```js
+// **`NODE_PATH` は ESM の import では効かない。** require で場所を指定する
+import { createRequire } from 'node:module';
+const req = createRequire('/Users/ny/.openclaw/workspace/node_modules/x.js');
+const { chromium } = req('playwright-core');
+```
+
+### 失敗の理由を握りつぶさない（2026-09-23 に 1 往復 無駄にした）
+
+`npm install ... >/dev/null 2>&1 || true` と書いたため、
+**「入れられなかった」としか残らず、原因が分からなかった。**
+そのあと推測で「PATH に無いのが有力」と報告したが、**実測したら PATH に在った。**
+
+- **出力は捨てない。** せめて `2>&1 | tail -20`
+- **見つからないときは `PATH` ごと出す**
+- **2 回 同じところで止まったら、直す前に測る**（最上位ルール 15）
+
 ## 追記するとき
 
 **実測してから書く。** 「たぶん入っている」は書かない。
