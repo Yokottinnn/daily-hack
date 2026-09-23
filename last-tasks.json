@@ -1,1 +1,3 @@
-[]
+[
+      {"task": "x140-get-reply-permalink.sh", "rc": 0, "out": "返信の permalink とログアウト時の見え方を取った / reply-permalink.md"}
+  ]
