@@ -185,12 +185,12 @@ references: ["https://kakakumag.com/money/?id=20897", "https://www.warau.jp/", "
 
 | サイト | 運営・会員数(累計) | 強み | こんな人向け |
 |:---|:---|:---|:---|
-| **モッピー** | セレス／**1,400万人超** | 案件網羅・総合力No.1、基軸 | まず1つ目に登録する全員 |
-| **ハピタス** | オズビジョン／540万人 | **高単価の金融案件が強い**、ポイント保証 | クレカ・証券口座狙い |
-| **ポイントインカム** | ファイブゲート(※2025/9セレス傘下)／500万人 | 会員ランク＋交換ボーナス、ゲーム導線 | 腰を据えてランク育成 |
+| <span class="cell-brand"><img class="brand-logo-sm" src="/images/point-service-complete-guide-2026/logos/moppy.png" alt="モッピーのロゴ" loading="lazy" /><strong>モッピー</strong></span> | セレス／**1,400万人超** | 案件網羅・総合力No.1、基軸 | まず1つ目に登録する全員 |
+| <span class="cell-brand"><img class="brand-logo-sm" src="/images/point-service-complete-guide-2026/logos/hapitas.png" alt="ハピタスのロゴ" loading="lazy" /><strong>ハピタス</strong></span> | オズビジョン／540万人 | **高単価の金融案件が強い**、ポイント保証 | クレカ・証券口座狙い |
+| <span class="cell-brand"><img class="brand-logo-sm" src="/images/point-service-complete-guide-2026/logos/pointincome.png" alt="ポイントインカムのロゴ" loading="lazy" /><strong>ポイントインカム</strong></span> | ファイブゲート(※2025/9セレス傘下)／500万人 | 会員ランク＋交換ボーナス、ゲーム導線 | 腰を据えてランク育成 |
 | <span class="cell-brand"><img class="brand-logo-sm" src="/images/point-service-complete-guide-2026/logos/chobirich.png" alt="ちょびリッチのロゴ" loading="lazy" /><strong>ちょびリッチ</strong></span> | ちょびリッチ／500万人超 | **外食・商品モニターに強い**、5段階ランク | モニターでタダ飯狙い |
-| **ワラウ** | オープンスマイル／270万人 | 全カテゴリ対象ポイント保証、ショッピング強い | 却下が怖い初心者 |
-| **ECナビ/ポイントタウン** | CARTA(電通)／GMO・各900万人級 | 大手資本の安心感、交換ハブ(PeX) | 安心感重視 |
+| <span class="cell-brand"><img class="brand-logo-sm" src="/images/point-service-complete-guide-2026/logos/warau.png" alt="ワラウのロゴ" loading="lazy" /><strong>ワラウ</strong></span> | オープンスマイル／270万人 | 全カテゴリ対象ポイント保証、ショッピング強い | 却下が怖い初心者 |
+| <span class="cell-brand"><img class="brand-logo-sm" src="/images/point-service-complete-guide-2026/logos/ecnavi.png" alt="ECナビのロゴ" loading="lazy" /><strong>ECナビ/ポイントタウン</strong></span> | CARTA(電通)／GMO・各900万人級 | 大手資本の安心感、交換ハブ(PeX) | 安心感重視 |
 
 <div class="hakkako-says">
 <img src="/images/expr-07-gasp.png" alt="ハッカー子" />

@@ -229,7 +229,7 @@ ahamo・povo・LINEMO・楽天モバイル・UQモバイル・ワイモバイル
 <div class="compare-cards">
   <article class="compare-card recommended">
     <span class="compare-card-mascot"><img src="/images/expr-04-cheer.png" alt="" /></span>
-    <h3>楽天でんき</h3>
+    <h3 class="brand-h"><img class="brand-logo" src="/images/fixed-cost-reduction-guide-2026/logos/rakuten-denki.png" alt="楽天でんきのロゴ" loading="lazy" /><span>楽天でんき</span></h3>
     <p class="tagline">楽天経済圏との連動が強烈。電気代でも楽天ポイントが貯まり、SPU倍率にも貢献。</p>
     <dl>
       <dt>強み</dt><dd>200円につき1ポイント還元、楽天カード払いでさらに上乗せ</dd>
@@ -240,7 +240,7 @@ ahamo・povo・LINEMO・楽天モバイル・UQモバイル・ワイモバイル
 
   <article class="compare-card recommended">
     <span class="compare-card-mascot"><img src="/images/expr-05-smug.png" alt="" /></span>
-    <h3>auでんき</h3>
+    <h3 class="brand-h"><img class="brand-logo" src="/images/fixed-cost-reduction-guide-2026/logos/au-denki.png" alt="auでんきのロゴ" loading="lazy" /><span>auでんき</span></h3>
     <p class="tagline">auユーザーなら電気代でPontaポイント還元。スマホとセットで請求がまとまる。</p>
     <dl>
       <dt>強み</dt><dd>電気料金に応じたPontaポイント還元、au PAY決済との連動</dd>
@@ -251,7 +251,7 @@ ahamo・povo・LINEMO・楽天モバイル・UQモバイル・ワイモバイル
 
   <article class="compare-card">
     <span class="compare-card-mascot"><img src="/images/expr-09-arms-crossed.png" alt="" /></span>
-    <h3>ドコモでんき</h3>
+    <h3 class="brand-h"><img class="brand-logo" src="/images/fixed-cost-reduction-guide-2026/logos/docomo-denki.png" alt="ドコモでんきのロゴ" loading="lazy" /><span>ドコモでんき</span></h3>
     <p class="tagline">ドコモユーザー向け。dポイントが貯まる + dカード払いで還元上乗せ。</p>
     <dl>
       <dt>強み</dt><dd>「Green」プランは実質再エネ100%でdポイント還元率高め</dd>
