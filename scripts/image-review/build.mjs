@@ -11,6 +11,7 @@
 // **こちらで見ているかぎり気づけない**（最上位ルール 14 と同じ根）。
 import fs from "node:fs";
 import path from "node:path";
+import { createHash } from "node:crypto";
 import { fileURLToPath } from "node:url";
 
 const HERE = path.dirname(fileURLToPath(import.meta.url));
@@ -49,13 +50,40 @@ const weight = (s) => {
   for (const c of s.replace(/https?:\/\/\S+/g, "#".repeat(23))) n += c.codePointAt(0) < 0x80 ? 1 : 2;
   return n;
 };
+// **承認済みの文面が書き換わっていたら止める**（2026-09-22 に作った）。
+//
+// 承認済みの [1/2] を、**画像に付いたコメントを文面への指示だと読み違えて**
+// 指示なく書き換え、「なんで勝手に変えたの？？」「台無しになっている」と差し戻された。
+// **文書に書くだけでは防げない**（同じ根の事故が繰り返されている）のでここで止める。
+// 更新してよい条件は `posts.lock.json` の `_howto` にある。
+const LOCK = path.join(HERE, "posts.lock.json");
+const lock = JSON.parse(fs.readFileSync(LOCK, "utf8"));
+const sha = (s) => createHash("sha256").update(s, "utf8").digest("hex");
+let locked = 0;
+let filled = false;
 for (const [k, list] of Object.entries(posts)) {
   list.forEach((t, i) => {
     const w = weight(t);
     console.log(`  ${k} [${i + 1}/${list.length}]  重み ${w} / 280（余裕 ${280 - w}）`);
     if (w > 275) throw new Error(`${k} [${i + 1}] が重み ${w}。280 以内・余裕 5 以上にする`);
+
+    const entry = lock.locked[`${k}[${i}]`];
+    if (!entry) return;
+    locked++;
+    // 初回だけ空のハッシュを埋める。**2 回目以降は照合する**
+    if (!entry.sha256) { entry.sha256 = sha(t); filled = true; return; }
+    if (entry.sha256 !== sha(t)) {
+      throw new Error(
+        `${k} [${i + 1}] は **${entry.approvedAt} に承認済みの文面**で、書き換わっている。\n` +
+        `  承認の根拠: ${entry.reason}\n` +
+        `  **利用者が「その文面を直せ」と言っていないなら、文面のほうを戻すこと。**\n` +
+        `  画像へのコメント・自分の判断・整合性の都合では変えない。\n` +
+        `  言われて直したのなら ${path.relative(ROOT, LOCK)} の sha256 と reason を更新する。`);
+    }
   });
 }
+if (filled) fs.writeFileSync(LOCK, JSON.stringify(lock, null, 2) + "\n");
+console.log(`承認済みの文面 ${locked} 本 を照合${filled ? "（初回なのでハッシュを記録した）" : "・一致"}`);
 
 const src = fs.readFileSync(TEMPLATE, "utf8");
 for (const slot of ["/*__IMAGES__*/{}", "/*__POSTS__*/{}"]) {
