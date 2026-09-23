@@ -32,11 +32,9 @@
         "left": 60,
         "w": 960,
         "h": 320,
-        "pad": 24,
+        "pad": 28,
         "gap": 26,
-        "bodyGap": 4,
-        "rank": "同じ条件で1位",
-        "rankSize": 23,
+        "bodyGap": 10,
         "logo": "logos/nakau.jpg",
         "logoW": 64,
         "brand": "なか卯",
@@ -51,41 +49,46 @@
           "file": "photos/nakau-mazenokke.jpg",
           "w": 400,
           "radius": 16,
-          "pos": "center 0%",
-          "zoom": 1.3
+          "pos": "center 28%",
+          "zoom": 1.0
         }
       },
-      "rowsTop": 646,
+      "rowsTop": 650,
       "rowsPad": 60,
-      "rowGap": 14,
+      "rowGap": 12,
       "rowPad": 16,
       "logoW": 92,
       "logoH": 52,
-      "nameSize": 38,
+      "nameSize": 34,
       "priceSize": 50,
       "rows": [
         {
           "logo": "logos/matsuya.jpg",
           "name": "松屋",
-          "price": "350円"
+          "price": "350円",
+          "item": "Wで選べる玉子かけごはん"
         },
         {
           "logo": "logos/yoshinoya.png",
           "name": "吉野家",
           "price": "430円",
-          "dim": true
+          "dim": true,
+          "item": "納豆定食"
         },
         {
           "logo": "logos/mcd.png",
           "name": "マクドナルド",
           "price": "450円〜",
-          "dim": true
+          "dim": true,
+          "item": "チキンマックマフィン セット"
         }
       ],
       "note": "朝マックの180円はマフィン1個だけ。一食で揃えると450円〜",
       "noteBottom": 50,
       "noteSize": 28,
-      "noteColor": "#1E1219"
+      "noteColor": "#1E1219",
+      "itemSize": 23,
+      "_feedback_2": "2026-09-23 のコメント 3 件。①「同じ条件で1位」を削り余白に回した。②写真が上に寄りすぎて みそ汁 が切れていたので zoom をやめた。③何のセットか分かるよう**記事の順位表にある商品名**を 3 行 すべてに入れた（松屋=Wで選べる玉子かけごはん／吉野家=納豆定食／マクドナルド=チキンマックマフィン セット）。"
     }
   ]
 }

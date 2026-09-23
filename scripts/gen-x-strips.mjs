@@ -108,7 +108,7 @@ function stripHtml(s) {
       ${rows.map((r) => `
       <div class="row${r.dim ? ' dim' : ''}${r.win ? ' win' : ''}">
         ${r.src ? `<img class="rlogo" src="${esc(r.src)}">` : '<span class="rlogo"></span>'}
-        <span class="rname">${esc(r.name)}</span>
+        <span class="rname">${esc(r.name)}${r.item ? `<i class="ritem">${esc(r.item)}</i>` : ''}</span>
         <span class="rprice">${esc(r.price)}</span>
       </div>`).join('')}
     </div>` : '';
@@ -232,7 +232,12 @@ function stripHtml(s) {
   .row.win { background:#FFF1C8; box-shadow:0 6px 22px rgba(214,62,118,.28);
              outline:4px solid #D63E76; }
   .rlogo { width:${s.logoW ?? 78}px; height:${s.logoH ?? 46}px; object-fit:contain; display:block; flex:none; }
-  .rname { flex:1; font:700 ${s.nameSize ?? 31}px/1.2 "Noto Sans JP", system-ui, sans-serif; color:#1E1219; }
+  .rname { flex:1; min-width:0; font:700 ${s.nameSize ?? 31}px/1.2 "Noto Sans JP", system-ui, sans-serif;
+           color:#1E1219; white-space:nowrap; overflow:hidden; }
+  /* **何のセットか分かるように商品名を出す**（2026-09-22 の指摘）。
+   * ブランド名の右に小さく続ける。**記事の表にある表記のまま**使う */
+  .ritem { font-style:normal; font-weight:700; margin-left:14px;
+           font-size:${s.itemSize ?? 26}px; color:#6b5460; }
   .rprice { font:800 ${s.priceSize ?? 40}px/1 "Noto Sans JP", system-ui, sans-serif;
             color:#A82959; font-variant-numeric:tabular-nums; white-space:nowrap; }
   .row.win .rprice { color:#D63E76; }
