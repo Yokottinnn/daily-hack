@@ -1,3 +1,3 @@
 [
-      {"task": "x143-measure-official-account-supply.sh", "rc": 0, "out": "公式アカウントの混入を測った / official-account-supply.md"}
+      {"task": "t186-appstore-byid.sh", "rc": 0, "out": "---  **対象 2 件 / 落とせた 2 件。** 経過 **1 秒**。  **返ってきた名前が期待と違えば、採らない。**"}
   ]
