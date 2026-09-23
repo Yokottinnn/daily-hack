@@ -168,6 +168,64 @@ if (!attached) { out({ ok:false, step, error:"attachment did not appear" }); pro
 
 **現れなければ投稿ごと止める。** 画像なしで出すより、出さないほうがよい。
 
+##### **`reply_tweet_id` が返っても、出ているとは限らない**（2026-09-23 に踏んだ）
+
+`post-comment.js` は CreateTweet の GraphQL 応答から ID を拾うが、
+**拾えた＝X 上に残った ではない。**
+
+```json
+{"index":1,"role":"cta","ok":true,"reply_tweet_id":"2102732550989115457","captured_via":"graphql_response"}
+```
+
+**この ID は 404 だった。** 利用者が URL を開いて気づき、こちらは
+**「投稿できました」と誤って報告していた。**
+
+ファイル冒頭に「pinned-tweet ID bug 真の修正」とあるが、直ったのは別の症状だった。
+
+##### 返信を数えるなら **`time` の親 `a`**。`article` 内の最初の `/status/` では外す
+
+**同じ日、これで 2 度目の誤報をした。**
+
+`article` の中には**投稿者プロフィールや引用へのリンク**も入っている。
+最初の `/status/` を拾うと、**その投稿自身を「返信」として数える。**
+
+```javascript
+// ❌ [1/2] 自身を返信として数える
+const link = await a.$('a[href*="/status/"]');
+
+// ✅ time の親 a が、その投稿の permalink
+const t = await a.$("time");
+const p = await t.evaluateHandle((e) => e.closest("a"));
+const href = await p.evaluate((e) => e && e.getAttribute("href"));
+```
+
+**本体と返信は `href` に元の ID が入っているかで分ける。**
+
+```javascript
+if (href.includes("/status/" + t1)) self = item;                      // 本体
+else if (href.startsWith("/" + me + "/status/")) replies.push(item);  // 自分の返信
+```
+
+##### **出した返信の permalink を必ず記録する**
+
+`x139` は枚数しか記録せず、**古い（実在しない）ID のリンクを渡し続けた。**
+利用者が開くたびに 404 で、**「出てない」と 3 回 言わせた。**
+
+**`href` が取れなければ「出た」と言わない。** 報告にはその URL をそのまま載せる。
+
+##### プローブは**ワークスペースの中**に置く
+
+`require("playwright-core")` は `~/.openclaw/workspace/node_modules` で解決される。
+**`$TMPDIR` に一時スクリプトを置くと解決できず、`Cannot find module` で空振りする。**
+
+```
+Error: Cannot find module 'playwright-core'
+  /private/var/folders/.../.x138-probe.js
+```
+
+**§1 の「`playwright` ではなく `playwright-core`」はパッケージ名の話だけ**で、
+置き場所が書かれていなかった。**`$W/.xNNN-probe.js` に置く。**
+
 ##### それでも**出たあとに実物を見る**
 
 キューの `images: 1` は「積んだ枚数」であって、**X 上に付いた証拠ではない。**
