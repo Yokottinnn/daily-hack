@@ -231,5 +231,25 @@
     "fetched": "2026-09-23",
     "task": "ops/tasks/t186-appstore-byid.sh",
     "note": "**楽天ペイは別サービス。** t185 の検索では 1 件目にそれを掴んでいたので、id 指定で引き直した"
+  },
+  "paypay.png": {
+    "brand": "PayPay",
+    "source": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/96/dc/21/96dc21a3-0b26-dd01-da04-94849438d373/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+    "page": "https://apps.apple.com/jp/app/id1435783608",
+    "source_type": "App Store の登録アイコン（artworkUrl512・商標）",
+    "seller": "PAYPAY CORPORATION",
+    "fetched": "2026-09-23",
+    "task": "ops/tasks/t187-appstore-rest.sh",
+    "note": "id は **t185 の Vポイント検索の 3 件目に写っていた**もの。推測していない"
+  },
+  "rakuten-card.png": {
+    "brand": "楽天カード：明細確認アプリ",
+    "source": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8e/81/91/8e819124-851d-ac93-7330-e2b46a23afd6/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+    "page": "https://apps.apple.com/jp/app/id570105907",
+    "source_type": "App Store の登録アイコン（artworkUrl512・商標）",
+    "seller": "RAKUTEN CARD,INC.",
+    "fetched": "2026-09-23",
+    "task": "ops/tasks/t187-appstore-rest.sh",
+    "note": "**楽天ペイ・楽天ポイントクラブと紛らわしい。** `sellerName` が RAKUTEN CARD,INC. であることで確かめた"
   }
 }
