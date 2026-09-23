@@ -40,3 +40,15 @@
 **採否とサイズの確認はクラウド側でコンタクトシートを見てやる。**
 
 経過 **56 秒**。
+  - ❌ `https://www.satofull.jp/apple-touch-icon-precomposed.png` → **000** / - / 0 bytes
+  - ❌ `https://www.satofull.jp/favicon.ico` → **404** / text/html / 185415 bytes
+  - ❌ `https://www.satofull.jp/favicon.png` → **000** / - / 0 bytes
+  - ⚠️ **1 つも取れなかった**
+
+---
+
+**1 件 持ち帰った。**
+**favicon は 16〜32px のことがある。** 小さすぎるものは記事には使えない。
+**採否とサイズの確認はクラウド側でコンタクトシートを見てやる。**
+
+経過 **56 秒**。
