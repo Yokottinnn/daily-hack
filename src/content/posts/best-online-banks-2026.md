@@ -25,13 +25,13 @@ relatedReferrals: ["rakuten-bank", "olive-smbc", "mizuho-bank", "jre-bank", "muf
 
 | 銀行 | ATM手数料 | 振込手数料 | 普通預金金利 | キャンペーン |
 |---|---|---|---|---|
-| 楽天銀行 | 月最大7回無料 | 月最大3回無料 | 0.10%（条件達成で） | 紹介経由200pt〜2,000pt |
-| Olive（三井住友） | コンビニ月3回無料 | アプリで他行振込3回無料 | 0.001% | 紹介で1,000円相当 |
-| みずほ銀行 | みずほATM無料 | 同行間無料 | 0.001% | 紹介プログラムあり |
-| 三菱UFJ | UFJ ATM無料 | アプリで月3回無料 | 0.001% | 紹介で1,500円 |
-| JRE BANK | JRE-POINTで充実 | JR系列で優遇 | - | JR東日本特典が破格 |
+| <span class="cell-brand"><img class="brand-logo-sm" src="/images/best-online-banks-2026/logos/rakutenbank.png" alt="楽天銀行のロゴ" loading="lazy" /><a href="https://www.rakuten-bank.co.jp/" target="_blank" rel="noopener">楽天銀行</a></span> | 月最大7回無料 | 月最大3回無料 | 0.10%（条件達成で） | 紹介経由200pt〜2,000pt |
+| <span class="cell-brand"><img class="brand-logo-sm" src="/images/best-online-banks-2026/logos/smbc.png" alt="三井住友銀行のロゴ" loading="lazy" /><a href="https://www.smbc.co.jp/kojin/olive/" target="_blank" rel="noopener">Olive（三井住友）</a></span> | コンビニ月3回無料 | アプリで他行振込3回無料 | 0.001% | 紹介で1,000円相当 |
+| <a href="https://www.mizuhobank.co.jp/" target="_blank" rel="noopener">みずほ銀行</a> | みずほATM無料 | 同行間無料 | 0.001% | 紹介プログラムあり |
+| <span class="cell-brand"><img class="brand-logo-sm" src="/images/best-online-banks-2026/logos/mufg.png" alt="三菱UFJ銀行のロゴ" loading="lazy" /><a href="https://www.bk.mufg.jp/" target="_blank" rel="noopener">三菱UFJ</a></span> | UFJ ATM無料 | アプリで月3回無料 | 0.001% | 紹介で1,500円 |
+| <span class="cell-brand"><img class="brand-logo-sm" src="/images/best-online-banks-2026/logos/jrebank.png" alt="JRE BANK のロゴ" loading="lazy" /><a href="https://www.jrebank.jp/" target="_blank" rel="noopener">JRE BANK</a></span> | JRE-POINTで充実 | JR系列で優遇 | - | JR東日本特典が破格 |
 
-## 1位: 楽天銀行（万人向け1番手）
+<h2 class="brand-h" id="bank-1-rakuten"><img class="brand-logo" src="/images/best-online-banks-2026/logos/rakutenbank.png" alt="楽天銀行のロゴ" loading="lazy" /><span>1位: 楽天銀行（万人向け1番手）</span></h2>
 
 **こんな人におすすめ**: 楽天市場・楽天モバイル・楽天証券などを使っている / 使う予定の人。
 
@@ -39,13 +39,13 @@ relatedReferrals: ["rakuten-bank", "olive-smbc", "mizuho-bank", "jre-bank", "muf
 
 > 💡 **お得Tip**: 楽天証券との連携（マネーブリッジ）で普通預金金利が0.10%にアップ。10万円預けるだけで年間100円ですが、メガバンク（0.001%）の100倍です。
 
-## 2位: 三井住友銀行 Olive（即時還元の鬼）
+<h2 class="brand-h" id="bank-2-olive"><img class="brand-logo" src="/images/best-online-banks-2026/logos/smbc.png" alt="三井住友銀行のロゴ" loading="lazy" /><span>2位: 三井住友銀行 Olive（即時還元の鬼）</span></h2>
 
 **こんな人におすすめ**: 日常の買い物でVポイントを貯めたい人、コンビニ・ファミレス利用が多い人。
 
 OliveはSBIグループ全体を巻き込んだ総合金融プラットフォーム。日常の支払い1回ごとにVポイントが即時還元される快感は他行にない強みです。コンビニ・マクドナルド・サイゼ等の対象店で7%還元（条件付き）は破格。
 
-## 3位: JRE BANK（JR東日本ユーザーの新定番）
+<h2 class="brand-h" id="bank-3-jrebank"><img class="brand-logo" src="/images/best-online-banks-2026/logos/jrebank.png" alt="JRE BANK のロゴ" loading="lazy" /><span>3位: JRE BANK（JR東日本ユーザーの新定番）</span></h2>
 
 楽天銀行が運営する**JR東日本連携の特殊銀行**。普通預金金利は控えめですが、JR東日本グループの特典（4枚の片道乗車券、いくつかの優待割引）が異常な水準で、年に数回新幹線に乗る人なら**それだけで元が取れる**設計です。
 
@@ -53,7 +53,7 @@ OliveはSBIグループ全体を巻き込んだ総合金融プラットフォー
 
 オンラインバンキング刷新後、ぐっと使いやすくなったみずほ。紹介プログラムでまとまったポイントが獲得できます。
 
-## 5位: 三菱UFJ銀行
+<h2 class="brand-h" id="bank-5-mufg"><img class="brand-logo" src="/images/best-online-banks-2026/logos/mufg.png" alt="三菱UFJ銀行のロゴ" loading="lazy" /><span>5位: 三菱UFJ銀行</span></h2>
 
 紹介プログラムは「紹介してもされても1,500円」という珍しいタイプ。家族・友人を紹介すれば双方に特典が入る合理的な設計。
 
