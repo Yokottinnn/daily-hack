@@ -1,3 +1,3 @@
 [
-      {"task": "x136-patch-reply-image.sh", "rc": 0, "out": "**reply に画像を付けられるようにした。構文も通った** / patch-reply-image.md"}
+      {"task": "t178-refresh-run4.sh", "rc": 0, "out": " - `total_usd` が増えていれば、**API を実際に呼んでいる** - `refresh/` のブランチが在れば、**PR まで作れている** - どちらも無くてログに「変更が無い」と書いてあれば、   **当てるべき指摘が無かった**ということ（失敗ではな"}
   ]
