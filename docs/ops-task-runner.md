@@ -236,6 +236,62 @@ git -C "$MAIN_REPO" merge --ff-only origin/main
 - それでも取れないなら、**その項目は記事に載せない。** 「取れなかった」と
   記事に書くのも禁止（`blog-article` スキル「制作の裏側を記事に書かない」）
 
+## 9. **マージの `405 build is expected` は、CI の失敗ではない**（2026-09-23 に 3 回 詰まった）
+
+`ops/tasks` は **`main` にマージされて初めて走る**（最上位ルール 12）ので、
+マージできないことは「タスクが 1 本も届かない」ことと同じである。
+
+**1 日で 3 回 同じところで止まった。** 毎回こう出る。
+
+```
+405 Required status check "build" is expected.
+```
+
+**文面は CI を指しているが、CI は成功している。**
+
+| 見たもの | 出た値 |
+| --- | --- |
+| `check-runs` の `build` | **`completed` / `success`** |
+| `commits/<sha>/status` | `pending` / statuses は **0 件** |
+| **`pulls/<n>` の `mergeable_state`** | **`behind`** ← **これが真因** |
+
+このリポジトリのブランチ保護は「**`main` に追いついていること**」を要求する。
+**待っている間に `main` が進むと、CI が通っていてもマージできない。**
+ロゴ取得の `t1xx` 系が並行して動いているので、**数分 待てばほぼ必ず進む。**
+
+### 順番を間違えない
+
+```bash
+# ❌ CI を疑うところから始める（3 回 これをやった）
+gh api .../check-runs
+
+# ✅ 405 が出たら、まず状態を見る
+curl -sS "https://api.github.com/repos/<owner>/<repo>/pulls/<n>" | jq -r .mergeable_state
+#   behind → main に追いつかせる
+#   dirty  → 衝突。解消する
+#   clean  → 本当に CI 待ち
+```
+
+### 追いつかせ方（**`git checkout -B` を打たない**）
+
+**squash マージされた後は、`git rebase origin/main` が
+「もう main に入っている変更」を再適用しようとして衝突する。**
+自分のコミットは squash で 1 個にまとめられており、
+Git からは「未マージ」に見えるためである。実際に 4 連続で衝突した。
+
+**先に、中身が本当に main に入っているかを見る。**
+
+```bash
+git fetch origin main
+# **これが空なら、中身は全部 main に在る。** 安全に作り直せる
+git diff --stat origin/main HEAD -- . ':(exclude)<今回 足したファイル>'
+
+git reset --hard origin/main
+git checkout <元のsha> -- <今回 足したファイル>   # 新しい分だけ拾い直す
+```
+
+**空でなければリセットしない**（最上位ルール 3）。`git rebase origin/main` で解く。
+
 ## 併せて読む
 
 - 秘密を出さない・当て推量でファイルを作らない: `CLAUDE.md`「機械的な操作は `ops/tasks/` に置く」
