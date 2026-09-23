@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T11:23:32Z",
+  "generated_at": "2026-09-23T11:53:49Z",
   "login_lock": {"present": false, "age_hours": 0},
   "cdp": {"healthy": true, "port": 18810},
   "x_jobs": {"loaded": 8, "expected": 8, "ai_total": 14, "halted": false, "missing": []},
@@ -33,7 +33,9 @@
     "com.dailyhack.x-impressions"
   ],
   "reconnect": "既に起動している",
-  "tasks": [],
+  "tasks": [
+      {"task": "t174-logos-real-browser.sh", "rc": 0, "out": "   Browser: Chrome/140.0.7339.207,    Protocol-Version: 1.3,    User-`）  ⚠️ **`playwright-core` が無い。** 何もせず終わる"}
+  ],
   "running": null,
   "auth": {
     "ok": true,
@@ -118,8 +120,8 @@
   ],
   "clone": {
     "branch": "main",
-    "behind": 0,
-    "dirty": 0
+    "behind": 4,
+    "dirty": 2
   },
   "followers": {
     "now": 279,
