@@ -80,6 +80,24 @@ const req = createRequire('/Users/ny/.openclaw/workspace/node_modules/x.js');
 const { chromium } = req('playwright-core');
 ```
 
+### `require.resolve('<pkg>/package.json')` は、入っていても落ちる（2026-09-23）
+
+**`exports` マップが `./package.json` を公開していないパッケージがある。**
+`@anthropic-ai/sdk` がそれ。**入っているのに例外で落ちる。**
+
+```bash
+node -e "require.resolve('@anthropic-ai/sdk/package.json')"   # ← **落ちる**
+node -e "require.resolve('@anthropic-ai/sdk')"                # ← 解決する
+```
+
+**この偽陰性で 2 往復 無駄にした。** 「SDK が入らない」→「npm が PATH に無いのでは」
+と推測を重ねたが、**npm も PATH も SDK も、最初から全部 正常だった。**
+
+- **在るかを見るなら入口を見る**（`require.resolve('<pkg>')`）
+- 版まで要るなら `require('<pkg>/package.json')` ではなく
+  **`npm ls --depth=0` の出力**を読む
+- **`node_modules/<pkg>` があるかの `[ -d ]` でも足りる**（いちばん素直）
+
 ### 失敗の理由を握りつぶさない（2026-09-23 に 1 往復 無駄にした）
 
 `npm install ... >/dev/null 2>&1 || true` と書いたため、

@@ -89,13 +89,17 @@ echo "鍵を読めた（値は出さない）。"
 # **依存に入れたので `npm ci` すれば入る**が、Mac の `node_modules` は
 # `git reset --hard` では更新されない。**無ければここで入れる。**
 #
+# **`require.resolve('<pkg>/package.json')` を使わない**（2026-09-23 に 2 往復 無駄にした）。
+# `@anthropic-ai/sdk` の `exports` マップは **`./package.json` を公開していない**ので、
+# **入っていても例外で落ちる。** 入口（`require.resolve('<pkg>')`）で見る。
+#
 # **`npm` を PATH に頼らない**（2026-09-23 に踏んだ）。
 # launchd から起動されるとログイン時の PATH が乗らないので、素の `npm` は
 # 見つからないことがある。**`node` の隣を先に見る。**
 #
 # **出力を捨てない。** 最初の版は `>/dev/null 2>&1 || true` にしていたため、
 # 「入れられなかった」としか残らず、**理由が分からなかった。**
-if ! "$NODE_BIN" -e "require.resolve('@anthropic-ai/sdk/package.json')" >/dev/null 2>&1; then
+if ! "$NODE_BIN" -e "require.resolve('@anthropic-ai/sdk')" >/dev/null 2>&1; then
   echo "@anthropic-ai/sdk が無い。入れる。"
   NPM_BIN="$(dirname "$NODE_BIN")/npm"
   [ -x "$NPM_BIN" ] || NPM_BIN="$(command -v npm || true)"
@@ -105,7 +109,7 @@ if ! "$NODE_BIN" -e "require.resolve('@anthropic-ai/sdk/package.json')" >/dev/nu
   fi
   echo "npm: $NPM_BIN"
   "$NPM_BIN" install --no-audit --no-fund @anthropic-ai/sdk 2>&1 | tail -20
-  if ! "$NODE_BIN" -e "require.resolve('@anthropic-ai/sdk/package.json')" >/dev/null 2>&1; then
+  if ! "$NODE_BIN" -e "require.resolve('@anthropic-ai/sdk')" >/dev/null 2>&1; then
     echo "@anthropic-ai/sdk を入れられなかった。何もせず終わる。"
     exit 1
   fi
