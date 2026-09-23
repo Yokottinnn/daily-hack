@@ -70,7 +70,7 @@ author: "hacker-ko"
 <div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3XB4+3L73TM+50+6MDJ6P" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/gmo-hikari-access-300x250.jpg" alt="GMOとくとくBB【GMO光アクセス】" width="300" height="250" loading="lazy"></a></div>
 </div>
 
-## 1. フレッツ光（株式会社Ｗｉｚ）｜最大 79,000 円キャッシュバック
+<h2 class="brand-h" id="isp-flets"><img class="brand-logo" src="/images/internet-line-comparison-2026/logos/flets.png" alt="フレッツ光のロゴ" loading="lazy" /><span>1. フレッツ光（株式会社Ｗｉｚ）｜最大 79,000 円キャッシュバック</span></h2>
 
 <figure class="real-photo" style="max-width: 720px; margin: 22px auto 28px;">
   <img src="/images/internet/flets-hikari.png" alt="WEB限定！最大79,000円キャッシュバックor豪華人気商品プレゼント【フレッツ光】" loading="lazy" />
@@ -137,7 +137,7 @@ author: "hacker-ko"
 
 ---
 
-## 4. コミュファ光（株式会社Ｗｉｚ）｜中部エリア限定の月額最安
+<h2 class="brand-h" id="isp-commufa"><img class="brand-logo" src="/images/internet-line-comparison-2026/logos/commufa.png" alt="コミュファ光のロゴ" loading="lazy" /><span>4. コミュファ光（株式会社Ｗｉｚ）｜中部エリア限定の月額最安</span></h2>
 
 <figure class="real-photo" style="max-width: 720px; margin: 22px auto 28px;">
   <img src="/images/internet/commufa-hikari.png" alt="超高速インターネットが1年間ずっと月額980円〜【コミュファ光】" loading="lazy" />
@@ -198,7 +198,7 @@ author: "hacker-ko"
 
 ---
 
-## 6. GMOとくとくBB【GMO光アクセス】｜フレッツ光転用が楽
+<h2 class="brand-h" id="isp-gmobb"><img class="brand-logo" src="/images/internet-line-comparison-2026/logos/gmobb.png" alt="GMOとくとくBB のロゴ" loading="lazy" /><span>6. GMOとくとくBB【GMO光アクセス】｜フレッツ光転用が楽</span></h2>
 
 <figure class="real-photo" style="max-width: 720px; margin: 22px auto 28px;">
   <img src="/images/internet/gmo-tokutoku-bb.gif" alt="GMOとくとくBB【GMO光アクセス】" loading="lazy" />

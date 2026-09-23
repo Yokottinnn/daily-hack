@@ -1,0 +1,35 @@
+{
+ "_note": "識別目的で使うロゴ。**商標であり自由ライセンスではない。** 改変しない（CSS の枠は可）。取得元と取得日をここに残す。",
+ "_missing": "**BIGLOBE光 / ソフトバンク光 / So-net 光 は未取得。** 実ブラウザでページは開けたが、置いてあるのが別商品・別ブランドだった。**代用しない。** 詳細は各行の `_rejected` を参照。",
+ "_rejected_biglobe": "取れたのは「**BIGLOBE光プラス by au ひかりプラス**」で、記事が扱う「BIGLOBE光」とは**別商品**。ほかは BIGLOBE WiMAX / BIGLOBE mobile で、いずれも別サービス",
+ "_rejected_softbank": "`softbank.jp/internet/hikari/` は「**Yahoo! BB 光 with フレッツ**」に転送され、拾えたのは**虫めがねアイコン**だけだった",
+ "_rejected_sonet": "置いてあるのは **SONY（親会社）の白抜きロゴ**と **ISO 27001 の認証マーク**。So-net 光 のロゴではない",
+ "_note_agency": "**代理店のロゴを置かない。**「フレッツ光（株式会社Ｗｉｚ）」の Wiz は**申込代理店**であって、ブランドは NTT のフレッツ光である（最上位ルール 17）",
+ "flets.png": {
+  "brand": "フレッツ光",
+  "source": "https://flets.com/apple-touch-icon.png",
+  "page": "https://flets.com/",
+  "fetched": "2026-09-23",
+  "task": "ops/tasks/t168-logos-isp.sh",
+  "license_note": "商標。識別目的で使用",
+  "_note": "**180×180。フレッツ光のシンボル。** 同じページの `logo_east_01.svg` は **NTT東日本（運営会社）**のロゴなので使わなかった"
+ },
+ "commufa.png": {
+  "brand": "コミュファ光",
+  "source": "https://www.commufa.jp/ の header ロゴ（alt: コミュファ by ctc）",
+  "page": "https://www.commufa.jp/",
+  "fetched": "2026-09-23",
+  "task": "ops/tasks/t179-logos-browser3.sh",
+  "license_note": "商標。識別目的で使用",
+  "_rejected": "電球アイコン・虫めがねアイコンは UI の部品なので使わない"
+ },
+ "gmobb.png": {
+  "brand": "GMOとくとくBB",
+  "source": "https://gmobb.jp/ の header ロゴ（alt: おとくなプロバイダーとくとくBB byGMO）",
+  "page": "https://gmobb.jp/",
+  "fetched": "2026-09-23",
+  "task": "ops/tasks/t179-logos-browser3.sh",
+  "license_note": "商標。識別目的で使用。**SVG を Chromium で PNG にした**",
+  "_rejected": "`ドコモ光` は**別サービス**、`株式会社イード` は**無関係の会社**。t146 で返ってきた **GMOインターネットグループ（持株会社）**のロゴも使わない"
+ }
+}
