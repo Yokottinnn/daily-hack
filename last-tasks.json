@@ -1,3 +1,3 @@
 [
-      {"task": "t175-mac-node-inventory.sh", "rc": 0, "out": "- **npm が PATH に無く、node の隣にも無い**なら、launchd の PATH を疑う - **`playwright-core` が別の場所に在る**なら、入れ直さずに `NODE_PATH` で通す - **`node_modules` に書き込めない**なら、入れる話ではなく権限の話  **次に何を直すか"}
+      {"task": "x135-read-post-comment-source.sh", "rc": 0, "out": "post-comment.js と添付の実装を読んだ / post-comment-source.md"}
   ]
