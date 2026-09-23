@@ -330,6 +330,26 @@ done
 
 **`sha` を必ず渡す。** 渡さないと、待っている間に別の push が入っていても気づかず入る。
 
+#### `curl` でマージするなら **`Content-Type: application/json` を必ず付ける**
+
+**これが無いと、`clean` に到達していてもマージできない。**
+
+```json
+{"merged":null,"message":"Request bodies must declare Content-Type: application/json. Resend the JSON body with that header."}
+```
+
+2026-09-23、上のループで **`clean` に 2 回 到達していたのに通らなかった。**
+`Accept` は付けていたが `Content-Type` が無く、**GitHub が本文ごと拒否していた。**
+
+**そして 2 回とも「main が進んだせい」と報告した。** 次の周回では実際に
+`behind` へ戻るので、**遅れの原因として辻褄が合ってしまう。**
+`update-branch` も同じ理由で拒否されていた可能性がある（こちらは黙って失敗する）。
+
+- **`-d` を渡す curl には、必ず `Content-Type` も渡す**
+- **API の応答をそのまま出す。** `{merged, message}` を握り潰さない。
+  出していたからこそ 3 回目で気づけた
+- **外部要因を原因として報告する前に、自分の呼び出しの応答を読む**
+
 **`auto-merge` が使えれば一番よい**が、このリポジトリでは無効
 （Settings → General → Pull Requests → Allow auto-merge が off）。
 **有効にできるのは利用者だけ**なので、勝手に前提にしない。
