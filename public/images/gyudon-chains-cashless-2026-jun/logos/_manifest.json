@@ -1,0 +1,35 @@
+{
+  "_note": "識別目的で使うロゴ。**商標であり自由ライセンスではない。** 改変しない。**`morning-500-2026` に取得元が記録されている同じブランドのロゴを複製した**（元は #433 でまとめて入り、取得元が残っていなかった）。",
+  "matsuya.jpg": {
+    "brand": "松屋",
+    "source": "https://www.matsuyafoods.co.jp/",
+    "source_type": "公式サイト（商標）",
+    "fetched": "2026-09-04",
+    "copied_from": "public/images/morning-500-2026/logos/matsuya.jpg",
+    "recorded": "2026-09-23"
+  },
+  "nakau.jpg": {
+    "brand": "なか卯",
+    "source": "https://www.nakau.co.jp/jp/",
+    "source_type": "公式サイト（商標）",
+    "fetched": "2026-09-04",
+    "copied_from": "public/images/morning-500-2026/logos/nakau.jpg",
+    "recorded": "2026-09-23"
+  },
+  "sukiya.jpg": {
+    "brand": "すき家",
+    "source": "https://www.sukiya.jp/",
+    "source_type": "公式サイト（商標）",
+    "fetched": "2026-09-04",
+    "copied_from": "public/images/morning-500-2026/logos/sukiya.jpg",
+    "recorded": "2026-09-23"
+  },
+  "yoshinoya.png": {
+    "brand": "吉野家",
+    "source": "https://www.yoshinoya.com/",
+    "source_type": "公式サイト（商標）",
+    "fetched": "2026-09-04",
+    "copied_from": "public/images/morning-500-2026/logos/yoshinoya.png",
+    "recorded": "2026-09-23"
+  }
+}
