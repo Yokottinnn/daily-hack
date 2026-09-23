@@ -31,15 +31,15 @@ references: ["https://www.paypay-card.co.jp/info/009410.html", "https://k-tai.wa
 | 2024-11-01 | 楽天SPU | 🟢改良 | SPU最大17→17.5倍に拡大 |
 | 2025-02-01 | 楽天SPU | 🟠条件厳格化 | 楽天モバイル/キャリア決済等が**エントリー必須化** |
 | 2025-04-01 | 楽天SPU | 🟢改良 | SPU最大17.5→**18倍**、楽天ラクマ条件追加 |
-| 2025-07-01 | 楽天ペイ | 🟡ルール変更 | 還元ルール改定（楽天カード×楽天ペイ1.5%の整理・チャージ二重取り見直し） |
-| 2025-09-16 | 三井住友カード(NL/Olive) | 🟢改良 | 対象飲食店の<strong>モバイルオーダー決済で7〜20%</strong>還元を開始（[PR TIMES](https://prtimes.jp/main/html/rd/p/000000749.000032321.html)） |
+| 2025-07-01 | <span class="cell-brand"><img class="brand-logo-sm" src="/images/point-kaiaku-timeline-2026/logos/rakutenpay.png" alt="楽天ペイのロゴ" loading="lazy" />楽天ペイ</span> | 🟡ルール変更 | 還元ルール改定（楽天カード×楽天ペイ1.5%の整理・チャージ二重取り見直し） |
+| 2025-09-16 | <span class="cell-brand"><img class="brand-logo-sm" src="/images/point-kaiaku-timeline-2026/logos/smbccard.png" alt="三井住友カード(NL/Olive)のロゴ" loading="lazy" />三井住友カード(NL/Olive)</span> | 🟢改良 | 対象飲食店の<strong>モバイルオーダー決済で7〜20%</strong>還元を開始（[PR TIMES](https://prtimes.jp/main/html/rd/p/000000749.000032321.html)） |
 | 2025-11-01 | JAL Pay | 🔴改悪 | プリペイド/電子マネーへのチャージ還元が0.5%→<strong>0.1%</strong>に |
-| 2025-12-01 | 三井住友カード(NL)コンビニ・飲食7% | 🔴改悪（縮小） | 上乗せが<strong>「スマホのタッチ決済」＋モバイルオーダー限定</strong>に。物理カードのタッチは対象外（[三井住友カード](https://www.smbc-card.com/mem/cardinfo/cardinfo9001629.jsp)） |
-| 2026-02-01 | dカード（ドコモ） | 🔴改悪 | 電気・ガス・水道等の還元が1%→<strong>0.5%</strong>に半減（[ケータイWatch](https://k-tai.watch.impress.co.jp/docs/news/2062535.html)） |
+| 2025-12-01 | <span class="cell-brand"><img class="brand-logo-sm" src="/images/point-kaiaku-timeline-2026/logos/smbccard.png" alt="三井住友カード(NL)コンビニ・飲食7%のロゴ" loading="lazy" />三井住友カード(NL)コンビニ・飲食7%</span> | 🔴改悪（縮小） | 上乗せが<strong>「スマホのタッチ決済」＋モバイルオーダー限定</strong>に。物理カードのタッチは対象外（[三井住友カード](https://www.smbc-card.com/mem/cardinfo/cardinfo9001629.jsp)） |
+| 2026-02-01 | <span class="cell-brand"><img class="brand-logo-sm" src="/images/point-kaiaku-timeline-2026/logos/dcard.png" alt="dカード（ドコモ）のロゴ" loading="lazy" />dカード（ドコモ）</span> | 🔴改悪 | 電気・ガス・水道等の還元が1%→<strong>0.5%</strong>に半減（[ケータイWatch](https://k-tai.watch.impress.co.jp/docs/news/2062535.html)） |
 | 2026-02-02 | 3メガバンク | 🟢改良 | 普通預金金利を0.2%→<strong>0.3%</strong>に（[日経](https://www.nikkei.com/article/DGXZQOUB184PM0Y5A211C2000000/)） |
 | 2026-02-02 | あおぞら銀行BANK | 🟢改良 | 円普通預金を<strong>年0.75%</strong>へ（100万円まで）（[あおぞら銀行](https://www.aozorabank.co.jp/info_article/kojin/202615bank.html)） |
 | 2026-04-30 | ドコモ ポイ活MAX | 🔴改悪（終了） | 10%還元キャンペーン終了。GOLD利用者のd払いが実質<strong>10%→5%</strong>に（[docomo](https://www.docomo.ne.jp/binary/pdf/info/news_release/topics_260430_t1.pdf)） |
-| 2026-06-02 | PayPay／PayPayカード | 🔴**大改悪** | ①ポイント払い分が付与対象外②公共料金1%→<strong>0.5%</strong>③各種チャージ二重取り廃止④**eKYC必須化**⑤ゴールド+0.5%上乗せ廃止（[PayPayカード](https://www.paypay-card.co.jp/info/009410.html)） |
+| 2026-06-02 | <span class="cell-brand"><img class="brand-logo-sm" src="/images/point-kaiaku-timeline-2026/logos/paypay.png" alt="PayPayのロゴ" loading="lazy" />PayPay</span>／<span class="cell-brand"><img class="brand-logo-sm" src="/images/point-kaiaku-timeline-2026/logos/paypaycard.png" alt="PayPayカードのロゴ" loading="lazy" />PayPayカード</span> | 🔴**大改悪** | ①ポイント払い分が付与対象外②公共料金1%→<strong>0.5%</strong>③各種チャージ二重取り廃止④**eKYC必須化**⑤ゴールド+0.5%上乗せ廃止（[PayPayカード](https://www.paypay-card.co.jp/info/009410.html)） |
 
 > 💡 区分の見方：🔴改悪／🟠🟡条件変更・縮小／🟢改良。日付・数字は公式または準一次（日経・ITmedia・ケータイWatch等）で確認。詳細は各リンク先を参照。
 
