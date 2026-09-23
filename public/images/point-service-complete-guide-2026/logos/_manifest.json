@@ -199,9 +199,8 @@
     "task": "ops/tasks/t185-appstore-icons.sh"
   },
   "_todo": {
-    "powl": "現行の App Store アイコンが **ハロウィンの季節版**だった。既存の通常版を残す",
-    "jalwellness": "API の 1 件目が **JAL（親ブランド）**だった。正しいのは id=1498726068（JAL Wellness & Travel）",
-    "rakuten": "API の 1 件目が **楽天ペイ**だった。正しいのは id=641501350（楽天ポイントクラブ）"
+    "powl.png": "現行の App Store アイコンが **ハロウィンの季節版**だった。既存の通常版を残す",
+    "chaosmap": "`chaosmap.png` / `chaosmap-matrix.png` は **古いアイコンのまま**。`scripts/render-chaosmap.mjs` が Mac 固定パス（`/Users/ny_taxa/…`）と `sns-templates` のフォントに依存していて、クラウドでは作り直せない。"
   },
   "warau.png": {
     "brand": "ワラウ",
@@ -212,5 +211,25 @@
     "task": "ops/tasks/t182-logos-cors-fix.sh",
     "note": "**オープンスマイル（運営会社）のロゴは使わない。** URL は記事にリンクが無かったので実ブラウザの検索で突き止めた",
     "converted": "node scripts/svg-to-png.mjs（600x418）"
+  },
+  "jalwellness.png": {
+    "brand": "JAL Wellness & Travel",
+    "source": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b4/b4/ee/b4b4eee2-8e04-34e1-d423-45f99dd490d7/AppIcon-0-0-1x_U007emarketing-0-6-0-sRGB-85-220.png/512x512bb.jpg",
+    "page": "https://apps.apple.com/jp/app/id1498726068",
+    "source_type": "App Store の登録アイコン（artworkUrl512・商標）",
+    "seller": "JAL Brand Communications Co.,Ltd.",
+    "fetched": "2026-09-23",
+    "task": "ops/tasks/t186-appstore-byid.sh",
+    "note": "**JAL（Japan Airlines）は親ブランド。** t185 の検索では 1 件目にそれを掴んでいたので、id 指定で引き直した"
+  },
+  "rakuten.png": {
+    "brand": "楽天ポイントクラブ〜楽天ポイント公式アプリ〜",
+    "source": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ae/33/aa/ae33aa79-3c36-82e9-1531-6ed59f1a540e/AppIconPrd-0-0-1x_U007ephone-0-1-0-85-220.png/512x512bb.jpg",
+    "page": "https://apps.apple.com/jp/app/id641501350",
+    "source_type": "App Store の登録アイコン（artworkUrl512・商標）",
+    "seller": "Rakuten Group, Inc.",
+    "fetched": "2026-09-23",
+    "task": "ops/tasks/t186-appstore-byid.sh",
+    "note": "**楽天ペイは別サービス。** t185 の検索では 1 件目にそれを掴んでいたので、id 指定で引き直した"
   }
 }
