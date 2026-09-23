@@ -1,6 +1,5 @@
 {
  "_note": "識別目的で使うロゴ。**商標であり自由ライセンスではない。** 改変しない（CSS の枠は可）。取得元と取得日をここに残す。",
- "_missing": "**みずほ銀行だけロゴが無い。** Wikipedia の記事には CESA（無関係）と Commons のロゴしか無く、公式も未取得（t166 で取り直す）。**他行のロゴや持株会社のロゴで代用しない。**",
  "rakutenbank.png": {
   "brand": "楽天銀行",
   "source": "https://www.rakuten-bank.co.jp/shared/images/header/logo_pc.svg",
@@ -36,5 +35,15 @@
   "fetched": "2026-09-23",
   "task": "ops/tasks/t165-logos-banks-denki.sh",
   "license_note": "コモンズ上は **Public domain**。商標としては識別目的で使用。**SVG を Chromium で PNG にした**"
+ },
+ "mizuho.png": {
+  "brand": "みずほ銀行",
+  "source": "https://www.mizuhobank.co.jp/favicon.ico（48px のフレームを取り出した）",
+  "page": "https://www.mizuhobank.co.jp/",
+  "fetched": "2026-09-23",
+  "task": "ops/tasks/t166-logos-cardloan-mizuho.sh",
+  "license_note": "商標。識別目的で使用",
+  "_note": "**公式トップは 3 回 とも bot に弾かれた**（HTML 377 bytes / apple-touch-icon は 403）。favicon.ico だけが 200 で返ったので、その中の最大フレーム（48px）を PNG にした。**48px なので拡大しない**",
+  "_rejected": "Wikipedia の記事にあった `CESA logo.svg` は**まったく無関係**（ファイル名に logo が入っているだけ）"
  }
 }
