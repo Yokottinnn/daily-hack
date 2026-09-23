@@ -307,6 +307,33 @@ update_pull_request_branch(owner, repo, pullNumber)
 **`main` が数分おきに進む日はこれが速い。** 手元で rebase → force push を
 繰り返すと、その間にまた `main` が進んで堂々巡りになる。
 
+### それでも競り負けるなら、**確認とマージを 1 つのループにする**
+
+2026-09-23、ロゴ取得の `t1xx` 系が並行で回っていて **`main` が 2〜3 分おきに進んだ。**
+こちらは「CI 完了を確認 → 報告 → マージ」で 1 分 以上かかるため、
+**構造的に間に合わず 5 回 連続で `behind` に負けた。**
+
+**人に報告してからマージ、では遅い。** `clean` を見た同じループの中でマージする。
+
+```bash
+for i in $(seq 1 60); do
+  pr=$(curl -sS ".../pulls/$N")
+  [ "$(jq -r .merged <<<"$pr")" = "true" ] && break
+  ms=$(jq -r .mergeable_state <<<"$pr"); sha=$(jq -r .head.sha <<<"$pr")
+  if [ "$ms" = "clean" ] && <CI が全部 completed>; then
+    curl -sS -X PUT -H "Authorization: Bearer $GITHUB_TOKEN" \
+      -d "{\"merge_method\":\"squash\",\"sha\":\"$sha\"}" ".../pulls/$N/merge"
+  fi
+  sleep 15
+done
+```
+
+**`sha` を必ず渡す。** 渡さないと、待っている間に別の push が入っていても気づかず入る。
+
+**`auto-merge` が使えれば一番よい**が、このリポジトリでは無効
+（Settings → General → Pull Requests → Allow auto-merge が off）。
+**有効にできるのは利用者だけ**なので、勝手に前提にしない。
+
 ## 併せて読む
 
 - 秘密を出さない・当て推量でファイルを作らない: `CLAUDE.md`「機械的な操作は `ops/tasks/` に置く」
