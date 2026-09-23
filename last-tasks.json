@@ -1,1 +1,3 @@
-[]
+[
+      {"task": "x133-check-reply-image-support.sh", "rc": 0, "out": "reply への画像添付を読んだ（setInputFiles の箇所あり） / reply-image-support.md"}
+  ]
