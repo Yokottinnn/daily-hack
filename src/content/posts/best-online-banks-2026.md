@@ -27,7 +27,7 @@ relatedReferrals: ["rakuten-bank", "olive-smbc", "mizuho-bank", "jre-bank", "muf
 |---|---|---|---|---|
 | <span class="cell-brand"><img class="brand-logo-sm" src="/images/best-online-banks-2026/logos/rakutenbank.png" alt="楽天銀行のロゴ" loading="lazy" /><a href="https://www.rakuten-bank.co.jp/" target="_blank" rel="noopener">楽天銀行</a></span> | 月最大7回無料 | 月最大3回無料 | 0.10%（条件達成で） | 紹介経由200pt〜2,000pt |
 | <span class="cell-brand"><img class="brand-logo-sm" src="/images/best-online-banks-2026/logos/smbc.png" alt="三井住友銀行のロゴ" loading="lazy" /><a href="https://www.smbc.co.jp/kojin/olive/" target="_blank" rel="noopener">Olive（三井住友）</a></span> | コンビニ月3回無料 | アプリで他行振込3回無料 | 0.001% | 紹介で1,000円相当 |
-| <a href="https://www.mizuhobank.co.jp/" target="_blank" rel="noopener">みずほ銀行</a> | みずほATM無料 | 同行間無料 | 0.001% | 紹介プログラムあり |
+| <span class="cell-brand"><img class="brand-logo-sm" src="/images/best-online-banks-2026/logos/mizuho.png" alt="みずほ銀行のロゴ" loading="lazy" /><a href="https://www.mizuhobank.co.jp/" target="_blank" rel="noopener">みずほ銀行</a></span> | みずほATM無料 | 同行間無料 | 0.001% | 紹介プログラムあり |
 | <span class="cell-brand"><img class="brand-logo-sm" src="/images/best-online-banks-2026/logos/mufg.png" alt="三菱UFJ銀行のロゴ" loading="lazy" /><a href="https://www.bk.mufg.jp/" target="_blank" rel="noopener">三菱UFJ</a></span> | UFJ ATM無料 | アプリで月3回無料 | 0.001% | 紹介で1,500円 |
 | <span class="cell-brand"><img class="brand-logo-sm" src="/images/best-online-banks-2026/logos/jrebank.png" alt="JRE BANK のロゴ" loading="lazy" /><a href="https://www.jrebank.jp/" target="_blank" rel="noopener">JRE BANK</a></span> | JRE-POINTで充実 | JR系列で優遇 | - | JR東日本特典が破格 |
 
@@ -49,7 +49,7 @@ OliveはSBIグループ全体を巻き込んだ総合金融プラットフォー
 
 楽天銀行が運営する**JR東日本連携の特殊銀行**。普通預金金利は控えめですが、JR東日本グループの特典（4枚の片道乗車券、いくつかの優待割引）が異常な水準で、年に数回新幹線に乗る人なら**それだけで元が取れる**設計です。
 
-## 4位: みずほ銀行
+<h2 class="brand-h" id="bank-4-mizuho"><img class="brand-logo" src="/images/best-online-banks-2026/logos/mizuho.png" alt="みずほ銀行のロゴ" loading="lazy" /><span>4位: みずほ銀行</span></h2>
 
 オンラインバンキング刷新後、ぐっと使いやすくなったみずほ。紹介プログラムでまとまったポイントが獲得できます。
 

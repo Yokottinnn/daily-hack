@@ -9,10 +9,13 @@
  },
  "unext.png": {
   "brand": "U-NEXT",
-  "source": "https://video.unext.jp/apple-touch-icon.png",
-  "page": "https://video.unext.jp/",
-  "fetched": "2026-09-22",
-  "license_note": "商標。識別目的で使用"
+  "source": "https://www.unext.co.jp/logo/unext-type.svg",
+  "page": "https://www.unext.co.jp/",
+  "fetched": "2026-09-23",
+  "task": "ops/tasks/t167-logos-denki-replace.sh",
+  "license_note": "商標。識別目的で使用。**SVG を Chromium で PNG にした**",
+  "_replaced": "**前は `apple-touch-icon` の黒い盾アイコンだった。** wordmark のほうが並びで読みやすいので差し替えた（2026-09-23）",
+  "_rejected": "`unext-square.svg` / `unext-holdings_logp.svg` は **USEN-NEXT HOLDINGS（持株会社）**のロゴなので使わない"
  },
  "primevideo.png": {
   "brand": "Amazon Prime Video",
