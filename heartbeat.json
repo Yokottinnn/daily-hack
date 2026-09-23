@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T15:29:25Z",
+  "generated_at": "2026-09-23T15:59:34Z",
   "login_lock": {"present": false, "age_hours": 0},
   "cdp": {"healthy": true, "port": 18810},
   "x_jobs": {"loaded": 8, "expected": 8, "ai_total": 14, "halted": false, "missing": []},
@@ -122,11 +122,11 @@
     "dirty": 1
   },
   "followers": {
-    "now": 279,
+    "now": 283,
     "prev": 266,
     "prev_date": "2026-09-20",
-    "span_days": 2,
-    "record_age_days": 1,
+    "span_days": 3,
+    "record_age_days": 0,
     "record_stale": false,
     "target": 300,
     "deadline": "2026-09-30"
