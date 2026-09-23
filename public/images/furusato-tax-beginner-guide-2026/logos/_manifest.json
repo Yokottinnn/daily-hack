@@ -1,0 +1,55 @@
+{
+ "_note": "識別目的で使うロゴ。**商標であり自由ライセンスではない。** 改変しない（CSS の枠は可）。取得元と取得日をここに残す。",
+ "_missing": "**さとふるだけロゴが無い。** 公式サイトが 3 回 とも bot に弾かれ（HTML 0 bytes）、MediaWiki 経由も未取得。取れ次第 `satofull.png` として足す。",
+ "rakuten-furusato.png": {
+  "brand": "楽天ふるさと納税",
+  "source": "https://r.r10s.jp/evt/event/furusato/_cmn/img/20250418_logo.svg",
+  "page": "https://event.rakuten.co.jp/furusato/",
+  "fetched": "2026-09-22",
+  "task": "ops/tasks/t155-brand-logos-batch.sh",
+  "license_note": "商標。識別目的で使用。**SVG を Chromium で PNG にした**"
+ },
+ "furunavi.png": {
+  "brand": "ふるなび",
+  "source": "https://cf.furunavi.jp/images/header_logo.svg",
+  "page": "https://furunavi.jp/",
+  "fetched": "2026-09-22",
+  "task": "ops/tasks/t155-brand-logos-batch.sh",
+  "license_note": "商標。識別目的で使用。**SVG を Chromium で PNG にした**",
+  "_rejected": "apple-touch-icon はアプリの風景アイコンで、ブランドマークではないので使わない"
+ },
+ "furusato-choice.png": {
+  "brand": "ふるさとチョイス",
+  "source": "https://www.furusato-tax.jp/favicon.png",
+  "page": "https://www.furusato-tax.jp/",
+  "fetched": "2026-09-22",
+  "task": "ops/tasks/t157-logos-furusato-uq-ymobile.sh",
+  "license_note": "商標。識別目的で使用",
+  "_rejected": "公式の furusato-choice-white-tagline.svg は**白抜き＋タグライン付き**で白背景に置けない。travel-primary.svg は「チョイストラベル」という別サービス"
+ },
+ "furusato-premium.png": {
+  "brand": "ふるさとプレミアム",
+  "source": "https://26p.jp/common_assets/images/theme-v2/logo-275.png",
+  "page": "https://26p.jp/",
+  "fetched": "2026-09-22",
+  "task": "ops/tasks/t157-logos-furusato-uq-ymobile.sh",
+  "license_note": "商標。識別目的で使用"
+ },
+ "aupay-furusato.png": {
+  "brand": "au PAY ふるさと納税",
+  "source": "https://furusato.wowma.jp/user_data/assets/img/logo.png",
+  "page": "https://furusato.wowma.jp/",
+  "fetched": "2026-09-22",
+  "task": "ops/tasks/t157-logos-furusato-uq-ymobile.sh",
+  "license_note": "商標。識別目的で使用",
+  "_rejected": "logo_kddi.png は**KDDIコマースフォワード（運営会社）**のロゴ。サービスのロゴではない"
+ },
+ "ana-furusato.png": {
+  "brand": "ANAのふるさと納税",
+  "source": "https://furusato.ana.co.jp/shop_assets/img/usr/common/icon_header_logo.png",
+  "page": "https://furusato.ana.co.jp/",
+  "fetched": "2026-09-22",
+  "task": "ops/tasks/t157-logos-furusato-uq-ymobile.sh",
+  "license_note": "商標。識別目的で使用"
+ }
+}

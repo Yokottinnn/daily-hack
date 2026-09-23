@@ -1335,6 +1335,16 @@ blockquote.twitter-tweet a:hover { color: var(--pink-700); }
    見出しに入れたロゴが**マスコットと同じ巨大な丸**になって出た。
    `.section-with-mascot .brand-h .brand-logo` を足して詳細度で勝たせている。 */
 
+/* **比較カードの中では横並びにしない**（2026-09-23 に踏んだ）。
+   `.compare-card` は幅が 310px ほどしかなく、**右上にマスコットが載る**。
+   `.brand-h` の flex のまま入れると、ロゴの右に回ったブランド名が
+   **マスコットの下に潜って読めなくなった**（「楽天ふるさと納税」が途中で切れた）。
+   ここだけ **ロゴを改行して名前の上に置く**（最上位ルール 17 の書き方と同じ）。
+   マスコットがあるカードだけ、名前の右に逃げ場を空ける。 */
+.compare-card .brand-h { display: block; }
+.compare-card .brand-h .brand-logo { display: block; margin: 0 0 7px; }
+.compare-card:has(.compare-card-mascot) .brand-h > span { display: block; padding-right: 56px; }
+
 /* 表のセルの中にロゴを置く（.cell-brand）。見出しを持たないチェーンのため。 */
 /* **ロゴは改行して、名前の上に置く**（2026-09-20 に指示）。
    **flex の縦積みにしたら、リンクのテキストまで 1 行ずつ折れた**（同日に差し戻された）。
