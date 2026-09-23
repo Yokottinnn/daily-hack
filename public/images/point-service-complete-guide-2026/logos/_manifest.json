@@ -1,6 +1,208 @@
 {
-  "_note": "識別目的で使うロゴ。**商標であり自由ライセンスではない。** 改変しない（CSS の枠は可）。**この記事のロゴの大半は #433 でまとめて入り、取得元が記録されていない。**取得元を言えるものからここに足していく（最上位ルール 17）。",
-  "_todo": "warau.png 以外の 28 枚は取得元が未記録。公式サイトから取り直して、ここに URL と取得日を残すこと",
+  "_note": "識別目的で使うロゴ。**商標であり自由ライセンスではない。** 改変しない（CSS の枠は可）。**この記事のロゴは正方形のアプリアイコンで統一されている**（`scripts/render-chaosmap.mjs` が `object-fit: cover` の正方形枠で描くため、横長のワードマークを入れると読めなくなる）。出所は **iTunes Search API の `artworkUrl512`**。`trackName` / `sellerName` で取り違えていないことをコンタクトシートと突き合わせて確かめた。",
+  "moppy.png": {
+    "brand": "モッピー公式 -ポイ活アプリ",
+    "source": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ba/4f/ff/ba4fffd6-0e25-a552-4d7d-375bbc3711eb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+    "page": "https://apps.apple.com/jp/app/id1501495023",
+    "source_type": "App Store の登録アイコン（artworkUrl512・商標）",
+    "seller": "Ceres Inc",
+    "fetched": "2026-09-23",
+    "task": "ops/tasks/t185-appstore-icons.sh"
+  },
+  "hapitas.png": {
+    "brand": "ハピタス-歩く＆お買物でポイ活できるアプリ",
+    "source": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9c/bc/df/9cbcdf62-fc92-cdfd-0b2b-11d9db75bdf0/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/512x512bb.jpg",
+    "page": "https://apps.apple.com/jp/app/id1475444626",
+    "source_type": "App Store の登録アイコン（artworkUrl512・商標）",
+    "seller": "OZVISION.INC.",
+    "fetched": "2026-09-23",
+    "task": "ops/tasks/t185-appstore-icons.sh"
+  },
+  "pointincome.png": {
+    "brand": "歩いてポイントが貯まるポイ活アプリ-ポイントインカム",
+    "source": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f4/78/30/f4783095-4e06-1dc5-93a0-fe202df9d7ed/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+    "page": "https://apps.apple.com/jp/app/id1540024939",
+    "source_type": "App Store の登録アイコン（artworkUrl512・商標）",
+    "seller": "Ceres Inc",
+    "fetched": "2026-09-23",
+    "task": "ops/tasks/t185-appstore-icons.sh"
+  },
+  "chobirich.png": {
+    "brand": "ちょびリッチ- 外食やアンケートでもポイントが貯まる",
+    "source": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f2/4a/c7/f24ac7a2-feb6-4c52-c5a5-26186189181c/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+    "page": "https://apps.apple.com/jp/app/id1454342811",
+    "source_type": "App Store の登録アイコン（artworkUrl512・商標）",
+    "seller": "chobirich Co.,Ltd.",
+    "fetched": "2026-09-23",
+    "task": "ops/tasks/t185-appstore-icons.sh"
+  },
+  "ecnavi.png": {
+    "brand": "ポイ活 ECナビアンケート　ポイント稼げるポイ活アプリ",
+    "source": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4c/42/70/4c42703c-9938-797a-b5fe-0eff0dfd8e2e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+    "page": "https://apps.apple.com/jp/app/id1467172022",
+    "source_type": "App Store の登録アイコン（artworkUrl512・商標）",
+    "seller": "ECNAVI APPS LLC.",
+    "fetched": "2026-09-23",
+    "task": "ops/tasks/t185-appstore-icons.sh"
+  },
+  "macromill.png": {
+    "brand": "ポイ活アンケート マクロミル ポイント貯まる副業 節約アプリ",
+    "source": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7b/29/07/7b2907d6-f184-2045-4ad1-57a0f159a1aa/AppIcon-0-0-1x_U007emarketing-0-9-0-85-220.png/512x512bb.jpg",
+    "page": "https://apps.apple.com/jp/app/id533065594",
+    "source_type": "App Store の登録アイコン（artworkUrl512・商標）",
+    "seller": "MACROMILL,INC.",
+    "fetched": "2026-09-23",
+    "task": "ops/tasks/t185-appstore-icons.sh"
+  },
+  "cuemonitor.png": {
+    "brand": "簡単アンケートでサクッとポイントがたまる！- MyCue",
+    "source": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0f/e0/71/0fe0718e-55fb-c785-54b0-fd6ce524bca7/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+    "page": "https://apps.apple.com/jp/app/id491658083",
+    "source_type": "App Store の登録アイコン（artworkUrl512・商標）",
+    "seller": "INTAGE Inc.",
+    "fetched": "2026-09-23",
+    "task": "ops/tasks/t185-appstore-icons.sh"
+  },
+  "rakuteninsight.png": {
+    "brand": "【楽天公式】アンケートに回答するなら！楽天インサイト",
+    "source": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8b/1d/cd/8b1dcd53-5b6c-8a31-29bc-325f85afa72e/Insight-0-0-1x_U007epad-0-1-sRGB-85-220.png/512x512bb.jpg",
+    "page": "https://apps.apple.com/jp/app/id379384528",
+    "source_type": "App Store の登録アイコン（artworkUrl512・商標）",
+    "seller": "Rakuten Insight, Inc.",
+    "fetched": "2026-09-23",
+    "task": "ops/tasks/t185-appstore-icons.sh"
+  },
+  "anapocket.png": {
+    "brand": "ANA Pocket 移動でポイントを交換！乗り物でもポイ活",
+    "source": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0c/ce/03/0cce0336-ecf3-3e36-b2eb-1a6b978a804a/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/512x512bb.jpg",
+    "page": "https://apps.apple.com/jp/app/id1598209192",
+    "source_type": "App Store の登録アイコン（artworkUrl512・商標）",
+    "seller": "ANA X Inc.",
+    "fetched": "2026-09-23",
+    "task": "ops/tasks/t185-appstore-icons.sh"
+  },
+  "dhealth.png": {
+    "brand": "dヘルスケア -歩数でdポイントがたまる健康管理アプリ-",
+    "source": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/98/01/99/98019990-1243-af7a-a808-22fd61c2f000/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+    "page": "https://apps.apple.com/jp/app/id1352137023",
+    "source_type": "App Store の登録アイコン（artworkUrl512・商標）",
+    "seller": "NTT DOCOMO, INC.",
+    "fetched": "2026-09-23",
+    "task": "ops/tasks/t185-appstore-icons.sh"
+  },
+  "rakutenhealth.png": {
+    "brand": "楽天ヘルスケア-ポイ活アプリ！歩数計・移動でポイント貯める",
+    "source": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/51/c0/28/51c0282e-3d86-354e-65df-7eda10d71e88/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/512x512bb.jpg",
+    "page": "https://apps.apple.com/jp/app/id1585068047",
+    "source_type": "App Store の登録アイコン（artworkUrl512・商標）",
+    "seller": "Rakuten Group, Inc.",
+    "fetched": "2026-09-23",
+    "task": "ops/tasks/t185-appstore-icons.sh"
+  },
+  "torima.png": {
+    "brand": "トリマ-歩数・移動でポイント！散歩やウォーキング、歩いて稼ぐ",
+    "source": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0e/32/9c/0e329cd5-451d-1b61-a3fa-b6923d7ae6a1/AppIcon-0-0-1x_U007ephone-0-6-0-85-220.png/512x512bb.jpg",
+    "page": "https://apps.apple.com/jp/app/id1502193377",
+    "source_type": "App Store の登録アイコン（artworkUrl512・商標）",
+    "seller": "GeoTechnologies, Inc.",
+    "fetched": "2026-09-23",
+    "task": "ops/tasks/t185-appstore-icons.sh"
+  },
+  "dpoint.png": {
+    "brand": "dポイントクラブ：お得情報満載のドコモ公式ポイントクラブ",
+    "source": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/90/79/93/90799377-ee74-a60c-d215-06da6457d571/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+    "page": "https://apps.apple.com/jp/app/id821434357",
+    "source_type": "App Store の登録アイコン（artworkUrl512・商標）",
+    "seller": "NTT DOCOMO, INC.",
+    "fetched": "2026-09-23",
+    "task": "ops/tasks/t185-appstore-icons.sh"
+  },
+  "ponta.png": {
+    "brand": "Ponta ポイントカード/ポイントアプリ お得なクーポンも",
+    "source": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/bf/8c/f8/bf8cf866-3d30-81c9-2dcd-1495ba6e3a0a/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/512x512bb.jpg",
+    "page": "https://apps.apple.com/jp/app/id1036066384",
+    "source_type": "App Store の登録アイコン（artworkUrl512・商標）",
+    "seller": "Loyalty Marketing, Inc.",
+    "fetched": "2026-09-23",
+    "task": "ops/tasks/t185-appstore-icons.sh"
+  },
+  "vpoint.png": {
+    "brand": "Vポイントアプリ",
+    "source": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/b5/38/f3b5381e-a365-d46a-19a7-c24ee53c77eb/vpointapp_logo-0-0-1x_U007ephone-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+    "page": "https://apps.apple.com/jp/app/id468976361",
+    "source_type": "App Store の登録アイコン（artworkUrl512・商標）",
+    "seller": "V POINT MARKETING Co., Ltd.",
+    "fetched": "2026-09-23",
+    "task": "ops/tasks/t185-appstore-icons.sh"
+  },
+  "waon.png": {
+    "brand": "WAONアプリ",
+    "source": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e6/2c/f1/e62cf186-4349-51ce-692f-14b7cc0e016c/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+    "page": "https://apps.apple.com/jp/app/id1471075782",
+    "source_type": "App Store の登録アイコン（artworkUrl512・商標）",
+    "seller": "AEON Financial Service Co., Ltd.",
+    "fetched": "2026-09-23",
+    "task": "ops/tasks/t185-appstore-icons.sh"
+  },
+  "nanaco.png": {
+    "brand": "nanaco ポイントがお得・チャージできる電子マネー/決済",
+    "source": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c0/f2/ec/c0f2ecd8-d3ab-a641-4bec-f03b2d9882f5/AppIcon-Prod-1x_U007emarketing-0-0-0-6-0-0-sRGB-85-220-0.png/512x512bb.jpg",
+    "page": "https://apps.apple.com/jp/app/id1540014396",
+    "source_type": "App Store の登録アイコン（artworkUrl512・商標）",
+    "seller": "Seven Card Service Co.,Ltd.",
+    "fetched": "2026-09-23",
+    "task": "ops/tasks/t185-appstore-icons.sh"
+  },
+  "jrepoint.png": {
+    "brand": "JRE POINT-Suicaやバーコードでポイント貯まる！",
+    "source": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/60/58/ed/6058ed63-940a-5537-d2ec-47cedadcd03b/AppIcon-0-0-1x_U007emarketing-0-6-85-220.png/512x512bb.jpg",
+    "page": "https://apps.apple.com/jp/app/id1081293054",
+    "source_type": "App Store の登録アイコン（artworkUrl512・商標）",
+    "seller": "East Japan Railway Company",
+    "fetched": "2026-09-23",
+    "task": "ops/tasks/t185-appstore-icons.sh"
+  },
+  "olive.png": {
+    "brand": "三井住友銀行アプリ",
+    "source": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b0/b5/bd/b0b5bdb4-4282-94ab-660a-605376445444/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/512x512bb.jpg",
+    "page": "https://apps.apple.com/jp/app/id594457652",
+    "source_type": "App Store の登録アイコン（artworkUrl512・商標）",
+    "seller": "Sumitomo Mitsui Banking Corporation",
+    "fetched": "2026-09-23",
+    "task": "ops/tasks/t185-appstore-icons.sh"
+  },
+  "aeon.png": {
+    "brand": "イオンお買物",
+    "source": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b7/75/32/b775328c-6f0a-9d2e-85d6-4ff38d15c2ff/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/512x512bb.jpg",
+    "page": "https://apps.apple.com/jp/app/id634744681",
+    "source_type": "App Store の登録アイコン（artworkUrl512・商標）",
+    "seller": "AEON RETAIL CO., LTD.",
+    "fetched": "2026-09-23",
+    "task": "ops/tasks/t185-appstore-icons.sh"
+  },
+  "marunouchi.png": {
+    "brand": "丸の内ポイントアプリ",
+    "source": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/96/17/26/96172641-12c0-0253-acab-10be7850f296/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/512x512bb.jpg",
+    "page": "https://apps.apple.com/jp/app/id1557386074",
+    "source_type": "App Store の登録アイコン（artworkUrl512・商標）",
+    "seller": "MITSUBISHI ESTATE CO.,LTD.",
+    "fetched": "2026-09-23",
+    "task": "ops/tasks/t185-appstore-icons.sh"
+  },
+  "mitsuisp.png": {
+    "brand": "三井ショッピングパークアプリ",
+    "source": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/48/0a/70/480a7083-52ea-3e0c-cdd1-6ec30ceb0647/AppIcon-0-0-1x_U007ephone-0-6-0-85-220.png/512x512bb.jpg",
+    "page": "https://apps.apple.com/jp/app/id921446819",
+    "source_type": "App Store の登録アイコン（artworkUrl512・商標）",
+    "seller": "Mitsui Fudosan Retail Management Co.,Ltd.",
+    "fetched": "2026-09-23",
+    "task": "ops/tasks/t185-appstore-icons.sh"
+  },
+  "_todo": {
+    "powl": "現行の App Store アイコンが **ハロウィンの季節版**だった。既存の通常版を残す",
+    "jalwellness": "API の 1 件目が **JAL（親ブランド）**だった。正しいのは id=1498726068（JAL Wellness & Travel）",
+    "rakuten": "API の 1 件目が **楽天ペイ**だった。正しいのは id=641501350（楽天ポイントクラブ）"
+  },
   "warau.png": {
     "brand": "ワラウ",
     "source": "https://warau.akamaized.net/www.warau.jp/images/object/component/logo/warau-logo.svg",
