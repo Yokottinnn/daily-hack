@@ -80,6 +80,24 @@ if [ -z "${!KEY_NAME:-}" ]; then
 fi
 echo "鍵を読めた（値は出さない）。"
 
+# **SDK が入っているかを先に見る。**（2026-09-23 に踏んだ）
+# `@anthropic-ai/sdk` が `package.json` に宣言されていなかったため、
+# 鍵を読んで対象も選べたあと、**import の時点で落ちていた**。
+# `refresh-article.mjs` は import が動的なので、**選定までは正常に見える。**
+# ログの最後まで読まないと気づけない（`total_usd` は 0 のまま）。
+#
+# **依存に入れたので `npm ci` すれば入る**が、Mac の `node_modules` は
+# `git reset --hard` では更新されない。**無ければここで入れる。**
+if ! "$NODE_BIN" -e "require.resolve('@anthropic-ai/sdk/package.json')" >/dev/null 2>&1; then
+  echo "@anthropic-ai/sdk が無い。入れる。"
+  npm install --no-audit --no-fund --silent @anthropic-ai/sdk >/dev/null 2>&1 || true
+  if ! "$NODE_BIN" -e "require.resolve('@anthropic-ai/sdk/package.json')" >/dev/null 2>&1; then
+    echo "@anthropic-ai/sdk を入れられなかった。何もせず終わる。"
+    exit 1
+  fi
+  echo "@anthropic-ai/sdk を入れた。"
+fi
+
 # **main から始める。** 前回のブランチに積み上げない
 git fetch origin main --quiet || { echo "fetch 失敗"; exit 1; }
 
