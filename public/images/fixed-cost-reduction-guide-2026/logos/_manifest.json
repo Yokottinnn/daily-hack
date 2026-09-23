@@ -1,0 +1,33 @@
+{
+  "_note": "識別目的で使うロゴ。**商標であり自由ライセンスではない。** 改変しない（CSS の枠は可）。取得元と取得日をここに残す。SVG は `node scripts/svg-to-png.mjs` で PNG にしている（Mac にラスタライザが無いため）。",
+  "rakuten-denki.png": {
+    "brand": "楽天でんき",
+    "source": "https://energy.rakuten.co.jp/common/img/logo_denki.svg",
+    "page": "https://energy.rakuten.co.jp/",
+    "source_type": "公式サイト（商標）",
+    "fetched": "2026-09-23",
+    "task": "ops/tasks/t180-logos-denki.sh",
+    "note": "**楽天エナジー（logo_energy.svg）は運営会社であってブランドではない。** 楽天ガス（logo_gas.svg）も別サービス。この 2 つは採らなかった",
+    "converted": "node scripts/svg-to-png.mjs（600x120）"
+  },
+  "au-denki.png": {
+    "brand": "auでんき",
+    "source": "https://www.au.com/denki/assets/img/common/logo.svg",
+    "page": "https://www.au.com/energy/",
+    "source_type": "公式サイト（商標）",
+    "fetched": "2026-09-23",
+    "task": "ops/tasks/t182-logos-cors-fix.sh",
+    "note": "**au（au_logo_t.png）は親ブランド、KDDI は運営会社、logo_10th.png は 10 周年版。**この 3 つは採らなかった",
+    "converted": "node scripts/svg-to-png.mjs（600x97）"
+  },
+  "docomo-denki.png": {
+    "brand": "ドコモでんき",
+    "source": "https://cache2.denki.cilite.docomo.ne.jp/assets_brand/img/common/logo_header.svg",
+    "page": "https://denki.docomo.ne.jp/",
+    "source_type": "公式サイト（商標）",
+    "fetched": "2026-09-23",
+    "task": "ops/tasks/t182-logos-cors-fix.sh",
+    "note": "**NTT docomo は親ブランド、img_plan_logo_pc.png は料金プランのロゴ束（ドコモMAX ほか）。**どちらもドコモでんきのロゴではない",
+    "converted": "node scripts/svg-to-png.mjs（600x93）"
+  }
+}

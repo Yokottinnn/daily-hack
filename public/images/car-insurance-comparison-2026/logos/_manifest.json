@@ -63,5 +63,31 @@
     "fetched": "2026-09-20",
     "license_note": "公式サイトのロゴ画像（商標）",
     "task": "ops/tasks/t128-logos-retry4.sh"
+  },
+  "kakaku.png": {
+    "brand": "価格.com",
+    "source": "https://img1.kakaku.k-img.com/images/logo.png",
+    "page": "https://kakaku.com/kuruma_hoken/",
+    "source_type": "公式サイト（商標）",
+    "fetched": "2026-09-23",
+    "task": "ops/tasks/t182-logos-cors-fix.sh"
+  },
+  "bang.gif": {
+    "brand": "保険スクエアbang! 自動車保険",
+    "source": "https://img.phoenix.webcrew.co.jp/11006/img_ph/logo_bang_car.gif",
+    "page": "https://www.bang.co.jp/",
+    "source_type": "公式サイト（商標）",
+    "fetched": "2026-09-23",
+    "task": "ops/tasks/t182-logos-cors-fix.sh",
+    "note": "**GIF のまま置く。** 変換しないほうが改変が入らない（最上位ルール 17）。記事が貼っていた `https://www.bang.co.jp/auto/` は **404** だったので、この PR で `https://www.bang.co.jp/` に直した"
+  },
+  "rakutenhoken.png": {
+    "brand": "楽天保険の窓口（保険の比較）",
+    "source": "https://hoken.rakuten.co.jp/assets/img/header/logo@2x.png",
+    "page": "https://hoken.rakuten.co.jp/car/",
+    "source_type": "公式サイト（商標）",
+    "fetched": "2026-09-23",
+    "task": "ops/tasks/t181-logos-compare-sites.sh",
+    "note": "サイト上の表記は「保険の比較 / Rakuten 保険の総合窓口」。**楽天そのもののロゴは親ブランドなので使わない**"
   }
 }

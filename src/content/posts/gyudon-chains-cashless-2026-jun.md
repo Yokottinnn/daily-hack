@@ -62,7 +62,7 @@ references: ["https://www.matsuyafoods.co.jp/matsuya/whatsnew/campaign/154328.ht
 
 ## 🍚 各チェーン詳細
 
-<h3 class="brand-h"><img class="brand-logo" src="/images/gyudon-chains-cashless-2026-jun/logos/matsuya.png" alt="松屋のロゴ" loading="lazy" /><span>🐂 松屋（60周年記念で過去最強）</span></h3>
+<h3 class="brand-h"><img class="brand-logo" src="/images/gyudon-chains-cashless-2026-jun/logos/matsuya.jpg" alt="松屋のロゴ" loading="lazy" /><span>🐂 松屋（60周年記念で過去最強）</span></h3>
 
 <div class="cmp-table-wrap">
   <table class="cmp-table spec-table">
@@ -92,7 +92,7 @@ references: ["https://www.matsuyafoods.co.jp/matsuya/whatsnew/campaign/154328.ht
   </table>
 </div>
 
-<h3 class="brand-h"><img class="brand-logo" src="/images/gyudon-chains-cashless-2026-jun/logos/sukiya.png" alt="すき家のロゴ" loading="lazy" /><span>🐂 すき家（ゼンショー共通ポイント15倍）</span></h3>
+<h3 class="brand-h"><img class="brand-logo" src="/images/gyudon-chains-cashless-2026-jun/logos/sukiya.jpg" alt="すき家のロゴ" loading="lazy" /><span>🐂 すき家（ゼンショー共通ポイント15倍）</span></h3>
 
 - **🏆 三井住友カードNL/CL/Gold**: スマホタッチ決済 or モバイルオーダー利用で**7%還元**（年会費永年無料NLでもOK）
 - **🏆 ゼンショー共通ポイント**: 楽天ポイント・dポイント・Vポイント・Pontaポイントが、月内の来店回数に応じて倍率UP
@@ -105,7 +105,7 @@ references: ["https://www.matsuyafoods.co.jp/matsuya/whatsnew/campaign/154328.ht
 - **楽天ペイ**: 楽天カード→楽天キャッシュ→楽天ペイ + 楽天ポイントカード提示 = 2.0%
 - **対象店舗**: 全国のすき家（一部例外あり）
 
-<h3 class="brand-h"><img class="brand-logo" src="/images/gyudon-chains-cashless-2026-jun/logos/nakau.png" alt="なか卯のロゴ" loading="lazy" /><span>🐂 なか卯（ゼンショー共通ポイント15倍 + アプリクーポン）</span></h3>
+<h3 class="brand-h"><img class="brand-logo" src="/images/gyudon-chains-cashless-2026-jun/logos/nakau.jpg" alt="なか卯のロゴ" loading="lazy" /><span>🐂 なか卯（ゼンショー共通ポイント15倍 + アプリクーポン）</span></h3>
 
 <div class="cmp-table-wrap">
   <table class="cmp-table spec-table">

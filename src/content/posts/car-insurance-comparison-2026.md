@@ -258,10 +258,10 @@ references: ["https://www.sonysonpo.co.jp/", "https://www.sbisonpo.co.jp/", "htt
 
 | サイト | 提携保険会社数 | 特徴 | こんな人に |
 |---|---|---|---|
-| <a href="https://www.bang.co.jp/auto/" target="_blank" rel="noopener nofollow">**保険スクエアbang! 自動車保険**</a> | 最大19社程度 | 約3分入力、結果表示スピード&画面の見やすさに定評。「平均3.5万円安くなった」「5万円以上安くなった人も」と公開 | 初めて一括見積もりする人、画面の比較しやすさ重視 |
+| <span class="cell-brand"><img class="brand-logo-sm" src="/images/car-insurance-comparison-2026/logos/bang.gif" alt="保険スクエアbang! のロゴ" loading="lazy" /><a href="https://www.bang.co.jp/" target="_blank" rel="noopener nofollow">**保険スクエアbang! 自動車保険**</a></span> | 最大19社程度 | 約3分入力、結果表示スピード&画面の見やすさに定評。「平均3.5万円安くなった」「5万円以上安くなった人も」と公開 | 初めて一括見積もりする人、画面の比較しやすさ重視 |
 | <span class="cell-brand"><img class="brand-logo-sm" src="/images/car-insurance-comparison-2026/logos/insweb.png" alt="SBI インズウェブのロゴ" loading="lazy" /><a href="https://www.insweb.co.jp/car/" target="_blank" rel="noopener nofollow">**SBI インズウェブ**</a></span> | 最大20社 | 利用者数900万人超（業界トップクラス）、提携社数の網羅性 | できるだけ多くの会社を一気に比較したい人 |
-| <a href="https://kakaku.com/kuruma_hoken/" target="_blank" rel="noopener nofollow">**価格.com 自動車保険**</a> | 最大10社程度 | 価格.comブランドの安心感、満足度ランキングと連動して見れる | 比較サイト慣れしてる人、満足度評価も参照したい人 |
-| <a href="https://hoken.rakuten.co.jp/car/" target="_blank" rel="noopener nofollow">**楽天保険の窓口**</a> | 9社前後 | 見積もり完了で楽天ポイントがもらえるキャンペーンが定期的 | 楽天経済圏ユーザー |
+| <span class="cell-brand"><img class="brand-logo-sm" src="/images/car-insurance-comparison-2026/logos/kakaku.png" alt="価格.com のロゴ" loading="lazy" /><a href="https://kakaku.com/kuruma_hoken/" target="_blank" rel="noopener nofollow">**価格.com 自動車保険**</a></span> | 最大10社程度 | 価格.comブランドの安心感、満足度ランキングと連動して見れる | 比較サイト慣れしてる人、満足度評価も参照したい人 |
+| <span class="cell-brand"><img class="brand-logo-sm" src="/images/car-insurance-comparison-2026/logos/rakutenhoken.png" alt="楽天保険の窓口のロゴ" loading="lazy" /><a href="https://hoken.rakuten.co.jp/car/" target="_blank" rel="noopener nofollow">**楽天保険の窓口**</a></span> | 9社前後 | 見積もり完了で楽天ポイントがもらえるキャンペーンが定期的 | 楽天経済圏ユーザー |
 
 <ul class="checklist">
   <li>
@@ -573,7 +573,7 @@ references: ["https://www.sonysonpo.co.jp/", "https://www.sbisonpo.co.jp/", "htt
 > <a href="https://www.ins-saison.co.jp/" target="_blank" rel="noopener nofollow">SOMPOダイレクト（おとなの自動車保険）</a>／
 > <a href="https://www.edsp.co.jp/" target="_blank" rel="noopener nofollow">東京海上ダイレクト（旧イーデザイン損保）</a>／
 > <a href="https://www.rakuten-sonpo.co.jp/" target="_blank" rel="noopener nofollow">楽天損保</a>／
-> <a href="https://www.bang.co.jp/auto/" target="_blank" rel="noopener nofollow">保険スクエアbang!</a>／
+> <a href="https://www.bang.co.jp/" target="_blank" rel="noopener nofollow">保険スクエアbang!</a>／
 > <a href="https://www.insweb.co.jp/car/" target="_blank" rel="noopener nofollow">SBI インズウェブ</a>／
 > <a href="https://hoken.kakaku.com/kuruma_hoken/" target="_blank" rel="noopener nofollow">価格.com 自動車保険</a>／
 > <a href="https://life.oricon.co.jp/rank_insurance/" target="_blank" rel="noopener nofollow">オリコン顧客満足度ランキング</a>。

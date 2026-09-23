@@ -1,0 +1,14 @@
+{
+  "_note": "識別目的で使うロゴ。**商標であり自由ライセンスではない。** 改変しない（CSS の枠は可）。**この記事のロゴの大半は #433 でまとめて入り、取得元が記録されていない。**取得元を言えるものからここに足していく（最上位ルール 17）。",
+  "_todo": "warau.png 以外の 28 枚は取得元が未記録。公式サイトから取り直して、ここに URL と取得日を残すこと",
+  "warau.png": {
+    "brand": "ワラウ",
+    "source": "https://warau.akamaized.net/www.warau.jp/images/object/component/logo/warau-logo.svg",
+    "page": "https://www.warau.jp/",
+    "source_type": "公式サイト（商標）",
+    "fetched": "2026-09-23",
+    "task": "ops/tasks/t182-logos-cors-fix.sh",
+    "note": "**オープンスマイル（運営会社）のロゴは使わない。** URL は記事にリンクが無かったので実ブラウザの検索で突き止めた",
+    "converted": "node scripts/svg-to-png.mjs（600x418）"
+  }
+}
