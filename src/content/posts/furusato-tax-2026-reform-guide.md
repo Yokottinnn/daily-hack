@@ -215,7 +215,7 @@ references:
 
 <div class="compare-cards">
   <article class="compare-card recommended">
-    <h3>楽天ふるさと納税</h3>
+    <h3 class="brand-h"><img class="brand-logo" src="/images/furusato-tax-2026-reform-guide/logos/rakuten-furusato.png" alt="楽天ふるさと納税のロゴ" loading="lazy" /><span>楽天ふるさと納税</span></h3>
     <p class="tagline">楽天ユーザーの本命。楽天カード決済＋SPUで通常ポイントが厚い。</p>
     <dl>
       <dt>強み</dt><dd>楽天市場と同じ操作感・楽天ポイントが貯まる/使える</dd>
