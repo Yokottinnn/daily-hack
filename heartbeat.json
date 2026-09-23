@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-23T12:56:32Z",
+  "generated_at": "2026-09-23T13:27:46Z",
   "login_lock": {"present": false, "age_hours": 0},
   "cdp": {"healthy": true, "port": 18810},
   "x_jobs": {"loaded": 8, "expected": 8, "ai_total": 14, "halted": false, "missing": []},
-  "last_reply": {"at": "2026-09-23T10:04:40.247Z", "age_hours": 2, "stale": false},
+  "last_reply": {"at": "2026-09-23T13:04:20.419Z", "age_hours": 0, "stale": false},
   "supervisor": {"at":"2026-09-23T12:25:20Z","date_jst":"2026-09-23","ran":9,"total":9,"not_run":[],"fixed":[]},
-  "followback_bands": {"with_count":135,"total_rows":484,"bands":{"1000-4999":{"n":47,"back":7,"mature":34,"mature_back":6,"rate":17.6},"300-999":{"n":23,"back":9,"mature":17,"mature_back":8,"rate":47.1},"0-99":{"n":32,"back":8,"mature":22,"mature_back":6,"rate":27.3},"5000-49999":{"n":27,"back":1,"mature":24,"mature_back":1,"rate":4.2},"100-299":{"n":6,"back":1,"mature":2,"mature_back":1,"rate":50}},"status_values":{"no":359,"revenge_ghost_already_unfollowed":48,"unfollowed":16,"yes_late":1,"yes":47,"pending":13},"note":"mature の率で見る"},
+  "followback_bands": {"with_count":136,"total_rows":485,"bands":{"1000-4999":{"n":47,"back":7,"mature":34,"mature_back":6,"rate":17.6},"300-999":{"n":23,"back":9,"mature":17,"mature_back":8,"rate":47.1},"0-99":{"n":33,"back":8,"mature":22,"mature_back":6,"rate":27.3},"5000-49999":{"n":27,"back":1,"mature":24,"mature_back":1,"rate":4.2},"100-299":{"n":6,"back":1,"mature":2,"mature_back":1,"rate":50}},"status_values":{"no":359,"revenge_ghost_already_unfollowed":48,"unfollowed":16,"yes_late":1,"yes":47,"pending":14},"note":"mature の率で見る"},
   "host": "NaokinoMacBook-Pro-2.local",
   "job_count": 22,
   "jobs": [
@@ -33,9 +33,7 @@
     "com.dailyhack.x-impressions"
   ],
   "reconnect": "既に起動している",
-  "tasks": [
-      {"task": "t180-logos-denki.sh", "rc": 0, "out": "- **親ブランド**（au / NTT docomo）を、でんきのロゴとして使わない - **運営会社**（楽天エナジー）を、楽天でんきのロゴとして使わない - **周年版・キャンペーン版**（`logo_10th` など）  経過 **17 秒**。"}
-  ],
+  "tasks": [],
   "running": null,
   "auth": {
     "ok": true,
@@ -44,11 +42,11 @@
   },
   "activity": {
     "date": "2026-09-23",
-    "posted_today": 44,
+    "posted_today": 56,
     "detail": "ログを走査した",
     "sources": [
-      {"file": "comment-orchestrator.log", "count": 15},
-      {"file": "comment-warmup.log", "count": 29}
+      {"file": "comment-orchestrator.log", "count": 19},
+      {"file": "comment-warmup.log", "count": 37}
     ]
   },
   "autoload": {
@@ -120,7 +118,7 @@
   ],
   "clone": {
     "branch": "main",
-    "behind": 12,
+    "behind": 18,
     "dirty": 1
   },
   "followers": {
