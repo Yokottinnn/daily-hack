@@ -129,6 +129,51 @@ console.log(JSON.stringify({
 `t004` は publisher のソースに `images` という文字列が含まれるかだけを見て選んでいた。
 **全文検索で決めてはいけない。**
 
+#### reply（`chain[1]` 以降）にも付く。**ただし 2026-09-23 に塞ぐまで効かなかった**
+
+`run-publish.sh` のスキーマ行には**最初から** `image_path?` が書いてある。
+
+```text
+run-publish.sh:7   # - thread_chain[]: [{text, role: hook|link|body|cta, image_path?, url?}]
+```
+
+**なのに実装は 1 本目にしか効かなかった。**
+
+| | 経路 | 画像 |
+| --- | --- | --- |
+| `chain[0]` | `post-via-playwright.js` | **付く** |
+| `chain[1]` 以降 | `post-comment.js` | **付かなかった**（引数にも渡らず、受け口も無かった） |
+
+```javascript
+// 塞ぐ前
+run-publish.sh:122  node scripts/post-comment.js "${textB64}" "${prevUrl}"
+post-comment.js:20  const [textArg, targetUrl] = process.argv.slice(2);
+```
+
+**書いてあるとおりに積んでも、エラーは出ず画像だけ黙って消える。**
+`x136` で両方に足した（引数は**常に渡し**、受け取る側が `"null"` を無視する）。
+
+##### **添付は「付いたことを確かめてから」送る**
+
+`setInputFiles` は**投げるだけ**で X 側の処理を待たない。
+確かめずに送ると**画像なしで出る。**
+
+```javascript
+await fileInput.setInputFiles(...);
+const attached = await page.waitForSelector(
+  '[data-testid="attachments"], [data-testid="media"] img, [data-testid="removeMedia"]',
+  { timeout: 25000 }).catch(() => null);
+if (!attached) { out({ ok:false, step, error:"attachment did not appear" }); process.exit(1); }
+```
+
+**現れなければ投稿ごと止める。** 画像なしで出すより、出さないほうがよい。
+
+##### それでも**出たあとに実物を見る**
+
+キューの `images: 1` は「積んだ枚数」であって、**X 上に付いた証拠ではない。**
+`article[data-testid="tweet"]` の中の `[data-testid="tweetPhoto"]` を数える
+（`x138` がその作り）。**一次情報は投稿 URL の実物**（最上位ルール 11）。
+
 ### `queue-manager.js` に **`approve` は無い**
 
 実在する case は次の 9 つだけ。
