@@ -1,6 +1,5 @@
 {
  "_note": "識別目的で使うロゴ。**商標であり自由ライセンスではない。** 改変しない（CSS の枠は可）。取得元と取得日をここに残す。 **`furusato-tax-beginner-guide-2026` からコピーした**（2026-09-23）。",
- "_missing": "**2 枚目のカード「さとふる / ふるなび / ふるさとチョイス」にはロゴを置いていない。** さとふるだけ未取得で、3 社のうち 2 社にしか付かないと「1 社だけ抜けている」ように見えるため。さとふるが取れた時点で 3 枚まとめて入れる。",
  "rakuten-furusato.png": {
   "brand": "楽天ふるさと納税",
   "source": "https://r.r10s.jp/evt/event/furusato/_cmn/img/20250418_logo.svg",
@@ -9,6 +8,40 @@
   "task": "ops/tasks/t155-brand-logos-batch.sh",
   "license_note": "商標。識別目的で使用。**SVG を Chromium で PNG にした**",
   "copied_from": "public/images/furusato-tax-beginner-guide-2026/logos/rakuten-furusato.png",
+  "copied": "2026-09-23"
+ },
+ "satofull.webp": {
+  "brand": "さとふる",
+  "source": "https://www.satofull.jp/ の header ロゴ（alt: ふるさと納税のさとふる）",
+  "page": "https://www.satofull.jp/",
+  "fetched": "2026-09-23",
+  "task": "ops/tasks/t177-logos-real-browser2.sh",
+  "license_note": "商標。識別目的で使用",
+  "_note": "**curl では 6 経路すべて HTML 0 bytes だった。** Mac の Chrome に CDP で繋いで実ブラウザとして開いたら取れた",
+  "_rejected": "「あとから選べるお礼品」は**別サービス**、プライバシーマークは**認証マーク**なので使わない",
+  "copied_from": "public/images/furusato-tax-beginner-guide-2026/logos/satofull.webp",
+  "copied": "2026-09-23"
+ },
+ "furunavi.png": {
+  "brand": "ふるなび",
+  "source": "https://cf.furunavi.jp/images/header_logo.svg",
+  "page": "https://furunavi.jp/",
+  "fetched": "2026-09-22",
+  "task": "ops/tasks/t155-brand-logos-batch.sh",
+  "license_note": "商標。識別目的で使用。**SVG を Chromium で PNG にした**",
+  "_rejected": "apple-touch-icon はアプリの風景アイコンで、ブランドマークではないので使わない",
+  "copied_from": "public/images/furusato-tax-beginner-guide-2026/logos/furunavi.png",
+  "copied": "2026-09-23"
+ },
+ "furusato-choice.png": {
+  "brand": "ふるさとチョイス",
+  "source": "https://www.furusato-tax.jp/favicon.png",
+  "page": "https://www.furusato-tax.jp/",
+  "fetched": "2026-09-22",
+  "task": "ops/tasks/t157-logos-furusato-uq-ymobile.sh",
+  "license_note": "商標。識別目的で使用",
+  "_rejected": "公式の furusato-choice-white-tagline.svg は**白抜き＋タグライン付き**で白背景に置けない。travel-primary.svg は「チョイストラベル」という別サービス",
+  "copied_from": "public/images/furusato-tax-beginner-guide-2026/logos/furusato-choice.png",
   "copied": "2026-09-23"
  }
 }

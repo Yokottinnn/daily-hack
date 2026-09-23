@@ -1,6 +1,5 @@
 {
  "_note": "識別目的で使うロゴ。**商標であり自由ライセンスではない。** 改変しない（CSS の枠は可）。取得元と取得日をここに残す。",
- "_missing": "**さとふるだけロゴが無い。** 公式サイトが 3 回 とも bot に弾かれ（HTML 0 bytes）、MediaWiki 経由も未取得。取れ次第 `satofull.png` として足す。",
  "rakuten-furusato.png": {
   "brand": "楽天ふるさと納税",
   "source": "https://r.r10s.jp/evt/event/furusato/_cmn/img/20250418_logo.svg",
@@ -51,5 +50,15 @@
   "fetched": "2026-09-22",
   "task": "ops/tasks/t157-logos-furusato-uq-ymobile.sh",
   "license_note": "商標。識別目的で使用"
+ },
+ "satofull.webp": {
+  "brand": "さとふる",
+  "source": "https://www.satofull.jp/ の header ロゴ（alt: ふるさと納税のさとふる）",
+  "page": "https://www.satofull.jp/",
+  "fetched": "2026-09-23",
+  "task": "ops/tasks/t177-logos-real-browser2.sh",
+  "license_note": "商標。識別目的で使用",
+  "_note": "**curl では 6 経路すべて HTML 0 bytes だった。** Mac の Chrome に CDP で繋いで実ブラウザとして開いたら取れた",
+  "_rejected": "「あとから選べるお礼品」は**別サービス**、プライバシーマークは**認証マーク**なので使わない"
  }
 }

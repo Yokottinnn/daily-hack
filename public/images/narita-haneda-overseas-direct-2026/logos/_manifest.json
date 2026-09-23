@@ -1,0 +1,22 @@
+{
+ "_note": "識別目的で使うロゴ。**商標であり自由ライセンスではない。** 改変しない（CSS の枠は可）。取得元と取得日をここに残す。",
+ "jal.png": {
+  "brand": "JAL（日本航空）",
+  "source": "https://www.jal.co.jp/ の header ロゴ（alt: JAPAN AIRLINES）",
+  "page": "https://www.jal.co.jp/jp/ja/",
+  "fetched": "2026-09-23",
+  "task": "ops/tasks/t177-logos-real-browser2.sh",
+  "license_note": "商標。識別目的で使用。**SVG を Chromium で PNG にした**",
+  "_note": "**curl では 6 経路すべて弾かれた**（HTML 371〜387 bytes / apple-touch-icon は 403）。Mac の Chrome に CDP で繋いで実ブラウザとして開いたら取れた",
+  "_rejected": "`oneworld` は**アライアンスのロゴ**でありJALのロゴではない。「どこかにマイル」は**キャンペーン**。Wikipedia の記事にあった `2020 Summer Olympics text logo.svg` / `CAO Logo.svg` は**まったく無関係**"
+ },
+ "ana.png": {
+  "brand": "ANA",
+  "source": "https://www.ana.co.jp/common-layout2/images/www2/logo_ana_tagline.svg",
+  "page": "https://www.ana.co.jp/ja/jp/",
+  "fetched": "2026-09-22",
+  "task": "ops/tasks/t155-brand-logos-batch.sh",
+  "license_note": "商標。識別目的で使用。**SVG を Chromium で PNG にした**",
+  "_rejected": "`footer_logo_skytrax.png` は**認証バッジ**、`logo_star_alliance.svg` は**アライアンス**なので使わない"
+ }
+}

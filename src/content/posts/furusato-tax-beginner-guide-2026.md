@@ -231,7 +231,7 @@ author: "hacker-ko"
 
   <article class="compare-card recommended">
     <span class="compare-card-mascot"><img src="/images/expr-05-smug.png" alt="" /></span>
-    <h3>さとふる</h3>
+    <h3 class="brand-h"><img class="brand-logo" src="/images/furusato-tax-beginner-guide-2026/logos/satofull.webp" alt="さとふるのロゴ" loading="lazy" /><span>さとふる</span></h3>
     <p class="tagline">UI最強の初心者向け。配送スピードが業界No.1で「早く食べたい」派の正解。</p>
     <dl>
       <dt>取扱自治体</dt><dd>約1,400</dd>

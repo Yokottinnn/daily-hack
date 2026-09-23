@@ -45,7 +45,7 @@ references:
 
 ## ✈️ 羽田（HND）発 — 直行便で行ける海外
 
-### JAL（羽田発・自社運航直行便）
+<h3 class="brand-h" id="hnd-jal"><img class="brand-logo" src="/images/narita-haneda-overseas-direct-2026/logos/jal.png" alt="JAL のロゴ" loading="lazy" /><span>JAL（羽田発・自社運航直行便）</span></h3>
 
 | エリア | 就航都市 |
 |---|---|
@@ -58,7 +58,7 @@ references:
 
 <p class="source-note">※ダラスはJAL自社便＋アメリカン航空(AA)のコードシェア併記。出典: <a href="https://www.jal.co.jp/jp/ja/inter/route/network/index.html">JAL 国際線 地域別ネットワーク</a>（2026年7月19日確認）。</p>
 
-### ANA（羽田発・自社運航直行便）
+<h3 class="brand-h" id="hnd-ana"><img class="brand-logo" src="/images/narita-haneda-overseas-direct-2026/logos/ana.png" alt="ANA のロゴ" loading="lazy" /><span>ANA（羽田発・自社運航直行便）</span></h3>
 
 | エリア | 就航都市 |
 |---|---|
@@ -73,7 +73,7 @@ references:
 
 ## ✈️ 成田（NRT）発 — 直行便で行ける海外
 
-### JAL（成田発・自社運航直行便）
+<h3 class="brand-h" id="nrt-jal"><img class="brand-logo" src="/images/narita-haneda-overseas-direct-2026/logos/jal.png" alt="JAL のロゴ" loading="lazy" /><span>JAL（成田発・自社運航直行便）</span></h3>
 
 | エリア | 就航都市 |
 |---|---|
@@ -86,7 +86,7 @@ references:
 
 <p class="source-note">※ダラスは公式ページ上「アメリカン航空(AA)運航」表示＝コードシェア扱いの可能性。運休中：コナ(ハワイ島)。なお公式で確認する限り、JAL自社直行便ではソウルは羽田(金浦)発、上海は羽田(浦東・虹橋)発で、成田発の自社直行便は見当たらない（＝他社・コードシェアを除く）。出典: <a href="https://www.jal.co.jp/jp/ja/inter/route/network/index.html">JAL 国際線 地域別ネットワーク</a>（2026年7月19日確認）。</p>
 
-### ANA（成田発・自社運航直行便）
+<h3 class="brand-h" id="nrt-ana"><img class="brand-logo" src="/images/narita-haneda-overseas-direct-2026/logos/ana.png" alt="ANA のロゴ" loading="lazy" /><span>ANA（成田発・自社運航直行便）</span></h3>
 
 | エリア | 就航都市 |
 |---|---|

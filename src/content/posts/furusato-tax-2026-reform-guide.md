@@ -224,7 +224,7 @@ references:
     <a class="compare-cta" href="https://event.rakuten.co.jp/furusato/" target="_blank" rel="sponsored noopener nofollow">楽天ふるさと納税を見る →</a>
   </article>
   <article class="compare-card">
-    <h3>さとふる / ふるなび / ふるさとチョイス</h3>
+    <h3 class="brand-h"><img class="brand-logo" src="/images/furusato-tax-2026-reform-guide/logos/satofull.webp" alt="さとふるのロゴ" loading="lazy" /><img class="brand-logo" src="/images/furusato-tax-2026-reform-guide/logos/furunavi.png" alt="ふるなびのロゴ" loading="lazy" /><img class="brand-logo" src="/images/furusato-tax-2026-reform-guide/logos/furusato-choice.png" alt="ふるさとチョイスのロゴ" loading="lazy" /><span>さとふる / ふるなび / ふるさとチョイス</span></h3>
     <p class="tagline">掲載自治体・返礼品数が豊富。チャージ型や独自特典も。</p>
     <dl>
       <dt>強み</dt><dd>取扱いの広さ。ふるなびはチャージ型のふるなびマネー等</dd>
