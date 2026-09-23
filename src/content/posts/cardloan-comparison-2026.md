@@ -105,13 +105,13 @@ references:
 
 | 会社 | 実質年率 | 限度額（最大） | 審査時間 | 在籍確認 | 無利息期間 | WEB完結 |
 |---|---|---|---|---|---|---|
-| **プロミス** | 4.5〜17.8% | 500万円 | 最短3分 | 原則電話なし | 初回30日 ※借入翌日から | ◯ |
-| <span class="cell-brand"><img class="brand-logo-sm" src="/images/cardloan-comparison-2026/logos/acom.png" alt="アコムのロゴ" loading="lazy" /><strong>アコム</strong></span> | 3.0〜18.0% | 800万円 | 最短20分 | 原則電話なし（実績約1%） | 初回30日 ※契約翌日から | ◯ |
-| <span class="cell-brand"><img class="brand-logo-sm" src="/images/cardloan-comparison-2026/logos/mobit.png" alt="SMBCモビットのロゴ" loading="lazy" /><strong>SMBCモビット</strong></span> | 3.0〜18.0% | 800万円 | 最短15分 | WEB完結なら電話・郵送ゼロ | なし（その代わりVポイント還元） | ◎（条件あり） |
-| <span class="cell-brand"><img class="brand-logo-sm" src="/images/cardloan-comparison-2026/logos/lake.png" alt="レイクのロゴ" loading="lazy" /><strong>レイク</strong></span> | 4.5〜18.0% | 500万円 | 最短15秒回答／最短25分融資 | 原則電話なし | **最長365日**（条件達成時）／60日／30日から選択 | ◯ |
-| <span class="cell-brand"><img class="brand-logo-sm" src="/images/cardloan-comparison-2026/logos/aiful.png" alt="アイフルのロゴ" loading="lazy" /><strong>アイフル</strong></span> | 3.0〜18.0% | 800万円 | 最短18分 | 原則電話なし（実績約99.1%） | 初回30日 ※契約翌日から | ◯（カードレス標準） |
-| <span class="cell-brand"><img class="brand-logo-sm" src="/images/cardloan-comparison-2026/logos/smbccard.png" alt="三井住友カードのロゴ" loading="lazy" /><strong>三井住友カード プレミアムカードローン</strong></span> | 1.5〜14.5% | 500万円（会員枠） | 最短30分 | 電話あり（同意ベース運用） | なし | ◯（三井住友カード会員限定） |
-| **オリックス・クレジット VIPローンカード** | 1.7〜17.8% | 800万円 | 最短60分 | あり（書面代替交渉可） | なし | ◯ |
+| <span class="cell-brand"><img class="brand-logo-sm" src="/images/cardloan-comparison-2026/logos/promise.png" alt="プロミスのロゴ" loading="lazy" /><strong><a href="https://www.promise.co.jp/" target="_blank" rel="nofollow noopener">プロミス</a></strong></span> | 4.5〜17.8% | 500万円 | 最短3分 | 原則電話なし | 初回30日 ※借入翌日から | ◯ |
+| <span class="cell-brand"><img class="brand-logo-sm" src="/images/cardloan-comparison-2026/logos/acom.png" alt="アコムのロゴ" loading="lazy" /><strong><a href="https://www.acom.co.jp/" target="_blank" rel="nofollow noopener">アコム</a></strong></span> | 3.0〜18.0% | 800万円 | 最短20分 | 原則電話なし（実績約1%） | 初回30日 ※契約翌日から | ◯ |
+| <span class="cell-brand"><img class="brand-logo-sm" src="/images/cardloan-comparison-2026/logos/mobit.png" alt="SMBCモビットのロゴ" loading="lazy" /><strong><a href="https://www.mobit.ne.jp/" target="_blank" rel="nofollow noopener">SMBCモビット</a></strong></span> | 3.0〜18.0% | 800万円 | 最短15分 | WEB完結なら電話・郵送ゼロ | なし（その代わりVポイント還元） | ◎（条件あり） |
+| <span class="cell-brand"><img class="brand-logo-sm" src="/images/cardloan-comparison-2026/logos/lake.png" alt="レイクのロゴ" loading="lazy" /><strong><a href="https://lake.jp/" target="_blank" rel="nofollow noopener">レイク</a></strong></span> | 4.5〜18.0% | 500万円 | 最短15秒回答／最短25分融資 | 原則電話なし | **最長365日**（条件達成時）／60日／30日から選択 | ◯ |
+| <span class="cell-brand"><img class="brand-logo-sm" src="/images/cardloan-comparison-2026/logos/aiful.png" alt="アイフルのロゴ" loading="lazy" /><strong><a href="https://www.aiful.co.jp/" target="_blank" rel="nofollow noopener">アイフル</a></strong></span> | 3.0〜18.0% | 800万円 | 最短18分 | 原則電話なし（実績約99.1%） | 初回30日 ※契約翌日から | ◯（カードレス標準） |
+| <span class="cell-brand"><img class="brand-logo-sm" src="/images/cardloan-comparison-2026/logos/smbccard.png" alt="三井住友カードのロゴ" loading="lazy" /><strong><a href="https://www.smbc-card.com/nyukai/loan/premiumplus/index.jsp" target="_blank" rel="nofollow noopener">三井住友カード プレミアムカードローン</a></strong></span> | 1.5〜14.5% | 500万円（会員枠） | 最短30分 | 電話あり（同意ベース運用） | なし | ◯（三井住友カード会員限定） |
+| <strong><a href="https://www.orixcredit.jp/" target="_blank" rel="nofollow noopener">オリックス・クレジット VIPローンカード</a></strong> | 1.7〜17.8% | 800万円 | 最短60分 | あり（書面代替交渉可） | なし | ◯ |
 
 <p class="source-note">※「在籍確認」は2026年5月時点の各社公式表記。審査内容・申込条件により電話確認が発生する場合があります。最短時間は申込時間帯・本人確認の進行状況により遅延することがあります。</p>
 
@@ -157,7 +157,7 @@ references:
 
 ## 各社詳細
 
-### 1. プロミス（SMBCコンシューマーファイナンス）
+<h3 class="brand-h" id="loan-promise"><img class="brand-logo" src="/images/cardloan-comparison-2026/logos/promise.png" alt="プロミスのロゴ" loading="lazy" /><span>1. プロミス（SMBCコンシューマーファイナンス）</span></h3>
 
 <div class="section-with-mascot">
   <div class="mascot-wrap"><img src="/images/expr-04-cheer.png" alt="" /></div>
