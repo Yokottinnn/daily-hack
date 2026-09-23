@@ -292,6 +292,21 @@ git checkout <元のsha> -- <今回 足したファイル>   # 新しい分だ�
 
 **空でなければリセットしない**（最上位ルール 3）。`git rebase origin/main` で解く。
 
+### いちばん楽なのは GitHub の「Update branch」
+
+**手元で rebase せず、GitHub 側に main を取り込ませる。**
+`mcp__github__update_pull_request_branch`（＝PR 画面の「Update branch」ボタン）は
+**merge で取り込むので、squash 後の再適用衝突が起きない。**
+
+```text
+update_pull_request_branch(owner, repo, pullNumber)
+  → "Pull request branch update is in progress"
+  → mergeable_state が clean になったらマージ
+```
+
+**`main` が数分おきに進む日はこれが速い。** 手元で rebase → force push を
+繰り返すと、その間にまた `main` が進んで堂々巡りになる。
+
 ## 併せて読む
 
 - 秘密を出さない・当て推量でファイルを作らない: `CLAUDE.md`「機械的な操作は `ops/tasks/` に置く」
