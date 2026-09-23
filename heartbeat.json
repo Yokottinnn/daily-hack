@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T08:20:06Z",
+  "generated_at": "2026-09-23T08:50:35Z",
   "login_lock": {"present": false, "age_hours": 0},
   "cdp": {"healthy": true, "port": 18810},
   "x_jobs": {"loaded": 8, "expected": 8, "ai_total": 14, "halted": false, "missing": []},
@@ -37,7 +37,7 @@
   "running": null,
   "auth": {
     "ok": true,
-    "expires_at": "2026-09-23T08:27:21Z",
+    "expires_at": "2026-09-23T16:27:50Z",
     "detail": "有効期限内"
   },
   "activity": {
