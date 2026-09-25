@@ -196,7 +196,7 @@ references:
 <tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/arucoin.png" alt="アルコインのロゴ" loading="lazy" /><strong><a href="https://arucoin.jp/" target="_blank" rel="noopener">アルコイン</a></strong></span></td><td><strong>数十〜200円</strong></td><td>利用者の公開実績（1か月で527コインの報告）</td><td>無料</td></tr>
 <tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/poisura.png" alt="ポイすらのロゴ" loading="lazy" /><strong><a href="https://poisura.com/" target="_blank" rel="noopener">ポイすら</a></strong></span></td><td><strong>数十〜数百円</strong></td><td>金のチケットの交換先次第。公式は額を公表していない</td><td>無料</td></tr>
 <tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/sugisapo.png" alt="スギサポwalk+のロゴ" loading="lazy" /><strong><a href="https://www.sugi-net.jp/sugisapo/" target="_blank" rel="noopener">スギサポwalk+</a></strong></span></td><td><strong>100円 前後</strong></td><td>利用者の公開実績。<strong>100スター＝1スギポイント、1,000スターから交換</strong>（公式）</td><td>無料</td></tr>
-<tr><td><strong><a href="https://healthcare.faq.rakuten.net/" target="_blank" rel="noopener">楽天ヘルスケア</a></strong></td><td><strong>100P 前後</strong></td><td>利用者の公開実績。<strong>くじは1P・5P・10P</strong>で、3日連続・7日連続で回数が増える</td><td>無料</td></tr>
+<tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/rakutenhealth.png" alt="" loading="lazy" /><strong><a href="https://healthcare.faq.rakuten.net/" target="_blank" rel="noopener">楽天ヘルスケア</a></strong></span></td><td><strong>100P 前後</strong></td><td>利用者の公開実績。<strong>くじは1P・5P・10P</strong>で、3日連続・7日連続で回数が増える</td><td>無料</td></tr>
 <tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/dhealth.png" alt="dヘルスケアのロゴ" loading="lazy" /><strong><a href="https://health.docomo.ne.jp/" target="_blank" rel="noopener">dヘルスケア</a></strong></span></td><td><strong>無料版は数十P／有料版は350P 前後</strong></td><td>利用者の公開実績。<strong>無料版はハズレ（0P）がある</strong></td><td>無料／月330円</td></tr>
 <tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/jalwellness.png" alt="JAL Wellness &amp; Travelのロゴ" loading="lazy" /><strong><a href="https://www.jal.co.jp/jp/ja/jmb/wellness/" target="_blank" rel="noopener">JAL Wellness &amp; Travel</a></strong></span></td><td><strong>300〜1,000マイル</strong></td><td>利用者の公開実績。<strong>歩数中心なら450〜600マイル</strong>が目安</td><td>月550円</td></tr>
 <tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/anapocket.png" alt="ANA Pocketのロゴ" loading="lazy" /><strong><a href="https://www.ana.co.jp/ja/jp/guide/ana-pocket/" target="_blank" rel="noopener">ANA Pocket</a></strong></span></td><td><strong>無料版60〜600マイル／Proは1,000マイル前後</strong></td><td>利用者の公開実績。<strong>無料版は1,000ポイントで2マイル</strong></td><td>無料／月550円</td></tr>
@@ -243,7 +243,7 @@ references:
 <div class="cmp-table-wrap">
 <table class="cmp-table spec-table">
   <tbody>
-    <tr><th>正式名</th><td>JAL Wellness & Travel</td></tr>
+    <tr><th>正式名</th><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/jalwellness.png" alt="" loading="lazy" />JAL Wellness & Travel</span></td></tr>
     <tr><th>提供元</th><td>JAL Brand Communications Co.,Ltd.</td></tr>
     <tr><th>貯まり方</th><td>歩数目標の達成で<strong>JALマイル</strong>。ボーナスマイルや抽選券も付く</td></tr>
     <tr><th>費用</th><td><strong>月額550円（初月無料）</strong></td></tr>
@@ -285,7 +285,7 @@ references:
 <div class="cmp-table-wrap">
 <table class="cmp-table spec-table">
   <tbody>
-    <tr><th>正式名</th><td>ANA Pocket 移動でポイントを交換！乗り物でもポイ活</td></tr>
+    <tr><th>正式名</th><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/anapocket.png" alt="" loading="lazy" />ANA Pocket 移動でポイントを交換！乗り物でもポイ活</span></td></tr>
     <tr><th>提供元</th><td>ANA X Inc.</td></tr>
     <tr><th>貯まり方</th><td>移動でポイント →「<strong>ガチャ</strong>」でANAマイル・他社ポイント・デジタルギフトに交換</td></tr>
     <tr><th>費用</th><td><strong>無料（有料プランあり）</strong></td></tr>
@@ -337,7 +337,7 @@ references:
 <div class="cmp-table-wrap">
 <table class="cmp-table spec-table">
   <tbody>
-    <tr><th>正式名</th><td>トリマ-歩数・移動でポイント！散歩やウォーキング、歩いて稼ぐ</td></tr>
+    <tr><th>正式名</th><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/torima.png" alt="" loading="lazy" />トリマ-歩数・移動でポイント！散歩やウォーキング、歩いて稼ぐ</span></td></tr>
     <tr><th>提供元</th><td>GeoTechnologies, Inc.</td></tr>
     <tr><th>貯まり方</th><td><strong>100マイル＝1円</strong>。歩数と移動距離の両方でマイルが貯まる</td></tr>
     <tr><th>費用</th><td><strong>無料</strong></td></tr>
@@ -378,7 +378,7 @@ references:
 <div class="cmp-table-wrap">
 <table class="cmp-table spec-table">
   <tbody>
-    <tr><th>正式名</th><td>楽天ヘルスケア-ポイ活アプリ！歩数計・移動でポイント貯める</td></tr>
+    <tr><th>正式名</th><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/rakutenhealth.png" alt="" loading="lazy" />楽天ヘルスケア-ポイ活アプリ！歩数計・移動でポイント貯める</span></td></tr>
     <tr><th>提供元</th><td>Rakuten Group, Inc.</td></tr>
     <tr><th>貯まり方</th><td><strong>1日5,000歩</strong>を達成すると翌日ラッキーくじ。<strong>抽選で毎回ポイントが変わる</strong></td></tr>
     <tr><th>費用</th><td><strong>無料</strong></td></tr>
@@ -395,7 +395,7 @@ references:
 <div class="cmp-table-wrap">
 <table class="cmp-table spec-table">
   <tbody>
-    <tr><th>正式名</th><td>dヘルスケア -歩数でdポイントがたまる健康管理アプリ-</td></tr>
+    <tr><th>正式名</th><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/dhealth.png" alt="" loading="lazy" />dヘルスケア -歩数でdポイントがたまる健康管理アプリ-</span></td></tr>
     <tr><th>提供元</th><td>NTT DOCOMO, INC.</td></tr>
     <tr><th>貯まり方</th><td>歩数・体重などのミッション達成で<strong>抽選</strong>。当たるとdポイント</td></tr>
     <tr><th>費用</th><td><strong>無料（有料コースあり）</strong></td></tr>
@@ -534,7 +534,7 @@ references:
 <div class="cmp-table-wrap">
 <table class="cmp-table spec-table">
   <tbody>
-    <tr><th>正式名</th><td>Coke ON(コークオン)</td></tr>
+    <tr><th>正式名</th><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/cokeon.png" alt="" loading="lazy" />Coke ON(コークオン)</span></td></tr>
     <tr><th>提供元</th><td>The Coca-Cola Company</td></tr>
     <tr><th>貯まり方</th><td>歩数目標の達成で<strong>スタンプ1個。15個でドリンクチケット1枚</strong>（1本無料）</td></tr>
     <tr><th>費用</th><td><strong>無料</strong></td></tr>
@@ -553,7 +553,7 @@ references:
 <div class="cmp-table-wrap">
 <table class="cmp-table spec-table">
   <tbody>
-    <tr><th>正式名</th><td>スギサポwalk+</td></tr>
+    <tr><th>正式名</th><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/sugisapo.png" alt="" loading="lazy" />スギサポwalk+</span></td></tr>
     <tr><th>提供元</th><td>SUGI WELLNESS CO., LTD.</td></tr>
     <tr><th>貯まり方</th><td>歩数目標の達成で<strong>スター</strong>（目標は所属リーグで変わる）。スターは<strong>スギポイント</strong>に交換</td></tr>
     <tr><th>費用</th><td><strong>無料</strong></td></tr>
@@ -617,7 +617,7 @@ references:
 <thead><tr><th>サービス</th><th>初期投資</th><th>仕組み</th></tr></thead>
 <tbody>
 <tr class="recommended"><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/bitwalk.png" alt="BitWalkのロゴ" loading="lazy" /><strong><a href="https://coinpost.jp/crypto/move-to-earn/bitwalk/" target="_blank" rel="noopener">BitWalk</a></strong></span></td><td><strong>不要</strong></td><td>歩数でスタンプ（<strong>1日 最大40・20,000歩</strong>）→ ビットコイン。<strong>広告収益の還元型</strong>でブロックチェーンは介さない</td></tr>
-<tr><td><strong><a href="https://hedge.guide/feature/healthree-bc202307.html" target="_blank" rel="noopener">HEALTHREE（ヘルスリー）</a></strong></td><td><strong>不要</strong>（NFTは任意）</td><td>Astar上の国産Move to Earn。歩いて$UHTを獲得し、<strong>アバターを育てるRPG</strong>要素つき</td></tr>
+<tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/healthree.png" alt="" loading="lazy" /><strong><a href="https://hedge.guide/feature/healthree-bc202307.html" target="_blank" rel="noopener">HEALTHREE（ヘルスリー）</a></strong></span></td><td><strong>不要</strong>（NFTは任意）</td><td>Astar上の国産Move to Earn。歩いて$UHTを獲得し、<strong>アバターを育てるRPG</strong>要素つき</td></tr>
 <tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/stellawalk.png" alt="ステラウォークのロゴ" loading="lazy" /><strong><a href="https://apps.apple.com/jp/app/%E3%82%B9%E3%83%86%E3%83%A9%E3%82%A6%E3%82%A9%E3%83%BC%E3%82%AF-%E6%AD%A9%E3%81%8F%E3%81%A0%E3%81%91%E3%81%A7%E6%9A%97%E5%8F%B7%E8%B3%87%E7%94%A3%E3%81%8C%E8%B2%B0%E3%81%88%E3%82%8B/id1599065744" target="_blank" rel="noopener">ステラウォーク</a></strong></span></td><td>不要</td><td>歩数で<strong>ステラルーメン（XLM）</strong>がもらえる</td></tr>
 <tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/sweatcoin.png" alt="Sweatcoinのロゴ" loading="lazy" /><strong><a href="https://apps.apple.com/jp/app/sweatcoin-%E3%81%86%E3%81%89%E3%83%BC%E3%81%8D%E3%82%93%E3%81%90%E3%81%82%E3%81%B7%E3%82%8A-%E6%AD%A9%E3%81%8F/id971023427" target="_blank" rel="noopener">Sweatcoin</a></strong></span></td><td>不要</td><td><strong>NFTの要素が無い</strong>。SWEATは国内取引所で扱いがなく、換金は海外経由</td></tr>
 <tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/stepn.png" alt="STEPNのロゴ" loading="lazy" /><strong><a href="https://apps.apple.com/jp/app/stepn/id1598112424" target="_blank" rel="noopener">STEPN</a></strong></span></td><td><strong>必要</strong></td><td>NFTスニーカーを買って走る。<strong>GSTは2022年のピークから1円未満まで下落</strong></td></tr>
@@ -697,7 +697,7 @@ references:
 <div class="cmp-table-wrap">
 <table class="cmp-table spec-table">
   <tbody>
-    <tr><th>正式名</th><td>STEPN</td></tr>
+    <tr><th>正式名</th><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/stepn.png" alt="" loading="lazy" />STEPN</span></td></tr>
     <tr><th>提供元</th><td>FindSatoshi Lab Limited</td></tr>
     <tr><th>貯まり方</th><td>歩いて<strong>GST</strong>。ただし<strong>NFTスニーカーを先に買う</strong>必要がある</td></tr>
     <tr><th>費用</th><td><strong>初期投資が必要</strong></td></tr>
@@ -766,8 +766,8 @@ references:
 <table class="cmp-table prose-table">
 <thead><tr><th>制度</th><th>歩くと何が起きるか</th><th>入り口</th></tr></thead>
 <tbody>
-<tr class="recommended"><td><strong>住友生命 Vitality</strong></td><td>歩数や運動がポイント化され、<strong>累計ポイントでステータスが決まり、保険料が変動する</strong></td><td><a href="https://vitality.sumitomolife.co.jp/about/status/" target="_blank" rel="noopener">住友生命「Vitality」</a></td></tr>
-<tr><td><strong>東京健康UPlus</strong></td><td>区市町村の健康ポイント事業に参加し一定数を貯めると、<strong>都の優待カードと東京ポイント1,000pt</strong></td><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/uplus.png" alt="" loading="lazy" /><a href="https://kenkou-uplus.metro.tokyo.lg.jp/" target="_blank" rel="noopener">東京健康UPlus</a></span></td></tr>
+<tr class="recommended"><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/vitality.png" alt="" loading="lazy" /><strong>住友生命 Vitality</strong></span></td><td>歩数や運動がポイント化され、<strong>累計ポイントでステータスが決まり、保険料が変動する</strong></td><td><a href="https://vitality.sumitomolife.co.jp/about/status/" target="_blank" rel="noopener">住友生命「Vitality」</a></td></tr>
+<tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/uplus.png" alt="" loading="lazy" /><strong>東京健康UPlus</strong></span></td><td>区市町村の健康ポイント事業に参加し一定数を貯めると、<strong>都の優待カードと東京ポイント1,000pt</strong></td><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/uplus.png" alt="" loading="lazy" /><a href="https://kenkou-uplus.metro.tokyo.lg.jp/" target="_blank" rel="noopener">東京健康UPlus</a></span></td></tr>
 <tr><td><strong>各自治体の健康ポイント</strong></td><td>歩く・健診を受ける・イベント参加で、<strong>地域の特産品や商品券</strong></td><td>お住まいの区市町村</td></tr>
 </tbody>
 </table>
@@ -806,7 +806,7 @@ references:
 <div class="cmp-table-wrap">
 <table class="cmp-table spec-table">
   <tbody>
-    <tr><th>正式名</th><td>kencom(ケンコム)</td></tr>
+    <tr><th>正式名</th><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/kencom.png" alt="" loading="lazy" />kencom(ケンコム)</span></td></tr>
     <tr><th>提供元</th><td>DeSC Healthcare Inc.</td></tr>
     <tr><th>貯まり方</th><td>歩数などの達成で<strong>コイン</strong>。ギフトチャレンジ（抽選）に使える。<strong>健保加入者向け</strong></td></tr>
     <tr><th>費用</th><td><strong>健保加入者向け</strong></td></tr>

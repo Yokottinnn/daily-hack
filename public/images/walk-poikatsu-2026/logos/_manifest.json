@@ -182,5 +182,33 @@
     "fetched": "2026-09-20",
     "license_note": "公式サイトのロゴ画像（商標）",
     "task": "ops/tasks/t128-logos-retry4.sh"
+  },
+  "rakutenhealth.png": {
+    "brand": "楽天ヘルスケア-ポイ活アプリ！歩数計・移動でポイント貯める",
+    "source": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/51/c0/28/51c0282e-3d86-354e-65df-7eda10d71e88/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/512x512bb.jpg",
+    "page": "https://apps.apple.com/jp/app/id1585068047",
+    "source_type": "App Store の登録アイコン（artworkUrl512・商標）",
+    "seller": "Rakuten Group, Inc.",
+    "fetched": "2026-09-23",
+    "task": "ops/tasks/t185-appstore-icons.sh",
+    "copied_from": "public/images/point-service-complete-guide-2026/logos/rakutenhealth.png"
+  },
+  "uplus.png": {
+    "brand": "東京健康UPlus",
+    "file": "uplus.png",
+    "source": "https://kenkou-uplus.metro.tokyo.lg.jp/common/img/og.png",
+    "page": "https://kenkou-uplus.metro.tokyo.lg.jp/",
+    "license_note": "公式サイト（商標）",
+    "width": 600,
+    "height": 303
+  },
+  "kencom.png": {
+    "brand": "kencom",
+    "file": "kencom.png",
+    "source": "https://img-a.kencom.jp/assets/common/og_image-18816b43025dc6c4d2429c0e286257b1.png",
+    "page": "https://kencom.jp/",
+    "license_note": "公式サイト（商標）",
+    "width": 600,
+    "height": 315
   }
 }

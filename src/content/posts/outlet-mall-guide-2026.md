@@ -77,8 +77,8 @@ author: "hacker-ko"
     <tbody>
       <tr class="recommended"><td>1</td><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/outlet-mall-guide-2026/logos/premium.png" alt="" loading="lazy" /><a href="https://www.premiumoutlets.co.jp/gotemba/" target="_blank" rel="noopener">御殿場プレミアム・アウトレット</a></span></td><td>三菱地所サイモン</td><td><strong>1,409億円</strong></td><td>+13.7%</td></tr>
       <tr><td>2</td><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/outlet-mall-guide-2026/logos/premium.png" alt="" loading="lazy" /><a href="https://www.premiumoutlets.co.jp/kobesanda/" target="_blank" rel="noopener">神戸三田プレミアム・アウトレット</a></span></td><td>三菱地所サイモン</td><td>742億円</td><td>+10.1%</td></tr>
-      <tr><td>3</td><td><a href="https://mitsui-shopping-park.com/mop/kisarazu/" target="_blank" rel="noopener">三井アウトレットパーク木更津</a></td><td>三井不動産</td><td>690億円</td><td>+8%</td></tr>
-      <tr><td>4</td><td><a href="https://mitsui-shopping-park.com/mop/nagashima/" target="_blank" rel="noopener">MOPジャズドリーム長島</a></td><td>三井不動産</td><td>610億円</td><td>—</td></tr>
+      <tr><td>3</td><td><a href="https://mitsui-shopping-park.com/mop/kisarazu/" target="_blank" rel="noopener">三井アウトレットパーク木更津</a></td><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/outlet-mall-guide-2026/logos/mitsuifudosan.png" alt="" loading="lazy" />三井不動産</span></td><td>690億円</td><td>+8%</td></tr>
+      <tr><td>4</td><td><a href="https://mitsui-shopping-park.com/mop/nagashima/" target="_blank" rel="noopener">MOPジャズドリーム長島</a></td><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/outlet-mall-guide-2026/logos/mitsuifudosan.png" alt="" loading="lazy" />三井不動産</span></td><td>610億円</td><td>—</td></tr>
       <tr><td>5</td><td><a href="https://www.karuizawa-psp.jp/" target="_blank" rel="noopener">軽井沢・プリンスショッピングプラザ</a></td><td>西武不動産</td><td>590億円</td><td>+4.4%</td></tr>
       <tr><td>6</td><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/outlet-mall-guide-2026/logos/premium.png" alt="" loading="lazy" /><a href="https://www.premiumoutlets.co.jp/rinku/" target="_blank" rel="noopener">りんくうプレミアム・アウトレット</a></span></td><td>三菱地所サイモン</td><td>556億円</td><td>+10.7%</td></tr>
     </tbody>
@@ -97,7 +97,7 @@ author: "hacker-ko"
 
 <div class="cmp-table-wrap">
   <table class="cmp-table">
-    <thead><tr><th>項目</th><th>三井アウトレットパーク（MOP）</th><th>プレミアム・アウトレット（PO）</th></tr></thead>
+    <thead><tr><th>項目</th><th>三井アウトレットパーク（MOP）</th><th><span class="cell-brand"><img class="brand-logo-sm" src="/images/outlet-mall-guide-2026/logos/premium.png" alt="" loading="lazy" />プレミアム・アウトレット（PO）</span></th></tr></thead>
     <tbody>
       <tr><td>運営会社</td><td>三井不動産商業マネジメント</td><td>三菱地所・サイモン<br>（三菱地所60%／米サイモン40%）</td></tr>
       <tr class="recommended"><td>国内施設数</td><td><strong>14</strong>（国内最多）</td><td>10</td></tr>
@@ -141,9 +141,9 @@ author: "hacker-ko"
   <table class="cmp-table">
     <thead><tr><th>運営会社</th><th>ブランド</th><th>施設数</th></tr></thead>
     <tbody>
-      <tr class="recommended"><td>三井不動産グループ</td><td>三井アウトレットパーク</td><td><strong>14</strong></td></tr>
-      <tr class="recommended"><td>三菱地所・サイモン</td><td>プレミアム・アウトレット</td><td><strong>10</strong></td></tr>
-      <tr><td>イオンモール</td><td>THE OUTLETS（3）＋レイクタウンアウトレット（1）</td><td>4</td></tr>
+      <tr class="recommended"><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/outlet-mall-guide-2026/logos/mitsuifudosan.png" alt="" loading="lazy" />三井不動産グループ</span></td><td>三井アウトレットパーク</td><td><strong>14</strong></td></tr>
+      <tr class="recommended"><td>三菱地所・サイモン</td><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/outlet-mall-guide-2026/logos/premium.png" alt="" loading="lazy" />プレミアム・アウトレット</span></td><td><strong>10</strong></td></tr>
+      <tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/outlet-mall-guide-2026/logos/aeonmall.png" alt="" loading="lazy" />イオンモール</span></td><td>THE OUTLETS（3）＋レイクタウンアウトレット（1）</td><td>4</td></tr>
       <tr><td>西武不動産</td><td>軽井沢・プリンスショッピングプラザ</td><td>1</td></tr>
       <tr><td>双日商業開発</td><td>那須ガーデンアウトレット</td><td>1</td></tr>
       <tr><td>大和ハウス系</td><td>沖縄アウトレットモール あしびなー</td><td>1</td></tr>
@@ -277,7 +277,7 @@ author: "hacker-ko"
     <thead><tr><th>運営</th><th>アプリ／決済</th><th>ポイント</th></tr></thead>
     <tbody>
       <tr class="recommended"><td>三井（MOP）</td><td>三井ショッピングパークアプリ（累計1,000万DL）＋アプリde支払い</td><td>メダルランクで<strong>3〜5%</strong>還元</td></tr>
-      <tr class="recommended"><td>三菱地所サイモン（PO）</td><td>プレミアム・アウトレットアプリ＋<strong>PO PAY</strong></td><td>PO PAYリワードで0.5〜1.5%＋三菱地所グループCARD連携</td></tr>
+      <tr class="recommended"><td>三菱地所サイモン（PO）</td><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/outlet-mall-guide-2026/logos/premium.png" alt="" loading="lazy" />プレミアム・アウトレットアプリ＋<strong>PO PAY</strong></span></td><td>PO PAYリワードで0.5〜1.5%＋三菱地所グループCARD連携</td></tr>
       <tr><td>イオン（THE OUTLETS）</td><td>iAEONアプリ</td><td>WAON POINT</td></tr>
       <tr><td>西武（軽井沢）</td><td>—</td><td>施設独自のクーポン・優待</td></tr>
     </tbody>

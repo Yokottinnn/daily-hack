@@ -17,5 +17,32 @@
     "license_note": "公式サイト（商標）",
     "width": 600,
     "height": 311
+  },
+  "mitsuifudosan.png": {
+    "brand": "三井不動産",
+    "source": "https://commons.wikimedia.org/wiki/File:Mitsui_Fudosan_Logo_1991.svg",
+    "page": "https://commons.wikimedia.org/wiki/File:Mitsui_Fudosan_Logo_1991.svg",
+    "fetched": "2026-09-20",
+    "license_note": "Public domain（コモンズの表記）。商標であることに変わりはない",
+    "task": "ops/tasks/t122-logos-retry3.sh",
+    "copied_from": "public/images/lalaport-guide-2026/logos/mitsuifudosan.png"
+  },
+  "premium.png": {
+    "brand": "プレミアム・アウトレット",
+    "file": "premium.png",
+    "source": "https://www.premiumoutlets.co.jp/_assets/images/common/ogp/po.png",
+    "page": "https://www.premiumoutlets.co.jp/",
+    "license_note": "公式サイト（商標）",
+    "width": 600,
+    "height": 312
+  },
+  "aeonmall.png": {
+    "brand": "イオンモール",
+    "file": "aeonmall.png",
+    "source": "https://www.aeonmall.com/img/common/ogp.png",
+    "page": "https://www.aeonmall.com/",
+    "license_note": "公式サイト（商標）",
+    "width": 600,
+    "height": 311
   }
 }

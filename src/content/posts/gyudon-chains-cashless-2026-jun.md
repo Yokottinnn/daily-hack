@@ -29,9 +29,9 @@ references: ["https://www.matsuyafoods.co.jp/matsuya/whatsnew/campaign/154328.ht
 |:---|:---|:---:|:---:|
 | 🥇 松屋ヘビー | 松屋アプリ事前注文 × d払い | **15-20%**（+PayPay 40% 6/15-16） | 6/1-6/20 |
 | 🥈 すき家・なか卯メイン | 三井住友カードNL × ゼンショー共通ポイント15倍 | **約22.5%相当** | 毎月 |
-| 🥉 吉野家派 | d払いテイクアウト | **20%** | 〜6/6 |
+| <span class="cell-brand"><img class="brand-logo-sm" src="/images/gyudon-chains-cashless-2026-jun/logos/yoshinoya.png" alt="" loading="lazy" />🥉 吉野家派</span> | d払いテイクアウト | **20%** | 〜6/6 |
 | 🎯 家族で週2回以上 | 4チェーン曜日別回し | **月4,800円浮く** | 通年 |
-| 📱 PayPay経済圏 | 松屋（6/15-16）≫ 松屋通常 ≫ 吉野家 | **40%** | 6/15-16 |
+| <span class="cell-brand"><img class="brand-logo-sm" src="/images/gyudon-chains-cashless-2026-jun/logos/paypay.png" alt="" loading="lazy" />📱 PayPay経済圏</span> | 松屋（6/15-16）≫ 松屋通常 ≫ 吉野家 | **40%** | 6/15-16 |
 
 > 💡 **詳細はこの後の章で**：[松屋60周年4大コード決済キャンペーン徹底比較](/posts/matsuya-60th-cashless-2026-jun/)（PayPay 40%・d払い 20%・楽天ペイ 10%・au PAY ランキング賞の使い分け）。吉野家・すき家・なか卯のPayPayは通常0.5%なので、**牛丼チェーンでPayPayを使うなら松屋一択**。
 
@@ -45,13 +45,13 @@ references: ["https://www.matsuyafoods.co.jp/matsuya/whatsnew/campaign/154328.ht
 
 ## 📊 4チェーン × 主要決済 還元率早見表（2026年6月）
 
-| 決済 | 🐂 松屋（60周年） | 🐂 吉野家 | 🐂 すき家（ゼンショー） | 🐂 なか卯（ゼンショー） |
+| 決済 | 🐂 松屋（60周年） | <span class="cell-brand"><img class="brand-logo-sm" src="/images/gyudon-chains-cashless-2026-jun/logos/yoshinoya.png" alt="" loading="lazy" />🐂 吉野家</span> | 🐂 すき家（ゼンショー） | 🐂 なか卯（ゼンショー） |
 |:---:|:---:|:---:|:---:|:---:|
-| **PayPay** | 🏆 **40%**（6/15-16）／ 10%（6/1-30） | 0.5% | 0.5% | 5%（クーポン併用時） |
+| <span class="cell-brand"><img class="brand-logo-sm" src="/images/gyudon-chains-cashless-2026-jun/logos/paypay.png" alt="" loading="lazy" />**PayPay**</span> | 🏆 **40%**（6/15-16）／ 10%（6/1-30） | 0.5% | 0.5% | 5%（クーポン併用時） |
 | **d払い** | 🏆 **20%**（新規/既存15% 6/1-20） | 🏆 **20%**（テイクアウト〜6/6） | 1.5%+ポイント15倍 | 1.5%+ポイント15倍 |
-| **楽天ペイ** | スタンプラリー10%（6/1-30） | 2.0%（カードチャージ+ポイント提示） | 2.0%＋ポイント15倍 | 2.0%＋ポイント15倍 |
+| <span class="cell-brand"><img class="brand-logo-sm" src="/images/gyudon-chains-cashless-2026-jun/logos/rakutenpay.png" alt="" loading="lazy" />**楽天ペイ**</span> | スタンプラリー10%（6/1-30） | 2.0%（カードチャージ+ポイント提示） | 2.0%＋ポイント15倍 | 2.0%＋ポイント15倍 |
 | **au PAY** | Pontaポイント特典（〜6/30） | 通常 | 通常 | 通常 |
-| **三井住友カードNL** | 通常 | 通常 | 🏆 **7%**（タッチ/モバイル） | 🏆 **7%**（タッチ/モバイル） |
+| <span class="cell-brand"><img class="brand-logo-sm" src="/images/gyudon-chains-cashless-2026-jun/logos/smbccard.png" alt="" loading="lazy" />**三井住友カードNL**</span> | 通常 | 通常 | 🏆 **7%**（タッチ/モバイル） | 🏆 **7%**（タッチ/モバイル） |
 | **ゼンショー共通ポイント** | × | × | 🏆 最大15倍（来店連動） | 🏆 最大15倍（来店連動） |
 | **エントリー要否** | 要 | 要（d払い側） | 要（月毎） | 要（月毎） |
 | **対象注文方法** | 松弁ネット/松屋アプリ（事前決済） | 吉野家アプリ・d払いから事前注文 | 店頭・モバイル両方 | 店頭・モバイル両方 |
@@ -67,9 +67,9 @@ references: ["https://www.matsuyafoods.co.jp/matsuya/whatsnew/campaign/154328.ht
 <div class="cmp-table-wrap">
   <table class="cmp-table spec-table">
     <tbody>
-      <tr><th>PayPay</th><td>6/15-16 の2日限定で<strong>最大40%還元（350pt/回上限）</strong>。6/1-30 は通常<strong>10%還元（200pt/回上限）</strong>。要松屋アプリ事前注文 + 800円以上</td></tr>
+      <tr><th><span class="cell-brand"><img class="brand-logo-sm" src="/images/gyudon-chains-cashless-2026-jun/logos/paypay.png" alt="" loading="lazy" />PayPay</span></th><td>6/15-16 の2日限定で<strong>最大40%還元（350pt/回上限）</strong>。6/1-30 は通常<strong>10%還元（200pt/回上限）</strong>。要松屋アプリ事前注文 + 800円以上</td></tr>
       <tr><th>d払い</th><td>6/1-6/20、既存ユーザ<strong>+15%還元</strong>／新規・復帰<strong>+20%還元</strong>。上限 1回 300pt・期間 5,000pt</td></tr>
-      <tr><th>楽天ペイ</th><td>6/1-6/30、スタンプラリー方式で楽天ポイント<strong>最大10%還元</strong>（上限 2,000pt）+ 上位600名 6,000pt</td></tr>
+      <tr><th><span class="cell-brand"><img class="brand-logo-sm" src="/images/gyudon-chains-cashless-2026-jun/logos/rakutenpay.png" alt="" loading="lazy" />楽天ペイ</span></th><td>6/1-6/30、スタンプラリー方式で楽天ポイント<strong>最大10%還元</strong>（上限 2,000pt）+ 上位600名 6,000pt</td></tr>
       <tr><th>au PAY</th><td>6/1-6/30、Pontaポイント最大300pt+上位10,000名ランキング賞</td></tr>
       <tr><th>対象注文方法</th><td>松弁ネット / 松屋モバイルオーダー / 松弁デリバリー（事前決済のみ）</td></tr>
     </tbody>
@@ -84,8 +84,8 @@ references: ["https://www.matsuyafoods.co.jp/matsuya/whatsnew/campaign/154328.ht
   <table class="cmp-table spec-table">
     <tbody>
       <tr><th>d払い</th><td>d払いの「予約・注文サービス」内「<strong>吉野家テイクアウト</strong>」専用、<strong>通常還元 + 20%還元</strong>（〜2026年6月6日）</td></tr>
-      <tr><th>楽天ペイ</th><td>楽天カードからチャージ → 楽天ペイ決済（1.5%）+ 楽天ポイントカード提示（0.5%）= <strong>2.0%還元</strong></td></tr>
-      <tr><th>PayPay</th><td>基本還元率 0.5%（200円=1pt）。クーポン配布時のみ最大5%</td></tr>
+      <tr><th><span class="cell-brand"><img class="brand-logo-sm" src="/images/gyudon-chains-cashless-2026-jun/logos/rakutenpay.png" alt="" loading="lazy" />楽天ペイ</span></th><td>楽天カードからチャージ → 楽天ペイ決済（1.5%）+ 楽天ポイントカード提示（0.5%）= <strong>2.0%還元</strong></td></tr>
+      <tr><th><span class="cell-brand"><img class="brand-logo-sm" src="/images/gyudon-chains-cashless-2026-jun/logos/paypay.png" alt="" loading="lazy" />PayPay</span></th><td>基本還元率 0.5%（200円=1pt）。クーポン配布時のみ最大5%</td></tr>
       <tr><th>対応決済</th><td>PayPay/d払い/楽天ペイ/au PAY/メルペイ/クオカードPay/AliPay/WeChatPay</td></tr>
       <tr><th>その他</th><td>吉野家公式アプリにクーポン配信あり（牛丼並大盛り無料券、サイドメニュー無料券など）</td></tr>
     </tbody>
@@ -113,7 +113,7 @@ references: ["https://www.matsuyafoods.co.jp/matsuya/whatsnew/campaign/154328.ht
       <tr><th>🏆 三井住友カードNL/CL/Gold</th><td>タッチ決済 or モバイルオーダーで<strong>7%還元</strong>（すき家と同じ仕様）</td></tr>
       <tr><th>🏆 ゼンショー共通ポイント</th><td>dポイント・Vポイント・楽天ポイント が<strong>最大15倍</strong>（来店回数連動、すき家と同じ仕様）</td></tr>
       <tr><th>公式アプリクーポン</th><td>50円引きなどの基本クーポン</td></tr>
-      <tr><th>PayPay</th><td>基本 0.5%、クーポン併用時最大5%</td></tr>
+      <tr><th><span class="cell-brand"><img class="brand-logo-sm" src="/images/gyudon-chains-cashless-2026-jun/logos/paypay.png" alt="" loading="lazy" />PayPay</span></th><td>基本 0.5%、クーポン併用時最大5%</td></tr>
       <tr><th>三段重ね</th><td>公式アプリクーポン50円引き + PayPay 5%付与 + dポイント15倍 = <strong>3つ同時OK</strong></td></tr>
       <tr><th>対応決済</th><td>PayPay/メルペイ/au PAY/d払い/楽天ペイ/J-Coin Pay/イオンペイ/AliPay/WeChat Pay</td></tr>
     </tbody>
@@ -160,7 +160,7 @@ references: ["https://www.matsuyafoods.co.jp/matsuya/whatsnew/campaign/154328.ht
 | 経済圏 | ステップ1 | ステップ2 | ステップ3 |
 |:---|:---|:---|:---|
 | 💚 **d払い・ドコモ** | 6/1-20 松屋アプリ事前注文（既存15%/新規20%） | 〜6/6 吉野家テイクアウト 20% | すき家・なか卯（d払い1.5% + ゼンショー15倍） |
-| 💴 **PayPay** | 6/15-16 松屋 PayPay 40%（必中） | 6/1-30 松屋通常PayPay 10% | 吉野家・すき家・なか卯はPayPay使わず別経済圏で |
+| <span class="cell-brand"><img class="brand-logo-sm" src="/images/gyudon-chains-cashless-2026-jun/logos/paypay.png" alt="" loading="lazy" />💴 **PayPay**</span> | 6/15-16 松屋 PayPay 40%（必中） | 6/1-30 松屋通常PayPay 10% | 吉野家・すき家・なか卯はPayPay使わず別経済圏で |
 | 🔴 **楽天** | 6/1-30 松屋楽天ペイ スタンプラリー10% | 吉野家・すき家・なか卯 楽天ペイ 2.0% | ゼンショー共通楽天ポイント15倍 |
 | 🟠 **au・Ponta** | 6/1-30 松屋au PAY ランキング賞狙い | すき家・なか卯のゼンショー共通ポイント15倍（Ponta対象） | — |
 | 💳 **三井住友（Vポイント）** | すき家・なか卯でカード7%還元（NL/CL/Gold） | Vポイント15倍 = **約22.5%還元相当** | **毎月コツコツ派の最強路線** |
