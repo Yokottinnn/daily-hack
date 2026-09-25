@@ -14,7 +14,8 @@
     "typecheck": "astro check --minimumSeverity error",
     "handoff": "node scripts/session-handoff.mjs",
     "test:hooks": "for t in .claude/hooks/test-*.py; do echo \"--- $t ---\"; python3 \"$t\" || exit 1; done",
-    "prepare": "husky"
+    "prepare": "husky",
+    "logos:missing": "node scripts/find-missing-logos.mjs"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.128.0",
