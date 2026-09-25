@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-25T02:10:37Z",
+  "generated_at": "2026-09-25T02:40:48Z",
   "login_lock": {"present": false, "age_hours": 0},
   "cdp": {"healthy": true, "port": 18810},
   "x_jobs": {"loaded": 8, "expected": 8, "ai_total": 14, "halted": false, "missing": []},
   "last_reply": {"at": "2026-09-24T20:04:26.379Z", "age_hours": 6, "stale": false},
   "supervisor": {"at":"2026-09-24T20:04:38Z","date_jst":"2026-09-25","ran":9,"total":9,"not_run":[],"fixed":[]},
-  "followback_bands": {"with_count":150,"total_rows":500,"bands":{"1000-4999":{"n":51,"back":7,"mature":38,"mature_back":7,"rate":18.4},"300-999":{"n":27,"back":9,"mature":20,"mature_back":9,"rate":45},"0-99":{"n":36,"back":8,"mature":28,"mature_back":8,"rate":28.6},"5000-49999":{"n":27,"back":1,"mature":25,"mature_back":1,"rate":4},"100-299":{"n":9,"back":1,"mature":5,"mature_back":1,"rate":20}},"status_values":{"no":373,"revenge_ghost_already_unfollowed":48,"unfollowed":16,"yes_late":1,"yes":47,"pending":15},"note":"mature の率で見る"},
+  "followback_bands": {"with_count":153,"total_rows":503,"bands":{"1000-4999":{"n":53,"back":7,"mature":42,"mature_back":7,"rate":16.7},"300-999":{"n":27,"back":9,"mature":20,"mature_back":9,"rate":45},"0-99":{"n":37,"back":8,"mature":28,"mature_back":8,"rate":28.6},"5000-49999":{"n":27,"back":1,"mature":25,"mature_back":1,"rate":4},"100-299":{"n":9,"back":1,"mature":5,"mature_back":1,"rate":20}},"status_values":{"no":373,"revenge_ghost_already_unfollowed":48,"unfollowed":16,"yes_late":1,"yes":47,"pending":18},"note":"mature の率で見る"},
   "host": "NaokinoMacBook-Pro-2.local",
   "job_count": 22,
   "jobs": [
@@ -36,9 +36,9 @@
   "tasks": [],
   "running": null,
   "auth": {
-    "ok": true,
+    "ok": false,
     "expires_at": "2026-09-25T02:35:58Z",
-    "detail": "有効期限内"
+    "detail": "トークンの有効期限を過ぎている"
   },
   "activity": {
     "date": "2026-09-25",
