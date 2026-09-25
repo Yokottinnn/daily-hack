@@ -31,5 +31,32 @@
     "fetched": "2026-09-04",
     "copied_from": "public/images/morning-500-2026/logos/yoshinoya.png",
     "recorded": "2026-09-23"
+  },
+  "paypay.png": {
+    "brand": "PayPay",
+    "source": "https://travel.yahoo.co.jp/ 上の PayPay アイコン",
+    "page": "https://travel.yahoo.co.jp/ 上の PayPay アイコン",
+    "fetched": "2026-09-20",
+    "license_note": "商標。識別目的で使用",
+    "task": "ops/tasks/t130-*.sh",
+    "copied_from": "public/images/june-2026-campaigns-roundup/logos/paypay.png",
+    "copied": "2026-09-22"
+  },
+  "rakutenpay.png": {
+    "brand": "楽天ペイ",
+    "source": "https://pay.rakuten.co.jp/",
+    "page": "https://pay.rakuten.co.jp/",
+    "fetched": "2026-09-20",
+    "license_note": "商標。識別目的で使用",
+    "task": "ops/tasks/t132-*.sh",
+    "copied_from": "public/images/credit-card-kaiaku-2026/logos/rakutenpay.png",
+    "copied": "2026-09-21"
+  },
+  "smbccard.png": {
+    "brand": "三井住友カード",
+    "source": "（既存。`credit-card-kaiaku-2026` からコピー）",
+    "copied_from": "public/images/cardloan-comparison-2026/logos/smbccard.png",
+    "copied": "2026-09-23",
+    "license_note": "商標。識別目的で使用"
   }
 }
