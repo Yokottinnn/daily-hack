@@ -30,7 +30,7 @@ references: ["https://fx.dmm.com/", "https://www.gaitame.com/", "https://min-fx.
     <thead><tr><th>こういう人</th><th>向いている口座</th><th>理由</th></tr></thead>
     <tbody>
       <tr class="recommended"><td><strong>初心者全般</strong></td><td><a href="https://fx.dmm.com/" target="_blank" rel="noopener nofollow">DMM FX</a></td><td>最大30万円キャッシュバック・LINEサポート24h</td></tr>
-      <tr><td><strong>手厚いサポート派</strong></td><td><a href="https://www.gaitame.com/" target="_blank" rel="noopener nofollow">外為どっとコム</a></td><td>24時間電話サポート・最大40万円CB</td></tr>
+      <tr><td><strong>手厚いサポート派</strong></td><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/fx-account-comparison-2026/logos/gaitame.png" alt="" loading="lazy" /><a href="https://www.gaitame.com/" target="_blank" rel="noopener nofollow">外為どっとコム</a></span></td><td>24時間電話サポート・最大40万円CB</td></tr>
       <tr><td><strong>取引コスト最重視</strong></td><td><a href="https://www.click-sec.com/corp/fx/" target="_blank" rel="noopener nofollow">GMOクリック証券</a></td><td>取引高 12年連続世界1位・スプレッド0.2銭・最大55万円CB</td></tr>
       <tr><td><strong>楽天経済圏</strong></td><td><a href="https://www.rakuten-sec.co.jp/fx/" target="_blank" rel="noopener nofollow">楽天FX</a></td><td>楽天ポイントが貯まる・MarketSpeed FX</td></tr>
       <tr><td><strong>少額スタート</strong></td><td><a href="https://www.matsui.co.jp/service/fx/" target="_blank" rel="noopener nofollow">松井FX</a> ／ <a href="https://www.sbifxt.co.jp/" target="_blank" rel="noopener nofollow">SBI FXトレード</a></td><td>1通貨単位から。約5円分のポジションで始められる</td></tr>
@@ -129,7 +129,7 @@ references: ["https://fx.dmm.com/", "https://www.gaitame.com/", "https://min-fx.
       <tr><th>サポート</th><td><strong>24時間電話サポート</strong>（業界唯一）、初心者セミナー無料、為替レポート豊富</td></tr>
       <tr><th>強み</th><td>「人に聞きながら学びたい」派の最適解、口座開設後の電話サポートで挫折率低い</td></tr>
       <tr><th>注意</th><td>スマホアプリは標準的（DMMほどではない）</td></tr>
-      <tr><th>公式サイト</th><td><a href="https://www.gaitame.com/" target="_blank" rel="noopener nofollow">外為どっとコム 公式</a></td></tr>
+      <tr><th>公式サイト</th><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/fx-account-comparison-2026/logos/gaitame.png" alt="" loading="lazy" /><a href="https://www.gaitame.com/" target="_blank" rel="noopener nofollow">外為どっとコム 公式</a></span></td></tr>
     </tbody>
   </table>
 </div>
@@ -211,7 +211,7 @@ references: ["https://fx.dmm.com/", "https://www.gaitame.com/", "https://min-fx.
       <tr><th>取引ツール</th><td>SBI FXTRADE（PC・スマホアプリ統合）</td></tr>
       <tr><th>強み</th><td><strong>1通貨スタート × スプレッド最狭</strong> という珍しい組合せ、SBI証券グループの信頼性</td></tr>
       <tr><th>注意</th><td>取引ツールはやや独自仕様、慣れるまで時間かかる</td></tr>
-      <tr><th>公式サイト</th><td><a href="https://www.sbifxt.co.jp/" target="_blank" rel="noopener nofollow">SBI FXトレード 公式</a></td></tr>
+      <tr><th>公式サイト</th><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/fx-account-comparison-2026/logos/sbifx.png" alt="" loading="lazy" /><a href="https://www.sbifxt.co.jp/" target="_blank" rel="noopener nofollow">SBI FXトレード 公式</a></span></td></tr>
     </tbody>
   </table>
 </div>

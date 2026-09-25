@@ -28,7 +28,7 @@ references: ["https://www.anapocket.com/pro", "https://www.jal.co.jp/jp/ja/jmb/w
 
 | 比較軸 | <span class="cell-brand"><img class="brand-logo-sm" src="/images/ana-pocket-vs-jal-wellness-2026/logos/anapocket.png" alt="" loading="lazy" /><a href="https://www.anapocket.com/pro" target="_blank" rel="noopener nofollow">ANA Pocket</a></span> | <span class="cell-brand"><img class="brand-logo-sm" src="/images/ana-pocket-vs-jal-wellness-2026/logos/jalwellness.png" alt="" loading="lazy" /><a href="https://www.jal.co.jp/jp/ja/jmb/wellness/" target="_blank" rel="noopener nofollow">JAL Wellness &amp; Travel</a></span> |
 |:---|:---|:---|
-| **貯まるマイル** | ANAマイル | JALマイル |
+| **貯まるマイル** | <span class="cell-brand"><img class="brand-logo-sm" src="/images/ana-pocket-vs-jal-wellness-2026/logos/ana.png" alt="" loading="lazy" />ANAマイル</span> | JALマイル |
 | **貯め方** | 移動距離（徒歩・自転車・電車・車・新幹線・飛行機） | 1日の歩数チャレンジ＋くじ |
 | **月額** | 無料(Lite) or **Pro 550円** | **550円**（初回〜翌月末無料） |
 | **無料運用** | ◎ 可能（Liteで少額） | △ 実質課金前提 |
@@ -63,7 +63,7 @@ ANA Pocketは**徒歩だけじゃなく電車・車・新幹線・飛行機ま�
       <tr><th>実際の獲得</th><td>あるFPの1年実績は<strong>年8,955マイル＝月約746マイル</strong>で、月額550円を上回るパフォーマンス。移動量が多い人は<strong>月1,000〜1,500マイル</strong>の報告も</td></tr>
       <tr><th>ポイント→マイル</th><td>貯めたポイントはANAマイルのほか各種ポイントにも交換可能</td></tr>
       <tr><th>注意</th><td>2025年に獲得ポイントの改定（減少・広告視聴時間の延長）あり。仕様は流動的</td></tr>
-      <tr><th>公式</th><td><a href="https://www.anapocket.com/pro" target="_blank" rel="noopener nofollow">ANA Pocket 公式</a></td></tr>
+      <tr><th>公式</th><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/ana-pocket-vs-jal-wellness-2026/logos/anapocket.png" alt="" loading="lazy" /><a href="https://www.anapocket.com/pro" target="_blank" rel="noopener nofollow">ANA Pocket 公式</a></span></td></tr>
     </tbody>
   </table>
 </div>
@@ -126,7 +126,7 @@ X上でも「**1年契約で貯まる1,500マイルで、4地域から選べる�
 
 <div class="cmp-table-wrap">
   <table class="cmp-table">
-    <thead><tr><th>あなたの生活</th><th>🔵 <a href="https://www.anapocket.com/pro" target="_blank" rel="noopener nofollow">ANA Pocket</a></th><th>🔴 <a href="https://www.jal.co.jp/jp/ja/jmb/wellness/" target="_blank" rel="noopener nofollow">JAL Wellness</a></th></tr></thead>
+    <thead><tr><th>あなたの生活</th><th><span class="cell-brand"><img class="brand-logo-sm" src="/images/ana-pocket-vs-jal-wellness-2026/logos/anapocket.png" alt="" loading="lazy" />🔵 <a href="https://www.anapocket.com/pro" target="_blank" rel="noopener nofollow">ANA Pocket</a></span></th><th>🔴 <a href="https://www.jal.co.jp/jp/ja/jmb/wellness/" target="_blank" rel="noopener nofollow">JAL Wellness</a></th></tr></thead>
     <tbody>
       <tr><td>移動のしかた</td><td><strong>電車通勤・車移動が多い</strong>（歩数は少なめ）</td><td><strong>毎日8,000〜10,000歩あるく</strong>（運動習慣がある）</td></tr>
       <tr><td>貯めているマイル</td><td>ANAマイル／ANAで旅行する</td><td>JALマイル／JALで旅行する</td></tr>
@@ -165,9 +165,9 @@ X上でも「**1年契約で貯まる1,500マイルで、4地域から選べる�
   <table class="cmp-table">
     <thead><tr><th>こういう人</th><th>結論</th><th>理由</th></tr></thead>
     <tbody>
-      <tr class="recommended"><td>マイルの貯まりやすさ重視</td><td>🔵 <a href="https://www.anapocket.com/pro" target="_blank" rel="noopener nofollow">ANA Pocket</a>（Pro）</td><td>移動距離型で間口が広い。<strong>月746〜1,500マイル</strong>は陸マイル系で頭ひとつ抜けている</td></tr>
+      <tr class="recommended"><td>マイルの貯まりやすさ重視</td><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/ana-pocket-vs-jal-wellness-2026/logos/anapocket.png" alt="" loading="lazy" />🔵 <a href="https://www.anapocket.com/pro" target="_blank" rel="noopener nofollow">ANA Pocket</a>（Pro）</span></td><td>移動距離型で間口が広い。<strong>月746〜1,500マイル</strong>は陸マイル系で頭ひとつ抜けている</td></tr>
       <tr><td>健康習慣とセットで貯めたい・JAL派</td><td>🔴 <a href="https://www.jal.co.jp/jp/ja/jmb/wellness/" target="_blank" rel="noopener nofollow">JAL Wellness</a></td><td>歩数がそのままJALマイルになる満足感は唯一無二</td></tr>
-      <tr><td>どっち陣営でもない</td><td>🔵 ANA Pocket（Lite）から</td><td>無料で始められる。移動で貯まる感覚を先に掴む</td></tr>
+      <tr><td>どっち陣営でもない</td><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/ana-pocket-vs-jal-wellness-2026/logos/anapocket.png" alt="" loading="lazy" />🔵 ANA Pocket（Lite）から</span></td><td>無料で始められる。移動で貯まる感覚を先に掴む</td></tr>
     </tbody>
   </table>
 </div>

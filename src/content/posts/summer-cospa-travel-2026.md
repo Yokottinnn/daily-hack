@@ -68,9 +68,9 @@ parentPillar: summer-travel-timesale-2026
 | **一休.com** | [沖縄/北海道 タイムセール](https://www.ikyu.com/special/timesale_samawari/search) | 〜6/9 | 対象プラン最大30%OFF＋会員ポイント |
 | **Yahoo!トラベル** | [サマ割 超得セール](https://travel.yahoo.co.jp/feature/timesale_samawari/search) | 〜6/29 12:00 | カード決済で PayPay 15%以上、最大30〜45%還元プラン |
 | **Yahoo!トラベル** | [いつでも 10%お得](https://travel.yahoo.co.jp/feature/campaign_pointup/) | 通年 | PayPay 10%（LYP会員 同等） |
-| **楽天トラベル** | [アーリーサマーフェア](https://event.travel.rakuten.co.jp/special/sales/) | 〜5/29 09:59 | 最大25%OFF＋楽パック2万円OFF＋レンタカー最大41%OFF |
-| **楽天トラベル** | [5と0のつく日](https://travel.rakuten.co.jp/camp/50luxday/) | 毎月5/10/15/20/25/30 | クーポン最大20%OFF＋ポイント10倍 |
-| **楽天トラベル** | [楽天スーパーDEAL](https://travel.rakuten.co.jp/superdeal/) | 通年 | 30〜40%ポイント還元プラン |
+| <span class="cell-brand"><img class="brand-logo-sm" src="/images/summer-cospa-travel-2026/logos/rakutentravel.png" alt="" loading="lazy" />**楽天トラベル**</span> | [アーリーサマーフェア](https://event.travel.rakuten.co.jp/special/sales/) | 〜5/29 09:59 | 最大25%OFF＋楽パック2万円OFF＋レンタカー最大41%OFF |
+| <span class="cell-brand"><img class="brand-logo-sm" src="/images/summer-cospa-travel-2026/logos/rakutentravel.png" alt="" loading="lazy" />**楽天トラベル**</span> | [5と0のつく日](https://travel.rakuten.co.jp/camp/50luxday/) | 毎月5/10/15/20/25/30 | クーポン最大20%OFF＋ポイント10倍 |
+| <span class="cell-brand"><img class="brand-logo-sm" src="/images/summer-cospa-travel-2026/logos/rakutentravel.png" alt="" loading="lazy" />**楽天トラベル**</span> | [楽天スーパーDEAL](https://travel.rakuten.co.jp/superdeal/) | 通年 | 30〜40%ポイント還元プラン |
 | **じゃらん** | [じゃらんクーポンフェス](https://www.jalan.net/theme/jalancouponfes/) | 〜6/12 | 最大2万円割引クーポン（期間別配布） |
 | **じゃらん** | [お得な10日間](https://www.jalan.net/uw/uwp3500/uww3551.do) | 毎月20日〜 | 最大1万円OFFクーポン |
 | **じゃらん** | [じゃらん夏SALE](https://www.jalan.net/theme/summersale/) | 6月下旬〜8月下旬予定 | 最大15%OFF＋10%ポイント還元 |
@@ -101,7 +101,7 @@ parentPillar: summer-travel-timesale-2026
 |---|---|---|
 | **一休.com** | ⭕ **公式対応** | [furusato.ikyu.com](https://furusato.ikyu.com/) で寄附 → 30% 相当のクーポン即時発行 → 対象宿で利用（10年有効） |
 | **Yahoo!トラベル** | △ 限定 | 「ふるさと納税 旅行クーポン」一部自治体のみ、PayPay 同時利用に制限あり |
-| **楽天トラベル** | ⭕ **楽天ふるさと納税** | 楽天ふるさと納税で寄附 → 楽天トラベルクーポンに交換 → 楽天ポイント還元と併用可 |
+| <span class="cell-brand"><img class="brand-logo-sm" src="/images/summer-cospa-travel-2026/logos/rakutentravel.png" alt="" loading="lazy" />**楽天トラベル**</span> | <span class="cell-brand"><img class="brand-logo-sm" src="/images/summer-cospa-travel-2026/logos/rakuten-furusato.png" alt="" loading="lazy" />⭕ **楽天ふるさと納税**</span> | 楽天ふるさと納税で寄附 → 楽天トラベルクーポンに交換 → 楽天ポイント還元と併用可 |
 | **じゃらん** | △ 限定 | 一部自治体の「じゃらん宿泊クーポン」のみ、 d ポイントとの併用に制限 |
 
 <div class="hakkako-says">
@@ -511,10 +511,10 @@ TDRディズニーオフィシャル、**プール充実・キッズエリア完
 
 | あなたの陣営 | メインで使うサイト | 補助で見積もりに使うサイト | 必須CP |
 |---|---|---|---|
-| **PayPay勢** | Yahoo!トラベル | 一休.com（共通在庫多い） | サマ割×PayPay25%即時利用 |
-| **楽天勢** | 楽天トラベル | じゃらん（クーポンフェス対象なら） | アーリーサマー＋楽パック＋5と0 |
+| <span class="cell-brand"><img class="brand-logo-sm" src="/images/summer-cospa-travel-2026/logos/paypay.png" alt="" loading="lazy" />**PayPay勢**</span> | Yahoo!トラベル | 一休.com（共通在庫多い） | サマ割×PayPay25%即時利用 |
+| **楽天勢** | <span class="cell-brand"><img class="brand-logo-sm" src="/images/summer-cospa-travel-2026/logos/rakutentravel.png" alt="" loading="lazy" />楽天トラベル</span> | じゃらん（クーポンフェス対象なら） | アーリーサマー＋楽パック＋5と0 |
 | **dポイント／Ponta勢** | じゃらん | 楽天トラベル（スーパーDEAL対象なら） | クーポンフェス＋お得な10日間 |
-| **ふるさと納税勢** | **一休.com（ふるさと納税）** | 楽天トラベル（楽天ふるさと納税） | 寄附で自己負担¥2,000の宿泊権利 |
+| **ふるさと納税勢** | **一休.com（ふるさと納税）** | <span class="cell-brand"><img class="brand-logo-sm" src="/images/summer-cospa-travel-2026/logos/rakutentravel.png" alt="" loading="lazy" />楽天トラベル（楽天ふるさと納税）</span> | 寄附で自己負担¥2,000の宿泊権利 |
 | **特定経済圏ナシ** | 一休.com | Yahoo!トラベル | サマ割の即時利用＋プレミア会員昇格 |
 
 ---

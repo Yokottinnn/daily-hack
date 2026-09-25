@@ -64,12 +64,12 @@ references:
 
 | 時期 | カード/サービス | 何が変わった | 影響度 |
 |---|---|---|:---:|
-| 2025年〜 | 三井住友カード（NL/ゴールド） | カード現物タッチ決済が5%→**1.5%**（スマホタッチは7%維持） | 🔴大 |
-| 2026年2月 | dカード | 公共料金・税金などの還元が1.0%→**0.5%（半減）** | 🔴大 |
+| 2025年〜 | <span class="cell-brand"><img class="brand-logo-sm" src="/images/credit-card-kaiaku-2026/logos/smbccard.png" alt="" loading="lazy" />三井住友カード（NL/ゴールド）</span> | カード現物タッチ決済が5%→**1.5%**（スマホタッチは7%維持） | 🔴大 |
+| 2026年2月 | <span class="cell-brand"><img class="brand-logo-sm" src="/images/credit-card-kaiaku-2026/logos/dcard.png" alt="" loading="lazy" />dカード</span> | 公共料金・税金などの還元が1.0%→**0.5%（半減）** | 🔴大 |
 | 2026年3月 | 三井住友ゴールド（NL） | au PAY/Kyash/JAL Pay/バンドルカードへのチャージが**年間利用額の集計対象外**に | 🟠中 |
-| 2026年6月 | PayPayカード | チャージ還元・税金還元の縮小、自社決済への集約が進行 | 🟠中 |
-| 2026年8月 | エポスカード | 決済サービスへのチャージ（ANA Pay/au PAY/JAL Pay/PayPay残高/楽天Edy/交通系IC等）の**ポイント加算終了** | 🟠中 |
-| （朗報） | 楽天ペイ | 予定されていた1.5%→1.0%の引き下げ＆提示条件厳格化が**見合わせ** | 🟢 |
+| 2026年6月 | <span class="cell-brand"><img class="brand-logo-sm" src="/images/credit-card-kaiaku-2026/logos/paypaycard.png" alt="" loading="lazy" />PayPayカード</span> | チャージ還元・税金還元の縮小、自社決済への集約が進行 | 🟠中 |
+| 2026年8月 | <span class="cell-brand"><img class="brand-logo-sm" src="/images/credit-card-kaiaku-2026/logos/eposcard.jpg" alt="" loading="lazy" />エポスカード</span> | 決済サービスへのチャージ（ANA Pay/au PAY/JAL Pay/PayPay残高/楽天Edy/交通系IC等）の**ポイント加算終了** | 🟠中 |
+| （朗報） | <span class="cell-brand"><img class="brand-logo-sm" src="/images/credit-card-kaiaku-2026/logos/rakutenpay.png" alt="" loading="lazy" />楽天ペイ</span> | 予定されていた1.5%→1.0%の引き下げ＆提示条件厳格化が**見合わせ** | 🟢 |
 
 <div class="section-with-mascot">
   <div class="mascot-wrap"><img src="/images/expr-07-gasp.png" alt="" /></div>
