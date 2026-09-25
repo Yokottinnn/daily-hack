@@ -1,1 +1,3 @@
-[]
+[
+      {"task": "x144-add-name-filter-dryrun.sh", "rc": 0, "out": "名前フィルタを記録モードで入れた（テスト全通過） / name-filter-dryrun.md"}
+  ]
