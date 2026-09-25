@@ -68,6 +68,12 @@
 
 <!-- 新しい記録がこの下に追加される（新しいものが上） -->
 
+### 2026-09-25 — ロゴ残件の洗い出しを仕組み化（find-missing-logos.mjs / add-cell-logos.py）し、9 記事 85 箇所を埋めた（#706）。163 -> 78 箇所
+
+次のアクション:
+
+- [ ] 残り 78 箇所のうち 44 箇所は自記事に在庫が在る。walk-poikatsu(13) / cheap-sim 2 本(14) が上位。在庫が無いブランドは実ブラウザか App Store から取る
+
 ### 2026-09-25 — 指摘された投稿 2103379894306750770 を x145 で特定。comment-warmup の産物で、本文の先頭『アタ』が落ち、返信のつもりが単独投稿になっていた（親なし・published_via: auto-reply-no-approval）。x146 で comment-warmup と comment-orchestrator を停止（plist を .disabled にリネーム）
 
 次のアクション:
