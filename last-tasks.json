@@ -1,4 +1,3 @@
 [
-      {"task": "t188-chaosmap-render.sh", "rc": 0, "out": "| sns-templates 候補 | `/Users/ny/projects/anta-baka-x/sns-templates` | ❌ | | sns-templates 候補 | `/Users/ny_taxa/projects/anta-baka-x/sns-templates` | ❌ | | playwright-core | `/Users/ny/.openclaw/workspace/node_modules/playwright-core` | ✅ |  ⚠️ **`sns-templates` がどこにも無�"},
-      {"task": "t189-logos-sbhikari-jalpay.sh", "rc": 0, "out": "**却下する条件**（最上位ルール 17）  - **ソフトバンク（親ブランド）を「ソフトバンク光」のロゴとして使わない** - **JAL（親ブランド）を「JAL Pay」のロゴとして使わない** - キャンペーン版・周年版"}
+      {"task": "t190-find-sns-assets.sh", "rc": 0, "out": " - ②でフォントが見つかれば、**`SNS_DIR` ではなく個別のパスを渡せば動く** - ③でマスコットがリポジトリに在れば、**`sns-templates` は要らない** - ②③とも無ければ、**素材ごと消えている。** 図は作り直せないので、   そう"}
   ]
