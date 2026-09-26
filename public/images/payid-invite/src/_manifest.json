@@ -1,0 +1,12 @@
+{
+  "_note": "ここに置くのは、出所の行を焼き込まずに使える素材だけ（x-post-images スキル §3・最上位ルール 8）。CC BY / CC BY-SA は 1 枚も入れない。",
+  "fetchedAt": "2026-09-26",
+  "files": {
+    "icon.jpg":  { "what": "PAY ID のアプリアイコン（512px）", "license": "商標（識別目的で使用。改変しない。余白を落とすのは可）", "source": "iTunes Search API artworkUrl512 / BASE, Inc." },
+    "shot1.png": { "what": "App Store のスクリーンショット 1 枚目", "license": "App Store 掲載素材", "source": "iTunes Search API screenshotUrls[0] / BASE, Inc." },
+    "shot2.png": { "what": "App Store のスクリーンショット 2 枚目", "license": "App Store 掲載素材", "source": "iTunes Search API screenshotUrls[1] / BASE, Inc." },
+    "coin1.jpg": { "what": "500 円硬貨（表）", "license": "Public domain", "source": "https://commons.wikimedia.org/wiki/File:500_Yen_Vorderseite.jpg" },
+    "coin2.jpg": { "what": "500 円硬貨（裏）", "license": "Public domain", "source": "https://commons.wikimedia.org/wiki/File:500_Yen_R%C3%BCckseite.jpg" }
+  },
+  "_rejected": "CC BY / CC BY-SA の候補 14 件は取得していない（500 yen obverse ほか）。表記がライセンスの条件で、出所の行を出さない方針と両立しないため。"
+}
