@@ -31,9 +31,11 @@ const scrim = Buffer.from(
      <stop offset="1" stop-color="#1E1219" stop-opacity="0.92"/>
    </linearGradient></defs><rect width="${S}" height="${S}" fill="url(#g)"/></svg>`);
 
-async function panel(name, src, region, { bg = "#ffffff", size = 700, top = 150 } = {}) {
+// **上に寄せて小さく置かない。** 表紙の 4 カードと同じ考え方で、全面いっぱいに置く
+// （下半分の文字と少し被るが、それでよいと指示された・2026-09-26）
+async function panel(name, src, region, { bg = "#ffffff", maxW = 1000, maxH = 880, top = 60 } = {}) {
   const cut = region ? sharp(`${SRC}/${src}`).extract(region) : sharp(`${SRC}/${src}`);
-  const buf = await cut.resize({ width: size, fit: "inside" }).png().toBuffer();
+  const buf = await cut.resize({ width: maxW, height: maxH, fit: "inside" }).png().toBuffer();
   const m = await sharp(buf).metadata();
   await sharp({ create: { width: S, height: S, channels: 3, background: bg } })
     .composite([{ input: buf, top, left: Math.round((S - m.width) / 2) }, { input: scrim, top: 0, left: 0 }])
@@ -55,6 +57,6 @@ await card("c-pay", "shot1.png", LOGO, { maxH: 540, top: 10 });
 await card("c-genre", "shot2.png", GENRE, { maxH: 540, top: 10 });
 await card("c-scale", "shot1.png", SCALE, { maxH: 540, top: 10 });
 
-await panel("p-logo", "shot1.png", LOGO, { size: 620, top: 130 });
-await panel("p-genre", "shot2.png", GENRE, { size: 660, top: 90 });
-await panel("p-scale", "shot1.png", SCALE, { size: 620, top: 130 });
+await panel("p-logo", "shot1.png", LOGO, { maxH: 880, top: 60 });
+await panel("p-genre", "shot2.png", GENRE, { maxH: 880, top: 50 });
+await panel("p-scale", "shot1.png", SCALE, { maxH: 860, top: 60 });
