@@ -119,7 +119,7 @@ author: "hacker-ko"
 <div class="compare-cards">
   <article class="compare-card recommended">
     <span class="compare-card-mascot"><img src="/images/expr-05-smug.png" alt="" /></span>
-    <h3>楽天モバイル</h3>
+    <h3 class="brand-h"><img class="brand-logo" src="/images/cheap-sim-comparison-2026/logos/rakutenmobile.png" alt="楽天モバイルのロゴ" loading="lazy" /><span>楽天モバイル</span></h3>
     <p class="tagline">データ使い放題で月3,278円。楽天経済圏ユーザーなら議論終了。</p>
     <dl>
       <dt>月額料金</dt><dd>1,078円(〜3GB) / 2,178円(〜20GB) / 3,278円(無制限) ※税込</dd>
@@ -137,7 +137,7 @@ author: "hacker-ko"
 
   <article class="compare-card recommended">
     <span class="compare-card-mascot"><img src="/images/expr-04-cheer.png" alt="" /></span>
-    <h3>ahamo</h3>
+    <h3 class="brand-h"><img class="brand-logo" src="/images/cheap-sim-comparison-2026/logos/ahamo.png" alt="ahamoのロゴ" loading="lazy" /><span>ahamo</span></h3>
     <p class="tagline">ドコモ回線そのまま月2,970円。品質重視派の本命。</p>
     <dl>
       <dt>月額料金</dt><dd>2,970円（30GB／2024年10月から増量）／大盛りオプション+1,980円で110GB</dd>
@@ -152,7 +152,7 @@ author: "hacker-ko"
 
   <article class="compare-card">
     <span class="compare-card-mascot"><img src="/images/expr-06-shock.png" alt="" /></span>
-    <h3>povo 2.0</h3>
+    <h3 class="brand-h"><img class="brand-logo" src="/images/cheap-sim-comparison-2026/logos/povo.png" alt="povo 2.0のロゴ" loading="lazy" /><span>povo 2.0</span></h3>
     <p class="tagline">基本料0円。使った分だけトッピング、サブ回線の覇者。</p>
     <dl>
       <dt>月額料金</dt><dd>基本料0円／3GB(990円・30日) / 20GB(2,700円・30日) / 使い放題(330円/24時間) など</dd>
@@ -167,7 +167,7 @@ author: "hacker-ko"
 
   <article class="compare-card">
     <span class="compare-card-mascot"><img src="/images/expr-01-wave.png" alt="" /></span>
-    <h3>LINEMO</h3>
+    <h3 class="brand-h"><img class="brand-logo" src="/images/cheap-sim-comparison-2026/logos/linemo.png" alt="LINEMOのロゴ" loading="lazy" /><span>LINEMO</span></h3>
     <p class="tagline">ソフトバンク回線・LINE使い放題。SNS族の隠れた本命。</p>
     <dl>
       <dt>月額料金</dt><dd>ミニプラン 990円(3GB) / ベストプラン 〜2,970円(〜20GB変動制)</dd>
@@ -182,7 +182,7 @@ author: "hacker-ko"
 
   <article class="compare-card">
     <span class="compare-card-mascot"><img src="/images/expr-04-cheer.png" alt="" /></span>
-    <h3>UQ mobile</h3>
+    <h3 class="brand-h"><img class="brand-logo" src="/images/cheap-sim-comparison-2026/logos/uqmobile.png" alt="UQ mobileのロゴ" loading="lazy" /><span>UQ mobile</span></h3>
     <p class="tagline">au回線×店頭サポートあり。家族割・光割重視派向け。</p>
     <dl>
       <dt>月額料金</dt><dd>ミニミニプラン 2,365円(4GB) / コミコミプラン 3,278円(20GB+10分かけ放題) など</dd>
@@ -197,7 +197,7 @@ author: "hacker-ko"
 
   <article class="compare-card">
     <span class="compare-card-mascot"><img src="/images/expr-01-wave.png" alt="" /></span>
-    <h3>Y!mobile</h3>
+    <h3 class="brand-h"><img class="brand-logo" src="/images/cheap-sim-comparison-2026/logos/ymobile.png" alt="Y!mobileのロゴ" loading="lazy" /><span>Y!mobile</span></h3>
     <p class="tagline">ソフトバンク回線+店頭サポート。PayPay経済圏とセット運用。</p>
     <dl>
       <dt>月額料金</dt><dd>シンプル2 S 2,365円(4GB) / M 4,015円(20GB) / L 5,115円(30GB) ※割引前</dd>

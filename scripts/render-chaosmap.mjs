@@ -7,17 +7,99 @@
  * Playwright は sns-templates の node_modules を借用。
  * Usage: node scripts/render-chaosmap.mjs
  */
-import { createRequire } from 'module';
 import fs from 'node:fs';
+import { createRequire } from 'module';
 import path from 'node:path';
 
-const SNS = '/Users/ny_taxa/projects/anta-baka-x/sns-templates';
-const require = createRequire(SNS + '/');
-const { chromium } = require('playwright');
-const FONTS = SNS + '/fonts';
-const ASSETS_T = SNS + '/assets-transparent';
-const OUT_DIR = '/Users/ny_taxa/projects/anta-baka-x/blog/public/images/point-service-complete-guide-2026';
-const LOGO_DIR = OUT_DIR + '/logos';
+// **パスを決め打ちにしない**（2026-09-26）。`/Users/ny_taxa/…` が書いてあったが、
+// 引き継ぎメモは `/Users/ny/…` と言っており、**どちらが本当かクラウドからは分からない。**
+// 環境変数 → 候補を順に探す → 無ければ**探した場所を全部 出して止まる。**
+// 当て推量でパスを作らない（`ops/tasks` の作法と同じ）。
+const firstDir = (label, cands) => {
+  for (const c of cands) { if (c && fs.existsSync(c)) return c; }
+  console.error(`${label} が見つからない。探した場所:\n  ` + cands.filter(Boolean).join('\n  '));
+  process.exit(1);
+};
+const HOME = process.env.HOME || '';
+// **`sns-templates` はもう無い**（2026-09-26 に Mac 上で実測。図の最終生成は 8/7）。
+// **必須にしない。** 在れば使い、無ければ下で代わりを立てる。
+const optDir = (cands) => cands.find((c) => c && fs.existsSync(c)) || null;
+const SNS = optDir([
+  process.env.SNS_DIR,
+  `${HOME}/projects/anta-baka-x/sns-templates`,
+  '/Users/ny/projects/anta-baka-x/sns-templates',
+  '/Users/ny_taxa/projects/anta-baka-x/sns-templates',
+]);
+// **`playwright-core` を先に見る**（最上位ルール 14）。X のループが使っている実体と同じ
+const require = createRequire((SNS || HOME) + '/x.js');
+const loadChromium = () => {
+  // **いま居るリポジトリの node_modules も見る。** クラウドではここに入っている
+  for (const base of [process.env.PW_DIR, process.cwd() + '/node_modules',
+                      `${HOME}/.openclaw/workspace/node_modules`,
+                      `${HOME}/openclaw/node_modules`, SNS && SNS + '/node_modules']) {
+    if (!base) continue;
+    try { return createRequire(base + '/x.js')('playwright-core'); } catch { /* 次 */ }
+  }
+  try { return require('playwright'); } catch { /* 次 */ }
+  console.error('playwright-core も playwright も読めない。');
+  process.exit(1);
+};
+const { chromium } = loadChromium();
+const FONTS = SNS ? SNS + '/fonts' : null;
+// **出力先も決め打ちにしない。** `OUT_DIR` を渡せば別の場所に書ける
+//（`ops/tasks` はレポート用ディレクトリに書かせて、画像を持ち帰る）
+const REPO = process.env.BLOG_REPO || process.env.DAILY_HACK_REPO
+  || firstDir('blog リポジトリ', [
+       `${HOME}/projects/anta-baka-x/blog`,
+       '/Users/ny/projects/anta-baka-x/blog',
+       '/Users/ny_taxa/projects/anta-baka-x/blog',
+     ]);
+const OUT_DIR = process.env.OUT_DIR || (REPO + '/public/images/point-service-complete-guide-2026');
+// **ロゴは必ずリポジトリから読む。** `OUT_DIR` を変えてもロゴの出どころは変えない
+const LOGO_DIR = process.env.LOGO_DIR
+  || (REPO + '/public/images/point-service-complete-guide-2026/logos');
+// **マスコットはブログのリポジトリにも在る**（`public/images/expr-*.png`・t190 で実測）。
+// ファイル名が `sns-templates/assets-transparent` と同じなので、そのまま差し替えられる。
+const ASSETS_T = optDir([
+  process.env.ASSETS_DIR,
+  SNS && SNS + '/assets-transparent',
+  REPO + '/public/images',
+]);
+if (!ASSETS_T) { console.error('マスコット画像（expr-*.png）が見つからない。'); process.exit(1); }
+
+// **フォントは `@fontsource/*` から読む**（`sns-templates/fonts` は消えた・t190 で実測）。
+// RocknRoll One / Zen Maru Gothic / Bebas Neue はいずれも **SIL OFL** で、
+// `devDependencies` に入れてある。**これで描画がネットワーク無しで閉じる。**
+//
+// **フォントが当たらないと黙って代替に落ちる。** 丸ゴシックがただのゴシックになるだけで
+// エラーは出ない（2026-09-26 に CDN が読めず実際にそうなった）。だから**必ず検査する。**
+const fontFile = (pkg, file) => {
+  for (const base of [FONTS, null]) {
+    if (base && fs.existsSync(`${base}/${file}.woff2`)) return `${base}/${file}.woff2`;
+  }
+  try {
+    const dir = path.dirname(createRequire(process.cwd() + '/x.js').resolve(`${pkg}/package.json`));
+    const p2 = `${dir}/files/${file}-normal.woff2`;
+    if (fs.existsSync(p2)) return p2;
+  } catch { /* 無い */ }
+  return null;
+};
+const FACES = [
+  ['RocknRoll One', 400, fontFile('@fontsource/rocknroll-one', 'rocknroll-one-japanese-400')],
+  ['Zen Maru Gothic', 400, fontFile('@fontsource/zen-maru-gothic', 'zen-maru-gothic-japanese-400')],
+  ['Zen Maru Gothic', 700, fontFile('@fontsource/zen-maru-gothic', 'zen-maru-gothic-japanese-700')],
+  ['Zen Maru Gothic', 900, fontFile('@fontsource/zen-maru-gothic', 'zen-maru-gothic-japanese-900')],
+  ['Bebas Neue', 400, fontFile('@fontsource/bebas-neue', 'bebas-neue-latin-400')],
+];
+const missing = FACES.filter(([, , f]) => !f).map(([n, w]) => `${n} ${w}`);
+if (missing.length) {
+  console.error('フォントが見つからない: ' + missing.join(' / '));
+  console.error('**代替フォントで描くと丸ゴシックでなくなる。** `npm i` を先に通すこと。');
+  process.exit(1);
+}
+const FONT_CSS = FACES.map(([n, w, f]) =>
+  `  @font-face{font-family:"${n}";font-weight:${w};src:url("file://${f}") format("woff2");}`).join('\n');
+console.log('fonts: @fontsource / mascots:', ASSETS_T);
 const esc = (s) => String(s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 
 // サービス名 → 公式アプリロゴ
@@ -45,11 +127,7 @@ const CATS = [
 ];
 
 const FONT_FACE = `
-  @font-face{font-family:"RocknRoll One";src:url("file://${FONTS}/rocknroll-one-japanese-400.woff2") format("woff2");}
-  @font-face{font-family:"Zen Maru Gothic";font-weight:400;src:url("file://${FONTS}/zen-maru-gothic-japanese-400.woff2") format("woff2");}
-  @font-face{font-family:"Zen Maru Gothic";font-weight:700;src:url("file://${FONTS}/zen-maru-gothic-japanese-700.woff2") format("woff2");}
-  @font-face{font-family:"Zen Maru Gothic";font-weight:900;src:url("file://${FONTS}/zen-maru-gothic-japanese-900.woff2") format("woff2");}
-  @font-face{font-family:"Bebas Neue";src:url("file://${FONTS}/bebas-neue-latin-400.woff2") format("woff2");}`;
+${FONT_CSS}`;
 const BG = `radial-gradient(circle at 4% 6%, #FDE4EE 0%, transparent 32%),radial-gradient(circle at 98% 96%, #FFFBEE 0%, transparent 38%),linear-gradient(135deg,#FFF5F8 0%,#FFFFFF 52%,#FFFBEE 100%)`;
 
 function catBox(c, compact) {
@@ -239,7 +317,11 @@ function eyecatchHtml() {
 async function render(html, w, h, outPath, type) {
   const tmpHtml = path.join('/tmp', `chaosmap-${type}-${w}x${h}.html`);
   fs.writeFileSync(tmpHtml, html);
-  const browser = await chromium.launch({ headless: true });
+  // **ブラウザの実体を渡せるようにする。** 環境によって置き場が違う
+  //（クラウドは `/opt/pw-browsers/chromium`、Mac は playwright-core が入れたもの）
+  const browser = await chromium.launch(
+    process.env.CHROME_PATH ? { headless: true, executablePath: process.env.CHROME_PATH }
+                            : { headless: true });
   const page = await browser.newPage({ viewport: { width: w, height: h }, deviceScaleFactor: 2 });
   await page.goto('file://' + tmpHtml, { waitUntil: 'networkidle' });
   await page.evaluate(async () => { if (document.fonts && document.fonts.ready) await document.fonts.ready; });

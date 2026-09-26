@@ -1,0 +1,13 @@
+{
+  "_note": "識別目的で使うロゴ。**商標であり自由ライセンスではない。** 改変しない（CSS の枠は可）。",
+  "rakutenichiba.png": {
+    "brand": "楽天市場",
+    "source": "コモンズ / 公式の楽天市場ロゴ",
+    "page": "コモンズ / 公式の楽天市場ロゴ",
+    "fetched": "2026-09-20",
+    "license_note": "商標。識別目的で使用",
+    "task": "ops/tasks/t132-*.sh",
+    "copied_from": "public/images/june-2026-campaigns-roundup/logos/rakutenichiba.png",
+    "copied": "2026-09-22"
+  }
+}

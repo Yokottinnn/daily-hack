@@ -39,5 +39,32 @@
     "fetched": "2026-09-20",
     "license_note": "公式サイトのロゴ画像（商標）。**SVG を Chromium で PNG にした**",
     "task": "ops/tasks/t133-logos-retry5.sh"
+  },
+  "eposcard.jpg": {
+    "brand": "エポスカード",
+    "source": "https://www.eposcard.co.jp/common-files/img/ogimg.jpg",
+    "page": "https://www.eposcard.co.jp/",
+    "fetched": "2026-09-21",
+    "note": "**ヘッダーの `EPOS Net` は会員サイト名なので使わなかった。** og:image が `EPOS` 単体",
+    "license_note": "商標。識別目的で使用",
+    "task": "ops/tasks/t149-dcard-epos-icon.sh",
+    "copied_from": "public/images/credit-card-kaiaku-2026/logos/eposcard.jpg"
+  },
+  "recruit-card.png": {
+    "brand": "リクルートカード",
+    "source": "（既存。この記事で以前から使用）",
+    "fetched": "不明",
+    "license_note": "商標。識別目的で使用",
+    "copied_from": "public/images/credit-card-kaiaku-2026/logos/recruit-card.png"
+  },
+  "dcard.png": {
+    "brand": "dカード",
+    "source": "https://dcard.docomo.ne.jp/st/common/images/ogp_logo.png",
+    "page": "https://dcard.docomo.ne.jp/",
+    "fetched": "2026-09-21",
+    "note": "**3 回目でようやく取れた。** コモンズ検索は全滅（xDカード・Dポイント）、公式の img は特長アイコン（買い物カート）だった。og:image が wordmark だった",
+    "license_note": "商標。識別目的で使用",
+    "task": "ops/tasks/t149-dcard-epos-icon.sh",
+    "copied_from": "public/images/credit-card-kaiaku-2026/logos/dcard.png"
   }
 }

@@ -422,7 +422,7 @@ references:
 
 **Androidは歩数の取り方が「ヘルスコネクト」に変わっている。** 連携し直さないと歩数がゼロのまま増えない。**入れただけで放置すると、貯まっていないことに気づかない。**
 
-### アルコイン
+<h3 class="brand-h" id="アルコイン"><img class="brand-logo" src="/images/walk-poikatsu-2026/logos/arucoin.png" alt="アルコインのロゴ" loading="lazy" /><span>アルコイン</span></h3>
 
 <figure class="rn-figure app-shot">
   <img src="/images/walk-poikatsu-2026/apps/arucoin-shot.jpg" alt="アルコイン のアプリ画面" loading="lazy" />
@@ -460,7 +460,7 @@ references:
 </table>
 </div>
 
-### ポイすら
+<h3 class="brand-h" id="ポイすら"><img class="brand-logo" src="/images/walk-poikatsu-2026/logos/poisura.png" alt="ポイすらのロゴ" loading="lazy" /><span>ポイすら</span></h3>
 
 <figure class="rn-figure app-shot">
   <img src="/images/walk-poikatsu-2026/apps/poisura-shot.jpg" alt="ポイすら のアプリ画面" loading="lazy" />
@@ -479,7 +479,7 @@ references:
 </table>
 </div>
 
-### 楽天シニア
+<h3 class="brand-h" id="楽天シニア"><img class="brand-logo" src="/images/walk-poikatsu-2026/logos/rakutensenior.png" alt="楽天シニアのロゴ" loading="lazy" /><span>楽天シニア</span></h3>
 
 <figure class="rn-figure app-shot">
   <img src="/images/walk-poikatsu-2026/apps/rakutensr-shot.jpg" alt="楽天シニア のアプリ画面" loading="lazy" />
@@ -524,7 +524,7 @@ references:
 
 **aruku&amp; だけは性格が違う。** 貯まるのはポイントではなく**抽選への応募権**で、当たれば地域の特産品や現金が届く。**確実性を捨てて、当たりの大きさを取る型。**
 
-### Coke ON
+<h3 class="brand-h" id="coke-on"><img class="brand-logo" src="/images/walk-poikatsu-2026/logos/cokeon.png" alt="Coke ONのロゴ" loading="lazy" /><span>Coke ON</span></h3>
 
 <figure class="rn-figure app-shot">
   <img src="/images/walk-poikatsu-2026/apps/cokeon-shot.jpg" alt="Coke ON のアプリ画面" loading="lazy" />
@@ -543,7 +543,7 @@ references:
 </table>
 </div>
 
-### スギサポwalk+
+<h3 class="brand-h" id="スギサポwalk"><img class="brand-logo" src="/images/walk-poikatsu-2026/logos/sugisapo.png" alt="スギサポwalk+のロゴ" loading="lazy" /><span>スギサポwalk+</span></h3>
 
 <figure class="rn-figure app-shot">
   <img src="/images/walk-poikatsu-2026/apps/sugisapo-shot.jpg" alt="スギサポwalk+ のアプリ画面" loading="lazy" />
@@ -562,7 +562,7 @@ references:
 </table>
 </div>
 
-### RenoBody
+<h3 class="brand-h" id="renobody"><img class="brand-logo" src="/images/walk-poikatsu-2026/logos/renobody.png" alt="RenoBodyのロゴ" loading="lazy" /><span>RenoBody</span></h3>
 
 <figure class="rn-figure app-shot">
   <img src="/images/walk-poikatsu-2026/apps/renobody-shot.jpg" alt="RenoBody のアプリ画面" loading="lazy" />
@@ -581,7 +581,7 @@ references:
 </table>
 </div>
 
-### aruku&amp;
+<h3 class="brand-h" id="aruku"><img class="brand-logo" src="/images/walk-poikatsu-2026/logos/arukuto.png" alt="aruku&のロゴ" loading="lazy" /><span>aruku&amp;</span></h3>
 
 <figure class="rn-figure app-shot">
   <img src="/images/walk-poikatsu-2026/apps/arukuto-shot.jpg" alt="aruku&amp; のアプリ画面" loading="lazy" />
@@ -654,7 +654,7 @@ references:
 
 **「歩いてビットコインがもらえる」は本当。「10万円 貯まる」とは速度が違う。** ここを混ぜて読むと期待を外す。
 
-### HEALTHREE（ヘルスリー）｜RPGとして続ける型
+<h3 class="brand-h" id="healthreeヘルスリーrpgとして続ける型"><img class="brand-logo" src="/images/walk-poikatsu-2026/logos/healthree.png" alt="HEALTHREE（ヘルスリー）のロゴ" loading="lazy" /><span>HEALTHREE（ヘルスリー）｜RPGとして続ける型</span></h3>
 
 <figure class="rn-figure app-shot">
   <img src="/images/walk-poikatsu-2026/apps/healthree-shot.jpg" alt="HEALTHREE のアプリ画面" loading="lazy" />
@@ -714,7 +714,7 @@ references:
   title="【まだタダで歩いてるの？】歩いて仮想通貨を稼ぐ新時代到来！！！ステラウォークとSTEPご紹介しています♪" loading="lazy" allowfullscreen
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe></div>
 
-### ステラウォーク
+<h3 class="brand-h" id="ステラウォーク"><img class="brand-logo" src="/images/walk-poikatsu-2026/logos/stellawalk.png" alt="ステラウォークのロゴ" loading="lazy" /><span>ステラウォーク</span></h3>
 
 <figure class="rn-figure app-shot">
   <img src="/images/walk-poikatsu-2026/apps/stellawalk-shot.jpg" alt="ステラウォーク のアプリ画面" loading="lazy" />
@@ -733,7 +733,7 @@ references:
 </table>
 </div>
 
-### Sweatcoin
+<h3 class="brand-h" id="sweatcoin"><img class="brand-logo" src="/images/walk-poikatsu-2026/logos/sweatcoin.png" alt="Sweatcoinのロゴ" loading="lazy" /><span>Sweatcoin</span></h3>
 
 <figure class="rn-figure app-shot">
   <img src="/images/walk-poikatsu-2026/apps/sweatcoin-shot.jpg" alt="Sweatcoin のアプリ画面" loading="lazy" />
@@ -777,7 +777,7 @@ references:
 
 **自治体の健康ポイントは、アプリを探している人ほど見落とす。** ストアで検索しても出てこず、区市町村のサイトにある。**東京都は1,000ptを都の側から上乗せする**仕組みまで用意している。
 
-### 住友生命 Vitality
+<h3 class="brand-h" id="住友生命-vitality"><img class="brand-logo" src="/images/walk-poikatsu-2026/logos/vitality.png" alt="住友生命（Vitality）のロゴ" loading="lazy" /><span>住友生命 Vitality</span></h3>
 
 <figure class="rn-figure app-shot">
   <img src="/images/walk-poikatsu-2026/apps/vitality-shot.jpg" alt="住友生命 Vitality のアプリ画面" loading="lazy" />
@@ -796,7 +796,7 @@ references:
 </table>
 </div>
 
-### kencom
+<h3 class="brand-h" id="kencom"><img class="brand-logo" src="/images/walk-poikatsu-2026/logos/kencom.png" alt="kencomのロゴ" loading="lazy" /><span>kencom</span></h3>
 
 <figure class="rn-figure app-shot">
   <img src="/images/walk-poikatsu-2026/apps/kencom-shot.jpg" alt="kencom のアプリ画面" loading="lazy" />

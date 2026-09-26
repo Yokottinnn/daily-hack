@@ -91,7 +91,7 @@ author: "hacker-ko"
   <article class="compare-card recommended">
     <span class="compare-card-tag is-main">推奨枠</span>
     <span class="compare-card-mascot"><img src="/images/expr-05-smug.png" alt="" /></span>
-    <h3>楽天でんき</h3>
+    <h3 class="brand-h"><img class="brand-logo" src="/images/electricity-gas-savings-2026/logos/rakuten-denki.png" alt="楽天でんきのロゴ" loading="lazy" /><span>楽天でんき</span></h3>
     <p class="tagline">楽天経済圏なら一択。電気代でも楽天ポイントが貯まり、SPU倍率にも貢献。</p>
     <dl>
       <dt>基本料金</dt><dd>0円（プランS／基本料金ゼロ円型）</dd>

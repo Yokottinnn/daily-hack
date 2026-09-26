@@ -1,0 +1,22 @@
+{
+  "_note": "識別目的で使うロゴ。**商標であり自由ライセンスではない。** 改変しない（CSS の枠は可）。",
+  "rakutenbank.png": {
+    "brand": "楽天銀行",
+    "source": "https://www.rakuten-bank.co.jp/shared/images/header/logo_pc.svg",
+    "page": "https://www.rakuten-bank.co.jp/",
+    "fetched": "2026-09-21",
+    "license_note": "商標。識別目的で使用。**SVG を Chromium で PNG にした**",
+    "copied_from": "public/images/best-online-banks-2026/logos/rakutenbank.png",
+    "copied": "2026-09-23"
+  },
+  "jrebank.png": {
+    "brand": "JRE BANK",
+    "source": "https://www.jrebank.jp/index/images/logo.png",
+    "page": "https://www.jrebank.jp/",
+    "fetched": "2026-09-21",
+    "license_note": "商標。識別目的で使用",
+    "note": "**`jrepoint.png`（JRE POINT）は別ブランドなので流用しない。** JRE BANK 単体のエンブレム",
+    "copied_from": "public/images/best-online-banks-2026/logos/jrebank.png",
+    "copied": "2026-09-23"
+  }
+}

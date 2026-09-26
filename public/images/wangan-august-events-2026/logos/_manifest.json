@@ -47,5 +47,15 @@
     "fetched": "2026-09-20",
     "license_note": "Public domain（コモンズの表記）。商標であることに変わりはない",
     "task": "ops/tasks/t126-*.sh"
+  },
+  "rakutentravel.png": {
+    "brand": "楽天トラベル",
+    "source": "https://travel.rakuten.co.jp/",
+    "page": "https://travel.rakuten.co.jp/",
+    "fetched": "2026-09-20",
+    "license_note": "公式サイトのロゴ画像（商標）",
+    "task": "ops/tasks/t130-*.sh",
+    "copied_from": "public/images/summer-cospa-travel-2026/logos/rakutentravel.png",
+    "copied": "2026-09-22"
   }
 }

@@ -68,8 +68,8 @@ relatedReferrals: ["olive-smbc"]
 |---|---|---|---|
 | 基本還元率 | 0.5% | 1.0% | 1.0% |
 | 対象店舗最大還元 | 7%（コンビニ等） | 楽天市場で3〜5% | PayPay加盟店で1.5% |
-| 銀行アプリ連携 | 三井住友銀行（口座一体型） | <span class="cell-brand"><img class="brand-logo-sm" src="/images/olive-30000-cb-may-2026/logos/rakutenbank.png" alt="" loading="lazy" />楽天銀行（別途設定）</span> | PayPay銀行（別途設定） |
-| 証券口座連携 | SBI証券 | <span class="cell-brand"><img class="brand-logo-sm" src="/images/olive-30000-cb-may-2026/logos/rakutensec.png" alt="" loading="lazy" />楽天証券</span> | PayPay証券 |
+| 銀行アプリ連携 | <span class="cell-brand"><img class="brand-logo-sm" src="/images/olive-30000-cb-may-2026/logos/smbc.png" alt="" loading="lazy" />三井住友銀行（口座一体型）</span> | <span class="cell-brand"><img class="brand-logo-sm" src="/images/olive-30000-cb-may-2026/logos/rakutenbank.png" alt="" loading="lazy" />楽天銀行（別途設定）</span> | <span class="cell-brand"><img class="brand-logo-sm" src="/images/olive-30000-cb-may-2026/logos/paypay.png" alt="" loading="lazy" />PayPay銀行（別途設定）</span> |
+| 証券口座連携 | <span class="cell-brand"><img class="brand-logo-sm" src="/images/olive-30000-cb-may-2026/logos/sbisec.png" alt="" loading="lazy" />SBI証券</span> | <span class="cell-brand"><img class="brand-logo-sm" src="/images/olive-30000-cb-may-2026/logos/rakutensec.png" alt="" loading="lazy" />楽天証券</span> | <span class="cell-brand"><img class="brand-logo-sm" src="/images/olive-30000-cb-may-2026/logos/paypay.png" alt="" loading="lazy" />PayPay証券</span> |
 
 OliveはVポイント経済圏の中心で、<strong>「銀行口座 + クレジットカード + キャッシュカードが1枚に集約される」</strong>設計が他にない強みです。物理カードが減ってミニマリスト志向の人にも合います。
 

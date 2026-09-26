@@ -55,5 +55,16 @@
     "fetched": "2026-09-20",
     "license_note": "公式サイトのロゴ画像（商標）。**SVG を Chromium で PNG にした**",
     "task": "ops/tasks/t129-*.sh"
+  },
+  "rakuten-denki.png": {
+    "brand": "楽天でんき",
+    "source": "https://energy.rakuten.co.jp/common/img/logo_denki.svg",
+    "page": "https://energy.rakuten.co.jp/",
+    "source_type": "公式サイト（商標）",
+    "fetched": "2026-09-23",
+    "task": "ops/tasks/t180-logos-denki.sh",
+    "note": "**楽天エナジー（logo_energy.svg）は運営会社であってブランドではない。** 楽天ガス（logo_gas.svg）も別サービス。この 2 つは採らなかった",
+    "converted": "node scripts/svg-to-png.mjs（600x120）",
+    "copied_from": "public/images/fixed-cost-reduction-guide-2026/logos/rakuten-denki.png"
   }
 }

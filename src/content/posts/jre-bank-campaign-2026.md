@@ -339,7 +339,7 @@ JRE BANK には **JR東日本×楽天銀行が運営する「口座紹介プロ�
   <article class="compare-card recommended">
     <span class="compare-card-image"><img src="https://www.jrebank.jp/top/images/ogp.jpg" alt="JRE BANK 公式OGP画像" loading="lazy" /></span>
     <span class="compare-card-mascot"><img src="/images/expr-05-smug.png" alt="" /></span>
-    <h3>JRE BANK（楽天銀行ベース）</h3>
+    <h3 class="brand-h"><img class="brand-logo" src="/images/jre-bank-campaign-2026/logos/jrebank.png" alt="JRE BANKのロゴ" loading="lazy" /><span>JRE BANK（楽天銀行ベース）</span></h3>
     <p class="tagline">JR東日本ユーザーの「持ってないだけで損」枠。最大年10枚の優待割引券（4割引）が本体。</p>
     <dl>
       <dt>年会費・口座維持費</dt><dd>無料</dd>

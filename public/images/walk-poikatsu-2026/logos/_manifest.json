@@ -210,5 +210,23 @@
     "license_note": "公式サイト（商標）",
     "width": 600,
     "height": 315
+  },
+  "renobody.png": {
+    "brand": "RenoBody",
+    "file": "renobody.png",
+    "source": "https://info.renobody.jp/prod/asset/img/sp/logo_menu.png",
+    "page": "https://info.renobody.jp/prod/index.html",
+    "license_note": "公式サイト（商標）",
+    "width": 423,
+    "height": 99
+  },
+  "arukuto.png": {
+    "brand": "aruku&",
+    "file": "arukuto.png",
+    "source": "https://www.arukuto.jp/wp-content/themes/arukuto/img/ogp.png",
+    "page": "https://www.arukuto.jp/",
+    "license_note": "公式サイト（商標）",
+    "width": 600,
+    "height": 160
   }
 }
