@@ -7,17 +7,53 @@
  * Playwright は sns-templates の node_modules を借用。
  * Usage: node scripts/render-chaosmap.mjs
  */
-import { createRequire } from 'module';
 import fs from 'node:fs';
+import { createRequire } from 'module';
 import path from 'node:path';
 
-const SNS = '/Users/ny_taxa/projects/anta-baka-x/sns-templates';
+// **パスを決め打ちにしない**（2026-09-26）。`/Users/ny_taxa/…` が書いてあったが、
+// 引き継ぎメモは `/Users/ny/…` と言っており、**どちらが本当かクラウドからは分からない。**
+// 環境変数 → 候補を順に探す → 無ければ**探した場所を全部 出して止まる。**
+// 当て推量でパスを作らない（`ops/tasks` の作法と同じ）。
+const firstDir = (label, cands) => {
+  for (const c of cands) { if (c && fs.existsSync(c)) return c; }
+  console.error(`${label} が見つからない。探した場所:\n  ` + cands.filter(Boolean).join('\n  '));
+  process.exit(1);
+};
+const HOME = process.env.HOME || '';
+const SNS = firstDir('sns-templates', [
+  process.env.SNS_DIR,
+  `${HOME}/projects/anta-baka-x/sns-templates`,
+  '/Users/ny/projects/anta-baka-x/sns-templates',
+  '/Users/ny_taxa/projects/anta-baka-x/sns-templates',
+]);
+// **`playwright-core` を先に見る**（最上位ルール 14）。X のループが使っている実体と同じ
 const require = createRequire(SNS + '/');
-const { chromium } = require('playwright');
+const loadChromium = () => {
+  for (const base of [process.env.PW_DIR, `${HOME}/.openclaw/workspace/node_modules`,
+                      `${HOME}/openclaw/node_modules`, SNS]) {
+    if (!base) continue;
+    try { return createRequire(base + '/x.js')('playwright-core'); } catch { /* 次 */ }
+  }
+  try { return require('playwright'); } catch { /* 次 */ }
+  console.error('playwright-core も playwright も読めない。');
+  process.exit(1);
+};
+const { chromium } = loadChromium();
 const FONTS = SNS + '/fonts';
 const ASSETS_T = SNS + '/assets-transparent';
-const OUT_DIR = '/Users/ny_taxa/projects/anta-baka-x/blog/public/images/point-service-complete-guide-2026';
-const LOGO_DIR = OUT_DIR + '/logos';
+// **出力先も決め打ちにしない。** `OUT_DIR` を渡せば別の場所に書ける
+//（`ops/tasks` はレポート用ディレクトリに書かせて、画像を持ち帰る）
+const REPO = process.env.BLOG_REPO || process.env.DAILY_HACK_REPO
+  || firstDir('blog リポジトリ', [
+       `${HOME}/projects/anta-baka-x/blog`,
+       '/Users/ny/projects/anta-baka-x/blog',
+       '/Users/ny_taxa/projects/anta-baka-x/blog',
+     ]);
+const OUT_DIR = process.env.OUT_DIR || (REPO + '/public/images/point-service-complete-guide-2026');
+// **ロゴは必ずリポジトリから読む。** `OUT_DIR` を変えてもロゴの出どころは変えない
+const LOGO_DIR = process.env.LOGO_DIR
+  || (REPO + '/public/images/point-service-complete-guide-2026/logos');
 const esc = (s) => String(s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 
 // サービス名 → 公式アプリロゴ
