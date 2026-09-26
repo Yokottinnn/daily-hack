@@ -26,6 +26,9 @@ const FILES = {
   "tokyo-discount-supermarket-2026": ["1-summary.jpg", "2-maibasket.jpg", "3-hanamasa.jpg", "4-tv.jpg"],
   // **1 枚だけ**（2026-09-22 のコメント）。版A（実写あり）が選ばれ、版B は削除した
   "morning-500-2026": ["cover-a.jpg"],
+  // **2 パターンの文面で同じ 4 枚を見てもらう**（2026-09-26 の指示）。
+  // 素材は App Store 掲載素材とアイコンだけなので、出所の行が要らない
+  "payid-invite": ["1-summary.jpg", "2-atobarai.jpg", "3-shops.jpg", "4-rating.jpg"],
 };
 
 const map = {};
