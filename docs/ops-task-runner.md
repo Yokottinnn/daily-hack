@@ -358,3 +358,28 @@ done
 
 - 秘密を出さない・当て推量でファイルを作らない: `CLAUDE.md`「機械的な操作は `ops/tasks/` に置く」
 - 実行結果の置き場: `$OPS_REPORT_DIR`（`reports/*.md`。**公開リポジトリに載る**）
+
+### `git add -A` は、コンフリクトマーカーごと commit する（2026-09-26 に 2 回）
+
+**衝突したまま `git add -A && git commit` すると、`<<<<<<<` の入ったファイルがそのまま入る。**
+しかも直後の `git status` は **clean** になるので、見ていても気づけない。
+
+2026-09-26 に 2 回 踏んだ。1 回目は `ops/data/x-cards/payid-invite.json`、
+2 回目は **`posts.json` / `payid-invite.json` / `page.html` / `.payid-crop.mjs` の 4 本**。
+
+```bash
+# 危ない: 衝突を握りつぶす
+git merge origin/main; git add -A && git commit -m "..."
+
+# 安全: 衝突していたら、先に潰してからでないと commit しない
+git merge origin/main || true
+if git ls-files -u | grep -q .; then
+  git ls-files -u | awk '{print $4}' | sort -u     # ← 衝突したファイルの一覧
+  # 1 本ずつ解決する。`git add -A` を打つのはそのあと
+fi
+grep -rn '^<<<<<<<' --include='*.json' --include='*.html' . | grep -v node_modules
+```
+
+- **`git ls-files -u` が空かどうかで見る。** `git status --short` の `UU` は見落とす
+- **JSON は commit の前に `JSON.parse` を通す。** 壊れていればそこで止まる
+- 戻すときは**衝突前のコミットから取り直す**（`git show <前のコミット>:<パス> > <パス>`）
