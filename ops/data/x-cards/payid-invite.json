@@ -10,29 +10,70 @@
     "theme": "ink",
     "columns": 2,
     "cards": [
-      { "img": "src/icon.png", "badge": "はじめに",
-        "title": "登録で<br>500円分", "meta": "招待コードを入力すると500円分のPAY IDポイント" },
-      { "img": "src/shot1.png", "badge": "あと払い",
-        "title": "今日買って<br>翌月払い", "meta": "紙の請求書なし。コンビニでバーコードを見せるだけ" },
-      { "img": "src/shot2.png", "badge": "品ぞろえ",
-        "title": "食品から<br>ハンドメイドまで", "meta": "食品・調味料・フルーツ・お菓子／コスメ／インテリア" },
-      { "img": "src/icon.png", "badge": "評価",
-        "title": "4.65", "meta": "App Store・197,371件。提供はBASE, Inc." }
+      {
+        "img": "cards/c-intro.jpg",
+        "badge": "はじめに",
+        "title": "登録で<br>500円分",
+        "meta": "招待コードを入力すると500円分のPAY IDポイント"
+      },
+      {
+        "img": "cards/c-pay.jpg",
+        "badge": "あと払い",
+        "title": "今日買って<br>翌月払い",
+        "meta": "紙の請求書なし。コンビニでバーコードを見せるだけ"
+      },
+      {
+        "img": "cards/c-genre.jpg",
+        "badge": "品ぞろえ",
+        "title": "食品から<br>ハンドメイドまで",
+        "meta": "食品・調味料・フルーツ・お菓子／コスメ／インテリア"
+      },
+      {
+        "img": "cards/c-scale.jpg",
+        "badge": "規模",
+        "title": "2,000万<br>アカウント",
+        "meta": "App Storeの評価4.65（197,371件）。提供はBASE, Inc."
+      }
     ],
-    "note": "<b>BASEのショップが、ぜんぶこのアプリから買える。</b>登録は無料。"
+    "note": "<b>BASEのショップが、ぜんぶこのアプリから買える。</b>登録は無料。",
+    "mark": false
   },
   "photos": [
-    { "file": "2-atobarai.jpg", "img": "src/shot1.png",
-      "badge": "PAY ID あと払い", "name": "今日買って、支払いは翌月",
+    {
+      "file": "2-atobarai.jpg",
+      "img": "photos/p-logo.jpg",
+      "badge": "PAY ID あと払い",
+      "name": "今日買って、支払いは翌月",
       "lead": "紙の請求書は来ない。<b>コンビニでアプリのバーコードを見せるだけ</b>",
-      "specs": ["翌月払い", "アプリで完結", "コンビニ払い"] },
-    { "file": "3-shops.jpg", "img": "src/shot2.png",
-      "badge": "BASEのショップ", "name": "食品からハンドメイドまで",
+      "specs": [
+        "翌月払い",
+        "アプリで完結",
+        "コンビニ払い"
+      ]
+    },
+    {
+      "file": "3-shops.jpg",
+      "img": "photos/p-genre.jpg",
+      "badge": "BASEのショップ",
+      "name": "食品からハンドメイドまで",
       "lead": "食品・調味料・フルーツ・お菓子。<b>お米や野菜を生産者から直接</b>という枠もある",
-      "specs": ["食べ物/飲み物", "ハンドメイド", "コスメ・インテリア"] },
-    { "file": "4-rating.jpg", "img": "src/icon.png",
-      "badge": "App Storeの評価", "name": "4.65（197,371件）",
-      "lead": "提供は<b>BASE, Inc.</b>。アプリは無料、版9.21.0（2026年9月16日 更新）",
-      "specs": ["無料", "ショッピング", "BASE, Inc."] }
+      "specs": [
+        "食べ物/飲み物",
+        "ハンドメイド",
+        "コスメ・インテリア"
+      ]
+    },
+    {
+      "file": "4-rating.jpg",
+      "img": "photos/p-scale.jpg",
+      "badge": "アカウント数",
+      "name": "2,000万アカウント突破",
+      "lead": "App Storeの評価は<b>4.65（197,371件）</b>。提供はBASE, Inc.、アプリは無料",
+      "specs": [
+        "無料",
+        "ショッピング",
+        "BASE, Inc."
+      ]
+    }
   ]
 }
