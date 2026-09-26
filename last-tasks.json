@@ -1,3 +1,3 @@
 [
-      {"task": "x152-read-payid-facts.sh", "rc": 0, "out": "PAY ID の一次情報を取った / payid-facts.md"}
+      {"task": "x153-fetch-payid-assets.sh", "rc": 0, "out": "PAY ID の素材を取った / payid-assets.md"}
   ]
