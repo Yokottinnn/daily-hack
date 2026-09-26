@@ -12,9 +12,12 @@ fs.mkdirSync(C, { recursive: true }); fs.mkdirSync(P, { recursive: true });
 //  1-summary 「この文章のところいらない。余白をうまく使って」 → note を外す
 
 // カードは 1000×560。**下半分に文字が来る**ので絵は上側に置く
-async function card(name, src, region, { bg = "#ffffff", top = 14, maxH = 300 } = {}) {
-  const cut = region ? sharp(`${SRC}/${src}`).extract(region) : sharp(`${SRC}/${src}`);
-  const buf = await cut.resize({ height: maxH, fit: "inside" }).png().toBuffer();
+async function card(name, src, region, { bg = "#ffffff", top = 14, maxH = 300, maxW = 1000, trim = false } = {}) {
+  let cut = region ? sharp(`${SRC}/${src}`).extract(region) : sharp(`${SRC}/${src}`);
+  // **ロゴの余白を落とす。** 改変ではない（x-post-images スキル §3・最上位ルール 17）。
+  // アイコンは 512 角のうち図形が中央の一部しかなく、そのまま置くと小さく見える
+  if (trim) cut = cut.trim();
+  const buf = await cut.resize({ width: maxW, height: maxH, fit: "inside" }).png().toBuffer();
   const m = await sharp(buf).metadata();
   await sharp({ create: { width: 1000, height: 560, channels: 3, background: bg } })
     .composite([{ input: buf, top, left: Math.round((1000 - m.width) / 2) }])
@@ -52,7 +55,8 @@ const SCALE = { left: 64, top: 368, width: 328, height: 320 };
 
 // **カードいっぱいに置く。** 上に寄せて小さく置くのをやめた
 // （下半分の文字と少し被るが、それでよいと指示された）
-await card("c-intro", "icon.jpg", null, { maxH: 500, top: 30 });
+// 2026-09-26「500円玉の画像を大きく表示して」→ 余白を落としてカードいっぱいに
+await card("c-intro", "icon.jpg", null, { maxH: 400, maxW: 900, top: 70, trim: true });
 await card("c-pay", "shot1.png", LOGO, { maxH: 540, top: 10 });
 await card("c-genre", "shot2.png", GENRE, { maxH: 540, top: 10 });
 await card("c-scale", "shot1.png", SCALE, { maxH: 540, top: 10 });
