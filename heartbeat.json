@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-26T15:25:48Z",
+  "generated_at": "2026-09-26T15:56:09Z",
   "login_lock": {"present": false, "age_hours": 0},
   "cdp": {"healthy": true, "port": 18810},
-  "x_jobs": {"loaded": 7, "expected": 8, "ai_total": 13, "halted": false, "missing": ["comment-warmup"]},
+  "x_jobs": {"loaded": 7, "expected": 8, "ai_total": 14, "halted": false, "missing": ["comment-warmup"]},
   "last_reply": {"at": "2026-09-25T13:05:33.651Z", "age_hours": 26, "stale": true},
   "supervisor": {"at":"2026-09-26T10:24:20Z","date_jst":"2026-09-26","ran":8,"total":9,"not_run":["comment-warmup"],"fixed":[]},
   "followback_bands": {"with_count":169,"total_rows":520,"bands":{"1000-4999":{"n":57,"back":8,"mature":47,"mature_back":7,"rate":14.9},"300-999":{"n":30,"back":9,"mature":23,"mature_back":9,"rate":39.1},"0-99":{"n":41,"back":9,"mature":33,"mature_back":8,"rate":24.2},"5000-49999":{"n":32,"back":1,"mature":27,"mature_back":1,"rate":3.7},"100-299":{"n":9,"back":1,"mature":6,"mature_back":1,"rate":16.7}},"status_values":{"no":394,"revenge_ghost_already_unfollowed":48,"unfollowed":16,"yes_late":1,"yes":49,"pending":12},"note":"mature の率で見る"},
   "host": "NaokinoMacBook-Pro-2.local",
-  "job_count": 21,
+  "job_count": 22,
   "jobs": [
     "ai.openclaw.badge-followback",
     "ai.openclaw.caffeinate",
@@ -18,6 +18,7 @@
     "ai.openclaw.incoming-reply-watcher",
     "ai.openclaw.mutual-prune",
     "ai.openclaw.pipeline-heartbeat",
+    "ai.openclaw.publish-payid-oneshot",
     "ai.openclaw.reply-followback-check",
     "ai.openclaw.reply-followers-cleanup",
     "ai.openclaw.tab-guard",
@@ -32,9 +33,7 @@
     "com.dailyhack.x-impressions"
   ],
   "reconnect": "既に起動している",
-  "tasks": [
-      {"task": "x156-when-to-post.sh", "rc": 0, "out": "投稿時刻の実績と予約の可否を読んだ / when-to-post.md"}
-  ],
+  "tasks": [],
   "running": null,
   "auth": {
     "ok": true,
@@ -116,15 +115,15 @@
   ],
   "clone": {
     "branch": "main",
-    "behind": 48,
+    "behind": 50,
     "dirty": 1
   },
   "followers": {
     "now": 288,
     "prev": 283,
     "prev_date": "2026-09-23",
-    "span_days": 2,
-    "record_age_days": 1,
+    "span_days": 3,
+    "record_age_days": 0,
     "record_stale": false,
     "target": 300,
     "deadline": "2026-09-30"
