@@ -28,7 +28,7 @@ references: ["https://www.anapocket.com/pro", "https://www.jal.co.jp/jp/ja/jmb/w
 
 | 比較軸 | <span class="cell-brand"><img class="brand-logo-sm" src="/images/ana-pocket-vs-jal-wellness-2026/logos/anapocket.png" alt="" loading="lazy" /><a href="https://www.anapocket.com/pro" target="_blank" rel="noopener nofollow">ANA Pocket</a></span> | <span class="cell-brand"><img class="brand-logo-sm" src="/images/ana-pocket-vs-jal-wellness-2026/logos/jalwellness.png" alt="" loading="lazy" /><a href="https://www.jal.co.jp/jp/ja/jmb/wellness/" target="_blank" rel="noopener nofollow">JAL Wellness &amp; Travel</a></span> |
 |:---|:---|:---|
-| **貯まるマイル** | <span class="cell-brand"><img class="brand-logo-sm" src="/images/ana-pocket-vs-jal-wellness-2026/logos/ana.png" alt="" loading="lazy" />ANAマイル</span> | JALマイル |
+| **貯まるマイル** | <span class="cell-brand"><img class="brand-logo-sm" src="/images/ana-pocket-vs-jal-wellness-2026/logos/ana.png" alt="" loading="lazy" />ANAマイル</span> | <span class="cell-brand"><img class="brand-logo-sm" src="/images/ana-pocket-vs-jal-wellness-2026/logos/jal.png" alt="" loading="lazy" />JALマイル</span> |
 | **貯め方** | 移動距離（徒歩・自転車・電車・車・新幹線・飛行機） | 1日の歩数チャレンジ＋くじ |
 | **月額** | 無料(Lite) or **Pro 550円** | **550円**（初回〜翌月末無料） |
 | **無料運用** | ◎ 可能（Liteで少額） | △ 実質課金前提 |
@@ -138,7 +138,7 @@ X上でも「**1年契約で貯まる1,500マイルで、4地域から選べる�
 
 <div class="vs-pair">
 <div class="vs-card">
-<h4>🔵 ANA Pocket を選ぶべき人</h4>
+<h4 class="brand-h"><img class="brand-logo" src="/images/ana-pocket-vs-jal-wellness-2026/logos/anapocket.png" alt="ANA Pocketのロゴ" loading="lazy" /><span>🔵 ANA Pocket を選ぶべき人</span></h4>
 <ul>
 <li>電車通勤・車移動が多い（歩数は少なめ）</li>
 <li>ANAマイルを貯めている／ANAで旅行する</li>

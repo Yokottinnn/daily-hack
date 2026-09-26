@@ -1,43 +1,71 @@
 {
- "_note": "識別目的で使うロゴ。**商標であり自由ライセンスではない。** 改変しない（CSS の枠は可）。取得元と取得日をここに残す。",
- "rakuten-card.png": {
-  "brand": "楽天カード",
-  "source": "（既存。この記事で以前から使用）",
-  "fetched": "不明",
-  "license_note": "商標。識別目的で使用",
-  "copied_from": "public/images/credit-card-kaiaku-2026/logos/rakuten-card.png",
-  "copied": "2026-09-22"
- },
- "paypaycard.png": {
-  "brand": "PayPayカード",
-  "source": "https://www.paypay-card.co.jp/company/ の SVG",
-  "page": "https://www.paypay-card.co.jp/company/",
-  "fetched": "2026-09-20",
-  "license_note": "公式サイトのロゴ画像（商標）。**SVG を Chromium で PNG にした**",
-  "task": "ops/tasks/t133-logos-retry5.sh",
-  "copied_from": "public/images/credit-card-kaiaku-2026/logos/paypaycard.png",
-  "copied": "2026-09-22"
- },
- "rakutenbank.png": {
-  "brand": "楽天銀行",
-  "source": "https://www.rakuten-bank.co.jp/shared/images/header/logo_pc.svg",
-  "page": "https://www.rakuten-bank.co.jp/",
-  "fetched": "2026-09-21",
-  "note": "SVG を Chromium でラスタライズ。正方形版もあったが**横長の wordmark** を採った",
-  "license_note": "商標。識別目的で使用",
-  "task": "ops/tasks/t152-bank-logos.sh",
-  "copied_from": "public/images/jre-bank-campaign-2026/logos/rakutenbank.png",
-  "copied": "2026-09-22"
- },
- "rakutensec.png": {
-  "brand": "楽天証券",
-  "copied_from": "public/images/fx-account-comparison-2026/logos/rakutensec.png",
-  "copied": "2026-09-22",
-  "note": "**在庫を流用。** 目で見て正しいブランドであることを確認済み",
-  "license_note": "商標。識別目的で使用"
- },
- "_取れなかったもの": {
-  "Olive": "`point-service-complete-guide-2026/logos/olive.png` は**中身が SMBC のロゴ**だった（目で見て確認）。**銀行のロゴであって Olive のロゴではない**ので使わない（最上位ルール 17）",
-  "SBI証券": "在庫はあるが、この記事では表のセルに 1 回 出るだけ。**Olive 側にロゴが無い状態で片方だけ入れると不揃いになる**ので、両方 揃うまで入れない"
- }
+  "_note": "識別目的で使うロゴ。**商標であり自由ライセンスではない。** 改変しない（CSS の枠は可）。取得元と取得日をここに残す。",
+  "rakuten-card.png": {
+    "brand": "楽天カード",
+    "source": "（既存。この記事で以前から使用）",
+    "fetched": "不明",
+    "license_note": "商標。識別目的で使用",
+    "copied_from": "public/images/credit-card-kaiaku-2026/logos/rakuten-card.png",
+    "copied": "2026-09-22"
+  },
+  "paypaycard.png": {
+    "brand": "PayPayカード",
+    "source": "https://www.paypay-card.co.jp/company/ の SVG",
+    "page": "https://www.paypay-card.co.jp/company/",
+    "fetched": "2026-09-20",
+    "license_note": "公式サイトのロゴ画像（商標）。**SVG を Chromium で PNG にした**",
+    "task": "ops/tasks/t133-logos-retry5.sh",
+    "copied_from": "public/images/credit-card-kaiaku-2026/logos/paypaycard.png",
+    "copied": "2026-09-22"
+  },
+  "rakutenbank.png": {
+    "brand": "楽天銀行",
+    "source": "https://www.rakuten-bank.co.jp/shared/images/header/logo_pc.svg",
+    "page": "https://www.rakuten-bank.co.jp/",
+    "fetched": "2026-09-21",
+    "note": "SVG を Chromium でラスタライズ。正方形版もあったが**横長の wordmark** を採った",
+    "license_note": "商標。識別目的で使用",
+    "task": "ops/tasks/t152-bank-logos.sh",
+    "copied_from": "public/images/jre-bank-campaign-2026/logos/rakutenbank.png",
+    "copied": "2026-09-22"
+  },
+  "rakutensec.png": {
+    "brand": "楽天証券",
+    "copied_from": "public/images/fx-account-comparison-2026/logos/rakutensec.png",
+    "copied": "2026-09-22",
+    "note": "**在庫を流用。** 目で見て正しいブランドであることを確認済み",
+    "license_note": "商標。識別目的で使用"
+  },
+  "_取れなかったもの": {
+    "Olive": "`point-service-complete-guide-2026/logos/olive.png` は**中身が SMBC のロゴ**だった（目で見て確認）。**銀行のロゴであって Olive のロゴではない**ので使わない（最上位ルール 17）",
+    "SBI証券": "在庫はあるが、この記事では表のセルに 1 回 出るだけ。**Olive 側にロゴが無い状態で片方だけ入れると不揃いになる**ので、両方 揃うまで入れない"
+  },
+  "smbc.png": {
+    "brand": "三井住友銀行",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Smbc_logo.svg",
+    "page": "https://ja.wikipedia.org/wiki/三井住友銀行",
+    "fetched": "2026-09-23",
+    "task": "ops/tasks/t165-logos-banks-denki.sh",
+    "license_note": "コモンズ上は **Public domain**（単純図形で著作権が発生しない扱い）。商標としては識別目的で使用。**SVG を Chromium で PNG にした**",
+    "copied_from": "public/images/best-online-banks-2026/logos/smbc.png"
+  },
+  "paypay.png": {
+    "brand": "PayPay",
+    "source": "https://travel.yahoo.co.jp/ 上の PayPay アイコン",
+    "page": "https://travel.yahoo.co.jp/ 上の PayPay アイコン",
+    "fetched": "2026-09-20",
+    "license_note": "商標。識別目的で使用",
+    "task": "ops/tasks/t130-*.sh",
+    "copied_from": "public/images/gyudon-chains-cashless-2026-jun/logos/paypay.png",
+    "copied": "2026-09-22"
+  },
+  "sbisec.png": {
+    "brand": "SBI証券",
+    "source": "コモンズの SBI Securities ロゴ",
+    "page": "コモンズの SBI Securities ロゴ",
+    "fetched": "2026-09-20",
+    "license_note": "商標。識別目的で使用",
+    "task": "ops/tasks/t132-*.sh",
+    "copied_from": "public/images/nisa-investment-beginner-guide-2026/logos/sbisec.png"
+  }
 }

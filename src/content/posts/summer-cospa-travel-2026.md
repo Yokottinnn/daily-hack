@@ -325,7 +325,7 @@ TDR 徒歩圏・無料シャトル付き。サマ割で **ポイント23%還元�
 
 ---
 
-## 楽天トラベルの目玉宿 ６ 選
+<h2 class="brand-h" id="楽天トラベルの目玉宿-６-選"><img class="brand-logo" src="/images/summer-cospa-travel-2026/logos/rakutentravel.png" alt="楽天トラベルのロゴ" loading="lazy" /><span>楽天トラベルの目玉宿 ６ 選</span></h2>
 
 **楽天経済圏勢の本丸**。スーパーDEAL、5と0のつく日、アーリーサマー、楽パック、SPU、すべて重なる「楽天最強月間」が今。
 

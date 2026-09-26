@@ -1,25 +1,25 @@
 {
- "_note": "識別目的で使うロゴ。**商標であり自由ライセンスではない。** 改変しない（CSS の枠は可）。取得元と取得日をここに残す。",
- "jrebank.png": {
-  "brand": "JRE BANK",
-  "source": "https://www.jrebank.jp/index/images/logo.png",
-  "page": "https://www.jrebank.jp/",
-  "fetched": "2026-09-21",
-  "note": "**`jrepoint.png`（JRE POINT）は別ブランドなので流用しない。** トップの併記版（JRE BANK ＋ 楽天銀行）ではなく、**JRE BANK 単体のエンブレム**を採った",
-  "license_note": "商標。識別目的で使用",
-  "task": "ops/tasks/t152-bank-logos.sh"
- },
- "rakutenbank.png": {
-  "brand": "楽天銀行",
-  "source": "https://www.rakuten-bank.co.jp/shared/images/header/logo_pc.svg",
-  "page": "https://www.rakuten-bank.co.jp/",
-  "fetched": "2026-09-21",
-  "note": "SVG を Chromium でラスタライズ。正方形版もあったが**横長の wordmark** を採った",
-  "license_note": "商標。識別目的で使用",
-  "task": "ops/tasks/t152-bank-logos.sh"
- },
- "_取れなかったもの": {
-  "Olive（三井住友銀行）": "公式から取れたのは **SMBC のロゴ**（銀行のロゴであって Olive のロゴではない）と、写真入りのキャンペーンバナー。**別ブランドの流用になるので使わない**（最上位ルール 17）",
-  "住信SBIネット銀行": "HTML が **824 bytes** しか返らない（JS で描いている）"
- }
+  "_note": "識別目的で使うロゴ。**商標であり自由ライセンスではない。** 改変しない（CSS の枠は可）。取得元と取得日をここに残す。",
+  "jrebank.png": {
+    "brand": "JRE BANK",
+    "source": "https://www.jrebank.jp/index/images/logo.png",
+    "page": "https://www.jrebank.jp/",
+    "fetched": "2026-09-21",
+    "note": "**`jrepoint.png`（JRE POINT）は別ブランドなので流用しない。** トップの併記版（JRE BANK ＋ 楽天銀行）ではなく、**JRE BANK 単体のエンブレム**を採った",
+    "license_note": "商標。識別目的で使用",
+    "task": "ops/tasks/t152-bank-logos.sh"
+  },
+  "rakutenbank.png": {
+    "brand": "楽天銀行",
+    "source": "https://www.rakuten-bank.co.jp/shared/images/header/logo_pc.svg",
+    "page": "https://www.rakuten-bank.co.jp/",
+    "fetched": "2026-09-21",
+    "note": "SVG を Chromium でラスタライズ。正方形版もあったが**横長の wordmark** を採った",
+    "license_note": "商標。識別目的で使用",
+    "task": "ops/tasks/t152-bank-logos.sh"
+  },
+  "_取れなかったもの": {
+    "Olive（三井住友銀行）": "公式から取れたのは **SMBC のロゴ**（銀行のロゴであって Olive のロゴではない）と、写真入りのキャンペーンバナー。**別ブランドの流用になるので使わない**（最上位ルール 17）",
+    "住信SBIネット銀行": "HTML が **824 bytes** しか返らない（JS で描いている）"
+  }
 }

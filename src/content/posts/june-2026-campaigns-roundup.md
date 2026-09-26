@@ -227,7 +227,7 @@ author: "hacker-ko"
 
   <article class="compare-card">
     <span class="compare-card-mascot"><img src="/images/expr-04-cheer.png" alt="" /></span>
-    <h3>11. 三菱UFJ銀行 紹介</h3>
+    <h3 class="brand-h"><img class="brand-logo" src="/images/june-2026-campaigns-roundup/logos/mufg.png" alt="三菱UFJ銀行のロゴ" loading="lazy" /><span>11. 三菱UFJ銀行 紹介</span></h3>
     <p class="tagline">紹介してもされても1,500円のシンプル設計。既存口座があるなら家族に紹介して両者ゲット。</p>
     <dl>
       <dt>カテゴリ</dt><dd>銀行</dd>
@@ -241,7 +241,7 @@ author: "hacker-ko"
 
   <article class="compare-card">
     <span class="compare-card-mascot"><img src="/images/expr-01-wave.png" alt="" /></span>
-    <h3>12. みずほ銀行 紹介</h3>
+    <h3 class="brand-h"><img class="brand-logo" src="/images/june-2026-campaigns-roundup/logos/mizuho.png" alt="みずほ銀行のロゴ" loading="lazy" /><span>12. みずほ銀行 紹介</span></h3>
     <p class="tagline">既存銀行の乗り換え候補。住宅ローン検討者には地味に効く特典が用意されている。</p>
     <dl>
       <dt>カテゴリ</dt><dd>銀行</dd>

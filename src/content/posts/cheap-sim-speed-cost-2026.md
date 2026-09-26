@@ -57,10 +57,10 @@ references:
 | 事業者 | 系統 | 平日昼12時台の実効速度の目安 | 比較用の月額(税込) |
 |---|---|---|---|
 | ドコモ / au / ソフトバンク 本家 | 大手本体 | 30〜80Mbps前後（最強クラス） | 7,000円台〜 |
-| ahamo | ドコモ系サブ | 30〜60Mbps前後 | 2,970円(30GB) |
-| povo 2.0 | au系サブ | 20〜50Mbps前後 | 2,700円(20GB/30日) |
-| LINEMO | SB系サブ | 25〜55Mbps前後 | 〜2,970円(20GB) |
-| 楽天モバイル | 自社回線 | 15〜40Mbps前後 | 2,178円(20GB) |
+| <span class="cell-brand"><img class="brand-logo-sm" src="/images/cheap-sim-speed-cost-2026/logos/ahamo.png" alt="" loading="lazy" />ahamo</span> | ドコモ系サブ | 30〜60Mbps前後 | 2,970円(30GB) |
+| <span class="cell-brand"><img class="brand-logo-sm" src="/images/cheap-sim-speed-cost-2026/logos/povo.png" alt="" loading="lazy" />povo 2.0</span> | au系サブ | 20〜50Mbps前後 | 2,700円(20GB/30日) |
+| <span class="cell-brand"><img class="brand-logo-sm" src="/images/cheap-sim-speed-cost-2026/logos/linemo.png" alt="" loading="lazy" />LINEMO</span> | SB系サブ | 25〜55Mbps前後 | 〜2,970円(20GB) |
+| <span class="cell-brand"><img class="brand-logo-sm" src="/images/cheap-sim-speed-cost-2026/logos/rakutenmobile.png" alt="" loading="lazy" />楽天モバイル</span> | 自社回線 | 15〜40Mbps前後 | 2,178円(20GB) |
 | 日本通信 | ドコモ回線MVNO | 5〜20Mbps前後 | 1,390円(20GB) |
 | IIJmio | ドコモ/au回線MVNO | 1〜8Mbps前後（昼は落ちやすい） | 2,000円(20GB) |
 | mineo | 3回線MVNO | 0.5〜5Mbps前後（昼の谷が深い） | 2,178円(20GB) |
@@ -80,10 +80,10 @@ references:
 
 | 順位 | 事業者 | 速度単価の目安(円/Mbps) | ひとことコメント |
 |---|---|---|---|
-| 1 | ahamo | 約66円/Mbps | 30GB込みでこの安さ。速度コスパの優勝候補 |
-| 2 | povo 2.0 | 約77円/Mbps | 使う月だけ盛れて昼も速い。サブにも本命 |
-| 3 | LINEMO | 約74円/Mbps | SB回線で昼安定。LINEギガフリーも効く |
-| 4 | 楽天モバイル | 約79円/Mbps | 都市部なら速度コスパ良好、無制限なら別格 |
+| 1 | <span class="cell-brand"><img class="brand-logo-sm" src="/images/cheap-sim-speed-cost-2026/logos/ahamo.png" alt="" loading="lazy" />ahamo</span> | 約66円/Mbps | 30GB込みでこの安さ。速度コスパの優勝候補 |
+| 2 | <span class="cell-brand"><img class="brand-logo-sm" src="/images/cheap-sim-speed-cost-2026/logos/povo.png" alt="" loading="lazy" />povo 2.0</span> | 約77円/Mbps | 使う月だけ盛れて昼も速い。サブにも本命 |
+| 3 | <span class="cell-brand"><img class="brand-logo-sm" src="/images/cheap-sim-speed-cost-2026/logos/linemo.png" alt="" loading="lazy" />LINEMO</span> | 約74円/Mbps | SB回線で昼安定。LINEギガフリーも効く |
+| 4 | <span class="cell-brand"><img class="brand-logo-sm" src="/images/cheap-sim-speed-cost-2026/logos/rakutenmobile.png" alt="" loading="lazy" />楽天モバイル</span> | 約79円/Mbps | 都市部なら速度コスパ良好、無制限なら別格 |
 | 5 | 日本通信 | 約111円/Mbps | MVNOの中では健闘。料金の安さで底上げ |
 | 6 | IIJmio | 約444円/Mbps | 昼の谷が痛い。料金の安さを速度が食い潰す |
 | 7 | mineo | 約792円/Mbps | 昼1Mbps前後だと速度単価は一気に跳ねる |

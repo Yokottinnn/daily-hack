@@ -232,7 +232,7 @@ author: "hacker-ko"
       <tr class="recommended"><td>アソビュー</td><td><strong>3,150円</strong></td><td>—</td><td>期間限定クーポン利用時。最大18%割で<strong>最安</strong></td></tr>
       <tr><td>江東区民割引</td><td>3,350円</td><td>1,900円</td><td>2026/8/31まで・要身分証</td></tr>
       <tr><td>東京都民割引</td><td>3,550円</td><td>1,900円</td><td>2026/8/31まで・要身分証</td></tr>
-      <tr><td>楽天トラベル</td><td>変動</td><td>変動</td><td>宿泊利用時。楽天ポイントが貯まる／使える</td></tr>
+      <tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/wangan-august-events-2026/logos/rakutentravel.png" alt="" loading="lazy" />楽天トラベル</span></td><td>変動</td><td>変動</td><td>宿泊利用時。楽天ポイントが貯まる／使える</td></tr>
     </tbody>
   </table>
 </div>

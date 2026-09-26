@@ -251,7 +251,7 @@ author: "hacker-ko"
 
 <div class="compare-cards">
   <article class="compare-card">
-    <h3>三井住友カード派</h3>
+    <h3 class="brand-h"><img class="brand-logo" src="/images/nisa-investment-beginner-guide-2026/logos/smbccard.png" alt="三井住友カードのロゴ" loading="lazy" /><span>三井住友カード派</span></h3>
     <p class="tagline">Vポイント経済圏で日常から固めてるあんた。</p>
     <dl>
       <dt>対象ユーザー</dt><dd>三井住友カード（NL／ゴールドNL／プラチナプリファード）保有者、Vポイント派</dd>
@@ -262,7 +262,7 @@ author: "hacker-ko"
   </article>
 
   <article class="compare-card">
-    <h3>楽天カード派</h3>
+    <h3 class="brand-h"><img class="brand-logo" src="/images/nisa-investment-beginner-guide-2026/logos/rakutencard.png" alt="楽天カードのロゴ" loading="lazy" /><span>楽天カード派</span></h3>
     <p class="tagline">楽天市場・楽天銀行・楽天モバイルで生活が完結してるあんた。</p>
     <dl>
       <dt>対象ユーザー</dt><dd>楽天会員、楽天カード・楽天銀行・楽天市場ヘビーユーザー</dd>
@@ -273,7 +273,7 @@ author: "hacker-ko"
   </article>
 
   <article class="compare-card">
-    <h3>dカード派</h3>
+    <h3 class="brand-h"><img class="brand-logo" src="/images/nisa-investment-beginner-guide-2026/logos/dcard.png" alt="dカードのロゴ" loading="lazy" /><span>dカード派</span></h3>
     <p class="tagline">ドコモ回線 + dポイントで経済圏組んでるあんた。</p>
     <dl>
       <dt>対象ユーザー</dt><dd>ドコモユーザー、dカード保有者、米国個別株も触りたい人</dd>
