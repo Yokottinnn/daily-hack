@@ -48,10 +48,12 @@ const GENRE = { left: 14, top: 40, width: 364, height: 440 };
 // 端で切らない。丸ごとと、その下の画面まで
 const SCALE = { left: 64, top: 368, width: 328, height: 320 };
 
-await card("c-intro", "icon.jpg", null, { maxH: 250, top: 40 });
-await card("c-pay", "shot1.png", LOGO, { maxH: 300, top: 12 });
-await card("c-genre", "shot2.png", GENRE, { maxH: 300, top: 12 });
-await card("c-scale", "shot1.png", SCALE, { maxH: 290, top: 20 });
+// **カードいっぱいに置く。** 上に寄せて小さく置くのをやめた
+// （下半分の文字と少し被るが、それでよいと指示された）
+await card("c-intro", "icon.jpg", null, { maxH: 500, top: 30 });
+await card("c-pay", "shot1.png", LOGO, { maxH: 540, top: 10 });
+await card("c-genre", "shot2.png", GENRE, { maxH: 540, top: 10 });
+await card("c-scale", "shot1.png", SCALE, { maxH: 540, top: 10 });
 
 await panel("p-logo", "shot1.png", LOGO, { size: 620, top: 130 });
 await panel("p-genre", "shot2.png", GENRE, { size: 660, top: 90 });
