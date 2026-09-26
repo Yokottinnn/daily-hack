@@ -56,8 +56,9 @@ const SCALE = { left: 64, top: 368, width: 328, height: 320 };
 // **カードいっぱいに置く。** 上に寄せて小さく置くのをやめた
 // （下半分の文字と少し被るが、それでよいと指示された）
 // 2026-09-26「500円玉の画像を大きく表示して」→ **実物の硬貨写真**（PD）に差し替え。
-// 黒地の写真なので、カードの地も暗くして四隅を溶かす
-await card("c-intro", "coin1.jpg", null, { maxH: 520, maxW: 900, top: 20, bg: "#0d0d0d" });
+// さらに「なぜこの画像だけ黒背景なの？ どう考えても浮いてるでしょ」と言われたので、
+// **硬貨だけを丸く抜いて**（`.payid-coin.mjs`）、他のカードと同じ明るい地に置く
+await card("c-intro", "coin1-cut.png", null, { maxH: 500, maxW: 880, top: 30 });
 await card("c-pay", "shot1.png", LOGO, { maxH: 540, top: 10 });
 await card("c-genre", "shot2.png", GENRE, { maxH: 540, top: 10 });
 await card("c-scale", "shot1.png", SCALE, { maxH: 540, top: 10 });
