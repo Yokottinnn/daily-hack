@@ -74,7 +74,7 @@ relatedReferrals: ["rakuten-bank"]
       <tr><th>ATM手数料</th><td>残高や取引回数に応じて月最大7回まで無料</td></tr>
       <tr><th>他行振込手数料</th><td>給与受取設定で月最大3回まで無料</td></tr>
       <tr><th>アプリの使いやすさ</th><td>スマホ完結で口座開設からATM入出金までOK</td></tr>
-      <tr><th>楽天市場SPU</th><td>楽天市場でのポイント倍率+0.5〜1倍（楽天カード併用で+1〜2倍）</td></tr>
+      <tr><th><span class="cell-brand"><img class="brand-logo-sm" src="/images/rakuten-bank-referral/logos/rakutenichiba.png" alt="" loading="lazy" />楽天市場SPU</span></th><td>楽天市場でのポイント倍率+0.5〜1倍（楽天カード併用で+1〜2倍）</td></tr>
     </tbody>
   </table>
 </div>

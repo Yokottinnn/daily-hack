@@ -63,8 +63,8 @@ references: ["https://x.com/nogenkin/status/2059951364571385956", "https://www.m
 
 | ロゴ | 決済 | 期間 | 還元率 | 上限 | 最低利用 | 注文方法 |
 |:---:|---|---|---|---|---|---|
-| <img src="/images/wangan-supermarkets-2026/icons/point-paypay.png" alt="PayPay" width="60" /> | **PayPay** | **6/15-16 限定**＋ 6/1-30 通常 | **最大40%**（限定）／10%（通常） | 350pt/回（限定）／200pt/回（通常） | 税込 800 円〜 | 松弁ネット系（事前決済） |
-| <img src="/images/wangan-supermarkets-2026/icons/point-rakuten.svg" alt="楽天ペイ" width="60" /> | **楽天ペイ** | 6/1〜6/30 | 最大10%（スタンプラリー）+ 上位600名特典 | 2,000pt（特典1）／6,000pt（特典2上位） | 規定なし | 松弁ネット系・店頭可（要確認） |
+| <img src="/images/wangan-supermarkets-2026/icons/point-paypay.png" alt="PayPay" width="60" /> | <span class="cell-brand"><img class="brand-logo-sm" src="/images/matsuya-60th-cashless-2026-jun/logos/paypay.png" alt="" loading="lazy" />**PayPay**</span> | **6/15-16 限定**＋ 6/1-30 通常 | **最大40%**（限定）／10%（通常） | 350pt/回（限定）／200pt/回（通常） | 税込 800 円〜 | 松弁ネット系（事前決済） |
+| <img src="/images/wangan-supermarkets-2026/icons/point-rakuten.svg" alt="楽天ペイ" width="60" /> | <span class="cell-brand"><img class="brand-logo-sm" src="/images/matsuya-60th-cashless-2026-jun/logos/rakutenpay.png" alt="" loading="lazy" />**楽天ペイ**</span> | 6/1〜6/30 | 最大10%（スタンプラリー）+ 上位600名特典 | 2,000pt（特典1）／6,000pt（特典2上位） | 規定なし | 松弁ネット系・店頭可（要確認） |
 | <img src="/images/matsuya-60th-cashless-2026-jun/icons/logo-aupay.png" alt="au PAY" width="60" /> | **au PAY** | 6/1〜6/30 | 合計600円〜で **Pontaポイント最大300pt**＋上位10,000名特典 | 300pt（特典1）／60,000pt（特典2 1位） | 合計 600 円 | 松弁ネット系（ネット支払い対象） |
 | <img src="/images/wangan-supermarkets-2026/icons/point-dpoint.png" alt="d払い" width="60" /> | **d払い** | **6/1〜6/20**（最短終了） | **既存 +15%／新規・復帰 +20%** | 300pt/回・期間中 5,000pt | 税込 800 円〜 | 松弁ネット系（事前決済） |
 

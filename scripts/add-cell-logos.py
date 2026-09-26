@@ -74,7 +74,7 @@ def match(inner):
     if not tn: return None
     # **「楽天・d・PayPay・現金」のような並列は、どれか 1 つに差すと誤解を招く。**
     # `norm()` が中黒を落とすので、落とす前に見る
-    listy = '・' in t or '／' in t
+    listy = bool(re.search(r'[・／]| / ', t))
     hit = []
     for b, f, v in pool:
         bn = norm(b)
@@ -82,7 +82,7 @@ def match(inner):
         if len(bn) / len(tn) < 0.5: continue
         # **既に採ったブランドの部分文字列は同じものと見なす**（「楽天トラベル」と「楽天」）
         if any(bn in norm(pb) or norm(pb) in bn for pb, _, _ in hit): continue
-        if listy and '・' not in b and '／' not in b:
+        if listy and not re.search(r'[・／]| / ', b):
             print(f'  ?? 見送り（並列のセル）: {t[:55]}  -> {b}')
             continue
         hit.append((b, f, v))

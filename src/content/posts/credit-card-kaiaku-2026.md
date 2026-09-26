@@ -152,7 +152,7 @@ PayPay陣営は自社決済への集約を強めていて、<strong>チャージ
 <div class="compare-cards">
   <article class="compare-card recommended">
     <span class="compare-card-mascot"><img src="/images/expr-05-smug.png" alt="" /></span>
-    <h3>楽天カード</h3>
+    <h3 class="brand-h"><img class="brand-logo" src="/images/credit-card-kaiaku-2026/logos/rakuten-card.png" alt="楽天カードのロゴ" loading="lazy" /><span>楽天カード</span></h3>
     <p class="tagline">万人向けの王道。改悪見合わせの楽天ペイと合わせて経済圏が安定。</p>
     <dl>
       <dt>年会費</dt><dd>永年無料</dd>
@@ -163,7 +163,7 @@ PayPay陣営は自社決済への集約を強めていて、<strong>チャージ
     <a class="compare-cta" href="https://r10.to/hPxfRD" target="_blank" rel="sponsored noopener nofollow">紹介リンク経由で申込 →</a>
   </article>
   <article class="compare-card">
-    <h3>リクルートカード</h3>
+    <h3 class="brand-h"><img class="brand-logo" src="/images/credit-card-kaiaku-2026/logos/recruit-card.png" alt="リクルートカードのロゴ" loading="lazy" /><span>リクルートカード</span></h3>
     <p class="tagline">素の還元率1.2%。特定店舗に縛られない“どこでも高還元”が改悪に強い。</p>
     <dl>
       <dt>年会費</dt><dd>永年無料</dd>

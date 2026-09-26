@@ -64,7 +64,7 @@ references: ["https://kakakumag.com/money/?id=20897", "https://www.warau.jp/", "
 <div class="svc">
 <img src="/images/point-service-complete-guide-2026/logos/paypay.png" alt="PayPayポイント" loading="lazy">
 <div>
-<h4>PayPayポイント</h4>
+<h4 class="brand-h"><img class="brand-logo" src="/images/point-service-complete-guide-2026/logos/paypay.png" alt="PayPayのロゴ" loading="lazy" /><span>PayPayポイント</span></h4>
 <p class="svc-meta">経済圏: ソフトバンク/LINEヤフー ／ 基本 <b>約0.5%</b>〜<br>強み: 加盟店数が圧倒的、街の決済はこれ一つで完結<br>2026動向: <b>6月に過去最大級の改悪</b>（ポイント払い0%・公共料金半減・チャージ二重取り廃止・eKYC必須）</p>
 <p class="svc-real">とにかく使える店が多いのが正義。ただ6月改悪でチャージ二重取りや公共料金のうまみが消えて、「純粋な決済アプリ」として割り切るようになった。</p>
 </div>
@@ -227,7 +227,7 @@ references: ["https://kakakumag.com/money/?id=20897", "https://www.warau.jp/", "
 <div class="svc">
 <img src="/images/point-service-complete-guide-2026/logos/torima.png" alt="トリマ" loading="lazy">
 <div>
-<h4>トリマ</h4>
+<h4 class="brand-h"><img class="brand-logo" src="/images/point-service-complete-guide-2026/logos/torima.png" alt="トリマのロゴ" loading="lazy" /><span>トリマ</span></h4>
 <p class="svc-meta">移動距離＋歩数＋動画広告で現金・ギフト券<br>間口が広い王道。車移動が多い人ほど貯まる</p>
 <p class="svc-real">通勤や買い物の移動で勝手に貯まる。動画広告は“ながら”でこなす日だけ。月700〜1,200円分が現実ライン。</p>
 </div>
@@ -235,7 +235,7 @@ references: ["https://kakakumag.com/money/?id=20897", "https://www.warau.jp/", "
 <div class="svc">
 <img src="/images/point-service-complete-guide-2026/logos/anapocket.png" alt="ANA Pocket" loading="lazy">
 <div>
-<h4>ANA Pocket</h4>
+<h4 class="brand-h"><img class="brand-logo" src="/images/point-service-complete-guide-2026/logos/anapocket.png" alt="ANA Pocketのロゴ" loading="lazy" /><span>ANA Pocket</span></h4>
 <p class="svc-meta">移動距離でANAマイル/ポイント。無料〜Pro(550円)<br>歩く・電車・車・飛行機まで移動手段を自動判定</p>
 <p class="svc-real">移動量が多い人向け。無料でもコツコツ貯まるけど、Pro課金で交換先と還元が一気に広がる。陸マイラーの入口に。</p>
 </div>

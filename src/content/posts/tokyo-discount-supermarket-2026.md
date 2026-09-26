@@ -48,7 +48,7 @@ references:
   </a>
   <a class="event-pick" href="#maibasket" style="--pick-img:url('/images/tokyo-discount-supermarket-2026/photos/maibasket-iogi.jpg')">
     <span class="pick-date">都心の密度</span>
-    <h4>まいばすけっと 東京都879店</h4>
+    <h4 class="brand-h"><img class="brand-logo" src="/images/tokyo-discount-supermarket-2026/logos/mybasket.png" alt="まいばすけっとのロゴ" loading="lazy" /><span>まいばすけっと 東京都879店</span></h4>
     <p>全国1,262店のうち<strong>約7割が東京都</strong>。コンビニより安く、スーパーより近い。</p>
     <span class="pick-go">詳しく見る →</span>
   </a>
@@ -66,7 +66,7 @@ references:
   </a>
   <a class="event-pick" href="#donki" style="--pick-img:url('/images/tokyo-discount-supermarket-2026/photos/donki-roppongi.jpg')">
     <span class="pick-date">24時間</span>
-    <h4>ドン・キホーテ 深夜の受け皿</h4>
+    <h4 class="brand-h"><img class="brand-logo" src="/images/tokyo-discount-supermarket-2026/logos/donki.png" alt="ドン・キホーテのロゴ" loading="lazy" /><span>ドン・キホーテ 深夜の受け皿</span></h4>
     <p>六本木・新宿・渋谷に「激安の殿堂」。<strong>スーパーが閉まったあと</strong>の選択肢になる。</p>
     <span class="pick-go">詳しく見る →</span>
   </a>
@@ -99,7 +99,7 @@ references:
 
 <div class="cmp-table-wrap">
 <table class="cmp-table">
-<thead><tr><th>買収前</th><th><a href="https://www.trial-net.co.jp/" target="_blank" rel="noopener">トライアルHD</a></th><th><a href="https://www.seiyu.co.jp/" target="_blank" rel="noopener">西友</a></th></tr></thead>
+<thead><tr><th>買収前</th><th><span class="cell-brand"><img class="brand-logo-sm" src="/images/tokyo-discount-supermarket-2026/logos/trial.png" alt="" loading="lazy" /><a href="https://www.trial-net.co.jp/" target="_blank" rel="noopener">トライアルHD</a></span></th><th><span class="cell-brand"><img class="brand-logo-sm" src="/images/tokyo-discount-supermarket-2026/logos/seiyu.png" alt="" loading="lazy" /><a href="https://www.seiyu.co.jp/" target="_blank" rel="noopener">西友</a></span></th></tr></thead>
 <tbody>
 <tr><td>地盤</td><td>九州・郊外</td><td><strong>首都圏・駅前</strong></td></tr>
 <tr><td>強み</td><td>AI・スマートカート・24時間</td><td>店舗の立地</td></tr>

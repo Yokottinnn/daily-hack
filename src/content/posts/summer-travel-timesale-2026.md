@@ -54,7 +54,7 @@ author: "hacker-ko"
 |---|---|---|---|
 | **〜5/26 23:40** | JR東日本びゅう | [6月出発タイムセール](https://www.jre-travel.com/drp/timesale/) | 例: 東京⇔仙台 JR+宿 大人1名 ¥16,400〜 |
 | **〜5/26 12:00** | Yahoo!トラベル | [夏先取り 20%以上お得](https://travel.yahoo.co.jp/feature/campaign_pointup_limited/) | PayPayポイント最大20%還元 |
-| **〜5/29 9:59** | 楽天トラベル | [アーリーサマーフェア](https://event.travel.rakuten.co.jp/special/sales/) | 宿最大25%OFF / 楽パック最大2万円OFF / 海外最大5万円OFF |
+| **〜5/29 9:59** | <span class="cell-brand"><img class="brand-logo-sm" src="/images/summer-travel-timesale-2026/logos/rakutentravel.png" alt="" loading="lazy" />楽天トラベル</span> | [アーリーサマーフェア](https://event.travel.rakuten.co.jp/special/sales/) | 宿最大25%OFF / 楽パック最大2万円OFF / 海外最大5万円OFF |
 | **〜5/29 14:59** | 日本旅行 | [春旅・夏旅キャンペーン](https://www.nta.co.jp/cpn/spring-summer/kokunai/) | JR+宿で最大5,000円OFF / 飛行機+宿で最大5,000円OFF |
 | **〜5/28 23:59** | ANAトラベラーズ | [海外サマーキャンペーン](https://www.ana.co.jp/ja/jp/international/theme/summer/) | ダイナミックパッケージ価格 |
 | 〜6/12 | じゃらん | [じゃらんクーポンフェス](https://www.jalan.net/theme/jalancouponfes/) | 500円〜**最大2万円**クーポン（3タームに分割配布） |
@@ -64,8 +64,8 @@ author: "hacker-ko"
 | 通年 | 一休.com | [スペシャルタイムセール（36時間限定）](https://www.ikyu.com/special/timesale_gogo/search) | 高級宿 最大20%OFF |
 | 通年 | Yahoo!トラベル | [スペシャルセール（36時間限定）](https://travel.yahoo.co.jp/feature/timesale_specialsale_36/) | PayPayポイント30%以上還元 |
 | 7〜8月 | じゃらん | [じゃらん夏SALE](https://www.jalan.net/theme/summersale/) | 例年: 第1弾5%OFF→第3弾最大15%OFF |
-| 夏（〜9/30） | 楽天トラベル | [スーパーDEAL（夏旅 40%還元）](https://travel.rakuten.co.jp/superdeal/special/ss2506/) | 対象プラン40%ポイント還元（楽天モバイル契約者最大45%） |
-| 夏（〜8/31） | JAL | [国内タイムセール（北海道・沖縄クーポン）](https://www.jal.co.jp/jp/ja/domtour/jaldp/time_sale/) | 北海道・沖縄方面で限定クーポン |
+| 夏（〜9/30） | <span class="cell-brand"><img class="brand-logo-sm" src="/images/summer-travel-timesale-2026/logos/rakutentravel.png" alt="" loading="lazy" />楽天トラベル</span> | [スーパーDEAL（夏旅 40%還元）](https://travel.rakuten.co.jp/superdeal/special/ss2506/) | 対象プラン40%ポイント還元（楽天モバイル契約者最大45%） |
+| 夏（〜8/31） | <span class="cell-brand"><img class="brand-logo-sm" src="/images/summer-travel-timesale-2026/logos/jal.png" alt="" loading="lazy" />JAL</span> | [国内タイムセール（北海道・沖縄クーポン）](https://www.jal.co.jp/jp/ja/domtour/jaldp/time_sale/) | 北海道・沖縄方面で限定クーポン |
 | 7〜9月 | ANAトラベラーズ | [国内ツアータイムセール](https://www.ana.co.jp/ja/jp/domestic/theme/timesale/domtour/) | ダイナミックパッケージ値下げ＋クーポン |
 
 </div>
@@ -178,7 +178,7 @@ PayPay経済圏で固定費まで集約してる人は、**Yahoo!トラベル+Pa
 | **JTB** | [飛び出せ！夏旅 ポイントキャンペーン](https://www.jtb.co.jp/myjtb/campaign/natsutabi/) | 〜8/16。国内10万円以上 +2,000pt、子連れ3人以上 +3,000pt、旅行2回 +5,000pt、3回 +15,000pt |
 | **日本旅行** | [春旅・夏旅キャンペーン](https://www.nta.co.jp/cpn/spring-summer/kokunai/) | 〜5/29 14:59。JR+宿 最大5,000円OFF・飛行機+宿 最大5,000円OFF |
 | **ANAトラベラーズ** | [海外サマーキャンペーン](https://www.ana.co.jp/ja/jp/international/theme/summer/) | 〜5/28 23:59。7/1-9/26出発の海外ダイナミックパッケージ |
-| **JAL** | [国内タイムセール 北海道・沖縄クーポン](https://www.jal.co.jp/jp/ja/domtour/jaldp/time_sale/) | 〜8/31。北海道・沖縄方面の限定クーポン |
+| <span class="cell-brand"><img class="brand-logo-sm" src="/images/summer-travel-timesale-2026/logos/jal.png" alt="" loading="lazy" />**JAL**</span> | [国内タイムセール 北海道・沖縄クーポン](https://www.jal.co.jp/jp/ja/domtour/jaldp/time_sale/) | 〜8/31。北海道・沖縄方面の限定クーポン |
 
 </div>
 

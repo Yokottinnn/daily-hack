@@ -43,7 +43,7 @@ references:
 
 ## 3社を公式ベースで徹底比較（2026年7月時点）
 
-| 項目 | ヨドバシ.com | Amazon.co.jp | 楽天市場 |
+| 項目 | ヨドバシ.com | <span class="cell-brand"><img class="brand-logo-sm" src="/images/yodobashi-vs-amazon-rakuten-2026/logos/amazon.png" alt="" loading="lazy" />Amazon.co.jp</span> | <span class="cell-brand"><img class="brand-logo-sm" src="/images/yodobashi-vs-amazon-rakuten-2026/logos/rakutenichiba.png" alt="" loading="lazy" />楽天市場</span> |
 |---|---|---|---|
 | **送料** | **全国送料無料・最低額なし**（離島の大型品等は例外） | プライムは無料／非プライムは3,500円以上で無料 | 店舗ごと。共通ライン3,980円以上で無料（沖縄・離島9,800円） |
 | **ポイント** | ゴールドポイント。**家電など多くで概ね10%**（商品による・会員必須） | Amazonポイント。**対象商品のみ・多くは1%**（一律でない） | 通常1%＋**SPU最大18.5倍**＋買い回り最大10倍（いずれも条件達成時） |

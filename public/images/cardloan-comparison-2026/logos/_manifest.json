@@ -1,57 +1,57 @@
 {
- "_note": "識別目的で使うロゴ。**商標であり自由ライセンスではない。** 改変しない（CSS の枠は可）。取得元と取得日をここに残す。",
- "acom.png": {
-  "brand": "アコム",
-  "source": "https://upload.wikimedia.org/wikipedia/commons/4/41/Acom_company_logos.svg",
-  "page": "https://ja.wikipedia.org/wiki/アコム",
-  "fetched": "2026-09-23",
-  "task": "ops/tasks/t164-logos-mediawiki-fixed.sh",
-  "license_note": "コモンズ上は **Public domain**（単純図形で著作権が発生しない扱い）。商標としては識別目的で使用。**SVG を Chromium で PNG にした**"
- },
- "aiful.png": {
-  "brand": "アイフル",
-  "source": "https://www.aiful.co.jp/assets2/images/header/logo.svg",
-  "page": "https://www.aiful.co.jp/",
-  "fetched": "2026-09-23",
-  "task": "ops/tasks/t166-logos-cardloan-mizuho.sh",
-  "license_note": "商標。識別目的で使用。**SVG を Chromium で PNG にした**",
-  "_rejected": "コモンズの `Aifulnewlogo.png` は **CC BY-SA 4.0** で表示・継承が条件になるので使わない（最上位ルール 17 の表）。公式から取り直した"
- },
- "lake.png": {
-  "brand": "レイク",
-  "source": "https://lakealsa.com/ の header ロゴ（alt: レイク）",
-  "page": "https://lakealsa.com/",
-  "fetched": "2026-09-23",
-  "task": "ops/tasks/t177-logos-real-browser2.sh",
-  "license_note": "商標。識別目的で使用。**SVG を Chromium で PNG にした**",
-  "_note": "**curl では 383 bytes / 403 しか返らなかった。** Mac の Chrome に CDP で繋いで実ブラウザとして開いたら取れた",
-  "_rejected": "`新生フィナンシャル株式会社` は**親会社**のロゴ。365日 入りの版は**キャンペーン**。コモンズの `SBI Group Logos.png` も**親会社**"
- },
- "mobit.png": {
-  "brand": "SMBCモビット",
-  "source": "https://www.mobit.ne.jp/ の header ロゴ（alt: SMBCモビット）",
-  "page": "https://www.mobit.ne.jp/",
-  "fetched": "2026-09-23",
-  "task": "ops/tasks/t177-logos-real-browser2.sh",
-  "license_note": "商標。識別目的で使用。**SVG を Chromium で PNG にした**",
-  "_rejected": "コモンズの `SMFG logo.gif` は**三井住友フィナンシャルグループ（持株会社）**。X / YouTube のアイコンも当然 使わない"
- },
- "smbccard.png": {
-  "brand": "三井住友カード",
-  "source": "（既存。`credit-card-kaiaku-2026` からコピー）",
-  "copied_from": "public/images/credit-card-kaiaku-2026/logos/smbccard.png",
-  "copied": "2026-09-23",
-  "license_note": "商標。識別目的で使用",
-  "_note": "**三井住友銀行のロゴとは別物。** この記事では「三井住友カード プレミアムカードローン」の行にだけ置く"
- },
- "promise.png": {
-  "brand": "プロミス",
-  "source": "https://cyber.promise.co.jp/ の header ロゴ（alt: キャッシング・カードローンなら消費者金融のプロミス）",
-  "page": "https://cyber.promise.co.jp/",
-  "fetched": "2026-09-23",
-  "task": "ops/tasks/t179-logos-browser3.sh",
-  "license_note": "商標。識別目的で使用",
-  "_note": "**t177 では 16px の favicon しか拾えなかった。** フィルタが `logo` という語に限られていたため。t179 で `header` / `h1` の中の img も拾い、`naturalWidth < 40` を捨てるようにして取れた",
-  "_rejected": "`SMBCコンシューマーファイナンス` のロゴは**運営会社**。ヘルプアイコンも当然 使わない"
- }
+  "_note": "識別目的で使うロゴ。**商標であり自由ライセンスではない。** 改変しない（CSS の枠は可）。取得元と取得日をここに残す。",
+  "acom.png": {
+    "brand": "アコム",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/4/41/Acom_company_logos.svg",
+    "page": "https://ja.wikipedia.org/wiki/アコム",
+    "fetched": "2026-09-23",
+    "task": "ops/tasks/t164-logos-mediawiki-fixed.sh",
+    "license_note": "コモンズ上は **Public domain**（単純図形で著作権が発生しない扱い）。商標としては識別目的で使用。**SVG を Chromium で PNG にした**"
+  },
+  "aiful.png": {
+    "brand": "アイフル",
+    "source": "https://www.aiful.co.jp/assets2/images/header/logo.svg",
+    "page": "https://www.aiful.co.jp/",
+    "fetched": "2026-09-23",
+    "task": "ops/tasks/t166-logos-cardloan-mizuho.sh",
+    "license_note": "商標。識別目的で使用。**SVG を Chromium で PNG にした**",
+    "_rejected": "コモンズの `Aifulnewlogo.png` は **CC BY-SA 4.0** で表示・継承が条件になるので使わない（最上位ルール 17 の表）。公式から取り直した"
+  },
+  "lake.png": {
+    "brand": "レイク",
+    "source": "https://lakealsa.com/ の header ロゴ（alt: レイク）",
+    "page": "https://lakealsa.com/",
+    "fetched": "2026-09-23",
+    "task": "ops/tasks/t177-logos-real-browser2.sh",
+    "license_note": "商標。識別目的で使用。**SVG を Chromium で PNG にした**",
+    "_note": "**curl では 383 bytes / 403 しか返らなかった。** Mac の Chrome に CDP で繋いで実ブラウザとして開いたら取れた",
+    "_rejected": "`新生フィナンシャル株式会社` は**親会社**のロゴ。365日 入りの版は**キャンペーン**。コモンズの `SBI Group Logos.png` も**親会社**"
+  },
+  "mobit.png": {
+    "brand": "SMBCモビット",
+    "source": "https://www.mobit.ne.jp/ の header ロゴ（alt: SMBCモビット）",
+    "page": "https://www.mobit.ne.jp/",
+    "fetched": "2026-09-23",
+    "task": "ops/tasks/t177-logos-real-browser2.sh",
+    "license_note": "商標。識別目的で使用。**SVG を Chromium で PNG にした**",
+    "_rejected": "コモンズの `SMFG logo.gif` は**三井住友フィナンシャルグループ（持株会社）**。X / YouTube のアイコンも当然 使わない"
+  },
+  "smbccard.png": {
+    "brand": "三井住友カード",
+    "source": "（既存。`credit-card-kaiaku-2026` からコピー）",
+    "copied_from": "public/images/credit-card-kaiaku-2026/logos/smbccard.png",
+    "copied": "2026-09-23",
+    "license_note": "商標。識別目的で使用",
+    "_note": "**三井住友銀行のロゴとは別物。** この記事では「三井住友カード プレミアムカードローン」の行にだけ置く"
+  },
+  "promise.png": {
+    "brand": "プロミス",
+    "source": "https://cyber.promise.co.jp/ の header ロゴ（alt: キャッシング・カードローンなら消費者金融のプロミス）",
+    "page": "https://cyber.promise.co.jp/",
+    "fetched": "2026-09-23",
+    "task": "ops/tasks/t179-logos-browser3.sh",
+    "license_note": "商標。識別目的で使用",
+    "_note": "**t177 では 16px の favicon しか拾えなかった。** フィルタが `logo` という語に限られていたため。t179 で `header` / `h1` の中の img も拾い、`naturalWidth < 40` を捨てるようにして取れた",
+    "_rejected": "`SMBCコンシューマーファイナンス` のロゴは**運営会社**。ヘルプアイコンも当然 使わない"
+  }
 }

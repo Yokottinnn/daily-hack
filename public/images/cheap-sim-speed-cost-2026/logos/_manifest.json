@@ -1,0 +1,39 @@
+{
+  "_note": "識別目的で使うロゴ。**商標であり自由ライセンスではない。** 改変しない（CSS の枠は可）。",
+  "ahamo.png": {
+    "brand": "ahamo",
+    "source": "https://cache.cil.ahamo.com/assets/images/common/logo.svg",
+    "page": "https://ahamo.com/",
+    "fetched": "2026-09-22",
+    "task": "ops/tasks/t155-brand-logos-batch.sh",
+    "license_note": "商標。識別目的で使用。**SVG を Chromium で PNG にした**",
+    "copied_from": "public/images/cheap-sim-comparison-2026/logos/ahamo.png"
+  },
+  "povo.png": {
+    "brand": "povo 2.0",
+    "source": "https://povo.jp/cms/povo/apple-touch-icon.png",
+    "page": "https://povo.jp/spec/",
+    "fetched": "2026-09-22",
+    "task": "ops/tasks/t156-logos-retry-jal-satofull-linemo-povo.sh",
+    "license_note": "商標。識別目的で使用",
+    "copied_from": "public/images/cheap-sim-comparison-2026/logos/povo.png"
+  },
+  "linemo.png": {
+    "brand": "LINEMO",
+    "source": "https://www.linemo.jp/assets/images/common/logo_normal.svg",
+    "page": "https://www.linemo.jp/support/",
+    "fetched": "2026-09-22",
+    "task": "ops/tasks/t156-logos-retry-jal-satofull-linemo-povo.sh",
+    "license_note": "商標。識別目的で使用。**SVG を Chromium で PNG にした**",
+    "copied_from": "public/images/cheap-sim-comparison-2026/logos/linemo.png"
+  },
+  "rakutenmobile.png": {
+    "brand": "楽天モバイル",
+    "source": "https://network.mobile.rakuten.co.jp/apple-touch-icon.png",
+    "page": "https://network.mobile.rakuten.co.jp/",
+    "fetched": "2026-09-22",
+    "task": "ops/tasks/t155-brand-logos-batch.sh",
+    "license_note": "商標。識別目的で使用",
+    "copied_from": "public/images/cheap-sim-comparison-2026/logos/rakutenmobile.png"
+  }
+}

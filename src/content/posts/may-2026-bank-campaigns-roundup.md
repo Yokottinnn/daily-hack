@@ -34,7 +34,7 @@ relatedReferrals: ["rakuten-bank", "olive-smbc", "mizuho-bank", "mufg-bank", "jr
 
 紹介コード: `FF31794-9555509`
 
-## 2. 楽天銀行（常設）
+<h2 class="brand-h" id="2-楽天銀行常設"><img class="brand-logo" src="/images/may-2026-bank-campaigns-roundup/logos/rakutenbank.png" alt="楽天銀行のロゴ" loading="lazy" /><span>2. 楽天銀行（常設）</span></h2>
 
 紹介プログラム経由で200pt〜。ハッピープログラム登録 + 残高10万円以上で確実にもらえる。詳細は<a href="/posts/rakuten-bank-referral/">楽天銀行の紹介コードでもらえる特典まとめ</a>。
 
@@ -42,7 +42,7 @@ relatedReferrals: ["rakuten-bank", "olive-smbc", "mizuho-bank", "mufg-bank", "jr
 
 紹介コード: `P02545868`
 
-## 3. JRE BANK（常設）
+<h2 class="brand-h" id="3-jre-bank常設"><img class="brand-logo" src="/images/may-2026-bank-campaigns-roundup/logos/jrebank.png" alt="JRE BANKのロゴ" loading="lazy" /><span>3. JRE BANK（常設）</span></h2>
 
 JR東日本ユーザーには破格の銀行。普通預金金利は低めだが、新幹線特典・JR系列割引・JRE POINTで実質的にお得。
 

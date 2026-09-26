@@ -69,7 +69,7 @@ references: ["https://www.smbc-card.com/mem/cardinfo/26/cardinfo7224638.jsp", "h
 | 特典 | 決済方法 | 還元率 | 上限 | 対応 |
 |:---|:---|:---:|:---:|:---|
 | **特典① ビザ・ワールドワイド提供** | Apple Pay の Visaのタッチ決済 | **10%** | 最大1,000円 | iPhone（Apple Pay） |
-| **特典② 三井住友カード提供** | スマホ の Visaのタッチ決済 | **20%** | 最大1,000円 | iPhone／**Android対応** |
+| <span class="cell-brand"><img class="brand-logo-sm" src="/images/visa-touch-30-cashback-2026-jun/logos/smbccard.png" alt="" loading="lazy" />**特典② 三井住友カード提供**</span> | スマホ の Visaのタッチ決済 | **20%** | 最大1,000円 | iPhone／**Android対応** |
 | **合計** | 上記を両方満たす | **最大30%** | **合計2,000円** | — |
 
 - **特典①**は「カード1枚につき最大1,000円」。**特典②**は「本会員ひとりにつき最大1,000円」で、複数カード・家族カードの利用は合算集計。

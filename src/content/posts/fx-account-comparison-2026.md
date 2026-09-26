@@ -34,7 +34,7 @@ references: ["https://fx.dmm.com/", "https://www.gaitame.com/", "https://min-fx.
       <tr><td><strong>取引コスト最重視</strong></td><td><a href="https://www.click-sec.com/corp/fx/" target="_blank" rel="noopener nofollow">GMOクリック証券</a></td><td>取引高 12年連続世界1位・スプレッド0.2銭・最大55万円CB</td></tr>
       <tr><td><strong>楽天経済圏</strong></td><td><a href="https://www.rakuten-sec.co.jp/fx/" target="_blank" rel="noopener nofollow">楽天FX</a></td><td>楽天ポイントが貯まる・MarketSpeed FX</td></tr>
       <tr><td><strong>少額スタート</strong></td><td><a href="https://www.matsui.co.jp/service/fx/" target="_blank" rel="noopener nofollow">松井FX</a> ／ <a href="https://www.sbifxt.co.jp/" target="_blank" rel="noopener nofollow">SBI FXトレード</a></td><td>1通貨単位から。約5円分のポジションで始められる</td></tr>
-      <tr><td><strong>自動売買を試したい</strong></td><td><a href="https://min-fx.jp/" target="_blank" rel="noopener nofollow">みんなのFX</a></td><td>みんなのシストレ・1,000通貨から</td></tr>
+      <tr><td><strong>自動売買を試したい</strong></td><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/fx-account-comparison-2026/logos/minnafx.png" alt="" loading="lazy" /><a href="https://min-fx.jp/" target="_blank" rel="noopener nofollow">みんなのFX</a></span></td><td>みんなのシストレ・1,000通貨から</td></tr>
     </tbody>
   </table>
 </div>
@@ -163,7 +163,7 @@ references: ["https://fx.dmm.com/", "https://www.gaitame.com/", "https://min-fx.
       <tr><th>取引ツール</th><td>みんなのFXトレーダー（標準）、<strong>みんなのシストレ</strong>（自動売買コピートレード）</td></tr>
       <tr><th>強み</th><td>上位トレーダーの売買戦略を<strong>ワンクリックでコピー</strong>可能、月間収益ランキング公開</td></tr>
       <tr><th>注意</th><td>シストレ運用は自動でもリスクあり、選定したストラテジーで損失出ることも</td></tr>
-      <tr><th>公式サイト</th><td><a href="https://min-fx.jp/" target="_blank" rel="noopener nofollow">みんなのFX 公式</a></td></tr>
+      <tr><th>公式サイト</th><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/fx-account-comparison-2026/logos/minnafx.png" alt="" loading="lazy" /><a href="https://min-fx.jp/" target="_blank" rel="noopener nofollow">みんなのFX 公式</a></span></td></tr>
     </tbody>
   </table>
 </div>
