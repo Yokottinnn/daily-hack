@@ -1,3 +1,3 @@
 [
-      {"task": "x156-when-to-post.sh", "rc": 0, "out": "投稿時刻の実績と予約の可否を読んだ / when-to-post.md"}
+      {"task": "x157-metrics-by-hour.sh", "rc": 0, "out": "表示回数を時刻で束ねた / metrics-by-hour.md"}
   ]
