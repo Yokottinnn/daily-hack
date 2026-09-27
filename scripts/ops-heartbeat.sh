@@ -868,6 +868,107 @@ else
   rm -f "$WT/heartbeat.broken.json" 2>/dev/null || true
 fi
 
+# --- **異常を Slack に出す（`ops-watchdog` の代わりの経路）** ---------------
+#
+# 2026-09-27、`ops-watchdog.yml` が直近 5 回 すべて failure だった。
+# **壊れていたのではなく、異常を見つけて意図的に `exit 1` していた。**
+#
+#   PROBLEM: missing,auth,unloaded,nowebhook
+#   SLACK_WEBHOOK_URL:            ← 空。未登録
+#   → "SLACK_WEBHOOK_URL が未設定のため Slack へ通知できない（本文はサマリに出した）"
+#
+# **本文は GitHub の実行サマリにしか出ておらず、誰も見ていない。**
+# 設計は「webhook が無いこと自体」も異常に含めているのに、
+# **その通知も webhook 経由なので届かない。**
+#
+# ここは**ボットトークンで直接 投稿できている口**（下の `x_health_json` と同じ）。
+# **利用者の操作を待たずに鳴らせる**ので、同じ判定をこちらでも持つ。
+# `SLACK_WEBHOOK_URL` が登録されたら本来の経路が生きるが、二重に鳴っても
+# 見逃すより良い。うるさければ `OPS_PROBLEM_ALERT=0` で止められる。
+#
+# **fail-open。** 読めなければ何もしない。heartbeat 自体は絶対に落とさない。
+if [ "${OPS_PROBLEM_ALERT:-1}" != "0" ]; then
+  _prob="$(node -e '
+    const fs = require("fs");
+    let d;
+    try { d = JSON.parse(fs.readFileSync(process.argv[1], "utf8")); }
+    catch (e) { process.exit(0); }                 // 読めなければ黙る
+    const base = Number(process.env.UNLOADED_BASELINE || 58);
+    const out = [];
+
+    // **期待するジョブの一覧が 2 つ在り、食い違っていた**（2026-09-27 に判明）。
+    //   heartbeat 側   pipeline-heartbeat / reply-followback-check / reply-followers-cleanup を見る
+    //   watchdog 側    **gateway / node / follower-snapshot** を見る
+    // heartbeat は「8/8 載っている」と言い、watchdog は「2 本 足りない」と言っていた。
+    // **両方の和を見る。** 片方だけ見ると、もう片方の欠けを永久に見逃す。
+    const loaded = new Set(d.jobs || []);
+    const want = [
+      // heartbeat 側
+      "comment-warmup", "competitor-follower-follow", "hashtag-follow", "badge-followback",
+      "reply-followback-check", "reply-followers-cleanup", "incoming-reply-watcher",
+      "pipeline-heartbeat",
+      // watchdog 側で足されているもの
+      "gateway", "node", "follower-snapshot",
+    ];
+    const miss = [];
+    for (const j of want) if (!loaded.has("ai.openclaw." + j)) miss.push(j);
+    if (miss.length) out.push("missing:" + miss.join(" "));
+    if (d.auth && d.auth.ok === false) out.push("auth:" + String(d.auth.detail || ""));
+    const un = Number(d.unloaded_count);
+    if (Number.isFinite(un) && un > base) out.push("unloaded:" + un + "(基準 " + base + ")");
+    if (d.cdp && d.cdp.healthy === false) out.push("cdp:繋がらない");
+    if (d.json_error) out.push("json:heartbeat.json が壊れていた");
+    process.stdout.write(out.join(" / "));
+  ' "$WT/heartbeat.json" 2>/dev/null)"
+
+  if [ -n "${_prob:-}" ]; then
+    # **同じ内容を鳴らし続けない。** 中身が変われば鳴る。6 時間 で再通知
+    _pkey="$(printf '%s' "$_prob" | cksum | awk '{print $1}')"
+    _pflag="/tmp/.ops-problem-alerted-$_pkey"
+    _pstale=0
+    if [ -f "$_pflag" ]; then
+      _page="$(node -e 'try{const s=require("fs").statSync(process.argv[1]);process.stdout.write(String(Math.floor((Date.now()-s.mtimeMs)/3600000)))}catch(e){process.stdout.write("99")}' "$_pflag" 2>/dev/null)"
+      case "${_page:-99}" in ''|*[!0-9]*) _page=99 ;; esac
+      [ "$_page" -ge 6 ] && _pstale=1
+    else
+      _pstale=1
+    fi
+    if [ "$_pstale" = "1" ]; then
+      # 古い印を片付ける（内容が変わったときに溜まらないように）
+      find /tmp -maxdepth 1 -name '.ops-problem-alerted-*' -mtime +1 -delete 2>/dev/null || true
+      if [ -n "${OPENCLAW_BOT_TOKEN:-}" ]; then
+        _ptext=":rotating_light: *ops-watchdog が見つけた異常*（webhook 未登録のため Mac から直接）
+• $(printf '%s' "$_prob" | sed 's| / |\n• |g')
+
+_ホスト ${host} ／ 生成 ${now}_
+_本来の経路を生かすには GitHub の Settings → Secrets and variables → Actions に \`SLACK_WEBHOOK_URL\` を登録する_"
+        if node -e '
+          const { execFileSync } = require("child_process");
+          const body = JSON.stringify({ channel: "C0B4CJHH797", text: process.argv[2] });
+          try {
+            const r = execFileSync("/usr/bin/curl", ["-sS", "-X", "POST",
+              "https://slack.com/api/chat.postMessage",
+              "-H", "Content-Type: application/json; charset=utf-8",
+              "-H", "Authorization: Bearer " + process.argv[3],
+              "--data-binary", "@-"], { input: body, encoding: "utf8", timeout: 20000 });
+            process.exit(JSON.parse(r).ok ? 0 : 1);
+          } catch (e) { process.exit(1); }
+        ' x "$_ptext" "$OPENCLAW_BOT_TOKEN" 2>/dev/null; then
+          touch "$_pflag"
+          echo "ops-heartbeat: 異常を Slack に出した（$_prob）" >&2
+        else
+          echo "ops-heartbeat: **異常を Slack に出せなかった**（$_prob）" >&2
+        fi
+      else
+        echo "ops-heartbeat: OPENCLAW_BOT_TOKEN が無いので Slack に出せない（$_prob）" >&2
+      fi
+    fi
+  else
+    # 異常が無くなったら印を消す。次に出たときまた鳴る
+    rm -f /tmp/.ops-problem-alerted-* 2>/dev/null || true
+  fi
+fi
+
 # --- push する -----------------------------------------------------------
 
 # `heartbeat.json` だけでなく、タスクが置いた報告（reports/）と
