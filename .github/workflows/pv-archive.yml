@@ -24,10 +24,22 @@ on:
         description: '積む日付（YYYY-MM-DD）。空なら前日'
         required: false
         default: ''
+      from:
+        description: 'まとめて積むときの開始日（YYYY-MM-DD）。to と対で使う'
+        required: false
+        default: ''
+      to:
+        description: 'まとめて積むときの終了日（YYYY-MM-DD・この日を含む）'
+        required: false
+        default: ''
 
 permissions:
   contents: write
 
+# **待機中のものは順次キャンセルされる。**
+# 2026-09-27 に 26 日ぶんを 1 日ずつ dispatch したら **16 件 消えた**（成功 10）。
+# GitHub は同じ group で「実行中 1 ＋ 待機 1」しか保たず、古い待機を捨てる。
+# **まとめて積むときは from / to を使って 1 回の実行に収めること。**
 concurrency:
   group: pv-archive
   cancel-in-progress: false
@@ -51,86 +63,36 @@ jobs:
           [ -n "$ZONE_ID" ] && [ "$ZONE_ID" != "null" ] || { echo "::error::zone id を取れない"; exit 1; }
           echo "zone_id=${ZONE_ID}" >> "$GITHUB_ENV"
 
-      - name: Query one day
+      - name: Query days and append to the archive
         env:
           CF_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           IN_DATE: ${{ github.event.inputs.date }}
+          IN_FROM: ${{ github.event.inputs.from }}
+          IN_TO: ${{ github.event.inputs.to }}
         run: |
           set -euo pipefail
-          DAY="${IN_DATE:-$(date -u -d '-1 day' +%F)}"
-          case "$DAY" in
-            [0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]) ;;
-            *) echo "::error::日付の形が違う: ${DAY}"; exit 1 ;;
-          esac
-          START="${DAY}T00:00:00Z"
-          END="$(date -u -d "${DAY} +1 day" +%F)T00:00:00Z"
-          echo "day=${DAY}" >> "$GITHUB_ENV"
-          echo "積む日: ${START} → ${END}"
-          # **ネストした heredoc は YAML のブロックを壊す**ので printf で組む
-          printf '%s\n' \
-            'query($zoneTag: String!, $start: Time!, $end: Time!, $host: String!) {' \
-            '  viewer { zones(filter: { zoneTag: $zoneTag }) {' \
-            '    httpRequestsAdaptiveGroups(' \
-            '      limit: 5000, orderBy: [sum_visits_DESC],' \
-            '      filter: { datetime_geq: $start, datetime_leq: $end,' \
-            '                clientRequestHTTPHost: $host, edgeResponseStatus: 200,' \
-            '                requestSource: "eyeball" }' \
-            '    ) { sum { visits } count dimensions { DIMENSION } }' \
-            '  } }' \
-            '}' > /tmp/tmpl.graphql
-          for dim in clientRequestPath clientCountryName userAgentBrowser; do
-            sed "s/DIMENSION/${dim}/" /tmp/tmpl.graphql > /tmp/q.graphql
-            jq -n --rawfile q /tmp/q.graphql --arg zone "$zone_id" --arg start "$START" \
-              --arg end "$END" --arg host "$HOST" \
-              '{query:$q, variables:{zoneTag:$zone, start:$start, end:$end, host:$host}}' > /tmp/body.json
-            curl -s https://api.cloudflare.com/client/v4/graphql \
-              -H "Authorization: Bearer ${CF_TOKEN}" -H "Content-Type: application/json" \
-              --data-binary @/tmp/body.json > /tmp/res.json
-            err=$(jq -r '(.errors // []) | map(.message) | join(" / ")' /tmp/res.json)
-            if [ -n "$err" ]; then
-              printf '::error::%s が引けない: %.200s\n' "$dim" "$err"
-              exit 1
-            fi
-            jq '.data.viewer.zones[0].httpRequestsAdaptiveGroups // []' /tmp/res.json > "/tmp/${dim}.json"
-            n=$(jq 'length' "/tmp/${dim}.json")
-            echo "  ${dim}: ${n} 行"
-            # **上限に張り付いたら数字は下限値。** 黙って少なく積まないよう警報を出す
-            [ "$n" -ge 5000 ] && echo "::warning::${dim} が上限 5000 に達した。limit を上げること"
-          done
-          # --- 1 日ぶんのレコードを組む ---
-          jq -n \
-            --arg day "$DAY" \
-            --slurpfile paths /tmp/clientRequestPath.json \
-            --slurpfile countries /tmp/clientCountryName.json \
-            --slurpfile browsers /tmp/userAgentBrowser.json \
-            '
-            ($paths[0]) as $p | ($countries[0]) as $c | ($browsers[0]) as $b |
-            {
-              ($day): {
-                visits:   ([$p[].sum.visits] | add // 0),
-                requests: ([$p[].count]      | add // 0),
-                paths:    ($p | length),
-                jp:       ([$c[] | select(.dimensions.clientCountryName == "JP") | .sum.visits] | add // 0),
-                human:    ([$b[] | select((.dimensions.userAgentBrowser
-                             | test("bot|crawl|spider|slurp|Unknown|HeadlessChrome"; "i")) | not)
-                           | .sum.visits] | add // 0),
-                top: [ $p | sort_by(-.sum.visits) | .[:60][]
-                       | { path: .dimensions.clientRequestPath, v: .sum.visits, r: .count } ],
-                countries: [ $c | sort_by(-.sum.visits) | .[:20][]
-                       | { k: .dimensions.clientCountryName, v: .sum.visits } ],
-                browsers: [ $b | sort_by(-.sum.visits) | .[:20][]
-                       | { k: .dimensions.userAgentBrowser, v: .sum.visits } ]
-              }
-            }' > /tmp/record.json
-          # **JSON を出したら自分で parse して確かめる**（最上位ルール 13）
-          node -e 'const d=require("/tmp/record.json");const k=Object.keys(d)[0];
-            const x=d[k];if(typeof x.visits!=="number")throw new Error("visits が数値でない");
-            console.log(`積む: ${k} visits=${x.visits} requests=${x.requests} jp=${x.jp} human=${x.human} paths=${x.paths}`);'
+          # --- 積む日を決める ---------------------------------------------
+          valid() { case "$1" in [0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]) return 0 ;; *) return 1 ;; esac; }
+          : > /tmp/days.txt
+          if [ -n "${IN_FROM}" ] || [ -n "${IN_TO}" ]; then
+            valid "${IN_FROM}" && valid "${IN_TO}" || { echo "::error::from と to は両方 YYYY-MM-DD で指定する"; exit 1; }
+            [ "${IN_FROM}" \< "${IN_TO}" ] || [ "${IN_FROM}" = "${IN_TO}" ] || { echo "::error::from が to より後"; exit 1; }
+            d="${IN_FROM}"
+            # **62 日 で頭打ち。** 保持は 31 日なので、それ以上 指定しても quota で落ちるだけ
+            for _ in $(seq 1 62); do
+              echo "$d" >> /tmp/days.txt
+              [ "$d" = "${IN_TO}" ] && break
+              d=$(date -u -d "$d +1 day" +%F)
+            done
+          else
+            D="${IN_DATE:-$(date -u -d '-1 day' +%F)}"
+            valid "$D" || { echo "::error::日付の形が違う: ${D}"; exit 1; }
+            echo "$D" >> /tmp/days.txt
+          fi
+          WANT=$(wc -l < /tmp/days.txt | tr -d ' ')
+          echo "対象 ${WANT} 日: $(head -1 /tmp/days.txt) 〜 $(tail -1 /tmp/days.txt)"
 
-      - name: Append to archive branch
-        run: |
-          set -euo pipefail
-          MONTH="${day%-*}"                      # YYYY-MM-DD → YYYY-MM
+          # --- アーカイブを 1 回だけ clone する ----------------------------
           git config --global user.name  "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           cd /tmp && rm -rf arch
@@ -143,20 +105,97 @@ jobs:
             cd arch && git checkout --orphan "$ARCHIVE_BRANCH" && git rm -rqf . && cd /tmp
           fi
           cd arch && mkdir -p data
-          F="data/${MONTH}.json"
-          [ -f "$F" ] || echo '{}' > "$F"
-          # **同じ日を 2 度 積んでも壊れない**（あとから来たほうで上書き）
-          jq -s '.[0] * .[1]' "$F" /tmp/record.json > "${F}.next"
-          node -e "JSON.parse(require('fs').readFileSync('${F}.next','utf8'))" \
-            || { echo '::error::できた JSON が壊れている'; exit 1; }
-          mv "${F}.next" "$F"
-          echo "この月の日数: $(jq 'keys | length' "$F")"
-          git add "$F"
+
+          # **ネストした heredoc は YAML のブロックを壊す**ので printf で組む
+          printf '%s\n' \
+            'query($zoneTag: String!, $start: Time!, $end: Time!, $host: String!) {' \
+            '  viewer { zones(filter: { zoneTag: $zoneTag }) {' \
+            '    httpRequestsAdaptiveGroups(' \
+            '      limit: 5000, orderBy: [sum_visits_DESC],' \
+            '      filter: { datetime_geq: $start, datetime_leq: $end,' \
+            '                clientRequestHTTPHost: $host, edgeResponseStatus: 200,' \
+            '                requestSource: "eyeball" }' \
+            '    ) { sum { visits } count dimensions { DIMENSION } }' \
+            '  } }' \
+            '}' > /tmp/tmpl.graphql
+
+          DONE=0; FAILED=0
+          # **末尾に改行が無い最後の 1 行を読み飛ばさない**（最上位ルール 14）
+          while IFS= read -r DAY || [ -n "$DAY" ]; do
+            [ -n "$DAY" ] || continue
+            START="${DAY}T00:00:00Z"
+            END="$(date -u -d "${DAY} +1 day" +%F)T00:00:00Z"
+            bad=0
+            for dim in clientRequestPath clientCountryName userAgentBrowser; do
+              sed "s/DIMENSION/${dim}/" /tmp/tmpl.graphql > /tmp/q.graphql
+              jq -n --rawfile q /tmp/q.graphql --arg zone "$zone_id" --arg start "$START" \
+                --arg end "$END" --arg host "$HOST" \
+                '{query:$q, variables:{zoneTag:$zone, start:$start, end:$end, host:$host}}' > /tmp/body.json
+              curl -s https://api.cloudflare.com/client/v4/graphql \
+                -H "Authorization: Bearer ${CF_TOKEN}" -H "Content-Type: application/json" \
+                --data-binary @/tmp/body.json > /tmp/res.json
+              err=$(jq -r '(.errors // []) | map(.message) | join(" / ")' /tmp/res.json)
+              if [ -n "$err" ]; then
+                printf '::warning::%s %s が引けない: %.160s\n' "$DAY" "$dim" "$err"
+                bad=1; break
+              fi
+              jq '.data.viewer.zones[0].httpRequestsAdaptiveGroups // []' /tmp/res.json > "/tmp/${dim}.json"
+              n=$(jq 'length' "/tmp/${dim}.json")
+              [ "$n" -ge 5000 ] && echo "::warning::${DAY} ${dim} が上限 5000 に達した。limit を上げること"
+            done
+            if [ "$bad" = "1" ]; then FAILED=$((FAILED + 1)); continue; fi
+
+            jq -n --arg day "$DAY" \
+              --slurpfile paths /tmp/clientRequestPath.json \
+              --slurpfile countries /tmp/clientCountryName.json \
+              --slurpfile browsers /tmp/userAgentBrowser.json \
+              '
+              ($paths[0]) as $p | ($countries[0]) as $c | ($browsers[0]) as $b |
+              {
+                ($day): {
+                  visits:   ([$p[].sum.visits] | add // 0),
+                  requests: ([$p[].count]      | add // 0),
+                  paths:    ($p | length),
+                  jp:       ([$c[] | select(.dimensions.clientCountryName == "JP") | .sum.visits] | add // 0),
+                  human:    ([$b[] | select((.dimensions.userAgentBrowser
+                               | test("bot|crawl|spider|slurp|Unknown|HeadlessChrome"; "i")) | not)
+                             | .sum.visits] | add // 0),
+                  top: [ $p | sort_by(-.sum.visits) | .[:60][]
+                         | { path: .dimensions.clientRequestPath, v: .sum.visits, r: .count } ],
+                  countries: [ $c | sort_by(-.sum.visits) | .[:20][]
+                         | { k: .dimensions.clientCountryName, v: .sum.visits } ],
+                  browsers: [ $b | sort_by(-.sum.visits) | .[:20][]
+                         | { k: .dimensions.userAgentBrowser, v: .sum.visits } ]
+                }
+              }' > /tmp/record.json
+            # **JSON を出したら自分で parse して確かめる**（最上位ルール 13）
+            node -e 'const d=require("/tmp/record.json");const k=Object.keys(d)[0];
+              const x=d[k];if(typeof x.visits!=="number")throw new Error("visits が数値でない");
+              console.log(`  ${k} visits=${x.visits} req=${x.requests} jp=${x.jp} human=${x.human} paths=${x.paths}`);'
+
+            F="data/${DAY%-*}.json"                 # YYYY-MM-DD → YYYY-MM
+            [ -f "$F" ] || echo '{}' > "$F"
+            # **同じ日を 2 度 積んでも壊れない**（あとから来たほうで上書き）
+            jq -s '.[0] * .[1]' "$F" /tmp/record.json > "${F}.next"
+            node -e "JSON.parse(require('fs').readFileSync('${F}.next','utf8'))" \
+              || { echo "::error::${DAY} でできた JSON が壊れている"; exit 1; }
+            mv "${F}.next" "$F"
+            DONE=$((DONE + 1))
+          done < /tmp/days.txt
+
+          # **対象 N 件 / 積んだ M 件 を必ず両方 出す**（最上位ルール 14）
+          echo "対象 ${WANT} 日 / 積んだ ${DONE} 日 / 引けなかった ${FAILED} 日"
+          [ "$DONE" -gt 0 ] || { echo "::error::1 日も積めなかった"; exit 1; }
+
+          git add data
           if git diff --cached --quiet; then
             echo "変化なし。push しない"
           else
-            git commit -q -m "pv-archive: ${day}"
+            git commit -q -m "pv-archive: ${DONE} 日ぶん（$(head -1 /tmp/days.txt) 〜 $(tail -1 /tmp/days.txt)）"
             for i in 1 2 3 4; do
               git push origin "HEAD:${ARCHIVE_BRANCH}" && break || sleep $((2 ** i))
             done
           fi
+          for f in data/*.json; do
+            echo "  ${f}: $(jq 'keys | length' "$f") 日"
+          done
