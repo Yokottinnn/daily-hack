@@ -17,6 +17,7 @@ on:
 
 permissions:
   contents: read
+  actions: read   # PV 系ワークフローの実行結果を読むのに要る
 
 jobs:
   check:
@@ -459,4 +460,147 @@ jobs:
         if: steps.evaluate.outputs.problem != ''
         run: |
           echo "problem=${{ steps.evaluate.outputs.problem }}" >&2
+          exit 1
+
+  # ─────────────────────────────────────────────────────────────
+  # **PV の集計が止まっていないかを見る。**
+  #
+  # 2026-09-27 に分かったこと:
+  #   ・`weekly-pv-report` が **9/14・9/21 とも失敗**していた
+  #   ・Actions は赤くなっていたが、**2 週間 以上 誰も見ていなかった**
+  #   ・その間、PV の数字は一度も出ていない
+  #
+  # いまは `pv-archive` が毎日 積み、週次も月次もそれを読む作りなので、
+  # **アーカイブが止まると 3 つ 同時に死ぬ。** だからここで見る。
+  #
+  # `check` とは別ジョブにする。**heartbeat が取れなくても走る**ようにするため
+  # （`check` は `ops/heartbeat` が取れないと Evaluate ごと飛ぶ）。
+  #
+  # LLM 不使用・public リポジトリの Actions は無料枠。**$0/回・$0/日・$0/月。**
+  # ─────────────────────────────────────────────────────────────
+  pv:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    env:
+      ARCHIVE_BRANCH: ops/pv-archive
+    steps:
+      - name: Check PV workflows and the archive
+        id: pv
+        env:
+          GH_TOKEN: ${{ github.token }}
+          SLACK_CHECK: ${{ secrets.SLACK_WEBHOOK_URL }}
+        run: |
+          set -uo pipefail
+          API="https://api.github.com/repos/${{ github.repository }}"
+          H=(-sS -H "Authorization: Bearer ${GH_TOKEN}" -H "Accept: application/vnd.github+json")
+          problem=""
+          : > /tmp/detail.txt
+
+          # --- ① 直近の実行が失敗していないか -------------------------------
+          # **schedule と workflow_dispatch だけ見る。** 手で試した probe の
+          # 失敗まで鳴らすと、狼少年になって誰も見なくなる。
+          for wf in weekly-pv-report pv-archive monthly-pv-report; do
+            j=$(curl "${H[@]}" "$API/actions/workflows/${wf}.yml/runs?per_page=20" || echo '{}')
+            line=$(printf '%s' "$j" | jq -r '
+              [ (.workflow_runs // [])[]
+                | select(.event == "schedule" or .event == "workflow_dispatch")
+                | select(.status == "completed") ]
+              | if length == 0 then "none" else
+                  (.[0] | "\(.conclusion)\t\(.run_number)\t\(.created_at)\t\(.html_url)")
+                end' 2>/dev/null)
+            [ -z "$line" ] && line="none"
+            if [ "$line" = "none" ]; then
+              echo "  ${wf}: 完了した実行がまだ無い"
+              continue
+            fi
+            concl=$(printf '%s' "$line" | cut -f1)
+            num=$(printf '%s' "$line" | cut -f2)
+            at=$(printf '%s' "$line" | cut -f3)
+            url=$(printf '%s' "$line" | cut -f4)
+            echo "  ${wf}: ${concl} (#${num} ${at})"
+            case "$concl" in
+              success|skipped) ;;
+              *)
+                problem="${problem:+$problem,}wf"
+                {
+                  echo "• *${wf} の直近の実行が ${concl}*（#${num} / ${at}）"
+                  echo "  ${url}"
+                } >> /tmp/detail.txt
+                ;;
+            esac
+          done
+
+          # --- ② アーカイブに前日ぶんが入っているか ------------------------
+          # **これが本命。** 「失敗した」だけでなく「一度も動いていない」も捕まる。
+          #
+          # `pv-archive` は毎日 20:37 UTC に前日ぶんを積む。だから UTC の時刻しだいで
+          # 最新は today-1 にも today-2 にもなる。**today-3 まで古ければ異常。**
+          rm -rf /tmp/arch
+          if git clone -q --depth 1 --branch "$ARCHIVE_BRANCH" \
+               "https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git" \
+               /tmp/arch 2>/dev/null; then
+            newest=$(cat /tmp/arch/data/*.json 2>/dev/null | jq -rs '[ .[] | keys[] ] | sort | last // ""')
+            [ -z "$newest" ] && newest="(空)"
+            echo "  アーカイブの最新日: ${newest}"
+            limit=$(date -u -d '-3 days' +%F)
+            if [ "$newest" = "(空)" ] || [ "$newest" \< "$limit" ]; then
+              problem="${problem:+$problem,}archive"
+              {
+                echo "• *PV のアーカイブが止まっている*（最新 ${newest} / 基準 ${limit} 以降）"
+                echo "  \`pv-archive\` が動いていない。**週次レポートも月次レポートも同時に死ぬ。**"
+                echo "  Cloudflare の保持は 31 日なので、**止まったままだとその期間は永久に取れない。**"
+              } >> /tmp/detail.txt
+            fi
+          else
+            problem="${problem:+$problem,}nobranch"
+            {
+              echo "• *\`${ARCHIVE_BRANCH}\` ブランチが取れない*"
+              echo "  \`pv-archive\` が一度も成功していないか、ブランチが消えている。"
+            } >> /tmp/detail.txt
+          fi
+
+          # --- ③ 鳴らせるのか --------------------------------------------
+          if [ -z "${SLACK_CHECK:-}" ] && [ -n "$problem" ]; then
+            echo "• *SLACK_WEBHOOK_URL が未登録。この通知は Slack に届いていない*" >> /tmp/detail.txt
+          fi
+
+          echo "problem=$problem" >> "$GITHUB_OUTPUT"
+          echo "検知: ${problem:-なし}"
+
+      - name: Alert
+        if: steps.pv.outputs.problem != ''
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+        run: |
+          set -uo pipefail
+          {
+            echo "🚨 *PV の集計が止まっている* — ${{ github.repository }}"
+            echo ""
+            cat /tmp/detail.txt
+            echo ""
+            echo "実行: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          } > /tmp/msg.txt
+
+          # **必ず GitHub 側にも残す。** Slack が死んでいても本文が読める状態にする
+          {
+            echo ""
+            echo "### 検知した異常"
+            echo ""
+            echo '```text'
+            cat /tmp/msg.txt
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+
+          if [ -z "${SLACK_WEBHOOK_URL:-}" ]; then
+            echo "SLACK_WEBHOOK_URL が未設定のため Slack へ通知できない（本文はサマリに出した）" >&2
+            exit 0
+          fi
+          jq -Rs '{text: .}' /tmp/msg.txt > /tmp/payload.json
+          curl -sS -X POST "$SLACK_WEBHOOK_URL" \
+            -H 'Content-Type: application/json' --data @/tmp/payload.json
+
+      - name: Fail the run when a problem was detected
+        if: steps.pv.outputs.problem != ''
+        run: |
+          echo "::error::PV の集計に異常: ${{ steps.pv.outputs.problem }}"
           exit 1
