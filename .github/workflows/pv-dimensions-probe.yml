@@ -42,17 +42,31 @@ jobs:
           echo "acct_id=${ACCT_ID}" >> "$GITHUB_ENV"
           echo "zone=${ZONE_ID} acct=${ACCT_ID}"
 
-      - name: RUM サイト一覧（site_tag を全桁 出す）
+      # **このステップで全体を落とさない。** Actions 側のトークンには
+      # RUM の読み取り権限が無く（2026-09-27 実測: success=false / result=null）、
+      # `set -e` ＋ `jq '.result[]'` で job ごと落ちていた。
+      # **RUM の答えは t196（Mac 側のトークン）で既に取れている。**
+      # 本題は次のステップの「Zone Analytics で何が取れるか」なので、
+      # ここが駄目でも先へ進める。
+      - name: RUM サイト一覧（権限が無ければ飛ばす）
+        continue-on-error: true
         env:
           CF_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
         run: |
-          set -euo pipefail
+          set -uo pipefail
           curl -s "https://api.cloudflare.com/client/v4/accounts/${acct_id}/rum/site_info/list?per_page=50" \
             -H "Authorization: Bearer ${CF_TOKEN}" > /tmp/rum.json
-          echo "success=$(jq -r '.success' /tmp/rum.json) 件数=$(jq '.result | length' /tmp/rum.json)"
-          jq -r '.result[] | "SITE tag=\(.site_tag) zone=\(.ruleset.zone_name // "-") host=\(.ruleset.host // "-") name=\(.site_name // "-") enabled=\(.ruleset.enabled // "-")"' /tmp/rum.json
+          ok=$(jq -r '.success // false' /tmp/rum.json)
+          echo "success=${ok}"
+          if [ "$ok" != "true" ]; then
+            echo "⚠️ RUM を読めない。**このトークンには RUM の権限が無い。** エラーだけ出して飛ばす:"
+            jq -c '(.errors // []) | map({code, message})' /tmp/rum.json
+            exit 0
+          fi
+          echo "件数=$(jq '(.result // []) | length' /tmp/rum.json)"
+          jq -r '(.result // [])[] | "SITE tag=\(.site_tag) zone=\(.ruleset.zone_name // "-") host=\(.ruleset.host // "-") name=\(.site_name // "-") enabled=\(.ruleset.enabled // "-")"' /tmp/rum.json
           echo "--- ビーコンが指している 0dc312c59cff43f58507d2b4f669dd82 は在るか ---"
-          if jq -e '.result[] | select(.site_tag == "0dc312c59cff43f58507d2b4f669dd82")' /tmp/rum.json > /dev/null; then
+          if jq -e '(.result // [])[] | select(.site_tag == "0dc312c59cff43f58507d2b4f669dd82")' /tmp/rum.json > /dev/null; then
             echo "BEACON_TAG_EXISTS=yes"
           else
             echo "BEACON_TAG_EXISTS=no   ← HTML のビーコンは存在しないサイトを指している"
