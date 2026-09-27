@@ -72,6 +72,20 @@ jobs:
           }
           GQL
           echo "[]" > /tmp/all.json  # 累積バッファ
+          echo "[]" > /tmp/all-clientCountryName.json
+          echo "[]" > /tmp/all-userAgentBrowser.json
+          # 次元だけ差し替えるテンプレート。**ネストした heredoc は YAML を壊す**ので printf。
+          printf '%s\n' \
+            'query($zoneTag: String!, $start: Time!, $end: Time!, $host: String!) {' \
+            '  viewer { zones(filter: { zoneTag: $zoneTag }) {' \
+            '    httpRequestsAdaptiveGroups(' \
+            '      limit: 200, orderBy: [sum_visits_DESC],' \
+            '      filter: { datetime_geq: $start, datetime_leq: $end,' \
+            '                clientRequestHTTPHost: $host, edgeResponseStatus: 200,' \
+            '                requestSource: "eyeball" }' \
+            '    ) { sum { visits } count dimensions { DIMENSION } }' \
+            '  } }' \
+            '}' > /tmp/tmpl.graphql
           ALL_VISITS=0; ALL_REQ=0
           for d in $(seq "${DAYS}" -1 1); do
             END_T=$(date -u -d "-$((d-1)) days" +%FT00:00:00Z)
@@ -95,6 +109,23 @@ jobs:
             r=$(jq '[.[].count] | add // 0' /tmp/day-rows.json)
             rows=$(jq 'length' /tmp/day-rows.json)
             echo "ROWS=${rows} visits=${v} requests=${r}"
+            # **「visits」は読者数ではない。** 2026-09-27 に実測したところ、
+            # 1 日 319 visits のうち **日本は 11 / 実ブラウザは 14** で、
+            # 残りはボットとクローラだった（FR 191・Unknown 249・BingBot 37）。
+            # **総数だけ報告すると、ボットの数を読者数として渡すことになる。**
+            # だから国とブラウザの内訳も毎日 引いて、人間ぶんを別に出す。
+            for extra in clientCountryName userAgentBrowser; do
+              sed "s/DIMENSION/${extra}/" /tmp/tmpl.graphql > /tmp/qx.graphql
+              jq -n --rawfile q /tmp/qx.graphql --arg zone "$zone_id" --arg start "$START_T" \
+                --arg end "$END_T" --arg host "$HOST" \
+                '{query:$q, variables:{zoneTag:$zone, start:$start, end:$end, host:$host}}' > /tmp/qx.json
+              curl -s https://api.cloudflare.com/client/v4/graphql \
+                -H "Authorization: Bearer ${CF_TOKEN}" -H "Content-Type: application/json" \
+                --data-binary @/tmp/qx.json > /tmp/rx.json
+              jq '.data.viewer.zones[0].httpRequestsAdaptiveGroups // []' /tmp/rx.json > /tmp/rx-rows.json
+              jq -s 'add' "/tmp/all-${extra}.json" /tmp/rx-rows.json > /tmp/nx.json
+              mv /tmp/nx.json "/tmp/all-${extra}.json"
+            done
             if [ "$rows" -ge "$GQL_LIMIT" ]; then
               echo "::warning::${START_T} の行数が上限 ${GQL_LIMIT} に達した。**総 visits は下限値。** limit を上げること"
             fi
@@ -117,6 +148,26 @@ jobs:
           ALL_PATHS=$(jq 'length' /tmp/all.json)
           # --- stdout echo (log-readable, API can't fetch step summary) ---
           echo "STDOUT_TOTALS visits=${ALL_VISITS} requests=${ALL_REQ} paths=${ALL_PATHS}"
+          # --- 国の内訳（合算） ---
+          jq -r '[ group_by(.dimensions.clientCountryName)[]
+                   | { k: .[0].dimensions.clientCountryName, v: ([.[].sum.visits] | add) } ]
+                 | sort_by(-.v) | .[:10] | .[] | "\(.v)\t\(.k)"' \
+            /tmp/all-clientCountryName.json > /tmp/country.tsv || true
+          JP=$(jq '[.[] | select(.dimensions.clientCountryName == "JP") | .sum.visits] | add // 0' \
+            /tmp/all-clientCountryName.json)
+          # --- ブラウザの内訳（合算） ---
+          jq -r '[ group_by(.dimensions.userAgentBrowser)[]
+                   | { k: .[0].dimensions.userAgentBrowser, v: ([.[].sum.visits] | add) } ]
+                 | sort_by(-.v) | .[:12] | .[] | "\(.v)\t\(.k)"' \
+            /tmp/all-userAgentBrowser.json > /tmp/browser.tsv || true
+          # **実ブラウザだけを足す。** Bot / Crawl / Spider / Unknown を除く。
+          # 「Unknown」は User-Agent を name 付きで送っていないもの＝ほぼ自動化。
+          HUMAN=$(jq '[.[] | select((.dimensions.userAgentBrowser
+                        | test("bot|crawl|spider|slurp|Unknown|HeadlessChrome"; "i")) | not)
+                      | .sum.visits] | add // 0' /tmp/all-userAgentBrowser.json)
+          echo "STDOUT_HUMAN jp=${JP} real_browser=${HUMAN} of_total=${ALL_VISITS}"
+          echo "STDOUT_COUNTRY_START"; cat /tmp/country.tsv || true; echo "STDOUT_COUNTRY_END"
+          echo "STDOUT_BROWSER_START"; cat /tmp/browser.tsv || true; echo "STDOUT_BROWSER_END"
           echo "STDOUT_TOP_START"
           cat /tmp/top.tsv || true
           echo "STDOUT_TOP_END"
@@ -128,6 +179,23 @@ jobs:
             echo "- 全パス数: ${ALL_PATHS}"
             echo "- 総 visits: ${ALL_VISITS}"
             echo "- 総 requests: ${ALL_REQ}"
+            echo "- **うち日本から: ${JP}**"
+            echo "- **うち実ブラウザ（ボットを除く）: ${HUMAN}**"
+            echo
+            echo "> **総 visits は読者数ではない。** ボットとクローラを含む。"
+            echo "> **読者数として読むのは「実ブラウザ」の行。** 検索からの実訪問は GSC のクリック数を見る。"
+            echo
+            echo "### 国（visits 上位10）"
+            echo
+            echo "| visits | 国 |"
+            echo "|---|---|"
+            while IFS=$'\t' read -r v k; do echo "| ${v} | ${k} |"; done < /tmp/country.tsv
+            echo
+            echo "### ブラウザ（visits 上位12）"
+            echo
+            echo "| visits | UA |"
+            echo "|---|---|"
+            while IFS=$'\t' read -r v k; do echo "| ${v} | ${k} |"; done < /tmp/browser.tsv
             echo
             echo "## Top 25 posts by visits"
             echo
