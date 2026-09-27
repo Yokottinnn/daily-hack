@@ -1,3 +1,3 @@
 [
-      {"task": "t197-verify-zone-analytics.sh", "rc": 0, "out": "---  > **⑤ が ❌ なら一本化は失敗。** RUM 時代と同じく記事ページが 0 のまま。  LLM 不使用。Cloudflare API・GSC API は無料枠。**$0/回・$0/日・$0/月。**"}
+      {"task": "t198-query-per-page.sh", "rc": 0, "out": "---  > **太字は「表示 3 回 以上・クリック 0」の語。** そこが直す対象。  LLM 不使用。GSC API は無料枠。**$0/回・$0/日・$0/月。**"}
   ]
