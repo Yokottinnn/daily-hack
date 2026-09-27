@@ -78,10 +78,16 @@ jobs:
               --data-binary @/tmp/q.json > /tmp/day.json
             echo "── ${START_T} → ${END_T} ──"
             jq '.errors // empty' /tmp/day.json
-            DAY_ROWS=$(jq '.data.viewer.zones[0].httpRequestsAdaptiveGroups // []' /tmp/day.json)
-            jq -n --argjson a "$(cat /tmp/all.json)" --argjson b "$DAY_ROWS" '$a + $b' > /tmp/all.json
-            v=$(echo "$DAY_ROWS" | jq '[.[].sum.visits] | add // 0')
-            r=$(echo "$DAY_ROWS" | jq '[.[].count] | add // 0')
+            # **累積 JSON を jq の引数に渡さない。**
+            # `--argjson a "$(cat /tmp/all.json)"` だと日数が増えるほど argv が伸び、
+            # **`jq: Argument list too long` で落ちる**（2026-09-27 に原因を特定）。
+            # 9/14・9/21 の定時も同じ理由で失敗していて、**PV が 2 週間 以上 出ていなかった。**
+            # ファイル経由なら argv に載らないので、日数をいくつにしても落ちない。
+            jq '.data.viewer.zones[0].httpRequestsAdaptiveGroups // []' /tmp/day.json > /tmp/day-rows.json
+            jq -s 'add' /tmp/all.json /tmp/day-rows.json > /tmp/all.next.json
+            mv /tmp/all.next.json /tmp/all.json
+            v=$(jq '[.[].sum.visits] | add // 0' /tmp/day-rows.json)
+            r=$(jq '[.[].count] | add // 0' /tmp/day-rows.json)
             ALL_VISITS=$((ALL_VISITS + v))
             ALL_REQ=$((ALL_REQ + r))
           done
@@ -124,9 +130,9 @@ jobs:
             done < /tmp/top.tsv
             echo
             echo "---"
-            echo "RAW GraphQL response (deburrable):"
+            echo "RAW（先頭 60 行だけ。**全部 貼ると 30 日ぶんで膨らむ**）"
             echo '```json'
-            ( jq '.' /tmp/all.json 2>/dev/null | head -200 ) || true
+            ( jq '.' /tmp/all.json 2>/dev/null | head -60 ) || true
             echo '```'
           } >> "$GITHUB_STEP_SUMMARY"
 
