@@ -25,6 +25,7 @@ jobs:
       HOST: daily-hack.fieldbeside.com
       DOMAIN: fieldbeside.com
       DAYS: ${{ github.event.inputs.days || '7' }}
+      GQL_LIMIT: '5000'   # GraphQL の limit と同じ値。飽和の判定に使う
     steps:
       - name: Resolve Cloudflare zone id
         env:
@@ -42,13 +43,17 @@ jobs:
         run: |
           set -euo pipefail
           # httpRequestsAdaptiveGroups は zone あたり 1d 制限なので日次ループ
+          # **limit は 200 では足りない。** 1 日の実パス数が 200 を超えるため、
+          # `orderBy: sum_visits_DESC` の下位（visits=1 の裾）が毎日 切り捨てられ、
+          # **総 visits が下限値になっていた**（2026-09-27 に発覚。26 日で 198.6 行/日＝ほぼ上限）。
+          # 飽和しているかは下の ROWS= の行で毎日 見える。上限に張り付いたら limit を上げる。
           END_EPOCH=$(date -u +%s)
           read -r -d '' QUERY <<'GQL' || true
           query($zoneTag: String!, $start: Time!, $end: Time!, $host: String!) {
             viewer {
               zones(filter: { zoneTag: $zoneTag }) {
                 httpRequestsAdaptiveGroups(
-                  limit: 200,
+                  limit: 5000,
                   filter: {
                     datetime_geq: $start,
                     datetime_leq: $end,
@@ -78,10 +83,21 @@ jobs:
               --data-binary @/tmp/q.json > /tmp/day.json
             echo "── ${START_T} → ${END_T} ──"
             jq '.errors // empty' /tmp/day.json
-            DAY_ROWS=$(jq '.data.viewer.zones[0].httpRequestsAdaptiveGroups // []' /tmp/day.json)
-            jq -n --argjson a "$(cat /tmp/all.json)" --argjson b "$DAY_ROWS" '$a + $b' > /tmp/all.json
-            v=$(echo "$DAY_ROWS" | jq '[.[].sum.visits] | add // 0')
-            r=$(echo "$DAY_ROWS" | jq '[.[].count] | add // 0')
+            # **累積 JSON を jq の引数に渡さない。**
+            # `--argjson a "$(cat /tmp/all.json)"` だと日数が増えるほど argv が伸び、
+            # **`jq: Argument list too long` で落ちる**（2026-09-27 に原因を特定）。
+            # 9/14・9/21 の定時も同じ理由で失敗していて、**PV が 2 週間 以上 出ていなかった。**
+            # ファイル経由なら argv に載らないので、日数をいくつにしても落ちない。
+            jq '.data.viewer.zones[0].httpRequestsAdaptiveGroups // []' /tmp/day.json > /tmp/day-rows.json
+            jq -s 'add' /tmp/all.json /tmp/day-rows.json > /tmp/all.next.json
+            mv /tmp/all.next.json /tmp/all.json
+            v=$(jq '[.[].sum.visits] | add // 0' /tmp/day-rows.json)
+            r=$(jq '[.[].count] | add // 0' /tmp/day-rows.json)
+            rows=$(jq 'length' /tmp/day-rows.json)
+            echo "ROWS=${rows} visits=${v} requests=${r}"
+            if [ "$rows" -ge "$GQL_LIMIT" ]; then
+              echo "::warning::${START_T} の行数が上限 ${GQL_LIMIT} に達した。**総 visits は下限値。** limit を上げること"
+            fi
             ALL_VISITS=$((ALL_VISITS + v))
             ALL_REQ=$((ALL_REQ + r))
           done
@@ -124,9 +140,9 @@ jobs:
             done < /tmp/top.tsv
             echo
             echo "---"
-            echo "RAW GraphQL response (deburrable):"
+            echo "RAW（先頭 60 行だけ。**全部 貼ると 30 日ぶんで膨らむ**）"
             echo '```json'
-            ( jq '.' /tmp/all.json 2>/dev/null | head -200 ) || true
+            ( jq '.' /tmp/all.json 2>/dev/null | head -60 ) || true
             echo '```'
           } >> "$GITHUB_STEP_SUMMARY"
 
