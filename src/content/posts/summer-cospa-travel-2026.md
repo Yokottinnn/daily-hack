@@ -72,7 +72,7 @@ parentPillar: summer-travel-timesale-2026
 | <span class="cell-brand"><img class="brand-logo-sm" src="/images/summer-cospa-travel-2026/logos/rakutentravel.png" alt="" loading="lazy" />**楽天トラベル**</span> | [5と0のつく日](https://travel.rakuten.co.jp/camp/50luxday/) | 毎月5/10/15/20/25/30 | クーポン最大20%OFF＋ポイント10倍 |
 | <span class="cell-brand"><img class="brand-logo-sm" src="/images/summer-cospa-travel-2026/logos/rakutentravel.png" alt="" loading="lazy" />**楽天トラベル**</span> | [楽天スーパーDEAL](https://travel.rakuten.co.jp/superdeal/) | 通年 | 30〜40%ポイント還元プラン |
 | **じゃらん** | [じゃらんクーポンフェス](https://www.jalan.net/theme/jalancouponfes/) | 〜6/12 | 最大2万円割引クーポン（期間別配布） |
-| **じゃらん** | [お得な10日間](https://www.jalan.net/uw/uwp3500/uww3551.do) | 毎月20日〜 | 最大1万円OFFクーポン |
+| **じゃらん** | [お得な10日間](https://www.jalan.net/theme/otoku_10days/) | 毎月20日〜 | 最大1万円OFFクーポン |
 | **じゃらん** | [じゃらん夏SALE](https://www.jalan.net/theme/summersale/) | 6月下旬〜8月下旬予定 | 最大15%OFF＋10%ポイント還元 |
 | **JTB** | [飛び出せ！夏旅](https://www.jtb.co.jp/myjtb/campaign/natsutabi/) | 〜9/30 | 2回出発で5,000pt / 3回以上で15,000pt還元＋早割3,000円OFF |
 
@@ -145,7 +145,7 @@ parentPillar: summer-travel-timesale-2026
 
 ### 一休.com ふるさと納税で狙える夏旅対応宿（11軒）
 
-> 📝 寄附金額は 1万〜200万円から自分で選ぶ方式（**寄附額の 30% が割引クーポン**として発行）。年収・家族構成に応じた寄附上限額は[総務省ふるさと納税ポータル](https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/furusato/index.html)の控除シミュレーションで確認してから。
+> 📝 寄附金額は 1万〜200万円から自分で選ぶ方式（**寄附額の 30% が割引クーポン**として発行）。年収・家族構成に応じた寄附上限額は[総務省ふるさと納税ポータル](https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/080430_2_kojin.html)の控除シミュレーションで確認してから。
 
 | 宿名 | エリア（寄附先） | 通常参考価格 | 寄附 10万円 → クーポン 3万円の効果 | おすすめ度 | 一休ふるさと納税ページ |
 |---|---|---|---|---|---|
@@ -272,7 +272,7 @@ parentPillar: summer-travel-timesale-2026
 
 <figure>
 <img src="/images/travel-summer-2026/shigira-bayside.jpg" alt="シギラベイサイドスイート アラマンダ外観" />
-<figcaption>出典：[シギラベイサイドスイート アラマンダ（Yahoo!トラベル）](https://travel.yahoo.co.jp/dir-00000998/)</figcaption>
+<figcaption>出典：[シギラベイサイドスイート アラマンダ（Yahoo!トラベル）](https://travel.yahoo.co.jp/00000998/)</figcaption>
 </figure>
 
 > 💰 **通常 1泊 2名 ¥37,200〜 → サマ割×PayPay25% で実質 ¥26,515**（約 **29% OFF / ¥10,700 オフ**）
@@ -280,20 +280,20 @@ parentPillar: summer-travel-timesale-2026
 
 全室スイート＆プライベートプール付きヴィラあり、宮古島の海徒歩圏。PayPay **25% 還元** 即時で 1泊 2名 ¥26,515〜まで圧縮可能。一休のふるさと納税経由なら同じ宿で更にお得に。
 
-**[シギラベイサイドスイート アラマンダを Yahoo!トラベルで予約 →](https://travel.yahoo.co.jp/dir-00000998/)**
+**[シギラベイサイドスイート アラマンダを Yahoo!トラベルで予約 →](https://travel.yahoo.co.jp/00000998/)**
 
 ### 横浜ベイホテル東急（神奈川・みなとみらい）
 
 <figure>
 <img src="/images/travel-summer-2026/yokohama-bay-tokyu.jpg" alt="横浜ベイホテル東急 みなとみらい眺望" />
-<figcaption>出典：[横浜ベイホテル東急（Yahoo!トラベル）](https://travel.yahoo.co.jp/dir-00000070/)</figcaption>
+<figcaption>出典：[横浜ベイホテル東急（Yahoo!トラベル）](https://travel.yahoo.co.jp/00000070/)</figcaption>
 </figure>
 
 > 💰 **通常 1泊 2名 ¥28,000台 → サマ割×PayPay25% で実質 ¥21,600**（約 **23% OFF / ¥6,400 オフ**）
 
 桜木町徒歩2分、夜景眺望。サマ割×PayPay25% で **2万円ジャスト圏まで圧縮**可能。みなとみらい花火と歩いて行ける位置の絶対王者。
 
-**[横浜ベイホテル東急を Yahoo!トラベルで予約 →](https://travel.yahoo.co.jp/dir-00000070/)**
+**[横浜ベイホテル東急を Yahoo!トラベルで予約 →](https://travel.yahoo.co.jp/00000070/)**
 
 ### 別府温泉 杉乃井ホテル（大分・別府）
 
@@ -307,13 +307,13 @@ parentPillar: summer-travel-timesale-2026
 
 段々の **棚湯**と「**アクアガーデン**」ナイトショーが夏の定番。家族連れ向けの王道、PayPay 勢にも嬉しいポイント10%還元。**「夏の九州ファミリー旅でふるさと納税最強」枠**。
 
-**[別府温泉 杉乃井ホテルを Yahoo!トラベルで予約 →](https://travel.yahoo.co.jp/h/?keyword=%E6%9D%89%E4%B9%83%E4%BA%95)** ／ **[楽天トラベルで予約 →](https://travel.rakuten.co.jp/HOTEL/5547/5547.html)**
+**[別府温泉 杉乃井ホテルを Yahoo!トラベルで予約 →](https://travel.yahoo.co.jp/00001104/)** ／ **[楽天トラベルで予約 →](https://travel.rakuten.co.jp/HOTEL/5547/5547.html)**
 
 ### ザ ロイヤルパークホテル 舞浜リゾート 東京ベイ（千葉・浦安）
 
 <figure>
 <img src="/images/travel-summer-2026/royal-park-maihama.jpg" alt="ザ ロイヤルパークホテル 舞浜リゾート 東京ベイ" />
-<figcaption>出典：[ザ ロイヤルパークホテル 舞浜リゾート 東京ベイ（一休.com / Yahoo!トラベル）](https://travel.yahoo.co.jp/dir-00003354/)</figcaption>
+<figcaption>出典：[ザ ロイヤルパークホテル 舞浜リゾート 東京ベイ（一休.com / Yahoo!トラベル）](https://travel.yahoo.co.jp/00003354/)</figcaption>
 </figure>
 
 > 💰 **通常 1泊 2名 ¥22,000〜 → サマ割×PayPay23% で実質 ¥15,092**（約 **31% OFF / ¥7,000 オフ**）
@@ -321,7 +321,7 @@ parentPillar: summer-travel-timesale-2026
 
 TDR 徒歩圏・無料シャトル付き。サマ割で **ポイント23%還元プラン** あり、家族の夏旅でコスパ最強候補。**TDR の夏休みに1.5万円から行ける**は強すぎる。**ふるさと納税勢には文句なし枠**。
 
-**[ロイヤルパークホテル 舞浜リゾートを Yahoo!トラベルで予約 →](https://travel.yahoo.co.jp/dir-00003354/)**
+**[ロイヤルパークホテル 舞浜リゾートを Yahoo!トラベルで予約 →](https://travel.yahoo.co.jp/00003354/)**
 
 ---
 

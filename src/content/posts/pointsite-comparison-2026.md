@@ -185,7 +185,7 @@ author: "hacker-ko"
   </article>
 </div>
 
-<p class="source-note">※ 会員数・運営会社情報は各社公式サイト・IR資料に基づく（モッピー: <a href="https://pc.moppy.jp/" target="_blank" rel="noopener nofollow">セレス公式</a> / ポイントタウン: <a href="https://www.pointtown.com/ptu/static/companyData" target="_blank" rel="noopener nofollow">GMOメディア公式</a> 等）。最新数値は各社IRをご確認ください。</p>
+<p class="source-note">※ 会員数・運営会社情報は各社公式サイト・IR資料に基づく（モッピー: <a href="https://pc.moppy.jp/" target="_blank" rel="noopener nofollow">セレス公式</a> / ポイントタウン: GMOメディア 等）。最新数値は各社IRをご確認ください。</p>
 
 <aside class="related-block">
   <div class="related-block-head">

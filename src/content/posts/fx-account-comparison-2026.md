@@ -11,7 +11,7 @@ eyecatchUrl: "/images/fx-account-comparison-2026/eyecatch.jpg"
 eyecatchAlt: "FX口座 おすすめ8社比較 2026 — スプレッド0.2銭・最大55万キャッシュバック・初心者向け徹底解説"
 author: "hacker-ko"
 source_candidate_id: "C002"
-references: ["https://fx.dmm.com/", "https://www.gaitame.com/", "https://min-fx.jp/", "https://www.click-sec.com/corp/fx/", "https://www.rakuten-sec.co.jp/fx/", "https://www.matsui.co.jp/service/fx/", "https://www.sbifxt.co.jp/", "https://mst.monex.co.jp/mst/servlet/ITS/fx/"]
+references: ["https://fx.dmm.com/", "https://www.gaitame.com/", "https://min-fx.jp/", "https://www.click-sec.com/", "https://www.rakuten-sec.co.jp/fx/", "https://www.matsui.co.jp/fx/", "https://www.sbifxt.co.jp/", "https://info.monex.co.jp/fx/index.html"]
 ---
 
 「**FXを始めたいけど、どの口座を選べばいいか分からない**」── 結論先に言うわよ、**2026年現在、初心者がまず開くべきはDMM FX or 外為どっとコム or GMOクリック証券のどれか**。理由はスプレッドが0.2銭で最狭・キャッシュバック太い・スマホアプリが他社圧倒的に使いやすいから。
@@ -31,9 +31,9 @@ references: ["https://fx.dmm.com/", "https://www.gaitame.com/", "https://min-fx.
     <tbody>
       <tr class="recommended"><td><strong>初心者全般</strong></td><td><a href="https://fx.dmm.com/" target="_blank" rel="noopener nofollow">DMM FX</a></td><td>最大30万円キャッシュバック・LINEサポート24h</td></tr>
       <tr><td><strong>手厚いサポート派</strong></td><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/fx-account-comparison-2026/logos/gaitame.png" alt="" loading="lazy" /><a href="https://www.gaitame.com/" target="_blank" rel="noopener nofollow">外為どっとコム</a></span></td><td>24時間電話サポート・最大40万円CB</td></tr>
-      <tr><td><strong>取引コスト最重視</strong></td><td><a href="https://www.click-sec.com/corp/fx/" target="_blank" rel="noopener nofollow">GMOクリック証券</a></td><td>取引高 12年連続世界1位・スプレッド0.2銭・最大55万円CB</td></tr>
+      <tr><td><strong>取引コスト最重視</strong></td><td><a href="https://www.click-sec.com/" target="_blank" rel="noopener nofollow">GMOクリック証券</a></td><td>取引高 12年連続世界1位・スプレッド0.2銭・最大55万円CB</td></tr>
       <tr><td><strong>楽天経済圏</strong></td><td><a href="https://www.rakuten-sec.co.jp/fx/" target="_blank" rel="noopener nofollow">楽天FX</a></td><td>楽天ポイントが貯まる・MarketSpeed FX</td></tr>
-      <tr><td><strong>少額スタート</strong></td><td><a href="https://www.matsui.co.jp/service/fx/" target="_blank" rel="noopener nofollow">松井FX</a> ／ <a href="https://www.sbifxt.co.jp/" target="_blank" rel="noopener nofollow">SBI FXトレード</a></td><td>1通貨単位から。約5円分のポジションで始められる</td></tr>
+      <tr><td><strong>少額スタート</strong></td><td><a href="https://www.matsui.co.jp/fx/" target="_blank" rel="noopener nofollow">松井FX</a> ／ <a href="https://www.sbifxt.co.jp/" target="_blank" rel="noopener nofollow">SBI FXトレード</a></td><td>1通貨単位から。約5円分のポジションで始められる</td></tr>
       <tr><td><strong>自動売買を試したい</strong></td><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/fx-account-comparison-2026/logos/minnafx.png" alt="" loading="lazy" /><a href="https://min-fx.jp/" target="_blank" rel="noopener nofollow">みんなのFX</a></span></td><td>みんなのシストレ・1,000通貨から</td></tr>
     </tbody>
   </table>
@@ -86,12 +86,12 @@ references: ["https://fx.dmm.com/", "https://www.gaitame.com/", "https://min-fx.
 |---|---|---|---|---|---|---|
 | **<a href="https://fx.dmm.com/" target="_blank" rel="noopener nofollow">DMM FX</a>** | 0.2銭 原則固定 | 10,000通貨 | 最大 **30万円** | DMMFX PLUS | 高評価 | LINE 24h |
 | <span class="cell-brand"><img class="brand-logo-sm" src="/images/fx-account-comparison-2026/logos/gaitame.png" alt="" loading="lazy" /><a href="https://www.gaitame.com/" target="_blank" rel="noopener nofollow">外為どっとコム</a></span> | 0.2銭 原則固定 | 1,000通貨 | 最大 **40万円** | 外貨ネクストネオ | 評価高 | **24h電話** |
-| **<a href="https://www.click-sec.com/corp/fx/" target="_blank" rel="noopener nofollow">GMOクリック証券</a>** | 0.2銭 原則固定 | 10,000通貨 | 最大 **55万円** | はっちゅう君FXプラス | 業界高評価 | メール・電話 |
+| **<a href="https://www.click-sec.com/" target="_blank" rel="noopener nofollow">GMOクリック証券</a>** | 0.2銭 原則固定 | 10,000通貨 | 最大 **55万円** | はっちゅう君FXプラス | 業界高評価 | メール・電話 |
 | <span class="cell-brand"><img class="brand-logo-sm" src="/images/fx-account-comparison-2026/logos/minnafx.png" alt="" loading="lazy" /><a href="https://min-fx.jp/" target="_blank" rel="noopener nofollow">みんなのFX</a></span> | 0.2銭 原則固定 | 1,000通貨 | 最大 **50万円** | みんなのFXトレーダー | 改善中 | メール・電話 |
 | <span class="cell-brand"><img class="brand-logo-sm" src="/images/fx-account-comparison-2026/logos/rakutensec.png" alt="" loading="lazy" /><a href="https://www.rakuten-sec.co.jp/fx/" target="_blank" rel="noopener nofollow">楽天FX</a></span> | 0.2銭 原則固定 | 1,000通貨 | 最大 **30万円** | MarketSpeed FX | iSPEED FX | メール・電話 |
-| <span class="cell-brand"><img class="brand-logo-sm" src="/images/fx-account-comparison-2026/logos/matsui.png" alt="" loading="lazy" /><a href="https://www.matsui.co.jp/service/fx/" target="_blank" rel="noopener nofollow">松井FX</a></span> | 0.2銭 原則固定 | **1通貨** | 最大 1万円 | ネットストック | 標準 | メール・電話 |
+| <span class="cell-brand"><img class="brand-logo-sm" src="/images/fx-account-comparison-2026/logos/matsui.png" alt="" loading="lazy" /><a href="https://www.matsui.co.jp/fx/" target="_blank" rel="noopener nofollow">松井FX</a></span> | 0.2銭 原則固定 | **1通貨** | 最大 1万円 | ネットストック | 標準 | メール・電話 |
 | <span class="cell-brand"><img class="brand-logo-sm" src="/images/fx-account-comparison-2026/logos/sbifx.png" alt="" loading="lazy" /><a href="https://www.sbifxt.co.jp/" target="_blank" rel="noopener nofollow">SBI FXトレード</a></span> | 0.18銭 原則固定 | **1通貨** | 最大 30万円 | SBI FXTRADE | 高評価 | メール・電話 |
-| **<a href="https://mst.monex.co.jp/mst/servlet/ITS/fx/" target="_blank" rel="noopener nofollow">マネックスFX</a>** | 0.2銭 原則固定 | 1,000通貨 | 最大 30万円 | MonexTraderFX | 標準 | メール・電話 |
+| **<a href="https://info.monex.co.jp/fx/index.html" target="_blank" rel="noopener nofollow">マネックスFX</a>** | 0.2銭 原則固定 | 1,000通貨 | 最大 30万円 | MonexTraderFX | 標準 | メール・電話 |
 
 > 💡 **キャッシュバック達成条件**：各社「新規口座開設＋取引数量〇万Lot以上」の階段方式。最高額は数千万Lot必要なので**現実的には5〜10万円達成が目安**。「最大55万」は理論値。
 
@@ -147,7 +147,7 @@ references: ["https://fx.dmm.com/", "https://www.gaitame.com/", "https://min-fx.
       <tr><th>サポート</th><td>メール・電話</td></tr>
       <tr><th>強み</th><td><strong>FX取引高 12年連続世界1位</strong>、スプレッドが安定して狭い、約定力高い、長期トレーダーに人気</td></tr>
       <tr><th>注意</th><td>初心者向けコンテンツはDMM/外為どっとコムほどではない</td></tr>
-      <tr><th>公式サイト</th><td><a href="https://www.click-sec.com/corp/fx/" target="_blank" rel="noopener nofollow">GMOクリック証券 公式</a></td></tr>
+      <tr><th>公式サイト</th><td><a href="https://www.click-sec.com/" target="_blank" rel="noopener nofollow">GMOクリック証券 公式</a></td></tr>
     </tbody>
   </table>
 </div>
@@ -195,7 +195,7 @@ references: ["https://fx.dmm.com/", "https://www.gaitame.com/", "https://min-fx.
       <tr><th>取引ツール</th><td>ネットストックトレーダー（PC）、松井証券 株アプリ（スマホ・統合）</td></tr>
       <tr><th>強み</th><td><strong>1通貨から始められる</strong>ので、リアルマネー練習に最適。100年以上の老舗、信頼性高</td></tr>
       <tr><th>注意</th><td>1通貨だと利益も極小、本格的に取引するには通貨数量を増やす必要あり</td></tr>
-      <tr><th>公式サイト</th><td><a href="https://www.matsui.co.jp/service/fx/" target="_blank" rel="noopener nofollow">松井FX 公式</a></td></tr>
+      <tr><th>公式サイト</th><td><a href="https://www.matsui.co.jp/fx/" target="_blank" rel="noopener nofollow">松井FX 公式</a></td></tr>
     </tbody>
   </table>
 </div>
@@ -227,7 +227,7 @@ references: ["https://fx.dmm.com/", "https://www.gaitame.com/", "https://min-fx.
       <tr><th>取引ツール</th><td>MonexTraderFX（PC）、独自スマホアプリ</td></tr>
       <tr><th>強み</th><td>マネックス証券との総合口座、取扱通貨ペア多め（米国株メインのマネックス利用者と相性○）</td></tr>
       <tr><th>注意</th><td>FX専業他社と比べ、FX関連コンテンツは少なめ</td></tr>
-      <tr><th>公式サイト</th><td><a href="https://mst.monex.co.jp/mst/servlet/ITS/fx/" target="_blank" rel="noopener nofollow">マネックスFX 公式</a></td></tr>
+      <tr><th>公式サイト</th><td><a href="https://info.monex.co.jp/fx/index.html" target="_blank" rel="noopener nofollow">マネックスFX 公式</a></td></tr>
     </tbody>
   </table>
 </div>
@@ -240,7 +240,7 @@ references: ["https://fx.dmm.com/", "https://www.gaitame.com/", "https://min-fx.
   <table class="cmp-table">
     <thead><tr><th>順</th><th>やること</th><th>本文で示した目安</th></tr></thead>
     <tbody>
-      <tr><td><strong>①</strong></td><td>まず複数口座を開く（無料）</td><td><a href="https://fx.dmm.com/" target="_blank" rel="noopener nofollow">DMM FX</a> ＋ <a href="https://www.gaitame.com/" target="_blank" rel="noopener nofollow">外為どっとコム</a> ＋ <a href="https://www.click-sec.com/corp/fx/" target="_blank" rel="noopener nofollow">GMOクリック証券</a>の3社</td></tr>
+      <tr><td><strong>①</strong></td><td>まず複数口座を開く（無料）</td><td><a href="https://fx.dmm.com/" target="_blank" rel="noopener nofollow">DMM FX</a> ＋ <a href="https://www.gaitame.com/" target="_blank" rel="noopener nofollow">外為どっとコム</a> ＋ <a href="https://www.click-sec.com/" target="_blank" rel="noopener nofollow">GMOクリック証券</a>の3社</td></tr>
       <tr><td><strong>②</strong></td><td>最初の入金額を決める</td><td><strong>5万円以下</strong></td></tr>
       <tr><td><strong>③</strong></td><td>最初の取引数量を決める</td><td><strong>1,000通貨</strong>。心理的負荷が10分の1</td></tr>
       <tr><td><strong>④</strong></td><td>損切りラインを取引前に決める</td><td>指値・逆指値で自動執行</td></tr>
