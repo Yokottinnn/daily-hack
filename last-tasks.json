@@ -1,3 +1,4 @@
 [
-      {"task": "t194-verify-candidates.sh", "rc": 0, "out": "---  経過 **16 秒**。  **title が期待する名前と噛み合っているものだけ記事に入れる。**"}
+      {"task": "x164-install-follow-balance-fix.sh", "rc": 124, "out": "制限時間 900 秒 を超えたので打ち切った / "},
+      {"task": "x165-verify-payid-post.sh", "rc": 0, "out": "PAY ID の投稿を一次情報で確かめた / payid-post-verify.md"}
   ]
