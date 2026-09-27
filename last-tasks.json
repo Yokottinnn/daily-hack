@@ -1,3 +1,3 @@
 [
-      {"task": "t199-hanabi-photo.sh", "rc": 0, "out": " > 合成はクラウド側でやる（Pillow ＋ IPA ゴシックが在る）。 > **PR は作っていない。** ブランチに写真を置くところまで。  LLM 不使用。Commons は無料。**$0/回・$0/日・$0/月。**"}
+      {"task": "x171-fix-guard-and-stdout.sh", "rc": 0, "out": "番人の上限と stdout の捨て漏れを直した / thread-guard-fix.md"}
   ]
