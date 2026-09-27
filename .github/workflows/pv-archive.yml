@@ -160,8 +160,17 @@ jobs:
                   human:    ([$b[] | select((.dimensions.userAgentBrowser
                                | test("bot|crawl|spider|slurp|Unknown|HeadlessChrome"; "i")) | not)
                              | .sum.visits] | add // 0),
-                  top: [ $p | sort_by(-.sum.visits) | .[:250][]
-                         | { path: .dimensions.clientRequestPath, v: .sum.visits, r: .count } ],
+                  # **記事（/posts/…）は 1 本も落とさない。** 月次の記事表が下限値に
+                  # なるのを防ぐ。9 月は 1 日 平均 330 パスあり、上位 250 では 24 日で
+                  # 溢れていた。記事は多くても本数ぶんしか無いので、全部 積んで問題ない。
+                  # それ以外（トップ・タグ・画像など）は上位 100 だけ。
+                  top: ( ($p | map(select(.dimensions.clientRequestPath | startswith("/posts/"))))
+                         + ($p | map(select(.dimensions.clientRequestPath | startswith("/posts/") | not))
+                              | sort_by(-.sum.visits) | .[:100])
+                       | sort_by(-.sum.visits)
+                       | map({ path: .dimensions.clientRequestPath, v: .sum.visits, r: .count }) ),
+                  # **クエリ自体が上限に達したか。** ここが true なら記事も落ちている
+                  truncated: (($p | length) >= 5000),
                   countries: [ $c | sort_by(-.sum.visits) | .[:20][]
                          | { k: .dimensions.clientCountryName, v: .sum.visits } ],
                   browsers: [ $b | sort_by(-.sum.visits) | .[:20][]
