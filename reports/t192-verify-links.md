@@ -466,3 +466,201 @@ curl で見た件数: 1010/1010
 
 **DEAD と書かれたものだけが「切れている」。** ALIVE は curl の誤判定なので記事は直さない。
 **OPEN_FAILED は生死が分からない**（そう書く。切れていることにしない）。
+
+ALIVE: 32
+DEAD: 13
+OPEN_FAILED: 30
+
+## DEAD
+  https://event.rakuten.co.jp/furusato/guide/simulator/
+    curl=404 http=404 title="指定されたページが見つかりません"
+    ← furusato-tax-beginner-guide-2026
+  https://www.click-sec.com/corp/fx/
+    curl=404 http=404 title="ページが見つかりません。Not Found 404 | GMOクリック証券"
+    ← fx-account-comparison-2026
+  https://www.eneos.co.jp/citygas/
+    curl=404 http=404 title="お探しのページが見つかりません - Page Not Found｜ENEOS"
+    ← electricity-gas-savings-2026
+  https://www.eneos.co.jp/denki/
+    curl=404 http=404 title="お探しのページが見つかりません - Page Not Found｜ENEOS"
+    ← electricity-gas-savings-2026
+  https://www.jalan.net/uw/uwp3500/uww3551.do
+    curl=404 http=404 title="該当ページURLは存在しません"
+    ← summer-cospa-travel-2026
+  https://www.lucidchart.com/pages/ja/education
+    curl=404 http=404 title="404 ページが見つかりません | Lucid Software"
+    ← hoso-daigaku-gakuwari-2026
+  https://www.lucidchart.com/pages/ja/pricing
+    curl=404 http=404 title="404 ページが見つかりません | Lucid Software"
+    ← hoso-daigaku-gakuwari-2026
+  https://www.parallels.com/jp/products/desktop/education/
+    curl=404 http=404 title="Page Not Found"
+    ← hoso-daigaku-gakuwari-2026
+  https://www.pointtown.com/ptu/static/companyData
+    curl=404 http=404 title="404 not found | ポイ活・ポイントサイトはポイントタウン"
+    ← pointsite-comparison-2026
+  https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/furusato/index.html
+    curl=404 http=404 title="総務省｜ご案内ページ　－ご利用のページが見つかりません－"
+    ← summer-cospa-travel-2026
+  https://www.spotify.com/jp-ja/student/
+    curl=502 http=200 title="ページが見つかりません-Spotify"
+    ← hoso-daigaku-gakuwari-2026
+  https://www.sugi-net.jp/sugisapo/
+    curl=404 http=404 title="ページが見つかりません｜スギ薬局グループ お客様サイト"
+    ← walk-poikatsu-2026
+  https://www.toys.or.jp/toyshow/
+    curl=404 http=404 title="404 Not Found"
+    ← wangan-august-events-2026
+
+## OPEN_FAILED
+  https://appdigitalhealth.com/rakuten-healthcare-report/
+    curl=0 http=null title=null err=page.goto: net::ERR_NAME_NOT_RESOLVED at https://appdigitalhealth.com/
+    ← move-to-earn-poikatsu-apps-2026
+  https://arucoin.jp/
+    curl=0 http=null title=null err=page.goto: net::ERR_NAME_NOT_RESOLVED at https://arucoin.jp/
+Call log:
+    ← walk-poikatsu-2026
+  https://docomo-cycle.jp/tokyo-bikeshare/
+    curl=404 http=null title=null err=page.goto: net::ERR_NAME_NOT_RESOLVED at https://docomo-cycle.jp/tokyo
+    ← mobility-cost-per-km-2026
+  https://every-point.jp/
+    curl=0 http=null title=null err=page.goto: net::ERR_NAME_NOT_RESOLVED at https://every-point.jp/
+Call 
+    ← walk-poikatsu-2026
+  https://fx.dmm.com/
+    curl=503 http=null title=null err=page.goto: net::ERR_NAME_NOT_RESOLVED at https://fx.dmm.com/
+Call log:
+    ← fx-account-comparison-2026
+  https://healthcare.smt.docomo.ne.jp/
+    curl=0 http=null title=null err=page.goto: net::ERR_NAME_NOT_RESOLVED at https://healthcare.smt.docomo
+    ← walk-poikatsu-2026
+  https://healthree.io/
+    curl=0 http=null title=null err=page.goto: net::ERR_NAME_NOT_RESOLVED at https://healthree.io/
+Call lo
+    ← walk-poikatsu-2026
+  https://kakakumag.com/money/?id=20897
+    curl=404 http=null title=null err=page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://kakakumag.com/mo
+    ← point-service-complete-guide-2026
+  https://looop.co.jp/denki/
+    curl=404 http=null title=null err=page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://looop.co.jp/denk
+    ← electricity-gas-savings-2026
+  https://mst.monex.co.jp/mst/servlet/ITS/fx/
+    curl=404 http=null title=null err=page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://mst.monex.co.jp/
+    ← fx-account-comparison-2026
+  https://news.yahoo.co.jp/articles/c21c95237e5e9bd4f3e0fe21a319c9e3fe9e6ef4
+    curl=404 http=null title=null err=page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://news.yahoo.co.jp
+    ← furusato-tax-beginner-guide-2026
+  https://poisura.com/
+    curl=0 http=null title=null err=page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://poisura.com/
+Cal
+    ← walk-poikatsu-2026
+  https://stellarwalk.jp/
+    curl=0 http=null title=null err=page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://stellarwalk.jp/
+
+    ← walk-poikatsu-2026
+  https://travel.yahoo.co.jp/dir-00000070/
+    curl=404 http=null title=null err=page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://travel.yahoo.co.
+    ← summer-cospa-travel-2026
+  https://travel.yahoo.co.jp/dir-00000998/
+    curl=404 http=null title=null err=page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://travel.yahoo.co.
+    ← summer-cospa-travel-2026
+  https://travel.yahoo.co.jp/dir-00003354/
+    curl=404 http=null title=null err=page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://travel.yahoo.co.
+    ← summer-cospa-travel-2026
+  https://travel.yahoo.co.jp/h/?keyword=%E6%9D%89%E4%B9%83%E4%BA%95
+    curl=404 http=null title=null err=page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://travel.yahoo.co.
+    ← summer-cospa-travel-2026
+  https://www.amazon.co.jp/b?node=5961517051
+    curl=404 http=null title=null err=page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://www.amazon.co.jp
+    ← hoso-daigaku-gakuwari-2026
+  https://www.ana.co.jp/ja/jp/amc/reference/anamile/pocket/
+    curl=404 http=null title=null err=page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://www.ana.co.jp/ja
+    ← walk-poikatsu-2026
+  https://www.ana.co.jp/ja/jp/guide/ana-pocket/
+    curl=404 http=null title=null err=page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://www.ana.co.jp/ja
+    ← walk-poikatsu-2026
+  https://www.axa-direct.co.jp/auto/
+    curl=0 http=null title=null err=page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://www.axa-direct.c
+    ← car-insurance-comparison-2026
+  https://www.bang.co.jp/auto/
+    curl=404 http=null title=null err=page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://www.bang.co.jp/a
+    ← car-insurance-comparison-2026
+  https://www.bang.co.jp/insurance/
+    curl=404 http=null title=null err=page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://www.bang.co.jp
+    ← car-insurance-comparison-2026
+  https://www.emsc.meti.go.jp/
+    curl=0 http=null title=null err=page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.emsc.meti.go.jp/
+
+    ← electricity-gas-savings-2026
+  https://www.inzweb.jp/
+    curl=0 http=null title=null err=page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.inzweb.jp/
+Call l
+    ← car-insurance-comparison-2026
+  https://www.j-fsa.go.jp/
+    curl=0 http=null title=null err=page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.j-fsa.go.jp/
+Call
+    ← cardloan-comparison-2026
+  https://www.matsui.co.jp/service/fx/
+    curl=404 http=null title=null err=page.goto: net::ERR_ADDRESS_UNREACHABLE at https://www.matsui.co.jp/se
+    ← fx-account-comparison-2026
+  https://www.orixcredit.jp/
+    curl=0 http=null title=null err=page.goto: Timeout 20000ms exceeded.
+Call log:
+  - navigating to "http
+    ← cardloan-comparison-2026
+  https://www.promise.co.jp/
+    curl=0 http=null title=null err=page.goto: net::ERR_ADDRESS_UNREACHABLE at https://www.promise.co.jp/
+
+    ← cardloan-comparison-2026
+  https://www.satofull.jp/
+    curl=0 http=null title=null err=page.goto: Timeout 20000ms exceeded.
+Call log:
+  - navigating to "http
+    ← furusato-tax-2026-reform-guide / furusato-tax-beginner-guide-2026
+
+## ALIVE（**curl の誤判定**。記事は直さなくてよい）
+  https://ahamo.com/  ← "ahamo"
+  https://dcard.docomo.ne.jp/std/campaigns/202607_1cm/cpn-shinkinyuukai-tokuten/index.html  ← "【dカード】はじめてのdカード新規入会で合計最大12,400ポイントもらえる！"
+  https://dcard.docomo.ne.jp/std/info/correction20251101.html  ← "dカード | 【重要】公共料金・税金などの一部ご利用先におけるdポイント還元率の見直し"
+  https://denki.docomo.ne.jp/  ← "ドコモでんき｜電気料金の支払いでdポイントを還元"
+  https://dpoint.docomo.ne.jp/article/2009_07.html  ← "【dポイントクラブ】dポイントとJALのマイルはお互い交換可能！メリットと方法を解説"
+  https://health.docomo.ne.jp/  ← "dヘルスケア｜毎日の歩数がdポイントに！"
+  https://service.smt.docomo.ne.jp/keitai_payment/  ← "d払い - dポイントがたまる！かんたん、便利なスマホ決済"
+  https://service.smt.docomo.ne.jp/keitai_payment/assets/top/image/illust_point_description_01.png  ← "illust_point_description_01.png (566×428)"
+  https://service.smt.docomo.ne.jp/keitai_payment/campaign/  ← "キャンペーン｜d払い - かんたん、便利なスマホ決済"
+  https://www.furusato-tax.jp/  ← "【ふるさとチョイス】お礼の品掲載数No.1のふるさと納税サイト"
+  https://www.furusato-tax.jp/about/easy_simulation  ← "年収別にすぐわかる。ふるさと納税の控除上限額かんたんシミュレーション｜ふるさとチョイス"
+  https://www.gpoint.co.jp/pen/charge/  ← "Ｇポイント　メンテナンスのお知らせ"
+  https://www.gyomusuper.jp/  ← "業務スーパー | プロの品質とプロの価格"
+  https://www.gyomusuper.jp/product/index.php  ← "商品紹介｜プロの品質とプロの価格の業務スーパー"
+  https://www.gyomusuper.jp/saiyasune.php  ← "特売情報｜プロの品質とプロの価格の業務スーパー"
+  https://www.gyomusuper.jp/shop/list.php?pref_id=13  ← "東京都の店舗一覧 - 店舗案内｜プロの品質とプロの価格の業務スーパー"
+  https://www.ikea.com/jp/ja/cat/cushion-covers-20535/  ← "洗える枕（羽毛枕・羽根枕）の通販 - IKEA"
+  https://www.ikea.com/jp/ja/cat/cushions-cushion-covers-18749/  ← "商品一覧 - IKEA"
+  https://www.ikea.com/jp/ja/cat/stools-benches-20655/  ← "商品一覧 - IKEA"
+  https://www.ikea.com/jp/ja/p/raskog-trolley-black-70517477/  ← "商品一覧 - IKEA"
+  https://www.ikea.com/jp/ja/p/risatorp-basket-white-10221101/  ← "商品一覧 - IKEA"
+  https://www.nmwa.go.jp/  ← "国立西洋美術館"
+  https://www.paypay-card.co.jp/  ← "クレジットカードなら、PayPayカード PayPayと一緒に使うと便利でおトク - PayPayカード"
+  https://www.smbc.co.jp/kojin/olive/imgs/index_img_18_pc.png  ← "index_img_18_pc.png (800×523)"
+  https://www.sonysonpo.co.jp/auto/  ← "ソニー損保の自動車保険【公式サイト】"
+  https://www.ueshima-coffee-ten.jp/menu/morning/  ← "モーニングセット | 上島珈琲店"
+  https://www.wolframalpha.com/pro-for-students  ← "Wolfram|Alpha Pro for Students：課題と研究のためのツール"
+  https://www.wolframalpha.com/pro/pricing/students  ← "料金プラン：Wolfram|Alpha Pro for Students"
+  https://www.yoshinoya.com/menu/morningset/  ← "朝食メニュー | 吉野家公式ホームページ"
+  https://www.yoshinoya.com/menu/morningset/nattou-tei/  ← "納豆定食 | 吉野家公式ホームページ"
+  https://www.yoshinoya.com/menu/morningset/shiosaba-gyu-tei/  ← "塩さば牛小鉢定食 | 吉野家公式ホームページ"
+  https://www.yoshinoya.com/menu/morningset/shiosaba-tokuasa-tei/  ← "塩さば特朝定食 | 吉野家公式ホームページ"
+
+✅ 全部 見た（75 件）
+```
+
+---
+
+curl で見た件数: 1010/1010
+実ブラウザで見た件数: 75/75
+
+経過 **484 秒**。
+
+**DEAD と書かれたものだけが「切れている」。** ALIVE は curl の誤判定なので記事は直さない。
+**OPEN_FAILED は生死が分からない**（そう書く。切れていることにしない）。

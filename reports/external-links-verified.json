@@ -76,10 +76,11 @@
     "mobility-cost-per-km-2026"
    ],
    "curl": 404,
-   "http": 404,
-   "title": "Object not found!",
-   "final": "https://docomo-cycle.jp/tokyo-bikeshare/",
-   "verdict": "DEAD"
+   "http": null,
+   "title": null,
+   "final": null,
+   "verdict": "OPEN_FAILED",
+   "err": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://docomo-cycle.jp/tokyo"
   },
   {
    "url": "https://dpoint.docomo.ne.jp/article/2009_07.html",
@@ -121,10 +122,11 @@
     "fx-account-comparison-2026"
    ],
    "curl": 503,
-   "http": 200,
-   "title": "DMM.com証券のFX-【DMM FX】",
-   "final": "https://fx.dmm.com/",
-   "verdict": "ALIVE"
+   "http": null,
+   "title": null,
+   "final": null,
+   "verdict": "OPEN_FAILED",
+   "err": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://fx.dmm.com/\nCall log:"
   },
   {
    "url": "https://health.docomo.ne.jp/",
@@ -167,10 +169,11 @@
     "point-service-complete-guide-2026"
    ],
    "curl": 404,
-   "http": 200,
-   "title": "楽天ポイント、Vポイント、dポイント、Pontaポイント、PayPayポイントを徹底比較 - 価格.comマガジン",
-   "final": "https://kakakumag.com/money/?id=20897",
-   "verdict": "ALIVE"
+   "http": null,
+   "title": null,
+   "final": null,
+   "verdict": "OPEN_FAILED",
+   "err": "page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://kakakumag.com/mo"
   },
   {
    "url": "https://looop.co.jp/denki/",
@@ -178,10 +181,11 @@
     "electricity-gas-savings-2026"
    ],
    "curl": 404,
-   "http": 404,
-   "title": "ページが見つかりません | Ｌｏｏｏｐ (ループ)",
-   "final": "https://looop.co.jp/denki/",
-   "verdict": "DEAD"
+   "http": null,
+   "title": null,
+   "final": null,
+   "verdict": "OPEN_FAILED",
+   "err": "page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://looop.co.jp/denk"
   },
   {
    "url": "https://mst.monex.co.jp/mst/servlet/ITS/fx/",
@@ -189,10 +193,11 @@
     "fx-account-comparison-2026"
    ],
    "curl": 404,
-   "http": 404,
-   "title": "アクセスしようとしたページが見つかりませんでした／マネックス証券",
-   "final": "https://mst.monex.co.jp/mst/servlet/ITS/fx/",
-   "verdict": "DEAD"
+   "http": null,
+   "title": null,
+   "final": null,
+   "verdict": "OPEN_FAILED",
+   "err": "page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://mst.monex.co.jp/"
   },
   {
    "url": "https://news.yahoo.co.jp/articles/c21c95237e5e9bd4f3e0fe21a319c9e3fe9e6ef4",
@@ -200,10 +205,11 @@
     "furusato-tax-beginner-guide-2026"
    ],
    "curl": 404,
-   "http": 404,
-   "title": "Yahoo!ニュース",
-   "final": "https://news.yahoo.co.jp/articles/c21c95237e5e9bd4f3e0fe21a319c9e3fe9e6ef4",
-   "verdict": "ALIVE"
+   "http": null,
+   "title": null,
+   "final": null,
+   "verdict": "OPEN_FAILED",
+   "err": "page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://news.yahoo.co.jp"
   },
   {
    "url": "https://poisura.com/",
@@ -215,7 +221,7 @@
    "title": null,
    "final": null,
    "verdict": "OPEN_FAILED",
-   "err": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://poisura.com/\nCall log"
+   "err": "page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://poisura.com/\nCal"
   },
   {
    "url": "https://service.smt.docomo.ne.jp/keitai_payment/",
@@ -262,7 +268,7 @@
    "title": null,
    "final": null,
    "verdict": "OPEN_FAILED",
-   "err": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://stellarwalk.jp/\nCall "
+   "err": "page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://stellarwalk.jp/\n"
   },
   {
    "url": "https://travel.yahoo.co.jp/dir-00000070/",
@@ -270,10 +276,11 @@
     "summer-cospa-travel-2026"
    ],
    "curl": 404,
-   "http": 404,
-   "title": "［Yahoo!トラベル］ページが見つかりません",
-   "final": "https://travel.yahoo.co.jp/dir-00000070/",
-   "verdict": "DEAD"
+   "http": null,
+   "title": null,
+   "final": null,
+   "verdict": "OPEN_FAILED",
+   "err": "page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://travel.yahoo.co."
   },
   {
    "url": "https://travel.yahoo.co.jp/dir-00000998/",
@@ -281,10 +288,11 @@
     "summer-cospa-travel-2026"
    ],
    "curl": 404,
-   "http": 404,
-   "title": "［Yahoo!トラベル］ページが見つかりません",
-   "final": "https://travel.yahoo.co.jp/dir-00000998/",
-   "verdict": "DEAD"
+   "http": null,
+   "title": null,
+   "final": null,
+   "verdict": "OPEN_FAILED",
+   "err": "page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://travel.yahoo.co."
   },
   {
    "url": "https://travel.yahoo.co.jp/dir-00003354/",
@@ -292,10 +300,11 @@
     "summer-cospa-travel-2026"
    ],
    "curl": 404,
-   "http": 404,
-   "title": "［Yahoo!トラベル］ページが見つかりません",
-   "final": "https://travel.yahoo.co.jp/dir-00003354/",
-   "verdict": "DEAD"
+   "http": null,
+   "title": null,
+   "final": null,
+   "verdict": "OPEN_FAILED",
+   "err": "page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://travel.yahoo.co."
   },
   {
    "url": "https://travel.yahoo.co.jp/h/?keyword=%E6%9D%89%E4%B9%83%E4%BA%95",
@@ -303,10 +312,11 @@
     "summer-cospa-travel-2026"
    ],
    "curl": 404,
-   "http": 404,
-   "title": "［Yahoo!トラベル］ページが見つかりません",
-   "final": "https://travel.yahoo.co.jp/h/?keyword=%E6%9D%89%E4%B9%83%E4%BA%95",
-   "verdict": "DEAD"
+   "http": null,
+   "title": null,
+   "final": null,
+   "verdict": "OPEN_FAILED",
+   "err": "page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://travel.yahoo.co."
   },
   {
    "url": "https://www.amazon.co.jp/b?node=5961517051",
@@ -314,10 +324,11 @@
     "hoso-daigaku-gakuwari-2026"
    ],
    "curl": 404,
-   "http": 404,
-   "title": "ページが見つかりません",
-   "final": "https://www.amazon.co.jp/b?node=5961517051",
-   "verdict": "DEAD"
+   "http": null,
+   "title": null,
+   "final": null,
+   "verdict": "OPEN_FAILED",
+   "err": "page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://www.amazon.co.jp"
   },
   {
    "url": "https://www.ana.co.jp/ja/jp/amc/reference/anamile/pocket/",
@@ -325,10 +336,11 @@
     "walk-poikatsu-2026"
    ],
    "curl": 404,
-   "http": 404,
-   "title": "指定されたページが見つかりません│ANA",
-   "final": "https://www.ana.co.jp/ja/jp/amc/reference/anamile/pocket/",
-   "verdict": "DEAD"
+   "http": null,
+   "title": null,
+   "final": null,
+   "verdict": "OPEN_FAILED",
+   "err": "page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://www.ana.co.jp/ja"
   },
   {
    "url": "https://www.ana.co.jp/ja/jp/guide/ana-pocket/",
@@ -336,10 +348,11 @@
     "walk-poikatsu-2026"
    ],
    "curl": 404,
-   "http": 404,
-   "title": "指定されたページが見つかりません│ANA",
-   "final": "https://www.ana.co.jp/ja/jp/guide/ana-pocket/",
-   "verdict": "DEAD"
+   "http": null,
+   "title": null,
+   "final": null,
+   "verdict": "OPEN_FAILED",
+   "err": "page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://www.ana.co.jp/ja"
   },
   {
    "url": "https://www.axa-direct.co.jp/auto/",
@@ -347,10 +360,11 @@
     "car-insurance-comparison-2026"
    ],
    "curl": 0,
-   "http": 200,
-   "title": "自動車保険ならアクサ損害保険｜ネット申込で最大22,000円割引",
-   "final": "https://www.axa-direct.co.jp/auto/",
-   "verdict": "ALIVE"
+   "http": null,
+   "title": null,
+   "final": null,
+   "verdict": "OPEN_FAILED",
+   "err": "page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://www.axa-direct.c"
   },
   {
    "url": "https://www.bang.co.jp/auto/",
@@ -358,10 +372,11 @@
     "car-insurance-comparison-2026"
    ],
    "curl": 404,
-   "http": 404,
-   "title": "404 Not Found",
-   "final": "https://www.bang.co.jp/auto/",
-   "verdict": "DEAD"
+   "http": null,
+   "title": null,
+   "final": null,
+   "verdict": "OPEN_FAILED",
+   "err": "page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://www.bang.co.jp/a"
   },
   {
    "url": "https://www.bang.co.jp/insurance/",
@@ -369,10 +384,11 @@
     "car-insurance-comparison-2026"
    ],
    "curl": 404,
-   "http": 404,
-   "title": "404 Not Found",
-   "final": "https://www.bang.co.jp/insurance/",
-   "verdict": "DEAD"
+   "http": null,
+   "title": null,
+   "final": null,
+   "verdict": "OPEN_FAILED",
+   "err": "page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://www.bang.co.jp"
   },
   {
    "url": "https://www.click-sec.com/corp/fx/",
@@ -593,7 +609,7 @@
    ],
    "curl": 404,
    "http": 404,
-   "title": "404 Page Not Found | Lucid Software",
+   "title": "404 ページが見つかりません | Lucid Software",
    "final": "https://lucid.co/ja/lucidchart/education",
    "verdict": "DEAD"
   },
@@ -614,10 +630,11 @@
     "fx-account-comparison-2026"
    ],
    "curl": 404,
-   "http": 404,
-   "title": "お探しのページは見つかりませんでした | 松井証券",
-   "final": "https://www.matsui.co.jp/service/fx/",
-   "verdict": "DEAD"
+   "http": null,
+   "title": null,
+   "final": null,
+   "verdict": "OPEN_FAILED",
+   "err": "page.goto: net::ERR_ADDRESS_UNREACHABLE at https://www.matsui.co.jp/se"
   },
   {
    "url": "https://www.nmwa.go.jp/",
@@ -700,7 +717,7 @@
    "title": null,
    "final": null,
    "verdict": "OPEN_FAILED",
-   "err": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.satofull.jp/\nCall"
+   "err": "page.goto: Timeout 20000ms exceeded.\nCall log:\n  - navigating to \"http"
   },
   {
    "url": "https://www.smbc.co.jp/kojin/olive/imgs/index_img_18_pc.png",
@@ -741,11 +758,10 @@
     "hoso-daigaku-gakuwari-2026"
    ],
    "curl": 502,
-   "http": null,
-   "title": null,
-   "final": null,
-   "verdict": "OPEN_FAILED",
-   "err": "page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://www.spotify.com/"
+   "http": 200,
+   "title": "ページが見つかりません-Spotify",
+   "final": "https://www.spotify.com/jp/jp-ja/student/",
+   "verdict": "DEAD"
   },
   {
    "url": "https://www.sugi-net.jp/sugisapo/",
@@ -753,11 +769,10 @@
     "walk-poikatsu-2026"
    ],
    "curl": 404,
-   "http": null,
-   "title": null,
-   "final": null,
-   "verdict": "OPEN_FAILED",
-   "err": "page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://www.sugi-net.jp/"
+   "http": 404,
+   "title": "ページが見つかりません｜スギ薬局グループ お客様サイト",
+   "final": "https://www.sugi-net.jp/sugisapo",
+   "verdict": "DEAD"
   },
   {
    "url": "https://www.toys.or.jp/toyshow/",
@@ -765,11 +780,10 @@
     "wangan-august-events-2026"
    ],
    "curl": 404,
-   "http": null,
-   "title": null,
-   "final": null,
-   "verdict": "OPEN_FAILED",
-   "err": "page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://www.toys.or.jp/t"
+   "http": 404,
+   "title": "404 Not Found",
+   "final": "https://www.toys.or.jp/toyshow/",
+   "verdict": "DEAD"
   },
   {
    "url": "https://www.ueshima-coffee-ten.jp/menu/morning/",
@@ -777,11 +791,10 @@
     "morning-500-2026"
    ],
    "curl": 0,
-   "http": null,
-   "title": null,
-   "final": null,
-   "verdict": "OPEN_FAILED",
-   "err": "page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://www.ueshima-coff"
+   "http": 200,
+   "title": "モーニングセット | 上島珈琲店",
+   "final": "https://www.ueshima-coffee-ten.jp/menu/morning/",
+   "verdict": "ALIVE"
   },
   {
    "url": "https://www.wolframalpha.com/pro-for-students",
@@ -789,11 +802,10 @@
     "hoso-daigaku-gakuwari-2026"
    ],
    "curl": 404,
-   "http": null,
-   "title": null,
-   "final": null,
-   "verdict": "OPEN_FAILED",
-   "err": "page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://www.wolframalpha"
+   "http": 200,
+   "title": "Wolfram|Alpha Pro for Students：課題と研究のためのツール",
+   "final": "https://www.wolframalpha.com/pro-for-students",
+   "verdict": "ALIVE"
   },
   {
    "url": "https://www.wolframalpha.com/pro/pricing/students",
@@ -801,11 +813,10 @@
     "hoso-daigaku-gakuwari-2026"
    ],
    "curl": 404,
-   "http": null,
-   "title": null,
-   "final": null,
-   "verdict": "OPEN_FAILED",
-   "err": "page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://www.wolframalpha"
+   "http": 200,
+   "title": "料金プラン：Wolfram|Alpha Pro for Students",
+   "final": "https://www.wolframalpha.com/pro/pricing/students",
+   "verdict": "ALIVE"
   },
   {
    "url": "https://www.yoshinoya.com/menu/morningset/",
@@ -813,11 +824,10 @@
     "morning-500-2026"
    ],
    "curl": 0,
-   "http": null,
-   "title": null,
-   "final": null,
-   "verdict": "OPEN_FAILED",
-   "err": "page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://www.yoshinoya.co"
+   "http": 200,
+   "title": "朝食メニュー | 吉野家公式ホームページ",
+   "final": "https://www.yoshinoya.com/menu/morningset/",
+   "verdict": "ALIVE"
   },
   {
    "url": "https://www.yoshinoya.com/menu/morningset/nattou-tei/",
@@ -825,11 +835,10 @@
     "morning-500-2026"
    ],
    "curl": 0,
-   "http": null,
-   "title": null,
-   "final": null,
-   "verdict": "OPEN_FAILED",
-   "err": "page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://www.yoshinoya.co"
+   "http": 200,
+   "title": "納豆定食 | 吉野家公式ホームページ",
+   "final": "https://www.yoshinoya.com/menu/morningset/nattou-tei/",
+   "verdict": "ALIVE"
   },
   {
    "url": "https://www.yoshinoya.com/menu/morningset/shiosaba-gyu-tei/",
@@ -837,11 +846,10 @@
     "morning-500-2026"
    ],
    "curl": 0,
-   "http": null,
-   "title": null,
-   "final": null,
-   "verdict": "OPEN_FAILED",
-   "err": "page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://www.yoshinoya.co"
+   "http": 200,
+   "title": "塩さば牛小鉢定食 | 吉野家公式ホームページ",
+   "final": "https://www.yoshinoya.com/menu/morningset/shiosaba-gyu-tei/",
+   "verdict": "ALIVE"
   },
   {
    "url": "https://www.yoshinoya.com/menu/morningset/shiosaba-tokuasa-tei/",
@@ -849,11 +857,10 @@
     "morning-500-2026"
    ],
    "curl": 0,
-   "http": null,
-   "title": null,
-   "final": null,
-   "verdict": "OPEN_FAILED",
-   "err": "page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://www.yoshinoya.co"
+   "http": 200,
+   "title": "塩さば特朝定食 | 吉野家公式ホームページ",
+   "final": "https://www.yoshinoya.com/menu/morningset/shiosaba-tokuasa-tei/",
+   "verdict": "ALIVE"
   }
  ]
 }
