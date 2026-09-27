@@ -1,3 +1,3 @@
 [
-      {"task": "x170-install-thread-guard.sh", "rc": 0, "out": "番人を入れた / thread-guard-install.md"}
+      {"task": "t199-hanabi-photo.sh", "rc": 0, "out": " > 合成はクラウド側でやる（Pillow ＋ IPA ゴシックが在る）。 > **PR は作っていない。** ブランチに写真を置くところまで。  LLM 不使用。Commons は無料。**$0/回・$0/日・$0/月。**"}
   ]
