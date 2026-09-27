@@ -1,1 +1,5 @@
-[]
+[
+      {"task": "x182-what-are-gateway-node.sh", "rc": 0, "out": "gateway と node を読んだ / gateway-node.md"},
+      {"task": "x183-install-follow-balance-daily.sh", "rc": 0, "out": "ボタン待ちを直して plist を置いた / follow-balance-install.md"},
+      {"task": "x184-follow-balance-live-verify.sh", "rc": 0, "out": "直したボタン待ちを本番で確かめた / follow-balance-verify.md"}
+  ]
