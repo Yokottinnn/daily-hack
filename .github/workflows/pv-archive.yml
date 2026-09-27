@@ -1,0 +1,162 @@
+name: pv-archive
+
+# **毎日 前日ぶんの PV を積む。**
+#
+# Cloudflare 無料プランの保持は **31 日（4w3d）**。それより前を引くと
+# `code: "quota"` で返る（2026-09-27 に実測。8/1〜8/27 が全日これだった）。
+# **つまり「先月と比べる」は、その場で引いても永久にできない。**
+# 毎日 積んでおけば、保持期間に関係なく何か月でも比べられる。
+#
+# 結果は `ops/pv-archive` ブランチの `data/<YYYY-MM>.json` に入れる
+# （`main` は保護ブランチで直接 push できないため。ops/heartbeat と同じ作り）。
+#
+# **総 visits は読者数ではない。** ボットとクローラを含む。
+# だから国とブラウザの内訳も一緒に積んで、`jp` と `human` を別に持つ。
+#
+# LLM 不使用・Cloudflare API と Actions（public）は無料枠。**$0。**
+
+on:
+  schedule:
+    - cron: '37 20 * * *'   # 毎日 20:37 UTC = 翌 05:37 JST。前日ぶんが確定している
+  workflow_dispatch:
+    inputs:
+      date:
+        description: '積む日付（YYYY-MM-DD）。空なら前日'
+        required: false
+        default: ''
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pv-archive
+  cancel-in-progress: false
+
+jobs:
+  archive:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      HOST: daily-hack.fieldbeside.com
+      DOMAIN: fieldbeside.com
+      ARCHIVE_BRANCH: ops/pv-archive
+    steps:
+      - name: Resolve zone id
+        env:
+          CF_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        run: |
+          set -euo pipefail
+          ZONE_ID=$(curl -s "https://api.cloudflare.com/client/v4/zones?name=${DOMAIN}" \
+            -H "Authorization: Bearer ${CF_TOKEN}" | jq -r '.result[0].id')
+          [ -n "$ZONE_ID" ] && [ "$ZONE_ID" != "null" ] || { echo "::error::zone id を取れない"; exit 1; }
+          echo "zone_id=${ZONE_ID}" >> "$GITHUB_ENV"
+
+      - name: Query one day
+        env:
+          CF_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          IN_DATE: ${{ github.event.inputs.date }}
+        run: |
+          set -euo pipefail
+          DAY="${IN_DATE:-$(date -u -d '-1 day' +%F)}"
+          case "$DAY" in
+            [0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]) ;;
+            *) echo "::error::日付の形が違う: ${DAY}"; exit 1 ;;
+          esac
+          START="${DAY}T00:00:00Z"
+          END="$(date -u -d "${DAY} +1 day" +%F)T00:00:00Z"
+          echo "day=${DAY}" >> "$GITHUB_ENV"
+          echo "積む日: ${START} → ${END}"
+          # **ネストした heredoc は YAML のブロックを壊す**ので printf で組む
+          printf '%s\n' \
+            'query($zoneTag: String!, $start: Time!, $end: Time!, $host: String!) {' \
+            '  viewer { zones(filter: { zoneTag: $zoneTag }) {' \
+            '    httpRequestsAdaptiveGroups(' \
+            '      limit: 5000, orderBy: [sum_visits_DESC],' \
+            '      filter: { datetime_geq: $start, datetime_leq: $end,' \
+            '                clientRequestHTTPHost: $host, edgeResponseStatus: 200,' \
+            '                requestSource: "eyeball" }' \
+            '    ) { sum { visits } count dimensions { DIMENSION } }' \
+            '  } }' \
+            '}' > /tmp/tmpl.graphql
+          for dim in clientRequestPath clientCountryName userAgentBrowser; do
+            sed "s/DIMENSION/${dim}/" /tmp/tmpl.graphql > /tmp/q.graphql
+            jq -n --rawfile q /tmp/q.graphql --arg zone "$zone_id" --arg start "$START" \
+              --arg end "$END" --arg host "$HOST" \
+              '{query:$q, variables:{zoneTag:$zone, start:$start, end:$end, host:$host}}' > /tmp/body.json
+            curl -s https://api.cloudflare.com/client/v4/graphql \
+              -H "Authorization: Bearer ${CF_TOKEN}" -H "Content-Type: application/json" \
+              --data-binary @/tmp/body.json > /tmp/res.json
+            err=$(jq -r '(.errors // []) | map(.message) | join(" / ")' /tmp/res.json)
+            if [ -n "$err" ]; then
+              printf '::error::%s が引けない: %.200s\n' "$dim" "$err"
+              exit 1
+            fi
+            jq '.data.viewer.zones[0].httpRequestsAdaptiveGroups // []' /tmp/res.json > "/tmp/${dim}.json"
+            n=$(jq 'length' "/tmp/${dim}.json")
+            echo "  ${dim}: ${n} 行"
+            # **上限に張り付いたら数字は下限値。** 黙って少なく積まないよう警報を出す
+            [ "$n" -ge 5000 ] && echo "::warning::${dim} が上限 5000 に達した。limit を上げること"
+          done
+          # --- 1 日ぶんのレコードを組む ---
+          jq -n \
+            --arg day "$DAY" \
+            --slurpfile paths /tmp/clientRequestPath.json \
+            --slurpfile countries /tmp/clientCountryName.json \
+            --slurpfile browsers /tmp/userAgentBrowser.json \
+            '
+            ($paths[0]) as $p | ($countries[0]) as $c | ($browsers[0]) as $b |
+            {
+              ($day): {
+                visits:   ([$p[].sum.visits] | add // 0),
+                requests: ([$p[].count]      | add // 0),
+                paths:    ($p | length),
+                jp:       ([$c[] | select(.dimensions.clientCountryName == "JP") | .sum.visits] | add // 0),
+                human:    ([$b[] | select((.dimensions.userAgentBrowser
+                             | test("bot|crawl|spider|slurp|Unknown|HeadlessChrome"; "i")) | not)
+                           | .sum.visits] | add // 0),
+                top: [ $p | sort_by(-.sum.visits) | .[:60][]
+                       | { path: .dimensions.clientRequestPath, v: .sum.visits, r: .count } ],
+                countries: [ $c | sort_by(-.sum.visits) | .[:20][]
+                       | { k: .dimensions.clientCountryName, v: .sum.visits } ],
+                browsers: [ $b | sort_by(-.sum.visits) | .[:20][]
+                       | { k: .dimensions.userAgentBrowser, v: .sum.visits } ]
+              }
+            }' > /tmp/record.json
+          # **JSON を出したら自分で parse して確かめる**（最上位ルール 13）
+          node -e 'const d=require("/tmp/record.json");const k=Object.keys(d)[0];
+            const x=d[k];if(typeof x.visits!=="number")throw new Error("visits が数値でない");
+            console.log(`積む: ${k} visits=${x.visits} requests=${x.requests} jp=${x.jp} human=${x.human} paths=${x.paths}`);'
+
+      - name: Append to archive branch
+        run: |
+          set -euo pipefail
+          MONTH="${day%-*}"                      # YYYY-MM-DD → YYYY-MM
+          git config --global user.name  "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          cd /tmp && rm -rf arch
+          if git clone --depth 1 --branch "$ARCHIVE_BRANCH" \
+               "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" arch 2>/dev/null; then
+            echo "既存のアーカイブブランチを取得した"
+          else
+            echo "アーカイブブランチが無いので作る"
+            git clone --depth 1 "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" arch
+            cd arch && git checkout --orphan "$ARCHIVE_BRANCH" && git rm -rqf . && cd /tmp
+          fi
+          cd arch && mkdir -p data
+          F="data/${MONTH}.json"
+          [ -f "$F" ] || echo '{}' > "$F"
+          # **同じ日を 2 度 積んでも壊れない**（あとから来たほうで上書き）
+          jq -s '.[0] * .[1]' "$F" /tmp/record.json > "${F}.next"
+          node -e "JSON.parse(require('fs').readFileSync('${F}.next','utf8'))" \
+            || { echo '::error::できた JSON が壊れている'; exit 1; }
+          mv "${F}.next" "$F"
+          echo "この月の日数: $(jq 'keys | length' "$F")"
+          git add "$F"
+          if git diff --cached --quiet; then
+            echo "変化なし。push しない"
+          else
+            git commit -q -m "pv-archive: ${day}"
+            for i in 1 2 3 4; do
+              git push origin "HEAD:${ARCHIVE_BRANCH}" && break || sleep $((2 ** i))
+            done
+          fi

@@ -1,0 +1,133 @@
+name: monthly-pv-report
+
+# **毎月 1 日に、前月ぶんの月次レポートを出す。**
+#
+# 2026-09-27 に利用者から「月次レポートを出して欲しい／週次と月次の二段構えに
+# なっているはず」と言われて分かったが、**月次の仕組みは無かった。**
+# 在るのは週次だけ（docs/analytics/README.md の運用ルールも「週1」だけ）。
+#
+# **数字はその場で引かない。** Cloudflare 無料プランの保持は 31 日なので、
+# 1 日に前月ぶんを引くと月初のほうが `quota` で落ちる。
+# **`pv-archive` が毎日 積んだ `ops/pv-archive` ブランチの JSON を読む。**
+#
+# 出力は `ops/pv-archive` ブランチの `reports/<YYYY-MM>.md`
+# （`main` は保護ブランチで直接 push できない）と、Actions の Step Summary。
+# **検索（GSC）は Mac 側の担当。** gcloud の SA が Mac にしか無い。
+#
+# LLM 不使用・Actions（public）は無料枠。**$0。**
+
+on:
+  schedule:
+    - cron: '11 21 1 * *'   # 毎月 1 日 21:11 UTC = 2 日 06:11 JST。前日ぶんが積み終わっている
+  workflow_dispatch:
+    inputs:
+      month:
+        description: '対象月（YYYY-MM）。空なら前月'
+        required: false
+        default: ''
+
+permissions:
+  contents: write
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      ARCHIVE_BRANCH: ops/pv-archive
+    steps:
+      - name: Build report from the archive
+        env:
+          IN_MONTH: ${{ github.event.inputs.month }}
+        run: |
+          set -euo pipefail
+          MONTH="${IN_MONTH:-$(date -u -d "$(date -u +%Y-%m-01) -1 day" +%Y-%m)}"
+          case "$MONTH" in
+            [0-9][0-9][0-9][0-9]-[0-9][0-9]) ;;
+            *) echo "::error::月の形が違う: ${MONTH}"; exit 1 ;;
+          esac
+          PREV=$(date -u -d "${MONTH}-01 -1 day" +%Y-%m)
+          echo "month=${MONTH}" >> "$GITHUB_ENV"
+          echo "対象: ${MONTH}（前月 ${PREV} と比べる）"
+          git config --global user.name  "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          cd /tmp && rm -rf arch
+          git clone --depth 1 --branch "$ARCHIVE_BRANCH" \
+            "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" arch \
+            || { echo "::error::アーカイブのブランチが無い。pv-archive が 1 度も走っていない"; exit 1; }
+          cd arch
+          [ -f "data/${MONTH}.json" ] || { echo "::error::data/${MONTH}.json が無い"; exit 1; }
+          [ -f "data/${PREV}.json" ]  || echo "::warning::前月 data/${PREV}.json が無い。比較は出さない"
+          mkdir -p reports
+          node - "$MONTH" "$PREV" > "reports/${MONTH}.md" <<'JS'
+          const fs = require('fs');
+          const [month, prev] = process.argv.slice(2);
+          const read = m => { try { return JSON.parse(fs.readFileSync(`data/${m}.json`, 'utf8')); }
+                              catch { return null; } };
+          const sum = (d, k) => Object.values(d).reduce((a, x) => a + (x[k] || 0), 0);
+          const cur = read(month), old = read(prev);
+          if (!cur) { console.error('当月のデータが無い'); process.exit(1); }
+          const days = Object.keys(cur).sort();
+          const n = days.length;
+          const out = [];
+          const pct = (a, b) => (b ? `${a >= b ? '+' : ''}${(((a / b) - 1) * 100).toFixed(0)}%` : '—');
+          out.push(`# ${month} の月次レポート（PV）`, '');
+          out.push(`- 生成: **${new Date().toISOString()}**`);
+          out.push(`- 元データ: \`ops/pv-archive\` の \`data/${month}.json\`（**${n} 日ぶん**）`);
+          out.push(`- 検索（GSC）はここには入らない。**Mac 側の週次レポートを見る**`, '');
+          if (n < 25) out.push(`> ⚠️ **${n} 日ぶんしか積まれていない。** 欠けた日がある。`, '');
+          out.push('## サマリー', '');
+          out.push('> **総 visits は読者数ではない。** ボットとクローラを含む。');
+          out.push('> **読者に近いのは「実ブラウザ」の行。**', '');
+          out.push('| 指標 | ' + month + ' | ' + prev + ' | 前月比 |');
+          out.push('| --- | --- | --- | --- |');
+          for (const [label, key] of [['総 visits（ボット込み）', 'visits'],
+                                      ['総 requests', 'requests'],
+                                      ['**実ブラウザ visits**', 'human'],
+                                      ['**日本からの visits**', 'jp']]) {
+            const a = sum(cur, key), b = old ? sum(old, key) : null;
+            out.push(`| ${label} | **${a.toLocaleString()}** | ${b === null ? '—' : b.toLocaleString()} | ${b === null ? '—' : pct(a, b)} |`);
+          }
+          const h = sum(cur, 'human');
+          out.push(`| 実ブラウザの割合 | ${(h / (sum(cur, 'visits') || 1) * 100).toFixed(1)}% | | |`);
+          out.push(`| 1 日平均（実ブラウザ） | ${Math.round(h / (n || 1))} | | |`, '');
+          // --- 記事ごとに合算 ---
+          const agg = new Map();
+          for (const d of days) for (const t of (cur[d].top || [])) {
+            if (!t.path.startsWith('/posts/')) continue;
+            const e = agg.get(t.path) || { v: 0, r: 0 };
+            e.v += t.v; e.r += t.r; agg.set(t.path, e);
+          }
+          const top = [...agg.entries()].sort((a, b) => b[1].v - a[1].v).slice(0, 25);
+          out.push('## 人気記事 TOP25（visits 順・ボット込み）', '');
+          out.push('> 記事どうしの**相対**を見る用。実数として読まない。', '');
+          out.push('| 順 | visits | requests | 記事 |', '| --- | --- | --- | --- |');
+          top.forEach(([p, e], i) => out.push(`| ${i + 1} | ${e.v} | ${e.r} | \`${p}\` |`));
+          out.push('');
+          // --- 国 / ブラウザ ---
+          for (const [title, key, kk] of [['国', 'countries', 'k'], ['ブラウザ', 'browsers', 'k']]) {
+            const m = new Map();
+            for (const d of days) for (const x of (cur[d][key] || []))
+              m.set(x[kk], (m.get(x[kk]) || 0) + x.v);
+            out.push(`## ${title}（visits 上位12）`, '', `| visits | ${title} |`, '| --- | --- |');
+            [...m.entries()].sort((a, b) => b[1] - a[1]).slice(0, 12)
+              .forEach(([k, v]) => out.push(`| ${v.toLocaleString()} | ${k} |`));
+            out.push('');
+          }
+          // --- 日別 ---
+          out.push('## 日別', '', '| 日 | visits | 実ブラウザ | 日本 |', '| --- | --- | --- | --- |');
+          for (const d of days) out.push(`| ${d} | ${cur[d].visits} | ${cur[d].human ?? '—'} | ${cur[d].jp ?? '—'} |`);
+          out.push('', '---', '', 'LLM 不使用。Cloudflare API と Actions は無料枠。**$0/回・$0/月。**');
+          console.log(out.join('\n'));
+          JS
+          wc -c "reports/${MONTH}.md"
+          cat "reports/${MONTH}.md" >> "$GITHUB_STEP_SUMMARY"
+          git add "reports/${MONTH}.md"
+          if git diff --cached --quiet; then
+            echo "変化なし"
+          else
+            git commit -q -m "monthly-pv-report: ${MONTH}"
+            for i in 1 2 3 4; do
+              git push origin "HEAD:${ARCHIVE_BRANCH}" && break || sleep $((2 ** i))
+            done
+          fi
