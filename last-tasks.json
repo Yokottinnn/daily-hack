@@ -1,1 +1,3 @@
-[]
+[
+      {"task": "t191-external-links.sh", "rc": 0, "out": " > **`rc=0` は見た証拠ではない**（最上位ルール 13）。上の件数は JSON を parse して数えている。  **全部 見終わっていなければ、番号を変えた同じタスクを `--resume=/Users/ny/.openclaw/ops-heartbeat-wt/reports/external-links.json` で出し直す�"}
+  ]
