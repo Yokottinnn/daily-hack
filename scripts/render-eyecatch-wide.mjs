@@ -8,20 +8,21 @@
  * Playwright は sns-templates の node_modules を借用（createRequire）。
  * Usage: node scripts/render-eyecatch-wide.mjs <data.json> <out.jpg>
  */
-import { createRequire } from 'module';
 import fs from 'node:fs';
 import path from 'node:path';
+import { execSync } from 'node:child_process';
+import { createRequire } from 'node:module';
+// **`sharp` は在ったり無かったりする。** 読めるかどうかだけに使う require
+const localRequire = createRequire(import.meta.url);
+import { SNS, REPO, MASCOTS, loadChromium, launch, fontCss } from './lib/render-env.mjs';
 
-const SNS = '/Users/ny_taxa/projects/anta-baka-x/sns-templates';
-const require = createRequire(SNS + '/');
-const { chromium } = require('playwright');
-
-const FONTS = SNS + '/fonts';
-// 透過版キャラを優先（背景の白四角を出さない）。無ければ通常assets。
-const ASSETS_T = SNS + '/assets-transparent';
-const ASSETS = SNS + '/assets';
+// **パスの決め打ちをやめた**（2026-09-26）。`sns-templates` は Mac から消えている。
+// 解決は `scripts/lib/render-env.mjs` に寄せてある
+const chromium = loadChromium();
+// 透過版キャラを優先（背景の白四角を出さない）。無ければ通常 assets。
+const ASSETS = SNS ? SNS + '/assets' : MASCOTS;
 function charSrc(file) {
-  return fs.existsSync(path.join(ASSETS_T, file)) ? `${ASSETS_T}/${file}` : `${ASSETS}/${file}`;
+  return fs.existsSync(path.join(MASCOTS, file)) ? `${MASCOTS}/${file}` : `${ASSETS}/${file}`;
 }
 
 function esc(s) {
@@ -41,11 +42,7 @@ function panelHtml(p, side) {
 
 function buildVsHtml(d) {
   return `<!doctype html><html><head><meta charset="utf-8"><style>
-  @font-face { font-family:"RocknRoll One"; src:url("file://${FONTS}/rocknroll-one-japanese-400.woff2") format("woff2"); }
-  @font-face { font-family:"Zen Maru Gothic"; font-weight:400; src:url("file://${FONTS}/zen-maru-gothic-japanese-400.woff2") format("woff2"); }
-  @font-face { font-family:"Zen Maru Gothic"; font-weight:700; src:url("file://${FONTS}/zen-maru-gothic-japanese-700.woff2") format("woff2"); }
-  @font-face { font-family:"Zen Maru Gothic"; font-weight:900; src:url("file://${FONTS}/zen-maru-gothic-japanese-900.woff2") format("woff2"); }
-  @font-face { font-family:"Bebas Neue"; src:url("file://${FONTS}/bebas-neue-latin-400.woff2") format("woff2"); }
+${fontCss()}
   :root{ --ink:#2A1923; --ink-soft:#5A4651; --magenta-strong:#D63E76; --magenta-deep:#A82959; --magenta-light:#FDE4EE; --neon:#FFEC00; }
   *{margin:0;padding:0;box-sizing:border-box;}
   html,body{width:1600px;height:900px;}
@@ -107,11 +104,7 @@ function buildVsHtml(d) {
 
 // 共通フォント＆ブランド部品（構図テンプレ間で再利用）
 const FF = `
-  @font-face { font-family:"RocknRoll One"; src:url("file://${FONTS}/rocknroll-one-japanese-400.woff2") format("woff2"); }
-  @font-face { font-family:"Zen Maru Gothic"; font-weight:400; src:url("file://${FONTS}/zen-maru-gothic-japanese-400.woff2") format("woff2"); }
-  @font-face { font-family:"Zen Maru Gothic"; font-weight:700; src:url("file://${FONTS}/zen-maru-gothic-japanese-700.woff2") format("woff2"); }
-  @font-face { font-family:"Zen Maru Gothic"; font-weight:900; src:url("file://${FONTS}/zen-maru-gothic-japanese-900.woff2") format("woff2"); }
-  @font-face { font-family:"Bebas Neue"; src:url("file://${FONTS}/bebas-neue-latin-400.woff2") format("woff2"); }
+${fontCss()}
   :root{ --magenta:#EC5C90; --magenta-strong:#D63E76; --magenta-deep:#A82959; --magenta-light:#FDE4EE; --magenta-faint:#FFF5F8; --cream-light:#FFFBEE; --ink:#2A1923; --ink-soft:#5A4651; --neon:#FFEC00; }
   *{margin:0;padding:0;box-sizing:border-box;}
   html,body{width:1600px;height:900px;}
@@ -242,11 +235,7 @@ function buildHtml(d) {
   }).join('');
 
   return `<!doctype html><html><head><meta charset="utf-8"><style>
-  @font-face { font-family:"RocknRoll One"; src:url("file://${FONTS}/rocknroll-one-japanese-400.woff2") format("woff2"); }
-  @font-face { font-family:"Zen Maru Gothic"; font-weight:400; src:url("file://${FONTS}/zen-maru-gothic-japanese-400.woff2") format("woff2"); }
-  @font-face { font-family:"Zen Maru Gothic"; font-weight:700; src:url("file://${FONTS}/zen-maru-gothic-japanese-700.woff2") format("woff2"); }
-  @font-face { font-family:"Zen Maru Gothic"; font-weight:900; src:url("file://${FONTS}/zen-maru-gothic-japanese-900.woff2") format("woff2"); }
-  @font-face { font-family:"Bebas Neue"; src:url("file://${FONTS}/bebas-neue-latin-400.woff2") format("woff2"); }
+${fontCss()}
   :root{
     --magenta:#EC5C90; --magenta-strong:#D63E76; --magenta-deep:#A82959;
     --magenta-light:#FDE4EE; --magenta-faint:#FFF5F8; --cream-light:#FFFBEE;
@@ -368,7 +357,7 @@ async function main() {
   fs.mkdirSync(path.dirname(outAbs), { recursive: true });
   fs.writeFileSync(tmpHtml, html);
 
-  const browser = await chromium.launch();
+  const browser = await launch(chromium);
   const ctx = await browser.newContext({ viewport: { width: 1600, height: 900 }, deviceScaleFactor: 2 });
   const page = await ctx.newPage();
   await page.goto('file://' + tmpHtml, { waitUntil: 'networkidle' });
@@ -378,13 +367,12 @@ async function main() {
   await browser.close();
 
   // 2x PNG → 1600x900 JPG に縮小（web最適）
-  const sharp = (() => { try { return require('sharp'); } catch { return null; } })();
+  const sharp = (() => { try { return localRequire('sharp'); } catch { return null; } })();
   if (sharp) {
     await sharp(pngPath).resize(1600, 900).jpeg({ quality: 90 }).toFile(outAbs);
     fs.unlinkSync(pngPath);
   } else {
     // sharp無し: PIL で 1600x900 JPG に縮小
-    const { execSync } = require('child_process');
     execSync(`python3 -c "from PIL import Image; Image.open('${pngPath}').convert('RGB').resize((1600,900), Image.LANCZOS).save('${outAbs}', quality=90)"`);
     fs.unlinkSync(pngPath);
   }

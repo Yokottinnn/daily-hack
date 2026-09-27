@@ -6,15 +6,14 @@
  * データは JAL/ANA 公式確認済み（2026年7月時点）。
  * Usage: node scripts/render-venn-narita-haneda.mjs <out.png>
  */
-import { createRequire } from 'module';
 import fs from 'node:fs';
+import { SNS, REPO, MASCOTS, loadChromium, launch, fontCss } from './lib/render-env.mjs';
 import os from 'node:os';
 import path from 'node:path';
 
-const SNS = '/Users/ny_taxa/projects/anta-baka-x/sns-templates';
-const require = createRequire(SNS + '/');
-const { chromium } = require('playwright');
-const MASCOT = '/Users/ny_taxa/projects/anta-baka-x/blog/public/images/expr-05-smug.png';
+// **パスの決め打ちをやめた**（2026-09-26）。解決は `scripts/lib/render-env.mjs`
+const chromium = loadChromium();
+const MASCOT = `${MASCOTS}/expr-05-smug.png`;
 const mascotB64 = 'data:image/png;base64,' + fs.readFileSync(MASCOT).toString('base64');
 
 const out = process.argv[2] || 'public/images/narita-haneda-overseas-direct-2026/venn.png';
@@ -108,7 +107,7 @@ const html = `<!doctype html><html><head><meta charset="utf-8"><style>
 
 const tmp = path.join(os.tmpdir(), 'gates-nh.html');
 fs.writeFileSync(tmp, html);
-const browser = await chromium.launch();
+const browser = await launch(chromium);
 const ctx = await browser.newContext({ viewport: { width: 1240, height: 890 }, deviceScaleFactor: 2 });
 const page = await ctx.newPage();
 await page.goto('file://' + tmp, { waitUntil: 'networkidle' });

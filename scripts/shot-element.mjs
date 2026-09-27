@@ -1,13 +1,13 @@
 // 任意要素をスクショして視覚検証
 // Usage: node scripts/shot-element.mjs <pageURL> <selector> <outPng> [nthIndex=0]
-import { createRequire } from 'module';
-const require = createRequire('/Users/ny_taxa/projects/anta-baka-x/sns-templates/');
-const { chromium } = require('playwright');
+import { loadChromium, launch } from './lib/render-env.mjs';
+// **パスの決め打ちをやめた**（2026-09-26）。解決は `scripts/lib/render-env.mjs`
+const chromium = loadChromium();
 
 const [url, selector, out, idxStr] = process.argv.slice(2);
 const idx = parseInt(idxStr || '0', 10);
 
-const browser = await chromium.launch();
+const browser = await launch(chromium);
 const page = await browser.newPage({ deviceScaleFactor: 2, viewport: { width: 900, height: 1600 } });
 await page.goto(url, { waitUntil: 'networkidle', timeout: 60000 });
 const els = await page.$$(selector);
