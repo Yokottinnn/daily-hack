@@ -1,3 +1,3 @@
 [
-      {"task": "t192-verify-links.sh", "rc": 0, "out": " 経過 **460 秒**。  **DEAD と書かれたものだけが「切れている」。** ALIVE は curl の誤判定なので記事は直さない。 **OPEN_FAILED は生死が分からない**（そう書く。切れていることにしない）。"}
+      {"task": "x161-read-prune-decision.sh", "rc": 0, "out": "**読めていない。レポートを確認すること** / prune-decision.md"}
   ]
