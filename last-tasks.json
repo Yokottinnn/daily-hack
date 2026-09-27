@@ -1,3 +1,3 @@
 [
-      {"task": "x171-fix-guard-and-stdout.sh", "rc": 0, "out": "番人の上限と stdout の捨て漏れを直した / thread-guard-fix.md"}
+      {"task": "x172-resume-comment-warmup.sh", "rc": 0, "out": "comment-warmup を戻した / resume-comment-warmup.md"}
   ]
