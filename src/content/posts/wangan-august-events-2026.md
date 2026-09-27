@@ -314,7 +314,7 @@ author: "hacker-ko"
       <tr><td>8/28〜29</td><td>第27回 勝どきDE盆踊り</td><td>月島第二児童公園</td><td>無料</td></tr>
       <tr><td>8/29</td><td>豊洲アクアスロンフェスティバル2026</td><td>豊洲ぐるり公園</td><td>要申込</td></tr>
       <tr class="recommended"><td>8/29〜30</td><td>★ <a href="https://toyosugururi.jp/event/smallmarket/entry-1056.html" target="_blank" rel="noopener">Toyosu Park Jazz Night 2026</a></td><td>豊洲公園</td><td>無料</td></tr>
-      <tr><td>8/29〜30</td><td><a href="https://www.toys.or.jp/toyshow/" target="_blank" rel="noopener">東京おもちゃショー（一般公開）</a></td><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/wangan-august-events-2026/logos/bigsight.png" alt="東京ビッグサイトのロゴ" loading="lazy" />東京ビッグサイト</span></td><td>要確認</td></tr>
+      <tr><td>8/29〜30</td><td><a href="https://tokyotoyshow.com/2026/public-day/" target="_blank" rel="noopener">東京おもちゃショー（一般公開）</a></td><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/wangan-august-events-2026/logos/bigsight.png" alt="東京ビッグサイトのロゴ" loading="lazy" />東京ビッグサイト</span></td><td>要確認</td></tr>
       <tr><td>8/30</td><td>夏のおわりのおはなし会</td><td>豊洲図書館</td><td>無料</td></tr>
       <tr><td>8/31</td><td><a href="https://www.toyota-arena-tokyo.jp/pages/gc1u0oubtwl/" target="_blank" rel="noopener">あおみ夏祭り2026</a></td><td>シンボルプロムナード公園</td><td>無料</td></tr>
       <tr class="recommended"><td>〜9/6</td><td>★ <a href="https://toyosugururi.jp/" target="_blank" rel="noopener">じゃぶじゃぶ池</a></td><td>豊洲公園</td><td>無料</td></tr>

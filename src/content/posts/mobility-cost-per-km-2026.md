@@ -11,7 +11,7 @@ eyecatchUrl: "/images/mobility-cost-per-km-2026/eyecatch.jpg"
 eyecatchAlt: "湾岸エリアの移動手段を1kmあたり総コストで比較 — LUUP・シェアサイクル・タクシー・電車を待ち時間込みで試算"
 author: "hacker-ko"
 source_candidate_id: "C051"
-references: ["https://x.com/sugoi_service", "https://luup.sc/", "https://docomo-cycle.jp/tokyo-bikeshare/", "https://www.hellocycling.jp/", "https://go.goinc.jp/"]
+references: ["https://x.com/sugoi_service", "https://luup.sc/", "https://docomo-cycle.jp/tokyo/?lang=ja", "https://www.hellocycling.jp/", "https://go.goinc.jp/"]
 ---
 
 「豊洲から銀座まで、結局どれで行くのが一番トクなの？」── 湾岸に住んでると毎日この問いに直面する。電車？ タクシー？ それとも最近やたら増えたLUUPのポート？

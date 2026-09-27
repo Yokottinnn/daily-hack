@@ -117,7 +117,7 @@ author: "hacker-ko"
       <dt>4人家族モデル</dt><dd>月約11,000円、年間で大手比 −6,000〜−12,000円目安</dd>
       <dt>連携メリット</dt><dd>ENEOSカードでガソリン値引き＋電気代特典の二重取り</dd>
     </dl>
-    <a class="compare-cta" href="https://www.eneos.co.jp/denki/" target="_blank" rel="sponsored noopener nofollow">ENEOSでんき 公式 →</a>
+    <a class="compare-cta" href="https://www.eneos-power.co.jp/denki/" target="_blank" rel="sponsored noopener nofollow">ENEOSでんき 公式 →</a>
   </article>
 
   <article class="compare-card recommended">
@@ -149,7 +149,7 @@ author: "hacker-ko"
       <dt>4人家族モデル</dt><dd>月約9,500〜13,000円（市場価格次第で大きく変動）</dd>
       <dt>連携メリット</dt><dd>太陽光発電＋蓄電池との相性が良い、Looopでんちとの連携プラン</dd>
     </dl>
-    <a class="compare-cta" href="https://looop.co.jp/denki/" target="_blank" rel="sponsored noopener nofollow">Looopでんき 公式 →</a>
+    <a class="compare-cta" href="https://looop-denki.com/home/" target="_blank" rel="sponsored noopener nofollow">Looopでんき 公式 →</a>
   </article>
 
   <article class="compare-card">
@@ -185,7 +185,7 @@ author: "hacker-ko"
   </article>
 </div>
 
-<p class="source-note">料金例は2026年5月時点の各社公式料金表（東京電力エリア・契約30A・月使用量350kWh）に基づくアタシの試算目安。実際の料金は地域・契約アンペア・季節・燃料費調整額・再エネ賦課金により変動します。各社の正式な料金は<a href="https://energy.rakuten.co.jp/" target="_blank" rel="noopener nofollow">楽天でんき</a>・<a href="https://www.eneos.co.jp/denki/" target="_blank" rel="noopener nofollow">ENEOSでんき</a>・<a href="https://octopusenergy.co.jp/" target="_blank" rel="noopener nofollow">オクトパスエナジー</a>・<a href="https://looop.co.jp/denki/" target="_blank" rel="noopener nofollow">Looopでんき</a>・<a href="https://www.au.com/energy/" target="_blank" rel="noopener nofollow">auでんき</a>・<a href="https://www.softbank.jp/energy/electricity/" target="_blank" rel="noopener nofollow">ソフトバンクでんき</a>の公式サイトで必ずシミュレーションしてください。</p>
+<p class="source-note">料金例は2026年5月時点の各社公式料金表（東京電力エリア・契約30A・月使用量350kWh）に基づくアタシの試算目安。実際の料金は地域・契約アンペア・季節・燃料費調整額・再エネ賦課金により変動します。各社の正式な料金は<a href="https://energy.rakuten.co.jp/" target="_blank" rel="noopener nofollow">楽天でんき</a>・<a href="https://www.eneos-power.co.jp/denki/" target="_blank" rel="noopener nofollow">ENEOSでんき</a>・<a href="https://octopusenergy.co.jp/" target="_blank" rel="noopener nofollow">オクトパスエナジー</a>・<a href="https://looop-denki.com/home/" target="_blank" rel="noopener nofollow">Looopでんき</a>・<a href="https://www.au.com/energy/" target="_blank" rel="noopener nofollow">auでんき</a>・<a href="https://www.softbank.jp/energy/electricity/" target="_blank" rel="noopener nofollow">ソフトバンクでんき</a>の公式サイトで必ずシミュレーションしてください。</p>
 
 ### 年間削減額を視覚化｜大手電力との差
 
@@ -320,11 +320,11 @@ author: "hacker-ko"
       <dt>4人家族モデル</dt><dd>月約6,200円、電気セットで年1,200円割引</dd>
       <dt>連携メリット</dt><dd>ENEOSでんき・ENEOSカード・ENEOSサービスステーション</dd>
     </dl>
-    <a class="compare-cta" href="https://www.eneos.co.jp/citygas/" target="_blank" rel="sponsored noopener nofollow">ENEOS都市ガス 公式 →</a>
+    <a class="compare-cta" href="https://www.eneos-power.co.jp/gas/" target="_blank" rel="sponsored noopener nofollow">ENEOS都市ガス 公式 →</a>
   </article>
 </div>
 
-<p class="source-note">ガス料金は2026年5月時点の各社公式料金表（東京ガス供給エリア・月使用量30㎥モデル）に基づく目安。実際の料金は供給エリア・季節・原料費調整額により変動します。プロパンガス（LPガス）地域はガス自由化対象外で、料金体系も異なります。最新の正式料金は<a href="https://home.tokyo-gas.co.jp/" target="_blank" rel="noopener nofollow">東京ガス</a>・<a href="https://lemongas.co.jp/" target="_blank" rel="noopener nofollow">レモンガス</a>・<a href="https://www.eneos.co.jp/citygas/" target="_blank" rel="noopener nofollow">ENEOS都市ガス</a>の公式サイトでご確認ください。</p>
+<p class="source-note">ガス料金は2026年5月時点の各社公式料金表（東京ガス供給エリア・月使用量30㎥モデル）に基づく目安。実際の料金は供給エリア・季節・原料費調整額により変動します。プロパンガス（LPガス）地域はガス自由化対象外で、料金体系も異なります。最新の正式料金は<a href="https://home.tokyo-gas.co.jp/" target="_blank" rel="noopener nofollow">東京ガス</a>・<a href="https://lemongas.co.jp/" target="_blank" rel="noopener nofollow">レモンガス</a>・<a href="https://www.eneos-power.co.jp/gas/" target="_blank" rel="noopener nofollow">ENEOS都市ガス</a>の公式サイトでご確認ください。</p>
 
 <a class="post-banner" href="/posts/fixed-cost-reduction-guide-2026/">
   <div class="post-banner-image">
@@ -492,7 +492,7 @@ author: "hacker-ko"
   <li>
     <div class="checklist-body">
       <strong>あんたの経済圏に合った2〜3社でシミュレーション</strong>
-      <p>楽天派なら<a href="https://energy.rakuten.co.jp/" target="_blank" rel="sponsored noopener nofollow">楽天でんき</a>、安定志向なら<a href="https://www.eneos.co.jp/denki/" target="_blank" rel="noopener nofollow">ENEOSでんき</a>、再エネ重視なら<a href="https://octopusenergy.co.jp/" target="_blank" rel="noopener nofollow">オクトパスエナジー</a>。各社公式で住所＋使用量入力で3分。</p>
+      <p>楽天派なら<a href="https://energy.rakuten.co.jp/" target="_blank" rel="sponsored noopener nofollow">楽天でんき</a>、安定志向なら<a href="https://www.eneos-power.co.jp/denki/" target="_blank" rel="noopener nofollow">ENEOSでんき</a>、再エネ重視なら<a href="https://octopusenergy.co.jp/" target="_blank" rel="noopener nofollow">オクトパスエナジー</a>。各社公式で住所＋使用量入力で3分。</p>
     </div>
   </li>
   <li>
