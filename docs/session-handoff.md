@@ -68,6 +68,12 @@
 
 <!-- 新しい記録がこの下に追加される（新しいものが上） -->
 
+### 2026-09-27 — ops-watchdog に pv ジョブを足し PV の集計停止を検知できるようにした(#777・実行して success を確認)。ただし SLACK_WEBHOOK_URL が未登録で警報が 1 件も Slack に届いていないことが判明(#779)
+
+次のアクション:
+
+- [ ] SLACK_WEBHOOK_URL の登録は利用者しかできない。X 運用側の auth 失効・59 本未ロードは tweet2 の担当として依頼表に記録済み
+
 ### 2026-09-27 — comment-warmup を常駐に戻した（x172）。plist を .plist に戻して bootstrap、launchctl print で確認。守りは post-comment.js に生きている（x150 ①2 ②2 ③1 / x154 8 箇所。x166 が 0 と出したのは engage-via-playwright.js を見ていた測定ミス）。19:00 を待たず kickstart（x173）し、17:19 start → 17:22 picked 3 → 3 件すべて posted（2104124554331468031 / 2104124631607378382 / 2104124707306148018）。pending 0 で確定（x175）。PAY ID スレッドも x169 で [2/3][3/3] を補完して揃えた。投稿の失敗に気づく番人 thread-guard を入れた（x170）が 14 件 鳴ったので上限と DRY の状態書き込みを直した（x171）。run-publish.sh が捨てていた e.stdout も残すようにした
 
 次のアクション:
