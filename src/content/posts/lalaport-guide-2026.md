@@ -439,50 +439,60 @@ North Gate 3階のフードコートは約1,400席。ららぽーとTOKYO-BAY全
   <table class="cmp-table">
     <thead><tr><th>順</th><th>施設</th><th>店舗面積</th><th>店舗数</th><th>所在</th><th>開業</th></tr></thead>
     <tbody>
-      <td><a href="https://mitsui-shopping-park.com/lalaport/tokyo-bay/" target="_blank" rel="noopener">TOKYO-BAY</a></td><tr class="recommended"><td>1</td><td>TOKYO-BAY</td><td>約133,000㎡</td><td>約390〜420</td><td>関東・船橋</td><td>1981/4</td></tr>
-      <td><a href="https://mitsui-shopping-park.com/lalaport/yokohama/" target="_blank" rel="noopener">横浜</a></td><tr class="recommended"><td>2</td><td>横浜</td><td>約93,000㎡</td><td>約270</td><td>関東・横浜</td><td>2007/3</td></tr>
-      <td><a href="https://mitsui-shopping-park.com/lalaport/expocity/" target="_blank" rel="noopener">EXPOCITY</a></td><tr class="recommended"><td>3</td><td>EXPOCITY</td><td>約88,000㎡</td><td>約310</td><td>関西・吹田</td><td>2015/11</td></tr>
-      <td><a href="https://mitsui-shopping-park.com/lalaport/fujimi/" target="_blank" rel="noopener">富士見</a></td><tr><td>4</td><td>富士見</td><td>約80,000㎡</td><td>約290</td><td>関東・富士見</td><td>2015/4</td></tr>
-      <td><a href="https://mitsui-shopping-park.com/lalaport/fukuoka/" target="_blank" rel="noopener">福岡</a></td><tr><td>5</td><td>福岡</td><td>約73,100㎡</td><td>約222</td><td>九州・福岡</td><td>2022/4</td></tr>
-      <td><a href="https://mitsui-shopping-park.com/lalaport/toyosu/" target="_blank" rel="noopener">豊洲</a></td><tr><td>6</td><td>豊洲</td><td>約67,000㎡</td><td>約220</td><td>関東・江東</td><td>2006/10</td></tr>
-      <td><a href="https://mitsui-shopping-park.com/lalaport/kadoma/" target="_blank" rel="noopener">門真</a></td><tr><td>7</td><td>門真</td><td>約66,000㎡ ※</td><td>153（MOP98を除く）</td><td>関西・門真</td><td>2023/4</td></tr>
-      <td><a href="https://mitsui-shopping-park.com/lalaport/numazu/" target="_blank" rel="noopener">沼津</a></td><tr><td>8</td><td>沼津</td><td>約64,000㎡</td><td>約210</td><td>東海・沼津</td><td>2019/10</td></tr>
-      <td><a href="https://mitsui-shopping-park.com/lalaport/togo/" target="_blank" rel="noopener">愛知東郷</a></td><tr><td>9</td><td>愛知東郷</td><td>約63,900㎡</td><td>約201</td><td>東海・愛知郡</td><td>2020/9</td></tr>
-      <td><a href="https://mitsui-shopping-park.com/lalaport/anjo/" target="_blank" rel="noopener">安城</a></td><tr><td>10</td><td>安城</td><td>約60,300㎡</td><td>約215</td><td>東海・安城</td><td>2025/4</td></tr>
-      <td><a href="https://mitsui-shopping-park.com/lalaport/koshien/" target="_blank" rel="noopener">甲子園</a></td><tr><td>11</td><td>甲子園</td><td>約60,000㎡</td><td>約150</td><td>関西・西宮</td><td>2004/11</td></tr>
-      <td><a href="https://mitsui-shopping-park.com/lalaport/tachikawa/" target="_blank" rel="noopener">立川立飛</a></td><tr><td>12</td><td>立川立飛</td><td>約60,000㎡</td><td>約240</td><td>関東・立川</td><td>2015/12</td></tr>
-      <td><a href="https://mitsui-shopping-park.com/lalaport/hiratsuka/" target="_blank" rel="noopener">湘南平塚</a></td><tr><td>13</td><td>湘南平塚</td><td>約60,000㎡</td><td>約247</td><td>関東・平塚</td><td>2016/10</td></tr>
-      <td><a href="https://mitsui-shopping-park.com/lalaport/minatoaquls/" target="_blank" rel="noopener">名古屋みなとアクルス</a></td><tr><td>14</td><td>名古屋みなとアクルス</td><td>約59,500㎡</td><td>約217</td><td>東海・名古屋</td><td>2018/9</td></tr>
-      <td><a href="https://mitsui-shopping-park.com/lalaport/shinmisato/" target="_blank" rel="noopener">新三郷</a></td><tr><td>15</td><td>新三郷</td><td>約59,400㎡</td><td>約180</td><td>関東・三郷</td><td>2009/9</td></tr>
-      <td><a href="https://mitsui-shopping-park.com/lalaport/sakai/" target="_blank" rel="noopener">堺</a></td><tr><td>16</td><td>堺</td><td>約56,200㎡</td><td>約212</td><td>関西・堺</td><td>2022/11</td></tr>
-      <td><a href="https://mitsui-shopping-park.com/lalaport/izumi/" target="_blank" rel="noopener">和泉</a></td><tr><td>17</td><td>和泉</td><td>約55,000㎡</td><td>約210</td><td>関西・和泉</td><td>2014/10</td></tr>
-      <td><a href="https://mitsui-shopping-park.com/lalaport/ebina/" target="_blank" rel="noopener">海老名</a></td><tr><td>18</td><td>海老名</td><td>約54,000㎡</td><td>約260</td><td>関東・海老名</td><td>2015/10</td></tr>
-      <td><a href="https://mitsui-shopping-park.com/lalaport/iwata/" target="_blank" rel="noopener">磐田</a></td><tr><td>19</td><td>磐田</td><td>約50,000㎡</td><td>約175</td><td>東海・磐田</td><td>2009/6</td></tr>
-      <td><a href="https://mitsui-shopping-park.com/lalaport/kashiwa/" target="_blank" rel="noopener">柏の葉</a></td><tr><td>20</td><td>柏の葉</td><td>約49,500㎡</td><td>約180</td><td>関東・柏</td><td>2006/11</td></tr>
+      <tr class="recommended"><td>1</td><td><a href="https://mitsui-shopping-park.com/lalaport/tokyo-bay/" target="_blank" rel="noopener">TOKYO-BAY</a></td><td>約133,000㎡</td><td>約390〜420</td><td>関東・船橋</td><td>1981/4</td></tr>
+      <tr class="recommended"><td>2</td><td><a href="https://mitsui-shopping-park.com/lalaport/yokohama/" target="_blank" rel="noopener">横浜</a></td><td>約93,000㎡</td><td>約270</td><td>関東・横浜</td><td>2007/3</td></tr>
+      <tr class="recommended"><td>3</td><td><a href="https://mitsui-shopping-park.com/lalaport/expocity/" target="_blank" rel="noopener">EXPOCITY</a></td><td>約88,000㎡</td><td>約310</td><td>関西・吹田</td><td>2015/11</td></tr>
+      <tr><td>4</td><td><a href="https://mitsui-shopping-park.com/lalaport/fujimi/" target="_blank" rel="noopener">富士見</a></td><td>約80,000㎡</td><td>約290</td><td>関東・富士見</td><td>2015/4</td></tr>
+      <tr><td>5</td><td><a href="https://mitsui-shopping-park.com/lalaport/fukuoka/" target="_blank" rel="noopener">福岡</a></td><td>約73,100㎡</td><td>約222</td><td>九州・福岡</td><td>2022/4</td></tr>
+      <tr><td>6</td><td><a href="https://mitsui-shopping-park.com/lalaport/toyosu/" target="_blank" rel="noopener">豊洲</a></td><td>約67,000㎡</td><td>約220</td><td>関東・江東</td><td>2006/10</td></tr>
+      <tr><td>7</td><td><a href="https://mitsui-shopping-park.com/lalaport/kadoma/" target="_blank" rel="noopener">門真</a></td><td>約66,000㎡ ※</td><td>153（MOP98を除く）</td><td>関西・門真</td><td>2023/4</td></tr>
+      <tr><td>8</td><td><a href="https://mitsui-shopping-park.com/lalaport/numazu/" target="_blank" rel="noopener">沼津</a></td><td>約64,000㎡</td><td>約210</td><td>東海・沼津</td><td>2019/10</td></tr>
+      <tr><td>9</td><td><a href="https://mitsui-shopping-park.com/lalaport/togo/" target="_blank" rel="noopener">愛知東郷</a></td><td>約63,900㎡</td><td>約201</td><td>東海・愛知郡</td><td>2020/9</td></tr>
+      <tr><td>10</td><td><a href="https://mitsui-shopping-park.com/lalaport/anjo/" target="_blank" rel="noopener">安城</a></td><td>約60,300㎡</td><td>約215</td><td>東海・安城</td><td>2025/4</td></tr>
+      <tr><td>11</td><td><a href="https://mitsui-shopping-park.com/lalaport/koshien/" target="_blank" rel="noopener">甲子園</a></td><td>約60,000㎡</td><td>約150</td><td>関西・西宮</td><td>2004/11</td></tr>
+      <tr><td>12</td><td><a href="https://mitsui-shopping-park.com/lalaport/tachikawa/" target="_blank" rel="noopener">立川立飛</a></td><td>約60,000㎡</td><td>約240</td><td>関東・立川</td><td>2015/12</td></tr>
+      <tr><td>13</td><td><a href="https://mitsui-shopping-park.com/lalaport/hiratsuka/" target="_blank" rel="noopener">湘南平塚</a></td><td>約60,000㎡</td><td>約247</td><td>関東・平塚</td><td>2016/10</td></tr>
+      <tr><td>14</td><td><a href="https://mitsui-shopping-park.com/lalaport/minatoaquls/" target="_blank" rel="noopener">名古屋みなとアクルス</a></td><td>約59,500㎡</td><td>約217</td><td>東海・名古屋</td><td>2018/9</td></tr>
+      <tr><td>15</td><td><a href="https://mitsui-shopping-park.com/lalaport/shinmisato/" target="_blank" rel="noopener">新三郷</a></td><td>約59,400㎡</td><td>約180</td><td>関東・三郷</td><td>2009/9</td></tr>
+      <tr><td>16</td><td><a href="https://mitsui-shopping-park.com/lalaport/sakai/" target="_blank" rel="noopener">堺</a></td><td>約56,200㎡</td><td>約212</td><td>関西・堺</td><td>2022/11</td></tr>
+      <tr><td>17</td><td><a href="https://mitsui-shopping-park.com/lalaport/izumi/" target="_blank" rel="noopener">和泉</a></td><td>約55,000㎡</td><td>約210</td><td>関西・和泉</td><td>2014/10</td></tr>
+      <tr><td>18</td><td><a href="https://mitsui-shopping-park.com/lalaport/ebina/" target="_blank" rel="noopener">海老名</a></td><td>約54,000㎡</td><td>約260</td><td>関東・海老名</td><td>2015/10</td></tr>
+      <tr><td>19</td><td><a href="https://mitsui-shopping-park.com/lalaport/iwata/" target="_blank" rel="noopener">磐田</a></td><td>約50,000㎡</td><td>約175</td><td>東海・磐田</td><td>2009/6</td></tr>
+      <tr><td>20</td><td><a href="https://mitsui-shopping-park.com/lalaport/kashiwa/" target="_blank" rel="noopener">柏の葉</a></td><td>約49,500㎡</td><td>約180</td><td>関東・柏</td><td>2006/11</td></tr>
     </tbody>
   </table>
 </div>
 
 1位のTOKYO-BAY（約133,000㎡）と20位の柏の葉（約49,500㎡）で**2.69倍の差**がある。同じ「ららぽーと」でも、歩く距離が違う。
 
-## 店舗数ランキング｜「広い＝店が多い」ではない
+## 店舗数ランキング｜全20施設。「広い＝店が多い」ではない
 
-面積の順位と店舗数の順位は、けっこうズレる。
+**全20施設ぶん**を店舗数の多い順に並べた。面積の順位と店舗数の順位は、けっこうズレる。
 
 <div class="cmp-table-wrap">
   <table class="cmp-table">
     <thead><tr><th>順</th><th>施設</th><th>店舗数</th><th>面積での順位</th><th>地域</th></tr></thead>
     <tbody>
-      <td><a href="https://mitsui-shopping-park.com/lalaport/tokyo-bay/" target="_blank" rel="noopener">TOKYO-BAY</a></td><tr class="recommended"><td>1</td><td>TOKYO-BAY</td><td>約390〜420</td><td>面積1位</td><td>関東</td></tr>
-      <td><a href="https://mitsui-shopping-park.com/lalaport/expocity/" target="_blank" rel="noopener">EXPOCITY</a></td><tr class="recommended"><td>2</td><td>EXPOCITY</td><td>約310</td><td>面積3位</td><td>関西</td></tr>
-      <td><a href="https://mitsui-shopping-park.com/lalaport/fujimi/" target="_blank" rel="noopener">富士見</a></td><tr class="recommended"><td>3</td><td>富士見</td><td>約290</td><td>面積4位</td><td>関東</td></tr>
-      <td><a href="https://mitsui-shopping-park.com/lalaport/yokohama/" target="_blank" rel="noopener">横浜</a></td><tr><td>4</td><td>横浜</td><td>約270</td><td>面積2位</td><td>関東</td></tr>
-      <td><a href="https://mitsui-shopping-park.com/lalaport/ebina/" target="_blank" rel="noopener">海老名</a></td><tr><td>5</td><td>海老名</td><td>約260</td><td>面積18位</td><td>関東</td></tr>
-      <td><a href="https://mitsui-shopping-park.com/lalaport/hiratsuka/" target="_blank" rel="noopener">湘南平塚</a></td><tr><td>6</td><td>湘南平塚</td><td>約247</td><td>面積13位</td><td>関東</td></tr>
-      <td><a href="https://mitsui-shopping-park.com/lalaport/tachikawa/" target="_blank" rel="noopener">立川立飛</a></td><tr><td>7</td><td>立川立飛</td><td>約240</td><td>面積12位</td><td>関東</td></tr>
-      <td><a href="https://mitsui-shopping-park.com/lalaport/fukuoka/" target="_blank" rel="noopener">福岡</a></td><tr><td>8</td><td>福岡</td><td>約222</td><td>面積5位</td><td>九州</td></tr>
-      <td><a href="https://mitsui-shopping-park.com/lalaport/toyosu/" target="_blank" rel="noopener">豊洲</a></td><tr><td>9</td><td>豊洲</td><td>約220</td><td>面積6位</td><td>関東</td></tr>
-      <td><a href="https://mitsui-shopping-park.com/lalaport/minatoaquls/" target="_blank" rel="noopener">名古屋みなとアクルス</a></td><tr><td>10</td><td>名古屋みなとアクルス</td><td>約217</td><td>面積14位</td><td>東海</td></tr>
+      <tr class="recommended"><td>1</td><td><a href="https://mitsui-shopping-park.com/lalaport/tokyo-bay/" target="_blank" rel="noopener">TOKYO-BAY</a></td><td>約390〜420</td><td>面積1位</td><td>関東</td></tr>
+      <tr class="recommended"><td>2</td><td><a href="https://mitsui-shopping-park.com/lalaport/expocity/" target="_blank" rel="noopener">EXPOCITY</a></td><td>約310</td><td>面積3位</td><td>関西</td></tr>
+      <tr class="recommended"><td>3</td><td><a href="https://mitsui-shopping-park.com/lalaport/fujimi/" target="_blank" rel="noopener">富士見</a></td><td>約290</td><td>面積4位</td><td>関東</td></tr>
+      <tr><td>4</td><td><a href="https://mitsui-shopping-park.com/lalaport/yokohama/" target="_blank" rel="noopener">横浜</a></td><td>約270</td><td>面積2位</td><td>関東</td></tr>
+      <tr><td>5</td><td><a href="https://mitsui-shopping-park.com/lalaport/ebina/" target="_blank" rel="noopener">海老名</a></td><td>約260</td><td>面積18位</td><td>関東</td></tr>
+      <tr><td>6</td><td><a href="https://mitsui-shopping-park.com/lalaport/hiratsuka/" target="_blank" rel="noopener">湘南平塚</a></td><td>約247</td><td>面積13位</td><td>関東</td></tr>
+      <tr><td>7</td><td><a href="https://mitsui-shopping-park.com/lalaport/tachikawa/" target="_blank" rel="noopener">立川立飛</a></td><td>約240</td><td>面積12位</td><td>関東</td></tr>
+      <tr><td>8</td><td><a href="https://mitsui-shopping-park.com/lalaport/fukuoka/" target="_blank" rel="noopener">福岡</a></td><td>約222</td><td>面積5位</td><td>九州</td></tr>
+      <tr><td>9</td><td><a href="https://mitsui-shopping-park.com/lalaport/toyosu/" target="_blank" rel="noopener">豊洲</a></td><td>約220</td><td>面積6位</td><td>関東</td></tr>
+      <tr><td>10</td><td><a href="https://mitsui-shopping-park.com/lalaport/minatoaquls/" target="_blank" rel="noopener">名古屋みなとアクルス</a></td><td>約217</td><td>面積14位</td><td>東海</td></tr>
+      <tr><td>11</td><td><a href="https://mitsui-shopping-park.com/lalaport/anjo/" target="_blank" rel="noopener">安城</a></td><td>約215</td><td>面積10位</td><td>東海</td></tr>
+      <tr><td>12</td><td><a href="https://mitsui-shopping-park.com/lalaport/sakai/" target="_blank" rel="noopener">堺</a></td><td>約212</td><td>面積16位</td><td>関西</td></tr>
+      <tr><td>13</td><td><a href="https://mitsui-shopping-park.com/lalaport/izumi/" target="_blank" rel="noopener">和泉</a></td><td>約210</td><td>面積17位</td><td>関西</td></tr>
+      <tr><td>14</td><td><a href="https://mitsui-shopping-park.com/lalaport/numazu/" target="_blank" rel="noopener">沼津</a></td><td>約210</td><td>面積8位</td><td>東海</td></tr>
+      <tr><td>15</td><td><a href="https://mitsui-shopping-park.com/lalaport/togo/" target="_blank" rel="noopener">愛知東郷</a></td><td>約201</td><td>面積9位</td><td>東海</td></tr>
+      <tr><td>16</td><td><a href="https://mitsui-shopping-park.com/lalaport/kashiwa/" target="_blank" rel="noopener">柏の葉</a></td><td>約180</td><td>面積20位</td><td>関東</td></tr>
+      <tr><td>17</td><td><a href="https://mitsui-shopping-park.com/lalaport/shinmisato/" target="_blank" rel="noopener">新三郷</a></td><td>約180</td><td>面積15位</td><td>関東</td></tr>
+      <tr><td>18</td><td><a href="https://mitsui-shopping-park.com/lalaport/iwata/" target="_blank" rel="noopener">磐田</a></td><td>約175</td><td>面積19位</td><td>東海</td></tr>
+      <tr><td>19</td><td><a href="https://mitsui-shopping-park.com/lalaport/kadoma/" target="_blank" rel="noopener">門真</a></td><td>153（MOP98を除く）</td><td>面積7位</td><td>関西</td></tr>
+      <tr><td>20</td><td><a href="https://mitsui-shopping-park.com/lalaport/koshien/" target="_blank" rel="noopener">甲子園</a></td><td>約150</td><td>面積11位</td><td>関西</td></tr>
     </tbody>
   </table>
 </div>
@@ -604,26 +614,26 @@ TOKYO-BAYの**2.1倍**。この表の最下位（愛知東郷 46.0万円）と�
   <table class="cmp-table">
     <thead><tr><th>#</th><th>施設</th><th>所在地</th><th>開業</th><th>店舗面積</th><th>店舗数</th><th>最寄駅</th></tr></thead>
     <tbody>
-      <td><a href="https://mitsui-shopping-park.com/lalaport/tokyo-bay/" target="_blank" rel="noopener">TOKYO-BAY</a><br><small><a href="#-ららぽーとtokyo-bay1981年4月千葉">この施設の詳細 ↓</a></small></td>d><td><a href="https://mitsui-shopping-park.com/lalaport/tokyo-bay/" target="_blank" rel="noopener">TOKYO-BAY</a></td><td>千葉・船橋</td><td>1981/4</td><td>約133,000㎡</td><td>約390〜420</td><td>南船橋 徒歩5分</td></tr>
-      <td><a href="https://mitsui-shopping-park.com/lalaport/koshien/" target="_blank" rel="noopener">甲子園</a><br><small><a href="#-ららぽーと甲子園2004年11月兵庫">この施設の詳細 ↓</a></small></td><tr><td>2</td><td><a href="https://mitsui-shopping-park.com/lalaport/koshien/" target="_blank" rel="noopener">甲子園</a></td><td>兵庫・西宮</td><td>2004/11</td><td>約60,000㎡</td><td>約150</td><td>甲子園 徒歩5分</td></tr>
-      <td><a href="https://mitsui-shopping-park.com/lalaport/toyosu/" target="_blank" rel="noopener">豊洲</a><br><small><a href="#-ららぽーと豊洲2006年10月東京">この施設の詳細 ↓</a></small></td><tr><td>3</td><td><a href="https://mitsui-shopping-park.com/lalaport/toyosu/" target="_blank" rel="noopener">豊洲</a></td><td>東京・江東</td><td>2006/10</td><td>約67,000㎡</td><td>約220</td><td>豊洲 直結</td></tr>
-      <td><a href="https://mitsui-shopping-park.com/lalaport/kashiwa/" target="_blank" rel="noopener">柏の葉</a><br><small><a href="#-ららぽーと柏の葉2006年11月千葉">この施設の詳細 ↓</a></small></td><tr><td>4</td><td><a href="https://mitsui-shopping-park.com/lalaport/kashiwa/" target="_blank" rel="noopener">柏の葉</a></td><td>千葉・柏</td><td>2006/11</td><td>約49,500㎡</td><td>約180</td><td>柏の葉キャンパス 徒歩1分</td></tr>
-      <td><a href="https://mitsui-shopping-park.com/lalaport/yokohama/" target="_blank" rel="noopener">横浜</a><br><small><a href="#-ららぽーと横浜2007年3月神奈川">この施設の詳細 ↓</a></small></td><tr><td>5</td><td><a href="https://mitsui-shopping-park.com/lalaport/yokohama/" target="_blank" rel="noopener">横浜</a></td><td>神奈川・横浜</td><td>2007/3</td><td>約93,000㎡</td><td>約270</td><td>鴨居 徒歩7分</td></tr>
-      <td><a href="https://mitsui-shopping-park.com/lalaport/iwata/" target="_blank" rel="noopener">磐田</a><br><small><a href="#-ららぽーと磐田2009年6月静岡">この施設の詳細 ↓</a></small></td><tr><td>6</td><td><a href="https://mitsui-shopping-park.com/lalaport/iwata/" target="_blank" rel="noopener">磐田</a></td><td>静岡・磐田</td><td>2009/6</td><td>約50,000㎡</td><td>約175</td><td>磐田からバス20分</td></tr>
-      <td><a href="https://mitsui-shopping-park.com/lalaport/shinmisato/" target="_blank" rel="noopener">新三郷</a><br><small><a href="#-ららぽーと新三郷2009年9月埼玉">この施設の詳細 ↓</a></small></td><tr><td>7</td><td><a href="https://mitsui-shopping-park.com/lalaport/shinmisato/" target="_blank" rel="noopener">新三郷</a></td><td>埼玉・三郷</td><td>2009/9</td><td>約59,400㎡</td><td>約180</td><td>新三郷 直結</td></tr>
-      <td><a href="https://mitsui-shopping-park.com/lalaport/izumi/" target="_blank" rel="noopener">和泉</a><br><small><a href="#-ららぽーと和泉2014年10月大阪">この施設の詳細 ↓</a></small></td><tr><td>8</td><td><a href="https://mitsui-shopping-park.com/lalaport/izumi/" target="_blank" rel="noopener">和泉</a></td><td>大阪・和泉</td><td>2014/10</td><td>約55,000㎡</td><td>約210</td><td>和泉中央からバス15分</td></tr>
-      <td><a href="https://mitsui-shopping-park.com/lalaport/fujimi/" target="_blank" rel="noopener">富士見</a><br><small><a href="#-ららぽーと富士見2015年4月埼玉">この施設の詳細 ↓</a></small></td><tr><td>9</td><td><a href="https://mitsui-shopping-park.com/lalaport/fujimi/" target="_blank" rel="noopener">富士見</a></td><td>埼玉・富士見</td><td>2015/4</td><td>約80,000㎡</td><td>約290</td><td>鶴瀬からバス6分</td></tr>
-      <td><a href="https://mitsui-shopping-park.com/lalaport/ebina/" target="_blank" rel="noopener">海老名</a><br><small><a href="#-ららぽーと海老名2015年10月神奈川">この施設の詳細 ↓</a></small></td><tr><td>10</td><td><a href="https://mitsui-shopping-park.com/lalaport/ebina/" target="_blank" rel="noopener">海老名</a></td><td>神奈川・海老名</td><td>2015/10</td><td>約54,000㎡</td><td>約260</td><td>海老名 徒歩1分</td></tr>
-      <td><a href="https://mitsui-shopping-park.com/lalaport/expocity/" target="_blank" rel="noopener">EXPOCITY</a><br><small><a href="#-ららぽーとexpocity2015年11月大阪">この施設の詳細 ↓</a></small></td><tr><td>11</td><td><a href="https://mitsui-shopping-park.com/lalaport/expocity/" target="_blank" rel="noopener">EXPOCITY</a></td><td>大阪・吹田</td><td>2015/11</td><td>約88,000㎡</td><td>約310</td><td>万博記念公園 徒歩2分</td></tr>
-      <td><a href="https://mitsui-shopping-park.com/lalaport/tachikawa/" target="_blank" rel="noopener">立川立飛</a><br><small><a href="#-ららぽーと立川立飛2015年12月東京">この施設の詳細 ↓</a></small></td><tr><td>12</td><td><a href="https://mitsui-shopping-park.com/lalaport/tachikawa/" target="_blank" rel="noopener">立川立飛</a></td><td>東京・立川</td><td>2015/12</td><td>約60,000㎡</td><td>約240</td><td>立飛 直結</td></tr>
-      <td><a href="https://mitsui-shopping-park.com/lalaport/hiratsuka/" target="_blank" rel="noopener">湘南平塚</a><br><small><a href="#-ららぽーと湘南平塚2016年10月神奈川">この施設の詳細 ↓</a></small></td><tr><td>13</td><td><a href="https://mitsui-shopping-park.com/lalaport/hiratsuka/" target="_blank" rel="noopener">湘南平塚</a></td><td>神奈川・平塚</td><td>2016/10</td><td>約60,000㎡</td><td>約247</td><td>平塚 徒歩12分</td></tr>
-      <td><a href="https://mitsui-shopping-park.com/lalaport/minatoaquls/" target="_blank" rel="noopener">名古屋みなとアクルス</a><br><small><a href="#-ららぽーと名古屋みなとアクルス2018年9月愛知">この施設の詳細 ↓</a></small></td><tr><td>14</td><td><a href="https://mitsui-shopping-park.com/lalaport/minatoaquls/" target="_blank" rel="noopener">名古屋みなとアクルス</a></td><td>愛知・名古屋</td><td>2018/9</td><td>約59,500㎡</td><td>約217</td><td>港区役所 徒歩2分</td></tr>
-      <td><a href="https://mitsui-shopping-park.com/lalaport/numazu/" target="_blank" rel="noopener">沼津</a><br><small><a href="#-ららぽーと沼津2019年10月静岡">この施設の詳細 ↓</a></small></td><tr><td>15</td><td><a href="https://mitsui-shopping-park.com/lalaport/numazu/" target="_blank" rel="noopener">沼津</a></td><td>静岡・沼津</td><td>2019/10</td><td>約64,000㎡</td><td>約210</td><td>沼津からバス</td></tr>
-      <td><a href="https://mitsui-shopping-park.com/lalaport/togo/" target="_blank" rel="noopener">愛知東郷</a><br><small><a href="#-ららぽーと愛知東郷2020年9月愛知">この施設の詳細 ↓</a></small></td><tr><td>16</td><td><a href="https://mitsui-shopping-park.com/lalaport/togo/" target="_blank" rel="noopener">愛知東郷</a></td><td>愛知・愛知郡</td><td>2020/9</td><td>約63,900㎡</td><td>約201</td><td>日進からバス（鉄道徒歩圏外）</td></tr>
-      <td><a href="https://mitsui-shopping-park.com/lalaport/fukuoka/" target="_blank" rel="noopener">福岡</a><br><small><a href="#-ららぽーと福岡2022年4月福岡">この施設の詳細 ↓</a></small></td><tr><td>17</td><td><a href="https://mitsui-shopping-park.com/lalaport/fukuoka/" target="_blank" rel="noopener">福岡</a></td><td>福岡・福岡</td><td>2022/4</td><td>約73,100㎡</td><td>約222</td><td>竹下 徒歩9分</td></tr>
-      <td><a href="https://mitsui-shopping-park.com/lalaport/sakai/" target="_blank" rel="noopener">堺</a><br><small><a href="#-ららぽーと堺2022年11月大阪">この施設の詳細 ↓</a></small></td><tr><td>18</td><td><a href="https://mitsui-shopping-park.com/lalaport/sakai/" target="_blank" rel="noopener">堺</a></td><td>大阪・堺</td><td>2022/11</td><td>約56,200㎡</td><td>約212</td><td>バスのみ（鉄道直結なし）</td></tr>
-      <td><a href="https://mitsui-shopping-park.com/lalaport/kadoma/" target="_blank" rel="noopener">門真</a><br><small><a href="#-ららぽーと門真2023年4月大阪">この施設の詳細 ↓</a></small></td><tr><td>19</td><td><a href="https://mitsui-shopping-park.com/lalaport/kadoma/" target="_blank" rel="noopener">門真</a></td><td>大阪・門真</td><td>2023/4</td><td>約66,000㎡ ※</td><td>153（MOP98を除く）</td><td>門真市 徒歩8分</td></tr>
-      <td><a href="https://mitsui-shopping-park.com/lalaport/anjo/" target="_blank" rel="noopener">安城</a><br><small><a href="#-ららぽーと安城2025年4月愛知">この施設の詳細 ↓</a></small></td><tr class="recommended"><td>20</td><td><a href="https://mitsui-shopping-park.com/lalaport/anjo/" target="_blank" rel="noopener">安城</a></td><td>愛知・安城</td><td>2025/4</td><td>約60,300㎡</td><td>約215</td><td>安城 徒歩10分</td></tr>
+      <tr><td>1</td><td><a href="https://mitsui-shopping-park.com/lalaport/tokyo-bay/" target="_blank" rel="noopener">TOKYO-BAY</a><br><small><a href="#-ららぽーとtokyo-bay1981年4月千葉">この施設の詳細 ↓</a></small></td><td>千葉・船橋</td><td>1981/4</td><td>約133,000㎡</td><td>約390〜420</td><td>南船橋 徒歩5分</td></tr>
+      <tr><td>2</td><td><a href="https://mitsui-shopping-park.com/lalaport/koshien/" target="_blank" rel="noopener">甲子園</a><br><small><a href="#-ららぽーと甲子園2004年11月兵庫">この施設の詳細 ↓</a></small></td><td>兵庫・西宮</td><td>2004/11</td><td>約60,000㎡</td><td>約150</td><td>甲子園 徒歩5分</td></tr>
+      <tr><td>3</td><td><a href="https://mitsui-shopping-park.com/lalaport/toyosu/" target="_blank" rel="noopener">豊洲</a><br><small><a href="#-ららぽーと豊洲2006年10月東京">この施設の詳細 ↓</a></small></td><td>東京・江東</td><td>2006/10</td><td>約67,000㎡</td><td>約220</td><td>豊洲 直結</td></tr>
+      <tr><td>4</td><td><a href="https://mitsui-shopping-park.com/lalaport/kashiwa/" target="_blank" rel="noopener">柏の葉</a><br><small><a href="#-ららぽーと柏の葉2006年11月千葉">この施設の詳細 ↓</a></small></td><td>千葉・柏</td><td>2006/11</td><td>約49,500㎡</td><td>約180</td><td>柏の葉キャンパス 徒歩1分</td></tr>
+      <tr><td>5</td><td><a href="https://mitsui-shopping-park.com/lalaport/yokohama/" target="_blank" rel="noopener">横浜</a><br><small><a href="#-ららぽーと横浜2007年3月神奈川">この施設の詳細 ↓</a></small></td><td>神奈川・横浜</td><td>2007/3</td><td>約93,000㎡</td><td>約270</td><td>鴨居 徒歩7分</td></tr>
+      <tr><td>6</td><td><a href="https://mitsui-shopping-park.com/lalaport/iwata/" target="_blank" rel="noopener">磐田</a><br><small><a href="#-ららぽーと磐田2009年6月静岡">この施設の詳細 ↓</a></small></td><td>静岡・磐田</td><td>2009/6</td><td>約50,000㎡</td><td>約175</td><td>磐田からバス20分</td></tr>
+      <tr><td>7</td><td><a href="https://mitsui-shopping-park.com/lalaport/shinmisato/" target="_blank" rel="noopener">新三郷</a><br><small><a href="#-ららぽーと新三郷2009年9月埼玉">この施設の詳細 ↓</a></small></td><td>埼玉・三郷</td><td>2009/9</td><td>約59,400㎡</td><td>約180</td><td>新三郷 直結</td></tr>
+      <tr><td>8</td><td><a href="https://mitsui-shopping-park.com/lalaport/izumi/" target="_blank" rel="noopener">和泉</a><br><small><a href="#-ららぽーと和泉2014年10月大阪">この施設の詳細 ↓</a></small></td><td>大阪・和泉</td><td>2014/10</td><td>約55,000㎡</td><td>約210</td><td>和泉中央からバス15分</td></tr>
+      <tr><td>9</td><td><a href="https://mitsui-shopping-park.com/lalaport/fujimi/" target="_blank" rel="noopener">富士見</a><br><small><a href="#-ららぽーと富士見2015年4月埼玉">この施設の詳細 ↓</a></small></td><td>埼玉・富士見</td><td>2015/4</td><td>約80,000㎡</td><td>約290</td><td>鶴瀬からバス6分</td></tr>
+      <tr><td>10</td><td><a href="https://mitsui-shopping-park.com/lalaport/ebina/" target="_blank" rel="noopener">海老名</a><br><small><a href="#-ららぽーと海老名2015年10月神奈川">この施設の詳細 ↓</a></small></td><td>神奈川・海老名</td><td>2015/10</td><td>約54,000㎡</td><td>約260</td><td>海老名 徒歩1分</td></tr>
+      <tr><td>11</td><td><a href="https://mitsui-shopping-park.com/lalaport/expocity/" target="_blank" rel="noopener">EXPOCITY</a><br><small><a href="#-ららぽーとexpocity2015年11月大阪">この施設の詳細 ↓</a></small></td><td>大阪・吹田</td><td>2015/11</td><td>約88,000㎡</td><td>約310</td><td>万博記念公園 徒歩2分</td></tr>
+      <tr><td>12</td><td><a href="https://mitsui-shopping-park.com/lalaport/tachikawa/" target="_blank" rel="noopener">立川立飛</a><br><small><a href="#-ららぽーと立川立飛2015年12月東京">この施設の詳細 ↓</a></small></td><td>東京・立川</td><td>2015/12</td><td>約60,000㎡</td><td>約240</td><td>立飛 直結</td></tr>
+      <tr><td>13</td><td><a href="https://mitsui-shopping-park.com/lalaport/hiratsuka/" target="_blank" rel="noopener">湘南平塚</a><br><small><a href="#-ららぽーと湘南平塚2016年10月神奈川">この施設の詳細 ↓</a></small></td><td>神奈川・平塚</td><td>2016/10</td><td>約60,000㎡</td><td>約247</td><td>平塚 徒歩12分</td></tr>
+      <tr><td>14</td><td><a href="https://mitsui-shopping-park.com/lalaport/minatoaquls/" target="_blank" rel="noopener">名古屋みなとアクルス</a><br><small><a href="#-ららぽーと名古屋みなとアクルス2018年9月愛知">この施設の詳細 ↓</a></small></td><td>愛知・名古屋</td><td>2018/9</td><td>約59,500㎡</td><td>約217</td><td>港区役所 徒歩2分</td></tr>
+      <tr><td>15</td><td><a href="https://mitsui-shopping-park.com/lalaport/numazu/" target="_blank" rel="noopener">沼津</a><br><small><a href="#-ららぽーと沼津2019年10月静岡">この施設の詳細 ↓</a></small></td><td>静岡・沼津</td><td>2019/10</td><td>約64,000㎡</td><td>約210</td><td>沼津からバス</td></tr>
+      <tr><td>16</td><td><a href="https://mitsui-shopping-park.com/lalaport/togo/" target="_blank" rel="noopener">愛知東郷</a><br><small><a href="#-ららぽーと愛知東郷2020年9月愛知">この施設の詳細 ↓</a></small></td><td>愛知・愛知郡</td><td>2020/9</td><td>約63,900㎡</td><td>約201</td><td>日進からバス（鉄道徒歩圏外）</td></tr>
+      <tr><td>17</td><td><a href="https://mitsui-shopping-park.com/lalaport/fukuoka/" target="_blank" rel="noopener">福岡</a><br><small><a href="#-ららぽーと福岡2022年4月福岡">この施設の詳細 ↓</a></small></td><td>福岡・福岡</td><td>2022/4</td><td>約73,100㎡</td><td>約222</td><td>竹下 徒歩9分</td></tr>
+      <tr><td>18</td><td><a href="https://mitsui-shopping-park.com/lalaport/sakai/" target="_blank" rel="noopener">堺</a><br><small><a href="#-ららぽーと堺2022年11月大阪">この施設の詳細 ↓</a></small></td><td>大阪・堺</td><td>2022/11</td><td>約56,200㎡</td><td>約212</td><td>バスのみ（鉄道直結なし）</td></tr>
+      <tr><td>19</td><td><a href="https://mitsui-shopping-park.com/lalaport/kadoma/" target="_blank" rel="noopener">門真</a><br><small><a href="#-ららぽーと門真2023年4月大阪">この施設の詳細 ↓</a></small></td><td>大阪・門真</td><td>2023/4</td><td>約66,000㎡ ※</td><td>153（MOP98を除く）</td><td>門真市 徒歩8分</td></tr>
+      <tr class="recommended"><td>20</td><td><a href="https://mitsui-shopping-park.com/lalaport/anjo/" target="_blank" rel="noopener">安城</a><br><small><a href="#-ららぽーと安城2025年4月愛知">この施設の詳細 ↓</a></small></td><td>愛知・安城</td><td>2025/4</td><td>約60,300㎡</td><td>約215</td><td>安城 徒歩10分</td></tr>
     </tbody>
   </table>
 </div>
@@ -1520,7 +1530,7 @@ TOKYO-BAYの**2.1倍**。この表の最下位（愛知東郷 46.0万円）と�
       <tr class="recommended"><td><strong>ららぽーとで一番売上が高いのはどこ？</strong></td><td><a href="#店舗別売上ランキング三井不動産の決算資料そのまま">ラゾーナ川崎プラザの<strong>990億円</strong></a>。ただしこれは「ららぽーと」ブランドではない。<strong>ららぽーとの最大手はTOKYO-BAYの790億円</strong>で、200億の差がある</td></tr>
       <tr class="recommended"><td><strong>一番効率よく稼いでいるのはどこ？</strong></td><td><a href="#売上効率ランキング1あたりいくら稼いでいるか">ラゾーナ川崎プラザの<strong>1㎡あたり125.3万円</strong></a>。2位の豊洲（77.6万円）の<strong>1.6倍</strong>で、この表の最下位とは<strong>2.7倍</strong>の開きがある。<strong>売上2位のTOKYO-BAYは、効率では7位まで落ちる</strong></td></tr>
       <tr class="recommended"><td><strong>ららぽーとで一番大きいのはどこ？</strong></td><td><a href="#面積ランキング大きさで全20施設を並べる">ららぽーとTOKYO-BAY の <strong>約133,000㎡</strong></a>。2位の横浜（約93,000㎡）とは<strong>4万㎡の差</strong>があり、2位以下を大きく離している</td></tr>
-      <tr><td><strong>店舗数が一番多いのは？</strong></td><td><a href="#店舗数ランキング広い店が多いではない">TOKYO-BAY の <strong>約390〜420店</strong></a>。ただし<strong>面積18位の海老名が店舗数では5位</strong>（約260店）で、広さと店数は一致しない</td></tr>
+      <tr><td><strong>店舗数が一番多いのは？</strong></td><td><a href="#店舗数ランキング全20施設広い店が多いではない">TOKYO-BAY の <strong>約390〜420店</strong></a>。ただし<strong>面積18位の海老名が店舗数では5位</strong>（約260店）で、広さと店数は一致しない</td></tr>
       <tr><td><strong>ららぽーとのセールはいつ？</strong></td><td><a href="#セールは年2回が本番">年2回が本番</a>。2026年の夏は<strong>7/3〜7/12</strong>（関西5施設は7/20まで）、初売りは<strong>1/1〜1/12</strong>。ほかに11月中旬〜下旬のブラックフライデーがある</td></tr>
       <tr><td><strong>ららぽーとの駐車場は何時間無料？</strong></td><td><strong>「◯時間無料」で括れない。</strong><a href="#全20施設の駐車場無料条件はここまで違う">曜日を問わず終日無料が8施設</a>ある一方、<strong>豊洲は超過30分400円</strong>。同じららぽーとでこれだけ違う</td></tr>
     </tbody>
