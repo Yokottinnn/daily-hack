@@ -1,3 +1,3 @@
 [
-      {"task": "x187-verify-scrape-counts.sh", "rc": 0, "out": "走査の数を確かめた / scrape-counts.md"}
+      {"task": "x188-restore-scrape-and-unfollow.sh", "rc": 0, "out": "走査を戻してまた外した / restore-and-unfollow.md"}
   ]
