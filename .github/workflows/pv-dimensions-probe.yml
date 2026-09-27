@@ -1,0 +1,116 @@
+name: pv-dimensions-probe
+
+# **測るだけのワークフロー（手動起動のみ）。**
+#
+# 2026-09-27、週次レポートの PV が 100 しか出ない原因を追っていて、
+# **サイトのビーコン token がアカウントに存在しないサイトを指している**ことが分かった
+# （t196）。RUM データは 1 件も取れていない。
+#
+# そこで週次レポートの PV 側を **Zone Analytics に寄せる**のが筋になった。
+# ただし RUM には在った「流入経路 / デバイス / 国」が Zone Analytics で取れるかは
+# **推測で決めない。** ここで実際に引いて確かめる。
+#
+# 併せて、アカウントに実在する RUM サイトの site_tag を全桁 出す
+# （**ビーコン token は公開 HTML に載る値なので秘密ではない**）。
+#
+# LLM 不使用・Cloudflare API は無料枠。**$0。**
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    env:
+      HOST: daily-hack.fieldbeside.com
+      DOMAIN: fieldbeside.com
+    steps:
+      - name: Resolve ids
+        env:
+          CF_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        run: |
+          set -euo pipefail
+          curl -s "https://api.cloudflare.com/client/v4/zones?name=${DOMAIN}" \
+            -H "Authorization: Bearer ${CF_TOKEN}" > /tmp/zones.json
+          ZONE_ID=$(jq -r '.result[0].id' /tmp/zones.json)
+          ACCT_ID=$(jq -r '.result[0].account.id' /tmp/zones.json)
+          echo "zone_id=${ZONE_ID}" >> "$GITHUB_ENV"
+          echo "acct_id=${ACCT_ID}" >> "$GITHUB_ENV"
+          echo "zone=${ZONE_ID} acct=${ACCT_ID}"
+
+      # **このステップで全体を落とさない。** Actions 側のトークンには
+      # RUM の読み取り権限が無く（2026-09-27 実測: success=false / result=null）、
+      # `set -e` ＋ `jq '.result[]'` で job ごと落ちていた。
+      # **RUM の答えは t196（Mac 側のトークン）で既に取れている。**
+      # 本題は次のステップの「Zone Analytics で何が取れるか」なので、
+      # ここが駄目でも先へ進める。
+      - name: RUM サイト一覧（権限が無ければ飛ばす）
+        continue-on-error: true
+        env:
+          CF_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        run: |
+          set -uo pipefail
+          curl -s "https://api.cloudflare.com/client/v4/accounts/${acct_id}/rum/site_info/list?per_page=50" \
+            -H "Authorization: Bearer ${CF_TOKEN}" > /tmp/rum.json
+          ok=$(jq -r '.success // false' /tmp/rum.json)
+          echo "success=${ok}"
+          if [ "$ok" != "true" ]; then
+            echo "⚠️ RUM を読めない。**このトークンには RUM の権限が無い。** エラーだけ出して飛ばす:"
+            jq -c '(.errors // []) | map({code, message})' /tmp/rum.json
+            exit 0
+          fi
+          echo "件数=$(jq '(.result // []) | length' /tmp/rum.json)"
+          jq -r '(.result // [])[] | "SITE tag=\(.site_tag) zone=\(.ruleset.zone_name // "-") host=\(.ruleset.host // "-") name=\(.site_name // "-") enabled=\(.ruleset.enabled // "-")"' /tmp/rum.json
+          echo "--- ビーコンが指している 0dc312c59cff43f58507d2b4f669dd82 は在るか ---"
+          if jq -e '(.result // [])[] | select(.site_tag == "0dc312c59cff43f58507d2b4f669dd82")' /tmp/rum.json > /dev/null; then
+            echo "BEACON_TAG_EXISTS=yes"
+          else
+            echo "BEACON_TAG_EXISTS=no   ← HTML のビーコンは存在しないサイトを指している"
+          fi
+
+      - name: Zone Analytics で「流入経路 / デバイス / 国」が取れるか
+        env:
+          CF_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        run: |
+          set -euo pipefail
+          START=$(date -u -d "-2 days" +%FT00:00:00Z)
+          END=$(date -u -d "-1 days" +%FT00:00:00Z)
+          echo "窓: ${START} → ${END}"
+          # **ネストした heredoc は YAML のブロックを壊す。** printf で組む。
+          # 次元名だけを差し替えるので、テンプレートに DIMENSION を置いておく。
+          printf '%s\n' \
+            'query($zoneTag: String!, $start: Time!, $end: Time!, $host: String!) {' \
+            '  viewer { zones(filter: { zoneTag: $zoneTag }) {' \
+            '    httpRequestsAdaptiveGroups(' \
+            '      limit: 8, orderBy: [sum_visits_DESC],' \
+            '      filter: { datetime_geq: $start, datetime_leq: $end,' \
+            '                clientRequestHTTPHost: $host, edgeResponseStatus: 200,' \
+            '                requestSource: "eyeball" }' \
+            '    ) { sum { visits } count dimensions { DIMENSION } }' \
+            '  } }' \
+            '}' > /tmp/tmpl.graphql
+          # **1 つずつ別のクエリで引く。** まとめると 1 個 落ちただけで全部 落ちて、
+          # どの次元が使えないのか分からなくなる。
+          for dim in clientRefererHost clientDeviceType clientCountryName \
+                     clientRequestReferer userAgentBrowser clientRequestPath; do
+            sed "s/DIMENSION/${dim}/" /tmp/tmpl.graphql > /tmp/q.graphql
+            jq -n --rawfile q /tmp/q.graphql --arg zone "$zone_id" --arg start "$START" \
+              --arg end "$END" --arg host "$HOST" \
+              '{query:$q, variables:{zoneTag:$zone, start:$start, end:$end, host:$host}}' > /tmp/body.json
+            curl -s https://api.cloudflare.com/client/v4/graphql \
+              -H "Authorization: Bearer ${CF_TOKEN}" -H "Content-Type: application/json" \
+              --data-binary @/tmp/body.json > /tmp/res.json
+            err=$(jq -r '(.errors // []) | map(.message) | join(" / ")' /tmp/res.json)
+            if [ -n "$err" ]; then
+              printf 'DIM %s: ❌ %.240s\n' "$dim" "$err"
+            else
+              n=$(jq '(.data.viewer.zones[0].httpRequestsAdaptiveGroups // []) | length' /tmp/res.json)
+              echo "DIM ${dim}: ✅ ${n} 行"
+              jq -r --arg d "$dim" '(.data.viewer.zones[0].httpRequestsAdaptiveGroups // [])[]
+                | "    \(.dimensions[$d] // "(null)") … visits \(.sum.visits) / req \(.count)"' /tmp/res.json
+            fi
+          done
