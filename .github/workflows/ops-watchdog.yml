@@ -35,11 +35,14 @@ jobs:
       #
       # 監視が「載っているジョブが動いているか」しか見ておらず、
       # **「あるべきものが消えていること」を見ていなかった。** ここに入れて初めて鳴る。
+      # 2026-09-28: ai.openclaw.gateway と ai.openclaw.node を外した。
+      # **plist は 2026-05 から在るが、ログが 1 本も無く一度も動いていない。**
+      # LLM も呼ばない（anthropic 0 / claude 0 / openai 0）。
+      # 一度も動いていないものを警報の対象にすると、**永久に鳴り続ける。**
+      # plist は消していないので、必要になれば戻せる（`ops/tasks` で `bootstrap`）。
       EXPECTED_JOBS: >-
         ai.openclaw.comment-warmup
         ai.openclaw.incoming-reply-watcher
-        ai.openclaw.gateway
-        ai.openclaw.node
         ai.openclaw.badge-followback
         ai.openclaw.follower-snapshot
         ai.openclaw.competitor-follower-follow
