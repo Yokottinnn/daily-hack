@@ -1,0 +1,859 @@
+{
+ "checked": 75,
+ "suspects": 75,
+ "out": [
+  {
+   "url": "https://ahamo.com/",
+   "slugs": [
+    "cheap-sim-comparison-2026"
+   ],
+   "curl": 0,
+   "http": 200,
+   "title": "ahamo",
+   "final": "https://ahamo.com/",
+   "verdict": "ALIVE"
+  },
+  {
+   "url": "https://appdigitalhealth.com/rakuten-healthcare-report/",
+   "slugs": [
+    "move-to-earn-poikatsu-apps-2026"
+   ],
+   "curl": 0,
+   "http": null,
+   "title": null,
+   "final": null,
+   "verdict": "OPEN_FAILED",
+   "err": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://appdigitalhealth.com/"
+  },
+  {
+   "url": "https://arucoin.jp/",
+   "slugs": [
+    "walk-poikatsu-2026"
+   ],
+   "curl": 0,
+   "http": null,
+   "title": null,
+   "final": null,
+   "verdict": "OPEN_FAILED",
+   "err": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://arucoin.jp/\nCall log:"
+  },
+  {
+   "url": "https://dcard.docomo.ne.jp/std/campaigns/202607_1cm/cpn-shinkinyuukai-tokuten/index.html",
+   "slugs": [
+    "credit-card-campaign-2026-07"
+   ],
+   "curl": 0,
+   "http": 200,
+   "title": "【dカード】はじめてのdカード新規入会で合計最大12,400ポイントもらえる！",
+   "final": "https://dcard.docomo.ne.jp/std/campaigns/202607_1cm/cpn-shinkinyuukai-tokuten/index.html",
+   "verdict": "ALIVE"
+  },
+  {
+   "url": "https://dcard.docomo.ne.jp/std/info/correction20251101.html",
+   "slugs": [
+    "credit-card-kaiaku-2026"
+   ],
+   "curl": 0,
+   "http": 200,
+   "title": "dカード | 【重要】公共料金・税金などの一部ご利用先におけるdポイント還元率の見直し",
+   "final": "https://dcard.docomo.ne.jp/std/info/correction20251101.html",
+   "verdict": "ALIVE"
+  },
+  {
+   "url": "https://denki.docomo.ne.jp/",
+   "slugs": [
+    "fixed-cost-reduction-guide-2026"
+   ],
+   "curl": 0,
+   "http": 200,
+   "title": "ドコモでんき｜電気料金の支払いでdポイントを還元",
+   "final": "https://denki.docomo.ne.jp/",
+   "verdict": "ALIVE"
+  },
+  {
+   "url": "https://docomo-cycle.jp/tokyo-bikeshare/",
+   "slugs": [
+    "mobility-cost-per-km-2026"
+   ],
+   "curl": 404,
+   "http": 404,
+   "title": "Object not found!",
+   "final": "https://docomo-cycle.jp/tokyo-bikeshare/",
+   "verdict": "DEAD"
+  },
+  {
+   "url": "https://dpoint.docomo.ne.jp/article/2009_07.html",
+   "slugs": [
+    "point-exchange-route-2026"
+   ],
+   "curl": 0,
+   "http": 200,
+   "title": "【dポイントクラブ】dポイントとJALのマイルはお互い交換可能！メリットと方法を解説",
+   "final": "https://dpoint.docomo.ne.jp/article/2009_07.html",
+   "verdict": "ALIVE"
+  },
+  {
+   "url": "https://event.rakuten.co.jp/furusato/guide/simulator/",
+   "slugs": [
+    "furusato-tax-beginner-guide-2026"
+   ],
+   "curl": 404,
+   "http": 404,
+   "title": "指定されたページが見つかりません",
+   "final": "https://event.rakuten.co.jp/furusato/guide/simulator/",
+   "verdict": "DEAD"
+  },
+  {
+   "url": "https://every-point.jp/",
+   "slugs": [
+    "walk-poikatsu-2026"
+   ],
+   "curl": 0,
+   "http": null,
+   "title": null,
+   "final": null,
+   "verdict": "OPEN_FAILED",
+   "err": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://every-point.jp/\nCall "
+  },
+  {
+   "url": "https://fx.dmm.com/",
+   "slugs": [
+    "fx-account-comparison-2026"
+   ],
+   "curl": 503,
+   "http": 200,
+   "title": "DMM.com証券のFX-【DMM FX】",
+   "final": "https://fx.dmm.com/",
+   "verdict": "ALIVE"
+  },
+  {
+   "url": "https://health.docomo.ne.jp/",
+   "slugs": [
+    "walk-poikatsu-2026"
+   ],
+   "curl": 0,
+   "http": 200,
+   "title": "dヘルスケア｜毎日の歩数がdポイントに！",
+   "final": "https://health.docomo.ne.jp/",
+   "verdict": "ALIVE"
+  },
+  {
+   "url": "https://healthcare.smt.docomo.ne.jp/",
+   "slugs": [
+    "walk-poikatsu-2026"
+   ],
+   "curl": 0,
+   "http": null,
+   "title": null,
+   "final": null,
+   "verdict": "OPEN_FAILED",
+   "err": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://healthcare.smt.docomo"
+  },
+  {
+   "url": "https://healthree.io/",
+   "slugs": [
+    "walk-poikatsu-2026"
+   ],
+   "curl": 0,
+   "http": null,
+   "title": null,
+   "final": null,
+   "verdict": "OPEN_FAILED",
+   "err": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://healthree.io/\nCall lo"
+  },
+  {
+   "url": "https://kakakumag.com/money/?id=20897",
+   "slugs": [
+    "point-service-complete-guide-2026"
+   ],
+   "curl": 404,
+   "http": 200,
+   "title": "楽天ポイント、Vポイント、dポイント、Pontaポイント、PayPayポイントを徹底比較 - 価格.comマガジン",
+   "final": "https://kakakumag.com/money/?id=20897",
+   "verdict": "ALIVE"
+  },
+  {
+   "url": "https://looop.co.jp/denki/",
+   "slugs": [
+    "electricity-gas-savings-2026"
+   ],
+   "curl": 404,
+   "http": 404,
+   "title": "ページが見つかりません | Ｌｏｏｏｐ (ループ)",
+   "final": "https://looop.co.jp/denki/",
+   "verdict": "DEAD"
+  },
+  {
+   "url": "https://mst.monex.co.jp/mst/servlet/ITS/fx/",
+   "slugs": [
+    "fx-account-comparison-2026"
+   ],
+   "curl": 404,
+   "http": 404,
+   "title": "アクセスしようとしたページが見つかりませんでした／マネックス証券",
+   "final": "https://mst.monex.co.jp/mst/servlet/ITS/fx/",
+   "verdict": "DEAD"
+  },
+  {
+   "url": "https://news.yahoo.co.jp/articles/c21c95237e5e9bd4f3e0fe21a319c9e3fe9e6ef4",
+   "slugs": [
+    "furusato-tax-beginner-guide-2026"
+   ],
+   "curl": 404,
+   "http": 404,
+   "title": "Yahoo!ニュース",
+   "final": "https://news.yahoo.co.jp/articles/c21c95237e5e9bd4f3e0fe21a319c9e3fe9e6ef4",
+   "verdict": "ALIVE"
+  },
+  {
+   "url": "https://poisura.com/",
+   "slugs": [
+    "walk-poikatsu-2026"
+   ],
+   "curl": 0,
+   "http": null,
+   "title": null,
+   "final": null,
+   "verdict": "OPEN_FAILED",
+   "err": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://poisura.com/\nCall log"
+  },
+  {
+   "url": "https://service.smt.docomo.ne.jp/keitai_payment/",
+   "slugs": [
+    "june-2026-campaigns-roundup",
+    "qr-payment-comparison-2026"
+   ],
+   "curl": 0,
+   "http": 200,
+   "title": "d払い - dポイントがたまる！かんたん、便利なスマホ決済",
+   "final": "https://service.smt.docomo.ne.jp/keitai_payment/",
+   "verdict": "ALIVE"
+  },
+  {
+   "url": "https://service.smt.docomo.ne.jp/keitai_payment/assets/top/image/illust_point_description_01.png",
+   "slugs": [
+    "june-2026-campaigns-roundup",
+    "qr-payment-comparison-2026"
+   ],
+   "curl": 0,
+   "http": 200,
+   "title": "illust_point_description_01.png (566×428)",
+   "final": "https://service.smt.docomo.ne.jp/keitai_payment/assets/top/image/illust_point_description_01.png",
+   "verdict": "ALIVE"
+  },
+  {
+   "url": "https://service.smt.docomo.ne.jp/keitai_payment/campaign/",
+   "slugs": [
+    "qr-payment-comparison-2026"
+   ],
+   "curl": 0,
+   "http": 200,
+   "title": "キャンペーン｜d払い - かんたん、便利なスマホ決済",
+   "final": "https://service.smt.docomo.ne.jp/keitai_payment/campaign/",
+   "verdict": "ALIVE"
+  },
+  {
+   "url": "https://stellarwalk.jp/",
+   "slugs": [
+    "walk-poikatsu-2026"
+   ],
+   "curl": 0,
+   "http": null,
+   "title": null,
+   "final": null,
+   "verdict": "OPEN_FAILED",
+   "err": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://stellarwalk.jp/\nCall "
+  },
+  {
+   "url": "https://travel.yahoo.co.jp/dir-00000070/",
+   "slugs": [
+    "summer-cospa-travel-2026"
+   ],
+   "curl": 404,
+   "http": 404,
+   "title": "［Yahoo!トラベル］ページが見つかりません",
+   "final": "https://travel.yahoo.co.jp/dir-00000070/",
+   "verdict": "DEAD"
+  },
+  {
+   "url": "https://travel.yahoo.co.jp/dir-00000998/",
+   "slugs": [
+    "summer-cospa-travel-2026"
+   ],
+   "curl": 404,
+   "http": 404,
+   "title": "［Yahoo!トラベル］ページが見つかりません",
+   "final": "https://travel.yahoo.co.jp/dir-00000998/",
+   "verdict": "DEAD"
+  },
+  {
+   "url": "https://travel.yahoo.co.jp/dir-00003354/",
+   "slugs": [
+    "summer-cospa-travel-2026"
+   ],
+   "curl": 404,
+   "http": 404,
+   "title": "［Yahoo!トラベル］ページが見つかりません",
+   "final": "https://travel.yahoo.co.jp/dir-00003354/",
+   "verdict": "DEAD"
+  },
+  {
+   "url": "https://travel.yahoo.co.jp/h/?keyword=%E6%9D%89%E4%B9%83%E4%BA%95",
+   "slugs": [
+    "summer-cospa-travel-2026"
+   ],
+   "curl": 404,
+   "http": 404,
+   "title": "［Yahoo!トラベル］ページが見つかりません",
+   "final": "https://travel.yahoo.co.jp/h/?keyword=%E6%9D%89%E4%B9%83%E4%BA%95",
+   "verdict": "DEAD"
+  },
+  {
+   "url": "https://www.amazon.co.jp/b?node=5961517051",
+   "slugs": [
+    "hoso-daigaku-gakuwari-2026"
+   ],
+   "curl": 404,
+   "http": 404,
+   "title": "ページが見つかりません",
+   "final": "https://www.amazon.co.jp/b?node=5961517051",
+   "verdict": "DEAD"
+  },
+  {
+   "url": "https://www.ana.co.jp/ja/jp/amc/reference/anamile/pocket/",
+   "slugs": [
+    "walk-poikatsu-2026"
+   ],
+   "curl": 404,
+   "http": 404,
+   "title": "指定されたページが見つかりません│ANA",
+   "final": "https://www.ana.co.jp/ja/jp/amc/reference/anamile/pocket/",
+   "verdict": "DEAD"
+  },
+  {
+   "url": "https://www.ana.co.jp/ja/jp/guide/ana-pocket/",
+   "slugs": [
+    "walk-poikatsu-2026"
+   ],
+   "curl": 404,
+   "http": 404,
+   "title": "指定されたページが見つかりません│ANA",
+   "final": "https://www.ana.co.jp/ja/jp/guide/ana-pocket/",
+   "verdict": "DEAD"
+  },
+  {
+   "url": "https://www.axa-direct.co.jp/auto/",
+   "slugs": [
+    "car-insurance-comparison-2026"
+   ],
+   "curl": 0,
+   "http": 200,
+   "title": "自動車保険ならアクサ損害保険｜ネット申込で最大22,000円割引",
+   "final": "https://www.axa-direct.co.jp/auto/",
+   "verdict": "ALIVE"
+  },
+  {
+   "url": "https://www.bang.co.jp/auto/",
+   "slugs": [
+    "car-insurance-comparison-2026"
+   ],
+   "curl": 404,
+   "http": 404,
+   "title": "404 Not Found",
+   "final": "https://www.bang.co.jp/auto/",
+   "verdict": "DEAD"
+  },
+  {
+   "url": "https://www.bang.co.jp/insurance/",
+   "slugs": [
+    "car-insurance-comparison-2026"
+   ],
+   "curl": 404,
+   "http": 404,
+   "title": "404 Not Found",
+   "final": "https://www.bang.co.jp/insurance/",
+   "verdict": "DEAD"
+  },
+  {
+   "url": "https://www.click-sec.com/corp/fx/",
+   "slugs": [
+    "fx-account-comparison-2026"
+   ],
+   "curl": 404,
+   "http": 404,
+   "title": "ページが見つかりません。Not Found 404 | GMOクリック証券",
+   "final": "https://www.click-sec.com/corp/fx/",
+   "verdict": "DEAD"
+  },
+  {
+   "url": "https://www.emsc.meti.go.jp/",
+   "slugs": [
+    "electricity-gas-savings-2026"
+   ],
+   "curl": 0,
+   "http": null,
+   "title": null,
+   "final": null,
+   "verdict": "OPEN_FAILED",
+   "err": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.emsc.meti.go.jp/\n"
+  },
+  {
+   "url": "https://www.eneos.co.jp/citygas/",
+   "slugs": [
+    "electricity-gas-savings-2026"
+   ],
+   "curl": 404,
+   "http": 404,
+   "title": "お探しのページが見つかりません - Page Not Found｜ENEOS",
+   "final": "https://www.eneos.co.jp/citygas/",
+   "verdict": "DEAD"
+  },
+  {
+   "url": "https://www.eneos.co.jp/denki/",
+   "slugs": [
+    "electricity-gas-savings-2026"
+   ],
+   "curl": 404,
+   "http": 404,
+   "title": "お探しのページが見つかりません - Page Not Found｜ENEOS",
+   "final": "https://www.eneos.co.jp/denki/",
+   "verdict": "DEAD"
+  },
+  {
+   "url": "https://www.furusato-tax.jp/",
+   "slugs": [
+    "furusato-tax-beginner-guide-2026"
+   ],
+   "curl": 404,
+   "http": 200,
+   "title": "【ふるさとチョイス】お礼の品掲載数No.1のふるさと納税サイト",
+   "final": "https://www.furusato-tax.jp/",
+   "verdict": "ALIVE"
+  },
+  {
+   "url": "https://www.furusato-tax.jp/about/easy_simulation",
+   "slugs": [
+    "furusato-tax-beginner-guide-2026"
+   ],
+   "curl": 404,
+   "http": 200,
+   "title": "年収別にすぐわかる。ふるさと納税の控除上限額かんたんシミュレーション｜ふるさとチョイス",
+   "final": "https://www.furusato-tax.jp/about/easy_simulation",
+   "verdict": "ALIVE"
+  },
+  {
+   "url": "https://www.gpoint.co.jp/pen/charge/",
+   "slugs": [
+    "point-exchange-route-2026"
+   ],
+   "curl": 503,
+   "http": 503,
+   "title": "Ｇポイント　メンテナンスのお知らせ",
+   "final": "https://www.gpoint.co.jp/pen/charge/",
+   "verdict": "ALIVE"
+  },
+  {
+   "url": "https://www.gyomusuper.jp/",
+   "slugs": [
+    "tokyo-discount-supermarket-2026"
+   ],
+   "curl": 0,
+   "http": 200,
+   "title": "業務スーパー | プロの品質とプロの価格",
+   "final": "https://www.gyomusuper.jp/",
+   "verdict": "ALIVE"
+  },
+  {
+   "url": "https://www.gyomusuper.jp/product/index.php",
+   "slugs": [
+    "tokyo-discount-supermarket-2026"
+   ],
+   "curl": 0,
+   "http": 200,
+   "title": "商品紹介｜プロの品質とプロの価格の業務スーパー",
+   "final": "https://www.gyomusuper.jp/product/index.php",
+   "verdict": "ALIVE"
+  },
+  {
+   "url": "https://www.gyomusuper.jp/saiyasune.php",
+   "slugs": [
+    "tokyo-discount-supermarket-2026"
+   ],
+   "curl": 0,
+   "http": 200,
+   "title": "特売情報｜プロの品質とプロの価格の業務スーパー",
+   "final": "https://www.gyomusuper.jp/saiyasune.php",
+   "verdict": "ALIVE"
+  },
+  {
+   "url": "https://www.gyomusuper.jp/shop/list.php?pref_id=13",
+   "slugs": [
+    "tokyo-discount-supermarket-2026"
+   ],
+   "curl": 0,
+   "http": 200,
+   "title": "東京都の店舗一覧 - 店舗案内｜プロの品質とプロの価格の業務スーパー",
+   "final": "https://www.gyomusuper.jp/shop/list.php?pref_id=13",
+   "verdict": "ALIVE"
+  },
+  {
+   "url": "https://www.ikea.com/jp/ja/cat/cushion-covers-20535/",
+   "slugs": [
+    "ikea-toyosu-2026"
+   ],
+   "curl": 404,
+   "http": 200,
+   "title": "洗える枕（羽毛枕・羽根枕）の通販 - IKEA",
+   "final": "https://www.ikea.com/jp/ja/cat/down-feather-pillows-20535/",
+   "verdict": "ALIVE"
+  },
+  {
+   "url": "https://www.ikea.com/jp/ja/cat/cushions-cushion-covers-18749/",
+   "slugs": [
+    "ikea-toyosu-2026"
+   ],
+   "curl": 404,
+   "http": 200,
+   "title": "商品一覧 - IKEA",
+   "final": "https://www.ikea.com/jp/ja/cat/products-products/",
+   "verdict": "ALIVE"
+  },
+  {
+   "url": "https://www.ikea.com/jp/ja/cat/stools-benches-20655/",
+   "slugs": [
+    "ikea-toyosu-2026"
+   ],
+   "curl": 404,
+   "http": 200,
+   "title": "商品一覧 - IKEA",
+   "final": "https://www.ikea.com/jp/ja/cat/products-products/",
+   "verdict": "ALIVE"
+  },
+  {
+   "url": "https://www.ikea.com/jp/ja/p/raskog-trolley-black-70517477/",
+   "slugs": [
+    "ikea-toyosu-2026"
+   ],
+   "curl": 404,
+   "http": 200,
+   "title": "商品一覧 - IKEA",
+   "final": "https://www.ikea.com/jp/ja/cat/products-products/",
+   "verdict": "ALIVE"
+  },
+  {
+   "url": "https://www.ikea.com/jp/ja/p/risatorp-basket-white-10221101/",
+   "slugs": [
+    "ikea-toyosu-2026"
+   ],
+   "curl": 404,
+   "http": 200,
+   "title": "商品一覧 - IKEA",
+   "final": "https://www.ikea.com/jp/ja/cat/products-products/",
+   "verdict": "ALIVE"
+  },
+  {
+   "url": "https://www.inzweb.jp/",
+   "slugs": [
+    "car-insurance-comparison-2026"
+   ],
+   "curl": 0,
+   "http": null,
+   "title": null,
+   "final": null,
+   "verdict": "OPEN_FAILED",
+   "err": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.inzweb.jp/\nCall l"
+  },
+  {
+   "url": "https://www.j-fsa.go.jp/",
+   "slugs": [
+    "cardloan-comparison-2026"
+   ],
+   "curl": 0,
+   "http": null,
+   "title": null,
+   "final": null,
+   "verdict": "OPEN_FAILED",
+   "err": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.j-fsa.go.jp/\nCall"
+  },
+  {
+   "url": "https://www.jalan.net/uw/uwp3500/uww3551.do",
+   "slugs": [
+    "summer-cospa-travel-2026"
+   ],
+   "curl": 404,
+   "http": 404,
+   "title": "該当ページURLは存在しません",
+   "final": "https://www.jalan.net/uw/uwp3500/uww3551.do",
+   "verdict": "DEAD"
+  },
+  {
+   "url": "https://www.lucidchart.com/pages/ja/education",
+   "slugs": [
+    "hoso-daigaku-gakuwari-2026"
+   ],
+   "curl": 404,
+   "http": 404,
+   "title": "404 Page Not Found | Lucid Software",
+   "final": "https://lucid.co/ja/lucidchart/education",
+   "verdict": "DEAD"
+  },
+  {
+   "url": "https://www.lucidchart.com/pages/ja/pricing",
+   "slugs": [
+    "hoso-daigaku-gakuwari-2026"
+   ],
+   "curl": 404,
+   "http": 404,
+   "title": "404 ページが見つかりません | Lucid Software",
+   "final": "https://lucid.co/ja/lucidchart/pricing",
+   "verdict": "DEAD"
+  },
+  {
+   "url": "https://www.matsui.co.jp/service/fx/",
+   "slugs": [
+    "fx-account-comparison-2026"
+   ],
+   "curl": 404,
+   "http": 404,
+   "title": "お探しのページは見つかりませんでした | 松井証券",
+   "final": "https://www.matsui.co.jp/service/fx/",
+   "verdict": "DEAD"
+  },
+  {
+   "url": "https://www.nmwa.go.jp/",
+   "slugs": [
+    "hoso-daigaku-gakuwari-2026"
+   ],
+   "curl": 0,
+   "http": 200,
+   "title": "国立西洋美術館",
+   "final": "https://www.nmwa.go.jp/jp/",
+   "verdict": "ALIVE"
+  },
+  {
+   "url": "https://www.orixcredit.jp/",
+   "slugs": [
+    "cardloan-comparison-2026"
+   ],
+   "curl": 0,
+   "http": null,
+   "title": null,
+   "final": null,
+   "verdict": "OPEN_FAILED",
+   "err": "page.goto: Timeout 20000ms exceeded.\nCall log:\n  - navigating to \"http"
+  },
+  {
+   "url": "https://www.parallels.com/jp/products/desktop/education/",
+   "slugs": [
+    "hoso-daigaku-gakuwari-2026"
+   ],
+   "curl": 404,
+   "http": 404,
+   "title": "Page Not Found",
+   "final": "https://www.parallels.com/jp/products/desktop/education/",
+   "verdict": "DEAD"
+  },
+  {
+   "url": "https://www.paypay-card.co.jp/",
+   "slugs": [
+    "credit-card-no-annual-fee-comparison-2026",
+    "june-2026-campaigns-roundup",
+    "paypay-2026-june-revision-guide"
+   ],
+   "curl": 404,
+   "http": 200,
+   "title": "クレジットカードなら、PayPayカード PayPayと一緒に使うと便利でおトク - PayPayカード",
+   "final": "https://www.paypay-card.co.jp/",
+   "verdict": "ALIVE"
+  },
+  {
+   "url": "https://www.pointtown.com/ptu/static/companyData",
+   "slugs": [
+    "pointsite-comparison-2026"
+   ],
+   "curl": 404,
+   "http": 404,
+   "title": "404 not found | ポイ活・ポイントサイトはポイントタウン",
+   "final": "https://www.pointtown.com/ptu/static/companyData",
+   "verdict": "DEAD"
+  },
+  {
+   "url": "https://www.promise.co.jp/",
+   "slugs": [
+    "cardloan-comparison-2026"
+   ],
+   "curl": 0,
+   "http": null,
+   "title": null,
+   "final": null,
+   "verdict": "OPEN_FAILED",
+   "err": "page.goto: net::ERR_ADDRESS_UNREACHABLE at https://www.promise.co.jp/\n"
+  },
+  {
+   "url": "https://www.satofull.jp/",
+   "slugs": [
+    "furusato-tax-2026-reform-guide",
+    "furusato-tax-beginner-guide-2026"
+   ],
+   "curl": 0,
+   "http": null,
+   "title": null,
+   "final": null,
+   "verdict": "OPEN_FAILED",
+   "err": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.satofull.jp/\nCall"
+  },
+  {
+   "url": "https://www.smbc.co.jp/kojin/olive/imgs/index_img_18_pc.png",
+   "slugs": [
+    "june-2026-campaigns-roundup"
+   ],
+   "curl": 0,
+   "http": 200,
+   "title": "index_img_18_pc.png (800×523)",
+   "final": "https://www.smbc.co.jp/kojin/olive/imgs/index_img_18_pc.png",
+   "verdict": "ALIVE"
+  },
+  {
+   "url": "https://www.sonysonpo.co.jp/auto/",
+   "slugs": [
+    "car-insurance-comparison-2026"
+   ],
+   "curl": 503,
+   "http": 200,
+   "title": "ソニー損保の自動車保険【公式サイト】",
+   "final": "https://www.sonysonpo.co.jp/auto/",
+   "verdict": "ALIVE"
+  },
+  {
+   "url": "https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/furusato/index.html",
+   "slugs": [
+    "summer-cospa-travel-2026"
+   ],
+   "curl": 404,
+   "http": 404,
+   "title": "総務省｜ご案内ページ　－ご利用のページが見つかりません－",
+   "final": "https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/furusato/index.html",
+   "verdict": "DEAD"
+  },
+  {
+   "url": "https://www.spotify.com/jp-ja/student/",
+   "slugs": [
+    "hoso-daigaku-gakuwari-2026"
+   ],
+   "curl": 502,
+   "http": null,
+   "title": null,
+   "final": null,
+   "verdict": "OPEN_FAILED",
+   "err": "page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://www.spotify.com/"
+  },
+  {
+   "url": "https://www.sugi-net.jp/sugisapo/",
+   "slugs": [
+    "walk-poikatsu-2026"
+   ],
+   "curl": 404,
+   "http": null,
+   "title": null,
+   "final": null,
+   "verdict": "OPEN_FAILED",
+   "err": "page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://www.sugi-net.jp/"
+  },
+  {
+   "url": "https://www.toys.or.jp/toyshow/",
+   "slugs": [
+    "wangan-august-events-2026"
+   ],
+   "curl": 404,
+   "http": null,
+   "title": null,
+   "final": null,
+   "verdict": "OPEN_FAILED",
+   "err": "page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://www.toys.or.jp/t"
+  },
+  {
+   "url": "https://www.ueshima-coffee-ten.jp/menu/morning/",
+   "slugs": [
+    "morning-500-2026"
+   ],
+   "curl": 0,
+   "http": null,
+   "title": null,
+   "final": null,
+   "verdict": "OPEN_FAILED",
+   "err": "page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://www.ueshima-coff"
+  },
+  {
+   "url": "https://www.wolframalpha.com/pro-for-students",
+   "slugs": [
+    "hoso-daigaku-gakuwari-2026"
+   ],
+   "curl": 404,
+   "http": null,
+   "title": null,
+   "final": null,
+   "verdict": "OPEN_FAILED",
+   "err": "page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://www.wolframalpha"
+  },
+  {
+   "url": "https://www.wolframalpha.com/pro/pricing/students",
+   "slugs": [
+    "hoso-daigaku-gakuwari-2026"
+   ],
+   "curl": 404,
+   "http": null,
+   "title": null,
+   "final": null,
+   "verdict": "OPEN_FAILED",
+   "err": "page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://www.wolframalpha"
+  },
+  {
+   "url": "https://www.yoshinoya.com/menu/morningset/",
+   "slugs": [
+    "morning-500-2026"
+   ],
+   "curl": 0,
+   "http": null,
+   "title": null,
+   "final": null,
+   "verdict": "OPEN_FAILED",
+   "err": "page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://www.yoshinoya.co"
+  },
+  {
+   "url": "https://www.yoshinoya.com/menu/morningset/nattou-tei/",
+   "slugs": [
+    "morning-500-2026"
+   ],
+   "curl": 0,
+   "http": null,
+   "title": null,
+   "final": null,
+   "verdict": "OPEN_FAILED",
+   "err": "page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://www.yoshinoya.co"
+  },
+  {
+   "url": "https://www.yoshinoya.com/menu/morningset/shiosaba-gyu-tei/",
+   "slugs": [
+    "morning-500-2026"
+   ],
+   "curl": 0,
+   "http": null,
+   "title": null,
+   "final": null,
+   "verdict": "OPEN_FAILED",
+   "err": "page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://www.yoshinoya.co"
+  },
+  {
+   "url": "https://www.yoshinoya.com/menu/morningset/shiosaba-tokuasa-tei/",
+   "slugs": [
+    "morning-500-2026"
+   ],
+   "curl": 0,
+   "http": null,
+   "title": null,
+   "final": null,
+   "verdict": "OPEN_FAILED",
+   "err": "page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://www.yoshinoya.co"
+  }
+ ]
+}

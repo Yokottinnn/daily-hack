@@ -1,5 +1,5 @@
 {
- "total": 1016,
+ "total": 1010,
  "results": [
   {
    "url": "http://k-scc.co.jp/sauna/",
@@ -582,12 +582,12 @@
    "final": "https://commons.wikimedia.org/wiki/File:Japanese_communal_bathhouse_SENTO_Sent%C5%8D_%E9%8A%AD%E6%B9%AF%E3%81%AE%E6%B5%B4%E5%AE%A4.jpg"
   },
   {
-   "url": "https://commons.wikimedia.org/wiki/File:Kids%20walking%20on%20park%20path%20(Unsplash",
+   "url": "https://commons.wikimedia.org/wiki/File:Kids%20walking%20on%20park%20path%20(Unsplash).jpg",
    "slugs": [
     "walk-poikatsu-2026"
    ],
-   "status": 404,
-   "final": "https://commons.wikimedia.org/wiki/File:Kids_walking_on_park_path_(Unsplash"
+   "status": 200,
+   "final": "https://commons.wikimedia.org/wiki/File:Kids_walking_on_park_path_(Unsplash).jpg"
   },
   {
    "url": "https://commons.wikimedia.org/wiki/File:LaLa-port_Yokohama.JPG",
@@ -598,12 +598,12 @@
    "final": "https://commons.wikimedia.org/wiki/File:LaLa-port_Yokohama.JPG"
   },
   {
-   "url": "https://commons.wikimedia.org/wiki/File:LaLaport_AICHI_TOGO_(1",
+   "url": "https://commons.wikimedia.org/wiki/File:LaLaport_AICHI_TOGO_(1),_Haruki_Togo_Town_2023.jpg",
    "slugs": [
     "lalaport-guide-2026"
    ],
-   "status": 404,
-   "final": "https://commons.wikimedia.org/wiki/File:LaLaport_AICHI_TOGO_(1"
+   "status": 200,
+   "final": "https://commons.wikimedia.org/wiki/File:LaLaport_AICHI_TOGO_(1),_Haruki_Togo_Town_2023.jpg"
   },
   {
    "url": "https://commons.wikimedia.org/wiki/File:LaLaport_Anjo_2025-05_ac.jpg",
@@ -614,12 +614,12 @@
    "final": "https://commons.wikimedia.org/wiki/File:LaLaport_Anjo_2025-05_ac.jpg"
   },
   {
-   "url": "https://commons.wikimedia.org/wiki/File:LaLaport_FUJIMI_Entrance_(Fujimi_city,Saitama,Japan",
+   "url": "https://commons.wikimedia.org/wiki/File:LaLaport_FUJIMI_Entrance_(Fujimi_city,Saitama,Japan)_15-04.JPG",
    "slugs": [
     "lalaport-guide-2026"
    ],
-   "status": 404,
-   "final": "https://commons.wikimedia.org/wiki/File:LaLaport_FUJIMI_Entrance_(Fujimi_city,Saitama,Japan"
+   "status": 200,
+   "final": "https://commons.wikimedia.org/wiki/File:LaLaport_FUJIMI_Entrance_(Fujimi_city,Saitama,Japan)_15-04.JPG"
   },
   {
    "url": "https://commons.wikimedia.org/wiki/File:LaLaport_Kashiwanoha_2024.jpg",
@@ -670,21 +670,21 @@
    "final": "https://commons.wikimedia.org/wiki/File:Lopia--sushi--2024-06-08_01.jpg"
   },
   {
-   "url": "https://commons.wikimedia.org/wiki/File:Marinated_tuna_sashimi_(25382402269",
+   "url": "https://commons.wikimedia.org/wiki/File:Marinated_tuna_sashimi_(25382402269).jpg",
    "slugs": [
     "furusato-tax-2026-reform-guide"
    ],
-   "status": 404,
-   "final": "https://commons.wikimedia.org/wiki/File:Marinated_tuna_sashimi_(25382402269"
+   "status": 200,
+   "final": "https://commons.wikimedia.org/wiki/File:Marinated_tuna_sashimi_(25382402269).jpg"
   },
   {
-   "url": "https://commons.wikimedia.org/wiki/File:Minato_City,_Tokyo,_Japan_(Night",
+   "url": "https://commons.wikimedia.org/wiki/File:Minato_City,_Tokyo,_Japan_(Night)-denoised.jpg",
    "slugs": [
     "odaiba-drone-show-2026",
     "sauna-openings-2026"
    ],
-   "status": 404,
-   "final": "https://commons.wikimedia.org/wiki/File:Minato_City,_Tokyo,_Japan_(Night"
+   "status": 200,
+   "final": "https://commons.wikimedia.org/wiki/File:Minato_City,_Tokyo,_Japan_(Night)-denoised.jpg"
   },
   {
    "url": "https://commons.wikimedia.org/wiki/File:Minato_Mirai_-_Yokohama_Skyline_March_2025.jpg",
@@ -743,13 +743,13 @@
    "final": "https://commons.wikimedia.org/wiki/File:OK_Hiyoshi_store.jpg"
   },
   {
-   "url": "https://commons.wikimedia.org/wiki/File:Rainbow_Bridge_(Summer",
+   "url": "https://commons.wikimedia.org/wiki/File:Rainbow_Bridge_(Summer)_-_panoramio.jpg",
    "slugs": [
     "odaiba-drone-show-2026",
     "wangan-festivals-2026"
    ],
-   "status": 404,
-   "final": "https://commons.wikimedia.org/wiki/File:Rainbow_Bridge_(Summer"
+   "status": 200,
+   "final": "https://commons.wikimedia.org/wiki/File:Rainbow_Bridge_(Summer)_-_panoramio.jpg"
   },
   {
    "url": "https://commons.wikimedia.org/wiki/File:Tokyo_bay_fireworks_2015.jpg",
@@ -2980,14 +2980,6 @@
    "final": "https://onsen.nifty.com/shinjuku-onsen/onsen024709/"
   },
   {
-   "url": "https://paradise-otemachi.com/",
-   "slugs": [
-    "sauna-openings-2026"
-   ],
-   "status": 200,
-   "final": "https://paradise-otemachi.com/"
-  },
-  {
    "url": "https://paradise-otemachi.com/facility_spa.html",
    "slugs": [
     "sauna-openings-2026"
@@ -3305,16 +3297,15 @@
     "june-2026-campaigns-roundup"
    ],
    "status": 200,
-   "final": "https://login.account.rakuten.com/sso/authorize?prompt=login&response_type=code&client_id=rakuten_connect_web&scope=profile%20openid%20email&state=jH-NC9QOXXFGB93Nl1v5c35BdLvLUr7IRGVyiqgFesQ%3D&redirect_uri=https://refer.rakuten.co.jp/login/oauth2/code/omni-ui-participation&nonce=DzmreGzjpgNdI3dJX41H7JeayZNp7pJbcgl3YtbedLM"
+   "final": "https://login.account.rakuten.com/sso/authorize?prompt=login&response_type=code&client_id=rakuten_connect_web&scope=profile%20openid%20email&state=aoVp-FiQz7w13McqlOfQ9279hDFW8iwn-lYBf6QfvU4%3D&redirect_uri=https://refer.rakuten.co.jp/login/oauth2/code/omni-ui-participation&nonce=aprdqGhIOHUyEbfv46dixdoX8JrPNRdwd9O62K6xmfE"
   },
   {
    "url": "https://r10.to/hPJ001",
    "slugs": [
     "cheap-sim-comparison-2026"
    ],
-   "status": 0,
-   "final": null,
-   "err": "fetch failed"
+   "status": 200,
+   "final": "https://login.account.rakuten.com/sso/authorize?prompt=login&response_type=code&client_id=rakuten_connect_web&scope=profile%20openid%20email&state=i2eSCmTa361jFp2sCRUbfzx9nBvL89srQDpfQmDeFK0%3D&redirect_uri=https://refer.rakuten.co.jp/login/oauth2/code/omni-ui-participation&nonce=1DqnrknQrh6EQSF3pwYkGpOcpueISBg001lMWxIJ9F4"
   },
   {
    "url": "https://r10.to/hPxfRD",
@@ -3329,7 +3320,7 @@
     "rakuten-marathon-guide-2026"
    ],
    "status": 200,
-   "final": "https://login.account.rakuten.com/sso/authorize?prompt=login&response_type=code&client_id=rakuten_connect_web&scope=profile%20openid%20email&state=ADowhAJjOiP89S7p1McH1jioQvVSe27o3ST2cdtzGHQ%3D&redirect_uri=https://refer.rakuten.co.jp/login/oauth2/code/omni-ui-participation&nonce=wlcRlhBEnfGSkQvp6vZzF_q7GghBeGf-XPczDEcKupU"
+   "final": "https://login.account.rakuten.com/sso/authorize?prompt=login&response_type=code&client_id=rakuten_connect_web&scope=profile%20openid%20email&state=5d-IKUaJOoy3Jof-xe4H9K2l6MfW075tkUtz_P-NJqY%3D&redirect_uri=https://refer.rakuten.co.jp/login/oauth2/code/omni-ui-participation&nonce=X4lFylK7i2Hpflvu27pdW9dOfSR08-Bd8MI0-SOeOiY"
   },
   {
    "url": "https://r10.to/hYntA2",
@@ -3337,7 +3328,7 @@
     "amazon-prime-day-rakuten-ss-2026"
    ],
    "status": 200,
-   "final": "https://login.account.rakuten.com/sso/authorize?prompt=login&response_type=code&client_id=rakuten_connect_web&scope=profile%20openid%20email&state=AwxmAIRl6hYumdBfmPTUIBXHwHEuGedRQS21SShzYz8%3D&redirect_uri=https://refer.rakuten.co.jp/login/oauth2/code/omni-ui-participation&nonce=qrTtdyFL9vmZccyMO78d-wdhJj4Y1dETIRr-vjcETuw"
+   "final": "https://login.account.rakuten.com/sso/authorize?prompt=login&response_type=code&client_id=rakuten_connect_web&scope=profile%20openid%20email&state=Fots10AsoICZ0E_JAc5Ed9ej6fXrnFUp3pigdJee3Tg%3D&redirect_uri=https://refer.rakuten.co.jp/login/oauth2/code/omni-ui-participation&nonce=Wv3_MlfzmpwnDUGo-2qBeumchxlxdeqgq-G_NgeEpKc"
   },
   {
    "url": "https://recruit-card.jp/introCampTop/?introId=sNLwzpFx",
@@ -4644,20 +4635,13 @@
    "final": "https://www.autodesk.com/jp/products/autocad/overview"
   },
   {
-   "url": "https://www.axa-direct.co.jp/",
-   "slugs": [
-    "car-insurance-comparison-2026"
-   ],
-   "status": 200,
-   "final": "https://www.axa-direct.co.jp/"
-  },
-  {
    "url": "https://www.axa-direct.co.jp/auto/",
    "slugs": [
     "car-insurance-comparison-2026"
    ],
-   "status": 200,
-   "final": "https://www.axa-direct.co.jp/auto/"
+   "status": 0,
+   "final": null,
+   "err": "fetch failed"
   },
   {
    "url": "https://www.ayana.com/ja/bali/",
@@ -5283,32 +5267,36 @@
    "slugs": [
     "tokyo-discount-supermarket-2026"
    ],
-   "status": 200,
-   "final": "https://www.gyomusuper.jp/"
+   "status": 0,
+   "final": null,
+   "err": "fetch failed"
   },
   {
    "url": "https://www.gyomusuper.jp/product/index.php",
    "slugs": [
     "tokyo-discount-supermarket-2026"
    ],
-   "status": 200,
-   "final": "https://www.gyomusuper.jp/product/index.php"
+   "status": 0,
+   "final": null,
+   "err": "fetch failed"
   },
   {
    "url": "https://www.gyomusuper.jp/saiyasune.php",
    "slugs": [
     "tokyo-discount-supermarket-2026"
    ],
-   "status": 200,
-   "final": "https://www.gyomusuper.jp/saiyasune.php"
+   "status": 0,
+   "final": null,
+   "err": "fetch failed"
   },
   {
    "url": "https://www.gyomusuper.jp/shop/list.php?pref_id=13",
    "slugs": [
     "tokyo-discount-supermarket-2026"
    ],
-   "status": 200,
-   "final": "https://www.gyomusuper.jp/shop/list.php?pref_id=13"
+   "status": 0,
+   "final": null,
+   "err": "fetch failed"
   },
   {
    "url": "https://www.gyukaku.ne.jp/",
@@ -6268,14 +6256,6 @@
    "final": "https://www.microsoft.com/ja-jp/microsoft-365/p/microsoft-365-personal/cfq7ttc0k5bc"
   },
   {
-   "url": "https://www.mitsui-direct.co.jp/",
-   "slugs": [
-    "car-insurance-comparison-2026"
-   ],
-   "status": 200,
-   "final": "https://www.mitsui-direct.co.jp/"
-  },
-  {
    "url": "https://www.mitsui-direct.co.jp/car/",
    "slugs": [
     "car-insurance-comparison-2026"
@@ -6474,18 +6454,16 @@
    "slugs": [
     "hoso-daigaku-gakuwari-2026"
    ],
-   "status": 0,
-   "final": null,
-   "err": "fetch failed"
+   "status": 403,
+   "final": "https://www.momat.go.jp/"
   },
   {
    "url": "https://www.momat.go.jp/craft-museum",
    "slugs": [
     "hoso-daigaku-gakuwari-2026"
    ],
-   "status": 0,
-   "final": null,
-   "err": "fetch failed"
+   "status": 403,
+   "final": "https://www.momat.go.jp/craft-museum"
   },
   {
    "url": "https://www.monex.co.jp/",
@@ -6693,8 +6671,9 @@
    "slugs": [
     "hoso-daigaku-gakuwari-2026"
    ],
-   "status": 200,
-   "final": "https://www.nmwa.go.jp/jp/"
+   "status": 0,
+   "final": null,
+   "err": "fetch failed"
   },
   {
    "url": "https://www.notion.com/pricing",
@@ -7334,17 +7313,17 @@
     "furusato-tax-2026-reform-guide",
     "furusato-tax-beginner-guide-2026"
    ],
-   "status": 200,
-   "final": "https://www.satofull.jp/"
+   "status": 0,
+   "final": null,
+   "err": "This operation was aborted"
   },
   {
    "url": "https://www.satofull.jp/static/calculation01.php",
    "slugs": [
     "furusato-tax-beginner-guide-2026"
    ],
-   "status": 0,
-   "final": null,
-   "err": "This operation was aborted"
+   "status": 200,
+   "final": "https://www.satofull.jp/static/calculation01.php"
   },
   {
    "url": "https://www.sauna-jyoshin.com/",
@@ -7386,14 +7365,6 @@
    ],
    "status": 200,
    "final": "https://www.sbisec.co.jp/ETGate/"
-  },
-  {
-   "url": "https://www.sbisonpo.co.jp/",
-   "slugs": [
-    "car-insurance-comparison-2026"
-   ],
-   "status": 200,
-   "final": "https://www.sbisonpo.co.jp/"
   },
   {
    "url": "https://www.sbisonpo.co.jp/car/",
@@ -7552,8 +7523,9 @@
    "slugs": [
     "june-2026-campaigns-roundup"
    ],
-   "status": 200,
-   "final": "https://www.smbc.co.jp/kojin/olive/imgs/index_img_18_pc.png"
+   "status": 0,
+   "final": null,
+   "err": "fetch failed"
   },
   {
    "url": "https://www.smbc.co.jp/kojin/redirect/referral04/index.html",
@@ -7581,14 +7553,6 @@
    ],
    "status": 200,
    "final": "https://www.sojitz-sc.com/performance/nasu-gardenoutlet/"
-  },
-  {
-   "url": "https://www.sonysonpo.co.jp/",
-   "slugs": [
-    "car-insurance-comparison-2026"
-   ],
-   "status": 503,
-   "final": "https://www.sonysonpo.co.jp/"
   },
   {
    "url": "https://www.sonysonpo.co.jp/auto/",
@@ -8064,8 +8028,9 @@
    "slugs": [
     "morning-500-2026"
    ],
-   "status": 200,
-   "final": "https://www.ueshima-coffee-ten.jp/menu/morning/"
+   "status": 0,
+   "final": null,
+   "err": "fetch failed"
   },
   {
    "url": "https://www.unrealengine.com/",
@@ -8168,32 +8133,36 @@
    "slugs": [
     "morning-500-2026"
    ],
-   "status": 200,
-   "final": "https://www.yoshinoya.com/menu/morningset/"
+   "status": 0,
+   "final": null,
+   "err": "fetch failed"
   },
   {
    "url": "https://www.yoshinoya.com/menu/morningset/nattou-tei/",
    "slugs": [
     "morning-500-2026"
    ],
-   "status": 200,
-   "final": "https://www.yoshinoya.com/menu/morningset/nattou-tei/"
+   "status": 0,
+   "final": null,
+   "err": "fetch failed"
   },
   {
    "url": "https://www.yoshinoya.com/menu/morningset/shiosaba-gyu-tei/",
    "slugs": [
     "morning-500-2026"
    ],
-   "status": 200,
-   "final": "https://www.yoshinoya.com/menu/morningset/shiosaba-gyu-tei/"
+   "status": 0,
+   "final": null,
+   "err": "fetch failed"
   },
   {
    "url": "https://www.yoshinoya.com/menu/morningset/shiosaba-tokuasa-tei/",
    "slugs": [
     "morning-500-2026"
    ],
-   "status": 200,
-   "final": "https://www.yoshinoya.com/menu/morningset/shiosaba-tokuasa-tei/"
+   "status": 0,
+   "final": null,
+   "err": "fetch failed"
   },
   {
    "url": "https://www.yukonagayama.co.jp/20260130-2/",
@@ -8202,14 +8171,6 @@
    ],
    "status": 200,
    "final": "https://www.yukonagayama.co.jp/20260130-2/"
-  },
-  {
-   "url": "https://www.zurich.co.jp/",
-   "slugs": [
-    "car-insurance-comparison-2026"
-   ],
-   "status": 200,
-   "final": "https://www.zurich.co.jp/"
   },
   {
    "url": "https://www.zurich.co.jp/car/",
