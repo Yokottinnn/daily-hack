@@ -38,12 +38,37 @@ const UA = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 '
 // **見ても仕方ないものは最初から外す。** bot を弾くのが前提のホスト
 const SKIP = /^(twitter\.com|x\.com|www\.youtube-nocookie\.com|www\.youtube\.com|platform\.twitter\.com|px\.a8\.net|cdn\.syndication\.twimg\.com)$/;
 
+// **素の正規表現だけで URL を拾うと、括弧つきの URL が途中で切れる。**
+// 2026-09-27 に Commons の `File:LaLaport_AICHI_TOGO_(1)...` が 6 本 切れて、
+// **生きているのに 404 に見えた。** 先に「囲みが分かっている書き方」から取る。
+function urlsIn(s) {
+  const out = new Set();
+  // ① Markdown のリンク `[文字](URL)` … **括弧の対応を数える**
+  for (const m of s.matchAll(/\]\(\s*(https?:\/\/)/g)) {
+    let i = m.index + m[0].length - m[1].length, depth = 1, j = i;
+    for (; j < s.length; j++) {
+      if (s[j] === '(') depth++;
+      else if (s[j] === ')') { if (--depth === 0) break; }
+      else if (s[j] === ' ' && depth === 1) break;   // `](url "title")`
+    }
+    out.add(s.slice(i, j));
+  }
+  // ② HTML の属性 … 引用符で囲われているので確実
+  for (const m of s.matchAll(/(?:href|src)\s*=\s*"(https?:\/\/[^"]+)"/g)) out.add(m[1]);
+  for (const m of s.matchAll(/(?:href|src)\s*=\s*'(https?:\/\/[^']+)'/g)) out.add(m[1]);
+  // ③ 残り（地の文に裸で書かれたもの）。**ここだけは切れることがある**
+  for (const u of s.match(/https?:\/\/[^\s"'<>)\]]+/g) || []) {
+    if (![...out].some((x) => x.startsWith(u))) out.add(u);
+  }
+  return out;
+}
+
 function collect() {
   const map = new Map();          // url -> Set(slug)
   const dir = 'src/content/posts';
   for (const f of fs.readdirSync(dir).filter((f) => f.endsWith('.md'))) {
     const s = fs.readFileSync(path.join(dir, f), 'utf8');
-    for (let u of new Set(s.match(/https?:\/\/[^\s"'<>)\]]+/g) || [])) {
+    for (let u of urlsIn(s)) {
       u = u.replace(/[.,;:]+$/, '');
       if (u.includes('daily-hack')) continue;
       let host; try { host = new URL(u).host; } catch { continue; }
