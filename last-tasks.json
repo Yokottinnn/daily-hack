@@ -1,4 +1,3 @@
 [
-      {"task": "x164-install-follow-balance-fix.sh", "rc": 124, "out": "制限時間 900 秒 を超えたので打ち切った / "},
-      {"task": "x165-verify-payid-post.sh", "rc": 0, "out": "PAY ID の投稿を一次情報で確かめた / payid-post-verify.md"}
+      {"task": "t195-september-report.sh", "rc": 0, "out": "経過 **16 秒**。  > **`rc=0` は数字が出た証拠ではない**（最上位ルール 13）。 > 各節に「⚠️ 取れなかった」と書かれていないかを見ること。 > Cloudflare のトークンが見つからないと **PV の節だけ落ちる**（2026-09-06 に実際そう"}
   ]
