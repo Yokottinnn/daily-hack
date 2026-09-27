@@ -199,7 +199,7 @@ author: "hacker-ko"
 
 より正確に出したいなら、主要サイトの詳細版シミュレーターへ（源泉徴収票の数字を入れて即計算）:
 
-- <a href="https://event.rakuten.co.jp/furusato/guide/simulator/" target="_blank" rel="noopener nofollow">楽天ふるさと納税｜詳細版シミュレーター</a>（共働き・控除も対応）
+- <a href="https://furusato-nouzei.event.rakuten.co.jp/mypage/deduction-details/" target="_blank" rel="noopener nofollow">楽天ふるさと納税｜詳細版シミュレーター</a>（共働き・控除も対応）
 - <a href="https://www.satofull.jp/static/calculation01.php" target="_blank" rel="noopener nofollow">さとふる｜控除上限額シミュレーション</a>
 - <a href="https://furunavi.jp/deduction.aspx" target="_blank" rel="noopener nofollow">ふるなび｜控除上限額シミュレーター</a>
 - <a href="https://www.furusato-tax.jp/about/easy_simulation" target="_blank" rel="noopener nofollow">ふるさとチョイス｜かんたん寄付上限額シミュレーション</a>
