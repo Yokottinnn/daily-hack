@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-27T12:59:14Z",
+  "generated_at": "2026-09-27T13:29:24Z",
   "login_lock": {"present": false, "age_hours": 0},
   "cdp": {"healthy": true, "port": 18810},
   "x_jobs": {"loaded": 8, "expected": 8, "ai_total": 15, "halted": false, "missing": []},
-  "last_reply": {"at": "2026-09-27T08:23:19.947Z", "age_hours": 4, "stale": false},
+  "last_reply": {"at": "2026-09-27T13:04:14.951Z", "age_hours": 0, "stale": false},
   "supervisor": {"at":"2026-09-27T08:00:07Z","date_jst":"2026-09-27","ran":8,"total":9,"not_run":["comment-warmup"],"fixed":[]},
-  "followback_bands": {"with_count":183,"total_rows":534,"bands":{"1000-4999":{"n":60,"back":8,"mature":50,"mature_back":7,"rate":14},"300-999":{"n":36,"back":9,"mature":27,"mature_back":9,"rate":33.3},"0-99":{"n":46,"back":9,"mature":35,"mature_back":8,"rate":22.9},"5000-49999":{"n":32,"back":1,"mature":27,"mature_back":1,"rate":3.7},"100-299":{"n":9,"back":1,"mature":8,"mature_back":1,"rate":12.5}},"status_values":{"no":403,"revenge_ghost_already_unfollowed":48,"unfollowed":16,"yes_late":1,"yes":49,"pending":17},"note":"mature の率で見る"},
+  "followback_bands": {"with_count":184,"total_rows":535,"bands":{"1000-4999":{"n":60,"back":8,"mature":50,"mature_back":7,"rate":14},"300-999":{"n":36,"back":9,"mature":27,"mature_back":9,"rate":33.3},"0-99":{"n":46,"back":9,"mature":35,"mature_back":8,"rate":22.9},"5000-49999":{"n":33,"back":1,"mature":27,"mature_back":1,"rate":3.7},"100-299":{"n":9,"back":1,"mature":8,"mature_back":1,"rate":12.5}},"status_values":{"no":403,"revenge_ghost_already_unfollowed":48,"unfollowed":16,"yes_late":1,"yes":49,"pending":18},"note":"mature の率で見る"},
   "host": "NaokinoMacBook-Pro-2.local",
   "job_count": 23,
   "jobs": [
@@ -43,11 +43,11 @@
   },
   "activity": {
     "date": "2026-09-27",
-    "posted_today": 11,
+    "posted_today": 23,
     "detail": "ログを走査した",
     "sources": [
-      {"file": "comment-orchestrator.log", "count": 5},
-      {"file": "comment-warmup.log", "count": 6}
+      {"file": "comment-orchestrator.log", "count": 9},
+      {"file": "comment-warmup.log", "count": 14}
     ]
   },
   "autoload": {
@@ -120,7 +120,7 @@
   ],
   "clone": {
     "branch": "main",
-    "behind": 189,
+    "behind": 196,
     "dirty": 1
   },
   "followers": {
