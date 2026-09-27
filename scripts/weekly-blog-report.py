@@ -340,6 +340,97 @@ def _cf_day(token, zone, day, dim):
     return zones[0].get("rows") or []
 
 
+ARCHIVE_BRANCH = "ops/pv-archive"
+
+
+def _repo_root():
+    """このスクリプトが置かれているリポジトリの根。**当て推量しない。**"""
+    d = os.path.dirname(os.path.abspath(__file__))
+    for _ in range(4):
+        if os.path.isdir(os.path.join(d, ".git")):
+            return d
+        d = os.path.dirname(d)
+    return None
+
+
+def cf_from_archive(start, end):
+    """`ops/pv-archive` に積んである日次 JSON から組み立てる。
+
+    **Mac の Cloudflare トークンには Zone Analytics の権限が無い**
+    （2026-09-27 に t197 で判明）。
+
+        Actor '…' does not have permission
+        'com.cloudflare.api.account.zone.analytics.read' for zone …
+
+    一方、**GitHub Actions のトークンには在る。** そちらが毎日
+    `pv-archive` ワークフローで前日ぶんを積んでいるので、ここはそれを読む。
+    **権限を足さなくて済むうえ、週次と月次が同じ数字になる。**
+
+    期間が 1 日でも欠けていたら **None を返す**（欠けたまま合算して
+    「少なく出た」ことに気づけない状態を作らない）。
+    """
+    root = _repo_root()
+    if not root:
+        raise RuntimeError("リポジトリの根が見つからない")
+    subprocess.run(["git", "-C", root, "fetch", "-q", "origin", ARCHIVE_BRANCH],
+                   capture_output=True, timeout=120)
+    months, day = {}, start
+    while day <= end:
+        m = f"{day:%Y-%m}"
+        if m not in months:
+            r = subprocess.run(
+                ["git", "-C", root, "show", f"origin/{ARCHIVE_BRANCH}:data/{m}.json"],
+                capture_output=True, timeout=60)
+            try:
+                months[m] = json.loads(r.stdout or b"{}")
+            except Exception:
+                months[m] = {}
+        day += datetime.timedelta(days=1)
+
+    acc = {"path": {}, "country": {}, "device": {}, "browser": {}}
+    visits = requests_ = human = jp = 0
+    missing = []
+    day = start
+    while day <= end:
+        rec = months.get(f"{day:%Y-%m}", {}).get(str(day))
+        if not rec:
+            missing.append(str(day))
+            day += datetime.timedelta(days=1)
+            continue
+        visits += int(rec.get("visits") or 0)
+        requests_ += int(rec.get("requests") or 0)
+        human += int(rec.get("human") or 0)
+        jp += int(rec.get("jp") or 0)
+        for t in rec.get("top") or []:
+            c = acc["path"].setdefault(t["path"], [0, 0])
+            c[0] += int(t.get("v") or 0); c[1] += int(t.get("r") or 0)
+        for k, dst in (("countries", "country"), ("browsers", "browser")):
+            for t in rec.get(k) or []:
+                c = acc[dst].setdefault(t["k"], [0, 0])
+                c[0] += int(t.get("v") or 0)
+        day += datetime.timedelta(days=1)
+
+    if missing:
+        # **黙って少なく出さない。** 欠けているなら使わない
+        raise RuntimeError(
+            f"アーカイブに {len(missing)} 日 欠けている（{', '.join(missing[:5])}…）。"
+            f"`pv-archive` ワークフローを確認すること")
+
+    def rows_of(dim, key):
+        return [{"sum": {"visits": v}, "count": c, "dimensions": {key: k}}
+                for k, (v, c) in sorted(acc[dim].items(), key=lambda x: -x[1][0])]
+
+    return {
+        "total": [{"count": requests_, "sum": {"visits": visits}}],
+        "human": human, "jp": jp, "truncated": [], "source": "アーカイブ",
+        "byPath": rows_of("path", "requestPath"),
+        "byCountry": rows_of("country", "countryName"),
+        "byDevice": rows_of("device", "deviceType"),
+        "byBrowser": rows_of("browser", "browser"),
+        "byReferer": [],
+    }
+
+
 def cf_fetch(token, zone, start, end):
     """期間ぶんを日ごとに引いて合算する。
 
@@ -441,10 +532,18 @@ def build(args):
     cf = None
     cf_err = None
     try:
-        tok = cf_token()
-        # **Zone Analytics を使う**（RUM は 1 件も取れていなかった・2026-09-27）。
-        # ゾーン ID は当て推量せず、名前で聞く。
-        cf = cf_fetch(tok, cf_zone_id(tok), cf_start, cf_end)
+        # **まずアーカイブを読む。** Mac のトークンには Zone Analytics の権限が無い
+        # （t197 で判明）。GitHub Actions が毎日 `ops/pv-archive` へ積んでいる。
+        try:
+            cf = cf_from_archive(cf_start, cf_end)
+        except Exception as arch_err:
+            # 権限のあるトークンなら API でも取れる。**両方 失敗したら両方 報告する**
+            try:
+                tok = cf_token()
+                cf = cf_fetch(tok, cf_zone_id(tok), cf_start, cf_end)
+                cf["source"] = "Cloudflare API"
+            except Exception as api_err:
+                raise RuntimeError(f"アーカイブ: {arch_err} ／ API: {api_err}")
     except Exception as e:
         cf_err = e
 
@@ -462,6 +561,8 @@ def build(args):
 
     # ── サマリー ──
     s = Section("サマリー")
+    if cf:
+        s.lines.append(f"> 出どころ: **{cf.get('source', 'Cloudflare API')}**")
     s.lines.append("> **visits は読者数ではない。** ボットとクローラを含む。")
     s.lines.append("> **読者に近いのは「実ブラウザ」の行。**"
                    " 検索から来た実訪問は下の「検索クリック」を見る。")
