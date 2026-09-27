@@ -171,6 +171,39 @@ exec(compile(src, "task.py", "exec"), {"__name__": "__main__"})
 代入の漏れだけなら AST でも拾える（モジュール変数を `global` 無しで代入している関数を探す）が、
 **スタブ実行のほうが確実で、API の応答の形が変わっているときも同時に見つかる。**
 
+### 構文検査は、**タスクが実際に打つ名前で打つ**（2026-09-27 に 1 周 無駄にした）
+
+**`x163` は `follow-balance.js` を置けずに終わった。** 構文は正しかった。
+
+```text
+TypeError [ERR_UNKNOWN_FILE_EXTENSION]: Unknown file extension
+  ".new-20260927-151713" for .../scripts/follow-balance.js.new-20260927-151713
+```
+
+一時ファイルを `follow-balance.js.new-<時刻>` に書いたので、
+**`node --check` が拡張子を判別できずに拒んだ**（最上位ルール 14 の表に載っている）。
+
+**これは Linux と Mac の違いではない。** 手元でも同じ名前なら落ちる。
+
+| 打った名前 | rc |
+| --- | --- |
+| `follow-balance.js` | **0** |
+| `follow-balance.js.new-20260927` | **1** |
+
+**気づけなかったのは、検証で素の `.js` を打っていたから。**
+タスクの中では `"$TARGET.new-$STAMP"` を打っているのに、手元では別の名前を打っていた。
+
+```bash
+# 危ない: 拡張子が消える。node は判別できない
+cat > "$TARGET.new-$STAMP" <<'EOF'
+
+# 安全: 拡張子を保った隠しファイル
+TMPJS="$S/.$(basename "$TARGET" .js)-install-$STAMP.js"
+```
+
+**検証は、タスクが書く式をそのまま評価して作った名前に対して打つ。**
+`grep -n 'TMPJS=' <タスク>` で式を取り出し、同じ名前でファイルを作って `--check` する。
+
 ## 7. **同じ PR で足したファイルを、タスクから読まない**（2026-09-18 に空振りした）
 
 `t088` は、同じ PR で追加した `ops/data/walk-poikatsu-apps.json` を読もうとして
