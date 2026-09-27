@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T15:32:40Z",
+  "generated_at": "2026-09-27T16:02:55Z",
   "login_lock": {"present": false, "age_hours": 0},
   "cdp": {"healthy": true, "port": 18810},
   "x_jobs": {"loaded": 8, "expected": 8, "ai_total": 16, "halted": false, "missing": []},
@@ -36,7 +36,7 @@
   ],
   "reconnect": "既に起動している",
   "tasks": [
-      {"task": "x186-fix-cells-and-bulk-unfollow.sh", "rc": 0, "out": ""}
+      {"task": "x189-deep-mutual-unfollow.sh", "rc": 0, "out": "相互を深く見て外した / deep-mutual-unfollow.md"}
   ],
   "running": null,
   "auth": {
@@ -124,15 +124,15 @@
   ],
   "clone": {
     "branch": "main",
-    "behind": 209,
+    "behind": 215,
     "dirty": 1
   },
   "followers": {
-    "now": 288,
+    "now": 291,
     "prev": 287,
     "prev_date": "2026-09-24",
-    "span_days": 2,
-    "record_age_days": 1,
+    "span_days": 3,
+    "record_age_days": 0,
     "record_stale": false,
     "target": 300,
     "deadline": "2026-09-30"
