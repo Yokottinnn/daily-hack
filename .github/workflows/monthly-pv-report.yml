@@ -99,8 +99,21 @@ jobs:
             e.v += t.v; e.r += t.r; agg.set(t.path, e);
           }
           const top = [...agg.entries()].sort((a, b) => b[1].v - a[1].v).slice(0, 25);
+          // **積んでいるのは日ごと上位 250 パスだけ。** それを超えた日があれば、
+          // 記事ごとの合計はそのぶん少なく出る。**黙って少なく出さないよう明示する。**
+          const truncated = days.filter(d => (cur[d].top || []).length >= 250);
+          const pathSum = days.reduce((a, d) => a + (cur[d].top || [])
+            .reduce((b, t) => b + t.v, 0), 0);
           out.push('## 人気記事 TOP25（visits 順・ボット込み）', '');
-          out.push('> 記事どうしの**相対**を見る用。実数として読まない。', '');
+          out.push('> 記事どうしの**相対**を見る用。実数として読まない。');
+          if (truncated.length) {
+            out.push(`> ⚠️ **${truncated.length} 日**で上位 250 パスに収まりきらなかった。`
+              + 'この表の数字は**下限値**。');
+          } else {
+            out.push(`> この月は全日 250 パス以内に収まっているので、**切り捨ては起きていない**`
+              + `（パス合計 ${pathSum.toLocaleString()} / 総 visits ${sum(cur, 'visits').toLocaleString()}）。`);
+          }
+          out.push('');
           out.push('| 順 | visits | requests | 記事 |', '| --- | --- | --- | --- |');
           top.forEach(([p, e], i) => out.push(`| ${i + 1} | ${e.v} | ${e.r} | \`${p}\` |`));
           out.push('');

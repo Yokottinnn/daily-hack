@@ -160,7 +160,7 @@ jobs:
                   human:    ([$b[] | select((.dimensions.userAgentBrowser
                                | test("bot|crawl|spider|slurp|Unknown|HeadlessChrome"; "i")) | not)
                              | .sum.visits] | add // 0),
-                  top: [ $p | sort_by(-.sum.visits) | .[:60][]
+                  top: [ $p | sort_by(-.sum.visits) | .[:250][]
                          | { path: .dimensions.clientRequestPath, v: .sum.visits, r: .count } ],
                   countries: [ $c | sort_by(-.sum.visits) | .[:20][]
                          | { k: .dimensions.clientCountryName, v: .sum.visits } ],
