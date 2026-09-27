@@ -25,6 +25,7 @@ jobs:
       HOST: daily-hack.fieldbeside.com
       DOMAIN: fieldbeside.com
       DAYS: ${{ github.event.inputs.days || '7' }}
+      GQL_LIMIT: '5000'   # GraphQL の limit と同じ値。飽和の判定に使う
     steps:
       - name: Resolve Cloudflare zone id
         env:
@@ -42,13 +43,17 @@ jobs:
         run: |
           set -euo pipefail
           # httpRequestsAdaptiveGroups は zone あたり 1d 制限なので日次ループ
+          # **limit は 200 では足りない。** 1 日の実パス数が 200 を超えるため、
+          # `orderBy: sum_visits_DESC` の下位（visits=1 の裾）が毎日 切り捨てられ、
+          # **総 visits が下限値になっていた**（2026-09-27 に発覚。26 日で 198.6 行/日＝ほぼ上限）。
+          # 飽和しているかは下の ROWS= の行で毎日 見える。上限に張り付いたら limit を上げる。
           END_EPOCH=$(date -u +%s)
           read -r -d '' QUERY <<'GQL' || true
           query($zoneTag: String!, $start: Time!, $end: Time!, $host: String!) {
             viewer {
               zones(filter: { zoneTag: $zoneTag }) {
                 httpRequestsAdaptiveGroups(
-                  limit: 200,
+                  limit: 5000,
                   filter: {
                     datetime_geq: $start,
                     datetime_leq: $end,
@@ -88,6 +93,11 @@ jobs:
             mv /tmp/all.next.json /tmp/all.json
             v=$(jq '[.[].sum.visits] | add // 0' /tmp/day-rows.json)
             r=$(jq '[.[].count] | add // 0' /tmp/day-rows.json)
+            rows=$(jq 'length' /tmp/day-rows.json)
+            echo "ROWS=${rows} visits=${v} requests=${r}"
+            if [ "$rows" -ge "$GQL_LIMIT" ]; then
+              echo "::warning::${START_T} の行数が上限 ${GQL_LIMIT} に達した。**総 visits は下限値。** limit を上げること"
+            fi
             ALL_VISITS=$((ALL_VISITS + v))
             ALL_REQ=$((ALL_REQ + r))
           done
