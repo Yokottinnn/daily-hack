@@ -72,9 +72,12 @@ workflow_dispatch: from=2026-09-01 to=2026-09-26   ← 1 回の実行に収め�
 アカウントにある RUM サイトは `fieldbeside.com`（`73990e57…`）の **1 件だけ**で、
 `weekly-blog-report.py` はそちらの数字（PV 100・記事ページ 0）を出していた。
 
-**直し方は未決。** 3 択。
+**2026-09-27、3 の「RUM をやめて Zone Analytics に一本化」を選んだ**（PR #760）。
 
-1. daily-hack 用の Web Analytics サイトを作ってビーコンを差し替える（Cloudflare へ書き込み）
-2. 既存の `73990e57…` に寄せる（fieldbeside.com 本体と混ざる）
-3. RUM をやめて Zone Analytics に一本化する
+- `weekly-blog-report.py` の PV 側を `httpRequestsAdaptiveGroups` に差し替え
+- `BaseLayout.astro` の**ビーコンのタグを削除**
+  （全ページで外部スクリプトを読んで、何も記録していなかった）
+
+**戻すなら、先に daily-hack 用の Web Analytics サイトを作って
+その `site_tag` を入れること。** 古い token を貼り直しても、また黙って 0 になる。
 - 見る観点: ①相対的な人気/惜しい記事 ②勝ちパターン（長尾/具体語） ③改善対象（表示あり×順位あと一歩） ④狙い目クエリ。
