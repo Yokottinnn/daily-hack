@@ -1,1 +1,5 @@
-[]
+[
+      {"task": "x176-collect-follow-lists.sh", "rc": 0, "out": "一覧を取った / follow-lists-collect.md"},
+      {"task": "x177-decide-follow-balance.sh", "rc": 0, "out": "DRY で判定した（1 件も外していない） / follow-balance-decide.md"},
+      {"task": "x178-why-no-comment-at-1900.sh", "rc": 0, "out": "19:00 で出なかった理由を読んだ / why-no-comment-1900.md"}
+  ]
