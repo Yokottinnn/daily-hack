@@ -1,1 +1,3 @@
-[]
+[
+      {"task": "x187-verify-scrape-counts.sh", "rc": 0, "out": "走査の数を確かめた / scrape-counts.md"}
+  ]
