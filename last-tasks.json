@@ -1,3 +1,3 @@
 [
-      {"task": "x166-trial-comment-warmup.sh", "rc": 0, "out": "comment-warmup を 1 回 試した（常駐には戻していない） / comment-warmup-trial.md"}
+      {"task": "x167-payid-thread-truth.sh", "rc": 1, "out": ""}
   ]
