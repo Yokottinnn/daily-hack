@@ -1,6 +1,6 @@
 ---
 title: "ららぽーと売上ランキング 2026｜全20施設を決算資料で並べた（面積・店舗数つき）"
-description: "ららぽーとの売上ランキングを、三井不動産の決算資料に載った店舗別売上で全20施設ぶん並べた。面積・店舗数ランキングつき。さらに売上を面積で割った売上効率ランキングも作った。売上2位のTOKYO-BAYは効率だと7位に落ちる。横浜が110億円減った理由まで。"
+description: "売上トップはららぽーとじゃない。三井不動産の決算資料から全20施設の売上ランキングを作り、面積ランキング・店舗数ランキングもつけた。売上を面積で割った売上効率ランキングでは、売上2位のTOKYO-BAYが7位に落ちる。横浜が110億円減った理由まで。"
 publishDate: 2026-08-09
 category: ["roundups", "comparisons"]
 tags: ["ららぽーと", "三井ショッピングパーク", "三井不動産", "ショッピングモール", "売上ランキング", "リニューアル", "ラゾーナ川崎", "TOKYO-BAY", "2026年版"]
@@ -431,7 +431,7 @@ North Gate 3階のフードコートは約1,400席。ららぽーとTOKYO-BAY全
 
 国内で唯一の新規予定地は東京・府中（2029年春）。ただし<strong>「ららぽーと」名称になるかは未発表</strong>だから、この地図には入れていない。
 
-## 大きさランキング｜面積で全20施設を並べる
+## 面積ランキング｜大きさで全20施設を並べる
 
 「どこが一番デカいの？」に、順位で答える。売上は非開示の施設があるが、**面積は全施設で公表されている**ので全部並べられる。
 
@@ -1519,7 +1519,7 @@ TOKYO-BAYの**2.1倍**。この表の最下位（愛知東郷 46.0万円）と�
       <tr class="recommended"><td><strong>ららぽーとは全部で何店舗ある？</strong></td><td><strong>国内20施設</strong>（2026年8月時点）。<a href="#全国マップららぽーとがあるのは9都府県だけ">9都府県にしかない</a>。<strong>2026年の国内新規開業はゼロ</strong>で、既存施設のリニューアルの年になっている</td></tr>
       <tr class="recommended"><td><strong>ららぽーとで一番売上が高いのはどこ？</strong></td><td><a href="#店舗別売上ランキング三井不動産の決算資料そのまま">ラゾーナ川崎プラザの<strong>990億円</strong></a>。ただしこれは「ららぽーと」ブランドではない。<strong>ららぽーとの最大手はTOKYO-BAYの790億円</strong>で、200億の差がある</td></tr>
       <tr class="recommended"><td><strong>一番効率よく稼いでいるのはどこ？</strong></td><td><a href="#売上効率ランキング1あたりいくら稼いでいるか">ラゾーナ川崎プラザの<strong>1㎡あたり125.3万円</strong></a>。2位の豊洲（77.6万円）の<strong>1.6倍</strong>で、この表の最下位とは<strong>2.7倍</strong>の開きがある。<strong>売上2位のTOKYO-BAYは、効率では7位まで落ちる</strong></td></tr>
-      <tr class="recommended"><td><strong>ららぽーとで一番大きいのはどこ？</strong></td><td><a href="#大きさランキング面積で全20施設を並べる">ららぽーとTOKYO-BAY の <strong>約133,000㎡</strong></a>。2位の横浜（約93,000㎡）とは<strong>4万㎡の差</strong>があり、2位以下を大きく離している</td></tr>
+      <tr class="recommended"><td><strong>ららぽーとで一番大きいのはどこ？</strong></td><td><a href="#面積ランキング大きさで全20施設を並べる">ららぽーとTOKYO-BAY の <strong>約133,000㎡</strong></a>。2位の横浜（約93,000㎡）とは<strong>4万㎡の差</strong>があり、2位以下を大きく離している</td></tr>
       <tr><td><strong>店舗数が一番多いのは？</strong></td><td><a href="#店舗数ランキング広い店が多いではない">TOKYO-BAY の <strong>約390〜420店</strong></a>。ただし<strong>面積18位の海老名が店舗数では5位</strong>（約260店）で、広さと店数は一致しない</td></tr>
       <tr><td><strong>ららぽーとのセールはいつ？</strong></td><td><a href="#セールは年2回が本番">年2回が本番</a>。2026年の夏は<strong>7/3〜7/12</strong>（関西5施設は7/20まで）、初売りは<strong>1/1〜1/12</strong>。ほかに11月中旬〜下旬のブラックフライデーがある</td></tr>
       <tr><td><strong>ららぽーとの駐車場は何時間無料？</strong></td><td><strong>「◯時間無料」で括れない。</strong><a href="#全20施設の駐車場無料条件はここまで違う">曜日を問わず終日無料が8施設</a>ある一方、<strong>豊洲は超過30分400円</strong>。同じららぽーとでこれだけ違う</td></tr>
@@ -1549,19 +1549,6 @@ TOKYO-BAYの**2.1倍**。この表の最下位（愛知東郷 46.0万円）と�
     </a></li>
   </ul>
 </aside>
-
-## この記事で「分からない」と書いたこと
-
-辞書として使うなら、**何が分かっていないかも書いてあるべき**でしょ。推測で埋めた箇所はひとつもない。
-
-<ul class="checklist">
-  <li><div class="checklist-body"><strong>全20施設の売上ランキングは存在しない</strong><p>三井不動産が開示するのは面積上位10施設のみ。甲子園・柏の葉・海老名などの売上は非公表。</p></div></li>
-  <li><div class="checklist-body"><strong>各施設の現在の正確な店舗数</strong><p>公式サイトに総店舗数の掲載がない。本記事の数値は開業時または直近リリース時点。</p></div></li>
-  <li><div class="checklist-body"><strong>ららぽーと高雄の開業日</strong><p>三井不動産の公式は「2026年」までしか出していない。現地報道は2026年Q3〜2027年Q1と幅がある。</p></div></li>
-  <li><div class="checklist-body"><strong>府中市朝日町計画のブランド名</strong><p>「ららぽーと」になるかは未発表。現時点では「大型商業施設」としか公表されていない。</p></div></li>
-  <li><div class="checklist-body"><strong>2026年のブラックフライデー日程</strong><p>未発表。2025年実績は11/14〜11/30。</p></div></li>
-  <li><div class="checklist-body"><strong>面積の「正しい」値はひとつに決まらない</strong><p>届出値・リリース値・併設施設を含むかで割れる。本記事は公式リリース値で統一しているが、<strong>他サイトと数字が違うのはどちらかが誤りとは限らない</strong>。</p></div></li>
-</ul>
 
 <div class="hakkako-says">
   <div class="hakkako-mascot"><img src="/images/expr-01-wave.png" alt="Daily Hackマスコット" /></div>
