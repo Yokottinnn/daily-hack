@@ -908,7 +908,11 @@ if [ "${OPS_PROBLEM_ALERT:-1}" != "0" ]; then
       "reply-followback-check", "reply-followers-cleanup", "incoming-reply-watcher",
       "pipeline-heartbeat",
       // watchdog 側で足されているもの
-      "gateway", "node", "follower-snapshot",
+      "follower-snapshot",
+      // **`gateway` と `node` は外した**（2026-09-28）。
+      // plist は 2026-05 から在るが、**ログが 1 本も無く一度も動いていない。**
+      // LLM も呼ばない。一度も動いていないものを警報の対象にすると永久に鳴り続ける。
+      // plist は消していないので、必要になれば戻せる。
     ];
     const miss = [];
     for (const j of want) if (!loaded.has("ai.openclaw." + j)) miss.push(j);
