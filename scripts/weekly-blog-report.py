@@ -19,14 +19,14 @@ Cloudflare の数字が出ておらず、**PV が測れていなかった。** �
 
 | 節 | 出どころ |
 | --- | --- |
-| サマリー（PV・訪問・検索クリック、いずれも前週比） | CF RUM ＋ GSC |
-| 流入経路（検索／SNS／直接／その他の内訳＋リファラ TOP） | CF RUM |
-| 人気ページ TOP15 | CF RUM |
+| サマリー（visits・実ブラウザ・日本から・検索クリック、いずれも前週比） | CF Zone Analytics ＋ GSC |
+| 流入経路 | **取れない**（下記） |
+| 人気ページ TOP15 | CF Zone Analytics |
 | 検索順位 TOP10（順位の高い順） | GSC |
 | 惜しい記事（6〜20 位） | GSC |
 | 伸びた記事・落ちた記事（前週比） | GSC |
 | 当たり語 TOP20 | GSC |
-| デバイス・国 | CF RUM |
+| デバイス・国・ブラウザ | CF Zone Analytics |
 
 ## 設計方針
 
@@ -48,10 +48,14 @@ Cloudflare の数字が出ておらず、**PV が測れていなかった。** �
 | Cloudflare | API トークン。`CF_API_TOKEN` 環境変数 → `~/.config/daily-hack/cf-token` → `~/openclaw/config/.env` の順に探す |
 | Slack | `~/openclaw/config/.env` の `OPENCLAW_BOT_TOKEN` |
 
-Cloudflare の Web Analytics は**サイトタグ**で絞る。**これは `BaseLayout.astro` の
-ビーコン token とは別物**で、`rum/site_info/list` に聞かないと分からない。
-思い込みで token を渡すと**エラー無しで 0 件が返り続ける**（2026-09-06 に踏んだ）。
-このスクリプトは実行時にアカウントへ聞き、取れなければ絞りを外す。
+**Web Analytics（RUM）は使わない**（2026-09-27 に一本化）。
+このブログの RUM データは **1 件も存在しなかった** — `BaseLayout.astro` の
+ビーコン token がアカウントに無いサイトを指しており、引くと PV 0 が返る。
+**Zone Analytics（エッジ側の集計）に寄せた。** 違いは 2 つ。
+
+- **visits は読者数ではない。** ボットとクローラを含む（9 月は 94% がボット）。
+  ブラウザの内訳から「実ブラウザ」と「日本から」を別に出す
+- **リファラが取れない。** 無料プランで拒否されるので、流入経路は GSC 側で見る
 
 **GSC API も Cloudflare API も無料。LLM を呼ばないため API クレジットは消費しない。**
 $0/回・$0/日・$0/月。
@@ -61,6 +65,7 @@ import contextlib
 import datetime
 import json
 import os
+import re
 import shutil
 import socket
 import subprocess
@@ -72,18 +77,30 @@ import urllib.request
 SA = "gsc-bot@daily-hack-blog.iam.gserviceaccount.com"
 SITE = "https://daily-hack.fieldbeside.com/"
 HOST = "daily-hack.fieldbeside.com"
-# **Cloudflare Web Analytics の siteTag は、ビーコンの token とは別物。**
+ZONE_NAME = "fieldbeside.com"
+# **Web Analytics（RUM）は使わない。** 2026-09-27 に一本化した。
 #
-# 2026-09-06、BaseLayout.astro:106 のビーコン token（0dc312c5…）を siteTag だと
-# 思い込んで渡したところ、**エラー無しで 0 件が返り続けた。**
-# 実際の site_tag は 73990e57… で、`rum/site_info/list` に聞いて初めて分かった。
+# 調べたら、**このブログの RUM データは 1 件も存在しなかった。**
 #
-#   ビーコンの token : 0dc312c59cff43f58507d2b4f669dd82  ← これは siteTag ではない
-#   本当の site_tag  : 73990e5796764bce8626e8706c08ce82  （host=fieldbeside.com）
+#   アカウントの RUM サイト : 1 件だけ（zone=fieldbeside.com / tag 73990e57…）
+#   BaseLayout のビーコン    : 0dc312c5…  ← **アカウントに存在しない**
+#   その token で引く        : PV 0
+#   73990e57… で引く         : PV 100 / **`/posts/…` は 0 件**
 #
-# **固定値を書かない。実行時にアカウントへ聞く。** 取れなければ絞りを外す
-# （このアカウントのサイトは 1 件なので、絞らなくても同じ数字になる）。
-CF_SITE_TAG = None  # 実行時に埋める
+# つまり「記事ページの PV が 0」は集計の不具合ではなく、**そもそも取れていなかった。**
+# 同じ 9 月を Zone Analytics で引くと visits 13,778 で、**100 倍 以上 食い違う。**
+#
+# **Zone Analytics に寄せる。** エッジ側の集計なのでビーコンに依存しない。
+# ただし 2 点 違いがある。
+#
+#   1. **visits は読者数ではない。** ボットとクローラを含む。
+#      9 月は 13,778 のうち **94% がボット**（Unknown 11,189 / BingBot 1,197）。
+#      **国とブラウザの内訳から「実ブラウザ」と「日本から」を別に出す。**
+#   2. **リファラが取れない。** clientRefererHost / clientRequestReferer は
+#      無料プランで `does not have access to the field` になる。
+#      **流入経路は GSC 側で見る。**
+#
+# **1 クエリ 1 日まで**（zone あたりの制限）なので日ごとにループする。
 CF_GRAPHQL = "https://api.cloudflare.com/client/v4/graphql"
 SLACK_CHANNEL = "C0B4CJHH797"  # #fun_reward-hack_blog
 STATE = os.path.expanduser("~/.config/daily-hack/weekly-report-state.json")
@@ -92,15 +109,6 @@ GSC_ENDPOINT = (
     "https://searchconsole.googleapis.com/webmasters/v3/sites/"
     f"{urllib.parse.quote(SITE, safe='')}/searchAnalytics/query"
 )
-
-# 検索エンジンと SNS のリファラ。ここに無いものは「その他サイト」に落ちる。
-SEARCH_HOSTS = ("google.", "www.google.", "bing.", "www.bing.", "search.yahoo.",
-                "duckduckgo.", "www.ecosia.", "yandex.", "baidu.")
-SOCIAL_HOSTS = ("t.co", "x.com", "twitter.com", "www.facebook.com", "l.facebook.com",
-                "m.facebook.com", "www.instagram.com", "l.instagram.com",
-                "www.threads.net", "threads.net", "b.hatena.ne.jp", "note.com",
-                "www.reddit.com", "out.reddit.com", "www.linkedin.com",
-                "lm.facebook.com", "line.me", "www.pinterest.jp", "www.pinterest.com")
 
 
 # ────────────────────────── 共通 ──────────────────────────
@@ -275,112 +283,111 @@ def cf_token():
         "~/openclaw/config/.env の CLOUDFLARE_API_TOKEN のどれかに置くこと")
 
 
-def cf_account_id(token):
+def cf_zone_id(token):
+    """ゾーン ID を取る。**当て推量しない。** 取れなければ例外を投げる。"""
     def _call():
         req = urllib.request.Request(
-            "https://api.cloudflare.com/client/v4/accounts?per_page=5",
+            "https://api.cloudflare.com/client/v4/zones?name="
+            + urllib.parse.quote(ZONE_NAME),
             headers={"Authorization": f"Bearer {token}"})
         with urllib.request.urlopen(req, timeout=30) as r:
             return json.loads(r.read() or b"{}")
 
-    data = retry_ipv4(_call)
-    res = data.get("result") or []
-    if not res:
-        raise RuntimeError("Cloudflare のアカウントが取れない（トークンの権限を確認）")
-    return res[0]["id"]
+    d = retry_ipv4(_call)
+    zones = d.get("result") or []
+    if not zones:
+        raise RuntimeError(f"Cloudflare がゾーンを返さなかった（{ZONE_NAME} / 権限を確認）")
+    return zones[0]["id"]
 
 
-def cf_site_tag(token, account):
-    """Web Analytics のサイト一覧から site_tag を取る。**当て推量しない。**
-
-    1 件も返らなければ None を返し、呼び出し側は siteTag で絞らずに引く。"""
-    def _call():
-        req = urllib.request.Request(
-            f"https://api.cloudflare.com/client/v4/accounts/{account}"
-            "/rum/site_info/list?per_page=20",
-            headers={"Authorization": f"Bearer {token}"})
-        with urllib.request.urlopen(req, timeout=30) as r:
-            return json.loads(r.read() or b"{}")
-
-    try:
-        d = retry_ipv4(_call)
-    except Exception:
-        return None
-    sites = d.get("result") or []
-    if not sites:
-        return None
-    # ブログのホストに一致するものを優先。無ければ先頭
-    for s in sites:
-        zone = ((s.get("ruleset") or {}).get("zone_name") or "")
-        if zone and (zone in HOST or HOST.endswith(zone)):
-            return s.get("site_tag")
-    return sites[0].get("site_tag")
-
-
-CF_QUERY = """
-query($account: String!, $siteTag: String, $start: Time!, $end: Time!) {
+# 次元だけ差し替えて使う。**1 クエリ 1 日まで**なので呼ぶ側でループする。
+CF_ZONE_QUERY = """
+query($zoneTag: String!, $start: Time!, $end: Time!, $host: String!) {
   viewer {
-    accounts(filter: { accountTag: $account }) {
-      total: rumPageloadEventsAdaptiveGroups(
-        limit: 1,
-        filter: { siteTag: $siteTag, datetime_geq: $start, datetime_leq: $end }
-      ) { count sum { visits } }
-
-      byPath: rumPageloadEventsAdaptiveGroups(
-        limit: 100, orderBy: [count_DESC],
-        filter: { siteTag: $siteTag, datetime_geq: $start, datetime_leq: $end }
-      ) { count sum { visits } dimensions { requestPath } }
-
-      byReferer: rumPageloadEventsAdaptiveGroups(
-        limit: 50, orderBy: [sum_visits_DESC],
-        filter: { siteTag: $siteTag, datetime_geq: $start, datetime_leq: $end }
-      ) { count sum { visits } dimensions { refererHost } }
-
-      byCountry: rumPageloadEventsAdaptiveGroups(
-        limit: 15, orderBy: [sum_visits_DESC],
-        filter: { siteTag: $siteTag, datetime_geq: $start, datetime_leq: $end }
-      ) { sum { visits } dimensions { countryName } }
-
-      byDevice: rumPageloadEventsAdaptiveGroups(
-        limit: 10, orderBy: [sum_visits_DESC],
-        filter: { siteTag: $siteTag, datetime_geq: $start, datetime_leq: $end }
-      ) { sum { visits } dimensions { deviceType } }
+    zones(filter: { zoneTag: $zoneTag }) {
+      rows: httpRequestsAdaptiveGroups(
+        limit: 5000, orderBy: [sum_visits_DESC],
+        filter: {
+          datetime_geq: $start, datetime_leq: $end,
+          clientRequestHTTPHost: $host, edgeResponseStatus: 200,
+          requestSource: "eyeball"
+        }
+      ) { sum { visits } count dimensions { DIMENSION } }
     }
   }
 }
 """
 
+# **User-Agent に名前が載っていないものは、ほぼ自動化。**
+# `Unknown` を除かないと、9 月なら 11,189 visits をそのまま読者数に数えてしまう。
+BOT_UA = re.compile(r"bot|crawl|spider|slurp|Unknown|HeadlessChrome", re.I)
 
-def cf_fetch(token, account, start, end, site_tag=None):
-    # **siteTag が None なら絞らない。** GraphQL は null のフィルタを無視する。
+
+def _cf_day(token, zone, day, dim):
+    """1 日ぶん・1 次元を引く。**エラーはそのまま投げる**（黙って 0 にしない）。"""
+    nxt = day + datetime.timedelta(days=1)
     res = retry_ipv4(lambda: post_json(CF_GRAPHQL, {
-        "query": CF_QUERY,
-        "variables": {"account": account, "siteTag": site_tag,
-                      "start": f"{start}T00:00:00Z", "end": f"{end}T23:59:59Z"},
+        "query": CF_ZONE_QUERY.replace("DIMENSION", dim),
+        "variables": {"zoneTag": zone, "host": HOST,
+                      "start": f"{day}T00:00:00Z", "end": f"{nxt}T00:00:00Z"},
     }, {"Authorization": f"Bearer {token}"}, timeout=90))
     if res.get("errors"):
         msgs = "; ".join(e.get("message", "?") for e in res["errors"])[:300]
-        raise RuntimeError(f"Cloudflare GraphQL エラー: {msgs}")
-    accounts = (res.get("data") or {}).get("viewer", {}).get("accounts") or []
-    if not accounts:
-        raise RuntimeError("Cloudflare がアカウントを返さなかった（siteTag / 権限を確認）")
-    return accounts[0]
+        raise RuntimeError(f"Cloudflare GraphQL エラー（{day} / {dim}）: {msgs}")
+    zones = (res.get("data") or {}).get("viewer", {}).get("zones") or []
+    if not zones:
+        raise RuntimeError("Cloudflare がゾーンを返さなかった（権限を確認）")
+    return zones[0].get("rows") or []
 
 
-def classify_referer(host):
-    h = (host or "").lower()
-    if not h or h in ("", "none", "(direct)"):
-        return "直接・アプリ内"
-    if any(h == s.rstrip(".") or h.startswith(s) for s in SEARCH_HOSTS):
-        return "検索"
-    if h in SOCIAL_HOSTS:
-        return "SNS"
-    if h.endswith(HOST):
-        return "サイト内"
-    return "その他サイト"
+def cf_fetch(token, zone, start, end):
+    """期間ぶんを日ごとに引いて合算する。
 
+    **返す形は RUM 版と同じ**にしてある（`total` / `byPath` / `byCountry` /
+    `byDevice`）。呼び出し側の描画を変えずに済ませるため。
+    `byReferer` は **Zone Analytics では取れない**ので常に空。
+    """
+    acc = {"clientRequestPath": {}, "clientCountryName": {}, "clientDeviceType": {},
+           "userAgentBrowser": {}}
+    visits = requests_ = 0
+    truncated = []
+    day = start
+    while day <= end:
+        for dim in acc:
+            rows = _cf_day(token, zone, day, dim)
+            if len(rows) >= 5000:
+                truncated.append(f"{day}/{dim}")
+            for r in rows:
+                k = (r.get("dimensions") or {}).get(dim) or "(不明)"
+                v = int((r.get("sum") or {}).get("visits") or 0)
+                c = int(r.get("count") or 0)
+                cur = acc[dim].setdefault(k, [0, 0])
+                cur[0] += v
+                cur[1] += c
+                if dim == "clientRequestPath":
+                    visits += v
+                    requests_ += c
+        day += datetime.timedelta(days=1)
 
-# ─────────────────────── 前週比の記憶 ───────────────────────
+    def rows_of(dim, key):
+        return [{"sum": {"visits": v}, "count": c, "dimensions": {key: k}}
+                for k, (v, c) in sorted(acc[dim].items(), key=lambda x: -x[1][0])]
+
+    human = sum(v for k, (v, _) in acc["userAgentBrowser"].items() if not BOT_UA.search(k))
+    jp = acc["clientCountryName"].get("JP", [0, 0])[0]
+    return {
+        # **`count` は requests であって PV ではない。** 呼ぶ側でそう表示する
+        "total": [{"count": requests_, "sum": {"visits": visits}}],
+        "human": human,
+        "jp": jp,
+        "truncated": truncated,
+        "byPath": rows_of("clientRequestPath", "requestPath"),
+        "byCountry": rows_of("clientCountryName", "countryName"),
+        "byDevice": rows_of("clientDeviceType", "deviceType"),
+        "byBrowser": rows_of("userAgentBrowser", "browser"),
+        "byReferer": [],   # **取れない。** 無料プランで拒否される
+    }
+
 
 def load_state():
     try:
@@ -425,7 +432,7 @@ def build(args):
     now = {}
 
     L = [f"# Daily Hack 週次レポート（{today}）", ""]
-    L.append(f"- アクセス: **{cf_start} 〜 {cf_end}**（{args.days} 日・Cloudflare Web Analytics）")
+    L.append(f"- アクセス: **{cf_start} 〜 {cf_end}**（{args.days} 日・Cloudflare Zone Analytics）")
     L.append(f"- 検索: **{gsc_start} 〜 {gsc_end}**（{args.gsc_days} 日・Search Console）")
     L.append("  ※ GSC は確定まで 2〜3 日かかるため直近 3 日を除いている")
     L.append("")
@@ -435,9 +442,9 @@ def build(args):
     cf_err = None
     try:
         tok = cf_token()
-        acc = cf_account_id(tok)
-        # **site_tag は聞いて確かめる。** 固定値を書いて 0 件を引き続けた（2026-09-06）
-        cf = cf_fetch(tok, acc, cf_start, cf_end, cf_site_tag(tok, acc))
+        # **Zone Analytics を使う**（RUM は 1 件も取れていなかった・2026-09-27）。
+        # ゾーン ID は当て推量せず、名前で聞く。
+        cf = cf_fetch(tok, cf_zone_id(tok), cf_start, cf_end)
     except Exception as e:
         cf_err = e
 
@@ -455,18 +462,26 @@ def build(args):
 
     # ── サマリー ──
     s = Section("サマリー")
+    s.lines.append("> **visits は読者数ではない。** ボットとクローラを含む。")
+    s.lines.append("> **読者に近いのは「実ブラウザ」の行。**"
+                   " 検索から来た実訪問は下の「検索クリック」を見る。")
+    s.lines.append("")
     s.lines.append("| 指標 | 今回 | 前回比 |")
     s.lines.append("| --- | --- | --- |")
     if cf:
         t = (cf["total"] or [{}])[0]
-        pv = int(t.get("count") or 0)
+        req = int(t.get("count") or 0)
         vis = int((t.get("sum") or {}).get("visits") or 0)
-        now["pv"], now["visits"] = pv, vis
-        s.lines.append(f"| **ページビュー** | {pv:,} | {delta(pv, prev.get('pv'), pct=True)} |")
-        s.lines.append(f"| **訪問（ユニーク）** | {vis:,} | {delta(vis, prev.get('visits'), pct=True)} |")
+        human, jp = cf["human"], cf["jp"]
+        now["pv"], now["visits"] = req, vis
+        now["human"], now["jp"] = human, jp
+        s.lines.append(f"| visits（**ボット込み**） | {vis:,} | {delta(vis, prev.get('visits'), pct=True)} |")
+        s.lines.append(f"| requests | {req:,} | {delta(req, prev.get('pv'), pct=True)} |")
+        s.lines.append(f"| **実ブラウザ visits** | **{human:,}** | {delta(human, prev.get('human'), pct=True)} |")
+        s.lines.append(f"| **日本からの visits** | **{jp:,}** | {delta(jp, prev.get('jp'), pct=True)} |")
     else:
-        s.lines.append(f"| ページビュー | ⚠️ 取得失敗 | {str(cf_err)[:120]} |")
-        s.lines.append("| 訪問（ユニーク） | ⚠️ 取得失敗 | 同上 |")
+        s.lines.append(f"| visits | ⚠️ 取得失敗 | {str(cf_err)[:120]} |")
+        s.lines.append("| 実ブラウザ visits | ⚠️ 取得失敗 | 同上 |")
     if pages is not None:
         g = gsc_totals(pages)
         now.update({"clicks": g["clicks"], "impressions": g["impressions"],
@@ -490,38 +505,19 @@ def build(args):
     L += s.render()
 
     # ── 流入経路 ──
+    # **Zone Analytics ではリファラが取れない。**
+    # clientRefererHost / clientRequestReferer はどちらも無料プランで
+    # `does not have access to the field` になる（2026-09-27 に実測）。
+    # **「取れない」と書く。** 空の表を出すと壊れているのか 0 なのか区別がつかない。
     s = Section("流入経路")
-    if not cf:
-        s.fail(cf_err)
-    else:
-        refs = cf.get("byReferer") or []
-        groups = {}
-        for r in refs:
-            host = (r.get("dimensions") or {}).get("refererHost") or ""
-            v = int((r.get("sum") or {}).get("visits") or 0)
-            groups[classify_referer(host)] = groups.get(classify_referer(host), 0) + v
-        total = sum(groups.values())
-        if total:
-            s.lines.append("| 経路 | 訪問 | 比率 |")
-            s.lines.append("| --- | --- | --- |")
-            for name, v in sorted(groups.items(), key=lambda x: -x[1]):
-                s.lines.append(f"| {name} | {v:,} | {v / total * 100:.0f}% |")
-            s.lines.append("")
-            ext = [r for r in refs
-                   if classify_referer((r.get("dimensions") or {}).get("refererHost"))
-                   not in ("直接・アプリ内", "サイト内")]
-            if ext:
-                s.lines.append("**リファラ TOP10**")
-                s.lines.append("")
-                s.lines.append("| リファラ | 訪問 |")
-                s.lines.append("| --- | --- |")
-                for r in ext[:10]:
-                    h = (r.get("dimensions") or {}).get("refererHost") or "(不明)"
-                    s.lines.append(f"| `{h}` | {int((r.get('sum') or {}).get('visits') or 0):,} |")
+    s.lines.append("**Cloudflare では取れない。** リファラの次元（`clientRefererHost` /")
+    s.lines.append("`clientRequestReferer`）は無料プランで拒否される。")
+    s.lines.append("")
+    s.lines.append("**検索からの流入は下の「検索クリック」と「検索順位 TOP10」を見ること。**")
     L += s.render()
 
     # ── 人気ページ ──
-    s = Section(f"人気ページ TOP{args.top_pages}（ページビュー順）")
+    s = Section(f"人気ページ TOP{args.top_pages}（visits 順・**ボット込み**）")
     if not cf:
         s.fail(cf_err)
     else:
@@ -535,15 +531,16 @@ def build(args):
             s.lines.append("**記事ページ（`/posts/…`）の PV は 0。**"
                            " この期間に開かれたのは、トップ・検索・固定ページだけ。")
         else:
-            s.lines.append("| # | PV | 訪問 | 前回比 | ページ |")
+            s.lines.append("| # | visits | requests | 前回比 | ページ |")
             s.lines.append("| --- | --- | --- | --- | --- |")
             for i, r in enumerate(rows[:args.top_pages], 1):
                 p = (r.get("dimensions") or {})["requestPath"]
-                pv = int(r.get("count") or 0)
+                # **`count` は requests、`sum.visits` が visits。** 名前に引きずられない
+                req = int(r.get("count") or 0)
                 vis = int((r.get("sum") or {}).get("visits") or 0)
-                page_now[p] = pv
+                page_now[p] = vis
                 s.lines.append(
-                    f"| {i} | {pv:,} | {vis:,} | {delta(pv, prev_pages.get(p))} | `{p}` |")
+                    f"| {i} | {vis:,} | {req:,} | {delta(vis, prev_pages.get(p))} | `{p}` |")
         state["pages"] = page_now
     L += s.render()
 
@@ -660,6 +657,17 @@ def build(args):
                 for r in ctry[:8]:
                     v = int((r.get("sum") or {}).get("visits") or 0)
                     s.lines.append(f"| {(r.get('dimensions') or {}).get('countryName') or '(不明)'} | {v:,} |")
+                s.lines.append("")
+            # **ブラウザの内訳を必ず出す。** ここを見ないと、上の数字の何割が
+            # ボットなのかが読む側から分からない。
+            br = cf.get("byBrowser") or []
+            if br:
+                s.lines.append("| UA | 訪問 | |")
+                s.lines.append("| --- | --- | --- |")
+                for r in br[:12]:
+                    v = int((r.get("sum") or {}).get("visits") or 0)
+                    k = (r.get("dimensions") or {}).get("browser") or "(不明)"
+                    s.lines.append(f"| {k} | {v:,} | {'**ボット扱い**' if BOT_UA.search(k) else '実ブラウザ'} |")
         elif devices:
             s.lines.append("Cloudflare が取れなかったので GSC のデバイス別で代用する。")
             s.lines.append("")
@@ -682,7 +690,7 @@ def build(args):
         L.append("")
 
     L.append("---")
-    L.append("出典: Cloudflare Web Analytics ／ Google Search Console。"
+    L.append("出典: Cloudflare Zone Analytics ／ Google Search Console。"
              "LLM 不使用のため API クレジットは消費しない（$0/回・$0/日・$0/月）。")
 
     if now:
@@ -754,7 +762,7 @@ def to_slack(md, has_error):
                 continue
             keep.append("• " + " / ".join(cells))
         else:
-            # 1 つの節に表が 2 つ入ることがある（流入経路の内訳とリファラ TOP）。
+            # 1 つの節に表が 2 つ以上 入ることがある（デバイス・国・ブラウザ）。
             # 表と表のあいだの小見出しで数え直さないと、2 つ目が頭から削られる。
             rows = 0
             keep.append(line)

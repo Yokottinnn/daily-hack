@@ -102,8 +102,23 @@ const yandexVerification = import.meta.env.PUBLIC_YANDEX_VERIFICATION ?? '';
 
     <slot name="head" />
 
-    <!-- Cloudflare Web Analytics（Cookie不要、GDPR配慮、無料） -->
-    <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "0dc312c59cff43f58507d2b4f669dd82"}'></script>
+    {/*
+      **Cloudflare Web Analytics のビーコンは外した**（2026-09-27）。
+
+      token `0dc312c5…` は **Cloudflare アカウントに存在しないサイト**を指していて、
+      **データが 1 件も入っていなかった。** アカウントにある RUM サイトは
+      `fieldbeside.com`（`73990e57…`）の 1 件だけで、そちらを引いても
+      `/posts/…` の PV は 0 件。つまり**このブログの計測には一度も使われていない。**
+
+      全ページで外部スクリプトを 1 本 読んで、何も記録していなかったことになる。
+
+      **アクセスの集計は Cloudflare Zone Analytics に一本化した**（エッジ側なので
+      ビーコンが要らない）。`scripts/weekly-blog-report.py` と
+      `.github/workflows/pv-archive.yml` がそこから引く。
+
+      **戻すなら、先に daily-hack 用の Web Analytics サイトを作って
+      その site_tag を入れること。** 古い token を貼り直しても、また黙って 0 になる。
+    */}
 
     {ga4Enabled && (
       <>
