@@ -1,3 +1,3 @@
 [
-      {"task": "x196-follow-ok-vs-recorded.sh", "rc": 0, "out": "OK と記録の差を測った / follow-ok-vs-recorded.md"}
+      {"task": "x197-ok-handles-where-now.sh", "rc": 0, "out": "✅ の相手の行方を突き合わせた / ok-handles-where-now.md"}
   ]
