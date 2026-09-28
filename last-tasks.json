@@ -1,3 +1,3 @@
 [
-      {"task": "x194-why-only-2-follows.sh", "rc": 0, "out": "フォローが詰まっている場所を測った / why-only-2-follows.md"}
+      {"task": "t202-web-search-measure.sh", "rc": 0, "out": " > **課金したのはこの 1 回だけ。** 定時実行の既定は変えていない。 > 有効化するかは、上の実測値を見てから決める（増額なので承認が要る・ルール 2-B）。  STDOUT_MEASURE rc=0 88s searches=6 token_usd=0.7257 search_usd=0.06 total=0.7857 mont"}
   ]
