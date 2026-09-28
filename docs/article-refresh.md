@@ -179,6 +179,27 @@ jq '.total_usd, .last' ops/data/refresh-state.json
 **上の表は上限ではなく見込み。** `max_uses: 6` は安全弁であって予想ではない
 （最上位ルール 2-B「上限の数字を、実績のように出さない」）。
 
+#### 検索料は実額に入っている（2026-09-28 に足した）
+
+**数えていなかった。** トークン代だけを `total_usd` に積んでいたので、
+有効にすると**最大 $0.06/回 少なく報告する**状態だった。
+
+```js
+const searches = u.server_tool_use?.web_search_requests || 0;
+const cost = tokenCost + searches * SEARCH_USD;   // SEARCH_USD = 0.01
+```
+
+レポートと `state.last` に**内訳**（`token_usd` / `search_usd` / `searches`）が出る。
+**`max_uses: 6` は上限で、実際の回数はここに出たものだけ。**
+
+#### 1 回だけ実測する（**承認済み**）
+
+`ops/tasks/t202-web-search-measure.sh`。**この 1 回きりで、定時の既定は変えない。**
+題材は `amazon-prime-day-rakuten-ss-2026`（**86 日 前から「正式日程は楽天の告知待ち」のまま**
+＝ web 検索なしでは埋められない箇所を持っている）。
+
+**当てない**（`--apply` なし）。状態ファイルも別にして、定時の `done` と累計を汚さない。
+
 ### 手で動かす
 
 ```bash

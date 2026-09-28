@@ -45,6 +45,10 @@ const APPLY = process.argv.includes('--apply');
 const KEY_ENV = 'ANTHROPIC' + '_API_KEY';
 
 // 料金は claude-api スキルの表から（$/1M トークン）。**記憶で書かない**
+// **web 検索は $10 / 1,000 searches ＝ $0.01/回**（2026-09-28 に一次情報で確定。
+// platform.claude.com/docs/en/about-claude/pricing）。
+// トークン代とは**別建て**なので、足し忘れると実額を少なく報告する。
+const SEARCH_USD = 0.01;
 const PRICE = {
   'claude-sonnet-5': { in: 2.0, out: 10.0 },
   'claude-opus-5': { in: 5.0, out: 25.0 },
@@ -226,7 +230,12 @@ async function main() {
 
   const u = res.usage;
   const p = PRICE[MODEL] || PRICE['claude-sonnet-5'];
-  const cost = (u.input_tokens * p.in + u.output_tokens * p.out) / 1e6;
+  // **検索回数は `server_tool_use.web_search_requests` に入る。**
+  // エラーになった検索は課金されないので、ここに乗らない
+  const searches = u.server_tool_use?.web_search_requests || 0;
+  const tokenCost = (u.input_tokens * p.in + u.output_tokens * p.out) / 1e6;
+  const searchCost = searches * SEARCH_USD;
+  const cost = tokenCost + searchCost;
   const text = res.content
     .filter((b) => b.type === 'text')
     .map((b) => b.text)
@@ -272,6 +281,9 @@ async function main() {
     `- 生成: ${new Date().toISOString()}`,
     `- モデル: \`${MODEL}\`${USE_WEB ? '（web 検索あり）' : '（web 検索なし）'}`,
     `- 入力 ${u.input_tokens} tok / 出力 ${u.output_tokens} tok / **実額 $${cost.toFixed(4)}**`,
+    searches
+      ? `- **web 検索 ${searches} 回**（内訳: トークン $${tokenCost.toFixed(4)} ＋ 検索 $${searchCost.toFixed(4)}）`
+      : '',
     `- 判定: **${out.verdict}** / 指摘 ${all.length} 件 のうち **採用 ${kept.length} 件**`,
     APPLY
       ? `- **本文に当てた: ${applied} 件**（確度「高」のみ）。残りは下の一覧から手で選ぶ`
@@ -300,6 +312,10 @@ async function main() {
     slug,
     at: new Date().toISOString(),
     cost_usd: Number(cost.toFixed(4)),
+    token_usd: Number(tokenCost.toFixed(4)),
+    search_usd: Number(searchCost.toFixed(4)),
+    searches,
+    web_search: USE_WEB,
     model: MODEL,
     kept: kept.length,
     dropped,
