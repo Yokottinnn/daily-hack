@@ -136,9 +136,48 @@ python3 scripts/check-stale-wording.py    # いま何が引っかかるかを見
 jq '.total_usd, .last' ops/data/refresh-state.json
 ```
 
-**web 検索ツールは従量課金が別にかかり、単価を確認できていない。**
-既定では無効。`USE_WEB_SEARCH=1` を付けたときだけ有効になる。
-**有効にする前に単価を確定させること。**
+### web 検索の単価（2026-09-28 に確定）
+
+**既定では無効。** `USE_WEB_SEARCH=1` を付けたときだけ有効になる。
+
+| | |
+| --- | --- |
+| **web 検索** | **$10 / 1,000 searches ＝ $0.01/回** |
+| web fetch | **追加課金なし**（トークン代だけ） |
+| code execution | **web 検索と併用なら無料** |
+| エラーになった検索 | **課金されない** |
+
+出典: [Pricing](https://platform.claude.com/docs/en/about-claude/pricing)（`claude-api` スキルの
+`shared/live-sources.md` が指す一次情報）。**記憶で書いていない。**
+
+**検索結果のトークンは別に入力として課金される。**
+> Web search results retrieved throughout a conversation are counted as input tokens,
+> in search iterations executed during a single turn and in subsequent conversation turns.
+
+`refresh-article.mjs` は **`max_uses: 6`** なので、検索料は**最大 $0.06/回**。
+
+#### 有効にした場合の見込み
+
+**いまの実績**（web 検索なし・2026-09-23 の 1 回）:
+
+```text
+入力 18,544 tok / 出力 719 tok / Sonnet 5（$2 / $10 per MTok）
+→ $0.0443/回（再計算して一致を確認）／ $0.0443/日 ／ $1.33/月
+```
+
+**有効にした場合は推定。** 前提は「Sonnet 5・`max_uses: 6`・検索料 $0.01/回」。
+**振れ幅の元は「検索結果のトークンが反復のたびに再送されるか」**で、ここは実測しないと決まらない。
+
+| 前提 | 1 回 | 1 日 | **1 か月** |
+| --- | --- | --- | --- |
+| 控えめ（3 回・結果が 1 度だけ文脈に入る） | $0.086 | $0.086 | **約 $2.6** |
+| 多め（6 回・反復のたびに文脈を再送） | $0.284 | $0.284 | **約 $8.5** |
+
+**いまの 2〜6 倍。** 幅が大きいので、**有効化する前に 1 回だけ実測する**のが筋
+（1 回 $0.09〜$0.29 の見込み。実行には事前承認が要る・最上位ルール 2-A）。
+
+**上の表は上限ではなく見込み。** `max_uses: 6` は安全弁であって予想ではない
+（最上位ルール 2-B「上限の数字を、実績のように出さない」）。
 
 ### 手で動かす
 
