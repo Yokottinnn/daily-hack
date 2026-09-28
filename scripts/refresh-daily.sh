@@ -9,7 +9,8 @@
 # | 1 日あたり | **約 $0.07**（1 日 1 本） |
 # | 1 か月あたり | **約 $2.1** |
 #
-# **実額は `ops/data/refresh-state.json` の `total_usd` に積む。** 推定のままにしない。
+# **実額は `$REFRESH_STATE`（既定 `~/.openclaw/state/refresh-state.json`）の
+# `total_usd` に積む。** 推定のままにしない。ログにも毎回「累計: $…」が出る。
 # 単価は `claude-api` スキルの料金表から（Sonnet 5 = $2/$10 per MTok）。
 #
 # ## 安全側に倒していること
@@ -37,6 +38,26 @@ exec >>"$LOG" 2>&1
 echo "=== $(date '+%Y-%m-%dT%H:%M:%S%z') refresh-daily 開始"
 
 cd "$REPO" || { echo "リポジトリが無い: $REPO"; exit 1; }
+
+# **状態ファイルはリポジトリの外に置く。**
+#
+# 以前はリポジトリ内（`ops/data/refresh-state.json`）に書いていた。
+# **指摘 0 件の日は PR を作らないので commit されず、変更が残ったまま終わる。**
+# すると翌日から下の汚れガードに毎日 当たって、**何もせずに終わり続ける。**
+# 2026-09-24〜28 の **5 日 連続**で実際にそうなった（t200 で特定）。
+#
+#     作業ツリーが汚れている。触らずに終わる:
+#      M ops/data/refresh-state.json
+#
+# **この状態ファイルはジョブ自身の出力で、人の書きかけではない。**
+# 外に置けば作業ツリーは汚れず、ガードは本来の役目（人の作業を守る）だけになる。
+export REFRESH_STATE="${REFRESH_STATE:-$HOME/.openclaw/state/refresh-state.json}"
+mkdir -p "$(dirname "$REFRESH_STATE")"
+# **初回は追跡ファイルから引き継ぐ。** 累計額と done を捨てない
+if [ ! -f "$REFRESH_STATE" ] && [ -f "ops/data/refresh-state.json" ]; then
+  cp "ops/data/refresh-state.json" "$REFRESH_STATE"
+  echo "状態を引き継いだ: ops/data/refresh-state.json → $REFRESH_STATE"
+fi
 
 NODE_BIN="$(command -v node || echo /opt/homebrew/bin/node)"
 [ -x "$NODE_BIN" ] || { echo "node が無い"; exit 1; }
@@ -130,6 +151,9 @@ git fetch origin main --quiet || { echo "fetch 失敗"; exit 1; }
 # **追跡されていないファイルは数えない。** `reset --hard` はそれらを消さないので、
 # 止める理由にならない。2026-09-20、Mac に `drafts/` と作りかけのタスクが
 # 置かれていて、**それだけでジョブが毎日 何もせずに終わる**ところだった。
+# **ジョブ自身の出力でここに引っかからないこと。**
+# 状態ファイルを外へ出したのはそのため（上）。ここで止まってよいのは
+# **人が手元で書きかけているとき**だけ。
 DIRTY="$(git status --porcelain --untracked-files=no | head -20)"
 if [ -n "$DIRTY" ]; then
   echo "作業ツリーが汚れている。触らずに終わる:"
@@ -174,7 +198,7 @@ fi
 
 mkdir -p docs/refresh
 cp "$REPORT" "docs/refresh/$SLUG.md"
-git add "src/content/posts/$SLUG.md" "docs/refresh/$SLUG.md" ops/data/refresh-state.json
+git add "src/content/posts/$SLUG.md" "docs/refresh/$SLUG.md"
 git commit -q -F - <<EOF
 refresh: $SLUG の古くなった数字を直した
 
