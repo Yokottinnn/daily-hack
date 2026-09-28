@@ -190,14 +190,15 @@ fi
 {
   echo "## 出てきた指摘"
   echo ""
-  echo '```markdown'
+  # **柵は 4 本。** レポートの中に ``` が入っているので 3 本だと途中で閉じる
+  echo '````markdown'
   if [ -f "$T/refresh-$SLUG.md" ]; then
     head -c 2500 "$T/refresh-$SLUG.md"
   else
     tail -25 "$LOG"
   fi
   echo
-  echo '```'
+  echo '````'
   echo ""
 } >> "$OUT"
 
@@ -212,6 +213,23 @@ case "$DIRTY" in ''|*[!0-9]*) DIRTY=0 ;; esac
   echo ""
   echo "> **課金したのはこの 1 回だけ。** 定時実行の既定は変えていない。"
   echo "> 有効化するかは、上の実測値を見てから決める（増額なので承認が要る・ルール 2-B）。"
+} >> "$OUT"
+
+# **heartbeat に載るのは末尾 5 行の先頭 300 字だけ。**
+# ここに数字を置かないと、一目で見える場所に何も出ない
+SUM="rc=$RC"
+if [ -f "$MSTATE" ]; then
+  SUM="$("$NODE_BIN" -e "
+    try{const s=JSON.parse(require('fs').readFileSync('$MSTATE','utf8')).last||{};
+      console.log('searches='+(s.searches??'?')+' token_usd='+(s.token_usd??'?')
+        +' search_usd='+(s.search_usd??'?')+' total='+(s.cost_usd??'?')
+        +' month=~'+((s.cost_usd||0)*30).toFixed(2));
+    }catch(e){console.log('state unreadable');}
+  " 2>/dev/null || echo 'state unreadable')"
+fi
+{
+  echo ""
+  echo "STDOUT_MEASURE rc=$RC ${EL}s $SUM"
 } >> "$OUT"
 
 rm -rf "$T"
