@@ -29,7 +29,11 @@ import path from 'node:path';
 
 const ROOT = process.cwd();
 const POSTS = path.join(ROOT, 'src/content/posts');
-const STATE = path.join(ROOT, 'ops/data/refresh-state.json');
+// **状態ファイルはリポジトリの外に置ける。** 既定は従来どおりだが、
+// 定時実行（refresh-daily.sh）は `REFRESH_STATE` で外に逃がす。
+// リポジトリ内に書くと、**指摘 0 件の日に作業ツリーが汚れたまま残り、
+// 翌日から汚れガードに毎日 当たって空振りする**（2026-09-24〜28 に 5 日 連続）。
+const STATE = process.env.REFRESH_STATE || path.join(ROOT, 'ops/data/refresh-state.json');
 const MODEL = process.env.REFRESH_MODEL || 'claude-sonnet-5';
 const DRY = process.argv.includes('--dry-run');
 const USE_WEB = process.env.USE_WEB_SEARCH === '1';
