@@ -89,12 +89,41 @@ if (filled) fs.writeFileSync(LOCK, JSON.stringify(lock, null, 2) + "\n");
 console.log(`承認済みの文面 ${locked} 本 を照合${filled ? "（初回なのでハッシュを記録した）" : "・一致"}`);
 
 const src = fs.readFileSync(TEMPLATE, "utf8");
-for (const slot of ["/*__IMAGES__*/{}", "/*__POSTS__*/{}"]) {
+
+// **投稿スタイル。** 各 SET がどの型で書かれたかを、書き忘れたまま出せないようにする
+// （2026-10-02 に「どの投稿スタイルで投稿するかを各投稿で意図を持って選択し、
+//   それが正しく反映されている状態を作りたい」と指示された）。
+// 目録は styles.json、割り当ては set-styles.json。説明は x-post-copy スキル §1-B
+const catalog = JSON.parse(fs.readFileSync(path.join(HERE, "styles.json"), "utf8"));
+const setStyles = JSON.parse(fs.readFileSync(path.join(HERE, "set-styles.json"), "utf8"));
+const styleIds = new Set(catalog.styles.map((s) => s.id));
+const groupIds = new Set(catalog.groups.map((g) => g.id));
+for (const s of catalog.styles) {
+  if (!groupIds.has(s.group)) throw new Error(`styles.json: ${s.id} の group「${s.group}」が groups に無い`);
+}
+const setKeys = [...src.matchAll(/^\s*key: "([^"]+)"/gm)].map((m) => m[1]);
+if (!setKeys.length) throw new Error("page.html の SETS から key が 1 つも取れない");
+for (const k of setKeys) {
+  const a = setStyles[k];
+  if (!a || !a.style) throw new Error(`${k} に投稿スタイルが無い。set-styles.json に style と why を書く（x-post-copy スキル §1-B）`);
+  if (!styleIds.has(a.style)) throw new Error(`${k} の style「${a.style}」は styles.json の目録に無い`);
+  if (!a.why || !String(a.why).trim()) throw new Error(`${k} に why（なぜその型を選んだか）が無い`);
+  const name = catalog.styles.find((s) => s.id === a.style).name;
+  console.log(`  ${k}  スタイル: ${a.style}（${name}）`);
+}
+for (const k of Object.keys(setStyles)) {
+  if (k.startsWith("_")) continue;
+  if (!setKeys.includes(k)) throw new Error(`set-styles.json の ${k} は page.html の SETS に無い（消し忘れ）`);
+}
+console.log(`投稿スタイル: SET ${setKeys.length} 件 すべて指定済み（目録 ${catalog.styles.length} 型）`);
+
+for (const slot of ["/*__IMAGES__*/{}", "/*__POSTS__*/{}", "/*__STYLES__*/{}"]) {
   if (!src.includes(slot)) throw new Error("page.html に差し込み口が無い: " + slot);
 }
 const out = src
   .replace("/*__IMAGES__*/{}", JSON.stringify(map))
-  .replace("/*__POSTS__*/{}", JSON.stringify(posts));
+  .replace("/*__POSTS__*/{}", JSON.stringify(posts))
+  .replace("/*__STYLES__*/{}", JSON.stringify({ groups: catalog.groups, styles: catalog.styles, sets: setStyles }));
 fs.writeFileSync(OUT, out);
 
 // **対象 N / 埋めた M を必ず両方 出す。** 合わなければここで気づける（最上位ルール 14）
