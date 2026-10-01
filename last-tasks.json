@@ -1,1 +1,3 @@
-[]
+[
+      {"task": "x200-jal-latest-campaigns.sh", "rc": 0, "out": "JAL の最新キャンペーンを読んだ / jal-latest-campaigns.md"}
+  ]
