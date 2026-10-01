@@ -81,6 +81,115 @@ references: ["https://www.ana.co.jp/travelandlife/article/001953/", "https://www
 <div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+10BHGA+3SPO+2T8Z4X" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/haruene-denki-300x250.jpg" alt="メディア会員の方必見！電気代コスト削減！★大幅還元実施中★【ハルエネ電気】" width="300" height="250" loading="lazy"></a></div>
 </div>
 
+## 📱 主要5アプリを1つずつ紹介
+
+表で全体を見たら、次は自分が入れる1本を確かめて。数字はどれも上の表と同じ。
+
+<div class="intro-card">
+<div class="ic-rank" data-rank="No.1">
+<h3 class="ic-title" id="card-torima"><img src="/images/move-to-earn-poikatsu-apps-2026/logos/torima.png" alt="" loading="lazy" /><a href="https://www.trip-mile.com/" target="_blank" rel="noopener nofollow">トリマ</a></h3>
+</div>
+<div class="ic-check"><span class="ic-check-title">CHECK!</span>移動距離＋歩数＋動画広告で貯めて、Amazonギフト券・現金・各種ポイントに交換可能。<strong>車・電車移動が多い人ほど青天井</strong>。</div>
+<div class="ic-tab"><div class="ic-tab-title">おすすめPOINT</div>
+<ul class="ic-points">
+<li><strong>無料で月700〜1,200円分が現実的な王道アプリ。</strong>迷ったらまずこれ。</li>
+<li>月額は無料。現金・ギフト券・各種ポイントに交換できる。</li>
+<li>現金・ギフト券のメインエンジン。</li>
+</ul>
+<p class="ic-more"><a href="https://www.trip-mile.com/" target="_blank" rel="noopener nofollow">公式サイトで詳細を見る »</a></p>
+</div>
+<table class="ic-info">
+<tr><th>月額</th><th>貯まるもの</th><th>主な獲得方法</th><th>月の獲得実績</th></tr>
+<tr><td>無料</td><td>現金・ギフト券・各種ポイント</td><td>移動距離＋歩数＋動画広告</td><td>700〜1,200円分（上位者は数千円）</td></tr>
+<tr><th colspan="4">こんな人向け</th></tr>
+<tr><td colspan="4" class="wide">車移動が多い / 現金が欲しい</td></tr>
+</table>
+</div>
+
+<div class="intro-card">
+<div class="ic-rank" data-rank="No.2">
+<h3 class="ic-title" id="card-anapocket"><img src="/images/move-to-earn-poikatsu-apps-2026/logos/anapocket.png" alt="" loading="lazy" /><a href="https://www.anapocket.com/pro" target="_blank" rel="noopener nofollow">ANA Pocket</a></h3>
+</div>
+<div class="ic-check"><span class="ic-check-title">CHECK!</span>ANAマイラーは <strong>ANA Pocket Pro（550円）で月746〜1,500マイル</strong>＝余裕で元が取れる。</div>
+<div class="ic-tab"><div class="ic-tab-title">おすすめPOINT</div>
+<ul class="ic-points">
+<li>無料でも回るが<strong>Pro版で化ける</strong>。</li>
+<li>課金しても元が取れる唯一級。</li>
+<li>移動距離（徒歩・電車・車）＋ガチャで貯まる。</li>
+</ul>
+<p class="ic-more"><a href="https://www.anapocket.com/pro" target="_blank" rel="noopener nofollow">公式サイトで詳細を見る »</a></p>
+</div>
+<table class="ic-info">
+<tr><th>月額</th><th>貯まるもの</th><th>主な獲得方法</th><th>月の獲得実績</th></tr>
+<tr><td>無料 or Pro 550円</td><td>ANAマイル・各種ポイント</td><td>移動距離（徒歩・電車・車）＋ガチャ</td><td>Pro：月746〜1,500マイル／無料：月100〜300ポイント程度</td></tr>
+<tr><th colspan="4">こんな人向け</th></tr>
+<tr><td colspan="4" class="wide">ANAマイラー</td></tr>
+</table>
+</div>
+
+<div class="intro-card">
+<div class="ic-rank" data-rank="No.3">
+<h3 class="ic-title" id="card-jalwellness"><img src="/images/move-to-earn-poikatsu-apps-2026/logos/jalwellness.png" alt="" loading="lazy" /><a href="https://www.jal.co.jp/jp/ja/jmb/wellness/" target="_blank" rel="noopener nofollow">JAL Wellness &amp; Travel</a></h3>
+</div>
+<div class="ic-check"><span class="ic-check-title">CHECK!</span>JALマイラーは <strong>1日8,000歩以上歩けるならJAL Wellness</strong>。歩かない人がJALに課金すると赤字なので注意。</div>
+<div class="ic-tab"><div class="ic-tab-title">おすすめPOINT</div>
+<ul class="ic-points">
+<li>年3,092マイル（1万歩なら年5,024マイルも）。</li>
+<li>1日の歩数チャレンジ＋くじでJALマイルが貯まる。</li>
+<li><strong>「無課金だとほぼ機能しない」課金前提アプリ。</strong>1か月の無料体験で見極めてから。</li>
+</ul>
+<p class="ic-more"><a href="https://www.jal.co.jp/jp/ja/jmb/wellness/" target="_blank" rel="noopener nofollow">公式サイトで詳細を見る »</a></p>
+</div>
+<table class="ic-info">
+<tr><th>月額</th><th>貯まるもの</th><th>主な獲得方法</th><th>月の獲得実績</th></tr>
+<tr><td>550円（無料体験あり）</td><td>JALマイル</td><td>1日の歩数チャレンジ＋くじ</td><td>月約260〜420マイル</td></tr>
+<tr><th colspan="4">こんな人向け</th></tr>
+<tr><td colspan="4" class="wide">JALマイラー / 1日8,000歩以上</td></tr>
+</table>
+</div>
+
+<div class="intro-card">
+<div class="ic-rank" data-rank="No.4">
+<h3 class="ic-title" id="card-dhealth"><img src="/images/move-to-earn-poikatsu-apps-2026/logos/dhealth.png" alt="" loading="lazy" /><a href="https://apps.apple.com/jp/app/id1352137023" target="_blank" rel="noopener nofollow">dヘルスケア</a></h3>
+</div>
+<div class="ic-check"><span class="ic-check-title">CHECK!</span><strong>無料のままでもOK</strong>な気軽さが強み。貯まったポイントは普段の買い物にそのまま使える。</div>
+<div class="ic-tab"><div class="ic-tab-title">おすすめPOINT</div>
+<ul class="ic-points">
+<li>歩数・体重記録ミッションでdポイントが貯まる。</li>
+<li>無料なら月33ポイント前後、有料なら月200〜250ポイント。</li>
+<li>経済圏ユーザーなら“ついで”で拾う価値あり。</li>
+</ul>
+<p class="ic-more"><a href="https://apps.apple.com/jp/app/id1352137023" target="_blank" rel="noopener nofollow">公式サイトで詳細を見る »</a></p>
+</div>
+<table class="ic-info">
+<tr><th>月額</th><th>貯まるもの</th><th>主な獲得方法</th><th>月の獲得実績</th></tr>
+<tr><td>無料 or 有料</td><td>dポイント</td><td>歩数・体重記録ミッション</td><td>無料：月33ポイント前後／有料：月200〜250ポイント</td></tr>
+<tr><th colspan="4">こんな人向け</th></tr>
+<tr><td colspan="4" class="wide">ドコモ経済圏</td></tr>
+</table>
+</div>
+
+<div class="intro-card">
+<div class="ic-rank" data-rank="No.5">
+<h3 class="ic-title" id="card-rakutenhealth"><img src="/images/move-to-earn-poikatsu-apps-2026/logos/rakutenhealth.png" alt="" loading="lazy" /><a href="https://healthcare.rakuten.co.jp/" target="_blank" rel="noopener nofollow">楽天ヘルスケア</a></h3>
+</div>
+<div class="ic-check"><span class="ic-check-title">CHECK!</span><strong>完全無料・5,000歩でくじを引くだけ</strong>の手軽さで、貯まったポイントは普段の買い物にそのまま使える。</div>
+<div class="ic-tab"><div class="ic-tab-title">おすすめPOINT</div>
+<ul class="ic-points">
+<li>稼げる額は月100〜150円と地味。</li>
+<li><strong>無料のままでもOK</strong>な気軽さが強み。</li>
+<li>経済圏ユーザーなら“ついで”で拾う価値あり。</li>
+</ul>
+<p class="ic-more"><a href="https://healthcare.rakuten.co.jp/" target="_blank" rel="noopener nofollow">公式サイトで詳細を見る »</a></p>
+</div>
+<table class="ic-info">
+<tr><th>月額</th><th>貯まるもの</th><th>主な獲得方法</th><th>月の獲得実績</th></tr>
+<tr><td>無料</td><td>楽天ポイント</td><td>5,000歩でくじ</td><td>月100〜150ポイント</td></tr>
+<tr><th colspan="4">こんな人向け</th></tr>
+<tr><td colspan="4" class="wide">楽天経済圏</td></tr>
+</table>
+</div>
+
 ## 🏆 コスパで選ぶ「一番お得な移動ポイ活」タイプ別
 
 「結局どれ？」に答える。あんたのタイプ別に最適解を出した。

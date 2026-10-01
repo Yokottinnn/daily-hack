@@ -1383,3 +1383,52 @@ blockquote.twitter-tweet a:hover { color: var(--pink-700); }
 @media (max-width: 879px) {
   body:has(.admax--sticky-mobile) { padding-bottom: 76px; }
 }
+
+/* ============ INTRO CARD（1 対象ずつの紹介カード） ============
+   **参照 LP（app-mania のポイ活アプリランキング）の `.ranking-item` の作り**を写し、
+   色だけこのブログに置き換えたもの（2026-10-01 に見本を見てもらって「分かりやすくていい」）。
+   参照の元データは `ops/heartbeat` の `reports/lp-ref/`（t203 / t204）。
+
+   | 参照                         | ここ                    |
+   | ---------------------------- | ----------------------- |
+   | 左上の三角 #FF8C00 に「No.1」 | ピンク #EC5C90          |
+   | CHECK! の枠 #00bcd4           | ピンク #EC5C90          |
+   | おすすめPOINT の枠 #00AAFF    | 濃ピンク #A82959        |
+   | 表の見出しセル #f7eec6        | クリーム #FFF1C8        |
+   | 赤字 #FF0000                  | 濃ピンク #A82959        |
+
+   **「ユーザーの感想」の枠（参照の `.reviewbox`）は、実在する声があるときだけ使う。**
+   空のまま公開しない・作らない（blog-article スキル「推測値を載せない」）。 */
+.intro-card { background: #fff; border: 1px solid var(--pink-200); padding: 5px 5px 1px; margin: 34px 0 10px; border-radius: 6px; box-shadow: 0 4px 8px rgba(0, 0, 0, .08); }
+.intro-card .ic-rank { position: relative; padding: 20px 20px 0; margin-bottom: -16px; text-align: center;
+  background: repeating-linear-gradient(-45deg, #fffffb, #fffffb 3px, #fffef7 3px, #fffef7 7px); }
+.intro-card .ic-rank::before { content: ""; position: absolute; left: 0; top: 0; border-style: solid; border-width: 60px 80px 0 0; border-color: var(--pink-500) transparent transparent transparent; }
+.intro-card .ic-rank::after { content: attr(data-rank); position: absolute; top: 10px; left: 5px; color: #fff; font-weight: 900; font-size: 15px; z-index: 2; }
+/* 見出しはブランド名＋ロゴ（最上位ルール 17）。カードの中だけ中央に寄せる */
+.post-body .intro-card h3.ic-title { margin: 0; padding: 0; border: 0; display: flex; justify-content: center; align-items: center; gap: 10px;
+  font-family: "RocknRoll One", sans-serif; font-weight: 400; font-size: 26px; color: var(--pink-700); line-height: 1.35; }
+.post-body .intro-card h3.ic-title img { width: auto; height: 40px; border-radius: 8px; background: #fff; border: 1px solid var(--line); padding: 2px; }
+.post-body .intro-card h3.ic-title a { color: inherit; border-bottom: 0; }
+.intro-card .ic-check { position: relative; padding: 1em 1.2em; margin: 2.5em 4px 1em; border: solid 3px var(--pink-500); font-size: 16px; line-height: 1.85; }
+.intro-card .ic-check .ic-check-title { position: absolute; top: -15px; left: 10px; padding: 0 10px; line-height: 1; font-size: 1.3em; background: #fff; color: var(--pink-500); font-family: "RocknRoll One", sans-serif; }
+.intro-card .ic-tab { position: relative; margin: 2.2em 4px 1.2em; padding: .8em 1em; border: solid 3px var(--pink-700); }
+.intro-card .ic-tab .ic-tab-title { position: absolute; top: -27px; left: -3px; padding: 0 10px; height: 25px; line-height: 25px; font-size: 15px; font-weight: 900; border-radius: 5px 5px 0 0; background: var(--pink-700); color: #fff; }
+.intro-card .ic-tab.is-review { border-color: var(--yellow-500); }
+.intro-card .ic-tab.is-review .ic-tab-title { background: var(--yellow-500); color: var(--ink); }
+.post-body .intro-card ul.ic-points { list-style: none; margin: 0; padding-left: 1.6em; }
+.post-body .intro-card ul.ic-points li { position: relative; margin: 0 0 8px; font-size: 15.5px; }
+.post-body .intro-card ul.ic-points li::before { content: "✔"; position: absolute; left: -1.4em; color: var(--pink-600); font-weight: 900; }
+.intro-card .ic-more { text-align: right; font-size: 12px; font-weight: 700; margin: 4px 0 0; }
+.post-body .intro-card .ic-more a { color: var(--pink-600); border-bottom: 0; }
+/* 参照の `.app-info-table`。**本文の表の共通スタイルを打ち消す**（横スクロール化など） */
+.post-body .intro-card table.ic-info { display: table; table-layout: fixed; width: calc(100% - 8px); margin: 0 4px 12px; border-collapse: collapse; border-radius: 0; font-size: 13px; white-space: normal; }
+.post-body .intro-card table.ic-info th { background: var(--cream-100); color: var(--ink); padding: 9px 6px; border: 1px solid #E5D7B5; text-align: center; font-weight: 800; white-space: normal; }
+.post-body .intro-card table.ic-info td { background: #fff; padding: 9px 6px; border: 1px solid #E5D7B5; text-align: center;
+  /* **本文の表の共通指定（1 列目を太字・折り返し禁止・縞模様）を打ち消す。** 効いたままだと
+     スマホで 1 列目だけ幅を取り、「貯まるもの」が 4 行に折れた（2026-10-01 に 390px で見て気づいた） */
+  font-weight: 500; white-space: normal; vertical-align: middle; color: var(--ink); }
+.post-body .intro-card table.ic-info td.wide { text-align: left; }
+@media (max-width: 680px) {
+  .post-body .intro-card h3.ic-title { font-size: 22px; }
+  .post-body .intro-card table.ic-info { font-size: 12px; }
+}
