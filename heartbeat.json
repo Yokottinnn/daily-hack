@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T14:19:27Z",
+  "generated_at": "2026-10-01T14:50:40Z",
   "login_lock": {"present": false, "age_hours": 0},
   "cdp": {"healthy": true, "port": 18810},
   "x_jobs": {"loaded": 8, "expected": 8, "ai_total": 15, "halted": false, "missing": []},
@@ -34,9 +34,7 @@
     "com.dailyhack.x-impressions"
   ],
   "reconnect": "既に起動している",
-  "tasks": [
-      {"task": "t204-shot-reference-lp.sh", "rc": 0, "out": "> **判断はしていない。撮っただけ**（最上位ルール 20）。  LLM 不使用。**$0/回・$0/日・$0/月。**  STDOUT_SHOT rc=0 pc=3395276 sp=2206971"}
-  ],
+  "tasks": [],
   "running": null,
   "auth": {
     "ok": true,
@@ -54,9 +52,9 @@
   },
   "autoload": {
     "target": 15,
-    "tried": 14,
-    "loaded": 14,
-    "labels": ["ai.openclaw.comment-warmup", "ai.openclaw.competitor-follower-follow", "ai.openclaw.hashtag-follow", "ai.openclaw.badge-followback", "ai.openclaw.reply-followback-check", "ai.openclaw.reply-followers-cleanup", "ai.openclaw.incoming-reply-watcher", "ai.openclaw.pipeline-heartbeat", "ai.openclaw.mutual-prune", "ai.openclaw.daily-supervisor", "ai.openclaw.caffeinate", "ai.openclaw.follower-snapshot", "ai.openclaw.x-loop-guardian", "ai.openclaw.follow-balance"]
+    "tried": 0,
+    "loaded": 0,
+    "labels": []
   },
   "unloaded_count": 60,
   "unloaded": [
