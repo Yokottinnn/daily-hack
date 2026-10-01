@@ -56,6 +56,36 @@ ArtifactData(action="list", url="https://claude.ai/artifact/1o7gjZZghit8kn3W4AXU
 
 `x` / `y` は**画像の左上を 0、右下を 1 とした割合。** 枚数ではなく座標で指せる。
 
+## 投稿スタイルの表示と変更指示（2026-10-02 に追加）
+
+> 投稿プレビューページでどの投稿スタイルを使ったかが分かるように可視化して、
+> 変更したい場合はスタイルを変える指示が出せるようにしてほしい。
+
+**各投稿の見出しの下に「投稿スタイル」の欄がある。** 型の名前・ID・目的・要約・**選んだ理由**が出る。
+ページ上部の「投稿スタイル目録」を開くと、全 15 型が目的別に並ぶ。
+
+| 置き場 | 中身 |
+| --- | --- |
+| `scripts/image-review/styles.json` | **目録**（ID・名前・目的・要約・由来）。説明の本体は `x-post-copy` スキル §1-B |
+| `scripts/image-review/set-styles.json` | **割り当て**（SET の key → `style` と `why`） |
+| 共有 DB の `style_requests` | **利用者の変更指示**（`set` / `from` / `to` / `note` / `status` / `askedAt`） |
+
+**`build.mjs` は、SET に `style` が無い・目録に無い・`why` が無い・割り当てが余っている、のどれでも止まる。**
+書き忘れたまま出せない。
+
+### 変更指示の読み方（**通知は来ない。こちらから読む**）
+
+```text
+ArtifactData(action="list", url="https://claude.ai/artifact/1o7gjZZghit8kn3W4AXUdH",
+             collection="style_requests")
+```
+
+`status: "open"` が未対応。`to` の型で書き直し、`set-styles.json` の `style` と `why` を変え、
+**その依頼を `status: "done"` に更新する**（`ArtifactData(action="update", …, data={"status":"done"}, if_version=…)`）。
+**承認済みの文面なら、指示されたその投稿だけを直す**（最上位ルール 18）。
+
+**ページは文面を書き換えない。** 選んだだけでは何も変わらず、指示として残るだけ。書き直すのは Claude。
+
 ## 作り直し方
 
 **ページの実体はリポジトリにある。** Artifact だけに置くと、作り直せなくなる。
