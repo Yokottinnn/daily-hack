@@ -1,0 +1,38 @@
+{
+  "_doc": "X 投稿用の正方形画像。作り方は .claude/skills/x-post-images/SKILL.md",
+  "_note": "**2026-10-01 の JAL 月初入会の投稿用。** 歩いてポイ活の告知（2026-09-20 投稿済み・tweet_id=2101694599215599678）で使った public/images/walk-poikatsu-2026/x/ の 4 枚 は**使い回さない**（最上位ルール 8）。出力先を walk-poikatsu-2026-jal/x/ に分けて上書きしない（レビューページの build.mjs が <slug>/x/ を読むため、slug を分けた）。数字は JAL 公式（x199 でブラウザ取得・2026-10-01 23:12）と記事だけ。**出所の行は出さない**: 背景は photos/park.jpg（**CC0**・Jamie Taylor / Unsplash 経由 Commons）で、権利表記が要らない。**最初は apps/jal-shot.jpg を全面に敷いたが 360×640 しか無く、1080 に引き伸ばすとぼやけて、背景の UI 文字が説明文の後ろに透けた**ので差し替えた。表紙は生成器の都合で出るが使わない（_unused-cover.jpg は生成後に消す）",
+  "slug": "walk-poikatsu-2026",
+  "imageBase": "public/images/walk-poikatsu-2026",
+  "out": "public/images/walk-poikatsu-2026-jal/x",
+  "cover": {
+    "file": "_unused-cover.jpg",
+    "kicker": "unused",
+    "title": "unused",
+    "sub": "unused",
+    "mark": false,
+    "columns": 1,
+    "theme": "ink",
+    "cards": [
+      {
+        "img": "apps/jal-shot.jpg",
+        "badge": "-",
+        "title": "-",
+        "meta": "-"
+      }
+    ]
+  },
+  "photos": [
+    {
+      "file": "1-jal-oct.jpg",
+      "img": "photos/park.jpg",
+      "badge": "JAL Wellness &amp; Travel",
+      "name": "10月中に入れば<br>11月末まで無料",
+      "lead": "初回は<b>入会日から翌月末まで</b>無料。<br><b>10/1入会なら61日、10/31入会なら31日</b>",
+      "specs": [
+        "月額550円",
+        "10/7(水) 0〜6時メンテ",
+        "無料のあと自動更新"
+      ]
+    }
+  ]
+}
