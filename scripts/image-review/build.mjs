@@ -29,6 +29,9 @@ const FILES = {
   // **2 パターンの文面で同じ 4 枚を見てもらう**（2026-09-26 の指示）。
   // 素材は App Store 掲載素材とアイコンだけなので、出所の行が要らない
   "payid-invite": ["1-summary.jpg", "2-atobarai.jpg", "3-shops.jpg", "4-rating.jpg"],
+  // **未投稿。2026-10-01 の JAL 月初入会。** 歩いてポイ活の告知（2026-09-20 投稿済み）の 4 枚 は
+  // 使い回さない（最上位ルール 8）ので、slug を分けて 1 枚 だけ新しく作った
+  "walk-poikatsu-2026-jal": ["1-jal-oct.jpg"],
 };
 
 const map = {};
