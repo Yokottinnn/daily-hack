@@ -85,6 +85,19 @@ references: ["https://www.ana.co.jp/travelandlife/article/001953/", "https://www
 
 表で全体を見たら、次は自分が入れる1本を確かめて。数字はどれも上の表と同じ。
 
+### 👑 おすすめTOP3
+
+<div class="cmp-table-wrap">
+<table class="cmp-table rank-table">
+<thead><tr><th>順位</th><th>アプリ</th><th>月の獲得実績</th><th>月額</th></tr></thead>
+<tbody>
+<tr class="recommended"><td><span class="rank-crown is-1">1</span></td><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/move-to-earn-poikatsu-apps-2026/logos/torima.png" alt="" loading="lazy" /><a href="#card-torima">トリマ</a></span></td><td><strong>700〜1,200円分</strong></td><td>無料</td></tr>
+<tr><td><span class="rank-crown is-2">2</span></td><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/move-to-earn-poikatsu-apps-2026/logos/anapocket.png" alt="" loading="lazy" /><a href="#card-anapocket">ANA Pocket</a></span></td><td>月746〜1,500マイル（Pro）</td><td>無料 or Pro 550円</td></tr>
+<tr><td><span class="rank-crown is-3">3</span></td><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/move-to-earn-poikatsu-apps-2026/logos/jalwellness.png" alt="" loading="lazy" /><a href="#card-jalwellness">JAL Wellness &amp; Travel</a></span></td><td>月約260〜420マイル</td><td>550円（無料体験あり）</td></tr>
+</tbody>
+</table>
+</div>
+
 <div class="intro-card">
 <div class="ic-rank" data-rank="No.1">
 <h3 class="ic-title" id="card-torima"><img src="/images/move-to-earn-poikatsu-apps-2026/logos/torima.png" alt="" loading="lazy" /><a href="https://www.trip-mile.com/" target="_blank" rel="noopener nofollow">トリマ</a></h3>
@@ -98,12 +111,18 @@ references: ["https://www.ana.co.jp/travelandlife/article/001953/", "https://www
 </ul>
 <p class="ic-more"><a href="https://www.trip-mile.com/" target="_blank" rel="noopener nofollow">公式サイトで詳細を見る »</a></p>
 </div>
-<table class="ic-info">
-<tr><th>月額</th><th>貯まるもの</th><th>主な獲得方法</th><th>月の獲得実績</th></tr>
-<tr><td>無料</td><td>現金・ギフト券・各種ポイント</td><td>移動距離＋歩数＋動画広告</td><td>700〜1,200円分（上位者は数千円）</td></tr>
-<tr><th colspan="4">こんな人向け</th></tr>
-<tr><td colspan="4" class="wide">車移動が多い / 現金が欲しい</td></tr>
+<div class="cmp-table-wrap">
+<table class="cmp-table spec-table">
+<tbody>
+<tr><th>月額</th><td>無料</td></tr>
+<tr><th>貯まるもの</th><td>現金・ギフト券・各種ポイント</td></tr>
+<tr><th>主な獲得方法</th><td>移動距離＋歩数＋動画広告</td></tr>
+<tr><th>月の獲得実績</th><td><strong>700〜1,200円分</strong>（上位者は数千円）</td></tr>
+<tr><th>こんな人向け</th><td>車移動が多い / 現金が欲しい</td></tr>
+<tr><th>公式</th><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/move-to-earn-poikatsu-apps-2026/logos/torima.png" alt="" loading="lazy" /><a href="https://www.trip-mile.com/" target="_blank" rel="noopener nofollow">トリマ</a></span></td></tr>
+</tbody>
 </table>
+</div>
 </div>
 
 <div class="intro-card">
@@ -119,12 +138,18 @@ references: ["https://www.ana.co.jp/travelandlife/article/001953/", "https://www
 </ul>
 <p class="ic-more"><a href="https://www.anapocket.com/pro" target="_blank" rel="noopener nofollow">公式サイトで詳細を見る »</a></p>
 </div>
-<table class="ic-info">
-<tr><th>月額</th><th>貯まるもの</th><th>主な獲得方法</th><th>月の獲得実績</th></tr>
-<tr><td>無料 or Pro 550円</td><td>ANAマイル・各種ポイント</td><td>移動距離（徒歩・電車・車）＋ガチャ</td><td>Pro：月746〜1,500マイル／無料：月100〜300ポイント程度</td></tr>
-<tr><th colspan="4">こんな人向け</th></tr>
-<tr><td colspan="4" class="wide">ANAマイラー</td></tr>
+<div class="cmp-table-wrap">
+<table class="cmp-table spec-table">
+<tbody>
+<tr><th>月額</th><td>無料 or Pro 550円</td></tr>
+<tr><th>貯まるもの</th><td>ANAマイル・各種ポイント</td></tr>
+<tr><th>主な獲得方法</th><td>移動距離（徒歩・電車・車）＋ガチャ</td></tr>
+<tr><th>月の獲得実績</th><td><strong>Pro：月746〜1,500マイル</strong>／無料：月100〜300ポイント程度</td></tr>
+<tr><th>こんな人向け</th><td>ANAマイラー</td></tr>
+<tr><th>公式</th><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/move-to-earn-poikatsu-apps-2026/logos/anapocket.png" alt="" loading="lazy" /><a href="https://www.anapocket.com/pro" target="_blank" rel="noopener nofollow">ANA Pocket</a></span></td></tr>
+</tbody>
 </table>
+</div>
 </div>
 
 <div class="intro-card">
@@ -140,12 +165,18 @@ references: ["https://www.ana.co.jp/travelandlife/article/001953/", "https://www
 </ul>
 <p class="ic-more"><a href="https://www.jal.co.jp/jp/ja/jmb/wellness/" target="_blank" rel="noopener nofollow">公式サイトで詳細を見る »</a></p>
 </div>
-<table class="ic-info">
-<tr><th>月額</th><th>貯まるもの</th><th>主な獲得方法</th><th>月の獲得実績</th></tr>
-<tr><td>550円（無料体験あり）</td><td>JALマイル</td><td>1日の歩数チャレンジ＋くじ</td><td>月約260〜420マイル</td></tr>
-<tr><th colspan="4">こんな人向け</th></tr>
-<tr><td colspan="4" class="wide">JALマイラー / 1日8,000歩以上</td></tr>
+<div class="cmp-table-wrap">
+<table class="cmp-table spec-table">
+<tbody>
+<tr><th>月額</th><td>550円（無料体験あり）</td></tr>
+<tr><th>貯まるもの</th><td>JALマイル</td></tr>
+<tr><th>主な獲得方法</th><td>1日の歩数チャレンジ＋くじ</td></tr>
+<tr><th>月の獲得実績</th><td>月約260〜420マイル</td></tr>
+<tr><th>こんな人向け</th><td>JALマイラー / 1日8,000歩以上</td></tr>
+<tr><th>公式</th><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/move-to-earn-poikatsu-apps-2026/logos/jalwellness.png" alt="" loading="lazy" /><a href="https://www.jal.co.jp/jp/ja/jmb/wellness/" target="_blank" rel="noopener nofollow">JAL Wellness &amp; Travel</a></span></td></tr>
+</tbody>
 </table>
+</div>
 </div>
 
 <div class="intro-card">
@@ -161,12 +192,18 @@ references: ["https://www.ana.co.jp/travelandlife/article/001953/", "https://www
 </ul>
 <p class="ic-more"><a href="https://apps.apple.com/jp/app/id1352137023" target="_blank" rel="noopener nofollow">公式サイトで詳細を見る »</a></p>
 </div>
-<table class="ic-info">
-<tr><th>月額</th><th>貯まるもの</th><th>主な獲得方法</th><th>月の獲得実績</th></tr>
-<tr><td>無料 or 有料</td><td>dポイント</td><td>歩数・体重記録ミッション</td><td>無料：月33ポイント前後／有料：月200〜250ポイント</td></tr>
-<tr><th colspan="4">こんな人向け</th></tr>
-<tr><td colspan="4" class="wide">ドコモ経済圏</td></tr>
+<div class="cmp-table-wrap">
+<table class="cmp-table spec-table">
+<tbody>
+<tr><th>月額</th><td>無料 or 有料</td></tr>
+<tr><th>貯まるもの</th><td>dポイント</td></tr>
+<tr><th>主な獲得方法</th><td>歩数・体重記録ミッション</td></tr>
+<tr><th>月の獲得実績</th><td>無料：月33ポイント前後／有料：月200〜250ポイント</td></tr>
+<tr><th>こんな人向け</th><td>ドコモ経済圏</td></tr>
+<tr><th>公式</th><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/move-to-earn-poikatsu-apps-2026/logos/dhealth.png" alt="" loading="lazy" /><a href="https://apps.apple.com/jp/app/id1352137023" target="_blank" rel="noopener nofollow">dヘルスケア</a></span></td></tr>
+</tbody>
 </table>
+</div>
 </div>
 
 <div class="intro-card">
@@ -182,12 +219,18 @@ references: ["https://www.ana.co.jp/travelandlife/article/001953/", "https://www
 </ul>
 <p class="ic-more"><a href="https://healthcare.rakuten.co.jp/" target="_blank" rel="noopener nofollow">公式サイトで詳細を見る »</a></p>
 </div>
-<table class="ic-info">
-<tr><th>月額</th><th>貯まるもの</th><th>主な獲得方法</th><th>月の獲得実績</th></tr>
-<tr><td>無料</td><td>楽天ポイント</td><td>5,000歩でくじ</td><td>月100〜150ポイント</td></tr>
-<tr><th colspan="4">こんな人向け</th></tr>
-<tr><td colspan="4" class="wide">楽天経済圏</td></tr>
+<div class="cmp-table-wrap">
+<table class="cmp-table spec-table">
+<tbody>
+<tr><th>月額</th><td>無料</td></tr>
+<tr><th>貯まるもの</th><td>楽天ポイント</td></tr>
+<tr><th>主な獲得方法</th><td>5,000歩でくじ</td></tr>
+<tr><th>月の獲得実績</th><td>月100〜150ポイント</td></tr>
+<tr><th>こんな人向け</th><td>楽天経済圏</td></tr>
+<tr><th>公式</th><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/move-to-earn-poikatsu-apps-2026/logos/rakutenhealth.png" alt="" loading="lazy" /><a href="https://healthcare.rakuten.co.jp/" target="_blank" rel="noopener nofollow">楽天ヘルスケア</a></span></td></tr>
+</tbody>
 </table>
+</div>
 </div>
 
 ## 🏆 コスパで選ぶ「一番お得な移動ポイ活」タイプ別

@@ -1387,6 +1387,8 @@ blockquote.twitter-tweet a:hover { color: var(--pink-700); }
 /* ============ INTRO CARD（1 対象ずつの紹介カード） ============
    **参照 LP（app-mania のポイ活アプリランキング）の `.ranking-item` の作り**を写し、
    色だけこのブログに置き換えたもの（2026-10-01 に見本を見てもらって「分かりやすくていい」）。
+   **下の表は参照を写さない。** 「既存のブログにあるデザインを使った方が綺麗」と指示があり、
+   既存の `cmp-table spec-table`（1 対象の仕様の 2 列表）を使う。
    参照の元データは `ops/heartbeat` の `reports/lp-ref/`（t203 / t204）。
 
    | 参照                         | ここ                    |
@@ -1394,7 +1396,6 @@ blockquote.twitter-tweet a:hover { color: var(--pink-700); }
    | 左上の三角 #FF8C00 に「No.1」 | ピンク #EC5C90          |
    | CHECK! の枠 #00bcd4           | ピンク #EC5C90          |
    | おすすめPOINT の枠 #00AAFF    | 濃ピンク #A82959        |
-   | 表の見出しセル #f7eec6        | クリーム #FFF1C8        |
    | 赤字 #FF0000                  | 濃ピンク #A82959        |
 
    **「ユーザーの感想」の枠（参照の `.reviewbox`）は、実在する声があるときだけ使う。**
@@ -1420,15 +1421,22 @@ blockquote.twitter-tweet a:hover { color: var(--pink-700); }
 .post-body .intro-card ul.ic-points li::before { content: "✔"; position: absolute; left: -1.4em; color: var(--pink-600); font-weight: 900; }
 .intro-card .ic-more { text-align: right; font-size: 12px; font-weight: 700; margin: 4px 0 0; }
 .post-body .intro-card .ic-more a { color: var(--pink-600); border-bottom: 0; }
-/* 参照の `.app-info-table`。**本文の表の共通スタイルを打ち消す**（横スクロール化など） */
-.post-body .intro-card table.ic-info { display: table; table-layout: fixed; width: calc(100% - 8px); margin: 0 4px 12px; border-collapse: collapse; border-radius: 0; font-size: 13px; white-space: normal; }
-.post-body .intro-card table.ic-info th { background: var(--cream-100); color: var(--ink); padding: 9px 6px; border: 1px solid #E5D7B5; text-align: center; font-weight: 800; white-space: normal; }
-.post-body .intro-card table.ic-info td { background: #fff; padding: 9px 6px; border: 1px solid #E5D7B5; text-align: center;
-  /* **本文の表の共通指定（1 列目を太字・折り返し禁止・縞模様）を打ち消す。** 効いたままだと
-     スマホで 1 列目だけ幅を取り、「貯まるもの」が 4 行に折れた（2026-10-01 に 390px で見て気づいた） */
-  font-weight: 500; white-space: normal; vertical-align: middle; color: var(--ink); }
-.post-body .intro-card table.ic-info td.wide { text-align: left; }
 @media (max-width: 680px) {
   .post-body .intro-card h3.ic-title { font-size: 22px; }
-  .post-body .intro-card table.ic-info { font-size: 12px; }
 }
+
+/* ============ RANK TABLE（おすすめ TOP3） ============
+   **既存の `cmp-table` に、順位の王冠を足しただけ。** 1 位の行は既存の `recommended`。
+   参照 LP の構成は写さない（2026-10-01「丸パクリはしないで。今のブログのデザインを活用して」）。
+   王冠は使ってよいと言われたので、順位の数字を載せる小さな札にした。 */
+/* `recommended` は 1 列目に「★」を自動で付ける。王冠と印が 2 つ並ぶので、**この表でだけ**出さない */
+.cmp-table.rank-table tr.recommended td:first-child::before { content: none; }
+.cmp-table.rank-table td { vertical-align: middle; }
+.cmp-table.rank-table td:first-child { width: 64px; text-align: center; }
+.rank-crown { display: inline-grid; place-items: end center; width: 40px; height: 34px; padding-bottom: 3px;
+  font-weight: 900; font-size: 14px; color: #fff; line-height: 1;
+  -webkit-mask: var(--crown) no-repeat center / contain; mask: var(--crown) no-repeat center / contain;
+  --crown: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 34'%3E%3Cpath d='M2 10l9 8 9-16 9 16 9-8-4 22H6z'/%3E%3C/svg%3E"); }
+.rank-crown.is-1 { background: linear-gradient(180deg, #F5D97E, #D9A400); }
+.rank-crown.is-2 { background: linear-gradient(180deg, #D6DEE6, #8B95A1); }
+.rank-crown.is-3 { background: linear-gradient(180deg, #DCA97F, #94603A); }
