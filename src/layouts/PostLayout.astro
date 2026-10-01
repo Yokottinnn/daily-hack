@@ -12,7 +12,6 @@ import AdMax from '../components/AdMax.astro';
 import InlineRelated from '../components/InlineRelated.astro';
 import { getCollection } from 'astro:content';
 import DraftCommentWidget from '../components/DraftCommentWidget.astro';
-import FloatCta from '../components/FloatCta.astro';
 import { getPrimaryCategory, getCategories, postBelongsToCategory } from '../lib/category';
 import { collectHeadings } from '../lib/headings';
 import { faqJsonLd, howToJsonLd, sections } from '../lib/aio';
@@ -164,28 +163,6 @@ const articleJsonLd = {
   isAccessibleForFree: true,
 };
 
-// ── 「この記事でわかること」（LP KIT・2026-09-28） ──
-// **記事側に何も書かせずに、全記事へ入れる。** h2 をそのまま並べるだけなので
-// 要約も言い換えもしない（`aio.ts` の `articleSection` と同じ考え方）。
-//
-// **3 本 未満なら出さない。** 1〜2 行の箱は、目次の劣化版にしかならない。
-// リンク先は目次と同じアンカーなので、**生 HTML の h2 も拾える**
-// （`collectHeadings` が Markdown の見出しと合わせて集めている）。
-//
-// **目次の写しにしない。** 目次は右（スマホでは本文の上）に別に出ている。
-// ここは「読む前に分かる中身」なので、**締めの節を落とす。**
-// 「まとめ」「よくある質問」は、どの記事にも在って中身を語らない。
-// **飾りの絵文字も落とす**（見出しに付けている記事があり、箱の中で浮く）。
-const LP_SUMMARY_SKIP = /^(まとめ|よくある質問|FAQ|さいごに|最後に|おわりに|終わりに|参考|注意)/;
-const lpSummary = tocHeadings
-  .filter((h) => h.depth === 2)
-  .map((h) => ({
-    ...h,
-    text: h.text.replace(/^[\p{Extended_Pictographic}\u{FE0F}\u{2460}-\u{24FF}\s]+/u, '').trim(),
-  }))
-  .filter((h) => h.text && !LP_SUMMARY_SKIP.test(h.text))
-  .slice(0, 4);
-
 // **記事本文から作る。** 取れなければ出さない（空の FAQPage は評価を落とす）
 const faqLd = faqJsonLd(post.body);
 const howToLd = howToJsonLd(post.body, data.title);
@@ -239,16 +216,6 @@ const howToLd = howToJsonLd(post.body, data.title);
               ))}
             </div>
           )}
-          {lpSummary.length >= 3 && (
-            <div class="lp-summary">
-              <p class="ttl"><span aria-hidden="true">📌</span>この記事でわかること</p>
-              <ul>
-                {lpSummary.map((h) => (
-                  <li><a href={`#${h.slug}`}>{h.text}</a></li>
-                ))}
-              </ul>
-            </div>
-          )}
           <div class="post-eyecatch">
             <img src={eyecatchSrc} alt={data.eyecatchAlt ?? data.title} />
           </div>
@@ -299,7 +266,7 @@ const howToLd = howToJsonLd(post.body, data.title);
 
     {siblingClusters.length > 0 && parentPillar && (
       <section style="padding: 56px 0 24px;">
-        <div class="sec-head sec-head--lp">
+        <div class="sec-head">
           <h2><span class="chibi"><img src="/images/expr-04-cheer.png" alt="" /></span>シリーズの他の記事</h2>
           <a href={`/posts/${parentPillar.id}/`} class="seeall">メイン記事へ戻る →</a>
         </div>
@@ -311,7 +278,7 @@ const howToLd = howToJsonLd(post.body, data.title);
 
     {related.length > 0 && (
       <section style="padding: 32px 0 56px;">
-        <div class="sec-head sec-head--lp">
+        <div class="sec-head">
           <h2><span class="chibi"><img src="/images/expr-05-smug.png" alt="" /></span>同じカテゴリの記事</h2>
           <a href={`/category/${primaryCat}/`} class="seeall">すべて見る →</a>
         </div>
@@ -323,7 +290,6 @@ const howToLd = howToJsonLd(post.body, data.title);
 
     <!-- 広告枠5: スマホ下部固定（モバイルのみ） -->
     <AdMax slot="dailyhack-sticky-mobile" variant="sticky-mobile" label={false} />
-    <FloatCta />
   </main>
 
   <script is:inline>
