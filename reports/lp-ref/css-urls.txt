@@ -1,0 +1,2 @@
+https://app-mania.online/point/rank.css
+https://app-mania.online/point/table.css

@@ -1,3 +1,3 @@
 [
-      {"task": "x199-jal-campaign-via-browser.sh", "rc": 0, "out": "JAL のキャンペーンをブラウザで読んだ / jal-campaign.md"}
+      {"task": "t203-read-reference-lp.sh", "rc": 0, "out": " > **判断はしていない。素材を持ち帰っただけ**（最上位ルール 20）。 > 置き場: `reports/lp-ref/`（`page.html` / `all.css` / `pc.png` / `sp.png`）  LLM 不使用。**$0/回・$0/日・$0/月。**"}
   ]
