@@ -288,8 +288,9 @@ const howToLd = howToJsonLd(post.body, data.title);
       </section>
     )}
 
-    <!-- 広告枠5: スマホ下部固定（モバイルのみ） -->
-    <AdMax slot="dailyhack-sticky-mobile" variant="sticky-mobile" label={false} />
+    {/* スマホ下部固定の広告は置かない（2026-10-02 に利用者の指示で外した）。
+        「場所が中途半端で空白があるし、いまの状態ならない方がいい」。
+        **戻すのは利用者から名指しの指示があったときだけ。** 経緯は docs/ad-slots.md */}
   </main>
 
   <script is:inline>
