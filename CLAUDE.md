@@ -152,6 +152,10 @@ commit ハッシュが分かっていれば `git cherry-pick <hash>` で戻せ�
 Claude が X に直接投稿することはない。確立している経路は次のとおりで、勝手に省略しない。
 
 1. **文面は [`x-post-copy` スキル](.claude/skills/x-post-copy/SKILL.md) を読んでから書く。**
+   **書く前に投稿スタイルを 1 つ 選ぶ**（スキル §1-B の目録・全 15 型）。選んだ型と理由を
+   `scripts/image-review/set-styles.json` に書く。**書かないとレビューページのビルドが止まる。**
+   利用者がページで出したスタイルの変更指示（`style_requests`）は、こちらから読みに行く。
+   **どの型でもキャラ（アタシ・〜わよ・あんた）は変えない。変えるのは並べ方だけ。**
    画像は [`x-post-images` スキル](.claude/skills/x-post-images/SKILL.md)（最上位ルール 8）。
 2. **草案の文面と画像を、このチャットに直接 出す。** 画像は `SendUserFile` で添付する。
 3. **確認をもらう。** 確認前に先へ進めない。
