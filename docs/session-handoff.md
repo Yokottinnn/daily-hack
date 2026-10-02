@@ -68,6 +68,12 @@
 
 <!-- 新しい記録がこの下に追加される（新しいものが上） -->
 
+### 2026-10-02 — 利用者が共有した広告画像（FANTAS study のセミナー広告）の構図『主張 ＋ Before→After 表』を、X と記事の共通の参考として docs/design-refs/before-after-table.md に線画と 6 点の分析で残した。他社の広告で公開リポジトリなので画像そのものはコミットしていない。X 側は x-post-images スキル §1-C に置き、記事側は blog3 宛ての依頼（docs/cross-session-requests.md 2026-10-02）で連携した。gen-x-cards.mjs にはこの構図の型はまだ無い。$0。
+
+次のアクション:
+
+- [ ] gen-x-cards.mjs に Before→After 表の型を作るか、次の告知で使うかは利用者の判断待ち。blog3 は依頼表を読んで記事側に取り込む。
+
 ### 2026-10-02 — X の投稿スタイルを体系化した。x202 でキューから実際に出た告知 14 件と参考 5 本（zomi1023 / oimachi_toriko 417,431 表示 / MURA_mal / ruka_affi / shupeiman）を読み、x-post-copy スキル §1-B に全 15 型・6 目的の目録を作った。既存の出た投稿から 6 型（deadline / contrast / roundup / verified / question / pr-invite）、参考から新しく 5 型（§3-F secret『あんたにだけ教えるわね』/ §3-G discover『知らなかったでしょ？』/ §3-H calc『計算したわよ』/ §3-I lose-win『☠️損してる側／💰得してる側↓』/ §3-J proof『実は〜あるのよ』＋公式画面に印）。入口は参考の言い回しを借りずハッカー子の言葉に置き換え、体験談は書けないので calc は計算を、proof は公式画面を証拠にした。見本は記事の数字だけで書き全部 280 以内。レビューページ v33 に各投稿の『投稿スタイル』欄（型・目的・選んだ理由）と目録、変更指示（style_requests に書く）を追加。build.mjs は style が無い・目録に無い・why が無いと止まる（壊して確かめた）。索引 scripts/image-review/styles.json、割り当て set-styles.json。$0。
 
 次のアクション:
