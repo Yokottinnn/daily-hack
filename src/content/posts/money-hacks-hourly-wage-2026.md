@@ -41,12 +41,6 @@ references:
   <div class="hakkako-quote">アンケートサイトに1日1時間張り付いて月3,000円。それ「副業やってます」じゃなくて「最低賃金の1/3で自分を雇ってます」って意味だからね。アタシ、見てて悲しくなるのよ。</div>
 </div>
 
-<!-- a8-banners auto-inserted by banner-fill (slot1-after-1st-h2) -->
-<div class="affiliate-block">
-<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+12P7VE+3SDQ+5ZU29" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/gasya-no-mado-300x250.jpg" alt="ガス会社の乗り換えで、ガス料金が安くなる！【ガス屋の窓口】" width="300" height="250" loading="lazy"></a></div>
-<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+25ZTSQ+2W92+1NJZN5" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/enepi-denki-300x250.jpg" alt="東証プライム上場！一番安い電気料金で契約するなら【エネピ】" width="300" height="250" loading="lazy"></a></div>
-</div>
-
 ## 主要お得施策を「実質時給」で換算してみた
 
 じゃあ実際に並べるわよ。各施策を「所要時間」「得する額（概算）」「年間で繰り返せるか」の3軸で見て、時給に直す。**金額も時給もあくまで概算・目安で、人や案件・時期で大きく変動する**から、序列のイメージとして受け取って。
