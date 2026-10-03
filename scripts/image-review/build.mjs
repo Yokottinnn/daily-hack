@@ -31,7 +31,8 @@ const FILES = {
   "payid-invite": ["1-summary.jpg", "2-atobarai.jpg", "3-shops.jpg", "4-rating.jpg"],
   // **記事の告知ではない**（2026-10-03・300 フォロワーのお礼）。1 枚だけ。
   // 素材はキャラ（expr-04-cheer.png）と自作の図だけなので、出所の行が要らない
-  "follower-300": ["1-card.jpg"],
+  // 2026-10-03 に 3 版目の静止画へ「とてもいいね👍」。動く版（GIF）は同じ絵に動きを付けたもの
+  "follower-300": ["1-card.jpg", "1-card.gif"],
 };
 
 const map = {};
@@ -43,7 +44,9 @@ for (const [slug, files] of Object.entries(FILES)) {
     // **空でないことを見る。** 読めた rc は証拠にならない（最上位ルール 13）
     if (!buf.length) throw new Error("空のファイル: " + p);
     raw += buf.length;
-    map[`${slug}/${f}`] = "data:image/jpeg;base64," + buf.toString("base64");
+    // **拡張子で型を変える。** GIF を image/jpeg で埋めると動かないことがある
+    const mime = f.endsWith(".gif") ? "image/gif" : f.endsWith(".png") ? "image/png" : "image/jpeg";
+    map[`${slug}/${f}`] = `data:${mime};base64,` + buf.toString("base64");
   }
 }
 
