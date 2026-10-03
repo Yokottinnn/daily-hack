@@ -1,7 +1,6 @@
-<!-- フォロワー 300 人のお礼画像（2026-10-03・3 版目）の元。gen-x-cards.mjs の cover/photo に当てはまらないので HTML で組んだ。
-     作り直すとき: この HTML と ZenMaru-{500,700,900}.woff2 / ZenMaru-latin-900.woff2（@fontsource/zen-maru-gothic）と public/images/expr-04-cheer.png を同じ階層に置き、
-     playwright で 1080x1080 を jpeg 92 で撮る → public/images/follower-300/x/1-card.jpg。素材はキャラと自作の図だけなので出所の行は要らない。
-     3 版目の構図: 利用者が指定した参考 4 本（x205）に共通する「キャラを片側に大きく・反対側に 数字 → 突破 → 普段の発信内容」。配色は x204 の調和の取れたもの（淡いピンク・白縁・黒線なし） -->
+<!-- フォロワー 300 人のお礼の「動く版」（GIF・3 版目）の元。2 版目（キャラが表情と腕で演技）に、手を振る場面で手そのものを振る動きを足した。4 秒で一周。
+     手のコマ: FILL=1 node scripts/gen-expr-wave.mjs public/images/expr-01-wave.png wave-sprite.png 9 18（ops/data/x-cards/follower-300.wave-sprite.png に保存）
+     作り直すとき: 静止画と同じ素材＋expr-02/04/09＋wave-sprite.png を同じ階層に置き、node scripts/gen-x-gif.mjs <この HTML> public/images/follower-300/x/1-card.gif 1080 12 4 -->
 <!doctype html><html lang="ja"><head><meta charset="utf-8">
 <style>
 @font-face{font-family:Z;src:url(ZenMaru-500.woff2);font-weight:500}
@@ -45,10 +44,47 @@ body{font-family:Z,sans-serif;color:var(--ink);overflow:hidden;position:relative
 .sum li:last-child{border-bottom:none}
 .sum li span{display:flex;align-items:center;justify-content:center;width:54px;height:54px;border-radius:50%;background:var(--p100);font-size:30px;flex:none}
 .sum li em{font-style:normal;color:var(--p600)}
+
+/* 動き（1 周 3 秒・GIF 用）。currentTime で 1 コマずつ止めて撮る */
+@keyframes tw{0%,100%{transform:scale(.55);opacity:.35}50%{transform:scale(1.15);opacity:1}}
+@keyframes fl{0%,100%{transform:translateY(0)}50%{transform:translateY(-14px)}}
+@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+@keyframes pop{0%,100%{transform:scale(1)}12%{transform:scale(1.06)}24%{transform:scale(1)}}
+@keyframes rib{0%,100%{transform:translateY(0) rotate(0)}18%{transform:translateY(-6px) rotate(-1.5deg)}30%{transform:translateY(0) rotate(0)}}
+.tw{transform-box:fill-box;transform-origin:center;animation:tw 2s ease-in-out infinite}
+.fl{transform-box:fill-box;transform-origin:center;animation:fl 4s ease-in-out infinite}
+.bubble{animation:bob 4s ease-in-out infinite;animation-delay:-.8s}
+.num{animation:pop 4s ease-out infinite;transform-origin:50% 60%}
+.ribbon .t,.ribbon svg{animation:rib 4s ease-out infinite;transform-origin:50% 50%}
+
+/* キャラの演技（4 秒で一周）: 腕組みで「ふん」→ ほっぺを膨らませる → 両手でガッツポーズ → 手を振る */
+.chr{position:absolute;left:-74px;bottom:-24px;width:650px;height:650px;
+ -webkit-mask-image:linear-gradient(to bottom,#000 82%,transparent 99%)}
+.chr img{position:absolute;inset:0;width:100%;height:100%;opacity:0;transform-origin:50% 100%}
+@keyframes sCross{0%{opacity:1}19%{opacity:1}21%{opacity:0}98%{opacity:0}100%{opacity:1}}
+@keyframes sPout{0%,19%{opacity:0}21%{opacity:1}36%{opacity:1}38%{opacity:0}100%{opacity:0}}
+@keyframes sCheer{0%,36%{opacity:0}38%{opacity:1}61%{opacity:1}63%{opacity:0}100%{opacity:0}}
+@keyframes sWave{0%,61%{opacity:0}63%{opacity:1}98%{opacity:1}100%{opacity:0}}
+@keyframes mCross{0%,100%{transform:translate(0,26px)}8%{transform:translate(0,26px) rotate(-2deg)}16%{transform:translate(0,26px) rotate(1deg)}}
+@keyframes mPout{20%{transform:scale(1.04)}24%{transform:scale(1)}28%{transform:translateX(-6px)}32%{transform:translateX(6px)}36%{transform:translateX(0)}}
+@keyframes mCheer{37%{transform:translateY(0) scale(1.04)}43%{transform:translateY(-34px)}49%{transform:translateY(0)}55%{transform:translateY(-34px)}61%{transform:translateY(0)}}
+@keyframes mWave{0%,62%{transform:translate(20px,0) scale(.86)}65%{transform:translate(20px,-6px) scale(.88)}68%,100%{transform:translate(20px,0) scale(.86)}}
+/* 手を振る: 手首を軸に手だけを回した 9 コマ（wave-sprite.png）を 0.75 秒で 1 往復 */
+@keyframes hand{from{background-position:0 0}to{background-position:-5850px 0}}
+.chr .c1{animation:sCross 4s linear infinite,mCross 4s ease-in-out infinite}
+.chr .c2{animation:sPout 4s linear infinite,mPout 4s ease-in-out infinite}
+.chr .c3{animation:sCheer 4s linear infinite,mCheer 4s ease-in-out infinite}
+.chr .c4{position:absolute;inset:0;opacity:0;transform-origin:50% 100%;background:url(wave-sprite.png) 0 0/5850px 650px no-repeat;
+ animation:sWave 4s linear infinite,mWave 4s ease-in-out infinite,hand .75s steps(9) .25s infinite}
 </style></head><body>
 <svg class="deco" width="1080" height="1080" style="left:0;top:0" id="bg"></svg>
 <div class="top"><i></i>DAILY HACK<i></i></div>
-<img class="mascot" src="expr-04-cheer.png">
+<div class="chr">
+ <img class="c1" src="expr-09-arms-crossed.png">
+ <img class="c2" src="expr-02-pout.png">
+ <img class="c3" src="expr-04-cheer.png">
+ <div class="c4"></div>
+</div>
 <div class="bubble">
  <svg width="470" height="250" viewBox="0 0 470 250" style="overflow:visible;filter:drop-shadow(0 14px 22px rgba(214,62,118,.22))">
   <path d="M40 6 H430 Q464 6 464 40 V176 Q464 210 430 210 H300 Q286 232 262 262 Q262 232 248 210 H40 Q6 210 6 176 V40 Q6 6 40 6 Z" fill="#fff"/>
@@ -91,10 +127,10 @@ const add=(t,a)=>{const e=document.createElementNS(ns,t);for(const x in a)e.setA
 for(let i=0;i<22;i++){const x=r()*1080,y=r()*1080,R=8+r()*22;if(x>520)continue;if(y<330)continue;if(x>40&&y>440)continue;
  add('circle',{cx:x,cy:y,r:R,fill:['#FFFFFF','#F8C9D9','#FFF1C8'][i%3],opacity:.55+r()*.3});}
 // ハート
-const heart=(x,y,z,c,o)=>add('path',{d:'M0 6 C0 -2 10 -4 12 3 C14 -4 24 -2 24 6 C24 14 12 20 12 22 C12 20 0 14 0 6 Z',fill:c,opacity:o,transform:`translate(${x},${y}) scale(${z}) rotate(${-15+r()*30} 12 10)`});
+let hi=0;const heart=(x,y,z,c,o)=>{const g=add('g',{transform:`translate(${x},${y}) scale(${z}) rotate(${-15+r()*30} 12 10)`});const e=document.createElementNS(ns,'path');e.setAttribute('d','M0 6 C0 -2 10 -4 12 3 C14 -4 24 -2 24 6 C24 14 12 20 12 22 C12 20 0 14 0 6 Z');e.setAttribute('fill',c);e.setAttribute('opacity',o);e.setAttribute('class','fl');e.style.animationDelay=(-(hi++)*0.5)+'s';g.appendChild(e);};
 [[1012,150,1.6],[1036,566,1.2],[470,400,1.9],[40,360,1.6],[520,40,1.1],[30,30,1.2]].forEach(([x,y,z],i)=>heart(x,y,z,i%2?'#F09DBB':'#EC5C90',.75));
 // きらきら
-const star=(x,y,z,c)=>add('path',{d:'M0 -12 Q2 -2 12 0 Q2 2 0 12 Q-2 2 -12 0 Q-2 -2 0 -12 Z',fill:c,transform:`translate(${x},${y}) scale(${z})`});
+let si=0;const star=(x,y,z,c)=>{const g=add('g',{transform:`translate(${x},${y}) scale(${z})`});const e=document.createElementNS(ns,'path');e.setAttribute('d','M0 -12 Q2 -2 12 0 Q2 2 0 12 Q-2 2 -12 0 Q-2 -2 0 -12 Z');e.setAttribute('fill',c);e.setAttribute('class','tw');e.style.animationDelay=(-(si++)*0.5)+'s';g.appendChild(e);};
 [[1040,90,1.4],[570,150,1.2],[1040,300,1.1],[560,500,1.3],[1030,520,1.1],[440,470,1.2],[100,420,1],[510,20,1]].forEach(([x,y,z],i)=>star(x,y,z,i%2?'#F5C518':'#FFFFFF'));
 </script>
 </body></html>
