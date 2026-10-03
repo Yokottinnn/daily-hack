@@ -10,6 +10,7 @@
 // ローカルでは 8 枚 とも読めていた（`naturalWidth` で確認）ので、
 // **こちらで見ているかぎり気づけない**（最上位ルール 14 と同じ根）。
 import fs from "node:fs";
+import sharp from "sharp";
 import path from "node:path";
 import { createHash } from "node:crypto";
 import { fileURLToPath } from "node:url";
@@ -32,7 +33,7 @@ const FILES = {
   // **記事の告知ではない**（2026-10-03・300 フォロワーのお礼）。1 枚だけ。
   // 素材はキャラ（expr-04-cheer.png）と自作の図だけなので、出所の行が要らない
   // 2026-10-03 に 3 版目の静止画へ「とてもいいね👍」。動く版（GIF）は同じ絵に動きを付けたもの
-  "follower-300": ["1-card.jpg", "1-card.gif"],
+  "follower-300": ["1-card.jpg", "1-card.gif", "1-card-v2.gif"],
 };
 
 const map = {};
@@ -40,9 +41,14 @@ let raw = 0;
 for (const [slug, files] of Object.entries(FILES)) {
   for (const f of files) {
     const p = path.join(IMAGES, slug, "x", f);
-    const buf = fs.readFileSync(p);
+    let buf = fs.readFileSync(p);
     // **空でないことを見る。** 読めた rc は証拠にならない（最上位ルール 13）
     if (!buf.length) throw new Error("空のファイル: " + p);
+    // **大きい GIF はページに埋める分だけ 720px に縮める**（ページの上限 16MB。2026-10-03 に GIF 2 本で超えた）。
+    // 投稿に使う元のファイルは触らない。コメントの位置は割合なので縮めてもずれない
+    if (f.endsWith(".gif") && buf.length > 3 * 1048576) {
+      buf = await sharp(buf, { animated: true }).resize(720, 720).gif({ effort: 7, colours: 256, dither: 0.6 }).toBuffer();
+    }
     raw += buf.length;
     // **拡張子で型を変える。** GIF を image/jpeg で埋めると動かないことがある
     const mime = f.endsWith(".gif") ? "image/gif" : f.endsWith(".png") ? "image/png" : "image/jpeg";

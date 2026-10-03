@@ -1,7 +1,6 @@
-<!-- フォロワー 300 人のお礼の「動く版」（GIF・2 版目）の元。3 版目の静止画に CSS アニメーションを足したもの。4 秒で一周。
-     キャラの演技: 腕組みで「ふん」(expr-09) → ほっぺを膨らませる (expr-02) → ガッツポーズで 2 回跳ねる (expr-04) → 手を振る (expr-01)。
-     手を振る絵は上げた手が左端で切れるので、0.86 倍に縮めて右へ 20px 寄せている（右のパネルに髪がかからない範囲）。
-     作り直すとき: 静止画と同じ素材＋expr-01/02/09 を同じ階層に置き、node scripts/gen-x-gif.mjs <この HTML> public/images/follower-300/x/1-card.gif 1080 12 4 -->
+<!-- フォロワー 300 人のお礼の「動く版」（GIF・3 版目）の元。2 版目（キャラが表情と腕で演技）に、手を振る場面で手そのものを振る動きを足した。4 秒で一周。
+     手のコマ: FILL=1 node scripts/gen-expr-wave.mjs public/images/expr-01-wave.png wave-sprite.png 9 18（ops/data/x-cards/follower-300.wave-sprite.png に保存）
+     作り直すとき: 静止画と同じ素材＋expr-02/04/09＋wave-sprite.png を同じ階層に置き、node scripts/gen-x-gif.mjs <この HTML> public/images/follower-300/x/1-card.gif 1080 12 4 -->
 <!doctype html><html lang="ja"><head><meta charset="utf-8">
 <style>
 @font-face{font-family:Z;src:url(ZenMaru-500.woff2);font-weight:500}
@@ -62,18 +61,21 @@ body{font-family:Z,sans-serif;color:var(--ink);overflow:hidden;position:relative
 .chr{position:absolute;left:-74px;bottom:-24px;width:650px;height:650px;
  -webkit-mask-image:linear-gradient(to bottom,#000 82%,transparent 99%)}
 .chr img{position:absolute;inset:0;width:100%;height:100%;opacity:0;transform-origin:50% 100%}
-@keyframes sCross{0%{opacity:1}21%{opacity:1}23%{opacity:0}98%{opacity:0}100%{opacity:1}}
-@keyframes sPout{0%,21%{opacity:0}23%{opacity:1}41%{opacity:1}43%{opacity:0}100%{opacity:0}}
-@keyframes sCheer{0%,41%{opacity:0}43%{opacity:1}71%{opacity:1}73%{opacity:0}100%{opacity:0}}
-@keyframes sWave{0%,71%{opacity:0}73%{opacity:1}98%{opacity:1}100%{opacity:0}}
-@keyframes mCross{0%,100%{transform:translate(0,26px) scale(1)}10%{transform:translate(0,26px) rotate(-2deg)}20%{transform:translate(0,26px) rotate(1deg)}}
-@keyframes mPout{22%{transform:scale(1.04)}26%{transform:scale(1)}32%{transform:translateX(-6px)}36%{transform:translateX(6px)}40%{transform:translateX(0)}}
-@keyframes mCheer{42%{transform:translateY(0) scale(1.04)}48%{transform:translateY(-34px)}54%{transform:translateY(0)}60%{transform:translateY(-34px)}66%{transform:translateY(0)}}
-@keyframes mWave{0%,72%{transform:translate(20px,0) scale(.86) rotate(0)}78%{transform:translate(20px,0) scale(.86) rotate(-4deg)}84%{transform:translate(20px,0) scale(.86) rotate(3deg)}90%{transform:translate(20px,0) scale(.86) rotate(-4deg)}96%,100%{transform:translate(20px,0) scale(.86) rotate(0)}}
+@keyframes sCross{0%{opacity:1}19%{opacity:1}21%{opacity:0}98%{opacity:0}100%{opacity:1}}
+@keyframes sPout{0%,19%{opacity:0}21%{opacity:1}36%{opacity:1}38%{opacity:0}100%{opacity:0}}
+@keyframes sCheer{0%,36%{opacity:0}38%{opacity:1}61%{opacity:1}63%{opacity:0}100%{opacity:0}}
+@keyframes sWave{0%,61%{opacity:0}63%{opacity:1}98%{opacity:1}100%{opacity:0}}
+@keyframes mCross{0%,100%{transform:translate(0,26px)}8%{transform:translate(0,26px) rotate(-2deg)}16%{transform:translate(0,26px) rotate(1deg)}}
+@keyframes mPout{20%{transform:scale(1.04)}24%{transform:scale(1)}28%{transform:translateX(-6px)}32%{transform:translateX(6px)}36%{transform:translateX(0)}}
+@keyframes mCheer{37%{transform:translateY(0) scale(1.04)}43%{transform:translateY(-34px)}49%{transform:translateY(0)}55%{transform:translateY(-34px)}61%{transform:translateY(0)}}
+@keyframes mWave{0%,62%{transform:translate(20px,0) scale(.86)}65%{transform:translate(20px,-6px) scale(.88)}68%,100%{transform:translate(20px,0) scale(.86)}}
+/* 手を振る: 手首を軸に手だけを回した 9 コマ（wave-sprite.png）を 0.75 秒で 1 往復 */
+@keyframes hand{from{background-position:0 0}to{background-position:-5850px 0}}
 .chr .c1{animation:sCross 4s linear infinite,mCross 4s ease-in-out infinite}
 .chr .c2{animation:sPout 4s linear infinite,mPout 4s ease-in-out infinite}
 .chr .c3{animation:sCheer 4s linear infinite,mCheer 4s ease-in-out infinite}
-.chr .c4{animation:sWave 4s linear infinite,mWave 4s ease-in-out infinite}
+.chr .c4{position:absolute;inset:0;opacity:0;transform-origin:50% 100%;background:url(wave-sprite.png) 0 0/5850px 650px no-repeat;
+ animation:sWave 4s linear infinite,mWave 4s ease-in-out infinite,hand .75s steps(9) .25s infinite}
 </style></head><body>
 <svg class="deco" width="1080" height="1080" style="left:0;top:0" id="bg"></svg>
 <div class="top"><i></i>DAILY HACK<i></i></div>
@@ -81,7 +83,7 @@ body{font-family:Z,sans-serif;color:var(--ink);overflow:hidden;position:relative
  <img class="c1" src="expr-09-arms-crossed.png">
  <img class="c2" src="expr-02-pout.png">
  <img class="c3" src="expr-04-cheer.png">
- <img class="c4" src="expr-01-wave.png">
+ <div class="c4"></div>
 </div>
 <div class="bubble">
  <svg width="470" height="250" viewBox="0 0 470 250" style="overflow:visible;filter:drop-shadow(0 14px 22px rgba(214,62,118,.22))">
