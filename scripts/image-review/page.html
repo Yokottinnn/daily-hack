@@ -885,6 +885,9 @@
     const mine = forTarget(target);
     slot.pins.replaceChildren();
     mine.forEach((r, i) => {
+      // **対応済みの印は画像に出さない**（2026-10-03 に指示）。直した後も ① ② が
+      // 画像に残って、見返すときに邪魔になる。コメント自体は下の一覧に残る（番号も同じ）
+      if (r.done) return;
       const b = document.createElement("button");
       b.type = "button"; b.className = "pin";
       b.dataset.done = r.done ? "1" : "0";
