@@ -95,12 +95,6 @@ references:
 
 ---
 
-<!-- a8-banners auto-inserted by banner-fill (slot1-after-1st-h2) -->
-<div class="affiliate-block">
-<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+ZQ1UI+42Y0+5ZMCH" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/au-hikari-300x250.jpg" alt="【auひかり】初期工事費無料！豪華キャンペーン！知らない人はモッタイナイ！" width="300" height="250" loading="lazy"></a></div>
-<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+10BHGA+3SPO+2T8Z4X" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/haruene-denki-300x250.jpg" alt="メディア会員の方必見！電気代コスト削減！★大幅還元実施中★【ハルエネ電気】" width="300" height="250" loading="lazy"></a></div>
-</div>
-
 ## 7社早見表（2026年5月時点）
 
 | 会社 | 実質年率 | 限度額（最大） | 審査時間 | 在籍確認 | 無利息期間 | WEB完結 |
@@ -148,12 +142,6 @@ references:
 **三井住友カード プレミアムカードローン**を真っ先に検討して。会員限定で**金利1.5〜14.5%**（限度額や審査結果による）と、消費者金融より圧倒的に低い。**Olive契約者ならカードローン枠の利用がさらにスムーズ**だから、Vポイント経済圏で完結させたい人にもいい。
 
 ---
-
-<!-- a8-banners auto-inserted by banner-fill (slot2-middle) -->
-<div class="affiliate-block">
-<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+11ICNU+3SPO+ZRALD" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/gas-choice-300x250.jpg" alt="当サイト限定　最大30000円現金キャッシュバック！ガス代を今よりお安く！【ガスチョイス】" width="300" height="250" loading="lazy"></a></div>
-<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+123S9M+1MWA+1TS6MP" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/hikari-denwa-wiz-300x250.jpg" alt="【キャッシュバック最大7万円】ひかり電話、ヒカリ回線のお申込み窓口" width="300" height="250" loading="lazy"></a></div>
-</div>
 
 ## 各社詳細
 
@@ -328,12 +316,6 @@ references:
 
 ---
 
-<!-- a8-banners auto-inserted by banner-fill (slot3-before-tail) -->
-<div class="affiliate-block">
-<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+12P7VE+3SDQ+5ZU29" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/gasya-no-mado-300x250.jpg" alt="ガス会社の乗り換えで、ガス料金が安くなる！【ガス屋の窓口】" width="300" height="250" loading="lazy"></a></div>
-<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+13ANH6+50+552T41" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/gmo-docomo-hikari-300x250.jpg" alt="GMOインターネット株式会社【GMOとくとくBB】ドコモ光はこちら" width="300" height="250" loading="lazy"></a></div>
-</div>
-
 ## まとめ: 結局あんたはどれを選ぶべき？
 
 長々書いたけど、結論はこう:
@@ -388,3 +370,5 @@ references:
 > 📢 **広告について**: 本記事は金融商品の比較情報を提供するもので、特定の業者への申込みを勧誘するものではありません。掲載情報は2026年5月時点の各社公式情報をもとに作成しており、実際の契約条件は申込時の審査結果により決定されます。
 >
 > ⚠️ **重要なお知らせ**: カードローンは借入であり、必ず返済が必要です。返済能力を超える借入は生活破綻の原因となります。借入を検討する際は、貸金業法・利息制限法・総量規制の枠組みを必ず理解し、計画的にご利用ください。「絶対借りられる」「審査なし」「ブラックOK」をうたう業者は無登録の違法業者（いわゆる闇金）の可能性が極めて高く、絶対に利用しないでください。多重債務でお困りの方は、日本貸金業協会の貸金業相談・紛争解決センター（0570-051-051）または最寄りの法テラス・消費生活センターへご相談ください。
+
+<!-- a8-banners: none — 主題と合う提携案件が無い（2026-10-03）。banner-fill はこの記事を飛ばす -->

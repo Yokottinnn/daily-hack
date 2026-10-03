@@ -63,11 +63,23 @@ for (const fn of files) {
 
   if (data.draft) continue;
 
+  // **「合う案件が無い」と判断した記事は、--refresh でも触らない**（2026-10-03）。
+  // 電気・ガスのバナーがジムや自動車保険の記事に差し込まれていた。外したあと
+  // `--all` を回すと同じものがまた入るので、記事側に印を置いて飛ばす。
+  if (body.includes('<!-- a8-banners: none')) {
+    console.log(`⏭  ${fn}: a8-banners: none の印あり、スキップ`);
+    continue;
+  }
+
   // 既存の banner-fill 自動挿入ブロックを剥がす（refresh モード時のみ全消去 → 再配置）
+  //
+  // **ブロックの終わりは、単独の行の `</div>`。** 旧版は `[\s\S]*?<\/div>\n` で、
+  // **最初のバナーの `</div>` で止まっていた。** ブロックの頭とバナー 1 枚だけが消え、
+  // 残りのバナーと行き場のない `</div>` が本文に残った（2026-10-03 に 10 記事 29 箇所 見つけた）。
   let workingBody = body;
   if (refresh) {
     workingBody = workingBody.replace(
-      /\n?<!-- a8-banners auto-inserted by banner-fill[^\n]*\n<div class="affiliate-block">[\s\S]*?<\/div>\n/g,
+      /\n?<!-- a8-banners auto-inserted by banner-fill[^\n]*\n<div class="affiliate-block">\n(?:<div class="a8-banner[^\n]*\n)*<\/div>\n/g,
       '\n'
     );
   } else if (workingBody.includes('class="affiliate-block"')) {
