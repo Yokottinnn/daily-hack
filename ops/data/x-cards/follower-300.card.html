@@ -1,57 +1,101 @@
-<!-- フォロワー 300 人のお礼画像（2026-10-03）の元。gen-x-cards.mjs の cover/photo に当てはまらないので HTML で組んだ。
-     作り直すとき: この HTML と NotoSansJP-{500,700,900}.woff2（@fontsource/noto-sans-jp）と public/images/expr-04-cheer.png を同じ階層に置き、
-     playwright で 1080x1080 を jpeg 92 で撮る → public/images/follower-300/x/1-card.jpg。素材はキャラと自作の図だけなので出所の行は要らない -->
+<!-- フォロワー 300 人のお礼画像（2026-10-03・2 版目）の元。gen-x-cards.mjs の cover/photo に当てはまらないので HTML で組んだ。
+     作り直すとき: この HTML と ZenMaru-{500,700,900}.woff2 / ZenMaru-latin-900.woff2（@fontsource/zen-maru-gothic）と public/images/expr-04-cheer.png を同じ階層に置き、
+     playwright で 1080x1080 を jpeg 92 で撮る → public/images/follower-300/x/1-card.jpg。素材はキャラと自作の図だけなので出所の行は要らない。
+     2 版目の方針: 参考 28 枚（x204）のうち調和の取れたもの（淡いピンクで統一・白縁のふっくらした数字・黒い線なし・メッセージは白い吹き出しとリボン）に寄せた -->
 <!doctype html><html lang="ja"><head><meta charset="utf-8">
 <style>
-@font-face{font-family:N;src:url(NotoSansJP-500.woff2);font-weight:500}
-@font-face{font-family:N;src:url(NotoSansJP-700.woff2);font-weight:700}
-@font-face{font-family:N;src:url(NotoSansJP-900.woff2);font-weight:900}
+@font-face{font-family:Z;src:url(ZenMaru-500.woff2);font-weight:500}
+@font-face{font-family:Z;src:url(ZenMaru-700.woff2);font-weight:700}
+@font-face{font-family:Z;src:url(ZenMaru-900.woff2);font-weight:900}
+@font-face{font-family:Z;src:url(ZenMaru-latin-900.woff2);font-weight:900;unicode-range:U+0000-00FF}
+:root{--p50:#FFF5F8;--p100:#FDE4EE;--p200:#F8C9D9;--p300:#F09DBB;--p500:#EC5C90;--p600:#D63E76;--p700:#A82959;--c100:#FFF1C8;--y:#F5C518;--ink:#2A1923;--ink2:#5A4651}
 *{box-sizing:border-box;margin:0;padding:0}
 html,body{width:1080px;height:1080px}
-body{font-family:N,sans-serif;color:#2A1923;overflow:hidden;position:relative;
- background:radial-gradient(circle at 50% 38%,#FFFBEE 0,#FFF1C8 38%,#F8C9D9 100%)}
-.rays{position:absolute;inset:-300px;background:repeating-conic-gradient(from 0deg at 50% 46%,rgba(255,255,255,.55) 0 6deg,transparent 6deg 15deg);opacity:.55}
-.cf{position:absolute;border-radius:3px}
-.top{position:absolute;top:52px;left:0;right:0;text-align:center}
-.pill{display:inline-block;background:#2A1923;color:#FFF1C8;font-weight:700;font-size:26px;letter-spacing:.12em;padding:10px 30px;border-radius:999px}
-.lead{position:absolute;top:150px;left:0;right:0;text-align:center;font-weight:900;font-size:78px;color:#A82959;letter-spacing:.04em}
-.num{position:absolute;top:212px;left:0;right:0;text-align:center;line-height:1}
-.num b{font-weight:900;font-size:330px;letter-spacing:-.02em;color:#D63E76;
- -webkit-text-stroke:10px #fff;paint-order:stroke fill;text-shadow:0 14px 0 #A82959,0 22px 30px rgba(168,41,89,.35)}
-.num i{font-style:normal;font-weight:900;font-size:120px;color:#D63E76;-webkit-text-stroke:7px #fff;paint-order:stroke fill;text-shadow:0 8px 0 #A82959}
-.brk{position:absolute;top:530px;left:0;right:0;text-align:center}
-.brk span{display:inline-block;background:#F5C518;color:#2A1923;font-weight:900;font-size:76px;padding:4px 44px 10px;transform:rotate(-3deg);box-shadow:0 10px 0 #2A1923;border-radius:14px;letter-spacing:.08em}
-.mascot{position:absolute;left:-10px;bottom:-24px;width:470px;
- -webkit-mask-image:linear-gradient(to bottom,#000 78%,transparent 99%)}
-.bubble{position:absolute;left:372px;top:668px;background:#fff;border:6px solid #2A1923;border-radius:30px;padding:22px 30px;font-weight:700;font-size:38px;line-height:1.42;box-shadow:0 10px 0 rgba(42,25,35,.15)}
-.bubble:before{content:"";position:absolute;left:-34px;top:54px;border:18px solid transparent;border-right:30px solid #2A1923}
-.bubble:after{content:"";position:absolute;left:-20px;top:58px;border:14px solid transparent;border-right:24px solid #fff}
-.bubble small{display:block;font-size:27px;margin-top:4px;color:#5A4651;font-weight:500}
-.path{position:absolute;right:44px;bottom:40px;left:430px;background:#2A1923;color:#fff;border-radius:22px;padding:18px 28px;font-weight:700;font-size:30px;line-height:1.35;text-align:left}
-.path .r{display:flex;align-items:baseline;gap:14px}
-.path .d{color:#F09DBB;font-size:26px}.path .ar{color:#F09DBB;font-size:32px;margin:0 4px}
-.path .v{font-weight:900;font-size:40px}
-.path .v.big{color:#F5C518}
-.path .nx{margin-top:8px;border-top:2px dashed #5A4651;padding-top:8px;color:#FFF1C8}
-.path .nx b{color:#F5C518;font-weight:900;font-size:36px}
+body{font-family:Z,sans-serif;color:var(--ink);overflow:hidden;position:relative;
+ background:
+  radial-gradient(520px 380px at 50% 30%,rgba(255,241,200,.9),transparent 70%),
+  radial-gradient(420px 420px at 90% 95%,rgba(248,201,217,.7),transparent 70%),
+  linear-gradient(170deg,#FFF8FA 0%,#FDE4EE 100%)}
+.deco{position:absolute;pointer-events:none}
+.bokeh{border-radius:50%;filter:blur(2px)}
+.top{position:absolute;top:46px;left:0;right:0;display:flex;justify-content:center;align-items:center;gap:18px;color:var(--p600);font-weight:900;font-size:26px;letter-spacing:.32em}
+.top i{display:block;width:70px;height:2px;background:var(--p300);border-radius:2px}
+.lead{position:absolute;top:76px;left:0;right:0;text-align:center;font-weight:900;font-size:86px;color:var(--p600);letter-spacing:.06em;
+ -webkit-text-stroke:12px #fff;paint-order:stroke fill;filter:drop-shadow(0 6px 10px rgba(214,62,118,.18))}
+.num{position:absolute;top:124px;left:0;right:0;height:330px;text-align:center;font-weight:900;line-height:330px;white-space:nowrap}
+.num span{position:absolute;left:0;right:0}
+.num .bk{color:#fff;-webkit-text-stroke:30px #fff;filter:drop-shadow(0 12px 16px rgba(214,62,118,.28))}
+.num .fr{background:linear-gradient(180deg,#F58AB0 0%,#EC5C90 45%,#D63E76 100%);-webkit-background-clip:text;background-clip:text;color:transparent}
+.num b{font-size:300px;letter-spacing:-.01em;font-weight:900}
+.num em{font-style:normal;font-size:130px;font-weight:900;margin-left:6px}
+.num .hl{position:absolute;left:0;right:0;color:transparent;background:linear-gradient(180deg,rgba(255,255,255,.55),rgba(255,255,255,0) 40%);-webkit-background-clip:text;background-clip:text}
+.ribbon{position:absolute;top:478px;left:50%;transform:translateX(-50%);width:440px;height:96px}
+.ribbon .t{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;color:#fff;font-weight:900;font-size:58px;letter-spacing:.14em;padding-bottom:6px}
+.mascot{position:absolute;left:-6px;bottom:-10px;width:470px;
+ -webkit-mask-image:linear-gradient(to bottom,#000 80%,transparent 99%)}
+.bubble{position:absolute;left:440px;top:592px;width:600px;height:200px}
+.bubble .tx{position:absolute;left:70px;right:24px;top:30px;text-align:center}
+.bubble .a{font-weight:900;font-size:48px;color:var(--p600);letter-spacing:.04em;line-height:1.25}
+.bubble .b{font-weight:700;font-size:38px;color:var(--ink);line-height:1.4;margin-top:4px}
+.bubble .c{font-weight:500;font-size:24px;color:var(--ink2);margin-top:6px}
+.card{position:absolute;left:520px;right:40px;top:836px;bottom:40px;background:rgba(255,255,255,.88);border:3px solid var(--p200);border-radius:30px;
+ box-shadow:0 14px 30px -14px rgba(214,62,118,.35);padding:40px 26px 18px}
+.card .h{position:absolute;top:-22px;left:50%;transform:translateX(-50%);white-space:nowrap;background:var(--p500);color:#fff;font-weight:900;font-size:24px;letter-spacing:.06em;padding:8px 26px;border-radius:999px;box-shadow:0 6px 14px -6px rgba(214,62,118,.6)}
+.card ul{list-style:none;display:grid;grid-template-columns:1fr 1fr;gap:12px 14px}
+.card li{display:flex;align-items:center;gap:10px;font-weight:700;font-size:25px;color:var(--ink);white-space:nowrap}
+.card li span{display:flex;align-items:center;justify-content:center;width:46px;height:46px;border-radius:50%;background:var(--p100);font-size:26px;flex:none}
 </style></head><body>
-<div class="rays"></div>
-<div id="cf"></div>
-<div class="top"><span class="pill">DAILY HACK ／ あんたバカぁ？</span></div>
+<svg class="deco" width="1080" height="1080" style="left:0;top:0" id="bg"></svg>
+<div class="top"><i></i>DAILY HACK<i></i></div>
 <div class="lead">フォロワー</div>
-<div class="num"><b>300</b><i>人</i></div>
-<div class="brk"><span>突破！！</span></div>
+<div class="num">
+ <span class="bk"><b>300</b><em>人</em></span>
+ <span class="fr"><b>300</b><em>人</em></span>
+ <span class="hl"><b>300</b><em>人</em></span>
+</div>
+<div class="ribbon">
+ <svg width="440" height="96" viewBox="0 0 440 96">
+  <path d="M0 24 L46 24 L46 90 L0 90 L22 57 Z" fill="#D63E76"/>
+  <path d="M440 24 L394 24 L394 90 L440 90 L418 57 Z" fill="#D63E76"/>
+  <path d="M46 90 L66 78 L66 90 Z M394 90 L374 78 L374 90 Z" fill="#A82959"/>
+  <rect x="34" y="8" width="372" height="70" rx="14" fill="#EC5C90"/>
+  <rect x="34" y="8" width="372" height="30" rx="14" fill="#fff" opacity=".14"/>
+ </svg>
+ <div class="t" style="top:-10px">突破！</div>
+</div>
 <img class="mascot" src="expr-04-cheer.png">
-<div class="bubble">…ありがと。<br>一回しか言わないから。<small>別にあんたのためじゃないけど</small></div>
-<div class="path">
- <div class="r"><span class="d">5/15</span><span class="v">19人</span><span class="ar">→</span><span class="d">10/3</span><span class="v big">304人</span></div>
- <div class="nx">次は <b>500人</b> へ ↗</div>
+<div class="bubble">
+ <svg width="600" height="200" viewBox="0 0 600 200" style="overflow:visible;filter:drop-shadow(0 12px 18px rgba(214,62,118,.22))">
+  <path d="M86 6 H566 Q596 6 596 36 V164 Q596 194 566 194 H86 Q56 194 56 164 V122 Q40 128 8 140 Q36 116 56 92 V36 Q56 6 86 6 Z"
+        fill="#fff" stroke="#F8C9D9" stroke-width="4" stroke-linejoin="round"/>
+ </svg>
+ <div class="tx">
+  <div class="a">…ありがと。<svg width="34" height="30" viewBox="0 0 24 22" style="vertical-align:middle;margin-left:6px"><path d="M0 6 C0 -2 10 -4 12 3 C14 -4 24 -2 24 6 C24 14 12 20 12 22 C12 20 0 14 0 6 Z" fill="#F09DBB"/></svg></div>
+  <div class="b">一回しか言わないから。</div>
+  <div class="c">別にあんたのためじゃないけど</div>
+ </div>
+</div>
+<div class="card">
+ <div class="h">アタシが毎日 指摘してること</div>
+ <ul>
+  <li><span>💰</span>ポイ活・節約</li>
+  <li><span>💳</span>クレカ比較</li>
+  <li><span>🍚</span>コスパグルメ</li>
+  <li><span>🎡</span>お得なお出かけ</li>
+ </ul>
 </div>
 <script>
-const c=document.getElementById('cf');const cols=['#D63E76','#F5C518','#EC5C90','#2A1923','#F09DBB','#fff'];
-let s=7;const r=()=>{s=(s*9301+49297)%233280;return s/233280};
-for(let k=0;k<70;k++){const e=document.createElement('div');e.className='cf';
-const x=r()*1080,y=r()*1080;if(y>600&&x<520)continue;
-e.style.cssText=`left:${x}px;top:${y}px;width:${8+r()*14}px;height:${6+r()*8}px;background:${cols[k%6]};transform:rotate(${r()*360}deg);opacity:.85`;c.appendChild(e);}
+const s=document.getElementById('bg');let k=11;const r=()=>{k=(k*9301+49297)%233280;return k/233280};
+const ns='http://www.w3.org/2000/svg';
+const add=(t,a)=>{const e=document.createElementNS(ns,t);for(const x in a)e.setAttribute(x,a[x]);s.appendChild(e);return e};
+// やわらかい玉ボケ（文字の帯は避ける）
+for(let i=0;i<22;i++){const x=r()*1080,y=r()*1080,R=8+r()*22;if(y>80&&y<560&&x>140&&x<940)continue;if(x>420&&y>570)continue;
+ add('circle',{cx:x,cy:y,r:R,fill:['#FFFFFF','#F8C9D9','#FFF1C8'][i%3],opacity:.55+r()*.3});}
+// ハート
+const heart=(x,y,z,c,o)=>add('path',{d:'M0 6 C0 -2 10 -4 12 3 C14 -4 24 -2 24 6 C24 14 12 20 12 22 C12 20 0 14 0 6 Z',fill:c,opacity:o,transform:`translate(${x},${y}) scale(${z}) rotate(${-15+r()*30} 12 10)`});
+[[70,190,2.2],[960,170,2.6],[110,420,1.6],[985,400,1.8],[52,560,1.2],[1010,560,1.4],[900,60,1.2],[160,70,1.4]].forEach(([x,y,z],i)=>heart(x,y,z,i%2?'#F09DBB':'#EC5C90',.75));
+// きらきら
+const star=(x,y,z,c)=>add('path',{d:'M0 -12 Q2 -2 12 0 Q2 2 0 12 Q-2 2 -12 0 Q-2 -2 0 -12 Z',fill:c,transform:`translate(${x},${y}) scale(${z})`});
+[[240,130,1.4],[850,120,1.6],[150,300,1.1],[930,290,1.3],[300,520,1],[790,520,1.2],[60,330,.9],[1030,240,.9]].forEach(([x,y,z],i)=>star(x,y,z,i%2?'#F5C518':'#FFFFFF'));
 </script>
 </body></html>
