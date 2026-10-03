@@ -1,0 +1,57 @@
+<!-- フォロワー 300 人のお礼画像（2026-10-03）の元。gen-x-cards.mjs の cover/photo に当てはまらないので HTML で組んだ。
+     作り直すとき: この HTML と NotoSansJP-{500,700,900}.woff2（@fontsource/noto-sans-jp）と public/images/expr-04-cheer.png を同じ階層に置き、
+     playwright で 1080x1080 を jpeg 92 で撮る → public/images/follower-300/x/1-card.jpg。素材はキャラと自作の図だけなので出所の行は要らない -->
+<!doctype html><html lang="ja"><head><meta charset="utf-8">
+<style>
+@font-face{font-family:N;src:url(NotoSansJP-500.woff2);font-weight:500}
+@font-face{font-family:N;src:url(NotoSansJP-700.woff2);font-weight:700}
+@font-face{font-family:N;src:url(NotoSansJP-900.woff2);font-weight:900}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1080px;height:1080px}
+body{font-family:N,sans-serif;color:#2A1923;overflow:hidden;position:relative;
+ background:radial-gradient(circle at 50% 38%,#FFFBEE 0,#FFF1C8 38%,#F8C9D9 100%)}
+.rays{position:absolute;inset:-300px;background:repeating-conic-gradient(from 0deg at 50% 46%,rgba(255,255,255,.55) 0 6deg,transparent 6deg 15deg);opacity:.55}
+.cf{position:absolute;border-radius:3px}
+.top{position:absolute;top:52px;left:0;right:0;text-align:center}
+.pill{display:inline-block;background:#2A1923;color:#FFF1C8;font-weight:700;font-size:26px;letter-spacing:.12em;padding:10px 30px;border-radius:999px}
+.lead{position:absolute;top:150px;left:0;right:0;text-align:center;font-weight:900;font-size:78px;color:#A82959;letter-spacing:.04em}
+.num{position:absolute;top:212px;left:0;right:0;text-align:center;line-height:1}
+.num b{font-weight:900;font-size:330px;letter-spacing:-.02em;color:#D63E76;
+ -webkit-text-stroke:10px #fff;paint-order:stroke fill;text-shadow:0 14px 0 #A82959,0 22px 30px rgba(168,41,89,.35)}
+.num i{font-style:normal;font-weight:900;font-size:120px;color:#D63E76;-webkit-text-stroke:7px #fff;paint-order:stroke fill;text-shadow:0 8px 0 #A82959}
+.brk{position:absolute;top:530px;left:0;right:0;text-align:center}
+.brk span{display:inline-block;background:#F5C518;color:#2A1923;font-weight:900;font-size:76px;padding:4px 44px 10px;transform:rotate(-3deg);box-shadow:0 10px 0 #2A1923;border-radius:14px;letter-spacing:.08em}
+.mascot{position:absolute;left:-10px;bottom:-24px;width:470px;
+ -webkit-mask-image:linear-gradient(to bottom,#000 78%,transparent 99%)}
+.bubble{position:absolute;left:372px;top:668px;background:#fff;border:6px solid #2A1923;border-radius:30px;padding:22px 30px;font-weight:700;font-size:38px;line-height:1.42;box-shadow:0 10px 0 rgba(42,25,35,.15)}
+.bubble:before{content:"";position:absolute;left:-34px;top:54px;border:18px solid transparent;border-right:30px solid #2A1923}
+.bubble:after{content:"";position:absolute;left:-20px;top:58px;border:14px solid transparent;border-right:24px solid #fff}
+.bubble small{display:block;font-size:27px;margin-top:4px;color:#5A4651;font-weight:500}
+.path{position:absolute;right:44px;bottom:40px;left:430px;background:#2A1923;color:#fff;border-radius:22px;padding:18px 28px;font-weight:700;font-size:30px;line-height:1.35;text-align:left}
+.path .r{display:flex;align-items:baseline;gap:14px}
+.path .d{color:#F09DBB;font-size:26px}.path .ar{color:#F09DBB;font-size:32px;margin:0 4px}
+.path .v{font-weight:900;font-size:40px}
+.path .v.big{color:#F5C518}
+.path .nx{margin-top:8px;border-top:2px dashed #5A4651;padding-top:8px;color:#FFF1C8}
+.path .nx b{color:#F5C518;font-weight:900;font-size:36px}
+</style></head><body>
+<div class="rays"></div>
+<div id="cf"></div>
+<div class="top"><span class="pill">DAILY HACK ／ あんたバカぁ？</span></div>
+<div class="lead">フォロワー</div>
+<div class="num"><b>300</b><i>人</i></div>
+<div class="brk"><span>突破！！</span></div>
+<img class="mascot" src="expr-04-cheer.png">
+<div class="bubble">…ありがと。<br>一回しか言わないから。<small>別にあんたのためじゃないけど</small></div>
+<div class="path">
+ <div class="r"><span class="d">5/15</span><span class="v">19人</span><span class="ar">→</span><span class="d">10/3</span><span class="v big">304人</span></div>
+ <div class="nx">次は <b>500人</b> へ ↗</div>
+</div>
+<script>
+const c=document.getElementById('cf');const cols=['#D63E76','#F5C518','#EC5C90','#2A1923','#F09DBB','#fff'];
+let s=7;const r=()=>{s=(s*9301+49297)%233280;return s/233280};
+for(let k=0;k<70;k++){const e=document.createElement('div');e.className='cf';
+const x=r()*1080,y=r()*1080;if(y>600&&x<520)continue;
+e.style.cssText=`left:${x}px;top:${y}px;width:${8+r()*14}px;height:${6+r()*8}px;background:${cols[k%6]};transform:rotate(${r()*360}deg);opacity:.85`;c.appendChild(e);}
+</script>
+</body></html>

@@ -1,58 +1,159 @@
 {
   "_doc": "**X 投稿スタイルの目録（機械が読む索引）。** 中身の説明は .claude/skills/x-post-copy/SKILL.md の §1-B と各節にある。build.mjs がここを読み、レビューページの SETS の style がここに無ければ止める。スタイルを足すときは、スキルの節とここを**両方**直す。",
   "groups": [
-    { "id": "pull", "name": "引き（続きを読ませる）" },
-    { "id": "save", "name": "保存させる" },
-    { "id": "act", "name": "期限・行動で動かす" },
-    { "id": "trust", "name": "信用を取る" },
-    { "id": "empathy", "name": "共感で入る" },
-    { "id": "pr", "name": "PR" }
+    {
+      "id": "pull",
+      "name": "引き（続きを読ませる）"
+    },
+    {
+      "id": "save",
+      "name": "保存させる"
+    },
+    {
+      "id": "act",
+      "name": "期限・行動で動かす"
+    },
+    {
+      "id": "trust",
+      "name": "信用を取る"
+    },
+    {
+      "id": "empathy",
+      "name": "共感で入る"
+    },
+    {
+      "id": "pr",
+      "name": "PR"
+    }
   ],
   "styles": [
-    { "id": "cliff", "name": "矢印で切る型", "group": "pull", "skill": "§3-B",
+    {
+      "id": "cliff",
+      "name": "矢印で切る型",
+      "group": "pull",
+      "skill": "§3-B",
       "summary": "当たり前の答えを並べて否定し、本命は「↓↓」で [2/2] へ送る",
-      "origin": "参考 @ryo_ryo_1008（x130 実測）／投稿実績: 500円モーニング v2" },
-    { "id": "lose-win", "name": "損得スレッド型", "group": "pull", "skill": "§3-I",
+      "origin": "参考 @ryo_ryo_1008（x130 実測）／投稿実績: 500円モーニング v2"
+    },
+    {
+      "id": "lose-win",
+      "name": "損得スレッド型",
+      "group": "pull",
+      "skill": "§3-I",
       "summary": "☠️損してる側を数字つきで並べ「💰得してる側 ↓」で切る。続きで得な側と取り方",
-      "origin": "参考 @ruka_affi（x202 実測）" },
-    { "id": "zukan", "name": "図鑑型", "group": "save", "skill": "§3-C",
+      "origin": "参考 @ruka_affi（x202 実測）"
+    },
+    {
+      "id": "zukan",
+      "name": "図鑑型",
+      "group": "save",
+      "skill": "§3-C",
       "summary": "毎回 同じスペック 3 行で並べ、括弧でネガティブを添える",
-      "origin": "参考 @monchi06241（x132 実測）／未投稿" },
-    { "id": "rating", "name": "採点型", "group": "save", "skill": "§3-D",
+      "origin": "参考 @monchi06241（x132 実測）／未投稿"
+    },
+    {
+      "id": "rating",
+      "name": "採点型",
+      "group": "save",
+      "skill": "§3-D",
       "summary": "対象(数字) ＋ →短評 を 5 件。振れ幅を混ぜ、最後だけ振り切る",
-      "origin": "参考 @futbol_kyo1129（x198 実測）／未投稿" },
-    { "id": "roundup", "name": "まとめ一覧型", "group": "save", "skill": "§1-B",
+      "origin": "参考 @futbol_kyo1129（x198 実測）／未投稿"
+    },
+    {
+      "id": "roundup",
+      "name": "まとめ一覧型",
+      "group": "save",
+      "skill": "§1-B",
       "summary": "「全部まとめたわよ」＋ 店名・値段を 4 行。一覧そのものが中身",
-      "origin": "投稿実績: 500円モーニング v1・クレカ改悪まとめ" },
-    { "id": "discover", "name": "「知らなかったでしょ」発見型", "group": "save", "skill": "§3-G",
+      "origin": "投稿実績: 500円モーニング v1・クレカ改悪まとめ"
+    },
+    {
+      "id": "discover",
+      "name": "「知らなかったでしょ」発見型",
+      "group": "save",
+      "skill": "§3-G",
       "summary": "「〇〇に「△△」があるの、知らなかったでしょ？」＋ 絵文字つきスペック 4 行",
-      "origin": "参考 @zomi1023（x202 実測）" },
-    { "id": "deadline", "name": "結論先出し・期限型", "group": "act", "skill": "§3",
+      "origin": "参考 @zomi1023（x202 実測）"
+    },
+    {
+      "id": "deadline",
+      "name": "結論先出し・期限型",
+      "group": "act",
+      "skill": "§3",
       "summary": "「先に言っとくわね」で期限を 1 行目に。何が・いつまでを日付で",
-      "origin": "投稿実績: IKEA豊洲・東京湾大華火祭" },
-    { "id": "steps", "name": "段取り型", "group": "act", "skill": "§3-E",
+      "origin": "投稿実績: IKEA豊洲・東京湾大華火祭"
+    },
+    {
+      "id": "steps",
+      "name": "段取り型",
+      "group": "act",
+      "skill": "§3-E",
       "summary": "いつ・何をするかを日付で組んで配る。情報ではなく手順",
-      "origin": "参考 @rocomotion（x198 実測）／未投稿" },
-    { "id": "verified", "name": "検証報告型", "group": "trust", "skill": "§1-B",
+      "origin": "参考 @rocomotion（x198 実測）／未投稿"
+    },
+    {
+      "id": "verified",
+      "name": "検証報告型",
+      "group": "trust",
+      "skill": "§1-B",
       "summary": "「アタシが公式データで検証した結果」＋ 効く順の数字",
-      "origin": "投稿実績: 夏の電気代・値上げ対策・歩いてポイ活" },
-    { "id": "contrast", "name": "数字で刺す対比型", "group": "trust", "skill": "§1-B",
+      "origin": "投稿実績: 夏の電気代・値上げ対策・歩いてポイ活"
+    },
+    {
+      "id": "contrast",
+      "name": "数字で刺す対比型",
+      "group": "trust",
+      "skill": "§1-B",
       "summary": "1 行目に 2 つの数字の開き（18倍など）。箇条書き 3 行 → 対比で締める",
-      "origin": "投稿実績: 都心の格安スーパー" },
-    { "id": "calc", "name": "計算してみた型", "group": "trust", "skill": "§3-H",
+      "origin": "投稿実績: 都心の格安スーパー"
+    },
+    {
+      "id": "calc",
+      "name": "計算してみた型",
+      "group": "trust",
+      "skill": "§3-H",
       "summary": "「〇〇、実質いくらか計算したわよ」＋ 式を 3 行。画像は自作の内訳表",
-      "origin": "参考 @MURA_mal（x202 実測）" },
-    { "id": "proof", "name": "「実はあるのよ」証拠型", "group": "trust", "skill": "§3-J",
+      "origin": "参考 @MURA_mal（x202 実測）"
+    },
+    {
+      "id": "proof",
+      "name": "「実はあるのよ」証拠型",
+      "group": "trust",
+      "skill": "§3-J",
       "summary": "「〇〇、実は△△があるのよ」＋ 条件 3 点。画像は公式画面に印をつけたもの",
-      "origin": "参考 @shupeiman（x202 実測）" },
-    { "id": "question", "name": "呼びかけ型", "group": "empathy", "skill": "§1-B",
+      "origin": "参考 @shupeiman（x202 実測）"
+    },
+    {
+      "id": "question",
+      "name": "呼びかけ型",
+      "group": "empathy",
+      "skill": "§1-B",
       "summary": "読む人の思い込みをカギカッコで言い当てて「あんた」で受ける",
-      "origin": "投稿実績: 湾岸タワー地図・格安リゾート・クレカ入会" },
-    { "id": "secret", "name": "「あんたにだけ」内緒型", "group": "empathy", "skill": "§3-F",
+      "origin": "投稿実績: 湾岸タワー地図・格安リゾート・クレカ入会"
+    },
+    {
+      "id": "secret",
+      "name": "「あんたにだけ」内緒型",
+      "group": "empathy",
+      "skill": "§3-F",
       "summary": "「あんたにだけ教えるわね」＋ 具体の値段 1 つ ＋ 行動を命じて締める",
-      "origin": "参考 @oimachi_toriko（x202 実測）" },
-    { "id": "pr-invite", "name": "PR招待型", "group": "pr", "skill": "§1-B",
+      "origin": "参考 @oimachi_toriko（x202 実測）"
+    },
+    {
+      "id": "pr-invite",
+      "name": "PR招待型",
+      "group": "pr",
+      "skill": "§1-B",
       "summary": "もらえる額を 1 行目に。招待コード・#PR・リンクを決まった位置に置く",
-      "origin": "投稿実績なし（PAY ID 草案）" }
+      "origin": "投稿実績なし（PAY ID 草案）"
+    },
+    {
+      "id": "milestone",
+      "name": "節目のお礼型",
+      "group": "empathy",
+      "skill": "§3-K",
+      "summary": "【N人突破】→ ツンから入る → 日付つきの実数 → 照れてお礼 1 回 → 次の目標",
+      "origin": "他アカウントの節目投稿 24 本（x203 実測）"
+    }
   ]
 }

@@ -29,6 +29,9 @@ const FILES = {
   // **2 パターンの文面で同じ 4 枚を見てもらう**（2026-09-26 の指示）。
   // 素材は App Store 掲載素材とアイコンだけなので、出所の行が要らない
   "payid-invite": ["1-summary.jpg", "2-atobarai.jpg", "3-shops.jpg", "4-rating.jpg"],
+  // **記事の告知ではない**（2026-10-03・300 フォロワーのお礼）。1 枚だけ。
+  // 素材はキャラ（expr-04-cheer.png）と自作の図だけなので、出所の行が要らない
+  "follower-300": ["1-card.jpg"],
 };
 
 const map = {};
