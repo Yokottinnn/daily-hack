@@ -11,7 +11,8 @@
 import { chromium } from 'playwright';
 import sharp from 'sharp';
 import fs from 'node:fs';
-const [,, dir, framesDir, out, size = '1080', fps = '12'] = process.argv;
+const [,, dir, framesDir, out, size = '1080', fps = '12', offsetMs = '1500'] = process.argv;
+// offsetMs: UI の動きを途中から始める。**最初のコマは X の一覧に出る**ので、吹き出し・リボンが揃った時点から始める
 const frames = fs.readdirSync(framesDir).filter((f) => f.endsWith('.png')).sort();
 const n = frames.length;
 const b = await chromium.launch({ executablePath: '/opt/pw-browsers/chromium-1194/chrome-linux/chrome' });
@@ -29,7 +30,7 @@ const mask = Buffer.from(`<svg width="640" height="640"><defs>
 const maskRaw = await sharp(mask).greyscale().raw().toBuffer();
 const outFrames = [];
 for (let i = 0; i < n; i++) {
-  await p.evaluate((t) => document.getAnimations().forEach((a) => { a.currentTime = t; }), (i * 1000) / +fps);
+  await p.evaluate((t) => document.getAnimations().forEach((a) => { a.currentTime = t; }), (i * 1000) / +fps + +offsetMs);
   const ui = await p.screenshot({ type: 'png', omitBackground: true });
   const vf = await sharp(framesDir + '/' + frames[i]).resize(640, 640).removeAlpha().raw().toBuffer();
   const rgba = Buffer.alloc(640 * 640 * 4);

@@ -28,7 +28,7 @@ body{font-family:Z,sans-serif;color:var(--ink);overflow:hidden;position:relative
 .ribbon .t{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;color:#fff;font-weight:900;font-size:52px;letter-spacing:.14em;top:-9px}
 .mascot{position:absolute;left:-74px;bottom:-24px;width:650px;
  -webkit-mask-image:linear-gradient(to bottom,#000 82%,transparent 99%)}
-.bubble{position:absolute;left:36px;top:64px;width:470px;height:250px}
+.bubble{position:absolute;left:40px;top:228px;width:470px;height:250px;transform-origin:52% 100%}
 .bubble .tx{position:absolute;left:24px;right:24px;top:34px;text-align:center}
 .bubble .a{font-weight:900;font-size:52px;color:var(--p600);letter-spacing:.04em;line-height:1.2}
 .bubble .b{font-weight:700;font-size:36px;color:var(--ink);line-height:1.4;margin-top:8px}
@@ -43,16 +43,25 @@ body{font-family:Z,sans-serif;color:var(--ink);overflow:hidden;position:relative
 .sum li em{font-style:normal;color:var(--p600)}
 
 /* 動き（1 周 3 秒・GIF 用）。currentTime で 1 コマずつ止めて撮る */
-@keyframes tw{0%,100%{transform:scale(.55);opacity:.35}50%{transform:scale(1.15);opacity:1}}
-@keyframes fl{0%,100%{transform:translateY(0)}50%{transform:translateY(-14px)}}
-@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
-@keyframes pop{0%,100%{transform:scale(1)}12%{transform:scale(1.06)}24%{transform:scale(1)}}
-@keyframes rib{0%,100%{transform:translateY(0) rotate(0)}18%{transform:translateY(-6px) rotate(-1.5deg)}30%{transform:translateY(0) rotate(0)}}
-.tw{transform-box:fill-box;transform-origin:center;animation:tw 2s ease-in-out infinite}
-.fl{transform-box:fill-box;transform-origin:center;animation:fl 3s ease-in-out infinite}
-.bubble{animation:bob 3s ease-in-out infinite;animation-delay:-.8s}
+@keyframes tw{0%,100%{transform:scale(.3) rotate(0);opacity:.2}50%{transform:scale(1.6) rotate(45deg);opacity:1}}
+@keyframes fl{0%,100%{transform:translateY(0) scale(1)}50%{transform:translateY(-34px) scale(1.25)}}
+@keyframes bubble{0%{transform:scale(.6);opacity:0}8%{transform:scale(1.12);opacity:1}14%{transform:scale(.96)}20%,100%{transform:scale(1)}}
+@keyframes bobb{0%,100%{translate:0 0}50%{translate:0 -10px}}
+@keyframes pop{0%{transform:scale(.7)}10%{transform:scale(1.22) rotate(-3deg)}18%{transform:scale(.94) rotate(2deg)}26%{transform:scale(1.06) rotate(0)}34%,100%{transform:scale(1)}}
+@keyframes lead{0%,30%,100%{transform:translateY(0)}36%{transform:translateY(-18px)}42%{transform:translateY(0)}46%{transform:translateY(-8px)}50%{transform:translateY(0)}}
+@keyframes rib{0%,20%{transform:scale(0) rotate(-12deg)}30%{transform:scale(1.25) rotate(4deg)}38%{transform:scale(.95) rotate(-2deg)}46%,100%{transform:scale(1) rotate(0)}}
+@keyframes li{0%,100%{transform:translateX(0) scale(1);background:transparent}6%{transform:translateX(-10px) scale(1.06);background:rgba(253,228,238,.95)}14%{transform:translateX(0) scale(1);background:transparent}}
+@keyframes top{0%,100%{letter-spacing:.3em}50%{letter-spacing:.42em}}
+.tw{transform-box:fill-box;transform-origin:center;animation:tw 1.5s ease-in-out infinite}
+.fl{transform-box:fill-box;transform-origin:center;animation:fl 1.5s ease-in-out infinite}
+.bubble{animation:bubble 3s ease-out infinite,bobb 1.5s ease-in-out infinite}
 .num{animation:pop 3s ease-out infinite;transform-origin:50% 60%}
+.lead{animation:lead 3s ease-out infinite}
+.top{animation:top 3s ease-in-out infinite}
+.sum li{border-radius:16px;animation:li 3s ease-out infinite}
+.sum li:nth-child(1){animation-delay:.6s}.sum li:nth-child(2){animation-delay:.9s}.sum li:nth-child(3){animation-delay:1.2s}.sum li:nth-child(4){animation-delay:1.5s}
 .ribbon .t,.ribbon svg{animation:rib 3s ease-out infinite;transform-origin:50% 50%}
+.ribbon svg{position:absolute;left:0;top:0}
 
 /* キャラの演技（4 秒で一周）: 腕組みで「ふん」→ ほっぺを膨らませる → 両手でガッツポーズ → 手を振る */
 .chr{position:absolute;left:-74px;bottom:-24px;width:650px;height:650px;
@@ -126,9 +135,9 @@ for(let i=0;i<22;i++){const x=r()*1080,y=r()*1080,R=8+r()*22;if(x>520)continue;i
  add('circle',{cx:x,cy:y,r:R,fill:['#FFFFFF','#F8C9D9','#FFF1C8'][i%3],opacity:.55+r()*.3});}
 // ハート
 let hi=0;const heart=(x,y,z,c,o)=>{const g=add('g',{transform:`translate(${x},${y}) scale(${z}) rotate(${-15+r()*30} 12 10)`});const e=document.createElementNS(ns,'path');e.setAttribute('d','M0 6 C0 -2 10 -4 12 3 C14 -4 24 -2 24 6 C24 14 12 20 12 22 C12 20 0 14 0 6 Z');e.setAttribute('fill',c);e.setAttribute('opacity',o);e.setAttribute('class','fl');e.style.animationDelay=(-(hi++)*0.5)+'s';g.appendChild(e);};
-[[1012,150,1.6],[1036,566,1.2],[470,400,1.9],[40,360,1.6],[520,40,1.1],[30,30,1.2]].forEach(([x,y,z],i)=>heart(x,y,z,i%2?'#F09DBB':'#EC5C90',.75));
+[[1012,150,2.2],[1036,566,1.8],[500,520,2.4],[60,120,2.2],[480,60,1.6],[260,60,1.8]].forEach(([x,y,z],i)=>heart(x,y,z,i%2?'#F09DBB':'#EC5C90',.75));
 // きらきら
 let si=0;const star=(x,y,z,c)=>{const g=add('g',{transform:`translate(${x},${y}) scale(${z})`});const e=document.createElementNS(ns,'path');e.setAttribute('d','M0 -12 Q2 -2 12 0 Q2 2 0 12 Q-2 2 -12 0 Q-2 -2 0 -12 Z');e.setAttribute('fill',c);e.setAttribute('class','tw');e.style.animationDelay=(-(si++)*0.5)+'s';g.appendChild(e);};
-[[1040,90,1.4],[570,150,1.2],[1040,300,1.1],[560,500,1.3],[1030,520,1.1],[440,470,1.2],[100,420,1],[510,20,1]].forEach(([x,y,z],i)=>star(x,y,z,i%2?'#F5C518':'#FFFFFF'));
+[[1040,90,1.4],[570,150,1.2],[1040,300,1.1],[560,500,1.3],[1030,520,1.1],[250,150,1.4],[440,170,1.2],[510,20,1]].forEach(([x,y,z],i)=>star(x,y,z,i%2?'#F5C518':'#FFFFFF'));
 </script>
 </body></html>
