@@ -1,3 +1,3 @@
 [
-      {"task": "x218-measure-unfollow-button.sh", "rc": 0, "out": "アンフォローのボタンの原因を測った / measure-unfollow-button.md"}
+      {"task": "x219-patch-follow-balance-reload.sh", "rc": 0, "out": "follow-balance.js を直した（開き直し・間を空ける） / patch-follow-balance-reload.md"}
   ]
