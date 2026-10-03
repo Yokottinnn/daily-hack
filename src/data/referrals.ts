@@ -145,7 +145,9 @@ export const referrals: Referral[] = [
     url: 'https://www.smbc-card.com/',
     reward: '被紹介者 最大8,000pt',
     description: 'ナンバーレスでセキュリティ重視、コンビニ・飲食店で7%還元',
-    isActive: false, // 紹介コード要記入（Vpassアプリで確認）
+    // 紹介コード要記入（Vpassアプリで確認）。Olive の FF31794-9555509 は三井住友銀行の紹介で別制度。
+    // 利用者は「前に共有したのは Olive のコード」と回答（2026-10-03）。NL 用のコードは未受領なので止めたまま
+    isActive: false,
   },
   {
     id: 'recruit-card',
