@@ -39,12 +39,6 @@ references: ["https://www.smbc-card.com/mem/cardinfo/26/cardinfo7224638.jsp", "h
 
 > 🎯 **要するに**：「**事前登録さえ済ませれば、対象店舗の支払いがスマホタッチで最大3割引**」。登録を忘れると全部パーになるので、そこだけ絶対に外さない。
 
-<!-- a8-banners auto-inserted by banner-fill (slot1-after-1st-h2) -->
-<div class="affiliate-block">
-<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+10BHGA+3SPO+2T8Z4X" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/haruene-denki-300x250.jpg" alt="メディア会員の方必見！電気代コスト削減！★大幅還元実施中★【ハルエネ電気】" width="300" height="250" loading="lazy"></a></div>
-<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+11ICNU+3SPO+ZRALD" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/gas-choice-300x250.jpg" alt="当サイト限定　最大30000円現金キャッシュバック！ガス代を今よりお安く！【ガスチョイス】" width="300" height="250" loading="lazy"></a></div>
-</div>
-
 ## 🏪 対象店舗はこの6つ
 
 <div class="compare-cards">
@@ -79,12 +73,6 @@ references: ["https://www.smbc-card.com/mem/cardinfo/26/cardinfo7224638.jsp", "h
 <div class="hakkako-says">
 <img src="/images/expr-07-gasp.png" alt="ハッカー子" />
 <p>30%って聞くとデカいけど、<strong>上限は合計2,000円</strong>だからね。特典①は1万円利用で1,000円、特典②は5,000円利用で1,000円が上限の目安。だから<strong>「対象店で1〜2回、まとまった会計をスマホタッチで払う」</strong>のが一番効率いい。チマチマ使うより、家族の外食やまとめ買いで“ドン”と使うのがコツ。</p>
-</div>
-
-<!-- a8-banners auto-inserted by banner-fill (slot2-middle) -->
-<div class="affiliate-block">
-<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+ZQ1UI+42Y0+5ZMCH" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/au-hikari-300x250.jpg" alt="【auひかり】初期工事費無料！豪華キャンペーン！知らない人はモッタイナイ！" width="300" height="250" loading="lazy"></a></div>
-<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+123S9M+1MWA+1TS6MP" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/hikari-denwa-wiz-300x250.jpg" alt="【キャッシュバック最大7万円】ひかり電話、ヒカリ回線のお申込み窓口" width="300" height="250" loading="lazy"></a></div>
 </div>
 
 ## 📝 損しないための手順（これだけやればOK）
@@ -143,3 +131,5 @@ references: ["https://www.smbc-card.com/mem/cardinfo/26/cardinfo7224638.jsp", "h
 </div>
 
 > 📌 関連記事: [「年会費無料×高還元」クレジットカード徹底比較 2026](/posts/credit-card-no-annual-fee-comparison-2026/) / [お得施策の『本当の時給』ランキング 2026](/posts/money-hacks-hourly-wage-2026/) / [PayPay大改悪まとめ 2026年6月](/posts/paypay-2026-june-revision-guide/)
+
+<!-- a8-banners: none — 主題と合う提携案件が無い（2026-10-03）。banner-fill はこの記事を飛ばす -->

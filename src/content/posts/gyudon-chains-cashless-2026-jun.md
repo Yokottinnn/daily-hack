@@ -37,12 +37,6 @@ references: ["https://www.matsuyafoods.co.jp/matsuya/whatsnew/campaign/154328.ht
 
 ---
 
-<!-- a8-banners auto-inserted by banner-fill (slot1-after-1st-h2) -->
-<div class="affiliate-block">
-<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+10BHGA+3SPO+2T8Z4X" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/haruene-denki-300x250.jpg" alt="メディア会員の方必見！電気代コスト削減！★大幅還元実施中★【ハルエネ電気】" width="300" height="250" loading="lazy"></a></div>
-<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+11ICNU+3SPO+ZRALD" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/gas-choice-300x250.jpg" alt="当サイト限定　最大30000円現金キャッシュバック！ガス代を今よりお安く！【ガスチョイス】" width="300" height="250" loading="lazy"></a></div>
-</div>
-
 ## 📊 4チェーン × 主要決済 還元率早見表（2026年6月）
 
 | 決済 | 🐂 松屋（60周年） | <span class="cell-brand"><img class="brand-logo-sm" src="/images/gyudon-chains-cashless-2026-jun/logos/yoshinoya.png" alt="" loading="lazy" />🐂 吉野家</span> | 🐂 すき家（ゼンショー） | 🐂 なか卯（ゼンショー） |
@@ -149,12 +143,6 @@ references: ["https://www.matsuyafoods.co.jp/matsuya/whatsnew/campaign/154328.ht
 
 ---
 
-<!-- a8-banners auto-inserted by banner-fill (slot2-middle) -->
-<div class="affiliate-block">
-<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+12P7VE+3SDQ+5ZU29" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/gasya-no-mado-300x250.jpg" alt="ガス会社の乗り換えで、ガス料金が安くなる！【ガス屋の窓口】" width="300" height="250" loading="lazy"></a></div>
-<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+152YAI+2W92+NXMIP" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/enepi-gas-300x250.jpg" alt="1番安いガス料金をWEBで比較して、お得に利用しよう！【エネピ】" width="300" height="250" loading="lazy"></a></div>
-</div>
-
 ## 🎯 経済圏別 戦略マトリクス
 
 | 経済圏 | ステップ1 | ステップ2 | ステップ3 |
@@ -225,12 +213,6 @@ references: ["https://www.matsuyafoods.co.jp/matsuya/whatsnew/campaign/154328.ht
 
 ---
 
-<!-- a8-banners auto-inserted by banner-fill (slot3-before-tail) -->
-<div class="affiliate-block">
-<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+25EE6Y+5HNU+5YZ75" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/arcana-energy-300x250.jpg" alt="電力単価の安さ【アルカナエナジー】" width="300" height="250" loading="lazy"></a></div>
-<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+25ZTSQ+2W92+1NJZN5" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/enepi-denki-300x250.jpg" alt="東証プライム上場！一番安い電気料金で契約するなら【エネピ】" width="300" height="250" loading="lazy"></a></div>
-</div>
-
 ## まとめ — 6月の牛丼最強プレイブック
 
 <div class="hakkako-says">
@@ -246,3 +228,5 @@ references: ["https://www.matsuyafoods.co.jp/matsuya/whatsnew/campaign/154328.ht
 「**牛丼チェーンは「いつもの店」を変えるだけで月数千円違う**」── 松屋の60周年は2026年6月限定、すき家・なか卯のゼンショー共通ポイント15倍は毎月開催。**今月の松屋に行きつつ、すき家・なか卯のポイント基盤を積み上げる**のがアタシのおすすめ。
 
 > 📌 関連記事: [松屋60周年4大コード決済キャンペーン徹底比較](/posts/matsuya-60th-cashless-2026-jun/) / [年会費無料クレカ徹底比較 2026](/posts/credit-card-no-annual-fee-comparison-2026/) / [湾岸エリア スーパー徹底比較 18店舗](/posts/wangan-supermarkets-2026/)
+
+<!-- a8-banners: none — 主題と合う提携案件が無い（2026-10-03）。banner-fill はこの記事を飛ばす -->

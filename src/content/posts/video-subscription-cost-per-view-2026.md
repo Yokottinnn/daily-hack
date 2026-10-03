@@ -43,11 +43,6 @@ references:
 
 この「独自指標で通念を覆す」切り口、アタシは [@sugoi_service](https://x.com/sugoi_service) の発想がめちゃくちゃ好きでね。月額の額面じゃなく「実際の使用量で割る」って当たり前のことを、誰もやらないんだもの。
 
-<!-- a8-banners auto-inserted by banner-fill (slot1-after-1st-h2) -->
-<div class="affiliate-block">
-<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+12P7VE+3SDQ+5ZU29" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/gasya-no-mado-300x250.jpg" alt="ガス会社の乗り換えで、ガス料金が安くなる！【ガス屋の窓口】" width="300" height="250" loading="lazy"></a></div>
-</div>
-
 ## 比較対象6社の基本スペック（2026年時点の概算・税込目安）
 
 まずは土俵に上げる6社の素の数字。**料金はあくまで2026年時点の概算・税込目安**で、プラン改定が頻繁にある世界だから、申込前に各公式で最新額を必ず確認してね。ここでは「考え方」を掴んでほしいの。
@@ -119,11 +114,6 @@ references:
 
 ちなみに観たい作品があるときだけ単月契約して観終わったら解約、っていう<strong>「ザッピング契約」</strong>は全く悪いことじゃない。むしろ実質1本単価を最小化する最強テクよ。罪悪感なんて持たなくていい。
 
-<!-- a8-banners auto-inserted by banner-fill (slot2-middle) -->
-<div class="affiliate-block">
-<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+15ODWA+3SPO+TU8U9" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/denki-choice-300x250.jpg" alt="当サイト限定　最大30000円現金キャッシュバック！【電気チョイス】" width="300" height="250" loading="lazy"></a></div>
-</div>
-
 ## あんたはどのタイプ？ 層別おすすめ早見
 
 <div class="compare-cards">
@@ -171,11 +161,6 @@ references:
   <div class="hakkako-quote">サブスクの固定費は「ポイ活」の主戦場でもあるの。決済を高還元カードに寄せるだけで実質単価がさらに下がる。やってない人は <a href="/posts/credit-card-no-annual-fee-comparison-2026/">クレカ比較記事</a> も読んでおきなさい。</div>
 </div>
 
-<!-- a8-banners auto-inserted by banner-fill (slot3-before-tail) -->
-<div class="affiliate-block">
-<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+25ZTSQ+2W92+1NJZN5" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/enepi-denki-300x250.jpg" alt="東証プライム上場！一番安い電気料金で契約するなら【エネピ】" width="300" height="250" loading="lazy"></a></div>
-</div>
-
 ## まとめ: 月額じゃなく「1本単価」で選べ
 
 長々書いたけど、覚えてほしいのはこれだけよ。
@@ -190,3 +175,5 @@ references:
 「なんとなく契約して、なんとなく払い続けてる」サブスク、今いくつある？ それ全部、実質1本単価を一度計算してみなさい。たぶん何個かは即解約案件よ。**月額の額面に騙されるな、分母を見ろ**。それが今日アタシが言いたかったことの全部 ⏰
 
 > 📢 **おことわり**: 本記事の料金・プラン・配信内容は2026年6月時点の概算・税込目安であり、各サービスの公式情報を必ずご確認ください。プラン改定・キャンペーンの有無は時期により変動します。「実質1本単価」は本記事独自の考え方による試算であり、各社が公表する指標ではありません。
+
+<!-- a8-banners: none — 主題と合う提携案件が無い（2026-10-03）。banner-fill はこの記事を飛ばす -->
