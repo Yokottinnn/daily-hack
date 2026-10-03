@@ -348,6 +348,22 @@ sed -E -e 's#(sk-[A-Za-z0-9_-]{6})[A-Za-z0-9_-]+#\1<MASKED>#g' \
 CLAUDE.md ルール 4 の「**何が失敗したかの実際の出力**を出す。
 『うまくいきませんでした』では足りない」は、**自分のマスクにも向けられている。**
 
+### GIF を付けると、出ても `ok:false` が返ることがある（2026-10-03 に踏んだ）
+
+`x214` で GIF（6.4MB）を付けて出したところ、**X には出ていた**（2106354716733235381・GIF つき）のに、
+`run-publish.sh` は次を返した。
+
+```text
+[post-via-playwright] attached 1/1 image(s)
+{"ok":false,"step":"parse-main-result","error":"main result not valid JSON","raw":""}
+```
+
+`post-via-playwright.js` の stdout が空だった。**`ok:false` を「出ていない」と読んで再送すると二重投稿になる。**
+しかも書き戻しが走らないので、キューは **`pending`・`auto_publish:true` のまま残り、自動投稿に拾われうる。**
+
+- `parse-main-result` で落ちたら、**まず X のプロフィールを読んで出たかを確かめる**（`x215` の作り）
+- 出ていたら、**キューを `posted`・`auto_publish:false` に書き戻す**（`x216` の作り）。再送しない
+
 ## 5. 書く前のチェックリスト
 
 
