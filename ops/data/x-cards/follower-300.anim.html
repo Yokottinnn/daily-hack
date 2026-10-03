@@ -1,5 +1,7 @@
-<!-- フォロワー 300 人のお礼の「動く版」（GIF）の元。3 版目の静止画（follower-300.card.html）に CSS アニメーションを足したもの。
-     作り直すとき: 静止画と同じ素材を同じ階層に置き、node scripts/gen-x-gif.mjs <この HTML> public/images/follower-300/x/1-card.gif 1080 12 3 -->
+<!-- フォロワー 300 人のお礼の「動く版」（GIF・2 版目）の元。3 版目の静止画に CSS アニメーションを足したもの。4 秒で一周。
+     キャラの演技: 腕組みで「ふん」(expr-09) → ほっぺを膨らませる (expr-02) → ガッツポーズで 2 回跳ねる (expr-04) → 手を振る (expr-01)。
+     手を振る絵は上げた手が左端で切れるので、0.86 倍に縮めて右へ 20px 寄せている（右のパネルに髪がかからない範囲）。
+     作り直すとき: 静止画と同じ素材＋expr-01/02/09 を同じ階層に置き、node scripts/gen-x-gif.mjs <この HTML> public/images/follower-300/x/1-card.gif 1080 12 4 -->
 <!doctype html><html lang="ja"><head><meta charset="utf-8">
 <style>
 @font-face{font-family:Z;src:url(ZenMaru-500.woff2);font-weight:500}
@@ -50,16 +52,37 @@ body{font-family:Z,sans-serif;color:var(--ink);overflow:hidden;position:relative
 @keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
 @keyframes pop{0%,100%{transform:scale(1)}12%{transform:scale(1.06)}24%{transform:scale(1)}}
 @keyframes rib{0%,100%{transform:translateY(0) rotate(0)}18%{transform:translateY(-6px) rotate(-1.5deg)}30%{transform:translateY(0) rotate(0)}}
-.tw{transform-box:fill-box;transform-origin:center;animation:tw 1.5s ease-in-out infinite}
-.fl{transform-box:fill-box;transform-origin:center;animation:fl 3s ease-in-out infinite}
-.mascot{animation:bob 1.5s ease-in-out infinite}
-.bubble{animation:bob 3s ease-in-out infinite;animation-delay:-.8s}
-.num{animation:pop 3s ease-out infinite;transform-origin:50% 60%}
-.ribbon .t,.ribbon svg{animation:rib 3s ease-out infinite;transform-origin:50% 50%}
+.tw{transform-box:fill-box;transform-origin:center;animation:tw 2s ease-in-out infinite}
+.fl{transform-box:fill-box;transform-origin:center;animation:fl 4s ease-in-out infinite}
+.bubble{animation:bob 4s ease-in-out infinite;animation-delay:-.8s}
+.num{animation:pop 4s ease-out infinite;transform-origin:50% 60%}
+.ribbon .t,.ribbon svg{animation:rib 4s ease-out infinite;transform-origin:50% 50%}
+
+/* キャラの演技（4 秒で一周）: 腕組みで「ふん」→ ほっぺを膨らませる → 両手でガッツポーズ → 手を振る */
+.chr{position:absolute;left:-74px;bottom:-24px;width:650px;height:650px;
+ -webkit-mask-image:linear-gradient(to bottom,#000 82%,transparent 99%)}
+.chr img{position:absolute;inset:0;width:100%;height:100%;opacity:0;transform-origin:50% 100%}
+@keyframes sCross{0%{opacity:1}21%{opacity:1}23%{opacity:0}98%{opacity:0}100%{opacity:1}}
+@keyframes sPout{0%,21%{opacity:0}23%{opacity:1}41%{opacity:1}43%{opacity:0}100%{opacity:0}}
+@keyframes sCheer{0%,41%{opacity:0}43%{opacity:1}71%{opacity:1}73%{opacity:0}100%{opacity:0}}
+@keyframes sWave{0%,71%{opacity:0}73%{opacity:1}98%{opacity:1}100%{opacity:0}}
+@keyframes mCross{0%,100%{transform:translate(0,26px) scale(1)}10%{transform:translate(0,26px) rotate(-2deg)}20%{transform:translate(0,26px) rotate(1deg)}}
+@keyframes mPout{22%{transform:scale(1.04)}26%{transform:scale(1)}32%{transform:translateX(-6px)}36%{transform:translateX(6px)}40%{transform:translateX(0)}}
+@keyframes mCheer{42%{transform:translateY(0) scale(1.04)}48%{transform:translateY(-34px)}54%{transform:translateY(0)}60%{transform:translateY(-34px)}66%{transform:translateY(0)}}
+@keyframes mWave{0%,72%{transform:translate(20px,0) scale(.86) rotate(0)}78%{transform:translate(20px,0) scale(.86) rotate(-4deg)}84%{transform:translate(20px,0) scale(.86) rotate(3deg)}90%{transform:translate(20px,0) scale(.86) rotate(-4deg)}96%,100%{transform:translate(20px,0) scale(.86) rotate(0)}}
+.chr .c1{animation:sCross 4s linear infinite,mCross 4s ease-in-out infinite}
+.chr .c2{animation:sPout 4s linear infinite,mPout 4s ease-in-out infinite}
+.chr .c3{animation:sCheer 4s linear infinite,mCheer 4s ease-in-out infinite}
+.chr .c4{animation:sWave 4s linear infinite,mWave 4s ease-in-out infinite}
 </style></head><body>
 <svg class="deco" width="1080" height="1080" style="left:0;top:0" id="bg"></svg>
 <div class="top"><i></i>DAILY HACK<i></i></div>
-<img class="mascot" src="expr-04-cheer.png">
+<div class="chr">
+ <img class="c1" src="expr-09-arms-crossed.png">
+ <img class="c2" src="expr-02-pout.png">
+ <img class="c3" src="expr-04-cheer.png">
+ <img class="c4" src="expr-01-wave.png">
+</div>
 <div class="bubble">
  <svg width="470" height="250" viewBox="0 0 470 250" style="overflow:visible;filter:drop-shadow(0 14px 22px rgba(214,62,118,.22))">
   <path d="M40 6 H430 Q464 6 464 40 V176 Q464 210 430 210 H300 Q286 232 262 262 Q262 232 248 210 H40 Q6 210 6 176 V40 Q6 6 40 6 Z" fill="#fff"/>
@@ -102,10 +125,10 @@ const add=(t,a)=>{const e=document.createElementNS(ns,t);for(const x in a)e.setA
 for(let i=0;i<22;i++){const x=r()*1080,y=r()*1080,R=8+r()*22;if(x>520)continue;if(y<330)continue;if(x>40&&y>440)continue;
  add('circle',{cx:x,cy:y,r:R,fill:['#FFFFFF','#F8C9D9','#FFF1C8'][i%3],opacity:.55+r()*.3});}
 // ハート
-let hi=0;const heart=(x,y,z,c,o)=>{const g=add('g',{transform:`translate(${x},${y}) scale(${z}) rotate(${-15+r()*30} 12 10)`});const e=document.createElementNS(ns,'path');e.setAttribute('d','M0 6 C0 -2 10 -4 12 3 C14 -4 24 -2 24 6 C24 14 12 20 12 22 C12 20 0 14 0 6 Z');e.setAttribute('fill',c);e.setAttribute('opacity',o);e.setAttribute('class','fl');e.style.animationDelay=(-(hi++)*0.43)+'s';g.appendChild(e);};
+let hi=0;const heart=(x,y,z,c,o)=>{const g=add('g',{transform:`translate(${x},${y}) scale(${z}) rotate(${-15+r()*30} 12 10)`});const e=document.createElementNS(ns,'path');e.setAttribute('d','M0 6 C0 -2 10 -4 12 3 C14 -4 24 -2 24 6 C24 14 12 20 12 22 C12 20 0 14 0 6 Z');e.setAttribute('fill',c);e.setAttribute('opacity',o);e.setAttribute('class','fl');e.style.animationDelay=(-(hi++)*0.5)+'s';g.appendChild(e);};
 [[1012,150,1.6],[1036,566,1.2],[470,400,1.9],[40,360,1.6],[520,40,1.1],[30,30,1.2]].forEach(([x,y,z],i)=>heart(x,y,z,i%2?'#F09DBB':'#EC5C90',.75));
 // きらきら
-let si=0;const star=(x,y,z,c)=>{const g=add('g',{transform:`translate(${x},${y}) scale(${z})`});const e=document.createElementNS(ns,'path');e.setAttribute('d','M0 -12 Q2 -2 12 0 Q2 2 0 12 Q-2 2 -12 0 Q-2 -2 0 -12 Z');e.setAttribute('fill',c);e.setAttribute('class','tw');e.style.animationDelay=(-(si++)*0.37)+'s';g.appendChild(e);};
+let si=0;const star=(x,y,z,c)=>{const g=add('g',{transform:`translate(${x},${y}) scale(${z})`});const e=document.createElementNS(ns,'path');e.setAttribute('d','M0 -12 Q2 -2 12 0 Q2 2 0 12 Q-2 2 -12 0 Q-2 -2 0 -12 Z');e.setAttribute('fill',c);e.setAttribute('class','tw');e.style.animationDelay=(-(si++)*0.5)+'s';g.appendChild(e);};
 [[1040,90,1.4],[570,150,1.2],[1040,300,1.1],[560,500,1.3],[1030,520,1.1],[440,470,1.2],[100,420,1],[510,20,1]].forEach(([x,y,z],i)=>star(x,y,z,i%2?'#F5C518':'#FFFFFF'));
 </script>
 </body></html>
