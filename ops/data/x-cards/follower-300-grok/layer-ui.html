@@ -83,6 +83,11 @@ body{font-family:Z,sans-serif;color:var(--ink);overflow:hidden;position:relative
 .chr .c4{position:absolute;inset:0;opacity:0;transform-origin:50% 100%;background:url(wave-sprite.png) 0 0/5850px 650px no-repeat;
  animation:sWave 4s linear infinite,mWave 4s ease-in-out infinite,hand .75s steps(9) .25s infinite}
 html,body{background:transparent!important}.chr{display:none!important}
+
+/* キャラと吹き出しの間: 頭から湧いて昇るハート（1.5 秒で一周・時間差）と、その場で弾むハート */
+@keyframes rise{0%{transform:translate(0,40px) scale(.2);opacity:0}15%{opacity:1}70%{opacity:1}100%{transform:translate(var(--dx),-95px) scale(1.2);opacity:0}}
+.rise{position:absolute;width:44px;height:40px;animation:rise 1.5s ease-out infinite}
+.rise svg{width:100%;height:100%;display:block;filter:drop-shadow(0 4px 6px rgba(214,62,118,.25))}
 </style></head><body>
 <svg class="deco" width="1080" height="1080" style="left:0;top:0" id="bg"></svg>
 <div class="top"><i></i>DAILY HACK<i></i></div>
@@ -92,6 +97,8 @@ html,body{background:transparent!important}.chr{display:none!important}
  <img class="c3" src="expr-04-cheer.png">
  <div class="c4"></div>
 </div>
+
+<div class="rise" style="left:30px;top:545px;--dx:-20px;animation-delay:-0s;width:70px;height:64px"><svg viewBox="0 0 24 22"><path d="M0 6 C0 -2 10 -4 12 3 C14 -4 24 -2 24 6 C24 14 12 20 12 22 C12 20 0 14 0 6 Z" fill="#EC5C90"/></svg></div><div class="rise" style="left:120px;top:560px;--dx:15px;animation-delay:-0.4s;width:53px;height:48px"><svg viewBox="0 0 24 22"><path d="M0 6 C0 -2 10 -4 12 3 C14 -4 24 -2 24 6 C24 14 12 20 12 22 C12 20 0 14 0 6 Z" fill="#F09DBB"/></svg></div><div class="rise" style="left:200px;top:530px;--dx:-10px;animation-delay:-0.8s;width:62px;height:56px"><svg viewBox="0 0 24 22"><path d="M0 6 C0 -2 10 -4 12 3 C14 -4 24 -2 24 6 C24 14 12 20 12 22 C12 20 0 14 0 6 Z" fill="#D63E76"/></svg></div><div class="rise" style="left:330px;top:540px;--dx:20px;animation-delay:-0.2s;width:57px;height:52px"><svg viewBox="0 0 24 22"><path d="M0 6 C0 -2 10 -4 12 3 C14 -4 24 -2 24 6 C24 14 12 20 12 22 C12 20 0 14 0 6 Z" fill="#F09DBB"/></svg></div><div class="rise" style="left:410px;top:520px;--dx:-15px;animation-delay:-1.0s;width:75px;height:68px"><svg viewBox="0 0 24 22"><path d="M0 6 C0 -2 10 -4 12 3 C14 -4 24 -2 24 6 C24 14 12 20 12 22 C12 20 0 14 0 6 Z" fill="#EC5C90"/></svg></div><div class="rise" style="left:480px;top:560px;--dx:10px;animation-delay:-0.6s;width:57px;height:52px"><svg viewBox="0 0 24 22"><path d="M0 6 C0 -2 10 -4 12 3 C14 -4 24 -2 24 6 C24 14 12 20 12 22 C12 20 0 14 0 6 Z" fill="#F09DBB"/></svg></div><div class="rise" style="left:270px;top:560px;--dx:5px;animation-delay:-1.25s;width:48px;height:44px"><svg viewBox="0 0 24 22"><path d="M0 6 C0 -2 10 -4 12 3 C14 -4 24 -2 24 6 C24 14 12 20 12 22 C12 20 0 14 0 6 Z" fill="#EC5C90"/></svg></div><div class="rise" style="left:80px;top:600px;--dx:-5px;animation-delay:-1.1s;width:53px;height:48px"><svg viewBox="0 0 24 22"><path d="M0 6 C0 -2 10 -4 12 3 C14 -4 24 -2 24 6 C24 14 12 20 12 22 C12 20 0 14 0 6 Z" fill="#D63E76"/></svg></div><div class="rise" style="left:450px;top:600px;--dx:-20px;animation-delay:-0.15s;width:44px;height:40px"><svg viewBox="0 0 24 22"><path d="M0 6 C0 -2 10 -4 12 3 C14 -4 24 -2 24 6 C24 14 12 20 12 22 C12 20 0 14 0 6 Z" fill="#EC5C90"/></svg></div>
 <div class="bubble">
  <svg width="470" height="250" viewBox="0 0 470 250" style="overflow:visible;filter:drop-shadow(0 14px 22px rgba(214,62,118,.22))">
   <path d="M40 6 H430 Q464 6 464 40 V176 Q464 210 430 210 H300 Q286 232 262 262 Q262 232 248 210 H40 Q6 210 6 176 V40 Q6 6 40 6 Z" fill="#fff"/>
