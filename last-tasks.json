@@ -1,1 +1,3 @@
-[]
+[
+      {"task": "t205-gsc-full-dump.sh", "rc": 0, "out": "| `dates_90d` | 2026-07-03 〜 2026-09-30 | **89** 行 |  ✅ `t205-gsc-full.json` **34569 bytes**・JSON として読める  LLM 不使用。GSC API は無料枠。**$0/回**（1 回きり）。"}
+  ]
