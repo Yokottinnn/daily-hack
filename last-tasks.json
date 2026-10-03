@@ -1,1 +1,3 @@
-[]
+[
+      {"task": "x206-check-ai-video-access.sh", "rc": 0, "out": "動画生成 AI の使える経路を調べた / ai-video-access.md"}
+  ]
