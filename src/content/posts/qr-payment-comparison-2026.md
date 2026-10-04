@@ -1,5 +1,5 @@
 ---
-title: "PayPay・楽天ペイ・d払い 完全比較｜どれを使うべき？2026年版"
+title: "QR決済おすすめ比較 2026｜PayPay・楽天ペイ・d払いの還元率と使い分け"
 description: "PayPay・楽天ペイ・d払いの3大QRコード決済を、還元率・加盟店数・キャンペーン・連携サービスで完全比較。2026年5月版、シーン別の最適な使い分けと、結局どれが最強なのか教えてあげる。"
 publishDate: 2026-05-15
 category: ["comparisons", "services", "howto"]
