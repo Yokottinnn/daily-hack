@@ -1,5 +1,5 @@
 ---
-title: "お台場ドローンショー2026｜全3公演は終了。日程・時間・見える場所と中止の確認先まとめ【観覧無料】"
+title: "お台場ドローンショー2026｜全3公演の日程・時間・見える場所と中止の確認先まとめ【観覧無料】"
 description: "2026年にお台場で開かれるドローンショーは3本・公演日12日・全22回。日程／時間／機数／観覧場所と、Pixel Moonに出る6つのIP（ソニック・ペルソナ・ゴジラ-0.0ほか）まで。お月見なのに中秋の名月には終わっている。"
 publishDate: 2026-08-27
 category: ["wangan-life", "roundups"]
@@ -110,7 +110,7 @@ references: ["https://odaibadrone.com/", "https://www.tokyo-odaiba.net/event_tou
 
 <div class="section-with-mascot">
   <div class="mascot-wrap"><img src="/images/expr-04-cheer.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="aqua">② 東京アクアシンフォニー × ドローンショー（8/29・8/30｜終了）</h2>
+  <h2 id="aqua">② 東京アクアシンフォニー × ドローンショー（8/29・8/30）</h2>
 </div>
 
 <figure class="rn-figure">
@@ -136,7 +136,7 @@ references: ["https://odaibadrone.com/", "https://www.tokyo-odaiba.net/event_tou
 
 <div class="section-with-mascot">
   <div class="mascot-wrap"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="pixel-moon">③ ODAIBA DRONE SHOW 2026「Pixel Moon」（9/4〜9/22｜終了）</h2>
+  <h2 id="pixel-moon">③ ODAIBA DRONE SHOW 2026「Pixel Moon」（9/4〜9/22）</h2>
 </div>
 
 <div class="cmp-table-wrap">
