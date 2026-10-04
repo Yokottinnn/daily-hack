@@ -57,6 +57,22 @@ for job in $TARGETS; do
   [ -n "$interval" ] && echo "  実行間隔: ${interval} 秒"
   plutil -p "$plist" 2>/dev/null | grep -q 'StartCalendarInterval' && echo "  実行間隔: カレンダー指定あり"
 
+  # plist の EnvironmentVariables にキーが直接書かれていることがある。
+  # ここを見ずにスクリプト本文だけ調べて「痕跡なし」と報告していた（2026-08-11 に発覚）。
+  # 変数名だけを出す。値はトークンそのものなので絶対に出さない。
+  envkeys="$(plutil -p "$plist" 2>/dev/null \
+    | sed -n '/EnvironmentVariables/,/}/p' \
+    | grep -oE '"[A-Za-z_][A-Za-z0-9_]*"[[:space:]]*=>' \
+    | sed 's/"//g; s/[[:space:]]*=>//' \
+    | grep -v '^EnvironmentVariables$' | sort -u)"
+  if [ -n "$envkeys" ]; then
+    echo "  plist の環境変数: $(printf '%s' "$envkeys" | tr '\n' ' ')"
+    if printf '%s' "$envkeys" | grep -qE "$BILLABLE_PAT"; then
+      hit "plist の環境変数に API キーが直接書かれている"
+      billable_jobs="$billable_jobs $job"
+    fi
+  fi
+
   # ProgramArguments から実ファイルを拾う。
   # plutil -p は配列の添字をクォート無しで出す（  0 => "/bin/bash"）。
   # ここを '"0" =>' と誤って書いていたため全件外れ、「痕跡なし」という
@@ -104,7 +120,7 @@ $files"
     hit "API 課金の可能性あり"
     billable_jobs="$billable_jobs $job"
   else
-    safe "API キー・課金エンドポイントの参照は見つからなかった"
+    safe "実行ファイルには API キー・課金エンドポイントの参照が無い"
   fi
 done
 
