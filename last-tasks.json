@@ -1,4 +1,3 @@
 [
-      {"task": "x247-post-comment-ignore-whitespace.sh", "rc": 0, "out": "post-comment.js の比較を直した / post-comment-ignore-whitespace.md"},
-      {"task": "x248-repair-jal-2x-reply-2.sh", "rc": 0, "out": "**[2/2] を出した。実物で確認済み** / repair-jal-2x-reply-2.md"}
+      {"task": "x249-proof-jal-2x-thread.sh", "rc": 0, "out": "JAL スレッドの証跡を取った / proof-jal-2x-thread.md"}
   ]
