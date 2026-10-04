@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T05:24:11Z",
+  "generated_at": "2026-10-04T05:54:21Z",
   "login_lock": {"present": false, "age_hours": 0},
   "cdp": {"healthy": true, "port": 18810},
   "x_jobs": {"loaded": 8, "expected": 8, "ai_total": 15, "halted": false, "missing": []},
@@ -34,8 +34,11 @@
     "com.dailyhack.x-impressions"
   ],
   "reconnect": "既に起動している",
-  "tasks": [],
-  "running": null,
+  "tasks": [
+      {"task": "t216-momiji-official.sh", "rc": 0, "out": "---  **対象 6 / 取れた 6**  LLM 不使用。**$0/回**（1 回きり）。"},
+      {"task": "t217-momiji-voices.sh", "rc": 0, "out": "---  **対象 6 / X が読めた 6**  LLM 不使用。**$0/回**（1 回きり）。"}
+  ],
+  "running": {"task":"x234-kick-follow-balance-again.sh","started_at":"2026-10-04T05:53:30Z","budget_left":1197},
   "auth": {
     "ok": true,
     "expires_at": "2026-10-04T07:58:25Z",
