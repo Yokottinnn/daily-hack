@@ -231,5 +231,54 @@
   "page": "https://www.newoman.jp/takanawa/floorguide/detail/?scd=003011",
   "fetched": "2026-10-04",
   "note": "ニュウマン高輪 フロアガイドの店舗画像。白い余白だけ落とした"
+ },
+ "zerocorner.png": {
+  "shop": "ZEROCORNER",
+  "src": "https://www.newoman.jp/uploads/images/resized/656x656/lumine/002728/002728/3ece3051.jpg",
+  "page": "https://www.newoman.jp/takanawa/floorguide/detail/?scd=002903",
+  "fetched": "2026-10-04",
+  "note": "ニュウマン高輪 フロアガイドの店舗画像。余白だけ落とした"
+ },
+ "bluebottle.png": {
+  "shop": "BLUE BOTTLE COFFEE",
+  "src": "https://www.newoman.jp/uploads/images/resized/656x656/lumine/002728/002728/328262c5.jpg",
+  "page": "https://www.newoman.jp/takanawa/floorguide/detail/?scd=003401",
+  "fetched": "2026-10-04",
+  "note": "ニュウマン高輪 フロアガイドの店舗画像。余白だけ落とした"
+ },
+ "365coffee.png": {
+  "shop": "365日とCOFFEE",
+  "src": "https://www.newoman.jp/uploads/images/resized/656x656/lumine/002728/002728/d602d999.jpg",
+  "page": "https://www.newoman.jp/takanawa/floorguide/detail/?scd=002914",
+  "fetched": "2026-10-04",
+  "note": "ニュウマン高輪 フロアガイドの店舗画像。余白だけ落とした"
+ },
+ "starbucks.png": {
+  "shop": "STARBUCKS",
+  "src": "https://www.newoman.jp/uploads/images/resized/656x656/lumine/002728/002728/9dfece36.jpg",
+  "page": "https://www.newoman.jp/takanawa/floorguide/detail/?scd=003028",
+  "fetched": "2026-10-04",
+  "note": "ニュウマン高輪 フロアガイドの店舗画像。余白だけ落とした"
+ },
+ "citybakery.png": {
+  "shop": "THE CITY BAKERY",
+  "src": "https://www.newoman.jp/uploads/images/resized/656x656/lumine/002728/002728/87c68782.jpg",
+  "page": "https://www.newoman.jp/takanawa/floorguide/detail/?scd=003094",
+  "fetched": "2026-10-04",
+  "note": "ニュウマン高輪 フロアガイドの店舗画像。余白だけ落とした"
+ },
+ "ogawa-pan013.png": {
+  "shop": "OGAWA COFFEE LABORATORY PAN : 013 The Fermenting Lab",
+  "src": "https://www.newoman.jp/uploads/images/resized/656x656/lumine/002728/002728/1b27b67d.png",
+  "page": "https://www.newoman.jp/takanawa/floorguide/detail/?scd=003311",
+  "fetched": "2026-10-04",
+  "note": "ニュウマン高輪 フロアガイドの店舗画像。余白だけ落とした"
+ },
+ "ogawa-cup092.png": {
+  "shop": "OGAWA COFFEE LABORATORY CUP : 092 The Extracting Lab",
+  "src": "https://www.newoman.jp/uploads/images/resized/656x656/lumine/002728/002728/97d23b30.png",
+  "page": "https://www.newoman.jp/takanawa/floorguide/detail/?scd=003344",
+  "fetched": "2026-10-04",
+  "note": "ニュウマン高輪 フロアガイドの店舗画像。余白だけ落とした"
  }
 }
