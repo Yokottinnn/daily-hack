@@ -1,5 +1,4 @@
 [
-      {"task": "t210-read-momiji-2026.sh", "rc": 0, "out": "---  **対象 6 / 取れた 6**  LLM 不使用。**$0/回**（1 回きり）。"},
-      {"task": "t211-read-furusato-portals.sh", "rc": 0, "out": "---  **対象 8 / 取れた 6**  LLM 不使用。**$0/回**（1 回きり）。"},
-      {"task": "t212-read-takanawa-gateway-city.sh", "rc": 0, "out": "---  **対象 6 / 取れた 4**  LLM 不使用。**$0/回**（1 回きり）。"}
+      {"task": "t213-momiji-photos.sh", "rc": 0, "out": "  - ✅ `rikugien-2.jpg` ← File:Bunkyo Rikugien Panoramic View In Early Autumn.jpg / 3919x2939 / CC BY 4.0 / Charlie fong   - ✅ `rikugien-3.jpg` ← File:Rikugien Garden @ Komagome (11165852244).jpg / 3648x2736 / CC BY 2.0 / Guilhem Vellut  from Annecy, France   ## nikko"},
+      {"task": "t214-read-momiji-kanto.sh", "rc": 0, "out": "---  **対象 4 / 取れた 4**  LLM 不使用。**$0/回**（1 回きり）。"}
   ]
