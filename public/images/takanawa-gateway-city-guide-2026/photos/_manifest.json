@@ -1,0 +1,47 @@
+{
+ "mon-exterior.jpg": {
+  "src": "https://montakanawa.jp/wp-content/uploads/2026/04/mon_TOP_gallery_01_PC.webp",
+  "page": "https://montakanawa.jp/",
+  "credit": "MoN Takanawa 公式",
+  "fetched": "2026-10-04"
+ },
+ "mon-hall.jpg": {
+  "src": "https://montakanawa.jp/wp-content/uploads/2026/04/mon_TOP_gallery_02_PC.webp",
+  "page": "https://montakanawa.jp/",
+  "credit": "MoN Takanawa 公式",
+  "fetched": "2026-10-04"
+ },
+ "city-night.jpg": {
+  "src": "https://montakanawa.jp/wp-content/uploads/2026/04/mon_TOP_gallery_03_PC.webp",
+  "page": "https://montakanawa.jp/",
+  "credit": "MoN Takanawa 公式",
+  "fetched": "2026-10-04"
+ },
+ "station.jpg": {
+  "title": "File:Takanawa Gateway Station 200316a1.jpg",
+  "lic": "CC BY-SA 4.0",
+  "artist": "江戸村のとくぞう",
+  "page": "https://commons.wikimedia.org/wiki/File%3ATakanawa_Gateway_Station_200316a1.jpg",
+  "fetched": "2026-10-04"
+ },
+ "station-roof.jpg": {
+  "title": "File:Takanawa Gateway Station 20200320.jpg",
+  "lic": "CC BY-SA 4.0",
+  "artist": "Suicasmo",
+  "page": "https://commons.wikimedia.org/wiki/File%3ATakanawa_Gateway_Station_20200320.jpg",
+  "fetched": "2026-10-04"
+ },
+ "station-gate.jpg": {
+  "title": "File:Entrance of Takanawa Gateway Station (20230802210341).jpg",
+  "lic": "CC BY-SA 4.0",
+  "artist": "N509FZ",
+  "page": "https://commons.wikimedia.org/wiki/File%3AEntrance_of_Takanawa_Gateway_Station_%2820230802210341%29.jpg",
+  "fetched": "2026-10-04"
+ },
+ "saunas.jpg": {
+  "src": "public/images/sauna-openings-2026/facilities/takanawa.jpg",
+  "page": "https://saunas-saunas.com/takanawa",
+  "credit": "高輪SAUNAS 公式",
+  "note": "sauna-openings-2026 で取得済みの画像を流用"
+ }
+}
