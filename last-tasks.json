@@ -1,3 +1,3 @@
 [
-      {"task": "x245-repair-jal-2x-reply.sh", "rc": 0, "out": "**[2/2] を出せていない。レポート全文を読むこと** / repair-jal-2x-reply.md"}
+      {"task": "x246-read-post-comment-mismatch.sh", "rc": 0, "out": "post-comment.js の比較を書き出した / read-post-comment-mismatch.md"}
   ]
