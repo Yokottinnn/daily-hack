@@ -1,3 +1,5 @@
 [
-      {"task": "t209-trend-suggest.sh", "rc": 0, "out": "---  **対象 27 語 / 取れた 27 語**  LLM 不使用。**$0/回**（1 回きり）。"}
+      {"task": "t210-read-momiji-2026.sh", "rc": 0, "out": "---  **対象 6 / 取れた 6**  LLM 不使用。**$0/回**（1 回きり）。"},
+      {"task": "t211-read-furusato-portals.sh", "rc": 0, "out": "---  **対象 8 / 取れた 6**  LLM 不使用。**$0/回**（1 回きり）。"},
+      {"task": "t212-read-takanawa-gateway-city.sh", "rc": 0, "out": "---  **対象 6 / 取れた 4**  LLM 不使用。**$0/回**（1 回きり）。"}
   ]
