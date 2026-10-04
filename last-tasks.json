@@ -1,3 +1,4 @@
 [
-      {"task": "t218-momiji-details.sh", "rc": 0, "out": "---  **対象 8 / 取れた 8**  LLM 不使用。**$0/回**（1 回きり）。"}
+      {"task": "t219-furusato-portals-deep.sh", "rc": 0, "out": "---  **開いた 18 / 読めた 18**  LLM 不使用。**$0/回**（1 回きり）。"},
+      {"task": "t220-takanawa-official.sh", "rc": 0, "out": "---  **開いた 7 / 読めた 7**  LLM 不使用。**$0/回**（1 回きり）。"}
   ]
