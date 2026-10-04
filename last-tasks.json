@@ -1,4 +1,4 @@
 [
-      {"task": "t219-furusato-portals-deep.sh", "rc": 0, "out": "---  **開いた 18 / 読めた 18**  LLM 不使用。**$0/回**（1 回きり）。"},
-      {"task": "t220-takanawa-official.sh", "rc": 0, "out": "---  **開いた 7 / 読めた 7**  LLM 不使用。**$0/回**（1 回きり）。"}
+      {"task": "t221-photos-furusato-takanawa.sh", "rc": 0, "out": "  - ✗ File:Leave2 of Shine Muscat.png: 1008x1680（横長でない、または細長すぎる）   - ✗ File:Leave3 of Shine Muscat.png: 1008x1660（横長でない、または細長すぎる）   - ✗ File:Stem of Shine Muscat.jpg: 1008x2080（横長でない、または細長すぎる）   - �"},
+      {"task": "t222-takanawa-voices.sh", "rc": 0, "out": "---  **対象 5 / X が読めた 5**  LLM 不使用。**$0/回**（1 回きり）。"}
   ]
