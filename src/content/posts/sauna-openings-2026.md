@@ -1,5 +1,5 @@
 ---
-title: "2026年オープンのサウナ新店 首都圏17施設｜料金・最寄駅・男女別まとめ"
+title: "サウナ新規オープン2026｜東京・首都圏の新店17施設 料金・最寄駅・男女別まとめ"
 description: "2026年に首都圏で開業した／するサウナを17施設ぶん一覧化。料金は550円〜3,700円で6.7倍の開き、東京だけで10施設、そして女性がそのまま入れるのは8施設で、残る9施設は男性専用。開業日が資料で割れる理由まで数字で並べた保存版。"
 publishDate: 2026-08-22
 category: ["roundups", "comparisons"]
@@ -832,28 +832,6 @@ references: ["https://www.newoman.jp/takanawa/floorguide/detail/?scd=003014", "h
       <tr><td><strong>予約は要るの？</strong></td><td><strong>施設による。</strong>SHIAGARU SAUNAは予約制、海賊サウナは8月中が事前予約制、SAUNA汽汽は完全個室なので貸切。<strong>都市型の小型店ほど予約制を採りやすい</strong></td></tr>
       <tr class="recommended"><td><strong>カップルで一緒に入れるサウナは？</strong></td><td><a href="#-sauna汽汽--キキ-420東京">SAUNA汽汽</a>（<strong>水着着用・最大3名の完全個室</strong>）と<a href="#-横浜天然温泉-spa-eas️728神奈川">SPA EAS</a>（館内着のまま男女一緒に入れる没入型エリア）。舞浜ユーラシアの5階も男女共用</td></tr>
       <tr><td><strong>なぜ2026年に集中したの？</strong></td><td>「026」が「お・ふ・ろ」と読めることから、<strong>2026年は「お風呂の年」として日本記念日協会に記念年登録されている</strong>。全国 約2,000施設が横断プロジェクトに参加していて、<strong>次の「026」は3026年</strong></td></tr>
-    </tbody>
-  </table>
-</div>
-
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="分からないと書いたこと">この記事で「分からない」と書いたこと</h2>
-</div>
-
-**埋められなかったところを、埋めたふりで書かない。**
-
-<div class="cmp-table-wrap">
-  <table class="cmp-table wrap-table">
-    <thead><tr><th>項目</th><th>状態</th></tr></thead>
-    <tbody>
-      <tr><td>料金</td><td><strong>17施設中14まで確認できた。</strong>残り3のうち、<strong>SAUNA汽汽は金額が予約側にしか出ず</strong>（条件だけ公開）、<strong>サウナ蒸薪は公式が「時間制」としか書いていない</strong>。<strong>門仲SAUNAS LO はまだ発表されていない</strong>。推測値は載せていない</td></tr>
-      <tr><td>営業時間・定休日</td><td>SAUNA汽汽だけ、開業の事実と概要までしか裏が取れていない。<strong>門仲SAUNAS LO の営業時間はリリース時点で「予定」</strong>と書かれたもの</td></tr>
-      <tr><td>水宴と海賊サウナの出典</td><td><strong>どちらも公式サイトが見つからなかった。</strong>水宴はフロサウナの記事、海賊サウナはスーパー銭湯全国検索を出典にしている。<strong>一次情報ではないので、行く前に店に確認すること</strong></td></tr>
-      <tr><td>PARADISE 大手町のレディースデー</td><td><strong>公式サイトには記載が無い。</strong>スパが男性専用であることは公式で確定したが、レディースデーに触れているのは一部の媒体だけで、<strong>公式のよくある質問は「SPAは現在、男性専用です」としか答えていない</strong></td></tr>
-      <tr><td>この17施設で首都圏の全部か</td><td><strong>言い切れない。</strong>実際、最初は15施設として出したあとに、別のまとめを当たって<strong>舞浜ユーラシアとSAUNA汽汽の2軒を足している。</strong>個室サウナのように小規模なものは、まだ落ちている可能性がある</td></tr>
-      <tr><td>SAUNA汽汽の料金</td><td><strong>金額そのものが公式に出ていない。</strong>「1〜2名は同一料金」「3名は+3,000円」「レンタル水着+600円」という条件だけが公開されている</td></tr>
-      <tr><td>首都圏以外</td><td>この記事の対象外。大阪・愛知・福岡・福島などにも2026年の新店がある（<a href="https://www.timeout.jp/tokyo/ja/things-to-do/new-sauna-bathing-facilities-opening-in-2026" target="_blank" rel="noopener">2026年オープンの注目サウナ・温浴施設</a>ほか）</td></tr>
     </tbody>
   </table>
 </div>
