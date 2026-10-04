@@ -1,3 +1,4 @@
 [
-      {"task": "x227-follow-balance-gone-and-due.sh", "rc": 0, "out": "follow-balance.js に外し返しと期日超えを足した / follow-balance-gone-and-due.md"}
+      {"task": "t206-search-suggest.sh", "rc": 0, "out": "---  **対象 34 語 / 取れた 34 語**  LLM 不使用。**$0/回**（1 回きり）。"},
+      {"task": "t207-official-now.sh", "rc": 0, "out": "---  **対象 7 / 取れた 7**  LLM 不使用。**$0/回**（1 回きり）。"}
   ]
