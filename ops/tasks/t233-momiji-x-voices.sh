@@ -6,7 +6,7 @@
 
 set -uo pipefail
 RDIR="${OPS_REPORT_DIR:-/tmp}"
-OUT="$RDIR/t233-takanawa-voices.md"
+OUT="$RDIR/t233-momiji-x-voices.md"
 PORT="${CDP_PORT:-18810}"
 mkdir -p "$RDIR"
 
