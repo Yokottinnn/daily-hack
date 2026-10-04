@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T12:28:56Z",
+  "generated_at": "2026-10-04T13:00:11Z",
   "login_lock": {"present": false, "age_hours": 0},
   "cdp": {"healthy": true, "port": 18810},
   "x_jobs": {"loaded": 8, "expected": 8, "ai_total": 15, "halted": false, "missing": []},
@@ -34,9 +34,7 @@
     "com.dailyhack.x-impressions"
   ],
   "reconnect": "既に起動している",
-  "tasks": [
-      {"task": "t233-momiji-x-voices.sh", "rc": 0, "out": "---  **対象 7 / X が読めた 7**  LLM 不使用。**$0/回**（1 回きり）。"}
-  ],
+  "tasks": [],
   "running": null,
   "auth": {
     "ok": true,
