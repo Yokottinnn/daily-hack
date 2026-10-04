@@ -56,8 +56,8 @@ references: ["https://www.ikea.com/jp/ja/stores/toyosu/", "https://prtimes.jp/ma
   </a>
   <a class="event-pick" href="#キャンペーン" style="--pick-img:url('/images/ikea-toyosu-2026/photos/item-bag.jpg')">
     <span class="pick-date">開店記念</span>
-    <h4>9/13まで限定セール</h4>
-    <p>5,000円以上でバッグ。<strong>10%オフクーポンは9/30まで配布</strong>、使えるのは10月。</p>
+    <h4>クーポンは10/31まで</h4>
+    <p>限定セールとバッグは9/13で終了。<strong>9月に配られた10%オフクーポンは10月31日まで</strong>使える。</p>
     <span class="pick-go">詳しく見る →</span>
   </a>
 </div>
@@ -66,10 +66,10 @@ references: ["https://www.ikea.com/jp/ja/stores/toyosu/", "https://prtimes.jp/ma
 
 <div class="section-with-mascot">
   <div class="mascot-wrap"><img src="/images/expr-04-cheer.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="キャンペーン">オープン記念キャンペーン｜9月13日までが本番</h2>
+  <h2 id="キャンペーン">オープン記念キャンペーン｜セールは終了、10%オフクーポンは10月31日まで</h2>
 </div>
 
-**行くなら日付を先に見て。** オープン記念の特典が3本走っていて、**そのうち2本は9月13日で終わる。**
+**行くなら日付を先に見て。** オープン記念の特典は3本あって、**限定セールとバッグは9月13日で終わった。** いま残っているのは、9月中に配られた**10%オフクーポン**で、使えるのは**10月31日まで**。
 
 <div class="cmp-table-wrap">
   <table class="cmp-table wrap-table">
@@ -98,7 +98,7 @@ references: ["https://www.ikea.com/jp/ja/stores/toyosu/", "https://prtimes.jp/ma
 ### 押さえておく3点
 
 <ul class="checklist">
-  <li><div class="checklist-body"><strong>① セールとバッグは9月13日まで</strong><p>限定価格も5,000円以上でもらえるバッグも、<strong>この11日間だけ</strong>。オープン景気の期間なので、混雑もこの間が山になる。</p></div></li>
+  <li><div class="checklist-body"><strong>① セールとバッグは9月13日で終了</strong><p>限定価格も5,000円以上でもらえるバッグも、<strong>9月3日〜13日の11日間だけ</strong>だった。</p></div></li>
   <li><div class="checklist-body"><strong>② クーポンは「配布9月・利用10月」でずれる</strong><p>9月中にもらっても<strong>使えるのは10月1日から</strong>。大きい買い物を予定しているなら、<strong>9月にクーポンだけ取って10月に買う</strong>のが一番得になる。</p></div></li>
   <li><div class="checklist-body"><strong>③ どれもIKEA Familyが前提</strong><p>入会は無料。<strong>店頭でもその場で入れる</strong>ので、レジに並ぶ前に済ませておく。</p></div></li>
 </ul>

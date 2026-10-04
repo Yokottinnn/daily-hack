@@ -1,5 +1,5 @@
 ---
-title: "お台場ドローンショー 2026 完全まとめ｜全3公演・22回の日程と時間【観覧無料】"
+title: "お台場ドローンショー2026｜全3公演は終了。日程・時間・見える場所と中止の確認先まとめ【観覧無料】"
 description: "2026年にお台場で開かれるドローンショーは3本・公演日12日・全22回。日程／時間／機数／観覧場所と、Pixel Moonに出る6つのIP（ソニック・ペルソナ・ゴジラ-0.0ほか）まで。お月見なのに中秋の名月には終わっている。"
 publishDate: 2026-08-27
 category: ["wangan-life", "roundups"]
@@ -110,7 +110,7 @@ references: ["https://odaibadrone.com/", "https://www.tokyo-odaiba.net/event_tou
 
 <div class="section-with-mascot">
   <div class="mascot-wrap"><img src="/images/expr-04-cheer.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="aqua">② 東京アクアシンフォニー × ドローンショー（8/29・8/30）</h2>
+  <h2 id="aqua">② 東京アクアシンフォニー × ドローンショー（8/29・8/30｜終了）</h2>
 </div>
 
 <figure class="rn-figure">
@@ -136,7 +136,7 @@ references: ["https://odaibadrone.com/", "https://www.tokyo-odaiba.net/event_tou
 
 <div class="section-with-mascot">
   <div class="mascot-wrap"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="pixel-moon">③ ODAIBA DRONE SHOW 2026「Pixel Moon」（9/4〜9/22）</h2>
+  <h2 id="pixel-moon">③ ODAIBA DRONE SHOW 2026「Pixel Moon」（9/4〜9/22｜終了）</h2>
 </div>
 
 <div class="cmp-table-wrap">
@@ -258,7 +258,7 @@ references: ["https://odaibadrone.com/", "https://www.tokyo-odaiba.net/event_tou
 
 <div class="section-with-mascot">
   <div class="mascot-wrap"><img src="/images/expr-03-bashful.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="アクセス">会場とアクセス｜台場海浜公園「マリンハウス前」</h2>
+  <h2 id="アクセス">どこから見える？会場とアクセス｜台場海浜公園「マリンハウス前」</h2>
 </div>
 
 <figure class="rn-figure">
@@ -299,25 +299,6 @@ references: ["https://odaibadrone.com/", "https://www.tokyo-odaiba.net/event_tou
       <tr><td>公演日・時刻</td><td><a href="https://odaibadrone.com/" target="_blank" rel="noopener">ODAIBA DRONE SHOW 2026 公式</a>のカレンダー</td></tr>
       <tr><td>当日の実施可否</td><td>公式SNS。<strong>公演の数時間前に出る</strong></td></tr>
       <tr><td>観覧場所と混雑</td><td>公式のアクセスページ。<strong>まとめ記事では分からない</strong></td></tr>
-    </tbody>
-  </table>
-</div>
-
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-03-bashful.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="分からないと書いたこと">この記事で「分からない」と書いたこと</h2>
-</div>
-
-**埋められなかったところを、埋めたふりで書かない。**
-
-<div class="cmp-table-wrap">
-  <table class="cmp-table wrap-table">
-    <thead><tr><th>項目</th><th>状態</th></tr></thead>
-    <tbody>
-      <tr><td>A と B の中身の違い</td><td>公式は「2種類の TRACK を用意」としか出していない。<strong>どちらにどのコンテンツが入るかは未発表</strong></td></tr>
-      <tr><td>混雑と場所取り</td><td>会場と最寄駅は<a href="#アクセス">確認できた</a>が、<strong>どのくらい前に行けば見やすい場所を取れるかは分からない。</strong>公式も推奨の観覧位置までは出していない</td></tr>
-      <tr><td>東京アクアシンフォニーの正確な会場</td><td>お台場の噴水エリアであることまで。区画名の裏が取れていない</td></tr>
-      <tr><td>この3本で全部か</td><td><strong>言い切れない。</strong>お台場では単発のドローン演出が別枠で行われることがあり、小規模なものは落ちている可能性がある</td></tr>
     </tbody>
   </table>
 </div>

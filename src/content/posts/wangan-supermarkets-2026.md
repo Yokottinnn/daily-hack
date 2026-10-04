@@ -1,5 +1,5 @@
 ---
-title: "湾岸エリア スーパー徹底比較 18店舗｜晴海・勝どき・月島・豊洲、ポイントカード × お得日 完全マップ 2026"
+title: "湾岸エリアの安いスーパー比較 18店舗｜晴海・勝どき・月島・豊洲のポイントカード × お得日 完全マップ 2026"
 description: "晴海・勝どき・月島・豊洲の主要スーパー18店舗を、エリア別マップ・チェーンロゴ・ポイントカード比較で完全網羅。2026年9月オープン予定のスーパー三和(SANWA)ららぽーと豊洲店も特集。HARUMI FLAG居住者必読。"
 publishDate: 2026-05-25
 category: ["wangan-life", "comparisons", "howto"]
@@ -137,7 +137,7 @@ references: ["https://rinconomiblog.com/supermarket-harumi/", "https://retailgui
 
 ---
 
-## 🌸 晴海エリア（5 店舗）
+## 🌸 晴海のスーパー（5 店舗）
 
 <figure>
 <img src="/images/wangan-supermarkets-2026/wangan-map-晴海.png" alt="晴海エリア スーパーマップ — マルエツ プチ晴海 / マルエツ晴海三丁目 / 東武ストア晴海三丁目 / 成城石井晴海トリトン / サミットストア ららテラスHARUMI FLAG店" />
@@ -226,7 +226,7 @@ references: ["https://rinconomiblog.com/supermarket-harumi/", "https://retailgui
 
 ---
 
-## 🟧 勝どきエリア（4 店舗）
+## 🟧 勝どきのスーパー（4 店舗）
 
 <figure>
 <img src="/images/wangan-supermarkets-2026/wangan-map-勝どき.png" alt="勝どきエリア スーパーマップ — ライフ勝どきミッド / マルエツ勝どき六丁目 / 文化堂勝どき / まいばすけっと勝どき3丁目" />
@@ -299,7 +299,7 @@ references: ["https://rinconomiblog.com/supermarket-harumi/", "https://retailgui
 
 ---
 
-## 🟢 月島エリア（4 店舗）
+## 🟢 月島のスーパー（4 店舗）
 
 <figure>
 <img src="/images/wangan-supermarkets-2026/wangan-map-月島.png" alt="月島エリア スーパーマップ — マルエツ佃 / リンコス リバーシティ / 文化堂月島 / まいばすけっと月島2丁目" />
@@ -372,7 +372,7 @@ references: ["https://rinconomiblog.com/supermarket-harumi/", "https://retailgui
 
 ---
 
-## 🔵 豊洲エリア（5 店舗）
+## 🔵 豊洲のスーパー（5 店舗）
 
 <figure>
 <img src="/images/wangan-supermarkets-2026/wangan-map-豊洲.png" alt="豊洲エリア スーパーマップ — ライフ豊洲 / ダイエー豊洲 / 成城石井ららぽーと豊洲 / SANWAららぽーと豊洲 / まいばすけっと豊洲1丁目" />
