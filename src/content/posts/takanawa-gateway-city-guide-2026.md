@@ -168,7 +168,7 @@ JR東日本が品川の車両基地の跡地につくった街。**一度に開�
     <thead><tr><th>フロア</th><th>店</th><th>ランチの時間</th></tr></thead>
     <tbody>
       <tr><td>South 1F</td><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/takanawa-gateway-city-guide-2026/logos/800degrees.png" alt="" loading="lazy" />800°DEGREES TAKANAWA</span><small>ピッツェリア</small></td><td>11:00〜22:00（通し）</td></tr>
-      <tr><td>South 1F</td><td><span class="cell-brand">ZEROCORNER</span><small>ビストロ＆マーケット</small></td><td><strong>8:00</strong>〜21:00</td></tr>
+      <tr><td>South 1F</td><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/takanawa-gateway-city-guide-2026/logos/zerocorner.png" alt="" loading="lazy" />ZEROCORNER</span><small>ビストロ＆マーケット</small></td><td><strong>8:00</strong>〜21:00</td></tr>
       <tr class="recommended"><td>North 2F</td><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/takanawa-gateway-city-guide-2026/logos/foundry.png" alt="" loading="lazy" />VERMICULAR RESTAURANT THE FOUNDRY</span><small>ビストロ</small></td><td>ランチ 11:00〜14:30／カフェ 14:30〜17:00</td></tr>
       <tr><td>South 4F</td><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/takanawa-gateway-city-guide-2026/logos/soba-toyoda.png" alt="" loading="lazy" />蕎麦 豊田</span><small>蕎麦・和食</small></td><td>11:00〜15:00（L.O 14:30）</td></tr>
       <tr><td>South 4F</td><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/takanawa-gateway-city-guide-2026/logos/diya.png" alt="" loading="lazy" />DIYA MODERN INDIAN DINING</span><small>モダンインド</small></td><td>11:00〜16:00</td></tr>
@@ -211,14 +211,14 @@ JR東日本が品川の車両基地の跡地につくった街。**一度に開�
     <thead><tr><th>開店</th><th>店</th><th>場所・営業時間</th></tr></thead>
     <tbody>
       <tr class="recommended"><td><strong>7:00</strong></td><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/takanawa-gateway-city-guide-2026/logos/verve.png" alt="" loading="lazy" />VERVE COFFEE ROASTERS</span></td><td>South・North 1F／7:00〜22:00</td></tr>
-      <tr class="recommended"><td><strong>7:00</strong></td><td><span class="cell-brand">OGAWA COFFEE LABORATORY PAN：013</span><small>ベーカリー</small></td><td>MIMURE 2F／7:00〜21:00</td></tr>
-      <tr><td>8:00</td><td><span class="cell-brand">ZEROCORNER</span></td><td>South 1F／8:00〜21:00</td></tr>
-      <tr><td>8:00</td><td><span class="cell-brand">OGAWA COFFEE LABORATORY CUP：092</span></td><td>MIMURE 2F／8:00〜23:00</td></tr>
-      <tr><td>8:00<br><small>平日</small></td><td><span class="cell-brand">ブルーボトルコーヒー</span></td><td>South 2F／平日 8:00〜20:00、土日祝 10:00〜20:00</td></tr>
-      <tr><td>9:00</td><td><span class="cell-brand">365日とCOFFEE</span></td><td>North 2F／9:00〜19:00</td></tr>
+      <tr class="recommended"><td><strong>7:00</strong></td><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/takanawa-gateway-city-guide-2026/logos/ogawa-pan013.png" alt="" loading="lazy" />OGAWA COFFEE LABORATORY PAN：013</span><small>ベーカリー</small></td><td>MIMURE 2F／7:00〜21:00</td></tr>
+      <tr><td>8:00</td><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/takanawa-gateway-city-guide-2026/logos/zerocorner.png" alt="" loading="lazy" />ZEROCORNER</span></td><td>South 1F／8:00〜21:00</td></tr>
+      <tr><td>8:00</td><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/takanawa-gateway-city-guide-2026/logos/ogawa-cup092.png" alt="" loading="lazy" />OGAWA COFFEE LABORATORY CUP：092</span></td><td>MIMURE 2F／8:00〜23:00</td></tr>
+      <tr><td>8:00<br><small>平日</small></td><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/takanawa-gateway-city-guide-2026/logos/bluebottle.png" alt="" loading="lazy" />ブルーボトルコーヒー</span></td><td>South 2F／平日 8:00〜20:00、土日祝 10:00〜20:00</td></tr>
+      <tr><td>9:00</td><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/takanawa-gateway-city-guide-2026/logos/365coffee.png" alt="" loading="lazy" />365日とCOFFEE</span></td><td>North 2F／9:00〜19:00</td></tr>
       <tr><td>10:00</td><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/takanawa-gateway-city-guide-2026/logos/sow.png" alt="" loading="lazy" />SOW COFFEE ROASTERS</span></td><td>South 4F／10:00〜21:00</td></tr>
-      <tr><td>10:00</td><td><span class="cell-brand">STARBUCKS</span></td><td>North 5F／10:00〜22:00</td></tr>
-      <tr><td>10:00</td><td><span class="cell-brand">THE CITY BAKERY</span></td><td>North 5F／10:00〜20:00</td></tr>
+      <tr><td>10:00</td><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/takanawa-gateway-city-guide-2026/logos/starbucks.png" alt="" loading="lazy" />STARBUCKS</span></td><td>North 5F／10:00〜22:00</td></tr>
+      <tr><td>10:00</td><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/takanawa-gateway-city-guide-2026/logos/citybakery.png" alt="" loading="lazy" />THE CITY BAKERY</span></td><td>North 5F／10:00〜20:00</td></tr>
     </tbody>
   </table>
 </div>
