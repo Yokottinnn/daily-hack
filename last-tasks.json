@@ -1,1 +1,4 @@
-[]
+[
+      {"task": "x236-kick-follow-balance-3rd.sh", "rc": 0, "out": "follow-balance の猶予を 24 時間に戻して走らせた / follow-balance-kick-4.md"},
+      {"task": "x237-read-follow-balance-result.sh", "rc": 0, "out": "**まだ終わっていないか読めない** / read-follow-balance-result-5.md"}
+  ]
