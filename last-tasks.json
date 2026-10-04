@@ -1,4 +1,3 @@
 [
-      {"task": "t223-furusato-voices.sh", "rc": 0, "out": "---  **対象 4 / X が読めた 4**  LLM 不使用。**$0/回**（1 回きり）。"},
-      {"task": "t224-takanawa-details.sh", "rc": 0, "out": "---  **対象 3 / 取れた 3**  LLM 不使用。**$0/回**（1 回きり）。"}
+      {"task": "t225-takanawa-official-photos.sh", "rc": 0, "out": "---  **取れた枚数: 7**  LLM 不使用。**$0/回**（1 回きり）。"}
   ]

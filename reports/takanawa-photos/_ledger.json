@@ -1,0 +1,58 @@
+{
+ "tk-01.png": {
+  "src": "https://www.takanawagateway-city.com/assets/img/top/facilities_fig_01.png",
+  "page": "https://www.takanawagateway-city.com/",
+  "w": 1186,
+  "h": 554,
+  "alt": "ビジネス創造施設",
+  "fetched": "2026-10-04"
+ },
+ "tk-02.png": {
+  "src": "https://www.takanawagateway-city.com/assets/img/top/facilities_fig_02.png",
+  "page": "https://www.takanawagateway-city.com/",
+  "w": 1192,
+  "h": 556,
+  "alt": "文化創造発信施設",
+  "fetched": "2026-10-04"
+ },
+ "tk-03.jpg": {
+  "src": "https://montakanawa.jp/wp-content/uploads/2026/07/img_26theme_sound_kv_pc.jpg",
+  "page": "https://montakanawa.jp/",
+  "w": 2558,
+  "h": 1136,
+  "alt": "Season Theme vol.2 Sound as Culture その音は、ブンカだ",
+  "fetched": "2026-10-04"
+ },
+ "tk-04.jpg": {
+  "src": "https://montakanawa.jp/wp-content/uploads/2026/08/IMG_7467-scaled.jpg",
+  "page": "https://montakanawa.jp/",
+  "w": 3054,
+  "h": 2036,
+  "alt": "",
+  "fetched": "2026-10-04"
+ },
+ "tk-05.jpg": {
+  "src": "https://montakanawa.jp/wp-content/uploads/2026/04/mon_TOP_gallery_01_PC.webp",
+  "page": "https://montakanawa.jp/",
+  "w": 2560,
+  "h": 1136,
+  "alt": "",
+  "fetched": "2026-10-04"
+ },
+ "tk-06.jpg": {
+  "src": "https://montakanawa.jp/wp-content/uploads/2026/04/mon_TOP_gallery_02_PC.webp",
+  "page": "https://montakanawa.jp/",
+  "w": 2560,
+  "h": 1136,
+  "alt": "",
+  "fetched": "2026-10-04"
+ },
+ "tk-07.jpg": {
+  "src": "https://montakanawa.jp/wp-content/uploads/2026/04/mon_TOP_gallery_03_PC.webp",
+  "page": "https://montakanawa.jp/",
+  "w": 2560,
+  "h": 1136,
+  "alt": "",
+  "fetched": "2026-10-04"
+ }
+}
