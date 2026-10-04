@@ -196,5 +196,40 @@
   "page": "https://montakanawa.jp/",
   "fetched": "2026-10-04",
   "note": "白版しか無いので記事では on-dark の枠で出す"
+ },
+ "ogawa-gls125.png": {
+  "shop": "OGAWA COFFEE LABORATORY GLS : 125 The Swirling Lab",
+  "src": "https://www.newoman.jp/uploads/images/resized/656x656/lumine/002728/002728/8a835de6.png",
+  "page": "https://www.newoman.jp/takanawa/floorguide/detail/?scd=003352",
+  "fetched": "2026-10-04",
+  "note": "ニュウマン高輪 フロアガイドの店舗画像。白い余白だけ落とした"
+ },
+ "ogawa-tap020.png": {
+  "shop": "OGAWA COFFEE LABORATORY TAP : 020 The Brewing Lab",
+  "src": "https://www.newoman.jp/uploads/images/resized/656x656/lumine/002728/002728/b7cead4c.png",
+  "page": "https://www.newoman.jp/takanawa/floorguide/detail/?scd=003350",
+  "fetched": "2026-10-04",
+  "note": "ニュウマン高輪 フロアガイドの店舗画像。白い余白だけ落とした"
+ },
+ "ogawa-piz550.png": {
+  "shop": "OGAWA COFFEE LABORATORY PIZ : 550 The Composing Lab",
+  "src": "https://www.newoman.jp/uploads/images/resized/656x656/lumine/002728/002728/054ae193.png",
+  "page": "https://www.newoman.jp/takanawa/floorguide/detail/?scd=003351",
+  "fetched": "2026-10-04",
+  "note": "ニュウマン高輪 フロアガイドの店舗画像。白い余白だけ落とした"
+ },
+ "verve.png": {
+  "shop": "VERVE COFFEE ROASTERS",
+  "src": "https://www.newoman.jp/uploads/images/resized/656x656/lumine/002728/002728/a432d30f.jpg",
+  "page": "https://www.newoman.jp/takanawa/floorguide/detail/?scd=002906",
+  "fetched": "2026-10-04",
+  "note": "ニュウマン高輪 フロアガイドの店舗画像。白い余白だけ落とした"
+ },
+ "sow.png": {
+  "shop": "SOW COFFEE ROASTERS",
+  "src": "https://www.newoman.jp/uploads/images/resized/656x656/lumine/002728/002728/fa53f4ce.jpg",
+  "page": "https://www.newoman.jp/takanawa/floorguide/detail/?scd=003011",
+  "fetched": "2026-10-04",
+  "note": "ニュウマン高輪 フロアガイドの店舗画像。白い余白だけ落とした"
  }
 }

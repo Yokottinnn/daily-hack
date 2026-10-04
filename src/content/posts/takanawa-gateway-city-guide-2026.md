@@ -210,13 +210,13 @@ JR東日本が品川の車両基地の跡地につくった街。**一度に開�
   <table class="cmp-table">
     <thead><tr><th>開店</th><th>店</th><th>場所・営業時間</th></tr></thead>
     <tbody>
-      <tr class="recommended"><td><strong>7:00</strong></td><td><span class="cell-brand">VERVE COFFEE ROASTERS</span></td><td>South・North 1F／7:00〜22:00</td></tr>
+      <tr class="recommended"><td><strong>7:00</strong></td><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/takanawa-gateway-city-guide-2026/logos/verve.png" alt="" loading="lazy" />VERVE COFFEE ROASTERS</span></td><td>South・North 1F／7:00〜22:00</td></tr>
       <tr class="recommended"><td><strong>7:00</strong></td><td><span class="cell-brand">OGAWA COFFEE LABORATORY PAN：013</span><small>ベーカリー</small></td><td>MIMURE 2F／7:00〜21:00</td></tr>
       <tr><td>8:00</td><td><span class="cell-brand">ZEROCORNER</span></td><td>South 1F／8:00〜21:00</td></tr>
       <tr><td>8:00</td><td><span class="cell-brand">OGAWA COFFEE LABORATORY CUP：092</span></td><td>MIMURE 2F／8:00〜23:00</td></tr>
       <tr><td>8:00<br><small>平日</small></td><td><span class="cell-brand">ブルーボトルコーヒー</span></td><td>South 2F／平日 8:00〜20:00、土日祝 10:00〜20:00</td></tr>
       <tr><td>9:00</td><td><span class="cell-brand">365日とCOFFEE</span></td><td>North 2F／9:00〜19:00</td></tr>
-      <tr><td>10:00</td><td><span class="cell-brand">SOW COFFEE ROASTERS</span></td><td>South 4F／10:00〜21:00</td></tr>
+      <tr><td>10:00</td><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/takanawa-gateway-city-guide-2026/logos/sow.png" alt="" loading="lazy" />SOW COFFEE ROASTERS</span></td><td>South 4F／10:00〜21:00</td></tr>
       <tr><td>10:00</td><td><span class="cell-brand">STARBUCKS</span></td><td>North 5F／10:00〜22:00</td></tr>
       <tr><td>10:00</td><td><span class="cell-brand">THE CITY BAKERY</span></td><td>North 5F／10:00〜20:00</td></tr>
     </tbody>
@@ -276,8 +276,8 @@ THE LINKPILLAR 2 の2・3階。基準営業時間は **10:00〜22:00**。Impress
   <table class="cmp-table">
     <thead><tr><th>階</th><th>店</th><th>営業時間</th></tr></thead>
     <tbody>
-      <tr class="recommended"><td>2F</td><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/takanawa-gateway-city-guide-2026/logos/ogawa-kit360.png" alt="" loading="lazy" />OGAWA COFFEE LABORATORY</span><small>KIT：360（キッチン）／PIZ：550（ピザ）</small></td><td>11:00〜23:00（L.O フード22:00）</td></tr>
-      <tr><td>2F</td><td><span class="cell-brand">OGAWA COFFEE LABORATORY</span><small>GLS：125（ワイン）／TAP：020（ビール）</small></td><td>平日 16:00〜23:00／土日祝 11:00〜23:00</td></tr>
+      <tr class="recommended"><td>2F</td><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/takanawa-gateway-city-guide-2026/logos/ogawa-kit360.png" alt="" loading="lazy" /><img class="brand-logo-sm" src="/images/takanawa-gateway-city-guide-2026/logos/ogawa-piz550.png" alt="" loading="lazy" />OGAWA COFFEE LABORATORY</span><small>KIT：360（キッチン）／PIZ：550（ピザ）</small></td><td>11:00〜23:00（L.O フード22:00）</td></tr>
+      <tr><td>2F</td><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/takanawa-gateway-city-guide-2026/logos/ogawa-gls125.png" alt="" loading="lazy" /><img class="brand-logo-sm" src="/images/takanawa-gateway-city-guide-2026/logos/ogawa-tap020.png" alt="" loading="lazy" />OGAWA COFFEE LABORATORY</span><small>GLS：125（ワイン）／TAP：020（ビール）</small></td><td>平日 16:00〜23:00／土日祝 11:00〜23:00</td></tr>
       <tr><td>3F</td><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/takanawa-gateway-city-guide-2026/logos/matsubaraan.png" alt="" loading="lazy" />鎌倉 松原庵 高輪</span><small>蕎麦・酒・料理</small></td><td>11:00〜23:00（ランチは16:00まで）</td></tr>
       <tr><td>3F</td><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/takanawa-gateway-city-guide-2026/logos/kikiya.png" alt="" loading="lazy" />牛丼 㐂㐂屋</span><small>和牛丼</small></td><td>11:00〜22:00</td></tr>
       <tr><td>3F</td><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/takanawa-gateway-city-guide-2026/logos/agaru.png" alt="" loading="lazy" />鮨 上ル</span><small>すし</small></td><td>11:00〜22:00</td></tr>
