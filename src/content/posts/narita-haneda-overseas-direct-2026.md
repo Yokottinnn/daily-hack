@@ -1,5 +1,5 @@
 ---
-title: "成田・羽田から直行便で行ける海外まとめ｜JAL・ANAの就航都市を公式確認【2026年7月時点】"
+title: "羽田・成田の直行便で行ける国・都市一覧【2026年】JAL・ANAの就航先を空港別・エリア別に"
 description: "成田(NRT)と羽田(HND)、それぞれから直行便でどこの海外へ行ける？JAL・ANAの公式路線情報を直接確認して、就航都市を空港別・エリア別に整理。欧州はもう羽田が中心、成田はアジア＆レジャー＆一部長距離…という“いまの地図”が一目で分かる。運休路線・コードシェアの扱いも正直に明記。※2026年7月時点。"
 publishDate: 2026-07-19
 category: ["howto"]
@@ -43,7 +43,7 @@ references:
 
 <p class="source-note">※最終確定は各社の予約サイト・国際線時刻表で日付を指定して確認するのが確実です。季節運航・臨時運休・機材変更があります。</p>
 
-## ✈️ 羽田（HND）発 — 直行便で行ける海外
+## ✈️ 羽田（HND）発の直行便一覧｜行ける国・都市
 
 <h3 class="brand-h" id="hnd-jal"><img class="brand-logo" src="/images/narita-haneda-overseas-direct-2026/logos/jal.png" alt="JAL のロゴ" loading="lazy" /><span>JAL（羽田発・自社運航直行便）</span></h3>
 
@@ -71,7 +71,7 @@ references:
 
 <p class="source-note">開設延期：サンノゼ・モスクワ（＝現時点で運航なし）。出典: <a href="https://www.ana.co.jp/ja/us/plan-book/routes/international-route-information/">ANA 国際線就航都市</a>（2026年3月29日〜10月24日ダイヤ／2026年7月確認）。</p>
 
-## ✈️ 成田（NRT）発 — 直行便で行ける海外
+## ✈️ 成田（NRT）発の直行便一覧｜行ける国・都市
 
 <h3 class="brand-h" id="nrt-jal"><img class="brand-logo" src="/images/narita-haneda-overseas-direct-2026/logos/jal.png" alt="JAL のロゴ" loading="lazy" /><span>JAL（成田発・自社運航直行便）</span></h3>
 
