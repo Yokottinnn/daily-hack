@@ -1448,5 +1448,728 @@
         "v": 0
       }
     ]
+  },
+  "2026-10-03": {
+    "visits": 139,
+    "requests": 351,
+    "paths": 132,
+    "jp": 9,
+    "human": 9,
+    "top": [
+      {
+        "path": "/",
+        "v": 17,
+        "r": 17
+      },
+      {
+        "path": "/tags/2026/",
+        "v": 11,
+        "r": 11
+      },
+      {
+        "path": "/tags/PayPay/",
+        "v": 9,
+        "r": 9
+      },
+      {
+        "path": "/posts/lalaport-guide-2026/",
+        "v": 6,
+        "r": 7
+      },
+      {
+        "path": "/tags/%E5%B0%B1%E8%88%AA%E9%83%BD%E5%B8%82/",
+        "v": 5,
+        "r": 5
+      },
+      {
+        "path": "/tags/JAL/",
+        "v": 5,
+        "r": 5
+      },
+      {
+        "path": "/tags/Amazon/",
+        "v": 5,
+        "r": 5
+      },
+      {
+        "path": "/tags/ANA/",
+        "v": 4,
+        "r": 4
+      },
+      {
+        "path": "/posts/wangan-supermarkets-2026/",
+        "v": 3,
+        "r": 3
+      },
+      {
+        "path": "/tags/JRE%20POINT/",
+        "v": 3,
+        "r": 3
+      },
+      {
+        "path": "/tags/JAL%20Wellness%20&%20Travel/",
+        "v": 3,
+        "r": 3
+      },
+      {
+        "path": "/posts/ana-pocket-vs-jal-wellness-2026/",
+        "v": 2,
+        "r": 2
+      },
+      {
+        "path": "/posts/point-exchange-route-2026/",
+        "v": 2,
+        "r": 2
+      },
+      {
+        "path": "/posts/move-to-earn-poikatsu-apps-2026/",
+        "v": 2,
+        "r": 2
+      },
+      {
+        "path": "/tags/%E5%AD%A6%E7%94%9F%E8%A8%BC/",
+        "v": 2,
+        "r": 2
+      },
+      {
+        "path": "/tags/IKEA%E8%B1%8A%E6%B4%B2/",
+        "v": 2,
+        "r": 2
+      },
+      {
+        "path": "/tags/JAL%20Wellness%20Travel/",
+        "v": 2,
+        "r": 2
+      },
+      {
+        "path": "/tags/SBI/",
+        "v": 2,
+        "r": 2
+      },
+      {
+        "path": "/posts/wangan-august-events-2026/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/posts/walk-poikatsu-2026/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/posts/credit-card-kaiaku-2026/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/posts/amazon-prime-day-rakuten-ss-2026/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/posts/visa-touch-30-cashback-2026-jun/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/posts/pointsite-comparison-2026/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/posts/poikatsu-hourly-wage-2026/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/posts/summer-cospa-travel-2026/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/posts/outlet-mall-guide-2026/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/posts/paypay-2026-june-revision-guide/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/posts/money-hacks-hourly-wage-2026/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/posts/furusato-tax-2026-reform-guide/",
+        "v": 1,
+        "r": 2
+      },
+      {
+        "path": "/posts/tokyo-bay-hanabi-2026/",
+        "v": 1,
+        "r": 3
+      },
+      {
+        "path": "/posts/morning-500-2026/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/posts/wangan-tower-construction-map-2026/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/posts/summer-electricity-saving-2026/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/posts/sauna-openings-2026/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/posts/gyudon-chains-cashless-2026-jun/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/posts/hoso-daigaku-gakuwari-2026/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/posts/his-clearance-sale-2026-jun/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E3%81%99%E3%81%8D%E5%AE%B6/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/2026%E5%B9%B4%E6%9C%80%E6%96%B0%E7%89%88/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E9%96%80%E5%89%8D%E4%BB%B2%E7%94%BA/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E9%9B%91%E6%89%80%E5%BE%97/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E3%82%89%E3%82%89%E3%81%BD%E3%83%BC%E3%81%A8%E8%B1%8A%E6%B4%B2/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E5%89%AF%E6%A5%AD/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E3%81%A8%E3%81%A8%E3%81%AE%E3%81%86/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E7%84%A1%E6%96%99/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/DMM%20FX/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E6%B7%B1%E5%B7%9D%E5%85%AB%E5%B9%A1%E7%A5%AD%E3%82%8A/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E3%83%9E%E3%82%AF%E3%83%89%E3%83%8A%E3%83%AB%E3%83%89/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/Pixel%20Moon/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/disclaimer/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E3%82%A4%E3%82%B1%E3%82%A2/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E6%96%BD%E8%A8%AD%E4%B8%80%E8%A6%A7/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/Apple%20Pay/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E4%BD%8F%E6%B0%91%E7%A8%8E/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E6%94%BE%E9%80%81%E5%A4%A7%E5%AD%A6/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/IKEA/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E9%AB%98%E8%BC%AASAUNAS/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E6%A5%BD%E5%A4%A9%E5%B8%82%E5%A0%B4/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E5%8C%97%E6%AC%A7%E3%82%A4%E3%83%B3%E3%83%86%E3%83%AA%E3%82%A2/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E5%AD%A6%E5%89%B2/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E3%82%AF%E3%83%AC%E3%82%AB%E6%94%B9%E6%82%AA/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/FX/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E6%90%8D%E7%9B%8A%E5%88%86%E5%B2%90/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E9%9B%BB%E6%B0%97%E4%BB%A3/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E6%A0%BC%E5%AE%89%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E6%B1%9F%E6%9D%B1%E5%8C%BA/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E3%82%B3%E3%83%A1%E3%83%80%E7%8F%88%E7%90%B2%E5%BA%97/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/category/wangan-life/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/category/howto/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E7%A2%BA%E5%AE%9A%E6%8B%A0%E5%87%BA%E5%B9%B4%E9%87%91/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/_astro/BaseLayout.dEbMezu4.css",
+        "v": 0,
+        "r": 5
+      },
+      {
+        "path": "/images/ikea-toyosu-2026/photos/zone-overview.jpg",
+        "v": 0,
+        "r": 2
+      },
+      {
+        "path": "/images/ikea-toyosu-2026/photos/shibuya.jpg",
+        "v": 0,
+        "r": 1
+      },
+      {
+        "path": "/images/ikea-toyosu-2026/eyecatch.jpg",
+        "v": 0,
+        "r": 3
+      },
+      {
+        "path": "/images/lalaport-guide-2026/eyecatch.jpg",
+        "v": 0,
+        "r": 5
+      },
+      {
+        "path": "/images/walk-poikatsu-2026/eyecatch.jpg",
+        "v": 0,
+        "r": 3
+      },
+      {
+        "path": "/images/harumi-flag-koukai-2026/eyecatch.jpg",
+        "v": 0,
+        "r": 5
+      },
+      {
+        "path": "/images/his-clearance-sale-2026-jun/his-eyecatch-16x9.jpg",
+        "v": 0,
+        "r": 3
+      },
+      {
+        "path": "/images/lalaport-guide-2026/photos/yokohama.jpg",
+        "v": 0,
+        "r": 3
+      },
+      {
+        "path": "/images/cheap-sim-comparison-2026/logos/rakutenmobile.png",
+        "v": 0,
+        "r": 1
+      },
+      {
+        "path": "/images/cheap-sim-comparison-2026/logos/ymobile.png",
+        "v": 0,
+        "r": 1
+      },
+      {
+        "path": "/_astro/BaseLayout.BJ42Gwg4.css",
+        "v": 0,
+        "r": 6
+      },
+      {
+        "path": "/sitemap-0.xml",
+        "v": 0,
+        "r": 1
+      },
+      {
+        "path": "/images/mascot-comic.png",
+        "v": 0,
+        "r": 4
+      },
+      {
+        "path": "/images/ikea-toyosu-2026/photos/zone-entrance.jpg",
+        "v": 0,
+        "r": 1
+      },
+      {
+        "path": "/favicon.svg",
+        "v": 0,
+        "r": 1
+      },
+      {
+        "path": "/images/tokyo-bay-hanabi-2026/eyecatch.jpg",
+        "v": 0,
+        "r": 5
+      },
+      {
+        "path": "/images/expr-06-shock.png",
+        "v": 0,
+        "r": 2
+      },
+      {
+        "path": "/images/hoso-daigaku-gakuwari-2026/eyecatch.jpg",
+        "v": 0,
+        "r": 8
+      },
+      {
+        "path": "/images/lalaport-guide-2026/logos/mitsuifudosan.png",
+        "v": 0,
+        "r": 2
+      },
+      {
+        "path": "/images/ikea-toyosu-2026/photos/zone-living.jpg",
+        "v": 0,
+        "r": 2
+      },
+      {
+        "path": "/images/wangan-supermarkets-2026/icons/point-rakuten.svg",
+        "v": 0,
+        "r": 1
+      },
+      {
+        "path": "/images/lalaport-guide-2026/photos/toyosu.jpg",
+        "v": 0,
+        "r": 4
+      },
+      {
+        "path": "/images/budget-overseas-resorts-2026/eyecatch.jpg",
+        "v": 0,
+        "r": 1
+      },
+      {
+        "path": "/images/expr-07-gasp.png",
+        "v": 0,
+        "r": 3
+      },
+      {
+        "path": "/images/cheap-sim-comparison-2026/logos/povo.png",
+        "v": 0,
+        "r": 1
+      },
+      {
+        "path": "/images/lalaport-guide-2026/photos/lazona.jpg",
+        "v": 0,
+        "r": 1
+      },
+      {
+        "path": "/images/lalaport-guide-2026/map/kanto.png",
+        "v": 0,
+        "r": 1
+      },
+      {
+        "path": "/images/ikea-toyosu-2026/photos/zone-planning.jpg",
+        "v": 0,
+        "r": 1
+      },
+      {
+        "path": "/robots.txt",
+        "v": 0,
+        "r": 59
+      },
+      {
+        "path": "/images/lalaport-guide-2026/photos/anjo.jpg",
+        "v": 0,
+        "r": 1
+      },
+      {
+        "path": "/images/eyecatch/wangan-tower-construction-map-2026-thumb.png",
+        "v": 0,
+        "r": 3
+      },
+      {
+        "path": "/images/expr-01-wave.png",
+        "v": 0,
+        "r": 1
+      },
+      {
+        "path": "/images/expr-09-arms-crossed.png",
+        "v": 0,
+        "r": 4
+      },
+      {
+        "path": "/images/banners/gas-choice-300x250.jpg",
+        "v": 0,
+        "r": 1
+      },
+      {
+        "path": "/images/ikea-toyosu-2026/photos/item-basket.jpg",
+        "v": 0,
+        "r": 1
+      },
+      {
+        "path": "/favicon.ico",
+        "v": 0,
+        "r": 2
+      },
+      {
+        "path": "/images/mascot-avatar.png",
+        "v": 0,
+        "r": 8
+      },
+      {
+        "path": "/images/lalaport-guide-2026/photos/tokyobay.jpg",
+        "v": 0,
+        "r": 1
+      },
+      {
+        "path": "/images/lalaport-guide-2026/photos/northgate.jpg",
+        "v": 0,
+        "r": 2
+      },
+      {
+        "path": "/images/ikea-toyosu-2026/photos/zone-kitchen.jpg",
+        "v": 0,
+        "r": 1
+      },
+      {
+        "path": "/images/oiso/infinity-pool.jpg",
+        "v": 0,
+        "r": 1
+      },
+      {
+        "path": "/_astro/BaseLayout.LIJfbogf.css",
+        "v": 0,
+        "r": 7
+      },
+      {
+        "path": "/images/ikea-toyosu-2026/photos/item-blahaj.jpg",
+        "v": 0,
+        "r": 2
+      },
+      {
+        "path": "/images/cheap-sim-comparison-2026/logos/uqmobile.png",
+        "v": 0,
+        "r": 1
+      },
+      {
+        "path": "/images/tokyo-discount-supermarket-2026/eyecatch.jpg",
+        "v": 0,
+        "r": 4
+      },
+      {
+        "path": "/images/cheap-sim-comparison-2026/logos/linemo.png",
+        "v": 0,
+        "r": 1
+      },
+      {
+        "path": "/sitemap-index.xml",
+        "v": 0,
+        "r": 2
+      },
+      {
+        "path": "/images/lalaport-guide-2026/map/japan.png",
+        "v": 0,
+        "r": 1
+      },
+      {
+        "path": "/images/morning-500-2026/eyecatch.jpg",
+        "v": 0,
+        "r": 2
+      },
+      {
+        "path": "/images/expr-04-cheer.png",
+        "v": 0,
+        "r": 9
+      },
+      {
+        "path": "/images/ikea-toyosu-2026/photos/zone-food.jpg",
+        "v": 0,
+        "r": 1
+      },
+      {
+        "path": "/images/eyecatch/howto.jpg",
+        "v": 0,
+        "r": 1
+      }
+    ],
+    "truncated": false,
+    "countries": [
+      {
+        "k": "US",
+        "v": 71
+      },
+      {
+        "k": "FR",
+        "v": 48
+      },
+      {
+        "k": "JP",
+        "v": 9
+      },
+      {
+        "k": "PL",
+        "v": 5
+      },
+      {
+        "k": "NZ",
+        "v": 1
+      },
+      {
+        "k": "FI",
+        "v": 1
+      },
+      {
+        "k": "NO",
+        "v": 1
+      },
+      {
+        "k": "NL",
+        "v": 1
+      },
+      {
+        "k": "ZA",
+        "v": 1
+      },
+      {
+        "k": "BR",
+        "v": 1
+      },
+      {
+        "k": "DE",
+        "v": 0
+      },
+      {
+        "k": "GB",
+        "v": 0
+      }
+    ],
+    "browsers": [
+      {
+        "k": "Unknown",
+        "v": 77
+      },
+      {
+        "k": "BingBot",
+        "v": 36
+      },
+      {
+        "k": "AppleBot",
+        "v": 7
+      },
+      {
+        "k": "Chrome",
+        "v": 7
+      },
+      {
+        "k": "GoogleBot",
+        "v": 6
+      },
+      {
+        "k": "TwitterBot",
+        "v": 4
+      },
+      {
+        "k": "ChromeMobile",
+        "v": 2
+      },
+      {
+        "k": "MobileSafari",
+        "v": 0
+      },
+      {
+        "k": "Safari",
+        "v": 0
+      }
+    ]
   }
 }
