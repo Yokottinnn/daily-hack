@@ -1,3 +1,3 @@
 [
-      {"task": "x226-dump-follow-balance.sh", "rc": 0, "out": "follow-balance.js を書き出した / dump-follow-balance.md"}
+      {"task": "x227-follow-balance-gone-and-due.sh", "rc": 0, "out": "follow-balance.js に外し返しと期日超えを足した / follow-balance-gone-and-due.md"}
   ]
