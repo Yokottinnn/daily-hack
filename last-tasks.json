@@ -1,3 +1,4 @@
 [
-      {"task": "x246-read-post-comment-mismatch.sh", "rc": 0, "out": "post-comment.js の比較を書き出した / read-post-comment-mismatch.md"}
+      {"task": "x247-post-comment-ignore-whitespace.sh", "rc": 0, "out": "post-comment.js の比較を直した / post-comment-ignore-whitespace.md"},
+      {"task": "x248-repair-jal-2x-reply-2.sh", "rc": 0, "out": "**[2/2] を出した。実物で確認済み** / repair-jal-2x-reply-2.md"}
   ]
