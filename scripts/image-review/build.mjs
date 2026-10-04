@@ -36,7 +36,7 @@ const FILES = {
   "follower-300": ["1-card.jpg", "1-card-ai.gif", "1-card.gif", "1-card-v2.gif"],
   // **未投稿**（2026-10-04）。1〜3 枚目は利用者が Slack で共有したアプリの画面（本人の画面・切り出しだけ）。
   // 4 枚目はロゴ（App Store のアイコン）と App Store 掲載素材の自作カード。出所の行が要らない
-  "jal-2x-2026-10": ["1-notice.jpg", "2-levels.jpg", "3-history.jpg", "4-service.jpg"],
+  "jal-2x-2026-10": ["1-notice.jpg", "2-monthly.jpg", "3-history.jpg", "4-service.jpg"],
 };
 
 const map = {};
