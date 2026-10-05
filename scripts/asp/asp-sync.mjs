@@ -129,7 +129,9 @@ async function tryLogin(p, cred) {
   if (!(await p.locator(PW_SEL).count()) && (await p.locator(ID_SEL).count())) {
     await typeInto(p.locator(ID_SEL).first(), cred.user);
     await snap(p, 'ID を打った直後');
-    await pressButton(p, /^(次へ|続ける|Next)$/);
+    await p.locator(ID_SEL).first().press('Enter').catch(() => {});
+    await p.waitForTimeout(3000);
+    if (!(await p.locator(PW_SEL).count())) await pressButton(p, /^(次へ|続ける|Next)$/);
     await p.waitForTimeout(4500);
     await snap(p, '「次へ」を押したあと');
   }
@@ -139,7 +141,15 @@ async function tryLogin(p, cred) {
   if ((await id.count()) && !(await id.inputValue().catch(() => 'x'))) await typeInto(id, cred.user);
   await typeInto(p.locator(PW_SEL).first(), cred.pass);
   await snap(p, 'パスワードを打った直後');
-  await pressButton(p, /^(ログイン|サインイン|次へ|Login|Sign ?in)$/i);
+  // **パスワードは Enter で送る**（2026-10-05）。楽天は 1 画面目の「次へ」が画面外に残っていて、
+  // ボタンを名前で探すとそちらを押してしまい、何も起きなかった
+  const before = p.url();
+  await p.locator(PW_SEL).first().press('Enter').catch(() => {});
+  await p.waitForTimeout(4000);
+  if (p.url() === before && (await p.locator(PW_SEL).count())) {
+    const last = p.getByRole('button', { name: /^(ログイン|サインイン|次へ|Login|Sign ?in)$/i }).last();
+    if (await last.count()) await last.click({ timeout: 5000 }).catch(() => {});
+  }
   await p.waitForLoadState('domcontentloaded', { timeout: 20000 }).catch(() => {});
   await p.waitForTimeout(4500);
   await snap(p, 'パスワードを送ったあと');
