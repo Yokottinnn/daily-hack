@@ -90,6 +90,20 @@ async function pageState(p) {
 // 画面側の値を直接書き換える方法は A8・もしも・バリューコマースでは通ったが、楽天では
 // 「次へ」を押しても ID 入力の画面から先へ進まなかった。キーを 1 文字ずつ打てば、どのサイトでも通常の入力と同じになる。
 // 楽天のように「ID → 次へ → パスワード」と 2 画面に分かれる入口にも、この 1 本で対応する。
+const DEBUG = [];
+async function snap(p, label) {
+  // **値は出さない。** 出すのは URL・入力欄の文字数・画面のエラー文だけ
+  const info = await p.evaluate(() => {
+    const vis = (el) => !!(el.offsetWidth || el.offsetHeight || el.getClientRects().length);
+    const ins = [...document.querySelectorAll('input')].filter(vis).map((i) => `${i.type}:${i.name || i.id}=${(i.value || '').length}文字`);
+    const msgs = [...document.querySelectorAll('[role=alert], .error, .errorMessage, [class*=error], [class*=Error], [aria-live]')].filter(vis)
+      .map((e) => e.innerText.replace(/\s+/g, ' ').trim()).filter(Boolean).slice(0, 5);
+    const btns = [...document.querySelectorAll('button, [role=button], input[type=submit], a')].filter(vis)
+      .map((b) => `${b.tagName.toLowerCase()}${b.getAttribute('role') ? `[role=${b.getAttribute('role')}]` : ''}「${(b.innerText || b.value || '').replace(/\s+/g, ' ').trim().slice(0, 16)}」`).filter((x) => !x.endsWith('「」')).slice(0, 12);
+    return { url: location.href.slice(0, 120), ins, msgs, btns };
+  }).catch((e) => ({ err: String(e).slice(0, 120) }));
+  DEBUG.push({ label, ...info });
+}
 const ID_SEL = 'input[type=text]:visible, input[type=email]:visible, input:not([type]):visible';
 const PW_SEL = 'input[type=password]:visible';
 
@@ -102,6 +116,9 @@ async function typeInto(loc, text) {
 async function pressButton(p, re) {
   const btn = p.getByRole('button', { name: re }).first();
   if (await btn.count()) { await btn.click({ timeout: 5000 }).catch(() => {}); return; }
+  // ボタンが div や a で作られている入口（楽天など）
+  const any = p.locator('div:visible, span:visible, a:visible').filter({ hasText: re }).last();
+  if (await any.count()) { await any.click({ timeout: 5000 }).catch(() => {}); return; }
   const sub = p.locator('input[type=submit]:visible').first();
   if (await sub.count()) { await sub.click({ timeout: 5000 }).catch(() => {}); return; }
   await p.keyboard.press('Enter');
@@ -111,8 +128,10 @@ async function tryLogin(p, cred) {
   // 1 画面目: ID だけが出ている（楽天）
   if (!(await p.locator(PW_SEL).count()) && (await p.locator(ID_SEL).count())) {
     await typeInto(p.locator(ID_SEL).first(), cred.user);
+    await snap(p, 'ID を打った直後');
     await pressButton(p, /次へ|続ける|Next/);
     await p.waitForTimeout(4500);
+    await snap(p, '「次へ」を押したあと');
   }
   if (!(await p.locator(PW_SEL).count())) return false;
   // ID とパスワードが同じ画面（A8・もしも・バリューコマース）。ID 欄が空なら入れる
@@ -152,7 +171,8 @@ if (!b) {
 } else {
   const ctx = b.contexts()[0] || (await b.newContext());
   const p = await ctx.newPage();
-  for (const pr of PROVIDERS) {
+  const ONLY = (process.env.ASP_ONLY || '').split(',').filter(Boolean);
+  for (const pr of PROVIDERS.filter((x) => !ONLY.length || ONLY.includes(x.id))) {
     const st = { name: pr.name, loggedIn: false, needsHuman: false, credentialsInKeychain: false, reason: '' };
     status.providers[pr.id] = st;
     const lines = [`# ${pr.name}（asp-sync）`, '', `生成: **${status.generated}**`, ''];
@@ -185,6 +205,7 @@ if (!b) {
       }
       st.url = s.url; st.title = s.title;
       if (!st.loggedIn && (s.pw || s.loginUrl)) st.formSeen = s.inputs; // 入れなかったとき、画面に何が出ていたか（値は無し）
+      if (DEBUG.length) { st.loginSteps = DEBUG.splice(0); }
       if (s.human) { st.needsHuman = true; st.reason = '二段階認証・画像認証が出た。利用者が 1 回 通す必要がある'; }
       else if (s.pw || s.loginCta || s.loginUrl) { st.reason = cred ? 'Keychain の ID・パスワードで入れなかった（値を確かめる）' : 'ログインしていない。Keychain に ID・パスワードが無い'; }
       else if (s.notFound) { st.reason = `入口のページが開けなかった（${s.title}）。入口の URL を直す`; }
