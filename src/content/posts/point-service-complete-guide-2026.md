@@ -163,8 +163,8 @@ references: ["https://kakakumag.com/money/?id=20897", "https://www.warau.jp/", "
 <img src="/images/point-service-complete-guide-2026/logos/jrepoint.png" alt="JRE POINT" loading="lazy">
 <div>
 <h4>JRE POINT（JR東日本/Suica）</h4>
-<p class="svc-meta">対象: Suica・駅ビル(アトレ等)・NEWDAYS・ビックカメラ<br>お得技: <b>ビューカードでモバイルSuicaチャージ約3%</b>＋乗車ポイント（モバイルSuica約2%）<br>2026動向: 2月よりアプリ内でJRE POINT→Suicaチャージが直接可能に</p>
-<p class="svc-real">ビューカードでモバイルSuicaにチャージするだけで約3%、通勤の乗車でも自動で貯まる。首都圏で電車に乗るなら“持ってないと損”の代表格。</p>
+<p class="svc-meta">対象: Suica・駅ビル(アトレ等)・NEWDAYS・ビックカメラ<br>お得技: <b>モバイルSuica定期をビューカードで買うと合計5%</b>、乗車はモバイルSuicaで約2%、チャージは1.5%<br>2026動向: 2月よりアプリ内でJRE POINT→Suicaチャージが直接可能に</p>
+<p class="svc-real">モバイルSuicaに切り替えるだけで乗車が約2%、定期をビューカードで買えば合計5%。首都圏で電車に乗るなら“持ってないと損”の代表格。</p>
 </div>
 </div>
 <div class="svc">
@@ -205,6 +205,72 @@ references: ["https://kakakumag.com/money/?id=20897", "https://www.warau.jp/", "
 <img src="/images/expr-09-arms-crossed.png" alt="ハッカー子" />
 <p>第二の軸で大事なのは<strong>「自分の生活圏に1つだけ足す」</strong>こと。丸の内ポイントなんて大手町勤務以外には1円の価値もないけど、該当する人には最強。<strong>全部入れる必要はゼロ</strong>。自分が週1以上行く場所のやつだけでいい。</p>
 </div>
+
+### 第二の軸を深掘り｜JRE POINT・三井ショッピングパーク・丸の内
+
+<p>この中でも<strong>首都圏で効きやすい3つ</strong>を、もう一段くわしく。</p>
+
+<h3 class="brand-h" id="jre-point"><img class="brand-logo" src="/images/point-service-complete-guide-2026/logos/jrepoint.png" alt="JRE POINTのロゴ" loading="lazy" /><span>JRE POINT｜モバイルSuicaとビューカードで、通勤がそのままポイントになる</span></h3>
+
+<div class="cmp-table-wrap">
+<table class="cmp-table spec-table">
+<tbody>
+<tr><th>乗るだけ</th><td>登録した<strong>モバイルSuica は50円ごとに1ポイント（約2%）</strong>。カード型Suicaは200円ごとに1ポイント（0.5%）</td></tr>
+<tr><th>ビューカードで払う</th><td>モバイルSuicaへのチャージ・オートチャージ<strong>1.5%</strong>／モバイルSuica定期券<strong>3%</strong>（乗車の2%と合わせて<strong>合計5%</strong>）／えきねっと<strong>3%</strong></td></tr>
+<tr><th>駅ビル・エキナカ</th><td>2026年9月1日から、対象のカードで<strong>最大3.5%</strong>（通常1%＋期間限定2%＋0.5%）。対象カードが6種類に広がった</td></tr>
+<tr><th>使い道</th><td><strong>1ポイント＝1円</strong>で加盟店の支払い・<strong>Suicaへのチャージ</strong>。新幹線eチケットなどの特典、Suicaグリーン券、どこかにビューーン!（往復6,000ポイント）</td></tr>
+<tr><th>ステージ</th><td>半年ごとに判定。<strong>プレミアム</strong>は獲得10,000ポイント（鉄道・買い物で各1,000）かつ利用3,000ポイント</td></tr>
+<tr><th>公式</th><td><a href="https://www.jrepoint.jp/" target="_blank" rel="noopener">JRE POINT</a>／<a href="https://www.jreast.co.jp/card/" target="_blank" rel="noopener">ビューカード</a></td></tr>
+</tbody>
+</table>
+</div>
+
+<p><strong>首都圏で電車通勤している人は、まずここ</strong>。モバイルSuicaに切り替えるだけで乗車が約2%、定期をモバイルSuica＋ビューカードで買えば<strong>合計5%</strong>。毎月の定期代が2万円なら、それだけで月1,000円分になる。2026年2月からは<strong>モバイルSuicaのアプリから直接、ポイントをSuicaにチャージ</strong>できるようになり、「貯めたポイントで電車に乗る」が一段と簡単になった。</p>
+
+<p>さらに上乗せするなら、JR東日本グループの特典が付く銀行サービス<strong>JRE BANK</strong>（楽天銀行が提供）。申し込むときに<strong>紹介コード <code>J94101753</code></strong> を入れると紹介の特典が付く（<a href="https://www.rakuten-bank.co.jp/rd/app/jre/introduction_code/s001.html" target="_blank" rel="sponsored noopener nofollow">JRE BANKの紹介ページ</a>）。</p>
+
+<p class="source-note">出典：<a href="https://www.jrepoint.jp/information/mobile-suica/" target="_blank" rel="noopener">JRE POINT 公式</a>・<a href="https://www.jreast.co.jp/card/point/save/viewplus.html" target="_blank" rel="noopener">ビューカード（VIEWプラス）</a>・<a href="https://prtimes.jp/main/html/rd/p/000001362.000017557.html" target="_blank" rel="noopener">JR東日本の発表（2026年2月25日）</a>・<a href="https://prtimes.jp/main/html/rd/p/000001458.000017557.html" target="_blank" rel="noopener">同（2026年6月29日）</a>。</p>
+
+<h3 class="brand-h" id="mitsui-sp"><img class="brand-logo" src="/images/point-service-complete-guide-2026/logos/mitsuisp.png" alt="三井ショッピングパークポイントのロゴ" loading="lazy" /><span>三井ショッピングパークポイント｜ららぽーと派はセゾンで2%、年30万円で最大10%</span></h3>
+
+<div class="cmp-table-wrap">
+<table class="cmp-table spec-table">
+<tbody>
+<tr><th>基本</th><td><strong>100円（税抜）ごとに1ポイント</strong>。アプリのQRを見せれば支払い方法は問わない</td></tr>
+<tr><th>セゾンで払う</th><td><strong>三井ショッピングパークカード《セゾン》</strong>か「アプリde支払い」で<strong>100円ごとに2ポイント</strong>。セゾンの永久不滅ポイントも別に貯まる</td></tr>
+<tr><th>ポイントアップ</th><td>施設ごとの企画。ららぽーとの<strong>「水曜おトクDAY」</strong>（対象店で100円ごとに5ポイント）など。期間限定のアップデーはカード払いが2→5ポイント</td></tr>
+<tr><th>会員ランク</th><td>4月〜翌3月の利用額で決まる。<strong>シルバー5万円／ゴールド10万円／プレミアム30万円</strong>。11月・3月の還元キャンペーンでゴールド最大5%・<strong>プレミアム最大10%</strong></td></tr>
+<tr><th>使い道</th><td><strong>1ポイント＝1円</strong>、1ポイントから使える。有効期限は付与月から2年後の月末まで</td></tr>
+<tr><th>公式</th><td><a href="https://mitsui-shopping-park.com/msppoint/" target="_blank" rel="noopener">三井ショッピングパークポイント</a></td></tr>
+</tbody>
+</table>
+</div>
+
+<p><strong>週末のららぽーとが定番の家庭なら、カードを1枚持つだけで還元が倍</strong>。セゾン払いで2%に、ランクを上げれば11月と3月のキャンペーンで最大10%。<strong>家族の利用額を合算できる「家族連携」</strong>もあるので、家族で同じ施設を使うほどランクが上がりやすい。2026年4月からは<strong>基準に届いた翌月1日にすぐランクアップ</strong>するようになった。</p>
+
+<div class="sd-campaign"><strong>🎁 カードを作るなら</strong>：<a href="https://tr.a-q-f.com/ad/p/r?medium=3&amp;ad=82&amp;creative=108&amp;sad=527d546e-dbd5-497f-ad72-aa82bc5c1e92&amp;s=146E" target="_blank" rel="sponsored noopener nofollow">三井ショッピングパークカード《セゾン》</a>。年会費は実質無料（1年間 利用がないと手数料1,650円）。</div>
+
+<p class="source-note">出典：<a href="https://mitsui-shopping-park.com/msppoint/point/" target="_blank" rel="noopener">三井ショッピングパークポイント公式（貯め方）</a>・<a href="https://mitsui-shopping-park.com/msppoint/membersprogram/2026program/" target="_blank" rel="noopener">メンバーズプログラム 2026</a>・<a href="https://mitsui-shopping-park.com/msppoint/useful/saison.html" target="_blank" rel="noopener">セゾンカード</a>（2026年10月5日に確認）。</p>
+
+<h3 class="brand-h" id="marunouchi-point"><img class="brand-logo" src="/images/point-service-complete-guide-2026/logos/marunouchi.png" alt="丸の内ポイントのロゴ" loading="lazy" /><span>丸の内ポイント｜大手町・丸の内で働くなら、キャンペーン時に最大12%</span></h3>
+
+<div class="cmp-table-wrap">
+<table class="cmp-table spec-table">
+<tbody>
+<tr><th>対象</th><td>丸の内・有楽町・大手町の<strong>27施設・600店以上</strong>（丸ビル・新丸ビル・TOKIA・ブリックスクエアなど）</td></tr>
+<tr><th>貯め方</th><td>アプリを見せて、1回の会計の<strong>100円（税込）ごと</strong>に付く。会員ランクは6段階で<strong>最大3%</strong></td></tr>
+<tr><th>働く人は上乗せ</th><td>対象ビルで働く人は<strong>「MARUNOUCHI WORKERS」</strong>に登録すると<strong>+2%</strong></td></tr>
+<tr><th>キャンペーン</th><td>年に数回、ランクに関係なく<strong>一律5%</strong>。<strong>三菱地所グループCARD</strong>で払うと10%、ワーカー登録と合わせて<strong>最大12%</strong></td></tr>
+<tr><th>使い道</th><td><strong>100ポイント＝100円</strong>で対象店の支払いに</td></tr>
+<tr><th>変更</th><td>プラスチックの<strong>「丸の内カード」は2026年7月31日で取り扱い終了</strong>。いまは<strong>丸の内ポイントアプリ</strong>か三菱地所グループCARDで使う</td></tr>
+<tr><th>公式</th><td><a href="https://www.marucard.jp/" target="_blank" rel="noopener">丸の内ポイント</a>／<a href="https://www.mec-card.jp/marunouchi/" target="_blank" rel="noopener">三菱地所グループCARD</a></td></tr>
+</tbody>
+</table>
+</div>
+
+<p><strong>このエリアで働く人だけの“地主特典”</strong>。ランチや仕事帰りの買い物がほぼ丸の内で完結するなら、<strong>アプリを入れてワーカー登録するだけで+2%</strong>。年に数回のポイントアップの時期に、まとめて買い物を寄せれば<strong>最大12%</strong>まで届く。上位ランクになるとドリンクの無料クーポンも付く。<strong>カードを紐づけずに放置していた人は、7月末でポイントが失効している</strong>ので注意。</p>
+
+<p class="source-note">出典：<a href="https://www.marucard.jp/about.html" target="_blank" rel="noopener">丸の内ポイント公式</a>・<a href="https://www.marucard.jp/pointrank.html" target="_blank" rel="noopener">会員ランク</a>・<a href="https://www.marucard.jp/machiworkers.html" target="_blank" rel="noopener">MARUNOUCHI WORKERS</a>・<a href="https://www.marucard.jp/announce.html" target="_blank" rel="noopener">お知らせ</a>（2026年10月5日に確認）。</p>
 
 ## 🅱 ポイントサイト（案件型）— “二重取り”の正体
 
@@ -577,7 +643,7 @@ references: ["https://kakakumag.com/money/?id=20897", "https://www.warau.jp/", "
 | **ドラッグストア** | 系列ごとの“貯まるポイント”を固定（ウエルシア=Vポイント、マツキヨ=dポイント等）＋アプリクーポン | 1〜7% | ウエルシアは20日のVポイント1.5倍使いが鉄板。系列を覚えて固定するだけ |
 | **コンビニ・外食・カフェ** | **スマホのタッチ決済**（三井住友→対象店最大7%）/各社の対象店還元 | 0.5〜7% | カードを直接かざすと0.5%、スマホタッチで最大7%。**ここを知らないと毎回損する** |
 | **旅行・ホテル・ふるさと納税** | 旅行予約はポイントサイト経由→楽天トラベル/一休、ふるさと納税は各ポータル | 1〜10% | 高単価ほどサイト経由が一撃。※ふるさと納税の仲介サイト“ポイント還元”は2025年10月で終了済み |
-| **電車・交通・ガソリン** | ビューカード×モバイルSuica（約3%）、ガソリンは提携カード、移動はポイ活アプリ | 1.5〜3% | 首都圏で電車に乗るならビューカードが実質一択級。歩き移動はトリマ等で二重取り |
+| **電車・交通・ガソリン** | モバイルSuica（乗車約2%）＋ビューカードで定期（合計5%）・チャージ（1.5%）、ガソリンは提携カード、移動はポイ活アプリ | 1.5〜5% | 首都圏で電車に乗るならビューカードが実質一択級。歩き移動はトリマ等で二重取り |
 | **マネー（投資・光熱費・保険）** | クレカ積立（SBI×Vポイント/楽天×楽天）、光熱費はポイント払い対応の決済に寄せる | 0.5〜1% | “毎月固定で勝手に貯まる”最強の自動化。投信積立は必ずクレカ経由にする |
 
 > 💡 **読み方のコツ**：高単価（家電・PC・旅行）は「**ポイントサイト経由**で数%上乗せ」、低単価でも毎日使う（コンビニ・スーパー）は「**決済方法と倍率デーの固定**」。この2軸を押さえれば、ジャンルが変わっても迷わない。
