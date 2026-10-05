@@ -45,10 +45,10 @@ const BUDGET_MS = Number(process.env.ASP_SYNC_BUDGET_MS || 230000);
 const T0 = Date.now();
 
 const PROVIDERS = [
-  { id: 'a8', name: 'A8.net', start: 'https://media-console.a8.net/', menu: /提携|参加|プログラム|広告リンク|セルフバック/ },
+  { id: 'a8', name: 'A8.net', start: 'https://pub.a8.net/a8v2/media/partnerProgramListAction.do', menu: /提携|参加|プログラム|広告リンク|セルフバック/ },
   { id: 'moshimo', name: 'もしもアフィリエイト', start: 'https://af.moshimo.com/af/shop/promotion/list', menu: /提携|プロモーション|広告|リンク|どこでも/ },
   { id: 'vc', name: 'バリューコマース', start: 'https://aff.valuecommerce.ne.jp/', menu: /提携|広告主|プログラム|リンク|MyLink|LinkSwitch|サイト/ },
-  { id: 'rakuten', name: '楽天アフィリエイト', start: 'https://affiliate.rakuten.co.jp/', menu: /リンク|アフィリエイトID|レポート|サイト|カード|トラベル|ブックス/ },
+  { id: 'rakuten', name: '楽天アフィリエイト', start: 'https://affiliate.rakuten.co.jp/report/summary', menu: /リンク|アフィリエイトID|レポート|サイト|カード|トラベル|ブックス/ },
 ];
 
 // Keychain から読む。**値は返すだけで、どこにも書かない**
@@ -69,11 +69,40 @@ async function pageState(p) {
     const text = document.body ? document.body.innerText : '';
     const human = /認証コード|ワンタイム|確認コード|二段階|2段階|reCAPTCHA|画像認証|私はロボットではありません/.test(text)
       || !!document.querySelector('iframe[src*="recaptcha"], iframe[src*="hcaptcha"]');
-    return { pw, human, url: location.href, title: document.title.slice(0, 80) };
+    // **「パスワード欄が無い」だけでは、ログインしている証拠にならない**（2026-10-05 に 2 件 誤判定した。
+    // A8 は 404 ページ、楽天は「楽天IDでログイン」のボタンが出ている入口で、どちらも欄が無かった）
+    const title = document.title.slice(0, 80);
+    const notFound = /見つかりません|Not Found|404|エラー/i.test(title);
+    const loginCta = [...document.querySelectorAll('a, button')].some((el) => vis(el)
+      && /^(ログイン|ログインする|ログインはこちら|楽天IDでログイン|IDでログイン|会員ログイン|Login|Sign in)$/i.test((el.innerText || '').replace(/\s+/g, '').trim()));
+    const loginUrl = /login|signin|re-authentication|authorize/i.test(location.href);
+    const logoutLink = [...document.querySelectorAll('a, button')].some((el) => /ログアウト|logout|sign ?out/i.test(el.innerText || el.href || ''));
+    return { pw, human, url: location.href, title, notFound, loginCta, loginUrl, logoutLink };
   });
 }
 
+// 楽天のように「ID → 次へ → パスワード」と 2 画面に分かれる入口に対応する
+async function fillIdStep(p, user) {
+  return p.evaluate((u) => {
+    const vis = (el) => !!(el.offsetWidth || el.offsetHeight || el.getClientRects().length);
+    if ([...document.querySelectorAll('input[type=password]')].some(vis)) return false;
+    const id = [...document.querySelectorAll('input[type=text], input[type=email], input:not([type])')].find(vis);
+    if (!id) return false;
+    const desc = Object.getOwnPropertyDescriptor(Object.getPrototypeOf(id), 'value');
+    desc.set.call(id, u);
+    id.dispatchEvent(new Event('input', { bubbles: true }));
+    id.dispatchEvent(new Event('change', { bubbles: true }));
+    const btn = [...document.querySelectorAll('button, input[type=submit], div[role=button]')].find((b) => vis(b) && /次へ|続ける|Next|ログイン/i.test(b.innerText || b.value || ''));
+    if (!btn) return false;
+    btn.click();
+    return true;
+  }, user);
+}
+
 async function tryLogin(p, cred) {
+  if (await fillIdStep(p, cred.user)) {
+    await p.waitForTimeout(4000);
+  }
   // パスワード欄と同じフォームの、最初の見えている ID 欄に入れる
   const ok = await p.evaluate(({ user, pass }) => {
     const vis = (el) => !!(el.offsetWidth || el.offsetHeight || el.getClientRects().length);
@@ -138,6 +167,19 @@ if (!b) {
       let s = await pageState(p);
       const cred = keychain(pr.id);
       st.credentialsInKeychain = !!cred;
+      if (!s.pw && s.loginCta && cred) {
+        // 入口に「ログイン」ボタンだけ出ている（楽天など）→ 押してログイン画面へ
+        await p.evaluate(() => {
+          const el = [...document.querySelectorAll('a, button')].find((e) => /^(ログイン|ログインする|ログインはこちら|楽天IDでログイン|IDでログイン|会員ログイン)$/.test((e.innerText || '').replace(/\s+/g, '').trim()));
+          if (el) el.click();
+        });
+        await p.waitForTimeout(4000);
+        s = await pageState(p);
+      }
+      if (!s.pw && s.loginUrl && !s.human && cred) {
+        await tryLogin(p, cred);
+        s = await pageState(p);
+      }
       if (s.pw && !s.human && cred) {
         await tryLogin(p, cred);
         await p.goto(pr.start, { waitUntil: 'domcontentloaded', timeout: 25000 }).catch(() => {});
@@ -147,7 +189,9 @@ if (!b) {
       }
       st.url = s.url; st.title = s.title;
       if (s.human) { st.needsHuman = true; st.reason = '二段階認証・画像認証が出た。利用者が 1 回 通す必要がある'; }
-      else if (s.pw) { st.reason = cred ? 'Keychain の ID・パスワードで入れなかった（値を確かめる）' : 'ログインしていない。Keychain に ID・パスワードが無い'; }
+      else if (s.pw || s.loginCta || s.loginUrl) { st.reason = cred ? 'Keychain の ID・パスワードで入れなかった（値を確かめる）' : 'ログインしていない。Keychain に ID・パスワードが無い'; }
+      else if (s.notFound) { st.reason = `入口のページが開けなかった（${s.title}）。入口の URL を直す`; }
+      else if (!s.logoutLink) { st.reason = 'ログアウトのリンクが見当たらない。ログインできているか確かめられない'; }
       else st.loggedIn = true;
       lines.push(`- ログイン: **${st.loggedIn ? 'できている' : 'できていない'}**${st.reason ? `（${st.reason}）` : ''}`, `- 最終 URL: ${s.url}`, `- 題名: ${s.title}`, '');
       if (st.loggedIn) {
