@@ -488,6 +488,12 @@ footer.foot .pr { margin-top: 6px; }
     -webkit-overflow-scrolling: touch;
   }
 }
+/* **外枠（`.cmp-table-wrap`）の中の表は、自分の枠と余白を持たない。**
+   上の `.post-body table` の枠線と `margin: 28px 0` がそのまま効いて、**外枠の内側に
+   もう 1 本の枠と、上下 28px の空白の帯**が出ていた（2026-10-05 に紅葉記事のプレビューで
+   「この表と外枠に何か余分な線がついてしまっている」と指摘された）。外枠が枠と余白を持つので、
+   中の表は消す。 */
+.post-body .cmp-table-wrap > table { margin: 0; border: 0; border-radius: 0; }
 .post-body table thead th {
   background: #f7f8fa;
   color: #2c3038;
