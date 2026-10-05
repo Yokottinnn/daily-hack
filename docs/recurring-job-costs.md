@@ -416,6 +416,7 @@ cooldown 対象を候補から除外した。**生成品質は劣化していな
 | `com.dailyhack.ops-poller`（**1 分**） | `git fetch` と `ops/tasks` の実行 | 1,440 | $0 | $0 | **$0** |
 | `ai.openclaw.competitor-follower-follow` | フォロー実行（DOM 操作） | — | $0 | $0 | **$0** |
 | `ai.openclaw.hashtag-follow` | フォロー実行（DOM 操作） | — | $0 | $0 | **$0** |
+| `com.dailyhack.asp-sync`（**週 1・月曜 06:12**・2026-10-05 追加） | A8・もしも・バリューコマース・楽天アフィリエイトのログインを保ち、提携中の広告を書き出す（Chrome で開くだけ） | 週 1 | $0 | $0 | **$0** |
 
 ### GitHub Actions 側（2026-09-27 に追加・**すべて $0**）
 
