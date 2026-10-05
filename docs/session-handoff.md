@@ -68,6 +68,12 @@
 
 <!-- 新しい記録がこの下に追加される（新しいものが上） -->
 
+### 2026-10-06 — ASP 同期の仕組みを入れた（PR #906/#907）。launchd com.dailyhack.asp-sync（毎週月曜06:12・$0）が載った。1回目は4社とも実質未ログイン（A8/楽天は誤判定→#907で修正）。Keychain dailyhack-asp-{a8,moshimo,vc,rakuten} は未登録。t238（1回走らせて確認）を用意済み・未マージ。
+
+次のアクション:
+
+- [ ] 利用者が Keychain に登録したら t238 を PR→マージ→reports/asp-sync を読み、提携中の広告で記事にリンクを当てる（ポイントサービス徹底分析・タスク#8）。
+
 ### 2026-10-05 — ポイントサービス徹底分析のプレビュー指摘8件を反映して公開（PR #905）。JRE/三井SP/丸の内・JAL/ANA の h3 特集、楽天/V/モッピーの実画面、案件別還元額比較、手元の提携・紹介リンク適用、isPR true。プレビュー https://e20df140.daily-hack.pages.dev/posts/point-service-complete-guide-2026/
 
 次のアクション:
