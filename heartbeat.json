@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T15:09:20Z",
+  "generated_at": "2026-10-05T15:40:32Z",
   "login_lock": {"present": false, "age_hours": 0},
   "cdp": {"healthy": true, "port": 18810},
   "x_jobs": {"loaded": 8, "expected": 8, "ai_total": 15, "halted": false, "missing": []},
@@ -36,7 +36,7 @@
   ],
   "reconnect": "既に起動している",
   "tasks": [
-      {"task": "t237-install-asp-sync.sh", "rc": 0, "out": "rakuten: ログイン済み / 楽天ID 0 件 ```  - 詳細: `reports/asp-sync/`（status.json と ASP ごとの md） rc=0 /      913 bytes"}
+      {"task": "t240-asp-sync-run3.sh", "rc": 0, "out": "moshimo: ログイン済み vc: ログイン済み rakuten: ログインできていない / Keychain の ID・パスワードで入れなかった（値を確かめる） ``` rc=0 /      423 bytes"}
   ],
   "running": null,
   "auth": {
@@ -128,11 +128,11 @@
     "dirty": 0
   },
   "followers": {
-    "now": 308,
+    "now": 309,
     "prev": 302,
     "prev_date": "2026-10-02",
-    "span_days": 2,
-    "record_age_days": 1,
+    "span_days": 3,
+    "record_age_days": 0,
     "record_stale": false,
     "target": 300,
     "deadline": "2026-09-30"
