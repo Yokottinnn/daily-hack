@@ -5,7 +5,7 @@ publishDate: 2026-06-06
 updatedDate: 2026-06-07
 category: ["comparisons", "howto", "roundups"]
 tags: ["ポイ活", "ポイントサービス", "共通ポイント", "ポイントサイト", "楽天ポイント", "PayPayポイント", "dポイント", "Vポイント", "Pontaポイント", "JRE POINT", "WAON", "nanaco", "モッピー", "ハピタス", "2026年最新版"]
-isPR: false
+isPR: true
 draft: false
 featured: true
 eyecatchUrl: "/images/point-service-complete-guide-2026/eyecatch.jpg"
@@ -22,6 +22,33 @@ references: ["https://kakakumag.com/money/?id=20897", "https://www.warau.jp/", "
 <div class="hakkako-says">
 <img src="/images/expr-05-smug.png" alt="ハッカー子" />
 <p>先に結論。<strong>①「軸」になる共通ポイントを1つ決める（楽天/PayPay/d/V/Ponta）②生活圏に合う“第二の軸”を足す（イオン民ならWAON、電車通勤ならJRE…）③ポイントサイト経由で二重取り ④移動・歩数で取りこぼし回収</strong>。全部やらなくていい。この順で“自分の地図”を作れば、もう迷わない。</p>
+</div>
+
+## 💡 ポイ活は「広告を見て稼ぐ」だけじゃない — ポイントは“使えるお金”を増やす道具
+
+「ポイ活」と聞くと、<strong>モッピーやワラウのようなポイントサイトで、広告を見たりサービスに登録したりしてポイントを稼ぐもの</strong>、というイメージが強いと思う。もちろんそれもポイ活。でも、それは全体のごく一部でしかない。
+
+アタシがこの記事でいう「ポイ活」は、もっと広い。<strong>PayPayや楽天で払うたびに付くポイント</strong>も、<strong>Vポイント（旧Tポイント）のアプリでお店で貯まるポイント</strong>も、<strong>JAL Wellness &amp; Travelで歩いて貯まるJALマイル</strong>も、全部ひとつの「ポイ活」として扱う。
+
+理由はシンプル。<strong>どれも最後は「お金の代わりに使えるもの」になる</strong>から。1ポイント＝1円で支払いに充てられるなら、それは<strong>実質的な現金</strong>。貯めた分だけ財布から出ていくお金が減る＝<strong>自由に使えるお金が増える</strong>。稼ぎ方が「広告を見る」でも「いつも通り払う」でも「歩く」でも、増えるものは同じ。
+
+<div class="cmp-table-wrap">
+<table class="cmp-table prose-table">
+<thead><tr><th>貯め方</th><th>代表的なサービス</th><th>貯まるもの</th><th>“使えるお金”としての使い道</th></tr></thead>
+<tbody>
+<tr><td><strong>広告を見る・サービスに登録する</strong><br>（世間でいう「ポイ活」）</td><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/point-service-complete-guide-2026/logos/moppy.png" alt="モッピーのロゴ" loading="lazy" /><strong><a href="https://pc.moppy.jp/entry/invite.php?invite=kMwuA18a" target="_blank" rel="sponsored noopener nofollow">モッピー</a></strong></span><span class="cell-brand"><img class="brand-logo-sm" src="/images/point-service-complete-guide-2026/logos/warau.png" alt="ワラウのロゴ" loading="lazy" /><strong><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+N7Y56+3ZZC+HV7V6" target="_blank" rel="sponsored noopener nofollow">ワラウ</a></strong></span></td><td>サイト独自のポイント</td><td>現金・PayPay・各社ポイントに交換して使う</td></tr>
+<tr class="recommended"><td><strong>いつもの支払い</strong></td><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/point-service-complete-guide-2026/logos/paypay.png" alt="PayPayのロゴ" loading="lazy" /><strong><a href="https://paypay.ne.jp/" target="_blank" rel="noopener">PayPay</a></strong></span><span class="cell-brand"><img class="brand-logo-sm" src="/images/point-service-complete-guide-2026/logos/rakuten.png" alt="楽天ポイントのロゴ" loading="lazy" /><strong><a href="https://point.rakuten.co.jp/" target="_blank" rel="noopener">楽天ポイント</a></strong></span></td><td>PayPayポイント／楽天ポイント</td><td><strong>1ポイント＝1円</strong>として、次の支払いにそのまま使える</td></tr>
+<tr><td><strong>お店でカードを出す・タッチ決済</strong></td><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/point-service-complete-guide-2026/logos/vpoint.png" alt="Vポイント（旧Tポイント）のロゴ" loading="lazy" /><strong><a href="https://web.tsite.jp/vpoint/" target="_blank" rel="noopener">Vポイント（旧Tポイント）</a></strong></span></td><td>Vポイント</td><td>アプリのVポイントPayで、Visaの加盟店の支払いに使える</td></tr>
+<tr><td><strong>歩く・健康記録をつける</strong></td><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/point-service-complete-guide-2026/logos/jalwellness.png" alt="JAL Wellness &amp; Travelのロゴ" loading="lazy" /><strong><a href="https://www.jal.co.jp/jp/ja/jmb/wellness/" target="_blank" rel="noopener">JAL Wellness &amp; Travel</a></strong></span></td><td>JALマイル</td><td>特典航空券など、<strong>本来お金を払うもの</strong>に充てられる</td></tr>
+</tbody>
+</table>
+</div>
+
+<p class="source-note">出典：各サービスの公式サイト。JAL Wellness &amp; Travel は月額550円（初回は入会日から翌月末まで無料）の有料サービス（2026年10月5日に公式で確認）。</p>
+
+<div class="hakkako-says">
+<img src="/images/expr-01-wave.png" alt="ハッカー子" />
+<p>だから大事なのは「どのポイントサイトが一番稼げるか」だけじゃなくて、<strong>普段の支払い・移動・買い物のどこで、どのポイントを拾うかを1枚の地図にすること</strong>。広告を見る時間がない人でも、支払い方を変えるだけで“使えるお金”は増やせるのよ。</p>
 </div>
 
 ## 🗺️ ポイントサービス 4象限マップ 2026
@@ -136,8 +163,8 @@ references: ["https://kakakumag.com/money/?id=20897", "https://www.warau.jp/", "
 <img src="/images/point-service-complete-guide-2026/logos/jrepoint.png" alt="JRE POINT" loading="lazy">
 <div>
 <h4>JRE POINT（JR東日本/Suica）</h4>
-<p class="svc-meta">対象: Suica・駅ビル(アトレ等)・NEWDAYS・ビックカメラ<br>お得技: <b>ビューカードでモバイルSuicaチャージ約3%</b>＋乗車ポイント（モバイルSuica約2%）<br>2026動向: 2月よりアプリ内でJRE POINT→Suicaチャージが直接可能に</p>
-<p class="svc-real">ビューカードでモバイルSuicaにチャージするだけで約3%、通勤の乗車でも自動で貯まる。首都圏で電車に乗るなら“持ってないと損”の代表格。</p>
+<p class="svc-meta">対象: Suica・駅ビル(アトレ等)・NEWDAYS・ビックカメラ<br>お得技: <b>モバイルSuica定期をビューカードで買うと合計5%</b>、乗車はモバイルSuicaで約2%、チャージは1.5%<br>2026動向: 2月よりアプリ内でJRE POINT→Suicaチャージが直接可能に</p>
+<p class="svc-real">モバイルSuicaに切り替えるだけで乗車が約2%、定期をビューカードで買えば合計5%。首都圏で電車に乗るなら“持ってないと損”の代表格。</p>
 </div>
 </div>
 <div class="svc">
@@ -179,23 +206,148 @@ references: ["https://kakakumag.com/money/?id=20897", "https://www.warau.jp/", "
 <p>第二の軸で大事なのは<strong>「自分の生活圏に1つだけ足す」</strong>こと。丸の内ポイントなんて大手町勤務以外には1円の価値もないけど、該当する人には最強。<strong>全部入れる必要はゼロ</strong>。自分が週1以上行く場所のやつだけでいい。</p>
 </div>
 
+### 第二の軸を深掘り｜JRE POINT・三井ショッピングパーク・丸の内
+
+<p>この中でも<strong>首都圏で効きやすい3つ</strong>を、もう一段くわしく。</p>
+
+<h3 class="brand-h" id="jre-point"><img class="brand-logo" src="/images/point-service-complete-guide-2026/logos/jrepoint.png" alt="JRE POINTのロゴ" loading="lazy" /><span>JRE POINT｜モバイルSuicaとビューカードで、通勤がそのままポイントになる</span></h3>
+
+<div class="cmp-table-wrap">
+<table class="cmp-table spec-table">
+<tbody>
+<tr><th>乗るだけ</th><td>登録した<strong>モバイルSuica は50円ごとに1ポイント（約2%）</strong>。カード型Suicaは200円ごとに1ポイント（0.5%）</td></tr>
+<tr><th>ビューカードで払う</th><td>モバイルSuicaへのチャージ・オートチャージ<strong>1.5%</strong>／モバイルSuica定期券<strong>3%</strong>（乗車の2%と合わせて<strong>合計5%</strong>）／えきねっと<strong>3%</strong></td></tr>
+<tr><th>駅ビル・エキナカ</th><td>2026年9月1日から、対象のカードで<strong>最大3.5%</strong>（通常1%＋期間限定2%＋0.5%）。対象カードが6種類に広がった</td></tr>
+<tr><th>使い道</th><td><strong>1ポイント＝1円</strong>で加盟店の支払い・<strong>Suicaへのチャージ</strong>。新幹線eチケットなどの特典、Suicaグリーン券、どこかにビューーン!（往復6,000ポイント）</td></tr>
+<tr><th>ステージ</th><td>半年ごとに判定。<strong>プレミアム</strong>は獲得10,000ポイント（鉄道・買い物で各1,000）かつ利用3,000ポイント</td></tr>
+<tr><th>公式</th><td><a href="https://www.jrepoint.jp/" target="_blank" rel="noopener">JRE POINT</a>／<a href="https://www.jreast.co.jp/card/" target="_blank" rel="noopener">ビューカード</a></td></tr>
+</tbody>
+</table>
+</div>
+
+<p><strong>首都圏で電車通勤している人は、まずここ</strong>。モバイルSuicaに切り替えるだけで乗車が約2%、定期をモバイルSuica＋ビューカードで買えば<strong>合計5%</strong>。毎月の定期代が2万円なら、それだけで月1,000円分になる。2026年2月からは<strong>モバイルSuicaのアプリから直接、ポイントをSuicaにチャージ</strong>できるようになり、「貯めたポイントで電車に乗る」が一段と簡単になった。</p>
+
+<p>さらに上乗せするなら、JR東日本グループの特典が付く銀行サービス<strong>JRE BANK</strong>（楽天銀行が提供）。申し込むときに<strong>紹介コード <code>J94101753</code></strong> を入れると紹介の特典が付く（<a href="https://www.rakuten-bank.co.jp/rd/app/jre/introduction_code/s001.html" target="_blank" rel="sponsored noopener nofollow">JRE BANKの紹介ページ</a>）。</p>
+
+<p class="source-note">出典：<a href="https://www.jrepoint.jp/information/mobile-suica/" target="_blank" rel="noopener">JRE POINT 公式</a>・<a href="https://www.jreast.co.jp/card/point/save/viewplus.html" target="_blank" rel="noopener">ビューカード（VIEWプラス）</a>・<a href="https://prtimes.jp/main/html/rd/p/000001362.000017557.html" target="_blank" rel="noopener">JR東日本の発表（2026年2月25日）</a>・<a href="https://prtimes.jp/main/html/rd/p/000001458.000017557.html" target="_blank" rel="noopener">同（2026年6月29日）</a>。</p>
+
+<h3 class="brand-h" id="mitsui-sp"><img class="brand-logo" src="/images/point-service-complete-guide-2026/logos/mitsuisp.png" alt="三井ショッピングパークポイントのロゴ" loading="lazy" /><span>三井ショッピングパークポイント｜ららぽーと派はセゾンで2%、年30万円で最大10%</span></h3>
+
+<div class="cmp-table-wrap">
+<table class="cmp-table spec-table">
+<tbody>
+<tr><th>基本</th><td><strong>100円（税抜）ごとに1ポイント</strong>。アプリのQRを見せれば支払い方法は問わない</td></tr>
+<tr><th>セゾンで払う</th><td><strong>三井ショッピングパークカード《セゾン》</strong>か「アプリde支払い」で<strong>100円ごとに2ポイント</strong>。セゾンの永久不滅ポイントも別に貯まる</td></tr>
+<tr><th>ポイントアップ</th><td>施設ごとの企画。ららぽーとの<strong>「水曜おトクDAY」</strong>（対象店で100円ごとに5ポイント）など。期間限定のアップデーはカード払いが2→5ポイント</td></tr>
+<tr><th>会員ランク</th><td>4月〜翌3月の利用額で決まる。<strong>シルバー5万円／ゴールド10万円／プレミアム30万円</strong>。11月・3月の還元キャンペーンでゴールド最大5%・<strong>プレミアム最大10%</strong></td></tr>
+<tr><th>使い道</th><td><strong>1ポイント＝1円</strong>、1ポイントから使える。有効期限は付与月から2年後の月末まで</td></tr>
+<tr><th>公式</th><td><a href="https://mitsui-shopping-park.com/msppoint/" target="_blank" rel="noopener">三井ショッピングパークポイント</a></td></tr>
+</tbody>
+</table>
+</div>
+
+<p><strong>週末のららぽーとが定番の家庭なら、カードを1枚持つだけで還元が倍</strong>。セゾン払いで2%に、ランクを上げれば11月と3月のキャンペーンで最大10%。<strong>家族の利用額を合算できる「家族連携」</strong>もあるので、家族で同じ施設を使うほどランクが上がりやすい。2026年4月からは<strong>基準に届いた翌月1日にすぐランクアップ</strong>するようになった。</p>
+
+<div class="sd-campaign"><strong>🎁 カードを作るなら</strong>：<a href="https://tr.a-q-f.com/ad/p/r?medium=3&amp;ad=82&amp;creative=108&amp;sad=527d546e-dbd5-497f-ad72-aa82bc5c1e92&amp;s=146E" target="_blank" rel="sponsored noopener nofollow">三井ショッピングパークカード《セゾン》</a>。年会費は実質無料（1年間 利用がないと手数料1,650円）。</div>
+
+<p class="source-note">出典：<a href="https://mitsui-shopping-park.com/msppoint/point/" target="_blank" rel="noopener">三井ショッピングパークポイント公式（貯め方）</a>・<a href="https://mitsui-shopping-park.com/msppoint/membersprogram/2026program/" target="_blank" rel="noopener">メンバーズプログラム 2026</a>・<a href="https://mitsui-shopping-park.com/msppoint/useful/saison.html" target="_blank" rel="noopener">セゾンカード</a>（2026年10月5日に確認）。</p>
+
+<h3 class="brand-h" id="marunouchi-point"><img class="brand-logo" src="/images/point-service-complete-guide-2026/logos/marunouchi.png" alt="丸の内ポイントのロゴ" loading="lazy" /><span>丸の内ポイント｜大手町・丸の内で働くなら、キャンペーン時に最大12%</span></h3>
+
+<div class="cmp-table-wrap">
+<table class="cmp-table spec-table">
+<tbody>
+<tr><th>対象</th><td>丸の内・有楽町・大手町の<strong>27施設・600店以上</strong>（丸ビル・新丸ビル・TOKIA・ブリックスクエアなど）</td></tr>
+<tr><th>貯め方</th><td>アプリを見せて、1回の会計の<strong>100円（税込）ごと</strong>に付く。会員ランクは6段階で<strong>最大3%</strong></td></tr>
+<tr><th>働く人は上乗せ</th><td>対象ビルで働く人は<strong>「MARUNOUCHI WORKERS」</strong>に登録すると<strong>+2%</strong></td></tr>
+<tr><th>キャンペーン</th><td>年に数回、ランクに関係なく<strong>一律5%</strong>。<strong>三菱地所グループCARD</strong>で払うと10%、ワーカー登録と合わせて<strong>最大12%</strong></td></tr>
+<tr><th>使い道</th><td><strong>100ポイント＝100円</strong>で対象店の支払いに</td></tr>
+<tr><th>変更</th><td>プラスチックの<strong>「丸の内カード」は2026年7月31日で取り扱い終了</strong>。いまは<strong>丸の内ポイントアプリ</strong>か三菱地所グループCARDで使う</td></tr>
+<tr><th>公式</th><td><a href="https://www.marucard.jp/" target="_blank" rel="noopener">丸の内ポイント</a>／<a href="https://www.mec-card.jp/marunouchi/" target="_blank" rel="noopener">三菱地所グループCARD</a></td></tr>
+</tbody>
+</table>
+</div>
+
+<p><strong>このエリアで働く人だけの“地主特典”</strong>。ランチや仕事帰りの買い物がほぼ丸の内で完結するなら、<strong>アプリを入れてワーカー登録するだけで+2%</strong>。年に数回のポイントアップの時期に、まとめて買い物を寄せれば<strong>最大12%</strong>まで届く。上位ランクになるとドリンクの無料クーポンも付く。<strong>カードを紐づけずに放置していた人は、7月末でポイントが失効している</strong>ので注意。</p>
+
+<p class="source-note">出典：<a href="https://www.marucard.jp/about.html" target="_blank" rel="noopener">丸の内ポイント公式</a>・<a href="https://www.marucard.jp/pointrank.html" target="_blank" rel="noopener">会員ランク</a>・<a href="https://www.marucard.jp/machiworkers.html" target="_blank" rel="noopener">MARUNOUCHI WORKERS</a>・<a href="https://www.marucard.jp/announce.html" target="_blank" rel="noopener">お知らせ</a>（2026年10月5日に確認）。</p>
+
 ## 🅱 ポイントサイト（案件型）— “二重取り”の正体
 
 クレカ発行・口座開設・ネット買い物を<strong>“経由”するだけで、共通ポイントと別にポイントが上乗せ</strong>される。**ポイ活の収益を一気に押し上げる本丸**がここ。
 
 | サイト | 運営・会員数(累計) | 強み | こんな人向け |
 |:---|:---|:---|:---|
-| <span class="cell-brand"><img class="brand-logo-sm" src="/images/point-service-complete-guide-2026/logos/moppy.png" alt="モッピーのロゴ" loading="lazy" /><strong>モッピー</strong></span> | セレス／**1,400万人超** | 案件網羅・総合力No.1、基軸 | まず1つ目に登録する全員 |
-| <span class="cell-brand"><img class="brand-logo-sm" src="/images/point-service-complete-guide-2026/logos/hapitas.png" alt="ハピタスのロゴ" loading="lazy" /><strong>ハピタス</strong></span> | オズビジョン／540万人 | **高単価の金融案件が強い**、ポイント保証 | クレカ・証券口座狙い |
+| <span class="cell-brand"><img class="brand-logo-sm" src="/images/point-service-complete-guide-2026/logos/moppy.png" alt="モッピーのロゴ" loading="lazy" /><strong><a href="https://pc.moppy.jp/entry/invite.php?invite=kMwuA18a" target="_blank" rel="sponsored noopener nofollow">モッピー</a></strong></span> | セレス／**1,400万人超** | 案件網羅・総合力No.1、基軸 | まず1つ目に登録する全員 |
+| <span class="cell-brand"><img class="brand-logo-sm" src="/images/point-service-complete-guide-2026/logos/hapitas.png" alt="ハピタスのロゴ" loading="lazy" /><strong><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+33XJA2+1LP8+BWVTE" target="_blank" rel="sponsored noopener nofollow">ハピタス</a></strong></span> | オズビジョン／540万人 | **高単価の金融案件が強い**、ポイント保証 | クレカ・証券口座狙い |
 | <span class="cell-brand"><img class="brand-logo-sm" src="/images/point-service-complete-guide-2026/logos/pointincome.png" alt="ポイントインカムのロゴ" loading="lazy" /><strong>ポイントインカム</strong></span> | ファイブゲート(※2025/9セレス傘下)／500万人 | 会員ランク＋交換ボーナス、ゲーム導線 | 腰を据えてランク育成 |
-| <span class="cell-brand"><img class="brand-logo-sm" src="/images/point-service-complete-guide-2026/logos/chobirich.png" alt="ちょびリッチのロゴ" loading="lazy" /><strong>ちょびリッチ</strong></span> | ちょびリッチ／500万人超 | **外食・商品モニターに強い**、5段階ランク | モニターでタダ飯狙い |
-| <span class="cell-brand"><img class="brand-logo-sm" src="/images/point-service-complete-guide-2026/logos/warau.png" alt="ワラウのロゴ" loading="lazy" /><strong>ワラウ</strong></span> | オープンスマイル／270万人 | 全カテゴリ対象ポイント保証、ショッピング強い | 却下が怖い初心者 |
-| <span class="cell-brand"><img class="brand-logo-sm" src="/images/point-service-complete-guide-2026/logos/ecnavi.png" alt="ECナビのロゴ" loading="lazy" /><strong>ECナビ/ポイントタウン</strong></span> | CARTA(電通)／GMO・各900万人級 | 大手資本の安心感、交換ハブ(PeX) | 安心感重視 |
+| <span class="cell-brand"><img class="brand-logo-sm" src="/images/point-service-complete-guide-2026/logos/chobirich.png" alt="ちょびリッチのロゴ" loading="lazy" /><strong><a href="https://px.a8.net/svt/ejp?a8mat=4B43JB+C507KQ+389A+6BU5U" target="_blank" rel="sponsored noopener nofollow">ちょびリッチ</a></strong></span> | ちょびリッチ／500万人超 | **外食・商品モニターに強い**、5段階ランク | モニターでタダ飯狙い |
+| <span class="cell-brand"><img class="brand-logo-sm" src="/images/point-service-complete-guide-2026/logos/warau.png" alt="ワラウのロゴ" loading="lazy" /><strong><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+N7Y56+3ZZC+HV7V6" target="_blank" rel="sponsored noopener nofollow">ワラウ</a></strong></span> | オープンスマイル／270万人 | 全カテゴリ対象ポイント保証、ショッピング強い | 却下が怖い初心者 |
+| <span class="cell-brand"><img class="brand-logo-sm" src="/images/point-service-complete-guide-2026/logos/ecnavi.png" alt="ECナビのロゴ" loading="lazy" /><strong>ECナビ/ポイントタウン</strong></span> | DIGITALIO／GMOメディア・各900万人級 | 大手資本の安心感、交換ハブ(PeX) | 安心感重視 |
 
 <div class="hakkako-says">
 <img src="/images/expr-07-gasp.png" alt="ハッカー子" />
 <p>ポイントサイトで一番大事なのは<strong>「同じ案件でもサイトで還元が全然違う」</strong>こと。実際、同じクレカ1枚でも<strong>サイト間で最大7,000円分くらい差が出る</strong>ことがザラ。だから新しくクレカや口座を作るときは、必ず横断比較サイトで“今いちばん高いサイト”を確認してから経由する。これだけで年間の収穫が変わる。</p>
 </div>
+
+### ポイントサイトの選び方｜登録する前に見る4つのポイント
+
+ポイントサイトはどこも「無料で稼げる」と書いてある。<strong>差が出るのは、次の4つ</strong>。登録してから気づくと面倒なので、先に見ておく。
+
+<div class="steps">
+  <div class="step"><div><h4>安全性｜運営会社と個人情報の扱いを見る</h4><p>登録やポイント交換では、住所・電話番号・口座を預けることになる。<strong>プライバシーマークなどの第三者認証があるか、運営会社が上場しているか、通信が暗号化（SSL）されているか</strong>を見る。たとえばモッピーはプライバシーマークを取得していて運営のセレスは東証プライム上場、ポイントタウンは東証グロース上場のGMOメディアが運営、ワラウはプライバシーマークと常時SSLを公式に明記している。</p></div></div>
+  <div class="step"><div><h4>交換先｜貯めたポイントを「自分の軸」に出せるか</h4><p>冒頭で書いたとおり、ポイントは<strong>“使えるお金”にして初めて意味がある</strong>。だから出口が肝心。<strong>楽天・PayPay・Vポイント・dポイントなど、自分が軸にしているポイントへ交換できるか</strong>を確かめる。現金で受け取りたいなら、<strong>振込に対応している銀行</strong>もサイトごとに違うので要チェック。交換先で使い道まで決めておくと強い。たとえばVポイントに交換して<strong>毎月20日のウエルシアで使えば、1ポイントが1.5円分</strong>の買い物になる。</p></div></div>
+  <div class="step"><div><h4>還元額｜自分が使う案件で比べる。「ポイント数」ではなく「円」で</h4><p>案件はネット通販・クレカ発行・口座開設・アンケート・ゲーム・歩数など幅広く、<strong>サイトごとに強いジャンルが違う</strong>。自分がやる案件で比べる。そして必ず<strong>円に直してから</strong>比べること。<strong>10ポイント＝1円のサイトで「5,000ポイント」は500円</strong>にしかならない。下の表のとおり、レートはサイトで最大10倍 違う。</p></div></div>
+  <div class="step"><div><h4>有効期限｜放っておくと消えないか</h4><p>「最終ログインから180日」「最終獲得から1年」のように、<strong>ときどき使えば期限が延びるサイト</strong>と、<strong>獲得した時期ごとに古い順に消えるサイト</strong>がある。たまにしか使わない人ほど、期限が延びる仕組みのサイトを選ぶ。</p></div></div>
+</div>
+
+<div class="cmp-table-wrap">
+<table class="cmp-table prose-table">
+<thead><tr><th>サイト</th><th>換金レート</th><th>ポイントの有効期限</th><th>運営会社</th></tr></thead>
+<tbody>
+<tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/point-service-complete-guide-2026/logos/moppy.png" alt="モッピーのロゴ" loading="lazy" /><strong><a href="https://pc.moppy.jp/entry/invite.php?invite=kMwuA18a" target="_blank" rel="sponsored noopener nofollow">モッピー</a></strong></span></td><td><strong>1P＝1円</strong></td><td>最終ログインから180日・最終獲得から180日</td><td>セレス（東証プライム上場）</td></tr>
+<tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/point-service-complete-guide-2026/logos/hapitas.png" alt="ハピタスのロゴ" loading="lazy" /><strong><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+33XJA2+1LP8+BWVTE" target="_blank" rel="sponsored noopener nofollow">ハピタス</a></strong></span></td><td><strong>1P＝1円</strong></td><td>最終ログインから180日・最終獲得から180日</td><td>オズビジョン</td></tr>
+<tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/point-service-complete-guide-2026/logos/pointincome.png" alt="ポイントインカムのロゴ" loading="lazy" /><strong><a href="https://pointi.jp/" target="_blank" rel="noopener">ポイントインカム</a></strong></span></td><td><strong>10P＝1円</strong></td><td>無期限（ただし180日 利用がないと自動退会）</td><td>セレス</td></tr>
+<tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/point-service-complete-guide-2026/logos/chobirich.png" alt="ちょびリッチのロゴ" loading="lazy" /><strong><a href="https://px.a8.net/svt/ejp?a8mat=4B43JB+C507KQ+389A+6BU5U" target="_blank" rel="sponsored noopener nofollow">ちょびリッチ</a></strong></span></td><td><strong>2P＝1円</strong></td><td>無期限（1年間 獲得・交換がないと失効）</td><td>ちょびリッチ</td></tr>
+<tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/point-service-complete-guide-2026/logos/warau.png" alt="ワラウのロゴ" loading="lazy" /><strong><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+N7Y56+3ZZC+HV7V6" target="_blank" rel="sponsored noopener nofollow">ワラウ</a></strong></span></td><td><strong>1P＝1円</strong></td><td>最終獲得から1年</td><td>オープンスマイル</td></tr>
+<tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/point-service-complete-guide-2026/logos/ecnavi.png" alt="ECナビのロゴ" loading="lazy" /><strong><a href="https://ecnavi.jp/" target="_blank" rel="noopener">ECナビ</a></strong></span></td><td><strong>10P＝1円</strong></td><td>獲得月から1年を過ぎると、古い順に3か月ごとに失効</td><td>DIGITALIO</td></tr>
+<tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/pointsite-comparison-2026/logos/pointtown.png" alt="ポイントタウンのロゴ" loading="lazy" /><strong><a href="https://www.pointtown.com/" target="_blank" rel="noopener">ポイントタウン</a></strong></span></td><td><strong>1P＝1円</strong></td><td>最終獲得から1年（アプリ会員は180日）</td><td>GMOメディア（東証グロース上場）</td></tr>
+</tbody>
+</table>
+</div>
+
+<p class="source-note">出典：換金レート・有効期限は<a href="https://my-best.com/5968" target="_blank" rel="noopener">mybest「ポイントサイトのおすすめ人気ランキング」</a>（2026年9月の検証）、運営会社・プライバシーマーク・上場区分は各サイトの公式ページ（2026年10月5日に確認）。条件は変わることがあるので、登録前に各公式で確認を。</p>
+
+### 同じ案件でも、サイトで還元が何倍も違う｜実際の金額で比べた
+
+「選び方③」の還元額を、<strong>実際の案件の金額</strong>で並べるとこうなる。数字はmybestが2026年9月に各サイトで同じ案件を調べた結果（円に換算した額）。
+
+<div class="cmp-table-wrap">
+<table class="cmp-table prose-table">
+<thead><tr><th>サイト</th><th>楽天カード作成</th><th>三井住友カード（NL）作成</th><th>SBI証券 口座開設</th><th>楽天市場で1万円</th><th>得意なところ</th></tr></thead>
+<tbody>
+<tr class="recommended"><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/point-service-complete-guide-2026/logos/hapitas.png" alt="ハピタスのロゴ" loading="lazy" /><strong><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+33XJA2+1LP8+BWVTE" target="_blank" rel="sponsored noopener nofollow">ハピタス</a></strong></span></td><td>9,700円</td><td>13,500円</td><td>11,000円</td><td>100円</td><td><strong>ネット通販・カード口座・アンケート</strong>の3つとも上位</td></tr>
+<tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/point-service-complete-guide-2026/logos/moppy.png" alt="モッピーのロゴ" loading="lazy" /><strong><a href="https://pc.moppy.jp/entry/invite.php?invite=kMwuA18a" target="_blank" rel="sponsored noopener nofollow">モッピー</a></strong></span></td><td>9,000円</td><td>9,000円</td><td>10,000円</td><td>100円</td><td>カード口座・サブスク登録が強い。<strong>楽天証券 13,000円</strong>は7サイトで最高</td></tr>
+<tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/pointsite-comparison-2026/logos/pointtown.png" alt="ポイントタウンのロゴ" loading="lazy" /><strong><a href="https://www.pointtown.com/" target="_blank" rel="noopener">ポイントタウン</a></strong></span></td><td>6,000円</td><td><strong>17,000円</strong></td><td>8,500円</td><td>100円</td><td><strong>三井住友カード（NL）は7サイトで最高</strong>。ネット通販も強い</td></tr>
+<tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/point-service-complete-guide-2026/logos/pointincome.png" alt="ポイントインカムのロゴ" loading="lazy" /><strong><a href="https://pointi.jp/" target="_blank" rel="noopener">ポイントインカム</a></strong></span></td><td>6,000円</td><td>15,000円</td><td>7,500円</td><td>10円</td><td>三井住友カード（NL）が高い。<strong>歩数案件あり</strong>（月36円）</td></tr>
+<tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/point-service-complete-guide-2026/logos/warau.png" alt="ワラウのロゴ" loading="lazy" /><strong><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+N7Y56+3ZZC+HV7V6" target="_blank" rel="sponsored noopener nofollow">ワラウ</a></strong></span></td><td>6,000円</td><td>10,000円</td><td>8,200円</td><td>100円</td><td>ネット通販が強い。<strong>ポイント保証</strong>で却下が怖い人向け</td></tr>
+<tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/point-service-complete-guide-2026/logos/chobirich.png" alt="ちょびリッチのロゴ" loading="lazy" /><strong><a href="https://px.a8.net/svt/ejp?a8mat=4B43JB+C507KQ+389A+6BU5U" target="_blank" rel="sponsored noopener nofollow">ちょびリッチ</a></strong></span></td><td>3,000円</td><td>8,000円</td><td>4,500円</td><td>50円</td><td>金額は控えめ。<strong>外食・商品モニター</strong>が得意</td></tr>
+<tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/point-service-complete-guide-2026/logos/ecnavi.png" alt="ECナビのロゴ" loading="lazy" /><strong><a href="https://ecnavi.jp/" target="_blank" rel="noopener">ECナビ</a></strong></span></td><td>1,000円</td><td>9,000円</td><td>5,000円</td><td>5円</td><td><strong>Amazonで還元がある</strong>（1万円で5円）数少ないサイト</td></tr>
+</tbody>
+</table>
+</div>
+
+<p class="source-note">出典：<a href="https://my-best.com/5968" target="_blank" rel="noopener">mybest「ポイントサイトのおすすめ人気ランキング」</a>（2026年9月の検証値・ポイントを円に換算）。案件の還元額は日々変わるので、申し込む直前に各サイトで確認を。</p>
+
+<p><strong>同じ楽天カードでも、ECナビ経由なら1,000円・ハピタス経由なら9,700円。約10倍。</strong>三井住友カード（NL）でも、ちょびリッチの8,000円に対してポイントタウンは17,000円と2倍以上 違う。<strong>カードや口座を作る前に、必ず2〜3サイトを見比べる</strong>。これだけで数千円〜1万円が変わる。</p>
+
+<div class="steps">
+  <div class="step"><div><h4>カード・証券口座を作るなら</h4><p><strong>ハピタス・モッピー・ポイントタウン</strong>の3つを登録しておき、申し込む前に3つを見比べる。案件ごとに一番高いサイトが入れ替わる。</p></div></div>
+  <div class="step"><div><h4>ネット通販で毎日貯めるなら</h4><p>楽天市場で1万円買って100円の<strong>ハピタス・モッピー・ワラウ・ポイントタウン</strong>（1%）。Amazonはほとんどのサイトで対象外。</p></div></div>
+  <div class="step"><div><h4>アンケートやモニターでコツコツなら</h4><p>アンケートの1件あたりの金額が高い<strong>ハピタス</strong>、外食・商品モニターなら<strong>ちょびリッチ</strong>。</p></div></div>
+</div>
+
+<div class="sd-campaign"><strong>🎁 登録はこちらから</strong>：<a href="https://pc.moppy.jp/entry/invite.php?invite=kMwuA18a" target="_blank" rel="sponsored noopener nofollow">モッピー（紹介リンク）</a>／<a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+33XJA2+1LP8+BWVTE" target="_blank" rel="sponsored noopener nofollow">ハピタス</a>／<a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+N7Y56+3ZZC+HV7V6" target="_blank" rel="sponsored noopener nofollow">ワラウ</a>／<a href="https://px.a8.net/svt/ejp?a8mat=4B43JB+C507KQ+389A+6BU5U" target="_blank" rel="sponsored noopener nofollow">ちょびリッチ</a>。登録は無料。</div>
 
 ### ポイントサイトの正しい使い方（3鉄則）
 
@@ -237,15 +389,15 @@ references: ["https://kakakumag.com/money/?id=20897", "https://www.warau.jp/", "
 <div>
 <h4 class="brand-h"><img class="brand-logo" src="/images/point-service-complete-guide-2026/logos/anapocket.png" alt="ANA Pocketのロゴ" loading="lazy" /><span>ANA Pocket</span></h4>
 <p class="svc-meta">移動距離でANAマイル/ポイント。無料〜Pro(550円)<br>歩く・電車・車・飛行機まで移動手段を自動判定</p>
-<p class="svc-real">移動量が多い人向け。無料でもコツコツ貯まるけど、Pro課金で交換先と還元が一気に広がる。陸マイラーの入口に。</p>
+<p class="svc-real">移動量が多い人向け。無料でもコツコツ貯まるけど、Pro（月550円）にすると同じポイントで交換できるマイルが3.5倍。陸マイラーの入口に（<a href="#ana-pocket">下で詳しく</a>）。</p>
 </div>
 </div>
 <div class="svc">
 <img src="/images/point-service-complete-guide-2026/logos/jalwellness.png" alt="JAL Wellness & Travel" loading="lazy">
 <div>
 <h4>JAL Wellness &amp; Travel</h4>
-<p class="svc-meta">歩数・運動・睡眠などの健康活動でJALマイル<br>月額550円課金前提のヘルスケア型アプリ</p>
-<p class="svc-real">よく歩く人＆JAL派ならコレ。日々の歩数や健康記録でミッションをこなすとマイルが積めて、年3,000マイル超も狙える。陸でJALマイルを貯めたい人の定番。</p>
+<p class="svc-meta">歩数の目標達成とチェックインスポットでJALマイル<br>月額550円（初回は翌月末まで無料）</p>
+<p class="svc-real">よく歩く人＆JAL派ならコレ。歩数の目標を達成した日数でマイルが積める。歩数だけだと割高なので、JALで飛ぶ人が“ついで”に貯める用（<a href="#jal-wt">下で詳しく</a>）。</p>
 </div>
 </div>
 <div class="svc">
@@ -257,6 +409,56 @@ references: ["https://kakakumag.com/money/?id=20897", "https://www.warau.jp/", "
 </div>
 </div>
 </div>
+
+<h3 class="brand-h" id="jal-wt"><img class="brand-logo" src="/images/point-service-complete-guide-2026/logos/jalwellness.png" alt="JAL Wellness &amp; Travelのロゴ" loading="lazy" /><span>JAL Wellness &amp; Travel｜歩いてJALマイル。月550円の元を取る使い方</span></h3>
+
+<div class="real-photos cols-3">
+<figure class="real-photo"><img src="/images/walk-poikatsu-2026/apps/jal-shot.jpg" alt="JAL Wellness &amp; Travel のアプリ画面" loading="lazy" /><figcaption>歩数の目標を達成した日数に応じてJALマイルが付く<cite>画像: <a href="https://apps.apple.com/jp/app/jal-wellness-travel/id1498726068" target="_blank" rel="noopener">App Store 掲載素材</a>（JAL Brand Communications Co.,Ltd.）</cite></figcaption></figure>
+</div>
+
+<div class="cmp-table-wrap">
+<table class="cmp-table spec-table">
+<tbody>
+<tr><th>料金</th><td><strong>月額550円（税込）</strong>。<strong>初回は入会日から翌月末まで無料</strong>（月初に入るほど無料期間が長い）</td></tr>
+<tr><th>貯まるもの</th><td><strong>JALマイル</strong>。歩数の目標達成と、<strong>チェックインスポット</strong>（空港など）への立ち寄りで付く</td></tr>
+<tr><th>上乗せ</th><td><strong>月20万歩</strong>を達成した人から、毎月500名に500マイルが当たる</td></tr>
+<tr><th>付帯</th><td>JAL Life Status ポイント、トレーニング動画。<strong>オーディオブックは2026年10月15日 23:59で終了</strong></td></tr>
+<tr><th>支払い</th><td>カード払いのほか、<strong>月会費をマイルで払う</strong>設定もある</td></tr>
+<tr><th>公式</th><td><a href="https://www.jal.co.jp/jp/ja/jmb/wellness/" target="_blank" rel="noopener">JAL Wellness &amp; Travel</a></td></tr>
+</tbody>
+</table>
+</div>
+
+<p><strong>有料のぶん、「何マイル貯まるか」より「1マイルをいくらで買っているか」で見る</strong>。6か月で887マイル（月平均約148マイル）を公開している利用者の数字で計算すると、年6,600円で年約1,776マイル＝<strong>1マイルあたり約3.7円</strong>。JALマイルの価値は1マイル2円前後と言われるので、<strong>歩数だけを目当てにすると割高</strong>。</p>
+
+<p>それでも入る価値があるのは、<strong>JALで飛ぶ予定がある人</strong>。JAL Life Status ポイントが貯まり、空港のチェックインスポットでもマイルが付く。<strong>「どうせ歩く・どうせ飛ぶ」人が、そのついでにマイルを積む</strong>ためのアプリ。<strong>初回の無料期間で、自分が月に何マイル貯まるかを確かめてから続けるか決める</strong>のが損しない入り方。</p>
+
+<p class="source-note">出典：<a href="https://www.jal.co.jp/jp/ja/jmb/wellness/" target="_blank" rel="noopener">JAL Wellness &amp; Travel 公式</a>・よくあるご質問（2026年10月5日に確認）。利用者の実績は<a href="/posts/walk-poikatsu-2026/#mile">歩いてポイ活の記事</a>で計算したもの。</p>
+
+<h3 class="brand-h" id="ana-pocket"><img class="brand-logo" src="/images/point-service-complete-guide-2026/logos/anapocket.png" alt="ANA Pocketのロゴ" loading="lazy" /><span>ANA Pocket｜無料で始められる。移動と広告でANAマイル</span></h3>
+
+<div class="real-photos cols-3">
+<figure class="real-photo"><img src="/images/walk-poikatsu-2026/apps/anapocket-shot.jpg" alt="ANA Pocket のアプリ画面" loading="lazy" /><figcaption>移動でポイント。ガチャでANAマイル・他社ポイント・デジタルギフトに交換<cite>画像: <a href="https://apps.apple.com/jp/app/ana-pocket-%E7%A7%BB%E5%8B%95%E3%81%A7%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88%E3%82%92%E4%BA%A4%E6%8F%9B-%E4%B9%97%E3%82%8A%E7%89%A9%E3%81%A7%E3%82%82%E3%83%9D%E3%82%A4%E6%B4%BB/id1598209192" target="_blank" rel="noopener">App Store 掲載素材</a>（ANA X Inc.）</cite></figcaption></figure>
+</div>
+
+<div class="cmp-table-wrap">
+<table class="cmp-table spec-table">
+<tbody>
+<tr><th>料金</th><td><strong>無料</strong>／ANA Pocket Pro <strong>月額550円</strong></td></tr>
+<tr><th>貯まり方</th><td>歩く・電車・車・飛行機などの<strong>移動手段と距離</strong>でポイント。目標の達成でボーナスも</td></tr>
+<tr><th>マイルへの交換</th><td>1,000ポイントのガチャで、<strong>無料版は2マイル以上・Proは7マイル以上</strong>が必ず当たる</td></tr>
+<tr><th>そのほかの交換先</th><td>ポケマネーを<strong>50種類以上の他社ポイント</strong>やデジタルギフトへ。PayPayマネーライトは「掲載予定」</td></tr>
+<tr><th>広告</th><td>動画を見ると<strong>1回50ポイント・1日最大25回</strong>。2026年6月から、広告で得たポイントは上限の対象外に</td></tr>
+<tr><th>公式</th><td><a href="https://www.anapocket.com/" target="_blank" rel="noopener">ANA Pocket</a></td></tr>
+</tbody>
+</table>
+</div>
+
+<p><strong>JALとの一番の違いは、無料で始められること</strong>。まず無料版で毎日の移動がどれだけポイントになるかを見て、<strong>マイルを本気で貯めたくなったらProに上げる</strong>（同じ1,000ポイントでもマイルが3.5倍）。</p>
+
+<p>2026年6月のリニューアル後は、<strong>動画広告を見た分が上限に数えられなくなった</strong>。移動だけでなく<strong>スキマ時間に動画を見るほど貯まる</strong>アプリになったので、通勤電車の中で広告を回すのが効く。</p>
+
+<p class="source-note">出典：<a href="https://www.anapocket.com/gachainfo" target="_blank" rel="noopener">ANA Pocket 公式（ガチャ・交換先）</a>・<a href="https://www.anapocket.com/updata/20260624" target="_blank" rel="noopener">アップデート情報（2026年6月24日）</a>・App Store の説明（2026年10月5日に確認）。</p>
 
 → 詳細: [移動ポイ活アプリ徹底比較 2026（5アプリ）](/posts/move-to-earn-poikatsu-apps-2026/) ／ [ANA Pocket vs JAL Wellness 徹底比較](/posts/ana-pocket-vs-jal-wellness-2026/)
 
@@ -282,9 +484,23 @@ references: ["https://kakakumag.com/money/?id=20897", "https://www.warau.jp/", "
 <li>ポイント運用・ポイント利息で残高を管理、楽天ペイ／楽天市場で「ポイントを使う」設定</li>
 </ul>
 
+<p><strong>🏆 アタシの実績：8月は1か月で20,343ポイント</strong></p>
+
+<div class="real-photos cols-3">
+<figure class="real-photo"><img src="/images/point-service-complete-guide-2026/screens/rakuten-trend.jpg" alt="楽天ポイントクラブの獲得ポイント数トレンド。8月が20,343ポイントで突出している" loading="lazy" /><figcaption>月別の獲得ポイント。5月9,863・6月6,465・7月3,757に対して、<strong>8月は20,343ポイント</strong><cite>画像: アタシの楽天ポイントクラブ・Vポイント・モッピーのアプリ画面（2026年10月）</cite></figcaption></figure>
+<figure class="real-photo"><img src="/images/point-service-complete-guide-2026/screens/rakuten-interest.jpg" alt="楽天ポイントクラブの実績画面。一番上にポイント利息へのポイント追加349ポイントが表示されている" loading="lazy" /><figcaption>実績の一番上が<strong>「ポイント利息」</strong>。使わないポイントをここに足していく<cite>画像: アタシの楽天ポイントクラブ・Vポイント・モッピーのアプリ画面（2026年10月）</cite></figcaption></figure>
+<figure class="real-photo"><img src="/images/point-service-complete-guide-2026/screens/rakuten-home.jpg" alt="楽天ポイントクラブのホーム画面。利息プラスポイントが23,183ポイント" loading="lazy" /><figcaption>ホーム画面。<strong>利息プラスポイント（＝ポイント利息に預けている分）が23,183ポイント</strong><cite>画像: アタシの楽天ポイントクラブ・Vポイント・モッピーのアプリ画面（2026年10月）</cite></figcaption></figure>
+</div>
+
+<p>普段の月は3,000〜1万ポイント前後でも、<strong>8月は20,343ポイント</strong>。<strong>「1か月で2万ポイント」は、楽天のサービスに支払いを寄せていけば現実に届く数字</strong>ということ。2万ポイントは、そのまま<strong>2万円分の支払い</strong>に使える。</p>
+
+<p><strong>💹 貯めたポイントは「ポイント利息」に置いておくと、利息で増える</strong>：楽天ポイント利息は、<strong>預けた通常ポイントに年0.108%（月0.009%）の利息がつく</strong>仕組み。毎月末の残高に対して、翌月5日にポイントが足される。<strong>預けている額が大きいほど、毎月つく利息も大きくなる</strong>。期間限定ポイントは預けられないので、<strong>すぐ使わない通常ポイントだけを置いておく</strong>のがコツ。引き出せばすぐ普通のポイントに戻るので、使いたいときに困ることもない。</p>
+
+<p class="source-note">出典：楽天ポイント利息の利率・進呈日は楽天の発表（2021年10月のサービス開始時。<a href="https://news.allabout.co.jp/articles/o/33137/" target="_blank" rel="noopener">All About ニュース</a>・<a href="https://www.bcnretail.com/market/detail/20211019_249029.html" target="_blank" rel="noopener">BCN</a>）。最新の条件は楽天ポイントクラブのアプリで確認を。</p>
+
 <p><strong>💰 2026年の貯め方</strong>：軸は <strong>SPU（公称最大+18倍／現実は数倍）</strong> ＋ <strong>5と0のつく日（要エントリー＋楽天カード決済）</strong>。ただし貯まる期間限定ポイントは<strong>有効期限が約1か月半と短い</strong>ので、楽天ペイや楽天モバイル料金でこまめに溶かすのがコツ。</p>
 
-<div class="sd-campaign">大型セール（お買い物マラソン／スーパーSALE）の買い回り中に日用品をまとめ買いすると一気に伸びる。<strong>🎁 楽天ポイントの主軸＝楽天カード</strong>。<a href="https://r10.to/hPxfRD" target="_blank" rel="sponsored noopener nofollow">紹介リンク（コード hPxfRD）</a>経由の新規入会＋利用で“あなた”にも入会ポイント（時期により最大5,000pt）。詳しくは上の🎁特典ボックスへ。</div>
+<div class="sd-campaign">大型セール（お買い物マラソン／スーパーSALE）の買い回り中に日用品をまとめ買いすると一気に伸びる。<strong>🎁 楽天ポイントの主軸＝楽天カード</strong>。<a href="https://r10.to/hPxfRD" target="_blank" rel="sponsored noopener nofollow">紹介リンク（コード hPxfRD）</a>経由の新規入会＋利用で“あなた”にも入会ポイント（時期により最大5,000pt）。詳しくは上の🎁特典ボックスへ。楽天市場をアプリで使うなら、<a href="https://r10.to/hYntA2" target="_blank" rel="sponsored noopener nofollow">楽天市場アプリの紹介リンク</a>から、はじめて（または久しぶりに）アプリで買い物すると<strong>最大1,000ポイント</strong>（条件・時期により変動）。</div>
 </div>
 
 <div class="svc-deep">
@@ -326,6 +542,16 @@ references: ["https://kakakumag.com/money/?id=20897", "https://www.warau.jp/", "
 <li>1ポイント=1円でカード支払いに充当、他社ポイント交換</li>
 </ul>
 
+<p><strong>🎲 Vポイントは「ポイ活感覚」で毎日コツコツ増やせる</strong></p>
+
+<div class="real-photos cols-3">
+<figure class="real-photo"><img src="/images/point-service-complete-guide-2026/screens/vpoint-history.jpg" alt="Vポイントアプリのポイント履歴。クイックアンケート、三井住友カードくじ、三井住友カードのご利用分が並ぶ" loading="lazy" /><figcaption>アタシのVポイント履歴。<strong>クイックアンケート・三井住友カードくじ・カード利用分</strong>が並ぶ<cite>画像: アタシの楽天ポイントクラブ・Vポイント・モッピーのアプリ画面（2026年10月）</cite></figcaption></figure>
+</div>
+
+<p>Vポイントの貯まり方は2本立て。ひとつは<strong>三井住友カード（Olive）での支払い</strong>。アタシは1か月のカード利用で<strong>2,198ポイント・3,695ポイント</strong>が付いた月がある。もうひとつが<strong>アプリの中の“ポイ活”</strong>。<strong>三井住友カードのくじ</strong>、<strong>クイックアンケート</strong>、<strong>Vポイントサイトのアンケート</strong>に答えるだけで、数ポイントずつ積み上がっていく。</p>
+
+<p>1回は数ポイントでも、<strong>アプリを開くたびにくじやアンケートが出てくる</strong>ので、毎日のぞく習慣にすると<strong>ゲーム感覚で楽しみながら増やせる</strong>。カードで払って大きく貯め、アプリで小さく拾う。この組み合わせがVポイントの正攻法。</p>
+
 <p><strong>💰 2026年の貯め方</strong>：最大の武器は<strong>対象コンビニ・飲食店での“スマホのタッチ決済”で最大7%還元（セブン-イレブンは最大10%）</strong>。2025年12月以降は<strong>スマホのタッチ決済・モバイルオーダーが対象</strong>で、カードを直接かざす・実カード提示は対象が縮小したので注意。</p>
 
 <div class="sd-campaign"><strong>🎁 Vポイント経済圏の入口＝Olive（三井住友）</strong>。登録時に<strong>紹介コード FF31794-9555509</strong> を入力すると被紹介者にも1,000円相当。<a href="https://www.smbc.co.jp/kojin/redirect/referral04/index.html" target="_blank" rel="sponsored noopener nofollow">紹介ページはこちら</a>。最大7%還元はOliveのクレジットモードと相性が良い。</div>
@@ -362,6 +588,33 @@ references: ["https://kakakumag.com/money/?id=20897", "https://www.warau.jp/", "
 <figure><img src="/images/point-service-complete-guide-2026/screens/moppy-site.png" alt="モッピー公式サイトのトップ画面" loading="lazy"><figcaption>モッピー公式サイト。掲載広告の高還元と「STEP」で使い方を案内（出典：モッピー公式サイト pc.moppy.jp）</figcaption></figure>
 </div>
 
+<p><strong>🏆 アタシの実績：8月は16,580ポイント。しかも、ほとんど手間がかかっていない</strong></p>
+
+<div class="real-photos cols-3">
+<figure class="real-photo"><img src="/images/point-service-complete-guide-2026/screens/moppy-history.jpg" alt="モッピーのポイント明細。2026年8月は16,580ポイントが承認されている" loading="lazy" /><figcaption>8月に承認された<strong>16,580ポイント</strong>の内訳。動画視聴・会員登録・投資・アンケート<cite>画像: アタシの楽天ポイントクラブ・Vポイント・モッピーのアプリ画面（2026年10月）</cite></figcaption></figure>
+<figure class="real-photo"><img src="/images/point-service-complete-guide-2026/screens/moppy-exchange.jpg" alt="モッピーのポイント交換画面。楽天ポイント、Apple Gift Card、Vポイント、PayPayマネーライト、Amazonギフトカード、JALマイルが並ぶ" loading="lazy" /><figcaption>交換先の画面。<strong>楽天ポイント・Vポイント・PayPay・Amazon・JALマイル</strong>、現金も<cite>画像: アタシの楽天ポイントクラブ・Vポイント・モッピーのアプリ画面（2026年10月）</cite></figcaption></figure>
+</div>
+
+<p>中身を見ると、<strong>どれも大したことはしていない</strong>。</p>
+
+<div class="cmp-table-wrap">
+<table class="cmp-table prose-table">
+<thead><tr><th>やったこと</th><th>案件</th><th>もらえたポイント</th></tr></thead>
+<tbody>
+<tr><td><strong>無料の動画を見た</strong></td><td><a href="https://gfs.tokyo/" target="_blank" rel="noopener">GFS</a>無料特別講座（動画視聴）</td><td><strong>900P</strong></td></tr>
+<tr><td><strong>会員登録した</strong></td><td><a href="https://www.toto-dream.com/" target="_blank" rel="noopener">Club toto（クラブトト）</a></td><td><strong>260P</strong></td></tr>
+<tr class="recommended"><td><strong>投資を始めた</strong></td><td><a href="https://miralita.jp/" target="_blank" rel="noopener">ミラリタ</a>（初回投資でAmazonギフト5,000円分プレゼント）</td><td><strong>15,000P</strong></td></tr>
+<tr><td><strong>アンケートに答えた</strong></td><td><a href="https://www.ipsosisay.com/ja-jp" target="_blank" rel="noopener">Ipsos iSay</a>（プロフィールアンケート回答）</td><td><strong>420P</strong></td></tr>
+</tbody>
+</table>
+</div>
+
+<p><strong>動画を見る・会員登録する・アンケートに答える・投資を始める</strong>。これだけで、モッピーは1ポイント＝1円なので<strong>1か月で16,580円分</strong>。<strong>大したストレスもなく、コスパよく稼げる</strong>のがモッピーの強さ。しかも<strong>お得なキャンペーンが毎月のように入れ替わる</strong>ので、<strong>お小遣い稼ぎにはぴったり</strong>。</p>
+
+<p><strong>🔁 交換先がとにかく多い</strong>：上の画面のとおり、<strong>楽天ポイント・Vポイント・PayPayマネーライト・Amazonギフトカード・Apple Gift Card・JALマイル</strong>がすぐ選べて、ほかにも<strong>現金（楽天銀行・ゆうちょ銀行など）・電子マネー・ギフト券・他社ポイント・スマホのデータ通信</strong>まで並ぶ。2026年2月からは<strong>ANAマイルにも交換できる</strong>ようになった（3ポイント＝1マイル）。<strong>自分が軸にしているポイントへ出せる</strong>から、冒頭で書いた「使えるお金」にそのまま変えられる。</p>
+
+<p class="source-note">出典：ANAマイルへの交換は<a href="https://media.ceres-inc.jp/news/2026/01/20260202_v2.pdf" target="_blank" rel="noopener">セレスの発表（2026年2月2日）</a>。ポイント明細・交換画面はアタシのモッピーアプリ（2026年10月）。</p>
+
 <p><strong>📱 サービスでできること</strong></p>
 <ul class="sd-do">
 <li>いつものネットショップを<strong>モッピー経由</strong>で使うとポイント還元（=ポイントの二重取り）</li>
@@ -369,7 +622,7 @@ references: ["https://kakakumag.com/money/?id=20897", "https://www.warau.jp/", "
 <li>アンケート・レシート投稿・モッピーガチャなど日常系のコツコツ稼ぎ</li>
 </ul>
 
-<p><strong>💰 稼ぎ方の要点</strong>：1ポイント＝1円。<strong>単発の高額案件で稼ぎ、手数料無料ルート（ドットマネー／PeX経由）で目減りを防ぐ</strong>のが定石。交換先は約67種類、現金は最低10,000Pだがドットマネー経由なら1,000Pから換金できる。</p>
+<p><strong>💰 稼ぎ方の要点</strong>：1ポイント＝1円。<strong>単発の高額案件で稼ぎ、手数料無料ルート（ドットマネー／PeX経由）で目減りを防ぐ</strong>のが定石。交換先は現金・電子マネー・ギフト券・マイル・他社ポイントまで幅広く、現金は最低10,000Pだがドットマネー経由なら1,000Pから換金できる。</p>
 
 <div class="sd-campaign"><strong>🎁 これから始めるなら紹介リンク経由が断然お得</strong>。<a href="https://pc.moppy.jp/entry/invite.php?invite=kMwuA18a" target="_blank" rel="sponsored noopener nofollow">モッピー紹介リンク</a>経由で新規登録＋条件達成すると、通常に加えて“あなた（被紹介者）”にもボーナスポイント（入会の翌々月末までに5,000P以上獲得で2,000Pなど）。直リンクより紹介リンク経由が得。</div>
 </div>
@@ -390,7 +643,7 @@ references: ["https://kakakumag.com/money/?id=20897", "https://www.warau.jp/", "
 | **ドラッグストア** | 系列ごとの“貯まるポイント”を固定（ウエルシア=Vポイント、マツキヨ=dポイント等）＋アプリクーポン | 1〜7% | ウエルシアは20日のVポイント1.5倍使いが鉄板。系列を覚えて固定するだけ |
 | **コンビニ・外食・カフェ** | **スマホのタッチ決済**（三井住友→対象店最大7%）/各社の対象店還元 | 0.5〜7% | カードを直接かざすと0.5%、スマホタッチで最大7%。**ここを知らないと毎回損する** |
 | **旅行・ホテル・ふるさと納税** | 旅行予約はポイントサイト経由→楽天トラベル/一休、ふるさと納税は各ポータル | 1〜10% | 高単価ほどサイト経由が一撃。※ふるさと納税の仲介サイト“ポイント還元”は2025年10月で終了済み |
-| **電車・交通・ガソリン** | ビューカード×モバイルSuica（約3%）、ガソリンは提携カード、移動はポイ活アプリ | 1.5〜3% | 首都圏で電車に乗るならビューカードが実質一択級。歩き移動はトリマ等で二重取り |
+| **電車・交通・ガソリン** | モバイルSuica（乗車約2%）＋ビューカードで定期（合計5%）・チャージ（1.5%）、ガソリンは提携カード、移動はポイ活アプリ | 1.5〜5% | 首都圏で電車に乗るならビューカードが実質一択級。歩き移動はトリマ等で二重取り |
 | **マネー（投資・光熱費・保険）** | クレカ積立（SBI×Vポイント/楽天×楽天）、光熱費はポイント払い対応の決済に寄せる | 0.5〜1% | “毎月固定で勝手に貯まる”最強の自動化。投信積立は必ずクレカ経由にする |
 
 > 💡 **読み方のコツ**：高単価（家電・PC・旅行）は「**ポイントサイト経由**で数%上乗せ」、低単価でも毎日使う（コンビニ・スーパー）は「**決済方法と倍率デーの固定**」。この2軸を押さえれば、ジャンルが変わっても迷わない。
