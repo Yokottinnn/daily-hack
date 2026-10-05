@@ -1,24 +1,26 @@
 {
-  "generated": "2026-10-05T15:05:38.837Z",
+  "generated": "2026-10-05T15:22:20.277Z",
   "providers": {
     "a8": {
       "name": "A8.net",
       "loggedIn": true,
       "needsHuman": false,
-      "credentialsInKeychain": false,
+      "credentialsInKeychain": true,
       "reason": "",
-      "url": "https://media-console.a8.net/",
-      "title": "ページが見つかりません｜A8.netメディア管理画面",
-      "menus": 0
+      "autoLoginTried": true,
+      "url": "https://media-console.a8.net/program/list/partnered?pageNo=1&pageSize=20&sortKey=APPROVED_DATE&sortOrder=DESC",
+      "title": "参加中プログラム｜A8.netメディア管理画面",
+      "menus": 40
     },
     "moshimo": {
       "name": "もしもアフィリエイト",
       "loggedIn": false,
       "needsHuman": false,
-      "credentialsInKeychain": false,
-      "reason": "ログインしていない。Keychain に ID・パスワードが無い",
-      "url": "https://af.moshimo.com/af/shop/login?ref=eJDJgOolzxCGHfGxZeAHC6gTC07jDz3-shERFTnqLtCs0NOLj50yGmZdwnWNsNWRcGfnak01Vslqb3_zrPXt8PWE5tk3NMWU7_71e1DEE9-olGh3vTho5Hd7dEhIFkrF.bosvHG0-bN26VTKAqP2A4Q.MzhkZjhmMTlhN2QyOWE3OTdhMzU2YWM1ZWMxNjQ5NTBhM2NmZTM1YjM5Y2E2ZTI3MjFkNzQ1YjE4YjI0OTcwNg",
-      "title": "ログイン ｜ もしもアフィリエイト"
+      "credentialsInKeychain": true,
+      "reason": "入口のページが開けなかった（ご指定のページが見つかりません ｜ もしもアフィリエイト）。入口の URL を直す",
+      "autoLoginTried": true,
+      "url": "https://af.moshimo.com/af/shop/promotion/list",
+      "title": "ご指定のページが見つかりません ｜ もしもアフィリエイト"
     },
     "vc": {
       "name": "バリューコマース",
@@ -31,14 +33,13 @@
     },
     "rakuten": {
       "name": "楽天アフィリエイト",
-      "loggedIn": true,
+      "loggedIn": false,
       "needsHuman": false,
-      "credentialsInKeychain": false,
-      "reason": "",
-      "url": "https://affiliate.rakuten.co.jp/",
-      "title": "アフィリエイトを始めるなら！ 楽天アフィリエイト",
-      "affiliateIds": [],
-      "menus": 5
+      "credentialsInKeychain": true,
+      "reason": "Keychain の ID・パスワードで入れなかった（値を確かめる）",
+      "autoLoginTried": true,
+      "url": "https://login.account.rakuten.com/sso/authorize?client_id=affiliate_jp_web&redirect_uri=https://affiliate.rakuten.co.jp/auth/callback&response_type=code&scope=openid%20profile&r10_required_claims=r10_name&ui_locales=ja-JP&state=22c729519f01e48310a894a32ddf184653129f5cda8ceab2e881e1ebc566b6ab#/sign_in",
+      "title": "ログイン - 楽天"
     }
   }
 }
