@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-05T15:22:20.277Z",
+  "generated": "2026-10-05T15:29:19.044Z",
   "providers": {
     "a8": {
       "name": "A8.net",
@@ -10,26 +10,30 @@
       "autoLoginTried": true,
       "url": "https://media-console.a8.net/program/list/partnered?pageNo=1&pageSize=20&sortKey=APPROVED_DATE&sortOrder=DESC",
       "title": "参加中プログラム｜A8.netメディア管理画面",
+      "partnered": 69,
       "menus": 40
     },
     "moshimo": {
       "name": "もしもアフィリエイト",
-      "loggedIn": false,
+      "loggedIn": true,
       "needsHuman": false,
       "credentialsInKeychain": true,
-      "reason": "入口のページが開けなかった（ご指定のページが見つかりません ｜ もしもアフィリエイト）。入口の URL を直す",
+      "reason": "",
       "autoLoginTried": true,
-      "url": "https://af.moshimo.com/af/shop/promotion/list",
-      "title": "ご指定のページが見つかりません ｜ もしもアフィリエイト"
+      "url": "https://af.moshimo.com/af/shop/index",
+      "title": "メディアオーナートップページ ｜ もしもアフィリエイト",
+      "menus": 9
     },
     "vc": {
       "name": "バリューコマース",
-      "loggedIn": false,
+      "loggedIn": true,
       "needsHuman": false,
-      "credentialsInKeychain": false,
-      "reason": "ログインしていない。Keychain に ID・パスワードが無い",
-      "url": "https://aff.valuecommerce.ne.jp/",
-      "title": "ログイン"
+      "credentialsInKeychain": true,
+      "reason": "",
+      "autoLoginTried": true,
+      "url": "https://aff.valuecommerce.ne.jp/home",
+      "title": "ダッシュボード | アフィリエイト管理画面",
+      "menus": 20
     },
     "rakuten": {
       "name": "楽天アフィリエイト",
@@ -39,7 +43,12 @@
       "reason": "Keychain の ID・パスワードで入れなかった（値を確かめる）",
       "autoLoginTried": true,
       "url": "https://login.account.rakuten.com/sso/authorize?client_id=affiliate_jp_web&redirect_uri=https://affiliate.rakuten.co.jp/auth/callback&response_type=code&scope=openid%20profile&r10_required_claims=r10_name&ui_locales=ja-JP&state=22c729519f01e48310a894a32ddf184653129f5cda8ceab2e881e1ebc566b6ab#/sign_in",
-      "title": "ログイン - 楽天"
+      "title": "ログイン - 楽天",
+      "formSeen": [
+        "input[type=text name=username id=user_id]",
+        "button「次へ」",
+        "button「パスワードをお忘れの方」"
+      ]
     }
   }
 }

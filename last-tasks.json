@@ -1,3 +1,3 @@
 [
-      {"task": "t238-asp-sync-run.sh", "rc": 0, "out": "moshimo: ログインできていない / 入口のページが開けなかった（ご指定のページが見つかりません ｜ もしもアフィリエイト）。入口の URL を直す vc: ログインできていない / ログインしていない。Keychain に ID・パスワードが無"}
+      {"task": "t239-asp-sync-run2.sh", "rc": 0, "out": "moshimo: ログイン済み vc: ログイン済み rakuten: ログインできていない / Keychain の ID・パスワードで入れなかった（値を確かめる） ``` rc=0 /      423 bytes"}
   ]

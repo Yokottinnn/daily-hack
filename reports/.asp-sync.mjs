@@ -46,7 +46,7 @@ const T0 = Date.now();
 
 const PROVIDERS = [
   { id: 'a8', name: 'A8.net', start: 'https://pub.a8.net/a8v2/media/partnerProgramListAction.do', menu: /提携|参加|プログラム|広告リンク|セルフバック/ },
-  { id: 'moshimo', name: 'もしもアフィリエイト', start: 'https://af.moshimo.com/af/shop/promotion/list', menu: /提携|プロモーション|広告|リンク|どこでも/ },
+  { id: 'moshimo', name: 'もしもアフィリエイト', start: 'https://af.moshimo.com/af/shop/index', menu: /提携|プロモーション|広告|リンク|どこでも/ },
   { id: 'vc', name: 'バリューコマース', start: 'https://aff.valuecommerce.ne.jp/', menu: /提携|広告主|プログラム|リンク|MyLink|LinkSwitch|サイト/ },
   { id: 'rakuten', name: '楽天アフィリエイト', start: 'https://affiliate.rakuten.co.jp/report/summary', menu: /リンク|アフィリエイトID|レポート|サイト|カード|トラベル|ブックス/ },
 ];
@@ -56,7 +56,10 @@ function keychain(id) {
   const svc = `dailyhack-asp-${id}`;
   try {
     const meta = execFileSync('/usr/bin/security', ['find-generic-password', '-s', svc], { encoding: 'utf8', stdio: ['ignore', 'pipe', 'ignore'] });
-    const acct = (meta.match(/"acct"<blob>="([^"]*)"/) || [])[1];
+    // ID に非 ASCII（全角など）が入ると `"acct"<blob>=0xE3...  "..."` と 16 進で出る（2026-10-05 に vc で踏んだ）
+    let acct = (meta.match(/"acct"<blob>="([^"]*)"/) || [])[1];
+    const hex = (meta.match(/"acct"<blob>=0x([0-9A-Fa-f]+)/) || [])[1];
+    if (!acct && hex) acct = Buffer.from(hex, 'hex').toString('utf8');
     const pass = execFileSync('/usr/bin/security', ['find-generic-password', '-s', svc, '-w'], { encoding: 'utf8', stdio: ['ignore', 'pipe', 'ignore'] }).replace(/\n$/, '');
     return acct && pass ? { user: acct, pass } : null;
   } catch { return null; }
@@ -77,7 +80,9 @@ async function pageState(p) {
       && /^(ログイン|ログインする|ログインはこちら|楽天IDでログイン|IDでログイン|会員ログイン|Login|Sign in)$/i.test((el.innerText || '').replace(/\s+/g, '').trim()));
     const loginUrl = /login|signin|re-authentication|authorize/i.test(location.href);
     const logoutLink = [...document.querySelectorAll('a, button')].some((el) => /ログアウト|logout|sign ?out/i.test(el.innerText || el.href || ''));
-    return { pw, human, url: location.href, title, notFound, loginCta, loginUrl, logoutLink };
+    const inputs = [...document.querySelectorAll('input, button, [role=button]')].filter(vis).slice(0, 15)
+      .map((el) => el.tagName === 'INPUT' ? `input[type=${el.type}${el.name ? ` name=${el.name}` : ''}${el.id ? ` id=${el.id}` : ''}]` : `button「${(el.innerText || '').replace(/\s+/g, ' ').trim().slice(0, 20)}」`);
+    return { pw, human, url: location.href, title, notFound, loginCta, loginUrl, logoutLink, inputs };
   });
 }
 
@@ -188,12 +193,14 @@ if (!b) {
         st.autoLoginTried = true;
       }
       st.url = s.url; st.title = s.title;
+      if (!st.loggedIn && (s.pw || s.loginUrl)) st.formSeen = s.inputs; // 入れなかったとき、画面に何が出ていたか（値は無し）
       if (s.human) { st.needsHuman = true; st.reason = '二段階認証・画像認証が出た。利用者が 1 回 通す必要がある'; }
       else if (s.pw || s.loginCta || s.loginUrl) { st.reason = cred ? 'Keychain の ID・パスワードで入れなかった（値を確かめる）' : 'ログインしていない。Keychain に ID・パスワードが無い'; }
       else if (s.notFound) { st.reason = `入口のページが開けなかった（${s.title}）。入口の URL を直す`; }
       else if (!s.logoutLink) { st.reason = 'ログアウトのリンクが見当たらない。ログインできているか確かめられない'; }
       else st.loggedIn = true;
       lines.push(`- ログイン: **${st.loggedIn ? 'できている' : 'できていない'}**${st.reason ? `（${st.reason}）` : ''}`, `- 最終 URL: ${s.url}`, `- 題名: ${s.title}`, '');
+      if (!st.loggedIn && s.inputs && s.inputs.length) lines.push('- 画面に出ていた入力欄・ボタン（値は出さない）: ' + s.inputs.join(' ／ '), '');
       if (st.loggedIn) {
         let d = await dump(p, pr.menu);
         lines.push('## メニュー', '', '| メニュー | URL |', '| --- | --- |', ...d.menus.map(([t, h]) => `| ${t.replace(/\|/g, '／')} | ${h} |`), '');
@@ -206,6 +213,31 @@ if (!b) {
           d.rakutenIds.push(...d2.rakutenIds);
         } else {
           lines.push('## 入口の行', '', '```text', ...d.rows, '```', '');
+        }
+        if (pr.id === 'a8' && Date.now() - T0 < BUDGET_MS) {
+          await p.goto('https://media-console.a8.net/program/list/partnered?pageNo=1&pageSize=100&sortKey=APPROVED_DATE&sortOrder=DESC', { waitUntil: 'domcontentloaded', timeout: 25000 });
+          await p.waitForTimeout(4000);
+          const progs = await p.evaluate(() => {
+            const out = new Map();
+            for (const a of document.querySelectorAll('a[href*="programId="]')) {
+              const id = (a.href.match(/programId=(s\d+)/) || [])[1];
+              if (!id || out.has(id)) continue;
+              const box = a.closest('tr, li, article, section, div[class*=card], div[class*=item]') || a.parentElement;
+              const name = (box ? box.innerText : '').split('\n').map((x) => x.trim())
+                .find((x) => x.length > 2 && !/円|%|％|プログラム詳細|広告リンク作成|報酬|^\d/.test(x)) || '';
+              out.set(id, name.slice(0, 60));
+            }
+            return [...out.entries()];
+          });
+          st.partnered = progs.length;
+          lines.push(`## 参加中プログラム（${progs.length} 件）`, '', '| programId | 名前 |', '| --- | --- |', ...progs.map(([id, n]) => `| ${id} | ${n.replace(/\|/g, '／')} |`), '');
+          await p.goto('https://media-console.a8.net/program/search/top', { waitUntil: 'domcontentloaded', timeout: 25000 });
+          await p.waitForTimeout(3000);
+          const form = await p.evaluate(() => [...document.querySelectorAll('form')].map((f) => ({
+            action: f.action, method: f.method,
+            fields: [...f.querySelectorAll('input, select')].map((e) => `${e.tagName.toLowerCase()}[${e.type || ''}] name=${e.name}`).slice(0, 20),
+          })));
+          lines.push('## プログラム検索のフォーム（次の回で検索に使う）', '', '```json', JSON.stringify(form, null, 1).slice(0, 3000), '```', '');
         }
         if (pr.id === 'rakuten') {
           st.affiliateIds = [...new Set(d.rakutenIds)];
