@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-05T15:29:19.044Z",
+  "generated": "2026-10-05T15:38:48.959Z",
   "providers": {
     "a8": {
       "name": "A8.net",
@@ -30,7 +30,6 @@
       "needsHuman": false,
       "credentialsInKeychain": true,
       "reason": "",
-      "autoLoginTried": true,
       "url": "https://aff.valuecommerce.ne.jp/home",
       "title": "ダッシュボード | アフィリエイト管理画面",
       "menus": 20

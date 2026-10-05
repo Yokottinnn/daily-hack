@@ -1,6 +1,6 @@
 # バリューコマース（asp-sync）
 
-生成: **2026-10-05T15:29:19.044Z**
+生成: **2026-10-05T15:38:48.959Z**
 
 - ログイン: **できている**
 - 最終 URL: https://aff.valuecommerce.ne.jp/home
@@ -16,8 +16,8 @@
 | MyLink一括変換 | https://aff.valuecommerce.ne.jp/tools/mylinkEcList |
 | サイト設定 | https://aff.valuecommerce.ne.jp/account/siteManage |
 | 【リリースのお知らせ】X向けアフィリエイトリンクの商品画像表示機能を追加しました | https://www.valuecommerce.ne.jp/support/maintenance/22756.html |
-| 世界最大級！ツアーアクティビティの検索サイト「Liigo」販促プログラム | https://aff.valuecommerce.ne.jp/ad/adDetail/2161122?tag=cm&spot=d |
 | 【LYPプレミアム（旧Yahoo!プレミアム）】 会員獲得プログラム | https://aff.valuecommerce.ne.jp/ad/adDetail/2082539?tag=cm&spot=d |
+| 世界最大級！ツアーアクティビティの検索サイト「Liigo」販促プログラム | https://aff.valuecommerce.ne.jp/ad/adDetail/2161122?tag=cm&spot=d |
 | 【LYPプレミアム（旧Yahoo!プレミアム）】 会員獲得プログラム | https://aff.valuecommerce.ne.jp/ad/adDetail/2082539 |
 | 電子貸本Renta! 新規会員商品購入プログラム | https://aff.valuecommerce.ne.jp/ad/adDetail/2165568 |
 | ふるさと納税「ふるなび」プログラム | https://aff.valuecommerce.ne.jp/ad/adDetail/2142798 |
@@ -34,14 +34,11 @@
 ## 入口の行
 
 ```text
-Fieldbeside合同会社（3326270）
-契約者：Fieldbeside …
-契約者名： Fieldbeside合同会社 契約者ID： 3326270 契約者ランク： 一般 ランク詳細
-振込金額
 ログアウト
 人気ワード：
-Renta!|
-アスクル|
+ヒルトン|
+オルビス|
+Pontaパス
 ダッシュボード
 レポート
 詳細検索
