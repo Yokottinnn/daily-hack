@@ -1,3 +1,3 @@
 [
-      {"task": "x252-shoot-funds-hires.sh", "rc": 0, "out": "FUNDS の画面を高解像度で撮った / shoot-funds-hires.md"}
+      {"task": "t241-asp-sync-rakuten-debug.sh", "rc": 0, "out": " ```text rakuten: ログインできていない / Keychain の ID・パスワードで入れなかった（値を確かめる） ``` rc=0 /      349 bytes"}
   ]

@@ -1,39 +1,6 @@
 {
-  "generated": "2026-10-05T15:38:48.959Z",
+  "generated": "2026-10-05T15:50:47.418Z",
   "providers": {
-    "a8": {
-      "name": "A8.net",
-      "loggedIn": true,
-      "needsHuman": false,
-      "credentialsInKeychain": true,
-      "reason": "",
-      "autoLoginTried": true,
-      "url": "https://media-console.a8.net/program/list/partnered?pageNo=1&pageSize=20&sortKey=APPROVED_DATE&sortOrder=DESC",
-      "title": "参加中プログラム｜A8.netメディア管理画面",
-      "partnered": 69,
-      "menus": 40
-    },
-    "moshimo": {
-      "name": "もしもアフィリエイト",
-      "loggedIn": true,
-      "needsHuman": false,
-      "credentialsInKeychain": true,
-      "reason": "",
-      "autoLoginTried": true,
-      "url": "https://af.moshimo.com/af/shop/index",
-      "title": "メディアオーナートップページ ｜ もしもアフィリエイト",
-      "menus": 9
-    },
-    "vc": {
-      "name": "バリューコマース",
-      "loggedIn": true,
-      "needsHuman": false,
-      "credentialsInKeychain": true,
-      "reason": "",
-      "url": "https://aff.valuecommerce.ne.jp/home",
-      "title": "ダッシュボード | アフィリエイト管理画面",
-      "menus": 20
-    },
     "rakuten": {
       "name": "楽天アフィリエイト",
       "loggedIn": false,
@@ -47,6 +14,43 @@
         "input[type=text name=username id=user_id]",
         "button「次へ」",
         "button「パスワードをお忘れの方」"
+      ],
+      "loginSteps": [
+        {
+          "label": "ID を打った直後",
+          "url": "https://login.account.rakuten.com/sso/authorize?client_id=affiliate_jp_web&redirect_uri=https://affiliate.rakuten.co.jp/",
+          "ins": [
+            "text:username=20文字"
+          ],
+          "msgs": [],
+          "btns": [
+            "div[role=button]「次へ」",
+            "a「関連規約類 (新規タブで開きます」",
+            "a「個人情報保護方針 (新規タブで開」",
+            "a「シークレットモードを使用 (新規」",
+            "div[role=button]「パスワードをお忘れの方」",
+            "a「楽天会員登録（無料）」",
+            "a「ヘルプ」",
+            "a「個人情報保護方針」",
+            "a「会員規約」"
+          ]
+        },
+        {
+          "label": "「次へ」を押したあと",
+          "url": "https://login.account.rakuten.com/sso/authorize?client_id=affiliate_jp_web&redirect_uri=https://affiliate.rakuten.co.jp/",
+          "ins": [
+            "password:password=0文字"
+          ],
+          "msgs": [],
+          "btns": [
+            "div[role=button]「次へ」",
+            "div[role=button]「パスワードをお忘れの方」",
+            "div[role=button]「別の楽天IDでログイン」",
+            "a「ヘルプ」",
+            "a「個人情報保護方針」",
+            "a「会員規約」"
+          ]
+        }
       ]
     }
   }
