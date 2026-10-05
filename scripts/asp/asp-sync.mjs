@@ -129,7 +129,7 @@ async function tryLogin(p, cred) {
   if (!(await p.locator(PW_SEL).count()) && (await p.locator(ID_SEL).count())) {
     await typeInto(p.locator(ID_SEL).first(), cred.user);
     await snap(p, 'ID を打った直後');
-    await pressButton(p, /次へ|続ける|Next/);
+    await pressButton(p, /^(次へ|続ける|Next)$/);
     await p.waitForTimeout(4500);
     await snap(p, '「次へ」を押したあと');
   }
@@ -138,9 +138,13 @@ async function tryLogin(p, cred) {
   const id = p.locator(ID_SEL).first();
   if ((await id.count()) && !(await id.inputValue().catch(() => 'x'))) await typeInto(id, cred.user);
   await typeInto(p.locator(PW_SEL).first(), cred.pass);
-  await pressButton(p, /ログイン|サインイン|次へ|Login|Sign ?in/i);
+  await snap(p, 'パスワードを打った直後');
+  await pressButton(p, /^(ログイン|サインイン|次へ|Login|Sign ?in)$/i);
   await p.waitForLoadState('domcontentloaded', { timeout: 20000 }).catch(() => {});
   await p.waitForTimeout(4500);
+  await snap(p, 'パスワードを送ったあと');
+  await p.waitForTimeout(4000);
+  await snap(p, 'さらに 4 秒後');
   return true;
 }
 
@@ -194,9 +198,10 @@ if (!b) {
       }
       if (!s.pw && s.loginUrl && !s.human && cred) {
         await tryLogin(p, cred);
+        st.autoLoginTried = true;
         s = await pageState(p);
       }
-      if (s.pw && !s.human && cred) {
+      if (s.pw && !s.human && cred && !st.autoLoginTried) {
         await tryLogin(p, cred);
         await p.goto(pr.start, { waitUntil: 'domcontentloaded', timeout: 25000 }).catch(() => {});
         await p.waitForTimeout(3500);
