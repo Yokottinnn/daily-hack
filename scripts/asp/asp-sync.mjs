@@ -86,52 +86,42 @@ async function pageState(p) {
   });
 }
 
-// 楽天のように「ID → 次へ → パスワード」と 2 画面に分かれる入口に対応する
-async function fillIdStep(p, user) {
-  return p.evaluate((u) => {
-    const vis = (el) => !!(el.offsetWidth || el.offsetHeight || el.getClientRects().length);
-    if ([...document.querySelectorAll('input[type=password]')].some(vis)) return false;
-    const id = [...document.querySelectorAll('input[type=text], input[type=email], input:not([type])')].find(vis);
-    if (!id) return false;
-    const desc = Object.getOwnPropertyDescriptor(Object.getPrototypeOf(id), 'value');
-    desc.set.call(id, u);
-    id.dispatchEvent(new Event('input', { bubbles: true }));
-    id.dispatchEvent(new Event('change', { bubbles: true }));
-    const btn = [...document.querySelectorAll('button, input[type=submit], div[role=button]')].find((b) => vis(b) && /次へ|続ける|Next|ログイン/i.test(b.innerText || b.value || ''));
-    if (!btn) return false;
-    btn.click();
-    return true;
-  }, user);
+// **ログインは「本物のキー入力」で行う**（2026-10-05）。
+// 画面側の値を直接書き換える方法は A8・もしも・バリューコマースでは通ったが、楽天では
+// 「次へ」を押しても ID 入力の画面から先へ進まなかった。キーを 1 文字ずつ打てば、どのサイトでも通常の入力と同じになる。
+// 楽天のように「ID → 次へ → パスワード」と 2 画面に分かれる入口にも、この 1 本で対応する。
+const ID_SEL = 'input[type=text]:visible, input[type=email]:visible, input:not([type]):visible';
+const PW_SEL = 'input[type=password]:visible';
+
+async function typeInto(loc, text) {
+  await loc.click({ timeout: 5000 }).catch(() => {});
+  await loc.fill('').catch(() => {});
+  await loc.pressSequentially(text, { delay: 35 });
+}
+
+async function pressButton(p, re) {
+  const btn = p.getByRole('button', { name: re }).first();
+  if (await btn.count()) { await btn.click({ timeout: 5000 }).catch(() => {}); return; }
+  const sub = p.locator('input[type=submit]:visible').first();
+  if (await sub.count()) { await sub.click({ timeout: 5000 }).catch(() => {}); return; }
+  await p.keyboard.press('Enter');
 }
 
 async function tryLogin(p, cred) {
-  if (await fillIdStep(p, cred.user)) {
-    await p.waitForTimeout(4000);
+  // 1 画面目: ID だけが出ている（楽天）
+  if (!(await p.locator(PW_SEL).count()) && (await p.locator(ID_SEL).count())) {
+    await typeInto(p.locator(ID_SEL).first(), cred.user);
+    await pressButton(p, /次へ|続ける|Next/);
+    await p.waitForTimeout(4500);
   }
-  // パスワード欄と同じフォームの、最初の見えている ID 欄に入れる
-  const ok = await p.evaluate(({ user, pass }) => {
-    const vis = (el) => !!(el.offsetWidth || el.offsetHeight || el.getClientRects().length);
-    const pw = [...document.querySelectorAll('input[type=password]')].find(vis);
-    if (!pw) return false;
-    const scope = pw.form || document;
-    const id = [...scope.querySelectorAll('input[type=text], input[type=email], input:not([type])')].find(vis);
-    if (!id) return false;
-    const set = (el, v) => {
-      const proto = Object.getPrototypeOf(el);
-      const desc = Object.getOwnPropertyDescriptor(proto, 'value');
-      desc.set.call(el, v);
-      el.dispatchEvent(new Event('input', { bubbles: true }));
-      el.dispatchEvent(new Event('change', { bubbles: true }));
-    };
-    set(id, user); set(pw, pass);
-    const btn = [...scope.querySelectorAll('button, input[type=submit]')].find((b) => vis(b) && /ログイン|login|サインイン|次へ/i.test(b.innerText || b.value || ''))
-      || scope.querySelector('button[type=submit], input[type=submit]');
-    if (btn) btn.click(); else if (pw.form) pw.form.submit(); else return false;
-    return true;
-  }, cred);
-  if (!ok) return false;
+  if (!(await p.locator(PW_SEL).count())) return false;
+  // ID とパスワードが同じ画面（A8・もしも・バリューコマース）。ID 欄が空なら入れる
+  const id = p.locator(ID_SEL).first();
+  if ((await id.count()) && !(await id.inputValue().catch(() => 'x'))) await typeInto(id, cred.user);
+  await typeInto(p.locator(PW_SEL).first(), cred.pass);
+  await pressButton(p, /ログイン|サインイン|次へ|Login|Sign ?in/i);
   await p.waitForLoadState('domcontentloaded', { timeout: 20000 }).catch(() => {});
-  await p.waitForTimeout(4000);
+  await p.waitForTimeout(4500);
   return true;
 }
 
@@ -146,7 +136,8 @@ async function dump(p, menuRe) {
     // **金額・氏名・口座・住所は出さない**
     const rows = [...document.querySelectorAll('tr, li')]
       .map((r) => r.innerText.replace(/\s+/g, ' ').trim())
-      .filter((t) => t.length > 3 && t.length < 140 && !/円|¥|報酬|口座|氏名|住所|電話|メール/.test(t))
+      // **契約者名・契約者 ID も出さない**（2026-10-05、バリューコマースの会社名と契約者 ID を出してしまった）
+      .filter((t) => t.length > 3 && t.length < 140 && !/円|¥|報酬|口座|氏名|住所|電話|メール|契約者|振込|合同会社|有限会社|（\d{6,}）|\(\d{6,}\)/.test(t))
       .slice(0, 120);
     const html = document.documentElement.outerHTML;
     const rakutenIds = [...new Set(html.match(/\b[0-9a-f]{8}\.[0-9a-f]{8}\.[0-9a-f]{8}\.[0-9a-f]{8}\b/g) || [])].slice(0, 5);
