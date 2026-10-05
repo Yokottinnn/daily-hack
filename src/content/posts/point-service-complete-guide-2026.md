@@ -24,6 +24,33 @@ references: ["https://kakakumag.com/money/?id=20897", "https://www.warau.jp/", "
 <p>先に結論。<strong>①「軸」になる共通ポイントを1つ決める（楽天/PayPay/d/V/Ponta）②生活圏に合う“第二の軸”を足す（イオン民ならWAON、電車通勤ならJRE…）③ポイントサイト経由で二重取り ④移動・歩数で取りこぼし回収</strong>。全部やらなくていい。この順で“自分の地図”を作れば、もう迷わない。</p>
 </div>
 
+## 💡 ポイ活は「広告を見て稼ぐ」だけじゃない — ポイントは“使えるお金”を増やす道具
+
+「ポイ活」と聞くと、<strong>モッピーやワラウのようなポイントサイトで、広告を見たりサービスに登録したりしてポイントを稼ぐもの</strong>、というイメージが強いと思う。もちろんそれもポイ活。でも、それは全体のごく一部でしかない。
+
+アタシがこの記事でいう「ポイ活」は、もっと広い。<strong>PayPayや楽天で払うたびに付くポイント</strong>も、<strong>Vポイント（旧Tポイント）のアプリでお店で貯まるポイント</strong>も、<strong>JAL Wellness &amp; Travelで歩いて貯まるJALマイル</strong>も、全部ひとつの「ポイ活」として扱う。
+
+理由はシンプル。<strong>どれも最後は「お金の代わりに使えるもの」になる</strong>から。1ポイント＝1円で支払いに充てられるなら、それは<strong>実質的な現金</strong>。貯めた分だけ財布から出ていくお金が減る＝<strong>自由に使えるお金が増える</strong>。稼ぎ方が「広告を見る」でも「いつも通り払う」でも「歩く」でも、増えるものは同じ。
+
+<div class="cmp-table-wrap">
+<table class="cmp-table prose-table">
+<thead><tr><th>貯め方</th><th>代表的なサービス</th><th>貯まるもの</th><th>“使えるお金”としての使い道</th></tr></thead>
+<tbody>
+<tr><td><strong>広告を見る・サービスに登録する</strong><br>（世間でいう「ポイ活」）</td><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/point-service-complete-guide-2026/logos/moppy.png" alt="モッピーのロゴ" loading="lazy" /><strong><a href="https://pc.moppy.jp/" target="_blank" rel="noopener">モッピー</a></strong></span><span class="cell-brand"><img class="brand-logo-sm" src="/images/point-service-complete-guide-2026/logos/warau.png" alt="ワラウのロゴ" loading="lazy" /><strong><a href="https://www.warau.jp/" target="_blank" rel="noopener">ワラウ</a></strong></span></td><td>サイト独自のポイント</td><td>現金・PayPay・各社ポイントに交換して使う</td></tr>
+<tr class="recommended"><td><strong>いつもの支払い</strong></td><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/point-service-complete-guide-2026/logos/paypay.png" alt="PayPayのロゴ" loading="lazy" /><strong><a href="https://paypay.ne.jp/" target="_blank" rel="noopener">PayPay</a></strong></span><span class="cell-brand"><img class="brand-logo-sm" src="/images/point-service-complete-guide-2026/logos/rakuten.png" alt="楽天ポイントのロゴ" loading="lazy" /><strong><a href="https://point.rakuten.co.jp/" target="_blank" rel="noopener">楽天ポイント</a></strong></span></td><td>PayPayポイント／楽天ポイント</td><td><strong>1ポイント＝1円</strong>として、次の支払いにそのまま使える</td></tr>
+<tr><td><strong>お店でカードを出す・タッチ決済</strong></td><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/point-service-complete-guide-2026/logos/vpoint.png" alt="Vポイント（旧Tポイント）のロゴ" loading="lazy" /><strong><a href="https://web.tsite.jp/vpoint/" target="_blank" rel="noopener">Vポイント（旧Tポイント）</a></strong></span></td><td>Vポイント</td><td>アプリのVポイントPayで、Visaの加盟店の支払いに使える</td></tr>
+<tr><td><strong>歩く・健康記録をつける</strong></td><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/point-service-complete-guide-2026/logos/jalwellness.png" alt="JAL Wellness &amp; Travelのロゴ" loading="lazy" /><strong><a href="https://www.jal.co.jp/jp/ja/jmb/wellness/" target="_blank" rel="noopener">JAL Wellness &amp; Travel</a></strong></span></td><td>JALマイル</td><td>特典航空券など、<strong>本来お金を払うもの</strong>に充てられる</td></tr>
+</tbody>
+</table>
+</div>
+
+<p class="source-note">出典：各サービスの公式サイト。JAL Wellness &amp; Travel は月額550円（初回は入会日から翌月末まで無料）の有料サービス（2026年10月5日に公式で確認）。</p>
+
+<div class="hakkako-says">
+<img src="/images/expr-01-wave.png" alt="ハッカー子" />
+<p>だから大事なのは「どのポイントサイトが一番稼げるか」だけじゃなくて、<strong>普段の支払い・移動・買い物のどこで、どのポイントを拾うかを1枚の地図にすること</strong>。広告を見る時間がない人でも、支払い方を変えるだけで“使えるお金”は増やせるのよ。</p>
+</div>
+
 ## 🗺️ ポイントサービス 4象限マップ 2026
 
 まず全体像を1枚で。**縦軸＝1回の利用で得られるリターンの大きさ、横軸＝どれだけ自分から動く必要があるか**で、主要サービスをマッピングした。
@@ -190,12 +217,40 @@ references: ["https://kakakumag.com/money/?id=20897", "https://www.warau.jp/", "
 | <span class="cell-brand"><img class="brand-logo-sm" src="/images/point-service-complete-guide-2026/logos/pointincome.png" alt="ポイントインカムのロゴ" loading="lazy" /><strong>ポイントインカム</strong></span> | ファイブゲート(※2025/9セレス傘下)／500万人 | 会員ランク＋交換ボーナス、ゲーム導線 | 腰を据えてランク育成 |
 | <span class="cell-brand"><img class="brand-logo-sm" src="/images/point-service-complete-guide-2026/logos/chobirich.png" alt="ちょびリッチのロゴ" loading="lazy" /><strong>ちょびリッチ</strong></span> | ちょびリッチ／500万人超 | **外食・商品モニターに強い**、5段階ランク | モニターでタダ飯狙い |
 | <span class="cell-brand"><img class="brand-logo-sm" src="/images/point-service-complete-guide-2026/logos/warau.png" alt="ワラウのロゴ" loading="lazy" /><strong>ワラウ</strong></span> | オープンスマイル／270万人 | 全カテゴリ対象ポイント保証、ショッピング強い | 却下が怖い初心者 |
-| <span class="cell-brand"><img class="brand-logo-sm" src="/images/point-service-complete-guide-2026/logos/ecnavi.png" alt="ECナビのロゴ" loading="lazy" /><strong>ECナビ/ポイントタウン</strong></span> | CARTA(電通)／GMO・各900万人級 | 大手資本の安心感、交換ハブ(PeX) | 安心感重視 |
+| <span class="cell-brand"><img class="brand-logo-sm" src="/images/point-service-complete-guide-2026/logos/ecnavi.png" alt="ECナビのロゴ" loading="lazy" /><strong>ECナビ/ポイントタウン</strong></span> | DIGITALIO／GMOメディア・各900万人級 | 大手資本の安心感、交換ハブ(PeX) | 安心感重視 |
 
 <div class="hakkako-says">
 <img src="/images/expr-07-gasp.png" alt="ハッカー子" />
 <p>ポイントサイトで一番大事なのは<strong>「同じ案件でもサイトで還元が全然違う」</strong>こと。実際、同じクレカ1枚でも<strong>サイト間で最大7,000円分くらい差が出る</strong>ことがザラ。だから新しくクレカや口座を作るときは、必ず横断比較サイトで“今いちばん高いサイト”を確認してから経由する。これだけで年間の収穫が変わる。</p>
 </div>
+
+### ポイントサイトの選び方｜登録する前に見る4つのポイント
+
+ポイントサイトはどこも「無料で稼げる」と書いてある。<strong>差が出るのは、次の4つ</strong>。登録してから気づくと面倒なので、先に見ておく。
+
+<div class="steps">
+  <div class="step"><div><h4>安全性｜運営会社と個人情報の扱いを見る</h4><p>登録やポイント交換では、住所・電話番号・口座を預けることになる。<strong>プライバシーマークなどの第三者認証があるか、運営会社が上場しているか、通信が暗号化（SSL）されているか</strong>を見る。たとえばモッピーはプライバシーマークを取得していて運営のセレスは東証プライム上場、ポイントタウンは東証グロース上場のGMOメディアが運営、ワラウはプライバシーマークと常時SSLを公式に明記している。</p></div></div>
+  <div class="step"><div><h4>交換先｜貯めたポイントを「自分の軸」に出せるか</h4><p>冒頭で書いたとおり、ポイントは<strong>“使えるお金”にして初めて意味がある</strong>。だから出口が肝心。<strong>楽天・PayPay・Vポイント・dポイントなど、自分が軸にしているポイントへ交換できるか</strong>を確かめる。現金で受け取りたいなら、<strong>振込に対応している銀行</strong>もサイトごとに違うので要チェック。交換先で使い道まで決めておくと強い。たとえばVポイントに交換して<strong>毎月20日のウエルシアで使えば、1ポイントが1.5円分</strong>の買い物になる。</p></div></div>
+  <div class="step"><div><h4>還元額｜自分が使う案件で比べる。「ポイント数」ではなく「円」で</h4><p>案件はネット通販・クレカ発行・口座開設・アンケート・ゲーム・歩数など幅広く、<strong>サイトごとに強いジャンルが違う</strong>。自分がやる案件で比べる。そして必ず<strong>円に直してから</strong>比べること。<strong>10ポイント＝1円のサイトで「5,000ポイント」は500円</strong>にしかならない。下の表のとおり、レートはサイトで最大10倍 違う。</p></div></div>
+  <div class="step"><div><h4>有効期限｜放っておくと消えないか</h4><p>「最終ログインから180日」「最終獲得から1年」のように、<strong>ときどき使えば期限が延びるサイト</strong>と、<strong>獲得した時期ごとに古い順に消えるサイト</strong>がある。たまにしか使わない人ほど、期限が延びる仕組みのサイトを選ぶ。</p></div></div>
+</div>
+
+<div class="cmp-table-wrap">
+<table class="cmp-table prose-table">
+<thead><tr><th>サイト</th><th>換金レート</th><th>ポイントの有効期限</th><th>運営会社</th></tr></thead>
+<tbody>
+<tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/point-service-complete-guide-2026/logos/moppy.png" alt="モッピーのロゴ" loading="lazy" /><strong><a href="https://pc.moppy.jp/" target="_blank" rel="noopener">モッピー</a></strong></span></td><td><strong>1P＝1円</strong></td><td>最終ログインから180日・最終獲得から180日</td><td>セレス（東証プライム上場）</td></tr>
+<tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/point-service-complete-guide-2026/logos/hapitas.png" alt="ハピタスのロゴ" loading="lazy" /><strong><a href="https://hapitas.jp/" target="_blank" rel="noopener">ハピタス</a></strong></span></td><td><strong>1P＝1円</strong></td><td>最終ログインから180日・最終獲得から180日</td><td>オズビジョン</td></tr>
+<tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/point-service-complete-guide-2026/logos/pointincome.png" alt="ポイントインカムのロゴ" loading="lazy" /><strong><a href="https://pointi.jp/" target="_blank" rel="noopener">ポイントインカム</a></strong></span></td><td><strong>10P＝1円</strong></td><td>無期限（ただし180日 利用がないと自動退会）</td><td>セレス</td></tr>
+<tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/point-service-complete-guide-2026/logos/chobirich.png" alt="ちょびリッチのロゴ" loading="lazy" /><strong><a href="https://www.chobirich.com/" target="_blank" rel="noopener">ちょびリッチ</a></strong></span></td><td><strong>2P＝1円</strong></td><td>無期限（1年間 獲得・交換がないと失効）</td><td>ちょびリッチ</td></tr>
+<tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/point-service-complete-guide-2026/logos/warau.png" alt="ワラウのロゴ" loading="lazy" /><strong><a href="https://www.warau.jp/" target="_blank" rel="noopener">ワラウ</a></strong></span></td><td><strong>1P＝1円</strong></td><td>最終獲得から1年</td><td>オープンスマイル</td></tr>
+<tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/point-service-complete-guide-2026/logos/ecnavi.png" alt="ECナビのロゴ" loading="lazy" /><strong><a href="https://ecnavi.jp/" target="_blank" rel="noopener">ECナビ</a></strong></span></td><td><strong>10P＝1円</strong></td><td>獲得月から1年を過ぎると、古い順に3か月ごとに失効</td><td>DIGITALIO</td></tr>
+<tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/pointsite-comparison-2026/logos/pointtown.png" alt="ポイントタウンのロゴ" loading="lazy" /><strong><a href="https://www.pointtown.com/" target="_blank" rel="noopener">ポイントタウン</a></strong></span></td><td><strong>1P＝1円</strong></td><td>最終獲得から1年（アプリ会員は180日）</td><td>GMOメディア（東証グロース上場）</td></tr>
+</tbody>
+</table>
+</div>
+
+<p class="source-note">出典：換金レート・有効期限は<a href="https://my-best.com/5968" target="_blank" rel="noopener">mybest「ポイントサイトのおすすめ人気ランキング」</a>（2026年9月の検証）、運営会社・プライバシーマーク・上場区分は各サイトの公式ページ（2026年10月5日に確認）。条件は変わることがあるので、登録前に各公式で確認を。</p>
 
 ### ポイントサイトの正しい使い方（3鉄則）
 
