@@ -1,9 +1,10 @@
 ---
-title: "歩いてポイ活アプリおすすめ 2026｜一番稼げるのは？20アプリを5カテゴリに分けて勢力図にした"
-description: "歩いてポイントが貯まるアプリ20個を、航空マイル・共通ポイント・現物交換・Web3・保険自治体の5カテゴリに整理した。1日1万歩を1年続けたら実際いくらになるかを全部そろえて計算。BitWalkのCM「10万円」の中身と、突然消えたMilesの話まで。"
+title: "歩いてポイ活アプリおすすめランキング2026｜一番稼げるのは？広告なし・PayPay対応・安全性まで20アプリ比較"
+description: "歩いて貯まるポイ活アプリ20個を「月いくら戻るか」でランキングにした。広告なし・動画なしで貯まるアプリ、PayPayに交換できるアプリ、位置情報を集めるかどうか（安全性）、なぜ歩くだけでお金がもらえるのかの仕組みまで。2026年10月時点の料金・条件に更新。"
 publishDate: 2026-09-13
+updatedDate: 2026-10-05
 category: ["roundups", "comparisons"]
-tags: ["ポイ活", "歩いてポイ活", "ANA Pocket", "JAL Wellness & Travel", "トリマ", "BitWalk", "ヘルスリー", "Web3", "マイル", "2026年版"]
+tags: ["ポイ活", "歩いてポイ活", "ランキング", "PayPay", "ANA Pocket", "JAL Wellness & Travel", "トリマ", "BitWalk", "ヘルスリー", "Web3", "マイル", "2026年版"]
 isPR: false
 draft: false
 eyecatchUrl: "/images/walk-poikatsu-2026/eyecatch.jpg"
@@ -70,6 +71,36 @@ references:
   </a>
 </div>
 <span class="event-picks-credit">カード画像は Wikimedia Commons（CC BY-SA / CC0・各撮影者）より引用。</span>
+
+<div class="section-with-mascot">
+  <div class="mascot-wrap"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
+  <h2 id="ranking">歩いてポイ活アプリおすすめランキング｜無料アプリを「月いくら戻るか」で並べた</h2>
+</div>
+
+**先に順位を出す。** ものさしは<strong>「無料で使って、月いくら戻るか」の1本だけ</strong>。下の「月いくら一覧」の数字を、無料アプリに絞って大きい順に並べた。**広告・PayPay・位置情報**の3つも横に置いたので、ここで候補を絞ってから各アプリの節へ進めばいい。
+
+<div class="cmp-table-wrap">
+<table class="cmp-table faq-table">
+<tbody>
+<tr><th><strong>1位</strong>　<span class="cell-brand"><img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/pixela.png" alt="エブリポイントのロゴ" loading="lazy" /><strong><a href="https://www.pixela.co.jp/products/everypoint/" target="_blank" rel="noopener">エブリポイント</a></strong></span></th><td><strong>1,000〜1,500円</strong>（利用者の実績）<br>広告：<strong>動画が前提</strong>／PayPay：未確認<br><strong>10/1から交換停止中</strong></td></tr>
+<tr><th><strong>2位</strong>　<span class="cell-brand"><img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/bitwalk.png" alt="BitWalkのロゴ" loading="lazy" /><strong><a href="https://lp.bitwalk.jp/" target="_blank" rel="noopener">BitWalk</a></strong></span></th><td><strong>150〜500円</strong>（利用者の実績）<br>広告：あり（見ると増える）／PayPay：×<br>ビットコインなので相場で動く</td></tr>
+<tr class="recommended"><th><strong>3位</strong>　<span class="cell-brand"><img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/torima.png" alt="トリマのロゴ" loading="lazy" /><strong><a href="https://www.trip-mile.com/" target="_blank" rel="noopener">トリマ</a></strong></span></th><td><strong>60〜370円</strong>（利用者の実績）<br>広告：あり／PayPay：<strong>○</strong><br>移動が多い人は1,000円前後</td></tr>
+<tr><th><strong>4位</strong>　<span class="cell-brand"><img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/stellawalk.png" alt="ステラウォークのロゴ" loading="lazy" /><strong><a href="https://stellarwalk.app/" target="_blank" rel="noopener">ステラウォーク</a></strong></span></th><td><strong>30〜240円</strong>（利用者の実績）<br>広告：あり／PayPay：×<br>暗号資産。利用者数で換金率が動く</td></tr>
+<tr><th><strong>5位</strong>　<span class="cell-brand"><img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/arucoin.png" alt="アルコインのロゴ" loading="lazy" /><strong><a href="https://agoop.co.jp/appslib/walkcoin_series/" target="_blank" rel="noopener">アルコイン</a></strong></span></th><td><strong>数十〜200円</strong>（利用者の実績）<br>広告：あり／PayPay：<strong>○</strong><br>PayPayポイントに直接 交換できる</td></tr>
+<tr><th><strong>6位</strong>　<span class="cell-brand"><img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/rakutenhealth.png" alt="楽天ヘルスケアのロゴ" loading="lazy" /><strong><a href="https://healthcare.rakuten.co.jp/" target="_blank" rel="noopener">楽天ヘルスケア</a></strong></span></th><td><strong>100P 前後</strong>（利用者の実績）<br>広告：あり／PayPay：×<br>くじ。ハズレ（0P）もある</td></tr>
+<tr><th><strong>6位</strong>　<span class="cell-brand"><img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/sugisapo.png" alt="スギサポwalk+のロゴ" loading="lazy" /><strong><a href="https://www.sugi-net.jp/service/digital/sugisapo-walk+" target="_blank" rel="noopener">スギサポwalk+</a></strong></span></th><td><strong>100円 前後</strong>（利用者の実績）<br>広告：<strong>なし</strong>／PayPay：×<br>スギ薬局のポイント</td></tr>
+<tr><th><strong>8位</strong>　<span class="cell-brand"><img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/dhealth.png" alt="dヘルスケアのロゴ" loading="lazy" /><strong><a href="https://health.docomo.ne.jp/" target="_blank" rel="noopener">dヘルスケア</a></strong></span></th><td><strong>数十P</strong>（無料版）（利用者の実績）<br>広告：<strong>なし</strong>／PayPay：×<br>有料版（月440円）は必ず当たる</td></tr>
+<tr class="recommended"><th><strong>9位</strong>　<span class="cell-brand"><img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/renobody.png" alt="RenoBodyのロゴ" loading="lazy" /><strong><a href="https://info.renobody.jp/prod/index.html" target="_blank" rel="noopener">RenoBody</a></strong></span></th><td><strong>約30円</strong>（年365円）（<strong>公式の条件</strong>）<br>広告：あり／PayPay：×<br><strong>条件を満たせば必ず入る</strong></td></tr>
+<tr><th><strong>10位</strong>　<span class="cell-brand"><img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/sweatcoin.png" alt="Sweatcoinのロゴ" loading="lazy" /><strong><a href="https://sweatco.in/" target="_blank" rel="noopener">Sweatcoin</a></strong></span></th><td><strong>15円 前後</strong>（利用者の実績）<br>広告：あり／PayPay：×<br>年を追うごとに貯まりにくい</td></tr>
+</tbody>
+</table>
+</div>
+
+<p class="source-note">「利用者の実績」は、使った人がブログやnoteで公開している金額。歩数・移動・広告視聴の回数で大きく変わる。広告は Google Play の「広告が表示されます」の表示と各公式の案内、PayPay は各公式の交換先で確認した（2026年10月5日）。</p>
+
+**1位は条件つき。** エブリポイントは**広告動画を見る前提**のうえ、**2026年10月1日から交換が止まっている**。**いま入れるなら、3位のトリマと9位のRenoBodyを先に入れる**のがアタシのおすすめ。トリマは**現金に近いポイントへ出せて、PayPayにも対応**。RenoBodyは**金額は小さいが、条件を満たせば必ず入る**。
+
+**有料・保険・マイルはこの表に入れていない。** 月額を払う JAL・ANA Pro・dヘルスケア有料版、保険料が動く Vitality は、**同じものさしで比べると判断を誤る**ので、<a href="#mile">マイル型</a>と<a href="#insurance">保険・自治体型</a>の節で別に計算した。
 
 <div class="section-with-mascot">
   <div class="mascot-wrap"><img src="/images/expr-07-gasp.png" alt="Daily Hackマスコット" /></div>
@@ -165,12 +196,12 @@ references:
 <thead><tr><th>サービス</th><th>公表されている条件</th><th>1万歩×1年の計算</th></tr></thead>
 <tbody>
 <tr class="recommended"><td><span class="cell-brand"><strong><img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/renobody.png" alt="" loading="lazy" /><a href="https://info.renobody.jp/prod/index.html" target="_blank" rel="noopener">RenoBody</a></strong></span></td><td>1日8,000歩で<strong>1 WAON POINT</strong></td><td><strong>365P＝365円</strong>。毎日 達成できる</td></tr>
-<tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/cokeon.png" alt="Coke ON のロゴ" loading="lazy" /><strong><a href="https://apps.apple.com/jp/app/coke-on-%E3%82%B3%E3%83%BC%E3%82%AF%E3%82%AA%E3%83%B3/id1088184021" target="_blank" rel="noopener">Coke ON</a></strong></span></td><td>週35,000歩で1スタンプ、<strong>15スタンプで1本無料</strong></td><td>1万歩なら週7万歩で条件クリア。<strong>15週で1本 → 年約3.4本</strong></td></tr>
+<tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/cokeon.png" alt="Coke ON のロゴ" loading="lazy" /><strong><a href="https://apps.apple.com/jp/app/coke-on-%E3%82%B3%E3%83%BC%E3%82%AF%E3%82%AA%E3%83%B3/id1088184021" target="_blank" rel="noopener">Coke ON</a></strong></span></td><td>週の目標歩数（<strong>自分で選ぶ</strong>）を達成で1スタンプ、<strong>15スタンプで1本無料</strong></td><td>スタンプは<strong>週に1個</strong>。毎週 達成すれば<strong>15週で1本 → 年約3.4本</strong></td></tr>
 <tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/sugisapo.png" alt="スギサポwalk+のロゴ" loading="lazy" /><strong><a href="https://www.sugi-net.jp/service/digital/sugisapo-walk+" target="_blank" rel="noopener">スギサポwalk+</a></strong></span></td><td><strong>100スター＝1スギポイント</strong>、1,000スターから交換</td><td>スターの付与条件が歩数で変動。<strong>交換の下限が1,000スター＝10ポイント</strong></td></tr>
 <tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/rakutensenior.png" alt="楽天シニアのロゴ" loading="lazy" /><strong><a href="https://senior.rakuten.co.jp/" target="_blank" rel="noopener">楽天シニア</a></strong></span></td><td>1日4,000歩で翌日<strong>スタンプ1個</strong>。3個で1P、<strong>7個で3P</strong></td><td>毎日 達成なら年365スタンプ。<strong>7個ごとに3P ＝ 年156P前後</strong></td></tr>
 <tr><td><span class="cell-brand"><strong><img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/arukuto.png" alt="" loading="lazy" /><a href="https://www.arukuto.jp/" target="_blank" rel="noopener">aruku&amp;</a></strong></span></td><td><strong>1,000歩ごとに1ポイント</strong>（aruku&amp;ポイント）</td><td>1万歩なら<strong>1日10ポイント・年3,650ポイント</strong>。使い道は名産品の応募が中心</td></tr>
-<tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/torima.png" alt="トリマのロゴ" loading="lazy" /><strong><a href="https://www.trip-mile.com/" target="_blank" rel="noopener">トリマ</a></strong></span></td><td><strong>100マイル＝1円</strong>。他社交換は手数料20%</td><td>歩数だけなら小さい。<strong>実質120マイル＝1円</strong>（プラチナ以上は手数料免除）</td></tr>
-<tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/bitwalk.png" alt="BitWalkのロゴ" loading="lazy" /><strong><a href="https://apps.apple.com/jp/app/%E6%AD%A9%E3%81%84%E3%81%A6%E3%83%9D%E3%82%A4%E6%B4%BB-%E3%83%93%E3%83%83%E3%83%88%E3%82%A6%E3%82%A9%E3%83%BC%E3%82%AF-%E6%AD%A9%E6%95%B0%E3%81%A7%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88-%E3%83%93%E3%83%83%E3%83%88%E3%82%B3%E3%82%A4%E3%83%B3/id1634543016" target="_blank" rel="noopener">BitWalk</a></strong></span></td><td>1日<strong>最大40スタンプ・20,000歩</strong>まで</td><td>広告視聴を全部こなした場合の試算は<a href="#web3">後述</a></td></tr>
+<tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/torima.png" alt="トリマのロゴ" loading="lazy" /><strong><a href="https://www.trip-mile.com/" target="_blank" rel="noopener">トリマ</a></strong></span></td><td><strong>100マイル＝1円</strong>。他社交換は手数料20%</td><td>歩数だけなら小さい。<strong>実質120マイル＝1円</strong>（プラチナ以上は交換マイルの還元で実質無料）</td></tr>
+<tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/bitwalk.png" alt="BitWalkのロゴ" loading="lazy" /><strong><a href="https://apps.apple.com/jp/app/%E6%AD%A9%E3%81%84%E3%81%A6%E3%83%9D%E3%82%A4%E6%B4%BB-%E3%83%93%E3%83%83%E3%83%88%E3%82%A6%E3%82%A9%E3%83%BC%E3%82%AF-%E6%AD%A9%E6%95%B0%E3%81%A7%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88-%E3%83%93%E3%83%83%E3%83%88%E3%82%B3%E3%82%A4%E3%83%B3/id1634543016" target="_blank" rel="noopener">BitWalk</a></strong></span></td><td><strong>250歩で1スタンプ、1日 最大50スタンプ（約12,500歩）</strong>まで</td><td>広告視聴を全部こなした場合の試算は<a href="#web3">後述</a></td></tr>
 </tbody>
 </table>
 </div>
@@ -188,24 +219,24 @@ references:
 <thead><tr><th>サービス</th><th>月いくら</th><th>その数字の出どころ</th><th>費用</th></tr></thead>
 <tbody>
 <tr class="recommended"><td><span class="cell-brand"><strong><img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/renobody.png" alt="" loading="lazy" /><a href="https://info.renobody.jp/prod/index.html" target="_blank" rel="noopener">RenoBody</a></strong></span></td><td><strong>約30円</strong>（年365円）</td><td><strong>公式の条件から計算。</strong>1日8,000歩で1 WAON POINT</td><td>無料</td></tr>
-<tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/cokeon.png" alt="Coke ON のロゴ" loading="lazy" /><strong><a href="https://apps.apple.com/jp/app/coke-on-%E3%82%B3%E3%83%BC%E3%82%AF%E3%82%AA%E3%83%B3/id1088184021" target="_blank" rel="noopener">Coke ON</a></strong></span></td><td><strong>約0.3本</strong>（年約3.4本）</td><td><strong>公式の条件から計算。</strong>週35,000歩で1スタンプ、15個で1本</td><td>無料</td></tr>
+<tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/cokeon.png" alt="Coke ON のロゴ" loading="lazy" /><strong><a href="https://apps.apple.com/jp/app/coke-on-%E3%82%B3%E3%83%BC%E3%82%AF%E3%82%AA%E3%83%B3/id1088184021" target="_blank" rel="noopener">Coke ON</a></strong></span></td><td><strong>約0.3本</strong>（年約3.4本）</td><td><strong>公式の条件から計算。</strong>週の目標達成で1スタンプ、15個で1本</td><td>無料</td></tr>
 <tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/rakutensenior.png" alt="楽天シニアのロゴ" loading="lazy" /><strong><a href="https://senior.rakuten.co.jp/" target="_blank" rel="noopener">楽天シニア</a></strong></span></td><td><strong>13P前後</strong>（年156P）</td><td><strong>公式の条件から計算。</strong>1日4,000歩でスタンプ1個、7個で3P</td><td>無料</td></tr>
 <tr><td><span class="cell-brand"><strong><img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/arukuto.png" alt="" loading="lazy" /><a href="https://www.arukuto.jp/" target="_blank" rel="noopener">aruku&amp;</a></strong></span></td><td><strong>約300ポイント</strong>（年3,650）</td><td><strong>公式の条件から計算。</strong>1,000歩ごとに1ポイント。使い道は名産品の応募が中心</td><td>無料</td></tr>
 <tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/torima.png" alt="トリマのロゴ" loading="lazy" /><strong><a href="https://www.trip-mile.com/" target="_blank" rel="noopener">トリマ</a></strong></span></td><td><strong>60〜370円</strong>（移動が多いと1,000円前後）</td><td>利用者の公開実績。広告を見るかで3倍 違う。<strong>交換手数料20%込みで実質120マイル＝1円</strong></td><td>無料</td></tr>
-<tr><td><strong><a href="https://every-point.jp/" target="_blank" rel="noopener">エブリポイント</a></strong></td><td><strong>1,000〜1,500円</strong></td><td>利用者の公開実績。<strong>この記事で調べた無料アプリでは最大</strong></td><td>無料</td></tr>
-<tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/arucoin.png" alt="アルコインのロゴ" loading="lazy" /><strong><a href="https://arucoin.jp/" target="_blank" rel="noopener">アルコイン</a></strong></span></td><td><strong>数十〜200円</strong></td><td>利用者の公開実績（1か月で527コインの報告）</td><td>無料</td></tr>
-<tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/poisura.png" alt="ポイすらのロゴ" loading="lazy" /><strong><a href="https://poisura.com/" target="_blank" rel="noopener">ポイすら</a></strong></span></td><td><strong>数十〜数百円</strong></td><td>金のチケットの交換先次第。公式は額を公表していない</td><td>無料</td></tr>
+<tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/pixela.png" alt="エブリポイントのロゴ" loading="lazy" /><strong><a href="https://www.pixela.co.jp/products/everypoint/" target="_blank" rel="noopener">エブリポイント</a></strong></span></td><td><strong>1,000〜1,500円</strong></td><td>利用者の公開実績。<strong>この記事で調べた無料アプリでは最大</strong>。ただし<strong>2026年10月1日から交換が止まっている</strong>（緊急メンテナンス）</td><td>無料</td></tr>
+<tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/arucoin.png" alt="アルコインのロゴ" loading="lazy" /><strong><a href="https://agoop.co.jp/appslib/walkcoin_series/" target="_blank" rel="noopener">アルコイン</a></strong></span></td><td><strong>数十〜200円</strong></td><td>利用者の公開実績（1か月で527コインの報告）</td><td>無料</td></tr>
+<tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/poisura.png" alt="ポイすらのロゴ" loading="lazy" /><strong><a href="https://www.barows.co.jp/" target="_blank" rel="noopener">ポイすら</a></strong></span></td><td><strong>数十〜数百円</strong></td><td>金のチケットの交換先次第。公式は額を公表していない</td><td>無料</td></tr>
 <tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/sugisapo.png" alt="スギサポwalk+のロゴ" loading="lazy" /><strong><a href="https://www.sugi-net.jp/service/digital/sugisapo-walk+" target="_blank" rel="noopener">スギサポwalk+</a></strong></span></td><td><strong>100円 前後</strong></td><td>利用者の公開実績。<strong>100スター＝1スギポイント、1,000スターから交換</strong>（公式）</td><td>無料</td></tr>
-<tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/rakutenhealth.png" alt="" loading="lazy" /><strong><a href="https://healthcare.faq.rakuten.net/" target="_blank" rel="noopener">楽天ヘルスケア</a></strong></span></td><td><strong>100P 前後</strong></td><td>利用者の公開実績。<strong>くじは1P・5P・10P</strong>で、3日連続・7日連続で回数が増える</td><td>無料</td></tr>
-<tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/dhealth.png" alt="dヘルスケアのロゴ" loading="lazy" /><strong><a href="https://health.docomo.ne.jp/" target="_blank" rel="noopener">dヘルスケア</a></strong></span></td><td><strong>無料版は数十P／有料版は350P 前後</strong></td><td>利用者の公開実績。<strong>無料版はハズレ（0P）がある</strong></td><td>無料／月330円</td></tr>
+<tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/rakutenhealth.png" alt="" loading="lazy" /><strong><a href="https://healthcare.faq.rakuten.net/" target="_blank" rel="noopener">楽天ヘルスケア</a></strong></span></td><td><strong>100P 前後</strong></td><td>利用者の公開実績。<strong>くじにはハズレ（0P）もある</strong>。連続で達成するとくじが増える</td><td>無料</td></tr>
+<tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/dhealth.png" alt="dヘルスケアのロゴ" loading="lazy" /><strong><a href="https://health.docomo.ne.jp/" target="_blank" rel="noopener">dヘルスケア</a></strong></span></td><td><strong>無料版は数十P／有料版は350P 前後</strong></td><td>利用者の公開実績。<strong>無料版はハズレ（0P）がある</strong></td><td>無料／月440円</td></tr>
 <tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/jalwellness.png" alt="JAL Wellness &amp; Travelのロゴ" loading="lazy" /><strong><a href="https://www.jal.co.jp/jp/ja/jmb/wellness/" target="_blank" rel="noopener">JAL Wellness &amp; Travel</a></strong></span></td><td><strong>300〜1,000マイル</strong></td><td>利用者の公開実績。<strong>歩数中心なら450〜600マイル</strong>が目安</td><td>月550円</td></tr>
 <tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/anapocket.png" alt="ANA Pocketのロゴ" loading="lazy" /><strong><a href="https://www.anapocket.com/" target="_blank" rel="noopener">ANA Pocket</a></strong></span></td><td><strong>無料版60〜600マイル／Proは1,000マイル前後</strong></td><td>利用者の公開実績。<strong>無料版は1,000ポイントで2マイル</strong></td><td>無料／月550円</td></tr>
-<tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/bitwalk.png" alt="BitWalkのロゴ" loading="lazy" /><strong><a href="https://bitwalk.jp/" target="_blank" rel="noopener">BitWalk</a></strong></span></td><td><strong>150〜500円</strong></td><td>利用者の公開実績（1日7,000〜8,000歩＋広告14〜16回で5〜6円）。<strong>ビットコインの相場で動く</strong></td><td>無料</td></tr>
-<tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/stellawalk.png" alt="ステラウォークのロゴ" loading="lazy" /><strong><a href="https://stellarwalk.jp/" target="_blank" rel="noopener">ステラウォーク</a></strong></span></td><td><strong>30〜240円</strong></td><td>利用者の公開実績。<strong>換金率はアプリの利用者数で変わる</strong>ので、同じ歩数でも額が動く</td><td>無料</td></tr>
-<tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/sweatcoin.png" alt="Sweatcoinのロゴ" loading="lazy" /><strong><a href="https://sweatco.in/" target="_blank" rel="noopener">Sweatcoin</a></strong></span></td><td><strong>15円 前後</strong></td><td>利用者の公開実績（1日1 SWEAT前後）。<strong>年を追うごとに貯まりにくくなる設計</strong></td><td>無料</td></tr>
-<tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/healthree.png" alt="HEALTHREEのロゴ" loading="lazy" /><strong><a href="https://healthree.io/" target="_blank" rel="noopener">HEALTHREE</a></strong></span></td><td><strong>上位ランクで4,600〜22,540円 相当</strong></td><td>提供元の検証記事。<strong>上位ランクの数字</strong>であって、始めたばかりの人の額ではない</td><td>無料（課金あり）</td></tr>
+<tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/bitwalk.png" alt="BitWalkのロゴ" loading="lazy" /><strong><a href="https://lp.bitwalk.jp/" target="_blank" rel="noopener">BitWalk</a></strong></span></td><td><strong>150〜500円</strong></td><td>利用者の公開実績（1日7,000〜8,000歩＋広告14〜16回で5〜6円）。<strong>ビットコインの相場で動く</strong></td><td>無料</td></tr>
+<tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/stellawalk.png" alt="ステラウォークのロゴ" loading="lazy" /><strong><a href="https://stellarwalk.app/" target="_blank" rel="noopener">ステラウォーク</a></strong></span></td><td><strong>30〜240円</strong></td><td>利用者の公開実績。<strong>換金率はアプリの利用者数で変わる</strong>ので、同じ歩数でも額が動く</td><td>無料</td></tr>
+<tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/sweatcoin.png" alt="Sweatcoinのロゴ" loading="lazy" /><strong><a href="https://sweatco.in/" target="_blank" rel="noopener">Sweatcoin</a></strong></span></td><td><strong>15円 前後</strong></td><td>利用者の公開実績。<strong>年を追うごとに貯まりにくくなる設計</strong></td><td>無料</td></tr>
+<tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/healthree.png" alt="HEALTHREEのロゴ" loading="lazy" /><strong><a href="https://heal3.com/" target="_blank" rel="noopener">HEALTHREE</a></strong></span></td><td><strong>未確定</strong></td><td><strong>2023年の検証記事では上位ランクで4,600〜22,540円 相当。</strong>いまは運動型RPGに作り直され、App Storeの説明にトークンの記述がない</td><td>無料（課金あり）</td></tr>
 <tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/stepn.png" alt="STEPNのロゴ" loading="lazy" /><strong><a href="https://stepn.com/" target="_blank" rel="noopener">STEPN</a></strong></span></td><td><strong>相場次第（マイナスもある）</strong></td><td><strong>NFTスニーカーを先に買う</strong>ので、回収できるかどうかが相場に乗る。ここだけ性質が違う</td><td>初期投資</td></tr>
-<tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/vitality.png" alt="住友生命のロゴ" loading="lazy" /><strong><a href="https://vitality.sumitomolife.co.jp/" target="_blank" rel="noopener">住友生命 Vitality</a></strong></span></td><td><strong>保険料が最大30%引き</strong></td><td><strong>公式。</strong>1年目は15%引きで、ゴールド維持なら30%・シルバー20%・ブロンズ10%。<strong>利用料は月880円</strong></td><td>月880円＋保険料</td></tr>
+<tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/vitality.png" alt="住友生命のロゴ" loading="lazy" /><strong><a href="https://vitality.sumitomolife.co.jp/" target="_blank" rel="noopener">住友生命 Vitality</a></strong></span></td><td><strong>保険料が最大30%引き</strong></td><td><strong>公式。</strong>1年目は15%引き。2年目以降はステータスで変わり、<strong>最大30%引き・最大10%割増</strong>。<strong>利用料は月880円</strong>（月330円のVitalityスマートもある）</td><td>月880円＋保険料</td></tr>
 <tr><td><span class="cell-brand"><strong><img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/kencom.png" alt="" loading="lazy" /><a href="https://kencom.jp/" target="_blank" rel="noopener">kencom</a></strong></span></td><td><strong>健保による</strong></td><td>加入している健康保険組合が導入していないと使えない。<strong>まず自分が対象かを確認する</strong></td><td>無料（健保加入者）</td></tr>
 </tbody>
 </table>
@@ -216,8 +247,8 @@ references:
 **この一覧で言えることは3つある。**
 
 <ul class="checklist">
-  <li><div class="checklist-body"><strong>無料で最も戻るのはエブリポイント。</strong><p>月1,000〜1,500円の報告があり、他の無料アプリが3桁円であることを考えると桁が1つ 違う。<strong>ただしこれは利用者の実績</strong>で、公式が保証している額ではない。</p></div></li>
-  <li><div class="checklist-body"><strong>有料版は「元が取れるか」で見る。</strong><p>JALが月550円で300〜1,000マイル、ANA Proが月550円で1,000マイル前後、dヘルスケア有料版が月330円で350P 前後。<strong>マイルを1円 以上で使える人なら合う</strong>が、そうでないなら無料版のほうが確実になる。</p></div></li>
+  <li><div class="checklist-body"><strong>無料で最も戻るのはエブリポイント。</strong><p>月1,000〜1,500円の報告があり、他の無料アプリが3桁円であることを考えると桁が1つ 違う。<strong>ただしこれは利用者の実績</strong>で、公式が保証している額ではない。<strong>しかも広告動画を見る前提で、2026年10月1日からは交換が止まっている</strong>（緊急メンテナンス中）。</p></div></li>
+  <li><div class="checklist-body"><strong>有料版は「元が取れるか」で見る。</strong><p>JALが月550円で300〜1,000マイル、ANA Proが月550円で1,000マイル前後、dヘルスケア有料版が月440円で350P 前後。<strong>マイルを1円 以上で使える人なら合う</strong>が、そうでないなら無料版のほうが確実になる。</p></div></li>
   <li><div class="checklist-body"><strong>桁が違って見えるものほど、条件が厳しい。</strong><p>HEALTHREEの月2万円台は<strong>上位ランクの数字</strong>、Vitalityの30%引きは<strong>保険に入っていることが前提</strong>、STEPNは<strong>先にNFTを買う</strong>。金額の大きさだけで並べると判断を誤る。</p></div></li>
 </ul>
 
@@ -256,7 +287,8 @@ references:
 <tbody>
 <tr><th>料金</th><td><strong>月額550円（税込）</strong>。初回は入会日から翌月末まで無料</td></tr>
 <tr><th>貯まるもの</th><td>JALマイル。<strong>歩数の目標達成</strong>と<strong>空港チェックイン</strong>で加算</td></tr>
-<tr><th>付帯</th><td>オーディオブック聴き放題、JAL Life Status ポイント</td></tr>
+<tr><th>付帯</th><td>JAL Life Status ポイント、トレーニング動画。<strong>オーディオブックは2026年10月15日 23:59で終了</strong></td></tr>
+<tr><th>抽選</th><td><strong>月20万歩</strong>を達成した人から、毎月500名に500マイル</td></tr>
 <tr><th>公式</th><td><img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/jalwellness.png" alt="JAL Wellness &amp; Travelのロゴ" loading="lazy" /><a href="https://www.jal.co.jp/jp/ja/jmb/wellness/" target="_blank" rel="noopener">JAL Wellness &amp; Travel</a></td></tr>
 </tbody>
 </table>
@@ -265,7 +297,7 @@ references:
 
 6か月 使って**合計1,117,940歩・887マイル**（月平均約148マイル）という記録を公開している人がいる。これで計算すると、**年1,776マイルに対して年6,600円**。**1マイルあたり3.7円**を払っていることになる。
 
-**JALマイルの一般的な価値は1マイル2円前後**と言われるので、**歩数だけを目当てにすると割に合わない。** オーディオブックとLSPを使うかどうかで評価が変わる。
+**JALマイルの一般的な価値は1マイル2円前後**と言われるので、**歩数だけを目当てにすると割に合わない。** **付いていたオーディオブックは2026年10月15日で終わる**ので、上乗せとして残るのは**LSPと空港チェックイン**。JALで飛ぶ予定がある人ほど合う。
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">Wellness ＆Travelで月40万歩歩いて2kg痩せた方がTLにいた。月額550円で毎月1LSP、さらに健康になるなら一石二鳥どころではない。Wellness加入者の方、実際にどれくらい歩いていますか。</p>
 &mdash; 東大卒博士 | LSP芸人(JAL Life Status プログラム) (@jgc_6star) <a href="https://twitter.com/jgc_6star/status/2071375616004567172">2026年6月28日</a></blockquote>
@@ -296,7 +328,7 @@ references:
 
 <table class="cmp-table spec-table">
 <tbody>
-<tr><th>料金</th><td><strong>無料</strong>／ANA Pocket Pro <strong>月額550円</strong>／Premium <strong>月額880円</strong></td></tr>
+<tr><th>料金</th><td><strong>無料</strong>／ANA Pocket Pro <strong>月額550円</strong></td></tr>
 <tr><th>貯まるもの</th><td>ポケットマイル →（交換）→ ANAマイル</td></tr>
 <tr><th>対象</th><td><strong>歩数だけでなく、電車・自転車・車の移動も</strong>ポイントになる</td></tr>
 <tr><th>公式</th><td><a href="https://www.ana.co.jp/ja/jp/shoppingandlife/point/" target="_blank" rel="noopener">ANAマイレージクラブ</a></td></tr>
@@ -350,7 +382,7 @@ references:
 <tbody>
 <tr><th>貯まるもの</th><td>トリマ独自の「マイル」→ ドットマネー経由で現金・電子マネー</td></tr>
 <tr><th>レート</th><td><strong>100マイル＝1円</strong>。他社交換時に<strong>手数料20%</strong>（実質120マイル＝1円）</td></tr>
-<tr><th>手数料免除</th><td>2025年4月から、<strong>プラチナランク以上は等価交換</strong></td></tr>
+<tr><th>手数料の戻り</th><td>2025年4月からのランク制度で、<strong>プラチナ以上は交換したマイルが還元され、手数料が実質かからない</strong></td></tr>
 <tr><th>対象</th><td>歩数に加えて<strong>車・電車の移動距離</strong>も加算</td></tr>
 <tr><th>公式</th><td><img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/torima.png" alt="トリマのロゴ" loading="lazy" /><a href="https://www.trip-mile.com/" target="_blank" rel="noopener">トリマ</a></td></tr>
 </tbody>
@@ -380,7 +412,7 @@ references:
   <tbody>
     <tr><th>正式名</th><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/rakutenhealth.png" alt="" loading="lazy" />楽天ヘルスケア-ポイ活アプリ！歩数計・移動でポイント貯める</span></td></tr>
     <tr><th>提供元</th><td>Rakuten Group, Inc.</td></tr>
-    <tr><th>貯まり方</th><td><strong>1日5,000歩</strong>を達成すると翌日ラッキーくじ。<strong>抽選で毎回ポイントが変わる</strong></td></tr>
+    <tr><th>貯まり方</th><td><strong>1日5,000歩</strong>を達成すると翌日ラッキーくじ。<strong>抽選で毎回ポイントが変わる</strong>。2026年4月13日からは<strong>当日中にアプリを開いて5,000歩超えを確認</strong>しないと引けない</td></tr>
     <tr><th>費用</th><td><strong>無料</strong></td></tr>
     <tr><th>入手先</th><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/rakutenhealth.png" alt="" loading="lazy" /><a href="https://healthcare.rakuten.co.jp/" target="_blank" rel="noopener">公式サイト</a>／<a href="https://apps.apple.com/jp/app/%E6%A5%BD%E5%A4%A9%E3%83%98%E3%83%AB%E3%82%B9%E3%82%B1%E3%82%A2-%E3%83%9D%E3%82%A4%E6%B4%BB%E3%82%A2%E3%83%97%E3%83%AA-%E6%AD%A9%E6%95%B0%E8%A8%88-%E7%A7%BB%E5%8B%95%E3%81%A7%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88%E8%B2%AF%E3%82%81%E3%82%8B/id1585068047" target="_blank" rel="noopener">App Store</a></span></td></tr>
   </tbody>
@@ -396,10 +428,10 @@ references:
 <table class="cmp-table spec-table">
   <tbody>
     <tr><th>正式名</th><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/dhealth.png" alt="" loading="lazy" />dヘルスケア -歩数でdポイントがたまる健康管理アプリ-</span></td></tr>
-    <tr><th>提供元</th><td>NTT DOCOMO, INC.</td></tr>
+    <tr><th>提供元</th><td>NTT DOCOMO, INC.（<strong>2026年10月1日から運営はNTTプレシジョンメディシン</strong>）</td></tr>
     <tr><th>貯まり方</th><td>歩数・体重などのミッション達成で<strong>抽選</strong>。当たるとdポイント</td></tr>
-    <tr><th>費用</th><td><strong>無料（有料コースあり）</strong></td></tr>
-    <tr><th>入手先</th><td><a href="https://healthcare.smt.docomo.ne.jp/" target="_blank" rel="noopener">公式サイト</a>／<a href="https://apps.apple.com/jp/app/d%E3%83%98%E3%83%AB%E3%82%B9%E3%82%B1%E3%82%A2-%E6%AD%A9%E6%95%B0%E3%81%A7d%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88%E3%81%8C%E3%81%9F%E3%81%BE%E3%82%8B%E5%81%A5%E5%BA%B7%E7%AE%A1%E7%90%86%E3%82%A2%E3%83%97%E3%83%AA/id1352137023" target="_blank" rel="noopener">App Store</a></td></tr>
+    <tr><th>費用</th><td><strong>無料</strong>／有料版 <strong>月440円</strong>（App Store経由は月480円）</td></tr>
+    <tr><th>入手先</th><td><a href="https://health.docomo.ne.jp/" target="_blank" rel="noopener">公式サイト</a>／<a href="https://apps.apple.com/jp/app/d%E3%83%98%E3%83%AB%E3%82%B9%E3%82%B1%E3%82%A2-%E6%AD%A9%E6%95%B0%E3%81%A7d%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88%E3%81%8C%E3%81%9F%E3%81%BE%E3%82%8B%E5%81%A5%E5%BA%B7%E7%AE%A1%E7%90%86%E3%82%A2%E3%83%97%E3%83%AA/id1352137023" target="_blank" rel="noopener">App Store</a></td></tr>
   </tbody>
 </table>
 </div>
@@ -409,7 +441,7 @@ references:
 <thead><tr><th>サービス</th><th>条件</th><th>もらえ方</th></tr></thead>
 <tbody>
 <tr><td><span class="cell-brand"><strong><img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/rakutenhealth.png" alt="" loading="lazy" /><a href="https://healthcare.rakuten.co.jp/" target="_blank" rel="noopener">楽天ヘルスケア</a></strong></span></td><td>1日5,000歩の達成など</td><td><strong>くじ</strong>。当たると楽天ポイント</td></tr>
-<tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/dhealth.png" alt="dヘルスケアのロゴ" loading="lazy" /><strong><a href="https://healthcare.smt.docomo.ne.jp/" target="_blank" rel="noopener">dヘルスケア</a></strong></span></td><td>歩数・体重記録などのミッション</td><td><strong>抽選</strong>でdポイント。<strong>有料会員は必ず当選</strong></td></tr>
+<tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/dhealth.png" alt="dヘルスケアのロゴ" loading="lazy" /><strong><a href="https://health.docomo.ne.jp/" target="_blank" rel="noopener">dヘルスケア</a></strong></span></td><td>歩数・体重記録などのミッション</td><td><strong>抽選</strong>でdポイント。<strong>有料会員は必ず当選</strong></td></tr>
 </tbody>
 </table>
 </div>
@@ -453,7 +485,8 @@ references:
   <tbody>
     <tr><th>正式名</th><td>エブリポイント - 歩くポイ活！歩数でお小遣い稼ぎ 万歩計</td></tr>
     <tr><th>提供元</th><td>PIXELA Corporation</td></tr>
-    <tr><th>貯まり方</th><td>歩数と移動距離をポイントに換算。<strong>ドットマネー経由で WAON POINT</strong></td></tr>
+    <tr><th>貯まり方</th><td>歩数と移動距離をポイントに換算。<strong>ドットマネー経由で WAON POINT</strong>。条件を満たして<strong>広告動画を見るとポイント</strong></td></tr>
+    <tr><th>注意</th><td><strong>2026年10月1日から交換が停止中</strong>（公式は緊急メンテナンスで、復旧まで約1週間の見込みとしている）</td></tr>
     <tr><th>費用</th><td><strong>無料</strong></td></tr>
     <tr><th>入手先</th><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/pixela.png" alt="" loading="lazy" /><a href="https://www.pixela.co.jp/products/everypoint/" target="_blank" rel="noopener">公式サイト</a>／<a href="https://apps.apple.com/jp/app/%E3%82%A8%E3%83%96%E3%83%AA%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88-%E6%AD%A9%E3%81%8F%E3%83%9D%E3%82%A4%E6%B4%BB-%E6%AD%A9%E6%95%B0%E3%81%A7%E3%81%8A%E5%B0%8F%E9%81%A3%E3%81%84%E7%A8%BC%E3%81%8E-%E4%B8%87%E6%AD%A9%E8%A8%88/id6743367643" target="_blank" rel="noopener">App Store</a></span></td></tr>
   </tbody>
@@ -513,14 +546,14 @@ references:
 <thead><tr><th>サービス</th><th>条件</th><th>もらえるもの</th></tr></thead>
 <tbody>
 <tr class="recommended"><td><span class="cell-brand"><strong><img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/renobody.png" alt="" loading="lazy" /><a href="https://info.renobody.jp/prod/index.html" target="_blank" rel="noopener">RenoBody</a></strong></span></td><td>1日<strong>8,000歩</strong></td><td><strong>1 WAON POINT／日</strong>。条件を満たせば必ず入る</td></tr>
-<tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/cokeon.png" alt="Coke ON のロゴ" loading="lazy" /><strong><a href="https://apps.apple.com/JP/app/id1088184021" target="_blank" rel="noopener">Coke ON</a></strong></span></td><td><strong>週35,000歩</strong>で1スタンプ</td><td><strong>15スタンプで自販機のドリンク1本</strong>が無料</td></tr>
+<tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/cokeon.png" alt="Coke ON のロゴ" loading="lazy" /><strong><a href="https://apps.apple.com/JP/app/id1088184021" target="_blank" rel="noopener">Coke ON</a></strong></span></td><td><strong>週の目標歩数</strong>の達成で1スタンプ</td><td><strong>15スタンプで自販機のドリンク1本</strong>が無料</td></tr>
 <tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/sugisapo.png" alt="スギサポwalk+のロゴ" loading="lazy" /><strong><a href="https://www.sugi-net.jp/service/digital/sugisapo-walk+" target="_blank" rel="noopener">スギサポwalk+</a></strong></span></td><td>歩数でスターが貯まる</td><td><strong>100スター＝1スギポイント</strong>（1,000スターから交換）</td></tr>
 <tr><td><span class="cell-brand"><strong><img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/arukuto.png" alt="" loading="lazy" /><a href="https://www.arukuto.jp/" target="_blank" rel="noopener">aruku&amp;</a></strong></span></td><td>住民からの「◯歩 歩いて」依頼を達成</td><td>カード → <strong>地域の特産品が当たる抽選</strong>に応募</td></tr>
 </tbody>
 </table>
 </div>
 
-**Coke ON の条件は週35,000歩＝1日5,000歩。** 1万歩 歩く人なら毎週 確実にスタンプが付く。**15週ごとに1本**なので、1年で約3.4本。
+**Coke ON は、週の目標歩数を自分で選び、達成した週にスタンプが1個 付く**（目標の変更は翌週の月曜から反映）。スタンプは週1個なので、**毎週 達成しても15週ごとに1本**、1年で約3.4本。
 
 **aruku&amp; だけは性格が違う。** 貯まるのはポイントではなく**抽選への応募権**で、当たれば地域の特産品や現金が届く。**確実性を捨てて、当たりの大きさを取る型。**
 
@@ -528,7 +561,7 @@ references:
 
 <figure class="rn-figure app-shot">
   <img src="/images/walk-poikatsu-2026/apps/cokeon-shot.jpg" alt="Coke ON のアプリ画面" loading="lazy" />
-  <figcaption>週35,000歩で1スタンプ。15スタンプで自販機のドリンク1本<cite>画像: <a href="https://apps.apple.com/jp/app/coke-on-%E3%82%B3%E3%83%BC%E3%82%AF%E3%82%AA%E3%83%B3/id1088184021" target="_blank" rel="noopener">App Store 掲載素材</a>（The Coca-Cola Company）</cite></figcaption>
+  <figcaption>週の目標歩数の達成で1スタンプ。15スタンプで自販機のドリンク1本<cite>画像: <a href="https://apps.apple.com/jp/app/coke-on-%E3%82%B3%E3%83%BC%E3%82%AF%E3%82%AA%E3%83%B3/id1088184021" target="_blank" rel="noopener">App Store 掲載素材</a>（The Coca-Cola Company）</cite></figcaption>
 </figure>
 
 <div class="cmp-table-wrap">
@@ -616,8 +649,8 @@ references:
 <table class="cmp-table prose-table">
 <thead><tr><th>サービス</th><th>初期投資</th><th>仕組み</th></tr></thead>
 <tbody>
-<tr class="recommended"><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/bitwalk.png" alt="BitWalkのロゴ" loading="lazy" /><strong><a href="https://coinpost.jp/crypto/move-to-earn/bitwalk/" target="_blank" rel="noopener">BitWalk</a></strong></span></td><td><strong>不要</strong></td><td>歩数でスタンプ（<strong>1日 最大40・20,000歩</strong>）→ ビットコイン。<strong>広告収益の還元型</strong>でブロックチェーンは介さない</td></tr>
-<tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/healthree.png" alt="" loading="lazy" /><strong><a href="https://hedge.guide/feature/healthree-bc202307.html" target="_blank" rel="noopener">HEALTHREE（ヘルスリー）</a></strong></span></td><td><strong>不要</strong>（NFTは任意）</td><td>Astar上の国産Move to Earn。歩いて$UHTを獲得し、<strong>アバターを育てるRPG</strong>要素つき</td></tr>
+<tr class="recommended"><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/bitwalk.png" alt="BitWalkのロゴ" loading="lazy" /><strong><a href="https://coinpost.jp/crypto/move-to-earn/bitwalk/" target="_blank" rel="noopener">BitWalk</a></strong></span></td><td><strong>不要</strong></td><td>歩数でスタンプ（<strong>250歩で1個・1日 最大50個＝約12,500歩</strong>）→ ビットコイン。<strong>広告収益の還元型</strong>でブロックチェーンは介さない</td></tr>
+<tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/healthree.png" alt="" loading="lazy" /><strong><a href="https://hedge.guide/feature/healthree-bc202307.html" target="_blank" rel="noopener">HEALTHREE（ヘルスリー）</a></strong></span></td><td><strong>不要</strong>（NFTは任意）</td><td>国産のMove to Earnとして始まり、2025年11月に<strong>AstarからSoneiumへ移行</strong>。2026年5月に<strong>運動型RPG</strong>へ作り直された</td></tr>
 <tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/stellawalk.png" alt="ステラウォークのロゴ" loading="lazy" /><strong><a href="https://apps.apple.com/jp/app/%E3%82%B9%E3%83%86%E3%83%A9%E3%82%A6%E3%82%A9%E3%83%BC%E3%82%AF-%E6%AD%A9%E3%81%8F%E3%81%A0%E3%81%91%E3%81%A7%E6%9A%97%E5%8F%B7%E8%B3%87%E7%94%A3%E3%81%8C%E8%B2%B0%E3%81%88%E3%82%8B/id1599065744" target="_blank" rel="noopener">ステラウォーク</a></strong></span></td><td>不要</td><td>歩数で<strong>ステラルーメン（XLM）</strong>がもらえる</td></tr>
 <tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/sweatcoin.png" alt="Sweatcoinのロゴ" loading="lazy" /><strong><a href="https://apps.apple.com/jp/app/sweatcoin-%E3%81%86%E3%81%89%E3%83%BC%E3%81%8D%E3%82%93%E3%81%90%E3%81%82%E3%81%B7%E3%82%8A-%E6%AD%A9%E3%81%8F/id971023427" target="_blank" rel="noopener">Sweatcoin</a></strong></span></td><td>不要</td><td><strong>NFTの要素が無い</strong>。SWEATは国内取引所で扱いがなく、換金は海外経由</td></tr>
 <tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/stepn.png" alt="STEPNのロゴ" loading="lazy" /><strong><a href="https://apps.apple.com/jp/app/stepn/id1598112424" target="_blank" rel="noopener">STEPN</a></strong></span></td><td><strong>必要</strong></td><td>NFTスニーカーを買って走る。<strong>GSTは2022年のピークから1円未満まで下落</strong></td></tr>
@@ -637,7 +670,7 @@ references:
   <tbody>
     <tr><th>正式名</th><td>歩いてポイ活 ビットウォーク:歩数でポイント／ビットコイン</td></tr>
     <tr><th>提供元</th><td>Paddle, inc</td></tr>
-    <tr><th>貯まり方</th><td>歩数に応じて<strong>ビットコイン</strong>。広告費の一部が原資で、<strong>1日 最大40スタンプ・20,000歩</strong>まで</td></tr>
+    <tr><th>貯まり方</th><td>歩数に応じて<strong>ビットコイン</strong>。広告費の一部が原資で、<strong>250歩で1スタンプ・1日 最大50スタンプ（約12,500歩）</strong>まで</td></tr>
     <tr><th>費用</th><td><strong>無料</strong></td></tr>
     <tr><th>入手先</th><td><a href="https://apps.apple.com/jp/app/%E6%AD%A9%E3%81%84%E3%81%A6%E3%83%9D%E3%82%A4%E6%B4%BB-%E3%83%93%E3%83%83%E3%83%88%E3%82%A6%E3%82%A9%E3%83%BC%E3%82%AF-%E6%AD%A9%E6%95%B0%E3%81%A7%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88-%E3%83%93%E3%83%83%E3%83%88%E3%82%B3%E3%82%A4%E3%83%B3/id1634543016" target="_blank" rel="noopener">App Store</a></td></tr>
   </tbody>
@@ -666,16 +699,16 @@ references:
   <tbody>
     <tr><th>正式名</th><td>ヘルスリー｜歩いて進める運動型RPG</td></tr>
     <tr><th>提供元</th><td>HEALTHREE TECHNOLOGIES LTD.</td></tr>
-    <tr><th>貯まり方</th><td>歩いて進める RPG。<strong>ゲーム内トークン</strong>が貯まる</td></tr>
+    <tr><th>貯まり方</th><td>GPSで測った<strong>移動距離だけ</strong>で進むRPG。ゲーム内通貨は課金あり</td></tr>
     <tr><th>費用</th><td><strong>無料</strong></td></tr>
     <tr><th>入手先</th><td><a href="https://apps.apple.com/jp/app/%E3%83%98%E3%83%AB%E3%82%B9%E3%83%AA%E3%83%BC-%E6%AD%A9%E3%81%84%E3%81%A6%E9%80%B2%E3%82%81%E3%82%8B%E9%81%8B%E5%8B%95%E5%9E%8Brpg/id6449821527" target="_blank" rel="noopener">App Store</a></td></tr>
   </tbody>
 </table>
 </div>
 
-**日本発のWeb3ヘルスケアアプリで、NTTドコモが出資するAstarネットワーク上で動いている。** 歩く・寝る・食べるといった行動でトークン（$UHT / $GHT）が貯まり、**CLOTHES NFTでアバターを着せ替えながら進める運動型RPG**という作りになっている。
+**日本発のWeb3ヘルスケアアプリとして始まり、2025年11月に動かすチェーンをAstarからSoneiumへ移した。** 2026年5月の大型アップデートで、<strong>GPSの移動距離だけを使う「運動型RPG」</strong>に作り直されている。**いまのApp Storeの説明には、トークンもNFTも出てこない。**
 
-**貯めたトークンは、アプリ内のストアで現物と交換できる。** ただし**レートは固定ではない。**
+**2025年6月の時点では、貯めたトークン（UHT）をアプリ内のストアで現物と交換できた。** ただし**レートは固定ではなかった。** いまも同じ交換が続いているかは、公式の説明からは読み取れない。
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">📝ストアでの交換レート変更のお知らせ  いつもHEALTHREE（ヘルスリー）をご利用いただきありがとうございます。 このたび、マーケット価格を考慮した調整により、下記の通り交換価格を変更致します。  ■変更内容 ・スターバックス｜ドリンクチケット（500円） =&gt; 250UHT ・コカ・コーラ｜Coke ON</p>
 &mdash; ヘルスリー｜歩いて進める運動型RPG (@HEAL3ofr_jp) <a href="https://twitter.com/HEAL3ofr_jp/status/1932962387868721439">2025年6月12日</a></blockquote>
@@ -726,7 +759,7 @@ references:
   <tbody>
     <tr><th>正式名</th><td>ステラウォーク - 歩くだけで暗号資産が貰える！</td></tr>
     <tr><th>提供元</th><td>DoshCook LLC</td></tr>
-    <tr><th>貯まり方</th><td>歩数に応じてカプセル → エメラルド → <strong>XLM（ステラルーメン）</strong>。<strong>申請は月初の3営業日だけ</strong></td></tr>
+    <tr><th>貯まり方</th><td>歩数に応じてカプセル → ジェム → <strong>XLM（ステラルーメン）</strong>。<strong>前月分の申請は毎月3日まで</strong></td></tr>
     <tr><th>費用</th><td><strong>無料</strong></td></tr>
     <tr><th>入手先</th><td><a href="https://apps.apple.com/jp/app/%E3%82%B9%E3%83%86%E3%83%A9%E3%82%A6%E3%82%A9%E3%83%BC%E3%82%AF-%E6%AD%A9%E3%81%8F%E3%81%A0%E3%81%91%E3%81%A7%E6%9A%97%E5%8F%B7%E8%B3%87%E7%94%A3%E3%81%8C%E8%B2%B0%E3%81%88%E3%82%8B/id1599065744" target="_blank" rel="noopener">App Store</a></td></tr>
   </tbody>
@@ -745,7 +778,7 @@ references:
   <tbody>
     <tr><th>正式名</th><td>Sweatcoin - うぉーきんぐあぷり・歩く</td></tr>
     <tr><th>提供元</th><td>Sweatco Ltd</td></tr>
-    <tr><th>貯まり方</th><td>歩数に応じて<strong>SWEAT</strong>。GPS で歩数を認証する</td></tr>
+    <tr><th>貯まり方</th><td>歩数に応じて<strong>アプリ内通貨のSweatcoin</strong>。暗号資産のSWEATとは別に扱われる</td></tr>
     <tr><th>費用</th><td><strong>無料（有料プランあり）</strong></td></tr>
     <tr><th>入手先</th><td><a href="https://apps.apple.com/jp/app/sweatcoin-%E3%81%86%E3%81%89%E3%83%BC%E3%81%8D%E3%82%93%E3%81%90%E3%81%82%E3%81%B7%E3%82%8A-%E6%AD%A9%E3%81%8F/id971023427" target="_blank" rel="noopener">App Store</a></td></tr>
   </tbody>
@@ -846,7 +879,7 @@ references:
 <tr class="recommended"><td><strong>とりあえず確実に貯めたい</strong></td><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/renobody.png" alt="" loading="lazy" /><a href="https://info.renobody.jp/prod/index.html" target="_blank" rel="noopener">RenoBody</a> ＋ <img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/cokeon.png" alt="Coke ON のロゴ" loading="lazy" /><a href="https://apps.apple.com/JP/app/id1088184021" target="_blank" rel="noopener">Coke ON</a></span></td><td>どちらも無料で、条件を満たせば必ず入る。<strong>考えることが無い</strong></td></tr>
 <tr><td><strong>通勤で長く移動する</strong></td><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/torima.png" alt="トリマのロゴ" loading="lazy" /><a href="https://www.trip-mile.com/" target="_blank" rel="noopener">トリマ</a> ＋ <img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/anapocket.png" alt="ANA Pocketのロゴ" loading="lazy" /><a href="https://www.ana.co.jp/ja/jp/shoppingandlife/point/" target="_blank" rel="noopener">ANA Pocket</a></span></td><td><strong>歩数だけでなく移動距離</strong>が乗る。電車・車が多い人ほど効く</td></tr>
 <tr><td><strong>旅行によく行く</strong></td><td><img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/jalwellness.png" alt="JAL Wellness &amp; Travelのロゴ" loading="lazy" /><a href="https://www.jal.co.jp/jp/ja/jmb/wellness/" target="_blank" rel="noopener">JAL Wellness &amp; Travel</a></td><td>空港チェックインでマイルが付く。<strong>歩数だけなら割に合わない</strong></td></tr>
-<tr><td><strong>楽天／dのポイントを普段 使う</strong></td><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/rakutenhealth.png" alt="" loading="lazy" /><a href="https://healthcare.rakuten.co.jp/" target="_blank" rel="noopener">楽天ヘルスケア</a> ／ <img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/dhealth.png" alt="dヘルスケアのロゴ" loading="lazy" /><a href="https://healthcare.smt.docomo.ne.jp/" target="_blank" rel="noopener">dヘルスケア</a></span></td><td>すでに持っているポイントに合流できる。抽選なので過度な期待はしない</td></tr>
+<tr><td><strong>楽天／dのポイントを普段 使う</strong></td><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/rakutenhealth.png" alt="" loading="lazy" /><a href="https://healthcare.rakuten.co.jp/" target="_blank" rel="noopener">楽天ヘルスケア</a> ／ <img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/dhealth.png" alt="dヘルスケアのロゴ" loading="lazy" /><a href="https://health.docomo.ne.jp/" target="_blank" rel="noopener">dヘルスケア</a></span></td><td>すでに持っているポイントに合流できる。抽選なので過度な期待はしない</td></tr>
 <tr><td><strong>ゲームとして続けたい</strong></td><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/healthree.png" alt="HEALTHREEのロゴ" loading="lazy" /><a href="https://hedge.guide/feature/healthree-bc202307.html" target="_blank" rel="noopener">HEALTHREE</a> ／ <img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/arukuto.png" alt="" loading="lazy" /><a href="https://www.arukuto.jp/" target="_blank" rel="noopener">aruku&amp;</a></span></td><td>金額より<strong>続く仕掛け</strong>がある。歩く理由が欲しい人向け</td></tr>
 <tr><td><strong>保険に入っている</strong></td><td><a href="https://vitality.sumitomolife.co.jp/about/status/" target="_blank" rel="noopener">Vitality</a> ／ 自治体の健康ポイント</td><td><strong>金額の桁が違う</strong>。まず自分が対象かを確認する</td></tr>
 </tbody>
@@ -854,6 +887,97 @@ references:
 </div>
 
 **3つまでにしておくのが現実的。** 通知と広告の量がそのまま増えるので、**入れるほど得、にはならない。**
+
+<div class="section-with-mascot">
+  <div class="mascot-wrap"><img src="/images/expr-02-pout.png" alt="Daily Hackマスコット" /></div>
+  <h2 id="noads">広告なし・動画なしで貯まるアプリはどれか</h2>
+</div>
+
+**「歩いてポイ活 広告なし」は、Googleの検索候補にも出てくる。** 歩数を見るたびにCMが挟まると、それだけで続かなくなる。20本を**広告の出方**で4つに分けた。
+
+<div class="cmp-table-wrap">
+<table class="cmp-table faq-table">
+<tbody>
+<tr class="recommended"><th><strong>広告の表示なし</strong></th><td><img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/jalwellness.png" alt="JAL Wellness &amp; Travelのロゴ" loading="lazy" /><a href="https://www.jal.co.jp/jp/ja/jmb/wellness/" target="_blank" rel="noopener">JAL Wellness &amp; Travel</a>／<img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/dhealth.png" alt="dヘルスケアのロゴ" loading="lazy" /><a href="https://health.docomo.ne.jp/" target="_blank" rel="noopener">dヘルスケア</a>／<img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/cokeon.png" alt="Coke ONのロゴ" loading="lazy" /><a href="https://apps.apple.com/jp/app/coke-on-%E3%82%B3%E3%83%BC%E3%82%AF%E3%82%AA%E3%83%B3/id1088184021" target="_blank" rel="noopener">Coke ON</a>／<img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/sugisapo.png" alt="スギサポwalk+のロゴ" loading="lazy" /><a href="https://www.sugi-net.jp/service/digital/sugisapo-walk+" target="_blank" rel="noopener">スギサポwalk+</a>／<img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/kencom.png" alt="kencomのロゴ" loading="lazy" /><a href="https://kencom.jp/" target="_blank" rel="noopener">kencom</a>／<img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/stepn.png" alt="STEPNのロゴ" loading="lazy" /><a href="https://stepn.com/" target="_blank" rel="noopener">STEPN</a><br>Google Playに「広告が表示されます」の表示がない。<strong>「広告なし」で探しているならここ</strong>。代わりにJALとdヘルスケア有料版は月額がかかる</td></tr>
+<tr><th><strong>広告が出る</strong>（見なくても貯まる）</th><td><img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/torima.png" alt="トリマのロゴ" loading="lazy" /><a href="https://www.trip-mile.com/" target="_blank" rel="noopener">トリマ</a>／<img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/rakutenhealth.png" alt="楽天ヘルスケアのロゴ" loading="lazy" /><a href="https://healthcare.rakuten.co.jp/" target="_blank" rel="noopener">楽天ヘルスケア</a>／<img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/rakutensenior.png" alt="楽天シニアのロゴ" loading="lazy" /><a href="https://senior.rakuten.co.jp/" target="_blank" rel="noopener">楽天シニア</a>／<img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/arucoin.png" alt="アルコインのロゴ" loading="lazy" /><a href="https://agoop.co.jp/appslib/walkcoin_series/" target="_blank" rel="noopener">アルコイン</a>／<img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/renobody.png" alt="RenoBodyのロゴ" loading="lazy" /><a href="https://info.renobody.jp/prod/index.html" target="_blank" rel="noopener">RenoBody</a>／<img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/poisura.png" alt="ポイすらのロゴ" loading="lazy" /><a href="https://www.barows.co.jp/" target="_blank" rel="noopener">ポイすら</a>／<img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/stellawalk.png" alt="ステラウォークのロゴ" loading="lazy" /><a href="https://stellarwalk.app/" target="_blank" rel="noopener">ステラウォーク</a>／<img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/sweatcoin.png" alt="Sweatcoinのロゴ" loading="lazy" /><a href="https://sweatco.in/" target="_blank" rel="noopener">Sweatcoin</a>／<img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/healthree.png" alt="HEALTHREEのロゴ" loading="lazy" /><a href="https://heal3.com/" target="_blank" rel="noopener">HEALTHREE</a><br>歩数だけでも貯まるが、画面に広告が出る。<strong>楽天シニアは有料の定額プランで広告が消える</strong></td></tr>
+<tr><th><strong>動画を見ると増える</strong></th><td><img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/anapocket.png" alt="ANA Pocketのロゴ" loading="lazy" /><a href="https://www.anapocket.com/" target="_blank" rel="noopener">ANA Pocket</a>／<img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/bitwalk.png" alt="BitWalkのロゴ" loading="lazy" /><a href="https://lp.bitwalk.jp/" target="_blank" rel="noopener">BitWalk</a>／<img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/arukuto.png" alt="aruku&amp;のロゴ" loading="lazy" /><a href="https://www.arukuto.jp/" target="_blank" rel="noopener">aruku&amp;</a><br>ANA Pocketは<strong>動画1回50ポイント・1日最大25回</strong>。aruku&amp;は宝箱で動画を見るとカードが2倍。<strong>見なければ増えないだけで、歩数のぶんは入る</strong></td></tr>
+<tr><th><strong>動画を見る前提</strong></th><td><img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/pixela.png" alt="エブリポイントのロゴ" loading="lazy" /><a href="https://www.pixela.co.jp/products/everypoint/" target="_blank" rel="noopener">エブリポイント</a><br>条件を満たして広告動画を見るとポイントが入る設計。<strong>「動画なし」で探しているなら外す</strong></td></tr>
+</tbody>
+</table>
+</div>
+
+<p class="source-note">出典：Google Play の各アプリのページ（「広告が表示されます」の表示・2026年10月5日に確認）、ANA Pocket・aruku&amp;・エブリポイントの公式の案内。住友生命 Vitality は Google Play のページを確認できなかったので表から外した。</p>
+
+**広告なし・無料・誰でも使える、の3つがそろうのは Coke ON・スギサポwalk+・dヘルスケア（無料版）。** Coke ON はドリンク、スギサポwalk+ はスギ薬局のポイントで戻る。dヘルスケアの無料版は抽選なので、ハズレもある。
+
+<div class="section-with-mascot">
+  <div class="mascot-wrap"><img src="/images/expr-04-cheer.png" alt="Daily Hackマスコット" /></div>
+  <h2 id="paypay">PayPayに交換できる歩いてポイ活アプリ</h2>
+</div>
+
+**PayPayに出せるかどうかで、使い道の広さがまるで違う。** 20本のうち、PayPayへ出せるのは次の5本だけだった（予定を含む）。**楽天・dヘルスケア・RenoBodyなどは、それぞれのポイントにしかならない。**
+
+<div class="cmp-table-wrap">
+<table class="cmp-table faq-table">
+<tbody>
+<tr class="recommended"><th><span class="cell-brand"><img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/torima.png" alt="トリマのロゴ" loading="lazy" /><strong><a href="https://www.trip-mile.com/" target="_blank" rel="noopener">トリマ</a></strong></span></th><td><strong>○</strong> 直接<br>トリマのマイルをPayPayポイントへ。PayPay側の告知でも交換元として出ている</td></tr>
+<tr><th><span class="cell-brand"><img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/arucoin.png" alt="アルコインのロゴ" loading="lazy" /><strong><a href="https://agoop.co.jp/appslib/walkcoin_series/" target="_blank" rel="noopener">アルコイン</a></strong></span></th><td><strong>○</strong> 直接<br>コインをPayPayポイントへ。ほかにAmazonギフトカード・Pontaなど</td></tr>
+<tr><th><span class="cell-brand"><img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/poisura.png" alt="ポイすらのロゴ" loading="lazy" /><strong><a href="https://www.barows.co.jp/" target="_blank" rel="noopener">ポイすら</a></strong></span></th><td><strong>○</strong> 直接<br>金のチケットをPayPayへ。ほかにAmazonギフト券・QUOカードPay・PeX</td></tr>
+<tr><th><span class="cell-brand"><img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/arukuto.png" alt="aruku&amp;のロゴ" loading="lazy" /><strong><a href="https://www.arukuto.jp/" target="_blank" rel="noopener">aruku&amp;</a></strong></span></th><td>△ 経由<br>毎月のVポイントを、<strong>VポイントからPayPayポイントへ交換</strong>できる（2026年3月24日から）</td></tr>
+<tr><th><span class="cell-brand"><img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/anapocket.png" alt="ANA Pocketのロゴ" loading="lazy" /><strong><a href="https://www.anapocket.com/" target="_blank" rel="noopener">ANA Pocket</a></strong></span></th><td>△ 予定<br>公式は「PayPayマネーライトは今後 特典交換先として掲載予定」としている。<strong>まだ交換先にはない</strong></td></tr>
+</tbody>
+</table>
+</div>
+
+<p class="source-note">出典：トリマ・アルコイン・ポイすらは App Store の説明と各公式、PayPay 公式のお知らせ（2024年1月12日・2026年3月24日）、ANA Pocket 公式の交換先案内（2026年10月5日に確認）。交換先は予告なく変わることがある。</p>
+
+**PayPayが目当てなら、トリマが軸になる。** 歩数と移動の両方で貯まり、交換先にPayPayがある。**アルコインとポイすらは、トリマと同じ歩数を同時に数えられる**ので、上乗せとして足せばいい。
+
+<div class="section-with-mascot">
+  <div class="mascot-wrap"><img src="/images/expr-09-arms-crossed.png" alt="Daily Hackマスコット" /></div>
+  <h2 id="safety">安全？｜位置情報を集めるアプリ・集めないアプリを、App Storeの表示で分けた</h2>
+</div>
+
+**「歩いてポイ活は安全か」は、何を渡しているかで決まる。** 歩数アプリが受け取るのは、**歩数と、アプリによっては位置情報**。各アプリが App Store に出している「Appのプライバシー」の表示（開発元の自己申告）を、20本 全部 読んで3つに分けた。
+
+<div class="cmp-table-wrap">
+<table class="cmp-table faq-table">
+<tbody>
+<tr class="recommended"><th><strong>位置情報を集めない</strong>と表示</th><td><img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/jalwellness.png" alt="JAL Wellness &amp; Travelのロゴ" loading="lazy" /><a href="https://www.jal.co.jp/jp/ja/jmb/wellness/" target="_blank" rel="noopener">JAL Wellness &amp; Travel</a>／<img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/rakutenhealth.png" alt="楽天ヘルスケアのロゴ" loading="lazy" /><a href="https://healthcare.rakuten.co.jp/" target="_blank" rel="noopener">楽天ヘルスケア</a>／<img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/dhealth.png" alt="dヘルスケアのロゴ" loading="lazy" /><a href="https://health.docomo.ne.jp/" target="_blank" rel="noopener">dヘルスケア</a>／<img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/pixela.png" alt="エブリポイントのロゴ" loading="lazy" /><a href="https://www.pixela.co.jp/products/everypoint/" target="_blank" rel="noopener">エブリポイント</a>／<img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/renobody.png" alt="RenoBodyのロゴ" loading="lazy" /><a href="https://info.renobody.jp/prod/index.html" target="_blank" rel="noopener">RenoBody</a>／<img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/bitwalk.png" alt="BitWalkのロゴ" loading="lazy" /><a href="https://lp.bitwalk.jp/" target="_blank" rel="noopener">BitWalk</a>／<img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/healthree.png" alt="HEALTHREEのロゴ" loading="lazy" /><a href="https://heal3.com/" target="_blank" rel="noopener">HEALTHREE</a>／<img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/sugisapo.png" alt="スギサポwalk+のロゴ" loading="lazy" /><a href="https://www.sugi-net.jp/service/digital/sugisapo-walk+" target="_blank" rel="noopener">スギサポwalk+</a>／<img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/vitality.png" alt="住友生命 Vitalityのロゴ" loading="lazy" /><a href="https://vitality.sumitomolife.co.jp/" target="_blank" rel="noopener">住友生命 Vitality</a><br>歩数だけで動くもの。<strong>「位置情報なし」で探しているならここから選ぶ</strong>。JALは「データの収集なし」と表示</td></tr>
+<tr><th>位置情報を<strong>集める</strong>（アカウントに紐づく）</th><td><img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/torima.png" alt="トリマのロゴ" loading="lazy" /><a href="https://www.trip-mile.com/" target="_blank" rel="noopener">トリマ</a>／<img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/cokeon.png" alt="Coke ONのロゴ" loading="lazy" /><a href="https://apps.apple.com/jp/app/coke-on-%E3%82%B3%E3%83%BC%E3%82%AF%E3%82%AA%E3%83%B3/id1088184021" target="_blank" rel="noopener">Coke ON</a>／<img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/arukuto.png" alt="aruku&amp;のロゴ" loading="lazy" /><a href="https://www.arukuto.jp/" target="_blank" rel="noopener">aruku&amp;</a>／<img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/rakutensenior.png" alt="楽天シニアのロゴ" loading="lazy" /><a href="https://senior.rakuten.co.jp/" target="_blank" rel="noopener">楽天シニア</a>／<img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/kencom.png" alt="kencomのロゴ" loading="lazy" /><a href="https://kencom.jp/" target="_blank" rel="noopener">kencom</a>／<img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/stepn.png" alt="STEPNのロゴ" loading="lazy" /><a href="https://stepn.com/" target="_blank" rel="noopener">STEPN</a><br>移動距離の計測や、自販機・地域キャンペーンのため。トリマは<strong>移動距離そのものが貯まる理由</strong>なので外せない</td></tr>
+<tr><th>位置情報を<strong>他社をまたいだトラッキング</strong>にも使う</th><td><img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/anapocket.png" alt="ANA Pocketのロゴ" loading="lazy" /><a href="https://www.anapocket.com/" target="_blank" rel="noopener">ANA Pocket</a>／<img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/arucoin.png" alt="アルコインのロゴ" loading="lazy" /><a href="https://agoop.co.jp/appslib/walkcoin_series/" target="_blank" rel="noopener">アルコイン</a>／<img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/poisura.png" alt="ポイすらのロゴ" loading="lazy" /><a href="https://www.barows.co.jp/" target="_blank" rel="noopener">ポイすら</a>／<img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/stellawalk.png" alt="ステラウォークのロゴ" loading="lazy" /><a href="https://stellarwalk.app/" target="_blank" rel="noopener">ステラウォーク</a>／<img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/sweatcoin.png" alt="Sweatcoinのロゴ" loading="lazy" /><a href="https://sweatco.in/" target="_blank" rel="noopener">Sweatcoin</a><br>広告の配信などに使われうる、という表示。<strong>気になるなら、iPhoneの「Appからのトラッキング要求」をオフにする</strong></td></tr>
+</tbody>
+</table>
+</div>
+
+<p class="source-note">出典：各アプリの App Store「Appのプライバシー」欄（2026年10月5日に確認）。表示は開発元の自己申告で、アプリの更新で変わることがある。</p>
+
+**位置情報のほかに、見ておくところは2つ。**
+
+<ul class="checklist">
+  <li><div class="checklist-body"><strong>運営が大きいか</strong><p>航空会社・通信キャリア・保険会社・小売の系列は、単体で畳みにくい。<strong>無名の運営は、Milesのように当日 終わることがある</strong>（<a href="#gone">後述</a>）。</p></div></li>
+  <li><div class="checklist-body"><strong>評価の件数</strong><p>星の数より<strong>件数</strong>を見る。Coke ON は約178万件で4.6、トリマは約37万件で4.3。<strong>件数が数百のアプリは、評価がまだ固まっていない</strong>。</p></div></li>
+</ul>
+
+<div class="section-with-mascot">
+  <div class="mascot-wrap"><img src="/images/expr-03-bashful.png" alt="Daily Hackマスコット" /></div>
+  <h2 id="shikumi">仕組み｜なぜ歩くだけでお金がもらえるのか。原資は4種類</h2>
+</div>
+
+**「歩くだけでお金がもらえるのは怪しい」と感じるのは正しい感覚。** ただ、原資を見ると理由ははっきりしている。**誰が、何のために払っているか**で4つに分かれる。
+
+<div class="cmp-table-wrap">
+<table class="cmp-table faq-table">
+<tbody>
+<tr><th><strong>広告費</strong></th><td><img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/bitwalk.png" alt="BitWalkのロゴ" loading="lazy" /><a href="https://lp.bitwalk.jp/" target="_blank" rel="noopener">BitWalk</a>／<img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/torima.png" alt="トリマのロゴ" loading="lazy" /><a href="https://www.trip-mile.com/" target="_blank" rel="noopener">トリマ</a>／<img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/anapocket.png" alt="ANA Pocketのロゴ" loading="lazy" /><a href="https://www.anapocket.com/" target="_blank" rel="noopener">ANA Pocket</a><br>BitWalkは公式に「広告主様からいただいた広告費の一部を…ビットコインとして還元」と書いている。<strong>広告を見るほど増える</strong>のはこの型</td></tr>
+<tr><th><strong>自社ポイント</strong></th><td><img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/rakutenhealth.png" alt="楽天ヘルスケアのロゴ" loading="lazy" /><a href="https://healthcare.rakuten.co.jp/" target="_blank" rel="noopener">楽天ヘルスケア</a>／<img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/rakutensenior.png" alt="楽天シニアのロゴ" loading="lazy" /><a href="https://senior.rakuten.co.jp/" target="_blank" rel="noopener">楽天シニア</a>／<img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/dhealth.png" alt="dヘルスケアのロゴ" loading="lazy" /><a href="https://health.docomo.ne.jp/" target="_blank" rel="noopener">dヘルスケア</a>／<img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/renobody.png" alt="RenoBodyのロゴ" loading="lazy" /><a href="https://info.renobody.jp/prod/index.html" target="_blank" rel="noopener">RenoBody</a>／<img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/pixela.png" alt="エブリポイントのロゴ" loading="lazy" /><a href="https://www.pixela.co.jp/products/everypoint/" target="_blank" rel="noopener">エブリポイント</a>／<img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/sugisapo.png" alt="スギサポwalk+のロゴ" loading="lazy" /><a href="https://www.sugi-net.jp/service/digital/sugisapo-walk+" target="_blank" rel="noopener">スギサポwalk+</a><br>楽天ポイント・dポイント・WAON POINT・スギポイントで払う。<strong>現金ではなく、その会社の中で使うポイント</strong>で戻ってくる</td></tr>
+<tr><th><strong>健康にかかるお金</strong></th><td><img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/vitality.png" alt="住友生命 Vitalityのロゴ" loading="lazy" /><a href="https://vitality.sumitomolife.co.jp/" target="_blank" rel="noopener">住友生命 Vitality</a>／<img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/kencom.png" alt="kencomのロゴ" loading="lazy" /><a href="https://kencom.jp/" target="_blank" rel="noopener">kencom</a>／自治体の健康ポイント<br>保険会社・健康保険組合・自治体が、<strong>健康づくりを後押しする事業として</strong>出している。だから対象者が決まっている</td></tr>
+<tr><th><strong>暗号資産の相場</strong></th><td><img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/stellawalk.png" alt="ステラウォークのロゴ" loading="lazy" /><a href="https://stellarwalk.app/" target="_blank" rel="noopener">ステラウォーク</a>／<img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/sweatcoin.png" alt="Sweatcoinのロゴ" loading="lazy" /><a href="https://sweatco.in/" target="_blank" rel="noopener">Sweatcoin</a>／<img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/stepn.png" alt="STEPNのロゴ" loading="lazy" /><a href="https://stepn.com/" target="_blank" rel="noopener">STEPN</a>／<img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/healthree.png" alt="HEALTHREEのロゴ" loading="lazy" /><a href="https://heal3.com/" target="_blank" rel="noopener">HEALTHREE</a><br>トークンを配る型。<strong>配る量は決まっていても、円での額は相場が決める</strong></td></tr>
+</tbody>
+</table>
+</div>
+
+**原資が分かると、貯まり方の天井も分かる。** 広告費型は広告を見た分だけ、自社ポイント型は1日数円の範囲で、相場型は相場しだい。**どれも「歩数だけで大きく稼げる」設計にはなっていない。**
 
 <div class="section-with-mascot">
   <div class="mascot-wrap"><img src="/images/expr-04-cheer.png" alt="Daily Hackマスコット" /></div>
@@ -865,7 +989,11 @@ references:
   <li><div class="checklist-body"><strong>Androidで歩数が増えないのはなぜ？</strong><p>Google Fitの仕様変更で、<strong>ヘルスコネクト経由に切り替わったアプリがある</strong>。楽天ヘルスケアは公式が案内を出している。連携設定をやり直す。</p></div></li>
   <li><div class="checklist-body"><strong>歩かずに広告だけで貯めてもいい？</strong><p>トリマでは<strong>歩かずに案件のみで貯めると、交換時に不正と誤検知されうる</strong>という報告がある。歩数を伴う使い方が前提。</p></div></li>
   <li><div class="checklist-body"><strong>Web3系は確定申告が要る？</strong><p>暗号資産で受け取ったものは、原則として所得になる。<strong>金額と状況で扱いが変わるので、税務署か税理士に確認すること。</strong></p></div></li>
-  <li><div class="checklist-body"><strong>結局どれが一番 稼げる？</strong><p>歩数だけで見ると<strong>どれも年3桁円</strong>。桁を変えたいなら、保険料が動くVitalityか、自治体の健康ポイントを見るほうが早い。</p></div></li>
+  <li><div class="checklist-body"><strong>結局どれが一番 稼げる？</strong><p>無料アプリの実績では<strong>エブリポイントが月1,000〜1,500円で1位</strong>だが、広告動画が前提で、2026年10月1日から交換が止まっている。<strong>いま入れるならトリマ</strong>（<a href="#ranking">ランキング</a>）。歩数だけで見ると<strong>どれも年3桁円</strong>で、桁を変えたいなら保険料が動くVitalityか、自治体の健康ポイントを見るほうが早い。</p></div></li>
+  <li><div class="checklist-body"><strong>広告なしで貯まるアプリは？</strong><p>Google Playに広告の表示がないのは<strong>Coke ON・スギサポwalk+・dヘルスケア・JAL Wellness &amp; Travel・kencom・STEPN</strong>。無料で誰でも使えるのは前の3つ（<a href="#noads">広告なしの節</a>）。</p></div></li>
+  <li><div class="checklist-body"><strong>PayPayに交換できるのは？</strong><p><strong>トリマ・アルコイン・ポイすら</strong>は直接。aruku&amp;はVポイントを経由すれば出せる。ANA Pocketは「掲載予定」の段階（<a href="#paypay">PayPayの節</a>）。</p></div></li>
+  <li><div class="checklist-body"><strong>位置情報を渡さずに使えるアプリは？</strong><p>App Storeの表示で位置情報を集めないとしているのは<strong>JAL・楽天ヘルスケア・dヘルスケア・エブリポイント・RenoBody・BitWalk・ヘルスリー・スギサポwalk+・Vitality</strong>（<a href="#safety">安全の節</a>）。</p></div></li>
+  <li><div class="checklist-body"><strong>歩いてポイ活は安全？</strong><p>渡すのは歩数と、アプリによっては位置情報。<strong>運営が大きいか・評価の件数が多いか</strong>を見る。無名の運営は、Milesのように当日 終わることがある（<a href="#gone">消えたアプリ</a>）。</p></div></li>
 </ul>
 
 <p class="source-note">出典：<img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/jalwellness.png" alt="JAL Wellness &amp; Travelのロゴ" loading="lazy" /><a href="https://www.jal.co.jp/jp/ja/jmb/wellness/" target="_blank" rel="noopener">JAL Wellness &amp; Travel</a>／<a href="https://www.ana.co.jp/ja/jp/shoppingandlife/point/" target="_blank" rel="noopener">ANAマイレージクラブ</a>／<img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/torima.png" alt="トリマのロゴ" loading="lazy" /><a href="https://www.trip-mile.com/" target="_blank" rel="noopener">トリマ</a>／<a href="https://www.arukuto.jp/" target="_blank" rel="noopener">aruku&amp;</a>／<a href="https://vitality.sumitomolife.co.jp/about/status/" target="_blank" rel="noopener">住友生命 Vitality</a>／<a href="https://kenkou-uplus.metro.tokyo.lg.jp/" target="_blank" rel="noopener">東京健康UPlus</a>／<a href="https://coinpost.jp/crypto/move-to-earn/bitwalk/" target="_blank" rel="noopener">CoinPost（BitWalk）</a>／<a href="https://hedge.guide/feature/healthree-bc202307.html" target="_blank" rel="noopener">HEDGE GUIDE（HEALTHREE）</a>。写真は Wikimedia Commons（CC BY-SA / CC0・各撮影者）。料金・交換レート・付与条件は改定されることがあるため、最新は各公式で確認すること。</p>
