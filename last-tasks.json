@@ -1,3 +1,3 @@
 [
-      {"task": "t235-asp-login-discovery.sh", "rc": 0, "out": "- **パスワード欄: あり（＝ログインしていない可能性）**  （該当するメニューのリンクなし）  ## もしもアフ�"}
+      {"task": "t237-install-asp-sync.sh", "rc": 0, "out": "rakuten: ログイン済み / 楽天ID 0 件 ```  - 詳細: `reports/asp-sync/`（status.json と ASP ごとの md） rc=0 /      913 bytes"}
   ]

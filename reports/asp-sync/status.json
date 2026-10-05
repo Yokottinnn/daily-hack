@@ -1,0 +1,44 @@
+{
+  "generated": "2026-10-05T15:05:38.837Z",
+  "providers": {
+    "a8": {
+      "name": "A8.net",
+      "loggedIn": true,
+      "needsHuman": false,
+      "credentialsInKeychain": false,
+      "reason": "",
+      "url": "https://media-console.a8.net/",
+      "title": "ページが見つかりません｜A8.netメディア管理画面",
+      "menus": 0
+    },
+    "moshimo": {
+      "name": "もしもアフィリエイト",
+      "loggedIn": false,
+      "needsHuman": false,
+      "credentialsInKeychain": false,
+      "reason": "ログインしていない。Keychain に ID・パスワードが無い",
+      "url": "https://af.moshimo.com/af/shop/login?ref=eJDJgOolzxCGHfGxZeAHC6gTC07jDz3-shERFTnqLtCs0NOLj50yGmZdwnWNsNWRcGfnak01Vslqb3_zrPXt8PWE5tk3NMWU7_71e1DEE9-olGh3vTho5Hd7dEhIFkrF.bosvHG0-bN26VTKAqP2A4Q.MzhkZjhmMTlhN2QyOWE3OTdhMzU2YWM1ZWMxNjQ5NTBhM2NmZTM1YjM5Y2E2ZTI3MjFkNzQ1YjE4YjI0OTcwNg",
+      "title": "ログイン ｜ もしもアフィリエイト"
+    },
+    "vc": {
+      "name": "バリューコマース",
+      "loggedIn": false,
+      "needsHuman": false,
+      "credentialsInKeychain": false,
+      "reason": "ログインしていない。Keychain に ID・パスワードが無い",
+      "url": "https://aff.valuecommerce.ne.jp/",
+      "title": "ログイン"
+    },
+    "rakuten": {
+      "name": "楽天アフィリエイト",
+      "loggedIn": true,
+      "needsHuman": false,
+      "credentialsInKeychain": false,
+      "reason": "",
+      "url": "https://affiliate.rakuten.co.jp/",
+      "title": "アフィリエイトを始めるなら！ 楽天アフィリエイト",
+      "affiliateIds": [],
+      "menus": 5
+    }
+  }
+}
