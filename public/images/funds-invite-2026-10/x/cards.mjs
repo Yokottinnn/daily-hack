@@ -8,7 +8,7 @@ import { fileURLToPath } from "node:url";
 
 const HERE = path.dirname(fileURLToPath(import.meta.url));
 const CARDS = [
-  { file: "1-gift.jpg", shot: "c-gift.jpg", wide: true, kicker: "紹介リンクから口座開設するだけ", title: "投資に使える現金 <em>2,000円</em>",
+  { file: "1-gift.jpg", shot: "c-gift.jpg", wide: true, logo: true, size: 60, kicker: "紹介リンクから口座開設するだけ", title: "投資に使える現金 <em>2,000円</em>",
     items: [["条件", "口座開設だけ", "投資はしなくていい"],
             ["期限", "2026/11/30の申請まで", "12/4までに開設完了したもの"],
             ["受け取り", "翌月末までに入金", "開設した月の翌月末が目安"]] },
@@ -44,6 +44,13 @@ li{background:#fff;border:2px solid var(--line);border-radius:24px;padding:30px 
 li .h{font-size:24px;font-weight:700;color:var(--pink-600)}
 li .b{font-size:32px;font-weight:900;line-height:1.3;margin-top:6px}
 li .s{font-size:22px;font-weight:500;color:var(--ink-2);margin-top:6px;line-height:1.45}
+/* 2026-10-06 のコメント: 3 つの箱のあいだの隙間を無くす。箱を縦いっぱいに伸ばし、中身は上下中央 */
+main:not(.wide) ul{justify-content:stretch;gap:22px}
+main:not(.wide) li{flex:1;display:flex;flex-direction:column;justify-content:center}
+/* 2026-10-06 のコメント: 1 枚目の帯の右上に Funds のロゴ */
+header.withlogo{flex-direction:row;align-items:center;justify-content:space-between}
+header .logo{flex:0 0 auto;background:#fff;border-radius:22px;padding:16px 22px;box-shadow:0 10px 26px -12px rgba(0,0,0,.5);align-self:flex-start;margin-top:44px;margin-left:24px}
+header .logo img{height:54px;display:block}
 main.wide{flex-direction:column;align-items:center;gap:28px;padding:34px 64px 0}
 .shotw{width:952px;height:580px;border-radius:32px;overflow:hidden;background:#fff;border:8px solid #fff;box-shadow:0 22px 44px -18px rgba(214,62,118,.38)}
 .shotw img{width:100%;height:100%;object-fit:cover;display:block;border-radius:24px}
@@ -51,7 +58,7 @@ ul.row{flex-direction:row;height:auto;width:952px;gap:18px}
 ul.row li{flex:1;padding:18px 20px}
 ul.row li .h{font-size:20px} ul.row li .b{font-size:24px;margin-top:4px} ul.row li .s{font-size:17px;margin-top:4px}
 </style></head><body>
-<header><div class="k">${c.kicker}</div><h1 style="font-size:${c.size || 72}px">${c.title}</h1></header>
+<header class="${c.logo ? "withlogo" : ""}"><div class="tt"><div class="k">${c.kicker}</div><h1 style="font-size:${c.size || 72}px">${c.title}</h1></div>${c.logo ? `<div class="logo"><img src="../logos/funds.png" alt="Funds"></div>` : ""}</header>
 ${c.wide ? `<main class="wide"><div class="shotw"><img src="../src/${c.shot}" alt=""></div>
 <ul class="row">${c.items.map(([h, b, s]) => `<li><div class="h">${h}</div><div class="b">${b}</div><div class="s">${s}</div></li>`).join("")}</ul></main>`
 : `<main><div class="shot" style="background:${c.bg || "#fff"}"><img src="../src/${c.shot}" alt="" style="object-fit:${c.fit || "cover"}"></div>
