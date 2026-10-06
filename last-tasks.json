@@ -1,3 +1,1 @@
-[
-      {"task": "t245-a8-candidate-names.sh", "rc": 0, "out": "| s00000027505001 | 失敗 TimeoutError: page.goto: Timeout 20000ms exceeded. Call log: | | | | s00000021551001 | 失敗 TimeoutError: page.goto: Timeout 20000ms exceeded. Call log: | | | | s00000005350011 | 失敗 TimeoutError: page.goto: Timeout 20000ms exceede"}
-  ]
+[]
