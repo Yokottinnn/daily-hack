@@ -2171,5 +2171,767 @@
         "v": 0
       }
     ]
+  },
+  "2026-10-05": {
+    "visits": 130,
+    "requests": 498,
+    "paths": 190,
+    "jp": 15,
+    "human": 21,
+    "top": [
+      {
+        "path": "/",
+        "v": 14,
+        "r": 16
+      },
+      {
+        "path": "/tags/2026/",
+        "v": 9,
+        "r": 9
+      },
+      {
+        "path": "/posts/lalaport-guide-2026/",
+        "v": 5,
+        "r": 5
+      },
+      {
+        "path": "/posts/point-service-complete-guide-2026/",
+        "v": 4,
+        "r": 4
+      },
+      {
+        "path": "/tags/PayPay/",
+        "v": 4,
+        "r": 4
+      },
+      {
+        "path": "/posts/gyudon-chains-cashless-2026-jun/",
+        "v": 3,
+        "r": 3
+      },
+      {
+        "path": "/posts/outlet-mall-guide-2026/",
+        "v": 3,
+        "r": 3
+      },
+      {
+        "path": "/tags/JAL/",
+        "v": 3,
+        "r": 3
+      },
+      {
+        "path": "/posts/momiji-2026-kanto/",
+        "v": 2,
+        "r": 2
+      },
+      {
+        "path": "/posts/furusato-portal-comparison-2026/",
+        "v": 2,
+        "r": 2
+      },
+      {
+        "path": "/posts/takanawa-gateway-city-guide-2026/",
+        "v": 2,
+        "r": 2
+      },
+      {
+        "path": "/posts/amazon-prime-day-rakuten-ss-2026/",
+        "v": 2,
+        "r": 2
+      },
+      {
+        "path": "/tags/Amazon/",
+        "v": 2,
+        "r": 2
+      },
+      {
+        "path": "/tags/%E6%B1%9F%E6%9D%B1%E5%8C%BA/",
+        "v": 2,
+        "r": 2
+      },
+      {
+        "path": "/tags/IKEA/",
+        "v": 2,
+        "r": 2
+      },
+      {
+        "path": "/author/",
+        "v": 2,
+        "r": 2
+      },
+      {
+        "path": "/posts/fixed-cost-reduction-guide-2026/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/posts/matsuya-60th-cashless-2026-jun/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/posts/money-hacks-hourly-wage-2026/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/posts/nisa-investment-beginner-guide-2026/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/posts/tokyo-bay-hanabi-2026/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/posts/morning-500-2026/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/posts/rakuten-bank-referral/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/posts/ana-pocket-vs-jal-wellness-2026/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/posts/best-online-banks-2026/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/posts/internet-line-comparison-2026/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/posts/cheap-sim-comparison-2026/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/posts/furusato-tax-beginner-guide-2026/",
+        "v": 1,
+        "r": 2
+      },
+      {
+        "path": "/posts/ideco-2026-reform-guide/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/posts/wangan-supermarkets-2026/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/posts/hoso-daigaku-gakuwari-2026/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/posts/summer-cospa-travel-2026/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/posts/ikea-toyosu-2026/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/posts/",
+        "v": 1,
+        "r": 3
+      },
+      {
+        "path": "/posts/furusato-tax-daily-goods-2026/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E6%97%A7%E5%8F%A4%E6%B2%B3%E5%BA%AD%E5%9C%92/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E6%9D%B1%E4%BA%AC%20%E7%B4%85%E8%91%89%20%E3%81%8A%E3%81%99%E3%81%99%E3%82%81/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/DMM%20FX/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E6%B9%BE%E5%B2%B8/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E5%B0%8F%E7%9F%B3%E5%B7%9D%E5%BE%8C%E6%A5%BD%E5%9C%92/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E3%83%9E%E3%82%AF%E3%83%89%E3%83%8A%E3%83%AB%E3%83%89/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/FX/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E4%BD%8F%E5%AE%85%E3%83%AD%E3%83%BC%E3%83%B3/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E3%83%A1%E3%83%B3%E3%82%BA%E3%83%AA%E3%82%BC/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/JAL%20Wellness%20Travel/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/Pixel%20Moon/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E6%B8%85%E6%BE%84%E5%BA%AD%E5%9C%92/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E3%82%A4%E3%82%B1%E3%82%A2/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E3%81%B5%E3%82%8B%E3%81%95%E3%81%A8%E3%83%81%E3%83%A7%E3%82%A4%E3%82%B9/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E3%82%BD%E3%83%8B%E3%83%83%E3%82%AF/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E9%AB%98%E8%BC%AA%E3%82%B2%E3%83%BC%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A4/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E3%83%8B%E3%83%A5%E3%82%A6%E3%83%9E%E3%83%B3%E9%AB%98%E8%BC%AA%20%E3%83%AC%E3%82%B9%E3%83%88%E3%83%A9%E3%83%B3/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E3%83%8B%E3%83%A5%E3%82%A6%E3%83%9E%E3%83%B3%E9%AB%98%E8%BC%AA/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E3%83%A9%E3%83%B3%E3%82%AD%E3%83%B3%E3%82%B0/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E9%AB%98%E8%BC%AA%E3%82%B2%E3%83%BC%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A4%E3%82%B7%E3%83%86%E3%82%A3/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E6%A5%BD%E5%A4%A9%E3%81%B5%E3%82%8B%E3%81%95%E3%81%A8%E7%B4%8D%E7%A8%8E/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E8%B2%B7%E3%81%84%E6%99%82/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/IKEA%E8%B1%8A%E6%B4%B2/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E6%9D%B1%E4%BA%AC%E3%83%AA%E3%83%99%E3%83%B3%E3%82%B8%E3%83%A3%E3%83%BC%E3%82%BA/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/category/roundups/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/JRE%20POINT/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E8%82%89%E3%81%AE%E3%83%8F%E3%83%8A%E3%83%9E%E3%82%B5/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/SBI/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/ANA/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E5%AD%A6%E7%94%9F%E8%A8%BC/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E3%81%B5%E3%82%8B%E3%81%AA%E3%81%B3/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E3%81%95%E3%81%A8%E3%81%B5%E3%82%8B/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/SBI%20FX/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E6%98%AD%E5%92%8C%E8%A8%98%E5%BF%B5%E5%85%AC%E5%9C%92/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E3%81%99%E3%81%8D%E5%AE%B6/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E3%81%B5%E3%82%8B%E3%81%95%E3%81%A8%E7%B4%8D%E7%A8%8E%20%E3%82%B5%E3%82%A4%E3%83%88/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/Apple%20Pay/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E6%96%BD%E8%A8%AD%E4%B8%80%E8%A6%A7/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/JAL%20Wellness%20&%20Travel/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/category/comparisons/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E3%83%A9%E3%82%A4%E3%83%88%E3%82%A2%E3%83%83%E3%83%97/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E6%94%BE%E9%80%81%E5%A4%A7%E5%AD%A6/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E9%AB%98%E8%BC%AA%E3%82%B2%E3%83%BC%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A4%E3%82%B7%E3%83%86%E3%82%A3%20%E9%A7%90%E8%BB%8A%E5%A0%B4/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88%E4%BB%98%E4%B8%8E%E7%A6%81%E6%AD%A2/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/Amazon%E3%83%97%E3%83%A9%E3%82%A4%E3%83%A0%E3%83%87%E3%83%BC/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E7%A8%8E%E9%87%91/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/googleb7553492de41927d",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E9%AB%98%E8%BC%AA%E3%82%B2%E3%83%BC%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A4%E3%82%B7%E3%83%86%E3%82%A3%20%E3%83%A9%E3%83%B3%E3%83%81/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E4%BA%A4%E6%8F%9B%E3%83%AC%E3%83%BC%E3%83%88/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E3%82%B3%E3%83%A1%E3%83%80%E7%8F%88%E7%90%B2%E5%BA%97/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/posts/furusato-tax-2026-reform-guide/",
+        "v": 0,
+        "r": 1
+      },
+      {
+        "path": "/images/point-service-complete-guide-2026/logos/nanaco.png",
+        "v": 0,
+        "r": 2
+      },
+      {
+        "path": "/images/point-service-complete-guide-2026/logos/aeon.png",
+        "v": 0,
+        "r": 1
+      },
+      {
+        "path": "/images/lalaport-guide-2026/logos/mitsuifudosan.png",
+        "v": 0,
+        "r": 3
+      },
+      {
+        "path": "/images/outlet-mall-guide-2026/eyecatch.jpg",
+        "v": 0,
+        "r": 2
+      },
+      {
+        "path": "/images/point-service-complete-guide-2026/logos/paypay.png",
+        "v": 0,
+        "r": 1
+      },
+      {
+        "path": "/images/point-service-complete-guide-2026/chaosmap.png",
+        "v": 0,
+        "r": 3
+      },
+      {
+        "path": "/images/furusato-tax-beginner-guide-2026/logos/ana-furusato.png",
+        "v": 0,
+        "r": 1
+      },
+      {
+        "path": "/images/outlet-mall-guide-2026/photos/rinku.jpg",
+        "v": 0,
+        "r": 3
+      },
+      {
+        "path": "/images/expr-07-gasp.png",
+        "v": 0,
+        "r": 4
+      },
+      {
+        "path": "/robots.txt",
+        "v": 0,
+        "r": 43
+      },
+      {
+        "path": "/images/lalaport-guide-2026/photos/anjo.jpg",
+        "v": 0,
+        "r": 4
+      },
+      {
+        "path": "/images/furusato-tax-beginner-guide-2026/logos/rakuten-furusato.png",
+        "v": 0,
+        "r": 1
+      },
+      {
+        "path": "/images/lalaport-guide-2026/photos/fac-vivit.jpg",
+        "v": 0,
+        "r": 1
+      },
+      {
+        "path": "/images/furusato-tax-beginner-guide-2026/logos/furusato-premium.png",
+        "v": 0,
+        "r": 1
+      },
+      {
+        "path": "/images/matsuya-60th-cashless-2026-jun/matsuya60-collage.jpg",
+        "v": 0,
+        "r": 1
+      },
+      {
+        "path": "/images/point-service-complete-guide-2026/logos/ponta.png",
+        "v": 0,
+        "r": 2
+      },
+      {
+        "path": "/images/point-service-complete-guide-2026/logos/anapocket.png",
+        "v": 0,
+        "r": 2
+      },
+      {
+        "path": "/images/amazon-prime-day-rakuten-ss-2026/eyecatch.jpg",
+        "v": 0,
+        "r": 4
+      },
+      {
+        "path": "/images/point-service-complete-guide-2026/logos/moppy.png",
+        "v": 0,
+        "r": 1
+      },
+      {
+        "path": "/images/expr-03-bashful.png",
+        "v": 0,
+        "r": 1
+      },
+      {
+        "path": "/images/expr-01-wave.png",
+        "v": 0,
+        "r": 8
+      },
+      {
+        "path": "/images/point-service-complete-guide-2026/screens/torima-2.png",
+        "v": 0,
+        "r": 1
+      },
+      {
+        "path": "/images/outlet-mall-guide-2026/photos/kisarazu.jpg",
+        "v": 0,
+        "r": 3
+      },
+      {
+        "path": "/images/fx-account-comparison-2026/eyecatch.jpg",
+        "v": 0,
+        "r": 2
+      },
+      {
+        "path": "/images/wangan/tokyo-monument-eyecatch.jpg",
+        "v": 0,
+        "r": 6
+      },
+      {
+        "path": "/images/walk-poikatsu-2026/eyecatch.jpg",
+        "v": 0,
+        "r": 2
+      },
+      {
+        "path": "/images/furusato-tax-beginner-guide-2026/logos/furunavi.png",
+        "v": 0,
+        "r": 1
+      },
+      {
+        "path": "/favicon.ico",
+        "v": 0,
+        "r": 7
+      },
+      {
+        "path": "/images/eyecatch/summer-cospa-collage.jpg",
+        "v": 0,
+        "r": 3
+      },
+      {
+        "path": "/images/eyecatch/services.jpg",
+        "v": 0,
+        "r": 1
+      },
+      {
+        "path": "/images/lalaport-guide-2026/eyecatch.jpg",
+        "v": 0,
+        "r": 2
+      },
+      {
+        "path": "/images/internet/flets-hikari.png",
+        "v": 0,
+        "r": 4
+      },
+      {
+        "path": "/images/point-service-complete-guide-2026/screens/torima-icon.png",
+        "v": 0,
+        "r": 1
+      },
+      {
+        "path": "/images/store-badges/app-store-ja.svg",
+        "v": 0,
+        "r": 1
+      },
+      {
+        "path": "/images/lalaport-guide-2026/photos/yokohama.jpg",
+        "v": 0,
+        "r": 8
+      },
+      {
+        "path": "/images/takanawa-gateway-city-guide-2026/logos/saunas.svg",
+        "v": 0,
+        "r": 1
+      },
+      {
+        "path": "/images/point-service-complete-guide-2026/logos/olive.png",
+        "v": 0,
+        "r": 2
+      },
+      {
+        "path": "/images/point-service-complete-guide-2026/screens/paypay-1.png",
+        "v": 0,
+        "r": 1
+      },
+      {
+        "path": "/images/point-service-complete-guide-2026/eyecatch.jpg",
+        "v": 0,
+        "r": 2
+      },
+      {
+        "path": "/_astro/BaseLayout.BJ42Gwg4.css",
+        "v": 0,
+        "r": 6
+      },
+      {
+        "path": "/images/eyecatch/roundups.jpg",
+        "v": 0,
+        "r": 1
+      },
+      {
+        "path": "/images/takanawa-gateway-city-guide-2026/eyecatch.jpg",
+        "v": 0,
+        "r": 6
+      }
+    ],
+    "truncated": false,
+    "countries": [
+      {
+        "k": "US",
+        "v": 76
+      },
+      {
+        "k": "FR",
+        "v": 27
+      },
+      {
+        "k": "JP",
+        "v": 15
+      },
+      {
+        "k": "FI",
+        "v": 2
+      },
+      {
+        "k": "NL",
+        "v": 2
+      },
+      {
+        "k": "TW",
+        "v": 1
+      },
+      {
+        "k": "MX",
+        "v": 1
+      },
+      {
+        "k": "NZ",
+        "v": 1
+      },
+      {
+        "k": "PL",
+        "v": 1
+      },
+      {
+        "k": "KR",
+        "v": 1
+      },
+      {
+        "k": "BE",
+        "v": 1
+      },
+      {
+        "k": "GB",
+        "v": 1
+      },
+      {
+        "k": "BR",
+        "v": 1
+      },
+      {
+        "k": "SE",
+        "v": 0
+      }
+    ],
+    "browsers": [
+      {
+        "k": "Unknown",
+        "v": 46
+      },
+      {
+        "k": "BingBot",
+        "v": 44
+      },
+      {
+        "k": "Chrome",
+        "v": 16
+      },
+      {
+        "k": "GoogleBot",
+        "v": 14
+      },
+      {
+        "k": "TwitterBot",
+        "v": 5
+      },
+      {
+        "k": "ChromeMobile",
+        "v": 3
+      },
+      {
+        "k": "Opera",
+        "v": 1
+      },
+      {
+        "k": "ChromeMobileWebview",
+        "v": 1
+      },
+      {
+        "k": "MobileSafariWebview",
+        "v": 0
+      },
+      {
+        "k": "Firefox",
+        "v": 0
+      },
+      {
+        "k": "AppleBot",
+        "v": 0
+      },
+      {
+        "k": "Edge",
+        "v": 0
+      },
+      {
+        "k": "Safari",
+        "v": 0
+      }
+    ]
   }
 }
