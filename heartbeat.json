@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T23:33:57Z",
+  "generated_at": "2026-10-08T00:04:12Z",
   "login_lock": {"present": false, "age_hours": 0},
   "cdp": {"healthy": true, "port": 18810},
   "x_jobs": {"loaded": 8, "expected": 8, "ai_total": 15, "halted": false, "missing": []},
@@ -43,12 +43,12 @@
     "detail": "有効期限内"
   },
   "activity": {
-    "date": "2026-10-07",
-    "posted_today": 68,
+    "date": "2026-10-08",
+    "posted_today": 2,
     "detail": "ログを走査した",
     "sources": [
-      {"file": "comment-orchestrator.log", "count": 23},
-      {"file": "comment-warmup.log", "count": 45}
+      {"file": "comment-orchestrator.log", "count": 1},
+      {"file": "comment-warmup.log", "count": 1}
     ]
   },
   "autoload": {
@@ -127,10 +127,10 @@
   },
   "followers": {
     "now": 334,
-    "prev": 308,
-    "prev_date": "2026-10-04",
-    "span_days": 3,
-    "record_age_days": 0,
+    "prev": 309,
+    "prev_date": "2026-10-05",
+    "span_days": 2,
+    "record_age_days": 1,
     "record_stale": false,
     "target": 300,
     "deadline": "2026-09-30"
