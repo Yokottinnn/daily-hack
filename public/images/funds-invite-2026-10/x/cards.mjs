@@ -8,7 +8,7 @@ import { fileURLToPath } from "node:url";
 
 const HERE = path.dirname(fileURLToPath(import.meta.url));
 const CARDS = [
-  { file: "1-gift.jpg", shot: "c-gift.jpg", wide: true, logo: true, size: 60, kicker: "紹介リンクから口座開設するだけ", title: "投資に使える現金 <em>2,000円</em>",
+  { file: "1-gift.jpg", shot: "c-gift.jpg", wide: true, logo: true, size: 60, bgImage: "c-city.jpg", kicker: "紹介リンクから口座開設するだけ", title: "投資に使える現金 <em>2,000円</em>",
     items: [["条件", "口座開設だけ", "投資はしなくていい"],
             ["期限", "2026/11/30の申請まで", "12/4までに開設完了したもの"],
             ["受け取り", "翌月末までに入金", "開設した月の翌月末が目安"]] },
@@ -27,21 +27,27 @@ const CARDS = [
 ];
 
 const html = (c) => `<!doctype html><html lang="ja"><head><meta charset="utf-8"><style>
-:root{--pink-600:#D63E76;--yellow-500:#F5C518;--ink:#2A1923;--ink-2:#5A4651;--line:#F1DCE5;--cream-50:#FFFBEE}
+/* 2026-10-08 のコメント「カラーをファンズのカラーに合わせて」: funds.jp と招待ページの画面から取った色だけを使う
+   濃紺 #0F2554（口座開設ボタン）／空色 #6BCAF8→#A9E3FB（見出しの地）／コーラル #DE5F72（2,000 の文字・申込ボタン） */
+:root{--navy:#0F2554;--navy-2:#1B3B78;--sky:#6BCAF8;--sky-2:#A9E3FB;--sky-50:#EEF8FE;--coral:#DE5F72;--ink:#0F2554;--ink-2:#4A5B78;--line:#CFE7F6}
 *{box-sizing:border-box;margin:0;padding:0}
 html,body{width:1080px;height:1080px;overflow:hidden}
-body{font-family:"Noto Sans JP",sans-serif;background:var(--cream-50);color:var(--ink)}
-header{height:250px;background:linear-gradient(135deg,#2A1923,#46293A);display:flex;flex-direction:column;justify-content:center;padding:0 64px}
-header .k{font-size:32px;font-weight:700;color:var(--yellow-500);letter-spacing:.03em}
+body{font-family:"Noto Sans JP",sans-serif;background:var(--sky-50);color:var(--ink)}
+header{height:250px;background:linear-gradient(135deg,var(--navy),var(--navy-2));display:flex;flex-direction:column;justify-content:center;padding:0 64px;position:relative;overflow:hidden}
+header > *{position:relative;z-index:2}
+/* 2026-10-08 のコメント「上部の背景画像にテーマにあった画像を、気にならないくらい薄く」: funds.jp の見出し画像の街並みを薄く敷く */
+header .bg{position:absolute;inset:-8px;z-index:0;background-size:cover;background-position:center 40%;opacity:.14;filter:blur(2px)}
+header .scrim{position:absolute;inset:0;z-index:1;background:linear-gradient(90deg,rgba(15,37,84,.55),rgba(15,37,84,.15))}
+header .k{font-size:32px;font-weight:700;color:var(--sky);letter-spacing:.03em}
 header h1{font-size:72px;font-weight:900;line-height:1.15;margin-top:10px;color:#fff;white-space:nowrap}
-header h1 em{font-style:normal;color:var(--yellow-500)}
+header h1 em{font-style:normal;color:var(--sky)}
 main{display:flex;gap:40px;padding:48px 64px 0}
 .shot{flex:0 0 440px;height:730px;border-radius:32px;overflow:hidden;background:#fff;border:8px solid #fff;
-      box-shadow:0 22px 44px -18px rgba(214,62,118,.38)}
+      box-shadow:0 22px 44px -18px rgba(15,37,84,.35)}
 .shot img{width:100%;height:100%;object-fit:cover;object-position:top;display:block;border-radius:24px}
 ul{list-style:none;display:flex;flex-direction:column;justify-content:space-between;height:730px;flex:1}
-li{background:#fff;border:2px solid var(--line);border-radius:24px;padding:30px 28px;box-shadow:0 8px 24px -14px rgba(214,62,118,.28)}
-li .h{font-size:24px;font-weight:700;color:var(--pink-600)}
+li{background:#fff;border:2px solid var(--line);border-radius:24px;padding:30px 28px;box-shadow:0 8px 24px -14px rgba(15,37,84,.25)}
+li .h{font-size:24px;font-weight:700;color:var(--coral)}
 li .b{font-size:32px;font-weight:900;line-height:1.3;margin-top:6px}
 li .s{font-size:22px;font-weight:500;color:var(--ink-2);margin-top:6px;line-height:1.45}
 /* 2026-10-06 のコメント: 3 つの箱のあいだの隙間を無くす。箱を縦いっぱいに伸ばし、中身は上下中央 */
@@ -52,13 +58,13 @@ header.withlogo{flex-direction:row;align-items:center;justify-content:space-betw
 header .logo{flex:0 0 auto;background:#fff;border-radius:22px;padding:16px 22px;box-shadow:0 10px 26px -12px rgba(0,0,0,.5);align-self:flex-start;margin-top:44px;margin-left:24px}
 header .logo img{height:54px;display:block}
 main.wide{flex-direction:column;align-items:center;gap:28px;padding:34px 64px 0}
-.shotw{width:952px;height:580px;border-radius:32px;overflow:hidden;background:#fff;border:8px solid #fff;box-shadow:0 22px 44px -18px rgba(214,62,118,.38)}
+.shotw{width:952px;height:580px;border-radius:32px;overflow:hidden;background:#fff;border:8px solid #fff;box-shadow:0 22px 44px -18px rgba(15,37,84,.35)}
 .shotw img{width:100%;height:100%;object-fit:cover;display:block;border-radius:24px}
 ul.row{flex-direction:row;height:auto;width:952px;gap:18px}
 ul.row li{flex:1;padding:18px 20px}
 ul.row li .h{font-size:20px} ul.row li .b{font-size:24px;margin-top:4px} ul.row li .s{font-size:17px;margin-top:4px}
 </style></head><body>
-<header class="${c.logo ? "withlogo" : ""}"><div class="tt"><div class="k">${c.kicker}</div><h1 style="font-size:${c.size || 72}px">${c.title}</h1></div>${c.logo ? `<div class="logo"><img src="../logos/funds.png" alt="Funds"></div>` : ""}</header>
+<header class="${c.logo ? "withlogo" : ""}">${c.bgImage ? `<div class="bg" style="background-image:url(../src/${c.bgImage})"></div><div class="scrim"></div>` : ""}<div class="tt"><div class="k">${c.kicker}</div><h1 style="font-size:${c.size || 72}px">${c.title}</h1></div>${c.logo ? `<div class="logo"><img src="../logos/funds.png" alt="Funds"></div>` : ""}</header>
 ${c.wide ? `<main class="wide"><div class="shotw"><img src="../src/${c.shot}" alt=""></div>
 <ul class="row">${c.items.map(([h, b, s]) => `<li><div class="h">${h}</div><div class="b">${b}</div><div class="s">${s}</div></li>`).join("")}</ul></main>`
 : `<main><div class="shot" style="background:${c.bg || "#fff"}"><img src="../src/${c.shot}" alt="" style="object-fit:${c.fit || "cover"}"></div>
