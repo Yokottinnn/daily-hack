@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-10T02:57:09Z",
+  "generated_at": "2026-10-10T03:27:21Z",
   "login_lock": {"present": false, "age_hours": 0},
   "cdp": {"healthy": true, "port": 18810},
   "x_jobs": {"loaded": 8, "expected": 8, "ai_total": 15, "halted": false, "missing": []},
-  "last_reply": {"at": "2026-10-09T20:04:40.102Z", "age_hours": 6, "stale": false},
+  "last_reply": {"at": "2026-10-10T03:04:25.948Z", "age_hours": 0, "stale": false},
   "supervisor": {"at":"2026-10-09T20:04:41Z","date_jst":"2026-10-10","ran":9,"total":9,"not_run":[],"fixed":[]},
-  "followback_bands": {"with_count":349,"total_rows":708,"bands":{"1000-4999":{"n":113,"back":15,"mature":106,"mature_back":15,"rate":14.2},"300-999":{"n":85,"back":15,"mature":74,"mature_back":11,"rate":14.9},"0-99":{"n":74,"back":14,"mature":70,"mature_back":14,"rate":20},"5000-49999":{"n":57,"back":2,"mature":52,"mature_back":2,"rate":3.8},"100-299":{"n":19,"back":5,"mature":17,"mature_back":5,"rate":29.4},"50000-up":{"n":1,"back":1,"mature":1,"mature_back":1,"rate":100}},"status_values":{"no":551,"revenge_ghost_already_unfollowed":48,"unfollowed":16,"yes_late":1,"yes":77,"pending":15},"note":"mature の率で見る"},
+  "followback_bands": {"with_count":350,"total_rows":709,"bands":{"1000-4999":{"n":113,"back":15,"mature":106,"mature_back":15,"rate":14.2},"300-999":{"n":86,"back":15,"mature":75,"mature_back":12,"rate":16},"0-99":{"n":74,"back":14,"mature":70,"mature_back":14,"rate":20},"5000-49999":{"n":57,"back":2,"mature":52,"mature_back":2,"rate":3.8},"100-299":{"n":19,"back":5,"mature":17,"mature_back":5,"rate":29.4},"50000-up":{"n":1,"back":1,"mature":1,"mature_back":1,"rate":100}},"status_values":{"no":551,"revenge_ghost_already_unfollowed":48,"unfollowed":16,"yes_late":1,"yes":77,"pending":16},"note":"mature の率で見る"},
   "host": "NaokinoMacBook-Pro-2.local",
   "job_count": 24,
   "jobs": [
@@ -44,11 +44,11 @@
   },
   "activity": {
     "date": "2026-10-10",
-    "posted_today": 11,
+    "posted_today": 20,
     "detail": "ログを走査した",
     "sources": [
-      {"file": "comment-orchestrator.log", "count": 4},
-      {"file": "comment-warmup.log", "count": 7}
+      {"file": "comment-orchestrator.log", "count": 7},
+      {"file": "comment-warmup.log", "count": 13}
     ]
   },
   "autoload": {
