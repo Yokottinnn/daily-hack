@@ -1,0 +1,10 @@
+{
+  "funds.png": {
+    "brand": "Funds（ファンズ）",
+    "source": "Funds の紹介キャンペーンページ（invy.jp/funds/guest・ファンズ株式会社）の見出しに表示されたロゴを、x253 で deviceScaleFactor 2.5 で撮った画面から切り出した（色・形は変えていない。余白のみ調整）",
+    "page": "https://invy.jp/il/5JY-2gnbaKt8OkYcEi0AdA==",
+    "fetched": "2026-10-06",
+    "license_note": "商標。識別目的で使用",
+    "task": "ops/tasks/x253-shoot-funds-gift-box.sh"
+  }
+}

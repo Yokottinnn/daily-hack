@@ -37,6 +37,8 @@ const FILES = {
   // **未投稿**（2026-10-04）。1〜3 枚目は利用者が Slack で共有したアプリの画面（本人の画面・切り出しだけ）。
   // 4 枚目はロゴ（App Store のアイコン）と App Store 掲載素材の自作カード。出所の行が要らない
   "jal-2x-2026-10": ["1-notice.jpg", "2-monthly.jpg", "3-history.jpg", "4-service.jpg"],
+  // **未投稿**（2026-10-05）。FUNDS の紹介（利用者の招待リンク）。素材は招待ページと funds.jp の画面だけ（公式の画面・出所の行は要らない）
+  "funds-invite-2026-10": ["1-gift.jpg", "2-service.jpg", "3-fund.jpg", "4-story.jpg"],
 };
 
 const map = {};
