@@ -1,1 +1,5 @@
-[]
+[
+      {"task": "x254-post-funds.sh", "rc": 0, "out": "**FUNDS 紹介のスレッドを出した。x255 で実物を確認する** / post-funds.md"},
+      {"task": "x255-proof-funds-thread.sh", "rc": 0, "out": "FUNDS スレッドの証跡を取った / proof-funds-thread.md"},
+      {"task": "x256-read-tokyu-card-pages.sh", "rc": 0, "out": "東急カードのページを読んだ / tokyu-card-pages.md"}
+  ]
