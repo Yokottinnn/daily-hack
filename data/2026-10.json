@@ -5709,5 +5709,743 @@
         "v": 0
       }
     ]
+  },
+  "2026-10-09": {
+    "visits": 295,
+    "requests": 616,
+    "paths": 225,
+    "jp": 12,
+    "human": 23,
+    "top": [
+      {
+        "path": "/tags/2026/",
+        "v": 17,
+        "r": 17
+      },
+      {
+        "path": "/",
+        "v": 15,
+        "r": 17
+      },
+      {
+        "path": "/posts/lalaport-guide-2026/",
+        "v": 13,
+        "r": 13
+      },
+      {
+        "path": "/tags/PayPay/",
+        "v": 8,
+        "r": 8
+      },
+      {
+        "path": "/posts/walk-poikatsu-2026/",
+        "v": 7,
+        "r": 7
+      },
+      {
+        "path": "/tags/Amazon/",
+        "v": 7,
+        "r": 7
+      },
+      {
+        "path": "/posts/takanawa-gateway-city-guide-2026/",
+        "v": 5,
+        "r": 5
+      },
+      {
+        "path": "/tags/%E6%96%B0%E5%AE%BF%E5%BE%A1%E8%8B%91/",
+        "v": 5,
+        "r": 5
+      },
+      {
+        "path": "/tags/JAL%20Wellness%20&%20Travel/",
+        "v": 4,
+        "r": 4
+      },
+      {
+        "path": "/tags/IKEA/",
+        "v": 4,
+        "r": 4
+      },
+      {
+        "path": "/tags/%E9%AB%98%E8%BC%AA%E3%82%B2%E3%83%BC%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A4/",
+        "v": 4,
+        "r": 4
+      },
+      {
+        "path": "/tags/%E9%AB%98%E8%BC%AA%E3%82%B2%E3%83%BC%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A4%E3%82%B7%E3%83%86%E3%82%A3/",
+        "v": 4,
+        "r": 4
+      },
+      {
+        "path": "/tags/JAL/",
+        "v": 4,
+        "r": 4
+      },
+      {
+        "path": "/tags/%E6%97%A5%E9%8A%80/",
+        "v": 4,
+        "r": 4
+      },
+      {
+        "path": "/posts/rakuten-marathon-guide-2026/",
+        "v": 3,
+        "r": 3
+      },
+      {
+        "path": "/posts/outlet-mall-guide-2026/",
+        "v": 3,
+        "r": 3
+      },
+      {
+        "path": "/posts/momiji-2026-kanto/",
+        "v": 3,
+        "r": 3
+      },
+      {
+        "path": "/posts/price-hike-2026-summer-defense/",
+        "v": 3,
+        "r": 3
+      },
+      {
+        "path": "/posts/wangan-supermarkets-2026/",
+        "v": 3,
+        "r": 3
+      },
+      {
+        "path": "/tags/%E5%B0%B1%E8%88%AA%E9%83%BD%E5%B8%82/",
+        "v": 3,
+        "r": 3
+      },
+      {
+        "path": "/tags/%E3%83%8B%E3%83%A5%E3%82%A6%E3%83%9E%E3%83%B3%E9%AB%98%E8%BC%AA%20%E3%83%AC%E3%82%B9%E3%83%88%E3%83%A9%E3%83%B3/",
+        "v": 3,
+        "r": 3
+      },
+      {
+        "path": "/tags/%E6%97%A5%E5%85%89/",
+        "v": 3,
+        "r": 3
+      },
+      {
+        "path": "/tags/Apple%20Pay/",
+        "v": 3,
+        "r": 3
+      },
+      {
+        "path": "/tags/%E5%8C%97%E6%AC%A7%E3%82%A4%E3%83%B3%E3%83%86%E3%83%AA%E3%82%A2/",
+        "v": 3,
+        "r": 3
+      },
+      {
+        "path": "/tags/JRE%20POINT/",
+        "v": 3,
+        "r": 3
+      },
+      {
+        "path": "/tags/%E5%85%AD%E7%BE%A9%E5%9C%92/",
+        "v": 3,
+        "r": 3
+      },
+      {
+        "path": "/tags/%E9%AB%98%E8%BC%AA%E3%82%B2%E3%83%BC%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A4%20%E3%82%AB%E3%83%95%E3%82%A7/",
+        "v": 3,
+        "r": 3
+      },
+      {
+        "path": "/tags/JAL%20Wellness%20Travel/",
+        "v": 3,
+        "r": 3
+      },
+      {
+        "path": "/tags/%E6%97%A5%E6%9C%AC%E9%80%9A%E4%BF%A1/",
+        "v": 3,
+        "r": 3
+      },
+      {
+        "path": "/tags/%E6%97%A7%E5%8F%A4%E6%B2%B3%E5%BA%AD%E5%9C%92/",
+        "v": 3,
+        "r": 3
+      },
+      {
+        "path": "/tags/SBI/",
+        "v": 3,
+        "r": 3
+      },
+      {
+        "path": "/tags/%E6%97%85%E8%A1%8C/",
+        "v": 3,
+        "r": 3
+      },
+      {
+        "path": "/tags/ANA/",
+        "v": 3,
+        "r": 3
+      },
+      {
+        "path": "/tags/%E5%AE%9F%E5%8A%B9%E6%99%82%E7%B5%A6/",
+        "v": 3,
+        "r": 3
+      },
+      {
+        "path": "/tags/%E6%98%8E%E6%B2%BB%E7%A5%9E%E5%AE%AE%E5%A4%96%E8%8B%91/",
+        "v": 3,
+        "r": 3
+      },
+      {
+        "path": "/tags/%E5%AD%A6%E7%94%9F%E8%A8%BC/",
+        "v": 3,
+        "r": 3
+      },
+      {
+        "path": "/tags/SBI%20FX/",
+        "v": 3,
+        "r": 3
+      },
+      {
+        "path": "/tags/FX/",
+        "v": 3,
+        "r": 3
+      },
+      {
+        "path": "/posts/sauna-openings-2026/",
+        "v": 2,
+        "r": 2
+      },
+      {
+        "path": "/posts/wangan-tower-construction-map-2026/",
+        "v": 2,
+        "r": 2
+      },
+      {
+        "path": "/posts/gyudon-chains-cashless-2026-jun/",
+        "v": 2,
+        "r": 2
+      },
+      {
+        "path": "/posts/tokyo-discount-supermarket-2026/",
+        "v": 2,
+        "r": 2
+      },
+      {
+        "path": "/posts/move-to-earn-poikatsu-apps-2026/",
+        "v": 2,
+        "r": 2
+      },
+      {
+        "path": "/tags/%E3%81%B5%E3%82%8B%E3%81%AA%E3%81%B3/",
+        "v": 2,
+        "r": 2
+      },
+      {
+        "path": "/tags/%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88%E4%BB%98%E4%B8%8E%E7%A6%81%E6%AD%A2/",
+        "v": 2,
+        "r": 2
+      },
+      {
+        "path": "/tags/%E9%AB%98%E8%BC%AA%E3%82%B2%E3%83%BC%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A4%E3%82%B7%E3%83%86%E3%82%A3%20%E3%83%A9%E3%83%B3%E3%83%81/",
+        "v": 2,
+        "r": 2
+      },
+      {
+        "path": "/tags/%E3%81%B5%E3%82%8B%E3%81%95%E3%81%A8%E7%B4%8D%E7%A8%8E%20%E3%82%B5%E3%82%A4%E3%83%88/",
+        "v": 2,
+        "r": 2
+      },
+      {
+        "path": "/tags/ANA%E3%81%AE%E3%81%B5%E3%82%8B%E3%81%95%E3%81%A8%E7%B4%8D%E7%A8%8E/",
+        "v": 2,
+        "r": 2
+      },
+      {
+        "path": "/tags/%E3%83%AA%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%A2%E3%83%AB/",
+        "v": 2,
+        "r": 2
+      },
+      {
+        "path": "/tags/%E6%9D%B1%E4%BA%AC%20%E7%B4%85%E8%91%89%20%E3%81%8A%E3%81%99%E3%81%99%E3%82%81/",
+        "v": 2,
+        "r": 2
+      },
+      {
+        "path": "/tags/%E6%A0%BC%E5%AE%89%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC/",
+        "v": 2,
+        "r": 2
+      },
+      {
+        "path": "/tags/%E3%83%AD%E3%83%94%E3%82%A2/",
+        "v": 2,
+        "r": 2
+      },
+      {
+        "path": "/tags/%E3%81%A8%E3%81%A8%E3%81%AE%E3%81%86/",
+        "v": 2,
+        "r": 2
+      },
+      {
+        "path": "/tags/%E6%97%A5%E6%9C%AC%E6%97%85%E8%A1%8C/",
+        "v": 2,
+        "r": 2
+      },
+      {
+        "path": "/tags/%E5%A4%A7%E7%94%B0%E9%BB%92%E5%85%AC%E5%9C%92/",
+        "v": 2,
+        "r": 2
+      },
+      {
+        "path": "/tags/%E3%81%BE%E3%81%84%E3%81%B0%E3%81%99%E3%81%91%E3%81%A3%E3%81%A8/",
+        "v": 2,
+        "r": 2
+      },
+      {
+        "path": "/tags/%E6%96%B0%E9%9B%BB%E5%8A%9B/",
+        "v": 2,
+        "r": 2
+      },
+      {
+        "path": "/tags/%E6%96%B0%E7%AF%89%E3%83%9E%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%B3/",
+        "v": 2,
+        "r": 2
+      },
+      {
+        "path": "/tags/MoN%20Takanawa/",
+        "v": 2,
+        "r": 2
+      },
+      {
+        "path": "/tags/%E6%96%BD%E8%A8%AD%E4%B8%80%E8%A6%A7/",
+        "v": 2,
+        "r": 2
+      },
+      {
+        "path": "/tags/%E3%83%89%E3%83%B3%E3%83%BB%E3%82%AD%E3%83%9B%E3%83%BC%E3%83%86/",
+        "v": 2,
+        "r": 2
+      },
+      {
+        "path": "/tags/%E9%AB%98%E5%B0%BE%E5%B1%B1/",
+        "v": 2,
+        "r": 2
+      },
+      {
+        "path": "/tags/%E4%B8%89%E4%BA%95%E3%82%A2%E3%82%A6%E3%83%88%E3%83%AC%E3%83%83%E3%83%88%E3%83%91%E3%83%BC%E3%82%AF/",
+        "v": 2,
+        "r": 2
+      },
+      {
+        "path": "/tags/%E9%96%A2%E6%9D%B1/",
+        "v": 2,
+        "r": 2
+      },
+      {
+        "path": "/tags/DMM%20FX/",
+        "v": 2,
+        "r": 2
+      },
+      {
+        "path": "/tags/%E3%83%A9%E3%82%A4%E3%83%88%E3%82%A2%E3%83%83%E3%83%97/",
+        "v": 2,
+        "r": 2
+      },
+      {
+        "path": "/posts/summer-cospa-travel-2026/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/posts/yodobashi-vs-amazon-rakuten-2026/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/posts/narita-haneda-overseas-direct-2026/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/posts/point-service-complete-guide-2026/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/posts/wangan-festivals-2026/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/posts/mens-hairremoval-comparison-2026/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/posts/tokyo-bay-hanabi-2026/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/posts/morning-500-2026/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/posts/point-exchange-route-2026/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/posts/odaiba-drone-show-2026/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/posts/furusato-portal-comparison-2026/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/posts/wangan-money-guide-2026/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/posts/video-subscription-cost-per-view-2026/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/posts/wangan-august-events-2026/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/posts/hoso-daigaku-gakuwari-2026/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E9%AB%98%E8%BC%AA%E3%82%B2%E3%83%BC%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A4%E3%82%B7%E3%83%86%E3%82%A3%20%E9%A7%90%E8%BB%8A%E5%A0%B4/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E7%8C%9B%E6%9A%91/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E3%81%95%E3%81%A8%E3%81%B5%E3%82%8B/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E3%82%A4%E3%83%B3%E3%83%95%E3%82%A3%E3%83%8B%E3%83%86%E3%82%A3%E3%83%97%E3%83%BC%E3%83%AB/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E6%98%AD%E5%92%8C%E8%A8%98%E5%BF%B5%E5%85%AC%E5%9C%92/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E6%AD%A9%E3%81%84%E3%81%A6%E3%83%9D%E3%82%A4%E6%B4%BB/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E8%82%89%E3%81%AE%E3%83%8F%E3%83%8A%E3%83%9E%E3%82%B5/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/category/campaigns/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E5%8B%9D%E3%81%A9%E3%81%8D/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E6%9D%B1%E4%BA%AC%E3%83%AA%E3%83%99%E3%83%B3%E3%82%B8%E3%83%A3%E3%83%BC%E3%82%BA/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E6%9C%89%E6%98%8E/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E6%94%BE%E9%80%81%E5%A4%A7%E5%AD%A6/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E3%82%AA%E3%83%BC%E3%82%B1%E3%83%BC/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/IKEA%E8%B1%8A%E6%B4%B2/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E3%83%98%E3%83%AB%E3%82%B9%E3%83%AA%E3%83%BC/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/about/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E5%B0%8F%E7%9F%B3%E5%B7%9D%E5%BE%8C%E6%A5%BD%E5%9C%92/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E3%81%AA%E3%81%8B%E5%8D%AF/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E9%89%84%E9%81%93/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E3%83%81%E3%82%A7%E3%83%BC%E3%83%B3%E5%BA%97/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/contact/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E3%83%9E%E3%82%AF%E3%83%89%E3%83%8A%E3%83%AB%E3%83%89/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/EC/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E8%A5%BF%E5%8F%8B/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E6%A5%BD%E5%A4%A9%E5%B8%82%E5%A0%B4/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E5%AD%90%E8%82%B2%E3%81%A6%E6%94%AF%E6%8F%B4/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E6%A5%BD%E5%A4%A9%E3%81%B5%E3%82%8B%E3%81%95%E3%81%A8%E7%B4%8D%E7%A8%8E/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/BitWalk/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/Pixel%20Moon/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E3%83%8B%E3%83%A5%E3%82%A6%E3%83%9E%E3%83%B3%E9%AB%98%E8%BC%AA/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E6%B8%85%E6%BE%84%E5%BA%AD%E5%9C%92/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E3%82%A4%E3%82%B1%E3%82%A2/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E7%9B%86%E8%B8%8A%E3%82%8A/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E9%AB%98%E9%82%84%E5%85%83/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E8%88%9E%E6%B5%9C%E3%83%A6%E3%83%BC%E3%83%A9%E3%82%B7%E3%82%A2/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E3%81%B5%E3%82%8B%E3%81%95%E3%81%A8%E3%83%81%E3%83%A7%E3%82%A4%E3%82%B9/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/category/services/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E6%A5%AD%E5%8B%99%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E3%83%89%E3%83%A9%E3%81%88%E3%82%82%E3%82%93/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E9%AB%98%E8%BC%AASAUNAS/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E7%B4%85%E8%91%892026/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E6%9D%B1%E4%BA%AC/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/Web3/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E3%83%A9%E3%83%B3%E3%82%AD%E3%83%B3%E3%82%B0/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E3%82%B3%E3%83%A1%E3%83%80%E7%8F%88%E7%90%B2%E5%BA%97/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E3%83%88%E3%83%A9%E3%82%A4%E3%82%A2%E3%83%AB/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E5%A4%8F%E7%A5%AD%E3%82%8A/",
+        "v": 1,
+        "r": 1
+      }
+    ],
+    "truncated": false,
+    "countries": [
+      {
+        "k": "US",
+        "v": 140
+      },
+      {
+        "k": "FR",
+        "v": 117
+      },
+      {
+        "k": "DE",
+        "v": 17
+      },
+      {
+        "k": "JP",
+        "v": 12
+      },
+      {
+        "k": "NL",
+        "v": 4
+      },
+      {
+        "k": "NZ",
+        "v": 2
+      },
+      {
+        "k": "FI",
+        "v": 1
+      },
+      {
+        "k": "KR",
+        "v": 1
+      },
+      {
+        "k": "AU",
+        "v": 1
+      },
+      {
+        "k": "GB",
+        "v": 0
+      }
+    ],
+    "browsers": [
+      {
+        "k": "Unknown",
+        "v": 189
+      },
+      {
+        "k": "BingBot",
+        "v": 69
+      },
+      {
+        "k": "Chrome",
+        "v": 14
+      },
+      {
+        "k": "GoogleBot",
+        "v": 8
+      },
+      {
+        "k": "AppleBot",
+        "v": 4
+      },
+      {
+        "k": "ChromeMobileWebview",
+        "v": 3
+      },
+      {
+        "k": "Safari",
+        "v": 3
+      },
+      {
+        "k": "ChromeDerivative",
+        "v": 2
+      },
+      {
+        "k": "TwitterBot",
+        "v": 2
+      },
+      {
+        "k": "ChromeMobile",
+        "v": 1
+      },
+      {
+        "k": "MobileSafariWebview",
+        "v": 0
+      }
+    ]
   }
 }
