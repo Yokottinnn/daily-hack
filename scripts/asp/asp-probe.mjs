@@ -44,6 +44,14 @@ try {
       lines.push(`- 「楽天カード」で検索した画面: ${here()}`, '');
       lines.push('## 検索結果の画面のボタン', '', ...(await links(/リンク|作成|コピー|ツール/)).map(([t, h]) => `- ${t} — ${h}`), '');
     } else lines.push('- 検索欄が見つからない', '');
+    // 「商品リンク作成」の画面を開くと、アフィリエイト ID 入りのリンクのコードが出る
+    const mk = await p.evaluate(() => { const a = [...document.querySelectorAll('a[href*="/link/pc/item"]')][0]; return a ? a.href : ''; });
+    if (mk) {
+      await go(mk);
+      lines.push(`- 商品リンク作成の画面: ${here()}`, '');
+      const codes = await p.evaluate(() => [...document.querySelectorAll('textarea, input[type=text]')].map((t) => t.value || '').filter((v) => /rakuten/.test(v)).slice(0, 3));
+      lines.push('## 画面に出たリンクのコード（先頭だけ）', '', '```text', ...codes.map((c) => c.replace(/\s+/g, ' ').slice(0, 400)), '```', '');
+    }
     const got = await p.evaluate((src) => {
       const html = document.documentElement.outerHTML;
       const ids = [...new Set(html.match(new RegExp(src, 'g')) || [])];
@@ -60,6 +68,7 @@ try {
     const found = new Map();
     for (const kw of KW) {
       await go(`https://media-console.a8.net/program/search/keyword?keywords=${encodeURIComponent(kw)}`);
+      if (kw === KW[0]) lines.push(`- 開いた画面: ${here()}（${(await p.title()).slice(0, 40)}）`, `- 画面の programId リンク数: ${await p.locator('a[href*="programId="]').count()}`, '');
       const rows = await p.evaluate(() => {
         const out = [];
         const seen = new Set();
@@ -89,6 +98,8 @@ try {
   if (WHICH === 'vc') {
     await go('https://aff.valuecommerce.ne.jp/home');
     lines.push(`- 開いた画面: ${here()}`, '');
+    const paths = await p.evaluate(() => [...new Set([...document.querySelectorAll('a[href]')].map((a) => a.href).filter((h) => h.includes('aff.valuecommerce.ne.jp')).map((h) => h.replace(/[?#].*$/, '').replace(/\/\d+$/, '/<数字>')))].sort());
+    lines.push('## 画面にあるバリューコマース内のリンク先（重複なし）', '', ...paths.map((x) => `- ${x}`), '');
     lines.push('## 「提携」を含むメニュー', '', ...(await links(/提携|参加|広告主|広告を探す/)).map(([t, h]) => `- ${t} — ${h}`), '');
     const el = p.locator('a, [role=button], button, li, span').filter({ hasText: /^\s*提携済み\s*$/ }).first();
     if (await el.count()) {
@@ -100,7 +111,10 @@ try {
       const rows = await p.evaluate(() => {
         const seen = new Set();
         return [...document.querySelectorAll('a[href*="adDetail"]')]
-          .map((a) => [(a.innerText || '').replace(/\s+/g, ' ').trim().slice(0, 80), a.href.replace(/\?.*$/, '')])
+          .map((a) => { let r = a; for (let i = 0; i < 5 && r.parentElement; i++) { r = r.parentElement; if ((r.innerText || '').length > (a.innerText || '').length + 10) break; }
+            const st = ((r.innerText || '').match(/提携中|提携済み?|提携待ち|未提携|審査中|新規提携|即時提携/g) || []).join('・');
+            const vis = !!(a.offsetWidth || a.offsetHeight);
+            return [`${(a.innerText || '').replace(/\s+/g, ' ').trim().slice(0, 70)}［${st || '状態の表示なし'}${vis ? '' : '・非表示'}］`, a.href.replace(/\?.*$/, '')]; })
           .filter(([t, h]) => t && !seen.has(h) && seen.add(h));
       });
       lines.push(`## 広告の行（${rows.length} 件）`, '', ...rows.filter(([t]) => !NG.test(t)).map(([t, h]) => `- ${t.replace(/\|/g, '／')} — ${h}`), '');
