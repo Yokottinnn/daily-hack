@@ -167,6 +167,27 @@ try {
     lines.push('## 画面の行（先頭 60）', '', '```text', ...raw.text.filter((x) => !NG.test(x) && !/@/.test(x)), '```', '', '## 画面のリンク', '', ...raw.links.filter((x) => !/@/.test(x)).map((x) => `- ${x}`), '');
   }
 
+  if (WHICH === 'rakutenitem') {
+    // キーワードで商品を探し、上から 3 件の「商品リンク作成」でリンクの URL を丸ごと取る（ID は商品ごとに違うので、商品ごとに取る）
+    for (const kw of (process.env.RAKUTEN_KW || '').split(',').filter(Boolean)) {
+      await go('https://affiliate.rakuten.co.jp/');
+      const box = p.locator('input[name=sitem]:visible, input[type=search]:visible').first();
+      if (!(await box.count())) { lines.push('- 検索欄が見つからない'); break; }
+      await box.fill(kw); await box.press('Enter');
+      await p.waitForLoadState('domcontentloaded', { timeout: 20000 }).catch(() => {}); await p.waitForTimeout(5000);
+      const mks = await p.evaluate(() => [...new Set([...document.querySelectorAll('a[href*="/link/pc/item"]')].map((a) => a.href))].slice(0, 3));
+      lines.push(`## 「${kw}」`, '');
+      for (const mk of mks) {
+        const name = decodeURIComponent((mk.match(/goods_name=([^&]*)/) || [])[1] || '').slice(0, 60);
+        const price = decodeURIComponent((mk.match(/price=([^&]*)/) || [])[1] || '');
+        await go(mk);
+        const url = await p.evaluate(() => { for (const t of document.querySelectorAll('textarea, input[type=text]')) { const m = (t.value || '').match(/https?:\/\/hb\.afl\.rakuten\.co\.jp\/ichiba\/[^"'<\s]+/); if (m) return m[0].replace(/&amp;/g, '&'); } return ''; });
+        lines.push(`- ${name}（${price}）`, `  - ${url || '（リンクが取れない）'}`);
+      }
+      lines.push('');
+    }
+  }
+
   if (WHICH === 'vc4') {
     // 提携済みの「Yahoo!ショッピング」の広告詳細から、リンクのコード（sid・pid が入る公開値）を読む
     await go('https://aff.valuecommerce.ne.jp/ad/adDetail/2136156');
