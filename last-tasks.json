@@ -1,5 +1,5 @@
 [
-      {"task": "t256-rakuten-link-code.sh", "rc": 0, "out": "- ツールを使う —  - ツールを使う — https://affiliate.rakuten.co.jp/tool?l-id=af_header_tool_01 - 商品リンク作成 — https://affiliate.rakuten.co.jp/link/pc/item?me_id=1258569&item_id=10000350&me_url=https://item.rakuten.co.jp/edyshop/edy-rpoint_red/&me_img_src=https://thumbnai"},
-      {"task": "t257-a8-candidate-names3.sh", "rc": 0, "out": "- 提携の表示: 未提携 - リンク: https://media-console.a8.net/program/detail-not-partnered?programId=s00000026575004&fromSearch=true https://support.a8.net/a8/as/faq/2008/05/c.html https://support.a8.net/a8/as/faq/2025/post_2604.html https://media-console.a8.net/program/search/keyword?keywo"},
-      {"task": "t258-vc-partnered-list2.sh", "rc": 0, "out": " ## 広告の行（21 件）  - ［即時提携・即時提携・即時提携・即時提携・即時提携・即時提携・即時提携・即時提携・即時提携・即時提携・即時提携・即時提携］ — https://aff.valuecommerce.ne.jp/ad/adDetail/2175234 - ランカミー｜スリ�"}
+      {"task": "t259-rakuten-link-format.sh", "rc": 0, "out": "- ポイント企画バナー — https://affiliate.rakuten.co.jp/link/pc/shop?cmd=shop&me_adv_category_id=85&me_id=1 - 季節特集バナー — https://affiliate.rakuten.co.jp/link/pc/shop?cmd=shop&me_adv_category_id=58&me_id=1  ``` rc=0 /     1866 bytes"},
+      {"task": "t260-a8-candidate-detail.sh", "rc": 0, "out": "### s00000015597014 - 題名: プログラム詳細｜A8.netメディア管理画面 - 見出し: プログラム詳細 ／ 【三井ショッピングパークカード《セゾン》】 ／ プログラムの提携申請 - 名前らしい行: サイト名 ／ 広告主サイト ／ プログラム"},
+      {"task": "t261-vc-adlist.sh", "rc": 0, "out": "## 「提携」を含むリンク・ボタン  - 新規提携 — javascript:void(0) - 提携済み — javascript:void(0) - 提携待ち �"}
   ]
