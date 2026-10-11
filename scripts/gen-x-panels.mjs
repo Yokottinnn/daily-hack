@@ -138,7 +138,7 @@ table.t tr.hl td{background:#FFF6F9;color:var(--pink-700);font-weight:900}
 .chips div{flex:1;background:var(--pink);color:#fff;border-radius:18px;padding:16px 18px;font-size:25px;font-weight:900;text-align:center;line-height:1.35}
 ${p.css || ""}
 </style></head><body>
-<header>${p.bgImage ? `<div class="bg" style="background-image:url('${src(p.bgImage)}')"></div><div class="scrim"></div>` : ""}<div class="tt"><div class="k">${p.kicker}</div><h1>${p.title}</h1></div>${p.logo ? `<div class="logo"><img src="${src(p.logo)}" alt=""></div>` : ""}</header>
+${p.noHeader ? "" : `<header>${p.bgImage ? `<div class="bg" style="background-image:url('${src(p.bgImage)}')"></div><div class="scrim"></div>` : ""}<div class="tt"><div class="k">${p.kicker}</div><h1>${p.title}</h1></div>${p.logo ? `<div class="logo"><img src="${src(p.logo)}" alt=""></div>` : ""}</header>`}
 <main>
 ${p.kind === "wide" ? `<div class="shot"><img src="${src(p.img)}" alt="">${p.caption ? `<div class="cap">${p.caption}</div>` : ""}</div>${items(p.items)}` : ""}
 ${p.kind === "cal" ? cal(p.cal) : ""}
@@ -158,6 +158,7 @@ for (const p of cfg.panels) {
   // 見出しが帯からはみ出すなら、収まるまで縮める（1 行のまま）
   const fitted = await pg.evaluate(() => {
     const h = document.querySelector("header h1"), box = document.querySelector("header .tt");
+    if (!h || !box) return 0;
     let s = parseFloat(getComputedStyle(h).fontSize);
     while (h.scrollWidth > box.clientWidth && s > 40) { s -= 2; h.style.fontSize = s + "px"; }
     return s;
@@ -170,7 +171,7 @@ for (const p of cfg.panels) {
   });
   // **読めない画像があれば止める。** 灰色の空カードがエラーも出さずに出力される（x-post-images §4）
   if (bad.length || !bgOk) throw new Error(p.file + ": 画像が読めない " + JSON.stringify(bad) + (bgOk ? "" : " ／ 帯の背景"));
-  const overflow = await pg.evaluate(() => document.querySelector("main").scrollHeight + document.querySelector("header").offsetHeight > 1080);
+  const overflow = await pg.evaluate(() => document.querySelector("main").scrollHeight + ((document.querySelector("header") || {}).offsetHeight || 0) > 1080);
   await pg.screenshot({ path: path.join(OUT, p.file), type: "jpeg", quality: 90 });
   fs.unlinkSync(tmp);
   console.log(p.file, "見出し " + fitted + "px", overflow ? "**下にはみ出している**" : "");
