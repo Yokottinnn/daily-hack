@@ -1,0 +1,39 @@
+{
+ "_note": "X 告知画像の素材。**CC0 / パブリックドメインだけ**（出所の行が要らない・CLAUDE.md 最上位ルール 8）。Wikimedia Commons から 2026-10-11 に取得。記事本文の写真（CC BY / CC BY-SA・公式）は使っていない",
+ "rikugien-night.jpg": {
+  "title": "File:ライトアップされた木造橋. 六義園で撮影 Pcs34560 IMG9221.jpg",
+  "license": "Public domain",
+  "artist": "pcs34560",
+  "date": "2017-11-25",
+  "page": "https://commons.wikimedia.org/wiki/File:%E3%83%A9%E3%82%A4%E3%83%88%E3%82%A2%E3%83%83%E3%83%97%E3%81%95%E3%82%8C%E3%81%9F%E6%9C%A8%E9%80%A0%E6%A9%8B._%E5%85%AD%E7%BE%A9%E5%9C%92%E3%81%A7%E6%92%AE%E5%BD%B1_Pcs34560_IMG9221.jpg",
+  "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/%E3%83%A9%E3%82%A4%E3%83%88%E3%82%A2%E3%83%83%E3%83%97%E3%81%95%E3%82%8C%E3%81%9F%E6%9C%A8%E9%80%A0%E6%A9%8B._%E5%85%AD%E7%BE%A9%E5%9C%92%E3%81%A7%E6%92%AE%E5%BD%B1_Pcs34560_IMG9221.jpg/1920px-%E3%83%A9%E3%82%A4%E3%83%88%E3%82%A2%E3%83%83%E3%83%97%E3%81%95%E3%82%8C%E3%81%9F%E6%9C%A8%E9%80%A0%E6%A9%8B._%E5%85%AD%E7%BE%A9%E5%9C%92%E3%81%A7%E6%92%AE%E5%BD%B1_Pcs34560_IMG9221.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "fetched": "2026-10-11"
+ },
+ "nikko-shoyoen.jpg": {
+  "title": "File:Shoyo-en, Nikko - Shoyoen7820.jpg",
+  "license": "CC0",
+  "artist": "lumoplank",
+  "date": "before 16 April 2026date QS:P,+2026-04-16T00:00:00Z/7,P1326,+2026-04-16T00:00:00Z/11",
+  "page": "https://commons.wikimedia.org/wiki/File:Shoyo-en,_Nikko_-_Shoyoen7820.jpg",
+  "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Shoyo-en%2C_Nikko_-_Shoyoen7820.jpg/1920px-Shoyo-en%2C_Nikko_-_Shoyoen7820.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "fetched": "2026-10-11"
+ },
+ "nikko-shoyoen-night.jpg": {
+  "title": "File:Shoyo-en, Nikko - Shoyoen7824.jpg",
+  "license": "CC0",
+  "artist": "lumoplank",
+  "date": "before 16 April 2026date QS:P,+2026-04-16T00:00:00Z/7,P1326,+2026-04-16T00:00:00Z/11",
+  "page": "https://commons.wikimedia.org/wiki/File:Shoyo-en,_Nikko_-_Shoyoen7824.jpg",
+  "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Shoyo-en%2C_Nikko_-_Shoyoen7824.jpg/1920px-Shoyo-en%2C_Nikko_-_Shoyoen7824.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "fetched": "2026-10-11"
+ },
+ "maple.jpg": {
+  "title": "File:20131022Acer palmatum.jpg",
+  "license": "CC0",
+  "artist": "AnRo0002",
+  "date": "Taken on 22 October 2013",
+  "page": "https://commons.wikimedia.org/wiki/File:20131022Acer_palmatum.jpg",
+  "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/20131022Acer_palmatum.jpg/1920px-20131022Acer_palmatum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "fetched": "2026-10-11"
+ }
+}

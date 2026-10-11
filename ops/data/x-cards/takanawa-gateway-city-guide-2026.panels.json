@@ -1,0 +1,129 @@
+{
+  "_doc": "X 告知用の正方形画像。node scripts/gen-x-panels.mjs ops/data/x-cards/takanawa-gateway-city-guide-2026.panels.json",
+  "_note": "**出所の行が無いのは、権利表記の要らない素材だけで組んだから**（2026-09-20 の指示・CLAUDE.md 最上位ルール 8）。記事本文の写真は公式からの借り物と CC BY-SA なので使っていない。写真は Wikimedia Commons の CC0 だけ（x/src/_manifest.json）、ロゴは記事の logos/（商標・識別目的）。**ここに CC BY-SA や公式の写真を戻すなら、出所の行も戻すこと。** 時刻・料金はすべて記事（2026-10-04 公開）にあるもの",
+  "imageBase": "public/images/takanawa-gateway-city-guide-2026",
+  "out": "public/images/takanawa-gateway-city-guide-2026/x",
+  "theme": "ink",
+  "panels": [
+    {
+      "file": "1-morning.jpg",
+      "kind": "wide",
+      "shotH": 520,
+      "bgImage": "x/src/city-rail.jpg",
+      "bgOpacity": 0.22,
+      "kicker": "グランドオープンから半年",
+      "title": "この街、<em>朝7時</em>から開いてる",
+      "img": "x/src/linkpillar1-south.jpg",
+      "imgPos": "center 55%",
+      "caption": "THE LINKPILLAR 1 South（改札から徒歩1分）",
+      "items": [
+        {
+          "logo": "logos/verve.png",
+          "h": "7:00〜22:00",
+          "b": "VERVE COFFEE ROASTERS",
+          "s": "South・North 1F"
+        },
+        {
+          "logo": "logos/ogawa-pan013.png",
+          "h": "7:00〜21:00",
+          "b": "PAN：013",
+          "s": "MIMURE 2F のベーカリー"
+        },
+        {
+          "logo": "logos/ogawa-cup092.png",
+          "h": "8:00〜23:00",
+          "b": "CUP：092",
+          "s": "MIMURE 2F。低層が閉まったあとも開いてる"
+        }
+      ]
+    },
+    {
+      "file": "2-luftbaum.jpg",
+      "kind": "wide",
+      "shotH": 500,
+      "bgImage": "x/src/linkpillar1-north.jpg",
+      "bgOpacity": 0.2,
+      "kicker": "THE LINKPILLAR 1 North の28・29階",
+      "title": "LUFTBAUM は<em>8時〜24時</em>",
+      "img": "x/src/linkpillar1-north.jpg",
+      "imgPos": "center 40%",
+      "caption": "THE LINKPILLAR 1 North",
+      "items": [
+        {
+          "h": "28・29階",
+          "b": "8:00〜24:00",
+          "s": "LUFTBAUM エリアの開放時間"
+        },
+        {
+          "h": "中身",
+          "b": "レストランと庭",
+          "s": "パブリックガーデンがある"
+        },
+        {
+          "logo": "logos/saunas.svg",
+          "h": "同じ North の5階",
+          "b": "高輪SAUNAS",
+          "s": "11:00〜26:00・サウナ室は男女あわせて9室"
+        }
+      ]
+    },
+    {
+      "file": "3-mon.jpg",
+      "kind": "wide",
+      "shotH": 560,
+      "bgImage": "x/src/mon.jpg",
+      "bgOpacity": 0.2,
+      "kicker": "MoN Takanawa",
+      "title": "10/10から「竜とそばかすの姫」",
+      "img": "x/src/mon.jpg",
+      "imgPos": "center 45%",
+      "caption": "MoN Takanawa: The Museum of Narratives",
+      "items": [
+        {
+          "h": "10/10〜11/15",
+          "b": "アニマーシブライブ",
+          "s": "「竜とそばかすの姫 - PROJECT LAYRA -」"
+        },
+        {
+          "h": "11月末〜2027年3月末",
+          "b": "「Feel the Sound」展",
+          "s": "展覧会・インスタレーション"
+        },
+        {
+          "h": "チケット要らず",
+          "b": "万博の藻類スツール",
+          "s": "大阪・関西万博 日本館にあったもの"
+        }
+      ]
+    },
+    {
+      "file": "4-access.jpg",
+      "kind": "wide",
+      "shotH": 520,
+      "bgImage": "x/src/station-gate.jpg",
+      "bgOpacity": 0.2,
+      "kicker": "電車でも車でも",
+      "title": "駐車場は最大<em>2,500円</em>",
+      "img": "x/src/station-gate.jpg",
+      "imgPos": "center 55%",
+      "caption": "高輪ゲートウェイ駅の改札",
+      "items": [
+        {
+          "h": "駐車場",
+          "b": "30分500円",
+          "s": "駐車後24時間まで最大2,500円。時間帯で変わらない"
+        },
+        {
+          "h": "買い物で",
+          "b": "5,000円以上で1,000円分",
+          "s": "ニュウマン高輪の当日の合算。2万円以上なら2,000円分"
+        },
+        {
+          "h": "電車なら",
+          "b": "改札から徒歩1分",
+          "s": "泉岳寺 A2出口から徒歩3分"
+        }
+      ]
+    }
+  ]
+}

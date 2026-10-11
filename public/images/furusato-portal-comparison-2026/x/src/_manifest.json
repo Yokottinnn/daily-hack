@@ -1,0 +1,39 @@
+{
+ "_note": "X 告知画像の素材。**CC0 / パブリックドメインだけ**（出所の行が要らない・CLAUDE.md 最上位ルール 8）。Wikimedia Commons から 2026-10-11 に取得。記事本文の写真（CC BY / CC BY-SA・公式）は使っていない",
+ "salmon-box.jpg": {
+  "title": "File:Box of salmon from Shiranuka.jpg",
+  "license": "CC0",
+  "artist": "Syced",
+  "date": "2021-11-18 09:13",
+  "page": "https://commons.wikimedia.org/wiki/File:Box_of_salmon_from_Shiranuka.jpg",
+  "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Box_of_salmon_from_Shiranuka.jpg/1920px-Box_of_salmon_from_Shiranuka.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "fetched": "2026-10-11"
+ },
+ "muscat.jpg": {
+  "title": "File:Shine Muscat (20241101).jpg",
+  "license": "CC0",
+  "artist": "Fumikas Sagisavas",
+  "date": "2024-11-01 18:34:30",
+  "page": "https://commons.wikimedia.org/wiki/File:Shine_Muscat_(20241101).jpg",
+  "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Shine_Muscat_%2820241101%29.jpg/1920px-Shine_Muscat_%2820241101%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "fetched": "2026-10-11"
+ },
+ "kaisendon.jpg": {
+  "title": "File:Kaisen-don 002.jpg",
+  "license": "CC0",
+  "artist": "Ocdp",
+  "date": "2020-09-08 12:48:49",
+  "page": "https://commons.wikimedia.org/wiki/File:Kaisen-don_002.jpg",
+  "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Kaisen-don_002.jpg/1920px-Kaisen-don_002.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "fetched": "2026-10-11"
+ },
+ "ikura.jpg": {
+  "title": "File:Salmon roe1.jpg",
+  "license": "CC0",
+  "artist": "Contributor21022018",
+  "date": "2017-08-11 09:11:12",
+  "page": "https://commons.wikimedia.org/wiki/File:Salmon_roe1.jpg",
+  "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Salmon_roe1.jpg/1920px-Salmon_roe1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "fetched": "2026-10-11"
+ }
+}

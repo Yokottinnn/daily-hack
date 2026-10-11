@@ -1,0 +1,54 @@
+{
+  "_doc": "X 告知用の正方形画像。node scripts/gen-x-panels.mjs ops/data/x-cards/furusato-portal-comparison-2026.panels.json",
+  "_note": "**出所の行が無いのは、権利表記の要らない素材だけで組んだから**（2026-09-20 の指示・CLAUDE.md 最上位ルール 8）。記事本文の返礼品の写真は CC BY / CC BY-SA なので使っていない。写真は Wikimedia Commons の CC0 だけ（x/src/_manifest.json）、ロゴは記事の logos/（商標・識別目的・改変しない）。**ここに CC BY / CC BY-SA を戻すなら、出所の行も戻すこと。** 文言・数字はすべて記事（2026-10-04 公開）にあるもの",
+  "imageBase": "public/images/furusato-portal-comparison-2026",
+  "out": "public/images/furusato-portal-comparison-2026/x",
+  "theme": "rose",
+  "panels": [
+    {
+      "file": "1-ban.jpg",
+      "kind": "html",
+      "bgImage": "x/src/salmon-box.jpg",
+      "bgOpacity": 0.2,
+      "kicker": "2025年10月1日から",
+      "title": "サイトのポイント付与は禁止",
+      "html": "<div class=\"quote\">「ポータルサイトによるふるさと納税へのポイント付与ができなくなりました」<small>楽天ふるさと納税のトップの告知</small></div><div class=\"lead\">でも、差は残ってる</div><div class=\"chips\"><div>手持ちのポイントで<br>払えるか</div><div>決済側の<br>還元</div><div>サイト<br>独自のもの</div></div><div class=\"logos\"><div><img src=\"logos/rakuten-furusato.png\"><span>楽天ふるさと納税</span></div><div><img src=\"logos/aupay-furusato.png\"><span>au PAY ふるさと納税</span></div><div><img src=\"logos/ana-furusato.png\"><span>ANAのふるさと納税</span></div><div><img src=\"logos/satofull.webp\"><span>さとふる</span></div><div><img src=\"logos/furunavi.png\"><span>ふるなび</span></div><div><img src=\"logos/furusato-choice.png\"><span>ふるさとチョイス</span></div></div>",
+      "css": "main{gap:26px;padding-top:40px}.lead{font-size:38px;font-weight:900;text-align:center;color:var(--pink-700)}.chips div{padding:20px 18px;font-size:27px}.logos{gap:16px}.logos div{height:132px;flex-direction:column;gap:8px}.logos img{max-height:58px}.logos span{font-size:19px;font-weight:700;color:var(--ink-2)}"
+    },
+    {
+      "file": "2-points.jpg",
+      "kind": "html",
+      "bgImage": "x/src/kaisendon.jpg",
+      "bgOpacity": 0.2,
+      "kicker": "いちばん分かりやすい選び方",
+      "title": "貯めてるポイントで払えるサイト",
+      "html": "<div class=\"rows\"><div class=\"r\"><div class=\"from\">楽天ポイント<small>寄付に使える</small></div><div class=\"arrow\">→</div><div class=\"to\"><img src=\"logos/rakuten-furusato.png\"><b>楽天ふるさと納税</b><span>参加自治体 1,737（2026年10月4日時点）</span></div></div><div class=\"r\"><div class=\"from\">Pontaポイント<small>寄付できる</small></div><div class=\"arrow\">→</div><div class=\"to\"><img src=\"logos/aupay-furusato.png\"><b>au PAY ふるさと納税</b><span>貯まったPontaを、そのまま寄付に</span></div></div><div class=\"r\"><div class=\"from\">マイル<small>ANA Payにチャージ</small></div><div class=\"arrow\">→</div><div class=\"to\"><img src=\"logos/ana-furusato.png\"><b>ANAのふるさと納税</b><span>ANA限定の返礼品・旅の返礼品</span></div></div></div>",
+      "note": "PayPayポイントにしたいなら<b>さとふる</b>（さとふるマイポイントを交換できる）。",
+      "css": "main{gap:26px;padding-top:40px}.rows .r{padding:24px 26px}.rows .to img{height:64px}"
+    },
+    {
+      "file": "3-anapay.jpg",
+      "kind": "html",
+      "bgImage": "x/src/salmon-box.jpg",
+      "bgOpacity": 0.2,
+      "logo": "logos/ana-furusato.png",
+      "kicker": "ANAのふるさと納税",
+      "title": "マイルは「払い方」に残った",
+      "html": "<div class=\"vs\"><div class=\"c\"><div class=\"lab\">サイト側の<br>「マイル積算サービス」</div><div class=\"v\">終了</div><div class=\"s\">2025年10月1日の告知</div></div><div class=\"arr\">→</div><div class=\"c on\"><div class=\"lab\">ANA Payで払うと</div><div class=\"v\">200円ごとに1マイル</div><div class=\"s\">寄付額に対して。ANA公式の案内（2025年12月）</div></div></div><div class=\"big\"><div class=\"lab\">選ぶ基準が変わった</div><div class=\"num\"><small>「どのサイトか」より</small><br>「何で払うか」</div></div>",
+      "note": "決済側の還元はキャンペーンで、率と期間が入れ替わる。<b>寄付の前に、使う決済サービスの公式で確かめる。</b>",
+      "css": "main{gap:26px;padding-top:40px}.vs .c{padding:26px 20px}.vs .c:first-child{flex:.8}.vs .c.on{flex:1.25}.vs .c .v{font-size:44px;white-space:nowrap}.vs .c .lab{font-size:22px}.big .num{font-size:78px}.big .num small{font-size:40px;color:var(--ink-2)}"
+    },
+    {
+      "file": "4-steps.jpg",
+      "kind": "html",
+      "stripH": 200,
+      "bgImage": "x/src/ikura.jpg",
+      "bgOpacity": 0.2,
+      "kicker": "選び方は3段でいい",
+      "title": "今年分は<em>12月31日</em>まで",
+      "html": "<div class=\"strip\"><img src=\"x/src/muscat.jpg\"><img src=\"x/src/kaisendon.jpg\"><img src=\"x/src/ikura.jpg\"></div><div class=\"steps\"><div class=\"st\"><div class=\"no\">1</div><div><b>貯めてるポイントで払えるサイト</b><span>楽天・au PAY・ANA</span></div></div><div class=\"st\"><div class=\"no\">2</div><div><b>払い方の還元</b><span>決済側のキャンペーン</span></div></div><div class=\"st\"><div class=\"no\">3</div><div><b>欲しい返礼品があるか</b><span>ANA限定・旅の返礼品のような、サイト独自のものもある</span></div></div></div>",
+      "note": "ワンストップ特例は<b>5自治体まで</b>。数えるのはサイトではなく自治体の数。6以上なら確定申告。",
+      "css": "main{gap:22px;padding-top:34px}.steps .st{padding:16px 24px}"
+    }
+  ]
+}
