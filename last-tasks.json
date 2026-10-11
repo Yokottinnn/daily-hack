@@ -1,1 +1,3 @@
-[]
+[
+      {"task": "x258-read-reply-per-target.sh", "rc": 0, "out": "同じ相手への返信の回数を数えた / reply-per-target.md"}
+  ]
