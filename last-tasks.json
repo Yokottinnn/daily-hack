@@ -1,4 +1,3 @@
 [
-      {"task": "t262-scrub-vc2-report.sh", "rc": 0, "out": "vc2.md:       71 行 →       70 行（合同会社を含む行の残り: 0）"},
-      {"task": "t263-rakuten-ws-affiliate-id.sh", "rc": 0, "out": "## 「アフィリエイトID」「アプリ」を含む行   ``` rc=0 /      501 bytes"}
+      {"task": "t264-vc-partnered-filter.sh", "rc": 0, "out": "- checkbox[name=ad_search_condition_form[programType][]] value=smartphone スマホ経由注文  ## 「提携」を含むリンク・ボタン  - 新規提"}
   ]
