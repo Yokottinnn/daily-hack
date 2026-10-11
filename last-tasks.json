@@ -1,3 +1,3 @@
 [
-      {"task": "t268-rakuten-item-links.sh", "rc": 0, "out": "- Edy‐楽天ポイントカード（お買いものパンダ　チェック）（440円）   - https://hb.afl.rakuten.co.jp/ichiba/58666f2f.48bcda30.58666f30.06e2365b/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fedyshop%2Fedy-rpoint_panda-ch%2F&link_type=picttext&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0d"}
+      {"task": "t269-scrub-task-reports.sh", "rc": 0, "out": "t261-vc-adlist.md:       53 行 →       52 行 t265-rakuten-ws-dump.md:       89 行 →       88 行"}
   ]

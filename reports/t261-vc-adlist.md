@@ -12,7 +12,6 @@ vc: ログイン済み
 
 ## 絞り込みの欄
 
-- radio[name=] value=3326270 Fieldbeside合同会社（3326 ✔
 - radio[name=ad_search_condition_form[adType]] value= None ✔
 - radio[name=ad_search_condition_form[adType]] value=mylink MyLink
 - radio[name=ad_search_condition_form[adType]] value=banner バナー

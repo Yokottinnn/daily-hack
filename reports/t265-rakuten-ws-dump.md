@@ -20,7 +20,6 @@ rakuten: ログイン済み / 楽天ID 0 件
 ## 画面の行（先頭 60）
 
 ```text
-Welcome, 尚己 横田
 |
 Logout
 日本語
