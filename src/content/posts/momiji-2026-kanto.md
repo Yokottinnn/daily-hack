@@ -402,12 +402,12 @@ references: ["https://sp.jorudan.co.jp/leaf/news/jrd_260902_1.html", "https://ww
 
 <div class="real-photos cols-2">
 <figure class="real-photo">
-<img src="/images/momiji-2026-kanto/photos/furukawa-1.jpg" alt="旧古河庭園の洋館と、その前に広がるバラの花壇" loading="lazy" />
-<figcaption>洋館とバラの洋風庭園。<cite>画像: <a href="https://commons.wikimedia.org/wiki/File%3AKyu-Furukawa_Tei_%28House%292.jpg" target="_blank" rel="noopener">Wiiii / CC BY-SA 3.0</a></cite></figcaption>
+<img src="/images/momiji-2026-kanto/photos/furukawa-1.jpg" alt="旧古河庭園の心字池。雪吊りの横で真っ赤に色づいたもみじ" loading="lazy" />
+<figcaption>心字池のほとりで真っ赤に染まるもみじと雪吊り。<cite>画像: <a href="https://commons.wikimedia.org/wiki/File:Kyu-Furukawa_Garden_@_Nishigahara_(11029264713).jpg" target="_blank" rel="noopener">Guilhem Vellut / CC BY 2.0</a></cite></figcaption>
 </figure>
 <figure class="real-photo">
-<img src="/images/momiji-2026-kanto/photos/furukawa-2.jpg" alt="旧古河庭園の日本庭園。池のほとりに石灯籠と岩組みがある" loading="lazy" />
-<figcaption>斜面の下の日本庭園。<cite>画像: <a href="https://commons.wikimedia.org/wiki/File%3ALantern_%40_Kyu-Furukawa_Gardens_%289105387190%29.jpg" target="_blank" rel="noopener">Guilhem Vellut / CC BY 2.0</a></cite></figcaption>
+<img src="/images/momiji-2026-kanto/photos/furukawa-2.jpg" alt="旧古河庭園の雪見灯籠と、その奥で色づくもみじ" loading="lazy" />
+<figcaption>雪見灯籠の奥に、紅く色づいたもみじ。<cite>画像: <a href="https://commons.wikimedia.org/wiki/File:Kyu-Furukawa_Garden_@_Nishigahara_(11029081865).jpg" target="_blank" rel="noopener">Guilhem Vellut / CC BY 2.0</a></cite></figcaption>
 </figure>
 </div>
 
@@ -448,8 +448,8 @@ references: ["https://sp.jorudan.co.jp/leaf/news/jrd_260902_1.html", "https://ww
 <figcaption>池を囲む秋の木々。<cite>画像: <a href="https://commons.wikimedia.org/wiki/File%3AKiyosumi_Gardens_in_Autumn_%284137680245%29.jpg" target="_blank" rel="noopener">Jacob Ehnmark / CC BY 2.0</a></cite></figcaption>
 </figure>
 <figure class="real-photo">
-<img src="/images/momiji-2026-kanto/photos/kiyosumi-3.jpg" alt="清澄庭園の池に並ぶ飛び石の磯渡り" loading="lazy" />
-<figcaption>池の中を歩ける磯渡り。<cite>画像: <a href="https://commons.wikimedia.org/wiki/File%3AKiyosumi-2.JPG" target="_blank" rel="noopener">Irina Gelbukh / CC BY-SA 3.0</a></cite></figcaption>
+<img src="/images/momiji-2026-kanto/photos/kiyosumi-3.jpg" alt="清澄庭園の涼亭と、池のほとりで紅く色づいた木" loading="lazy" />
+<figcaption>池に張り出した涼亭と、紅く色づいた木。<cite>画像: <a href="https://www.tokyo-park.or.jp/park/kiyosumi/" target="_blank" rel="noopener">東京都公園協会 公式サイト</a></cite></figcaption>
 </figure>
 </div>
 
@@ -476,18 +476,14 @@ references: ["https://sp.jorudan.co.jp/leaf/news/jrd_260902_1.html", "https://ww
 
 <h3 id="shiba-rikyu">⑦ 旧芝離宮恩賜庭園（港区）</h3>
 
-<div class="real-photos cols-3">
+<div class="real-photos cols-2">
 <figure class="real-photo">
-<img src="/images/momiji-2026-kanto/photos/shiba-rikyu-1.jpg" alt="旧芝離宮恩賜庭園の池にかかる橋と東屋" loading="lazy" />
-<figcaption>池にかかる橋と東屋。<cite>画像: <a href="https://commons.wikimedia.org/wiki/File%3AShibariky%C5%AB-Park_Japan1097.jpg" target="_blank" rel="noopener">Ermell / CC BY-SA 4.0</a></cite></figcaption>
+<img src="/images/momiji-2026-kanto/photos/shiba-rikyu-1.jpg" alt="旧芝離宮恩賜庭園の池と橋。奥の木々が紅く色づいている" loading="lazy" />
+<figcaption>池にかかる橋と、奥で色づく木々（12月上旬）。<cite>画像: <a href="https://www.tokyo-park.or.jp/park/kyu-shiba-rikyu/" target="_blank" rel="noopener">東京都公園協会 公式サイト</a></cite></figcaption>
 </figure>
 <figure class="real-photo">
-<img src="/images/momiji-2026-kanto/photos/shiba-rikyu-2.jpg" alt="旧芝離宮恩賜庭園の池と松の木々" loading="lazy" />
-<figcaption>池と松の大名庭園。<cite>画像: <a href="https://commons.wikimedia.org/wiki/File%3AKyu_Shiba_Rikyu_Garden_03.jpg" target="_blank" rel="noopener">Chris 73 / CC BY-SA 3.0</a></cite></figcaption>
-</figure>
-<figure class="real-photo">
-<img src="/images/momiji-2026-kanto/photos/shiba-rikyu-3.jpg" alt="旧芝離宮恩賜庭園の石灯籠と刈り込まれた植え込み" loading="lazy" />
-<figcaption>石灯籠と刈り込み。<cite>画像: <a href="https://commons.wikimedia.org/wiki/File%3ATokio_Shibariky%C5%AB-Park_Laterne-20091017-RM-121516.jpg" target="_blank" rel="noopener">Ermell / CC BY-SA 4.0</a></cite></figcaption>
+<img src="/images/momiji-2026-kanto/photos/shiba-rikyu-2.jpg" alt="旧芝離宮恩賜庭園の池。高層ビルを背に紅葉した木が水面に映る" loading="lazy" />
+<figcaption>ビル街を背に、紅葉した木が池に映る。<cite>画像: <a href="https://commons.wikimedia.org/wiki/File:%E6%97%A7%E8%8A%9D%E9%9B%A2%E5%AE%AE%E6%81%A9%E8%B3%9C%E5%BA%AD%E5%9C%92_%E5%A4%A7%E5%B3%B6%E5%8D%97%E9%AF%9B%E6%A9%8B_-_panoramio_(17)_(2014-11-12_14.27_by_Yoshio_Kohara).jpg" target="_blank" rel="noopener">Yoshio Kohara / CC BY 3.0</a></cite></figcaption>
 </figure>
 </div>
 
@@ -546,12 +542,12 @@ references: ["https://sp.jorudan.co.jp/leaf/news/jrd_260902_1.html", "https://ww
 
 <div class="real-photos cols-2">
 <figure class="real-photo">
-<img src="/images/momiji-2026-kanto/photos/kyoikuen-1.jpg" alt="自然教育園の池と、それを囲む雑木林" loading="lazy" />
-<figcaption>園内の池と雑木林。<cite>画像: <a href="https://commons.wikimedia.org/wiki/File%3APond_-_Institute_for_Nature_Study%2C_Tokyo_-_DSC02096.JPG" target="_blank" rel="noopener">Daderot / CC0</a></cite></figcaption>
+<img src="/images/momiji-2026-kanto/photos/kyoikuen-1.jpg" alt="自然教育園の林。見上げると一面に紅く色づいたもみじ" loading="lazy" />
+<figcaption>見上げると一面の紅葉（12月中旬）。<cite>画像: <a href="https://commons.wikimedia.org/wiki/File:Autumn_leaves_came_unusally_late_this_year_(December_11_2021)_6.jpg" target="_blank" rel="noopener">Syced / CC0</a></cite></figcaption>
 </figure>
 <figure class="real-photo">
-<img src="/images/momiji-2026-kanto/photos/kyoikuen-2.jpg" alt="自然教育園の木立の中を通る散策路" loading="lazy" />
-<figcaption>木立の中の散策路。<cite>画像: <a href="https://commons.wikimedia.org/wiki/File%3AWalkway_-_Institute_for_Nature_Study%2C_Tokyo_-_DSC02074.JPG" target="_blank" rel="noopener">Daderot / CC0</a></cite></figcaption>
+<img src="/images/momiji-2026-kanto/photos/kyoikuen-2.jpg" alt="自然教育園の雑木林の中で紅く色づいた木々" loading="lazy" />
+<figcaption>雑木林の中で紅く色づく木々。<cite>画像: <a href="https://commons.wikimedia.org/wiki/File:Autumn_leaves_came_unusally_late_this_year_(December_11_2021)_9.jpg" target="_blank" rel="noopener">Syced / CC0</a></cite></figcaption>
 </figure>
 </div>
 
