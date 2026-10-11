@@ -164,7 +164,7 @@ try {
       text: (document.body.innerText || '').split('\n').map((x) => x.trim()).filter(Boolean).slice(0, 60).map((x) => x.slice(0, 70)),
       links: [...new Set([...document.querySelectorAll('a[href]')].map((a) => `${(a.innerText || '').trim().slice(0, 30)} — ${a.href.replace(/[?#].*$/, '')}`))].slice(0, 40),
     }));
-    lines.push('## 画面の行（先頭 60）', '', '```text', ...raw.text.filter((x) => !NG.test(x) && !/@/.test(x)), '```', '', '## 画面のリンク', '', ...raw.links.filter((x) => !/@/.test(x)).map((x) => `- ${x}`), '');
+    lines.push('## 画面の行（先頭 60・長い英数字は伏せる）', '', '```text', ...raw.text.filter((x) => !NG.test(x) && !/@/.test(x)).map((x) => x.replace(/[A-Za-z0-9_-]{16,}/g, (m) => `［${m.length}文字・伏せた］`)), '```', '', '## 画面のリンク', '', ...raw.links.filter((x) => !/@/.test(x)).map((x) => `- ${x.replace(/[A-Za-z0-9_-]{16,}/g, (m) => `［${m.length}文字］`)}`), '');
   }
 
   if (WHICH === 'rakutenitem') {

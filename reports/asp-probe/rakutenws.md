@@ -1,6 +1,6 @@
 # ASP の画面調べ: rakutenws（asp-probe）
 
-生成: **2026-10-11T06:56:28.109Z**
+生成: **2026-10-11T08:47:28.668Z**
 
 - 画面: https://webservice.rakuten.co.jp/app/list（Your Applications）
 
@@ -11,7 +11,7 @@
 ## 「アフィリエイトID」「アプリ」を含む行
 
 
-## 画面の行（先頭 60）
+## 画面の行（先頭 60・長い英数字は伏せる）
 
 ```text
 |
@@ -39,11 +39,11 @@ API Test Form
 Analytics
 Terms of service
 Information
-Maintenance2026-07-09[Maintenance] 2026/07/19 (Sun) Rakuten Web Servic
-maintenance2026-03-25[Announcement] 2026-03-25 Ichiba Product Search A
-Maintenance2026-02-09[Announcement] 02/09 Legacy version of Travel API
-Maintenance2026-02-09[Announcement] 02/09 Legacy version of Gora API w
-Maintenance2026-02-09[Announcement] 02/09 Legacy version of Ichiba API
+［21文字・伏せた］[Maintenance] 2026/07/19 (Sun) Rakuten Web Servic
+［21文字・伏せた］[Announcement] 2026-03-25 Ichiba Product Search A
+［21文字・伏せた］[Announcement] 02/09 Legacy version of Travel API
+［21文字・伏せた］[Announcement] 02/09 Legacy version of Gora API w
+［21文字・伏せた］[Announcement] 02/09 Legacy version of Ichiba API
 Rakuten Group Services
 Online Shopping Community
 Rakuten Ichiba
@@ -67,7 +67,7 @@ Careers
 - TOOL BOX — https://webservice.rakuten.co.jp/app/list
 - API Test Form — https://webservice.rakuten.co.jp/explorer/api
 - Analytics — https://webservice.rakuten.co.jp/explorer/analytics
-- BLOG — https://rakuten-webservice.tumblr.com/
+- BLOG — https://［18文字］.tumblr.com/
 - HELP — https://webservice.faq.rakuten.net/
 - New App — https://webservice.rakuten.co.jp/app/create
 - Your Apps — https://webservice.rakuten.co.jp/app/list
@@ -75,11 +75,11 @@ Careers
 - To the top of the page — https://webservice.rakuten.co.jp/app/list
 - Startpage — https://webservice.rakuten.co.jp/
 - Terms of service — https://webservice.rakuten.co.jp/guide/rule
-- [Maintenance] 2026/07/19 (Sun) — https://rakuten-webservice.tumblr.com/post/821647410742902784/maintenance-20260719-sun-rakuten-web-service
-- [Announcement] 2026-03-25 Ichi — https://rakuten-webservice.tumblr.com/post/812040187960066048/announcement-2026-03-25-ichiba-product-search
-- [Announcement] 02/09 Legacy ve — https://rakuten-webservice.tumblr.com/post/808042648317345792/announcement-0209-legacy-version-of-travel-api
-- [Announcement] 02/09 Legacy ve — https://rakuten-webservice.tumblr.com/post/808042409373188096/announcement-0209-legacy-version-of-gora-api
-- [Announcement] 02/09 Legacy ve — https://rakuten-webservice.tumblr.com/post/808042087369097216/announcement-0209-legacy-version-of-ichiba-api
+- [Maintenance] 2026/07/19 (Sun) — https://［18文字］.tumblr.com/post/［18文字］/［44文字］
+- [Announcement] 2026-03-25 Ichi — https://［18文字］.tumblr.com/post/［18文字］/［45文字］
+- [Announcement] 02/09 Legacy ve — https://［18文字］.tumblr.com/post/［18文字］/［46文字］
+- [Announcement] 02/09 Legacy ve — https://［18文字］.tumblr.com/post/［18文字］/［44文字］
+- [Announcement] 02/09 Legacy ve — https://［18文字］.tumblr.com/post/［18文字］/［46文字］
 - Online Shopping Community — https://www.rakuten.co.jp/
 - Earn Points By Introducing Pro — https://affiliate.rakuten.co.jp/
 - All Rakuten Services — https://www.rakuten.co.jp/sitemap/
