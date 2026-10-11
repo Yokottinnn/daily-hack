@@ -38,9 +38,10 @@ function cal(c) {
   const ticks = (c.ticks || []).map((t) => `<div class="tick" style="left:${x(t)}%"></div>`).join("");
   const marks = (c.marks || []).map((m) => `<div class="mark" style="left:${x(m.at)}%"><span>${m.label}</span></div>`).join("");
   const rows = c.rows.map((r) => {
-    const a = x(r.start), b = r.open ? Math.min(100, a + 9) : x(r.end);
+    // dot … 期間の予想が無く、1 日の記録だけがある名所（棒を引くと期間に見えるので点にする）
+    const a = x(r.start), b = r.dot ? a : r.open ? Math.min(100, a + 9) : x(r.end);
     return `<div class="crow${r.hl ? " hl" : ""}"><div class="cn"><b>${r.name}</b>${r.sub ? `<i>${r.sub}</i>` : ""}</div>
-      <div class="ct">${ticks}<div class="bar${r.open ? " open" : ""}" style="left:${a}%;width:${b - a}%"></div><div class="cl" style="left:${r.labelAt != null ? x(r.labelAt) : a}%">${r.label}</div></div></div>`;
+      <div class="ct">${ticks}${r.dot ? `<div class="dot" style="left:${a}%"></div>` : `<div class="bar${r.open ? " open" : ""}" style="left:${a}%;width:${b - a}%"></div>`}<div class="cl" style="left:${r.labelAt != null ? x(r.labelAt) : a}%">${r.label}</div></div></div>`;
   }).join("");
   return `<div class="cal"><div class="axis"><div class="cn"></div><div class="ct">${months}</div></div>${rows}<div class="marks"><div class="cn"></div><div class="ct">${marks}</div></div></div>`;
 }
@@ -86,6 +87,7 @@ ul.row .s{font-size:18px;font-weight:500;color:var(--ink-2);margin-top:6px;line-
 .cal .tick{position:absolute;top:0;bottom:0;border-left:1px solid #F6E8EE}
 .cal .bar{position:absolute;top:12px;height:22px;border-radius:11px;background:linear-gradient(90deg,#E8743B,#D63E76)}
 .cal .bar.open{background:linear-gradient(90deg,#E8743B,rgba(214,62,118,0));border-radius:11px 0 0 11px}
+.cal .dot{position:absolute;top:10px;width:22px;height:22px;margin-left:-11px;border-radius:50%;background:#fff;border:5px solid #E8743B}
 .cal .crow.hl .bar{background:linear-gradient(90deg,#D63E76,#A82959)}
 .cal .crow.hl .bar.open{background:linear-gradient(90deg,#A82959,rgba(168,41,89,0))}
 .cal .cl{position:absolute;top:38px;font-size:19px;font-weight:700;white-space:nowrap;color:var(--ink)}

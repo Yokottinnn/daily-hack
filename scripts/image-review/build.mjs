@@ -41,7 +41,7 @@ const FILES = {
   "funds-invite-2026-10": ["1-gift.jpg", "2-service.jpg", "3-fund.jpg", "4-story.jpg"],
   // **未投稿**（2026-10-11）。blog3 から依頼の告知 3 本。scripts/gen-x-panels.mjs で ops/data/x-cards/<slug>.panels.json から作る。
   // 写真は Commons の CC0 / パブリックドメイン（x/src/_manifest.json）とロゴだけなので、出所の行が要らない
-  "momiji-2026-kanto": ["1-calendar.jpg", "2-takao.jpg", "3-rikugien.jpg", "4-nikko.jpg"],
+  "momiji-2026-kanto": ["1-calendar.jpg", "2-takao.jpg", "4-nikko.jpg"],
   "takanawa-gateway-city-guide-2026": ["1-morning.jpg", "2-luftbaum.jpg", "3-mon.jpg", "4-access.jpg"],
   "furusato-portal-comparison-2026": ["1-ban.jpg", "2-points.jpg", "3-anapay.jpg", "4-steps.jpg"],
 };
