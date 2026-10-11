@@ -197,6 +197,25 @@ try {
     lines.push('## リンク作成・MyLink のボタン', '', ...(await links(/リンク|MyLink|広告を|コード|取得/)).map(([t, h]) => `- ${t} — ${h}`), '');
   }
 
+  if (WHICH === 'forms') {
+    // 申請・登録の前に、フォームの中身を読むだけ（送らない）。値は出さず、欄の名前・選択肢・ボタンだけ
+    const formDump = async () => p.evaluate(() => {
+      const vis = (el) => !!(el.offsetWidth || el.offsetHeight || el.getClientRects().length);
+      const lab = (e) => ((e.closest('label') || {}).innerText || (e.id && (document.querySelector(`label[for="${e.id}"]`) || {}).innerText) || e.placeholder || '').replace(/\s+/g, ' ').trim().slice(0, 40);
+      const fields = [...document.querySelectorAll('input, select, textarea')].filter((e) => vis(e) && e.type !== 'hidden').slice(0, 40).map((e) => e.tagName === 'SELECT'
+        ? `select[name=${e.name}] 「${lab(e)}」: ${[...e.options].map((o) => o.text.trim()).join(' / ').slice(0, 300)}`
+        : `${e.tagName.toLowerCase()}[type=${e.type} name=${e.name}] 「${lab(e)}」${e.required ? ' 必須' : ''}${e.checked ? ' ✔' : ''}`);
+      const btns = [...document.querySelectorAll('button, input[type=submit], a[role=button], [role=button]')].filter(vis).map((b) => (b.innerText || b.value || '').replace(/\s+/g, ' ').trim()).filter(Boolean).slice(0, 20);
+      return { fields, btns };
+    });
+    await go('https://media-console.a8.net/program/detail-not-partnered?programId=s00000023355003');
+    let f = await formDump();
+    lines.push('## A8 提携申請の欄（三井住友カード NL）', '', ...f.fields.filter((x) => !NG.test(x)).map((x) => `- ${x}`), '', `- ボタン: ${f.btns.join(' ／ ')}`, '');
+    await go('https://webservice.rakuten.co.jp/app/create');
+    f = await formDump();
+    lines.push(`## 楽天ウェブサービス アプリ登録の欄（${here()}）`, '', ...f.fields.filter((x) => !NG.test(x)).map((x) => `- ${x}`), '', `- ボタン: ${f.btns.join(' ／ ')}`, '');
+  }
+
   if (WHICH === 'a8detail') {
     for (const id of (process.env.A8_IDS || '').split(',').filter(Boolean)) {
       await go(`https://media-console.a8.net/program/detail-not-partnered?programId=${id}`);

@@ -1,3 +1,3 @@
 [
-      {"task": "x258-read-reply-per-target.sh", "rc": 0, "out": "同じ相手への返信の回数を数えた / reply-per-target.md"}
+      {"task": "t270-read-apply-forms.sh", "rc": 0, "out": " - ボタン: TOOL BOX ／ Agree to the terms of service ／ Cancel  ``` rc=0 /     1865 bytes"}
   ]
