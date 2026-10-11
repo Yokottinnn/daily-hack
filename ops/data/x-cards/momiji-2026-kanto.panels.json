@@ -1,6 +1,6 @@
 {
   "_doc": "X 告知用の正方形画像。node scripts/gen-x-panels.mjs ops/data/x-cards/momiji-2026-kanto.panels.json",
-  "_note": "**出所の行が無いのは、権利表記の要らない素材だけで組んだから**（2026-09-20 の指示・CLAUDE.md 最上位ルール 8）。記事本文の写真は CC BY / CC BY-SA なので使っていない。写真は Wikimedia Commons の CC0 / パブリックドメインだけ（x/src/_manifest.json）。**ここに CC BY / CC BY-SA を戻すなら、出所の行も戻すこと。** 日付・料金はすべて記事（2026-10-04 公開）にあるもの",
+  "_note": "**出所の行が無いのは、権利表記の要らない素材だけで組んだから**（2026-09-20 の指示・CLAUDE.md 最上位ルール 8）。記事本文の写真は CC BY / CC BY-SA なので使っていない。写真は Wikimedia Commons の CC0 / パブリックドメインだけ（x/src/_manifest.json）。**ここに CC BY / CC BY-SA を戻すなら、出所の行も戻すこと。** 日付・料金はすべて記事（2026-10-04 公開）にあるもの **例外: 1b-spots.jpg は記事の CC BY / CC BY-SA の写真を使い、撮影者名を X の画像の説明（ALT）に書く（2026-10-11 の指示）。**",
   "imageBase": "public/images/momiji-2026-kanto",
   "out": "public/images/momiji-2026-kanto/x",
   "theme": "berry",
@@ -119,14 +119,13 @@
     {
       "file": "1b-spots.jpg",
       "kind": "html",
-      "headH": 190,
-      "bgImage": "photos/kyoikuen-1.jpg",
-      "bgOpacity": 0.22,
-      "kicker": "記事の10選から9か所",
-      "title": "東京の紅葉 見どころ10選",
-      "size": 64,
-      "html": "<div class=\"tiles\"><div class=\"tile\"><img src=\"x/src/gaien-offseason.jpg\"><div class=\"lb\"><b>① 明治神宮外苑</b><span>港区・新宿区｜11月下旬〜12月上旬</span></div></div><div class=\"tile\"><img src=\"x/src/rikugien-night.jpg\"><div class=\"lb\"><b>② 六義園</b><span>文京区｜12月上旬〜中旬</span></div></div><div class=\"tile\"><img src=\"x/src/gyoen-offseason.jpg\"><div class=\"lb\"><b>③ 新宿御苑</b><span>新宿区｜予想なし</span></div></div><div class=\"tile\"><img src=\"x/src/koishikawa.jpg\"><div class=\"lb\"><b>④ 小石川後楽園</b><span>文京区｜12月上旬</span></div></div><div class=\"tile\"><img src=\"x/src/furukawa.jpg\"><div class=\"lb\"><b>⑤ 旧古河庭園</b><span>北区｜11月下旬〜12月上旬</span></div></div><div class=\"tile\"><img src=\"x/src/kiyosumi-offseason.jpg\"><div class=\"lb\"><b>⑥ 清澄庭園</b><span>江東区｜11月下旬〜12月上旬</span></div></div><div class=\"tile\"><img src=\"x/src/shiba-offseason.jpg\"><div class=\"lb\"><b>⑦ 旧芝離宮恩賜庭園</b><span>港区｜12月上旬</span></div></div><div class=\"tile\"><img src=\"x/src/ueno.jpg\"><div class=\"lb\"><b>⑧ 上野恩賜公園</b><span>台東区｜11月下旬〜12月上旬</span></div></div><div class=\"tile\"><img src=\"x/src/kyoikuen-autumn.jpg\"><div class=\"lb\"><b>⑨ 自然教育園</b><span>港区｜12月上旬〜中旬</span></div></div></div>",
-      "css": "main{padding:26px 40px 0}.tiles{display:grid;grid-template-columns:repeat(3,1fr);grid-template-rows:repeat(3,1fr);gap:12px;height:838px}.tile{position:relative;border-radius:18px;overflow:hidden;background:#2A1923}.tile img{width:100%;height:100%;object-fit:cover;display:block}.tile .lb{position:absolute;left:0;right:0;bottom:0;padding:34px 14px 12px;background:linear-gradient(to top,rgba(20,10,16,.92),rgba(20,10,16,.55) 60%,rgba(20,10,16,0));color:#fff}.tile .lb b{display:block;font-size:25px;font-weight:900;line-height:1.25;text-shadow:0 1px 4px rgba(0,0,0,.5)}.tile .lb span{display:block;font-size:16px;font-weight:700;color:#FFF1C8;margin-top:2px}"
+      "noHeader": true,
+      "kicker": "",
+      "title": "",
+      "html": "<div class=\"g\"><div class=\"r\"><div class=\"tile\"><img src=\"photos/jingu-gaien.jpg\"><div class=\"lb\"><b>① 明治神宮外苑</b><span>港区・新宿区｜11月下旬〜12月上旬</span></div></div><div class=\"tile\"><img src=\"photos/rikugien-3.jpg\"><div class=\"lb\"><b>② 六義園</b><span>文京区｜12月上旬〜中旬</span></div></div><div class=\"tile\"><img src=\"photos/shinjuku-gyoen-3.jpg\"><div class=\"lb\"><b>③ 新宿御苑</b><span>新宿区｜予想なし</span></div></div></div><div class=\"r\"><div class=\"tile\"><img src=\"x/src/koishikawa.jpg\"><div class=\"lb\"><b>④ 小石川後楽園</b><span>文京区｜12月上旬</span></div></div><div class=\"tile\"><img src=\"x/src/furukawa.jpg\"><div class=\"lb\"><b>⑤ 旧古河庭園</b><span>北区｜11月下旬〜12月上旬</span></div></div><div class=\"tile\"><img src=\"photos/kiyosumi-2.jpg\"><div class=\"lb\"><b>⑥ 清澄庭園</b><span>江東区｜11月下旬〜12月上旬</span></div></div><div class=\"tile\"><img src=\"photos/shiba-rikyu-2.jpg\"><div class=\"lb\"><b>⑦ 旧芝離宮恩賜庭園</b><span>港区｜12月上旬</span></div></div></div><div class=\"r\"><div class=\"tile\"><img src=\"photos/ueno-1.jpg\"><div class=\"lb\"><b>⑧ 上野恩賜公園</b><span>台東区｜11月下旬〜12月上旬</span></div></div><div class=\"tile\"><img src=\"x/src/kyoikuen-autumn.jpg\"><div class=\"lb\"><b>⑨ 自然教育園</b><span>港区｜12月上旬〜中旬</span></div></div><div class=\"tile\"><img src=\"photos/otaguro-1.jpg\"><div class=\"lb\"><b>⑩ 大田黒公園</b><span>杉並区｜12月上旬</span></div></div></div></div>",
+      "css": "main{padding:0;gap:0}.g{display:flex;flex-direction:column;gap:6px;width:1080px;height:1080px;background:#1E1219}.r{flex:1;display:flex;gap:6px;min-height:0}.tile{flex:1;position:relative;overflow:hidden;min-width:0}.tile img{width:100%;height:100%;object-fit:cover;display:block}.tile .lb{position:absolute;left:0;right:0;bottom:0;padding:40px 16px 14px;background:linear-gradient(to top,rgba(20,10,16,.9),rgba(20,10,16,.5) 60%,rgba(20,10,16,0));color:#fff}.tile .lb b{display:block;font-size:27px;font-weight:900;line-height:1.25;text-shadow:0 1px 4px rgba(0,0,0,.6);white-space:nowrap}.tile .lb span{display:block;font-size:17px;font-weight:700;color:#FFF1C8;margin-top:3px;white-space:nowrap}.r:nth-child(2) .tile .lb b{font-size:23px}.r:nth-child(2) .tile .lb span{font-size:15px}",
+      "alt": "東京の紅葉 見どころ10選と2026年の見頃予想。①明治神宮外苑（11月下旬〜12月上旬）②六義園（12月上旬〜中旬）③新宿御苑（予想なし）④小石川後楽園（12月上旬）⑤旧古河庭園（11月下旬〜12月上旬）⑥清澄庭園（11月下旬〜12月上旬）⑦旧芝離宮恩賜庭園（12月上旬）⑧上野恩賜公園（11月下旬〜12月上旬）⑨自然教育園（12月上旬〜中旬）⑩大田黒公園（12月上旬）。写真（Wikimedia Commons・トリミングして使用）：①Dick Thomas Johnson / CC BY 2.0 ②Guilhem Vellut / CC BY 2.0 ③⑥Jacob Ehnmark / CC BY 2.0 ⑦Chris 73 / CC BY-SA 3.0 ⑧Yoshikazu TAKADA / CC BY 2.0 ⑩Kakidai / CC BY-SA 4.0 ④⑤⑨CC0",
+      "_credit_note": "2026-10-11 利用者の指示「画像説明 Alt に書けば良いよ。投稿の品質を最優先」。CC BY / CC BY-SA の写真は、撮影者名とライセンスを X の画像の説明（ALT）に書く。画像の中には出さない。**投稿するときに alt を必ず付けること**"
     },
     {
       "file": "2-takao.jpg",
