@@ -42,3 +42,56 @@
 ## 5. Chrome は健全か
 
 ```
+{"ok":true,"healthy":true,"round_trip_ms":7154,"product":"Chrome/140.0.7339.207","tabs":27}
+(rc=0)
+```
+
+## 6. 出す（ALT は渡さない）
+
+```
+[run-publish] thread_chain mode
+[post-via-playwright] attached 4/4 image(s)
+[step] connect t=0ms
+[step] navigate-target t=6046ms
+[step] find-reply-textarea t=12440ms
+[textarea] found via primary sel: div[data-testid^="tweetTextarea_"][contenteditable="true"] t=12626ms
+[step] type-text t=12626ms
+[x154] like 付いた
+[step] arm-response-listener t=17610ms
+[step] submit t=17611ms
+[step] wait-response-or-confirm t=17703ms
+[step] wait-textarea-clear t=18127ms
+{"ok":true,"tweet_id":"2109272420473585757","url":"https://x.com/heng_ji31590/status/2109272420473585757","thread_count":2,"thread_results":[{"index":0,"role":"hook","ok":true,"tweet_id":"2109272420473585757","url":"https://x.com/heng_ji31590/status/2109272420473585757","image_attached":true,"captured_via":"graphql_response"},{"index":1,"role":"link","ok":true,"reply_tweet_id":"2109272532880957630","url":"https://x.com/heng_ji31590/status/2109272532880957630","captured_via":"graphql_response"}],"captured_via":"graphql_response"}
+(rc=0)
+```
+
+## 7. 出たか。出たならキューに書き戻す
+
+```
+  [1/2] tweet_id = 2109272420473585757
+  [2/2] tweet_id = 2109272532880957630
+  キューを posted に書き戻した
+```
+
+## 8. 実物を読む（プロフィール → permalink。画像の枚数と alt）
+
+### [1/2] https://x.com/heng_ji31590/status/2109272420473585757  画像 4 枚
+
+- 1 枚目の alt: 画像
+- 2 枚目の alt: 画像
+- 3 枚目の alt: 画像
+- 4 枚目の alt: 画像
+
+### [2/2] https://x.com/heng_ji31590/status/2109272532880957630
+
+```
+「今年の紅葉、東京はいつ？」で調べても、名所ごとの見頃はばらばらのページに出てくるだけ。
+
+だからアタシが関東・甲信の46か所を、見頃が早い順に1枚に並べたわよ。東京は11月29日ごろで平年並み。
+```
+
+**判定: [1/2] 在る（画像 4 枚） ／ 2 枚目の ALT（今回は付けない） なし ／ [2/2] 在る**
+
+画面: x268-thread.png
+
+**一次情報は x_tweet_id と投稿 URL の実物だけ**（最上位ルール 11）。**LLM を呼んでいない（$0／回・$0／日・$0／月）。**
