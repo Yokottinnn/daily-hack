@@ -14,7 +14,8 @@ const { chromium } = createRequire(path.join(PW_DIR, 'x.js'))('playwright-core')
 const OUT = path.join(process.env.OPS_REPORT_DIR || path.join(os.homedir(), '.openclaw/ops-heartbeat-wt/reports'), 'asp-probe');
 fs.mkdirSync(OUT, { recursive: true });
 const WHICH = process.env.ASP_PROBE || '';
-const NG = /契約者|振込|口座|氏名|合同会社|有限会社|（\d{6,}）|\(\d{6,}\)|あなたの報酬|確定報酬|未確定|様$/;
+// **会員名の行（Welcome, ○○ / ようこそ○○さん）も出さない**（2026-10-11 に楽天ウェブサービスで出してしまった）
+const NG = /契約者|振込|口座|氏名|合同会社|有限会社|（\d{6,}）|\(\d{6,}\)|あなたの報酬|確定報酬|未確定|様$|さん$|Welcome|ようこそ|こんにちは/i;
 const RID = /[0-9a-f]{8}\.[0-9a-f]{8}\.[0-9a-f]{8}\.[0-9a-f]{8}/g;
 
 const b = await chromium.connectOverCDP(`http://127.0.0.1:${process.env.CDP_PORT || '18810'}`);
@@ -164,6 +165,15 @@ try {
       links: [...new Set([...document.querySelectorAll('a[href]')].map((a) => `${(a.innerText || '').trim().slice(0, 30)} — ${a.href.replace(/[?#].*$/, '')}`))].slice(0, 40),
     }));
     lines.push('## 画面の行（先頭 60）', '', '```text', ...raw.text.filter((x) => !NG.test(x) && !/@/.test(x)), '```', '', '## 画面のリンク', '', ...raw.links.filter((x) => !/@/.test(x)).map((x) => `- ${x}`), '');
+  }
+
+  if (WHICH === 'vc4') {
+    // 提携済みの「Yahoo!ショッピング」の広告詳細から、リンクのコード（sid・pid が入る公開値）を読む
+    await go('https://aff.valuecommerce.ne.jp/ad/adDetail/2136156');
+    lines.push(`- 画面: ${here()}（${(await p.title()).slice(0, 40)}）`, '');
+    const codes = await p.evaluate(() => [...document.querySelectorAll('textarea, input[type=text]')].map((t) => t.value || '').filter((v) => /valuecommerce/.test(v)).slice(0, 4));
+    lines.push('## 画面に出たリンクのコード', '', '```text', ...codes.map((c) => c.replace(/\s+/g, ' ').slice(0, 500)), '```', '');
+    lines.push('## リンク作成・MyLink のボタン', '', ...(await links(/リンク|MyLink|広告を|コード|取得/)).map(([t, h]) => `- ${t} — ${h}`), '');
   }
 
   if (WHICH === 'a8detail') {
