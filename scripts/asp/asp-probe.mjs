@@ -172,8 +172,17 @@ try {
     }
   }
 
-  if (WHICH === 'vc2') {
+  if (WHICH === 'vc2' || WHICH === 'vc3') {
     await go('https://aff.valuecommerce.ne.jp/ad/adList');
+    if (WHICH === 'vc3') {
+      // 「提携済み」（appStatus=A）で絞り込んで検索する
+      await p.locator('input[type=radio][name="ad_search_condition_form[appStatus]"][value=A]').check({ force: true, timeout: 5000 }).catch((e) => lines.push(`- ⚠️ 提携済みを選べない: ${String(e).split('\n')[0]}`));
+      const sub = p.locator('button:visible, input[type=submit]:visible').filter({ hasText: /検索/ }).first();
+      if (await sub.count()) await sub.click({ timeout: 5000 }).catch(() => {}); else await p.locator('form:has(input[name="ad_search_condition_form[appStatus]"])').first().evaluate((f) => f.submit()).catch(() => {});
+      await p.waitForLoadState('domcontentloaded', { timeout: 20000 }).catch(() => {});
+      await p.waitForTimeout(5000);
+      lines.push(`- 「提携済み」で検索したあとの画面: ${here()}`, `- 選ばれている提携状態: ${await p.locator('input[type=radio][name="ad_search_condition_form[appStatus]"]:checked').getAttribute('value').catch(() => '不明')}`, '');
+    }
     lines.push(`- 開いた画面: ${here()}（${(await p.title()).slice(0, 40)}）`, '');
     const f = await p.evaluate(() => [...document.querySelectorAll('select, input[type=radio], input[type=checkbox]')].slice(0, 30)
       .map((e) => e.tagName === 'SELECT' ? `select[name=${e.name}]: ${[...e.options].map((o) => `${o.value}=${o.text.trim()}`).join(' / ').slice(0, 200)}`
