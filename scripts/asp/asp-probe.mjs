@@ -243,6 +243,23 @@ try {
     if (got.aff[0]) { fs.writeFileSync(path.join(OUT, 'rakuten-affiliate-id.txt'), got.aff[0] + '\n'); }
   }
 
+  if (WHICH === 'rakutentabs') {
+    // 楽天ウェブサービスのタブがいまどうなっているか（登録画面に残ったエラー・画像認証の状態）を読む。押さない・送らない
+    const mask = (x) => x.replace(/[A-Za-z0-9_-]{16,}/g, (m) => `［${m.length}文字・伏せた］`);
+    const tabs = ctx.pages().filter((q) => /webservice\.rakuten\.co\.jp/.test(q.url()));
+    lines.push(`## 楽天ウェブサービスのタブ ${tabs.length} 枚`, '');
+    for (const q of tabs) {
+      const d = await q.evaluate(() => {
+        const vis = (el) => !!(el.offsetWidth || el.offsetHeight);
+        const msgs = [...document.querySelectorAll('[role=alert], .error, .alert, [class*=error], [class*=Error], [class*=invalid], .help-block, .text-danger')].filter(vis).map((e) => e.innerText.replace(/\s+/g, ' ').trim()).filter(Boolean).slice(0, 8);
+        const fields = [...document.querySelectorAll('input:not([type=hidden]), select, textarea')].filter(vis).map((e) => `${e.name}=${e.type === 'checkbox' ? (e.checked ? '✔' : '－') : ((e.value || '').length + '文字')}`);
+        const head = (document.body.innerText || '').split('\n').map((x) => x.trim()).filter(Boolean).filter((x) => /success|registered|error|invalid|required|captcha|完了|登録|エラー|失敗|必須/i.test(x)).slice(0, 10).map((x) => x.slice(0, 90));
+        return { url: location.origin + location.pathname, title: document.title.slice(0, 60), msgs, fields, head };
+      }).catch((e) => ({ url: q.url(), err: String(e).slice(0, 80) }));
+      lines.push(`### ${d.url}（${d.title || ''}）`, ...(d.msgs || []).map((x) => `- 表示: ${mask(x)}`), ...(d.head || []).filter((x) => !NG.test(x)).map((x) => `- 行: ${mask(x)}`), `- 欄: ${(d.fields || []).join(' ')}`, d.err ? `- ⚠️ ${d.err}` : '', '');
+    }
+  }
+
   if (WHICH === 'a8apply') {
     // **利用者の OK を得た提携申請**（2026-10-11）。サイト「Daily hack」を選んで「プログラムの提携申請をする」を押す
     p.on('dialog', (d) => { lines.push(`  - 確認ダイアログ: ${d.message().slice(0, 80)} → OK`); d.accept().catch(() => {}); });
