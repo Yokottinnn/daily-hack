@@ -138,6 +138,27 @@ try {
     lines.push(`- ツールの画面: ${here()}`, '', '## ツールの一覧', '', ...(await links(/./)).filter(([, h]) => /affiliate\.rakuten\.co\.jp\/(tool|link)/.test(h)).map(([t, h]) => `- ${t} — ${h}`), '');
   }
 
+  if (WHICH === 'rakutenws') {
+    // 自分のアフィリエイト ID は楽天ウェブサービスの「アプリ一覧」に出る（API の説明 ichiba-item-search の affiliateId「Check here」→ /app/list）
+    await go('https://webservice.rakuten.co.jp/app/list');
+    let st = await p.evaluate(() => ({ pw: !!document.querySelector('input[type=password]'), url: location.origin + location.pathname, title: document.title.slice(0, 60) }));
+    if (/login|authorize/.test(st.url)) {
+      // 楽天会員の共通ログイン（OSSO）が残っていれば、ID を選ぶだけで通る
+      await p.locator('div[role=button], button, a').filter({ hasText: /^(次へ|ログイン|続ける)$/ }).first().click({ timeout: 5000 }).catch(() => {});
+      await p.waitForTimeout(5000);
+      st = await p.evaluate(() => ({ pw: !!document.querySelector('input[type=password]'), url: location.origin + location.pathname, title: document.title.slice(0, 60) }));
+    }
+    lines.push(`- 画面: ${st.url}（${st.title}）${st.pw ? ' ／ パスワード欄あり＝未ログイン' : ''}`, '');
+    const got = await p.evaluate((src) => {
+      const t = document.body.innerText || '';
+      const ids = [...new Set(t.match(new RegExp(src, 'g')) || [])];
+      const near = t.split('\n').map((x) => x.trim()).filter((x) => /アフィリエイトID|Affiliate ?ID|アプリ|アプリケーション/i.test(x)).slice(0, 12).map((x) => x.slice(0, 60));
+      return { ids, near };
+    }, RID.source);
+    lines.push('## 画面のアフィリエイト ID', '', got.ids.length ? got.ids.map((x) => `- \`${x}\``).join('\n') : '（見つからない）', '');
+    lines.push('## 「アフィリエイトID」「アプリ」を含む行', '', ...got.near.filter((x) => !NG.test(x)).map((x) => `- ${x}`), '');
+  }
+
   if (WHICH === 'a8detail') {
     for (const id of (process.env.A8_IDS || '').split(',').filter(Boolean)) {
       await go(`https://media-console.a8.net/program/detail-not-partnered?programId=${id}`);
@@ -157,7 +178,8 @@ try {
     const f = await p.evaluate(() => [...document.querySelectorAll('select, input[type=radio], input[type=checkbox]')].slice(0, 30)
       .map((e) => e.tagName === 'SELECT' ? `select[name=${e.name}]: ${[...e.options].map((o) => `${o.value}=${o.text.trim()}`).join(' / ').slice(0, 200)}`
         : `${e.type}[name=${e.name}] value=${e.value} ${(e.closest('label') || e.parentElement || {}).innerText?.trim().slice(0, 20) || ''}${e.checked ? ' ✔' : ''}`));
-    lines.push('## 絞り込みの欄', '', ...f.map((x) => `- ${x}`), '');
+    // **選択肢の文に会社名・契約 ID が出る**（2026-10-11 に出してしまった）。NG の行は落とす
+    lines.push('## 絞り込みの欄', '', ...f.filter((x) => !NG.test(x) && !/\d{5,}/.test(x.replace(/value=\d+x\d+/g, ''))).map((x) => `- ${x}`), '');
     lines.push('## 「提携」を含むリンク・ボタン', '', ...(await links(/提携/)).map(([t, h]) => `- ${t} — ${h}`), '');
     const rows = await p.evaluate(() => {
       const seen = new Set();

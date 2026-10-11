@@ -1,5 +1,4 @@
 [
-      {"task": "t259-rakuten-link-format.sh", "rc": 0, "out": "- ポイント企画バナー — https://affiliate.rakuten.co.jp/link/pc/shop?cmd=shop&me_adv_category_id=85&me_id=1 - 季節特集バナー — https://affiliate.rakuten.co.jp/link/pc/shop?cmd=shop&me_adv_category_id=58&me_id=1  ``` rc=0 /     1866 bytes"},
-      {"task": "t260-a8-candidate-detail.sh", "rc": 0, "out": "### s00000015597014 - 題名: プログラム詳細｜A8.netメディア管理画面 - 見出し: プログラム詳細 ／ 【三井ショッピングパークカード《セゾン》】 ／ プログラムの提携申請 - 名前らしい行: サイト名 ／ 広告主サイト ／ プログラム"},
-      {"task": "t261-vc-adlist.sh", "rc": 0, "out": "## 「提携」を含むリンク・ボタン  - 新規提携 — javascript:void(0) - 提携済み — javascript:void(0) - 提携待ち �"}
+      {"task": "t262-scrub-vc2-report.sh", "rc": 0, "out": "vc2.md:       71 行 →       70 行（合同会社を含む行の残り: 0）"},
+      {"task": "t263-rakuten-ws-affiliate-id.sh", "rc": 0, "out": "## 「アフィリエイトID」「アプリ」を含む行   ``` rc=0 /      501 bytes"}
   ]
