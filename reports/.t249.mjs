@@ -1,0 +1,11 @@
+import { createRequire } from 'node:module';
+const { chromium } = createRequire(process.env.PW_DIR + '/x.js')('playwright-core');
+const b = await chromium.connectOverCDP(`http://127.0.0.1:${process.env.CDP_PORT}`);
+const ctx = b.contexts()[0] || (await b.newContext());
+const sign = await ctx.newPage();
+await sign.setContent('<html><head><title>★ これが OpenClaw の Chrome</title></head><body style="font:bold 44px sans-serif;background:#ffeb3b;padding:40px;line-height:1.6">これが <u>OpenClaw の Chrome</u> です。<br>この窓の「ログイン - 楽天」タブで、楽天アフィリエイトにログインしてください。<br><span style="font-size:24px">（いつもの Chrome とはログイン状態が別です）</span></body></html>');
+const login = await ctx.newPage();
+await login.goto('https://affiliate.rakuten.co.jp/report/summary', { waitUntil: 'domcontentloaded', timeout: 25000 }).catch(() => {});
+await sign.bringToFront();
+console.log(`- 案内のタブと、楽天のログイン画面（${(await login.title()).slice(0, 30)}）を開いた`);
+process.exit(0);
