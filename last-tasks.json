@@ -1,4 +1,3 @@
 [
-      {"task": "t266-scrub-rakutenws-report.sh", "rc": 0, "out": "rakutenws.md:       91 行 →       90 行（Welcome の行の残り: 0）"},
-      {"task": "t267-vc-yahoo-link-code.sh", "rc": 0, "out": "- MyLink一括変換 — https://aff.valuecommerce.ne.jp/tools/mylinkEcList - Yahoo!ショッピングのMyLink詳細 — http://vcmylink.com/yahooshopping/index.html  ``` rc=0 /      847 bytes"}
+      {"task": "t268-rakuten-item-links.sh", "rc": 0, "out": "- Edy‐楽天ポイントカード（お買いものパンダ　チェック）（440円）   - https://hb.afl.rakuten.co.jp/ichiba/58666f2f.48bcda30.58666f30.06e2365b/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fedyshop%2Fedy-rpoint_panda-ch%2F&link_type=picttext&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0d"}
   ]

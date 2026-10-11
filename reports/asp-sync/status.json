@@ -1,15 +1,16 @@
 {
-  "generated": "2026-10-11T06:58:49.758Z",
+  "generated": "2026-10-11T07:00:24.919Z",
   "providers": {
-    "vc": {
-      "name": "バリューコマース",
+    "rakuten": {
+      "name": "楽天アフィリエイト",
       "loggedIn": true,
       "needsHuman": false,
       "credentialsInKeychain": true,
       "reason": "",
-      "url": "https://aff.valuecommerce.ne.jp/home",
-      "title": "ダッシュボード | アフィリエイト管理画面",
-      "menus": 19
+      "url": "https://affiliate.rakuten.co.jp/report/summary",
+      "title": "【楽天アフィリエイト】 - レポート",
+      "affiliateIds": [],
+      "menus": 6
     }
   }
 }
