@@ -1,3 +1,4 @@
 [
-      {"task": "t270-read-apply-forms.sh", "rc": 0, "out": " - ボタン: TOOL BOX ／ Agree to the terms of service ／ Cancel  ``` rc=0 /     1865 bytes"}
+      {"task": "t271-a8-apply.sh", "rc": 0, "out": "  - プログラムによっては審査結果が出るまで、数週間以上お時間を要する場合がございます。   - 審査中  ``` rc=0 /     2955 bytes"},
+      {"task": "t272-rakuten-app-prefill.sh", "rc": 0, "out": " **このタブは開いたまま残す。** 利用者が画像認証の文字を入れて「Agree to the terms of service」を押す  ``` rc=0 /      850 bytes"}
   ]

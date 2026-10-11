@@ -216,6 +216,48 @@ try {
     lines.push(`## 楽天ウェブサービス アプリ登録の欄（${here()}）`, '', ...f.fields.filter((x) => !NG.test(x)).map((x) => `- ${x}`), '', `- ボタン: ${f.btns.join(' ／ ')}`, '');
   }
 
+  if (WHICH === 'a8apply') {
+    // **利用者の OK を得た提携申請**（2026-10-11）。サイト「Daily hack」を選んで「プログラムの提携申請をする」を押す
+    p.on('dialog', (d) => { lines.push(`  - 確認ダイアログ: ${d.message().slice(0, 80)} → OK`); d.accept().catch(() => {}); });
+    for (const id of (process.env.A8_IDS || '').split(',').filter(Boolean)) {
+      lines.push(`### ${id}`);
+      await go(`https://media-console.a8.net/program/detail-not-partnered?programId=${id}`);
+      const sel = p.locator('select[name=webSiteId]');
+      if (!(await sel.count())) { lines.push(`- 申請欄が無い（${here()}・${(await p.title()).slice(0, 40)}）`, ''); continue; }
+      const opt = await sel.evaluate((e) => { const o = [...e.options].find((x) => /daily ?hack/i.test(x.text)); return o ? o.value : ''; });
+      if (!opt) { lines.push('- 「Daily hack」の選択肢が無い', ''); continue; }
+      await sel.selectOption(opt);
+      await p.getByText('プログラムの提携申請をする', { exact: false }).first().click({ timeout: 8000 }).catch((e) => lines.push(`- ⚠️ 押せない: ${String(e).split('\n')[0]}`));
+      await p.waitForTimeout(4000);
+      // 確認のモーダルが出たら「申請する」系を押す
+      const conf = p.locator('button:visible, [role=button]:visible, input[type=submit]:visible').filter({ hasText: /^(申請する|提携申請する|はい|OK|確定|送信)$/ }).first();
+      if (await conf.count()) { await conf.click({ timeout: 5000 }).catch(() => {}); await p.waitForTimeout(4000); lines.push('- 確認の画面で申請を押した'); }
+      const res = await p.evaluate(() => (document.body.innerText || '').split('\n').map((x) => x.trim()).filter((x) => /申請|提携|審査|完了|受け付け|エラー|失敗/.test(x)).slice(0, 6).map((x) => x.slice(0, 70)));
+      lines.push(`- 押したあとの画面: ${here()}`, ...res.filter((x) => !NG.test(x)).map((x) => `  - ${x}`), '');
+    }
+  }
+
+  if (WHICH === 'rakutenapp') {
+    // **アプリ登録は画像認証があるので、人が入れる。** それ以外の欄を入れて、タブを前に出したまま残す（送らない）
+    const q = await ctx.newPage();
+    await q.goto('https://webservice.rakuten.co.jp/app/create', { waitUntil: 'domcontentloaded', timeout: 25000 }).catch(() => {});
+    await q.waitForTimeout(3000);
+    const fill = async (sel, v) => q.locator(sel).first().fill(v).catch((e) => lines.push(`- ⚠️ ${sel}: ${String(e).split('\n')[0]}`));
+    await fill('input[name=app_name]', 'daily-hack');
+    await fill('input[name=app_site]', 'https://daily-hack.com/');
+    await q.locator('select[name=app_type]').selectOption({ label: 'Web Application' }).catch((e) => lines.push(`- ⚠️ app_type: ${String(e).split('\n')[0]}`));
+    await fill('textarea[name=origins]', 'https://daily-hack.com');
+    await fill('textarea[name=app_description]', 'ブログ daily-hack.com の記事に、楽天市場・楽天トラベルの商品リンクを載せるためのアプリ');
+    await fill('textarea[name=usage_purpose]', '記事で紹介する商品・宿の情報とアフィリエイトリンクを取得するため');
+    await fill('input[name=expected_qps]', '1');
+    for (const re of [/Ichiba/, /Travel/]) await q.locator('label').filter({ hasText: re }).locator('input[type=checkbox]').first().check({ force: true }).catch(() => {});
+    await q.locator('input[name=captcha]').first().scrollIntoViewIfNeeded().catch(() => {});
+    await q.locator('input[name=captcha]').first().focus().catch(() => {});
+    await q.bringToFront().catch(() => {});
+    const st = await q.evaluate(() => [...document.querySelectorAll('input:not([type=hidden]), select, textarea')].filter((e) => e.offsetWidth).map((e) => `${e.name}=${e.type === 'checkbox' ? (e.checked ? '✔' : '－') : ((e.value || '').length + '文字')}`));
+    lines.push('## 楽天ウェブサービス アプリ登録（画像認証の手前まで入れた・送っていない）', '', `- 画面: ${q.url().replace(/[?#].*$/, '')}`, ...st.map((x) => `- ${x}`), '', '**このタブは開いたまま残す。** 利用者が画像認証の文字を入れて「Agree to the terms of service」を押す', '');
+  }
+
   if (WHICH === 'a8detail') {
     for (const id of (process.env.A8_IDS || '').split(',').filter(Boolean)) {
       await go(`https://media-console.a8.net/program/detail-not-partnered?programId=${id}`);
