@@ -2,7 +2,7 @@
 title: "ポイントサービス徹底分析 2026 — 全部使い倒した私が4象限マップで整理した完全ガイド"
 description: "楽天・PayPay・dポイント・Vポイント(旧T)・Pontaの共通ポイント、WAON・JRE POINT・nanaco等の流通/交通系、モッピー・ハピタスのポイントサイト、移動ポイ活まで。2026年のポイントサービスを全部使い倒した視点で4象限マップに整理し、損しない組み合わせを解説する保存版。"
 publishDate: 2026-06-06
-updatedDate: 2026-06-07
+updatedDate: 2026-10-11
 category: ["comparisons", "howto", "roundups"]
 tags: ["ポイ活", "ポイントサービス", "共通ポイント", "ポイントサイト", "楽天ポイント", "PayPayポイント", "dポイント", "Vポイント", "Pontaポイント", "JRE POINT", "WAON", "nanaco", "モッピー", "ハピタス", "2026年最新版"]
 isPR: true
@@ -499,6 +499,8 @@ references: ["https://kakakumag.com/money/?id=20897", "https://www.warau.jp/", "
 <p class="source-note">出典：楽天ポイント利息の利率・進呈日は楽天の発表（2021年10月のサービス開始時。<a href="https://news.allabout.co.jp/articles/o/33137/" target="_blank" rel="noopener">All About ニュース</a>・<a href="https://www.bcnretail.com/market/detail/20211019_249029.html" target="_blank" rel="noopener">BCN</a>）。最新の条件は楽天ポイントクラブのアプリで確認を。</p>
 
 <p><strong>💰 2026年の貯め方</strong>：軸は <strong>SPU（公称最大+18倍／現実は数倍）</strong> ＋ <strong>5と0のつく日（要エントリー＋楽天カード決済）</strong>。ただし貯まる期間限定ポイントは<strong>有効期限が約1か月半と短い</strong>ので、楽天ペイや楽天モバイル料金でこまめに溶かすのがコツ。</p>
+
+<p><strong>🏪 お店でも貯めるなら</strong>：楽天ポイントカードの加盟店では、会計のときにカードを見せるだけでポイントが付く。アプリでも代わりになるけど、レジでさっと出せる実物派なら<a href="https://hb.afl.rakuten.co.jp/ichiba/58666f2f.48bcda30.58666f30.06e2365b/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fedyshop%2Fedy-rpoint_red%2F&link_type=picttext&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D" target="_blank" rel="sponsored noopener nofollow">Edy-楽天ポイントカード（楽天市場・330円）</a>を1枚持っておくと楽。電子マネーの楽天Edyも同じカードで使える。</p>
 
 <div class="sd-campaign">大型セール（お買い物マラソン／スーパーSALE）の買い回り中に日用品をまとめ買いすると一気に伸びる。<strong>🎁 楽天ポイントの主軸＝楽天カード</strong>。<a href="https://r10.to/hPxfRD" target="_blank" rel="sponsored noopener nofollow">紹介リンク（コード hPxfRD）</a>経由の新規入会＋利用で“あなた”にも入会ポイント（時期により最大5,000pt）。詳しくは上の🎁特典ボックスへ。楽天市場をアプリで使うなら、<a href="https://r10.to/hYntA2" target="_blank" rel="sponsored noopener nofollow">楽天市場アプリの紹介リンク</a>から、はじめて（または久しぶりに）アプリで買い物すると<strong>最大1,000ポイント</strong>（条件・時期により変動）。</div>
 </div>
