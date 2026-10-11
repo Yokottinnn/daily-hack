@@ -39,6 +39,11 @@ const FILES = {
   "jal-2x-2026-10": ["1-notice.jpg", "2-monthly.jpg", "3-history.jpg", "4-service.jpg"],
   // **未投稿**（2026-10-05）。FUNDS の紹介（利用者の招待リンク）。素材は招待ページと funds.jp の画面だけ（公式の画面・出所の行は要らない）
   "funds-invite-2026-10": ["1-gift.jpg", "2-service.jpg", "3-fund.jpg", "4-story.jpg"],
+  // **未投稿**（2026-10-11）。blog3 から依頼の告知 3 本。scripts/gen-x-panels.mjs で ops/data/x-cards/<slug>.panels.json から作る。
+  // 写真は Commons の CC0 / パブリックドメイン（x/src/_manifest.json）とロゴだけなので、出所の行が要らない
+  "momiji-2026-kanto": ["1-calendar.jpg", "2-takao.jpg", "3-rikugien.jpg", "4-nikko.jpg"],
+  "takanawa-gateway-city-guide-2026": ["1-morning.jpg", "2-luftbaum.jpg", "3-mon.jpg", "4-access.jpg"],
+  "furusato-portal-comparison-2026": ["1-ban.jpg", "2-points.jpg", "3-anapay.jpg", "4-steps.jpg"],
 };
 
 const map = {};
@@ -49,10 +54,11 @@ for (const [slug, files] of Object.entries(FILES)) {
     let buf = fs.readFileSync(p);
     // **空でないことを見る。** 読めた rc は証拠にならない（最上位ルール 13）
     if (!buf.length) throw new Error("空のファイル: " + p);
-    // **大きい GIF はページに埋める分だけ 540px に縮める**（ページの上限 16MB。2026-10-03 に GIF 2 本で超えた）。
+    // **大きい GIF はページに埋める分だけ 440px に縮める**（ページの上限 16MB。2026-10-03 に GIF 2 本で超えた）。
     // 投稿に使う元のファイルは触らない。コメントの位置は割合なので縮めてもずれない
     if (f.endsWith(".gif") && buf.length > 3 * 1048576) {
-      buf = await sharp(buf, { animated: true }).resize(540, 540).gif({ effort: 7, colours: 256, dither: 0.6 }).toBuffer();
+      // 2026-10-11 に告知 3 本（12 枚）を足して 16.79 MB になったので 540 → 440px に下げた
+      buf = await sharp(buf, { animated: true }).resize(440, 440).gif({ effort: 7, colours: 256, dither: 0.6 }).toBuffer();
     }
     raw += buf.length;
     // **拡張子で型を変える。** GIF を image/jpeg で埋めると動かないことがある

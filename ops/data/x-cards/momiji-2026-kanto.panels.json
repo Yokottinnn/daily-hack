@@ -1,0 +1,181 @@
+{
+  "_doc": "X 告知用の正方形画像。node scripts/gen-x-panels.mjs ops/data/x-cards/momiji-2026-kanto.panels.json",
+  "_note": "**出所の行が無いのは、権利表記の要らない素材だけで組んだから**（2026-09-20 の指示・CLAUDE.md 最上位ルール 8）。記事本文の写真は CC BY / CC BY-SA なので使っていない。写真は Wikimedia Commons の CC0 / パブリックドメインだけ（x/src/_manifest.json）。**ここに CC BY / CC BY-SA を戻すなら、出所の行も戻すこと。** 日付・料金はすべて記事（2026-10-04 公開）にあるもの",
+  "imageBase": "public/images/momiji-2026-kanto",
+  "out": "public/images/momiji-2026-kanto/x",
+  "theme": "berry",
+  "panels": [
+    {
+      "file": "1-calendar.jpg",
+      "kind": "cal",
+      "headH": 230,
+      "rows": 8,
+      "rowH": 66,
+      "bgImage": "x/src/nikko-shoyoen.jpg",
+      "bgOpacity": 0.2,
+      "kicker": "2026年の予想 ／ 見頃が早い順",
+      "title": "関東の紅葉 見頃カレンダー",
+      "cal": {
+        "from": "2026-10-01",
+        "to": "2026-12-31",
+        "months": [
+          {
+            "at": "2026-10-01",
+            "label": "10月"
+          },
+          {
+            "at": "2026-11-01",
+            "label": "11月"
+          },
+          {
+            "at": "2026-12-01",
+            "label": "12月"
+          }
+        ],
+        "ticks": [
+          "2026-10-11",
+          "2026-10-21",
+          "2026-11-11",
+          "2026-11-21",
+          "2026-12-11",
+          "2026-12-21"
+        ],
+        "marks": [
+          {
+            "at": "2026-11-29",
+            "label": "東京 11/29ごろ"
+          }
+        ],
+        "rows": [
+          {
+            "name": "日光",
+            "sub": "いろは坂",
+            "start": "2026-10-21",
+            "open": true,
+            "label": "10/21〜（去年は10/23〜）"
+          },
+          {
+            "name": "昭和記念公園",
+            "sub": "立川市",
+            "start": "2026-10-21",
+            "end": "2026-11-30",
+            "label": "10月下旬〜11月下旬"
+          },
+          {
+            "name": "奥多摩湖",
+            "sub": "奥多摩町",
+            "start": "2026-10-21",
+            "end": "2026-11-20",
+            "label": "10月下旬〜11月中旬"
+          },
+          {
+            "name": "高尾山",
+            "sub": "八王子市",
+            "start": "2026-11-19",
+            "open": true,
+            "hl": true,
+            "label": "11/19〜　去年より8日遅い"
+          },
+          {
+            "name": "明治神宮外苑",
+            "sub": "新宿区",
+            "start": "2026-11-21",
+            "end": "2026-12-10",
+            "label": "11月下旬〜12月上旬"
+          },
+          {
+            "name": "清澄庭園",
+            "sub": "江東区",
+            "start": "2026-11-21",
+            "end": "2026-12-10",
+            "label": "11月下旬〜12月上旬"
+          },
+          {
+            "name": "小石川後楽園",
+            "sub": "文京区",
+            "start": "2026-12-01",
+            "end": "2026-12-10",
+            "label": "12月上旬"
+          },
+          {
+            "name": "六義園",
+            "sub": "文京区",
+            "start": "2026-12-01",
+            "end": "2026-12-20",
+            "label": "12月上旬〜中旬"
+          }
+        ]
+      },
+      "note": "東京の紅葉は<b>11月29日ごろ</b>で平年並み。関東・甲信の46か所は記事に全部ある。",
+      "css": ".cal .cl{background:#fff;padding:0 6px;margin-left:-6px;z-index:2;border-radius:6px}.cal .crow.hl .cl{background:#FFF6E0}.cal .mark{z-index:1}"
+    },
+    {
+      "file": "2-takao.jpg",
+      "kind": "html",
+      "bgImage": "x/src/maple.jpg",
+      "bgOpacity": 0.2,
+      "kicker": "日本気象協会の予想（10月1日）",
+      "title": "高尾山は去年より<em>8日</em>遅い",
+      "html": "<div class=\"vs\"><div class=\"c\"><div class=\"lab\">去年の見頃</div><div class=\"v\">11月11日〜</div></div><div class=\"arr\">→</div><div class=\"c on\"><div class=\"lab\">2026年の予想</div><div class=\"v\">11月19日〜</div></div></div><table class=\"t\"><tr><th>名所</th><th>2026年の予想</th><th>去年の見頃</th><th>去年と比べて</th></tr><tr><td>上高地</td><td class=\"n\">10月13日〜</td><td>10月14日〜</td><td>早い</td></tr><tr><td>日光（いろは坂）</td><td class=\"n\">10月21日〜</td><td>10月23日〜</td><td>早い</td></tr><tr class=\"hl\"><td>高尾山</td><td class=\"n\">11月19日〜</td><td>11月11日〜</td><td>遅い</td></tr></table>",
+      "note": "9月後半から気温が高い日が続いて、山の色づきが後ろにずれた。<b>去年の感覚で11月の頭に行くと、まだ青い。</b>",
+      "css": "main{gap:34px;padding-top:44px}.vs .c{padding:38px 26px}.vs .c .v{font-size:66px}table.t{font-size:28px}table.t th{font-size:21px;padding:14px 20px}table.t td{padding:20px 20px}.note{font-size:27px;padding:24px 28px}"
+    },
+    {
+      "file": "3-rikugien.jpg",
+      "kind": "wide",
+      "shotH": 540,
+      "bgImage": "x/src/rikugien-night.jpg",
+      "bgOpacity": 0.22,
+      "kicker": "2026年の日程が出てる",
+      "title": "六義園の夜間特別観賞",
+      "img": "x/src/rikugien-night.jpg",
+      "imgPos": "center 60%",
+      "caption": "六義園のライトアップ",
+      "items": [
+        {
+          "h": "期間",
+          "b": "11/25〜12/6",
+          "s": "18:00〜20:30（最終入園19:30）"
+        },
+        {
+          "h": "料金",
+          "b": "前売1,000円",
+          "s": "オンラインのみ。当日券は1,200円"
+        },
+        {
+          "h": "注意",
+          "b": "昼の券では入れない",
+          "s": "17時にいったん閉園して入れ替え"
+        }
+      ]
+    },
+    {
+      "file": "4-nikko.jpg",
+      "kind": "wide",
+      "shotH": 540,
+      "bgImage": "x/src/nikko-shoyoen-night.jpg",
+      "bgOpacity": 0.2,
+      "kicker": "10月中に動くなら",
+      "title": "日光がいちばん早い組",
+      "img": "x/src/nikko-shoyoen.jpg",
+      "caption": "日光・輪王寺 逍遥園",
+      "items": [
+        {
+          "h": "いろは坂",
+          "b": "10月21日〜",
+          "s": "去年は10月23日〜"
+        },
+        {
+          "h": "夜",
+          "b": "華厳滝ライトアップ",
+          "s": "11/14（土）〜11/23（月祝）"
+        },
+        {
+          "h": "電車なら",
+          "b": "フリーパス3,000円",
+          "s": "日光世界遺産フリーパス・2日間（特急料金は別）"
+        }
+      ]
+    }
+  ]
+}
