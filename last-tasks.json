@@ -1,3 +1,5 @@
 [
-      {"task": "t252-rakuten-fresh-login.sh", "rc": 0, "out": " ```text rakuten: ログイン済み / 楽天ID 0 件 ``` rc=0 /      273 bytes"}
+      {"task": "t253-rakuten-affiliate-id.sh", "rc": 0, "out": "- ツールを使う —  - ツールを使う — https://affiliate.rakuten.co.jp/tool?l-id=af_header_tool_01 - 商品リンク作成 — https://affiliate.rakuten.co.jp/link/pc/item?me_id=1258569&item_id=10000350&me_url=https://item.rakuten.co.jp/edyshop/edy-rpoint_red/&me_img_src=https://thumbnai"},
+      {"task": "t254-a8-candidate-names2.sh", "rc": 0, "out": " - 検索結果に出なかった: s00000023355003, s00000024441001, s00000026575004, s00000026575013, s00000026575008, s00000026575010, s00000015597014, s00000023297001, s00000013470008, s00000025908001, s00000017066001  ``` rc=0 /      427 bytes"},
+      {"task": "t255-vc-partnered-list.sh", "rc": 0, "out": "- 株式会社オズテック「OZgaming」販売促進プログラム — https://aff.valuecommerce.ne.jp/ad/adDetail/2171974 - 【全国対応】無料保険相談『みんなの生命保険アドバイザー』 — https://aff.valuecommerce.ne.jp/ad/adDetail/2174615 - VAIOストア 販売促進�"}
   ]

@@ -1,12 +1,16 @@
 {
-  "generated": "2026-10-11T03:40:31.958Z",
+  "generated": "2026-10-11T06:36:42.688Z",
   "providers": {
     "rakuten": {
       "name": "楽天アフィリエイト",
-      "loggedIn": false,
+      "loggedIn": true,
       "needsHuman": false,
-      "credentialsInKeychain": false,
-      "reason": "失敗: Error: page.goto: net::ERR_NAME_NOT_RESOLVED at https://affiliate.rakuten.co.jp/report/summary\nCall log:\n  - navigating to \"https://affiliate.rakuten.co.jp/repo"
+      "credentialsInKeychain": true,
+      "reason": "",
+      "url": "https://affiliate.rakuten.co.jp/report/summary",
+      "title": "【楽天アフィリエイト】 - レポート",
+      "affiliateIds": [],
+      "menus": 6
     }
   }
 }
