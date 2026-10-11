@@ -1,0 +1,51 @@
+# A8 の候補の名前と提携方式（t257・**$0**）
+
+生成: **2026-10-11T15:42:55+0900**
+
+```text
+a8: ログイン済み
+# ASP の画面調べ: a8（asp-probe）
+
+生成: **2026-10-11T06:43:42.751Z**
+
+- 開いた画面: https://media-console.a8.net/program/search/keyword（キーワード検索｜A8.netメディア管理画面）
+- 画面の programId リンク数: 4
+
+## 候補 11 件
+
+### s00000023355003（検索語「三井住友カード」）
+- 見出し: 
+- 画像の alt: 本人OK ／ ポイントNG ／ リスティングNG
+- 先頭の行: 未提携 ／ プログラムID	s00000023355003 ／ プログラム開始日	2022年05月11日 ／ カテゴリ	金融
+- 提携の表示: 未提携
+- リンク: https://media-console.a8.net/program/detail-not-partnered?programId=s00000023355003&fromSearch=true https://support.a8.net/a8/as/faq/2008/05/c.html https://support.a8.net/a8/as/faq/2025/post_2604.html https://media-console.a8.net/program/search/keyword?keywords=%E3%82%AF%E3%83%AC%E3%82%B8%E3%83%83%E3%83%88%E3%82%AB%E3%83%BC%E3%83%89
+
+### s00000024441001（検索語「三井住友カード」）
+- 見出し: 
+- 画像の alt: 本人NG ／ ポイントNG ／ リスティング一部OK
+- 先頭の行: 未提携 ／ プログラムID	s00000024441001 ／ プログラム開始日	2023年04月03日 ／ カテゴリ	金融
+- 提携の表示: 未提携
+- リンク: https://media-console.a8.net/program/detail-not-partnered?programId=s00000024441001&fromSearch=true https://support.a8.net/a8/as/faq/2008/05/c.html https://support.a8.net/a8/as/faq/2025/post_2604.html https://media-console.a8.net/program/search/keyword?keywords=%E3%82%AF%E3%83%AC%E3%82%AB
+
+### s00000015597014（検索語「セゾン」）
+- 見出し: 
+- 画像の alt: 本人NG ／ ポイントNG ／ リスティング一部OK
+- 先頭の行: 未提携 ／ プログラムID	s00000015597014 ／ プログラム開始日	2025年07月01日 ／ カテゴリ	金融
+- 提携の表示: 未提携
+- リンク: https://media-console.a8.net/program/detail-not-partnered?programId=s00000015597014&fromSearch=true https://support.a8.net/a8/as/faq/2008/05/c.html https://support.a8.net/a8/as/faq/2025/post_2604.html https://media-console.a8.net/program/search/keyword?keywords=%E3%82%AF%E3%83%AC%E3%82%AB
+
+### s00000026575004（検索語「セゾン」）
+- 見出し: 
+- 画像の alt: 本人NG ／ ポイントNG ／ リスティング一部OK
+- 先頭の行: 未提携 ／ プログラムID	s00000026575004 ／ プログラム開始日	2024年12月25日 ／ カテゴリ	金融
+- 提携の表示: 未提携
+- リンク: https://media-console.a8.net/program/detail-not-partnered?programId=s00000026575004&fromSearch=true https://support.a8.net/a8/as/faq/2008/05/c.html https://support.a8.net/a8/as/faq/2025/post_2604.html https://media-console.a8.net/program/search/keyword?keywords=%E3%82%AF%E3%83%AC%E3%82%B8%E3%83%83%E3%83%88%E3%82%AB%E3%83%BC%E3%83%89
+
+### s00000026575008（検索語「セゾン」）
+- 見出し: 
+- 画像の alt: 本人NG ／ ポイントNG ／ リスティング一部OK
+- 先頭の行: 未提携 ／ プログラムID	s00000026575008 ／ プログラム開始日	2024年12月26日 ／ カテゴリ	金融
+- 提携の表示: 未提携
+- リンク: https://media-console.a8.net/program/detail-not-partnered?programId=s00000026575008&fromSearch=true https://support.a8.net/a8/as/faq/2008/05/c.html https://support.a8.net/a8/as/faq/2025/post_2604.html https://media-consol
+```
+rc=0 /     3479 bytes

@@ -1,6 +1,6 @@
 # バリューコマース（asp-sync）
 
-生成: **2026-10-05T15:38:48.959Z**
+生成: **2026-10-11T06:44:06.596Z**
 
 - ログイン: **できている**
 - 最終 URL: https://aff.valuecommerce.ne.jp/home
@@ -15,7 +15,6 @@
 | LinkSwitch設定 | https://aff.valuecommerce.ne.jp/ad/AutoMyLink/rd |
 | MyLink一括変換 | https://aff.valuecommerce.ne.jp/tools/mylinkEcList |
 | サイト設定 | https://aff.valuecommerce.ne.jp/account/siteManage |
-| 【リリースのお知らせ】X向けアフィリエイトリンクの商品画像表示機能を追加しました | https://www.valuecommerce.ne.jp/support/maintenance/22756.html |
 | 【LYPプレミアム（旧Yahoo!プレミアム）】 会員獲得プログラム | https://aff.valuecommerce.ne.jp/ad/adDetail/2082539?tag=cm&spot=d |
 | 世界最大級！ツアーアクティビティの検索サイト「Liigo」販促プログラム | https://aff.valuecommerce.ne.jp/ad/adDetail/2161122?tag=cm&spot=d |
 | 【LYPプレミアム（旧Yahoo!プレミアム）】 会員獲得プログラム | https://aff.valuecommerce.ne.jp/ad/adDetail/2082539 |
@@ -26,8 +25,8 @@
 | VAIOストア 販売促進プログラム | https://aff.valuecommerce.ne.jp/ad/adDetail/2169074 |
 | FRONTIER基本プログラム | https://aff.valuecommerce.ne.jp/ad/adDetail/2143156 |
 | 広告主を組み合わせて紹介することで、注文数アップ。相性の良いカテゴリーの組み合わせとおすすめ広告主、効果的な紹介方法をご | https://www.valuecommerce.ne.jp/event/advertiser-combination/ |
+| 広告主のセール・キャンペーン情報が一覧に。成果につながる投稿ネタがすぐ見つかる！ | https://www.valuecommerce.ne.jp/event/ad_calendar/ |
 | 【ベルーナ】みんなの酒屋 販売プログラム | https://aff.valuecommerce.ne.jp/ad/adDetail/2175574 |
-| ピュアクリニック来店プログラム | https://aff.valuecommerce.ne.jp/ad/adDetail/2175494 |
 | 旅行サイト「Yahoo!トラベル」 | https://aff.valuecommerce.ne.jp/ad/adDetail/2026983 |
 | アフィリエイトサイト運営者利用規約 | http://www.valuecommerce.ne.jp/st_affiliate/terms.html |
 
@@ -36,9 +35,7 @@
 ```text
 ログアウト
 人気ワード：
-ヒルトン|
-オルビス|
-Pontaパス
+東武トップツアーズ
 ダッシュボード
 レポート
 詳細検索
@@ -63,15 +60,16 @@ MyLink一括変換
 ITPタグ
 レポートAPI
 Chrome拡張機能
-メッセージ 1
+メッセージ
 自己アフィリエイト
 Daily Hack あんたバカぁ?まだ損してるの?
 すべて選択
 Daily Hack あんたバカぁ?まだ損してるの? （ID:3776384）
 クリック
+【事前周知】管理画面ログイン 二要素認証機能リリースのお知らせ
 【重要】アフィリエイト管理画面システムメンテナンスのお知らせ（10月4日）
 【重要】行動履歴情報保護方針改定のお知らせ
-【リリースのお知らせ】X向けアフィリエイトリンクの商品画像表示機能を追加しました
+ランカミー｜スリランカタクシーチャーター予約
 ショッピング・オークション
 ファッション・アクセサリー
 PC・家電・ソフト
@@ -94,10 +92,10 @@ BtoB・Webサービス
 ベビー・キッズ・マタニティ
 デジタルコンテンツ
 アダルト・出会い・ギャンブル
+ランカミー｜スリランカタクシーチャーター予約 旅行即時提携
 【ベルーナ】みんなの酒屋 販売プログラム 飲食・グルメ審査あり
 ファッションレンタルサービス「AnotherADdress（アナザーアドレス）」 ショッピング・オークション即時提携
-ピュアクリニック来店プログラム 健康・ダイエット・医療審査あり
-総合ショッピングモールならではの商品数！
+国内最大規模の宿泊施設が予約可能！
 類を見ない豊富な商品ラインナップをご用意。
 旅行サイト「Yahoo!トラベル」
 エイジングケアならオルビスユー

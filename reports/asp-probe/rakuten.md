@@ -1,6 +1,6 @@
 # ASP の画面調べ: rakuten（asp-probe）
 
-生成: **2026-10-11T06:36:58.403Z**
+生成: **2026-10-11T06:42:36.218Z**
 
 - 開いた画面: https://affiliate.rakuten.co.jp/
 
@@ -69,6 +69,14 @@
 - ショップリンクを作成する — https://affiliate.rakuten.co.jp/link/pc/shop?me_id=1308749&item_id=10034617
 - 商品リンク作成 — https://affiliate.rakuten.co.jp/link/pc/item?me_id=1284491&item_id=10005073&me_url=https://item.rakuten.co.jp/suitcase-w/manhattanpassage-9050/?variantId=95506&me_img_src=https://thumbnail.image.rakuten.co.jp/@0_mall/suitcase-w/cabinet/mp01/mp09050.jpg&goods_name=%EF%BC%BC%E6%A5%BD%E5%A4%A9%E3%82%AB%E3%83%BC%E3%83%89%E5%88%A9%E7%94%A8%E3%81%A7%E6%9C%80%E5%A4%A7P12%E5%80%8D%EF%BC%8F%20%E3%83%9E%E3%83%B3%E3%83%8F%E3%83%83%E3%82%BF%E3%83%B3%E3%83%91%E3%83%83%E3%82%BB%E3%83%BC%E3%82%B8%20MANHATTAN%20PASSAGE%20%E3%83%9E%E3%83%AB%E3%83%81%E3%83%9D%E3%82%B1%E3%83%83%E3%83%88%20%E3%83%93%E3%82%B8%E3%83%8D%E3%82%B9%E3%83%AA%E3%83%A5%E3%83%83%E3%82%AF%E3%80%90%E3%82%A2%E3%83%AB%E3%83%86%E3%82%A3%E3%83%A1%E3%83%83%E3%83%88%E3%82%B3%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%E3%80%91%209050%20%E3%83%A1%E3%83%B3%E3%82%BA%20%E3%83%AA%E3%83%A5%E3%83%83%E3%82%AF%E3%82%B5%E3%83%83%E3%82%AF%20%E6%97%85%E8%A1%8C%20%E3%83%93%E3%82%B8%E3%83%8D%E3%82%B9%E3%83%90%E3%83%83%E3%82%B0%20B4%20A4%20%E4%BB%95%E4%BA%8B%20%E9%9E%84%20%E7%94%B7%E6%80%A7%20%E7%B4%B3%E5%A3%AB%20%E3%81%8B%E3%81%B0%E3%82%93%20%E3%83%AA%E3%83%A5%E3%83%83%E3%82%AF&price=29,700%E5%86%86&tax_flg=0&postage_flg=0&change_flg=0
 - ショップリンクを作成する — https://affiliate.rakuten.co.jp/link/pc/shop?me_id=1284491&item_id=10005073
+
+- 商品リンク作成の画面: https://affiliate.rakuten.co.jp/link/pc/item
+
+## 画面に出たリンクのコード（先頭だけ）
+
+```text
+<table border="0" cellpadding="0" cellspacing="0"><tr><td><div style="border:1px solid #95a5a6;border-radius:.75rem;background-color:#FFFFFF;width:504px;margin:0px;padding:5px;text-align:center;overflow:hidden;"><table><tr><td style="width:240px"><a href="https://hb.afl.rakuten.co.jp/ichiba/58666f2f.48bcda30.58666f30.06e2365b/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fedyshop%2Fedy-rpoint_red%2F&link_
+```
 
 ## 楽天アフィリエイト ID
 
