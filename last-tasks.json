@@ -1,3 +1,4 @@
 [
-      {"task": "t265-rakuten-ws-dump.sh", "rc": 0, "out": "- [Maintenance] 2026/07/19 (Sun) — https://rakuten-webservice.tumblr.com/post/821647410742902784/maintenance-20260719-sun-rakuten-web-service - [Announcement] 2026-03-25 Ichi — https://rakuten-webservice.tumblr.com/post/812040187960066048/announcement-2026-03-25-ichiba-product-search - [Announce"}
+      {"task": "t266-scrub-rakutenws-report.sh", "rc": 0, "out": "rakutenws.md:       91 行 →       90 行（Welcome の行の残り: 0）"},
+      {"task": "t267-vc-yahoo-link-code.sh", "rc": 0, "out": "- MyLink一括変換 — https://aff.valuecommerce.ne.jp/tools/mylinkEcList - Yahoo!ショッピングのMyLink詳細 — http://vcmylink.com/yahooshopping/index.html  ``` rc=0 /      847 bytes"}
   ]
