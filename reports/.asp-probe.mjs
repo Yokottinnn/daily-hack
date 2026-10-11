@@ -157,6 +157,13 @@ try {
     }, RID.source);
     lines.push('## 画面のアフィリエイト ID', '', got.ids.length ? got.ids.map((x) => `- \`${x}\``).join('\n') : '（見つからない）', '');
     lines.push('## 「アフィリエイトID」「アプリ」を含む行', '', ...got.near.filter((x) => !NG.test(x)).map((x) => `- ${x}`), '');
+    // 何も拾えなかったときのために、画面の行とリンクをそのまま出す（**@ を含む行・NG の行は出さない**）
+    await p.waitForTimeout(4000);
+    const raw = await p.evaluate(() => ({
+      text: (document.body.innerText || '').split('\n').map((x) => x.trim()).filter(Boolean).slice(0, 60).map((x) => x.slice(0, 70)),
+      links: [...new Set([...document.querySelectorAll('a[href]')].map((a) => `${(a.innerText || '').trim().slice(0, 30)} — ${a.href.replace(/[?#].*$/, '')}`))].slice(0, 40),
+    }));
+    lines.push('## 画面の行（先頭 60）', '', '```text', ...raw.text.filter((x) => !NG.test(x) && !/@/.test(x)), '```', '', '## 画面のリンク', '', ...raw.links.filter((x) => !/@/.test(x)).map((x) => `- ${x}`), '');
   }
 
   if (WHICH === 'a8detail') {
