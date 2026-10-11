@@ -120,6 +120,54 @@ try {
       lines.push(`## 広告の行（${rows.length} 件）`, '', ...rows.filter(([t]) => !NG.test(t)).map(([t, h]) => `- ${t.replace(/\|/g, '／')} — ${h}`), '');
     } else lines.push('- 「提携済み」が見つからない', '');
   }
+  if (WHICH === 'rakuten2') {
+    // 商品リンクのコードを丸ごと読み、リンクの形（パラメータ名）を確かめる。あわせて「ツールを使う」の中身を見る
+    await go('https://affiliate.rakuten.co.jp/search?v=2&g=100316');
+    const mk = await p.evaluate(() => { const a = [...document.querySelectorAll('a[href*="/link/pc/item"]')][0]; return a ? a.href : ''; });
+    if (mk) {
+      await go(mk);
+      const hrefs = await p.evaluate(() => {
+        const out = new Set();
+        for (const t of document.querySelectorAll('textarea, input[type=text]')) for (const m of (t.value || '').matchAll(/https?:\/\/hb\.afl\.rakuten\.co\.jp\/[^"'<\s]+/g)) out.add(m[0]);
+        return [...out];
+      });
+      lines.push('## 商品リンクのコードに入っていた URL（全部）', '', '```text', ...hrefs.map((h) => h.replace(/&amp;/g, '&')), '```', '');
+      lines.push('## コードの種類を切り替えるボタン', '', ...(await links(/テキスト|画像|URL|短縮|コード|タイプ|種類/)).map(([t, h]) => `- ${t} — ${h}`), '');
+    }
+    await go('https://affiliate.rakuten.co.jp/tool');
+    lines.push(`- ツールの画面: ${here()}`, '', '## ツールの一覧', '', ...(await links(/./)).filter(([, h]) => /affiliate\.rakuten\.co\.jp\/(tool|link)/.test(h)).map(([t, h]) => `- ${t} — ${h}`), '');
+  }
+
+  if (WHICH === 'a8detail') {
+    for (const id of (process.env.A8_IDS || '').split(',').filter(Boolean)) {
+      await go(`https://media-console.a8.net/program/detail-not-partnered?programId=${id}`);
+      const d = await p.evaluate(() => {
+        const t = (document.body.innerText || '').split('\n').map((x) => x.trim()).filter(Boolean);
+        const pick = (re) => t.filter((x) => re.test(x)).slice(0, 3).map((x) => x.slice(0, 80));
+        const h = [...document.querySelectorAll('h1,h2,h3')].map((x) => x.innerText.replace(/\s+/g, ' ').trim()).filter(Boolean).slice(0, 4);
+        return { title: document.title.slice(0, 80), h, join: pick(/即時|審査|提携方法|提携条件/), reward: pick(/成果報酬|円|%|％/), site: pick(/広告主|サイト名|プログラム名/) };
+      });
+      lines.push(`### ${id}`, `- 題名: ${d.title}`, `- 見出し: ${d.h.join(' ／ ')}`, `- 名前らしい行: ${d.site.join(' ／ ')}`, `- 提携方式: ${d.join.join(' ／ ')}`, `- 成果報酬: ${d.reward.join(' ／ ')}`, '');
+    }
+  }
+
+  if (WHICH === 'vc2') {
+    await go('https://aff.valuecommerce.ne.jp/ad/adList');
+    lines.push(`- 開いた画面: ${here()}（${(await p.title()).slice(0, 40)}）`, '');
+    const f = await p.evaluate(() => [...document.querySelectorAll('select, input[type=radio], input[type=checkbox]')].slice(0, 30)
+      .map((e) => e.tagName === 'SELECT' ? `select[name=${e.name}]: ${[...e.options].map((o) => `${o.value}=${o.text.trim()}`).join(' / ').slice(0, 200)}`
+        : `${e.type}[name=${e.name}] value=${e.value} ${(e.closest('label') || e.parentElement || {}).innerText?.trim().slice(0, 20) || ''}${e.checked ? ' ✔' : ''}`));
+    lines.push('## 絞り込みの欄', '', ...f.map((x) => `- ${x}`), '');
+    lines.push('## 「提携」を含むリンク・ボタン', '', ...(await links(/提携/)).map(([t, h]) => `- ${t} — ${h}`), '');
+    const rows = await p.evaluate(() => {
+      const seen = new Set();
+      return [...document.querySelectorAll('a[href*="adDetail"]')].map((a) => {
+        let r = a; for (let i = 0; i < 6 && r.parentElement; i++) { r = r.parentElement; if (r.tagName === 'TR' || (r.innerText || '').length > 120) break; }
+        return [(a.innerText || '').replace(/\s+/g, ' ').trim().slice(0, 60), ((r.innerText || '').match(/提携中|提携済み?|提携待ち|未提携|審査中|即時提携|提携申請/g) || []).join('・'), a.href.replace(/\?.*$/, '')];
+      }).filter(([t, , h]) => t && !seen.has(h) && seen.add(h));
+    });
+    lines.push(`## 広告の行（${rows.length} 件）`, '', ...rows.filter(([t]) => !NG.test(t)).map(([t, st, h]) => `- ${t.replace(/\|/g, '／')}［${st || '表示なし'}］ — ${h}`), '');
+  }
 } catch (e) { lines.push(`- ⚠️ 失敗: ${String(e).slice(0, 200)}`); }
 fs.writeFileSync(path.join(OUT, `${WHICH}.md`), lines.join('\n') + '\n');
 console.log(lines.join('\n').slice(0, 2500));
