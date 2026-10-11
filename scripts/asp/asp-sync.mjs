@@ -82,7 +82,7 @@ async function pageState(p) {
     const logoutLink = [...document.querySelectorAll('a, button')].some((el) => /ログアウト|logout|sign ?out/i.test(el.innerText || el.href || ''));
     const inputs = [...document.querySelectorAll('input, button, [role=button]')].filter(vis).slice(0, 15)
       .map((el) => el.tagName === 'INPUT' ? `input[type=${el.type}${el.name ? ` name=${el.name}` : ''}${el.id ? ` id=${el.id}` : ''}]` : `button「${(el.innerText || '').replace(/\s+/g, ' ').trim().slice(0, 20)}」`);
-    return { pw, human, url: location.href, title, notFound, loginCta, loginUrl, logoutLink, inputs };
+    return { pw, human, url: location.origin + location.pathname, title, notFound, loginCta, loginUrl, logoutLink, inputs };
   });
 }
 
@@ -100,7 +100,7 @@ async function snap(p, label) {
       .map((e) => e.innerText.replace(/\s+/g, ' ').trim()).filter(Boolean).slice(0, 5);
     const btns = [...document.querySelectorAll('button, [role=button], input[type=submit], a')].filter(vis)
       .map((b) => `${b.tagName.toLowerCase()}${b.getAttribute('role') ? `[role=${b.getAttribute('role')}]` : ''}「${(b.innerText || b.value || '').replace(/\s+/g, ' ').trim().slice(0, 16)}」`).filter((x) => !x.endsWith('「」')).slice(0, 12);
-    return { url: location.href.slice(0, 120), ins, msgs, btns };
+    return { url: (location.origin + location.pathname).slice(0, 120), ins, msgs, btns }; // クエリ（認可コード等）は出さない
   }).catch((e) => ({ err: String(e).slice(0, 120) }));
   DEBUG.push({ label, ...info });
 }
@@ -183,7 +183,10 @@ const b = await chromium.connectOverCDP(`http://127.0.0.1:${PORT}`).catch((e) =>
 if (!b) {
   status.error = `Chrome が CDP ${PORT} で応答しない`;
 } else {
-  const ctx = b.contexts()[0] || (await b.newContext());
+  // ASP_FRESH=1: **まっさらな窓（Cookie なし）で試す。** 手ログインの状態に頼らず、
+  // Keychain の ID・パスワードだけで入れるかを確かめる（2026-10-11）。普段の窓のログインには触れない
+  const FRESH = process.env.ASP_FRESH === '1';
+  const ctx = FRESH ? await b.newContext() : (b.contexts()[0] || (await b.newContext()));
   const p = await ctx.newPage();
   const ONLY = (process.env.ASP_ONLY || '').split(',').filter(Boolean);
   for (const pr of PROVIDERS.filter((x) => !ONLY.length || ONLY.includes(x.id))) {
@@ -279,6 +282,7 @@ if (!b) {
     fs.writeFileSync(path.join(OUTDIR, `${pr.id}.md`), lines.join('\n') + '\n');
   }
   await p.close().catch(() => {});
+  if (FRESH) await ctx.close().catch(() => {});
 }
 
 const file = path.join(OUTDIR, 'status.json');
