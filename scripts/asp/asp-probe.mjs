@@ -164,7 +164,7 @@ try {
       text: (document.body.innerText || '').split('\n').map((x) => x.trim()).filter(Boolean).slice(0, 60).map((x) => x.slice(0, 70)),
       links: [...new Set([...document.querySelectorAll('a[href]')].map((a) => `${(a.innerText || '').trim().slice(0, 30)} — ${a.href.replace(/[?#].*$/, '')}`))].slice(0, 40),
     }));
-    lines.push('## 画面の行（先頭 60）', '', '```text', ...raw.text.filter((x) => !NG.test(x) && !/@/.test(x)), '```', '', '## 画面のリンク', '', ...raw.links.filter((x) => !/@/.test(x)).map((x) => `- ${x}`), '');
+    lines.push('## 画面の行（先頭 60・長い英数字は伏せる）', '', '```text', ...raw.text.filter((x) => !NG.test(x) && !/@/.test(x)).map((x) => x.replace(/[A-Za-z0-9_-]{16,}/g, (m) => `［${m.length}文字・伏せた］`)), '```', '', '## 画面のリンク', '', ...raw.links.filter((x) => !/@/.test(x)).map((x) => `- ${x.replace(/[A-Za-z0-9_-]{16,}/g, (m) => `［${m.length}文字］`)}`), '');
   }
 
   if (WHICH === 'rakutenitem') {
@@ -214,6 +214,33 @@ try {
     await go('https://webservice.rakuten.co.jp/app/create');
     f = await formDump();
     lines.push(`## 楽天ウェブサービス アプリ登録の欄（${here()}）`, '', ...f.fields.filter((x) => !NG.test(x)).map((x) => `- ${x}`), '', `- ボタン: ${f.btns.join(' ／ ')}`, '');
+  }
+
+  if (WHICH === 'rakutenws2') {
+    // アプリ登録後（2026-10-11）: アプリ一覧 → 詳細で、自分のアフィリエイト ID（公開値）を読み、
+    // applicationId などの**鍵は Keychain に入れるだけで出さない**（文字数だけ出す）
+    const { execFileSync } = await import('node:child_process');
+    await go('https://webservice.rakuten.co.jp/app/list');
+    const mask = (x) => x.replace(/[A-Za-z0-9_-]{16,}/g, (m) => `［${m.length}文字・伏せた］`);
+    const det = await p.evaluate(() => [...new Set([...document.querySelectorAll('a[href]')].map((a) => a.href).filter((h) => /\/app\/(detail|edit|info|show|view)|\/app\/[0-9a-f-]{6,}/i.test(h)))].slice(0, 3));
+    lines.push(`- アプリの詳細へのリンク: ${det.length} 件`, '');
+    if (det[0]) await go(det[0]);
+    else { const more = p.getByText(/More Details|詳細/).first(); if (await more.count()) { await more.click().catch(() => {}); await p.waitForTimeout(4000); } }
+    lines.push(`- 画面: ${here()}`, '');
+    const got = await p.evaluate((src) => {
+      const t = document.body.innerText || '';
+      const rows = t.split('\n').map((x) => x.trim()).filter(Boolean);
+      const val = (re) => { const i = rows.findIndex((x) => re.test(x)); if (i < 0) return ''; const same = rows[i].replace(re, '').replace(/^[\s:：]+/, '').trim(); return same || rows[i + 1] || ''; };
+      return { aff: [...new Set(t.match(new RegExp(src, 'g')) || [])], appId: val(/^(Application ID|アプリID)/i), labels: rows.filter((x) => /ID|Secret|Key|キー/i.test(x)).slice(0, 12) };
+    }, RID.source);
+    lines.push('## 自分のアフィリエイト ID（公開値）', '', got.aff.length ? got.aff.map((x) => `- \`${x}\``).join('\n') : '（見つからない）', '');
+    lines.push('## ID・鍵らしい行（値は伏せる）', '', ...got.labels.filter((x) => !NG.test(x) && !/@/.test(x)).map((x) => `- ${mask(x)}`), '');
+    const appId = (got.appId.match(/[A-Za-z0-9_-]{16,}/) || [])[0] || '';
+    if (appId) {
+      try { execFileSync('/usr/bin/security', ['add-generic-password', '-U', '-s', 'dailyhack-rakuten-ws', '-a', 'applicationId', '-w', appId]); lines.push(`- applicationId を Keychain（dailyhack-rakuten-ws）に入れた（${appId.length} 文字）`); }
+      catch (e) { lines.push(`- ⚠️ Keychain に入れられない: ${String(e).slice(0, 80)}`); }
+    } else lines.push('- applicationId は見つからない');
+    if (got.aff[0]) { fs.writeFileSync(path.join(OUT, 'rakuten-affiliate-id.txt'), got.aff[0] + '\n'); }
   }
 
   if (WHICH === 'a8apply') {
