@@ -1,3 +1,3 @@
 [
-      {"task": "x257-claude-usage-mac.sh", "rc": 0, "out": "Mac の Claude Code の使用量を集計した / claude-usage-mac.md"}
+      {"task": "t248-rakuten-verify.sh", "rc": 0, "out": "rakuten: ログインできていない / Keychain の ID・パスワードで入れなかった（値を確かめる） ``` rc=0 /      349 bytes /var/folders/qm/dwxlvygj76q_fq054b8jrrr80000gn/T//ops-tasks/t248-rakuten-verify.sh: command substitution: line 43: syntax error near unexpected token `ne"}
   ]
