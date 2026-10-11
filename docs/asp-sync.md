@@ -43,3 +43,17 @@ security add-generic-password -U -s dailyhack-asp-rakuten -a '楽天ID' -w
 2. `reports/asp-sync/<id>.md` で提携中の広告とメニュー URL を見る
 3. 既に取れているリンクは `src/data/banner-catalog.ts`（A8）・`src/data/referrals.ts`（紹介）にある
 4. 楽天は `reports/asp-sync/rakuten.md` の**アフィリエイト ID**で、楽天ウェブサービスの API からも商品リンクを作れる
+
+## 楽天の自動ログイン（2026-10-11 に通った）
+
+- **Cookie の無いまっさらな窓で、Keychain の ID・パスワードだけでログインできた**（t252。ID → 次へ → パスワード → Enter）
+- それまで「パスワードを送っても先へ進まない」状態だったのは、**Keychain のパスワードが違っていた**ため
+  （10 文字で登録されていた。登録し直して 8 文字）。楽天はパスワードが違ってもエラー文を出さず、画面が止まるだけだった
+- **登録し直すときは `-U` で上書きせず、先に消す。** ID が変わると `-U` は 2 件目を作り、どちらが読まれるか分からない
+  ```bash
+  security delete-generic-password -s dailyhack-asp-rakuten   # 「could not be found」が出るまで繰り返す
+  security add-generic-password -s dailyhack-asp-rakuten -a '楽天ID' -w
+  ```
+- ログインの持ち（Cookie の期限・t251）: 画面のログイン `afls` 7 日／自動延長の鍵 `omni_refresh`・共通ログイン `OSSO` 90 日。
+  切れても上の自動ログインで入り直せる。**楽天が追加の確認（認証コード等）を出したときだけ人の操作が要る**（`needsHuman`）
+- 試すときは `ASP_FRESH=1`（まっさらな窓）。普段の窓のログインには触れない
