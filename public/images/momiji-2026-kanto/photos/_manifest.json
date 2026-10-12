@@ -1,247 +1,240 @@
 {
- "jingu-gaien.jpg": {
-  "title": "File:Meiji Jingu Gaien Ginkgo Festival (53441835008).jpg",
-  "lic": "CC BY 2.0",
-  "artist": "Dick Thomas Johnson  from Tokyo, Japan",
-  "page": "https://commons.wikimedia.org/wiki/File%3AMeiji_Jingu_Gaien_Ginkgo_Festival_%2853441835008%29.jpg",
-  "fetched": "2026-10-04"
- },
- "nikko.jpg": {
-  "title": "File:Irohazaka (52506196693).jpg",
-  "lic": "CC BY 2.0",
-  "artist": "Raita Futo  from Tokyo, Japan",
-  "page": "https://commons.wikimedia.org/wiki/File%3AIrohazaka_%2852506196693%29.jpg",
-  "fetched": "2026-10-04"
- },
- "rikugien.jpg": {
-  "title": "File:Bunkyo Rikugien Panoramic View In Late Autumn 1.JPG",
-  "lic": "CC BY-SA 3.0",
-  "artist": "京浜にけ",
-  "page": "https://commons.wikimedia.org/wiki/File%3ABunkyo_Rikugien_Panoramic_View_In_Late_Autumn_1.JPG",
-  "fetched": "2026-10-04"
- },
- "shinjuku-gyoen.jpg": {
-  "title": "File:Autumn leaves - Shinjuku gyoen - nov 2016.jpg",
-  "lic": "CC BY-SA 3.0",
-  "artist": "nesnad",
-  "page": "https://commons.wikimedia.org/wiki/File%3AAutumn_leaves_-_Shinjuku_gyoen_-_nov_2016.jpg",
-  "fetched": "2026-10-04"
- },
- "showa-kinen.jpg": {
-  "title": "File:Colorful Leaves in Showa Kinen Park.jpg",
-  "lic": "CC BY-SA 2.0",
-  "artist": "mrhayata",
-  "page": "https://commons.wikimedia.org/wiki/File%3AColorful_Leaves_in_Showa_Kinen_Park.jpg",
-  "fetched": "2026-10-04"
- },
- "takao.jpg": {
-  "title": "File:高尾山ー２.JPG",
-  "lic": "CC BY-SA 3.0",
-  "artist": "江戸村のとくぞう  (Edomura no Tokuzo)",
-  "page": "https://commons.wikimedia.org/wiki/File%3A%E9%AB%98%E5%B0%BE%E5%B1%B1%E3%83%BC%EF%BC%92.JPG",
-  "fetched": "2026-10-04"
- },
- "jingu-gaien-2.jpg": {
-  "title": "File:Meiji Jingu Gaien Ginkgo Festival (53441835123).jpg",
-  "lic": "CC BY 2.0",
-  "artist": "Dick Thomas Johnson  from Tokyo, Japan",
-  "page": "https://commons.wikimedia.org/wiki/File%3AMeiji_Jingu_Gaien_Ginkgo_Festival_%2853441835123%29.jpg",
-  "fetched": "2026-10-04"
- },
- "jingu-gaien-3.jpg": {
-  "title": "File:Meiji Jingu Gaien Ginkgo Festival (53441835203).jpg",
-  "lic": "CC BY 2.0",
-  "artist": "Dick Thomas Johnson  from Tokyo, Japan",
-  "page": "https://commons.wikimedia.org/wiki/File%3AMeiji_Jingu_Gaien_Ginkgo_Festival_%2853441835203%29.jpg",
-  "fetched": "2026-10-04"
- },
- "rikugien-2.jpg": {
-  "title": "File:Rikugien at night 14.jpg",
-  "lic": "CC BY-SA 4.0",
-  "artist": "Kakidai",
-  "page": "https://commons.wikimedia.org/wiki/File%3ARikugien_at_night_14.jpg",
-  "fetched": "2026-10-04"
- },
- "rikugien-3.jpg": {
-  "title": "File:Red Japanese maple leaves @ Rikugien Garden @ Komagome (11165961214).jpg",
-  "lic": "CC BY 2.0",
-  "artist": "Guilhem Vellut  from Annecy, France",
-  "page": "https://commons.wikimedia.org/wiki/File%3ARed_Japanese_maple_leaves_%40_Rikugien_Garden_%40_Komagome_%2811165961214%29.jpg",
-  "fetched": "2026-10-04"
- },
- "shinjuku-gyoen-2.jpg": {
-  "title": "File:Japanese Maple, Shinjuku Gyoen(Shinjuku Imperial Garden) - 楓, 新宿御苑 - panoramio.jpg",
-  "lic": "CC BY 3.0",
-  "artist": "Carbonium",
-  "page": "https://commons.wikimedia.org/wiki/File%3AJapanese_Maple%2C_Shinjuku_Gyoen%28Shinjuku_Imperial_Garden%29_-_%E6%A5%93%2C_%E6%96%B0%E5%AE%BF%E5%BE%A1%E8%8B%91_-_panoramio.jpg",
-  "fetched": "2026-10-04"
- },
- "shinjuku-gyoen-3.jpg": {
-  "title": "File:Red leaves in Shinjuku (3088554089).jpg",
-  "lic": "CC BY 2.0",
-  "artist": "Jacob Ehnmark  from Tokyo",
-  "page": "https://commons.wikimedia.org/wiki/File%3ARed_leaves_in_Shinjuku_%283088554089%29.jpg",
-  "fetched": "2026-10-04"
- },
- "koishikawa-1.jpg": {
-  "title": "File:Koishikawa Korakuen Gardens (11168283853).jpg",
-  "lic": "CC BY 2.0",
-  "artist": "Guilhem Vellut  from Annecy, France",
-  "page": "https://commons.wikimedia.org/wiki/File%3AKoishikawa_Korakuen_Gardens_%2811168283853%29.jpg",
-  "fetched": "2026-10-04"
- },
- "koishikawa-2.jpg": {
-  "title": "File:Red leaves @ Koishikawa Korakuen Gardens (11168200774).jpg",
-  "lic": "CC BY 2.0",
-  "artist": "Guilhem Vellut  from Annecy, France",
-  "page": "https://commons.wikimedia.org/wiki/File%3ARed_leaves_%40_Koishikawa_Korakuen_Gardens_%2811168200774%29.jpg",
-  "fetched": "2026-10-04"
- },
- "koishikawa-3.jpg": {
-  "title": "File:Koishikawa Korakuen Gardens (11168188794).jpg",
-  "lic": "CC BY 2.0",
-  "artist": "Guilhem Vellut  from Annecy, France",
-  "page": "https://commons.wikimedia.org/wiki/File%3AKoishikawa_Korakuen_Gardens_%2811168188794%29.jpg",
-  "fetched": "2026-10-04"
- },
- "furukawa-1.jpg": {
-  "title": "File:Kyu-Furukawa Tei (House)2.jpg",
-  "lic": "CC BY-SA 3.0",
-  "artist": "Wiiii",
-  "page": "https://commons.wikimedia.org/wiki/File%3AKyu-Furukawa_Tei_%28House%292.jpg",
-  "fetched": "2026-10-04"
- },
- "furukawa-2.jpg": {
-  "title": "File:Lantern @ Kyu-Furukawa Gardens (9105387190).jpg",
-  "lic": "CC BY 2.0",
-  "artist": "Guilhem Vellut  from Annecy, France",
-  "page": "https://commons.wikimedia.org/wiki/File%3ALantern_%40_Kyu-Furukawa_Gardens_%289105387190%29.jpg",
-  "fetched": "2026-10-04"
- },
- "kiyosumi-1.jpg": {
-  "title": "File:Kiyosumi Teien 4.jpg",
-  "lic": "CC BY-SA 4.0",
-  "artist": "René Haas",
-  "page": "https://commons.wikimedia.org/wiki/File%3AKiyosumi_Teien_4.jpg",
-  "fetched": "2026-10-04"
- },
- "kiyosumi-2.jpg": {
-  "title": "File:Kiyosumi Gardens in Autumn (4137680245).jpg",
-  "lic": "CC BY 2.0",
-  "artist": "Jacob Ehnmark  from Tokyo",
-  "page": "https://commons.wikimedia.org/wiki/File%3AKiyosumi_Gardens_in_Autumn_%284137680245%29.jpg",
-  "fetched": "2026-10-04"
- },
- "kiyosumi-3.jpg": {
-  "title": "File:Kiyosumi-2.JPG",
-  "lic": "CC BY-SA 3.0",
-  "artist": "Irina Gelbukh",
-  "page": "https://commons.wikimedia.org/wiki/File%3AKiyosumi-2.JPG",
-  "fetched": "2026-10-04"
- },
- "shiba-rikyu-1.jpg": {
-  "title": "File:Shibarikyū-Park Japan1097.jpg",
-  "lic": "CC BY-SA 4.0",
-  "artist": "Ermell",
-  "page": "https://commons.wikimedia.org/wiki/File%3AShibariky%C5%AB-Park_Japan1097.jpg",
-  "fetched": "2026-10-04"
- },
- "shiba-rikyu-2.jpg": {
-  "title": "File:Kyu Shiba Rikyu Garden 03.jpg",
-  "lic": "CC BY-SA 3.0",
-  "artist": "Chris 73",
-  "page": "https://commons.wikimedia.org/wiki/File%3AKyu_Shiba_Rikyu_Garden_03.jpg",
-  "fetched": "2026-10-04"
- },
- "shiba-rikyu-3.jpg": {
-  "title": "File:Tokio Shibarikyū-Park Laterne-20091017-RM-121516.jpg",
-  "lic": "CC BY-SA 4.0",
-  "artist": "Ermell",
-  "page": "https://commons.wikimedia.org/wiki/File%3ATokio_Shibariky%C5%AB-Park_Laterne-20091017-RM-121516.jpg",
-  "fetched": "2026-10-04"
- },
- "ueno-1.jpg": {
-  "title": "File:Autumn Leaves, Pond and Old Teahouse (31058392181).jpg",
-  "lic": "CC BY 2.0",
-  "artist": "Yoshikazu TAKADA  from Tokyo, Japan",
-  "page": "https://commons.wikimedia.org/wiki/File%3AAutumn_Leaves%2C_Pond_and_Old_Teahouse_%2831058392181%29.jpg",
-  "fetched": "2026-10-04"
- },
- "kyoikuen-1.jpg": {
-  "title": "File:Pond - Institute for Nature Study, Tokyo - DSC02096.JPG",
-  "lic": "CC0",
-  "artist": "Daderot",
-  "page": "https://commons.wikimedia.org/wiki/File%3APond_-_Institute_for_Nature_Study%2C_Tokyo_-_DSC02096.JPG",
-  "fetched": "2026-10-04"
- },
- "kyoikuen-2.jpg": {
-  "title": "File:Walkway - Institute for Nature Study, Tokyo - DSC02074.JPG",
-  "lic": "CC0",
-  "artist": "Daderot",
-  "page": "https://commons.wikimedia.org/wiki/File%3AWalkway_-_Institute_for_Nature_Study%2C_Tokyo_-_DSC02074.JPG",
-  "fetched": "2026-10-04"
- },
- "otaguro-1.jpg": {
-  "title": "File:Otaguro garden in autumn 2014 Ⅱ.JPG",
-  "lic": "CC BY-SA 4.0",
-  "artist": "Kakidai",
-  "page": "https://commons.wikimedia.org/wiki/File%3AOtaguro_garden_in_autumn_2014_%E2%85%A1.JPG",
-  "fetched": "2026-10-04"
- },
- "otaguro-2.jpg": {
-  "title": "File:Otaguro garden in autumn 2014 ⅳ.JPG",
-  "lic": "CC BY-SA 4.0",
-  "artist": "Kakidai",
-  "page": "https://commons.wikimedia.org/wiki/File%3AOtaguro_garden_in_autumn_2014_%E2%85%B3.JPG",
-  "fetched": "2026-10-04"
- },
- "otaguro-3.jpg": {
-  "title": "File:Otaguro garden in autumn 2014 ⅴ.JPG",
-  "lic": "CC BY-SA 4.0",
-  "artist": "Kakidai",
-  "page": "https://commons.wikimedia.org/wiki/File%3AOtaguro_garden_in_autumn_2014_%E2%85%B4.JPG",
-  "fetched": "2026-10-04"
- },
- "showa-kinen-2.jpg": {
-  "title": "File:2018 Showa Memorial Park 01.jpg",
-  "lic": "CC BY-SA 4.0",
-  "artist": "Kakidai",
-  "page": "https://commons.wikimedia.org/wiki/File%3A2018_Showa_Memorial_Park_01.jpg",
-  "fetched": "2026-10-04"
- },
- "showa-kinen-3.jpg": {
-  "title": "File:紅葉 - 水鳥の池 - panoramio.jpg",
-  "lic": "CC BY-SA 3.0",
-  "artist": "Hotate Chan",
-  "page": "https://commons.wikimedia.org/wiki/File%3A%E7%B4%85%E8%91%89_-_%E6%B0%B4%E9%B3%A5%E3%81%AE%E6%B1%A0_-_panoramio.jpg",
-  "fetched": "2026-10-04"
- },
- "takao-2.jpg": {
-  "title": "File:高尾山ー３.JPG",
-  "lic": "CC BY-SA 3.0",
-  "artist": "江戸村のとくぞう  (Edomura no Tokuzo)",
-  "page": "https://commons.wikimedia.org/wiki/File%3A%E9%AB%98%E5%B0%BE%E5%B1%B1%E3%83%BC%EF%BC%93.JPG",
-  "fetched": "2026-10-04"
- },
- "takao-3.jpg": {
-  "title": "File:高尾山ー１.JPG",
-  "lic": "CC BY-SA 3.0",
-  "artist": "江戸村のとくぞう  (Edomura no Tokuzo)",
-  "page": "https://commons.wikimedia.org/wiki/File%3A%E9%AB%98%E5%B0%BE%E5%B1%B1%E3%83%BC%EF%BC%91.JPG",
-  "fetched": "2026-10-04"
- },
- "nikko-2.jpg": {
-  "title": "File:紅葉の華厳の滝.jpg",
-  "lic": "CC BY-SA 4.0",
-  "artist": "くろふね",
-  "page": "https://commons.wikimedia.org/wiki/File%3A%E7%B4%85%E8%91%89%E3%81%AE%E8%8F%AF%E5%8E%B3%E3%81%AE%E6%BB%9D.jpg",
-  "fetched": "2026-10-04"
- },
- "nikko-3.jpg": {
-  "title": "File:Okunikko - Okunikko7887.jpg",
-  "lic": "CC0",
-  "artist": "lumoplank",
-  "page": "https://commons.wikimedia.org/wiki/File%3AOkunikko_-_Okunikko7887.jpg",
-  "fetched": "2026-10-04"
- }
+  "jingu-gaien.jpg": {
+    "title": "File:Meiji Jingu Gaien Ginkgo Festival (53441835008).jpg",
+    "lic": "CC BY 2.0",
+    "artist": "Dick Thomas Johnson  from Tokyo, Japan",
+    "page": "https://commons.wikimedia.org/wiki/File%3AMeiji_Jingu_Gaien_Ginkgo_Festival_%2853441835008%29.jpg",
+    "fetched": "2026-10-04"
+  },
+  "nikko.jpg": {
+    "title": "File:Irohazaka (52506196693).jpg",
+    "lic": "CC BY 2.0",
+    "artist": "Raita Futo  from Tokyo, Japan",
+    "page": "https://commons.wikimedia.org/wiki/File%3AIrohazaka_%2852506196693%29.jpg",
+    "fetched": "2026-10-04"
+  },
+  "rikugien.jpg": {
+    "title": "File:Bunkyo Rikugien Panoramic View In Late Autumn 1.JPG",
+    "lic": "CC BY-SA 3.0",
+    "artist": "京浜にけ",
+    "page": "https://commons.wikimedia.org/wiki/File%3ABunkyo_Rikugien_Panoramic_View_In_Late_Autumn_1.JPG",
+    "fetched": "2026-10-04"
+  },
+  "shinjuku-gyoen.jpg": {
+    "title": "File:Autumn leaves - Shinjuku gyoen - nov 2016.jpg",
+    "lic": "CC BY-SA 3.0",
+    "artist": "nesnad",
+    "page": "https://commons.wikimedia.org/wiki/File%3AAutumn_leaves_-_Shinjuku_gyoen_-_nov_2016.jpg",
+    "fetched": "2026-10-04"
+  },
+  "showa-kinen.jpg": {
+    "title": "File:Colorful Leaves in Showa Kinen Park.jpg",
+    "lic": "CC BY-SA 2.0",
+    "artist": "mrhayata",
+    "page": "https://commons.wikimedia.org/wiki/File%3AColorful_Leaves_in_Showa_Kinen_Park.jpg",
+    "fetched": "2026-10-04"
+  },
+  "takao.jpg": {
+    "title": "File:高尾山ー２.JPG",
+    "lic": "CC BY-SA 3.0",
+    "artist": "江戸村のとくぞう  (Edomura no Tokuzo)",
+    "page": "https://commons.wikimedia.org/wiki/File%3A%E9%AB%98%E5%B0%BE%E5%B1%B1%E3%83%BC%EF%BC%92.JPG",
+    "fetched": "2026-10-04"
+  },
+  "jingu-gaien-2.jpg": {
+    "title": "File:Meiji Jingu Gaien Ginkgo Festival (53441835123).jpg",
+    "lic": "CC BY 2.0",
+    "artist": "Dick Thomas Johnson  from Tokyo, Japan",
+    "page": "https://commons.wikimedia.org/wiki/File%3AMeiji_Jingu_Gaien_Ginkgo_Festival_%2853441835123%29.jpg",
+    "fetched": "2026-10-04"
+  },
+  "jingu-gaien-3.jpg": {
+    "title": "File:Meiji Jingu Gaien Ginkgo Festival (53441835203).jpg",
+    "lic": "CC BY 2.0",
+    "artist": "Dick Thomas Johnson  from Tokyo, Japan",
+    "page": "https://commons.wikimedia.org/wiki/File%3AMeiji_Jingu_Gaien_Ginkgo_Festival_%2853441835203%29.jpg",
+    "fetched": "2026-10-04"
+  },
+  "rikugien-2.jpg": {
+    "title": "File:Rikugien at night 14.jpg",
+    "lic": "CC BY-SA 4.0",
+    "artist": "Kakidai",
+    "page": "https://commons.wikimedia.org/wiki/File%3ARikugien_at_night_14.jpg",
+    "fetched": "2026-10-04"
+  },
+  "rikugien-3.jpg": {
+    "title": "File:Red Japanese maple leaves @ Rikugien Garden @ Komagome (11165961214).jpg",
+    "lic": "CC BY 2.0",
+    "artist": "Guilhem Vellut  from Annecy, France",
+    "page": "https://commons.wikimedia.org/wiki/File%3ARed_Japanese_maple_leaves_%40_Rikugien_Garden_%40_Komagome_%2811165961214%29.jpg",
+    "fetched": "2026-10-04"
+  },
+  "shinjuku-gyoen-2.jpg": {
+    "title": "File:Japanese Maple, Shinjuku Gyoen(Shinjuku Imperial Garden) - 楓, 新宿御苑 - panoramio.jpg",
+    "lic": "CC BY 3.0",
+    "artist": "Carbonium",
+    "page": "https://commons.wikimedia.org/wiki/File%3AJapanese_Maple%2C_Shinjuku_Gyoen%28Shinjuku_Imperial_Garden%29_-_%E6%A5%93%2C_%E6%96%B0%E5%AE%BF%E5%BE%A1%E8%8B%91_-_panoramio.jpg",
+    "fetched": "2026-10-04"
+  },
+  "shinjuku-gyoen-3.jpg": {
+    "title": "File:Red leaves in Shinjuku (3088554089).jpg",
+    "lic": "CC BY 2.0",
+    "artist": "Jacob Ehnmark  from Tokyo",
+    "page": "https://commons.wikimedia.org/wiki/File%3ARed_leaves_in_Shinjuku_%283088554089%29.jpg",
+    "fetched": "2026-10-04"
+  },
+  "koishikawa-1.jpg": {
+    "title": "File:Koishikawa Korakuen Gardens (11168283853).jpg",
+    "lic": "CC BY 2.0",
+    "artist": "Guilhem Vellut  from Annecy, France",
+    "page": "https://commons.wikimedia.org/wiki/File%3AKoishikawa_Korakuen_Gardens_%2811168283853%29.jpg",
+    "fetched": "2026-10-04"
+  },
+  "koishikawa-2.jpg": {
+    "title": "File:Red leaves @ Koishikawa Korakuen Gardens (11168200774).jpg",
+    "lic": "CC BY 2.0",
+    "artist": "Guilhem Vellut  from Annecy, France",
+    "page": "https://commons.wikimedia.org/wiki/File%3ARed_leaves_%40_Koishikawa_Korakuen_Gardens_%2811168200774%29.jpg",
+    "fetched": "2026-10-04"
+  },
+  "koishikawa-3.jpg": {
+    "title": "File:Koishikawa Korakuen Gardens (11168188794).jpg",
+    "lic": "CC BY 2.0",
+    "artist": "Guilhem Vellut  from Annecy, France",
+    "page": "https://commons.wikimedia.org/wiki/File%3AKoishikawa_Korakuen_Gardens_%2811168188794%29.jpg",
+    "fetched": "2026-10-04"
+  },
+  "furukawa-1.jpg": {
+    "title": "File:Kyu-Furukawa Garden @ Nishigahara (11029264713).jpg",
+    "lic": "CC BY 2.0",
+    "artist": "Guilhem Vellut from Annecy, France",
+    "page": "https://commons.wikimedia.org/wiki/File:Kyu-Furukawa_Garden_@_Nishigahara_(11029264713).jpg",
+    "fetched": "2026-10-11"
+  },
+  "furukawa-2.jpg": {
+    "title": "File:Kyu-Furukawa Garden @ Nishigahara (11029081865).jpg",
+    "lic": "CC BY 2.0",
+    "artist": "Guilhem Vellut from Annecy, France",
+    "page": "https://commons.wikimedia.org/wiki/File:Kyu-Furukawa_Garden_@_Nishigahara_(11029081865).jpg",
+    "fetched": "2026-10-11"
+  },
+  "kiyosumi-1.jpg": {
+    "title": "File:Kiyosumi Teien 4.jpg",
+    "lic": "CC BY-SA 4.0",
+    "artist": "René Haas",
+    "page": "https://commons.wikimedia.org/wiki/File%3AKiyosumi_Teien_4.jpg",
+    "fetched": "2026-10-04"
+  },
+  "kiyosumi-2.jpg": {
+    "title": "File:Kiyosumi Gardens in Autumn (4137680245).jpg",
+    "lic": "CC BY 2.0",
+    "artist": "Jacob Ehnmark  from Tokyo",
+    "page": "https://commons.wikimedia.org/wiki/File%3AKiyosumi_Gardens_in_Autumn_%284137680245%29.jpg",
+    "fetched": "2026-10-04"
+  },
+  "kiyosumi-3.jpg": {
+    "title": "清澄庭園 紅葉（ハゼノキ）",
+    "lic": "引用（東京都公園協会 公式サイト）",
+    "artist": "東京都公園協会",
+    "page": "https://www.tokyo-park.or.jp/park/kiyosumi/",
+    "fetched": "2026-10-11"
+  },
+  "shiba-rikyu-1.jpg": {
+    "title": "旧芝離宮恩賜庭園 紅葉（2024-12-04）",
+    "lic": "引用（東京都公園協会 公式サイト）",
+    "artist": "東京都公園協会",
+    "page": "https://www.tokyo-park.or.jp/park/kyu-shiba-rikyu/",
+    "fetched": "2026-10-11"
+  },
+  "shiba-rikyu-2.jpg": {
+    "title": "File:旧芝離宮恩賜庭園 大島南鯛橋 - panoramio (17) (2014-11-12 14.27 by Yoshio Kohara).jpg",
+    "lic": "CC BY 3.0",
+    "artist": "Yoshio Kohara",
+    "page": "https://commons.wikimedia.org/wiki/File:%E6%97%A7%E8%8A%9D%E9%9B%A2%E5%AE%AE%E6%81%A9%E8%B3%9C%E5%BA%AD%E5%9C%92_%E5%A4%A7%E5%B3%B6%E5%8D%97%E9%AF%9B%E6%A9%8B_-_panoramio_(17)_(2014-11-12_14.27_by_Yoshio_Kohara).jpg",
+    "fetched": "2026-10-11"
+  },
+  "ueno-1.jpg": {
+    "title": "File:Autumn Leaves, Pond and Old Teahouse (31058392181).jpg",
+    "lic": "CC BY 2.0",
+    "artist": "Yoshikazu TAKADA  from Tokyo, Japan",
+    "page": "https://commons.wikimedia.org/wiki/File%3AAutumn_Leaves%2C_Pond_and_Old_Teahouse_%2831058392181%29.jpg",
+    "fetched": "2026-10-04"
+  },
+  "kyoikuen-1.jpg": {
+    "title": "File:Autumn leaves came unusally late this year (December 11 2021) 6.jpg",
+    "lic": "CC0",
+    "artist": "Syced",
+    "page": "https://commons.wikimedia.org/wiki/File:Autumn_leaves_came_unusally_late_this_year_(December_11_2021)_6.jpg",
+    "fetched": "2026-10-11"
+  },
+  "kyoikuen-2.jpg": {
+    "title": "File:Autumn leaves came unusally late this year (December 11 2021) 9.jpg",
+    "lic": "CC0",
+    "artist": "Syced",
+    "page": "https://commons.wikimedia.org/wiki/File:Autumn_leaves_came_unusally_late_this_year_(December_11_2021)_9.jpg",
+    "fetched": "2026-10-11"
+  },
+  "otaguro-1.jpg": {
+    "title": "File:Otaguro garden in autumn 2014 Ⅱ.JPG",
+    "lic": "CC BY-SA 4.0",
+    "artist": "Kakidai",
+    "page": "https://commons.wikimedia.org/wiki/File%3AOtaguro_garden_in_autumn_2014_%E2%85%A1.JPG",
+    "fetched": "2026-10-04"
+  },
+  "otaguro-2.jpg": {
+    "title": "File:Otaguro garden in autumn 2014 ⅳ.JPG",
+    "lic": "CC BY-SA 4.0",
+    "artist": "Kakidai",
+    "page": "https://commons.wikimedia.org/wiki/File%3AOtaguro_garden_in_autumn_2014_%E2%85%B3.JPG",
+    "fetched": "2026-10-04"
+  },
+  "otaguro-3.jpg": {
+    "title": "File:Otaguro garden in autumn 2014 ⅴ.JPG",
+    "lic": "CC BY-SA 4.0",
+    "artist": "Kakidai",
+    "page": "https://commons.wikimedia.org/wiki/File%3AOtaguro_garden_in_autumn_2014_%E2%85%B4.JPG",
+    "fetched": "2026-10-04"
+  },
+  "showa-kinen-2.jpg": {
+    "title": "File:2018 Showa Memorial Park 01.jpg",
+    "lic": "CC BY-SA 4.0",
+    "artist": "Kakidai",
+    "page": "https://commons.wikimedia.org/wiki/File%3A2018_Showa_Memorial_Park_01.jpg",
+    "fetched": "2026-10-04"
+  },
+  "showa-kinen-3.jpg": {
+    "title": "File:紅葉 - 水鳥の池 - panoramio.jpg",
+    "lic": "CC BY-SA 3.0",
+    "artist": "Hotate Chan",
+    "page": "https://commons.wikimedia.org/wiki/File%3A%E7%B4%85%E8%91%89_-_%E6%B0%B4%E9%B3%A5%E3%81%AE%E6%B1%A0_-_panoramio.jpg",
+    "fetched": "2026-10-04"
+  },
+  "takao-2.jpg": {
+    "title": "File:高尾山ー３.JPG",
+    "lic": "CC BY-SA 3.0",
+    "artist": "江戸村のとくぞう  (Edomura no Tokuzo)",
+    "page": "https://commons.wikimedia.org/wiki/File%3A%E9%AB%98%E5%B0%BE%E5%B1%B1%E3%83%BC%EF%BC%93.JPG",
+    "fetched": "2026-10-04"
+  },
+  "takao-3.jpg": {
+    "title": "File:高尾山ー１.JPG",
+    "lic": "CC BY-SA 3.0",
+    "artist": "江戸村のとくぞう  (Edomura no Tokuzo)",
+    "page": "https://commons.wikimedia.org/wiki/File%3A%E9%AB%98%E5%B0%BE%E5%B1%B1%E3%83%BC%EF%BC%91.JPG",
+    "fetched": "2026-10-04"
+  },
+  "nikko-2.jpg": {
+    "title": "File:紅葉の華厳の滝.jpg",
+    "lic": "CC BY-SA 4.0",
+    "artist": "くろふね",
+    "page": "https://commons.wikimedia.org/wiki/File%3A%E7%B4%85%E8%91%89%E3%81%AE%E8%8F%AF%E5%8E%B3%E3%81%AE%E6%BB%9D.jpg",
+    "fetched": "2026-10-04"
+  },
+  "nikko-3.jpg": {
+    "title": "File:Okunikko - Okunikko7887.jpg",
+    "lic": "CC0",
+    "artist": "lumoplank",
+    "page": "https://commons.wikimedia.org/wiki/File%3AOkunikko_-_Okunikko7887.jpg",
+    "fetched": "2026-10-04"
+  }
 }
