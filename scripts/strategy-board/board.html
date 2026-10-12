@@ -110,6 +110,17 @@ ul.plain,ol.plain{margin:0 0 14px;padding-left:1.3em} .plain li{margin:4px 0;max
 .todo .note{font-size:13px;margin-top:6px;padding:6px 10px;border-left:3px solid var(--teal);background:var(--teal-soft);border-radius:0 8px 8px 0}
 .todo.done{opacity:.6}
 
+h2 .when{font-family:var(--f-body);font-weight:500;font-size:14px;color:var(--muted);margin-left:8px}
+table.wf th:first-child,table.wf td:first-child{min-width:300px}
+table.wf{min-width:860px}
+.bars{align-items:flex-end}
+.bars i b{position:absolute;left:50%;transform:translateX(-50%);bottom:100%;font:500 9px var(--f-data);color:var(--ink);font-style:normal;white-space:nowrap;margin-bottom:1px}
+.bar-read{font-size:13px;color:var(--muted);min-height:1.5em}
+.copy{font:inherit;font-size:12px;background:none;border:1px solid var(--rule);border-radius:99px;padding:0 9px;color:var(--teal);cursor:pointer}
+.tabs{display:flex;gap:6px;flex-wrap:wrap;margin:8px 0}
+.tabs button{font:inherit;font-size:13px;border:1px solid var(--rule);background:var(--sheet);color:var(--ink);border-radius:8px;padding:4px 12px;cursor:pointer}
+.tabs button[aria-pressed="true"]{background:var(--brand);border-color:var(--brand);color:#fff}
+
 /* ---- 付箋（コメント） ---- */
 [data-cid]{position:relative;scroll-margin-top:80px}
 [data-cid].c-hot{outline:1px dashed var(--brand);outline-offset:3px;border-radius:6px}
@@ -166,7 +177,7 @@ tr[data-ccount]::after{top:4px;right:4px}
   <div class="eyebrow">全体像</div>
   <h1>「そんな視点あったんだ」のお得比較で X から人を集め、ブログの成果報酬で稼ぐ</h1>
   <div class="stamp" id="stamp-home"><i></i><span>データを読み込み中</span></div>
-  <p class="lead">daily-hack の強みは、<strong>ちょっとしたお得情報を、誰もやっていない切り口で、ハッカー子の個性で面白く比べること</strong>です。湾岸の一次データはその長所の 1 つで、主戦場ではありません。いま人を連れてこられるのは X（7 日で 26.7K 表示）で、Google 検索は 28 日で 33 クリックです。<strong>X で集め、記事の成果報酬で稼ぎ、X の収益化は認証済みフォロワー 500 を先に取る</strong>——この順で 12 週を進めます。数字と所見は<strong>毎週月曜に自動で入れ替わり</strong>、その結果で戦略と予定を直します。</p>
+  <p class="lead">daily-hack の強みは、<strong>ちょっとしたお得情報を、誰もやっていない切り口で、ハッカー子の個性で面白く比べること</strong>です。湾岸の一次データはその長所の 1 つで、主戦場ではありません。いま人を連れてこられるのは X（7 日で 26.7K 表示）で、Google 検索は 28 日で 33 クリックです。<strong>X で集め、記事の成果報酬で稼ぎ、X の収益化は認証済みフォロワー 500 を先に取る</strong>——この順で「これからの動き」を進めます。数字と所見は<strong>毎週月曜に自動で入れ替わり</strong>、その結果で戦略と予定を直します。</p>
   <h2>ブログの数字（直近 28 日）</h2>
   <div class="grid" id="kpi-tiles"></div>
   <h2>X の数字</h2>
@@ -174,7 +185,7 @@ tr[data-ccount]::after{top:4px;right:4px}
   <div class="grid" id="x-tiles"><p class="empty">スナップショットを待っています。</p></div>
   <h2>検索の推移（週ごと）</h2>
   <div class="chart" id="chart-gsc"><p class="empty">スナップショットを待っています。</p></div>
-  <h2>今週の自動所見</h2>
+  <h2>今週の自動所見<span class="when" id="findings-when"></span></h2>
   <p class="src">決まった条件に当たったものだけが出ます（条件は「計測と振り返り」のページ）。</p>
   <ul class="findings" id="findings"><li class="empty">スナップショットを待っています。</li></ul>
   <h2 data-cid="home.935aur">4 本の柱</h2>
@@ -215,16 +226,21 @@ tr[data-ccount]::after{top:4px;right:4px}
   <h1>読まれている記事ほど、稼ぐ仕掛けが入っていない</h1>
   <div class="stamp" id="stamp-now"><i></i><span>データを読み込み中</span></div>
   <p class="lead">検索の表示は伸びているのに、クリックと成果リンクが追いついていません。<strong>下の 2 つの表は毎週自動で入れ替わります。</strong></p>
+  <h2>ブログ全体</h2>
+  <div class="grid" id="blog-tiles"><p class="empty">データ待ち</p></div>
+  <h3>月ごとの動き</h3>
+  <p class="src">公開・更新は記事の公開日・更新日から。訪問と読者は Cloudflare（読者はボットを除いた数）。ページビューと UU は Cloudflare の無料プランの日次集計で、<b>fieldbeside.com 全体の数（ブログ以外の本体ページとボットを含む）</b>。読者の数とは桁が違うので、増減の向きを見るのに使ってください。UU は日ごとの数の合計なので、同じ人が別の日に来ると重なって数えます。</p>
+  <div class="tbl"><table><thead><tr><th>月</th><th>公開した記事</th><th>更新した記事</th><th>訪問（ボット込み）</th><th>読者（ボット除外）</th><th>ページビュー（ボット込み）</th><th>UU（日ごとの合計・ボット込み）</th></tr></thead><tbody id="tbl-month"><tr><td colspan="7" class="empty">データ待ち</td></tr></tbody></table></div>
   <h2>記事を調べる</h2>
   <p class="src">題名か URL の一部で探せます。行を押すと、日ごとの訪問・X の告知日・どこから来たかが開きます。</p>
   <div class="search"><input type="search" id="art-q" placeholder="例：ポイ活、ららぽーと、furusato" aria-label="記事を探す"><span class="status" id="art-n"></span></div>
-  <div class="tbl"><table><thead><tr><th>記事</th><th>検索クリック（90 日）</th><th>検索表示（90 日）</th><th>平均順位</th><th>読者（28 日・ボット除外）</th><th>訪問（28 日・ボット込み）</th><th>訪問（記録のある全期間）</th><th>成果リンク</th></tr></thead><tbody id="tbl-art"><tr><td colspan="7" class="empty">データ待ち</td></tr></tbody></table></div>
+  <div class="tbl"><table class="wf"><thead><tr><th>記事</th><th>検索クリック（90 日）</th><th>検索表示（90 日）</th><th>平均順位</th><th>読者（28 日・ボット除外）</th><th>訪問（28 日・ボット込み）</th><th>訪問（記録のある全期間）</th><th>成果リンク</th></tr></thead><tbody id="tbl-art"><tr><td colspan="7" class="empty">データ待ち</td></tr></tbody></table></div>
   <div class="note" id="pv-note">訪問の数の読み方：データ待ち</div>
   <h2>検索で表示されている記事（直近 90 日）</h2>
-  <div class="tbl"><table><thead><tr><th>記事</th><th>クリック</th><th>表示</th><th>平均順位</th><th>訪問（記録のある全期間）</th><th>成果リンク</th></tr></thead><tbody id="tbl-top"><tr><td colspan="6" class="empty">データ待ち</td></tr></tbody></table></div>
+  <div class="tbl"><table class="wf"><thead><tr><th>記事</th><th>クリック</th><th>表示</th><th>平均順位</th><th>訪問（記録のある全期間）</th><th>成果リンク</th></tr></thead><tbody id="tbl-top"><tr><td colspan="6" class="empty">データ待ち</td></tr></tbody></table></div>
   <h2 data-cid="now.m5dkh">読まれている記事（直近 28 日）</h2>
   <p class="src">「読者」はボット（機械的なアクセス）を除いた訪問、「訪問」はボットを含む数。「検索から」は Search Console のクリックで、読者との差が検索以外（X・直接など）から来た分です。「内訳」を押すと日ごとの詳細が開きます。</p>
-  <div class="tbl"><table><thead><tr><th>記事</th><th>読者（ボット除外）</th><th>訪問（ボット込み）</th><th>検索から</th><th>内訳</th><th>成果リンク</th></tr></thead><tbody id="tbl-read"><tr><td colspan="5" class="empty">データ待ち</td></tr></tbody></table></div>
+  <div class="tbl"><table class="wf"><thead><tr><th>記事</th><th>読者（ボット除外）</th><th>訪問（ボット込み）</th><th>検索から</th><th>内訳</th><th>成果リンク</th></tr></thead><tbody id="tbl-read"><tr><td colspan="5" class="empty">データ待ち</td></tr></tbody></table></div>
   <h2>勝てている型・負けている型</h2>
   <div class="grid">
     <div class="tile"><div class="k">勝てている</div><p style="margin:6px 0 0"><b>公式の数字を並べたランキング</b>。ららぽーと売上ランキングは 7〜8 位で、検索クリックの大半を占める。数字の寿命が年単位で、競合が書いていない切り口。</p></div>
@@ -255,10 +271,11 @@ tr[data-ccount]::after{top:4px;right:4px}
   <div class="tbl"><table><thead><tr><th>ASP</th><th>ログイン</th><th>メモ</th></tr></thead><tbody id="tbl-asp"><tr><td colspan="3" class="empty">データ待ち</td></tr></tbody></table></div>
   <h2>審査・手続きの待ち</h2>
   <ul class="plain" id="list-pending"><li class="empty">データ待ち</li></ul>
-  <h2>A8 の提携中プログラム</h2>
-  <p class="src">「本人 OK」はセルフバック（自分で申し込んで報酬を受け取る）に使える印。報酬は広告側の公開条件で、自分の実績ではありません。</p>
+  <h2 data-cid="asp.315tv0">提携中の案件（全 ASP）</h2>
+  <p class="src">「本人 OK」はセルフバック（自分で申し込んで報酬を受け取る）に使える印。報酬は広告側の公開条件で、自分の実績ではありません。A8 とバリューコマース・もしもは毎週月曜に Mac が読み直します。</p>
+  <div class="tabs" id="asp-tabs"><button type="button" data-a="all" aria-pressed="true">すべて</button><button type="button" data-a="A8" aria-pressed="false">A8</button><button type="button" data-a="バリューコマース" aria-pressed="false">バリューコマース</button><button type="button" data-a="もしも" aria-pressed="false">もしも</button><button type="button" data-a="楽天" aria-pressed="false">楽天</button></div>
   <div class="filters" id="a8-filters"><button type="button" data-f="all" aria-pressed="true">すべて</button><button type="button" data-f="self" aria-pressed="false">本人 OK だけ</button><button type="button" data-f="ng" aria-pressed="false">使わない案件</button></div>
-  <div class="tbl"><table><thead><tr><th>案件</th><th>広告側の報酬</th><th>本人</th><th>メモ</th></tr></thead><tbody id="tbl-a8"><tr><td colspan="4" class="empty">Mac の週次ジョブの初回待ち</td></tr></tbody></table></div>
+  <div class="tbl"><table class="wf"><thead><tr><th>案件</th><th>ASP</th><th>広告側の報酬</th><th>本人</th><th>メモ</th></tr></thead><tbody id="tbl-a8"><tr><td colspan="5" class="empty">データ待ち</td></tr></tbody></table></div>
   <h2>取りにいく案件</h2>
   <ul class="plain">
     <li><b>ふるさと納税</b>：ふるなび・さとふる・楽天ふるさと納税。10〜12 月が年の最盛期。競合はふるなびを i-mobile・ValueCommerce、さとふるを accesstrade で取っている。</li>
@@ -552,8 +569,8 @@ tr[data-ccount]::after{top:4px;right:4px}
 </section>
 
 <!-- ============ 12 週の予定 ============ -->
-<section class="page" data-page="schedule" data-title="12 週の予定" hidden>
-  <div class="eyebrow">12 週の予定（2026-10-13 〜 2027-01-03）</div>
+<section class="page" data-page="schedule" data-title="これからの動き" hidden>
+  <div class="eyebrow">これからの動き（2026-10-13 〜 2027-01-03）</div>
   <h1>前半は既存資産の収益化、後半は一次データの記事と時期の山</h1>
   <p class="lead">いまの週は色が付きます。各週の終わりに、判断をもらう点（ゲート）を置いています。<strong>毎週の所見と、あなたのコメントで予定は書き換わります</strong>（変わった点は更新履歴に残ります）。セール日程は例年の傾向で、確定したら差し替えます。</p>
   <div class="phase">第 1 段 既存資産の収益化（1〜4 週）</div>
@@ -605,6 +622,21 @@ tr[data-ccount]::after{top:4px;right:4px}
   <h2>X の収益化までの距離</h2>
   <div class="tbl"><table><thead><tr><th>条件</th><th>いま</th><th>足りない</th></tr></thead><tbody id="tbl-xcond"><tr><td colspan="3" class="empty">データ待ち</td></tr></tbody></table></div>
   <p class="src">数字は共通戦略の「共有の数字」から（X 担当のセッションが一次情報で更新）。返信の表示は条件に数えられない。</p>
+  <h2>フォロワーの推移</h2>
+  <div class="chart" id="chart-x"><p class="empty">Mac からの書き出し待ち</p></div>
+  <h2>投稿のランキング（表示回数）</h2>
+  <p class="src">Mac が 3 時間おきに記録している、自分の投稿の表示回数の最新値。</p>
+  <div class="tbl"><table class="wf"><thead id="thead-xposts"><tr><th>投稿</th><th>表示</th></tr></thead><tbody id="tbl-xposts"><tr><td colspan="2" class="empty">Mac からの書き出し待ち</td></tr></tbody></table></div>
+  <h2>これまでの投稿（記事の告知など）</h2>
+  <div class="tbl"><table class="wf"><thead><tr><th>投稿</th><th>投稿日</th><th>記事</th><th>X で見る</th></tr></thead><tbody id="tbl-xsets"><tr><td colspan="4" class="empty">データ待ち</td></tr></tbody></table></div>
+  <h2>投稿の方針</h2>
+  <ul class="plain">
+    <li><b>記事の告知は 1 日おき。</b>記事 1 本から「告知 1 ＋ 単発の小ネタ 1〜2」を切り出す（認証済みの表示は自分の投稿でしか積めない）。</li>
+    <li><b>成果報酬の付いた比較記事を優先して告知する。</b>告知の記事 URL には <code>utm_source=x</code> を付け、X から何人来たかを測る。</li>
+    <li><b>独自の切り口×ハッカー子の声。</b>投稿スタイルは 15 型から選ぶ。キャラ（アタシ・〜わよ・あんた）は変えない。</li>
+    <li><b>投稿は、あなたが「投稿して」と書いたときだけ。</b>画像を見たうえでの承認が要る。</li>
+    <li>フォローは認証済みアカウントに寄せ、総数は増やさない（比 0.45〜0.65）。返信は条件に数えられないので、フォロワーを増やす手段として使う。</li>
+  </ul>
   <h2>流れ</h2>
   <ol class="plain">
     <li>blog 側が記事を公開し、<code>cross-session-requests.md</code> に URL・要点 3 つ・画像を書く。</li>
@@ -697,7 +729,7 @@ tr[data-ccount]::after{top:4px;right:4px}
 <button id="fab" type="button">全体へのコメント</button>
 <div id="detail" hidden role="dialog" aria-modal="true" aria-label="記事の詳細"><div class="box" id="detail-box"></div></div>
 <aside id="panel" hidden aria-label="コメント">
-  <header><h2 id="panel-title">コメント</h2><button class="btn ghost" id="panel-close" type="button">閉じる</button></header>
+  <header><h2 id="panel-title">コメント</h2><span class="row" style="margin:0"><button class="copy" id="panel-link" type="button">この記載のリンク</button><button class="btn ghost" id="panel-close" type="button">閉じる</button></span></header>
   <div class="target" id="panel-target"></div>
   <div class="thread" id="panel-thread"></div>
   <label class="status" for="panel-text">一言からどうぞ。Claude が読んで、ここに返信します。</label>
@@ -741,9 +773,23 @@ tr[data-ccount]::after{top:4px;right:4px}
     if(cid){const el=document.querySelector('[data-cid="'+CSS.escape(cid)+'"]'); if(el){el.scrollIntoView({block:'center'}); el.classList.remove('c-flash'); void el.offsetWidth; el.classList.add('c-flash'); return;}}
     window.scrollTo(0,0);
   }
-  window.addEventListener('hashchange',()=>show(location.hash.slice(1)));
+  // リンク：#<ページ>／#c=<コメント ID>（そのコメントを開く）／#b=<記載の番号>（その記載へ移動）
+  const BASE='https://claude.ai/artifact/9KWGybrAHF7LtbQdVpw9YN';
+  let pendingC=null;
+  function route(h){
+    h=decodeURIComponent(h||'');
+    if(h.startsWith('c=')){ pendingC=h.slice(2); openPendingC(); return; }
+    if(h.startsWith('b=')){ const cid=h.slice(2); const el=document.querySelector('[data-cid="'+CSS.escape(cid)+'"]'); show(el?(el.closest('section.page')||{}).dataset.page:cid.split('.')[0], cid); return; }
+    show(h);
+  }
+  function openPendingC(){ if(!pendingC||!window.__ALL) return; const c=window.__ALL.find(x=>x.id===pendingC); if(!c) return; pendingC=null;
+    if(c.scope==='site'){ openPanel({scope:'site'}); return; }
+    show(c.page,c.cid); const el=document.querySelector('[data-cid="'+CSS.escape(c.cid)+'"]'); if(el) openPanel({scope:'block',el}); }
+  function copyText(t,btn){ const done=()=>{ if(btn){ const o=btn.textContent; btn.textContent='コピーしました'; setTimeout(()=>btn.textContent=o,1500);} };
+    (navigator.clipboard?navigator.clipboard.writeText(t):Promise.reject()).then(done).catch(()=>{ window.prompt('このリンクをコピーしてください',t); }); }
+  document.addEventListener('click',e=>{ const b=e.target.closest('[data-copy]'); if(b){ e.preventDefault(); e.stopPropagation(); copyText(b.dataset.copy,b); } },true);
+  window.addEventListener('hashchange',()=>route(location.hash.slice(1)));
   let start=location.hash.slice(1); if(!start){try{start=localStorage.getItem('board-page')||''}catch(e){}}
-  show(start);
 
   // ---- コメントできる記載に、変わらない番号を振る ----
   // 静的な記載は HTML に data-cid を持つ（scripts/strategy-board/assign-cids.mjs が振る）。持っていないものだけ、ページ名＋本文の短い指紋で振る
@@ -764,6 +810,7 @@ tr[data-ccount]::after{top:4px;right:4px}
     });
   }
   tagBlocks(document);
+  route(start);
 
   // ---- 決めてほしいこと ----
   const decideEl=$('#decide');
@@ -798,6 +845,7 @@ tr[data-ccount]::after{top:4px;right:4px}
     $('#panel-title').textContent=t.scope==='site'?'サイト全体へのコメント':'この記載へのコメント';
     $('#panel-target').textContent=t.scope==='site'?'作戦室全体・進め方・ほかのどこにも当てはまらないことは、ここに。':target.quote;
     pState.textContent=''; panel.hidden=false; renderThread(); setTimeout(()=>pText.focus(),50);
+    $('#panel-link').dataset.copy=BASE+(target.scope==='site'?'#feedback':'#b='+encodeURIComponent(target.cid));
   }
   $('#panel-close').addEventListener('click',()=>{panel.hidden=true;});
   $('#fab').addEventListener('click',()=>openPanel({scope:'site'}));
@@ -806,7 +854,7 @@ tr[data-ccount]::after{top:4px;right:4px}
   function renderComment(c, withLink){
     const el=document.createElement('div'); el.className='c';
     const where=c.scope==='site'?'サイト全体':titleOf(c.page);
-    el.innerHTML='<div class="h"><span class="pill '+(c.reply?'ok':'warn')+'">'+(c.reply?'返信あり':'未読')+'</span><span>'+esc(where)+'</span><span>'+esc(fmtT(c.createdAt))+'</span>'+(withLink&&c.scope!=='site'?'<a href="#'+esc(c.page)+'" class="go" data-cid="">その場所を見る</a>':'')+'</div>'+(c.quote?'<div class="q">'+esc(c.quote)+'</div>':'')+'<div class="b">'+esc(c.body)+'</div>'+(c.reply?'<div class="r">Claude：'+esc(c.reply)+'</div>':'');
+    el.innerHTML='<div class="h"><span class="pill '+(c.reply?'ok':'warn')+'">'+(c.reply?'返信あり':'未読')+'</span><span>'+esc(where)+'</span><span>'+esc(fmtT(c.createdAt))+'</span>'+(withLink&&c.scope!=='site'?'<a href="#'+esc(c.page)+'" class="go" data-cid="">その場所を見る</a>':'')+'<button type="button" class="copy" data-copy="'+BASE+'#c='+esc(c.id)+'">リンクをコピー</button><span>#'+esc(c.id.slice(0,6))+'</span></div>'+(c.quote?'<div class="q">'+esc(c.quote)+'</div>':'')+'<div class="b">'+esc(c.body)+'</div>'+(c.reply?'<div class="r">Claude：'+esc(c.reply)+'</div>':'');
     const go=el.querySelector('a.go'); if(go){ go.removeAttribute('data-cid'); go.addEventListener('click',ev=>{ev.preventDefault(); history.replaceState(null,'','#'+c.page); show(c.page,c.cid);}); }
     return el;
   }
@@ -836,7 +884,7 @@ tr[data-ccount]::after{top:4px;right:4px}
       box.addEventListener('change',()=>{ ref.set({checked:box.checked,title:d.t,updatedAt:new Date().toISOString()}).catch(()=>{box.checked=!box.checked;}); }); });
     db.collection('feedback').orderBy('createdAt','desc').onSnapshot(snap=>{
       ALL=snap.docs.map(d=>{const v=d.data(); return Object.assign({id:d.id,scope:v.scope||(v.cid?'block':'page'),cid:v.cid||v.anchor||'',quote:v.quote||'',reply:v.reply||''},v);});
-      applyCounts();
+      applyCounts(); window.__ALL=ALL; openPendingC();
       $$('a',toc).forEach(a=>{ if(a.dataset.page==='tasks') return; const n=ALL.filter(c=>c.page===a.dataset.page&&!c.reply).length; const b=a.querySelector('.badge'); b.hidden=!n; b.textContent=n; });
       const open=ALL.filter(c=>!c.reply).length, fb=$('a[data-page="feedback"] .badge',toc); fb.hidden=!open; fb.textContent=open;
       renderList(); renderThread();
@@ -885,6 +933,13 @@ tr[data-ccount]::after{top:4px;right:4px}
     $('#tbl-read').innerHTML=(S.readTop||[]).map(r=>{ const a=(S.articles||[]).find(x=>x.slug===r.slug)||{}; return '<tr data-cid="now.read.'+esc(r.slug)+'"><td>'+link(r)+'</td><td class="num"><b>'+(r.h28!=null?fmtN(r.h28):'—')+'</b></td><td class="num">'+fmtN(r.v)+'</td><td class="num">'+fmtN(r.c28)+'</td><td><button type="button" class="linkish" data-detail="'+esc(r.slug)+'">'+esc(whyShort(a,PM))+'</button></td><td>'+affPill(r.aff)+'</td></tr>'; }).join('')||'<tr><td colspan="6" class="empty">データなし</td></tr>';
     $('#pv-note').innerHTML='<b>訪問の数の読み方</b>：記事ごとの訪問は Cloudflare の数で、<b>ボット（機械的なアクセス）を含みます</b>。ボットを除いた数が取れているのはサイト全体だけです（直近 28 日 '+fmtN((S.kpi||{}).pv28&&S.kpi.pv28.human)+'）。記録は '+esc(PM.first||'—')+' から（全期間 '+fmtN(PM.days90)+' 日）。'+(PM.spikeDays&&PM.spikeDays.length?'全記事が同じ日に跳ねた日（'+PM.spikeDays.map(d=>d.slice(5).replace('-','/')).join('・')+'）は、読者ではない一斉アクセスの疑いがあります。':'')+(PM.refFrom?'記事ごとのボット除外の訪問は '+esc(PM.refFrom)+' から記録しています。':'記事ごとのボット除外の訪問は 10/13 分から記録します。')+'<b>どこから来たか（X か検索か）は、Cloudflare の無料プランの集計では取れません</b>。Web Analytics を有効にすると取れるようになります（「タスク」のページ）。それまでは、日ごとの訪問と X の告知日・一斉アクセスの日を突き合わせて読みます（行を押すと詳細）。';
     ART=S.articles||[]; renderArticles();
+    // 所見の時点
+    const GS=(S.sources||{}).gsc||{}; $('#findings-when').textContent='（'+S.generatedAt.slice(0,10)+' 更新・検索 '+((GS.window||[])[0]||'—')+'〜'+((GS.window||[])[1]||'—')+'・訪問 〜'+(PM.last||'—')+'）';
+    // ブログ全体
+    const B=S.blog||{}, K=S.kpi||{};
+    $('#blog-tiles').innerHTML=[['記事の数',fmtN(B.posts),'公開中（下書きを除く）','blog.posts'],['ページビュー（28 日）',B.pv28!=null?fmtN(B.pv28):'記録待ち',B.pv28!=null?'fieldbeside.com 全体・ボットを含む・'+B.zoneDays28+' 日分':'日次の記録に 10/12 から追加','blog.pv'],['UU（28 日・日ごとの合計）',B.uuDaySum28!=null?fmtN(B.uuDaySum28):'記録待ち','fieldbeside.com 全体・ボットを含む','blog.uu'],['読者（28 日・ボット除外）',fmtN(K.pv28&&K.pv28.human),'訪問（ボット込み） '+fmtN(K.pv28&&K.pv28.visits),'blog.human']].map(([t,v,s2,cid])=>'<div class="tile" data-cid="'+cid+'"><div class="k">'+esc(t)+'</div><div class="v">'+esc(v)+'</div><div class="s">'+esc(s2)+'</div></div>').join('');
+    $('#tbl-month').innerHTML=(S.monthly||[]).map(m=>'<tr data-cid="now.month.'+m.month+'"><td>'+m.month+(m.days&&m.days<28?'（'+m.days+' 日分）':'')+'</td><td class="num">'+fmtN(m.published||0)+'</td><td class="num">'+fmtN(m.updated||0)+'</td><td class="num">'+(m.visits!=null?fmtN(m.visits):'—')+'</td><td class="num">'+(m.human!=null?fmtN(m.human):'—')+'</td><td class="num">'+(m.pageViews!=null?fmtN(m.pageViews):'—')+'</td><td class="num">'+(m.uniquesSum!=null?fmtN(m.uniquesSum):'—')+'</td></tr>').join('')||'<tr><td colspan="7" class="empty">データなし</td></tr>';
+    renderX(S);
     const X=S.xShared||[], xv=(k)=>(X.find(r=>r.k===k)||{}).v||'—';
     $('#x-tiles').innerHTML=[['認証済みフォロワー（収益化の条件 500）',xv('認証済みフォロワー'),'x.verified'],['フォロワー',xv('フォロワー'),'x.followers'],['表示（7 日・返信を含む）',xv('インプレッション（7 日）'),'x.imp7'],['認証済みの表示（90 日・条件 50 万）',xv('認証済みインプレッション（90 日・ホーム・返信除く）'),'x.vimp']].map(([t,v,cid])=>'<div class="tile" data-cid="'+cid+'"><div class="k">'+esc(t)+'</div><div class="v" style="font-size:20px">'+esc(v)+'</div><div class="s">'+esc(((X.find(r=>r.k==='フォロワー')||{}).at)||'')+'</div></div>').join('');
     const vf=parseInt(String(xv('認証済みフォロワー')).replace(/,/g,''),10), vi=parseInt(String(xv('認証済みインプレッション（90 日・ホーム・返信除く）')).replace(/,/g,''),10);
@@ -895,6 +950,32 @@ tr[data-ccount]::after{top:4px;right:4px}
     $('#list-pending').innerHTML=(M.pending||[]).map(p=>'<li data-cid="asp.pending.'+esc(p.key)+'">'+esc(p.label)+' — '+esc(p.since)+' から</li>').join('')||'<li>待ちはありません。</li>';
     renderA8(); applyCounts();
   }
+  // ---- X ----
+  function renderX(S){
+    const XD=S.xData||{};
+    const F=(XD.followers||[]).filter(f=>typeof f.count==='number');
+    if(F.length>1){ const w=640,h=180,pl=40,pr=12,pt=14,pb=26, mx=Math.max(...F.map(f=>f.count)), mn=Math.min(...F.map(f=>f.count));
+      const t0=new Date(F[0].date).getTime(), t1=new Date(F[F.length-1].date).getTime()||t0+1; const X=(d)=>pl+(w-pl-pr)*((new Date(d).getTime()-t0)/Math.max(1,t1-t0)); const Y=(v)=>pt+(h-pt-pb)*(1-(v-mn)/Math.max(1,mx-mn));
+      let svg='<svg viewBox="0 0 '+w+' '+h+'" role="img" aria-label="フォロワー数の推移">';
+      [mn,Math.round((mn+mx)/2),mx].forEach(v=>{ svg+='<line x1="'+pl+'" x2="'+(w-pr)+'" y1="'+Y(v)+'" y2="'+Y(v)+'" stroke="var(--rule)"/><text x="'+(pl-6)+'" y="'+(Y(v)+4)+'" text-anchor="end" font-size="10" fill="var(--muted)">'+v+'</text>'; });
+      svg+='<polyline fill="none" stroke="var(--brand)" stroke-width="2" points="'+F.map(f=>X(f.date)+','+Y(f.count)).join(' ')+'"/>';
+      F.forEach((f,i)=>{ svg+='<circle cx="'+X(f.date)+'" cy="'+Y(f.count)+'" r="2.5" fill="var(--brand)"><title>'+f.date+'：'+f.count+' 人</title></circle>'; if(i===F.length-1||i===0) svg+='<text x="'+X(f.date)+'" y="'+(Y(f.count)-7)+'" text-anchor="'+(i?'end':'start')+'" font-size="11" fill="var(--ink)">'+f.count+'</text>'; });
+      [F[0],F[Math.floor(F.length/2)],F[F.length-1]].forEach(f=>{ svg+='<text x="'+X(f.date)+'" y="'+(h-8)+'" text-anchor="middle" font-size="10" fill="var(--muted)">'+f.date.slice(5).replace('-','/')+'</text>'; });
+      svg+='</svg><p class="src">'+F[0].date+' の '+F[0].count+' 人 → '+F[F.length-1].date+' の '+F[F.length-1].count+' 人（記録のある '+F.length+' 日分・点に触れると日付と人数）</p>';
+      const c=$('#chart-x'); c.innerHTML=svg; c.dataset.cid='x.followers-chart'; }
+    // 投稿のランキング（Mac の記録のキーに合わせて読む）
+    const P=XD.posts||[]; const pick=(o,ks)=>{ for(const k of ks) if(o[k]!=null&&o[k]!=='') return o[k]; return null; };
+    const IMP=['impressions','views','impression','view','view_count'], LIKE=['likes','like','favorites'], RT=['reposts','retweets','repost'], REP=['replies','reply'];
+    const titleOf2=(p)=>{ const id=String(pick(p,['tweet_id','x_tweet_id','status_id'])||''); const set=(XD.reviewSets||[]).find(r=>r.ids.includes(id)); if(set) return set.title;
+      const slug=String(p.id||'').replace(/^blog-promo-\d{8}-/,'').replace(/^\d{8}-/,'').replace(/-v\d+$/,''); const raw=String(p.id||''); const art=ART.find(x=>x.slug===slug)||ART.find(x=>raw.includes(x.slug))||ART.find(x=>x.slug.split('-')[0]===slug.split('-')[0]&&slug.split('-')[0].length>3);
+      if(art) return art.title; const rs=(XD.reviewSets||[]).find(r=>r.slug&&raw.includes(r.slug)); return rs?rs.title:(raw||id); };
+    if(P.length){ const rows=P.map(p=>({p,imp:Number(pick(p,IMP))||0})).sort((a,b)=>b.imp-a.imp).slice(0,30);
+      $('#thead-xposts').innerHTML='<tr><th>投稿</th><th>投稿日</th><th>表示</th><th>いいね</th><th>リポスト</th><th>返信</th></tr>';
+      $('#tbl-xposts').innerHTML=rows.map(({p,imp})=>{ const id=String(pick(p,['tweet_id','x_tweet_id','status_id'])||''); return '<tr data-cid="x.post.'+esc(id)+'"><td><a href="https://x.com/heng_ji31590/status/'+esc(id)+'" target="_blank" rel="noopener">'+esc(String(titleOf2(p)).slice(0,60))+'</a></td><td style="white-space:nowrap">'+esc(String(p.posted_at||'').slice(0,10))+'</td><td class="num">'+fmtN(imp)+'</td><td class="num">'+fmtN(pick(p,LIKE))+'</td><td class="num">'+fmtN(pick(p,RT))+'</td><td class="num">'+fmtN(pick(p,REP))+'</td></tr>'; }).join(''); }
+    $('#tbl-xsets').innerHTML=(XD.reviewSets||[]).filter(r=>r.ids.length).map(r=>'<tr data-cid="x.set.'+esc(r.key)+'"><td>'+esc(r.title)+'</td><td>'+esc((r.at||'').slice(0,10))+'</td><td>'+(r.slug&&ART.find(a=>a.slug===r.slug)?'<a href="https://daily-hack.fieldbeside.com/posts/'+esc(r.slug)+'/" target="_blank" rel="noopener">記事</a>':'—')+'</td><td>'+r.ids.map((id,i)=>'<a href="https://x.com/heng_ji31590/status/'+esc(id)+'" target="_blank" rel="noopener">['+(i+1)+'/'+r.ids.length+']</a>').join(' ')+'</td></tr>').join('')||'<tr><td colspan="4" class="empty">データなし</td></tr>';
+    applyCounts();
+  }
+
   // ---- 記事を調べる ----
   let ART=[];
   function whyShort(a,M){
@@ -916,21 +997,22 @@ tr[data-ccount]::after{top:4px;right:4px}
     const a=ART.find(x=>x.slug===slug); if(!a) return; const M=(SNAP&&SNAP.pvMeta)||{};
     const max=Math.max(1,...a.series.map(x=>x[1]));
     const xs=new Set(a.xDates||[]), sp=new Set(M.spikeDays||[]);
-    const bars=a.series.map(([d,v])=>'<i class="'+(xs.has(d)?'x':sp.has(d)?'spike':'')+'" style="height:'+Math.round(v/max*100)+'%" title="'+d+'：'+v+'"></i>').join('');
+    const bars=a.series.map(([d,v])=>'<i class="'+(xs.has(d)?'x':sp.has(d)?'spike':'')+'" style="height:'+Math.round(v/max*100)+'%" data-d="'+d+'" data-v="'+v+'">'+(v?'<b>'+v+'</b>':'')+'</i>').join('');
     const search=a.c28, other=Math.max(0,a.v28-a.c28);
     const lines=[];
     if(a.h28!=null) lines.push('直近 28 日の訪問 <b>'+fmtN(a.v28)+'</b> のうち、ボット（機械的なアクセス）が <b>'+fmtN(Math.max(0,a.v28-a.h28))+'</b>、読者は <b>'+fmtN(a.h28)+'</b>。読者のうち検索（Google）からのクリックは <b>'+fmtN(search)+'</b>、残り <b>'+fmtN(Math.max(0,a.h28-search))+'</b> は検索以外（X・直接・ほかのサイト）から。');
     else lines.push('直近 28 日の訪問 <b>'+fmtN(a.v28)+'</b>（ボットを含む）のうち、検索（Google）からのクリックは <b>'+fmtN(search)+'</b>。残り <b>'+fmtN(other)+'</b> は検索以外から。');
     if(a.refs28&&a.refs28.length) lines.push('参照元：'+a.refs28.map(r=>esc(r.k)+' <b>'+r.n+'</b>').join('、')+'。');
-    else lines.push('どこから来たか（X か検索か）は、Cloudflare Web Analytics を有効にすると記事ごとに出せる（「タスク」のページ）。いまは日ごとの訪問で読む：');
+
     if(a.xDates&&a.xDates.length) lines.push('X で告知した日（'+a.xDates.map(d=>d.slice(5).replace('-','/')).join('・')+'）とその翌日の訪問：<b>'+fmtN(a.why.xV)+'</b>。');
     if(a.why&&a.why.spikeV) lines.push('全記事が同じ日に跳ねた日の訪問：<b>'+fmtN(a.why.spikeV)+'</b>。読者ではない一斉アクセスの疑いがある。');
     $('#detail-box').innerHTML='<div class="row" style="justify-content:space-between;align-items:flex-start;flex-wrap:nowrap;margin:0"><h2 style="flex:1">'+esc(a.title)+'</h2><button class="btn ghost" type="button" id="detail-close">閉じる</button></div>'
       +'<p class="src"><a href="https://daily-hack.fieldbeside.com/posts/'+esc(a.slug)+'/" target="_blank" rel="noopener">記事を開く</a>・検索 90 日：表示 '+fmtN(a.i90)+'・クリック '+fmtN(a.c90)+'・平均 '+(a.p90!=null?a.p90.toFixed(1):'—')+' 位・成果リンク '+a.aff+' か所</p>'
       +'<h3>どこから来たか</h3><ul class="plain">'+lines.map(l=>'<li>'+l+'</li>').join('')+'</ul>'
-      +'<h3>日ごとの訪問（'+esc(M.seriesFrom||'')+' 〜 '+esc(M.last||'')+'・UTC）</h3><div class="bars">'+bars+'</div>'
+      +'<h3>日ごとの訪問（'+esc(M.seriesFrom||'')+' 〜 '+esc(M.last||'')+'・UTC・ボット込み）</h3><div class="bars" style="margin-top:16px">'+bars+'</div><div class="bar-read" id="bar-read">棒に触れると日付と訪問数が出ます</div>'
       +'<div class="mini-legend"><span style="--c:var(--brand)">X で告知した日</span><span style="--c:var(--muted)">全記事が跳ねた日（一斉アクセスの疑い）</span><span style="--c:var(--teal)">それ以外</span></div>';
     $('#detail').hidden=false; $('#detail-close').focus();
+    $$('#detail .bars i').forEach(i=>{ const f=()=>{ $('#bar-read').textContent=i.dataset.d+'：訪問 '+i.dataset.v; }; i.addEventListener('mouseenter',f); i.addEventListener('click',f); });
     $('#detail-close').addEventListener('click',()=>{$('#detail').hidden=true;});
   }
   document.addEventListener('click',e=>{ const b=e.target.closest('[data-detail]'); if(b){ e.preventDefault(); openDetail(b.dataset.detail); } else if(e.target.id==='detail'){ $('#detail').hidden=true; } });
@@ -954,10 +1036,21 @@ tr[data-ccount]::after{top:4px;right:4px}
   }
   $$('#todo-filters button').forEach(b=>b.addEventListener('click',()=>{ todoF=b.dataset.f; $$('#todo-filters button').forEach(x=>x.setAttribute('aria-pressed',x===b?'true':'false')); renderTodos(); }));
 
-  let a8F='all';
-  function renderA8(){ const A=SNAP&&SNAP.a8; const tb=$('#tbl-a8'); if(!A){ tb.innerHTML='<tr><td colspan="4" class="empty">Mac の週次ジョブの初回待ち</td></tr>'; return; }
-    const rows=A.rows.filter(r=>a8F==='all'||(a8F==='self'&&r.self&&!r.ng)||(a8F==='ng'&&r.ng)).sort((a,b)=>(b.yen||0)-(a.yen||0));
-    tb.innerHTML=rows.map(r=>'<tr data-cid="asp.a8.'+esc(r.id)+'"><td>'+esc((r.name||'').slice(0,60))+'</td><td>'+esc(r.reward||'')+'</td><td>'+(r.self?'<span class="pill ok">OK</span>':'<span class="pill">NG</span>')+'</td><td>'+(r.ng?'<span class="pill bad">使わない</span>':'')+'</td></tr>').join('')||'<tr><td colspan="4" class="empty">該当なし</td></tr>'; applyCounts(); }
+  let a8F='all', aspF='all';
+  function programs(){
+    const S=SNAP||{}, out=[];
+    for(const r of (S.a8&&S.a8.rows)||[]) out.push({asp:'A8',id:r.id,name:r.name,reward:r.reward,self:r.self,ng:r.ng,yen:r.yen});
+    for(const r of (S.others&&S.others.vc)||[]) out.push({asp:'バリューコマース',id:'vc.'+r.href,name:r.name,reward:r.reward||'',self:null,ng:false});
+    for(const r of (S.others&&S.others.moshimo)||[]) out.push({asp:'もしも',id:'mo.'+r.href,name:r.name,reward:r.reward||'',self:null,ng:false});
+    for(const r of ((S.manual||{}).programs)||[]) out.push(Object.assign({self:null,ng:false},r));
+    return out;
+  }
+  function renderA8(){ const tb=$('#tbl-a8'); const all=programs(); if(!all.length){ tb.innerHTML='<tr><td colspan="5" class="empty">データ待ち</td></tr>'; return; }
+    const counts={}; all.forEach(r=>counts[r.asp]=(counts[r.asp]||0)+1);
+    $$('#asp-tabs button').forEach(b=>{ const n=b.dataset.a==='all'?all.length:(counts[b.dataset.a]||0); b.textContent=(b.dataset.a==='all'?'すべて':b.dataset.a)+'（'+n+'）'; });
+    const rows=all.filter(r=>aspF==='all'||r.asp===aspF).filter(r=>a8F==='all'||(a8F==='self'&&r.self&&!r.ng)||(a8F==='ng'&&r.ng)).sort((a,b)=>(b.yen||0)-(a.yen||0));
+    tb.innerHTML=rows.map(r=>'<tr data-cid="asp.p.'+esc(String(r.id||r.name).slice(-60))+'"><td>'+esc((r.name||'').slice(0,70))+'</td><td>'+esc(r.asp)+'</td><td>'+esc(r.reward||'')+'</td><td>'+(r.self===true?'<span class="pill ok">OK</span>':r.self===false?'<span class="pill">NG</span>':'—')+'</td><td>'+(r.ng?'<span class="pill bad">使わない</span>':esc(r.note||''))+'</td></tr>').join('')||'<tr><td colspan="5" class="empty">該当なし</td></tr>'; applyCounts(); }
+  $$('#asp-tabs button').forEach(b=>b.addEventListener('click',()=>{ aspF=b.dataset.a; $$('#asp-tabs button').forEach(x=>x.setAttribute('aria-pressed',x===b?'true':'false')); renderA8(); }));
   $$('#a8-filters button').forEach(b=>b.addEventListener('click',()=>{ a8F=b.dataset.f; $$('#a8-filters button').forEach(x=>x.setAttribute('aria-pressed',x===b?'true':'false')); renderA8(); }));
 })();
 </script>
