@@ -79,6 +79,12 @@
 次のアクション:
 
 - [ ] 高輪・ふるさと納税の告知は下書きのまま利用者の確認待ち（1日おきに投稿）。ALT の付け方は x267 の結果で直す
+### 2026-10-12 — 作戦室の週次の仕組みが端から端まで通った: Mac board-weekly（t282 で launchd から起動し直し・GSC と A8 69 件 取得）→ build-snapshot → db。主題ずれの案件を 3 記事から外した（PR #963）
+
+次のアクション:
+
+- [ ] 利用者が Routines 画面で trig_018nTbjuzSEXtnzfrJoyh9Je にリポジトリを付けるのを待つ。作戦室の feedback / decisions を読みに行く
+
 ### 2026-10-12 — 収益化作戦室 v2（記載ごと＋全体コメント、snapshot から描画、更新履歴）を publish。週次の仕組み: Mac board-weekly（t280・月曜6:40）→ クラウドのルーティン trig_018nTbjuzSEXtnzfrJoyh9Je（月曜8:47）。初回スナップショットを db に書いた。全部 $0
 
 次のアクション:
