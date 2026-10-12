@@ -182,7 +182,43 @@ const reviewSets = [];
     reviewSets.push({ key, title, slug, ids, at: ids[0] ? new Date(Number((BigInt(ids[0]) >> 22n) + 1288834974657n)).toISOString() : null });
   } }
 reviewSets.sort((a, b) => (b.at || '').localeCompare(a.at || ''));
-const xData = { generated: xw?.generated || null, followers: (xw?.followers || []).filter((f) => typeof f.count === 'number'), posts: xw?.posts || [], keys: xw?.keys || null, reviewSets };
+// ---------- X とブログをつなぐ：投稿ごとに「告知の日と翌日の記事の読者」と「前後のフォロワーの増減」 ----------
+const fol = (xw?.followers || []).filter((f) => typeof f.count === 'number');
+const folOn = (d) => { let v = null; for (const f of fol) { if (f.date <= d) v = f.count; else break; } return v; };
+const addDays = (d, n) => iso(new Date(new Date(d + 'T00:00:00Z').getTime() + n * 864e5));
+const humanOn = (slug, d) => daily[d]?.posts ? (daily[d].posts[`/posts/${slug}/`]?.human || 0) : null;
+const slugOfPost = (p) => { const raw = String(p.id || ''); const s1 = raw.replace(/^blog-promo-/, '').replace(/^\d{8}-/, '').replace(/-v\d+$/, '');
+  return (postList.find((x) => x.slug === s1) || postList.find((x) => raw.includes(x.slug)) || postList.find((x) => x.slug.split('-')[0] === s1.split('-')[0] && s1.split('-')[0].length > 3) || {}).slug || null; };
+const xPostsJoined = (xw?.posts || []).map((p) => {
+  const day = String(p.posted_at || '').slice(0, 10); const slug = slugOfPost(p);
+  const r0 = slug && day ? humanOn(slug, day) : null, r1 = slug && day ? humanOn(slug, addDays(day, 1)) : null;
+  const folExact = (d) => (fol.find((f) => f.date === d) || {}).count ?? null;   // 記録が抜けた日をまたぐと増減が膨らむので、その日ちょうどの記録だけ使う
+  const fb = day ? folExact(addDays(day, -1)) : null, fa = day ? folExact(addDays(day, 1)) : null;
+  return { tweet_id: p.tweet_id, id: p.id, day, slug, views: p.views ?? null, likes: p.likes ?? null, reposts: p.reposts ?? null, replies: p.replies ?? null,
+    readers: r0 == null && r1 == null ? null : (r0 || 0) + (r1 || 0), folDelta: fb != null && fa != null ? fa - fb : null };
+}).sort((a, b) => (b.views || 0) - (a.views || 0));
+// 分かったこと（決まった計算だけ。推測で埋めない）
+const xFacts = [];
+if (xPostsJoined.length) {
+  const v = xPostsJoined.map((p) => p.views || 0).sort((a, b) => a - b); const med = v[Math.floor(v.length / 2)];
+  const top = xPostsJoined[0];
+  xFacts.push(`記録のある自分の投稿 ${xPostsJoined.length} 本の表示は、中央値 ${med.toLocaleString()} 回。いちばん多いのは「${(posts[top.slug]?.title || top.id || '').slice(0, 24)}」の ${(top.views || 0).toLocaleString()} 回（${top.day}）。`);
+  const lk = xPostsJoined.filter((p) => p.views); const lr = lk.reduce((a, p) => a + (p.likes || 0), 0) / Math.max(1, lk.reduce((a, p) => a + p.views, 0)) * 100;
+  xFacts.push(`いいねは表示 100 回あたり ${lr.toFixed(1)} 件。リポストは 13 本中 ${xPostsJoined.filter((p) => p.reposts > 0).length} 本でしか付いていない。`);
+  const withR = xPostsJoined.filter((p) => p.readers != null && p.views);
+  if (withR.length) { const rv = withR.reduce((a, p) => a + p.readers, 0), vv = withR.reduce((a, p) => a + p.views, 0);
+    xFacts.push(`告知した日と翌日に記事を読んだ人（ボット除外）は、表示 1,000 回あたり ${(rv / vv * 1000).toFixed(1)} 人（読者の記録がある ${withR.length} 本の合計：表示 ${vv.toLocaleString()} 回 → 読者 ${rv} 人）。X の表示がそのまま記事の読者にはなっていない。`); }
+  const withF = xPostsJoined.filter((p) => p.folDelta != null);
+  if (withF.length) { const best = [...withF].sort((a, b) => b.folDelta - a.folDelta)[0];
+    xFacts.push(`投稿の前日から翌日までのフォロワーの増減（前日と翌日の記録がそろう ${withF.length} 本）は、最大で ${best.folDelta >= 0 ? '+' : ''}${best.folDelta}（「${(posts[best.slug]?.title || best.id || '').slice(0, 20)}」の ${best.day}）。平均は ${(withF.reduce((a, p) => a + p.folDelta, 0) / withF.length).toFixed(1)}。`); }
+}
+if (fol.length > 14) {
+  const last = fol[fol.length - 1]; const wk = fol.filter((f) => f.date > addDays(last.date, -7)); const pw = fol.filter((f) => f.date > addDays(last.date, -14) && f.date <= addDays(last.date, -7));
+  const g1 = wk.length ? last.count - (folOn(addDays(last.date, -7)) ?? wk[0].count) : null, g0 = pw.length ? (folOn(addDays(last.date, -7)) ?? 0) - (folOn(addDays(last.date, -14)) ?? pw[0].count) : null;
+  if (g1 != null && g0 != null) xFacts.push(`フォロワーは直近 7 日で ${g1 >= 0 ? '+' : ''}${g1}、その前の 7 日で ${g0 >= 0 ? '+' : ''}${g0}（${last.date} 時点 ${last.count} 人）。`);
+}
+
+const xData = { generated: xw?.generated || null, joined: xPostsJoined, facts: xFacts, followers: (xw?.followers || []).filter((f) => typeof f.count === 'number'), posts: xw?.posts || [], keys: xw?.keys || null, reviewSets };
 
 // ---------- X の数字（共通戦略の「共有の数字」から。tweet2 が一次情報で更新している） ----------
 const gs = fs.existsSync(path.join(ROOT, 'docs/growth-strategy.md')) ? fs.readFileSync(path.join(ROOT, 'docs/growth-strategy.md'), 'utf8') : '';
