@@ -1,5 +1,1 @@
-[
-      {"task": "x273-read-follow-scripts.sh", "rc": 0, "out": "フォロー系スクリプトの全文を読んだ / follow-scripts.md"},
-      {"task": "x274-delete-blue-badge-post.sh", "rc": 0, "out": "**まだ消えていない。レポートの dump を確認すること** / delete-blue-badge.md"},
-      {"task": "x275-hf-ltx-blue-badge.sh", "rc": 0, "out": "LTX-Video で 3 本 できた / hf-ltx-blue-badge.md"}
-  ]
+[]
