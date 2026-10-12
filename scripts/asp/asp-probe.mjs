@@ -16,6 +16,7 @@ fs.mkdirSync(OUT, { recursive: true });
 const WHICH = process.env.ASP_PROBE || '';
 // **会員名の行（Welcome, ○○ / ようこそ○○さん）も出さない**（2026-10-11 に楽天ウェブサービスで出してしまった）
 const NG = /契約者|振込|口座|氏名|合同会社|有限会社|（\d{6,}）|\(\d{6,}\)|あなたの報酬|確定報酬|未確定|様$|さん$|Welcome|ようこそ|こんにちは/i;
+const ROWS = [];
 const RID = /[0-9a-f]{8}\.[0-9a-f]{8}\.[0-9a-f]{8}\.[0-9a-f]{8}/g;
 
 const b = await chromium.connectOverCDP(`http://127.0.0.1:${process.env.CDP_PORT || '18810'}`);
@@ -321,8 +322,11 @@ try {
       }).catch(() => ({ h: '（読めない）', reward: '', alts: '' }));
       const c = (x) => (x || '').replace(/\|/g, '／').slice(0, 70);
       lines.push(`| ${id} | ${c(d.h)} | ${c(d.reward)} | ${c(d.alts)} | |`);
+      ROWS.push({ id, name: d.h, reward: d.reward, self: /本人OK/.test(d.alts), point: /ポイントOK/.test(d.alts), listing: (d.alts.match(/リスティング[^・]*/) || [''])[0] });
     }
     lines.push('');
+    // 収益化作戦室が読む JSON（2026-10-12）。名前と広告側の報酬だけ。自分の報酬額は出さない
+    fs.writeFileSync(path.join(OUT, `${WHICH}.json`), JSON.stringify({ generated: new Date().toISOString(), total: ids.length, from, to, rows: ROWS }, null, 1));
   }
 
   if (WHICH === 'a8detail') {

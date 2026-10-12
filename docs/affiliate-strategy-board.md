@@ -7,11 +7,17 @@
 
 - URL: **https://claude.ai/artifact/9KWGybrAHF7LtbQdVpw9YN**（`capabilities: {db: {}}`）
 - ソース: `scripts/strategy-board/board.html`。**直したら同じファイルを scratchpad に写して同じパスで publish し直す**（URL が変わらないように）
-- 12 ページ：全体像／現状の数字／ASP と案件／記事づくりの流れ／ルールと教訓／他ブログの分析／戦略／戦術／12 週の予定／X での告知／計測と振り返り／コメント一覧
-- **コメントは db の `feedback` コレクション**（`page`・`anchor`・`body`・`createdAt`・`reply`）。読む：`ArtifactData list collection=feedback`。
+- 13 ページ：全体像／現状の数字／ASP と案件／記事づくりの流れ／ルールと教訓／他ブログの分析／戦略／戦術／12 週の予定／X での告知／計測と振り返り／更新履歴／コメント一覧
+- **v2（2026-10-12）: コメントは「サイト全体」と「記載ごと」の両方。** 利用者の指示「全体に対してコメントを残すのと、各記載に関してコメントを残せるように両方したい」
+  - 記載ごと：段落・表の行・カード・工程・週に `data-cid` を振る（静的な記載は本文の指紋、データの行は `now.top.<slug>` など）。触れると「コメント」が出る
+  - 全体：右下のボタン。`scope: "site"`
+- **数字は db の `snapshot/latest` から描く。毎週月曜に入れ替わる**（[`strategy-board-routine.md`](./strategy-board-routine.md)）。
+  利用者の指示「定期的にアップデートして、その結果を踏まえてサイト自体のコンテンツが変更されていく仕組み」
+- **コメントは db の `feedback`**（`scope`・`page`・`cid`・`quote`・`body`・`createdAt`・`reply`）。読む：`ArtifactData list collection=feedback`。
   **返信は `reply` に書く**（`update` ＋ `if_version`）。ページ上で「返信あり」に変わる
 - **決めてほしいことのチェックは `decisions/<id>`**（`checked`・`title`・`updatedAt`）
-- 作業の区切りごとに両方を読みに行く。通知を待たない
+- **何をなぜ変えたかは `changelog`** に残す（サイトの「更新履歴」ページ）
+- 作業の区切りごとに feedback と decisions を読みに行く。通知を待たない
 
 ## 旧：Claude Docs 版（10/12 の最初の版。上のサイトに置き換えた）
 
