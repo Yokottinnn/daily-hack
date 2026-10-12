@@ -65,6 +65,6 @@ if launchctl print "gui/$(id -u)/$LABEL" >/dev/null 2>&1; then LOADED="**載っ�
 { echo "## ジョブ"; echo; echo "- \`$LABEL\`（毎週 月曜 06:40）: $LOADED"; echo; } >> "$OUT"
 
 # その場で 1 回（GSC 240 秒＋A8 約 5 分。heartbeat を長く止めないよう、裏で走らせて結果は次の周回に載る）
-nohup /bin/bash "$BOOT" >/dev/null 2>&1 &
-echo "- 1 回目を裏で開始した（pid $!）。結果は \`reports/board/mac-weekly-status.json\` に出る" >> "$OUT"
+# 初回は launchd の kickstart で走らせる（nohup だとタスクの子として一緒に落とされる。t281/t282）
+launchctl kickstart "gui/$(id -u)/$LABEL" >> "$OUT" 2>&1 && echo "- 1 回目を launchd から開始した" >> "$OUT"
 cat "$OUT"
