@@ -342,6 +342,17 @@ try {
     }
   }
 
+  if (WHICH === 'vcbtn') {
+    // **読むだけ（t290）。押さない。** t289 で「新規提携」が見つからなかったため、提携ボタンまわりの HTML を取る
+    for (const [name, id] of [['Yahoo!トラベル', 2026983], ['ふるなび', 2142798]]) {
+      await go(`https://aff.valuecommerce.ne.jp/ad/adDetail/${id}`);
+      const els = await p.evaluate(() => [...document.querySelectorAll('*')].filter((e) => /^(新規提携|提携済み|提携待ち|未提携|再申請可)$/.test((e.innerText || e.value || '').trim())).map((e) => {
+        const r = e.getBoundingClientRect(); const cs = getComputedStyle(e);
+        return `${e.tagName.toLowerCase()} class="${(e.className || '').toString().slice(0, 50)}" 文字=${(e.innerText || '').trim()} 大きさ=${Math.round(r.width)}x${Math.round(r.height)} display=${cs.display} visibility=${cs.visibility} 親=${e.parentElement?.tagName.toLowerCase()}.${(e.parentElement?.className || '').toString().slice(0, 40)} 親display=${e.parentElement ? getComputedStyle(e.parentElement).display : ''}\n    html: ${e.outerHTML.replace(/\s+/g, ' ').slice(0, 220)}`; }).slice(0, 10));
+      // 画面写真は撮らない（公開ブランチに会員名が写り込むため）
+      lines.push(`## VC「${name}」 adDetail/${id}（${here()}・題名 ${(await p.title()).slice(0, 30)}）`, ...els.filter((x) => !NG.test(x)).map((x) => `- ${x}`), '');
+    }
+  }
   if (WHICH === 'applyvc') {
     // **VC の提携申請（t289）。利用者が 2026-10-12 に「4 社とも申請する」を選んだ。**
     // 確認画面を読んでから送る。費用・有料・想定外の項目が見えたら、その社は送らずに止まる
