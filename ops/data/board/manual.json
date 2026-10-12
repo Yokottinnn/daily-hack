@@ -1,0 +1,13 @@
+{
+  "_note": "データから自動で取れない事実だけを置く（収益化作戦室が読む）。公開リポジトリなので、自分の報酬額・会社名・氏名・口座は書かない。週次ルーティンと blog セッションが更新する。",
+  "pending": [
+    {"key": "a8-cards", "label": "A8 のカード 5 件（三井住友カード NL・TOKYU CARD・三井ショッピングパークカード・dカード GOLD U・WOWOW セゾン）の提携審査", "since": "2026-10-11"},
+    {"key": "rakuten-ws-app", "label": "楽天ウェブサービスのアプリ登録（画像認証の入力待ち）", "since": "2026-10-11"}
+  ],
+  "asp": [
+    {"name": "A8.net", "login": "auto", "account": "法人", "note": "セルフバックあり"},
+    {"name": "楽天アフィリエイト", "login": "auto", "account": "個人口座", "note": "商品リンクは店ごとに作成。トラベル・ふるさと納税は自分の ID が要る"},
+    {"name": "バリューコマース", "login": "auto", "partnered": 3, "note": "Yahoo!ショッピング・Liigo・ニーズツアー。LinkSwitch 未導入"},
+    {"name": "もしもアフィリエイト", "login": "auto", "partnered": 2, "note": "記事に合うものは無し"}
+  ]
+}
