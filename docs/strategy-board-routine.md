@@ -1,6 +1,8 @@
 # 収益化作戦室の週次ルーティン（毎週月曜 8:47 JST・クラウドの Claude）
 
 > ルーティン: **`trig_018nTbjuzSEXtnzfrJoyh9Je`**（毎回 新しいセッション・完了でプッシュ通知）。プロンプトを変えるときは `update_trigger`
+> **このルーティンにはリポジトリを claude.ai の Routines 画面で付ける必要がある**（`create_trigger` では付けられない）。
+> 2026-10-12 の試し発火では db・返信・更新履歴までは動いたが、`git push` が 403 だった。利用者が画面で付ける（10/12 に合意）
 
 > 作戦室: **https://claude.ai/artifact/9KWGybrAHF7LtbQdVpw9YN**（ソース `scripts/strategy-board/board.html`）
 > 利用者の指示（2026-10-12）: 「今回の断面だけではなく定期的にアップデートして、その結果を踏まえてこのサイト自体の
