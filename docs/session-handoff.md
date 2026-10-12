@@ -68,6 +68,11 @@
 
 <!-- 新しい記録がこの下に追加される（新しいものが上） -->
 
+### 2026-10-12 — マネタイズ作戦室（旧 収益化作戦室）でコメント 12 件に対応: 戦略を「独自の切り口×キャラのお得比較」に書き直し、タスクのページ（todos・確認つき完了）、記事を調べる・どこから来たかの詳細、参照 URL 36 件。pv-archive に記事ごとの参照元とボット除外の訪問を足した。週次は trig_01WMknScGeKRavSVE8Nckaun（このセッションに戻る）で手順 1〜11
+
+次のアクション:
+
+- [ ] pv-archive をマージ後に過去 31 日を取り直す（workflow_dispatch from/to）。タスクの claude の番（VC 提携申請・X のメディア登録・新記事①の候補 3 つ）を進める
 ### 2026-10-12 — x278 を適用: フォローの的を認証済みに寄せた（競合は /verified_followers・ハッシュタグは認証済みだけ・記録に verified）。blog3・affiliate にトリガーで共通戦略を連絡（trig_01Ns4dwjzhfeHTeVwdqgfa8B / trig_011m86tXgNpyghqqN9AezB2d）
 
 次のアクション:
