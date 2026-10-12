@@ -342,6 +342,41 @@ try {
     }
   }
 
+  if (WHICH === 'applyprep3') {
+    // **読むだけ・3 回目（t288）。押さない・送らない。** t287 でもキーワードが効かず、どの社名でも同じ一覧だった。
+    // 検索フォームの送り方（action・method・ボタン）を読み、URL の問い合わせで引けるかを試す
+    await go('https://aff.valuecommerce.ne.jp/ad/adList');
+    const forms = await p.evaluate(() => [...document.querySelectorAll('form')].map((f) => ({
+      action: (f.getAttribute('action') || '').replace(/\?.*$/, ''), method: f.method, id: f.id, cls: f.className.slice(0, 40),
+      kw: !!f.querySelector('[name="ad_search_condition_form[keyword]"]'),
+      names: [...f.querySelectorAll('[name]')].map((e) => e.name).filter((n) => !/_token/.test(n)).slice(0, 30),
+      btns: [...f.querySelectorAll('button,input[type=submit],input[type=button],a.btn')].map((b) => `${b.tagName}:${(b.innerText || b.value || '').trim().slice(0, 15)}:${b.type || ''}:${b.id || ''}`).slice(0, 8) })));
+    lines.push('## VC 広告検索のフォーム', ...forms.map((f) => `- form action=${f.action} method=${f.method} id=${f.id} class=${f.cls} keyword欄=${f.kw}\n  - 項目: ${f.names.join(' / ')}\n  - ボタン: ${f.btns.join(' / ')}`), '');
+    for (const kw of ['ふるなび', '一休', 'じゃらん']) {
+      const u = `https://aff.valuecommerce.ne.jp/ad/adList?${encodeURIComponent('ad_search_condition_form[keyword]')}=${encodeURIComponent(kw)}&${encodeURIComponent('ad_search_condition_form[appStatus]')}=`;
+      await go(u);
+      const val = await p.locator('input[name="ad_search_condition_form[keyword]"]').first().inputValue().catch(() => '読めない');
+      const rows = await p.evaluate(() => [...new Set([...document.querySelectorAll('a[href*="adDetail"]')].map((a) => `${(a.innerText || '').replace(/\s+/g, ' ').trim().slice(0, 60)} — ${a.href.replace(/\?.*$/, '')}`))].filter((x) => !x.startsWith(' —')).slice(0, 6));
+      lines.push(`## VC GET 検索「${kw}」（欄に入った値: ${val}）`, ...rows.filter((x) => !NG.test(x)).map((x) => `- ${x}`), '');
+    }
+    // Yahoo!トラベル（ホームに出ていた広告）の詳細：提携の方式とボタン
+    await go('https://aff.valuecommerce.ne.jp/ad/adDetail/2026983');
+    const yt = await p.evaluate(() => { const t = document.body.innerText.replace(/[ \t]+/g, ' ');
+      return { title: document.title, btns: [...document.querySelectorAll('a,button,input[type=submit],input[type=button]')].map((b) => (b.innerText || b.value || '').trim()).filter((x) => /提携|申請|申込/.test(x)).slice(0, 8),
+        cond: (t.match(/[^\n]*(即時提携|審査|自動提携|提携中|提携済|SNS|Twitter|X（|禁止)[^\n]*/g) || []).map((x) => x.trim().slice(0, 110)).slice(0, 12) }; });
+    lines.push('## VC 詳細「Yahoo!トラベル」 adDetail/2026983', `- 題名: ${yt.title.slice(0, 50)}`, `- 提携・申請のボタン: ${yt.btns.join(' ／ ') || 'なし'}`, ...yt.cond.filter((x) => !NG.test(x)).map((x) => `- ${x}`), '');
+    // VC「サイトの追加」画面の入力項目（送らない）
+    await go('https://aff.valuecommerce.ne.jp/account/siteAdd');
+    const sa = await p.evaluate(() => [...document.querySelectorAll('input,select,textarea')].filter((e) => e.type !== 'hidden').map((e) => {
+      const lab = (e.id && document.querySelector(`label[for="${e.id}"]`)?.innerText) || e.closest('tr,dl,div')?.innerText || '';
+      const opts = e.tagName === 'SELECT' ? [...e.options].map((o) => o.text.trim()).slice(0, 12).join('|') : '';
+      return `${e.tagName.toLowerCase()}[${e.type}] ${e.name} ← ${lab.replace(/\s+/g, ' ').trim().slice(0, 60)}${opts ? ` 〔${opts}〕` : ''}`; }).slice(0, 30));
+    lines.push('## VC サイトの追加（入力項目・送らない）', `- 開いた画面: ${here()}（${(await p.title()).slice(0, 40)}）`, ...sa.filter((x) => !NG.test(x)).map((x) => `- ${x}`), '');
+    // A8：トップの全リンク（メニューの場所が分からないため絞らない）
+    await go('https://media-console.a8.net/');
+    const a8 = await p.evaluate(() => [...new Set([...document.querySelectorAll('a[href]')].map((a) => `${(a.innerText || a.getAttribute('aria-label') || a.title || '').replace(/\s+/g, ' ').trim().slice(0, 30)} — ${a.href.replace(/\?.*$/, '')}`))].slice(0, 80));
+    lines.push('## A8 トップの全リンク', `- 開いた画面: ${here()}`, ...a8.filter((x) => !NG.test(x)).map((x) => `- ${x}`), '');
+  }
   if (WHICH === 'applyprep2') {
     // **申請・登録の前に読むだけ（2 回目・t287）。押さない・送らない。**
     // t286 では VC の検索に前回の「提携済み」の絞り込みが残り、4 社が 1 件も出なかった。提携状態を「未提携（N）」にして探し直す
