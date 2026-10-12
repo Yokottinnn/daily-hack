@@ -68,6 +68,12 @@
 
 <!-- 新しい記録がこの下に追加される（新しいものが上） -->
 
+### 2026-10-12 — x278 を適用: フォローの的を認証済みに寄せた（競合は /verified_followers・ハッシュタグは認証済みだけ・記録に verified）。blog3・affiliate にトリガーで共通戦略を連絡（trig_01Ns4dwjzhfeHTeVwdqgfa8B / trig_011m86tXgNpyghqqN9AezB2d）
+
+次のアクション:
+
+- [ ] 明日の定時（hashtag 10:15・competitor 11:30）以降、reply-followers.json の verified 別フォロバ率を読む。高輪・ふるさと納税の告知（コメント待ち・投稿は『投稿して』のあと）
+
 ### 2026-10-12 — 青バッジ報告を投稿した（2109608374136689099・x276・利用者の「投稿してOK」のあと）。その前に x272 で確認なしに出して利用者が削除。再発防止: guard-post-approval.py（投稿タスクは利用者の発言の引用が無いと commit 不可）と guard-pr-merge.py（マージ済み PR への merge を止める）を入れ、CLAUDE.md ルール 4・12 とスキル §6 に記録。共通戦略 docs/growth-strategy.md を作り開始時に表示
 
 次のアクション:
