@@ -276,6 +276,9 @@ tr[data-ccount]::after{top:4px;right:4px}
   <div class="tabs" id="asp-tabs"><button type="button" data-a="all" aria-pressed="true">すべて</button><button type="button" data-a="A8" aria-pressed="false">A8</button><button type="button" data-a="バリューコマース" aria-pressed="false">バリューコマース</button><button type="button" data-a="もしも" aria-pressed="false">もしも</button><button type="button" data-a="楽天" aria-pressed="false">楽天</button></div>
   <div class="filters" id="a8-filters"><button type="button" data-f="all" aria-pressed="true">すべて</button><button type="button" data-f="self" aria-pressed="false">本人 OK だけ</button><button type="button" data-f="ng" aria-pressed="false">使わない案件</button></div>
   <div class="tbl"><table class="wf"><thead><tr><th>案件</th><th>ASP</th><th>広告側の報酬</th><th>本人</th><th>メモ</th></tr></thead><tbody id="tbl-a8"><tr><td colspan="5" class="empty">データ待ち</td></tr></tbody></table></div>
+  <h2>セルフバックの候補（A8・本人 OK・広告側の報酬が高い順）</h2>
+  <p class="src">あなたが使っていないサービスでも選んでよい（10/12 のコメント）。申し込むのはあなたで、申し込んだら利用画面などの素材を記事や投稿に使います。毎週の更新で入れ替わります。</p>
+  <div class="tbl"><table class="wf"><thead><tr><th>案件</th><th>広告側の報酬</th></tr></thead><tbody id="tbl-selfback"><tr><td colspan="2" class="empty">データ待ち</td></tr></tbody></table></div>
   <h2>取りにいく案件</h2>
   <ul class="plain">
     <li><b>ふるさと納税</b>：ふるなび・さとふる・楽天ふるさと納税。10〜12 月が年の最盛期。競合はふるなびを i-mobile・ValueCommerce、さとふるを accesstrade で取っている。</li>
@@ -622,10 +625,12 @@ tr[data-ccount]::after{top:4px;right:4px}
   <h2>X の収益化までの距離</h2>
   <div class="tbl"><table><thead><tr><th>条件</th><th>いま</th><th>足りない</th></tr></thead><tbody id="tbl-xcond"><tr><td colspan="3" class="empty">データ待ち</td></tr></tbody></table></div>
   <p class="src">数字は共通戦略の「共有の数字」から（X 担当のセッションが一次情報で更新）。返信の表示は条件に数えられない。</p>
+  <h2>分かったこと</h2>
+  <ul class="findings" id="x-facts"><li class="empty">Mac からの書き出し待ち</li></ul>
   <h2>フォロワーの推移</h2>
   <div class="chart" id="chart-x"><p class="empty">Mac からの書き出し待ち</p></div>
   <h2>投稿のランキング（表示回数）</h2>
-  <p class="src">Mac が 3 時間おきに記録している、自分の投稿の表示回数の最新値。</p>
+  <p class="src">表示・いいね・リポスト・返信は、Mac が 3 時間おきに記録している最新値。「記事の読者」は告知した日と翌日にその記事を読んだ人（ボット除外・9/13 から記録）。「フォロワー」は前日から翌日までの増減（その 2 日の記録がそろうときだけ）。</p>
   <div class="tbl"><table class="wf"><thead id="thead-xposts"><tr><th>投稿</th><th>表示</th></tr></thead><tbody id="tbl-xposts"><tr><td colspan="2" class="empty">Mac からの書き出し待ち</td></tr></tbody></table></div>
   <h2>これまでの投稿（記事の告知など）</h2>
   <div class="tbl"><table class="wf"><thead><tr><th>投稿</th><th>投稿日</th><th>記事</th><th>X で見る</th></tr></thead><tbody id="tbl-xsets"><tr><td colspan="4" class="empty">データ待ち</td></tr></tbody></table></div>
@@ -964,14 +969,11 @@ tr[data-ccount]::after{top:4px;right:4px}
       svg+='</svg><p class="src">'+F[0].date+' の '+F[0].count+' 人 → '+F[F.length-1].date+' の '+F[F.length-1].count+' 人（記録のある '+F.length+' 日分・点に触れると日付と人数）</p>';
       const c=$('#chart-x'); c.innerHTML=svg; c.dataset.cid='x.followers-chart'; }
     // 投稿のランキング（Mac の記録のキーに合わせて読む）
-    const P=XD.posts||[]; const pick=(o,ks)=>{ for(const k of ks) if(o[k]!=null&&o[k]!=='') return o[k]; return null; };
-    const IMP=['impressions','views','impression','view','view_count'], LIKE=['likes','like','favorites'], RT=['reposts','retweets','repost'], REP=['replies','reply'];
-    const titleOf2=(p)=>{ const id=String(pick(p,['tweet_id','x_tweet_id','status_id'])||''); const set=(XD.reviewSets||[]).find(r=>r.ids.includes(id)); if(set) return set.title;
-      const slug=String(p.id||'').replace(/^blog-promo-\d{8}-/,'').replace(/^\d{8}-/,'').replace(/-v\d+$/,''); const raw=String(p.id||''); const art=ART.find(x=>x.slug===slug)||ART.find(x=>raw.includes(x.slug))||ART.find(x=>x.slug.split('-')[0]===slug.split('-')[0]&&slug.split('-')[0].length>3);
-      if(art) return art.title; const rs=(XD.reviewSets||[]).find(r=>r.slug&&raw.includes(r.slug)); return rs?rs.title:(raw||id); };
-    if(P.length){ const rows=P.map(p=>({p,imp:Number(pick(p,IMP))||0})).sort((a,b)=>b.imp-a.imp).slice(0,30);
-      $('#thead-xposts').innerHTML='<tr><th>投稿</th><th>投稿日</th><th>表示</th><th>いいね</th><th>リポスト</th><th>返信</th></tr>';
-      $('#tbl-xposts').innerHTML=rows.map(({p,imp})=>{ const id=String(pick(p,['tweet_id','x_tweet_id','status_id'])||''); return '<tr data-cid="x.post.'+esc(id)+'"><td><a href="https://x.com/heng_ji31590/status/'+esc(id)+'" target="_blank" rel="noopener">'+esc(String(titleOf2(p)).slice(0,60))+'</a></td><td style="white-space:nowrap">'+esc(String(p.posted_at||'').slice(0,10))+'</td><td class="num">'+fmtN(imp)+'</td><td class="num">'+fmtN(pick(p,LIKE))+'</td><td class="num">'+fmtN(pick(p,RT))+'</td><td class="num">'+fmtN(pick(p,REP))+'</td></tr>'; }).join(''); }
+    const J=XD.joined||[];
+    if(J.length){ $('#thead-xposts').innerHTML='<tr><th>投稿</th><th>投稿日</th><th>表示</th><th>いいね</th><th>リポスト</th><th>返信</th><th>記事の読者</th><th>フォロワー</th></tr>';
+      const nm=(p)=>{ const art=ART.find(x=>x.slug===p.slug); if(art) return art.title; const rs=(XD.reviewSets||[]).find(r=>r.ids.includes(String(p.tweet_id))||(r.slug&&String(p.id||'').includes(r.slug))); return rs?rs.title:(p.id||p.tweet_id); };
+      $('#tbl-xposts').innerHTML=J.map(p=>'<tr data-cid="x.post.'+esc(p.tweet_id)+'"><td><a href="https://x.com/heng_ji31590/status/'+esc(p.tweet_id)+'" target="_blank" rel="noopener">'+esc(String(nm(p)).slice(0,60))+'</a></td><td style="white-space:nowrap">'+esc(p.day)+'</td><td class="num">'+fmtN(p.views)+'</td><td class="num">'+fmtN(p.likes)+'</td><td class="num">'+fmtN(p.reposts)+'</td><td class="num">'+fmtN(p.replies)+'</td><td class="num">'+(p.readers==null?'—':fmtN(p.readers))+'</td><td class="num">'+(p.folDelta==null?'—':(p.folDelta>=0?'+':'')+p.folDelta)+'</td></tr>').join(''); }
+    $('#x-facts').innerHTML=(XD.facts||[]).map((f,i)=>'<li data-cid="x.fact.'+i+'"><span class="pill info">事実</span><span>'+esc(f)+'</span></li>').join('')||'<li class="empty">Mac からの書き出し待ち</li>';
     $('#tbl-xsets').innerHTML=(XD.reviewSets||[]).filter(r=>r.ids.length).map(r=>'<tr data-cid="x.set.'+esc(r.key)+'"><td>'+esc(r.title)+'</td><td>'+esc((r.at||'').slice(0,10))+'</td><td>'+(r.slug&&ART.find(a=>a.slug===r.slug)?'<a href="https://daily-hack.fieldbeside.com/posts/'+esc(r.slug)+'/" target="_blank" rel="noopener">記事</a>':'—')+'</td><td>'+r.ids.map((id,i)=>'<a href="https://x.com/heng_ji31590/status/'+esc(id)+'" target="_blank" rel="noopener">['+(i+1)+'/'+r.ids.length+']</a>').join(' ')+'</td></tr>').join('')||'<tr><td colspan="4" class="empty">データなし</td></tr>';
     applyCounts();
   }
@@ -1045,7 +1047,9 @@ tr[data-ccount]::after{top:4px;right:4px}
     for(const r of ((S.manual||{}).programs)||[]) out.push(Object.assign({self:null,ng:false},r));
     return out;
   }
-  function renderA8(){ const tb=$('#tbl-a8'); const all=programs(); if(!all.length){ tb.innerHTML='<tr><td colspan="5" class="empty">データ待ち</td></tr>'; return; }
+  function renderSelfback(){ const S=SNAP||{}; const rows=((S.a8&&S.a8.rows)||[]).filter(r=>r.self&&!r.ng).sort((a,b)=>(b.yen||0)-(a.yen||0)).slice(0,12);
+    $('#tbl-selfback').innerHTML=rows.map(r=>'<tr data-cid="asp.self.'+esc(r.id)+'"><td>'+esc((r.name||'').slice(0,70))+'</td><td>'+esc(r.reward||'')+'</td></tr>').join('')||'<tr><td colspan="2" class="empty">データなし</td></tr>'; }
+  function renderA8(){ renderSelfback(); const tb=$('#tbl-a8'); const all=programs(); if(!all.length){ tb.innerHTML='<tr><td colspan="5" class="empty">データ待ち</td></tr>'; return; }
     const counts={}; all.forEach(r=>counts[r.asp]=(counts[r.asp]||0)+1);
     $$('#asp-tabs button').forEach(b=>{ const n=b.dataset.a==='all'?all.length:(counts[b.dataset.a]||0); b.textContent=(b.dataset.a==='all'?'すべて':b.dataset.a)+'（'+n+'）'; });
     const rows=all.filter(r=>aspF==='all'||r.asp===aspF).filter(r=>a8F==='all'||(a8F==='self'&&r.self&&!r.ng)||(a8F==='ng'&&r.ng)).sort((a,b)=>(b.yen||0)-(a.yen||0));
