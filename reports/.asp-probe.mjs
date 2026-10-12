@@ -16,6 +16,7 @@ fs.mkdirSync(OUT, { recursive: true });
 const WHICH = process.env.ASP_PROBE || '';
 // **会員名の行（Welcome, ○○ / ようこそ○○さん）も出さない**（2026-10-11 に楽天ウェブサービスで出してしまった）
 const NG = /契約者|振込|口座|氏名|合同会社|有限会社|（\d{6,}）|\(\d{6,}\)|あなたの報酬|確定報酬|未確定|様$|さん$|Welcome|ようこそ|こんにちは/i;
+const ROWS = [];
 const RID = /[0-9a-f]{8}\.[0-9a-f]{8}\.[0-9a-f]{8}\.[0-9a-f]{8}/g;
 
 const b = await chromium.connectOverCDP(`http://127.0.0.1:${process.env.CDP_PORT || '18810'}`);
@@ -321,8 +322,11 @@ try {
       }).catch(() => ({ h: '（読めない）', reward: '', alts: '' }));
       const c = (x) => (x || '').replace(/\|/g, '／').slice(0, 70);
       lines.push(`| ${id} | ${c(d.h)} | ${c(d.reward)} | ${c(d.alts)} | |`);
+      ROWS.push({ id, name: d.h, reward: d.reward, self: /本人OK/.test(d.alts), point: /ポイントOK/.test(d.alts), listing: (d.alts.match(/リスティング[^・]*/) || [''])[0] });
     }
     lines.push('');
+    // 収益化作戦室が読む JSON（2026-10-12）。名前と広告側の報酬だけ。自分の報酬額は出さない
+    fs.writeFileSync(path.join(OUT, `${WHICH}.json`), JSON.stringify({ generated: new Date().toISOString(), total: ids.length, from, to, rows: ROWS }, null, 1));
   }
 
   if (WHICH === 'a8detail') {
@@ -338,6 +342,34 @@ try {
     }
   }
 
+  if (WHICH === 'others') {
+    // **A8 以外の提携中の案件を JSON に書き出す**（作戦室の「ASP と案件」・2026-10-12）。読むだけ。
+    // バリューコマースは vc3 と同じ「提携済み（A）」の絞り込み、もしもは「提携中」の一覧（apply_status=2・asp-sync の実測）。
+    const out = { generated: new Date().toISOString(), vc: [], moshimo: [] };
+    await go('https://aff.valuecommerce.ne.jp/ad/adList');
+    await p.locator('input[type=radio][name="ad_search_condition_form[appStatus]"][value=A]').check({ force: true, timeout: 5000 }).catch((e) => lines.push(`- ⚠️ VC: 提携済みを選べない: ${String(e).split('\n')[0]}`));
+    const sub = p.locator('button:visible, input[type=submit]:visible').filter({ hasText: /検索/ }).first();
+    if (await sub.count()) await sub.click({ timeout: 5000 }).catch(() => {}); else await p.locator('form:has(input[name="ad_search_condition_form[appStatus]"])').first().evaluate((f) => f.submit()).catch(() => {});
+    await p.waitForLoadState('domcontentloaded', { timeout: 20000 }).catch(() => {}); await p.waitForTimeout(5000);
+    out.vc = await p.evaluate(() => { const seen = new Set();
+      return [...document.querySelectorAll('a[href*="adDetail"]')].map((a) => {
+        let r = a; for (let i = 0; i < 6 && r.parentElement; i++) { r = r.parentElement; if (r.tagName === 'TR' || (r.innerText || '').length > 120) break; }
+        const txt = (r.innerText || '').replace(/\s+/g, ' ');
+        return { name: (a.innerText || '').replace(/\s+/g, ' ').trim().slice(0, 60), reward: (txt.match(/[0-9,.]+\s*(円|%)[^ ]{0,12}/) || [''])[0], href: a.href.replace(/\?.*$/, '') };
+      }).filter((x) => x.name && !seen.has(x.href) && seen.add(x.href)); });
+    await go('https://af.moshimo.com/af/shop/promotion/search?apply_status=2');
+    lines.push(`- もしも: 開いた画面 ${here()}（${(await p.title()).slice(0, 40)}）`);
+    out.moshimo = await p.evaluate(() => { const seen = new Set();
+      return [...document.querySelectorAll('a[href*="promotion"]')].filter((a) => /promotion\/(detail|\d)|promotion_id=|p_id=/.test(a.href) && !/search/.test(a.href)).map((a) => {
+        let r = a; for (let i = 0; i < 6 && r.parentElement; i++) { r = r.parentElement; if ((r.innerText || '').length > 150) break; }
+        const txt = (r.innerText || '').replace(/\s+/g, ' ');
+        return { name: (a.innerText || a.title || '').replace(/\s+/g, ' ').trim().slice(0, 60), reward: (txt.match(/[0-9,.]+\s*(円|%)[^ ]{0,12}/) || [''])[0], href: a.href.replace(/\?.*$/, '') };
+      }).filter((x) => x.name && !seen.has(x.href) && seen.add(x.href)); });
+    for (const k of ['vc', 'moshimo']) out[k] = out[k].filter((x) => !NG.test(x.name));
+    lines.push(`- バリューコマース 提携済み: ${out.vc.length} 件`, ...out.vc.map((x) => `  - ${x.name}｜${x.reward}`), `- もしも 提携中: ${out.moshimo.length} 件`, ...out.moshimo.map((x) => `  - ${x.name}｜${x.reward}`));
+    if (!out.moshimo.length) lines.push('', '### もしもの画面のリンク（件数 0 のときの手がかり）', ...(await p.evaluate(() => [...document.querySelectorAll('a')].map((a) => (a.innerText || '').trim().slice(0, 30) + ' — ' + a.href.replace(/\?.*$/, '')).filter((t) => /promotion/.test(t)).slice(0, 25))).map((t) => `  - ${t}`));
+    fs.writeFileSync(path.join(OUT, 'others.json'), JSON.stringify(out, null, 1));
+  }
   if (WHICH === 'vc2' || WHICH === 'vc3') {
     await go('https://aff.valuecommerce.ne.jp/ad/adList');
     if (WHICH === 'vc3') {
