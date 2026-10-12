@@ -76,7 +76,7 @@ for (const r of gsc?.data?.dates_90d || []) {
 const gscWeekly = Object.values(weekly).sort((a, b) => a.week.localeCompare(b.week));
 
 // ---------- 読者（Cloudflare・ボット除外） ----------
-const months = [...new Set([0, 1, 2].map((k) => { const d = new Date(today); d.setMonth(d.getMonth() - k, 1); return iso(d).slice(0, 7); }))];
+const months = [...new Set([0, 1, 2, 3].map((k) => { const d = new Date(today); d.setMonth(d.getMonth() - k, 1); return iso(d).slice(0, 7); }))];
 const daily = {};
 for (const m of months) Object.assign(daily, json(show(PV, `data/${m}.json`)) || {});
 const days = Object.keys(daily).sort();
@@ -87,6 +87,64 @@ const pvSum = (ds, k) => ds.reduce((a, d) => a + (daily[d]?.[k] || 0), 0);
 const pathVisits = {};
 for (const d of in28) for (const t of daily[d]?.top || []) { const s = slugOf('https://x' + t.path); if (s) pathVisits[s] = (pathVisits[s] || 0) + (t.v || 0); }
 const readTop = Object.entries(pathVisits).sort((a, b) => b[1] - a[1]).slice(0, 20).map(([slug, v]) => ({ slug, v, title: posts[slug]?.title || slug, aff: posts[slug]?.aff || 0 }));
+
+// ---------- 記事ごとの表（作戦室の「記事を調べる」と、流入元の説明に使う） ----------
+// 訪問 v は Cloudflare の記事別の数で **ボットを含む**（pv-archive の top は記事別にボットを分けていない）。
+// ボット除外の訪問と参照元は、pv-archive の posts（2026-10-12 に足した）がある日だけ取れる。
+const in90 = days.filter((d) => lastDay && (new Date(lastDay) - new Date(d)) / 864e5 < 90);
+const visitsIn = (ds) => { const m = {}; for (const d of ds) for (const t of daily[d]?.top || []) { const s = slugOf('https://x' + t.path); if (s) m[s] = (m[s] || 0) + (t.v || 0); } return m; };
+const v28 = visitsIn(in28), v90 = visitsIn(in90);
+const refDays28 = in28.filter((d) => daily[d]?.posts);
+const human28 = {}, refs28 = {};
+for (const d of refDays28) for (const [p, x] of Object.entries(daily[d].posts || {})) {
+  const s = slugOf('https://x' + p); if (!s) continue;
+  human28[s] = (human28[s] || 0) + (x.human || 0);
+  const r = (refs28[s] = refs28[s] || {});
+  for (const [h, n] of Object.entries(x.ref || {})) r[h] = (r[h] || 0) + n;
+}
+// 参照元ホストを読み手の言葉にまとめる
+const refGroup = (h) => /(^|\.)(t\.co|x\.com|twitter\.com)$/.test(h) ? 'X' : /google\./.test(h) ? 'Google' : /yahoo\./.test(h) ? 'Yahoo!' : /bing\.com$/.test(h) ? 'Bing' : /daily-hack\.fieldbeside\.com$/.test(h) ? 'サイト内' : h === '(なし)' ? '参照元なし（アプリ・ブックマーク等）' : 'その他';
+const groupRefs = (r) => { const g = {}; for (const [h, n] of Object.entries(r || {})) { const k = refGroup(h); g[k] = (g[k] || 0) + n; } return Object.entries(g).sort((a, b) => b[1] - a[1]).map(([k, n]) => ({ k, n })); };
+const pagesCur = Object.fromEntries((gsc?.data?.pages_cur || []).map((r) => [slugOf(r.keys[0]), r]).filter(([k]) => k));
+const pages90m = Object.fromEntries((gsc?.data?.pages_90d || []).map((r) => [slugOf(r.keys[0]), r]).filter(([k]) => k));
+const articles = postList.map((p) => ({
+  slug: p.slug, title: p.title, aff: p.aff, isPR: p.isPR, updated: p.updated,
+  c28: pagesCur[p.slug]?.c || 0, i28: pagesCur[p.slug]?.i || 0, p28: pagesCur[p.slug]?.p ?? null,
+  c90: pages90m[p.slug]?.c || 0, i90: pages90m[p.slug]?.i || 0, p90: pages90m[p.slug]?.p ?? null,
+  v28: v28[p.slug] || 0, v90: v90[p.slug] || 0,
+  h28: refDays28.length ? (human28[p.slug] || 0) : null,
+  refs28: refDays28.length ? groupRefs(refs28[p.slug]) : null,
+})).sort((a, b) => b.v28 - a.v28 || b.i90 - a.i90);
+for (const r of topPages) r.v90 = v90[r.slug] || 0;
+for (const r of readTop) { r.c28 = pagesCur[r.slug]?.c || 0; r.h28 = refDays28.length ? (human28[r.slug] || 0) : null; r.refs28 = refDays28.length ? groupRefs(refs28[r.slug]) : null; }
+// 日ごとの訪問（記事の詳細で棒にする）と、全記事が同じ日に跳ねた日（読者ではない一斉アクセスの疑い）
+const recentDays = days.slice(-45);
+const postTotal = (d) => (daily[d]?.top || []).filter((t) => t.path.startsWith('/posts/')).reduce((a, t) => a + (t.v || 0), 0);
+const med = (xs) => { const y = [...xs].sort((a, b) => a - b); return y.length ? y[Math.floor(y.length / 2)] : 0; };
+const medTotal = med(recentDays.map(postTotal));
+const spikeDays = recentDays.filter((d) => medTotal && postTotal(d) >= medTotal * 3);
+// X の告知日（画像レビューページに記録された投稿 ID から。ID に投稿時刻が入っている）
+const reviewPage = fs.existsSync(path.join(ROOT, 'scripts/image-review/page.html')) ? fs.readFileSync(path.join(ROOT, 'scripts/image-review/page.html'), 'utf8') : '';
+const xPosts = {};
+for (const m of reviewPage.matchAll(/slug:\s*"([^"]+)",[^\n]*\n\s*posted:\s*\[\s*"(\d+)"/g)) {
+  const t = new Date(Number((BigInt(m[2]) >> 22n) + 1288834974657n));
+  (xPosts[m[1]] = xPosts[m[1]] || []).push(t.toISOString().slice(0, 10));   // 訪問の日付（UTC）にそろえる
+}
+for (const a of articles) {
+  a.series = recentDays.map((d) => [d, (daily[d]?.top || []).find((t) => t.path === `/posts/${a.slug}/`)?.v || 0]);
+  a.xDates = xPosts[a.slug] || [];
+  const spikeV = a.series.filter(([d]) => spikeDays.includes(d)).reduce((x, [, v]) => x + v, 0);
+  const xV = a.series.filter(([d]) => a.xDates.some((x) => { const k = (new Date(d) - new Date(x)) / 864e5; return k >= 0 && k <= 1; })).reduce((x, [, v]) => x + v, 0);
+  a.why = { spikeV, xV };   // 28 日ではなく、表示している 45 日の中での数
+}
+const pvMeta = { first: days[0] || null, last: lastDay, days90: in90.length, refFrom: days.find((d) => daily[d]?.posts) || null, refDays28: refDays28.length, spikeDays, seriesFrom: recentDays[0] || null };
+
+// ---------- X の数字（共通戦略の「共有の数字」から。tweet2 が一次情報で更新している） ----------
+const gs = fs.existsSync(path.join(ROOT, 'docs/growth-strategy.md')) ? fs.readFileSync(path.join(ROOT, 'docs/growth-strategy.md'), 'utf8') : '';
+const xShared = ((gs.split('## 共有の数字')[1] || '').split('\n## ')[0] || '').split('\n')
+  .filter((l) => /^\|/.test(l) && !/^\|\s*-/.test(l) && !/^\|\s*指標/.test(l))
+  .map((l) => l.split('|').slice(1, -1).map((c) => c.trim().replace(/\*\*/g, '').replace(/`/g, '')))
+  .filter((c) => c.length >= 4).map(([k, v, at, src]) => ({ k, v, at, src }));
 
 // ---------- ASP ----------
 const a8 = json(show(HB, 'reports/board/asp-probe/a8partnered.json'));
@@ -109,6 +167,8 @@ if (gsc) {
 }
 const gaps = readTop.filter((r) => r.aff === 0).slice(0, 8);
 if (gaps.length) push('action', 'gaps', `直近 28 日に読まれた上位 20 本のうち ${readTop.filter((r) => r.aff === 0).length} 本は成果リンクが 0。上から：${gaps.slice(0, 5).map((r) => `「${r.title.slice(0, 22)}」`).join('、')}。`);
+const nonSearch = articles.filter((r) => r.v28 >= 30 && r.c28 / r.v28 < 0.2).slice(0, 5);
+if (nonSearch.length) push('info', 'non-search', `検索のクリックが訪問の 2 割未満なのに読まれている記事が ${nonSearch.length} 本：${nonSearch.map((r) => `「${r.title.slice(0, 20)}」（訪問 ${r.v28}・検索クリック ${r.c28}）`).join('、')}。${refDays28.length ? '参照元は「記事を調べる」で見られる。' : '参照元の記録は始めたばかり。訪問はボットを含む数。'}`);
 const ngs = a8Rows.filter((r) => r.ng);
 if (ngs.length) push('warn', 'ng-program', `A8 の提携中に、ブログの読者層と合わない案件が ${ngs.length} 件（${ngs.map((r) => r.name.slice(0, 20)).join('、')}）。記事には使わない。`);
 const staleness = [['検索データ', gsc?.generated], ['A8 の一覧', a8?.generated], ['読者データ', lastDay]].filter(([, t]) => t && daysAgo(t) > 9);
@@ -132,7 +192,7 @@ const snapshot = {
     posts: { total: postList.length, isPR: postList.filter((p) => p.isPR).length, withAff: postList.filter((p) => p.aff > 0).length },
     pos4to10: { pages: pos4to10.length, impressions: sum(pos4to10, 'i') },
   },
-  gscWeekly, topPages, queries, readTop,
+  gscWeekly, topPages, queries, readTop, articles, pvMeta, xShared,
   a8: a8 ? { total: a8.total, rows: a8Rows } : null,
   manual,
   findings,

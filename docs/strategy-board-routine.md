@@ -41,19 +41,22 @@
    - **指摘どおりに直せるものは直し**、何をしたかを `reply` に書く（`update` ＋ `if_version`）
    - 方針を変えるもの・アカウント操作（提携申請・登録）は直さず、`reply` で選択肢を示し、
      `board.html` の `DECISIONS` に項目を足す（最上位ルール 18・20：勝手に決めない）
-5. **決定を読む**: `ArtifactData list collection=decisions`。`checked: true` で、まだ実行していないものを実行する
+5. **タスクの確認待ちを片づける**: `ArtifactData list collection=todos`。`status: "claimed"` は利用者が「終えた」と付けたもの。
+   **実物で確かめて**（ASP は Mac の `ops/tasks` で画面を読む、サイトは本番の HTML を読む）、確かめられたら `verified` と `note`（何で確かめたか）、
+   だめなら `you` に戻して `note` に何が見えなかったかを書く。`claude` のものは進める（アカウント操作は decisions のチェックがあるものだけ）
+6. **決定を読む**: `ArtifactData list collection=decisions`。`checked: true` で、まだ実行していないものを実行する
    （アカウント操作は `ops/tasks` で。チェックが付いたものだけ）
-6. **本文を書き換える**（`scripts/strategy-board/board.html`）: 所見が計画とずれていれば戦略・12 週の予定を直す
+7. **本文を書き換える**（`scripts/strategy-board/board.html`）: 所見が計画とずれていれば戦略・12 週の予定を直す
    - 例：検索表示が 15% 以上落ちた → 予定の先頭に原因調べを入れる／ある型だけ伸びた → 後半をその型に寄せる
    - **データから言えることだけ書く**（最上位ルール 11）。数字は snapshot に任せ、本文に直書きしない
    - 記載の `data-cid` はページ側で本文の指紋から振っている。**文面を変えると、その記載に付いたコメントの位置札が外れる**。
      コメントの付いた記載を書き換えるときは、`reply` に「この記載は書き換えた」と残す
-7. **更新履歴を書く**: `changelog/<YYYY-MM-DD>-weekly`（`kind`・`date`・`summary`・`items[]`）。
+8. **更新履歴を書く**: `changelog/<YYYY-MM-DD>-weekly`（`kind`・`date`・`summary`・`items[]`）。
    数字の入れ替えだけの週も 1 行は残す（何も変わらなかったことも記録）
-8. **publish し直す**（本文を変えたときだけ）: `board.html` を scratchpad の `strategy-board.html` に写し、
+9. **publish し直す**（本文を変えたときだけ）: `board.html` を scratchpad の `strategy-board.html` に写し、
    `Artifact publish url=https://claude.ai/artifact/9KWGybrAHF7LtbQdVpw9YN`（初回 read が要る）
-9. **commit → PR → CI → マージ**（`board.html`・`manual.json` などを変えたとき）。`npm run handoff` も
-10. **利用者への報告は作戦室の URL と、変わった点 3 行まで**。詳細はサイトの更新履歴に
+10. **commit → PR → CI → マージ**（`board.html`・`manual.json` などを変えたとき）。`npm run handoff` も
+11. **利用者への報告は作戦室の URL と、変わった点 3 行まで**。詳細はサイトの更新履歴に
 
 ## db のコレクション
 
@@ -63,6 +66,7 @@
 | `snapshots/<日付>` | 週ごとの履歴（推移の比較用） | ルーティン |
 | `feedback/<自動 id>` | `scope`(site/block)・`page`・`cid`・`quote`・`body`・`createdAt`・`reply` | 利用者（`reply` は Claude） |
 | `decisions/<id>` | `checked`・`title`・`updatedAt` | 利用者 |
+| `todos/<id>` | `title`・`owner`・`status`(you/claimed/claude/verified)・`why`・`how`・`verify`・`note` | 利用者がチェック、Claude が確かめて完了 |
 | `changelog/<id>` | `date`・`kind`・`summary`・`items[]` | Claude |
 
 ## データから取れない事実
