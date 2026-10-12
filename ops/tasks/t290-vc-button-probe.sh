@@ -1,6 +1,6 @@
 #!/bin/bash
 # **VC の「新規提携」ボタンまわりを読む（t290）。** t289 でボタンが見つからず、4 社とも送らなかった。押さない・読むだけ・LLM 不使用・**$0**。
-# 提携ボタンまわりの HTML と画面写真（asp-probe/vc-<id>.png）を取る。
+# 提携ボタンまわりの HTML を取る（画面写真は会員名が写るので撮らない）。
 set -uo pipefail
 RDIR="${OPS_REPORT_DIR:-/tmp}"
 OUT="$RDIR/t290-asp-others-now.md"

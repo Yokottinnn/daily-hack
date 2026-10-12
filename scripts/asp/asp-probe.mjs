@@ -343,15 +343,14 @@ try {
   }
 
   if (WHICH === 'vcbtn') {
-    // **読むだけ（t290）。押さない。** t289 で「新規提携」が見つからなかったため、提携ボタンまわりの HTML と画面写真を取る
+    // **読むだけ（t290）。押さない。** t289 で「新規提携」が見つからなかったため、提携ボタンまわりの HTML を取る
     for (const [name, id] of [['Yahoo!トラベル', 2026983], ['ふるなび', 2142798]]) {
       await go(`https://aff.valuecommerce.ne.jp/ad/adDetail/${id}`);
       const els = await p.evaluate(() => [...document.querySelectorAll('*')].filter((e) => /^(新規提携|提携済み|提携待ち|未提携|再申請可)$/.test((e.innerText || e.value || '').trim())).map((e) => {
         const r = e.getBoundingClientRect(); const cs = getComputedStyle(e);
         return `${e.tagName.toLowerCase()} class="${(e.className || '').toString().slice(0, 50)}" 文字=${(e.innerText || '').trim()} 大きさ=${Math.round(r.width)}x${Math.round(r.height)} display=${cs.display} visibility=${cs.visibility} 親=${e.parentElement?.tagName.toLowerCase()}.${(e.parentElement?.className || '').toString().slice(0, 40)} 親display=${e.parentElement ? getComputedStyle(e.parentElement).display : ''}\n    html: ${e.outerHTML.replace(/\s+/g, ' ').slice(0, 220)}`; }).slice(0, 10));
-      const shot = `${process.env.OPS_REPORT_DIR || '/tmp'}/asp-probe/vc-${id}.png`;
-      await p.screenshot({ path: shot, fullPage: false }).catch(() => {});
-      lines.push(`## VC「${name}」 adDetail/${id}（${here()}・題名 ${(await p.title()).slice(0, 30)}）`, `- 画面写真: asp-probe/vc-${id}.png`, ...els.map((x) => `- ${x}`), '');
+      // 画面写真は撮らない（公開ブランチに会員名が写り込むため）
+      lines.push(`## VC「${name}」 adDetail/${id}（${here()}・題名 ${(await p.title()).slice(0, 30)}）`, ...els.filter((x) => !NG.test(x)).map((x) => `- ${x}`), '');
     }
   }
   if (WHICH === 'applyvc') {
