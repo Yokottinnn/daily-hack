@@ -33,6 +33,8 @@ const FILES = {
   // **記事の告知ではない**（2026-10-03・300 フォロワーのお礼）。1 枚だけ。
   // 素材はキャラ（expr-04-cheer.png）と自作の図だけなので、出所の行が要らない
   // 2026-10-03 に 3 版目の静止画へ「とてもいいね👍」。動く版（GIF）は同じ絵に動きを付けたもの
+  // **未投稿**（2026-10-12）。青バッジ取得の報告。素材はキャラと自作の図だけなので出所の行は要らない
+  "blue-badge": ["1-card.jpg", "1-card.gif"],
   "follower-300": ["1-card.jpg", "1-card-ai.gif", "1-card.gif", "1-card-v2.gif"],
   // **未投稿**（2026-10-04）。1〜3 枚目は利用者が Slack で共有したアプリの画面（本人の画面・切り出しだけ）。
   // 4 枚目はロゴ（App Store のアイコン）と App Store 掲載素材の自作カード。出所の行が要らない
@@ -56,8 +58,9 @@ for (const [slug, files] of Object.entries(FILES)) {
     if (!buf.length) throw new Error("空のファイル: " + p);
     // **大きい GIF はページに埋める分だけ 440px に縮める**（ページの上限 16MB。2026-10-03 に GIF 2 本で超えた）。
     // 投稿に使う元のファイルは触らない。コメントの位置は割合なので縮めてもずれない
-    if (f.endsWith(".gif") && buf.length > 3 * 1048576) {
+    if (f.endsWith(".gif") && buf.length > 1048576) {
       // 2026-10-11 に告知 3 本（12 枚）を足して 16.79 MB になったので 540 → 440px に下げた
+      // 2026-10-12 に青バッジ（GIF 1.1 MB）を足して 16.60 MB になったので、縮める対象を 3 MB 超 → 1 MB 超に広げた
       buf = await sharp(buf, { animated: true }).resize(440, 440).gif({ effort: 7, colours: 256, dither: 0.6 }).toBuffer();
     }
     raw += buf.length;
