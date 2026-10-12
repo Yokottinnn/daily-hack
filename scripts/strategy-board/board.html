@@ -1,0 +1,617 @@
+<title>daily-hack 収益化作戦室</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@500;700;900&family=Noto+Sans+JP:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* 作戦室：左に目次の帳面、右に 1 ページずつの紙面。各紙面の末尾に「あなたのコメント」の付箋欄。 */
+:root{
+  --paper:#fbfaf7; --sheet:#ffffff; --ink:#1d1a24; --muted:#5f5a6b; --rule:#e6e1ea;
+  --brand:#c2366c; --brand-soft:#fbe8ef; --teal:#0e6b72; --teal-soft:#e2f1f1;
+  --memo:#fff6c9; --memo-ink:#5a4a00; --ok:#1f7a45; --warn:#a15c00; --bad:#b3261e;
+  --f-display:"Zen Maru Gothic","Hiragino Maru Gothic ProN","Noto Sans JP",system-ui,sans-serif;
+  --f-body:"Noto Sans JP","Hiragino Sans","Yu Gothic",system-ui,sans-serif;
+  --f-data:"IBM Plex Mono",ui-monospace,"SFMono-Regular",Menlo,monospace;
+  color-scheme:light;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --paper:#16141b; --sheet:#1e1b24; --ink:#efeaf3; --muted:#b0a9bb; --rule:#35303f;
+  --brand:#ff7aa8; --brand-soft:#3a1d2a; --teal:#6fd0d6; --teal-soft:#16343a;
+  --memo:#3a3313; --memo-ink:#f3e3a0; --ok:#6fd49a; --warn:#f0b35a; --bad:#ff8a80; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --paper:#16141b; --sheet:#1e1b24; --ink:#efeaf3; --muted:#b0a9bb; --rule:#35303f;
+  --brand:#ff7aa8; --brand-soft:#3a1d2a; --teal:#6fd0d6; --teal-soft:#16343a;
+  --memo:#3a3313; --memo-ink:#f3e3a0; --ok:#6fd49a; --warn:#f0b35a; --bad:#ff8a80; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--paper);color:var(--ink);font-family:var(--f-body);font-size:15px;line-height:1.8;margin:0}
+a{color:var(--teal)} a:focus-visible,button:focus-visible,textarea:focus-visible,input:focus-visible{outline:2px solid var(--brand);outline-offset:2px}
+.shell{display:grid;grid-template-columns:260px minmax(0,1fr);min-height:100vh}
+nav.toc{position:sticky;top:env(safe-area-inset-top,0px);align-self:start;height:100vh;overflow:auto;padding:24px 16px;border-right:1px solid var(--rule);background:var(--paper)}
+.brand{font-family:var(--f-display);font-weight:900;font-size:20px;line-height:1.3;margin:0 0 4px}
+.brand small{display:block;font-family:var(--f-body);font-weight:500;font-size:12px;color:var(--muted);letter-spacing:.04em}
+.toc ol{list-style:none;margin:20px 0 0;padding:0;display:grid;gap:2px}
+.toc a{display:flex;gap:10px;align-items:baseline;padding:7px 10px;border-radius:8px;text-decoration:none;color:var(--ink);font-size:14px}
+.toc a .n{font-family:var(--f-data);font-size:11px;color:var(--muted);min-width:18px}
+.toc a[aria-current="page"]{background:var(--brand-soft);color:var(--brand);font-weight:700}
+.toc a .badge{margin-left:auto;font-family:var(--f-data);font-size:11px;background:var(--memo);color:var(--memo-ink);border-radius:99px;padding:0 7px}
+.toc .meta{margin-top:20px;font-size:12px;color:var(--muted);line-height:1.6}
+main{padding-block:32px 80px;padding-inline:clamp(16px,4vw,56px);min-width:0}
+.page{max-width:920px}
+.eyebrow{font-family:var(--f-data);font-size:12px;letter-spacing:.08em;color:var(--brand);text-transform:uppercase}
+h1{font-family:var(--f-display);font-weight:900;font-size:clamp(26px,3.4vw,36px);line-height:1.3;margin:4px 0 12px;text-wrap:balance}
+h2{font-family:var(--f-display);font-weight:700;font-size:21px;line-height:1.4;margin:40px 0 10px;text-wrap:balance;display:flex;gap:10px;align-items:baseline;flex-wrap:wrap}
+h3{font-size:16px;margin:24px 0 6px}
+p{margin:0 0 12px;max-width:68ch}
+.lead{font-size:17px;max-width:62ch}
+.lead strong{background:linear-gradient(transparent 60%,var(--memo) 60%)}
+.grid{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(200px,1fr))}
+.tile{background:var(--sheet);border:1px solid var(--rule);border-radius:12px;padding:14px 16px;min-width:0}
+.tile .k{font-size:12px;color:var(--muted)} .tile .v{font-family:var(--f-data);font-size:26px;font-weight:500;font-variant-numeric:tabular-nums;line-height:1.3} .tile .s{font-size:12px;color:var(--muted)}
+.tbl{overflow-x:auto;border:1px solid var(--rule);border-radius:10px;background:var(--sheet);margin:8px 0 16px}
+table{border-collapse:collapse;width:100%;font-size:14px;min-width:560px}
+th,td{text-align:left;padding:9px 12px;border-bottom:1px solid var(--rule);vertical-align:top}
+th{font-size:12px;color:var(--muted);font-weight:700;background:var(--paper);white-space:nowrap}
+tr:last-child td{border-bottom:0}
+td.num{font-family:var(--f-data);font-variant-numeric:tabular-nums;text-align:right;white-space:nowrap}
+.pill{display:inline-block;font-size:12px;border-radius:99px;padding:1px 9px;border:1px solid currentColor;white-space:nowrap}
+.pill.ok{color:var(--ok)} .pill.warn{color:var(--warn)} .pill.bad{color:var(--bad)} .pill.info{color:var(--teal)}
+ul.plain{margin:0 0 14px;padding-left:1.2em} ul.plain li{margin:3px 0;max-width:68ch}
+.note{background:var(--teal-soft);border-radius:10px;padding:12px 16px;margin:12px 0;max-width:72ch}
+.ask{background:var(--memo);color:var(--memo-ink);border-radius:10px;padding:12px 16px;margin:12px 0;max-width:72ch}
+.ask b{color:inherit}
+/* 流れ図 */
+.flow{display:grid;gap:10px;counter-reset:st}
+.st{display:grid;grid-template-columns:44px minmax(0,1fr);gap:12px;background:var(--sheet);border:1px solid var(--rule);border-radius:12px;padding:14px 16px}
+.st::before{counter-increment:st;content:counter(st);font-family:var(--f-display);font-weight:900;font-size:22px;color:var(--brand);background:var(--brand-soft);border-radius:10px;display:grid;place-items:center;height:44px}
+.st h3{margin:0 0 4px} .st .who{font-size:12px;color:var(--muted)} .st p{margin:0 0 6px}
+.st .tools{font-family:var(--f-data);font-size:12px;color:var(--teal)}
+/* 予定表 */
+.week{display:grid;grid-template-columns:96px minmax(0,1fr);gap:14px;padding:14px 0;border-top:1px solid var(--rule)}
+.week .d{font-family:var(--f-data);font-size:13px;color:var(--muted);line-height:1.4} .week .d b{display:block;color:var(--ink);font-size:15px}
+.week h3{margin:0 0 4px} .week ul{margin:0;padding-left:1.1em} .week .gate{margin-top:6px;font-size:13px;color:var(--brand)}
+.phase{font-family:var(--f-display);font-weight:700;color:var(--teal);margin:28px 0 0;font-size:15px}
+/* コメント */
+.fb{margin-top:48px;border-top:2px dashed var(--rule);padding-top:20px}
+.fb h2{margin-top:0}
+.fb textarea{width:100%;min-height:96px;font:inherit;border:1px solid var(--rule);border-radius:10px;padding:10px 12px;background:var(--sheet);color:var(--ink);resize:vertical}
+.fb .row{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-top:8px}
+.btn{font:inherit;font-weight:700;border:0;border-radius:9px;padding:8px 16px;background:var(--brand);color:#fff;cursor:pointer}
+.btn.ghost{background:transparent;color:var(--teal);border:1px solid var(--rule);font-weight:500;padding:4px 10px;font-size:12px}
+.btn[disabled]{opacity:.5;cursor:default}
+.status{font-size:12px;color:var(--muted)}
+.thread{display:grid;gap:10px;margin-top:16px}
+.c{background:var(--sheet);border:1px solid var(--rule);border-radius:10px;padding:10px 14px}
+.c .h{font-size:12px;color:var(--muted);display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.c .b{white-space:pre-wrap;margin-top:4px}
+.c .r{margin-top:8px;padding:8px 12px;border-left:3px solid var(--teal);background:var(--teal-soft);border-radius:0 8px 8px 0;white-space:pre-wrap;font-size:14px}
+.anchor-btn{font-size:11px;font-weight:500;color:var(--teal);background:transparent;border:1px solid var(--rule);border-radius:99px;padding:0 9px;cursor:pointer;font-family:var(--f-body)}
+.decide{display:grid;gap:8px;margin:10px 0}
+.decide label{display:grid;grid-template-columns:24px minmax(0,1fr);gap:8px;background:var(--sheet);border:1px solid var(--rule);border-radius:10px;padding:10px 12px;cursor:pointer}
+.decide input{margin-top:5px;width:18px;height:18px;accent-color:var(--brand)}
+.decide small{display:block;color:var(--muted);font-size:12px}
+.offline{font-size:12px;color:var(--warn)}
+@media (max-width:820px){
+  .shell{grid-template-columns:1fr}
+  nav.toc{position:sticky;top:env(safe-area-inset-top,0px);height:auto;z-index:5;border-right:0;border-bottom:1px solid var(--rule);padding:12px 16px}
+  .toc ol{display:flex;overflow-x:auto;gap:4px;margin-top:8px;padding-bottom:4px}
+  .toc a{white-space:nowrap;padding:6px 10px}
+  .toc .meta,.brand small{display:none}
+  .brand{font-size:16px}
+  .week{grid-template-columns:1fr;gap:4px}
+}
+@media (prefers-reduced-motion:no-preference){.page{animation:in .25s ease-out}@keyframes in{from{transform:translateY(4px)}to{transform:none}}}
+</style>
+
+<div class="shell">
+<nav class="toc" aria-label="ページ">
+  <p class="brand">daily-hack 収益化作戦室<small>アフィリエイト戦略を決めて、動かすための場所</small></p>
+  <ol id="toc"></ol>
+  <div class="meta">最終更新 2026-10-12<br>各ページの下にコメント欄があります。書いたものは Claude が読みに行き、返信をそこに付けます。</div>
+</nav>
+<main id="main">
+
+<!-- ============ 1. 全体像 ============ -->
+<section class="page" data-page="home" data-title="全体像">
+  <div class="eyebrow">01 全体像</div>
+  <h1>3 か月で、検索と既存記事からアフィリエイト収益を立ち上げる</h1>
+  <p class="lead">検索からの訪問はまだ<strong>月 30 クリック前後</strong>です。記事を増やすだけでは、3 か月以内に収益はほとんど出ません。そこで、<strong>お金になるまでの早い順</strong>に 3 本の柱を並べ、10 月 13 日の週から 12 週かけて進めます。</p>
+  <div class="grid" style="margin:18px 0">
+    <div class="tile"><div class="k">検索クリック（90 日）</div><div class="v">68</div><div class="s">7/3〜9/30・うち 51 がららぽーと記事</div></div>
+    <div class="tile"><div class="k">実ブラウザの訪問（9 月）</div><div class="v">840</div><div class="s">1 日 30・日本から 421</div></div>
+    <div class="tile"><div class="k">A8 の提携</div><div class="v">69 件</div><div class="s">ほかに審査中のカード 5 件</div></div>
+    <div class="tile"><div class="k">公開記事</div><div class="v">78 本</div><div class="s">成果リンク入りは 25 本</div></div>
+  </div>
+  <h2>3 本の柱</h2>
+  <div class="tbl"><table>
+    <thead><tr><th>柱</th><th>中身</th><th>いつお金になるか</th><th>詳しく</th></tr></thead>
+    <tbody>
+    <tr><td><b>① すぐ入るもの</b></td><td>バリューコマースの LinkSwitch（既存記事の普通のリンクを自動で成果リンクにする）と、A8 のセルフバック</td><td>0〜4 週</td><td><a href="#strategy">戦略</a></td></tr>
+    <tr><td><b>② 読まれている記事の収益化</b></td><td>9 月に読まれた上位 18 本のうち 11 本は成果リンクが 0。読者の次の行動に合う案件を置く</td><td>1〜6 週</td><td><a href="#tactics">戦術</a></td></tr>
+    <tr><td><b>③ 買う人の検索語で勝つ記事</b></td><td>湾岸・タワマンの地域性と、公式の数字のランキングという勝ち型に、光回線・SIM・電気・カード・旅行を掛け合わせる</td><td>3〜12 週</td><td><a href="#schedule">12 週の予定</a></td></tr>
+    </tbody></table></div>
+  <h2>決めてほしいこと <button class="anchor-btn" data-anchor="決めてほしいこと">ここにコメント</button></h2>
+  <p>チェックはこのページを開いた全員で共有され、Claude も読みます。迷うものは、下のコメント欄に理由を書いてください。</p>
+  <div class="decide" id="decide"></div>
+  <p class="offline" id="decide-offline" hidden>チェックの保存先につながっていません。コメント欄に書いてもらえれば同じように読みます。</p>
+</section>
+
+<!-- ============ 2. 現状 ============ -->
+<section class="page" data-page="now" data-title="現状の数字" hidden>
+  <div class="eyebrow">02 現状の数字</div>
+  <h1>読まれている記事ほど、稼ぐ仕掛けが入っていない</h1>
+  <p class="lead">検索の表示は直近 4 週で 1,311 回と、その前の 4 週（726 回）の 1.8 倍に伸びています。一方で、<strong>9 月に読まれた上位 18 本のうち 11 本は成果リンクが 0</strong> です。</p>
+  <h2>検索（Google Search Console） <button class="anchor-btn" data-anchor="検索の数字">ここにコメント</button></h2>
+  <div class="tbl"><table>
+    <thead><tr><th>記事</th><th>クリック</th><th>表示</th><th>平均順位</th><th>成果リンク</th></tr></thead>
+    <tbody>
+    <tr><td>ららぽーと 売上ランキング</td><td class="num">51</td><td class="num">1,137</td><td class="num">8.1</td><td><span class="pill bad">なし</span></td></tr>
+    <tr><td>東京湾大華火祭 2026</td><td class="num">1</td><td class="num">135</td><td class="num">10.6</td><td><span class="pill bad">なし</span></td></tr>
+    <tr><td>アウトレットモール ガイド</td><td class="num">3</td><td class="num">106</td><td class="num">11.2</td><td><span class="pill bad">なし</span></td></tr>
+    <tr><td>湾岸のスーパー</td><td class="num">2</td><td class="num">85</td><td class="num">7.0</td><td><span class="pill warn">主題とずれた電気・ガス 6 種</span></td></tr>
+    <tr><td>ふるさと納税 2026 改正ガイド</td><td class="num">0</td><td class="num">78</td><td class="num">8.2</td><td><span class="pill bad">なし（ふるなび等は報酬なしの直リンク）</span></td></tr>
+    <tr><td>湾岸タワー建設マップ</td><td class="num">2</td><td class="num">53</td><td class="num">6.5</td><td><span class="pill bad">なし</span></td></tr>
+    <tr><td>お台場ドローンショー</td><td class="num">0</td><td class="num">51</td><td class="num">5.2</td><td><span class="pill bad">なし</span></td></tr>
+    <tr><td>成田・羽田 海外直行便</td><td class="num">0</td><td class="num">38</td><td class="num">7.1</td><td><span class="pill bad">なし</span></td></tr>
+    </tbody></table></div>
+  <p style="font-size:13px;color:var(--muted)">期間 2026-07-03〜09-30（90 日）。出典：Search Console の全件ダンプ（Mac の t205・10/4 生成）、9 月の訪問は ops/pv-archive。</p>
+  <h2>いま勝てている型・負けている型</h2>
+  <div class="grid">
+    <div class="tile"><div class="k">勝てている</div><p style="margin:6px 0 0"><b>公式の数字を並べたランキング</b>。「ららぽーと 売上ランキング」は 7〜8 位で、検索クリックの 75% を占めます。競合が書いていない切り口で、数字の寿命が年単位のもの。</p></div>
+    <div class="tile"><div class="k">負けている</div><p style="margin:6px 0 0"><b>大手と同じ話題の速報</b>。PayPay 改悪・値上げ一覧は 20〜100 位。<b>価格・キャンペーンのように数字の寿命が月単位の記事</b>は、45 本の中で軒並み沈んでいます。</p></div>
+    <div class="tile"><div class="k">取りこぼし</div><p style="margin:6px 0 0">4〜10 位に 53 記事が並び、CTR は 2.4%。<b>1 ページ目の下にいる記事のクリック率を上げる</b>だけで流入が増える余地があります。</p></div>
+  </div>
+  <h2>収益の仕掛けの現状</h2>
+  <div class="tbl"><table>
+    <thead><tr><th>仕掛け</th><th>状態</th><th>メモ</th></tr></thead>
+    <tbody>
+    <tr><td>A8 の成果リンク</td><td><span class="pill ok">28 記事・192 か所</span></td><td>一部は自動挿入（banner-fill）で、主題とずれた電気・ガスが入っている</td></tr>
+    <tr><td>楽天アフィリエイト</td><td><span class="pill info">1 記事</span></td><td>10/11 にポイント記事へ Edy-楽天ポイントカード。トラベル・ふるさと納税は ID 待ち</td></tr>
+    <tr><td>バリューコマース</td><td><span class="pill warn">0 記事</span></td><td>提携 3 件。LinkSwitch 未導入</td></tr>
+    <tr><td>もしも</td><td><span class="pill warn">0 記事</span></td><td>提携 2 件・記事に合うもの無し</td></tr>
+    <tr><td>紹介コード</td><td><span class="pill ok">楽天カード・リクルートカード等</span></td><td>src/data/referrals.ts。三井住友カード（NL）は停止中</td></tr>
+    <tr><td>忍者AdMAX</td><td><span class="pill ok">5 枠</span></td><td>1 クリック 1〜3 円。本文中 2 枠は未登録</td></tr>
+    <tr><td>AdSense</td><td><span class="pill bad">未稼働</span></td><td>配線済み。審査の申請待ち</td></tr>
+    </tbody></table></div>
+</section>
+
+<!-- ============ 3. ASP ============ -->
+<section class="page" data-page="asp" data-title="ASP と案件" hidden>
+  <div class="eyebrow">03 ASP と案件</div>
+  <h1>在庫は通信と旅行に偏り、カードとふるさと納税が空いている</h1>
+  <p class="lead">4 社とも Mac の Keychain だけで自動ログインでき、毎週月曜 6:12 に提携状況を自動で読みます（LLM 不使用・$0）。<strong>読者が多いふるさと納税・カード比較に、使える成果案件がまだありません。</strong></p>
+  <h2>4 社の状態 <button class="anchor-btn" data-anchor="4社の状態">ここにコメント</button></h2>
+  <div class="tbl"><table>
+    <thead><tr><th>ASP</th><th>自動ログイン</th><th>提携中</th><th>審査中・未完了</th><th>使い道</th></tr></thead>
+    <tbody>
+    <tr><td><b>A8.net</b>（法人）</td><td><span class="pill ok">できる</span></td><td class="num">69</td><td>カード 5 件（10/11 申請）</td><td>通信・旅行・電気・買取・ポイ活。セルフバックあり</td></tr>
+    <tr><td><b>楽天アフィリエイト</b>（個人口座）</td><td><span class="pill ok">できる</span></td><td>楽天市場の全商品</td><td>楽天ウェブサービスのアプリ登録（画像認証待ち）</td><td>商品リンクは店ごとに作成。トラベル・ふるさと納税は自分の ID が要る</td></tr>
+    <tr><td><b>バリューコマース</b></td><td><span class="pill ok">できる</span></td><td class="num">3</td><td>—</td><td>Yahoo!ショッピング・Liigo・ニーズツアー。LinkSwitch が切り札</td></tr>
+    <tr><td><b>もしもアフィリエイト</b></td><td><span class="pill ok">できる</span></td><td class="num">2</td><td>—</td><td>かんたんリンク（Amazon・楽天・Yahoo を 1 枚に）</td></tr>
+    </tbody></table></div>
+  <h2>A8 の提携 69 件の内訳</h2>
+  <div class="tbl"><table>
+    <thead><tr><th>ジャンル</th><th>件数</th><th>合う記事</th></tr></thead>
+    <tbody>
+    <tr><td>光回線</td><td class="num">15</td><td>タワマン・引っ越し・在宅ワーク</td></tr>
+    <tr><td>モバイル回線・WiFi・SIM</td><td class="num">12</td><td>格安 SIM 比較・乗り換え手順</td></tr>
+    <tr><td>旅行（ホテル・パッケージ・航空券・レンタカー 他）</td><td class="num">18</td><td>成田羽田の直行便・格安リゾート・連休旅</td></tr>
+    <tr><td>電気・ガス</td><td class="num">8</td><td>電気代比較・引っ越し</td></tr>
+    <tr><td>買取</td><td class="num">4</td><td>大掃除・引っ越し</td></tr>
+    <tr><td>ポイ活</td><td class="num">3</td><td>ポイントサイト比較</td></tr>
+    <tr><td>カード（法人 ETC・ガソリン）</td><td class="num">3</td><td>個人向けカードは 0</td></tr>
+    <tr><td>事業者向けの資金調達</td><td class="num">2</td><td>記事に合うものは無し</td></tr>
+    <tr><td>ドラッグストアの通販</td><td class="num">1</td><td>日用品・セール</td></tr>
+    </tbody></table></div>
+  <p style="font-size:13px;color:var(--muted)">内訳は既存のバナー台帳（src/data/banner-catalog.ts）のジャンル。<b>69 件すべての案件名・成果報酬・セルフバック可否を Mac で読み取り中</b>（t277・t278）。届き次第この表を差し替えます。</p>
+  <h2>審査中のカード 5 件</h2>
+  <div class="tbl"><table>
+    <thead><tr><th>案件</th><th>成果報酬（広告側）</th><th>自己アフィリ</th></tr></thead>
+    <tbody>
+    <tr><td>三井住友カード（NL）</td><td class="num">4,800 円</td><td><span class="pill ok">可</span></td></tr>
+    <tr><td>TOKYU CARD</td><td class="num">4,135 円</td><td><span class="pill bad">不可</span></td></tr>
+    <tr><td>三井ショッピングパークカード《セゾン》</td><td class="num">3,500 円</td><td><span class="pill bad">不可</span></td></tr>
+    <tr><td>dカード GOLD U</td><td class="num">2,860 円</td><td><span class="pill bad">不可</span></td></tr>
+    <tr><td>WOWOW セゾンカード</td><td class="num">2,632 円</td><td><span class="pill bad">不可</span></td></tr>
+    </tbody></table></div>
+  <h2>取りにいく案件（候補）</h2>
+  <ul class="plain">
+    <li><b>ふるさと納税</b>：ふるなび・さとふる・楽天ふるさと納税。10〜12 月が年の最盛期で、既存記事は表示 78 回・8 位にいるのに成果 0。</li>
+    <li><b>旅行予約</b>：一休・じゃらん・Yahoo!トラベル（バリューコマース）、楽天トラベル。既存記事のリンクが計 47 か所ある。</li>
+    <li><b>個人向けカード</b>：上の 5 件の審査結果待ち。比較記事に入れる本命。</li>
+    <li><b>アクセストレード</b>：格安 SIM・回線に強く、同じ案件でも単価が高いことがある。未登録。</li>
+  </ul>
+  <div class="note">daily-hack-affiliate のセッションに、公開情報からの<b>案件の市場調査</b>（報酬相場・セルフバック上位 20・LinkSwitch 対象の提携条件）を頼んであります（10/12）。結果はこのページに足します。</div>
+</section>
+
+<!-- ============ 4. 記事づくりの流れ ============ -->
+<section class="page" data-page="process" data-title="記事づくりの流れ" hidden>
+  <div class="eyebrow">04 記事づくりの流れ（いま実際に回しているもの）</div>
+  <h1>題材を選んでから告知まで、8 つの工程で 1 本を出している</h1>
+  <p class="lead">工程と道具は、リポジトリの <code>blog-article</code> スキル（1,152 行）に固定してあります。<strong>記事を書く前に必ずこのスキルを読む</strong>のが最上位ルール 6 です。</p>
+  <div class="flow">
+    <div class="st"><div><h3>題材を選ぶ</h3><div class="who">Claude（blog）が案を出し、あなたが選ぶ</div>
+      <p>Google トレンドだけで選ばない（10/4 に「浅すぎる」と差し戻し）。X の実機・Yahoo!リアルタイム・はてブ・YouTube・Threads を横断し、各案に「どこで・どれだけ反応があったか」を数字とリンクで付ける。<b>数字の賞味期限</b>を見る：店舗数・面積・決算は年単位で強い、価格・キャンペーンは月単位で沈む。比較の軸が 1 本しかない題材（回転寿司の 1 皿の値段など）は避ける。</p>
+      <div class="tools">ops/tasks/t230-sns-trends.sh ／ trends24 ／ b.hatena.ne.jp ／ GSC ダンプ</div></div></div>
+    <div class="st"><div><h3>素材を取る</h3><div class="who">Mac（ops/tasks）が取り、Claude が目で見て選ぶ</div>
+      <p>公式サイト → プレスリリース（PR TIMES）→ Wikimedia Commons の順。<b>og:image を当てにしない</b>（6 施設中 5 枚がロゴやバナーだった）。サイズが揃った画像はバナーと疑う。X の投稿は syndication API、YouTube は oEmbed で実在と題名を照合する。</p>
+      <div class="tools">fetch-commons-photo.py ／ t115（ロゴを名前で探す）／ syndication API</div></div></div>
+    <div class="st"><div><h3>書く</h3><div class="who">Claude（blog）</div>
+      <p>冒頭は「読者の疑問 2 つ → 検索しても出てこない → だから作った → ハッカー子の一番の驚き」。<b>30 秒で分かる写真カード 6 枚</b>、対象が複数なら<b>1 対象 1 節</b>（15 施設なら 15 節）、見出しに検索語、ブランド名の左にロゴ、X の実投稿と YouTube、本文中に関連記事 2 か所。期限のあるものは上に置き、「終了」とは書かない。制作の裏側（取れなかった等）は書かない。</p>
+      <div class="tools">event-pick ／ spec-table ／ cmp-table ／ brand-logo ／ related-block</div></div></div>
+    <div class="st"><div><h3>画像を作る</h3><div class="who">Claude（このセッション内で完結）</div>
+      <p>アイキャッチは 1600×900 の<b>全面タイル＋透過の暗幕＋タイトル</b>。左上・左下に静かな写真、右上に目を引く写真。サブタイトルは事実の羅列ではなく「読む理由」。できた画像は必ず開いて見る（8/22 に裸体の木版画が表紙候補になった）。</p>
+      <div class="tools">gen-mosaic-hero.py ／ IPA ゴシック ／ Pillow</div></div></div>
+    <div class="st"><div><h3>検査する</h3><div class="who">Claude</div>
+      <p>build が通っても型検査は落ちる。<code>npm run build</code> → <code>astro check</code> → 記事 UX 検査 → 太字崩れ検査 → アンカー切れの機械照合 → スマホ幅の描画を見る。build が落ちても検査は古い dist で通ってしまうので、Complete! を先に確認する。</p>
+      <div class="tools">check-article-ux.py ／ check-md-bold.py ／ check-logos.mjs</div></div></div>
+    <div class="st"><div><h3>公開する</h3><div class="who">Claude が PR → CI → マージ</div>
+      <p>公開の可否は聞かなくてよい。<b>報告にはプレビュー URL（記事パス付き）を必ず付け、レビューのお願いの形で出す</b>。あなたはプレビューのページに直接指摘を書き込み、Claude が読みに行く。</p>
+      <div class="tools">PR の bot コメント → https://&lt;8 桁&gt;.daily-hack.pages.dev/posts/&lt;slug&gt;/</div></div></div>
+    <div class="st"><div><h3>X で告知する</h3><div class="who">tweet2 のセッションが文面と画像を作り、あなたが承認、OpenClaw が投稿</div>
+      <p>blog 側は <code>docs/cross-session-requests.md</code> に記事 URL・要点 3 つ・画像を書いて頼むだけ。<b>画像を見たうえでの 👍 が無ければ投稿しない</b>。既定は 2 投稿のスレッド（1 本目に画像 4 枚）。</p>
+      <div class="tools">x-post-copy ／ x-post-images ／ レビューページ</div></div></div>
+    <div class="st"><div><h3>更新し続ける</h3><div class="who">Mac の定期ジョブ（毎日 5:30）と Claude</div>
+      <p>期限切れの語を含む記事から順に、出典 URL 付きの更新案 PR を毎日 1 本作る（約 $2.1/月の推定・実額は refresh-state.json）。毎月 4 日にアクセス分析を自動で回す（$0）。</p>
+      <div class="tools">refresh-daily.sh ／ check-stale-wording.py ／ access-analysis ルーティン</div></div></div>
+  </div>
+  <h2>アフィリエイト記事で、この流れに足すもの <button class="anchor-btn" data-anchor="流れに足すもの">ここにコメント</button></h2>
+  <ul class="plain">
+    <li><b>題材を選ぶ段</b>：「読者の次の行動」と「提携済みの案件」が重なるかを最初に確かめる。重ならない題材はクリック広告で受ける前提で書く。</li>
+    <li><b>書く段</b>：成果リンクの置き場所を型で決める（戦術ページ）。記事を <code>isPR: true</code> にする。</li>
+    <li><b>公開後</b>：ASP のクリック数・発生・承認を週次で記事別に見る（計測ページ）。</li>
+  </ul>
+</section>
+
+<!-- ============ 5. ルールと教訓 ============ -->
+<section class="page" data-page="rules" data-title="ルールと教訓" hidden>
+  <div class="eyebrow">05 ルールと教訓</div>
+  <h1>22 の最上位ルールは、どれも一度の事故から生まれている</h1>
+  <p class="lead">リポジトリの <code>CLAUDE.md</code> にある「最上位ルール」の要約です。<strong>収益化の作業でも全部そのまま効きます。</strong>違和感のある行には、そこにコメントをください。</p>
+  <h2>最上位ルール（要約） <button class="anchor-btn" data-anchor="最上位ルール">ここにコメント</button></h2>
+  <div class="tbl"><table>
+    <thead><tr><th>#</th><th>ルール</th><th>きっかけ</th></tr></thead>
+    <tbody>
+    <tr><td class="num">1</td><td>残作業があれば、次の一手をダイアログで出す。ただし答えが手元にある問いは出さない</td><td>9/12・9/26</td></tr>
+    <tr><td class="num">2</td><td>API 課金は着手前に見積もって確認。反復ジョブは 1 回・1 日・1 か月の費用を必ず併記</td><td>実績の 10〜20 倍の上限値を実績のように出した</td></tr>
+    <tr><td class="num">3</td><td>会話の中だけに状況を残さない。CLAUDE.md と引き継ぎメモに書く</td><td>環境が予告なく消える</td></tr>
+    <tr><td class="num">4</td><td>X への投稿は OpenClaw。草案はチャットに出し、画像を見た 👍 が無ければ投稿しない</td><td>8/29・9/5（Slack 草案で数十分の遅れ）</td></tr>
+    <tr><td class="num">5</td><td>役割の外は触らない。気づいたら依頼として書く</td><td>8/16 に同じファイルで衝突 2 回</td></tr>
+    <tr><td class="num">6</td><td>記事は blog-article スキルを読んでから</td><td>8/22 に無関係の表紙で公開</td></tr>
+    <tr><td class="num">7</td><td>X の返信は x-reply-style を読んでから</td><td>8/27「ヒヤヒヤするコメント」</td></tr>
+    <tr><td class="num">8</td><td>X の画像は x-post-images。出所の行は画像に出さず、CC BY は画像の説明（ALT）に書く</td><td>8/30・9/20・10/11</td></tr>
+    <tr><td class="num">9</td><td>待たなくていい時間を作らない（定時を待たず手で起動する）</td><td>9/5</td></tr>
+    <tr><td class="num">10</td><td>本文中の関連記事 2 か所と広告枠を満たす</td><td>9/5</td></tr>
+    <tr><td class="num">11</td><td>「出た件数」は一次情報（投稿 URL・キューの ID）でしか報告しない</td><td>9/6 に事実でない報告 3 回</td></tr>
+    <tr><td class="num">12</td><td>ops/tasks の PR はその場でマージまで見届ける</td><td>9/10 に 2 日放置</td></tr>
+    <tr><td class="num">13</td><td>rc=0 は「やった」証拠にならない。結果の状態を別の口で確かめる</td><td>9/12・9/20</td></tr>
+    <tr><td class="num">14</td><td>Linux で確かめても Mac で確かめたことにならない</td><td>9/13 に 2 回</td></tr>
+    <tr><td class="num">15</td><td>1 タスク 5 分以内。測るものと直すものを分ける</td><td>9/13 に監視が 49 分止まる</td></tr>
+    <tr><td class="num">16</td><td>記事は公開してよいが、プレビュー URL を必ず一緒に出す</td><td>9/12「フィードバックできない」</td></tr>
+    <tr><td class="num">17</td><td>ブランド名の左にロゴ（もれなく全て）</td><td>9/4・9/20</td></tr>
+    <tr><td class="num">18</td><td>承認済みの文面・画像は、名指しで指示されるまで触らない</td><td>9/22</td></tr>
+    <tr><td class="num">19</td><td>X はフォロー／フォロワー比 0.45〜0.65 を保つ。片思いは 24 時間で外す</td><td>9/28・10/4</td></tr>
+    <tr><td class="num">20</td><td>読めなかったら読む方法を探す。自分で考えて埋めない</td><td>10/1</td></tr>
+    <tr><td class="num">21</td><td>レポートは md で渡さず、開けば見られる形（このサイトもこれ）</td><td>10/3</td></tr>
+    <tr><td class="num">22</td><td>説明はすべて日本語で</td><td>10/5</td></tr>
+    </tbody></table></div>
+  <h2>スキル（手順書）</h2>
+  <div class="tbl"><table>
+    <thead><tr><th>スキル</th><th>使う場面</th><th>中心になっている知恵</th></tr></thead>
+    <tbody>
+    <tr><td>blog-article（1,152 行）</td><td>記事の作成・リライト・画像</td><td>勝ち記事 3 本を真似る／1 対象 1 節／数字の賞味期限／ロゴを名前で探す／制作の裏側を書かない</td></tr>
+    <tr><td>x-post-copy（749 行）</td><td>X の投稿文</td><td>投稿スタイル 15 型から 1 つ選ぶ／声は記事の実物から引く／X の重み 280（和文 1 字 2）</td></tr>
+    <tr><td>x-post-images（337 行）</td><td>X の正方形画像</td><td>1080×1080／同じ画像を 2 度使わない／2 枚目以降は実物写真</td></tr>
+    <tr><td>x-reply-style（314 行）</td><td>他人への返信</td><td>「あんたバカぁ？」は自分の TL だけ／相手の損・失敗には当てない</td></tr>
+    </tbody></table></div>
+  <h2>アフィリエイトで学んだこと（10/5〜10/12）</h2>
+  <div class="tbl"><table>
+    <thead><tr><th>日付</th><th>起きたこと</th><th>いまの決まり</th></tr></thead>
+    <tbody>
+    <tr><td>10/5</td><td>「何にも僕にメリットない」— 紹介リンクを入れず記事を出した</td><td>サービスを紹介したら、提携・紹介リンクを必ず当たる。入れたら isPR: true</td></tr>
+    <tr><td>10/5</td><td>A8 の 404 や楽天の入口を「ログイン済み」と誤判定</td><td>ログアウトのリンクが見えたときだけログイン済みとみなす</td></tr>
+    <tr><td>10/11</td><td>楽天の自動ログインが止まる → 原因は Keychain のパスワード違い</td><td>登録し直すときは消してから入れる（-U で上書きしない）</td></tr>
+    <tr><td>10/11</td><td>調査の報告に会社名・会員名が載った</td><td>公開ブランチに出す報告は会社名・氏名・契約 ID を自動で落とす</td></tr>
+    <tr><td>10/11</td><td>楽天の商品リンクの ID は店ごとに違う</td><td>別の店の商品へ ID を使い回さない</td></tr>
+    <tr><td>9/6</td><td>収益化の勝ち筋を調査</td><td>クリック広告は AdSense が天井。本命は成果報酬。セルフバックは一時金として別に数える</td></tr>
+    <tr><td>9/6</td><td>ふるさと納税の宣伝規制</td><td>2024-10 から返礼品を強調した広告は禁止。書き方に制約がある</td></tr>
+    </tbody></table></div>
+</section>
+
+<!-- ============ 6. 他ブログの分析 ============ -->
+<section class="page" data-page="competitors" data-title="他ブログの分析" hidden>
+  <div class="eyebrow">06 他ブログの分析</div>
+  <h1>同じジャンルで稼いでいる個人ブログを、記事の型まで分解する</h1>
+  <p class="lead">光回線・格安 SIM・ポイ活・カード・ふるさと納税・旅行予約・地域×生活の 7 ジャンルで、<strong>検索上位の個人・小規模ブログを 2〜3 サイトずつ</strong>開いて読んでいます（10/12 着手）。</p>
+  <div class="note">調べている項目：記事の型と h2 の並び／成果リンクの置き場所と数・ボタンの文言／使っている ASP／推している案件とその訴求（キャッシュバック額など）／差別化（実体験写真・独自調査・計算ツール・地域性）／PR 表記の位置。最後に、daily-hack が真似できる型トップ 10 と、避けるべき型をまとめます。</div>
+  <h2>すでに分かっている勝ちパターン（daily-hack-affiliate の 9/27 の分析）</h2>
+  <ol class="plain">
+    <li><b>大手の新サービス</b>：検索需要が急に生まれるのに、記事がまだ少ない。</li>
+    <li><b>初動の速さ</b>：公開から数日〜2 週間で上位を取る。</li>
+    <li><b>SNS との相性</b>：X・Threads で広がる題材。</li>
+    <li><b>収益は別の導線</b>：新サービス自体の報酬は薄い。集めた人を、確実に報酬が出る案件へ流す。</li>
+  </ol>
+  <p>この型を daily-hack に当てはめると、「大手の新サービス」の代わりに<b>湾岸の新施設・新制度</b>（IKEA 豊洲・高輪ゲートウェイシティ・ふるさと納税の改正）が入口になり、出口に旅行予約・ふるさと納税・回線の案件を置く形になります。</p>
+</section>
+
+<!-- ============ 7. 戦略 ============ -->
+<section class="page" data-page="strategy" data-title="戦略" hidden>
+  <div class="eyebrow">07 戦略</div>
+  <h1>大手と同じ土俵に立たず、湾岸の地元感と公式の数字で勝つ</h1>
+  <p class="lead">「光回線 おすすめ」のような検索語は大手の比較メディアが独占しています。daily-hack が勝てているのは<strong>地域（湾岸・タワマン）と、公式の数字を並べたランキング</strong>です。この 2 つを入口にして、出口に成果案件を置きます。</p>
+  <h2>柱 ① すぐ入るもの（0〜4 週） <button class="anchor-btn" data-anchor="柱1">ここにコメント</button></h2>
+  <ul class="plain">
+    <li><b>バリューコマース LinkSwitch</b>：サイトにタグを 1 本入れるだけで、既存記事にある<b>ふるなび 29・一休 17・じゃらん 16・Yahoo!トラベル 14 か所</b>の普通のリンクが成果リンクに変わります。前提は各広告主との提携（申請はあなたの OK を取ってから）。</li>
+    <li><b>A8 のセルフバック</b>：あなた自身が申し込んで報酬を受け取る公式の仕組み。<b>一時金なので、継続収益とは別に数えます。</b>候補一覧は 69 件の読み取りが終わったら作ります。</li>
+    <li><b>カード 5 件の審査</b>：通れば、クレカ比較・ポイ活記事の本命になります。</li>
+  </ul>
+  <h2>柱 ② 読まれている記事の収益化（1〜6 週）</h2>
+  <div class="tbl"><table>
+    <thead><tr><th>記事</th><th>読者の次の行動</th><th>置くもの</th></tr></thead>
+    <tbody>
+    <tr><td>ふるさと納税 2026 改正ガイド</td><td>どのサイトで寄付するか決める</td><td>ふるなび・さとふる・楽天ふるさと納税（10〜12 月が最盛期）</td></tr>
+    <tr><td>成田・羽田 海外直行便／格安リゾート</td><td>航空券・ホテルを取る</td><td>一休・じゃらん・楽天トラベル・A8 の旅行 18 件</td></tr>
+    <tr><td>湾岸タワー建設マップ</td><td>引っ越し・入居準備</td><td>光回線・電気・引っ越し見積もり</td></tr>
+    <tr><td>ポイントサービス徹底分析</td><td>ポイントサイト・カードに登録</td><td>モッピー・ハピタス等（済）＋審査中のカード</td></tr>
+    <tr><td>ららぽーと・アウトレット</td><td>出かける（申し込む物が無い）</td><td>クリック広告で受ける。駐車場予約・ホテルなど周辺の行動に合う案件を探す</td></tr>
+    </tbody></table></div>
+  <h2>柱 ③ 買う人の検索語で勝つ新記事（3〜12 週）</h2>
+  <ul class="plain">
+    <li><b>地域 × 生活の申し込み</b>：「豊洲 タワマン 光回線」「晴海フラッグ 引っ越し 手続き」のように、地域名が入ると大手が書かない検索語になる。</li>
+    <li><b>公式の数字のランキング × 案件</b>：ららぽーとで勝てた型を、通信・電気・ポイ活に持ち込む（例：主要回線の公式発表の速度・料金・工事期間を並べる）。</li>
+    <li><b>時期の山に合わせる</b>：ふるさと納税の締め（12 月）、ブラックフライデー、楽天スーパーSALE、年末年始の旅行予約。</li>
+  </ul>
+  <h2>やらないこと</h2>
+  <ul class="plain">
+    <li>大手が上位を占める総合の「おすすめ」検索語に、正面から記事を出す。</li>
+    <li>価格・キャンペーンの細部を記事の主題にする（数字の寿命が短く、沈んでいる実績がある）。</li>
+    <li>主題とずれた案件を自動で差し込む（スーパーの記事に電気・ガス 6 種、のような状態は直す）。</li>
+    <li>「絶対稼げる」「誰でも」のような断定。カード・金融は YMYL なので運営者情報を厚くする。</li>
+  </ul>
+  <h2>目標の置き方</h2>
+  <p>金額の目標は、69 件の報酬額と他ブログの分析がそろってから、<b>案件ごとの報酬 × 見込みクリック × 成約率</b>で組み立てます。いま数字を置くと根拠のない目標になるためです。それまでは次を追います：成果リンクの入った記事の数、記事別の ASP クリック、検索表示の伸び。</p>
+</section>
+
+<!-- ============ 8. 戦術 ============ -->
+<section class="page" data-page="tactics" data-title="戦術" hidden>
+  <div class="eyebrow">08 戦術</div>
+  <h1>記事の型を 5 つに絞り、成果リンクの置き場所を型ごとに決める</h1>
+  <p class="lead">型が決まっていれば、記事ごとに迷わず、効いた・効かないも比べられます。<strong>どの型でも、ハッカー子の声と一次情報（公式の数字・実物の写真・実投稿）は外しません。</strong></p>
+  <h2>記事の 5 つの型 <button class="anchor-btn" data-anchor="記事の型">ここにコメント</button></h2>
+  <div class="tbl"><table>
+    <thead><tr><th>型</th><th>検索語の例</th><th>骨組み（h2）</th><th>成果リンクの置き場所</th></tr></thead>
+    <tbody>
+    <tr><td><b>A 地域 × 申し込み</b></td><td>豊洲 タワマン 光回線</td><td>結論 → 建物ごとに使える回線 → 料金と工事 → 申し込み手順 → よくある質問</td><td>結論の直下・比較表の各行・手順の最後</td></tr>
+    <tr><td><b>B 公式の数字のランキング</b></td><td>光回線 速度 ランキング 公式</td><td>30 秒で分かる → ランキング表 → 1 社 1 節 → 数字が割れる理由 → 選び方</td><td>各節の末尾・まとめ</td></tr>
+    <tr><td><b>C 時期の山の攻略</b></td><td>ふるさと納税 12月 駆け込み</td><td>期限（上に）→ 何が得か → サイト別の比較 → 手順</td><td>期限の直下・比較表・手順</td></tr>
+    <tr><td><b>D 体験レビュー</b></td><td>ポイントサイト 実績 1年</td><td>実績の画面 → 使い方 → 良い点・悪い点 → 向く人</td><td>実績の直下・向く人の直下</td></tr>
+    <tr><td><b>E 既存記事への導線</b></td><td>（既存の検索語）</td><td>本文は変えず、読者の次の行動の位置に 1 か所</td><td>次の行動を書いた段落の直後</td></tr>
+    </tbody></table></div>
+  <h2>成果リンクの置き方の決まり</h2>
+  <ul class="plain">
+    <li>1 記事の成果リンクは<b>主題に合うものだけ</b>。合わないものは置かない（クリック広告に任せる）。</li>
+    <li>ボタンの文言は行動で書く（「公式サイトで料金を見る」）。煽らない。</li>
+    <li>記事冒頭に PR 表記（ステマ規制）。フロントマターは <code>isPR: true</code>。</li>
+    <li>価格・ポイント倍率は「◯月◯日時点」を併記し、更新ジョブの対象語に入れる。</li>
+    <li>ふるさと納税は返礼品を強調した宣伝をしない（2024-10 以降の規制）。</li>
+    <li>楽天の商品リンクは店ごとに作成画面から取る。ASP の台帳（docs/affiliate-registry.md）に記録する。</li>
+  </ul>
+  <h2>X の投稿との組み合わせ</h2>
+  <p>X では記事の「一番の驚き」を出し、成果リンクは記事側に置きます。X に成果リンクを直接貼る場合は、各 ASP に X をメディアとして登録してから（A8・もしも・バリューコマースは可）。</p>
+</section>
+
+<!-- ============ 9. 12 週の予定 ============ -->
+<section class="page" data-page="schedule" data-title="12 週の予定" hidden>
+  <div class="eyebrow">09 12 週の予定（2026-10-13 〜 2027-01-03）</div>
+  <h1>前半は既存資産の収益化、後半は時期の山を取りにいく</h1>
+  <p class="lead">各週の終わりに、このページで判断をもらう点（ゲート）を置きます。<strong>セール日程は例年の傾向で、確定したら差し替えます。</strong></p>
+  <div class="phase">第 1 段 既存資産の収益化（1〜4 週）</div>
+  <div class="week"><div class="d"><b>1 週</b>10/13〜10/19</div><div><h3>仕掛けを入れる</h3><ul>
+    <li>A8 の提携 69 件の台帳を完成（名前・報酬・セルフバック可否）</li>
+    <li>バリューコマースでふるなび・一休・じゃらん・Yahoo!トラベルへ提携申請 → LinkSwitch のタグを導入</li>
+    <li>主題とずれた自動挿入（スーパー記事の電気・ガス等）を外す</li>
+    <li>他ブログの分析・案件の市場調査を反映</li></ul>
+    <div class="gate">ゲート：LinkSwitch とセルフバックの実行可否</div></div></div>
+  <div class="week"><div class="d"><b>2 週</b>10/20〜10/26</div><div><h3>読まれている記事に導線を置く（型 E）</h3><ul>
+    <li>ふるさと納税・旅行・タワー建設マップ・ポイ活の 6〜8 本に、合う案件を 1〜3 か所</li>
+    <li>4〜10 位にいる記事のタイトルと説明文を、クリックされる形に直す</li></ul>
+    <div class="gate">ゲート：置いた案件の選び方の確認</div></div></div>
+  <div class="week"><div class="d"><b>3 週</b>10/27〜11/2</div><div><h3>新記事 ① 型 A</h3><ul>
+    <li>湾岸タワマンで使える光回線（建物別）— A8 の光回線 15 件</li></ul>
+    <div class="gate">ゲート：記事のプレビューのレビュー</div></div></div>
+  <div class="week"><div class="d"><b>4 週</b>11/3〜11/9</div><div><h3>新記事 ② 型 C</h3><ul>
+    <li>ふるさと納税 年末の駆け込み（サイト別のポイント還元と期限）</li></ul>
+    <div class="gate">ゲート：1 か月目の数字の振り返り（計測ページ）</div></div></div>
+  <div class="phase">第 2 段 時期の山（5〜9 週）</div>
+  <div class="week"><div class="d"><b>5 週</b>11/10〜11/16</div><div><h3>新記事 ③ 型 B</h3><ul>
+    <li>格安 SIM の公式数字ランキング（料金・速度の公式発表を並べる）</li></ul></div></div>
+  <div class="week"><div class="d"><b>6 週</b>11/17〜11/23</div><div><h3>ブラックフライデー（例年 11 月下旬）</h3><ul>
+    <li>湾岸の商業施設＋ネット（楽天・Yahoo!）の攻略。楽天の商品リンクとかんたんリンク</li></ul></div></div>
+  <div class="week"><div class="d"><b>7 週</b>11/24〜11/30</div><div><h3>年末年始の旅行予約（型 C）</h3><ul>
+    <li>一休・じゃらん・楽天トラベルの比較と早割の期限</li></ul></div></div>
+  <div class="week"><div class="d"><b>8 週</b>12/1〜12/7</div><div><h3>楽天スーパーSALE（例年 12 月上旬）</h3><ul>
+    <li>買い回りの組み立て（ポイント記事からの導線）</li></ul>
+    <div class="gate">ゲート：2 か月目の振り返りと後半の配分</div></div></div>
+  <div class="week"><div class="d"><b>9 週</b>12/8〜12/14</div><div><h3>ふるさと納税 締め切り直前</h3><ul>
+    <li>既存のふるさと納税 2 本を更新し、期限を上に</li></ul></div></div>
+  <div class="phase">第 3 段 振り返りと次の四半期（10〜12 週）</div>
+  <div class="week"><div class="d"><b>10 週</b>12/15〜12/21</div><div><h3>反応の良い型をもう 1 本</h3><ul><li>1〜9 週で ASP クリックが多かった型を、別の地域・別のサービスで</li></ul></div></div>
+  <div class="week"><div class="d"><b>11 週</b>12/22〜12/28</div><div><h3>初売り・福袋（湾岸の施設）</h3><ul><li>施設ごとの初売り日程と、ネットの福袋（楽天）</li></ul></div></div>
+  <div class="week"><div class="d"><b>12 週</b>12/29〜1/3</div><div><h3>3 か月の振り返り</h3><ul><li>記事別の成果・承認、効いた型、次の四半期の計画をこのサイトに</li></ul>
+    <div class="gate">ゲート：次の四半期の方針</div></div></div>
+  <h2>毎週の決まった動き</h2>
+  <div class="tbl"><table>
+    <thead><tr><th>いつ</th><th>何が起きるか</th><th>費用</th></tr></thead>
+    <tbody>
+    <tr><td>毎日 5:30</td><td>記事の更新案 PR を 1 本（期限切れの語を含む記事から）</td><td>約 $2.1/月（推定）</td></tr>
+    <tr><td>毎週月曜 6:12</td><td>4 社に自動ログインして提携状況を読む</td><td>$0</td></tr>
+    <tr><td>毎月 4 日 6:52</td><td>アクセス分析（Search Console）</td><td>$0</td></tr>
+    <tr><td>週 1 回</td><td>Claude がこのサイトのコメントを読み、返信と反映</td><td>サブスクリプション枠</td></tr>
+    </tbody></table></div>
+</section>
+
+<!-- ============ 10. X ============ -->
+<section class="page" data-page="x" data-title="X での告知" hidden>
+  <div class="eyebrow">10 X での告知</div>
+  <h1>X は記事への入口。成果リンクは記事側で受ける</h1>
+  <p class="lead">X の運用は tweet2 のセッションの担当で、フォロワーは約 300 人です。<strong>アフィリエイト記事は、記事の一番の驚きを 2 投稿のスレッドで出し、記事へ誘導します。</strong></p>
+  <h2>流れ <button class="anchor-btn" data-anchor="Xの流れ">ここにコメント</button></h2>
+  <ol class="plain">
+    <li>blog 側が記事を公開し、<code>cross-session-requests.md</code> に URL・要点 3 つ・画像を書く。</li>
+    <li>tweet2 が投稿スタイルを 15 型から 1 つ選び、文面と 1080×1080 の画像を作る。</li>
+    <li>あなたがチャットで文面と画像を見て 👍。画像を見ていない承認では投稿しない。</li>
+    <li>OpenClaw が投稿。👍 から 15 分で出ていなければ経路を疑って報告する。</li>
+  </ol>
+  <h2>アフィリエイト記事に合う投稿の型</h2>
+  <ul class="plain">
+    <li><b>計算してみた型</b>：「ふるさと納税、サイトで還元が◯円違う」のように数字で引く。</li>
+    <li><b>損得スレッド型</b>：知らないと損する期限・条件を並べる。</li>
+    <li><b>知らなかったでしょ型</b>：湾岸の新施設・新制度の意外な事実。</li>
+  </ul>
+  <h2>決まり</h2>
+  <ul class="plain">
+    <li>成果リンクを X に貼る投稿には #PR を付ける。ASP に X をメディア登録してから。</li>
+    <li>画像に出所の行は出さない。CC BY の写真は ALT に撮影者名を書く。</li>
+    <li>フォロー／フォロワー比 0.45〜0.65 を崩す施策は出さない。</li>
+  </ul>
+</section>
+
+<!-- ============ 11. 計測 ============ -->
+<section class="page" data-page="measure" data-title="計測と振り返り" hidden>
+  <div class="eyebrow">11 計測と振り返り</div>
+  <h1>週 1 回、記事ごとに「表示 → クリック → ASP クリック → 発生 → 承認」を見る</h1>
+  <p class="lead">収益の天井は流入で決まります。<strong>どの段で落ちているかを記事ごとに見れば、次に直す場所が決まります。</strong></p>
+  <h2>見る数字 <button class="anchor-btn" data-anchor="見る数字">ここにコメント</button></h2>
+  <div class="tbl"><table>
+    <thead><tr><th>段</th><th>数字</th><th>出どころ</th><th>頻度</th></tr></thead>
+    <tbody>
+    <tr><td>見つけられる</td><td>検索表示・平均順位</td><td>Search Console（Mac の GSC ダンプ）</td><td>週</td></tr>
+    <tr><td>選ばれる</td><td>検索クリック・CTR</td><td>同上</td><td>週</td></tr>
+    <tr><td>読まれる</td><td>実ブラウザの訪問（ボット除外）</td><td>Cloudflare（ops/pv-archive）</td><td>週</td></tr>
+    <tr><td>押される</td><td>ASP のクリック（記事別）</td><td>A8・楽天・バリューコマースのレポート（Mac で自動取得を追加予定）</td><td>週</td></tr>
+    <tr><td>申し込まれる</td><td>発生件数・発生額</td><td>同上</td><td>週</td></tr>
+    <tr><td>確定する</td><td>承認件数・承認額</td><td>同上</td><td>月</td></tr>
+    </tbody></table></div>
+  <div class="note">報酬額・会社名・口座は公開リポジトリに出しません。金額は Mac の中か、このサイトのような非公開の場所でだけ扱います。</div>
+  <h2>振り返りのしかた</h2>
+  <ul class="plain">
+    <li>報告する件数は一次情報（ASP の管理画面）だけ。ログやレポートの再集計で言わない。</li>
+    <li>「0 件」は、いつ時点の 0 かを必ず添える。</li>
+    <li>4 週ごとに、型別（A〜E）に成果を並べ、効いた型に次の 4 週を寄せる。</li>
+  </ul>
+</section>
+
+<!-- ============ 12. コメント一覧 ============ -->
+<section class="page" data-page="feedback" data-title="コメント一覧" hidden>
+  <div class="eyebrow">12 コメント一覧</div>
+  <h1>このサイトに付いたコメントと、Claude の返信</h1>
+  <p class="lead">各ページの下や見出しの横から書いたコメントが、ここにまとまります。<strong>返信が付いていないものは、Claude がまだ読んでいないもの</strong>です。</p>
+  <div class="thread" id="all-comments"></div>
+  <p class="status" id="all-empty">まだコメントはありません。各ページの下のコメント欄から書いてください。</p>
+</section>
+
+</main>
+</div>
+
+<template id="fb-tpl">
+  <div class="fb">
+    <h2>このページへのコメント</h2>
+    <p class="status fb-anchor-line" hidden></p>
+    <label class="status" for="">気になる点・違う点・足してほしい点を、一言からどうぞ。</label>
+    <textarea class="fb-text" placeholder="例：柱 ① の LinkSwitch は先にやってよい。セルフバックは来月から。"></textarea>
+    <div class="row"><button class="btn fb-send" type="button">コメントを残す</button><span class="status fb-state"></span></div>
+    <div class="thread fb-list"></div>
+  </div>
+</template>
+
+<script>
+(function(){
+  const DECISIONS = [
+    {id:'pillars', t:'3 本の柱と、その順番で進めてよい', s:'すぐ入るもの → 読まれている記事 → 新記事'},
+    {id:'linkswitch', t:'バリューコマースでふるなび・一休・じゃらん・Yahoo!トラベルに提携申請し、LinkSwitch を入れる', s:'申請はアカウントの操作なので、チェックが付いてから行う'},
+    {id:'selfback', t:'A8 のセルフバックを使う', s:'申し込むのはあなた。候補一覧は Claude が作る'},
+    {id:'remove-mismatch', t:'主題とずれた自動挿入の案件を外す', s:'スーパー・牛丼の記事に入っている電気・ガス 6 種など'},
+    {id:'accesstrade', t:'アクセストレードに登録する', s:'格安 SIM・回線で同じ案件でも単価が高いことがある'},
+    {id:'x-affiliate', t:'X に成果リンクを直接貼る投稿もする', s:'各 ASP に X をメディア登録してから。#PR 必須'},
+    {id:'roles', t:'役割分担：daily-hack-affiliate が調査、このセッションが記事への組み込み', s:''},
+  ];
+  const pages=[...document.querySelectorAll('section.page')];
+  const toc=document.getElementById('toc');
+  pages.forEach((p,i)=>{
+    const li=document.createElement('li'); const a=document.createElement('a');
+    a.href='#'+p.dataset.page; a.innerHTML='<span class="n">'+String(i+1).padStart(2,'0')+'</span><span></span><span class="badge" hidden></span>';
+    a.children[1].textContent=p.dataset.title; a.dataset.page=p.dataset.page; li.appendChild(a); toc.appendChild(li);
+    if(p.dataset.page!=='feedback'){ const fb=document.getElementById('fb-tpl').content.cloneNode(true); const box=fb.querySelector('.fb'); box.dataset.page=p.dataset.page; const id='fb-'+p.dataset.page; box.querySelector('textarea').id=id; box.querySelector('label').htmlFor=id; p.appendChild(fb); }
+  });
+  function show(name){
+    const target=pages.find(p=>p.dataset.page===name)||pages[0];
+    pages.forEach(p=>p.hidden=p!==target);
+    toc.querySelectorAll('a').forEach(a=>a.setAttribute('aria-current', a.dataset.page===target.dataset.page?'page':'false'));
+    try{localStorage.setItem('board-page',target.dataset.page)}catch(e){}
+    window.scrollTo(0,0);
+  }
+  window.addEventListener('hashchange',()=>show(location.hash.slice(1)));
+  let start=location.hash.slice(1); if(!start){try{start=localStorage.getItem('board-page')||''}catch(e){}}
+  show(start);
+
+  // 見出し横の「ここにコメント」→ そのページのコメント欄に見出し名を添えて移動
+  document.addEventListener('click',e=>{
+    const b=e.target.closest('.anchor-btn'); if(!b) return;
+    const page=b.closest('section.page'); const fb=page.querySelector('.fb'); if(!fb) return;
+    fb.dataset.anchor=b.dataset.anchor; const line=fb.querySelector('.fb-anchor-line'); line.hidden=false; line.textContent='「'+b.dataset.anchor+'」へのコメント';
+    fb.scrollIntoView({behavior:'smooth',block:'start'}); fb.querySelector('textarea').focus({preventScroll:true});
+  });
+
+  // 決めてほしいこと（チェックは共有の保存先へ）
+  const decideEl=document.getElementById('decide');
+  DECISIONS.forEach(d=>{ const l=document.createElement('label'); l.innerHTML='<input type="checkbox" id="d-'+d.id+'"><span><b></b><small></small></span>'; l.querySelector('b').textContent=d.t; l.querySelector('small').textContent=d.s; decideEl.appendChild(l); });
+
+  const fmt=ts=>{ try{ const d=new Date(ts); return (d.getMonth()+1)+'/'+d.getDate()+' '+String(d.getHours()).padStart(2,'0')+':'+String(d.getMinutes()).padStart(2,'0'); }catch(e){ return ''; } };
+  const titleOf=k=>{ const p=pages.find(x=>x.dataset.page===k); return p?p.dataset.title:k; };
+  function renderComment(c){
+    const el=document.createElement('div'); el.className='c';
+    const h=document.createElement('div'); h.className='h';
+    const st=document.createElement('span'); st.className='pill '+(c.reply?'ok':'warn'); st.textContent=c.reply?'返信あり':'未読';
+    const where=document.createElement('span'); where.textContent=titleOf(c.page)+(c.anchor?' ／ '+c.anchor:'');
+    const when=document.createElement('span'); when.textContent=fmt(c.createdAt);
+    h.append(st,where,when); el.appendChild(h);
+    const b=document.createElement('div'); b.className='b'; b.textContent=c.body; el.appendChild(b);
+    if(c.reply){ const r=document.createElement('div'); r.className='r'; r.textContent='Claude：'+c.reply; el.appendChild(r); }
+    return el;
+  }
+
+  (async()=>{
+    const db=window.claude&&window.claude.use?await window.claude.use('db'):null;
+    const sends=[...document.querySelectorAll('.fb-send')];
+    if(!db){
+      document.getElementById('decide-offline').hidden=false;
+      decideEl.querySelectorAll('input').forEach(i=>i.disabled=true);
+      sends.forEach(b=>{b.disabled=true; b.nextElementSibling.textContent='保存先につながっていません。チャットで伝えてください。';});
+      return;
+    }
+    // 決定のチェック
+    DECISIONS.forEach(d=>{
+      const box=document.getElementById('d-'+d.id); const ref=db.doc('decisions/'+d.id);
+      ref.onSnapshot(s=>{ const v=s.exists?s.data():null; box.checked=!!(v&&v.checked); },()=>{});
+      box.addEventListener('change',()=>{ ref.set({checked:box.checked,title:d.t,updatedAt:new Date().toISOString()}).catch(()=>{ box.checked=!box.checked; }); });
+    });
+    // コメントの送信
+    sends.forEach(btn=>btn.addEventListener('click',async()=>{
+      const fb=btn.closest('.fb'); const ta=fb.querySelector('textarea'); const state=fb.querySelector('.fb-state');
+      const body=ta.value.trim(); if(!body){ state.textContent='コメントが空です。'; return; }
+      btn.disabled=true; state.textContent='保存しています…';
+      try{ await db.collection('feedback').add({page:fb.dataset.page,anchor:fb.dataset.anchor||'',body,createdAt:new Date().toISOString(),reply:''});
+        ta.value=''; state.textContent='保存しました。Claude が読んで返信します。'; delete fb.dataset.anchor; fb.querySelector('.fb-anchor-line').hidden=true;
+      }catch(e){ state.textContent='保存できませんでした（'+(e&&e.code||'error')+'）。もう一度押すか、チャットで伝えてください。'; }
+      btn.disabled=false;
+    }));
+    // 一覧
+    db.collection('feedback').orderBy('createdAt','desc').onSnapshot(snap=>{
+      const all=snap.docs.map(d=>Object.assign({id:d.id},d.data()));
+      const allEl=document.getElementById('all-comments'); allEl.replaceChildren(...all.map(renderComment));
+      document.getElementById('all-empty').hidden=all.length>0;
+      document.querySelectorAll('.fb').forEach(fb=>{ const mine=all.filter(c=>c.page===fb.dataset.page); fb.querySelector('.fb-list').replaceChildren(...mine.map(renderComment)); });
+      toc.querySelectorAll('a').forEach(a=>{ const n=all.filter(c=>c.page===a.dataset.page && !c.reply).length; const bd=a.querySelector('.badge'); bd.hidden=!n; bd.textContent=n; });
+      const fbBadge=toc.querySelector('a[data-page="feedback"] .badge'); const open=all.filter(c=>!c.reply).length; fbBadge.hidden=!open; fbBadge.textContent=open;
+    },()=>{});
+  })();
+})();
+</script>

@@ -68,6 +68,12 @@
 
 <!-- 新しい記録がこの下に追加される（新しいものが上） -->
 
+### 2026-10-12 — 戦略ボードを Artifact サイト（12 ページ・db でコメントと決定チェック）として作り直し https://claude.ai/artifact/9KWGybrAHF7LtbQdVpw9YN。競合分析はサブエージェント、案件の市場調査は daily-hack-affiliate に依頼（trig_01Nv8DbAxCBcEKhUR7MQFERe）。A8 69 件の読み取り t277/t278
+
+次のアクション:
+
+- [ ] 競合分析・市場調査・t277/278 の結果をサイトに反映し、feedback/decisions を読んで返信
+
 ### 2026-10-12 — アフィリエイト戦略ボード（Claude Docs）を作成。使い方・ASP 状況・サイト現状・結論 v0・決めてほしいことを記入
 
 次のアクション:
