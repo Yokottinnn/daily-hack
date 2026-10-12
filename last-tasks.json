@@ -1,3 +1,3 @@
 [
-      {"task": "x279-run-competitor-verified-now.sh", "rc": 0, "out": "競合の認証済みフォロワーからのフォローを起動した / run-competitor-verified.md"}
+      {"task": "x280-read-competitor-verified.sh", "rc": 0, "out": "競合の認証済みフォロワーからのフォロー結果を読んだ / competitor-verified-result.md"}
   ]
