@@ -175,11 +175,27 @@ jobs:
                 | from_entries' /tmp/resp.json > /tmp/posts.json
             fi
 
+            # --- ページビューとユニークユーザー（2026-10-12 に足した） ---
+            # 無料プランの日次集計（httpRequests1dGroups）はホスト別に絞れない。**ゾーン全体（fieldbeside.com を含む）の数**。
+            # 引けなくても日の記録は止めない。
+            jq -n --arg zone "$zone_id" --arg d "$DAY" '{query:"query($z:String!,$d:Date!){viewer{zones(filter:{zoneTag:$z}){httpRequests1dGroups(limit:1,filter:{date:$d}){sum{pageViews requests} uniq{uniques}}}}}", variables:{z:$zone,d:$d}}' > /tmp/bodyz.json
+            curl -s https://api.cloudflare.com/client/v4/graphql \
+              -H "Authorization: Bearer ${CF_TOKEN}" -H "Content-Type: application/json" \
+              --data-binary @/tmp/bodyz.json > /tmp/resz.json || true
+            zerr=$(jq -r '(.errors // []) | map(.message) | join(" / ")' /tmp/resz.json 2>/dev/null || echo "応答が JSON でない")
+            if [ -n "$zerr" ]; then
+              printf '::warning::%s ページビュー・UU が引けない（従来の集計は積む）: %.200s\n' "$DAY" "$zerr"
+              echo 'null' > /tmp/zone.json
+            else
+              jq '(.data.viewer.zones[0].httpRequests1dGroups[0] // null) | if . == null then null else {pageViews: .sum.pageViews, uniques: .uniq.uniques, scope: "zone"} end' /tmp/resz.json > /tmp/zone.json
+            fi
+
             jq -n --arg day "$DAY" \
               --slurpfile paths /tmp/clientRequestPath.json \
               --slurpfile countries /tmp/clientCountryName.json \
               --slurpfile browsers /tmp/userAgentBrowser.json \
               --slurpfile posts /tmp/posts.json \
+              --slurpfile zone /tmp/zone.json \
               '
               ($paths[0]) as $p | ($countries[0]) as $c | ($browsers[0]) as $b |
               {
@@ -207,7 +223,9 @@ jobs:
                   browsers: [ $b | sort_by(-.sum.visits) | .[:20][]
                          | { k: .dimensions.userAgentBrowser, v: .sum.visits } ],
                   # 記事ごとのボット除外の訪問。引けなかった日は null
-                  posts: $posts[0]
+                  posts: $posts[0],
+                  # ゾーン全体のページビューと UU（fieldbeside.com を含む）。引けなかった日は null
+                  zone: $zone[0]
                 }
               }' > /tmp/record.json
             # **JSON を出したら自分で parse して確かめる**（最上位ルール 13）
