@@ -53,8 +53,24 @@ if [ -n "$NODE_BIN" ] && [ -s "$WORK/asp-probe.mjs" ]; then
   if [ -s "$BOARD/asp-probe/a8partnered.json" ] && "$NODE_BIN" -e 'JSON.parse(require("fs").readFileSync(process.argv[1],"utf8"))' "$BOARD/asp-probe/a8partnered.json" 2>/dev/null; then A8_OK=true; fi
 fi
 
+# 2b) A8 以外の提携中（バリューコマース・もしも）。ログインを保ってから読む
+OT_RC=99; OT_OK=false
+if [ -n "$NODE_BIN" ] && [ -s "$WORK/asp-probe.mjs" ]; then
+  ASP_ONLY=vc,moshimo OPS_REPORT_DIR="$WORK/sync" ASP_SYNC_BUDGET_MS=100000 run_limited 120 "$NODE_BIN" "$WORK/asp-sync.mjs" > "$WORK/sync2.log" 2>&1
+  ASP_PROBE=others OPS_REPORT_DIR="$BOARD" run_limited 180 "$NODE_BIN" "$WORK/asp-probe.mjs" > "$WORK/others.log" 2>&1; OT_RC=$?
+  if [ -s "$BOARD/asp-probe/others.json" ] && "$NODE_BIN" -e 'JSON.parse(require("fs").readFileSync(process.argv[1],"utf8"))' "$BOARD/asp-probe/others.json" 2>/dev/null; then OT_OK=true; fi
+fi
+
+# 2c) X の数字（フォロワー数の推移・投稿ごとの表示回数）。t283 と同じ書き出し
+X_OK=false
+XJS="$(git -C "$REPO" show origin/main:ops/tasks/t283-x-board-export.sh 2>/dev/null | awk '/^cat > "\$JS" <<.JSEOF.$/{f=1;next} /^JSEOF$/{f=0} f')"
+if [ -n "$NODE_BIN" ] && [ -n "$XJS" ]; then
+  printf '%s\n' "$XJS" > "$WORK/x-export.js"
+  run_limited 60 "$NODE_BIN" "$WORK/x-export.js" "$BOARD/x-weekly.json" > "$WORK/x.log" 2>&1 && X_OK=true
+fi
+
 # 3) 実行結果（自分で parse して確かめる）
 cat > "$BOARD/mac-weekly-status.json" <<JSONEOF
-{"generated":"$(date '+%Y-%m-%dT%H:%M:%S%z')","gsc":{"rc":$GSC_RC,"ok":$GSC_OK},"a8_partnered":{"rc":$A8_RC,"ok":$A8_OK}}
+{"generated":"$(date '+%Y-%m-%dT%H:%M:%S%z')","gsc":{"rc":$GSC_RC,"ok":$GSC_OK},"a8_partnered":{"rc":$A8_RC,"ok":$A8_OK},"others":{"rc":$OT_RC,"ok":$OT_OK},"x":{"ok":$X_OK}}
 JSONEOF
-"$NODE_BIN" -e 'JSON.parse(require("fs").readFileSync(process.argv[1],"utf8"))' "$BOARD/mac-weekly-status.json" && echo "board weekly: gsc=$GSC_OK a8=$A8_OK"
+"$NODE_BIN" -e 'JSON.parse(require("fs").readFileSync(process.argv[1],"utf8"))' "$BOARD/mac-weekly-status.json" && echo "board weekly: gsc=$GSC_OK a8=$A8_OK others=$OT_OK x=$X_OK"

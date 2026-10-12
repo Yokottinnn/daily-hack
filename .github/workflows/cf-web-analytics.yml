@@ -1,0 +1,51 @@
+name: cf-web-analytics
+
+# **記事ごとの参照元（X か検索か）を取るため、Cloudflare Web Analytics を有効にする（2026-10-12）。**
+# 通常のゾーン集計（httpRequestsAdaptiveGroups）では、無料プランだと参照元の項目が引けない
+# （"zone does not have access to the field 'clientrefererhost'" を実測）。Web Analytics（RUM）は無料で参照元を持つ。
+# 手で 1 回走らせる。やること: ① このホストの RUM サイトがあるか見る ② 無ければ自動挿入つきで作る ③ 参照元を 1 日ぶん引いてみる。
+# 出力にトークンは出さない。サイトタグはページの HTML に出る公開値。LLM 不使用・**$0**。
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  enable:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    env:
+      HOST: daily-hack.fieldbeside.com
+      DOMAIN: fieldbeside.com
+    steps:
+      - name: Enable and test
+        env:
+          CF_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        run: |
+          set -uo pipefail
+          api() { curl -s -H "Authorization: Bearer ${CF_TOKEN}" -H "Content-Type: application/json" "$@"; }
+          Z=$(api "https://api.cloudflare.com/client/v4/zones?name=${DOMAIN}")
+          ZONE=$(echo "$Z" | jq -r '.result[0].id'); ACCT=$(echo "$Z" | jq -r '.result[0].account.id')
+          echo "zone=${ZONE:0:6}… account=${ACCT:0:6}…"
+          echo "--- ① 既存の RUM サイト"
+          L=$(api "https://api.cloudflare.com/client/v4/accounts/${ACCT}/rum/site_info/list?per_page=50")
+          echo "$L" | jq -c '{success, errors, sites: [.result[]? | {host: .ruleset.zone_name // .host, site_tag, auto_install, created}]}'
+          TAG=$(echo "$L" | jq -r --arg h "$HOST" '[.result[]? | select((.host // "") == $h or (.ruleset.zone_name // "") == $h)][0].site_tag // empty')
+          if [ -z "$TAG" ]; then
+            echo "--- ② 作る（auto_install: true）"
+            C=$(api -X POST "https://api.cloudflare.com/client/v4/accounts/${ACCT}/rum/site_info" \
+                  --data "$(jq -n --arg h "$HOST" --arg z "$ZONE" '{host:$h, zone_tag:$z, auto_install:true}')")
+            echo "$C" | jq -c '{success, errors, site_tag: .result.site_tag, auto_install: .result.auto_install}'
+            TAG=$(echo "$C" | jq -r '.result.site_tag // empty')
+          else
+            echo "--- ② もう在る: site_tag=${TAG}"
+          fi
+          echo "--- ③ 参照元を 1 日ぶん引く（権限の確認）"
+          START=$(date -u -d '-1 day' +%FT%TZ); END=$(date -u +%FT%TZ)
+          Q='query($acct:String!,$tag:String!,$s:Time!,$e:Time!){viewer{accounts(filter:{accountTag:$acct}){rumPageloadEventsAdaptiveGroups(limit:20,filter:{siteTag:$tag,datetime_geq:$s,datetime_leq:$e},orderBy:[count_DESC]){count dimensions{requestPath refererHost}}}}}'
+          api https://api.cloudflare.com/client/v4/graphql --data "$(jq -n --arg q "$Q" --arg a "$ACCT" --arg t "${TAG:-none}" --arg s "$START" --arg e "$END" '{query:$q,variables:{acct:$a,tag:$t,s:$s,e:$e}}')" \
+            | jq -c '{errors: [.errors[]?.message], rows: (.data.viewer.accounts[0].rumPageloadEventsAdaptiveGroups // [] | length), top: (.data.viewer.accounts[0].rumPageloadEventsAdaptiveGroups // [])[:5]}'
+          echo "--- ④ 本番の HTML にビーコンが入ったか"
+          curl -s "https://${HOST}/" | grep -o 'cloudflareinsights[^"]*' | head -2 || echo "（まだ入っていない）"
