@@ -1,5 +1,7 @@
 # 収益化作戦室の週次ルーティン（毎週月曜 8:47 JST・クラウドの Claude）
 
+> ルーティン: **`trig_018nTbjuzSEXtnzfrJoyh9Je`**（毎回 新しいセッション・完了でプッシュ通知）。プロンプトを変えるときは `update_trigger`
+
 > 作戦室: **https://claude.ai/artifact/9KWGybrAHF7LtbQdVpw9YN**（ソース `scripts/strategy-board/board.html`）
 > 利用者の指示（2026-10-12）: 「今回の断面だけではなく定期的にアップデートして、その結果を踏まえてこのサイト自体の
 > コンテンツが変更されていく仕組みを」「その場しのぎのタスクとして行わず、中長期的にこのウェブサイトを用いて

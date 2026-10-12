@@ -68,6 +68,12 @@
 
 <!-- 新しい記録がこの下に追加される（新しいものが上） -->
 
+### 2026-10-12 — 収益化作戦室 v2（記載ごと＋全体コメント、snapshot から描画、更新履歴）を publish。週次の仕組み: Mac board-weekly（t280・月曜6:40）→ クラウドのルーティン trig_018nTbjuzSEXtnzfrJoyh9Je（月曜8:47）。初回スナップショットを db に書いた。全部 $0
+
+次のアクション:
+
+- [ ] PR #962 マージ後に t280 の done/ を確認、ルーティンを手で 1 回発火して通るか確かめる
+
 ### 2026-10-12 — 戦略ボードを Artifact サイト（12 ページ・db でコメントと決定チェック）として作り直し https://claude.ai/artifact/9KWGybrAHF7LtbQdVpw9YN。競合分析はサブエージェント、案件の市場調査は daily-hack-affiliate に依頼（trig_01Nv8DbAxCBcEKhUR7MQFERe）。A8 69 件の読み取り t277/t278
 
 次のアクション:
