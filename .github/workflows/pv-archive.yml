@@ -145,11 +145,13 @@ jobs:
             done
             if [ "$bad" = "1" ]; then FAILED=$((FAILED + 1)); continue; fi
 
-            # --- 記事ごとの「ボット除外の訪問」と「参照元」（2026-10-12 に足した） ---
-            # **どこから来たか（Google か X の t.co か）が分からない**と、作戦室で説明できない
-            # （利用者の指摘）。記事（/posts/…）だけを、パス×参照元ホスト×ブラウザで引く。
+            # --- 記事ごとの「ボット除外の訪問」（2026-10-12 に足した） ---
+            # 記事別の top はボットを含む数で、作戦室で「読者が何人か」を言えなかった（利用者の指摘）。
+            # 記事（/posts/…）だけを、パス×ブラウザで引く。
+            # **参照元ホスト（clientRefererHost）は無料プランでは引けない**（2026-10-12 に実測：
+            # "zone does not have access to the field 'clientrefererhost'"）。参照元は Web Analytics で取る。
             # **失敗しても日の記録は止めない。** posts を null にして、従来の集計だけ積む。
-            sed -e 's/DIMENSION/clientRequestPath clientRefererHost userAgentBrowser/' \
+            sed -e 's/DIMENSION/clientRequestPath userAgentBrowser/' \
                 -e 's/requestSource: "eyeball" }/requestSource: "eyeball", clientRequestPath_like: "\/posts\/%" }/' \
                 /tmp/tmpl.graphql > /tmp/qp.graphql
             jq -n --rawfile q /tmp/qp.graphql --arg zone "$zone_id" --arg start "$START" \
@@ -160,7 +162,7 @@ jobs:
               --data-binary @/tmp/bodyp.json > /tmp/resp.json || true
             perr=$(jq -r '(.errors // []) | map(.message) | join(" / ")' /tmp/resp.json 2>/dev/null || echo "応答が JSON でない")
             if [ -n "$perr" ]; then
-              printf '::warning::%s 記事ごとの参照元が引けない（従来の集計は積む）: %.200s\n' "$DAY" "$perr"
+              printf '::warning::%s 記事ごとのボット除外の訪問が引けない（従来の集計は積む）: %.200s\n' "$DAY" "$perr"
               echo 'null' > /tmp/posts.json
             else
               jq '
@@ -169,11 +171,7 @@ jobs:
                       | test("bot|crawl|spider|slurp|Unknown|HeadlessChrome"; "i")) | not))
                 | group_by(.dimensions.clientRequestPath)
                 | map({ key: .[0].dimensions.clientRequestPath,
-                        value: { human: (map(.sum.visits) | add // 0),
-                                 ref: (group_by(.dimensions.clientRefererHost // "")
-                                       | map({ key: ((.[0].dimensions.clientRefererHost // "") | if . == "" then "(なし)" else . end),
-                                               value: (map(.sum.visits) | add // 0) })
-                                       | from_entries) } })
+                        value: { human: (map(.sum.visits) | add // 0) } })
                 | from_entries' /tmp/resp.json > /tmp/posts.json
             fi
 
@@ -208,7 +206,7 @@ jobs:
                          | { k: .dimensions.clientCountryName, v: .sum.visits } ],
                   browsers: [ $b | sort_by(-.sum.visits) | .[:20][]
                          | { k: .dimensions.userAgentBrowser, v: .sum.visits } ],
-                  # 記事ごとのボット除外の訪問と参照元ホスト。引けなかった日は null
+                  # 記事ごとのボット除外の訪問。引けなかった日は null
                   posts: $posts[0]
                 }
               }' > /tmp/record.json
