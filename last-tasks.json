@@ -1,3 +1,4 @@
 [
-      {"task": "t285-asp-others-retry.sh", "rc": 0, "out": "- もしも 提携中: 1 件   - デジット｜【高額報酬】AI動画クリエイターを育成するAI動画生成に特化したオンラインAIスクール個別説明会参加｜12000円 probe rc=0 ``` -rw-r--r--  1 ny  staff  857 Oct 12 22:43 /Users/ny/.openclaw/ops-heartbeat-wt/reports/"}
+      {"task": "x282-read-competitor-verified-2.sh", "rc": 0, "out": "競合の認証済みフォロワーからのフォロー結果を読んだ / competitor-verified-result-2.md"},
+      {"task": "x283-mutual-ratio-dry.sh", "rc": 0, "out": "相互フォローの整理に釣り合いを足して DRY で数えた / mutual-ratio-dry.md"}
   ]
