@@ -41,7 +41,7 @@ for (const f of fs.readdirSync(POSTS_DIR).filter((x) => x.endsWith('.md'))) {
   const get = (k) => ((fm.match(new RegExp(`^${k}:\\s*"?(.*?)"?\\s*$`, 'm')) || [])[1] || '').trim();
   if (get('draft') === 'true') continue;
   const slug = f.replace(/\.md$/, '');
-  posts[slug] = { slug, title: get('title'), isPR: get('isPR') === 'true', updated: get('updatedDate') || get('publishDate'), aff: (src.match(AFF) || []).length };
+  posts[slug] = { slug, title: get('title'), isPR: get('isPR') === 'true', updated: get('updatedDate') || get('publishDate'), published: (get('publishDate') || '').slice(0, 10), updatedOnly: (get('updatedDate') || '').slice(0, 10), aff: (src.match(AFF) || []).length };
 }
 const postList = Object.values(posts);
 
@@ -144,6 +144,46 @@ for (const a of articles) {
 }
 const pvMeta = { first: days[0] || null, last: lastDay, days90: in90.length, refFrom: days.find((d) => daily[d]?.posts) || null, refDays28: refDays28.length, spikeDays, seriesFrom: recentDays[0] || null };
 
+// ---------- ブログ全体の月ごとの動き（記事の公開・更新・訪問・ページビュー） ----------
+// 公開・更新は記事のフロントマター（publishDate / updatedDate）。PV・UU は pv-archive の zone（**ゾーン全体**）。
+const monthly = {};
+const mm = (d) => (d || '').slice(0, 7);
+for (const p of postList) {
+  if (p.published) (monthly[mm(p.published)] = monthly[mm(p.published)] || {}).published = (monthly[mm(p.published)].published || 0) + 1;
+  if (p.updatedOnly && p.updatedOnly !== p.published) (monthly[mm(p.updatedOnly)] = monthly[mm(p.updatedOnly)] || {}).updated = (monthly[mm(p.updatedOnly)].updated || 0) + 1;
+}
+for (const d of days) {
+  const m = (monthly[mm(d)] = monthly[mm(d)] || {}); const x = daily[d] || {};
+  m.days = (m.days || 0) + 1; m.visits = (m.visits || 0) + (x.visits || 0); m.human = (m.human || 0) + (x.human || 0);
+  if (x.zone) { m.pageViews = (m.pageViews || 0) + (x.zone.pageViews || 0); m.uniquesSum = (m.uniquesSum || 0) + (x.zone.uniques || 0); m.zoneDays = (m.zoneDays || 0) + 1; }
+}
+const monthlyRows = Object.entries(monthly).map(([month, v]) => ({ month, ...v })).sort((a, b) => b.month.localeCompare(a.month)).slice(0, 12);
+const zoneDays28 = in28.filter((d) => daily[d]?.zone);
+const blog = {
+  posts: postList.length,
+  pv28: zoneDays28.length ? zoneDays28.reduce((a, d) => a + (daily[d].zone.pageViews || 0), 0) : null,
+  uuDaySum28: zoneDays28.length ? zoneDays28.reduce((a, d) => a + (daily[d].zone.uniques || 0), 0) : null,
+  zoneDays28: zoneDays28.length,
+};
+
+// ---------- ASP の案件（A8 以外も） ----------
+const others = json(show(HB, 'reports/board/asp-probe/others.json'));
+
+// ---------- X（Mac の書き出し：フォロワー数の推移・投稿ごとの表示回数） ----------
+const xw = json(show(HB, 'reports/board/x-weekly.json'));
+const reviewSets = [];
+{ const src = fs.existsSync(path.join(ROOT, 'scripts/image-review/page.html')) ? fs.readFileSync(path.join(ROOT, 'scripts/image-review/page.html'), 'utf8') : '';
+  const blocks = src.split(/\n\s*key:\s*"/).slice(1);   // 投稿の組ごとに切る（key から次の key まで）
+  for (const b of blocks) {
+    const key = b.slice(0, b.indexOf('"')); const title = (b.match(/title:\s*"([^"]+)"/) || [])[1]; const slug = (b.match(/slug:\s*"([^"]+)"/) || [])[1];
+    if (!title) continue;
+    const pm = b.match(/posted:\s*\[([^\]]*)\]/);   // 投稿していない組も題名の引き当てに使う（ids は空）
+    const ids = pm ? [...pm[1].matchAll(/"(\d+)"/g)].map((x) => x[1]) : [];
+    reviewSets.push({ key, title, slug, ids, at: ids[0] ? new Date(Number((BigInt(ids[0]) >> 22n) + 1288834974657n)).toISOString() : null });
+  } }
+reviewSets.sort((a, b) => (b.at || '').localeCompare(a.at || ''));
+const xData = { generated: xw?.generated || null, followers: (xw?.followers || []).filter((f) => typeof f.count === 'number'), posts: xw?.posts || [], keys: xw?.keys || null, reviewSets };
+
 // ---------- X の数字（共通戦略の「共有の数字」から。tweet2 が一次情報で更新している） ----------
 const gs = fs.existsSync(path.join(ROOT, 'docs/growth-strategy.md')) ? fs.readFileSync(path.join(ROOT, 'docs/growth-strategy.md'), 'utf8') : '';
 const xShared = ((gs.split('## 共有の数字')[1] || '').split('\n## ')[0] || '').split('\n')
@@ -198,7 +238,7 @@ const snapshot = {
     posts: { total: postList.length, isPR: postList.filter((p) => p.isPR).length, withAff: postList.filter((p) => p.aff > 0).length },
     pos4to10: { pages: pos4to10.length, impressions: sum(pos4to10, 'i') },
   },
-  gscWeekly, topPages, queries, readTop, articles, pvMeta, xShared,
+  gscWeekly, topPages, queries, readTop, articles, pvMeta, xShared, monthly: monthlyRows, blog, others, xData,
   a8: a8 ? { total: a8.total, rows: a8Rows } : null,
   manual,
   findings,
