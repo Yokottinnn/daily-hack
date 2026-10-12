@@ -342,6 +342,52 @@ try {
     }
   }
 
+  if (WHICH === 'applyvc') {
+    // **VC の提携申請（t289）。利用者が 2026-10-12 に「4 社とも申請する」を選んだ。**
+    // 確認画面を読んでから送る。費用・有料・想定外の項目が見えたら、その社は送らずに止まる
+    const vis = (e) => { const r = e.getBoundingClientRect(); const cs = getComputedStyle(e); return r.width > 0 && r.height > 0 && cs.visibility !== 'hidden' && cs.display !== 'none'; };
+    const status = () => p.evaluate((visSrc) => { const vis = eval(visSrc);
+      return [...document.querySelectorAll('a,button,span,div')].filter((e) => e.children.length === 0 && vis(e)).map((e) => (e.innerText || '').trim()).filter((x) => /^(新規提携|提携済み|提携待ち|未提携|再申請可|審査中|提携中)$/.test(x)).slice(0, 4).join(' ／ ') || '表示なし'; }, vis.toString());
+    const dialog = () => p.evaluate((visSrc) => { const vis = eval(visSrc);
+      const ds = [...document.querySelectorAll('[role=dialog], .modal, .modal-dialog, .ui-dialog, [class*=modal], [class*=dialog], [class*=popup]')].filter(vis);
+      const root = ds.length ? ds[ds.length - 1] : null; if (!root) return null;
+      return { text: root.innerText.replace(/\s+/g, ' ').trim().slice(0, 700),
+        selects: [...root.querySelectorAll('select')].map((s) => ({ name: s.name, opts: [...s.options].map((o) => o.text.trim()) })),
+        radios: [...root.querySelectorAll('input[type=radio],input[type=checkbox]')].map((r) => `${r.type}:${r.name}:${(r.closest('label,li,tr,div')?.innerText || '').replace(/\s+/g, ' ').trim().slice(0, 40)}${r.checked ? '(選択済)' : ''}`).slice(0, 10),
+        btns: [...root.querySelectorAll('a,button,input[type=submit],input[type=button]')].filter(vis).map((b) => (b.innerText || b.value || '').trim()).filter(Boolean).slice(0, 10) }; }, vis.toString());
+    for (const [name, id] of [['Yahoo!トラベル', 2026983], ['ふるなび', 2142798], ['一休.com', 179], ['じゃらんnet', 2021810]]) {
+      await go(`https://aff.valuecommerce.ne.jp/ad/adDetail/${id}`);
+      lines.push(`## VC「${name}」 adDetail/${id}`, `- 申請前の状態: ${await status()}`);
+      const btn = p.locator('a:visible, button:visible').filter({ hasText: /^\s*新規提携\s*$/ }).first();
+      if (!(await btn.count())) { lines.push('- 「新規提携」ボタンが見えない → 送らない', ''); continue; }
+      await btn.click({ timeout: 5000 }).catch((e) => lines.push(`- ⚠️ 押せない: ${String(e).split('\n')[0]}`));
+      await p.waitForTimeout(3000);
+      const d = await dialog();
+      if (!d) { lines.push(`- 確認画面が見つからない（URL ${here()}）→ 送らない`, ''); continue; }
+      lines.push(`- 確認画面の文: ${NG.test(d.text) ? '（伏せる）' : d.text}`, `- 選択欄: ${d.selects.map((s) => `${s.name}〔${s.opts.filter((o) => !NG.test(o)).join('|')}〕`).join(' / ') || 'なし'}`, `- チェック欄: ${d.radios.filter((x) => !NG.test(x)).join(' / ') || 'なし'}`, `- ボタン: ${d.btns.join(' / ')}`);
+      if (/有料|料金|手数料|費用|課金|支払/.test(d.text)) { lines.push('- ⛔ 費用に関する記載がある → 送らない', ''); await p.keyboard.press('Escape').catch(() => {}); continue; }
+      // サイトの選択欄があれば、ブログ（daily-hack）を選ぶ。見つからなければ送らない
+      let ok = true;
+      for (const s of d.selects) {
+        const opt = s.opts.find((o) => /daily-hack|デイリーハック|あんたバカ/i.test(o));
+        if (opt) await p.locator(`select[name="${s.name}"]:visible`).first().selectOption({ label: opt }).catch(() => { ok = false; });
+        else if (s.opts.length > 1) { lines.push(`- ⛔ 選択欄 ${s.name} にブログが見つからない → 送らない`); ok = false; }
+      }
+      if (!ok) { lines.push(''); await p.keyboard.press('Escape').catch(() => {}); continue; }
+      const sendRe = /^(提携申請(する)?|申請する|提携する|申し込む|申込む|提携を申請する|OK|はい|同意して申請)$/;
+      const sb = p.locator('[role=dialog] :is(a,button,input[type=submit]):visible, .modal :is(a,button,input[type=submit]):visible, [class*=modal] :is(a,button,input[type=submit]):visible, [class*=dialog] :is(a,button,input[type=submit]):visible')
+        .filter({ hasText: sendRe });
+      const cnt = await sb.count();
+      if (cnt !== 1) { lines.push(`- ⛔ 送信ボタンが ${cnt} 個（1 個でない）→ 送らない`, ''); await p.keyboard.press('Escape').catch(() => {}); continue; }
+      lines.push(`- 送信: 「${(await sb.first().innerText().catch(() => '')).trim()}」を押す`);
+      await sb.first().click({ timeout: 5000 }).catch((e) => lines.push(`- ⚠️ 押せない: ${String(e).split('\n')[0]}`));
+      await p.waitForTimeout(4000);
+      const after = await p.evaluate(() => (document.body.innerText.match(/[^\n]*(提携|申請|完了|エラー)[^\n]*/g) || []).map((x) => x.trim().slice(0, 80)).slice(0, 5));
+      lines.push(...after.filter((x) => !NG.test(x)).map((x) => `- 押した直後: ${x}`));
+      await go(`https://aff.valuecommerce.ne.jp/ad/adDetail/${id}`);
+      lines.push(`- **申請後の状態: ${await status()}**`, '');
+    }
+  }
   if (WHICH === 'applyprep3') {
     // **読むだけ・3 回目（t288）。押さない・送らない。** t287 でもキーワードが効かず、どの社名でも同じ一覧だった。
     // 検索フォームの送り方（action・method・ボタン）を読み、URL の問い合わせで引けるかを試す

@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-12T13:59:52Z",
+  "generated_at": "2026-10-12T14:31:56Z",
   "login_lock": {"present": false, "age_hours": 0},
   "cdp": {"healthy": true, "port": 18810},
   "x_jobs": {"loaded": 8, "expected": 8, "ai_total": 15, "halted": false, "missing": []},
-  "last_reply": {"at": "2026-10-12T13:04:20.168Z", "age_hours": 0, "stale": false},
+  "last_reply": {"at": "2026-10-12T13:04:20.168Z", "age_hours": 1, "stale": false},
   "supervisor": {"at":"2026-10-12T08:00:07Z","date_jst":"2026-10-12","ran":9,"total":9,"not_run":[],"fixed":[]},
   "followback_bands": {"with_count":394,"total_rows":753,"bands":{"1000-4999":{"n":130,"back":18,"mature":111,"mature_back":16,"rate":14.4},"300-999":{"n":100,"back":18,"mature":82,"mature_back":15,"rate":18.3},"0-99":{"n":83,"back":15,"mature":74,"mature_back":15,"rate":20.3},"5000-49999":{"n":60,"back":2,"mature":55,"mature_back":2,"rate":3.6},"100-299":{"n":20,"back":5,"mature":19,"mature_back":5,"rate":26.3},"50000-up":{"n":1,"back":1,"mature":1,"mature_back":1,"rate":100}},"status_values":{"no":575,"revenge_ghost_already_unfollowed":48,"unfollowed":16,"yes_late":1,"yes":84,"pending":29},"note":"mature の率で見る"},
   "host": "NaokinoMacBook-Pro-2.local",
@@ -37,7 +37,7 @@
   ],
   "reconnect": "既に起動している",
   "tasks": [
-      {"task": "t286-asp-apply-prep.sh", "rc": 0, "out": "  - ヤフーショッピング 自動提携機能用プロモーション［自動提携・提携済み］ボタン: ヤフーショッピング　自動提携機能用プロモーション — https://aff.valuecommerce.ne.jp/ad/adDetail/2136156   - 世界最大級！ツアーアクティビティ�"}
+      {"task": "t289-vc-apply.sh", "rc": 0, "out": "- 申請前の状態: 表示なし - 「新規提携」ボタンが見えない → 送らない  probe rc=0 ```"}
   ],
   "running": null,
   "auth": {
