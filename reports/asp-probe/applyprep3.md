@@ -1,0 +1,185 @@
+# ASP の画面調べ: applyprep3（asp-probe）
+
+生成: **2026-10-12T14:15:37.315Z**
+
+## VC 広告検索のフォーム
+- form action=/ad/adList method=get id= class= keyword欄=false
+  - 項目: ad_search_condition_form[appStatus] / ad_search_condition_form[programType][] / ad_search_condition_form[programDetail][] / ad_search_condition_form[limit][] / ad_search_condition_form[sortData]
+  - ボタン: 
+- form action=/ad/adList method=get id=search class= keyword欄=true
+  - 項目: ad_search_condition_form[keyword] / ad_search_condition_form[adType] / ad_search_condition_form[adType] / ad_search_condition_form[adType] / ad_search_condition_form[adType] / ad_search_condition_form[adType] / ad_search_condition_form[adType] / ad_search_condition_form[adType] / ad_search_condition_form[bannerSize] / ad_search_condition_form[bannerType][] / ad_search_condition_form[bannerType][] / ad_search_condition_form[facetCategoryGroup] / ad_search_condition_form[facetCategory] / category / category / category / category / category / category / category / category / category / category / category / category / category / category / category / category / category
+  - ボタン: BUTTON:選択解除:button: / BUTTON:再検索:submit: / BUTTON:選択解除:button: / BUTTON:再検索:submit: / BUTTON:選択解除:button: / A:すべて:button:sub_category_20090001 / A:ショッピングモール:button:sub_category_2008058 / A:オークション:button:sub_category_2008059
+- form action= method=post id=search_order class= keyword欄=false
+  - 項目: ad_search_condition_form[sortData] / ad_search_condition_form[limitData] / make_new_ad[] / apply_link_switch[]
+  - ボタン: BUTTON:CSVダウンロード:button: / BUTTON:チェックしたプログラムの広告素:button: / BUTTON:チェックしたプログラムと一括提:button:
+- form action=/ad/selectAdLink method=post id=campaign_select class= keyword欄=false
+  - 項目: ad_search_condition_form[limitData] / ad_search_condition_form[campaignOids]
+  - ボタン: 
+- form action=/ad/adDetail/2082539 method=post id=form_2082539 class= keyword欄=false
+  - 項目: 
+  - ボタン: BUTTON:詳細を見る:submit:
+- form action=/ad/adDetail/2171394 method=post id=form_2171394 class= keyword欄=false
+  - 項目: 
+  - ボタン: BUTTON:詳細を見る:submit:
+- form action=/vpc/link/merchant_search/2171394 method=post id=form_2171394 class= keyword欄=false
+  - 項目: 
+  - ボタン: BUTTON:自己アフィリエイト:submit:
+- form action=/ad/adDetail/2171435 method=post id=form_2171435 class= keyword欄=false
+  - 項目: 
+  - ボタン: BUTTON:詳細を見る:submit:
+- form action=/ad/adDetail/2159606 method=post id=form_2159606 class= keyword欄=false
+  - 項目: 
+  - ボタン: BUTTON:詳細を見る:submit:
+- form action=/ad/adDetail/2165909 method=post id=form_2165909 class= keyword欄=false
+  - 項目: 
+  - ボタン: BUTTON:詳細を見る:submit:
+- form action=/ad/adDetail/2174175 method=post id=form_2174175 class= keyword欄=false
+  - 項目: 
+  - ボタン: BUTTON:詳細を見る:submit:
+- form action=/ad/adDetail/2175134 method=post id=form_2175134 class= keyword欄=false
+  - 項目: 
+  - ボタン: BUTTON:詳細を見る:submit:
+- form action=/ad/adDetail/2161787 method=post id=form_2161787 class= keyword欄=false
+  - 項目: 
+  - ボタン: BUTTON:詳細を見る:submit:
+- form action=/vpc/link/merchant_search/2161787 method=post id=form_2161787 class= keyword欄=false
+  - 項目: 
+  - ボタン: BUTTON:自己アフィリエイト:submit:
+- form action=/ad/adDetail/2173456 method=post id=form_2173456 class= keyword欄=false
+  - 項目: 
+  - ボタン: BUTTON:詳細を見る:submit:
+- form action=/ad/adDetail/2098976 method=post id=form_2098976 class= keyword欄=false
+  - 項目: 
+  - ボタン: BUTTON:詳細を見る:submit:
+- form action=/ad/adDetail/2037816 method=post id=form_2037816 class= keyword欄=false
+  - 項目: 
+  - ボタン: BUTTON:詳細を見る:submit:
+- form action=/ad/adDetail/2157342 method=post id=form_2157342 class= keyword欄=false
+  - 項目: 
+  - ボタン: BUTTON:詳細を見る:submit:
+- form action=/ad/adDetail/2063116 method=post id=form_2063116 class= keyword欄=false
+  - 項目: 
+  - ボタン: BUTTON:詳細を見る:submit:
+- form action=/vpc/link/merchant_search/2063116 method=post id=form_2063116 class= keyword欄=false
+  - 項目: 
+  - ボタン: BUTTON:自己アフィリエイト:submit:
+- form action=/ad/adDetail/2139196 method=post id=form_2139196 class= keyword欄=false
+  - 項目: 
+  - ボタン: BUTTON:詳細を見る:submit:
+- form action=/vpc/link/merchant_search/2139196 method=post id=form_2139196 class= keyword欄=false
+  - 項目: 
+  - ボタン: BUTTON:自己アフィリエイト:submit:
+- form action=/ad/adDetail/2162766 method=post id=form_2162766 class= keyword欄=false
+  - 項目: 
+  - ボタン: BUTTON:詳細を見る:submit:
+- form action=/ad/adDetail/2175054 method=post id=form_2175054 class= keyword欄=false
+  - 項目: 
+  - ボタン: BUTTON:詳細を見る:submit:
+- form action=/ad/adDetail/2173817 method=post id=form_2173817 class= keyword欄=false
+  - 項目: 
+  - ボタン: BUTTON:詳細を見る:submit:
+- form action=/ad/adDetail/2162877 method=post id=form_2162877 class= keyword欄=false
+  - 項目: 
+  - ボタン: BUTTON:詳細を見る:submit:
+- form action=/ad/adDetail/2174615 method=post id=form_2174615 class= keyword欄=false
+  - 項目: 
+  - ボタン: BUTTON:詳細を見る:submit:
+- form action=/ad/adDetail/2135116 method=post id=form_2135116 class= keyword欄=false
+  - 項目: 
+  - ボタン: BUTTON:詳細を見る:submit:
+- form action=/ad/adDetail/2087579 method=post id=form_2087579 class= keyword欄=false
+  - 項目: 
+  - ボタン: BUTTON:詳細を見る:submit:
+- form action=/ad/adDetail/2175237 method=post id=form_2175237 class= keyword欄=false
+  - 項目: 
+  - ボタン: BUTTON:詳細を見る:submit:
+- form action= method=get id=csrfForm class= keyword欄=false
+  - 項目: 
+  - ボタン: 
+
+## VC GET 検索「ふるなび」（欄に入った値: ）
+- 世界最大級！ツアーアクティビティの検索サイト「Liigo」販促プログラム — https://aff.valuecommerce.ne.jp/ad/adDetail/2161122
+- ふるさと納税「ふるなび」プログラム — https://aff.valuecommerce.ne.jp/ad/adDetail/2142798
+- ふるなびクラウドファンディングプログラム — https://aff.valuecommerce.ne.jp/ad/adDetail/2151082
+- Yahoo!ショッピング(ヤフーショッピング) — https://aff.valuecommerce.ne.jp/ad/adDetail/2025875
+- ヤフーショッピング 自動提携機能用プロモーション — https://aff.valuecommerce.ne.jp/ad/adDetail/2136156
+- JRE MALLふるさと納税 — https://aff.valuecommerce.ne.jp/ad/adDetail/2164731
+
+## VC GET 検索「一休」（欄に入った値: ）
+- 【LYPプレミアム（旧Yahoo!プレミアム）】 会員獲得プログラム — https://aff.valuecommerce.ne.jp/ad/adDetail/2082539
+- 高級ホテル・旅館予約「一休.com」 — https://aff.valuecommerce.ne.jp/ad/adDetail/179
+- 一休レストラン予約プログラム — https://aff.valuecommerce.ne.jp/ad/adDetail/2031523
+- ヒトサラ — https://aff.valuecommerce.ne.jp/ad/adDetail/2162006
+- ホットペッパーグルメ 飲食店ネット予約プログラム — https://aff.valuecommerce.ne.jp/ad/adDetail/2028047
+- ふるさと納税「ふるなび」プログラム — https://aff.valuecommerce.ne.jp/ad/adDetail/2142798
+
+## VC GET 検索「じゃらん」（欄に入った値: ）
+- マルイのネット通販マルイウェブチャネル — https://aff.valuecommerce.ne.jp/ad/adDetail/2165155
+- ★ホテル・宿予約サイト「じゃらんnet」 — https://aff.valuecommerce.ne.jp/ad/adDetail/2021810
+- じゃらんパック — https://aff.valuecommerce.ne.jp/ad/adDetail/2127356
+- じゃらんゴルフ (ゴルフ場予約)プロモーション — https://aff.valuecommerce.ne.jp/ad/adDetail/2121336
+- じゃらんレンタカー — https://aff.valuecommerce.ne.jp/ad/adDetail/2128176
+- じゃらん 遊び・体験予約 — https://aff.valuecommerce.ne.jp/ad/adDetail/2139176
+
+## VC 詳細「Yahoo!トラベル」 adDetail/2026983
+- 題名: プログラム詳細
+- 提携・申請のボタン: 新規提携 ／ 提携済み ／ 提携待ち ／ 未提携 ／ 再申請可
+- ◆Yahoo!トラベルアフィリエイト◆国内レジャー予約 即時提携  (プログラムID: 2026983)
+- 提携審査目安 -
+- 禁止ワード等 サイト名、会社名、ブランド名、商品名などの商標を含む複合ワード
+- 即時提携
+- 即時提携
+- 即時提携
+- 即時提携
+- Twitter
+
+## VC サイトの追加（入力項目・送らない）
+- 開いた画面: https://aff.valuecommerce.ne.jp/account/siteAdd（サイトの追加）
+- input[text] ad_search_condition_form[keyword] ← 
+- input[radio] site_add_form[affilTypeCode] ← Webサイト・ブログ アプリ YouTube Instagram X（旧Twitter） TikTok
+- input[radio] site_add_form[affilTypeCode] ← Webサイト・ブログ アプリ YouTube Instagram X（旧Twitter） TikTok
+- input[radio] site_add_form[affilTypeCode] ← Webサイト・ブログ アプリ YouTube Instagram X（旧Twitter） TikTok
+- input[radio] site_add_form[affilTypeCode] ← Webサイト・ブログ アプリ YouTube Instagram X（旧Twitter） TikTok
+- input[radio] site_add_form[affilTypeCode] ← Webサイト・ブログ アプリ YouTube Instagram X（旧Twitter） TikTok
+- input[radio] site_add_form[affilTypeCode] ← Webサイト・ブログ アプリ YouTube Instagram X（旧Twitter） TikTok
+- input[checkbox] site_add_form[requiredSnsRegistrationConditions][] ← チャンネル登録者数10,000人以上です *フォロワー数3,000人以上です フォロワー数1,000人以上です
+- input[checkbox] site_add_form[requiredSnsRegistrationConditions][] ← *アカウント取得から3ヵ月以上経過しています
+- input[checkbox] site_add_form[requiredSnsRegistrationConditions][] ← * アフィリエイトNG行為に該当する行為、および薬機法等の広告表現規制に違反する表現を行いません
+- input[checkbox] site_add_form[optionalSnsRegistrationConditions][] ← バリューコマース公式Instagramアカウント バリューコマース公式Twitterアカウント をフォロー済みです ※D
+- input[text] site_add_form[urlTitle] ← スマートフォン用サイトに対応している
+- input[checkbox] site_add_form[smartphoneType] ← スマートフォン用サイトに対応している
+- input[text] site_add_form[url] ← 
+- input[text] site_add_form[username] ← https://www.youtube.com/channel/ https://www.instagram.com/ 
+- textarea[textarea] site_add_form[urlComment] ← 
+- input[text] site_add_form[contactName] ← 
+- input[text] site_add_form[contactEmail] ← ECサイトには公開されない情報です
+- input[checkbox] checkCategory[] ← PC・家電・ソフト PC・周辺機器 ソフトウェア 家電・カメラ・AV機器 IT関連 学び・教育・学校 教育・資格 学生・
+- input[checkbox] checkCategory[] ← PC・家電・ソフト PC・周辺機器 ソフトウェア 家電・カメラ・AV機器 IT関連 学び・教育・学校 教育・資格 学生・
+- input[checkbox] checkCategory[] ← PC・家電・ソフト PC・周辺機器 ソフトウェア 家電・カメラ・AV機器 IT関連 学び・教育・学校 教育・資格 学生・
+- input[checkbox] checkCategory[] ← PC・家電・ソフト PC・周辺機器 ソフトウェア 家電・カメラ・AV機器 IT関連 学び・教育・学校 教育・資格 学生・
+- input[checkbox] checkCategory[] ← PC・家電・ソフト PC・周辺機器 ソフトウェア 家電・カメラ・AV機器 IT関連 学び・教育・学校 教育・資格 学生・
+- input[checkbox] checkCategory[] ← PC・家電・ソフト PC・周辺機器 ソフトウェア 家電・カメラ・AV機器 IT関連 学び・教育・学校 教育・資格 学生・
+- input[checkbox] checkCategory[] ← PC・家電・ソフト PC・周辺機器 ソフトウェア 家電・カメラ・AV機器 IT関連 学び・教育・学校 教育・資格 学生・
+- input[checkbox] checkCategory[] ← PC・家電・ソフト PC・周辺機器 ソフトウェア 家電・カメラ・AV機器 IT関連 学び・教育・学校 教育・資格 学生・
+- input[checkbox] checkCategory[] ← PC・家電・ソフト PC・周辺機器 ソフトウェア 家電・カメラ・AV機器 IT関連 学び・教育・学校 教育・資格 学生・
+- input[checkbox] checkCategory[] ← PC・家電・ソフト PC・周辺機器 ソフトウェア 家電・カメラ・AV機器 IT関連 学び・教育・学校 教育・資格 学生・
+- input[checkbox] checkCategory[] ← PC・家電・ソフト PC・周辺機器 ソフトウェア 家電・カメラ・AV機器 IT関連 学び・教育・学校 教育・資格 学生・
+
+## A8 トップの全リンク
+- 開いた画面: https://media-console.a8.net/
+-  — https://www.a8.net/
+- ヘルプ — https://support.a8.net/a8/as/faq/
+- お問い合わせ — https://support.a8.net/as/contact/
+- A8.net TOPへ — https://www.a8.net/
+- メディア会員様専用フォームはこちら — https://support.a8.net/as/contact/
+- 利用規約 — https://www.a8.net/compliance/media-userpolicy.php
+- 不正行為と法律違反 — https://www.a8.net/compliance/a8compliance.php
+- 推奨環境 — https://support.a8.net/a8/as/faq/2015/post_637.html
+- 会社概要 — https://www.fancs.com/
+- 個人情報保護方針 — https://www.fancs.com/privacy/
+- 投資家情報 — https://www.fancs.com/ir/
+- 求人情報 — https://www.fancs.com/recruit/
+- ハラスメントに関するご相談 — https://form.a8.net/@harrassment
+- A8app — https://seedapp.jp/
+- coreda! — https://coreda.jp/
+
