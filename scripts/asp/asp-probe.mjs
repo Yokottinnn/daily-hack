@@ -342,6 +342,47 @@ try {
     }
   }
 
+  if (WHICH === 'applyprep2') {
+    // **申請・登録の前に読むだけ（2 回目・t287）。押さない・送らない。**
+    // t286 では VC の検索に前回の「提携済み」の絞り込みが残り、4 社が 1 件も出なかった。提携状態を「未提携（N）」にして探し直す
+    const found = {};
+    for (const kw of ['ふるなび', '一休', 'じゃらん', 'Yahoo!トラベル']) {
+      await go('https://aff.valuecommerce.ne.jp/ad/adList');
+      await p.locator('input[type=radio][name="ad_search_condition_form[appStatus]"][value=N]').check({ force: true, timeout: 5000 }).catch((e) => lines.push(`- ⚠️ 未提携を選べない: ${String(e).split('\n')[0]}`));
+      await p.locator('input[name="ad_search_condition_form[keyword]"]').first().fill(kw).catch((e) => lines.push(`- ⚠️ 入力できない: ${String(e).split('\n')[0]}`));
+      const sub = p.locator('button:visible, input[type=submit]:visible').filter({ hasText: /検索/ }).first();
+      if (await sub.count()) await sub.click({ timeout: 5000 }).catch(() => {}); else await p.locator('input[name="ad_search_condition_form[keyword]"]').first().press('Enter').catch(() => {});
+      await p.waitForLoadState('domcontentloaded', { timeout: 20000 }).catch(() => {}); await p.waitForTimeout(4000);
+      const st = await p.locator('input[type=radio][name="ad_search_condition_form[appStatus]"]:checked').getAttribute('value').catch(() => '不明');
+      const rows = await p.evaluate(() => { const seen = new Set();
+        return [...document.querySelectorAll('a[href*="adDetail"]')].map((a) => {
+          let r = a; for (let i = 0; i < 6 && r.parentElement; i++) { r = r.parentElement; if (r.tagName === 'TR' || (r.innerText || '').length > 160) break; }
+          return [(a.innerText || '').replace(/\s+/g, ' ').trim().slice(0, 70), ((r.innerText || '').match(/提携中|提携済み?|提携待ち|未提携|審査|即時提携|自動提携/g) || []).join('・'), a.href.replace(/\?.*$/, '')];
+        }).filter(([t, , h]) => t && !seen.has(h) && seen.add(h)).slice(0, 8); });
+      lines.push(`## VC「${kw}」（提携状態の選択: ${st}）`, ...rows.filter(([t]) => !NG.test(t)).map(([t, s2, h]) => `- ${t}［${s2 || '表示なし'}］ — ${h}`), '');
+      const hit = rows.find(([t]) => t.includes(kw.replace('!', '！')) || t.includes(kw));
+      if (hit) found[kw] = hit[2];
+    }
+    // 見つかった広告の詳細：提携の条件とボタン（押さない）
+    for (const [kw, u] of Object.entries(found)) {
+      await go(u);
+      const info = await p.evaluate(() => {
+        const t = document.body.innerText.replace(/[ \t]+/g, ' ');
+        const pick = (re) => (t.match(re) || [''])[0].slice(0, 120);
+        return { title: document.title, btns: [...document.querySelectorAll('a,button,input[type=submit],input[type=button]')].map((b) => (b.innerText || b.value || '').trim()).filter((x) => /提携|申請|申込/.test(x)).slice(0, 8),
+          cond: [pick(/提携(条件|審査)[^\n]{0,80}/), pick(/(即時|自動|審査)提携[^\n]{0,60}/), pick(/成果報酬[^\n]{0,80}/), pick(/禁止[^\n]{0,80}/), pick(/SNS[^\n]{0,80}/)].filter(Boolean) };
+      });
+      lines.push(`## VC 詳細「${kw}」 ${u}`, `- 題名: ${info.title.slice(0, 50)}`, `- 提携・申請のボタン: ${info.btns.join(' ／ ') || 'なし'}`, ...info.cond.filter((x) => !NG.test(x)).map((x) => `- ${x}`), '');
+    }
+    // VC のサイト設定（メディア登録）と A8 の登録情報まわり
+    await go('https://aff.valuecommerce.ne.jp/account/siteManage');
+    lines.push('## VC サイト設定', `- 開いた画面: ${here()}（${(await p.title()).slice(0, 40)}）`,
+      ...(await links(/サイト|追加|登録|新規|SNS/)).filter(([t]) => !NG.test(t)).map(([t, h]) => `- リンク: ${t} — ${String(h).replace(/\?.*$/, '')}`),
+      ...(await p.evaluate(() => [...document.querySelectorAll('table tr')].slice(0, 12).map((r) => r.innerText.replace(/\s+/g, ' ').trim().slice(0, 100)))).filter((x) => x && !NG.test(x) && !/\d{6,}/.test(x)).map((x) => `- 行: ${x}`), '');
+    await go('https://media-console.a8.net/');
+    lines.push('## A8 トップのリンク（サイト・登録・設定・アカウント）', `- 開いた画面: ${here()}`,
+      ...(await links(/サイト|登録|設定|アカウント|会員情報|メディア/)).filter(([t]) => !NG.test(t)).map(([t, h]) => `- ${t} — ${String(h).replace(/\?.*$/, '')}`), '');
+  }
   if (WHICH === 'applyprep') {
     // **申請・登録の前に、画面を読むだけ**（t286・2026-10-12）。押さない・送らない。
     // ① バリューコマースで 4 社を名前で探し、広告の行・提携の状態・申請ボタンを読む
