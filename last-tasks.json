@@ -1,3 +1,1 @@
-[
-      {"task": "t282-board-weekly-kickstart.sh", "rc": 0, "out": "=== 2026-10-12T12:35:32+0900 boot === 2026-10-12T18:40:59+0900 boot ```  結果は 10 分ほどで `reports/board/mac-weekly-status.json` に出る（heartbeat が push する）。"}
-  ]
+[]

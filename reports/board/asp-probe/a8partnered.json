@@ -1,0 +1,560 @@
+{
+ "generated": "2026-10-12T09:44:19.535Z",
+ "total": 69,
+ "from": 0,
+ "to": 69,
+ "rows": [
+  {
+   "id": "s00000026954002",
+   "name": "全国レンタカー【イオンコンパストラベルモール】",
+   "reward": "レンタカー利用1％ EPC",
+   "self": false,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000023642001",
+   "name": "世界中の旅行をラクラク・お得に予約【KKday】",
+   "reward": "利用or購入1.8％ EPC",
+   "self": false,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000024278001",
+   "name": "国内旅行の格安予約なら【ビッグホリデー】",
+   "reward": "ツアー参加2％ EPC",
+   "self": false,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000001343014",
+   "name": "【ニーズツアー】国内旅行＆沖縄旅行",
+   "reward": "購入1000円 購入2000円（JAL利用）",
+   "self": true,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000015067001",
+   "name": "サービス運営20年！500万人が利用する安心・信頼のポイントサイト！【ちょびリッチ】",
+   "reward": "新規会員登録200円 EPC",
+   "self": true,
+   "point": true,
+   "listing": "リスティングNG"
+  },
+  {
+   "id": "s00000026416001",
+   "name": "スマホ買取のモバゾウ",
+   "reward": "新規買取完了1015円 EPC",
+   "self": false,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000007299001",
+   "name": "【宅配買取Brandear】300万人以上が利用した人気サイトBrandearの買取募集",
+   "reward": "査定申込み953円 EPC",
+   "self": true,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000018337001",
+   "name": "Amazonアカウントで利用できる【リコマース宅配買取サービス】",
+   "reward": "新規買取成立1134円 EPC",
+   "self": false,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000026754001",
+   "name": "マツキヨココカラオンラインストア",
+   "reward": "購入3.71％ EPC",
+   "self": false,
+   "point": true,
+   "listing": "リスティングNG"
+  },
+  {
+   "id": "s00000020552003",
+   "name": "Fin Techを活用したオンラインファクタリング【Easy factor】",
+   "reward": "新規見積もり申込20000円 EPC",
+   "self": false,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000015923003",
+   "name": "全国で使える【法人専用ガソリンカード】",
+   "reward": "新規成約5000円 EPC",
+   "self": true,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000015923001",
+   "name": "新会社への発行率ＮＯ.１！しかもスピード発行の【法人ＥＴＣカード】",
+   "reward": "新規成約5000円 EPC",
+   "self": true,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000008928001",
+   "name": "新会社でも作れる法人ＥＴＣカード",
+   "reward": "新規成約10000円 キャンペーン",
+   "self": true,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000024292001",
+   "name": "ギガ付き買い切り型モバイルルーター（追加ギガも簡単チャージ）【リチャージWiFi】",
+   "reward": "購入10％(ギガ付きモバイルルーター【MR1】) 購入12％(ギガ付きモバイルルーター【T8】)",
+   "self": false,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000018547002",
+   "name": "安い！簡単！便利！無制限で使える海外Wifi【SakuraMobile海外Wifi】",
+   "reward": "新規申込900円 EPC",
+   "self": true,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000013504003",
+   "name": "最短即日発送！1日あたり最安160円〜の格安WiFiレンタル【WiFiGO】",
+   "reward": "新規申込1300円 EPC",
+   "self": false,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000008091016",
+   "name": "家でも外でも利用可能なWi-Fiルーター【DTI WiMAX 2+】",
+   "reward": "新規申込5000円 EPC",
+   "self": false,
+   "point": true,
+   "listing": "リスティングNG"
+  },
+  {
+   "id": "s00000000040014",
+   "name": "【公式】BIGLOBE WiMAX +5G",
+   "reward": "【BIGLOBE WiMAX +5G】 申込5000円（データ端末つき）",
+   "self": true,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000019160003",
+   "name": "【入会金・月会費０円だから超高CVR】おトクがいっぱいのカーシェア「EARTHCAR」",
+   "reward": "新規利用料金8％ EPC",
+   "self": true,
+   "point": true,
+   "listing": "リスティングOK"
+  },
+  {
+   "id": "s00000026714001",
+   "name": "国内最大級のグランピング予約サイト！【リゾートグランピングドットコム】",
+   "reward": "宿泊1.2％ EPC",
+   "self": false,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000026954001",
+   "name": "国内宿泊（宿・ホテル）【イオンコンパストラベルモール】",
+   "reward": "宿泊予約2％ EPC",
+   "self": false,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000023067002",
+   "name": "【国内ホテル・宿泊・旅館予約｜トラベリスト】",
+   "reward": "宿泊予約3％ EPC",
+   "self": false,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000027266001",
+   "name": "国内eSIMアプリNo1！海外旅行通信の新定番【トリファ（trifa）】",
+   "reward": "初回購入7.5％ EPC",
+   "self": false,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000007478002",
+   "name": "高還元率ポイントサイト【ハピタス】 無料会員登録プロモーション",
+   "reward": "無料会員登録後のポイント獲得（登録７日以内）300円 EPC",
+   "self": true,
+   "point": true,
+   "listing": "リスティングNG"
+  },
+  {
+   "id": "s00000017980001",
+   "name": "厳選ホテル・旅館・レストラン・ 美容室の贅沢プランをお得に予約。東京女子に人気【OZmall】",
+   "reward": "来店300円 EPC",
+   "self": false,
+   "point": true,
+   "listing": "リスティングNG"
+  },
+  {
+   "id": "s00000022192002",
+   "name": "JR新幹線・特急のチケットを自宅にお届け！【NAVITIME Travel】",
+   "reward": "新幹線・特急チケット成約500円 EPC",
+   "self": false,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000018767001",
+   "name": "JALで行く！格安国内旅行のジェイトリップ（J-TRIP）",
+   "reward": "成約1000円 EPC",
+   "self": false,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000018012001",
+   "name": "国内線の比較・購入サイトの決定版【格安航空券モール】",
+   "reward": "成約1000円 EPC",
+   "self": true,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000019626001",
+   "name": "契約期間縛りのない月額1,980〜円(税込)のポケット型Wi-Fi【縛りなしWiFi】",
+   "reward": "新規申込1000円 商品別成果情報はこちら",
+   "self": false,
+   "point": true,
+   "listing": "リスティングNG"
+  },
+  {
+   "id": "s00000001343001",
+   "name": "格安航空券サイト「エアトリ」国内格安航空券販売",
+   "reward": "国内航空券成約1500円 EPC",
+   "self": true,
+   "point": true,
+   "listing": "リスティングNG"
+  },
+  {
+   "id": "s00000001343015",
+   "name": "沖縄旅行や北海道旅行！格安国内旅行なら【エアトリ国内ツアー】",
+   "reward": "予約2000円 EPC",
+   "self": true,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000022171003",
+   "name": "24時間365日カンタン予約【国内ダイナミックパッケージ】",
+   "reward": "国内ダイナミックパッケージ成約2500円 EPC",
+   "self": false,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000024354003",
+   "name": "【新商品】安定して速いレンタルSIMの「REN SIM -レンシム-」",
+   "reward": "初回購入2500円 EPC",
+   "self": false,
+   "point": true,
+   "listing": "リスティングNG"
+  },
+  {
+   "id": "s00000024354001",
+   "name": "【ネオチャージWiFi】契約不要・月額０円・契約期間の縛りなし・チャージ式のポケットWiFi！",
+   "reward": "新規購入2700円 EPC",
+   "self": false,
+   "point": true,
+   "listing": "リスティングNG"
+  },
+  {
+   "id": "s00000020080001",
+   "name": "エルピオでんき！セット割でお得！！",
+   "reward": "新規電力切り替え3000円 EPC",
+   "self": true,
+   "point": true,
+   "listing": "リスティングNG"
+  },
+  {
+   "id": "s00000016921003",
+   "name": "足りなくなったらギガチャージ！最安1,738円から使える『クラウドWiFi』",
+   "reward": "新規契約3000円 EPC",
+   "self": false,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000014546024",
+   "name": "月額1800円〜コスパ最強のモバイルWi-Fi【MONSTER MOBILE】",
+   "reward": "＜個人＞ 開通2000円（縛りなしプラン）",
+   "self": true,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000023067001",
+   "name": "国内格安航空券・LCCの比較・予約なら【トラベリスト】",
+   "reward": "成約3200円 EPC",
+   "self": false,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000013511010",
+   "name": "東証プライム上場！一番安い電気料金で契約するなら【エネピ】",
+   "reward": "新規切替完了3200円 EPC",
+   "self": false,
+   "point": true,
+   "listing": "リスティングNG"
+  },
+  {
+   "id": "s00000025617001",
+   "name": "電力単価の安さ【アルカナエナジー】",
+   "reward": "新規供給開始5000円 EPC",
+   "self": false,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000023877001",
+   "name": "快適なインターネット生活を送ろう！超高速光回線【Fon光】",
+   "reward": "新規開通6380円 EPC",
+   "self": false,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000019208002",
+   "name": "【@nifty公式】光回線なら「高品質・高速・キャッシュバック実施中」の@nifty光 ！",
+   "reward": "新規利用8000円(3年プラン) EPC",
+   "self": true,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000019208003",
+   "name": "キャッシュバック実施中！ニフティ株式会社の【@nifty with ドコモ光】",
+   "reward": "新規開通/事業者変更9000円 転用5000円",
+   "self": true,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000017718004",
+   "name": "【ドコモ光】新規工事費実質無料！当サイト限定！最大100,000円の高額キャッシュバック！",
+   "reward": "新規転用5000円 新規開通10000円",
+   "self": true,
+   "point": true,
+   "listing": "リスティングNG"
+  },
+  {
+   "id": "s00000017718076",
+   "name": "【ahamo光】安定した光回線をコスパ良く！ｄポイント20,000pt",
+   "reward": "新規利用開始13500円 EPC",
+   "self": true,
+   "point": true,
+   "listing": "リスティングNG"
+  },
+  {
+   "id": "s00000017718005",
+   "name": "当サイト限定 最大30000円現金キャッシュバック！【電気チョイス】",
+   "reward": "新規供給開始3000円（個人） 新規供給開始15000円（法人）",
+   "self": true,
+   "point": true,
+   "listing": "リスティングNG"
+  },
+  {
+   "id": "s00000013511004",
+   "name": "1番安いガス料金をWEBで比較して、お得に利用しよう！【エネピ】",
+   "reward": "切替完了15000円 EPC",
+   "self": true,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000022354001",
+   "name": "複雑な条件なし！契約期間しばり無し光回線＋【おてがる光】",
+   "reward": "おてがる光（1ギガ回線）の場合 新規契約9000円",
+   "self": true,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000021621001",
+   "name": "工事不要でネット使い放題！月々2468円(税込)〜！【SoftbankAir】",
+   "reward": "新規開通17000円 EPC",
+   "self": true,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000000018031",
+   "name": "GMOインターネット株式会社【GMOとくとくBB】ドコモ光はこちら",
+   "reward": "＜ドコモ光（新規・転用・事業者変更）＞ 新規利用開始9000円",
+   "self": true,
+   "point": true,
+   "listing": "リスティングNG"
+  },
+  {
+   "id": "s00000017675001",
+   "name": "ガス会社の乗り換えで、ガス料金が安くなる！【ガス屋の窓口】",
+   "reward": "新規契約20000円 EPC",
+   "self": true,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000007633011",
+   "name": "【キャッシュバック最大7万円】ひかり電話、ヒカリ回線のお申込み窓口",
+   "reward": "新規開通20000円（フレッツ光または光コラボレーションサービス） Wチャンス",
+   "self": true,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000017718006",
+   "name": "当サイト限定 最大30000円現金キャッシュバック！ガス代を今よりお安く！【ガスチョイス】",
+   "reward": "新規供給開始3000円（ニチガス） 新規供給開始30000円（プロパンガス）",
+   "self": true,
+   "point": true,
+   "listing": "リスティングNG"
+  },
+  {
+   "id": "s00000017718017",
+   "name": "メディア会員の方必見！電気代コスト削減！★大幅還元実施中★【ハルエネ電気】",
+   "reward": "新規申込10000円(利用料金：8,000円〜11,999円) 新規申込12000円(利用料金：12,000円〜15,999円)",
+   "self": true,
+   "point": true,
+   "listing": "リスティングNG"
+  },
+  {
+   "id": "s00000019044001",
+   "name": "【auひかり】初期工事費無料！豪華キャンペーン！知らない人はモッタイナイ！",
+   "reward": "新規開通30000円 EPC",
+   "self": true,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000018660003",
+   "name": "ポイ活ならワラウ【ワラウ】（広告利用ボーナスクリア）",
+   "reward": "新規ユーザー登録＋ボーナスポイント受取500円 EPC",
+   "self": false,
+   "point": true,
+   "listing": "リスティングNG"
+  },
+  {
+   "id": "s00000015120002",
+   "name": "コスパも10ギガもスマホ割も！選べるインターネット【So-net 光】",
+   "reward": "新規開通7500円（So-net 光 S/M/L、So-net 光 10ギガ、So-net 光 (auひかり)） 商品別成果情報はこちら",
+   "self": true,
+   "point": false,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000000018040",
+   "name": "GMOとくとくBB【GMO光アクセス】",
+   "reward": "＜とくとくBB光【光アクセス】＞ 転用6000円",
+   "self": true,
+   "point": true,
+   "listing": "リスティングNG"
+  },
+  {
+   "id": "s00000017718003",
+   "name": "WEB限定！最大79,000円キャッシュバックor豪華人気商品プレゼント！【フレッツ光 】",
+   "reward": "新規開通10000円（コラボレーション光） 新規開通30000円（フレッツ（法人SOHOのみ））",
+   "self": true,
+   "point": true,
+   "listing": "リスティングNG"
+  },
+  {
+   "id": "s00000024224001",
+   "name": "ブランド品の買取なら【ブランドオフ宅配買取】",
+   "reward": "無料買取申込＋着荷12000円 EPC",
+   "self": false,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000017718046",
+   "name": "当サイト限定！最大40,000円還元キャンペーン！【BIGLOBE光】",
+   "reward": "新規転用14000円(BIGLOBE光) 新規開通28000円(BIGLOBE光)",
+   "self": true,
+   "point": true,
+   "listing": "リスティングNG"
+  },
+  {
+   "id": "s00000011829002",
+   "name": "【求人】【在宅】【高収入】マダムライブチャットレディ募集",
+   "reward": "新規稼働15000円(在宅チャットレディ) 新規稼働15000円(通勤チャットレディ)",
+   "self": true,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000016370001",
+   "name": "フレッツ光より安いソフトバンク光！【高額キャッシュバック】【SoftBank 光】",
+   "reward": "新規他社転用16000円 新規開通16000円",
+   "self": true,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000017718071",
+   "name": "超高速インターネットが1年間ずっと月額980円〜！【コミュファ光】",
+   "reward": "新規利用開始17500円 EPC",
+   "self": true,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000000002006",
+   "name": "【A8.net】メディア会員募集",
+   "reward": "メディア会員登録300円 EPC",
+   "self": false,
+   "point": false,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000011623001",
+   "name": "【NEW】楽天アフィリエイト",
+   "reward": "成果報酬詳細はこちらをご確認ください。 EPC",
+   "self": false,
+   "point": false,
+   "listing": "リスティングNG"
+  },
+  {
+   "id": "s00000000018015",
+   "name": "【.com/.net ０円〜】独自ドメインの取得は国内シェアNo.1の＜お名前.com＞",
+   "reward": "1ドメインの注文金額が1000円以上：110円 1ドメインの注文金額が1000円未満：注文金額の11％",
+   "self": true,
+   "point": false,
+   "listing": "リスティングNG"
+  },
+  {
+   "id": "s00000005186001",
+   "name": "【A8セルフバック】参加申請・成果反映用",
+   "reward": "【A8セルフバック】 EPC",
+   "self": false,
+   "point": false,
+   "listing": "リスティングNG"
+  },
+  {
+   "id": "s00000005186002",
+   "name": "【A8.net】成果反映用プログラム",
+   "reward": "商品購入金額の１００％ EPC",
+   "self": false,
+   "point": false,
+   "listing": "リスティングNG"
+  }
+ ]
+}
