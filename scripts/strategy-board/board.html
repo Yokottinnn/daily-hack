@@ -883,7 +883,7 @@ tr[data-ccount]::after{top:4px;right:4px}
     const PM=S.pvMeta||{};
     $('#tbl-top').innerHTML=(S.topPages||[]).map(r=>'<tr data-cid="now.top.'+esc(r.slug)+'"><td>'+link(r)+'</td><td class="num">'+fmtN(r.c)+'</td><td class="num">'+fmtN(r.i)+'</td><td class="num">'+(r.p!=null?r.p.toFixed(1):'—')+'</td><td class="num"><button type="button" class="linkish" data-detail="'+esc(r.slug)+'">'+fmtN(r.v90)+'</button></td><td>'+affPill(r.aff)+'</td></tr>').join('')||'<tr><td colspan="6" class="empty">データなし</td></tr>';
     $('#tbl-read').innerHTML=(S.readTop||[]).map(r=>{ const a=(S.articles||[]).find(x=>x.slug===r.slug)||{}; return '<tr data-cid="now.read.'+esc(r.slug)+'"><td>'+link(r)+'</td><td class="num">'+fmtN(r.v)+'</td><td class="num">'+fmtN(r.c28)+'</td><td><button type="button" class="linkish" data-detail="'+esc(r.slug)+'">'+esc(whyShort(a,PM))+'</button></td><td>'+affPill(r.aff)+'</td></tr>'; }).join('')||'<tr><td colspan="5" class="empty">データなし</td></tr>';
-    $('#pv-note').innerHTML='<b>訪問の数の読み方</b>：記事ごとの訪問は Cloudflare の数で、<b>ボット（機械的なアクセス）を含みます</b>。ボットを除いた数が取れているのはサイト全体だけです（直近 28 日 '+fmtN((S.kpi||{}).pv28&&S.kpi.pv28.human)+'）。記録は '+esc(PM.first||'—')+' から（全期間 '+fmtN(PM.days90)+' 日）。'+(PM.spikeDays&&PM.spikeDays.length?'全記事が同じ日に跳ねた日（'+PM.spikeDays.map(d=>d.slice(5).replace('-','/')).join('・')+'）は、読者ではない一斉アクセスの疑いがあります。':'')+(PM.refFrom?'記事ごとの参照元とボット除外の訪問は '+esc(PM.refFrom)+' から記録しています。':'<b>記事ごとの参照元（X か検索か）とボット除外の訪問は、10/12 から記録を始めました</b>。それまでは、日ごとの訪問と X の告知日・一斉アクセスの日を突き合わせて読みます（行を押すと詳細）。');
+    $('#pv-note').innerHTML='<b>訪問の数の読み方</b>：記事ごとの訪問は Cloudflare の数で、<b>ボット（機械的なアクセス）を含みます</b>。ボットを除いた数が取れているのはサイト全体だけです（直近 28 日 '+fmtN((S.kpi||{}).pv28&&S.kpi.pv28.human)+'）。記録は '+esc(PM.first||'—')+' から（全期間 '+fmtN(PM.days90)+' 日）。'+(PM.spikeDays&&PM.spikeDays.length?'全記事が同じ日に跳ねた日（'+PM.spikeDays.map(d=>d.slice(5).replace('-','/')).join('・')+'）は、読者ではない一斉アクセスの疑いがあります。':'')+(PM.refFrom?'記事ごとのボット除外の訪問は '+esc(PM.refFrom)+' から記録しています。':'記事ごとのボット除外の訪問は 10/13 分から記録します。')+'<b>どこから来たか（X か検索か）は、Cloudflare の無料プランの集計では取れません</b>。Web Analytics を有効にすると取れるようになります（「タスク」のページ）。それまでは、日ごとの訪問と X の告知日・一斉アクセスの日を突き合わせて読みます（行を押すと詳細）。';
     ART=S.articles||[]; renderArticles();
     const X=S.xShared||[], xv=(k)=>(X.find(r=>r.k===k)||{}).v||'—';
     $('#x-tiles').innerHTML=[['認証済みフォロワー（収益化の条件 500）',xv('認証済みフォロワー'),'x.verified'],['フォロワー',xv('フォロワー'),'x.followers'],['表示（7 日・返信を含む）',xv('インプレッション（7 日）'),'x.imp7'],['認証済みの表示（90 日・条件 50 万）',xv('認証済みインプレッション（90 日・ホーム・返信除く）'),'x.vimp']].map(([t,v,cid])=>'<div class="tile" data-cid="'+cid+'"><div class="k">'+esc(t)+'</div><div class="v" style="font-size:20px">'+esc(v)+'</div><div class="s">'+esc(((X.find(r=>r.k==='フォロワー')||{}).at)||'')+'</div></div>').join('');
@@ -919,8 +919,9 @@ tr[data-ccount]::after{top:4px;right:4px}
     const search=a.c28, other=Math.max(0,a.v28-a.c28);
     const lines=[];
     lines.push('直近 28 日の訪問 <b>'+fmtN(a.v28)+'</b>（ボットを含む）のうち、検索（Google）からのクリックは <b>'+fmtN(search)+'</b>。残り <b>'+fmtN(other)+'</b> は検索以外から。');
-    if(a.refs28&&a.refs28.length) lines.push('ボットを除いた訪問 <b>'+fmtN(a.h28)+'</b> の参照元：'+a.refs28.map(r=>esc(r.k)+' <b>'+r.n+'</b>').join('、')+'（'+esc(M.refFrom)+' から記録）。');
-    else lines.push('記事ごとの参照元は 10/12 から記録を始めたため、ここではまだ出せない。代わりに日ごとの訪問で読む：');
+    if(a.h28!=null) lines.push('ボットを除いた訪問は <b>'+fmtN(a.h28)+'</b>（'+esc(M.refFrom)+' から記録）。');
+    if(a.refs28&&a.refs28.length) lines.push('参照元：'+a.refs28.map(r=>esc(r.k)+' <b>'+r.n+'</b>').join('、')+'。');
+    else lines.push('どこから来たか（X か検索か）は、Cloudflare Web Analytics を有効にすると記事ごとに出せる（「タスク」のページ）。いまは日ごとの訪問で読む：');
     if(a.xDates&&a.xDates.length) lines.push('X で告知した日（'+a.xDates.map(d=>d.slice(5).replace('-','/')).join('・')+'）とその翌日の訪問：<b>'+fmtN(a.why.xV)+'</b>。');
     if(a.why&&a.why.spikeV) lines.push('全記事が同じ日に跳ねた日の訪問：<b>'+fmtN(a.why.spikeV)+'</b>。読者ではない一斉アクセスの疑いがある。');
     $('#detail-box').innerHTML='<div class="row" style="justify-content:space-between;align-items:flex-start;flex-wrap:nowrap;margin:0"><h2 style="flex:1">'+esc(a.title)+'</h2><button class="btn ghost" type="button" id="detail-close">閉じる</button></div>'
