@@ -44,6 +44,18 @@ if [ -f "$REQUESTS" ]; then
   fi
 fi
 
+# **X・ブログ・アフィリエイトの共通戦略**を、どのセッションも開始時に目に入れる（2026-10-12）。
+# 「ここで考えたことだけが独立して動かないように全体で統一し」と指示された。
+# 正本は docs/growth-strategy.md。注入するのは「いまの方針」と決定ログの直近 3 件だけ。
+STRATEGY="docs/growth-strategy.md"
+if [ -f "$STRATEGY" ]; then
+  echo
+  echo "--- 共通戦略（$STRATEGY・着手前に全文を読む）---"
+  awk '/^## いまの方針/{f=1;next} /^## /{f=0} f && NF' "$STRATEGY" | head -12
+  echo "決定ログ（直近 3 件）:"
+  awk '/^## 決定ログ/{f=1;next} /^## /{f=0} f && /^\| 20/' "$STRATEGY" | head -3
+fi
+
 echo
 echo "--- リポジトリの現在状態 ---"
 echo "ブランチ: $(git rev-parse --abbrev-ref HEAD 2>/dev/null || echo unknown)"
