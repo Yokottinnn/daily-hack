@@ -1,1 +1,3 @@
-[]
+[
+      {"task": "t280-install-board-weekly.sh", "rc": 0, "out": "## ジョブ  - `com.dailyhack.board-weekly`（毎週 月曜 06:40）: **載った**（launchctl print が通る）  - 1 回目を裏で開始した（pid 25045）。結果は `reports/board/mac-weekly-status.json` に出る"}
+  ]
