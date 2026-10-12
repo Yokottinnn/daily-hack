@@ -1,16 +1,16 @@
 {
-  "generated": "2026-10-11T12:18:13.462Z",
+  "generated": "2026-10-12T02:28:31.991Z",
   "providers": {
-    "rakuten": {
-      "name": "楽天アフィリエイト",
+    "a8": {
+      "name": "A8.net",
       "loggedIn": true,
       "needsHuman": false,
       "credentialsInKeychain": true,
       "reason": "",
-      "url": "https://affiliate.rakuten.co.jp/report/summary",
-      "title": "【楽天アフィリエイト】 - レポート",
-      "affiliateIds": [],
-      "menus": 6
+      "url": "https://media-console.a8.net/program/list/partnered",
+      "title": "参加中プログラム｜A8.netメディア管理画面",
+      "partnered": 69,
+      "menus": 40
     }
   }
 }
