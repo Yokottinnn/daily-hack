@@ -1,3 +1,3 @@
 [
-      {"task": "x269-read-badge-baseline.sh", "rc": 0, "out": "青バッジ取得後の出発点を読んだ / badge-baseline.md"}
+      {"task": "x270-read-ocr-requirements.sh", "rc": 0, "out": "収益化の条件と 90 日の数字を読んだ / ocr-requirements.md"}
   ]
