@@ -117,6 +117,11 @@ const articles = postList.map((p) => ({
 })).sort((a, b) => b.v28 - a.v28 || b.i90 - a.i90);
 for (const r of topPages) r.v90 = v90[r.slug] || 0;
 for (const r of readTop) { r.c28 = pagesCur[r.slug]?.c || 0; r.h28 = refDays28.length ? (human28[r.slug] || 0) : null; r.refs28 = refDays28.length ? groupRefs(refs28[r.slug]) : null; }
+// ボット除外の訪問が取れていれば、「読まれている記事」はそれで並べ直す（ボット込みだと読まれていない記事が上に来る）
+if (refDays28.length) {
+  readTop.splice(0, readTop.length, ...articles.filter((a) => a.h28 > 0).sort((a, b) => b.h28 - a.h28).slice(0, 20)
+    .map((a) => ({ slug: a.slug, v: a.v28, title: a.title, aff: a.aff, c28: a.c28, h28: a.h28, refs28: a.refs28 })));
+}
 // 日ごとの訪問（記事の詳細で棒にする）と、全記事が同じ日に跳ねた日（読者ではない一斉アクセスの疑い）
 const recentDays = days.slice(-45);
 const postTotal = (d) => (daily[d]?.top || []).filter((t) => t.path.startsWith('/posts/')).reduce((a, t) => a + (t.v || 0), 0);
@@ -167,8 +172,9 @@ if (gsc) {
 }
 const gaps = readTop.filter((r) => r.aff === 0).slice(0, 8);
 if (gaps.length) push('action', 'gaps', `直近 28 日に読まれた上位 20 本のうち ${readTop.filter((r) => r.aff === 0).length} 本は成果リンクが 0。上から：${gaps.slice(0, 5).map((r) => `「${r.title.slice(0, 22)}」`).join('、')}。`);
-const nonSearch = articles.filter((r) => r.v28 >= 30 && r.c28 / r.v28 < 0.2).slice(0, 5);
-if (nonSearch.length) push('info', 'non-search', `検索のクリックが訪問の 2 割未満なのに読まれている記事が ${nonSearch.length} 本：${nonSearch.map((r) => `「${r.title.slice(0, 20)}」（訪問 ${r.v28}・検索クリック ${r.c28}）`).join('、')}。${refDays28.length ? '参照元は「記事を調べる」で見られる。' : '参照元の記録は始めたばかり。訪問はボットを含む数。'}`);
+const readers = (r) => (r.h28 != null ? r.h28 : r.v28);
+const nonSearch = articles.filter((r) => readers(r) >= 10 && r.c28 / readers(r) < 0.2).sort((a, b) => readers(b) - readers(a)).slice(0, 5);
+if (nonSearch.length) push('info', 'non-search', `検索のクリックが読者の 2 割未満なのに読まれている記事が ${nonSearch.length} 本：${nonSearch.map((r) => `「${r.title.slice(0, 20)}」（${r.h28 != null ? '読者' : '訪問'} ${readers(r)}・検索クリック ${r.c28}）`).join('、')}。${refDays28.length ? '読者はボットを除いた数。X か直接か等の内訳は Web Analytics の有効化待ち。' : '訪問はボットを含む数。'}`);
 const ngs = a8Rows.filter((r) => r.ng);
 if (ngs.length) push('warn', 'ng-program', `A8 の提携中に、ブログの読者層と合わない案件が ${ngs.length} 件（${ngs.map((r) => r.name.slice(0, 20)).join('、')}）。記事には使わない。`);
 const staleness = [['検索データ', gsc?.generated], ['A8 の一覧', a8?.generated], ['読者データ', lastDay]].filter(([, t]) => t && daysAgo(t) > 9);
