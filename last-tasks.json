@@ -1,1 +1,3 @@
-[]
+[
+      {"task": "x269-read-badge-baseline.sh", "rc": 0, "out": "青バッジ取得後の出発点を読んだ / badge-baseline.md"}
+  ]
