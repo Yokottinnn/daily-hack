@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T14:31:56Z",
+  "generated_at": "2026-10-12T15:02:08Z",
   "login_lock": {"present": false, "age_hours": 0},
   "cdp": {"healthy": true, "port": 18810},
   "x_jobs": {"loaded": 8, "expected": 8, "ai_total": 15, "halted": false, "missing": []},
@@ -36,9 +36,7 @@
     "com.dailyhack.x-impressions"
   ],
   "reconnect": "既に起動している",
-  "tasks": [
-      {"task": "t289-vc-apply.sh", "rc": 0, "out": "- 申請前の状態: 表示なし - 「新規提携」ボタンが見えない → 送らない  probe rc=0 ```"}
-  ],
+  "tasks": [],
   "running": null,
   "auth": {
     "ok": false,
