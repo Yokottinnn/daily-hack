@@ -1,1 +1,3 @@
-[]
+[
+      {"task": "t276-rakuten-fresh-login2.sh", "rc": 0, "out": " ```text rakuten: ログイン済み / 楽天ID 0 件 ``` rc=0 /      273 bytes"}
+  ]
