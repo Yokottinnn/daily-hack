@@ -1,1 +1,3 @@
-[]
+[
+      {"task": "x288-read-unfollow-state.sh", "rc": 0, "out": "アンフォローの実際を読んだ / unfollow-state.md"}
+  ]
