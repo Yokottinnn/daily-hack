@@ -1,3 +1,3 @@
 [
-      {"task": "x288-read-unfollow-state.sh", "rc": 0, "out": "アンフォローの実際を読んだ / unfollow-state.md"}
+      {"task": "x289-unfollow-oneway-always.sh", "rc": 0, "out": "片思いは比率に関係なく外すようにし、いま走らせた / unfollow-oneway-always.md"}
   ]
