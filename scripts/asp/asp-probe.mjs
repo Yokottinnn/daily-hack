@@ -353,6 +353,55 @@ try {
       lines.push(`## VC「${name}」 adDetail/${id}（${here()}・題名 ${(await p.title()).slice(0, 30)}）`, ...els.filter((x) => !NG.test(x)).map((x) => `- ${x}`), '');
     }
   }
+  if (WHICH === 'applyvc2') {
+    // **VC の提携申請・2 回目（t291）。利用者が 2026-10-12 に「4 社とも申請する」を選んだ。**
+    // t290 で、詳細ページの「新規提携」は検索メニューの項目で申請ボタンではないと分かった。
+    // 申請は広告一覧の行のチェック（make_new_ad[]）＋「チェックしたプログラムと一括提携」で行う。1 社ずつ送る。
+    // 確認画面に費用の記載がある／送信ボタンが 1 つに決まらない → その社は送らない
+    const vis = (e) => { const r = e.getBoundingClientRect(); const cs = getComputedStyle(e); return r.width > 0 && r.height > 0 && cs.visibility !== 'hidden' && cs.display !== 'none'; };
+    const search = async (kw) => { await go(`https://aff.valuecommerce.ne.jp/ad/adList?${encodeURIComponent('ad_search_condition_form[keyword]')}=${encodeURIComponent(kw)}&${encodeURIComponent('ad_search_condition_form[appStatus]')}=`); };
+    const rowInfo = (id) => p.evaluate((id) => {
+      const a = document.querySelector(`a[href*="adDetail/${id}"], form[action*="adDetail/${id}"]`); if (!a) return null;
+      let r = a; for (let i = 0; i < 10 && r.parentElement; i++) { r = r.parentElement; if (r.querySelector('input[name="make_new_ad[]"]') || r.tagName === 'TR') break; }
+      const cb = r.querySelector('input[name="make_new_ad[]"]');
+      const ls = r.querySelector('input[name="apply_link_switch[]"]');
+      return { status: ((r.innerText || '').match(/提携中|提携済み?|提携待ち|未提携|審査中|即時提携|審査提携|自動提携|再申請可|否認/g) || []).join('・'),
+        cb: cb ? { value: cb.value, disabled: cb.disabled, checked: cb.checked } : null, ls: ls ? { value: ls.value, disabled: ls.disabled } : null };
+    }, id);
+    for (const [name, kw, id] of [['Yahoo!トラベル', 'Yahoo!トラベル', 2026983], ['ふるなび', 'ふるなび', 2142798], ['一休.com', '一休', 179], ['じゃらんnet', 'じゃらん', 2021810]]) {
+      await search(kw);
+      const ri = await rowInfo(id);
+      lines.push(`## VC「${name}」 adDetail/${id}`, `- 一覧の行: ${ri ? `状態「${ri.status || '表示なし'}」・チェック欄 ${ri.cb ? JSON.stringify(ri.cb) : 'なし'}・LinkSwitch 欄 ${ri.ls ? JSON.stringify(ri.ls) : 'なし'}` : '一覧に出ない'}`);
+      if (!ri || !ri.cb || ri.cb.disabled) { lines.push('- チェックできない → 送らない', ''); continue; }
+      await p.locator(`input[name="make_new_ad[]"][value="${ri.cb.value}"]`).first().check({ force: true, timeout: 5000 }).catch((e) => lines.push(`- ⚠️ チェックできない: ${String(e).split('\n')[0]}`));
+      const bulk = p.locator('button, input[type=button], input[type=submit]').filter({ hasText: /チェックしたプログラムと一括提/ });
+      const bn = await bulk.count();
+      if (bn < 1) { lines.push('- 一括提携のボタンが無い → 送らない', ''); continue; }
+      lines.push(`- 一括提携のボタン: 「${(await bulk.first().innerText().catch(() => '')).trim()}」（${bn} 個。先頭を押す）`);
+      await bulk.first().click({ force: true, timeout: 5000 }).catch((e) => lines.push(`- ⚠️ 押せない: ${String(e).split('\n')[0]}`));
+      await p.waitForTimeout(3500);
+      const d = await p.evaluate((visSrc) => { const vis = eval(visSrc);
+        const ds = [...document.querySelectorAll('[role=dialog], .modal, .modal-dialog, .ui-dialog, [class*=modal], [class*=dialog]')].filter(vis);
+        const root = ds.length ? ds[ds.length - 1] : document.querySelector('main') || document.body;
+        return { inDialog: ds.length > 0, url: location.href.replace(/\?.*$/, ''), text: root.innerText.replace(/\s+/g, ' ').trim().slice(0, 700),
+          btns: [...root.querySelectorAll('a,button,input[type=submit],input[type=button]')].filter(vis).map((b) => (b.innerText || b.value || '').trim()).filter(Boolean).slice(0, 14) }; }, vis.toString());
+      lines.push(`- 押した後: ${d.inDialog ? 'ダイアログ' : '画面'}（${d.url}）`, `  - 文: ${NG.test(d.text) ? '（会員情報を含むので伏せる）' : d.text}`, `  - ボタン: ${d.btns.join(' / ')}`);
+      if (/有料|料金|手数料|費用|課金|支払/.test(d.text)) { lines.push('- ⛔ 費用に関する記載がある → 送らない', ''); continue; }
+      const sendRe = /^(提携申請(する)?|申請する|提携する|一括提携(申請)?(する)?|提携を申請する|申し込む|OK|はい|送信|確定|同意して申請)$/;
+      const scope = d.inDialog ? '[role=dialog] :is(a,button,input[type=submit],input[type=button]):visible, .modal :is(a,button,input[type=submit],input[type=button]):visible, [class*=modal] :is(a,button,input[type=submit],input[type=button]):visible, [class*=dialog] :is(a,button,input[type=submit],input[type=button]):visible' : 'a:visible, button:visible, input[type=submit]:visible, input[type=button]:visible';
+      const sb = p.locator(scope).filter({ hasText: sendRe });
+      const cnt = await sb.count();
+      if (cnt !== 1) { lines.push(`- ⛔ 送信ボタンが ${cnt} 個（1 個に決まらない）→ 送らない`, ''); await p.keyboard.press('Escape').catch(() => {}); continue; }
+      lines.push(`- 送信: 「${(await sb.first().innerText().catch(() => '')).trim()}」を押す`);
+      await sb.first().click({ timeout: 5000 }).catch((e) => lines.push(`- ⚠️ 押せない: ${String(e).split('\n')[0]}`));
+      await p.waitForTimeout(4000);
+      const after = await p.evaluate(() => (document.body.innerText.match(/[^\n]*(提携|申請|完了|受け付け|エラー)[^\n]*/g) || []).map((x) => x.trim().slice(0, 90)).slice(0, 6));
+      lines.push(...after.filter((x) => !NG.test(x)).map((x) => `- 送った直後: ${x}`));
+      await search(kw);
+      const ri2 = await rowInfo(id);
+      lines.push(`- **送った後の一覧の行: 状態「${ri2 ? ri2.status || '表示なし' : '一覧に出ない'}」・チェック欄 ${ri2 && ri2.cb ? JSON.stringify(ri2.cb) : 'なし'}**`, '');
+    }
+  }
   if (WHICH === 'applyvc') {
     // **VC の提携申請（t289）。利用者が 2026-10-12 に「4 社とも申請する」を選んだ。**
     // 確認画面を読んでから送る。費用・有料・想定外の項目が見えたら、その社は送らずに止まる
