@@ -220,6 +220,21 @@ tr[data-ccount]::after{top:4px;right:4px}
     </tbody></table></div>
 </section>
 
+<!-- ============ 記事の構想 ============ -->
+<section class="page" data-page="ideas" data-title="記事の構想" hidden>
+  <div class="eyebrow">記事の構想</div>
+  <h1>次に書く記事と、成果リンクを入れる記事</h1>
+  <p class="lead">構想は「いまのトレンドのワード」「X で反応が良かった話題」「検索で勝てている型」と、提携中の案件を突き合わせて出します。<strong>書きたいものにチェックを付けるだけ</strong>で、Claude が記事担当（blog3）に依頼として渡します。トレンドのワードは Mac が Google トレンドと Yahoo! リアルタイム検索から読んだもの（読むだけ・$0）です。</p>
+  <h2>記事の構想</h2>
+  <div class="filters" id="idea-filters"><button type="button" data-f="idea" aria-pressed="true">候補</button><button type="button" data-f="picked" aria-pressed="false">書くと決めた</button><button type="button" data-f="all" aria-pressed="false">すべて</button></div>
+  <div id="ideas"><p class="empty">読み込み中</p></div>
+  <h2 data-cid="ideas.links">成果リンクを入れる記事</h2>
+  <p>全 78 記事のうち 61 記事は成果リンクが 0 本です（2026-10-14 に数えた）。読者の多い順に、提携中の案件を割り当てています。楽天のリンクは 10/14 に取ったあなたのアフィリエイト ID でそろえます。</p>
+  <div class="tbl wf"><table>
+    <thead><tr><th>記事</th><th>読者（28 日）</th><th>入れる案件</th><th>メモ</th><th>状態</th></tr></thead>
+    <tbody id="tbl-linkplan"><tr><td colspan="5" class="empty">読み込み中</td></tr></tbody></table></div>
+</section>
+
 <!-- ============ 現状 ============ -->
 <section class="page" data-page="now" data-title="現状の数字" hidden>
   <div class="eyebrow">現状の数字</div>
@@ -898,6 +913,8 @@ tr[data-ccount]::after{top:4px;right:4px}
     function renderList(){ const list=ALL.filter(c=>fbF==='all'||(fbF==='open'&&!c.reply)||(fbF==='site'&&c.scope==='site')||(fbF==='block'&&c.scope!=='site')); const box=$('#all-comments'); if(!list.length){box.innerHTML='<p class="empty">該当するコメントはありません。</p>';return;} box.replaceChildren(...list.map(c=>renderComment(c,true))); }
     $$('#fb-filters button').forEach(b=>b.addEventListener('click',()=>{ fbF=b.dataset.f; $$('#fb-filters button').forEach(x=>x.setAttribute('aria-pressed',x===b?'true':'false')); renderList(); }));
     // スナップショット・更新履歴
+    db.collection('ideas').onSnapshot(snap=>{ IDEAS=snap.docs.map(d=>Object.assign({id:d.id},d.data())); renderIdeas(); const n=IDEAS.filter(t=>t.status==='idea').length, b=$('a[data-page="ideas"] .badge',toc); if(b){ b.hidden=!n; b.textContent=n; } },()=>{ $('#ideas').innerHTML='<p class="empty">読み込めませんでした。</p>'; });
+    db.collection('linkplan').onSnapshot(snap=>{ LINKS=snap.docs.map(d=>Object.assign({id:d.id},d.data())); renderLinkplan(); },()=>{});
     db.collection('todos').onSnapshot(snap=>{ TODOS=snap.docs.map(d=>Object.assign({id:d.id},d.data())); renderTodos(); const n=TODOS.filter(t=>t.status==='you').length, b=$('a[data-page="tasks"] .badge',toc); if(b){ b.hidden=!n; b.textContent=n; } },()=>{ $('#todos').innerHTML='<p class="empty">読み込めませんでした。</p>'; });
     db.doc('snapshot/latest').onSnapshot(s=>{ if(s.exists){ SNAP=s.data(); try{ renderSnapshot(SNAP); }catch(e){ console.error(e); } } else { $('#meta-data').textContent='まだ届いていない'; } },()=>{});
     db.collection('changelog').orderBy('date','desc').limit(60).onSnapshot(s=>{ const box=$('#changelog'); if(s.empty){box.innerHTML='<p class="empty">まだありません。</p>';return;} box.replaceChildren(...s.docs.map(d=>{ const v=d.data(), el=document.createElement('div'); el.className='c'; el.dataset.cid='changelog.'+d.id; el.innerHTML='<div class="h"><span class="pill info">'+esc(v.kind||'更新')+'</span><span>'+esc(v.date||'')+'</span></div><div class="b"><b>'+esc(v.summary||'')+'</b></div>'+((v.items||[]).length?'<ul class="plain" style="margin:6px 0 0">'+v.items.map(i=>'<li>'+esc(i)+'</li>').join('')+'</ul>':''); return el; })); },()=>{});
@@ -1023,6 +1040,26 @@ tr[data-ccount]::after{top:4px;right:4px}
   // ---- タスク ----
   let TODOS=[], todoF='open';
   const ST={you:['warn','あなたの番'],claimed:['info','確認待ち'],claude:['info','Claude の番'],verified:['ok','完了（確認済み）']};
+  let IDEAS=[], LINKS=[], ideaF='idea';
+  const IST={idea:['','候補'],picked:['info','書くと決めた'],requested:['info','blog3 に依頼済み'],published:['ok','公開済み']};
+  function renderIdeas(){
+    const box=$('#ideas'); if(!box) return;
+    const rows=IDEAS.filter(t=>ideaF==='all'||(ideaF==='picked'?t.status!=='idea':t.status==='idea')).sort((a,b)=>(a.order||99)-(b.order||99));
+    if(!rows.length){ box.innerHTML='<p class="empty">該当する構想はありません。</p>'; return; }
+    box.replaceChildren(...rows.map(t=>{ const el=document.createElement('div'); el.className='todo'; el.dataset.cid='ideas.'+t.id;
+      const st=IST[t.status]||IST.idea;
+      el.innerHTML='<input type="checkbox" '+(t.status!=='idea'?'checked ':'')+(t.status==='idea'||t.status==='picked'?'':'disabled ')+'aria-label="これを書く"><div><b>'+esc(t.title)+'</b><div class="meta"><span class="pill '+st[0]+'">'+st[1]+'</span>'+(t.since?'<span>'+esc(t.since)+' から</span>':'')+'</div>'
+        +'<div class="how"><b>根拠</b>：'+esc(t.trend||'')+'</div><div class="how"><b>案件</b>：'+esc(t.programs||'')+'</div>'+(t.note?'<div class="note">'+esc(t.note)+'</div>':'')+'</div>';
+      const cb=el.querySelector('input'); cb.addEventListener('change',()=>{ if(!db) return; db.doc('ideas/'+t.id).update(cb.checked?{status:'picked',pickedAt:new Date().toISOString()}:{status:'idea'}).catch(()=>{cb.checked=!cb.checked;}); });
+      return el; }));
+    applyCounts();
+  }
+  $$('#idea-filters button').forEach(b=>b.addEventListener('click',()=>{ ideaF=b.dataset.f; $$('#idea-filters button').forEach(x=>x.setAttribute('aria-pressed',x===b?'true':'false')); renderIdeas(); }));
+  const LST={plan:['','予定'],requested:['info','blog3 に依頼済み'],done:['ok','入れた']};
+  function renderLinkplan(){ const tb=$('#tbl-linkplan'); if(!tb) return;
+    const rows=LINKS.slice().sort((a,b)=>(a.order||99)-(b.order||99));
+    tb.innerHTML=rows.map(r=>{ const st=LST[r.status]||LST.plan; return '<tr data-cid="ideas.l.'+esc(r.id)+'"><td><a href="https://daily-hack.fieldbeside.com/posts/'+esc(r.slug||r.id)+'/" target="_blank" rel="noopener">'+esc(r.title||r.id)+'</a></td><td>'+esc(r.readers28||'')+'</td><td>'+esc(r.programs||'')+'</td><td>'+esc(r.note||'')+'</td><td><span class="pill '+st[0]+'">'+st[1]+'</span></td></tr>'; }).join('')||'<tr><td colspan="5" class="empty">データなし</td></tr>';
+    applyCounts(); }
   function renderTodos(){
     const box=$('#todos'); if(!box) return;
     const rows=TODOS.filter(t=>todoF==='open'?t.status!=='verified':todoF==='you'?t.status==='you':todoF==='claude'?(t.status==='claude'||t.status==='claimed'):t.status==='verified')
