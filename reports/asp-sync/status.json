@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-14T14:07:39.430Z",
+  "generated": "2026-10-14T14:20:34.636Z",
   "providers": {
     "rakuten": {
       "name": "楽天アフィリエイト",
@@ -10,7 +10,7 @@
       "url": "https://affiliate.rakuten.co.jp/report/summary",
       "title": "【楽天アフィリエイト】 - レポート",
       "affiliateIds": [],
-      "menus": 5
+      "menus": 6
     }
   }
 }

@@ -1,3 +1,3 @@
 [
-      {"task": "x292-read-mutual-prune-2.sh", "rc": 0, "out": "相互フォローの整理の結果を読んだ / mutual-prune-result-2.md"}
+      {"task": "t294-rakuten-app-id.sh", "rc": 0, "out": "- Affiliate ID  - applicationId を Keychain（dailyhack-rakuten-ws）に入れた（36 文字） ``` rc=0 /      703 bytes"}
   ]
