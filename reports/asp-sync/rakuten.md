@@ -1,6 +1,6 @@
 # 楽天アフィリエイト（asp-sync）
 
-生成: **2026-10-14T14:03:05.100Z**
+生成: **2026-10-14T14:07:39.430Z**
 
 - ログイン: **できている**
 - 最終 URL: https://affiliate.rakuten.co.jp/report/summary
@@ -13,7 +13,6 @@
 | レポート | https://affiliate.rakuten.co.jp/report?l-id=af_header_mypage_02 |
 | レポート | https://affiliate.rakuten.co.jp/report/summary?l-id=af_header_mypage_02 |
 | サイト情報の登録 | https://affiliate.rakuten.co.jp/user/sites?l-id=af_header_mypage_03 |
-| 2026年10月1日(木) 【10月応募開始】SNSリンク別レポートキャンペーン | https://affiliate.rakuten.co.jp/info/#20261001 |
 | レポート | https://affiliate.rakuten.co.jp/report/summary?l-id=af_footer_mypage_02 |
 | サイト情報の登録 | https://affiliate.rakuten.co.jp/user/sites?l-id=af_footer_mypage_03 |
 
@@ -52,17 +51,6 @@ SNSでの紹介方法
 アフィリエイト収入の納税について
 規約違反行為の通報
 ログアウト
-トップページ
-アフィリエイトレポート
-2026年10月1日(木) 【10月応募開始】SNSリンク別レポートキャンペーン
-ショップ別
-注文明細
-クリック数 0
-売上件数 未確定 0
-CVR 0.00%
-売上金額
-クリック
-売上件数
 マイページ マイページ レポート サイト情報の登録
 マイページ
 レポート

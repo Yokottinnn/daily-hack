@@ -1,10 +1,11 @@
 # ASP の画面調べ: rakutentabs（asp-probe）
 
-生成: **2026-10-11T12:18:31.718Z**
+生成: **2026-10-14T14:07:57.322Z**
 
 ## 楽天ウェブサービスのタブ 1 枚
 
 ### https://webservice.rakuten.co.jp/app/create（Register a new application）
+- 表示: Application name must not contain special characters
 - 行: Agree to the terms of service and then fill in the required items.
 - 行: The Developer must be Rakuten Members who have registered as a Rakuten Member following th
 - 行: 1. When using the Web Services, the Developer will complete the required items in the desi
