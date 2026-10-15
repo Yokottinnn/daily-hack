@@ -71,6 +71,11 @@ references:
 | 2026年8月 | <span class="cell-brand"><img class="brand-logo-sm" src="/images/credit-card-kaiaku-2026/logos/eposcard.jpg" alt="" loading="lazy" />エポスカード</span> | 決済サービスへのチャージ（ANA Pay/au PAY/JAL Pay/PayPay残高/楽天Edy/交通系IC等）の**ポイント加算終了** | 🟠中 |
 | （朗報） | <span class="cell-brand"><img class="brand-logo-sm" src="/images/credit-card-kaiaku-2026/logos/rakutenpay.png" alt="" loading="lazy" />楽天ペイ</span> | 予定されていた1.5%→1.0%の引き下げ＆提示条件厳格化が**見合わせ** | 🟢 |
 
+<!-- a8-banners placed by banner-place (hapitas) -->
+<div class="affiliate-block">
+<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+33XJA2+1LP8+CALN5" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/hapitas-300x250.jpg" alt="高還元率ポイントサイト【ハピタス】　無料会員登録プロモーション" width="300" height="250" loading="lazy"></a></div>
+</div>
+
 <div class="section-with-mascot">
   <div class="mascot-wrap"><img src="/images/expr-07-gasp.png" alt="" /></div>
   <h2 id="カード別に何が変わったかを詳しく">カード別に、何が変わったかを詳しく</h2>
@@ -142,6 +147,11 @@ PayPay陣営は自社決済への集約を強めていて、<strong>チャージ
 
 これは2027年に向けても続くトレンド。<strong>“どのカードが今お得か”を追いかけるより、“自分の生活導線に合った経済圏を1つ決めて深く使う”</strong>ほうが、結局いちばん損しない。
 
+<!-- a8-banners placed by banner-place (chobirich) -->
+<div class="affiliate-block">
+<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B43JB+C507KQ+389A+67RK1" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/chobirich-300x250.jpg" alt="ちょびリッチ" width="300" height="250" loading="lazy"></a></div>
+</div>
+
 <div class="section-with-mascot">
   <div class="mascot-wrap"><img src="/images/expr-05-smug.png" alt="" /></div>
   <h2 id="でどこに乗り換える2026年の堅実な逃げ先">で、どこに乗り換える？ 2026年の堅実な逃げ先</h2>
@@ -212,6 +222,12 @@ PayPay陣営は自社決済への集約を強めていて、<strong>チャージ
     </tbody>
   </table>
 </div>
+
+<!-- a8-banners placed by banner-place (warau) -->
+<div class="affiliate-block">
+<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+N7Y56+3ZZC+HY069" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/warau-300x250.jpg" alt="ポイ活ならワラウ【ワラウ】（広告利用ボーナスクリア）" width="300" height="250" loading="lazy"></a></div>
+</div>
+
 ## まとめ — 「絞られた前提」で組み直すのが2026年の正解
 
 2026年の改悪を一言でまとめると、**「チャージ技・現物タッチ・公共料金1%」という“裏技めいた稼ぎ方”が次々に塞がれた年**。逆に言えば、**素の基本還元率が高い王道カードを軸に、自分の経済圏を1つ決めて深く使う**人は、ほとんど影響を受けない。

@@ -8,6 +8,7 @@ draft: false
 eyecatchUrl: "/images/lalaport-guide-2026/eyecatch.jpg"
 eyecatchAlt: "ららぽーと売上ランキング 2026｜全20施設を決算資料で並べた（面積・店舗数つき）"
 author: "hacker-ko"
+isPR: true
 ---
 
 「ららぽーとって全部でいくつあるの？」「どこが一番デカいの？」——検索しても、出てくるのは店舗一覧のコピペか、行った感想ばかり。**数字で答えてる記事がない。**
@@ -109,6 +110,11 @@ author: "hacker-ko"
 **上位10施設のうち4つが三井不動産の所有。** ららぽーと単体で見るより、この事実のほうが業界構造を表してる。
 
 <p class="source-note">出典：同資料33ページ（原典は繊研新聞 2025年8月13日付）。FY2024の数値なので、上の表（FY2025）とは年度が違う点に注意。</p>
+
+<!-- a8-banners placed by banner-place (earthcar) -->
+<div class="affiliate-block">
+<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+383KII+43U8+HX5B5" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/earthcar-300x250.jpg" alt="【入会金・月会費０円だから超高CVR】おトクがいっぱいのカーシェア「EARTHCAR」" width="300" height="250" loading="lazy"></a></div>
+</div>
 
 <div class="section-with-mascot">
   <div class="mascot-wrap"><img src="/images/expr-07-gasp.png" alt="Daily Hackマスコット" /></div>
@@ -603,6 +609,11 @@ TOKYO-BAYの**2.1倍**。この表の最下位（愛知東郷 46.0万円）と�
 **北海道・東北・中国・四国には1施設も無い。** 九州は福岡の1施設だけで、これが最西端。「近所にららぽーとが無い」と感じるなら気のせいではなく、**実際に空白地帯**である。
 
 開業年代で見ると 1980年代1・2000年代6・2010年代8・2020年代5 で、**2010年代の8施設が最も多い**。
+
+<!-- a8-banners placed by banner-place (travelist-hotel) -->
+<div class="affiliate-block">
+<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+35PU3E+4XZI+BXIYP" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/travelist-hotel-300x250.jpg" alt="【国内ホテル・宿泊・旅館予約｜トラベリスト】" width="300" height="250" loading="lazy"></a></div>
+</div>
 
 ## ららぽーと一覧｜全国に何店舗？国内20施設を開業順に
 

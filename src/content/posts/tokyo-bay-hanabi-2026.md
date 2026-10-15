@@ -4,7 +4,7 @@ description: "東京湾大華火祭が11年ぶりに復活。2026年10月24日(�
 publishDate: 2026-07-05
 category: ["wangan-life", "campaigns"]
 tags: ["東京湾大華火祭", "花火大会", "2026", "中央区", "港区", "晴海", "チケット", "抽選", "湾岸"]
-isPR: false
+isPR: true
 draft: false
 featured: true
 eyecatchUrl: "/images/tokyo-bay-hanabi-2026/eyecatch.jpg"
@@ -69,6 +69,11 @@ references:
 | 主催 | 東京湾大華火祭実行委員会 |
 
 > 出典: <a href="https://tokyo-hanabi-festival.com/ticket/" target="_blank" rel="noopener nofollow">東京湾大華火祭 公式</a>、<a href="https://www.city.chuo.lg.jp/a0013/r8tokyohanabifestival.html" target="_blank" rel="noopener nofollow">中央区</a>、<a href="https://www.city.minato.tokyo.jp/chiikishinkou/hanabi.html" target="_blank" rel="noopener nofollow">港区</a>。**歩道等で立ち止まっての観覧は不可**。荒天時の対応は公式の最新情報を確認して。
+
+<!-- a8-banners placed by banner-place (travelist-hotel) -->
+<div class="affiliate-block">
+<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+35PU3E+4XZI+BXIYP" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/travelist-hotel-300x250.jpg" alt="【国内ホテル・宿泊・旅館予約｜トラベリスト】" width="300" height="250" loading="lazy"></a></div>
+</div>
 
 <div class="section-with-mascot">
   <div class="mascot-wrap"><img src="/images/expr-07-gasp.png" alt="" /></div>

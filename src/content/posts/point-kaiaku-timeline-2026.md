@@ -4,7 +4,7 @@ description: "PayPay 6月大改悪、dポイント公共料金半減＆ポイ活
 publishDate: 2026-06-13
 category: ["comparisons", "roundups"]
 tags: ["ポイント改悪", "PayPay改悪", "dポイント", "楽天ポイント", "Vポイント", "クレカ改悪", "年表", "2026年", "ポイ活"]
-isPR: false
+isPR: true
 draft: false
 featured: true
 eyecatchUrl: "/images/point-kaiaku-timeline-2026/eyecatch.jpg"
@@ -43,6 +43,11 @@ references: ["https://www.paypay-card.co.jp/info/009410.html", "https://k-tai.wa
 
 > 💡 区分の見方：🔴改悪／🟠🟡条件変更・縮小／🟢改良。日付・数字は公式または準一次（日経・ITmedia・ケータイWatch等）で確認。詳細は各リンク先を参照。
 
+<!-- a8-banners placed by banner-place (hapitas) -->
+<div class="affiliate-block">
+<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+33XJA2+1LP8+CALN5" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/hapitas-300x250.jpg" alt="高還元率ポイントサイト【ハピタス】　無料会員登録プロモーション" width="300" height="250" loading="lazy"></a></div>
+</div>
+
 ## 🔻 影響が大きかった改悪 TOP5
 
 <div class="compare-cards">
@@ -77,6 +82,11 @@ references: ["https://www.paypay-card.co.jp/info/009410.html", "https://k-tai.wa
 1. **クレカ積立 上限5万→10万円（2024/3/8）** … 還元1%なら年6,000→12,000ptへ枠拡大
 2. **普通預金金利UP（2026/2/2）** … 3メガ0.3%、あおぞらBANK 0.75%（100万円まで）。「金利のある世界」復活
 3. **Tポイント×Vポイント統合（2024/4/22）** … 使える店がVisa加盟店全体に拡大
+
+<!-- a8-banners placed by banner-place (chobirich) -->
+<div class="affiliate-block">
+<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B43JB+C507KQ+389A+67RK1" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/chobirich-300x250.jpg" alt="ちょびリッチ" width="300" height="250" loading="lazy"></a></div>
+</div>
 
 ## 🔮 次に改悪が来そうな兆候（観測ベース・憶測は明示）
 

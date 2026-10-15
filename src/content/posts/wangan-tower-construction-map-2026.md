@@ -8,6 +8,7 @@ draft: false
 eyecatchUrl: "/images/eyecatch/wangan-tower-construction-map-2026-thumb.png"
 eyecatchAlt: "湾岸タワマン建設中 全図鑑｜どこに何がいつ建つか、地図と価格で全部まとめた 2026年版"
 author: "hacker-ko"
+isPR: true
 ---
 
 X で「セントラルガーデン月島ザ・タワーの建築進捗！」って写真が流れてきて、あんた「え、月島にまた建つの？」って思ったでしょ。**思ったよね。** アタシは中央区晴海に住んでるから毎日その現場の横を通ってるんだけど、正直いま湾岸で何本クレーンが立ってるか、地元民でもパッと言えない。ポータルサイトは1物件ずつバラバラ、再開発の資料は役所のPDF、進捗写真はXに散在。**全体像がどこにも無い。**
@@ -71,6 +72,11 @@ X で「セントラルガーデン月島ザ・タワーの建築進捗！」っ
 </div>
 
 見た？ **左上の中央区にピンクのピンが4本固まってて、右側の豊洲・東雲・有明はスカスカ。** これが2026年の湾岸の現実。有明や東雲は2010年代に供給し切っちゃったから、いま新築タワーの弾は中央区に偏ってるのよ。
+
+<!-- a8-banners placed by banner-place (softbank-air) -->
+<div class="affiliate-block">
+<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+13W32Y+4MTU+609HT" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/softbank-air-300x250.jpg" alt="工事不要でネット使い放題！月々2468円(税込)〜！【SoftbankAir】" width="300" height="250" loading="lazy"></a></div>
+</div>
 
 <div class="section-with-mascot">
   <div class="mascot-wrap"><img src="/images/expr-07-gasp.png" alt="Daily Hackマスコット" /></div>
@@ -262,6 +268,11 @@ X で「セントラルガーデン月島ザ・タワーの建築進捗！」っ
 <div class="hakkako-says">
   <div class="hakkako-mascot"><img src="/images/expr-09-arms-crossed.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">ここ、<strong>「築地が完成したら勝どき・月島の価値が上がる」って理屈で今の価格を正当化してくる営業</strong>が絶対に出てくる。でも一期のまちびらきですら2030年代前半、全体はもっと先よ。<strong>10年単位の話を、今日の値付けの根拠にしちゃダメ。</strong></div>
+</div>
+
+<!-- a8-banners placed by banner-place (docomo-hikari) -->
+<div class="affiliate-block">
+<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+17GOPM+3SPO+NUMHT" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/docomo-hikari-300x250.jpg" alt="【ドコモ光】新規工事費実質無料！当サイト限定！最大100,000円の高額キャッシュバック！" width="300" height="250" loading="lazy"></a></div>
 </div>
 
 <div class="section-with-mascot">
@@ -534,3 +545,8 @@ X で「セントラルガーデン月島ザ・タワーの建築進捗！」っ
 <p class="source-note">この記事の情報は2026年8月7日時点。各物件の価格・竣工時期・戸数は事業者の公表値で、変更される可能性がある。購入判断の前に必ず公式サイトと販売担当に最終確認しなさい。地図は国土地理院淡色地図を使用（出典：国土地理院ウェブサイト）。</p>
 
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<!-- a8-banners placed by banner-place (au-hikari) -->
+<div class="affiliate-block">
+<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+ZQ1UI+42Y0+5ZMCH" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/au-hikari-300x250.jpg" alt="【auひかり】初期工事費無料！豪華キャンペーン！知らない人はモッタイナイ！" width="300" height="250" loading="lazy"></a></div>
+</div>
