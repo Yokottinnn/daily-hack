@@ -4,7 +4,7 @@ description: "2026年の紅葉は東京が11月29日ごろ。高尾山は11月19
 publishDate: 2026-10-04
 category: ["roundups", "howto"]
 tags: ["紅葉", "紅葉2026", "見頃", "関東", "東京", "東京 紅葉 おすすめ", "高尾山", "六義園", "明治神宮外苑", "新宿御苑", "小石川後楽園", "旧古河庭園", "清澄庭園", "大田黒公園", "昭和記念公園", "日光", "ライトアップ"]
-isPR: false
+isPR: true
 draft: false
 eyecatchUrl: "/images/momiji-2026-kanto/eyecatch.jpg"
 eyecatchAlt: "六義園・明治神宮外苑・昭和記念公園・日光・新宿御苑・高尾山の紅葉写真を並べた、2026年 関東・東京の紅葉見頃予想の表紙"
@@ -63,6 +63,11 @@ references: ["https://sp.jorudan.co.jp/leaf/news/jrd_260902_1.html", "https://ww
 </div>
 
 <span class="event-picks-credit">カード画像は Wikimedia Commons の再利用可ライセンス画像より（新宿御苑: nesnad / CC BY-SA 3.0、高尾山: 江戸村のとくぞう / CC BY-SA 3.0、日光: Raita Futo / CC BY 2.0、六義園: 京浜にけ / CC BY-SA 3.0、明治神宮外苑: Dick Thomas Johnson / CC BY 2.0、昭和記念公園: mrhayata / CC BY-SA 2.0）。</span>
+
+<!-- a8-banners placed by banner-place (travelist-hotel) -->
+<div class="affiliate-block">
+<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+35PU3E+4XZI+BXIYP" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/travelist-hotel-300x250.jpg" alt="【国内ホテル・宿泊・旅館予約｜トラベリスト】" width="300" height="250" loading="lazy"></a></div>
+</div>
 
 <div class="section-with-mascot">
   <div class="mascot-wrap"><img src="/images/expr-07-gasp.png" alt="Daily Hackマスコット" /></div>
@@ -182,6 +187,11 @@ references: ["https://sp.jorudan.co.jp/leaf/news/jrd_260902_1.html", "https://ww
     </a></li>
   </ul>
 </aside>
+
+<!-- a8-banners placed by banner-place (aeon-rentacar) -->
+<div class="affiliate-block">
+<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B43JB+C9ROEY+5RZ8+BXB8X" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/aeon-rentacar-300x250.jpg" alt="イオンコンパスレンタカー" width="300" height="250" loading="lazy"></a></div>
+</div>
 
 <div class="section-with-mascot">
   <div class="mascot-wrap"><img src="/images/expr-07-gasp.png" alt="Daily Hackマスコット" /></div>
@@ -804,4 +814,9 @@ references: ["https://sp.jorudan.co.jp/leaf/news/jrd_260902_1.html", "https://ww
 <div class="hakkako-says">
   <div class="hakkako-mascot"><img src="/images/expr-01-wave.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">今年は<strong>「平年並みか、ちょっと遅い」</strong>。10月中に動くなら日光、11月の前半なら昭和記念公園、11月の終わりから12月の頭は都内の庭園と外苑——この順で回ると外さないわよ。夜なら<strong>小石川後楽園（11/13〜）→六義園（11/25〜）</strong>の順。前売のほうが200円安いから、行く日が決まったら先に買っときなさい。</div>
+</div>
+
+<!-- a8-banners placed by banner-place (yumeyado) -->
+<div class="affiliate-block">
+<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+36B9P6+44YI+HY069" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/yumeyado-300x250.jpg" alt="平日お得な宿泊ならゆめやどにおまかせ【ゆめやど】" width="300" height="250" loading="lazy"></a></div>
 </div>

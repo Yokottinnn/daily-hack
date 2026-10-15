@@ -40,6 +40,11 @@ references:
 
 <p class="source-note">出典: <a href="https://www.tdb.co.jp/report/economic/20260630-neage26y07/">帝国データバンク「食品主要195社 価格改定動向」</a>（2026年6月30日発表）。以下の個別品目は各社リリース／価格まとめメディア（edenred・プライシー等）に基づく2026年7月26日時点の情報で、最終確定は各メーカー公式でご確認を。</p>
 
+<!-- a8-banners placed by banner-place (denki-choice) -->
+<div class="affiliate-block">
+<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+15ODWA+3SPO+TU8U9" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/denki-choice-300x250.jpg" alt="当サイト限定　最大30000円現金キャッシュバック！【電気チョイス】" width="300" height="250" loading="lazy"></a></div>
+</div>
+
 ## いつ・何が上がる？主な改定日リスト
 
 <div class="compare-cards">
@@ -89,6 +94,11 @@ references:
 | 都市ガス | 14.0円/㎥ | **18.0円/㎥** | 14.0円/㎥ |
 
 <p class="source-note">出典: <a href="https://www.meti.go.jp/press/2026/06/20260612003/20260612003.html">経済産業省プレス（2026/6/12）</a>。都市ガスのみ対象（プロパンは対象外）。10月以降は補助縮小・終了で"秋の再値上げ"に注意。エアコン節電の実データは<a href="/posts/summer-electricity-saving-2026/">猛暑2026 電気代を下げる方法</a>で詳しく。</p>
+
+<!-- a8-banners placed by banner-place (gas-choice) -->
+<div class="affiliate-block">
+<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+11ICNU+3SPO+ZRALD" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/gas-choice-300x250.jpg" alt="当サイト限定　最大30000円現金キャッシュバック！ガス代を今よりお安く！【ガスチョイス】" width="300" height="250" loading="lazy"></a></div>
+</div>
 
 <div class="section-with-mascot">
   <div class="mascot-wrap"><img src="/images/expr-01-wave.png" alt="" /></div>
@@ -150,6 +160,12 @@ references:
     </tbody>
   </table>
 </div>
+
+<!-- a8-banners placed by banner-place (enepi-denki) -->
+<div class="affiliate-block">
+<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+25ZTSQ+2W92+1NJZN5" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/enepi-denki-300x250.jpg" alt="東証プライム上場！一番安い電気料金で契約するなら【エネピ】" width="300" height="250" loading="lazy"></a></div>
+</div>
+
 ## まとめ — "先回り"が最大の防御
 
 - 2026年は**7月2,566・8月1,898・9月3,029品目**と波が続く（平均11%）

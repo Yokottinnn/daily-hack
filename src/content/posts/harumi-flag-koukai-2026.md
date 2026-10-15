@@ -4,7 +4,7 @@ description: "五輪選手村跡地の巨大新街・晴海フラッグ。「駅
 publishDate: 2026-08-02
 category: ["wangan-life", "howto"]
 tags: ["晴海フラッグ", "HARUMI FLAG", "湾岸", "マンション", "中央区", "後悔", "住まい選び"]
-isPR: false
+isPR: true
 draft: false
 featured: true
 eyecatchUrl: "/images/harumi-flag-koukai-2026/eyecatch.jpg"
@@ -65,6 +65,11 @@ references:
 </ul>
 
 <p class="source-note">出典: <a href="https://www2.panasonic.biz/jp/solution/town/works/harumi-flag.html" target="_blank" rel="noopener nofollow">Panasonic 導入事例（諸元）</a>／<a href="https://diamond-fudosan.jp/articles/-/1112921" target="_blank" rel="noopener nofollow">ダイヤモンド不動産研究所</a>／<a href="https://www.kencorp.co.jp/housing/properties/206791/" target="_blank" rel="noopener nofollow">KEN</a>。戸数内訳・入居時期は媒体で表記差があり、最終確定は各公式で要確認。</p>
+
+<!-- a8-banners placed by banner-place (softbank-air) -->
+<div class="affiliate-block">
+<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+13W32Y+4MTU+609HT" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/softbank-air-300x250.jpg" alt="工事不要でネット使い放題！月々2468円(税込)〜！【SoftbankAir】" width="300" height="250" loading="lazy"></a></div>
+</div>
 
 ## "後悔"として語られる現実7つ（報道・実際の声つき）
 
@@ -152,6 +157,11 @@ references:
 
 <p class="source-note">出典: <a href="https://manmani.net/?p=47985" target="_blank" rel="noopener nofollow">マンションマニア（価格・間取り）</a>／<a href="https://www.mitsuifudosan.co.jp/corporate/news/2024/0124/" target="_blank" rel="noopener nofollow">三井不動産（ららテラス開業）</a>／子育ては<a href="https://harufula.jp/living/543/" target="_blank" rel="noopener nofollow">街の情報</a>。価格は媒体まとめ・要確認。</p>
 
+<!-- a8-banners placed by banner-place (docomo-hikari) -->
+<div class="affiliate-block">
+<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+17GOPM+3SPO+NUMHT" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/docomo-hikari-300x250.jpg" alt="【ドコモ光】新規工事費実質無料！当サイト限定！最大100,000円の高額キャッシュバック！" width="300" height="250" loading="lazy"></a></div>
+</div>
+
 ## 結論｜向いてる人・向いてない人
 
 <div class="compare-cards">
@@ -201,6 +211,12 @@ references:
     </tbody>
   </table>
 </div>
+
+<!-- a8-banners placed by banner-place (au-hikari) -->
+<div class="affiliate-block">
+<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+ZQ1UI+42Y0+5ZMCH" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/au-hikari-300x250.jpg" alt="【auひかり】初期工事費無料！豪華キャンペーン！知らない人はモッタイナイ！" width="300" height="250" loading="lazy"></a></div>
+</div>
+
 ## まとめ — "みんなの後悔"より"自分の動線"で決める
 
 - **後悔の核は交通**：勝どき徒歩15〜18分・BRT依存。電車通勤で駅近絶対なら不向き

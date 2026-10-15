@@ -48,6 +48,11 @@ author: "hacker-ko"
   </ul>
 </aside>
 
+<!-- a8-banners placed by banner-place (hapitas) -->
+<div class="affiliate-block">
+<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+33XJA2+1LP8+CALN5" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/hapitas-300x250.jpg" alt="高還元率ポイントサイト【ハピタス】　無料会員登録プロモーション" width="300" height="250" loading="lazy"></a></div>
+</div>
+
 ## そもそもQRコード決済が「お得」になる仕組み
 
 なんでクレカじゃダメなの？ って思った人、まずここから整理する。
@@ -140,6 +145,11 @@ QRコード決済の還元は **「基本還元 × チャージ元クレカ還�
     </a></li>
   </ul>
 </aside>
+
+<!-- a8-banners placed by banner-place (chobirich) -->
+<div class="affiliate-block">
+<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B43JB+C507KQ+389A+67RK1" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/chobirich-300x250.jpg" alt="ちょびリッチ" width="300" height="250" loading="lazy"></a></div>
+</div>
 
 ## d払いの特徴: ドコモユーザー・dカード持ちなら「裏の本命」
 

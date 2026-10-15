@@ -5,7 +5,7 @@ publishDate: 2026-09-13
 updatedDate: 2026-10-05
 category: ["roundups", "comparisons"]
 tags: ["ポイ活", "歩いてポイ活", "ランキング", "PayPay", "ANA Pocket", "JAL Wellness & Travel", "トリマ", "BitWalk", "ヘルスリー", "Web3", "マイル", "2026年版"]
-isPR: false
+isPR: true
 draft: false
 eyecatchUrl: "/images/walk-poikatsu-2026/eyecatch.jpg"
 eyecatchAlt: "歩いてポイ活 2026年最新版｜20アプリを5カテゴリに分けて勢力図にした"
@@ -71,6 +71,11 @@ references:
   </a>
 </div>
 <span class="event-picks-credit">カード画像は Wikimedia Commons（CC BY-SA / CC0・各撮影者）より引用。</span>
+
+<!-- a8-banners placed by banner-place (hapitas) -->
+<div class="affiliate-block">
+<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+33XJA2+1LP8+CALN5" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/hapitas-300x250.jpg" alt="高還元率ポイントサイト【ハピタス】　無料会員登録プロモーション" width="300" height="250" loading="lazy"></a></div>
+</div>
 
 <div class="section-with-mascot">
   <div class="mascot-wrap"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
@@ -785,6 +790,11 @@ references:
 </table>
 </div>
 
+<!-- a8-banners placed by banner-place (chobirich) -->
+<div class="affiliate-block">
+<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B43JB+C507KQ+389A+67RK1" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/chobirich-300x250.jpg" alt="ちょびリッチ" width="300" height="250" loading="lazy"></a></div>
+</div>
+
 <div class="section-with-mascot">
   <div class="mascot-wrap"><img src="/images/expr-04-cheer.png" alt="Daily Hackマスコット" /></div>
   <h2 id="insurance">⑤ 保険・自治体型｜ポイントではなく、保険料と商品券が動く</h2>
@@ -1002,4 +1012,9 @@ references:
   <div class="hakkako-mascot"><img src="/images/expr-01-wave.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">歩いて年365円。<strong>笑う額だけど、これ「歩かなくても減らないお金」じゃないのよ。</strong>どうせ歩くなら受け取っておけばいい、ってだけの話。<strong>1万歩を「お金のため」に歩き始めると、たいてい続かない</strong>から、そこだけ気をつけて。
   </div>
+</div>
+
+<!-- a8-banners placed by banner-place (warau) -->
+<div class="affiliate-block">
+<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+N7Y56+3ZZC+HY069" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/warau-300x250.jpg" alt="ポイ活ならワラウ【ワラウ】（広告利用ボーナスクリア）" width="300" height="250" loading="lazy"></a></div>
 </div>

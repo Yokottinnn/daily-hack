@@ -8,6 +8,7 @@ draft: false
 eyecatchUrl: "/images/outlet-mall-guide-2026/eyecatch.jpg"
 eyecatchAlt: "全国アウトレット徹底比較 2026｜32施設を運営会社で並べた"
 author: "hacker-ko"
+isPR: true
 ---
 
 「アウトレットって全部でいくつあるの？」「結局どこが一番デカいの？」——検索しても、出てくるのは地域別のおすすめか、行った感想ばかり。**運営会社ごとに全国を並べて、売上で比較した記事がない。**
@@ -61,6 +62,11 @@ author: "hacker-ko"
 </div>
 
 <span class="event-picks-credit">カード画像は各運営会社の公式サイト（<a href="https://www.premiumoutlets.co.jp/" target="_blank" rel="noopener">プレミアム・アウトレット</a>／<a href="https://mitsui-shopping-park.com/mop/" target="_blank" rel="noopener">三井アウトレットパーク</a>／<a href="https://www.karuizawa-psp.jp/" target="_blank" rel="noopener">軽井沢・プリンスショッピングプラザ</a> ほか）より引用。</span>
+
+<!-- a8-banners placed by banner-place (earthcar) -->
+<div class="affiliate-block">
+<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+383KII+43U8+HX5B5" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/earthcar-300x250.jpg" alt="【入会金・月会費０円だから超高CVR】おトクがいっぱいのカーシェア「EARTHCAR」" width="300" height="250" loading="lazy"></a></div>
+</div>
 
 ## 全国アウトレット売上ランキング｜横断で並べた
 
@@ -178,6 +184,11 @@ author: "hacker-ko"
 </div>
 
 <p class="source-note">出典：<a href="https://www.sojitz-sc.com/nasu-gardenoutlet/" target="_blank" rel="noopener">双日商業開発</a>／<a href="https://www.ashibinaa.com/" target="_blank" rel="noopener">あしびなー公式</a>（店舗数はWikipedia由来で要確認）／<a href="https://www.tokyu-tmd.co.jp/property/grandberry-park/" target="_blank" rel="noopener">東急モールズデベロップメント</a>。南町田はアウトレット専業ではなく複合施設。</p>
+
+<!-- a8-banners placed by banner-place (aeon-rentacar) -->
+<div class="affiliate-block">
+<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B43JB+C9ROEY+5RZ8+BXB8X" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/aeon-rentacar-300x250.jpg" alt="イオンコンパスレンタカー" width="300" height="250" loading="lazy"></a></div>
+</div>
 
 ## 運営会社別の全国分布と独立系
 
@@ -334,3 +345,8 @@ author: "hacker-ko"
 </div>
 
 <p class="source-note">この記事の情報は2026年8月11日時点。売上・施設数・面積は各運営会社および日本ショッピングセンター協会の公表値に基づく。テナント入替や工事で数値は変動するため、来店前には各施設の公式サイトで最新情報を確認すること。横断売上ランキングは各社の公表値を年度をそろえてアタシが並べたもので、統一された公式ランキングが存在するわけではない。</p>
+
+<!-- a8-banners placed by banner-place (travelist-hotel) -->
+<div class="affiliate-block">
+<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+35PU3E+4XZI+BXIYP" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/travelist-hotel-300x250.jpg" alt="【国内ホテル・宿泊・旅館予約｜トラベリスト】" width="300" height="250" loading="lazy"></a></div>
+</div>
