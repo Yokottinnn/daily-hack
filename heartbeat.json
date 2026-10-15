@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-15T09:47:27Z",
+  "generated_at": "2026-10-15T10:18:47Z",
   "login_lock": {"present": false, "age_hours": 0},
   "cdp": {"healthy": true, "port": 18810},
   "x_jobs": {"loaded": 8, "expected": 8, "ai_total": 15, "halted": false, "missing": []},
-  "last_reply": {"at": "2026-10-15T07:05:14.313Z", "age_hours": 2, "stale": false},
+  "last_reply": {"at": "2026-10-15T07:05:14.313Z", "age_hours": 3, "stale": false},
   "supervisor": {"at":"2026-10-15T08:00:19Z","date_jst":"2026-10-15","ran":9,"total":9,"not_run":[],"fixed":[]},
-  "followback_bands": {"with_count":441,"total_rows":800,"bands":{"1000-4999":{"n":152,"back":24,"mature":121,"mature_back":19,"rate":15.7},"300-999":{"n":111,"back":19,"mature":99,"mature_back":18,"rate":18.2},"0-99":{"n":86,"back":16,"mature":82,"mature_back":16,"rate":19.5},"5000-49999":{"n":70,"back":2,"mature":59,"mature_back":2,"rate":3.4},"100-299":{"n":21,"back":5,"mature":20,"mature_back":5,"rate":25},"50000-up":{"n":1,"back":1,"mature":1,"mature_back":1,"rate":100}},"status_values":{"no":619,"revenge_ghost_already_unfollowed":48,"unfollowed":16,"yes_late":1,"yes":92,"pending":24},"note":"mature の率で見る"},
+  "followback_bands": {"with_count":441,"total_rows":800,"bands":{"1000-4999":{"n":152,"back":24,"mature":123,"mature_back":20,"rate":16.3},"300-999":{"n":111,"back":19,"mature":99,"mature_back":18,"rate":18.2},"0-99":{"n":86,"back":16,"mature":82,"mature_back":16,"rate":19.5},"5000-49999":{"n":70,"back":2,"mature":59,"mature_back":2,"rate":3.4},"100-299":{"n":21,"back":5,"mature":20,"mature_back":5,"rate":25},"50000-up":{"n":1,"back":1,"mature":1,"mature_back":1,"rate":100}},"status_values":{"no":619,"revenge_ghost_already_unfollowed":48,"unfollowed":16,"yes_late":1,"yes":92,"pending":24},"note":"mature の率で見る"},
   "host": "NaokinoMBP-2",
   "job_count": 25,
   "jobs": [
@@ -45,11 +45,11 @@
   },
   "activity": {
     "date": "2026-10-15",
-    "posted_today": 30,
+    "posted_today": 32,
     "detail": "ログを走査した",
     "sources": [
-      {"file": "comment-orchestrator.log", "count": 10},
-      {"file": "comment-warmup.log", "count": 20}
+      {"file": "comment-orchestrator.log", "count": 11},
+      {"file": "comment-warmup.log", "count": 21}
     ]
   },
   "autoload": {
