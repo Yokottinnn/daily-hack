@@ -135,6 +135,11 @@ references:
 
 <p class="source-note">出典: <a href="https://ameblo.jp/dotmoney/entry-12974161885.html" target="_blank" rel="noopener nofollow">ドットマネー公式スタッフブログ（再開スケジュール）</a>／<a href="https://www.itmedia.co.jp/news/articles/2606/17/news123.html" target="_blank" rel="noopener nofollow">ITmedia NEWS</a>。再開日は「目処」のため、8/12前後に公式で最終確認を。</p>
 
+<!-- a8-banners placed by banner-place (chobirich) -->
+<div class="affiliate-block">
+<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B43JB+C507KQ+389A+67RK1" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/chobirich-300x250.jpg" alt="ちょびリッチ" width="300" height="250" loading="lazy"></a></div>
+</div>
+
 ## ⑤ 2026年、交換ルートで起きた「主な動き」
 
 出口インフラが立て続けに揺れた1年。**貯める技術より、出口を切らさない設計**が大事になった年よ（図③も参照）。
