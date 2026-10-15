@@ -46,6 +46,7 @@
    だめなら `you` に戻して `note` に何が見えなかったかを書く。`claude` のものは進める（アカウント操作は decisions のチェックがあるものだけ）
 6. **決定を読む**: `ArtifactData list collection=decisions`。`checked: true` で、まだ実行していないものを実行する
    （アカウント操作は `ops/tasks` で。チェックが付いたものだけ）
+6b. **記事の構想を足す**: `ops/heartbeat` の `reports/board/trend/<日付>.json`（毎日 7:10・t296）を 1 週間分読み、提携中の案件と組み合わせられるワードがあれば `ideas` に足す（`status: idea`）。利用者がチェックした（`picked`）ものは blog3 に依頼表で渡し `requested` に。**芸能・事件など案件と結びつかないワードは足さない**
 7. **本文を書き換える**（`scripts/strategy-board/board.html`）: 所見が計画とずれていれば戦略・12 週の予定を直す
    - 例：検索表示が 15% 以上落ちた → 予定の先頭に原因調べを入れる／ある型だけ伸びた → 後半をその型に寄せる
    - **データから言えることだけ書く**（最上位ルール 11）。数字は snapshot に任せ、本文に直書きしない
