@@ -1,4 +1,3 @@
 [
-      {"task": "t296-install-trend-daily.sh", "rc": 0, "out": "## ジョブ  - `com.dailyhack.trend-daily`（毎日 07:10）: **載った**（launchctl print が通る）  - 1 回目を launchd から開始した"},
-      {"task": "x294-ratio-and-announced.sh", "rc": 0, "out": "比率・外した件数・告知済みの記事を読んだ / ratio-and-announced.md"}
+      {"task": "x295-announced-posts-by-slug.sh", "rc": 0, "out": "記事ごとの告知の痕跡を読んだ / announced-posts-by-slug.md"}
   ]
