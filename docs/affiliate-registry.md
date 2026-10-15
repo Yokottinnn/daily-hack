@@ -53,3 +53,18 @@
 ## もしもアフィリエイト
 
 - 提携中は 2 件（記事に合うものは無し・t244）
+
+
+## 楽天アフィリエイトのリンクを入れた記事（法人 ID に張り替えるときの一覧）
+
+2026-10-16 に個人名義の ID（`587f2635…`）で入れた。形は `https://hb.afl.rakuten.co.jp/hgc/<ID>/?pc=<URL>&m=<URL>`（t297 で飛び先と `scid=af_pc_etc` を確認）。**法人審査が通ったら、ここの記事を全部 張り替える。**
+
+| 記事 | 包んだリンク数 | 備考 |
+| --- | --- | --- |
+| `furusato-portal-comparison-2026` | 3 |  |
+| `furusato-tax-2026-reform-guide` | 1 |  |
+| `furusato-tax-beginner-guide-2026` | 1 |  |
+| `furusato-tax-food-picks-2026` | 1 |  |
+| `point-service-complete-guide-2026` | 0 | ID 差し替え |
+| `summer-cospa-travel-2026` | 16 |  |
+| `summer-travel-timesale-2026` | 5 |  |

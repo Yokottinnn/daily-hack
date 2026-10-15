@@ -68,9 +68,9 @@ parentPillar: summer-travel-timesale-2026
 | **一休.com** | [沖縄/北海道 タイムセール](https://www.ikyu.com/special/timesale_samawari/search) | 〜6/9 | 対象プラン最大30%OFF＋会員ポイント |
 | **Yahoo!トラベル** | [サマ割 超得セール](https://travel.yahoo.co.jp/feature/timesale_samawari/search) | 〜6/29 12:00 | カード決済で PayPay 15%以上、最大30〜45%還元プラン |
 | **Yahoo!トラベル** | [いつでも 10%お得](https://travel.yahoo.co.jp/feature/campaign_pointup/) | 通年 | PayPay 10%（LYP会員 同等） |
-| <span class="cell-brand"><img class="brand-logo-sm" src="/images/summer-cospa-travel-2026/logos/rakutentravel.png" alt="" loading="lazy" />**楽天トラベル**</span> | [アーリーサマーフェア](https://event.travel.rakuten.co.jp/special/sales/) | 〜5/29 09:59 | 最大25%OFF＋楽パック2万円OFF＋レンタカー最大41%OFF |
-| <span class="cell-brand"><img class="brand-logo-sm" src="/images/summer-cospa-travel-2026/logos/rakutentravel.png" alt="" loading="lazy" />**楽天トラベル**</span> | [5と0のつく日](https://travel.rakuten.co.jp/camp/50luxday/) | 毎月5/10/15/20/25/30 | クーポン最大20%OFF＋ポイント10倍 |
-| <span class="cell-brand"><img class="brand-logo-sm" src="/images/summer-cospa-travel-2026/logos/rakutentravel.png" alt="" loading="lazy" />**楽天トラベル**</span> | [楽天スーパーDEAL](https://travel.rakuten.co.jp/superdeal/) | 通年 | 30〜40%ポイント還元プラン |
+| <span class="cell-brand"><img class="brand-logo-sm" src="/images/summer-cospa-travel-2026/logos/rakutentravel.png" alt="" loading="lazy" />**楽天トラベル**</span> | [アーリーサマーフェア](https://hb.afl.rakuten.co.jp/hgc/587f2635.77bb335f.587f2636.e34c8733/?pc=https%3A%2F%2Fevent.travel.rakuten.co.jp%2Fspecial%2Fsales%2F&m=https%3A%2F%2Fevent.travel.rakuten.co.jp%2Fspecial%2Fsales%2F) | 〜5/29 09:59 | 最大25%OFF＋楽パック2万円OFF＋レンタカー最大41%OFF |
+| <span class="cell-brand"><img class="brand-logo-sm" src="/images/summer-cospa-travel-2026/logos/rakutentravel.png" alt="" loading="lazy" />**楽天トラベル**</span> | [5と0のつく日](https://hb.afl.rakuten.co.jp/hgc/587f2635.77bb335f.587f2636.e34c8733/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2Fcamp%2F50luxday%2F&m=https%3A%2F%2Ftravel.rakuten.co.jp%2Fcamp%2F50luxday%2F) | 毎月5/10/15/20/25/30 | クーポン最大20%OFF＋ポイント10倍 |
+| <span class="cell-brand"><img class="brand-logo-sm" src="/images/summer-cospa-travel-2026/logos/rakutentravel.png" alt="" loading="lazy" />**楽天トラベル**</span> | [楽天スーパーDEAL](https://hb.afl.rakuten.co.jp/hgc/587f2635.77bb335f.587f2636.e34c8733/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2Fsuperdeal%2F&m=https%3A%2F%2Ftravel.rakuten.co.jp%2Fsuperdeal%2F) | 通年 | 30〜40%ポイント還元プラン |
 | **じゃらん** | [じゃらんクーポンフェス](https://www.jalan.net/theme/jalancouponfes/) | 〜6/12 | 最大2万円割引クーポン（期間別配布） |
 | **じゃらん** | [お得な10日間](https://www.jalan.net/theme/otoku_10days/) | 毎月20日〜 | 最大1万円OFFクーポン |
 | **じゃらん** | [じゃらん夏SALE](https://www.jalan.net/theme/summersale/) | 6月下旬〜8月下旬予定 | 最大15%OFF＋10%ポイント還元 |
@@ -299,7 +299,7 @@ parentPillar: summer-travel-timesale-2026
 
 <figure>
 <img src="/images/travel-summer-2026/beppu-suginoi.jpg" alt="別府温泉 杉乃井ホテル 棚湯" />
-<figcaption>出典：[別府温泉 杉乃井ホテル（楽天トラベル）](https://travel.rakuten.co.jp/HOTEL/5547/5547.html)</figcaption>
+<figcaption>出典：[別府温泉 杉乃井ホテル（楽天トラベル）](https://hb.afl.rakuten.co.jp/hgc/587f2635.77bb335f.587f2636.e34c8733/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F5547%2F5547.html&m=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F5547%2F5547.html)</figcaption>
 </figure>
 
 > 💰 **通常 1泊2食 2名 ¥32,200〜 → サマ割 ¥28,980 + PayPay10%還元**（約 **10% OFF + ポイント還元¥3,000 相当**）
@@ -307,7 +307,7 @@ parentPillar: summer-travel-timesale-2026
 
 段々の **棚湯**と「**アクアガーデン**」ナイトショーが夏の定番。家族連れ向けの王道、PayPay 勢にも嬉しいポイント10%還元。**「夏の九州ファミリー旅でふるさと納税最強」枠**。
 
-**[別府温泉 杉乃井ホテルを Yahoo!トラベルで予約 →](https://travel.yahoo.co.jp/00001104/)** ／ **[楽天トラベルで予約 →](https://travel.rakuten.co.jp/HOTEL/5547/5547.html)**
+**[別府温泉 杉乃井ホテルを Yahoo!トラベルで予約 →](https://travel.yahoo.co.jp/00001104/)** ／ **[楽天トラベルで予約 →](https://hb.afl.rakuten.co.jp/hgc/587f2635.77bb335f.587f2636.e34c8733/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F5547%2F5547.html&m=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F5547%2F5547.html)**
 
 ### ザ ロイヤルパークホテル 舞浜リゾート 東京ベイ（千葉・浦安）
 
@@ -333,14 +333,14 @@ TDR 徒歩圏・無料シャトル付き。サマ割で **ポイント23%還元�
 
 <figure>
 <img src="/images/travel-summer-2026/tokyo-bay-maihama-first.jpg" alt="東京ベイ舞浜ホテル ファーストリゾート 外観" />
-<figcaption>出典：[東京ベイ舞浜ホテル ファーストリゾート（楽天トラベル）](https://travel.rakuten.co.jp/HOTEL/27929/27929.html)</figcaption>
+<figcaption>出典：[東京ベイ舞浜ホテル ファーストリゾート（楽天トラベル）](https://hb.afl.rakuten.co.jp/hgc/587f2635.77bb335f.587f2636.e34c8733/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F27929%2F27929.html&m=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F27929%2F27929.html)</figcaption>
 </figure>
 
 > 💰 **通常 1泊 2名 ¥19,000台 → アーリーサマー ¥14,472〜**（約 **24% OFF / ¥4,500 オフ**、5と0の日でさらに 10% 圧縮可能）
 
 楽天全国売れ筋ランキング1位常連。**TDR公式ホテル**でファンタジー客室、5と0のつく日×楽パッククーポンで更に削れる。
 
-**[東京ベイ舞浜ホテル ファーストリゾートを楽天トラベルで予約 →](https://travel.rakuten.co.jp/HOTEL/27929/27929.html)**
+**[東京ベイ舞浜ホテル ファーストリゾートを楽天トラベルで予約 →](https://hb.afl.rakuten.co.jp/hgc/587f2635.77bb335f.587f2636.e34c8733/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F27929%2F27929.html&m=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F27929%2F27929.html)**
 
 ### 別府温泉 杉乃井ホテル（楽天版）
 
@@ -348,39 +348,39 @@ TDR 徒歩圏・無料シャトル付き。サマ割で **ポイント23%還元�
 
 楽天版だと **スーパーDEAL で30%ポイント還元プラン** が出ることがあり、Yahoo! 版より楽天勢にはコチラ。
 
-**[別府温泉 杉乃井ホテルを楽天トラベルで予約 →](https://travel.rakuten.co.jp/HOTEL/5547/5547.html)**
+**[別府温泉 杉乃井ホテルを楽天トラベルで予約 →](https://hb.afl.rakuten.co.jp/hgc/587f2635.77bb335f.587f2636.e34c8733/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F5547%2F5547.html&m=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F5547%2F5547.html)**
 
 ### グランドニッコー東京ベイ 舞浜（千葉・浦安）
 
 <figure>
 <img src="/images/travel-summer-2026/grand-nikko-tokyo-bay-rakuten.jpg" alt="グランドニッコー東京ベイ 舞浜 外観" />
-<figcaption>出典：[グランドニッコー東京ベイ 舞浜（楽天トラベル）](https://travel.rakuten.co.jp/HOTEL/179245/179245.html)</figcaption>
+<figcaption>出典：[グランドニッコー東京ベイ 舞浜（楽天トラベル）](https://hb.afl.rakuten.co.jp/hgc/587f2635.77bb335f.587f2636.e34c8733/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F179245%2F179245.html&m=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F179245%2F179245.html)</figcaption>
 </figure>
 
 > 💰 **通常 1泊 2名 ¥9,000台 → 楽天ポイント10倍 + 5と0で ¥6,910〜**（**ポイント還元込み実質約 ¥6,200**、約 **30% OFF 相当**）
 
 クラブラウンジ付き上層階フロア・朝食ビュッフェ評判◎。**楽天ポイント10倍と5と0のクーポン**で実質2割超えの圧縮可能。
 
-**[グランドニッコー東京ベイ 舞浜を楽天トラベルで予約 →](https://travel.rakuten.co.jp/HOTEL/179245/179245.html)**
+**[グランドニッコー東京ベイ 舞浜を楽天トラベルで予約 →](https://hb.afl.rakuten.co.jp/hgc/587f2635.77bb335f.587f2636.e34c8733/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F179245%2F179245.html&m=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F179245%2F179245.html)**
 
 ### グランドメルキュール沖縄残波岬リゾート（沖縄・読谷村）
 
 <figure>
 <img src="/images/travel-summer-2026/grand-mercure-zanpa.jpg" alt="グランドメルキュール沖縄残波岬リゾート プール" />
-<figcaption>出典：[グランドメルキュール沖縄残波岬リゾート（楽天トラベル）](https://travel.rakuten.co.jp/HOTEL/30045/30045.html)</figcaption>
+<figcaption>出典：[グランドメルキュール沖縄残波岬リゾート（楽天トラベル）](https://hb.afl.rakuten.co.jp/hgc/587f2635.77bb335f.587f2636.e34c8733/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F30045%2F30045.html&m=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F30045%2F30045.html)</figcaption>
 </figure>
 
 > 💰 **通常 楽パック 1人 ¥35,000台（航空券込）→ アーリーサマー×楽パック2万円OFF で ¥25,000〜**（**¥10,000 オフ / 29% OFF**）
 
 残波岬の崖上、**夕陽の絶景プール**。アーリーサマー×楽パック2万円クーポンで **航空券込みでも他社を切り崩せる**。
 
-**[グランドメルキュール沖縄残波岬リゾートを楽天トラベルで予約 →](https://travel.rakuten.co.jp/HOTEL/30045/30045.html)**
+**[グランドメルキュール沖縄残波岬リゾートを楽天トラベルで予約 →](https://hb.afl.rakuten.co.jp/hgc/587f2635.77bb335f.587f2636.e34c8733/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F30045%2F30045.html&m=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F30045%2F30045.html)**
 
 ### フサキビーチリゾート ホテル＆ヴィラズ（沖縄・石垣島）
 
 <figure>
 <img src="/images/travel-summer-2026/fusaki-beach.jpg" alt="フサキビーチリゾート ホテル&amp;ヴィラズ 石垣島" />
-<figcaption>出典：[フサキビーチリゾート ホテル＆ヴィラズ（楽天トラベル）](https://travel.rakuten.co.jp/HOTEL/38599/38599.html)</figcaption>
+<figcaption>出典：[フサキビーチリゾート ホテル＆ヴィラズ（楽天トラベル）](https://hb.afl.rakuten.co.jp/hgc/587f2635.77bb335f.587f2636.e34c8733/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F38599%2F38599.html&m=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F38599%2F38599.html)</figcaption>
 </figure>
 
 > 💰 **通常 1泊 2名 ¥19,600〜（楽天版 ¥9,000台） → アーリーサマー対象プラン ¥6,919〜**（約 **65% OFF / ¥12,000 オフ**）
@@ -388,20 +388,20 @@ TDR 徒歩圏・無料シャトル付き。サマ割で **ポイント23%還元�
 
 石垣島西海岸の白浜リゾート、**桟橋から美しすぎる夕焼け**。楽天ランキング5位常連で家族・カップル両対応の幅広プラン。**ふるさと納税で攻めるなら一休経由がコスパ最強**。
 
-**[フサキビーチリゾート ホテル＆ヴィラズを楽天トラベルで予約 →](https://travel.rakuten.co.jp/HOTEL/38599/38599.html)**
+**[フサキビーチリゾート ホテル＆ヴィラズを楽天トラベルで予約 →](https://hb.afl.rakuten.co.jp/hgc/587f2635.77bb335f.587f2636.e34c8733/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F38599%2F38599.html&m=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F38599%2F38599.html)**
 
 ### ホテルエミシア札幌（北海道・新札幌）
 
 <figure>
 <img src="/images/travel-summer-2026/emisia-sapporo.jpg" alt="ホテルエミシア札幌 外観" />
-<figcaption>出典：[ホテルエミシア札幌（楽天トラベル）](https://travel.rakuten.co.jp/HOTEL/901/901.html)</figcaption>
+<figcaption>出典：[ホテルエミシア札幌（楽天トラベル）](https://hb.afl.rakuten.co.jp/hgc/587f2635.77bb335f.587f2636.e34c8733/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F901%2F901.html&m=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F901%2F901.html)</figcaption>
 </figure>
 
 > 💰 **通常 楽パック 1人 ¥35,000台（航空券込）→ アーリーサマー×楽パック2万円OFF で ¥25,000〜**（**¥10,000 オフ / 29% OFF**）
 
 **新札幌駅直結**、朝食ビュッフェ評価4.34。アーリーサマー＋楽パックで **航空券込み北海道旅** が組みやすい。航空券込みで2.5万円スタートの北海道は破格。
 
-**[ホテルエミシア札幌を楽天トラベルで予約 →](https://travel.rakuten.co.jp/HOTEL/901/901.html)**
+**[ホテルエミシア札幌を楽天トラベルで予約 →](https://hb.afl.rakuten.co.jp/hgc/587f2635.77bb335f.587f2636.e34c8733/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F901%2F901.html&m=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F901%2F901.html)**
 
 ---
 
