@@ -1013,8 +1013,3 @@ references:
   <div class="hakkako-quote">歩いて年365円。<strong>笑う額だけど、これ「歩かなくても減らないお金」じゃないのよ。</strong>どうせ歩くなら受け取っておけばいい、ってだけの話。<strong>1万歩を「お金のため」に歩き始めると、たいてい続かない</strong>から、そこだけ気をつけて。
   </div>
 </div>
-
-<!-- a8-banners placed by banner-place (warau) -->
-<div class="affiliate-block">
-<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+N7Y56+3ZZC+HY069" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/warau-300x250.jpg" alt="ポイ活ならワラウ【ワラウ】（広告利用ボーナスクリア）" width="300" height="250" loading="lazy"></a></div>
-</div>

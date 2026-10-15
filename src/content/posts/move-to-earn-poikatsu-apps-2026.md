@@ -38,7 +38,6 @@ references: ["https://www.ana.co.jp/travelandlife/article/001953/", "https://www
 
 <!-- a8-banners auto-inserted by banner-fill (slot1-after-1st-h2) -->
 <div class="affiliate-block">
-<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+N7Y56+3ZZC+HY069" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/warau-300x250.jpg" alt="ポイ活ならワラウ【ワラウ】（広告利用ボーナスクリア）" width="300" height="250" loading="lazy"></a></div>
 <div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+33XJA2+1LP8+CALN5" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/hapitas-300x250.jpg" alt="高還元率ポイントサイト【ハピタス】　無料会員登録プロモーション" width="300" height="250" loading="lazy"></a></div>
 </div>
 

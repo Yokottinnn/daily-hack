@@ -148,11 +148,6 @@ references:
   <div class="hakkako-quote">セールの魔力で「安いから」だけで買うのが一番の敵よ。<strong>要る物リストを作ってから、経由してポチる。</strong>この順番を守れば、セールはちゃんと味方になる。猛暑の電気代が気になる人は、家電を底値で更新するのも立派な節約——ついでに固定費も見直しなさい（下に置いとくわ）。</div>
 </div>
 
-<!-- a8-banners auto-inserted by banner-fill (slot1-after-1st-h2) -->
-<div class="affiliate-block">
-<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+N7Y56+3ZZC+HY069" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/warau-300x250.jpg" alt="ポイ活ならワラウ【ワラウ】（広告利用ボーナスクリア）" width="300" height="250" loading="lazy"></a></div>
-</div>
-
 <!-- a8-banners auto-inserted by banner-fill (slot2-middle) -->
 <div class="affiliate-block">
 <div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+33XJA2+1LP8+CALN5" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/hapitas-300x250.jpg" alt="高還元率ポイントサイト【ハピタス】　無料会員登録プロモーション" width="300" height="250" loading="lazy"></a></div>

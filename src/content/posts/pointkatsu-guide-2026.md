@@ -36,9 +36,9 @@ relatedReferrals: ["rakuten-bank", "olive-smbc", "air-wallet", "go-taxi"]
 
 </div>
 
-<!-- a8-banners auto-inserted by banner-fill (slot1-after-1st-h2) -->
+<!-- a8-banners placed by banner-place (hapitas) -->
 <div class="affiliate-block">
-<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+N7Y56+3ZZC+HY069" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/warau-300x250.jpg" alt="ポイ活ならワラウ【ワラウ】（広告利用ボーナスクリア）" width="300" height="250" loading="lazy"></a></div>
+<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+33XJA2+1LP8+CALN5" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/hapitas-300x250.jpg" alt="高還元率ポイントサイト【ハピタス】　無料会員登録プロモーション" width="300" height="250" loading="lazy"></a></div>
 </div>
 
 ## 始める順番が全て
@@ -67,7 +67,6 @@ relatedReferrals: ["rakuten-bank", "olive-smbc", "air-wallet", "go-taxi"]
 
 <!-- a8-section-break -->
 <div class="a8-section-break">
-<div class="a8-banner a8-banner--horizontal-banner"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+N7Y56+3ZZC+HXKQP" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/warau-468x60.jpg" alt="ポイ活ならワラウ【ワラウ】（広告利用ボーナスクリア）" width="468" height="60" loading="lazy" /></a></div>
 </div>
 <!-- /a8-section-break -->
 
@@ -128,7 +127,6 @@ PayPay、楽天ペイ、d払い、au PAY……どれを使うか迷うなら、*
 
 <div class="a8-grid">
 <div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+33XJA2+1LP8+CALN5" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/hapitas.jpg" alt="高還元率ポイントサイト【ハピタス】　無料会員登録プロモーション" width="300" height="250" loading="lazy" /></a></div>
-<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+N7Y56+3ZZC+HY069" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/warau.jpg" alt="ポイ活ならワラウ【ワラウ】（広告利用ボーナスクリア）" width="300" height="250" loading="lazy" /></a></div>
 </div>
 
 </div>

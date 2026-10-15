@@ -135,9 +135,9 @@ references:
 
 <p class="source-note">出典: <a href="https://ameblo.jp/dotmoney/entry-12974161885.html" target="_blank" rel="noopener nofollow">ドットマネー公式スタッフブログ（再開スケジュール）</a>／<a href="https://www.itmedia.co.jp/news/articles/2606/17/news123.html" target="_blank" rel="noopener nofollow">ITmedia NEWS</a>。再開日は「目処」のため、8/12前後に公式で最終確認を。</p>
 
-<!-- a8-banners auto-inserted by banner-fill (slot2-middle) -->
+<!-- a8-banners placed by banner-place (chobirich) -->
 <div class="affiliate-block">
-<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+N7Y56+3ZZC+HY069" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/warau-300x250.jpg" alt="ポイ活ならワラウ【ワラウ】（広告利用ボーナスクリア）" width="300" height="250" loading="lazy"></a></div>
+<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B43JB+C507KQ+389A+67RK1" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/chobirich-300x250.jpg" alt="ちょびリッチ" width="300" height="250" loading="lazy"></a></div>
 </div>
 
 ## ⑤ 2026年、交換ルートで起きた「主な動き」

@@ -39,11 +39,6 @@ references: ["https://www.anapocket.com/pro", "https://www.jal.co.jp/jp/ja/jmb/w
 
 > 🎯 **一言でいうと**：**“移動量”で勝つANA、“歩数×健康”で勝つJAL**。貯まるマイルの多さだけならANA Pocket Proが優勢、でも「JALマイルが欲しい」「健康のために歩く習慣をマイルに変えたい」ならJAL。
 
-<!-- a8-banners auto-inserted by banner-fill (slot1-after-1st-h2) -->
-<div class="affiliate-block">
-<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+N7Y56+3ZZC+HY069" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/warau-300x250.jpg" alt="ポイ活ならワラウ【ワラウ】（広告利用ボーナスクリア）" width="300" height="250" loading="lazy"></a></div>
-</div>
-
 <h2 class="brand-h" id="-ana-pocket--移動距離型の王道"><img class="brand-logo" src="/images/ana-pocket-vs-jal-wellness-2026/logos/anapocket.png" alt="ANA Pocketのロゴ" loading="lazy" /><span>🔵 ANA Pocket — 移動距離型の王道</span></h2>
 
 ANA Pocketは**徒歩だけじゃなく電車・車・新幹線・飛行機まで、あらゆる移動距離がポイントになる**のが最大の特徴。歩かなくても通勤や買い物の移動で勝手に貯まる。
