@@ -4,7 +4,7 @@ description: "円安・燃油高の2026夏でも近場アジアなら往復2万�
 publishDate: 2026-08-02
 category: ["roundups", "howto"]
 tags: ["海外旅行", "リゾート", "格安", "コスパ", "2026年", "東南アジア", "ビーチ", "円安"]
-isPR: false
+isPR: true
 draft: false
 featured: true
 eyecatchUrl: "/images/budget-overseas-resorts-2026/eyecatch.jpg"
@@ -77,6 +77,11 @@ Xでも「円安でも近場アジアは戦える」という声は多いの。�
 </div>
 
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">フォーシーズンズ・ボラボラが、島まるごとの貸し切りプランを用意している<br>全115室を7泊まるごと独占する「コンプリート・アイランド・バイアウト」で、価格は約4.6億円（250万ユーロ）<br>南太平洋タヒチのラグーンに浮かぶこのリゾートを、1グループで貸し切れる究極のプライバシー商品だ</p>&mdash; アメック星人 (@centurion_engnr) <a href="https://twitter.com/centurion_engnr/status/2083840545399460310">2026年8月2日</a></blockquote>
+
+<!-- a8-banners placed by banner-place (trifa-esim) -->
+<div class="affiliate-block">
+<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+34IYVU+5UDW+5ZMCH" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/trifa-esim-300x250.jpg" alt="国内eSIMアプリNo1！海外旅行通信の新定番【トリファ（trifa）】" width="300" height="250" loading="lazy"></a></div>
+</div>
 
 ## 【早見表】2026夏 格安コスパ海外リゾート8選
 
@@ -227,6 +232,11 @@ Xでは「円安でハワイが遠いならニャチャン」という声が伸�
 
 <p class="source-note">出典: <a href="https://www.tour.ne.jp/w_air/list/?slice_info=TYO-PEN%7CPEN-TYO" target="_blank" rel="noopener nofollow">航空券目安</a>／季節は<a href="https://www.ana.co.jp/travelandlife/article/002363/" target="_blank" rel="noopener nofollow">ANA Travel &amp; Life</a>。</p>
 
+<!-- a8-banners placed by banner-place (sakura-mobile-kaigai) -->
+<div class="affiliate-block">
+<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B43JB+BOXI8Q+3Z3Y+BZ8OX" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/sakura-mobile-kaigai-300x250.jpg" alt="SakuraMobile海外Wifi" width="300" height="250" loading="lazy"></a></div>
+</div>
+
 ## "国内で海外リゾート気分"という裏ワザも
 
 「パスポートも両替も時差ボケも面倒…でも南国には浸りたい」——そんな人の正解が、**沖縄・宮古・石垣のオールインクルーシブリゾート**よ。実はこれ、**円安の今こそ相対的にコスパが上がってる**の。理由はこう。
@@ -296,6 +306,12 @@ Xでは「円安でハワイが遠いならニャチャン」という声が伸�
     </tbody>
   </table>
 </div>
+
+<!-- a8-banners placed by banner-place (kkday) -->
+<div class="affiliate-block">
+<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B43JB+BX9KPM+52F8+5ZMCH" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/kkday-300x250.jpg" alt="KKday 海外旅行オプショナルツアー" width="300" height="250" loading="lazy"></a></div>
+</div>
+
 ## まとめ — 円安でも、選び方次第で南国は手が届く
 
 - **狙うは近場アジア**：燃油サーチャージが桁違いに軽く、往復2〜3万円台〜が現実的

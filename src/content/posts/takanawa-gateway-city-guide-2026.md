@@ -4,7 +4,7 @@ description: "2026年3月28日にグランドオープンした高輪ゲート�
 publishDate: 2026-10-04
 category: ["roundups", "howto"]
 tags: ["高輪ゲートウェイシティ", "高輪ゲートウェイ", "ニュウマン高輪", "高輪ゲートウェイシティ ランチ", "ニュウマン高輪 レストラン", "高輪ゲートウェイシティ 駐車場", "高輪ゲートウェイ カフェ", "高輪SAUNAS", "MoN Takanawa", "LUFTBAUM"]
-isPR: false
+isPR: true
 draft: false
 eyecatchUrl: "/images/takanawa-gateway-city-guide-2026/eyecatch.jpg"
 eyecatchAlt: "MoN Takanawa の館内と外観、夜の高輪ゲートウェイシティ、高輪ゲートウェイ駅、高輪SAUNASのサウナ室を並べた、高輪ゲートウェイシティ完全ガイド2026の表紙"
@@ -63,6 +63,11 @@ references: ["https://www.takanawagateway-city.com/", "https://www.takanawagatew
 </div>
 
 <span class="event-picks-credit">カード画像: TAKANAWA GATEWAY CITY・MoN Takanawa・高輪SAUNAS 公式／Wikimedia Commons（高輪ゲートウェイ駅: 江戸村のとくぞう / CC BY-SA 4.0、駅入口: N509FZ / CC BY-SA 4.0）。</span>
+
+<!-- a8-banners placed by banner-place (travelist-hotel) -->
+<div class="affiliate-block">
+<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+35PU3E+4XZI+BXIYP" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/travelist-hotel-300x250.jpg" alt="【国内ホテル・宿泊・旅館予約｜トラベリスト】" width="300" height="250" loading="lazy"></a></div>
+</div>
 
 <div class="section-with-mascot">
   <div class="mascot-wrap"><img src="/images/expr-04-cheer.png" alt="Daily Hackマスコット" /></div>

@@ -4,7 +4,7 @@ description: "2026年9月3日オープンのIKEA豊洲を売り場ごとに解�
 publishDate: 2026-09-05
 category: ["roundups", "howto"]
 tags: ["IKEA", "IKEA豊洲", "イケア", "ららぽーと豊洲", "豊洲", "北欧インテリア", "2026年版"]
-isPR: false
+isPR: true
 draft: false
 eyecatchUrl: "/images/ikea-toyosu-2026/eyecatch.jpg"
 eyecatchAlt: "IKEA豊洲 完全ガイド 2026｜ゾーン別に何が売っているかを全部見た"
@@ -63,6 +63,11 @@ references: ["https://www.ikea.com/jp/ja/stores/toyosu/", "https://prtimes.jp/ma
 </div>
 
 <span class="event-picks-credit">カード画像は<a href="https://prtimes.jp/main/html/rd/p/000000424.000065734.html" target="_blank" rel="noopener">イケア・ジャパンのプレスリリース</a>および<a href="https://www.ikea.com/jp/ja/stores/toyosu/" target="_blank" rel="noopener">IKEA豊洲 公式ページ</a>より引用。</span>
+
+<!-- a8-banners placed by banner-place (earthcar) -->
+<div class="affiliate-block">
+<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+383KII+43U8+HX5B5" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/earthcar-300x250.jpg" alt="【入会金・月会費０円だから超高CVR】おトクがいっぱいのカーシェア「EARTHCAR」" width="300" height="250" loading="lazy"></a></div>
+</div>
 
 <div class="section-with-mascot">
   <div class="mascot-wrap"><img src="/images/expr-04-cheer.png" alt="Daily Hackマスコット" /></div>
