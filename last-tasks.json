@@ -1,3 +1,3 @@
 [
-      {"task": "x298-followback-loop-read.sh", "rc": 0, "out": "badge-followback の判定と記録を読んだ / followback-loop-read.md"}
+      {"task": "t297-rakuten-link-check.sh", "rc": 0, "out": "  - 1 回目の転送先: `https://hb.afl.rakuten.co.jp/travel/587f2635.77bb335f.587f2636.e34c8733/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F5547%2F5547.html&m=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F5547%2F5547.html&afct=g_1` - 元: `https://event.travel.rakuten.co.jp/special/sales/`   "}
   ]
