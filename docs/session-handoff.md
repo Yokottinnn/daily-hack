@@ -73,6 +73,11 @@
 次のアクション:
 
 - [ ] x294 のレポート reports/ratio-and-announced.md を読み、比率と未告知の記事一覧を利用者に出す。Mac のタスク実行が止まっていれば原因を調べる
+### 2026-10-15 — トレンドのワードを毎日ためるジョブ com.dailyhack.trend-daily（毎日 7:10・$0）を t296 で入れた（main 22:41 マージ。Mac の実行待ち）。週次ルーティンに 6b（トレンドから構想を足す）を追加
+
+次のアクション:
+
+- [ ] t296 の結果（launchctl print で載ったか・reports/board/trend/<日付>.json）を確かめる。heartbeat は git fetch origin +refs/heads/ops/heartbeat:... で強制取得する
 
 ### 2026-10-15 — 作戦室に『記事の構想』ページを追加（db: ideas 17 件・linkplan 24 件）。トレンドのワードは t295（Google トレンド・Yahoo! リアルタイム）。成果リンク 0 本は 61/78 記事。blog3 に成果リンク挿入（楽天 ID 統一含む）を依頼
 
