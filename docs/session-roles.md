@@ -15,7 +15,7 @@
 
 | セッション | 担当 | 典型的な依頼 |
 | --- | --- | --- |
-| `daily-hack-blog3` | **ブログ記事**の企画・執筆・画像・公開まで | 「〇〇の記事を書いて」「表紙を作って」「リンク切れを直して」 |
+| `daily-hack-blog3` | **ブログ記事**の企画・執筆・画像・公開まで、**マネタイズ作戦室**の更新（2026-10-15 に blog2 を統合） | 「〇〇の記事を書いて」「表紙を作って」「リンク切れを直して」 |
 | `daily-hack-tweet2` | **X の運用・戦略・自動化** | 「フォロワーを増やす施策」「リプライ運用」「投稿ジョブの設計」 |
 | `daily-hack-affiliate` | **成果報酬（ASP・案件・単価・規約）の調査と提案**。別リポジトリ `Yokottinnn/daily-hack-affiliate` で動く | 「高単価の案件を洗い出して」「この案件は規約上どう載せるべきか」「提携・単価の変化を記事に落とす」 |
 
@@ -28,6 +28,7 @@
 | `src/**` / `public/**` / `assets/**` / `data/`（記事データ） | blog3 |
 | `scripts/gen-*.py` / `render-*.mjs` / `*eyecatch*` / `generate-thumbnail.mjs` | blog3 |
 | `docs/seo-monitoring.md` / `docs/analytics/` | blog3 |
+| マネタイズ作戦室（Artifact）・`scripts/strategy-board/`・`ops/data/board/`・`docs/strategy-board-routine.md`・`docs/affiliate-strategy-board.md` | blog3（旧 blog2） |
 | `docs/x-growth-play.md` / `docs/recurring-job-costs.md` / `docs/ops-watchdog.md` | tweet2 |
 | `scripts/generate-tweet.mjs` / `scripts/social/` / `scripts/seo-submit.mjs` | tweet2 |
 | OpenClaw の実体（`~/.openclaw/**`・launchd ジョブ・plist） | tweet2 |
