@@ -1,1 +1,3 @@
-[]
+[
+      {"task": "x300-followback-verify.sh", "rc": 0, "out": "フォロー返しの結果を読み、返し漏れを数え直した / followback-verify.md"}
+  ]
