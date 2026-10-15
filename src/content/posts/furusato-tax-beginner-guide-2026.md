@@ -226,7 +226,7 @@ author: "hacker-ko"
       <dt>強み</dt><dd>楽天IDで支払い、楽天市場アカウント連携で配送先入力ゼロ</dd>
       <dt>おすすめ</dt><dd>楽天会員、楽天カード持ち</dd>
     </dl>
-    <a class="compare-cta" href="https://event.rakuten.co.jp/furusato/" target="_blank" rel="sponsored noopener nofollow">楽天ふるさと納税 公式 →</a>
+    <a class="compare-cta" href="https://hb.afl.rakuten.co.jp/hgc/587f2635.77bb335f.587f2636.e34c8733/?pc=https%3A%2F%2Fevent.rakuten.co.jp%2Ffurusato%2F&m=https%3A%2F%2Fevent.rakuten.co.jp%2Ffurusato%2F" target="_blank" rel="sponsored noopener nofollow">楽天ふるさと納税 公式 →</a>
   </article>
 
   <article class="compare-card recommended">

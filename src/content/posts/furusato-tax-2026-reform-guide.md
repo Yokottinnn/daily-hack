@@ -221,7 +221,7 @@ references:
       <dt>強み</dt><dd>楽天市場と同じ操作感・楽天ポイントが貯まる/使える</dd>
       <dt>向く人</dt><dd>楽天経済圏の人・楽天のセールに合わせて寄付したい人</dd>
     </dl>
-    <a class="compare-cta" href="https://event.rakuten.co.jp/furusato/" target="_blank" rel="sponsored noopener nofollow">楽天ふるさと納税を見る →</a>
+    <a class="compare-cta" href="https://hb.afl.rakuten.co.jp/hgc/587f2635.77bb335f.587f2636.e34c8733/?pc=https%3A%2F%2Fevent.rakuten.co.jp%2Ffurusato%2F&m=https%3A%2F%2Fevent.rakuten.co.jp%2Ffurusato%2F" target="_blank" rel="sponsored noopener nofollow">楽天ふるさと納税を見る →</a>
   </article>
   <article class="compare-card">
     <h3 class="brand-h"><img class="brand-logo" src="/images/furusato-tax-2026-reform-guide/logos/satofull.webp" alt="さとふるのロゴ" loading="lazy" /><img class="brand-logo" src="/images/furusato-tax-2026-reform-guide/logos/furunavi.png" alt="ふるなびのロゴ" loading="lazy" /><img class="brand-logo" src="/images/furusato-tax-2026-reform-guide/logos/furusato-choice.png" alt="ふるさとチョイスのロゴ" loading="lazy" /><span>さとふる / ふるなび / ふるさとチョイス</span></h3>
