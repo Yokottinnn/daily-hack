@@ -1,0 +1,75 @@
+{
+ "trifa.png": {
+  "brand": "トリファ（trifa）",
+  "src": "App Store id=1579026641 artworkUrl512",
+  "page": "https://apps.apple.com/jp/app/id1579026641",
+  "seller": "trifa Inc.",
+  "fetched": "2026-10-16",
+  "note": "提供元が登録したアプリアイコン",
+  "file": "trifa.png",
+  "copied_from": "scratchpad chosen/ (2026-10-16 取得分)"
+ },
+ "sakuramobile.png": {
+  "brand": "Sakura Mobile（SakuraMobile海外WiFi）",
+  "src": "https://www.sakuramobile.jp/assets/img/base/logo-01.svg",
+  "page": "https://www.sakuramobile.jp/",
+  "fetched": "2026-10-16",
+  "note": "公式サイトのロゴ（識別目的・改変なし。余白のみ除去）",
+  "file": "sakuramobile.png",
+  "copied_from": "scratchpad chosen/ (2026-10-16 取得分)"
+ },
+ "docomo.png": {
+  "brand": "NTTドコモ",
+  "file": "docomo.png",
+  "source": "https://www.docomo.ne.jp/smt/images/common/favicon.png",
+  "page": "https://www.docomo.ne.jp/",
+  "license_note": "公式サイト（商標）",
+  "width": 107,
+  "height": 20,
+  "copied_from": "public/images/hoso-daigaku-gakuwari-2026/logos/docomo.png",
+  "note": "NTTドコモのロゴ。ドコモの海外ローミング（世界そのままギガ）の行にだけ使う。ドコモ光には使わない"
+ },
+ "au.png": {
+  "brand": "au",
+  "source": "https://commons.wikimedia.org/wiki/File:Au_mobile_network_operator_logo_(1st).svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Au_mobile_network_operator_logo_(1st).svg",
+  "fetched": "2026-09-20",
+  "license_note": "Public domain（コモンズの表記）。商標であることに変わりはない",
+  "task": "ops/tasks/t125-logos-insurance-energy.sh",
+  "file": "au.png",
+  "copied_from": "public/images/electricity-gas-savings-2026/logos/au.png",
+  "note": "au の海外ローミング（au海外放題）の行にだけ使う"
+ },
+ "softbank.png": {
+  "brand": "ソフトバンク",
+  "source": "https://commons.wikimedia.org/wiki/File:SoftBank_logo_width.png",
+  "page": "https://commons.wikimedia.org/wiki/File:SoftBank_logo_width.png",
+  "fetched": "2026-09-20",
+  "license_note": "Public domain（コモンズの表記）。商標であることに変わりはない",
+  "task": "ops/tasks/t125-logos-insurance-energy.sh",
+  "file": "softbank.png",
+  "copied_from": "public/images/electricity-gas-savings-2026/logos/softbank.png",
+  "note": "ソフトバンクの海外ローミングの行にだけ使う"
+ },
+ "rakutenmobile.png": {
+  "brand": "楽天モバイル",
+  "source": "https://network.mobile.rakuten.co.jp/apple-touch-icon.png",
+  "page": "https://network.mobile.rakuten.co.jp/",
+  "fetched": "2026-09-22",
+  "task": "ops/tasks/t155-brand-logos-batch.sh",
+  "license_note": "商標。識別目的で使用",
+  "_rejected": "トップの logo-thankyou-1000.svg は「THANK YOU 1,000万回線」のキャンペーン版なので使わない",
+  "file": "rakutenmobile.png",
+  "copied_from": "public/images/cheap-sim-comparison-2026/logos/rakutenmobile.png"
+ },
+ "ahamo.png": {
+  "brand": "ahamo",
+  "source": "https://cache.cil.ahamo.com/assets/images/common/logo.svg",
+  "page": "https://ahamo.com/",
+  "fetched": "2026-09-22",
+  "task": "ops/tasks/t155-brand-logos-batch.sh",
+  "license_note": "商標。識別目的で使用。**SVG を Chromium で PNG にした**",
+  "file": "ahamo.png",
+  "copied_from": "public/images/cheap-sim-comparison-2026/logos/ahamo.png"
+ }
+}

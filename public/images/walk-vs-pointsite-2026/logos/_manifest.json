@@ -1,0 +1,59 @@
+{
+  "_note": "ロゴは商標。識別目的で使用（改変なし）。他記事の logos/ から複製し、取得元をそのまま引き継いだ（copied_from）。",
+  "hapitas.png": {
+    "brand": "ハピタス-歩く＆お買物でポイ活できるアプリ",
+    "source": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9c/bc/df/9cbcdf62-fc92-cdfd-0b2b-11d9db75bdf0/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/512x512bb.jpg",
+    "page": "https://apps.apple.com/jp/app/id1475444626",
+    "source_type": "App Store の登録アイコン（artworkUrl512・商標）",
+    "seller": "OZVISION.INC.",
+    "fetched": "2026-09-23",
+    "task": "ops/tasks/t185-appstore-icons.sh",
+    "copied_from": "public/images/point-service-complete-guide-2026/logos/hapitas.png"
+  },
+  "chobirich.png": {
+    "brand": "ちょびリッチ- 外食やアンケートでもポイントが貯まる",
+    "source": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f2/4a/c7/f24ac7a2-feb6-4c52-c5a5-26186189181c/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+    "page": "https://apps.apple.com/jp/app/id1454342811",
+    "source_type": "App Store の登録アイコン（artworkUrl512・商標）",
+    "seller": "chobirich Co.,Ltd.",
+    "fetched": "2026-09-23",
+    "task": "ops/tasks/t185-appstore-icons.sh",
+    "copied_from": "public/images/point-service-complete-guide-2026/logos/chobirich.png"
+  },
+  "moppy.png": {
+    "brand": "モッピー公式 -ポイ活アプリ",
+    "source": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ba/4f/ff/ba4fffd6-0e25-a552-4d7d-375bbc3711eb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+    "page": "https://apps.apple.com/jp/app/id1501495023",
+    "source_type": "App Store の登録アイコン（artworkUrl512・商標）",
+    "seller": "Ceres Inc",
+    "fetched": "2026-09-23",
+    "task": "ops/tasks/t185-appstore-icons.sh",
+    "copied_from": "public/images/point-service-complete-guide-2026/logos/moppy.png"
+  },
+  "arukuto.png": {
+    "brand": "aruku&",
+    "file": "arukuto.png",
+    "source": "https://www.arukuto.jp/wp-content/themes/arukuto/img/ogp.png",
+    "page": "https://www.arukuto.jp/",
+    "license_note": "公式サイト（商標）",
+    "width": 600,
+    "height": 160,
+    "copied_from": "public/images/walk-poikatsu-2026/logos/arukuto.png"
+  },
+  "renobody.png": {
+    "brand": "RenoBody",
+    "file": "renobody.png",
+    "source": "https://info.renobody.jp/prod/asset/img/sp/logo_menu.png",
+    "page": "https://info.renobody.jp/prod/index.html",
+    "license_note": "公式サイト（商標）",
+    "width": 423,
+    "height": 99,
+    "copied_from": "public/images/walk-poikatsu-2026/logos/renobody.png"
+  },
+  "powl.png": {
+    "brand": "Powl",
+    "source": "App Store の登録アイコン（通常版）。元記事の _manifest.json の _todo に「現行アイコンがハロウィンの季節版だったため既存の通常版を残す」とある",
+    "license_note": "商標。識別目的で使用",
+    "copied_from": "public/images/point-service-complete-guide-2026/logos/powl.png"
+  }
+}

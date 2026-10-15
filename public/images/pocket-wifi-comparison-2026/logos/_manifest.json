@@ -1,0 +1,27 @@
+{
+  "_note": "識別目的で使うロゴ。商標であり自由ライセンスではない。改変しない（CSS の枠は可。余白のみ除去）。取得元と取得日をここに残す。",
+  "monster-mobile.png": {
+    "brand": "MONSTER MOBILE",
+    "source": "https://monster-mobile.jp/common/img/logo_long.png",
+    "page": "https://monster-mobile.jp/",
+    "fetched": "2026-10-16",
+    "license_note": "商標。識別目的で使用",
+    "note": "公式サイトのロゴ（識別目的・改変なし。余白のみ除去）"
+  },
+  "shibarinashi-wifi.png": {
+    "brand": "縛りなしWiFi",
+    "source": "https://shibarinashi-wifi.jp/assets/img/logo.svg?1785837592",
+    "page": "https://shibarinashi-wifi.jp/",
+    "fetched": "2026-10-16",
+    "license_note": "商標。識別目的で使用",
+    "note": "公式サイトのロゴ（識別目的・改変なし。余白のみ除去）"
+  },
+  "wifi-go.png": {
+    "brand": "WiFiGO",
+    "source": "https://wifigo.jp/images/user/logo.svg",
+    "page": "https://wifigo.jp/",
+    "fetched": "2026-10-16",
+    "license_note": "商標。識別目的で使用",
+    "note": "公式サイトのロゴ（識別目的・改変なし。余白のみ除去）"
+  }
+}
