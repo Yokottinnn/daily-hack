@@ -1,0 +1,48 @@
+{
+  "_note": "識別目的で使うロゴ。商標であり自由ライセンスではない。改変しない（CSS の枠は可）。取得元と取得日をここに残す。",
+  "airtrip.png": {
+    "brand": "エアトリ",
+    "source": "https://cdn.airtrip.jp/image/pc/airtrip_logo.webp",
+    "page": "https://www.airtrip.jp/",
+    "fetched": "2026-10-16",
+    "license_note": "商標。識別目的で使用。改変なし（余白のみ除去）",
+    "note": "公式サイトのロゴ（識別目的・改変なし。余白のみ除去）",
+    "copied_from": "scratchpad/chosen/airtrip.png（Mac t298 等で取得）"
+  },
+  "travelist.png": {
+    "brand": "トラベリスト",
+    "source": "https://dew8lut0z0dqr.cloudfront.net/nuxt_web/dist/client/img/logo_header.bf1f6d7.svg",
+    "page": "https://travelist.jp/",
+    "fetched": "2026-10-16",
+    "license_note": "商標。識別目的で使用。改変なし（余白のみ除去）",
+    "note": "公式サイトのロゴ（識別目的・改変なし。余白のみ除去）",
+    "copied_from": "scratchpad/chosen/travelist.png（Mac t298 等で取得）"
+  },
+  "j-trip.png": {
+    "brand": "J-TRIP（ジェイトリップ）",
+    "source": "https://mda.jtp.li/j-kakuyasu/img/logo.png",
+    "page": "https://www.jtrip.co.jp/",
+    "fetched": "2026-10-16",
+    "license_note": "商標。識別目的で使用。改変なし（余白のみ除去）",
+    "note": "公式サイトのロゴ（Mac t298 で取得・識別目的・改変なし。余白のみ除去）",
+    "copied_from": "scratchpad/chosen/j-trip.png（Mac t298 等で取得）"
+  },
+  "jal.png": {
+    "brand": "JAL（日本航空）",
+    "source": "https://www.jal.co.jp/ の header ロゴ（alt: JAPAN AIRLINES）",
+    "page": "https://www.jal.co.jp/jp/ja/",
+    "fetched": "2026-09-23",
+    "task": "ops/tasks/t177-logos-real-browser2.sh",
+    "license_note": "商標。識別目的で使用。**SVG を Chromium で PNG にした**",
+    "copied_from": "public/images/ana-pocket-vs-jal-wellness-2026/logos/jal.png"
+  },
+  "ana.png": {
+    "brand": "ANA",
+    "source": "https://www.ana.co.jp/common-layout2/images/www2/logo_ana_tagline.svg",
+    "page": "https://www.ana.co.jp/ja/jp/",
+    "fetched": "2026-09-22",
+    "task": "ops/tasks/t155-brand-logos-batch.sh",
+    "license_note": "商標。識別目的で使用。**SVG を Chromium で PNG にした**",
+    "copied_from": "public/images/ana-pocket-vs-jal-wellness-2026/logos/ana.png"
+  }
+}

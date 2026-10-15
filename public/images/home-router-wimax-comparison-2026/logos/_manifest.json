@@ -1,0 +1,11 @@
+{
+  "_note": "識別目的で使うロゴ。商標であり自由ライセンスではない。改変しない（CSS の枠は可。余白のみ除去）。取得元と取得日をここに残す。",
+  "biglobe-wimax.png": {
+    "brand": "BIGLOBE WiMAX +5G",
+    "source": "https://join.biglobe.ne.jp/v4/image/mobile/wimax/header/logo_wimax_pc.svg?v=aaed9fa0db",
+    "page": "https://join.biglobe.ne.jp/mobile/wimax/5g/",
+    "fetched": "2026-10-16",
+    "license_note": "商標。識別目的で使用",
+    "note": "公式サイトのロゴ（Mac t298 で取得・識別目的・改変なし。余白のみ除去）"
+  }
+}

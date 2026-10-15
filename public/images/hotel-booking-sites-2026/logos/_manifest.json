@@ -1,0 +1,39 @@
+{
+  "_note": "識別目的で使うロゴ。商標であり自由ライセンスではない。改変しない（CSS の枠は可）。取得元と取得日をここに残す。",
+  "rakutentravel.png": {
+    "brand": "楽天トラベル",
+    "source": "https://travel.rakuten.co.jp/",
+    "page": "https://travel.rakuten.co.jp/",
+    "fetched": "2026-09-20",
+    "license_note": "公式サイトのロゴ画像（商標）",
+    "task": "ops/tasks/t130-*.sh",
+    "copied_from": "public/images/summer-travel-timesale-2026/logos/rakutentravel.png"
+  },
+  "travelist.png": {
+    "brand": "トラベリスト",
+    "source": "https://dew8lut0z0dqr.cloudfront.net/nuxt_web/dist/client/img/logo_header.bf1f6d7.svg",
+    "page": "https://travelist.jp/",
+    "fetched": "2026-10-16",
+    "license_note": "商標。識別目的で使用。改変なし（余白のみ除去）",
+    "note": "公式サイトのロゴ（識別目的・改変なし。余白のみ除去）",
+    "copied_from": "scratchpad/chosen/travelist.png（Mac t298 等で取得）"
+  },
+  "ozmall.png": {
+    "brand": "OZmall（オズモール）",
+    "source": "https://www.ozmall.co.jp/Content/images/header-pc_logo.png?domain=cms&v=20260422",
+    "page": "https://www.ozmall.co.jp/",
+    "fetched": "2026-10-16",
+    "license_note": "商標。識別目的で使用。改変なし（余白のみ除去）",
+    "note": "公式サイトのロゴ（識別目的・改変なし。余白のみ除去）",
+    "copied_from": "scratchpad/chosen/ozmall.png（Mac t298 等で取得）"
+  },
+  "resort-glamping.png": {
+    "brand": "リゾートグランピング.com",
+    "source": "https://www.resort-glamping.com/wp-content/themes/resort-glamping/img/common/logo.svg",
+    "page": "https://www.resort-glamping.com/",
+    "fetched": "2026-10-16",
+    "license_note": "商標。識別目的で使用。改変なし（余白のみ除去）",
+    "note": "公式サイトのロゴ（Mac t298 で取得・識別目的・改変なし。余白のみ除去）",
+    "copied_from": "scratchpad/chosen/resort-glamping.png（Mac t298 等で取得）"
+  }
+}

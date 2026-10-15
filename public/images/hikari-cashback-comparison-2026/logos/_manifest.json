@@ -1,0 +1,40 @@
+{
+ "commufa-hikari.png": {
+  "brand": "コミュファ光",
+  "src": "https://www.commufa.jp/-/media/Project/commufa/commufa/images/2022/logo/logo_commufa_byctc.png",
+  "page": "https://www.commufa.jp/",
+  "fetched": "2026-10-16",
+  "note": "公式サイトのロゴ（識別目的・改変なし。余白のみ除去）",
+  "file": "commufa-hikari.png",
+  "copied_from": "scratchpad chosen/ (2026-10-16 取得分)"
+ },
+ "nifty-hikari.png": {
+  "brand": "@nifty光",
+  "src": "https://www.nifty.com/images/molecules/setsuzoku/logo-hikari.png",
+  "page": "https://www.nifty.com/",
+  "fetched": "2026-10-16",
+  "note": "公式サイトのロゴ（識別目的・改変なし。余白のみ除去）",
+  "file": "nifty-hikari.png",
+  "copied_from": "scratchpad chosen/ (2026-10-16 取得分)",
+  "note2": "@nifty光 の行にだけ使う"
+ },
+ "biglobe-hikari.png": {
+  "brand": "BIGLOBE光",
+  "src": "https://join.biglobe.ne.jp/v4/image/ftth/index/logo_hikari.svg?v=1edb0edb81",
+  "page": "https://join.biglobe.ne.jp/ftth/hikari/",
+  "fetched": "2026-10-16",
+  "note": "公式サイトのロゴ（Mac t298 で取得・識別目的・改変なし。余白のみ除去）",
+  "file": "biglobe-hikari.png",
+  "copied_from": "scratchpad chosen/ (2026-10-16 取得分)"
+ },
+ "gmo-tokutoku.png": {
+  "brand": "GMOとくとくBB",
+  "src": "https://gmobb.jp/common/assets/images/logo.svg?1792051091",
+  "page": "https://gmobb.jp/",
+  "fetched": "2026-10-16",
+  "note": "公式サイトのロゴ（Mac t298 で取得・識別目的・改変なし。余白のみ除去）",
+  "file": "gmo-tokutoku.png",
+  "copied_from": "scratchpad chosen/ (2026-10-16 取得分)",
+  "note2": "プロバイダ名（GMOとくとくBB）の行にだけ使う。ドコモ光の見出しには使わない"
+ }
+}
