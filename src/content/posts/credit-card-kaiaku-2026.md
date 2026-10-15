@@ -223,11 +223,6 @@ PayPay陣営は自社決済への集約を強めていて、<strong>チャージ
   </table>
 </div>
 
-<!-- a8-banners placed by banner-place (warau) -->
-<div class="affiliate-block">
-<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+N7Y56+3ZZC+HY069" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/warau-300x250.jpg" alt="ポイ活ならワラウ【ワラウ】（広告利用ボーナスクリア）" width="300" height="250" loading="lazy"></a></div>
-</div>
-
 ## まとめ — 「絞られた前提」で組み直すのが2026年の正解
 
 2026年の改悪を一言でまとめると、**「チャージ技・現物タッチ・公共料金1%」という“裏技めいた稼ぎ方”が次々に塞がれた年**。逆に言えば、**素の基本還元率が高い王道カードを軸に、自分の経済圏を1つ決めて深く使う**人は、ほとんど影響を受けない。

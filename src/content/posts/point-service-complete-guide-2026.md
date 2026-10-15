@@ -366,11 +366,6 @@ references: ["https://kakakumag.com/money/?id=20897", "https://www.warau.jp/", "
 
 → 詳細: [ポイントサイト徹底比較 2026](/posts/pointsite-comparison-2026/) ／ [お得施策の『本当の時給』ランキング 2026](/posts/money-hacks-hourly-wage-2026/)
 
-<!-- a8-banners auto-inserted by banner-fill (slot2-middle) -->
-<div class="affiliate-block">
-<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+N7Y56+3ZZC+HY069" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/warau-300x250.jpg" alt="ポイ活ならワラウ【ワラウ】（広告利用ボーナスクリア）" width="300" height="250" loading="lazy"></a></div>
-</div>
-
 ## 🅲 移動・歩数ポイ活 — “ついで”に拾う
 
 歩く・移動するだけで貯まる“ついで”系。**生活を変えずに月数百〜千数百円分**、マイラーなら航空マイルも。

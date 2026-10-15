@@ -18,8 +18,8 @@ const dryRun = process.argv.includes('--dryRun');
 
 export const PLAN = {
   'lalaport-guide-2026': ['earthcar', 'travelist-hotel'],
-  'credit-card-kaiaku-2026': ['hapitas', 'chobirich', 'warau'],
-  'walk-poikatsu-2026': ['hapitas', 'chobirich', 'warau'],
+  'credit-card-kaiaku-2026': ['hapitas', 'chobirich'],
+  'walk-poikatsu-2026': ['hapitas', 'chobirich'],
   'outlet-mall-guide-2026': ['earthcar', 'aeon-rentacar', 'travelist-hotel'],
   'momiji-2026-kanto': ['travelist-hotel', 'aeon-rentacar', 'yumeyado'],
   'takanawa-gateway-city-guide-2026': ['travelist-hotel'],
