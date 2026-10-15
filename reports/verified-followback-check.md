@@ -106,7 +106,7 @@ followed back @<伏せ>
 followed back @<伏せ>
 [2026-10-14T15:53:53.315Z] followed back @<伏せ>
 followed back @<伏せ>
-{"ok":true,"scanned":429,"verified":196,"followed_back":13,"handles":["nov_yunaa","Wearereds285","tokyomenesking","high_tower3rd","garigarichefcat","melonchi6","toushiobaba","PhamNgocLikn","david_lee2085","Mukeskumar25","kaizenman815","ryuhei_blog","Loxe_ITC"]}
+{"ok":true,"scanned":429,"verified":196,"followed_back":13,"handles":["<伏せ>"]}
 ```
 
 ## ③ いま 1 回走らせる
