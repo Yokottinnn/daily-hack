@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T14:30:28Z",
+  "generated_at": "2026-10-15T15:01:50Z",
   "login_lock": {"present": false, "age_hours": 0},
   "cdp": {"healthy": true, "port": 18810},
   "x_jobs": {"loaded": 8, "expected": 8, "ai_total": 15, "halted": false, "missing": []},
@@ -7,7 +7,7 @@
   "supervisor": {"at":"2026-10-15T08:00:19Z","date_jst":"2026-10-15","ran":9,"total":9,"not_run":[],"fixed":[]},
   "followback_bands": {"with_count":442,"total_rows":801,"bands":{"1000-4999":{"n":152,"back":24,"mature":130,"mature_back":22,"rate":16.9},"300-999":{"n":111,"back":19,"mature":100,"mature_back":18,"rate":18},"0-99":{"n":86,"back":16,"mature":83,"mature_back":16,"rate":19.3},"5000-49999":{"n":70,"back":2,"mature":60,"mature_back":2,"rate":3.3},"100-299":{"n":22,"back":5,"mature":20,"mature_back":5,"rate":25},"50000-up":{"n":1,"back":1,"mature":1,"mature_back":1,"rate":100}},"status_values":{"no":619,"revenge_ghost_already_unfollowed":48,"unfollowed":16,"yes_late":1,"yes":92,"pending":25},"note":"mature の率で見る"},
   "host": "NaokinoMBP-2",
-  "job_count": 25,
+  "job_count": 26,
   "jobs": [
     "ai.openclaw.badge-followback",
     "ai.openclaw.caffeinate",
@@ -32,6 +32,7 @@
     "com.dailyhack.ops-poller",
     "com.dailyhack.rc-keeper",
     "com.dailyhack.refresh-daily",
+    "com.dailyhack.trend-daily",
     "com.dailyhack.weekly-blog-report",
     "com.dailyhack.x-impressions"
   ],
