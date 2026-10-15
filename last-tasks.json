@@ -1,1 +1,3 @@
-[]
+[
+      {"task": "x296-verified-followback-check.sh", "rc": 0, "out": "認証済みフォロワーへのフォロー返しを数え、badge-followback を走らせた / verified-followback-check.md"}
+  ]
