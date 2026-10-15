@@ -4,7 +4,7 @@ description: "2025年10月からふるさと納税サイトのポイント付与
 publishDate: 2026-10-04
 category: ["comparisons", "howto"]
 tags: ["ふるさと納税", "ふるさと納税 サイト", "ふるさと納税 おすすめ 2026", "楽天ふるさと納税", "さとふる", "ふるなび", "ふるさとチョイス", "ANAのふるさと納税", "au PAY ふるさと納税", "ポイント付与禁止"]
-isPR: false
+isPR: true
 draft: false
 eyecatchUrl: "/images/furusato-portal-comparison-2026/eyecatch.jpg"
 eyecatchAlt: "ほたて・和牛・いくら丼・シャインマスカット・みかん・かにの写真を並べた、ふるさと納税サイト比較2026の表紙"
@@ -85,7 +85,7 @@ ANAのふるさと納税にも、同じ日付で「<strong>マイル積算サー
   </table>
 </div>
 
-<p class="source-note">出典：<a href="https://event.rakuten.co.jp/furusato/" target="_blank" rel="noopener">楽天ふるさと納税</a>（おしらせ「楽天ふるさと納税におけるポイント付与ルール変更について」2025年10月1日）／<a href="https://furusato.ana.co.jp/" target="_blank" rel="noopener">ANAのふるさと納税</a>（「マイル積算サービス終了のお知らせ」）</p>
+<p class="source-note">出典：<a href="https://hb.afl.rakuten.co.jp/hgc/587f2635.77bb335f.587f2636.e34c8733/?pc=https%3A%2F%2Fevent.rakuten.co.jp%2Ffurusato%2F&m=https%3A%2F%2Fevent.rakuten.co.jp%2Ffurusato%2F" target="_blank" rel="sponsored noopener nofollow">楽天ふるさと納税</a>（おしらせ「楽天ふるさと納税におけるポイント付与ルール変更について」2025年10月1日）／<a href="https://furusato.ana.co.jp/" target="_blank" rel="noopener">ANAのふるさと納税</a>（「マイル積算サービス終了のお知らせ」）</p>
 
 **「じゃあ、どこでも同じ」と考えた人は多い。** 今年の3月にも、こういう投稿があった。
 
@@ -146,7 +146,7 @@ ANAのふるさと納税にも、同じ日付で「<strong>マイル積算サー
       <tr><th>手持ちで払う</th><td><strong>楽天ポイント</strong>を寄付に使える</td></tr>
       <tr><th>規模</th><td>参加自治体 <strong>1,737</strong>／品目数 <strong>970,950</strong>（2026年10月4日時点の表示）。2026年8月から数え方を「返礼品数」から「品目数」に変えた（容量・個数違いを含む）</td></tr>
       <tr><th>控除の手続き</th><td>ワンストップ特例のオンライン申請に対応</td></tr>
-      <tr><th>公式</th><td><a href="https://event.rakuten.co.jp/furusato/" target="_blank" rel="noopener">楽天ふるさと納税</a></td></tr>
+      <tr><th>公式</th><td><a href="https://hb.afl.rakuten.co.jp/hgc/587f2635.77bb335f.587f2636.e34c8733/?pc=https%3A%2F%2Fevent.rakuten.co.jp%2Ffurusato%2F&m=https%3A%2F%2Fevent.rakuten.co.jp%2Ffurusato%2F" target="_blank" rel="sponsored noopener nofollow">楽天ふるさと納税</a></td></tr>
     </tbody>
   </table>
 </div>
@@ -278,7 +278,7 @@ ANAのふるさと納税にも、同じ日付で「<strong>マイル積算サー
   </table>
 </div>
 
-<p class="source-note">出典：<a href="https://www.satofull.jp/static/kakutei_shinkoku.php" target="_blank" rel="noopener">さとふる「確定申告のやり方」</a>／<a href="https://event.rakuten.co.jp/furusato/guide/" target="_blank" rel="noopener">楽天ふるさと納税 はじめてガイド</a></p>
+<p class="source-note">出典：<a href="https://www.satofull.jp/static/kakutei_shinkoku.php" target="_blank" rel="noopener">さとふる「確定申告のやり方」</a>／<a href="https://hb.afl.rakuten.co.jp/hgc/587f2635.77bb335f.587f2636.e34c8733/?pc=https%3A%2F%2Fevent.rakuten.co.jp%2Ffurusato%2Fguide%2F&m=https%3A%2F%2Fevent.rakuten.co.jp%2Ffurusato%2Fguide%2F" target="_blank" rel="sponsored noopener nofollow">楽天ふるさと納税 はじめてガイド</a></p>
 
 **サイトを分けても、5自治体を超えたらワンストップは使えない。** 数えるのは「寄付した自治体の数」で、サイトの数ではない。
 

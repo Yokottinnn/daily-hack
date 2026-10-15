@@ -4,7 +4,7 @@ description: "2026年夏休みの旅行を最安で攻略するため、JR東び
 publishDate: 2026-05-21
 category: ["roundups", "campaigns", "howto"]
 tags: ["夏旅", "タイムセール", "JR東日本", "じゃらん", "楽天トラベル", "一休", "JTB", "日本旅行", "ANA", "JAL", "夏休み", "旅行"]
-isPR: false
+isPR: true
 draft: false
 featured: true
 eyecatchUrl: "https://img.travel.rakuten.co.jp/special/sales/202605/images/kv_pc.png"
@@ -54,7 +54,7 @@ author: "hacker-ko"
 |---|---|---|---|
 | **〜5/26 23:40** | JR東日本びゅう | [6月出発タイムセール](https://www.jre-travel.com/drp/timesale/) | 例: 東京⇔仙台 JR+宿 大人1名 ¥16,400〜 |
 | **〜5/26 12:00** | Yahoo!トラベル | [夏先取り 20%以上お得](https://travel.yahoo.co.jp/feature/campaign_pointup_limited/) | PayPayポイント最大20%還元 |
-| **〜5/29 9:59** | <span class="cell-brand"><img class="brand-logo-sm" src="/images/summer-travel-timesale-2026/logos/rakutentravel.png" alt="" loading="lazy" />楽天トラベル</span> | [アーリーサマーフェア](https://event.travel.rakuten.co.jp/special/sales/) | 宿最大25%OFF / 楽パック最大2万円OFF / 海外最大5万円OFF |
+| **〜5/29 9:59** | <span class="cell-brand"><img class="brand-logo-sm" src="/images/summer-travel-timesale-2026/logos/rakutentravel.png" alt="" loading="lazy" />楽天トラベル</span> | [アーリーサマーフェア](https://hb.afl.rakuten.co.jp/hgc/587f2635.77bb335f.587f2636.e34c8733/?pc=https%3A%2F%2Fevent.travel.rakuten.co.jp%2Fspecial%2Fsales%2F&m=https%3A%2F%2Fevent.travel.rakuten.co.jp%2Fspecial%2Fsales%2F) | 宿最大25%OFF / 楽パック最大2万円OFF / 海外最大5万円OFF |
 | **〜5/29 14:59** | 日本旅行 | [春旅・夏旅キャンペーン](https://www.nta.co.jp/cpn/spring-summer/kokunai/) | JR+宿で最大5,000円OFF / 飛行機+宿で最大5,000円OFF |
 | **〜5/28 23:59** | ANAトラベラーズ | [海外サマーキャンペーン](https://www.ana.co.jp/ja/jp/international/theme/summer/) | ダイナミックパッケージ価格 |
 | 〜6/12 | じゃらん | [じゃらんクーポンフェス](https://www.jalan.net/theme/jalancouponfes/) | 500円〜**最大2万円**クーポン（3タームに分割配布） |
@@ -64,7 +64,7 @@ author: "hacker-ko"
 | 通年 | 一休.com | [スペシャルタイムセール（36時間限定）](https://www.ikyu.com/special/timesale_gogo/search) | 高級宿 最大20%OFF |
 | 通年 | Yahoo!トラベル | [スペシャルセール（36時間限定）](https://travel.yahoo.co.jp/feature/timesale_specialsale_36/) | PayPayポイント30%以上還元 |
 | 7〜8月 | じゃらん | [じゃらん夏SALE](https://www.jalan.net/theme/summersale/) | 例年: 第1弾5%OFF→第3弾最大15%OFF |
-| 夏（〜9/30） | <span class="cell-brand"><img class="brand-logo-sm" src="/images/summer-travel-timesale-2026/logos/rakutentravel.png" alt="" loading="lazy" />楽天トラベル</span> | [スーパーDEAL（夏旅 40%還元）](https://travel.rakuten.co.jp/superdeal/special/ss2506/) | 対象プラン40%ポイント還元（楽天モバイル契約者最大45%） |
+| 夏（〜9/30） | <span class="cell-brand"><img class="brand-logo-sm" src="/images/summer-travel-timesale-2026/logos/rakutentravel.png" alt="" loading="lazy" />楽天トラベル</span> | [スーパーDEAL（夏旅 40%還元）](https://hb.afl.rakuten.co.jp/hgc/587f2635.77bb335f.587f2636.e34c8733/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2Fsuperdeal%2Fspecial%2Fss2506%2F&m=https%3A%2F%2Ftravel.rakuten.co.jp%2Fsuperdeal%2Fspecial%2Fss2506%2F) | 対象プラン40%ポイント還元（楽天モバイル契約者最大45%） |
 | 夏（〜8/31） | <span class="cell-brand"><img class="brand-logo-sm" src="/images/summer-travel-timesale-2026/logos/jal.png" alt="" loading="lazy" />JAL</span> | [国内タイムセール（北海道・沖縄クーポン）](https://www.jal.co.jp/jp/ja/domtour/jaldp/time_sale/) | 北海道・沖縄方面で限定クーポン |
 | 7〜9月 | ANAトラベラーズ | [国内ツアータイムセール](https://www.ana.co.jp/ja/jp/domestic/theme/timesale/domtour/) | ダイナミックパッケージ値下げ＋クーポン |
 
@@ -120,11 +120,11 @@ author: "hacker-ko"
   <img src="https://img.travel.rakuten.co.jp/special/sales/202605/images/kv_pc.png" alt="楽天トラベル アーリーサマーフェア キービジュアル" loading="lazy" referrerpolicy="no-referrer" />
   <figcaption>
     楽天トラベル アーリーサマーフェア（〜5/29 9:59）。宿最大25%OFF・楽パック最大2万円OFF・海外最大5万円OFF・レンタカー最大41%OFF・遊び体験最大10%OFFの一斉セール。
-    <cite>出典: <img class="brand-logo-sm" src="/images/summer-travel-timesale-2026/logos/rakutentravel.png" alt="楽天トラベルのロゴ" loading="lazy" /><a href="https://event.travel.rakuten.co.jp/special/sales/" target="_blank" rel="noopener">楽天トラベル公式</a></cite>
+    <cite>出典: <img class="brand-logo-sm" src="/images/summer-travel-timesale-2026/logos/rakutentravel.png" alt="楽天トラベルのロゴ" loading="lazy" /><a href="https://hb.afl.rakuten.co.jp/hgc/587f2635.77bb335f.587f2636.e34c8733/?pc=https%3A%2F%2Fevent.travel.rakuten.co.jp%2Fspecial%2Fsales%2F&m=https%3A%2F%2Fevent.travel.rakuten.co.jp%2Fspecial%2Fsales%2F" target="_blank" rel="sponsored noopener nofollow">楽天トラベル公式</a></cite>
   </figcaption>
 </figure>
 
-楽天経済圏ユーザーは**これと[スーパーDEAL（40%還元）](https://travel.rakuten.co.jp/superdeal/special/ss2506/)の合せ技**で実質値引きを最大化。楽天モバイル契約者は還元率がさらに +5% され **45%** に達する。
+楽天経済圏ユーザーは**これと[スーパーDEAL（40%還元）](https://hb.afl.rakuten.co.jp/hgc/587f2635.77bb335f.587f2636.e34c8733/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2Fsuperdeal%2Fspecial%2Fss2506%2F&m=https%3A%2F%2Ftravel.rakuten.co.jp%2Fsuperdeal%2Fspecial%2Fss2506%2F)の合せ技**で実質値引きを最大化。楽天モバイル契約者は還元率がさらに +5% され **45%** に達する。
 
 5/29を逃すと、次のチャンスは楽天スーパーSALE夏ターム or 直前割。湾岸民の楽天民は **今夜中に動け**。
 
@@ -312,7 +312,7 @@ PayPay経済圏で固定費まで集約してる人は、**Yahoo!トラベル+Pa
 **1社のサイトだけ見て決めるのは情弱**。今夜は最低3社のページを並べて、同じ日程・同じエリアで実質値引きを比較してから決めなさい。アタシみたいに年5回の旅行を予算内に収めたい人は、これが最低限のルーティンよ。
 
 ▶ **[JR東日本びゅう タイムセール](https://www.jre-travel.com/drp/timesale/)**（〜5/26）
-▶ **[楽天トラベル アーリーサマーフェア](https://event.travel.rakuten.co.jp/special/sales/)**（〜5/29）
+▶ **[楽天トラベル アーリーサマーフェア](https://hb.afl.rakuten.co.jp/hgc/587f2635.77bb335f.587f2636.e34c8733/?pc=https%3A%2F%2Fevent.travel.rakuten.co.jp%2Fspecial%2Fsales%2F&m=https%3A%2F%2Fevent.travel.rakuten.co.jp%2Fspecial%2Fsales%2F)**（〜5/29）
 ▶ **[じゃらんクーポンフェス](https://www.jalan.net/theme/jalancouponfes/)**（〜6/12）
 
 <aside class="related-block">

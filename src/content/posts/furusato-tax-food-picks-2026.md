@@ -178,7 +178,7 @@ author: "hacker-ko"
   </div>
 </div>
 
-<p class="source-note">寄付額は2026年5月時点の各商品ページ実勢値（楽天ふるさと納税・ふるなび上で確認）。<strong>2025年以降の米騰貴で寄付額が大きく上昇中</strong>のため、最新値は必ず各商品ページで確認すること。同じ品種でも自治体・収穫年により¥10,000以上の幅がある（出典: <a href="https://event.rakuten.co.jp/furusato/" target="_blank" rel="sponsored noopener nofollow">楽天ふるさと納税</a>・<a href="https://furunavi.jp/" target="_blank" rel="sponsored noopener nofollow">ふるなび</a>）。</p>
+<p class="source-note">寄付額は2026年5月時点の各商品ページ実勢値（楽天ふるさと納税・ふるなび上で確認）。<strong>2025年以降の米騰貴で寄付額が大きく上昇中</strong>のため、最新値は必ず各商品ページで確認すること。同じ品種でも自治体・収穫年により¥10,000以上の幅がある（出典: <a href="https://hb.afl.rakuten.co.jp/hgc/587f2635.77bb335f.587f2636.e34c8733/?pc=https%3A%2F%2Fevent.rakuten.co.jp%2Ffurusato%2F&m=https%3A%2F%2Fevent.rakuten.co.jp%2Ffurusato%2F" target="_blank" rel="sponsored noopener nofollow">楽天ふるさと納税</a>・<a href="https://furunavi.jp/" target="_blank" rel="sponsored noopener nofollow">ふるなび</a>）。</p>
 
 ### 米選びの3つの鉄則
 
