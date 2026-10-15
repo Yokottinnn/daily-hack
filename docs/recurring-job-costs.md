@@ -9,11 +9,13 @@ CLAUDE.md 最上位ルール 2-B の実体。**反復作業を提案・報告・
 最終更新: 2026-09-28（記事リフレッシュの実測 $0.0443/回。**web 検索は $10/1,000 searches** と確定。
 **web 検索ありの実測は $0.7857/回＝月 $23.6。見込みの 2.7〜8.7 倍だった**＝t202）
 
+## 2026-10-15: 作戦室のトレンドのワードを毎日ためる（**Console 課金 $0**）
+
+Mac の `com.dailyhack.trend-daily`（毎日 7:10・`scripts/strategy-board/trend-daily.sh`・t296）は Google トレンドの RSS と Yahoo! リアルタイム検索を読むだけで LLM を使わない。**1 回 $0・1 日 $0・1 か月 $0**（2026-10-15 から）。
+
 ## 2026-10-12: 収益化作戦室の週次更新を足した（**Console 課金 $0**）
 
 Mac の `com.dailyhack.board-weekly`（月曜 6:40・`scripts/strategy-board/mac-weekly.sh`）と、
-
-Mac の `com.dailyhack.trend-daily`（毎日 7:10・`scripts/strategy-board/trend-daily.sh`・t296）は Google トレンドの RSS と Yahoo! リアルタイム検索を読むだけで LLM を使わない。**1 回 $0・1 日 $0・1 か月 $0**（2026-10-15 から）。
 クラウドの週次ルーティン（月曜 8:47・[`strategy-board-routine.md`](./strategy-board-routine.md)）。
 
 | | 1 回 | 1 日 | 1 か月 |
