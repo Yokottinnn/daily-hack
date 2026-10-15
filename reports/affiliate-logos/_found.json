@@ -1,0 +1,272 @@
+{
+ "gmo-tokutoku": {
+  "page": "https://gmobb.jp/",
+  "files": [
+   {
+    "file": "gmo-tokutoku-0-img.svg",
+    "url": "https://gmobb.jp/common/assets/images/logo.svg?1792051091",
+    "kind": "img"
+   },
+   {
+    "file": "gmo-tokutoku-1-img.png",
+    "url": "https://gmobb.jp/service/docomohikari/common_47843/images/pubmediaBox_iid_logo.png?1792051094",
+    "kind": "img"
+   }
+  ]
+ },
+ "brandoff": {
+  "page": "https://www.brandoff.co.jp/",
+  "files": [
+   {
+    "file": "brandoff-0-img.png",
+    "url": "https://www.brandoff.co.jp/rebrand/img/logo.png",
+    "kind": "img"
+   },
+   {
+    "file": "brandoff-1-img.png",
+    "url": "https://www.brandoff.co.jp/rebrand/img/logo_w.png",
+    "kind": "img"
+   },
+   {
+    "file": "brandoff-2-og.png",
+    "url": "https://www.brandoff.co.jp/rebrand/img/brandoff-og.png",
+    "kind": "og"
+   }
+  ]
+ },
+ "j-trip": {
+  "page": "https://www.jtrip.co.jp/",
+  "files": [
+   {
+    "file": "j-trip-0-img.png",
+    "url": "https://mda.jtp.li/j-kakuyasu/img/logo.png",
+    "kind": "img"
+   },
+   {
+    "file": "j-trip-1-img.png",
+    "url": "https://mda.jtp.li/common/img/index/logo_base.png",
+    "kind": "img"
+   },
+   {
+    "file": "j-trip-2-img.png",
+    "url": "https://mda.jtp.li/common/img/index/logo_pointer.png",
+    "kind": "img"
+   }
+  ]
+ },
+ "aeon-compass": {
+  "page": "https://www.aeoncompass.com/",
+  "files": [
+   {
+    "file": "aeon-compass-0-img.jpg",
+    "url": "https://www.aeoncompass.com/images/index/jal_logo.jpg",
+    "kind": "img"
+   },
+   {
+    "file": "aeon-compass-1-img.jpg",
+    "url": "https://www.aeoncompass.com/images/index/jal_logo.jpg",
+    "kind": "img"
+   },
+   {
+    "file": "aeon-compass-2-img.png",
+    "url": "https://www.aeoncompass.com/images_211112/index/htb_logo.png",
+    "kind": "img"
+   }
+  ]
+ },
+ "resort-glamping": {
+  "page": "https://www.resort-glamping.com/",
+  "files": [
+   {
+    "file": "resort-glamping-0-img.svg",
+    "url": "https://www.resort-glamping.com/wp-content/themes/resort-glamping/img/common/logo.svg",
+    "kind": "img"
+   },
+   {
+    "file": "resort-glamping-1-img.svg",
+    "url": "https://www.resort-glamping.com/wp-content/themes/resort-glamping/img/common/logo.svg",
+    "kind": "img"
+   },
+   {
+    "file": "resort-glamping-2-img.svg",
+    "url": "https://www.resort-glamping.com/wp-content/themes/resort-glamping/img/common/logo.svg",
+    "kind": "img"
+   }
+  ]
+ },
+ "so-net": {
+  "page": "https://www.so-net.ne.jp/access/hikari/",
+  "files": [
+   {
+    "file": "so-net-0-img.png",
+    "url": "https://www.so-net.ne.jp/common/hf1704/img/logo-sony.png",
+    "kind": "img"
+   },
+   {
+    "file": "so-net-1-img.png",
+    "url": "https://www.so-net.ne.jp/assets/images/logo/so-net.png",
+    "kind": "img"
+   },
+   {
+    "file": "so-net-2-img.png",
+    "url": "https://www.so-net.ne.jp/common/hf1704/img/logo-sony.png",
+    "kind": "img"
+   }
+  ]
+ },
+ "biglobe-hikari": {
+  "page": "https://join.biglobe.ne.jp/ftth/hikari/",
+  "files": [
+   {
+    "file": "biglobe-hikari-0-img.svg",
+    "url": "https://join.biglobe.ne.jp/v4/image/ftth/index/logo_hikari.svg?v=1edb0edb81",
+    "kind": "img"
+   },
+   {
+    "file": "biglobe-hikari-1-touch.png",
+    "url": "https://join.biglobe.ne.jp/v3/image/favicons/apple-touch-icon.png",
+    "kind": "touch"
+   },
+   {
+    "file": "biglobe-hikari-2-og.png",
+    "url": "https://join.biglobe.ne.jp/v4/image/og/common.png",
+    "kind": "og"
+   }
+  ]
+ },
+ "biglobe-wimax": {
+  "page": "https://join.biglobe.ne.jp/mobile/wimax/5g/",
+  "files": [
+   {
+    "file": "biglobe-wimax-0-img.svg",
+    "url": "https://join.biglobe.ne.jp/v4/image/mobile/wimax/header/logo_wimax_pc.svg?v=aaed9fa0db",
+    "kind": "img"
+   },
+   {
+    "file": "biglobe-wimax-1-touch.png",
+    "url": "https://join.biglobe.ne.jp/v3/image/favicons/apple-touch-icon.png",
+    "kind": "touch"
+   },
+   {
+    "file": "biglobe-wimax-2-og.png",
+    "url": "https://join.biglobe.ne.jp/v4/image/og/wimax.png?v=a0ddd6e02a",
+    "kind": "og"
+   }
+  ]
+ },
+ "softbank-air": {
+  "page": "https://www.softbank.jp/internet/air/",
+  "files": [
+   {
+    "file": "softbank-air-0-og.bin",
+    "url": "https://www.softbank.jp/site/set/common/shared/img/icon_softbank.gif",
+    "kind": "og"
+   }
+  ]
+ },
+ "docomo-hikari": {
+  "page": "https://www.docomo.ne.jp/internet/hikari/index.html",
+  "files": [
+   {
+    "file": "docomo-hikari-0-img.svg",
+    "url": "https://www.docomo.ne.jp/images_osp/common/newhf/header/cmn-rwd-header-logo.svg?ver=1751324418",
+    "kind": "img"
+   },
+   {
+    "file": "docomo-hikari-1-img.svg",
+    "url": "https://www.docomo.ne.jp/images_osp/common/newhf/logo/cmn-rwd-my-docomo-logo.svg",
+    "kind": "img"
+   },
+   {
+    "file": "docomo-hikari-2-img.svg",
+    "url": "https://www.docomo.ne.jp/images_osp/common/newhf/logo/cmn-rwd-my-docomo-logo.svg",
+    "kind": "img"
+   }
+  ]
+ },
+ "au-hikari": {
+  "page": "https://www.au.com/internet/",
+  "files": [
+   {
+    "file": "au-hikari-0-img.png",
+    "url": "https://www.au.com/content/dam/au-com/common/icon/au_logo_y.png?scl=1&fmt=png-alpha",
+    "kind": "img"
+   },
+   {
+    "file": "au-hikari-1-img.png",
+    "url": "https://www.au.com/content/dam/au-com/common/icon/au_logo_t.png?scl=1&fmt=png-alpha",
+    "kind": "img"
+   },
+   {
+    "file": "au-hikari-2-img.png",
+    "url": "https://www.au.com/content/dam/au-com/designs/icon/footer_logo.png",
+    "kind": "img"
+   }
+  ]
+ },
+ "softbank-hikari": {
+  "page": "https://www.softbank.jp/internet/hikari/",
+  "files": [
+   {
+    "file": "softbank-hikari-0-og.bin",
+    "url": "https://www.softbank.jp/site/set/common/shared/img/icon_softbank.gif",
+    "kind": "og"
+   }
+  ]
+ },
+ "flets": {
+  "page": "https://flets.com/",
+  "files": [
+   {
+    "file": "flets-0-img.svg",
+    "url": "https://flets.com/assets/img/logo_east_01.svg",
+    "kind": "img"
+   },
+   {
+    "file": "flets-1-img.svg",
+    "url": "https://flets.com/assets/img/logo_east_01.svg",
+    "kind": "img"
+   },
+   {
+    "file": "flets-2-touch.png",
+    "url": "https://flets.com/apple-touch-icon.png",
+    "kind": "touch"
+   }
+  ]
+ },
+ "navitime-travel": {
+  "page": "https://travel.navitime.com/ja/",
+  "files": [
+   {
+    "file": "navitime-travel-0-img.svg",
+    "url": "https://travel.navitime.com/static/parche/20261015-2/images/atomic-design/pc/layout/ja/ic-site-logo.svg",
+    "kind": "img"
+   },
+   {
+    "file": "navitime-travel-1-img.svg",
+    "url": "https://travel.navitime.com/static/parche/20261015-2/images/pc/common/logo/navitimetravel-logo.svg",
+    "kind": "img"
+   },
+   {
+    "file": "navitime-travel-2-touch.png",
+    "url": "https://travel.navitime.com/static/logo/favicon/n/apple-touch-icon.png",
+    "kind": "touch"
+   }
+  ]
+ },
+ "earthcar": {
+  "page": "https://carshare.earth-car.com/",
+  "files": [
+   {
+    "file": "earthcar-0-touch.png",
+    "url": "https://carshare.earth-car.com/assets/images/fav-icons/apple-touch-icon.png",
+    "kind": "touch"
+   },
+   {
+    "file": "earthcar-1-og.jpg",
+    "url": "https://media.carshare.earth-car.com/wp-content/themes/media.carshare.earth-car.com/assets/css/top/images/earthcar_ogp.jpg",
+    "kind": "og"
+   }
+  ]
+ }
+}
