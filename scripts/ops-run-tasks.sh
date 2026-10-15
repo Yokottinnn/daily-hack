@@ -58,6 +58,19 @@ else
   git -C "$MAIN_REPO" fetch -q origin main 2>/dev/null || true
 fi
 
+# --- 外から見える状態 --------------------------------------------------------
+#
+# **2026-10-15、main に入ったタスク（x294・t296）が 2 周回 以上 走らず、
+# heartbeat の tasks は空のままだった。** ロックで譲ったのか、fetch に失敗して
+# 古い main を見ているのか、外から区別できなかった。毎回ここに書き、heartbeat が push する。
+fetch_err="$(git -C "$MAIN_REPO" fetch -q origin main 2>&1 >/dev/null | head -1)"
+status() {
+  printf '%s main=%s fetch=%s %s\n' "$(date -u +%Y-%m-%dT%H:%M:%SZ)" \
+    "$(git -C "$MAIN_REPO" rev-parse --short origin/main 2>/dev/null)" \
+    "${fetch_err:-ok}" "$1" > "$WT/runner-status.txt" 2>/dev/null || true
+}
+status "start"
+
 # --- ロック ----------------------------------------------------------------
 #
 # **`mkdir` は原子的。** `[ -e ]` してから作る形だと隙間で両方が通る。
@@ -74,11 +87,23 @@ if ! mkdir "$LOCK" 2>/dev/null; then
       # **黙って譲らない。** 無言だと「止まっている」のか「譲っている」のか
       # 外から区別できない。2026-09-04 にこれで 28 分 気づけなかった。
       echo "ops-run-tasks: 別の実行がロック中（$((now_s - started)) 秒経過）。譲る" >&2
+      status "yield lock $((now_s - started))s running=$(cat "$LOCK/running" 2>/dev/null | tr ' ' '_')"
       exit 0
     fi
   else
-    echo "ops-run-tasks: ロックはあるが started_at が無い。譲る" >&2
-    exit 0
+    # **started_at の無いロックは、作られてから STALE_SEC を過ぎたら外す。**
+    # 以前は無条件に譲っていたため、mkdir の直後に落ちると永久にタスクが走らなかった。
+    lock_m="$(perl -e 'print((stat shift)[9] || 0)' "$LOCK" 2>/dev/null)"  # stat は Mac と Linux で別物（最上位ルール 14）
+    case "$lock_m" in ''|*[!0-9]*) lock_m=0 ;; esac
+    if [ $(( $(date +%s) - lock_m )) -gt "$STALE_SEC" ] 2>/dev/null; then
+      echo "ops-run-tasks: started_at の無い古いロックを外す" >&2
+      rm -rf "$LOCK"
+      mkdir "$LOCK" 2>/dev/null || exit 0
+    else
+      echo "ops-run-tasks: ロックはあるが started_at が無い。譲る" >&2
+      status "yield lock-no-started_at"
+      exit 0
+    fi
   fi
 fi
 date +%s > "$LOCK/started_at"
@@ -245,6 +270,7 @@ else
   printf '[]\n' > "$OUTJSON"
 fi
 
+status "done ran=$ran"
 [ "$ran" = "0" ] && exit 0
 echo "ops-run-tasks: $ran 件 実行した"
 
