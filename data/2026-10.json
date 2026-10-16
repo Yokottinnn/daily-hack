@@ -12415,5 +12415,863 @@
       "uniques": 263,
       "scope": "zone"
     }
+  },
+  "2026-10-15": {
+    "visits": 197,
+    "requests": 699,
+    "paths": 285,
+    "jp": 9,
+    "human": 31,
+    "top": [
+      {
+        "path": "/",
+        "v": 28,
+        "r": 28
+      },
+      {
+        "path": "/tags/2026/",
+        "v": 11,
+        "r": 11
+      },
+      {
+        "path": "/posts/walk-poikatsu-2026/",
+        "v": 7,
+        "r": 7
+      },
+      {
+        "path": "/posts/tokyo-bay-hanabi-2026/",
+        "v": 6,
+        "r": 6
+      },
+      {
+        "path": "/posts/outlet-mall-guide-2026/",
+        "v": 5,
+        "r": 5
+      },
+      {
+        "path": "/posts/credit-card-campaign-2026-07/",
+        "v": 5,
+        "r": 5
+      },
+      {
+        "path": "/posts/sauna-openings-2026/",
+        "v": 5,
+        "r": 5
+      },
+      {
+        "path": "/posts/rakuten-marathon-guide-2026/",
+        "v": 4,
+        "r": 4
+      },
+      {
+        "path": "/posts/gyudon-chains-cashless-2026-jun/",
+        "v": 4,
+        "r": 4
+      },
+      {
+        "path": "/posts/move-to-earn-poikatsu-apps-2026/",
+        "v": 4,
+        "r": 4
+      },
+      {
+        "path": "/posts/momiji-2026-kanto/",
+        "v": 4,
+        "r": 4
+      },
+      {
+        "path": "/tags/PayPay/",
+        "v": 4,
+        "r": 4
+      },
+      {
+        "path": "/posts/point-service-complete-guide-2026/",
+        "v": 3,
+        "r": 3
+      },
+      {
+        "path": "/posts/lalaport-guide-2026/",
+        "v": 3,
+        "r": 3
+      },
+      {
+        "path": "/posts/point-exchange-route-2026/",
+        "v": 3,
+        "r": 3
+      },
+      {
+        "path": "/posts/wangan-supermarkets-2026/",
+        "v": 3,
+        "r": 3
+      },
+      {
+        "path": "/posts/paypay-card-gold-kaiaku-2026/",
+        "v": 3,
+        "r": 3
+      },
+      {
+        "path": "/posts/tokyo-discount-supermarket-2026/",
+        "v": 3,
+        "r": 3
+      },
+      {
+        "path": "/posts/walk-vs-pointsite-2026/",
+        "v": 2,
+        "r": 3
+      },
+      {
+        "path": "/posts/pointsite-comparison-2026/",
+        "v": 2,
+        "r": 2
+      },
+      {
+        "path": "/posts/ikea-delivery-vs-carshare-2026/",
+        "v": 2,
+        "r": 3
+      },
+      {
+        "path": "/posts/overseas-esim-wifi-comparison-2026/",
+        "v": 2,
+        "r": 3
+      },
+      {
+        "path": "/posts/takuhai-kaitori-comparison-2026/",
+        "v": 2,
+        "r": 3
+      },
+      {
+        "path": "/posts/hotel-booking-sites-2026/",
+        "v": 2,
+        "r": 3
+      },
+      {
+        "path": "/posts/prime-sale-vs-rakuten-autumn-2026/",
+        "v": 2,
+        "r": 3
+      },
+      {
+        "path": "/posts/home-router-wimax-comparison-2026/",
+        "v": 2,
+        "r": 3
+      },
+      {
+        "path": "/posts/pocket-wifi-comparison-2026/",
+        "v": 2,
+        "r": 2
+      },
+      {
+        "path": "/posts/wangan-tower-construction-map-2026/",
+        "v": 2,
+        "r": 2
+      },
+      {
+        "path": "/posts/hikari-cashback-comparison-2026/",
+        "v": 2,
+        "r": 3
+      },
+      {
+        "path": "/posts/point-kaiaku-timeline-2026/",
+        "v": 2,
+        "r": 2
+      },
+      {
+        "path": "/posts/domestic-flight-tour-sites-2026/",
+        "v": 2,
+        "r": 3
+      },
+      {
+        "path": "/tags/Amazon/",
+        "v": 2,
+        "r": 2
+      },
+      {
+        "path": "/tags/JAL/",
+        "v": 2,
+        "r": 2
+      },
+      {
+        "path": "/tags/ANA/",
+        "v": 2,
+        "r": 2
+      },
+      {
+        "path": "/tags/%E6%97%A7%E5%8F%A4%E6%B2%B3%E5%BA%AD%E5%9C%92/",
+        "v": 2,
+        "r": 2
+      },
+      {
+        "path": "/posts/credit-card-kaiaku-2026/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/posts/fixed-cost-reduction-guide-2026/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/posts/price-hike-2026-summer-defense/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/posts/credit-card-no-annual-fee-comparison-2026/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/posts/takanawa-gateway-city-guide-2026/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/posts/summer-electricity-saving-2026/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/posts/hoso-daigaku-gakuwari-2026/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/posts/mortgage-refinance-breakeven-2026/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/posts/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/posts/summer-cospa-travel-2026/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/posts/amazon-prime-day-rakuten-ss-2026/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/posts/cheap-sim-speed-cost-2026/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/posts/mobility-cost-per-km-2026/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E9%AB%98%E8%BC%AA%E3%82%B2%E3%83%BC%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A4%E3%82%B7%E3%83%86%E3%82%A3%20%E9%A7%90%E8%BB%8A%E5%A0%B4/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/JAL%20Wellness%20Travel/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E7%84%A1%E6%96%99/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/DMM%20FX/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E3%83%81%E3%82%A7%E3%83%BC%E3%83%B3%E5%BA%97/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/Pixel%20Moon/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E6%B8%85%E6%BE%84%E5%BA%AD%E5%9C%92/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/IKEA/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E6%96%B0%E5%AE%BF%E5%BE%A1%E8%8B%91/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E9%AB%98%E8%BC%AA%E3%82%B2%E3%83%BC%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A4%E3%82%B7%E3%83%86%E3%82%A3/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E3%81%BE%E3%81%84%E3%81%B0%E3%81%99%E3%81%91%E3%81%A3%E3%81%A8/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/category/roundups/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E7%B4%85%E8%91%89/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/category/howto/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E5%AD%A6%E7%94%9F%E8%A8%BC/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/category/wangan-life/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E3%81%B5%E3%82%8B%E3%81%95%E3%81%A8%E7%B4%8D%E7%A8%8E%20%E3%82%B5%E3%82%A4%E3%83%88/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/JAL%20Wellness%20&%20Travel/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E3%83%A9%E3%82%A4%E3%83%88%E3%82%A2%E3%83%83%E3%83%97/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E9%AB%98%E8%BC%AA%E3%82%B2%E3%83%BC%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A4%E3%82%B7%E3%83%86%E3%82%A3%20%E3%83%A9%E3%83%B3%E3%83%81/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E3%81%B5%E3%82%8B%E3%81%95%E3%81%A8%E7%B4%8D%E7%A8%8E%20%E3%81%8A%E3%81%99%E3%81%99%E3%82%81%202026/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E6%A5%AD%E5%8B%99%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E5%AD%A6%E5%89%B2/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E9%AB%98%E8%BC%AA%E3%82%B2%E3%83%BC%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A4%20%E3%82%AB%E3%83%95%E3%82%A7/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/PR/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/SPU/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/category/comparisons/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/Apple%20Pay/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/SBI%20FX/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E3%81%B5%E3%82%8B%E3%81%AA%E3%81%B3/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/SBI/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/JRE%20POINT/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E6%A5%BD%E5%A4%A9%E3%81%B5%E3%82%8B%E3%81%95%E3%81%A8%E7%B4%8D%E7%A8%8E/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E3%81%8C%E3%82%93%E4%BF%9D%E9%99%BA/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E6%A5%BD%E5%A4%A9%E3%83%98%E3%83%AB%E3%82%B9%E3%82%B1%E3%82%A2/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/eKYC/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E3%82%B3%E3%83%A1%E3%83%80%E7%8F%88%E7%90%B2%E5%BA%97/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/au%20PAY%20%E3%81%B5%E3%82%8B%E3%81%95%E3%81%A8%E7%B4%8D%E7%A8%8E/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/MoN%20Takanawa/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E6%9D%B1%E4%BA%AC/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/FX/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E3%82%89%E3%82%89%E3%81%BD%E3%83%BC%E3%81%A8%E8%B1%8A%E6%B4%B2/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88%E6%94%B9%E6%82%AA/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E6%96%B0%E5%BA%97/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/posts/june-2026-campaigns-roundup/",
+        "v": 0,
+        "r": 1
+      },
+      {
+        "path": "/images/walk-poikatsu-2026/logos/dhealth.png",
+        "v": 0,
+        "r": 1
+      },
+      {
+        "path": "/images/june-2026-campaigns-roundup/logos/rakutenpay.png",
+        "v": 0,
+        "r": 1
+      },
+      {
+        "path": "/images/home-router-wimax-comparison-2026/eyecatch.jpg",
+        "v": 0,
+        "r": 4
+      },
+      {
+        "path": "/_astro/BaseLayout.BxJCJUD6.css",
+        "v": 0,
+        "r": 23
+      },
+      {
+        "path": "/images/wangan-supermarkets-2026/icons/point-mitsui-sp.png",
+        "v": 0,
+        "r": 1
+      },
+      {
+        "path": "/images/banners/au-hikari-300x250.jpg",
+        "v": 0,
+        "r": 1
+      },
+      {
+        "path": "/images/walk-poikatsu-2026/logos/healthree.png",
+        "v": 0,
+        "r": 1
+      },
+      {
+        "path": "/images/expr-04-cheer.png",
+        "v": 0,
+        "r": 8
+      },
+      {
+        "path": "/images/morning-500-2026/photos/ueshima.jpg",
+        "v": 0,
+        "r": 1
+      },
+      {
+        "path": "/images/overseas-esim-wifi-comparison-2026/logos/sakuramobile.png",
+        "v": 0,
+        "r": 1
+      },
+      {
+        "path": "/images/momiji-2026-kanto/eyecatch.jpg",
+        "v": 0,
+        "r": 5
+      },
+      {
+        "path": "/images/mens-hairremoval-comparison-2026/eyecatch.jpg",
+        "v": 0,
+        "r": 2
+      },
+      {
+        "path": "/images/walk-poikatsu-2026/logos/vitality.png",
+        "v": 0,
+        "r": 1
+      },
+      {
+        "path": "/sitemap-index.xml",
+        "v": 0,
+        "r": 2
+      },
+      {
+        "path": "/images/banners/chobirich-300x250.jpg",
+        "v": 0,
+        "r": 1
+      },
+      {
+        "path": "/images/banners/flets-hikari-300x250.jpg",
+        "v": 0,
+        "r": 1
+      },
+      {
+        "path": "/images/overseas-esim-wifi-comparison-2026/logos/ahamo.png",
+        "v": 0,
+        "r": 1
+      },
+      {
+        "path": "/images/hotel-booking-sites-2026/logos/ozmall.png",
+        "v": 0,
+        "r": 1
+      },
+      {
+        "path": "/images/tokyo-discount-supermarket-2026/eyecatch.jpg",
+        "v": 0,
+        "r": 2
+      },
+      {
+        "path": "/images/hikari-cashback-comparison-2026/logos/commufa-hikari.png",
+        "v": 0,
+        "r": 1
+      },
+      {
+        "path": "/images/banners/brand-off-kaitori-300x250.jpg",
+        "v": 0,
+        "r": 1
+      },
+      {
+        "path": "/images/hikari-cashback-comparison-2026/logos/biglobe-hikari.png",
+        "v": 0,
+        "r": 1
+      },
+      {
+        "path": "/images/walk-poikatsu-2026/photos/park.jpg",
+        "v": 0,
+        "r": 5
+      },
+      {
+        "path": "/images/furusato-tax-2026-reform-guide/eyecatch.jpg",
+        "v": 0,
+        "r": 1
+      },
+      {
+        "path": "/images/hikari-cashback-comparison-2026/logos/nifty-hikari.png",
+        "v": 0,
+        "r": 1
+      },
+      {
+        "path": "/images/june-2026-campaigns-roundup/logos/jrebank.png",
+        "v": 0,
+        "r": 1
+      },
+      {
+        "path": "/images/june-2026-campaigns-roundup/logos/paypaycard.png",
+        "v": 0,
+        "r": 1
+      },
+      {
+        "path": "/images/furusato-portal-comparison-2026/eyecatch.jpg",
+        "v": 0,
+        "r": 9
+      },
+      {
+        "path": "/images/pocket-wifi-comparison-2026/eyecatch.jpg",
+        "v": 0,
+        "r": 1
+      },
+      {
+        "path": "/images/walk-poikatsu-2026/logos/stellawalk.png",
+        "v": 0,
+        "r": 1
+      },
+      {
+        "path": "/images/banners/travelist-hotel-300x250.jpg",
+        "v": 0,
+        "r": 1
+      },
+      {
+        "path": "/images/move-to-earn-poikatsu-apps-2026/eyecatch.jpg",
+        "v": 0,
+        "r": 3
+      },
+      {
+        "path": "/images/june-2026-campaigns-roundup/logos/rakuten-card.png",
+        "v": 0,
+        "r": 1
+      },
+      {
+        "path": "/images/walk-poikatsu-2026/logos/bitwalk.png",
+        "v": 0,
+        "r": 1
+      },
+      {
+        "path": "/images/ikea-delivery-vs-carshare-2026/eyecatch.jpg",
+        "v": 0,
+        "r": 2
+      },
+      {
+        "path": "/images/june-2026-campaigns-roundup/logos/rakutenbank.png",
+        "v": 0,
+        "r": 1
+      },
+      {
+        "path": "/images/outlet-mall-guide-2026/logos/mitsuifudosan.png",
+        "v": 0,
+        "r": 5
+      },
+      {
+        "path": "/images/expr-09-arms-crossed.png",
+        "v": 0,
+        "r": 12
+      },
+      {
+        "path": "/images/walk-poikatsu-2026/logos/pixela.png",
+        "v": 0,
+        "r": 3
+      },
+      {
+        "path": "/images/overseas-esim-wifi-comparison-2026/logos/rakutenmobile.png",
+        "v": 0,
+        "r": 1
+      },
+      {
+        "path": "/images/wangan-supermarkets-2026/icons/point-ponta.png",
+        "v": 0,
+        "r": 1
+      },
+      {
+        "path": "/images/domestic-flight-tour-sites-2026/logos/travelist.png",
+        "v": 0,
+        "r": 1
+      },
+      {
+        "path": "/images/morning-500-2026/photos/matsuya-sausage-w.jpg",
+        "v": 0,
+        "r": 1
+      },
+      {
+        "path": "/images/hikari-cashback-comparison-2026/eyecatch.jpg",
+        "v": 0,
+        "r": 2
+      },
+      {
+        "path": "/images/wangan-supermarkets-2026/icons/point-bunkado.png",
+        "v": 0,
+        "r": 1
+      },
+      {
+        "path": "/images/june-2026-campaigns-roundup/logos/mufg.png",
+        "v": 0,
+        "r": 1
+      },
+      {
+        "path": "/images/walk-poikatsu-2026/logos/uplus.png",
+        "v": 0,
+        "r": 1
+      },
+      {
+        "path": "/images/june-2026-campaigns-roundup/logos/jcb.png",
+        "v": 0,
+        "r": 1
+      }
+    ],
+    "truncated": false,
+    "countries": [
+      {
+        "k": "US",
+        "v": 134
+      },
+      {
+        "k": "FR",
+        "v": 26
+      },
+      {
+        "k": "FI",
+        "v": 19
+      },
+      {
+        "k": "JP",
+        "v": 9
+      },
+      {
+        "k": "BE",
+        "v": 2
+      },
+      {
+        "k": "AU",
+        "v": 2
+      },
+      {
+        "k": "NZ",
+        "v": 1
+      },
+      {
+        "k": "UA",
+        "v": 1
+      },
+      {
+        "k": "KR",
+        "v": 1
+      },
+      {
+        "k": "NL",
+        "v": 1
+      },
+      {
+        "k": "IN",
+        "v": 1
+      },
+      {
+        "k": "SE",
+        "v": 0
+      }
+    ],
+    "browsers": [
+      {
+        "k": "Unknown",
+        "v": 104
+      },
+      {
+        "k": "BingBot",
+        "v": 42
+      },
+      {
+        "k": "Chrome",
+        "v": 26
+      },
+      {
+        "k": "GoogleBot",
+        "v": 8
+      },
+      {
+        "k": "AppleBot",
+        "v": 8
+      },
+      {
+        "k": "TwitterBot",
+        "v": 4
+      },
+      {
+        "k": "MobileSafari",
+        "v": 3
+      },
+      {
+        "k": "ChromeMobile",
+        "v": 2
+      },
+      {
+        "k": "MobileSafariWebview",
+        "v": 0
+      },
+      {
+        "k": "Firefox",
+        "v": 0
+      }
+    ],
+    "posts": {
+      "/posts/amazon-prime-day-rakuten-ss-2026/": {
+        "human": 1
+      },
+      "/posts/domestic-flight-tour-sites-2026/": {
+        "human": 1
+      },
+      "/posts/hikari-cashback-comparison-2026/": {
+        "human": 1
+      },
+      "/posts/home-router-wimax-comparison-2026/": {
+        "human": 1
+      },
+      "/posts/hotel-booking-sites-2026/": {
+        "human": 1
+      },
+      "/posts/ikea-delivery-vs-carshare-2026/": {
+        "human": 1
+      },
+      "/posts/lalaport-guide-2026/": {
+        "human": 1
+      },
+      "/posts/outlet-mall-guide-2026/": {
+        "human": 2
+      },
+      "/posts/overseas-esim-wifi-comparison-2026/": {
+        "human": 1
+      },
+      "/posts/pocket-wifi-comparison-2026/": {
+        "human": 1
+      },
+      "/posts/prime-sale-vs-rakuten-autumn-2026/": {
+        "human": 1
+      },
+      "/posts/sauna-openings-2026/": {
+        "human": 3
+      },
+      "/posts/takuhai-kaitori-comparison-2026/": {
+        "human": 1
+      }
+    },
+    "zone": {
+      "pageViews": 1061,
+      "uniques": 293,
+      "scope": "zone"
+    }
   }
 }
