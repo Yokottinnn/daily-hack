@@ -3,7 +3,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@500;700;900&family=Noto+Sans+JP:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
 <style>
-/* 作戦室：左に目次の帳面、右に 1 ページずつの紙面。数字は毎週のスナップショットから描き、どの記載にも付箋（コメント）を貼れる。 */
+/* 作戦室：左に目次の帳面、右に 1 ページずつの紙面。数字は毎日のスナップショットから描き、どの記載にも付箋（コメント）を貼れる。 */
 :root{
   --paper:#fbfaf7; --sheet:#ffffff; --ink:#1d1a24; --muted:#5f5a6b; --rule:#e6e1ea;
   --brand:#c2366c; --brand-soft:#fbe8ef; --teal:#0e6b72; --teal-soft:#e2f1f1;
@@ -178,7 +178,7 @@ tr[data-ccount]::after{top:4px;right:4px}
   <div class="eyebrow">全体像</div>
   <h1>「そんな視点あったんだ」のお得比較で X から人を集め、ブログの成果報酬で稼ぐ</h1>
   <div class="stamp" id="stamp-home"><i></i><span>データを読み込み中</span></div>
-  <p class="lead">daily-hack の強みは、<strong>ちょっとしたお得情報を、誰もやっていない切り口で、ハッカー子の個性で面白く比べること</strong>です。湾岸の一次データはその長所の 1 つで、主戦場ではありません。いま人を連れてこられるのは X（7 日で 26.7K 表示）で、Google 検索は 28 日で 33 クリックです。<strong>X で集め、記事の成果報酬で稼ぎ、X の収益化は認証済みフォロワー 500 を先に取る</strong>——この順で「これからの動き」を進めます。数字と所見は<strong>毎週月曜に自動で入れ替わり</strong>、その結果で戦略と予定を直します。</p>
+  <p class="lead">daily-hack の強みは、<strong>ちょっとしたお得情報を、誰もやっていない切り口で、ハッカー子の個性で面白く比べること</strong>です。湾岸の一次データはその長所の 1 つで、主戦場ではありません。いま人を連れてこられるのは X（7 日で 26.7K 表示）で、Google 検索は 28 日で 33 クリックです。<strong>X で集め、記事の成果報酬で稼ぎ、X の収益化は認証済みフォロワー 500 を先に取る</strong>——この順で「これからの動き」を進めます。数字と所見は<strong>毎日自動で入れ替わり</strong>、その結果で戦略と予定を直します。</p>
   <h2>ブログの数字（直近 28 日）</h2>
   <div class="grid" id="kpi-tiles"></div>
   <h2>X の数字</h2>
@@ -199,7 +199,7 @@ tr[data-ccount]::after{top:4px;right:4px}
     <tr><td><b>④ 独自の切り口の比較記事</b></td><td>「そこを比べるのか」という視点のお得比較に、成果報酬の案件を組み合わせる。湾岸の一次データ（マンション別の回線・同じホテルの予約サイト別の価格など）はこの中の武器の 1 つ</td><td>3〜12 週</td></tr>
     </tbody></table></div>
   <h2>決めてほしいこと</h2>
-  <p>チェックは保存され、Claude が毎週読みます。迷うものは、その行にコメントを付けてください。</p>
+  <p>チェックは保存され、Claude が毎日読みます。迷うものは、その行にコメントを付けてください。</p>
   <div class="decide" id="decide"></div>
 </section>
 
@@ -236,12 +236,27 @@ tr[data-ccount]::after{top:4px;right:4px}
     <tbody id="tbl-linkplan"><tr><td colspan="5" class="empty">読み込み中</td></tr></tbody></table></div>
 </section>
 
+<!-- ============ 成果リンクの一覧 ============ -->
+<section class="page" data-page="afflinks" data-title="成果リンクの一覧" hidden>
+  <div class="eyebrow">成果リンクの一覧</div>
+  <h1>どの記事に、どの ASP の、どの案件のリンクが入っているか</h1>
+  <div class="stamp" id="stamp-aff"><i></i><span>データを読み込み中</span></div>
+  <p class="lead">記事の本文から、A8・楽天・バリューコマースのリンクを数えて並べています。<strong>毎日の更新で入れ替わります。</strong>数は「その記事にそのリンクが何か所あるか」です（バナーと文字のリンクを別々に数える）。</p>
+  <div class="note">バリューコマースは、記事に書いてある一休・じゃらん・Yahoo!トラベルの普通のリンクを、PR 記事に入れたタグ（LinkSwitch）が成果リンクに差し替える仕組みです。10/18 0:35 の時点では、まだ差し替わっていないことを確かめています。</div>
+  <div class="grid" id="aff-tiles"></div>
+  <div class="tabs" id="aff-tabs"></div>
+  <div class="search"><input type="search" id="aff-q" placeholder="記事・案件で探す（例：WiMAX、楽天トラベル、ハピタス）" aria-label="記事・案件で探す"><span class="status" id="aff-n"></span></div>
+  <div class="tbl"><table class="wf"><thead><tr><th>記事</th><th>ASP</th><th>案件・商品</th><th>か所</th></tr></thead><tbody id="tbl-aff"><tr><td colspan="4" class="empty">データ待ち</td></tr></tbody></table></div>
+  <h2>成果リンクが 0 本の記事</h2>
+  <ul class="plain" id="aff-zero"><li class="empty">データ待ち</li></ul>
+</section>
+
 <!-- ============ 現状 ============ -->
 <section class="page" data-page="now" data-title="現状の数字" hidden>
   <div class="eyebrow">現状の数字</div>
   <h1>読まれている記事ほど、稼ぐ仕掛けが入っていない</h1>
   <div class="stamp" id="stamp-now"><i></i><span>データを読み込み中</span></div>
-  <p class="lead">検索の表示は伸びているのに、クリックと成果リンクが追いついていません。<strong>下の 2 つの表は毎週自動で入れ替わります。</strong></p>
+  <p class="lead">検索の表示は伸びているのに、クリックと成果リンクが追いついていません。<strong>下の 2 つの表は毎日自動で入れ替わります。</strong></p>
   <h2>ブログ全体</h2>
   <div class="grid" id="blog-tiles"><p class="empty">データ待ち</p></div>
   <h3>月ごとの動き</h3>
@@ -282,18 +297,18 @@ tr[data-ccount]::after{top:4px;right:4px}
   <div class="eyebrow">ASP と案件</div>
   <h1>在庫は通信と旅行に厚く、カードとふるさと納税が空いている</h1>
   <div class="stamp" id="stamp-asp"><i></i><span>データを読み込み中</span></div>
-  <p class="lead">4 社とも Mac の Keychain で自動ログインし、毎週月曜に提携状況と A8 の提携一覧を読み直します（LLM 不使用・$0）。<strong>表は毎週自動で入れ替わります。</strong></p>
+  <p class="lead">4 社とも Mac の Keychain で自動ログインし、毎日 提携状況と A8 の提携一覧を読み直します（LLM 不使用・$0）。<strong>表は毎日自動で入れ替わります。</strong></p>
   <h2>4 社の状態</h2>
   <div class="tbl"><table><thead><tr><th>ASP</th><th>ログイン</th><th>メモ</th></tr></thead><tbody id="tbl-asp"><tr><td colspan="3" class="empty">データ待ち</td></tr></tbody></table></div>
   <h2>審査・手続きの待ち</h2>
   <ul class="plain" id="list-pending"><li class="empty">データ待ち</li></ul>
   <h2 data-cid="asp.315tv0">提携中の案件（全 ASP）</h2>
-  <p class="src">「本人 OK」はセルフバック（自分で申し込んで報酬を受け取る）に使える印。報酬は広告側の公開条件で、自分の実績ではありません。A8 とバリューコマース・もしもは毎週月曜に Mac が読み直します。</p>
+  <p class="src">「本人 OK」はセルフバック（自分で申し込んで報酬を受け取る）に使える印。報酬は広告側の公開条件で、自分の実績ではありません。A8 とバリューコマース・もしもは毎日 Mac が読み直します。</p>
   <div class="tabs" id="asp-tabs"><button type="button" data-a="all" aria-pressed="true">すべて</button><button type="button" data-a="A8" aria-pressed="false">A8</button><button type="button" data-a="バリューコマース" aria-pressed="false">バリューコマース</button><button type="button" data-a="もしも" aria-pressed="false">もしも</button><button type="button" data-a="楽天" aria-pressed="false">楽天</button></div>
   <div class="filters" id="a8-filters"><button type="button" data-f="all" aria-pressed="true">すべて</button><button type="button" data-f="self" aria-pressed="false">本人 OK だけ</button><button type="button" data-f="ng" aria-pressed="false">使わない案件</button></div>
   <div class="tbl"><table class="wf"><thead><tr><th>案件</th><th>ASP</th><th>広告側の報酬</th><th>本人</th><th>メモ</th></tr></thead><tbody id="tbl-a8"><tr><td colspan="5" class="empty">データ待ち</td></tr></tbody></table></div>
   <h2>セルフバックの候補（A8・本人 OK・広告側の報酬が高い順）</h2>
-  <p class="src">あなたが使っていないサービスでも選んでよい（10/12 のコメント）。申し込むのはあなたで、申し込んだら利用画面などの素材を記事や投稿に使います。毎週の更新で入れ替わります。</p>
+  <p class="src">あなたが使っていないサービスでも選んでよい（10/12 のコメント）。申し込むのはあなたで、申し込んだら利用画面などの素材を記事や投稿に使います。毎日の更新で入れ替わります。</p>
   <div class="tbl"><table class="wf"><thead><tr><th>案件</th><th>広告側の報酬</th></tr></thead><tbody id="tbl-selfback"><tr><td colspan="2" class="empty">データ待ち</td></tr></tbody></table></div>
   <h2>取りにいく案件</h2>
   <ul class="plain">
@@ -332,7 +347,7 @@ tr[data-ccount]::after{top:4px;right:4px}
       <p>blog 側は <code>docs/cross-session-requests.md</code> に記事 URL・要点 3 つ・画像を書いて頼む。<b>画像を見たうえでの 👍 が無ければ投稿しない</b>。既定は 2 投稿のスレッド。</p>
       <div class="tools">x-post-copy ／ x-post-images ／ 画像レビューページ</div></div></div>
     <div class="st"><div><h3>更新し続ける</h3><div class="who">Mac の定期ジョブと Claude</div>
-      <p>毎日 5:30 に、期限切れの語を含む記事から順に、出典 URL 付きの更新案 PR を 1 本（約 $2.1/月の推定）。毎月 4 日にアクセス分析（$0）。毎週月曜にこの作戦室のデータ更新（$0）。</p>
+      <p>毎日 5:30 に、期限切れの語を含む記事から順に、出典 URL 付きの更新案 PR を 1 本（約 $2.1/月の推定）。毎月 4 日にアクセス分析（$0）。毎日この作戦室のデータ更新（$0）。</p>
       <div class="tools">refresh-daily.sh ／ check-stale-wording.py ／ board-weekly</div></div></div>
   </div>
   <h2>アフィリエイト記事で、この流れに足すもの</h2>
@@ -502,7 +517,7 @@ tr[data-ccount]::after{top:4px;right:4px}
   <p class="lead">このアカウントの存在理由は、<strong>「今までそんな視点あったんだ」と思うお得情報を、独自の切り口で、ハッカー子の個性で面白く比べること</strong>です。総合の「おすすめ」検索語は大手が独占していて正面から勝てませんが、<strong>切り口と声は大手に真似できません</strong>。湾岸の一次データは、その切り口を支える長所の 1 つとして使います。</p>
   <div class="note">10/12 のあなたのコメントで書き直しました。前の版の「湾岸の一次データで勝つ」は、市場の小さい地域に戦場を絞っていて、アカウントの目的を外していました。</div>
   <h2>3 者を 1 つの戦略で動かす</h2>
-  <p>X（tweet2）・ブログ（blog3）・成果報酬（affiliate）は、共通戦略 <code>docs/growth-strategy.md</code> を正本にして動きます。この作戦室はそのうち<b>お金になる部分</b>を担当し、数字と打ち手を毎週更新します。</p>
+  <p>X（tweet2）・ブログ（blog3）・成果報酬（affiliate）は、共通戦略 <code>docs/growth-strategy.md</code> を正本にして動きます。この作戦室はそのうち<b>お金になる部分</b>を担当し、数字と打ち手を毎日更新します。</p>
   <div class="tbl"><table>
     <thead><tr><th>役割</th><th>やること</th><th>この作戦室で見る数字</th></tr></thead>
     <tbody>
@@ -625,13 +640,13 @@ tr[data-ccount]::after{top:4px;right:4px}
   <div class="week" data-week="2026-12-22"><div class="d"><b>11 週</b>12/22〜12/28</div><div><h3>初売り・福袋（湾岸の施設）</h3><ul><li>施設ごとの初売り日程と、ネットの福袋（楽天）</li></ul></div></div>
   <div class="week" data-week="2026-12-29"><div class="d"><b>12 週</b>12/29〜1/3</div><div><h3>3 か月の振り返り</h3><ul><li>記事別の成果、効いた型、次の四半期の計画をこのサイトに</li></ul>
     <div class="gate">ゲート：次の四半期の方針</div></div></div>
-  <h2>毎週の決まった動き</h2>
+  <h2>決まった動き（2026-10-18 から毎日）</h2>
   <div class="tbl"><table>
     <thead><tr><th>いつ</th><th>何が起きるか</th><th>費用（1 回／1 日／1 か月）</th></tr></thead>
     <tbody>
-    <tr><td>毎週月曜 6:12</td><td>Mac：4 社に自動ログインして提携状況を読む</td><td>$0 ／ $0 ／ $0</td></tr>
-    <tr><td>毎週月曜 6:40</td><td>Mac：検索データ（直近 28 日）と A8 の提携一覧を取る</td><td>$0 ／ $0 ／ $0</td></tr>
-    <tr><td>毎週月曜 8:47</td><td>Claude：数字と所見を入れ替え、コメントに返信し、必要なら戦略と予定を書き換えて更新履歴に残す</td><td>Console 課金 $0（サブスクリプション枠のセッション）</td></tr>
+    <tr><td>毎日 6:12</td><td>Mac：4 社に自動ログインして提携状況を読む</td><td>$0 ／ $0 ／ $0</td></tr>
+    <tr><td>毎日 6:40</td><td>Mac：検索データ（直近 28 日）と A8 の提携一覧を取る</td><td>$0 ／ $0 ／ $0</td></tr>
+    <tr><td>毎日 8:47</td><td>Claude：数字と所見を入れ替え、コメントに返信し、必要なら戦略と予定を書き換えて更新履歴に残す</td><td>Console 課金 $0（サブスクリプション枠のセッション）</td></tr>
     <tr><td>毎日 5:30</td><td>記事の更新案 PR を 1 本</td><td>約 $0.07 ／ $0.07 ／ $2.1（推定）</td></tr>
     <tr><td>毎月 4 日</td><td>アクセス分析ページの更新</td><td>$0 ／ $0 ／ $0</td></tr>
     </tbody></table></div>
@@ -687,14 +702,14 @@ tr[data-ccount]::after{top:4px;right:4px}
 <section class="page" data-page="measure" data-title="計測と振り返り" hidden>
   <div class="eyebrow">計測と振り返り</div>
   <h1>毎週、データが集まり、所見が出て、サイトと計画が書き換わる</h1>
-  <p class="lead">この作戦室は断面の資料ではなく、<strong>毎週月曜に自動で更新される作戦の台帳</strong>です。どこから何が来て、何を見て、誰が何を直すかを固定しておきます。</p>
+  <p class="lead">この作戦室は断面の資料ではなく、<strong>毎日自動で更新される作戦の台帳</strong>です。どこから何が来て、何を見て、誰が何を直すかを固定しておきます。</p>
   <h2>毎週の更新の流れ</h2>
   <div class="flow">
-    <div class="st"><div><h3>Mac が一次データを取る（月曜 6:12・6:40）</h3><div class="who">launchd：com.dailyhack.asp-sync／com.dailyhack.board-weekly</div>
+    <div class="st"><div><h3>Mac が一次データを取る（毎日 6:12・6:40）</h3><div class="who">launchd：com.dailyhack.asp-sync／com.dailyhack.board-weekly</div>
       <p>4 社の提携状況、検索データ（直近 28 日・前の 28 日・90 日）、A8 の提携一覧（名前・広告側の報酬・本人可否）。公開ブランチ <code>ops/heartbeat</code> の <code>reports/board/</code> に置く。自分の報酬額・会社名・口座は出さない。</p></div></div>
     <div class="st"><div><h3>読者データが毎日積まれる</h3><div class="who">GitHub Actions</div>
       <p>Cloudflare の訪問（ボット除外の数）を <code>ops/pv-archive</code> に日ごとに積む。</p></div></div>
-    <div class="st"><div><h3>スナップショットを作る（月曜 8:47）</h3><div class="who">Claude の週次ルーティン：scripts/strategy-board/build-snapshot.mjs</div>
+    <div class="st"><div><h3>スナップショットを作る（毎日 8:47）</h3><div class="who">Claude の毎日のルーティン：scripts/strategy-board/build-snapshot.mjs</div>
       <p>上のデータと記事の中身（成果リンクの有無）から、数字・表・所見を作り、このサイトの保存先に書く。履歴も週ごとに残す。LLM は使わず、所見は決まった条件だけで出す。</p></div></div>
     <div class="st"><div><h3>コメントと決定を読み、サイトと計画を直す</h3><div class="who">同じルーティン</div>
       <p>あなたのコメントに返信し、指摘どおりに本文を直す。所見が計画とずれていれば（例：表示が落ちた、ある型だけ伸びた）、戦略・予定を書き換え、何をなぜ変えたかを更新履歴に残す。方針を変えるものは「決めてほしいこと」に出して、あなたの判断を待つ。</p></div></div>
@@ -929,7 +944,7 @@ tr[data-ccount]::after{top:4px;right:4px}
 
   // ---- スナップショットを描く ----
   function delta(cur,prev){ if(cur==null||!prev) return ''; const p=Math.round((cur-prev)/prev*100); return '<span class="delta '+(p>=0?'up':'down')+'">'+(p>=0?'+':'')+p+'%</span>'; }
-  function stamp(id,S){ const el=$('#'+id); if(!el) return; const age=Math.round((Date.now()-new Date(S.generatedAt))/864e5); el.classList.toggle('stale',age>8); el.querySelector('span').textContent='自動更新 '+S.generatedAt.slice(0,10)+(age>8?'（'+age+' 日前・古い）':''); }
+  function stamp(id,S){ const el=$('#'+id); if(!el) return; const age=Math.round((Date.now()-new Date(S.generatedAt))/864e5); el.classList.toggle('stale',age>2); el.querySelector('span').textContent='自動更新 '+S.generatedAt.slice(0,10)+(age>2?'（'+age+' 日前・古い）':''); }
   function renderSnapshot(S){
     $('#meta-data').textContent=S.generatedAt.slice(0,10)+' 更新';
     ['stamp-home','stamp-now','stamp-asp'].forEach(id=>stamp(id,S));
@@ -977,7 +992,7 @@ tr[data-ccount]::after{top:4px;right:4px}
     const M=S.manual||{};
     $('#tbl-asp').innerHTML=(M.asp||[]).map(a=>'<tr data-cid="asp.status.'+hash(a.name)+'"><td><b>'+esc(a.name)+'</b>'+(a.account?'（'+esc(a.account)+'）':'')+'</td><td><span class="pill ok">'+(a.login==='auto'?'自動':'手動')+'</span></td><td>'+esc(a.note||'')+(a.partnered!=null?'（提携 '+a.partnered+' 件）':'')+'</td></tr>').join('');
     $('#list-pending').innerHTML=(M.pending||[]).map(p=>'<li data-cid="asp.pending.'+esc(p.key)+'">'+esc(p.label)+' — '+esc(p.since)+' から</li>').join('')||'<li>待ちはありません。</li>';
-    renderA8(); applyCounts();
+    renderA8(); renderAff(); applyCounts();
   }
   // ---- X ----
   function renderX(S){
@@ -1002,6 +1017,24 @@ tr[data-ccount]::after{top:4px;right:4px}
     applyCounts();
   }
 
+  // ---- 成果リンクの一覧 ----
+  let affF='all';
+  function renderAff(){ const S=SNAP||{}; const inv=S.affInventory||[]; const tb=$('#tbl-aff'); if(!tb) return;
+    if(!inv.length){ tb.innerHTML='<tr><td colspan="4" class="empty">データ待ち（次の更新で入ります）</td></tr>'; return; }
+    const tot={}; inv.forEach(a=>a.items.forEach(i=>{ tot[i.asp]=(tot[i.asp]||0)+i.n; }));
+    const arts={}; inv.forEach(a=>{ new Set(a.items.map(i=>i.asp)).forEach(x=>{ arts[x]=(arts[x]||0)+1; }); });
+    $('#aff-tiles').innerHTML=Object.keys(tot).sort((a,b)=>tot[b]-tot[a]).map(k=>'<div class="tile" data-cid="aff.tile.'+hash(k)+'"><div class="k">'+esc(k)+'</div><div class="v">'+fmtN(tot[k])+'</div><div class="s">'+fmtN(arts[k])+' 記事</div></div>').join('')+'<div class="tile" data-cid="aff.tile.zero"><div class="k">成果リンクが 0 本の記事</div><div class="v">'+fmtN(inv.filter(a=>!a.total).length)+'</div><div class="s">全 '+fmtN(inv.length)+' 本</div></div>';
+    const keys=['all',...Object.keys(tot).sort((a,b)=>tot[b]-tot[a])];
+    $('#aff-tabs').innerHTML=keys.map(k=>'<button type="button" data-a="'+esc(k)+'" aria-pressed="'+(k===affF)+'">'+esc(k==='all'?'すべて':k)+'</button>').join('');
+    $$('#aff-tabs button').forEach(b=>b.addEventListener('click',()=>{ affF=b.dataset.a; renderAff(); }));
+    const q=($('#aff-q').value||'').trim().toLowerCase();
+    const rows=[]; inv.forEach(a=>{ const its=a.items.filter(i=>affF==='all'||i.asp===affF); its.forEach((i,ix)=>rows.push({a,i,first:ix===0,span:its.length})); });
+    const vis=rows.filter(r=>!q||(r.a.title||'').toLowerCase().includes(q)||r.a.slug.includes(q)||r.i.item.toLowerCase().includes(q)||r.i.asp.toLowerCase().includes(q));
+    $('#aff-n').textContent=vis.length+' 行';
+    tb.innerHTML=vis.map(r=>'<tr data-cid="aff.'+esc(r.a.slug)+'.'+hash(r.i.asp+r.i.item)+'"><td><a href="https://daily-hack.fieldbeside.com/posts/'+esc(r.a.slug)+'/" target="_blank" rel="noopener">'+esc(r.a.title||r.a.slug)+'</a>'+(r.a.isPR?'':' <span class="pill warn">PR 表記なし</span>')+'</td><td>'+esc(r.i.asp)+'</td><td>'+esc(r.i.item)+'</td><td class="num">'+fmtN(r.i.n)+'</td></tr>').join('')||'<tr><td colspan="4" class="empty">該当なし</td></tr>';
+    $('#aff-zero').innerHTML=inv.filter(a=>!a.total).map(a=>'<li data-cid="aff.zero.'+esc(a.slug)+'"><a href="https://daily-hack.fieldbeside.com/posts/'+esc(a.slug)+'/" target="_blank" rel="noopener">'+esc(a.title||a.slug)+'</a></li>').join('')||'<li>ありません。</li>';
+    stamp('stamp-aff',S); applyCounts(); }
+  $('#aff-q').addEventListener('input',renderAff);
   // ---- 記事を調べる ----
   let ART=[];
   function whyShort(a,M){
