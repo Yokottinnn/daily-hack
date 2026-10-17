@@ -74,6 +74,49 @@ for key, q in BRANDS:
         L.append(f"  **失敗**: {type(e).__name__}: {str(e)[:200]}")
     L += ["```", ""]
     time.sleep(1.5)
+# 楽天市場（日本版）のロゴ。記事の rakutenichiba.png は台湾版「樂天市場」だった（2026-10-17 に利用者が X の画像で指摘）。
+# ① App Store に提供元が登録したアプリのアイコン（trackName と sellerName を必ず出す）
+# ② 楽天市場トップの img / link / meta から logo を含む参照を丸ごと出し、svg/png は取る
+L += ["## 楽天市場（日本版）", "", "```"]
+try:
+    u = "https://itunes.apple.com/jp/search?" + urllib.parse.urlencode({"term": "楽天市場", "entity": "software", "country": "jp", "limit": 5})
+    with urllib.request.urlopen(urllib.request.Request(u, headers=UA), timeout=25) as r:
+        res = json.loads(r.read().decode("utf-8")).get("results", [])
+    for i, x in enumerate(res[:3], 1):
+        L.append(f"  app {i}: id={x.get('trackId')} {x.get('trackName')} / {x.get('sellerName')}")
+        art = x.get("artworkUrl512")
+        if art:
+            with urllib.request.urlopen(urllib.request.Request(art, headers=UA), timeout=25) as r:
+                blob = r.read()
+            name = f"rakuten-app-{i}.png"; open(f"{DIR}/{name}", "wb").write(blob)
+            man[name] = {"brand": x.get("trackName"), "seller": x.get("sellerName"), "src": art,
+                         "page": x.get("trackViewUrl"), "fetched": dt.date.today().isoformat(), "task": "ops/tasks/x316-product-brand-logos.sh"}
+except Exception as e:
+    L.append(f"  App Store **失敗**: {type(e).__name__}: {str(e)[:200]}")
+try:
+    import re
+    req = urllib.request.Request("https://www.rakuten.co.jp/", headers={**UA, "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0 Safari/537.36"})
+    with urllib.request.urlopen(req, timeout=25) as r:
+        page = r.read().decode("utf-8", "replace")
+    refs = sorted(set(re.findall(r'(?:src|href|content)="([^"]*?(?:logo|Logo|LOGO)[^"]*?)"', page)))
+    L.append(f"  トップ {len(page)} bytes / logo を含む参照 {len(refs)} 件")
+    n = 0
+    for ref in refs[:15]:
+        L.append(f"    {ref[:160]}")
+        full = urllib.parse.urljoin("https://www.rakuten.co.jp/", ref)
+        if n < 6 and re.search(r"\.(svg|png)(\?|$)", full):
+            try:
+                with urllib.request.urlopen(urllib.request.Request(full, headers=UA), timeout=20) as r:
+                    blob = r.read()
+                n += 1
+                ext = "svg" if blob[:400].lstrip()[:4] == b"<svg" or full.split("?")[0].endswith(".svg") else "png"
+                name = f"rakuten-top-{n}.{ext}"; open(f"{DIR}/{name}", "wb").write(blob)
+                man[name] = {"brand": "楽天市場", "src": full, "page": "https://www.rakuten.co.jp/", "fetched": dt.date.today().isoformat(), "task": "ops/tasks/x316-product-brand-logos.sh"}
+            except Exception as e:
+                L.append(f"      取れない: {type(e).__name__}")
+except Exception as e:
+    L.append(f"  トップ **失敗**: {type(e).__name__}: {str(e)[:200]}")
+L += ["```", ""]
 json.dump(man, open(f"{DIR}/_manifest.json", "w"), ensure_ascii=False, indent=2)
 L.append(f"取れた画像: **{len(man)} 枚**（`reports/x316-logos/`）。**LLM を呼んでいない（$0／回・$0／日・$0／月）。**")
 open(OUT, "w").write("\n".join(L) + "\n")
