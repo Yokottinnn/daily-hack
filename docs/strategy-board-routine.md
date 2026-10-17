@@ -49,6 +49,11 @@
 6. **決定を読む**: `ArtifactData list collection=decisions`。`checked: true` で、まだ実行していないものを実行する
    （アカウント操作は `ops/tasks` で。チェックが付いたものだけ）
 6b. **記事の構想を足す**: `ops/heartbeat` の `reports/board/trend/<日付>.json`（毎日 7:10・t296）を 1 週間分読み、提携中の案件と組み合わせられるワードがあれば `ideas` に足す（`status: idea`）。利用者がチェックした（`picked`）ものは blog3 に依頼表で渡し `requested` に。**芸能・事件など案件と結びつかないワードは足さない**
+6-B. **A8 の審査が通った案件を記事に入れる**（2026-10-17 に利用者が「審査が通ったものから記事に入れる」を選んだ）:
+   `ops/data/board/a8-pending.json` の `programId` を、スナップショットの A8 提携中（`a8.rows`）と突き合わせる。
+   提携中になったものがあれば、`ASP_PROBE=a8links A8_IDS=<id>` の `ops/tasks`（t311・t312 の形）でリンクコードを読み、
+   `slug` の記事の主題に合う位置に一文＋バナー（またはテキスト）で入れる（PR #1063 の形・`isPR: true`）。
+   入れたら `a8-pending.json` から消し、作戦室の `linkplan` を `done` にし、更新履歴に書く。**否認されたものも消して理由を書く**
 7. **本文を書き換える**（`scripts/strategy-board/board.html`）: 所見が計画とずれていれば戦略・12 週の予定を直す
    - 例：検索表示が 15% 以上落ちた → 予定の先頭に原因調べを入れる／ある型だけ伸びた → 後半をその型に寄せる
    - **データから言えることだけ書く**（最上位ルール 11）。数字は snapshot に任せ、本文に直書きしない
