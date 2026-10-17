@@ -1,1 +1,6 @@
-[]
+[
+      {"task": "t309-a8-apply.sh", "rc": 0, "out": "  - プログラムによっては審査結果が出るまで、数週間以上お時間を要する場合がございます。   - 審査中  ### s00000020539001 - 押したあとの画面: https://media-console.a8.net/"},
+      {"task": "t310-a8-apply.sh", "rc": 0, "out": "  - プログラムによっては審査結果が出るまで、数週間以上お時間を要する場合がございます。   - 審査中  ### s00000000352007 - 押したあとの画面: https://media-console.a8.ne"},
+      {"task": "x305-engaging-compare-posts.sh", "rc": 0, "out": "比較の投稿で反応の多いものを集めた / engaging-compare-posts.md"},
+      {"task": "x306-same-item-prices-and-logo.sh", "rc": 0, "out": "同じ型番の値段と楽天市場のロゴを読んだ / same-item-prices.md"}
+  ]
