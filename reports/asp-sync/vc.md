@@ -1,6 +1,6 @@
 # バリューコマース（asp-sync）
 
-生成: **2026-10-17T12:12:22.727Z**
+生成: **2026-10-17T12:17:24.541Z**
 
 - ログイン: **できている**
 - 最終 URL: https://aff.valuecommerce.ne.jp/home
@@ -15,8 +15,8 @@
 | LinkSwitch設定 | https://aff.valuecommerce.ne.jp/ad/AutoMyLink/rd |
 | MyLink一括変換 | https://aff.valuecommerce.ne.jp/tools/mylinkEcList |
 | サイト設定 | https://aff.valuecommerce.ne.jp/account/siteManage |
-| 【LYPプレミアム（旧Yahoo!プレミアム）】 会員獲得プログラム | https://aff.valuecommerce.ne.jp/ad/adDetail/2082539?tag=cm&spot=d |
 | 世界最大級！ツアーアクティビティの検索サイト「Liigo」販促プログラム | https://aff.valuecommerce.ne.jp/ad/adDetail/2161122?tag=cm&spot=d |
+| 【LYPプレミアム（旧Yahoo!プレミアム）】 会員獲得プログラム | https://aff.valuecommerce.ne.jp/ad/adDetail/2082539?tag=cm&spot=d |
 | 【LYPプレミアム（旧Yahoo!プレミアム）】 会員獲得プログラム | https://aff.valuecommerce.ne.jp/ad/adDetail/2082539 |
 | 海外発送サービス「ポチロジ」お問い合わせプログラム | https://aff.valuecommerce.ne.jp/ad/adDetail/2172536 |
 | 電子貸本Renta! 新規会員商品購入プログラム | https://aff.valuecommerce.ne.jp/ad/adDetail/2165568 |
@@ -31,8 +31,9 @@
 ```text
 ログアウト
 人気ワード：
-じゃらんnet|
-ゆこゆこネット
+BTO|
+アンファミエ|
+BIGLOBE
 ダッシュボード
 レポート
 詳細検索
