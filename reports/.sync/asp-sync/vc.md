@@ -1,6 +1,6 @@
 # バリューコマース（asp-sync）
 
-生成: **2026-10-17T14:47:09.854Z**
+生成: **2026-10-17T15:06:48.479Z**
 
 - ログイン: **できている**
 - 最終 URL: https://aff.valuecommerce.ne.jp/home
@@ -15,8 +15,8 @@
 | LinkSwitch設定 | https://aff.valuecommerce.ne.jp/ad/AutoMyLink/rd |
 | MyLink一括変換 | https://aff.valuecommerce.ne.jp/tools/mylinkEcList |
 | サイト設定 | https://aff.valuecommerce.ne.jp/account/siteManage |
-| 世界最大級！ツアーアクティビティの検索サイト「Liigo」販促プログラム | https://aff.valuecommerce.ne.jp/ad/adDetail/2161122?tag=cm&spot=d |
 | 【LYPプレミアム（旧Yahoo!プレミアム）】 会員獲得プログラム | https://aff.valuecommerce.ne.jp/ad/adDetail/2082539?tag=cm&spot=d |
+| 世界最大級！ツアーアクティビティの検索サイト「Liigo」販促プログラム | https://aff.valuecommerce.ne.jp/ad/adDetail/2161122?tag=cm&spot=d |
 | 【LYPプレミアム（旧Yahoo!プレミアム）】 会員獲得プログラム | https://aff.valuecommerce.ne.jp/ad/adDetail/2082539 |
 | 海外発送サービス「ポチロジ」お問い合わせプログラム | https://aff.valuecommerce.ne.jp/ad/adDetail/2172536 |
 | 電子貸本Renta! 新規会員商品購入プログラム | https://aff.valuecommerce.ne.jp/ad/adDetail/2165568 |
@@ -31,16 +31,17 @@
 ```text
 ログアウト
 人気ワード：
-国内ツアー|
-GMO|
+アソビュー|
+DELL|
+LYPプレミアム
 ダッシュボード
 レポート
 詳細検索
 ■プログラム一覧
-提携状況 新規提携 提携済み 提携待ち 未提携 再申請可
-新規提携
+提携状況 新規提携 3 提携済み 提携待ち 1 未提携 再申請可
+新規提携 3
 提携済み
-提携待ち
+提携待ち 1
 再申請可
 対応機能別 MyLink LinkSwitch Webサービス
 MyLink
