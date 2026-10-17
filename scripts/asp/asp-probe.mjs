@@ -448,6 +448,28 @@ try {
       lines.push(`- **送った後の一覧の行: 状態「${await status(id)}」・チェック欄 ${(await rowOf(id).locator('input[name=check_option]').count()) ? 'まだある' : '消えた'}**`, '');
     }
   }
+  if (WHICH === 'a8links') {
+    // **読むだけ（t311）。** 提携中の案件の詳細ページから「広告リンク」の画面へ辿り、素材（バナー・テキスト）のコードを読む。押すのはページを開くリンクだけ
+    for (const id of (process.env.A8_IDS || '').split(',').filter(Boolean)) {
+      await go(`https://media-console.a8.net/program/detail-partnered?programId=${id}`);
+      const name = await p.evaluate(() => [...document.querySelectorAll('h1,h2,h3')].map((x) => x.innerText.replace(/\s+/g, ' ').trim()).filter((x) => x && !/プログラム詳細|広告リンク|提携/.test(x))[0] || '');
+      const ls = await links(/広告リンク|素材|リンク作成|広告を作成/);
+      lines.push(`### ${id} ${name}`, `- 詳細ページ: ${here()}`, ...ls.slice(0, 8).map(([t, h]) => `- リンク候補: ${t} → ${h.slice(0, 120)}`));
+      const target = ls.find(([, h]) => /^https?:/.test(h));
+      if (!target) { lines.push('- 広告リンクの画面へのリンクが見つからない', ''); continue; }
+      await go(target[1]);
+      const codes = await p.evaluate(() => {
+        const out = [];
+        for (const ta of document.querySelectorAll('textarea, input[type=text], pre, code')) {
+          const v = (ta.value || ta.textContent || '').trim();
+          if (/a8mat=/.test(v)) out.push(v.replace(/\s+/g, ' ').slice(0, 700));
+        }
+        if (!out.length) for (const a of document.querySelectorAll('a[href*="a8mat="]')) out.push(a.outerHTML.replace(/\s+/g, ' ').slice(0, 500));
+        return [...new Set(out)].slice(0, 12);
+      });
+      lines.push(`- 広告リンクの画面: ${here()}（${(await p.title()).slice(0, 30)}）`, `- コード ${codes.length} 件`, ...codes.map((c) => '```html\n' + c + '\n```'), '');
+    }
+  }
   if (WHICH === 'applyvc4') {
     // **VC の提携申請・4 回目（t305）。利用者が 2026-10-12 に「4 社とも申請する」、2026-10-17 に「Mac に送らせる許可を出す」を選んだ。**
     // 公式ヘルプ（help.valuecommerce.ne.jp/aff/adlist/alliance/02/）: 申請は「広告素材を選ぶ」を押すこと。
