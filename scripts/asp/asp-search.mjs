@@ -45,6 +45,14 @@ const loggedOut = async () => p.evaluate(() => !!document.querySelector('input[t
         }
         if (out.has(id)) continue;
         let box = a; for (let i = 0; i < 6 && box.parentElement; i++) { box = box.parentElement; if (box.innerText && box.innerText.length > 60) break; }
+        // カード全体：親に別の広告の ID が混ざらないところまで上る。その 1 行目が広告の名前
+        let card = box;
+        for (let i = 0; i < 8 && card.parentElement; i++) {
+          const ids = new Set([...card.parentElement.querySelectorAll('a[href*="programId="]')].map((x) => (x.href.match(/programId=(s\d+)/) || [])[1]));
+          if (ids.size > 1) break; card = card.parentElement;
+        }
+        const first = (card.innerText || '').split('\n').map((x) => x.trim()).find((x) => x && !/^(未提携|提携中|提携審査中|【商品リンク作成】|NEW|新着|プログラムID)/.test(x));
+        if (first && first.length < 120 && !names.has(id)) names.set(id, first);
         out.set(id, (box.innerText || '').replace(/\s+/g, ' ').trim().slice(0, 260));
       }
       return [...out.entries()].map(([id, t]) => [id, (names.get(id) ? '【' + names.get(id) + '】 ' : '') + t]);
