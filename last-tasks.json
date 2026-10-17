@@ -1,3 +1,1 @@
-[
-      {"task": "t319-board-daily.sh", "rc": 0, "out": " - `com.dailyhack.board-weekly`: 曜日を外した   - **載った**（launchctl print が通る）・時刻 6:40・曜日 なし - `com.dailyhack.asp-sync`: 曜日を外した   - **載った**（launchctl print が通る）・時刻 6:12・曜日 なし"}
-  ]
+[]
