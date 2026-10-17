@@ -472,6 +472,28 @@ try {
       lines.push(`- 広告リンクの画面: ${here()}（${(await p.title()).slice(0, 30)}）`, `- コード ${codes.length} 件`, ...codes.map((c) => '```html\n' + c + '\n```'), ...(ui.length ? ['- コードが無いときの画面の部品: ' + ui.filter((x) => !NG.test(x)).join(' / ')] : []), '');
     }
   }
+  if (WHICH === 'vclsget') {
+    // **LinkSwitch のタグを取る（t316）。利用者が 2026-10-17 に「PR 記事だけ・自動提携も許す」を選んだ。**
+    // タグ取得確認画面で、開始のボタンが 1 つに決まるときだけ押す。サイトの選択欄があれば Daily Hack を選ぶ。押した後の画面のタグを読む
+    const vis = (e) => { const r = e.getBoundingClientRect(); const cs = getComputedStyle(e); return r.width > 0 && r.height > 0 && cs.visibility !== 'hidden' && cs.display !== 'none'; };
+    const dump = () => p.evaluate((visSrc) => { const vis = eval(visSrc);
+      return { url: location.href.replace(/\?.*$/, ''), title: document.title,
+        codes: [...document.querySelectorAll('textarea, pre, code, input[type=text]')].map((e) => (e.value || e.textContent || '').trim()).filter((v) => /<script|valuecommerce/i.test(v)).map((v) => v.replace(/\s+/g, ' ').slice(0, 1200)),
+        ctrls: [...document.querySelectorAll('a, button, input[type=submit], input[type=button], select')].filter(vis).map((e) => e.tagName === 'SELECT' ? `select[name=${e.name}]〔${[...e.options].map((o) => (o.selected ? '✔' : '') + o.text.trim()).slice(0, 6).join('|')}〕` : `${e.tagName.toLowerCase()}「${(e.innerText || e.value || '').replace(/\s+/g, ' ').trim().slice(0, 30)}」`).filter((x) => !/「」$/.test(x)).slice(-40) }; }, vis.toString());
+    await go('https://aff.valuecommerce.ne.jp/ad/AutoMyLink/rd');
+    let d = await dump();
+    lines.push(`- 画面: ${d.url}（${d.title.slice(0, 30)}）`, `- タグ ${d.codes.length} 件`, '- 画面の部品（後ろから 40）:', ...d.ctrls.filter((x) => !NG.test(x)).map((x) => `  - ${x}`));
+    if (!d.codes.length) {
+      const sel = p.locator('select:visible');
+      for (let i = 0; i < await sel.count(); i++) { const o = await sel.nth(i).evaluate((e) => { const x = [...e.options].find((o) => /daily ?hack/i.test(o.text)); return x ? x.value : ''; }); if (o) { await sel.nth(i).selectOption(o); lines.push('- サイトの選択欄で Daily Hack を選んだ'); } }
+      const go1 = p.locator('a:visible, button:visible, input[type=submit]:visible, input[type=button]:visible').filter({ hasText: /^\s*(タグを取得(する)?|利用(を)?開始(する)?|同意して(利用|タグ|申し込)|申し込む|利用する|LinkSwitchを利用する|次へ)\s*$/ });
+      const n = await go1.count();
+      lines.push(`- 開始のボタン: ${n} 個`);
+      if (n === 1) { lines.push(`- 押す: 「${(await go1.first().innerText().catch(() => '')).trim()}」`); await go1.first().click({ timeout: 8000 }).catch((e) => lines.push(`- ⚠️ ${String(e).split('\n')[0]}`)); await p.waitForTimeout(6000);
+        d = await dump(); lines.push(`- 押した後: ${d.url}（${d.title.slice(0, 30)}）`, `- タグ ${d.codes.length} 件`, '- 画面の部品:', ...d.ctrls.filter((x) => !NG.test(x)).map((x) => `  - ${x}`)); }
+    }
+    lines.push(...d.codes.map((c) => '```html\n' + c + '\n```'), '');
+  }
   if (WHICH === 'vcls') {
     // **読むだけ（t315）。** LinkSwitch の設定画面（一覧の行の「設定」リンク /ad/AutoMyLink/rd）を開き、タグと設定の状態を読む。押さない
     const vis = (e) => { const r = e.getBoundingClientRect(); const cs = getComputedStyle(e); return r.width > 0 && r.height > 0 && cs.visibility !== 'hidden' && cs.display !== 'none'; };
