@@ -486,10 +486,11 @@ try {
     if (!d.codes.length) {
       const sel = p.locator('select:visible');
       for (let i = 0; i < await sel.count(); i++) { const o = await sel.nth(i).evaluate((e) => { const x = [...e.options].find((o) => /daily ?hack/i.test(o.text)); return x ? x.value : ''; }); if (o) { await sel.nth(i).selectOption(o); lines.push('- サイトの選択欄で Daily Hack を選んだ'); } }
-      const go1 = p.locator('a:visible, button:visible, input[type=submit]:visible, input[type=button]:visible').filter({ hasText: /^\s*(タグを取得(する)?|利用(を)?開始(する)?|同意して(利用|タグ|申し込)|申し込む|利用する|LinkSwitchを利用する|次へ)\s*$/ });
+      // t316：開始のボタンは input の value「LinkSwitchを利用開始する」で、hasText に当たらなかった
+      const go1 = p.locator('input[type=submit][value="LinkSwitchを利用開始する"]:visible, input[type=button][value="LinkSwitchを利用開始する"]:visible, button:visible:has-text("LinkSwitchを利用開始する")');
       const n = await go1.count();
       lines.push(`- 開始のボタン: ${n} 個`);
-      if (n === 1) { lines.push(`- 押す: 「${(await go1.first().innerText().catch(() => '')).trim()}」`); await go1.first().click({ timeout: 8000 }).catch((e) => lines.push(`- ⚠️ ${String(e).split('\n')[0]}`)); await p.waitForTimeout(6000);
+      if (n === 1) { lines.push('- 押す: 「LinkSwitchを利用開始する」'); await go1.first().click({ timeout: 8000 }).catch((e) => lines.push(`- ⚠️ ${String(e).split('\n')[0]}`)); await p.waitForTimeout(6000);
         d = await dump(); lines.push(`- 押した後: ${d.url}（${d.title.slice(0, 30)}）`, `- タグ ${d.codes.length} 件`, '- 画面の部品:', ...d.ctrls.filter((x) => !NG.test(x)).map((x) => `  - ${x}`)); }
     }
     lines.push(...d.codes.map((c) => '```html\n' + c + '\n```'), '');

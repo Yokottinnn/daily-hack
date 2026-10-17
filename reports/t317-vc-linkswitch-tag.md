@@ -1,0 +1,170 @@
+# VC の LinkSwitch のタグ（t317・**$0**）
+
+生成: **2026-10-18T00:24:19+0900**
+
+```text
+asp-sync rc=0
+# ASP の画面調べ: vclsget（asp-probe）
+
+生成: **2026-10-17T15:24:31.382Z**
+
+- 画面: https://aff.valuecommerce.ne.jp/ad/autoMyLink/createAdpConfirm（タグ取得確認画面）
+- タグ 0 件
+- 画面の部品（後ろから 40）:
+  - a「アソビュー」
+  - a「ローチケ」
+  - a「子ども」
+  - a「ダッシュボード」
+  - a「レポート」
+  - a「広告」
+  - a「ツール」
+  - a「メッセージ 1」
+  - a「自己アフィリエイト」
+  - a「サイト設定」
+  - a「LinkSwitch対応広告主を探す」
+  - a「戻る」
+  - input「LinkSwitchを利用開始する」
+  - a「管理画面ガイド」
+  - a「ヘルプ」
+  - a「ステップアップガイド」
+  - a「イベント・セミナー情報」
+  - a「特集・キャンペーン」
+  - a「よくあるご質問」
+  - a「お問い合わせ」
+  - a「アフィリエイトサイト運営者利用規約」
+  - a「アフィリエイト運営ポリシー」
+  - a「リスティング広告利用時の注意点」
+  - a「Facebook」
+  - a「Twitter」
+  - a「会社概要」
+  - a「サービス」
+  - a「採用情報」
+  - a「個人情報保護方針」
+  - button「AIサポート」
+- 開始のボタン: 1 個
+- 押す: 「LinkSwitchを利用開始する」
+- 押した後: https://aff.valuecommerce.ne.jp/ad/AutoMyLink/getTag（タグ取得ブロックリスト画面）
+- タグ 1 件
+- 画面の部品:
+  - a「韓国」
+  - a「オイシックス」
+  - a「ショッピング」
+  - a「ダッシュボード」
+  - a「レポート」
+  - a「広告」
+  - a「ツール」
+  - a「メッセージ 1」
+  - a「自己アフィリエイト」
+  - a「サイト設定」
+  - a「LinkSwitchタグ」
+  - button「コードを選択」
+  - a「詳細はこちらをご確認ください。」
+  - a「詳細はこちらをご確認ください。」
+  - a「対応広告主を探す」
+  - a「LinkSwitchのブロック設定」
+  - a「提携候補先」
+  - button「保存する」
+  - a「管理画面ガイド」
+  - a「ヘルプ」
+  - a「ステップアップガイド」
+  - a「イベント・セミナー情報」
+  - a「特集・キャンペーン」
+  - a「よくあるご質問」
+  - a「お問い合わせ」
+  - a「アフィリエイトサイト運営者利用規約」
+  - a「アフィリエイト運営ポリシー」
+  - a「リスティング広告利用時の注意点」
+  - a「Facebook」
+  - a「Twitter」
+  - a「会社概要」
+  - a「サービス」
+  - a「採用情報」
+  - a「個人情報保護方針」
+  - button「AIサポート」
+```html
+<script type="text/javascript" language="javascript"> var vc_pid = "892728470"; </script><script type="text/javascript" src="//aml.valuecommerce.com/vcdal.js" async></script>
+```
+
+probe rc=0
+```
+# ASP の画面調べ: vclsget（asp-probe）
+
+生成: **2026-10-17T15:24:31.382Z**
+
+- 画面: https://aff.valuecommerce.ne.jp/ad/autoMyLink/createAdpConfirm（タグ取得確認画面）
+- タグ 0 件
+- 画面の部品（後ろから 40）:
+  - a「アソビュー」
+  - a「ローチケ」
+  - a「子ども」
+  - a「ダッシュボード」
+  - a「レポート」
+  - a「広告」
+  - a「ツール」
+  - a「メッセージ 1」
+  - a「自己アフィリエイト」
+  - a「サイト設定」
+  - a「LinkSwitch対応広告主を探す」
+  - a「戻る」
+  - input「LinkSwitchを利用開始する」
+  - a「管理画面ガイド」
+  - a「ヘルプ」
+  - a「ステップアップガイド」
+  - a「イベント・セミナー情報」
+  - a「特集・キャンペーン」
+  - a「よくあるご質問」
+  - a「お問い合わせ」
+  - a「アフィリエイトサイト運営者利用規約」
+  - a「アフィリエイト運営ポリシー」
+  - a「リスティング広告利用時の注意点」
+  - a「Facebook」
+  - a「Twitter」
+  - a「会社概要」
+  - a「サービス」
+  - a「採用情報」
+  - a「個人情報保護方針」
+  - button「AIサポート」
+- 開始のボタン: 1 個
+- 押す: 「LinkSwitchを利用開始する」
+- 押した後: https://aff.valuecommerce.ne.jp/ad/AutoMyLink/getTag（タグ取得ブロックリスト画面）
+- タグ 1 件
+- 画面の部品:
+  - a「韓国」
+  - a「オイシックス」
+  - a「ショッピング」
+  - a「ダッシュボード」
+  - a「レポート」
+  - a「広告」
+  - a「ツール」
+  - a「メッセージ 1」
+  - a「自己アフィリエイト」
+  - a「サイト設定」
+  - a「LinkSwitchタグ」
+  - button「コードを選択」
+  - a「詳細はこちらをご確認ください。」
+  - a「詳細はこちらをご確認ください。」
+  - a「対応広告主を探す」
+  - a「LinkSwitchのブロック設定」
+  - a「提携候補先」
+  - button「保存する」
+  - a「管理画面ガイド」
+  - a「ヘルプ」
+  - a「ステップアップガイド」
+  - a「イベント・セミナー情報」
+  - a「特集・キャンペーン」
+  - a「よくあるご質問」
+  - a「お問い合わせ」
+  - a「アフィリエイトサイト運営者利用規約」
+  - a「アフィリエイト運営ポリシー」
+  - a「リスティング広告利用時の注意点」
+  - a「Facebook」
+  - a「Twitter」
+  - a「会社概要」
+  - a「サービス」
+  - a「採用情報」
+  - a「個人情報保護方針」
+  - button「AIサポート」
+```html
+<script type="text/javascript" language="javascript"> var vc_pid = "892728470"; </script><script type="text/javascript" src="//aml.valuecommerce.com/vcdal.js" async></script>
+```
+
