@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-17T13:15:12.215Z",
+  "generated": "2026-10-17T16:16:17.104Z",
   "providers": {
     "a8": {
       "name": "A8.net",
@@ -9,7 +9,7 @@
       "reason": "",
       "url": "https://media-console.a8.net/program/list/partnered",
       "title": "参加中プログラム｜A8.netメディア管理画面",
-      "partnered": 70,
+      "partnered": 71,
       "menus": 40
     }
   }
