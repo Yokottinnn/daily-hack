@@ -1,0 +1,124 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><style>
+:root{--b1:#1E1219;--b2:#2A1923;--k:#F5C518;--em:#F5C518;--pink:#D63E76;--pink-700:#A82959;--cream:#FFFBEE;--cream-2:#FFF1C8;--yellow:#F5C518;--ink:#2A1923;--ink-2:#5A4651;--line:#F1DCE5}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1080px;height:1080px;overflow:hidden}
+body{font-family:"Noto Sans JP",sans-serif;background:var(--cream);color:var(--ink)}
+header{height:250px;background:linear-gradient(135deg,var(--b1),var(--b2));display:flex;align-items:center;justify-content:space-between;gap:24px;padding:0 64px;position:relative;overflow:hidden}
+header > *{position:relative;z-index:2}
+header .bg{position:absolute;inset:-8px;z-index:0;background-size:cover;background-position:center;opacity:0.16;filter:blur(1.5px)}
+header .scrim{position:absolute;inset:0;z-index:1;background:linear-gradient(90deg,rgba(0,0,0,.35),rgba(0,0,0,.05))}
+header .tt{min-width:0;flex:1}
+header .k{font-size:31px;font-weight:700;color:var(--k);letter-spacing:.03em;white-space:nowrap}
+header h1{font-size:70px;font-weight:900;line-height:1.15;margin-top:8px;color:#fff;white-space:nowrap;text-shadow:0 2px 10px rgba(0,0,0,.25)}
+header h1 em{font-style:normal;color:var(--em)}
+header .logo{flex:0 0 auto;background:#fff;border-radius:22px;padding:14px 20px;box-shadow:0 10px 26px -12px rgba(0,0,0,.5)}
+header .logo img{height:56px;display:block}
+main{padding:34px 64px 0;display:flex;flex-direction:column;gap:26px}
+.shot{position:relative;width:952px;height:560px;border-radius:30px;overflow:hidden;background:#fff;border:8px solid #fff;box-shadow:0 22px 44px -18px rgba(42,25,35,.38)}
+.shot img{width:100%;height:100%;object-fit:cover;object-position:center;display:block;border-radius:22px}
+.shot .cap{position:absolute;left:22px;bottom:20px;background:rgba(30,18,25,.72);color:#fff;font-size:20px;font-weight:700;padding:8px 16px;border-radius:12px}
+ul.row{list-style:none;display:flex;gap:18px}
+ul.row li{flex:1;background:#fff;border:2px solid var(--line);border-radius:22px;padding:20px 22px;box-shadow:0 8px 24px -14px rgba(214,62,118,.28);min-width:0}
+ul.row .ilogo{height:38px;max-width:100%;object-fit:contain;display:block;margin-bottom:8px}
+ul.row .h{font-size:21px;font-weight:700;color:var(--pink)}
+ul.row .b{font-size:27px;font-weight:900;line-height:1.3;margin-top:4px}
+ul.row .s{font-size:18px;font-weight:500;color:var(--ink-2);margin-top:6px;line-height:1.45}
+.note{background:var(--cream-2);border-radius:18px;padding:18px 24px;font-size:24px;font-weight:700;line-height:1.5}
+.note b{color:var(--pink-700)}
+/* cal */
+.cal{background:#fff;border:2px solid var(--line);border-radius:26px;padding:22px 26px 18px;box-shadow:0 8px 24px -14px rgba(214,62,118,.28)}
+.cal .axis,.cal .crow,.cal .marks{display:flex;align-items:center}
+.cal .cn{flex:0 0 250px;display:flex;flex-direction:column}
+.cal .cn b{font-size:27px;font-weight:900;line-height:1.2}
+.cal .cn i{font-style:normal;font-size:17px;color:var(--ink-2);font-weight:500}
+.cal .ct{flex:1;position:relative;height:100%}
+.cal .axis{height:40px;border-bottom:2px solid var(--line)}
+.cal .m{position:absolute;top:2px;font-size:22px;font-weight:900;color:var(--ink-2);padding-left:6px;border-left:2px solid var(--line);height:38px}
+.cal .crow{height:74px;border-bottom:1px dashed var(--line)}
+.cal .crow.hl{background:linear-gradient(90deg,#FFF1C8,#FFFBEE);border-radius:14px}
+.cal .tick{position:absolute;top:0;bottom:0;border-left:1px solid #F6E8EE}
+.cal .bar{position:absolute;top:12px;height:22px;border-radius:11px;background:linear-gradient(90deg,#E8743B,#D63E76)}
+.cal .bar.open{background:linear-gradient(90deg,#E8743B,rgba(214,62,118,0));border-radius:11px 0 0 11px}
+.cal .dot{position:absolute;top:10px;width:22px;height:22px;margin-left:-11px;border-radius:50%;background:#fff;border:5px solid #E8743B}
+.cal .crow.hl .bar{background:linear-gradient(90deg,#D63E76,#A82959)}
+.cal .crow.hl .bar.open{background:linear-gradient(90deg,#A82959,rgba(168,41,89,0))}
+.cal .cl{position:absolute;top:38px;font-size:19px;font-weight:700;white-space:nowrap;color:var(--ink)}
+.cal .crow.hl .cl{color:var(--pink-700);font-weight:900}
+.cal .marks{height:34px}
+.cal .mark{position:absolute;top:-6px;bottom:30px;border-left:3px dashed var(--pink-700)}
+.cal .mark span{position:absolute;bottom:-32px;left:-4px;white-space:nowrap;font-size:19px;font-weight:900;color:var(--pink-700);transform:translateX(-50%)}
+/* html の部品 */
+.rows{display:flex;flex-direction:column;gap:18px}
+.rows .r{display:flex;align-items:center;gap:22px;background:#fff;border:2px solid var(--line);border-radius:24px;padding:20px 26px;box-shadow:0 8px 24px -14px rgba(214,62,118,.28)}
+.rows .from{flex:0 0 250px;font-size:32px;font-weight:900}
+.rows .from small{display:block;font-size:18px;font-weight:500;color:var(--ink-2)}
+.rows .arrow{flex:0 0 auto;font-size:40px;font-weight:900;color:var(--pink)}
+.rows .to{flex:1;display:flex;flex-direction:column;gap:6px;min-width:0}
+.rows .to img{height:58px;max-width:420px;object-fit:contain;object-position:left;display:block}
+.rows .to b{font-size:26px;font-weight:900}
+.rows .to span{font-size:19px;color:var(--ink-2);font-weight:500}
+.big{background:#fff;border:2px solid var(--line);border-radius:28px;padding:30px 34px;box-shadow:0 8px 24px -14px rgba(214,62,118,.28);text-align:center}
+.big .lab{font-size:24px;font-weight:700;color:var(--ink-2)}
+.big .num{font-size:92px;font-weight:900;line-height:1.15;color:var(--pink-700)}
+.big .num small{font-size:46px}
+.vs{display:flex;align-items:center;gap:20px}
+.vs .c{flex:1;background:#fff;border:2px solid var(--line);border-radius:26px;padding:26px 26px;text-align:center;box-shadow:0 8px 24px -14px rgba(214,62,118,.28)}
+.vs .c.on{border:4px solid var(--pink);background:#FFF6F9}
+.vs .c .lab{font-size:24px;font-weight:700;color:var(--ink-2)}
+.vs .c .v{font-size:58px;font-weight:900;line-height:1.2;margin-top:4px}
+.vs .c.on .v{color:var(--pink-700)}
+.vs .c .s{font-size:19px;color:var(--ink-2);font-weight:500;margin-top:4px}
+.vs .arr{font-size:54px;font-weight:900;color:var(--pink)}
+table.t{width:100%;border-collapse:separate;border-spacing:0;background:#fff;border:2px solid var(--line);border-radius:22px;overflow:hidden;font-size:25px}
+table.t th{background:#FFF1C8;font-size:19px;font-weight:700;color:var(--ink-2);padding:12px 18px;text-align:left}
+table.t td{padding:14px 18px;border-top:1px solid var(--line);font-weight:700}
+table.t td.n{font-weight:900}
+table.t tr.hl td{background:#FFF6F9;color:var(--pink-700);font-weight:900}
+.steps{display:flex;flex-direction:column;gap:16px}
+.steps .st{display:flex;align-items:center;gap:22px;background:#fff;border:2px solid var(--line);border-radius:24px;padding:20px 26px;box-shadow:0 8px 24px -14px rgba(214,62,118,.28)}
+.steps .no{flex:0 0 64px;height:64px;border-radius:50%;background:var(--pink);color:#fff;font-size:36px;font-weight:900;display:flex;align-items:center;justify-content:center}
+.steps b{font-size:30px;font-weight:900;display:block}
+.steps span{font-size:20px;color:var(--ink-2);font-weight:500}
+.strip{display:flex;gap:14px;height:210px}
+.strip img{flex:1;min-width:0;height:100%;object-fit:cover;border-radius:22px;border:6px solid #fff;box-shadow:0 12px 26px -14px rgba(42,25,35,.4)}
+.logos{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.logos div{background:#fff;border:2px solid var(--line);border-radius:18px;height:96px;display:flex;align-items:center;justify-content:center;padding:12px 18px}
+.logos img{max-height:62px;max-width:100%;object-fit:contain}
+.quote{background:#fff;border-left:10px solid var(--pink);border-radius:18px;padding:22px 28px;font-size:30px;font-weight:900;line-height:1.45;box-shadow:0 8px 24px -14px rgba(214,62,118,.28)}
+.quote small{display:block;font-size:19px;font-weight:500;color:var(--ink-2);margin-top:8px}
+.chips{display:flex;gap:14px}
+.chips div{flex:1;background:var(--pink);color:#fff;border-radius:18px;padding:16px 18px;font-size:25px;font-weight:900;text-align:center;line-height:1.35}
+main{padding:0;height:1080px;display:block}
+.wrap{position:relative;height:1080px;padding:54px 60px 0;background:radial-gradient(circle at 12% 30%,rgba(255,153,0,.13),transparent 45%),radial-gradient(circle at 90% 70%,rgba(191,0,0,.11),transparent 48%),var(--cream)}
+.k{font-size:28px;font-weight:700;color:var(--ink-2);text-align:center}
+.t{font-size:56px;font-weight:900;line-height:1.25;text-align:center;margin-top:6px}
+.t em{font-style:normal;color:#BF0000}
+.t b{color:#E47911}
+.sub{text-align:center;font-size:23px;color:var(--ink-2);font-weight:700;margin-top:10px}
+.amzc{color:#E47911}.rk{color:#BF0000;font-weight:900}
+.note{position:absolute;left:60px;right:60px;bottom:44px;font-size:24px}
+
+.t{font-size:46px;white-space:nowrap}
+.steps2{display:flex;flex-direction:column;gap:34px;margin-top:56px}
+.s{display:flex;gap:28px;align-items:center;background:#fff;border-radius:28px;padding:44px 34px;box-shadow:0 20px 40px -26px rgba(30,18,25,.4)}
+.s.a{border-left:14px solid #FF9900}.s.r{border-left:14px solid #BF0000}
+.s .lg{flex:0 0 210px;height:96px;display:flex;align-items:center;justify-content:center;border-radius:18px}
+.s.a .lg{background:#232F3E}.s.a .lg img{height:64px;background:#fff;border-radius:12px;padding:4px 14px}
+.s .rkl{background:#BF0000;color:#fff;font-size:36px;font-weight:900}
+.tx b{display:block;font-size:34px;font-weight:900;line-height:1.35}
+.tx span{display:block;font-size:26px;font-weight:600;color:var(--ink-2);line-height:1.6;margin-top:8px}
+
+</style></head><body>
+
+<main>
+
+
+<div class="wrap">
+<div class="k">買う前にやること</div><div class="t">Amazonは<b>エントリー</b>、楽天市場は<em>10月20日</em></div>
+<div class="steps2">
+ <div class="s a"><div class="lg"><img src="file:///home/user/daily-hack/public/images/prime-sale-vs-rakuten-autumn-2026/logos/amazon.png"></div><div class="tx"><b>Amazonプライム感謝祭は、10月19日（月）23:59まで</b><span>エントリーしてから、期間中の買い物の合計が1万円（税込）以上になると、対象の商品にポイントが上乗せされる。エントリーしないと上乗せは付かない。</span></div></div>
+ <div class="s r"><div class="lg rkl">楽天市場</div><div class="tx"><b>楽天市場で買うなら、10月20日（火）</b><span>この日はエントリーして楽天カードで払うと、ポイントが+3倍になる（上限1,000ポイント）。</span></div></div>
+</div>
+</div>
+<div class="note">どちらも<b>値段からポイントを引いた金額</b>で比べてから買うこと。</div>
+</main></body></html>
