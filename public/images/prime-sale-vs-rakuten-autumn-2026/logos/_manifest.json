@@ -50,5 +50,72 @@
     "fetched": "2026-10-18",
     "task": "ops/tasks/x316-product-brand-logos.sh",
     "note": "App Store に提供元（Rakuten Group, Inc.）が登録した楽天市場アプリのアイコン。前の rakutenichiba.png は台湾版「樂天市場」だったため差し替えた（2026-10-18）"
+  },
+  "panasonic.png": {
+    "brand": "パナソニック",
+    "title": "File:Panasonic Group logo.svg",
+    "page": "https://commons.wikimedia.org/wiki/File:Panasonic_Group_logo.svg",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Panasonic_Group_logo.svg/960px-Panasonic_Group_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "orig": "https://upload.wikimedia.org/wikipedia/commons/5/54/Panasonic_Group_logo.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "Public domain",
+    "fetched": "2026-10-18",
+    "task": "ops/tasks/x317-product-brand-logos-wiki.sh"
+  },
+  "nintendo.png": {
+    "brand": "任天堂",
+    "title": "File:Nintendo gray logo.svg",
+    "page": "https://commons.wikimedia.org/wiki/File:Nintendo_gray_logo.svg",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Nintendo_gray_logo.svg/960px-Nintendo_gray_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "orig": "https://upload.wikimedia.org/wikipedia/commons/7/76/Nintendo_gray_logo.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "Public domain",
+    "fetched": "2026-10-18",
+    "task": "ops/tasks/x317-product-brand-logos-wiki.sh"
+  },
+  "zojirushi.png": {
+    "brand": "象印",
+    "title": "File:Zojirushi Logo.svg",
+    "page": "https://en.wikipedia.org/wiki/File:Zojirushi_Logo.svg",
+    "src": "https://thumb.wikimedia.org/wikipedia/en/thumb/5/5f/Zojirushi_Logo.svg/960px-Zojirushi_Logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "orig": "https://upload.wikimedia.org/wikipedia/en/5/5f/Zojirushi_Logo.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "Fair use",
+    "fetched": "2026-10-18",
+    "task": "ops/tasks/x317-product-brand-logos-wiki.sh"
+  },
+  "switchbot-app.jpg": {
+    "brand": "SwitchBot",
+    "seller": "wonderlabs, Incorporated",
+    "src": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/97/b5/1b/97b51b0b-b93b-5c2a-0d19-6d3eeec013e6/AppIcon-0-0-1x_U007emarketing-0-9-0-85-220.png/512x512bb.jpg",
+    "page": "https://apps.apple.com/jp/app/switchbot/id1087374760?uo=4",
+    "fetched": "2026-10-18",
+    "task": "ops/tasks/x317-product-brand-logos-wiki.sh"
+  },
+  "apple.png": {
+    "brand": "Apple",
+    "file": "apple.png",
+    "source": null,
+    "page": null,
+    "license_note": "公式サイト（商標）",
+    "width": 199,
+    "height": 231,
+    "copied_from": "public/images/hoso-daigaku-gakuwari-2026/logos/apple.png",
+    "task": "ops/tasks/t116・t117（2026-09-20・公式サイトから取得。元記事の _manifest.json の _note による）"
+  },
+  "sony.png": {
+    "brand": "ソニー",
+    "title": "File:Sony logo.svg",
+    "page": "https://commons.wikimedia.org/wiki/File:Sony_logo.svg",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Sony_logo.svg/960px-Sony_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "Public domain",
+    "fetched": "2026-10-18",
+    "task": "ops/tasks/x318-sony-anker-logo.sh"
+  },
+  "anker-app.jpg": {
+    "brand": "Anker",
+    "seller": "Anker Japan Co., Ltd.",
+    "src": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5a/bf/85/5abf8573-a503-ddcc-07fe-fb7ebf115789/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+    "page": "https://apps.apple.com/jp/app/anker-japan-%E5%85%AC%E5%BC%8F%E3%82%A2%E3%83%97%E3%83%AA/id1609247679?uo=4",
+    "fetched": "2026-10-18",
+    "task": "ops/tasks/x318-sony-anker-logo.sh",
+    "note": "App Store に Anker Japan Co., Ltd. が登録した「Anker Japan 公式アプリ」のアイコン"
   }
 }
