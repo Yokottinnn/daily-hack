@@ -1,0 +1,17 @@
+{
+  "_note": "X 告知の 1 枚目で、カードの上部に薄く透かして敷くキャンペーン画像。公式の告知素材（商標・識別目的）。改変しない（透明度と切り抜きの枠だけ CSS で付ける）。取ったのは ops/tasks/x312・x313（画面は撮らず画像 URL から取得）",
+  "prime-appreciation-banner.jpg": {
+    "what": "Amazonプライム感謝祭 2026 の告知画像（10/16〜10/19）",
+    "source": "https://assets.aboutamazon.com/a2/a8/a226f8de451689b5aa06b3367781/prime-appreciation-date-announce.jpg",
+    "page": "https://www.aboutamazon.jp/news/amazon-prime/prime-appreciation-sale-2026",
+    "fetched": "2026-10-17",
+    "task": "ops/tasks/x312-campaign-banners.sh"
+  },
+  "rakuten-marathon-kanban.png": {
+    "what": "楽天お買い物マラソンの看板画像（公式ページ上部）",
+    "source": "https://r.r10s.jp/evt/event/campaign/point-up/marathon/common/img/kanban/close_pc_kanban202602.png",
+    "page": "https://event.rakuten.co.jp/campaign/point-up/marathon/",
+    "fetched": "2026-10-17",
+    "task": "ops/tasks/x313-marathon-banner.sh"
+  }
+}
