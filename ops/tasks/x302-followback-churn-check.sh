@@ -51,7 +51,7 @@ while IFS=$'\t' read -r h txt || [ -n "$h" ]; do
   [ -n "$h" ] || continue; [ "$h" = "ERROR" ] && { echo "一覧を読めなかった: $txt"; continue; }
   case "$txt" in *バック*) continue;; esac
   n=$((n+1)); echo; echo "### 人 $n（ボタン「$txt」）"; echo '```'
-  grep -rn -- "$h" "$W/logs" 2>/dev/null | sed -E "s#^$W/logs/##" | cut -c1-220 | tail -6 | hide
+  grep -rn -- "$h" "$W/logs" 2>/dev/null | sed -E "s#^$W/logs/##" | cut -c1-220 | tail -6 | H="$h" perl -pe 's/\Q$ENV{H}\E/<伏せ>/gi' | hide
   echo "data での出現: $(grep -rl -- "$h" "$W/data" 2>/dev/null | sed -E "s#^$W/data/##" | tr '\n' ' ')"
   echo '```'
 done < "$LIST"
