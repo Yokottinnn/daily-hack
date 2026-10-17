@@ -1,3 +1,3 @@
 [
-      {"task": "t302-vc-apply3.sh", "rc": 0, "out": "- ⛔ 一括提携のボタンが押せる状態にならない → 送らない  ## VC「じゃらんnet」 adDetail/2021810 - 申請前の一覧の行: 状態「即時提携」 - ⛔ 一括提携のボタンが押せる状態にならない → 送らない"}
+      {"task": "t303-vc-bulk-probe.sh", "rc": 0, "out": "  - 親: div.form-group mt6[inline-block] < div.col-xs-7 pull-bottom form-inli[inline-block] < div.row table-tool-bar-upper[block] < form.[block] < div.col-xs-9 ad-search[block] < div.row[block] - ボタン: 0x0@0 disp=none vis=visible op=1 disabled=false html=<button type=button class=activeLinkSwi"}
   ]
