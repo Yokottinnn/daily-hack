@@ -1,3 +1,3 @@
 [
-      {"task": "t304-vc-modal-probe.sh", "rc": 0, "out": " ## 「サイト設定」の行き先: /account/siteManage - 画面: https://aff.valuecommerce.ne.jp/account/siteManage - 状態の語: 1 件・20件・50件・100件・1 件・20件・50件・100件 - ボタン: 「登録サイト管理」→/account/siteManage / 「ユーザー管理」→/account"}
+      {"task": "t305-vc-apply4.sh", "rc": 0, "out": "## VC「じゃらんnet」 adDetail/2021810 - 申請前: 状態コード「N」・即時提携 - 確認: 確認は出なかった - 押した後の画面: https://aff.valuecommerce.ne.jp/ad/adDetail/2021810 - **申請後: 状態コード「N」・即時提携**"}
   ]
