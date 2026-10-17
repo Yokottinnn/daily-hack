@@ -1,0 +1,146 @@
+{
+  "anker-1.png": {
+    "brand": "Anker Innovations",
+    "title": "File:Anker Innovations Co. Ltd. Logo.png",
+    "page": "https://commons.wikimedia.org/wiki/File:Anker_Innovations_Co._Ltd._Logo.png",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Anker_Innovations_Co._Ltd._Logo.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "orig": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Anker_Innovations_Co._Ltd._Logo.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "Public domain",
+    "fetched": "2026-10-18",
+    "task": "ops/tasks/x317-product-brand-logos-wiki.sh"
+  },
+  "anker-2.png": {
+    "brand": "Anker Innovations",
+    "title": "File:Anker Innovations logo.svg",
+    "page": "https://commons.wikimedia.org/wiki/File:Anker_Innovations_logo.svg",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Anker_Innovations_logo.svg/960px-Anker_Innovations_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "orig": "https://upload.wikimedia.org/wikipedia/commons/7/75/Anker_Innovations_logo.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "Public domain",
+    "fetched": "2026-10-18",
+    "task": "ops/tasks/x317-product-brand-logos-wiki.sh"
+  },
+  "sony-1.png": {
+    "brand": "Sony",
+    "title": "File:AXN logo (2015).svg",
+    "page": "https://commons.wikimedia.org/wiki/File:AXN_logo_(2015).svg",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/AXN_logo_%282015%29.svg/960px-AXN_logo_%282015%29.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "orig": "https://upload.wikimedia.org/wikipedia/commons/5/52/AXN_logo_%282015%29.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "Public domain",
+    "fetched": "2026-10-18",
+    "task": "ops/tasks/x317-product-brand-logos-wiki.sh"
+  },
+  "sony-2.png": {
+    "brand": "Sony",
+    "title": "File:Aniplex logo.svg",
+    "page": "https://commons.wikimedia.org/wiki/File:Aniplex_logo.svg",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Aniplex_logo.svg/960px-Aniplex_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "orig": "https://upload.wikimedia.org/wikipedia/commons/3/37/Aniplex_logo.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "Public domain",
+    "fetched": "2026-10-18",
+    "task": "ops/tasks/x317-product-brand-logos-wiki.sh"
+  },
+  "sony-3.png": {
+    "brand": "Sony",
+    "title": "File:Arista Records Logo.svg",
+    "page": "https://commons.wikimedia.org/wiki/File:Arista_Records_Logo.svg",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Arista_Records_Logo.svg/960px-Arista_Records_Logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "orig": "https://upload.wikimedia.org/wikipedia/commons/9/94/Arista_Records_Logo.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "Public domain",
+    "fetched": "2026-10-18",
+    "task": "ops/tasks/x317-product-brand-logos-wiki.sh"
+  },
+  "panasonic-1.png": {
+    "brand": "Panasonic",
+    "title": "File:Commons-logo.svg",
+    "page": "https://en.wikipedia.org/wiki/File:Commons-logo.svg",
+    "src": "https://thumb.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "orig": "https://upload.wikimedia.org/wikipedia/en/4/4a/Commons-logo.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC-BY-SA-3.0",
+    "fetched": "2026-10-18",
+    "task": "ops/tasks/x317-product-brand-logos-wiki.sh"
+  },
+  "panasonic-2.png": {
+    "brand": "Panasonic",
+    "title": "File:Panasonic Group logo.svg",
+    "page": "https://commons.wikimedia.org/wiki/File:Panasonic_Group_logo.svg",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Panasonic_Group_logo.svg/960px-Panasonic_Group_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "orig": "https://upload.wikimedia.org/wikipedia/commons/5/54/Panasonic_Group_logo.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "Public domain",
+    "fetched": "2026-10-18",
+    "task": "ops/tasks/x317-product-brand-logos-wiki.sh"
+  },
+  "nintendo-1.png": {
+    "brand": "Nintendo",
+    "title": "File:Commons-logo.svg",
+    "page": "https://en.wikipedia.org/wiki/File:Commons-logo.svg",
+    "src": "https://thumb.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "orig": "https://upload.wikimedia.org/wikipedia/en/4/4a/Commons-logo.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC-BY-SA-3.0",
+    "fetched": "2026-10-18",
+    "task": "ops/tasks/x317-product-brand-logos-wiki.sh"
+  },
+  "nintendo-2.png": {
+    "brand": "Nintendo",
+    "title": "File:Nintendo Logo 1970.png",
+    "page": "https://commons.wikimedia.org/wiki/File:Nintendo_Logo_1970.png",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/3/37/Nintendo_Logo_1970.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "orig": "https://upload.wikimedia.org/wikipedia/commons/3/37/Nintendo_Logo_1970.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "Public domain",
+    "fetched": "2026-10-18",
+    "task": "ops/tasks/x317-product-brand-logos-wiki.sh"
+  },
+  "nintendo-3.png": {
+    "brand": "Nintendo",
+    "title": "File:Nintendo gray logo.svg",
+    "page": "https://commons.wikimedia.org/wiki/File:Nintendo_gray_logo.svg",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Nintendo_gray_logo.svg/960px-Nintendo_gray_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "orig": "https://upload.wikimedia.org/wikipedia/commons/7/76/Nintendo_gray_logo.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "Public domain",
+    "fetched": "2026-10-18",
+    "task": "ops/tasks/x317-product-brand-logos-wiki.sh"
+  },
+  "zojirushi-1.png": {
+    "brand": "Zojirushi",
+    "title": "File:Commons-logo.svg",
+    "page": "https://en.wikipedia.org/wiki/File:Commons-logo.svg",
+    "src": "https://thumb.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "orig": "https://upload.wikimedia.org/wikipedia/en/4/4a/Commons-logo.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC-BY-SA-3.0",
+    "fetched": "2026-10-18",
+    "task": "ops/tasks/x317-product-brand-logos-wiki.sh"
+  },
+  "zojirushi-2.png": {
+    "brand": "Zojirushi",
+    "title": "File:Zojirushi Logo.svg",
+    "page": "https://en.wikipedia.org/wiki/File:Zojirushi_Logo.svg",
+    "src": "https://thumb.wikimedia.org/wikipedia/en/thumb/5/5f/Zojirushi_Logo.svg/960px-Zojirushi_Logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "orig": "https://upload.wikimedia.org/wikipedia/en/5/5f/Zojirushi_Logo.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "Fair use",
+    "fetched": "2026-10-18",
+    "task": "ops/tasks/x317-product-brand-logos-wiki.sh"
+  },
+  "switchbot-app-1.png": {
+    "brand": "SwitchBot",
+    "seller": "wonderlabs, Incorporated",
+    "src": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/97/b5/1b/97b51b0b-b93b-5c2a-0d19-6d3eeec013e6/AppIcon-0-0-1x_U007emarketing-0-9-0-85-220.png/512x512bb.jpg",
+    "page": "https://apps.apple.com/jp/app/switchbot/id1087374760?uo=4",
+    "fetched": "2026-10-18",
+    "task": "ops/tasks/x317-product-brand-logos-wiki.sh"
+  },
+  "switchbot-app-2.png": {
+    "brand": "ChatGPT",
+    "seller": "OpenAI OpCo, LLC",
+    "src": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/30/23/eb/3023ebb0-1e40-6314-9909-f490a704b5d1/AppIcon-0-0-1x_U007epad-0-0-0-1-0-85-220.png/512x512bb.jpg",
+    "page": "https://apps.apple.com/jp/app/chatgpt/id6448311069?uo=4",
+    "fetched": "2026-10-18",
+    "task": "ops/tasks/x317-product-brand-logos-wiki.sh"
+  },
+  "switchbot-app-3.png": {
+    "brand": "Amazon Alexa",
+    "seller": "AMZN Mobile LLC",
+    "src": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a3/ef/19/a3ef1979-b7e3-371d-e897-88807e929e2f/AppIconRelease-0-1x_U007epad-0-0-0-10-0-0-0-85-220-0.png/512x512bb.jpg",
+    "page": "https://apps.apple.com/jp/app/amazon-alexa/id944011620?uo=4",
+    "fetched": "2026-10-18",
+    "task": "ops/tasks/x317-product-brand-logos-wiki.sh"
+  }
+}
