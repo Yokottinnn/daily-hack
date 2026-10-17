@@ -1,3 +1,3 @@
 [
-      {"task": "t301-vc-row-probe.sh", "rc": 0, "out": "## VC「Yahoo!トラベル」 adDetail/2026983（https://aff.valuecommerce.ne.jp/ad/adList） - 検索欄に入った語: ・件数表示: 9件 - 一覧に出た名前: マルイのネット通販マルイウェブチャネル ／ Yahoo!トラベル「ヤフーパック（宿泊＋航空券）JAL便"}
+      {"task": "x302-followback-churn-check.sh", "rc": 0, "out": "フォロー返しした人を別のジョブが外していないか照らし合わせた / followback-churn-check.md"}
   ]
