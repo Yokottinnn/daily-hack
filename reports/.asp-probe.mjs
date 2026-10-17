@@ -402,6 +402,40 @@ try {
       lines.push(`- **送った後の一覧の行: 状態「${ri2 ? ri2.status || '表示なし' : '一覧に出ない'}」・チェック欄 ${ri2 && ri2.cb ? JSON.stringify(ri2.cb) : 'なし'}**`, '');
     }
   }
+  if (WHICH === 'vcrow') {
+    // **読むだけ（t301）。押さない・チェックしない。** t291 は行を辿るときに検索欄ごと掴み、状態が「未提携・再申請可・…」と
+    // 絞り込みの選択肢を全部拾っていた。一覧の本当の行・チェック欄・ボタンの在りかを取る
+    const vis = (e) => { const r = e.getBoundingClientRect(); const cs = getComputedStyle(e); return r.width > 0 && r.height > 0 && cs.visibility !== 'hidden' && cs.display !== 'none'; };
+    for (const [name, kw, id] of [['Yahoo!トラベル', 'Yahoo!トラベル', 2026983], ['ふるなび', 'ふるなび', 2142798], ['一休.com', '一休', 179], ['じゃらんnet', 'じゃらん', 2021810]]) {
+      await go(`https://aff.valuecommerce.ne.jp/ad/adList?${encodeURIComponent('ad_search_condition_form[keyword]')}=${encodeURIComponent(kw)}&${encodeURIComponent('ad_search_condition_form[appStatus]')}=`);
+      const d = await p.evaluate(([id, visSrc]) => { const vis = eval(visSrc);
+        const kwv = document.querySelector('input[name="ad_search_condition_form[keyword]"]')?.value ?? '（欄なし）';
+        const cnt = (document.body.innerText.match(/[0-9,]+\s*件/) || [''])[0];
+        // 検索フォームの外にあるチェック欄
+        const cbs = [...document.querySelectorAll('input[type=checkbox]')].filter((c) => !/ad_search_condition_form/.test(c.name)).map((c) => `${c.name}=${c.value}${c.disabled ? '(無効)' : ''}${vis(c) ? '' : '(見えない)'}`).slice(0, 30);
+        const anchors = [...document.querySelectorAll(`a[href*="adDetail/${id}"]`)].map((a) => {
+          const r = a.getBoundingClientRect();
+          // 文字数 600 未満で止まる祖先＝その 1 行
+          let row = a; for (let i = 0; i < 12 && row.parentElement; i++) { const up = row.parentElement; if ((up.innerText || '').length > 600 || up.querySelector('input[name^="ad_search_condition_form"]')) break; row = up; }
+          const ctrls = [...row.querySelectorAll('input, button, a, select')].filter(vis).map((e) => `${e.tagName.toLowerCase()}${e.type ? '[' + e.type + ']' : ''}${e.name ? ' name=' + e.name : ''}${e.value && e.tagName === 'INPUT' ? ' value=' + e.value : ''} 「${(e.innerText || e.value || '').replace(/\s+/g, ' ').trim().slice(0, 30)}」${e.getAttribute('href') && !/^javascript/.test(e.getAttribute('href')) ? ' → ' + e.getAttribute('href').slice(0, 80) : ''}`).slice(0, 20);
+          return { size: `${Math.round(r.width)}x${Math.round(r.height)}`, rowTag: `${row.tagName.toLowerCase()}.${(row.className || '').toString().slice(0, 40)}`, text: (row.innerText || '').replace(/\s+/g, ' ').trim().slice(0, 300), ctrls };
+        });
+        const names = [...document.querySelectorAll('a[href*="adDetail/"]')].filter(vis).map((a) => (a.innerText || '').trim()).filter(Boolean).slice(0, 12);
+        const bulk = [...document.querySelectorAll('button, input[type=button], input[type=submit], a')].filter((e) => /一括提携|提携申請|新規提携/.test(e.innerText || e.value || '')).map((e) => `${e.tagName.toLowerCase()} 「${(e.innerText || e.value || '').trim().slice(0, 30)}」${vis(e) ? '' : '(見えない)'}${e.disabled ? '(無効)' : ''}`).slice(0, 10);
+        return { kwv, cnt, cbs, anchors, names, bulk };
+      }, [id, vis.toString()]);
+      lines.push(`## VC「${name}」 adDetail/${id}（${here()}）`, `- 検索欄に入った語: ${d.kwv}・件数表示: ${d.cnt || 'なし'}`, `- 一覧に出た名前: ${d.names.join(' ／ ') || 'なし'}`,
+        `- 検索欄の外のチェック欄: ${d.cbs.join(' / ') || 'なし'}`, `- 提携まわりのボタン: ${d.bulk.join(' / ') || 'なし'}`, `- このプログラムへのリンク: ${d.anchors.length} 本`);
+      for (const a of d.anchors) lines.push(`  - 大きさ ${a.size}・行 ${a.rowTag}`, `    - 行の文: ${NG.test(a.text) ? '（伏せる）' : a.text}`, ...a.ctrls.filter((x) => !NG.test(x)).map((x) => `    - ${x}`));
+      lines.push('');
+    }
+    // 詳細ページ側の、見えているボタン全部（t290 は 5 語に絞っていた）
+    await go('https://aff.valuecommerce.ne.jp/ad/adDetail/2142798');
+    const btns = await p.evaluate((visSrc) => { const vis = eval(visSrc);
+      const main = document.querySelector('main, #main, .main, #contents, .contents') || document.body;
+      return [...main.querySelectorAll('button, input[type=button], input[type=submit], a.btn, a[class*=btn], a[class*=button]')].filter(vis).map((e) => `${e.tagName.toLowerCase()} 「${(e.innerText || e.value || '').replace(/\s+/g, ' ').trim().slice(0, 30)}」 class=${(e.className || '').toString().slice(0, 40)}`).slice(0, 30); }, vis.toString());
+    lines.push('## 詳細ページ（ふるなび）の見えているボタン', ...btns.filter((x) => !NG.test(x)).map((x) => `- ${x}`), '');
+  }
   if (WHICH === 'applyvc') {
     // **VC の提携申請（t289）。利用者が 2026-10-12 に「4 社とも申請する」を選んだ。**
     // 確認画面を読んでから送る。費用・有料・想定外の項目が見えたら、その社は送らずに止まる
