@@ -1,3 +1,3 @@
 [
-      {"task": "t303-vc-bulk-probe.sh", "rc": 0, "out": "  - 親: div.form-group mt6[inline-block] < div.col-xs-7 pull-bottom form-inli[inline-block] < div.row table-tool-bar-upper[block] < form.[block] < div.col-xs-9 ad-search[block] < div.row[block] - ボタン: 0x0@0 disp=none vis=visible op=1 disabled=false html=<button type=button class=activeLinkSwi"}
+      {"task": "t304-vc-modal-probe.sh", "rc": 0, "out": " ## 「サイト設定」の行き先: /account/siteManage - 画面: https://aff.valuecommerce.ne.jp/account/siteManage - 状態の語: 1 件・20件・50件・100件・1 件・20件・50件・100件 - ボタン: 「登録サイト管理」→/account/siteManage / 「ユーザー管理」→/account"}
   ]
