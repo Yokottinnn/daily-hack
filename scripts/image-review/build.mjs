@@ -96,8 +96,18 @@ let filled = false;
 for (const [k, list] of Object.entries(posts)) {
   list.forEach((t, i) => {
     const w = weight(t);
-    console.log(`  ${k} [${i + 1}/${list.length}]  重み ${w} / 280（余裕 ${280 - w}）`);
-    if (w > 275) throw new Error(`${k} [${i + 1}] が重み ${w}。280 以内・余裕 5 以上にする`);
+    // 2026-10-17: 青バッジ（Premium）で長文が出せるようになった（利用者の指示「文字数制限なくなったことを踏まえて」）。
+    // **全体は 25,000 まで。** ただしタイムラインでは冒頭だけが見え、続きは「さらに表示」の後ろになる。
+    // **冒頭（最初の段落から、重み 275 に収まるところまで）が単独で刺さること**を確かめる（x-post-copy §0）
+    if (w <= 275) {
+      console.log(`  ${k} [${i + 1}/${list.length}]  重み ${w} / 280（余裕 ${280 - w}）`);
+    } else {
+      if (w > 25000) throw new Error(`${k} [${i + 1}] が重み ${w}。長文でも 25,000 まで`);
+      let fold = "";
+      for (const para of t.split(/\n\n/)) { const next = fold ? fold + "\n\n" + para : para; if (weight(next) > 275) break; fold = next; }
+      if (!fold) throw new Error(`${k} [${i + 1}] の最初の段落が重み ${weight(t.split(/\n\n/)[0])}。「さらに表示」の前に収まらない。冒頭の段落を 275 以内にする`);
+      console.log(`  ${k} [${i + 1}/${list.length}]  長文 重み ${w}（さらに表示の前に見える冒頭 ${weight(fold)}）`);
+    }
 
     const entry = lock.locked[`${k}[${i}]`];
     if (!entry) return;
