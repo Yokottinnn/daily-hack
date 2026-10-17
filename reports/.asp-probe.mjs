@@ -501,12 +501,19 @@ try {
         return { url: location.href.replace(/\?.*$/, ''), n: ds.length, text: root ? root.innerText.replace(/\s+/g, ' ').trim().slice(0, 700) : '',
           btns: root ? [...root.querySelectorAll('a,button,input[type=submit],input[type=button]')].filter(vis).map((b) => (b.innerText || b.value || '').trim()).filter(Boolean).slice(0, 12) : [] }; }, vis.toString());
       lines.push(`- ブラウザ標準の確認: ${msgs.join(' ／ ') || '出なかった'}`, `- 新しいタブ: ${pops.length ? pops.map((x) => x.url()).join(' ／ ') : '開かなかった'}`, `- 押した後の画面: ${d.url}`, `- 画面内のダイアログ: ${d.n} 個${d.text ? `「${NG.test(d.text) ? '（会員情報を含むので伏せる）' : d.text}」` : ''}`, `- その中のボタン: ${d.btns.join(' / ') || 'なし'}`);
-      if (d.text && /提携/.test(d.text) && !/有料|料金|手数料|費用|課金|支払/.test(d.text)) {
-        const sb = p.locator('[role=dialog] :is(a,button,input[type=submit]):visible, .modal :is(a,button,input[type=submit]):visible, [class*=modal] :is(a,button,input[type=submit]):visible, [class*=dialog] :is(a,button,input[type=submit]):visible').filter({ hasText: /^\s*(はい|OK|提携する|提携申請(する)?|申請する|同意して(提携|申請)(する)?|同意する)\s*$/ });
-        const c = await sb.count();
-        if (c === 1) { lines.push(`- 押す: 「${(await sb.first().innerText()).trim()}」`); await sb.first().click({ timeout: 5000 }).catch((e) => lines.push(`- ⚠️ ${String(e).split('\n')[0]}`)); await p.waitForTimeout(5000); }
-        else lines.push(`- ⛔ 押すボタンが ${c} 個（1 個に決まらない）→ 押さない`);
-      }
+      // t313：ダイアログの中身は「いいえ はい」だけで、問いの文は外側にあった。「はい」のボタンから親を上って、問いの文を読む
+      const q = await p.evaluate((visSrc) => { const vis = eval(visSrc);
+        const yes = [...document.querySelectorAll('button, a, input[type=button], input[type=submit]')].filter(vis).filter((b) => /^\s*はい\s*$/.test(b.innerText || b.value || ''));
+        if (yes.length !== 1) return { n: yes.length, text: '' };
+        let box = yes[0]; for (let i = 0; i < 8 && box.parentElement; i++) { box = box.parentElement; const t = (box.innerText || '').replace(/\s+/g, ' ').trim(); if (t.replace(/いいえ|はい/g, '').trim().length > 8) break; }
+        return { n: 1, text: (box.innerText || '').replace(/\s+/g, ' ').trim().slice(0, 400) }; }, vis.toString());
+      lines.push(`- 「はい」の数: ${q.n}・問いの文: ${q.text ? (NG.test(q.text) ? '（伏せる）' : q.text) : '読めない'}`);
+      if (q.n === 1 && /提携/.test(q.text) && !/有料|料金|手数料|費用|課金|支払/.test(q.text)) {
+        lines.push('- 押す: 「はい」');
+        await p.locator('button:visible, a:visible, input[type=button]:visible, input[type=submit]:visible').filter({ hasText: /^\s*はい\s*$/ }).first().click({ timeout: 5000 }).catch((e) => lines.push(`- ⚠️ ${String(e).split('\n')[0]}`));
+        await p.waitForTimeout(6000);
+        lines.push(`- 押した後の画面: ${here()}`);
+      } else lines.push('- ⛔ 問いの文に「提携」が無い・費用の語がある・「はい」が 1 つに決まらない → 押さない');
       for (const np of pops) { await np.waitForLoadState('domcontentloaded').catch(() => {}); lines.push(`  - 新しいタブの題名: ${(await np.title().catch(() => '')).slice(0, 40)}`); await np.close().catch(() => {}); }
       p.off('dialog', onDialog); ctx.off('page', onPage);
       lines.push(`- **申請後: ${await stat(kw, id)}**`, '');
