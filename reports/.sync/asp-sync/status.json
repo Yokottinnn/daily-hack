@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-17T13:43:48.711Z",
+  "generated": "2026-10-17T14:29:33.880Z",
   "providers": {
     "a8": {
       "name": "A8.net",
@@ -11,6 +11,25 @@
       "title": "参加中プログラム｜A8.netメディア管理画面",
       "partnered": 71,
       "menus": 40
+    },
+    "moshimo": {
+      "name": "もしもアフィリエイト",
+      "loggedIn": true,
+      "needsHuman": false,
+      "credentialsInKeychain": true,
+      "reason": "",
+      "url": "https://af.moshimo.com/af/shop/index",
+      "title": "メディアオーナートップページ ｜ もしもアフィリエイト",
+      "menus": 9
+    },
+    "vc": {
+      "name": "バリューコマース",
+      "loggedIn": false,
+      "needsHuman": true,
+      "credentialsInKeychain": true,
+      "reason": "二段階認証・画像認証が出た。利用者が 1 回 通す必要がある",
+      "url": "https://aff.valuecommerce.ne.jp/mfa/promotion",
+      "title": "セキュリティを強化しましょう"
     }
   }
 }
