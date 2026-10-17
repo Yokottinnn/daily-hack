@@ -448,6 +448,35 @@ try {
       lines.push(`- **送った後の一覧の行: 状態「${await status(id)}」・チェック欄 ${(await rowOf(id).locator('input[name=check_option]').count()) ? 'まだある' : '消えた'}**`, '');
     }
   }
+  if (WHICH === 'vcmodal') {
+    // **読むだけ（t304）。** 詳細ページで「広告素材を選ぶ」を開き、中の文とボタンを読む。中のボタンは押さない。閉じて終わる。
+    // あわせて「サイト設定」の先を読む（VC は提携がサイト単位のため）
+    const vis = (e) => { const r = e.getBoundingClientRect(); const cs = getComputedStyle(e); return r.width > 0 && r.height > 0 && cs.visibility !== 'hidden' && cs.display !== 'none'; };
+    const read = () => p.evaluate((visSrc) => { const vis = eval(visSrc);
+      const ds = [...document.querySelectorAll('[role=dialog], .modal, .modal-dialog, [class*=modal], [class*=dialog]')].filter(vis);
+      const root = ds.length ? ds[ds.length - 1] : document.querySelector('main, .main-content') || document.body;
+      return { inDialog: ds.length > 0, url: location.href.replace(/\?.*$/, ''), text: root.innerText.replace(/\s+/g, ' ').trim().slice(0, 900),
+        btns: [...root.querySelectorAll('a,button,input[type=submit],input[type=button]')].filter(vis).map((b) => `「${(b.innerText || b.value || '').replace(/\s+/g, ' ').trim().slice(0, 30)}」${b.disabled ? '(無効)' : ''}${b.getAttribute('href') && !/^(javascript|#)/.test(b.getAttribute('href')) ? '→' + b.getAttribute('href').slice(0, 70) : ''}`).filter((x) => x !== '「」').slice(0, 25) }; }, vis.toString());
+    await go('https://aff.valuecommerce.ne.jp/ad/adDetail/2026983');
+    const sozai = p.locator('button:visible').filter({ hasText: /広告素材を選ぶ/ }).first();
+    if (await sozai.count()) {
+      await sozai.click({ timeout: 5000 }).catch((e) => lines.push(`- ⚠️ ${String(e).split('\n')[0]}`));
+      await p.waitForTimeout(3500);
+      const d = await read();
+      lines.push('## Yahoo!トラベル 詳細ページで「広告素材を選ぶ」を開いた後', `- ${d.inDialog ? 'ダイアログ' : '画面'}（${d.url}）`, `- 文: ${NG.test(d.text) ? '（会員情報を含むので伏せる）' : d.text}`, `- ボタン: ${d.btns.filter((x) => !NG.test(x)).join(' / ')}`, '');
+      await p.keyboard.press('Escape').catch(() => {});
+    } else lines.push('- 「広告素材を選ぶ」が見えない', '');
+    await go('https://aff.valuecommerce.ne.jp/ad/adDetail/2026983');
+    const site = p.locator('a:visible').filter({ hasText: /^\s*サイト設定\s*$/ }).first();
+    const href = await site.getAttribute('href').catch(() => null);
+    lines.push(`## 「サイト設定」の行き先: ${href || '取れない'}`);
+    if (href && !/^(javascript|#)/.test(href)) {
+      await go(new URL(href, 'https://aff.valuecommerce.ne.jp').href);
+      const d = await read();
+      // サイト名・URL は会員情報に近いので、状態の語と件数だけ出す
+      lines.push(`- 画面: ${d.url}`, `- 状態の語: ${(d.text.match(/審査中|承認|否認|有効|無効|登録済み?|未登録|メインサイト|サブサイト|[0-9]+\s*件/g) || []).join('・') || 'なし'}`, `- ボタン: ${d.btns.filter((x) => !NG.test(x)).join(' / ')}`, '');
+    }
+  }
   if (WHICH === 'vcbulk') {
     // **チェックだけして、一括提携ボタンの状態を読む（t303）。ボタンは押さない。最後にチェックを外す。**
     // t302 でチェック 1 件にはなったが、ボタンが「見えて押せる」にならなかった
