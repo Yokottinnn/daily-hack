@@ -1,3 +1,3 @@
 [
-      {"task": "x302-followback-churn-check.sh", "rc": 0, "out": "フォロー返しした人を別のジョブが外していないか照らし合わせた / followback-churn-check.md"}
+      {"task": "t302-vc-apply3.sh", "rc": 0, "out": "- ⛔ 一括提携のボタンが押せる状態にならない → 送らない  ## VC「じゃらんnet」 adDetail/2021810 - 申請前の一覧の行: 状態「即時提携」 - ⛔ 一括提携のボタンが押せる状態にならない → 送らない"}
   ]
