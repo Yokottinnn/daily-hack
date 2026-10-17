@@ -472,6 +472,46 @@ try {
       lines.push(`- 広告リンクの画面: ${here()}（${(await p.title()).slice(0, 30)}）`, `- コード ${codes.length} 件`, ...codes.map((c) => '```html\n' + c + '\n```'), ...(ui.length ? ['- コードが無いときの画面の部品: ' + ui.filter((x) => !NG.test(x)).join(' / ')] : []), '');
     }
   }
+  if (WHICH === 'applyvc5') {
+    // **VC の提携申請・5 回目（t313）。利用者が 2026-10-12「4 社とも申請する」、2026-10-17「自分でやって」。**
+    // t305 は「広告素材を選ぶ」を押して 5 秒待っても確認が出ず、状態は未提携（N）のままだった。
+    // 今回は 12 秒待ち、ブラウザ標準の確認・新しいタブ・画面内のダイアログの 3 つを全部見る。
+    // 確認・ダイアログの文に「提携」があり、費用の語が無いときだけ「はい／OK／申請」を押す
+    const vis = (e) => { const r = e.getBoundingClientRect(); const cs = getComputedStyle(e); return r.width > 0 && r.height > 0 && cs.visibility !== 'hidden' && cs.display !== 'none'; };
+    const stat = async (kw, id) => { await go(`https://aff.valuecommerce.ne.jp/ad/adList?${encodeURIComponent('ad_search_condition_form[keyword]')}=${encodeURIComponent(kw)}&${encodeURIComponent('ad_search_condition_form[appStatus]')}=`); return p.evaluate((id) => {
+      const row = [...document.querySelectorAll('div.result-elm')].find((r) => r.querySelector(`a[href*="adDetail/${id}"]`)); if (!row) return '一覧に出ない';
+      const cb = row.querySelector('input[name=check_option]'); let code = ''; try { code = JSON.parse(cb?.dataset.arr || '[]')[2] || ''; } catch {}
+      return `状態コード「${code || 'なし（チェック欄なし）'}」`; }, id); };
+    const LIST = (process.env.VC_LIST || '一休.com|一休|179').split(',').map((x) => x.split('|'));
+    for (const [name, kw, id] of LIST) {
+      lines.push(`## VC「${name}」 adDetail/${id}`, `- 申請前: ${await stat(kw, id)}`);
+      await go(`https://aff.valuecommerce.ne.jp/ad/adDetail/${id}`);
+      const msgs = [], pops = [];
+      const onDialog = async (dlg) => { const m = dlg.message().replace(/\s+/g, ' ').trim(); const ok = /提携/.test(m) && !/有料|料金|手数料|費用|課金|支払/.test(m);
+        msgs.push(`${dlg.type()}「${m.slice(0, 160)}」→ ${ok ? 'OK' : 'キャンセル'}`); if (ok) await dlg.accept().catch(() => {}); else await dlg.dismiss().catch(() => {}); };
+      const onPage = (np) => pops.push(np);
+      p.on('dialog', onDialog); ctx.on('page', onPage);
+      const btn = p.locator('button:visible').filter({ hasText: /広告素材を選ぶ/ }).first();
+      if (!(await btn.count())) { p.off('dialog', onDialog); ctx.off('page', onPage); lines.push('- 「広告素材を選ぶ」が見えない', ''); continue; }
+      await btn.click({ timeout: 8000 }).catch((e) => lines.push(`- ⚠️ 押せない: ${String(e).split('\n')[0]}`));
+      await p.waitForTimeout(12000);
+      const d = await p.evaluate((visSrc) => { const vis = eval(visSrc);
+        const ds = [...document.querySelectorAll('[role=dialog], .modal, .modal-dialog, .modal-content, [class*=modal], [class*=dialog], [class*=popup]')].filter(vis).filter((x) => (x.innerText || '').trim());
+        const root = ds.length ? ds[ds.length - 1] : null;
+        return { url: location.href.replace(/\?.*$/, ''), n: ds.length, text: root ? root.innerText.replace(/\s+/g, ' ').trim().slice(0, 700) : '',
+          btns: root ? [...root.querySelectorAll('a,button,input[type=submit],input[type=button]')].filter(vis).map((b) => (b.innerText || b.value || '').trim()).filter(Boolean).slice(0, 12) : [] }; }, vis.toString());
+      lines.push(`- ブラウザ標準の確認: ${msgs.join(' ／ ') || '出なかった'}`, `- 新しいタブ: ${pops.length ? pops.map((x) => x.url()).join(' ／ ') : '開かなかった'}`, `- 押した後の画面: ${d.url}`, `- 画面内のダイアログ: ${d.n} 個${d.text ? `「${NG.test(d.text) ? '（会員情報を含むので伏せる）' : d.text}」` : ''}`, `- その中のボタン: ${d.btns.join(' / ') || 'なし'}`);
+      if (d.text && /提携/.test(d.text) && !/有料|料金|手数料|費用|課金|支払/.test(d.text)) {
+        const sb = p.locator('[role=dialog] :is(a,button,input[type=submit]):visible, .modal :is(a,button,input[type=submit]):visible, [class*=modal] :is(a,button,input[type=submit]):visible, [class*=dialog] :is(a,button,input[type=submit]):visible').filter({ hasText: /^\s*(はい|OK|提携する|提携申請(する)?|申請する|同意して(提携|申請)(する)?|同意する)\s*$/ });
+        const c = await sb.count();
+        if (c === 1) { lines.push(`- 押す: 「${(await sb.first().innerText()).trim()}」`); await sb.first().click({ timeout: 5000 }).catch((e) => lines.push(`- ⚠️ ${String(e).split('\n')[0]}`)); await p.waitForTimeout(5000); }
+        else lines.push(`- ⛔ 押すボタンが ${c} 個（1 個に決まらない）→ 押さない`);
+      }
+      for (const np of pops) { await np.waitForLoadState('domcontentloaded').catch(() => {}); lines.push(`  - 新しいタブの題名: ${(await np.title().catch(() => '')).slice(0, 40)}`); await np.close().catch(() => {}); }
+      p.off('dialog', onDialog); ctx.off('page', onPage);
+      lines.push(`- **申請後: ${await stat(kw, id)}**`, '');
+    }
+  }
   if (WHICH === 'applyvc4') {
     // **VC の提携申請・4 回目（t305）。利用者が 2026-10-12 に「4 社とも申請する」、2026-10-17 に「Mac に送らせる許可を出す」を選んだ。**
     // 公式ヘルプ（help.valuecommerce.ne.jp/aff/adlist/alliance/02/）: 申請は「広告素材を選ぶ」を押すこと。
