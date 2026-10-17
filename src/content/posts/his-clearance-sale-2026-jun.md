@@ -4,7 +4,7 @@ description: "HISの在庫処分セール、6月出発限定で沖縄・石垣�
 publishDate: 2026-05-31
 category: ["campaigns", "comparisons", "howto"]
 tags: ["HIS", "在庫セール", "格安旅行", "ツアー", "沖縄", "石垣", "バンコク", "シンガポール", "ソウル", "航空券ホテル付き", "燃油サーチャージなし", "6月出発"]
-isPR: false
+isPR: true
 draft: false
 featured: true
 eyecatchUrl: "/images/his-clearance-sale-2026-jun/his-eyecatch-16x9.jpg"
@@ -59,6 +59,13 @@ references: ["https://x.com/halohalo_travel/status/2060588028402311572", "https:
 
 ---
 
+<!-- a8-banners placed by banner-place (trifa-esim) -->
+<p>海外に行くなら、現地の通信と現地ツアーも出発前に押さえておくと着いてから慌てないわよ。</p>
+
+<div class="affiliate-block">
+<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+34IYVU+5UDW+5ZMCH" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/trifa-esim-300x250.jpg" alt="国内eSIMアプリNo1！海外旅行通信の新定番【トリファ（trifa）】" width="300" height="250" loading="lazy"></a></div>
+</div>
+
 ## 📊 全プラン早見表
 
 | プラン | 日数 | 価格 | 出発日 | 出発空港 | 燃油サーチャージ | 含まれるもの |
@@ -103,6 +110,11 @@ references: ["https://x.com/halohalo_travel/status/2060588028402311572", "https:
 - **狙うべき人**: マリーナベイ・チャイナタウン・夜景・高品質都市旅行
 
 ---
+
+<!-- a8-banners placed by banner-place (sakura-mobile-kaigai) -->
+<div class="affiliate-block">
+<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B43JB+BOXI8Q+3Z3Y+BZ8OX" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/sakura-mobile-kaigai-300x250.jpg" alt="SakuraMobile海外Wifi" width="300" height="250" loading="lazy"></a></div>
+</div>
 
 ## 🏝 国内プラン詳細（関西発限定）
 
@@ -191,6 +203,11 @@ references: ["https://x.com/halohalo_travel/status/2060588028402311572", "https:
 </ul>
 
 ---
+
+<!-- a8-banners placed by banner-place (kkday) -->
+<div class="affiliate-block">
+<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B43JB+BX9KPM+52F8+5ZMCH" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/kkday-300x250.jpg" alt="KKday 海外旅行オプショナルツアー" width="300" height="250" loading="lazy"></a></div>
+</div>
 
 ## まとめ — 6月出発勢、今日明日で勝負が決まる
 

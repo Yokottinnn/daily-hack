@@ -4,7 +4,7 @@ description: "「ヨドバシ.comの方が安くて早い」がSNSで話題。�
 publishDate: 2026-07-19
 category: ["howto"]
 tags: ["ヨドバシ", "ヨドバシドットコム", "Amazon", "楽天市場", "EC", "通販", "ポイント", "節約", "コスパ"]
-isPR: false
+isPR: true
 draft: false
 featured: true
 eyecatchUrl: "/images/yodobashi-vs-amazon-rakuten-2026/eyecatch.jpg"
@@ -52,7 +52,7 @@ references:
 | **会費** | **無料**（会員登録のみ） | プライム月600円／年5,900円（学生 月300円／年2,950円） | 無料（楽天会員） |
 | **ポイント有効期限** | **最終利用から2年**（使えば実質無期限） | 通常1年 | 通常ポイント約1年（利用で延長） |
 
-<p class="source-note">出典：<a href="https://www.yodobashi.com/ec/support/beginner/delivery/index.html">ヨドバシ公式（配達・ポイント）</a>／<a href="https://event.rakuten.co.jp/campaign/point-up/everyday/point/">楽天SPU公式</a>／Amazonは<a href="https://www.aboutamazon.jp/news/guide/how-to-earn-and-use-amazon-points">About Amazon</a>等（会費・送料は公式仕様。2026年7月時点）。金額・還元率・送料条件・セールは改定されます。申込・購入前に必ず各公式で最新をご確認ください。ヨドバシのポイント率・当日便対象は商品/エリアで異なります。</p>
+<p class="source-note">出典：<a href="https://www.yodobashi.com/ec/support/beginner/delivery/index.html">ヨドバシ公式（配達・ポイント）</a>／<a href="https://hb.afl.rakuten.co.jp/hgc/587f2635.77bb335f.587f2636.e34c8733/?pc=https%3A%2F%2Fevent.rakuten.co.jp%2Fcampaign%2Fpoint-up%2Feveryday%2Fpoint%2F&m=https%3A%2F%2Fevent.rakuten.co.jp%2Fcampaign%2Fpoint-up%2Feveryday%2Fpoint%2F" rel="sponsored noopener nofollow">楽天SPU公式</a>／Amazonは<a href="https://www.aboutamazon.jp/news/guide/how-to-earn-and-use-amazon-points">About Amazon</a>等（会費・送料は公式仕様。2026年7月時点）。金額・還元率・送料条件・セールは改定されます。申込・購入前に必ず各公式で最新をご確認ください。ヨドバシのポイント率・当日便対象は商品/エリアで異なります。</p>
 
 ## 3社それぞれの「強み」と「弱点」（両論併記）
 

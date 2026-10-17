@@ -120,6 +120,13 @@ author: "hacker-ko"
   </div>
 </div>
 
+<!-- a8-banners placed by banner-place (hapitas) -->
+<p>カードや口座を作る前に、ポイントサイトに同じ案件が載っていないか見ておくといいわよ。経由するだけで、公式の特典とは別にポイントが付くことがあるの。</p>
+
+<div class="affiliate-block">
+<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+33XJA2+1LP8+CALN5" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/hapitas-300x250.jpg" alt="高還元率ポイントサイト【ハピタス】　無料会員登録プロモーション" width="300" height="250" loading="lazy"></a></div>
+</div>
+
 ## つみたて投資枠 vs 成長投資枠｜使い分けを覚えなさい
 
 新NISAには2つの枠があって、初心者がここで迷う。アタシの結論を先に置いておく。**会社員・個人事業主の99%は、まず「つみたて投資枠」だけ埋めれば十分**。
@@ -298,6 +305,11 @@ author: "hacker-ko"
     <span class="post-banner-cta">詳細を読む →</span>
   </div>
 </a>
+
+<!-- a8-banners placed by banner-place (chobirich) -->
+<div class="affiliate-block">
+<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B43JB+C507KQ+389A+67RK1" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/chobirich-300x250.jpg" alt="ちょびリッチ" width="300" height="250" loading="lazy"></a></div>
+</div>
 
 ## 口座開設〜積立設定までの流れ｜3ステップで完結
 

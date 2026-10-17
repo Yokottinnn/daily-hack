@@ -50,6 +50,13 @@ author: "hacker-ko"
 - **コンビニ・外食最強**: 三井住友カード（NL）（対象店で最大7%）
 - **Amazon民の必携**: JCBカードW（基本2%・39歳以下限定）
 
+<!-- a8-banners placed by banner-place (hapitas) -->
+<p>カードや口座を作る前に、ポイントサイトに同じ案件が載っていないか見ておくといいわよ。経由するだけで、公式の特典とは別にポイントが付くことがあるの。</p>
+
+<div class="affiliate-block">
+<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+33XJA2+1LP8+CALN5" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/hapitas-300x250.jpg" alt="高還元率ポイントサイト【ハピタス】　無料会員登録プロモーション" width="300" height="250" loading="lazy"></a></div>
+</div>
+
 ## クレカ選びの「3つの軸」だけ覚えなさい
 
 クレカ比較サイトを30個ハシゴしてる人、見てて疲れるから3秒でまとめるわよ。判断軸は3つだけ。
@@ -150,6 +157,11 @@ author: "hacker-ko"
 </div>
 
 <p class="source-note">※ キャンペーン金額・条件は時期により変動します。最終確認は各公式サイトでお願い。</p>
+
+<!-- a8-banners placed by banner-place (chobirich) -->
+<div class="affiliate-block">
+<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B43JB+C507KQ+389A+67RK1" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/chobirich-300x250.jpg" alt="ちょびリッチ" width="300" height="250" loading="lazy"></a></div>
+</div>
 
 ## 用途別おすすめ: あんたの財布、どこで開く？
 

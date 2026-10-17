@@ -66,6 +66,13 @@ references:
 
 <p class="source-note">損益分岐は旧新の付与式から算出（<a href="https://www.itmedia.co.jp/mobile/articles/2604/28/news113.html">ITmedia</a>も同旨）。※通常PayPayカード(年会費無料)も2026/6/2以降、公共料金カード払いの付与が1.0%→0.5%に。PayPayアプリ側でも本人確認(eKYC)未完了で還元対象外等の改定が報じられており、最新はPayPay公式で確認を。</p>
 
+<!-- a8-banners placed by banner-place (hapitas) -->
+<p>カードや口座を作る前に、ポイントサイトに同じ案件が載っていないか見ておくといいわよ。経由するだけで、公式の特典とは別にポイントが付くことがあるの。</p>
+
+<div class="affiliate-block">
+<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+33XJA2+1LP8+CALN5" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/hapitas-300x250.jpg" alt="高還元率ポイントサイト【ハピタス】　無料会員登録プロモーション" width="300" height="250" loading="lazy"></a></div>
+</div>
+
 ## 乗り換え先はどこ？（公式ベース）
 
 年100万円も使わない／年会費を払いたくないなら、この3枚が有力。
@@ -109,6 +116,11 @@ references:
 <p>年会費永年無料・基本還元1.0%・楽天市場で最大3倍。<strong>下の紹介リンク経由の新規入会で、あなたにも入会ポイント特典</strong>が付きます（被紹介者特典）。PayPayゴールドで年会費11,000円を払い続ける前に、まず"無料で1.0%"を持っておくのが堅実。</p>
 </div>
 <a class="rc-btn" href="https://r10.to/hPxfRD" target="_blank" rel="sponsored noopener nofollow">紹介リンクで詳細を見る →</a>
+</div>
+
+<!-- a8-banners placed by banner-place (chobirich) -->
+<div class="affiliate-block">
+<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B43JB+C507KQ+389A+67RK1" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/chobirich-300x250.jpg" alt="ちょびリッチ" width="300" height="250" loading="lazy"></a></div>
 </div>
 
 ## 📱 Xでも大反響｜みんなの"改悪"リアル
