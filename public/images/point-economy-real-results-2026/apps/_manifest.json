@@ -1,0 +1,101 @@
+{
+ "rakuten-ichiba": {
+  "trackId": 419267350,
+  "trackName": "楽天市場 - お買い物で楽天ポイントが貯まる便利な通販アプリ",
+  "sellerName": "Rakuten Group, Inc.",
+  "page": "https://apps.apple.com/jp/app/%E6%A5%BD%E5%A4%A9%E5%B8%82%E5%A0%B4-%E3%81%8A%E8%B2%B7%E3%81%84%E7%89%A9%E3%81%A7%E6%A5%BD%E5%A4%A9%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88%E3%81%8C%E8%B2%AF%E3%81%BE%E3%82%8B%E4%BE%BF%E5%88%A9%E3%81%AA%E9%80%9A%E8%B2%A9%E3%82%A2%E3%83%97%E3%83%AA/id419267350",
+  "screenshots": 5,
+  "fetched": "2026-10-17",
+  "source": "iTunes Lookup API (App Store 掲載素材)"
+ },
+ "rakuten-pointclub": {
+  "trackId": 641501350,
+  "trackName": "楽天ポイントクラブ〜楽天ポイント公式アプリ〜",
+  "sellerName": "Rakuten Group, Inc.",
+  "page": "https://apps.apple.com/jp/app/%E6%A5%BD%E5%A4%A9%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88%E3%82%AF%E3%83%A9%E3%83%96-%E6%A5%BD%E5%A4%A9%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88%E5%85%AC%E5%BC%8F%E3%82%A2%E3%83%97%E3%83%AA/id641501350",
+  "screenshots": 5,
+  "fetched": "2026-10-17",
+  "source": "iTunes Lookup API (App Store 掲載素材)"
+ },
+ "paypay": {
+  "trackId": 1435783608,
+  "trackName": "PayPay",
+  "sellerName": "PAYPAY CORPORATION",
+  "page": "https://apps.apple.com/jp/app/paypay/id1435783608",
+  "screenshots": 5,
+  "fetched": "2026-10-17",
+  "source": "iTunes Lookup API (App Store 掲載素材)"
+ },
+ "yahoo-shopping": {
+  "trackId": 446016180,
+  "trackName": "Yahoo!ショッピング-PayPayポイントが貯まる通販",
+  "sellerName": "Yahoo Japan Corporation",
+  "page": "https://apps.apple.com/jp/app/yahoo-%E3%82%B7%E3%83%A7%E3%83%83%E3%83%94%E3%83%B3%E3%82%B0-paypay%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88%E3%81%8C%E8%B2%AF%E3%81%BE%E3%82%8B%E9%80%9A%E8%B2%A9/id446016180",
+  "screenshots": 5,
+  "fetched": "2026-10-17",
+  "source": "iTunes Lookup API (App Store 掲載素材)"
+ },
+ "dbarai": {
+  "trackId": 1328132872,
+  "trackName": "d払い－スマホ決済アプリ、キャッシュレスでお支払い",
+  "sellerName": "NTT DOCOMO, INC.",
+  "page": "https://apps.apple.com/jp/app/d%E6%89%95%E3%81%84-%E3%82%B9%E3%83%9E%E3%83%9B%E6%B1%BA%E6%B8%88%E3%82%A2%E3%83%97%E3%83%AA-%E3%82%AD%E3%83%A3%E3%83%83%E3%82%B7%E3%83%A5%E3%83%AC%E3%82%B9%E3%81%A7%E3%81%8A%E6%94%AF%E6%89%95%E3%81%84/id1328132872",
+  "screenshots": 5,
+  "fetched": "2026-10-17",
+  "source": "iTunes Lookup API (App Store 掲載素材)"
+ },
+ "dpoint": {
+  "trackId": 821434357,
+  "trackName": "dポイントクラブ：お得情報満載のドコモ公式ポイントクラブ",
+  "sellerName": "NTT DOCOMO, INC.",
+  "page": "https://apps.apple.com/jp/app/d%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88%E3%82%AF%E3%83%A9%E3%83%96-%E3%81%8A%E5%BE%97%E6%83%85%E5%A0%B1%E6%BA%80%E8%BC%89%E3%81%AE%E3%83%89%E3%82%B3%E3%83%A2%E5%85%AC%E5%BC%8F%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88%E3%82%AF%E3%83%A9%E3%83%96/id821434357",
+  "screenshots": 5,
+  "fetched": "2026-10-17",
+  "source": "iTunes Lookup API (App Store 掲載素材)"
+ },
+ "aupay": {
+  "trackId": 862800897,
+  "trackName": "au PAY チャージや残高確認できるauのスマホ決済アプリ",
+  "sellerName": "KDDI CORPORATION",
+  "page": "https://apps.apple.com/jp/app/au-pay-%E3%83%81%E3%83%A3%E3%83%BC%E3%82%B8%E3%82%84%E6%AE%8B%E9%AB%98%E7%A2%BA%E8%AA%8D%E3%81%A7%E3%81%8D%E3%82%8Bau%E3%81%AE%E3%82%B9%E3%83%9E%E3%83%9B%E6%B1%BA%E6%B8%88%E3%82%A2%E3%83%97%E3%83%AA/id862800897",
+  "screenshots": 5,
+  "fetched": "2026-10-17",
+  "source": "iTunes Lookup API (App Store 掲載素材)"
+ },
+ "ponta": {
+  "trackId": 1036066384,
+  "trackName": "Ponta ポイントカード/ポイントアプリ お得なクーポンも",
+  "sellerName": "Loyalty Marketing, Inc.",
+  "page": "https://apps.apple.com/jp/app/ponta-%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88%E3%82%AB%E3%83%BC%E3%83%89-%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88%E3%82%A2%E3%83%97%E3%83%AA-%E3%81%8A%E5%BE%97%E3%81%AA%E3%82%AF%E3%83%BC%E3%83%9D%E3%83%B3%E3%82%82/id1036066384",
+  "screenshots": 5,
+  "fetched": "2026-10-17",
+  "source": "iTunes Lookup API (App Store 掲載素材)"
+ },
+ "smbc": {
+  "trackId": 594457652,
+  "trackName": "三井住友銀行アプリ",
+  "sellerName": "Sumitomo Mitsui Banking Corporation",
+  "page": "https://apps.apple.com/jp/app/%E4%B8%89%E4%BA%95%E4%BD%8F%E5%8F%8B%E9%8A%80%E8%A1%8C%E3%82%A2%E3%83%97%E3%83%AA/id594457652",
+  "screenshots": 5,
+  "fetched": "2026-10-17",
+  "source": "iTunes Lookup API (App Store 掲載素材)"
+ },
+ "vpoint": {
+  "trackId": 468976361,
+  "trackName": "Vポイントアプリ",
+  "sellerName": "V POINT MARKETING Co., Ltd.",
+  "page": "https://apps.apple.com/jp/app/v%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88%E3%82%A2%E3%83%97%E3%83%AA/id468976361",
+  "screenshots": 5,
+  "fetched": "2026-10-17",
+  "source": "iTunes Lookup API (App Store 掲載素材)"
+ },
+ "vpass": {
+  "trackId": 838138452,
+  "trackName": "三井住友カード Vpassアプリ",
+  "sellerName": "SUMITOMO MITSUI CARD COMPANY,LIMITED",
+  "page": "https://apps.apple.com/jp/app/%E4%B8%89%E4%BA%95%E4%BD%8F%E5%8F%8B%E3%82%AB%E3%83%BC%E3%83%89-vpass%E3%82%A2%E3%83%97%E3%83%AA/id838138452",
+  "screenshots": 5,
+  "fetched": "2026-10-17",
+  "source": "iTunes Lookup API (App Store 掲載素材)"
+ }
+}
