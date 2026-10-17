@@ -1,3 +1,3 @@
 [
-      {"task": "t318-vc-site.sh", "rc": 0, "out": "- ※ 複数の報酬条件が提示されている場合、報酬金額が高い方を優先して提携申請します。個別に報酬条件を確認する場合はプログラム検索からご確認の上、提携申請をお願いします。 - 広告主名 - 提携申請済みの広告主を"}
+      {"task": "t319-board-daily.sh", "rc": 0, "out": " - `com.dailyhack.board-weekly`: 曜日を外した   - **載った**（launchctl print が通る）・時刻 6:40・曜日 なし - `com.dailyhack.asp-sync`: 曜日を外した   - **載った**（launchctl print が通る）・時刻 6:12・曜日 なし"}
   ]
