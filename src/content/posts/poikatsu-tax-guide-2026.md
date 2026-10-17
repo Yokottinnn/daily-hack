@@ -4,7 +4,7 @@ description: "ポイ活の税金、結局いくらから申告が必要？通常
 publishDate: 2026-06-13
 category: ["howto", "roundups"]
 tags: ["ポイ活", "税金", "確定申告", "一時所得", "雑所得", "セルフバック", "住民税", "2026年", "副業"]
-isPR: false
+isPR: true
 draft: false
 featured: true
 eyecatchUrl: "/images/poikatsu-tax-guide-2026/eyecatch.jpg"
@@ -47,6 +47,13 @@ references: ["https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1907.htm",
 </div>
 
 > 💡 ポイントが課税される場合、課税のタイミングは<strong>「ポイントを使った/交換した時点」</strong>とされる（取得時ではない）。これは国税庁No.1907の整理で、意外と知られていないポイント。
+
+<!-- a8-banners placed by banner-place (hapitas) -->
+<p>カードや口座を作る前に、ポイントサイトに同じ案件が載っていないか見ておくといいわよ。経由するだけで、公式の特典とは別にポイントが付くことがあるの。</p>
+
+<div class="affiliate-block">
+<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+33XJA2+1LP8+CALN5" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/hapitas-300x250.jpg" alt="高還元率ポイントサイト【ハピタス】　無料会員登録プロモーション" width="300" height="250" loading="lazy"></a></div>
+</div>
 
 ## 🔀 判定フロー：あなたのポイ活、課税される？
 
@@ -94,6 +101,11 @@ references: ["https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1907.htm",
 </div>
 
 > 📌 **2025年(令和7年)の改正で基礎控除が引き上げ**られ、基本額が48万→58万円（合計所得が低いほど特例で最大95万円）に。給与所得控除の最低保障も55万→65万円に。だから「専業は48万円の壁」という**古い数字はもう使わない**こと。最新の控除額・扶養の壁は[国税庁の基礎控除ページ](https://www.nta.go.jp/users/gensen/2025kiso/index.htm)や税務署で確認を。
+
+<!-- a8-banners placed by banner-place (chobirich) -->
+<div class="affiliate-block">
+<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B43JB+C507KQ+389A+67RK1" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/chobirich-300x250.jpg" alt="ちょびリッチ" width="300" height="250" loading="lazy"></a></div>
+</div>
 
 ## 🧩 よくあるケースの判定例
 

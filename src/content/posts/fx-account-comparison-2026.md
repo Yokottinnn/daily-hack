@@ -4,7 +4,7 @@ description: "DMM FX・GMOクリック・外為どっとコム等の主要FX8社
 publishDate: 2026-05-31
 category: ["comparisons", "howto"]
 tags: ["FX", "FX口座", "DMM FX", "外為どっとコム", "みんなのFX", "GMOクリック", "楽天FX", "松井FX", "SBI FX", "マネックスFX", "スプレッド比較", "キャッシュバック", "口座開設"]
-isPR: false
+isPR: true
 draft: false
 featured: false
 eyecatchUrl: "/images/fx-account-comparison-2026/eyecatch.jpg"
@@ -79,6 +79,13 @@ references: ["https://fx.dmm.com/", "https://www.gaitame.com/", "https://min-fx.
 </ul>
 
 ---
+
+<!-- a8-banners placed by banner-place (hapitas) -->
+<p>カードや口座を作る前に、ポイントサイトに同じ案件が載っていないか見ておくといいわよ。経由するだけで、公式の特典とは別にポイントが付くことがあるの。</p>
+
+<div class="affiliate-block">
+<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+33XJA2+1LP8+CALN5" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/hapitas-300x250.jpg" alt="高還元率ポイントサイト【ハピタス】　無料会員登録プロモーション" width="300" height="250" loading="lazy"></a></div>
+</div>
 
 ## 📊 主要FX8社 早見表（USD/JPY基準・2026年5月）
 
@@ -233,6 +240,11 @@ references: ["https://fx.dmm.com/", "https://www.gaitame.com/", "https://min-fx.
 </div>
 
 ---
+
+<!-- a8-banners placed by banner-place (chobirich) -->
+<div class="affiliate-block">
+<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B43JB+C507KQ+389A+67RK1" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/chobirich-300x250.jpg" alt="ちょびリッチ" width="300" height="250" loading="lazy"></a></div>
+</div>
 
 ## 🎯 失敗しないFX始め方 5ステップ
 
