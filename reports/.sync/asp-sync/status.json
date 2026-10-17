@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-17T15:24:20.932Z",
+  "generated": "2026-10-17T15:34:11.341Z",
   "providers": {
     "vc": {
       "name": "バリューコマース",
@@ -9,7 +9,7 @@
       "reason": "",
       "url": "https://aff.valuecommerce.ne.jp/home",
       "title": "ダッシュボード | アフィリエイト管理画面",
-      "menus": 15
+      "menus": 16
     }
   }
 }

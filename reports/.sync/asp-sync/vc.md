@@ -1,6 +1,6 @@
 # バリューコマース（asp-sync）
 
-生成: **2026-10-17T15:24:20.932Z**
+生成: **2026-10-17T15:34:11.341Z**
 
 - ログイン: **できている**
 - 最終 URL: https://aff.valuecommerce.ne.jp/home
@@ -13,6 +13,7 @@
 | リンク切れ広告 | https://aff.valuecommerce.ne.jp/ad/adFlightList/external?sortData=adCount&sortOrder=asc |
 | LinkSwitch | https://aff.valuecommerce.ne.jp/home# |
 | LinkSwitch設定 | https://aff.valuecommerce.ne.jp/ad/AutoMyLink/rd |
+| 提携候補先 | https://aff.valuecommerce.ne.jp/report/autoMyLink/candidate |
 | MyLink一括変換 | https://aff.valuecommerce.ne.jp/tools/mylinkEcList |
 | サイト設定 | https://aff.valuecommerce.ne.jp/account/siteManage |
 | 世界最大級！ツアーアクティビティの検索サイト「Liigo」販促プログラム | https://aff.valuecommerce.ne.jp/ad/adDetail/2161122?tag=cm&spot=d |
@@ -26,14 +27,13 @@
 | 旅行サイト「Yahoo!トラベル」 | https://aff.valuecommerce.ne.jp/ad/adDetail/2026983 |
 | アフィリエイトサイト運営者利用規約 | http://www.valuecommerce.ne.jp/st_affiliate/terms.html |
 
-## 入口の行
+## 「提携候補先」の行
 
 ```text
 ログアウト
 人気ワード：
-楽天モバイル|
-ハンズ|
-ビズリーチ
+ワイモバイル|
+くまポン
 ダッシュボード
 レポート
 詳細検索
@@ -49,8 +49,10 @@ LinkSwitch
 Webサービス
 作成済み広告
 リンク切れ広告
-LinkSwitch LinkSwitch設定
+LinkSwitch LinkSwitch設定 ブロック設定 提携候補先
 LinkSwitch設定
+ブロック設定
+提携候補先
 MyLinkBox 新規作成
 新規作成
 MyLink一括変換
@@ -60,43 +62,9 @@ ITPタグ
 Chrome拡張機能
 メッセージ 1
 自己アフィリエイト
-Daily Hack あんたバカぁ?まだ損してるの?
-すべて選択
 Daily Hack あんたバカぁ?まだ損してるの? （ID:3776384）
-クリック
-管理画面ログイン 二要素認証機能リリースのお知らせ
-【重要】アフィリエイト管理画面システムメンテナンスのお知らせ（10月21日）
-【事前周知】管理画面ログイン 二要素認証機能リリースのお知らせ
-【重要】行動履歴情報保護方針改定のお知らせ
-ショッピング・オークション
-ファッション・アクセサリー
-PC・家電・ソフト
-エンターテインメント
-美容・エステ・コスメ
-飲食・グルメ
-就職・転職・アルバイト
-住まい・暮らし
-健康・ダイエット・医療
-学び・教育・学校
-動物・ペット
-スポーツ・アウトドア
-BtoB・Webサービス
-ギフト・花
-自動車・バイク
-オフィス用品・ステーショナリー
-結婚・ブライダル
-ポイント・懸賞
-企業・団体
-ベビー・キッズ・マタニティ
-デジタルコンテンツ
-アダルト・出会い・ギャンブル
-ランカミー｜スリランカタクシーチャーター予約 旅行即時提携
-【ベルーナ】みんなの酒屋 販売プログラム 飲食・グルメ審査あり
-ファッションレンタルサービス「AnotherADdress（アナザーアドレス）」 ショッピング・オークション即時提携
-エイジングケアならオルビスユー
-国内最大規模の宿泊施設が予約可能！
-類を見ない豊富な商品ラインナップをご用意。
-旅行サイト「Yahoo!トラベル」
+LinkSwitch提携候補先
+レポート期間： 2026/09/16 ～ 2026/10/17
 管理画面ガイド
 ステップアップガイド
 イベント・セミナー情報
