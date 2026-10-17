@@ -23,7 +23,7 @@ references:
   <div class="hakkako-quote">先に核心。<strong>①1ショップ1,000円以上で最大10倍、買い回り特典の上限は7,000pt②必ずエントリー、もらえるのは"期間限定ポイント"で翌月末に失効③5と0のつく日を重ねる④【重要】2025年10月改正でふるさと納税は買い回り・SPUの対象外に</strong>。この4つだけで大半の取りこぼしは防げる。</div>
 </div>
 
-<p class="source-note">直近の開催回は2026年7月19日20:00〜7月26日1:59でした（終了）。開催期間・倍率・上限は回ごとに変わるため、次回参加時は必ず<a href="https://event.rakuten.co.jp/campaign/point-up/marathon/">楽天公式のマラソンページ</a>で最新を確認してください。以下は通年で使える基本仕様です（2026年7月時点）。</p>
+<p class="source-note">直近の開催回は2026年7月19日20:00〜7月26日1:59でした（終了）。開催期間・倍率・上限は回ごとに変わるため、次回参加時は必ず<a href="https://hb.afl.rakuten.co.jp/hgc/587f2635.77bb335f.587f2636.e34c8733/?pc=https%3A%2F%2Fevent.rakuten.co.jp%2Fcampaign%2Fpoint-up%2Fmarathon%2F&m=https%3A%2F%2Fevent.rakuten.co.jp%2Fcampaign%2Fpoint-up%2Fmarathon%2F" rel="sponsored noopener nofollow">楽天公式のマラソンページ</a>で最新を確認してください。以下は通年で使える基本仕様です（2026年7月時点）。</p>
 
 ## 買い回りルールの基本
 
@@ -40,7 +40,7 @@ references:
 - 買い回り特典は**期間限定ポイント**。付与は**キャンペーン終了の翌月15日頃**、有効期限は**付与月の翌月末まで**＝短命。**もらったら早めに使い切る**こと。
 - 通常ポイントは購入の約20日後付与・1年有効。
 
-<p class="source-note">出典: <a href="https://event.rakuten.co.jp/campaign/point-up/marathon/guide/">楽天公式 お買い物マラソン ガイド</a>。上限・付与/失効時期は回により変動、参加前に公式で最終確認を。</p>
+<p class="source-note">出典: <a href="https://hb.afl.rakuten.co.jp/hgc/587f2635.77bb335f.587f2636.e34c8733/?pc=https%3A%2F%2Fevent.rakuten.co.jp%2Fcampaign%2Fpoint-up%2Fmarathon%2Fguide%2F&m=https%3A%2F%2Fevent.rakuten.co.jp%2Fcampaign%2Fpoint-up%2Fmarathon%2Fguide%2F" rel="sponsored noopener nofollow">楽天公式 お買い物マラソン ガイド</a>。上限・付与/失効時期は回により変動、参加前に公式で最終確認を。</p>
 
 ## 併用テクで倍率を積む
 

@@ -31,6 +31,26 @@ export const PLAN = {
   'harumi-flag-koukai-2026': ['softbank-air', 'docomo-hikari', 'au-hikari'],
   'point-kaiaku-timeline-2026': ['hapitas', 'chobirich'],
   'qr-payment-comparison-2026': ['hapitas', 'chobirich'],
+  // 2026-10-17: 成果リンクが 0 本だった記事のうち、主題に合う提携先があるもの（利用者「0 本の 43 記事に入れる」）
+  'summer-electricity-saving-2026': ['denki-choice', 'enepi-denki'],
+  'narita-haneda-overseas-direct-2026': ['trifa-esim', 'sakura-mobile-kaigai', 'kkday'],
+  'his-clearance-sale-2026-jun': ['trifa-esim', 'sakura-mobile-kaigai', 'kkday'],
+  'credit-card-no-annual-fee-comparison-2026': ['hapitas', 'chobirich'],
+  'credit-card-campaign-2026-07': ['hapitas', 'chobirich'],
+  'paypay-card-gold-kaiaku-2026': ['hapitas', 'chobirich'],
+  'may-2026-bank-campaigns-roundup': ['hapitas', 'chobirich'],
+  'best-online-banks-2026': ['hapitas', 'chobirich'],
+  'poikatsu-tax-guide-2026': ['hapitas', 'chobirich'],
+  'poikatsu-hourly-wage-2026': ['hapitas', 'chobirich'],
+  'nisa-investment-beginner-guide-2026': ['hapitas', 'chobirich'],
+  'fx-account-comparison-2026': ['hapitas', 'chobirich'],
+};
+
+// バナーの前に置く一文（案件の種類ごと）。バナーだけを置くと、なぜそこにあるのかが読者に分からない
+const LEAD = {
+  hapitas: 'カードや口座を作る前に、ポイントサイトに同じ案件が載っていないか見ておくといいわよ。経由するだけで、公式の特典とは別にポイントが付くことがあるの。',
+  'denki-choice': '料金プランの見直しは、比較サイトで郵便番号と使用量を入れてまとめて見るのが早いわよ。',
+  'trifa-esim': '海外に行くなら、現地の通信と現地ツアーも出発前に押さえておくと着いてから慌てないわよ。',
 };
 
 const byId = Object.fromEntries(BANNER_ENTRIES.map((b) => [b.id, b]));
@@ -52,7 +72,8 @@ for (const [slug, ids] of Object.entries(PLAN)) {
   const buckets = uniq.map(() => []); ids.forEach((id, i) => buckets[Math.min(i, uniq.length - 1)].push(id));
   for (let i = uniq.length - 1; i >= 0; i--) {
     if (!buckets[i].length) continue;
-    const block = `\n<!-- a8-banners placed by banner-place (${buckets[i].join(',')}) -->\n<div class="affiliate-block">\n${buckets[i].map((id) => renderBannerHtml(byId[id])).join('\n')}\n</div>\n\n`;
+    const lead = i === 0 && LEAD[ids[0]] ? `<p>${LEAD[ids[0]]}</p>\n\n` : '';
+    const block = `\n<!-- a8-banners placed by banner-place (${buckets[i].join(',')}) -->\n${lead}<div class="affiliate-block">\n${buckets[i].map((id) => renderBannerHtml(byId[id])).join('\n')}\n</div>\n\n`;
     body = body.slice(0, uniq[i]) + block + body.slice(uniq[i]);
   }
   let fm2 = /^isPR:/m.test(fm) ? fm.replace(/^isPR:.*$/m, 'isPR: true') : fm.replace(/\n---\n$/, '\nisPR: true\n---\n');

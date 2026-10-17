@@ -4,7 +4,7 @@ description: "成田(NRT)と羽田(HND)、それぞれから直行便でどこ�
 publishDate: 2026-07-19
 category: ["howto"]
 tags: ["成田空港", "羽田空港", "JAL", "ANA", "国際線", "直行便", "海外旅行", "就航都市"]
-isPR: false
+isPR: true
 draft: false
 featured: true
 eyecatchUrl: "/images/narita-haneda-overseas-direct-2026/eyecatch.jpg"
@@ -42,6 +42,13 @@ references:
 </ul>
 
 <p class="source-note">※最終確定は各社の予約サイト・国際線時刻表で日付を指定して確認するのが確実です。季節運航・臨時運休・機材変更があります。</p>
+
+<!-- a8-banners placed by banner-place (trifa-esim) -->
+<p>海外に行くなら、現地の通信と現地ツアーも出発前に押さえておくと着いてから慌てないわよ。</p>
+
+<div class="affiliate-block">
+<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+34IYVU+5UDW+5ZMCH" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/trifa-esim-300x250.jpg" alt="国内eSIMアプリNo1！海外旅行通信の新定番【トリファ（trifa）】" width="300" height="250" loading="lazy"></a></div>
+</div>
 
 ## ✈️ 羽田（HND）発の直行便一覧｜行ける国・都市
 
@@ -129,6 +136,11 @@ references:
   <div class="hakkako-quote">SNSでも話題だけど、<strong>「国の数」だけ見ると成田の凄さは伝わりにくい</strong>のよね。実際は<strong>“就航都市数”“便数”“国際線利用者数”で成田が圧倒的</strong>（この記事はJAL/ANAの直行就航先に絞ってるから、他社・LCC込みの全体像はさらに成田が大きい）。「どの国へ行けるか」より「どの都市へ、どれだけ飛んでるか」で見るのがツウよ。</div>
 </div>
 
+<!-- a8-banners placed by banner-place (sakura-mobile-kaigai) -->
+<div class="affiliate-block">
+<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B43JB+BOXI8Q+3Z3Y+BZ8OX" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/sakura-mobile-kaigai-300x250.jpg" alt="SakuraMobile海外Wifi" width="300" height="250" loading="lazy"></a></div>
+</div>
+
 ## 📱 Xでも話題｜"直行便で行ける都市"の可視化
 
 この「国の数より都市の数」って話、実はXでめちゃくちゃバズってたの。話題の起点になった投稿を、アタシの補足つきで紹介するわね。
@@ -197,6 +209,12 @@ references:
     </tbody>
   </table>
 </div>
+
+<!-- a8-banners placed by banner-place (kkday) -->
+<div class="affiliate-block">
+<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B43JB+BX9KPM+52F8+5ZMCH" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/kkday-300x250.jpg" alt="KKday 海外旅行オプショナルツアー" width="300" height="250" loading="lazy"></a></div>
+</div>
+
 ## まとめ — “どの都市へ、どこの空港から”を公式で押さえる
 
 - **欧州主要都市はいまや羽田発が中心**、成田発の欧州直行は限定的

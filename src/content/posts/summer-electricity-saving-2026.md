@@ -4,7 +4,7 @@ description: "猛暑の電気代を、環境省・資源エネルギー庁・メ
 publishDate: 2026-07-26
 category: ["howto"]
 tags: ["電気代", "節電", "エアコン", "猛暑", "節約", "電気料金", "2026年"]
-isPR: false
+isPR: true
 draft: false
 featured: true
 eyecatchUrl: "/images/summer-electricity-saving-2026/eyecatch.jpg"
@@ -39,6 +39,13 @@ references:
 
 <p class="source-note">出典: <a href="https://www.enecho.meti.go.jp/category/saving_and_new/saving/general/howto/airconditioning/index.html">資源エネルギー庁 省エネポータル</a>／<a href="https://ondankataisaku.env.go.jp/coolchoice/setsuden/home/saving03.html">環境省 COOL CHOICE</a>／<a href="https://www.daikin.co.jp/air/life/electricitysaving">ダイキン工業</a>。節約額は上記前提条件・電力単価に依存する目安。2026年7月時点。</p>
 
+<!-- a8-banners placed by banner-place (denki-choice) -->
+<p>料金プランの見直しは、比較サイトで郵便番号と使用量を入れてまとめて見るのが早いわよ。</p>
+
+<div class="affiliate-block">
+<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+15ODWA+3SPO+TU8U9" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/denki-choice-300x250.jpg" alt="当サイト限定　最大30000円現金キャッシュバック！【電気チョイス】" width="300" height="250" loading="lazy"></a></div>
+</div>
+
 ## 料金プランの見直し（当たれば大きいが注意も）
 
 - **市場連動型プラン**：電力市場価格が安い時は得だが、**夏冬のピークに料金が高騰するリスク**（過去に通常の数倍〜十数倍の請求例）。安易な乗り換えは禁物。
@@ -46,6 +53,11 @@ references:
 - **見直しのコツ**：契約アンペア・使用量・在宅時間帯を把握し、固定単価型か市場連動型かを選ぶ。切替時は解約金・最低利用期間・燃料費調整の上限有無を確認。
 
 <p class="source-note">市場連動型の高騰リスクは公的にも注意喚起あり。プラン比較は各比較サイト・電力会社公式で、燃料費調整や上限の有無まで確認を。固定費全体の見直しは <a href="/posts/fixed-cost-reduction-guide-2026/">固定費削減 完全ガイド</a> も参照。</p>
+
+<!-- a8-banners placed by banner-place (enepi-denki) -->
+<div class="affiliate-block">
+<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+25ZTSQ+2W92+1NJZN5" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/enepi-denki-300x250.jpg" alt="東証プライム上場！一番安い電気料金で契約するなら【エネピ】" width="300" height="250" loading="lazy"></a></div>
+</div>
 
 ## 2026年夏の電気・ガス値引き（申請不要・8月が最大）
 
