@@ -4,7 +4,7 @@ description: "都心で安いスーパー7社を決算資料で分解した。�
 publishDate: 2026-09-06
 category: ["comparisons", "roundups"]
 tags: ["格安スーパー", "オーケー", "ロピア", "トライアル", "業務スーパー", "まいばすけっと", "肉のハナマサ", "ドン・キホーテ", "西友", "節約", "2026年版"]
-isPR: false
+isPR: true
 draft: false
 eyecatchUrl: "/images/tokyo-discount-supermarket-2026/eyecatch.jpg"
 eyecatchAlt: "都心の格安スーパー 2026｜主要7社を徹底分析して見えた勢力図"
@@ -640,6 +640,14 @@ references:
 <tr><td><strong>レジ待ちを避けたい</strong></td><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/tokyo-discount-supermarket-2026/logos/trialseiyu.png" alt="" loading="lazy" /><a href="https://www.trial-net.co.jp/" target="_blank" rel="noopener">トライアル西友</a></span></td><td>スキップカートでレジを通らずに出られる</td></tr>
 </tbody>
 </table>
+</div>
+
+<!-- a8-banners placed by hand 2026-10-17 -->
+<p>米や飲み物みたいな重い物は、店まで運ばずにネットスーパーで届けてもらう手もあるわよ。</p>
+
+<div class="affiliate-block">
+<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4BEIPG+8MSBBU+4Z4W+BXB8X" target="_blank" rel="sponsored noopener nofollow"><img src="https://www26.a8.net/svt/bgt?aid=261017908522&wid=002&eno=01&mid=s00000023216002003000&mc=1" alt="イトーヨーカドーネットスーパー IYNSbyONIGO" width="300" height="250" loading="lazy"></a><img src="https://www14.a8.net/0.gif?a8mat=4BEIPG+8MSBBU+4Z4W+BXB8X" width="1" height="1" alt="" loading="lazy"></div>
+<p class="affiliate-text"><a href="https://px.a8.net/svt/ejp?a8mat=4BEIPG+8MSBBU+4Z4W+BX3J6" target="_blank" rel="sponsored noopener nofollow">イトーヨーカドーの商品を最短70分で【IYNSbyONIGO】</a></p>
 </div>
 
 <div class="section-with-mascot">
