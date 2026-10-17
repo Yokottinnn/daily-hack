@@ -448,6 +448,36 @@ try {
       lines.push(`- **送った後の一覧の行: 状態「${await status(id)}」・チェック欄 ${(await rowOf(id).locator('input[name=check_option]').count()) ? 'まだある' : '消えた'}**`, '');
     }
   }
+  if (WHICH === 'vcbulk') {
+    // **チェックだけして、一括提携ボタンの状態を読む（t303）。ボタンは押さない。最後にチェックを外す。**
+    // t302 でチェック 1 件にはなったが、ボタンが「見えて押せる」にならなかった
+    const kw = 'Yahoo!トラベル', id = 2026983;
+    await go(`https://aff.valuecommerce.ne.jp/ad/adList?${encodeURIComponent('ad_search_condition_form[keyword]')}=${encodeURIComponent(kw)}&${encodeURIComponent('ad_search_condition_form[appStatus]')}=`);
+    const dump = (label) => p.evaluate(([label, id]) => {
+      const st = (e) => { const r = e.getBoundingClientRect(); const cs = getComputedStyle(e); return `${Math.round(r.width)}x${Math.round(r.height)}@${Math.round(r.top)} disp=${cs.display} vis=${cs.visibility} op=${cs.opacity} disabled=${e.disabled}`; };
+      const chain = (e) => { const out = []; for (let x = e.parentElement, i = 0; x && i < 6; x = x.parentElement, i++) { const cs = getComputedStyle(x); out.push(`${x.tagName.toLowerCase()}.${(x.className || '').toString().slice(0, 30)}[${cs.display}${cs.visibility === 'hidden' ? ',hidden' : ''}]`); } return out.join(' < '); };
+      const row = [...document.querySelectorAll('div.result-elm')].find((r) => r.querySelector(`a[href*="adDetail/${id}"]`));
+      const cbs = row ? [...row.querySelectorAll('input[name=check_option]')] : [];
+      return [`### ${label}`,
+        `- 行のチェック欄 ${cbs.length} 個: ${cbs.map((c) => `checked=${c.checked} ${st(c)} html=${c.outerHTML.replace(/\s+/g, ' ').slice(0, 160)} 親=${c.parentElement?.outerHTML.replace(/\s+/g, ' ').slice(0, 200)}`).join(' ／ ')}`,
+        `- ページ全体のチェック済み: ${document.querySelectorAll('input[name=check_option]:checked').length}`,
+        ...[...document.querySelectorAll('button')].filter((b) => /一括提携/.test(b.innerText)).map((b) => `- ボタン: ${st(b)} html=${b.outerHTML.replace(/\s+/g, ' ').slice(0, 200)}\n  - 親: ${chain(b)}`)];
+    }, [label, id]);
+    lines.push(...(await dump('チェック前')));
+    const cb = p.locator('div.result-elm').filter({ has: p.locator(`a[href*="adDetail/${id}"]`) }).first().locator('input[name=check_option]').first();
+    const visible = await cb.isVisible().catch(() => false);
+    lines.push(`- チェック欄は見えている: ${visible}`);
+    // 見えていれば普通にクリック、見えていなければラベル（親）をクリック
+    if (visible) await cb.click({ timeout: 5000 }).catch((e) => lines.push(`- ⚠️ ${String(e).split('\n')[0]}`));
+    else await cb.locator('xpath=..').click({ timeout: 5000 }).catch((e) => lines.push(`- ⚠️ 親を押せない: ${String(e).split('\n')[0]}`));
+    await p.waitForTimeout(1500);
+    lines.push(...(await dump('チェック後')));
+    await p.evaluate(() => window.scrollTo(0, document.body.scrollHeight)); await p.waitForTimeout(800);
+    lines.push(...(await dump('一番下まで送った後')));
+    // 元に戻す
+    if (await cb.isChecked().catch(() => false)) { if (visible) await cb.click().catch(() => {}); else await cb.locator('xpath=..').click().catch(() => {}); }
+    lines.push(`- 最後: チェックを外した（checked=${await cb.isChecked().catch(() => '?')}）`, '');
+  }
   if (WHICH === 'vcrow') {
     // **読むだけ（t301）。押さない・チェックしない。** t291 は行を辿るときに検索欄ごと掴み、状態が「未提携・再申請可・…」と
     // 絞り込みの選択肢を全部拾っていた。一覧の本当の行・チェック欄・ボタンの在りかを取る
