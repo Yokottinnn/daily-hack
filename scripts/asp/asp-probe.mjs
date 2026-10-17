@@ -472,6 +472,21 @@ try {
       lines.push(`- 広告リンクの画面: ${here()}（${(await p.title()).slice(0, 30)}）`, `- コード ${codes.length} 件`, ...codes.map((c) => '```html\n' + c + '\n```'), ...(ui.length ? ['- コードが無いときの画面の部品: ' + ui.filter((x) => !NG.test(x)).join(' / ')] : []), '');
     }
   }
+  if (WHICH === 'vcsite') {
+    // **読むだけ（t318）。** VC に登録したサイトの URL と、LinkSwitch のブロック設定・提携候補先の画面を読む（LinkSwitch が差し替えない理由を探す）
+    await go('https://aff.valuecommerce.ne.jp/account/site/3776384');
+    const d = await p.evaluate(() => (document.querySelector('main, .main-content, #contents') || document.body).innerText.split('\n').map((x) => x.trim()).filter((x) => /https?:\/\/|URL|サイト|審査|状態|カテゴリ/.test(x)).slice(0, 25).map((x) => x.slice(0, 120)));
+    lines.push(`## 登録サイト（${here()}）`, ...d.filter((x) => !NG.test(x)).map((x) => `- ${x}`), '');
+    for (const [label, re] of [['ブロック設定', /LinkSwitchのブロック設定/], ['提携候補先', /^提携候補先$/]]) {
+      await go('https://aff.valuecommerce.ne.jp/ad/AutoMyLink/getTag');
+      const ls = await links(re);
+      const t = ls.find(([, h]) => /^https?:/.test(h));
+      if (!t) { lines.push(`## ${label}: リンクが見つからない`, ''); continue; }
+      await go(t[1]);
+      const rows = await p.evaluate(() => (document.querySelector('main, .main-content, #contents') || document.body).innerText.split('\n').map((x) => x.trim()).filter(Boolean).slice(0, 60).map((x) => x.slice(0, 100)));
+      lines.push(`## ${label}（${here()}）`, ...rows.filter((x) => !NG.test(x)).map((x) => `- ${x}`), '');
+    }
+  }
   if (WHICH === 'vclsget') {
     // **LinkSwitch のタグを取る（t316）。利用者が 2026-10-17 に「PR 記事だけ・自動提携も許す」を選んだ。**
     // タグ取得確認画面で、開始のボタンが 1 つに決まるときだけ押す。サイトの選択欄があれば Daily Hack を選ぶ。押した後の画面のタグを読む
