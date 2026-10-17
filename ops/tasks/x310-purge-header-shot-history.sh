@@ -10,6 +10,7 @@ set -uo pipefail
 WT="${OPS_HEARTBEAT_WORKTREE:-$HOME/.openclaw/ops-heartbeat-wt}"
 BRANCH="${OPS_HEARTBEAT_BRANCH:-ops/heartbeat}"
 OUT="${OPS_REPORT_DIR:-/tmp}/purge-header-shot.md"
+TMPO="${TMPDIR:-/tmp}/x310-purge.md"   # **作業ツリーの外に書く**（書き換え中に worktree を汚さないため）
 BAD="d41e1918d6782f5c0f6b7616fbf4e9c8d3d790f0"
 F1="reports/x307-logo/rakuten-top-header.png"; F2="reports/x307-logo/rakuten-logo-el.png"
 {
@@ -20,6 +21,8 @@ if ! git cat-file -e "$BAD" 2>/dev/null; then echo "対象のコミットが手�
 before="$(git rev-list --all -- "$F1" "$F2" 2>/dev/null | wc -l | tr -d ' ')"
 echo "書き換え前: 画像を含むコミット $before 件 / HEAD $(git rev-parse --short HEAD)"
 if [ "$before" != "0" ] && git cat-file -e "$BAD" 2>/dev/null; then
+  # filter-branch は作業ツリーが汚れていると止まる。手前のタスクの報告などを先に commit しておく
+  git add -A && git commit -q -m "ops: x310 の前に退避" 2>/dev/null; true
   FILTER_BRANCH_SQUELCH_WARNING=1 git filter-branch -f --index-filter "git rm -q --cached --ignore-unmatch '$F1' '$F2'" -- "$BAD^..HEAD" 2>&1 | tail -3
   git for-each-ref --format='%(refname)' refs/original/ | while IFS= read -r r || [ -n "$r" ]; do git update-ref -d "$r"; done
   git reflog expire --expire=now --all 2>&1 | tail -1
@@ -32,5 +35,6 @@ echo '```'
 echo
 echo "- **GitHub 側には、書き換え前のコミット（d41e1918 など）が孤立した状態で残る。** SHA を知っていれば URL で開ける。完全に消すには GitHub のサポートに依頼が要る"
 echo "**LLM を呼んでいない（\$0／回・\$0／日・\$0／月）。**"
-} > "$OUT" 2>&1
+} > "$TMPO" 2>&1
+cp "$TMPO" "$OUT"
 echo "氏名の写った画像を ops/heartbeat の履歴から消した / $(basename "$OUT")"
