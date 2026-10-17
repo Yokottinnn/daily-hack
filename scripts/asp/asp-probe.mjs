@@ -455,7 +455,8 @@ try {
       const name = await p.evaluate(() => [...document.querySelectorAll('h1,h2,h3')].map((x) => x.innerText.replace(/\s+/g, ' ').trim()).filter((x) => x && !/プログラム詳細|広告リンク|提携/.test(x))[0] || '');
       const ls = await links(/広告リンク|素材|リンク作成|広告を作成/);
       lines.push(`### ${id} ${name}`, `- 詳細ページ: ${here()}`, ...ls.slice(0, 8).map(([t, h]) => `- リンク候補: ${t} → ${h.slice(0, 120)}`));
-      const target = ls.find(([, h]) => /^https?:/.test(h));
+      // t311 は「素材別」（レポート）を先に拾った。作成画面（create-link）を優先する
+      const target = ls.find(([, h]) => /create-link/.test(h)) || ls.find(([, h]) => /^https?:/.test(h));
       if (!target) { lines.push('- 広告リンクの画面へのリンクが見つからない', ''); continue; }
       await go(target[1]);
       const codes = await p.evaluate(() => {
@@ -467,7 +468,8 @@ try {
         if (!out.length) for (const a of document.querySelectorAll('a[href*="a8mat="]')) out.push(a.outerHTML.replace(/\s+/g, ' ').slice(0, 500));
         return [...new Set(out)].slice(0, 12);
       });
-      lines.push(`- 広告リンクの画面: ${here()}（${(await p.title()).slice(0, 30)}）`, `- コード ${codes.length} 件`, ...codes.map((c) => '```html\n' + c + '\n```'), '');
+      const ui = codes.length ? [] : await p.evaluate(() => [...document.querySelectorAll('select, button, a.btn, input[type=radio], input[type=submit]')].filter((e) => e.offsetWidth).map((e) => e.tagName === 'SELECT' ? `select[name=${e.name}]〔${[...e.options].map((o) => o.text.trim()).slice(0, 6).join('|')}〕` : `${e.tagName.toLowerCase()}「${(e.innerText || e.value || '').trim().slice(0, 30)}」`).slice(0, 25));
+      lines.push(`- 広告リンクの画面: ${here()}（${(await p.title()).slice(0, 30)}）`, `- コード ${codes.length} 件`, ...codes.map((c) => '```html\n' + c + '\n```'), ...(ui.length ? ['- コードが無いときの画面の部品: ' + ui.filter((x) => !NG.test(x)).join(' / ')] : []), '');
     }
   }
   if (WHICH === 'applyvc4') {
