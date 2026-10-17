@@ -7,11 +7,11 @@
     "fetched": "2026-10-17",
     "task": "ops/tasks/x312-campaign-banners.sh"
   },
-  "rakuten-marathon-kanban.png": {
-    "what": "楽天お買い物マラソンの看板画像（公式ページ上部）",
-    "source": "https://r.r10s.jp/evt/event/campaign/point-up/marathon/common/img/kanban/close_pc_kanban202602.png",
+  "rakuten-marathon-close-sp.png": {
+    "what": "楽天お買い物マラソンの看板画像（スマホ版・利用者の指定）",
+    "source": "https://r.r10s.jp/evt/event/campaign/point-up/marathon/common/img/kanban/close_sp_kanban202602.png",
     "page": "https://event.rakuten.co.jp/campaign/point-up/marathon/",
     "fetched": "2026-10-17",
-    "task": "ops/tasks/x313-marathon-banner.sh"
+    "note": "2026-10-17 に利用者が URL を指定して差し替え（前の PC 版看板から）"
   }
 }
