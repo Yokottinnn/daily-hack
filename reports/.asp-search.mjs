@@ -34,14 +34,20 @@ const loggedOut = async () => p.evaluate(() => !!document.querySelector('input[t
     await p.waitForTimeout(2500);
     if (await loggedOut()) { lines.push('**未ログイン。** asp-sync で入り直してから走らせる'); break; }
     const rows = await p.evaluate(() => {
-      const out = new Map();
+      const out = new Map(), names = new Map();
       for (const a of document.querySelectorAll('a[href*="programId="]')) {
         const id = (a.href.match(/programId=(s\d+)/) || [])[1];
-        if (!id || out.has(id)) continue;
+        if (!id) continue;
+        // 広告の名前：同じ ID へのリンクの文字・画像の alt のうち、いちばん長いもの（2026-10-17：表の箱だけ拾って名前が抜けていた）
+        for (const t of [a.innerText, ...[...a.querySelectorAll('img')].map((i) => i.alt)]) {
+          const v = (t || '').replace(/\s+/g, ' ').trim();
+          if (v && v.length < 120 && !/^(詳細|提携|プログラム詳細|広告リンク)/.test(v) && v.length > (names.get(id) || '').length) names.set(id, v);
+        }
+        if (out.has(id)) continue;
         let box = a; for (let i = 0; i < 6 && box.parentElement; i++) { box = box.parentElement; if (box.innerText && box.innerText.length > 60) break; }
         out.set(id, (box.innerText || '').replace(/\s+/g, ' ').trim().slice(0, 260));
       }
-      return [...out.entries()];
+      return [...out.entries()].map(([id, t]) => [id, (names.get(id) ? '【' + names.get(id) + '】 ' : '') + t]);
     });
     lines.push(`## 「${kw}」 ${rows.length} 件`, '');
     for (const [id, t] of rows.slice(0, 12)) if (!NG.test(t)) lines.push(`- \`${id}\` ${t.replace(/\|/g, '／')}`);

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-17T12:06:40.989Z",
+  "generated": "2026-10-17T12:12:22.727Z",
   "providers": {
     "a8": {
       "name": "A8.net",
@@ -7,80 +7,8 @@
       "needsHuman": false,
       "credentialsInKeychain": true,
       "reason": "",
-      "autoLoginTried": true,
       "url": "https://media-console.a8.net/program/list/partnered",
       "title": "参加中プログラム｜A8.netメディア管理画面",
-      "loginSteps": [
-        {
-          "label": "パスワードを打った直後",
-          "url": "https://media-console.a8.net/common/re-authentication",
-          "ins": [
-            "text:mediaLoginName=14文字",
-            "password:mediaLoginPassword=12文字"
-          ],
-          "msgs": [],
-          "btns": [
-            "a「ヘルプ」",
-            "a「お問い合わせ」",
-            "button「ログインする」",
-            "a「ログインID・パスワードをお忘れ」",
-            "a「こちら」",
-            "a「A8.net（リマインダー）から」",
-            "a「リマインダーの使い方がわかりませ」",
-            "button「TOP」",
-            "a「ヘルプ」",
-            "a「お問い合わせ」",
-            "a「利用規約」",
-            "a「不正行為と法律違反」"
-          ]
-        },
-        {
-          "label": "パスワードを送ったあと",
-          "url": "https://media-console.a8.net/program/list/partnered",
-          "ins": [
-            "search:keywords=0文字",
-            "search:searchFreeWord=0文字"
-          ],
-          "msgs": [],
-          "btns": [
-            "button「カテゴリ」",
-            "a「初めての方」",
-            "a「ヘルプ」",
-            "a「ログアウト」",
-            "a「ホーム」",
-            "a「プログラム検索」",
-            "a「プログラム管理」",
-            "a「レポート」",
-            "a「ツール」",
-            "a「登録情報」",
-            "a「セルフバック」",
-            "button「プログラムを検索」"
-          ]
-        },
-        {
-          "label": "さらに 4 秒後",
-          "url": "https://media-console.a8.net/program/list/partnered",
-          "ins": [
-            "search:keywords=0文字",
-            "search:searchFreeWord=0文字"
-          ],
-          "msgs": [],
-          "btns": [
-            "button「カテゴリ」",
-            "a「初めての方」",
-            "a「ヘルプ」",
-            "a「ログアウト」",
-            "a「ホーム」",
-            "a「プログラム検索」",
-            "a「プログラム管理」",
-            "a「レポート」",
-            "a「ツール」",
-            "a「登録情報」",
-            "a「セルフバック」",
-            "button「プログラムを検索」"
-          ]
-        }
-      ],
       "partnered": 69,
       "menus": 40
     },
@@ -90,92 +18,19 @@
       "needsHuman": false,
       "credentialsInKeychain": true,
       "reason": "",
-      "autoLoginTried": true,
       "url": "https://af.moshimo.com/af/shop/index",
       "title": "メディアオーナートップページ ｜ もしもアフィリエイト",
-      "loginSteps": [
-        {
-          "label": "パスワードを打った直後",
-          "url": "https://af.moshimo.com/af/shop/login",
-          "ins": [
-            "text:account=15文字",
-            "password:password=12文字",
-            "submit:login=4文字",
-            "submit:=0文字"
-          ],
-          "msgs": [],
-          "btns": [
-            "a「トップ」",
-            "a「運営会社」",
-            "a「はじめての方へ」",
-            "a「サービスの特徴」",
-            "a「よくある質問」",
-            "a「利用者インタビュー」",
-            "input「ログイン」",
-            "a「ID・パスワードを忘れた方はこち」",
-            "a「こちらからログインしてください。」",
-            "a「会員登録する（無料）」",
-            "a「はじめての方へ」",
-            "a「サービスの特徴」"
-          ]
-        },
-        {
-          "label": "パスワードを送ったあと",
-          "url": "https://af.moshimo.com/af/shop/index",
-          "ins": [
-            "text:words=0文字",
-            "submit:=0文字"
-          ],
-          "msgs": [],
-          "btns": [
-            "a「もしもキャッシュバック」",
-            "a「プロモーション検索」",
-            "a「新着」",
-            "a「おすすめ」",
-            "a「SNS・YouTube注力」",
-            "a「本人申込OK」",
-            "a「ショッピング」",
-            "a「暮らし・住まい」",
-            "a「エンタメ・ホビー」",
-            "a「働く・学ぶ」",
-            "a「ビジネス」",
-            "a「健康・スポーツ」"
-          ]
-        },
-        {
-          "label": "さらに 4 秒後",
-          "url": "https://af.moshimo.com/af/shop/index",
-          "ins": [
-            "text:words=0文字",
-            "submit:=0文字"
-          ],
-          "msgs": [],
-          "btns": [
-            "a「もしもキャッシュバック」",
-            "a「プロモーション検索」",
-            "a「新着」",
-            "a「おすすめ」",
-            "a「SNS・YouTube注力」",
-            "a「本人申込OK」",
-            "a「ショッピング」",
-            "a「暮らし・住まい」",
-            "a「エンタメ・ホビー」",
-            "a「働く・学ぶ」",
-            "a「ビジネス」",
-            "a「健康・スポーツ」"
-          ]
-        }
-      ],
       "menus": 9
     },
     "vc": {
       "name": "バリューコマース",
-      "loggedIn": false,
-      "needsHuman": true,
+      "loggedIn": true,
+      "needsHuman": false,
       "credentialsInKeychain": true,
-      "reason": "二段階認証・画像認証が出た。利用者が 1 回 通す必要がある",
-      "url": "https://aff.valuecommerce.ne.jp/mfa/promotion",
-      "title": "セキュリティを強化しましょう"
+      "reason": "",
+      "url": "https://aff.valuecommerce.ne.jp/home",
+      "title": "ダッシュボード | アフィリエイト管理画面",
+      "menus": 15
     }
   }
 }
