@@ -4,7 +4,7 @@ description: "Netflix・U-NEXT・Amazon Prime Video・Disney+・Hulu・DAZNを�
 publishDate: 2026-06-03
 category: ["comparisons", "howto"]
 tags: ["動画配信サービス", "VOD", "Netflix", "U-NEXT", "Amazonプライムビデオ", "Disney+", "Hulu", "DAZN", "サブスク", "比較"]
-isPR: false
+isPR: true
 draft: false
 featured: false
 eyecatchUrl: "/images/video-subscription-cost-per-view-2026/eyecatch.jpg"
@@ -161,6 +161,14 @@ references:
   <div class="hakkako-quote">サブスクの固定費は「ポイ活」の主戦場でもあるの。決済を高還元カードに寄せるだけで実質単価がさらに下がる。やってない人は <a href="/posts/credit-card-no-annual-fee-comparison-2026/">クレカ比較記事</a> も読んでおきなさい。</div>
 </div>
 
+<!-- a8-banners placed by hand 2026-10-17 -->
+<p>6社には入れていないけど、ニュース・アニメ・オリジナル番組が中心なら ABEMA プレミアムも候補よ。これも観た本数で割って比べなさい。</p>
+
+<div class="affiliate-block">
+<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4BEIPG+7284UY+4EKC+63OY9" target="_blank" rel="sponsored noopener nofollow"><img src="https://www26.a8.net/svt/bgt?aid=261017908427&wid=002&eno=01&mid=s00000020550001025000&mc=1" alt="ABEMAプレミアム" width="300" height="250" loading="lazy"></a><img src="https://www15.a8.net/0.gif?a8mat=4BEIPG+7284UY+4EKC+63OY9" width="1" height="1" alt="" loading="lazy"></div>
+<p class="affiliate-text"><a href="https://px.a8.net/svt/ejp?a8mat=4BEIPG+7284UY+4EKC+5YRHE" target="_blank" rel="sponsored noopener nofollow">ABEMAの公式サイトはこちらから</a></p>
+</div>
+
 ## まとめ: 月額じゃなく「1本単価」で選べ
 
 長々書いたけど、覚えてほしいのはこれだけよ。
@@ -175,5 +183,3 @@ references:
 「なんとなく契約して、なんとなく払い続けてる」サブスク、今いくつある？ それ全部、実質1本単価を一度計算してみなさい。たぶん何個かは即解約案件よ。**月額の額面に騙されるな、分母を見ろ**。それが今日アタシが言いたかったことの全部 ⏰
 
 > 📢 **おことわり**: 本記事の料金・プラン・配信内容は2026年6月時点の概算・税込目安であり、各サービスの公式情報を必ずご確認ください。プラン改定・キャンペーンの有無は時期により変動します。「実質1本単価」は本記事独自の考え方による試算であり、各社が公表する指標ではありません。
-
-<!-- a8-banners: none — 主題と合う提携案件が無い（2026-10-03）。banner-fill はこの記事を飛ばす -->
