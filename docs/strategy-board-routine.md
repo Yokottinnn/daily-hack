@@ -1,6 +1,8 @@
-# 収益化作戦室の週次ルーティン（毎週月曜 8:47 JST・クラウドの Claude）
+# 収益化作戦室の毎日のルーティン（毎日 8:47 JST・クラウドの Claude）
 
-> ルーティン: **`trig_01WMknScGeKRavSVE8Nckaun`**。**このルーティンは、作ったセッション（daily-hack-blog2 の会話 `session_01RqPaqffepEWsiAkvhJEvmW`）に毎週戻ってくる。**
+> **2026-10-17 に週 1（月曜）から毎日に変えた**（利用者「変わらないのであれば毎日更新にして」）。Console 課金は $0 のまま。
+
+> ルーティン: **`trig_01WMknScGeKRavSVE8Nckaun`**。**このルーティンは、作ったセッション（daily-hack-blog2 の会話 `session_01RqPaqffepEWsiAkvhJEvmW`）に毎日戻ってくる。**
 > そのセッションはリポジトリへの書き込み権限を持っているので、push・PR・マージまで通る。
 >
 > **毎回新しいセッションを作る方式は使えない（2026-10-12 に 3 回試して全部失敗）。**
@@ -15,14 +17,14 @@
 > コンテンツが変更されていく仕組みを」「その場しのぎのタスクとして行わず、中長期的にこのウェブサイトを用いて
 > ブログの成長戦略を考えていく前提で」
 
-## 全体の流れ（毎週）
+## 全体の流れ（毎日）
 
 | いつ | どこで | 何をする | 出力 |
 | --- | --- | --- | --- |
 | 毎日 | GitHub Actions | Cloudflare の訪問を積む | `ops/pv-archive` の `data/<YYYY-MM>.json` |
-| 月曜 6:12 | Mac `com.dailyhack.asp-sync` | 4 社に自動ログインし提携状況を読む | `ops/heartbeat` の `reports/asp-sync/status.json` |
-| 月曜 6:40 | Mac `com.dailyhack.board-weekly`（`scripts/strategy-board/mac-weekly.sh`） | GSC 直近 28 日／前の 28 日／90 日、A8 の提携一覧 | `ops/heartbeat` の `reports/board/` |
-| 月曜 8:47 | クラウドのルーティン（このファイルの手順） | スナップショット → サイトの db → コメント返信 → 本文の書き換え → 更新履歴 | サイトと PR |
+| 毎日 6:12 | Mac `com.dailyhack.asp-sync` | 4 社に自動ログインし提携状況を読む | `ops/heartbeat` の `reports/asp-sync/status.json` |
+| 毎日 6:40 | Mac `com.dailyhack.board-weekly`（`scripts/strategy-board/mac-weekly.sh`） | GSC 直近 28 日／前の 28 日／90 日、A8 の提携一覧 | `ops/heartbeat` の `reports/board/` |
+| 毎日 8:47 | クラウドのルーティン（このファイルの手順） | スナップショット（記事ごとの成果リンクの一覧 `affInventory` を含む） → サイトの db → コメント返信 → 本文の書き換え → 更新履歴 | サイトと PR |
 
 **費用**: Mac 側は LLM 不使用で **$0／回・$0／日・$0／月**。クラウドのルーティンは
 サブスクリプション枠のセッションで、**Console 課金は $0**（API キーを使わない）。

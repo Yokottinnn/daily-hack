@@ -14,6 +14,7 @@
 //                          ops/data/board/manual.json（審査中の申請など、データから取れない事実）
 //
 // **数字に無いことは書かない。** 所見は下の RULES の条件に当たったものだけ。推測で埋めない（最上位ルール 11・20）。
+import { buildInventory } from './aff-inventory.mjs';
 import { execFileSync } from 'node:child_process';
 import fs from 'node:fs';
 import path from 'node:path';
@@ -276,6 +277,8 @@ const snapshot = {
   },
   gscWeekly, topPages, queries, readTop, articles, pvMeta, xShared, monthly: monthlyRows, blog, others, xData,
   a8: a8 ? { total: a8.total, rows: a8Rows } : null,
+  // 記事ごとの成果リンクの一覧（2026-10-17・利用者の指示）
+  affInventory: buildInventory(),
   manual,
   findings,
 };
