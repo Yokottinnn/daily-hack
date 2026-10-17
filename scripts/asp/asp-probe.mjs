@@ -472,6 +472,18 @@ try {
       lines.push(`- 広告リンクの画面: ${here()}（${(await p.title()).slice(0, 30)}）`, `- コード ${codes.length} 件`, ...codes.map((c) => '```html\n' + c + '\n```'), ...(ui.length ? ['- コードが無いときの画面の部品: ' + ui.filter((x) => !NG.test(x)).join(' / ')] : []), '');
     }
   }
+  if (WHICH === 'vcls') {
+    // **読むだけ（t315）。** LinkSwitch の設定画面（一覧の行の「設定」リンク /ad/AutoMyLink/rd）を開き、タグと設定の状態を読む。押さない
+    const vis = (e) => { const r = e.getBoundingClientRect(); const cs = getComputedStyle(e); return r.width > 0 && r.height > 0 && cs.visibility !== 'hidden' && cs.display !== 'none'; };
+    await go('https://aff.valuecommerce.ne.jp/ad/AutoMyLink/rd');
+    const d = await p.evaluate((visSrc) => { const vis = eval(visSrc);
+      const codes = [...document.querySelectorAll('textarea, pre, code, input[type=text]')].map((e) => (e.value || e.textContent || '').trim()).filter((v) => /valuecommerce|vc_pid|vcdal|linkswitch/i.test(v)).map((v) => v.replace(/\s+/g, ' ').slice(0, 900));
+      const head = [...document.querySelectorAll('h1,h2,h3,h4')].map((x) => x.innerText.replace(/\s+/g, ' ').trim()).filter(Boolean).slice(0, 12);
+      const ctrls = [...document.querySelectorAll('input[type=radio], input[type=checkbox], select, button, a.btn')].filter(vis).map((e) => e.tagName === 'SELECT' ? `select[name=${e.name}]〔${[...e.options].map((o) => (o.selected ? '✔' : '') + o.text.trim()).slice(0, 6).join('|')}〕` : e.type === 'radio' || e.type === 'checkbox' ? `${e.type}:${e.name}=${e.value}${e.checked ? '✔' : ''}「${(e.closest('label,li,tr,div')?.innerText || '').replace(/\s+/g, ' ').trim().slice(0, 40)}」` : `${e.tagName.toLowerCase()}「${(e.innerText || e.value || '').trim().slice(0, 30)}」`).slice(0, 30);
+      const txt = (document.querySelector('main, .main-content, #contents') || document.body).innerText.split('\n').map((x) => x.trim()).filter((x) => /LinkSwitch|設定|有効|無効|タグ|サイト|対象/.test(x)).slice(0, 25).map((x) => x.slice(0, 100));
+      return { url: location.href, title: document.title, codes, head, ctrls, txt }; }, vis.toString());
+    lines.push(`- 画面: ${d.url}（${d.title.slice(0, 40)}）`, `- 見出し: ${d.head.join(' ／ ')}`, `- タグらしいもの ${d.codes.length} 件`, ...d.codes.map((c) => '```html\n' + c + '\n```'), '- 設定の部品:', ...d.ctrls.filter((x) => !NG.test(x)).map((x) => `  - ${x}`), '- 関係する行:', ...d.txt.filter((x) => !NG.test(x)).map((x) => `  - ${x}`), '');
+  }
   if (WHICH === 'applyvc5') {
     // **VC の提携申請・5 回目（t313）。利用者が 2026-10-12「4 社とも申請する」、2026-10-17「自分でやって」。**
     // t305 は「広告素材を選ぶ」を押して 5 秒待っても確認が出ず、状態は未提携（N）のままだった。
