@@ -261,6 +261,18 @@ try {
     }
   }
 
+  if (WHICH === 'a8status') {
+    // **読むだけ（t320）。** 提携中の一覧（最大 300 件）から ID を集め、申請した案件が提携中になったかを見る
+    const ids = new Set();
+    for (let pg = 1; pg <= 3; pg++) {
+      await go(`https://media-console.a8.net/program/list/partnered?pageNo=${pg}&pageSize=100&sortKey=APPROVED_DATE&sortOrder=DESC`);
+      const got = await p.evaluate(() => [...new Set([...document.querySelectorAll('a[href*="programId="]')].map((a) => (a.href.match(/programId=(s\d+)/) || [])[1]).filter(Boolean))]);
+      got.forEach((x) => ids.add(x)); if (got.length < 100) break;
+    }
+    lines.push(`- 提携中 ${ids.size} 件`, '', '| programId | 状態 |', '| --- | --- |');
+    for (const id of (process.env.A8_IDS || '').split(',').filter(Boolean)) lines.push(`| ${id} | ${ids.has(id) ? '**提携中**' : 'まだ（審査中か否認）'} |`);
+    lines.push('');
+  }
   if (WHICH === 'a8apply') {
     // **利用者の OK を得た提携申請**（2026-10-11）。サイト「Daily hack」を選んで「プログラムの提携申請をする」を押す
     p.on('dialog', (d) => { lines.push(`  - 確認ダイアログ: ${d.message().slice(0, 80)} → OK`); d.accept().catch(() => {}); });
