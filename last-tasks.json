@@ -1,3 +1,3 @@
 [
-      {"task": "x314-schedule-prime-vs-rakuten.sh", "rc": 0, "out": "感謝祭 vs マラソンを 10/18 12:00 に予約した / schedule-prime.md"}
+      {"task": "x315-move-prime-oneshot-label.sh", "rc": 0, "out": "予約を com.dailyhack へ載せ替えた / move-prime-oneshot.md"}
   ]
