@@ -1,1 +1,3 @@
-[]
+[
+      {"task": "x324-read-follower-header.sh", "rc": 0, "out": "x324 / follower-header.md"}
+  ]
