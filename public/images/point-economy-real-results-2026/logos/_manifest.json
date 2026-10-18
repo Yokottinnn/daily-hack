@@ -1,0 +1,149 @@
+{
+ "au.png": {
+  "brand": "au",
+  "source": "https://commons.wikimedia.org/wiki/File:Au_mobile_network_operator_logo_(1st).svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Au_mobile_network_operator_logo_(1st).svg",
+  "fetched": "2026-09-20",
+  "license_note": "Public domain（コモンズの表記）。商標であることに変わりはない",
+  "task": "ops/tasks/t125-logos-insurance-energy.sh",
+  "file": "au.png",
+  "copied_from": "public/images/overseas-esim-wifi-comparison-2026/logos/_manifest.json",
+  "note": "au の海外ローミング（au海外放題）の行にだけ使う"
+ },
+ "docomo.png": {
+  "brand": "NTTドコモ",
+  "file": "docomo.png",
+  "source": "https://www.docomo.ne.jp/smt/images/common/favicon.png",
+  "page": "https://www.docomo.ne.jp/",
+  "license_note": "公式サイト（商標）",
+  "width": 107,
+  "height": 20,
+  "copied_from": "public/images/hoso-daigaku-gakuwari-2026/logos/_manifest.json"
+ },
+ "dpoint.png": {
+  "brand": "dポイントクラブ：お得情報満載のドコモ公式ポイントクラブ",
+  "source": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/90/79/93/90799377-ee74-a60c-d215-06da6457d571/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+  "page": "https://apps.apple.com/jp/app/id821434357",
+  "source_type": "App Store の登録アイコン（artworkUrl512・商標）",
+  "seller": "NTT DOCOMO, INC.",
+  "fetched": "2026-09-23",
+  "task": "ops/tasks/t185-appstore-icons.sh",
+  "copied_from": "public/images/point-service-complete-guide-2026/logos/_manifest.json"
+ },
+ "olive.png": {
+  "brand": "三井住友銀行アプリ",
+  "source": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b0/b5/bd/b0b5bdb4-4282-94ab-660a-605376445444/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/512x512bb.jpg",
+  "page": "https://apps.apple.com/jp/app/id594457652",
+  "source_type": "App Store の登録アイコン（artworkUrl512・商標）",
+  "seller": "Sumitomo Mitsui Banking Corporation",
+  "fetched": "2026-09-23",
+  "task": "ops/tasks/t185-appstore-icons.sh",
+  "copied_from": "public/images/point-service-complete-guide-2026/logos/_manifest.json"
+ },
+ "paypay.png": {
+  "brand": "PayPay",
+  "source": "https://travel.yahoo.co.jp/ 上の PayPay アイコン",
+  "page": "https://travel.yahoo.co.jp/ 上の PayPay アイコン",
+  "fetched": "2026-09-20",
+  "license_note": "商標。識別目的で使用",
+  "task": "ops/tasks/t130-*.sh",
+  "copied_from": "public/images/gyudon-chains-cashless-2026-jun/logos/_manifest.json",
+  "copied": "2026-09-22"
+ },
+ "paypaycard.png": {
+  "brand": "PayPayカード",
+  "source": "https://www.paypay-card.co.jp/company/ の SVG",
+  "page": "https://www.paypay-card.co.jp/company/",
+  "fetched": "2026-09-20",
+  "license_note": "公式サイトのロゴ画像（商標）。**SVG を Chromium で PNG にした**",
+  "task": "ops/tasks/t133-logos-retry5.sh",
+  "copied_from": "public/images/olive-30000-cb-may-2026/logos/_manifest.json",
+  "copied": "2026-09-22"
+ },
+ "ponta.png": {
+  "brand": "Ponta ポイントカード/ポイントアプリ お得なクーポンも",
+  "source": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/bf/8c/f8/bf8cf866-3d30-81c9-2dcd-1495ba6e3a0a/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/512x512bb.jpg",
+  "page": "https://apps.apple.com/jp/app/id1036066384",
+  "source_type": "App Store の登録アイコン（artworkUrl512・商標）",
+  "seller": "Loyalty Marketing, Inc.",
+  "fetched": "2026-09-23",
+  "task": "ops/tasks/t185-appstore-icons.sh",
+  "copied_from": "public/images/point-service-complete-guide-2026/logos/_manifest.json"
+ },
+ "rakuten-card.png": {
+  "brand": "楽天カード",
+  "source": "（既存。この記事で以前から使用）",
+  "fetched": "不明",
+  "license_note": "商標。識別目的で使用",
+  "copied_from": "public/images/olive-30000-cb-may-2026/logos/_manifest.json",
+  "copied": "2026-09-22"
+ },
+ "rakuten.png": {
+  "brand": "楽天ポイントクラブ〜楽天ポイント公式アプリ〜",
+  "source": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ae/33/aa/ae33aa79-3c36-82e9-1531-6ed59f1a540e/AppIconPrd-0-0-1x_U007ephone-0-1-0-85-220.png/512x512bb.jpg",
+  "page": "https://apps.apple.com/jp/app/id641501350",
+  "source_type": "App Store の登録アイコン（artworkUrl512・商標）",
+  "seller": "Rakuten Group, Inc.",
+  "fetched": "2026-09-23",
+  "task": "ops/tasks/t186-appstore-byid.sh",
+  "note": "**楽天ペイは別サービス。** t185 の検索では 1 件目にそれを掴んでいたので、id 指定で引き直した",
+  "copied_from": "public/images/point-service-complete-guide-2026/logos/_manifest.json"
+ },
+ "rakutenbank.png": {
+  "brand": "楽天銀行",
+  "source": "https://www.rakuten-bank.co.jp/shared/images/header/logo_pc.svg",
+  "page": "https://www.rakuten-bank.co.jp/",
+  "fetched": "2026-09-21",
+  "note": "SVG を Chromium でラスタライズ。正方形版もあったが**横長の wordmark** を採った",
+  "license_note": "商標。識別目的で使用",
+  "task": "ops/tasks/t152-bank-logos.sh",
+  "copied_from": "public/images/olive-30000-cb-may-2026/logos/_manifest.json",
+  "copied": "2026-09-22"
+ },
+ "rakutenmobile.png": {
+  "brand": "楽天モバイル",
+  "source": "https://network.mobile.rakuten.co.jp/apple-touch-icon.png",
+  "page": "https://network.mobile.rakuten.co.jp/",
+  "fetched": "2026-09-22",
+  "task": "ops/tasks/t155-brand-logos-batch.sh",
+  "license_note": "商標。識別目的で使用",
+  "_rejected": "トップの logo-thankyou-1000.svg は「THANK YOU 1,000万回線」のキャンペーン版なので使わない",
+  "file": "rakutenmobile.png",
+  "copied_from": "public/images/overseas-esim-wifi-comparison-2026/logos/_manifest.json"
+ },
+ "rakutensec.png": {
+  "brand": "楽天証券",
+  "source": "https://www.rakuten-sec.co.jp/",
+  "page": "https://www.rakuten-sec.co.jp/",
+  "fetched": "2026-09-20",
+  "license_note": "商標。識別目的で使用",
+  "task": "ops/tasks/t132-*.sh",
+  "copied_from": "public/images/nisa-recommended-index-funds-2026/logos/_manifest.json"
+ },
+ "sbisec.png": {
+  "brand": "SBI証券",
+  "source": "コモンズの SBI Securities ロゴ",
+  "page": "コモンズの SBI Securities ロゴ",
+  "fetched": "2026-09-20",
+  "license_note": "商標。識別目的で使用",
+  "task": "ops/tasks/t132-*.sh",
+  "copied_from": "public/images/nisa-recommended-index-funds-2026/logos/_manifest.json"
+ },
+ "smbccard.png": {
+  "brand": "三井住友カード",
+  "source": "（既存。`credit-card-kaiaku-2026` からコピー）",
+  "copied_from": "public/images/gyudon-chains-cashless-2026-jun/logos/_manifest.json",
+  "copied": "2026-09-23",
+  "license_note": "商標。識別目的で使用"
+ },
+ "vpoint.png": {
+  "brand": "Vポイントアプリ",
+  "source": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/b5/38/f3b5381e-a365-d46a-19a7-c24ee53c77eb/vpointapp_logo-0-0-1x_U007ephone-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+  "page": "https://apps.apple.com/jp/app/id468976361",
+  "source_type": "App Store の登録アイコン（artworkUrl512・商標）",
+  "seller": "V POINT MARKETING Co., Ltd.",
+  "fetched": "2026-09-23",
+  "task": "ops/tasks/t185-appstore-icons.sh",
+  "copied_from": "public/images/point-service-complete-guide-2026/logos/_manifest.json"
+ }
+}
