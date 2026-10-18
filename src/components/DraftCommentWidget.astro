@@ -4,6 +4,7 @@
 // keyed by article path. Jordan selects body text -> "コメント追加" -> writes
 // feedback -> saved locally. The "全部コピー" button exports all comments as
 // markdown for pasting back into chat so the article can be updated.
+// 2026-10-19: 画像へのコメント（画像に触れると出るボタン）と、記事全体へのコメント（パネルのボタン）を追加。
 ---
 
 <div id="draft-comment-widget" aria-live="polite">
@@ -15,11 +16,12 @@
     <div class="dc-panel-head">
       <strong>下書きコメント</strong>
       <div class="dc-panel-actions">
+        <button id="dc-whole" type="button" title="記事全体へのコメントを書く">＋ 記事全体</button>
         <button id="dc-export" type="button" title="マークダウンでクリップボードにコピー">全部コピー</button>
         <button id="dc-close" type="button" aria-label="閉じる">×</button>
       </div>
     </div>
-    <p class="dc-help">本文をドラッグで選択すると 💬 ボタンが出ます。<br />フィードバックは右下の「全部コピー」でチャットに貼り付けて。</p>
+    <p class="dc-help">本文をドラッグで選択すると 💬 ボタンが出ます。<br />画像はマウスを乗せる（スマホはタップする）と「🖼 この画像にコメント」が出ます。<br />記事全体へのコメントは上の「＋ 記事全体」から。<br />フィードバックは「全部コピー」でチャットに貼り付けて。</p>
     <ul id="dc-list" role="list"></ul>
     <p id="dc-empty">まだコメントはないわよ。</p>
   </div>
@@ -27,6 +29,7 @@
   <div id="dc-modal" hidden role="dialog" aria-modal="true" aria-labelledby="dc-modal-title">
     <div class="dc-modal-inner">
       <p class="dc-modal-title" id="dc-modal-title">コメント追加</p>
+      <img id="dc-modal-img" alt="" hidden />
       <blockquote id="dc-modal-snippet"></blockquote>
       <textarea id="dc-modal-text" rows="4" placeholder="何が気になる？　例: 「ここの表現を強くして」「数字を追記」「順番入れ替え」など"></textarea>
       <div class="dc-modal-actions">
@@ -55,7 +58,21 @@
     const modalCancel = document.getElementById('dc-modal-cancel');
     const modalSave = document.getElementById('dc-modal-save');
 
+    const modalImg = document.getElementById('dc-modal-img');
+    const wholeBtn = document.getElementById('dc-whole');
+
     let pendingSnippet = '';
+    // kind: 'text'（本文の選択）／'image'（画像）／'article'（記事全体）
+    let pendingKind = 'text';
+    let pendingImg = null;
+
+    const imgFab = document.createElement('button');
+    imgFab.type = 'button';
+    imgFab.textContent = '🖼 この画像にコメント';
+    imgFab.id = 'dc-imgfab';
+    imgFab.style.display = 'none';
+    document.body.appendChild(imgFab);
+    let imgTarget = null;
 
     const fab = document.createElement('button');
     fab.type = 'button';
@@ -91,8 +108,14 @@
       comments.forEach((c, i) => {
         const li = document.createElement('li');
         li.className = 'dc-comment';
+        const kind = c.kind || 'text';
+        const head = kind === 'image'
+          ? '<div class="dc-snip dc-snip-img"><img src="' + escapeHtml(c.src) + '" alt="" loading="lazy" /><span>画像: ' + escapeHtml(c.snippet) + '</span></div>'
+          : kind === 'article'
+            ? '<div class="dc-snip dc-snip-all">📄 記事全体へのコメント</div>'
+            : '<blockquote class="dc-snip">' + escapeHtml(c.snippet) + '</blockquote>';
         li.innerHTML =
-          '<blockquote class="dc-snip">' + escapeHtml(c.snippet) + '</blockquote>' +
+          head +
           '<p class="dc-body">' + escapeHtml(c.comment) + '</p>' +
           '<div class="dc-meta">' +
           '<span>' + new Date(c.ts).toLocaleString('ja-JP') + '</span>' +
@@ -149,23 +172,89 @@
     window.addEventListener('resize', hideFab);
 
     fab.addEventListener('mousedown', (e) => e.preventDefault());
-    fab.addEventListener('click', () => {
-      if (!pendingSnippet) return;
-      modalSnippet.textContent = pendingSnippet;
+    function openModal(kind, snippet, img) {
+      pendingKind = kind;
+      pendingSnippet = snippet;
+      pendingImg = img || null;
+      modalSnippet.textContent = kind === 'article' ? '📄 記事全体へのコメント' : snippet;
+      if (kind === 'image' && img) {
+        modalImg.src = img.src;
+        modalImg.hidden = false;
+      } else {
+        modalImg.hidden = true;
+        modalImg.removeAttribute('src');
+      }
       modalText.value = '';
       modal.hidden = false;
       modalText.focus();
+    }
+
+    fab.addEventListener('click', () => {
+      if (!pendingSnippet) return;
+      openModal('text', pendingSnippet);
       hideFab();
     });
+
+    // 画像へのコメント。本文・表紙の画像に触れたら、右上にボタンを出す
+    function commentableImg(el) {
+      if (!(el instanceof HTMLImageElement)) return null;
+      if (el.closest('#draft-comment-widget') || el.closest('#dc-modal')) return null;
+      // 表紙は記事の <header> の中にあるので、header では弾かない。サイト全体の枠は main の外なので下の条件で外れる
+      if (!el.closest('main')) return null;
+      const r = el.getBoundingClientRect();
+      if (r.width < 60 || r.height < 40) return null;
+      return el;
+    }
+    function showImgFab(img) {
+      const r = img.getBoundingClientRect();
+      imgTarget = img;
+      imgFab.style.top = Math.max(8, r.top + 8) + 'px';
+      imgFab.style.left = Math.max(8, Math.min(r.right - 190, window.innerWidth - 190)) + 'px';
+      imgFab.style.display = 'inline-block';
+    }
+    function hideImgFab() { imgFab.style.display = 'none'; imgTarget = null; }
+    document.addEventListener('mouseover', (e) => {
+      const img = commentableImg(e.target);
+      if (img) showImgFab(img);
+    });
+    document.addEventListener('mouseout', (e) => {
+      if (e.target === imgTarget && e.relatedTarget !== imgFab) hideImgFab();
+    });
+    imgFab.addEventListener('mouseleave', (e) => { if (e.relatedTarget !== imgTarget) hideImgFab(); });
+    document.addEventListener('touchstart', (e) => {
+      const img = commentableImg(e.target);
+      if (img) showImgFab(img);
+      else if (e.target !== imgFab) hideImgFab();
+    }, { passive: true });
+    // スクロールで消さずに付いていく。広告の読み込みで位置が動くとブラウザが scroll を出すので、消すと押す前に消える
+    window.addEventListener('scroll', () => {
+      if (!imgTarget) return;
+      const r = imgTarget.getBoundingClientRect();
+      if (r.bottom < 0 || r.top > window.innerHeight) hideImgFab(); else showImgFab(imgTarget);
+    }, { passive: true });
+    imgFab.addEventListener('mousedown', (e) => e.preventDefault());
+    imgFab.addEventListener('click', () => {
+      if (!imgTarget) return;
+      const img = imgTarget;
+      const label = (img.getAttribute('alt') || '').trim() || (img.currentSrc || img.src).split('/').pop();
+      openModal('image', label, { src: img.currentSrc || img.src });
+      hideImgFab();
+    });
+
+    wholeBtn.addEventListener('click', () => openModal('article', '記事全体'));
 
     modalSave.addEventListener('click', () => {
       const text = modalText.value.trim();
       if (!text) { modalText.focus(); return; }
       const comments = loadFor(articleKey);
-      comments.push({ snippet: pendingSnippet, comment: text, ts: Date.now() });
+      const entry = { kind: pendingKind, snippet: pendingSnippet, comment: text, ts: Date.now() };
+      if (pendingKind === 'image' && pendingImg) entry.src = pendingImg.src;
+      comments.push(entry);
       saveFor(articleKey, comments);
       modal.hidden = true;
       pendingSnippet = '';
+      pendingImg = null;
+      if (panel.hidden) launcher.click();
       refresh();
     });
     modalCancel.addEventListener('click', () => {
@@ -199,7 +288,7 @@
         const c = comments[i];
         const md =
           '記事: ' + articleKey + '\n' +
-          '> ' + (c.snippet || '').replace(/\n/g, '\n> ') + '\n\n' +
+          quoteOf(c) + '\n\n' +
           'コメント: ' + (c.comment || '');
         navigator.clipboard.writeText(md).then(() => {
           t.textContent = 'コピー済';
@@ -207,6 +296,17 @@
         });
       }
     });
+
+    function quoteOf(c) {
+      const kind = c.kind || 'text';
+      if (kind === 'article') return '> 【記事全体】';
+      if (kind === 'image') {
+        let path = c.src || '';
+        try { path = new URL(path).pathname; } catch (e) {}
+        return '> 【画像】' + (c.snippet || '') + '\n> ' + path;
+      }
+      return '> ' + (c.snippet || '').replace(/\n/g, '\n> ');
+    }
 
     exportBtn.addEventListener('click', () => {
       const comments = loadFor(articleKey);
@@ -219,7 +319,7 @@
       const body = comments
         .map((c, i) =>
           '### ' + (i + 1) + '. ' + new Date(c.ts).toLocaleString('ja-JP') + '\n\n' +
-          '> ' + (c.snippet || '').replace(/\n/g, '\n> ') + '\n\n' +
+          quoteOf(c) + '\n\n' +
           '**コメント**: ' + (c.comment || '') + '\n'
         )
         .join('\n');
@@ -379,6 +479,28 @@
   }
   #dc-fab.open { display: inline-block; }
   #dc-fab:hover { background: var(--pink-600); }
+
+  #dc-imgfab {
+    position: fixed !important;
+    background: var(--pink-500);
+    color: #fff;
+    border: 0;
+    padding: 6px 14px;
+    border-radius: 999px;
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
+    z-index: 150;
+    font-family: inherit;
+    line-height: 1.4;
+  }
+  #dc-imgfab:hover { background: var(--pink-600); }
+  .dc-snip-img { display: flex; gap: 8px; align-items: center; }
+  .dc-snip-img img { width: 64px; height: 40px; object-fit: cover; border-radius: 4px; flex: 0 0 auto; }
+  .dc-snip-all { font-weight: 700; }
+  #dc-modal-img { display: block; max-width: 100%; max-height: 180px; margin: 0 auto 12px; border-radius: 8px; object-fit: contain; }
+  #dc-modal-img[hidden] { display: none; }
 
   #dc-modal {
     position: fixed;
