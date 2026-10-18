@@ -812,6 +812,8 @@ PAY ID、実は招待コードを入れるだけで500円分もらえるのよ�
 
 ## 5. 出す前に
 
+- **最初に、レビューページの書き換え（`drafts`）を取り込む**（2026-10-18・7 本 取りこぼした）。`ArtifactData(collection="drafts", out_dir=…)` → `node scripts/image-review/sync-drafts.mjs <out_dir>/drafts`。**コメント（`pins`）だけ読んで終わらない。** 投稿タスクには `POST_SET_KEY` を書く（取り込みから 60 分 以内でないとフックが止める）
+
 0. **スタイルを 1 つ 選び、レビューページの SET に書く**（§1-B）
    - `style: "<ID>"` と `styleWhy: "<なぜこの型か 1 文>"`。**目的 → 型** の順で決める
    - **`build.mjs` は `style` が無い・目録に無いと止まる。** 書き忘れたまま出せない

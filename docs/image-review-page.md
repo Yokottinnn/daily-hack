@@ -147,3 +147,18 @@ node scripts/image-review/build.mjs
 
 `sample` capability（ページからモデルを呼ぶ）は**宣言していない。**
 宣言すると閲覧者側に課金が乗るため、必要になったら金額を出してから足す（最上位ルール 2-B）。
+
+
+## 文面の書き換え（`drafts`）を読み落とさない（2026-10-18）
+
+ページで利用者が文面を**直接 書き換える**と、`pins` ではなく **`drafts`** に入る（`drafts/<key>-text-<n>`、`{target, text, updatedAt}`）。
+ページは `posts.json` の上に `drafts` を重ねて表示するので、**利用者には反映済みに見える。**
+`drafts` を読まずに `posts.json` の古い文で投稿し、**7 本 が直した文で出なかった**（フォロワー500人ほか）。
+
+```text
+ArtifactData(action="list", url=<レビューページ>, collection="drafts", out_dir=<DIR>)
+node scripts/image-review/sync-drafts.mjs <DIR>/drafts      # posts.json に取り込み、drafts.json を書く
+node scripts/image-review/build.mjs                          # 取り込み漏れがあれば止まる
+```
+
+投稿タスクは `POST_SET_KEY` を書き、**取り込みから 60 分 以内**でないと commit できない（`guard-post-approval.py`）。

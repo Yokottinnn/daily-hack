@@ -1,0 +1,78 @@
+<!-- フォロワー 500 人のお礼・A 版の動く版（GIF・2026-10-18 のコメント 6 件を反映）。4 秒で一周。
+     反映: 全体を GIF に（紙吹雪が舞う・セリフがふわっと浮く・500人突破が脈打って光る）／「突破！」はまっすぐ／500人は大きく・少し下へ／
+     「これからも」の枠の左の黄色い線を外す／「これからも」はキャラのセリフなので吹き出しに（しっぽは継ぎ目の出ない同色の一体形）。
+     作り直すとき: node scripts/gen-x-gif.mjs ops/data/x-cards/follower-500/card-anim.html public/images/follower-500/x/1-card.gif 1080 12 4 -->
+<!doctype html><html lang="ja"><head><meta charset="utf-8">
+<style>
+@font-face{font-family:Z;src:url(ZenMaru-500.woff2);font-weight:500}
+@font-face{font-family:Z;src:url(ZenMaru-700.woff2);font-weight:700}
+@font-face{font-family:Z;src:url(ZenMaru-900.woff2);font-weight:900}
+@font-face{font-family:Z;src:url(ZenMaru-latin-900.woff2);font-weight:900;unicode-range:U+0000-00FF}
+:root{--p300:#F09DBB;--p500:#EC5C90;--p600:#D63E76;--y:#F5C518;--ink:#2A1923;--ink2:#46293A}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1080px;height:1080px}
+body{font-family:Z,sans-serif;color:#fff;overflow:hidden;position:relative;
+ background:radial-gradient(560px 460px at 30% 40%,rgba(214,62,118,.42),transparent 70%),
+  radial-gradient(520px 520px at 88% 88%,rgba(245,197,24,.18),transparent 70%),
+  linear-gradient(160deg,#3A2030 0%,#2A1923 55%,#1E1219 100%)}
+.top{position:absolute;top:54px;left:60px;display:flex;align-items:center;gap:14px;color:var(--y);font-weight:900;font-size:22px;letter-spacing:.32em}
+.top i{display:block;width:44px;height:2px;background:var(--y);opacity:.7}
+.lead{position:absolute;top:128px;left:58px;font-weight:900;font-size:74px;color:#fff;letter-spacing:.04em}
+/* 500人: 大きく・少し下へ。脈打って、金が光る */
+.num{position:absolute;top:200px;left:34px;height:330px;line-height:330px;white-space:nowrap;transform-origin:30% 55%;animation:pulse 2s ease-in-out infinite}
+.num span{position:absolute;left:0;top:0}
+.num .bk{color:transparent;-webkit-text-stroke:24px rgba(255,255,255,.95);filter:drop-shadow(0 14px 22px rgba(0,0,0,.35))}
+.num .fr{background:linear-gradient(110deg,#E0A800 0%,#F5C518 30%,#FFF6C8 45%,#F5C518 60%,#E0A800 100%);background-size:300% 100%;-webkit-background-clip:text;background-clip:text;color:transparent;animation:shine 2s linear infinite}
+.num b{font-size:330px;font-weight:900;letter-spacing:-.02em}
+.num em{font-style:normal;font-size:124px;font-weight:900;margin-left:6px}
+@keyframes pulse{0%,100%{transform:scale(1)}50%{transform:scale(1.05)}}
+@keyframes shine{0%{background-position:100% 0}100%{background-position:-50% 0}}
+/* 突破！: まっすぐ。弾む */
+.badge{position:absolute;top:548px;left:78px;background:var(--p500);color:#fff;font-weight:900;font-size:58px;letter-spacing:.16em;padding:10px 40px 14px 52px;border-radius:999px;box-shadow:0 14px 26px -12px rgba(236,92,144,.8);animation:pop 2s ease-in-out infinite}
+@keyframes pop{0%,100%{transform:translateY(0) scale(1)}15%{transform:translateY(-10px) scale(1.06)}30%{transform:translateY(0) scale(1)}}
+.mascot{position:absolute;right:-60px;bottom:-10px;width:600px;-webkit-mask-image:linear-gradient(to bottom,#000 84%,transparent 99%)}
+/* セリフ（上）: ふわっと浮く */
+.bubble{position:absolute;right:40px;top:96px;width:380px;animation:float 2s ease-in-out infinite}
+.bubble .in{background:#fff;color:var(--ink);border-radius:30px;padding:24px 26px;text-align:center;box-shadow:0 16px 30px -14px rgba(0,0,0,.5)}
+.bubble .a{font-weight:900;font-size:44px;color:var(--p600);line-height:1.3}
+.bubble .b{font-weight:700;font-size:25px;color:var(--ink2);margin-top:6px}
+.bubble:after{content:"";position:absolute;left:150px;bottom:-26px;border:18px solid transparent;border-top:30px solid #fff;border-bottom:0}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-12px)}}
+/* セリフ（下・これからも）: 吹き出し。左の黄色い線は外した。しっぽは同じ白の一体形（SVG）で継ぎ目を出さない */
+.vow{position:absolute;left:56px;bottom:60px;width:600px;animation:float2 2s ease-in-out infinite}
+.vow svg{position:absolute;left:0;top:0;overflow:visible;filter:drop-shadow(0 20px 22px rgba(0,0,0,.45))}
+.vow .tx{position:relative;padding:28px 34px 30px}
+.vow .h{font-weight:900;font-size:26px;color:var(--p600);letter-spacing:.06em}
+.vow .l{font-weight:900;font-size:36px;line-height:1.4;margin-top:8px;white-space:nowrap;color:var(--ink)}
+.vow .l em{font-style:normal;color:var(--p600)}
+@keyframes float2{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+/* 紙吹雪: 上から舞い落ちる（4 秒で一周） */
+.cf{position:absolute;top:-40px;width:10px;height:18px;border-radius:2px;animation:fall 4s linear infinite}
+@keyframes fall{0%{transform:translate(0,0) rotate(0)}100%{transform:translate(var(--dx),1160px) rotate(var(--rot))}}
+.tw{position:absolute;animation:tw 1s ease-in-out infinite}
+@keyframes tw{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.25;transform:scale(.6)}}
+</style></head><body>
+<div id="fx"></div>
+<div class="top"><i></i>DAILY HACK<i></i></div>
+<div class="lead">フォロワー</div>
+<div class="num"><span class="bk"><b>500</b><em>人</em></span><span class="fr"><b>500</b><em>人</em></span></div>
+<div class="badge">突破！</div>
+<img class="mascot" src="expr-05-smug.png">
+<div class="bubble"><div class="in"><div class="a">まだまだ<br>これからよ</div><div class="b">次は1,000人ね</div></div></div>
+<div class="vow">
+ <svg width="600" height="190" viewBox="0 0 600 190"><path d="M30 0 H570 Q600 0 600 30 V96 L668 128 L600 134 V160 Q600 190 570 190 H30 Q0 190 0 160 V30 Q0 0 30 0 Z" fill="#fff"/></svg>
+ <div class="tx"><div class="h">これからも</div><div class="l"><em>圧倒的なお得情報</em>と、<br>あんたの<em>損</em>を暴いていくわよ</div></div>
+</div>
+<script>
+const fx=document.getElementById('fx');let k=7;const r=()=>{k=(k*9301+49297)%233280;return k/233280};
+const cols=['#F5C518','#EC5C90','#F09DBB','#FFF1C8','#FFFFFF'];
+for(let i=0;i<46;i++){const d=document.createElement('div');d.className='cf';
+ d.style.left=(r()*1080)+'px';d.style.background=cols[i%5];d.style.opacity=(.6+r()*.4).toFixed(2);
+ d.style.width=(6+r()*9)+'px';d.style.height=(12+r()*14)+'px';
+ d.style.setProperty('--dx',((r()-.5)*160)+'px');d.style.setProperty('--rot',(360+r()*720|0)+'deg');
+ d.style.animationDelay=(-r()*4).toFixed(2)+'s';fx.appendChild(d);}
+const star=(x,y,z,c,dl)=>{const s=document.createElement('div');s.className='tw';s.style.left=x+'px';s.style.top=y+'px';s.style.animationDelay=dl+'s';
+ s.innerHTML=`<svg width="${24*z}" height="${24*z}" viewBox="-12 -12 24 24"><path d="M0 -12 Q2 -2 12 0 Q2 2 0 12 Q-2 2 -12 0 Q-2 -2 0 -12 Z" fill="${c}"/></svg>`;fx.appendChild(s);};
+[[600,120,1.6,0],[650,500,1.3,-.5],[30,620,1.2,-.25],[1020,640,1.3,-.75],[560,60,1,-.4],[440,700,1.4,-.6]].forEach(([x,y,z,dl],i)=>star(x,y,z,i%2?'#F5C518':'#FFFFFF',dl));
+</script>
+</body></html>
