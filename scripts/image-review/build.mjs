@@ -48,6 +48,7 @@ const FILES = {
   "furusato-portal-comparison-2026": ["1-ban.jpg", "2-points.jpg", "3-anapay.jpg", "4-steps.jpg"],
   "prime-sale-vs-rakuten-autumn-2026": ["1-deadline.jpg", "2-rules.jpg", "3-which.jpg", "4-next.jpg"],
   "point-economy-real-results-2026": ["1-calc.jpg", "2-rules.jpg", "3-real.jpg", "4-how.jpg"],
+  "follower-500": ["1-card.jpg"],
 };
 
 const map = {};
