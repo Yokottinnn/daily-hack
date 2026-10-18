@@ -34,7 +34,7 @@ const FILES = {
   // 素材はキャラ（expr-04-cheer.png）と自作の図だけなので、出所の行が要らない
   // 2026-10-03 に 3 版目の静止画へ「とてもいいね👍」。動く版（GIF）は同じ絵に動きを付けたもの
   // **未投稿**（2026-10-12）。青バッジ取得の報告。素材はキャラと自作の図だけなので出所の行は要らない
-  "blue-badge": ["2-card.gif", "1-card.gif"],
+  // "blue-badge" は 2026-10-12 に投稿済み。2026-10-18 にページの容量（16MB）のため外した。戻すときは page.html の blue-badge-a/b も戻す
   "follower-300": ["1-card.jpg", "1-card-ai.gif", "1-card.gif", "1-card-v2.gif"],
   // **未投稿**（2026-10-04）。1〜3 枚目は利用者が Slack で共有したアプリの画面（本人の画面・切り出しだけ）。
   // 4 枚目はロゴ（App Store のアイコン）と App Store 掲載素材の自作カード。出所の行が要らない
@@ -46,8 +46,9 @@ const FILES = {
   "momiji-2026-kanto": ["1-calendar.jpg", "1b-spots.jpg", "2-takao.jpg", "4-nikko.jpg"],
   "takanawa-gateway-city-guide-2026": ["1-morning.jpg", "2-luftbaum.jpg", "3-mon.jpg", "4-access.jpg"],
   "furusato-portal-comparison-2026": ["1-ban.jpg", "2-points.jpg", "3-anapay.jpg", "4-steps.jpg"],
-  "prime-sale-vs-rakuten-autumn-2026": ["1-deadline.jpg", "2-rules.jpg", "3-which.jpg", "4-next.jpg"],
+  // "prime-sale-vs-rakuten-autumn-2026" は 2026-10-18 12:27 に投稿済み。同日、ページの容量（16MB）のため外した
   "point-economy-real-results-2026": ["1-calc.jpg", "2-rules.jpg", "3-real.jpg", "4-how.jpg"],
+  "follower-500": ["1-card.gif"],
 };
 
 const map = {};
