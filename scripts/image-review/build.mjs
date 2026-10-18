@@ -46,9 +46,9 @@ const FILES = {
   "momiji-2026-kanto": ["1-calendar.jpg", "1b-spots.jpg", "2-takao.jpg", "4-nikko.jpg"],
   "takanawa-gateway-city-guide-2026": ["1-morning.jpg", "2-luftbaum.jpg", "3-mon.jpg", "4-access.jpg"],
   "furusato-portal-comparison-2026": ["1-ban.jpg", "2-points.jpg", "3-anapay.jpg", "4-steps.jpg"],
-  "prime-sale-vs-rakuten-autumn-2026": ["1-deadline.jpg", "2-rules.jpg", "3-which.jpg", "4-next.jpg"],
+  // "prime-sale-vs-rakuten-autumn-2026" は 2026-10-18 12:27 に投稿済み。同日、ページの容量（16MB）のため外した
   "point-economy-real-results-2026": ["1-calc.jpg", "2-rules.jpg", "3-real.jpg", "4-how.jpg"],
-  "follower-500": ["1-card.jpg", "1-card-b.jpg"],
+  "follower-500": ["1-card.gif"],
 };
 
 const map = {};
