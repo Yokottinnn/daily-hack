@@ -984,6 +984,12 @@ follow-balance の `GRACE_DAYS` が plist に無く、**スクリプトの既定
 
 **このルールも毎ターン注入している**（`.claude/hooks/dialog-rule-reminder.sh`）。
 
+**注入だけでは守られなかったので、フックで差し戻す**（2026-10-18・利用者が「差し戻しフックを入れる」を選んだ）。
+注入を入れた直後のターンで、また報告を英語で書いた。`.claude/hooks/enforce-japanese.py`（Stop フック）が、
+ターン中に利用者へ見える文章（本文と AskUserQuestion の問い・選択肢）を全部見て、
+**英字 40 字以上で日本語が 25% 未満の文章が 1 つでもあれば終了させない。**
+コード・URL・引用は判定から外す。**途中経過の一文（「Next I'll …」）も対象。**
+
 ## OpenClaw 連携
 
 OpenClaw は利用者の Mac（`home-mac` / 192.168.2.102）で動く常駐エージェント。
