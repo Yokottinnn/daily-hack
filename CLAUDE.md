@@ -195,6 +195,22 @@ Claude が X に直接投稿することはない。確立している経路は�
   引用に「投稿して」「出して」などが無ければ止まる（`.claude/hooks/guard-post-approval.py`）。
   **引用は利用者が書いた文をそのまま貼る。自分で作文しない**
 
+#### レビューページで直された文面（`drafts`）を、投稿の前に必ず取り込む（2026-10-18・例外なし）
+
+> 投稿文章の修正が反映されてないよ。私は間違いなくレビューページで直接投稿文章の修正をしているのだけど、
+> それが実際の投稿に反映されていない。しかもここ数回発生してる。これは大問題
+
+**レビューページで利用者が文面を直すと、Artifact DB の `drafts` に入る。ページ上は直した文で見える。**
+**こちらはコメント（`pins`）しか読まず、`drafts` を一度も読まないまま `posts.json` の古い文で投稿していた。**
+フォロワー500人・感謝祭 [2/2]・青バッジ・紅葉 [2/2]・朝ごはん 2 本・300人の **7 本**が、直した文で出ていない。
+
+- **ページを読むときは `pins` と `drafts` の両方を読む。** `drafts` は `ArtifactData(action="list", collection="drafts", out_dir=…)` で書き出し、
+  `node scripts/image-review/sync-drafts.mjs <out_dir>/drafts` で `posts.json` に取り込む（**利用者の文が正**）
+- **ビルドで止める。** `build.mjs` は、書き換えが `posts.json` に入っていなければ止まる（`scripts/image-review/drafts.json` と照合）
+- **フックで止める。** 投稿タスクには `POST_SET_KEY="<組の key>"` が要る。**取り込みが 60 分 以内で、その組の書き換えが全部入っているときだけ** commit できる
+  （`.claude/hooks/guard-post-approval.py`）。`git add -A` で足した投稿タスクも見る
+- 投稿済みで取りこぼしたものは `drafts.json` の `acknowledged` に理由つきで残す（黙って消さない）
+
 #### 草案は Slack に貼らない（2026-09-05 に指示）
 
 > スラックに画像が貼られていないので、以降もはや Slack に投稿内容の下書きは貼らなくていいよ。

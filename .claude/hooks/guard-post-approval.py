@@ -46,6 +46,44 @@ QUOTE = re.compile(r'^\s*POST_APPROVAL_QUOTE="([^"]+)"', re.M)
 AT = re.compile(r'^\s*POST_APPROVAL_AT="([^"]+)"', re.M)
 # 投稿を指示する言葉。選択肢の名前（「A 短い版」「動く版 GIF」）はここに当たらない
 ORDER = re.compile(r"投稿して|投稿しろ|投稿していい|投稿してOK|投稿OK|出して|出していい|ポストして|ツイートして|tweet")
+# 2026-10-18: どのレビューページの組を出すか。drafts（ページで利用者が直接 書き換えた文面）の取り込みを確かめるのに使う
+SET_KEY = re.compile(r'^\s*POST_SET_KEY="([^"]+)"', re.M)
+DRAFT_MAX_AGE_MIN = 60
+
+
+def check_drafts(path, text):
+    """ページの書き換え（drafts）を取り込まないまま投稿する事故を止める（2026-10-18・7 本 取りこぼした）。"""
+    import datetime as dt
+    k = SET_KEY.search(text)
+    if not k:
+        return (f"{path}: POST_SET_KEY（レビューページの組の key）が無い。"
+                "ページで利用者が直接 書き換えた文面（drafts）を取り込んだかを確かめられない")
+    key = k.group(1)
+    try:
+        with open("scripts/image-review/drafts.json", encoding="utf-8") as f:
+            snap = json.load(f)
+        with open("scripts/image-review/posts.json", encoding="utf-8") as f:
+            posts = json.load(f)
+    except Exception as e:
+        return f"{path}: drafts.json / posts.json が読めない（{e}）。sync-drafts.mjs で取り込む"
+    try:
+        at = dt.datetime.fromisoformat(snap.get("syncedAt", "").replace("Z", "+00:00"))
+        age = (dt.datetime.now(dt.timezone.utc) - at).total_seconds() / 60
+    except Exception:
+        age = 1e9
+    if age > DRAFT_MAX_AGE_MIN:
+        return (f"{path}: ページの書き換え（drafts）の取り込みが {int(age)} 分 前。{DRAFT_MAX_AGE_MIN} 分 以内に"
+                "ArtifactData(collection=\"drafts\", out_dir=…) で読み、sync-drafts.mjs で取り込み直す")
+    if key not in posts:
+        return f"{path}: POST_SET_KEY「{key}」が posts.json に無い"
+    for target, d in (snap.get("drafts") or {}).items():
+        if not target.startswith(key + "/text-") or (snap.get("acknowledged") or {}).get(target):
+            continue
+        i = int(target.rsplit("-", 1)[1]) - 1
+        cur = posts[key][i] if i < len(posts[key]) else None
+        if cur != d.get("text"):
+            return f"{path}: ページで書き換えられた {target} が posts.json に入っていない。sync-drafts.mjs で取り込む"
+    return None
 
 
 def posting_lines(text):
@@ -62,7 +100,7 @@ def check(path, text):
     if not ORDER.search(q.group(1)):
         return (f"{path}: POST_APPROVAL_QUOTE「{q.group(1)}」に投稿を指示する言葉が無い。"
                 "ダイアログで選んだ選択肢は投稿の許可ではない")
-    return None
+    return check_drafts(path, text)
 
 
 def main():
@@ -77,6 +115,10 @@ def main():
         if re.search(r"\bgit\b[^;&|]*\badd\b", cmd):
             # 「git add … && git commit」の 1 行では、add 前のステージしか見えない。add の対象も読む
             targets = re.findall(r"ops/tasks/[\w.\-]+\.sh", cmd)
+            if re.search(r"\badd\b[^;&|]*(\s-A\b|\s--all\b|\s\.(\s|$)|\sops/tasks\b)", cmd):
+                # 2026-10-18: 「git add -A && git commit」では対象がコマンドに出ないので、未ステージの変更も見る
+                st = subprocess.run(["git", "status", "--porcelain", "--", "ops/tasks"], capture_output=True, text=True, timeout=10).stdout
+                targets += [l[3:].strip() for l in st.splitlines() if l[3:].strip().endswith(".sh")]
         else:
             targets = []
         staged = subprocess.run(["git", "diff", "--cached", "--name-only"], capture_output=True, text=True, timeout=10).stdout.split()

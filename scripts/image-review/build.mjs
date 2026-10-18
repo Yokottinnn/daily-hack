@@ -129,6 +129,22 @@ for (const [k, list] of Object.entries(posts)) {
 if (filled) fs.writeFileSync(LOCK, JSON.stringify(lock, null, 2) + "\n");
 console.log(`承認済みの文面 ${locked} 本 を照合${filled ? "（初回なのでハッシュを記録した）" : "・一致"}`);
 
+// **ページで利用者が直接 書き換えた文面（drafts）が posts.json に入っていなければ止める**（2026-10-18）。
+// drafts を読まずに古い文で 7 本 投稿していた（「ここ数回発生してる。大問題」）。
+// 取り込みは sync-drafts.mjs。投稿済みで取りこぼしたものは drafts.json の acknowledged に理由つきで残す。
+const SNAP = path.join(HERE, "drafts.json");
+if (!fs.existsSync(SNAP)) throw new Error("drafts.json が無い。レビューページの書き換え（drafts）を読んで sync-drafts.mjs で取り込む");
+const snap = JSON.parse(fs.readFileSync(SNAP, "utf8"));
+const missing = [];
+for (const [target, d] of Object.entries(snap.drafts || {})) {
+  if ((snap.acknowledged || {})[target]) continue;
+  const m = target.match(/^(.+)\/text-(\d+)$/);
+  if (!m) continue;
+  if ((posts[m[1]] || [])[+m[2] - 1] !== d.text) missing.push(target);
+}
+if (missing.length) throw new Error(`レビューページの書き換えが posts.json に入っていない: ${missing.join(", ")}\n  node scripts/image-review/sync-drafts.mjs で取り込む（利用者の文が正）`);
+console.log(`ページの書き換え ${Object.keys(snap.drafts || {}).length} 本 を照合（${snap.syncedAt} に取り込み）・すべて反映済み`);
+
 const src = fs.readFileSync(TEMPLATE, "utf8");
 
 // **投稿スタイル。** 各 SET がどの型で書かれたかを、書き忘れたまま出せないようにする
