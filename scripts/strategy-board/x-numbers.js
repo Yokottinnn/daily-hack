@@ -35,7 +35,12 @@ function num(v) {
   const r = { generated: new Date().toISOString(), handle: HANDLE };
   let b, page;
   try {
-    b = await chromium.connectOverCDP(CDP, { timeout: 60000 });
+    // 接続は一時的に落ちることがある（2026-10-19、shared_worker の assert で t324 が落ちた）。3 回まで試す
+    for (let i = 1; i <= 3 && !b; i++) {
+      try { b = await chromium.connectOverCDP(CDP, { timeout: 60000 }); }
+      catch (e) { r.connectErrors = (r.connectErrors || []).concat(String(e && e.message).slice(0, 120)); await new Promise((ok) => setTimeout(ok, 10000)); }
+    }
+    if (!b) throw new Error('CDP に 3 回つながらなかった');
     page = await b.contexts()[0].newPage();
 
     // ① ヘッダー
