@@ -5,7 +5,7 @@ publishDate: 2026-09-19
 updatedDate: 2026-09-20
 category: ["howto", "comparisons"]
 tags: ["放送大学", "学割", "学生証", "節約", "2026年版"]
-isPR: false
+isPR: true
 draft: false
 eyecatchUrl: "/images/hoso-daigaku-gakuwari-2026/eyecatch.jpg"
 eyecatchAlt: "大人の学割は月450円｜放送大学の学生証で安くなるもの一覧"
@@ -609,6 +609,12 @@ references:
 **在学証明書は学習センターの窓口か郵送で発行してもらえる。手数料は1通200円。** 学生証だけで通らなかったときの二の矢として覚えておくと、申請でつまずかない。
 
 <p class="source-note">出典：<a href="https://www.ouj.ac.jp/about/certificate/" target="_blank" rel="noopener">放送大学 証明書発行</a>（手数料1通200円）</p>
+
+<p>学割のためではなく<strong>資格を取りたい</strong>のが本音なら、放送大学より通信講座のほうが近道のこともある。キャリカレは主婦・社会人向けに 150 講座以上あって、講座の一覧は無料のカタログで比べられる。</p>
+
+<div class="affiliate-block">
+<p class="affiliate-text"><a href="https://px.a8.net/svt/ejp?a8mat=4BEIPG+8P61QY+5YKQ+5YZ76" target="_blank" rel="sponsored noopener nofollow">【キャリカレ】総合カタログ請求案内</a><img src="https://www16.a8.net/0.gif?a8mat=4BEIPG+8P61QY+5YKQ+5YZ76" width="1" height="1" alt="" loading="lazy"></p>
+</div>
 
 <div class="section-with-mascot">
   <div class="mascot-wrap"><img src="/images/expr-07-gasp.png" alt="Daily Hackマスコット" /></div>
