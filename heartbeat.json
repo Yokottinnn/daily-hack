@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-19T02:53:17Z",
+  "generated_at": "2026-10-19T03:23:54Z",
   "login_lock": {"present": false, "age_hours": 0},
-  "cdp": {"healthy": false, "port": 18810},
+  "cdp": {"healthy": true, "port": 18810},
   "x_jobs": {"loaded": 8, "expected": 8, "ai_total": 15, "halted": false, "missing": []},
-  "last_reply": {"at": "2026-10-18T13:04:05.950Z", "age_hours": 13, "stale": true},
-  "supervisor": {"at":"2026-10-18T20:04:59Z","date_jst":"2026-10-19","ran":9,"total":9,"not_run":[],"fixed":[]},
-  "followback_bands": {"with_count":470,"total_rows":830,"bands":{"1000-4999":{"n":162,"back":27,"mature":152,"mature_back":25,"rate":16.4},"300-999":{"n":119,"back":20,"mature":111,"mature_back":19,"rate":17.1},"0-99":{"n":90,"back":19,"mature":87,"mature_back":18,"rate":20.7},"5000-49999":{"n":74,"back":2,"mature":71,"mature_back":2,"rate":2.8},"100-299":{"n":24,"back":6,"mature":22,"mature_back":5,"rate":22.7},"50000-up":{"n":1,"back":1,"mature":1,"mature_back":1,"rate":100}},"status_values":{"no":656,"revenge_ghost_already_unfollowed":48,"unfollowed":16,"yes_late":1,"yes":100,"pending":9},"note":"mature の率で見る"},
+  "last_reply": {"at": "2026-10-18T13:04:05.950Z", "age_hours": 14, "stale": true},
+  "supervisor": {"at":"2026-10-19T03:23:56Z","date_jst":"2026-10-19","ran":9,"total":9,"not_run":[],"fixed":[]},
+  "followback_bands": {"with_count":470,"total_rows":830,"bands":{"1000-4999":{"n":162,"back":27,"mature":152,"mature_back":25,"rate":16.4},"300-999":{"n":119,"back":20,"mature":113,"mature_back":19,"rate":16.8},"0-99":{"n":90,"back":19,"mature":87,"mature_back":18,"rate":20.7},"5000-49999":{"n":74,"back":2,"mature":71,"mature_back":2,"rate":2.8},"100-299":{"n":24,"back":6,"mature":22,"mature_back":5,"rate":22.7},"50000-up":{"n":1,"back":1,"mature":1,"mature_back":1,"rate":100}},"status_values":{"no":656,"revenge_ghost_already_unfollowed":48,"unfollowed":16,"yes_late":1,"yes":100,"pending":9},"note":"mature の率で見る"},
   "host": "NaokinoMBP-2",
   "job_count": 26,
   "jobs": [
@@ -46,18 +46,18 @@
   },
   "activity": {
     "date": "2026-10-19",
-    "posted_today": 2,
+    "posted_today": 4,
     "detail": "ログを走査した",
     "sources": [
-      {"file": "comment-orchestrator.log", "count": 1},
-      {"file": "comment-warmup.log", "count": 1}
+      {"file": "comment-orchestrator.log", "count": 2},
+      {"file": "comment-warmup.log", "count": 2}
     ]
   },
   "autoload": {
     "target": 15,
-    "tried": 0,
-    "loaded": 0,
-    "labels": []
+    "tried": 14,
+    "loaded": 14,
+    "labels": ["ai.openclaw.comment-warmup", "ai.openclaw.competitor-follower-follow", "ai.openclaw.hashtag-follow", "ai.openclaw.badge-followback", "ai.openclaw.reply-followback-check", "ai.openclaw.reply-followers-cleanup", "ai.openclaw.incoming-reply-watcher", "ai.openclaw.pipeline-heartbeat", "ai.openclaw.mutual-prune", "ai.openclaw.daily-supervisor", "ai.openclaw.caffeinate", "ai.openclaw.follower-snapshot", "ai.openclaw.x-loop-guardian", "ai.openclaw.follow-balance"]
   },
   "unloaded_count": 61,
   "unloaded": [
