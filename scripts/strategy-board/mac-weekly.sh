@@ -83,3 +83,20 @@ cat > "$BOARD/mac-weekly-status.json" <<JSONEOF
 {"generated":"$(date '+%Y-%m-%dT%H:%M:%S%z')","gsc":{"rc":$GSC_RC,"ok":$GSC_OK},"a8_partnered":{"rc":$A8_RC,"ok":$A8_OK},"others":{"rc":$OT_RC,"ok":$OT_OK},"x":{"ok":$X_OK},"x_numbers":{"ok":$XN_OK}}
 JSONEOF
 "$NODE_BIN" -e 'JSON.parse(require("fs").readFileSync(process.argv[1],"utf8"))' "$BOARD/mac-weekly-status.json" && echo "board weekly: gsc=$GSC_OK a8=$A8_OK others=$OT_OK x=$X_OK x_numbers=$XN_OK"
+
+# 4) **書いたらすぐ ops/heartbeat に送る**（2026-10-19）
+# heartbeat（30 分ごと）は最初に worktree を origin に巻き戻す（reset --hard）。そのため、ここで書き換えた
+# 既存のファイル（gsc-weekly.json など）は、送られる前に巻き戻しで消えていた。10/12 から 1 週間、作戦室の数字が止まった原因。
+# 新しく増えるファイル（trend/<日付>.json）は巻き戻しで消えないので届いていた。
+WT="$(cd "$REPORTS/.." && pwd)"
+if git -C "$WT" rev-parse --git-dir >/dev/null 2>&1; then
+  git -C "$WT" add -f "reports/board" 2>/dev/null
+  if ! git -C "$WT" diff --cached --quiet -- reports/board; then
+    git -C "$WT" commit -q -m "ops: board daily $(date '+%Y-%m-%dT%H:%M:%S%z')" -- reports/board 2>/dev/null
+    for i in 1 2 3; do
+      git -C "$WT" push -q origin "HEAD:ops/heartbeat" 2>/dev/null && { echo "board weekly: pushed"; break; }
+      git -C "$WT" fetch -q origin ops/heartbeat 2>/dev/null; git -C "$WT" rebase -q "origin/ops/heartbeat" 2>/dev/null || git -C "$WT" rebase --abort 2>/dev/null
+      sleep 5
+    done
+  fi
+fi
