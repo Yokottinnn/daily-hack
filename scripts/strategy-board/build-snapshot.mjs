@@ -246,6 +246,7 @@ if (xNum?.header?.followers) {
   add('プロフィールへのアクセス（7 日）', kfmt(d7.profileVisits), 'アナリティクス 7D');
   add('インプレッション（90 日）', kfmt(d90.impressions), 'アナリティクス 3M。返信を含む全体');
   add('プロフィールへのアクセス（90 日）', kfmt(d90.profileVisits), 'アナリティクス 3M');
+  add('オリジナルコンテンツ報酬', ocr.eligible === false ? '対象外' : ocr.eligible === true ? '対象' : null, '収益化の条件の画面');
   add('認証済みインプレッション（90 日・ホーム・返信除く）', ocr.verifiedImpressions90 != null ? `${ocr.verifiedImpressions90.toLocaleString()} / 50万（収益化の条件）` : null, '収益化の条件の画面');
 }
 const xAutoKeys = new Set(xAuto.map((r) => r.k.replace(/（[^）]*）/g, '')));
@@ -279,8 +280,9 @@ if (nonSearch.length) push('info', 'non-search', `検索のクリックが読者
 const ngs = a8Rows.filter((r) => r.ng);
 if (ngs.length) push('warn', 'ng-program', `A8 の提携中に、ブログの読者層と合わない案件が ${ngs.length} 件（${ngs.map((r) => r.name.slice(0, 20)).join('、')}）。記事には使わない。`);
 // **毎日取るものが 2 日以上古ければ鳴らす**（2026-10-19。週 1 だった頃の「9 日」のままで、10/12 から止まっていても鳴らなかった）
-const staleness = [['検索データ', gsc?.generated], ['A8 の一覧', a8?.generated], ['X の数字', xNum?.generated], ['読者データ', lastDay]]
-  .map(([n, t]) => [n, t, t ? daysAgo(t) : null]).filter(([, t, d]) => !t || d >= 2);
+// 読者データ（Cloudflare）は前日分が翌朝に入るので、2 日前までは正常。3 日で鳴らす
+const staleness = [['検索データ', gsc?.generated, 2], ['A8 の一覧', a8?.generated, 2], ['X の数字', xNum?.generated, 2], ['読者データ', lastDay, 3]]
+  .map(([n, t, lim]) => [n, t, t ? daysAgo(t) : null, lim]).filter(([, t, d, lim]) => !t || d >= lim);
 if (staleness.length) push('warn', 'stale', `古いデータ：${staleness.map(([n, , d]) => d == null ? `${n}（届いていない）` : `${n}（${d} 日前）`).join('、')}。Mac の毎日のジョブ（com.dailyhack.board-weekly・6:40）が動いているかを確かめる。**この所見が出ている日は「数字を更新した」と報告しない。**`);
 if (!a8) push('warn', 'a8-missing', 'A8 の提携一覧がまだ届いていない（Mac の週次ジョブの初回待ち）。');
 for (const p of manual.pending || []) if (p.since && daysAgo(p.since) > 21) push('info', 'pending-' + p.key, `${p.label} は申請から ${daysAgo(p.since)} 日。審査の状況を確かめる。`);
