@@ -15985,14 +15985,14 @@
         "r": 1
       },
       {
-        "path": "/images/walk-poikatsu-2026/logos/dhealth.png",
-        "v": 0,
-        "r": 2
-      },
-      {
         "path": "/images/takanawa-gateway-city-guide-2026/logos/ogawa-pan013.png",
         "v": 0,
         "r": 1
+      },
+      {
+        "path": "/images/walk-poikatsu-2026/logos/dhealth.png",
+        "v": 0,
+        "r": 2
       },
       {
         "path": "/images/home-router-wimax-comparison-2026/eyecatch.jpg",
@@ -16134,7 +16134,7 @@
       },
       {
         "k": "TwitterBot",
-        "v": 7
+        "v": 6
       },
       {
         "k": "Chrome",
