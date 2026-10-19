@@ -1,9 +1,33 @@
 {
- "generated": "2026-10-12T09:44:19.535Z",
- "total": 69,
+ "generated": "2026-10-19T02:28:25.661Z",
+ "total": 72,
  "from": 0,
- "to": 69,
+ "to": 72,
  "rows": [
+  {
+   "id": "s00000025070001",
+   "name": "【映画・スポーツ・海外ドラマみるなら】WOWOWオンデマンド",
+   "reward": "新規有料プラン契約1230円 EPC",
+   "self": false,
+   "point": false,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000023216002",
+   "name": "重い物もかさばる物も当日届く！IYNSbyONIGO",
+   "reward": "新規購入3000円 ▽ポイントサイト",
+   "self": false,
+   "point": true,
+   "listing": "リスティングNG"
+  },
+  {
+   "id": "s00000020550001",
+   "name": "ABEMAプレミアム",
+   "reward": "新規会員登録902円 EPC",
+   "self": true,
+   "point": false,
+   "listing": "リスティング一部OK"
+  },
   {
    "id": "s00000026954002",
    "name": "全国レンタカー【イオンコンパストラベルモール】",
