@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-19T20:00:48Z",
+  "generated_at": "2026-10-19T20:30:59Z",
   "login_lock": {"present": false, "age_hours": 0},
   "cdp": {"healthy": true, "port": 18810},
   "x_jobs": {"loaded": 8, "expected": 8, "ai_total": 15, "halted": false, "missing": []},
-  "last_reply": {"at": "2026-10-19T13:04:20.755Z", "age_hours": 6, "stale": false},
-  "supervisor": {"at":"2026-10-19T08:00:06Z","date_jst":"2026-10-19","ran":9,"total":9,"not_run":[],"fixed":[]},
-  "followback_bands": {"with_count":471,"total_rows":831,"bands":{"1000-4999":{"n":163,"back":27,"mature":152,"mature_back":25,"rate":16.4},"300-999":{"n":119,"back":21,"mature":115,"mature_back":19,"rate":16.5},"0-99":{"n":90,"back":19,"mature":88,"mature_back":18,"rate":20.5},"5000-49999":{"n":74,"back":2,"mature":72,"mature_back":2,"rate":2.8},"100-299":{"n":24,"back":6,"mature":22,"mature_back":5,"rate":22.7},"50000-up":{"n":1,"back":1,"mature":1,"mature_back":1,"rate":100}},"status_values":{"no":661,"revenge_ghost_already_unfollowed":48,"unfollowed":16,"yes_late":1,"yes":101,"pending":4},"note":"mature の率で見る"},
+  "last_reply": {"at": "2026-10-19T20:04:48.501Z", "age_hours": 0, "stale": false},
+  "supervisor": {"at":"2026-10-19T20:04:37Z","date_jst":"2026-10-20","ran":9,"total":9,"not_run":[],"fixed":[]},
+  "followback_bands": {"with_count":473,"total_rows":833,"bands":{"1000-4999":{"n":164,"back":27,"mature":156,"mature_back":25,"rate":16},"300-999":{"n":120,"back":21,"mature":115,"mature_back":19,"rate":16.5},"0-99":{"n":90,"back":19,"mature":88,"mature_back":18,"rate":20.5},"5000-49999":{"n":74,"back":2,"mature":72,"mature_back":2,"rate":2.8},"100-299":{"n":24,"back":6,"mature":22,"mature_back":5,"rate":22.7},"50000-up":{"n":1,"back":1,"mature":1,"mature_back":1,"rate":100}},"status_values":{"no":661,"revenge_ghost_already_unfollowed":48,"unfollowed":16,"yes_late":1,"yes":101,"pending":6},"note":"mature の率で見る"},
   "host": "NaokinoMBP-2",
   "job_count": 26,
   "jobs": [
@@ -46,11 +46,11 @@
   },
   "activity": {
     "date": "2026-10-19",
-    "posted_today": 40,
+    "posted_today": 54,
     "detail": "ログを走査した",
     "sources": [
-      {"file": "comment-orchestrator.log", "count": 14},
-      {"file": "comment-warmup.log", "count": 26}
+      {"file": "comment-orchestrator.log", "count": 19},
+      {"file": "comment-warmup.log", "count": 35}
     ]
   },
   "autoload": {
@@ -124,7 +124,7 @@
       {"label": "com.dailyhack.publish-prime-oneshot", "plist_mtime": "2026-10-17T15:17:32Z"}
   ],
   "clone": {
-    "branch": "main",
+    "branch": "refresh/20261020-0530",
     "behind": 0,
     "dirty": 0
   },
