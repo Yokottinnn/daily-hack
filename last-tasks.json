@@ -1,3 +1,3 @@
 [
-      {"task": "t321-board-fresh-numbers.sh", "rc": 0, "out": " } } ```  ## ③ board-weekly を kickstart した（rc=0）。結果は次の heartbeat で reports/board/mac-weekly-status.json に出る"}
+      {"task": "t322-board-push-diag.sh", "rc": 0, "out": " ```text  reports/board/gsc-weekly.json | 2 +-  1 file changed, 1 insertion(+), 1 deletion(-) ```"}
   ]
