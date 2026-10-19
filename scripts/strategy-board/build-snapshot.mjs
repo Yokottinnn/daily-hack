@@ -221,12 +221,35 @@ if (fol.length > 14) {
 
 const xData = { generated: xw?.generated || null, joined: xPostsJoined, facts: xFacts, followers: (xw?.followers || []).filter((f) => typeof f.count === 'number'), posts: xw?.posts || [], keys: xw?.keys || null, reviewSets };
 
-// ---------- X の数字（共通戦略の「共有の数字」から。tweet2 が一次情報で更新している） ----------
+// ---------- X の数字 ----------
+// **2026-10-19 まで、ここは docs/growth-strategy.md の手書きの表（10/12）だけを読んでいた。** 誰も更新せず、
+// フォロワー 345 のまま 1 週間出し続け、利用者に「全然最新じゃない」と指摘された（実数は 10/18 で 507）。
+// いまは Mac が毎日 6:40 に X の画面から読む reports/board/x-numbers.json（x-numbers.js）を先に使い、
+// 手書きの表は、自動で取れない項目の補いにだけ使う。
 const gs = fs.existsSync(path.join(ROOT, 'docs/growth-strategy.md')) ? fs.readFileSync(path.join(ROOT, 'docs/growth-strategy.md'), 'utf8') : '';
-const xShared = ((gs.split('## 共有の数字')[1] || '').split('\n## ')[0] || '').split('\n')
+const xManual = ((gs.split('## 共有の数字')[1] || '').split('\n## ')[0] || '').split('\n')
   .filter((l) => /^\|/.test(l) && !/^\|\s*-/.test(l) && !/^\|\s*指標/.test(l))
   .map((l) => l.split('|').slice(1, -1).map((c) => c.trim().replace(/\*\*/g, '').replace(/`/g, '')))
-  .filter((c) => c.length >= 4).map(([k, v, at, src]) => ({ k, v, at, src }));
+  .filter((c) => c.length >= 4).map(([k, v, at, src]) => ({ k, v, at, src: src + '（手書き）' }));
+const xNum = json(show(HB, 'reports/board/x-numbers.json'));
+const jst = (t) => t ? new Date(new Date(t).getTime() + 9 * 3600e3).toISOString().slice(0, 16).replace('T', ' ') : '';
+const kfmt = (n) => n == null ? null : n >= 10000 ? (n / 1000).toFixed(1).replace(/\.0$/, '') + 'K' : n.toLocaleString();
+const xAuto = [];
+if (xNum?.header?.followers) {
+  const at = jst(xNum.generated), h = xNum.header, d7 = xNum.d7 || {}, d90 = xNum.d90 || {}, ocr = xNum.ocr || {};
+  const add = (k, v, src) => { if (v != null && v !== '') xAuto.push({ k, v: String(v), at, src: src + '（Mac が毎日読む）' }); };
+  add('フォロワー', h.followers.toLocaleString(), 'プロフィールのヘッダー');
+  add('フォロー中', h.following != null ? `${h.following.toLocaleString()}（比率 ${(h.following / h.followers).toFixed(3)}）` : null, 'プロフィールのヘッダー');
+  const vf = ocr.verifiedFollowers ?? d7.verifiedFollowers;
+  add('認証済みフォロワー', vf != null ? `${vf.toLocaleString()} / 500（収益化の条件）` : null, '収益化の条件の画面');
+  add('インプレッション（7 日）', kfmt(d7.impressions), 'アナリティクス 7D。返信を含む全体');
+  add('プロフィールへのアクセス（7 日）', kfmt(d7.profileVisits), 'アナリティクス 7D');
+  add('インプレッション（90 日）', kfmt(d90.impressions), 'アナリティクス 3M。返信を含む全体');
+  add('プロフィールへのアクセス（90 日）', kfmt(d90.profileVisits), 'アナリティクス 3M');
+  add('認証済みインプレッション（90 日・ホーム・返信除く）', ocr.verifiedImpressions90 != null ? `${ocr.verifiedImpressions90.toLocaleString()} / 50万（収益化の条件）` : null, '収益化の条件の画面');
+}
+const xAutoKeys = new Set(xAuto.map((r) => r.k.replace(/（[^）]*）/g, '')));
+const xShared = [...xAuto, ...xManual.filter((r) => !xAutoKeys.has(r.k.replace(/（[^）]*）/g, '')) && !/ブログ Google 検索クリック/.test(r.k))];
 
 // ---------- ASP ----------
 const a8 = json(show(HB, 'reports/board/asp-probe/a8partnered.json'));
@@ -238,6 +261,7 @@ const NG_PROGRAM = /チャットレディ|ライブチャット|出会い|アダ
 const a8Rows = (a8?.rows || []).map((r) => ({ ...r, yen: yen(r.reward), ng: NG_PROGRAM.test(r.name || '') }));
 
 // ---------- 所見（決まった条件に当たったものだけ） ----------
+if (gsc) xShared.push({ k: 'ブログ Google 検索クリック（28 日）', v: String(gscCur.clicks), at: `${gscCur.from}〜${gscCur.to}`, src: 'Search Console（Mac が毎日読む）' });
 const findings = [];
 const pct = (a, b) => (b ? Math.round((a - b) / b * 100) : null);
 const push = (level, key, text) => findings.push({ level, key, text });
@@ -254,8 +278,10 @@ const nonSearch = articles.filter((r) => readers(r) >= 10 && r.c28 / readers(r) 
 if (nonSearch.length) push('info', 'non-search', `検索のクリックが読者の 2 割未満なのに読まれている記事が ${nonSearch.length} 本：${nonSearch.map((r) => `「${r.title.slice(0, 20)}」（${r.h28 != null ? '読者' : '訪問'} ${readers(r)}・検索クリック ${r.c28}）`).join('、')}。${refDays28.length ? '読者はボットを除いた数。X か直接か等の内訳は Web Analytics の有効化待ち。' : '訪問はボットを含む数。'}`);
 const ngs = a8Rows.filter((r) => r.ng);
 if (ngs.length) push('warn', 'ng-program', `A8 の提携中に、ブログの読者層と合わない案件が ${ngs.length} 件（${ngs.map((r) => r.name.slice(0, 20)).join('、')}）。記事には使わない。`);
-const staleness = [['検索データ', gsc?.generated], ['A8 の一覧', a8?.generated], ['読者データ', lastDay]].filter(([, t]) => t && daysAgo(t) > 9);
-if (staleness.length) push('warn', 'stale', `古いデータ：${staleness.map(([n, t]) => `${n}（${daysAgo(t)} 日前）`).join('、')}。Mac の週次ジョブ（com.dailyhack.board-weekly）を確かめる。`);
+// **毎日取るものが 2 日以上古ければ鳴らす**（2026-10-19。週 1 だった頃の「9 日」のままで、10/12 から止まっていても鳴らなかった）
+const staleness = [['検索データ', gsc?.generated], ['A8 の一覧', a8?.generated], ['X の数字', xNum?.generated], ['読者データ', lastDay]]
+  .map(([n, t]) => [n, t, t ? daysAgo(t) : null]).filter(([, t, d]) => !t || d >= 2);
+if (staleness.length) push('warn', 'stale', `古いデータ：${staleness.map(([n, , d]) => d == null ? `${n}（届いていない）` : `${n}（${d} 日前）`).join('、')}。Mac の毎日のジョブ（com.dailyhack.board-weekly・6:40）が動いているかを確かめる。**この所見が出ている日は「数字を更新した」と報告しない。**`);
 if (!a8) push('warn', 'a8-missing', 'A8 の提携一覧がまだ届いていない（Mac の週次ジョブの初回待ち）。');
 for (const p of manual.pending || []) if (p.since && daysAgo(p.since) > 21) push('info', 'pending-' + p.key, `${p.label} は申請から ${daysAgo(p.since)} 日。審査の状況を確かめる。`);
 
@@ -267,6 +293,7 @@ const snapshot = {
     a8: a8 ? { file: 'reports/board/asp-probe/a8partnered.json', generated: a8.generated } : null,
     aspSync: aspStatus ? { generated: aspStatus.generated, pushed: lastTouched(HB, 'reports/asp-sync/status.json') } : null,
     macWeekly,
+    xNumbers: xNum ? { file: 'reports/board/x-numbers.json', generated: xNum.generated, error: xNum.error || null } : null,
   },
   kpi: {
     gsc28: gscCur, gscPrev28: gscPrev, gsc90: gsc90,

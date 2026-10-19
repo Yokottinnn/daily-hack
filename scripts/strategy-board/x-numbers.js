@@ -51,6 +51,9 @@ function num(v) {
     // ② アナリティクス 7 日（既定の表示）
     await page.goto('https://x.com/i/account_analytics', { waitUntil: 'domcontentloaded', timeout: 40000 });
     await page.waitForTimeout(6000);
+    // **期間は前回押したものが残る**（2026-10-19、7D と 3M が同じ 173.6K で出た）。先に 7D を押してから読む
+    const d7tab = page.getByText('7D', { exact: true }).first();
+    if (await d7tab.count()) { await d7tab.click({ timeout: 8000 }).catch(() => {}); await page.waitForTimeout(5000); }
     let t = await page.evaluate(() => document.body.innerText);
     const ver = t.match(/認証済みのフォロワー\n([\d,]+)\n[\s\S]*?\/ \n([\d,]+)/);
     r.d7 = {
