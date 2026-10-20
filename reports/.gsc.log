@@ -1,11 +1,6 @@
-Traceback (most recent call last):
-  File "/Users/ny/.openclaw/ops-heartbeat-wt/reports/.gsc-dump.py", line 78, in <module>
-    sys.exit(main())
-             ^^^^^^
-  File "/Users/ny/.openclaw/ops-heartbeat-wt/reports/.gsc-dump.py", line 43, in main
-    w = importlib.util.module_from_spec(spec); spec.loader.exec_module(w)
-                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "<frozen importlib._bootstrap_external>", line 936, in exec_module
-  File "<frozen importlib._bootstrap_external>", line 1073, in get_code
-  File "<frozen importlib._bootstrap_external>", line 1130, in get_data
-FileNotFoundError: [Errno 2] No such file or directory: '/Users/ny/.openclaw/ops-heartbeat-wt/reports/weekly-blog-report.py'
+| `pages_cur` | 2026-09-21 〜 2026-10-18 | **54** 行 |
+| `pages_prev` | 2026-08-24 〜 2026-09-20 | **63** 行 |
+| `pages_90d` | 2026-07-21 〜 2026-10-18 | **93** 行 |
+| `pq_90d` | 2026-07-21 〜 2026-10-18 | **104** 行 |
+| `queries_90d` | 2026-07-21 〜 2026-10-18 | **101** 行 |
+| `dates_90d` | 2026-07-21 〜 2026-10-18 | **90** 行 |
