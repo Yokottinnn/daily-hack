@@ -169,6 +169,13 @@ references:
 <p class="affiliate-text"><a href="https://px.a8.net/svt/ejp?a8mat=4BEIPG+7284UY+4EKC+5YRHE" target="_blank" rel="sponsored noopener nofollow">ABEMAの公式サイトはこちらから</a></p>
 </div>
 
+<p>映画・スポーツ中継・海外ドラマを観るなら、WOWOWオンデマンドも候補に入るわ。見放題の本数より「月に何本観るか」で割って、上の6社と同じ物差しで比べなさい。</p>
+
+<div class="affiliate-block">
+<div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4BEIPG+6Z8YU2+5DFW+5YZ75" target="_blank" rel="sponsored noopener nofollow"><img src="https://www23.a8.net/svt/bgt?aid=261017908422&wid=002&eno=01&mid=s00000025070001003000&mc=1" alt="WOWOWオンデマンド" width="300" height="250" loading="lazy"></a><img src="https://www15.a8.net/0.gif?a8mat=4BEIPG+6Z8YU2+5DFW+5YZ75" width="1" height="1" alt="" loading="lazy"></div>
+<p class="affiliate-text"><a href="https://px.a8.net/svt/ejp?a8mat=4BEIPG+6Z8YU2+5DFW+5YRHE" target="_blank" rel="sponsored noopener nofollow">WOWOWオンデマンドの公式サイト</a></p>
+</div>
+
 ## まとめ: 月額じゃなく「1本単価」で選べ
 
 長々書いたけど、覚えてほしいのはこれだけよ。

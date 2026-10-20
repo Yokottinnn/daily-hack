@@ -35,6 +35,11 @@
    （作業ブランチに未マージのコミットが無いことを先に `git log origin/main..HEAD` で確かめる）
 2. **スナップショットを作る**: `node scripts/strategy-board/build-snapshot.mjs --out /tmp/snap.json`
    - 末尾の行に `gsc=… pv=… a8=… findings=…` が出る。**`gsc=false` や `a8=0` なら、その事実を更新履歴に書く**（隠さない）
+   - **`sources` の日付を必ず見る。** 所見に `stale`（古いデータ）が出ていたら、**その日は「数字を更新した」と報告しない。**
+     先に Mac の `com.dailyhack.board-weekly`（6:40）が動いたかを `ops/heartbeat` の `reports/board/mac-weekly-status.json` で確かめ、
+     止まっていれば `ops/tasks` で原因を読んで直す（t321 の形）。報告には「どの数字が何日前のままか」を書く
+   - 2026-10-19、Search Console・A8・X の数字が 10/12 のまま 1 週間止まっていたのに「数字を入れ替えた」と報告し、
+     利用者に「マジで雑な仕事するなよ」と指摘された。**古い数字を入れ替えても、更新したことにはならない**
 3. **サイトの db に書く**（`ArtifactData` の `batch`・1 回の承認）:
    - `snapshot/latest`（`set`。既存なので **先に `get` して `if_version`**）
    - `snapshots/<YYYY-MM-DD>`（`set`・新規）
@@ -64,7 +69,9 @@
 9. **publish し直す**（本文を変えたときだけ）: `board.html` を scratchpad の `strategy-board.html` に写し、
    `Artifact publish url=https://claude.ai/artifact/9KWGybrAHF7LtbQdVpw9YN`（初回 read が要る）
 10. **commit → PR → CI → マージ**（`board.html`・`manual.json` などを変えたとき）。`npm run handoff` も
-11. **利用者への報告は作戦室の URL と、変わった点 3 行まで**。詳細はサイトの更新履歴に
+11. **利用者への報告は作戦室の URL と、変わった点 3 行まで**。詳細はサイトの更新履歴に。
+    **報告には毎回、費用を 1 行入れる**（「費用: 1 回 $0・1 日 $0・1 か月 $0（Mac は AI 不使用。この作業はプランの利用枠の中）」）。
+    2026-10-19 に費用を書かずに報告して「重大なルール違反」と指摘された（CLAUDE.md 2-B）。`enforce-cost.py` が書き忘れを止める
 
 ## db のコレクション
 

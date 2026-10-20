@@ -1,5 +1,5 @@
 #!/bin/bash
-# **収益化作戦室の元データを Mac で毎週取る**（launchd 毎週 月曜 06:40。asp-sync 06:12 の後）。
+# **収益化作戦室の元データを Mac で毎日取る**（launchd 毎日 06:40。asp-sync 06:12 の後。2026-10-17 に毎週から毎日へ）。
 # LLM 不使用・**$0**。書き出し先は heartbeat が push する reports/board/（公開ブランチ ops/heartbeat）。
 #
 #   1) Search Console の直近 28 日・前の 28 日・90 日（gsc-dump.py --rolling）→ board/gsc-weekly.json
@@ -69,8 +69,34 @@ if [ -n "$NODE_BIN" ] && [ -n "$XJS" ]; then
   run_limited 60 "$NODE_BIN" "$WORK/x-export.js" "$BOARD/x-weekly.json" > "$WORK/x.log" 2>&1 && X_OK=true
 fi
 
+# 2d) X の数字（ヘッダー・アナリティクス・収益化の条件）。読むだけ・$0（2026-10-19 追加。それまで作戦室の X の数字は 10/12 の手書きだった）
+XN_OK=false
+W="$HOME/.openclaw/workspace"
+git -C "$REPO" show origin/main:scripts/strategy-board/x-numbers.js > "$W/.x-numbers.js" 2>/dev/null
+if [ -n "$NODE_BIN" ] && [ -s "$W/.x-numbers.js" ]; then
+  ( cd "$W" && run_limited 150 "$NODE_BIN" "$W/.x-numbers.js" "$BOARD/x-numbers.json" > "$WORK/xn.log" 2>&1 )
+  "$NODE_BIN" -e 'const j=JSON.parse(require("fs").readFileSync(process.argv[1],"utf8"));process.exit(j.header&&j.header.followers?0:1)' "$BOARD/x-numbers.json" 2>/dev/null && XN_OK=true
+fi
+
 # 3) 実行結果（自分で parse して確かめる）
 cat > "$BOARD/mac-weekly-status.json" <<JSONEOF
-{"generated":"$(date '+%Y-%m-%dT%H:%M:%S%z')","gsc":{"rc":$GSC_RC,"ok":$GSC_OK},"a8_partnered":{"rc":$A8_RC,"ok":$A8_OK},"others":{"rc":$OT_RC,"ok":$OT_OK},"x":{"ok":$X_OK}}
+{"generated":"$(date '+%Y-%m-%dT%H:%M:%S%z')","gsc":{"rc":$GSC_RC,"ok":$GSC_OK},"a8_partnered":{"rc":$A8_RC,"ok":$A8_OK},"others":{"rc":$OT_RC,"ok":$OT_OK},"x":{"ok":$X_OK},"x_numbers":{"ok":$XN_OK}}
 JSONEOF
-"$NODE_BIN" -e 'JSON.parse(require("fs").readFileSync(process.argv[1],"utf8"))' "$BOARD/mac-weekly-status.json" && echo "board weekly: gsc=$GSC_OK a8=$A8_OK others=$OT_OK x=$X_OK"
+"$NODE_BIN" -e 'JSON.parse(require("fs").readFileSync(process.argv[1],"utf8"))' "$BOARD/mac-weekly-status.json" && echo "board weekly: gsc=$GSC_OK a8=$A8_OK others=$OT_OK x=$X_OK x_numbers=$XN_OK"
+
+# 4) **書いたらすぐ ops/heartbeat に送る**（2026-10-19）
+# heartbeat（30 分ごと）は最初に worktree を origin に巻き戻す（reset --hard）。そのため、ここで書き換えた
+# 既存のファイル（gsc-weekly.json など）は、送られる前に巻き戻しで消えていた。10/12 から 1 週間、作戦室の数字が止まった原因。
+# 新しく増えるファイル（trend/<日付>.json）は巻き戻しで消えないので届いていた。
+WT="$(cd "$REPORTS/.." && pwd)"
+if git -C "$WT" rev-parse --git-dir >/dev/null 2>&1; then
+  git -C "$WT" add -f "reports/board" 2>/dev/null
+  if ! git -C "$WT" diff --cached --quiet -- reports/board; then
+    git -C "$WT" commit -q -m "ops: board daily $(date '+%Y-%m-%dT%H:%M:%S%z')" -- reports/board 2>/dev/null
+    for i in 1 2 3; do
+      git -C "$WT" push -q origin "HEAD:ops/heartbeat" 2>/dev/null && { echo "board weekly: pushed"; break; }
+      git -C "$WT" fetch -q origin ops/heartbeat 2>/dev/null; git -C "$WT" rebase -q "origin/ops/heartbeat" 2>/dev/null || git -C "$WT" rebase --abort 2>/dev/null
+      sleep 5
+    done
+  fi
+fi

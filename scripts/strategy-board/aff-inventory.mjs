@@ -20,6 +20,8 @@ function a8Programs() {
   // 手で入れた案件（カタログに無い・2026-10-17 の即時提携）
   map.set('7284UY+4EKC', { id: 'abema', name: 'ABEMAプレミアム' });
   map.set('8MSBBU+4Z4W', { id: 'iyns', name: 'IYNSbyONIGO（イトーヨーカドーネットスーパー）' });
+  map.set('6Z8YU2+5DFW', { id: 'wowow', name: 'WOWOWオンデマンド' });
+  map.set('8P61QY+5YKQ', { id: 'carricare', name: 'キャリカレ（通信講座）' });
   return map;
 }
 function short(n) {
