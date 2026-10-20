@@ -16212,5 +16212,830 @@
       "uniques": 317,
       "scope": "zone"
     }
+  },
+  "2026-10-19": {
+    "visits": 676,
+    "requests": 1130,
+    "paths": 342,
+    "jp": 14,
+    "human": 15,
+    "top": [
+      {
+        "path": "/",
+        "v": 22,
+        "r": 22
+      },
+      {
+        "path": "/tags/%E6%99%B4%E6%B5%B7%E3%83%95%E3%83%A9%E3%83%83%E3%82%B0/",
+        "v": 21,
+        "r": 21
+      },
+      {
+        "path": "/tags/%E6%99%82%E7%B5%A6%E6%8F%9B%E7%AE%97/",
+        "v": 21,
+        "r": 21
+      },
+      {
+        "path": "/posts/momiji-2026-kanto/",
+        "v": 14,
+        "r": 14
+      },
+      {
+        "path": "/tags/%E6%8A%BD%E9%81%B8/",
+        "v": 13,
+        "r": 13
+      },
+      {
+        "path": "/tags/%E6%8A%95%E8%B3%87/",
+        "v": 13,
+        "r": 13
+      },
+      {
+        "path": "/tags/%E5%BE%A1%E6%AE%BF%E5%A0%B4/",
+        "v": 12,
+        "r": 12
+      },
+      {
+        "path": "/tags/%E6%9C%89%E6%98%8E/",
+        "v": 12,
+        "r": 12
+      },
+      {
+        "path": "/tags/%E6%B1%9F%E6%9D%B1%E5%8C%BA/",
+        "v": 12,
+        "r": 12
+      },
+      {
+        "path": "/tags/%E5%B9%BD%E9%9C%8A%E4%BC%9A%E5%93%A1/",
+        "v": 12,
+        "r": 12
+      },
+      {
+        "path": "/tags/%E6%AD%A9%E3%81%84%E3%81%A6%E8%B2%AF%E3%81%BE%E3%82%8B/",
+        "v": 12,
+        "r": 12
+      },
+      {
+        "path": "/tags/%E6%A5%AD%E5%8B%99%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC/",
+        "v": 12,
+        "r": 12
+      },
+      {
+        "path": "/tags/%E6%9D%B1%E4%BA%AC%20%E7%B4%85%E8%91%89%20%E3%81%8A%E3%81%99%E3%81%99%E3%82%81/",
+        "v": 12,
+        "r": 12
+      },
+      {
+        "path": "/tags/%E6%A5%BD%E5%A4%A9%E9%8A%80%E8%A1%8C/",
+        "v": 12,
+        "r": 12
+      },
+      {
+        "path": "/tags/%E6%A5%BD%E5%A4%A9%E5%B8%82%E5%A0%B4/",
+        "v": 12,
+        "r": 12
+      },
+      {
+        "path": "/tags/%E6%9C%A8%E6%9B%B4%E6%B4%A5/",
+        "v": 12,
+        "r": 12
+      },
+      {
+        "path": "/tags/%E6%9C%88%E5%B3%B6/",
+        "v": 12,
+        "r": 12
+      },
+      {
+        "path": "/tags/%E6%B1%9F%E6%9D%B1%E8%8A%B1%E7%81%AB%E5%A4%A7%E4%BC%9A/",
+        "v": 12,
+        "r": 12
+      },
+      {
+        "path": "/tags/%E6%99%82%E9%96%93%E4%BE%A1%E5%80%A4/",
+        "v": 12,
+        "r": 12
+      },
+      {
+        "path": "/tags/%E6%99%82%E7%B5%A6/",
+        "v": 12,
+        "r": 12
+      },
+      {
+        "path": "/tags/%E6%A5%BD%E5%A4%A9FX/",
+        "v": 12,
+        "r": 12
+      },
+      {
+        "path": "/tags/%E6%AF%94%E8%BC%83/",
+        "v": 12,
+        "r": 12
+      },
+      {
+        "path": "/tags/%E6%A5%BD%E5%A4%A9%E8%A8%BC%E5%88%B8/",
+        "v": 12,
+        "r": 12
+      },
+      {
+        "path": "/tags/2026%E5%B9%B4/",
+        "v": 12,
+        "r": 12
+      },
+      {
+        "path": "/tags/%E6%9C%9D%E9%A3%9F/",
+        "v": 12,
+        "r": 12
+      },
+      {
+        "path": "/tags/%E6%A0%BC%E5%AE%89%E8%88%AA%E7%A9%BA%E5%88%B8/",
+        "v": 12,
+        "r": 12
+      },
+      {
+        "path": "/tags/%E6%A0%BC%E5%AE%89SIM/",
+        "v": 12,
+        "r": 12
+      },
+      {
+        "path": "/tags/%E6%99%B4%E6%B5%B7/",
+        "v": 12,
+        "r": 12
+      },
+      {
+        "path": "/tags/%E6%AD%A9%E3%81%84%E3%81%A6%E3%83%9D%E3%82%A4%E6%B4%BB/",
+        "v": 12,
+        "r": 12
+      },
+      {
+        "path": "/tags/%E6%88%90%E7%94%B0%E7%A9%BA%E6%B8%AF/",
+        "v": 11,
+        "r": 11
+      },
+      {
+        "path": "/tags/%E5%BE%8C%E6%82%94/",
+        "v": 11,
+        "r": 11
+      },
+      {
+        "path": "/tags/%E5%B9%B4%E8%A1%A8/",
+        "v": 11,
+        "r": 11
+      },
+      {
+        "path": "/tags/%E6%A5%BD%E5%A4%A9%E3%81%8A%E8%B2%B7%E3%81%84%E7%89%A9%E3%83%9E%E3%83%A9%E3%82%BD%E3%83%B3/",
+        "v": 11,
+        "r": 11
+      },
+      {
+        "path": "/tags/%E6%A5%BD%E5%A4%A9%E3%83%A2%E3%83%90%E3%82%A4%E3%83%AB/",
+        "v": 10,
+        "r": 10
+      },
+      {
+        "path": "/tags/%E6%98%AD%E5%92%8C%E8%A8%98%E5%BF%B5%E5%85%AC%E5%9C%92/",
+        "v": 10,
+        "r": 10
+      },
+      {
+        "path": "/tags/%E6%98%BC%20%E9%81%85%E3%81%84/",
+        "v": 10,
+        "r": 10
+      },
+      {
+        "path": "/tags/2026/",
+        "v": 9,
+        "r": 9
+      },
+      {
+        "path": "/posts/outlet-mall-guide-2026/",
+        "v": 7,
+        "r": 7
+      },
+      {
+        "path": "/posts/point-economy-real-results-2026/",
+        "v": 6,
+        "r": 7
+      },
+      {
+        "path": "/posts/lalaport-guide-2026/",
+        "v": 4,
+        "r": 5
+      },
+      {
+        "path": "/posts/prime-sale-vs-rakuten-autumn-2026/",
+        "v": 4,
+        "r": 4
+      },
+      {
+        "path": "/posts/walk-vs-pointsite-2026/",
+        "v": 3,
+        "r": 3
+      },
+      {
+        "path": "/posts/gyudon-chains-cashless-2026-jun/",
+        "v": 3,
+        "r": 3
+      },
+      {
+        "path": "/posts/walk-poikatsu-2026/",
+        "v": 3,
+        "r": 3
+      },
+      {
+        "path": "/posts/home-router-wimax-comparison-2026/",
+        "v": 3,
+        "r": 3
+      },
+      {
+        "path": "/tags/SoftBank%20%E5%85%89/",
+        "v": 3,
+        "r": 3
+      },
+      {
+        "path": "/tags/PayPay/",
+        "v": 3,
+        "r": 3
+      },
+      {
+        "path": "/posts/point-service-complete-guide-2026/",
+        "v": 2,
+        "r": 2
+      },
+      {
+        "path": "/posts/pointsite-comparison-2026/",
+        "v": 2,
+        "r": 2
+      },
+      {
+        "path": "/posts/ikea-delivery-vs-carshare-2026/",
+        "v": 2,
+        "r": 2
+      },
+      {
+        "path": "/posts/hotel-booking-sites-2026/",
+        "v": 2,
+        "r": 2
+      },
+      {
+        "path": "/posts/sauna-openings-2026/",
+        "v": 2,
+        "r": 2
+      },
+      {
+        "path": "/posts/hikari-cashback-comparison-2026/",
+        "v": 2,
+        "r": 2
+      },
+      {
+        "path": "/posts/domestic-flight-tour-sites-2026/",
+        "v": 2,
+        "r": 2
+      },
+      {
+        "path": "/posts/internet-line-comparison-2026/",
+        "v": 2,
+        "r": 2
+      },
+      {
+        "path": "/tags/Amazon/",
+        "v": 2,
+        "r": 2
+      },
+      {
+        "path": "/tags/%E3%83%9B%E3%83%86%E3%83%AB%E4%BA%88%E7%B4%84%E3%82%B5%E3%82%A4%E3%83%88/",
+        "v": 2,
+        "r": 2
+      },
+      {
+        "path": "/tags/%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88%E3%82%A2%E3%83%83%E3%83%97%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%9A%E3%83%BC%E3%83%B3/",
+        "v": 2,
+        "r": 2
+      },
+      {
+        "path": "/tags/Yahoo!%E3%83%88%E3%83%A9%E3%83%99%E3%83%AB/",
+        "v": 2,
+        "r": 2
+      },
+      {
+        "path": "/tags/%E3%83%9B%E3%83%BC%E3%83%A0%E3%83%AB%E3%83%BC%E3%82%BF%E3%83%BC/",
+        "v": 2,
+        "r": 2
+      },
+      {
+        "path": "/tags/QR%E3%82%B3%E3%83%BC%E3%83%89%E6%B1%BA%E6%B8%88/",
+        "v": 2,
+        "r": 2
+      },
+      {
+        "path": "/tags/%E3%81%98%E3%82%83%E3%82%89%E3%82%93/",
+        "v": 2,
+        "r": 2
+      },
+      {
+        "path": "/tags/Sakura%20Mobile/",
+        "v": 2,
+        "r": 2
+      },
+      {
+        "path": "/tags/ANA/",
+        "v": 2,
+        "r": 2
+      },
+      {
+        "path": "/tags/Rakuten%20Turbo/",
+        "v": 2,
+        "r": 2
+      },
+      {
+        "path": "/tags/SBI%20FX/",
+        "v": 2,
+        "r": 2
+      },
+      {
+        "path": "/tags/SoftBank%20Air/",
+        "v": 2,
+        "r": 2
+      },
+      {
+        "path": "/tags/au%E3%81%B2%E3%81%8B%E3%82%8A/",
+        "v": 2,
+        "r": 2
+      },
+      {
+        "path": "/tags/%E3%81%A1%E3%82%87%E3%81%B3%E3%83%AA%E3%83%83%E3%83%81/",
+        "v": 2,
+        "r": 2
+      },
+      {
+        "path": "/tags/So-net%20%E5%85%89/",
+        "v": 2,
+        "r": 2
+      },
+      {
+        "path": "/tags/%E5%B7%A5%E4%BA%8B%E4%B8%8D%E8%A6%81/",
+        "v": 2,
+        "r": 2
+      },
+      {
+        "path": "/tags/%E3%82%BF%E3%82%A4%E3%83%A0%E3%82%BA%E3%82%AB%E3%83%BC/",
+        "v": 2,
+        "r": 2
+      },
+      {
+        "path": "/posts/credit-card-kaiaku-2026/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/posts/rakuten-marathon-guide-2026/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/posts/price-hike-2026-summer-defense/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/posts/poikatsu-hourly-wage-2026/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/posts/matsuya-60th-cashless-2026-jun/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/posts/oiso-prince-spgr-guide-2026/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/posts/overseas-esim-wifi-comparison-2026/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/posts/5/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/posts/takuhai-kaitori-comparison-2026/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/posts/wangan-supermarkets-2026/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/posts/hoso-daigaku-gakuwari-2026/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/posts/budget-gym-cost-per-visit-2026/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/posts/move-to-earn-poikatsu-apps-2026/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/posts/poikatsu-tax-guide-2026/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/posts/tokyo-discount-supermarket-2026/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/posts/summer-cospa-travel-2026/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/posts/amazon-prime-day-rakuten-ss-2026/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/posts/pocket-wifi-comparison-2026/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/posts/wangan-tower-construction-map-2026/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/posts/point-kaiaku-timeline-2026/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/posts/cheap-sim-speed-cost-2026/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E9%AB%98%E8%BC%AA%E3%82%B2%E3%83%BC%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A4%E3%82%B7%E3%83%86%E3%82%A3%20%E9%A7%90%E8%BB%8A%E5%A0%B4/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E3%81%95%E3%81%A8%E3%81%B5%E3%82%8B/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/JAL%20Wellness%20Travel/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/PeX/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/DMM%20FX/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/SAUNA%E6%B1%BD%E6%B1%BD/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E5%85%A5%E4%BC%9A%E7%89%B9%E5%85%B8/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E9%9F%93%E5%9B%BD/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/BIGLOBE%20WiMAX/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E3%83%81%E3%82%A7%E3%83%BC%E3%83%B3%E5%BA%97/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/JAL/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E3%83%A2%E3%83%90%E3%82%BE%E3%82%A6/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E3%81%8A%E3%81%99%E3%81%99%E3%82%81/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E4%BD%8F%E5%AE%85%E3%83%AD%E3%83%BC%E3%83%B3/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/So-net%E5%85%89/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E3%81%8A%E5%8F%B0%E5%A0%B4/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/Pixel%20Moon/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E3%83%9B%E3%83%86%E3%83%AB%E4%BA%88%E7%B4%84/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E3%83%97%E3%83%A9%E3%82%A4%E3%83%A0%E6%84%9F%E8%AC%9D%E7%A5%AD2026/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/RenoBody/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/IKEA/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E3%83%AA%E3%82%B3%E3%83%9E%E3%83%BC%E3%82%B9/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E5%8F%B0%E6%B9%BE/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E3%83%97%E3%83%AD%E3%83%9F%E3%82%B9/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E6%B5%B7%E5%A4%96eSIM/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E6%96%B0%E5%AE%BF%E5%BE%A1%E8%8B%91/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88%E9%82%84%E5%85%83/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/SBI%E6%90%8D%E4%BF%9D/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E3%83%89%E3%83%B3%E3%83%BB%E3%82%AD%E3%83%9B%E3%83%BC%E3%83%86/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/60%E5%91%A8%E5%B9%B4/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/MONSTER%20MOBILE/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E3%82%B5%E3%83%AD%E3%83%B3%E8%84%B1%E6%AF%9B/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/2026%E5%B9%B4%E6%94%B9%E6%AD%A3/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E6%B5%B7%E5%A4%96%E3%83%AD%E3%83%BC%E3%83%9F%E3%83%B3%E3%82%B0/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E3%81%BE%E3%81%84%E3%81%B0%E3%81%99%E3%81%91%E3%81%A3%E3%81%A8/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/aruku&/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E3%83%95%E3%83%AC%E3%83%83%E3%83%84%E5%85%89/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/Visa%E5%89%B2/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E3%83%95%E3%82%A3%E3%83%83%E3%83%88%E3%83%8D%E3%82%B9/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/Powl/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E3%83%9D%E3%82%A4%E6%B4%BB/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E9%82%84%E5%85%83%E7%8E%87/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/category/wangan-life/",
+        "v": 1,
+        "r": 1
+      },
+      {
+        "path": "/tags/%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88%E3%82%A4%E3%83%B3%E3%82%AB%E3%83%A0/",
+        "v": 1,
+        "r": 1
+      }
+    ],
+    "truncated": false,
+    "countries": [
+      {
+        "k": "PL",
+        "v": 416
+      },
+      {
+        "k": "US",
+        "v": 144
+      },
+      {
+        "k": "FR",
+        "v": 86
+      },
+      {
+        "k": "JP",
+        "v": 14
+      },
+      {
+        "k": "FI",
+        "v": 5
+      },
+      {
+        "k": "NZ",
+        "v": 3
+      },
+      {
+        "k": "KR",
+        "v": 2
+      },
+      {
+        "k": "NL",
+        "v": 2
+      },
+      {
+        "k": "UA",
+        "v": 1
+      },
+      {
+        "k": "SG",
+        "v": 1
+      },
+      {
+        "k": "DE",
+        "v": 1
+      },
+      {
+        "k": "AU",
+        "v": 1
+      },
+      {
+        "k": "GB",
+        "v": 0
+      }
+    ],
+    "browsers": [
+      {
+        "k": "Unknown",
+        "v": 566
+      },
+      {
+        "k": "BingBot",
+        "v": 55
+      },
+      {
+        "k": "GoogleBot",
+        "v": 30
+      },
+      {
+        "k": "Chrome",
+        "v": 7
+      },
+      {
+        "k": "TwitterBot",
+        "v": 5
+      },
+      {
+        "k": "AppleBot",
+        "v": 5
+      },
+      {
+        "k": "ChromeMobile",
+        "v": 3
+      },
+      {
+        "k": "Edge",
+        "v": 2
+      },
+      {
+        "k": "MobileSafari",
+        "v": 1
+      },
+      {
+        "k": "MobileSafariWebview",
+        "v": 1
+      },
+      {
+        "k": "Firefox",
+        "v": 1
+      }
+    ],
+    "posts": {
+      "/posts/lalaport-guide-2026/": {
+        "human": 2
+      },
+      "/posts/momiji-2026-kanto/": {
+        "human": 1
+      },
+      "/posts/oiso-prince-spgr-guide-2026/": {
+        "human": 1
+      },
+      "/posts/outlet-mall-guide-2026/": {
+        "human": 4
+      },
+      "/posts/point-economy-real-results-2026/": {
+        "human": 0
+      },
+      "/posts/sauna-openings-2026/": {
+        "human": 1
+      }
+    },
+    "zone": {
+      "pageViews": 1692,
+      "uniques": 323,
+      "scope": "zone"
+    }
   }
 }
