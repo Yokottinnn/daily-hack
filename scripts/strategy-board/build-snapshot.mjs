@@ -231,7 +231,13 @@ const xManual = ((gs.split('## 共有の数字')[1] || '').split('\n## ')[0] || 
   .filter((l) => /^\|/.test(l) && !/^\|\s*-/.test(l) && !/^\|\s*指標/.test(l))
   .map((l) => l.split('|').slice(1, -1).map((c) => c.trim().replace(/\*\*/g, '').replace(/`/g, '')))
   .filter((c) => c.length >= 4).map(([k, v, at, src]) => ({ k, v, at, src: src + '（手書き）' }));
-const xNum = json(show(HB, 'reports/board/x-numbers.json'));
+// 読めなかった日のファイル（全部 null）は使わず、履歴をさかのぼって最後に読めたものを使う（2026-10-22）
+let xNum = json(show(HB, 'reports/board/x-numbers.json'));
+if (xNum && !xNum.header?.followers) {
+  const revs = (git('log', '--format=%H', '-n', '15', HB, '--', 'reports/board/x-numbers.json') || '').split('\n').filter(Boolean);
+  const good = revs.map((h) => json(show(h, 'reports/board/x-numbers.json'))).find((j) => j?.header?.followers);
+  if (good) xNum = { ...good, fallbackFrom: xNum.generated };
+}
 const jst = (t) => t ? new Date(new Date(t).getTime() + 9 * 3600e3).toISOString().slice(0, 16).replace('T', ' ') : '';
 const kfmt = (n) => n == null ? null : n >= 10000 ? (n / 1000).toFixed(1).replace(/\.0$/, '') + 'K' : n.toLocaleString();
 const xAuto = [];
@@ -284,6 +290,7 @@ if (ngs.length) push('warn', 'ng-program', `A8 の提携中に、ブログの読
 const staleness = [['検索データ', gsc?.generated, 2], ['A8 の一覧', a8?.generated, 2], ['X の数字', xNum?.generated, 2], ['読者データ', lastDay, 3]]
   .map(([n, t, lim]) => [n, t, t ? daysAgo(t) : null, lim]).filter(([, t, d, lim]) => !t || d >= lim);
 if (staleness.length) push('warn', 'stale', `古いデータ：${staleness.map(([n, , d]) => d == null ? `${n}（届いていない）` : `${n}（${d} 日前）`).join('、')}。Mac の毎日のジョブ（com.dailyhack.board-weekly・6:40）が動いているかを確かめる。**この所見が出ている日は「数字を更新した」と報告しない。**`);
+if (xNum?.fallbackFrom) push('warn', 'x-fallback', `今朝は X の数字を読めなかった（${jst(xNum.fallbackFrom)}）。作戦室の X の数字は ${jst(xNum.generated)} に読んだもの。**この所見が出ている日は X の数字を「更新した」と報告しない。**`);
 if (!a8) push('warn', 'a8-missing', 'A8 の提携一覧がまだ届いていない（Mac の週次ジョブの初回待ち）。');
 for (const p of manual.pending || []) if (p.since && daysAgo(p.since) > 21) push('info', 'pending-' + p.key, `${p.label} は申請から ${daysAgo(p.since)} 日。審査の状況を確かめる。`);
 

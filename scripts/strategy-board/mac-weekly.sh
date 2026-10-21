@@ -79,8 +79,13 @@ XN_OK=false
 W="$HOME/.openclaw/workspace"
 git -C "$REPO" show origin/main:scripts/strategy-board/x-numbers.js > "$W/.x-numbers.js" 2>/dev/null
 if [ -n "$NODE_BIN" ] && [ -s "$W/.x-numbers.js" ]; then
-  ( cd "$W" && run_limited 150 "$NODE_BIN" "$W/.x-numbers.js" "$BOARD/x-numbers.json" > "$WORK/xn.log" 2>&1 )
-  "$NODE_BIN" -e 'const j=JSON.parse(require("fs").readFileSync(process.argv[1],"utf8"));process.exit(j.header&&j.header.followers?0:1)' "$BOARD/x-numbers.json" 2>/dev/null && XN_OK=true
+  ( cd "$W" && run_limited 150 "$NODE_BIN" "$W/.x-numbers.js" "$WORK/x-numbers.json" > "$WORK/xn.log" 2>&1 )
+  # **読めなかったときは前回の良いファイルを上書きしない**（2026-10-22、全部 null のファイルで上書きした）。読めなかった記録は別名で残す
+  if "$NODE_BIN" -e 'const j=JSON.parse(require("fs").readFileSync(process.argv[1],"utf8"));process.exit(j.header&&j.header.followers?0:1)' "$WORK/x-numbers.json" 2>/dev/null; then
+    mv "$WORK/x-numbers.json" "$BOARD/x-numbers.json"; XN_OK=true
+  else
+    cp "$WORK/x-numbers.json" "$BOARD/x-numbers-failed.json" 2>/dev/null || true
+  fi
 fi
 
 # 3) 実行結果（自分で parse して確かめる）
