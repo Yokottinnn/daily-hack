@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-21T01:16:50Z",
+  "generated_at": "2026-10-21T01:47:07Z",
   "login_lock": {"present": false, "age_hours": 0},
   "cdp": {"healthy": true, "port": 18810},
   "x_jobs": {"loaded": 8, "expected": 8, "ai_total": 15, "halted": false, "missing": []},
   "last_reply": {"at": "2026-10-20T20:05:57.520Z", "age_hours": 5, "stale": false},
   "supervisor": {"at":"2026-10-20T20:04:44Z","date_jst":"2026-10-21","ran":9,"total":9,"not_run":[],"fixed":[]},
-  "followback_bands": {"with_count":482,"total_rows":845,"bands":{"1000-4999":{"n":165,"back":27,"mature":159,"mature_back":27,"rate":17},"300-999":{"n":122,"back":21,"mature":116,"mature_back":20,"rate":17.2},"0-99":{"n":93,"back":19,"mature":90,"mature_back":19,"rate":21.1},"5000-49999":{"n":76,"back":3,"mature":72,"mature_back":2,"rate":2.8},"100-299":{"n":25,"back":6,"mature":24,"mature_back":6,"rate":25},"50000-up":{"n":1,"back":1,"mature":1,"mature_back":1,"rate":100}},"status_values":{"no":664,"revenge_ghost_already_unfollowed":48,"unfollowed":16,"yes_late":1,"yes":102,"pending":14},"note":"mature の率で見る"},
+  "followback_bands": {"with_count":483,"total_rows":846,"bands":{"1000-4999":{"n":165,"back":27,"mature":159,"mature_back":27,"rate":17},"300-999":{"n":122,"back":21,"mature":116,"mature_back":20,"rate":17.2},"0-99":{"n":93,"back":19,"mature":90,"mature_back":19,"rate":21.1},"5000-49999":{"n":77,"back":3,"mature":72,"mature_back":2,"rate":2.8},"100-299":{"n":25,"back":6,"mature":24,"mature_back":6,"rate":25},"50000-up":{"n":1,"back":1,"mature":1,"mature_back":1,"rate":100}},"status_values":{"no":664,"revenge_ghost_already_unfollowed":48,"unfollowed":16,"yes_late":1,"yes":102,"pending":15},"note":"mature の率で見る"},
   "host": "NaokinoMBP-2",
   "job_count": 26,
   "jobs": [
