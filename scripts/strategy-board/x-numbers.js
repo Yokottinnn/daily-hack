@@ -52,6 +52,8 @@ function num(v) {
     const pick = (re) => { const l = links.find((x) => re.test(x.href)); return l ? l.text : null; };
     const fing = pick(/\/following$/), fers = pick(/\/(verified_)?followers$/);
     r.header = { following: num((fing || '').split(' ')[0]), followers: num((fers || '').split(' ')[0]), raw: { following: fing, followers: fers } };
+    // 読めなかったときは、何が出ていたかを残す（2026-10-22、全部 null で原因が分からなかった）
+    if (!r.header.followers) r.debug = { url: page.url(), title: await page.title().catch(() => ''), text: (await page.evaluate(() => document.body.innerText).catch(() => '')).slice(0, 300) };
 
     // ② アナリティクス 7 日（既定の表示）
     await page.goto('https://x.com/i/account_analytics', { waitUntil: 'domcontentloaded', timeout: 40000 });
