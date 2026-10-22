@@ -35,7 +35,7 @@ const FILES = {
   // 2026-10-03 に 3 版目の静止画へ「とてもいいね👍」。動く版（GIF）は同じ絵に動きを付けたもの
   // **未投稿**（2026-10-12）。青バッジ取得の報告。素材はキャラと自作の図だけなので出所の行は要らない
   // "blue-badge" は 2026-10-12 に投稿済み。2026-10-18 にページの容量（16MB）のため外した。戻すときは page.html の blue-badge-a/b も戻す
-  "follower-300": ["1-card.jpg", "1-card-ai.gif", "1-card.gif", "1-card-v2.gif"],
+  // "follower-300" は投稿済み。2026-10-20 にページの容量（16MB）のため外した
   // **未投稿**（2026-10-04）。1〜3 枚目は利用者が Slack で共有したアプリの画面（本人の画面・切り出しだけ）。
   // 4 枚目はロゴ（App Store のアイコン）と App Store 掲載素材の自作カード。出所の行が要らない
   "jal-2x-2026-10": ["1-notice.jpg", "2-monthly.jpg", "3-history.jpg", "4-service.jpg"],
@@ -49,6 +49,8 @@ const FILES = {
   // "prime-sale-vs-rakuten-autumn-2026" は 2026-10-18 12:27 に投稿済み。同日、ページの容量（16MB）のため外した
   "point-economy-real-results-2026": ["1-calc.jpg", "2-rules.jpg", "3-real.jpg", "4-how.jpg"],
   "follower-500": ["1-card.gif"],
+  // **未投稿**（2026-10-20）。東京湾大華火祭の直前・引用ポスト。素材は自作の図だけなので出所の行は要らない
+  "tokyo-bay-hanabi-2026-weekend": ["1-checklist.jpg", "2-alcohol.jpg", "3-roads.jpg", "4-no-ticket.jpg"],
 };
 
 const map = {};
