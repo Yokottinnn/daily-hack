@@ -411,3 +411,19 @@ x243 は 19:55 と 19:58 に起動され、2 回目はロックで止まった�
 - `ops/tasks` の実行モデル: [`ops-task-runner.md`](ops-task-runner.md)
 - 遅延の経緯と対策: [`x-post-latency-postmortem.md`](x-post-latency-postmortem.md)
 - 画像の作り方: `.claude/skills/x-post-images/SKILL.md`
+
+## 画像 2 枚以上の単発投稿が、黙って画像なしで出ていた（2026-10-23・x328〜x332）
+
+**花火の告知（画像 4 枚・1 本だけ）が画像なしで出て、利用者が手で消した。**
+
+| | |
+| --- | --- |
+| 原因 | `run-publish.sh` の単発の経路（Branch 2・`thread_chain` が 1 本以下）は `[ -f "$IMAGE_PATH" ]` で画像の有無を見ていた。**`image_path` はカンマ区切り**なので 2 枚以上だと偽になり、**画像なしの呼び出しに切り替わる。エラーは出ない** |
+| 付いていた例 | 1 枚だけ（フォロワー500人の GIF）／2 本以上のスレッド（プライム。別の経路で画像を渡す） |
+| 直したこと | x332 でカンマで分けて全部あるかを見るようにした。**画像を指定しているのに 1 枚でも無ければ、投稿せずに `image-missing` で止まる**（元は `run-publish.sh.bak-x332`） |
+
+**投稿タスクの書き方（以後これを必ず入れる）**
+
+- **出したあと、投稿のページで画像の枚数を数える**（`article` の `[data-testid="tweetPhoto"]`）。期待と違えばレポートの先頭に出す。x332 の §4 を写す
+- `run-publish.sh` の結果は **`parse-main-result`（stdout が空）で `ok:false` になることが多い**が、出ていることがある。**再送しない。** プロフィールを読んで判定する
+- 画像の説明（ALT）は `post-via-playwright.js` が `ALT_TEXTS_FILE`（JSON 配列）で対応している（x264・x265）。CC BY / CC BY-SA の撮影者名を ALT に書くときはこれを使う
