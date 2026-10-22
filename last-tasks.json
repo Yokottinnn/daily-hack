@@ -1,3 +1,3 @@
 [
-      {"task": "x329-verify-hanabi.sh", "rc": 0, "out": "x329 / verify-hanabi.md"}
+      {"task": "x330-hanabi-media-check.sh", "rc": 0, "out": "x330 / hanabi-media.md"}
   ]
