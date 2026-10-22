@@ -11,9 +11,14 @@
 set -uo pipefail
 REPO="${DAILY_HACK_REPO:-${BLOG_REPO:-$HOME/projects/anta-baka-x/blog}}"
 REPORTS="${OPS_REPORT_DIR:-$HOME/.openclaw/ops-heartbeat-wt/reports}"
-BOARD="$REPORTS/board"
 WORK="${TMPDIR:-/tmp}/board-weekly"
-mkdir -p "$BOARD" "$WORK"
+# **取得中は worktree の外（$WORK/out/board）に書き、最後にまとめて移してすぐ送る**（2026-10-21）。
+# heartbeat は :14 と :44 ごろに worktree を origin に巻き戻す。10/21 は 6:40 に書いた gsc-weekly.json が
+# 6:44 の巻き戻しで消え、6:45 の送信に入らなかった。書いてから送るまでの隙間を数秒にする。
+BOARD_FINAL="$REPORTS/board"
+BOARD="$WORK/out/board"
+rm -rf "$WORK/out"; mkdir -p "$BOARD" "$BOARD_FINAL" "$WORK"
+cp -R "$BOARD_FINAL/." "$BOARD/" 2>/dev/null || true
 git -C "$REPO" fetch -q origin main 2>/dev/null || true
 NODE_BIN=/opt/homebrew/bin/node; [ -x "$NODE_BIN" ] || NODE_BIN="$(command -v node || true)"
 PY=""
@@ -74,8 +79,13 @@ XN_OK=false
 W="$HOME/.openclaw/workspace"
 git -C "$REPO" show origin/main:scripts/strategy-board/x-numbers.js > "$W/.x-numbers.js" 2>/dev/null
 if [ -n "$NODE_BIN" ] && [ -s "$W/.x-numbers.js" ]; then
-  ( cd "$W" && run_limited 150 "$NODE_BIN" "$W/.x-numbers.js" "$BOARD/x-numbers.json" > "$WORK/xn.log" 2>&1 )
-  "$NODE_BIN" -e 'const j=JSON.parse(require("fs").readFileSync(process.argv[1],"utf8"));process.exit(j.header&&j.header.followers?0:1)' "$BOARD/x-numbers.json" 2>/dev/null && XN_OK=true
+  ( cd "$W" && run_limited 150 "$NODE_BIN" "$W/.x-numbers.js" "$WORK/x-numbers.json" > "$WORK/xn.log" 2>&1 )
+  # **読めなかったときは前回の良いファイルを上書きしない**（2026-10-22、全部 null のファイルで上書きした）。読めなかった記録は別名で残す
+  if "$NODE_BIN" -e 'const j=JSON.parse(require("fs").readFileSync(process.argv[1],"utf8"));process.exit(j.header&&j.header.followers?0:1)' "$WORK/x-numbers.json" 2>/dev/null; then
+    mv "$WORK/x-numbers.json" "$BOARD/x-numbers.json"; XN_OK=true
+  else
+    cp "$WORK/x-numbers.json" "$BOARD/x-numbers-failed.json" 2>/dev/null || true
+  fi
 fi
 
 # 3) 実行結果（自分で parse して確かめる）
@@ -83,6 +93,9 @@ cat > "$BOARD/mac-weekly-status.json" <<JSONEOF
 {"generated":"$(date '+%Y-%m-%dT%H:%M:%S%z')","gsc":{"rc":$GSC_RC,"ok":$GSC_OK},"a8_partnered":{"rc":$A8_RC,"ok":$A8_OK},"others":{"rc":$OT_RC,"ok":$OT_OK},"x":{"ok":$X_OK},"x_numbers":{"ok":$XN_OK}}
 JSONEOF
 "$NODE_BIN" -e 'JSON.parse(require("fs").readFileSync(process.argv[1],"utf8"))' "$BOARD/mac-weekly-status.json" && echo "board weekly: gsc=$GSC_OK a8=$A8_OK others=$OT_OK x=$X_OK x_numbers=$XN_OK"
+
+# 3b) 外で書いたものを worktree に移す（ここから送信までは数秒）
+cp -R "$BOARD/." "$BOARD_FINAL/"
 
 # 4) **書いたらすぐ ops/heartbeat に送る**（2026-10-19）
 # heartbeat（30 分ごと）は最初に worktree を origin に巻き戻す（reset --hard）。そのため、ここで書き換えた
