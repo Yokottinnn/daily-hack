@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-22T21:44:04.190Z",
+ "generated": "2026-10-23T21:44:31.660Z",
  "followers": [
   {
    "date": "2026-05-23",
@@ -480,6 +480,12 @@
    "count": 558,
    "following": null,
    "at": "2026-10-22T15:36:37.528Z"
+  },
+  {
+   "date": "2026-10-23",
+   "count": 577,
+   "following": null,
+   "at": "2026-10-23T15:36:50.202Z"
   }
  ],
  "posts": [
@@ -592,51 +598,51 @@
    "firstSeen": "2026-09-23T14:47:51.103Z"
   },
   {
-   "at": "2026-10-22T17:42:19.789Z",
+   "at": "2026-10-23T20:50:04.584Z",
    "id": "blog-promo-20261003-follower-300",
    "tweet_id": "2106354716733235381",
    "posted_at": "2026-10-03T12:04:00.000Z",
-   "age_h": 461.6,
+   "age_h": 488.8,
    "replies": 1,
    "reposts": 1,
    "likes": 6,
-   "views": 487,
+   "views": 501,
    "firstSeen": "2026-10-03T12:46:14.114Z"
   },
   {
-   "at": "2026-10-22T17:42:14.511Z",
+   "at": "2026-10-23T20:49:59.187Z",
    "id": "blog-promo-20261004-jal-2x",
    "tweet_id": "2106699830819258421",
    "posted_at": "2026-10-04T11:02:46.801Z",
-   "age_h": 438.7,
+   "age_h": 465.8,
    "replies": 1,
    "reposts": 1,
    "likes": 9,
-   "views": 607,
+   "views": 622,
    "firstSeen": "2026-10-04T12:52:24.141Z"
   },
   {
-   "at": "2026-10-22T17:42:09.225Z",
+   "at": "2026-10-23T20:49:53.774Z",
    "id": "blog-promo-20261010-funds",
    "tweet_id": "2109062647786455517",
    "posted_at": "2026-10-10T23:25:22.072Z",
-   "age_h": 282.3,
+   "age_h": 309.4,
    "replies": 1,
    "reposts": null,
    "likes": 4,
-   "views": 364,
+   "views": 380,
    "firstSeen": "2026-10-11T01:30:54.946Z"
   },
   {
-   "at": "2026-10-22T17:42:03.897Z",
+   "at": "2026-10-23T20:49:48.496Z",
    "id": "blog-promo-20261011-momiji",
    "tweet_id": "2109272420473585757",
    "posted_at": "2026-10-11T13:18:58.028Z",
-   "age_h": 268.4,
+   "age_h": 295.5,
    "replies": 1,
    "reposts": 1,
-   "likes": 7,
-   "views": 526,
+   "likes": 8,
+   "views": 548,
    "firstSeen": "2026-10-11T13:34:15.862Z"
   },
   {
@@ -652,28 +658,40 @@
    "firstSeen": "2026-10-12T13:40:41.929Z"
   },
   {
-   "at": "2026-10-22T17:41:58.595Z",
+   "at": "2026-10-23T20:49:43.218Z",
    "id": "blog-promo-20261018-prime-vs-rakuten",
    "tweet_id": "2111660452979847604",
    "posted_at": "2026-10-18T03:28:05.430Z",
-   "age_h": 110.2,
+   "age_h": 137.4,
    "replies": 1,
    "reposts": 1,
-   "likes": 7,
-   "views": 296,
+   "likes": 9,
+   "views": 332,
    "firstSeen": "2026-10-18T05:14:31.157Z"
   },
   {
-   "at": "2026-10-22T17:41:53.308Z",
+   "at": "2026-10-23T20:49:37.917Z",
    "id": "blog-promo-20261018-follower-500",
    "tweet_id": "2111788774405570868",
    "posted_at": "2026-10-18T11:57:33.000Z",
-   "age_h": 101.7,
+   "age_h": 128.9,
    "replies": 1,
    "reposts": 1,
-   "likes": 15,
-   "views": 260,
+   "likes": 17,
+   "views": 309,
    "firstSeen": "2026-10-18T14:17:00.805Z"
+  },
+  {
+   "at": "2026-10-23T20:49:27.420Z",
+   "id": "blog-promo-20261023-tokyo-bay-hanabi-r2",
+   "tweet_id": "2113412348195283225",
+   "posted_at": "2026-10-22T23:29:03.000Z",
+   "age_h": 21.3,
+   "replies": 1,
+   "reposts": 1,
+   "likes": 6,
+   "views": 165,
+   "firstSeen": "2026-10-22T23:43:27.761Z"
   }
  ],
  "keys": {
@@ -695,5 +713,5 @@
    "views"
   ]
  },
- "impressionLines": 1906
+ "impressionLines": 1962
 }
