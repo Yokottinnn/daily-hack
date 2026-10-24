@@ -5,7 +5,7 @@ publishDate: 2026-10-24
 category: ["wangan-life"]
 tags: ["湾岸ニュース", "お台場", "アクアシティお台場", "リラックマ", "クリスマス", "イベント", "2026年"]
 isPR: false
-draft: false
+draft: true
 eyecatchUrl: "/images/aquacity-rilakkuma-xmas-2026/eyecatch.jpg"
 eyecatchAlt: "アクアシティお台場×リラックマ クリスマスパーティー 2026｜3F アクアアリーナのリラックマツリー"
 author: "hacker-ko"
