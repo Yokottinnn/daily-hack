@@ -69,8 +69,7 @@ const pos4to10 = pages90.filter((r) => r.p >= 4 && r.p <= 10.9);
 const queries = (gsc?.data?.queries_90d || []).sort((a, b) => b.i - a.i).slice(0, 15).map((r) => ({ q: r.keys[0], c: r.c, i: r.i, p: r.p }));
 // 記事×検索語（90 日）。作戦室の「2 ページ目までに入っている語と記事」（2026-10-24・利用者のコメント）。
 // Search Console は表示の少ない語を伏せるので、ここに出るのは伏せられなかった語だけ。
-const pq = (gsc?.data?.pq_90d || []).map((r) => ({ slug: slugOf(r.keys[0]), q: r.keys[1], c: r.c, i: r.i, p: r.p })).filter((r) => r.slug)
-  .map((r) => ({ ...r, title: posts[r.slug]?.title || r.slug }));
+const pq = (gsc?.data?.pq_90d || []).map((r) => ({ slug: slugOf(r.keys[0]), q: r.keys[1], c: r.c, i: r.i, p: r.p })).filter((r) => r.slug);   // 題名は articles から引く
 // 日ごとの表示・クリックを週にまとめる（推移グラフ用）
 const weekly = {};
 for (const r of gsc?.data?.dates_90d || []) {
@@ -281,7 +280,7 @@ const affByItem = {};
 for (const a of affInv) for (const it of a.items) {
   const k = it.asp + '\u0000' + it.item;
   (affByItem[k] = affByItem[k] || { asp: it.asp, item: it.item, n: 0, articles: [] });
-  affByItem[k].n += it.n; affByItem[k].articles.push({ slug: a.slug, title: a.title, n: it.n });
+  affByItem[k].n += it.n; affByItem[k].articles.push({ slug: a.slug, n: it.n });   // 題名は affInventory から引く（db の 1 文書 256KB の上限に収める）
 }
 const normName = (x) => (x || '').replace(/[\s　・｜|（）()【】\[\]!！+＋]/g, '').toLowerCase();
 const a8Articles = {};

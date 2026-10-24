@@ -981,7 +981,7 @@ tr[data-ccount]::after{top:4px;right:4px}
     const link=(r)=>'<a href="https://daily-hack.fieldbeside.com/posts/'+esc(r.slug)+'/" target="_blank" rel="noopener">'+esc(r.title)+'</a>';
     const PM=S.pvMeta||{};
     $('#tbl-top').innerHTML=(S.topPages||[]).map(r=>'<tr data-cid="now.top.'+esc(r.slug)+'"><td>'+link(r)+'</td><td class="num">'+fmtN(r.c)+'</td><td class="num">'+fmtN(r.i)+'</td><td class="num">'+(r.p!=null?r.p.toFixed(1):'—')+'</td><td class="num"><button type="button" class="linkish" data-detail="'+esc(r.slug)+'">'+fmtN(r.v90)+'</button></td><td>'+affPill(r.aff)+'</td></tr>').join('')||'<tr><td colspan="6" class="empty">データなし</td></tr>';
-    { const by={}; for(const r of (S.pq||[])) (by[r.slug]=by[r.slug]||{slug:r.slug,title:r.title,rows:[]}).rows.push(r);
+    { const by={}; for(const r of (S.pq||[])) (by[r.slug]=by[r.slug]||{slug:r.slug,title:((S.articles||[]).find(x=>x.slug===r.slug)||{}).title||r.slug,rows:[]}).rows.push(r);
       const groups=Object.values(by).map(g=>({...g,top:g.rows.filter(r=>r.p<=20).sort((a,b)=>b.i-a.i),rest:g.rows.filter(r=>r.p>20).sort((a,b)=>b.i-a.i)})).filter(g=>g.top.length).sort((a,b)=>b.top.reduce((x,r)=>x+r.i,0)-a.top.reduce((x,r)=>x+r.i,0));
       const q1=(r,full)=>'<li>'+esc(r.q)+' <span class="status">'+r.p.toFixed(1)+' 位・表示 '+fmtN(r.i)+(full?'・クリック '+fmtN(r.c):'')+'</span></li>';
       $('#tbl-pq').innerHTML=groups.map(g=>'<tr data-cid="now.pq.'+esc(g.slug)+'"><td>'+link(g)+'</td><td><ul class="plain" style="margin:0">'+g.top.slice(0,10).map(r=>q1(r,true)).join('')+'</ul>'+(g.top.length>10?'<details><summary>ほか '+(g.top.length-10)+' 語</summary><ul class="plain" style="margin:0">'+g.top.slice(10).map(r=>q1(r,true)).join('')+'</ul></details>':'')+'</td><td>'+(g.rest.length?'<ul class="plain" style="margin:0">'+g.rest.slice(0,8).map(r=>q1(r,false)).join('')+'</ul>':'<span class="status">ほかに出ている語は無い</span>')+'</td></tr>').join('')||'<tr><td colspan="3" class="empty">データなし</td></tr>'; }
@@ -1138,11 +1138,12 @@ tr[data-ccount]::after{top:4px;right:4px}
   function renderSelfback(){ const S=SNAP||{}; const rows=((S.a8&&S.a8.rows)||[]).filter(r=>r.self&&!r.ng).sort((a,b)=>(b.yen||0)-(a.yen||0)).slice(0,12);
     $('#tbl-selfback').innerHTML=rows.map(r=>'<tr data-cid="asp.self.'+esc(r.id)+'"><td>'+esc((r.name||'').slice(0,70))+'</td><td>'+esc(r.reward||'')+'</td><td>'+artList(r.articles)+'</td></tr>').join('')||'<tr><td colspan="3" class="empty">データなし</td></tr>'; }
   // 記事の一覧（たたんで出す）。0 本は「—」
-  function artList(arts){ arts=arts||[]; if(!arts.length) return '<span class="status">まだ無い</span>';
+  function artTitle(slug){ const S=SNAP||{}; const a=(S.affInventory||[]).find(x=>x.slug===slug)||(S.articles||[]).find(x=>x.slug===slug); return (a&&a.title)||slug; }
+  function artList(arts){ arts=(arts||[]).map(a=>Object.assign({title:artTitle(a.slug)},a)); if(!arts.length) return '<span class="status">まだ無い</span>';
     return '<details><summary>'+arts.length+' 本</summary><ul class="plain" style="margin:4px 0 0">'+arts.map(a=>'<li><a href="https://daily-hack.fieldbeside.com/posts/'+esc(a.slug)+'/" target="_blank" rel="noopener">'+esc((a.title||a.slug).slice(0,48))+'</a>（'+fmtN(a.n)+'）</li>').join('')+'</ul></details>'; }
   let byQ='';
   function renderByItem(){ const S=SNAP||{}; const tb=$('#tbl-byitem'); if(!tb) return; const all=S.affByItem||[];
-    const q=byQ.trim().toLowerCase(); const rows=all.filter(r=>!q||(r.item+' '+r.asp+' '+r.articles.map(a=>a.title+' '+a.slug).join(' ')).toLowerCase().includes(q));
+    const q=byQ.trim().toLowerCase(); const rows=all.filter(r=>!q||(r.item+' '+r.asp+' '+r.articles.map(a=>artTitle(a.slug)+' '+a.slug).join(' ')).toLowerCase().includes(q));
     $('#byitem-n').textContent=rows.length+' / '+all.length+' 件';
     tb.innerHTML=rows.map(r=>'<tr data-cid="asp.bi.'+hash(r.asp+r.item)+'"><td>'+esc(r.item)+'</td><td>'+esc(r.asp)+'</td><td class="num">'+fmtN(r.articles.length)+'</td><td class="num">'+fmtN(r.n)+'</td><td>'+artList(r.articles)+'</td></tr>').join('')||'<tr><td colspan="5" class="empty">'+(all.length?'該当なし':'データ待ち')+'</td></tr>'; applyCounts(); }
   { const i=$('#byitem-q'); if(i) i.addEventListener('input',()=>{ byQ=i.value; renderByItem(); }); }
