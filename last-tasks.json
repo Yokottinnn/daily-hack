@@ -1,3 +1,3 @@
 [
-      {"task": "t330-aeonmall-sources.sh", "rc": 0, "out": "-rw-r--r--    1 ny  staff     205 Oct 24 21:48 presentation-202605.pdf -rw-r--r--    1 ny  staff     205 Oct 24 21:48 top.html -rw-r--r--    1 ny  staff     397 Oct 24 21:48 wp-aeonmall-list.json -rw-r--r--    1 ny  staff  102638 Oct 24 21:48 wp-aeonmall.json ```"}
+      {"task": "x333-read-parse-main-result.sh", "rc": 0, "out": "x333 / parse-main-result.md"}
   ]
