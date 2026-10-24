@@ -26,5 +26,8 @@ ts((58,296),kicker,f(34),fill=(255,210,225))
 ts((54,344),t1,f(104)); ts((54,466),t2,f(78))
 rr((58,596,398,608),6,MAG+(255,)); ts((58,628),sub,f(36,light=True),fill=(245,245,245))
 ts((58,H-50),credit,f(19,light=True),fill=(220,220,220),off=1)
-hb=f(26); ht="@heng_ji31590"; htw=d.textlength(ht,font=hb); ts((W-50-htw,H-58),ht,hb,fill=(255,224,230))
+hb=f(26); ht="@heng_ji31590"; htw=d.textlength(ht,font=hb)
+# 写真の右下に権利表記（©…）がある素材は、ハンドルを右上へ逃がす（HERO_HANDLE_TOP=1）。表記は消さない
+hy=60 if _os.environ.get("HERO_HANDLE_TOP") else H-58
+ts((W-50-htw,hy),ht,hb,fill=(255,224,230))
 img.convert("RGB").save(out,quality=90); print("saved",out)

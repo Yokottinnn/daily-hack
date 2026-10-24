@@ -175,6 +175,32 @@ jobs:
                 | from_entries' /tmp/resp.json > /tmp/posts.json
             fi
 
+            # --- ボット除外のページビュー（2026-10-24 に足した） ---
+            # 作戦室で「ボットを除いたページビューも見たい」（利用者のコメント）。下のゾーン全体の数はボット込みで、
+            # fieldbeside.com の本体も混ざる。ここでは **ブログのホストだけ・HTML の応答だけ・ボットのブラウザを除いて** 数える。
+            # UU は無料プランの適応集計に無い（uniq が引けない）ので、ボット除外の UU は出せない。
+            sed -e 's/DIMENSION/userAgentBrowser/' \
+                -e 's/requestSource: "eyeball" }/requestSource: "eyeball", edgeResponseContentTypeName: "html" }/' \
+                /tmp/tmpl.graphql > /tmp/qh.graphql
+            jq -n --rawfile q /tmp/qh.graphql --arg zone "$zone_id" --arg start "$START" \
+              --arg end "$END" --arg host "$HOST" \
+              '{query:$q, variables:{zoneTag:$zone, start:$start, end:$end, host:$host}}' > /tmp/bodyh.json
+            curl -s https://api.cloudflare.com/client/v4/graphql \
+              -H "Authorization: Bearer ${CF_TOKEN}" -H "Content-Type: application/json" \
+              --data-binary @/tmp/bodyh.json > /tmp/resh.json || true
+            herr=$(jq -r '(.errors // []) | map(.message) | join(" / ")' /tmp/resh.json 2>/dev/null || echo "応答が JSON でない")
+            if [ -n "$herr" ]; then
+              printf '::warning::%s ボット除外のページビューが引けない（従来の集計は積む）: %.200s\n' "$DAY" "$herr"
+              echo 'null' > /tmp/humanpv.json
+            else
+              jq '
+                (.data.viewer.zones[0].httpRequestsAdaptiveGroups // [])
+                | { all: (map(.count) | add // 0),
+                    human: (map(select((.dimensions.userAgentBrowser
+                      | test("bot|crawl|spider|slurp|Unknown|HeadlessChrome"; "i")) | not) | .count) | add // 0),
+                    scope: "blog-html" }' /tmp/resh.json > /tmp/humanpv.json
+            fi
+
             # --- ページビューとユニークユーザー（2026-10-12 に足した） ---
             # 無料プランの日次集計（httpRequests1dGroups）はホスト別に絞れない。**ゾーン全体（fieldbeside.com を含む）の数**。
             # 引けなくても日の記録は止めない。
@@ -196,6 +222,7 @@ jobs:
               --slurpfile browsers /tmp/userAgentBrowser.json \
               --slurpfile posts /tmp/posts.json \
               --slurpfile zone /tmp/zone.json \
+              --slurpfile humanpv /tmp/humanpv.json \
               '
               ($paths[0]) as $p | ($countries[0]) as $c | ($browsers[0]) as $b |
               {
@@ -225,7 +252,9 @@ jobs:
                   # 記事ごとのボット除外の訪問。引けなかった日は null
                   posts: $posts[0],
                   # ゾーン全体のページビューと UU（fieldbeside.com を含む）。引けなかった日は null
-                  zone: $zone[0]
+                  zone: $zone[0],
+                  # ブログのホストの HTML の応答（ページビュー）。all＝ボット込み、human＝ボット除外。引けなかった日は null
+                  pv: $humanpv[0]
                 }
               }' > /tmp/record.json
             # **JSON を出したら自分で parse して確かめる**（最上位ルール 13）
