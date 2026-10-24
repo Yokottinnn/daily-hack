@@ -67,6 +67,10 @@ const pages90 = (gsc?.data?.pages_90d || []).map((r) => ({ slug: slugOf(r.keys[0
 const topPages = pages90.sort((a, b) => b.i - a.i).slice(0, 15).map((r) => ({ ...r, title: posts[r.slug]?.title || r.slug, aff: posts[r.slug]?.aff || 0 }));
 const pos4to10 = pages90.filter((r) => r.p >= 4 && r.p <= 10.9);
 const queries = (gsc?.data?.queries_90d || []).sort((a, b) => b.i - a.i).slice(0, 15).map((r) => ({ q: r.keys[0], c: r.c, i: r.i, p: r.p }));
+// 記事×検索語（90 日）。作戦室の「2 ページ目までに入っている語と記事」（2026-10-24・利用者のコメント）。
+// Search Console は表示の少ない語を伏せるので、ここに出るのは伏せられなかった語だけ。
+const pq = (gsc?.data?.pq_90d || []).map((r) => ({ slug: slugOf(r.keys[0]), q: r.keys[1], c: r.c, i: r.i, p: r.p })).filter((r) => r.slug)
+  .map((r) => ({ ...r, title: posts[r.slug]?.title || r.slug }));
 // 日ごとの表示・クリックを週にまとめる（推移グラフ用）
 const weekly = {};
 for (const r of gsc?.data?.dates_90d || []) {
@@ -165,6 +169,10 @@ const blog = {
   pv28: zoneDays28.length ? zoneDays28.reduce((a, d) => a + (daily[d].zone.pageViews || 0), 0) : null,
   uuDaySum28: zoneDays28.length ? zoneDays28.reduce((a, d) => a + (daily[d].zone.uniques || 0), 0) : null,
   zoneDays28: zoneDays28.length,
+  // ブログのホストの HTML の応答（＝ページビュー）。human はボット除外（2026-10-24 から積んでいる）
+  pvDays28: in28.filter((d) => daily[d]?.pv).length,
+  pvAll28: in28.some((d) => daily[d]?.pv) ? in28.reduce((a, d) => a + (daily[d]?.pv?.all || 0), 0) : null,
+  pvHuman28: in28.some((d) => daily[d]?.pv) ? in28.reduce((a, d) => a + (daily[d]?.pv?.human || 0), 0) : null,
 };
 
 // ---------- ASP の案件（A8 以外も） ----------
@@ -265,7 +273,27 @@ const macWeekly = json(show(HB, 'reports/board/mac-weekly-status.json'));
 const manual = json(fs.existsSync(path.join(ROOT, 'ops/data/board/manual.json')) ? fs.readFileSync(path.join(ROOT, 'ops/data/board/manual.json'), 'utf8') : null) || {};
 const yen = (s) => { const m = (s || '').replace(/,/g, '').match(/(\d{3,6})円/); return m ? +m[1] : null; };
 const NG_PROGRAM = /チャットレディ|ライブチャット|出会い|アダルト|風俗/;
-const a8Rows = (a8?.rows || []).map((r) => ({ ...r, yen: yen(r.reward), ng: NG_PROGRAM.test(r.name || '') }));
+const affInv = buildInventory();
+// 案件ごとに、どの記事に入っているか（2026-10-24・利用者のコメント「どの記事に案件名を入れているかの対応表」）。
+// 記事側の名前は短い（「OZmall」）が、A8 の案件名は長い（「…東京女子に人気【OZmall】」）。
+// 【】の中が一致するもの、なければ名前を含む案件が 1 つだけのものに結びつける。迷うものは結びつけない（下の affByItem には全部出る）。
+const affByItem = {};
+for (const a of affInv) for (const it of a.items) {
+  const k = it.asp + '\u0000' + it.item;
+  (affByItem[k] = affByItem[k] || { asp: it.asp, item: it.item, n: 0, articles: [] });
+  affByItem[k].n += it.n; affByItem[k].articles.push({ slug: a.slug, title: a.title, n: it.n });
+}
+const normName = (x) => (x || '').replace(/[\s　・｜|（）()【】\[\]!！+＋]/g, '').toLowerCase();
+const a8Articles = {};
+for (const v of Object.values(affByItem)) {
+  if (v.asp !== 'A8') continue;
+  const ni = normName(v.item);
+  const rows = a8?.rows || [];
+  let hit = rows.filter((r) => [...(r.name || '').matchAll(/【([^】]+)】/g)].some((m) => normName(m[1]) === ni));
+  if (hit.length !== 1) { const c = rows.filter((r) => normName(r.name).includes(ni) || ni.includes(normName(r.name))); hit = c.length === 1 ? c : []; }
+  if (hit.length === 1) (a8Articles[hit[0].id] = a8Articles[hit[0].id] || []).push(...v.articles);
+}
+const a8Rows = (a8?.rows || []).map((r) => ({ ...r, yen: yen(r.reward), ng: NG_PROGRAM.test(r.name || ''), articles: a8Articles[r.id] || [] }));
 
 // ---------- 所見（決まった条件に当たったものだけ） ----------
 if (gsc) xShared.push({ k: 'ブログ Google 検索クリック（28 日）', v: String(gscCur.clicks), at: `${gscCur.from}〜${gscCur.to}`, src: 'Search Console（Mac が毎日読む）' });
@@ -311,10 +339,11 @@ const snapshot = {
     posts: { total: postList.length, isPR: postList.filter((p) => p.isPR).length, withAff: postList.filter((p) => p.aff > 0).length },
     pos4to10: { pages: pos4to10.length, impressions: sum(pos4to10, 'i') },
   },
-  gscWeekly, topPages, queries, readTop, articles, pvMeta, xShared, monthly: monthlyRows, blog, others, xData,
+  gscWeekly, topPages, queries, pq, readTop, articles, pvMeta, xShared, monthly: monthlyRows, blog, others, xData,
   a8: a8 ? { total: a8.total, rows: a8Rows } : null,
   // 記事ごとの成果リンクの一覧（2026-10-17・利用者の指示）
-  affInventory: buildInventory(),
+  affInventory: affInv,
+  affByItem: Object.values(affByItem).sort((x, y) => y.articles.length - x.articles.length || y.n - x.n),
   manual,
   findings,
 };
