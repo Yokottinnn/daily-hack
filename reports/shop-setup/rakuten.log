@@ -1,7 +1,7 @@
 security: SecKeychainSearchCopyNext: The specified item could not be found in the keychain.
 # 3 店ボタンの Mac 側の準備: rakuten（scripts/shop/mac-setup.mjs）
 
-生成: **2026-10-25T08:12:18.165Z**
+生成: **2026-10-25T08:18:43.391Z**
 
 - 画面: https://webservice.rakuten.co.jp/app/list
 
@@ -49,6 +49,10 @@ security: SecKeychainSearchCopyNext: The specified item could not be found in th
   - button 「」 aria= title= data=
   - button 「」 aria= title= data=
 - アイコンを押したときのクリップボード: 空 ／ 空 ／ 空 ／ 空
+- 「Access Key」の行の HTML:
+```html
+<div class="col-sm-6 p-2"> <span id="［53文字・伏せた］" class="d-block text-secondary mb-1">Access Key</span> <div class="d-flex"> <code class="flex-grow-1" id="［47文字・伏せた］">［伏せ字］</code> <button type="button" id="［54文字・伏せた］" class="btn icon-button" onclick="toggleSecret('［36文字・伏せた］', this)"><i class="fa fa-eye"></i></button> <button type="button" id="［52文字・伏せた］" class="btn icon-button" onclick="copyToClipboard('［46文字・伏せた］')"><i class="fa fa-clone"></i></button> </div> </div>
+```
 - アイコンのボタン 4 個を押したあとの Access Key: まだ伏せ字（•••…）
 - 楽天 API（2026-07-01 版）の試し: HTTP 400・{
   "errors": {
