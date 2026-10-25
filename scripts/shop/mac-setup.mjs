@@ -98,7 +98,10 @@ try {
           const val = (re) => { const i = rows.findIndex((x) => re.test(x)); if (i < 0) return ''; const same = rows[i].replace(re, '').replace(/^[\s:：]+/, '').trim(); return same || rows[i + 1] || ''; };
           const inp = [...document.querySelectorAll('input')].map((e) => [((e.closest('tr,div,dl') || {}).innerText || '').slice(0, 40), e.value || '']);
           const fromInput = (re) => (inp.find(([l, v]) => re.test(l) && v) || [])[1] || '';
-          return { app: val(/^(Application ID|アプリID)/i) || fromInput(/Application ID/i), key: val(/^(Access Key|アクセスキー)/i) || fromInput(/Access Key/i) };
+          // t336: 値は入力欄（type=password を含む）に入っている可能性。ラベルの近くの入力欄の値を全部見る
+          const near = (re) => { for (const e of document.querySelectorAll('input, textarea, code, pre, span, td, dd')) { const lab = ((e.closest('tr,li,dl,div') || {}).innerText || '') + ' ' + (e.getAttribute('aria-label') || '') + ' ' + (e.name || '') + ' ' + (e.id || ''); const v = e.value || (e.tagName !== 'INPUT' && e.tagName !== 'TEXTAREA' ? e.textContent : '') || ''; if (re.test(lab) && /^[A-Za-z0-9_\-]{16,}$/.test(v.trim())) return v.trim(); } return ''; };
+          return { app: val(/^(Application ID|アプリID)/i) || fromInput(/Application ID/i) || near(/Application ID|applicationId/i), key: near(/Access Key|accessKey|アクセスキー/i) || val(/^(Access Key|アクセスキー)/i) || fromInput(/Access Key/i),
+            shape: [...document.querySelectorAll('input, textarea')].map((e) => `${e.tagName.toLowerCase()}[type=${e.type} name=${e.name} id=${e.id}] 値${(e.value || '').length}文字`).slice(0, 12) };
         }));
       }
     }
@@ -109,7 +112,13 @@ try {
       try { execFileSync('/usr/bin/security', ['add-generic-password', '-U', '-s', 'dailyhack-rakuten-ws', '-a', 'accessKey', '-w', key]); lines.push(`- Access Key を Keychain（dailyhack-rakuten-ws / accessKey）に入れた（${key.length} 文字）`); }
       catch (e) { lines.push(`- ⚠️ Keychain に入れられない: ${String(e).slice(0, 80)}`); }
     } else lines.push('- Access Key が画面に見つからない（「表示」ボタンで隠れている可能性）。ボタン一覧を下に出す');
-    if (!key) await dump('アプリ一覧の画面');
+    if (!key) {
+      lines.push('- 入力欄の形（値は文字数だけ）:', ...((got.shape || []).map((x) => `  - ${x}`)));
+      // t337: 入力欄には無かった。「Access Key」の行のまわりの HTML の形を出す（16 文字以上の英数は伏せる）
+      const html = await p.evaluate(() => { const el = [...document.querySelectorAll('*')].filter((e) => e.children.length < 6 && /Access Key/i.test(e.textContent || '')).sort((a, b) => (a.textContent || '').length - (b.textContent || '').length)[0];
+        let box = el; for (let i = 0; i < 3 && box && box.parentElement; i++) box = box.parentElement; return box ? box.outerHTML.replace(/\s+/g, ' ').slice(0, 2500) : ''; });
+      lines.push('- 「Access Key」の行のまわりの HTML（値は伏せる）:', '```html', mask(html).replace(/[●•*]{6,}/g, '［伏せ字］'), '```');
+    }
     else lines.push('- 価格の自動取得（mac-weekly.sh の 2e）は次の 6:40 から楽天の価格を取る');
     // API が通るか 1 回だけ（結果は件数と HTTP の状態だけ出す）
     const appId = keychain('applicationId'), acc = keychain('accessKey');
@@ -188,11 +197,10 @@ try {
       else {
         await first.click({ timeout: 5000 }).catch(() => {});
         await p.waitForTimeout(3000);
-        // 「ご確認ください」を含む、いま見えている箱の中の「提携申請する」
-        const box = p.locator('div:visible').filter({ hasText: 'ご確認ください' }).filter({ has: p.getByRole('button', { name: '閉じる' }) }).last();
-        const txt = (await box.innerText().catch(() => '')).replace(/\s+/g, ' ').slice(0, 900);
+        // 確認の画面（ご確認ください／閉じる／提携申請する）の「提携申請する」= data-promotion_id を持たない、見えているボタン（t336 は箱の探し方で落ちた）
+        const txt = await p.evaluate(() => { const h = [...document.querySelectorAll('*')].find((e) => e.children.length === 0 && /ご確認ください/.test(e.textContent || '') && e.getBoundingClientRect().height > 0); let b = h; for (let i = 0; i < 5 && b && b.parentElement; i++) { b = b.parentElement; if ((b.innerText || '').includes('閉じる')) break; } return b ? (b.innerText || '').replace(/\s+/g, ' ').slice(0, 900) : ''; }).catch((e) => '読めない: ' + String(e).slice(0, 80));
         lines.push('## 確認の画面の文字', '', `- ${mask(txt)}`, '');
-        const go2 = box.getByRole('button', { name: /^提携申請する$/ }).last();
+        const go2 = p.locator('button:visible:not([data-promotion_id]), a:visible:not([data-promotion_id]), input[type=submit]:visible').filter({ hasText: /^\s*提携申請する\s*$/ }).last();
         if (await go2.count()) {
           await go2.click({ timeout: 5000 }).catch(() => {});
           await p.waitForTimeout(5000);
@@ -203,6 +211,20 @@ try {
         const rows = await p.evaluate(() => (document.body.innerText || '').split('\n').map((x) => x.trim()).filter((x) => /Amazon\.co\.jp/.test(x)).slice(0, 5));
         lines.push('## 「申請中」で絞った一覧の Amazon の行', '', ...rows.map((x) => `- ${mask(x).slice(0, 160)}`), '');
       }
+    }
+  }
+
+  if (WHICH === 'moshimo-status') {
+    // 申請したかどうかを読むだけ（t336 は途中で落ちて記録が無い）。押さない
+    await go('https://af.moshimo.com/af/shop/promotion/detail?promotion_id=170');
+    const btn = await p.locator('button[data-promotion_id="170"]').count();
+    const words = await p.evaluate(() => [...new Set((document.body.innerText || '').match(/(申請中|提携中|否認中|未提携|審査中|申請済み)/g) || [])]);
+    lines.push(`- Amazon（170）の詳細: 「提携申請する」ボタン ${btn} 個・画面の状態の語 ${words.join(' / ') || 'なし'}`);
+    for (const st of ['1', '2']) {
+      await go(`https://af.moshimo.com/af/shop/promotion/search?words=Amazon&apply_status=${st}`);
+      const rows = await p.evaluate(() => (document.body.innerText || '').split('\n').map((x) => x.trim()).filter((x) => /Amazon\.co\.jp/.test(x)).slice(0, 3));
+      const hit = await p.evaluate(() => ((document.body.innerText || '').match(/検索結果: ?(\d+) ?件/) || [])[1] || '?');
+      lines.push(`- apply_status=${st} で絞った一覧: ${hit} 件・Amazon.co.jp の行 ${rows.length}`, ...rows.map((x) => `  - ${mask(x).slice(0, 140)}`));
     }
   }
 
