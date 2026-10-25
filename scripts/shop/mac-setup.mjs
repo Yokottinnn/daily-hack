@@ -132,7 +132,21 @@ try {
       for (let i = 0; i < n; i++) { await icons.nth(i).click({ timeout: 3000 }).catch(() => {}); await p.waitForTimeout(400); }
       await p.waitForTimeout(1500);
       const after = await p.evaluate(() => { const c = [...document.querySelectorAll('.card')].find((e) => /dailyhack/.test(e.textContent || '')); const rows = c ? (c.innerText || '').split('\n').map((x) => x.trim()).filter(Boolean) : []; const i = rows.findIndex((x) => /^Access Key$/i.test(x)); return i >= 0 ? rows[i + 1] || '' : ''; });
-      const k2 = (after.match(/^[A-Za-z0-9_\-]{16,}$/) || [])[0] || '';
+      let k2 = (after.match(/^[A-Za-z0-9_\-]{16,}$/) || [])[0] || '';
+      // t341: アイコンを押しても伏せ字のまま。アイコンはコピーのボタンらしいので、クリップボードから読む（値は Keychain に入れるだけ）
+      if (!k2) {
+        await ctx.grantPermissions(['clipboard-read', 'clipboard-write'], { origin: 'https://webservice.rakuten.co.jp' }).catch((e) => lines.push(`- クリップボードの許可: ${String(e).slice(0, 80)}`));
+        const appIdNow = keychain('applicationId'); const seen = [];
+        for (let i = 0; i < n; i++) {
+          await p.evaluate(() => navigator.clipboard.writeText('')).catch(() => {});
+          await icons.nth(i).click({ timeout: 3000 }).catch(() => {});
+          await p.waitForTimeout(600);
+          const v = String(await p.evaluate(() => navigator.clipboard.readText()).catch(() => '') || '').trim();
+          seen.push(/^[A-Za-z0-9_\-]{16,}$/.test(v) ? (v === appIdNow ? 'Application ID と同じ' : `${v.length} 文字`) : (v ? 'ほかの値' : '空'));
+          if (/^[A-Za-z0-9_\-]{16,}$/.test(v) && v !== appIdNow && !k2) k2 = v;
+        }
+        lines.push(`- アイコンを押したときのクリップボード: ${seen.join(' ／ ')}`);
+      }
       lines.push(`- アイコンのボタン ${n} 個を押したあとの Access Key: ${k2 ? `${k2.length} 文字（見えた）` : `まだ伏せ字（${after.slice(0, 3)}…）`}`);
       if (k2) {
         try { execFileSync('/usr/bin/security', ['add-generic-password', '-U', '-s', 'dailyhack-rakuten-ws', '-a', 'accessKey', '-w', k2]); lines.push(`- Access Key を Keychain（dailyhack-rakuten-ws / accessKey）に入れた（${k2.length} 文字）`); }
@@ -257,7 +271,12 @@ try {
     const reg = await p.evaluate(() => [...new Set([...document.querySelectorAll('a[href]')].filter((a) => /メディア|サイト登録|登録メディア/.test(a.innerText || '')).map((a) => `${(a.innerText || '').trim().slice(0, 30)} — ${a.href}`))].slice(0, 8));
     lines.push('## メディア登録へのリンク', '', ...reg.map((x) => `- ${mask(x)}`), '');
     const regUrl = (reg.find((x) => /登録/.test(x)) || '').split(' — ')[1];
-    if (regUrl) { await go(regUrl); await dump('メディア登録の画面（送っていない）'); }
+    if (regUrl) { await go(regUrl); await dump('メディア一覧の画面'); }
+    // t341: メディア一覧に「メディアを登録する」がある。押して出る登録の画面の欄を読む（**送らない**）
+    const add = p.getByRole('button', { name: /メディアを登録する/ }).first();
+    if (await add.count()) { await add.click({ timeout: 5000 }).catch(() => {}); await p.waitForTimeout(4000); await dump('「メディアを登録する」を押したあと（送っていない）');
+      const opts = await p.evaluate(() => [...document.querySelectorAll('select')].filter((e) => e.getBoundingClientRect().height > 0).map((e) => `select[name=${e.name}]: ${[...e.options].map((o) => o.textContent.trim()).join(' / ').slice(0, 400)}`));
+      lines.push('- 選択肢:', ...opts.map((x) => `  - ${x}`)); }
   }
 
   if (WHICH === 'yahoo-open') {

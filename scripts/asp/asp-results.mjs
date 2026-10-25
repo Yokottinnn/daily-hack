@@ -63,7 +63,9 @@ try {
         const txt = await p.evaluate(() => (document.body.innerText || '').split('\n').map((x) => x.trim()).filter(Boolean).slice(0, 60));
         lines.push('  - 表が無い。画面の文字（数字は伏せる）:', ...txt.filter((x) => !NG.test(x)).slice(0, 30).map((x) => `    - ${hide(x).slice(0, 120)}`));
       }
-      result.asps[e.id].push({ url: here(), title, tables });
+      // 楽天のレポートは表ではなく文字で並ぶ（t340）。collect のときは画面の文字も持つ（数字入り・非公開の置き場にだけ書く）
+      const text = MODE === 'collect' ? await p.evaluate(() => (document.body.innerText || '').split('\n').map((x) => x.trim()).filter(Boolean).slice(0, 400)) : undefined;
+      result.asps[e.id].push({ url: here(), title, tables, text });
     }
     lines.push('');
   }
