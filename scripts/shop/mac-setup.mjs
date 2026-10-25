@@ -149,6 +149,18 @@ try {
         // t343: クリップボードも空。「Access Key」の行そのものの HTML を出す（値と長い英数は伏せる）
         const rowHtml = await p.evaluate(() => { const lab = [...document.querySelectorAll('*')].find((e) => e.children.length === 0 && /^\s*Access Key\s*$/i.test(e.textContent || '')); if (!lab) return ''; let r = lab.parentElement; for (let i = 0; i < 2 && r && r.parentElement && (r.outerHTML || '').length < 600; i++) r = r.parentElement; return (r ? r.outerHTML : '').replace(/\s+/g, ' ').slice(0, 1800); });
         lines.push('- 「Access Key」の行の HTML:', '```html', mask(rowHtml).replace(/[●•*]{4,}/g, '［伏せ字］'), '```');
+        // t344: 目のボタンは onclick="toggleSecret(...)"。押したときの通信と、押したあとの code の中身・出た画面（本人確認など）を見る
+        const net = []; const onResp = async (r) => { const u = r.url(); if (/webservice\.rakuten|rakuten\.co\.jp/.test(u) && !/\.(css|js|png|svg|woff2?)(\?|$)/.test(u)) { let keys = ''; try { const j = await r.json(); keys = Object.keys(j || {}).join(','); } catch {} net.push(`${r.request().method()} ${u.replace(/\?.*$/, '')} → ${r.status()}${keys ? ' {' + keys + '}' : ''}`); } };
+        p.on('response', onResp);
+        const eye = p.locator('xpath=//span[normalize-space()="Access Key"]/following-sibling::div[1]//button[contains(@onclick,"toggleSecret")]').first();
+        if (await eye.count()) { await eye.click({ timeout: 4000 }).catch(() => {}); await p.waitForTimeout(4000); }
+        p.off('response', onResp);
+        const code = await p.evaluate(() => { const lab = [...document.querySelectorAll('span')].find((e) => /^\s*Access Key\s*$/i.test(e.textContent || '')); const c = lab && lab.parentElement.querySelector('code'); return c ? (c.textContent || '').trim() : ''; });
+        const modal = await p.evaluate(() => [...document.querySelectorAll('.modal.show, [role=dialog], .swal2-popup')].filter((e) => e.getBoundingClientRect().height > 0).map((e) => (e.innerText || '').replace(/\s+/g, ' ').slice(0, 300)));
+        lines.push(`- 目のボタン（Access Key）を押した: ${(await eye.count()) ? 'あり' : '見つからない'}・通信 ${net.length} 件`, ...net.slice(0, 8).map((x) => `  - ${mask(x)}`), `- 押したあとの値: ${/^[A-Za-z0-9_\-]{16,}$/.test(code) ? code.length + ' 文字（見えた）' : '伏せ字のまま'}`, ...modal.map((x) => `- 出た画面: ${mask(x)}`));
+        if (/^[A-Za-z0-9_\-]{16,}$/.test(code) && code !== keychain('applicationId')) k2 = code;
+      }
+      {
       }
       lines.push(`- アイコンのボタン ${n} 個を押したあとの Access Key: ${k2 ? `${k2.length} 文字（見えた）` : `まだ伏せ字（${after.slice(0, 3)}…）`}`);
       if (k2) {
@@ -283,6 +295,10 @@ try {
     if (await add.count()) { await add.click({ timeout: 5000 }).catch(() => {}); await p.waitForLoadState('domcontentloaded', { timeout: 15000 }).catch(() => {}); await p.waitForTimeout(5000); await dump('URL を入れて「メディアを登録する」を押したあと（この先は送っていない）');
       const txt = await p.evaluate(() => (document.body.innerText || '').split('\n').map((x) => x.trim()).filter(Boolean).filter((x) => /必須|入力|選択|カテゴリ|ジャンル|PV|訪問|説明|規約|同意|確認|登録/.test(x)).slice(0, 40));
       lines.push('- 画面の案内の文字:', ...txt.map((x) => `  - ${mask(x).slice(0, 160)}`));
+      // t344: 「登録前にご確認ください。(1/2)」の小窓が出る。小窓の中の欄・ボタンを読む（押さない）
+      const mdl = await p.evaluate(() => { const h = [...document.querySelectorAll('*')].find((e) => e.children.length === 0 && /登録前にご確認ください/.test(e.textContent || '') && e.getBoundingClientRect().height > 0); let b = h; for (let i = 0; i < 6 && b && b.parentElement; i++) { b = b.parentElement; if (b.querySelectorAll('button, input').length) break; } if (!b) return null;
+        return { text: (b.innerText || '').replace(/\s+/g, ' ').slice(0, 600), ctrls: [...b.querySelectorAll('button, input, a[role=button], label')].map((e) => `${e.tagName.toLowerCase()}[type=${e.type || ''} name=${e.name || ''}] 「${(e.innerText || e.value || '').trim().slice(0, 30)}」`).slice(0, 15) }; });
+      if (mdl) lines.push('- 確認の小窓:', `  - ${mask(mdl.text)}`, ...mdl.ctrls.map((x) => `  - ${x}`));
       const opts = await p.evaluate(() => [...document.querySelectorAll('select')].filter((e) => e.getBoundingClientRect().height > 0).map((e) => `select[name=${e.name}]: ${[...e.options].map((o) => o.textContent.trim()).join(' / ').slice(0, 400)}`));
       lines.push('- 選択肢:', ...opts.map((x) => `  - ${x}`)); }
   }
