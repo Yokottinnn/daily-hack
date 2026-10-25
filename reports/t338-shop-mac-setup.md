@@ -1,0 +1,117 @@
+# 3 店ボタンの Mac 側の準備・7 回目（t338・**$0**）
+
+生成: **2026-10-25T16:50:55+0900**
+
+```text
+moshimo: ログイン済み
+rakuten: ログイン済み / 楽天ID 0 件
+```
+- rakuten: rc=0
+  - ログの末尾:
+    - 楽天 API（2026-07-01 版）の試し: HTTP 400・{
+      "errors": {
+        "errorCode": 400,
+        "errorMessage": "accessKey must be present as a query parameter or in the header"
+      }
+    }
+# 3 店ボタンの Mac 側の準備: rakuten（scripts/shop/mac-setup.mjs）
+
+生成: **2026-10-25T07:51:10.958Z**
+
+- 画面: https://webservice.rakuten.co.jp/app/list
+
+- 「More Details」を押した: https://webservice.rakuten.co.jp/app/list
+- Application ID: 36 文字（Keychain の値と同じ）
+- Access Key が画面に見つからない（「表示」ボタンで隠れている可能性）。ボタン一覧を下に出す
+- 入力欄の形（値は文字数だけ）:
+  - input[type=hidden name=captcha-key id=refresh-captcha-key] 値0文字
+  - input[type=text name=captcha id=refresh-captcha] 値0文字
+  - input[type=hidden name=captcha-key id=edit-captcha-key] 値0文字
+  - input[type=text name=app_name id=edit-app_name] 値0文字
+  - input[type=url name=app_site id=edit-app_site] 値0文字
+  - textarea[type=textarea name=origins id=edit-origins] 値0文字
+  - textarea[type=textarea name=app_description id=edit-app_description] 値0文字
+  - textarea[type=textarea name=usage_purpose id=edit-usage_purpose] 値0文字
+  - input[type=text name=expected_qps id=edit-expected_qps] 値0文字
+  - input[type=checkbox name=api_scopes[] id=edit-ichiba-checkbox] 値6文字
+  - input[type=checkbox name=api_scopes[] id=edit-travel-checkbox] 値6文字
+  - input[type=checkbox name=api_scopes[] id=edit-books-checkbox] 値5文字
+- 「Access Key」の行のまわりの HTML（値は伏せる）:
+```html
+<div id="［41文字・伏せた］" class="card mb-4"> <div class="card-header d-flex ［23文字・伏せた］ p-4 mb-3 gap"> <div class="d-flex flex-column gap"> <h2 id="［45文字・伏せた］" class="headlineLv2">dailyhack</h2> <div class="text-secondary"> <span id="［47文字・伏せた］" class="status-badge active px-2 py-1 mr-2"> ACTIVE </span> Expires: <span id="［47文字・伏せた］" data-iso-date="2027-10-14T23:18:16+09:00">14 Oct 2027</span> </div> </div> <div class="d-flex ［18文字・伏せた］ gap"> <button id="［51文字・伏せた］" type="button" class="btn ［18文字・伏せた］" onclick="［16文字・伏せた］('［36文字・伏せた］')" disabled=""><i class="fa fa-sync-alt text-dark mr-2"></i>Refresh</button> <button id="［51文字・伏せた］" type="button" class="btn ［18文字・伏せた］" onclick="［16文字・伏せた］('［36文字・伏せた］')">More Details</button> <button id="［48文字・伏せた］" type="button" class="btn ［18文字・伏せた］" onclick="openEditModal('［36文字・伏せた］')"><i class="fa fa-edit text-dark mr-2"></i>Edit</button> </div> </div> <div class="card-body row no-gutters px-4 pt-3 pb-4"> <div class="col-sm-6 p-2"> <span id="［50文字・伏せた］" class="d-block text-secondary mb-1">Application URL</span> <a href="https://daily-hack.fieldbeside.com/" target="_blank" id="［40文字・伏せた］" class="text-primary">https://daily-hack.fieldbeside.com/</a> </div> <div class="col-sm-6 p-2"> <span id="［49文字・伏せた］" class="d-block text-secondary mb-1">Application ID</span> <div class="d-flex"> <code id="［43文字・伏せた］" class="flex-grow-1">［36文字・伏せた］</code> <button type="button" id="［48文字・伏せた］" class="btn icon-button" onclick="copyToClipboard('［36文字・伏せた］')"><i class="fa fa-clone"></i></button> </div> </div> <div class="col-sm-6 p-2"> <span id="［53文字・伏せた］" class="d-block text-secondary mb-1">Access Key</span> <div class="d-flex"> <code class="flex-grow-1" id="［47文字・伏せた］">［伏せ字］</code> <button type="button" id="［20文字・伏せた］
+```
+- 楽天 API（2026-07-01 版）の試し: HTTP 400・{
+  "errors": {
+    "errorCode": 400,
+    "errorMessage": "accessKey must be present as a query parameter or in the header"
+  }
+}
+
+- moshimo-apply: rc=1
+  - ログの末尾:
+      type: 'error',
+      method: 'Page.handleJavaScriptDialog',
+      logs: undefined
+    }
+    
+    Node.js v26.0.0
+（moshimo-apply の出力が無い）
+
+- moshimo-status: rc=0
+  - ログの末尾:
+    
+    生成: **2026-10-25T07:51:35.621Z**
+    
+    - Amazon（170）の詳細: 「提携申請する」ボタン 2 個・画面の状態の語 申請中 / 提携中 / 否認中
+    - apply_status=1 で絞った一覧: ? 件・Amazon.co.jp の行 0
+    - apply_status=2 で絞った一覧: ? 件・Amazon.co.jp の行 0
+# 3 店ボタンの Mac 側の準備: moshimo-status（scripts/shop/mac-setup.mjs）
+
+生成: **2026-10-25T07:51:35.621Z**
+
+- Amazon（170）の詳細: 「提携申請する」ボタン 2 個・画面の状態の語 申請中 / 提携中 / 否認中
+- apply_status=1 で絞った一覧: ? 件・Amazon.co.jp の行 0
+- apply_status=2 で絞った一覧: ? 件・Amazon.co.jp の行 0
+
+- yahoo: rc=0
+  - ログの末尾:
+    
+    入力欄:
+    
+    ボタン:
+    - Yahoo! JAPAN IDでログイン
+    
+# 3 店ボタンの Mac 側の準備: yahoo（scripts/shop/mac-setup.mjs）
+
+生成: **2026-10-25T07:51:48.207Z**
+
+## アプリケーションの管理
+
+- 画面: https://e.developer.yahoo.co.jp/dashboard/（アプリケーションの管理：Yahoo!デベロッパーネットワーク）
+
+見出し:
+- アプリケーションの管理
+- 続けるには、Yahoo! JAPAN IDでログインする必要があります。
+- 開発のヒント
+
+入力欄:
+
+ボタン:
+- Yahoo! JAPAN IDでログイン
+
+## 新しいアプリケーションを開発（登録の画面・送っていない）
+
+- 画面: https://e.developer.yahoo.co.jp/register（アプリケーションの管理：Yahoo!デベロッパーネットワーク）
+
+見出し:
+- アプリケーションの管理
+- 続けるには、Yahoo! JAPAN IDでログインする必要があります。
+- 開発のヒント
+
+入力欄:
+
+ボタン:
+- Yahoo! JAPAN IDでログイン
+
+
+rc=0 /     6257 bytes

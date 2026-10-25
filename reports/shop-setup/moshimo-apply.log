@@ -1,0 +1,21 @@
+node:internal/process/promises:332
+    triggerUncaughtException(err, true /* fromPromise */);
+    ^
+
+ProtocolError: Protocol error (Page.handleJavaScriptDialog): No dialog is showing
+    at /Users/ny/.openclaw/workspace/node_modules/playwright-core/lib/server/chromium/crConnection.js:116:57
+    at new Promise (<anonymous>)
+    at CRSession.send (/Users/ny/.openclaw/workspace/node_modules/playwright-core/lib/server/chromium/crConnection.js:115:12)
+    at Dialog._onHandle (/Users/ny/.openclaw/workspace/node_modules/playwright-core/lib/server/chromium/crPage.js:696:28)
+    at Dialog.dismiss (/Users/ny/.openclaw/workspace/node_modules/playwright-core/lib/server/dialog.js:59:16)
+    at Dialog.close (/Users/ny/.openclaw/workspace/node_modules/playwright-core/lib/server/dialog.js:65:18)
+    at DialogManager.dialogDidOpen (/Users/ny/.openclaw/workspace/node_modules/playwright-core/lib/server/dialog.js:85:14)
+    at FrameSession._onDialog (/Users/ny/.openclaw/workspace/node_modules/playwright-core/lib/server/chromium/crPage.js:689:45)
+    at CRSession.<anonymous> (/Users/ny/.openclaw/workspace/node_modules/playwright-core/lib/server/chromium/crPage.js:352:119)
+    at CRSession.emit (node:events:509:20) {
+  type: 'error',
+  method: 'Page.handleJavaScriptDialog',
+  logs: undefined
+}
+
+Node.js v26.0.0

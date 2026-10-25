@@ -112,7 +112,13 @@ try {
       try { execFileSync('/usr/bin/security', ['add-generic-password', '-U', '-s', 'dailyhack-rakuten-ws', '-a', 'accessKey', '-w', key]); lines.push(`- Access Key を Keychain（dailyhack-rakuten-ws / accessKey）に入れた（${key.length} 文字）`); }
       catch (e) { lines.push(`- ⚠️ Keychain に入れられない: ${String(e).slice(0, 80)}`); }
     } else lines.push('- Access Key が画面に見つからない（「表示」ボタンで隠れている可能性）。ボタン一覧を下に出す');
-    if (!key) { lines.push('- 入力欄の形（値は文字数だけ）:', ...((got.shape || []).map((x) => `  - ${x}`))); await dump('アプリ一覧の画面'); }
+    if (!key) {
+      lines.push('- 入力欄の形（値は文字数だけ）:', ...((got.shape || []).map((x) => `  - ${x}`)));
+      // t337: 入力欄には無かった。「Access Key」の行のまわりの HTML の形を出す（16 文字以上の英数は伏せる）
+      const html = await p.evaluate(() => { const el = [...document.querySelectorAll('*')].filter((e) => e.children.length < 6 && /Access Key/i.test(e.textContent || '')).sort((a, b) => (a.textContent || '').length - (b.textContent || '').length)[0];
+        let box = el; for (let i = 0; i < 3 && box && box.parentElement; i++) box = box.parentElement; return box ? box.outerHTML.replace(/\s+/g, ' ').slice(0, 2500) : ''; });
+      lines.push('- 「Access Key」の行のまわりの HTML（値は伏せる）:', '```html', mask(html).replace(/[●•*]{6,}/g, '［伏せ字］'), '```');
+    }
     else lines.push('- 価格の自動取得（mac-weekly.sh の 2e）は次の 6:40 から楽天の価格を取る');
     // API が通るか 1 回だけ（結果は件数と HTTP の状態だけ出す）
     const appId = keychain('applicationId'), acc = keychain('accessKey');
@@ -191,11 +197,10 @@ try {
       else {
         await first.click({ timeout: 5000 }).catch(() => {});
         await p.waitForTimeout(3000);
-        // 「ご確認ください」を含む、いま見えている箱の中の「提携申請する」
-        const box = p.locator('div:visible').filter({ hasText: 'ご確認ください' }).filter({ has: p.getByRole('button', { name: '閉じる' }) }).last();
-        const txt = (await box.innerText().catch(() => '')).replace(/\s+/g, ' ').slice(0, 900);
+        // 確認の画面（ご確認ください／閉じる／提携申請する）の「提携申請する」= data-promotion_id を持たない、見えているボタン（t336 は箱の探し方で落ちた）
+        const txt = await p.evaluate(() => { const h = [...document.querySelectorAll('*')].find((e) => e.children.length === 0 && /ご確認ください/.test(e.textContent || '') && e.getBoundingClientRect().height > 0); let b = h; for (let i = 0; i < 5 && b && b.parentElement; i++) { b = b.parentElement; if ((b.innerText || '').includes('閉じる')) break; } return b ? (b.innerText || '').replace(/\s+/g, ' ').slice(0, 900) : ''; }).catch((e) => '読めない: ' + String(e).slice(0, 80));
         lines.push('## 確認の画面の文字', '', `- ${mask(txt)}`, '');
-        const go2 = box.getByRole('button', { name: /^提携申請する$/ }).last();
+        const go2 = p.locator('button:visible:not([data-promotion_id]), a:visible:not([data-promotion_id]), input[type=submit]:visible').filter({ hasText: /^\s*提携申請する\s*$/ }).last();
         if (await go2.count()) {
           await go2.click({ timeout: 5000 }).catch(() => {});
           await p.waitForTimeout(5000);
