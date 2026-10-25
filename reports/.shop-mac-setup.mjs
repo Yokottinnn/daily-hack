@@ -332,15 +332,19 @@ try {
     // ログインの画面をこの Chrome の前面に出して、利用者のログインを最大 12 分待つ。入れたら登録の画面を読む（送らない）
     const q = await ctx.newPage();
     await q.goto('https://e.developer.yahoo.co.jp/dashboard/', { waitUntil: 'domcontentloaded', timeout: 25000 }).catch(() => {});
+    // t349: ボタンが描かれる前に探して押せず、読み込み中の空の画面を「ログインできた」と取り違えた。描かれるのを待ってから押す
     const btn = q.getByText(/^Yahoo! JAPAN IDでログイン$/).first();
-    if (await btn.count()) await btn.click({ timeout: 5000 }).catch(() => {});
+    await btn.waitFor({ timeout: 15000 }).catch(() => {});
+    if (await btn.count()) { await btn.click({ timeout: 5000 }).catch(() => {}); await q.waitForLoadState('domcontentloaded', { timeout: 20000 }).catch(() => {}); }
+    lines.push(`- ログインのボタンを押したあとの画面: ${(() => { try { const u = new URL(q.url()); return u.origin + u.pathname; } catch { return q.url(); } })()}`);
     await q.bringToFront().catch(() => {});
     lines.push(`- ログインの画面をこの Chrome の前面に出した（${new Date().toISOString()}）。最大 12 分待つ`);
     let ok = false;
     for (let i = 0; i < 48 && !ok; i++) {
       await q.waitForTimeout(15000);
       const u = q.url();
-      if (/e\.developer\.yahoo\.co\.jp/.test(u)) { const t = await q.evaluate(() => document.body.innerText || '').catch(() => ''); ok = !/続けるには、Yahoo! JAPAN IDでログインする必要があります/.test(t); }
+      // ログインできた証拠＝デベロッパーの画面で、文字が十分に描かれていて、「ログインする必要があります」が無いこと
+      if (/e\.developer\.yahoo\.co\.jp/.test(u)) { const t = await q.evaluate(() => document.body.innerText || '').catch(() => ''); ok = t.length > 300 && !/ログインする必要があります/.test(t); }
     }
     lines.push(`- 待った結果: ${ok ? '**ログインできた**' : 'ログインされなかった（12 分）'}`);
     if (ok) { await go('https://e.developer.yahoo.co.jp/register'); await dump('新しいアプリケーションを開発（登録の画面・送っていない）');

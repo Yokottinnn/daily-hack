@@ -1,1 +1,3 @@
-[]
+[
+      {"task": "t350-shop-yahoo-wait2.sh", "rc": 0, "out": "- ログインのボタンを押したあとの画面: https://login.yahoo.co.jp/config/login - ログインの画面をこの Chrome の前面に出した（2026-10-25T08:49:46.895Z）。最大 12 分待つ - 待った結果: ログインされなかった（12 分）  rc=0 /      942 bytes"}
+  ]
