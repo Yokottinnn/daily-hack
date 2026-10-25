@@ -327,6 +327,29 @@ try {
     lines.push(`- Yahoo! デベロッパーネットワークの画面を開いたままにした: ${q.url()}（利用者がここで Yahoo! JAPAN ID にログインする）`);
   }
 
+  if (WHICH === 'yahoo-wait') {
+    // t348: この Chrome（CDP 18810）には Yahoo! のログインが無かった（利用者は別の Chrome でログインしたらしい）。
+    // ログインの画面をこの Chrome の前面に出して、利用者のログインを最大 12 分待つ。入れたら登録の画面を読む（送らない）
+    const q = await ctx.newPage();
+    await q.goto('https://e.developer.yahoo.co.jp/dashboard/', { waitUntil: 'domcontentloaded', timeout: 25000 }).catch(() => {});
+    const btn = q.getByText(/^Yahoo! JAPAN IDでログイン$/).first();
+    if (await btn.count()) await btn.click({ timeout: 5000 }).catch(() => {});
+    await q.bringToFront().catch(() => {});
+    lines.push(`- ログインの画面をこの Chrome の前面に出した（${new Date().toISOString()}）。最大 12 分待つ`);
+    let ok = false;
+    for (let i = 0; i < 48 && !ok; i++) {
+      await q.waitForTimeout(15000);
+      const u = q.url();
+      if (/e\.developer\.yahoo\.co\.jp/.test(u)) { const t = await q.evaluate(() => document.body.innerText || '').catch(() => ''); ok = !/続けるには、Yahoo! JAPAN IDでログインする必要があります/.test(t); }
+    }
+    lines.push(`- 待った結果: ${ok ? '**ログインできた**' : 'ログインされなかった（12 分）'}`);
+    if (ok) { await go('https://e.developer.yahoo.co.jp/register'); await dump('新しいアプリケーションを開発（登録の画面・送っていない）');
+      const opts = await p.evaluate(() => [...document.querySelectorAll('select')].filter((e) => e.getBoundingClientRect().height > 0).map((e) => `select[name=${e.name}]: ${[...e.options].map((o) => (o.selected ? '✔' : '') + o.textContent.trim()).join(' / ').slice(0, 300)}`));
+      const radios = await p.evaluate(() => [...document.querySelectorAll('input[type=radio], input[type=checkbox]')].map((e) => `${e.type}[name=${e.name} value=${e.value}]${e.checked ? ' ✔' : ''} 「${((e.closest('label') || {}).innerText || (e.id && (document.querySelector('label[for="' + e.id + '"]') || {}).innerText) || '').replace(/\s+/g, ' ').trim().slice(0, 60)}」`));
+      const txt = await p.evaluate(() => (document.querySelector('form') || document.body).innerText.split('\n').map((x) => x.trim()).filter(Boolean).slice(0, 80));
+      lines.push('- 選択肢:', ...opts.map((x) => `  - ${x.replace(/[^\s/]+@[^\s/]+/g, '［メール］')}`), '- ラジオ・チェック:', ...radios.map((x) => `  - ${x}`), '- 登録の画面の文字:', ...txt.filter((x) => !NG.test(x)).map((x) => `  - ${mask(x).slice(0, 150)}`)); }
+  }
+
   if (WHICH === 'yahoo') {
     // Yahoo! デベロッパーネットワークの公式の入口（アプリケーションの管理・新規登録）
     await go('https://e.developer.yahoo.co.jp/dashboard/');
