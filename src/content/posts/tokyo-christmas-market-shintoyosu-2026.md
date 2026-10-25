@@ -189,7 +189,7 @@ references: ["https://prtimes.jp/main/html/rd/p/000000084.000047941.html", "http
   </table>
 </div>
 
-<p class="source-note">湾岸（中央区・江東区）のイベントとニュースは <a href="/tags/湾岸ニュース/">湾岸ニュースの一覧</a> にまとめている。</p>
+<p class="source-note">湾岸（中央区・江東区）の暮らしの記事は <a href="/category/wangan-life/">湾岸ライフの一覧</a>、今月のイベントとニュースは <a href="/tags/湾岸ニュース/">湾岸ニュースの一覧</a> にまとめている。</p>
 
 <p class="source-note">表紙は東京クリスマスマーケット実行委員会のフードのキービジュアル。出典：<a href="https://prtimes.jp/main/html/rd/p/000000084.000047941.html" target="_blank" rel="noopener">東京クリスマスマーケット実行委員会「新豊洲初開催『東京クリスマスマーケット2026』注目グルメを公開！」（PR TIMES・2026年10月16日）</a>／<a href="https://prtimes.jp/main/html/rd/p/000000200.000028214.html" target="_blank" rel="noopener">KKday「マグカップ付き入場券を発売」（PR TIMES・2026年10月2日）</a>／<a href="https://tokyochristmas.net/" target="_blank" rel="noopener">東京クリスマスマーケット公式サイト</a>。内容は変わることがある。出かける前に公式サイトで確かめて。</p>
 

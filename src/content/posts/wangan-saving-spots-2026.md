@@ -4,7 +4,7 @@ description: "中央区晴海在住のアタシが、本当に家計をラクに
 publishDate: 2026-05-20
 category: ["wangan-life", "services"]
 tags: ["湾岸ライフ", "神スポット", "豊洲", "晴海", "有明", "お台場", "家計"]
-isPR: false
+isPR: true
 draft: false
 featured: true
 eyecatchUrl: "/images/wangan/tokyo-monument-eyecatch.jpg"
@@ -321,6 +321,21 @@ author: "hacker-ko"
 
 湾岸エリアの飲食店は**平日ランチタイムが鬼コスパ**。ららぽーと豊洲のフードコート、月島もんじゃストリート、有明ガーデンのカフェ、全部平日昼が一番得。リモートワーク民・自営業民・主婦民は、ここを意識するだけで月1.5〜2万円違う。
 
+## よくある質問
+
+<div class="cmp-table-wrap">
+  <table class="cmp-table spec-table faq-table">
+    <tbody>
+      <tr><th>湾岸エリアでお金をかけずに遊べる場所は？</th><td><strong>豊洲ぐるり公園</strong>（約11ヘクタールの都立公園）と<strong>晴海ふ頭公園</strong>（区立公園）はどちらも無料。ぐるり公園からはレインボーブリッジ・東京タワー・スカイツリーが見える。</td></tr>
+      <tr><th>豊洲で無料で使える施設は？</th><td><strong>豊洲シビックセンター</strong>（豊洲駅から徒歩3分）。5階の図書館と11階の展望ロビーが無料で使える。</td></tr>
+      <tr><th>月島もんじゃを安く食べるなら？</th><td>平日のランチタイム（11:30〜14:00）のランチセットは1,200〜1,800円の店が多い。夜に4,000〜5,000円使う前に試せる。</td></tr>
+      <tr><th>豊洲市場の海鮮丼は高い？</th><td>観光客向けの店は3,000円前後だが、市場の中の食堂街なら1,200円前後の店もある。</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<p class="source-note">湾岸（中央区・江東区）の暮らしの記事は <a href="/category/wangan-life/">湾岸ライフの一覧</a>、今月のイベントとニュースは <a href="/tags/湾岸ニュース/">湾岸ニュースの一覧</a> にまとめている。</p>
+
 ## まとめ｜湾岸エリアは「お金がかかる街」じゃなくて「賢く使えばラクな街」
 
 湾岸エリア（豊洲・晴海・有明・お台場）は、**観光客視点だと高いけど、住民視点だと意外にラクな街**よ。
@@ -334,6 +349,8 @@ author: "hacker-ko"
 「湾岸タワマン住み=家計が苦しい」のステレオタイプは、**地元民モードを覚えるだけで簡単にひっくり返せる**のよ。
 
 電気・ガス・通信費の固定費削減と組み合わせれば、**家計の余裕は年間50〜100万円単位**で生まれる。あんたもアタシみたいに賢く湾岸ライフ送りなさい 😏
+
+<p>電気代は、住所と使用量を入れるだけで今より安いプランが出る：<a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+25ZTSQ+2W92+1NJK7M" target="_blank" rel="sponsored noopener nofollow">エネピで電気料金を比べる</a></p>
 
 <aside class="related-block">
   <div class="related-block-head">
