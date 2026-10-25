@@ -160,6 +160,8 @@ for (const d of days) {
   const m = (monthly[mm(d)] = monthly[mm(d)] || {}); const x = daily[d] || {};
   m.days = (m.days || 0) + 1; m.visits = (m.visits || 0) + (x.visits || 0); m.human = (m.human || 0) + (x.human || 0);
   if (x.zone) { m.pageViews = (m.pageViews || 0) + (x.zone.pageViews || 0); m.uniquesSum = (m.uniquesSum || 0) + (x.zone.uniques || 0); m.zoneDays = (m.zoneDays || 0) + 1; }
+  // ブログのページ（HTML）だけのページビュー。human はボット除外（2026-09-26 から記録・利用者のコメント wgp406ngpotuc0s7kcso）
+  if (x.pv) { m.pvAll = (m.pvAll || 0) + (x.pv.all || 0); m.pvHuman = (m.pvHuman || 0) + (x.pv.human || 0); m.pvDays = (m.pvDays || 0) + 1; }
 }
 const monthlyRows = Object.entries(monthly).map(([month, v]) => ({ month, ...v })).sort((a, b) => b.month.localeCompare(a.month)).slice(0, 12);
 const zoneDays28 = in28.filter((d) => daily[d]?.zone);
