@@ -286,22 +286,15 @@ author: "hacker-ko"
 
 ### 肉選びの3つの鉄則
 
-<div class="highlight-grid cols-3">
-  <div class="highlight-item">
-    <span class="highlight-tag">小分け</span>
-    <h4>冷凍を最優先</h4>
-    <p>塊肉は包丁さばきが地獄、解凍ロスも大きい。250g〜500gで真空小分けされたものを選べば、必要な分だけ解凍できる。</p>
-  </div>
-  <div class="highlight-item">
-    <span class="highlight-tag">A4以上</span>
-    <h4>¥30,000以上が現実</h4>
-    <p>A4以上の和牛狙いなら¥30,000〜¥40,000の枠を確保。それ未満の予算では、地域ブランド豚や切り落とし牛が圧倒的にコスパ高い。</p>
-  </div>
-  <div class="highlight-item">
-    <span class="highlight-tag">配送</span>
-    <h4>冷凍便のみに絞れ</h4>
-    <p>チルド配送は受取必須で家を空けられない。共働き家庭は冷凍便のみに絞ること。日付指定可の自治体ならさらに安心。</p>
-  </div>
+<div class="cmp-table-wrap">
+  <table class="cmp-table prose-table">
+    <thead><tr><th>見るところ</th><th>こう選ぶ</th></tr></thead>
+    <tbody>
+      <tr><td><strong>小分け</strong></td><td><strong>250〜500gの真空小分け</strong>の冷凍<br><span class="cell-sub">塊肉はさばくのが大変で、解凍ロスも大きい。小分けなら必要な分だけ解凍できる</span></td></tr>
+      <tr><td><strong>等級と予算</strong></td><td>A4以上の和牛なら<strong>30,000〜40,000円</strong>の枠を確保<br><span class="cell-sub">それ未満の予算なら、地域ブランド豚や切り落とし牛のほうがコスパが高い</span></td></tr>
+      <tr><td><strong>配送</strong></td><td><strong>冷凍便だけ</strong>に絞る<br><span class="cell-sub">チルド便は受け取りが必須で家を空けられない。日付指定できる自治体ならなお安心</span></td></tr>
+    </tbody>
+  </table>
 </div>
 
 <h2>海鮮｜旬を取りに行く本気の5選</h2>

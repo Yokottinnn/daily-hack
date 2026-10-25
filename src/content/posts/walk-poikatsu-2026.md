@@ -842,6 +842,17 @@ references:
 
 移動1マイル（約1.6km）につき1ポイントという、このカテゴリでは分かりやすい仕組みだった。
 
+<div class="tower-timeline">
+  <div class="tl-year">
+    <p class="tl-label">2021年10月</p>
+    <ul class="tl-items"><li><strong>日本でサービス開始</strong>移動1マイル（約1.6km）につき1ポイント</li></ul>
+  </div>
+  <div class="tl-year">
+    <p class="tl-label">2025年5月14日</p>
+    <ul class="tl-items"><li><strong>当日に終了を告知</strong>事前告知も猶予期間も無く、公式サイトも閉鎖</li></ul>
+  </div>
+</div>
+
 <ul class="checklist">
   <li><div class="checklist-body"><strong>貯めっぱなしにしない</strong><p>交換の下限に届いたら、こまめに出す。「もう少し貯めてから」が一番 危ない。</p></div></li>
   <li><div class="checklist-body"><strong>交換先が多いものを選ぶ</strong><p>出口が1つしかないアプリは、その出口が閉じた時点で終わる。</p></div></li>

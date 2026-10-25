@@ -281,6 +281,16 @@ JRE BANK には **JR東日本×楽天銀行が運営する「口座紹介プロ�
 
 公平のため明記しておくと、アタシ（既存口座保有者）が紹介コード経由で申込を受けると **1人紹介につき最大 JRE POINT 4,000 ポイント、期間中最大10名まで** もらえる仕組みになってる（出典: [JR東日本プレスリリース](https://prtimes.jp/main/html/rd/p/000001252.000017557.html)）。
 
+<div class="cmp-table-wrap">
+  <table class="cmp-table prose-table">
+    <thead><tr><th>だれが</th><th>もらえるもの</th></tr></thead>
+    <tbody>
+      <tr><td><strong>紹介した人</strong><br>（アタシ）</td><td>1人につき最大 JRE POINT <strong>4,000ポイント</strong>（期間中最大10名まで）</td></tr>
+      <tr><td><strong>紹介された人</strong><br>（あんた）</td><td><strong>1,100〜7,000ポイント</strong></td></tr>
+    </tbody>
+  </table>
+</div>
+
 つまりアタシも得するけど、**あんた（被紹介者）も 1,100〜7,000 ポイント得する Win-Win 設計**。「紹介者だけ得して被紹介者は損」みたいな仕組みじゃないから、安心して使いなさい。
 
 <p class="source-note">出典: <a href="https://www.rakuten-bank.co.jp/jrebank/campaign/referral/" target="_blank" rel="noopener nofollow">JRE BANK 口座紹介プログラム公式</a> ／ <a href="https://prtimes.jp/main/html/rd/p/000001252.000017557.html" target="_blank" rel="noopener nofollow">JR東日本 プレスリリース</a></p>

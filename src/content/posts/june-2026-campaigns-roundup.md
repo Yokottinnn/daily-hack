@@ -46,22 +46,15 @@ author: "hacker-ko"
 
 6月のキャンペーンを全部追いかけてたら時間が溶けるから、軸を3つに絞るわよ。
 
-<div class="highlight-grid cols-3">
-  <div class="highlight-item">
-    <span class="highlight-tag">銀行</span>
-    <h4>3行で約3万〜4万円分</h4>
-    <p>Olive・JRE BANK・楽天銀行の<strong>三層構造</strong>で確保。給与振込・残高条件のいずれかを満たせば達成。Oliveがメイン、JRE BANKがサブ、楽天銀行が経済圏連携用ね。</p>
-  </div>
-  <div class="highlight-item">
-    <span class="highlight-tag">クレカ</span>
-    <h4>入会特典が二重取り</h4>
-    <p>楽天カード・JCB W・リクルートカードは<strong>公式キャンペーン + 紹介プログラム</strong>を併用OK。紹介リンク経由で申し込むだけで通常入会より特典が積み増される。</p>
-  </div>
-  <div class="highlight-item">
-    <span class="highlight-tag">QR決済</span>
-    <h4>5,000円以上の即金性</h4>
-    <p>PayPay・楽天ペイ・d払いの新規登録特典は<strong>1回限り</strong>。インストール + 本人確認まで終わらせれば、夏のキャンペーン期に複数経済圏で還元を刈り取れる。</p>
-  </div>
+<div class="cmp-table-wrap">
+  <table class="cmp-table prose-table">
+    <thead><tr><th>軸</th><th>やること</th></tr></thead>
+    <tbody>
+      <tr><td><strong>銀行</strong></td><td><strong>3行で約3万〜4万円分</strong><br><span class="cell-sub">Olive（メイン）・JRE BANK（サブ）・楽天銀行（経済圏連携用）の三層構造。給与振込・残高条件のいずれかを満たせば達成</span></td></tr>
+      <tr><td><strong>クレカ</strong></td><td><strong>入会特典が二重取り</strong><br><span class="cell-sub">楽天カード・JCB W・リクルートカードは、公式キャンペーン＋紹介プログラムを併用できる</span></td></tr>
+      <tr><td><strong>QR決済</strong></td><td><strong>5,000円以上の即金性</strong><br><span class="cell-sub">PayPay・楽天ペイ・d払いの新規登録特典は1回限り。インストール＋本人確認まで終わらせる</span></td></tr>
+    </tbody>
+  </table>
 </div>
 
 ここに **ふるさと納税の運用調整**（6月は年収予測が立つ最初のチェックポイント）を被せたら、6月の"やるべきこと"は8割埋まる。残り2割は、季節限定のスポット案件で穴埋めしなさい。

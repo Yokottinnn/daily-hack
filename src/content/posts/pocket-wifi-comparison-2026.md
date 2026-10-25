@@ -482,14 +482,19 @@ references:
 
 ここまでの数字を、**使い方ごとの答え**に直すとこうなる。
 
-<ul class="checklist">
-  <li><div class="checklist-body"><strong>① 月10〜20GB・サブ回線として長く持つ → リチャージWiFi</strong><p>2年総額は月10GBで21,955円、月20GBで37,915円。月額0円なので、使わない月があっても損をしない。返却も不要。</p></div></li>
-  <li><div class="checklist-body"><strong>② 月50〜100GB・1年以上使う → MONSTER MOBILE（2年契約）</strong><p>月100GBで1GBあたり29.5円。途中解約でも解約金は月額1か月分だけ。月50GBなら7か月、月100GBなら14か月使えばクラウドWiFiより安くなる。</p></div></li>
-  <li><div class="checklist-body"><strong>③ いつまで使うか分からない・縛りが嫌 → クラウドWiFi</strong><p>解約金0円。縛りなしの月額制の中では、どの容量でも最安。月100GBを1年以内で使うなら、全体でも最安。</p></div></li>
-  <li><div class="checklist-body"><strong>④ クレジットカードを使いたくない → ネオチャージWiFi</strong><p>審査・契約不要でコンビニ払いもできる。月20GBまでなら2年総額でも上位。</p></div></li>
-  <li><div class="checklist-body"><strong>⑤ 30GB・60GB・90GBがちょうどいい・短期で使う → 縛りなしWiFi</strong><p>最初の5か月が安い。他社に無い刻み方で、ぴったりの容量を選べる。</p></div></li>
-  <li><div class="checklist-body"><strong>⑥ 旅行・入院・光回線の開通待ちで数日〜1か月だけ → WiFiGO</strong><p>1日400円から。契約も解約もいらない。2か月を超えるなら他社に乗り換えたほうが安い。</p></div></li>
-</ul>
+<div class="cmp-table-wrap">
+  <table class="cmp-table prose-table">
+    <thead><tr><th>選ぶもの</th><th>こんな人と決め手</th></tr></thead>
+    <tbody>
+      <tr class="recommended"><td><a href="https://px.a8.net/svt/ejp?a8mat=4B43JB+BPIXUI+57FS+5YRHE" target="_blank" rel="sponsored noopener nofollow">リチャージWiFi</a></td><td><strong>月10〜20GB・サブ回線として長く持つ</strong><br><span class="cell-sub">2年総額は月10GBで21,955円、月20GBで37,915円。月額0円なので、使わない月があっても損をしない。返却も不要</span></td></tr>
+      <tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/pocket-wifi-comparison-2026/logos/monster-mobile.png" alt="" loading="lazy" /><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+26L9EI+348K+3YW8WI" target="_blank" rel="sponsored noopener nofollow">MONSTER MOBILE</a></span>（2年契約）</td><td><strong>月50〜100GB・1年以上使う</strong><br><span class="cell-sub">月100GBで1GBあたり29.5円。途中解約でも解約金は月額1か月分だけ。月50GBなら7か月、月100GBなら14か月使えばクラウドWiFiより安くなる</span></td></tr>
+      <tr><td><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+1WGW4A+3MKA+I0KRM" target="_blank" rel="sponsored noopener nofollow">クラウドWiFi</a></td><td><strong>いつまで使うか分からない・縛りが嫌</strong><br><span class="cell-sub">解約金0円。縛りなしの月額制の中では、どの容量でも最安。月100GBを1年以内で使うなら、全体でも最安</span></td></tr>
+      <tr><td><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+1XNRBU+57X0+5YRHE" target="_blank" rel="sponsored noopener nofollow">ネオチャージWiFi</a></td><td><strong>クレジットカードを使いたくない</strong><br><span class="cell-sub">審査・契約不要でコンビニ払いもできる。月20GBまでなら2年総額でも上位</span></td></tr>
+      <tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/pocket-wifi-comparison-2026/logos/shibarinashi-wifi.png" alt="" loading="lazy" /><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+2HWHWA+47FO+601S2" target="_blank" rel="sponsored noopener nofollow">縛りなしWiFi</a></span></td><td><strong>30GB・60GB・90GBがちょうどいい・短期で使う</strong><br><span class="cell-sub">最初の5か月が安い。他社に無い刻み方で、ぴったりの容量を選べる</span></td></tr>
+      <tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/pocket-wifi-comparison-2026/logos/wifi-go.png" alt="" loading="lazy" /><a href="https://px.a8.net/svt/ejp?a8mat=4B43JB+C0U6CA+2W74+HV7V6" target="_blank" rel="sponsored noopener nofollow">WiFiGO</a></span></td><td><strong>旅行・入院・光回線の開通待ちで数日〜1か月だけ</strong><br><span class="cell-sub">1日400円から。契約も解約もいらない。2か月を超えるなら他社に乗り換えたほうが安い</span></td></tr>
+    </tbody>
+  </table>
+</div>
 
 <h2 id="計算の前提">2年総額の計算の前提｜含めたもの・含めないもの</h2>
 
