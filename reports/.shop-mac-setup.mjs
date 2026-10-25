@@ -333,6 +333,11 @@ try {
     await dump('アプリケーションの管理');
     await go('https://e.developer.yahoo.co.jp/register');
     await dump('新しいアプリケーションを開発（登録の画面・送っていない）');
+    // 2026-10-25 利用者が Yahoo! JAPAN ID でログインした。登録の画面の選択肢と案内の文字も読む（送らない）
+    const opts = await p.evaluate(() => [...document.querySelectorAll('select')].filter((e) => e.getBoundingClientRect().height > 0).map((e) => `select[name=${e.name}]: ${[...e.options].map((o) => (o.selected ? '✔' : '') + o.textContent.trim()).join(' / ').slice(0, 300)}`));
+    const radios = await p.evaluate(() => [...document.querySelectorAll('input[type=radio], input[type=checkbox]')].map((e) => `${e.type}[name=${e.name} value=${e.value}]${e.checked ? ' ✔' : ''} 「${((e.closest('label') || {}).innerText || (e.id && (document.querySelector('label[for="' + e.id + '"]') || {}).innerText) || '').replace(/\s+/g, ' ').trim().slice(0, 60)}」`));
+    const txt = await p.evaluate(() => (document.querySelector('form') || document.body).innerText.split('\n').map((x) => x.trim()).filter(Boolean).slice(0, 80));
+    lines.push('- 選択肢:', ...opts.map((x) => `  - ${x.replace(/[^\s/]+@[^\s/]+/g, '［メール］')}`), '- ラジオ・チェック:', ...radios.map((x) => `  - ${x}`), '- 登録の画面の文字:', ...txt.filter((x) => !NG.test(x)).map((x) => `  - ${mask(x).slice(0, 150)}`));
   }
 } catch (e) { lines.push(`- ⚠️ ${mask(String(e).split('\n')[0])}`); }
 finally { await p.close().catch(() => {}); }

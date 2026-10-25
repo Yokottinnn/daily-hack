@@ -1,6 +1,6 @@
 # 楽天アフィリエイト（asp-sync）
 
-生成: **2026-10-25T08:27:03.636Z**
+生成: **2026-10-25T08:38:58.769Z**
 
 - ログイン: **できている**
 - 最終 URL: https://affiliate.rakuten.co.jp/report/summary
