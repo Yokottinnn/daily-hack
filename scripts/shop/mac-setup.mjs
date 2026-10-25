@@ -98,7 +98,10 @@ try {
           const val = (re) => { const i = rows.findIndex((x) => re.test(x)); if (i < 0) return ''; const same = rows[i].replace(re, '').replace(/^[\s:：]+/, '').trim(); return same || rows[i + 1] || ''; };
           const inp = [...document.querySelectorAll('input')].map((e) => [((e.closest('tr,div,dl') || {}).innerText || '').slice(0, 40), e.value || '']);
           const fromInput = (re) => (inp.find(([l, v]) => re.test(l) && v) || [])[1] || '';
-          return { app: val(/^(Application ID|アプリID)/i) || fromInput(/Application ID/i), key: val(/^(Access Key|アクセスキー)/i) || fromInput(/Access Key/i) };
+          // t336: 値は入力欄（type=password を含む）に入っている可能性。ラベルの近くの入力欄の値を全部見る
+          const near = (re) => { for (const e of document.querySelectorAll('input, textarea, code, pre, span, td, dd')) { const lab = ((e.closest('tr,li,dl,div') || {}).innerText || '') + ' ' + (e.getAttribute('aria-label') || '') + ' ' + (e.name || '') + ' ' + (e.id || ''); const v = e.value || (e.tagName !== 'INPUT' && e.tagName !== 'TEXTAREA' ? e.textContent : '') || ''; if (re.test(lab) && /^[A-Za-z0-9_\-]{16,}$/.test(v.trim())) return v.trim(); } return ''; };
+          return { app: val(/^(Application ID|アプリID)/i) || fromInput(/Application ID/i) || near(/Application ID|applicationId/i), key: near(/Access Key|accessKey|アクセスキー/i) || val(/^(Access Key|アクセスキー)/i) || fromInput(/Access Key/i),
+            shape: [...document.querySelectorAll('input, textarea')].map((e) => `${e.tagName.toLowerCase()}[type=${e.type} name=${e.name} id=${e.id}] 値${(e.value || '').length}文字`).slice(0, 12) };
         }));
       }
     }
@@ -109,7 +112,7 @@ try {
       try { execFileSync('/usr/bin/security', ['add-generic-password', '-U', '-s', 'dailyhack-rakuten-ws', '-a', 'accessKey', '-w', key]); lines.push(`- Access Key を Keychain（dailyhack-rakuten-ws / accessKey）に入れた（${key.length} 文字）`); }
       catch (e) { lines.push(`- ⚠️ Keychain に入れられない: ${String(e).slice(0, 80)}`); }
     } else lines.push('- Access Key が画面に見つからない（「表示」ボタンで隠れている可能性）。ボタン一覧を下に出す');
-    if (!key) await dump('アプリ一覧の画面');
+    if (!key) { lines.push('- 入力欄の形（値は文字数だけ）:', ...((got.shape || []).map((x) => `  - ${x}`))); await dump('アプリ一覧の画面'); }
     else lines.push('- 価格の自動取得（mac-weekly.sh の 2e）は次の 6:40 から楽天の価格を取る');
     // API が通るか 1 回だけ（結果は件数と HTTP の状態だけ出す）
     const appId = keychain('applicationId'), acc = keychain('accessKey');
@@ -203,6 +206,20 @@ try {
         const rows = await p.evaluate(() => (document.body.innerText || '').split('\n').map((x) => x.trim()).filter((x) => /Amazon\.co\.jp/.test(x)).slice(0, 5));
         lines.push('## 「申請中」で絞った一覧の Amazon の行', '', ...rows.map((x) => `- ${mask(x).slice(0, 160)}`), '');
       }
+    }
+  }
+
+  if (WHICH === 'moshimo-status') {
+    // 申請したかどうかを読むだけ（t336 は途中で落ちて記録が無い）。押さない
+    await go('https://af.moshimo.com/af/shop/promotion/detail?promotion_id=170');
+    const btn = await p.locator('button[data-promotion_id="170"]').count();
+    const words = await p.evaluate(() => [...new Set((document.body.innerText || '').match(/(申請中|提携中|否認中|未提携|審査中|申請済み)/g) || [])]);
+    lines.push(`- Amazon（170）の詳細: 「提携申請する」ボタン ${btn} 個・画面の状態の語 ${words.join(' / ') || 'なし'}`);
+    for (const st of ['1', '2']) {
+      await go(`https://af.moshimo.com/af/shop/promotion/search?words=Amazon&apply_status=${st}`);
+      const rows = await p.evaluate(() => (document.body.innerText || '').split('\n').map((x) => x.trim()).filter((x) => /Amazon\.co\.jp/.test(x)).slice(0, 3));
+      const hit = await p.evaluate(() => ((document.body.innerText || '').match(/検索結果: ?(\d+) ?件/) || [])[1] || '?');
+      lines.push(`- apply_status=${st} で絞った一覧: ${hit} 件・Amazon.co.jp の行 ${rows.length}`, ...rows.map((x) => `  - ${mask(x).slice(0, 140)}`));
     }
   }
 
