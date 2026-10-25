@@ -1,6 +1,6 @@
 # 3 店ボタンの Mac 側の準備: rakuten（scripts/shop/mac-setup.mjs）
 
-生成: **2026-10-25T08:05:39.949Z**
+生成: **2026-10-25T08:12:18.165Z**
 
 - 画面: https://webservice.rakuten.co.jp/app/list
 
@@ -47,6 +47,7 @@
   - button 「」 aria= title= data=
   - button 「」 aria= title= data=
   - button 「」 aria= title= data=
+- アイコンを押したときのクリップボード: 空 ／ 空 ／ 空 ／ 空
 - アイコンのボタン 4 個を押したあとの Access Key: まだ伏せ字（•••…）
 - 楽天 API（2026-07-01 版）の試し: HTTP 400・{
   "errors": {
