@@ -1,4 +1,3 @@
 [
-      {"task": "x350-reply-volume-now.sh", "rc": 0, "out": "x350 / x350-reply-volume.md"},
-      {"task": "x351-action-burst-audit.sh", "rc": 0, "out": "x351 / x351-action-burst.md"}
+      {"task": "x352-install-x-action-guard.sh", "rc": 0, "out": "x352 / x352-x-action-guard.md"}
   ]
