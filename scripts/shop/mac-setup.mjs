@@ -78,7 +78,8 @@ try {
       return { app: val(/^(Application ID|アプリID)/i), key: val(/^(Access Key|アクセスキー)/i) };
     });
     // t333: 一覧には Access Key が出ない（「More Details」の先）。押して詳細を開いてから読む
-    if (!got.key) {
+    // t335: 一覧の Access Key は伏せ字（16 文字以上の英数でない）だったので、値が取れていなければ詳細へ進む
+    if (!/[A-Za-z0-9_\-]{16,}/.test(got.key)) {
       // t334: getByText では押せなかった。ボタン・リンクの文字で探す
       const more = p.locator('a, button, [role=button], input[type=button], input[type=submit]').filter({ hasText: /More Details|詳細/ }).first();
       if (await more.count()) {
@@ -172,6 +173,36 @@ try {
         const modal = await p.evaluate(() => [...document.querySelectorAll('[role=dialog], .modal, .modal-content, .remodal, .c-modal')].filter((e) => e.getBoundingClientRect().height > 0).map((e) => (e.innerText || '').replace(/\s+/g, ' ').trim().slice(0, 900)));
         lines.push('## 出た確認の画面の文字', '', ...modal.map((x) => `- ${mask(x)}`), '');
       } else lines.push('- data-promotion_id=170 のボタンが無い（もう申請済みかもしれない）');
+    }
+  }
+
+  if (WHICH === 'moshimo-apply') {
+    // t335 で「提携申請する」を押すと「ご確認ください」の画面（閉じる／提携申請する）が出ると分かった。ここで最後の「提携申請する」を押す
+    // （申請は利用者の OK 済み 2026-10-25。本番に Amazon アソシエイトの記載があることを先に確かめる）
+    const live = await fetch(`https://daily-hack.fieldbeside.com/?t=${Date.now()}`).then((r) => r.text()).catch(() => '');
+    if (!live.includes('Amazonのアソシエイトとして、当メディアは適格販売により収入を得ています。')) { lines.push('- 本番に Amazon アソシエイトの記載が無いので押さない'); }
+    else {
+      await go('https://af.moshimo.com/af/shop/promotion/detail?promotion_id=170');
+      const first = p.locator('button[data-promotion_id="170"]').first();
+      if (!(await first.count())) lines.push('- data-promotion_id=170 のボタンが無い（申請済みかもしれない）');
+      else {
+        await first.click({ timeout: 5000 }).catch(() => {});
+        await p.waitForTimeout(3000);
+        // 「ご確認ください」を含む、いま見えている箱の中の「提携申請する」
+        const box = p.locator('div:visible').filter({ hasText: 'ご確認ください' }).filter({ has: p.getByRole('button', { name: '閉じる' }) }).last();
+        const txt = (await box.innerText().catch(() => '')).replace(/\s+/g, ' ').slice(0, 900);
+        lines.push('## 確認の画面の文字', '', `- ${mask(txt)}`, '');
+        const go2 = box.getByRole('button', { name: /^提携申請する$/ }).last();
+        if (await go2.count()) {
+          await go2.click({ timeout: 5000 }).catch(() => {});
+          await p.waitForTimeout(5000);
+          lines.push(`- 確認の画面の「提携申請する」を押した（${here()}）`);
+          await dump('押したあとの画面');
+        } else lines.push('- 確認の画面の中に「提携申請する」が見つからない（押していない）');
+        await go('https://af.moshimo.com/af/shop/promotion/search?words=Amazon&apply_status=1');
+        const rows = await p.evaluate(() => (document.body.innerText || '').split('\n').map((x) => x.trim()).filter((x) => /Amazon\.co\.jp/.test(x)).slice(0, 5));
+        lines.push('## 「申請中」で絞った一覧の Amazon の行', '', ...rows.map((x) => `- ${mask(x).slice(0, 160)}`), '');
+      }
     }
   }
 
