@@ -1,21 +1,28 @@
-node:internal/process/promises:332
-    triggerUncaughtException(err, true /* fromPromise */);
-    ^
+# 3 店ボタンの Mac 側の準備: moshimo-apply（scripts/shop/mac-setup.mjs）
 
-ProtocolError: Protocol error (Page.handleJavaScriptDialog): No dialog is showing
-    at /Users/ny/.openclaw/workspace/node_modules/playwright-core/lib/server/chromium/crConnection.js:116:57
-    at new Promise (<anonymous>)
-    at CRSession.send (/Users/ny/.openclaw/workspace/node_modules/playwright-core/lib/server/chromium/crConnection.js:115:12)
-    at Dialog._onHandle (/Users/ny/.openclaw/workspace/node_modules/playwright-core/lib/server/chromium/crPage.js:696:28)
-    at Dialog.dismiss (/Users/ny/.openclaw/workspace/node_modules/playwright-core/lib/server/dialog.js:59:16)
-    at Dialog.close (/Users/ny/.openclaw/workspace/node_modules/playwright-core/lib/server/dialog.js:65:18)
-    at DialogManager.dialogDidOpen (/Users/ny/.openclaw/workspace/node_modules/playwright-core/lib/server/dialog.js:85:14)
-    at FrameSession._onDialog (/Users/ny/.openclaw/workspace/node_modules/playwright-core/lib/server/chromium/crPage.js:689:45)
-    at CRSession.<anonymous> (/Users/ny/.openclaw/workspace/node_modules/playwright-core/lib/server/chromium/crPage.js:352:119)
-    at CRSession.emit (node:events:509:20) {
-  type: 'error',
-  method: 'Page.handleJavaScriptDialog',
-  logs: undefined
-}
+生成: **2026-10-25T07:58:56.796Z**
 
-Node.js v26.0.0
+## 確認の画面の文字
+
+- プロモーション期間 2010年 9月 29日 ～ プロモーション内容 2024年8月7日より紹介料上限なしで報酬アップとなりました。 高額報酬商品の成果実績（2025年4月中旬から5月中旬）データPDFを配布中です。 ※もしもアフィリエイト実績をもとにしたデータです。 Amazon全体のデータではございません。 ※このデータは紹介商品選定目的での参考情報としてお役立てください。それ以外の利用を一切禁止しています。コピーや転載も禁止です。違反すると提携解除などの対処になる場合がございます。 「Amazonで成果を伸ばすノウハウ」ページを公開しました。 提携前に以下の内容を必ずご確認ください ※提携申請時にはコンテンツは直近のもの (一般的に 60 日以内に更新されているもの) である必要があります。なお、10記事以上のコンテンツが必要です。10記事に満たない場合は提携できかねます。※ ※肖像権にご注意ください※ ※芸能人の画像を勝手に使用することは禁じられております※ Amazon.co.jp（アマゾン）での商品購入に際して、アフィリエイト報酬を得ることができるプログラムです。 スマートフォンでの購入も成果となります。ただし、レポート上ではPCの成果として表示されます。ご了承下さい。 ［21文字・伏せた］ ■提携について ［21文字・伏せた］ ・提携審査には数週間かかる場合がございます。 ・アマゾンアソシエイト審査基準をもとに厳重に審査しています。 Amazonアソシエイト・プログラム運営規約について 申請の審査プロセスについて ・作成されたばかりの未完成サイトや、運営がされていないサイトは提携できません。 少なくとも10記事以上あることが必要です。 ・過去に問題があり提携解除された方は、他のサイトであっても再提携できません。 ※審査の規定により、未成年者様の提携はできません※ ＜提携できないサイトの例＞ ・リベートサイト（当該サイトのリンクを経由してショッピングを行うことと引き換えに、エンドカスタマーに対してポイント、キャッシ
+
+- 確認の画面の「提携申請する」を押した（https://af.moshimo.com/af/shop/promotion/detail）
+- 出たダイアログ: confirm「提携申請には、あなたのサイトやブログを登録する必要があります。
+メディア登録ページに移動しますか？」（moshimo-apply では「OK」を押す）
+## 押したあとの画面
+
+- 画面: https://af.moshimo.com/af/shop/promotion/detail（プロモーション詳細(「Amazon.co.jp」商品購入（商品カテゴリによって報酬率が異なります）) ｜ もしもアフィリ）
+
+見出し:
+
+入力欄:
+- select[type=select-one name=shop_site_id] 「」
+- input[type=text name=words] 「プロモーション条件を詳細に設定して検索できます」
+- input[type=submit name=] 「」
+
+ボタン:
+- 提携申請する ／ 提携申請する
+
+## 「申請中」で絞った一覧の Amazon の行
+
+
