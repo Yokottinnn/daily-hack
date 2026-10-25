@@ -1,9 +1,7 @@
 # 3 店ボタンの Mac 側の準備: rakuten（scripts/shop/mac-setup.mjs）
 
-生成: **2026-10-25T07:27:21.974Z**
+生成: **2026-10-25T07:32:15.262Z**
 
-- 本人確認の画面に飛ばされた（https://login.account.rakuten.com/session/upgrade）。Keychain の ID・パスワード: ある
-- 入り直したあとの画面: https://webservice.rakuten.co.jp/app/list
 - 画面: https://webservice.rakuten.co.jp/app/list
 
 - Application ID: 36 文字（Keychain の値と同じ）
