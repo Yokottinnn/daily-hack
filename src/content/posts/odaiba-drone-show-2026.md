@@ -61,10 +61,7 @@ references: ["https://odaibadrone.com/", "https://www.tokyo-odaiba.net/event_tou
   </table>
 </div>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-07-gasp.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="全3公演">全3公演の日程｜2026年のお台場は12日・22公演</h2>
-</div>
+<h2 id="全3公演">全3公演の日程｜2026年のお台場は12日・22公演</h2>
 
 <figure class="rn-figure">
   <img src="/images/odaiba-drone-show-2026/photos/rainbow.jpg" alt="お台場のレインボーブリッジ。ドローンショーはこの空を背景に上がる" loading="lazy" />
@@ -86,10 +83,7 @@ references: ["https://odaibadrone.com/", "https://www.tokyo-odaiba.net/event_tou
 
 そして**22回のうち16回が9月の「Pixel Moon」に集中している**。2026年のお台場のドローンショーは、実質この1本と言っていい。
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-08-cry.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="doraemon">① 100％ドラえもん＆フレンズ ドローンショー（3/7・3/8｜終了）</h2>
-</div>
+<h2 id="doraemon">① 100％ドラえもん＆フレンズ ドローンショー（3/7・3/8｜終了）</h2>
 
 <div class="cmp-table-wrap">
   <table class="cmp-table spec-table">
@@ -108,10 +102,7 @@ references: ["https://odaibadrone.com/", "https://www.tokyo-odaiba.net/event_tou
 
 **この公演はもう終わっている。** ただし「お台場 ドローンショー」で検索すると今でも上位に出てくるので、日付を見ずにたどり着くと勘違いする。**2026年に残っているのは8月と9月の2本。**
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-04-cheer.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="aqua">② 東京アクアシンフォニー × ドローンショー（8/29・8/30）</h2>
-</div>
+<h2 id="aqua">② 東京アクアシンフォニー × ドローンショー（8/29・8/30）</h2>
 
 <figure class="rn-figure">
   <img src="/images/odaiba-drone-show-2026/photos/hanabi.jpg" alt="東京湾の夜空。噴水とドローンが連動するショーはこの水面の上で行われる" loading="lazy" />
@@ -134,10 +125,7 @@ references: ["https://odaibadrone.com/", "https://www.tokyo-odaiba.net/event_tou
 
 **19:00と21:00の2回制は、9月の「Pixel Moon」と同じ時刻。** つまりお台場のドローンショーは、**19時と21時に見に行くもの**と覚えておけば外さない。
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="pixel-moon">③ ODAIBA DRONE SHOW 2026「Pixel Moon」（9/4〜9/22）</h2>
-</div>
+<h2 id="pixel-moon">③ ODAIBA DRONE SHOW 2026「Pixel Moon」（9/4〜9/22）</h2>
 
 <div class="cmp-table-wrap">
   <table class="cmp-table spec-table">
@@ -227,10 +215,7 @@ references: ["https://odaibadrone.com/", "https://www.tokyo-odaiba.net/event_tou
 
 **ドローンだけを見に行くつもりだと、構成を取り違える。** 水と光と音があって、その上に1,000機が乗る。
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-06-shock.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="中秋の名月">お月見がテーマなのに、中秋の名月には終わっている</h2>
-</div>
+<h2 id="中秋の名月">お月見がテーマなのに、中秋の名月には終わっている</h2>
 
 **「Pixel Moon」はお月見をテーマにしたショーである。** ところが——
 
@@ -256,10 +241,7 @@ references: ["https://odaibadrone.com/", "https://www.tokyo-odaiba.net/event_tou
   <div class="hakkako-quote">「お月見」って言われたら中秋の名月を思い浮かべるでしょ。でも<strong>ショーは5連休に合わせて組まれてる。</strong>天文じゃなくてカレンダーで決まってるの。責める話じゃないけど、<strong>知らないと3日ずれる。</strong></div>
 </div>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-03-bashful.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="アクセス">どこから見える？会場とアクセス｜台場海浜公園「マリンハウス前」</h2>
-</div>
+<h2 id="アクセス">どこから見える？会場とアクセス｜台場海浜公園「マリンハウス前」</h2>
 
 <figure class="rn-figure">
   <img src="/images/odaiba-drone-show-2026/photos/tokyo-night.jpg" alt="東京タワーが見える港区の夜景。ドローンショーは東京タワーを背景に上がる" loading="lazy" />
@@ -281,10 +263,7 @@ references: ["https://odaibadrone.com/", "https://www.tokyo-odaiba.net/event_tou
 
 **打ち上げは第三台場（台場公園）から、観覧は台場海浜公園。** 打ち上げ地点と観覧場所が別なので、「台場公園まで行けば近くで見られる」と考えないほうがいい。
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-01-wave.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="行く前に">見に行く前に確認すること</h2>
-</div>
+<h2 id="行く前に">見に行く前に確認すること</h2>
 
 <ul class="checklist">
   <li><div class="checklist-body"><strong>① その日が公演日か</strong><p>9月は19日間のうち<strong>8日だけ</strong>。9/7〜9/17は何もない。<strong>「開催期間」と「公演日」は別物。</strong></p></div></li>
@@ -307,7 +286,6 @@ references: ["https://odaibadrone.com/", "https://www.tokyo-odaiba.net/event_tou
 
 <aside class="related-block">
   <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <p class="related-block-title">あわせて読みたい</p>
   </div>
   <ul class="related-block-list">

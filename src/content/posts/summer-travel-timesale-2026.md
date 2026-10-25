@@ -23,7 +23,6 @@ author: "hacker-ko"
 
 <aside class="related-block">
   <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <p class="related-block-title">あわせて読みたい</p>
   </div>
   <ul class="related-block-list">
@@ -317,7 +316,6 @@ PayPay経済圏で固定費まで集約してる人は、**Yahoo!トラベル+Pa
 
 <aside class="related-block">
   <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-05-smug.png" alt="" /></span>
     <p class="related-block-title">夏旅とセットで節約したい人へ</p>
   </div>
   <ul class="related-block-list">

@@ -78,10 +78,7 @@ X で「セントラルガーデン月島ザ・タワーの建築進捗！」っ
 <div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+13W32Y+4MTU+609HT" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/softbank-air-300x250.jpg" alt="工事不要でネット使い放題！月々2468円(税込)〜！【SoftbankAir】" width="300" height="250" loading="lazy"></a></div>
 </div>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-07-gasp.png" alt="Daily Hackマスコット" /></div>
-  <h2>中央区湾岸を拡大。半径1.5kmに4本のタワーが刺さってる</h2>
-</div>
+<h2>中央区湾岸を拡大。半径1.5kmに4本のタワーが刺さってる</h2>
 
 築地・月島・勝どき・豊海だけを切り出すとこう。歩いて回れる距離に、全部で4,500戸超が建ちつつある。
 
@@ -275,10 +272,7 @@ X で「セントラルガーデン月島ザ・タワーの建築進捗！」っ
 <div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+17GOPM+3SPO+NUMHT" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/docomo-hikari-300x250.jpg" alt="【ドコモ光】新規工事費実質無料！当サイト限定！最大100,000円の高額キャッシュバック！" width="300" height="250" loading="lazy"></a></div>
 </div>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-09-arms-crossed.png" alt="Daily Hackマスコット" /></div>
-  <h2>江東区と港区はどうなってるの</h2>
-</div>
+<h2>江東区と港区はどうなってるの</h2>
 
 「湾岸＝豊洲・有明」のイメージで探してる人ほどガッカリするから先に言っておく。**江東区の湾岸に、いま大型の新築タワーはほぼ無い。** 動いてるのは中小規模と、まだ形になってない構想だけ。
 
@@ -506,7 +500,6 @@ X で「セントラルガーデン月島ザ・タワーの建築進捗！」っ
 
 <aside class="related-block">
   <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <p class="related-block-title">あわせて読みたい</p>
   </div>
   <ul class="related-block-list">

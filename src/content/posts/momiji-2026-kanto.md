@@ -69,10 +69,7 @@ references: ["https://sp.jorudan.co.jp/leaf/news/jrd_260902_1.html", "https://ww
 <div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+35PU3E+4XZI+BXIYP" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/travelist-hotel-300x250.jpg" alt="【国内ホテル・宿泊・旅館予約｜トラベリスト】" width="300" height="250" loading="lazy"></a></div>
 </div>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-07-gasp.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="見頃予想">2026年の見頃予想｜東京は紅葉11月29日・イチョウ11月26日ごろ</h2>
-</div>
+<h2 id="見頃予想">2026年の見頃予想｜東京は紅葉11月29日・イチョウ11月26日ごろ</h2>
 
 日本気象（大阪）が9月2日に出した予想では、**今年は全国的に「平年並み」か「遅い」**。残暑で秋の気温が高めになるのが理由。東京の紅葉（モミジ）は**11月29日ごろ**、黄葉（イチョウ）は**11月26日ごろ**で、どちらも平年並み。
 
@@ -109,10 +106,7 @@ references: ["https://sp.jorudan.co.jp/leaf/news/jrd_260902_1.html", "https://ww
 
 **2つの予想で日付の出し方が違う。** 日本気象は「都市の見頃の日」、日本気象協会は「名所の見頃が始まる日」。高尾山は、日本気象が<strong>山頂で11月6日〜20日ごろ</strong>、日本気象協会が<strong>11月19日〜</strong>と出していて、山頂と麓で2週間ほどずれる。
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-04-cheer.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="calendar">関東の紅葉 見頃カレンダー｜例年の見頃が早い順に46か所</h2>
-</div>
+<h2 id="calendar">関東の紅葉 見頃カレンダー｜例年の見頃が早い順に46か所</h2>
 
 日本気象協会が名所ごとに出している「<strong>例年の見頃</strong>」を、始まりが早い順に並べた。<strong>東京都内は22か所</strong>。湾岸から近いのは<strong>清澄庭園（江東区）</strong>と<strong>旧芝離宮恩賜庭園（港区）</strong>。
 
@@ -174,7 +168,6 @@ references: ["https://sp.jorudan.co.jp/leaf/news/jrd_260902_1.html", "https://ww
 
 <aside class="related-block">
   <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <p class="related-block-title">あわせて読みたい</p>
   </div>
   <ul class="related-block-list">
@@ -193,10 +186,7 @@ references: ["https://sp.jorudan.co.jp/leaf/news/jrd_260902_1.html", "https://ww
 <div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B43JB+C9ROEY+5RZ8+BXB8X" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/aeon-rentacar-300x250.jpg" alt="イオンコンパスレンタカー" width="300" height="250" loading="lazy"></a></div>
 </div>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-07-gasp.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="tokyo23">東京23区の紅葉おすすめ10選｜明治神宮外苑・六義園・新宿御苑から湾岸の清澄庭園まで</h2>
-</div>
+<h2 id="tokyo23">東京23区の紅葉おすすめ10選｜明治神宮外苑・六義園・新宿御苑から湾岸の清澄庭園まで</h2>
 
 **23区の中だけで、電車で行けて、1か所ずつ性格が違う10か所を選んだ。** 今年の予想は日本気象協会の名所別の予想（10月4日時点）。都内の庭園は軒並み**12月上旬**で、例年より少し後ろにずれている。
 
@@ -623,7 +613,6 @@ references: ["https://sp.jorudan.co.jp/leaf/news/jrd_260902_1.html", "https://ww
 
 <aside class="related-block">
   <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <p class="related-block-title">あわせて読みたい</p>
   </div>
   <ul class="related-block-list">
@@ -637,10 +626,7 @@ references: ["https://sp.jorudan.co.jp/leaf/news/jrd_260902_1.html", "https://ww
   </ul>
 </aside>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-01-wave.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="daytrip">東京の都心から電車で日帰り｜新宿から最速43分の高尾山・立川駅から徒歩10分の昭和記念公園・浅草から約2時間の日光</h2>
-</div>
+<h2 id="daytrip">東京の都心から電車で日帰り｜新宿から最速43分の高尾山・立川駅から徒歩10分の昭和記念公園・浅草から約2時間の日光</h2>
 
 都心から少し出ると、見頃が**早い名所**が増える。<strong>10月中に動けるのは日光、11月の前半なら昭和記念公園、11月後半なら高尾山。</strong>それぞれ、行き方と一緒に使える割引きっぷ・名物まで並べた。
 
@@ -771,10 +757,7 @@ references: ["https://sp.jorudan.co.jp/leaf/news/jrd_260902_1.html", "https://ww
 
 <p class="source-note">出典：<a href="https://www.tobu-maas.jp/lp/nikko-maas" target="_blank" rel="noopener">東武鉄道「NIKKO MaaS フリーパス」</a>／<a href="https://www.tobu.co.jp/en/ticket/nikko-pass/" target="_blank" rel="noopener">同「NIKKO PASS」（浅草から約2時間・名物）</a>／<a href="https://www.nikko-kankou.org/" target="_blank" rel="noopener">日光旅ナビ</a></p>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="lightup">2026年の紅葉ライトアップ｜日程が決まっているもの</h2>
-</div>
+<h2 id="lightup">2026年の紅葉ライトアップ｜日程が決まっているもの</h2>
 
 **夜に行けるかどうかで、選べる名所が変わる。** 2026年10月4日の時点で日程が公式に出ているものを並べた。
 

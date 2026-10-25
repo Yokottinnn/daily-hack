@@ -64,10 +64,7 @@ references: ["https://event.rakuten.co.jp/furusato/", "https://event.rakuten.co.
 
 <span class="event-picks-credit">カード画像は Wikimedia Commons の再利用可ライセンス画像より（ほたて: Arashiyama / CC BY-SA 3.0、和牛: Alpha / CC BY-SA 2.0、いくら丼: Blue Lotus / CC BY 2.0、シャインマスカット: Scudsvlad / CC BY-SA 4.0、みかん: Tomomarusan / CC BY 2.5、かに: Searobin / CC BY-SA 3.0）。</span>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-07-gasp.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="ban">2025年10月に何が変わった｜サイトのポイント付与が禁止</h2>
-</div>
+<h2 id="ban">2025年10月に何が変わった｜サイトのポイント付与が禁止</h2>
 
 楽天ふるさと納税のトップには、いまもこう書いてある。**「2025年10月1日より、ポータルサイトによるふるさと納税へのポイント付与ができなくなりました」**。それまで各サイトが競っていた「寄付するとサイトのポイントが付く」は、この日で終わった。
 
@@ -92,10 +89,7 @@ ANAのふるさと納税にも、同じ日付で「<strong>マイル積算サー
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">去年からふるさと納税のポイントが廃止されましたが、みなさんはどこのサイトや会社からふるさと納税してますか？ 私は今まで楽天でやってましたが他もそんなに変わりなければ楽天のままにしようと思っています🤔</p>&mdash; タテノ希少種 (@AuraBattler777) <a href="https://twitter.com/AuraBattler777/status/2034452958243635662">2026年3月19日</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-04-cheer.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="compare">6サイトの違い｜一覧表</h2>
-</div>
+<h2 id="compare">6サイトの違い｜一覧表</h2>
 
 **サイトのポイントが無くなったあとに残った差**を、公式ページに書いてあることだけで並べた。
 
@@ -117,7 +111,6 @@ ANAのふるさと納税にも、同じ日付で「<strong>マイル積算サー
 
 <aside class="related-block">
   <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <p class="related-block-title">あわせて読みたい</p>
   </div>
   <ul class="related-block-list">
@@ -131,10 +124,7 @@ ANAのふるさと納税にも、同じ日付で「<strong>マイル積算サー
   </ul>
 </aside>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-01-wave.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="own-points">手持ちのポイントで選ぶ｜1サイトずつ</h2>
-</div>
+<h2 id="own-points">手持ちのポイントで選ぶ｜1サイトずつ</h2>
 
 **いちばん分かりやすい選び方は「普段どのポイントを貯めているか」。** 貯まったポイントをそのまま寄付に回せるサイトがある。
 
@@ -185,10 +175,7 @@ ANAのふるさと納税にも、同じ日付で「<strong>マイル積算サー
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">📢寄付締切間近！今年の寄付は12月31日まで！ ANAのふるさと納税は・・・ ◎ANA Payを使えば、お持ちのマイルで寄付することが可能！ さらに、寄付額200円ごとに1マイル貯まる♪ ◎客室乗務員や空港スタッフがおすすめする返礼品をご用意！ ◎航空会社ならではの「旅」にまつわる返礼品が充実</p>&mdash; ANA【公式】 (@ANA_travel_info) <a href="https://twitter.com/ANA_travel_info/status/2005493919220658455">2025年12月29日</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="payment-side">還元は「払い方」の側に残った</h2>
-</div>
+<h2 id="payment-side">還元は「払い方」の側に残った</h2>
 
 **サイトがポイントを付けられなくなったあと、決済サービスの側でポイントを付けるキャンペーンが出てきた。** 去年の12月に、それに気づいた人の投稿。
 
@@ -201,10 +188,7 @@ ANAのふるさと納税にも、同じ日付で「<strong>マイル積算サー
 
 <div class="yt-embed"><iframe src="https://www.youtube-nocookie.com/embed/i6QzsDjmz-o" title="【改悪後】ふるさと納税の「お得な支払い方法」完全ガイド｜サイト別おすすめ決済を徹底比較" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe></div>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-07-gasp.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="unique">サイト独自のもので選ぶ｜さとふる・ふるなび・ふるさとチョイス</h2>
-</div>
+<h2 id="unique">サイト独自のもので選ぶ｜さとふる・ふるなび・ふるさとチョイス</h2>
 
 <h3 class="brand-h" id="satofull"><img class="brand-logo" src="/images/furusato-portal-comparison-2026/logos/satofull.webp" alt="さとふるのロゴ" loading="lazy" /><span>さとふる｜さとふるマイポイントをPayPayポイントに交換できる</span></h3>
 
@@ -249,7 +233,6 @@ ANAのふるさと納税にも、同じ日付で「<strong>マイル積算サー
 
 <aside class="related-block">
   <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <p class="related-block-title">あわせて読みたい</p>
   </div>
   <ul class="related-block-list">
@@ -263,10 +246,7 @@ ANAのふるさと納税にも、同じ日付で「<strong>マイル積算サー
   </ul>
 </aside>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-04-cheer.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="deadline">今年分は12月31日まで｜ワンストップは5自治体まで</h2>
-</div>
+<h2 id="deadline">今年分は12月31日まで｜ワンストップは5自治体まで</h2>
 
 <div class="cmp-table-wrap">
   <table class="cmp-table">

@@ -58,10 +58,7 @@ references:
 - **BILLY・ソファのような大物はカーシェアが安い**。ただし長い箱が載る車を選ぶと差は縮む
 - **土日なら配送は1,000円上がる**。週末に受け取りたい人ほどカーシェアが効く
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-07-gasp.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="配送料">IKEAの配送料｜小物・コンパクト大型・大型の3段階</h2>
-</div>
+<h2 id="配送料">IKEAの配送料｜小物・コンパクト大型・大型の3段階</h2>
 
 **IKEAの配送料は、荷物の大きさで3段階に分かれる**。一番安いのは3辺合計160cm以内の小物配送、一番高いのはベッドやソファ向けの大型配送。下は東京23区のような**メインエリア内**の料金。
 
@@ -100,10 +97,7 @@ references:
 
 お届けは大型配送で**最短3〜30日**、日付指定ができる。**大型配送は置き配ができない**ので、受け取りの日は家にいる必要がある。メインエリアは東京23区を含み、どこまでがメインエリアかは<a href="https://www.ikea.com/jp/ja/customer-service/services/delivery/main-area-pub846a84f0/" target="_blank" rel="noopener">IKEAのメインエリアのページ</a>で確かめられる。
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-09-arms-crossed.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="3点の配送タイプ">BILLY・KALLAX・KLIPPANはどの配送になる？｜箱の大きさで決まる</h2>
-</div>
+<h2 id="3点の配送タイプ">BILLY・KALLAX・KLIPPANはどの配送になる？｜箱の大きさで決まる</h2>
 
 **どのタイプになるかは、家具の大きさではなく「梱包の箱」の大きさで決まる**。公式の商品ページに書いてある梱包サイズを、上の条件に当てはめた。
 
@@ -127,10 +121,7 @@ references:
   <figcaption><strong>ソファは売り場で座って選び、運ぶのは別の話。</strong>大型商品は箱の長さと重さで配送の枠が決まる。<cite>画像: <a href="https://prtimes.jp/main/html/rd/p/000000424.000065734.html" target="_blank" rel="noopener">イケア・ジャパン プレスリリース</a></cite></figcaption>
 </figure>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-04-cheer.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="カーシェア3社">カーシェア3社の料金｜タイムズカー・三井のカーシェアーズ・EARTHCAR</h2>
-</div>
+<h2 id="カーシェア3社">カーシェア3社の料金｜タイムズカー・三井のカーシェアーズ・EARTHCAR</h2>
 
 **3社とも料金の仕組みが違う**。タイムズは15分刻み、三井は10分刻みで6時間以内なら距離料金が0円、EARTHCARは車ごとに決まった時間のコマを買う。まず全体を並べる。
 
@@ -210,10 +201,7 @@ references:
 <div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+383KII+43U8+HX5B5" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/earthcar-300x250.jpg" alt="【入会金・月会費０円だから超高CVR】おトクがいっぱいのカーシェア「EARTHCAR」" width="300" height="250" loading="lazy"></a></div>
 </div>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-07-gasp.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="総額比較">総額で比較｜3時間・30kmで運んだらいくら？</h2>
-</div>
+<h2 id="総額比較">総額で比較｜3時間・30kmで運んだらいくら？</h2>
 
 **ここが本題**。「ステーション → IKEA → 自宅 → ステーション」を**3時間・走行30km**と置いて、カーシェアの総額を出した。時間と距離はあくまで例なので、自分の家とIKEAの距離で置き換えて読んでほしい。
 
@@ -257,7 +245,6 @@ references:
 
 <aside class="related-block">
   <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <p class="related-block-title">あわせて読みたい</p>
   </div>
   <ul class="related-block-list">
@@ -278,10 +265,7 @@ references:
   </ul>
 </aside>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-09-arms-crossed.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="受取り">配送しない選択肢｜センター受取り・店舗受取り</h2>
-</div>
+<h2 id="受取り">配送しない選択肢｜センター受取り・店舗受取り</h2>
 
 **配送でもカーシェアでもない第3の道が「受取り**」。 ネットで注文して、受取りセンターや店舗で受け取る。大型でも Family なら2,000円、**25,000円以上の購入なら無料**になる。
 
@@ -300,10 +284,7 @@ references:
 
 **KLIPPAN（36,990円）ならセンター受取りは無料**。ただし受け取ったあとは自分で積んで運ぶので、**結局カーシェアは要る**。「配送を待たずに受け取り日を自分で決めたい」人向けの選択肢と考えるといい。
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-06-shock.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="組立て">組立てサービスの料金｜IKEA認定とANYTIMESの2つ</h2>
-</div>
+<h2 id="組立て">組立てサービスの料金｜IKEA認定とANYTIMESの2つ</h2>
 
 **運んだあとに待っているのが組立て**。ソファや本棚を1人で組むのがしんどいなら、IKEAの組立てサービスがある。窓口は2つ。
 
@@ -321,10 +302,7 @@ references:
 
 **キャンセル料に気をつける**。3日前までは無料だけど、2日前は4万円未満で5,500円、4万円以上で50%、前日以降は100%かかる（<a href="https://www.ikea.com/jp/ja/customer-service/terms-conditions/terms-conditions-assembly-pub2e7dba50/" target="_blank" rel="noopener">組立てサービスの利用規約</a>）。**家具が届く日が決まってから申し込む**のが安全。
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-04-cheer.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="ikea豊洲">IKEA豊洲で買うなら｜クーポンは10月31日まで・駐車場は2時間無料</h2>
-</div>
+<h2 id="ikea豊洲">IKEA豊洲で買うなら｜クーポンは10月31日まで・駐車場は2時間無料</h2>
 
 **IKEA豊洲にはタイムズのカーシェアが置いていない**。車で行くなら、近くでカーシェアを借りてららぽーと豊洲の駐車場に停めることになる。豊洲で使える期限つきの特典と、駐車場の条件をまとめた。
 
@@ -346,10 +324,7 @@ references:
 
 **豊洲は約600点の展示のうち約500点が持ち帰り可**。大物がその場で持ち帰れるかは、行く前に公式の在庫表示で確かめてから車を予約するのが確実。
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="選び方">結局どっち？｜タイプ別の選び方</h2>
-</div>
+<h2 id="選び方">結局どっち？｜タイプ別の選び方</h2>
 
 **ここまでの数字を、読者のタイプに落とした**。
 
@@ -370,7 +345,6 @@ references:
 
 <aside class="related-block">
   <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <p class="related-block-title">あわせて読みたい</p>
   </div>
   <ul class="related-block-list">

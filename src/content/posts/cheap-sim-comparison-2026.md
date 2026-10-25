@@ -22,7 +22,6 @@ author: "hacker-ko"
 
 <aside class="related-block">
   <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <p class="related-block-title">あわせて読みたい</p>
   </div>
   <ul class="related-block-list">
@@ -88,7 +87,6 @@ author: "hacker-ko"
 
 <aside class="related-block">
   <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <p class="related-block-title">あわせて読みたい</p>
   </div>
   <ul class="related-block-list">
@@ -109,10 +107,7 @@ author: "hacker-ko"
   </ul>
 </aside>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-09-arms-crossed.png" alt="" /></div>
-  <h2>主要6社の徹底比較カード</h2>
-</div>
+<h2>主要6社の徹底比較カード</h2>
 
 「どこも横並びで見える」って言うあんた、まだ甘い。**通信品質・データ上限・縛り・かけ放題の有無**で各社の性格は全然違う。1社ずつアタシ目線でまとめてあげる。
 
@@ -263,7 +258,6 @@ LINEのトーク・音声通話・ビデオ通話・スタンプ送信が**全�
 
 <aside class="related-block">
   <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <p class="related-block-title">あわせて読みたい</p>
   </div>
   <ul class="related-block-list">
@@ -313,10 +307,7 @@ LINEのトーク・音声通話・ビデオ通話・スタンプ送信が**全�
   </div>
 </a>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-05-smug.png" alt="" /></div>
-  <h2>よくある質問</h2>
-</div>
+<h2>よくある質問</h2>
 
 ### Q. キャリアメール（@docomo.ne.jp 等）はどうなる？
 
@@ -340,7 +331,6 @@ LINEのトーク・音声通話・ビデオ通話・スタンプ送信が**全�
 
 <aside class="related-block">
   <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <p class="related-block-title">あわせて読みたい</p>
   </div>
   <ul class="related-block-list">

@@ -23,7 +23,6 @@ author: "hacker-ko"
 
 <aside class="related-block">
   <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <p class="related-block-title">あわせて読みたい</p>
   </div>
   <ul class="related-block-list">
@@ -73,10 +72,7 @@ author: "hacker-ko"
 
 ここで差がつく。コンビニで7%還元、Amazonで2%、楽天市場で最大16%……。**自分の支出パターンに刺さる「上乗せ」があるカードを選ぶ**のが正解。誰にとってもベストな1枚は存在しないから、自分の生活を一度棚卸ししなさい。
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-09-arms-crossed.png" alt="" /></div>
-  <h2 id="年会費無料還元率1以上-おすすめ5枚">年会費無料×還元率1%以上 おすすめ5枚</h2>
-</div>
+<h2 id="年会費無料還元率1以上-おすすめ5枚">年会費無料×還元率1%以上 おすすめ5枚</h2>
 
 「全部1%以上じゃん、どれでもいいの？」って思ったあんた、まだ甘い。**特定店舗の上乗せが本体**よ。1枚ずつアタシ目線でまとめてあげる。
 
@@ -216,7 +212,6 @@ PayPay残高にチャージできる**唯一の主要クレカ**。PayPayステ�
 
 <aside class="related-block">
   <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <p class="related-block-title">あわせて読みたい</p>
   </div>
   <ul class="related-block-list">
@@ -270,7 +265,6 @@ PayPay残高にチャージできる**唯一の主要クレカ**。PayPayステ�
 
 <aside class="related-block">
   <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <p class="related-block-title">あわせて読みたい</p>
   </div>
   <ul class="related-block-list">

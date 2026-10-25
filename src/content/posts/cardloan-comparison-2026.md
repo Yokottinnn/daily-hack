@@ -31,7 +31,6 @@ references:
 
 <aside class="related-block">
   <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <p class="related-block-title">先に読んでおきたい</p>
   </div>
   <ul class="related-block-list">
@@ -147,10 +146,7 @@ references:
 
 <h3 class="brand-h" id="loan-promise"><img class="brand-logo" src="/images/cardloan-comparison-2026/logos/promise.png" alt="プロミスのロゴ" loading="lazy" /><span>1. プロミス（SMBCコンシューマーファイナンス）</span></h3>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-04-cheer.png" alt="" /></div>
-  <h4>「最短3分」表記の中身を読み解く</h4>
-</div>
+<h4>「最短3分」表記の中身を読み解く</h4>
 
 | 項目 | 内容 |
 |---|---|
@@ -332,7 +328,6 @@ references:
 
 <aside class="related-block">
   <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <p class="related-block-title">あわせて読みたい</p>
   </div>
   <ul class="related-block-list">

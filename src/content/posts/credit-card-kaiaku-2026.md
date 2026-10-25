@@ -30,7 +30,6 @@ references:
 
 <aside class="related-block">
   <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <p class="related-block-title">あわせて読みたい</p>
   </div>
   <ul class="related-block-list">
@@ -76,10 +75,7 @@ references:
 <div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+33XJA2+1LP8+CALN5" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/hapitas-300x250.jpg" alt="高還元率ポイントサイト【ハピタス】　無料会員登録プロモーション" width="300" height="250" loading="lazy"></a></div>
 </div>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-07-gasp.png" alt="" /></div>
-  <h2 id="カード別に何が変わったかを詳しく">カード別に、何が変わったかを詳しく</h2>
-</div>
+<h2 id="カード別に何が変わったかを詳しく">カード別に、何が変わったかを詳しく</h2>
 
 <h3 class="brand-h" id="-三井住友カード"><img class="brand-logo" src="/images/credit-card-kaiaku-2026/logos/smbccard.png" alt="三井住友カードのロゴ" loading="lazy" /><span>① 三井住友カード（NL/ゴールド）— 「チャージ修行」と「現物タッチ」が封じられた</span></h3>
 
@@ -152,10 +148,7 @@ PayPay陣営は自社決済への集約を強めていて、<strong>チャージ
 <div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B43JB+C507KQ+389A+67RK1" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/chobirich-300x250.jpg" alt="ちょびリッチ" width="300" height="250" loading="lazy"></a></div>
 </div>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-05-smug.png" alt="" /></div>
-  <h2 id="でどこに乗り換える2026年の堅実な逃げ先">で、どこに乗り換える？ 2026年の堅実な逃げ先</h2>
-</div>
+<h2 id="でどこに乗り換える2026年の堅実な逃げ先">で、どこに乗り換える？ 2026年の堅実な逃げ先</h2>
 
 改悪のたびにカードを乗り換えるのは正直しんどい。だから選ぶ基準は<strong>「改悪に強い＝基本還元率が高く、用途を選ばない王道カード」</strong>。小手先のチャージ技に依存しない、素の還元が太い2枚を挙げておく。
 

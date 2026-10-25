@@ -66,10 +66,7 @@ references:
 
 <p class="source-note">2026年10月16日時点の各社公式サイトの料金で計算。料金・キャンペーンは改定されることがあるので、申し込む前に必ず公式で確認すること。2年総額の前提は<a href="#計算の前提">計算の前提</a>にまとめてある。</p>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-07-gasp.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="使う量別の2年総額ランキング">ポケット型WiFi 2年総額ランキング｜月10・20・50・100GBで1位が入れ替わる</h2>
-</div>
+<h2 id="使う量別の2年総額ランキング">ポケット型WiFi 2年総額ランキング｜月10・20・50・100GBで1位が入れ替わる</h2>
 
 ここが本題。**同じ6社でも、使う量を変えるだけで順位がひっくり返る。** 各社の「一番安くなるプラン」を、使う量ごとに選び直して並べた。
 
@@ -148,7 +145,6 @@ references:
 
 <aside class="related-block">
   <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <p class="related-block-title">あわせて読みたい</p>
   </div>
   <ul class="related-block-list">
@@ -169,10 +165,7 @@ references:
   </ul>
 </aside>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-09-arms-crossed.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="1gbあたり単価ランキング">ポケット型WiFi 1GBあたり単価ランキング｜最安29.5円、最高217.8円</h2>
-</div>
+<h2 id="1gbあたり単価ランキング">ポケット型WiFi 1GBあたり単価ランキング｜最安29.5円、最高217.8円</h2>
 
 **月額を容量で割ると、プランの「本当の値段」が見える。** 初期費用を除いた平常時の毎月の支払いで計算した。
 
@@ -204,10 +197,7 @@ references:
 
 <p class="source-note">1GBあたり＝平常時の月額÷容量（アタシの計算）。MONSTER MOBILE の20GB・50GBはキャンペーン終了後（7か月目〜）の額、縛りなしWiFiはキャンペーン終了後（6か月目〜）の額で計算した。</p>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-06-shock.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="途中で解約したら総額いくら">ポケット型WiFiを途中で解約したら総額いくら｜6・12・24か月で計算</h2>
-</div>
+<h2 id="途中で解約したら総額いくら">ポケット型WiFiを途中で解約したら総額いくら｜6・12・24か月で計算</h2>
 
 比較記事の多くは「2年間ずっと使った場合」しか出していない。でも実際は、**引っ越し・転職・光回線の開通で、半年や1年でやめる人が多い。** そこで、解約したタイミングごとに「それまでに払った総額」を出した。
 
@@ -287,10 +277,7 @@ references:
 
 **「2年契約＝損」ではない。** 解約金は月額1か月分だけなので、使う量が少ないほど早く元が取れる。逆に、**24か月目の途中で解約すると解約金がかかる。** 25か月目に入ってからなら0円なので、やめる月は数えておくこと。
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-02-pout.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="見えない費用">ポケット型WiFiの見えない費用｜端末損害金・返却送料・容量超過後の速度</h2>
-</div>
+<h2 id="見えない費用">ポケット型WiFiの見えない費用｜端末損害金・返却送料・容量超過後の速度</h2>
 
 **月額の比較表には出てこないお金がある。** レンタル型は解約したら端末を返す必要があり、返し忘れや故障で大きな請求が来る。
 
@@ -310,10 +297,7 @@ references:
 
 **返却期限は会社ごとに違う。** MONSTER MOBILE は解約翌月10日、縛りなしWiFi は解約翌月5日必着。うっかり過ぎると、2年分の差額が一発で吹き飛ぶ金額を請求される。**買い切りの2社はこの心配がゼロ**というのも、少量派に勧める理由のひとつよ。
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-04-cheer.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="6社を1社ずつ">ポケット型WiFi 6社を1社ずつ｜料金・回線・向いている人</h2>
-</div>
+<h2 id="6社を1社ずつ">ポケット型WiFi 6社を1社ずつ｜料金・回線・向いている人</h2>
 
 **表だけだと「自分が申し込む1社」が決まらない。** ここから6社を1社ずつ見ていく。節だけ読んでも完結するように、料金は上の表と同じ数字を書いてある。
 
@@ -474,7 +458,6 @@ references:
 
 <aside class="related-block">
   <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <p class="related-block-title">あわせて読みたい</p>
   </div>
   <ul class="related-block-list">
@@ -495,10 +478,7 @@ references:
   </ul>
 </aside>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="使い方別のおすすめ">ポケット型WiFiの選び方｜使い方別にアタシが選ぶならこれ</h2>
-</div>
+<h2 id="使い方別のおすすめ">ポケット型WiFiの選び方｜使い方別にアタシが選ぶならこれ</h2>
 
 ここまでの数字を、**使い方ごとの答え**に直すとこうなる。
 
@@ -511,10 +491,7 @@ references:
   <li><div class="checklist-body"><strong>⑥ 旅行・入院・光回線の開通待ちで数日〜1か月だけ → WiFiGO</strong><p>1日400円から。契約も解約もいらない。2か月を超えるなら他社に乗り換えたほうが安い。</p></div></li>
 </ul>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-03-bashful.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="計算の前提">2年総額の計算の前提｜含めたもの・含めないもの</h2>
-</div>
+<h2 id="計算の前提">2年総額の計算の前提｜含めたもの・含めないもの</h2>
 
 **比較サイトによって「実質月額」の計算期間や含めるものがバラバラ**なので、この記事の前提をはっきり書いておく。
 
@@ -555,7 +532,6 @@ references:
 
 <aside class="related-block">
   <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <p class="related-block-title">あわせて読みたい</p>
   </div>
   <ul class="related-block-list">

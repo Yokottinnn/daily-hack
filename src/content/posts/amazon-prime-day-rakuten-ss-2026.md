@@ -29,7 +29,6 @@ references:
 
 <aside class="related-block">
   <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <p class="related-block-title">あわせて読みたい</p>
   </div>
   <ul class="related-block-list">
@@ -68,10 +67,7 @@ references:
 
 > ※プライムデーは公式発表の確定日程。楽天スーパーSALEの次回日程は楽天の公式告知で確認して。
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-09-arms-crossed.png" alt="" /></div>
-  <h2>二重取りの鉄則: 「ポイントサイト経由」を通してから買う</h2>
-</div>
+<h2>二重取りの鉄則: 「ポイントサイト経由」を通してから買う</h2>
 
 セール価格そのものは誰が買っても同じ。<strong>差がつくのは“経由”</strong>よ。Amazonも楽天も、ポイントサイト（モッピー等）を1回経由してからアクセスして買うだけで、セール還元とは**別枠でポイントサイトのポイントが上乗せ**される。手間は「サイトを1回踏む」だけ。やらない理由がない。
 
@@ -89,10 +85,7 @@ references:
 <a class="rc-btn" href="https://pc.moppy.jp/entry/invite.php?invite=kMwuA18a" target="_blank" rel="sponsored noopener nofollow">紹介リンクで無料登録 →</a>
 </div>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-07-gasp.png" alt="" /></div>
-  <h2>買い時カレンダー: 今“プライムデー”で買う物 / 9月“楽天”まで待つ物</h2>
-</div>
+<h2>買い時カレンダー: 今“プライムデー”で買う物 / 9月“楽天”まで待つ物</h2>
 
 ここが本題。**同じ物でも、どっちのセールで買うかで得が変わる**。ジャンル別にアタシが振り分けた。
 

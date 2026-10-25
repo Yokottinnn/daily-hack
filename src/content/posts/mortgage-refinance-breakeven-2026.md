@@ -27,7 +27,6 @@ references:
 
 <aside class="related-block">
   <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <p class="related-block-title">あわせて読みたい</p>
   </div>
   <ul class="related-block-list">
@@ -67,10 +66,7 @@ references:
 
 > 出典: <a href="https://mogecheck.jp/articles/show/51rzNy7XEJ5o4mQ6ZkVv" target="_blank" rel="noopener nofollow">モゲチェック（2026年7月最新動向）</a>、<a href="https://www.aeonbank.co.jp/column/mortgageloan/nichigin/riage/" target="_blank" rel="noopener nofollow">イオン銀行タマルWeb</a>。実際の適用は契約・銀行により異なるため、必ず自分の借入条件で確認して。
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-09-arms-crossed.png" alt="" /></div>
-  <h2>損益分岐: 「回収月数」で機械的に判定する</h2>
-</div>
+<h2>損益分岐: 「回収月数」で機械的に判定する</h2>
 
 借り換えの得・損は、**この計算だけ**で見える。
 
@@ -97,10 +93,7 @@ references:
 
 > ※金額はあくまで概算イメージ。実際は借入額・残期間・金利差・手数料で大きく変わる。<strong>必ず一括比較や銀行の試算ツールで、自分の条件の実数字を出して</strong>判断して。
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-07-gasp.png" alt="" /></div>
-  <h2>“借り換えメリットが出やすい”3条件</h2>
-</div>
+<h2>“借り換えメリットが出やすい”3条件</h2>
 
 細かい計算の前に、ざっくり当てはまるか見る目安。**この3つが揃うほど、借り換えは効く**（住宅ローン業界で定説的に言われるライン）。
 

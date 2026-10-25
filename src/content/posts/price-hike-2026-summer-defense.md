@@ -100,10 +100,7 @@ references:
 <div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+11ICNU+3SPO+ZRALD" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/gas-choice-300x250.jpg" alt="当サイト限定　最大30000円現金キャッシュバック！ガス代を今よりお安く！【ガスチョイス】" width="300" height="250" loading="lazy"></a></div>
 </div>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-01-wave.png" alt="" /></div>
-  <h2>家計防衛 5つの実効策</h2>
-</div>
+<h2>家計防衛 5つの実効策</h2>
 
 <ul class="checklist">
   <li><div class="checklist-body"><strong>改定日の前に"保存が効く物"だけ前倒し買い</strong><p>缶詰・乾麺・パスタ・トイレ紙・カイロ・コーヒーは7/1・8/1の前に。生鮮の買いだめは廃棄損に注意。</p></div></li>

@@ -56,10 +56,7 @@ references:
 
 ツアー3社（エアトリ国内ツアー・J-TRIP・ニーズツアー）は仕組みが違うので、<a href="#tour-cancel">ツアーの取消料の節</a>で別に並べる。料金・手数料は改定されることがあるから、**予約前に各社の最新の規定を必ず確認しなさい。**
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-09-arms-crossed.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="fee-compare">格安航空券サイトの手数料比較｜表示価格の外で取られるお金</h2>
-</div>
+<h2 id="fee-compare">格安航空券サイトの手数料比較｜表示価格の外で取られるお金</h2>
 
 **同じ「手数料」でも、置き場所が会社ごとに違う。** ここを揃えずに「◯◯が最安」と言っている比較は、比べる土台がずれているのよ。
 
@@ -83,7 +80,6 @@ references:
 
 <aside class="related-block">
   <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <p class="related-block-title">あわせて読みたい</p>
   </div>
   <ul class="related-block-list">
@@ -104,10 +100,7 @@ references:
   </ul>
 </aside>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-07-gasp.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="refund-calc">取り消したら戻る額｜ANA・JALの片道1枚で計算した</h2>
-</div>
+<h2 id="refund-calc">取り消したら戻る額｜ANA・JALの片道1枚で計算した</h2>
 
 **ここからがアタシの独自集計。** ANA・JALの片道1枚を1名1予約で買い、入金後に自己都合で取り消したとする。**航空会社の取消料を除いて、サイトの手数料として戻らない額**を、各社の公表値から足し上げた。
 
@@ -130,10 +123,7 @@ references:
 
 **LCCは別世界。** エアトリはPeach・ジェットスターとスカイマークの「SKYセール」を取り消すと、取扱料金・事務手数料を含めて**一切払い戻さない**と書いている。LCCは「取り消さない前提」で買うものよ。
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-06-shock.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="tour-cancel">国内ツアーの取消料｜JAL利用のツアーは入金直後からかかる</h2>
-</div>
+<h2 id="tour-cancel">国内ツアーの取消料｜JAL利用のツアーは入金直後からかかる</h2>
 
 **ツアー（航空券＋ホテル）の取消料は、使う航空会社で決まる。** JALのツアーは「JAL個人包括旅行運賃」を使うため、入金した時点から航空券取消料がかかる。
 
@@ -175,10 +165,7 @@ JALの航空券取消料（1区間・往路復路ごと）は、ニーズツア�
 
 **J-TRIPだけは、払った取消料と同額がJマイルで戻ってくる**（キャンセルサポート）。1Jマイル＝1円で次の旅行代金に使える。条件はJマイル会員であること、**予約の翌日0時〜出発前日23:59に取消を完了**すること、JAL利用のツアーであること。出発当日の取消・減員・無連絡不参加は対象外。Jマイルの有効期限は還元日から36か月後の月末よ。
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-04-cheer.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="each-site">国内航空券・ツアー予約サイト7つを1つずつ</h2>
-</div>
+<h2 id="each-site">国内航空券・ツアー予約サイト7つを1つずつ</h2>
 
 **表だけだと「自分が使う1社」が決まらない。** ここからは1サイトずつ、手数料・取消・ポイントをまとめる。数字は上の表と同じもの。
 
@@ -328,7 +315,6 @@ JALの航空券取消料（1区間・往路復路ごと）は、ニーズツア�
 
 <aside class="related-block">
   <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <p class="related-block-title">あわせて読みたい</p>
   </div>
   <ul class="related-block-list">
@@ -349,10 +335,7 @@ JALの航空券取消料（1区間・往路復路ごと）は、ニーズツア�
   </ul>
 </aside>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="point-coupon">ポイント・クーポン比較｜2026年10月16日時点</h2>
-</div>
+<h2 id="point-coupon">ポイント・クーポン比較｜2026年10月16日時点</h2>
 
 **ポイントは「率」だけで比べると間違える。** 使える場所と期限が会社ごとにまったく違うの。
 
@@ -373,10 +356,7 @@ JALの航空券取消料（1区間・往路復路ごと）は、ニーズツア�
 
 **片道2万円のANA・JAL航空券で試算すると**、トラベリストのアプリなら3%で600pt＋500円引き＝1,100円ぶん戻る。エアトリは2%で400pt。ただしトラベリストは手数料が厚いので、**手数料の差と相殺してから**比べること。ポイントの率が高いサイトは、たいてい手数料も高いのよ。
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-04-cheer.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="how-to-choose">目的別の選び方｜取り消すかどうかで決まる</h2>
-</div>
+<h2 id="how-to-choose">目的別の選び方｜取り消すかどうかで決まる</h2>
 
 <div class="cmp-table-wrap">
   <table class="cmp-table">
@@ -395,10 +375,7 @@ JALの航空券取消料（1区間・往路復路ごと）は、ニーズツア�
 
 **迷ったら「取り消す可能性があるか」だけ考えなさい。** あるなら取消料の軽いところ、無いならポイントと割引の厚いところ。運賃の数百円差より、取消時の数千円差のほうがずっと大きいのよ。宿だけ取りたいなら、<a href="/posts/hotel-booking-sites-2026/">国内ホテル予約サイトの比較</a>も見ておきなさい。
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-07-gasp.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="checklist">欠航・キャンセルの前に確かめる4つ</h2>
-</div>
+<h2 id="checklist">欠航・キャンセルの前に確かめる4つ</h2>
 
 **払戻には連絡の期限がある。** 過ぎると、戻るはずのお金も戻らない。
 
@@ -421,10 +398,7 @@ JALの航空券取消料（1区間・往路復路ごと）は、ニーズツア�
   <li><div class="checklist-body"><strong>④ 支払いはカードにしておく</strong><p>エアトリ国内ツアーはカードなら入金・返金とも手数料0円。コンビニ入金は1,100円、返金時の振込は700円かかる。エアトリの航空券も、銀行口座への返金は振込手数料760円が客負担。</p></div></li>
 </ul>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="faq">よくある質問｜手数料・キャンセル・ポイント</h2>
-</div>
+<h2 id="faq">よくある質問｜手数料・キャンセル・ポイント</h2>
 
 <div class="cmp-table-wrap">
   <table class="cmp-table wrap-table faq-table">

@@ -116,10 +116,7 @@ isPR: true
 <div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+383KII+43U8+HX5B5" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/earthcar-300x250.jpg" alt="【入会金・月会費０円だから超高CVR】おトクがいっぱいのカーシェア「EARTHCAR」" width="300" height="250" loading="lazy"></a></div>
 </div>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-07-gasp.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="前年と比べたら明暗">前年と比べたら、はっきり明暗が出た</h2>
-</div>
+<h2 id="前年と比べたら明暗">前年と比べたら、はっきり明暗が出た</h2>
 
 ここからがアタシの独自集計。**1つ前の決算資料（2026年3月期／2025年3月末時点）と突き合わせて、増減を出した。**
 
@@ -697,10 +694,7 @@ TOKYO-BAYの**2.1倍**。この表の最下位（愛知東郷 46.0万円）と�
   <li><div class="checklist-body"><strong>「ラゾーナ川崎はららぽーと」→ 違う</strong><p>同じ三井不動産の施設だが<strong>ブランドが別</strong>。「三井ショッピングパーク」という総称の下に、ららぽーと／三井アウトレットパーク／ららテラス／ララガーデン／ラゾーナ川崎プラザなどが並ぶ構造。</p></div></li>
 </ul>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-04-cheer.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="全20施設を1軒ずつ">全20施設を1軒ずつ｜面積・店舗数・売上・駐車場</h2>
-</div>
+<h2 id="全20施設を1軒ずつ">全20施設を1軒ずつ｜面積・店舗数・売上・駐車場</h2>
 
 **表だけだと「自分が行く1軒」が決まらない。** ここから20施設すべてを、開業日順に1軒ずつ見ていく。
 数字はすべて上の表と同じもの。**節だけ読んでも完結する**ようにしてある。
@@ -1418,10 +1412,7 @@ TOKYO-BAYの**2.1倍**。この表の最下位（愛知東郷 46.0万円）と�
 
 <p class="source-note">出典：<a href="https://www.mitsuifudosan.co.jp/corporate/news/2009/0108_01/" target="_blank" rel="noopener">三井不動産「三井ショッピングパーク」総称化リリース（2009年1月8日）</a>／<a href="https://www.mitsuifudosan.co.jp/business/organization/shopping/" target="_blank" rel="noopener">三井不動産 商業施設事業紹介</a>。</p>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-09-arms-crossed.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="行く前に知っておくと得すること">行く前に知っておくと得すること</h2>
-</div>
+<h2 id="行く前に知っておくと得すること">行く前に知っておくと得すること</h2>
 
 ### ポイントは「メダルランク」で還元率が変わる
 
@@ -1550,7 +1541,6 @@ TOKYO-BAYの**2.1倍**。この表の最下位（愛知東郷 46.0万円）と�
 
 <aside class="related-block">
   <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <p class="related-block-title">あわせて読みたい</p>
   </div>
   <ul class="related-block-list">

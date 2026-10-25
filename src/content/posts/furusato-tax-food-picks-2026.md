@@ -21,7 +21,6 @@ author: "hacker-ko"
 
 <aside class="related-block">
   <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <p class="related-block-title">あわせて読みたい</p>
   </div>
   <ul class="related-block-list">
@@ -113,10 +112,7 @@ author: "hacker-ko"
 
 ね、1万円寄付して**自己負担2,000円**で、これだけ届くのよ。やらない理由ある？
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-05-smug.png" alt="" /></div>
-  <h2>米｜外さない王道5選</h2>
-</div>
+<h2>米｜外さない王道5選</h2>
 
 米は**ふるさと納税食品カテゴリの絶対王者**。理由はシンプルで、家庭で必ず消費するから「絶対に余らない」、保存も常温OK、定期便で配送月を分散できる。アタシのおすすめ5選は以下。
 
@@ -204,7 +200,6 @@ author: "hacker-ko"
 
 <aside class="related-block">
   <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <p class="related-block-title">米のついでに枠を埋めたい人へ</p>
   </div>
   <ul class="related-block-list">
@@ -225,10 +220,7 @@ author: "hacker-ko"
   </ul>
 </aside>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-09-arms-crossed.png" alt="" /></div>
-  <h2>肉｜冷凍庫に入れておきたい本気の5選</h2>
-</div>
+<h2>肉｜冷凍庫に入れておきたい本気の5選</h2>
 
 肉は**冷凍庫の容量との戦い**。小分け冷凍タイプを選ばないと、塊肉を解凍する作業地獄が待ってる。アタシのおすすめ5選はこれ。
 
@@ -312,10 +304,7 @@ author: "hacker-ko"
   </div>
 </div>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-06-shock.png" alt="" /></div>
-  <h2>海鮮｜旬を取りに行く本気の5選</h2>
-</div>
+<h2>海鮮｜旬を取りに行く本気の5選</h2>
 
 海鮮は**冷凍庫容量 × 旬の月** が選定の鍵。ホタテ・うなぎ・カニ・いくら・ウニ、季節と保存性で選び分けて。
 
@@ -401,7 +390,6 @@ author: "hacker-ko"
 
 <aside class="related-block">
   <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <p class="related-block-title">食品以外の枠の埋め方も知っておく</p>
   </div>
   <ul class="related-block-list">
@@ -467,7 +455,6 @@ author: "hacker-ko"
 
 <aside class="related-block">
   <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <p class="related-block-title">ポイント・経済圏で還元を底上げ</p>
   </div>
   <ul class="related-block-list">

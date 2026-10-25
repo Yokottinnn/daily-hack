@@ -465,7 +465,6 @@ references: ["https://rinconomiblog.com/supermarket-harumi/", "https://retailgui
 ---
 
 <div class="section-with-mascot">
-<img src="/images/expr-04-cheer.png" alt="ハッカー子" />
 <div>
 <h2>コスパ最強 ５ つの戦術（必ず使って）</h2>
 <p>湾岸エリアでスーパー戦線を勝ち抜くために、アタシが日々使ってる戦術 5 本。</p>

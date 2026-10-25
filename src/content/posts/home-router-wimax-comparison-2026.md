@@ -65,10 +65,7 @@ references:
 
 <p class="source-note">2026年10月16日時点の各社公式サイトの料金で計算（税込）。料金・キャンペーンは改定されることがあるので、申し込む前に必ず公式で確認すること。計算の前提は<a href="#計算の前提">計算の前提</a>にまとめてある。</p>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-07-gasp.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="2年総額ランキング">ホームルーター・WiMAX 2年総額ランキング｜最安はBIGLOBEの108,048円</h2>
-</div>
+<h2 id="2年総額ランキング">ホームルーター・WiMAX 2年総額ランキング｜最安はBIGLOBEの108,048円</h2>
 
 **まずは2年間ずっと使った場合。** 24か月分の月額＋事務手数料＋端末代から、キャッシュバックを引いた。
 
@@ -93,7 +90,6 @@ references:
 
 <aside class="related-block">
   <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <p class="related-block-title">あわせて読みたい</p>
   </div>
   <ul class="related-block-list">
@@ -114,10 +110,7 @@ references:
   </ul>
 </aside>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-06-shock.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="2年で解約したら端末の残り">2年で解約したら端末の残りはいくら｜SoftBank Airは47,520〜49,500円</h2>
-</div>
+<h2 id="2年で解約したら端末の残り">2年で解約したら端末の残りはいくら｜SoftBank Airは47,520〜49,500円</h2>
 
 **4社とも契約期間なし・契約解除料0円。** それでも「いつやめても損しない」わけではない。端末を分割で買って、その分割代を毎月の割引で打ち消す仕組みだと、**解約した瞬間に割引だけが止まって、分割の残りは払い続ける**ことになる。
 
@@ -152,10 +145,7 @@ references:
 
 **2年総額では3位だった SoftBank Air が、2年で解約すると最下位になる。** 差は6万円以上。逆に言えば、SoftBank Air の「実質4,950円」は**49か月目まで使い続けて初めて成立する数字**なのよ。4年以上住む家で、ソフトバンクのスマホとセットで使うなら話は別。でも転勤・引っ越しの予定があるなら、この表を先に見なさい。
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-02-pout.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="1年で解約したら">1年で解約したら総額いくら｜引っ越し・転勤が決まっている人向け</h2>
-</div>
+<h2 id="1年で解約したら">1年で解約したら総額いくら｜引っ越し・転勤が決まっている人向け</h2>
 
 **1年でやめる可能性があるなら、差はもっと開く。** 12か月使って解約した場合の「払った額＋端末の残り」をアタシが計算した。
 
@@ -175,10 +165,7 @@ references:
 
 <p class="source-note">BIGLOBE はサービス開始月を1か月目（0円）として数え、端末は24回払い、キャッシュバックは受け取れた前提。Rakuten Turbo は公式シミュレーションの支払い目安（48回払い）を使った。SoftBank Air の端末の残りは、分割の始まる月によって36回分か37回分になる。いずれもアタシの計算で、各社が公表している数字ではない。</p>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-09-arms-crossed.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="softbank-airの実質月額">SoftBank Airの実質月額4,950円の読み方｜公式の表記上の申込期限と12月の値上げ</h2>
-</div>
+<h2 id="softbank-airの実質月額">SoftBank Airの実質月額4,950円の読み方｜公式の表記上の申込期限と12月の値上げ</h2>
 
 SoftBank Air の公式料金ページには、**割引後の月額4,950円**（1〜24か月目）が載っている。この数字には条件が3つ重なっているので、分解しておく。
 
@@ -202,10 +189,7 @@ SoftBank Air の公式料金ページには、**割引後の月額4,950円**（1
 
 **良いところもちゃんとある。** ソフトバンクのスマホとセットにすると「おうち割 光セット」で月1,100円（Y!mobile なら月1,650円）が引かれる。他社の違約金や撤去工事費を全額還元する特典も公式に案内されている。ソフトバンクのスマホを家族で使っていて、長く住む家に置くなら、セット割で差は縮む。
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-04-cheer.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="4社を1社ずつ">ホームルーター・WiMAX 4社を1社ずつ｜料金・端末・回線</h2>
-</div>
+<h2 id="4社を1社ずつ">ホームルーター・WiMAX 4社を1社ずつ｜料金・端末・回線</h2>
 
 **表だけだと「自分が申し込む1社」が決まらない。** ここから1社ずつ見ていく。節だけ読んでも完結するように、料金は上の表と同じ数字を書いてある。
 
@@ -314,7 +298,6 @@ SoftBank Air の公式料金ページには、**割引後の月額4,950円**（1
 
 <aside class="related-block">
   <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <p class="related-block-title">あわせて読みたい</p>
   </div>
   <ul class="related-block-list">
@@ -335,10 +318,7 @@ SoftBank Air の公式料金ページには、**割引後の月額4,950円**（1
   </ul>
 </aside>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-03-bashful.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="回線と割引の比較">回線・セット割・契約条件の比較｜スマホと同じ会社だと月1,100〜1,650円引き</h2>
-</div>
+<h2 id="回線と割引の比較">回線・セット割・契約条件の比較｜スマホと同じ会社だと月1,100〜1,650円引き</h2>
 
 **月額の差は、スマホのセット割でひっくり返ることがある。** 自分のスマホの会社と合わせて見ること。
 
@@ -356,10 +336,7 @@ SoftBank Air の公式料金ページには、**割引後の月額4,950円**（1
 
 **au・UQ mobile ならBIGLOBE、ソフトバンク・Y!mobile ならSoftBank Air、楽天モバイルならRakuten Turbo。** スマホとそろえるのが一番分かりやすい。ただしセット割は「長く使えば効く」割引なので、**2年以内にやめる予定があるなら、セット割よりも端末の残りのほうが大きい**ことを忘れないこと。
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="選び方">置くだけWiFiの選び方｜何年住むかで決める</h2>
-</div>
+<h2 id="選び方">置くだけWiFiの選び方｜何年住むかで決める</h2>
 
 ここまでの数字を、**住む年数と使っているスマホ**で答えに直すとこうなる。
 
@@ -372,10 +349,7 @@ SoftBank Air の公式料金ページには、**割引後の月額4,950円**（1
 
 **持ち歩いて外でも使いたいなら、ホームルーターではなくポケット型WiFiのほうが向いている。** 使う量ごとの比較は<a href="/posts/pocket-wifi-comparison-2026/">ポケット型WiFi比較</a>にまとめてある。
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-03-bashful.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="計算の前提">2年総額の計算の前提｜含めたもの・含めないもの</h2>
-</div>
+<h2 id="計算の前提">2年総額の計算の前提｜含めたもの・含めないもの</h2>
 
 **比較サイトによって「実質月額」の期間や含めるものがバラバラ**なので、この記事の前提をはっきり書いておく。
 

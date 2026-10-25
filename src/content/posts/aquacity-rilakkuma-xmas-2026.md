@@ -117,7 +117,6 @@ references: ["https://prtimes.jp/main/html/rd/p/000000975.000018631.html", "http
 
 <aside class="related-block">
   <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-05-smug.png" alt="" /></span>
     <p class="related-block-title">湾岸で、ほかにもタダで楽しめる場所</p>
   </div>
   <ul class="related-block-list">
@@ -163,7 +162,6 @@ references: ["https://prtimes.jp/main/html/rd/p/000000975.000018631.html", "http
 
 <aside class="related-block">
   <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-05-smug.png" alt="" /></span>
     <p class="related-block-title">お台場の夜をもう一つ</p>
   </div>
   <ul class="related-block-list">
