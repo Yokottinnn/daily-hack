@@ -6,7 +6,7 @@ category: ["wangan-life"]
 tags: ["湾岸ニュース", "豊洲", "新豊洲", "THE DOG PARK TOYOSU", "パターゴルフ", "犬", "2026年"]
 isPR: false
 draft: false
-eyecatchUrl: "/images/the-dog-park-toyosu-putter-golf-2026/eyecatch.jpg"
+eyecatchUrl: "/images/the-dog-park-toyosu-putter-golf-2026/cover.jpg"
 eyecatchAlt: "THE DOG PARK TOYOSU のパターゴルフ。夜の灯りに照らされた9ホールのコース"
 author: "hacker-ko"
 references: ["https://prtimes.jp/main/html/rd/p/000000030.000103607.html", "https://the-dog-park.jp/putter-golf"]
@@ -92,7 +92,7 @@ references: ["https://prtimes.jp/main/html/rd/p/000000030.000103607.html", "http
   </div>
   <ul class="related-block-list">
     <li><a href="/posts/tokyo-christmas-market-shintoyosu-2026/">
-      <span class="related-block-thumb"><img src="/images/tokyo-christmas-market-shintoyosu-2026/eyecatch.jpg" alt="" loading="lazy" /></span>
+      <span class="related-block-thumb"><img src="/images/tokyo-christmas-market-shintoyosu-2026/cover.jpg" alt="" loading="lazy" /></span>
       <span class="related-block-body">
         <span class="related-block-cat">湾岸ニュース</span>
         <span class="related-block-name">東京クリスマスマーケット2026 in 新豊洲｜入場は平日1,000円</span>

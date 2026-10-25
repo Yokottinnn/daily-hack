@@ -6,7 +6,7 @@ category: ["wangan-life"]
 tags: ["湾岸ニュース", "有明", "東京臨海広域防災公園", "そなエリア東京", "防災", "イベント", "無料", "2026年"]
 isPR: false
 draft: false
-eyecatchUrl: "/images/bousai-motorshow-ariake-2026/eyecatch.jpg"
+eyecatchUrl: "/images/bousai-motorshow-ariake-2026/cover.jpg"
 eyecatchAlt: "ぼうさいモーターショー2026｜10月25日（日）有明・東京臨海広域防災公園、入場無料"
 author: "hacker-ko"
 references: ["https://www.tokyorinkai-koen.jp/news/oshirase/14886/", "https://www.tokyorinkai-koen.jp/access/", "https://prtimes.jp/main/html/rd/p/000000154.000063577.html"]

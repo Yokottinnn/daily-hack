@@ -6,7 +6,7 @@ category: ["wangan-life"]
 tags: ["湾岸ニュース", "豊洲", "新豊洲", "東京クリスマスマーケット", "クリスマス", "イベント", "2026年"]
 isPR: false
 draft: false
-eyecatchUrl: "/images/tokyo-christmas-market-shintoyosu-2026/eyecatch.jpg"
+eyecatchUrl: "/images/tokyo-christmas-market-shintoyosu-2026/cover.jpg"
 eyecatchAlt: "東京クリスマスマーケット2026 in 新豊洲｜巨大ラウゲンプレッツェル"
 author: "hacker-ko"
 references: ["https://prtimes.jp/main/html/rd/p/000000084.000047941.html", "https://prtimes.jp/main/html/rd/p/000000085.000047941.html", "https://prtimes.jp/main/html/rd/p/000000200.000028214.html", "https://tokyochristmas.net/"]

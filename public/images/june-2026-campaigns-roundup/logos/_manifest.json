@@ -86,7 +86,8 @@
     "license_note": "商標。識別目的で使用",
     "task": "ops/tasks/t132-*.sh",
     "copied_from": "public/images/yodobashi-vs-amazon-rakuten-2026/logos/rakutenichiba.png",
-    "copied": "2026-09-22"
+    "copied": "2026-09-22",
+    "replaced_by": "rakutenichiba-app.jpg（台湾版「樂天市場」だったため 2026-10-25 に差し替え）"
   },
   "mufg.png": {
     "brand": "三菱UFJ銀行",
@@ -105,5 +106,15 @@
     "task": "ops/tasks/t166-logos-cardloan-mizuho.sh",
     "license_note": "商標。識別目的で使用",
     "copied_from": "public/images/best-online-banks-2026/logos/mizuho.png"
+  },
+  "rakutenichiba-app.jpg": {
+    "brand": "楽天市場",
+    "seller": "Rakuten Group, Inc.",
+    "src": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/44/6c/cc/446ccc60-4ecc-7f46-cc97-9ed11a734483/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+    "page": "https://apps.apple.com/jp/app/%E6%A5%BD%E5%A4%A9%E5%B8%82%E5%A0%B4-%E3%81%8A%E8%B2%B7%E3%81%84%E7%89%A9%E3%81%A7%E6%A5%BD%E5%A4%A9%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88%E3%81%8C%E8%B2%AF%E3%81%BE%E3%82%8B%E4%BE%BF%E5%88%A9%E3%81%AA%E9%80%9A%E8%B2%A9%E3%82%A2%E3%83%97%E3%83%AA/id419267350?uo=4",
+    "fetched": "2026-10-18",
+    "task": "ops/tasks/x316-product-brand-logos.sh",
+    "note": "App Store に提供元（Rakuten Group, Inc.）が登録した楽天市場アプリのアイコン。前の rakutenichiba.png は台湾版「樂天市場」だったため差し替えた（2026-10-18）",
+    "copied_from": "prime-sale-vs-rakuten-autumn-2026/logos/rakutenichiba-app.jpg"
   }
 }

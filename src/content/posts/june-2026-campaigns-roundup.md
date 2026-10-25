@@ -258,7 +258,7 @@ author: "hacker-ko"
 
   <article class="compare-card">
     <span class="compare-card-mascot"><img src="/images/expr-04-cheer.png" alt="" /></span>
-    <h3 class="brand-h"><img class="brand-logo" src="/images/june-2026-campaigns-roundup/logos/rakutenichiba.png" alt="楽天市場のロゴ" loading="lazy" /><span>14. 楽天市場アプリ 初回特典</span></h3>
+    <h3 class="brand-h"><img class="brand-logo" src="/images/june-2026-campaigns-roundup/logos/rakutenichiba-app.jpg" alt="楽天市場のロゴ" loading="lazy" /><span>14. 楽天市場アプリ 初回特典</span></h3>
     <p class="tagline">アプリで久しぶり or 初回の買い物をするだけで最大1,000ポイント。やらない理由がない案件。</p>
     <dl>
       <dt>カテゴリ</dt><dd>EC</dd>
