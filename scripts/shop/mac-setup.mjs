@@ -146,6 +146,9 @@ try {
           if (/^[A-Za-z0-9_\-]{16,}$/.test(v) && v !== appIdNow && !k2) k2 = v;
         }
         lines.push(`- アイコンを押したときのクリップボード: ${seen.join(' ／ ')}`);
+        // t343: クリップボードも空。「Access Key」の行そのものの HTML を出す（値と長い英数は伏せる）
+        const rowHtml = await p.evaluate(() => { const lab = [...document.querySelectorAll('*')].find((e) => e.children.length === 0 && /^\s*Access Key\s*$/i.test(e.textContent || '')); if (!lab) return ''; let r = lab.parentElement; for (let i = 0; i < 2 && r && r.parentElement && (r.outerHTML || '').length < 600; i++) r = r.parentElement; return (r ? r.outerHTML : '').replace(/\s+/g, ' ').slice(0, 1800); });
+        lines.push('- 「Access Key」の行の HTML:', '```html', mask(rowHtml).replace(/[●•*]{4,}/g, '［伏せ字］'), '```');
       }
       lines.push(`- アイコンのボタン ${n} 個を押したあとの Access Key: ${k2 ? `${k2.length} 文字（見えた）` : `まだ伏せ字（${after.slice(0, 3)}…）`}`);
       if (k2) {
@@ -273,8 +276,13 @@ try {
     const regUrl = (reg.find((x) => /登録/.test(x)) || '').split(' — ')[1];
     if (regUrl) { await go(regUrl); await dump('メディア一覧の画面'); }
     // t341: メディア一覧に「メディアを登録する」がある。押して出る登録の画面の欄を読む（**送らない**）
+    // t343: 登録の入口は URL の欄（media_url）＋「メディアを登録する」。daily-hack の URL を入れて押し、次の画面の欄を読む（その先の送信はしない）
+    const urlBox = p.locator('input[name=media_url]').first();
+    if (await urlBox.count()) await urlBox.fill('https://daily-hack.fieldbeside.com/');
     const add = p.getByRole('button', { name: /メディアを登録する/ }).first();
-    if (await add.count()) { await add.click({ timeout: 5000 }).catch(() => {}); await p.waitForTimeout(4000); await dump('「メディアを登録する」を押したあと（送っていない）');
+    if (await add.count()) { await add.click({ timeout: 5000 }).catch(() => {}); await p.waitForLoadState('domcontentloaded', { timeout: 15000 }).catch(() => {}); await p.waitForTimeout(5000); await dump('URL を入れて「メディアを登録する」を押したあと（この先は送っていない）');
+      const txt = await p.evaluate(() => (document.body.innerText || '').split('\n').map((x) => x.trim()).filter(Boolean).filter((x) => /必須|入力|選択|カテゴリ|ジャンル|PV|訪問|説明|規約|同意|確認|登録/.test(x)).slice(0, 40));
+      lines.push('- 画面の案内の文字:', ...txt.map((x) => `  - ${mask(x).slice(0, 160)}`));
       const opts = await p.evaluate(() => [...document.querySelectorAll('select')].filter((e) => e.getBoundingClientRect().height > 0).map((e) => `select[name=${e.name}]: ${[...e.options].map((o) => o.textContent.trim()).join(' / ').slice(0, 400)}`));
       lines.push('- 選択肢:', ...opts.map((x) => `  - ${x}`)); }
   }
