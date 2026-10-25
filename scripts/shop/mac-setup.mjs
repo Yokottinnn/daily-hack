@@ -327,12 +327,57 @@ try {
     lines.push(`- Yahoo! デベロッパーネットワークの画面を開いたままにした: ${q.url()}（利用者がここで Yahoo! JAPAN ID にログインする）`);
   }
 
+  if (WHICH === 'yahoo-wait') {
+    // t348: この Chrome（CDP 18810）には Yahoo! のログインが無かった（利用者は別の Chrome でログインしたらしい）。
+    // ログインの画面をこの Chrome の前面に出して、利用者のログインを最大 12 分待つ。入れたら登録の画面を読む（送らない）
+    const q = await ctx.newPage();
+    await q.goto('https://e.developer.yahoo.co.jp/dashboard/', { waitUntil: 'domcontentloaded', timeout: 25000 }).catch(() => {});
+    // t349: ボタンが描かれる前に探して押せず、読み込み中の空の画面を「ログインできた」と取り違えた。描かれるのを待ってから押す
+    const btn = q.getByText(/^Yahoo! JAPAN IDでログイン$/).first();
+    await btn.waitFor({ timeout: 15000 }).catch(() => {});
+    if (await btn.count()) { await btn.click({ timeout: 5000 }).catch(() => {}); await q.waitForLoadState('domcontentloaded', { timeout: 20000 }).catch(() => {}); }
+    lines.push(`- ログインのボタンを押したあとの画面: ${(() => { try { const u = new URL(q.url()); return u.origin + u.pathname; } catch { return q.url(); } })()}`);
+    await q.bringToFront().catch(() => {});
+    lines.push(`- ログインの画面をこの Chrome の前面に出した（${new Date().toISOString()}）。最大 12 分待つ`);
+    let ok = false;
+    for (let i = 0; i < 48 && !ok; i++) {
+      await q.waitForTimeout(15000);
+      const u = q.url();
+      // ログインできた証拠＝デベロッパーの画面で、文字が十分に描かれていて、「ログインする必要があります」が無いこと
+      if (/e\.developer\.yahoo\.co\.jp/.test(u)) { const t = await q.evaluate(() => document.body.innerText || '').catch(() => ''); ok = t.length > 300 && !/ログインする必要があります/.test(t); }
+    }
+    lines.push(`- 待った結果: ${ok ? '**ログインできた**' : 'ログインされなかった（12 分）'}`);
+    if (ok) { await go('https://e.developer.yahoo.co.jp/register'); await dump('新しいアプリケーションを開発（登録の画面・送っていない）');
+      const opts = await p.evaluate(() => [...document.querySelectorAll('select')].filter((e) => e.getBoundingClientRect().height > 0).map((e) => `select[name=${e.name}]: ${[...e.options].map((o) => (o.selected ? '✔' : '') + o.textContent.trim()).join(' / ').slice(0, 300)}`));
+      const radios = await p.evaluate(() => [...document.querySelectorAll('input[type=radio], input[type=checkbox]')].map((e) => `${e.type}[name=${e.name} value=${e.value}]${e.checked ? ' ✔' : ''} 「${((e.closest('label') || {}).innerText || (e.id && (document.querySelector('label[for="' + e.id + '"]') || {}).innerText) || '').replace(/\s+/g, ' ').trim().slice(0, 60)}」`));
+      const txt = await p.evaluate(() => (document.querySelector('form') || document.body).innerText.split('\n').map((x) => x.trim()).filter(Boolean).slice(0, 80));
+      lines.push('- 選択肢:', ...opts.map((x) => `  - ${x.replace(/[^\s/]+@[^\s/]+/g, '［メール］')}`), '- ラジオ・チェック:', ...radios.map((x) => `  - ${x}`), '- 登録の画面の文字:', ...txt.filter((x) => !NG.test(x)).map((x) => `  - ${mask(x).slice(0, 150)}`)); }
+  }
+
   if (WHICH === 'yahoo') {
     // Yahoo! デベロッパーネットワークの公式の入口（アプリケーションの管理・新規登録）
     await go('https://e.developer.yahoo.co.jp/dashboard/');
     await dump('アプリケーションの管理');
+    // t347: 利用者のログイン後もデベロッパーの画面は「ログインが必要」のまま。「Yahoo! JAPAN IDでログイン」を押して、
+    // Yahoo! のログイン済みの状態で戻ってこられるか（ID・パスワードの欄が出るか）を見る。**ID・パスワードは入れない**
+    const sso = p.getByText(/^Yahoo! JAPAN IDでログイン$/).first();
+    if (await sso.count()) {
+      await sso.click({ timeout: 5000 }).catch(() => {});
+      await p.waitForLoadState('domcontentloaded', { timeout: 20000 }).catch(() => {});
+      await p.waitForTimeout(6000);
+      const hasPw = await p.locator('input[type=password]:visible, input[name=handle]:visible, input[name=login]:visible').count();
+      lines.push(`- 「Yahoo! JAPAN IDでログイン」を押した: いまの画面 ${here()}・ID かパスワードの欄 ${hasPw ? 'あり（Yahoo! のログインがこの Chrome に無い）' : 'なし'}`);
+      await dump('押したあとの画面');
+    }
+    const tabs = ctx.pages().map((q) => { try { const u = new URL(q.url()); return u.host; } catch { return ''; } }).filter((h) => /yahoo/.test(h));
+    lines.push(`- この Chrome で開いている Yahoo! のタブ: ${tabs.length} 個（${[...new Set(tabs)].join('・')}）`);
     await go('https://e.developer.yahoo.co.jp/register');
     await dump('新しいアプリケーションを開発（登録の画面・送っていない）');
+    // 2026-10-25 利用者が Yahoo! JAPAN ID でログインした。登録の画面の選択肢と案内の文字も読む（送らない）
+    const opts = await p.evaluate(() => [...document.querySelectorAll('select')].filter((e) => e.getBoundingClientRect().height > 0).map((e) => `select[name=${e.name}]: ${[...e.options].map((o) => (o.selected ? '✔' : '') + o.textContent.trim()).join(' / ').slice(0, 300)}`));
+    const radios = await p.evaluate(() => [...document.querySelectorAll('input[type=radio], input[type=checkbox]')].map((e) => `${e.type}[name=${e.name} value=${e.value}]${e.checked ? ' ✔' : ''} 「${((e.closest('label') || {}).innerText || (e.id && (document.querySelector('label[for="' + e.id + '"]') || {}).innerText) || '').replace(/\s+/g, ' ').trim().slice(0, 60)}」`));
+    const txt = await p.evaluate(() => (document.querySelector('form') || document.body).innerText.split('\n').map((x) => x.trim()).filter(Boolean).slice(0, 80));
+    lines.push('- 選択肢:', ...opts.map((x) => `  - ${x.replace(/[^\s/]+@[^\s/]+/g, '［メール］')}`), '- ラジオ・チェック:', ...radios.map((x) => `  - ${x}`), '- 登録の画面の文字:', ...txt.filter((x) => !NG.test(x)).map((x) => `  - ${mask(x).slice(0, 150)}`));
   }
 } catch (e) { lines.push(`- ⚠️ ${mask(String(e).split('\n')[0])}`); }
 finally { await p.close().catch(() => {}); }
