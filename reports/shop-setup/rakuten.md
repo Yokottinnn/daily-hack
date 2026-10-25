@@ -1,12 +1,25 @@
 # 3 店ボタンの Mac 側の準備: rakuten（scripts/shop/mac-setup.mjs）
 
-生成: **2026-10-25T07:42:37.199Z**
+生成: **2026-10-25T07:47:10.485Z**
 
 - 画面: https://webservice.rakuten.co.jp/app/list
 
 - 「More Details」を押した: https://webservice.rakuten.co.jp/app/list
 - Application ID: 36 文字（Keychain の値と同じ）
 - Access Key が画面に見つからない（「表示」ボタンで隠れている可能性）。ボタン一覧を下に出す
+- 入力欄の形（値は文字数だけ）:
+  - input[type=hidden name=captcha-key id=refresh-captcha-key] 値0文字
+  - input[type=text name=captcha id=refresh-captcha] 値0文字
+  - input[type=hidden name=captcha-key id=edit-captcha-key] 値0文字
+  - input[type=text name=app_name id=edit-app_name] 値0文字
+  - input[type=url name=app_site id=edit-app_site] 値0文字
+  - textarea[type=textarea name=origins id=edit-origins] 値0文字
+  - textarea[type=textarea name=app_description id=edit-app_description] 値0文字
+  - textarea[type=textarea name=usage_purpose id=edit-usage_purpose] 値0文字
+  - input[type=text name=expected_qps id=edit-expected_qps] 値0文字
+  - input[type=checkbox name=api_scopes[] id=edit-ichiba-checkbox] 値6文字
+  - input[type=checkbox name=api_scopes[] id=edit-travel-checkbox] 値6文字
+  - input[type=checkbox name=api_scopes[] id=edit-books-checkbox] 値5文字
 ## アプリ一覧の画面
 
 - 画面: https://webservice.rakuten.co.jp/app/list（Your Applications）
