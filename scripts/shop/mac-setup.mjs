@@ -77,6 +77,27 @@ try {
       const val = (re) => { const i = rows.findIndex((x) => re.test(x)); if (i < 0) return ''; const same = rows[i].replace(re, '').replace(/^[\s:：]+/, '').trim(); return same || rows[i + 1] || ''; };
       return { app: val(/^(Application ID|アプリID)/i), key: val(/^(Access Key|アクセスキー)/i) };
     });
+    // t333: 一覧には Access Key が出ない（「More Details」の先）。押して詳細を開いてから読む
+    if (!got.key) {
+      const more = p.getByText(/^More Details$|^詳細$/).first();
+      if (await more.count()) {
+        await more.click({ timeout: 5000 }).catch(() => {});
+        await p.waitForLoadState('domcontentloaded', { timeout: 15000 }).catch(() => {});
+        await p.waitForTimeout(4000);
+        lines.push(`- 「More Details」を押した: ${here()}`);
+        // 値が「表示」ボタンで隠れていれば押す（値そのものは出さない）
+        const show = p.getByRole('button', { name: /^(Show|表示|表示する|Reveal)$/i });
+        for (let i = 0; i < Math.min(await show.count(), 4); i++) await show.nth(i).click({ timeout: 3000 }).catch(() => {});
+        await p.waitForTimeout(1500);
+        Object.assign(got, await p.evaluate(() => {
+          const rows = (document.body.innerText || '').split('\n').map((x) => x.trim()).filter(Boolean);
+          const val = (re) => { const i = rows.findIndex((x) => re.test(x)); if (i < 0) return ''; const same = rows[i].replace(re, '').replace(/^[\s:：]+/, '').trim(); return same || rows[i + 1] || ''; };
+          const inp = [...document.querySelectorAll('input')].map((e) => [((e.closest('tr,div,dl') || {}).innerText || '').slice(0, 40), e.value || '']);
+          const fromInput = (re) => (inp.find(([l, v]) => re.test(l) && v) || [])[1] || '';
+          return { app: val(/^(Application ID|アプリID)/i) || fromInput(/Application ID/i), key: val(/^(Access Key|アクセスキー)/i) || fromInput(/Access Key/i) };
+        }));
+      }
+    }
     const key = (got.key.match(/[A-Za-z0-9_\-]{16,}/) || [])[0] || '';
     const app = (got.app.match(/[A-Za-z0-9_\-]{16,}/) || [])[0] || '';
     lines.push(`- Application ID: ${app ? `${app.length} 文字（Keychain の値と${app === keychain('applicationId') ? '同じ' : '**違う**'}）` : '見つからない'}`);
@@ -114,11 +135,23 @@ try {
       if (det) {
         await go(det.h);
         const text = await p.evaluate(() => (document.body.innerText || '').split('\n').map((x) => x.trim()).filter(Boolean));
-        const i0 = Math.max(0, text.findIndex((x) => /提携基準|提携条件|審査|注意事項|禁止/.test(x)));
-        lines.push('## Amazon のプロモーション詳細（押していない）', '', `- 画面: ${here()}`, '', '```text', ...text.slice(i0, i0 + 70).filter((x) => !NG.test(x)).map((x) => mask(x).slice(0, 200)), '```', '');
+        const i0 = Math.max(0, text.findIndex((x) => /提携前に以下の内容/.test(x)));
+        lines.push('## Amazon のプロモーション詳細（押していない）', '', `- 画面: ${here()}`, '', '```text', ...text.slice(i0, i0 + 160).filter((x) => !/報酬|振込|口座|氏名/.test(x)).map((x) => x.slice(0, 220)), '```', '');
+        // 「提携申請する」が何をするか（押さずに、リンク先・onclick・フォームを読む）
+        const btns = await p.evaluate(() => [...document.querySelectorAll('a, button, input[type=submit]')].filter((e) => /提携申請する/.test(e.innerText || e.value || ''))
+          .map((e) => ({ tag: e.tagName, href: e.getAttribute('href') || '', onclick: (e.getAttribute('onclick') || '').slice(0, 160), data: Object.entries(e.dataset).map(([k, v]) => `${k}=${v}`).join(' ').slice(0, 200), form: e.form ? `${e.form.method} ${e.form.action}` : '' })));
+        lines.push('## 「提携申請する」の中身（押していない）', '', ...btns.map((x) => `- ${x.tag} href=${x.href} onclick=${x.onclick} data=${x.data} form=${x.form}`), '');
         await dump('Amazon の詳細のボタン');
       }
     } else { lines.push('- 検索欄が見つからない'); await dump('もしものトップ'); }
+  }
+
+  if (WHICH === 'yahoo-open') {
+    // 利用者が Yahoo! JAPAN ID でログインするための画面を、この Chrome に開いたままにする（閉じない）
+    const q = await ctx.newPage();
+    await q.goto('https://e.developer.yahoo.co.jp/dashboard/', { waitUntil: 'domcontentloaded', timeout: 25000 }).catch(() => {});
+    await q.bringToFront().catch(() => {});
+    lines.push(`- Yahoo! デベロッパーネットワークの画面を開いたままにした: ${q.url()}（利用者がここで Yahoo! JAPAN ID にログインする）`);
   }
 
   if (WHICH === 'yahoo') {
