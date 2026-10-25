@@ -327,6 +327,24 @@ try {
     lines.push(`- Yahoo! デベロッパーネットワークの画面を開いたままにした: ${q.url()}（利用者がここで Yahoo! JAPAN ID にログインする）`);
   }
 
+  if (WHICH === 'yahoo-check') {
+    // 2026-10-25 利用者が Yahoo! の Client ID を Keychain（dailyhack-yahoo-shopping / clientId）に入れた。最初に別の値を入れて上書きしたとのこと。
+    // **値は出さない。** 出すのは件数・文字数・形（Yahoo! の Client ID は "dj0" で始まる英数字）と、API の HTTP の状態・件数だけ
+    let v = '';
+    try { v = execFileSync('/usr/bin/security', ['find-generic-password', '-s', 'dailyhack-yahoo-shopping', '-a', 'clientId', '-w'], { encoding: 'utf8', stdio: ['ignore', 'pipe', 'ignore'] }).replace(/\n$/, ''); } catch {}
+    let items = 0;
+    try { const dump = execFileSync('/usr/bin/security', ['dump-keychain'], { encoding: 'utf8', stdio: ['ignore', 'pipe', 'ignore'], maxBuffer: 64 << 20 }); items = (dump.match(/"svce"<blob>="dailyhack-yahoo-shopping"/g) || []).length; } catch { items = -1; }
+    lines.push(`- Keychain の dailyhack-yahoo-shopping の項目: ${items < 0 ? '数えられない' : items + ' 件'}`);
+    lines.push(`- clientId の値: ${v ? `${v.length} 文字・${/^[A-Za-z0-9_\-=]+$/.test(v) ? '英数字だけ' : '英数字以外を含む（パスワードの可能性）'}・${/^dj0/.test(v) ? '"dj0" で始まる（Yahoo! の Client ID の形）' : '"dj0" で始まらない'}` : '**読めない**'}`);
+    if (v) {
+      const q = new URLSearchParams({ appid: v, query: '充電式カイロ', results: '1' });
+      const r = await fetch(`https://shopping.yahooapis.jp/ShoppingWebService/V3/itemSearch?${q}`).catch((e) => ({ status: 0, text: async () => String(e) }));
+      const t = await r.text();
+      let hits = '?'; try { hits = JSON.parse(t).totalResultsAvailable; } catch {}
+      lines.push(`- Yahoo!ショッピング API（商品検索 V3）の試し: HTTP ${r.status}${r.status === 200 ? `・ヒット ${hits} 件（**使える**）` : `・${mask(t.slice(0, 200))}`}`);
+    }
+  }
+
   if (WHICH === 'yahoo-wait') {
     // t348: この Chrome（CDP 18810）には Yahoo! のログインが無かった（利用者は別の Chrome でログインしたらしい）。
     // ログインの画面をこの Chrome の前面に出して、利用者のログインを最大 12 分待つ。入れたら登録の画面を読む（送らない）
