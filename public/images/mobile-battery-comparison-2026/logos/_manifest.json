@@ -1,0 +1,32 @@
+{
+ "anker.png": {
+  "brand": "Anker",
+  "src": "https://www.ankerjapan.com/cdn/shop/files/logo-app-anker-v2.svg",
+  "fetched": "2026-10-25",
+  "note": "公式サイトのアプリ案内のロゴ（SVG を PNG に変換）"
+ },
+ "cio.png": {
+  "brand": "CIO",
+  "src": "https://connectinternationalone.co.jp/wp/wp-content/themes/fcvanilla/img/common/footer_logo.svg",
+  "fetched": "2026-10-25",
+  "note": "公式サイトのフッターのロゴ（SVG を PNG に変換）"
+ },
+ "buffalo.png": {
+  "brand": "バッファロー",
+  "src": "https://www.buffalo.jp/",
+  "fetched": "2026-10-25",
+  "note": "公式サイトのヘッダーに埋め込まれた SVG を PNG に変換"
+ },
+ "cheero.png": {
+  "brand": "cheero",
+  "src": "https://cheero.shop/cdn/shop/t/10/assets/logo_cheero.svg",
+  "fetched": "2026-10-25",
+  "note": "公式通販のヘッダーのロゴ（SVG を PNG に変換）"
+ },
+ "sanwa.png": {
+  "brand": "サンワサプライ",
+  "src": "https://www.sanwa.co.jp/static/images/common/header/sanwa_logo.png",
+  "fetched": "2026-10-25",
+  "copied_from": "rechargeable-kairo-comparison-2026/logos/sanwa.png"
+ }
+}
