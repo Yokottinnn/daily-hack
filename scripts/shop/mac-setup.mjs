@@ -46,6 +46,30 @@ const dump = async (title) => {
 try {
   if (WHICH === 'rakuten') {
     await go('https://webservice.rakuten.co.jp/app/list');
+    // t332（2026-10-25）: アプリ一覧は「本人確認のし直し」（login.account.rakuten.com/session/upgrade）に飛ばされた。
+    // asp-sync と同じ Keychain（dailyhack-asp-rakuten）の ID・パスワードで入り直す（値は出さない）
+    if (/login\.account\.rakuten\.com/.test(p.url())) {
+      const cred = aspCred('rakuten');
+      lines.push(`- 本人確認の画面に飛ばされた（${here()}）。Keychain の ID・パスワード: ${cred ? 'ある' : '**無い**'}`);
+      if (cred) {
+        const pw = 'input[type=password]:visible';
+        if (!(await p.locator(pw).count())) {
+          const id = p.locator('input[type=text]:visible, input[type=email]:visible, input[name*=user]:visible').first();
+          if ((await id.count()) && !(await id.inputValue().catch(() => 'x'))) { await id.fill(cred.user); }
+          const next = p.getByRole('button', { name: /^(次へ|続ける|Next)$/ }).first();
+          if (await next.count()) await next.click({ timeout: 5000 }).catch(() => {}); else await p.keyboard.press('Enter');
+          await p.waitForTimeout(4500);
+        }
+        if (await p.locator(pw).count()) {
+          await p.locator(pw).first().fill(cred.pass);
+          await p.locator(pw).first().press('Enter').catch(() => {});
+          await p.waitForLoadState('domcontentloaded', { timeout: 20000 }).catch(() => {});
+          await p.waitForTimeout(6000);
+        }
+        lines.push(`- 入り直したあとの画面: ${here()}`);
+        if (!/webservice\.rakuten\.co\.jp/.test(p.url())) await go('https://webservice.rakuten.co.jp/app/list');
+      }
+    }
     lines.push(`- 画面: ${here()}`, '');
     // t294 で「Application ID / Access Key / Affiliate ID」の行がこの画面にあると分かっている
     const got = await p.evaluate(() => {
@@ -61,6 +85,7 @@ try {
       catch (e) { lines.push(`- ⚠️ Keychain に入れられない: ${String(e).slice(0, 80)}`); }
     } else lines.push('- Access Key が画面に見つからない（「表示」ボタンで隠れている可能性）。ボタン一覧を下に出す');
     if (!key) await dump('アプリ一覧の画面');
+    else lines.push('- 価格の自動取得（mac-weekly.sh の 2e）は次の 6:40 から楽天の価格を取る');
     // API が通るか 1 回だけ（結果は件数と HTTP の状態だけ出す）
     const appId = keychain('applicationId'), acc = keychain('accessKey');
     if (appId) {
@@ -84,7 +109,15 @@ try {
           return { t: (a.innerText || '').replace(/\s+/g, ' ').trim().slice(0, 60), h: a.href, box: (box.innerText || '').replace(/\s+/g, ' ').trim().slice(0, 240) }; })
         .filter((x) => /amazon/i.test(x.t + x.box)).slice(0, 12));
       lines.push(`- 「Amazon」で検索した画面: ${here()}`, '', '## Amazon を含むプロモーション', '', ...rows.map((r) => `- ${mask(r.t)} — ${r.h}\n  - ${mask(r.box)}`), '');
-      if (rows[0]) { await go(rows[0].h); await dump('先頭のプロモーションの詳細（押していない）'); }
+      // t332: 「Amazon」のプロモーションは promotion_id=170（検索結果の「プロモーション詳細」のリンク）。提携基準と申請の状態を読む
+      const det = rows.find((r) => /promotion\/detail/.test(r.h) && /Amazon/.test(r.box));
+      if (det) {
+        await go(det.h);
+        const text = await p.evaluate(() => (document.body.innerText || '').split('\n').map((x) => x.trim()).filter(Boolean));
+        const i0 = Math.max(0, text.findIndex((x) => /提携基準|提携条件|審査|注意事項|禁止/.test(x)));
+        lines.push('## Amazon のプロモーション詳細（押していない）', '', `- 画面: ${here()}`, '', '```text', ...text.slice(i0, i0 + 70).filter((x) => !NG.test(x)).map((x) => mask(x).slice(0, 200)), '```', '');
+        await dump('Amazon の詳細のボタン');
+      }
     } else { lines.push('- 検索欄が見つからない'); await dump('もしものトップ'); }
   }
 
@@ -98,6 +131,16 @@ try {
 } catch (e) { lines.push(`- ⚠️ ${mask(String(e).split('\n')[0])}`); }
 finally { await p.close().catch(() => {}); }
 
+function aspCred(id) {
+  try {
+    const meta = execFileSync('/usr/bin/security', ['find-generic-password', '-s', `dailyhack-asp-${id}`], { encoding: 'utf8', stdio: ['ignore', 'pipe', 'ignore'] });
+    let user = (meta.match(/"acct"<blob>="([^"]*)"/) || [])[1];
+    const hex = (meta.match(/"acct"<blob>=0x([0-9A-Fa-f]+)/) || [])[1];
+    if (!user && hex) user = Buffer.from(hex, 'hex').toString('utf8');
+    const pass = execFileSync('/usr/bin/security', ['find-generic-password', '-s', `dailyhack-asp-${id}`, '-w'], { encoding: 'utf8', stdio: ['ignore', 'pipe', 'ignore'] }).replace(/\n$/, '');
+    return user && pass ? { user, pass } : null;
+  } catch { return null; }
+}
 function keychain(acct) { try { return execFileSync('/usr/bin/security', ['find-generic-password', '-s', 'dailyhack-rakuten-ws', '-a', acct, '-w'], { encoding: 'utf8' }).trim(); } catch { return ''; } }
 fs.writeFileSync(path.join(OUT, `${WHICH}.md`), lines.join('\n') + '\n');
 console.log(lines.join('\n'));
