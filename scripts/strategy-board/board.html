@@ -559,6 +559,14 @@ tr[data-ccount]::after{top:4px;right:4px}
   </ul>
 </section>
 
+<!-- ============ 分析レポート（アドホック） ============ -->
+<section class="page" data-page="analyses" data-title="分析レポート" hidden>
+  <div class="eyebrow">分析レポート</div>
+  <h1>その時々の問いに答えた分析を、ここに積む</h1>
+  <p class="lead">「なぜ増えたのか」「再現できるのか」のような、その時々の問いに答えた単発の分析です。<strong>結論と要点はここで読め、詳しい数字と図は各分析のページにあります。</strong>新しい分析は上に足されます（2026-10-26 から）。</p>
+  <div class="list" id="analyses"><p class="empty">読み込み中</p></div>
+</section>
+
 <!-- ============ 戦略 ============ -->
 <section class="page" data-page="strategy" data-title="戦略" hidden>
   <div class="eyebrow">戦略</div>
@@ -1009,6 +1017,8 @@ tr[data-ccount]::after{top:4px;right:4px}
     db.collection('todos').onSnapshot(snap=>{ TODOS=snap.docs.map(d=>Object.assign({id:d.id},d.data())); renderTodos(); const n=TODOS.filter(t=>t.status==='you').length, b=$('a[data-page="tasks"] .badge',toc); if(b){ b.hidden=!n; b.textContent=n; } },()=>{ $('#todos').innerHTML='<p class="empty">読み込めませんでした。</p>'; });
     db.doc('results/latest').onSnapshot(s=>{ RESULTS=s.exists?s.data():null; renderResults(); },()=>{});
     db.doc('snapshot/latest').onSnapshot(s=>{ if(s.exists){ SNAP=s.data(); try{ renderSnapshot(SNAP); }catch(e){ console.error(e); } } else { $('#meta-data').textContent='まだ届いていない'; } },()=>{});
+    // 分析レポート（アドホック）。結論と要点だけをここに置き、詳細は各分析のページへ（2026-10-26 利用者の指示）
+    db.collection('analyses').orderBy('date','desc').onSnapshot(s=>{ const box=$('#analyses'); if(!box) return; if(s.empty){box.innerHTML='<p class="empty">まだありません。</p>';return;} box.replaceChildren(...s.docs.map(d=>{ const v=d.data(), el=document.createElement('div'); el.className='c'; el.dataset.cid='analyses.'+d.id; el.innerHTML='<div class="h"><span class="pill info">'+esc(v.kind||'分析')+'</span><span>'+esc(v.date||'')+'</span>'+(v.by?'<span>'+esc(v.by)+'</span>':'')+'</div><div class="b"><b>'+esc(v.title||'')+'</b></div>'+(v.question?'<div class="q">問い：'+esc(v.question)+'</div>':'')+(v.summary?'<p style="margin:6px 0 0">'+esc(v.summary)+'</p>':'')+((v.points||[]).length?'<ul class="plain" style="margin:6px 0 0">'+v.points.map(i=>'<li>'+esc(i)+'</li>').join('')+'</ul>':'')+(v.url?'<div class="row"><a href="'+esc(v.url)+'" target="_blank" rel="noopener">分析のページを開く</a></div>':''); return el; })); applyCounts(); },()=>{ const box=$('#analyses'); if(box) box.innerHTML='<p class="empty">読み込めませんでした。</p>'; });
     db.collection('changelog').orderBy('date','desc').limit(60).onSnapshot(s=>{ const box=$('#changelog'); if(s.empty){box.innerHTML='<p class="empty">まだありません。</p>';return;} box.replaceChildren(...s.docs.map(d=>{ const v=d.data(), el=document.createElement('div'); el.className='c'; el.dataset.cid='changelog.'+d.id; el.innerHTML='<div class="h"><span class="pill info">'+esc(v.kind||'更新')+'</span><span>'+esc(v.date||'')+'</span></div><div class="b"><b>'+esc(v.summary||'')+'</b></div>'+((v.items||[]).length?'<ul class="plain" style="margin:6px 0 0">'+v.items.map(i=>'<li>'+esc(i)+'</li>').join('')+'</ul>':''); return el; })); },()=>{});
   })();
 
