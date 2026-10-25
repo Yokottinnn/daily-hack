@@ -1,3 +1,3 @@
 [
-      {"task": "t332-shop-mac-setup.sh", "rc": 0, "out": "- 2 — https://af.moshimo.com/af/shop/promotion/search?words=Amazon&order=open_datetime_d&page=1&limit=10   - 提携対象：を選択中 Amazon の検索結果: 49 件 のプロモーションがヒットしました。 49件中: 1件～10件を表示中 提携 すべて 申請中 提携中 否認"}
+      {"task": "t333-shop-mac-setup2.sh", "rc": 0, "out": "  - Amazonと提携するためには多くの提携基準を守る必要があります。 プロモーション詳細を熟読してください。 ！提携基準の例 メディア内にAmazonとの関係を明記する必要があります。 記事例： 「Amazonのアソシエイトとして"}
   ]

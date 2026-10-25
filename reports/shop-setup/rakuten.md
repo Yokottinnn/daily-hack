@@ -1,21 +1,26 @@
 # 3 店ボタンの Mac 側の準備: rakuten（scripts/shop/mac-setup.mjs）
 
-生成: **2026-10-25T07:22:22.320Z**
+生成: **2026-10-25T07:27:21.974Z**
 
-- 画面: https://login.account.rakuten.com/session/upgrade
+- 本人確認の画面に飛ばされた（https://login.account.rakuten.com/session/upgrade）。Keychain の ID・パスワード: ある
+- 入り直したあとの画面: https://webservice.rakuten.co.jp/app/list
+- 画面: https://webservice.rakuten.co.jp/app/list
 
-- Application ID: 見つからない
+- Application ID: 36 文字（Keychain の値と同じ）
 - Access Key が画面に見つからない（「表示」ボタンで隠れている可能性）。ボタン一覧を下に出す
 ## アプリ一覧の画面
 
-- 画面: https://login.account.rakuten.com/session/upgrade（ログイン - 楽天）
+- 画面: https://webservice.rakuten.co.jp/app/list（Your Applications）
 
 見出し:
+- Your Applications
+- dailyhack
+- Information
 
 入力欄:
 
 ボタン:
-- 次へ ／ パスワードをお忘れの方 ／ 別の楽天IDでログイン
+- TOOL BOX ／ New App ／ Refresh ／ More Details ／ Edit
 
 - 楽天 API（2026-07-01 版）の試し: HTTP 400・{
   "errors": {
