@@ -1,0 +1,19 @@
+{
+  "_note": "3 店ボタン（楽天・Yahoo!・Amazon）の設定。docs/shop-comparison.md を読んでから触る。公開リポジトリなので、ここに置くのは記事のリンクに出る公開値だけ（API の鍵は置かない）",
+  "rakuten": {
+    "affiliateId": "587f2635.77bb335f.587f2636.e34c8733",
+    "_affiliateIdNote": "個人名義（決定ログ 2026-10-15）。法人審査が通ったらここを差し替えるだけで全記事の 3 店ボタンが替わる"
+  },
+  "yahoo": {
+    "via": "linkswitch",
+    "_note": "isPR: true の記事では PostLayout の LinkSwitch（vc_pid 892728470）が素の shopping.yahoo.co.jp リンクを成果リンクに変える。バリューコマースの「Yahoo!ショッピング 自動提携機能用（2136156）」は提携済み"
+  },
+  "amazon": {
+    "via": "moshimo",
+    "moshimoAId": null,
+    "moshimoPId": null,
+    "moshimoPcId": null,
+    "moshimoPlId": null,
+    "_note": "もしもアフィリエイトで Amazon と提携できたら、もしもの「リンク作成」で作った Amazon のリンクから a_id・p_id・pc_id・pl_id を写す（4 つとも公開値）。null のあいだは Amazon ボタンを出さない（報酬にならないリンクで買われるのを防ぐ）"
+  }
+}

@@ -6,6 +6,7 @@ import tailwindcss from '@tailwindcss/vite';
 import sitemap from '@astrojs/sitemap';
 import mdx from '@astrojs/mdx';
 import rehypeExternalLinks from 'rehype-external-links';
+import rehypeShop from './src/lib/shop/rehype-shop.mjs';
 import { readdirSync, readFileSync } from 'node:fs';
 import { join } from 'node:path';
 
@@ -75,6 +76,8 @@ export default defineConfig({
   ],
   markdown: {
     rehypePlugins: [
+      // 3 店ボタン（楽天・Yahoo!・Amazon）。docs/shop-comparison.md
+      rehypeShop,
       [
         rehypeExternalLinks,
         {
@@ -82,7 +85,7 @@ export default defineConfig({
           // 全外部リンクに noopener。アフィリエイト系（px.a8.net 等）には sponsored + nofollow も付与
           rel: (/** @type {{ properties?: { href?: string } }} */ element) => {
             const href = String(element?.properties?.href ?? '');
-            const isAffiliate = /px\.a8\.net|adm\.shinobi\.jp|hb\.afl\.rakuten\.co\.jp|amazon\.co\.jp\/.*\?tag=/.test(href);
+            const isAffiliate = /px\.a8\.net|adm\.shinobi\.jp|hb\.afl\.rakuten\.co\.jp|amazon\.co\.jp\/.*\?tag=|ck\.jp\.ap\.valuecommerce\.com|af\.moshimo\.com/.test(href);
             return isAffiliate
               ? ['sponsored', 'noopener', 'nofollow']
               : ['noopener'];
