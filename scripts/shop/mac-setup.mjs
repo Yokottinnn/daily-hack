@@ -159,6 +159,19 @@ try {
         const modal = await p.evaluate(() => [...document.querySelectorAll('.modal.show, [role=dialog], .swal2-popup')].filter((e) => e.getBoundingClientRect().height > 0).map((e) => (e.innerText || '').replace(/\s+/g, ' ').slice(0, 300)));
         lines.push(`- 目のボタン（Access Key）を押した: ${(await eye.count()) ? 'あり' : '見つからない'}・通信 ${net.length} 件`, ...net.slice(0, 8).map((x) => `  - ${mask(x)}`), `- 押したあとの値: ${/^[A-Za-z0-9_\-]{16,}$/.test(code) ? code.length + ' 文字（見えた）' : '伏せ字のまま'}`, ...modal.map((x) => `- 出た画面: ${mask(x)}`));
         if (/^[A-Za-z0-9_\-]{16,}$/.test(code) && code !== keychain('applicationId')) k2 = code;
+        // t345: 「More Details」で開いた小窓（credentials を含む）が上に被っていた。小窓の中の Access Key の目を押して読む
+        if (!k2) {
+          const m = p.locator('.modal.show').first();
+          if (await m.count()) {
+            const codes0 = await m.locator('code').allInnerTexts().catch(() => []);
+            const eyes = m.locator('button[onclick*="toggleSecret"]'); const ne = await eyes.count();
+            for (let i = 0; i < ne; i++) { await eyes.nth(i).click({ timeout: 3000 }).catch(() => {}); await p.waitForTimeout(1500); }
+            const pairs = await m.evaluate((el) => [...el.querySelectorAll('code')].map((c) => { const lab = ((c.closest('div.col-sm-6, .row, dl, tr, li') || c.parentElement).innerText || '').split('\n')[0].trim(); return [lab.slice(0, 30), (c.textContent || '').trim()]; }));
+            lines.push(`- 小窓の中: code ${codes0.length} 個・目のボタン ${ne} 個`, ...pairs.map(([l, v]) => `  - ${l}: ${/^[A-Za-z0-9_\-]{16,}$/.test(v) ? v.length + ' 文字（見えた）' : (v.slice(0, 2) || '空') + '…'}`));
+            const hit = pairs.find(([l, v]) => /Access Key/i.test(l) && /^[A-Za-z0-9_\-]{16,}$/.test(v));
+            if (hit && hit[1] !== keychain('applicationId')) k2 = hit[1];
+          } else lines.push('- 小窓が無い');
+        }
       }
       {
       }
@@ -299,6 +312,9 @@ try {
       const mdl = await p.evaluate(() => { const h = [...document.querySelectorAll('*')].find((e) => e.children.length === 0 && /登録前にご確認ください/.test(e.textContent || '') && e.getBoundingClientRect().height > 0); let b = h; for (let i = 0; i < 6 && b && b.parentElement; i++) { b = b.parentElement; if (b.querySelectorAll('button, input').length) break; } if (!b) return null;
         return { text: (b.innerText || '').replace(/\s+/g, ' ').slice(0, 600), ctrls: [...b.querySelectorAll('button, input, a[role=button], label')].map((e) => `${e.tagName.toLowerCase()}[type=${e.type || ''} name=${e.name || ''}] 「${(e.innerText || e.value || '').trim().slice(0, 30)}」`).slice(0, 15) }; });
       if (mdl) lines.push('- 確認の小窓:', `  - ${mask(mdl.text)}`, ...mdl.ctrls.map((x) => `  - ${x}`));
+      // t345: 小窓のボタンが button 要素ではなかった。押せそうな見えている要素（cursor:pointer・短い文字）を全部出す（押さない）
+      const clickables = await p.evaluate(() => [...document.querySelectorAll('a, button, div, span, label, input')].filter((e) => { const r = e.getBoundingClientRect(); if (!r.height) return false; const cs = getComputedStyle(e); const t = (e.innerText || e.value || '').trim(); return (cs.cursor === 'pointer' || e.tagName === 'BUTTON' || e.type === 'checkbox') && t.length > 0 && t.length < 24 && e.children.length < 3; }).map((e) => `${e.tagName.toLowerCase()}${e.className ? '.' + String(e.className).split(' ')[0] : ''} 「${(e.innerText || e.value || '').trim()}」`).filter((x, i, a) => a.indexOf(x) === i).slice(-30));
+      lines.push('- 押せそうな要素（後ろの 30 個）:', ...clickables.map((x) => `  - ${x}`));
       const opts = await p.evaluate(() => [...document.querySelectorAll('select')].filter((e) => e.getBoundingClientRect().height > 0).map((e) => `select[name=${e.name}]: ${[...e.options].map((o) => o.textContent.trim()).join(' / ').slice(0, 400)}`));
       lines.push('- 選択肢:', ...opts.map((x) => `  - ${x}`)); }
   }
