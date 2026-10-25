@@ -71,3 +71,4 @@
 | `point-service-complete-guide-2026` | 0 | ID 差し替え |
 | `summer-cospa-travel-2026` | 16 |  |
 | `summer-travel-timesale-2026` | 5 |  |
+| `rechargeable-kairo-comparison-2026` | 3 店ボタン（`src/data/shop/rechargeable-kairo.json`） | 楽天のリンクは `src/data/shop/config.json` の `rakuten.affiliateId` 1 か所で替わる（記事の Markdown には書いていない） |
