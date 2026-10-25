@@ -1,7 +1,7 @@
 security: SecKeychainSearchCopyNext: The specified item could not be found in the keychain.
 # 3 店ボタンの Mac 側の準備: rakuten（scripts/shop/mac-setup.mjs）
 
-生成: **2026-10-25T08:18:43.391Z**
+生成: **2026-10-25T08:23:26.295Z**
 
 - 画面: https://webservice.rakuten.co.jp/app/list
 
@@ -53,6 +53,9 @@ security: SecKeychainSearchCopyNext: The specified item could not be found in th
 ```html
 <div class="col-sm-6 p-2"> <span id="［53文字・伏せた］" class="d-block text-secondary mb-1">Access Key</span> <div class="d-flex"> <code class="flex-grow-1" id="［47文字・伏せた］">［伏せ字］</code> <button type="button" id="［54文字・伏せた］" class="btn icon-button" onclick="toggleSecret('［36文字・伏せた］', this)"><i class="fa fa-eye"></i></button> <button type="button" id="［52文字・伏せた］" class="btn icon-button" onclick="copyToClipboard('［46文字・伏せた］')"><i class="fa fa-clone"></i></button> </div> </div>
 ```
+- 目のボタン（Access Key）を押した: あり・通信 0 件
+- 押したあとの値: 伏せ字のまま
+- 出た画面: dailyhack Complete information about this application including credentials and configuration. Application description ブログ daily-hack.com の記事に、楽天市場・楽天トラベルの商品リンクを載せるためのアプリ Application Type Web Application Status ACTIVE Allowed websites daily-hack.fieldbeside.com API Access Scopes Rakuten Ichiba API R
 - アイコンのボタン 4 個を押したあとの Access Key: まだ伏せ字（•••…）
 - 楽天 API（2026-07-01 版）の試し: HTTP 400・{
   "errors": {
