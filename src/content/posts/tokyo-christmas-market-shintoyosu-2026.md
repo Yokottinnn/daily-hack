@@ -4,10 +4,18 @@ description: "東京クリスマスマーケットが初めて新豊洲で開催
 publishDate: 2026-10-25
 category: ["wangan-life"]
 tags: ["湾岸ニュース", "豊洲", "新豊洲", "東京クリスマスマーケット", "クリスマス", "イベント", "2026年"]
-isPR: false
+isPR: true
 draft: false
 eyecatchUrl: "/images/tokyo-christmas-market-shintoyosu-2026/cover.jpg"
 eyecatchAlt: "東京クリスマスマーケット2026 in 新豊洲｜巨大ラウゲンプレッツェル"
+event:
+  name: "東京クリスマスマーケット2026 in 新豊洲"
+  startDate: "2026-11-20"
+  endDate: "2026-12-25"
+  locationName: "東京クリスマスマーケット 新豊洲会場"
+  address: "東京都江東区豊洲6丁目4"
+  url: "https://tokyochristmas.net/"
+  organizer: "東京クリスマスマーケット実行委員会"
 author: "hacker-ko"
 references: ["https://prtimes.jp/main/html/rd/p/000000084.000047941.html", "https://prtimes.jp/main/html/rd/p/000000085.000047941.html", "https://prtimes.jp/main/html/rd/p/000000200.000028214.html", "https://tokyochristmas.net/"]
 ---
@@ -76,7 +84,7 @@ references: ["https://prtimes.jp/main/html/rd/p/000000084.000047941.html", "http
       <tr><th>子ども（小学生）</th><td>500円</td><td>500円</td><td>1,000円</td></tr>
       <tr><th>未就学児</th><td>無料</td><td>無料</td><td>無料</td></tr>
       <tr><th>例：大人2人＋小学生1人＋未就学児1人</th><td><strong>2,500円</strong></td><td>3,500円</td><td>5,000円</td></tr>
-      <tr><th>買い方</th><td colspan="3">当日券（会場）か、<a href="https://www.kkday.com/ja/product/123906" target="_blank" rel="noopener">KKday の事前予約（新豊洲）</a>。どちらも同じ値段</td></tr>
+      <tr><th>買い方</th><td colspan="3">当日券（会場）か、<a href="https://px.a8.net/svt/ejp?a8mat=4B43JB+BX9KPM+52F8+5YJRM" target="_blank" rel="sponsored noopener nofollow">KKday の事前予約</a>（KKday で「東京クリスマスマーケット 新豊洲」と検索）。どちらも同じ値段</td></tr>
     </tbody>
   </table>
 </div>
@@ -106,6 +114,8 @@ references: ["https://prtimes.jp/main/html/rd/p/000000084.000047941.html", "http
 </figure>
 
 オンラインの事前予約は **KKday だけ**が扱う。**値段は当日券と同じ**で、**大人には新豊洲会場限定のマグカップ**が付く。
+
+<p><a href="https://px.a8.net/svt/ejp?a8mat=4B43JB+BX9KPM+52F8+5YJRM" target="_blank" rel="sponsored noopener nofollow">KKday で事前予約を確認する →</a>（KKday のサイトで「東京クリスマスマーケット 新豊洲」と検索）</p>
 
 <ul class="checklist">
   <li><div class="checklist-body"><strong>① 日にちと時間帯を選ぶ定員制</strong><p>混んでいる日は、当日券の入場が止められることがある。週末に行くなら予約が安全。</p></div></li>
@@ -165,6 +175,21 @@ references: ["https://prtimes.jp/main/html/rd/p/000000084.000047941.html", "http
     </a></li>
   </ul>
 </aside>
+
+## よくある質問
+
+<div class="cmp-table-wrap">
+  <table class="cmp-table spec-table faq-table">
+    <tbody>
+      <tr><th>東京クリスマスマーケット2026 新豊洲はいつ？</th><td><strong>2026年11月20日（金）〜12月25日（金）</strong>の36日間。初日は16:00〜21:30、ほかの日は11:00〜21:30（最終入場20:30）。</td></tr>
+      <tr><th>入場料はいくら？</th><td>大人（中学生以上）は<strong>平日1,000円</strong>・土日祝1,500円・2026年12月24日と25日は2,000円。小学生は500円（24・25日は1,000円）、未就学児は無料。</td></tr>
+      <tr><th>事前予約したほうが得？</th><td>値段は当日券と同じ。オンラインの事前予約は KKday だけが扱い、大人には新豊洲会場限定のマグカップが付く。</td></tr>
+      <tr><th>最寄り駅は？</th><td>ゆりかもめ「新豊洲」駅から徒歩2分、「市場前」駅から徒歩4分。</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<p class="source-note">湾岸（中央区・江東区）のイベントとニュースは <a href="/tags/湾岸ニュース/">湾岸ニュースの一覧</a> にまとめている。</p>
 
 <p class="source-note">表紙は東京クリスマスマーケット実行委員会のフードのキービジュアル。出典：<a href="https://prtimes.jp/main/html/rd/p/000000084.000047941.html" target="_blank" rel="noopener">東京クリスマスマーケット実行委員会「新豊洲初開催『東京クリスマスマーケット2026』注目グルメを公開！」（PR TIMES・2026年10月16日）</a>／<a href="https://prtimes.jp/main/html/rd/p/000000200.000028214.html" target="_blank" rel="noopener">KKday「マグカップ付き入場券を発売」（PR TIMES・2026年10月2日）</a>／<a href="https://tokyochristmas.net/" target="_blank" rel="noopener">東京クリスマスマーケット公式サイト</a>。内容は変わることがある。出かける前に公式サイトで確かめて。</p>
 

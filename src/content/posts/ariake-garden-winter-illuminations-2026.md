@@ -4,10 +4,18 @@ description: "有明ガーデンの冬のイルミネーションは2026年10月
 publishDate: 2026-10-25
 category: ["wangan-life"]
 tags: ["湾岸ニュース", "有明", "有明ガーデン", "イルミネーション", "クリスマス", "無料", "2026年"]
-isPR: false
+isPR: true
 draft: false
 eyecatchUrl: "/images/ariake-garden-winter-illuminations-2026/cover.jpg"
 eyecatchAlt: "ARIAKE GARDEN Winter Illuminations 2026｜有明ガーデンの冬のイルミネーション"
+event:
+  name: "ARIAKE GARDEN Winter Illuminations"
+  startDate: "2026-10-31"
+  endDate: "2027-02-28"
+  locationName: "有明ガーデン"
+  address: "東京都江東区有明2-1-8"
+  url: "https://ariake.shopping-sumitomo-rd.com/event/4900/"
+  organizer: "有明ガーデン"
 author: "hacker-ko"
 references:
   - "https://ariake.shopping-sumitomo-rd.com/event/4900/"
@@ -121,6 +129,11 @@ references:
 
 <p class="source-note">出典：<a href="https://ariake.shopping-sumitomo-rd.com/access/" target="_blank" rel="noopener">有明ガーデン アクセス</a>（徒歩の分数は1分80mで計算した公式の表示）。</p>
 
+<div class="callout info">
+<p class="head">近くに泊まって、夜のイルミネーションをゆっくり見るなら</p>
+<p style="margin:0">点灯は23:00まで。有明・豊洲のホテルは <a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+35PU3E+4XZI+BWVTE" target="_blank" rel="sponsored noopener nofollow">トラベリスト</a> や <a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+36WPAY+5RZ8+5YJRM" target="_blank" rel="sponsored noopener nofollow">イオンコンパストラベルモール</a>（WAON POINT がたまる）で、日付を入れて探せる。</p>
+</div>
+
 ## SNS ではこう言われている｜去年までの冬の動画
 
 <!-- sns-x:ariake-illumi -->
@@ -152,6 +165,21 @@ YouTube には、去年までの有明ガーデンの冬の夜を歩いて撮っ
     </a></li>
   </ul>
 </aside>
+
+## よくある質問
+
+<div class="cmp-table-wrap">
+  <table class="cmp-table spec-table faq-table">
+    <tbody>
+      <tr><th>有明ガーデンのイルミネーション2026はいつから？</th><td><strong>2026年10月31日（土）〜2027年2月28日（日）</strong>。</td></tr>
+      <tr><th>何時から何時まで点いている？</th><td>2026年10月31日〜11月30日は17:00〜23:00、<strong>2026年12月1日〜2027年1月31日は16:00〜23:00</strong>、2027年2月1日〜28日は17:00〜23:00。</td></tr>
+      <tr><th>今年の見どころは？</th><td>モール5階の屋上「水のテラス」に、蝶が舞うイルミネーションが新しく登場。ドーム状のオブジェは中に入って写真が撮れる。</td></tr>
+      <tr><th>最寄り駅は？</th><td>ゆりかもめ「有明テニスの森」駅から徒歩3分、「有明」駅から徒歩4分、りんかい線「国際展示場」駅から徒歩6分。</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<p class="source-note">湾岸（中央区・江東区）のイベントとニュースは <a href="/tags/湾岸ニュース/">湾岸ニュースの一覧</a> にまとめている。</p>
 
 <p class="source-note">表紙は有明ガーデンの公式の告知画像。出典：<a href="https://ariake.shopping-sumitomo-rd.com/event/4900/" target="_blank" rel="noopener">有明ガーデン「ARIAKE GARDEN Winter Illuminations」</a>（2026年10月25日に確認）。</p>
 
