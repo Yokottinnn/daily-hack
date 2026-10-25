@@ -461,6 +461,11 @@ footer.foot .pr { margin-top: 6px; }
 .cmp-table .cell-sub { display: block; margin-top: 4px; font-size: 12.5px; line-height: 1.7; color: var(--ink-2); }
 .cmp-table.prose-table th { white-space: normal; }
 .cmp-table.prose-table td { vertical-align: top; }
+@media (max-width: 420px) {
+  .cmp-table.prose-table th, .cmp-table.prose-table td { padding: 10px 10px; }
+  .cmp-table.prose-table td { min-width: 150px; }
+  .cmp-table.prose-table td:first-child { min-width: 104px; }
+}
 
 /* Post body table — 全 markdown table 共通スタイル。装飾控えめ＋読みやすさ最優先。 */
 .post-body table {
