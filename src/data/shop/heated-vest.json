@@ -24,7 +24,7 @@
       "label": "洗濯"
     }
   ],
-  "pricesCheckedAt": null,
+  "pricesCheckedAt": "2026-10-25T11:20:53.041Z",
   "items": [
     {
       "id": "thanko-heat25sbk",
@@ -49,7 +49,15 @@
         "keyword": "サンコー HEAT25SBK",
         "must": [
           "HEAT25SBK"
-        ]
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/procure-a/702-9398.html",
+        "price": 7208,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 0,
+        "shop": "プロキュアエース",
+        "checkedAt": "2026-10-25T11:20:53.041Z"
       },
       "amazon": {
         "keyword": "サンコー HEAT25SBK",
@@ -79,7 +87,15 @@
         "keyword": "アイリスオーヤマ FC21620",
         "must": [
           "FC21620"
-        ]
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/insdenki-y/p290821.html",
+        "price": 7680,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": 4.36,
+        "reviewCount": 11,
+        "shop": "ウエノ電器 Yahoo!店",
+        "checkedAt": "2026-10-25T11:20:53.041Z"
       },
       "amazon": {
         "keyword": "アイリスオーヤマ FC21620",
@@ -108,7 +124,15 @@
         "keyword": "アイリスオーヤマ GT21622",
         "must": [
           "GT21622"
-        ]
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/petkan/m290816.html",
+        "price": 3980,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": 4,
+        "reviewCount": 3,
+        "shop": "メガストア Yahoo!店",
+        "checkedAt": "2026-10-25T11:20:53.041Z"
       },
       "amazon": {
         "keyword": "アイリスオーヤマ GT21622",
@@ -138,7 +162,15 @@
         "keyword": "サンエス EH32490",
         "must": [
           "EH32490"
-        ]
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/oosumi-marutake/sunseh32490.html",
+        "price": 9160,
+        "shippingFree": false,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 0,
+        "shop": "作業服 キノウェアショップ",
+        "checkedAt": "2026-10-25T11:20:53.041Z"
       },
       "amazon": {
         "keyword": "サンエス EH32490",
@@ -168,7 +200,15 @@
         "keyword": "雷神服 RD9570",
         "must": [
           "RD9570"
-        ]
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/oosumi-marutake/sunsrd9570.html",
+        "price": 8600,
+        "shippingFree": false,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 0,
+        "shop": "作業服 キノウェアショップ",
+        "checkedAt": "2026-10-25T11:20:53.041Z"
       },
       "amazon": {
         "keyword": "雷神服 RD9570",
@@ -192,13 +232,31 @@
         "keyword": "バートル サーモクラフト TC500",
         "must": [
           "TC500"
+        ],
+        "exclude": [
+          "CNCTWO",
+          "コネクトツー",
+          "ファン"
         ]
       },
       "yahoo": {
         "keyword": "バートル サーモクラフト TC500",
         "must": [
           "TC500"
-        ]
+        ],
+        "exclude": [
+          "CNCTWO",
+          "コネクトツー",
+          "ファン"
+        ],
+        "url": null,
+        "price": null,
+        "shippingFree": null,
+        "point": null,
+        "reviewAverage": null,
+        "reviewCount": null,
+        "shop": null,
+        "checkedAt": "2026-10-25T11:20:53.041Z"
       },
       "amazon": {
         "keyword": "バートル サーモクラフト TC500",
@@ -228,7 +286,15 @@
         "keyword": "マキタ CV202DZ",
         "must": [
           "CV202D"
-        ]
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/asahiya-himeji/cv202dz.html",
+        "price": 15244,
+        "shippingFree": false,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 0,
+        "shop": "工具のあさひ屋",
+        "checkedAt": "2026-10-25T11:20:53.041Z"
       },
       "amazon": {
         "keyword": "マキタ CV202DZ",
