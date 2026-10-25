@@ -1,3 +1,5 @@
 [
-      {"task": "x352-install-x-action-guard.sh", "rc": 0, "out": "x352 / x352-x-action-guard.md"}
+      {"task": "x353-reply-hanamama.sh", "rc": 0, "out": "x353 / x353-reply-hanamama.md"},
+      {"task": "x354-comment-warmup-30-per-day.sh", "rc": 0, "out": "x354 / x354-comment-warmup-30.md"},
+      {"task": "x355-reload-guard-skipped.sh", "rc": 0, "out": "x355 / x355-reload-guard.md"}
   ]
