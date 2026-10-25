@@ -31,6 +31,7 @@
 | `status` | 上の工程 |
 | `priority` | `A`・`B`・`C`（並べ方の「優先順」は priority → order） |
 | `order` | 同じ優先度の中の順番（小さいほど上） |
+| `cats` | サイトのカテゴリ（`comparisons`・`wangan-life` など。`src/lib/category.ts` と同じ）。画面の「カテゴリ」の絞り込みになる。公開済みの記事は記事のフロントマターから自動で入る |
 | `kind` | 種類。`3 店比較`（楽天・Yahoo!・Amazon のボタン）・`楽天・Yahoo! だけ`・`案件`・`湾岸`・`ランキング` など。画面の「種類」の絞り込みになる |
 | `stores` | 3 店ボタンの店（`rakuten`・`yahoo`・`amazon`） |
 | `owner` | 担当のセッション（`blog3`・`affiliate`） |
@@ -58,3 +59,5 @@ ArtifactData update ideas/<id> if_version=<version>
 - 公開済みの記事は、作戦室が毎日のスナップショットから**公開後の数字**（読者 28 日・検索 90 日・成果リンク）を自動で出す（`slug` が要る）
 - `slug` を入れてあり本番に出ているのに `published` でない記事は「本番に出ているのを検出」と出る → 担当が `published` にする
 - 候補の中身（商品・出典）は affiliate の `docs/research/` に置き、`note` にパスを書く
+
+- **これまでに公開した記事は全部、自動で「公開済み」に並ぶ**（2026-10-26 利用者のコメント）。毎日のスナップショットの `articles`（`build-snapshot.mjs` が記事のフロントマターから `cats`・`pub` を入れる）のうち、`ideas` に `slug` が無いものを画面で足す。db には書かない
