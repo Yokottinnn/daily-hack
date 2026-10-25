@@ -457,6 +457,10 @@ footer.foot .pr { margin-top: 6px; }
 /* 説明文が長い表。1 列に文章が入るものは折り返す */
 .cmp-table.wrap-table td { white-space: normal; }
 .cmp-table.wrap-table td:last-child { min-width: 18em; }
+/* 表の右の列に「結論（太字）＋補足（小さい字）」を 2 段で置く（2026-10-25。見出しのキャラを外した節に、文字だけでない形を足した） */
+.cmp-table .cell-sub { display: block; margin-top: 4px; font-size: 12.5px; line-height: 1.7; color: var(--ink-2); }
+.cmp-table.prose-table th { white-space: normal; }
+.cmp-table.prose-table td { vertical-align: top; }
 
 /* Post body table — 全 markdown table 共通スタイル。装飾控えめ＋読みやすさ最優先。 */
 .post-body table {

@@ -213,11 +213,16 @@ isPR: true
 
 ここを知らずに行くと損する。**アウトレットの「安い」には、実は3つの中身がある。**
 
-<ul class="checklist">
-  <li><div class="checklist-body"><strong>① 型落ち・過剰在庫（本来の意味のアウトレット）</strong><p>百貨店や路面店（プロパー店）で売れ残った前シーズン品を、値下げして流す。これが元祖アウトレットの姿。定価から30〜70%オフが目安。</p></div></li>
-  <li><div class="checklist-body"><strong>② アウトレット専用品（最初からアウトレット向けに作った商品）</strong><p>実は今のアウトレットの主力。プロパー店には並ばない、アウトレット専用に企画・生産された商品。「定価」表示があってもプロパー店では売っていないことがある。安いのは事実だが、<strong>「あの高級ラインが安く買える」とは限らない</strong>。</p></div></li>
-  <li><div class="checklist-body"><strong>③ B級品・展示品（わずかな難あり）</strong><p>小さな傷や規格外、サンプル・展示品。数は少ないが掘り出し物が出る。</p></div></li>
-</ul>
+<div class="cmp-table-wrap">
+  <table class="cmp-table prose-table">
+    <thead><tr><th>「安い」の中身</th><th>どういう商品か</th></tr></thead>
+    <tbody>
+      <tr><td><strong>① 型落ち・過剰在庫</strong></td><td>百貨店や路面店（プロパー店）で売れ残った前シーズン品。<strong>定価から30〜70%オフ</strong>が目安<br><span class="cell-sub">本来の意味のアウトレット</span></td></tr>
+      <tr><td><strong>② アウトレット専用品</strong></td><td>最初からアウトレット向けに企画・生産した商品。<strong>いまの主力</strong><br><span class="cell-sub">「定価」表示があってもプロパー店では売っていないことがある。「あの高級ラインが安く買える」とは限らない</span></td></tr>
+      <tr><td><strong>③ B級品・展示品</strong></td><td>小さな傷や規格外、サンプル・展示品<br><span class="cell-sub">数は少ないが掘り出し物が出る</span></td></tr>
+    </tbody>
+  </table>
+</div>
 
 **攻略のコツは、②を見抜くこと。** ラグジュアリーブランドの正規アウトレット品（①）は本物の掘り出し物だけど、量販ブランドの「アウトレット価格」は②の専用品が多い。**「定価◯◯円 → ◯◯円」の二重価格表示に踊らされず、モノの実力で判断しなさい**。訪日客が免税と組み合わせて①を狙うのは、ここに合理性があるからよ。
 

@@ -71,6 +71,21 @@ iDeCoの本質は「**掛金が全額所得控除**」＝入れた分だけ税�
 
 iDeCoの掛金は**全額が所得控除**。だから節税額は「掛金 × あなたの税率（所得税＋住民税）」でざっくり出る。
 
+<div class="num-grid">
+  <div class="num-row">
+    <span class="num-label">いまの上限</span>
+    <div class="num-track"><div class="num-fill" style="--w:37%"></div></div>
+    <span class="num-value">月2.3万円</span>
+  </div>
+  <div class="num-row is-top">
+    <span class="num-label">2026年12月から</span>
+    <div class="num-track"><div class="num-fill" style="--w:100%"></div></div>
+    <span class="num-value">月6.2万円</span>
+  </div>
+</div>
+
+<p class="source-note">会社員（企業年金なし）の掛金の上限。</p>
+
 <div class="callout tip">
 <p class="head">🧮 iDeCoの節税ざっくり計算</p>
 <p style="font-size:18px;font-weight:800;color:var(--ink);margin:4px 0 8px">年間の節税額 ＝ 年間掛金 × (所得税率＋住民税率10%)</p>
@@ -83,8 +98,15 @@ iDeCoの掛金は**全額が所得控除**。だから節税額は「掛金 × �
 
 ここが多くの記事が触れない大事なポイント。iDeCoは**受け取るとき（出口）に課税**される。受け取り方は主に2つ。
 
-- **一時金で受け取る** → 退職所得として「**退職所得控除**」が使える（勤続年数などで大きい）
-- **年金で受け取る** → 雑所得として「公的年金等控除」が使える
+<div class="cmp-table-wrap">
+  <table class="cmp-table prose-table">
+    <thead><tr><th>受け取り方</th><th>扱いと使える控除</th></tr></thead>
+    <tbody>
+      <tr><td><strong>一時金</strong>で受け取る</td><td><strong>退職所得控除</strong>が使える<br><span class="cell-sub">退職所得として扱う。控除は勤続年数などで大きい</span></td></tr>
+      <tr><td><strong>年金</strong>で受け取る</td><td><strong>公的年金等控除</strong>が使える<br><span class="cell-sub">雑所得として扱う</span></td></tr>
+    </tbody>
+  </table>
+</div>
 
 注意すべきは、**会社の退職金とiDeCoの一時金を近い時期に受け取ると、退職所得控除を“二重には”フルに使えない**ケースがあること。受け取る順番・間隔（いわゆる受給間隔のルール）で税負担が変わる。だから「入れるときの節税」だけでなく、**受け取り方まで設計**しておくのが正解。入口が拡大した今こそ、出口もセットで考えるべきなのよ。
 

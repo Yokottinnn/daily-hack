@@ -63,6 +63,21 @@ author: "hacker-ko"
   </div>
 </div>
 
+信託報酬（年）は、これだけ違う。
+
+<div class="num-grid">
+  <div class="num-row is-top">
+    <span class="num-label">インデックス</span>
+    <div class="num-track"><div class="num-fill" style="--w:8%"></div></div>
+    <span class="num-value">0.05〜0.15%</span>
+  </div>
+  <div class="num-row">
+    <span class="num-label">アクティブ</span>
+    <div class="num-track"><div class="num-fill" style="--w:100%"></div></div>
+    <span class="num-value">1.5〜2.0%</span>
+  </div>
+</div>
+
 <p class="source-note">S&Pダウ・ジョーンズ・インデックス社「SPIVA Scorecard」より、過去20年スパンで米国大型株アクティブファンドのS&P500ベンチマーク超過率は10〜15%水準（<a href="https://www.spglobal.com/spdji/jp/research-insights/spiva/" target="_blank" rel="noopener nofollow">spglobal.com/spdji/spiva</a>）。アクティブが必ず負けるわけではないが、長期で見ると市場平均超えの維持は非常に難しい。</p>
 
 「だったら全部インデックスでよくない？」って思ったあんた、正解。新NISAのつみたて枠で迷ってる時間がもったいない。次はアタシのおすすめ5本を上から順に見ていきなさい。
