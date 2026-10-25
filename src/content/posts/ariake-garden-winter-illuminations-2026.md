@@ -87,6 +87,29 @@ references:
 
 <p class="source-note">出典：<a href="https://ariake.shopping-sumitomo-rd.com/event/4900/" target="_blank" rel="noopener">有明ガーデン「ARIAKE GARDEN Winter Illuminations」</a>（2026年10月25日に確認）。点灯期間・時間は変わることがある、と公式に書かれている。</p>
 
+## 点灯式｜2026年10月31日（土）17:30〜・5階の水のテラス
+
+初日の夕方に点灯式がある。**観覧は無料**。
+
+<figure class="rn-figure">
+  <img src="/images/ariake-garden-winter-illuminations-2026/photos/lighting-ceremony.jpg" alt="有明ガーデン点灯式の告知画像。蝶が付いた光のドームと、ナイトバブルショーの写真。10/31（土）17:30〜 モール5階 水のテラス" loading="lazy" />
+  <figcaption>点灯式の告知画像。<cite>出典：<a href="https://ariake.shopping-sumitomo-rd.com/event/5088/" target="_blank" rel="noopener">有明ガーデン「ARIAKE GARDEN Winter Illuminations点灯式」</a></cite></figcaption>
+</figure>
+
+<div class="cmp-table-wrap">
+  <table class="cmp-table spec-table">
+    <tbody>
+      <tr><th>17:30〜</th><td>マスコットのグリーティング（江東区を拠点にするプロスポーツチームのマスコット）</td></tr>
+      <tr><th>17:50〜</th><td><strong>カウントダウンで点灯</strong></td></tr>
+      <tr><th>18:00〜</th><td>ナイトバブルショー（18:30ごろまで）</td></tr>
+      <tr><th>場所・司会</th><td>モール5F 水のテラス（6F 雲のテラスへは5F フードコートのらせん階段から）。司会はフリーアナウンサーの平山未夢さん</td></tr>
+      <tr><th>雨のとき</th><td>小雨なら決行、荒天なら中止。強い風や雨ではバブルショーが変わるか中止</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<p class="source-note">出典：<a href="https://ariake.shopping-sumitomo-rd.com/event/5088/" target="_blank" rel="noopener">有明ガーデン 点灯式のお知らせ</a>（2026年10月25日に確認）。肩車での観覧は禁止。シャボン玉で床がすべりやすくなることがある。</p>
+
 ## 今年の見どころ｜屋上「水のテラス」の蝶のドーム
 
 **2026年は、モール5階の屋上「水のテラス」に新しいイルミネーションが加わった。** 色とりどりの光に包まれた蝶が舞う「ガーデン」がテーマで、シンボルのドーム状のオブジェは**中に入ってフォトスポットとして撮影できる**（公式）。
@@ -173,13 +196,14 @@ YouTube には、去年までの有明ガーデンの冬の夜を歩いて撮っ
     <tbody>
       <tr><th>有明ガーデンのイルミネーション2026はいつから？</th><td><strong>2026年10月31日（土）〜2027年2月28日（日）</strong>。</td></tr>
       <tr><th>何時から何時まで点いている？</th><td>2026年10月31日〜11月30日は17:00〜23:00、<strong>2026年12月1日〜2027年1月31日は16:00〜23:00</strong>、2027年2月1日〜28日は17:00〜23:00。</td></tr>
+      <tr><th>点灯式はある？</th><td><strong>2026年10月31日（土）17:30から</strong>、モール5階の水のテラスで。17:50にカウントダウンで点灯し、18:00からナイトバブルショー。観覧は無料。</td></tr>
       <tr><th>今年の見どころは？</th><td>モール5階の屋上「水のテラス」に、蝶が舞うイルミネーションが新しく登場。ドーム状のオブジェは中に入って写真が撮れる。</td></tr>
       <tr><th>最寄り駅は？</th><td>ゆりかもめ「有明テニスの森」駅から徒歩3分、「有明」駅から徒歩4分、りんかい線「国際展示場」駅から徒歩6分。</td></tr>
     </tbody>
   </table>
 </div>
 
-<p class="source-note">湾岸（中央区・江東区）のイベントとニュースは <a href="/tags/湾岸ニュース/">湾岸ニュースの一覧</a> にまとめている。</p>
+<p class="source-note">湾岸（中央区・江東区）の暮らしの記事は <a href="/category/wangan-life/">湾岸ライフの一覧</a>、今月のイベントとニュースは <a href="/tags/湾岸ニュース/">湾岸ニュースの一覧</a> にまとめている。</p>
 
 <p class="source-note">表紙は有明ガーデンの公式の告知画像。出典：<a href="https://ariake.shopping-sumitomo-rd.com/event/4900/" target="_blank" rel="noopener">有明ガーデン「ARIAKE GARDEN Winter Illuminations」</a>（2026年10月25日に確認）。</p>
 

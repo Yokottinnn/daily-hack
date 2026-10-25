@@ -150,6 +150,8 @@ references: ["https://tokyo-toyosu.manyo.co.jp/price/", "http://www.shopping-sum
     </tbody>
   </table>
 </div>
+<p class="source-note">湾岸（中央区・江東区）の暮らしの記事は <a href="/category/wangan-life/">湾岸ライフの一覧</a>、今月のイベントとニュースは <a href="/tags/湾岸ニュース/">湾岸ニュースの一覧</a> にまとめている。</p>
+
 ## まとめ — 湾岸の“ととのい”は用途で選べ
 
 1. **コスパ最強＝月島温泉**（実質1,000円・軟水水風呂）
