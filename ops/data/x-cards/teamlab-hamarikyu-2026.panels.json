@@ -1,0 +1,41 @@
+{
+ "_doc": "チームラボ 浜離宮の X 告知（2026-10-26・利用者の指示）。node scripts/gen-x-panels.mjs ops/data/x-cards/teamlab-hamarikyu-2026.panels.json",
+ "_note": "素材: 作品の写真はチームラボのプレスリリース（PR TIMES・2026-10-23）、ロゴは teamlab.art の公式。画像の中に出所は出さず、ALT に書く（2026-10-11 の指示）。数字はすべて記事 teamlab-hamarikyu-2026 と同じ（リリース・東京都の庭園案内・@HamarikyuGarden の告知）",
+ "imageBase": "public/images/teamlab-hamarikyu-2026",
+ "out": "public/images/teamlab-hamarikyu-2026/x",
+ "theme": "ink",
+ "panels": [
+  {
+   "file": "1-cover.jpg",
+   "kind": "html",
+   "noHeader": true,
+   "html": "<div class=\"wrap\"><img class=\"photo\" src=\"photos/ovoid-forest.jpg\" alt=\"\"><div class=\"shade\"></div>\n<div class=\"k\">2026年11月25日(水)〜12月24日(木)</div>\n<div class=\"t\">夜の浜離宮が<br><em>まるごとチームラボ</em>に</div>\n<div class=\"chips\"><span>18:00〜21:15</span><span>大人 2,500円</span><span>1か月だけ</span></div>\n<div class=\"foot\">チケットは<b>日時指定の予約だけ</b>。会場では売っていない</div></div>",
+   "css": "main{padding:0;height:1080px;display:block}\n.wrap{position:relative;height:1080px;padding:64px 60px 0;color:#fff;overflow:hidden;background:#1E1219}\n.photo{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}\n.shade{position:absolute;inset:0;background:linear-gradient(180deg,rgba(20,10,16,.82) 0%,rgba(20,10,16,.35) 42%,rgba(20,10,16,.25) 62%,rgba(20,10,16,.88) 100%)}\n.k,.t,.chips,.foot{position:relative}\n.k{font-size:34px;font-weight:700;color:#F5C518}\n.t{font-size:84px;font-weight:900;line-height:1.18;margin-top:14px;text-shadow:0 3px 14px rgba(0,0,0,.5)}\n.t em{font-style:normal;color:#EC5C90}\n.chips{display:flex;gap:14px;margin-top:30px}\n.chips span{background:rgba(255,251,238,.95);color:#2A1923;font-size:32px;font-weight:900;border-radius:999px;padding:8px 24px}\n.foot{position:absolute;left:60px;right:60px;bottom:54px;font-size:34px;font-weight:700;text-align:center;text-shadow:0 2px 10px rgba(0,0,0,.6)}\n.foot b{color:#F5C518}",
+   "alt": "夜の森に、内側から光る卵形の作品が並ぶ写真。文字：2026年11月25日(水)〜12月24日(木)、夜の浜離宮がまるごとチームラボに。18:00〜21:15、大人2,500円、1か月だけ。チケットは日時指定の予約だけで、会場では売っていない。画像：チームラボ（PR TIMES・2026年10月23日のプレスリリース）。一部は合成画像・過去の展示写真"
+  },
+  {
+   "file": "2-access.jpg",
+   "kind": "html",
+   "noHeader": true,
+   "html": "<div class=\"wrap\"><img class=\"photo\" src=\"photos/resonating-trees.jpg\" alt=\"\"><div class=\"shade\"></div>\n<div class=\"k\">地元から、浜離宮まで</div>\n<div class=\"t\">勝どきから<br><em>大江戸線で1駅</em></div>\n<div class=\"rows\">\n<div class=\"r hot\"><b>勝どき</b><span><i>1駅</i>大江戸線で築地市場駅へ</span></div>\n<div class=\"r\"><b>月島</b><span><i>2駅</i>大江戸線 月島→勝どき→築地市場</span></div>\n<div class=\"r\"><b>豊洲</b><span><i>3駅</i>有楽町線で月島へ1駅、<br>大江戸線に乗り換えて2駅</span></div>\n</div>\n<div class=\"car\"><b>入口まで</b>　築地市場駅から大手門口へ<b>徒歩7分</b>／汐留駅10番出口から中の御門口へ<b>徒歩5分</b></div></div>",
+   "css": "main{padding:0;height:1080px;display:block}\n.wrap{position:relative;height:1080px;padding:62px 60px 0;color:#fff;overflow:hidden;background:#1E1219}\n.photo{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.32}\n.shade{position:absolute;inset:0;background:linear-gradient(180deg,rgba(30,18,25,.86),rgba(30,18,25,.7))}\n.k,.t,.rows{position:relative}\n.k{font-size:32px;font-weight:700;color:#F5C518}\n.t{font-size:80px;font-weight:900;line-height:1.18;margin-top:10px}\n.t em{font-style:normal;color:#EC5C90}\n.rows{margin-top:40px;display:grid;gap:18px}\n.r{display:flex;gap:26px;align-items:center;background:rgba(255,251,238,.95);color:#2A1923;border-radius:22px;padding:22px 28px}\n.r.hot{background:#FFF1C8;border:5px solid #F5C518}\n.r b{flex:0 0 150px;font-size:44px;font-weight:900}\n.r span{font-size:31px;font-weight:700;line-height:1.4}\n.r i{font-style:normal;display:inline-block;background:#D63E76;color:#fff;font-weight:900;border-radius:999px;padding:2px 18px;margin-right:14px;font-size:30px}\n.car{position:absolute;left:60px;right:60px;bottom:50px;background:rgba(42,25,35,.92);border:3px solid rgba(245,197,24,.6);border-radius:20px;padding:22px 26px;font-size:28px;line-height:1.55}\n.car b{color:#F5C518}",
+   "alt": "地元から浜離宮までの行き方。勝どきから大江戸線で1駅（築地市場駅）。月島から大江戸線で2駅。豊洲から有楽町線で月島へ1駅、大江戸線に乗り換えて2駅。築地市場駅から大手門口へ徒歩7分、汐留駅10番出口から中の御門口へ徒歩5分。背景の写真：画像：チームラボ（PR TIMES・2026年10月23日のプレスリリース）。一部は合成画像・過去の展示写真"
+  },
+  {
+   "file": "3-vs-toyosu.jpg",
+   "kind": "html",
+   "noHeader": true,
+   "html": "<div class=\"wrap\"><div class=\"k\"><img class=\"lg\" src=\"logos/teamlab.png\" alt=\"\">どっちのチームラボ？</div>\n<div class=\"t\">豊洲は<em>いつでも</em>。<br>浜離宮は<em>12月24日まで</em>。</div>\n<div class=\"cols\">\n<div class=\"col hm\"><div class=\"hd\">浜離宮</div><ul><li><i>会場</i>屋外の大名庭園</li><li><i>期間</i>2026/12/24まで</li><li><i>時間</i>夜だけ</li><li><i>天気</i>風・雨で作品が変わる</li></ul></div>\n<div class=\"col ty\"><div class=\"hd\">豊洲（プラネッツ）</div><ul><li><i>会場</i>屋内</li><li><i>期間</i>2027年末まで</li><li><i>時間</i>昼から入れる</li><li><i>天気</i>左右されない</li></ul></div>\n</div>\n<div class=\"foot\">今年の冬に1回行くなら、<b>浜離宮が先</b></div></div>",
+   "css": "main{padding:0;height:1080px;display:block}\n.wrap{position:relative;height:1080px;padding:62px 56px 0;background:radial-gradient(circle at 90% 6%,rgba(214,62,118,.16),transparent 36%),var(--cream)}\n.k{display:flex;align-items:center;gap:18px;font-size:32px;font-weight:700;color:#A82959}\n.lg{height:52px;background:#1E1219;border-radius:10px;padding:6px 10px}\n.t{font-size:70px;font-weight:900;line-height:1.22;margin-top:18px}\n.t em{font-style:normal;color:#D63E76}\n.cols{display:grid;grid-template-columns:1fr 1fr;gap:22px;margin-top:40px}\n.col{border-radius:24px;padding:26px 24px 16px;background:#fff;border:4px solid #F1DCE5}\n.col.hm{border-color:#D63E76;background:#FFF0F5}\n.hd{font-size:38px;font-weight:900;margin-bottom:10px}\n.col.hm .hd{color:#D63E76}.col.ty .hd{color:#5A4651}\nul{list-style:none}\nli{font-size:31px;font-weight:700;padding:15px 0;border-bottom:2px dashed rgba(42,25,35,.12);line-height:1.35}\nli:last-child{border-bottom:none}\nli i{display:block;font-style:normal;font-size:22px;font-weight:900;color:#8A7480;margin-bottom:4px}\n.foot{position:absolute;left:56px;right:56px;bottom:52px;font-size:38px;font-weight:900;text-align:center}\n.foot b{color:#D63E76}",
+   "alt": "豊洲と浜離宮のチームラボの違い。浜離宮：屋外の大名庭園、2026年12月24日まで、夜だけ、風・雨で作品が変わる。豊洲（チームラボプラネッツ）：屋内、2027年末まで、昼から入れる、天気に左右されない。今年の冬に1回行くなら浜離宮が先。チームラボのロゴは公式サイトより。"
+  },
+  {
+   "file": "4-yoru-300.jpg",
+   "kind": "html",
+   "noHeader": true,
+   "html": "<div class=\"wrap\"><div class=\"k\">チームラボの前に、下見ができる</div>\n<div class=\"t\">夜の浜離宮に<br><em>300円</em>で入れる5日間</div>\n<div class=\"b\"><div class=\"tag\">浜離宮恩賜庭園の催し</div><div class=\"h\">夜の御庭をそぞろ歩き</div>\n<ul><li><b>期間</b>2026/10/30(金)〜11/3(火・祝)</li><li><b>時間</b>9:00〜21:00（最終入園20:30）</li><li><b>夜</b>日没〜21:00にライトアップ</li><li><b>料金</b>一般300円（ふだんの入園料）</li></ul>\n<p>都立庭園として<b>開園80周年</b>のお祝い。「傘寿」にちなんで、<b>傘</b>をイメージした明かり。</p></div>\n<div class=\"foot\">勝どきから1駅。<b>夜の庭園の景色を先に見ておきなさい</b></div></div>",
+   "css": "main{padding:0;height:1080px;display:block}\n.wrap{position:relative;height:1080px;padding:62px 56px 0;background:linear-gradient(180deg,#1E1219,#2A1923);color:#fff}\n.k{font-size:32px;font-weight:700;color:#F5C518}\n.t{font-size:72px;font-weight:900;line-height:1.2;margin-top:10px}\n.t em{font-style:normal;color:#EC5C90}\n.b{position:relative;background:rgba(255,251,238,.97);color:#2A1923;border-radius:26px;padding:42px 36px 30px;margin-top:46px}\n.tag{position:absolute;top:-22px;left:30px;background:#D63E76;color:#fff;font-size:26px;font-weight:900;border-radius:999px;padding:4px 20px}\n.h{font-size:48px;font-weight:900}\nul{list-style:none;margin-top:14px}\nli{font-size:31px;font-weight:700;padding:9px 0}\nli b{display:inline-block;width:120px;color:#D63E76}\np{font-size:27px;line-height:1.6;margin-top:12px}\np b{color:#A82959}\n.foot{position:absolute;left:56px;right:56px;bottom:50px;font-size:32px;font-weight:700;text-align:center}\n.foot b{color:#F5C518}",
+   "alt": "夜の浜離宮に300円で入れる5日間。浜離宮恩賜庭園の催し「夜の御庭をそぞろ歩き」。2026年10月30日(金)〜11月3日(火・祝)、9:00〜21:00（最終入園20:30）、日没〜21:00にライトアップ、料金は一般300円（ふだんの入園料）。都立庭園として開園80周年のお祝いで、傘寿にちなんで傘をイメージした明かり。"
+  }
+ ]
+}

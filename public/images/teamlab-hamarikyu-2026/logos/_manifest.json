@@ -1,0 +1,10 @@
+{
+  "teamlab": {
+    "brand": "チームラボ（teamLab）",
+    "file": "teamlab.png",
+    "source": "https://www.teamlab.art/teamlab-art-ogp-image.png",
+    "page": "https://www.teamlab.art/jp/",
+    "fetched": "2026-10-26",
+    "note": "公式サイトの og:image（白抜きロゴ・黒地）。周りの黒い余白だけ落とした。色・形は変えていない。白抜きなので on-dark で置く"
+  }
+}
