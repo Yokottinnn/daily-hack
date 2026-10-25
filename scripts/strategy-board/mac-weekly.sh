@@ -109,11 +109,27 @@ if [ -n "$NODE_BIN" ] && [ -s "$SJS" ] && ls "$SDIR"/*.json >/dev/null 2>&1; the
   fi
 fi
 
+# 2f) ASP の成果（クリック・発生・確定と報酬額）を読み、非公開リポジトリ Yokottinnn/daily-hack-affiliate の data/asp-results に送る
+# （affiliate・2026-10-25 利用者のコメント 0dxd6x2bbryrclqjesc3）。**数字は公開ブランチに出さない**。ここに残すのは成否だけ
+RES_OK=false
+RJS="$WORK/asp-results.mjs"; RPUSH="$WORK/asp-results-push.sh"; RPRIV="$WORK/asp-results-private.json"
+git -C "$REPO" show origin/main:scripts/asp/asp-results.mjs > "$RJS" 2>/dev/null
+git -C "$REPO" show origin/main:scripts/asp/asp-results-push.sh > "$RPUSH" 2>/dev/null
+rm -f "$RPRIV"
+if [ -n "$NODE_BIN" ] && [ -s "$RJS" ] && [ -s "$RPUSH" ]; then
+  ( export ASP_ONLY=rakuten OPS_REPORT_DIR="$WORK/sync" ASP_SYNC_BUDGET_MS=80000; run_limited 100 "$NODE_BIN" "$WORK/asp-sync.mjs" ) > "$WORK/sync3.log" 2>&1
+  ( export RESULTS_MODE=collect OPS_REPORT_DIR="$WORK/results-md" RESULTS_OUT="$RPRIV"; run_limited 300 "$NODE_BIN" "$RJS" ) > "$WORK/results.log" 2>&1
+  if [ -s "$RPRIV" ] && "$NODE_BIN" -e 'const j=JSON.parse(require("fs").readFileSync(process.argv[1],"utf8"));process.exit(Object.values(j.asps||{}).some(a=>a.length)?0:1)' "$RPRIV" 2>/dev/null; then
+    run_limited 120 /bin/bash "$RPUSH" "$RPRIV" > "$WORK/results-push.log" 2>&1 && grep -q "送った\|変化なし" "$WORK/results-push.log" && RES_OK=true
+  fi
+  rm -f "$RPRIV"
+fi
+
 # 3) 実行結果（自分で parse して確かめる）
 cat > "$BOARD/mac-weekly-status.json" <<JSONEOF
-{"generated":"$(date '+%Y-%m-%dT%H:%M:%S%z')","gsc":{"rc":$GSC_RC,"ok":$GSC_OK},"a8_partnered":{"rc":$A8_RC,"ok":$A8_OK},"others":{"rc":$OT_RC,"ok":$OT_OK},"x":{"ok":$X_OK},"x_numbers":{"ok":$XN_OK},"shop":{"ok":$SHOP_OK}}
+{"generated":"$(date '+%Y-%m-%dT%H:%M:%S%z')","gsc":{"rc":$GSC_RC,"ok":$GSC_OK},"a8_partnered":{"rc":$A8_RC,"ok":$A8_OK},"others":{"rc":$OT_RC,"ok":$OT_OK},"x":{"ok":$X_OK},"x_numbers":{"ok":$XN_OK},"shop":{"ok":$SHOP_OK},"asp_results":{"ok":$RES_OK}}
 JSONEOF
-"$NODE_BIN" -e 'JSON.parse(require("fs").readFileSync(process.argv[1],"utf8"))' "$BOARD/mac-weekly-status.json" && echo "board weekly: gsc=$GSC_OK a8=$A8_OK others=$OT_OK x=$X_OK x_numbers=$XN_OK shop=$SHOP_OK"
+"$NODE_BIN" -e 'JSON.parse(require("fs").readFileSync(process.argv[1],"utf8"))' "$BOARD/mac-weekly-status.json" && echo "board weekly: gsc=$GSC_OK a8=$A8_OK others=$OT_OK x=$X_OK x_numbers=$XN_OK shop=$SHOP_OK asp_results=$RES_OK"
 
 # 3b) 外で書いたものを worktree に移す（ここから送信までは数秒）
 cp -R "$BOARD/." "$BOARD_FINAL/"
