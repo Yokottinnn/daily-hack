@@ -53,6 +53,10 @@ p{margin:0 0 12px;max-width:68ch}
 .grid{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(190px,1fr))}
 .secbar{margin:40px 0 10px;padding:12px 16px;border-radius:12px;background:var(--sheet);border:1px solid var(--rule);border-left:5px solid var(--brand);font-size:21px;font-weight:700;scroll-margin-top:16px}
 .secbar small{display:block;font-size:12.5px;font-weight:400;color:var(--muted);margin-top:2px}
+th[data-sort]{cursor:pointer;user-select:none} th[data-sort]:hover{color:var(--brand)} th[data-sort].on{color:var(--brand)}
+.fbar{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin:8px 0}
+.fbar select,.fbar input{font:inherit;font-size:13px;border:1px solid var(--rule);border-radius:8px;padding:5px 10px;background:var(--sheet);color:var(--ink)}
+.fbar input{flex:1 1 200px;min-width:0}
 .jump{display:flex;gap:8px;flex-wrap:wrap;margin:6px 0 4px}
 .jump button{border:1px solid var(--rule);background:var(--sheet);color:var(--ink);border-radius:99px;padding:5px 14px;font:inherit;font-size:13px;cursor:pointer}
 .jump button:hover{border-color:var(--brand)}
@@ -274,6 +278,8 @@ tr[data-ccount]::after{top:4px;right:4px}
   <div class="tbl"><table><thead><tr><th>日付</th><th>フォロワー</th><th>前日から</th></tr></thead><tbody id="now-xdaily"><tr><td colspan="3" class="empty">データ待ち</td></tr></tbody></table></div>
   <h3 data-cid="now.x.h.posts">投稿のランキング（表示回数）</h3>
   <p class="src">表示・いいね・リポスト・返信は Mac が 3 時間おきに記録している最新値。「記事の読者」は告知した日と翌日にその記事を読んだ人（ボット除外）、「フォロワー」は前日から翌日までの増減。</p>
+  <div class="fbar" id="now-xposts-bar"><input type="search" id="now-xp-q" placeholder="投稿で探す（例：ふるさと、青バッジ）" aria-label="投稿で探す"><select id="now-xp-period" aria-label="期間"><option value="all">全期間</option><option value="7">直近 7 日</option><option value="30">直近 30 日</option><option value="90">直近 90 日</option></select><select id="now-xp-kind" aria-label="種類"><option value="all">すべて</option><option value="art">記事の告知</option><option value="other">それ以外</option></select><span class="status" id="now-xp-n"></span></div>
+  <p class="src">見出しを押すとその列で並べ替えます（もう一度押すと逆順）。</p>
   <div class="tbl"><table class="wf"><thead id="now-thead-xposts"><tr><th>投稿</th><th>表示</th></tr></thead><tbody id="now-xposts"><tr><td colspan="2" class="empty">データ待ち</td></tr></tbody></table></div>
   <h3 data-cid="now.x.h.facts">分かったこと</h3>
   <ul class="findings" id="now-x-facts"><li class="empty">データ待ち</li></ul>
@@ -286,11 +292,13 @@ tr[data-ccount]::after{top:4px;right:4px}
   <div class="grid" id="blog-tiles"><p class="empty">データ待ち</p></div>
   <h3>月ごとの動き</h3>
   <p class="src">公開・更新は記事の公開日・更新日から。訪問と読者は Cloudflare（読者はボットを除いた数）。ページビューと UU は Cloudflare の無料プランの日次集計で、<b>fieldbeside.com 全体の数（ブログ以外の本体ページとボットを含む）</b>。読者の数とは桁が違うので、増減の向きを見るのに使ってください。UU は日ごとの数の合計なので、同じ人が別の日に来ると重なって数えます。</p>
-  <div class="tbl"><table><thead><tr><th>月</th><th>公開した記事</th><th>更新した記事</th><th>訪問（ボット込み）</th><th>読者（ボット除外）</th><th>ページビュー（ボット込み）</th><th>UU（日ごとの合計・ボット込み）</th></tr></thead><tbody id="tbl-month"><tr><td colspan="7" class="empty">データ待ち</td></tr></tbody></table></div>
+  <div class="tbl"><table><thead><tr><th>月</th><th>公開した記事</th><th>更新した記事</th><th>訪問（ボット込み）</th><th>読者（ボット除外）</th><th>ページビュー（ボット除外・ブログだけ）</th><th>ページビュー（ボット込み・ブログだけ）</th><th>ページビュー（ボット込み・fieldbeside.com 全体）</th><th>UU（日ごとの合計・ボット込み）</th></tr></thead><tbody id="tbl-month"><tr><td colspan="9" class="empty">データ待ち</td></tr></tbody></table></div>
+  <p class="src" data-cid="now.month.uu-note"><b>ボット除外の UU は、Cloudflare の無料プランでは取れません</b>（ボットを見分けられる集計に UU の項目が無い）。いちばん近いのは「読者（ボット除外）」の列（ブラウザで開いた訪問の数）です。ボット除外のページビューは 2026-09-26 から記録していて、それより前の月は「—」です。</p>
   <h2>記事を調べる</h2>
   <p class="src">題名か URL の一部で探せます。行を押すと、日ごとの訪問・X の告知日・どこから来たかが開きます。</p>
-  <div class="search"><input type="search" id="art-q" placeholder="例：ポイ活、ららぽーと、furusato" aria-label="記事を探す"><span class="status" id="art-n"></span></div>
-  <div class="tbl"><table class="wf"><thead><tr><th>記事</th><th>検索クリック（90 日）</th><th>検索表示（90 日）</th><th>平均順位</th><th>読者（28 日・ボット除外）</th><th>訪問（28 日・ボット込み）</th><th>訪問（記録のある全期間）</th><th>成果リンク</th></tr></thead><tbody id="tbl-art"><tr><td colspan="7" class="empty">データ待ち</td></tr></tbody></table></div>
+  <div class="search fbar"><input type="search" id="art-q" placeholder="例：ポイ活、ららぽーと、furusato" aria-label="記事を探す"><select id="art-aff" aria-label="成果リンク"><option value="all">成果リンク：すべて</option><option value="yes">あり</option><option value="no">なし</option></select><select id="art-search" aria-label="検索"><option value="all">検索：すべて</option><option value="click">クリックあり（90 日）</option><option value="imp">表示ありクリック 0</option><option value="none">表示なし</option></select><select id="art-read" aria-label="読者"><option value="0">読者：すべて</option><option value="10">10 人以上（28 日）</option><option value="50">50 人以上</option><option value="100">100 人以上</option></select><span class="status" id="art-n"></span></div>
+  <p class="src">見出しを押すとその列で並べ替えます（もう一度押すと逆順）。並べ替えか絞り込みをすると全件を出します。</p>
+  <div class="tbl"><table class="wf"><thead id="art-head"><tr><th data-sort="title" data-t="art">記事</th><th data-sort="c90" data-t="art">検索クリック（90 日）</th><th data-sort="i90" data-t="art">検索表示（90 日）</th><th data-sort="p90" data-t="art">平均順位</th><th data-sort="h28" data-t="art">読者（28 日・ボット除外）</th><th data-sort="v28" data-t="art">訪問（28 日・ボット込み）</th><th data-sort="v90" data-t="art">訪問（記録のある全期間）</th><th data-sort="aff" data-t="art">成果リンク</th></tr></thead><tbody id="tbl-art"><tr><td colspan="7" class="empty">データ待ち</td></tr></tbody></table></div>
   <div class="note" id="pv-note">訪問の数の読み方：データ待ち</div>
   <h2>検索で表示されている記事（直近 90 日）</h2>
   <div class="tbl"><table class="wf"><thead><tr><th>記事</th><th>クリック</th><th>表示</th><th>平均順位</th><th>訪問（記録のある全期間）</th><th>成果リンク</th></tr></thead><tbody id="tbl-top"><tr><td colspan="6" class="empty">データ待ち</td></tr></tbody></table></div>
@@ -1048,7 +1056,7 @@ tr[data-ccount]::after{top:4px;right:4px}
     // ブログ全体
     const B=S.blog||{}, K=S.kpi||{};
     $('#blog-tiles').innerHTML=[['記事の数',fmtN(B.posts),'公開中（下書きを除く）','blog.posts'],['ページビュー（28 日）',B.pv28!=null?fmtN(B.pv28):'記録待ち',B.pv28!=null?'fieldbeside.com 全体・ボットを含む・'+B.zoneDays28+' 日分':'日次の記録に 10/12 から追加','blog.pv'],['ページビュー（ボット除外・ブログだけ）',B.pvHuman28!=null?fmtN(B.pvHuman28):'記録待ち',B.pvHuman28!=null?B.pvDays28+' 日分・ブログのページ（HTML）だけ・ボット込みは '+fmtN(B.pvAll28):'記録待ち（毎日の記録に 10/24 から追加）','blog.pvh'],['UU（28 日・日ごとの合計）',B.uuDaySum28!=null?fmtN(B.uuDaySum28):'記録待ち','fieldbeside.com 全体・ボットを含む。ボット除外の UU は Cloudflare の無料プランでは取れない（いちばん近いのは右の「読者」）','blog.uu'],['読者（28 日・ボット除外）',fmtN(K.pv28&&K.pv28.human),'訪問（ボット込み） '+fmtN(K.pv28&&K.pv28.visits),'blog.human']].map(([t,v,s2,cid])=>'<div class="tile" data-cid="'+cid+'"><div class="k">'+esc(t)+'</div><div class="v">'+esc(v)+'</div><div class="s">'+esc(s2)+'</div></div>').join('');
-    $('#tbl-month').innerHTML=(S.monthly||[]).map(m=>'<tr data-cid="now.month.'+m.month+'"><td>'+m.month+(m.days&&m.days<28?'（'+m.days+' 日分）':'')+'</td><td class="num">'+fmtN(m.published||0)+'</td><td class="num">'+fmtN(m.updated||0)+'</td><td class="num">'+(m.visits!=null?fmtN(m.visits):'—')+'</td><td class="num">'+(m.human!=null?fmtN(m.human):'—')+'</td><td class="num">'+(m.pageViews!=null?fmtN(m.pageViews):'—')+'</td><td class="num">'+(m.uniquesSum!=null?fmtN(m.uniquesSum):'—')+'</td></tr>').join('')||'<tr><td colspan="7" class="empty">データなし</td></tr>';
+    $('#tbl-month').innerHTML=(S.monthly||[]).map(m=>'<tr data-cid="now.month.'+m.month+'"><td>'+m.month+(m.days&&m.days<28?'（'+m.days+' 日分）':'')+'</td><td class="num">'+fmtN(m.published||0)+'</td><td class="num">'+fmtN(m.updated||0)+'</td><td class="num">'+(m.visits!=null?fmtN(m.visits):'—')+'</td><td class="num">'+(m.human!=null?fmtN(m.human):'—')+'</td><td class="num"><b>'+(m.pvHuman!=null?fmtN(m.pvHuman):'—')+'</b>'+(m.pvDays&&m.days&&m.pvDays<m.days?'<br><span class="status">'+m.pvDays+' 日分</span>':'')+'</td><td class="num">'+(m.pvAll!=null?fmtN(m.pvAll):'—')+'</td><td class="num">'+(m.pageViews!=null?fmtN(m.pageViews):'—')+'</td><td class="num">'+(m.uniquesSum!=null?fmtN(m.uniquesSum):'—')+'</td></tr>').join('')||'<tr><td colspan="9" class="empty">データなし</td></tr>';
     renderX(S);
     const X=S.xShared||[], xv=(k)=>(X.find(r=>r.k===k)||{}).v||'—';
     $('#x-tiles').innerHTML=[['認証済みフォロワー（収益化の条件 500）',xv('認証済みフォロワー'),'x.verified'],['フォロワー',xv('フォロワー'),'x.followers'],['表示（7 日・返信を含む）',xv('インプレッション（7 日）'),'x.imp7'],['認証済みの表示（90 日・条件 50 万）',xv('認証済みインプレッション（90 日・ホーム・返信除く）'),'x.vimp']].map(([t,v,cid])=>'<div class="tile" data-cid="'+cid+'"><div class="k">'+esc(t)+'</div><div class="v" style="font-size:20px">'+esc(v)+'</div><div class="s">'+esc(((X.find(r=>r.k==='フォロワー')||{}).at)||'')+'</div></div>').join('');
@@ -1085,7 +1093,7 @@ tr[data-ccount]::after{top:4px;right:4px}
       tile('プロフィールへのアクセス（90 日）',esc(xv('プロフィールへのアクセス（90 日）')),'','now.x.prof90'),
       tile('オリジナルコンテンツ報酬',esc(xv('オリジナルコンテンツ報酬')),'X の収益化の状態','now.x.rev'),
     ].join('');
-    mirror('#tbl-xcond','#now-xcond'); mirror('#chart-x','#now-chart-x'); mirror('#thead-xposts','#now-thead-xposts'); mirror('#tbl-xposts','#now-xposts'); mirror('#x-facts','#now-x-facts');
+    mirror('#tbl-xcond','#now-xcond'); mirror('#chart-x','#now-chart-x'); renderNowPosts(); mirror('#x-facts','#now-x-facts');
     $('#now-xdaily').innerHTML=F.slice(-15).map((f,i,a)=>i?'<tr data-cid="now.x.day.'+f.date+'"><td>'+f.date+'</td><td class="num">'+fmtN(f.count)+'</td><td class="num">'+sg(f.count-a[i-1].count)+'</td></tr>':'').reverse().join('')||'<tr><td colspan="3" class="empty">記録待ち</td></tr>';
     // ブログ
     mirror('#kpi-tiles','#now-kpi'); mirror('#chart-gsc','#now-chart-gsc');
@@ -1108,6 +1116,21 @@ tr[data-ccount]::after{top:4px;right:4px}
     $('#now-aff-items').innerHTML=(S.affByItem||[]).slice().sort((a,b)=>b.articles.length-a.articles.length||b.n-a.n).slice(0,15).map(r=>'<tr data-cid="now.aff.item.'+hash(r.asp+r.item)+'"><td>'+esc(r.item)+'</td><td>'+esc(r.asp)+'</td><td class="num">'+fmtN(r.articles.length)+'</td><td class="num">'+fmtN(r.n)+'</td></tr>').join('')||'<tr><td colspan="4" class="empty">データ待ち</td></tr>';
     renderResults();
   }
+  // X の投稿のランキング（現状の数字）。並べ替えと絞り込み（2026-10-25 利用者のコメント 6q1u6gj2wqp4bdf47unh）
+  function renderNowPosts(){ const tb=$('#now-xposts'); if(!tb) return; const XD=(SNAP||{}).xData||{}; const J=XD.joined||[];
+    if(!J.length){ tb.innerHTML='<tr><td colspan="8" class="empty">データ待ち</td></tr>'; return; }
+    const nm=(p)=>{ const art=ART.find(x=>x.slug===p.slug); if(art) return art.title; const rs=(XD.reviewSets||[]).find(r=>r.ids.includes(String(p.tweet_id))||(r.slug&&String(p.id||'').includes(r.slug))); return rs?rs.title:(p.id||p.tweet_id); };
+    const isArt=(p)=>!!(p.slug||/blog-promo/.test(String(p.id||'')));
+    const q=($('#now-xp-q').value||'').trim().toLowerCase(), per=$('#now-xp-period').value, kind=$('#now-xp-kind').value, now=Date.now();
+    let rows=J.map(p=>Object.assign({},p,{text:String(nm(p))})).filter(p=>!q||p.text.toLowerCase().includes(q))
+      .filter(p=>per==='all'||(now-new Date(p.day+'T00:00:00+09:00').getTime())<=(+per)*864e5)
+      .filter(p=>kind==='all'||(kind==='art'?isArt(p):!isArt(p)));
+    const st=SORTS.xp; rows.sort((a,b)=>cmp(a,b,st.key,st.dir));
+    $('#now-thead-xposts').innerHTML='<tr>'+[['text','投稿'],['day','投稿日'],['views','表示'],['likes','いいね'],['reposts','リポスト'],['replies','返信'],['readers','記事の読者'],['folDelta','フォロワー']].map(([k,l])=>'<th data-sort="'+k+'" data-t="xp">'+l+'</th>').join('')+'</tr>'; markSort('xp');
+    $('#now-xp-n').textContent=rows.length+' / '+J.length+' 件';
+    tb.innerHTML=rows.map(p=>'<tr data-cid="now.x.post.'+esc(p.tweet_id)+'"><td><a href="https://x.com/heng_ji31590/status/'+esc(p.tweet_id)+'" target="_blank" rel="noopener">'+esc(p.text.slice(0,60))+'</a></td><td style="white-space:nowrap">'+esc(p.day)+'</td><td class="num">'+fmtN(p.views)+'</td><td class="num">'+fmtN(p.likes)+'</td><td class="num">'+fmtN(p.reposts)+'</td><td class="num">'+fmtN(p.replies)+'</td><td class="num">'+(p.readers==null?'—':fmtN(p.readers))+'</td><td class="num">'+(p.folDelta==null?'—':(p.folDelta>=0?'+':'')+p.folDelta)+'</td></tr>').join('')||'<tr><td colspan="8" class="empty">該当なし</td></tr>';
+    applyCounts(); }
+  ['#now-xp-q'].forEach(x=>$(x).addEventListener('input',renderNowPosts)); ['#now-xp-period','#now-xp-kind'].forEach(x=>$(x).addEventListener('change',renderNowPosts));
   // 成果（クリック・発生・確定）は公開ブランチを通さず、affiliate が db の results/latest に書く（報酬額を公開リポジトリに出さない）
   let RESULTS=null;
   function renderResults(){ const box=$('#now-aff-results'); if(!box) return;
@@ -1168,14 +1191,25 @@ tr[data-ccount]::after{top:4px;right:4px}
     const parts=[]; if(a.why&&a.why.xV) parts.push('X 告知の日 '+a.why.xV); if(a.why&&a.why.spikeV) parts.push('一斉アクセス '+a.why.spikeV);
     return parts.length?parts.join('・'):'詳細';
   }
+  // 並べ替え（見出しを押す）。表ごとに {key, dir}。数字は大きい順から、文字は昇順から（平均順位は小さい順から）
+  const SORTS={art:{key:null,dir:-1}, xp:{key:'views',dir:-1}};
+  const cmp=(a,b,k,dir)=>{ const x=a[k], y=b[k]; if(x==null&&y==null) return 0; if(x==null) return 1; if(y==null) return -1; return (typeof x==='string'?String(x).localeCompare(String(y),'ja'):(x-y))*dir; };
+  function markSort(t){ $$('th[data-t="'+t+'"]').forEach(th=>{ const on=SORTS[t].key===th.dataset.sort; th.classList.toggle('on',on); th.textContent=th.textContent.replace(/ [▲▼]$/,'')+(on?(SORTS[t].dir<0?' ▼':' ▲'):''); }); }
+  document.addEventListener('click',e=>{ const th=e.target.closest('th[data-sort]'); if(!th) return; const t=th.dataset.t, k=th.dataset.sort, st=SORTS[t];
+    st.dir = st.key===k ? -st.dir : ((k==='title'||k==='p90'||k==='text')?1:-1); st.key=k; if(t==='art') renderArticles(); if(t==='xp') renderNowPosts(); });
   function renderArticles(){
-    const q=($('#art-q').value||'').trim().toLowerCase();
-    const rows=ART.filter(a=>!q||(a.title||'').toLowerCase().includes(q)||a.slug.includes(q));
-    $('#art-n').textContent=rows.length+' / '+ART.length+' 本';
-    $('#tbl-art').innerHTML=rows.slice(0,q?200:20).map(a=>'<tr data-cid="now.art.'+esc(a.slug)+'"><td><button type="button" class="linkish" data-detail="'+esc(a.slug)+'">'+esc(a.title)+'</button></td><td class="num">'+fmtN(a.c90)+'</td><td class="num">'+fmtN(a.i90)+'</td><td class="num">'+(a.p90!=null?a.p90.toFixed(1):'—')+'</td><td class="num"><b>'+(a.h28!=null?fmtN(a.h28):'—')+'</b></td><td class="num">'+fmtN(a.v28)+'</td><td class="num">'+fmtN(a.v90)+'</td><td>'+(a.aff>0?'<span class="pill ok">'+a.aff+' か所</span>':'<span class="pill bad">なし</span>')+'</td></tr>').join('')||'<tr><td colspan="8" class="empty">該当なし</td></tr>';
+    const q=($('#art-q').value||'').trim().toLowerCase(), fa=$('#art-aff').value, fs=$('#art-search').value, fr=+$('#art-read').value;
+    let rows=ART.filter(a=>!q||(a.title||'').toLowerCase().includes(q)||a.slug.includes(q))
+      .filter(a=>fa==='all'||(fa==='yes'?a.aff>0:!(a.aff>0)))
+      .filter(a=>fs==='all'||(fs==='click'?a.c90>0:fs==='imp'?(a.i90>0&&!(a.c90>0)):!(a.i90>0)))
+      .filter(a=>!fr||(a.h28||0)>=fr);
+    const st=SORTS.art; if(st.key) rows=rows.slice().sort((a,b)=>cmp(a,b,st.key,st.dir)); markSort('art');
+    const narrowed=q||fa!=='all'||fs!=='all'||fr||st.key;
+    $('#art-n').textContent=rows.length+' / '+ART.length+' 本'+(narrowed?'':'（上位 20 本を表示）');
+    $('#tbl-art').innerHTML=rows.slice(0,narrowed?500:20).map(a=>'<tr data-cid="now.art.'+esc(a.slug)+'"><td><button type="button" class="linkish" data-detail="'+esc(a.slug)+'">'+esc(a.title)+'</button></td><td class="num">'+fmtN(a.c90)+'</td><td class="num">'+fmtN(a.i90)+'</td><td class="num">'+(a.p90!=null?a.p90.toFixed(1):'—')+'</td><td class="num"><b>'+(a.h28!=null?fmtN(a.h28):'—')+'</b></td><td class="num">'+fmtN(a.v28)+'</td><td class="num">'+fmtN(a.v90)+'</td><td>'+(a.aff>0?'<span class="pill ok">'+a.aff+' か所</span>':'<span class="pill bad">なし</span>')+'</td></tr>').join('')||'<tr><td colspan="8" class="empty">該当なし</td></tr>';
     applyCounts();
   }
-  $('#art-q').addEventListener('input',renderArticles);
+  $('#art-q').addEventListener('input',renderArticles); ['#art-aff','#art-search','#art-read'].forEach(x=>$(x).addEventListener('change',renderArticles));
   function openDetail(slug){
     const a=ART.find(x=>x.slug===slug); if(!a) return; const M=(SNAP&&SNAP.pvMeta)||{};
     const max=Math.max(1,...a.series.map(x=>x[1]));
