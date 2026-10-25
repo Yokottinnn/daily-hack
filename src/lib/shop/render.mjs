@@ -90,7 +90,7 @@ function offerRow(o) {
 
 function checkedNote(series) {
   const d = series.pricesCheckedAt ? String(series.pricesCheckedAt).slice(0, 10) : null;
-  return `<p class="shop-foot">${d ? `価格は ${esc(d)} 時点の税込本体価格（楽天市場・Yahoo!ショッピングの API で自動取得）。` : '価格は自動取得の前です。'}送料・ポイントの条件と最新の価格は各ショップで確認してください。<span class="shop-pr">PR</span>リンクから購入されると当サイトに紹介料が入ることがあります。</p>`;
+  return `<p class="shop-foot">${d ? `価格は ${esc(d)} 時点の税込本体価格（楽天市場・Yahoo!ショッピングの API で自動取得）。` : '価格は自動取得の前です。'}「いちばん安い」は価格が取れた店（楽天市場・Yahoo!ショッピング）の中での比較で、Amazon の価格は載せていません。送料・ポイントの条件と最新の価格は各ショップで確認してください。<span class="shop-pr">PR</span>リンクから購入されると当サイトに紹介料が入ることがあります。</p>`;
 }
 
 export function renderButtons(series, item, cfg) {
