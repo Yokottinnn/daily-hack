@@ -126,6 +126,18 @@ try {
       const card = await p.evaluate(() => { const c = [...document.querySelectorAll('.card')].find((e) => /dailyhack/.test(e.textContent || '')); if (!c) return null;
         return { text: (c.innerText || '').split('\n').map((x) => x.trim()).filter(Boolean).slice(0, 40), btns: [...c.querySelectorAll('button, a, [role=button]')].map((e) => `${e.tagName.toLowerCase()} 「${(e.innerText || '').trim().slice(0, 30)}」 aria=${e.getAttribute('aria-label') || ''} title=${e.getAttribute('title') || ''} data=${Object.keys(e.dataset).join(',')}`).slice(0, 20) }; });
       if (card) lines.push('- カードの文字（値は伏せる）:', ...card.text.map((x) => `  - ${mask(x).replace(/[●•*]{6,}/g, '［伏せ字］')}`), '- カードの中のボタン:', ...card.btns.map((x) => `  - ${mask(x)}`));
+      // t339: Access Key は伏せ字で、横に文字の無いアイコンのボタンがある（表示の切り替え）。押してから読み直す
+      const icons = p.locator('.card').filter({ hasText: 'dailyhack' }).locator('button').filter({ hasNotText: /\S/ });
+      const n = await icons.count();
+      for (let i = 0; i < n; i++) { await icons.nth(i).click({ timeout: 3000 }).catch(() => {}); await p.waitForTimeout(400); }
+      await p.waitForTimeout(1500);
+      const after = await p.evaluate(() => { const c = [...document.querySelectorAll('.card')].find((e) => /dailyhack/.test(e.textContent || '')); const rows = c ? (c.innerText || '').split('\n').map((x) => x.trim()).filter(Boolean) : []; const i = rows.findIndex((x) => /^Access Key$/i.test(x)); return i >= 0 ? rows[i + 1] || '' : ''; });
+      const k2 = (after.match(/^[A-Za-z0-9_\-]{16,}$/) || [])[0] || '';
+      lines.push(`- アイコンのボタン ${n} 個を押したあとの Access Key: ${k2 ? `${k2.length} 文字（見えた）` : `まだ伏せ字（${after.slice(0, 3)}…）`}`);
+      if (k2) {
+        try { execFileSync('/usr/bin/security', ['add-generic-password', '-U', '-s', 'dailyhack-rakuten-ws', '-a', 'accessKey', '-w', k2]); lines.push(`- Access Key を Keychain（dailyhack-rakuten-ws / accessKey）に入れた（${k2.length} 文字）`); }
+        catch (e) { lines.push(`- ⚠️ Keychain に入れられない: ${String(e).slice(0, 80)}`); }
+      }
     }
     else lines.push('- 価格の自動取得（mac-weekly.sh の 2e）は次の 6:40 から楽天の価格を取る');
     // API が通るか 1 回だけ（結果は件数と HTTP の状態だけ出す）
@@ -234,6 +246,18 @@ try {
       const hit = await p.evaluate(() => ((document.body.innerText || '').match(/検索結果: ?(\d+) ?件/) || [])[1] || '?');
       lines.push(`- apply_status=${st} で絞った一覧: ${hit} 件・Amazon.co.jp の行 ${rows.length}`, ...rows.map((x) => `  - ${mask(x).slice(0, 140)}`));
     }
+  }
+
+  if (WHICH === 'moshimo-media') {
+    // t339: 「提携申請する」の確認は「提携申請には、あなたのサイトやブログを登録する必要があります。メディア登録ページに移動しますか？」だった。
+    // 申請の画面のメディアの選択肢と、メディア登録の画面を読む（**送らない**）
+    await go('https://af.moshimo.com/af/shop/promotion/detail?promotion_id=170');
+    const opts = await p.evaluate(() => [...document.querySelectorAll('select[name=shop_site_id] option')].map((o) => `${o.selected ? '✔ ' : ''}${(o.textContent || '').trim()}（value ${o.value ? 'あり' : '空'}）`));
+    lines.push('## 申請の画面のメディアの選択肢', '', ...opts.map((x) => `- ${mask(x)}`), '');
+    const reg = await p.evaluate(() => [...new Set([...document.querySelectorAll('a[href]')].filter((a) => /メディア|サイト登録|登録メディア/.test(a.innerText || '')).map((a) => `${(a.innerText || '').trim().slice(0, 30)} — ${a.href}`))].slice(0, 8));
+    lines.push('## メディア登録へのリンク', '', ...reg.map((x) => `- ${mask(x)}`), '');
+    const regUrl = (reg.find((x) => /登録/.test(x)) || '').split(' — ')[1];
+    if (regUrl) { await go(regUrl); await dump('メディア登録の画面（送っていない）'); }
   }
 
   if (WHICH === 'yahoo-open') {
