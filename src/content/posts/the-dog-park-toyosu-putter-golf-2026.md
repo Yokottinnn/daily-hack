@@ -169,7 +169,7 @@ YouTube には、9 月のプレオープンのころから飼い主の動画が�
   </table>
 </div>
 
-<p class="source-note">湾岸（中央区・江東区）のイベントとニュースは <a href="/tags/湾岸ニュース/">湾岸ニュースの一覧</a> にまとめている。</p>
+<p class="source-note">湾岸（中央区・江東区）の暮らしの記事は <a href="/category/wangan-life/">湾岸ライフの一覧</a>、今月のイベントとニュースは <a href="/tags/湾岸ニュース/">湾岸ニュースの一覧</a> にまとめている。</p>
 
 <p class="source-note">表紙は株式会社マイゴルのプレスリリースの告知画像。出典：<a href="https://prtimes.jp/main/html/rd/p/000000030.000103607.html" target="_blank" rel="noopener">株式会社マイゴル「愛犬と楽しめるパターゴルフが豊洲に10月7日オープン」（PR TIMES・2026年10月9日）</a>／<a href="https://the-dog-park.jp/putter-golf" target="_blank" rel="noopener">THE DOG PARK TOYOSU 公式サイト</a>。料金や時間は変わることがある。</p>
 

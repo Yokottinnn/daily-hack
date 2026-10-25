@@ -513,6 +513,21 @@ references: ["https://rinconomiblog.com/supermarket-harumi/", "https://retailgui
 
 ---
 
+## よくある質問
+
+<div class="cmp-table-wrap">
+  <table class="cmp-table spec-table faq-table">
+    <tbody>
+      <tr><th>湾岸エリア（晴海・勝どき・月島・豊洲）にスーパーは何店ある？</th><td>この記事で比べたのは<strong>18店</strong>（晴海5・勝どき4・月島4・豊洲5）。</td></tr>
+      <tr><th>24時間開いているスーパーは？</th><td><strong>マルエツ勝どき六丁目店</strong>が24時間営業。豊洲のダイエーは朝7時から深夜0時まで。</td></tr>
+      <tr><th>安く買える日はいつ？</th><td>火曜・水曜はマルエツとライフの火曜市。毎月20日・30日はダイエー豊洲などイオン系の5%OFF。毎月の日付と曜日の一覧は「お得日カレンダー」の節。</td></tr>
+      <tr><th>ポイントはどこで貯めるのがいい？</th><td>楽天ポイントならライフとマルエツ、PayPay ならライフとサミット、WAON ならダイエーとまいばすけっと。使っているポイントでメインの店を決める。</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<p class="source-note">湾岸（中央区・江東区）の暮らしの記事は <a href="/category/wangan-life/">湾岸ライフの一覧</a>、今月のイベントとニュースは <a href="/tags/湾岸ニュース/">湾岸ニュースの一覧</a> にまとめている。</p>
+
 ## まとめ — 湾岸スーパーの「定石」
 
 <ul class="checklist">

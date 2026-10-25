@@ -308,6 +308,8 @@ references: ["https://tokyo-hanabi-festival.com/", "https://koto-hanabi.com/", "
     </tbody>
   </table>
 </div>
+<p class="source-note">湾岸（中央区・江東区）の暮らしの記事は <a href="/category/wangan-life/">湾岸ライフの一覧</a>、今月のイベントとニュースは <a href="/tags/湾岸ニュース/">湾岸ニュースの一覧</a> にまとめている。</p>
+
 ## まとめ — 2026年の湾岸は“一生モノ”の夏・秋
 
 11年ぶりの大華火、3年に1度が重なる本祭り。**2026年の湾岸エリアは、ここ数年で一番イベントが濃い1年**になる。ポイントは、

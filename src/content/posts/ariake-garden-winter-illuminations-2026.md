@@ -179,7 +179,7 @@ YouTube には、去年までの有明ガーデンの冬の夜を歩いて撮っ
   </table>
 </div>
 
-<p class="source-note">湾岸（中央区・江東区）のイベントとニュースは <a href="/tags/湾岸ニュース/">湾岸ニュースの一覧</a> にまとめている。</p>
+<p class="source-note">湾岸（中央区・江東区）の暮らしの記事は <a href="/category/wangan-life/">湾岸ライフの一覧</a>、今月のイベントとニュースは <a href="/tags/湾岸ニュース/">湾岸ニュースの一覧</a> にまとめている。</p>
 
 <p class="source-note">表紙は有明ガーデンの公式の告知画像。出典：<a href="https://ariake.shopping-sumitomo-rd.com/event/4900/" target="_blank" rel="noopener">有明ガーデン「ARIAKE GARDEN Winter Illuminations」</a>（2026年10月25日に確認）。</p>
 
