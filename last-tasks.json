@@ -1,1 +1,3 @@
-[]
+[
+      {"task": "t352-shop-prices-now.sh", "rc": 0, "out": "    errorMessage: accessKey must be present as a query parameter or in the header   } } - reports/board/shop-prices.json に置いた rc=0 /     1309 bytes"}
+  ]

@@ -1,0 +1,486 @@
+{
+ "generatedAt": "2026-10-25T11:20:53.041Z",
+ "keys": {
+  "rakuten": true,
+  "rakutenAccessKey": false,
+  "yahoo": true
+ },
+ "series": {
+  "heated-vest": {
+   "thanko-heat25sbk": {
+    "rakuten": {
+     "error": "HTTP 400 {\n  \"errors\": {\n    \"errorCode\": 400,\n    \"errorMessage\": \"accessKey must be present as a query parameter or in the header\"\n  }\n}"
+    },
+    "yahoo": {
+     "found": true,
+     "candidates": 5,
+     "name": "サンコー サイズ調整できる「ヒーターベスト」  ▼702-9398 HEAT25SBK  1着",
+     "url": "https://store.shopping.yahoo.co.jp/procure-a/702-9398.html",
+     "price": 7208,
+     "shippingFree": true,
+     "point": 0,
+     "reviewAverage": null,
+     "reviewCount": 0,
+     "shop": "プロキュアエース",
+     "net": 7208
+    }
+   },
+   "iris-fc21620": {
+    "rakuten": {
+     "error": "HTTP 400 {\n  \"errors\": {\n    \"errorCode\": 400,\n    \"errorMessage\": \"accessKey must be present as a query parameter or in the header\"\n  }\n}"
+    },
+    "yahoo": {
+     "found": true,
+     "candidates": 17,
+     "name": "ヒートベスト インナーヒートベストセット 防寒 FC21620 ブラック オフホワイト S M L XL 3L アイリスオーヤマ おすすめ",
+     "url": "https://store.shopping.yahoo.co.jp/insdenki-y/p290821.html",
+     "price": 7680,
+     "shippingFree": true,
+     "point": 0,
+     "reviewAverage": 4.36,
+     "reviewCount": 11,
+     "shop": "ウエノ電器 Yahoo!店",
+     "net": 7680
+    }
+   },
+   "iris-gt21622": {
+    "rakuten": {
+     "error": "HTTP 400 {\n  \"errors\": {\n    \"errorCode\": 400,\n    \"errorMessage\": \"accessKey must be present as a query parameter or in the header\"\n  }\n}"
+    },
+    "yahoo": {
+     "found": true,
+     "candidates": 17,
+     "name": "電熱ベスト バッテリー付 メンズ ヒートベスト ヒーターベスト USB 水洗い可 電熱ジャケット 防寒着 アイリスオーヤマ GT21622-BK",
+     "url": "https://store.shopping.yahoo.co.jp/petkan/m290816.html",
+     "price": 3980,
+     "shippingFree": true,
+     "point": 0,
+     "reviewAverage": 4,
+     "reviewCount": 3,
+     "shop": "メガストア Yahoo!店",
+     "net": 3980
+    }
+   },
+   "suns-eh32490": {
+    "rakuten": {
+     "error": "HTTP 400 {\n  \"errors\": {\n    \"errorCode\": 400,\n    \"errorMessage\": \"accessKey must be present as a query parameter or in the header\"\n  }\n}"
+    },
+    "yahoo": {
+     "found": true,
+     "candidates": 10,
+     "name": "サンエス EH32490 (服のみ) カーボンヒートベスト SUN-S S〜5L EXHEAT エクスヒート 防寒",
+     "url": "https://store.shopping.yahoo.co.jp/oosumi-marutake/sunseh32490.html",
+     "price": 9160,
+     "shippingFree": false,
+     "point": 0,
+     "reviewAverage": null,
+     "reviewCount": 0,
+     "shop": "作業服 キノウェアショップ",
+     "net": 9160
+    }
+   },
+   "suns-raijin-bo32550": {
+    "rakuten": {
+     "error": "HTTP 400 {\n  \"errors\": {\n    \"errorCode\": 400,\n    \"errorMessage\": \"accessKey must be present as a query parameter or in the header\"\n  }\n}"
+    },
+    "yahoo": {
+     "found": true,
+     "candidates": 9,
+     "name": "サンエス RD9570 発熱ユニット 雷神服専用 空調風神服のバッテリーとつないで冬はあったか 防寒",
+     "url": "https://store.shopping.yahoo.co.jp/oosumi-marutake/sunsrd9570.html",
+     "price": 8600,
+     "shippingFree": false,
+     "point": 0,
+     "reviewAverage": null,
+     "reviewCount": 0,
+     "shop": "作業服 キノウェアショップ",
+     "net": 8600
+    }
+   },
+   "burtle-tc500": {
+    "rakuten": {
+     "error": "HTTP 400 {\n  \"errors\": {\n    \"errorCode\": 400,\n    \"errorMessage\": \"accessKey must be present as a query parameter or in the header\"\n  }\n}"
+    },
+    "yahoo": {
+     "found": true,
+     "candidates": 8,
+     "name": "CNCTWO(コネクトツー) バートル(BURTLE) 空冷作業服 ファン、AC09-1/-2(24v) 電熱パッド サーモクラフトTC500 旧型バッテリーAC260(13v)などで使用で",
+     "url": "https://store.shopping.yahoo.co.jp/t-tam-shop/grw175576291692230.html",
+     "price": 1004,
+     "shippingFree": true,
+     "point": 0,
+     "reviewAverage": null,
+     "reviewCount": 0,
+     "shop": "T-TAMショップ",
+     "net": 1004
+    }
+   },
+   "makita-cv202d": {
+    "rakuten": {
+     "error": "HTTP 400 {\n  \"errors\": {\n    \"errorCode\": 400,\n    \"errorMessage\": \"accessKey must be present as a query parameter or in the header\"\n  }\n}"
+    },
+    "yahoo": {
+     "found": true,
+     "candidates": 30,
+     "name": "マキタ 充電式暖房ベスト CV202DZ S/M/L/LL/3L/4Lサイズ 服のみ ※バッテリー・バッテリーホルダー・充電器別売 ヒートベスト",
+     "url": "https://store.shopping.yahoo.co.jp/asahiya-himeji/cv202dz.html",
+     "price": 15244,
+     "shippingFree": false,
+     "point": 0,
+     "reviewAverage": null,
+     "reviewCount": 0,
+     "shop": "工具のあさひ屋",
+     "net": 15244
+    }
+   }
+  },
+  "mobile-battery": {
+   "cio-ss10k-slim2": {
+    "rakuten": {
+     "error": "HTTP 400 {\n  \"errors\": {\n    \"errorCode\": 400,\n    \"errorMessage\": \"accessKey must be present as a query parameter or in the header\"\n  }\n}"
+    },
+    "yahoo": {
+     "found": false,
+     "candidates": 0,
+     "searched": 0
+    }
+   },
+   "cio-ex05-ss10k": {
+    "rakuten": {
+     "error": "HTTP 400 {\n  \"errors\": {\n    \"errorCode\": 400,\n    \"errorMessage\": \"accessKey must be present as a query parameter or in the header\"\n  }\n}"
+    },
+    "yahoo": {
+     "found": false,
+     "candidates": 0,
+     "searched": 0
+    }
+   },
+   "cio-trio-ss20000": {
+    "rakuten": {
+     "error": "HTTP 400 {\n  \"errors\": {\n    \"errorCode\": 400,\n    \"errorMessage\": \"accessKey must be present as a query parameter or in the header\"\n  }\n}"
+    },
+    "yahoo": {
+     "found": false,
+     "candidates": 0,
+     "searched": 0
+    }
+   },
+   "buffalo-bmpbsa10000": {
+    "rakuten": {
+     "error": "HTTP 400 {\n  \"errors\": {\n    \"errorCode\": 400,\n    \"errorMessage\": \"accessKey must be present as a query parameter or in the header\"\n  }\n}"
+    },
+    "yahoo": {
+     "found": true,
+     "candidates": 6,
+     "name": "バッファロー 半固体 モバイルバッテリー 10000mAh 30W Type-C 残量表示 パススルー 同時充電 PSE適合 日本メーカー シルキーホワイト BMPBSA10000WHX",
+     "url": "https://store.shopping.yahoo.co.jp/buffalodirect/4950190385325.html",
+     "price": 5990,
+     "shippingFree": true,
+     "point": 0,
+     "reviewAverage": 4.64,
+     "reviewCount": 11,
+     "shop": "バッファロー公式ストア",
+     "net": 5990
+    }
+   },
+   "cheero-solitta-che138": {
+    "rakuten": {
+     "error": "HTTP 400 {\n  \"errors\": {\n    \"errorCode\": 400,\n    \"errorMessage\": \"accessKey must be present as a query parameter or in the header\"\n  }\n}"
+    },
+    "yahoo": {
+     "found": false,
+     "candidates": 0,
+     "searched": 1
+    }
+   },
+   "cheero-solido-che135": {
+    "rakuten": {
+     "error": "HTTP 400 {\n  \"errors\": {\n    \"errorCode\": 400,\n    \"errorMessage\": \"accessKey must be present as a query parameter or in the header\"\n  }\n}"
+    },
+    "yahoo": {
+     "found": false,
+     "candidates": 0,
+     "searched": 1
+    }
+   },
+   "elecom-de-c86": {
+    "rakuten": {
+     "error": "HTTP 400 {\n  \"errors\": {\n    \"errorCode\": 400,\n    \"errorMessage\": \"accessKey must be present as a query parameter or in the header\"\n  }\n}"
+    },
+    "yahoo": {
+     "found": true,
+     "candidates": 11,
+     "name": "エレコム 半固体モバイルバッテリー 半固体電池 モバイルバッテリー 10000mAh Type-C×2 USB-A 半固体リチウム電池 残量表示 elecom ブルー DE-C86-10000BU",
+     "url": "https://store.shopping.yahoo.co.jp/gikstore/elc0980.html",
+     "price": 8180,
+     "shippingFree": true,
+     "point": 0,
+     "reviewAverage": null,
+     "reviewCount": 0,
+     "shop": "Gikstore",
+     "net": 8180
+    }
+   },
+   "elecom-de-c97l": {
+    "rakuten": {
+     "error": "HTTP 400 {\n  \"errors\": {\n    \"errorCode\": 400,\n    \"errorMessage\": \"accessKey must be present as a query parameter or in the header\"\n  }\n}"
+    },
+    "yahoo": {
+     "found": true,
+     "candidates": 3,
+     "name": "エレコム リン酸鉄モバイルバッテリー 8000mAh 35W リチウムイオン電池 Type-C×2 A×1 ELECOM DE-C97L-8000WH",
+     "url": "https://store.shopping.yahoo.co.jp/elecom/4549550442619.html",
+     "price": 5280,
+     "shippingFree": true,
+     "point": 0,
+     "reviewAverage": null,
+     "reviewCount": 0,
+     "shop": "エレコムダイレクトショップ",
+     "net": 5280
+    }
+   },
+   "sanwa-700-btl062": {
+    "rakuten": {
+     "error": "HTTP 400 {\n  \"errors\": {\n    \"errorCode\": 400,\n    \"errorMessage\": \"accessKey must be present as a query parameter or in the header\"\n  }\n}"
+    },
+    "yahoo": {
+     "found": true,
+     "candidates": 1,
+     "name": "モバイルバッテリー 半固体電池 10000mAh PD20W 準固体電池 燃えにくい 3台同時充電 USB-C USB-A 残量表示 PSE認証 飛行機 機内持ち込み可能 700-BTL062BK",
+     "url": "https://store.shopping.yahoo.co.jp/sanwadirect/700-btl062bk.html",
+     "price": 5480,
+     "shippingFree": true,
+     "point": 0,
+     "reviewAverage": 4.25,
+     "reviewCount": 4,
+     "shop": "サンワダイレクト",
+     "net": 5480
+    }
+   },
+   "anker-zolo-a1688": {
+    "rakuten": {
+     "error": "HTTP 400 {\n  \"errors\": {\n    \"errorCode\": 400,\n    \"errorMessage\": \"accessKey must be present as a query parameter or in the header\"\n  }\n}"
+    },
+    "yahoo": {
+     "found": false,
+     "candidates": 0,
+     "searched": 1
+    }
+   },
+   "anker-maggo-plus-a1113": {
+    "rakuten": {
+     "error": "HTTP 400 {\n  \"errors\": {\n    \"errorCode\": 400,\n    \"errorMessage\": \"accessKey must be present as a query parameter or in the header\"\n  }\n}"
+    },
+    "yahoo": {
+     "found": false,
+     "candidates": 0,
+     "searched": 1
+    }
+   }
+  },
+  "rechargeable-kairo": {
+   "francfranc-kurikaeshi-2026": {
+    "rakuten": {
+     "error": "HTTP 400 {\n  \"errors\": {\n    \"errorCode\": 400,\n    \"errorMessage\": \"accessKey must be present as a query parameter or in the header\"\n  }\n}"
+    },
+    "yahoo": {
+     "found": true,
+     "candidates": 18,
+     "name": "繰り返し使えるカイロ ピンク",
+     "url": "https://store.shopping.yahoo.co.jp/zozo/111963074.html",
+     "price": 3480,
+     "shippingFree": false,
+     "point": 0,
+     "reviewAverage": null,
+     "reviewCount": 0,
+     "shop": "ZOZOTOWN Yahoo!店",
+     "net": 3480
+    }
+   },
+   "francfranc-ryote-2026": {
+    "rakuten": {
+     "error": "HTTP 400 {\n  \"errors\": {\n    \"errorCode\": 400,\n    \"errorMessage\": \"accessKey must be present as a query parameter or in the header\"\n  }\n}"
+    },
+    "yahoo": {
+     "found": true,
+     "candidates": 3,
+     "name": "両手で使える充電式カイロ グレー",
+     "url": "https://store.shopping.yahoo.co.jp/zozo/111963066.html",
+     "price": 5480,
+     "shippingFree": false,
+     "point": 0,
+     "reviewAverage": null,
+     "reviewCount": 0,
+     "shop": "ZOZOTOWN Yahoo!店",
+     "net": 5480
+    }
+   },
+   "mottole-mtl-e007": {
+    "rakuten": {
+     "error": "HTTP 400 {\n  \"errors\": {\n    \"errorCode\": 400,\n    \"errorMessage\": \"accessKey must be present as a query parameter or in the header\"\n  }\n}"
+    },
+    "yahoo": {
+     "found": true,
+     "candidates": 1,
+     "name": "充電式カイロ コンパクト 軽量 薄型 USB 速暖 モバイルバッテリー 使い捨てない 持ち運び 繰り返し使える 電気カイロ 携帯カイロ おしゃれ mottole MTL-E007",
+     "url": "https://store.shopping.yahoo.co.jp/mottole/mtl-e007.html",
+     "price": 2740,
+     "shippingFree": true,
+     "point": 0,
+     "reviewAverage": 4.33,
+     "reviewCount": 481,
+     "shop": "mottole Yahoo!店",
+     "net": 2740
+    }
+   },
+   "mottole-mtl-e029": {
+    "rakuten": {
+     "error": "HTTP 400 {\n  \"errors\": {\n    \"errorCode\": 400,\n    \"errorMessage\": \"accessKey must be present as a query parameter or in the header\"\n  }\n}"
+    },
+    "yahoo": {
+     "found": true,
+     "candidates": 1,
+     "name": "充電式カイロ 長時間 長持ち モバイルバッテリー 10,000mAh 大容量 電気カイロ USB 速暖 繰り返し使える 使い捨てない 冷え対策 おしゃれ mottole MTL-E029",
+     "url": "https://store.shopping.yahoo.co.jp/mottole/mtl-e029.html",
+     "price": 4120,
+     "shippingFree": true,
+     "point": 0,
+     "reviewAverage": 4.35,
+     "reviewCount": 93,
+     "shop": "mottole Yahoo!店",
+     "net": 4120
+    }
+   },
+   "mottole-mtl-e030": {
+    "rakuten": {
+     "error": "HTTP 400 {\n  \"errors\": {\n    \"errorCode\": 400,\n    \"errorMessage\": \"accessKey must be present as a query parameter or in the header\"\n  }\n}"
+    },
+    "yahoo": {
+     "found": true,
+     "candidates": 1,
+     "name": "充電式カイロ セパレート ミラー付き 両手 あったか モバイルバッテリー 10000mAh 大容量 長時間 薄型 鏡付き カイロ 電気カイロ 節電 通勤 通学 仕事 MTL-E030",
+     "url": "https://store.shopping.yahoo.co.jp/mottole/mtl-e030.html",
+     "price": 4630,
+     "shippingFree": true,
+     "point": 0,
+     "reviewAverage": 4.24,
+     "reviewCount": 74,
+     "shop": "mottole Yahoo!店",
+     "net": 4630
+    }
+   },
+   "elaice-ek-ov25": {
+    "rakuten": {
+     "error": "HTTP 400 {\n  \"errors\": {\n    \"errorCode\": 400,\n    \"errorMessage\": \"accessKey must be present as a query parameter or in the header\"\n  }\n}"
+    },
+    "yahoo": {
+     "found": true,
+     "candidates": 12,
+     "name": "エレス イーカイロ オーバル EK-OV24 EK-OV25 バッテリーチャージャー機能付き モバイルバッテリー 電気カイロ Elaice e-kairo Oval メール便無料",
+     "url": "https://store.shopping.yahoo.co.jp/binotoki-y/100000390-els.html",
+     "price": 2479,
+     "shippingFree": true,
+     "point": 0,
+     "reviewAverage": null,
+     "reviewCount": 0,
+     "shop": "BINOTOKI Yahoo!店",
+     "net": 2479
+    }
+   },
+   "elaice-ek-cr25": {
+    "rakuten": {
+     "error": "HTTP 400 {\n  \"errors\": {\n    \"errorCode\": 400,\n    \"errorMessage\": \"accessKey must be present as a query parameter or in the header\"\n  }\n}"
+    },
+    "yahoo": {
+     "found": true,
+     "candidates": 11,
+     "name": "エレス イーカイロ カレ 充電式カイロ LEDライト付き EK-CR24 EK-CR25 USBケーブル ストラップ付 電気カイロ Elaice e-kairo Carre 箱から出してメール便無料",
+     "url": "https://store.shopping.yahoo.co.jp/binotoki-y/100000388-els.html",
+     "price": 1980,
+     "shippingFree": true,
+     "point": 0,
+     "reviewAverage": null,
+     "reviewCount": 2,
+     "shop": "BINOTOKI Yahoo!店",
+     "net": 1980
+    }
+   },
+   "elaice-ek-sh25": {
+    "rakuten": {
+     "error": "HTTP 400 {\n  \"errors\": {\n    \"errorCode\": 400,\n    \"errorMessage\": \"accessKey must be present as a query parameter or in the header\"\n  }\n}"
+    },
+    "yahoo": {
+     "found": true,
+     "candidates": 11,
+     "name": "エレス イーカイロ シェア 2個セット EK-SH25 LEDライト バッテリーチャージャー モバイルバッテリー 電気カイロ Elaice e-Kairo メール便無料",
+     "url": "https://store.shopping.yahoo.co.jp/binotoki-y/100002000-els.html",
+     "price": 2979,
+     "shippingFree": true,
+     "point": 0,
+     "reviewAverage": null,
+     "reviewCount": 2,
+     "shop": "BINOTOKI Yahoo!店",
+     "net": 2979
+    }
+   },
+   "sanwa-400-toy052w": {
+    "rakuten": {
+     "error": "HTTP 400 {\n  \"errors\": {\n    \"errorCode\": 400,\n    \"errorMessage\": \"accessKey must be present as a query parameter or in the header\"\n  }\n}"
+    },
+    "yahoo": {
+     "found": true,
+     "candidates": 2,
+     "name": "充電式カイロ 急速発熱 3段階温度調整 容量4000mAh 5.5時間連続発熱 ハンドウォーマー 携帯カイロ 400-TOY052W",
+     "url": "https://store.shopping.yahoo.co.jp/sanwadirect/400-toy052w.html",
+     "price": 2980,
+     "shippingFree": true,
+     "point": 0,
+     "reviewAverage": null,
+     "reviewCount": 1,
+     "shop": "サンワダイレクト",
+     "net": 2980
+    }
+   },
+   "hagoogi-ot-96h": {
+    "rakuten": {
+     "error": "HTTP 400 {\n  \"errors\": {\n    \"errorCode\": 400,\n    \"errorMessage\": \"accessKey must be present as a query parameter or in the header\"\n  }\n}"
+    },
+    "yahoo": {
+     "found": false,
+     "candidates": 0,
+     "searched": 1
+    }
+   }
+  }
+ },
+ "errors": [
+  "heated-vest/thanko-heat25sbk/rakuten: HTTP 400 {\n  \"errors\": {\n    \"errorCode\": 400,\n    \"errorMessage\": \"accessKey must be present as a query parameter or in the header\"\n  }\n}",
+  "heated-vest/iris-fc21620/rakuten: HTTP 400 {\n  \"errors\": {\n    \"errorCode\": 400,\n    \"errorMessage\": \"accessKey must be present as a query parameter or in the header\"\n  }\n}",
+  "heated-vest/iris-gt21622/rakuten: HTTP 400 {\n  \"errors\": {\n    \"errorCode\": 400,\n    \"errorMessage\": \"accessKey must be present as a query parameter or in the header\"\n  }\n}",
+  "heated-vest/suns-eh32490/rakuten: HTTP 400 {\n  \"errors\": {\n    \"errorCode\": 400,\n    \"errorMessage\": \"accessKey must be present as a query parameter or in the header\"\n  }\n}",
+  "heated-vest/suns-raijin-bo32550/rakuten: HTTP 400 {\n  \"errors\": {\n    \"errorCode\": 400,\n    \"errorMessage\": \"accessKey must be present as a query parameter or in the header\"\n  }\n}",
+  "heated-vest/burtle-tc500/rakuten: HTTP 400 {\n  \"errors\": {\n    \"errorCode\": 400,\n    \"errorMessage\": \"accessKey must be present as a query parameter or in the header\"\n  }\n}",
+  "heated-vest/makita-cv202d/rakuten: HTTP 400 {\n  \"errors\": {\n    \"errorCode\": 400,\n    \"errorMessage\": \"accessKey must be present as a query parameter or in the header\"\n  }\n}",
+  "mobile-battery/cio-ss10k-slim2/rakuten: HTTP 400 {\n  \"errors\": {\n    \"errorCode\": 400,\n    \"errorMessage\": \"accessKey must be present as a query parameter or in the header\"\n  }\n}",
+  "mobile-battery/cio-ex05-ss10k/rakuten: HTTP 400 {\n  \"errors\": {\n    \"errorCode\": 400,\n    \"errorMessage\": \"accessKey must be present as a query parameter or in the header\"\n  }\n}",
+  "mobile-battery/cio-trio-ss20000/rakuten: HTTP 400 {\n  \"errors\": {\n    \"errorCode\": 400,\n    \"errorMessage\": \"accessKey must be present as a query parameter or in the header\"\n  }\n}",
+  "mobile-battery/buffalo-bmpbsa10000/rakuten: HTTP 400 {\n  \"errors\": {\n    \"errorCode\": 400,\n    \"errorMessage\": \"accessKey must be present as a query parameter or in the header\"\n  }\n}",
+  "mobile-battery/cheero-solitta-che138/rakuten: HTTP 400 {\n  \"errors\": {\n    \"errorCode\": 400,\n    \"errorMessage\": \"accessKey must be present as a query parameter or in the header\"\n  }\n}",
+  "mobile-battery/cheero-solido-che135/rakuten: HTTP 400 {\n  \"errors\": {\n    \"errorCode\": 400,\n    \"errorMessage\": \"accessKey must be present as a query parameter or in the header\"\n  }\n}",
+  "mobile-battery/elecom-de-c86/rakuten: HTTP 400 {\n  \"errors\": {\n    \"errorCode\": 400,\n    \"errorMessage\": \"accessKey must be present as a query parameter or in the header\"\n  }\n}",
+  "mobile-battery/elecom-de-c97l/rakuten: HTTP 400 {\n  \"errors\": {\n    \"errorCode\": 400,\n    \"errorMessage\": \"accessKey must be present as a query parameter or in the header\"\n  }\n}",
+  "mobile-battery/sanwa-700-btl062/rakuten: HTTP 400 {\n  \"errors\": {\n    \"errorCode\": 400,\n    \"errorMessage\": \"accessKey must be present as a query parameter or in the header\"\n  }\n}",
+  "mobile-battery/anker-zolo-a1688/rakuten: HTTP 400 {\n  \"errors\": {\n    \"errorCode\": 400,\n    \"errorMessage\": \"accessKey must be present as a query parameter or in the header\"\n  }\n}",
+  "mobile-battery/anker-maggo-plus-a1113/rakuten: HTTP 400 {\n  \"errors\": {\n    \"errorCode\": 400,\n    \"errorMessage\": \"accessKey must be present as a query parameter or in the header\"\n  }\n}",
+  "rechargeable-kairo/francfranc-kurikaeshi-2026/rakuten: HTTP 400 {\n  \"errors\": {\n    \"errorCode\": 400,\n    \"errorMessage\": \"accessKey must be present as a query parameter or in the header\"\n  }\n}",
+  "rechargeable-kairo/francfranc-ryote-2026/rakuten: HTTP 400 {\n  \"errors\": {\n    \"errorCode\": 400,\n    \"errorMessage\": \"accessKey must be present as a query parameter or in the header\"\n  }\n}",
+  "rechargeable-kairo/mottole-mtl-e007/rakuten: HTTP 400 {\n  \"errors\": {\n    \"errorCode\": 400,\n    \"errorMessage\": \"accessKey must be present as a query parameter or in the header\"\n  }\n}",
+  "rechargeable-kairo/mottole-mtl-e029/rakuten: HTTP 400 {\n  \"errors\": {\n    \"errorCode\": 400,\n    \"errorMessage\": \"accessKey must be present as a query parameter or in the header\"\n  }\n}",
+  "rechargeable-kairo/mottole-mtl-e030/rakuten: HTTP 400 {\n  \"errors\": {\n    \"errorCode\": 400,\n    \"errorMessage\": \"accessKey must be present as a query parameter or in the header\"\n  }\n}",
+  "rechargeable-kairo/elaice-ek-ov25/rakuten: HTTP 400 {\n  \"errors\": {\n    \"errorCode\": 400,\n    \"errorMessage\": \"accessKey must be present as a query parameter or in the header\"\n  }\n}",
+  "rechargeable-kairo/elaice-ek-cr25/rakuten: HTTP 400 {\n  \"errors\": {\n    \"errorCode\": 400,\n    \"errorMessage\": \"accessKey must be present as a query parameter or in the header\"\n  }\n}",
+  "rechargeable-kairo/elaice-ek-sh25/rakuten: HTTP 400 {\n  \"errors\": {\n    \"errorCode\": 400,\n    \"errorMessage\": \"accessKey must be present as a query parameter or in the header\"\n  }\n}",
+  "rechargeable-kairo/sanwa-400-toy052w/rakuten: HTTP 400 {\n  \"errors\": {\n    \"errorCode\": 400,\n    \"errorMessage\": \"accessKey must be present as a query parameter or in the header\"\n  }\n}",
+  "rechargeable-kairo/hagoogi-ot-96h/rakuten: HTTP 400 {\n  \"errors\": {\n    \"errorCode\": 400,\n    \"errorMessage\": \"accessKey must be present as a query parameter or in the header\"\n  }\n}"
+ ]
+}
