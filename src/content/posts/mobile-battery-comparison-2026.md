@@ -23,6 +23,8 @@ references:
 
 だからアタシが作った。土台は**国土交通省の発表と、IATA（国際航空運送協会）の文書、NITE（製品評価技術基盤機構）の事故データ**。製品は各メーカーの公式ページの数字だけで並べた。
 
+<p class="source-note"><strong>この記事の価格・仕様・ルールは、2026年10月25日に各社の公式ページと官公庁の発表で確かめたもの。</strong>統計は年と期間を、発表には日付を年から書いている。</p>
+
 <div class="hakkako-says">
   <div class="hakkako-mascot"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">先に結論を言っとく。<strong>機内に持ち込めるのは1人2個まで、機内では充電しない。</strong>それと、<strong>2027年1月からは国際ルールで100Wh超が禁止の扱い</strong>になる。いま買うなら<strong>100Wh以下（10000〜20000mAh）</strong>にしておけば迷わないわよ。</div>

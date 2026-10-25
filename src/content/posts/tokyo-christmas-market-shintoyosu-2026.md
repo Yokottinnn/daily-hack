@@ -1,6 +1,6 @@
 ---
-title: "東京クリスマスマーケット2026 in 新豊洲｜11/20〜12/25、入場は平日1,000円・24日と25日は2,000円"
-description: "東京クリスマスマーケットが初めて新豊洲で開催（11月20日〜12月25日）。入場は大人が平日1,000円・土日祝1,500円・24日と25日は2,000円。事前予約は同じ値段で新豊洲限定のマグカップ付き。家族4人で平日と25日を比べると2,500円の差。"
+title: "東京クリスマスマーケット2026 in 新豊洲｜2026年11/20〜12/25、入場は平日1,000円・24日と25日は2,000円"
+description: "東京クリスマスマーケットが初めて新豊洲で開催（2026年11月20日〜12月25日）。入場は大人が平日1,000円・土日祝1,500円・24日と25日は2,000円。事前予約は同じ値段で新豊洲限定のマグカップ付き。家族4人で平日と25日を比べると2,500円の差。"
 publishDate: 2026-10-25
 category: ["wangan-life"]
 tags: ["湾岸ニュース", "豊洲", "新豊洲", "東京クリスマスマーケット", "クリスマス", "イベント", "2026年"]
@@ -24,9 +24,9 @@ references: ["https://prtimes.jp/main/html/rd/p/000000084.000047941.html", "http
 ## 30秒で分かる、東京クリスマスマーケット in 新豊洲
 
 <div class="event-picks">
-  <a class="event-pick" href="#期間と場所11月20日12月25日新豊洲駅から徒歩2分" style="--pick-img:url('/images/tokyo-christmas-market-shintoyosu-2026/photos/kv-shintoyosu.jpg')">
+  <a class="event-pick" href="#期間と場所2026年11月20日12月25日新豊洲駅から徒歩2分" style="--pick-img:url('/images/tokyo-christmas-market-shintoyosu-2026/photos/kv-shintoyosu.jpg')">
     <span class="pick-date">期間</span>
-    <h4>11/20〜12/25</h4>
+    <h4>2026/11/20〜12/25</h4>
     <p>36日間。<strong>新豊洲は初開催</strong>。ゆりかもめ新豊洲駅から徒歩2分。</p>
     <span class="pick-go">詳しく見る →</span>
   </a>
@@ -45,7 +45,7 @@ references: ["https://prtimes.jp/main/html/rd/p/000000084.000047941.html", "http
 </div>
 <span class="event-picks-credit">カード画像：東京クリスマスマーケット実行委員会・KKday のプレスリリース（PR TIMES）より。キービジュアル ©Kayo Horaguchi</span>
 
-## 期間と場所｜11月20日〜12月25日・新豊洲駅から徒歩2分
+## 期間と場所｜2026年11月20日〜12月25日・新豊洲駅から徒歩2分
 
 <figure class="rn-figure">
   <img src="/images/tokyo-christmas-market-shintoyosu-2026/photos/kv-shintoyosu.jpg" alt="新豊洲会場のキービジュアル。青い夜空の水辺にクリスマスピラミッドと動物たち" loading="lazy" />
@@ -70,7 +70,7 @@ references: ["https://prtimes.jp/main/html/rd/p/000000084.000047941.html", "http
 
 <div class="cmp-table-wrap">
   <table class="cmp-table">
-    <thead><tr><th></th><th>平日（11/20〜12/23）</th><th>土日祝（11/20〜12/23）</th><th>12月24日・25日</th></tr></thead>
+    <thead><tr><th></th><th>平日（2026/11/20〜12/23）</th><th>土日祝（2026/11/20〜12/23）</th><th>2026年12月24日・25日</th></tr></thead>
     <tbody>
       <tr class="recommended"><th>大人（中学生以上）</th><td><strong>1,000円</strong></td><td>1,500円</td><td>2,000円</td></tr>
       <tr><th>子ども（小学生）</th><td>500円</td><td>500円</td><td>1,000円</td></tr>

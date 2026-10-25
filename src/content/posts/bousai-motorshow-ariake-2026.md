@@ -1,18 +1,18 @@
 ---
-title: "ぼうさいモーターショー2026｜10月25日（日）有明・入場無料、消防車や対策本部車が集合"
-description: "10月25日（日）10〜15時、有明の東京臨海広域防災公園で「ぼうさいモーターショー2026」。入場無料。消防車や対策本部車などの特殊車両、消防服の着用体験、EVの乗車体験。隣のそなエリア東京では親子向けの無電柱化イベントも。駐車場は無いので電車で。"
+title: "ぼうさいモーターショー2026｜2026年10月25日（日）有明・入場無料、消防車や対策本部車が集合"
+description: "2026年10月25日（日）10〜15時、有明の東京臨海広域防災公園で「ぼうさいモーターショー2026」。入場無料。消防車や対策本部車などの特殊車両、消防服の着用体験、EVの乗車体験。隣のそなエリア東京では親子向けの無電柱化イベントも。駐車場は無いので電車で。"
 publishDate: 2026-10-25
 category: ["wangan-life"]
 tags: ["湾岸ニュース", "有明", "東京臨海広域防災公園", "そなエリア東京", "防災", "イベント", "無料", "2026年"]
 isPR: false
 draft: false
 eyecatchUrl: "/images/bousai-motorshow-ariake-2026/cover.jpg"
-eyecatchAlt: "ぼうさいモーターショー2026｜10月25日（日）有明・東京臨海広域防災公園、入場無料"
+eyecatchAlt: "ぼうさいモーターショー2026｜2026年10月25日（日）有明・東京臨海広域防災公園、入場無料"
 author: "hacker-ko"
 references: ["https://www.tokyorinkai-koen.jp/news/oshirase/14886/", "https://www.tokyorinkai-koen.jp/access/", "https://prtimes.jp/main/html/rd/p/000000154.000063577.html"]
 ---
 
-「有明で消防車が見られるって本当？」「子ども連れでも行ける？お金はかかる？」——きょう10月25日（日）、有明でそういうイベントがある。
+「有明で消防車が見られるって本当？」「子ども連れでも行ける？お金はかかる？」——きょう2026年10月25日（日）、有明でそういうイベントがある。
 
 だからアタシがまとめた。土台は**主催の東京臨海広域防災公園のお知らせ**と、出展する**新電元工業のプレスリリース**。行く前に知っておきたいことだけ並べたわよ。
 
@@ -24,9 +24,9 @@ references: ["https://www.tokyorinkai-koen.jp/news/oshirase/14886/", "https://ww
 ## 30秒で分かる、ぼうさいモーターショー2026
 
 <div class="event-picks">
-  <a class="event-pick" href="#日時と場所10月25日日1015時有明のヘリポート" style="--pick-img:url('/images/bousai-motorshow-ariake-2026/photos/flyer.jpg')">
+  <a class="event-pick" href="#日時と場所2026年10月25日日1015時有明のヘリポート" style="--pick-img:url('/images/bousai-motorshow-ariake-2026/photos/flyer.jpg')">
     <span class="pick-date">きょう</span>
-    <h4>10/25 10〜15時</h4>
+    <h4>2026/10/25 10〜15時</h4>
     <p><strong>入場無料</strong>。雨でも開催、荒天なら中止。</p>
     <span class="pick-go">詳しく見る →</span>
   </a>
@@ -45,7 +45,7 @@ references: ["https://www.tokyorinkai-koen.jp/news/oshirase/14886/", "https://ww
 </div>
 <span class="event-picks-credit">カード画像：東京臨海広域防災公園の告知チラシ／新電元工業株式会社のプレスリリース（PR TIMES）より。</span>
 
-## 日時と場所｜10月25日（日）10〜15時・有明のヘリポート
+## 日時と場所｜2026年10月25日（日）10〜15時・有明のヘリポート
 
 <figure class="rn-figure">
   <img src="/images/bousai-motorshow-ariake-2026/photos/flyer.jpg" alt="ぼうさいモーターショー2026の告知チラシ。消防車や国土交通省の車両の写真と、日時・会場の案内" loading="lazy" />

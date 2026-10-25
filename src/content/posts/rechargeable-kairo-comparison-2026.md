@@ -24,6 +24,8 @@ references:
 
 だからアタシが作った。土台は**各メーカーの公式ページと取扱説明書の数字だけ**。安全の話は**消費者庁・NITE（製品評価技術基盤機構）・経済産業省**の公表資料から引いた。公式に書いていないことは「記載なし」と書いてある。
 
+<p class="source-note"><strong>この記事の価格・仕様・ルールは、2026年10月25日に各社の公式ページと官公庁の発表で確かめたもの。</strong>統計は年と期間を、発表には日付を年から書いている。</p>
+
 <div class="hakkako-says">
   <div class="hakkako-mascot"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">先に結論を言っとく。<strong>長く持たせたいなら mottole の MTL-E029（弱で約8時間）</strong>。それと、充電式は<strong>44℃でも3〜4時間当てっぱなしで低温やけど</strong>になる。寝るときに使わない、これだけは守って。</div>

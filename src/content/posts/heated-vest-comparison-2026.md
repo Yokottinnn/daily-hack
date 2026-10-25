@@ -24,6 +24,8 @@ references:
 
 だからアタシが作った。土台は**各メーカーの公式ページと取扱説明書の数字だけ**。何時間持つかは**温度・バッテリーの大きさ・インナーかアウターか**で変わるので、条件も一緒に並べた。安全の話は**国民生活センター・消費者庁・NITE**の公表資料から引いた。
 
+<p class="source-note"><strong>この記事の価格・仕様・ルールは、2026年10月25日に各社の公式ページと官公庁の発表で確かめたもの。</strong>統計は年と期間を、発表には日付を年から書いている。</p>
+
 <div class="hakkako-says">
   <div class="hakkako-mascot"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">先に結論を言っとく。<strong>手持ちのモバイルバッテリーで動くのはサンコー・アイリスオーヤマ・サンエス</strong>。<strong>マキタとバートルは専用のバッテリーだけ</strong>。それと、1シーズン充電しても電気代は<strong>約90〜400円</strong>よ。</div>
