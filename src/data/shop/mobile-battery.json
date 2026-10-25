@@ -1,0 +1,362 @@
+{
+  "id": "mobile-battery",
+  "title": "モバイルバッテリー（燃えにくい電池・2026 年の機内ルール）",
+  "_note": "仕様は公式の表記だけ（換算値は入れない）。出典と未確認の項目は Yokottinnn/daily-hack-affiliate の docs/research/mobile-battery-products.md。エレコム・サンワの公式ページは調査時に 403 で、数値は仕様書の抜粋・社のリリース。記事に入れる前に公式ページで確かめる",
+  "columns": [
+    {
+      "key": "cell",
+      "label": "電池の種類"
+    },
+    {
+      "key": "wh",
+      "label": "容量（公式）"
+    },
+    {
+      "key": "out",
+      "label": "最大出力"
+    },
+    {
+      "key": "weight",
+      "label": "重さ"
+    },
+    {
+      "key": "cable",
+      "label": "ケーブル"
+    }
+  ],
+  "pricesCheckedAt": null,
+  "items": [
+    {
+      "id": "cio-ss10k-slim2",
+      "brand": "CIO",
+      "name": "SMARTCOBY SLIMⅡ Wireless2.2 Pro SS10K（CIO-MB35W1C-SS10K-S2W25）",
+      "badge": "半固体＋ワイヤレス",
+      "summary": "iPhone に置くだけで充電できる半固体系。37Wh なので 2027 年の 100Wh 上限にもかからない。",
+      "recommended": true,
+      "specs": {
+        "cell": "半固体系（電解液 10% 以下・CIO の定義）",
+        "wh": "10000mAh / 37Wh",
+        "out": "USB-C 35W・ワイヤレス 25W（Qi2.2）",
+        "weight": "約225g",
+        "cable": "別付属"
+      },
+      "source": "https://connectinternationalone.co.jp/cioproduct/mobilebattery/smartcoby/cio-mb35w1c-ss10k-s2w25/",
+      "rakuten": {
+        "keyword": "CIO SMARTCOBY SLIM SS10K",
+        "must": [
+          "SS10K"
+        ]
+      },
+      "yahoo": {
+        "keyword": "CIO SMARTCOBY SLIM SS10K",
+        "must": [
+          "SS10K"
+        ]
+      },
+      "amazon": {
+        "keyword": "CIO SMARTCOBY SLIM SS10K",
+        "asin": null
+      }
+    },
+    {
+      "id": "cio-ex05-ss10k",
+      "brand": "CIO",
+      "name": "SMARTCOBY Ex05 Wireless2.2 Pro CABLE SS10K（CIO-MB35W2C-SS10K-EX05）",
+      "badge": "半固体＋ケーブル内蔵",
+      "specs": {
+        "cell": "半固体系（CIO の定義）",
+        "wh": "10000mAh / 37Wh",
+        "out": "USB-C 35W・ワイヤレス 25W（Qi2.2）",
+        "weight": "約238g",
+        "cable": "内蔵（約22cm・交換可）"
+      },
+      "source": "https://connectinternationalone.co.jp/cioproduct/mobilebattery/smartcoby/cio-mb35w2c-ss10k-ex05/",
+      "rakuten": {
+        "keyword": "CIO SMARTCOBY Ex05 SS10K",
+        "must": [
+          "Ex05"
+        ]
+      },
+      "yahoo": {
+        "keyword": "CIO SMARTCOBY Ex05 SS10K",
+        "must": [
+          "Ex05"
+        ]
+      },
+      "amazon": {
+        "keyword": "CIO SMARTCOBY Ex05 SS10K",
+        "asin": null
+      }
+    },
+    {
+      "id": "cio-trio-ss20000",
+      "brand": "CIO",
+      "name": "SMARTCOBY TRIO 35W SS 20000mAh（CIO-MB35W2C1A-SS20000）",
+      "badge": "大容量でも 100Wh 未満",
+      "specs": {
+        "cell": "半固体系（CIO の定義）",
+        "wh": "20000mAh / 77.4Wh",
+        "out": "USB-C 35W（3 ポート合計 30W）",
+        "weight": "約320g",
+        "cable": "別付属"
+      },
+      "source": "https://connectinternationalone.co.jp/cioproduct/mobilebattery/smartcoby/cio-mb35w2c1a-ssa20000/",
+      "rakuten": {
+        "keyword": "CIO SMARTCOBY TRIO SS 20000",
+        "must": [
+          "TRIO",
+          "20000"
+        ]
+      },
+      "yahoo": {
+        "keyword": "CIO SMARTCOBY TRIO SS 20000",
+        "must": [
+          "TRIO",
+          "20000"
+        ]
+      },
+      "amazon": {
+        "keyword": "CIO SMARTCOBY TRIO SS 20000",
+        "asin": null
+      }
+    },
+    {
+      "id": "buffalo-bmpbsa10000",
+      "brand": "バッファロー",
+      "name": "半固体モバイルバッテリー 10000mAh/30W（BMPBSA10000）",
+      "badge": "PSE 適合を公式に明記",
+      "specs": {
+        "cell": "半固体リチウムイオン",
+        "wh": "10000mAh / 37Wh",
+        "out": "USB-C 30W",
+        "weight": "約210g",
+        "cable": "付属なし"
+      },
+      "source": "https://www.buffalo.jp/product/detail/bmpbsa10000bkx.html",
+      "rakuten": {
+        "keyword": "バッファロー 半固体 モバイルバッテリー BMPBSA10000",
+        "must": [
+          "BMPBSA10000"
+        ]
+      },
+      "yahoo": {
+        "keyword": "バッファロー 半固体 モバイルバッテリー BMPBSA10000",
+        "must": [
+          "BMPBSA10000"
+        ]
+      },
+      "amazon": {
+        "keyword": "バッファロー 半固体 モバイルバッテリー BMPBSA10000",
+        "asin": null
+      }
+    },
+    {
+      "id": "cheero-solitta-che138",
+      "brand": "cheero",
+      "name": "cheero Solitta 10000mAh（CHE-138）",
+      "badge": "軽い準固体",
+      "specs": {
+        "cell": "準固体リチウムイオン",
+        "wh": "10000mAh / 37Wh",
+        "out": "USB-A 22.5W・USB-C 20W",
+        "weight": "約185g（ケーブル込み）",
+        "cable": "ストラップ型 USB-C 付属"
+      },
+      "source": "https://cheero.shop/products/che-138",
+      "rakuten": {
+        "keyword": "cheero Solitta CHE-138",
+        "must": [
+          "CHE-138"
+        ]
+      },
+      "yahoo": {
+        "keyword": "cheero Solitta CHE-138",
+        "must": [
+          "CHE-138"
+        ]
+      },
+      "amazon": {
+        "keyword": "cheero Solitta CHE-138",
+        "asin": null
+      }
+    },
+    {
+      "id": "cheero-solido-che135",
+      "brand": "cheero",
+      "name": "cheero Solido 10000mAh（CHE-135）",
+      "badge": "安い準固体",
+      "summary": "直販 3,680 円（2026-10-25）と、この表の準固体でいちばん安い。ケーブル内蔵で PSE マーク付きと公式に明記。",
+      "specs": {
+        "cell": "準固体リチウムイオン",
+        "wh": "10000mAh / 38Wh",
+        "out": "USB-A 22.5W・USB-C 20W",
+        "weight": "約230g",
+        "cable": "内蔵（約9cm）"
+      },
+      "source": "https://cheero.shop/products/che-135",
+      "rakuten": {
+        "keyword": "cheero Solido CHE-135",
+        "must": [
+          "CHE-135"
+        ]
+      },
+      "yahoo": {
+        "keyword": "cheero Solido CHE-135",
+        "must": [
+          "CHE-135"
+        ]
+      },
+      "amazon": {
+        "keyword": "cheero Solido CHE-135",
+        "asin": null
+      }
+    },
+    {
+      "id": "elecom-de-c86",
+      "brand": "エレコム",
+      "name": "半固体モバイルバッテリー 10000mAh/35W（DE-C86-10000）",
+      "specs": {
+        "cell": "半固体リチウムイオン",
+        "wh": "10000mAh / 38.5Wh",
+        "out": "USB-C 35W・USB-A 22.5W",
+        "weight": "約220g",
+        "cable": "別付属"
+      },
+      "source": "https://www.elecom.co.jp/products/DE-C86-10000BK.html",
+      "rakuten": {
+        "keyword": "エレコム 半固体 モバイルバッテリー DE-C86-10000",
+        "must": [
+          "DE-C86"
+        ]
+      },
+      "yahoo": {
+        "keyword": "エレコム 半固体 モバイルバッテリー DE-C86-10000",
+        "must": [
+          "DE-C86"
+        ]
+      },
+      "amazon": {
+        "keyword": "エレコム 半固体 モバイルバッテリー DE-C86-10000",
+        "asin": null
+      }
+    },
+    {
+      "id": "elecom-de-c97l",
+      "brand": "エレコム",
+      "name": "リン酸鉄モバイルバッテリー 8000mAh/35W（DE-C97L-8000）",
+      "badge": "リン酸鉄（長寿命）",
+      "specs": {
+        "cell": "リン酸鉄リチウムイオン（約 2,000 サイクル）",
+        "wh": "8000mAh",
+        "out": "35W",
+        "weight": "約255g",
+        "cable": "USB-C ケーブル付属"
+      },
+      "source": "https://www.elecom.co.jp/products/DE-C97L-8000BK.html",
+      "rakuten": {
+        "keyword": "エレコム リン酸鉄 モバイルバッテリー DE-C97L",
+        "must": [
+          "DE-C97L"
+        ]
+      },
+      "yahoo": {
+        "keyword": "エレコム リン酸鉄 モバイルバッテリー DE-C97L",
+        "must": [
+          "DE-C97L"
+        ]
+      },
+      "amazon": {
+        "keyword": "エレコム リン酸鉄 モバイルバッテリー DE-C97L",
+        "asin": null
+      }
+    },
+    {
+      "id": "sanwa-700-btl062",
+      "brand": "サンワサプライ",
+      "name": "半固体電池モバイルバッテリー 10000mAh・PD20W（700-BTL062BK）",
+      "specs": {
+        "cell": "半固体",
+        "wh": "10000mAh",
+        "out": "20W",
+        "weight": "約183g",
+        "cable": "付属"
+      },
+      "source": "https://direct.sanwa.co.jp/ItemPage/700-BTL062BK",
+      "rakuten": {
+        "keyword": "サンワダイレクト 半固体 モバイルバッテリー 700-BTL062",
+        "must": [
+          "BTL062"
+        ]
+      },
+      "yahoo": {
+        "keyword": "サンワダイレクト 半固体 モバイルバッテリー 700-BTL062",
+        "must": [
+          "BTL062"
+        ]
+      },
+      "amazon": {
+        "keyword": "サンワダイレクト 半固体 モバイルバッテリー 700-BTL062",
+        "asin": null
+      }
+    },
+    {
+      "id": "anker-zolo-a1688",
+      "brand": "Anker",
+      "name": "Anker Zolo Power Bank 10000mAh 30W ケーブル内蔵（A1688）",
+      "badge": "従来型（比べる基準）",
+      "specs": {
+        "cell": "リチウムイオン（種類の記載なし）",
+        "wh": "10000mAh",
+        "out": "USB-C 30W",
+        "weight": "約212g",
+        "cable": "内蔵（約14cm）"
+      },
+      "source": "https://www.ankerjapan.com/products/a1688",
+      "rakuten": {
+        "keyword": "Anker Zolo Power Bank 10000mAh 30W A1688",
+        "must": [
+          "A1688"
+        ]
+      },
+      "yahoo": {
+        "keyword": "Anker Zolo Power Bank 10000mAh 30W A1688",
+        "must": [
+          "A1688"
+        ]
+      },
+      "amazon": {
+        "keyword": "Anker Zolo Power Bank 10000mAh 30W A1688",
+        "asin": null
+      }
+    },
+    {
+      "id": "anker-maggo-plus-a1113",
+      "brand": "Anker",
+      "name": "Anker Nano Power Bank (MagGo, Plus)（A1113）",
+      "specs": {
+        "cell": "ネオリチウムイオン（Anker の自社基準）",
+        "wh": "10000mAh",
+        "out": "USB-C 30W・ワイヤレス 15W（Qi2）",
+        "weight": "約215g",
+        "cable": "別付属"
+      },
+      "source": "https://www.ankerjapan.com/products/a1113",
+      "rakuten": {
+        "keyword": "Anker Nano Power Bank MagGo Plus A1113",
+        "must": [
+          "A1113"
+        ]
+      },
+      "yahoo": {
+        "keyword": "Anker Nano Power Bank MagGo Plus A1113",
+        "must": [
+          "A1113"
+        ]
+      },
+      "amazon": {
+        "keyword": "Anker Nano Power Bank MagGo Plus A1113",
+        "asin": null
+      }
+    }
+  ]
+}
