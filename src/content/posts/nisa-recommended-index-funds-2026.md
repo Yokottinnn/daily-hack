@@ -21,7 +21,6 @@ author: "hacker-ko"
 
 <aside class="related-block">
   <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <p class="related-block-title">あわせて読みたい</p>
   </div>
   <ul class="related-block-list">
@@ -68,10 +67,7 @@ author: "hacker-ko"
 
 「だったら全部インデックスでよくない？」って思ったあんた、正解。新NISAのつみたて枠で迷ってる時間がもったいない。次はアタシのおすすめ5本を上から順に見ていきなさい。
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-05-smug.png" alt="" /></div>
-  <h2>新NISAつみたて投資枠 おすすめインデックスファンド5選</h2>
-</div>
+<h2>新NISAつみたて投資枠 おすすめインデックスファンド5選</h2>
 
 ここからが本題。**信託報酬・連動指数・純資産・取扱証券会社**を全部並べて比較するから、自分の証券口座と相性のいい1本を選びなさい。数値は全部2026年5月時点の最新値で取ってる。
 
@@ -168,7 +164,6 @@ author: "hacker-ko"
 
 <aside class="related-block">
   <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-05-smug.png" alt="" /></span>
     <p class="related-block-title">入金導線も最適化しなさい</p>
   </div>
   <ul class="related-block-list">
@@ -189,10 +184,7 @@ author: "hacker-ko"
   </ul>
 </aside>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-09-arms-crossed.png" alt="" /></div>
-  <h2>5本の選び方｜あんたの軸を1つだけ決めなさい</h2>
-</div>
+<h2>5本の選び方｜あんたの軸を1つだけ決めなさい</h2>
 
 5本紹介したけど、「全部良さそうで結局選べない」あんたへ。アタシの選び方の軸を提示するから、**1つだけ**選んで決めなさい。複数の軸で迷うから固まるのよ。
 
@@ -250,10 +242,7 @@ author: "hacker-ko"
 
 これが信託報酬を絶対に重視すべき理由。<strong>「0.05%は0.10%の半額」</strong>じゃない、<strong>「0.05%は0.10%の倍の手取り」</strong>って解釈の問題よ。長期投資では小さい差が積み上がって致命的になる。
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-04-cheer.png" alt="" /></div>
-  <h2>証券会社別おすすめ｜あんたの口座でベストな1本</h2>
-</div>
+<h2>証券会社別おすすめ｜あんたの口座でベストな1本</h2>
 
 「で、結局アタシの証券口座だとどれ買えばいいの？」って質問が一番多いから、証券会社別に最適解を整理しておく。
 
@@ -310,10 +299,7 @@ author: "hacker-ko"
   </div>
 </a>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-02-pout.png" alt="" /></div>
-  <h2>これだけは知っておきなさい｜失敗パターンと注意点</h2>
-</div>
+<h2>これだけは知っておきなさい｜失敗パターンと注意点</h2>
 
 最後にアタシの忠告。インデックス積立は「鉄板」だけど、**やり方を間違えると損する**から要注意。
 
@@ -337,7 +323,6 @@ author: "hacker-ko"
 
 <aside class="related-block">
   <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <p class="related-block-title">投資原資をまず作りなさい</p>
   </div>
   <ul class="related-block-list">
@@ -425,7 +410,6 @@ author: "hacker-ko"
 
 <aside class="related-block">
   <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <p class="related-block-title">次に読むならコレ</p>
   </div>
   <ul class="related-block-list">

@@ -80,7 +80,6 @@ references: ["https://www.tokyorinkai-koen.jp/news/oshirase/14886/", "https://ww
 
 <aside class="related-block">
   <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-05-smug.png" alt="" /></span>
     <p class="related-block-title">湾岸に住むなら、お金の制度も押さえておく</p>
   </div>
   <ul class="related-block-list">
@@ -138,7 +137,6 @@ YouTube には、2024 年のぼうさいモーターショーを車両ごとに�
 
 <aside class="related-block">
   <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-05-smug.png" alt="" /></span>
     <p class="related-block-title">湾岸の街が、これからどう変わるか</p>
   </div>
   <ul class="related-block-list">

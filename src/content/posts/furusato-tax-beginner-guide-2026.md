@@ -21,7 +21,6 @@ author: "hacker-ko"
 
 <aside class="related-block">
   <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <p class="related-block-title">あわせて読みたい</p>
   </div>
   <ul class="related-block-list">
@@ -329,7 +328,6 @@ author: "hacker-ko"
 
 <aside class="related-block">
   <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <p class="related-block-title">楽天経済圏で還元率を最大化したい人へ</p>
   </div>
   <ul class="related-block-list">
@@ -363,10 +361,7 @@ author: "hacker-ko"
   </div>
 </a>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-05-smug.png" alt="" /></div>
-  <h2>返礼品の選び方｜ハズレを引かないコツ</h2>
-</div>
+<h2>返礼品の選び方｜ハズレを引かないコツ</h2>
 
 「返礼品多すぎて選べない」ってあんた、それは選び方を知らないだけ。**カテゴリごとに勝ち筋がある**から教えてあげる。
 
@@ -506,7 +501,6 @@ author: "hacker-ko"
 
 <aside class="related-block">
   <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <p class="related-block-title">次に読むならコレ</p>
   </div>
   <ul class="related-block-list">

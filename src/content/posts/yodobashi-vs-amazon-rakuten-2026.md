@@ -86,10 +86,7 @@ references:
   </article>
 </div>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-01-wave.png" alt="" /></div>
-  <h2>実際に使ってる人の声（両方フェアに）</h2>
-</div>
+<h2>実際に使ってる人の声（両方フェアに）</h2>
 
 擁護も苦言も、実ユーザーの声を正直に拾うわ（出典リンクつき）。
 
@@ -158,7 +155,6 @@ references:
 
 <aside class="related-block">
   <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <p class="related-block-title">あわせて読みたい</p>
   </div>
   <ul class="related-block-list">

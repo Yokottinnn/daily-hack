@@ -88,7 +88,6 @@ references: ["https://prtimes.jp/main/html/rd/p/000000030.000103607.html", "http
 
 <aside class="related-block">
   <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-05-smug.png" alt="" /></span>
     <p class="related-block-title">新豊洲の冬は、クリスマスマーケットも来る</p>
   </div>
   <ul class="related-block-list">
@@ -138,7 +137,6 @@ YouTube には、9 月のプレオープンのころから飼い主の動画が�
 
 <aside class="related-block">
   <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-05-smug.png" alt="" /></span>
     <p class="related-block-title">湾岸で、家計をラクにする場所</p>
   </div>
   <ul class="related-block-list">

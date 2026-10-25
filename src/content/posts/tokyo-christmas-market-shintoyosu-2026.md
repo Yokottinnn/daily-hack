@@ -85,7 +85,6 @@ references: ["https://prtimes.jp/main/html/rd/p/000000084.000047941.html", "http
 
 <aside class="related-block">
   <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-05-smug.png" alt="" /></span>
     <p class="related-block-title">湾岸で、ほかに冬の出費を浮かせる場所</p>
   </div>
   <ul class="related-block-list">
@@ -154,7 +153,6 @@ references: ["https://prtimes.jp/main/html/rd/p/000000084.000047941.html", "http
 
 <aside class="related-block">
   <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-05-smug.png" alt="" /></span>
     <p class="related-block-title">豊洲でもう1杯なら、サウナで温まる</p>
   </div>
   <ul class="related-block-list">

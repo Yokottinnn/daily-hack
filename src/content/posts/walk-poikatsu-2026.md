@@ -77,10 +77,7 @@ references:
 <div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+33XJA2+1LP8+CALN5" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/hapitas-300x250.jpg" alt="高還元率ポイントサイト【ハピタス】　無料会員登録プロモーション" width="300" height="250" loading="lazy"></a></div>
 </div>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="ranking">歩いてポイ活アプリおすすめランキング｜無料アプリを「月いくら戻るか」で並べた</h2>
-</div>
+<h2 id="ranking">歩いてポイ活アプリおすすめランキング｜無料アプリを「月いくら戻るか」で並べた</h2>
 
 **先に順位を出す。** ものさしは<strong>「無料で使って、月いくら戻るか」の1本だけ</strong>。下の「月いくら一覧」の数字を、無料アプリに絞って大きい順に並べた。**広告・PayPay・位置情報**の3つも横に置いたので、ここで候補を絞ってから各アプリの節へ進めばいい。
 
@@ -107,10 +104,7 @@ references:
 
 **有料・保険・マイルはこの表に入れていない。** 月額を払う JAL・ANA Pro・dヘルスケア有料版、保険料が動く Vitality は、**同じものさしで比べると判断を誤る**ので、<a href="#mile">マイル型</a>と<a href="#insurance">保険・自治体型</a>の節で別に計算した。
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-07-gasp.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="map">勢力図｜5つのカテゴリに、20のアプリを置いた</h2>
-</div>
+<h2 id="map">勢力図｜5つのカテゴリに、20のアプリを置いた</h2>
 
 **「歩いてポイ活」はひとかたまりではない。** もらえるものも、かかるお金も、確実性もまったく違う。
 
@@ -162,10 +156,7 @@ references:
 
 **左上がいちばん美味しく見えるが、そこにあるものは金額が小さい。** 右へ行くほど戻りは大きくなるが、先に払う。下へ行くほど、もらえる額が自分では決められなくなる。
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="yen">1日1万歩を1年 続けたら、いくらになるか</h2>
-</div>
+<h2 id="yen">1日1万歩を1年 続けたら、いくらになるか</h2>
 
 **ここがこの記事でいちばん言いたいところ。** 各社が公表している条件だけを使って、同じ前提でそろえた。
 
@@ -259,10 +250,7 @@ references:
 
 アプリごとの貯まり方は、下の各節の表にもすべて書いた。
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-04-cheer.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="mile">① 航空マイル型｜JALは月550円、ANAは無料から</h2>
-</div>
+<h2 id="mile">① 航空マイル型｜JALは月550円、ANAは無料から</h2>
 
 <figure class="rn-figure">
   <img src="/images/walk-poikatsu-2026/photos/airplane.jpg" alt="飛行機の主翼と雲" loading="lazy" />
@@ -354,10 +342,7 @@ references:
   title="【完全攻略ガイド】ANA Pocketアプリでマイルを貯めてお得に旅へ 年間14,989マイルを獲得した方法" loading="lazy" allowfullscreen
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe></div>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-07-gasp.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="point">② 共通ポイント型｜現金に近いぶん、交換のところで詰まる</h2>
-</div>
+<h2 id="point">② 共通ポイント型｜現金に近いぶん、交換のところで詰まる</h2>
 
 <figure class="rn-figure">
   <img src="/images/walk-poikatsu-2026/photos/crossing-day.jpg" alt="渋谷スクランブル交差点を歩く人たち" loading="lazy" />
@@ -536,10 +521,7 @@ references:
 </table>
 </div>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-04-cheer.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="goods">③ 現物・特典交換型｜金額は小さいが、確実さでは一番</h2>
-</div>
+<h2 id="goods">③ 現物・特典交換型｜金額は小さいが、確実さでは一番</h2>
 
 <figure class="rn-figure">
   <img src="/images/walk-poikatsu-2026/photos/shoes.jpg" alt="歩く人の足元と自転車" loading="lazy" />
@@ -638,10 +620,7 @@ references:
 </table>
 </div>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-07-gasp.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="web3">④ Web3型｜「歩いて10万円」の中身を、使った人が計算していた</h2>
-</div>
+<h2 id="web3">④ Web3型｜「歩いて10万円」の中身を、使った人が計算していた</h2>
 
 <figure class="rn-figure">
   <img src="/images/walk-poikatsu-2026/photos/bitcoin.jpg" alt="ビットコインを模した金属製のコイン" loading="lazy" />
@@ -795,10 +774,7 @@ references:
 <div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B43JB+C507KQ+389A+67RK1" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/chobirich-300x250.jpg" alt="ちょびリッチ" width="300" height="250" loading="lazy"></a></div>
 </div>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-04-cheer.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="insurance">⑤ 保険・自治体型｜ポイントではなく、保険料と商品券が動く</h2>
-</div>
+<h2 id="insurance">⑤ 保険・自治体型｜ポイントではなく、保険料と商品券が動く</h2>
 
 <figure class="rn-figure">
   <img src="/images/walk-poikatsu-2026/photos/park.jpg" alt="公園の小道を歩く2人" loading="lazy" />
@@ -858,10 +834,7 @@ references:
 </table>
 </div>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-07-gasp.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="gone">消えたアプリ｜Milesは2025年5月14日に、予告なく終わった</h2>
-</div>
+<h2 id="gone">消えたアプリ｜Milesは2025年5月14日に、予告なく終わった</h2>
 
 **歩いてポイ活には、ほかのポイ活に無いリスクがある。アプリごと消えること。**
 
@@ -875,10 +848,7 @@ references:
   <li><div class="checklist-body"><strong>大手が運営しているかを見る</strong><p>航空会社・通信キャリア・保険会社の系列は、単体で畳みにくい。</p></div></li>
 </ul>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="pick">使い分け｜同じ1万歩が、何重にもカウントされる</h2>
-</div>
+<h2 id="pick">使い分け｜同じ1万歩が、何重にもカウントされる</h2>
 
 **ここが「歩いてポイ活」の面白いところ。** 歩数はスマホのヘルスケアから読むだけなので、**複数のアプリが同じ歩数を同時に数える。** 排他ではない。
 
@@ -898,10 +868,7 @@ references:
 
 **3つまでにしておくのが現実的。** 通知と広告の量がそのまま増えるので、**入れるほど得、にはならない。**
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-02-pout.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="noads">広告なし・動画なしで貯まるアプリはどれか</h2>
-</div>
+<h2 id="noads">広告なし・動画なしで貯まるアプリはどれか</h2>
 
 **「歩いてポイ活 広告なし」は、Googleの検索候補にも出てくる。** 歩数を見るたびにCMが挟まると、それだけで続かなくなる。20本を**広告の出方**で4つに分けた。
 
@@ -920,10 +887,7 @@ references:
 
 **広告なし・無料・誰でも使える、の3つがそろうのは Coke ON・スギサポwalk+・dヘルスケア（無料版）。** Coke ON はドリンク、スギサポwalk+ はスギ薬局のポイントで戻る。dヘルスケアの無料版は抽選なので、ハズレもある。
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-04-cheer.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="paypay">PayPayに交換できる歩いてポイ活アプリ</h2>
-</div>
+<h2 id="paypay">PayPayに交換できる歩いてポイ活アプリ</h2>
 
 **PayPayに出せるかどうかで、使い道の広さがまるで違う。** 20本のうち、PayPayへ出せるのは次の5本だけだった（予定を含む）。**楽天・dヘルスケア・RenoBodyなどは、それぞれのポイントにしかならない。**
 
@@ -943,10 +907,7 @@ references:
 
 **PayPayが目当てなら、トリマが軸になる。** 歩数と移動の両方で貯まり、交換先にPayPayがある。**アルコインとポイすらは、トリマと同じ歩数を同時に数えられる**ので、上乗せとして足せばいい。
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-09-arms-crossed.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="safety">安全？｜位置情報を集めるアプリ・集めないアプリを、App Storeの表示で分けた</h2>
-</div>
+<h2 id="safety">安全？｜位置情報を集めるアプリ・集めないアプリを、App Storeの表示で分けた</h2>
 
 **「歩いてポイ活は安全か」は、何を渡しているかで決まる。** 歩数アプリが受け取るのは、**歩数と、アプリによっては位置情報**。各アプリが App Store に出している「Appのプライバシー」の表示（開発元の自己申告）を、20本 全部 読んで3つに分けた。
 
@@ -969,10 +930,7 @@ references:
   <li><div class="checklist-body"><strong>評価の件数</strong><p>星の数より<strong>件数</strong>を見る。Coke ON は約178万件で4.6、トリマは約37万件で4.3。<strong>件数が数百のアプリは、評価がまだ固まっていない</strong>。</p></div></li>
 </ul>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-03-bashful.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="shikumi">仕組み｜なぜ歩くだけでお金がもらえるのか。原資は4種類</h2>
-</div>
+<h2 id="shikumi">仕組み｜なぜ歩くだけでお金がもらえるのか。原資は4種類</h2>
 
 **「歩くだけでお金がもらえるのは怪しい」と感じるのは正しい感覚。** ただ、原資を見ると理由ははっきりしている。**誰が、何のために払っているか**で4つに分かれる。
 
@@ -989,10 +947,7 @@ references:
 
 **原資が分かると、貯まり方の天井も分かる。** 広告費型は広告を見た分だけ、自社ポイント型は1日数円の範囲で、相場型は相場しだい。**どれも「歩数だけで大きく稼げる」設計にはなっていない。**
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-04-cheer.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="faq">よくある質問</h2>
-</div>
+<h2 id="faq">よくある質問</h2>
 
 <ul class="checklist">
   <li><div class="checklist-body"><strong>複数のアプリを同時に入れても大丈夫？</strong><p>歩数はスマホのヘルスケア（iOS）／ヘルスコネクト（Android）から読むので、<strong>同じ歩数を何個のアプリが数えても問題ない</strong>。ただし電池と通知は増える。</p></div></li>

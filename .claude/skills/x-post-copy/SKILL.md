@@ -154,7 +154,7 @@ node -e 'const w=s=>{let n=0;for(const c of s)n+=c.codePointAt(0)<0x80?1:2;retur
 
 | 引き元 | 何が取れるか |
 | --- | --- |
-| **記事本文の `hakkako-says` / `mascot-wrap`**（`src/content/posts/*.md`、`author: hacker-ko`） | **投稿向きの声はここ。** 長めの語りと、締めのキメ台詞 |
+| **記事本文の `hakkako-says`**（`src/content/posts/*.md`、`author: hacker-ko`） | **投稿向きの声はここ。** 長めの語りと、締めのキメ台詞 |
 | `ops/data/reply-style-prompt.json` の `system` | 書き出し・言い回しの見本 30 本超（テンプレ 35 件の実物から引いたもの） |
 | `data/comment-templates.json`（Mac 側） | 元のテンプレそのもの |
 

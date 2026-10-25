@@ -27,7 +27,6 @@ iDeCoの本質は「**掛金が全額所得控除**」＝入れた分だけ税�
 
 <aside class="related-block">
   <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <p class="related-block-title">あわせて読みたい</p>
   </div>
   <ul class="related-block-list">
@@ -68,10 +67,7 @@ iDeCoの本質は「**掛金が全額所得控除**」＝入れた分だけ税�
 
 > 出典: <a href="https://dc.rakuten-sec.co.jp/about/revised/202505/" target="_blank" rel="noopener nofollow">楽天証券</a>、<a href="https://info.monex.co.jp/news/2026/20260514_01.html" target="_blank" rel="noopener nofollow">マネックス証券</a>。会社員は企業年金の有無・拠出額によって上限が変わる。70歳未満まで加入するには老齢基礎年金・iDeCo老齢給付金を未受給などの条件あり。詳細は各証券・公式で確認を。
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-09-arms-crossed.png" alt="" /></div>
-  <h2>増えた節税を「実質時給」で見ると</h2>
-</div>
+<h2>増えた節税を「実質時給」で見ると</h2>
 
 iDeCoの掛金は**全額が所得控除**。だから節税額は「掛金 × あなたの税率（所得税＋住民税）」でざっくり出る。
 
@@ -83,10 +79,7 @@ iDeCoの掛金は**全額が所得控除**。だから節税額は「掛金 × �
 
 考えてみて。**設定に使う手間はせいぜい1〜2時間**。それで毎年14万円の節税なら、初年度だけで“実質時給”は数万円。翌年以降は手間ゼロで節税だけ続く。アンケートやコツコツ系のポイ活が時給数百円なのと比べたら、**桁が違う効率**なの。もちろん掛金は60歳まで引き出せない“縛り”があるから、生活を圧迫しない範囲でね。
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-07-gasp.png" alt="" /></div>
-  <h2>入口は大改善。でも“出口”を甘く見るな</h2>
-</div>
+<h2>入口は大改善。でも“出口”を甘く見るな</h2>
 
 ここが多くの記事が触れない大事なポイント。iDeCoは**受け取るとき（出口）に課税**される。受け取り方は主に2つ。
 
@@ -97,10 +90,7 @@ iDeCoの掛金は**全額が所得控除**。だから節税額は「掛金 × �
 
 > ※退職所得控除の受給間隔ルールは改正・見直しの対象になりやすい領域。**受け取り時期が近づいたら、必ず最新の税制と自分の退職金の状況で確認**して。
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-05-smug.png" alt="" /></div>
-  <h2>iDeCoとNISA、どっちを優先？</h2>
-</div>
+<h2>iDeCoとNISA、どっちを優先？</h2>
 
 「新NISAもあるのに、iDeCoも要る？」ってよく聞かれる。使い分けはシンプル。
 

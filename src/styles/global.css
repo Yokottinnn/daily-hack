@@ -792,6 +792,9 @@ blockquote.twitter-tweet a:hover { color: var(--pink-700); }
 .section-with-mascot img { width: 100%; height: 100%; border-radius: 50%; object-fit: cover; object-position: 50% 15%; background: var(--pink-100); display: block; }
 /* 後方互換: ラッパーなし直接img（旧マークアップ） */
 .section-with-mascot > img { width: 72px; height: 72px; flex-shrink: 0; box-shadow: 0 0 0 3px #fff, 0 0 0 4px var(--pink-200); }
+/* 2026-10-25 利用者「いろんな記事のタイプに対応するために、この箇所でキャラクターを出すのはやめます。全記事に適用」。
+   見出しの横のキャラは出さない（古い記事に残っていても消す）。新しく書く記事にも置かない */
+.section-with-mascot .mascot-wrap, .section-with-mascot > img { display: none !important; }
 .section-with-mascot h2, .section-with-mascot h3 { margin: 0 !important; padding: 0 !important; border: 0 !important; flex: 1; min-width: 0; }
 @media (max-width: 540px) {
   .section-with-mascot .mascot-wrap { width: 56px; height: 56px; }
@@ -879,10 +882,12 @@ blockquote.twitter-tweet a:hover { color: var(--pink-700); }
 
 /* Inline related posts block (記事中インラインで使う内部リンク) */
 .related-block { background: var(--pink-50); border: 1px solid var(--pink-200); border-radius: 18px; padding: 18px 22px; margin: 32px 0; box-shadow: var(--shadow-card); }
-.related-block-head { display: flex; align-items: center; gap: 14px; margin-bottom: 16px; min-height: 48px; }
+.related-block-head { display: flex; align-items: center; gap: 14px; margin-bottom: 16px; }
+/* 2026-10-25 利用者「あわせて読みたいの箇所でキャラクターを出すのはやめます。全記事に適用」。題名と記事の紹介は残す */
+.related-block-icon { display: none !important; }
 .related-block-icon { flex-shrink: 0; width: 48px; height: 48px; border-radius: 50%; overflow: hidden; background: var(--pink-100); box-shadow: 0 0 0 2px #fff, 0 0 0 3px var(--pink-200); display: flex; align-items: center; justify-content: center; }
 .related-block-icon img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 40%; transform: scale(1.3); display: block; }
-.related-block-title { margin: 0; font-family: "RocknRoll One"; font-weight: 400; color: var(--pink-700); font-size: 19px; line-height: 1; display: inline-flex; align-items: center; min-height: 48px; }
+.related-block-title { margin: 0; font-family: "RocknRoll One"; font-weight: 400; color: var(--pink-700); font-size: 19px; line-height: 1.3; display: inline-flex; align-items: center; }
 .related-block-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
 .related-block-list li { margin: 0; }
 .related-block-list a { display: grid; grid-template-columns: 96px 1fr; gap: 14px; align-items: center; padding: 10px 14px 10px 10px; background: #fff; border-radius: 14px; border: 1px solid var(--line); color: var(--ink); font-size: 14.5px; line-height: 1.55; transition: border-color .15s, transform .15s, box-shadow .15s; text-decoration: none; }

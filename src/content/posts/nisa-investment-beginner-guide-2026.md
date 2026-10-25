@@ -21,7 +21,6 @@ author: "hacker-ko"
 
 <aside class="related-block">
   <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <p class="related-block-title">あわせて読みたい</p>
   </div>
   <ul class="related-block-list">
@@ -180,7 +179,6 @@ author: "hacker-ko"
 
 <aside class="related-block">
   <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-05-smug.png" alt="" /></span>
     <p class="related-block-title">入出金の効率化に</p>
   </div>
   <ul class="related-block-list">
@@ -201,10 +199,7 @@ author: "hacker-ko"
   </ul>
 </aside>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-09-arms-crossed.png" alt="" /></div>
-  <h2>証券会社選び｜SBI・楽天・マネックスを比較</h2>
-</div>
+<h2>証券会社選び｜SBI・楽天・マネックスを比較</h2>
 
 新NISA口座は **1人1社しか開けない**（年単位で変更は可能だが面倒）。最初の選択が全てを決める。アタシが3社を横並びで比較してあげるから、自分の生活圏に合うやつを選びなさい。
 
@@ -344,7 +339,6 @@ author: "hacker-ko"
 
 <aside class="related-block">
   <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <p class="related-block-title">クレカ積立の還元最適化</p>
   </div>
   <ul class="related-block-list">
@@ -453,7 +447,6 @@ author: "hacker-ko"
 
 <aside class="related-block">
   <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <p class="related-block-title">次に読むならコレ</p>
   </div>
   <ul class="related-block-list">

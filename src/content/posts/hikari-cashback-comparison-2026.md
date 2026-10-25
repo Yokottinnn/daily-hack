@@ -76,10 +76,7 @@ references:
 
 <p class="source-note">2年総額は1ギガ・公式申込・新規開通・24カ月継続の前提でアタシが計算した値。事務手数料は含まない。料金とキャンペーンは改定されるので、申し込む前に必ず公式ページで確かめて（2026年10月16日時点）。</p>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-07-gasp.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="期限のあるキャンペーン">期限のあるキャンペーン｜So-net 光の5,000円は10月18日まで</h2>
-</div>
+<h2 id="期限のあるキャンペーン">期限のあるキャンペーン｜So-net 光の5,000円は10月18日まで</h2>
 
 **調べている今いちばん先に確かめるのは、日付のついた条件。** 2026年10月16日時点で、公式ページに出ている日付を全部並べた。
 
@@ -99,10 +96,7 @@ references:
 
 **So-net 光の5,000円は1週間しか受け付けていない。** 2年総額の差は小さいけど、So-net 光は契約期間も解約金もない回線だから、「縛られたくない」人にはこの1週間が狙い目よ。
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-09-arms-crossed.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="戸建てランキング">光回線 2年総額ランキング｜戸建て（1ギガ）</h2>
-</div>
+<h2 id="戸建てランキング">光回線 2年総額ランキング｜戸建て（1ギガ）</h2>
 
 計算式は全社同じ。**月額×24カ月＋工事費の実負担−キャッシュバック**。月額は公式の「割引後」の表示を月ごとに積んだ。オプション加入が割引や工事費無料の条件になっている会社は、そのオプション代も足してある。
 
@@ -131,7 +125,6 @@ references:
 
 <aside class="related-block">
   <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <p class="related-block-title">あわせて読みたい</p>
   </div>
   <ul class="related-block-list">
@@ -152,10 +145,7 @@ references:
   </ul>
 </aside>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-09-arms-crossed.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="マンションランキング">光回線 2年総額ランキング｜マンション（1ギガ）</h2>
-</div>
+<h2 id="マンションランキング">光回線 2年総額ランキング｜マンション（1ギガ）</h2>
 
 マンションは戸建てと順位がガラッと変わる。**コミュファ光の「1年間980円」はマンションが対象外**だから、戸建て1位がマンションでは最下位に落ちるのよ。
 
@@ -178,10 +168,7 @@ references:
 
 **1位と2位の差は622円。** ほぼ同点ね。BIGLOBE光のキャッシュバック対象期間の表示が気になるなら、@nifty光を選んでも損はほとんどない。逆にBIGLOBE光のキャッシュバックが外れると、BIGLOBE光は105,072円で4位まで落ちる。**マンションで迷ったら、キャッシュバックの対象期間がいま有効かで決めなさい。**
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-06-shock.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="受け取り条件">「最大◯万円」の受け取り条件｜申請時期とオプションを全部読んだ</h2>
-</div>
+<h2 id="受け取り条件">「最大◯万円」の受け取り条件｜申請時期とオプションを全部読んだ</h2>
 
 キャッシュバックは**申し込んだ瞬間にもらえるお金じゃない。** 早くて8カ月後、遅いと17カ月後。しかも案内メールから45日以内に自分で手続きしないと消える会社がある。各社の規約を全部読んで、**手取りの額・受け取る時期・やること**を並べた。
 
@@ -211,10 +198,7 @@ references:
 
 **A8などの広告リンク経由のページは、公式トップとキャッシュバック額が違うことがある。** この記事のリンクから申し込むときも、リンク先に出ている額と条件を必ず確かめて。
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-02-pout.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="2年で解約">2年で解約したらいくら？｜工事費残債と解約金</h2>
-</div>
+<h2 id="2年で解約">2年で解約したらいくら？｜工事費残債と解約金</h2>
 
 「工事費実質0円」は**最後まで使った場合の話。** 分割の途中でやめると、残りの工事費が一括で請求される。24カ月目で解約したときに払うものを1社ずつ出した。
 
@@ -240,10 +224,7 @@ references:
 
 コミュファ光は**あと1カ月待つだけで0円**になる。24カ月目に解約を思い立ったら、25カ月目まで引っ張るのがコツね。
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-04-cheer.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="セット割">スマホのセット割を入れると順位が変わる</h2>
-</div>
+<h2 id="セット割">スマホのセット割を入れると順位が変わる</h2>
 
 光回線の比較で一番効くのは、実はキャッシュバックよりスマホのセット割。**1台あたり月1,100〜1,210円が、2年ずっと続く。** 戸建てで、スマホ1台を対象にした場合を計算した。
 
@@ -266,7 +247,6 @@ references:
 
 <aside class="related-block">
   <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <p class="related-block-title">あわせて読みたい</p>
   </div>
   <ul class="related-block-list">
@@ -287,10 +267,7 @@ references:
   </ul>
 </aside>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="各社の詳細">光回線8社を1社ずつ｜月額・工事費・キャッシュバックの条件</h2>
-</div>
+<h2 id="各社の詳細">光回線8社を1社ずつ｜月額・工事費・キャッシュバックの条件</h2>
 
 表だけだと「自分が申し込む1社」の条件が読み切れない。ここから1社ずつ、**節だけ読んでも完結する**ように同じ項目で並べる。数字はすべて上の表と同じもの。
 
@@ -486,10 +463,7 @@ references:
 <div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3XB4+3KLO7U+3SPO+HXSGH" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/flets-hikari-300x250.jpg" alt="フレッツ光" width="300" height="250" loading="lazy"></a></div>
 </div>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-04-cheer.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="選び方">あんたが選ぶべき光回線｜住まい・スマホ・期間で決める</h2>
-</div>
+<h2 id="選び方">あんたが選ぶべき光回線｜住まい・スマホ・期間で決める</h2>
 
 ここまでの数字を、迷わないように5つの場合に分けた。
 

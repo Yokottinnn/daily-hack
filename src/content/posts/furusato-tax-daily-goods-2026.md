@@ -21,7 +21,6 @@ author: "hacker-ko"
 
 <aside class="related-block">
   <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <p class="related-block-title">あわせて読みたい</p>
   </div>
   <ul class="related-block-list">
@@ -113,10 +112,7 @@ author: "hacker-ko"
 
 1万円寄付して**自己負担2,000円**で、これだけ届く。普通に買うと¥25,000かかる固定費を、年¥2,000の負担に圧縮できるわけ。**やらない理由、ある？**
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-05-smug.png" alt="" /></div>
-  <h2>トイレットペーパー｜絶対外さない王道3選</h2>
-</div>
+<h2>トイレットペーパー｜絶対外さない王道3選</h2>
 
 トイレットペーパーは**日用品返礼品の絶対王者**。寄付額1万円台で半年〜1年分が届く。製紙工場が集積する静岡富士市・愛媛四国中央市・北海道苫小牧市が御三家。アタシの推し3品は以下。
 
@@ -182,7 +178,6 @@ author: "hacker-ko"
 
 <aside class="related-block">
   <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <p class="related-block-title">食品とのバランスを取りたい人へ</p>
   </div>
   <ul class="related-block-list">
@@ -203,10 +198,7 @@ author: "hacker-ko"
   </ul>
 </aside>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-09-arms-crossed.png" alt="" /></div>
-  <h2>洗剤類｜家事の固定費を消す3選</h2>
-</div>
+<h2>洗剤類｜家事の固定費を消す3選</h2>
 
 洗濯洗剤・食器用洗剤・柔軟剤、これも**ドラッグストアで普通に買ったら年¥15,000は飛ぶ枠**。和歌山有田川町（花王）、佐賀小城市（P&G）が代表格。アタシのおすすめ3品はこれ。
 
@@ -268,10 +260,7 @@ author: "hacker-ko"
   </div>
 </div>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-04-cheer.png" alt="" /></div>
-  <h2>タオル｜今治の本気2選</h2>
-</div>
+<h2>タオル｜今治の本気2選</h2>
 
 タオルは**国産ブランド「今治タオル」一択**。安いノーブランド品を1年で買い替えるより、ふるさと納税で今治タオルを2〜3年単位で使うほうが圧倒的にコスパいい。給水力と耐久性が桁違い。
 
@@ -322,10 +311,7 @@ author: "hacker-ko"
   </div>
 </div>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-05-smug.png" alt="" /></div>
-  <h2>ティッシュ・キッチン消耗品｜地味だけど刺さる2選</h2>
-</div>
+<h2>ティッシュ・キッチン消耗品｜地味だけど刺さる2選</h2>
 
 最後は地味だけど確実に消費する**ティッシュとキッチンペーパー**。これも製紙のまち（富士市・四国中央市）が強い。年間消費がデカいので寄付の候補に必ず入れて。
 
@@ -358,7 +344,6 @@ author: "hacker-ko"
 
 <aside class="related-block">
   <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <p class="related-block-title">寄付の前にこれも</p>
   </div>
   <ul class="related-block-list">
@@ -424,7 +409,6 @@ author: "hacker-ko"
 
 <aside class="related-block">
   <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <p class="related-block-title">クレカ決済で還元を底上げ</p>
   </div>
   <ul class="related-block-list">

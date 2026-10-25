@@ -50,10 +50,7 @@ references:
 
 **いま買うならこの順番になる**。Amazonで買う物は、プライム感謝祭の最終日の10月19日（月）23:59までに買う。楽天市場で買う物は、楽天カードで払うとポイントが+3倍になる10月20日（火）に買う。**2つのイベントは期間がずれている**ので、全部を1か所にまとめず、商品ごとに買う場所を分けるとポイントが増える。
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-06-shock.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="楽天マラソン">楽天お買い物マラソン｜10月14日〜17日・上限7,000ポイント</h2>
-</div>
+<h2 id="楽天マラソン">楽天お買い物マラソン｜10月14日〜17日・上限7,000ポイント</h2>
 
 <h3 class="brand-h" id="楽天お買い物マラソンの条件"><img class="brand-logo" src="/images/prime-sale-vs-rakuten-autumn-2026/logos/rakutenichiba-app.jpg" alt="楽天市場のロゴ" loading="lazy" /><span>楽天お買い物マラソンの条件｜買ったお店の数で倍率が上がる</span></h3>
 
@@ -79,10 +76,7 @@ references:
 
 **楽天ふるさと納税は、2025年10月1日から原則ポイント付与の対象外**（マラソンのページに明記）。寄附でお店の数を増やす方法は、いまは使えない。
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-04-cheer.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="プライム感謝祭">Amazonプライム感謝祭 2026｜10月19日23:59まで・上限10,000ポイント</h2>
-</div>
+<h2 id="プライム感謝祭">Amazonプライム感謝祭 2026｜10月19日23:59まで・上限10,000ポイント</h2>
 
 <h3 class="brand-h" id="プライム感謝祭のポイントアップ"><img class="brand-logo" src="/images/prime-sale-vs-rakuten-autumn-2026/logos/amazon.png" alt="Amazonのロゴ" loading="lazy" /><span>プライム感謝祭のポイントアップ｜買い物の合計1万円以上で最大18%</span></h3>
 
@@ -110,7 +104,6 @@ references:
 
 <aside class="related-block">
   <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <p class="related-block-title">あわせて読みたい</p>
   </div>
   <ul class="related-block-list">
@@ -131,10 +124,7 @@ references:
   </ul>
 </aside>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-09-arms-crossed.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="ルールの違い">Amazonプライム感謝祭と楽天お買い物マラソンの違い｜同じ物差しで並べた</h2>
-</div>
+<h2 id="ルールの違い">Amazonプライム感謝祭と楽天お買い物マラソンの違い｜同じ物差しで並べた</h2>
 
 **2つのイベントは、どちらもエントリーが必要で、もらえるのはどちらも期間限定ポイント**。違うのは「何を満たすとポイントが増えるか」。
 
@@ -157,10 +147,7 @@ references:
 
 **入口の金額は同じ**。楽天市場で10店そろえるのに要る最低額も、1,000円×10店＝1万円で、Amazonの条件の「合計1万円」と同じになる。
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-07-gasp.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="上限に当たる金額">何円買うとポイントの上限に届くか｜楽天市場10店なら約7.8万円</h2>
-</div>
+<h2 id="上限に当たる金額">何円買うとポイントの上限に届くか｜楽天市場10店なら約7.8万円</h2>
 
 **上乗せされるポイントには上限があるので、ある金額を超えると、それ以上買っても上乗せは増えない**。その金額を、公式の倍率と上限から計算した。
 
@@ -204,10 +191,7 @@ references:
 
 **この表だけ見るとAmazonが強いが、それは条件が全部そろったときの数字**。楽天市場はSPUのポイントが別に付くので、楽天カードや楽天モバイルを使っている人ほど差が縮まる。次の節で、その差を同じ商品で確かめた。
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-07-gasp.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="倍率は人によって違う">楽天市場のポイント倍率は人によって違う｜7.3倍の人と1倍の人で比べる</h2>
-</div>
+<h2 id="倍率は人によって違う">楽天市場のポイント倍率は人によって違う｜7.3倍の人と1倍の人で比べる</h2>
 
 **楽天市場で付くポイントの倍率は、人によって違う**。楽天カードで払う・楽天モバイルを契約しているなど、楽天のサービスを使うほど倍率が上がる仕組み（SPU）があるため。同じ商品でも、表示される「◯ポイント（◯倍）」は見る人ごとに変わる。
 
@@ -224,10 +208,7 @@ references:
 
 **自分の倍率は、楽天市場の商品ページの「◯ポイント（◯倍）」で確かめられる**。<a href="https://hb.afl.rakuten.co.jp/hgc/587f2635.77bb335f.587f2636.e34c8733/?pc=https%3A%2F%2Fevent.rakuten.co.jp%2Fcampaign%2Fpoint-up%2Feveryday%2Fpoint%2F&m=https%3A%2F%2Fevent.rakuten.co.jp%2Fcampaign%2Fpoint-up%2Feveryday%2Fpoint%2F" target="_blank" rel="sponsored noopener nofollow">SPUのページ</a>では、どのサービスで何倍上がるかの一覧が見られる。
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="買い比べ">同じ商品7つをAmazonと楽天市場で買い比べ｜倍率で勝ち負けが入れ替わる</h2>
-</div>
+<h2 id="買い比べ">同じ商品7つをAmazonと楽天市場で買い比べ｜倍率で勝ち負けが入れ替わる</h2>
 
 **同じ型番の商品7つについて、Amazonと楽天市場の値段とポイントを並べ、「値段からポイントを引いた金額」で比べた**。楽天市場の列は、Amazonより安いときに太字にしている。
 
@@ -264,10 +245,7 @@ references:
 
 **楽天市場の倍率が高い人は楽天市場のほうが安くなりやすく、倍率が低い人はAmazonのほうが安くなりやすい**。このうえで、Amazonプライム感謝祭の上乗せ（条件が全部そろうと最大18%）はAmazonの列にさらに効いてくる。
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="判断表">同じ物はどっちで買う？｜この場合はAmazon、その場合は楽天市場</h2>
-</div>
+<h2 id="判断表">同じ物はどっちで買う？｜この場合はAmazon、その場合は楽天市場</h2>
 
 **ここまでの条件と買い比べから、買い方ごとにどちらで買うとポイントが増えるかを整理した**。
 
@@ -286,10 +264,7 @@ references:
   </table>
 </div>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-04-cheer.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="この先の楽天">この先の楽天市場｜10月20日の5と0のつく日・SPU・次のスーパーSALE</h2>
-</div>
+<h2 id="この先の楽天">この先の楽天市場｜10月20日の5と0のつく日・SPU・次のスーパーSALE</h2>
 
 <h3 class="brand-h" id="5と0のつく日"><img class="brand-logo" src="/images/prime-sale-vs-rakuten-autumn-2026/logos/rakutencard.png" alt="楽天カードのロゴ" loading="lazy" /><span>5と0のつく日｜10月20日は楽天カードで払うと+3倍</span></h3>
 
@@ -312,10 +287,7 @@ references:
 
 **楽天スーパーSALEは、10月16日時点で次の日程がまだ発表されていない**。急がない高い物を次の楽天スーパーSALEまで待つなら、楽天の公式ページで日程が出てから決める。夏のプライムデーと楽天をどう使い分けたかは<a href="/posts/amazon-prime-day-rakuten-ss-2026/">夏のプライムデー×楽天スーパーSALEの記事</a>にある。
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="ポイントサイト">買う前に寄る入口｜ポイントサイトのハピタス・ちょびリッチ</h2>
-</div>
+<h2 id="ポイントサイト">買う前に寄る入口｜ポイントサイトのハピタス・ちょびリッチ</h2>
 
 **Amazonや楽天市場で買う前に、ポイントサイトを1回通すと、さらにポイントが付くことがある**。ポイントサイトのページから楽天市場などのお店へ移動して買うと、お店のポイントとは別に、ポイントサイトのポイントが付く仕組み。どのお店が対象で何%付くかは、それぞれのポイントサイトの案件ページで確かめる。
 
@@ -363,7 +335,6 @@ references:
 
 <aside class="related-block">
   <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <p class="related-block-title">あわせて読みたい</p>
   </div>
   <ul class="related-block-list">
