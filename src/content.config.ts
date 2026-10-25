@@ -40,6 +40,19 @@ const posts = defineCollection({
       eyecatchAlt: z.string().optional(),
       relatedReferrals: z.array(z.string()).optional(),
       parentPillar: z.string().optional(),
+      // 湾岸ニュースなどイベントの記事（2026-10-25）。あれば Event の構造化データを出す（検索・AI の回答にイベントとして載るため）
+      event: z
+        .object({
+          name: z.string(),
+          startDate: z.string(),
+          endDate: z.string().optional(),
+          locationName: z.string(),
+          address: z.string(),
+          isFree: z.boolean().optional(),
+          url: z.string().optional(),
+          organizer: z.string().optional(),
+        })
+        .optional(),
       isPR: z.boolean().default(false),
       draft: z.boolean().default(false),
       featured: z.boolean().default(false),
