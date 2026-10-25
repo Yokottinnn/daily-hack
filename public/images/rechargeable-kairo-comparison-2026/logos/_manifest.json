@@ -1,0 +1,32 @@
+{
+ "francfranc.png": {
+  "brand": "Francfranc",
+  "src": "https://francfranc.com/cdn/shop/t/3/assets/og1200x630_1200x.png",
+  "fetched": "2026-10-25",
+  "note": "黒地の白抜き。外側の黒い余白だけ落とした（on-dark で表示）"
+ },
+ "hagoogi.png": {
+  "brand": "HAGOOGI",
+  "src": "https://hagoogi.com/cdn/shop/files/hagoogi_1200x1200.png",
+  "fetched": "2026-10-25",
+  "note": "透明の余白を落とした"
+ },
+ "mottole.png": {
+  "brand": "mottole",
+  "src": "https://a1b2c3d4e5.itembox.cloud/item/images/mottole_logo_80.png",
+  "fetched": "2026-10-25",
+  "note": "公式通販のヘッダーのロゴ"
+ },
+ "elaice.png": {
+  "brand": "ELAiCE",
+  "src": "https://www.elaice.jp/wp-content/themes/ELAICE/img/common/logo.png",
+  "fetched": "2026-10-25",
+  "note": "公式サイトのヘッダーのロゴ"
+ },
+ "sanwa.png": {
+  "brand": "サンワサプライ",
+  "src": "https://www.sanwa.co.jp/static/images/common/header/sanwa_logo.png",
+  "fetched": "2026-10-25",
+  "note": "公式サイトのヘッダーのロゴ"
+ }
+}
