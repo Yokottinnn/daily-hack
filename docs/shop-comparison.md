@@ -67,6 +67,10 @@
 | Yahoo!ショッピング | 素の `shopping.yahoo.co.jp`（商品 or 検索） | isPR の記事で LinkSwitch（vc_pid 892728470）が成果リンクに変える。VC「Yahoo!ショッピング 自動提携機能用」提携済み |
 | Amazon | `af.moshimo.com/af/c/click?…&url=<amazon>` | **もしも経由で Amazon と提携してから。** `config.json` の `moshimo*` 4 つが null のあいだは Amazon ボタンを出さない |
 
+- **成果リンクになることを実物で確かめた（2026-10-25）**
+  - 楽天: 3 店ボタンのリンク → `hb.afl.rakuten.co.jp/ichiba/<ID>` → `pt.afl.rakuten.co.jp/c/587f2635.77bb335f/`（楽天の計測）→ 商品・検索ページ（`scid=af_pc_etc`）。個人 ID で計測される
+  - Yahoo!: 本番のドメインに PostLayout と同じ LinkSwitch のタグ（vc_pid 892728470）を置いたページで、素の `store.shopping.yahoo.co.jp`・`shopping.yahoo.co.jp/search` のリンクが読み込み時に `dalr.valuecommerce.com/dck/…?pid=892728470&sid=3776384&mid=2201292` に差し替わった（押しても同じ先へ出ていく）。**isPR: true の記事でだけ効く**（だから isPR でない記事ではビルドを落とす）
+  - Amazon: もしもで提携が通るまでボタンを出さない（報酬にならないリンクを出さない）
 - 楽天のリンクを使った記事は `docs/affiliate-registry.md` の「楽天アフィリエイトのリンクを入れた記事」に足す（法人 ID への張り替えの一覧）
 - 報酬額は記事に書かない
 
