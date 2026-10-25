@@ -350,6 +350,7 @@ references: ["<出典URL>", ...]
 | `<div class="section-with-mascot">` ＋ `mascot-wrap`（見出しの横のキャラ） | **素の `## 見出し`**（id が自動で付く） |
 | `<span class="related-block-icon">`（あわせて読みたいのキャラ） | **書かない。** `related-block-title`（題名）・カテゴリ・記事の紹介は残す |
 
+- 記事の末尾の「シリーズの他の記事」「同じカテゴリの記事」の見出しのキャラも外した（`PostLayout.astro`）
 - 2026-10-25 に全記事から外した（見出し 234 か所・あわせて読みたい 128 か所）。部品 `RelatedPostsBlock.astro` / `InlineRelated.astro` からも外した
 - `global.css` で `.mascot-wrap` と `.related-block-icon` を `display: none` にしてある。**古い書き方が紛れても出ないが、新しく書かない**
 - **`hakkako-says`（ハッカー子の吹き出し）は対象外。** 冒頭と締めの吹き出しはそのまま使う
@@ -712,7 +713,7 @@ ls public/images/*/logos/*.png        # ← **先にここを見る**
 **湾岸ライフの記事（湾岸ニュースを含む）は、必ず「SNS ではこう言われている」の節を置く**（2026-10-25 利用者
 「X や YouTube、インスタで特集されている投稿を実際に探してきて、どんなことを言っているかまとめて掲載して。すべての湾岸ライフ記事で同じように」）。
 X は Mac（`ops/tasks/t331-wangan-news-x-voices.sh` の形）、YouTube はクラウドの検索結果＋oEmbed 照合。言っていることを 3〜5 行でまとめ、実投稿を埋め込む。
-**湾岸ニュースの表紙は公式の元の画像をそのまま使う**（`scripts/gen-news-cover.py`。見出しを載せた記事風の表紙にしない）。手順は `docs/wangan-news-routine.md`。
+**湾岸ニュースの表紙は公式の元の画像をそのまま使う**（`scripts/gen-news-cover.py`。見出しを載せた記事風の表紙にしない）。**縦長の画像でも 16:9 に切り取って画面いっぱいにする**（2026-10-25 利用者「基本的には切り取った方がいい」。`--y` で残す高さを選び、題名・日付が切れていないか見る。どうしても入らないときだけ `--fit`）。手順は `docs/wangan-news-routine.md`。
 
 **行った人の声が無い記事は、どこにでもある要約記事になる。**
 対象ごとに、その施設に触れている実投稿を 1 つ埋め込む。

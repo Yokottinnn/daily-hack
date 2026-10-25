@@ -473,6 +473,7 @@ ArtifactData(action="list", url=<上の URL>, collection="pins")   ← これで
 
 - **見出しは素の `## 見出し` で書く。** `section-with-mascot` / `mascot-wrap` を使わない
 - **関連記事ブロックに `related-block-icon` を書かない。** 題名・カテゴリ・記事の紹介は残す
+- 記事の末尾の「シリーズの他の記事」「同じカテゴリの記事」の見出しのキャラも外した
 - 2026-10-25 に全記事と部品から外した。`global.css` でも隠してある。**`hakkako-says`（吹き出し）は対象外**
 - 書き方は [`blog-article` スキル](.claude/skills/blog-article/SKILL.md) の「見出しと『あわせて読みたい』にキャラを出さない」
 

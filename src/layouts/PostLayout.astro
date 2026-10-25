@@ -271,7 +271,7 @@ const howToLd = howToJsonLd(post.body, data.title);
     {siblingClusters.length > 0 && parentPillar && (
       <section style="padding: 56px 0 24px;">
         <div class="sec-head">
-          <h2><span class="chibi"><img src="/images/expr-04-cheer.png" alt="" /></span>シリーズの他の記事</h2>
+          <h2>シリーズの他の記事</h2>
           <a href={`/posts/${parentPillar.id}/`} class="seeall">メイン記事へ戻る →</a>
         </div>
         <div class="articles">
@@ -283,7 +283,7 @@ const howToLd = howToJsonLd(post.body, data.title);
     {related.length > 0 && (
       <section style="padding: 32px 0 56px;">
         <div class="sec-head">
-          <h2><span class="chibi"><img src="/images/expr-05-smug.png" alt="" /></span>同じカテゴリの記事</h2>
+          <h2>同じカテゴリの記事</h2>
           <a href={`/category/${primaryCat}/`} class="seeall">すべて見る →</a>
         </div>
         <div class="articles">
