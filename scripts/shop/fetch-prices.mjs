@@ -17,7 +17,7 @@ const DIR = args.dir || path.join(process.cwd(), 'src/data/shop');
 const { RAKUTEN_APP_ID = '', RAKUTEN_ACCESS_KEY = '', YAHOO_APP_ID = '' } = process.env;
 const RAKUTEN_EP = process.env.RAKUTEN_ENDPOINT || 'https://openapi.rakuten.co.jp/ichibams/api/IchibaItem/Search/20260701';
 const YAHOO_EP = 'https://shopping.yahooapis.jp/ShoppingWebService/V3/itemSearch';
-const DEFAULT_EXCLUDE = ['中古', 'ジャンク', '訳あり', 'レンタル', '交換用', '専用ケース', 'カバーのみ'];
+const DEFAULT_EXCLUDE = ['中古', 'ジャンク', '訳あり', 'レンタル', '交換用', '専用ケース', 'カバーのみ', '変換ケーブル', '変換アダプター', '交換バッテリー'];
 
 const norm = (s) => String(s || '').normalize('NFKC').toLowerCase().replace(/\s+/g, '');
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
