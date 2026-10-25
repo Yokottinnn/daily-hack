@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-25T12:25:49.515Z",
+  "generated": "2026-10-25T13:08:56.172Z",
   "providers": {
     "moshimo": {
       "name": "もしもアフィリエイト",
@@ -7,82 +7,8 @@
       "needsHuman": false,
       "credentialsInKeychain": true,
       "reason": "",
-      "autoLoginTried": true,
       "url": "https://af.moshimo.com/af/shop/index",
       "title": "メディアオーナートップページ ｜ もしもアフィリエイト",
-      "loginSteps": [
-        {
-          "label": "パスワードを打った直後",
-          "url": "https://af.moshimo.com/af/shop/login",
-          "ins": [
-            "text:account=15文字",
-            "password:password=12文字",
-            "submit:login=4文字",
-            "submit:=0文字"
-          ],
-          "msgs": [],
-          "btns": [
-            "a「トップ」",
-            "a「運営会社」",
-            "a「はじめての方へ」",
-            "a「サービスの特徴」",
-            "a「よくある質問」",
-            "a「利用者インタビュー」",
-            "input「ログイン」",
-            "a「ID・パスワードを忘れた方はこち」",
-            "a「こちらからログインしてください。」",
-            "a「会員登録する（無料）」",
-            "a「はじめての方へ」",
-            "a「サービスの特徴」"
-          ]
-        },
-        {
-          "label": "パスワードを送ったあと",
-          "url": "https://af.moshimo.com/af/shop/index",
-          "ins": [
-            "text:words=0文字",
-            "submit:=0文字"
-          ],
-          "msgs": [],
-          "btns": [
-            "a「もしもキャッシュバック」",
-            "a「プロモーション検索」",
-            "a「新着」",
-            "a「おすすめ」",
-            "a「SNS・YouTube注力」",
-            "a「本人申込OK」",
-            "a「ショッピング」",
-            "a「暮らし・住まい」",
-            "a「エンタメ・ホビー」",
-            "a「働く・学ぶ」",
-            "a「ビジネス」",
-            "a「健康・スポーツ」"
-          ]
-        },
-        {
-          "label": "さらに 4 秒後",
-          "url": "https://af.moshimo.com/af/shop/index",
-          "ins": [
-            "text:words=0文字",
-            "submit:=0文字"
-          ],
-          "msgs": [],
-          "btns": [
-            "a「もしもキャッシュバック」",
-            "a「プロモーション検索」",
-            "a「新着」",
-            "a「おすすめ」",
-            "a「SNS・YouTube注力」",
-            "a「本人申込OK」",
-            "a「ショッピング」",
-            "a「暮らし・住まい」",
-            "a「エンタメ・ホビー」",
-            "a「働く・学ぶ」",
-            "a「ビジネス」",
-            "a「健康・スポーツ」"
-          ]
-        }
-      ],
       "menus": 9
     },
     "rakuten": {
