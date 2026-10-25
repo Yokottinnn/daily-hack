@@ -22,7 +22,6 @@ author: "hacker-ko"
 
 <aside class="related-block">
   <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <p class="related-block-title">あわせて読みたい</p>
   </div>
   <ul class="related-block-list">
@@ -121,10 +120,7 @@ author: "hacker-ko"
 
 **年12万円**。これが3大コスト見直しのリアルな上限値ね。「そんなに削れるわけない」って思ったあんた、その思い込みのまま10年過ごせば**120万円損する**計算。やらない理由、本当にある？
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-09-arms-crossed.png" alt="" /></div>
-  <h2>通信費編｜格安SIM乗り換えで月5,000円カット</h2>
-</div>
+<h2>通信費編｜格安SIM乗り換えで月5,000円カット</h2>
 
 3大コストの中で**インパクトが一番デカいのが通信費**。なぜなら、大手3キャリア（ドコモ・au・ソフトバンク）の料金プランは、格安SIM・サブブランドと比較して**月5,000〜7,000円高い**から。家族4人なら月2万円差、年24万円差。これを放置してきた人類、いい加減目を覚ましなさいよ。
 
@@ -182,7 +178,6 @@ ahamo・povo・LINEMO・楽天モバイル・UQモバイル・ワイモバイル
 
 <aside class="related-block">
   <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <p class="related-block-title">通信費とセットで見直したい</p>
   </div>
   <ul class="related-block-list">
@@ -279,7 +274,6 @@ ahamo・povo・LINEMO・楽天モバイル・UQモバイル・ワイモバイル
 
 <aside class="related-block">
   <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <p class="related-block-title">楽天経済圏で固める</p>
   </div>
   <ul class="related-block-list">
@@ -300,10 +294,7 @@ ahamo・povo・LINEMO・楽天モバイル・UQモバイル・ワイモバイル
   </ul>
 </aside>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-02-pout.png" alt="" /></div>
-  <h2>サブスク編｜棚卸し → 解約フローで月3,000円カット</h2>
-</div>
+<h2>サブスク編｜棚卸し → 解約フローで月3,000円カット</h2>
 
 サブスクは**気づいたら積み上がってる**のが厄介。月500円のサービスを6個契約してれば、それだけで月3,000円。半年使ってないサブスクが2〜3個あるのは平均的な家庭の常識。あんたの財布、勝手に開いて勝手に金が出ていってない？
 
@@ -406,7 +397,6 @@ ahamo・povo・LINEMO・楽天モバイル・UQモバイル・ワイモバイル
 
 <aside class="related-block">
   <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <p class="related-block-title">浮いたお金の使い道</p>
   </div>
   <ul class="related-block-list">
@@ -497,7 +487,6 @@ ahamo・povo・LINEMO・楽天モバイル・UQモバイル・ワイモバイル
 
 <aside class="related-block">
   <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <p class="related-block-title">次に読むならコレ</p>
   </div>
   <ul class="related-block-list">

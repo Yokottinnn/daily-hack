@@ -106,7 +106,6 @@ references: ["https://tokyo-toyosu.manyo.co.jp/price/", "http://www.shopping-sum
 
 <aside class="related-block">
   <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-05-smug.png" alt="" /></span>
     <p class="related-block-title">湾岸を出て“絶景サウナ”に行くなら</p>
   </div>
   <ul class="related-block-list">

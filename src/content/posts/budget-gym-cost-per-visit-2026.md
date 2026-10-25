@@ -27,7 +27,6 @@ references:
 
 <aside class="related-block">
   <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <p class="related-block-title">先に読んでおきたい</p>
   </div>
   <ul class="related-block-list">
@@ -203,7 +202,6 @@ references:
 
 <aside class="related-block">
   <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <p class="related-block-title">あわせて読みたい</p>
   </div>
   <ul class="related-block-list">

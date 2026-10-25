@@ -30,7 +30,6 @@ references:
 
 <aside class="related-block">
   <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <p class="related-block-title">先に読んでおきたい</p>
   </div>
   <ul class="related-block-list">
@@ -170,10 +169,7 @@ references:
 
 <h3 class="brand-h" id="-メンズリゼ--医療系総合バランス最強"><img class="brand-logo" src="/images/mens-hairremoval-comparison-2026/logos/mensrize.png" alt="メンズリゼのロゴ" loading="lazy" /><span>1. メンズリゼ — 医療系総合バランス最強</span></h3>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-04-cheer.png" alt="" /></div>
-  <h4>「初回契約者特化＋追加照射安い」設計が秀逸</h4>
-</div>
+<h4>「初回契約者特化＋追加照射安い」設計が秀逸</h4>
 
 | 項目 | 内容 |
 |---|---|
@@ -414,7 +410,6 @@ references:
 
 <aside class="related-block">
   <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <p class="related-block-title">あわせて読みたい</p>
   </div>
   <ul class="related-block-list">

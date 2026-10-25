@@ -69,10 +69,7 @@ references:
 
 <p class="source-note">4泊5日は24時間×5日間使うとして計算した。トリファは5日間のプランが無いので7日間プランで計算。料金は改定されるので、申し込む前に必ず公式ページで確かめて（2026年10月16日時点）。</p>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-07-gasp.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="料金が変わる日">料金が変わる日｜auは2027年2月1日、ソフトバンクは2026年12月以降</h2>
-</div>
+<h2 id="料金が変わる日">料金が変わる日｜auは2027年2月1日、ソフトバンクは2026年12月以降</h2>
 
 **旅行の日付によって、同じキャリアでも料金が変わる。** 公式ページに出ている日付を先に並べた。
 
@@ -91,10 +88,7 @@ references:
 
 **2027年2月以降にauで旅行するなら、1日800円ではなく980円で計算し直すこと。** 4泊5日なら4,000円が4,900円になる。
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-06-shock.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="0円の行">0円の行から確かめる｜キャリアの無料ローミング枠</h2>
-</div>
+<h2 id="0円の行">0円の行から確かめる｜キャリアの無料ローミング枠</h2>
 
 eSIMの比較記事は、ここを飛ばしてる。**今の契約に無料枠が付いているなら、何も買わずに出国していい。**
 
@@ -116,7 +110,6 @@ eSIMの比較記事は、ここを飛ばしてる。**今の契約に無料枠�
 
 <aside class="related-block">
   <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <p class="related-block-title">あわせて読みたい</p>
   </div>
   <ul class="related-block-list">
@@ -137,10 +130,7 @@ eSIMの比較記事は、ここを飛ばしてる。**今の契約に無料枠�
   </ul>
 </aside>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-09-arms-crossed.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="4泊5日の総額">4泊5日の総額｜韓国・台湾・ハワイ・タイを全部並べた</h2>
-</div>
+<h2 id="4泊5日の総額">4泊5日の総額｜韓国・台湾・ハワイ・タイを全部並べた</h2>
 
 無料枠が無い人、足りない人のための表。**同じサービスでも、行き先で値段が変わるのは海外WiFiだけ**。eSIMとキャリアは4か国とも同じ額になる。
 
@@ -164,10 +154,7 @@ eSIMの比較記事は、ここを飛ばしてる。**今の契約に無料枠�
 
 **韓国とハワイは、海外WiFiが現地空港で受け取れない分だけ高くなる。** 公式ページに現地空港受取の案内があるのは台湾とタイだけで、韓国・ハワイは国内での受け取りになるから配送料1,000円が乗るのよ。
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-04-cheer.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="1日単価">1日単価と1GB単価｜どこにも出ていない並べ方</h2>
-</div>
+<h2 id="1日単価">1日単価と1GB単価｜どこにも出ていない並べ方</h2>
 
 総額だけだと、日数が違う旅行に当てはめられない。**4泊5日の総額を5日で割った1日単価**と、容量が決まっているものは**1GBあたりの単価**を出した。
 
@@ -194,10 +181,7 @@ eSIMの比較記事は、ここを飛ばしてる。**今の契約に無料枠�
 
 **1GBあたりで一番安いのはトリファの10GB（382円）。** 楽天モバイルの追加チャージ（1GB 500円）より安い。つまり楽天モバイルの人でも、5GB以上使うならトリファの10GBを買ったほうが得になる場面がある。次の節で、使う量ごとに比べるわよ。
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="使う量別">使う量別｜5日で2GB・5GB・10GBなら、どれが最安？</h2>
-</div>
+<h2 id="使う量別">使う量別｜5日で2GB・5GB・10GBなら、どれが最安？</h2>
 
 **無料枠が無い人（ドコモ・auの対象外プラン、ソフトバンクでハワイ以外）を前提に**、5日間に使う量で最安を出した。
 
@@ -215,10 +199,7 @@ eSIMの比較記事は、ここを飛ばしてる。**今の契約に無料枠�
 
 楽天モバイルの人は、**2GBまでは0円**。5GBなら追加3GBで1,500円、10GBなら追加8GBで4,000円。**5GBまでは楽天モバイルのまま、10GB使うならトリファの10GB（3,820円）か台湾・タイのSakura Mobile（3,400円）が安い**。
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-04-cheer.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="サービス別">サービスを1つずつ｜トリファ・Sakura Mobile・各キャリア</h2>
-</div>
+<h2 id="サービス別">サービスを1つずつ｜トリファ・Sakura Mobile・各キャリア</h2>
 
 表だけだと条件の細かいところが読めない。ここから1つずつ、**節だけ読んでも完結する**ように並べる。
 
@@ -336,7 +317,6 @@ eSIMの比較記事は、ここを飛ばしてる。**今の契約に無料枠�
 
 <aside class="related-block">
   <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <p class="related-block-title">あわせて読みたい</p>
   </div>
   <ul class="related-block-list">
@@ -357,12 +337,20 @@ eSIMの比較記事は、ここを飛ばしてる。**今の契約に無料枠�
   </ul>
 </aside>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-02-pout.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="手間と罠">手間と罠｜受け取り・返却・実名登録・電話番号</h2>
-</div>
+<h2 id="手間と罠">手間と罠｜受け取り・返却・実名登録・電話番号</h2>
 
 安さだけで決めると、空港で慌てる。**出発前に引っかかりやすい点**をまとめた。
+
+<div class="cmp-table-wrap">
+  <table class="cmp-table prose-table">
+    <thead><tr><th>手段</th><th>受け取り・返却と電話番号</th></tr></thead>
+    <tbody>
+      <tr><td><strong>eSIM</strong>（トリファ）</td><td>受け取りも返却も<strong>無い</strong><br><span class="cell-sub">アプリで買って現地でONにするだけ。電話番号は無い（データ通信のみ）</span></td></tr>
+      <tr><td><strong>キャリアのローミング</strong></td><td>受け取りも返却も<strong>無い</strong><br><span class="cell-sub">申込み不要か事前の申込みだけ。SMSの認証コードも受け取れる</span></td></tr>
+      <tr><td><strong>海外WiFi</strong></td><td>受け取りと返却が<strong>要る</strong><br><span class="cell-sub">国内宅配は利用開始日の5日前までに注文。返却はレターパック</span></td></tr>
+    </tbody>
+  </table>
+</div>
 
 <ul class="checklist">
   <li><div class="checklist-body"><strong>eSIMとキャリアは受け取りも返却もない</strong><p>トリファはアプリで買って現地でONにするだけ。キャリアは申込み不要か事前の申込みだけ。海外WiFiは受け取りと返却が要る。</p></div></li>
@@ -373,10 +361,7 @@ eSIMの比較記事は、ここを飛ばしてる。**今の契約に無料枠�
   <li><div class="checklist-body"><strong>ソフトバンクはSMSが届くと海外パケットし放題が自動で付く</strong><p>1日2,980円。スマホなら海外あんしん定額（980円）にしておく。</p></div></li>
 </ul>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-09-arms-crossed.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="選び方">あんたが選ぶべき海外通信｜契約と行き先で決める</h2>
-</div>
+<h2 id="選び方">あんたが選ぶべき海外通信｜契約と行き先で決める</h2>
 
 <div class="cmp-table-wrap">
   <table class="cmp-table wrap-table">

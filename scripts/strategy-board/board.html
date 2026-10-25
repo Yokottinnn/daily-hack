@@ -269,6 +269,9 @@ tr[data-ccount]::after{top:4px;right:4px}
   <div class="note" id="pv-note">訪問の数の読み方：データ待ち</div>
   <h2>検索で表示されている記事（直近 90 日）</h2>
   <div class="tbl"><table class="wf"><thead><tr><th>記事</th><th>クリック</th><th>表示</th><th>平均順位</th><th>訪問（記録のある全期間）</th><th>成果リンク</th></tr></thead><tbody id="tbl-top"><tr><td colspan="6" class="empty">データ待ち</td></tr></tbody></table></div>
+  <h2 data-cid="now.pq">2 ページ目（20 位）までに入っている検索語と記事（直近 90 日）</h2>
+  <p class="src">強化する記事を選ぶための表です。<b>平均の掲載順位が 20 位以内の語</b>がある記事を、その語の表示回数の多い順に並べ、同じ記事が<b>ほかにどんな語で表示されているか</b>も並べます。Search Console は表示の少ない語を伏せるので、ここに出るのは伏せられなかった語だけです。毎日の更新で入れ替わります。</p>
+  <div class="tbl"><table class="wf"><thead><tr><th>記事</th><th>20 位以内の語（順位・表示・クリック）</th><th>ほかの語（順位・表示）</th></tr></thead><tbody id="tbl-pq"><tr><td colspan="3" class="empty">データ待ち</td></tr></tbody></table></div>
   <h2 data-cid="now.m5dkh">読まれている記事（直近 28 日）</h2>
   <p class="src">「読者」はボット（機械的なアクセス）を除いた訪問、「訪問」はボットを含む数。「検索から」は Search Console のクリックで、読者との差が検索以外（X・直接など）から来た分です。「内訳」を押すと日ごとの詳細が開きます。</p>
   <div class="tbl"><table class="wf"><thead><tr><th>記事</th><th>読者（ボット除外）</th><th>訪問（ボット込み）</th><th>検索から</th><th>内訳</th><th>成果リンク</th></tr></thead><tbody id="tbl-read"><tr><td colspan="5" class="empty">データ待ち</td></tr></tbody></table></div>
@@ -306,10 +309,14 @@ tr[data-ccount]::after{top:4px;right:4px}
   <p class="src">「本人 OK」はセルフバック（自分で申し込んで報酬を受け取る）に使える印。報酬は広告側の公開条件で、自分の実績ではありません。A8 とバリューコマース・もしもは毎日 Mac が読み直します。</p>
   <div class="tabs" id="asp-tabs"><button type="button" data-a="all" aria-pressed="true">すべて</button><button type="button" data-a="A8" aria-pressed="false">A8</button><button type="button" data-a="バリューコマース" aria-pressed="false">バリューコマース</button><button type="button" data-a="もしも" aria-pressed="false">もしも</button><button type="button" data-a="楽天" aria-pressed="false">楽天</button></div>
   <div class="filters" id="a8-filters"><button type="button" data-f="all" aria-pressed="true">すべて</button><button type="button" data-f="self" aria-pressed="false">本人 OK だけ</button><button type="button" data-f="ng" aria-pressed="false">使わない案件</button></div>
-  <div class="tbl"><table class="wf"><thead><tr><th>案件</th><th>ASP</th><th>広告側の報酬</th><th>本人</th><th>メモ</th></tr></thead><tbody id="tbl-a8"><tr><td colspan="5" class="empty">データ待ち</td></tr></tbody></table></div>
+  <div class="tbl"><table class="wf"><thead><tr><th>案件</th><th>ASP</th><th>広告側の報酬</th><th>本人</th><th>載せている記事</th><th>メモ</th></tr></thead><tbody id="tbl-a8"><tr><td colspan="6" class="empty">データ待ち</td></tr></tbody></table></div>
+  <h2 data-cid="asp.byitem">案件ごとの、載せている記事（対応表）</h2>
+  <p class="src">記事の本文にあるリンクから数えています（「成果リンクの一覧」と同じもの）。<b>毎日の更新で入れ替わります。</b>記事の数が多い順。行を開くと記事の一覧が出ます。</p>
+  <div class="search"><input type="search" id="byitem-q" placeholder="案件・記事で探す（例：ドコモ光、ハピタス、ふるさと納税）" aria-label="案件・記事で探す"><span class="status" id="byitem-n"></span></div>
+  <div class="tbl"><table class="wf"><thead><tr><th>案件</th><th>ASP</th><th>記事の数</th><th>か所</th><th>記事</th></tr></thead><tbody id="tbl-byitem"><tr><td colspan="5" class="empty">データ待ち</td></tr></tbody></table></div>
   <h2>セルフバックの候補（A8・本人 OK・広告側の報酬が高い順）</h2>
   <p class="src">あなたが使っていないサービスでも選んでよい（10/12 のコメント）。申し込むのはあなたで、申し込んだら利用画面などの素材を記事や投稿に使います。毎日の更新で入れ替わります。</p>
-  <div class="tbl"><table class="wf"><thead><tr><th>案件</th><th>広告側の報酬</th></tr></thead><tbody id="tbl-selfback"><tr><td colspan="2" class="empty">データ待ち</td></tr></tbody></table></div>
+  <div class="tbl"><table class="wf"><thead><tr><th>案件</th><th>広告側の報酬</th><th>載せている記事</th></tr></thead><tbody id="tbl-selfback"><tr><td colspan="3" class="empty">データ待ち</td></tr></tbody></table></div>
   <h2>取りにいく案件</h2>
   <ul class="plain">
     <li><b>ふるさと納税</b>：ふるなび・さとふる・楽天ふるさと納税。10〜12 月が年の最盛期。競合はふるなびを i-mobile・ValueCommerce、さとふるを accesstrade で取っている。</li>
@@ -974,6 +981,10 @@ tr[data-ccount]::after{top:4px;right:4px}
     const link=(r)=>'<a href="https://daily-hack.fieldbeside.com/posts/'+esc(r.slug)+'/" target="_blank" rel="noopener">'+esc(r.title)+'</a>';
     const PM=S.pvMeta||{};
     $('#tbl-top').innerHTML=(S.topPages||[]).map(r=>'<tr data-cid="now.top.'+esc(r.slug)+'"><td>'+link(r)+'</td><td class="num">'+fmtN(r.c)+'</td><td class="num">'+fmtN(r.i)+'</td><td class="num">'+(r.p!=null?r.p.toFixed(1):'—')+'</td><td class="num"><button type="button" class="linkish" data-detail="'+esc(r.slug)+'">'+fmtN(r.v90)+'</button></td><td>'+affPill(r.aff)+'</td></tr>').join('')||'<tr><td colspan="6" class="empty">データなし</td></tr>';
+    { const by={}; for(const r of (S.pq||[])) (by[r.slug]=by[r.slug]||{slug:r.slug,title:((S.articles||[]).find(x=>x.slug===r.slug)||{}).title||r.slug,rows:[]}).rows.push(r);
+      const groups=Object.values(by).map(g=>({...g,top:g.rows.filter(r=>r.p<=20).sort((a,b)=>b.i-a.i),rest:g.rows.filter(r=>r.p>20).sort((a,b)=>b.i-a.i)})).filter(g=>g.top.length).sort((a,b)=>b.top.reduce((x,r)=>x+r.i,0)-a.top.reduce((x,r)=>x+r.i,0));
+      const q1=(r,full)=>'<li>'+esc(r.q)+' <span class="status">'+r.p.toFixed(1)+' 位・表示 '+fmtN(r.i)+(full?'・クリック '+fmtN(r.c):'')+'</span></li>';
+      $('#tbl-pq').innerHTML=groups.map(g=>'<tr data-cid="now.pq.'+esc(g.slug)+'"><td>'+link(g)+'</td><td><ul class="plain" style="margin:0">'+g.top.slice(0,10).map(r=>q1(r,true)).join('')+'</ul>'+(g.top.length>10?'<details><summary>ほか '+(g.top.length-10)+' 語</summary><ul class="plain" style="margin:0">'+g.top.slice(10).map(r=>q1(r,true)).join('')+'</ul></details>':'')+'</td><td>'+(g.rest.length?'<ul class="plain" style="margin:0">'+g.rest.slice(0,8).map(r=>q1(r,false)).join('')+'</ul>':'<span class="status">ほかに出ている語は無い</span>')+'</td></tr>').join('')||'<tr><td colspan="3" class="empty">データなし</td></tr>'; }
     $('#tbl-read').innerHTML=(S.readTop||[]).map(r=>{ const a=(S.articles||[]).find(x=>x.slug===r.slug)||{}; return '<tr data-cid="now.read.'+esc(r.slug)+'"><td>'+link(r)+'</td><td class="num"><b>'+(r.h28!=null?fmtN(r.h28):'—')+'</b></td><td class="num">'+fmtN(r.v)+'</td><td class="num">'+fmtN(r.c28)+'</td><td><button type="button" class="linkish" data-detail="'+esc(r.slug)+'">'+esc(whyShort(a,PM))+'</button></td><td>'+affPill(r.aff)+'</td></tr>'; }).join('')||'<tr><td colspan="6" class="empty">データなし</td></tr>';
     $('#pv-note').innerHTML='<b>訪問の数の読み方</b>：記事ごとの訪問は Cloudflare の数で、<b>ボット（機械的なアクセス）を含みます</b>。ボットを除いた数が取れているのはサイト全体だけです（直近 28 日 '+fmtN((S.kpi||{}).pv28&&S.kpi.pv28.human)+'）。記録は '+esc(PM.first||'—')+' から（全期間 '+fmtN(PM.days90)+' 日）。'+(PM.spikeDays&&PM.spikeDays.length?'全記事が同じ日に跳ねた日（'+PM.spikeDays.map(d=>d.slice(5).replace('-','/')).join('・')+'）は、読者ではない一斉アクセスの疑いがあります。':'')+(PM.refFrom?'記事ごとのボット除外の訪問は '+esc(PM.refFrom)+' から記録しています。':'記事ごとのボット除外の訪問は 10/13 分から記録します。')+'<b>どこから来たか（X か検索か）は、Cloudflare の無料プランの集計では取れません</b>。Web Analytics を有効にすると取れるようになります（「タスク」のページ）。それまでは、日ごとの訪問と X の告知日・一斉アクセスの日を突き合わせて読みます（行を押すと詳細）。';
     ART=S.articles||[]; renderArticles();
@@ -981,7 +992,7 @@ tr[data-ccount]::after{top:4px;right:4px}
     const GS=(S.sources||{}).gsc||{}; $('#findings-when').textContent='（'+S.generatedAt.slice(0,10)+' 更新・検索 '+((GS.window||[])[0]||'—')+'〜'+((GS.window||[])[1]||'—')+'・訪問 〜'+(PM.last||'—')+'）';
     // ブログ全体
     const B=S.blog||{}, K=S.kpi||{};
-    $('#blog-tiles').innerHTML=[['記事の数',fmtN(B.posts),'公開中（下書きを除く）','blog.posts'],['ページビュー（28 日）',B.pv28!=null?fmtN(B.pv28):'記録待ち',B.pv28!=null?'fieldbeside.com 全体・ボットを含む・'+B.zoneDays28+' 日分':'日次の記録に 10/12 から追加','blog.pv'],['UU（28 日・日ごとの合計）',B.uuDaySum28!=null?fmtN(B.uuDaySum28):'記録待ち','fieldbeside.com 全体・ボットを含む','blog.uu'],['読者（28 日・ボット除外）',fmtN(K.pv28&&K.pv28.human),'訪問（ボット込み） '+fmtN(K.pv28&&K.pv28.visits),'blog.human']].map(([t,v,s2,cid])=>'<div class="tile" data-cid="'+cid+'"><div class="k">'+esc(t)+'</div><div class="v">'+esc(v)+'</div><div class="s">'+esc(s2)+'</div></div>').join('');
+    $('#blog-tiles').innerHTML=[['記事の数',fmtN(B.posts),'公開中（下書きを除く）','blog.posts'],['ページビュー（28 日）',B.pv28!=null?fmtN(B.pv28):'記録待ち',B.pv28!=null?'fieldbeside.com 全体・ボットを含む・'+B.zoneDays28+' 日分':'日次の記録に 10/12 から追加','blog.pv'],['ページビュー（ボット除外・ブログだけ）',B.pvHuman28!=null?fmtN(B.pvHuman28):'記録待ち',B.pvHuman28!=null?B.pvDays28+' 日分・ブログのページ（HTML）だけ・ボット込みは '+fmtN(B.pvAll28):'記録待ち（毎日の記録に 10/24 から追加）','blog.pvh'],['UU（28 日・日ごとの合計）',B.uuDaySum28!=null?fmtN(B.uuDaySum28):'記録待ち','fieldbeside.com 全体・ボットを含む。ボット除外の UU は Cloudflare の無料プランでは取れない（いちばん近いのは右の「読者」）','blog.uu'],['読者（28 日・ボット除外）',fmtN(K.pv28&&K.pv28.human),'訪問（ボット込み） '+fmtN(K.pv28&&K.pv28.visits),'blog.human']].map(([t,v,s2,cid])=>'<div class="tile" data-cid="'+cid+'"><div class="k">'+esc(t)+'</div><div class="v">'+esc(v)+'</div><div class="s">'+esc(s2)+'</div></div>').join('');
     $('#tbl-month').innerHTML=(S.monthly||[]).map(m=>'<tr data-cid="now.month.'+m.month+'"><td>'+m.month+(m.days&&m.days<28?'（'+m.days+' 日分）':'')+'</td><td class="num">'+fmtN(m.published||0)+'</td><td class="num">'+fmtN(m.updated||0)+'</td><td class="num">'+(m.visits!=null?fmtN(m.visits):'—')+'</td><td class="num">'+(m.human!=null?fmtN(m.human):'—')+'</td><td class="num">'+(m.pageViews!=null?fmtN(m.pageViews):'—')+'</td><td class="num">'+(m.uniquesSum!=null?fmtN(m.uniquesSum):'—')+'</td></tr>').join('')||'<tr><td colspan="7" class="empty">データなし</td></tr>';
     renderX(S);
     const X=S.xShared||[], xv=(k)=>(X.find(r=>r.k===k)||{}).v||'—';
@@ -1118,19 +1129,29 @@ tr[data-ccount]::after{top:4px;right:4px}
   let a8F='all', aspF='all';
   function programs(){
     const S=SNAP||{}, out=[];
-    for(const r of (S.a8&&S.a8.rows)||[]) out.push({asp:'A8',id:r.id,name:r.name,reward:r.reward,self:r.self,ng:r.ng,yen:r.yen});
+    for(const r of (S.a8&&S.a8.rows)||[]) out.push({asp:'A8',id:r.id,name:r.name,reward:r.reward,self:r.self,ng:r.ng,yen:r.yen,articles:r.articles||[]});
     for(const r of (S.others&&S.others.vc)||[]) out.push({asp:'バリューコマース',id:'vc.'+r.href,name:r.name,reward:r.reward||'',self:null,ng:false});
     for(const r of (S.others&&S.others.moshimo)||[]) out.push({asp:'もしも',id:'mo.'+r.href,name:r.name,reward:r.reward||'',self:null,ng:false});
     for(const r of ((S.manual||{}).programs)||[]) out.push(Object.assign({self:null,ng:false},r));
     return out;
   }
   function renderSelfback(){ const S=SNAP||{}; const rows=((S.a8&&S.a8.rows)||[]).filter(r=>r.self&&!r.ng).sort((a,b)=>(b.yen||0)-(a.yen||0)).slice(0,12);
-    $('#tbl-selfback').innerHTML=rows.map(r=>'<tr data-cid="asp.self.'+esc(r.id)+'"><td>'+esc((r.name||'').slice(0,70))+'</td><td>'+esc(r.reward||'')+'</td></tr>').join('')||'<tr><td colspan="2" class="empty">データなし</td></tr>'; }
-  function renderA8(){ renderSelfback(); const tb=$('#tbl-a8'); const all=programs(); if(!all.length){ tb.innerHTML='<tr><td colspan="5" class="empty">データ待ち</td></tr>'; return; }
+    $('#tbl-selfback').innerHTML=rows.map(r=>'<tr data-cid="asp.self.'+esc(r.id)+'"><td>'+esc((r.name||'').slice(0,70))+'</td><td>'+esc(r.reward||'')+'</td><td>'+artList(r.articles)+'</td></tr>').join('')||'<tr><td colspan="3" class="empty">データなし</td></tr>'; }
+  // 記事の一覧（たたんで出す）。0 本は「—」
+  function artTitle(slug){ const S=SNAP||{}; const a=(S.affInventory||[]).find(x=>x.slug===slug)||(S.articles||[]).find(x=>x.slug===slug); return (a&&a.title)||slug; }
+  function artList(arts){ arts=(arts||[]).map(a=>Object.assign({title:artTitle(a.slug)},a)); if(!arts.length) return '<span class="status">まだ無い</span>';
+    return '<details><summary>'+arts.length+' 本</summary><ul class="plain" style="margin:4px 0 0">'+arts.map(a=>'<li><a href="https://daily-hack.fieldbeside.com/posts/'+esc(a.slug)+'/" target="_blank" rel="noopener">'+esc((a.title||a.slug).slice(0,48))+'</a>（'+fmtN(a.n)+'）</li>').join('')+'</ul></details>'; }
+  let byQ='';
+  function renderByItem(){ const S=SNAP||{}; const tb=$('#tbl-byitem'); if(!tb) return; const all=S.affByItem||[];
+    const q=byQ.trim().toLowerCase(); const rows=all.filter(r=>!q||(r.item+' '+r.asp+' '+r.articles.map(a=>artTitle(a.slug)+' '+a.slug).join(' ')).toLowerCase().includes(q));
+    $('#byitem-n').textContent=rows.length+' / '+all.length+' 件';
+    tb.innerHTML=rows.map(r=>'<tr data-cid="asp.bi.'+hash(r.asp+r.item)+'"><td>'+esc(r.item)+'</td><td>'+esc(r.asp)+'</td><td class="num">'+fmtN(r.articles.length)+'</td><td class="num">'+fmtN(r.n)+'</td><td>'+artList(r.articles)+'</td></tr>').join('')||'<tr><td colspan="5" class="empty">'+(all.length?'該当なし':'データ待ち')+'</td></tr>'; applyCounts(); }
+  { const i=$('#byitem-q'); if(i) i.addEventListener('input',()=>{ byQ=i.value; renderByItem(); }); }
+  function renderA8(){ renderSelfback(); renderByItem(); const tb=$('#tbl-a8'); const all=programs(); if(!all.length){ tb.innerHTML='<tr><td colspan="6" class="empty">データ待ち</td></tr>'; return; }
     const counts={}; all.forEach(r=>counts[r.asp]=(counts[r.asp]||0)+1);
     $$('#asp-tabs button').forEach(b=>{ const n=b.dataset.a==='all'?all.length:(counts[b.dataset.a]||0); b.textContent=(b.dataset.a==='all'?'すべて':b.dataset.a)+'（'+n+'）'; });
     const rows=all.filter(r=>aspF==='all'||r.asp===aspF).filter(r=>a8F==='all'||(a8F==='self'&&r.self&&!r.ng)||(a8F==='ng'&&r.ng)).sort((a,b)=>(b.yen||0)-(a.yen||0));
-    tb.innerHTML=rows.map(r=>'<tr data-cid="asp.p.'+esc(String(r.id||r.name).slice(-60))+'"><td>'+esc((r.name||'').slice(0,70))+'</td><td>'+esc(r.asp)+'</td><td>'+esc(r.reward||'')+'</td><td>'+(r.self===true?'<span class="pill ok">OK</span>':r.self===false?'<span class="pill">NG</span>':'—')+'</td><td>'+(r.ng?'<span class="pill bad">使わない</span>':esc(r.note||''))+'</td></tr>').join('')||'<tr><td colspan="5" class="empty">該当なし</td></tr>'; applyCounts(); }
+    tb.innerHTML=rows.map(r=>'<tr data-cid="asp.p.'+esc(String(r.id||r.name).slice(-60))+'"><td>'+esc((r.name||'').slice(0,70))+'</td><td>'+esc(r.asp)+'</td><td>'+esc(r.reward||'')+'</td><td>'+(r.self===true?'<span class="pill ok">OK</span>':r.self===false?'<span class="pill">NG</span>':'—')+'</td><td>'+(r.asp==='A8'?artList(r.articles):'<span class="status">下の対応表</span>')+'</td><td>'+(r.ng?'<span class="pill bad">使わない</span>':esc(r.note||''))+'</td></tr>').join('')||'<tr><td colspan="6" class="empty">該当なし</td></tr>'; applyCounts(); }
   $$('#asp-tabs button').forEach(b=>b.addEventListener('click',()=>{ aspF=b.dataset.a; $$('#asp-tabs button').forEach(x=>x.setAttribute('aria-pressed',x===b?'true':'false')); renderA8(); }));
   $$('#a8-filters button').forEach(b=>b.addEventListener('click',()=>{ a8F=b.dataset.f; $$('#a8-filters button').forEach(x=>x.setAttribute('aria-pressed',x===b?'true':'false')); renderA8(); }));
 })();

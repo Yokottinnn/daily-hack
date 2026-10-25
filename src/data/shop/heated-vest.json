@@ -1,0 +1,239 @@
+{
+  "id": "heated-vest",
+  "title": "電熱ベスト（何時間持つ・モバイルバッテリーで動くか・1 シーズンの電気代）",
+  "_note": "仕様は公式ページ・取扱説明書の記載だけ。出典・電気代の式・未確認の項目は Yokottinnn/daily-hack-affiliate の docs/research/heated-vest-products.md。ワークマンは公式通販が取扱いなしの表示、サンコー HEATBTSBK は品切れ、山真 KDGE は公式の数値が取れず外した",
+  "columns": [
+    {
+      "key": "power",
+      "label": "電源"
+    },
+    {
+      "key": "temp",
+      "label": "温度"
+    },
+    {
+      "key": "hours",
+      "label": "連続使用（公称）"
+    },
+    {
+      "key": "heaters",
+      "label": "ヒーター"
+    },
+    {
+      "key": "wash",
+      "label": "洗濯"
+    }
+  ],
+  "pricesCheckedAt": null,
+  "items": [
+    {
+      "id": "thanko-heat25sbk",
+      "brand": "サンコー",
+      "name": "サイズ調整できる「ヒーターベスト」HEAT25SBK",
+      "badge": "手持ちのモバイルバッテリーで動く",
+      "specs": {
+        "power": "市販のモバイルバッテリー（5V 2.0A 以上）",
+        "temp": "3 段階（約40〜45／45〜50／50〜55℃）",
+        "hours": "10,000mAh で 低 約8h・中 約6.5h・高 約5h（インナー着用時）",
+        "heaters": "5 か所",
+        "wash": "洗濯機で丸洗い可"
+      },
+      "source": "https://www.thanko.jp/view/item/000000004214",
+      "rakuten": {
+        "keyword": "サンコー HEAT25SBK",
+        "must": [
+          "HEAT25SBK"
+        ]
+      },
+      "yahoo": {
+        "keyword": "サンコー HEAT25SBK",
+        "must": [
+          "HEAT25SBK"
+        ]
+      },
+      "amazon": {
+        "keyword": "サンコー HEAT25SBK",
+        "asin": null
+      }
+    },
+    {
+      "id": "iris-fc21620",
+      "brand": "アイリスオーヤマ",
+      "name": "インナーヒートベストセット FC21620",
+      "badge": "バッテリー付きで届く",
+      "specs": {
+        "power": "付属のモバイルバッテリー（5V 2A 入力・10W）",
+        "temp": "4 段階（約38／43／48／53℃）",
+        "hours": "6,700mAh で 約3〜8h",
+        "heaters": "記載なし",
+        "wash": "バッテリーを外して洗う"
+      },
+      "source": "https://www.irisohyama.co.jp/products/tool-diy-material/work-clothes/heat-wear/inner-heat-vest-set",
+      "rakuten": {
+        "keyword": "アイリスオーヤマ FC21620",
+        "must": [
+          "FC21620"
+        ]
+      },
+      "yahoo": {
+        "keyword": "アイリスオーヤマ FC21620",
+        "must": [
+          "FC21620"
+        ]
+      },
+      "amazon": {
+        "keyword": "アイリスオーヤマ FC21620",
+        "asin": null
+      }
+    },
+    {
+      "id": "iris-gt21622",
+      "brand": "アイリスオーヤマ",
+      "name": "メンズヒートベストセット GT21622",
+      "specs": {
+        "power": "付属のモバイルバッテリー（5V 2A・10W）",
+        "temp": "4 段階",
+        "hours": "6,700mAh で 約3〜8h",
+        "heaters": "背面上部",
+        "wash": "記載なし"
+      },
+      "source": "https://www.irisohyama.co.jp/products/tool-diy-material/work-clothes/heat-wear/mens-heat-vest-set",
+      "rakuten": {
+        "keyword": "アイリスオーヤマ GT21622",
+        "must": [
+          "GT21622"
+        ]
+      },
+      "yahoo": {
+        "keyword": "アイリスオーヤマ GT21622",
+        "must": [
+          "GT21622"
+        ]
+      },
+      "amazon": {
+        "keyword": "アイリスオーヤマ GT21622",
+        "asin": null
+      }
+    },
+    {
+      "id": "suns-eh32490",
+      "brand": "サンエス",
+      "name": "EXHEAT カーボンヒートベスト EH32490",
+      "badge": "5 か所＋サーモスタット",
+      "specs": {
+        "power": "USB 給電（セットは RD9241 付き）",
+        "temp": "3 段階＋プレヒート（サーモスタットで監視）",
+        "hours": "RD9241 で 強 約4h・中 約4.5h・弱 約6.5h",
+        "heaters": "5 か所",
+        "wash": "手洗いのみ"
+      },
+      "source": "https://sun-s.work/products/eh32490-set",
+      "rakuten": {
+        "keyword": "サンエス EH32490",
+        "must": [
+          "EH32490"
+        ]
+      },
+      "yahoo": {
+        "keyword": "サンエス EH32490",
+        "must": [
+          "EH32490"
+        ]
+      },
+      "amazon": {
+        "keyword": "サンエス EH32490",
+        "asin": null
+      }
+    },
+    {
+      "id": "suns-raijin-bo32550",
+      "brand": "サンエス",
+      "name": "雷神服 インナーベスト BO32550＋発熱ユニット RD9570",
+      "badge": "夏の空調服のバッテリーを使える",
+      "specs": {
+        "power": "空調風神服の 12V・24V バッテリー／出力 2A 以上のモバイルバッテリー",
+        "temp": "3 段階（強・中は 1 時間で弱へ自動切替）",
+        "hours": "24V で 弱 約11h（12V で 約9h）",
+        "heaters": "背中 2 枚",
+        "wash": "記載なし"
+      },
+      "source": "https://sun-s.work/products/rd9570",
+      "rakuten": {
+        "keyword": "雷神服 RD9570",
+        "must": [
+          "RD9570"
+        ]
+      },
+      "yahoo": {
+        "keyword": "雷神服 RD9570",
+        "must": [
+          "RD9570"
+        ]
+      },
+      "amazon": {
+        "keyword": "雷神服 RD9570",
+        "asin": null
+      }
+    },
+    {
+      "id": "burtle-tc500",
+      "brand": "バートル",
+      "name": "サーモクラフト 電熱パッド TC500＋対応ベスト",
+      "badge": "長く持つ（低温で約15時間）",
+      "specs": {
+        "power": "専用バッテリー（AC300 など・別売）",
+        "temp": "4 段階（約35／42／50／56℃）",
+        "hours": "AC300 で 6V 約15h・9V 約8h・12V 約4.5h",
+        "heaters": "背中から腰（パッド 1 枚）",
+        "wash": "ウェアは洗える（パッドとバッテリーを外す）"
+      },
+      "source": "https://www.kyoceraindustrialtools-burtle-device-support.jp/assets/pdf/tc500.pdf",
+      "rakuten": {
+        "keyword": "バートル サーモクラフト TC500",
+        "must": [
+          "TC500"
+        ]
+      },
+      "yahoo": {
+        "keyword": "バートル サーモクラフト TC500",
+        "must": [
+          "TC500"
+        ]
+      },
+      "amazon": {
+        "keyword": "バートル サーモクラフト TC500",
+        "asin": null
+      }
+    },
+    {
+      "id": "makita-cv202d",
+      "brand": "マキタ",
+      "name": "充電式暖房ベスト CV202D（本体 CV202DZ）",
+      "badge": "工具のバッテリーを持っている人向け",
+      "specs": {
+        "power": "マキタの工具用バッテリー（10.8〜18V・別売）。USB-A 5V 2.4A でスマホ充電も可",
+        "temp": "3 段階",
+        "hours": "18V 6.0Ah で Low 約35h・High 約10h",
+        "heaters": "4 か所",
+        "wash": "洗濯乾燥機可（30℃以下・弱）"
+      },
+      "source": "https://www.makita.co.jp/product/detail/?&model=CV202D",
+      "rakuten": {
+        "keyword": "マキタ CV202DZ",
+        "must": [
+          "CV202D"
+        ]
+      },
+      "yahoo": {
+        "keyword": "マキタ CV202DZ",
+        "must": [
+          "CV202D"
+        ]
+      },
+      "amazon": {
+        "keyword": "マキタ CV202DZ",
+        "asin": null
+      }
+    }
+  ]
+}

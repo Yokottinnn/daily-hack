@@ -136,10 +136,7 @@ isPR: true
 
 三井は「世界観」より**規模とアクセス**で押すタイプ。木更津は店舗数330で日本一、都心45分。門真はららぽーととの複合、岡崎は新東名ICそば——**現実的な集客装置**として作ってる。国内14施設は運営会社として最多で、2027年春には九州初の福岡（マリノアシティ跡地）が開業予定。
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-07-gasp.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="全国アウトレット総数運営会社別の内訳">全国アウトレット総数｜運営会社別の内訳</h2>
-</div>
+<h2 id="全国アウトレット総数運営会社別の内訳">全国アウトレット総数｜運営会社別の内訳</h2>
 
 日本のアウトレットモールは、**日本ショッピングセンター協会の公式一覧で全32施設**（2025年11月時点、最新は同年11月開業のMOP岡崎）。運営会社で割るとこうなる。
 
@@ -216,11 +213,16 @@ isPR: true
 
 ここを知らずに行くと損する。**アウトレットの「安い」には、実は3つの中身がある。**
 
-<ul class="checklist">
-  <li><div class="checklist-body"><strong>① 型落ち・過剰在庫（本来の意味のアウトレット）</strong><p>百貨店や路面店（プロパー店）で売れ残った前シーズン品を、値下げして流す。これが元祖アウトレットの姿。定価から30〜70%オフが目安。</p></div></li>
-  <li><div class="checklist-body"><strong>② アウトレット専用品（最初からアウトレット向けに作った商品）</strong><p>実は今のアウトレットの主力。プロパー店には並ばない、アウトレット専用に企画・生産された商品。「定価」表示があってもプロパー店では売っていないことがある。安いのは事実だが、<strong>「あの高級ラインが安く買える」とは限らない</strong>。</p></div></li>
-  <li><div class="checklist-body"><strong>③ B級品・展示品（わずかな難あり）</strong><p>小さな傷や規格外、サンプル・展示品。数は少ないが掘り出し物が出る。</p></div></li>
-</ul>
+<div class="cmp-table-wrap">
+  <table class="cmp-table prose-table">
+    <thead><tr><th>「安い」の中身</th><th>どういう商品か</th></tr></thead>
+    <tbody>
+      <tr><td><strong>① 型落ち・過剰在庫</strong></td><td>百貨店や路面店（プロパー店）で売れ残った前シーズン品。<strong>定価から30〜70%オフ</strong>が目安<br><span class="cell-sub">本来の意味のアウトレット</span></td></tr>
+      <tr><td><strong>② アウトレット専用品</strong></td><td>最初からアウトレット向けに企画・生産した商品。<strong>いまの主力</strong><br><span class="cell-sub">「定価」表示があってもプロパー店では売っていないことがある。「あの高級ラインが安く買える」とは限らない</span></td></tr>
+      <tr><td><strong>③ B級品・展示品</strong></td><td>小さな傷や規格外、サンプル・展示品<br><span class="cell-sub">数は少ないが掘り出し物が出る</span></td></tr>
+    </tbody>
+  </table>
+</div>
 
 **攻略のコツは、②を見抜くこと。** ラグジュアリーブランドの正規アウトレット品（①）は本物の掘り出し物だけど、量販ブランドの「アウトレット価格」は②の専用品が多い。**「定価◯◯円 → ◯◯円」の二重価格表示に踊らされず、モノの実力で判断しなさい**。訪日客が免税と組み合わせて①を狙うのは、ここに合理性があるからよ。
 
@@ -274,10 +276,7 @@ isPR: true
 
 <p class="source-note">出典：<a href="https://ja.wikipedia.org/wiki/アウトレットモール" target="_blank" rel="noopener">アウトレットモール（Wikipedia、各施設沿革）</a>／<a href="https://www.mitsuifudosan.co.jp/corporate/news/2024/0516/" target="_blank" rel="noopener">三井不動産 マリノアシティ共同建替え（2024年5月16日）</a>／各施設の閉館報道。<strong>「旧チェルシー系が三井に吸収」という俗説は誤り</strong>——大阪鶴見は最初から三井、チェルシージャパンは三菱側（現・三菱地所サイモン）。</p>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-09-arms-crossed.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="行く前に知っておくと得すること">行く前に知っておくと得すること</h2>
-</div>
+<h2 id="行く前に知っておくと得すること">行く前に知っておくと得すること</h2>
 
 ### 運営会社ごとに「ポイントの貯め方」が違う
 
@@ -307,7 +306,6 @@ isPR: true
 
 <aside class="related-block">
   <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <p class="related-block-title">あわせて読みたい</p>
   </div>
   <ul class="related-block-list">

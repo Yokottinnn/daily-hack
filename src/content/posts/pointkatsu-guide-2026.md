@@ -13,7 +13,6 @@ relatedReferrals: ["rakuten-bank", "olive-smbc", "air-wallet", "go-taxi"]
 
 <aside class="related-block">
   <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <p class="related-block-title">あわせて読みたい</p>
   </div>
   <ul class="related-block-list">

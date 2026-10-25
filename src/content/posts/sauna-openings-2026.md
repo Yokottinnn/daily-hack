@@ -74,10 +74,7 @@ references: ["https://www.newoman.jp/takanawa/floorguide/detail/?scd=003014", "h
   </table>
 </div>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-07-gasp.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="首都圏17施設リスト">首都圏17施設リスト｜オープン日順に全部</h2>
-</div>
+<h2 id="首都圏17施設リスト">首都圏17施設リスト｜オープン日順に全部</h2>
 
 <figure class="rn-figure">
   <img src="/images/sauna-openings-2026/photos/sauna-room.jpg" alt="木のベンチが並ぶサウナ室の内装。2026年の首都圏は都市型サウナの新規開業が相次いだ" loading="lazy" />
@@ -115,10 +112,7 @@ references: ["https://www.newoman.jp/takanawa/floorguide/detail/?scd=003014", "h
 
 <p class="source-note"><strong>この記事は首都圏（東京・神奈川・千葉・埼玉）に絞っている。</strong>2026年は首都圏以外でも新店が出ており、大阪（CORE SAUNA 堺東駅前店・1/30）、愛知（ナゴヤサウナ・4/25、スパアクアス湯友楽・6/18）、福岡（TOTOPA 博多駅前店・8/7）、福島（しずのゆ福島・8月中旬）などがある。<strong>この表には入っていない。</strong></p>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-06-shock.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="料金">サウナ料金 安い順ランキング｜550円から3,700円まで、首都圏14施設</h2>
-</div>
+<h2 id="料金">サウナ料金 安い順ランキング｜550円から3,700円まで、首都圏14施設</h2>
 
 <figure class="rn-figure">
   <img src="/images/sauna-openings-2026/photos/tokyo.jpg" alt="東京・港区の夜景。2026年の新店は東京だけで10施設を数える" loading="lazy" />
@@ -162,10 +156,7 @@ references: ["https://www.newoman.jp/takanawa/floorguide/detail/?scd=003014", "h
 
 比べるなら、同じ土俵の**1,300〜2,600円のゾーン**（毎日サウナ幕張・BlueOcean・サウナメッツァ大井町・舞浜ユーラシア）を見るのが早い。この帯なら、時間・水風呂の温度・外気浴の有無で素直に比較できる。
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-09-arms-crossed.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="女性が入れるサウナ">女性が入れるサウナはどれか｜首都圏17施設のうち8軒</h2>
-</div>
+<h2 id="女性が入れるサウナ">女性が入れるサウナはどれか｜首都圏17施設のうち8軒</h2>
 
 <div class="hakkako-says">
   <div class="hakkako-mascot"><img src="/images/expr-02-pout.png" alt="Daily Hackマスコット" /></div>
@@ -232,10 +223,7 @@ references: ["https://www.newoman.jp/takanawa/floorguide/detail/?scd=003014", "h
 
 **告知は公式SNSでしか出ないことが多い。** 行く前にアカウントを確認すること。
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-07-gasp.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="目的別">目的別に選ぶ｜駅直結・24時間・安い・泊まれる</h2>
-</div>
+<h2 id="目的別">目的別に選ぶ｜駅直結・24時間・安い・泊まれる</h2>
 
 **「どれがいいか」ではなく「何を優先するか」で決める。** 17施設を、行き方の条件で並べ直した。
 条件が複数当てはまる施設は複数の欄に出てくる。
@@ -257,10 +245,7 @@ references: ["https://www.newoman.jp/takanawa/floorguide/detail/?scd=003014", "h
 
 **料金が未確認の3施設（SAUNA汽汽・サウナ蒸薪・門仲SAUNAS LO）は「安く入りたい」の欄に入れていない。** 公式に料金表が出ていないだけで、安い可能性はある。
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-04-cheer.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="17施設を1軒ずつ">17施設を1軒ずつ｜料金・駅・男女・中身</h2>
-</div>
+<h2 id="17施設を1軒ずつ">17施設を1軒ずつ｜料金・駅・男女・中身</h2>
 
 **表だけだと「自分が行く1軒」が決まらない。** ここから15軒すべてを、オープン日順に1軒ずつ見ていく。
 
@@ -700,10 +685,7 @@ references: ["https://www.newoman.jp/takanawa/floorguide/detail/?scd=003014", "h
 
 <p class="source-note">埋め込んだ X の投稿と YouTube の動画は、<strong>すべて実在を確認したうえで載せている</strong>（X は syndication API で本文・投稿者・日付を、YouTube は oEmbed でタイトルと投稿者を照合）。<strong>確認できなかったものは載せていない</strong>。 各施設の写真は公式サイトより引用。</p>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-03-bashful.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="地域">内訳｜東京に6割、そのほかは3・2・1</h2>
-</div>
+<h2 id="地域">内訳｜東京に6割、そのほかは3・2・1</h2>
 
 <figure class="rn-figure">
   <img src="/images/sauna-openings-2026/photos/yokohama.jpg" alt="横浜みなとみらいの夜景。神奈川は2026年に3施設が開業した" loading="lazy" />
@@ -728,10 +710,7 @@ references: ["https://www.newoman.jp/takanawa/floorguide/detail/?scd=003014", "h
 
 千葉の3施設（舞浜・幕張・柏）は**いずれも駅から距離があり、車で行く前提**の作りになっている。舞浜ユーラシアは駐車6時間無料、毎日サウナ幕張は駐車場210台。
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-04-cheer.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="月別">月別｜7月に5施設が集中した</h2>
-</div>
+<h2 id="月別">月別｜7月に5施設が集中した</h2>
 
 <div class="cmp-table-wrap">
   <table class="cmp-table wrap-table">
@@ -754,10 +733,7 @@ references: ["https://www.newoman.jp/takanawa/floorguide/detail/?scd=003014", "h
 
 裏を返すと、**この秋から冬に開く施設はまだ発表されていないだけ**の可能性が高い。年内にもう一段増える。
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-08-cry.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="開業日が割れる理由">開業日が資料で割れる理由</h2>
-</div>
+<h2 id="開業日が割れる理由">開業日が資料で割れる理由</h2>
 
 調べていて分かったのは、**同じ施設なのに媒体によって開業日が違う**こと。どちらかが間違っているとは限らない。
 
@@ -778,10 +754,7 @@ references: ["https://www.newoman.jp/takanawa/floorguide/detail/?scd=003014", "h
 
 **この記事はグランドオープン（＝通常営業の開始）を採っている。** 別のサイトと日付が違って見えたら、たいていはこの定義の差である。
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-01-wave.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="行く前に">これから行く人へ｜3つだけ確認しておくこと</h2>
-</div>
+<h2 id="行く前に">これから行く人へ｜3つだけ確認しておくこと</h2>
 
 <ul class="checklist">
   <li><div class="checklist-body"><strong>① 男女の別</strong><p>17施設中<strong>9が男性専用</strong>（または基本男性専用）。レディースデーは不定期のことが多く、公式の告知でしか分からない。<strong>「サウナ新店」の記事だけ見て行くと空振りする。</strong></p></div></li>
@@ -804,7 +777,6 @@ references: ["https://www.newoman.jp/takanawa/floorguide/detail/?scd=003014", "h
 
 <aside class="related-block">
   <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <p class="related-block-title">新店じゃないけど、外せない1軒</p>
   </div>
   <ul class="related-block-list">
@@ -842,7 +814,6 @@ references: ["https://www.newoman.jp/takanawa/floorguide/detail/?scd=003014", "h
 
 <aside class="related-block">
   <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <p class="related-block-title">あわせて読みたい</p>
   </div>
   <ul class="related-block-list">

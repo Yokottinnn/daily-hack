@@ -62,10 +62,7 @@ author: "hacker-ko"
 
 <span class="event-picks-credit">カード画像は各イベント公式サイトより引用（<a href="https://mitsui-shopping-park.com/lalaport/toyosu/event/3420509.html" target="_blank" rel="noopener">とよす夏祭り</a>／<a href="https://toyosugururi.jp/" target="_blank" rel="noopener">豊洲ぐるりパーク</a>／<a href="https://www.tomica-tokyo.com/" target="_blank" rel="noopener">トミカ博 in TOKYO</a>／<a href="https://tokyo-toyosu.manyo.co.jp/" target="_blank" rel="noopener">東京豊洲 万葉倶楽部</a>／<a href="https://toyosu-senkyakubanrai.jp/" target="_blank" rel="noopener">豊洲 千客万来</a>）。</span>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-04-cheer.png" alt="Daily Hackマスコット" /></div>
-  <h2>【無料】ここだけ押さえれば夏は勝ち</h2>
-</div>
+<h2>【無料】ここだけ押さえれば夏は勝ち</h2>
 
 ### とよす夏祭り2026 in ららぽーと豊洲（8/8〜16）
 
@@ -144,10 +141,7 @@ author: "hacker-ko"
   </div>
 </div>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-09-arms-crossed.png" alt="Daily Hackマスコット" /></div>
-  <h2>【有料】払う価値があるやつだけ、正直に</h2>
-</div>
+<h2>【有料】払う価値があるやつだけ、正直に</h2>
 
 <div class="tower-list">
   <div class="tower-card">
@@ -326,7 +320,6 @@ author: "hacker-ko"
 
 <aside class="related-block">
   <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <p class="related-block-title">あわせて読みたい</p>
   </div>
   <ul class="related-block-list">

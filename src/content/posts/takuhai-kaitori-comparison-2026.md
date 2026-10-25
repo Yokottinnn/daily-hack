@@ -54,12 +54,20 @@ references:
 
 **選び方は品目でほぼ決まる。** ブランド品ならブランドオフ、スマホを現金にしたいならモバゾウ、スマホ・ゲーム・本・家電をまとめて送ってAmazonで使うならリコマース。そのうえで、**「安かったら断るかもしれない」人は返送料の行を見る。**
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-09-arms-crossed.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="cancel">宅配買取をキャンセルしたら返送料はいくら｜断れる順に並べた</h2>
-</div>
+<h2 id="cancel">宅配買取をキャンセルしたら返送料はいくら｜断れる順に並べた</h2>
 
 宅配買取でいちばん揉めるのは、**「査定額に納得できなかったとき」**。送った品物は相手の倉庫にあるので、返してもらうのにいくらかかるかで、断りやすさがまるで違う。3社の規約を、**気軽に断れる順**に並べた。
+
+<div class="cmp-table-wrap">
+  <table class="cmp-table prose-table">
+    <thead><tr><th>会社</th><th>査定に納得できず返すとき</th></tr></thead>
+    <tbody>
+      <tr class="recommended"><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/takuhai-kaitori-comparison-2026/logos/brandoff.png" alt="" loading="lazy" /><a href="https://px.a8.net/svt/ejp?a8mat=4B3XB4+3K08M2+56WW+5YJRM" target="_blank" rel="sponsored noopener nofollow">ブランドオフ</a></span></td><td>返送料は<strong>無料</strong><br><span class="cell-sub">届いてから14日以内に連絡がつかないと、着払いで返される</span></td></tr>
+      <tr><td><a href="https://px.a8.net/svt/ejp?a8mat=4B43JB+BTOZ2Y+3XHM+5YRHE" target="_blank" rel="sponsored noopener nofollow">リコマース</a></td><td>返送料は<strong>無料</strong><br><span class="cell-sub">全部まとめて返却。査定前の自己都合は自己負担。自動承認を選ぶと返送できない</span></td></tr>
+      <tr><td><a href="https://px.a8.net/svt/ejp?a8mat=4B43JB+BUVUAI+5NTS+5YRHE" target="_blank" rel="sponsored noopener nofollow">モバゾウ</a></td><td>返送料は<strong>自己負担</strong><br><span class="cell-sub">額は発送数と発送先で変わる</span></td></tr>
+    </tbody>
+  </table>
+</div>
 
 <ul class="checklist">
   <li><div class="checklist-body"><strong>1位 ブランドオフ｜返送料は無料</strong><p>規約は「送料当社負担でご返送」、FAQは「買取不成立の場合でも無料でご返却」。<strong>例外は1つだけ</strong>で、荷物が届いてから<strong>14日以内に連絡がつかない</strong>とキャンセル扱いになり、<strong>着払いで返される</strong>。査定結果のメールや電話を放置しないこと。</p></div></li>
@@ -69,10 +77,7 @@ references:
 
 **承諾したあとは、どこも取り消せない。** ブランドオフは規約で承諾後のキャンセルを不可としている。リコマースも自動承認を選んだ時点で返送できなくなる。**金額を確かめずに承諾する設定にしない**のが、宅配買取の一番の自衛策。
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-07-gasp.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="days">お金が手元に来るまでの日数｜査定と支払いを分けて読む</h2>
-</div>
+<h2 id="days">お金が手元に来るまでの日数｜査定と支払いを分けて読む</h2>
 
 3社が書いている「最短当日」「最短翌営業日」は、<strong>承諾してからお金が届くまで</strong>の日数。その前に**荷物が届いて査定が終わるまでの日数**がある。2つを分けて並べた。
 
@@ -89,10 +94,7 @@ references:
 
 **「いちばん早く使えるお金になる」のはリコマース。** 査定が1〜4日程度で、承諾したらその場でギフトカードが届く。土日祝や夜間でも発行される。**現金で一番早いのはモバゾウの最短当日**だが、査定まで最大2週間かかる場合があると公式が書いている。ブランドオフは高額品だと**簡易書留を受け取ってから**の支払いになるので、留守がちな人はその分を見込んでおくこと。
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-04-cheer.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="payment">受け取り方｜現金振込か、Amazonギフトカードか</h2>
-</div>
+<h2 id="payment">受け取り方｜現金振込か、Amazonギフトカードか</h2>
 
 <div class="cmp-table-wrap">
 <table class="cmp-table">
@@ -108,7 +110,6 @@ references:
 
 <aside class="related-block">
   <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <p class="related-block-title">あわせて読みたい</p>
   </div>
   <ul class="related-block-list">
@@ -129,10 +130,7 @@ references:
   </ul>
 </aside>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="companies">宅配買取3社の詳細｜送り方・本人確認・公式の買取価格の例</h2>
-</div>
+<h2 id="companies">宅配買取3社の詳細｜送り方・本人確認・公式の買取価格の例</h2>
 
 <h3 class="brand-h" id="brandoff"><img class="brand-logo" src="/images/takuhai-kaitori-comparison-2026/logos/brandoff.png" alt="ブランドオフのロゴ" loading="lazy" /><span>ブランドオフ 宅配買取｜断っても返送無料のブランド専門</span></h3>
 
@@ -207,10 +205,7 @@ references:
 
 <p class="source-note">出典：<a href="https://kaitori.brandoff.co.jp/" target="_blank" rel="noopener">ブランドオフ 宅配買取</a>（<a href="https://kaitori.brandoff.co.jp/faq/" target="_blank" rel="noopener">FAQ</a>・<a href="https://kaitori.brandoff.co.jp/delivery_rule/" target="_blank" rel="noopener">宅配買取規約</a>）／<a href="https://www.recommerce.co.jp/" target="_blank" rel="noopener">リコマース</a>（<a href="https://www.recommerce.co.jp/help/faq.html" target="_blank" rel="noopener">FAQ</a>・<a href="https://www.recommerce.co.jp/help/caution.html" target="_blank" rel="noopener">注意事項</a>・<a href="https://www.recommerce.co.jp/campaign/first/" target="_blank" rel="noopener">初回キャンペーン</a>）／<a href="https://mobazo.jp/" target="_blank" rel="noopener">モバゾウ</a>（<a href="https://mobazo.jp/guide/howto.html" target="_blank" rel="noopener">ご利用ガイド</a>・<a href="https://mobazo.jp/faq/3-20.html" target="_blank" rel="noopener">FAQ</a>）。買取価格は公式に掲載された例で、状態・時期によって変わる。</p>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-06-shock.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="trap">無料のはずが自己負担になる場面｜宅配買取で送る前に確認すること</h2>
-</div>
+<h2 id="trap">無料のはずが自己負担になる場面｜宅配買取で送る前に確認すること</h2>
 
 「送料無料」「返送無料」には、どの社にも**外れる条件**がある。規約とFAQから、お金がかかる側に転ぶ場面だけを抜き出した。
 
@@ -230,10 +225,7 @@ references:
 
 ほかに、**手続きで止まりやすいところ**も先に押さえておく。リコマースは初回の発送を**身分証に書かれた住所からしか受け付けない**。モバゾウの梱包材は、古物営業法の取引条件として**申込住所で受け取って使う**必要がある。ブランドオフは1万円以上の初回に**簡易書留の受け取り**が要る。引っ越し直後や実家から送るときは、このどれかに引っかかりやすい。
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-09-arms-crossed.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="pick">売るものと受け取り方で選ぶ｜宅配買取の使い分け</h2>
-</div>
+<h2 id="pick">売るものと受け取り方で選ぶ｜宅配買取の使い分け</h2>
 
 <ul class="checklist">
   <li><div class="checklist-body"><strong>ブランドバッグ・時計・ジュエリーを、断る可能性も残して出したい</strong><p>→ <a href="https://px.a8.net/svt/ejp?a8mat=4B3XB4+3K08M2+56WW+5YJRM" target="_blank" rel="sponsored noopener nofollow">ブランドオフ</a>。キャンセル時の返送料まで無料。14日以内に連絡を返すことだけ守る。</p></div></li>
@@ -243,7 +235,6 @@ references:
 
 <aside class="related-block">
   <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <p class="related-block-title">あわせて読みたい</p>
   </div>
   <ul class="related-block-list">
@@ -264,10 +255,7 @@ references:
   </ul>
 </aside>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-04-cheer.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="faq">宅配買取のよくある質問</h2>
-</div>
+<h2 id="faq">宅配買取のよくある質問</h2>
 
 <ul class="checklist">
   <li><div class="checklist-body"><strong>査定額に納得できなかったら、送料はかかる？</strong><p>ブランドオフとリコマースは<strong>返送料無料</strong>。モバゾウは<strong>理由を問わず自己負担</strong>。リコマースは送った品物をまとめて全部返す形で、一部だけの返却はできない。</p></div></li>

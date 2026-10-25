@@ -23,7 +23,6 @@ author: "hacker-ko"
 
 <aside class="related-block">
   <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <p class="related-block-title">あわせて読みたい</p>
   </div>
   <ul class="related-block-list">
@@ -96,10 +95,7 @@ author: "hacker-ko"
 
 <p class="source-note">※ 案件単価はサイト・時期・キャンペーンにより常時変動します。申込前は必ず複数サイトで最新の還元ポイントをご確認ください。</p>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-09-arms-crossed.png" alt="" /></div>
-  <h2>4大ポイントサイトの徹底比較</h2>
-</div>
+<h2>4大ポイントサイトの徹底比較</h2>
 
 「全部似てるんでしょ？」って思ってるあんた、まだ甘い。**それぞれ強みが全然違う**から、1枚ずつちゃんと教えてあげる。
 
@@ -189,7 +185,6 @@ author: "hacker-ko"
 
 <aside class="related-block">
   <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <p class="related-block-title">あわせて読みたい</p>
   </div>
   <ul class="related-block-list">
@@ -274,10 +269,7 @@ GMOメディア（東証スタンダード上場）が運営する15年超の老
   </div>
 </a>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-05-smug.png" alt="" /></div>
-  <h2>「同じ案件で還元率が違う」を見抜く実践テク</h2>
-</div>
+<h2>「同じ案件で還元率が違う」を見抜く実践テク</h2>
 
 ここからは実戦編。同じ広告主の案件でも、サイトによって還元ポイントが大きく違うのが日常茶飯事。**比較を習慣化するためのテクニック**を置いておく。
 
@@ -299,7 +291,6 @@ GMOメディア（東証スタンダード上場）が運営する15年超の老
 
 <aside class="related-block">
   <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <p class="related-block-title">あわせて読みたい</p>
   </div>
   <ul class="related-block-list">
@@ -396,7 +387,6 @@ GMOメディア（東証スタンダード上場）が運営する15年超の老
 
 <aside class="related-block">
   <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <p class="related-block-title">あわせて読みたい</p>
   </div>
   <ul class="related-block-list">

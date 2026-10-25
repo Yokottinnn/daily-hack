@@ -21,7 +21,6 @@ author: "hacker-ko"
 
 <aside class="related-block">
   <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <p class="related-block-title">あわせて読みたい</p>
   </div>
   <ul class="related-block-list">
@@ -113,10 +112,7 @@ author: "hacker-ko"
 
 ね、1万円寄付して**自己負担2,000円**で、これだけ届くのよ。やらない理由ある？
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-05-smug.png" alt="" /></div>
-  <h2>米｜外さない王道5選</h2>
-</div>
+<h2>米｜外さない王道5選</h2>
 
 米は**ふるさと納税食品カテゴリの絶対王者**。理由はシンプルで、家庭で必ず消費するから「絶対に余らない」、保存も常温OK、定期便で配送月を分散できる。アタシのおすすめ5選は以下。
 
@@ -204,7 +200,6 @@ author: "hacker-ko"
 
 <aside class="related-block">
   <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <p class="related-block-title">米のついでに枠を埋めたい人へ</p>
   </div>
   <ul class="related-block-list">
@@ -225,10 +220,7 @@ author: "hacker-ko"
   </ul>
 </aside>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-09-arms-crossed.png" alt="" /></div>
-  <h2>肉｜冷凍庫に入れておきたい本気の5選</h2>
-</div>
+<h2>肉｜冷凍庫に入れておきたい本気の5選</h2>
 
 肉は**冷凍庫の容量との戦い**。小分け冷凍タイプを選ばないと、塊肉を解凍する作業地獄が待ってる。アタシのおすすめ5選はこれ。
 
@@ -294,28 +286,18 @@ author: "hacker-ko"
 
 ### 肉選びの3つの鉄則
 
-<div class="highlight-grid cols-3">
-  <div class="highlight-item">
-    <span class="highlight-tag">小分け</span>
-    <h4>冷凍を最優先</h4>
-    <p>塊肉は包丁さばきが地獄、解凍ロスも大きい。250g〜500gで真空小分けされたものを選べば、必要な分だけ解凍できる。</p>
-  </div>
-  <div class="highlight-item">
-    <span class="highlight-tag">A4以上</span>
-    <h4>¥30,000以上が現実</h4>
-    <p>A4以上の和牛狙いなら¥30,000〜¥40,000の枠を確保。それ未満の予算では、地域ブランド豚や切り落とし牛が圧倒的にコスパ高い。</p>
-  </div>
-  <div class="highlight-item">
-    <span class="highlight-tag">配送</span>
-    <h4>冷凍便のみに絞れ</h4>
-    <p>チルド配送は受取必須で家を空けられない。共働き家庭は冷凍便のみに絞ること。日付指定可の自治体ならさらに安心。</p>
-  </div>
+<div class="cmp-table-wrap">
+  <table class="cmp-table prose-table">
+    <thead><tr><th>見るところ</th><th>こう選ぶ</th></tr></thead>
+    <tbody>
+      <tr><td><strong>小分け</strong></td><td><strong>250〜500gの真空小分け</strong>の冷凍<br><span class="cell-sub">塊肉はさばくのが大変で、解凍ロスも大きい。小分けなら必要な分だけ解凍できる</span></td></tr>
+      <tr><td><strong>等級と予算</strong></td><td>A4以上の和牛なら<strong>30,000〜40,000円</strong>の枠を確保<br><span class="cell-sub">それ未満の予算なら、地域ブランド豚や切り落とし牛のほうがコスパが高い</span></td></tr>
+      <tr><td><strong>配送</strong></td><td><strong>冷凍便だけ</strong>に絞る<br><span class="cell-sub">チルド便は受け取りが必須で家を空けられない。日付指定できる自治体ならなお安心</span></td></tr>
+    </tbody>
+  </table>
 </div>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-06-shock.png" alt="" /></div>
-  <h2>海鮮｜旬を取りに行く本気の5選</h2>
-</div>
+<h2>海鮮｜旬を取りに行く本気の5選</h2>
 
 海鮮は**冷凍庫容量 × 旬の月** が選定の鍵。ホタテ・うなぎ・カニ・いくら・ウニ、季節と保存性で選び分けて。
 
@@ -401,7 +383,6 @@ author: "hacker-ko"
 
 <aside class="related-block">
   <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <p class="related-block-title">食品以外の枠の埋め方も知っておく</p>
   </div>
   <ul class="related-block-list">
@@ -467,7 +448,6 @@ author: "hacker-ko"
 
 <aside class="related-block">
   <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <p class="related-block-title">ポイント・経済圏で還元を底上げ</p>
   </div>
   <ul class="related-block-list">

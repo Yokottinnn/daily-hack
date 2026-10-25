@@ -79,10 +79,7 @@ references:
 </div>
 <span class="event-picks-credit">カード画像は Wikimedia Commons（CC BY-SA / CC0・各撮影者）ほかより引用。出典は各セクションに記載。</span>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-07-gasp.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="trial-seiyu">2026年、都心の地図が変わった｜トライアルが西友を買収</h2>
-</div>
+<h2 id="trial-seiyu">2026年、都心の地図が変わった｜トライアルが西友を買収</h2>
 
 **都心の格安スーパーの話は、この1件を抜きにできない。**
 
@@ -134,10 +131,7 @@ references:
 
 トライアルの武器は**スキップカート**。カートに付いたスキャナで商品を読みながら買い、レジを通らずに出られる。人件費とレジ待ちを同時に削る仕組みで、これが西友の店舗に入っていく。
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="tv">いくらで買えるのか｜テレビが116台のカメラで測った価格</h2>
-</div>
+<h2 id="tv">いくらで買えるのか｜テレビが116台のカメラで測った価格</h2>
 
 **2026年2月22日、TBS「坂上＆指原のつぶれない店」が、都内のスーパー激戦区に番組史上最多の116台のカメラを入れた。** 対象は ロピア・オーケー・トライアル西友 の3社。
 
@@ -219,10 +213,7 @@ references:
   <li><div class="checklist-body"><strong>各社は統一の価格表を出していない</strong><p>とくにオーケーはEDLP（毎日同じ安い価格）を掲げていて、そもそもチラシを出さない。だから「全社の同じ商品を横並び」にした表は、公開情報からは作れない。</p></div></li>
 </ul>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-07-gasp.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="numbers">数字で見る都心の7大スーパー</h2>
-</div>
+<h2 id="numbers">数字で見る都心の7大スーパー</h2>
 
 **7社を同じ表に並べる。** 決算期がバラバラなので、そこも一緒に出す。
 
@@ -394,10 +385,7 @@ references:
 
 **左上と右下に、きれいに分かれる。** 同じ「格安スーパー」でも、ロピアとオーケーは大箱で客単価を取りに行き、まいばすけっとは小箱を都心に敷き詰めて回数で取りに行く。トライアルは西友を買収したことで、その真ん中に立った。
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-04-cheer.png" alt="Daily Hackマスコット" /></div>
-  <h2 class="brand-h" id="ok"><img class="brand-logo" src="/images/tokyo-discount-supermarket-2026/logos/ok.png" alt="オーケーのロゴ" loading="lazy" /><span>① オーケー｜経費率17.4%で「毎日安い」を成立させている</span></h2>
-</div>
+<h2 class="brand-h" id="ok"><img class="brand-logo" src="/images/tokyo-discount-supermarket-2026/logos/ok.png" alt="オーケーのロゴ" loading="lazy" /><span>① オーケー｜経費率17.4%で「毎日安い」を成立させている</span></h2>
 
 <figure class="rn-figure">
   <img src="/images/tokyo-discount-supermarket-2026/photos/ok-hiyoshi.jpg" alt="オーケー日吉店の外観。OK Discount Centerの看板" loading="lazy" />
@@ -428,10 +416,7 @@ references:
   title="【OKストア】シェフはスーパーに行ったら何を買うのか。【検証】" loading="lazy" allowfullscreen
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe></div>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-07-gasp.png" alt="Daily Hackマスコット" /></div>
-  <h2 class="brand-h" id="lopia"><img class="brand-logo" src="/images/tokyo-discount-supermarket-2026/logos/lopia.png" alt="ロピアのロゴ" loading="lazy" /><span>② ロピア｜精肉店から始まった会社が、現金で通してきた</span></h2>
-</div>
+<h2 class="brand-h" id="lopia"><img class="brand-logo" src="/images/tokyo-discount-supermarket-2026/logos/lopia.png" alt="ロピアのロゴ" loading="lazy" /><span>② ロピア｜精肉店から始まった会社が、現金で通してきた</span></h2>
 
 <figure class="rn-figure">
   <img src="/images/tokyo-discount-supermarket-2026/photos/lopia-store.jpg" alt="ロピアの店舗看板。食生活ロピア" loading="lazy" />
@@ -465,10 +450,7 @@ references:
   title="【ロピア爆買い】行く前に見て！リピ買い、ストック方法紹介するよ〜！" loading="lazy" allowfullscreen
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe></div>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
-  <h2 class="brand-h" id="gyomu"><img class="brand-logo" src="/images/tokyo-discount-supermarket-2026/logos/gyomu.png" alt="業務スーパーのロゴ" loading="lazy" /><span>③ 業務スーパー｜7社でただ1社、自分で作っている</span></h2>
-</div>
+<h2 class="brand-h" id="gyomu"><img class="brand-logo" src="/images/tokyo-discount-supermarket-2026/logos/gyomu.png" alt="業務スーパーのロゴ" loading="lazy" /><span>③ 業務スーパー｜7社でただ1社、自分で作っている</span></h2>
 
 <figure class="rn-figure">
   <img src="/images/tokyo-discount-supermarket-2026/photos/gyomu-fukaebashi.jpg" alt="業務スーパー深江橋店の外観。毎日がお買得の看板" loading="lazy" />
@@ -495,10 +477,7 @@ references:
   title="【業務スーパー】新商品も‼️セールチラシから厳選✨９月総力祭で買うべきマニアのおすすめ商品１４選" loading="lazy" allowfullscreen
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe></div>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-04-cheer.png" alt="Daily Hackマスコット" /></div>
-  <h2 class="brand-h" id="maibasket"><img class="brand-logo" src="/images/tokyo-discount-supermarket-2026/logos/mybasket.png" alt="まいばすけっとのロゴ" loading="lazy" /><span>④ まいばすけっと｜東京都に879店。小さくして数で勝つ</span></h2>
-</div>
+<h2 class="brand-h" id="maibasket"><img class="brand-logo" src="/images/tokyo-discount-supermarket-2026/logos/mybasket.png" alt="まいばすけっとのロゴ" loading="lazy" /><span>④ まいばすけっと｜東京都に879店。小さくして数で勝つ</span></h2>
 
 <figure class="rn-figure">
   <img src="/images/tokyo-discount-supermarket-2026/photos/maibasket-iogi.jpg" alt="まいばすけっと井荻駅東店の外観" loading="lazy" />
@@ -525,10 +504,7 @@ references:
   title="【節約】イオン系スーパー「まいばすけっと」購入品で1週間ラクうま献立7選" loading="lazy" allowfullscreen
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe></div>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-07-gasp.png" alt="Daily Hackマスコット" /></div>
-  <h2 class="brand-h" id="hanamasa"><img class="brand-logo" src="/images/tokyo-discount-supermarket-2026/logos/hanamasa.png" alt="肉のハナマサのロゴ" loading="lazy" /><span>⑤ 肉のハナマサ｜全国65店のうち46店が東京都</span></h2>
-</div>
+<h2 class="brand-h" id="hanamasa"><img class="brand-logo" src="/images/tokyo-discount-supermarket-2026/logos/hanamasa.png" alt="肉のハナマサのロゴ" loading="lazy" /><span>⑤ 肉のハナマサ｜全国65店のうち46店が東京都</span></h2>
 
 <figure class="rn-figure">
   <img src="/images/tokyo-discount-supermarket-2026/photos/hanamasa-plus.jpg" alt="肉のハナマサPLUSの店頭。黄色い看板と店先の野菜" loading="lazy" />
@@ -554,10 +530,7 @@ references:
   title="肉好きにはたまらない「肉のハナマサ」" loading="lazy" allowfullscreen
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe></div>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
-  <h2 class="brand-h" id="donki"><img class="brand-logo" src="/images/tokyo-discount-supermarket-2026/logos/donki.png" alt="ドン・キホーテのロゴ" loading="lazy" /><span>⑥ ドン・キホーテ｜スーパーが閉まったあとの受け皿</span></h2>
-</div>
+<h2 class="brand-h" id="donki"><img class="brand-logo" src="/images/tokyo-discount-supermarket-2026/logos/donki.png" alt="ドン・キホーテのロゴ" loading="lazy" /><span>⑥ ドン・キホーテ｜スーパーが閉まったあとの受け皿</span></h2>
 
 <figure class="rn-figure">
   <img src="/images/tokyo-discount-supermarket-2026/photos/donki-roppongi.jpg" alt="ドン・キホーテ六本木店。激安の殿堂の看板" loading="lazy" />
@@ -572,14 +545,39 @@ references:
   title="【ドンキホーテ】ギャル曽根のおすすめ商品紹介！43品爆買い！" loading="lazy" allowfullscreen
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe></div>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-07-gasp.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="per-store">1店舗あたり年商で見ると、安さの作り方は正反対だった</h2>
-</div>
+<h2 id="per-store">1店舗あたり年商で見ると、安さの作り方は正反対だった</h2>
 
 **ここがこの記事でいちばん言いたいところ。** [数字で見る都心の7大スーパー](#numbers)で出した勢力図は、そのまま「安さの作り方が2種類ある」という話になる。
 
 **ロピア45.2億に対して、まいばすけっと2.4億。18.8倍の開き。** 同じ「安いスーパー」なのに、稼ぎ方が正反対だと分かる。
+
+<div class="num-grid">
+  <div class="num-row is-top">
+    <span class="num-label">ロピア</span>
+    <div class="num-track"><div class="num-fill" style="--w:100%"></div></div>
+    <span class="num-value">45.2億円</span>
+  </div>
+  <div class="num-row">
+    <span class="num-label">オーケー</span>
+    <div class="num-track"><div class="num-fill" style="--w:96%"></div></div>
+    <span class="num-value">43.4億円</span>
+  </div>
+  <div class="num-row">
+    <span class="num-label">トライアルG</span>
+    <div class="num-track"><div class="num-fill" style="--w:48%"></div></div>
+    <span class="num-value">21.7億円</span>
+  </div>
+  <div class="num-row">
+    <span class="num-label">肉のハナマサほか</span>
+    <div class="num-track"><div class="num-fill" style="--w:35%"></div></div>
+    <span class="num-value">15.9億円</span>
+  </div>
+  <div class="num-row">
+    <span class="num-label">まいばすけっと</span>
+    <div class="num-track"><div class="num-fill" style="--w:5%"></div></div>
+    <span class="num-value">2.4億円</span>
+  </div>
+</div>
 
 <ul class="checklist">
   <li><div class="checklist-body"><strong>大箱・高回転で薄利を成立させる型</strong><p>オーケー・ロピア・トライアル。1店に人を集め、量をさばいて、1品あたりの粗利が薄くても総額で回す。だから駅前の小さな物件には出せない。</p></div></li>
@@ -588,10 +586,7 @@ references:
 
 **「都心で安い店」を探すとき、この2つを混ぜて比べても意味がない。** まとめ買いなら前者、日々の買い足しなら後者。**そもそも競合していない。**
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-07-gasp.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="timesale">安い日をどこで知るか｜チラシ・アプリ・公式Xの一覧</h2>
-</div>
+<h2 id="timesale">安い日をどこで知るか｜チラシ・アプリ・公式Xの一覧</h2>
 
 **この7社は「いつ安いか」の知らせ方がバラバラで、それ自体が戦い方の違いになっている。** チラシを出す会社、アプリに寄せた会社、そもそも「安い日」を作らない会社がある。**公式が出している入口だけ**を並べる。
 
@@ -621,10 +616,7 @@ references:
   <li><div class="checklist-body"><strong>ロピアに全国共通のチラシは無い。</strong><p>値段が店舗ごと・その日ごとに動く作りなので、<strong>配れるチラシが原理的に作れない</strong>。行ってみるまで分からないのが、この店の性格そのものになっている。</p></div></li>
 </ul>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-04-cheer.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="usage">使い分け表｜何を、どこで買うか</h2>
-</div>
+<h2 id="usage">使い分け表｜何を、どこで買うか</h2>
 
 7社の性格を、買うものから引けるようにした。
 
@@ -650,10 +642,7 @@ references:
 <p class="affiliate-text"><a href="https://px.a8.net/svt/ejp?a8mat=4BEIPG+8MSBBU+4Z4W+BX3J6" target="_blank" rel="sponsored noopener nofollow">イトーヨーカドーの商品を最短70分で【IYNSbyONIGO】</a></p>
 </div>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="faq">よくある質問</h2>
-</div>
+<h2 id="faq">よくある質問</h2>
 
 <ul class="checklist">
   <li><div class="checklist-body"><strong>結局、いちばん安いのはどこ？</strong><p>品目による。1店で全部が最安になる店は無い。肉ならロピアかハナマサ、日用品ならオーケー、冷凍なら業務スーパー——というのが、各社の安さの作り方から導かれる答え。</p></div></li>

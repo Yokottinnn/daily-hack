@@ -49,8 +49,11 @@
 - 一覧の「即時提携」は**提携方式の札**であって、提携済みの印ではない（t261 で取り違えかけた）
 - **提携済みは 3 件**（t264・2026-10-11）: Liigo（2161122）／**Yahoo!ショッピング 自動提携機能用（2136156）**／ニーズツアー（2175237）
 - Yahoo!ショッピングは **MyLink** でリンクを作る（広告詳細にコードの欄は無く、MyLink のボタンから。t267）
+- **3 店ボタン（`docs/shop-comparison.md`）の Yahoo! は素の shopping.yahoo.co.jp リンク**で、isPR の記事の LinkSwitch が成果リンクに変える
 
 ## もしもアフィリエイト
+
+- **Amazon は もしも経由で取る**（2026-10-25 利用者の判断）。提携が通ったら `src/data/shop/config.json` に a_id 等を写す（`docs/shop-comparison.md`）
 
 - 提携中は 2 件（記事に合うものは無し・t244）
 
@@ -68,3 +71,4 @@
 | `point-service-complete-guide-2026` | 0 | ID 差し替え |
 | `summer-cospa-travel-2026` | 16 |  |
 | `summer-travel-timesale-2026` | 5 |  |
+| `rechargeable-kairo-comparison-2026` | 3 店ボタン（`src/data/shop/rechargeable-kairo.json`） | 楽天のリンクは `src/data/shop/config.json` の `rakuten.affiliateId` 1 か所で替わる（記事の Markdown には書いていない） |

@@ -96,10 +96,7 @@ references:
 <div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B43JB+C507KQ+389A+67RK1" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/chobirich-300x250.jpg" alt="ちょびリッチ" width="300" height="250" loading="lazy"></a></div>
 </div>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-05-smug.png" alt="" /></div>
-  <h2>📱 注目のキャンペーンを1枚ずつ深掘り</h2>
-</div>
+<h2>📱 注目のキャンペーンを1枚ずつ深掘り</h2>
 
 表だけじゃ伝わらないから、いま特に話題の5枚を、実際のXの声つきで1枚ずつ解説するわ。「みんなが何に注目してるか」が見えると、選び方が一気にラクになるはずよ。
 

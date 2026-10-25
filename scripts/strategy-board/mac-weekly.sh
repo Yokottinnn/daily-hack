@@ -88,11 +88,32 @@ if [ -n "$NODE_BIN" ] && [ -s "$W/.x-numbers.js" ]; then
   fi
 fi
 
+# 2e) 3 店ボタンの価格（楽天市場・Yahoo!ショッピングの API・読むだけ・$0。2026-10-25 追加。docs/shop-comparison.md）
+# 鍵は Keychain から環境変数で渡すだけで、ファイル・ログには出さない。無い鍵の店は skipped になる（失敗にしない）
+SHOP_OK=false
+SJS="$WORK/shop-fetch-prices.mjs"; SDIR="$WORK/shop-data"
+git -C "$REPO" show origin/main:scripts/shop/fetch-prices.mjs > "$SJS" 2>/dev/null
+rm -rf "$SDIR"; mkdir -p "$SDIR"
+for f in $(git -C "$REPO" ls-tree --name-only origin/main src/data/shop/ 2>/dev/null); do git -C "$REPO" show "origin/main:$f" > "$SDIR/$(basename "$f")" 2>/dev/null; done
+if [ -n "$NODE_BIN" ] && [ -s "$SJS" ] && ls "$SDIR"/*.json >/dev/null 2>&1; then
+  # macOS の /bin/bash 3.2 でも子に渡るよう、サブシェルで export する（関数の前に置く代入には頼らない）
+  ( export RAKUTEN_APP_ID="$(security find-generic-password -s dailyhack-rakuten-ws -a applicationId -w 2>/dev/null)"
+    export RAKUTEN_ACCESS_KEY="$(security find-generic-password -s dailyhack-rakuten-ws -a accessKey -w 2>/dev/null)"
+    export YAHOO_APP_ID="$(security find-generic-password -s dailyhack-yahoo-shopping -a clientId -w 2>/dev/null)"
+    run_limited 300 "$NODE_BIN" "$SJS" --dir "$SDIR" --out "$WORK/shop-prices.json" > "$WORK/shop.log" 2>&1 )
+  # **rc では判断しない。** 読めて、どこか 1 店でも当たりがあるときだけ置く（全部外れのファイルで前回を上書きしない）
+  if "$NODE_BIN" -e 'const j=JSON.parse(require("fs").readFileSync(process.argv[1],"utf8"));const n=Object.values(j.series||{}).flatMap(s=>Object.values(s)).flatMap(r=>Object.values(r)).filter(x=>x&&x.found).length;process.exit(n>0?0:1)' "$WORK/shop-prices.json" 2>/dev/null; then
+    mv "$WORK/shop-prices.json" "$BOARD/shop-prices.json"; SHOP_OK=true
+  else
+    cp "$WORK/shop-prices.json" "$BOARD/shop-prices-failed.json" 2>/dev/null || true
+  fi
+fi
+
 # 3) 実行結果（自分で parse して確かめる）
 cat > "$BOARD/mac-weekly-status.json" <<JSONEOF
-{"generated":"$(date '+%Y-%m-%dT%H:%M:%S%z')","gsc":{"rc":$GSC_RC,"ok":$GSC_OK},"a8_partnered":{"rc":$A8_RC,"ok":$A8_OK},"others":{"rc":$OT_RC,"ok":$OT_OK},"x":{"ok":$X_OK},"x_numbers":{"ok":$XN_OK}}
+{"generated":"$(date '+%Y-%m-%dT%H:%M:%S%z')","gsc":{"rc":$GSC_RC,"ok":$GSC_OK},"a8_partnered":{"rc":$A8_RC,"ok":$A8_OK},"others":{"rc":$OT_RC,"ok":$OT_OK},"x":{"ok":$X_OK},"x_numbers":{"ok":$XN_OK},"shop":{"ok":$SHOP_OK}}
 JSONEOF
-"$NODE_BIN" -e 'JSON.parse(require("fs").readFileSync(process.argv[1],"utf8"))' "$BOARD/mac-weekly-status.json" && echo "board weekly: gsc=$GSC_OK a8=$A8_OK others=$OT_OK x=$X_OK x_numbers=$XN_OK"
+"$NODE_BIN" -e 'JSON.parse(require("fs").readFileSync(process.argv[1],"utf8"))' "$BOARD/mac-weekly-status.json" && echo "board weekly: gsc=$GSC_OK a8=$A8_OK others=$OT_OK x=$X_OK x_numbers=$XN_OK shop=$SHOP_OK"
 
 # 3b) 外で書いたものを worktree に移す（ここから送信までは数秒）
 cp -R "$BOARD/." "$BOARD_FINAL/"

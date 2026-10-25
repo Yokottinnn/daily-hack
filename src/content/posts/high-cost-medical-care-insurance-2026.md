@@ -27,7 +27,6 @@ references:
 
 <aside class="related-block">
   <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <p class="related-block-title">あわせて読みたい</p>
   </div>
   <ul class="related-block-list">
@@ -69,19 +68,28 @@ references:
 
 > 2026年4月7日に予算が成立し、**2026年8月からの実施が確定**。第1段階（2026年8月）で月額上限の引き上げと**年間上限の新設**、第2段階（2027年8月）で所得区分の細分化とさらなる引き上げが予定。多数回該当の額は据え置きで長期療養者に配慮。出典: <a href="https://www.freee.co.jp/kb/kb-trend/high-cost-medical-care-benefit/" target="_blank" rel="noopener nofollow">freee</a>、<a href="https://siaa.or.jp/column/181" target="_blank" rel="noopener nofollow">公的保険アドバイザー協会</a>。
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-07-gasp.png" alt="" /></div>
-  <h2>そもそも「高額療養費」を分かってる？</h2>
-</div>
+<h2>そもそも「高額療養費」を分かってる？</h2>
 
 ここが分かってないと保険の要否は判断できない。**高額療養費制度**は、1か月（同一月）の医療費の自己負担が一定の上限を超えたら、超えた分が戻ってくる公的制度。たとえば年収約370〜770万円の人なら、**医療費が月100万円かかっても、自己負担の上限はおおむね8〜9万円台**（＋今回の改正で数千円上乗せ）に収まる。
 
+<div class="num-grid">
+  <div class="num-row">
+    <span class="num-label">ひと月の医療費</span>
+    <div class="num-track"><div class="num-fill" style="--w:100%"></div></div>
+    <span class="num-value">100万円</span>
+  </div>
+  <div class="num-row is-top">
+    <span class="num-label">自己負担の上限</span>
+    <div class="num-track"><div class="num-fill" style="--w:9%"></div></div>
+    <span class="num-value">約8〜9万円台</span>
+  </div>
+</div>
+
+<p class="source-note">年収約370〜770万円の人の場合のおおよその上限。今回の改正で数千円上乗せになる。</p>
+
 つまり、日本で普通に健康保険に入っていれば、**「盲腸で100万円請求されて破産」みたいなことは起きない**の。民間の医療保険は、この公的な上限を“さらに埋める”ためのオプションにすぎない。ここを分かった上で、要否を判断するのが大人のやり方よ。
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-05-smug.png" alt="" /></div>
-  <h2>「保険で埋める」vs「貯蓄で足りる」— あなたはどっち？</h2>
-</div>
+<h2>「保険で埋める」vs「貯蓄で足りる」— あなたはどっち？</h2>
 
 改正で増える自己負担は、多くの世帯で**月あたり数千円〜1万円台**の上乗せ。これを「保険で備える」か「貯蓄で吸収する」かの分岐点はここ。
 

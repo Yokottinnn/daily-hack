@@ -22,7 +22,6 @@ author: "hacker-ko"
 
 <aside class="related-block">
   <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <p class="related-block-title">あわせて読みたい</p>
   </div>
   <ul class="related-block-list">
@@ -82,10 +81,7 @@ author: "hacker-ko"
 
 <p class="source-note">出典: <a href="https://www.rakuten-bank.co.jp/jrebank/campaign/jreg-tokuten/" target="_blank" rel="noopener nofollow">楽天銀行 JRE BANK優待特典ページ</a>（2026年5月時点。最新条件は公式で要確認）</p>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-09-arms-crossed.png" alt="" /></div>
-  <h2>JRE BANKって何者？ 楽天銀行+JR東日本のハイブリッド</h2>
-</div>
+<h2>JRE BANKって何者？ 楽天銀行+JR東日本のハイブリッド</h2>
 
 ここで誤解されがちなんだけど、JRE BANKは**独立した銀行ではない**。楽天銀行の中に作られた**JR東日本ユーザー専用モード**みたいなものよ。法人としては楽天銀行、ブランドと特典がJR東日本仕様。
 
@@ -186,7 +182,6 @@ JRE BANKの口座を持つだけで使える主要特典は4つ。**公式ペー
 
 <aside class="related-block">
   <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-05-smug.png" alt="" /></span>
     <p class="related-block-title">あわせて読みたい</p>
   </div>
   <ul class="related-block-list">
@@ -207,10 +202,7 @@ JRE BANKの口座を持つだけで使える主要特典は4つ。**公式ペー
   </ul>
 </aside>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-04-cheer.png" alt="" /></div>
-  <h2>JRE BANK 紹介プログラム｜被紹介者が貰える特典を完全整理</h2>
-</div>
+<h2>JRE BANK 紹介プログラム｜被紹介者が貰える特典を完全整理</h2>
 
 JRE BANK には **JR東日本×楽天銀行が運営する「口座紹介プログラム」** があるのよ。これは既存口座保有者が発行する **紹介コード**（口座1つにつき1つ、固有の英数字）を新規申込時に入力することで、**新規申込者（=被紹介者）に追加ポイントが付与される** 仕組み。
 
@@ -289,14 +281,21 @@ JRE BANK には **JR東日本×楽天銀行が運営する「口座紹介プロ�
 
 公平のため明記しておくと、アタシ（既存口座保有者）が紹介コード経由で申込を受けると **1人紹介につき最大 JRE POINT 4,000 ポイント、期間中最大10名まで** もらえる仕組みになってる（出典: [JR東日本プレスリリース](https://prtimes.jp/main/html/rd/p/000001252.000017557.html)）。
 
+<div class="cmp-table-wrap">
+  <table class="cmp-table prose-table">
+    <thead><tr><th>だれが</th><th>もらえるもの</th></tr></thead>
+    <tbody>
+      <tr><td><strong>紹介した人</strong><br>（アタシ）</td><td>1人につき最大 JRE POINT <strong>4,000ポイント</strong>（期間中最大10名まで）</td></tr>
+      <tr><td><strong>紹介された人</strong><br>（あんた）</td><td><strong>1,100〜7,000ポイント</strong></td></tr>
+    </tbody>
+  </table>
+</div>
+
 つまりアタシも得するけど、**あんた（被紹介者）も 1,100〜7,000 ポイント得する Win-Win 設計**。「紹介者だけ得して被紹介者は損」みたいな仕組みじゃないから、安心して使いなさい。
 
 <p class="source-note">出典: <a href="https://www.rakuten-bank.co.jp/jrebank/campaign/referral/" target="_blank" rel="noopener nofollow">JRE BANK 口座紹介プログラム公式</a> ／ <a href="https://prtimes.jp/main/html/rd/p/000001252.000017557.html" target="_blank" rel="noopener nofollow">JR東日本 プレスリリース</a></p>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-04-cheer.png" alt="" /></div>
-  <h2>開設手順｜楽天銀行アプリでJREモードに切り替えるだけ</h2>
-</div>
+<h2>開設手順｜楽天銀行アプリでJREモードに切り替えるだけ</h2>
 
 「楽天銀行ベースって聞いて手続きが面倒くさそう」と思ったあんた。**全然そんなことない**。アプリ操作で5〜10分よ。アタシが順番で教えてあげるから、迷う暇あるなら今やりなさい。
 
@@ -401,7 +400,6 @@ JRE BANK には **JR東日本×楽天銀行が運営する「口座紹介プロ�
 
 <aside class="related-block">
   <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <p class="related-block-title">あわせて読みたい</p>
   </div>
   <ul class="related-block-list">

@@ -57,10 +57,7 @@ references:
 
 ポイント・クーポン・会員特典は改定や終了がある。**予約前に各社の最新の条件を必ず確認しなさい。**
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-09-arms-crossed.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="real-return">ホテル予約サイトの実質還元｜1泊2万円で計算した</h2>
-</div>
+<h2 id="real-return">ホテル予約サイトの実質還元｜1泊2万円で計算した</h2>
 
 **「最大◯%」は条件を全部満たした人の数字。** そこでアタシは、1泊2万円（税込）の宿を1回予約した場合に、各社の公表している率で**いくら戻るか**を条件別に計算した。
 
@@ -103,7 +100,6 @@ references:
 
 <aside class="related-block">
   <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <p class="related-block-title">あわせて読みたい</p>
   </div>
   <ul class="related-block-list">
@@ -124,10 +120,7 @@ references:
   </ul>
 </aside>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-07-gasp.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="cancel">キャンセルの扱い比較｜無料で取り消せる期限は宿が決める</h2>
-</div>
+<h2 id="cancel">キャンセルの扱い比較｜無料で取り消せる期限は宿が決める</h2>
 
 **どのサイトも「◯日前まで無料」を一律には決めていない。** 取消料は宿・プランが決めていて、サイトごとに違うのは**取り消し方と、お金の戻り方**よ。
 
@@ -152,10 +145,7 @@ references:
 
 **リゾートグランピング.comは「予約はサイト、支払いは施設」。** 料金は施設が指定する方法で精算するので、取消料の請求も施設から来る。グランピングは天候で予定が変わりやすいから、予約前に施設のキャンセルポリシーを読んでおきなさい。
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-06-shock.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="rakuten-bonus">楽天トラベルの会員特典が変わった｜2026年8月からポイントではなく即時割引</h2>
-</div>
+<h2 id="rakuten-bonus">楽天トラベルの会員特典が変わった｜2026年8月からポイントではなく即時割引</h2>
 
 **楽天トラベルのボーナスプログラムは、2026年8月5日の改定で特典の形が変わった。** それまでのポイント進呈から、**予約するときにその場で引かれる即時割引**になったの。
 
@@ -180,10 +170,7 @@ references:
 
 たとえば楽天市場で月3万円買い物する人なら、+1倍は単純計算で月300ptぶんの上乗せ。宿泊そのものの1%（5,000円の宿なら50pt）より、**楽天市場側で増えるほうが大きいこともある。** SPUの対象や上限は楽天市場の規定で確認しなさい。
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-04-cheer.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="each-site">国内ホテル予約サイト5社を1社ずつ</h2>
-</div>
+<h2 id="each-site">国内ホテル予約サイト5社を1社ずつ</h2>
 
 **表だけだと「自分が使う1社」が決まらない。** ここからは1社ずつ、還元・キャンセル・強い宿をまとめる。数字は上の表と同じもの。
 
@@ -289,7 +276,6 @@ references:
 
 <aside class="related-block">
   <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <p class="related-block-title">あわせて読みたい</p>
   </div>
   <ul class="related-block-list">
@@ -310,10 +296,7 @@ references:
   </ul>
 </aside>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="combine">ポイントとクーポンは併用できる？｜5社の重ね方</h2>
-</div>
+<h2 id="combine">ポイントとクーポンは併用できる？｜5社の重ね方</h2>
 
 **還元を最大にするには「何と何が重なるか」を知っておくこと。** ここを間違えると、使ったつもりのクーポンが外れる。
 
@@ -334,10 +317,7 @@ references:
 
 **重ねやすさでは楽天トラベルが頭ひとつ抜けている。** 逆にOZmallは「ポイントかクーポンか」の二択なので、予約画面でどちらが大きいかを比べてから確定しなさい。
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-04-cheer.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="how-to-choose">目的別の選び方｜すでに持っている条件で決める</h2>
-</div>
+<h2 id="how-to-choose">目的別の選び方｜すでに持っている条件で決める</h2>
 
 <div class="cmp-table-wrap">
   <table class="cmp-table">
@@ -354,10 +334,7 @@ references:
 
 **迷ったら「財布の中のカード」で決めなさい。** 楽天カードなら楽天トラベル、イオンカードならイオンコンパス。ゼロから会員レベルやステージを育てるより、すでに持っている条件で還元を取るほうが早いのよ。飛行機もセットで取るなら、<a href="/posts/domestic-flight-tour-sites-2026/">国内の格安航空券・ツアーの手数料比較</a>も見ておきなさい。
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-07-gasp.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="checklist">予約前に確かめる4つ</h2>
-</div>
+<h2 id="checklist">予約前に確かめる4つ</h2>
 
 <div class="hakkako-says">
   <div class="hakkako-mascot"><img src="/images/expr-09-arms-crossed.png" alt="Daily Hackマスコット" /></div>
@@ -371,10 +348,7 @@ references:
   <li><div class="checklist-body"><strong>④ 支払いの場所を確かめる</strong><p>リゾートグランピング.comは料金を施設で精算する。楽天トラベルの即時割引は、オンラインカード決済と現地決済で率が違う。</p></div></li>
 </ul>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="faq">よくある質問｜還元・キャンセル・クーポン</h2>
-</div>
+<h2 id="faq">よくある質問｜還元・キャンセル・クーポン</h2>
 
 <div class="cmp-table-wrap">
   <table class="cmp-table wrap-table faq-table">
