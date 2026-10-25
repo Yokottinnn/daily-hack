@@ -1,6 +1,6 @@
 # 3 店ボタンの Mac 側の準備: yahoo（scripts/shop/mac-setup.mjs）
 
-生成: **2026-10-25T08:39:13.203Z**
+生成: **2026-10-25T08:41:44.162Z**
 
 ## アプリケーションの管理
 
@@ -16,6 +16,21 @@
 ボタン:
 - Yahoo! JAPAN IDでログイン
 
+- 「Yahoo! JAPAN IDでログイン」を押した: いまの画面 https://login.yahoo.co.jp/config/login・ID かパスワードの欄 あり（Yahoo! のログインがこの Chrome に無い）
+## 押したあとの画面
+
+- 画面: https://login.yahoo.co.jp/config/login（ログイン - Yahoo! JAPAN）
+
+見出し:
+- ログイン
+
+入力欄:
+- input[type=text name=handle] 「携帯電話番号/メールアドレス/ID」
+
+ボタン:
+- 次へ ／ テーマ
+
+- この Chrome で開いている Yahoo! のタブ: 2 個（e.developer.yahoo.co.jp・login.yahoo.co.jp）
 ## 新しいアプリケーションを開発（登録の画面・送っていない）
 
 - 画面: https://e.developer.yahoo.co.jp/register（アプリケーションの管理：Yahoo!デベロッパーネットワーク）

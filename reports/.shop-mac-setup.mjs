@@ -331,6 +331,19 @@ try {
     // Yahoo! デベロッパーネットワークの公式の入口（アプリケーションの管理・新規登録）
     await go('https://e.developer.yahoo.co.jp/dashboard/');
     await dump('アプリケーションの管理');
+    // t347: 利用者のログイン後もデベロッパーの画面は「ログインが必要」のまま。「Yahoo! JAPAN IDでログイン」を押して、
+    // Yahoo! のログイン済みの状態で戻ってこられるか（ID・パスワードの欄が出るか）を見る。**ID・パスワードは入れない**
+    const sso = p.getByText(/^Yahoo! JAPAN IDでログイン$/).first();
+    if (await sso.count()) {
+      await sso.click({ timeout: 5000 }).catch(() => {});
+      await p.waitForLoadState('domcontentloaded', { timeout: 20000 }).catch(() => {});
+      await p.waitForTimeout(6000);
+      const hasPw = await p.locator('input[type=password]:visible, input[name=handle]:visible, input[name=login]:visible').count();
+      lines.push(`- 「Yahoo! JAPAN IDでログイン」を押した: いまの画面 ${here()}・ID かパスワードの欄 ${hasPw ? 'あり（Yahoo! のログインがこの Chrome に無い）' : 'なし'}`);
+      await dump('押したあとの画面');
+    }
+    const tabs = ctx.pages().map((q) => { try { const u = new URL(q.url()); return u.host; } catch { return ''; } }).filter((h) => /yahoo/.test(h));
+    lines.push(`- この Chrome で開いている Yahoo! のタブ: ${tabs.length} 個（${[...new Set(tabs)].join('・')}）`);
     await go('https://e.developer.yahoo.co.jp/register');
     await dump('新しいアプリケーションを開発（登録の画面・送っていない）');
     // 2026-10-25 利用者が Yahoo! JAPAN ID でログインした。登録の画面の選択肢と案内の文字も読む（送らない）
