@@ -425,5 +425,5 @@ x243 は 19:55 と 19:58 に起動され、2 回目はロックで止まった�
 **投稿タスクの書き方（以後これを必ず入れる）**
 
 - **出したあと、投稿のページで画像の枚数を数える**（`article` の `[data-testid="tweetPhoto"]`）。期待と違えばレポートの先頭に出す。x332 の §4 を写す
-- `run-publish.sh` の結果は **`parse-main-result`（stdout が空）で `ok:false` になることが多い**が、出ていることがある。**再送しない。** プロフィールを読んで判定する
+- `run-publish.sh` の単発経路が **`parse-main-result`（raw が空）で `ok:false`** を返していたのは、最後の `node -e "…" MAIN_RES=… THREAD_RES=…` で値をコマンドの**後ろ**に置いていたため（環境変数ではなく引数になる）。**x334（2026-10-24）で直した**（元は `run-publish.sh.bak-x334`）。それでも結果が取れなければ**再送しない。** プロフィールを読んで判定する
 - 画像の説明（ALT）は `post-via-playwright.js` が `ALT_TEXTS_FILE`（JSON 配列）で対応している（x264・x265）。CC BY / CC BY-SA の撮影者名を ALT に書くときはこれを使う
