@@ -1,0 +1,13 @@
+{
+ "burtle.png": {
+  "brand": "バートル",
+  "src": "https://www.burtle.jp/common/images/index/contents_logo.png",
+  "fetched": "2026-10-25"
+ },
+ "makita.png": {
+  "brand": "マキタ",
+  "src": "https://www.makita.co.jp/common/img/logo.svg",
+  "fetched": "2026-10-25",
+  "note": "SVG を PNG に変換"
+ }
+}
