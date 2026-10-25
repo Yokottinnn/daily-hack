@@ -22,7 +22,6 @@ author: "hacker-ko"
 
 <aside class="related-block">
   <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <p class="related-block-title">あわせて読みたい</p>
   </div>
   <ul class="related-block-list">
@@ -67,10 +66,7 @@ author: "hacker-ko"
 
 ここに **ふるさと納税の運用調整**（6月は年収予測が立つ最初のチェックポイント）を被せたら、6月の"やるべきこと"は8割埋まる。残り2割は、季節限定のスポット案件で穴埋めしなさい。
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-09-arms-crossed.png" alt="" /></div>
-  <h2>アタシのおすすめTOP15｜カテゴリ・期限・特典額で絞ったわよ</h2>
-</div>
+<h2>アタシのおすすめTOP15｜カテゴリ・期限・特典額で絞ったわよ</h2>
 
 「結局どれが一番なの？」って聞きたがる人のために、15案件を **recommended マーク付き** で並べておいたわよ。上から順にやれば、これで間違いないからね。
 
@@ -300,7 +296,6 @@ author: "hacker-ko"
 
 <aside class="related-block">
   <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-05-smug.png" alt="" /></span>
     <p class="related-block-title">あわせて読みたい</p>
   </div>
   <ul class="related-block-list">
@@ -328,10 +323,7 @@ author: "hacker-ko"
   </ul>
 </aside>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-05-smug.png" alt="" /></div>
-  <h2>Day1→Week1→Month1 で優先順位を分けなさい</h2>
-</div>
+<h2>Day1→Week1→Month1 で優先順位を分けなさい</h2>
 
 「TOP15を全部やる時間ない」って? 当たり前よ、全員サラリーマンなんだから。だから時間軸で **3段階に分けてやる順番を決めなさい**。
 
@@ -343,10 +335,7 @@ author: "hacker-ko"
 
 > 💡 **お得Tip**: クレカ申込は **1ヶ月に2枚まで** を目安に。3枚以上同時に申し込むと「申込ブラック」扱いになり、半年は審査落ちが連続するから絶対やめなさい。
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-04-cheer.png" alt="" /></div>
-  <h2>カテゴリ別の"6月版"狙い目を教えてあげる</h2>
-</div>
+<h2>カテゴリ別の"6月版"狙い目を教えてあげる</h2>
 
 ### 銀行系: 6月は給与振込変更チャンス
 
@@ -387,10 +376,7 @@ PayPay・楽天ペイ・d払いの **新規登録特典は基本的に1回限り
   </div>
 </a>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-09-arms-crossed.png" alt="" /></div>
-  <h2>"やるな"案件もアタシは教えてあげる</h2>
-</div>
+<h2>"やるな"案件もアタシは教えてあげる</h2>
 
 「全部やれ」しか言わないまとめサイトは無責任よ。6月に **手を出すべきじゃないもの** も先に潰しておくわね。
 
@@ -459,7 +445,6 @@ PayPay・楽天ペイ・d払いの **新規登録特典は基本的に1回限り
 
 <aside class="related-block">
   <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <p class="related-block-title">あわせて読みたい</p>
   </div>
   <ul class="related-block-list">

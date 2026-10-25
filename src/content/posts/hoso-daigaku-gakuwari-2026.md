@@ -86,10 +86,7 @@ references:
 </div>
 <span class="event-picks-credit">カード画像と表紙は Wikimedia Commons より引用：<a href="https://commons.wikimedia.org/wiki/File%3AHeadphones_1.jpg" target="_blank" rel="noopener">Headphones 1</a>（PJ / CC BY-SA 3.0）／<a href="https://commons.wikimedia.org/wiki/File%3AEslite_Bookstore_Dunnan_Interior_201507.jpg" target="_blank" rel="noopener">Eslite Bookstore Dunnan Interior 201507</a>（Wpcpey / CC BY 3.0）／<a href="https://commons.wikimedia.org/wiki/File%3AKelvingrove_Art_Gallery_and_Museum_Central_Hall.jpg" target="_blank" rel="noopener">Kelvingrove Art Gallery and Museum Central Hall</a>（Michael D Beckwith / CC BY 3.0）／<a href="https://commons.wikimedia.org/wiki/File%3AApple-camera-desk-office_%2824031346580%29.jpg" target="_blank" rel="noopener">Apple-camera-desk-office (24031346580)</a>（www.Pixel.la Free Stock Photos / CC0）／<a href="https://commons.wikimedia.org/wiki/File%3ALuxury_Movie_Theater_Seats.jpg" target="_blank" rel="noopener">Luxury Movie Theater Seats</a>（Author0612 / CC BY-SA 4.0）／<a href="https://commons.wikimedia.org/wiki/File%3AHamamatsu_Station_Tokaido_Shinkansen_platform_-_2.jpg" target="_blank" rel="noopener">Hamamatsu Station Tokaido Shinkansen platform - 2</a>（Indiana jo / CC BY-SA 4.0）。</span>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-07-gasp.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="span">学割はいつまで効くか｜「1年」で見るのが間違い。最長10年、休学を足して14年</h2>
-</div>
+<h2 id="span">学割はいつまで効くか｜「1年」で見るのが間違い。最長10年、休学を足して14年</h2>
 
 **ここが他所と一番 違うところ。** 多くの記事は「選科履修生なら1年で21,000円」と、**1年だけを切り取って**計算している。だが放送大学の公式は、はっきりこう書いている。
 
@@ -158,10 +155,7 @@ references:
   <li><div class="checklist-body"><strong>面接授業は場所と抽選の制約がある。</strong><p>6,000円の1単位科目には、学習センターへ出向く面接授業と、自宅で完結するオンライン授業がある。<strong>最安をねらうならオンライン授業の1単位科目</strong>が現実的。開講科目は学期ごとに変わる。</p></div></li>
 </ul>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-04-cheer.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="subs">サブスクの学割｜毎月ずっと浮くもの</h2>
-</div>
+<h2 id="subs">サブスクの学割｜毎月ずっと浮くもの</h2>
 
 **ここから先は「サブスク」と「都度」を分ける。** 性質がまったく違うからで、サブスクは**使わなくても毎月 浮く**が、都度は**使った回しか浮かない**。混ぜて一覧にすると、元が取れるかの判断ができなくなる。
 
@@ -261,7 +255,6 @@ references:
 
 <aside class="related-block">
   <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <p class="related-block-title">固定費そのものを下げる話はこっち</p>
   </div>
   <ul class="related-block-list">
@@ -275,10 +268,7 @@ references:
   </ul>
 </aside>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="shot">都度の学割｜使った回だけ浮くもの</h2>
-</div>
+<h2 id="shot">都度の学割｜使った回だけ浮くもの</h2>
 
 **こちらは「1回いくら浮くか」で見る。** 毎月 固定で出ていくものではないので、**年に何回 使うかを自分で掛ける**必要がある。数が多いのでカテゴリに分けた。
 
@@ -421,10 +411,7 @@ references:
 
 **都度のほうは「回数を掛けて初めて効く」。** 映画を年1本しか見ない人にとっては500円の話でしかないが、**月1本 見る人には年6,000円**。ディズニーを年1回 行くだけでも**3,000円前後**が浮く。ここは自分の生活に掛け算してほしい。
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-07-gasp.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="museum">美術館・博物館｜国立美術館キャンパスメンバーズが一番 太い</h2>
-</div>
+<h2 id="museum">美術館・博物館｜国立美術館キャンパスメンバーズが一番 太い</h2>
 
 **都度のなかで、これだけ性質が違う。** 放送大学は**国立美術館キャンパスメンバーズ制度に加入している**ので、学生証を見せるだけで対象館の所蔵作品展が**何度でも無料**になる。
 
@@ -474,10 +461,7 @@ references:
 
 **週末に美術館を回る習慣がある人なら、ここだけで元が取れる。** 常設展500〜700円を月2回、2人ぶんで換算すれば、半年で24,000〜33,600円。**学生証の元手を超える。**
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-04-cheer.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="age">大人だと効かない学割｜年齢で弾かれるもの</h2>
-</div>
+<h2 id="age">大人だと効かない学割｜年齢で弾かれるもの</h2>
 
 **「学生証さえあれば全部 効く」わけではない。** 学割には2種類あって、**「学生であること」が条件のものと、「若いこと」が条件のもの**がある。後者は放送大学に入っても効かない。
 
@@ -500,10 +484,7 @@ references:
 
 **見分け方は1つだけ。** 条件の書き方が「◯歳以下」なら諦める、「学生であること」なら通る。<strong>ディズニーのカレッジパスポートは年齢を問わないと明記している</strong>のに対し、携帯キャリアは軒並み「U18」「U22」と年齢で切っている。**同じ「学生向け」でも、どちらの条件で書かれているかを毎回 読む**しかない。
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-07-gasp.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="teiki">定期券は学割で買えるのか｜買えない。買えるのは101km超の乗車券</h2>
-</div>
+<h2 id="teiki">定期券は学割で買えるのか｜買えない。買えるのは101km超の乗車券</h2>
 
 **ここは期待されやすいので、はっきり書く。** 放送大学の学割証（学生旅客運賃割引証）では、**通学定期券は買えない。**
 
@@ -537,7 +518,6 @@ references:
 
 <aside class="related-block">
   <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-05-smug.png" alt="" /></span>
     <p class="related-block-title">サブスクと交通費、元を取る話はこっちにもある</p>
   </div>
   <ul class="related-block-list">
@@ -558,10 +538,7 @@ references:
   </ul>
 </aside>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="breakeven">損益分岐｜月450円をどう超えるか</h2>
-</div>
+<h2 id="breakeven">損益分岐｜月450円をどう超えるか</h2>
 
 **元手は月450円**（全科履修生・10年・54,000円）。ここを超えるかどうかを、生活のパターン別に出した。
 
@@ -588,10 +565,7 @@ references:
 
 <p class="source-note">チェックを入れて自分の損益分岐を出せる資料を別に用意した：<a href="https://claude.ai/artifact/EUf3yBdzEjMetCnfoyTYcy" target="_blank" rel="noopener">放送大学 学割の損益分岐（完全版資料）</a></p>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-04-cheer.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="verify">認証の通し方｜学校名が候補に出てこないとき</h2>
-</div>
+<h2 id="verify">認証の通し方｜学校名が候補に出てこないとき</h2>
 
 サービス側は**学校名・学籍番号・メールアドレス**のどれかで在学を照合する。放送大学は通信制なので、検索候補に出ないことがある。**そのときも手動審査の口が用意されている。**
 
@@ -616,10 +590,7 @@ references:
 <p class="affiliate-text"><a href="https://px.a8.net/svt/ejp?a8mat=4BEIPG+8P61QY+5YKQ+5YZ76" target="_blank" rel="sponsored noopener nofollow">【キャリカレ】総合カタログ請求案内</a><img src="https://www16.a8.net/0.gif?a8mat=4BEIPG+8P61QY+5YKQ+5YZ76" width="1" height="1" alt="" loading="lazy"></p>
 </div>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-07-gasp.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="faq">よくある質問</h2>
-</div>
+<h2 id="faq">よくある質問</h2>
 
 <div class="cmp-table-wrap">
 <table class="cmp-table spec-table">

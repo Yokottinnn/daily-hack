@@ -23,7 +23,6 @@ references: ["https://www.sonysonpo.co.jp/", "https://www.sbisonpo.co.jp/", "htt
 
 <aside class="related-block">
   <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <p class="related-block-title">あわせて読みたい</p>
   </div>
   <ul class="related-block-list">
@@ -95,10 +94,7 @@ references: ["https://www.sonysonpo.co.jp/", "https://www.sbisonpo.co.jp/", "htt
 
 <p class="source-note">※ 「ダイレクト型10〜30%安」「平均3.5万円差」は各社・各種比較サイトが公開する目安。個別の差額は契約条件で大きく変わるため、必ずご自身で見積もり比較を行ってください。出典: <a href="https://life.oricon.co.jp/rank_insurance/special/knowledge/direct-type-and-agency-type/" target="_blank" rel="noopener nofollow">オリコン</a>／<a href="https://www.bang.co.jp/cont/direct-or-agency/" target="_blank" rel="noopener nofollow">保険スクエアbang!</a>／<a href="https://bestcarweb.jp/feature/column/1399785" target="_blank" rel="noopener nofollow">ベストカー</a>。</p>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-09-arms-crossed.png" alt="" /></div>
-  <h2>主要8社 早見表｜保険料目安・サービスを一画面で比較</h2>
-</div>
+<h2>主要8社 早見表｜保険料目安・サービスを一画面で比較</h2>
 
 「公式サイト8つ巡回するの面倒すぎる」あんたのために、**1枚で全部見える表**にまとめてあげる。保険料は条件依存だから「目安レンジ」表記、ロードサービスや特約の有無は2026年5月時点の各社公式情報ベースで整理した。
 
@@ -243,10 +239,7 @@ references: ["https://www.sonysonpo.co.jp/", "https://www.sbisonpo.co.jp/", "htt
 
 <p class="source-note">※ 各社の補償内容・割引・サービスは2026年5月時点の公式情報。最新の保険料・キャンペーン額・適用条件は各社公式サイトで必ずご確認ください。</p>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-04-cheer.png" alt="" /></div>
-  <h2>一括見積もりサイトの活用法｜「3社入力・15分」で全部終わらせる</h2>
-</div>
+<h2>一括見積もりサイトの活用法｜「3社入力・15分」で全部終わらせる</h2>
 
 8社の公式サイトをひとつずつ巡回するのは時間のムダ。一括見積もりサイトに**1回情報を入れれば最大20社分の見積りが届く**仕組みが整ってるから、まずはここから入りなさい。
 
@@ -286,7 +279,6 @@ references: ["https://www.sonysonpo.co.jp/", "https://www.sbisonpo.co.jp/", "htt
 
 <aside class="related-block">
   <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <p class="related-block-title">あわせて読みたい</p>
   </div>
   <ul class="related-block-list">
@@ -420,10 +412,7 @@ references: ["https://www.sonysonpo.co.jp/", "https://www.sbisonpo.co.jp/", "htt
   </div>
 </a>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-05-smug.png" alt="" /></div>
-  <h2>よくある質問</h2>
-</div>
+<h2>よくある質問</h2>
 
 ### Q. ダイレクト型って事故対応が代理店型より劣るんじゃない？
 
@@ -457,7 +446,6 @@ references: ["https://www.sonysonpo.co.jp/", "https://www.sbisonpo.co.jp/", "htt
 
 <aside class="related-block">
   <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <p class="related-block-title">あわせて読みたい</p>
   </div>
   <ul class="related-block-list">
@@ -519,7 +507,6 @@ references: ["https://www.sonysonpo.co.jp/", "https://www.sbisonpo.co.jp/", "htt
 
 <aside class="related-block">
   <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <p class="related-block-title">あわせて読みたい</p>
   </div>
   <ul class="related-block-list">

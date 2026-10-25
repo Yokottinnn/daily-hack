@@ -27,7 +27,6 @@ author: "hacker-ko"
 
 <aside class="related-block">
   <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <p class="related-block-title">あわせて読みたい</p>
   </div>
   <ul class="related-block-list">
@@ -125,7 +124,6 @@ QRコード決済の還元は **「基本還元 × チャージ元クレカ還�
 
 <aside class="related-block">
   <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <p class="related-block-title">あわせて読みたい</p>
   </div>
   <ul class="related-block-list">
@@ -270,10 +268,7 @@ QRコード決済の還元は **「基本還元 × チャージ元クレカ還�
   </div>
 </a>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-05-smug.png" alt="" /></div>
-  <h2>クレカとの組み合わせ（ペイステップ最適化）</h2>
-</div>
+<h2>クレカとの組み合わせ（ペイステップ最適化）</h2>
 
 QRコード決済は、**チャージ元クレカの選定が9割**。これ間違えると還元率が半減する。3アプリそれぞれの「最強ルート」を図にした。
 
@@ -307,7 +302,6 @@ QRコード決済は、**チャージ元クレカの選定が9割**。これ間�
 
 <aside class="related-block">
   <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <p class="related-block-title">あわせて読みたい</p>
   </div>
   <ul class="related-block-list">

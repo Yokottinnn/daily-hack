@@ -69,10 +69,7 @@ references: ["https://www.ikea.com/jp/ja/stores/toyosu/", "https://prtimes.jp/ma
 <div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+383KII+43U8+HX5B5" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/earthcar-300x250.jpg" alt="【入会金・月会費０円だから超高CVR】おトクがいっぱいのカーシェア「EARTHCAR」" width="300" height="250" loading="lazy"></a></div>
 </div>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-04-cheer.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="キャンペーン">オープン記念キャンペーン｜10%オフクーポンは10月31日まで</h2>
-</div>
+<h2 id="キャンペーン">オープン記念キャンペーン｜10%オフクーポンは10月31日まで</h2>
 
 **行くなら日付を先に見て。** 9月中に配られた**10%オフクーポン**は、**10月31日まで**使える。オープン記念の特典はほかに、限定セールとバッグのプレゼント（どちらも9月3日〜13日）があった。
 
@@ -117,10 +114,7 @@ references: ["https://www.ikea.com/jp/ja/stores/toyosu/", "https://prtimes.jp/ma
 
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">🇸🇪 「IKEA豊洲」が9月3日にオープン🎉 約9,500点の商品を展開し、インテリアの相談や注文もできる新店舗で、9月1日にはIKEA Familyメンバー限定のプレオープンデーも開催🛋️ #スウェーデン #IKEA #イケア</p>&mdash; LifTe~北欧の暮らし~ (@lifte_official) <a href="https://twitter.com/lifte_official/status/2080234122883330111">2026年7月23日</a></blockquote>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-09-arms-crossed.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="どこにあるか">IKEA豊洲はどこにある？｜ららぽーと豊洲2階・豊洲駅直結</h2>
-</div>
+<h2 id="どこにあるか">IKEA豊洲はどこにある？｜ららぽーと豊洲2階・豊洲駅直結</h2>
 
 <figure class="rn-figure">
   <img src="/images/ikea-toyosu-2026/photos/zone-entrance.jpg" alt="IKEA豊洲の入口。「Hej」の壁とIKEAのサイン" loading="lazy" />
@@ -151,10 +145,7 @@ references: ["https://www.ikea.com/jp/ja/stores/toyosu/", "https://prtimes.jp/ma
 
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">イケア「IKEA豊洲」9月3日(木)オープン 約600点の家具や雑貨を厳選💛 「アーバンドック ららぽーと豊洲」内 最寄り・豊洲駅直結、銀座から電車で約5分 #イケア #IKEA</p>&mdash; オリコンニュース (@oricon) <a href="https://twitter.com/oricon/status/2094764715297628277">2026年9月1日</a></blockquote>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-07-gasp.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="ゾーン別">ゾーン別｜どこに何が売っているか</h2>
-</div>
+<h2 id="ゾーン別">ゾーン別｜どこに何が売っているか</h2>
 
 **約560㎡を6つのまとまりで使っている。** 端から端まで歩いても数分なので、郊外店のような「順路」に縛られず、目当てのゾーンへ直接行ける。
 
@@ -254,10 +245,7 @@ references: ["https://www.ikea.com/jp/ja/stores/toyosu/", "https://prtimes.jp/ma
 <iframe src="https://www.youtube-nocookie.com/embed/4HfkS9Fm6N4" title="イケアが豊洲に⁉︎オープン前レビュー（saku / 大人ポップな部屋と暮らし）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
 </div>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="持ち帰り">その場で持って帰れるのは何か｜約600点のうち約500点</h2>
-</div>
+<h2 id="持ち帰り">その場で持って帰れるのは何か｜約600点のうち約500点</h2>
 
 **この店の性格が一番はっきり出るのがこの数字。** 展示している約600点のうち、**約500点は買ってその日に持ち帰れる**。
 
@@ -280,10 +268,7 @@ references: ["https://www.ikea.com/jp/ja/stores/toyosu/", "https://prtimes.jp/ma
   <figcaption>持ち帰り前提の品はこの手の軽くてかさばらないもの。<strong>大きい家具は配送か注文</strong>になる。<cite>画像: <a href="https://prtimes.jp/main/html/rd/p/000000414.000065734.html" target="_blank" rel="noopener">イケア・ジャパン プレスリリース</a></cite></figcaption>
 </figure>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-09-arms-crossed.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="大型店との違い">郊外の大型店と何が違うのか｜面積は46分の1、品数は16分の1</h2>
-</div>
+<h2 id="大型店との違い">郊外の大型店と何が違うのか｜面積は46分の1、品数は16分の1</h2>
 
 **同じIKEAでも、規模がまるで違う。** 公式が公表している売り場面積で並べると、豊洲の位置がはっきりする。
 
@@ -328,10 +313,7 @@ references: ["https://www.ikea.com/jp/ja/stores/toyosu/", "https://prtimes.jp/ma
   <li><div class="checklist-body"><strong>食事もして1日過ごしたい</strong><p>渋谷。7階がまるごとスウェーデンレストラン。</p></div></li>
 </ul>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-07-gasp.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="都心のikea">都心のIKEAは今どうなっているか｜原宿・新宿が閉じて、渋谷が拠点になった</h2>
-</div>
+<h2 id="都心のikea">都心のIKEAは今どうなっているか｜原宿・新宿が閉じて、渋谷が拠点になった</h2>
 
 **豊洲がこの形で出てきた背景には、都心店の作り替えがある。**
 
@@ -401,10 +383,7 @@ references: ["https://www.ikea.com/jp/ja/stores/toyosu/", "https://prtimes.jp/ma
 
 **この2店がやっていた「駅前で雑貨を買って帰る」役割を、いま引き受けているのが豊洲のような商業施設内店舗**という見方ができる。**路面で家賃を払うより、人がすでに集まっている商業施設の中に入るほうが合理的**——という判断が、面積と品揃えの数字にそのまま出ている。
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-07-gasp.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="よくある質問">よくある質問｜レストラン・駐車場・持ち帰り</h2>
-</div>
+<h2 id="よくある質問">よくある質問｜レストラン・駐車場・持ち帰り</h2>
 
 <div class="cmp-table-wrap">
   <table class="cmp-table wrap-table faq-table">
@@ -422,7 +401,6 @@ references: ["https://www.ikea.com/jp/ja/stores/toyosu/", "https://prtimes.jp/ma
 
 <aside class="related-block">
   <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <p class="related-block-title">あわせて読みたい</p>
   </div>
   <ul class="related-block-list">

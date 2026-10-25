@@ -28,7 +28,6 @@ references:
 
 <aside class="related-block">
   <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <p class="related-block-title">あわせて読みたい</p>
   </div>
   <ul class="related-block-list">
@@ -75,10 +74,7 @@ references:
 <div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+35PU3E+4XZI+BXIYP" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/travelist-hotel-300x250.jpg" alt="【国内ホテル・宿泊・旅館予約｜トラベリスト】" width="300" height="250" loading="lazy"></a></div>
 </div>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-07-gasp.png" alt="" /></div>
-  <h2 id="チケットの買い方と販売スケジュール">🎫 チケットの買い方｜いま取れるのは「一般先着」だけ</h2>
-</div>
+<h2 id="チケットの買い方と販売スケジュール">🎫 チケットの買い方｜いま取れるのは「一般先着」だけ</h2>
 
 いちばん大事なのが、この日程。**区民優先の抽選はすべて終了**していて、いま申し込めるのは**一般先着だけ**。当日券は無いので、行くなら事前に取る。
 
@@ -93,10 +89,7 @@ references:
 <p style="margin:4px 0 0">一般は抽選ではなく<strong>先着</strong>。受付は<strong>10月24日10:00まで</strong>あるけれど、打上げに近いS/SSから埋まっていく。<strong>当日券は無い</strong>ので、迷っているうちに選択肢が減る形になる。<strong>残席は公式サイトで確認すること</strong>——下の早見表はランクと料金の比較用で、在庫を示すものではない。</p>
 </div>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-05-smug.png" alt="" /></div>
-  <h2 id="会場マップと早見表">🗺️ 会場マップと早見表｜全21会場のランク・料金・見え方</h2>
-</div>
+<h2 id="会場マップと早見表">🗺️ 会場マップと早見表｜全21会場のランク・料金・見え方</h2>
 
 打上げは**晴海ふ頭沖**。それを囲むように、<strong>中央区（晴海・豊海）／港区（竹芝・日の出・芝浦・お台場）／江東区（豊洲・有明）</strong>に全21の観覧会場が配置されてる。あなたの区の会場なら**5,000円割引＋先行抽選**で狙えるの。まずは**公式マップで正確な位置**を、そのあと**ランク・割引の早見表**で確認して。
 

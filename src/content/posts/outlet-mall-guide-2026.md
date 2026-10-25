@@ -136,10 +136,7 @@ isPR: true
 
 三井は「世界観」より**規模とアクセス**で押すタイプ。木更津は店舗数330で日本一、都心45分。門真はららぽーととの複合、岡崎は新東名ICそば——**現実的な集客装置**として作ってる。国内14施設は運営会社として最多で、2027年春には九州初の福岡（マリノアシティ跡地）が開業予定。
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-07-gasp.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="全国アウトレット総数運営会社別の内訳">全国アウトレット総数｜運営会社別の内訳</h2>
-</div>
+<h2 id="全国アウトレット総数運営会社別の内訳">全国アウトレット総数｜運営会社別の内訳</h2>
 
 日本のアウトレットモールは、**日本ショッピングセンター協会の公式一覧で全32施設**（2025年11月時点、最新は同年11月開業のMOP岡崎）。運営会社で割るとこうなる。
 
@@ -274,10 +271,7 @@ isPR: true
 
 <p class="source-note">出典：<a href="https://ja.wikipedia.org/wiki/アウトレットモール" target="_blank" rel="noopener">アウトレットモール（Wikipedia、各施設沿革）</a>／<a href="https://www.mitsuifudosan.co.jp/corporate/news/2024/0516/" target="_blank" rel="noopener">三井不動産 マリノアシティ共同建替え（2024年5月16日）</a>／各施設の閉館報道。<strong>「旧チェルシー系が三井に吸収」という俗説は誤り</strong>——大阪鶴見は最初から三井、チェルシージャパンは三菱側（現・三菱地所サイモン）。</p>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-09-arms-crossed.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="行く前に知っておくと得すること">行く前に知っておくと得すること</h2>
-</div>
+<h2 id="行く前に知っておくと得すること">行く前に知っておくと得すること</h2>
 
 ### 運営会社ごとに「ポイントの貯め方」が違う
 
@@ -307,7 +301,6 @@ isPR: true
 
 <aside class="related-block">
   <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <p class="related-block-title">あわせて読みたい</p>
   </div>
   <ul class="related-block-list">

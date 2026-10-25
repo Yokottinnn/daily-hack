@@ -27,7 +27,6 @@ references:
 
 <aside class="related-block">
   <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <p class="related-block-title">あわせて読みたい</p>
   </div>
   <ul class="related-block-list">
@@ -68,10 +67,7 @@ references:
 
 > 出典: <a href="https://www.soumu.go.jp/menu_news/s-news/01zeimu04_02000144.html" target="_blank" rel="noopener nofollow">総務省 報道資料（ふるさと納税の指定基準の見直し等）</a>、<a href="https://www.nikkei.com/article/DGXZQOUA23BJA0T20C25A6000000/" target="_blank" rel="noopener nofollow">日本経済新聞</a>。適用は**令和8年（2026年）10月から**。**寄附金控除の仕組み（自己負担2,000円・控除上限）そのものは変わらない**。
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-07-gasp.png" alt="" /></div>
-  <h2 id="影響を受けた返礼品">10月以降に影響を受けた返礼品の見分け方</h2>
-</div>
+<h2 id="影響を受けた返礼品">10月以降に影響を受けた返礼品の見分け方</h2>
 
 全部が消えるわけじゃない。**影響が大きいジャンルと、ほぼ無風のジャンル**を分けて考えるのがコツ。
 
@@ -102,10 +98,7 @@ references:
   </article>
 </div>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-04-cheer.png" alt="" /></div>
-  <h2>🧮 控除上限シミュレータ（年収×家族構成でざっくり）</h2>
-</div>
+<h2>🧮 控除上限シミュレータ（年収×家族構成でざっくり）</h2>
 
 楽天・さとふる・ふるなびの「かんたんシミュレーション」と同じ考え方で、**年収と家族構成から「自己負担2,000円で寄付できる上限額」の目安**を出すツールを置いておくわ。まず自分の枠を掴んでから、返礼品を選びなさい。
 
@@ -191,10 +184,7 @@ references:
 })();
 </script>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-05-smug.png" alt="" /></div>
-  <h2 id="年末までにやる5ステップ">12月31日までにやる5ステップ</h2>
-</div>
+<h2 id="年末までにやる5ステップ">12月31日までにやる5ステップ</h2>
 
 やることは多くない。この順番でこなせば、年末でも失敗しない。
 

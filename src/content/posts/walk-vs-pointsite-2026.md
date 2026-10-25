@@ -55,10 +55,7 @@ references:
 
 **差は「桁」で付いている。** 歩数アプリは1か月で2桁〜3桁の円、ポイントサイトは入会の特典だけで3桁〜4桁。しかも後で書くとおり、ポイントサイトの大きな特典は「**広告を使って3,000〜5,000pt稼ぐ**」のが条件で、その稼いだ分自体が歩数の何年分にもなる。
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-09-arms-crossed.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="walk-apps">歩数アプリで1か月歩いた額｜8,000歩×30日を公式の条件で計算</h2>
-</div>
+<h2 id="walk-apps">歩数アプリで1か月歩いた額｜8,000歩×30日を公式の条件で計算</h2>
 
 計算の前提は**毎日8,000歩・30日**。RenoBodyの条件がちょうど8,000歩なので、そこに合わせた。<strong>抽選や広告の当たり外れは入れていない</strong>。公式が「何歩で何ポイント」と書いている分だけを数えた。
 
@@ -112,7 +109,6 @@ references:
 
 <aside class="related-block">
   <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <p class="related-block-title">あわせて読みたい</p>
   </div>
   <ul class="related-block-list">
@@ -133,10 +129,7 @@ references:
   </ul>
 </aside>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-07-gasp.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="pointsite">ポイントサイトに1回登録した額｜入会特典の条件を全部読んだ</h2>
-</div>
+<h2 id="pointsite">ポイントサイトに1回登録した額｜入会特典の条件を全部読んだ</h2>
 
 次はポイントサイト。**「最大◯円」の数字だけを見ると判断を誤る**ので、どの条件で何pt入るのかを段ごとに分けた。ここに出す入会特典は、**各社の友達紹介ページに書かれた「紹介経由で入会した人」向けのもの**。
 
@@ -199,10 +192,7 @@ references:
 
 <p class="source-note">出典：<a href="https://hapitas.jp/special/referral202610/" target="_blank" rel="noopener">ハピタス 10月の紹介キャンペーン</a>／<a href="https://hapitas.jp/referral/" target="_blank" rel="noopener">ハピタス 友達紹介</a>／<a href="https://hapitas.jp/exchange/" target="_blank" rel="noopener">ハピタス 交換先一覧</a>／<a href="https://hapitas.jp/notifications/detail/id/1951" target="_blank" rel="noopener">ハピタス 即日交換の一時停止</a>／<a href="https://www.chobirich.com/introduction/" target="_blank" rel="noopener">ちょびリッチ 友達紹介</a>／<a href="https://www.chobirich.com/exchange/bank/info" target="_blank" rel="noopener">ちょびリッチ 銀行交換</a>／<a href="https://pc.moppy.jp/friend/" target="_blank" rel="noopener">モッピー 友達紹介</a>（いずれも2026年10月16日時点）。</p>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-06-shock.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="months">入会特典は歩数の何か月分か｜100ptで2〜10か月、3,000ptで20〜300か月</h2>
-</div>
+<h2 id="months">入会特典は歩数の何か月分か｜100ptで2〜10か月、3,000ptで20〜300か月</h2>
 
 ここが本題。上の数字を、**歩数アプリの1か月の額で割った**。
 
@@ -226,10 +216,7 @@ references:
 
 **逆に、条件を満たさなければ最初の100〜150ptで終わる。** それでも歩数アプリの数か月分になるが、「登録しただけで2,000円」ではない。ここは数字のとおりに受け取って。
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-08-cry.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="warau">ワラウはいま勧めない｜10月4日の不正アクセスで口座情報が取得された可能性</h2>
-</div>
+<h2 id="warau">ワラウはいま勧めない｜10月4日の不正アクセスで口座情報が取得された可能性</h2>
 
 ポイントサイトの比較でよく名前が挙がる**ワラウは、この記事では勧めない。** 運営会社の発表（第二報）では、2026年10月4日の不正アクセスで、会員の氏名・生年月日・メールアドレス・ハッシュ化されたパスワード・秘密の質問に加えて、**振込先の口座情報**が「取得された可能性がある」とされた。10月8日の「流出なし」という発表を訂正した形。
 
@@ -242,7 +229,6 @@ references:
 
 <aside class="related-block">
   <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <p class="related-block-title">あわせて読みたい</p>
   </div>
   <ul class="related-block-list">
@@ -263,10 +249,7 @@ references:
   </ul>
 </aside>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-09-arms-crossed.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="furusato">ふるさと納税はポイントサイト経由でもポイントが付かない｜総務省のルール</h2>
-</div>
+<h2 id="furusato">ふるさと納税はポイントサイト経由でもポイントが付かない｜総務省のルール</h2>
 
 「ポイントサイト経由でふるさと納税すれば二重取り」は、**もうできない。** 総務省は、寄附に伴ってポイントを付ける事業者を通じた募集を禁止し、**2025年10月1日から適用**している。2026年4月1日付のQ&Aでは、**ポイントサイトを経由してポータルに移り寄附した場合のポイントも対象**だと名指しで書いている。
 
@@ -285,10 +268,7 @@ references:
 
 <p class="source-note">出典：<a href="https://www.soumu.go.jp/menu_news/s-news/01zeimu04_02000126.html" target="_blank" rel="noopener">総務省 報道資料（募集適正基準の改正）</a>／<a href="https://www.soumu.go.jp/main_content/001067605.pdf" target="_blank" rel="noopener">総務省 ふるさと納税に関するQ&amp;A（令和8年4月1日）</a>。</p>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-04-cheer.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="howto">使い分け｜歩くのはおまけ、入口はポイントサイト</h2>
-</div>
+<h2 id="howto">使い分け｜歩くのはおまけ、入口はポイントサイト</h2>
 
 <ul class="checklist">
   <li><div class="checklist-body"><strong>① 歩数アプリは「入れて放置」で十分</strong><p>RenoBodyのように<strong>条件を満たせば必ず入る</strong>ものを1つ入れておけばいい。Powlで毎回動画を見る使い方は、1か月480回の視聴で+96円。手間と相談して決めればいい。</p></div></li>
@@ -297,10 +277,7 @@ references:
   <li><div class="checklist-body"><strong>④ 交換は手数料0円の先へ</strong><p>ハピタスはデジタルギフト経由（2,000pt以上）、ちょびリッチは楽天銀行・PayPay銀行・ドコモSMTBネット銀行かAmazonギフトカード。</p></div></li>
 </ul>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="faq">よくある質問</h2>
-</div>
+<h2 id="faq">よくある質問</h2>
 
 <ul class="checklist">
   <li><div class="checklist-body"><strong>歩数アプリはやめたほうがいい？</strong><p>やめる理由はない。歩くこと自体はタダなので、<strong>受け取れるものは受け取る</strong>でいい。ただ、お金を増やす手段として期待するなら、1か月10〜144円という数字を知っておくこと。</p></div></li>

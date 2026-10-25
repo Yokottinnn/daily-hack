@@ -69,10 +69,7 @@ references: ["https://www.takanawagateway-city.com/", "https://www.takanawagatew
 <div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+35PU3E+4XZI+BXIYP" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/travelist-hotel-300x250.jpg" alt="【国内ホテル・宿泊・旅館予約｜トラベリスト】" width="300" height="250" loading="lazy"></a></div>
 </div>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-04-cheer.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="overview">高輪ゲートウェイシティとは｜2026年3月28日にグランドオープン</h2>
-</div>
+<h2 id="overview">高輪ゲートウェイシティとは｜2026年3月28日にグランドオープン</h2>
 
 <figure class="rn-figure">
   <img src="/images/takanawa-gateway-city-guide-2026/photos/city-night.jpg" alt="夕暮れの高輪ゲートウェイシティ。線路の向こうにTHE LINKPILLARの高層棟と低層の商業棟が並ぶ" loading="lazy" />
@@ -119,10 +116,7 @@ JR東日本が品川の車両基地の跡地につくった街。**一度に開�
 <iframe src="https://www.youtube-nocookie.com/embed/7XauRARnFtY" title="高輪ゲートウェイシティを全部見せます！羽田空港・リニア新幹線・地下鉄とつながる？期待の駅【再開発】（おみやげニッポン）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
 </div>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-01-wave.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="access">アクセス｜改札から徒歩1分、泉岳寺から徒歩3分</h2>
-</div>
+<h2 id="access">アクセス｜改札から徒歩1分、泉岳寺から徒歩3分</h2>
 
 <figure class="rn-figure">
   <img src="/images/takanawa-gateway-city-guide-2026/photos/station-gate.jpg" alt="夜の高輪ゲートウェイ駅の入口。緑の駅名看板の下に自動改札が並ぶ" loading="lazy" />
@@ -147,7 +141,6 @@ JR東日本が品川の車両基地の跡地につくった街。**一度に開�
 
 <aside class="related-block">
   <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <p class="related-block-title">あわせて読みたい</p>
   </div>
   <ul class="related-block-list">
@@ -161,10 +154,7 @@ JR東日本が品川の車両基地の跡地につくった街。**一度に開�
   </ul>
 </aside>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-04-cheer.png" alt="Daily Hackマスコット" /></div>
-  <h2 class="brand-h" id="lunch"><img class="brand-logo" src="/images/takanawa-gateway-city-guide-2026/logos/newoman.png" alt="ニュウマン高輪のロゴ" loading="lazy" /><span>ランチ・レストラン｜ニュウマン高輪をフロア別に</span></h2>
-</div>
+<h2 class="brand-h" id="lunch"><img class="brand-logo" src="/images/takanawa-gateway-city-guide-2026/logos/newoman.png" alt="ニュウマン高輪のロゴ" loading="lazy" /><span>ランチ・レストラン｜ニュウマン高輪をフロア別に</span></h2>
 
 ニュウマン高輪のレストラン・カフェは、公式の一覧で <strong>South・North・LUFTBAUM・MIMURE の4つ</strong>に分かれている。まずは低層の South と North から。
 
@@ -199,10 +189,7 @@ JR東日本が品川の車両基地の跡地につくった街。**一度に開�
 <iframe src="https://www.youtube-nocookie.com/embed/cyMCFIHcLh8" title="【ニュウマン高輪】どこで食べる？これ1本で分かる！注目のレストラン＆カフェ44店徹底案内（東京お散歩グルメ Tokyo Cafe Vlog）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
 </div>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="cafe">カフェ｜朝7時から開いている店がある</h2>
-</div>
+<h2 id="cafe">カフェ｜朝7時から開いている店がある</h2>
 
 <figure class="rn-figure">
   <img src="/images/takanawa-gateway-city-guide-2026/photos/station.jpg" alt="晴れた日の高輪ゲートウェイ駅。白い大屋根とガラスの駅舎が線路沿いに伸びる" loading="lazy" />
@@ -232,10 +219,7 @@ JR東日本が品川の車両基地の跡地につくった街。**一度に開�
 
 **遅い時間なら MIMURE が強い。** CUP：092 は23時まで（L.O フード22:00）。低層の多くが20時に閉まったあとも開いている。
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-07-gasp.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="luftbaum">LUFTBAUM（28・29階）｜8時から24時まで開いている上の階</h2>
-</div>
+<h2 id="luftbaum">LUFTBAUM（28・29階）｜8時から24時まで開いている上の階</h2>
 
 THE LINKPILLAR 1 North の**28・29階**。レストランが並び、<strong>パブリックガーデン（庭）</strong>もある。エリアとしての開放時間は **8:00〜24:00**。日本経済新聞の開業前の紹介動画は「**地上150メートルに設けた庭**」と呼んでいる。
 
@@ -268,10 +252,7 @@ THE LINKPILLAR 1 North の**28・29階**。レストランが並び、<strong>�
 
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">【割烹 BUTAI 高輪ゲートウェイ🍽️】 ✔︎ 贅沢寿司御膳 5,500円 🍣 ✔︎ トーキョーサイダー 1,100円🍸 28/29階 LUFTBAUMの中ではお高めランチだけど、キッチンが見える天井が高い半個室で、開放感と雰囲気🙆🏻🙆🏻 何より高輪ゲートウェイ駅の人の多さにビックリ🧐 現時点では街づくり大成功の模様🥳</p>&mdash; 総合コンサル@1億円貯める (@invest_sougou) <a href="https://twitter.com/invest_sougou/status/2037806494008365090">2026年3月28日</a></blockquote>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-04-cheer.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="mimure">MIMURE｜小川珈琲のラボが並ぶフードホール</h2>
-</div>
+<h2 id="mimure">MIMURE｜小川珈琲のラボが並ぶフードホール</h2>
 
 THE LINKPILLAR 2 の2・3階。基準営業時間は **10:00〜22:00**。Impress Watch は「22店舗のコンセプトエリア」と紹介している。
 
@@ -297,10 +278,7 @@ THE LINKPILLAR 2 の2・3階。基準営業時間は **10:00〜22:00**。Impress
 
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">今日のランチはミムレの小川珈琲🍽️ 1,100円のランチプレートはボリューム控えめだけど、この圧倒的に居心地がいい空間でこの価格はお得🉐 「お腹を満たす」じゃなくて「この空間で心地よく過ごす」ためのランチとして最高✨ 📍ニュウマン高輪ミムレ2F</p>&mdash; 高輪の花子さん@ゲートウェイ (@TakanawaGW_life) <a href="https://twitter.com/TakanawaGW_life/status/2055505566760673539">2026年5月16日</a></blockquote>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
-  <h2 class="brand-h" id="saunas"><img class="brand-logo" src="/images/takanawa-gateway-city-guide-2026/logos/saunas.svg" alt="高輪SAUNASのロゴ" loading="lazy" /><span>高輪SAUNAS｜North 5階、26時まで</span></h2>
-</div>
+<h2 class="brand-h" id="saunas"><img class="brand-logo" src="/images/takanawa-gateway-city-guide-2026/logos/saunas.svg" alt="高輪SAUNASのロゴ" loading="lazy" /><span>高輪SAUNAS｜North 5階、26時まで</span></h2>
 
 <figure class="rn-figure">
   <img src="/images/takanawa-gateway-city-guide-2026/photos/saunas.jpg" alt="高輪SAUNASのサウナ室。木を基調とした空間に段状のベンチとストーブが並ぶ" loading="lazy" />
@@ -332,10 +310,7 @@ THE LINKPILLAR 2 の2・3階。基準営業時間は **10:00〜22:00**。Impress
 <iframe src="https://www.youtube-nocookie.com/embed/1QIB38pwTf0" title="【高輪SAUNAS】男女９つのサウナ大公開！都市での休息と回復を（&amp;sauna アンドサウナ）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
 </div>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-01-wave.png" alt="Daily Hackマスコット" /></div>
-  <h2 class="brand-h" id="mon"><img class="brand-logo on-dark" src="/images/takanawa-gateway-city-guide-2026/logos/mon.svg" alt="MoN Takanawaのロゴ" loading="lazy" /><span>MoN Takanawa｜10月から「竜とそばかすの姫」のライブ</span></h2>
-</div>
+<h2 class="brand-h" id="mon"><img class="brand-logo on-dark" src="/images/takanawa-gateway-city-guide-2026/logos/mon.svg" alt="MoN Takanawaのロゴ" loading="lazy" /><span>MoN Takanawa｜10月から「竜とそばかすの姫」のライブ</span></h2>
 
 <figure class="rn-figure">
   <img src="/images/takanawa-gateway-city-guide-2026/photos/mon-exterior.jpg" alt="MoN Takanawa の外観。木の水平ルーバーが幾重にも重なる低層の建物" loading="lazy" />
@@ -367,7 +342,6 @@ THE LINKPILLAR 2 の2・3階。基準営業時間は **10:00〜22:00**。Impress
 
 <aside class="related-block">
   <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <p class="related-block-title">あわせて読みたい</p>
   </div>
   <ul class="related-block-list">
@@ -381,10 +355,7 @@ THE LINKPILLAR 2 の2・3階。基準営業時間は **10:00〜22:00**。Impress
   </ul>
 </aside>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-07-gasp.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="parking">駐車場｜30分500円、24時間まで最大2,500円</h2>
-</div>
+<h2 id="parking">駐車場｜30分500円、24時間まで最大2,500円</h2>
 
 車なら「TAKANAWA GATEWAY CITY駐車場」。**料金は時間帯で変わらない（オールタイム）。**
 

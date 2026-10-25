@@ -25,7 +25,6 @@ author: "hacker-ko"
 
 <aside class="related-block">
   <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <p class="related-block-title">あわせて読みたい</p>
   </div>
   <ul class="related-block-list">
@@ -80,10 +79,7 @@ author: "hacker-ko"
 
 <p class="source-note">出典: 経済産業省 資源エネルギー庁「電力小売全面自由化」関連資料（<a href="https://www.enecho.meti.go.jp/category/electricity_and_gas/electric/electricity_liberalization/" target="_blank" rel="noopener nofollow">enecho.meti.go.jp</a>）、電力・ガス取引監視等委員会「新電力等の登録状況」（<a href="https://www.emsc.meti.go.jp/" target="_blank" rel="noopener nofollow">emsc.meti.go.jp</a>）。料金単価・燃料費調整額は時期により変動するため、契約前に必ず公式サイトで最新の料金表をご確認ください。</p>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-09-arms-crossed.png" alt="" /></div>
-  <h2>電気6社 徹底比較｜4人家族モデル（月350kWh）の料金例</h2>
-</div>
+<h2>電気6社 徹底比較｜4人家族モデル（月350kWh）の料金例</h2>
 
 「結局どこが安いの？」って質問、これに答えるために**4人家族・月350kWh使用・東京電力エリア**の条件でモデル計算した。あんたの世帯がもっと使うなら割引額はもっと大きくなる。少ないなら多少縮む。ざっくりの相場感としてアタシの試算を置いておくわよ。
 
@@ -223,7 +219,6 @@ author: "hacker-ko"
 
 <aside class="related-block">
   <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <p class="related-block-title">電気とセットで見直したい</p>
   </div>
   <ul class="related-block-list">
@@ -338,10 +333,7 @@ author: "hacker-ko"
   </div>
 </a>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-04-cheer.png" alt="" /></div>
-  <h2>あんたはどう選ぶ？｜選び方フロー</h2>
-</div>
+<h2>あんたはどう選ぶ？｜選び方フロー</h2>
 
 「結局、アタシはどこにしたらいいの？」って迷子のあんたに、3ステップで決まる選び方フローを置いておく。
 
@@ -367,7 +359,6 @@ author: "hacker-ko"
 
 <aside class="related-block">
   <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <p class="related-block-title">経済圏ごとに固める</p>
   </div>
   <ul class="related-block-list">
@@ -388,10 +379,7 @@ author: "hacker-ko"
   </ul>
 </aside>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-02-pout.png" alt="" /></div>
-  <h2>セット割の落とし穴｜「お得感」だけで決めると損する</h2>
-</div>
+<h2>セット割の落とし穴｜「お得感」だけで決めると損する</h2>
 
 セット割は便利だけど、**落とし穴も山ほどある**。アタシが見てきた「セット契約で逆に損したケース」を3つ並べておく。これ知らずに飛びつくと痛い目見るわよ。
 
@@ -509,7 +497,6 @@ author: "hacker-ko"
 
 <aside class="related-block">
   <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <p class="related-block-title">次に読むならコレ</p>
   </div>
   <ul class="related-block-list">

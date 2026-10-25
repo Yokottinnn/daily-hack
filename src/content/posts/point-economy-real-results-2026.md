@@ -78,10 +78,7 @@ references: ["https://event.rakuten.co.jp/campaign/point-up/everyday/point/", "h
 
 <p class="source-note">上乗せと上限は各社の公式ページ（本文の各節に出典）。実績は次の節で紹介するXの投稿から。<strong>実績はその人の決済額・契約の結果で、同じ額が誰にでも出るわけではない。</strong></p>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-07-gasp.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="snsの獲得実績13件月2万ポイント組の中身">SNSの獲得実績13件｜月2万ポイント組の中身</h2>
-</div>
+<h2 id="snsの獲得実績13件月2万ポイント組の中身">SNSの獲得実績13件｜月2万ポイント組の中身</h2>
 
 2026年9〜10月にXへ投稿された「今月・今年いくら貯まったか」の報告を集めた。数字は<strong>本人が書いたまま</strong>で、アタシは足したり丸めたりしていない。
 
@@ -131,7 +128,6 @@ references: ["https://event.rakuten.co.jp/campaign/point-up/everyday/point/", "h
 
 <aside class="related-block">
   <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <p class="related-block-title">あわせて読みたい</p>
   </div>
   <ul class="related-block-list">
@@ -145,10 +141,7 @@ references: ["https://event.rakuten.co.jp/campaign/point-up/everyday/point/", "h
   </ul>
 </aside>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-04-cheer.png" alt="Daily Hackマスコット" /></div>
-  <h2 class="brand-h" id="楽天経済圏spu最大185倍でも効くのはモバイルの4倍"><img class="brand-logo" src="/images/point-economy-real-results-2026/logos/rakuten.png" alt="楽天ポイントのロゴ" loading="lazy" /><span>楽天経済圏｜SPU最大18.5倍、でも効くのはモバイルの+4倍</span></h2>
-</div>
+<h2 class="brand-h" id="楽天経済圏spu最大185倍でも効くのはモバイルの4倍"><img class="brand-logo" src="/images/point-economy-real-results-2026/logos/rakuten.png" alt="楽天ポイントのロゴ" loading="lazy" /><span>楽天経済圏｜SPU最大18.5倍、でも効くのはモバイルの+4倍</span></h2>
 
 <figure class="rn-figure">
   <img src="/images/point-economy-real-results-2026/apps/shots-rakuten.jpg" alt="楽天市場アプリと楽天ポイントクラブアプリの画面（ポイント獲得のチャンス・ポイント運用）" loading="lazy" />
@@ -198,7 +191,6 @@ references: ["https://event.rakuten.co.jp/campaign/point-up/everyday/point/", "h
 
 <aside class="related-block">
   <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <p class="related-block-title">あわせて読みたい</p>
   </div>
   <ul class="related-block-list">
@@ -212,10 +204,7 @@ references: ["https://event.rakuten.co.jp/campaign/point-up/everyday/point/", "h
   </ul>
 </aside>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-09-arms-crossed.png" alt="Daily Hackマスコット" /></div>
-  <h2 class="brand-h" id="paypay経済圏30回10万円で15ポイントの条件が重くなった"><img class="brand-logo" src="/images/point-economy-real-results-2026/logos/paypay.png" alt="PayPayのロゴ" loading="lazy" /><span>PayPay経済圏｜30回・10万円で1.5%。6月から条件が重くなった</span></h2>
-</div>
+<h2 class="brand-h" id="paypay経済圏30回10万円で15ポイントの条件が重くなった"><img class="brand-logo" src="/images/point-economy-real-results-2026/logos/paypay.png" alt="PayPayのロゴ" loading="lazy" /><span>PayPay経済圏｜30回・10万円で1.5%。6月から条件が重くなった</span></h2>
 
 <figure class="rn-figure">
   <img src="/images/point-economy-real-results-2026/apps/shots-paypay.jpg" alt="PayPayアプリの画面（最大1.5%ポイントが戻ってくる・PayPayクレジット・登録ユーザー数）" loading="lazy" />
@@ -255,7 +244,6 @@ PayPayの還元率を決めるのが<strong>PayPayステップ</strong>。2026�
 
 <aside class="related-block">
   <div class="related-block-head">
-    <span class="related-block-icon"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <p class="related-block-title">あわせて読みたい</p>
   </div>
   <ul class="related-block-list">
@@ -269,10 +257,7 @@ PayPayの還元率を決めるのが<strong>PayPayステップ</strong>。2026�
   </ul>
 </aside>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-06-shock.png" alt="Daily Hackマスコット" /></div>
-  <h2 class="brand-h" id="dポイント経済圏ドコモ料金10還元が本体2027年に一般カードは05へ"><img class="brand-logo" src="/images/point-economy-real-results-2026/logos/dpoint.png" alt="dポイントのロゴ" loading="lazy" /><span>dポイント経済圏｜ドコモ料金10%還元が本体。2027年に一般カードは0.5%へ</span></h2>
-</div>
+<h2 class="brand-h" id="dポイント経済圏ドコモ料金10還元が本体2027年に一般カードは05へ"><img class="brand-logo" src="/images/point-economy-real-results-2026/logos/dpoint.png" alt="dポイントのロゴ" loading="lazy" /><span>dポイント経済圏｜ドコモ料金10%還元が本体。2027年に一般カードは0.5%へ</span></h2>
 
 <figure class="rn-figure">
   <img src="/images/point-economy-real-results-2026/apps/shots-d.jpg" alt="d払いアプリとdポイントクラブアプリの画面（最大15.5%還元・ポイントがたまる）" loading="lazy" />
@@ -314,10 +299,7 @@ dポイント経済圏で一番大きいのは、<strong>ドコモの携帯・�
 <iframe src="https://www.youtube-nocookie.com/embed/Dg8bUeBISc8" title="【dカード大改定】一般カードの還元率0.5%＆年会費有料化へ｜プラチナのドコモ還元率低下、ポイ活プラン条件変更など2026年度の改定を全てまとめました。改定後のdカードをおすすめする人の特徴も紹介！（家計の味方）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
 </div>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-02-pout.png" alt="Daily Hackマスコット" /></div>
-  <h2 class="brand-h" id="auponta経済圏マネ活2のau-pay5が月2500ptまで"><img class="brand-logo" src="/images/point-economy-real-results-2026/logos/ponta.png" alt="Pontaのロゴ" loading="lazy" /><span>au・Ponta経済圏｜マネ活2のau PAY+5%が月2,500ptまで</span></h2>
-</div>
+<h2 class="brand-h" id="auponta経済圏マネ活2のau-pay5が月2500ptまで"><img class="brand-logo" src="/images/point-economy-real-results-2026/logos/ponta.png" alt="Pontaのロゴ" loading="lazy" /><span>au・Ponta経済圏｜マネ活2のau PAY+5%が月2,500ptまで</span></h2>
 
 <figure class="rn-figure">
   <img src="/images/point-economy-real-results-2026/apps/shots-ponta.jpg" alt="au PAYアプリとPontaアプリの画面（Pontaカード提示・ポイント残高）" loading="lazy" />
@@ -355,10 +337,7 @@ SNSでも、au・Pontaで大きな額を報告している投稿は見つから�
 <iframe src="https://www.youtube-nocookie.com/embed/2vXmoMYFR58" title="【2026年最新版】なぜ今あえてPonta経済圏なのか？UQモバイル・au PAY(プリペイドカード)・ゴールドカード・auじぶん銀行を使い倒す理由（家計の味方）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
 </div>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
-  <h2 class="brand-h" id="vポイントolive経済圏対象店8と積立で年40万ptの人も"><img class="brand-logo" src="/images/point-economy-real-results-2026/logos/vpoint.png" alt="Vポイントのロゴ" loading="lazy" /><span>Vポイント・Olive経済圏｜対象店8%と積立で、年40万ptの人も</span></h2>
-</div>
+<h2 class="brand-h" id="vポイントolive経済圏対象店8と積立で年40万ptの人も"><img class="brand-logo" src="/images/point-economy-real-results-2026/logos/vpoint.png" alt="Vポイントのロゴ" loading="lazy" /><span>Vポイント・Olive経済圏｜対象店8%と積立で、年40万ptの人も</span></h2>
 
 <figure class="rn-figure">
   <img src="/images/point-economy-real-results-2026/apps/shots-v.jpg" alt="三井住友銀行アプリ（Olive）とVポイントアプリの画面（対象店舗・ポイント残高）" loading="lazy" />
@@ -391,10 +370,7 @@ SNSで一番大きな額が出ていたのがここ。三井住友の口座・�
 <iframe src="https://www.youtube-nocookie.com/embed/uma3Ib4rdIE" title="【神改善 vs 大改悪】提携したのに真逆へ…三井住友とPayPay、2026年に選ぶべきはどっち？【SBI-Vポイント経済圏とPayPay経済圏の使い分け】（家計の味方）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
 </div>
 
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-07-gasp.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="2026年の改定カレンダー経済圏のルールが動いた日">2026年の改定カレンダー｜経済圏のルールが動いた日</h2>
-</div>
+<h2 id="2026年の改定カレンダー経済圏のルールが動いた日">2026年の改定カレンダー｜経済圏のルールが動いた日</h2>
 
 <div class="cmp-table-wrap">
 <table class="cmp-table prose-table">

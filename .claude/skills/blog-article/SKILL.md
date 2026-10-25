@@ -337,14 +337,22 @@ references: ["<出典URL>", ...]
 - 見出しは `## <主題>｜<結論>` の形（例: `## 店舗別売上ランキング｜三井不動産の決算資料そのまま`）
 - **検索語を見出しに入れる。** 内容が本文にあっても、見出しに語が無いと順位が付かない
   （`docs/analytics/lalaport-keyword-inventory.md` の実測）
-- 節ごとに `.section-with-mascot` でマスコットを添える（表情は内容に合わせる）
+- **見出しの横にキャラを置かない。見出しは素の `## 見出し` で書く**（下記）
 
-```html
-<div class="section-with-mascot">
-  <div class="mascot-wrap"><img src="/images/expr-07-gasp.png" alt="Daily Hackマスコット" /></div>
-  <h2 id="見出しのid">見出し</h2>
-</div>
-```
+### 見出しと「あわせて読みたい」にキャラを出さない（2026-10-25 に指示・全記事・例外なし）
+
+> いろんな記事のタイプに対応するために、この合わせて読みたいの箇所でキャラクターを出すのはやめます。全記事に適用してください。
+> 合わせて読みたいのカテゴリーと記事の紹介自体はもちろん残してください
+> いろんな記事のタイプに対応するために、この箇所（見出しの横）でキャラクターを出すのはやめます。タイトル自体はもちろん残してください
+
+| 書かない | 代わりに |
+| --- | --- |
+| `<div class="section-with-mascot">` ＋ `mascot-wrap`（見出しの横のキャラ） | **素の `## 見出し`**（id が自動で付く） |
+| `<span class="related-block-icon">`（あわせて読みたいのキャラ） | **書かない。** `related-block-title`（題名）・カテゴリ・記事の紹介は残す |
+
+- 2026-10-25 に全記事から外した（見出し 234 か所・あわせて読みたい 128 か所）。部品 `RelatedPostsBlock.astro` / `InlineRelated.astro` からも外した
+- `global.css` で `.mascot-wrap` と `.related-block-icon` を `display: none` にしてある。**古い書き方が紛れても出ないが、新しく書かない**
+- **`hakkako-says`（ハッカー子の吹き出し）は対象外。** 冒頭と締めの吹き出しはそのまま使う
 
 ### 期限のあるものを下に置かない（2026-09-05 に差し戻された）
 
@@ -791,7 +799,7 @@ X は Mac（`ops/tasks/t331-wangan-news-x-voices.sh` の形）、YouTube はク�
 | 年表・時系列 | `<div class="tower-timeline"><div class="tl-year"><p class="tl-label">…<ul class="tl-items">` |
 | 少数の紹介（3件程度） | `<div class="highlight-item"><span class="highlight-tag">…</span><h4>…</h4><p>…</p>` |
 | 出典 | `<p class="source-note">出典：<a …>…</a>／…</p>` |
-| 関連記事 | `<aside class="related-block">`（`related-block-thumb` に画像を入れる） |
+| 関連記事 | `<aside class="related-block">`（`related-block-thumb` に画像を入れる。**`related-block-icon`（キャラ）は書かない**） |
 
 **マークアップは記憶で書かず、上の 3 本から実物をコピーして中身を差し替える。**
 
