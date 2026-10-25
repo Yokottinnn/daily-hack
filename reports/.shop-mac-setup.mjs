@@ -79,12 +79,15 @@ try {
     });
     // t333: 一覧には Access Key が出ない（「More Details」の先）。押して詳細を開いてから読む
     if (!got.key) {
-      const more = p.getByText(/^More Details$|^詳細$/).first();
+      // t334: getByText では押せなかった。ボタン・リンクの文字で探す
+      const more = p.locator('a, button, [role=button], input[type=button], input[type=submit]').filter({ hasText: /More Details|詳細/ }).first();
       if (await more.count()) {
         await more.click({ timeout: 5000 }).catch(() => {});
         await p.waitForLoadState('domcontentloaded', { timeout: 15000 }).catch(() => {});
         await p.waitForTimeout(4000);
         lines.push(`- 「More Details」を押した: ${here()}`);
+      } else lines.push('- 「More Details」が見つからない');
+      {
         // 値が「表示」ボタンで隠れていれば押す（値そのものは出さない）
         const show = p.getByRole('button', { name: /^(Show|表示|表示する|Reveal)$/i });
         for (let i = 0; i < Math.min(await show.count(), 4); i++) await show.nth(i).click({ timeout: 3000 }).catch(() => {});
@@ -144,6 +147,32 @@ try {
         await dump('Amazon の詳細のボタン');
       }
     } else { lines.push('- 検索欄が見つからない'); await dump('もしものトップ'); }
+  }
+
+  if (WHICH === 'moshimo-apply-open') {
+    // Amazon の提携基準「メディア内に『Amazonのアソシエイトとして、当メディアは適格販売により収入を得ています。』の旨を記載」を本番で確かめてから、
+    // 「提携申請する」（data-promotion_id=170）を押して、出た確認の画面を読む（**最後の送信は押さない**。押すのは次のタスク）
+    // マージから本番への反映に数分かかるので、最大 8 分待つ
+    let ok = false;
+    for (let i = 0; i < 16 && !ok; i++) {
+      const live = await fetch(`https://daily-hack.fieldbeside.com/?t=${Date.now()}`).then((r) => r.text()).catch(() => '');
+      ok = live.includes('Amazonのアソシエイトとして、当メディアは適格販売により収入を得ています。');
+      if (!ok) await new Promise((r) => setTimeout(r, 30000));
+    }
+    lines.push(`- 本番のトップに Amazon アソシエイトの記載: ${ok ? 'ある' : '**無い**（押さずに止める）'}`);
+    if (ok) {
+      await go('https://af.moshimo.com/af/shop/promotion/detail?promotion_id=170');
+      const st = await p.evaluate(() => (document.body.innerText || '').match(/(申請中|提携中|否認|未提携)/g) || []);
+      lines.push(`- 画面の提携状態の語: ${[...new Set(st)].join(' / ') || 'なし'}`);
+      const btn = p.locator('button[data-promotion_id="170"]').first();
+      if (await btn.count()) {
+        await btn.click({ timeout: 5000 }).catch(() => {});
+        await p.waitForTimeout(3500);
+        await dump('「提携申請する」を押したあと（最後の送信は押していない）');
+        const modal = await p.evaluate(() => [...document.querySelectorAll('[role=dialog], .modal, .modal-content, .remodal, .c-modal')].filter((e) => e.getBoundingClientRect().height > 0).map((e) => (e.innerText || '').replace(/\s+/g, ' ').trim().slice(0, 900)));
+        lines.push('## 出た確認の画面の文字', '', ...modal.map((x) => `- ${mask(x)}`), '');
+      } else lines.push('- data-promotion_id=170 のボタンが無い（もう申請済みかもしれない）');
+    }
   }
 
   if (WHICH === 'yahoo-open') {

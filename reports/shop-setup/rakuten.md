@@ -1,6 +1,6 @@
 # 3 店ボタンの Mac 側の準備: rakuten（scripts/shop/mac-setup.mjs）
 
-生成: **2026-10-25T07:32:15.262Z**
+生成: **2026-10-25T07:37:05.987Z**
 
 - 画面: https://webservice.rakuten.co.jp/app/list
 
