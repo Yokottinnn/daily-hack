@@ -118,6 +118,26 @@ ul.plain,ol.plain{margin:0 0 14px;padding-left:1.3em} .plain li{margin:4px 0;max
 .todo .how{font-size:14px;margin-top:6px}
 .todo .note{font-size:13px;margin-top:6px;padding:6px 10px;border-left:3px solid var(--teal);background:var(--teal-soft);border-radius:0 8px 8px 0}
 .todo.done{opacity:.6}
+.pipe{display:flex;gap:6px;flex-wrap:wrap;margin:14px 0 6px}
+.pipe button{font:inherit;font-size:13px;border:1px solid var(--rule);background:var(--sheet);color:var(--ink);border-radius:10px;padding:6px 12px;cursor:pointer;display:grid;gap:0;text-align:left;min-width:86px}
+.pipe button b{font-family:var(--f-data);font-size:20px;font-weight:500;line-height:1.2}
+.pipe button[aria-pressed="true"]{border-color:var(--brand);background:var(--brand-soft);color:var(--brand)}
+.pipe .arrow{align-self:center;color:var(--muted);font-size:12px}
+.steps{display:flex;gap:3px;margin:8px 0 2px;max-width:420px}
+.steps i{flex:1;height:6px;border-radius:3px;background:var(--rule)}
+.steps i.on{background:var(--teal)}
+.steps i.now{background:var(--brand)}
+.steps-l{display:flex;justify-content:space-between;max-width:420px;font-size:11px;color:var(--muted)}
+.idea .kw{font-size:13px;margin-top:6px}
+.idea .chips{display:inline-flex;gap:4px;flex-wrap:wrap}
+.idea .chip{font-size:11px;border-radius:6px;padding:0 6px;background:var(--hover);color:var(--muted)}
+.idea .due.near{color:var(--warn);font-weight:700}
+.idea .due.over{color:var(--bad);font-weight:700}
+.idea .block{font-size:13px;margin-top:6px;padding:6px 10px;border-left:3px solid var(--warn);background:var(--memo);color:var(--memo-ink);border-radius:0 8px 8px 0}
+.idea details{margin-top:6px;font-size:13px}
+.idea details li{margin:2px 0}
+.idea .acts{display:flex;gap:12px;margin-top:6px}
+@media (max-width:820px){.pipe{flex-wrap:nowrap;overflow-x:auto;padding-bottom:4px}.pipe button{flex:0 0 auto}}
 
 h2 .when{font-family:var(--f-body);font-weight:500;font-size:14px;color:var(--muted);margin-left:8px}
 table.wf th:first-child,table.wf td:first-child{min-width:300px}
@@ -231,14 +251,27 @@ tr[data-ccount]::after{top:4px;right:4px}
 </section>
 
 <!-- ============ 記事の構想 ============ -->
-<section class="page" data-page="ideas" data-title="記事の構想" hidden>
-  <div class="eyebrow">記事の構想</div>
-  <h1>次に書く記事と、成果リンクを入れる記事</h1>
-  <p class="lead">構想は「いまのトレンドのワード」「X で反応が良かった話題」「検索で勝てている型」と、提携中の案件を突き合わせて出します。<strong>書きたいものにチェックを付けるだけ</strong>で、Claude（記事と作戦室の担当・blog3）が順に書きます。トレンドのワードは Mac が Google トレンドと Yahoo! リアルタイム検索から読んだもの（読むだけ・$0）です。</p>
-  <h2>記事の構想</h2>
-  <div class="filters" id="idea-filters"><button type="button" data-f="idea" aria-pressed="true">候補</button><button type="button" data-f="picked" aria-pressed="false">書くと決めた</button><button type="button" data-f="all" aria-pressed="false">すべて</button></div>
+<section class="page" data-page="ideas" data-title="記事の構想と進み具合" hidden>
+  <div class="eyebrow">記事の構想と進み具合</div>
+  <h1>次に書く記事と、書いている記事がいまどこまで進んだか</h1>
+  <p class="lead" data-cid="ideas.pipe.lead">記事の候補と、書き始めた記事の進み具合を<strong>このページで全部見られます</strong>。候補は「いまのトレンドのワード」「買う直前の検索語」「提携中の案件」を突き合わせて Claude が出します。<strong>書きたいものにチェックを付けるだけ</strong>で、担当のセッションが準備から公開まで進め、工程が進むたびにここを書き換えます。</p>
+  <div class="pipe" id="pipe" aria-label="工程ごとの本数"></div>
+  <div class="fbar" id="idea-bar"><input type="search" id="idea-q" placeholder="題名・キーワードで探す（例：カイロ、ふるさと）" aria-label="記事の構想を探す"><select id="idea-kind" aria-label="種類"><option value="all">種類：すべて</option></select><select id="idea-owner" aria-label="担当"><option value="all">担当：すべて</option></select><select id="idea-sort" aria-label="並べ方"><option value="order">並べ方：優先順</option><option value="due">公開期限が近い順</option><option value="upd">更新が新しい順</option></select><span class="status" id="idea-n"></span></div>
   <div id="ideas"><p class="empty">読み込み中</p></div>
-  <h2 data-cid="ideas.links">成果リンクを入れる記事</h2>
+  <h2 data-cid="ideas.pipe.legend">工程の意味</h2>
+  <div class="tbl"><table>
+    <thead><tr><th>工程</th><th>意味</th><th>次に動く人</th></tr></thead>
+    <tbody>
+    <tr><td><span class="pill">候補</span></td><td>Claude が出した案。チェックを付けると「書くと決めた」になる</td><td>あなた</td></tr>
+    <tr><td><span class="pill info">書くと決めた</span></td><td>あなたが選んだ。担当のセッションが着手を待っている</td><td>担当</td></tr>
+    <tr><td><span class="pill info">準備中</span></td><td>商品・型番・公式の数字・価格を集め、比較の軸を決めている</td><td>担当</td></tr>
+    <tr><td><span class="pill info">執筆中</span></td><td>本文・表・画像を作っている</td><td>担当</td></tr>
+    <tr><td><span class="pill info">公開前の確認</span></td><td>PR とプレビューができた。検査とあなたの確認を待つ</td><td>担当・あなた</td></tr>
+    <tr><td><span class="pill ok">公開済み</span></td><td>本番に出た。公開後の読者と検索の数字を下に出す（毎日の更新で入れ替わる）</td><td>—</td></tr>
+    <tr><td><span class="pill warn">待ち</span></td><td>外の事情で止まっている（審査・サイトの復旧など）。理由を必ず書く</td><td>理由による</td></tr>
+    <tr><td><span class="pill">見送り</span></td><td>書かないと決めた。「すべて」でだけ出る</td><td>—</td></tr>
+    </tbody></table></div>
+<h2 data-cid="ideas.links">成果リンクを入れる記事</h2>
   <p><b>2026-10-17 時点で、成果リンク（A8・楽天）が入った記事は 62 本（10/14 は 17 本）、リンクは 568 か所（10/14 は 148 か所・A8 498・楽天 70）</b>です。内訳は、新しく書いた比較記事 10 本に 328 か所、0 本だった既存の記事 35 本に 80 か所、もともと入っていた 2 本に 21 か所の追加です。全 88 本のうち <b>26 本はまだ 0 本</b>です。10/17 に A8 へ 24 件申請し、通ったものから入れます。残りは主題に合う提携先がありません（保険・カードローン・脱毛・ジム・動画サブスク・スーパー・牛丼・湾岸のイベントなど）。楽天のリンクは 10/14 に取ったあなたのアフィリエイト ID でそろえています。</p>
   <div class="tbl wf"><table>
     <thead><tr><th>記事</th><th>読者（28 日）</th><th>入れる案件</th><th>メモ</th><th>状態</th></tr></thead>
@@ -1012,7 +1045,7 @@ tr[data-ccount]::after{top:4px;right:4px}
     function renderList(){ const list=ALL.filter(c=>fbF==='all'||(fbF==='open'&&!c.reply)||(fbF==='site'&&c.scope==='site')||(fbF==='block'&&c.scope!=='site')); const box=$('#all-comments'); if(!list.length){box.innerHTML='<p class="empty">該当するコメントはありません。</p>';return;} box.replaceChildren(...list.map(c=>renderComment(c,true))); }
     $$('#fb-filters button').forEach(b=>b.addEventListener('click',()=>{ fbF=b.dataset.f; $$('#fb-filters button').forEach(x=>x.setAttribute('aria-pressed',x===b?'true':'false')); renderList(); }));
     // スナップショット・更新履歴
-    db.collection('ideas').onSnapshot(snap=>{ IDEAS=snap.docs.map(d=>Object.assign({id:d.id},d.data())); renderIdeas(); const n=IDEAS.filter(t=>t.status==='idea').length, b=$('a[data-page="ideas"] .badge',toc); if(b){ b.hidden=!n; b.textContent=n; } },()=>{ $('#ideas').innerHTML='<p class="empty">読み込めませんでした。</p>'; });
+    db.collection('ideas').onSnapshot(snap=>{ IDEAS=snap.docs.map(d=>Object.assign({id:d.id},d.data())); ideaFilters(); renderIdeas(); const n=IDEAS.filter(t=>t.status==='idea').length, b=$('a[data-page="ideas"] .badge',toc); if(b){ b.hidden=!n; b.textContent=n; } },()=>{ $('#ideas').innerHTML='<p class="empty">読み込めませんでした。</p>'; });
     db.collection('linkplan').onSnapshot(snap=>{ LINKS=snap.docs.map(d=>Object.assign({id:d.id},d.data())); renderLinkplan(); },()=>{});
     db.collection('todos').onSnapshot(snap=>{ TODOS=snap.docs.map(d=>Object.assign({id:d.id},d.data())); renderTodos(); const n=TODOS.filter(t=>t.status==='you').length, b=$('a[data-page="tasks"] .badge',toc); if(b){ b.hidden=!n; b.textContent=n; } },()=>{ $('#todos').innerHTML='<p class="empty">読み込めませんでした。</p>'; });
     db.doc('results/latest').onSnapshot(s=>{ RESULTS=s.exists?s.data():null; renderResults(); },()=>{});
@@ -1060,7 +1093,7 @@ tr[data-ccount]::after{top:4px;right:4px}
       $('#tbl-pq').innerHTML=groups.map(g=>'<tr data-cid="now.pq.'+esc(g.slug)+'"><td>'+link(g)+'</td><td><ul class="plain" style="margin:0">'+g.top.slice(0,10).map(r=>q1(r,true)).join('')+'</ul>'+(g.top.length>10?'<details><summary>ほか '+(g.top.length-10)+' 語</summary><ul class="plain" style="margin:0">'+g.top.slice(10).map(r=>q1(r,true)).join('')+'</ul></details>':'')+'</td><td>'+(g.rest.length?'<ul class="plain" style="margin:0">'+g.rest.slice(0,8).map(r=>q1(r,false)).join('')+'</ul>':'<span class="status">ほかに出ている語は無い</span>')+'</td></tr>').join('')||'<tr><td colspan="3" class="empty">データなし</td></tr>'; }
     $('#tbl-read').innerHTML=(S.readTop||[]).map(r=>{ const a=(S.articles||[]).find(x=>x.slug===r.slug)||{}; return '<tr data-cid="now.read.'+esc(r.slug)+'"><td>'+link(r)+'</td><td class="num"><b>'+(r.h28!=null?fmtN(r.h28):'—')+'</b></td><td class="num">'+fmtN(r.v)+'</td><td class="num">'+fmtN(r.c28)+'</td><td><button type="button" class="linkish" data-detail="'+esc(r.slug)+'">'+esc(whyShort(a,PM))+'</button></td><td>'+affPill(r.aff)+'</td></tr>'; }).join('')||'<tr><td colspan="6" class="empty">データなし</td></tr>';
     $('#pv-note').innerHTML='<b>訪問の数の読み方</b>：記事ごとの訪問は Cloudflare の数で、<b>ボット（機械的なアクセス）を含みます</b>。ボットを除いた数が取れているのはサイト全体だけです（直近 28 日 '+fmtN((S.kpi||{}).pv28&&S.kpi.pv28.human)+'）。記録は '+esc(PM.first||'—')+' から（全期間 '+fmtN(PM.days90)+' 日）。'+(PM.spikeDays&&PM.spikeDays.length?'全記事が同じ日に跳ねた日（'+PM.spikeDays.map(d=>d.slice(5).replace('-','/')).join('・')+'）は、読者ではない一斉アクセスの疑いがあります。':'')+(PM.refFrom?'記事ごとのボット除外の訪問は '+esc(PM.refFrom)+' から記録しています。':'記事ごとのボット除外の訪問は 10/13 分から記録します。')+'<b>どこから来たか（X か検索か）は、Cloudflare の無料プランの集計では取れません</b>。Web Analytics を有効にすると取れるようになります（「タスク」のページ）。それまでは、日ごとの訪問と X の告知日・一斉アクセスの日を突き合わせて読みます（行を押すと詳細）。';
-    ART=S.articles||[]; renderArticles();
+    ART=S.articles||[]; renderArticles(); renderIdeas();
     // 所見の時点
     const GS=(S.sources||{}).gsc||{}; $('#findings-when').textContent='（'+S.generatedAt.slice(0,10)+' 更新・検索 '+((GS.window||[])[0]||'—')+'〜'+((GS.window||[])[1]||'—')+'・訪問 〜'+(PM.last||'—')+'）';
     // ブログ全体
@@ -1248,21 +1281,72 @@ tr[data-ccount]::after{top:4px;right:4px}
   // ---- タスク ----
   let TODOS=[], todoF='open';
   const ST={you:['warn','あなたの番'],claimed:['info','確認待ち'],claude:['info','Claude の番'],verified:['ok','完了（確認済み）']};
-  let IDEAS=[], LINKS=[], ideaF='idea';
-  const IST={idea:['','候補'],picked:['info','書くと決めた'],requested:['info','執筆中'],published:['ok','公開済み']};
+  let IDEAS=[], LINKS=[], ideaF='active';
+  // 記事の工程（2026-10-25 利用者の指示「今後の記事候補と作成状況はすべて作戦室で確認できるように」）。順番が進み具合の棒になる
+  const FLOW=['idea','picked','prep','writing','review','published'];
+  const IST={idea:['','候補'],picked:['info','書くと決めた'],prep:['info','準備中'],writing:['info','執筆中'],review:['info','公開前の確認'],published:['ok','公開済み'],waiting:['warn','待ち'],dropped:['','見送り'],requested:['info','書くと決めた']};
+  const normSt=(st)=>st==='requested'?'picked':(IST[st]?st:'idea');
+  const STORE={rakuten:'楽天',yahoo:'Yahoo!',amazon:'Amazon'};
+  const daysTo=(d)=>{ if(!d) return null; const t=Date.parse(d+'T23:59:59+09:00'); return isNaN(t)?null:Math.ceil((t-Date.now())/86400000); };
+  const ymd=(iso)=>iso?String(iso).slice(0,10):'';
+  function ideaFilters(){ // 種類・担当の選択肢はデータから作る
+    const fill=(id,key,label)=>{ const el=$(id); if(!el) return; const cur=el.value; const vals=[...new Set(IDEAS.map(t=>t[key]).filter(Boolean))].sort();
+      el.innerHTML='<option value="all">'+label+'：すべて</option>'+vals.map(v=>'<option value="'+esc(v)+'">'+esc(v)+'</option>').join(''); el.value=vals.includes(cur)?cur:'all'; };
+    fill('#idea-kind','kind','種類'); fill('#idea-owner','owner','担当'); }
+  function renderPipe(){ const box=$('#pipe'); if(!box) return;
+    const n=(st)=>IDEAS.filter(t=>normSt(t.status)===st).length;
+    const act=IDEAS.filter(t=>!['idea','published','dropped'].includes(normSt(t.status))).length;
+    const btn=(f,label,v)=>'<button type="button" data-f="'+f+'" aria-pressed="'+(ideaF===f)+'"><span>'+label+'</span><b>'+v+'</b></button>';
+    box.innerHTML=btn('active','進行中',act)+FLOW.map((st,i)=>(i?'<span class="arrow">→</span>':'')+btn(st,IST[st][1],n(st))).join('')+btn('waiting','待ち',n('waiting'))+btn('all','すべて',IDEAS.length);
+    $$('button',box).forEach(b=>b.addEventListener('click',()=>{ ideaF=b.dataset.f; renderIdeas(); })); }
   function renderIdeas(){
-    const box=$('#ideas'); if(!box) return;
-    const rows=IDEAS.filter(t=>ideaF==='all'||(ideaF==='picked'?t.status!=='idea':t.status==='idea')).sort((a,b)=>(a.order||99)-(b.order||99));
-    if(!rows.length){ box.innerHTML='<p class="empty">該当する構想はありません。</p>'; return; }
-    box.replaceChildren(...rows.map(t=>{ const el=document.createElement('div'); el.className='todo'; el.dataset.cid='ideas.'+t.id;
-      const st=IST[t.status]||IST.idea;
-      el.innerHTML='<input type="checkbox" '+(t.status!=='idea'?'checked ':'')+(t.status==='idea'||t.status==='picked'?'':'disabled ')+'aria-label="これを書く"><div><b>'+esc(t.title)+'</b><div class="meta"><span class="pill '+st[0]+'">'+st[1]+'</span>'+(t.since?'<span>'+esc(t.since)+' から</span>':'')+'</div>'
-        +'<div class="how"><b>根拠</b>：'+esc(t.trend||'')+'</div><div class="how"><b>案件</b>：'+esc(t.programs||'')+'</div>'+(t.note?'<div class="note">'+esc(t.note)+'</div>':'')+'</div>';
-      const cb=el.querySelector('input'); cb.addEventListener('change',()=>{ if(!db) return; db.doc('ideas/'+t.id).update(cb.checked?{status:'picked',pickedAt:new Date().toISOString()}:{status:'idea'}).catch(()=>{cb.checked=!cb.checked;}); });
+    const box=$('#ideas'); if(!box) return; renderPipe();
+    const q=(($('#idea-q')||{}).value||'').trim().toLowerCase(), fk=($('#idea-kind')||{}).value||'all', fo=($('#idea-owner')||{}).value||'all', so=($('#idea-sort')||{}).value||'order';
+    let rows=IDEAS.filter(t=>{ const st=normSt(t.status);
+      if(ideaF==='active') return !['idea','published','dropped'].includes(st);
+      if(ideaF==='all') return true; return st===ideaF; })
+      .filter(t=>fk==='all'||t.kind===fk).filter(t=>fo==='all'||t.owner===fo)
+      .filter(t=>!q||[t.title,t.keyword,t.angle,t.trend,t.programs,t.note].join(' ').toLowerCase().includes(q));
+    const due=(t)=>{ const d=daysTo(t.deadline); return d==null?1e9:d; };
+    rows=rows.slice().sort(so==='due'?(a,b)=>due(a)-due(b):so==='upd'?(a,b)=>String(b.updatedAt||b.pickedAt||b.since||'').localeCompare(String(a.updatedAt||a.pickedAt||a.since||'')):(a,b)=>(({A:0,B:1,C:2})[a.priority]??3)-(({A:0,B:1,C:2})[b.priority]??3)||(a.order||99)-(b.order||99));
+    const nEl=$('#idea-n'); if(nEl) nEl.textContent=rows.length+' / '+IDEAS.length+' 本';
+    if(!rows.length){ box.innerHTML='<p class="empty">該当する記事はありません。上の工程の数字を押すと切り替わります。</p>'; return; }
+    const ARTS=(SNAP&&SNAP.articles)||[];
+    box.replaceChildren(...rows.map(t=>{ const el=document.createElement('div'); el.className='todo idea'; el.dataset.cid='ideas.'+t.id;
+      const st=normSt(t.status), pill=IST[st], idx=FLOW.indexOf(st);
+      const art=t.slug?ARTS.find(a=>a.slug===t.slug):null;
+      const d=daysTo(t.deadline);
+      const dueTxt=t.deadline?('<span class="due'+(st!=='published'&&d!=null&&d<0?' over':st!=='published'&&d!=null&&d<=7?' near':'')+'">公開期限 '+esc(t.deadline)+(st!=='published'&&d!=null?(d<0?'（'+(-d)+' 日過ぎた）':'（あと '+d+' 日）'):'')+'</span>'):'';
+      const stores=(t.stores||[]).length?'<span class="chips">'+t.stores.map(x=>'<span class="chip">'+esc(STORE[x]||x)+'</span>').join('')+'</span>':'';
+      const steps=idx>=0?'<div class="steps" aria-label="進み具合 '+(idx+1)+' / '+FLOW.length+'">'+FLOW.map((_,i)=>'<i class="'+(i<idx?'on':i===idx?'now':'')+'"></i>').join('')+'</div><div class="steps-l"><span>候補</span><span>公開</span></div>':'';
+      const links=[t.slug&&(st==='published'||art)?'<a href="https://daily-hack.fieldbeside.com/posts/'+esc(t.slug)+'/" target="_blank" rel="noopener">記事を開く</a>':'',
+        t.preview?'<a href="'+esc(t.preview)+'" target="_blank" rel="noopener">プレビュー</a>':'',
+        t.pr?'<a href="https://github.com/Yokottinnn/daily-hack/pull/'+esc(t.pr)+'" target="_blank" rel="noopener">PR #'+esc(t.pr)+'</a>':''].filter(Boolean).join('・');
+      const after=art&&st==='published'?'<div class="how"><b>公開後の数字</b>：読者 '+fmtN(art.h28)+' 人（28 日・ボット除外）・検索クリック '+fmtN(art.c90)+'（90 日）・検索表示 '+fmtN(art.i90)+'・成果リンク '+fmtN(art.aff)+' か所</div>':'';
+      const found=art&&st!=='published'?'<span class="pill ok">本番に出ているのを検出</span>':'';
+      const hist=(t.history||[]).slice().reverse();
+      el.innerHTML='<input type="checkbox" '+(st!=='idea'&&st!=='dropped'?'checked ':'')+(st==='idea'||st==='picked'?'':'disabled ')+'aria-label="これを書く"><div><b>'+esc(t.title)+'</b>'
+        +'<div class="meta"><span class="pill '+pill[0]+'">'+pill[1]+'</span>'+found+(t.priority?'<span class="pill'+(t.priority==='A'?' bad':'')+'">優先 '+esc(t.priority)+'</span>':'')+(t.kind?'<span>'+esc(t.kind)+'</span>':'')+stores+(t.owner?'<span>担当 '+esc(t.owner)+'</span>':'')+dueTxt+(t.updatedAt?'<span>更新 '+esc(ymd(t.updatedAt))+'</span>':t.since?'<span>'+esc(t.since)+' から</span>':'')+'</div>'
+        +steps
+        +(t.keyword?'<div class="kw"><b>狙う検索語</b>：'+esc(t.keyword)+'</div>':'')
+        +(t.angle?'<div class="how"><b>買う前の不安（切り口）</b>：'+esc(t.angle)+'</div>':'')
+        +(t.trend?'<div class="how"><b>根拠</b>：'+esc(t.trend)+'</div>':'')+(t.programs?'<div class="how"><b>案件</b>：'+esc(t.programs)+'</div>':'')
+        +(t.next&&st!=='published'?'<div class="how"><b>次にやること</b>：'+esc(t.next)+'</div>':'')
+        +(st==='waiting'&&t.blocker?'<div class="block"><b>待っている理由</b>：'+esc(t.blocker)+'</div>':'')
+        +after+(t.note?'<div class="note">'+esc(t.note)+'</div>':'')
+        +(links?'<div class="how">'+links+'</div>':'')
+        +(hist.length?'<details><summary>経過（'+hist.length+' 件）</summary><ul class="plain">'+hist.map(h=>'<li>'+esc(ymd(h.at))+' '+esc((IST[normSt(h.status)]||['',h.status||''])[1])+(h.by?'（'+esc(h.by)+'）':'')+(h.note?'：'+esc(h.note):'')+'</li>').join('')+'</ul></details>':'')
+        +(st==='idea'?'<div class="acts"><button type="button" class="linkish" data-drop>見送る</button></div>':st==='dropped'?'<div class="acts"><button type="button" class="linkish" data-undrop>候補に戻す</button></div>':'')
+        +'</div>';
+      const now=()=>new Date().toISOString();
+      const push=(status,note)=>({status,updatedAt:now(),history:(t.history||[]).concat([{at:now(),status,by:'あなた',note}])});
+      const cb=el.querySelector('input'); cb.addEventListener('change',()=>{ if(!db) return; db.doc('ideas/'+t.id).update(cb.checked?Object.assign({pickedAt:now()},push('picked','チェックを付けた')):push('idea','チェックを外した')).catch(()=>{cb.checked=!cb.checked;}); });
+      const dr=el.querySelector('[data-drop]'); if(dr) dr.addEventListener('click',()=>{ if(db) db.doc('ideas/'+t.id).update(push('dropped','見送った')).catch(()=>{}); });
+      const ud=el.querySelector('[data-undrop]'); if(ud) ud.addEventListener('click',()=>{ if(db) db.doc('ideas/'+t.id).update(push('idea','候補に戻した')).catch(()=>{}); });
       return el; }));
     applyCounts();
   }
-  $$('#idea-filters button').forEach(b=>b.addEventListener('click',()=>{ ideaF=b.dataset.f; $$('#idea-filters button').forEach(x=>x.setAttribute('aria-pressed',x===b?'true':'false')); renderIdeas(); }));
+  ['#idea-q','#idea-kind','#idea-owner','#idea-sort'].forEach(id=>{ const el=$(id); if(el) el.addEventListener(id==='#idea-q'?'input':'change',renderIdeas); });
   const LST={plan:['','予定'],requested:['info','作業中'],done:['ok','入れた']};
   function renderLinkplan(){ const tb=$('#tbl-linkplan'); if(!tb) return;
     const rows=LINKS.slice().sort((a,b)=>(a.order||99)-(b.order||99));
