@@ -21,9 +21,13 @@ const NG = /契約者|振込|口座|氏名|会社|様$|さん$|Welcome|ようこ
 const mask = (x) => String(x).replace(/[A-Za-z0-9_\-]{16,}/g, (m) => `［${m.length}文字・伏せた］`);
 const lines = [`# 3 店ボタンの Mac 側の準備: ${WHICH}（scripts/shop/mac-setup.mjs）`, '', `生成: **${new Date().toISOString()}**`, ''];
 
+// t338: もしもの「提携申請する」は JavaScript の確認ダイアログを出し、受け答えに失敗すると Playwright が落ちた。落ちても記録を残す
+process.on('unhandledRejection', (e) => { lines.push(`- ⚠️ 未処理のエラー: ${String(e && e.message || e).split('\n')[0].slice(0, 160)}`); });
 const b = await chromium.connectOverCDP(`http://127.0.0.1:${process.env.CDP_PORT || '18810'}`);
 const ctx = b.contexts()[0] || (await b.newContext());
 const p = await ctx.newPage();
+const DIALOGS = [];
+p.on('dialog', async (d) => { DIALOGS.push(`${d.type()}「${String(d.message()).slice(0, 120)}」`); if (WHICH === 'moshimo-apply') await d.accept().catch(() => {}); else await d.dismiss().catch(() => {}); });
 const go = async (u) => { await p.goto(u, { waitUntil: 'domcontentloaded', timeout: 25000 }).catch((e) => lines.push(`- ⚠️ 開けない ${u}: ${String(e).split('\n')[0]}`)); await p.waitForTimeout(3500); };
 const here = () => { try { const u = new URL(p.url()); return u.origin + u.pathname; } catch { return p.url(); } };
 const vis = () => p.evaluate(() => {
@@ -118,6 +122,10 @@ try {
       const html = await p.evaluate(() => { const el = [...document.querySelectorAll('*')].filter((e) => e.children.length < 6 && /Access Key/i.test(e.textContent || '')).sort((a, b) => (a.textContent || '').length - (b.textContent || '').length)[0];
         let box = el; for (let i = 0; i < 3 && box && box.parentElement; i++) box = box.parentElement; return box ? box.outerHTML.replace(/\s+/g, ' ').slice(0, 2500) : ''; });
       lines.push('- 「Access Key」の行のまわりの HTML（値は伏せる）:', '```html', mask(html).replace(/[●•*]{6,}/g, '［伏せ字］'), '```');
+      // t338: カードの頭しか見えなかった。カード全体の文字と、カードの中のボタン（文字の無いアイコンも aria-label・title で）を出す
+      const card = await p.evaluate(() => { const c = [...document.querySelectorAll('.card')].find((e) => /dailyhack/.test(e.textContent || '')); if (!c) return null;
+        return { text: (c.innerText || '').split('\n').map((x) => x.trim()).filter(Boolean).slice(0, 40), btns: [...c.querySelectorAll('button, a, [role=button]')].map((e) => `${e.tagName.toLowerCase()} 「${(e.innerText || '').trim().slice(0, 30)}」 aria=${e.getAttribute('aria-label') || ''} title=${e.getAttribute('title') || ''} data=${Object.keys(e.dataset).join(',')}`).slice(0, 20) }; });
+      if (card) lines.push('- カードの文字（値は伏せる）:', ...card.text.map((x) => `  - ${mask(x).replace(/[●•*]{6,}/g, '［伏せ字］')}`), '- カードの中のボタン:', ...card.btns.map((x) => `  - ${mask(x)}`));
     }
     else lines.push('- 価格の自動取得（mac-weekly.sh の 2e）は次の 6:40 から楽天の価格を取る');
     // API が通るか 1 回だけ（結果は件数と HTTP の状態だけ出す）
@@ -204,7 +212,7 @@ try {
         if (await go2.count()) {
           await go2.click({ timeout: 5000 }).catch(() => {});
           await p.waitForTimeout(5000);
-          lines.push(`- 確認の画面の「提携申請する」を押した（${here()}）`);
+          lines.push(`- 確認の画面の「提携申請する」を押した（${here()}）`, `- 出たダイアログ: ${DIALOGS.join(' ／ ') || 'なし'}（moshimo-apply では「OK」を押す）`);
           await dump('押したあとの画面');
         } else lines.push('- 確認の画面の中に「提携申請する」が見つからない（押していない）');
         await go('https://af.moshimo.com/af/shop/promotion/search?words=Amazon&apply_status=1');
