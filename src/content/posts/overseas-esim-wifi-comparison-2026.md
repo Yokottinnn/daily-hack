@@ -341,6 +341,17 @@ eSIMの比較記事は、ここを飛ばしてる。**今の契約に無料枠�
 
 安さだけで決めると、空港で慌てる。**出発前に引っかかりやすい点**をまとめた。
 
+<div class="cmp-table-wrap">
+  <table class="cmp-table prose-table">
+    <thead><tr><th>手段</th><th>受け取り・返却と電話番号</th></tr></thead>
+    <tbody>
+      <tr><td><strong>eSIM</strong>（トリファ）</td><td>受け取りも返却も<strong>無い</strong><br><span class="cell-sub">アプリで買って現地でONにするだけ。電話番号は無い（データ通信のみ）</span></td></tr>
+      <tr><td><strong>キャリアのローミング</strong></td><td>受け取りも返却も<strong>無い</strong><br><span class="cell-sub">申込み不要か事前の申込みだけ。SMSの認証コードも受け取れる</span></td></tr>
+      <tr><td><strong>海外WiFi</strong></td><td>受け取りと返却が<strong>要る</strong><br><span class="cell-sub">国内宅配は利用開始日の5日前までに注文。返却はレターパック</span></td></tr>
+    </tbody>
+  </table>
+</div>
+
 <ul class="checklist">
   <li><div class="checklist-body"><strong>eSIMとキャリアは受け取りも返却もない</strong><p>トリファはアプリで買って現地でONにするだけ。キャリアは申込み不要か事前の申込みだけ。海外WiFiは受け取りと返却が要る。</p></div></li>
   <li><div class="checklist-body"><strong>海外WiFiの国内宅配は5日前までに注文</strong><p>Sakura Mobileの国内宅配は利用開始日の5日前まで。現地空港受取の通常配送は2〜3日前まで。急ぎならエクスプレス配送（＋1,000円）。</p></div></li>

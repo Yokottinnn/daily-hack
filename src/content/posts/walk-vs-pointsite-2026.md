@@ -273,9 +273,20 @@ references:
 <ul class="checklist">
   <li><div class="checklist-body"><strong>① 歩数アプリは「入れて放置」で十分</strong><p>RenoBodyのように<strong>条件を満たせば必ず入る</strong>ものを1つ入れておけばいい。Powlで毎回動画を見る使い方は、1か月480回の視聴で+96円。手間と相談して決めればいい。</p></div></li>
   <li><div class="checklist-body"><strong>② ポイントサイトは「どうせやる手続き」の前に挟む</strong><p>クレジットカードを作る、口座を開く、ネットで買う。<strong>どうせやることを広告経由に変えるだけ</strong>で、入会特典の条件の3,000〜5,000ptに届く。</p></div></li>
-  <li><div class="checklist-body"><strong>③ 特典の締め日を先に見る</strong><p>ハピタスは10月31日までの入会・11月30日までの有効判定、ちょびリッチは登録日から翌月末まで、モッピーは翌々月末まで。<strong>締めから逆算して、使う案件を決めてから登録する</strong>。</p></div></li>
-  <li><div class="checklist-body"><strong>④ 交換は手数料0円の先へ</strong><p>ハピタスはデジタルギフト経由（2,000pt以上）、ちょびリッチは楽天銀行・PayPay銀行・ドコモSMTBネット銀行かAmazonギフトカード。</p></div></li>
+  <li><div class="checklist-body"><strong>③ 特典の締め日を先に見る</strong><p>締め日は下の表。<strong>締めから逆算して、使う案件を決めてから登録する</strong>。</p></div></li>
+  <li><div class="checklist-body"><strong>④ 交換は手数料0円の先へ</strong><p>交換先は下の表。</p></div></li>
 </ul>
+
+<div class="cmp-table-wrap">
+  <table class="cmp-table prose-table">
+    <thead><tr><th>ポイントサイト</th><th>特典の締めと交換先</th></tr></thead>
+    <tbody>
+      <tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/walk-vs-pointsite-2026/logos/hapitas.png" alt="" loading="lazy" /><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+33XJA2+1LP8+BWVTE" target="_blank" rel="sponsored noopener nofollow">ハピタス</a></span></td><td>締め：10月31日までの入会・11月30日までの有効判定<br><span class="cell-sub">手数料0円の交換：デジタルギフト経由（2,000pt以上）</span></td></tr>
+      <tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/walk-vs-pointsite-2026/logos/chobirich.png" alt="" loading="lazy" /><a href="https://px.a8.net/svt/ejp?a8mat=4B43JB+C507KQ+389A+5YJRM" target="_blank" rel="sponsored noopener nofollow">ちょびリッチ</a></span></td><td>締め：登録日から翌月末まで<br><span class="cell-sub">手数料0円の交換：楽天銀行・PayPay銀行・ドコモSMTBネット銀行かAmazonギフトカード</span></td></tr>
+      <tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/walk-vs-pointsite-2026/logos/moppy.png" alt="" loading="lazy" /><a href="https://pc.moppy.jp/" target="_blank" rel="noopener">モッピー</a></span></td><td>締め：翌々月末まで</td></tr>
+    </tbody>
+  </table>
+</div>
 
 <h2 id="faq">よくある質問</h2>
 

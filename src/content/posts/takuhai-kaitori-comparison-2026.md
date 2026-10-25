@@ -58,6 +58,17 @@ references:
 
 宅配買取でいちばん揉めるのは、**「査定額に納得できなかったとき」**。送った品物は相手の倉庫にあるので、返してもらうのにいくらかかるかで、断りやすさがまるで違う。3社の規約を、**気軽に断れる順**に並べた。
 
+<div class="cmp-table-wrap">
+  <table class="cmp-table prose-table">
+    <thead><tr><th>会社</th><th>査定に納得できず返すとき</th></tr></thead>
+    <tbody>
+      <tr class="recommended"><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/takuhai-kaitori-comparison-2026/logos/brandoff.png" alt="" loading="lazy" /><a href="https://px.a8.net/svt/ejp?a8mat=4B3XB4+3K08M2+56WW+5YJRM" target="_blank" rel="sponsored noopener nofollow">ブランドオフ</a></span></td><td>返送料は<strong>無料</strong><br><span class="cell-sub">届いてから14日以内に連絡がつかないと、着払いで返される</span></td></tr>
+      <tr><td><a href="https://px.a8.net/svt/ejp?a8mat=4B43JB+BTOZ2Y+3XHM+5YRHE" target="_blank" rel="sponsored noopener nofollow">リコマース</a></td><td>返送料は<strong>無料</strong><br><span class="cell-sub">全部まとめて返却。査定前の自己都合は自己負担。自動承認を選ぶと返送できない</span></td></tr>
+      <tr><td><a href="https://px.a8.net/svt/ejp?a8mat=4B43JB+BUVUAI+5NTS+5YRHE" target="_blank" rel="sponsored noopener nofollow">モバゾウ</a></td><td>返送料は<strong>自己負担</strong><br><span class="cell-sub">額は発送数と発送先で変わる</span></td></tr>
+    </tbody>
+  </table>
+</div>
+
 <ul class="checklist">
   <li><div class="checklist-body"><strong>1位 ブランドオフ｜返送料は無料</strong><p>規約は「送料当社負担でご返送」、FAQは「買取不成立の場合でも無料でご返却」。<strong>例外は1つだけ</strong>で、荷物が届いてから<strong>14日以内に連絡がつかない</strong>とキャンセル扱いになり、<strong>着払いで返される</strong>。査定結果のメールや電話を放置しないこと。</p></div></li>
   <li><div class="checklist-body"><strong>2位 リコマース｜返送料は無料。ただし条件が3つ</strong><p>査定結果に納得できないときの返送は無料。ただし<strong>送った品物はまとめて全部返却</strong>で、一部だけ返してもらうことはできない。<strong>査定の前に自己都合で返送を頼むと送料は自己負担</strong>。申込時に<strong>「自動承認」を選ぶと、発送後のキャンセル・返送は一切できない</strong>。</p></div></li>

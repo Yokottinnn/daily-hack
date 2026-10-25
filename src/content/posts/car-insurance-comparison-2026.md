@@ -86,6 +86,17 @@ references: ["https://www.sonysonpo.co.jp/", "https://www.sbisonpo.co.jp/", "htt
 
 「ダイレクト型は安いけど不安……」って言ってるあんた、まず**仕組みから理解しなさい**。
 
+<div class="cmp-table-wrap">
+  <table class="cmp-table prose-table">
+    <thead><tr><th></th><th>ダイレクト型だと</th></tr></thead>
+    <tbody>
+      <tr><td><strong>保険料の中身</strong></td><td>どちらも純保険料＋付加保険料<br><span class="cell-sub">代理店型は付加保険料に<strong>代理店手数料・店舗運営費</strong>が乗る</span></td></tr>
+      <tr><td><strong>同じ補償なら</strong></td><td>ダイレクト型が<strong>一般的に10〜30%安い</strong></td></tr>
+      <tr><td><strong>年15万円の人なら</strong></td><td><strong>年3〜5万円</strong>浮くケースは珍しくない<br><span class="cell-sub">bang! の利用者統計は平均3.5万円</span></td></tr>
+    </tbody>
+  </table>
+</div>
+
 自動車保険の保険料は **「純保険料（事故時の支払い原資）+ 付加保険料（事業運営コスト）」** で構成されてる。代理店型はこの**付加保険料に代理店手数料・店舗運営費が乗ってる**から、同じ補償でもダイレクト型より一般的に**10〜30%高くなる**って業界では常識的に語られてる（出典: <a href="https://life.oricon.co.jp/rank_insurance/special/knowledge/direct-type-and-agency-type/" target="_blank" rel="noopener nofollow">オリコン顧客満足度ランキング</a>、<a href="https://bestcarweb.jp/feature/column/1399785" target="_blank" rel="noopener nofollow">ベストカー</a>等の解説）。
 
 たとえば年間保険料15万円を払ってる代理店型ユーザーが、同等補償のダイレクト型に切り替えると **年間3〜5万円浮く**ケースは珍しくない。<a href="https://www.bang.co.jp/cont/direct-or-agency/" target="_blank" rel="noopener nofollow">保険スクエアbang!</a> の利用者統計でも「平均3.5万円安くなった、5万円以上下がったケースもある」と公開されてる。

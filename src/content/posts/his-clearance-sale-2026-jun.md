@@ -132,6 +132,18 @@ references: ["https://x.com/halohalo_travel/status/2060588028402311572", "https:
 
 ## ⚠️ 在庫処分セール「全プラン共通」の注意点
 
+<div class="cmp-table-wrap">
+  <table class="cmp-table prose-table">
+    <thead><tr><th>気をつけること</th><th>目安</th></tr></thead>
+    <tbody>
+      <tr><td><strong>人気プランの完売</strong></td><td><strong>数時間〜1日</strong>で売り切れる</td></tr>
+      <tr><td><strong>土日・夕方便</strong></td><td>表示の最安より<strong>+1〜2万円</strong></td></tr>
+      <tr><td><strong>取消料</strong></td><td>出発21日前から段階的にかかるパターンが一般的</td></tr>
+      <tr><td><strong>パスポートの残り</strong></td><td>ソウルは入国時3か月以上、タイ・シンガポールは入国時6か月以上</td></tr>
+    </tbody>
+  </table>
+</div>
+
 <ul class="checklist">
 <li>
 <div class="checklist-body">

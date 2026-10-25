@@ -340,12 +340,17 @@ SoftBank Air の公式料金ページには、**割引後の月額4,950円**（1
 
 ここまでの数字を、**住む年数と使っているスマホ**で答えに直すとこうなる。
 
-<ul class="checklist">
-  <li><div class="checklist-body"><strong>① 2年以内に引っ越すかもしれない → BIGLOBE WiMAX +5G</strong><p>2年総額108,048円で最安。端末を24回払いにすれば2年で払い終わり、1年で解約しても64,752円で4社の最安。</p></div></li>
-  <li><div class="checklist-body"><strong>② キャッシュバックの手続きが面倒 → DTI WiMAX 2+</strong><p>キャッシュバックは無いけど、最初の13か月は月3,410円。端末は申込時に払い切るので、解約しても残りは0円。</p></div></li>
-  <li><div class="checklist-body"><strong>③ 4年以上住む・ソフトバンクかY!mobileのスマホ → SoftBank Air</strong><p>月月割が49か月目まで続くので、長く使えば端末代は実質0円。セット割は月1,100〜1,650円。申込前に割引後4,950円の対象かを確認する。</p></div></li>
-  <li><div class="checklist-body"><strong>④ 楽天モバイルを使っている・月額は定額がいい → Rakuten Turbo</strong><p>月4,840円で上下しない。楽天モバイル併用で毎月1,000ポイント。使えるのは登録した設置場所だけ。</p></div></li>
-</ul>
+<div class="cmp-table-wrap">
+  <table class="cmp-table prose-table">
+    <thead><tr><th>選ぶもの</th><th>こんな人と決め手</th></tr></thead>
+    <tbody>
+      <tr class="recommended"><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/home-router-wimax-comparison-2026/logos/biglobe-wimax.png" alt="" loading="lazy" /><a href="https://px.a8.net/svt/ejp?a8mat=4B43JB+BXV0BE+B4+2BT6TU" target="_blank" rel="sponsored noopener nofollow">BIGLOBE WiMAX +5G</a></span></td><td><strong>2年以内に引っ越すかもしれない</strong><br><span class="cell-sub">2年総額108,048円で最安。端末を24回払いにすれば2年で払い終わり、1年で解約しても64,752円で4社の最安</span></td></tr>
+      <tr><td><a href="https://px.a8.net/svt/ejp?a8mat=4B43JB+BOC2MY+1QFI+2NCKJ6" target="_blank" rel="sponsored noopener nofollow">DTI WiMAX 2+</a></td><td><strong>キャッシュバックの手続きが面倒</strong><br><span class="cell-sub">キャッシュバックは無いが、最初の13か月は月3,410円。端末は申込時に払い切るので、解約しても残りは0円</span></td></tr>
+      <tr><td><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+13W32Y+4MTU+5YJRM" target="_blank" rel="sponsored noopener nofollow">SoftBank Air</a></td><td><strong>4年以上住む・ソフトバンクかY!mobileのスマホ</strong><br><span class="cell-sub">月月割が49か月目まで続き、長く使えば端末代は実質0円。セット割は月1,100〜1,650円。申込前に割引後4,950円の対象かを確認する</span></td></tr>
+      <tr><td><a href="https://network.mobile.rakuten.co.jp/internet/turbo/" target="_blank" rel="noopener">Rakuten Turbo</a></td><td><strong>楽天モバイルを使っている・月額は定額がいい</strong><br><span class="cell-sub">月4,840円で上下しない。楽天モバイル併用で毎月1,000ポイント。使えるのは登録した設置場所だけ</span></td></tr>
+    </tbody>
+  </table>
+</div>
 
 **持ち歩いて外でも使いたいなら、ホームルーターではなくポケット型WiFiのほうが向いている。** 使う量ごとの比較は<a href="/posts/pocket-wifi-comparison-2026/">ポケット型WiFi比較</a>にまとめてある。
 

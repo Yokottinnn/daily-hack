@@ -551,6 +551,34 @@ references:
 
 **ロピア45.2億に対して、まいばすけっと2.4億。18.8倍の開き。** 同じ「安いスーパー」なのに、稼ぎ方が正反対だと分かる。
 
+<div class="num-grid">
+  <div class="num-row is-top">
+    <span class="num-label">ロピア</span>
+    <div class="num-track"><div class="num-fill" style="--w:100%"></div></div>
+    <span class="num-value">45.2億円</span>
+  </div>
+  <div class="num-row">
+    <span class="num-label">オーケー</span>
+    <div class="num-track"><div class="num-fill" style="--w:96%"></div></div>
+    <span class="num-value">43.4億円</span>
+  </div>
+  <div class="num-row">
+    <span class="num-label">トライアルG</span>
+    <div class="num-track"><div class="num-fill" style="--w:48%"></div></div>
+    <span class="num-value">21.7億円</span>
+  </div>
+  <div class="num-row">
+    <span class="num-label">肉のハナマサほか</span>
+    <div class="num-track"><div class="num-fill" style="--w:35%"></div></div>
+    <span class="num-value">15.9億円</span>
+  </div>
+  <div class="num-row">
+    <span class="num-label">まいばすけっと</span>
+    <div class="num-track"><div class="num-fill" style="--w:5%"></div></div>
+    <span class="num-value">2.4億円</span>
+  </div>
+</div>
+
 <ul class="checklist">
   <li><div class="checklist-body"><strong>大箱・高回転で薄利を成立させる型</strong><p>オーケー・ロピア・トライアル。1店に人を集め、量をさばいて、1品あたりの粗利が薄くても総額で回す。だから駅前の小さな物件には出せない。</p></div></li>
   <li><div class="checklist-body"><strong>小箱・高密度で固定費を下げる型</strong><p>まいばすけっと。1店の売上は小さいが、家賃も人も少ない。品数を絞って回転だけ上げる。だから都心の狭い区画に何百店も置ける。</p></div></li>

@@ -242,22 +242,15 @@ author: "hacker-ko"
 
 ### 洗剤選びの3つの鉄則
 
-<div class="highlight-grid cols-3">
-  <div class="highlight-item">
-    <span class="highlight-tag">詰替パウチ</span>
-    <h4>ボトルより圧倒的お得</h4>
-    <p>ボトル品は容器コストで寄付額が膨らむ。詰替パウチタイプを選べば同じ寄付額で1.3〜1.5倍の容量が届く。ボトルは1個家にあれば十分。</p>
-  </div>
-  <div class="highlight-item">
-    <span class="highlight-tag">普段使い銘柄</span>
-    <h4>変えなくていい</h4>
-    <p>「お得だから」と普段使ってない銘柄に変えるのは罠。肌や香りが合わなくて余らせる事故が頻発。家でいつも使ってる銘柄を寄付で前借りするのが正解。</p>
-  </div>
-  <div class="highlight-item">
-    <span class="highlight-tag">保管場所</span>
-    <h4>クローゼット推奨</h4>
-    <p>液体洗剤6kg分は意外と場所を取る。床下収納・クローゼット下段・ベッド下を確保してから発注。直射日光と高温多湿を避けること。</p>
-  </div>
+<div class="cmp-table-wrap">
+  <table class="cmp-table prose-table">
+    <thead><tr><th>見るところ</th><th>こう選ぶ</th></tr></thead>
+    <tbody>
+      <tr><td><strong>詰替パウチ</strong></td><td>ボトルより<strong>詰替パウチ</strong>。同じ寄付額で<strong>1.3〜1.5倍</strong>の容量が届く<br><span class="cell-sub">ボトル品は容器代で寄付額が膨らむ。ボトルは家に1個あれば十分</span></td></tr>
+      <tr><td><strong>銘柄</strong></td><td>家で<strong>いつも使っている銘柄</strong>のまま<br><span class="cell-sub">「お得だから」と普段使わない銘柄に変えると、肌や香りが合わずに余らせやすい</span></td></tr>
+      <tr><td><strong>保管場所</strong></td><td>床下収納・クローゼット下段・ベッド下を<strong>先に空けてから</strong>頼む<br><span class="cell-sub">液体洗剤6kg分は意外と場所を取る。直射日光と高温多湿は避ける</span></td></tr>
+    </tbody>
+  </table>
 </div>
 
 <h2>タオル｜今治の本気2選</h2>
@@ -293,22 +286,15 @@ author: "hacker-ko"
 
 ### タオル選びの2つの鉄則
 
-<div class="highlight-grid cols-3">
-  <div class="highlight-item">
-    <span class="highlight-tag">認定マーク</span>
-    <h4>赤×青×白を確認</h4>
-    <p>「今治タオル」と書かれていても認定マークなしの粗悪品が混じる。商品ページで赤×青×白の認定ロゴ画像があるか必ず確認すること。</p>
-  </div>
-  <div class="highlight-item">
-    <span class="highlight-tag">枚数</span>
-    <h4>世帯人数×2〜3が目安</h4>
-    <p>フェイスタオルは1人あたり3〜4枚、バスタオルは1〜2枚が回転ストック。家族4人ならフェイス10〜12枚、バス4〜6枚で1セット。</p>
-  </div>
-  <div class="highlight-item">
-    <span class="highlight-tag">色選び</span>
-    <h4>無地ベージュ／グレー</h4>
-    <p>柄物・派手色は5年使うと飽きる。無地のベージュ・グレー・ホワイト系を選べば、家族全員が使い続けやすい。「お得セット」の派手柄に飛びつかないこと。</p>
-  </div>
+<div class="cmp-table-wrap">
+  <table class="cmp-table prose-table">
+    <thead><tr><th>見るところ</th><th>こう選ぶ</th></tr></thead>
+    <tbody>
+      <tr><td><strong>認定マーク</strong></td><td>商品ページに<strong>赤×青×白の認定ロゴ</strong>があるか確かめる<br><span class="cell-sub">「今治タオル」と書かれていても、認定マークの無い粗悪品が混じる</span></td></tr>
+      <tr><td><strong>枚数</strong></td><td><strong>家族4人ならフェイス10〜12枚・バス4〜6枚</strong>で1セット<br><span class="cell-sub">フェイスは1人3〜4枚、バスは1〜2枚が回転ストックの目安</span></td></tr>
+      <tr><td><strong>色</strong></td><td><strong>無地のベージュ・グレー・ホワイト系</strong><br><span class="cell-sub">柄物・派手色は5年使うと飽きる。「お得セット」の派手柄に飛びつかない</span></td></tr>
+    </tbody>
+  </table>
 </div>
 
 <h2>ティッシュ・キッチン消耗品｜地味だけど刺さる2選</h2>
