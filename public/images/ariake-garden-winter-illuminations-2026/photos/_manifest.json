@@ -1,9 +1,16 @@
 {
- "official.jpg": {
-  "src": "https://ariake.shopping-sumitomo-rd.com/wp-content/uploads/2026/10/1216_912event_イルミのみ-1.jpg",
-  "page": "https://ariake.shopping-sumitomo-rd.com/event/4900/",
-  "credit": "有明ガーデン 公式サイト",
-  "fetched": "2026-10-25",
-  "license": "公式の告知画像（イベント紹介のための引用。出典を記事に明記）"
- }
+  "official.jpg": {
+    "src": "https://ariake.shopping-sumitomo-rd.com/wp-content/uploads/2026/10/1216_912event_イルミのみ-1.jpg",
+    "page": "https://ariake.shopping-sumitomo-rd.com/event/4900/",
+    "credit": "有明ガーデン 公式サイト",
+    "fetched": "2026-10-25",
+    "license": "公式の告知画像（イベント紹介のための引用。出典を記事に明記）"
+  },
+  "lighting-ceremony": {
+    "file": "lighting-ceremony.jpg",
+    "source": "https://ariake.shopping-sumitomo-rd.com/wp-content/uploads/2026/10/1216_912event-4.jpg",
+    "page": "https://ariake.shopping-sumitomo-rd.com/event/5088/",
+    "lic": "引用（有明ガーデンの告知画像）",
+    "fetched": "2026-10-25"
+  }
 }
