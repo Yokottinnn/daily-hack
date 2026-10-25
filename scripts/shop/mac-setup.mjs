@@ -315,6 +315,10 @@ try {
       // t345: 小窓のボタンが button 要素ではなかった。押せそうな見えている要素（cursor:pointer・短い文字）を全部出す（押さない）
       const clickables = await p.evaluate(() => [...document.querySelectorAll('a, button, div, span, label, input')].filter((e) => { const r = e.getBoundingClientRect(); if (!r.height) return false; const cs = getComputedStyle(e); const t = (e.innerText || e.value || '').trim(); return (cs.cursor === 'pointer' || e.tagName === 'BUTTON' || e.type === 'checkbox') && t.length > 0 && t.length < 24 && e.children.length < 3; }).map((e) => `${e.tagName.toLowerCase()}${e.className ? '.' + String(e.className).split(' ')[0] : ''} 「${(e.innerText || e.value || '').trim()}」`).filter((x, i, a) => a.indexOf(x) === i).slice(-30));
       lines.push('- 押せそうな要素（後ろの 30 個）:', ...clickables.map((x) => `  - ${x}`));
+      // t346: 確認の小窓の部品が見つからなかった。「登録前にご確認ください」を含むいちばん小さい箱の HTML をそのまま出す（押さない）
+      const boxHtml = await p.evaluate(() => { const all = [...document.querySelectorAll('div, section, form, dialog')].filter((e) => (e.textContent || '').includes('登録前にご確認ください')); all.sort((a, b) => (a.outerHTML || '').length - (b.outerHTML || '').length);
+        const pick = all.find((e) => e.querySelector('a, button, input, [onclick], [role]')) || all[0]; return pick ? pick.outerHTML.replace(/\s+/g, ' ').slice(0, 3500) : ''; });
+      lines.push('- 確認の小窓の HTML:', '```html', mask(boxHtml), '```');
       const opts = await p.evaluate(() => [...document.querySelectorAll('select')].filter((e) => e.getBoundingClientRect().height > 0).map((e) => `select[name=${e.name}]: ${[...e.options].map((o) => o.textContent.trim()).join(' / ').slice(0, 400)}`));
       lines.push('- 選択肢:', ...opts.map((x) => `  - ${x}`)); }
   }
