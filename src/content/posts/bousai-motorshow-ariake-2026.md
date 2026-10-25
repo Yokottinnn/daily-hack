@@ -108,6 +108,24 @@ references: ["https://www.tokyorinkai-koen.jp/news/oshirase/14886/", "https://ww
 
 **お菓子と飲み物ねらいなら、早い時間に行くほうがいい。**
 
+## SNS ではこう言われている｜過去の回の動画
+
+<!-- sns-x:bousai -->
+
+YouTube には、2024 年のぼうさいモーターショーを車両ごとに撮った動画が上がっている。
+
+- **国土交通省の対策本部車（拡幅型）**、照明車、排水ポンプ車など、国の災害対応の車両が並んだ
+- **NTT 東日本の災害特別支援隊**の車両や衛星通信の車など、通信を立て直す車も来ていた
+- **災害対策指揮車**、MIRAI のパトカー、**特務機関NERV の災害対策車**、**屈折放水塔車**・高性能救助車まで撮られている
+
+<div class="yt-embed"><iframe src="https://www.youtube-nocookie.com/embed/QxBnVA0vveM" title="2024 ぼうさいモーターショーpart1（saitou hayato NO WAR）" loading="lazy" allowfullscreen
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe></div>
+
+<div class="yt-embed"><iframe src="https://www.youtube-nocookie.com/embed/WI49Kfu97dA" title="2024 ぼうさいモーターショーpart2（saitou hayato NO WAR）" loading="lazy" allowfullscreen
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe></div>
+
+<p class="source-note">動画：YouTube「2024 ぼうさいモーターショー part1・part2」（saitou hayato NO WAR）。今年の出展車両は主催のお知らせで確かめて。</p>
+
 ## 同じ日に、そなエリア東京で親子向けの催し
 
 公園の中にある防災体験学習施設「**そなエリア東京**」では、同じ日に「**親子で発見！無電柱化のチカラ2026**」がある（9:30〜16:30）。電柱玉当てゲームなどで、電柱の無い街づくりを子どもと一緒に学べる。
@@ -134,7 +152,7 @@ references: ["https://www.tokyorinkai-koen.jp/news/oshirase/14886/", "https://ww
   </ul>
 </aside>
 
-<p class="source-note">出典：<a href="https://www.tokyorinkai-koen.jp/news/oshirase/14886/" target="_blank" rel="noopener">東京臨海広域防災公園「ぼうさいモーターショー2026開催！」（2026年10月24日）</a>／<a href="https://prtimes.jp/main/html/rd/p/000000154.000063577.html" target="_blank" rel="noopener">新電元工業株式会社のプレスリリース（PR TIMES・2026年10月23日）</a>。天候などで内容が変わることがある。</p>
+<p class="source-note">表紙は主催（東京臨海広域防災公園）の告知チラシ。出典：<a href="https://www.tokyorinkai-koen.jp/news/oshirase/14886/" target="_blank" rel="noopener">東京臨海広域防災公園「ぼうさいモーターショー2026開催！」（2026年10月24日）</a>／<a href="https://prtimes.jp/main/html/rd/p/000000154.000063577.html" target="_blank" rel="noopener">新電元工業株式会社のプレスリリース（PR TIMES・2026年10月23日）</a>。天候などで内容が変わることがある。</p>
 
 <div class="hakkako-says">
   <div class="hakkako-mascot"><img src="/images/expr-01-wave.png" alt="Daily Hackマスコット" /></div>

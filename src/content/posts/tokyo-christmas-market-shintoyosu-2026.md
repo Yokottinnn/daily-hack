@@ -141,6 +141,17 @@ references: ["https://prtimes.jp/main/html/rd/p/000000084.000047941.html", "http
 
 <p class="source-note">料理の値段は発表されていない。メニューと数量は変わることがある。お酒は20歳になってから。</p>
 
+## SNS ではこう言われている
+
+<!-- sns-x:xmas -->
+
+公式の YouTube チャンネルが、10 月下旬に今年の案内の動画を出している。
+
+<div class="yt-embed"><iframe src="https://www.youtube-nocookie.com/embed/YRHqI3Ifz0w" title="東京クリスマスマーケットについて（東京クリスマスマーケット公式）" loading="lazy" allowfullscreen
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe></div>
+
+<p class="source-note">動画：YouTube「東京クリスマスマーケットについて」（東京クリスマスマーケット公式チャンネル）</p>
+
 <aside class="related-block">
   <div class="related-block-head">
     <span class="related-block-icon"><img src="/images/expr-05-smug.png" alt="" /></span>
@@ -157,7 +168,7 @@ references: ["https://prtimes.jp/main/html/rd/p/000000084.000047941.html", "http
   </ul>
 </aside>
 
-<p class="source-note">出典：<a href="https://prtimes.jp/main/html/rd/p/000000084.000047941.html" target="_blank" rel="noopener">東京クリスマスマーケット実行委員会「新豊洲初開催『東京クリスマスマーケット2026』注目グルメを公開！」（PR TIMES・2026年10月16日）</a>／<a href="https://prtimes.jp/main/html/rd/p/000000200.000028214.html" target="_blank" rel="noopener">KKday「マグカップ付き入場券を発売」（PR TIMES・2026年10月2日）</a>／<a href="https://tokyochristmas.net/" target="_blank" rel="noopener">東京クリスマスマーケット公式サイト</a>。内容は変わることがある。出かける前に公式サイトで確かめて。</p>
+<p class="source-note">表紙は東京クリスマスマーケット実行委員会のフードのキービジュアル。出典：<a href="https://prtimes.jp/main/html/rd/p/000000084.000047941.html" target="_blank" rel="noopener">東京クリスマスマーケット実行委員会「新豊洲初開催『東京クリスマスマーケット2026』注目グルメを公開！」（PR TIMES・2026年10月16日）</a>／<a href="https://prtimes.jp/main/html/rd/p/000000200.000028214.html" target="_blank" rel="noopener">KKday「マグカップ付き入場券を発売」（PR TIMES・2026年10月2日）</a>／<a href="https://tokyochristmas.net/" target="_blank" rel="noopener">東京クリスマスマーケット公式サイト</a>。内容は変わることがある。出かける前に公式サイトで確かめて。</p>
 
 <div class="hakkako-says">
   <div class="hakkako-mascot"><img src="/images/expr-01-wave.png" alt="Daily Hackマスコット" /></div>
