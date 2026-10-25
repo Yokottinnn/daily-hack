@@ -24,7 +24,7 @@
       "label": "洗濯"
     }
   ],
-  "pricesCheckedAt": "2026-10-25T11:20:53.041Z",
+  "pricesCheckedAt": "2026-10-25T21:45:46.911Z",
   "items": [
     {
       "id": "thanko-heat25sbk",
@@ -57,7 +57,7 @@
         "reviewAverage": null,
         "reviewCount": 0,
         "shop": "プロキュアエース",
-        "checkedAt": "2026-10-25T11:20:53.041Z"
+        "checkedAt": "2026-10-25T21:45:46.911Z"
       },
       "amazon": {
         "keyword": "サンコー HEAT25SBK",
@@ -95,7 +95,7 @@
         "reviewAverage": 4.36,
         "reviewCount": 11,
         "shop": "ウエノ電器 Yahoo!店",
-        "checkedAt": "2026-10-25T11:20:53.041Z"
+        "checkedAt": "2026-10-25T21:45:46.911Z"
       },
       "amazon": {
         "keyword": "アイリスオーヤマ FC21620",
@@ -132,7 +132,7 @@
         "reviewAverage": 4,
         "reviewCount": 3,
         "shop": "メガストア Yahoo!店",
-        "checkedAt": "2026-10-25T11:20:53.041Z"
+        "checkedAt": "2026-10-25T21:45:46.911Z"
       },
       "amazon": {
         "keyword": "アイリスオーヤマ GT21622",
@@ -170,7 +170,7 @@
         "reviewAverage": null,
         "reviewCount": 0,
         "shop": "作業服 キノウェアショップ",
-        "checkedAt": "2026-10-25T11:20:53.041Z"
+        "checkedAt": "2026-10-25T21:45:46.911Z"
       },
       "amazon": {
         "keyword": "サンエス EH32490",
@@ -208,7 +208,7 @@
         "reviewAverage": null,
         "reviewCount": 0,
         "shop": "作業服 キノウェアショップ",
-        "checkedAt": "2026-10-25T11:20:53.041Z"
+        "checkedAt": "2026-10-25T21:45:46.911Z"
       },
       "amazon": {
         "keyword": "雷神服 RD9570",
@@ -249,14 +249,14 @@
           "コネクトツー",
           "ファン"
         ],
-        "url": null,
-        "price": null,
-        "shippingFree": null,
-        "point": null,
+        "url": "https://store.shopping.yahoo.co.jp/yyconnectonline/heater-conversion-c.html",
+        "price": 1180,
+        "shippingFree": true,
+        "point": 0,
         "reviewAverage": null,
-        "reviewCount": null,
-        "shop": null,
-        "checkedAt": "2026-10-25T11:20:53.041Z"
+        "reviewCount": 0,
+        "shop": "いーこね",
+        "checkedAt": "2026-10-25T21:45:46.911Z"
       },
       "amazon": {
         "keyword": "バートル サーモクラフト TC500",
@@ -294,7 +294,7 @@
         "reviewAverage": null,
         "reviewCount": 0,
         "shop": "工具のあさひ屋",
-        "checkedAt": "2026-10-25T11:20:53.041Z"
+        "checkedAt": "2026-10-25T21:45:46.911Z"
       },
       "amazon": {
         "keyword": "マキタ CV202DZ",
