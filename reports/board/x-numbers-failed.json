@@ -1,0 +1,33 @@
+{
+ "generated": "2026-10-25T21:44:50.072Z",
+ "handle": "heng_ji31590",
+ "header": {
+  "following": null,
+  "followers": null,
+  "raw": {
+   "following": null,
+   "followers": null
+  }
+ },
+ "debug": {
+  "url": "https://x.com/heng_ji31590",
+  "title": "",
+  "text": ""
+ },
+ "d7": {
+  "impressions": 20500,
+  "profileVisits": 131,
+  "engagements": 318,
+  "verifiedFollowers": 352,
+  "followersOnPage": 624
+ },
+ "d90": {
+  "impressions": 185000,
+  "profileVisits": 1500
+ },
+ "ocr": {
+  "verifiedFollowers": 352,
+  "verifiedImpressions90": 175,
+  "eligible": false
+ }
+}
