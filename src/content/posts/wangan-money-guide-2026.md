@@ -195,6 +195,8 @@ references: ["https://www.city.chuo.lg.jp/", "https://www.city.koto.lg.jp/", "ht
     </tbody>
   </table>
 </div>
+<p class="source-note">湾岸（中央区・江東区）の暮らしの記事は <a href="/category/wangan-life/">湾岸ライフの一覧</a>、今月のイベントとニュースは <a href="/tags/湾岸ニュース/">湾岸ニュースの一覧</a> にまとめている。</p>
+
 ## まとめ — 湾岸の“お金がラクになる制度”は知った人が得をする
 
 1. **子ども医療費は3区横並び**＝そこで比較しても意味がない

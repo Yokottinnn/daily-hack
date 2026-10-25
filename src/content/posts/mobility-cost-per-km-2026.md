@@ -4,7 +4,7 @@ description: "運賃だけなら電車が最安。でも待ち時間・乗換・
 publishDate: 2026-06-03
 category: ["comparisons", "wangan-life"]
 tags: ["LUUP", "シェアサイクル", "タクシーアプリ", "GO", "移動", "湾岸ライフ", "豊洲", "勝どき", "晴海", "節約", "時間価値"]
-isPR: false
+isPR: true
 draft: false
 featured: false
 eyecatchUrl: "/images/mobility-cost-per-km-2026/eyecatch.jpg"
@@ -122,6 +122,8 @@ references: ["https://x.com/sugoi_service", "https://luup.sc/", "https://docomo-
 </div>
 </div>
 
+<p>荷物が多い日や、湾岸から少し遠出する日に車が要るなら、カーシェアという手もある：<a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+383KII+43U8+HVFKY" target="_blank" rel="sponsored noopener nofollow">カーシェア「EARTHCAR」の料金と駐車場を見る</a></p>
+
 <div class="hakkako-says">
 <img src="/images/expr-01-wave.png" alt="ハッカー子" />
 <p>晴海在住のアタシのリアル運用を白状すると ── 平日の近距離はほぼシェアサイクル、ちょっと距離があってもLUUPでサクッ、飲んだ帰りや雨・荷物多めの日はGOでタクシー、純粋に長距離なら電車。<strong>「電車が最安」って盲信をやめてから、移動のストレスも“見えない時間ロス”も激減した</strong>。湾岸はそもそも駅が遠いタワマンが多いから、この発想転換のリターンがデカいエリアなのよ。</p>
@@ -163,6 +165,21 @@ references: ["https://x.com/sugoi_service", "https://luup.sc/", "https://docomo-
 </div>
 </li>
 </ul>
+
+## よくある質問
+
+<div class="cmp-table-wrap">
+  <table class="cmp-table spec-table faq-table">
+    <tbody>
+      <tr><th>LUUP とシェアサイクルと電車、2kmならどれが安い？</th><td>運賃だけなら電車（約180円）。ただ、徒歩・待ち・乗換の時間を時給2,000円で換算すると、勝どき〜東京駅（約2km）の実質1km単価は<strong>シェアサイクル約132円・LUUP約158円・電車約354円</strong>で、自転車系が逆転する（2026年6月の料金をもとにした概算）。</td></tr>
+      <tr><th>4km（豊洲〜銀座）ならどれが向く？</th><td>実質1km単価はシェアサイクル約107円・LUUP約129円・電車約176円・タクシー約475円（概算）。<strong>2〜5kmは電動アシスト自転車が無難</strong>。</td></tr>
+      <tr><th>雨の日や2人以上ならどうする？</th><td>雨の日は自転車とキックボードは使えないので、電車かタクシー。<strong>3人ならタクシーの割り勘で電車とほぼ並ぶ</strong>。</td></tr>
+      <tr><th>LUUP は長く乗ると高くなる？</th><td>なる。分ごとに料金がかかるので、信号待ちや遠回りで時間が伸びると割高になる。長めの距離は30分単位の料金のシェアサイクルのほうが有利になりやすい。</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<p class="source-note">湾岸（中央区・江東区）の暮らしの記事は <a href="/category/wangan-life/">湾岸ライフの一覧</a>、今月のイベントとニュースは <a href="/tags/湾岸ニュース/">湾岸ニュースの一覧</a> にまとめている。</p>
 
 ## まとめ — 「運賃」じゃなく「総コスト」で選べ
 

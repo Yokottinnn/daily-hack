@@ -74,3 +74,12 @@
 | `rechargeable-kairo-comparison-2026` | 3 店ボタン（`src/data/shop/rechargeable-kairo.json`） | 楽天のリンクは `src/data/shop/config.json` の `rakuten.affiliateId` 1 か所で替わる（記事の Markdown には書いていない） |
 | `mobile-battery-comparison-2026` | 3 店ボタン（`src/data/shop/mobile-battery.json`） | 同上 |
 | `heated-vest-comparison-2026` | 3 店ボタン（`src/data/shop/heated-vest.json`） | 同上 |
+
+## A8 のリンクを入れた湾岸ライフの記事（2026-10-25）
+
+| 記事 | 案件 | 置き場所 |
+| --- | --- | --- |
+| `tokyo-christmas-market-shintoyosu-2026` | KKday（`4B43JB+BX9KPM+52F8+5YJRM`） | 料金の表の下・事前予約の説明（2 か所。トップへのリンクで「新豊洲」と検索してもらう） |
+| `ariake-garden-winter-illuminations-2026` | トラベリスト（`4B3Y38+35PU3E+4XZI+BWVTE`）・イオンコンパス（`4B3Y38+36WPAY+5RZ8+5YJRM`） | SNS の節の前の「近くに泊まるなら」 |
+| `mobility-cost-per-km-2026` | EARTHCAR（`4B3Y38+383KII+43U8+HVFKY`） | 状況別おすすめの直後（荷物が多い日・遠出） |
+| `wangan-saving-spots-2026` | エネピ 電気（`4B3Y38+25ZTSQ+2W92+1NJK7M`） | まとめの「固定費削減と組み合わせれば」の直後 |

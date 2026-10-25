@@ -8,6 +8,12 @@ isPR: false
 draft: false
 eyecatchUrl: "/images/the-dog-park-toyosu-putter-golf-2026/cover.jpg"
 eyecatchAlt: "THE DOG PARK TOYOSU のパターゴルフ。夜の灯りに照らされた9ホールのコース"
+event:
+  name: "THE DOG PARK TOYOSU パターゴルフ"
+  startDate: "2026-10-07"
+  locationName: "THE DOG PARK TOYOSU"
+  address: "東京都江東区豊洲6-1-9"
+  url: "https://the-dog-park.jp/putter-golf"
 author: "hacker-ko"
 references: ["https://prtimes.jp/main/html/rd/p/000000030.000103607.html", "https://the-dog-park.jp/putter-golf"]
 ---
@@ -149,6 +155,21 @@ YouTube には、9 月のプレオープンのころから飼い主の動画が�
     </a></li>
   </ul>
 </aside>
+
+## よくある質問
+
+<div class="cmp-table-wrap">
+  <table class="cmp-table spec-table faq-table">
+    <tbody>
+      <tr><th>THE DOG PARK TOYOSU のパターゴルフはいくら？</th><td>大人<strong>700円</strong>・子ども（中学生以下）500円（通常の時間・税込）。パターとボールのレンタル込み。未就学児は保護者同伴で無料（2026年10月25日に公式で確認）。</td></tr>
+      <tr><th>家族で行くといちばん安いのは？</th><td><strong>家族セット（大人2＋子ども2まで）2,000円</strong>。1人ずつ払う2,400円より400円安い。</td></tr>
+      <tr><th>犬と一緒に回れる？</th><td>回れる。リードとマナーウェアが必要で、コースの中で排泄させない。</td></tr>
+      <tr><th>何時まで遊べる？</th><td>通常 10:00〜18:00、ナイター 18:00〜20:30（最終受付 19:30）。ナイターは1人100円高い。</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<p class="source-note">湾岸（中央区・江東区）の暮らしの記事は <a href="/category/wangan-life/">湾岸ライフの一覧</a>、今月のイベントとニュースは <a href="/tags/湾岸ニュース/">湾岸ニュースの一覧</a> にまとめている。</p>
 
 <p class="source-note">表紙は株式会社マイゴルのプレスリリースの告知画像。出典：<a href="https://prtimes.jp/main/html/rd/p/000000030.000103607.html" target="_blank" rel="noopener">株式会社マイゴル「愛犬と楽しめるパターゴルフが豊洲に10月7日オープン」（PR TIMES・2026年10月9日）</a>／<a href="https://the-dog-park.jp/putter-golf" target="_blank" rel="noopener">THE DOG PARK TOYOSU 公式サイト</a>。料金や時間は変わることがある。</p>
 

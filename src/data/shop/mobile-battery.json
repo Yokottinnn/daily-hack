@@ -24,7 +24,7 @@
       "label": "ケーブル"
     }
   ],
-  "pricesCheckedAt": null,
+  "pricesCheckedAt": "2026-10-25T11:20:53.041Z",
   "items": [
     {
       "id": "cio-ss10k-slim2",
@@ -51,7 +51,15 @@
         "keyword": "CIO SMARTCOBY SLIM SS10K",
         "must": [
           "SS10K"
-        ]
+        ],
+        "url": null,
+        "price": null,
+        "shippingFree": null,
+        "point": null,
+        "reviewAverage": null,
+        "reviewCount": null,
+        "shop": null,
+        "checkedAt": "2026-10-25T11:20:53.041Z"
       },
       "amazon": {
         "keyword": "CIO SMARTCOBY SLIM SS10K",
@@ -81,7 +89,15 @@
         "keyword": "CIO SMARTCOBY Ex05 SS10K",
         "must": [
           "Ex05"
-        ]
+        ],
+        "url": null,
+        "price": null,
+        "shippingFree": null,
+        "point": null,
+        "reviewAverage": null,
+        "reviewCount": null,
+        "shop": null,
+        "checkedAt": "2026-10-25T11:20:53.041Z"
       },
       "amazon": {
         "keyword": "CIO SMARTCOBY Ex05 SS10K",
@@ -113,7 +129,15 @@
         "must": [
           "TRIO",
           "20000"
-        ]
+        ],
+        "url": null,
+        "price": null,
+        "shippingFree": null,
+        "point": null,
+        "reviewAverage": null,
+        "reviewCount": null,
+        "shop": null,
+        "checkedAt": "2026-10-25T11:20:53.041Z"
       },
       "amazon": {
         "keyword": "CIO SMARTCOBY TRIO SS 20000",
@@ -143,7 +167,15 @@
         "keyword": "バッファロー 半固体 モバイルバッテリー BMPBSA10000",
         "must": [
           "BMPBSA10000"
-        ]
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/buffalodirect/4950190385325.html",
+        "price": 5990,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": 4.64,
+        "reviewCount": 11,
+        "shop": "バッファロー公式ストア",
+        "checkedAt": "2026-10-25T11:20:53.041Z"
       },
       "amazon": {
         "keyword": "バッファロー 半固体 モバイルバッテリー BMPBSA10000",
@@ -173,7 +205,15 @@
         "keyword": "cheero Solitta CHE-138",
         "must": [
           "CHE-138"
-        ]
+        ],
+        "url": null,
+        "price": null,
+        "shippingFree": null,
+        "point": null,
+        "reviewAverage": null,
+        "reviewCount": null,
+        "shop": null,
+        "checkedAt": "2026-10-25T11:20:53.041Z"
       },
       "amazon": {
         "keyword": "cheero Solitta CHE-138",
@@ -204,7 +244,15 @@
         "keyword": "cheero Solido CHE-135",
         "must": [
           "CHE-135"
-        ]
+        ],
+        "url": null,
+        "price": null,
+        "shippingFree": null,
+        "point": null,
+        "reviewAverage": null,
+        "reviewCount": null,
+        "shop": null,
+        "checkedAt": "2026-10-25T11:20:53.041Z"
       },
       "amazon": {
         "keyword": "cheero Solido CHE-135",
@@ -233,7 +281,15 @@
         "keyword": "エレコム 半固体 モバイルバッテリー DE-C86-10000",
         "must": [
           "DE-C86"
-        ]
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/gikstore/elc0980.html",
+        "price": 8180,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 0,
+        "shop": "Gikstore",
+        "checkedAt": "2026-10-25T11:20:53.041Z"
       },
       "amazon": {
         "keyword": "エレコム 半固体 モバイルバッテリー DE-C86-10000",
@@ -263,7 +319,15 @@
         "keyword": "エレコム リン酸鉄 モバイルバッテリー DE-C97L",
         "must": [
           "DE-C97L"
-        ]
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/elecom/4549550442619.html",
+        "price": 5280,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 0,
+        "shop": "エレコムダイレクトショップ",
+        "checkedAt": "2026-10-25T11:20:53.041Z"
       },
       "amazon": {
         "keyword": "エレコム リン酸鉄 モバイルバッテリー DE-C97L",
@@ -292,7 +356,15 @@
         "keyword": "サンワダイレクト 半固体 モバイルバッテリー 700-BTL062",
         "must": [
           "BTL062"
-        ]
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/sanwadirect/700-btl062bk.html",
+        "price": 5480,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": 4.25,
+        "reviewCount": 4,
+        "shop": "サンワダイレクト",
+        "checkedAt": "2026-10-25T11:20:53.041Z"
       },
       "amazon": {
         "keyword": "サンワダイレクト 半固体 モバイルバッテリー 700-BTL062",
@@ -322,7 +394,15 @@
         "keyword": "Anker Zolo Power Bank 10000mAh 30W A1688",
         "must": [
           "A1688"
-        ]
+        ],
+        "url": null,
+        "price": null,
+        "shippingFree": null,
+        "point": null,
+        "reviewAverage": null,
+        "reviewCount": null,
+        "shop": null,
+        "checkedAt": "2026-10-25T11:20:53.041Z"
       },
       "amazon": {
         "keyword": "Anker Zolo Power Bank 10000mAh 30W A1688",
@@ -351,7 +431,15 @@
         "keyword": "Anker Nano Power Bank MagGo Plus A1113",
         "must": [
           "A1113"
-        ]
+        ],
+        "url": null,
+        "price": null,
+        "shippingFree": null,
+        "point": null,
+        "reviewAverage": null,
+        "reviewCount": null,
+        "shop": null,
+        "checkedAt": "2026-10-25T11:20:53.041Z"
       },
       "amazon": {
         "keyword": "Anker Nano Power Bank MagGo Plus A1113",

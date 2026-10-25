@@ -8,6 +8,15 @@ isPR: false
 draft: false
 eyecatchUrl: "/images/bousai-motorshow-ariake-2026/cover.jpg"
 eyecatchAlt: "ぼうさいモーターショー2026｜2026年10月25日（日）有明・東京臨海広域防災公園、入場無料"
+event:
+  name: "ぼうさいモーターショー2026"
+  startDate: "2026-10-25T10:00:00+09:00"
+  endDate: "2026-10-25T15:00:00+09:00"
+  locationName: "東京臨海広域防災公園 ヘリポート"
+  address: "東京都江東区有明3-8-35"
+  isFree: true
+  url: "https://www.tokyorinkai-koen.jp/news/oshirase/14886/"
+  organizer: "東京臨海広域防災公園 管理センター"
 author: "hacker-ko"
 references: ["https://www.tokyorinkai-koen.jp/news/oshirase/14886/", "https://www.tokyorinkai-koen.jp/access/", "https://prtimes.jp/main/html/rd/p/000000154.000063577.html"]
 ---
@@ -149,6 +158,21 @@ YouTube には、2024 年のぼうさいモーターショーを車両ごとに�
     </a></li>
   </ul>
 </aside>
+
+## よくある質問
+
+<div class="cmp-table-wrap">
+  <table class="cmp-table spec-table faq-table">
+    <tbody>
+      <tr><th>ぼうさいモーターショー2026はいつ？</th><td><strong>2026年10月25日（日）10:00〜15:00</strong>。雨天決行・荒天中止。</td></tr>
+      <tr><th>入場料はかかる？</th><td><strong>入場無料</strong>。</td></tr>
+      <tr><th>車で行ける？</th><td><strong>会場に駐車場は無い</strong>。ゆりかもめ「有明」駅から徒歩2分、りんかい線「国際展示場」駅から徒歩4分。</td></tr>
+      <tr><th>同じ日にほかの催しはある？</th><td>公園の中の「そなエリア東京」で、親子向けの「親子で発見！無電柱化のチカラ2026」（9:30〜16:30）がある。</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<p class="source-note">湾岸（中央区・江東区）の暮らしの記事は <a href="/category/wangan-life/">湾岸ライフの一覧</a>、今月のイベントとニュースは <a href="/tags/湾岸ニュース/">湾岸ニュースの一覧</a> にまとめている。</p>
 
 <p class="source-note">表紙は主催（東京臨海広域防災公園）の告知チラシ。出典：<a href="https://www.tokyorinkai-koen.jp/news/oshirase/14886/" target="_blank" rel="noopener">東京臨海広域防災公園「ぼうさいモーターショー2026開催！」（2026年10月24日）</a>／<a href="https://prtimes.jp/main/html/rd/p/000000154.000063577.html" target="_blank" rel="noopener">新電元工業株式会社のプレスリリース（PR TIMES・2026年10月23日）</a>。天候などで内容が変わることがある。</p>
 
