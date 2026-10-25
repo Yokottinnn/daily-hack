@@ -235,8 +235,11 @@
         ],
         "exclude": [
           "CNCTWO",
+          "アダプター",
+          "ケーブル",
           "コネクトツー",
-          "ファン"
+          "ファン",
+          "変換"
         ]
       },
       "yahoo": {
@@ -246,16 +249,19 @@
         ],
         "exclude": [
           "CNCTWO",
+          "アダプター",
+          "ケーブル",
           "コネクトツー",
-          "ファン"
+          "ファン",
+          "変換"
         ],
-        "url": "https://store.shopping.yahoo.co.jp/yyconnectonline/heater-conversion-c.html",
-        "price": 1180,
-        "shippingFree": true,
-        "point": 0,
+        "url": null,
+        "price": null,
+        "shippingFree": null,
+        "point": null,
         "reviewAverage": null,
-        "reviewCount": 0,
-        "shop": "いーこね",
+        "reviewCount": null,
+        "shop": null,
         "checkedAt": "2026-10-25T21:45:46.911Z"
       },
       "amazon": {
