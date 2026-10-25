@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T08:13:19Z",
+  "generated_at": "2026-10-25T08:44:59Z",
   "login_lock": {"present": false, "age_hours": 0},
   "cdp": {"healthy": true, "port": 18810},
   "x_jobs": {"loaded": 8, "expected": 8, "ai_total": 15, "halted": false, "missing": []},
@@ -38,7 +38,7 @@
   ],
   "reconnect": "既に起動している",
   "tasks": [
-      {"task": "t343-shop-mac-setup10.sh", "rc": 0, "out": "## 「メディアを登録する」を押したあと（送っていない）  - 画面: https://af.moshimo.com/af/shop/management/media（メディア一覧 ｜ もしもアフィリエイト）  見出し"}
+      {"task": "t349-shop-yahoo-wait.sh", "rc": 0, "out": "  - 提供するWeb APIやOSS、ソフトウエア開発に役立つ最新情報をお届けします。   - プライバシーポリシー プライバシーセンター 利用規約 お問い合わせ 免責事項   - © LY Corporation  rc=0 /     3349 bytes"}
   ],
   "running": null,
   "auth": {
