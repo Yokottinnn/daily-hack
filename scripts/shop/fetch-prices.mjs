@@ -39,6 +39,8 @@ async function getJson(url, headers = {}) {
 
 async function rakuten(q) {
   if (!RAKUTEN_APP_ID) return { skipped: 'RAKUTEN_APP_ID が無い' };
+  // 2026-07-01 版の新 API は accessKey が必須（無いと全部 HTTP 400 になるので、エラーにせず「鍵なし」にする）
+  if (!RAKUTEN_ACCESS_KEY && /openapi\.rakuten/.test(RAKUTEN_EP)) return { skipped: 'RAKUTEN_ACCESS_KEY が無い' };
   const p = new URLSearchParams({ applicationId: RAKUTEN_APP_ID, keyword: q.keyword, hits: '30', availability: '1', formatVersion: '2', format: 'json' });
   if (RAKUTEN_ACCESS_KEY) p.set('accessKey', RAKUTEN_ACCESS_KEY);
   const j = await getJson(`${RAKUTEN_EP}?${p}`);
