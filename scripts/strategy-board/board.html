@@ -51,6 +51,11 @@ p{margin:0 0 12px;max-width:68ch}
 .stamp i{width:7px;height:7px;border-radius:50%;background:var(--ok);display:inline-block}
 .stamp.stale i{background:var(--warn)}
 .grid{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(190px,1fr))}
+.secbar{margin:40px 0 10px;padding:12px 16px;border-radius:12px;background:var(--sheet);border:1px solid var(--rule);border-left:5px solid var(--brand);font-size:21px;font-weight:700;scroll-margin-top:16px}
+.secbar small{display:block;font-size:12.5px;font-weight:400;color:var(--muted);margin-top:2px}
+.jump{display:flex;gap:8px;flex-wrap:wrap;margin:6px 0 4px}
+.jump button{border:1px solid var(--rule);background:var(--sheet);color:var(--ink);border-radius:99px;padding:5px 14px;font:inherit;font-size:13px;cursor:pointer}
+.jump button:hover{border-color:var(--brand)}
 .tile{background:var(--sheet);border:1px solid var(--rule);border-radius:12px;padding:14px 16px;min-width:0}
 .tile .k{font-size:12px;color:var(--muted)} .tile .v{font-family:var(--f-data);font-size:26px;font-weight:500;font-variant-numeric:tabular-nums;line-height:1.3} .tile .s{font-size:12px;color:var(--muted)}
 .delta{font-family:var(--f-data);font-size:12px;margin-left:6px} .delta.up{color:var(--ok)} .delta.down{color:var(--bad)}
@@ -254,9 +259,29 @@ tr[data-ccount]::after{top:4px;right:4px}
 <!-- ============ 現状 ============ -->
 <section class="page" data-page="now" data-title="現状の数字" hidden>
   <div class="eyebrow">現状の数字</div>
-  <h1>読まれている記事ほど、稼ぐ仕掛けが入っていない</h1>
+  <h1>X・ブログ・アフィリエイトの数字は、ここで全部見る</h1>
   <div class="stamp" id="stamp-now"><i></i><span>データを読み込み中</span></div>
-  <p class="lead">検索の表示は伸びているのに、クリックと成果リンクが追いついていません。<strong>下の 2 つの表は毎日自動で入れ替わります。</strong></p>
+  <p class="lead" data-cid="now.hub.lead">運営している 3 つ（<strong>X・ブログ・アフィリエイト</strong>）の数字を、このページに細かくまとめています。「全体像」には要点だけを残しています。<strong>表とグラフは毎日自動で入れ替わります</strong>（Mac が毎朝読み、作戦室に載せる）。</p>
+  <div class="jump" id="now-jump"><button type="button" data-jump="now-x">X</button><button type="button" data-jump="now-blog">ブログ</button><button type="button" data-jump="now-aff">アフィリエイト</button></div>
+
+  <div class="secbar" id="now-x" data-cid="now.sec.x">X（@heng_ji31590）<small>フォロワー・収益化の条件・表示・投稿ごとの反応。Mac がプロフィール・アナリティクス・収益化の画面を毎日読む</small></div>
+  <div class="grid" id="now-x-tiles"><p class="empty">データ待ち</p></div>
+  <h3 data-cid="now.x.h.cond">収益化までの距離</h3>
+  <div class="tbl"><table><thead><tr><th>条件</th><th>いま</th><th>足りない</th></tr></thead><tbody id="now-xcond"><tr><td colspan="3" class="empty">データ待ち</td></tr></tbody></table></div>
+  <h3 data-cid="now.x.h.chart">フォロワーの推移</h3>
+  <div class="chart" id="now-chart-x"><p class="empty">データ待ち</p></div>
+  <h3 data-cid="now.x.h.daily">日ごとの増減（直近 14 日）</h3>
+  <div class="tbl"><table><thead><tr><th>日付</th><th>フォロワー</th><th>前日から</th></tr></thead><tbody id="now-xdaily"><tr><td colspan="3" class="empty">データ待ち</td></tr></tbody></table></div>
+  <h3 data-cid="now.x.h.posts">投稿のランキング（表示回数）</h3>
+  <p class="src">表示・いいね・リポスト・返信は Mac が 3 時間おきに記録している最新値。「記事の読者」は告知した日と翌日にその記事を読んだ人（ボット除外）、「フォロワー」は前日から翌日までの増減。</p>
+  <div class="tbl"><table class="wf"><thead id="now-thead-xposts"><tr><th>投稿</th><th>表示</th></tr></thead><tbody id="now-xposts"><tr><td colspan="2" class="empty">データ待ち</td></tr></tbody></table></div>
+  <h3 data-cid="now.x.h.facts">分かったこと</h3>
+  <ul class="findings" id="now-x-facts"><li class="empty">データ待ち</li></ul>
+
+  <div class="secbar" id="now-blog" data-cid="now.sec.blog">ブログ（daily-hack.fieldbeside.com）<small>検索（Search Console）・訪問（Cloudflare）・記事ごとの数字</small></div>
+  <div class="grid" id="now-kpi"><p class="empty">データ待ち</p></div>
+  <h3 data-cid="now.blog.h.gsc">検索の推移（週ごと）</h3>
+  <div class="chart" id="now-chart-gsc"><p class="empty">データ待ち</p></div>
   <h2>ブログ全体</h2>
   <div class="grid" id="blog-tiles"><p class="empty">データ待ち</p></div>
   <h3>月ごとの動き</h3>
@@ -281,14 +306,23 @@ tr[data-ccount]::after{top:4px;right:4px}
     <div class="tile"><div class="k">負けている</div><p style="margin:6px 0 0"><b>大手と同じ話題の速報</b>。PayPay 改悪・値上げ一覧は 20〜100 位。<b>価格・キャンペーンのように数字の寿命が月単位の記事</b>は沈んでいる。</p></div>
     <div class="tile"><div class="k">取りこぼし</div><p style="margin:6px 0 0"><b>1 ページ目の下（4〜10 位）にいる記事</b>のクリック率が低い。タイトルと説明文を直すだけで流入が増える余地がある。</p></div>
   </div>
+  <div class="secbar" id="now-aff" data-cid="now.sec.aff">アフィリエイト<small>成果（クリック・発生・確定）と、記事に入っている成果リンク・提携中の案件</small></div>
+  <div class="grid" id="now-aff-tiles"><p class="empty">データ待ち</p></div>
+  <h3 data-cid="now.aff.h.results">成果（ASP ごと・今月と先月）</h3>
+  <div id="now-aff-results"><p class="empty">データ待ち</p></div>
+  <h3 data-cid="now.aff.h.asp">ASP ごとのリンクと記事</h3>
+  <p class="src">「か所」と「記事」は記事の本文のリンクから数えた数（「成果リンクの一覧」と同じ）。「提携中」は Mac が毎日読む各 ASP の提携一覧。</p>
+  <div class="tbl"><table><thead><tr><th>ASP</th><th>提携中の案件</th><th>リンクのある記事</th><th>か所</th></tr></thead><tbody id="now-aff-asp"><tr><td colspan="4" class="empty">データ待ち</td></tr></tbody></table></div>
+  <h3 data-cid="now.aff.h.items">多くの記事に入っている案件（上位 15）</h3>
+  <div class="tbl"><table class="wf"><thead><tr><th>案件</th><th>ASP</th><th>記事の数</th><th>か所</th></tr></thead><tbody id="now-aff-items"><tr><td colspan="4" class="empty">データ待ち</td></tr></tbody></table></div>
   <h2>収益の仕掛けの現状</h2>
   <div class="tbl"><table>
     <thead><tr><th>仕掛け</th><th>状態</th><th>メモ</th></tr></thead>
     <tbody>
     <tr><td>A8 の成果リンク</td><td><span class="pill ok">55 記事</span></td><td>498 か所（2026-10-17 時点）。主題とずれた自動挿入は 10/12 に外した。ワラウは不正アクセスのため 10/16 に全記事から外した</td></tr>
     <tr><td>楽天アフィリエイト</td><td><span class="pill ok">12 記事</span></td><td>70 か所（2026-10-17 時点）。トラベル・ふるさと納税・商品。ID は個人名義で、入れた記事は docs/affiliate-registry.md に残す</td></tr>
-    <tr><td>バリューコマース</td><td><span class="pill warn">未使用</span></td><td>ふるなび・一休・じゃらん・Yahoo!トラベルは 10/17 時点で未提携のまま（申請の確認が出ない）。LinkSwitch 未導入</td></tr>
-    <tr><td>もしも</td><td><span class="pill warn">未使用</span></td><td>提携 2 件・記事に合うもの無し</td></tr>
+    <tr><td>バリューコマース</td><td><span class="pill ok">稼働</span></td><td>LinkSwitch を PR 記事に入れた（10/17）。一休・じゃらん・Yahoo!トラベル・Yahoo!ショッピングの普通のリンクが成果リンクに変わる。3 店ボタンの Yahoo! もこれで成果になる（10/25）</td></tr>
+    <tr><td>もしも</td><td><span class="pill warn">準備中</span></td><td>Amazon を 3 店ボタンに足すため、もしも経由で Amazon に提携申請を進めている（10/25・affiliate）。通るまで Amazon ボタンは出さない</td></tr>
     <tr><td>紹介コード</td><td><span class="pill ok">稼働</span></td><td>楽天カード・リクルートカード等（src/data/referrals.ts）</td></tr>
     <tr><td>忍者AdMAX</td><td><span class="pill ok">5 枠</span></td><td>1 クリック 1〜3 円。本文中 2 枠は未登録</td></tr>
     <tr><td>AdSense</td><td><span class="pill bad">未稼働</span></td><td>配線済み。審査の申請待ち</td></tr>
@@ -945,6 +979,7 @@ tr[data-ccount]::after{top:4px;right:4px}
     db.collection('ideas').onSnapshot(snap=>{ IDEAS=snap.docs.map(d=>Object.assign({id:d.id},d.data())); renderIdeas(); const n=IDEAS.filter(t=>t.status==='idea').length, b=$('a[data-page="ideas"] .badge',toc); if(b){ b.hidden=!n; b.textContent=n; } },()=>{ $('#ideas').innerHTML='<p class="empty">読み込めませんでした。</p>'; });
     db.collection('linkplan').onSnapshot(snap=>{ LINKS=snap.docs.map(d=>Object.assign({id:d.id},d.data())); renderLinkplan(); },()=>{});
     db.collection('todos').onSnapshot(snap=>{ TODOS=snap.docs.map(d=>Object.assign({id:d.id},d.data())); renderTodos(); const n=TODOS.filter(t=>t.status==='you').length, b=$('a[data-page="tasks"] .badge',toc); if(b){ b.hidden=!n; b.textContent=n; } },()=>{ $('#todos').innerHTML='<p class="empty">読み込めませんでした。</p>'; });
+    db.doc('results/latest').onSnapshot(s=>{ RESULTS=s.exists?s.data():null; renderResults(); },()=>{});
     db.doc('snapshot/latest').onSnapshot(s=>{ if(s.exists){ SNAP=s.data(); try{ renderSnapshot(SNAP); }catch(e){ console.error(e); } } else { $('#meta-data').textContent='まだ届いていない'; } },()=>{});
     db.collection('changelog').orderBy('date','desc').limit(60).onSnapshot(s=>{ const box=$('#changelog'); if(s.empty){box.innerHTML='<p class="empty">まだありません。</p>';return;} box.replaceChildren(...s.docs.map(d=>{ const v=d.data(), el=document.createElement('div'); el.className='c'; el.dataset.cid='changelog.'+d.id; el.innerHTML='<div class="h"><span class="pill info">'+esc(v.kind||'更新')+'</span><span>'+esc(v.date||'')+'</span></div><div class="b"><b>'+esc(v.summary||'')+'</b></div>'+((v.items||[]).length?'<ul class="plain" style="margin:6px 0 0">'+v.items.map(i=>'<li>'+esc(i)+'</li>').join('')+'</ul>':''); return el; })); },()=>{});
   })();
@@ -1003,8 +1038,66 @@ tr[data-ccount]::after{top:4px;right:4px}
     const M=S.manual||{};
     $('#tbl-asp').innerHTML=(M.asp||[]).map(a=>'<tr data-cid="asp.status.'+hash(a.name)+'"><td><b>'+esc(a.name)+'</b>'+(a.account?'（'+esc(a.account)+'）':'')+'</td><td><span class="pill ok">'+(a.login==='auto'?'自動':'手動')+'</span></td><td>'+esc(a.note||'')+(a.partnered!=null?'（提携 '+a.partnered+' 件）':'')+'</td></tr>').join('');
     $('#list-pending').innerHTML=(M.pending||[]).map(p=>'<li data-cid="asp.pending.'+esc(p.key)+'">'+esc(p.label)+' — '+esc(p.since)+' から</li>').join('')||'<li>待ちはありません。</li>';
-    renderA8(); renderAff(); applyCounts();
+    renderA8(); renderAff(); renderNowHub(S); applyCounts();
   }
+
+  // ---- 現状の数字: X・ブログ・アフィリエイトの数字を 1 ページに（2026-10-25 利用者のコメント 0dxd6x2bbryrclqjesc3）----
+  // ほかのページで描いた表・グラフは写して使う（記載の番号は頭に now. を付けて別にする）
+  function mirror(src,dst){ const a=$(src), b=$(dst); if(!a||!b) return; b.innerHTML=a.innerHTML; b.querySelectorAll('[data-cid]').forEach(e=>{ if(e.dataset.cid) e.dataset.cid='now.'+e.dataset.cid; }); if(a.dataset&&a.dataset.cid) b.dataset.cid='now.'+a.dataset.cid; }
+  // 値の後ろの（…）は小さい行へ回す（タイルの数字が折り返して読めなくなるため）
+  const tile=(t,v,sub,cid)=>{ const m=String(v).match(/^(.*?)（(.*)）$/); if(m){ v=m[1]; sub=m[2]+(sub?'・'+sub:''); } return '<div class="tile" data-cid="'+cid+'"><div class="k">'+esc(t)+'</div><div class="v">'+v+'</div><div class="s">'+esc(sub||'')+'</div></div>'; };
+  function renderNowHub(S){
+    // X
+    const X=S.xShared||[], xr=(k)=>X.find(r=>r.k===k)||{}, xv=(k)=>xr(k).v||'—';
+    const F=((S.xData||{}).followers||[]).filter(f=>typeof f.count==='number');
+    const last=F[F.length-1], ago=(n)=>{ if(!last) return null; const t=new Date(last.date).getTime()-n*864e5; let best=null; for(const f of F){ if(new Date(f.date).getTime()<=t) best=f; } return best; };
+    const d7=ago(7), d28=ago(28), sg=(n)=>(n>=0?'+':'')+fmtN(n);
+    $('#now-x-tiles').innerHTML=[
+      tile('フォロワー',esc(xv('フォロワー')),(xr('フォロワー').at||''),'now.x.followers'),
+      tile('フォロワーの増減（7 日）',last&&d7?sg(last.count-d7.count):'—',d7?d7.date+' → '+last.date:'記録待ち','now.x.d7'),
+      tile('フォロワーの増減（28 日）',last&&d28?sg(last.count-d28.count):'—',d28?d28.date+' → '+last.date:'記録が 28 日分そろっていない','now.x.d28'),
+      tile('フォロー中',esc(xv('フォロー中')),'比率は 0.45〜0.65 を守る','now.x.following'),
+      tile('認証済みフォロワー',esc(xv('認証済みフォロワー')),'','now.x.verified'),
+      tile('認証済みの表示（90 日）',esc(xv('認証済みインプレッション（90 日・ホーム・返信除く）')),'ホーム・返信を除く','now.x.vimp'),
+      tile('表示（7 日）',esc(xv('インプレッション（7 日）')),'返信を含む全体','now.x.imp7'),
+      tile('表示（90 日）',esc(xv('インプレッション（90 日）')),'返信を含む全体','now.x.imp90'),
+      tile('プロフィールへのアクセス（7 日）',esc(xv('プロフィールへのアクセス（7 日）')),'','now.x.prof7'),
+      tile('プロフィールへのアクセス（90 日）',esc(xv('プロフィールへのアクセス（90 日）')),'','now.x.prof90'),
+      tile('オリジナルコンテンツ報酬',esc(xv('オリジナルコンテンツ報酬')),'X の収益化の状態','now.x.rev'),
+    ].join('');
+    mirror('#tbl-xcond','#now-xcond'); mirror('#chart-x','#now-chart-x'); mirror('#thead-xposts','#now-thead-xposts'); mirror('#tbl-xposts','#now-xposts'); mirror('#x-facts','#now-x-facts');
+    $('#now-xdaily').innerHTML=F.slice(-15).map((f,i,a)=>i?'<tr data-cid="now.x.day.'+f.date+'"><td>'+f.date+'</td><td class="num">'+fmtN(f.count)+'</td><td class="num">'+sg(f.count-a[i-1].count)+'</td></tr>':'').reverse().join('')||'<tr><td colspan="3" class="empty">記録待ち</td></tr>';
+    // ブログ
+    mirror('#kpi-tiles','#now-kpi'); mirror('#chart-gsc','#now-chart-gsc');
+    // アフィリエイト
+    const inv=S.affInventory||[], po=(S.kpi||{}).posts||{};
+    const spots={}, arts={}; inv.forEach(a=>{ a.items.forEach(i=>{ spots[i.asp]=(spots[i.asp]||0)+i.n; }); new Set(a.items.map(i=>i.asp)).forEach(x=>{ arts[x]=(arts[x]||0)+1; }); });
+    const allSpots=Object.values(spots).reduce((x,y)=>x+y,0);
+    const a8n=((S.a8||{}).rows||[]).length, vcn=((S.others||{}).vc||[]).length, mon=((S.others||{}).moshimo||[]).length;
+    $('#now-aff-tiles').innerHTML=[
+      tile('成果リンクのある記事',fmtN(po.withAff)+' / '+fmtN(po.total),'残り '+fmtN((po.total||0)-(po.withAff||0))+' 本は 0 本','now.aff.with'),
+      tile('成果リンクの数',fmtN(allSpots)+' か所','記事の本文から数えた数','now.aff.spots'),
+      tile('PR 表記のある記事',fmtN(po.isPR)+' 本','LinkSwitch（Yahoo!・一休など）はこの記事だけで効く','now.aff.pr'),
+      tile('提携中の案件',fmtN(a8n+vcn+mon)+' 件','A8 '+a8n+'・バリューコマース '+vcn+'・もしも '+mon,'now.aff.programs'),
+    ].join('');
+    const grp=(name)=>/A8/.test(name)?'A8':/楽天/.test(name)?'楽天':/バリューコマース|LinkSwitch/.test(name)?'バリューコマース':/もしも/.test(name)?'もしも':name;
+    const rows={}; Object.keys(spots).forEach(k=>{ const g=grp(k); rows[g]=rows[g]||{spots:0,arts:0,names:[]}; rows[g].spots+=spots[k]; rows[g].arts=Math.max(rows[g].arts,arts[k]); rows[g].names.push(k); });
+    const part={'A8':a8n,'バリューコマース':vcn,'もしも':mon,'楽天':'個人 ID で利用'};
+    ['A8','楽天','バリューコマース','もしも'].forEach(g=>{ rows[g]=rows[g]||{spots:0,arts:0,names:[]}; });
+    $('#now-aff-asp').innerHTML=Object.entries(rows).sort((a,b)=>b[1].spots-a[1].spots).map(([g,r])=>'<tr data-cid="now.aff.asp.'+hash(g)+'"><td><b>'+esc(g)+'</b>'+(r.names.length>1?'<br><span class="status">'+esc(r.names.join('・'))+'</span>':'')+'</td><td class="num">'+esc(String(part[g]??'—'))+'</td><td class="num">'+fmtN(r.arts)+'</td><td class="num">'+fmtN(r.spots)+'</td></tr>').join('');
+    $('#now-aff-items').innerHTML=(S.affByItem||[]).slice().sort((a,b)=>b.articles.length-a.articles.length||b.n-a.n).slice(0,15).map(r=>'<tr data-cid="now.aff.item.'+hash(r.asp+r.item)+'"><td>'+esc(r.item)+'</td><td>'+esc(r.asp)+'</td><td class="num">'+fmtN(r.articles.length)+'</td><td class="num">'+fmtN(r.n)+'</td></tr>').join('')||'<tr><td colspan="4" class="empty">データ待ち</td></tr>';
+    renderResults();
+  }
+  // 成果（クリック・発生・確定）は公開ブランチを通さず、affiliate が db の results/latest に書く（報酬額を公開リポジトリに出さない）
+  let RESULTS=null;
+  function renderResults(){ const box=$('#now-aff-results'); if(!box) return;
+    const R=RESULTS;
+    if(!R||!(R.rows||[]).length){ box.innerHTML='<p class="note" data-cid="now.aff.results.wait">ASP の管理画面のレポート（クリック・発生・確定）を Mac が毎日読み、ここに載せる仕組みを affiliate が作っています（2026-10-25）。報酬額は公開リポジトリを通さず、この作戦室の中だけに置きます。</p>'; return; }
+    const yen=(n)=>n==null?'—':'¥'+fmtN(n);
+    box.innerHTML='<p class="src">'+esc(R.note||'')+'（'+esc(String(R.generatedAt||'').slice(0,16).replace('T',' '))+' 取得）</p><div class="tbl"><table><thead><tr><th>ASP</th><th>期間</th><th>クリック</th><th>発生</th><th>発生の報酬</th><th>確定</th><th>確定の報酬</th></tr></thead><tbody>'
+      +R.rows.map(r=>'<tr data-cid="now.aff.res.'+hash(r.asp+r.period)+'"><td><b>'+esc(r.asp)+'</b></td><td>'+esc(r.period||'')+'</td><td class="num">'+fmtN(r.clicks)+'</td><td class="num">'+fmtN(r.occurred)+'</td><td class="num">'+yen(r.occurredAmount)+'</td><td class="num">'+fmtN(r.confirmed)+'</td><td class="num">'+yen(r.confirmedAmount)+'</td></tr>').join('')+'</tbody></table></div>';
+    applyCounts(); }
+  $$('#now-jump button').forEach(b=>b.addEventListener('click',()=>{ const t=$('#'+b.dataset.jump); if(t) t.scrollIntoView({behavior:'smooth',block:'start'}); }));
   // ---- X ----
   function renderX(S){
     const XD=S.xData||{};
