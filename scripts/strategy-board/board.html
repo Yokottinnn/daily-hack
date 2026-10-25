@@ -256,7 +256,7 @@ tr[data-ccount]::after{top:4px;right:4px}
   <h1>次に書く記事と、書いている記事がいまどこまで進んだか</h1>
   <p class="lead" data-cid="ideas.pipe.lead">記事の候補と、書き始めた記事の進み具合を<strong>このページで全部見られます</strong>。候補は「いまのトレンドのワード」「買う直前の検索語」「提携中の案件」を突き合わせて Claude が出します。<strong>書きたいものにチェックを付けるだけ</strong>で、担当のセッションが準備から公開まで進め、工程が進むたびにここを書き換えます。</p>
   <div class="pipe" id="pipe" aria-label="工程ごとの本数"></div>
-  <div class="fbar" id="idea-bar"><input type="search" id="idea-q" placeholder="題名・キーワードで探す（例：カイロ、ふるさと）" aria-label="記事の構想を探す"><select id="idea-kind" aria-label="種類"><option value="all">種類：すべて</option></select><select id="idea-owner" aria-label="担当"><option value="all">担当：すべて</option></select><select id="idea-sort" aria-label="並べ方"><option value="order">並べ方：優先順</option><option value="due">公開期限が近い順</option><option value="upd">更新が新しい順</option></select><span class="status" id="idea-n"></span></div>
+  <div class="fbar" id="idea-bar"><input type="search" id="idea-q" placeholder="題名・キーワードで探す（例：カイロ、ふるさと）" aria-label="記事の構想を探す"><select id="idea-cat" aria-label="カテゴリ"><option value="all">カテゴリ：すべて</option></select><select id="idea-kind" aria-label="種類"><option value="all">種類：すべて</option></select><select id="idea-owner" aria-label="担当"><option value="all">担当：すべて</option></select><select id="idea-sort" aria-label="並べ方"><option value="order">並べ方：優先順</option><option value="due">公開期限が近い順</option><option value="upd">更新が新しい順</option><option value="pub">公開が新しい順</option></select><span class="status" id="idea-n"></span></div>
   <div id="ideas"><p class="empty">読み込み中</p></div>
   <h2 data-cid="ideas.pipe.legend">工程の意味</h2>
   <div class="tbl"><table>
@@ -267,7 +267,7 @@ tr[data-ccount]::after{top:4px;right:4px}
     <tr><td><span class="pill info">準備中</span></td><td>商品・型番・公式の数字・価格を集め、比較の軸を決めている</td><td>担当</td></tr>
     <tr><td><span class="pill info">執筆中</span></td><td>本文・表・画像を作っている</td><td>担当</td></tr>
     <tr><td><span class="pill info">公開前の確認</span></td><td>PR とプレビューができた。検査とあなたの確認を待つ</td><td>担当・あなた</td></tr>
-    <tr><td><span class="pill ok">公開済み</span></td><td>本番に出た。公開後の読者と検索の数字を下に出す（毎日の更新で入れ替わる）</td><td>—</td></tr>
+    <tr><td><span class="pill ok">公開済み</span></td><td>本番に出た。公開後の読者と検索の数字を出す（毎日の更新で入れ替わる）。<b>これまでに公開した記事も全部ここに並ぶ</b>（構想から書いたものでなくても、毎日のデータから自動で足す）</td><td>—</td></tr>
     <tr><td><span class="pill warn">待ち</span></td><td>外の事情で止まっている（審査・サイトの復旧など）。理由を必ず書く</td><td>理由による</td></tr>
     <tr><td><span class="pill">見送り</span></td><td>書かないと決めた。「すべて」でだけ出る</td><td>—</td></tr>
     </tbody></table></div>
@@ -1093,7 +1093,7 @@ tr[data-ccount]::after{top:4px;right:4px}
       $('#tbl-pq').innerHTML=groups.map(g=>'<tr data-cid="now.pq.'+esc(g.slug)+'"><td>'+link(g)+'</td><td><ul class="plain" style="margin:0">'+g.top.slice(0,10).map(r=>q1(r,true)).join('')+'</ul>'+(g.top.length>10?'<details><summary>ほか '+(g.top.length-10)+' 語</summary><ul class="plain" style="margin:0">'+g.top.slice(10).map(r=>q1(r,true)).join('')+'</ul></details>':'')+'</td><td>'+(g.rest.length?'<ul class="plain" style="margin:0">'+g.rest.slice(0,8).map(r=>q1(r,false)).join('')+'</ul>':'<span class="status">ほかに出ている語は無い</span>')+'</td></tr>').join('')||'<tr><td colspan="3" class="empty">データなし</td></tr>'; }
     $('#tbl-read').innerHTML=(S.readTop||[]).map(r=>{ const a=(S.articles||[]).find(x=>x.slug===r.slug)||{}; return '<tr data-cid="now.read.'+esc(r.slug)+'"><td>'+link(r)+'</td><td class="num"><b>'+(r.h28!=null?fmtN(r.h28):'—')+'</b></td><td class="num">'+fmtN(r.v)+'</td><td class="num">'+fmtN(r.c28)+'</td><td><button type="button" class="linkish" data-detail="'+esc(r.slug)+'">'+esc(whyShort(a,PM))+'</button></td><td>'+affPill(r.aff)+'</td></tr>'; }).join('')||'<tr><td colspan="6" class="empty">データなし</td></tr>';
     $('#pv-note').innerHTML='<b>訪問の数の読み方</b>：記事ごとの訪問は Cloudflare の数で、<b>ボット（機械的なアクセス）を含みます</b>。ボットを除いた数が取れているのはサイト全体だけです（直近 28 日 '+fmtN((S.kpi||{}).pv28&&S.kpi.pv28.human)+'）。記録は '+esc(PM.first||'—')+' から（全期間 '+fmtN(PM.days90)+' 日）。'+(PM.spikeDays&&PM.spikeDays.length?'全記事が同じ日に跳ねた日（'+PM.spikeDays.map(d=>d.slice(5).replace('-','/')).join('・')+'）は、読者ではない一斉アクセスの疑いがあります。':'')+(PM.refFrom?'記事ごとのボット除外の訪問は '+esc(PM.refFrom)+' から記録しています。':'記事ごとのボット除外の訪問は 10/13 分から記録します。')+'<b>どこから来たか（X か検索か）は、Cloudflare の無料プランの集計では取れません</b>。Web Analytics を有効にすると取れるようになります（「タスク」のページ）。それまでは、日ごとの訪問と X の告知日・一斉アクセスの日を突き合わせて読みます（行を押すと詳細）。';
-    ART=S.articles||[]; renderArticles(); renderIdeas();
+    ART=S.articles||[]; renderArticles(); ideaFilters(); renderIdeas();
     // 所見の時点
     const GS=(S.sources||{}).gsc||{}; $('#findings-when').textContent='（'+S.generatedAt.slice(0,10)+' 更新・検索 '+((GS.window||[])[0]||'—')+'〜'+((GS.window||[])[1]||'—')+'・訪問 〜'+(PM.last||'—')+'）';
     // ブログ全体
@@ -1289,26 +1289,37 @@ tr[data-ccount]::after{top:4px;right:4px}
   const STORE={rakuten:'楽天',yahoo:'Yahoo!',amazon:'Amazon'};
   const daysTo=(d)=>{ if(!d) return null; const t=Date.parse(d+'T23:59:59+09:00'); return isNaN(t)?null:Math.ceil((t-Date.now())/86400000); };
   const ymd=(iso)=>iso?String(iso).slice(0,10):'';
-  function ideaFilters(){ // 種類・担当の選択肢はデータから作る
-    const fill=(id,key,label)=>{ const el=$(id); if(!el) return; const cur=el.value; const vals=[...new Set(IDEAS.map(t=>t[key]).filter(Boolean))].sort();
+  // サイトのカテゴリ（src/lib/category.ts と同じ）。公開済みの記事は毎日のスナップショットから全部並べる（2026-10-26 利用者のコメント「いままで作ってきたやつも含めて」）
+  const CATL={campaigns:'キャンペーン速報',services:'サービス紹介',comparisons:'比較',roundups:'まとめ',howto:'ハウツー','wangan-life':'湾岸ライフ'};
+  const catsOf=(t)=>(t.cats||[]).map(c=>CATL[c]||c);
+  function allIdeas(){ // db の構想 ＋ 本番に出ている記事（構想に無いもの）
+    const ARTS=(SNAP&&SNAP.articles)||[], bySlug=Object.fromEntries(ARTS.map(a=>[a.slug,a]));
+    const seen=new Set(IDEAS.map(t=>t.slug).filter(Boolean));
+    const fromDb=IDEAS.map(t=>t.slug&&bySlug[t.slug]&&!(t.cats||[]).length?Object.assign({},t,{cats:bySlug[t.slug].cats||[]}):t);
+    const virt=ARTS.filter(a=>!seen.has(a.slug)).map(a=>({id:'post.'+a.slug,virtual:true,title:a.title,status:'published',slug:a.slug,cats:a.cats||[],publishedAt:a.pub||'',updatedAt:a.updated||a.pub||'',kind:'公開済みの記事',order:999}));
+    return fromDb.concat(virt); }
+  function ideaFilters(){ // カテゴリ・種類・担当の選択肢はデータから作る
+    const L=allIdeas();
+    const fill=(id,vals,label)=>{ const el=$(id); if(!el) return; const cur=el.value; vals=[...new Set(vals.filter(Boolean))].sort();
       el.innerHTML='<option value="all">'+label+'：すべて</option>'+vals.map(v=>'<option value="'+esc(v)+'">'+esc(v)+'</option>').join(''); el.value=vals.includes(cur)?cur:'all'; };
-    fill('#idea-kind','kind','種類'); fill('#idea-owner','owner','担当'); }
-  function renderPipe(){ const box=$('#pipe'); if(!box) return;
+    fill('#idea-cat',[].concat(...L.map(catsOf)),'カテゴリ'); fill('#idea-kind',L.map(t=>t.kind),'種類'); fill('#idea-owner',L.map(t=>t.owner),'担当'); }
+  function renderPipe(){ const box=$('#pipe'); if(!box) return; const IDEAS=allIdeas();
     const n=(st)=>IDEAS.filter(t=>normSt(t.status)===st).length;
     const act=IDEAS.filter(t=>!['idea','published','dropped'].includes(normSt(t.status))).length;
     const btn=(f,label,v)=>'<button type="button" data-f="'+f+'" aria-pressed="'+(ideaF===f)+'"><span>'+label+'</span><b>'+v+'</b></button>';
     box.innerHTML=btn('active','進行中',act)+FLOW.map((st,i)=>(i?'<span class="arrow">→</span>':'')+btn(st,IST[st][1],n(st))).join('')+btn('waiting','待ち',n('waiting'))+btn('all','すべて',IDEAS.length);
     $$('button',box).forEach(b=>b.addEventListener('click',()=>{ ideaF=b.dataset.f; renderIdeas(); })); }
   function renderIdeas(){
-    const box=$('#ideas'); if(!box) return; renderPipe();
+    const box=$('#ideas'); if(!box) return; renderPipe(); const IDEAS=allIdeas();
+    const fc=($('#idea-cat')||{}).value||'all';
     const q=(($('#idea-q')||{}).value||'').trim().toLowerCase(), fk=($('#idea-kind')||{}).value||'all', fo=($('#idea-owner')||{}).value||'all', so=($('#idea-sort')||{}).value||'order';
     let rows=IDEAS.filter(t=>{ const st=normSt(t.status);
       if(ideaF==='active') return !['idea','published','dropped'].includes(st);
       if(ideaF==='all') return true; return st===ideaF; })
-      .filter(t=>fk==='all'||t.kind===fk).filter(t=>fo==='all'||t.owner===fo)
+      .filter(t=>fc==='all'||catsOf(t).includes(fc)).filter(t=>fk==='all'||t.kind===fk).filter(t=>fo==='all'||t.owner===fo)
       .filter(t=>!q||[t.title,t.keyword,t.angle,t.trend,t.programs,t.note].join(' ').toLowerCase().includes(q));
     const due=(t)=>{ const d=daysTo(t.deadline); return d==null?1e9:d; };
-    rows=rows.slice().sort(so==='due'?(a,b)=>due(a)-due(b):so==='upd'?(a,b)=>String(b.updatedAt||b.pickedAt||b.since||'').localeCompare(String(a.updatedAt||a.pickedAt||a.since||'')):(a,b)=>(({A:0,B:1,C:2})[a.priority]??3)-(({A:0,B:1,C:2})[b.priority]??3)||(a.order||99)-(b.order||99));
+    rows=rows.slice().sort(so==='due'?(a,b)=>due(a)-due(b):so==='upd'?(a,b)=>String(b.updatedAt||b.pickedAt||b.since||'').localeCompare(String(a.updatedAt||a.pickedAt||a.since||'')):so==='pub'?(a,b)=>String(b.publishedAt||'').localeCompare(String(a.publishedAt||'')):(a,b)=>(({A:0,B:1,C:2})[a.priority]??3)-(({A:0,B:1,C:2})[b.priority]??3)||(a.order||99)-(b.order||99));
     const nEl=$('#idea-n'); if(nEl) nEl.textContent=rows.length+' / '+IDEAS.length+' 本';
     if(!rows.length){ box.innerHTML='<p class="empty">該当する記事はありません。上の工程の数字を押すと切り替わります。</p>'; return; }
     const ARTS=(SNAP&&SNAP.articles)||[];
@@ -1325,8 +1336,9 @@ tr[data-ccount]::after{top:4px;right:4px}
       const after=art&&st==='published'?'<div class="how"><b>公開後の数字</b>：読者 '+fmtN(art.h28)+' 人（28 日・ボット除外）・検索クリック '+fmtN(art.c90)+'（90 日）・検索表示 '+fmtN(art.i90)+'・成果リンク '+fmtN(art.aff)+' か所</div>':'';
       const found=art&&st!=='published'?'<span class="pill ok">本番に出ているのを検出</span>':'';
       const hist=(t.history||[]).slice().reverse();
-      el.innerHTML='<input type="checkbox" '+(st!=='idea'&&st!=='dropped'?'checked ':'')+(st==='idea'||st==='picked'?'':'disabled ')+'aria-label="これを書く"><div><b>'+esc(t.title)+'</b>'
-        +'<div class="meta"><span class="pill '+pill[0]+'">'+pill[1]+'</span>'+found+(t.priority?'<span class="pill'+(t.priority==='A'?' bad':'')+'">優先 '+esc(t.priority)+'</span>':'')+(t.kind?'<span>'+esc(t.kind)+'</span>':'')+stores+(t.owner?'<span>担当 '+esc(t.owner)+'</span>':'')+dueTxt+(t.updatedAt?'<span>更新 '+esc(ymd(t.updatedAt))+'</span>':t.since?'<span>'+esc(t.since)+' から</span>':'')+'</div>'
+      if(t.virtual) el.dataset.cid='ideas.post.'+t.slug;
+      el.innerHTML=(t.virtual?'<input type="checkbox" checked disabled aria-label="公開済み">':'<input type="checkbox" '+(st!=='idea'&&st!=='dropped'?'checked ':'')+(st==='idea'||st==='picked'?'':'disabled ')+'aria-label="これを書く">')+'<div><b>'+esc(t.title)+'</b>'
+        +'<div class="meta"><span class="pill '+pill[0]+'">'+pill[1]+'</span>'+found+(t.priority?'<span class="pill'+(t.priority==='A'?' bad':'')+'">優先 '+esc(t.priority)+'</span>':'')+catsOf(t).map(c=>'<span class="chip">'+esc(c)+'</span>').join('')+(t.kind?'<span>'+esc(t.kind)+'</span>':'')+stores+(t.owner?'<span>担当 '+esc(t.owner)+'</span>':'')+dueTxt+(t.publishedAt&&st==='published'?'<span>公開 '+esc(ymd(t.publishedAt))+'</span>':'')+(t.updatedAt&&!t.virtual?'<span>更新 '+esc(ymd(t.updatedAt))+'</span>':t.since?'<span>'+esc(t.since)+' から</span>':'')+'</div>'
         +steps
         +(t.keyword?'<div class="kw"><b>狙う検索語</b>：'+esc(t.keyword)+'</div>':'')
         +(t.angle?'<div class="how"><b>買う前の不安（切り口）</b>：'+esc(t.angle)+'</div>':'')
@@ -1340,13 +1352,13 @@ tr[data-ccount]::after{top:4px;right:4px}
         +'</div>';
       const now=()=>new Date().toISOString();
       const push=(status,note)=>({status,updatedAt:now(),history:(t.history||[]).concat([{at:now(),status,by:'あなた',note}])});
-      const cb=el.querySelector('input'); cb.addEventListener('change',()=>{ if(!db) return; db.doc('ideas/'+t.id).update(cb.checked?Object.assign({pickedAt:now()},push('picked','チェックを付けた')):push('idea','チェックを外した')).catch(()=>{cb.checked=!cb.checked;}); });
+      const cb=el.querySelector('input'); if(!t.virtual) cb.addEventListener('change',()=>{ if(!db) return; db.doc('ideas/'+t.id).update(cb.checked?Object.assign({pickedAt:now()},push('picked','チェックを付けた')):push('idea','チェックを外した')).catch(()=>{cb.checked=!cb.checked;}); });
       const dr=el.querySelector('[data-drop]'); if(dr) dr.addEventListener('click',()=>{ if(db) db.doc('ideas/'+t.id).update(push('dropped','見送った')).catch(()=>{}); });
       const ud=el.querySelector('[data-undrop]'); if(ud) ud.addEventListener('click',()=>{ if(db) db.doc('ideas/'+t.id).update(push('idea','候補に戻した')).catch(()=>{}); });
       return el; }));
     applyCounts();
   }
-  ['#idea-q','#idea-kind','#idea-owner','#idea-sort'].forEach(id=>{ const el=$(id); if(el) el.addEventListener(id==='#idea-q'?'input':'change',renderIdeas); });
+  ['#idea-q','#idea-cat','#idea-kind','#idea-owner','#idea-sort'].forEach(id=>{ const el=$(id); if(el) el.addEventListener(id==='#idea-q'?'input':'change',renderIdeas); });
   const LST={plan:['','予定'],requested:['info','作業中'],done:['ok','入れた']};
   function renderLinkplan(){ const tb=$('#tbl-linkplan'); if(!tb) return;
     const rows=LINKS.slice().sort((a,b)=>(a.order||99)-(b.order||99));

@@ -42,7 +42,8 @@ for (const f of fs.readdirSync(POSTS_DIR).filter((x) => x.endsWith('.md'))) {
   const get = (k) => ((fm.match(new RegExp(`^${k}:\\s*"?(.*?)"?\\s*$`, 'm')) || [])[1] || '').trim();
   if (get('draft') === 'true') continue;
   const slug = f.replace(/\.md$/, '');
-  posts[slug] = { slug, title: get('title'), isPR: get('isPR') === 'true', updated: get('updatedDate') || get('publishDate'), published: (get('publishDate') || '').slice(0, 10), updatedOnly: (get('updatedDate') || '').slice(0, 10), aff: (src.match(AFF) || []).length };
+  posts[slug] = { slug, title: get('title'), isPR: get('isPR') === 'true', updated: get('updatedDate') || get('publishDate'), published: (get('publishDate') || '').slice(0, 10), updatedOnly: (get('updatedDate') || '').slice(0, 10), aff: (src.match(AFF) || []).length,
+    cats: ((fm.match(/^category:\s*(.*)$/m) || [])[1] || '').match(/[a-z-]+/g) || [] };
 }
 const postList = Object.values(posts);
 
@@ -112,7 +113,7 @@ const groupRefs = (r) => { const g = {}; for (const [h, n] of Object.entries(r |
 const pagesCur = Object.fromEntries((gsc?.data?.pages_cur || []).map((r) => [slugOf(r.keys[0]), r]).filter(([k]) => k));
 const pages90m = Object.fromEntries((gsc?.data?.pages_90d || []).map((r) => [slugOf(r.keys[0]), r]).filter(([k]) => k));
 const articles = postList.map((p) => ({
-  slug: p.slug, title: p.title, aff: p.aff, isPR: p.isPR, updated: p.updated,
+  slug: p.slug, title: p.title, aff: p.aff, isPR: p.isPR, updated: p.updated, pub: p.published, cats: p.cats,
   c28: pagesCur[p.slug]?.c || 0, i28: pagesCur[p.slug]?.i || 0, p28: pagesCur[p.slug]?.p ?? null,
   c90: pages90m[p.slug]?.c || 0, i90: pages90m[p.slug]?.i || 0, p90: pages90m[p.slug]?.p ?? null,
   v28: v28[p.slug] || 0, v90: v90[p.slug] || 0,
