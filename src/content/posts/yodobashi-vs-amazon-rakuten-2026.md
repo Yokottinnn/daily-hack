@@ -43,7 +43,7 @@ references:
 
 ## 3社を公式ベースで徹底比較（2026年7月時点）
 
-| 項目 | ヨドバシ.com | <span class="cell-brand"><img class="brand-logo-sm" src="/images/yodobashi-vs-amazon-rakuten-2026/logos/amazon.png" alt="" loading="lazy" />Amazon.co.jp</span> | <span class="cell-brand"><img class="brand-logo-sm" src="/images/yodobashi-vs-amazon-rakuten-2026/logos/rakutenichiba.png" alt="" loading="lazy" />楽天市場</span> |
+| 項目 | ヨドバシ.com | <span class="cell-brand"><img class="brand-logo-sm" src="/images/yodobashi-vs-amazon-rakuten-2026/logos/amazon.png" alt="" loading="lazy" />Amazon.co.jp</span> | <span class="cell-brand"><img class="brand-logo-sm" src="/images/yodobashi-vs-amazon-rakuten-2026/logos/rakutenichiba-app.jpg" alt="" loading="lazy" />楽天市場</span> |
 |---|---|---|---|
 | **送料** | **全国送料無料・最低額なし**（離島の大型品等は例外） | プライムは無料／非プライムは3,500円以上で無料 | 店舗ごと。共通ライン3,980円以上で無料（沖縄・離島9,800円） |
 | **ポイント** | ゴールドポイント。**家電など多くで概ね10%**（商品による・会員必須） | Amazonポイント。**対象商品のみ・多くは1%**（一律でない） | 通常1%＋**SPU最大18.5倍**＋買い回り最大10倍（いずれも条件達成時） |
@@ -77,7 +77,7 @@ references:
   </article>
   <article class="compare-card">
     <span class="compare-card-mascot"><img src="/images/expr-03-bashful.png" alt="" /></span>
-    <h3 class="brand-h"><img class="brand-logo" src="/images/yodobashi-vs-amazon-rakuten-2026/logos/rakutenichiba.png" alt="楽天市場のロゴ" loading="lazy" /><span>楽天市場</span></h3>
+    <h3 class="brand-h"><img class="brand-logo" src="/images/yodobashi-vs-amazon-rakuten-2026/logos/rakutenichiba-app.jpg" alt="楽天市場のロゴ" loading="lazy" /><span>楽天市場</span></h3>
     <dl>
       <dt>強み</dt><dd>楽天経済圏でポイントが積み上がる（SPU）・買い回りで倍率UP・ふるさと納税</dd>
       <dt>弱点</dt><dd>送料は店舗ごとでバラバラ・最大倍率は条件達成時のみ・価格は要比較</dd>
