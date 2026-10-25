@@ -1,6 +1,6 @@
 # 3 店ボタンの Mac 側の準備: rakuten（scripts/shop/mac-setup.mjs）
 
-生成: **2026-10-25T08:23:26.295Z**
+生成: **2026-10-25T08:27:17.989Z**
 
 - 画面: https://webservice.rakuten.co.jp/app/list
 
@@ -55,6 +55,8 @@
 - 目のボタン（Access Key）を押した: あり・通信 0 件
 - 押したあとの値: 伏せ字のまま
 - 出た画面: dailyhack Complete information about this application including credentials and configuration. Application description ブログ daily-hack.com の記事に、楽天市場・楽天トラベルの商品リンクを載せるためのアプリ Application Type Web Application Status ACTIVE Allowed websites daily-hack.fieldbeside.com API Access Scopes Rakuten Ichiba API R
+- 小窓の中: code 1 個・目のボタン 0 個
+  - Allowed websites: da…
 - アイコンのボタン 4 個を押したあとの Access Key: まだ伏せ字（•••…）
 - 楽天 API（2026-07-01 版）の試し: HTTP 400・{
   "errors": {
