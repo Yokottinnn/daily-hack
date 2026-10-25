@@ -51,6 +51,8 @@ const FILES = {
   "follower-500": ["1-card.gif"],
   // **未投稿**（2026-10-20）。東京湾大華火祭の直前・引用ポスト。素材は自作の図だけなので出所の行は要らない
   "tokyo-bay-hanabi-2026-weekend": ["1-checklist.jpg", "2-alcohol.jpg", "3-roads.jpg", "4-no-ticket.jpg"],
+  // **未投稿**（2026-10-26）。チームラボ 浜離宮。作品の写真はプレスリリース（出典は ALT）
+  "teamlab-hamarikyu-2026": ["1-cover.jpg", "2-access.jpg", "3-vs-toyosu.jpg", "4-yoru-300.jpg"],
 };
 
 const map = {};
