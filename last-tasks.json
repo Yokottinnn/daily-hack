@@ -1,5 +1,3 @@
 [
-      {"task": "x353-reply-hanamama.sh", "rc": 0, "out": "x353 / x353-reply-hanamama.md"},
-      {"task": "x354-comment-warmup-30-per-day.sh", "rc": 0, "out": "x354 / x354-comment-warmup-30.md"},
-      {"task": "x355-reload-guard-skipped.sh", "rc": 0, "out": "x355 / x355-reload-guard.md"}
+      {"task": "x356-reload-guard-retry.sh", "rc": 0, "out": "x356 / x356-reload-guard.md"}
   ]
