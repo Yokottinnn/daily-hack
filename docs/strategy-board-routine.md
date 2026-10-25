@@ -24,6 +24,7 @@
 | 毎日 | GitHub Actions | Cloudflare の訪問を積む | `ops/pv-archive` の `data/<YYYY-MM>.json` |
 | 毎日 6:12 | Mac `com.dailyhack.asp-sync` | 4 社に自動ログインし提携状況を読む | `ops/heartbeat` の `reports/asp-sync/status.json` |
 | 毎日 6:40 | Mac `com.dailyhack.board-weekly`（`scripts/strategy-board/mac-weekly.sh`） | GSC 直近 28 日／前の 28 日／90 日、A8 の提携一覧 | `ops/heartbeat` の `reports/board/` |
+| 毎日 6:40（同じジョブの 2e・2f） | 同上 | 3 店ボタンの価格（楽天・Yahoo! の API）／**ASP の成果（クリック・発生・確定と報酬額）** | 価格は `ops/heartbeat` の `reports/board/shop-prices.json`。**成果は数字入りなので非公開リポジトリ `Yokottinnn/daily-hack-affiliate` のブランチ `data/asp-results`**（affiliate が作戦室の db `results/latest` に載せる・2026-10-25） |
 | 毎日 8:47 | クラウドのルーティン（このファイルの手順） | スナップショット（記事ごとの成果リンクの一覧 `affInventory` を含む） → サイトの db → コメント返信 → 本文の書き換え → 更新履歴 | サイトと PR |
 
 **費用**: Mac 側は LLM 不使用で **$0／回・$0／日・$0／月**。クラウドのルーティンは
