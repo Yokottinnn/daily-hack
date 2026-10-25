@@ -111,6 +111,23 @@ references: ["https://prtimes.jp/main/html/rd/p/000000030.000103607.html", "http
 
 18時からは、各ホールを照らす灯りの中で回れる。仕事帰りや、夕方の犬の散歩のついでに寄れる時間帯。
 
+## SNS ではこう言われている
+
+<!-- sns-x:dog -->
+
+YouTube には、9 月のプレオープンのころから飼い主の動画が上がっている。
+
+- 「**飼い主絶対必見**」と、豊洲にできた大型のドッグパークとして紹介する動画（9 月 11 日のプレオープン）
+- ポメラニアンが**新しいドッグパークで大はしゃぎ**する様子を撮った動画
+
+<div class="yt-embed"><iframe src="https://www.youtube-nocookie.com/embed/I66e7BD1p0g" title="豊洲に大型ドッグパーク誕生！THE DOG PARK TOYOSU（ウチるんチャンネル）" loading="lazy" allowfullscreen
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe></div>
+
+<div class="yt-embed"><iframe src="https://www.youtube-nocookie.com/embed/IJYNha4gr1E" title="新しくできたTHE DOG PARK TOYOSU に行って大はしゃぎしたポメラニアン（とっとこトコ太郎）" loading="lazy" allowfullscreen
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe></div>
+
+<p class="source-note">動画：YouTube「飼主絶対必見動画！豊洲に大型ドッグパーク誕生！」（ウチるんチャンネル）／「新しくできたTHE DOG PARK TOYOSU に行って大はしゃぎしたポメラニアン」（とっとこトコ太郎）</p>
+
 ## 犬を連れて行くときの決まり
 
 <ul class="checklist">
@@ -135,7 +152,7 @@ references: ["https://prtimes.jp/main/html/rd/p/000000030.000103607.html", "http
   </ul>
 </aside>
 
-<p class="source-note">出典：<a href="https://prtimes.jp/main/html/rd/p/000000030.000103607.html" target="_blank" rel="noopener">株式会社マイゴル「愛犬と楽しめるパターゴルフが豊洲に10月7日オープン」（PR TIMES・2026年10月9日）</a>／<a href="https://the-dog-park.jp/putter-golf" target="_blank" rel="noopener">THE DOG PARK TOYOSU 公式サイト</a>。料金や時間は変わることがある。</p>
+<p class="source-note">表紙は株式会社マイゴルのプレスリリースの告知画像。出典：<a href="https://prtimes.jp/main/html/rd/p/000000030.000103607.html" target="_blank" rel="noopener">株式会社マイゴル「愛犬と楽しめるパターゴルフが豊洲に10月7日オープン」（PR TIMES・2026年10月9日）</a>／<a href="https://the-dog-park.jp/putter-golf" target="_blank" rel="noopener">THE DOG PARK TOYOSU 公式サイト</a>。料金や時間は変わることがある。</p>
 
 <div class="hakkako-says">
   <div class="hakkako-mascot"><img src="/images/expr-01-wave.png" alt="Daily Hackマスコット" /></div>
