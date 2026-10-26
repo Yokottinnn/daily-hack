@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-25T21:44:50.072Z",
+ "generated": "2026-10-26T21:44:36.103Z",
  "handle": "heng_ji31590",
  "header": {
   "following": null,
@@ -15,19 +15,15 @@
   "text": ""
  },
  "d7": {
-  "impressions": 20500,
-  "profileVisits": 131,
-  "engagements": 318,
-  "verifiedFollowers": 352,
-  "followersOnPage": 624
- },
- "d90": {
-  "impressions": 185000,
-  "profileVisits": 1500
+  "impressions": null,
+  "profileVisits": null,
+  "engagements": null,
+  "verifiedFollowers": null,
+  "followersOnPage": null
  },
  "ocr": {
-  "verifiedFollowers": 352,
-  "verifiedImpressions90": 175,
-  "eligible": false
+  "verifiedFollowers": null,
+  "verifiedImpressions90": null,
+  "eligible": null
  }
 }
