@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-25T23:52:23Z",
+  "generated_at": "2026-10-26T00:23:41Z",
   "login_lock": {"present": false, "age_hours": 0},
   "cdp": {"healthy": true, "port": 18810},
   "x_jobs": {"loaded": 8, "expected": 8, "ai_total": 15, "halted": false, "missing": []},
-  "last_reply": {"at": "2026-10-25T23:11:16.172Z", "age_hours": 0, "stale": false},
+  "last_reply": {"at": "2026-10-25T23:11:16.172Z", "age_hours": 1, "stale": false},
   "supervisor": {"at":"2026-10-25T20:04:39Z","date_jst":"2026-10-26","ran":9,"total":9,"not_run":[],"fixed":[]},
   "followback_bands": {"with_count":535,"total_rows":903,"bands":{"1000-4999":{"n":185,"back":32,"mature":170,"mature_back":28,"rate":16.5},"300-999":{"n":136,"back":22,"mature":127,"mature_back":22,"rate":17.3},"0-99":{"n":95,"back":20,"mature":93,"mature_back":20,"rate":21.5},"5000-49999":{"n":89,"back":4,"mature":83,"mature_back":4,"rate":4.8},"100-299":{"n":29,"back":7,"mature":26,"mature_back":7,"rate":26.9},"50000-up":{"n":1,"back":1,"mature":1,"mature_back":1,"rate":100}},"status_values":{"no":707,"revenge_ghost_already_unfollowed":48,"unfollowed":16,"yes_late":1,"yes":116,"pending":15},"note":"mature の率で見る"},
   "host": "NaokinoMBP-2",
@@ -37,9 +37,7 @@
     "com.dailyhack.x-impressions"
   ],
   "reconnect": "既に起動している",
-  "tasks": [
-      {"task": "x357-weekly-ratio-read.sh", "rc": 0, "out": "x357 / x357-weekly-ratio.md"}
-  ],
+  "tasks": [],
   "running": null,
   "auth": {
     "ok": true,
@@ -47,12 +45,12 @@
     "detail": "有効期限内"
   },
   "activity": {
-    "date": "2026-10-25",
-    "posted_today": 92,
+    "date": "2026-10-26",
+    "posted_today": 20,
     "detail": "ログを走査した",
     "sources": [
-      {"file": "comment-orchestrator.log", "count": 31},
-      {"file": "comment-warmup.log", "count": 61}
+      {"file": "comment-orchestrator.log", "count": 7},
+      {"file": "comment-warmup.log", "count": 13}
     ]
   },
   "autoload": {
@@ -133,10 +131,10 @@
   },
   "followers": {
     "now": 621,
-    "prev": 558,
-    "prev_date": "2026-10-22",
-    "span_days": 3,
-    "record_age_days": 0,
+    "prev": 577,
+    "prev_date": "2026-10-23",
+    "span_days": 2,
+    "record_age_days": 1,
     "record_stale": false,
     "target": 300,
     "deadline": "2026-09-30"
