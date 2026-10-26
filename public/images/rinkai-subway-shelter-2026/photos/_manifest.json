@@ -1,0 +1,14 @@
+{
+  "route": {
+    "file": "route.jpg",
+    "page": "https://www.metro.tokyo.lg.jp/documents/d/tosei/06_97",
+    "lic": "引用（東京都「都心部・臨海地域地下鉄構想 事業計画案」4ページ）",
+    "fetched": "2026-10-27"
+  },
+  "flyer": {
+    "file": "flyer.jpg",
+    "page": "https://www.city.chuo.lg.jp/documents/5119/chirashi.pdf",
+    "lic": "引用（中央区 推進大会2026のチラシ）",
+    "fetched": "2026-10-27"
+  }
+}
