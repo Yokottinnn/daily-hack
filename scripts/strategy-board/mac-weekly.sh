@@ -80,6 +80,12 @@ W="$HOME/.openclaw/workspace"
 git -C "$REPO" show origin/main:scripts/strategy-board/x-numbers.js > "$W/.x-numbers.js" 2>/dev/null
 if [ -n "$NODE_BIN" ] && [ -s "$W/.x-numbers.js" ]; then
   ( cd "$W" && run_limited 150 "$NODE_BIN" "$W/.x-numbers.js" "$WORK/x-numbers.json" > "$WORK/xn.log" 2>&1 )
+  # 10/26・10/27 は 6:4x に題名も本文も空のページを読んで失敗し、10 分後の読み直し（t355）では取れた。
+  # 画面が読み込み終わる前に読んでいるとみて、取れなかったときだけ 30 秒おいてもう 1 回読む（読むだけ・$0）
+  if ! "$NODE_BIN" -e 'const j=JSON.parse(require("fs").readFileSync(process.argv[1],"utf8"));process.exit(j.header&&j.header.followers?0:1)' "$WORK/x-numbers.json" 2>/dev/null; then
+    sleep 30
+    ( cd "$W" && run_limited 150 "$NODE_BIN" "$W/.x-numbers.js" "$WORK/x-numbers.json" >> "$WORK/xn.log" 2>&1 )
+  fi
   # **読めなかったときは前回の良いファイルを上書きしない**（2026-10-22、全部 null のファイルで上書きした）。読めなかった記録は別名で残す
   if "$NODE_BIN" -e 'const j=JSON.parse(require("fs").readFileSync(process.argv[1],"utf8"));process.exit(j.header&&j.header.followers?0:1)' "$WORK/x-numbers.json" 2>/dev/null; then
     mv "$WORK/x-numbers.json" "$BOARD/x-numbers.json"; XN_OK=true
