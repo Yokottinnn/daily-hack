@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-26T21:45:20.331Z",
+ "generatedAt": "2026-10-27T21:46:20.807Z",
  "keys": {
   "rakuten": true,
   "rakutenAccessKey": false,
@@ -102,17 +102,9 @@
      "skipped": "RAKUTEN_ACCESS_KEY が無い"
     },
     "yahoo": {
-     "found": true,
-     "candidates": 1,
-     "name": "作業服 バートル BURTLE サーモクラフト デニム防寒ベスト 5004 S-XL 単品 TC500対応 防寒 綿100% 作業着 ユニセックス メンズ レディース",
-     "url": "https://store.shopping.yahoo.co.jp/w-shokai/burtle-5004-2.html",
-     "price": 5687,
-     "shippingFree": true,
-     "point": 0,
-     "reviewAverage": null,
-     "reviewCount": 0,
-     "shop": "作業服の渡辺商会・返品交換OK安心",
-     "net": 5687
+     "found": false,
+     "candidates": 0,
+     "searched": 24
     }
    },
    "makita-cv202d": {
@@ -285,7 +277,7 @@
     },
     "yahoo": {
      "found": true,
-     "candidates": 18,
+     "candidates": 17,
      "name": "繰り返し使えるカイロ ピンク",
      "url": "https://store.shopping.yahoo.co.jp/zozo/111963074.html",
      "price": 3480,
