@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-27T21:46:20.807Z",
+ "generatedAt": "2026-10-28T21:46:22.012Z",
  "keys": {
   "rakuten": true,
   "rakutenAccessKey": false,
@@ -13,16 +13,16 @@
     },
     "yahoo": {
      "found": true,
-     "candidates": 5,
-     "name": "サンコー サイズ調整できる「ヒーターベスト」  ▼702-9398 HEAT25SBK  1着",
-     "url": "https://store.shopping.yahoo.co.jp/procure-a/702-9398.html",
-     "price": 7208,
-     "shippingFree": true,
+     "candidates": 7,
+     "name": "サンコー　サイズ調整できる「ヒーターベスト」HEAT25SBK",
+     "url": "https://store.shopping.yahoo.co.jp/handskotera/heat25sbk.html",
+     "price": 6653,
+     "shippingFree": false,
      "point": 0,
      "reviewAverage": null,
      "reviewCount": 0,
-     "shop": "プロキュアエース",
-     "net": 7208
+     "shop": "ハンズコテラ Yahoo!ショップ",
+     "net": 6653
     }
    },
    "iris-fc21620": {
@@ -67,7 +67,7 @@
     },
     "yahoo": {
      "found": true,
-     "candidates": 10,
+     "candidates": 24,
      "name": "サンエス EH32490 (服のみ) カーボンヒートベスト SUN-S S〜5L EXHEAT エクスヒート 防寒",
      "url": "https://store.shopping.yahoo.co.jp/oosumi-marutake/sunseh32490.html",
      "price": 9160,

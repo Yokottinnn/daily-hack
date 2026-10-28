@@ -1,28 +1,28 @@
 {
- "generated": "2026-10-27T21:45:52.313Z",
+ "generated": "2026-10-28T21:45:50.860Z",
  "handle": "heng_ji31590",
  "header": {
-  "following": 420,
-  "followers": 642,
+  "following": 415,
+  "followers": 644,
   "raw": {
-   "following": "420 フォロー中",
-   "followers": "642 フォロワー"
+   "following": "415 フォロー中",
+   "followers": "644 フォロワー"
   }
  },
  "d7": {
-  "impressions": 18400,
-  "profileVisits": 114,
-  "engagements": 280,
+  "impressions": 15600,
+  "profileVisits": 108,
+  "engagements": 242,
   "verifiedFollowers": 371,
-  "followersOnPage": 642
+  "followersOnPage": 644
  },
  "d90": {
-  "impressions": 187400,
+  "impressions": 187700,
   "profileVisits": 1500
  },
  "ocr": {
   "verifiedFollowers": 371,
-  "verifiedImpressions90": 175,
+  "verifiedImpressions90": 176,
   "eligible": false
  }
 }
