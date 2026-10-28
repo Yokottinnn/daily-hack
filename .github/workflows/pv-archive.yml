@@ -84,10 +84,15 @@ jobs:
               [ "$d" = "${IN_TO}" ] && break
               d=$(date -u -d "$d +1 day" +%F)
             done
+          elif [ -n "${IN_DATE}" ]; then
+            valid "${IN_DATE}" || { echo "::error::日付の形が違う: ${IN_DATE}"; exit 1; }
+            echo "${IN_DATE}" >> /tmp/days.txt
           else
-            D="${IN_DATE:-$(date -u -d '-1 day' +%F)}"
-            valid "$D" || { echo "::error::日付の形が違う: ${D}"; exit 1; }
-            echo "$D" >> /tmp/days.txt
+            # **前日と前々日の 2 日を積む**（同じ日は上書きなので重複しない）。
+            # 定時（20:37 UTC）が GitHub 側で遅れて UTC の 0 時をまたぐと、「実行時の前日」が 1 日ずれて
+            # 同じ日を 2 回積み、次の日を飛ばしていた（2026-10-27 の分が抜けた・2026-10-29 に見つけた）
+            date -u -d '-2 day' +%F >> /tmp/days.txt
+            date -u -d '-1 day' +%F >> /tmp/days.txt
           fi
           WANT=$(wc -l < /tmp/days.txt | tr -d ' ')
           echo "対象 ${WANT} 日: $(head -1 /tmp/days.txt) 〜 $(tail -1 /tmp/days.txt)"
