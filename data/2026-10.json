@@ -25144,16 +25144,16 @@
     }
   },
   "2026-10-28": {
-    "visits": 874,
-    "requests": 1524,
+    "visits": 876,
+    "requests": 1526,
     "paths": 715,
     "jp": 25,
-    "human": 409,
+    "human": 411,
     "top": [
       {
         "path": "/posts/point-service-complete-guide-2026/",
-        "v": 108,
-        "r": 108
+        "v": 110,
+        "r": 110
       },
       {
         "path": "/",
@@ -25955,7 +25955,7 @@
     "countries": [
       {
         "k": "US",
-        "v": 314
+        "v": 316
       },
       {
         "k": "SG",
@@ -26021,7 +26021,7 @@
       },
       {
         "k": "Chrome",
-        "v": 208
+        "v": 210
       },
       {
         "k": "ChromeMobile",
@@ -26134,7 +26134,7 @@
         "human": 0
       },
       "/posts/point-service-complete-guide-2026/": {
-        "human": 98
+        "human": 100
       },
       "/posts/rakuten-marathon-guide-2026/": {
         "human": 1
@@ -26165,13 +26165,13 @@
       }
     },
     "zone": {
-      "pageViews": 1055,
-      "uniques": 728,
+      "pageViews": 1059,
+      "uniques": 733,
       "scope": "zone"
     },
     "pv": {
-      "all": 887,
-      "human": 416,
+      "all": 889,
+      "human": 418,
       "scope": "blog-html"
     }
   }
