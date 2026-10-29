@@ -1,1 +1,4 @@
-[]
+[
+      {"task": "x372-remove-guard-and-check.sh", "rc": 0, "out": "x372 / x372-remove-guard.md"},
+      {"task": "x373-repost-cinema-after-guard-removed.sh", "rc": 1, "out": ""}
+  ]
