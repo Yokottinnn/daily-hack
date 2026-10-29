@@ -1,6 +1,6 @@
 {
  "_doc": "ローソン・ユナイテッドシネマ 豊洲（2026-12-04 リニューアル）の X 告知。node scripts/gen-x-panels.mjs ops/data/x-cards/lawson-united-cinema-toyosu-2026.panels.json",
- "_note": "素材はプレスリリース（PR TIMES・2026-10-28）。画像の中に出所は出さず ALT に書く（2026-10-11 の指示）。数字はすべてリリースから",
+ "_note": "素材はプレスリリース（PR TIMES・2026-10-28）。画像の中に出所は出さず ALT に書く（2026-10-11 の指示）。数字はすべてリリースから。1 枚目 x/0-keyvisual.jpg は公式のキービジュアルを加工せずそのまま使う（2026-10-29 利用者「プレスや公式の画像をそのまま使って臨場感を出して」）。ALT：「音響体感シート FLEXOUND。2026年12月4日、豊洲に誕生。12月4日（金）からローソン・ユナイテッドシネマ 豊洲に劇場名が変わります。画像：ローソン・ユナイテッドシネマのプレスリリース（PR TIMES・2026年10月28日）」",
  "imageBase": "public/images/lawson-united-cinema-toyosu-2026",
  "out": "public/images/lawson-united-cinema-toyosu-2026/x",
  "theme": "ink",

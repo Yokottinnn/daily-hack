@@ -53,7 +53,7 @@ const FILES = {
   "tokyo-bay-hanabi-2026-weekend": ["1-checklist.jpg", "2-alcohol.jpg", "3-roads.jpg", "4-no-ticket.jpg"],
   // **未投稿**（2026-10-26）。チームラボ 浜離宮。作品の写真はプレスリリース（出典は ALT）
   // **未投稿**（2026-10-29）。ローソン・ユナイテッドシネマ 豊洲。素材はプレスリリース（出典は ALT）
-  "lawson-united-cinema-toyosu-2026": ["1-cover.jpg", "2-flexound.jpg"],
+  "lawson-united-cinema-toyosu-2026": ["0-keyvisual.jpg", "1-cover.jpg", "2-flexound.jpg"],
   "teamlab-hamarikyu-2026": ["1-cover.jpg", "2-access.jpg", "3-vs-toyosu.jpg", "4-yoru-300.jpg"],
 };
 
