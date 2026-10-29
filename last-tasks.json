@@ -1,4 +1,3 @@
 [
-      {"task": "x374-kill-hung-and-check.sh", "rc": 0, "out": "x374 / x374-kill-hung.md"},
-      {"task": "x375-repost-cinema-after-kill.sh", "rc": 0, "out": "**出せていない。全文をレポートに残した** / post-cinema-toyosu-r6.md"}
+      {"task": "x376-prove-hung-route.sh", "rc": 0, "out": "x376 / x376-prove-hung-route.md"}
   ]
