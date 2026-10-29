@@ -1037,11 +1037,11 @@ follow-balance の `GRACE_DAYS` が plist に無く、**スクリプトの既定
 
 **上限は目安の半分前後にしてある。目安ちょうどを狙わない。** 全ジョブの合算で数える（ジョブごとではない）。
 
-- **仕組みで止めている。** `ops/lib/x-action-guard.cjs`（関所）を全 X ジョブの node に `NODE_OPTIONS=--require` で読み込ませ、
-  **X に飛ぶアクションのリクエストそのもの**（CreateTweet・FavoriteTweet・CreateRetweet・friendships/create・destroy）を見張る。
-  上限・間隔に当たったら**その場で止める**。台帳は `~/.openclaw/workspace/data/x-action-ledger.json`（`ops/lib/x-action-pacer.cjs`）
-- **ジョブ側は押す前に空くまで待つ**（`x-action-pacer.cjs until <種類> <秒>`）。関所に当たって無駄に失敗しないため
-- **新しく X に触るジョブ・スクリプトを作るときは、plist に `NODE_OPTIONS=--require …/lib/x-action-guard.cjs` を必ず入れる。** 入れないと数に入らない
+- **間隔は各スクリプトが「押す前に空くまで待つ」で守る**（`ops/lib/x-action-pacer.cjs until <種類> <秒>`）。台帳は `~/.openclaw/workspace/data/x-action-ledger.json`
+- **Chrome の通信を横取りする仕組み（`context.route` の関所・`x-action-guard.cjs`）は使わない。2026-10-30 に全ジョブから外した。**
+  関所の付いた処理が 2 つ以上 同じ Chrome につながると、**1 回の投稿を両方が数え、2 つ目が「前の回から 0 秒」と判断して投稿を止めた。**
+  **2026-10-26〜10-30 の 4 日間、返信が 0 件・告知が 5 回 出ず**、止まったままの処理（18 時間）が残ると直らなかった（x370〜x377）。
+  共有の Chrome（CDP）で `route` を張ると、自分のページだけでなく**ほかのジョブのページの通信も握る**。張らない
 - **量（1 日の件数）を増やす提案は、この上限の中で収まるかを先に計算する。** 収まらない増やし方は出さない
 - 手順と仕組みは [`docs/x-action-pacing.md`](docs/x-action-pacing.md)。返信の文面側の決まりは `x-reply-style` スキル §9、投稿は `x-post-copy` スキル §4
 
