@@ -37,6 +37,13 @@ async function handler(route) {
   const r = pacer.take(type);
   if (r.ok) {
     LOG(`${type}: 通した`);
+    // X が返した中身を記録する（流れは変えない）。投稿が「出たのに ID が無い」で黙って失敗したため（2026-10-29・x358）
+    try {
+      req.response().then((res) => res && res.text().then((t) => {
+        const err = /"errors"\s*:/.test(t);
+        LOG(`${type}: X の応答 ${res.status()}${err ? " **エラー** " + t.replace(/\s+/g, " ").slice(0, 400) : "（エラーなし）"}`);
+      })).catch(() => {});
+    } catch {}
     return route.fallback ? route.fallback().catch(() => route.continue().catch(() => {})) : route.continue().catch(() => {});
   }
   LOG(`${type}: **止めた**（${r.reason}・あと ${Math.round(r.waitMs / 1000)} 秒）`);
