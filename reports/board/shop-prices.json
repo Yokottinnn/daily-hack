@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-28T21:46:22.012Z",
+ "generatedAt": "2026-10-29T21:46:05.856Z",
  "keys": {
   "rakuten": true,
   "rakutenAccessKey": false,
@@ -114,15 +114,15 @@
     "yahoo": {
      "found": true,
      "candidates": 30,
-     "name": "マキタ 充電式暖房ベスト CV202DZ S/M/L/LL/3L/4Lサイズ 服のみ ※バッテリー・バッテリーホルダー・充電器別売 ヒートベスト",
-     "url": "https://store.shopping.yahoo.co.jp/asahiya-himeji/cv202dz.html",
-     "price": 15244,
+     "name": "makita マキタ 充電式暖房ベストのみ CV202DZ（バッテリーホルダー・バッテリー・充電器別売）",
+     "url": "https://store.shopping.yahoo.co.jp/handskotera/cv202dz.html",
+     "price": 15651,
      "shippingFree": false,
      "point": 0,
      "reviewAverage": null,
-     "reviewCount": 0,
-     "shop": "工具のあさひ屋",
-     "net": 15244
+     "reviewCount": 1,
+     "shop": "ハンズコテラ Yahoo!ショップ",
+     "net": 15651
     }
    }
   },
@@ -163,14 +163,14 @@
     },
     "yahoo": {
      "found": true,
-     "candidates": 6,
+     "candidates": 8,
      "name": "バッファロー 半固体 モバイルバッテリー 10000mAh 30W Type-C 残量表示 パススルー 同時充電 PSE適合 日本メーカー シルキーホワイト BMPBSA10000WHX",
      "url": "https://store.shopping.yahoo.co.jp/buffalodirect/4950190385325.html",
      "price": 5990,
      "shippingFree": true,
      "point": 0,
-     "reviewAverage": 4.64,
-     "reviewCount": 11,
+     "reviewAverage": 4.67,
+     "reviewCount": 12,
      "shop": "バッファロー公式ストア",
      "net": 5990
     }
@@ -277,7 +277,7 @@
     },
     "yahoo": {
      "found": true,
-     "candidates": 17,
+     "candidates": 18,
      "name": "繰り返し使えるカイロ ピンク",
      "url": "https://store.shopping.yahoo.co.jp/zozo/111963074.html",
      "price": 3480,
@@ -316,13 +316,13 @@
      "candidates": 1,
      "name": "充電式カイロ コンパクト 軽量 薄型 USB 速暖 モバイルバッテリー 使い捨てない 持ち運び 繰り返し使える 電気カイロ 携帯カイロ おしゃれ mottole MTL-E007",
      "url": "https://store.shopping.yahoo.co.jp/mottole/mtl-e007.html",
-     "price": 2740,
+     "price": 1096,
      "shippingFree": true,
      "point": 0,
      "reviewAverage": 4.33,
      "reviewCount": 481,
      "shop": "mottole Yahoo!店",
-     "net": 2740
+     "net": 1096
     }
    },
    "mottole-mtl-e029": {
@@ -334,13 +334,13 @@
      "candidates": 1,
      "name": "充電式カイロ 長時間 長持ち モバイルバッテリー 10,000mAh 大容量 電気カイロ USB 速暖 繰り返し使える 使い捨てない 冷え対策 おしゃれ mottole MTL-E029",
      "url": "https://store.shopping.yahoo.co.jp/mottole/mtl-e029.html",
-     "price": 4120,
+     "price": 1730,
      "shippingFree": true,
      "point": 0,
      "reviewAverage": 4.35,
      "reviewCount": 93,
      "shop": "mottole Yahoo!店",
-     "net": 4120
+     "net": 1730
     }
    },
    "mottole-mtl-e030": {
