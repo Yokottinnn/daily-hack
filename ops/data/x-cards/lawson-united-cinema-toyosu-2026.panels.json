@@ -1,0 +1,25 @@
+{
+ "_doc": "ローソン・ユナイテッドシネマ 豊洲（2026-12-04 リニューアル）の X 告知。node scripts/gen-x-panels.mjs ops/data/x-cards/lawson-united-cinema-toyosu-2026.panels.json",
+ "_note": "素材はプレスリリース（PR TIMES・2026-10-28）。画像の中に出所は出さず ALT に書く（2026-10-11 の指示）。数字はすべてリリースから",
+ "imageBase": "public/images/lawson-united-cinema-toyosu-2026",
+ "out": "public/images/lawson-united-cinema-toyosu-2026/x",
+ "theme": "ink",
+ "panels": [
+  {
+   "file": "1-cover.jpg",
+   "kind": "html",
+   "noHeader": true,
+   "html": "<div class=\"wrap\"><img class=\"photo\" src=\"src/seats-photo.jpg\" alt=\"\"><div class=\"shade\"></div>\n<div class=\"k\">2026年12月4日(金) リニューアルオープン</div>\n<div class=\"t\">豊洲の映画館、<br><em>名前が変わる</em></div>\n<div class=\"nm\"><span class=\"old\">ユナイテッド・シネマ豊洲</span><span class=\"ar\">↓</span><span class=\"new\"><img src=\"src/logo-luc.jpg\" alt=\"\">ローソン・ユナイテッドシネマ 豊洲</span></div>\n<div class=\"foot\">ららぽーと豊洲 3階・12スクリーン・1,718席</div></div>",
+   "css": "main{padding:0;height:1080px;display:block}\n.wrap{position:relative;height:1080px;padding:64px 60px 0;color:#fff;overflow:hidden;background:#1E1219}\n.photo{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}\n.shade{position:absolute;inset:0;background:linear-gradient(180deg,rgba(20,10,16,.86) 0%,rgba(20,10,16,.55) 45%,rgba(20,10,16,.9) 100%)}\n.k,.t,.nm,.foot{position:relative}\n.k{font-size:34px;font-weight:700;color:#F5C518}\n.t{font-size:92px;font-weight:900;line-height:1.15;margin-top:14px}\n.t em{font-style:normal;color:#EC5C90}\n.nm{margin-top:56px;display:flex;flex-direction:column;align-items:flex-start;gap:10px}\n.old{font-size:36px;font-weight:700;color:#e9dfe4;text-decoration:line-through;text-decoration-thickness:3px}\n.ar{font-size:40px;color:#F5C518;font-weight:900;margin-left:20px}\n.new{display:flex;align-items:center;gap:18px;background:rgba(255,251,238,.97);color:#2A1923;font-size:42px;font-weight:900;border-radius:20px;padding:14px 26px}\n.new img{height:64px;border-radius:8px;background:#fff}\n.foot{position:absolute;left:60px;right:60px;bottom:54px;font-size:34px;font-weight:700;text-align:center}",
+   "alt": "映画館の座席の写真。文字：2026年12月4日(金)リニューアルオープン。豊洲の映画館、名前が変わる。ユナイテッド・シネマ豊洲から、ローソン・ユナイテッドシネマ 豊洲へ。ららぽーと豊洲3階・12スクリーン・1,718席。画像：ローソン・ユナイテッドシネマのプレスリリース（PR TIMES・2026年10月28日）。シートの写真はイメージで、実際のシートとは一部異なる"
+  },
+  {
+   "file": "2-flexound.jpg",
+   "kind": "html",
+   "noHeader": true,
+   "html": "<div class=\"wrap\"><div class=\"seat\"><img src=\"src/flexound-seat.jpg\" alt=\"\"></div>\n<div class=\"txt\"><div class=\"k\">新しく入る席</div><div class=\"t\">身体全体で<br><em>音を感じる</em>席</div>\n<div class=\"sub\">FLEXOUND（フレックスサウンド）</div>\n<ul><li><b>どこ</b>4DX以外の11スクリーン<br>中央1〜2列・計146席</li><li><b>料金</b>鑑賞料金＋<em>500円</em></li><li><b>しくみ</b>枕と背もたれのスピーカーから<br>「音と振動」が伝わる</li><li><b>都内</b>お台場に続いて2館目</li></ul></div></div>",
+   "css": "main{padding:0;height:1080px;display:block}\n.wrap{position:relative;height:1080px;display:flex;background:#0d0a0c;color:#fff;overflow:hidden}\n.seat{flex:0 0 430px;height:1080px;overflow:hidden}.seat{display:flex;align-items:center}.seat img{width:100%;height:auto;object-fit:contain}\n.txt{flex:1;padding:70px 46px 0 40px}\n.k{font-size:30px;font-weight:700;color:#F5C518}\n.t{font-size:74px;font-weight:900;line-height:1.18;margin-top:10px}\n.t em{font-style:normal;color:#EC5C90}\n.sub{font-size:28px;font-weight:700;color:#e9dfe4;margin-top:14px}\nul{list-style:none;margin-top:36px}\nli{font-size:31px;font-weight:700;line-height:1.4;padding:18px 0;border-bottom:2px dashed rgba(255,255,255,.18)}\nli:last-child{border-bottom:none}\nli b{display:block;font-size:22px;color:#F5C518;margin-bottom:4px}\nli em{font-style:normal;color:#EC5C90;font-size:40px}",
+   "alt": "オレンジ色の映画館のシートから音の波が広がるイメージ図。文字：新しく入る席。身体全体で音を感じる席、FLEXOUND（フレックスサウンド）。4DX以外の11スクリーンの中央1〜2列・計146席。料金は鑑賞料金＋500円。枕と背もたれのスピーカーから音と振動が伝わる。都内ではお台場に続いて2館目。画像：ローソン・ユナイテッドシネマのプレスリリース（PR TIMES・2026年10月28日）。シートの写真はイメージで、実際のシートとは一部異なる"
+  }
+ ]
+}
