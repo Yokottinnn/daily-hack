@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-29T21:46:05.856Z",
+ "generatedAt": "2026-10-30T21:46:11.773Z",
  "keys": {
   "rakuten": true,
   "rakutenAccessKey": false,
@@ -102,9 +102,17 @@
      "skipped": "RAKUTEN_ACCESS_KEY が無い"
     },
     "yahoo": {
-     "found": false,
-     "candidates": 0,
-     "searched": 24
+     "found": true,
+     "candidates": 2,
+     "name": "BURTLE バートル サーモクラフト(電熱パッド) 秋冬用 オレンジ TC500 84 F",
+     "url": "https://store.shopping.yahoo.co.jp/monaka-store/s-b0b7jsc18k-20260720.html",
+     "price": 12588,
+     "shippingFree": true,
+     "point": 0,
+     "reviewAverage": null,
+     "reviewCount": 0,
+     "shop": "MONAKA-STORE",
+     "net": 12588
     }
    },
    "makita-cv202d": {
@@ -113,7 +121,7 @@
     },
     "yahoo": {
      "found": true,
-     "candidates": 30,
+     "candidates": 29,
      "name": "makita マキタ 充電式暖房ベストのみ CV202DZ（バッテリーホルダー・バッテリー・充電器別売）",
      "url": "https://store.shopping.yahoo.co.jp/handskotera/cv202dz.html",
      "price": 15651,
@@ -220,8 +228,8 @@
     "yahoo": {
      "found": true,
      "candidates": 3,
-     "name": "エレコム リン酸鉄モバイルバッテリー 8000mAh 35W リチウムイオン電池 Type-C×2 A×1 ELECOM DE-C97L-8000WH",
-     "url": "https://store.shopping.yahoo.co.jp/elecom/4549550442619.html",
+     "name": "エレコム リン酸鉄モバイルバッテリー 8000mAh 35W リチウムイオン電池 Type-C×2 A×1 ELECOM DE-C97L-8000BK",
+     "url": "https://store.shopping.yahoo.co.jp/elecom/4549550442596.html",
      "price": 5280,
      "shippingFree": true,
      "point": 0,
@@ -441,6 +449,134 @@
      "found": false,
      "candidates": 0,
      "searched": 1
+    }
+   }
+  },
+  "zojirushi-steam-humidifier": {
+   "zojirushi-ee-tc60": {
+    "rakuten": {
+     "skipped": "RAKUTEN_ACCESS_KEY が無い"
+    },
+    "yahoo": {
+     "found": true,
+     "candidates": 30,
+     "name": "象印　加湿器 EE-TC60 WA（ホワイト）",
+     "url": "https://store.shopping.yahoo.co.jp/sanrex/ee-tc60-wa.html",
+     "price": 24500,
+     "shippingFree": true,
+     "point": 0,
+     "reviewAverage": null,
+     "reviewCount": 0,
+     "shop": "サンサン マーケット",
+     "net": 24500
+    }
+   },
+   "zojirushi-ee-dg50": {
+    "rakuten": {
+     "skipped": "RAKUTEN_ACCESS_KEY が無い"
+    },
+    "yahoo": {
+     "found": true,
+     "candidates": 30,
+     "name": "象印 ZOJIRUSHI 加湿器 EE-DG50-WA スチーム式加湿器 4.0L ホワイト",
+     "url": "https://store.shopping.yahoo.co.jp/life-marketkyoto/ee-dg50-wa.html",
+     "price": 20560,
+     "shippingFree": true,
+     "point": 0,
+     "reviewAverage": null,
+     "reviewCount": 0,
+     "shop": "ライフマーケットYahoo!店",
+     "net": 20560
+    }
+   },
+   "zojirushi-ee-dg35": {
+    "rakuten": {
+     "skipped": "RAKUTEN_ACCESS_KEY が無い"
+    },
+    "yahoo": {
+     "found": true,
+     "candidates": 29,
+     "name": "象印　加湿器 EE-DG35 HA（グレー）",
+     "url": "https://store.shopping.yahoo.co.jp/sanrex/ee-dg35-ha.html",
+     "price": 18800,
+     "shippingFree": false,
+     "point": 0,
+     "reviewAverage": null,
+     "reviewCount": 0,
+     "shop": "サンサン マーケット",
+     "net": 18800
+    }
+   },
+   "zojirushi-ee-rv50": {
+    "rakuten": {
+     "skipped": "RAKUTEN_ACCESS_KEY が無い"
+    },
+    "yahoo": {
+     "found": true,
+     "candidates": 28,
+     "name": "EE-RV50-WA ZOJIRUSHI スチーム式 加湿器 ホワイト 3.0L 象印 在庫あり お手入れ簡単 清潔な蒸気スチーム式 安全設計",
+     "url": "https://store.shopping.yahoo.co.jp/macocoro/ee-rv50.html",
+     "price": 16100,
+     "shippingFree": true,
+     "point": 0,
+     "reviewAverage": null,
+     "reviewCount": 0,
+     "shop": "まごころでんき Yahoo!店",
+     "net": 16100
+    }
+   },
+   "zojirushi-ee-rv35": {
+    "rakuten": {
+     "skipped": "RAKUTEN_ACCESS_KEY が無い"
+    },
+    "yahoo": {
+     "found": true,
+     "candidates": 28,
+     "name": "象印　スチーム式加湿器　2.2L　木造6畳/プレハブ10畳まで　EE-RV35-WA　ホワイト　ZOJIRUSHI",
+     "url": "https://store.shopping.yahoo.co.jp/to-rulease/1-240001019657.html",
+     "price": 14550,
+     "shippingFree": true,
+     "point": 0,
+     "reviewAverage": null,
+     "reviewCount": 0,
+     "shop": "ディスカウントショップとーるりーす",
+     "net": 14550
+    }
+   },
+   "zojirushi-ee-mc20": {
+    "rakuten": {
+     "skipped": "RAKUTEN_ACCESS_KEY が無い"
+    },
+    "yahoo": {
+     "found": true,
+     "candidates": 27,
+     "name": "ZOJIRUSHI　加湿器　EE-MC20-CM [サンドベージュ]",
+     "url": "https://store.shopping.yahoo.co.jp/wink-digital/276156.html",
+     "price": 15100,
+     "shippingFree": true,
+     "point": 0,
+     "reviewAverage": null,
+     "reviewCount": 0,
+     "shop": "ウインクデジタル ヤフー店",
+     "net": 15100
+    }
+   },
+   "zojirushi-ee-fa50": {
+    "rakuten": {
+     "skipped": "RAKUTEN_ACCESS_KEY が無い"
+    },
+    "yahoo": {
+     "found": true,
+     "candidates": 18,
+     "name": "加湿器 象印 EE-FA50-BA [ブラック]",
+     "url": "https://store.shopping.yahoo.co.jp/archholesale/1311608.html",
+     "price": 30238,
+     "shippingFree": true,
+     "point": 0,
+     "reviewAverage": null,
+     "reviewCount": 1,
+     "shop": "ア-チホ-ルセ-ル",
+     "net": 30238
     }
    }
   }
