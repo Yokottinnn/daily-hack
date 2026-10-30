@@ -264,6 +264,10 @@ ls /usr/share/fonts/opentype/ipafont-gothic/ipag.ttf   # 日本語フォント
 pip install Pillow                                     # pypi は NO_PROXY に入っている
 ```
 
+IPA ゴシックには太字が無く、そのままだと Mac（ヒラギノ W6）で作った表紙より
+見出しが細く弱く見える。`gen-mosaic-hero.py` はヒラギノが無いときだけ見出しと
+キッカーの輪郭を同じ色で太らせる（2026-10-30 に追加）。
+
 **だから合成・確認・作り直しはこのセッションで完結する。** 何度でも作り直して
 `Read` で見ればよく、1 往復 30 分かかる `ops/tasks` を回す必要はない。
 

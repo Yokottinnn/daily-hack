@@ -5,7 +5,7 @@ publishDate: 2026-08-09
 category: ["roundups", "comparisons"]
 tags: ["ららぽーと", "三井ショッピングパーク", "三井不動産", "ショッピングモール", "売上ランキング", "リニューアル", "ラゾーナ川崎", "TOKYO-BAY", "2026年版"]
 draft: false
-eyecatchUrl: "/images/lalaport-guide-2026/eyecatch.jpg"
+eyecatchUrl: "/images/lalaport-guide-2026/cover.jpg"
 eyecatchAlt: "ららぽーと売上ランキング 2026｜全20施設を決算資料で並べた（面積・店舗数つき）"
 author: "hacker-ko"
 isPR: true

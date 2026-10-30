@@ -42,6 +42,10 @@ FL = next((c for c in _CAND_L if _os.path.exists(c)), None)
 if FB is None or FL is None:
     raise SystemExit("日本語フォントが見つからない: " + " / ".join(_CAND_B))
 f = lambda sz, light=False: ImageFont.truetype(FL if light else FB, sz)
+# IPA ゴシックには太字が無い。ヒラギノ W6 で作った表紙（outlet-mall-guide-2026）と
+# 並べると見出しが細く弱く見えるので、ヒラギノが無いときだけ輪郭を同じ色で太らせる
+# （2026-10-30 に ららぽーと記事の表紙を作り直したときに追加）。
+FAKE_BOLD = "ヒラギノ" not in FB
 MAG = (214, 62, 118)
 W, H = 1600, 900
 COLS, ROWS = 3, 2
@@ -80,9 +84,11 @@ img = Image.blend(img, veil, 0.18)
 
 d = ImageDraw.Draw(img, "RGBA")
 def rr(xy, r, fill): d.rounded_rectangle(xy, radius=r, fill=fill)
-def ts(p, s, fnt, fill=(255, 255, 255), off=2):
-    d.text((p[0] + off, p[1] + off), s, font=fnt, fill=(0, 0, 0, 170))
-    d.text(p, s, font=fnt, fill=fill)
+def ts(p, s, fnt, fill=(255, 255, 255), off=2, bold=False):
+    sw = max(1, fnt.size // 36) if (bold and FAKE_BOLD) else 0
+    d.text((p[0] + off, p[1] + off), s, font=fnt, fill=(0, 0, 0, 170),
+           stroke_width=sw, stroke_fill=(0, 0, 0, 170))
+    d.text(p, s, font=fnt, fill=fill, stroke_width=sw, stroke_fill=fill)
 
 bp = f(30)
 bw = d.textlength("Daily Hack", font=bp)
@@ -104,13 +110,13 @@ def shrink(text, start, floor=24):
 
 
 ks = shrink(kicker, 34, floor=22)
-ts((58, 296), kicker, f(ks), fill=(255, 210, 225))
+ts((58, 296), kicker, f(ks), fill=(255, 210, 225), bold=True)
 y = 296 + ks + 14
 # 見出し 2 行は長いほうに合わせてサイズをそろえる
 ts_size = min(shrink(t1, 104), shrink(t2, 104))
-ts((54, y), t1, f(ts_size))
+ts((54, y), t1, f(ts_size), bold=True)
 y += ts_size + 18
-ts((54, y), t2, f(ts_size))
+ts((54, y), t2, f(ts_size), bold=True)
 y += ts_size + 34
 rr((58, y, 398, y + 12), 6, MAG + (255,))
 y += 32

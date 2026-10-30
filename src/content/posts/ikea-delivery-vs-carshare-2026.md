@@ -349,7 +349,7 @@ references:
   </div>
   <ul class="related-block-list">
     <li><a href="/posts/lalaport-guide-2026/">
-      <span class="related-block-thumb"><img src="/images/lalaport-guide-2026/eyecatch.jpg" alt="" loading="lazy" /></span>
+      <span class="related-block-thumb"><img src="/images/lalaport-guide-2026/cover.jpg" alt="" loading="lazy" /></span>
       <span class="related-block-body">
         <span class="related-block-cat">まとめ</span>
         <span class="related-block-name">ららぽーと売上ランキング 2026｜全20施設の駐車場無料条件も</span>
