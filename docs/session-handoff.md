@@ -68,6 +68,12 @@
 
 <!-- 新しい記録がこの下に追加される（新しいものが上） -->
 
+### 2026-10-30 — 利用者が Bing Webmaster Tools に登録（2026-10-30 22:1x）。直後の 22:15 の送り直しも Bing・indexnow.org は 403（UserForbiddedToAccessSite）
+
+次のアクション:
+
+- [ ] 時間をおいて送り直す。次の記事の自動送信（Actions の IndexNow）のログで 200/202 を確かめる
+
 ### 2026-10-30 — IndexNow の初回: Yandex 202・Bing/indexnow.org 403（サイト未確認）
 
 次のアクション:
