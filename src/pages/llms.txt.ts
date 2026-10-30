@@ -1,6 +1,7 @@
 import type { APIRoute } from 'astro';
 import { getCollection } from 'astro:content';
 import { getCategories } from '../lib/category';
+import { WANGAN_AREAS, upcomingEvents, jpRange, jpDate, todayJst } from '../lib/wangan';
 
 /**
  * `/llms.txt` — AI クローラと生成AI 向けの索引。
@@ -32,9 +33,34 @@ export const GET: APIRoute = async (ctx) => {
     `- 記事数: ${posts.length}`,
     `- 生成: ${d(new Date())}`,
     '',
-    '## 記事',
-    '',
   ];
+
+  // 湾岸（中央区・江東区）のイベントを先に出す（2026-10-30）。AI の回答は「いつ・どこで・いくら」を求められるので、日付と会場をここで渡す
+  const wangan = posts.filter((p) => getCategories(p.data).includes('wangan-life'));
+  const today = todayJst();
+  const events = upcomingEvents(wangan, today);
+  lines.push('## 湾岸ライフ（東京都中央区・江東区の湾岸）');
+  lines.push('');
+  lines.push('対象は中央区の晴海・勝どき・月島・佃・豊海と、江東区の豊洲・有明・東雲・辰巳・青海。港区・品川区は扱わない。');
+  lines.push('日付・会場・料金は施設の公式発表・プレスリリースどおり。湾岸ニュースは毎朝追加する。');
+  lines.push('');
+  lines.push(`- 一覧: ${site}/category/wangan-life/`);
+  lines.push(`- 湾岸ニュース: ${site}/tags/${encodeURIComponent('湾岸ニュース')}/`);
+  for (const a of WANGAN_AREAS) {
+    if (wangan.some((p) => (p.data.tags ?? []).includes(a.tag))) {
+      lines.push(`- ${a.tag}（${a.ward}）: ${site}/tags/${encodeURIComponent(a.tag)}/`);
+    }
+  }
+  lines.push('');
+  lines.push(`### これから・開催中のイベント（${jpDate(today)}時点・開始が近い順）`);
+  lines.push('');
+  for (const e of events) {
+    lines.push(`- ${jpRange(e.start, e.end)}｜${e.name}｜${e.place}｜${e.isFree ? '無料' : '料金は記事を参照'}｜${site}/posts/${e.post.id}/`);
+  }
+  if (events.length === 0) lines.push('- いま掲載中のイベントは無い');
+  lines.push('');
+  lines.push('## 記事');
+  lines.push('');
 
   for (const p of posts) {
     const updated = p.data.updatedDate ?? p.data.publishDate;
