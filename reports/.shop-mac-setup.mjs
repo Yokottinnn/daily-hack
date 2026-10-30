@@ -1,6 +1,8 @@
 // 3 店ボタンの Mac 側の準備（affiliate が担当・2026-10-25 利用者の指示で blog3 から引き取った）。LLM 不使用・$0。
 //   SHOP_SETUP=rakuten  … 楽天ウェブサービスのアプリ一覧から Access Key を読み Keychain（dailyhack-rakuten-ws / accessKey）に入れ、API が通るか 1 回だけ試す
 //   SHOP_SETUP=moshimo  … もしもで「Amazon」を検索し、出たプロモーションの行とボタンを読む（**押さない**）
+//   SHOP_SETUP=amazon-click … 本番の記事の Amazon ボタンを押し、着いた先に tag が残るか・ロボット確認が出ないかを読む（買わない）
+//   SHOP_SETUP=amazon-open  … 利用者がアソシエイトにログインする画面を開いたままにする
 //   SHOP_SETUP=yahoo    … Yahoo! デベロッパーネットワークのアプリ管理・登録の画面を読む（**送らない**）
 // ログインは asp-sync.mjs が保っている Chrome（CDP 18810）を使う。**鍵・会員名・報酬額は出さない**（鍵は文字数だけ）。
 // 出力: $OPS_REPORT_DIR/shop-setup/<SHOP_SETUP>.md（公開ブランチ ops/heartbeat に載る）
@@ -321,6 +323,39 @@ try {
       lines.push('- 確認の小窓の HTML:', '```html', mask(boxHtml), '```');
       const opts = await p.evaluate(() => [...document.querySelectorAll('select')].filter((e) => e.getBoundingClientRect().height > 0).map((e) => `select[name=${e.name}]: ${[...e.options].map((o) => o.textContent.trim()).join(' / ').slice(0, 400)}`));
       lines.push('- 選択肢:', ...opts.map((x) => `  - ${x}`)); }
+  }
+
+  if (WHICH === 'amazon-click') {
+    // 2026-10-30: 3 店ボタンの Amazon（tag=dailyhack-22・Claude が自分で作った検索リンク）が本当に Amazon で受け付けられるかを、本番の記事のボタンを押して確かめる（買わない）
+    await go('https://daily-hack.fieldbeside.com/posts/rechargeable-kairo-comparison-2026/');
+    const hrefs = await p.evaluate(() => [...document.querySelectorAll('a.shop-btn--amazon')].map((a) => a.href));
+    lines.push(`- 本番の記事の Amazon ボタン: ${hrefs.length} 個・1 つ目のリンク先 ${hrefs[0] || 'なし'}`);
+    if (hrefs[0]) {
+      const q = await ctx.newPage();
+      const hops = [];
+      q.on('framenavigated', (f) => { if (f === q.mainFrame()) hops.push(f.url()); });
+      await q.goto(hrefs[0], { waitUntil: 'domcontentloaded', timeout: 30000 }).catch((e) => lines.push(`- ⚠️ 開けない: ${String(e).split('\n')[0]}`));
+      await q.waitForTimeout(5000);
+      const info = await q.evaluate(() => ({
+        title: document.title.slice(0, 80),
+        robot: /ロボットではありません|captcha|Enter the characters/i.test(document.body.innerText || ''),
+        results: document.querySelectorAll('[data-component-type="s-search-result"]').length,
+        stripe: !!document.querySelector('#amzn-ss-wrap, #amzn-ss-text-link, [id^="amzn-ss"]') || /アソシエイト・?サイトストライプ|SiteStripe/i.test(document.body.innerText || ''),
+      })).catch(() => ({}));
+      const fin = q.url();
+      lines.push(`- 着いた先: ${fin}`, `- 着いた先の URL に tag=dailyhack-22: ${/[?&]tag=dailyhack-22(&|$)/.test(fin) ? '**残っている**' : '**無い**'}`,
+        `- 途中の URL（${hops.length} 回）: ${hops.slice(0, 5).join(' → ')}`, `- ページの題名: ${info.title || '—'}・ロボット確認の画面: ${info.robot ? '**出た**' : '出ていない'}・検索結果の商品 ${info.results ?? '—'} 件`,
+        `- アソシエイトの帯（サイトストライプ）: ${info.stripe ? '出ている（この Chrome でアソシエイトにログイン済み）' : '出ていない（この Chrome ではアソシエイトに未ログイン）'}`);
+      await q.close().catch(() => {});
+    }
+  }
+
+  if (WHICH === 'amazon-open') {
+    // 利用者が Amazon アソシエイトにログインするための画面を、この Chrome（CDP 18810）に開いたままにする（閉じない）
+    const q = await ctx.newPage();
+    await q.goto('https://affiliate.amazon.co.jp/home', { waitUntil: 'domcontentloaded', timeout: 25000 }).catch(() => {});
+    await q.bringToFront().catch(() => {});
+    lines.push(`- Amazon アソシエイトの画面を開いたままにした: ${q.url().replace(/[?#].*$/, '')}（利用者がここでログインする）`);
   }
 
   if (WHICH === 'yahoo-open') {
