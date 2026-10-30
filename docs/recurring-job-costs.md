@@ -730,3 +730,6 @@ DOM 操作だけなので、**稼働させても追加の API 費用は発生し
 | --- | --- | --- | --- |
 | GitHub Actions（公開リポジトリは無料） | $0 | $0 | $0 |
 | LLM API | **使わない** | $0 | $0 |
+
+- **初回の実行（2026-10-30 21:58 JST・手動）**: Yandex は 202（受け付け）。**Bing と api.indexnow.org は 403**（`UserForbiddedToAccessSite`「鍵でサイトを確認してから送って」）。
+  鍵のファイル（`/df56d1afacabdd5edec8fe88e54ccdd5.txt`）は bingbot の名乗りでも 200 で開ける。Bing Webmaster Tools にサイトが登録されていないことが原因の候補。登録は利用者のアカウント操作
