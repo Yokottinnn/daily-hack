@@ -1,0 +1,57 @@
+name: IndexNow
+
+# main に記事が入ったら、その URL を IndexNow（Bing ほか）に知らせる（2026-10-30・利用者が選んだ）
+# 費用: AI 不使用。公開リポジトリの GitHub Actions は無料。1 回 $0・1 日 $0・1 か月 $0
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'src/content/posts/**'
+  workflow_dispatch:
+    inputs:
+      slugs:
+        description: '送る記事の slug（空白区切り）'
+        required: true
+
+permissions:
+  contents: read
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: 変わった記事を調べる
+        id: changed
+        env:
+          BEFORE: ${{ github.event.before }}
+          AFTER: ${{ github.sha }}
+          INPUT_SLUGS: ${{ github.event.inputs.slugs }}
+        run: |
+          if [ -n "${INPUT_SLUGS}" ]; then
+            echo "slugs=${INPUT_SLUGS}" >> "$GITHUB_OUTPUT"; exit 0
+          fi
+          base="${BEFORE}"
+          if [ -z "$base" ] || ! git cat-file -e "$base" 2>/dev/null; then base="${AFTER}~1"; fi
+          # 足した・直した記事だけ（消したものは送らない）。下書きは外す
+          slugs=""
+          for f in $(git diff --name-only --diff-filter=AM "$base" "$AFTER" -- 'src/content/posts/*.md' 'src/content/posts/*.mdx'); do
+            grep -qE '^draft:[[:space:]]*true' "$f" && continue
+            s="$(basename "$f")"; s="${s%.*}"
+            slugs="$slugs $s"
+          done
+          echo "slugs=${slugs}" >> "$GITHUB_OUTPUT"
+          echo "変わった記事:${slugs:- なし}"
+      - name: IndexNow に送る
+        env:
+          SLUGS: ${{ steps.changed.outputs.slugs }}
+        run: |
+          # slug は英数字とハイフンだけ通す
+          clean="$(echo "$SLUGS" | tr ' ' '\n' | grep -E '^[a-z0-9-]+$' | tr '\n' ' ')"
+          node scripts/indexnow-changed.mjs $clean
