@@ -1,1 +1,4 @@
-[]
+[
+      {"task": "t359-x-numbers-retry.sh", "rc": 0, "out": " } } ```  - **読めた。** reports/board/x-numbers.json を置き換えた"},
+      {"task": "t360-aeonmall-sources.sh", "rc": 0, "out": "-rw-r--r--     1 ny  staff  3668557 Oct 31 08:59 presentation-202605.pdf -rw-r--r--     1 ny  staff    25287 Oct 31 08:59 top.html -rw-r--r--     1 ny  staff      396 Oct 31 08:59 wp-aeonmall-list.json -rw-r--r--     1 ny  staff   102638 Oct 31 08:59 wp-aeonmall.json ```"}
+  ]

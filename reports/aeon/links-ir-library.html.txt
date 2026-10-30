@@ -1,0 +1,9 @@
+/ir/
+/ir/library/anual/
+/ir/library/ircalendar/
+/ir/library/meeting/
+/ir/library/report_backnumber/
+/ir/library/results/
+https://www.aeonmall.com/
+https://www.aeonmall.com/ir/library/
+https://www.aeonmall.com/touch-icon.png
