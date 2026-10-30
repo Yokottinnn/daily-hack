@@ -65,12 +65,12 @@
 | --- | --- | --- |
 | 楽天市場 | `hb.afl.rakuten.co.jp/hgc/<config の affiliateId>/?pc=<商品 or 検索>` | 個人の楽天 ID（決定ログ 2026-10-15）。**法人審査が通ったら `src/data/shop/config.json` の 1 か所を替えれば全記事が替わる** |
 | Yahoo!ショッピング | 素の `shopping.yahoo.co.jp`（商品 or 検索） | isPR の記事で LinkSwitch（vc_pid 892728470）が成果リンクに変える。VC「Yahoo!ショッピング 自動提携機能用」提携済み |
-| Amazon | `af.moshimo.com/af/c/click?…&url=<amazon>` | **もしも経由で Amazon と提携してから。** `config.json` の `moshimo*` 4 つが null のあいだは Amazon ボタンを出さない |
+| Amazon | `amazon.co.jp/s?k=<検索語>&tag=dailyhack-22`（ASIN があれば `/dp/<ASIN>?tag=…`） | **Amazon アソシエイトに直接（2026-10-30 申し込み）。** もしも経由は 2026-10-28 に否認。`config.json` の `amazon.tag` が null なら Amazon ボタンを出さない |
 
 - **成果リンクになることを実物で確かめた（2026-10-25）**
   - 楽天: 3 店ボタンのリンク → `hb.afl.rakuten.co.jp/ichiba/<ID>` → `pt.afl.rakuten.co.jp/c/587f2635.77bb335f/`（楽天の計測）→ 商品・検索ページ（`scid=af_pc_etc`）。個人 ID で計測される
   - Yahoo!: 本番のドメインに PostLayout と同じ LinkSwitch のタグ（vc_pid 892728470）を置いたページで、素の `store.shopping.yahoo.co.jp`・`shopping.yahoo.co.jp/search` のリンクが読み込み時に `dalr.valuecommerce.com/dck/…?pid=892728470&sid=3776384&mid=2201292` に差し替わった（押しても同じ先へ出ていく）。**isPR: true の記事でだけ効く**（だから isPR でない記事ではビルドを落とす）
-  - Amazon: もしもで提携が通るまでボタンを出さない（報酬にならないリンクを出さない）。**2026-10-25 22:17 に「申請中」を確認**（審査は数週間かかる場合あり）。通ったら `config.json` の `moshimo*` 4 つを入れ、楽天・Yahoo! と同じく実物で計測を確かめる
+  - Amazon: **2026-10-28 にもしもで否認**（理由の開示なし）。**2026-10-30 に Amazon アソシエイトへ直接申し込み、ID `dailyhack-22` でボタンを出した。** 仮の参加中で、申し込みから 180 日以内に適格販売 3 件で本審査（自分の注文は数えない・却下されたら再審査なし）。以下は旧記録：**2026-10-25 22:17 に「申請中」を確認**（審査は数週間かかる場合あり）。通ったら `config.json` の `moshimo*` 4 つを入れ、楽天・Yahoo! と同じく実物で計測を確かめる
   - もしもの告知: 2026-11-01 から Amazon の成果は同じ日の分が 1 件にまとまって表示され、商品情報も取れなくなる。3 店ボタンは Amazon の価格を載せないので影響なし
 - 楽天のリンクを使った記事は `docs/affiliate-registry.md` の「楽天アフィリエイトのリンクを入れた記事」に足す（法人 ID への張り替えの一覧）
 - 報酬額は記事に書かない

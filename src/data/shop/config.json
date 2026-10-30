@@ -9,11 +9,8 @@
     "_note": "isPR: true の記事では PostLayout の LinkSwitch（vc_pid 892728470）が素の shopping.yahoo.co.jp リンクを成果リンクに変える。バリューコマースの「Yahoo!ショッピング 自動提携機能用（2136156）」は提携済み"
   },
   "amazon": {
-    "via": "moshimo",
-    "moshimoAId": null,
-    "moshimoPId": null,
-    "moshimoPcId": null,
-    "moshimoPlId": null,
-    "_note": "もしもアフィリエイトで Amazon と提携できたら、もしもの「リンク作成」で作った Amazon のリンクから a_id・p_id・pc_id・pl_id を写す（4 つとも公開値）。null のあいだは Amazon ボタンを出さない（報酬にならないリンクで買われるのを防ぐ）"
+    "via": "associates",
+    "tag": "dailyhack-22",
+    "_note": "Amazon アソシエイトに直接（2026-10-30 申し込み・ID dailyhack-22・公開値）。仮の参加中で、申し込みから 180 日以内に適格販売 3 件で本審査（自分の注文は数えない）。落ちたら tag を null にすれば全記事の Amazon ボタンが消える。もしも経由（via: moshimo）は 2026-10-28 に否認された"
   }
 }
