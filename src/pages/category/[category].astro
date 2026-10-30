@@ -5,6 +5,7 @@ import Breadcrumb from '../../components/Breadcrumb.astro';
 import PostCard from '../../components/PostCard.astro';
 import AboutCard from '../../components/AboutCard.astro';
 import { postBelongsToCategory, type CategorySlug } from '../../lib/category';
+import { WANGAN_AREAS, WANGAN_NEWS_TAG, upcomingEvents, jpRange, jpDate, todayJst } from '../../lib/wangan';
 
 export async function getStaticPaths() {
   const cats = ['campaigns', 'services', 'comparisons', 'roundups', 'howto', 'wangan-life'];
@@ -15,7 +16,7 @@ export async function getStaticPaths() {
 
 const { category } = Astro.params;
 
-const meta: Record<string, { label: string; h1: string; lead: string; face: string }> = {
+const meta: Record<string, { label: string; h1: string; lead: string; face: string; title?: string; description?: string }> = {
   campaigns: {
     label: 'キャンペーン速報',
     h1: '締切前にチェック！速報キャンペーン',
@@ -49,8 +50,11 @@ const meta: Record<string, { label: string; h1: string; lead: string; face: stri
   'wangan-life': {
     label: '湾岸ライフ',
     h1: '晴海・豊洲・有明から届ける湾岸ライフのリアル',
-    lead: 'アタシが住んでる中央区晴海から発信。勝どき・豊洲市場・タワマン・LaLaport TOKYO-BAY・お台場・通勤事情・保育園・運動公園まで、湾岸エリアで本当に使える生活情報だけ届けるから安心しなさい。',
+    // 対象は中央区（晴海・勝どき・月島・佃・豊海）と江東区（豊洲・有明・東雲・辰巳・青海）だけ。港区・品川区は扱わない（2026-10-24 利用者の指示）
+    lead: 'アタシが住んでる中央区晴海から発信。晴海・勝どき・月島（中央区）と豊洲・有明・青海（江東区）のイベント・開業・暮らしを、施設の公式発表とプレスリリースだけで毎朝まとめてるわ。',
     face: '/images/expr-01-wave.png',
+    title: '湾岸ライフ｜晴海・豊洲・有明・勝どき・月島のイベントと暮らし（毎朝更新）',
+    description: '中央区（晴海・勝どき・月島）と江東区（豊洲・有明・青海）のイベント・開業・暮らしの記事一覧。開催日・会場・料金を施設の公式発表とプレスリリースで確かめ、毎朝更新。これから開催のイベントを日付順に並べている。',
   },
 };
 
@@ -71,6 +75,74 @@ const featured = sorted.filter((p) => p.data.featured).slice(0, 3);
 const rest = sorted.filter((p) => !featured.includes(p));
 
 const pillarPosts = sorted.filter((p) => !p.data.parentPillar);
+
+// 湾岸ライフだけ: これからのイベント・地区・よくある質問（2026-10-30・検索と AI 回答の対策）
+const isWangan = category === 'wangan-life';
+const today = todayJst();
+const events = isWangan ? upcomingEvents(sorted, today) : [];
+const areas = isWangan
+  ? WANGAN_AREAS.map((a) => ({ ...a, count: sorted.filter((p) => (p.data.tags ?? []).includes(a.tag)).length })).filter((a) => a.count > 0)
+  : [];
+const newsCount = sorted.filter((p) => (p.data.tags ?? []).includes(WANGAN_NEWS_TAG)).length;
+const site = Astro.site!.toString().replace(/\/$/, '');
+const next = events.find((e) => !e.ongoing) ?? events[0];
+const faq = isWangan
+  ? [
+      {
+        q: '湾岸ライフはどの地域を扱っている？',
+        a: '中央区の晴海・勝どき・月島・佃・豊海と、江東区の豊洲・有明・東雲・辰巳・青海。港区（お台場・芝浦など）と品川区は扱っていない。',
+      },
+      {
+        q: '情報はどこから取っている？',
+        a: '施設の公式サイト、主催者のプレスリリース、東京都・中央区・江東区の発表。日付・時間・会場・料金はその表記どおりに書き、出典を記事の中に載せている。',
+      },
+      {
+        q: 'どのくらいの頻度で更新している？',
+        a: `毎朝、湾岸ニュース（イベント・開業・生活の変化）を追加している。いま湾岸ニュースは${newsCount}本。`,
+      },
+      ...(next
+        ? [
+            {
+              q: '湾岸でこれから開かれるイベントは？',
+              a: `${jpDate(today)}時点で${events.length}件。いちばん近いのは「${next.name}」（${jpRange(next.start, next.end)}・${next.place}）。一覧はこのページの「これからのイベント」にある。`,
+            },
+          ]
+        : []),
+    ]
+  : [];
+const wanganLd = isWangan
+  ? [
+      {
+        '@context': 'https://schema.org',
+        '@type': 'CollectionPage',
+        name: m.title,
+        description: m.description,
+        url: `${site}/category/wangan-life/`,
+        inLanguage: 'ja',
+        dateModified: today,
+        about: [
+          { '@type': 'Place', name: '東京都中央区（晴海・勝どき・月島）' },
+          { '@type': 'Place', name: '東京都江東区（豊洲・有明・青海）' },
+        ],
+        mainEntity: {
+          '@type': 'ItemList',
+          name: 'これから湾岸で開かれるイベント',
+          numberOfItems: events.length,
+          itemListElement: events.map((e, i) => ({
+            '@type': 'ListItem',
+            position: i + 1,
+            url: `${site}/posts/${e.post.id}/`,
+            name: `${e.name}（${jpRange(e.start, e.end)}・${e.place}）`,
+          })),
+        },
+      },
+      {
+        '@context': 'https://schema.org',
+        '@type': 'FAQPage',
+        mainEntity: faq.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })),
+      },
+    ]
+  : [];
 const clusterByPillar = new Map<string, typeof sorted>();
 for (const p of sorted) {
   if (p.data.parentPillar) {
@@ -82,9 +154,10 @@ for (const p of sorted) {
 ---
 
 <BaseLayout
-  title={`${m.label} | お得記事一覧`}
-  description={m.lead}
+  title={m.title ?? `${m.label} | お得記事一覧`}
+  description={m.description ?? m.lead}
 >
+  {wanganLd.map((ld) => <script slot="head" type="application/ld+json" set:html={JSON.stringify(ld)} />)}
   <section class="cat-hero">
     <div class="wrap">
       <Breadcrumb items={[
@@ -104,6 +177,40 @@ for (const p of sorted) {
       </div>
     </div>
   </section>
+
+  {isWangan && (
+    <section>
+      <div class="wrap">
+        <div class="sec-head">
+          <h2 id="upcoming">これから・開催中の湾岸イベント（{jpDate(today)}時点）</h2>
+        </div>
+        {events.length > 0 ? (
+          <ul class="wangan-events">
+            {events.map((e) => (
+              <li>
+                <p class="wangan-ev-date">{e.ongoing && <strong class="wangan-now">開催中</strong>}{jpRange(e.start, e.end)}</p>
+                <a href={`/posts/${e.post.id}/`}>{e.name}</a>
+                <p class="wangan-ev-place">{e.place}・{e.isFree ? '無料' : '料金は記事を参照'}</p>
+              </li>
+            ))}
+          </ul>
+        ) : (
+          <p style="color: var(--ink-3);">いま掲載しているイベントは、すべて終わっている。新しいものは毎朝追加する。</p>
+        )}
+        <p style="color: var(--ink-3); font-size: 12px; margin-top: 8px;">日付・会場・料金は各記事の出典（施設の公式発表・プレスリリース）どおり。終わったイベントは一覧から外している。</p>
+
+        <div class="sec-head" style="margin-top: 36px;">
+          <h2 id="areas">地区から探す</h2>
+        </div>
+        <ul class="wangan-areas">
+          {areas.map((a) => (
+            <li><a href={`/tags/${a.tag}/`}><strong>{a.tag}</strong><span>（{a.ward}・{a.count}本）</span><small>{a.lead}</small></a></li>
+          ))}
+          <li><a href={`/tags/${WANGAN_NEWS_TAG}/`}><strong>湾岸ニュース</strong><span>（毎朝更新・{newsCount}本）</span><small>イベント・開業・生活の変化の速報</small></a></li>
+        </ul>
+      </div>
+    </section>
+  )}
 
   {featured.length > 0 && (
     <section>
@@ -180,5 +287,35 @@ for (const p of sorted) {
     </section>
   )}
 
+  {isWangan && (
+    <section>
+      <div class="wrap">
+        <div class="sec-head">
+          <h2 id="faq">湾岸ライフのよくある質問</h2>
+        </div>
+        <div class="cmp-table-wrap">
+          <table class="cmp-table spec-table faq-table">
+            <tbody>
+              {faq.map((f) => <tr><th>{f.q}</th><td>{f.a}</td></tr>)}
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+  )}
+
   <AboutCard />
 </BaseLayout>
+
+<style>
+  .wangan-events { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 10px; }
+  .wangan-events li { padding: 12px 14px; border: 1px solid var(--line); border-radius: 12px; background: #fff; }
+  .wangan-events a { font-weight: 800; border-bottom: 1px dotted var(--pink-300); }
+  .wangan-ev-date { margin: 0 0 4px; font-size: 13px; font-weight: 700; color: var(--pink-700); }
+  .wangan-ev-place { margin: 4px 0 0; font-size: 12px; color: var(--ink-3); }
+  .wangan-now { display: inline-block; margin-right: 6px; padding: 1px 8px; border-radius: 999px; background: var(--pink-500); color: #fff; font-size: 11px; }
+  .wangan-areas { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 10px; }
+  .wangan-areas a { display: block; padding: 12px 14px; border: 1px solid var(--pink-200); border-radius: 12px; background: var(--pink-50); }
+  .wangan-areas span { color: var(--ink-3); font-size: 12px; }
+  .wangan-areas small { display: block; color: var(--ink-2); font-size: 12px; margin-top: 4px; }
+</style>

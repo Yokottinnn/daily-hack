@@ -11,6 +11,7 @@ import AdUnit from '../components/AdUnit.astro';
 import AdMax from '../components/AdMax.astro';
 import InlineRelated from '../components/InlineRelated.astro';
 import { getCollection } from 'astro:content';
+import { WANGAN_AREAS, WANGAN_NEWS_TAG, upcomingEvents, jpRange, splitJpAddress, todayJst } from '../lib/wangan';
 import DraftCommentWidget from '../components/DraftCommentWidget.astro';
 import { getPrimaryCategory, getCategories, postBelongsToCategory } from '../lib/category';
 import { collectHeadings } from '../lib/headings';
@@ -141,7 +142,8 @@ for (let i = 0; i < inlineRelatedPool.length; i += 2) {
 
 const articleJsonLd = {
   '@context': 'https://schema.org',
-  '@type': 'Article',
+  // 湾岸ニュースは速報なので NewsArticle（2026-10-30）
+  '@type': (data.tags ?? []).includes(WANGAN_NEWS_TAG) ? 'NewsArticle' : 'Article',
   headline: data.title,
   description: data.description,
   datePublished: data.publishDate.toISOString(),
@@ -165,6 +167,7 @@ const articleJsonLd = {
 
 // イベントの記事は Event の構造化データも出す（2026-10-25・湾岸ニュース）。日時・場所は一次情報どおりにフロントマターへ書く
 const ev = data.event;
+const evAddr = ev ? splitJpAddress(ev.address) : null;
 const eventLd = ev
   ? {
       '@context': 'https://schema.org',
@@ -177,8 +180,18 @@ const eventLd = ev
       location: {
         '@type': 'Place',
         name: ev.locationName,
-        address: { '@type': 'PostalAddress', streetAddress: ev.address, addressCountry: 'JP' },
+        address: {
+          '@type': 'PostalAddress',
+          streetAddress: evAddr!.street,
+          ...(evAddr!.locality ? { addressLocality: evAddr!.locality } : {}),
+          ...(evAddr!.region ? { addressRegion: evAddr!.region } : {}),
+          addressCountry: 'JP',
+        },
       },
+      // 無料のものだけ 0 円の Offer を出す（有料は一次情報の料金を確かめていない記事もあるので出さない）
+      ...(ev.isFree
+        ? { offers: { '@type': 'Offer', price: 0, priceCurrency: 'JPY', availability: 'https://schema.org/InStock', url: ev.url ?? fullUrl, validFrom: data.publishDate.toISOString() } }
+        : {}),
       image: new URL(eyecatchSrc, Astro.site).toString(),
       description: data.description,
       ...(ev.organizer ? { organizer: { '@type': 'Organization', name: ev.organizer, ...(ev.url ? { url: ev.url } : {}) } } : {}),
@@ -189,6 +202,16 @@ const eventLd = ev
 
 // **記事本文から作る。** 取れなければ出さない（空の FAQPage は評価を落とす）
 const faqLd = faqJsonLd(post.body);
+
+// 湾岸ライフの記事の末尾に、同じ地区の一覧・これからのイベントへの導線を出す（2026-10-30・内部リンク）
+const isWanganPost = postCategories.includes('wangan-life');
+const postAreas = isWanganPost ? WANGAN_AREAS.filter((a) => (data.tags ?? []).includes(a.tag)) : [];
+const wanganUpcoming = isWanganPost
+  ? upcomingEvents(
+      allPosts.filter((p) => !p.data.draft && p.id !== post.id && getCategories(p.data).includes('wangan-life')),
+      todayJst(),
+    ).slice(0, 5)
+  : [];
 const howToLd = howToJsonLd(post.body, data.title);
 ---
 
@@ -273,6 +296,25 @@ const howToLd = howToJsonLd(post.body, data.title);
 
         <!-- 広告枠4: 記事末尾（本文と関連記事の間） -->
         <AdMax slot="dailyhack-article-bottom" />
+
+        {isWanganPost && (
+          <nav class="wangan-next" aria-label="湾岸ライフの一覧">
+            <p class="wangan-next-title">湾岸ライフをもっと見る</p>
+            <ul class="wangan-next-links">
+              {postAreas.map((a) => <li><a href={`/tags/${a.tag}/`}>{a.tag}（{a.ward}）の記事一覧</a></li>)}
+              <li><a href={`/tags/${WANGAN_NEWS_TAG}/`}>湾岸ニュースの一覧（毎朝更新）</a></li>
+              <li><a href="/category/wangan-life/#upcoming">これからの湾岸イベント（日付順）</a></li>
+            </ul>
+            {wanganUpcoming.length > 0 && (
+              <>
+                <p class="wangan-next-sub">これから湾岸で開かれるイベント</p>
+                <ul class="wangan-next-events">
+                  {wanganUpcoming.map((e) => <li><a href={`/posts/${e.post.id}/`}>{e.name}</a><span>{jpRange(e.start, e.end)}・{e.place}</span></li>)}
+                </ul>
+              </>
+            )}
+          </nav>
+        )}
 
         <footer style="margin-top: 48px; padding-top: 28px; border-top: 1px solid var(--line);">
           {data.isPR && (
@@ -449,3 +491,12 @@ const howToLd = howToJsonLd(post.body, data.title);
     })();
   </script>
 </BaseLayout>
+
+<style>
+  .wangan-next { margin-top: 40px; padding: 18px 20px; border: 1px solid var(--pink-200); border-radius: 14px; background: var(--pink-50); }
+  .wangan-next-title, .wangan-next-sub { margin: 0 0 8px; font-weight: 800; }
+  .wangan-next-sub { margin-top: 14px; font-size: 14px; }
+  .wangan-next ul { margin: 0; padding-left: 18px; line-height: 1.9; font-size: 14px; }
+  .wangan-next a { border-bottom: 1px dotted var(--pink-300); }
+  .wangan-next-events span { display: block; color: var(--ink-3); font-size: 12px; line-height: 1.5; margin-bottom: 4px; }
+</style>

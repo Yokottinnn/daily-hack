@@ -4,6 +4,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import Breadcrumb from '../../components/Breadcrumb.astro';
 import PostCard from '../../components/PostCard.astro';
 import AboutCard from '../../components/AboutCard.astro';
+import { WANGAN_AREAS, WANGAN_NEWS_TAG, upcomingEvents, jpRange, jpDate, todayJst } from '../../lib/wangan';
 
 export async function getStaticPaths() {
   const posts = await getCollection('posts', ({ data }) => !data.draft);
@@ -22,18 +23,70 @@ export async function getStaticPaths() {
 const { tag } = Astro.props;
 const all = await getCollection('posts', ({ data }) => !data.draft && (data.tags ?? []).includes(tag));
 const sorted = all.sort((a, b) => b.data.publishDate.getTime() - a.data.publishDate.getTime());
+
+// 湾岸の地区と湾岸ニュースのタグは、湾岸ライフの下の一覧として扱う（2026-10-30・検索と AI 回答の対策）
+const area = WANGAN_AREAS.find((a) => a.tag === tag);
+const isNews = tag === WANGAN_NEWS_TAG;
+const wangan = !!area || isNews;
+const today = todayJst();
+const events = wangan ? upcomingEvents(sorted, today) : [];
+const site = Astro.site!.toString().replace(/\/$/, '');
+const title = area
+  ? `${tag}（${area.ward}）のイベント・ニュース・暮らし｜湾岸ライフ`
+  : isNews
+    ? '湾岸ニュース｜晴海・豊洲・有明・勝どき・月島のイベントと開業（毎朝更新）'
+    : `#${tag} の記事一覧`;
+const description = area
+  ? `東京都${area.ward}${tag}の記事一覧。${area.lead}を、施設の公式発表とプレスリリースで確かめてまとめている。これから開催のイベントは${events.length}件。`
+  : isNews
+    ? `中央区（晴海・勝どき・月島）と江東区（豊洲・有明・青海）のイベント・開業・生活の変化を毎朝まとめる湾岸ニュースの一覧。いまは${sorted.length}本、これから開催のイベントは${events.length}件。`
+    : `「${tag}」タグが付いた Daily Hack の記事一覧。`;
+const ld = wangan
+  ? {
+      '@context': 'https://schema.org',
+      '@type': 'CollectionPage',
+      name: title,
+      description,
+      url: `${site}/tags/${encodeURIComponent(tag)}/`,
+      inLanguage: 'ja',
+      dateModified: today,
+      ...(area ? { about: { '@type': 'Place', name: `東京都${area.ward}${tag}` } } : {}),
+      isPartOf: { '@type': 'CollectionPage', name: '湾岸ライフ', url: `${site}/category/wangan-life/` },
+      mainEntity: {
+        '@type': 'ItemList',
+        numberOfItems: sorted.length,
+        itemListElement: sorted.map((p, i) => ({ '@type': 'ListItem', position: i + 1, url: `${site}/posts/${p.id}/`, name: p.data.title })),
+      },
+    }
+  : null;
 ---
 
-<BaseLayout
-  title={`#${tag} の記事一覧`}
-  description={`「${tag}」タグが付いた Daily Hack の記事一覧。`}
->
+<BaseLayout title={title} description={description}>
+  {ld && <script slot="head" type="application/ld+json" set:html={JSON.stringify(ld)} />}
   <main class="wrap" style="padding: 48px 0;">
-    <Breadcrumb items={[
+    <Breadcrumb items={wangan ? [
+      { label: 'ホーム', href: '/' },
+      { label: '湾岸ライフ', href: '/category/wangan-life/' },
+      { label: area ? `${tag}（${area.ward}）` : tag },
+    ] : [
       { label: 'ホーム', href: '/' },
       { label: `#${tag}` },
     ]} />
-    <h1 style="font-family: 'RocknRoll One'; font-size: clamp(28px, 4vw, 40px); margin: 14px 0 8px;">#{tag}</h1>
+    <h1 style="font-family: 'RocknRoll One'; font-size: clamp(28px, 4vw, 40px); margin: 14px 0 8px;">{area ? `${tag}（${area.ward}）のイベントと暮らし` : isNews ? '湾岸ニュース' : `#${tag}`}</h1>
+    {wangan && <p style="color: var(--ink-2); font-size: 15px; margin: 0 0 12px;">{description}</p>}
+    {events.length > 0 && (
+      <section style="margin: 8px 0 28px;">
+        <h2 style="font-size: 20px; margin: 0 0 10px;">これから・開催中のイベント（{jpDate(today)}時点）</h2>
+        <ul style="margin: 0; padding-left: 18px; line-height: 1.9;">
+          {events.map((e) => (
+            <li><a href={`/posts/${e.post.id}/`} style="border-bottom: 1px dotted var(--pink-300);">{e.name}</a>：{jpRange(e.start, e.end)}・{e.place}{e.isFree ? '・無料' : ''}</li>
+          ))}
+        </ul>
+      </section>
+    )}
+    {wangan && (
+      <p style="font-size: 13px; margin: 0 0 20px;">ほかの地区は <a href="/category/wangan-life/#areas" style="border-bottom: 1px dotted var(--pink-300);">湾岸ライフの「地区から探す」</a> から。</p>
+    )}
     <p style="color: var(--ink-2); font-size: 15px; margin: 0 0 36px;">
       「<strong style="color: var(--pink-600);">{tag}</strong>」タグの記事 {sorted.length} 件。
     </p>
