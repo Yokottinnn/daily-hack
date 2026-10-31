@@ -1,15 +1,5 @@
 {
-  "generated": "2026-10-31T03:58:54.952Z",
-  "providers": {
-    "moshimo": {
-      "name": "もしもアフィリエイト",
-      "loggedIn": true,
-      "needsHuman": false,
-      "credentialsInKeychain": true,
-      "reason": "",
-      "url": "https://af.moshimo.com/af/shop/index",
-      "title": "メディアオーナートップページ ｜ もしもアフィリエイト",
-      "menus": 9
-    }
-  }
+  "generated": "2026-10-31T06:30:59.548Z",
+  "providers": {},
+  "error": "Chrome が CDP 18810 で応答しない"
 }

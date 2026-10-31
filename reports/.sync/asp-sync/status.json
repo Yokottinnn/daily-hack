@@ -1,16 +1,5 @@
 {
-  "generated": "2026-10-19T23:51:34.174Z",
-  "providers": {
-    "a8": {
-      "name": "A8.net",
-      "loggedIn": true,
-      "needsHuman": false,
-      "credentialsInKeychain": true,
-      "reason": "",
-      "url": "https://media-console.a8.net/program/list/partnered",
-      "title": "参加中プログラム｜A8.netメディア管理画面",
-      "partnered": 73,
-      "menus": 40
-    }
-  }
+  "generated": "2026-10-31T06:27:43.551Z",
+  "providers": {},
+  "error": "Chrome が CDP 18810 で応答しない"
 }

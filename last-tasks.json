@@ -1,1 +1,7 @@
-[]
+[
+      {"task": "t391-a8-banners.sh", "rc": 0, "out": "}  Node.js v26.0.0 probe rc=1 ```"},
+      {"task": "t392-a8-banners.sh", "rc": 0, "out": "}  Node.js v26.0.0 probe rc=1 ```"},
+      {"task": "t393-asp-search-wide1.sh", "rc": 0, "out": " Node.js v26.0.0 ``` - 詳細: `reports/asp-search/`（a8.md・moshimo.md・vc.md） rc=1 /     1099 bytes"},
+      {"task": "t394-asp-search-wide2.sh", "rc": 0, "out": " Node.js v26.0.0 ``` - 詳細: `reports/asp-search/`（a8.md・moshimo.md・vc.md） rc=1 /     1099 bytes"},
+      {"task": "t420-asp-search-wide3.sh", "rc": 0, "out": " Node.js v26.0.0 ``` - 詳細: `reports/asp-search/`（a8.md・moshimo.md・vc.md） rc=1 /     1099 bytes"}
+  ]

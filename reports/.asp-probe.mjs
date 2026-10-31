@@ -484,6 +484,28 @@ try {
       lines.push(`- 広告リンクの画面: ${here()}（${(await p.title()).slice(0, 30)}）`, `- コード ${codes.length} 件`, ...codes.map((c) => '```html\n' + c + '\n```'), ...(ui.length ? ['- コードが無いときの画面の部品: ' + ui.filter((x) => !NG.test(x)).join(' / ')] : []), '');
     }
   }
+  if (WHICH === 'a8banners') {
+    // **読むだけ（2026-10-31・blog3）。** 記事の広告の横に置く A8 のバナー（300×250 など）のコードを集める。
+    // 広告リンク作成の画面（a8.md のメニューにある create-link）を開き、bgt（バナー画像）を含むコードだけを拾う。押すのはページ送りのリンクだけ
+    const res = [];
+    for (const id of (process.env.A8_IDS || '').split(',').filter(Boolean)) {
+      await go(`https://media-console.a8.net/program/create-link?programId=${id}`);
+      const name = (await p.title()).slice(0, 80);
+      const got = new Map();
+      for (let pg = 0; pg < 4; pg++) {
+        const codes = await p.evaluate(() => [...document.querySelectorAll('textarea, input[type=text], pre, code')].map((t) => (t.value || t.textContent || '').trim()).filter((v) => /svt\/bgt/.test(v) && /a8mat=/.test(v)));
+        for (const c of codes) { const w = (c.match(/width="(\d+)"/) || [])[1], h = (c.match(/height="(\d+)"/) || [])[1]; got.set(c, { w: +w || null, h: +h || null, code: c.replace(/\s+/g, ' ').slice(0, 900) }); }
+        const next = await p.$('a[rel=next], a:has-text("次へ"), button:has-text("次へ")');
+        if (!next) break;
+        await next.click().catch(() => {}); await p.waitForTimeout(2500);
+      }
+      const list = [...got.values()];
+      const ui = list.length ? [] : await p.evaluate(() => [...document.querySelectorAll('select, input[type=radio], label, button, a')].filter((e) => e.offsetWidth && /バナー|画像|テキスト|サイズ|素材|種類|300|250/.test(e.innerText || e.value || [...(e.options || [])].map((o) => o.text).join('|'))).map((e) => e.tagName === 'SELECT' ? `select[name=${e.name}]〔${[...e.options].map((o) => o.text.trim()).slice(0, 12).join('|')}〕` : `${e.tagName.toLowerCase()}「${(e.innerText || e.value || '').trim().slice(0, 30)}」→${(e.href || '').slice(0, 90)}`).slice(0, 30));
+      res.push({ id, name, banners: list, ui });
+      lines.push(`### ${id} ${name}`, `- 画面: ${here()}`, `- バナー ${list.length} 件（${list.map((x) => `${x.w}x${x.h}`).join('・')}）`, ...(ui.length ? ['- バナーが無いときの画面の部品: ' + ui.filter((x) => !NG.test(x)).join(' / ')] : []), '');
+    }
+    fs.writeFileSync(path.join(OUT, process.env.A8_OUT || 'a8banners.json'), JSON.stringify({ generated: new Date().toISOString(), programs: res }, null, 1));
+  }
   if (WHICH === 'vcsite') {
     // **読むだけ（t318）。** VC に登録したサイトの URL と、LinkSwitch のブロック設定・提携候補先の画面を読む（LinkSwitch が差し替えない理由を探す）
     await go('https://aff.valuecommerce.ne.jp/account/site/3776384');
