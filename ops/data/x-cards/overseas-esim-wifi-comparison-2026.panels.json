@@ -1,0 +1,17 @@
+{
+  "_doc": "X 告知用の正方形画像。node scripts/gen-x-panels.mjs ops/data/x-cards/overseas-esim-wifi-comparison-2026.panels.json",
+  "_note": "素材は記事の数字と各社のロゴ（記事の logos/）だけ。出所の行は出さない（x-post-images §3）。数字は 2026-10-16 時点",
+  "imageBase": "public/images/overseas-esim-wifi-comparison-2026",
+  "out": "public/images/overseas-esim-wifi-comparison-2026/x",
+  "theme": "rose",
+  "panels": [
+    {
+      "file": "1-order.jpg",
+      "kind": "html",
+      "noHeader": true,
+      "html": "<div class=\"wrap\"><div class=\"k\">韓国・台湾・ハワイ・タイ 4泊5日の通信</div><div class=\"t\">いちばん安いのは<br><em>何も買わない 0円</em></div><div class=\"list\"><div class=\"r a\"><div class=\"no\">1</div><div class=\"tx\"><b>まず、今の契約の無料枠を見る</b><div class=\"lgs\"><img src=\"logos/docomo.png\"><img src=\"logos/ahamo.png\"><img src=\"logos/au.png\"><img src=\"logos/rakutenmobile.png\"><img src=\"logos/softbank.png\"></div><span>ドコモ MAX・ahamo は30GB・15日まで／楽天モバイルは月2GBまで／ソフトバンクはハワイが追加料金なし</span></div><div class=\"yen\">0<small>円</small></div></div><div class=\"r\"><div class=\"no\">2</div><div class=\"tx\"><b>無料枠が無い1人旅なら eSIM</b><div class=\"lgs\"><img src=\"logos/trifa.png\"><i>トリファ</i></div><span>7日間3GB。4か国とも同額・1日あたり392円</span></div><div class=\"yen\">1,960<small>円</small></div></div><div class=\"r\"><div class=\"no\">3</div><div class=\"tx\"><b>みんなで使い放題なら 海外WiFi</b><div class=\"lgs\"><img src=\"logos/sakuramobile.png\"></div><span>台湾・タイは5日分。5台までつなげる</span></div><div class=\"yen\">3,400<small>円</small></div></div></div></div>",
+      "note": "2026年10月16日時点の各社公式サイトの料金。対象プランや条件は各社で違うので、<b>出発前に自分の契約を確認</b>。",
+      "css": "main{padding:0;height:1080px;display:block}\n.wrap{position:relative;height:1080px;padding:56px 60px 0;background:radial-gradient(circle at 10% 20%,rgba(214,62,118,.12),transparent 45%),radial-gradient(circle at 92% 80%,rgba(245,197,24,.16),transparent 48%),var(--cream)}\n.k{font-size:30px;font-weight:700;color:var(--ink-2);text-align:center}\n.t{font-size:62px;font-weight:900;line-height:1.24;text-align:center;margin-top:10px}\n.t em{font-style:normal;color:#D63E76}\n.note{position:absolute;left:60px;right:60px;bottom:40px;font-size:22px}\n.list{display:flex;flex-direction:column;gap:18px;margin-top:36px}\n.r{display:flex;gap:22px;align-items:center;background:#fff;border-radius:24px;padding:22px 26px;box-shadow:0 14px 30px -24px rgba(30,18,25,.45);border-left:14px solid #9a8a92}\n.r.a{border-left-color:#D63E76}\n.no{flex:0 0 64px;height:64px;border-radius:50%;background:#46293A;color:#fff;font-size:34px;font-weight:900;display:flex;align-items:center;justify-content:center}.r.a .no{background:#D63E76}\n.tx{flex:1}.tx b{display:block;font-size:31px;font-weight:900}\n.lgs{display:flex;gap:12px;align-items:center;margin:10px 0 6px}.lgs img{height:40px;max-width:150px;object-fit:contain}.lgs i{font-style:normal;font-size:26px;font-weight:900}\n.tx span{display:block;font-size:21px;color:var(--ink-2);line-height:1.5}\n.yen{font-size:50px;font-weight:900;color:#D63E76;white-space:nowrap}.yen small{font-size:26px}\n"
+    }
+  ]
+}
