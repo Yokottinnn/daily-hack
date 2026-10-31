@@ -400,8 +400,8 @@ tr[data-ccount]::after{top:4px;right:4px}
   <div class="eyebrow">ASP と案件</div>
   <h1>在庫は通信と旅行に厚く、カードとふるさと納税が空いている</h1>
   <div class="stamp" id="stamp-asp"><i></i><span>データを読み込み中</span></div>
-  <p class="lead">4 社とも Mac の Keychain で自動ログインし、毎日 提携状況と A8 の提携一覧を読み直します（LLM 不使用・$0）。<strong>表は毎日自動で入れ替わります。</strong></p>
-  <h2>4 社の状態</h2>
+  <p class="lead">5 社（A8・楽天・バリューコマース・もしも・Amazon アソシエイト）とも Mac の Keychain で自動ログインし、毎日 提携状況と A8 の提携一覧・審査中の件数を読み直します（LLM 不使用・$0）。A8 は前の回までに読んだ案件を控えにして、新しく提携した案件だけ詳細を開きます。<strong>表は毎日自動で入れ替わります。</strong></p>
+  <h2>5 社の状態</h2>
   <div class="tbl"><table><thead><tr><th>ASP</th><th>ログイン</th><th>メモ</th></tr></thead><tbody id="tbl-asp"><tr><td colspan="3" class="empty">データ待ち</td></tr></tbody></table></div>
   <h2>審査・手続きの待ち</h2>
   <ul class="plain" id="list-pending"><li class="empty">データ待ち</li></ul>
@@ -1195,7 +1195,8 @@ tr[data-ccount]::after{top:4px;right:4px}
     // ASP
     const M=S.manual||{};
     $('#tbl-asp').innerHTML=(M.asp||[]).map(a=>'<tr data-cid="asp.status.'+hash(a.name)+'"><td><b>'+esc(a.name)+'</b>'+(a.account?'（'+esc(a.account)+'）':'')+'</td><td><span class="pill ok">'+(a.login==='auto'?'自動':'手動')+'</span></td><td>'+esc(a.note||'')+(a.partnered!=null?'（提携 '+a.partnered+' 件）':'')+'</td></tr>').join('');
-    $('#list-pending').innerHTML=(M.pending||[]).map(p=>'<li data-cid="asp.pending.'+esc(p.key)+'">'+esc(p.label)+' — '+esc(p.since)+' から</li>').join('')||'<li>待ちはありません。</li>';
+    const A8=S.a8||{}; const autoPend=A8.applyingCount!=null?'<li data-cid="asp.pending.a8-applying"><b>A8 の審査中 '+fmtN(A8.applyingCount)+' 件</b>（提携中 '+fmtN(A8.total)+' 件・Mac が毎朝 A8 の「申込中プログラム」を数える）</li>':'';
+    $('#list-pending').innerHTML=autoPend+(M.pending||[]).map(p=>'<li data-cid="asp.pending.'+esc(p.key)+'">'+esc(p.label)+' — '+esc(p.since)+' から</li>').join('')||(autoPend?'':'<li>待ちはありません。</li>');
     renderA8(); renderAff(); renderNowHub(S); applyCounts();
   }
 
