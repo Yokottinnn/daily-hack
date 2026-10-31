@@ -466,6 +466,51 @@ tr[data-ccount]::after{top:4px;right:4px}
   </ul>
 </section>
 
+<!-- ============ アフィ記事の作り方 ============ -->
+<section class="page" data-page="playbook" data-title="アフィ記事の作り方" hidden>
+  <div class="eyebrow">アフィ記事の作り方（2026-10-31 導入）</div>
+  <h1>案件を先に選び、申し込む直前の 1 人に、3 つの判断材料を届けて、週に 1 か所だけ直す</h1>
+  <p class="lead" data-cid="playbook.lead">あなたが渡した運用マニュアル（PDF 50 ページ）を、daily-hack の手順に組み込みました。<strong>以後のアフィリエイト記事はすべてこの順番で作ります。</strong>手順の本体は daily-hack の <code>.claude/skills/affiliate-article/SKILL.md</code>（記事を書くセッションは必ず読む）、方針と案件カードは <code>docs/affiliate-playbook.md</code>、原本の写しは非公開の affiliate のリポジトリにあります。</p>
+  <div class="flow">
+    <div class="st"><div><h3>案件を選ぶ</h3><div class="who">affiliate</div><p>候補は 3 件だけ。<b>点数より先に必須条件</b>（対象者と無料の範囲・成果地点と否認条件・掲載先と表現の条件・提携状態とリンクの条件）。1 件につき 1 枚の<b>案件カード</b>を作り、空欄は「未確認」と書く。承認後は公式の方法でリンクを作り、<b>公開前に遷移先を実物で確かめる</b>。</p></div></div>
+    <div class="st"><div><h3>記事を作る</h3><div class="who">blog3（3 店比較は affiliate が商品データと根拠を先に用意）</div><p>読者は<b>「申し込む・買う直前の 1 人」</b>。困っている場面・試したこと・知りたい 3 つ・対象にしない人を書き、記事の約束を 1 文にする。疑問は 10 個出して<b>最初の記事で答える 3 つ</b>に絞る。<b>根拠台帳</b>で公式の事実・体験・読者の声・仮説・未確認を分ける。未利用なら調査型（架空の体験を作らない）。</p><p>構成は 6 段：① PR 表記 ② 誰の何の迷いに答えるか ③ 合いそうな人／合わなそうな人 ④ 疑問 3 つへの回答（根拠つき）⑤ 流れと事前の注意点 ⑥ 公式の対象条件を確かめる案内（ここに成果リンク・3 店ボタン）。</p></div></div>
+    <div class="st"><div><h3>読者に届ける</h3><div class="who">tweet2</div><p>プロフィールと固定投稿で「何が読めるか」を伝える。<b>1 記事から告知 30 本の候補</b>（悩み・準備・選び方・疑問・調査で分かったこと×6）。130 字前後に判断材料 1 つ・PR 表記。<b>数本ずつ出して反応を見る</b>。LINE で第三者の広告は配信しない（7 回の整理ガイドは公開記事のシリーズとして使う）。</p></div></div>
+    <div class="st"><div><h3>数字で育てる</h3><div class="who">affiliate</div><p>投稿の表示 → 記事 → 広告クリック → 発生 → 承認・否認・未確定 → 入金を分けて記録。<b>来週直すのは 1 か所だけ</b>。少数の成果で断定しない。承認率は同じ発生月で比べる。未確定の報酬を先取りしない。</p></div></div>
+  </div>
+  <h2 data-cid="playbook.cards">案件カード（最初の 3 件）</h2>
+  <p class="src">A8 の提携中から、無料で比較・相談できるサービスで、既存の記事（固定費・光回線・引っ越し）とつながるものを選んだ。報酬は広告側の条件。<b>「未確認」は A8 の案件ページで確かめてから記事に使う</b>（成果地点か媒体条件が不明なものは保留）。</p>
+  <div class="tbl"><table class="wf"><thead><tr><th>欄</th><th>① ガス屋の窓口</th><th>② エネピ（ガス）</th><th>③ auひかり</th></tr></thead><tbody>
+    <tr><td>報酬・成果地点</td><td>新規契約 20,000 円</td><td>切替完了 15,000 円</td><td>新規開通 30,000 円</td></tr>
+    <tr><td>読者・対象条件</td><td><span class="pill warn">未確認</span> 対象エリア・都市ガスかプロパンか</td><td><span class="pill warn">未確認</span> 対象エリア・個人か法人か</td><td><span class="pill warn">未確認</span> 提供エリア・戸建てか集合住宅か</td></tr>
+    <tr><td>読者の負担（無料の範囲）</td><td><span class="pill warn">未確認</span></td><td><span class="pill warn">未確認</span></td><td><span class="pill warn">未確認</span> 工事費の条件・解約金</td></tr>
+    <tr><td>期限・否認条件</td><td><span class="pill warn">未確認</span></td><td><span class="pill warn">未確認</span></td><td><span class="pill warn">未確認</span></td></tr>
+    <tr><td>媒体・表現</td><td><span class="pill warn">未確認</span></td><td><span class="pill warn">未確認</span></td><td><span class="pill warn">未確認</span></td></tr>
+    <tr><td>承認・支払</td><td><span class="pill ok">提携中</span></td><td><span class="pill ok">提携中</span></td><td><span class="pill ok">提携中</span></td></tr>
+    <tr><td>記事の切り口（案）</td><td>ガス代が高い家が、乗り換えの相談の前に調べておくこと</td><td>電気とガスの比較サイトで、切替の前に確かめること</td><td>引っ越し先で光回線を選ぶ前に確認する 3 つ（エリア・工事・解約）</td></tr>
+    <tr><td>次の確認</td><td colspan="3">A8 の案件ページで成果条件・否認条件・媒体条件を読む（affiliate・Mac で読むだけ）→ 埋まったら記事の候補として「記事の構想と進み具合」に足す</td></tr>
+  </tbody></table></div>
+  <h2 data-cid="playbook.check">公開前に、この表で文章を磨く</h2>
+  <div class="tbl"><table><thead><tr><th>そのまま出さない</th><th>確認して書く形</th></tr></thead><tbody>
+    <tr><td>予約するだけで報酬が入る</td><td>成果条件を満たし、承認後に報酬となる</td></tr>
+    <tr><td>絶対に◯◯できる</td><td>対象者・支援内容・確認できた対応範囲を説明する</td></tr>
+    <tr><td>無料だから何も失わない</td><td>無料の範囲・必要な時間・登録情報を説明する</td></tr>
+    <tr><td>誰でも月◯万円</td><td>試算の単価・件数・費用を分けて示す</td></tr>
+    <tr><td>使って人生が変わった</td><td>本人の記録がある事実と感想だけを書く</td></tr>
+    <tr><td>この保険・投資が一番いい</td><td>個別の推奨を避け、公式の相談対象と確認項目を示す</td></tr>
+    <tr><td>今だけ。残り◯名</td><td>根拠と期限を確認できなければ削除する</td></tr>
+  </tbody></table></div>
+  <ul class="plain"><li>広告と分かる表示が、記事・告知の見やすい場所にある</li><li>対象者・無料の範囲・注意点・出典が揃っている</li><li>リンク先が説明した内容と一致し、規約上使える媒体である（遷移先を実物で確かめる）</li></ul>
+  <h2 data-cid="playbook.week">週の運用</h2>
+  <div class="tbl"><table><thead><tr><th>曜日</th><th>作業</th><th>担当</th></tr></thead><tbody>
+    <tr><td>月</td><td>案件条件・終了通知・先週の数字を確認</td><td>affiliate（毎朝の定例）</td></tr>
+    <tr><td>火</td><td>読者の疑問を 1 つ補う記事更新</td><td>blog3</td></tr>
+    <tr><td>水</td><td>告知候補を作り、数本を確認して公開</td><td>tweet2</td></tr>
+    <tr><td>木</td><td>未確認事項・問い合わせ・リンクを整理</td><td>affiliate</td></tr>
+    <tr><td>金</td><td>週次分析と、来週の変更箇所を 1 つ決める</td><td>affiliate → この作戦室</td></tr>
+  </tbody></table></div>
+  <p class="src">2 案件目に進む条件：1 案件目の記事と導線が完成し条件の変更を追える／発生から確定までを記録できる／読者の反応から改善の理由を説明できる／既存記事を更新する時間を残せる。広げる単位は「隣の悩み」。</p>
+</section>
+
 <!-- ============ ルールと教訓 ============ -->
 <section class="page" data-page="rules" data-title="ルールと教訓" hidden>
   <div class="eyebrow">ルールと教訓</div>
