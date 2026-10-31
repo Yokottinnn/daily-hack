@@ -1,6 +1,6 @@
 # 3 店ボタンの Mac 側の準備: amazon-status（scripts/shop/mac-setup.mjs）
 
-生成: **2026-10-31T03:56:15.670Z**
+生成: **2026-10-31T03:59:07.519Z**
 
 - アソシエイト・セントラル: **入れている**（https://affiliate.amazon.co.jp/home）
 - 税務情報のアンケート: **未回答**（紹介料の支払いに必要）
@@ -50,4 +50,17 @@
 - 帯の部品: a「Amazonアソシエイト
 
 ツ」 ／ span「【11/4(水)9:00～】ス」 ／ a「セール会場はこちら。」 ／ amzn-ss-asin-filter-alert-header「ヘッダーテキスト」 ／ amzn-ss-asin-filter-alert-link「リンクテキスト」 ／ amzn-ss-text-link「リンク生成」 ／ amzn-ss-get-link-button「リンク生成」 ／ span「ストアID」 ／ span「dailyhack-22dai」 ／ a-autoid-0「dailyhack-22」 ／ span「dailyhack-22」 ／ a-autoid-0-announce「dailyhack-22」 ／ span「dailyhack-22」 ／ span「問い合わせ番号(追跡番号)」 ／ span「dailyhack-22dai」
+- 「リンク生成」を押したあとの帯の文字:
+  - Amazonアソシエイト ツールバー カテゴリー ドラッグストア 販売手数料率 5.00% 【11/4(水)9:00～】スマイルSale 開催！セール会場はこちら。 リンク生成
+  - Amazonアソシエイト ツールバー
+  - ドラッグストア
+  - 5.00%
+  - 【11/4(水)9:00～】スマイルSale 開催！セール会場はこちら。
+  - リンク生成
+  - リンク生成
+  - リンク生成
+  - ストアID dailyhack-22 dailyhack-22 問い合わせ番号(追跡番号) dailyhack-22 dailyhack-22 リンク形式 リンク形式の選択 ショートリンク 完全なリンク アフィリエイトリンクをコピー
+  - dailyhack-22
+  - dailyhack-22
+  - ショートリンク
 - サイトストライプのリンクが読めなかった
