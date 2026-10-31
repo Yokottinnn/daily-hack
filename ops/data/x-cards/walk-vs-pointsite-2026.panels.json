@@ -1,0 +1,17 @@
+{
+  "_doc": "X 告知用の正方形画像。node scripts/gen-x-panels.mjs ops/data/x-cards/walk-vs-pointsite-2026.panels.json",
+  "_note": "素材は記事の数字と各社のアイコン（記事の logos/）だけ。出所の行は出さない（x-post-images §3）。2026-10-16 時点",
+  "imageBase": "public/images/walk-vs-pointsite-2026",
+  "out": "public/images/walk-vs-pointsite-2026/x",
+  "theme": "plum",
+  "panels": [
+    {
+      "file": "1-30days.jpg",
+      "kind": "html",
+      "noHeader": true,
+      "html": "<div class=\"wrap\"><div class=\"k\">1日8,000歩 × 30日、まじめに歩いた額</div><div class=\"t\">1か月まじめに歩いて<br><em>10〜144円</em></div><div class=\"tbl\"><div class=\"r\"><span class=\"nm\"><img src=\"logos/arukuto.png\"></span><span class=\"nm tx\">aruku&amp;</span><span class=\"yen\">10円</span></div><div class=\"r\"><span class=\"nm\"><img src=\"logos/renobody.png\"></span><span class=\"nm tx\">RenoBody</span><span class=\"yen\">30円</span></div><div class=\"r\"><span class=\"nm\"><img src=\"logos/powl.png\"></span><span class=\"nm tx\">Powl</span><span class=\"yen\">48〜144円</span></div><div class=\"r vs\"><span class=\"nm\"><img src=\"logos/hapitas.png\"></span><span class=\"nm tx\">ハピタスの紹介特典<small>（入会＋3日ログイン）</small></span><span class=\"yen hot\">100pt</span></div></div><div class=\"one\">歩くのは体のため。<b>お金の入口はポイントサイト</b></div></div>",
+      "note": "歩数アプリは公式の条件から計算（抽選・くじは入れない）。ポイントサイトは友達紹介ページの条件（2026年10月16日時点）。",
+      "css": "main{padding:0;height:1080px;display:block}\n.wrap{position:relative;height:1080px;padding:56px 60px 0;background:radial-gradient(circle at 10% 20%,rgba(214,62,118,.12),transparent 45%),radial-gradient(circle at 92% 80%,rgba(245,197,24,.16),transparent 48%),var(--cream)}\n.k{font-size:29px;font-weight:700;color:var(--ink-2);text-align:center}\n.t{font-size:60px;font-weight:900;line-height:1.25;text-align:center;margin-top:10px}\n.t em{font-style:normal;color:#D63E76}\n.note{position:absolute;left:60px;right:60px;bottom:40px;font-size:22px}\n.tbl{margin-top:34px;background:#fff;border-radius:26px;padding:14px 28px;box-shadow:0 20px 40px -26px rgba(30,18,25,.4)}\n.h,.r{display:grid;align-items:center;gap:12px}\n.h{font-size:22px;color:var(--ink-2);font-weight:700;padding:8px 0;border-bottom:2px solid #eadde3}\n.r{padding:20px 0;border-bottom:2px dashed #eadde3}.r:last-child{border-bottom:0}\n.nm img{height:50px;max-width:260px;object-fit:contain}.nm.tx{font-size:31px;font-weight:900}\n.c{font-size:26px;font-weight:700;text-align:right}.c.hot{color:#D63E76;font-weight:900}.c.ok{color:#2f7d4f}\n.yen{text-align:right;font-size:40px;font-weight:900}.yen.hot{color:#D63E76}\n.one{margin-top:28px;text-align:center;font-size:31px;font-weight:700;background:#46293A;color:#fff;border-radius:18px;padding:18px 16px}.one b{color:#F5C518;font-weight:900}\n.r{grid-template-columns:110px 1fr 260px;padding:16px 0}.nm img{height:64px;width:100px;object-fit:contain;border-radius:14px}.nm.tx small{display:block;font-size:20px;color:var(--ink-2);font-weight:700}.r.vs{background:#fff3f7;margin:0 -28px;padding:18px 28px;border-radius:0 0 26px 26px}"
+    }
+  ]
+}
