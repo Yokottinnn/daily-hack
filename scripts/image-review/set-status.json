@@ -1,0 +1,9 @@
+{
+  "_doc": "レビューページの組ごとの状態。作戦室の「投稿準備中の下書き」は status が draft（または書いていない）組だけを出す。**投稿済みはキューの x_tweet_id（一次情報）で確かめてから書く**（CLAUDE.md 最上位ルール 11）。2026-10-31 に x387 でキューを読んで埋めた",
+  "cinema-toyosu": { "status": "posted", "ids": ["2115835952753201375"], "note": "blog-promo-20261029-cinema-toyosu-r7（x387）" },
+  "morning": { "status": "posted", "ids": ["2102732457930064353", "2102732550989115457"], "note": "blog-promo-20260923-morning-500-2026-v2（x387）" },
+  "follower-500": { "status": "posted", "ids": ["2111788774405570868"], "note": "blog-promo-20261018-follower-500（x387）" },
+  "hanabi-a": { "status": "done", "note": "東京湾大華火祭（10/24）は終わった。A〜C のうち 1 つが 2113405143467352421 で出ている（x387）" },
+  "hanabi-b": { "status": "done", "note": "hanabi-a と同じ" },
+  "hanabi-c": { "status": "done", "note": "hanabi-a と同じ" }
+}

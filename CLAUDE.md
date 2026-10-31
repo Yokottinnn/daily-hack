@@ -243,6 +243,14 @@ Claude が X に直接投稿することはない。確立している経路は�
   （`.claude/hooks/guard-post-approval.py`）。`git add -A` で足した投稿タスクも見る
 - 投稿済みで取りこぼしたものは `drafts.json` の `acknowledged` に理由つきで残す（黙って消さない）
 
+#### 作戦室に「投稿準備中の下書き」を常に出す（2026-10-31 に指示）
+
+> 作戦室に常に投稿レビューページのリンクや今投稿準備中の下書きを表示させるようにして
+
+- 作戦室（https://claude.ai/artifact/9KWGybrAHF7LtbQdVpw9YN）の「X での告知」の先頭と「全体像」に、レビューページへのリンクと未投稿の組を出している。中身は db の `xdrafts/current`
+- **レビューページを publish したら、毎回 `node scripts/image-review/board-drafts.mjs <出力>` を作って `xdrafts/current` に `set` する**（`if_version` を付ける）
+- **投稿したら `scripts/image-review/set-status.json` を `posted` にして（キューの x_tweet_id を見てから）書き換え直す。** 投稿済みが「準備中」に残ると、作戦室が嘘になる
+
 #### 草案は Slack に貼らない（2026-09-05 に指示）
 
 > スラックに画像が貼られていないので、以降もはや Slack に投稿内容の下書きは貼らなくていいよ。
