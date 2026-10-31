@@ -1,16 +1,15 @@
 {
-  "generated": "2026-10-31T09:14:23.996Z",
+  "generated": "2026-10-31T22:29:27.850Z",
   "providers": {
-    "a8": {
-      "name": "A8.net",
+    "moshimo": {
+      "name": "もしもアフィリエイト",
       "loggedIn": true,
       "needsHuman": false,
       "credentialsInKeychain": true,
       "reason": "",
-      "url": "https://media-console.a8.net/program/list/partnered",
-      "title": "参加中プログラム｜A8.netメディア管理画面",
-      "partnered": 100,
-      "menus": 40
+      "url": "https://af.moshimo.com/af/shop/index",
+      "title": "メディアオーナートップページ ｜ もしもアフィリエイト",
+      "menus": 9
     }
   }
 }

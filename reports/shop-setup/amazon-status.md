@@ -1,10 +1,10 @@
 # 3 店ボタンの Mac 側の準備: amazon-status（scripts/shop/mac-setup.mjs）
 
-生成: **2026-10-31T03:59:07.519Z**
+生成: **2026-10-31T22:29:38.507Z**
 
 - アソシエイト・セントラル: **入れている**（https://affiliate.amazon.co.jp/home）
 - 税務情報のアンケート: **未回答**（紹介料の支払いに必要）
-- ホームの「クリック」: 0
+- ホームの「クリック」: **1 以上**（数は出さない）
 - ホームの項目（数字は # に伏せる）:
   - 平素よりAmazonをご利用いただき、誠にありがとうございます。横田尚己
   - StoreID: dailyhack-#
@@ -45,8 +45,8 @@
   - ¥#
   - クリック数:
   - #
-  - 今月のレポート
-- 商品ページ: https://www.amazon.co.jp/mottole%EF%BC%88%E3%83%A2%E3%83%83%E3%83%88%E3%83%AB%E5%85%AC%E5%BC%8F%E5%BA%97%EF%BC%89-2025%E5%B9%B4%E6%96%B0%E8%89%B2-%E3%83%A2%E3%83%90%E3%82%A4%E3%83%AB%E3%83%90%E3%83%83%E3%83%86%E3%83%AA%E3%83%BC%E6%A9%9F%E8%83%BD%E4%BB%98%E3%81%8D-%E3%81%8F%E3%82%8A%E8%BF%94%E3%81%97%E4%BD%BF%E3%81%88%E3%82%8B-MTL-E029-DG/dp/B0FH9PLBLY/ref=sr_1_4・サイトストライプ: 出ている
+  - 先月のレポート
+- 商品ページ: https://www.amazon.co.jp/mottole%EF%BC%88%E3%83%A2%E3%83%83%E3%83%88%E3%83%AB%E5%85%AC%E5%BC%8F%E5%BA%97%EF%BC%89-2025%E5%B9%B4%E6%96%B0%E8%89%B2-%E3%83%A2%E3%83%90%E3%82%A4%E3%83%AB%E3%83%90%E3%83%83%E3%83%86%E3%83%AA%E3%83%BC%E6%A9%9F%E8%83%BD%E4%BB%98%E3%81%8D-%E3%81%8F%E3%82%8A%E8%BF%94%E3%81%97%E4%BD%BF%E3%81%88%E3%82%8B-MTL-E029-DG/dp/B0FH9PLBLY/ref=sr_1_3・サイトストライプ: 出ている
 - 帯の部品: a「Amazonアソシエイト
 
 ツ」 ／ span「【11/4(水)9:00～】ス」 ／ a「セール会場はこちら。」 ／ amzn-ss-asin-filter-alert-header「ヘッダーテキスト」 ／ amzn-ss-asin-filter-alert-link「リンクテキスト」 ／ amzn-ss-text-link「リンク生成」 ／ amzn-ss-get-link-button「リンク生成」 ／ span「ストアID」 ／ span「dailyhack-22dai」 ／ a-autoid-0「dailyhack-22」 ／ span「dailyhack-22」 ／ a-autoid-0-announce「dailyhack-22」 ／ span「dailyhack-22」 ／ span「問い合わせ番号(追跡番号)」 ／ span「dailyhack-22dai」
