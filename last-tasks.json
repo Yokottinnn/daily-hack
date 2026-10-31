@@ -1,4 +1,3 @@
 [
-      {"task": "t490-cleaning-commons-candidates.sh", "rc": 0, "out": "  window-2.jpg   4288x2848 [CC BY-SA 4.0] File:Un pompiste Petrom nettoie un pare-brise-photo Bertrand SOUBEYRAND.jpg   window-3.jpg   4000x2248 [CC BY 2.0] File:Window Cleaner The Shard.jpg ```  候補 **29 枚**。LLM を呼んでいない（$0）。"},
-      {"task": "t491-cleaning-logos-duskin.sh", "rc": 0, "out": " ReferenceError: p is not defined     at file:///Users/ny/.openclaw/ops-heartbeat-wt/reports/.t491-prices.mjs:8:3  Node.js v26.0.0"}
+      {"task": "t492-cleaning-logos-duskin.sh", "rc": 0, "out": "  - 40代　男性    - ご注意ください    - ※サービスカーの駐車スペースのご用意をお願いします。駐車できない場合は有料駐車場を利用するため、駐車料金をご負担いただきます。    - ※土曜日・日曜日・祝日に作業をご希望"}
   ]
