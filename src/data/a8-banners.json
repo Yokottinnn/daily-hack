@@ -1,5 +1,5 @@
 {
- "_note": "記事の広告の横・サイドバーの上に出す A8 のバナー（300×250）。2026-10-31 に t426・t427 で A8 の広告リンク作成画面から取った。match は記事の題名・タグ・説明に当てる正規表現。合う記事にだけ出す",
+ "_note": "記事の広告の横・サイドバーの上に出す A8 のバナー（300×250）。2026-10-31 に t426・t427（12 件）と t481〜t485（10/31 に提携した 25 件）で A8 の広告リンク作成画面から取った。match は記事の題名・タグ・説明に当てる正規表現。合う記事にだけ出す",
  "banners": [
   {
    "programId": "s00000017718004",
@@ -72,6 +72,156 @@
    "name": "MONSTER MOBILE",
    "match": "WiFi|Wi-Fi|ポケット|モバイルルーター|通信|ギガ|一人暮らし",
    "html": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B3Y38+26L9EI+348K+3YXBHD\" rel=\"nofollow\"> <img border=\"0\" width=\"300\" height=\"250\" alt=\"MONSTER MOBILE（PR）\" src=\"https://www25.a8.net/svt/bgt?aid=260524628132&wid=002&eno=01&mid=s00000014546024006000&mc=1\"></a> <img border=\"0\" width=\"1\" height=\"1\" src=\"https://www14.a8.net/0.gif?a8mat=4B3Y38+26L9EI+348K+3YXBHD\" alt=\"\">"
+  },
+  {
+   "programId": "s00000000218001",
+   "name": "一休.com",
+   "match": "ホテル|旅館|宿|温泉|連休|年末年始|紅葉|旅行|記念日",
+   "html": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4BESU9+B1PLNE+1OK+6F1WH\" rel=\"nofollow\"> <img border=\"0\" width=\"300\" height=\"250\" alt=\"一休.com（PR）\" src=\"https://www28.a8.net/svt/bgt?aid=261031041668&wid=002&eno=01&mid=s00000000218001078000&mc=1\"></a> <img border=\"0\" width=\"1\" height=\"1\" src=\"https://www14.a8.net/0.gif?a8mat=4BESU9+B1PLNE+1OK+6F1WH\" alt=\"\">"
+  },
+  {
+   "programId": "s00000023244001",
+   "name": "Yahoo!トラベル",
+   "match": "ホテル|旅館|宿|温泉|旅行|PayPay|連休|年末年始",
+   "html": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4BESU9+B5VMVU+4ZCO+65ME9\" rel=\"nofollow\"> <img border=\"0\" width=\"300\" height=\"250\" alt=\"Yahoo!トラベル（PR）\" src=\"https://www29.a8.net/svt/bgt?aid=261031041675&wid=002&eno=01&mid=s00000023244001034000&mc=1\"></a> <img border=\"0\" width=\"1\" height=\"1\" src=\"https://www17.a8.net/0.gif?a8mat=4BESU9+B5VMVU+4ZCO+65ME9\" alt=\"\">"
+  },
+  {
+   "programId": "s00000004570004",
+   "name": "日本旅行",
+   "match": "旅行|ツアー|国内旅行|連休|年末年始|GW|紅葉",
+   "html": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4BESU9+BET4YI+Z9G+NYP3L\" rel=\"nofollow\"> <img border=\"0\" width=\"300\" height=\"250\" alt=\"日本旅行（PR）\" src=\"https://www20.a8.net/svt/bgt?aid=261031041690&wid=002&eno=01&mid=s00000004570004025000&mc=1\"></a> <img border=\"0\" width=\"1\" height=\"1\" src=\"https://www10.a8.net/0.gif?a8mat=4BESU9+BET4YI+Z9G+NYP3L\" alt=\"\">"
+  },
+  {
+   "programId": "s00000013798001",
+   "name": "エアトリ",
+   "match": "航空券|LCC|飛行機|海外旅行|年末年始|帰省",
+   "html": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4BESU9+BK61EI+2YGS+609HT\" rel=\"nofollow\"> <img border=\"0\" width=\"300\" height=\"250\" alt=\"エアトリ（PR）\" src=\"https://www28.a8.net/svt/bgt?aid=261031041699&wid=002&eno=01&mid=s00000013798001009000&mc=1\"></a> <img border=\"0\" width=\"1\" height=\"1\" src=\"https://www13.a8.net/0.gif?a8mat=4BESU9+BK61EI+2YGS+609HT\" alt=\"\">"
+  },
+  {
+   "programId": "s00000001343016",
+   "name": "エアトリプラス",
+   "match": "航空券|ホテル|帰省|連休|年末年始|旅行",
+   "html": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4BESU9+B5A7A2+AD2+2NBA8H\" rel=\"nofollow\"> <img border=\"0\" width=\"300\" height=\"250\" alt=\"エアトリプラス（PR）\" src=\"https://www23.a8.net/svt/bgt?aid=261031041674&wid=002&eno=01&mid=s00000001343016009000&mc=1\"></a> <img border=\"0\" width=\"1\" height=\"1\" src=\"https://www17.a8.net/0.gif?a8mat=4BESU9+B5A7A2+AD2+2NBA8H\" alt=\"\">"
+  },
+  {
+   "programId": "s00000022946004",
+   "name": "アゴダ",
+   "match": "航空券|海外旅行|ホテル|LCC",
+   "html": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4BESU9+B7NXP6+4X1W+NU729\" rel=\"nofollow\"> <img border=\"0\" width=\"300\" height=\"250\" alt=\"アゴダ（PR）\" src=\"https://www24.a8.net/svt/bgt?aid=261031041678&wid=002&eno=01&mid=s00000022946004004000&mc=1\"></a> <img border=\"0\" width=\"1\" height=\"1\" src=\"https://www15.a8.net/0.gif?a8mat=4BESU9+B7NXP6+4X1W+NU729\" alt=\"\">"
+  },
+  {
+   "programId": "s00000026058001",
+   "name": "Saily",
+   "match": "海外|eSIM|海外旅行",
+   "html": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4BESU9+BG0062+5L2C+5YZ75\" rel=\"nofollow\"> <img border=\"0\" width=\"300\" height=\"250\" alt=\"Saily（PR）\" src=\"https://www27.a8.net/svt/bgt?aid=261031041692&wid=002&eno=01&mid=s00000026058001003000&mc=1\"></a> <img border=\"0\" width=\"1\" height=\"1\" src=\"https://www13.a8.net/0.gif?a8mat=4BESU9+BG0062+5L2C+5YZ75\" alt=\"\">"
+  },
+  {
+   "programId": "s00000017964001",
+   "name": "LIBMO",
+   "match": "格安SIM|スマホ|携帯|通信費|SIM",
+   "html": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4BESU9+6DTD22+3UM0+609HT\" rel=\"nofollow\"> <img border=\"0\" width=\"300\" height=\"250\" alt=\"LIBMO（PR）\" src=\"https://www21.a8.net/svt/bgt?aid=261031041386&wid=002&eno=01&mid=s00000017964001009000&mc=1\"></a> <img border=\"0\" width=\"1\" height=\"1\" src=\"https://www19.a8.net/0.gif?a8mat=4BESU9+6DTD22+3UM0+609HT\" alt=\"\">"
+  },
+  {
+   "programId": "s00000027309001",
+   "name": "ロケットモバイル",
+   "match": "格安SIM|スマホ|携帯|通信費|SIM",
+   "html": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4BESU9+6KD4PM+5UPU+5YZ75\" rel=\"nofollow\"> <img border=\"0\" width=\"300\" height=\"250\" alt=\"ロケットモバイル（PR）\" src=\"https://www28.a8.net/svt/bgt?aid=261031041397&wid=002&eno=01&mid=s00000027309001003000&mc=1\"></a> <img border=\"0\" width=\"1\" height=\"1\" src=\"https://www13.a8.net/0.gif?a8mat=4BESU9+6KD4PM+5UPU+5YZ75\" alt=\"\">"
+  },
+  {
+   "programId": "s00000008091019",
+   "name": "DTI 光",
+   "match": "光回線|ネット回線|インターネット|固定回線",
+   "html": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4BESU9+6ZUEFU+1QFI+355UY9\" rel=\"nofollow\"> <img border=\"0\" width=\"300\" height=\"250\" alt=\"DTI 光（PR）\" src=\"https://www24.a8.net/svt/bgt?aid=261031041423&wid=002&eno=01&mid=s00000008091019007000&mc=1\"></a> <img border=\"0\" width=\"1\" height=\"1\" src=\"https://www19.a8.net/0.gif?a8mat=4BESU9+6ZUEFU+1QFI+355UY9\" alt=\"\">"
+  },
+  {
+   "programId": "s00000022801001",
+   "name": "イツキ光",
+   "match": "光回線|ネット回線|インターネット|キャッシュバック",
+   "html": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4BESU9+6OJ5Y2+4VXM+5ZU29\" rel=\"nofollow\"> <img border=\"0\" width=\"300\" height=\"250\" alt=\"イツキ光（PR）\" src=\"https://www27.a8.net/svt/bgt?aid=261031041404&wid=002&eno=01&mid=s00000022801001007000&mc=1\"></a> <img border=\"0\" width=\"1\" height=\"1\" src=\"https://www13.a8.net/0.gif?a8mat=4BESU9+6OJ5Y2+4VXM+5ZU29\" alt=\"\">"
+  },
+  {
+   "programId": "s00000020187002",
+   "name": "ギガWi-Fi",
+   "match": "Wi-?Fi|ポケット|モバイルルーター|ネット回線",
+   "html": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4BESU9+7U7IAI+4BRI+BXYE9\" rel=\"nofollow\"> <img border=\"0\" width=\"300\" height=\"250\" alt=\"ギガWi-Fi（PR）\" src=\"https://www20.a8.net/svt/bgt?aid=261031041474&wid=002&eno=01&mid=s00000020187002006000&mc=1\"></a> <img border=\"0\" width=\"1\" height=\"1\" src=\"https://www13.a8.net/0.gif?a8mat=4BESU9+7U7IAI+4BRI+BXYE9\" alt=\"\">"
+  },
+  {
+   "programId": "s00000023934001",
+   "name": "au PAY ふるさと納税",
+   "match": "ふるさと納税|Ponta|au PAY",
+   "html": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4BESU9+99ESBE+54OC+5ZMCH\" rel=\"nofollow\"> <img border=\"0\" width=\"300\" height=\"250\" alt=\"au PAY ふるさと納税（PR）\" src=\"https://www25.a8.net/svt/bgt?aid=261031041560&wid=002&eno=01&mid=s00000023934001006000&mc=1\"></a> <img border=\"0\" width=\"1\" height=\"1\" src=\"https://www19.a8.net/0.gif?a8mat=4BESU9+99ESBE+54OC+5ZMCH\" alt=\"\">"
+  },
+  {
+   "programId": "s00000025743001",
+   "name": "ふるさと本舗",
+   "match": "ふるさと納税|返礼品|特産品",
+   "html": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4BESU9+9CZDY2+5IMU+60WN5\" rel=\"nofollow\"> <img border=\"0\" width=\"300\" height=\"250\" alt=\"ふるさと本舗（PR）\" src=\"https://www24.a8.net/svt/bgt?aid=261031041566&wid=002&eno=01&mid=s00000025743001012000&mc=1\"></a> <img border=\"0\" width=\"1\" height=\"1\" src=\"https://www12.a8.net/0.gif?a8mat=4BESU9+9CZDY2+5IMU+60WN5\" alt=\"\">"
+  },
+  {
+   "programId": "s00000020819010",
+   "name": "ガーデン（FP相談）",
+   "match": "資産|NISA|投資|保険|老後|貯金|家計",
+   "html": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4BESU9+A65ML6+4GN2+1NKF2P\" rel=\"nofollow\"> <img border=\"0\" width=\"300\" height=\"250\" alt=\"ガーデン（FP相談）（PR）\" src=\"https://www24.a8.net/svt/bgt?aid=261031041615&wid=002&eno=01&mid=s00000020819010005000&mc=1\"></a> <img border=\"0\" width=\"1\" height=\"1\" src=\"https://www17.a8.net/0.gif?a8mat=4BESU9+A65ML6+4GN2+1NKF2P\" alt=\"\">"
+  },
+  {
+   "programId": "s00000017634001",
+   "name": "保険ランドリー",
+   "match": "保険|家計|固定費|節約",
+   "html": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4BESU9+BB8JBU+3S2C+60WN5\" rel=\"nofollow\"> <img border=\"0\" width=\"300\" height=\"250\" alt=\"保険ランドリー（PR）\" src=\"https://www25.a8.net/svt/bgt?aid=261031041684&wid=002&eno=01&mid=s00000017634001012000&mc=1\"></a> <img border=\"0\" width=\"1\" height=\"1\" src=\"https://www19.a8.net/0.gif?a8mat=4BESU9+BB8JBU+3S2C+60WN5\" alt=\"\">"
+  },
+  {
+   "programId": "s00000000488017",
+   "name": "Oisix おためしセット",
+   "match": "食材|宅配|有機|スーパー|お試し|野菜",
+   "html": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4BESUA+WQVTM+3RK+2TXU75\" rel=\"nofollow\"> <img border=\"0\" width=\"300\" height=\"250\" alt=\"Oisix おためしセット（PR）\" src=\"https://www29.a8.net/svt/bgt?aid=261031042055&wid=002&eno=01&mid=s00000000488017122000&mc=1\"></a> <img border=\"0\" width=\"1\" height=\"1\" src=\"https://www17.a8.net/0.gif?a8mat=4BESUA+WQVTM+3RK+2TXU75\" alt=\"\">"
+  },
+  {
+   "programId": "s00000000488020",
+   "name": "oisix おせち",
+   "match": "おせち|年末年始|正月|お取り寄せ",
+   "html": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4BESUA+2DQGNU+3RK+3BK1ZL\" rel=\"nofollow\"> <img border=\"0\" width=\"300\" height=\"250\" alt=\"oisix おせち（PR）\" src=\"https://www27.a8.net/svt/bgt?aid=261031042144&wid=002&eno=01&mid=s00000000488020081000&mc=1\"></a> <img border=\"0\" width=\"1\" height=\"1\" src=\"https://www14.a8.net/0.gif?a8mat=4BESUA+2DQGNU+3RK+3BK1ZL\" alt=\"\">"
+  },
+  {
+   "programId": "s00000021712001",
+   "name": "Jackery ポータブル電源",
+   "match": "ポータブル電源|防災|停電|モバイルバッテリー|キャンプ|アウトドア|災害|充電",
+   "html": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4BESU9+EHJRH6+4NJ4+67RK1\" rel=\"nofollow\"> <img border=\"0\" width=\"300\" height=\"250\" alt=\"Jackery ポータブル電源（PR）\" src=\"https://www27.a8.net/svt/bgt?aid=261031041876&wid=002&eno=01&mid=s00000021712001044000&mc=1\"></a> <img border=\"0\" width=\"1\" height=\"1\" src=\"https://www17.a8.net/0.gif?a8mat=4BESU9+EHJRH6+4NJ4+67RK1\" alt=\"\">"
+  },
+  {
+   "programId": "s00000023371001",
+   "name": "アルファー食品（非常食）",
+   "match": "防災|非常食|備蓄|災害|キャンプ|登山",
+   "html": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4BESU9+EEKLGA+50BY+631SX\" rel=\"nofollow\"> <img border=\"0\" width=\"300\" height=\"250\" alt=\"アルファー食品（非常食）（PR）\" src=\"https://www23.a8.net/svt/bgt?aid=261031041871&wid=002&eno=01&mid=s00000023371001022000&mc=1\"></a> <img border=\"0\" width=\"1\" height=\"1\" src=\"https://www12.a8.net/0.gif?a8mat=4BESU9+EEKLGA+50BY+631SX\" alt=\"\">"
+  },
+  {
+   "programId": "s00000020428001",
+   "name": "シャディギフトモール",
+   "match": "ギフト|お歳暮|贈り物|内祝|お返し|お中元",
+   "html": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4BESUA+2T7QE2+4DMG+5ZMCH\" rel=\"nofollow\"> <img border=\"0\" width=\"300\" height=\"250\" alt=\"シャディギフトモール（PR）\" src=\"https://www25.a8.net/svt/bgt?aid=261031042170&wid=002&eno=01&mid=s00000020428001006000&mc=1\"></a> <img border=\"0\" width=\"1\" height=\"1\" src=\"https://www17.a8.net/0.gif?a8mat=4BESUA+2T7QE2+4DMG+5ZMCH\" alt=\"\">"
+  },
+  {
+   "programId": "s00000019409001",
+   "name": "ソウ・エクスペリエンス",
+   "match": "ギフト|プレゼント|クリスマス|体験|記念日",
+   "html": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4BESU9+EV8QE2+45RE+5ZMCH\" rel=\"nofollow\"> <img border=\"0\" width=\"300\" height=\"250\" alt=\"ソウ・エクスペリエンス（PR）\" src=\"https://www23.a8.net/svt/bgt?aid=261031041899&wid=002&eno=01&mid=s00000019409001006000&mc=1\"></a> <img border=\"0\" width=\"1\" height=\"1\" src=\"https://www17.a8.net/0.gif?a8mat=4BESU9+EV8QE2+45RE+5ZMCH\" alt=\"\">"
+  },
+  {
+   "programId": "s00000026076001",
+   "name": "ノジマのスマホ買取",
+   "match": "買取|機種変更|iPhone|スマホ|下取り",
+   "html": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4BESU9+6RIBYY+5L7C+5YZ75\" rel=\"nofollow\"> <img border=\"0\" width=\"300\" height=\"250\" alt=\"ノジマのスマホ買取（PR）\" src=\"https://www24.a8.net/svt/bgt?aid=261031041409&wid=002&eno=01&mid=s00000026076001003000&mc=1\"></a> <img border=\"0\" width=\"1\" height=\"1\" src=\"https://www18.a8.net/0.gif?a8mat=4BESU9+6RIBYY+5L7C+5YZ75\" alt=\"\">"
+  },
+  {
+   "programId": "s00000020962001",
+   "name": "ユアマイスター",
+   "match": "掃除|大掃除|クリーニング|エアコン",
+   "html": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4BESUA+55RAAI+4HQS+601S1\" rel=\"nofollow\"> <img border=\"0\" width=\"300\" height=\"250\" alt=\"ユアマイスター（PR）\" src=\"https://www25.a8.net/svt/bgt?aid=261031042312&wid=002&eno=01&mid=s00000020962001008000&mc=1\"></a> <img border=\"0\" width=\"1\" height=\"1\" src=\"https://www12.a8.net/0.gif?a8mat=4BESUA+55RAAI+4HQS+601S1\" alt=\"\">"
+  },
+  {
+   "programId": "s00000015623001",
+   "name": "audiobook.jp",
+   "match": "読書|オーディオブック|書籍|電子書籍|本を読|ラジオ|ポッドキャスト",
+   "html": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4BESUA+758T6+3CJQ+6FHC1\" rel=\"nofollow\"> <img border=\"0\" width=\"300\" height=\"250\" alt=\"audiobook.jp（PR）\" src=\"https://www25.a8.net/svt/bgt?aid=261031042012&wid=002&eno=01&mid=s00000015623001080000&mc=1\"></a> <img border=\"0\" width=\"1\" height=\"1\" src=\"https://www17.a8.net/0.gif?a8mat=4BESUA+758T6+3CJQ+6FHC1\" alt=\"\">"
   }
  ]
 }
