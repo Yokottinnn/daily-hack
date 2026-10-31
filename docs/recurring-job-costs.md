@@ -733,3 +733,8 @@ DOM 操作だけなので、**稼働させても追加の API 費用は発生し
 
 - **初回の実行（2026-10-30 21:58 JST・手動）**: Yandex は 202（受け付け）。**Bing と api.indexnow.org は 403**（`UserForbiddedToAccessSite`「鍵でサイトを確認してから送って」）。
   鍵のファイル（`/df56d1afacabdd5edec8fe88e54ccdd5.txt`）は bingbot の名乗りでも 200 で開ける。Bing Webmaster Tools にサイトが登録されていないことが原因の候補。登録は利用者のアカウント操作
+
+## 翌週の X 投稿の準備（毎週木曜 19:41 JST・2026-10-31 から）
+
+- 仕組み: この会話（tweet2）への自分宛ての予約 `trig_0182eMzP8gG1etkUEv5iCCb8`。翌週の月〜金に出す 5 本をレビューページに出す。予約・投稿はしない
+- 費用: **Console 課金 1 回 $0・1 日 $0・1 か月 $0**（LLM の API は呼ばない。Claude Code のプランの利用枠を週 1 回使う）
