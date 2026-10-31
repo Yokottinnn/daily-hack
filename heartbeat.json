@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T08:12:24Z",
+  "generated_at": "2026-10-31T08:44:14Z",
   "login_lock": {"present": false, "age_hours": 0},
   "cdp": {"healthy": true, "port": 18810},
   "x_jobs": {"loaded": 8, "expected": 8, "ai_total": 15, "halted": false, "missing": []},
@@ -38,13 +38,7 @@
   ],
   "reconnect": "既に起動している",
   "tasks": [
-      {"task": "t452-a8-apply-wide.sh", "rc": 0, "out": ""},
-      {"task": "t453-a8-apply-wide.sh", "rc": 0, "out": "- 押したあとの画面: https://media-console.a8.net/common/system-error   - エラーが発生しました   - 提携申請が失敗しました。   - エラー番号:(ERROR-82e4ef66-2722-46b1-9d97-d815462a8f98)   - 本画面が頻繁に表示されるようでしたら、エラー番号�"},
-      {"task": "t454-a8-apply-wide.sh", "rc": 0, "out": ""},
-      {"task": "t455-a8-apply-wide.sh", "rc": 0, "out": ""},
-      {"task": "t456-a8-apply-wide.sh", "rc": 0, "out": "### s00000007992006 - 押したあとの画面: https://media-console.a8.net/common/system-error   - エラーが発生しました   - 提携申請が失敗しました。   - エラー番号:(ERROR-878d0252-4a5f-4b5b-843c-"},
-      {"task": "t457-a8-apply-wide.sh", "rc": 0, "out": "  - プログラム提携申請完了   - 未提携のものから提携中のものまですべての広告プログラムが検索できます   - 提携を申請しました   - 即時提携プログラムでも、過去のご利用状況によっては審査される場合がございます。  "},
-      {"task": "t458-a8-apply-wide.sh", "rc": 0, "out": ""}
+      {"task": "t471-a8-apply-retry.sh", "rc": 0, "out": ""}
   ],
   "running": null,
   "auth": {
