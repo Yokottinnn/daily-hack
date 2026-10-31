@@ -357,7 +357,13 @@ references:
 
 ## 実際に買った人の声と動画｜プライム感謝祭
 
-感謝祭で実際に何が買われたかを、動画で見ておく。
+実際に使っている人の投稿と動画で補っておく。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">2026年Amazonプライム感謝祭 攻略ガイド。ポイント最大18％ お得に買うならコレしかない 詳細は、リプ欄に↓↓</p>&mdash; あきにい (@kigurumi_m) <a href="https://twitter.com/kigurumi_m/status/2110478249931223278">2026年10月15日</a></blockquote>
+
+**2026年のプライム感謝祭でポイントを最大 18% にする**攻略の投稿。
+
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <div class="yt-embed">
 <iframe src="https://www.youtube-nocookie.com/embed/eevZ1hSMdIA" title="【本日最終日】視聴者が選ぶ！Amazon プライム感謝祭2026売れ筋ランキングTop30！（カジェログ（かじかじ）｜元イヤホン専門店スタッフ）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
@@ -371,7 +377,7 @@ Amazon プライム感謝祭 2026 で、視聴者が選んだ売れ筋のラン�
 
 感謝祭の先行セールで、自腹で買ったガジェットを実機で紹介している。
 
-<p class="source-note">埋め込んだ YouTube は、2026年10月31日に oEmbed でタイトルと投稿者を照合し、実在を確かめたもの。投稿した人の個人の感想・撮影時点の内容で、この記事の数字とは別のもの。</p>
+<p class="source-note">引用した X の投稿は、2026年10月31日に本文・投稿者・日付を確かめたもの。埋め込んだ YouTube は oEmbed でタイトルと投稿者を照合し、実在を確かめたもの。どちらも投稿した人の個人の感想・撮影時点の内容で、この記事の数字とは別のもの。</p>
 
 ## よくある質問｜Amazonプライム感謝祭と楽天お買い物マラソン
 
