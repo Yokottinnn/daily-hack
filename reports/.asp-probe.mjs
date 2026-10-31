@@ -351,6 +351,23 @@ try {
     }
   }
 
+  if (WHICH === 'a8linkcheck') {
+    // **読むだけ（2026-10-31・利用者「セルフバックのバナーじゃないよね？」）。** バナーのコードを取った画面が、
+    // 提携サイト向けの「広告リンク作成」か、本人購入の「セルフバック」かを、画面の表題・見出し・選択中のサイト名で確かめる
+    for (const id of (process.env.A8_IDS || '').split(',').filter(Boolean)) {
+      const u = `https://media-console.a8.net/program/create-link?programId=${id}`;
+      await go(u); await a8Reauth(p, u);
+      const info = await p.evaluate(() => ({
+        title: document.title,
+        heads: [...document.querySelectorAll('h1,h2,h3,.breadcrumb li')].map((e) => e.innerText.replace(/\s+/g, ' ').trim()).filter(Boolean).slice(0, 10),
+        selects: [...document.querySelectorAll('select')].map((sel) => `${sel.name || sel.id}=${sel.options[sel.selectedIndex]?.text || ''}`),
+        lines: (document.body.innerText || '').split('\n').map((x) => x.trim()).filter((x) => /セルフバック|本人|サイト名|サイトID|掲載サイト|Daily ?hack/i.test(x)).slice(0, 12),
+        mats: [...new Set(((document.body.innerHTML || '').match(/a8mat=[A-Z0-9+]+/g) || []))].slice(0, 4),
+      }));
+      lines.push(`### ${id}`, `- 画面: ${here()}（${info.title}）`, `- 見出し: ${info.heads.join(' ／ ')}`, `- 選択中: ${info.selects.join(' ／ ') || 'なし'}`, ...info.lines.filter((x) => !NG.test(x)).map((x) => `  - ${x.slice(0, 120)}`), `- 画面にある a8mat: ${info.mats.join(' ')}`, '');
+    }
+  }
+
   if (WHICH === 'a8liststatus') {
     // 申請した案件が「審査中」「提携中」のどちらに入ったかを一覧から数える（2026-10-31）。自分の報酬額は出さない
     const listIds = async (kind) => {
