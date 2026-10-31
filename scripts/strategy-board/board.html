@@ -329,9 +329,9 @@ tr[data-ccount]::after{top:4px;right:4px}
   <p class="src" data-cid="now.month.uu-note"><b>ボット除外の UU は、Cloudflare の無料プランでは取れません</b>（ボットを見分けられる集計に UU の項目が無い）。いちばん近いのは「読者（ボット除外）」の列（ブラウザで開いた訪問の数）です。ボット除外のページビューは 2026-09-26 から記録していて、それより前の月は「—」です。</p>
   <h2>記事を調べる</h2>
   <p class="src">題名か URL の一部で探せます。行を押すと、日ごとの訪問・X の告知日・どこから来たかが開きます。</p>
-  <div class="search fbar"><input type="search" id="art-q" placeholder="例：ポイ活、ららぽーと、furusato" aria-label="記事を探す"><select id="art-aff" aria-label="成果リンク"><option value="all">成果リンク：すべて</option><option value="yes">あり</option><option value="no">なし</option></select><select id="art-search" aria-label="検索"><option value="all">検索：すべて</option><option value="click">クリックあり（90 日）</option><option value="imp">表示ありクリック 0</option><option value="none">表示なし</option></select><select id="art-read" aria-label="読者"><option value="0">読者：すべて</option><option value="10">10 人以上（28 日）</option><option value="50">50 人以上</option><option value="100">100 人以上</option></select><span class="status" id="art-n"></span></div>
+  <div class="search fbar"><input type="search" id="art-q" placeholder="例：ポイ活、ららぽーと、furusato" aria-label="記事を探す"><select id="art-period" aria-label="検索の期間"><option value="28">検索の期間：直近 28 日</option><option value="90">直近 90 日</option></select><select id="art-aff" aria-label="成果リンク"><option value="all">成果リンク：すべて</option><option value="yes">あり</option><option value="no">なし</option></select><select id="art-search" aria-label="検索"><option value="all">検索：すべて</option><option value="click">クリックあり</option><option value="imp">表示ありクリック 0</option><option value="none">表示なし</option></select><select id="art-read" aria-label="読者"><option value="0">読者：すべて</option><option value="10">10 人以上（28 日）</option><option value="50">50 人以上</option><option value="100">100 人以上</option></select><span class="status" id="art-n"></span></div>
   <p class="src">見出しを押すとその列で並べ替えます（もう一度押すと逆順）。並べ替えか絞り込みをすると全件を出します。</p>
-  <div class="tbl"><table class="wf"><thead id="art-head"><tr><th data-sort="title" data-t="art">記事</th><th data-sort="c90" data-t="art">検索クリック（90 日）</th><th data-sort="i90" data-t="art">検索表示（90 日）</th><th data-sort="p90" data-t="art">平均順位</th><th data-sort="h28" data-t="art">読者（28 日・ボット除外）</th><th data-sort="v28" data-t="art">訪問（28 日・ボット込み）</th><th data-sort="v90" data-t="art">訪問（記録のある全期間）</th><th data-sort="aff" data-t="art">成果リンク</th></tr></thead><tbody id="tbl-art"><tr><td colspan="7" class="empty">データ待ち</td></tr></tbody></table></div>
+  <div class="tbl"><table class="wf"><thead id="art-head"><tr><th data-sort="title" data-t="art">記事</th><th data-sort="sc" data-t="art" id="art-h-c">検索クリック（28 日）</th><th data-sort="si" data-t="art" id="art-h-i">検索表示（28 日）</th><th data-sort="sp" data-t="art" id="art-h-p">平均順位（28 日）</th><th data-sort="h28" data-t="art">読者（28 日・ボット除外）</th><th data-sort="v28" data-t="art">訪問（28 日・ボット込み）</th><th data-sort="v90" data-t="art">訪問（記録のある全期間）</th><th data-sort="aff" data-t="art">成果リンク</th></tr></thead><tbody id="tbl-art"><tr><td colspan="7" class="empty">データ待ち</td></tr></tbody></table></div>
   <div class="note" id="pv-note">訪問の数の読み方：データ待ち</div>
   <h2>検索で表示されている記事（直近 90 日）</h2>
   <div class="tbl"><table class="wf"><thead><tr><th>記事</th><th>クリック</th><th>表示</th><th>平均順位</th><th>訪問（記録のある全期間）</th><th>成果リンク</th></tr></thead><tbody id="tbl-top"><tr><td colspan="6" class="empty">データ待ち</td></tr></tbody></table></div>
@@ -363,7 +363,7 @@ tr[data-ccount]::after{top:4px;right:4px}
     <tr><td>A8 の成果リンク</td><td><span class="pill ok">55 記事</span></td><td>498 か所（2026-10-17 時点）。主題とずれた自動挿入は 10/12 に外した。ワラウは不正アクセスのため 10/16 に全記事から外した</td></tr>
     <tr><td>楽天アフィリエイト</td><td><span class="pill ok">12 記事</span></td><td>70 か所（2026-10-17 時点）。トラベル・ふるさと納税・商品。ID は個人名義で、入れた記事は docs/affiliate-registry.md に残す</td></tr>
     <tr><td>バリューコマース</td><td><span class="pill ok">稼働</span></td><td>LinkSwitch を PR 記事に入れた（10/17）。一休・じゃらん・Yahoo!トラベル・Yahoo!ショッピングの普通のリンクが成果リンクに変わる。3 店ボタンの Yahoo! もこれで成果になる（10/25）</td></tr>
-    <tr><td>もしも</td><td><span class="pill warn">準備中</span></td><td>Amazon を 3 店ボタンに足すため、もしも経由で Amazon に提携申請を進めている（10/25・affiliate）。通るまで Amazon ボタンは出さない</td></tr>
+    <tr><td>Amazon アソシエイト</td><td><span class="pill warn">仮の参加</span></td><td>もしも経由は 10/28 に否認（理由の開示なし）。10/30 に Amazon へ直接申し込み、ID dailyhack-22 で 3 店ボタンの Amazon を出している。<b>申し込みから 180 日以内（2027-04-28 ごろまで）に 3 件売れると本審査</b>（自分の注文は数えない・却下されたら再審査なし）</td></tr>
     <tr><td>紹介コード</td><td><span class="pill ok">稼働</span></td><td>楽天カード・リクルートカード等（src/data/referrals.ts）</td></tr>
     <tr><td>忍者AdMAX</td><td><span class="pill ok">5 枠</span></td><td>1 クリック 1〜3 円。本文中 2 枠は未登録</td></tr>
     <tr><td>AdSense</td><td><span class="pill bad">未稼働</span></td><td>配線済み。審査の申請待ち</td></tr>
@@ -1098,7 +1098,19 @@ tr[data-ccount]::after{top:4px;right:4px}
     const GS=(S.sources||{}).gsc||{}; $('#findings-when').textContent='（'+S.generatedAt.slice(0,10)+' 更新・検索 '+((GS.window||[])[0]||'—')+'〜'+((GS.window||[])[1]||'—')+'・訪問 〜'+(PM.last||'—')+'）';
     // ブログ全体
     const B=S.blog||{}, K=S.kpi||{};
-    $('#blog-tiles').innerHTML=[['記事の数',fmtN(B.posts),'公開中（下書きを除く）','blog.posts'],['ページビュー（28 日）',B.pv28!=null?fmtN(B.pv28):'記録待ち',B.pv28!=null?'fieldbeside.com 全体・ボットを含む・'+B.zoneDays28+' 日分':'日次の記録に 10/12 から追加','blog.pv'],['ページビュー（ボット除外・ブログだけ）',B.pvHuman28!=null?fmtN(B.pvHuman28):'記録待ち',B.pvHuman28!=null?B.pvDays28+' 日分・ブログのページ（HTML）だけ・ボット込みは '+fmtN(B.pvAll28):'記録待ち（毎日の記録に 10/24 から追加）','blog.pvh'],['UU（28 日・日ごとの合計）',B.uuDaySum28!=null?fmtN(B.uuDaySum28):'記録待ち','fieldbeside.com 全体・ボットを含む。ボット除外の UU は Cloudflare の無料プランでは取れない（いちばん近いのは右の「読者」）','blog.uu'],['読者（28 日・ボット除外）',fmtN(K.pv28&&K.pv28.human),'訪問（ボット込み） '+fmtN(K.pv28&&K.pv28.visits),'blog.human']].map(([t,v,s2,cid])=>'<div class="tile" data-cid="'+cid+'"><div class="k">'+esc(t)+'</div><div class="v">'+esc(v)+'</div><div class="s">'+esc(s2)+'</div></div>').join('');
+    // 前の 28 日との比較（2026-10-30 利用者のコメント「検索クリックと同じように先月比を出して欲しい」）。
+    // 記録の日数がそろえばそのまま比べ、そろわなければ 1 日平均で比べる。前の期間の記録が 7 日未満なら比べない
+    const cmp28=(cur,prev,cd,pd)=>{ if(cur==null||prev==null||!pd) return {d:'',n:'前の 28 日は記録なし'}; if(pd<7) return {d:'',n:'前の 28 日は記録が '+pd+' 日分だけなので比べない'}; if(pd===cd) return {d:delta(cur,prev),n:'前の 28 日 '+fmtN(prev)}; return {d:delta(cur/cd,prev/pd),n:'前の 28 日は '+pd+' 日分（'+fmtN(prev)+'）なので 1 日平均で比べた'}; };
+    const hp=(K.pvPrev28||{}).human;
+    const c1=cmp28(B.pv28,B.pv28Prev,B.zoneDays28,B.zoneDaysPrev28), c2=cmp28(B.pvHuman28,B.pvHuman28Prev,B.pvDays28,B.pvDaysPrev28), c3=cmp28(B.uuDaySum28,B.uuDaySum28Prev,B.zoneDays28,B.zoneDaysPrev28), c4=cmp28(K.pv28&&K.pv28.human,hp,B.humanDays28,B.humanDaysPrev28);
+    const postsD=(B.posts!=null&&B.postsPrev!=null)?'<span class="delta up">+'+(B.posts-B.postsPrev)+' 本</span>':'';
+    $('#blog-tiles').innerHTML=[
+      ['記事の数',fmtN(B.posts),postsD,'公開中（下書きを除く）'+(B.postsPrev!=null?'・'+(B.postsPrevAt||'').slice(5).replace('-','/')+' 時点は '+fmtN(B.postsPrev)+' 本':''),'blog.posts'],
+      ['ページビュー（28 日）',B.pv28!=null?fmtN(B.pv28):'記録待ち',c1.d,B.pv28!=null?'fieldbeside.com 全体・ボットを含む・'+B.zoneDays28+' 日分。'+c1.n:'日次の記録に 10/12 から追加','blog.pv'],
+      ['ページビュー（ボット除外・ブログだけ）',B.pvHuman28!=null?fmtN(B.pvHuman28):'記録待ち',c2.d,B.pvHuman28!=null?B.pvDays28+' 日分・ブログのページ（HTML）だけ・ボット込みは '+fmtN(B.pvAll28)+'。'+c2.n:'記録待ち（毎日の記録に 10/24 から追加）','blog.pvh'],
+      ['UU（28 日・日ごとの合計）',B.uuDaySum28!=null?fmtN(B.uuDaySum28):'記録待ち',c3.d,'fieldbeside.com 全体・ボットを含む。ボット除外の UU は Cloudflare の無料プランでは取れない（いちばん近いのは右の「読者」）。'+c3.n,'blog.uu'],
+      ['読者（28 日・ボット除外）',fmtN(K.pv28&&K.pv28.human),c4.d,'訪問（ボット込み） '+fmtN(K.pv28&&K.pv28.visits)+'。'+c4.n,'blog.human']
+    ].map(([t,v,dl,s2,cid])=>'<div class="tile" data-cid="'+cid+'"><div class="k">'+esc(t)+'</div><div class="v">'+esc(v)+dl+'</div><div class="s">'+esc(s2)+'</div></div>').join('');
     $('#tbl-month').innerHTML=(S.monthly||[]).map(m=>'<tr data-cid="now.month.'+m.month+'"><td>'+m.month+(m.days&&m.days<28?'（'+m.days+' 日分）':'')+'</td><td class="num">'+fmtN(m.published||0)+'</td><td class="num">'+fmtN(m.updated||0)+'</td><td class="num">'+(m.visits!=null?fmtN(m.visits):'—')+'</td><td class="num">'+(m.human!=null?fmtN(m.human):'—')+'</td><td class="num"><b>'+(m.pvHuman!=null?fmtN(m.pvHuman):'—')+'</b>'+(m.pvDays&&m.days&&m.pvDays<m.days?'<br><span class="status">'+m.pvDays+' 日分</span>':'')+'</td><td class="num">'+(m.pvAll!=null?fmtN(m.pvAll):'—')+'</td><td class="num">'+(m.pageViews!=null?fmtN(m.pageViews):'—')+'</td><td class="num">'+(m.uniquesSum!=null?fmtN(m.uniquesSum):'—')+'</td></tr>').join('')||'<tr><td colspan="9" class="empty">データなし</td></tr>';
     renderX(S);
     const X=S.xShared||[], xv=(k)=>(X.find(r=>r.k===k)||{}).v||'—';
@@ -1239,25 +1251,30 @@ tr[data-ccount]::after{top:4px;right:4px}
   const cmp=(a,b,k,dir)=>{ const x=a[k], y=b[k]; if(x==null&&y==null) return 0; if(x==null) return 1; if(y==null) return -1; return (typeof x==='string'?String(x).localeCompare(String(y),'ja'):(x-y))*dir; };
   function markSort(t){ $$('th[data-t="'+t+'"]').forEach(th=>{ const on=SORTS[t].key===th.dataset.sort; th.classList.toggle('on',on); th.textContent=th.textContent.replace(/ [▲▼]$/,'')+(on?(SORTS[t].dir<0?' ▼':' ▲'):''); }); }
   document.addEventListener('click',e=>{ const th=e.target.closest('th[data-sort]'); if(!th) return; const t=th.dataset.t, k=th.dataset.sort, st=SORTS[t];
-    st.dir = st.key===k ? -st.dir : ((k==='title'||k==='p90'||k==='text')?1:-1); st.key=k; if(t==='art') renderArticles(); if(t==='xp') renderNowPosts(); });
+    st.dir = st.key===k ? -st.dir : ((k==='title'||k==='p90'||k==='sp'||k==='text')?1:-1); st.key=k; if(t==='art') renderArticles(); if(t==='xp') renderNowPosts(); });
   function renderArticles(){
     const q=($('#art-q').value||'').trim().toLowerCase(), fa=$('#art-aff').value, fs=$('#art-search').value, fr=+$('#art-read').value;
-    let rows=ART.filter(a=>!q||(a.title||'').toLowerCase().includes(q)||a.slug.includes(q))
+    // 検索の期間は上のフィルタで選ぶ（2026-10-30 利用者のコメント「最初から90日に限定しないで、上部のフィルタで期間を設定できるようにしてほしい」）
+    const per=$('#art-period').value==='90'?'90':'28';
+    $('#art-h-c').textContent='検索クリック（'+per+' 日）'; $('#art-h-i').textContent='検索表示（'+per+' 日）'; $('#art-h-p').textContent='平均順位（'+per+' 日）';
+    let rows=ART.map(a=>({...a,sc:a['c'+per]||0,si:a['i'+per]||0,sp:a['p'+per]??null})).filter(a=>!q||(a.title||'').toLowerCase().includes(q)||a.slug.includes(q))
       .filter(a=>fa==='all'||(fa==='yes'?a.aff>0:!(a.aff>0)))
-      .filter(a=>fs==='all'||(fs==='click'?a.c90>0:fs==='imp'?(a.i90>0&&!(a.c90>0)):!(a.i90>0)))
+      .filter(a=>fs==='all'||(fs==='click'?a.sc>0:fs==='imp'?(a.si>0&&!(a.sc>0)):!(a.si>0)))
       .filter(a=>!fr||(a.h28||0)>=fr);
     const st=SORTS.art; if(st.key) rows=rows.slice().sort((a,b)=>cmp(a,b,st.key,st.dir)); markSort('art');
     const narrowed=q||fa!=='all'||fs!=='all'||fr||st.key;
     $('#art-n').textContent=rows.length+' / '+ART.length+' 本'+(narrowed?'':'（上位 20 本を表示）');
-    $('#tbl-art').innerHTML=rows.slice(0,narrowed?500:20).map(a=>'<tr data-cid="now.art.'+esc(a.slug)+'"><td><button type="button" class="linkish" data-detail="'+esc(a.slug)+'">'+esc(a.title)+'</button></td><td class="num">'+fmtN(a.c90)+'</td><td class="num">'+fmtN(a.i90)+'</td><td class="num">'+(a.p90!=null?a.p90.toFixed(1):'—')+'</td><td class="num"><b>'+(a.h28!=null?fmtN(a.h28):'—')+'</b></td><td class="num">'+fmtN(a.v28)+'</td><td class="num">'+fmtN(a.v90)+'</td><td>'+(a.aff>0?'<span class="pill ok">'+a.aff+' か所</span>':'<span class="pill bad">なし</span>')+'</td></tr>').join('')||'<tr><td colspan="8" class="empty">該当なし</td></tr>';
+    $('#tbl-art').innerHTML=rows.slice(0,narrowed?500:20).map(a=>'<tr data-cid="now.art.'+esc(a.slug)+'"><td><button type="button" class="linkish" data-detail="'+esc(a.slug)+'">'+esc(a.title)+'</button></td><td class="num">'+fmtN(a.sc)+'</td><td class="num">'+fmtN(a.si)+'</td><td class="num">'+(a.sp!=null?a.sp.toFixed(1):'—')+'</td><td class="num"><b>'+(a.h28!=null?fmtN(a.h28):'—')+'</b></td><td class="num">'+fmtN(a.v28)+'</td><td class="num">'+fmtN(a.v90)+'</td><td>'+(a.aff>0?'<span class="pill ok">'+a.aff+' か所</span>':'<span class="pill bad">なし</span>')+'</td></tr>').join('')||'<tr><td colspan="8" class="empty">該当なし</td></tr>';
     applyCounts();
   }
-  $('#art-q').addEventListener('input',renderArticles); ['#art-aff','#art-search','#art-read'].forEach(x=>$(x).addEventListener('change',renderArticles));
+  $('#art-q').addEventListener('input',renderArticles); ['#art-period','#art-aff','#art-search','#art-read'].forEach(x=>$(x).addEventListener('change',renderArticles));
   function openDetail(slug){
     const a=ART.find(x=>x.slug===slug); if(!a) return; const M=(SNAP&&SNAP.pvMeta)||{};
-    const max=Math.max(1,...a.series.map(x=>x[1]));
+    // series（日付つき）か sv（値だけ・pvMeta.seriesFrom から 1 日ずつ）のどちらかが入っている
+    const ser=a.series||(a.sv||[]).map((v,i)=>[new Date(Date.parse((M.seriesFrom||'')+'T00:00:00Z')+i*864e5).toISOString().slice(0,10),v]);
+    const max=Math.max(1,...ser.map(x=>x[1]));
     const xs=new Set(a.xDates||[]), sp=new Set(M.spikeDays||[]);
-    const bars=a.series.map(([d,v])=>'<i class="'+(xs.has(d)?'x':sp.has(d)?'spike':'')+'" style="height:'+Math.round(v/max*100)+'%" data-d="'+d+'" data-v="'+v+'">'+(v?'<b>'+v+'</b>':'')+'</i>').join('');
+    const bars=ser.map(([d,v])=>'<i class="'+(xs.has(d)?'x':sp.has(d)?'spike':'')+'" style="height:'+Math.round(v/max*100)+'%" data-d="'+d+'" data-v="'+v+'">'+(v?'<b>'+v+'</b>':'')+'</i>').join('');
     const search=a.c28, other=Math.max(0,a.v28-a.c28);
     const lines=[];
     if(a.h28!=null) lines.push('直近 28 日の訪問 <b>'+fmtN(a.v28)+'</b> のうち、ボット（機械的なアクセス）が <b>'+fmtN(Math.max(0,a.v28-a.h28))+'</b>、読者は <b>'+fmtN(a.h28)+'</b>。読者のうち検索（Google）からのクリックは <b>'+fmtN(search)+'</b>、残り <b>'+fmtN(Math.max(0,a.h28-search))+'</b> は検索以外（X・直接・ほかのサイト）から。');

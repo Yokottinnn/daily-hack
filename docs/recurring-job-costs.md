@@ -721,3 +721,15 @@ DOM 操作だけなので、**稼働させても追加の API 費用は発生し
 | 1 日 | **$0** |
 | 1 か月 | **$0**（月 4 回ぶんプランの利用枠を使う） |
 | 記録 | `docs/follow-ratio-weekly.md` |
+
+## IndexNow の自動通知（2026-10-30 から・`.github/workflows/indexnow.yml`）
+
+記事が main に入るたびに、変わった記事の URL・湾岸ライフの一覧・llms.txt を IndexNow（Bing・Yandex ほか）に送る。利用者がダイアログで「IndexNow の自動通知を始める」を選んだ。
+
+| | 1 回 | 1 日 | 1 か月 |
+| --- | --- | --- | --- |
+| GitHub Actions（公開リポジトリは無料） | $0 | $0 | $0 |
+| LLM API | **使わない** | $0 | $0 |
+
+- **初回の実行（2026-10-30 21:58 JST・手動）**: Yandex は 202（受け付け）。**Bing と api.indexnow.org は 403**（`UserForbiddedToAccessSite`「鍵でサイトを確認してから送って」）。
+  鍵のファイル（`/df56d1afacabdd5edec8fe88e54ccdd5.txt`）は bingbot の名乗りでも 200 で開ける。Bing Webmaster Tools にサイトが登録されていないことが原因の候補。登録は利用者のアカウント操作

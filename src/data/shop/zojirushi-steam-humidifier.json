@@ -1,0 +1,343 @@
+{
+  "id": "zojirushi-steam-humidifier",
+  "title": "象印のスチーム式加湿器（1シーズンの電気代・連続加湿時間）",
+  "_note": "仕様は象印マホービン公式の商品ページ（2026-10-30 確認）の記載だけ。1シーズンの電気代は「加湿時の消費電力(W)÷1000×8時間×150日×31円/kWh（家電公取協の目安単価）」で計算した参考値で、湯沸かし立ち上げ時（985W・EE-MC20 は 650W）の電力は含まない。出典と要確認は Yokottinnn/daily-hack-affiliate の docs/research/zojirushi-humidifier-products.md。旧型（EE-DF・EE-TB 系）は公式の現行一覧に無いため外した",
+  "columns": [
+    {
+      "key": "area",
+      "label": "適用床面積"
+    },
+    {
+      "key": "rate",
+      "label": "加湿量（定格）"
+    },
+    {
+      "key": "hours",
+      "label": "連続加湿（公称）"
+    },
+    {
+      "key": "watt",
+      "label": "加湿時の消費電力"
+    },
+    {
+      "key": "season",
+      "label": "1シーズンの電気代（計算）"
+    },
+    {
+      "key": "tank",
+      "label": "タンク"
+    }
+  ],
+  "pricesCheckedAt": null,
+  "items": [
+    {
+      "id": "zojirushi-ee-tc60",
+      "brand": "象印マホービン",
+      "name": "スチーム式加湿器 EE-TC60",
+      "badge": "広い部屋向け",
+      "summary": "プレハブ洋室〜17畳の広めのリビングで、加湿量（600mL/h）を優先したい人に",
+      "recommended": false,
+      "specs": {
+        "area": "木造〜10畳／プレハブ〜17畳",
+        "rate": "600mL/h",
+        "hours": "強 約6・中 約10・弱（静音）約20時間",
+        "watt": "450W",
+        "season": "約16,740円",
+        "tank": "4.0L"
+      },
+      "source": "https://www.zojirushi.co.jp/syohin/life/humidifier/ee-tc/",
+      "rakuten": {
+        "keyword": "象印 EE-TC60",
+        "must": [
+          "EE-TC60"
+        ],
+        "exclude": [
+          "フィルター",
+          "交換用",
+          "部品"
+        ]
+      },
+      "yahoo": {
+        "keyword": "象印 EE-TC60",
+        "must": [
+          "EE-TC60"
+        ],
+        "exclude": [
+          "フィルター",
+          "交換用",
+          "部品"
+        ]
+      },
+      "amazon": {
+        "keyword": "象印 EE-TC60",
+        "asin": null
+      }
+    },
+    {
+      "id": "zojirushi-ee-dg50",
+      "brand": "象印マホービン",
+      "name": "スチーム式加湿器 EE-DG50",
+      "badge": "長時間加湿",
+      "summary": "8畳前後の部屋で、給水の回数を減らしたい人に（強で約8時間）",
+      "recommended": false,
+      "specs": {
+        "area": "木造〜8畳／プレハブ〜13畳",
+        "rate": "480mL/h",
+        "hours": "強 約8・中 約16・弱 約32時間",
+        "watt": "410W",
+        "season": "約15,252円",
+        "tank": "4.0L"
+      },
+      "source": "https://www.zojirushi.co.jp/syohin/life/humidifier/ee-dg/",
+      "rakuten": {
+        "keyword": "象印 EE-DG50",
+        "must": [
+          "EE-DG50"
+        ],
+        "exclude": [
+          "DG35",
+          "フィルター",
+          "交換用",
+          "部品"
+        ]
+      },
+      "yahoo": {
+        "keyword": "象印 EE-DG50",
+        "must": [
+          "EE-DG50"
+        ],
+        "exclude": [
+          "DG35",
+          "フィルター",
+          "交換用",
+          "部品"
+        ]
+      },
+      "amazon": {
+        "keyword": "象印 EE-DG50",
+        "asin": null
+      }
+    },
+    {
+      "id": "zojirushi-ee-dg35",
+      "brand": "象印マホービン",
+      "name": "スチーム式加湿器 EE-DG35",
+      "badge": "寝室で長時間",
+      "summary": "6畳前後の寝室で、強でも約8時間続けて使いたい人に",
+      "recommended": false,
+      "specs": {
+        "area": "木造〜6畳／プレハブ〜10畳",
+        "rate": "350mL/h",
+        "hours": "強 約8・中 約16・弱 約32時間",
+        "watt": "305W",
+        "season": "約11,346円",
+        "tank": "3.0L"
+      },
+      "source": "https://www.zojirushi.co.jp/syohin/life/humidifier/ee-dg/",
+      "rakuten": {
+        "keyword": "象印 EE-DG35",
+        "must": [
+          "EE-DG35"
+        ],
+        "exclude": [
+          "DG50",
+          "フィルター",
+          "交換用",
+          "部品"
+        ]
+      },
+      "yahoo": {
+        "keyword": "象印 EE-DG35",
+        "must": [
+          "EE-DG35"
+        ],
+        "exclude": [
+          "DG50",
+          "フィルター",
+          "交換用",
+          "部品"
+        ]
+      },
+      "amazon": {
+        "keyword": "象印 EE-DG35",
+        "asin": null
+      }
+    },
+    {
+      "id": "zojirushi-ee-rv50",
+      "brand": "象印マホービン",
+      "name": "スチーム式加湿器 EE-RV50",
+      "badge": "ベーシック",
+      "summary": "8畳前後の部屋で、強・弱 2 段階のシンプルな機種でよい人に",
+      "recommended": false,
+      "specs": {
+        "area": "木造〜8畳／プレハブ〜13畳",
+        "rate": "480mL/h",
+        "hours": "強 約6・弱 約24時間",
+        "watt": "410W",
+        "season": "約15,252円",
+        "tank": "3.0L"
+      },
+      "source": "https://www.zojirushi.co.jp/syohin/life/humidifier/ee-rv/",
+      "rakuten": {
+        "keyword": "象印 EE-RV50",
+        "must": [
+          "EE-RV50"
+        ],
+        "exclude": [
+          "RV35",
+          "フィルター",
+          "交換用",
+          "部品"
+        ]
+      },
+      "yahoo": {
+        "keyword": "象印 EE-RV50",
+        "must": [
+          "EE-RV50"
+        ],
+        "exclude": [
+          "RV35",
+          "フィルター",
+          "交換用",
+          "部品"
+        ]
+      },
+      "amazon": {
+        "keyword": "象印 EE-RV50",
+        "asin": null
+      }
+    },
+    {
+      "id": "zojirushi-ee-rv35",
+      "brand": "象印マホービン",
+      "name": "スチーム式加湿器 EE-RV35",
+      "badge": "小さめベーシック",
+      "summary": "6畳前後の部屋で、タンク 2.2L の小さめの機種がよい人に",
+      "recommended": false,
+      "specs": {
+        "area": "木造〜6畳／プレハブ〜10畳",
+        "rate": "350mL/h",
+        "hours": "強 約6・弱 約27時間",
+        "watt": "305W",
+        "season": "約11,346円",
+        "tank": "2.2L"
+      },
+      "source": "https://www.zojirushi.co.jp/syohin/life/humidifier/ee-rv/",
+      "rakuten": {
+        "keyword": "象印 EE-RV35",
+        "must": [
+          "EE-RV35"
+        ],
+        "exclude": [
+          "RV50",
+          "フィルター",
+          "交換用",
+          "部品"
+        ]
+      },
+      "yahoo": {
+        "keyword": "象印 EE-RV35",
+        "must": [
+          "EE-RV35"
+        ],
+        "exclude": [
+          "RV50",
+          "フィルター",
+          "交換用",
+          "部品"
+        ]
+      },
+      "amazon": {
+        "keyword": "象印 EE-RV35",
+        "asin": null
+      }
+    },
+    {
+      "id": "zojirushi-ee-mc20",
+      "brand": "象印マホービン",
+      "name": "スチーム式加湿器 EE-MC20",
+      "badge": "個室向け・省電力",
+      "summary": "3〜6畳の個室で、7 機種の中で電気代をいちばん抑えたい人に（加湿時 190W）",
+      "recommended": false,
+      "specs": {
+        "area": "木造〜3畳／プレハブ〜6畳",
+        "rate": "200mL/h",
+        "hours": "標準 約8・静音 約16時間",
+        "watt": "190W（標準）／134W（静音）",
+        "season": "約7,068円（標準）／約4,985円（静音）",
+        "tank": "1.8L"
+      },
+      "source": "https://www.zojirushi.co.jp/syohin/life/humidifier/ee-mc/",
+      "rakuten": {
+        "keyword": "象印 EE-MC20",
+        "must": [
+          "EE-MC20"
+        ],
+        "exclude": [
+          "フィルター",
+          "交換用",
+          "部品"
+        ]
+      },
+      "yahoo": {
+        "keyword": "象印 EE-MC20",
+        "must": [
+          "EE-MC20"
+        ],
+        "exclude": [
+          "フィルター",
+          "交換用",
+          "部品"
+        ]
+      },
+      "amazon": {
+        "keyword": "象印 EE-MC20",
+        "asin": null
+      }
+    },
+    {
+      "id": "zojirushi-ee-fa50",
+      "brand": "象印マホービン",
+      "name": "STAN. スチーム式加湿器 EE-FA50",
+      "badge": "デザイン重視",
+      "summary": "EE-DG50 と同じ加湿量・消費電力で、見た目のすっきりした STAN. シリーズを選びたい人に",
+      "recommended": false,
+      "specs": {
+        "area": "木造〜8畳／プレハブ〜13畳",
+        "rate": "480mL/h",
+        "hours": "8時間以上（最大加湿時・室温20℃満水時、当社調べ）",
+        "watt": "410W",
+        "season": "約15,252円",
+        "tank": "4.0L"
+      },
+      "source": "https://www.zojirushi.co.jp/syohin/stan/product/humidifier/ee-fa.html",
+      "rakuten": {
+        "keyword": "象印 EE-FA50",
+        "must": [
+          "EE-FA50"
+        ],
+        "exclude": [
+          "フィルター",
+          "交換用",
+          "部品"
+        ]
+      },
+      "yahoo": {
+        "keyword": "象印 EE-FA50",
+        "must": [
+          "EE-FA50"
+        ],
+        "exclude": [
+          "フィルター",
+          "交換用",
+          "部品"
+        ]
+      },
+      "amazon": {
+        "keyword": "象印 EE-FA50",
+        "asin": null
+      }
+    }
+  ]
+}
