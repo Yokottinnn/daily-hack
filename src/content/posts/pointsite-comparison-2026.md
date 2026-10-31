@@ -311,6 +311,24 @@ GMOメディア（東証スタンダード上場）が運営する15年超の老
   </ul>
 </aside>
 
+## 実際に使った人の声と動画｜ポイントサイト
+
+どのポイントサイトを使うかを、動画で補っておく。
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/-pouwJqsQLg" title="主要ポイントサイト徹底比較：ハピタス vs モッピー vs ポイントインカム 結局どれ？（家計の味方）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+ハピタス・モッピー・ポイントインカムを比べた解説。
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/IKD_BwkVuy8" title="【2026年最新版】最強ポイントサイトおすすめ4選を徹底比較解説！ポイ活アプリに迷っている人は必見！【モッピー・ポイントインカム・ハピタス・ワラウ】（家計の味方）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+ポイントサイト 4 つを比べた 2026 年版の解説。
+
+<p class="source-note">埋め込んだ YouTube は、2026年10月31日に oEmbed でタイトルと投稿者を照合し、実在を確かめたもの。投稿した人の個人の感想・撮影時点の内容で、この記事の数字とは別のもの。</p>
+
 ## よくある質問
 
 ### Q. 複数登録は危険じゃない？

@@ -513,6 +513,28 @@ references: ["https://rinconomiblog.com/supermarket-harumi/", "https://retailgui
 
 ---
 
+## 実際に住んでいる人の声と動画｜湾岸のスーパー
+
+湾岸で暮らす人がスーパーをどう使っているかを、投稿と動画で補っておく。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">中央区で1番安いスーパー とにかく安くて新鮮です 毎週金曜午後 クロノレジデンス前の出張スーパー LINEオープンチャットで商品の告知ありますので是非〜 ふるてりあ晴海クロノレジデンス</p>&mdash; YUU@一般会社員28歳、誰でもできる資産形成で資産1.4億 (@assetbuilding27) <a href="https://twitter.com/assetbuilding27/status/2060259763901051232">2026年5月29日</a></blockquote>
+
+**中央区でいちばん安いスーパー**として紹介された投稿。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">ザ豊海タワー入居スーパー独断でニキが決定 スシロー 湾岸エリア初出店🎊 デニーズ 勝どきで大復活🎊 カラオケ館 湾岸エリア初出店🎊 エニタイム 湾岸エリア初出店🎊 ベルク 勝どき初出店🎊 ゴンチャ 勝どき初出店🎊 ついに勝どきにカラオケが登場！ 有明で大成功のベルクが勝どきに初出店！</p>&mdash; 豊海ニキ🩺PTK (@tower_mango) <a href="https://twitter.com/tower_mango/status/2112368499092029817">2026年10月20日</a></blockquote>
+
+**ザ豊海タワーに入るスーパー**の話題。湾岸ではタワマンの下にどのスーパーが入るかが暮らしやすさを左右するのよ。
+
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/XZhzUdGdIyM" title="急成長する「タワマンの街」...勝どきは「住みたい街」って本当？（けんくん東京探究）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+勝どきが「住みたい街」と言われる理由を、街を歩いて確かめた動画。
+
+<p class="source-note">引用した X の投稿は、2026年10月31日に本文・投稿者・日付を確かめたもの。埋め込んだ YouTube は oEmbed でタイトルと投稿者を照合し、実在を確かめたもの。どちらも投稿した人の個人の感想・撮影時点の内容で、この記事の数字とは別のもの。</p>
+
 ## よくある質問
 
 <div class="cmp-table-wrap">

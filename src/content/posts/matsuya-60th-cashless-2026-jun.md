@@ -307,6 +307,34 @@ au PAY は**合計600円 → 確実に300pt**という入口の低さが魅力�
 
 ---
 
+## 実際の声と動画｜松屋のキャンペーン
+
+松屋のキャンペーンがどう告知され、どう使われたかを、投稿と動画で見ておく。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">＼PayPayキャンペーン❣／ 松屋アプリで《800円以上》PayPay決済すると、最大【全額】戻ってくるスクラッチくじ開催！ さらにPayPayポイントが【最大10％】戻ってくるクーポンも配信中✨ MATSUYA PASSを使ったらもっとおトクになるね(&#x27;o&#x27;≡&#x27;o&#x27;)！</p>&mdash; 【公式】松屋 (@matsuya_foods) <a href="https://twitter.com/matsuya_foods/status/2106187482668663010">2026年10月3日</a></blockquote>
+
+**松屋公式の PayPay キャンペーン**の告知。800 円以上の決済で全額戻るスクラッチと、最大 10% の還元。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">【6/1 朝のお得情報⑤】 松屋、創業60周年記念(～6/30) ・PayPayクーポン最大40%還元(6/15、6/16)、左記以外は10%還元(～6/30) ・d払い最大+20%還元(～6/20) ・au PAY決済で最大300ポイント ・楽天ペイ決済で最大10%還元 ・おかずテイクアウト最大250円OFF</p>&mdash; カネ部の部長Yossy (@money_yossy) <a href="https://twitter.com/money_yossy/status/2061221182523719788">2026年6月1日</a></blockquote>
+
+**創業 60 周年記念（〜6/30）で PayPay クーポン最大 40% 還元**を伝えた投稿。この記事で比べたキャンペーンよ。
+
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/HrhLCwJxOqs" title="ORCALAND「貴方をまつやさしい場所」Official Music Video (松屋フーズ創業60周年記念オリジナルブランドソング)（ORCALAND）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+松屋フーズ創業 60 周年の記念曲のミュージックビデオ（公式）。
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/Lm7IoWLIPHo" title="【松屋】おかずテイクアウトが全品値下げ！いまMATSUYA DELIが熱い！！（松屋新作即食い部【ずんだもんの松屋グルメ・食レポ】）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+松屋のおかずのテイクアウトが値下げされた話題を紹介した動画。
+
+<p class="source-note">引用した X の投稿は、2026年10月31日に本文・投稿者・日付を確かめたもの。埋め込んだ YouTube は oEmbed でタイトルと投稿者を照合し、実在を確かめたもの。どちらも投稿した人の個人の感想・撮影時点の内容で、この記事の数字とは別のもの。</p>
+
 ## まとめ — 6月の松屋は「決済を変えるだけで」月3,000〜10,000pt浮く
 
 <ul class="checklist">

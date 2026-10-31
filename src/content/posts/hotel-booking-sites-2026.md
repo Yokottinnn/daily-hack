@@ -36,6 +36,34 @@ references:
   <div class="hakkako-quote">先に一番の驚きを言っとく。<strong>楽天トラベルの会員特典は、2026年8月から「ポイント」じゃなくなった。</strong>予約するその場で最大4%引かれる即時割引に変わって、クーポンとも併用できる。逆にトラベリストは、ホテルではポイントが1ptも貯まらないのよ。</div>
 </div>
 
+## 実際に予約した人の声と動画｜ホテル予約サイト
+
+どのサイトで取るかを、実際に予約している人の投稿と動画で補っておく。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">最短で理想のホテルを探す方法🤍 ① エリア・日付・人数を指定する ② 絞り込み機能でランク・予算・ベッド数を設定して検索 ③ 地図 ボタンをタップ！ これで条件に合うホテルの場所と料金が一目で比較できる🫶🏻 1覧をスクロールして1件ずつ探すよりも断然早くて効率的‼️</p>&mdash; はにちゃん🌙 (@hanichan_trip_) <a href="https://twitter.com/hanichan_trip_/status/2094368887907532974">2026年8月31日</a></blockquote>
+
+**エリア・日付・人数を決めてから絞り込み、地図で探す**という手順。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">楽天トラベルでホテルが最大20%OFFセール。10月25日から48時間限定で、国内宿泊が最大20%OFFになる。最高級宿も最大20%OFFでお得に予約できる。オータムSALE最大30%と合わせて激安で旅行するチャンス。レンタカーも最大10%OFF。高速バスは最大10%OFFセール。遊び・体験もポイント最大10倍で予約できる</p>&mdash; とらうぃ🐯お得なセール、お金 (@trawi_site) <a href="https://twitter.com/trawi_site/status/2114162308717121577">2026年10月25日</a></blockquote>
+
+**楽天トラベルの 48 時間限定・最大 20% OFF** のセールの告知。セールの日に取るだけで差が付くのよ。
+
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/ADHRJDzYSeE" title="どこが一番安い？大手ホテル予約サイトを徹底比較！[楽天トラベル・じゃらん・トリバゴ・エクスペディア]（タナカタケシ / Takeshi TANAKA）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+楽天トラベル・じゃらん・トリバゴ・エクスペディアのどこが一番安いかを比べている。
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/qQ02X_MtjKs" title="【格安旅行】ホテルの最安値がわかる！旅のプロが教える旅行予約サイトの選び方！じゃらんnet/楽天トラベル/トラベルコ/トリバゴ/Yahoo!トラベル/一休.com（マイベストのこれヤバ!）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+旅行予約サイトの選び方を、ホテルの最安値の探し方から説明している。
+
+<p class="source-note">引用した X の投稿は、2026年10月31日に本文・投稿者・日付を確かめたもの。埋め込んだ YouTube は oEmbed でタイトルと投稿者を照合し、実在を確かめたもの。どちらも投稿した人の個人の感想・撮影時点の内容で、この記事の数字とは別のもの。</p>
+
 ## 結論｜還元とキャンセルの扱いを1枚の表に
 
 **ホテル予約サイトの差は「還元の形」と「取り消し方」に出る。** 宿の料金そのものより、ここで数千円変わるの。

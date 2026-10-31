@@ -146,12 +146,40 @@ references:
 
 ポイントサイト自体の選び方や安全な使い方は[ポイントサイト比較 2026](/posts/pointsite-comparison-2026/)にまとめてあるから、コツコツ派の人はそっちも読んで。
 
+## 実際の声と動画｜お得施策の「時給」
+
+ポイ活や副業の時給の感じ方を、投稿と動画で補っておく。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">実はコスパ最悪な副業ランキング🙅‍♀️ 時間消耗/積み上がらない ・ポイ活(時給300円) ・単発バイト(資産化しない) ・データ入力(誰でもできる) ・動画編集(単価下落) ・文字起こし(AI代替) ・せどり(在庫管理) ・SEOブログ(アルゴ依存) ・切り抜き動画(収益停止) コスパ最強副業🙆‍♂️</p>&mdash; じゃがくん (@manerun_) <a href="https://twitter.com/manerun_/status/2056479942284554517">2026年5月19日</a></blockquote>
+
+**時間を使う割に積み上がらない副業**を並べた投稿。ポイ活の時給もその 1 つに挙がっているのよ。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">紹介されていたモニター案件とポイ活を絡めて隙間時間で時給1万円越えでした🔥 在宅でも出来て助かります☺️ モニター案件は怪しいイメージでしたが数日でポイント付与されて安心できました！ 1つで稼ぐよりも複数を絡めて稼ぐのが リスク管理にもなり大きな収益を生みことを再度学びました！</p>&mdash; ともん| 子ども部屋から副業 (@syoukyu3000) <a href="https://twitter.com/syoukyu3000/status/2062694767113433402">2026年6月5日</a></blockquote>
+
+**モニター案件とポイ活を組み合わせて、すき間時間の時給が 1 万円を超えた**という例。案件の選び方で時給はまるで変わる。
+
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/IzRl0xyWkDA" title="【今すぐやめろ】ポイ活民の末路…時給12円で搾取される「貧乏脳」の正体（あっと驚く経済学）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+時給の低いポイ活を続けてしまう理由を解説した動画。
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/kt5DtKKndDk" title="【2026年版】時給1400円超えも！ポイ活ゲーム神案件TOP3と失敗しない選び方【実録100時間検証】（専業アフィリエイター孔雀）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+ポイ活のゲーム案件を 100 時間試して、時給を出した検証。
+
+<p class="source-note">引用した X の投稿は、2026年10月31日に本文・投稿者・日付を確かめたもの。埋め込んだ YouTube は oEmbed でタイトルと投稿者を照合し、実在を確かめたもの。どちらも投稿した人の個人の感想・撮影時点の内容で、この記事の数字とは別のもの。</p>
+
 ## まとめ: 「お得」を時給で測れば、迷わなくなる
 
 長く書いたけど、結論は超シンプル。
 
 - **お得施策は「得した額」じゃなく「実質時給（得した額÷手間時間）」で選ぶ**
-- **時給トップ群はFX・証券・クレカの単発特典（時給1万円超もザラ）**。まだ作ってない口座・カードから順に潰す
+- **時給トップ群はFX・証券・クレカの単発特典**（時給1万円超もザラ）。まだ作ってない口座・カードから順に潰す
 - **アンケート・歩数系は時給100〜300円＝最低賃金以下**。専念は時間の安売り、スキマの暇つぶしに留めろ
 - **ふるさと納税はポイント還元廃止後も「節税×返礼品」で価値は健在**。確実な得が好きな人の軸
 - **ポイントサイトは「ついで」で挟めば追加時間ゼロで効く**

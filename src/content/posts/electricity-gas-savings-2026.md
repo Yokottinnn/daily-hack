@@ -466,6 +466,34 @@ author: "hacker-ko"
 <div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+15ODWA+3SPO+TU8U9" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/denki-choice-300x250.jpg" alt="当サイト限定　最大30000円現金キャッシュバック！【電気チョイス】" width="300" height="250" loading="lazy"></a></div>
 </div>
 
+## 実際に乗り換えた人の声と動画｜電気・ガスの見直し
+
+比較サイトの「年間○万円お得」が本当かを、実際に計算した人の投稿と動画で確かめておく。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">新電力で契約してる人は要注意。毎月数千円は安くなるかも。ある利用者さんから「最近、電気代が高いのよ〜」と言われ契約内容を見ると『東邦ガスのセットプラン』だった。説明では基本料金が低く、オトクに見える。でも燃料費調整額の上限の設定がなく、今は高くなることが多い。でもさらに怖いのは↓</p>&mdash; やすき｜退院後まで考える作業療法士 (@yasuki_medical) <a href="https://twitter.com/yasuki_medical/status/2030752299963076914">2026年3月9日</a></blockquote>
+
+**セットプランのまま高い電気代を払っていた**人の実例。契約の中身を見ないと、乗り換えの効果は分からないのよ。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">「年間○万円お得！」を疑って、自分の電気料金を本気で計算してみた⚡ 電力会社の乗り換えを考えて、いわゆる「電力会社比較サイト」をいくつか見てみた。 郵便番号、世帯人数、月々の電気代などを入力すると、 「年間○万円お得！」 「おすすめ第1位！」 といった結果が出てくる。</p>&mdash; JP1LRT　公開アカウント (@JP1LRT_) <a href="https://twitter.com/JP1LRT_/status/2106511566413979849">2026年10月4日</a></blockquote>
+
+**比較サイトの「年間○万円お得」を疑って、自分の料金で計算し直した**投稿。この記事と同じやり方ね。
+
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/Rpy7lWFblt8" title="電気代を安くする方法｜電力会社の乗り換えで見るべき3つのこと【2026年版】（All About マネー【プロと学ぶお金のキホン】）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+電力会社を乗り換えるときに見るべき 3 つの点を説明している。
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/LCGggcWHS9g" title="電気代を安くする！失敗しない電力会社の乗り換え方【おすすめ新電力4選】（サンデーマネーチャンネル）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+失敗しない電力会社の乗り換え方を紹介した動画。
+
+<p class="source-note">引用した X の投稿は、2026年10月31日に本文・投稿者・日付を確かめたもの。埋め込んだ YouTube は oEmbed でタイトルと投稿者を照合し、実在を確かめたもの。どちらも投稿した人の個人の感想・撮影時点の内容で、この記事の数字とは別のもの。</p>
+
 ## まとめ｜電気・ガス見直し、今日やる3ステップ
 
 ここまで読んで「面倒くさそう」って思ったあんた、それは**毎月勝手に開く財布をそのまま放置する宣言**よ。1〜2時間の作業で年1万〜3万円浮く案件、他にない。今日やることを3つだけ並べておくから、これだけは手を動かしなさい。

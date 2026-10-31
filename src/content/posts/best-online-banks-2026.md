@@ -83,6 +83,34 @@ OliveはSBIグループ全体を巻き込んだ総合金融プラットフォー
 
 > ⚠️ **注意**: キャンペーン条件・特典内容は予告なく変更されることがあります。最終確認は必ず公式サイトで行ってください。
 
+## 実際に使った人の声と動画｜ネット銀行の選び方
+
+手数料の表だけでは見えない「実際どう使い分けているか」を、投稿と動画で補っておく。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">起業して初めて銀行口座を作るときにぶち当たる壁を銀行ごとにまとめてみたので、起業したばかりの人は参考にしてね。ぶっちゃけメガを最初から選ぶ必要性はないと思うよ。 【住信SBIネット銀行】</p>&mdash; ゆる麻布 (@yuruazabu) <a href="https://twitter.com/yuruazabu/status/2085887312429474298">2026年8月8日</a></blockquote>
+
+**口座を作るときにぶつかる壁を銀行ごとにまとめた投稿**。メガバンクにこだわらなくていい、という結論はこの記事と同じよ。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">おはようございます 昨日は入金するタイミングを逃しちゃった。ちまちまと銀行からお金を集めてセブンイレブンのATMからネット銀行に入金すれば手数料無料になる 主婦しかできない時間帯を利用した節約術かもなと思いつつ、来月の家計とにらめっこ 和装トルソーに着せる振袖マジ高ぇよ😂買うけどw</p>&mdash; べに│コツコツ高配当集め (@Benichan_design) <a href="https://twitter.com/Benichan_design/status/2052862557573263838">2026年5月9日</a></blockquote>
+
+**ATM からネット銀行へ入金して手数料を 0 円にする**、日々の小さな工夫の実例。
+
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/o4O94WJh0YA" title="【最新版】2026年版最強ネットバンクおすすめ8選！ 金利と手数料は結局どこがお得？（がまぐち夫婦の節約チャンネル）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+ネット銀行 8 行の金利と手数料を並べた解説。この記事の表と見比べられる。
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/MKX9T3QYu4U" title="【最新版】おすすめ銀行口座の「最適な組み合わせ」を紹介【リベ大公式切り抜き】（両学長 リベラルアーツ大学）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+銀行口座をどう組み合わせるか（メイン・貯める用など）を説明している。
+
+<p class="source-note">引用した X の投稿は、2026年10月31日に本文・投稿者・日付を確かめたもの。埋め込んだ YouTube は oEmbed でタイトルと投稿者を照合し、実在を確かめたもの。どちらも投稿した人の個人の感想・撮影時点の内容で、この記事の数字とは別のもの。</p>
+
 ## まとめ
 
 「どれにするか」で迷う時間が一番もったいない。**まず1行作って、使ってみて、合わなければ追加で2行目**でいいんです。やらない理由はもうないですよね？

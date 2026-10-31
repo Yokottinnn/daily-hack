@@ -146,6 +146,34 @@ mineoには平日昼の谷を避ける「マイそく」みたいな割り切り
 <div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+169TI2+3SPO+CKIQ1T" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/ahamo-hikari-300x250.jpg" alt="【ahamo光】安定した光回線をコスパ良く！ｄポイント20,000pt" width="300" height="250" loading="lazy"></a></div>
 </div>
 
+## 実際に測った人の声と動画｜昼の速さ
+
+この記事の「昼に遅くなるか」を、実際に測った人の投稿と動画で確かめておく。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">お昼休みの金沢駅で、格安SIMら8回線でテストしました。 昼は、 遅い：日本通信SIM、IIJmio(au回線) 遅くなるが使える速度を維持：mineo 不要なほどに爆速：ahamo、LINEMO、povo2.0 昼を過ぎるとウソみたいに速度が復活する日本通信SIMが面白い。</p>&mdash; カズさん@格安SIMら15回線もってます (@wysba1mXkoxCBW7) <a href="https://twitter.com/wysba1mXkoxCBW7/status/2036943852339421318">2026年3月26日</a></blockquote>
+
+**昼休みの金沢駅で 8 回線を測った**結果。遅い回線と、昼でも速い回線がはっきり分かれているのよ。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">楽天モバイルのauローミング問題で、昨日から楽天モバイル触ってるけど。 １が楽天モバイル ２がマイネオ（ソフトバンク）3Mbps規制解除状態。 家の中での測定何だけど、ダウンロードは格安SIMのマイネオが圧倒するけど。 この状態でも、アップは楽天モバイルの方が早いんだよね。</p>&mdash; 静岡のるるか/犬牛くん (@syatyousannpuro) <a href="https://twitter.com/syatyousannpuro/status/2105897957627515232">2026年10月2日</a></blockquote>
+
+**楽天モバイルと mineo を家の中で測り比べた**投稿。
+
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/YGQ2hvolHxg" title="昼でも速い格安SIMはmineoだけ？8回線で計測したら明確な差が出た（カズさん@格安SIMら15回線もってます）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+8 回線を測って、昼に速いのはどこかを確かめた動画。
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/SlPlaZL0ITQ" title="格安SIMガチ実測ランキング！東京22地点で人気4社を独自調査｜朝の通勤ラッシュを生き残ったのは1社だけ【2026年夏】（ネット乗り換えチャンネル）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+東京の 22 地点で 4 社を実測したランキング。
+
+<p class="source-note">引用した X の投稿は、2026年10月31日に本文・投稿者・日付を確かめたもの。埋め込んだ YouTube は oEmbed でタイトルと投稿者を照合し、実在を確かめたもの。どちらも投稿した人の個人の感想・撮影時点の内容で、この記事の数字とは別のもの。</p>
+
 ## まとめ: 「いくら払うか」より「いくらで速さを買うか」で考えなさい
 
 長くなったけど、覚えて帰るのはこれだけ。

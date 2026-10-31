@@ -365,6 +365,34 @@ references:
   </ul>
 </aside>
 
+## 実際の声と動画｜IKEA の配送料
+
+「配送料が高い」と感じている人がどれだけいるかを、投稿と動画で見ておく。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">IKEAの配送料高すぎて商品買う気にもならない😫</p>&mdash; 櫻桃 (@_saku_momo_) <a href="https://twitter.com/_saku_momo_/status/2115950631936823581">2026年10月30日</a></blockquote>
+
+**IKEA の配送料が高くて買う気にならない**、という声。この記事で比べたのは、まさにここ。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">IKEAで爆買い🛋️ 配送料高っ💸 地方住みのデメリットを感じるわ〜 とりあえず配送センターまで取りに行くことにする🚗</p>&mdash; 今コ (@imako378) <a href="https://twitter.com/imako378/status/2103756768774127639">2026年9月26日</a></blockquote>
+
+**配送料が高いので、配送センターまで車で取りに行く**ことにした人。
+
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/so-qlnqjAos" title="IKEAに行かなくなった人が増えた理由（ずんだカー）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+IKEA に行かなくなった人が増えた理由を解説した動画（車の情報チャンネル）。
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/3bzZ-nRHU78" title="【IKEA23&#x27;冬】配送無料来た🇸🇪IKEA好きにおすすめ聞いてみたら🎤神アイテムでした。16選（さぬ_IKEA大好きな人）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+IKEA の配送無料のキャンペーンと、おすすめの品を紹介した動画。
+
+<p class="source-note">引用した X の投稿は、2026年10月31日に本文・投稿者・日付を確かめたもの。埋め込んだ YouTube は oEmbed でタイトルと投稿者を照合し、実在を確かめたもの。どちらも投稿した人の個人の感想・撮影時点の内容で、この記事の数字とは別のもの。</p>
+
 ## よくある質問｜IKEAの配送料・カーシェア・持ち帰り
 
 <div class="cmp-table-wrap">

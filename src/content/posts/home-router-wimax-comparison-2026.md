@@ -375,6 +375,34 @@ SoftBank Air の公式料金ページには、**割引後の月額4,950円**（1
 
 **料金は2026年10月16日時点。** どの会社も料金やキャンペーンは改定されることがあるので、申し込む前に公式サイトで最新の額を確かめること。
 
+## 実際に使っている人の声と動画｜ホームルーター・WiMAX
+
+「ホームルーターは遅い？」を、実際に使っている人の投稿と動画で確かめておく。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">【📶ホームルーター＝遅い？】 ホームルーター＝遅いと思ってませんか？🤔 結論「使い方次第では普通に快適」です 一人暮らし＋昼中心なら、動画やSNSは問題ないケース多い📱 ただし夜メインや会議多い人は、遅延が気になりやすいです</p>&mdash; WiFiストア編集部｜PR含む (@WiFi51269680) <a href="https://twitter.com/WiFi51269680/status/2038088767438008652">2026年3月29日</a></blockquote>
+
+**一人暮らしで昼に使うなら快適、夜は混む**、という使い方での違い。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">WiFiよく分かんなくてホームルーター一括5万円位で契約しちゃったんだけどえぐい遅くてイライラしてきた💢💢www</p>&mdash; のヴぁ🪽 (@NOVA_0084) <a href="https://twitter.com/NOVA_0084/status/2085298770351407594">2026年8月6日</a></blockquote>
+
+**よく分からないまま契約して遅くて困っている**人の声。契約前に速さを確かめないと、こうなるのよ。
+
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/znBqgq_0g8M" title="【2026年最新】ホームルーターの利用料、実測速度、キャッシュバック、縛り完全比較　　おすすめのホームルーター【ソフトバンクエアー・WiMAX・home 5G・楽天ターボ】（まさもばチャンネル）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+ホームルーターの利用料・実測の速さ・キャッシュバック・縛りを比べた動画。
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/xMO_m1iWByk" title="【ホームルーター比較！】WiMAXのHOME 5G L13とドコモhome 5G HR 02のおすすめはどっち？（WiFi大学 by WiMAX比較ドットコム / HonNe）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+WiMAX の HOME 5G L13 とドコモ home 5G HR02 を比べている。
+
+<p class="source-note">引用した X の投稿は、2026年10月31日に本文・投稿者・日付を確かめたもの。埋め込んだ YouTube は oEmbed でタイトルと投稿者を照合し、実在を確かめたもの。どちらも投稿した人の個人の感想・撮影時点の内容で、この記事の数字とは別のもの。</p>
+
 ## 置くだけWiFi・WiMAXのよくある質問
 
 **検索でよく聞かれることに、この記事の数字で答える。**

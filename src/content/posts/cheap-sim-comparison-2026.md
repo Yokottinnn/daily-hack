@@ -368,6 +368,34 @@ LINEのトーク・音声通話・ビデオ通話・スタンプ送信が**全�
 </div>
 <!-- /a8-affiliate-expansion -->
 
+## 実際に使っている人の声と動画｜格安SIMの選び方
+
+料金表だけでは決めにくいところを、実際に使っている人の投稿と動画で補っておく。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">【ギガ使用量別おすすめ携帯プラン】 ■100GB以上使う人 →povoの無制限7日間×12回トッピング(実質月額3,278円)使え webで契約出来ない猿は楽天モバイル使っとけ ■100GBで収まる人 →mineo(auかSB回線)マイピタ3GB+パケット放題3Mbps(合計1,683円)使え webで契約出来ない猿は楽天モバイル使ってけ</p>&mdash; 罵詈言雑(ばりごんぞう) (@barigonzou) <a href="https://twitter.com/barigonzou/status/2116322106866901235">2026年10月31日</a></blockquote>
+
+**ギガの使用量ごとにおすすめを分けた**投稿。この記事と同じく、使う量で答えが変わるのよ。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">ahamo／povo／LINEMOが出てきてからMVNOの存在感が薄れた感じあるけど、今もMVNO使ってる人はどこ使ってる？使ってる理由も教えて。</p>&mdash; ゼンブログ (@ASUS_ZenBlog) <a href="https://twitter.com/ASUS_ZenBlog/status/2115773318410490034">2026年10月29日</a></blockquote>
+
+**ahamo・povo・LINEMO が出たあとも MVNO を使い続けている理由**を聞いた投稿。返信に実際の声が集まっている。
+
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/vvgaEzBOGPU" title="【2026年最新版】人気格安SIM・楽天モバイル10社の料金プランを比較（スマサポチャンネル）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+人気の格安SIMと楽天モバイルの料金プランを並べた比較。
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/HqfBUwDTNuw" title="【今はどこが得?!】13社まとめて解説!スマホ料金プラン完全比較！損しない選び方【ahamo変更対応】（みずおじさん / 誰でも分かるスマホ講座）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+13 社の料金プランをまとめて解説している（ahamo の変更にも対応）。
+
+<p class="source-note">引用した X の投稿は、2026年10月31日に本文・投稿者・日付を確かめたもの。埋め込んだ YouTube は oEmbed でタイトルと投稿者を照合し、実在を確かめたもの。どちらも投稿した人の個人の感想・撮影時点の内容で、この記事の数字とは別のもの。</p>
+
 ## まとめ: 今日中にMNP予約しなさい、話はそれからよ
 
 長々書いたけど、結論はシンプル。

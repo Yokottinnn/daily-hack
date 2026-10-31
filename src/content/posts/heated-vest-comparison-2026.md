@@ -253,6 +253,34 @@ references:
 
 <p class="source-note">アイリスオーヤマの数字は、公式ページの本文で確かめた（ページを直接は開けなかった）。買う前に公式ページで確かめてほしい。</p>
 
+## 実際に着た人の声と動画｜電熱ベスト
+
+何時間もつか、どれくらい暖かいかを、実際に着ている人の投稿と動画で確かめておく。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">電熱ベスト初心者さんにアドバイス 意外に知らない人いるみたい ①ベストの上に薄手でもいいのでトレーナー着ると暖か効果UPするよ ②電池消費激しいですよね？前面と背面どっちも暖めると4時間くらいで電池切れしちゃう そういう時は背面を暖めましょう 前面より背面を暖めたほうが寒くなくなるの</p>&mdash; 雪うさぎ@🐸🥫🚀福島🛵 (@z6UikMOckr24419) <a href="https://twitter.com/z6UikMOckr24419/status/1992234713977872582">2025年11月22日</a></blockquote>
+
+**上に 1 枚重ねると暖かさが上がり、前と後ろを両方温めると電池の減りが速い**、という使い方のコツ。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">ワークマンで電熱ベストを購入してみた。 すごくて感動します</p>&mdash; まさき (@MASAKI_CHOKI) <a href="https://twitter.com/MASAKI_CHOKI/status/2019218029943697431">2026年2月5日</a></blockquote>
+
+**ワークマンの電熱ベストを買って**「感動する」という声。
+
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/6jSjobn-uJo" title="【ヒートベスト・電熱ベスト】一番暖かいのは!? この冬買っておきたい【マキタ・バートル・ワークマン】（ツールオフ【電動工具・電材・建材買取】）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+マキタ・バートル・ワークマンの電熱ベストを、どれが一番暖かいか比べている。
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/B9aJwYSiy0Y" title="電熱ベストは「発熱枚数」で選ぶと失敗します｜バッテリー容量から実稼働時間を計算する【2026年（ガジェットヒル）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+バッテリー容量から実際に使える時間を計算する選び方。この記事の時間の比べ方と同じ考え方。
+
+<p class="source-note">引用した X の投稿は、2026年10月31日に本文・投稿者・日付を確かめたもの。埋め込んだ YouTube は oEmbed でタイトルと投稿者を照合し、実在を確かめたもの。どちらも投稿した人の個人の感想・撮影時点の内容で、この記事の数字とは別のもの。</p>
+
 ## 7製品をひとつずつ｜仕様と3店の値段
 
 ### ① サンコー サイズ調整できる「ヒーターベスト」HEAT25SBK｜手持ちのモバイルバッテリーで動く

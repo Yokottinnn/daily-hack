@@ -538,6 +538,24 @@ TDRディズニーオフィシャル、**プール充実・キッズエリア完
 
 ---
 
+## 実際に予約した人の声と動画｜旅行予約サイト
+
+どこで予約するかを、動画で補っておく。
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/ADHRJDzYSeE" title="どこが一番安い？大手ホテル予約サイトを徹底比較！[楽天トラベル・じゃらん・トリバゴ・エクスペディア]（タナカタケシ / Takeshi TANAKA）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+楽天トラベル・じゃらん・トリバゴ・エクスペディアのどこが一番安いかを比べている。
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/qQ02X_MtjKs" title="【格安旅行】ホテルの最安値がわかる！旅のプロが教える旅行予約サイトの選び方！じゃらんnet/楽天トラベル/トラベルコ/トリバゴ/Yahoo!トラベル/一休.com（マイベストのこれヤバ!）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+旅行予約サイトの選び方を、ホテルの最安値の探し方から説明している。
+
+<p class="source-note">埋め込んだ YouTube は、2026年10月31日に oEmbed でタイトルと投稿者を照合し、実在を確かめたもの。投稿した人の個人の感想・撮影時点の内容で、この記事の数字とは別のもの。</p>
+
 ## まとめ
 
 <ul class="checklist">

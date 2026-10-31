@@ -148,6 +148,24 @@ references: ["https://b4c.jp/poigiken/articles/basic/poikatsu-osusume-2026.html"
 
 > 詳しくは → [ポイ活・セルフバックの税金 完全ガイド 2026](/posts/poikatsu-tax-guide-2026/)（いくらから申告・一時所得50万・住民税の落とし穴）
 
+## 実際に使った人の声と動画｜ポイ活の時給
+
+ポイ活の時給を、実際に測った人の動画で確かめておく。
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/V21TJ7Ps0Ps" title="毎日25分のポイ活、時給は約33円だった — まめ家が残す日課と切る日課 | 楽天経済圏ラボ（まめ研究員 楽天経済圏ラボ）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+毎日 25 分のポイ活の時給が約 33 円だった、という記録。
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/IzRl0xyWkDA" title="【今すぐやめろ】ポイ活民の末路…時給12円で搾取される「貧乏脳」の正体（あっと驚く経済学）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+時給の低いポイ活を続けてしまう理由を解説した動画。
+
+<p class="source-note">埋め込んだ YouTube は、2026年10月31日に oEmbed でタイトルと投稿者を照合し、実在を確かめたもの。投稿した人の個人の感想・撮影時点の内容で、この記事の数字とは別のもの。</p>
+
 ## ❓ よくある質問（FAQ）
 
 <div class="cmp-table-wrap">

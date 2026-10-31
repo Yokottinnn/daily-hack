@@ -172,6 +172,24 @@ references:
 <a class="rc-btn" href="https://pc.moppy.jp/entry/invite.php?invite=kMwuA18a" target="_blank" rel="sponsored noopener nofollow">紹介リンクで無料登録 →</a>
 </div>
 
+## 実際に使った人の声と動画｜ポイントとマイルの交換ルート
+
+交換ルートの組み方を、動画で補っておく。
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/H68wCysxH-8" title="【保存版】ポイント交換ルートまとめ｜ポイント投資・ウエル活・航空系マイル・鉄道系ポイント・ホテルポイントへ集約して、1pt=1円以上の価値で使おう！（家計の味方）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+ポイントを投資・ウエル活・マイル・鉄道・ホテルへ集める交換ルートをまとめた動画。
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/0OhRIwx-dyo" title="【固定コメント確認必須・2026年保存版】ANA・JALマイルなどへの交換ルート徹底解説❗️❗️2026年に使うべき黄金ルートは⁉️（ひらいようた HIRAI YOUTA）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+ANA・JAL マイルへの交換ルートを解説している。
+
+<p class="source-note">埋め込んだ YouTube は、2026年10月31日に oEmbed でタイトルと投稿者を照合し、実在を確かめたもの。投稿した人の個人の感想・撮影時点の内容で、この記事の数字とは別のもの。</p>
+
 ## ❓ よくある質問（FAQ）
 
 <div class="cmp-table-wrap">
