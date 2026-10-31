@@ -326,6 +326,34 @@ isPR: true
   </ul>
 </aside>
 
+## 実際に行った人の声と動画｜アウトレット
+
+混雑や回り方を、実際に行った人の投稿と動画で補っておく。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">さわやか(御殿場アウトレット店)って平日でも4時間待ちで、オープンからクローズまで一切休まることなく混雑しているのに、店員さん全員気持ちの良い接客をしてくれる。あれだけ混んでいたらイライラすることもあると思うけど、その感じを漂わせる人が一人もいない。最高のサービスしてる。企業理念な</p>&mdash; 宇内梨沙 (@unai_risa21) <a href="https://twitter.com/unai_risa21/status/2049053797541089316">2026年4月28日</a></blockquote>
+
+**御殿場アウトレット店の「さわやか」は平日でも 4 時間待ち**という投稿。行く日の組み方が大事なのよ。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">御殿場アウトレットきてる✨ あいにくの雨だけど行く途中の桜並木ステキだった🌸 リンツとピエールマルコリーニ🉐70％🉐オフあって 2600円▷▶800円になってて激熱🍫💓 春休みの土曜で激混みかなっと思ったら、 雨だからまぁまぁな混雑で、回りやすい✨</p>&mdash; 🧸テディ@お得活動ポイ活備忘🗒ᝰ✍️ (@0101teddy) <a href="https://twitter.com/0101teddy/status/2040306573533491427">2026年4月4日</a></blockquote>
+
+**雨の日の御殿場アウトレット**。行く途中の桜並木も見どころ。
+
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/dh89UVOEU4g" title="🛍️【4K】御殿場プレミアムアウトレットをフロアMAP付きでぐるっとご案内【全エリアガイド|散策|買物】Gotemba Premium Outlet guide tour.JAPAN.Shopping（MIRU tube JAPAN 【Route Guide】）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+御殿場プレミアム・アウトレットを、フロアの地図付きで一周案内している。
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/2JSFA4KebAo" title="業界の人だけが知ってる「アウトレットの攻略法」を教えます（mari-colore）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+アウトレットの回り方を、業界の目線で説明した動画。
+
+<p class="source-note">引用した X の投稿は、2026年10月31日に本文・投稿者・日付を確かめたもの。埋め込んだ YouTube は oEmbed でタイトルと投稿者を照合し、実在を確かめたもの。どちらも投稿した人の個人の感想・撮影時点の内容で、この記事の数字とは別のもの。</p>
+
 ## この記事で「分からない」と書いたこと
 
 辞書として使うなら、**何が分かっていないかも書いてあるべき**でしょ。推測で埋めた箇所はひとつもない。

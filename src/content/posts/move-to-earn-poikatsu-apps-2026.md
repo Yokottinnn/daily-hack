@@ -332,6 +332,34 @@ references: ["https://www.ana.co.jp/travelandlife/article/001953/", "https://www
 
 > 📌 **来年の更新時に見るべき指標**：①各アプリの月額・損益分岐点 ②獲得ポイントの改悪/改善 ③交換レート ④新規参入アプリ（毎年新顔が出る）。
 
+## 実際に使った人の声と動画｜移動ポイ活アプリ
+
+本当にどれくらい貯まるのかを、実際に使っている人の投稿と動画で確かめておく。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">気になりますよね？1週間で何円相当がたまったのか実証！赤裸々公開！！ ＠ DIME様で執筆しました🖊 【ポイ活の極意】歩くだけのポイ活は本当に稼げる？人気アプリ3種を1週間使ってどれだけ貯まるか検証</p>&mdash; 谷口久美子｜株主優待×ポイ活 (@KumikoTNGC) <a href="https://twitter.com/KumikoTNGC/status/2116467438841991344">2026年10月31日</a></blockquote>
+
+**1 週間でいくら分貯まったかを公開した**投稿。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">ここまで来たらあともう1個入れたいなあ… ここにあと1個入れるならどのポイ活アプリがいいですかね？💭 ちなみにめっちゃガチります！❤️‍🔥 #ポイ活 #ポイ活初心者</p>&mdash; ぽっ (@tomugc00) <a href="https://twitter.com/tomugc00/status/2116112929968070874">2026年10月30日</a></blockquote>
+
+**使っているポイ活アプリをあと 1 つ足すならどれか**を聞いた投稿。返信に実際に使っているアプリが集まっている。
+
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/V4QLEh7Okn8" title="【最強決定】2026年版 移動系ポイ活アプリランキングTOP15（ぽいすけチャンネル【ポイ活】）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+移動系のポイ活アプリを 15 個ランキングにした動画。
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/tdKiHPUPifM" title="広告に疲れた人へ。手間なしで貯まるポイ活アプリ3選（ぽいすけチャンネル【ポイ活】）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+広告を見る手間の少ないポイ活アプリを 3 つ紹介している。
+
+<p class="source-note">引用した X の投稿は、2026年10月31日に本文・投稿者・日付を確かめたもの。埋め込んだ YouTube は oEmbed でタイトルと投稿者を照合し、実在を確かめたもの。どちらも投稿した人の個人の感想・撮影時点の内容で、この記事の数字とは別のもの。</p>
+
 ## まとめ — 移動ポイ活、結局どれが一番お得か
 
 1. **現金・ギフト券狙いなら → トリマ**（無料・移動距離型の王道、月700〜1,200円分が現実ライン）

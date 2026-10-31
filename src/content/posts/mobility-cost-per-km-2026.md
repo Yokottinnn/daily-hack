@@ -166,6 +166,34 @@ references: ["https://x.com/sugoi_service", "https://luup.sc/", "https://docomo-
 </li>
 </ul>
 
+## 実際に乗った人の声と動画｜LUUP・シェアサイクル
+
+料金の感じ方と使い勝手を、実際に乗っている人の投稿と動画で補っておく。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">都内のシェアサイクル、NOLL・ハロサイ・Luupの料金比較</p>&mdash; Jun Shimada (@shimajiro) <a href="https://twitter.com/shimajiro/status/2028753940272353737">2026年3月3日</a></blockquote>
+
+**都内のシェアサイクル（NOLL・ハロサイ・LUUP）の料金を比べた**投稿。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">LUUP🚲 今は10日間無料期間中だから本当に便利に使っているけど、本来の料金は高いなぁ。昨日のちょい乗り(私的には)は本来530円、今朝の通勤ガッツリ乗りは1000円だったのか…片道で🚲 今までのドコモバイクシェアが無くなるなんて🥲</p>&mdash; yukicot (@yukiyogini) <a href="https://twitter.com/yukiyogini/status/2085223583559950836">2026年8月6日</a></blockquote>
+
+**LUUP を無料期間に便利に使っている**けれど、本来の料金が気になる、という声。
+
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/hd8mQkPv4Xc" title="【LUUP】11月1日から新料金&amp;サブスク開始！電動アシスト自転車を大手2社と比較してみた【ハローサイクリング】【ドコモバイクシェア】（理想と現実チャンネル）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+LUUP の新料金とサブスクを、電動アシスト自転車の大手 2 社と比べている。
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/F7hxvAVJj_Y" title="LUUP vs 愛用モデル、電動アシスト自転車で正直ここまで差があるとは…（キック the チャンネル）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+LUUP と自分の電動アシスト自転車を乗り比べた動画。
+
+<p class="source-note">引用した X の投稿は、2026年10月31日に本文・投稿者・日付を確かめたもの。埋め込んだ YouTube は oEmbed でタイトルと投稿者を照合し、実在を確かめたもの。どちらも投稿した人の個人の感想・撮影時点の内容で、この記事の数字とは別のもの。</p>
+
 ## よくある質問
 
 <div class="cmp-table-wrap">

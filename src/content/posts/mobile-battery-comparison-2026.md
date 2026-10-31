@@ -344,6 +344,34 @@ Anker が自社の基準で「史上最も安全」とする「ネオリチウ�
 
 <div data-shop-card="mobile-battery:anker-maggo-plus-a1113"></div>
 
+## 実際の声と動画｜モバイルバッテリーの発火と機内のルール
+
+燃えにくいモバイルバッテリーが求められている理由を、ニュースと動画で見ておく。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">【鎮火】飛行中の全日空機内でモバイルバッテリーから出火か 9日午前11時すぎ、那覇を離陸して東京へ向かって飛行中の全日空994便の機内で煙が発生したと管制に連絡があった。まもなく鎮火したことから、そのまま羽田空港へ向かっているという。</p>&mdash; ライブドアニュース (@livedoornews) <a href="https://twitter.com/livedoornews/status/1976126723675599008">2025年10月9日</a></blockquote>
+
+**飛行中の全日空機内でモバイルバッテリーから出火**したニュース。機内のルールが変わったきっかけの 1 つよ。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">📢発火リスクを低減したモバイルバッテリー 「準固体モバイルバッテリー01M」発売中✨ ゲル状の電解質を採用することで、より高い安全性と長寿命を実現したモバイルバッテリーが登場🔋 準固体モバイルバッテリーの詳細はスレッドから👇 この夏のご旅行にもおすすめです！</p>&mdash; ドコモ公式サポート (@docomo_cs) <a href="https://twitter.com/docomo_cs/status/2087449005424873701">2026年8月12日</a></blockquote>
+
+**ドコモが出した、発火のリスクを下げた準固体モバイルバッテリー**の告知。
+
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/wtw15B_8An0" title="【要注意】モバイルバッテリーの機内持込みルールが変更！2026年最新（政府広報オンライン）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+政府広報オンラインの、モバイルバッテリーの機内持ち込みルールの変更の説明。
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/IwuN2wHKD08" title="“機内持ち込み”のルール改正案　モバイルバッテリー4月中旬から機内使用禁止を検討(2026年2月27日)（ANNnewsCH）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+機内でのモバイルバッテリーの使用を禁止する改正案を伝えたニュース（2026年2月27日）。
+
+<p class="source-note">引用した X の投稿は、2026年10月31日に本文・投稿者・日付を確かめたもの。埋め込んだ YouTube は oEmbed でタイトルと投稿者を照合し、実在を確かめたもの。どちらも投稿した人の個人の感想・撮影時点の内容で、この記事の数字とは別のもの。</p>
+
 ## 捨て方｜JBRCの協力店に持っていく
 
 **モバイルバッテリーは、燃えないごみに出さない。** 端子をテープで絶縁して、家電量販店やホームセンターなどの協力店へ。

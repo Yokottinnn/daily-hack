@@ -323,6 +323,34 @@ author: "hacker-ko"
 <div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+169TI2+3SPO+CKIQ1T" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/ahamo-hikari-300x250.jpg" alt="【ahamo光】安定した光回線をコスパ良く！ｄポイント20,000pt" width="300" height="250" loading="lazy"></a></div>
 </div>
 
+## 実際に選んだ人の声と動画｜光回線の選び方
+
+どこを見て選ぶかを、実際に比べた人の投稿と動画で補っておく。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">【光回線5社徹底比較】 💰料金が1番安いとくとくBB光 👷工事費が1番安いのはドコモ光 🙌速度が1番速いNURO光（※平均速度） 🗾エリアが広いソフトバンク光など4社 ✨料金が安いorセット割3人以上がおトク ※みんなのネット回線速度調べ ⏰2026年4月11日現在</p>&mdash; しょう＠ネットの窓口 (@syo_net_window) <a href="https://twitter.com/syo_net_window/status/2042935703320068437">2026年4月11日</a></blockquote>
+
+**料金・工事費・速さ・エリアで 5 社の 1 位が違う**、という整理。何を優先するかで答えが変わるのよ。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">【一戸建て×光回線】 絶対失敗しない選び方とおすすめサービスについてまとめました 1 おすすめランキングに惑わされるな 2 まずは自宅で使える光回線を調べる 3 料金は支払総額で比較する 新規も乗り換えも、ぜひ参考にしてください！</p>&mdash; 川上城三郎（ネット回線アドバイザー） (@joekawakami) <a href="https://twitter.com/joekawakami/status/2090648067964129694">2026年8月21日</a></blockquote>
+
+**一戸建てなら、ランキングより先に自宅で使える回線を調べ、支払総額で比べる**、という手順。
+
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/dFNKPR7Uprk" title="【2026年下半期】光回線おすすめランキングTOP5｜1ギガ・10ギガ・新規・事業者変更どっちが得か全部わかる。【とくとくBB/ドコモ光/NURO/au】（まさもばチャンネル）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+1 ギガ・10 ギガ、新規と乗り換えで、どれが得かをランキングにした動画。
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/nl-iRJbM3rU" title="【2026年最新版】戸建ての光回線の選び方！最強のおすすめ7社を紹介！工事内容まで徹底解説（WiFi大学 by WiMAX比較ドットコム / HonNe）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+戸建ての光回線の選び方を、工事の中身まで説明している。
+
+<p class="source-note">引用した X の投稿は、2026年10月31日に本文・投稿者・日付を確かめたもの。埋め込んだ YouTube は oEmbed でタイトルと投稿者を照合し、実在を確かめたもの。どちらも投稿した人の個人の感想・撮影時点の内容で、この記事の数字とは別のもの。</p>
+
 ## まとめ｜ネット回線は「キャリア × エリア × CB額」の3軸で決まる
 
 <div class="highlight-grid cols-3">

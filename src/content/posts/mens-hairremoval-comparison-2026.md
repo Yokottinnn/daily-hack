@@ -396,6 +396,34 @@ references:
 
 この3問の答えで自分のベスト1社が決まる。**迷ったらメンズリゼ**を推す。理由は ① 医療で永久脱毛効果あり、② 追加照射が16,800円と業界最安、③ 割引3つ併用で35%OFF可能、④ 全身+ヒゲ+VIOセットがトータル最安、⑤ 全国26院でアクセスもまずまず、と全方位で穴がない。
 
+## 実際に通った人の声と動画｜メンズ脱毛
+
+医療とサロンのどちらにするか、通ってみてどうだったかを、投稿と動画で補っておく。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">◼︎ヒゲ脱毛 なるべく安く、痛みも少なく脱毛したい→ミダシー 料金が高くても痛くてもいいから通う回数少なく早く脱毛したい→医療脱毛 さらに料金が高くてもいいから痛みも少なく通う回数も少なく早く脱毛したい→ライトクリニック ◼︎ボディ脱毛</p>&mdash; ドバシー社長(土橋和貴)🔥令和の虎 (@Kazuki_Dobashi) <a href="https://twitter.com/Kazuki_Dobashi/status/1977417885468471615">2025年10月13日</a></blockquote>
+
+**安さ・痛みの少なさなど、何を優先するかでヒゲ脱毛の行き先を分けた**整理。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">8回通ってから、聞いておけばよかったと思った質問があります。 46歳で始めたヒゲ脱毛。 1院目は、安さと麻酔無料が魅力でした。 でも、8回終えても鼻下と口まわりには太いヒゲが残りました。 「私のヒゲには、どの脱毛機を使いますか？」 「自分の毛の状態なら、何回くらい必要ですか？」</p>&mdash; ぽんきち｜白ヒゲ駆逐する50歳 (@ponkiti_hige) <a href="https://twitter.com/ponkiti_hige/status/2116274053128261769">2026年10月31日</a></blockquote>
+
+**46 歳でヒゲ脱毛を始め、8 回通ってから「聞いておけばよかった」と思った質問**の話。
+
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/Yx_j2QeCde4" title="エステの光脱毛とクリニックの医療レーザー脱毛（永久脱毛）の違いを教えてください。（高須幹弥（高須クリニック））" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+エステの光脱毛と、クリニックの医療レーザー脱毛の違いを医師が説明している。
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/EgRMhNB4xk0" title="医療脱毛とエステ脱毛どちらを選ぶべき？【美容外科医師解説】（田中克弥先生の鼻整形・美容医療相談室）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+医療脱毛とエステ脱毛のどちらを選ぶべきかを、美容外科医が解説した動画。
+
+<p class="source-note">引用した X の投稿は、2026年10月31日に本文・投稿者・日付を確かめたもの。埋め込んだ YouTube は oEmbed でタイトルと投稿者を照合し、実在を確かめたもの。どちらも投稿した人の個人の感想・撮影時点の内容で、この記事の数字とは別のもの。</p>
+
 ## まとめ: 「明日にしよう」を今日で終わらせる
 
 最後にもう1回だけ言わせて。

@@ -142,6 +142,34 @@ references: ["https://coki.jp/article/column/83119/", "https://b4c.jp/poigiken/a
 </li>
 </ul>
 
+## 実際の声と動画｜2026年6月の PayPay 改悪
+
+改悪をどう受け止め、どう対策しているかを、投稿と動画で補っておく。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">【悲報】PayPayカード改悪 【開始】2026年6月2日〜 他社決済サービスへのチャージポイント付与対象外 交通系ICへのチャージポイント付与対象外 公共料金、税金200円につき1ポイント還元へ</p>&mdash; とらうぃ🐯お得なセール、お金 (@trawi_site) <a href="https://twitter.com/trawi_site/status/2019242517485727994">2026年2月5日</a></blockquote>
+
+**PayPay カードの改悪（2026年6月2日〜）**を伝えた投稿。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">「とりあえずPayPayで払えばお得」を2026年も信じている人、実は一番カモにされています。 度重なる改悪に振り回されてポイ活に疲弊する人と、最小の手間で資産を残す人の決定的な違いは、 毎月の決済回数が多いかどうかでもなく、 クーポンを毎日血眼で探しているかでもなく、</p>&mdash; あきにい (@kigurumi_m) <a href="https://twitter.com/kigurumi_m/status/2089457349639729541">2026年8月18日</a></blockquote>
+
+**「とりあえず PayPay で払えば得」を 2026 年も信じている人**への注意。
+
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/lM3Tzp2JsPw" title="【2026年6月最新】PayPay経済圏が大改悪！放置でポイント0%に？絶対やるべき4つの対策と5つの変更点（ポイシェル【ポイ活•節約】）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+2026年6月の PayPay の改悪で、やるべき対策と変更点をまとめた動画。
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/_Iz0gnWpKFs" title="2026年9月からPayPay改悪！楽天カードやイオンカード他社クレカで支払いできなくなる！（DENZOの資産形成💰応援チャンネル）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+9 月から他社のクレカで支払えなくなる変更を説明している。
+
+<p class="source-note">引用した X の投稿は、2026年10月31日に本文・投稿者・日付を確かめたもの。埋め込んだ YouTube は oEmbed でタイトルと投稿者を照合し、実在を確かめたもの。どちらも投稿した人の個人の感想・撮影時点の内容で、この記事の数字とは別のもの。</p>
+
 ## まとめ — PayPay改悪、慌てず「損してる部分だけ」直す
 
 1. **eKYCは今日やる** — 未完了は還元ゼロ。これだけは即対応。
