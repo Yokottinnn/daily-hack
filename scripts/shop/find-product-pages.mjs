@@ -18,6 +18,8 @@ const t0 = Date.now();
 const OUT = path.join(process.env.OPS_REPORT_DIR || '/tmp', 'shop-pages', SERIES);
 fs.mkdirSync(OUT, { recursive: true });
 const data = JSON.parse(fs.readFileSync(process.env.SHOP_JSON, 'utf8'));
+// QUERIES: 型番で見つからなかったものを別の言葉で探し直す（[{id, store, keyword, must, exclude}]）。指定があれば商品データの代わりにこれを回す
+if (process.env.QUERIES) data.items = JSON.parse(fs.readFileSync(process.env.QUERIES, 'utf8')).map((q, i) => ({ id: `${q.id}@${i}`, only: q.store, [q.store]: { keyword: q.keyword }, rakuten: { keyword: q.keyword, must: q.must, exclude: q.exclude || [] } }));
 // fetch-prices.mjs と同じ除外語
 const DEFAULT_EXCLUDE = ['中古', 'ジャンク', '訳あり', 'レンタル', '交換用', '専用ケース', 'カバーのみ', '変換ケーブル', '変換アダプター', '交換バッテリー'];
 
@@ -61,6 +63,7 @@ for (const it of data.items || []) {
   const row = {};
   lines.push(`## ${it.id}（must: ${must.join('・')}）`);
   for (const store of ['amazon', 'rakuten']) {
+    if (it.only && it.only !== store) continue;
     const kw = it[store]?.keyword || it.rakuten?.keyword;
     if (!kw) continue;
     const url = store === 'amazon' ? `https://www.amazon.co.jp/s?k=${encodeURIComponent(kw)}` : `https://search.rakuten.co.jp/search/mall/${encodeURIComponent(kw)}/`;
@@ -77,7 +80,7 @@ for (const it of data.items || []) {
       if (top) {
         await pg.goto(store === 'amazon' ? `https://www.amazon.co.jp/dp/${top.asin}` : top.url, { waitUntil: 'domcontentloaded', timeout: 30000 });
         await pg.waitForTimeout(3000);
-        const pv = await pg.evaluate(() => ({ title: document.title.slice(0, 120), cart: /カートに入れる|今すぐ買う/.test(document.body.innerText || ''), h1: ((document.querySelector('h1') || {}).innerText || '').slice(0, 120) }));
+        const pv = await pg.evaluate(() => ({ title: document.title.slice(0, 120), cart: /カートに入れる|今すぐ買う|買い物かごに入れる|かごに追加|ご購入手続きへ/.test(document.body.innerText || ''), h1: ((document.querySelector('h1') || {}).innerText || '').slice(0, 120) }));
         row[store].top = { ...top, page: pv };
         await pg.screenshot({ path: path.join(OUT, `p-${it.id}-${store}.jpg`), type: 'jpeg', quality: 55 }).catch(() => {});
         lines.push(`  - 開いた: ${pv.h1 || pv.title}｜カート: ${pv.cart ? 'あり' : '**無い**'}`);
@@ -91,8 +94,8 @@ for (const it of data.items || []) {
   lines.push('');
 }
 await pg.close().catch(() => {});
-fs.writeFileSync(path.join(OUT, 'candidates.json'), JSON.stringify(result, null, 1));
-fs.writeFileSync(path.join(OUT, 'report.md'), lines.join('\n'));
+fs.writeFileSync(path.join(OUT, `candidates${process.env.OUT_SUFFIX || ''}.json`), JSON.stringify(result, null, 1));
+fs.writeFileSync(path.join(OUT, `report${process.env.OUT_SUFFIX || ''}.md`), lines.join('\n'));
 console.log(lines.slice(0, 4).join('\n'));
 console.log(`商品 ${(data.items || []).length} 件 / 調べた ${Object.keys(result.items).length} 件`);
 process.exit(0);
