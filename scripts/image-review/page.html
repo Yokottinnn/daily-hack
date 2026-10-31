@@ -62,6 +62,25 @@
                    font-family:var(--mono); font-size:11px; text-align:center; }
   .tabs button i:empty { display:none; }
 
+  .tools { display:flex; flex-wrap:wrap; gap:8px 14px; align-items:center; margin-block:16px 0; font-size:13px; color:var(--muted); }
+  .tools select, .tools input { font:inherit; font-size:13px; padding:5px 8px; border:1px solid var(--line); border-radius:3px; background:var(--surface); color:var(--ink); }
+  .tools input { flex:1 1 200px; min-width:0; }
+  .tools .hit { font-family:var(--mono); }
+  .tabs button em.cand { color:var(--accent); }
+  .nextbox { margin-block:18px 0; padding:12px 16px; background:var(--surface); border:1px solid var(--line); border-left:4px solid var(--accent); border-radius:3px; }
+  .nextbox h2 { margin:0 0 6px; font-size:15px; }
+  .nextbox ol { margin:0; padding-left:0; list-style:none; }
+  .nextbox li { margin:3px 0; font-size:13.5px; }
+  .nextbox .why { margin:2px 0 0; font-size:12.5px; color:var(--muted); }
+  .nextbox .chk { margin:2px 0 6px; padding-left:1.2em; font-size:12.5px; }
+  .nextbox li.alt { margin-left:1.2em; }
+  .nextbox li > .linkish { font-weight:700; }
+  .nextbox .hint { margin:8px 0 0; font-size:12px; color:var(--muted); }
+  .linkish { font:inherit; background:none; border:0; padding:0; color:var(--ink); text-decoration:underline; cursor:pointer; text-align:left; }
+  .state { display:inline-block; margin-bottom:4px; padding:1px 10px; border-radius:999px; font-size:11.5px; font-weight:700; border:1px solid currentColor; }
+  .state.s-draft { color:var(--accent); }
+  .state.s-posted { color:var(--done); }
+  .state.s-done, .state.s-dropped { color:var(--muted); }
   .set { margin-block:26px 0; }
   .set > header { padding-bottom:6px; border-bottom:2px solid var(--ink); }
   .set h2 { margin:0; font-size:19px; }
@@ -257,6 +276,8 @@
   const POSTS = /*__POSTS__*/{};
   // 投稿スタイルの目録と、各 SET の割り当て（build.mjs が styles.json / set-styles.json から差し込む）
   const STYLES = /*__STYLES__*/{};
+  // 組ごとの状態と日付（build.mjs が set-status.json と posted から差し込む）
+  const STATUS = /*__STATUS__*/{};
   const styleById = new Map((STYLES.styles || []).map((x) => [x.id, x]));
   const groupName = new Map((STYLES.groups || []).map((g) => [g.id, g.name]));
 
@@ -602,8 +623,18 @@
     return form;
   }
 
-  // **未投稿を先に。** 済んだものが上にあると、どれを見ればいいのか分からない
-  SETS.sort((x, y) => (x.posted ? 1 : 0) - (y.posted ? 1 : 0));
+  // **状態を付ける**（2026-10-31・利用者「投稿済みの投稿とそうではない投稿を区別するようにしてほしい」）
+  const STATE_NAME = { draft: "投稿候補", posted: "投稿済み", done: "終了", dropped: "見送り" };
+  for (const set of SETS) {
+    const st = STATUS[set.key] || {};
+    set.state = st.state || (set.posted ? "posted" : "draft");
+    if (set.state === "posted" && !set.posted && (st.ids || []).length) set.posted = st.ids;
+    set.date = st.date || "";
+    set.stateNote = st.note || "";
+    set.next = st.next || null; set.why = st.why || ""; set.check = st.check || [];
+  }
+  // 既定は「候補が先・新しい順」
+  SETS.sort((x, y) => ((x.state === "draft" ? 0 : 1) - (y.state === "draft" ? 0 : 1)) || String(y.date).localeCompare(String(x.date)));
 
   // ---------- 組み立て ----------
   const sections = [];
@@ -613,7 +644,13 @@
     const head = document.createElement("header");
     const h2 = document.createElement("h2"); h2.textContent = set.title;
     const slug = document.createElement("div"); slug.className = "slug"; slug.textContent = set.slug;
-    head.append(h2, slug);
+    const pill = document.createElement("span");
+    pill.className = "state s-" + set.state;
+    pill.textContent = STATE_NAME[set.state] + (set.date ? "・" + set.date : "");
+    head.append(pill, h2, slug);
+    if (set.stateNote && set.state !== "draft") {
+      const sn = document.createElement("p"); sn.className = "posted"; sn.textContent = set.stateNote; head.append(sn);
+    }
     if (set.posted) {
       // **出したものを、まだ見るものと混ぜない**
       const done = document.createElement("p");
@@ -828,11 +865,15 @@
     const name = document.createElement("span");
     name.textContent = set.title;
     b.append(name);
-    if (set.posted) {
+    b.dataset.state = set.state;
+    if (set.state !== "draft") {
       const chip = document.createElement("em");
-      chip.textContent = "投稿済み";
+      chip.textContent = STATE_NAME[set.state];
       b.append(chip);
     } else {
+      const c = document.createElement("em");
+      c.className = "cand"; c.textContent = "候補";
+      b.append(c);
       const n = document.createElement("i");
       n.dataset.count = set.key;
       b.append(n);
@@ -841,6 +882,81 @@
     tabs.append(b);
     return b;
   });
+
+  // ---------- 絞り込み・並べ替え・次の候補（2026-10-31・利用者「一覧が増えすぎていて、選択が難しい」「次投稿したい候補がなにかもわからない」） ----------
+  const FKEY = "x-review-filter-v2";
+  let filt = { state: "draft", sort: "next", q: "" };
+  try { Object.assign(filt, JSON.parse(localStorage.getItem(FKEY) || "{}")); } catch (e) { /* 使えなくても動く */ }
+  const tools = document.createElement("div");
+  tools.className = "tools";
+  const count = (s) => sections.filter((x) => x.set.state === s).length;
+  tools.innerHTML =
+    '<label>状態 <select data-k="state">' +
+      '<option value="draft">投稿候補（' + count("draft") + '）</option>' +
+      '<option value="posted">投稿済み（' + count("posted") + '）</option>' +
+      '<option value="ended">終了・見送り（' + (count("done") + count("dropped")) + '）</option>' +
+      '<option value="all">すべて（' + sections.length + '）</option></select></label>' +
+    '<label>並べ方 <select data-k="sort">' +
+      '<option value="next">次に出す順</option><option value="new">新しい順</option><option value="old">古い順</option>' +
+      '<option value="open">未対応のコメントが多い順</option><option value="title">題名順</option></select></label>' +
+    '<input type="search" data-k="q" placeholder="題名で探す（例：浜離宮、PAY ID）" aria-label="題名で探す">' +
+    '<span class="hit"></span>';
+  const nextBox = document.createElement("section");
+  nextBox.className = "nextbox";
+  const openCount = (key) => (typeof rows !== "undefined" ? rows.filter((r) => r.set === key && !r.done).length : 0);
+  function applyFilter() {
+    const q = filt.q.trim().toLowerCase();
+    const want = (s) => filt.state === "all" || s === filt.state || (filt.state === "ended" && (s === "done" || s === "dropped"));
+    const order = sections.map((x, i) => i).sort((a, b) => {
+      const A = sections[a].set, Bs = sections[b].set;
+      if (filt.sort === "next") return (A.next || 99) - (Bs.next || 99) || String(Bs.date).localeCompare(String(A.date));
+      if (filt.sort === "old") return String(A.date).localeCompare(String(Bs.date));
+      if (filt.sort === "open") return openCount(Bs.key) - openCount(A.key);
+      if (filt.sort === "title") return A.title.localeCompare(Bs.title, "ja");
+      return String(Bs.date).localeCompare(String(A.date));
+    });
+    let shown = 0;
+    for (const i of order) {
+      const s = sections[i].set;
+      const ok = want(s.state) && (!q || s.title.toLowerCase().includes(q) || s.key.includes(q));
+      buttons[i].hidden = !ok; if (ok) shown++;
+      tabs.append(buttons[i]);
+    }
+    tools.querySelector(".hit").textContent = shown + " 件";
+    if (buttons[active] && buttons[active].hidden) {
+      const first = order.find((i) => !buttons[i].hidden);
+      if (first !== undefined) show(first);
+    }
+    try { localStorage.setItem(FKEY, JSON.stringify(filt)); } catch (e) { /* 使えなくても動く */ }
+  }
+  for (const el of tools.querySelectorAll("[data-k]")) {
+    el.value = filt[el.dataset.k];
+    el.addEventListener(el.tagName === "INPUT" ? "input" : "change", () => { filt[el.dataset.k] = el.value; applyFilter(); });
+  }
+  // 次の候補：投稿していない組を新しい順に並べ、押すとその組を開く
+  (function renderNext() {
+    // 順番は Claude の提案（set-status.json の next・why・check）。番号が同じものは「どちらか 1 つ」
+    const cand = sections.map((x, i) => ({ s: x.set, i })).filter((x) => x.s.state === "draft")
+      .sort((a, b) => (a.s.next || 99) - (b.s.next || 99) || String(b.s.date).localeCompare(String(a.s.date)));
+    const h = document.createElement("h2"); h.textContent = "次に出す順番と、見てほしいところ（投稿していないもの " + cand.length + " 件）";
+    const ol = document.createElement("ol");
+    let last = null;
+    for (const c of cand) {
+      const li = document.createElement("li");
+      if (c.s.next && c.s.next === last) li.className = "alt";
+      last = c.s.next;
+      const a = document.createElement("button"); a.type = "button"; a.className = "linkish";
+      a.textContent = (c.s.next ? c.s.next + ". " : "") + c.s.title;
+      a.addEventListener("click", () => { filt.state = "draft"; tools.querySelector('[data-k="state"]').value = "draft"; applyFilter(); show(c.i); tabs.scrollIntoView({ block: "start" }); });
+      li.append(a);
+      if (c.s.why) { const w = document.createElement("p"); w.className = "why"; w.textContent = "理由：" + c.s.why; li.append(w); }
+      if (c.s.check.length) { const ul = document.createElement("ul"); ul.className = "chk"; for (const t of c.s.check) { const x = document.createElement("li"); x.textContent = t; ul.append(x); } li.append(ul); }
+      ol.append(li);
+    }
+    const p = document.createElement("p"); p.className = "hint";
+    p.textContent = cand.length ? "順番は Claude の提案です。違えばこのページかチャットで言ってください。投稿は、チャットで「この内容で投稿して」と書いたものだけ出します（選ぶだけでは出しません）。" : "いま投稿していない組はありません。";
+    nextBox.append(h, cand.length ? ol : document.createTextNode(""), p);
+  })();
 
   // ---------- 投稿スタイル ----------
   function styleBox(set) {
@@ -932,7 +1048,8 @@
     try { localStorage.setItem(KEY, sections[i].set.key); } catch (e) { /* 使えなくても動く */ }
     render();
   }
-  main.before(tabs);
+  main.before(nextBox, tools, tabs);
+  applyFilter();
 
   // **関数宣言にする。** `const` だと、先に呼ぶ `show()` が
   // 「Cannot access 'textOf' before initialization」で落ちる（実際に踏んだ）

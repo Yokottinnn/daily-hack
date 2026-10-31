@@ -59,8 +59,10 @@ for (const [key, parts] of Object.entries(posts)) {
   if (m.posted || st !== "draft") continue;
   const sid = (styles[key] && styles[key].style) || "";
   drafts.push({ key, title: m.title, attach: m.attach, style: sid, styleName: styleName.get(sid) || sid,
-    head: headOf(parts[0] || ""), parts, edited: edited.has(key) });
+    head: headOf(parts[0] || ""), parts, edited: edited.has(key),
+    next: (status[key] && status[key].next) || null, why: (status[key] && status[key].why) || "", check: (status[key] && status[key].check) || [] });
 }
+drafts.sort((a, b) => (a.next || 99) - (b.next || 99));
 const doc = { updatedAt: new Date(Date.now() + 9 * 3600e3).toISOString().slice(0, 19) + "+09:00", reviewUrl: "https://claude.ai/artifact/1o7gjZZghit8kn3W4AXUdH", drafts };
 fs.writeFileSync(out, JSON.stringify(doc, null, 2) + "\n");
 console.log(`下書き ${drafts.length} 組: ${drafts.map((d) => d.key).join(", ")}`);
