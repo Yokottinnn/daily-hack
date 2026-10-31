@@ -340,7 +340,7 @@ try {
     lines.push('## 楽天ウェブサービス アプリ登録（画像認証の手前まで入れた・送っていない）', '', `- 画面: ${q.url().replace(/[?#].*$/, '')}`, ...st.map((x) => `- ${x}`), '', '**このタブは開いたまま残す。** 利用者が画像認証の文字を入れて「Agree to the terms of service」を押す', '');
   }
 
-  if (WHICH === 'a8status') {
+  if (WHICH === 'a8liststatus') {
     // 申請した案件が「審査中」「提携中」のどちらに入ったかを一覧から数える（2026-10-31）。自分の報酬額は出さない
     const listIds = async (kind) => {
       const all = new Set();
@@ -363,8 +363,14 @@ try {
 
   if (WHICH === 'a8partnered') {
     // 提携中プログラムの名前・成果報酬・本人申込（セルフバック）可否を読む。A8_FROM/A8_TO で分割（1 タスク 5 分以内）
-    await go('https://media-console.a8.net/program/list/partnered?pageNo=1&pageSize=100&sortKey=APPROVED_DATE&sortOrder=DESC');
-    const ids = await p.evaluate(() => [...new Set([...document.querySelectorAll('a[href*="programId="]')].map((a) => (a.href.match(/programId=(s\d+)/) || [])[1]).filter(Boolean))]);
+    // 提携中は 300 件を超えた（2026-10-31）。1 ページ 100 件なので、ページを送って全部集める
+    const ids = [];
+    for (let pg = 1; pg <= 10; pg++) {
+      await go(`https://media-console.a8.net/program/list/partnered?pageNo=${pg}&pageSize=100&sortKey=APPROVED_DATE&sortOrder=DESC`);
+      const got = await p.evaluate(() => [...new Set([...document.querySelectorAll('a[href*="programId="]')].map((a) => (a.href.match(/programId=(s\d+)/) || [])[1]).filter(Boolean))]);
+      const fresh = got.filter((x) => !ids.includes(x)); ids.push(...fresh);
+      if (got.length < 100 || !fresh.length) break;
+    }
     const from = Number(process.env.A8_FROM || 0), to = Number(process.env.A8_TO || ids.length);
     lines.push(`- 提携中 ${ids.length} 件のうち ${from}〜${to - 1} 番目を読む`, '', '| programId | 名前 | 成果報酬 | 本人申込・ポイント | 提携日など |', '| --- | --- | --- | --- | --- |');
     for (const id of ids.slice(from, to)) {
