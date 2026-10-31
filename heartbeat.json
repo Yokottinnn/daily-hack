@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-31T03:30:23Z",
+  "generated_at": "2026-10-31T04:00:35Z",
   "login_lock": {"present": false, "age_hours": 0},
   "cdp": {"healthy": true, "port": 18810},
   "x_jobs": {"loaded": 8, "expected": 8, "ai_total": 15, "halted": false, "missing": []},
   "last_reply": {"at": "2026-10-31T03:05:09.718Z", "age_hours": 0, "stale": false},
   "supervisor": {"at":"2026-10-30T20:03:54Z","date_jst":"2026-10-31","ran":9,"total":9,"not_run":[],"fixed":[]},
-  "followback_bands": {"with_count":567,"total_rows":937,"bands":{"1000-4999":{"n":198,"back":35,"mature":194,"mature_back":35,"rate":18},"300-999":{"n":145,"back":25,"mature":139,"mature_back":25,"rate":18},"0-99":{"n":98,"back":21,"mature":97,"mature_back":21,"rate":21.6},"5000-49999":{"n":91,"back":6,"mature":90,"mature_back":6,"rate":6.7},"100-299":{"n":33,"back":8,"mature":31,"mature_back":8,"rate":25.8},"50000-up":{"n":2,"back":1,"mature":2,"mature_back":1,"rate":50}},"status_values":{"no":732,"revenge_ghost_already_unfollowed":48,"unfollowed":16,"yes_late":1,"yes":126,"pending":14},"note":"mature の率で見る"},
+  "followback_bands": {"with_count":567,"total_rows":938,"bands":{"1000-4999":{"n":198,"back":35,"mature":194,"mature_back":35,"rate":18},"300-999":{"n":145,"back":25,"mature":139,"mature_back":25,"rate":18},"0-99":{"n":98,"back":21,"mature":97,"mature_back":21,"rate":21.6},"5000-49999":{"n":91,"back":6,"mature":90,"mature_back":6,"rate":6.7},"100-299":{"n":33,"back":8,"mature":31,"mature_back":8,"rate":25.8},"50000-up":{"n":2,"back":1,"mature":2,"mature_back":1,"rate":50}},"status_values":{"no":732,"revenge_ghost_already_unfollowed":48,"unfollowed":16,"yes_late":1,"yes":126,"pending":15},"note":"mature の率で見る"},
   "host": "NaokinoMBP-2",
   "job_count": 26,
   "jobs": [
@@ -37,7 +37,9 @@
     "com.dailyhack.x-impressions"
   ],
   "reconnect": "既に起動している",
-  "tasks": [],
+  "tasks": [
+      {"task": "t398-amazon-status3.sh", "rc": 0, "out": "  - dailyhack-22   - ショートリンク - サイトストライプのリンクが読めなかった  rc=0 /     3494 bytes"}
+  ],
   "running": null,
   "auth": {
     "ok": true,
