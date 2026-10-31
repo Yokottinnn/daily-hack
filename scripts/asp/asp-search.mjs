@@ -26,6 +26,7 @@ const p = await ctx.newPage();
 const loggedOut = async () => p.evaluate(() => !!document.querySelector('input[type=password]') || /login|re-authentication/i.test(location.href));
 
 // ---- A8: キーワード検索 ----
+const ALL = [];
 {
   const lines = ['# A8.net の検索結果（asp-search）', '', `生成: **${new Date().toISOString()}**`, ''];
   for (const kw of KW) {
@@ -58,10 +59,14 @@ const loggedOut = async () => p.evaluate(() => !!document.querySelector('input[t
       return [...out.entries()].map(([id, t]) => [id, (names.get(id) ? '【' + names.get(id) + '】 ' : '') + t]);
     });
     lines.push(`## 「${kw}」 ${rows.length} 件`, '');
+    for (const [id, t] of rows) if (!NG.test(t)) ALL.push({ kw, id, text: t });
     for (const [id, t] of rows.slice(0, 12)) if (!NG.test(t)) lines.push(`- \`${id}\` ${t.replace(/\|/g, '／')}`);
     lines.push('');
   }
-  fs.writeFileSync(path.join(OUT, 'a8.md'), lines.join('\n') + '\n');
+  const SUF = process.env.ASP_OUT_SUFFIX || '';
+  fs.writeFileSync(path.join(OUT, `a8${SUF}.md`), lines.join('\n') + '\n');
+  // 全件（md は 1 語 12 件まで）。申請の候補を選ぶのに使う（2026-10-31）
+  if (SUF) fs.writeFileSync(path.join(OUT, `a8${SUF}.json`), JSON.stringify({ generated: new Date().toISOString(), keywords: KW, rows: ALL }, null, 1));
   console.log(`a8: ${KW.length} 語`);
 }
 
