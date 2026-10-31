@@ -250,6 +250,7 @@ Claude が X に直接投稿することはない。確立している経路は�
 - 作戦室（https://claude.ai/artifact/9KWGybrAHF7LtbQdVpw9YN）の「X での告知」の先頭と「全体像」に、レビューページへのリンクと未投稿の組を出している。中身は db の `xdrafts/current`
 - **レビューページを publish したら、毎回 `node scripts/image-review/board-drafts.mjs <出力>` を作って `xdrafts/current` に `set` する**（`if_version` を付ける）
 - **投稿したら `scripts/image-review/set-status.json` を `posted` にして（キューの x_tweet_id を見てから）書き換え直す。** 投稿済みが「準備中」に残ると、作戦室が嘘になる
+- **利用者はレビューページで「投稿しない（見送り）」のチェックを付けられる**（2026-10-31「投稿するつもりがないものはちゃんとチェックをつけられるようにしたい／そうじゃないと一生『次に出す予定のもの』に溜まっていく」）。印は db の `set_state/<key>`。**ページを読むときは `pins`・`drafts` と一緒に `set_state` も読み**、`node scripts/image-review/sync-set-state.mjs <out_dir>/set_state` で `set-status.json` に写してから作戦室の下書き一覧を書き換える。**見送りにされた組を、勝手に候補へ戻さない**
 
 #### 草案は Slack に貼らない（2026-09-05 に指示）
 
