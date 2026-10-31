@@ -522,13 +522,33 @@
   const say = (m) => { elWarn.hidden = !m; elWarn.textContent = m || ""; };
   const tell = (m) => { elSaid.hidden = !m; elSaid.textContent = m || ""; };
 
-  // **X の重みは 280。全角は 2、URL は t.co で常に 23**
+  // **X の重み：全角は 2、URL は t.co で常に 23**
   function weight(s) {
     let n = 0;
     for (const c of s.replace(/https?:\/\/\S+/g, "#".repeat(23))) {
       n += c.codePointAt(0) < 0x80 ? 1 : 2;
     }
     return n;
+  }
+
+  // **青バッジ（Premium）なので 1 投稿は 25,000 まで出せる**（2026-10-17〜）。止めるのは 25,000 を超えたときだけ。
+  // タイムラインで「さらに表示」の前に見えるのは冒頭だけなので、冒頭の重み（275 が目安）は数えて見せるが、超えても保存は止めない
+  // （2026-10-31 利用者「文字数制限を超えると修正ができないようになっていて、現状のブルーバッジを取得したアカウントの前提と噛み合っていない」）
+  const LIMIT = 25000, FOLD = 275;
+  function headWeight(s) {
+    const lines = s.split("\n");
+    const at = lines.findIndex((l, j) => l.trim().endsWith("👇") && (lines[j + 1] ?? "").trim() === "");
+    if (at >= 0) return weight(lines.slice(0, at + 1).join("\n"));
+    let fold = "";
+    for (const p of s.split(/\n\n/)) { const n = fold ? fold + "\n\n" + p : p; if (weight(n) > FOLD) break; fold = n; }
+    return weight(fold || s.split(/\n\n/)[0]);
+  }
+  function weightLabel(s) {
+    const x = weight(s);
+    if (x <= FOLD) return { text: "重み " + x + "（さらに表示なしで全部見える）", over: false };
+    const h = headWeight(s);
+    return { text: "長文 重み " + x.toLocaleString() + " / 25,000・さらに表示の前 " + h + (h > FOLD ? "（目安 275 を超えている）" : " / 275"),
+             over: x > LIMIT, soft: h > FOLD };
   }
 
   async function addPin(body) {
@@ -748,14 +768,14 @@
           [document.createTextNode("この投稿 全体について")]));
 
       const recount = () => {
-        const x = weight(eta.value);
-        count.textContent = "重み " + x + " / 280（余裕 " + (280 - x) + "）";
-        count.classList.toggle("over", x > 280);
-        eSave.disabled = x > 280 || !eta.value.trim();
+        const L = weightLabel(eta.value);
+        count.textContent = L.text;
+        count.classList.toggle("over", L.over || !!L.soft);
+        eSave.disabled = L.over || !eta.value.trim();
       };
       // **ここも押し忘れで消えないように、打った時点で保存する**
       const saveDraft = async () => {
-        if (!db || !eta.value.trim() || weight(eta.value) > 280) return;
+        if (!db || !eta.value.trim() || weight(eta.value) > LIMIT) return;
         try {
           await db.doc("drafts/" + target.replace("/", "-"))
             .set({ target, text: eta.value, updatedAt: new Date().toISOString() });
@@ -1156,9 +1176,9 @@
     const text = textOf(target);
     const all = forTarget(target);
 
-    const wt = weight(text);
-    slot.w.textContent = "重み " + wt + " / 280（余裕 " + (280 - wt) + "）";
-    slot.w.classList.toggle("over", wt > 280);
+    const L = weightLabel(text);
+    slot.w.textContent = L.text;
+    slot.w.classList.toggle("over", L.over || !!L.soft);
     slot.edited.hidden = typeof drafts[target] !== "string";
 
     const marks = [];
