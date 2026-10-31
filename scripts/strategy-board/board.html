@@ -118,6 +118,15 @@ ul.plain,ol.plain{margin:0 0 14px;padding-left:1.3em} .plain li{margin:4px 0;max
 .todo .how{font-size:14px;margin-top:6px}
 .todo .note{font-size:13px;margin-top:6px;padding:6px 10px;border-left:3px solid var(--teal);background:var(--teal-soft);border-radius:0 8px 8px 0}
 .todo.done{opacity:.6}
+.fc-bar{display:flex;gap:14px;align-items:center;flex-wrap:wrap;margin:0 0 4px}
+.fc-wrap{position:relative;display:flex}
+.chart .fc svg{width:auto;height:auto;max-width:none}
+.fc-axis{flex:0 0 44px}
+.fc-scroll{min-width:0}
+.fc-scroll{flex:1;overflow-x:auto;overflow-y:hidden;overscroll-behavior-x:contain;cursor:crosshair}
+.fc-plot{display:block;touch-action:pan-x}
+.fc-tip{position:absolute;z-index:5;pointer-events:none;background:var(--ink);color:var(--paper);font-size:12px;line-height:1.5;border-radius:8px;padding:4px 10px;white-space:nowrap;box-shadow:0 2px 8px rgba(0,0,0,.2)}
+.fc-tip .status{color:inherit;opacity:.8}
 .calc{display:grid;gap:10px;background:var(--sheet);border:1px solid var(--rule);border-radius:12px;padding:14px 16px;margin:8px 0 16px}
 .calc .in{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px}
 .calc label{display:grid;gap:2px;font-size:12px;color:var(--muted);align-content:start}
@@ -858,7 +867,7 @@ tr[data-ccount]::after{top:4px;right:4px}
   <h2 data-cid="x.cal.head">投稿カレンダー</h2>
   <p class="src" data-cid="x.cal.rule"><b>翌週（月〜金）の投稿は、金曜までに Claude が準備してレビューページに出す。土日にあなたが決める。</b>決まったものは予約して、この表に出す。</p>
   <div class="calbar"><button type="button" class="linkish" id="cal-prev">← 前の月</button><b id="cal-title"></b><button type="button" class="linkish" id="cal-next">次の月 →</button>
-    <span class="cal-legend"><i class="st-posted"></i>投稿済み <i class="st-scheduled"></i>予約済み <i class="st-planned"></i>出す日が決まった</span></div>
+    <span class="cal-legend"><i class="st-posted"></i>投稿済み <i class="st-scheduled"></i>予約済み <i class="st-planned"></i>想定投稿日（出す日はあなたが決める）</span></div>
   <div class="cal" id="xcal"><p class="empty">読み込み中</p></div>
   <h2>X の収益化までの距離</h2>
   <div class="tbl"><table><thead><tr><th>条件</th><th>いま</th><th>足りない</th></tr></thead><tbody id="tbl-xcond"><tr><td colspan="3" class="empty">データ待ち</td></tr></tbody></table></div>
@@ -1243,8 +1252,8 @@ tr[data-ccount]::after{top:4px;right:4px}
       tile('プロフィールへのアクセス（90 日）',esc(xv('プロフィールへのアクセス（90 日）')),'','now.x.prof90'),
       tile('オリジナルコンテンツ報酬',esc(xv('オリジナルコンテンツ報酬')),'X の収益化の状態','now.x.rev'),
     ].join('');
-    mirror('#tbl-xcond','#now-xcond'); mirror('#chart-x','#now-chart-x'); renderNowPosts(); mirror('#x-facts','#now-x-facts');
-    $('#now-xdaily').innerHTML=F.slice(-15).map((f,i,a)=>i?'<tr data-cid="now.x.day.'+f.date+'"><td>'+f.date+'</td><td class="num">'+fmtN(f.count)+'</td><td class="num">'+sg(f.count-a[i-1].count)+'</td></tr>':'').reverse().join('')||'<tr><td colspan="3" class="empty">記録待ち</td></tr>';
+    mirror('#tbl-xcond','#now-xcond'); if(F.length>1){ drawFollowers('#now-chart-x',F); $('#now-chart-x').dataset.cid='now.x.followers-chart'; } renderNowPosts(); mirror('#x-facts','#now-x-facts');
+    XDAILY={F,sg}; renderXDaily();
     // ブログ
     mirror('#kpi-tiles','#now-kpi'); mirror('#chart-gsc','#now-chart-gsc');
     // アフィリエイト
@@ -1291,19 +1300,55 @@ tr[data-ccount]::after{top:4px;right:4px}
       +R.rows.map(r=>'<tr data-cid="now.aff.res.'+hash(r.asp+r.period)+'"><td><b>'+esc(r.asp)+'</b></td><td>'+esc(r.period||'')+'</td><td class="num">'+fmtN(r.clicks)+'</td><td class="num">'+fmtN(r.occurred)+'</td><td class="num">'+yen(r.occurredAmount)+'</td><td class="num">'+fmtN(r.confirmed)+'</td><td class="num">'+yen(r.confirmedAmount)+'</td></tr>').join('')+'</tbody></table></div>';
     applyCounts(); }
   $$('#now-jump button').forEach(b=>b.addEventListener('click',()=>{ const t=$('#'+b.dataset.jump); if(t) t.scrollIntoView({behavior:'smooth',block:'start'}); }));
+  // ---- X のフォロワー（2026-10-31 利用者のコメント：点に触れたら即座に日付と人数のチップ・表示する期間は常に 60 日でスクロールで移動・日ごとの表は全期間も開ける） ----
+  let XDAILY=null, XDAILY_ALL=false;
+  function renderXDaily(){ const tb=$('#now-xdaily'); if(!tb||!XDAILY) return; const {F,sg}=XDAILY;
+    const src=XDAILY_ALL?F:F.slice(-15);
+    tb.innerHTML=src.map((f,i,a)=>i?'<tr data-cid="now.x.day.'+f.date+'"><td>'+f.date+'</td><td class="num">'+fmtN(f.count)+'</td><td class="num">'+sg(f.count-a[i-1].count)+'</td></tr>':'').reverse().join('')||'<tr><td colspan="3" class="empty">記録待ち</td></tr>';
+    let btn=$('#now-xdaily-more'); if(!btn){ btn=document.createElement('button'); btn.id='now-xdaily-more'; btn.type='button'; btn.className='linkish'; tb.closest('.tbl').after(btn);
+      btn.addEventListener('click',()=>{ XDAILY_ALL=!XDAILY_ALL; renderXDaily(); }); }
+    btn.textContent=XDAILY_ALL?'直近 14 日だけにする':'全期間を表示する（記録のある '+(F.length-1)+' 日分）'; applyCounts(); }
+  const WD='日月火水木金土';
+  function drawFollowers(sel,F){ const box=$(sel); if(!box) return;
+    const DAY=86400000, t0=new Date(F[0].date).getTime(), t1=new Date(F[F.length-1].date).getTime();
+    const span=Math.max(1,Math.round((t1-t0)/DAY)), WIN=60;
+    const H=200, pt=16, pb=26, AX=44;
+    const mx=Math.max(...F.map(f=>f.count)), mn=Math.min(...F.map(f=>f.count));
+    const Y=(v)=>pt+(H-pt-pb)*(1-(v-mn)/Math.max(1,mx-mn));
+    box.innerHTML='<div class="fc"><div class="fc-bar"><button type="button" class="linkish" data-mv="-1">← 前の 60 日</button><span class="status fc-range"></span><button type="button" class="linkish" data-mv="1">次の 60 日 →</button><button type="button" class="linkish" data-mv="end">最新へ</button></div>'
+      +'<div class="fc-wrap"><svg class="fc-axis" width="'+AX+'" height="'+H+'"></svg><div class="fc-scroll"><svg class="fc-plot" height="'+H+'"></svg></div><div class="fc-tip" hidden></div></div>'
+      +'<p class="src">'+F[0].date+' の '+F[0].count+' 人 → '+F[F.length-1].date+' の '+F[F.length-1].count+' 人（記録のある '+F.length+' 日分）。常に 60 日分を表示し、横にスクロール（またはボタン）で移動。グラフに触れるとその日の人数が出る。</p></div>';
+    const sc=$('.fc-scroll',box), plot=$('.fc-plot',box), axis=$('.fc-axis',box), tip=$('.fc-tip',box);
+    const draw=()=>{ const vw=Math.max(200,sc.clientWidth||600), ppd=vw/WIN, W=Math.max(vw,Math.round(span*ppd)+16);
+      const X=(d)=>8+(new Date(d).getTime()-t0)/DAY*ppd;
+      let a=''; [mn,Math.round((mn+mx)/2),mx].forEach(v=>{ a+='<text x="'+(AX-6)+'" y="'+(Y(v)+4)+'" text-anchor="end" font-size="10" fill="var(--muted)">'+v+'</text>'; }); axis.innerHTML=a;
+      let g=''; [mn,Math.round((mn+mx)/2),mx].forEach(v=>{ g+='<line x1="0" x2="'+W+'" y1="'+Y(v)+'" y2="'+Y(v)+'" stroke="var(--rule)"/>'; });
+      for(let t=t0;t<=t1;t+=DAY){ const d=new Date(t); if(d.getUTCDate()===1||t===t0){ const x=8+(t-t0)/DAY*ppd; g+='<line x1="'+x+'" x2="'+x+'" y1="'+pt+'" y2="'+(H-pb)+'" stroke="var(--rule)" stroke-dasharray="2 3"/><text x="'+(x+3)+'" y="'+(H-8)+'" font-size="10" fill="var(--muted)">'+(d.getUTCMonth()+1)+'/'+d.getUTCDate()+'</text>'; } }
+      g+='<polyline fill="none" stroke="var(--brand)" stroke-width="2" points="'+F.map(f=>X(f.date)+','+Y(f.count)).join(' ')+'"/>';
+      F.forEach(f=>{ g+='<circle cx="'+X(f.date)+'" cy="'+Y(f.count)+'" r="2.5" fill="var(--brand)"/>'; });
+      g+='<line class="fc-guide" x1="0" x2="0" y1="'+pt+'" y2="'+(H-pb)+'" stroke="var(--ink)" stroke-width="1" visibility="hidden"/><circle class="fc-dot" r="5" fill="var(--sheet)" stroke="var(--brand)" stroke-width="2.5" visibility="hidden"/>';
+      plot.setAttribute('width',W); plot.innerHTML=g; plot._X=X; plot._ppd=ppd; range(); };
+    const range=()=>{ const ppd=plot._ppd||1; const a=new Date(t0+Math.max(0,(sc.scrollLeft-8)/ppd)*DAY), b=new Date(t0+Math.min(span,(sc.scrollLeft+sc.clientWidth-8)/ppd)*DAY);
+      const f=(d)=>(d.getUTCMonth()+1)+'/'+d.getUTCDate(); $('.fc-range',box).textContent=f(a)+' 〜 '+f(b); };
+    const show=(ev)=>{ const r=plot.getBoundingClientRect(); const x=ev.clientX-r.left; const t=t0+(x-8)/plot._ppd*DAY;
+      let bi=0,bd=Infinity; for(let i=0;i<F.length;i++){ const dd=Math.abs(new Date(F[i].date).getTime()-t); if(dd<bd){bd=dd;bi=i;} }
+      const f=F[bi], px=plot._X(f.date), py=Y(f.count), d=new Date(f.date), prev=bi?f.count-F[bi-1].count:null;
+      const gl=$('.fc-guide',plot), dot=$('.fc-dot',plot); gl.setAttribute('x1',px); gl.setAttribute('x2',px); gl.setAttribute('visibility','visible'); dot.setAttribute('cx',px); dot.setAttribute('cy',py); dot.setAttribute('visibility','visible');
+      tip.innerHTML='<b>'+f.date+'（'+WD[d.getUTCDay()]+'）</b><br>'+fmtN(f.count)+' 人'+(prev!=null?'<span class="status">（前の記録から '+(prev>0?'+':'')+prev+'）</span>':'');
+      tip.hidden=false; const wr=$('.fc-wrap',box).getBoundingClientRect(); let lx=r.left-wr.left+px+12; if(lx+170>wr.width) lx=r.left-wr.left+px-170; tip.style.left=Math.max(AX,lx)+'px'; tip.style.top=Math.max(0,py-36)+'px'; };
+    const hide=()=>{ tip.hidden=true; const gl=$('.fc-guide',plot), dot=$('.fc-dot',plot); if(gl){gl.setAttribute('visibility','hidden'); dot.setAttribute('visibility','hidden');} };
+    plot.addEventListener('pointermove',show); plot.addEventListener('pointerdown',show); plot.addEventListener('pointerleave',hide);
+    sc.addEventListener('scroll',()=>{ hide(); range(); if(sc.clientWidth) box._atEnd=sc.scrollLeft+sc.clientWidth>=sc.scrollWidth-4; },{passive:true});
+    sc.addEventListener('wheel',(e)=>{ if(Math.abs(e.deltaY)>Math.abs(e.deltaX)){ const max=sc.scrollWidth-sc.clientWidth; const nx=sc.scrollLeft+e.deltaY; if((e.deltaY<0&&sc.scrollLeft>0)||(e.deltaY>0&&sc.scrollLeft<max)){ e.preventDefault(); sc.scrollLeft=nx; } } },{passive:false});
+    $$('[data-mv]',box).forEach(bt=>bt.addEventListener('click',()=>{ const v=bt.dataset.mv; if(v==='end') sc.scrollLeft=sc.scrollWidth; else sc.scrollBy({left:Number(v)*sc.clientWidth,behavior:'smooth'}); }));
+    box._atEnd=true; draw(); sc.scrollLeft=sc.scrollWidth; range();
+    if(window.ResizeObserver){ if(box._ro) box._ro.disconnect(); box._ro=new ResizeObserver(()=>{ if(!sc.clientWidth) return; const end=box._atEnd!==false; draw(); if(end) sc.scrollLeft=sc.scrollWidth; range(); }); box._ro.observe(sc); }
+  }
   // ---- X ----
   function renderX(S){
     const XD=S.xData||{};
     const F=(XD.followers||[]).filter(f=>typeof f.count==='number');
-    if(F.length>1){ const w=640,h=180,pl=40,pr=12,pt=14,pb=26, mx=Math.max(...F.map(f=>f.count)), mn=Math.min(...F.map(f=>f.count));
-      const t0=new Date(F[0].date).getTime(), t1=new Date(F[F.length-1].date).getTime()||t0+1; const X=(d)=>pl+(w-pl-pr)*((new Date(d).getTime()-t0)/Math.max(1,t1-t0)); const Y=(v)=>pt+(h-pt-pb)*(1-(v-mn)/Math.max(1,mx-mn));
-      let svg='<svg viewBox="0 0 '+w+' '+h+'" role="img" aria-label="フォロワー数の推移">';
-      [mn,Math.round((mn+mx)/2),mx].forEach(v=>{ svg+='<line x1="'+pl+'" x2="'+(w-pr)+'" y1="'+Y(v)+'" y2="'+Y(v)+'" stroke="var(--rule)"/><text x="'+(pl-6)+'" y="'+(Y(v)+4)+'" text-anchor="end" font-size="10" fill="var(--muted)">'+v+'</text>'; });
-      svg+='<polyline fill="none" stroke="var(--brand)" stroke-width="2" points="'+F.map(f=>X(f.date)+','+Y(f.count)).join(' ')+'"/>';
-      F.forEach((f,i)=>{ svg+='<circle cx="'+X(f.date)+'" cy="'+Y(f.count)+'" r="2.5" fill="var(--brand)"><title>'+f.date+'：'+f.count+' 人</title></circle>'; if(i===F.length-1||i===0) svg+='<text x="'+X(f.date)+'" y="'+(Y(f.count)-7)+'" text-anchor="'+(i?'end':'start')+'" font-size="11" fill="var(--ink)">'+f.count+'</text>'; });
-      [F[0],F[Math.floor(F.length/2)],F[F.length-1]].forEach(f=>{ svg+='<text x="'+X(f.date)+'" y="'+(h-8)+'" text-anchor="middle" font-size="10" fill="var(--muted)">'+f.date.slice(5).replace('-','/')+'</text>'; });
-      svg+='</svg><p class="src">'+F[0].date+' の '+F[0].count+' 人 → '+F[F.length-1].date+' の '+F[F.length-1].count+' 人（記録のある '+F.length+' 日分・点に触れると日付と人数）</p>';
-      const c=$('#chart-x'); c.innerHTML=svg; c.dataset.cid='x.followers-chart'; }
+    if(F.length>1){ drawFollowers('#chart-x',F); const c=$('#chart-x'); c.dataset.cid='x.followers-chart'; }
     // 投稿のランキング（Mac の記録のキーに合わせて読む）
     const J=XD.joined||[];
     if(J.length){ $('#thead-xposts').innerHTML='<tr><th>投稿</th><th>投稿日</th><th>表示</th><th>いいね</th><th>リポスト</th><th>返信</th><th>記事の読者</th><th>フォロワー</th></tr>';
@@ -1322,7 +1367,7 @@ tr[data-ccount]::after{top:4px;right:4px}
     const today=tz.toISOString().slice(0,10), {y,m}=calYM;
     $('#cal-title').textContent=y+'年'+(m+1)+'月';
     const first=new Date(Date.UTC(y,m,1)), start=new Date(first.getTime()-((first.getUTCDay()+6)%7)*864e5);
-    const NAME={posted:'投稿済み',scheduled:'予約済み',planned:'出す日が決まった'};
+    const NAME={posted:'投稿済み',scheduled:'予約済み',planned:'想定投稿日'};
     const cells=['月','火','水','木','金','土','日'].map(d=>'<div class="dow">'+d+'</div>');
     for(let i=0;i<42;i++){ const d=new Date(start.getTime()+i*864e5), iso=d.toISOString().slice(0,10), wd=d.getUTCDay();
       if(i>=35&&d.getUTCMonth()!==m) break;
