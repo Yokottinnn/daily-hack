@@ -147,7 +147,12 @@ for (const a of articles) {
   const xV = a.series.filter(([d]) => a.xDates.some((x) => { const k = (new Date(d) - new Date(x)) / 864e5; return k >= 0 && k <= 1; })).reduce((x, [, v]) => x + v, 0);
   a.why = { spikeV, xV };   // 28 日ではなく、表示している 45 日の中での数
 }
-const pvMeta = { first: days[0] || null, last: lastDay, days90: in90.length, refFrom: days.find((d) => daily[d]?.posts) || null, refDays28: refDays28.length, spikeDays, seriesFrom: recentDays[0] || null };
+// 日ごとの訪問は、日付が 1 日ずつ続いていれば値だけ（sv）にして詰める。日付は pvMeta.seriesDays から引く
+// （2026-10-31 にスナップショットが保存先の 1 件の上限 256KB を超えたため。作戦室は series と sv の両方を読む）
+const seriesDays = recentDays.slice();
+const contiguous = seriesDays.every((d, i) => !i || (new Date(d) - new Date(seriesDays[i - 1])) / 864e5 === 1);
+if (contiguous) for (const a of articles) { a.sv = a.series.map(([, v]) => v); delete a.series; }
+const pvMeta = { first: days[0] || null, last: lastDay, days90: in90.length, refFrom: days.find((d) => daily[d]?.posts) || null, refDays28: refDays28.length, spikeDays, seriesFrom: recentDays[0] || null, seriesDays: recentDays.length };
 
 // ---------- ブログ全体の月ごとの動き（記事の公開・更新・訪問・ページビュー） ----------
 // 公開・更新は記事のフロントマター（publishDate / updatedDate）。PV・UU は pv-archive の zone（**ゾーン全体**）。
@@ -176,6 +181,24 @@ const blog = {
   pvAll28: in28.some((d) => daily[d]?.pv) ? in28.reduce((a, d) => a + (daily[d]?.pv?.all || 0), 0) : null,
   pvHuman28: in28.some((d) => daily[d]?.pv) ? in28.reduce((a, d) => a + (daily[d]?.pv?.human || 0), 0) : null,
 };
+// 前の 28 日（29〜56 日前）。記録の日数が今の 28 日とそろうときだけ比べる（そろわない比較は出さない）
+// 利用者のコメント（2026-10-30・blog.pv / pvh / uu / human / posts「検索クリックと同じように先月比を出して欲しい」）
+{
+  const zPrev = inPrev28.filter((d) => daily[d]?.zone);
+  const pPrev = inPrev28.filter((d) => daily[d]?.pv);
+  blog.zoneDaysPrev28 = zPrev.length;
+  blog.pvDaysPrev28 = pPrev.length;
+  blog.humanDays28 = in28.filter((d) => daily[d]?.human != null).length;
+  blog.humanDaysPrev28 = inPrev28.filter((d) => daily[d]?.human != null).length;
+  blog.pv28Prev = zPrev.length ? zPrev.reduce((a, d) => a + (daily[d].zone.pageViews || 0), 0) : null;
+  blog.uuDaySum28Prev = zPrev.length ? zPrev.reduce((a, d) => a + (daily[d].zone.uniques || 0), 0) : null;
+  blog.pvHuman28Prev = pPrev.length ? pPrev.reduce((a, d) => a + (daily[d].pv.human || 0), 0) : null;
+  blog.pvAll28Prev = pPrev.length ? pPrev.reduce((a, d) => a + (daily[d].pv.all || 0), 0) : null;
+  // 記事の数は 28 日前の時点（その日までに公開されていた本数）
+  const cut = lastDay ? new Date(new Date(lastDay) - 28 * 864e5).toISOString().slice(0, 10) : null;
+  blog.postsPrev = cut ? postList.filter((p) => p.published && p.published <= cut).length : null;
+  blog.postsPrevAt = cut;
+}
 
 // ---------- ASP の案件（A8 以外も） ----------
 const others = json(show(HB, 'reports/board/asp-probe/others.json'));
