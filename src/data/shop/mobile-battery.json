@@ -49,7 +49,7 @@
         "itemUrl": "https://item.rakuten.co.jp/machinoomise/cio-mb35w1c-ss10k-s2w25/"
       },
       "yahoo": {
-        "keyword": "CIO SMARTCOBY SLIM SS10K",
+        "keyword": null,
         "must": [
           "SS10K"
         ],
@@ -60,7 +60,9 @@
         "reviewAverage": null,
         "reviewCount": null,
         "shop": null,
-        "checkedAt": "2026-10-30T21:46:11.773Z"
+        "checkedAt": "2026-10-30T21:46:11.773Z",
+        "_keywordWas": "CIO SMARTCOBY SLIM SS10K",
+        "_hiddenNote": "2026-10-31 利用者の判断（ダイアログ「その店に無い商品のボタンを消す」）で外した。本番で押した確認（t371〜t389）で、型番の商品がYahoo!ショッピングの検索結果に出なかった。証跡: https://claude.ai/artifact/9VGFmsTLBooRxm7V8AgCeD"
       },
       "amazon": {
         "keyword": "CIO SMARTCOBY SLIM SS10K",
@@ -88,7 +90,7 @@
         "itemUrl": "https://item.rakuten.co.jp/machinoomise/cio-mb35w2c-ss10k-ex05/"
       },
       "yahoo": {
-        "keyword": "CIO SMARTCOBY Ex05 SS10K",
+        "keyword": null,
         "must": [
           "Ex05"
         ],
@@ -99,7 +101,9 @@
         "reviewAverage": null,
         "reviewCount": null,
         "shop": null,
-        "checkedAt": "2026-10-30T21:46:11.773Z"
+        "checkedAt": "2026-10-30T21:46:11.773Z",
+        "_keywordWas": "CIO SMARTCOBY Ex05 SS10K",
+        "_hiddenNote": "2026-10-31 利用者の判断（ダイアログ「その店に無い商品のボタンを消す」）で外した。本番で押した確認（t371〜t389）で、型番の商品がYahoo!ショッピングの検索結果に出なかった。証跡: https://claude.ai/artifact/9VGFmsTLBooRxm7V8AgCeD"
       },
       "amazon": {
         "keyword": "CIO SMARTCOBY Ex05 SS10K",
@@ -128,7 +132,7 @@
         "itemUrl": "https://item.rakuten.co.jp/machinoomise/cio-mb35w2c1a-ssa20000/"
       },
       "yahoo": {
-        "keyword": "CIO SMARTCOBY TRIO SS 20000",
+        "keyword": null,
         "must": [
           "TRIO",
           "20000"
@@ -140,7 +144,9 @@
         "reviewAverage": null,
         "reviewCount": null,
         "shop": null,
-        "checkedAt": "2026-10-30T21:46:11.773Z"
+        "checkedAt": "2026-10-30T21:46:11.773Z",
+        "_keywordWas": "CIO SMARTCOBY TRIO SS 20000",
+        "_hiddenNote": "2026-10-31 利用者の判断（ダイアログ「その店に無い商品のボタンを消す」）で外した。本番で押した確認（t371〜t389）で、型番の商品がYahoo!ショッピングの検索結果に出なかった。証跡: https://claude.ai/artifact/9VGFmsTLBooRxm7V8AgCeD"
       },
       "amazon": {
         "keyword": "CIO SMARTCOBY TRIO SS 20000",
@@ -207,7 +213,7 @@
         "itemUrl": "https://item.rakuten.co.jp/cheeromart/che-138/"
       },
       "yahoo": {
-        "keyword": "cheero Solitta CHE-138",
+        "keyword": null,
         "must": [
           "CHE-138"
         ],
@@ -218,7 +224,9 @@
         "reviewAverage": null,
         "reviewCount": null,
         "shop": null,
-        "checkedAt": "2026-10-30T21:46:11.773Z"
+        "checkedAt": "2026-10-30T21:46:11.773Z",
+        "_keywordWas": "cheero Solitta CHE-138",
+        "_hiddenNote": "2026-10-31 利用者の判断（ダイアログ「その店に無い商品のボタンを消す」）で外した。本番で押した確認（t371〜t389）で、型番の商品がYahoo!ショッピングの検索結果に出なかった。証跡: https://claude.ai/artifact/9VGFmsTLBooRxm7V8AgCeD"
       },
       "amazon": {
         "keyword": "cheero Solitta CHE-138",
@@ -247,7 +255,7 @@
         "itemUrl": "https://item.rakuten.co.jp/cheeromart/che-135/"
       },
       "yahoo": {
-        "keyword": "cheero Solido CHE-135",
+        "keyword": null,
         "must": [
           "CHE-135"
         ],
@@ -258,7 +266,9 @@
         "reviewAverage": null,
         "reviewCount": null,
         "shop": null,
-        "checkedAt": "2026-10-30T21:46:11.773Z"
+        "checkedAt": "2026-10-30T21:46:11.773Z",
+        "_keywordWas": "cheero Solido CHE-135",
+        "_hiddenNote": "2026-10-31 利用者の判断（ダイアログ「その店に無い商品のボタンを消す」）で外した。本番で押した確認（t371〜t389）で、型番の商品がYahoo!ショッピングの検索結果に出なかった。証跡: https://claude.ai/artifact/9VGFmsTLBooRxm7V8AgCeD"
       },
       "amazon": {
         "keyword": "cheero Solido CHE-135",
@@ -338,8 +348,10 @@
         "checkedAt": "2026-10-30T21:46:11.773Z"
       },
       "amazon": {
-        "keyword": "エレコム リン酸鉄 モバイルバッテリー DE-C97L",
-        "asin": null
+        "keyword": null,
+        "asin": null,
+        "_hiddenNote": "2026-10-31 利用者の判断（ダイアログ「その店に無い商品のボタンを消す」）で外した。本番で押した確認（t371〜t389）で、型番の商品がAmazonの検索結果に出なかった。証跡: https://claude.ai/artifact/9VGFmsTLBooRxm7V8AgCeD",
+        "_keywordWas": "エレコム リン酸鉄 モバイルバッテリー DE-C97L"
       }
     },
     {
@@ -401,7 +413,7 @@
         "itemUrl": "https://item.rakuten.co.jp/anker/a1688/"
       },
       "yahoo": {
-        "keyword": "Anker Zolo Power Bank 10000mAh 30W A1688",
+        "keyword": null,
         "must": [
           "A1688"
         ],
@@ -412,11 +424,15 @@
         "reviewAverage": null,
         "reviewCount": null,
         "shop": null,
-        "checkedAt": "2026-10-30T21:46:11.773Z"
+        "checkedAt": "2026-10-30T21:46:11.773Z",
+        "_keywordWas": "Anker Zolo Power Bank 10000mAh 30W A1688",
+        "_hiddenNote": "2026-10-31 利用者の判断（ダイアログ「その店に無い商品のボタンを消す」）で外した。本番で押した確認（t371〜t389）で、型番の商品がYahoo!ショッピングの検索結果に出なかった。証跡: https://claude.ai/artifact/9VGFmsTLBooRxm7V8AgCeD"
       },
       "amazon": {
-        "keyword": "Anker Zolo Power Bank 10000mAh 30W A1688",
-        "asin": null
+        "keyword": null,
+        "asin": null,
+        "_hiddenNote": "2026-10-31 利用者の判断（ダイアログ「その店に無い商品のボタンを消す」）で外した。本番で押した確認（t371〜t389）で、型番の商品がAmazonの検索結果に出なかった。証跡: https://claude.ai/artifact/9VGFmsTLBooRxm7V8AgCeD",
+        "_keywordWas": "Anker Zolo Power Bank 10000mAh 30W A1688"
       }
     },
     {
@@ -435,10 +451,11 @@
         "keyword": "Anker Nano Power Bank MagGo Plus A1113",
         "must": [
           "A1113"
-        ]
+        ],
+        "itemUrl": "https://item.rakuten.co.jp/resco/x001dgl3bf/"
       },
       "yahoo": {
-        "keyword": "Anker Nano Power Bank MagGo Plus A1113",
+        "keyword": null,
         "must": [
           "A1113"
         ],
@@ -449,7 +466,9 @@
         "reviewAverage": null,
         "reviewCount": null,
         "shop": null,
-        "checkedAt": "2026-10-30T21:46:11.773Z"
+        "checkedAt": "2026-10-30T21:46:11.773Z",
+        "_keywordWas": "Anker Nano Power Bank MagGo Plus A1113",
+        "_hiddenNote": "2026-10-31 利用者の判断（ダイアログ「その店に無い商品のボタンを消す」）で外した。本番で押した確認（t371〜t389）で、型番の商品がYahoo!ショッピングの検索結果に出なかった。証跡: https://claude.ai/artifact/9VGFmsTLBooRxm7V8AgCeD"
       },
       "amazon": {
         "keyword": "Anker Nano Power Bank MagGo Plus A1113",

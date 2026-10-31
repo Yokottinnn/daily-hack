@@ -100,8 +100,10 @@
         "checkedAt": "2026-10-30T21:46:11.773Z"
       },
       "amazon": {
-        "keyword": "アイリスオーヤマ FC21620",
-        "asin": null
+        "keyword": null,
+        "asin": null,
+        "_hiddenNote": "2026-10-31 利用者の判断（ダイアログ「その店に無い商品のボタンを消す」）で外した。本番で押した確認（t371〜t389）で、型番の商品がAmazonの検索結果に出なかった。証跡: https://claude.ai/artifact/9VGFmsTLBooRxm7V8AgCeD",
+        "_keywordWas": "アイリスオーヤマ FC21620"
       }
     },
     {

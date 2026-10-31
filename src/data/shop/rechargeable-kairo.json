@@ -225,8 +225,10 @@
         "checkedAt": "2026-10-30T21:46:11.773Z"
       },
       "amazon": {
-        "keyword": "mottole MTL-E030",
-        "asin": null
+        "keyword": null,
+        "asin": null,
+        "_hiddenNote": "2026-10-31 利用者の判断（ダイアログ「その店に無い商品のボタンを消す」）で外した。本番で押した確認（t371〜t389）で、型番の商品がAmazonの検索結果に出なかった。証跡: https://claude.ai/artifact/9VGFmsTLBooRxm7V8AgCeD",
+        "_keywordWas": "mottole MTL-E030"
       }
     },
     {
@@ -265,8 +267,10 @@
         "checkedAt": "2026-10-30T21:46:11.773Z"
       },
       "amazon": {
-        "keyword": "e-Kairo Oval EK-OV25",
-        "asin": null
+        "keyword": null,
+        "asin": null,
+        "_hiddenNote": "2026-10-31 利用者の判断（ダイアログ「その店に無い商品のボタンを消す」）で外した。本番で押した確認（t371〜t389）で、型番の商品がAmazonの検索結果に出なかった。証跡: https://claude.ai/artifact/9VGFmsTLBooRxm7V8AgCeD",
+        "_keywordWas": "e-Kairo Oval EK-OV25"
       }
     },
     {
@@ -411,7 +415,7 @@
         "itemUrl": "https://item.rakuten.co.jp/hagoogi/ot-96h-02/"
       },
       "yahoo": {
-        "keyword": "HAGOOGI OT-96H",
+        "keyword": null,
         "must": [
           "OT-96H"
         ],
@@ -422,11 +426,15 @@
         "reviewAverage": null,
         "reviewCount": null,
         "shop": null,
-        "checkedAt": "2026-10-30T21:46:11.773Z"
+        "checkedAt": "2026-10-30T21:46:11.773Z",
+        "_keywordWas": "HAGOOGI OT-96H",
+        "_hiddenNote": "2026-10-31 利用者の判断（ダイアログ「その店に無い商品のボタンを消す」）で外した。本番で押した確認（t371〜t389）で、型番の商品がYahoo!ショッピングの検索結果に出なかった。証跡: https://claude.ai/artifact/9VGFmsTLBooRxm7V8AgCeD"
       },
       "amazon": {
-        "keyword": "HAGOOGI OT-96H",
-        "asin": null
+        "keyword": null,
+        "asin": null,
+        "_hiddenNote": "2026-10-31 利用者の判断（ダイアログ「その店に無い商品のボタンを消す」）で外した。本番で押した確認（t371〜t389）で、型番の商品がAmazonの検索結果に出なかった。証跡: https://claude.ai/artifact/9VGFmsTLBooRxm7V8AgCeD",
+        "_keywordWas": "HAGOOGI OT-96H"
       }
     }
   ]
