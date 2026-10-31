@@ -365,7 +365,7 @@ const snapshot = {
     pos4to10: { pages: pos4to10.length, impressions: sum(pos4to10, 'i') },
   },
   gscWeekly, topPages, queries, pq, readTop, articles, pvMeta, xShared, monthly: monthlyRows, blog, others, xData,
-  a8: a8 ? { total: a8.total, rows: a8Rows } : null,
+  a8: a8 ? { total: a8.total, rows: a8Rows, applyingCount: a8.applyingCount ?? null, generated: a8.generated } : null,
   // 記事ごとの成果リンクの一覧（2026-10-17・利用者の指示）
   affInventory: affInv,
   affByItem: Object.values(affByItem).sort((x, y) => y.articles.length - x.articles.length || y.n - x.n),

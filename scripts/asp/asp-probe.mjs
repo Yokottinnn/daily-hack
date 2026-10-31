@@ -377,15 +377,36 @@ try {
     // 提携中は 300 件を超えた（2026-10-31）。1 ページ 100 件なので、ページを送って全部集める
     // A8_IDS があればそれを読む（2026-10-31: 一覧の並べ替え付き URL が 0 件を返したため、t472 の一覧から渡す）
     const ids = (process.env.A8_IDS || '').split(',').filter(Boolean);
-    for (let pg = 1; pg <= 10 && !process.env.A8_IDS; pg++) {
-      await go(`https://media-console.a8.net/program/list/partnered?pageNo=${pg}&pageSize=100&sortKey=APPROVED_DATE&sortOrder=DESC`);
-      const got = await p.evaluate(() => [...new Set([...document.querySelectorAll('a[href*="programId="]')].map((a) => (a.href.match(/programId=(s\d+)/) || [])[1]).filter(Boolean))]);
-      const fresh = got.filter((x) => !ids.includes(x)); ids.push(...fresh);
-      if (got.length < 100 || !fresh.length) break;
+    // 2026-10-31 affiliate: 提携中が 310 件になり、毎日 全件の詳細を開くと時間切れになる。前の回と t47x の結果（reports/asp-probe/a8partnered*.json）を
+    // 控えにして、**新しく増えた案件だけ詳細を開く**。一覧の並べ替え付き URL が 0 件のときは並べ替え無しで読み直す。一覧が 0 件なら前の結果を消さない
+    const listIds = async (kind, sorted) => { const out = [];
+      for (let pg = 1; pg <= 10; pg++) {
+        const u = `https://media-console.a8.net/program/list/${kind}?pageNo=${pg}&pageSize=100${sorted ? '&sortKey=APPROVED_DATE&sortOrder=DESC' : ''}`;
+        await go(u); await a8Reauth(p, u);
+        const got = await p.evaluate(() => [...new Set([...document.querySelectorAll('a[href*="programId="]')].map((a) => (a.href.match(/programId=(s\d+)/) || [])[1]).filter(Boolean))]);
+        const fresh = got.filter((x) => !out.includes(x)); out.push(...fresh);
+        if (got.length < 100 || !fresh.length) break;
+      }
+      return out; };
+    if (!ids.length) { ids.push(...await listIds('partnered', true)); if (!ids.length) ids.push(...await listIds('partnered', false)); }
+    const applying = process.env.A8_IDS ? null : await listIds('applying', false).catch(() => null);
+    const cache = new Map();
+    for (const dir of [path.join(OUT), path.join(process.env.OPS_REPORT_DIR || '/tmp', '..', 'asp-probe')]) {
+      let files = []; try { files = fs.readdirSync(dir).filter((f) => /^a8partnered.*\.json$/.test(f)); } catch {}
+      for (const f of files) { try { for (const r of JSON.parse(fs.readFileSync(path.join(dir, f), 'utf8')).rows || []) if (r.id && r.name && r.name !== '（読めない）') cache.set(r.id, r); } catch {} }
+    }
+    if (!ids.length) {
+      lines.push('- ⚠️ 提携中の一覧が 0 件で読めなかった。前の結果を残す（上書きしない）', '');
     }
     const from = Number(process.env.A8_FROM || 0), to = Number(process.env.A8_TO || ids.length);
+    const NEW_MAX = Number(process.env.A8_NEW_MAX || 80);   // 1 回に開く詳細の上限（残りは次の回）
+    let opened = 0;
+    lines.push(`- 控え（前の回までに読んだ案件）: ${cache.size} 件・審査中の一覧: ${applying ? applying.length + ' 件' : '読んでいない'}`);
     lines.push(`- 提携中 ${ids.length} 件のうち ${from}〜${to - 1} 番目を読む`, '', '| programId | 名前 | 成果報酬 | 本人申込・ポイント | 提携日など |', '| --- | --- | --- | --- | --- |');
     for (const id of ids.slice(from, to)) {
+      if (!process.env.A8_IDS && cache.has(id)) { ROWS.push(cache.get(id)); continue; }
+      if (opened >= NEW_MAX) continue;
+      opened++;
       await p.goto(`https://media-console.a8.net/program/detail-partnered?programId=${id}`, { waitUntil: 'domcontentloaded', timeout: 20000 }).catch(() => {});
       await p.waitForTimeout(1800);
       await a8Reauth(p, `https://media-console.a8.net/program/detail-partnered?programId=${id}`);
@@ -403,7 +424,8 @@ try {
     }
     lines.push('');
     // 収益化作戦室が読む JSON（2026-10-12）。名前と広告側の報酬だけ。自分の報酬額は出さない
-    fs.writeFileSync(path.join(OUT, `${WHICH}.json`), JSON.stringify({ generated: new Date().toISOString(), total: ids.length, from, to, rows: ROWS }, null, 1));
+    lines.push(`- 新しく詳細を開いた ${opened} 件・控えから ${ROWS.length - opened} 件${ids.length - from > ROWS.length ? `・残り ${ids.length - from - ROWS.length} 件は次の回` : ''}`);
+    if (ids.length) fs.writeFileSync(path.join(OUT, `${WHICH}.json`), JSON.stringify({ generated: new Date().toISOString(), total: ids.length, from, to, rows: ROWS, applyingCount: applying ? applying.length : null }, null, 1));
   }
 
   if (WHICH === 'a8detail') {
