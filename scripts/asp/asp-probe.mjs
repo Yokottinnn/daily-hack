@@ -16,6 +16,28 @@ fs.mkdirSync(OUT, { recursive: true });
 const WHICH = process.env.ASP_PROBE || '';
 // **会員名の行（Welcome, ○○ / ようこそ○○さん）も出さない**（2026-10-11 に楽天ウェブサービスで出してしまった）
 const NG = /契約者|振込|口座|氏名|合同会社|有限会社|（\d{6,}）|\(\d{6,}\)|あなたの報酬|確定報酬|未確定|様$|さん$|Welcome|ようこそ|こんにちは/i;
+// **A8 の「ログイン再認証」**（2026-10-31）: asp-sync で入ったあとでも、検索・広告リンクの画面を開くと
+// パスワードを聞き直されることがある。そのときは Keychain（dailyhack-asp-a8）の値で入り直して、元の画面を開き直す。値はどこにも書かない
+import { execFileSync as __ex } from 'node:child_process';
+async function a8Reauth(page, url) {
+  if (!/re-authentication|login/i.test(page.url()) && !(await page.locator('input[type=password]:visible').count())) return false;
+  let pass = '', user = '';
+  try {
+    const meta = __ex('/usr/bin/security', ['find-generic-password', '-s', 'dailyhack-asp-a8'], { encoding: 'utf8', stdio: ['ignore', 'pipe', 'ignore'] });
+    user = (meta.match(/"acct"<blob>="([^"]*)"/) || [])[1] || '';
+    pass = __ex('/usr/bin/security', ['find-generic-password', '-s', 'dailyhack-asp-a8', '-w'], { encoding: 'utf8', stdio: ['ignore', 'pipe', 'ignore'] }).replace(/\n$/, '');
+  } catch { return false; }
+  if (!pass) return false;
+  const id = page.locator('input[type=text]:visible, input[name=mediaLoginName]:visible').first();
+  if ((await id.count()) && !(await id.inputValue().catch(() => 'x')) && user) { await id.click().catch(() => {}); await id.pressSequentially(user, { delay: 30 }); }
+  const pw = page.locator('input[type=password]:visible').first();
+  await pw.click().catch(() => {}); await pw.fill('').catch(() => {}); await pw.pressSequentially(pass, { delay: 30 });
+  await pw.press('Enter').catch(() => {});
+  await page.waitForLoadState('domcontentloaded', { timeout: 20000 }).catch(() => {});
+  await page.waitForTimeout(4000);
+  if (url) { await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 25000 }).catch(() => {}); await page.waitForTimeout(2500); }
+  return true;
+}
 const ROWS = [];
 const RID = /[0-9a-f]{8}\.[0-9a-f]{8}\.[0-9a-f]{8}\.[0-9a-f]{8}/g;
 
@@ -279,6 +301,7 @@ try {
     for (const id of (process.env.A8_IDS || '').split(',').filter(Boolean)) {
       lines.push(`### ${id}`);
       await go(`https://media-console.a8.net/program/detail-not-partnered?programId=${id}`);
+      await a8Reauth(p, `https://media-console.a8.net/program/detail-not-partnered?programId=${id}`);
       const sel = p.locator('select[name=webSiteId]');
       if (!(await sel.count())) { lines.push(`- 申請欄が無い（${here()}・${(await p.title()).slice(0, 40)}）`, ''); continue; }
       const opt = await sel.evaluate((e) => { const o = [...e.options].find((x) => /daily ?hack/i.test(x.text)); return o ? o.value : ''; });
@@ -490,6 +513,7 @@ try {
     const res = [];
     for (const id of (process.env.A8_IDS || '').split(',').filter(Boolean)) {
       await go(`https://media-console.a8.net/program/create-link?programId=${id}`);
+      await a8Reauth(p, `https://media-console.a8.net/program/create-link?programId=${id}`);
       const name = (await p.title()).slice(0, 80);
       const got = new Map();
       for (let pg = 0; pg < 4; pg++) {
