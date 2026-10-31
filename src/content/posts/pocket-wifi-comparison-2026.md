@@ -518,7 +518,17 @@ references:
 
 ## 実際に使った人の声と動画｜ポケット型WiFi
 
-料金表だけでは分からない速さや使い勝手を、動画で補っておく。
+実際に使っている人の投稿と動画で補っておく。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">主要なポケット型WiFiをすべて契約・検証した上で、本当におすすめできるポケット型WiFiだけを4つに絞って紹介しています どうやって選べばいいのか、よくある失敗や注意点などもすべて解説しています ポケット型WiFiの利用を検討している方、ぜひ参考にしてくださいませ</p>&mdash; 川上城三郎（ネット回線アドバイザー） (@joekawakami) <a href="https://twitter.com/joekawakami/status/2010184909458227516">2026年1月11日</a></blockquote>
+
+**主要なポケット型WiFi をすべて契約して確かめた**人が、勧められるものを 4 つに絞った投稿。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">「月額1,000円台の安さ」に飛びついて、平日の夜に完全フリーズ…。さらに解約時の端末残債で18,000円の痛い出費を経験しました泣 安さだけに惑わされない「本当に自分に合うポケット型Wi-Fiの選び方」を徹底解説中👇 #節約術 #ポケットWiFi #固定費削減 #通信費見直し</p>&mdash; 実践マネー講座管理事務局 (@jissen_money) <a href="https://twitter.com/jissen_money/status/2114998057519767775">2026年10月27日</a></blockquote>
+
+**月額の安さに飛びついて夜に止まり、解約時に端末の残りの代金 18,000 円を払った**失敗談。この記事で途中解約の総額を出したのは、これを避けるためよ。
+
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <div class="yt-embed">
 <iframe src="https://www.youtube-nocookie.com/embed/qLwzi6JY8rI" title="【2026年最新】ポケットWiFiの利用料、実測速度、キャッシュバック、縛り完全比較　WiMAX 楽天Wi-Fiポケット モバイルルーター　おすすめのポケットWiFi（まさもばチャンネル）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
@@ -532,7 +542,7 @@ references:
 
 無制限で安いポケット型WiFi と、契約の要らないモバイル WiFi を比べている。
 
-<p class="source-note">埋め込んだ YouTube は、2026年10月31日に oEmbed でタイトルと投稿者を照合し、実在を確かめたもの。投稿した人の個人の感想・撮影時点の内容で、この記事の数字とは別のもの。</p>
+<p class="source-note">引用した X の投稿は、2026年10月31日に本文・投稿者・日付を確かめたもの。埋め込んだ YouTube は oEmbed でタイトルと投稿者を照合し、実在を確かめたもの。どちらも投稿した人の個人の感想・撮影時点の内容で、この記事の数字とは別のもの。</p>
 
 ## ポケット型WiFiのよくある質問
 

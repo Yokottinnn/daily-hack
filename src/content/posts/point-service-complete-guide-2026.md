@@ -711,7 +711,17 @@ references: ["https://kakakumag.com/money/?id=20897", "https://www.warau.jp/", "
 
 ## 実際に使った人の声と動画｜ポイント経済圏
 
-どの経済圏を選ぶかを、動画で補っておく。
+実際に使っている人の投稿と動画で補っておく。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">財布の中、ポイントカードでパンパンになってない？😂 「あー、また数ポイント失効した…」ってなってる私です。 これを知ってから、家計も心もスッキリ軽くなった我が家の【ポイント集約術】を大公開しちゃいます！✨</p>&mdash; ぽい＠賢くサボる人 (@poi_yuru) <a href="https://twitter.com/poi_yuru/status/2109216766681604395">2026年10月11日</a></blockquote>
+
+**財布のポイントカードで数ポイントずつ失効させていた**人が、集め方を変えた話。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">✈️JALモバイルが話題やったので調べてみた📱 JALによく乗る人にはかなり魅力的なサービスやね。 一方で楽天ポイントはJALマイルに交換できるので、楽天経済圏を使っている人にも選択肢はありそう🤔 📍JALモバイル ・JALマイルが貯まる ・Life Status Point対象 ・どこかにマイル特典あり</p>&mdash; こげ (@kogee) <a href="https://twitter.com/kogee/status/2063416348861256056">2026年6月7日</a></blockquote>
+
+**楽天ポイントは JAL マイルに交換できる**ので、楽天経済圏と JAL をどう組むかという話。
+
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <div class="yt-embed">
 <iframe src="https://www.youtube-nocookie.com/embed/Gsvd9LvopRE" title="５大ポイント経済圏で最強は？【楽天ポイント・PayPayポイント・Pontaポイント・dポイント・Vポイント】（ゆずひこちゃんねる）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
@@ -725,7 +735,7 @@ references: ["https://kakakumag.com/money/?id=20897", "https://www.warau.jp/", "
 
 楽天・PayPay・V ポイントで本当にもらえる金額を比べたランキング。
 
-<p class="source-note">埋め込んだ YouTube は、2026年10月31日に oEmbed でタイトルと投稿者を照合し、実在を確かめたもの。投稿した人の個人の感想・撮影時点の内容で、この記事の数字とは別のもの。</p>
+<p class="source-note">引用した X の投稿は、2026年10月31日に本文・投稿者・日付を確かめたもの。埋め込んだ YouTube は oEmbed でタイトルと投稿者を照合し、実在を確かめたもの。どちらも投稿した人の個人の感想・撮影時点の内容で、この記事の数字とは別のもの。</p>
 
 ## ❓ よくある質問（FAQ）
 
