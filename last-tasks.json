@@ -1,3 +1,10 @@
 [
-      {"task": "t431-a8-apply-wide.sh", "rc": 0, "out": "  - プログラムによっては審査結果が出るまで、数週間以上お時間を要する場合がございます。   - 審査中  ### s00000025205001 - 押したあとの画面: https://media-console.a8.net/program/agreement/a"}
+      {"task": "t432-a8-apply-wide.sh", "rc": 0, "out": "  - プログラムによっては審査結果が出るまで、数週間以上お時間を要する場合がございます。   - 提携完了  ### s00000026698001 - 押したあとの画面: https://media-console.a8.net/program/agre"},
+      {"task": "t433-a8-apply-wide.sh", "rc": 0, "out": ""},
+      {"task": "t434-a8-apply-wide.sh", "rc": 0, "out": "- 押したあとの画面: https://media-console.a8.net/common/system-error   - エラーが発生しました   - 提携申請が失敗しました。   - エラー番号:(ERROR-e80f389b-cf53-4437-9ae2-304f5fc9d96a)   - 本画面が頻繁に表示されるようでしたら、エラー"},
+      {"task": "t435-a8-apply-wide.sh", "rc": 0, "out": "- 押したあとの画面: https://media-console.a8.net/common/system-error   - エラーが発生しました   - 提携申請が失敗しました。   - エラー番号:(ERROR-3a5fbad7-64f0-46f5-ac35-bb7d53fda05e)   - 本画面が頻繁に表示されるようでしたら、エラー番号を記"},
+      {"task": "t436-a8-apply-wide.sh", "rc": 0, "out": " ### s00000025632001 - 押したあとの画面: https://media-console.a8.net/program/agreement/apply-result   - プログラム提携申請完了   - 未提携のものから提携中�"},
+      {"task": "t437-a8-apply-wide.sh", "rc": 0, "out": "- 押したあとの画面: https://media-console.a8.net/program/agreement/apply-result   - プログラム提携申請完了   - 未提携のものから提携中のものまですべての広告プログラムが検索できます   - 提携を申請しました   - 即時提携プログラムで�"},
+      {"task": "t438-a8-apply-wide.sh", "rc": 0, "out": ""},
+      {"task": "t439-a8-apply-wide.sh", "rc": 0, "out": "- 押したあとの画面: https://media-console.a8.net/common/system-error   - エラーが発生しました   - 提携申請を処理中です。しばらく経ってから提携状況をご確認ください。   - エラー番号:(ERROR-47f8765d-5eaf-4eb1-abf6-79a1a0b319bf)   - 本画面が頻"}
   ]
