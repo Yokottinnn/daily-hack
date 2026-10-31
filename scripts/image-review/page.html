@@ -928,7 +928,7 @@
     '<label>状態 <select data-k="state">' +
       '<option value="draft"></option><option value="posted"></option><option value="ended"></option><option value="all"></option></select></label>' +
     '<label>並べ方 <select data-k="sort">' +
-      '<option value="next">次に出す順</option><option value="new">新しい順</option><option value="old">古い順</option>' +
+      '<option value="next">おすすめ順</option><option value="new">新しい順</option><option value="old">古い順</option>' +
       '<option value="open">未対応のコメントが多い順</option><option value="title">題名順</option></select></label>' +
     '<input type="search" data-k="q" placeholder="題名で探す（例：浜離宮、PAY ID）" aria-label="題名で探す">' +
     '<span class="hit"></span>';
@@ -978,7 +978,7 @@
     // 順番は Claude の提案（set-status.json の next・why・check）。番号が同じものは「どちらか 1 つ」
     const cand = sections.map((x, i) => ({ s: x.set, i })).filter((x) => x.s.state === "draft")
       .sort((a, b) => (a.s.next || 99) - (b.s.next || 99) || String(b.s.date).localeCompare(String(a.s.date)));
-    const h = document.createElement("h2"); h.textContent = "次に出す順番と、見てほしいところ（投稿していないもの " + cand.length + " 件）";
+    const h = document.createElement("h2"); h.textContent = "投稿候補と、見てほしいところ（投稿していないもの " + cand.length + " 件・いつ出すかはあなたが決める）";
     const ol = document.createElement("ol");
     let last = null;
     for (const c of cand) {
@@ -998,7 +998,7 @@
       ol.append(li);
     }
     const p = document.createElement("p"); p.className = "hint";
-    p.textContent = cand.length ? "順番は Claude の提案です。違えばこのページかチャットで言ってください。投稿は、チャットで「この内容で投稿して」と書いたものだけ出します（選ぶだけでは出しません）。" : "いま投稿していない組はありません。";
+    p.textContent = cand.length ? "出す日を決めたら、チャットで日付と「投稿して」を伝えてください。決まった日は作戦室のカレンダーに出します（選ぶだけでは投稿しません）。" : "いま投稿していない組はありません。";
     nextBox.append(h, cand.length ? ol : document.createTextNode(""), p);
   }
   renderNext();

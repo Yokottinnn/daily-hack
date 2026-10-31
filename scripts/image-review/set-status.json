@@ -75,9 +75,7 @@
       "[1/2] の文面（短文型・続きの渡しは無し）",
       "画像",
       "[2/2] の記事の紹介"
-    ],
-    "planDate": "2026-11-02",
-    "planTime": "12:00"
+    ]
   },
   "points": {
     "status": "draft",
@@ -98,9 +96,7 @@
     "check": [
       "文面",
       "画像"
-    ],
-    "planDate": "2026-11-03",
-    "planTime": "12:00"
+    ]
   },
   "payid-a": {
     "status": "draft",
@@ -110,9 +106,7 @@
     "check": [
       "A の文面と画像（B は出さない前提）",
       "招待コードとリンクがいまも有効か"
-    ],
-    "planDate": "2026-11-06",
-    "planTime": "12:00"
+    ]
   },
   "payid-b": {
     "status": "draft",
@@ -121,5 +115,5 @@
     "why": "PAY ID A の別案。コメントが付いていないので出さない前提",
     "check": []
   },
-  "_calendar_doc": "scheduledAt: 予約した日時（ISO・JST）。planDate / planTime: 予約はまだだが出す日が決まった組。作戦室の投稿カレンダーはこの 2 つと投稿 ID から描く"
+  "_calendar_doc": "scheduledAt: 予約した日時（ISO・JST）。planDate / planTime: **利用者が出す日を決めた組だけ**に書く（Claude が決めて書かない・2026-10-31 利用者「いつ投稿するのかは私が決める」）。作戦室の投稿カレンダーはこの 2 つと投稿 ID から描く"
 }
