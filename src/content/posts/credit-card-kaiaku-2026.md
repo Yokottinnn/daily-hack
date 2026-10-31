@@ -209,7 +209,7 @@ PayPay陣営は自社決済への集約を強めていて、<strong>チャージ
 
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">ずっと『年会費2,200円でポイント還元率2%』というエグいクレジットカード（リクルートカードプラス）を使ってたんだけど、ついぞこの3月に改悪（年会費1,650円で1.5%還元）され、超久しぶりにクレカ難民になっておる💳 三井住友カード（gold）が無難なのかなぁ… （100万円修行は済）</p>&mdash; ゆきえむ (@yukimc_mj) <a href="https://twitter.com/yukimc_mj/status/2045060925871571027">2026年4月17日</a></blockquote>
 
-**リクルートカードプラスの改悪（年会費 2,200 円・2% → 1,650 円・1.5%）**を受けて、カードを変えた人の実例。
+**リクルートカードプラスの改悪**（年会費 2,200 円・2% → 1,650 円・1.5%）を受けて、カードを変えた人の実例。
 
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">【2026年最新】 最強クレジットカードTier表 無料カードでポイントをMAX貯める方法↓ Tier D（持つ意味が薄い） ・オリコカード（改悪続きで旨味が減った） ・dカード（ドコモ以外では恩恵薄い） ・セゾンカード（基本還元0.5%・旨味少ない） Tier C（悪くはないが上位で代替できる）↓↓</p>&mdash; たくみ (@mercari_takumi) <a href="https://twitter.com/mercari_takumi/status/2107939032487629006">2026年10月8日</a></blockquote>
 

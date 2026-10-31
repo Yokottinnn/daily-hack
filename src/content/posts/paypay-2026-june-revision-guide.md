@@ -148,7 +148,7 @@ references: ["https://coki.jp/article/column/83119/", "https://b4c.jp/poigiken/a
 
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">【悲報】PayPayカード改悪 【開始】2026年6月2日〜 他社決済サービスへのチャージポイント付与対象外 交通系ICへのチャージポイント付与対象外 公共料金、税金200円につき1ポイント還元へ</p>&mdash; とらうぃ🐯お得なセール、お金 (@trawi_site) <a href="https://twitter.com/trawi_site/status/2019242517485727994">2026年2月5日</a></blockquote>
 
-**PayPay カードの改悪（2026年6月2日〜）**を伝えた投稿。
+**PayPay カードの改悪**（2026年6月2日〜）を伝えた投稿。
 
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">「とりあえずPayPayで払えばお得」を2026年も信じている人、実は一番カモにされています。 度重なる改悪に振り回されてポイ活に疲弊する人と、最小の手間で資産を残す人の決定的な違いは、 毎月の決済回数が多いかどうかでもなく、 クーポンを毎日血眼で探しているかでもなく、</p>&mdash; あきにい (@kigurumi_m) <a href="https://twitter.com/kigurumi_m/status/2089457349639729541">2026年8月18日</a></blockquote>
 

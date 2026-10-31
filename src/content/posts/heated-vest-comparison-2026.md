@@ -263,7 +263,7 @@ references:
 
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">ワークマンで電熱ベストを購入してみた。 すごくて感動します</p>&mdash; まさき (@MASAKI_CHOKI) <a href="https://twitter.com/MASAKI_CHOKI/status/2019218029943697431">2026年2月5日</a></blockquote>
 
-**ワークマンの電熱ベストを買って「感動する」**という声。
+**ワークマンの電熱ベストを買って**「感動する」という声。
 
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
