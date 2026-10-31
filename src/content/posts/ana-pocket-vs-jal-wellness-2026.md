@@ -207,6 +207,34 @@ X上でも「**1年契約で貯まる1,500マイルで、4地域から選べる�
 <div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B43JB+C507KQ+389A+67RK1" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/chobirich-300x250.jpg" alt="ちょびリッチ" width="300" height="250" loading="lazy"></a></div>
 </div>
 
+## 実際に使った人の声と動画｜ANA Pocket と JAL Wellness & Travel
+
+数字だけでは分からない「続けられるか」を、実際に使っている人の投稿と動画で補っておく。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">実はこっそりとJALウェルネス始めたのですが、わたし向いてないかもしれない…。 週1-2回在宅あるし、月々の貯まるマイル数考えると広告めんどくさいもののANA Pocket の方が軍配あがる😂 やっぱ月500円課金で1,200マイル貰えるの地味にすごいと思うの</p>&mdash; トリッパー✈️@ブロンズSFC民 (@trip_holiday521) <a href="https://twitter.com/trip_holiday521/status/2059117285777006826">2026年5月26日</a></blockquote>
+
+**広告を見る手間と、在宅の日の歩数**がそのまま差になる。週に何日歩くかで向き不向きが分かれるのよ。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">4月のANA Pocketの結果は… 927マイル！ 550円課金でこんだけマイル貯まるのめちゃくちゃいいのでは！？ 広告見るの苦じゃない人にはめっちゃおすすめ！ ⬇️まだの人は引用から紹介で🉐</p>&mdash; げげ｜おトクだいすき主婦 (@poi_shufu_gege) <a href="https://twitter.com/poi_shufu_gege/status/2051539711349674296">2026年5月5日</a></blockquote>
+
+**有料プラン（550円）で月927マイル**という実例。広告を見るのが苦にならない人なら、課金の元は取りやすいってこと。
+
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/SMpBSmf0yuQ" title="0529【比較】JAL Wellness and Travel  to ANA Pocket どっち？【2025/3/31po】（最近ひとり旅多め。雪豹の旅。Traveling Snow Leopard）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+2つのアプリを並べて使った比較の動画。画面の違いと貯まり方が見て分かる。
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/FEMf5fc2ieo" title="ANAPoket（ANAポケット）とは？毎日移動がマイルに変わる仕組み、無料（Lite/Pocket）と有料（Pro）プランの比較、ポイント獲得の攻略法、賢い交換方法etc（Masaki -New Life-）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+ANA Pocket の無料プランと有料プラン（Pro）の違いを、仕組みから説明している。
+
+<p class="source-note">引用した X の投稿は、2026年10月31日に本文・投稿者・日付を確かめたもの。埋め込んだ YouTube は oEmbed でタイトルと投稿者を照合し、実在を確かめたもの。どちらも投稿した人の個人の感想・撮影時点の内容で、この記事の数字とは別のもの。</p>
+
 ## まとめ — 移動でマイル、ANAとJALの使い分け
 
 1. **ANA Pocket** — 移動距離型。無料で始められ、Pro(550円)なら月746〜1,500マイルで元が取れる。**移動が多い人の最適解**。

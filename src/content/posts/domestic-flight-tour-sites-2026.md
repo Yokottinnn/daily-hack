@@ -36,6 +36,34 @@ references:
   <div class="hakkako-quote">先に一番の驚きを言っとく。<strong>JALのツアーに「21日前まで取消料無料」は無い。</strong>ニーズツアーとJ-TRIPは入金した瞬間から1区間500円の取消料がかかるの。無料で取り消せるのは、エアトリ国内ツアーのLCC・スカイマーク利用分だけよ。</div>
 </div>
 
+## 実際に予約した人の声と動画｜国内の航空券とツアー
+
+どこで買うかの判断に効く、実際に予約した人の投稿と動画を置いておく。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">先日、家族旅行の直前に子どもが体調を崩し、「これは行けないかも…」ということがありました。幸い回復して行けたのですが、キャンセルしていたら旅行代金は全額負担。子どもの体調は仕方ないとはいえ、楽しみにしていた旅行に行けず、お金も戻ってこないのはつらいなと…。</p>&mdash; ハル☀️@米国ETF・オルカン・米国株投資🇺🇸 (@haru_tachibana8) <a href="https://twitter.com/haru_tachibana8/status/2113829080105705609">2026年10月24日</a></blockquote>
+
+**子どもの体調で旅行をキャンセルしかけた**人の投稿。ツアーと個人手配で、キャンセル料の考え方が違うのよ。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">【10/25配布開始🔥航空券＋宿クーポン】 ヤフーパックのJAL便限定で8,000円OFF✈️ 冬〜春の国内旅行を考えている人はチェック！ 💰 旅行代金合計10万円以上で8,000円引き 👥 2名以上・1泊以上／1予約につきの割引 🎫 先着利用50枚 🗓️ 予約：2026/10/25 12時〜11/8 24時 🛫 出発：2026/12/1〜2027/3/31</p>&mdash; MUSUBI -結- (@zomi1023) <a href="https://twitter.com/zomi1023/status/2114645347918127430">2026年10月26日</a></blockquote>
+
+**ヤフーパックの JAL 便限定 8,000 円引きクーポン**の告知。航空券＋宿のセットはクーポンで差がつく。
+
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/HfzzT8e1Irs" title="航空券を安く予約できるサイト5選（旅行の教科書）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+航空券を安く予約できるサイトを 5 つ紹介している。
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/VOc36r58oo8" title="急げ‼️まだ間に合う‼️私が実際にやっている予約方法💡沖縄旅行を格安で予約する秘訣を大公開【旅費・航空券・ホテル・レンタカー】（ちゅーとり 🏝️ 2TRIP LIFE TV）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+沖縄旅行を例に、航空券・ホテル・レンタカーを安く取る手順を見せている。
+
+<p class="source-note">引用した X の投稿は、2026年10月31日に本文・投稿者・日付を確かめたもの。埋め込んだ YouTube は oEmbed でタイトルと投稿者を照合し、実在を確かめたもの。どちらも投稿した人の個人の感想・撮影時点の内容で、この記事の数字とは別のもの。</p>
+
 ## 結論｜手数料と「取り消したら戻る額」を1枚の表に
 
 **予約する前に見るべきなのは、運賃より「戻らないお金」。** 航空券サイトの手数料は、表示価格に入っている会社と、決済画面で足される会社に分かれる。そして多くは**取り消しても欠航しても戻らない。**

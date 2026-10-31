@@ -477,6 +477,34 @@ references: ["https://www.sonysonpo.co.jp/", "https://www.sbisonpo.co.jp/", "htt
   </ul>
 </aside>
 
+## 実際に見積もった人の声と動画｜自動車保険の一括見積もり
+
+一括見積もりで本当に安くなるのかを、実際にやった人の投稿と動画で確かめておく。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">今入ってる自動車保険、等級上がるのになぜか来年の保険料は上がるとか言われて流石に納得いかなかったのでネットで一括見積もり取ったら1.5万円ほど安くなった あまりにも安いから少し心配だけど、東京海上ダイレクトなので流石に大丈夫よね</p>&mdash; 綾瀬・北綾瀬マンション (@ayasekitaayase) <a href="https://twitter.com/ayasekitaayase/status/2104946321451073950">2026年9月29日</a></blockquote>
+
+**一括見積もりで 1.5 万円ほど安くなった**という実例。更新前に一度比べるだけで差が出るのよ。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">今日は自動車保険の見直しをしています🤑 ある特約が良かったのでずっと同じ所で掛けてたのですが、大改悪されてほぼその特約が無くなったので😬 価格コムの一括で６社で見積もり、1社はM社長が嫌い(笑)、2社は安めだけど保証もそれなりで、東京海上ダイレクトとSOMPOダイレクトの二択に成っています🤔</p>&mdash; ごまちゃん (@aia191312201) <a href="https://twitter.com/aia191312201/status/2008740804106625417">2026年1月7日</a></blockquote>
+
+**特約が改悪されたのをきっかけに 6 社で見積もり直した**人。同じところに入り続ける理由が無くなったら、比べ直す合図ね。
+
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/Cf-6zh4AF2k" title="【お金の授業 23限目】自動車保険を見直そう【改訂版 お金の大学 P124～P129】（両学長 リベラルアーツ大学）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+自動車保険の見直し方を、補償の考え方から説明している。
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/L63g8EvGk-E" title="＜自動車保険＞一括見積もりで自動車保険が安くなる（インズウェブ）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+一括見積もりで保険料を下げる流れを紹介した動画。
+
+<p class="source-note">引用した X の投稿は、2026年10月31日に本文・投稿者・日付を確かめたもの。埋め込んだ YouTube は oEmbed でタイトルと投稿者を照合し、実在を確かめたもの。どちらも投稿した人の個人の感想・撮影時点の内容で、この記事の数字とは別のもの。</p>
+
 ## まとめ｜今日30分、満期日前に「3社見積もり」だけはやりなさい
 
 長々書いたけど、行動は1つだけよ。

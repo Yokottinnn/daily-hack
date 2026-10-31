@@ -245,6 +245,34 @@ PayPay残高にチャージできる**唯一の主要クレカ**。PayPayステ�
 
 > ⚠️ **注意**: 短期間に複数枚同時申込（いわゆる多重申込）は審査落ちの原因。**1ヶ月に2枚まで**を目安に、欲しい順に1枚ずつ作りなさい。
 
+## 実際に使っている人の声と動画｜年会費無料のクレカ
+
+還元率の表だけでは決めにくいところを、投稿と動画で補っておく。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">あの、クレジットカードって、ポイント還元率で選びますか？ それとも年会費無料かどうかで選びますか？💳</p>&mdash; かぶさん (@haitoufire) <a href="https://twitter.com/haitoufire/status/2113405037171130388">2026年10月23日</a></blockquote>
+
+**還元率で選ぶか、年会費無料で選ぶか**を聞いた投稿。返信に実際の選び方が集まっている。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">【知らないと損】現金払い、まだ続けてるの？😭 2026年のクレカお得、正直やらないと差がつきます👇 ✅ ふつうのクレカでも還元率1% ✅ リクルートカードは年会費無料で1.2% ✅ 三井住友カード(NL)は対象コンビニ・飲食店のスマホタッチ決済で7%還元🔥</p>&mdash; たま＠スマホ転売 (@tama_MNP) <a href="https://twitter.com/tama_MNP/status/2074810733985136788">2026年7月8日</a></blockquote>
+
+**ふつうのクレカでも 1%、リクルートカードは 1.2%** という整理。現金払いとの差が分かる。
+
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/Hfg0DpAyka4" title="【2026年最新版】年会費無料＆高還元クレジットカードおすすめ10選（1%還元以上の高ポイント還元）（家計の味方）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+年会費無料で還元率 1% 以上のカードを 10 枚まとめた解説。
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/VZTyvNhmiXg" title="【2026年最新】年会費無料クレジットカード12選！旅行好きにおすすめはこれ！（ななともch〜お得に充実した旅と生活を〜）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+旅行に強い年会費無料のカードを 12 枚紹介している。
+
+<p class="source-note">引用した X の投稿は、2026年10月31日に本文・投稿者・日付を確かめたもの。埋め込んだ YouTube は oEmbed でタイトルと投稿者を照合し、実在を確かめたもの。どちらも投稿した人の個人の感想・撮影時点の内容で、この記事の数字とは別のもの。</p>
+
 ## よくある質問
 
 ### Q. 学生でも作れる？

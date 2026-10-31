@@ -312,6 +312,30 @@ references:
 
 ---
 
+## 実際に借りた人の声と動画｜カードローンの選び方
+
+金利の表だけでは分からない「どこで借りるか」の考え方を、投稿と動画で補っておく。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">カードローンおすすめ。 間違いなくろうきんです 金利一率5.6%は、神です 以上、借金1080万円パパからでした。</p>&mdash; 𝓒𝓱𝓾𝓾𝓱𝓪 𝓢𝓱𝓲𝓰𝓮𝓻𝓾 (@Chuuhashi1) <a href="https://twitter.com/Chuuhashi1/status/2116384886978478510">2026年10月31日</a></blockquote>
+
+**金利 5.6% のろうきんを勧める**投稿。消費者金融の上限金利と比べると、同じ額でも返す総額がまるで違うのよ。
+
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/S63tqe_n0sM" title="【プロが教える】金利重視のカードローン選び！一番安く借りるための3つの鉄則【2026年最新版】（みんなの安心カードローン）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+金利を重視したカードローンの選び方を、3 つの決まりで説明している。
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/lVfQ7klu5K0" title="【最強はココ！】カードローン完全比較ガイド（みんなの安心カードローン）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+カードローンを会社ごとに比べた解説。
+
+<p class="source-note">引用した X の投稿は、2026年10月31日に本文・投稿者・日付を確かめたもの。埋め込んだ YouTube は oEmbed でタイトルと投稿者を照合し、実在を確かめたもの。どちらも投稿した人の個人の感想・撮影時点の内容で、この記事の数字とは別のもの。</p>
+
 ## まとめ: 結局あんたはどれを選ぶべき？
 
 長々書いたけど、結論はこう:

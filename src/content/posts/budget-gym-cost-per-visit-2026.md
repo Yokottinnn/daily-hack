@@ -185,6 +185,34 @@ references:
 
 ---
 
+## 実際に通った人の声と動画｜chocoZAP は続くのか
+
+この記事の「幽霊会員の期待値」を、実際の会員の声と動画で確かめておく。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">仙台駅ホームで新幹線を待っている間にchocoZAP 退会の手続きしちゃった。 もう長らく全然行ってない幽霊会員だったからね💦</p>&mdash; 梁瀬 健太郎 (@the_stranglers) <a href="https://twitter.com/the_stranglers/status/2096561640380756044">2026年9月6日</a></blockquote>
+
+**長く行っていない幽霊会員のまま退会**した人の投稿。払い続けた月数がそのまま 1 回あたりの単価を押し上げるのよ。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">こんばんわ！チョコザップ491日目。 朝方5km程度しか走れなかったので夜はジムトレで補助。 10月からはマラソンシーズンとなるので、ジム通いの頻度を落としてランニングの時間を増やそうと思います。 予定では週3くらいまで抑えます！ #今日もちょこざっぷ #chocoZAP</p>&mdash; クラマン@習慣化の悪魔 (@oCsh6lWH6iORvS9) <a href="https://twitter.com/oCsh6lWH6iORvS9/status/2104517095979635074">2026年9月28日</a></blockquote>
+
+**491 日続けている人**もいる。週に何回行くかで、1 回あたりの値段はまるで変わる。
+
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/0A2uKwIhSfQ" title="【チョコザップ】4ヶ月通ってみた感想とルーティンレポします！【きっと明日にはシックスパック】（うりちゃんねる）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+4 か月通った感想と、実際のルーティン。
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/5QGtJ123XRk" title="チョコザップでダイエット?!1年続けた結果を発表します！（ゆうゆうlife ）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+1 年続けた結果を報告している動画。
+
+<p class="source-note">引用した X の投稿は、2026年10月31日に本文・投稿者・日付を確かめたもの。埋め込んだ YouTube は oEmbed でタイトルと投稿者を照合し、実在を確かめたもの。どちらも投稿した人の個人の感想・撮影時点の内容で、この記事の数字とは別のもの。</p>
+
 ## まとめ: 料金表じゃなく、自分の生活リズムを疑え
 
 長々と数字を並べたけど、伝えたいことは1つだけ。
