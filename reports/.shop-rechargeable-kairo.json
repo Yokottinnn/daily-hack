@@ -306,7 +306,7 @@
       },
       "amazon": {
         "keyword": "e-Kairo Carre EK-CR25",
-        "asin": null
+        "asin": "B0FTFF1X7R"
       }
     },
     {
@@ -346,7 +346,7 @@
       },
       "amazon": {
         "keyword": "e-Kairo Share EK-SH25",
-        "asin": null
+        "asin": "B0FTFVGYS4"
       }
     },
     {
@@ -386,7 +386,7 @@
       },
       "amazon": {
         "keyword": "400-TOY052W",
-        "asin": null
+        "asin": "B0GCD6XHXZ"
       }
     },
     {
@@ -407,7 +407,8 @@
         "keyword": "HAGOOGI OT-96H",
         "must": [
           "OT-96H"
-        ]
+        ],
+        "itemUrl": "https://item.rakuten.co.jp/hagoogi/ot-96h-02/"
       },
       "yahoo": {
         "keyword": "HAGOOGI OT-96H",
