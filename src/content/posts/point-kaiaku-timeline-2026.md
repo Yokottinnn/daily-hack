@@ -135,7 +135,17 @@ references: ["https://www.paypay-card.co.jp/info/009410.html", "https://k-tai.wa
 
 ## 実際に使った人の声と動画｜ポイントの改悪
 
-改悪をどう受け止め、どう乗り換えるかを、動画で補っておく。
+実際に使っている人の投稿と動画で補っておく。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">これマジですが、いまだに思考停止でPayPay使ってる人は、年間で普通に数万円単位で損してるかも。「基本還元率はたったの0.5%」「ポイントアップの条件達成（月30回＋10万円）のハードル高い」「ポイント払い分やチャージは付与対象外へ改悪」さらに知らないまま使ってると大損してしまうのが…↓↓</p>&mdash; りゅーいち (@doragon10822) <a href="https://twitter.com/doragon10822/status/2109763548641706321">2026年10月13日</a></blockquote>
+
+**PayPay の基本還元 0.5%、ポイント払いやチャージが付与の対象外**になった改悪をまとめた投稿。この年表の 2026 年の行と同じ話よ。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">【今月のポイント集計】 楽天ポイント 14,159 dポイント 9,004 Vポイント 1,706 Pontaポイント 570 合計 25,439ポイント！ 特定の経済圏に縛られず、取れるポイントは取っていくスタイルです。</p>&mdash; ポイ助@45歳で仕事を辞める人 (@tabitoshi2764) <a href="https://twitter.com/tabitoshi2764/status/2094538020762624089">2026年9月1日</a></blockquote>
+
+**楽天・d・V・Ponta のポイントを、経済圏に縛られずに取っていく**人の 1 か月の集計。改悪が続くなら、1 つに寄せすぎないのも手ね。
+
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <div class="yt-embed">
 <iframe src="https://www.youtube-nocookie.com/embed/VvC1Lcl2VCw" title="【2026年8月〜】大改悪ラッシュ！ポイ活5大サービスの改悪がヤバすぎる（ポイ活ガチ勢ななみちゃん）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
@@ -149,7 +159,7 @@ references: ["https://www.paypay-card.co.jp/info/009410.html", "https://k-tai.wa
 
 dカードの 2026 年度の変更点と、これから持つべきかを解説している。
 
-<p class="source-note">埋め込んだ YouTube は、2026年10月31日に oEmbed でタイトルと投稿者を照合し、実在を確かめたもの。投稿した人の個人の感想・撮影時点の内容で、この記事の数字とは別のもの。</p>
+<p class="source-note">引用した X の投稿は、2026年10月31日に本文・投稿者・日付を確かめたもの。埋め込んだ YouTube は oEmbed でタイトルと投稿者を照合し、実在を確かめたもの。どちらも投稿した人の個人の感想・撮影時点の内容で、この記事の数字とは別のもの。</p>
 
 ## ❓ よくある質問（FAQ）
 
