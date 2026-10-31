@@ -25,7 +25,9 @@ function a8Programs() {
   return map;
 }
 function short(n) {
-  const k = [...n.matchAll(/【([^】]+)】/g)].map((m) => m[1]).filter((x) => !/^(公式|NEW|新商品|当サイト限定)/.test(x));
+  // 「EARTHCAR」のようなかぎかっこの名前があればそれを使う。【入会金・月会費０円だから超高CVR】のような宣伝文句の【】は名前にしない
+  const q = (n.match(/「([^」]{2,30})」/) || [])[1]; if (q) return q;
+  const k = [...n.matchAll(/【([^】]+)】/g)].map((m) => m[1]).filter((x) => !/^(公式|NEW|新商品|当サイト限定)/.test(x) && !/円|CVR|だから|お得|おトク|無料|限定/.test(x));
   return (k.length ? k[k.length - 1] : n).replace(/\s+/g, ' ').slice(0, 40);
 }
 
@@ -78,6 +80,17 @@ export function buildInventory() {
       } else {
         const v = VC.find(([re]) => re.test(u.hostname));
         if (v) add(isPR ? 'バリューコマース（LinkSwitch）' : 'バリューコマース（PR 表記なし・差し替えない）', v[1]);
+      }
+    }
+    // 3 店ボタン（<div data-shop-table|card|buttons="シリーズ[:商品]">）。リンクは描画のときに作るので本文の href には出てこない（2026-10-31 利用者「どの商品が買われれば収入が入るか」）
+    for (const m of src.matchAll(/<div\s+data-shop-(table|card|buttons)="([a-z0-9-]+)(?::([A-Za-z0-9_-]+))?"\s*>\s*<\/div>/g)) {
+      let ser; try { ser = JSON.parse(fs.readFileSync(path.join(ROOT, 'src/data/shop', `${m[2]}.json`), 'utf8')); } catch { continue; }
+      const cfg = JSON.parse(fs.readFileSync(path.join(ROOT, 'src/data/shop/config.json'), 'utf8'));
+      for (const it of (ser.items || []).filter((x) => !m[3] || x.id === m[3])) {
+        const nm = `${it.brand ? it.brand + ' ' : ''}${it.name}`.slice(0, 50);
+        if (it.rakuten) add('楽天（3 店ボタン）', nm);
+        if (it.yahoo) add(isPR ? 'Yahoo!（3 店ボタン・LinkSwitch）' : 'バリューコマース（PR 表記なし・差し替えない）', nm);
+        if (it.amazon && cfg.amazon && cfg.amazon.via === 'associates' && cfg.amazon.tag) add('Amazon（3 店ボタン）', nm);
       }
     }
     const items = [...cnt.entries()].map(([k, n]) => { const [asp, item] = k.split('\t'); return { asp, item, n }; })

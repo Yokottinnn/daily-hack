@@ -118,6 +118,13 @@ ul.plain,ol.plain{margin:0 0 14px;padding-left:1.3em} .plain li{margin:4px 0;max
 .todo .how{font-size:14px;margin-top:6px}
 .todo .note{font-size:13px;margin-top:6px;padding:6px 10px;border-left:3px solid var(--teal);background:var(--teal-soft);border-radius:0 8px 8px 0}
 .todo.done{opacity:.6}
+.calc{display:grid;gap:10px;background:var(--sheet);border:1px solid var(--rule);border-radius:12px;padding:14px 16px;margin:8px 0 16px}
+.calc .in{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px}
+.calc label{display:grid;gap:2px;font-size:12px;color:var(--muted);align-content:start}
+.calc input{font:inherit;font-size:15px;border:1px solid var(--rule);border-radius:8px;padding:5px 10px;background:var(--paper);color:var(--ink);font-family:var(--f-data)}
+.calc .out{font-size:15px}
+.calc .out b{font-family:var(--f-data);font-size:22px;color:var(--brand)}
+.afl-asp{font-size:12px;font-weight:700;color:var(--teal);margin-top:4px}
 .pipe{display:flex;gap:6px;flex-wrap:wrap;margin:14px 0 6px}
 .pipe button{font:inherit;font-size:13px;border:1px solid var(--rule);background:var(--sheet);color:var(--ink);border-radius:10px;padding:6px 12px;cursor:pointer;display:grid;gap:0;text-align:left;min-width:86px}
 .pipe button b{font-family:var(--f-data);font-size:20px;font-weight:500;line-height:1.2}
@@ -357,6 +364,23 @@ tr[data-ccount]::after{top:4px;right:4px}
   <div class="tbl"><table><thead><tr><th>ASP</th><th>提携中の案件</th><th>リンクのある記事</th><th>か所</th></tr></thead><tbody id="now-aff-asp"><tr><td colspan="4" class="empty">データ待ち</td></tr></tbody></table></div>
   <h3 data-cid="now.aff.h.items">多くの記事に入っている案件（上位 15）</h3>
   <div class="tbl"><table class="wf"><thead><tr><th>案件</th><th>ASP</th><th>記事の数</th><th>か所</th></tr></thead><tbody id="now-aff-items"><tr><td colspan="4" class="empty">データ待ち</td></tr></tbody></table></div>
+  <h3 data-cid="now.aff.h.list">成果リンクが入っている記事と、何が買われると報酬になるか</h3>
+  <p class="src">記事の本文のリンクと 3 店ボタンから数えた一覧（毎日の更新で入れ替わる）。「報酬になるもの」は、読者がそのリンクを押してから<b>何をすると報酬が入るか</b>。条件は各 ASP の公式の決まり（下の表）と、A8 は Mac が毎日読む提携中の案件の報酬条件。<b>報酬の額は自分の実績ではなく広告側の条件</b>。</p>
+  <div class="search fbar"><input type="search" id="afl-q" placeholder="記事・商品で探す（例：カイロ、WiFi、楽天トラベル）" aria-label="記事・商品で探す"><select id="afl-asp" aria-label="ASP"><option value="all">ASP：すべて</option></select><span class="status" id="afl-n"></span></div>
+  <div class="tbl"><table class="wf"><thead><tr><th>記事</th><th>読者（28 日）</th><th>報酬になるもの（押したあと、これが買われる・申し込まれると入る）</th><th>か所</th></tr></thead><tbody id="tbl-afl"><tr><td colspan="4" class="empty">データ待ち</td></tr></tbody></table></div>
+  <h3 data-cid="now.aff.h.rules">ASP ごとの「報酬が入る条件」</h3>
+  <div class="tbl"><table class="wf"><thead><tr><th>ASP・リンク</th><th>何が起きると報酬が入るか</th><th>報酬の率・額</th><th>出典</th></tr></thead><tbody>
+    <tr><td><b>楽天市場</b>（記事のリンク・3 店ボタン）</td><td>リンクを押してから <b>24 時間以内に買い物かごに入れ、89 日以内に購入</b>された商品</td><td>ジャンル別 <b>2〜4%</b>（食品・コスメ 4%、キッチン・寝具 3%、家電 2%）。<b>1 商品 1,000 円まで</b>・同じ人から月 3,000 円まで</td><td><a href="https://affiliate.rakuten.co.jp/guideline/rule/" target="_blank" rel="noopener">楽天アフィリエイト ガイドライン</a></td></tr>
+    <tr><td><b>楽天トラベル</b></td><td>リンクを押してから <b>30 日以内</b>の予約（国内宿泊など）</td><td>国内宿泊 <b>1%</b>・レンタカー 2%</td><td>同上</td></tr>
+    <tr><td><b>楽天ふるさと納税</b></td><td>楽天市場の自治体の店での寄付</td><td><span class="pill warn">要確認</span> ガイドラインに料率の記載なし</td><td>同上</td></tr>
+    <tr><td><b>Yahoo!ショッピング</b>（3 店ボタン・PR 表記の記事だけ LinkSwitch で成果リンクになる）</td><td>リンクから Yahoo!ショッピングで買われた商品（期間は <span class="pill warn">要確認</span>）</td><td>カテゴリ別・<b>最低 2〜4%</b></td><td><a href="https://shopping.yahoo.co.jp/notice/affiliates/" target="_blank" rel="noopener">Yahoo!ショッピング アフィリエイト</a></td></tr>
+    <tr><td><b>Amazon</b>（3 店ボタン・dailyhack-22）</td><td>リンクから Amazon で買われた商品（期間は公式の料率表に記載なし <span class="pill warn">要確認</span>）。<b>自分の購入は対象外</b>。<b>2027-04-28 ごろまでに 3 件売れないと参加が取り消される</b></td><td>カテゴリ別 <b>2〜10%</b>（家電 2%・ドラッグストア 5%・食品 8% など）</td><td><a href="https://affiliate.amazon.co.jp/help/node/topic/GRXPHT8U84RAYDXZ" target="_blank" rel="noopener">紹介料率表</a></td></tr>
+    <tr><td><b>A8.net</b>（記事のバナー・文字リンク）</td><td>案件ごと（申込完了・新規契約・資料請求など）。下の一覧に各案件の条件を出す</td><td>案件ごと（定額か %）</td><td>A8 の提携中の一覧（Mac が毎日読む）</td></tr>
+    <tr><td><b>バリューコマース</b>（一休・じゃらん・Yahoo!トラベルの普通のリンクを LinkSwitch が差し替え）</td><td>予約（条件は案件ごと <span class="pill warn">要確認</span>）</td><td>案件ごと</td><td>バリューコマースの管理画面</td></tr>
+  </tbody></table></div>
+  <h3 data-cid="now.aff.h.plan">記事をあと何本増やせばよいか（目標から逆算）</h3>
+  <p class="src">「1 本の記事が 1 か月に稼ぐ額 ＝ 読者 × リンクを押す割合 × 買う割合 × 1 件の報酬」で、目標の月額に届く本数を出す。<b>実績で埋まる欄は毎日のデータから入れ、実績が無い欄は「仮定」と書いて手で変えられる</b>ようにしてある。</p>
+  <div class="calc" id="afl-calc"><p class="empty">データ待ち</p></div>
   <h2>収益の仕掛けの現状</h2>
   <div class="tbl"><table>
     <thead><tr><th>仕掛け</th><th>状態</th><th>メモ</th></tr></thead>
@@ -1054,7 +1078,7 @@ tr[data-ccount]::after{top:4px;right:4px}
     db.doc('xdrafts/current').onSnapshot(s=>{ renderXDrafts(s.exists?s.data():null); },()=>{ $('#xdrafts-meta').textContent='読み込めませんでした。'; });
     db.collection('linkplan').onSnapshot(snap=>{ LINKS=snap.docs.map(d=>Object.assign({id:d.id},d.data())); renderLinkplan(); },()=>{});
     db.collection('todos').onSnapshot(snap=>{ TODOS=snap.docs.map(d=>Object.assign({id:d.id},d.data())); renderTodos(); const n=TODOS.filter(t=>t.status==='you').length, b=$('a[data-page="tasks"] .badge',toc); if(b){ b.hidden=!n; b.textContent=n; } },()=>{ $('#todos').innerHTML='<p class="empty">読み込めませんでした。</p>'; });
-    db.doc('results/latest').onSnapshot(s=>{ RESULTS=s.exists?s.data():null; renderResults(); },()=>{});
+    db.doc('results/latest').onSnapshot(s=>{ RESULTS=s.exists?s.data():null; renderResults(); if(SNAP) renderCalc(); },()=>{});
     db.doc('snapshot/latest').onSnapshot(s=>{ if(s.exists){ SNAP=s.data(); try{ renderSnapshot(SNAP); }catch(e){ console.error(e); } } else { $('#meta-data').textContent='まだ届いていない'; } },()=>{});
     // 分析レポート（アドホック）。結論と要点だけをここに置き、詳細は各分析のページへ（2026-10-26 利用者の指示）
     db.collection('analyses').orderBy('date','desc').onSnapshot(s=>{ const box=$('#analyses'); if(!box) return; if(s.empty){box.innerHTML='<p class="empty">まだありません。</p>';return;} box.replaceChildren(...s.docs.map(d=>{ const v=d.data(), el=document.createElement('div'); el.className='c'; el.dataset.cid='analyses.'+d.id; el.innerHTML='<div class="h"><span class="pill info">'+esc(v.kind||'分析')+'</span><span>'+esc(v.date||'')+'</span>'+(v.by?'<span>'+esc(v.by)+'</span>':'')+'</div><div class="b"><b>'+esc(v.title||'')+'</b></div>'+(v.question?'<div class="q">問い：'+esc(v.question)+'</div>':'')+(v.summary?'<p style="margin:6px 0 0">'+esc(v.summary)+'</p>':'')+((v.points||[]).length?'<ul class="plain" style="margin:6px 0 0">'+v.points.map(i=>'<li>'+esc(i)+'</li>').join('')+'</ul>':'')+(v.url?'<div class="row"><a href="'+esc(v.url)+'" target="_blank" rel="noopener">分析のページを開く</a></div>':''); return el; })); applyCounts(); },()=>{ const box=$('#analyses'); if(box) box.innerHTML='<p class="empty">読み込めませんでした。</p>'; });
@@ -1175,7 +1199,7 @@ tr[data-ccount]::after{top:4px;right:4px}
     ['A8','楽天','バリューコマース','もしも'].forEach(g=>{ rows[g]=rows[g]||{spots:0,arts:0,names:[]}; });
     $('#now-aff-asp').innerHTML=Object.entries(rows).sort((a,b)=>b[1].spots-a[1].spots).map(([g,r])=>'<tr data-cid="now.aff.asp.'+hash(g)+'"><td><b>'+esc(g)+'</b>'+(r.names.length>1?'<br><span class="status">'+esc(r.names.join('・'))+'</span>':'')+'</td><td class="num">'+esc(String(part[g]??'—'))+'</td><td class="num">'+fmtN(r.arts)+'</td><td class="num">'+fmtN(r.spots)+'</td></tr>').join('');
     $('#now-aff-items').innerHTML=(S.affByItem||[]).slice().sort((a,b)=>b.articles.length-a.articles.length||b.n-a.n).slice(0,15).map(r=>'<tr data-cid="now.aff.item.'+hash(r.asp+r.item)+'"><td>'+esc(r.item)+'</td><td>'+esc(r.asp)+'</td><td class="num">'+fmtN(r.articles.length)+'</td><td class="num">'+fmtN(r.n)+'</td></tr>').join('')||'<tr><td colspan="4" class="empty">データ待ち</td></tr>';
-    renderResults();
+    renderResults(); renderAfl();
   }
   // X の投稿のランキング（現状の数字）。並べ替えと絞り込み（2026-10-25 利用者のコメント 6q1u6gj2wqp4bdf47unh）
   function renderNowPosts(){ const tb=$('#now-xposts'); if(!tb) return; const XD=(SNAP||{}).xData||{}; const J=XD.joined||[];
@@ -1315,6 +1339,67 @@ tr[data-ccount]::after{top:4px;right:4px}
   document.addEventListener('click',e=>{ const b=e.target.closest('[data-detail]'); if(b){ e.preventDefault(); openDetail(b.dataset.detail); } else if(e.target.id==='detail'){ $('#detail').hidden=true; } });
   document.addEventListener('keydown',e=>{ if(e.key==='Escape') $('#detail').hidden=true; });
 
+  // ---- 成果リンクが入っている記事と、何が買われると報酬になるか（2026-10-31 利用者の指示） ----
+  function aflReward(asp,item,slug){
+    const S=SNAP||{};
+    if(asp==='A8'){ // 記事に入っている案件のうち、名前のいちばん長い共通部分が 3 字以上のものを当てる（当たらなければ条件は出さない）
+      const lcs=(a,b)=>{ let m=0; for(let i=0;i<a.length;i++) for(let j=0;j<b.length;j++){ let k=0; while(a[i+k]&&a[i+k]===b[j+k]) k++; if(k>m) m=k; } return m; };
+      const rows=((S.a8||{}).rows||[]).filter(r=>(r.articles||[]).some(a=>a.slug===slug)).map(r=>({r,sc:lcs(item,r.name||'')})).sort((x,y)=>y.sc-x.sc);
+      let r=rows[0]&&rows[0].sc>=3?rows[0].r:null;
+      if(!r){ const all=((S.a8||{}).rows||[]).map(x=>({r:x,sc:lcs(item,x.name||'')})).sort((x,y)=>y.sc-x.sc); const need=Math.min(4,item.length);
+        const top=all.filter(x=>all[0]&&x.sc===all[0].sc&&x.sc>=need);
+        if(!top.length) return '⚠️ A8 の提携中の一覧に見当たらない（提携が切れていると報酬にならない・要確認）';
+        if(top.length>1) return top.map(x=>(x.r.name||'').replace(/【[^】]*】/g,'').slice(0,14)+'：'+(x.r.reward||'').replace(/\s*EPC$/,'')).join(' ／ ');
+        r=top[0].r; }
+      return r.reward?r.reward.replace(/\s*EPC$/,''):'条件は A8 の案件ページ'; }
+    if(/^楽天/.test(asp)){ if(/^楽天トラベル/.test(item)) return '予約（押してから 30 日以内）・国内宿泊 1%'; if(/^楽天ふるさと納税/.test(item)) return '寄付（料率は要確認）';
+      return '楽天市場での購入（押して 24 時間以内にかご→89 日以内に購入）・2〜4%・1 商品 1,000 円まで'; }
+    if(/^Yahoo!/.test(asp)) return 'Yahoo!ショッピングでの購入・最低 2〜4%';
+    if(/^Amazon/.test(asp)) return 'Amazon での購入・カテゴリ別 2〜10%（審査前の仮の参加）';
+    if(/LinkSwitch/.test(asp)) return '予約（条件は案件ごと・要確認）';
+    return '—';
+  }
+  let AFL_INIT=false;
+  function renderAfl(){
+    const S=SNAP||{}, inv=(S.affInventory||[]).filter(a=>a.total>0), tb=$('#tbl-afl'); if(!tb) return;
+    const art=Object.fromEntries((S.articles||[]).map(a=>[a.slug,a]));
+    if(!AFL_INIT){ const sel=$('#afl-asp'); const asps=[...new Set(inv.flatMap(a=>a.items.filter(i=>!/差し替えない/.test(i.asp)).map(i=>i.asp)))].sort(); sel.innerHTML='<option value="all">ASP：すべて</option>'+asps.map(x=>'<option>'+esc(x)+'</option>').join('');
+      ['#afl-q','#afl-asp'].forEach(id=>$(id).addEventListener(id==='#afl-q'?'input':'change',renderAfl)); AFL_INIT=true; }
+    const q=($('#afl-q').value||'').trim().toLowerCase(), fa=$('#afl-asp').value;
+    const rows=inv.map(a=>({...a,items:a.items.filter(i=>!/差し替えない/.test(i.asp)&&(fa==='all'||i.asp===fa))})).filter(a=>a.items.length)
+      .filter(a=>!q||(a.title+' '+a.slug+' '+a.items.map(i=>i.item).join(' ')).toLowerCase().includes(q))
+      .sort((x,y)=>((art[y.slug]||{}).h28||0)-((art[x.slug]||{}).h28||0)||y.total-x.total);
+    $('#afl-n').textContent=rows.length+' / '+inv.length+' 本';
+    tb.innerHTML=rows.map(a=>{ const by={}; a.items.forEach(i=>(by[i.asp]=by[i.asp]||[]).push(i));
+      const cell=Object.entries(by).map(([asp,its])=>'<div class="afl-asp">'+esc(asp)+'</div><ul class="plain" style="margin:0">'+its.map(i=>'<li>'+esc(i.item)+' <span class="status">— '+esc(aflReward(asp,i.item,a.slug))+'</span></li>').join('')+'</ul>').join('');
+      const h=(art[a.slug]||{}).h28; return '<tr data-cid="now.afl.'+esc(a.slug)+'"><td><a href="https://daily-hack.fieldbeside.com/posts/'+esc(a.slug)+'/" target="_blank" rel="noopener">'+esc((a.title||a.slug).slice(0,60))+'</a></td><td class="num">'+(h!=null?fmtN(h):'—')+'</td><td>'+cell+'</td><td class="num">'+fmtN(a.items.reduce((s,i)=>s+i.n,0))+'</td></tr>'; }).join('')||'<tr><td colspan="4" class="empty">該当なし</td></tr>';
+    applyCounts(); renderCalc();
+  }
+  function renderCalc(){
+    const box=$('#afl-calc'); if(!box||!SNAP) return;
+    const S=SNAP, inv=(S.affInventory||[]).filter(a=>a.total>0), art=Object.fromEntries((S.articles||[]).map(a=>[a.slug,a]));
+    const reads=inv.map(a=>(art[a.slug]||{}).h28).filter(v=>v!=null).sort((a,b)=>a-b);
+    const med=reads.length?reads[Math.floor(reads.length/2)]:0, sum=reads.reduce((s,v)=>s+v,0);
+    const R=(RESULTS&&RESULTS.rows)||[]; const clicks=R.reduce((s,r)=>s+(r.clicks||0),0);
+    const conf=R.filter(r=>r.confirmed&&r.confirmedAmount&&!/セルフバック/.test(r.note||'')); const selfOnly=R.some(r=>r.confirmed&&/セルフバック/.test(r.note||''))&&!conf.length; const per=conf.length?Math.round(conf.reduce((s,r)=>s+r.confirmedAmount,0)/conf.reduce((s,r)=>s+r.confirmed,0)):null;
+    const ctr=sum?Math.min(50,Math.round(clicks/sum*1000)/10):null;
+    if(!box.dataset.ready){
+      box.innerHTML='<div class="in">'
+        +'<label>目標（円／月）<input id="c-goal" type="number" value="10000" min="0" step="1000"></label>'
+        +'<label>1 本の記事の月の読者（人）<input id="c-read" type="number" min="0" value="'+Math.round(med*30/28)+'"><span>実績：成果リンク入りの記事の真ん中の値（28 日・ボット除外）</span></label>'
+        +'<label>リンクを押す割合（%）<input id="c-ctr" type="number" min="0" step="0.1" value="'+(ctr!=null?ctr:3)+'"><span>'+(ctr!=null?'実績：ASP のクリック ÷ 成果リンク入りの記事の読者（期間がずれるので目安）':'仮定（実績なし）')+'</span></label>'
+        +'<label>押した人が買う・申し込む割合（%）<input id="c-cvr" type="number" min="0" step="0.1" value="1"><span>仮定（発生の実績がまだ少なく割合を出せない）</span></label>'
+        +'<label>1 件の報酬（円）<input id="c-per" type="number" min="0" value="'+(per||500)+'"><span>'+(per?'実績：確定した報酬の 1 件あたり':selfOnly?'仮定（確定した報酬はセルフバック＝自分の申し込みだけなので使わない）':'仮定（確定の実績なし）')+'</span></label>'
+        +'</div><div class="out" id="c-out"></div>';
+      box.dataset.ready='1'; $$('input',box).forEach(i=>i.addEventListener('input',calcOut)); }
+    box.dataset.n=inv.length; calcOut();
+  }
+  function calcOut(){ const v=id=>Number(($(id)||{}).value)||0; const n=Number($('#afl-calc').dataset.n)||0;
+    const perArt=v('#c-read')*v('#c-ctr')/100*v('#c-cvr')/100*v('#c-per'); const need=perArt>0?Math.ceil(v('#c-goal')/perArt):null;
+    const now=Math.round(perArt*n);
+    $('#c-out').innerHTML='この前提だと、<b>1 本あたり月 '+fmtN(Math.round(perArt))+' 円</b>。いまの成果リンク入り '+fmtN(n)+' 本で月 約 '+fmtN(now)+' 円。目標の月 '+fmtN(v('#c-goal'))+' 円には '
+      +(need==null?'計算できない（どれかが 0）':'<b>'+fmtN(need)+' 本</b>（あと '+fmtN(Math.max(0,need-n))+' 本）')+' が要る。'
+      +'<br><span class="status">本数より効くのは「1 本の読者」：読者が 2 倍になれば必要な本数は半分になる。記事を増やすのと同時に、X の告知と検索の順位で 1 本の読者を増やす。</span>'; }
   // ---- タスク ----
   let TODOS=[], todoF='open';
   const ST={you:['warn','あなたの番'],claimed:['info','確認待ち'],claude:['info','Claude の番'],verified:['ok','完了（確認済み）']};
