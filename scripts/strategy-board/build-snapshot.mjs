@@ -318,7 +318,9 @@ for (const v of Object.values(affByItem)) {
   if (hit.length !== 1) { const c = rows.filter((r) => normName(r.name).includes(ni) || ni.includes(normName(r.name))); hit = c.length === 1 ? c : []; }
   if (hit.length === 1) (a8Articles[hit[0].id] = a8Articles[hit[0].id] || []).push(...v.articles);
 }
-const a8Rows = (a8?.rows || []).map((r) => ({ ...r, yen: yen(r.reward), ng: NG_PROGRAM.test(r.name || ''), articles: a8Articles[r.id] || [] }));
+// 2026-10-31: A8 の提携中が 310 件になり、作戦室の db の 1 文書の上限（256KB）に近づいた。名前・報酬を短くし、false と空の配列は書かない
+const a8Rows = (a8?.rows || []).map((r) => { const o = { id: r.id, name: (r.name || '').slice(0, 50), reward: (r.reward || '').replace(/\s*EPC$/, '').slice(0, 60), yen: yen(r.reward) };
+  if (r.self) o.self = true; if (r.listing) o.listing = r.listing; if (NG_PROGRAM.test(r.name || '')) o.ng = true; if ((a8Articles[r.id] || []).length) o.articles = a8Articles[r.id]; return o; });
 
 // ---------- 所見（決まった条件に当たったものだけ） ----------
 if (gsc) xShared.push({ k: 'ブログ Google 検索クリック（28 日）', v: String(gscCur.clicks), at: `${gscCur.from}〜${gscCur.to}`, src: 'Search Console（Mac が毎日読む）' });
