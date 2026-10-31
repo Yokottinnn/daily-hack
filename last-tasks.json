@@ -1,3 +1,3 @@
 [
-      {"task": "t520-x-retry3-1.sh", "rc": 0, "out": "- X 2116046967575134716 @kouchin0917  2026-10-30 ♥0 PayPayの30%ポイント還元（100pt／回、上限500pt）100円ショップで使い倒して来た。まだ数pt上限には達してないと思うけど。。。 #ポイ活 #コツコツポイ活 htt - X 2112706482563437048 @mamepoint ✔ "}
+      {"task": "x392-check-follow-reply-today.sh", "rc": 0, "out": "comment-orchestrator: follow=6 unfollow=0 reply=0 skip=13 error=7 incoming-reply-watcher: follow=3 unfollow=0 reply=4 skip=5 error=4 == 30 分台帳（いま時点・種類ごとの回数と最後の時刻） tweet 件数 1 最後 14:20 JST like 件数 0 最後 - JST"}
   ]
