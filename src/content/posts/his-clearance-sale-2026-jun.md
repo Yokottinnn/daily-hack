@@ -221,6 +221,34 @@ references: ["https://x.com/halohalo_travel/status/2060588028402311572", "https:
 <div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B43JB+BX9KPM+52F8+5ZMCH" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/kkday-300x250.jpg" alt="KKday 海外旅行オプショナルツアー" width="300" height="250" loading="lazy"></a></div>
 </div>
 
+## 実際の声と動画｜HIS のセール
+
+HIS のセールでどれくらい安く行けるのかを、投稿と動画で補っておく。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">HISセール、ソウル往復航空券＋ホテル付き3日間で29,800円で3万しないし、高すぎて行けないと言われるハワイも5日間で129,800円のあって13万しないのシンプルに安すぎ🥹HISの在庫処分個人手配より全然安いのあったり掘り出し物多いのでめちゃおすすめです！</p>&mdash; えり@ホワイトOLちゃん (@motenohonyaku) <a href="https://twitter.com/motenohonyaku/status/2107405864781095219">2026年10月6日</a></blockquote>
+
+**ソウル 3 日間が航空券＋ホテルで 29,800 円、ハワイ 5 日間が 129,800 円**という HIS セールの実例。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">HIS在庫処分セール、便利な金浦空港往復＋ソウル駅のフォーポイント宿泊で31,800円も登場。安い</p>&mdash; Halohalo｜旅行レジャー情報 (@halohalo_travel) <a href="https://twitter.com/halohalo_travel/status/2013837476620624353">2026年1月21日</a></blockquote>
+
+**在庫処分セールで、ソウルの航空券＋ホテルが 31,800 円**。
+
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/8QJ5L8FVCmw" title="【破格】飛行機代でホテルまで付いてくる！？HISタイムセールで沖縄2万円台・大阪1万円台〜（たつログ【航空券・格安旅行のセール解説】）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+HIS のタイムセールで、沖縄や大阪がいくらで行けるかを解説している。
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/xBMRo1DQU3I" title="【海外旅行編】マジで激安！HIS初夢フェア2026は本当に安いのか検証してみた結果（Daiki Yamamoto / 元Vリーガーの旅日記）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+HIS 初夢フェアが本当に安いのかを確かめた動画。
+
+<p class="source-note">引用した X の投稿は、2026年10月31日に本文・投稿者・日付を確かめたもの。埋め込んだ YouTube は oEmbed でタイトルと投稿者を照合し、実在を確かめたもの。どちらも投稿した人の個人の感想・撮影時点の内容で、この記事の数字とは別のもの。</p>
+
 ## まとめ — 6月出発勢、今日明日で勝負が決まる
 
 <ul class="checklist">

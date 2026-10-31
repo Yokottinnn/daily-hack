@@ -141,6 +141,34 @@ references:
   </article>
 </div>
 
+## 実際に借り換えた人の声と動画｜住宅ローンの借り換え
+
+借り換えで得をするかどうかを、実際にやった人の投稿と動画で補っておく。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">住宅ローンの借り換えが完了したので、今年の家計見直し策を振り返り ・家計の見える化: マネフォ導入 +540円/月 ・スマホ切り替え: SB→LINEMO ▲6,000円/月 ・住宅ローン借り換え: ▲6,000円/月 月々10,000円程度でも年間12万円、チリツモで永続していくので大きいはず。 次は保険の見直しかな</p>&mdash; Civet (@civet2314) <a href="https://twitter.com/civet2314/status/2115945379615392114">2026年10月30日</a></blockquote>
+
+**住宅ローンの借り換えを終えた**人の、家計の見直しの振り返り。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">変動金利で注文住宅を考えている30代の人へ。 金利上昇が気になるなら、契約前に確認したいこと50選 【金利の仕組み】 ・金利は申込時か実行時か ・つなぎ融資の金利と期間 ・着工金・中間金の払い方 ・変動金利の見直しは年何回か ・返済額が変わるのはいつか ・5年ルールの有無 ・125%ルールの有無</p>&mdash; あいみつ＠みんなの住宅失敗談 (@aimitu_jutaku) <a href="https://twitter.com/aimitu_jutaku/status/2112439668704985408">2026年10月20日</a></blockquote>
+
+**変動金利で注文住宅を考えている人に、金利の上昇への備え**を伝えた投稿。
+
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/yHnXB85vPfU" title="【住宅ローン】借り換えの新常識！毎月の返済額だけで判断は危険！住宅ローン見直しの判断基準（カジマ社長の家づくりでライフデザイン）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+毎月の返済額だけで借り換えを決めるのは危ない、という判断の基準を説明している。
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/xzH0Xf3DXYU" title="借換金利最低水準！住宅ローン借換えにかかる費用って？具体的に計算します！（住宅FP関根）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+借り換えにかかる費用を、具体的に計算して見せている動画。
+
+<p class="source-note">引用した X の投稿は、2026年10月31日に本文・投稿者・日付を確かめたもの。埋め込んだ YouTube は oEmbed でタイトルと投稿者を照合し、実在を確かめたもの。どちらも投稿した人の個人の感想・撮影時点の内容で、この記事の数字とは別のもの。</p>
+
 ## ❓ よくある質問（FAQ）
 
 <div class="cmp-table-wrap">
@@ -159,7 +187,7 @@ references:
 
 - 判定式は **回収月数 ＝ 諸費用 ÷ 月々の軽減額**。残期間より十分短ければ得
 - メリットが出やすいのは **金利差0.3%以上・残期間10年以上・残債1,000万円以上**
-- 変動 vs 固定は **「上がっても耐えられる余力があるか」** で選ぶ
+- 変動 vs 固定は **「上がっても耐えられる余力があるか**」 で選ぶ
 - まずは**一括比較で自分の実数字**を出す。動く／動かないは、それから決める
 
 金利ニュースに一喜一憂するより、**自分のローンの回収月数を1回計算する**。それが一番強い。今日やっちゃいなさい 😏

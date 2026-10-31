@@ -365,6 +365,34 @@ author: "hacker-ko"
   </ul>
 </aside>
 
+## 実際の声と動画｜新NISA のインデックスファンド
+
+オルカンか S&P500 か、実際に投資している人の投稿と動画で見ておく。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">NISA始めるなら オルカンからやりますか？ それともS&amp;amp;P500？ みたいなのリプ欄に宣伝のせてる垢 即ミュートしちゃってる ごめんね♡♡</p>&mdash; まぁさん (@123zenkaijyou) <a href="https://twitter.com/123zenkaijyou/status/2116394967207981290">2026年10月31日</a></blockquote>
+
+**NISA を始めるならオルカンか S&P500 か**を聞いた投稿。返信に実際の選び方が集まっている。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">NISAのつみたて投資枠と成長投資枠、 ちゃんと使い分けてる人って結構いるのでしょうか？ つみたて枠はインデックス、成長投資枠は個別株みたいに分けてる人いますか？？</p>&mdash; あや (@ayaponsukee) <a href="https://twitter.com/ayaponsukee/status/2098381601919115362">2026年9月11日</a></blockquote>
+
+**つみたて投資枠と成長投資枠の使い分け**についての投稿。
+
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/WYRmMx6f9hM" title="【お金のニュース】オルカン、純資産総額の増加が加速。S&amp;P500両方投資はアリ？【リベ大公式切り抜き】（両学長 リベラルアーツ大学）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+オルカンの純資産総額が増えている話と、S&P500 と両方に投資するのはありかを解説している。
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/JPKejU7u55g" title="【これで安心】新NISA初心者がオルカンとS&amp;P500でついやっちゃう大損する３つのこと（しばとん投資信託）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+新NISA の初心者が、オルカンと S&P500 でやりがちな失敗を 3 つ挙げた動画。
+
+<p class="source-note">引用した X の投稿は、2026年10月31日に本文・投稿者・日付を確かめたもの。埋め込んだ YouTube は oEmbed でタイトルと投稿者を照合し、実在を確かめたもの。どちらも投稿した人の個人の感想・撮影時点の内容で、この記事の数字とは別のもの。</p>
+
 ## まとめ｜迷わずオルカン、それで20年放置しなさい
 
 ここまで読んで「やっぱり選べない」あんたへ。**アタシの最終結論を置いておく**。
