@@ -1,0 +1,423 @@
+{
+  "id": "rechargeable-kairo",
+  "title": "充電式カイロ（安全・何時間持つ・使い捨て何枚分で元が取れるか）",
+  "_note": "仕様は公式ページ・取扱説明書の記載だけ。出典・PSE の考え方・未確認の項目は Yokottinnn/daily-hack-affiliate の docs/research/kairo-products.md。ニトリ WK01 は販売終了のため外した。無印良品は公式で現行品を確認できず",
+  "columns": [
+    {
+      "key": "temp",
+      "label": "温度（公称）"
+    },
+    {
+      "key": "hours",
+      "label": "連続使用（公称）"
+    },
+    {
+      "key": "cap",
+      "label": "容量"
+    },
+    {
+      "key": "weight",
+      "label": "重さ"
+    },
+    {
+      "key": "safety",
+      "label": "安全機能・保証（公式の記載）"
+    },
+    {
+      "key": "mb",
+      "label": "スマホ充電"
+    }
+  ],
+  "pricesCheckedAt": "2026-10-30T21:46:11.773Z",
+  "items": [
+    {
+      "id": "francfranc-kurikaeshi-2026",
+      "brand": "Francfranc",
+      "name": "繰り返し使えるカイロ（2026AW）",
+      "badge": "オートオフ付き",
+      "specs": {
+        "temp": "2 段階（約45℃／約50℃）",
+        "hours": "弱 約5時間・強 約3.5時間",
+        "cap": "4000mAh（一部 5000mAh）",
+        "weight": "約136g",
+        "safety": "オートオフ約6時間・保証1年",
+        "mb": "あり（10W）"
+      },
+      "source": "https://francfranc.com/products/1109100032795",
+      "rakuten": {
+        "keyword": "フランフラン 繰り返し使えるカイロ",
+        "must": [
+          "繰り返し使えるカイロ"
+        ]
+      },
+      "yahoo": {
+        "keyword": "フランフラン 繰り返し使えるカイロ",
+        "must": [
+          "繰り返し使えるカイロ"
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/zozo/111963074.html",
+        "price": 3480,
+        "shippingFree": false,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 0,
+        "shop": "ZOZOTOWN Yahoo!店",
+        "checkedAt": "2026-10-30T21:46:11.773Z"
+      },
+      "amazon": {
+        "keyword": "フランフラン 繰り返し使えるカイロ",
+        "asin": null
+      }
+    },
+    {
+      "id": "francfranc-ryote-2026",
+      "brand": "Francfranc",
+      "name": "両手で使える充電式カイロ（2026AW）",
+      "badge": "両手で使える",
+      "specs": {
+        "temp": "2 段階（約43℃／約50℃）",
+        "hours": "弱 約5.5時間・強 約4時間",
+        "cap": "2500mAh×2",
+        "weight": "約190g",
+        "safety": "オートオフ約6時間・ダブルクリックで電源・保証1年",
+        "mb": "記載なし"
+      },
+      "source": "https://francfranc.com/products/1109100032771",
+      "rakuten": {
+        "keyword": "フランフラン 両手で使える充電式カイロ",
+        "must": [
+          "両手"
+        ]
+      },
+      "yahoo": {
+        "keyword": "フランフラン 両手で使える充電式カイロ",
+        "must": [
+          "両手"
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/zozo/111963066.html",
+        "price": 5480,
+        "shippingFree": false,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 0,
+        "shop": "ZOZOTOWN Yahoo!店",
+        "checkedAt": "2026-10-30T21:46:11.773Z"
+      },
+      "amazon": {
+        "keyword": "フランフラン 両手で使える充電式カイロ",
+        "asin": null
+      }
+    },
+    {
+      "id": "mottole-mtl-e007",
+      "brand": "mottole",
+      "name": "充電式カイロ コンパクトタイプ MTL-E007",
+      "specs": {
+        "temp": "約45〜50℃",
+        "hours": "約1.5〜5時間",
+        "cap": "4000mAh",
+        "weight": "記載なし",
+        "safety": "記載なし",
+        "mb": "出力 5V 2A"
+      },
+      "source": "https://mottole.jp/c/appliances/aw/mtl-e007n",
+      "rakuten": {
+        "keyword": "mottole MTL-E007",
+        "must": [
+          "MTL-E007"
+        ]
+      },
+      "yahoo": {
+        "keyword": "mottole MTL-E007",
+        "must": [
+          "MTL-E007"
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/mottole/mtl-e007.html",
+        "price": 1096,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": 4.33,
+        "reviewCount": 481,
+        "shop": "mottole Yahoo!店",
+        "checkedAt": "2026-10-30T21:46:11.773Z"
+      },
+      "amazon": {
+        "keyword": "mottole MTL-E007",
+        "asin": null
+      }
+    },
+    {
+      "id": "mottole-mtl-e029",
+      "brand": "mottole",
+      "name": "充電式カイロ 長持ちタイプ MTL-E029",
+      "badge": "長く持つ",
+      "specs": {
+        "temp": "約45〜55℃",
+        "hours": "弱 約8時間・強 約4時間",
+        "cap": "10000mAh",
+        "weight": "約228g",
+        "safety": "社内検査を実施と記載",
+        "mb": "出力 5V 2.1A"
+      },
+      "source": "https://mottole.jp/c/appliances/aw/mtl-e029",
+      "rakuten": {
+        "keyword": "mottole MTL-E029",
+        "must": [
+          "MTL-E029"
+        ]
+      },
+      "yahoo": {
+        "keyword": "mottole MTL-E029",
+        "must": [
+          "MTL-E029"
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/mottole/mtl-e029.html",
+        "price": 1730,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": 4.35,
+        "reviewCount": 93,
+        "shop": "mottole Yahoo!店",
+        "checkedAt": "2026-10-30T21:46:11.773Z"
+      },
+      "amazon": {
+        "keyword": "mottole MTL-E029",
+        "asin": null
+      }
+    },
+    {
+      "id": "mottole-mtl-e030",
+      "brand": "mottole",
+      "name": "充電式カイロ セパレートタイプ MTL-E030",
+      "badge": "2 個で長く持つ",
+      "specs": {
+        "temp": "約45〜55℃",
+        "hours": "弱 約8時間・強 約5時間",
+        "cap": "5000mAh×2",
+        "weight": "約370g",
+        "safety": "社内検査を実施と記載",
+        "mb": "出力 5V 2A"
+      },
+      "source": "https://mottole.jp/c/appliances/aw/mtl-e030",
+      "rakuten": {
+        "keyword": "mottole MTL-E030",
+        "must": [
+          "MTL-E030"
+        ]
+      },
+      "yahoo": {
+        "keyword": "mottole MTL-E030",
+        "must": [
+          "MTL-E030"
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/mottole/mtl-e030.html",
+        "price": 4630,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": 4.24,
+        "reviewCount": 74,
+        "shop": "mottole Yahoo!店",
+        "checkedAt": "2026-10-30T21:46:11.773Z"
+      },
+      "amazon": {
+        "keyword": "mottole MTL-E030",
+        "asin": null
+      }
+    },
+    {
+      "id": "elaice-ek-ov25",
+      "brand": "ELAiCE",
+      "name": "e-Kairo Oval EK-OV25",
+      "badge": "低めの温度",
+      "specs": {
+        "temp": "2 段階（約42℃／約47℃）",
+        "hours": "弱 約3〜5時間・強 約2〜4時間",
+        "cap": "4000mAh（14.8Wh）",
+        "weight": "約124g",
+        "safety": "設定温度でヒーターを止める",
+        "mb": "あり（5V 2A）"
+      },
+      "source": "https://www.elaice.jp/products02/e-kairo-oval25/",
+      "rakuten": {
+        "keyword": "e-Kairo Oval EK-OV25",
+        "must": [
+          "EK-OV25"
+        ]
+      },
+      "yahoo": {
+        "keyword": "e-Kairo Oval EK-OV25",
+        "must": [
+          "EK-OV25"
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/binotoki-y/100000390-els.html",
+        "price": 2799,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 0,
+        "shop": "BINOTOKI Yahoo!店",
+        "checkedAt": "2026-10-30T21:46:11.773Z"
+      },
+      "amazon": {
+        "keyword": "e-Kairo Oval EK-OV25",
+        "asin": null
+      }
+    },
+    {
+      "id": "elaice-ek-cr25",
+      "brand": "ELAiCE",
+      "name": "e-Kairo Carré 25 EK-CR25",
+      "badge": "いちばん軽い",
+      "specs": {
+        "temp": "約42℃",
+        "hours": "約3〜4時間",
+        "cap": "2000mAh（7.4Wh）",
+        "weight": "約64g",
+        "safety": "長押しで誤作動防止",
+        "mb": "記載なし"
+      },
+      "source": "https://www.elaice.jp/products02/e-kairo-carre25/",
+      "rakuten": {
+        "keyword": "e-Kairo Carre EK-CR25",
+        "must": [
+          "EK-CR25"
+        ]
+      },
+      "yahoo": {
+        "keyword": "e-Kairo Carre EK-CR25",
+        "must": [
+          "EK-CR25"
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/binotoki-y/100000388-els.html",
+        "price": 2500,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 2,
+        "shop": "BINOTOKI Yahoo!店",
+        "checkedAt": "2026-10-30T21:46:11.773Z"
+      },
+      "amazon": {
+        "keyword": "e-Kairo Carre EK-CR25",
+        "asin": null
+      }
+    },
+    {
+      "id": "elaice-ek-sh25",
+      "brand": "ELAiCE",
+      "name": "e-Kairo Share EK-SH25",
+      "badge": "連結で両面",
+      "specs": {
+        "temp": "2 段階（約42℃／約47℃）",
+        "hours": "弱 約4〜7時間・強 約3.5〜6.5時間",
+        "cap": "2000mAh×2（7.4Wh×2）",
+        "weight": "約120g（2 台）",
+        "safety": "記載なし",
+        "mb": "あり（各 5V 1A）"
+      },
+      "source": "https://www.elaice.jp/products02/e-kairo-share25/",
+      "rakuten": {
+        "keyword": "e-Kairo Share EK-SH25",
+        "must": [
+          "EK-SH25"
+        ]
+      },
+      "yahoo": {
+        "keyword": "e-Kairo Share EK-SH25",
+        "must": [
+          "EK-SH25"
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/binotoki-y/100002000-els.html",
+        "price": 3099,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 2,
+        "shop": "BINOTOKI Yahoo!店",
+        "checkedAt": "2026-10-30T21:46:11.773Z"
+      },
+      "amazon": {
+        "keyword": "e-Kairo Share EK-SH25",
+        "asin": null
+      }
+    },
+    {
+      "id": "sanwa-400-toy052w",
+      "brand": "サンワサプライ",
+      "name": "充電式ハンドウォーマー 400-TOY052W",
+      "badge": "40℃から選べる",
+      "specs": {
+        "temp": "3 段階（約40／45／50℃）",
+        "hours": "弱 5〜5.5時間・中 4〜4.5時間・強 3〜3.5時間",
+        "cap": "4800mAh",
+        "weight": "約123g",
+        "safety": "充電中は加熱しない・保証6か月",
+        "mb": "記載なし"
+      },
+      "source": "https://cdn.sanwa.co.jp/support/setsumeisyo/pdf/direct/400-TOY052W_ver1-0.pdf",
+      "rakuten": {
+        "keyword": "400-TOY052W",
+        "must": [
+          "TOY052"
+        ]
+      },
+      "yahoo": {
+        "keyword": "400-TOY052W",
+        "must": [
+          "TOY052"
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/sanwadirect/400-toy052w.html",
+        "price": 2980,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 1,
+        "shop": "サンワダイレクト",
+        "checkedAt": "2026-10-30T21:46:11.773Z"
+      },
+      "amazon": {
+        "keyword": "400-TOY052W",
+        "asin": null
+      }
+    },
+    {
+      "id": "hagoogi-ot-96h",
+      "brand": "HAGOOGI",
+      "name": "充電式カイロ OT-96H（2 個セット）",
+      "badge": "保護機能を明記",
+      "specs": {
+        "temp": "3 段階（40〜45／45〜50／50〜55℃）",
+        "hours": "低 約7〜14時間・中 約5〜7時間・高 約4〜6時間",
+        "cap": "5000mAh×2",
+        "weight": "238g（2 個）",
+        "safety": "過充電・過熱・ショート・過電圧・過放電の保護を記載",
+        "mb": "あり"
+      },
+      "source": "https://hagoogi.com/products/hand-warmer-ot-96h",
+      "rakuten": {
+        "keyword": "HAGOOGI OT-96H",
+        "must": [
+          "OT-96H"
+        ]
+      },
+      "yahoo": {
+        "keyword": "HAGOOGI OT-96H",
+        "must": [
+          "OT-96H"
+        ],
+        "url": null,
+        "price": null,
+        "shippingFree": null,
+        "point": null,
+        "reviewAverage": null,
+        "reviewCount": null,
+        "shop": null,
+        "checkedAt": "2026-10-30T21:46:11.773Z"
+      },
+      "amazon": {
+        "keyword": "HAGOOGI OT-96H",
+        "asin": null
+      }
+    }
+  ]
+}
