@@ -1,0 +1,17 @@
+{
+  "_doc": "X 告知用の正方形画像。node scripts/gen-x-panels.mjs ops/data/x-cards/home-router-wimax-comparison-2026.panels.json",
+  "_note": "素材は記事の数字と BIGLOBE WiMAX のロゴ（記事の logos/）だけ。ほかは記事にロゴが無いので名前で出す。出所の行は出さない（x-post-images §3）。数字は 2026-10-16 時点",
+  "imageBase": "public/images/home-router-wimax-comparison-2026",
+  "out": "public/images/home-router-wimax-comparison-2026/x",
+  "theme": "plum",
+  "panels": [
+    {
+      "file": "1-2nen.jpg",
+      "kind": "html",
+      "noHeader": true,
+      "html": "<div class=\"wrap\"><div class=\"k\">置くだけWiFi・WiMAX 4社 ／ どこも契約解除料は0円</div><div class=\"t\">なのに<em>2年でやめると</em><br>払う額が約1.6倍ちがう</div><div class=\"tbl\"><div class=\"h\"><span>サービス</span><span>2年で残る端末代</span><span>実際に払う額</span></div><div class=\"r top\"><span class=\"nm\"><img src=\"logos/biglobe-wimax.png\"></span><span class=\"rest\">0円</span><span class=\"yen\">108,048円</span></div><div class=\"r\"><span class=\"nm tx\">DTI WiMAX 2+</span><span class=\"rest\">0円</span><span class=\"yen\">124,410円</span></div><div class=\"r\"><span class=\"nm tx\">Rakuten Turbo<small>（参考）</small></span><span class=\"rest\">20,784円</span><span class=\"yen\">140,232円</span></div><div class=\"r low\"><span class=\"nm tx\">SoftBank Air</span><span class=\"rest\">47,520〜49,500円</span><span class=\"yen\">171,270円〜</span></div></div><div class=\"one\">SoftBank Airの「実質4,950円」は <b>4年使う前提</b> の数字</div></div>",
+      "note": "2年総額＋2年で解約したときに残る端末代（2026年10月16日時点の各社公式サイトの料金）。<b>申し込む前に公式で確認を。</b>",
+      "css": "main{padding:0;height:1080px;display:block}\n.wrap{position:relative;height:1080px;padding:56px 60px 0;background:radial-gradient(circle at 10% 20%,rgba(214,62,118,.12),transparent 45%),radial-gradient(circle at 92% 80%,rgba(245,197,24,.16),transparent 48%),var(--cream)}\n.k{font-size:28px;font-weight:700;color:var(--ink-2);text-align:center}\n.t{font-size:58px;font-weight:900;line-height:1.26;text-align:center;margin-top:10px}\n.t em{font-style:normal;color:#D63E76}\n.note{position:absolute;left:60px;right:60px;bottom:40px;font-size:22px}\n.tbl{margin-top:34px;background:#fff;border-radius:26px;padding:14px 28px;box-shadow:0 20px 40px -26px rgba(30,18,25,.4)}\n.h,.r{display:grid;grid-template-columns:1fr 250px 230px;align-items:center;gap:12px}\n.h{font-size:22px;color:var(--ink-2);font-weight:700;padding:8px 0;border-bottom:2px solid #eadde3}.h span:nth-child(n+2){text-align:right}\n.r{padding:20px 0;border-bottom:2px dashed #eadde3}.r:last-child{border-bottom:0}\n.nm img{height:52px;max-width:330px;object-fit:contain}.nm.tx{font-size:32px;font-weight:900}.nm small{font-size:20px;font-weight:700;color:var(--ink-2)}\n.rest{text-align:right;font-size:27px;font-weight:700;color:var(--ink-2)}\n.r.low .rest{color:#D63E76;font-weight:900}\n.yen{text-align:right;font-size:38px;font-weight:900}\n.r.top .yen{color:#D63E76}\n.one{margin-top:28px;text-align:center;font-size:32px;font-weight:700;background:#46293A;color:#fff;border-radius:18px;padding:18px 16px}.one b{color:#F5C518;font-weight:900}\n"
+    }
+  ]
+}
