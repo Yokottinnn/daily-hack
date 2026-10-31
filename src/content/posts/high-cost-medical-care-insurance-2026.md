@@ -136,6 +136,34 @@ references:
 
 だから考え方はこう。「**万一、上限まで使う月が年に数回あっても、その上乗せ総額を貯蓄から出せるか？**」。出せるなら保険は最小でいい。出せないなら、その差額分だけを掛け捨てで薄く埋める。**“増えた数千円”のために、月1万円の保険に入るのは本末転倒**よ。
 
+## 実際の声と動画｜2026年8月の高額療養費の改正
+
+改正で自己負担がどう変わったかを、投稿と動画で補っておく。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">【2026年8月改正】高額療養費の上限、上がりました。 自分の区分だけ覚えてください。 年収 約370〜770万 80,100円 → 85,800円（+5,700円） 年収 約770〜1,160万 167,400円 → 179,100円（+11,700円） 年収 約1,160万〜 252,600円 → 270,300円（+17,700円） 〜年収 約370万 57,600円 →</p>&mdash; 海乃ゆら｜積み立て介護士 (@uminoyura7) <a href="https://twitter.com/uminoyura7/status/2099626300852036085">2026年9月15日</a></blockquote>
+
+**年収約 370〜770 万円の区分で、上限が 80,100 円 → 85,800 円**になった、という整理。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">「高額療養費があるから医療保険はいらない」 と信じ切っていた知人が、入院初月に絶望していた。 医療費上限は約9万だから大丈夫！とタカを括る前に、絶対に知っておくべき「医療費の備え」格付け。 🥉論外（破綻リスク大） ・「貯金ゼロで高額療養費頼み」 ・「月末に入院して月またぎダブルパンチ」</p>&mdash; シモン ｜ お金のアドバイザー (@shimon_fp) <a href="https://twitter.com/shimon_fp/status/2081841953021542450">2026年7月28日</a></blockquote>
+
+**「高額療養費があるから医療保険はいらない」と思っていた人が、入院の初月に困った**話。上限以外にかかるお金があるのよ。
+
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/K-txY2m2Mhg" title="【2026年8月～】高額療養費制度が改正！自己負担の上限引き上げで医療費負担が大幅増に（サンデーマネーチャンネル）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+2026年8月からの改正で、自己負担の上限がどう上がったかを説明している。
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/uExXLkDhv5k" title="【超大改正】高額療養費2026年8月から激変！自己負担､大幅増へ｡年間上限導入｡現役世代は2.1万円の壁にも注意【会社員､個人事業主/社会･国民健康保険/保険証･医療費/わかりやすく/70歳/具体例】（オタク会計士ch【山田真哉】少しだけお金で得する）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+年間上限の導入など、改正の中身を詳しく解説した動画。
+
+<p class="source-note">引用した X の投稿は、2026年10月31日に本文・投稿者・日付を確かめたもの。埋め込んだ YouTube は oEmbed でタイトルと投稿者を照合し、実在を確かめたもの。どちらも投稿した人の個人の感想・撮影時点の内容で、この記事の数字とは別のもの。</p>
+
 ## ❓ よくある質問（FAQ）
 
 <div class="cmp-table-wrap">
