@@ -1,0 +1,28 @@
+
+## bath https://nac-duskin.com/duskin-bathcleaning/
+- 料金プランの位置: 3065.796875 
+- 画像 489x458 alt=浴室クリーニング https://nac-duskin.com/duskin-bathcleaning/img/price1_202404.jpg 
+- 画像 467x82 alt=無料お見積り https://nac-duskin.com/duskin-bathcleaning/img/price-btn.png 
+- 画像 489x285 alt=洗面所クリーニング https://nac-duskin.com/duskin-bathcleaning/img/price2_202404.jpg 
+- 画像 467x82 alt=無料お見積り https://nac-duskin.com/duskin-bathcleaning/img/price-btn.png
+- 撮った: bath-1.png・bath-2.png
+
+## kitchen https://nac-duskin.com/duskin-kitchencleaning/
+- 料金プランの位置: 3022.59375 
+- 画像 489x233 alt=バリア工法 https://nac-duskin.com/duskin-kitchencleaning/img/price1_202404.jpg 
+- 画像 467x82 alt=無料お見積り https://nac-duskin.com/duskin-kitchencleaning/img/price-btn.png 
+- 画像 489x233 alt=ベイト工法 https://nac-duskin.com/duskin-kitchencleaning/img/price2_202404.jpg 
+- 画像 467x82 alt=無料お見積り https://nac-duskin.com/duskin-kitchencleaning/img/price-btn.png
+- 撮った: kitchen-1.png・kitchen-2.png
+
+## aircon https://nac-duskin.com/duskin-acclean/
+- 料金プランの位置: 3096.40625 
+- 画像 263x64 alt=無料見積り https://nac-duskin.com/duskin-acclean/img/price-btn.png 
+- 画像 263x64 alt=無料見積り https://nac-duskin.com/duskin-acclean/img/price-btn.png 
+- 画像 263x64 alt=無料見積り https://nac-duskin.com/duskin-acclean/img/price-btn.png 
+- 画像 263x64 alt=無料見積り https://nac-duskin.com/duskin-acclean/img/price-btn.png
+- 撮った: aircon-1.png・aircon-2.png
+
+## toilet https://nac-duskin.com/duskin-toiletcleaning/
+- 料金プランの位置: 3042.4921875
+- 撮った: toilet-1.png・toilet-2.png
