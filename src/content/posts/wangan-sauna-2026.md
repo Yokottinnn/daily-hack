@@ -139,6 +139,34 @@ references: ["https://tokyo-toyosu.manyo.co.jp/price/", "http://www.shopping-sum
 </div>
 </div>
 
+## 実際に行った人の声と動画｜湾岸のサウナ
+
+実際に使っている人の投稿と動画で補っておく。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">東京湾を一望できる、 圧倒的な絶景外気浴。 豊洲の『万葉倶楽部』、 ロケーションは文句なしで過去最高レベルでした👏 ただ、高いスパ施設だからこそ 「実際の混雑度は？」 「コスパは見合う？」 と気になっている人も多いはず🤔 1日中チルれるサウナ施設の全貌をブログに書きました✏️</p>&mdash; しんげんもちゃー|サウナ (@ugoyama0401) <a href="https://twitter.com/ugoyama0401/status/2062006696743190659">2026年6月3日</a></blockquote>
+
+**豊洲の万葉倶楽部の、東京湾を一望できる外気浴**を紹介した投稿。混み具合も気にしている。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">豊洲にある万葉倶楽部って所に泊まりました！ 温泉施設でめちゃくちゃ綺麗だし気持ちよかったしサウナでも整えて最高でした！ 晩御飯と朝御飯はビュッフェで色々食べすぎて気持ち悪くなったけどめっちゃ美味しかった😋 #万葉倶楽部豊洲</p>&mdash; 生駒セト☖ぽらぱれ (@ikoma_seto) <a href="https://twitter.com/ikoma_seto/status/2106934395634647068">2026年10月5日</a></blockquote>
+
+**豊洲の万葉倶楽部に泊まって、サウナと朝夕のビュッフェ**を楽しんだ、という声。
+
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/T6TcU1cbakI" title="【東京豊洲 万葉倶楽部】温泉・サウナ・岩盤浴・休憩エリアまで360°絶景タワー爆誕!! 千客万来の最新スーパー銭湯（スパワークス）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+東京豊洲 万葉倶楽部の温泉・サウナ・岩盤浴・休憩エリアを紹介した動画。
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/HUJuCXtzpWg" title="【東京豊洲 万葉倶楽部】設備もサウナも景色も神、アスペが救われる…多分都内最強の避難所スパ見つけた（ツナリスㇾ社不めな）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+豊洲 万葉倶楽部の設備・サウナ・景色を紹介している。
+
+<p class="source-note">引用した X の投稿は、2026年10月31日に本文・投稿者・日付を確かめたもの。埋め込んだ YouTube は oEmbed でタイトルと投稿者を照合し、実在を確かめたもの。どちらも投稿した人の個人の感想・撮影時点の内容で、この記事の数字とは別のもの。</p>
+
 ## ❓ よくある質問（FAQ）
 
 <div class="cmp-table-wrap">

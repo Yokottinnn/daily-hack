@@ -203,6 +203,34 @@ PayPay陣営は自社決済への集約を強めていて、<strong>チャージ
   <div class="hakkako-quote">タイプ別の最適解だけ置いとくわね。<br>・<strong>楽天をよく使う</strong>→ 楽天カード＋楽天ペイで決まり。<br>・<strong>使う店がバラバラ</strong>→ リクルートカードの1.2%が無難。<br>・<strong>コンビニ・外食が多い</strong>→ 三井住友（NL）を“スマホタッチ”で。現物タッチは卒業しなさい。<br>・<strong>固定費（公共料金）</strong>→ 半減したdカードから、1%以上を維持できるカードへ移すだけで年数千円戻る。</div>
 </div>
 
+## 実際に使っている人の声と動画｜2026年のクレカ改悪
+
+改悪の影響を、実際にカードを使っている人の投稿と動画で確かめておく。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">ずっと『年会費2,200円でポイント還元率2%』というエグいクレジットカード（リクルートカードプラス）を使ってたんだけど、ついぞこの3月に改悪（年会費1,650円で1.5%還元）され、超久しぶりにクレカ難民になっておる💳 三井住友カード（gold）が無難なのかなぁ… （100万円修行は済）</p>&mdash; ゆきえむ (@yukimc_mj) <a href="https://twitter.com/yukimc_mj/status/2045060925871571027">2026年4月17日</a></blockquote>
+
+**リクルートカードプラスの改悪**（年会費 2,200 円・2% → 1,650 円・1.5%）を受けて、カードを変えた人の実例。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">【2026年最新】 最強クレジットカードTier表 無料カードでポイントをMAX貯める方法↓ Tier D（持つ意味が薄い） ・オリコカード（改悪続きで旨味が減った） ・dカード（ドコモ以外では恩恵薄い） ・セゾンカード（基本還元0.5%・旨味少ない） Tier C（悪くはないが上位で代替できる）↓↓</p>&mdash; たくみ (@mercari_takumi) <a href="https://twitter.com/mercari_takumi/status/2107939032487629006">2026年10月8日</a></blockquote>
+
+改悪の続いたカードを下に置いた **2026 年のクレカの格付け表**。
+
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/wp862TDIQxk" title="【2026年 解約すべきクレカ】改悪により持ってるだけで損するワーストカード→dカードなど6券種紹介→代わりのカード3枚も提案（解説特急(クレカ キャッシュレス)）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+改悪で持っているだけで損になるカードと、乗り換え先を紹介した動画。
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/iMmcBlVmIr4" title="【2026年】最優秀クレジットカードを発表｜改悪だらけの1年で「本当にお得だった」のはどれ？→一般カード部門・ゴールドカード部門（解説特急(クレカ キャッシュレス)）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+改悪が続いた 1 年で、本当に得だったカードを部門ごとに選んでいる。
+
+<p class="source-note">引用した X の投稿は、2026年10月31日に本文・投稿者・日付を確かめたもの。埋め込んだ YouTube は oEmbed でタイトルと投稿者を照合し、実在を確かめたもの。どちらも投稿した人の個人の感想・撮影時点の内容で、この記事の数字とは別のもの。</p>
+
 ## ❓ よくある質問（FAQ）
 
 <div class="cmp-table-wrap">

@@ -149,6 +149,34 @@ iDeCoは運営管理機関（証券会社等）を1つ選んで口座を作る�
 
 大手ネット証券（SBI証券・楽天証券・マネックス証券など）は手数料・商品ラインナップの面で有力。すでにNISAを持っているなら、**同じ証券でiDeCoも開くと管理が一本化**できて便利よ。具体的な銘柄選びは、下のNISAインデックス記事の考え方がそのまま使える。
 
+## 実際の声と動画｜2026年12月の iDeCo 改正
+
+改正で何が変わるかを、投稿と動画で補っておく。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">iDeCoがついに大幅改正。 掛金上限が月2.3万円→6.2万円へ引き上げられます。 平均的な会社員でも節税効果は年14万円超になる可能性あり。 制度を知らないだけで差がつきます👇</p>&mdash; ちゅり男｜医師×インデックス投資 (@churio777) <a href="https://twitter.com/churio777/status/2017554703672865000">2026年1月31日</a></blockquote>
+
+**掛金の上限が月 2.3 万円 → 6.2 万円**になる改正の要点。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">ねぇ知ってる？ 2026年12月分から企業年金のない 会社員のiDeCo掛金上限が 月2.3万円→6.2万円に大幅アップ✨ 約2.7倍になりますよ！(&amp;gt;ω&amp;lt;)b</p>&mdash; もとか ꕤ ^. .^ (@mementomoriwwx) <a href="https://twitter.com/mementomoriwwx/status/2114149805098479818">2026年10月25日</a></blockquote>
+
+**企業年金の無い会社員は、上限が約 2.7 倍**になる、という整理。
+
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/63fElVloeew" title="【神改正】iDeCoが2026年12月に改正！驚愕の金額メリット、iDeCoはいくらやるべきか？（かず【資産運用・経済チャンネル】）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+2026年12月の改正で、いくら出すべきかを解説した動画。
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/I0Mo0QqzedU" title="iDeCo改正法案が成立。押さえるべき「3つの改正ポイント」を分かりやすく解説【リベ大公式切り抜き】（両学長 リベラルアーツ大学）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+改正で押さえるべき 3 つの点を説明している。
+
+<p class="source-note">引用した X の投稿は、2026年10月31日に本文・投稿者・日付を確かめたもの。埋め込んだ YouTube は oEmbed でタイトルと投稿者を照合し、実在を確かめたもの。どちらも投稿した人の個人の感想・撮影時点の内容で、この記事の数字とは別のもの。</p>
+
 ## ❓ よくある質問（FAQ）
 
 <div class="cmp-table-wrap">
@@ -165,7 +193,7 @@ iDeCoは運営管理機関（証券会社等）を1つ選んで口座を作る�
 
 2026年12月のiDeCo改正は、**節税の“伸びしろ”が一気に広がる大改正**。
 
-- 会社員（企業年金なし）は**月2.3万→6.2万（約2.7倍）**、自営業は7.5万、加入は**70歳未満まで**
+- 会社員（企業年金なし）は**月2.3万→6.2万**（約2.7倍）、自営業は7.5万、加入は**70歳未満まで**
 - 掛金は全額所得控除。**増額分の節税を実質時給で見れば、効率は副業以上**
 - ただし**60歳まで引き出せない**。余裕資金で、生活を圧迫しない範囲で
 - **出口（退職所得控除の受け取り方）まで設計**して初めて最適化

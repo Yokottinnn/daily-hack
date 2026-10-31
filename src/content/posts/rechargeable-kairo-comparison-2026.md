@@ -413,6 +413,34 @@ references:
 
 <p class="source-note">出典：<a href="https://www.mlit.go.jp/report/press/kouku10_hh_000310.html" target="_blank" rel="noopener">国土交通省「航空機内へのモバイルバッテリーの持込みについて」</a>（2026年4月14日）。機内での給電の取りやめは、法律による禁止ではなく要請。</p>
 
+## 実際に使った人の声と動画｜充電式カイロ
+
+実際に使っている人の投稿と動画で補っておく。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">充電式カイロってあるけど…… リチウムイオンバッテリーは高温厳禁だったと思うけど、大丈夫なのコレ？</p>&mdash; ダレルタイター (@DaTa_jp) <a href="https://twitter.com/DaTa_jp/status/2114637065749201299">2026年10月26日</a></blockquote>
+
+**リチウムイオン電池は高温に弱いのに、充電式カイロは大丈夫なのか**、という疑問。この記事で安全面を並べたのは、まさにここ。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">充電式カイロって安全なのかな？ 爆発しそうでこわくて買えない</p>&mdash; 椿- ̗̀(⌯&#x27;ᵕ&#x27;⌯) ̖́-色厳選中 (@SinonoTsubaki) <a href="https://twitter.com/SinonoTsubaki/status/2114178364831654179">2026年10月25日</a></blockquote>
+
+**爆発しそうで怖くて買えない**、という声。
+
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/wRdnvv0OPuc" title="容量だけで選ぶな！Amazon充電式カイロおすすめ7選 徹底比較（いいもの発見）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+容量だけで選ばない充電式カイロの選び方を、7 つ比べて説明している。
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/hrgCL1Odd7k" title="充電式カイロのおすすめ！失敗しない選び方のポイントと売れ筋人気ランキングBEST10（ライフイリュージョン）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+充電式カイロの失敗しない選び方と売れ筋を紹介した動画。
+
+<p class="source-note">引用した X の投稿は、2026年10月31日に本文・投稿者・日付を確かめたもの。埋め込んだ YouTube は oEmbed でタイトルと投稿者を照合し、実在を確かめたもの。どちらも投稿した人の個人の感想・撮影時点の内容で、この記事の数字とは別のもの。</p>
+
 ## 捨て方｜燃えないごみに混ぜない
 
 **充電式カイロは、電池を取り出せないまま出す。** 分解しない。出し方は住んでいる市区町村で違うので、自治体の「リチウムイオン電池」の出し方を見る（環境省も、取り外せない製品は分解せずに出すよう自治体に求めている）。

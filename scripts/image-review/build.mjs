@@ -55,6 +55,16 @@ const FILES = {
   // **未投稿**（2026-10-29）。ローソン・ユナイテッドシネマ 豊洲。素材はプレスリリース（出典は ALT）
   "lawson-united-cinema-toyosu-2026": ["0-keyvisual.jpg", "1-cover.jpg", "2-flexound.jpg"],
   "teamlab-hamarikyu-2026": ["1-cover.jpg", "2-access.jpg", "3-vs-toyosu.jpg", "4-yoru-300.jpg"],
+  // **未投稿**（2026-10-31）。大掃除のハウスクリーニング比較。素材はロゴと記事の数字だけ
+  "house-cleaning-oosouji-2026": ["1-3kasho.jpg", "2-mizumawari.jpg"],
+  // **未投稿**（2026-10-31）。ポケット型WiFi比較。素材は記事の数字とロゴだけ
+  "pocket-wifi-comparison-2026": ["1-ranking.jpg"],
+  // **未投稿**（2026-10-31）。光回線キャッシュバック比較。素材は記事の数字とロゴだけ
+  "hikari-cashback-comparison-2026": ["1-kodate.jpg"],
+  // **未投稿**（2026-10-31）。海外旅行の通信の比較。素材は記事の数字とロゴだけ
+  "overseas-esim-wifi-comparison-2026": ["1-order.jpg"],
+  // **未投稿**（2026-10-31）。置くだけWiFi・WiMAX比較。素材は記事の数字とロゴだけ
+  "home-router-wimax-comparison-2026": ["1-2nen.jpg"],
 };
 
 const map = {};
@@ -74,9 +84,15 @@ for (const [slug, files] of Object.entries(FILES)) {
       const side = buf.length > 5 * 1048576 ? 320 : 440;
       buf = await sharp(buf, { animated: true }).resize(side, side).gif({ effort: 7, colours: 256, dither: 0.6 }).toBuffer();
     }
+    // 2026-10-31: **JPEG / PNG もページに埋める分だけ 760px・品質 78 に縮める**（14.1 MB で候補をあと 2〜3 組しか足せなかった。
+    // 利用者が「レビューページを軽くする」を選んだ）。別ファイルで出す方式は 2026-09-20 に公開後 画像が出なかったので使わない。
+    // 投稿に使う元のファイルは触らない。コメントの位置は割合なので縮めてもずれない
+    else if (!f.endsWith(".gif")) {
+      buf = await sharp(buf).resize(760, 760, { fit: "inside", withoutEnlargement: true }).jpeg({ quality: 78, mozjpeg: true }).toBuffer();
+    }
     raw += buf.length;
     // **拡張子で型を変える。** GIF を image/jpeg で埋めると動かないことがある
-    const mime = f.endsWith(".gif") ? "image/gif" : f.endsWith(".png") ? "image/png" : "image/jpeg";
+    const mime = f.endsWith(".gif") ? "image/gif" : "image/jpeg";
     map[`${slug}/${f}`] = `data:${mime};base64,` + buf.toString("base64");
   }
 }

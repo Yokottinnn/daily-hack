@@ -311,6 +311,30 @@ GMOメディア（東証スタンダード上場）が運営する15年超の老
   </ul>
 </aside>
 
+## 実際に使った人の声と動画｜ポイントサイト
+
+実際に使っている人の投稿と動画で補っておく。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">うしゃしゃしゃしゃ🤣 今日もポイ活紹介からの報酬あざます🙏 色んなポイ活サイト登録して管理できるほど能力高くないので、基本モッピーとハピタスしか使えてない。 そんな低スペでも稼げるのがポイ活 そして紹介報酬なので、ありがたし！</p>&mdash; あき@簡単副業で貧乏脱出したパパ (@Akraft3594) <a href="https://twitter.com/Akraft3594/status/2116472653267837307">2026年10月31日</a></blockquote>
+
+**いろいろ登録しても管理しきれないので、モッピーとハピタスの 2 つだけ**使っている、という声。
+
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/-pouwJqsQLg" title="主要ポイントサイト徹底比較：ハピタス vs モッピー vs ポイントインカム 結局どれ？（家計の味方）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+ハピタス・モッピー・ポイントインカムを比べた解説。
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/IKD_BwkVuy8" title="【2026年最新版】最強ポイントサイトおすすめ4選を徹底比較解説！ポイ活アプリに迷っている人は必見！【モッピー・ポイントインカム・ハピタス・ワラウ】（家計の味方）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+ポイントサイト 4 つを比べた 2026 年版の解説。
+
+<p class="source-note">引用した X の投稿は、2026年10月31日に本文・投稿者・日付を確かめたもの。埋め込んだ YouTube は oEmbed でタイトルと投稿者を照合し、実在を確かめたもの。どちらも投稿した人の個人の感想・撮影時点の内容で、この記事の数字とは別のもの。</p>
+
 ## よくある質問
 
 ### Q. 複数登録は危険じゃない？

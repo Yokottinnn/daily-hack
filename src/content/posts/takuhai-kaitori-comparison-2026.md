@@ -33,6 +33,30 @@ references:
   <div class="hakkako-quote">先に一番の驚きを言っとく。<strong>3社とも「送るとき」の送料は無料。でも「断って返してもらうとき」の送料は、モバゾウだけ自分持ち。</strong>しかも理由を問わず、よ。逆にリコマースは返送無料だけど、お金は<strong>Amazonギフトカードでしか受け取れない</strong>。どこも一長一短なの。</div>
 </div>
 
+## 実際に売った人の声と動画｜宅配買取
+
+実際に使っている人の投稿と動画で補っておく。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">おはようございます☀☀ 初めて宅配買取ってヤツ頼んでみた ダンボールはタダで送ってきてくれるし 発送も集荷に来てくれる 勿論、送料も着払い キャンセル時の返送もタダ これで買取額が高けりゃ文句無いけど… そんなウマイ話あるかな… 買取額の連絡に期待</p>&mdash; Shu3⭐️ (@Shu3Bu4) <a href="https://twitter.com/Shu3Bu4/status/2056126422356513238">2026年5月18日</a></blockquote>
+
+**初めて宅配買取を頼んだ**人の声。段ボールも送料も、キャンセル時の返送も無料だった、という話。
+
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/iPtZoaSaRMM" title="# 318 【宅配買取と実店舗で比べてみた】買取価格比較‼️通常景品12個でどのくらいの差が出るの⁉️（TEA&#x27;s playland）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+宅配買取と実店舗で同じ品の買取価格を比べた動画。
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/r3wDecqrSpw" title="# 238 【宅配買取店で比べてみた】フィギュア12体を2セット用意して同じ日に査定に出してみた‼️地方在住者必見‼️（TEA&#x27;s playland）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+同じフィギュアを 2 つの宅配買取店に同じ日に出して比べている。
+
+<p class="source-note">引用した X の投稿は、2026年10月31日に本文・投稿者・日付を確かめたもの。埋め込んだ YouTube は oEmbed でタイトルと投稿者を照合し、実在を確かめたもの。どちらも投稿した人の個人の感想・撮影時点の内容で、この記事の数字とは別のもの。</p>
+
 ## 30秒で分かる、宅配買取3社の違い
 
 <div class="cmp-table-wrap">

@@ -172,6 +172,34 @@ references:
 <a class="rc-btn" href="https://pc.moppy.jp/entry/invite.php?invite=kMwuA18a" target="_blank" rel="sponsored noopener nofollow">紹介リンクで無料登録 →</a>
 </div>
 
+## 実際に使った人の声と動画｜ポイントとマイルの交換ルート
+
+実際に使っている人の投稿と動画で補っておく。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">【最新ポイント交換ルートまとめ（2026年10月）】 貯めたポイントは、交換先次第で1pt=1円以上の価値に。 おすすめの集約先6つと交換ルートを図解で整理しました。 ━━━━━━━━━━ ①ポイント投資（Vポイント・dポイント） ・無駄遣いしやすいポイントを資産に回せる</p>&mdash; 家計の味方 (@kakei_no_mikata) <a href="https://twitter.com/kakei_no_mikata/status/2105519812189573207">2026年10月1日</a></blockquote>
+
+**2026年10月のポイント交換ルート**を、集める先 6 つで整理した投稿。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">ポイントサイト→ANAマイルの最高効率ルート。 ハピタスで稼いだPt→ドットマネー→ANAマイル。 自分はこれメインにしてから、クレカ決済だけより全然速くマイル貯まった。 交換手数料かかるステップもあるから、まとめて交換がコツ。 他に良いルートあったら教えて👇 #陸マイラー #ANAマイル</p>&mdash; 室長 ｜ ゆとり設計室 (@yutori_lab_) <a href="https://twitter.com/yutori_lab_/status/2099524071998500996">2026年9月15日</a></blockquote>
+
+**ハピタス → ドットマネー → ANA マイル**のルートを主にしている人の声。
+
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/H68wCysxH-8" title="【保存版】ポイント交換ルートまとめ｜ポイント投資・ウエル活・航空系マイル・鉄道系ポイント・ホテルポイントへ集約して、1pt=1円以上の価値で使おう！（家計の味方）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+ポイントを投資・ウエル活・マイル・鉄道・ホテルへ集める交換ルートをまとめた動画。
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/0OhRIwx-dyo" title="【固定コメント確認必須・2026年保存版】ANA・JALマイルなどへの交換ルート徹底解説❗️❗️2026年に使うべき黄金ルートは⁉️（ひらいようた HIRAI YOUTA）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+ANA・JAL マイルへの交換ルートを解説している。
+
+<p class="source-note">引用した X の投稿は、2026年10月31日に本文・投稿者・日付を確かめたもの。埋め込んだ YouTube は oEmbed でタイトルと投稿者を照合し、実在を確かめたもの。どちらも投稿した人の個人の感想・撮影時点の内容で、この記事の数字とは別のもの。</p>
+
 ## ❓ よくある質問（FAQ）
 
 <div class="cmp-table-wrap">

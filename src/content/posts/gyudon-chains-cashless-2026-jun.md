@@ -213,6 +213,34 @@ references: ["https://www.matsuyafoods.co.jp/matsuya/whatsnew/campaign/154328.ht
 
 ---
 
+## 実際に使った人の声と動画｜牛丼チェーンとキャンペーン
+
+キャンペーンをどう使い倒すか、どこの牛丼を選ぶかを、投稿と動画で補っておく。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">牛丼投資法 松屋の8/31までのpaypayキャンペーン（1200円以上15%800円以上10%回数無制限200pまで)＋松弁ねっと2倍で頼む。 例 1280円（Pポイント204＋松屋P280)=794円 38%バック pポイント運用→Vポイント(月3万pまで)→SBI証券でNISA枠でオルカン 実際にできるかやってみた（ポイントは複合です)</p>&mdash; あんちゅ (@antyu1192) <a href="https://twitter.com/antyu1192/status/2089966463117619671">2026年8月19日</a></blockquote>
+
+**松屋の PayPay キャンペーンと松弁ネットのポイント 2 倍を重ねた**実例。この記事の重ね方と同じ考え方よ。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">今ってすき家の牛丼どうなん？松屋、吉野家より美味い？</p>&mdash; 酒乱 (@alcoholic0313da) <a href="https://twitter.com/alcoholic0313da/status/2114312925695422489">2026年10月25日</a></blockquote>
+
+**すき家・松屋・吉野家のどれがおいしいか**を聞いた投稿。返信に実際の好みが集まっている。
+
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/PSnqLrVEYAs" title="【御三家比較】吉野家・すき家・松屋の牛丼は何が違うのか？【ゆっくり解説】（ゆっくりどれを食べようか）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+吉野家・すき家・松屋の牛丼の違いを解説した動画。
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/OUr2iIizOqo" title="【徹底分析】３大牛丼なにが違う!? (すき家、松屋、吉野家)（ホルモンしま田）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+3 大牛丼チェーンを食べ比べて分析している。
+
+<p class="source-note">引用した X の投稿は、2026年10月31日に本文・投稿者・日付を確かめたもの。埋め込んだ YouTube は oEmbed でタイトルと投稿者を照合し、実在を確かめたもの。どちらも投稿した人の個人の感想・撮影時点の内容で、この記事の数字とは別のもの。</p>
+
 ## まとめ — 6月の牛丼最強プレイブック
 
 <div class="hakkako-says">

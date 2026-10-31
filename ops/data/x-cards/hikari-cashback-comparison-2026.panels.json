@@ -1,0 +1,17 @@
+{
+  "_doc": "X 告知用の正方形画像。node scripts/gen-x-panels.mjs ops/data/x-cards/hikari-cashback-comparison-2026.panels.json",
+  "_note": "素材は記事の数字と各社のロゴ（記事の logos/）だけ。出所の行は出さない（x-post-images §3）。数字は 2026-10-16 時点",
+  "imageBase": "public/images/hikari-cashback-comparison-2026",
+  "out": "public/images/hikari-cashback-comparison-2026/x",
+  "theme": "plum",
+  "panels": [
+    {
+      "file": "1-kodate.jpg",
+      "kind": "html",
+      "noHeader": true,
+      "html": "<div class=\"wrap\"><div class=\"k\">光回線8社・戸建て（1ギガ）の2年総額</div><div class=\"t\">1位は<br><em>キャッシュバック0円</em>の回線</div><div class=\"tbl\"><div class=\"h\"><span></span><span>回線</span><span>還元</span><span>2年総額</span></div><div class=\"r top\"><span class=\"no\">1</span><span class=\"nm\"><img src=\"logos/commufa-hikari.png\"></span><span class=\"cb\">0円</span><span class=\"yen\">92,280円</span></div><div class=\"r\"><span class=\"no\">2</span><span class=\"nm\"><img src=\"logos/biglobe-hikari.png\"></span><span class=\"cb\">35,000円</span><span class=\"yen\">96,472円</span></div><div class=\"r\"><span class=\"no\">3</span><span class=\"nm\"><img src=\"logos/nifty-hikari.png\"></span><span class=\"cb\">30,000円</span><span class=\"yen\">101,560円</span></div><div class=\"r low\"><span class=\"no\">6</span><span class=\"nm tx\">auひかり</span><span class=\"cb\">15,000円相当</span><span class=\"yen\">136,800円</span></div></div><div class=\"one\">順位を決めたのは還元の額じゃなく、<b>24か月ぶんの月額</b></div></div>",
+      "note": "月額×24か月＋工事費の実負担−還元で計算（2026年10月16日時点・事務手数料は含まない）。<b>申し込む前に公式で確認を。</b>",
+      "css": "main{padding:0;height:1080px;display:block}\n.wrap{position:relative;height:1080px;padding:56px 60px 0;background:radial-gradient(circle at 10% 20%,rgba(214,62,118,.12),transparent 45%),radial-gradient(circle at 92% 80%,rgba(245,197,24,.16),transparent 48%),var(--cream)}\n.k{font-size:30px;font-weight:700;color:var(--ink-2);text-align:center}\n.t{font-size:62px;font-weight:900;line-height:1.24;text-align:center;margin-top:10px}\n.t em{font-style:normal;color:#D63E76}\n.note{position:absolute;left:60px;right:60px;bottom:40px;font-size:22px}\n.tbl{margin-top:36px;background:#fff;border-radius:26px;padding:14px 26px;box-shadow:0 20px 40px -26px rgba(30,18,25,.4)}\n.h,.r{display:grid;grid-template-columns:70px 1fr 220px 230px;align-items:center;gap:12px}\n.h{font-size:22px;color:var(--ink-2);font-weight:700;padding:8px 0;border-bottom:2px solid #eadde3}.h span:nth-child(n+3){text-align:right}\n.r{padding:18px 0;border-bottom:2px dashed #eadde3}.r:last-child{border-bottom:0}\n.no{width:56px;height:56px;border-radius:50%;background:#46293A;color:#fff;font-size:30px;font-weight:900;display:flex;align-items:center;justify-content:center}\n.r.top .no{background:#D63E76}.r.low .no{background:#9a8a92}\n.nm img{height:54px;max-width:300px;object-fit:contain}.nm.tx{font-size:34px;font-weight:900}\n.cb{text-align:right;font-size:28px;font-weight:700;color:var(--ink-2)}\n.r.top .cb{color:#D63E76;font-weight:900}\n.yen{text-align:right;font-size:38px;font-weight:900}\n.r.top .yen{color:#D63E76;font-size:44px}\n.one{margin-top:28px;text-align:center;font-size:32px;font-weight:700;background:#46293A;color:#fff;border-radius:18px;padding:18px 16px}.one b{color:#F5C518;font-weight:900}\n"
+    }
+  ]
+}

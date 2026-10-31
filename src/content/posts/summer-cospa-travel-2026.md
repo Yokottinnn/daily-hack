@@ -538,6 +538,34 @@ TDRディズニーオフィシャル、**プール充実・キッズエリア完
 
 ---
 
+## 実際に予約した人の声と動画｜旅行予約サイト
+
+実際に使っている人の投稿と動画で補っておく。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">／ じゃらんnet｜ 8月20日(木)〜11月30日(月) 【他社より高ければ差額を全額還元】楽天トラベルや一休など対象7社と比較して宿泊料金の差額をポイントバック！どこよりも安さにこだわる『最安値保証キャンペーン』開幕中！！🏨💰✨ ＼ 💰 特典内容＆ポイント還元の仕組み</p>&mdash; Kong | お得＆旅行･イベント (@assetformer) <a href="https://twitter.com/assetformer/status/2107069776401215758">2026年10月5日</a></blockquote>
+
+**じゃらんの**「他社より高ければ差額を全額還元」のキャンペーン（楽天トラベルや一休など 7 社と比べる）。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">楽天トラベル vs じゃらん比較で見るべきは「安そう」ではなく「最終的にいくら払うか」。クーポン適用後・ポイント条件・キャンセル料まで揃えて確認するのがポイントです。予約前チェックリストはこちら↓</p>&mdash; ユーザーレビュー 神ルーム公式 (@1978tomoyukigo) <a href="https://twitter.com/1978tomoyukigo/status/2114671395963834522">2026年10月26日</a></blockquote>
+
+**楽天トラベルとじゃらんは「最終的にいくら払うか」で比べる**、という考え方。この記事と同じよ。
+
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/ADHRJDzYSeE" title="どこが一番安い？大手ホテル予約サイトを徹底比較！[楽天トラベル・じゃらん・トリバゴ・エクスペディア]（タナカタケシ / Takeshi TANAKA）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+楽天トラベル・じゃらん・トリバゴ・エクスペディアのどこが一番安いかを比べている。
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/qQ02X_MtjKs" title="【格安旅行】ホテルの最安値がわかる！旅のプロが教える旅行予約サイトの選び方！じゃらんnet/楽天トラベル/トラベルコ/トリバゴ/Yahoo!トラベル/一休.com（マイベストのこれヤバ!）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+旅行予約サイトの選び方を、ホテルの最安値の探し方から説明している。
+
+<p class="source-note">引用した X の投稿は、2026年10月31日に本文・投稿者・日付を確かめたもの。埋め込んだ YouTube は oEmbed でタイトルと投稿者を照合し、実在を確かめたもの。どちらも投稿した人の個人の感想・撮影時点の内容で、この記事の数字とは別のもの。</p>
+
 ## まとめ
 
 <ul class="checklist">

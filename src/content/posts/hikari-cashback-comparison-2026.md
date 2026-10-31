@@ -479,6 +479,34 @@ references:
 <div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+24SYL6+447K+C2101" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/nifty-hikari-336x280.jpg" alt="@nifty光" width="336" height="280" loading="lazy"></a></div>
 </div>
 
+## 実際に受け取った人の声と動画｜光回線のキャッシュバック
+
+キャッシュバックが本当に受け取れるのかを、実際に乗り換えた人の投稿と動画で確かめておく。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">光回線の乗り換えは定期的に。 コジマにて他社光回線からドコモ光へ乗り換えを行うと60,000円の現金キャッシュバックがもらえた。 インターネットはどの家にも必要なので定期的に光回線の見直しをした方が絶対お得。 60,000円cbなら約10ヶ月分の維持費。</p>&mdash; たこやきまん🐙 (@xxx_takoyakiman) <a href="https://twitter.com/xxx_takoyakiman/status/2093946697517043987">2026年8月30日</a></blockquote>
+
+**家電量販店でドコモ光に乗り換えて 60,000 円のキャッシュバック**を受け取った実例。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">携帯と光回線を乗り換えまくった方がお得であるし、ショップの店員も積極的に推奨してくる。契約の1〜2時間と少しの手間だけだけでキャッシュバックで3万円くらい儲かってしまった。現代の錬金術だわ。</p>&mdash; いんびざ (@1nkomed) <a href="https://twitter.com/1nkomed/status/2053420086086754682">2026年5月10日</a></blockquote>
+
+**手続き 1〜2 時間でキャッシュバック 3 万円ほど**、という声。
+
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/98-bNQOno8U" title="【2026年10月最新】光回線のキャッシュバックキャンペーンを徹底比較！乗り換えも新規も今月選ぶべき光回線はコレ！（WiFi大学 by WiMAX比較ドットコム / HonNe）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+2026年10月のキャッシュバックを光回線ごとに比べている。
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/dFNKPR7Uprk" title="【2026年下半期】光回線おすすめランキングTOP5｜1ギガ・10ギガ・新規・事業者変更どっちが得か全部わかる。【とくとくBB/ドコモ光/NURO/au】（まさもばチャンネル）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+1 ギガ・10 ギガ、新規と乗り換えで、どれが得かをランキングにした動画。
+
+<p class="source-note">引用した X の投稿は、2026年10月31日に本文・投稿者・日付を確かめたもの。埋め込んだ YouTube は oEmbed でタイトルと投稿者を照合し、実在を確かめたもの。どちらも投稿した人の個人の感想・撮影時点の内容で、この記事の数字とは別のもの。</p>
+
 ## よくある質問｜光回線のキャッシュバック
 
 <div class="cmp-table-wrap">

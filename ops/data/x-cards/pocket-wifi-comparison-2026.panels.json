@@ -1,0 +1,17 @@
+{
+  "_doc": "X 告知用の正方形画像。node scripts/gen-x-panels.mjs ops/data/x-cards/pocket-wifi-comparison-2026.panels.json",
+  "_note": "素材は記事の数字と MONSTER MOBILE のロゴ（記事の logos/）だけ。ほかの 2 社は記事にロゴが無いので名前で出す。出所の行は出さない（x-post-images §3）",
+  "imageBase": "public/images/pocket-wifi-comparison-2026",
+  "out": "public/images/pocket-wifi-comparison-2026/x",
+  "theme": "ink",
+  "panels": [
+    {
+      "file": "1-ranking.jpg",
+      "kind": "html",
+      "noHeader": true,
+      "html": "<div class=\"wrap\"><div class=\"k\">ポケット型WiFi 6社・2年総額の1位</div><div class=\"t\">月に何GB使うかで<br><em>1位が丸ごと入れ替わる</em></div><div class=\"list\"><div class=\"r\"><div class=\"gb\">月10GB</div><div class=\"tx\"><b>リチャージWiFi</b><span>買い切り・月額0円</span></div><div class=\"yen\">21,955<small>円</small></div></div><div class=\"r\"><div class=\"gb\">月20GB</div><div class=\"tx\"><b>リチャージWiFi</b><span>買い切り・月額0円</span></div><div class=\"yen\">37,915<small>円</small></div></div><div class=\"r flip\"><div class=\"gb\">月50GB</div><div class=\"tx\"><b><img src=\"logos/monster-mobile.png\"></b><span>2年契約</span></div><div class=\"yen\">62,040<small>円</small></div></div><div class=\"r flip\"><div class=\"gb\">月100GB</div><div class=\"tx\"><b><img src=\"logos/monster-mobile.png\"></b><span>2年契約</span></div><div class=\"yen\">74,052<small>円</small></div></div></div><div class=\"one\">月100GBで買い切りを選ぶと <b>101,535円</b>。1位より <b>27,483円</b> 高い</div></div>",
+      "note": "2026年10月16日時点の各社公式サイトの料金で計算した2年総額。<b>申し込む前に公式で確認を。</b>",
+      "css": "main{padding:0;height:1080px;display:block}\n.wrap{position:relative;height:1080px;padding:56px 60px 0;background:radial-gradient(circle at 10% 20%,rgba(214,62,118,.12),transparent 45%),radial-gradient(circle at 92% 80%,rgba(245,197,24,.16),transparent 48%),var(--cream)}\n.k{font-size:30px;font-weight:700;color:var(--ink-2);text-align:center}\n.t{font-size:58px;font-weight:900;line-height:1.25;text-align:center;margin-top:10px}\n.t em{font-style:normal;color:#D63E76}\n.note{position:absolute;left:60px;right:60px;bottom:40px;font-size:23px}\n.list{display:flex;flex-direction:column;gap:16px;margin-top:38px}\n.r{display:flex;gap:24px;align-items:center;background:#fff;border-radius:24px;padding:20px 28px;box-shadow:0 14px 30px -24px rgba(30,18,25,.45);border-left:14px solid #F5C518}\n.r.flip{border-left-color:#D63E76}\n.gb{flex:0 0 170px;font-size:32px;font-weight:900;color:#fff;background:#46293A;border-radius:16px;text-align:center;padding:10px 0}\n.tx{flex:1}.tx b{display:block;font-size:34px;font-weight:900;height:46px;line-height:46px}.tx b img{height:42px;vertical-align:middle;object-fit:contain}\n.tx span{display:block;font-size:22px;color:var(--ink-2)}\n.yen{font-size:48px;font-weight:900;color:#D63E76;white-space:nowrap}.yen small{font-size:26px}\n.one{margin-top:28px;text-align:center;font-size:30px;font-weight:700;background:#46293A;color:#fff;border-radius:18px;padding:18px 16px}.one b{color:#F5C518;font-weight:900}\n"
+    }
+  ]
+}

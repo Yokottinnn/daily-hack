@@ -173,6 +173,34 @@ references:
 <p class="affiliate-text"><a href="https://px.a8.net/svt/ejp?a8mat=4BEIPG+6Z8YU2+5DFW+5YRHE" target="_blank" rel="sponsored noopener nofollow">WOWOWオンデマンドの公式サイト</a></p>
 </div>
 
+## 実際に使った人の声と動画｜動画サブスク
+
+実際に使っている人の投稿と動画で補っておく。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">馬鹿だった。使ってない動画のサブスク、月1,490円を2年半。総額4万4,700円。 妻にカードの明細を見せられて 「この1,490円、何？」 「・・・映画のやつ。入った月に1本見たきり」 解約しようにも、どこで入ったか覚えてない。 固まってたら、中1の娘が「貸して」とスマホを取って、</p>&mdash; たい焼き｜ClaudeとITの活用術 (@taiyaki_ai3) <a href="https://twitter.com/taiyaki_ai3/status/2110324752644821281">2026年10月14日</a></blockquote>
+
+**使っていない動画サブスクに月 1,490 円を 2 年半、総額 44,700 円**払っていた、という失敗談。1 本あたりで見れば、ここまで高くなるのよ。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">サブスク、3つ解約したら見えたことがある。 副業先を探す前に、まずそっちかって思った。 ・動画配信サービス、月に1回も開いてなかった ・使ってない学習アプリ、惰性で払い続けてた ・ジムは行く日より行かない日の方が多かった 私の場合、これだけで月の支出が1万近く軽くなった。</p>&mdash; つむぎ｜お金の選択肢｜Money Options (@money_kasegu_jp) <a href="https://twitter.com/money_kasegu_jp/status/2116418980827353578">2026年10月31日</a></blockquote>
+
+**動画配信サービスを月に 1 回も開いていなかった**のに気づいて解約した、という声。
+
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/a1l0PHUhpYE" title="【2026年版】動画配信サービス7社を完全比較 知らないと月5,000円損するかも（総帥【そうすい】）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+動画配信サービス 7 社を比べた 2026 年版の解説。
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/v-ntv1fv2vk" title="【これ一本で決める】動画系サブスクって結局どこが最強？上位100位のアニメ・映画のラインナップを独自調査してみた【Prime/Netflix/UNEXT/dアニメetc】（ぷらぐら）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+上位 100 のアニメ・映画が、どのサブスクで見られるかを調べた動画。
+
+<p class="source-note">引用した X の投稿は、2026年10月31日に本文・投稿者・日付を確かめたもの。埋め込んだ YouTube は oEmbed でタイトルと投稿者を照合し、実在を確かめたもの。どちらも投稿した人の個人の感想・撮影時点の内容で、この記事の数字とは別のもの。</p>
+
 ## まとめ: 月額じゃなく「1本単価」で選べ
 
 長々書いたけど、覚えてほしいのはこれだけよ。

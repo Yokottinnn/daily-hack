@@ -450,6 +450,34 @@ ahamo・povo・LINEMO・楽天モバイル・UQモバイル・ワイモバイル
 <div class="a8-banner a8-banner--rectangle"><a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+11ICNU+3SPO+ZRALD" target="_blank" rel="sponsored noopener nofollow"><img src="/images/banners/gas-choice-300x250.jpg" alt="当サイト限定　最大30000円現金キャッシュバック！ガス代を今よりお安く！【ガスチョイス】" width="300" height="250" loading="lazy"></a></div>
 </div>
 
+## 実際に見直した人の声と動画｜固定費の削減
+
+固定費をどこから削るかを、実際にやった人の投稿と動画で補っておく。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">これ、見直さない人は本当にヤバい。 固定費を削減して投資に回すだけで20年間でこんな差になる。 全部やれば、1777万円が20年で何もせず作れる計算。 これだけで、老後2000万円問題はほぼ解消できる。</p>&mdash; やすき｜退院後まで考える作業療法士 (@yasuki_medical) <a href="https://twitter.com/yasuki_medical/status/1978566484570857510">2025年10月16日</a></blockquote>
+
+**固定費を削って投資に回すと 20 年でどれだけ差が付くか**を試算した投稿。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">大事なことを言います。 「高すぎる家賃」「高すぎる車」「高すぎる保険」「高すぎる通信費」「高すぎるサブスク」この5つは見直した方がいい。</p>&mdash; ペンギン (@penguin1215_) <a href="https://twitter.com/penguin1215_/status/2115081089223999743">2026年10月27日</a></blockquote>
+
+**家賃・車・保険・通信費・サブスク**の 5 つを見直せ、という整理。この記事の並びと同じよ。
+
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/YgbMKJZjriw" title="【お金の授業 2限目】まずは固定費を見直そう！【改訂版 お金の大学 P27～P31】（両学長 リベラルアーツ大学）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+固定費の見直しを、順番から説明している。
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/l999uf8mb5c" title="【完全版】一人暮らしの生活費＆固定費を抑える方法15選！手取り20万以下でも貯められます！（がまぐち夫婦の節約チャンネル）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+一人暮らしの生活費と固定費を抑える方法を 15 個まとめた動画。
+
+<p class="source-note">引用した X の投稿は、2026年10月31日に本文・投稿者・日付を確かめたもの。埋め込んだ YouTube は oEmbed でタイトルと投稿者を照合し、実在を確かめたもの。どちらも投稿した人の個人の感想・撮影時点の内容で、この記事の数字とは別のもの。</p>
+
 ## まとめ｜固定費削減、今日の作業3つ
 
 ここまで読んで「あとでやる」って言ってるあんた、それは**毎月1万円を捨て続ける宣言**よ。今日やることを3つだけ並べておくから、これだけ手を動かしなさい。

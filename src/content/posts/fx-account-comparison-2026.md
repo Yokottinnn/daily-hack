@@ -389,6 +389,34 @@ references: ["https://fx.dmm.com/", "https://www.gaitame.com/", "https://min-fx.
 
 ---
 
+## 実際に始めた人の声と動画｜FX 口座の選び方
+
+口座の選び方と、始める前に知っておきたい注意を、投稿と動画で補っておく。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">FXの始め方｜超初心者向けガイド 【STEP1】証券会社を選ぶ 初心者におすすめ：DMM FX、GMOクリック証券、外為どっとコムなど 選ぶポイント：スプレッド（手数料）が狭い アプリが使いやすい 最低取引単位が小さい（1000通貨単位がおすすめ） サポート体制が充実 【STEP2】口座開設する</p>&mdash; さき様 (@sa_ki_bit) <a href="https://twitter.com/sa_ki_bit/status/2020634496996200658">2026年2月9日</a></blockquote>
+
+**初心者が口座を選ぶ手順**をまとめた投稿。スプレッド（手数料）の狭さで選ぶ考え方はこの記事と同じよ。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">絶対に副業初心者が始めてはいけない副業 ・せどり（在庫を抱えてお金が減る） ・FX（知識ゼロだと資金が溶ける） ・YouTube（伸びるまで何年もかかる） ・ブログ（成果が出るまで長すぎる） ・動画編集（案件の取り合い） 逆に、初心者におすすめの副業は、</p>&mdash; ルカ｜AI ×アフィ (@ruka_affi) <a href="https://twitter.com/ruka_affi/status/2114098863158317365">2026年10月25日</a></blockquote>
+
+**知識ゼロで始めると資金が溶ける**という注意。少額から始めるのが前提ね。
+
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/jt9PjiutSjk" title="【2026年最新版】プロが選ぶ！おすすめFX会社・FX口座ランキング（FXメガバンク – 今日から使えるトレード講座）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+FX 会社・口座をランキングで比べた解説。
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/Mmf-PbLwzOk" title="【 FX 入門講座 】 初心者必見！ FX を基礎からわかりやすく解説！（みんなのＦＸ｜トレイダーズ証券）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+FX の仕組みを基礎から説明している入門講座。
+
+<p class="source-note">引用した X の投稿は、2026年10月31日に本文・投稿者・日付を確かめたもの。埋め込んだ YouTube は oEmbed でタイトルと投稿者を照合し、実在を確かめたもの。どちらも投稿した人の個人の感想・撮影時点の内容で、この記事の数字とは別のもの。</p>
+
 ## まとめ — FX口座選び「3社開設＋使い分け」が最強
 
 <ul class="checklist">

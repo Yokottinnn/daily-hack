@@ -315,6 +315,34 @@ QRコード決済は、**チャージ元クレカの選定が9割**。これ間�
   </ul>
 </aside>
 
+## 実際に使った人の声と動画｜QR 決済
+
+実際に使っている人の投稿と動画で補っておく。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">各社コンビニお得な決済方法8選✍️ ✅セブンイレブン ①【11%】三井住友カード券種 セブンアプリ会員コード提示：+0.5% スマホタッチ決済：Olive10.5%、NL9.5% ②【最大10.5%】nanacoクレカ 物理カード決済：9.5%(7iDに紐付け必須) 引落口座をセブン銀行に設定：+1% ✅ローソン系列</p>&mdash; OTAKE＠ポイントだけで生活する男 (@POIKATSU_OTAKE) <a href="https://twitter.com/POIKATSU_OTAKE/status/2115436428947763289">2026年10月28日</a></blockquote>
+
+**コンビニごとのお得な決済方法を 8 つ**まとめた投稿。どの店で使うかで答えが変わるのよ。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">俺、コンビニの支払いを変えただけで還元率が倍になってビビったわ。日常決済は基本1%のカードから選ぶのが基本。汎用なら楽天、39歳以下はJCB W、コンビニ・飲食が多い人は三井住友NLも。 👇</p>&mdash; ひろ｜節約と比較 (@hiro_kurabe) <a href="https://twitter.com/hiro_kurabe/status/2116379911548256584">2026年10月31日</a></blockquote>
+
+**コンビニの支払い方法を変えただけで還元率が倍になった**、という声。
+
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/rHCib3qBxYA" title="各スマホ決済の最大の還元率で強いのはどれ？【PayPay・楽天ペイ・auPAY・d払い・メルペイ・ファミペイ】（ゆずひこちゃんねる）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+PayPay・楽天ペイ・au PAY・d払いなど、スマホ決済の最大の還元率を比べた動画。
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/2IAgjDNNxMk" title="4大QRコード決済は今オワコン...？利用者のガチ本音と、今後の正しい使い方（ポイ活ガチ勢ななみちゃん）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+4 大 QR コード決済の利用者の本音と、これからの使い方を解説している。
+
+<p class="source-note">引用した X の投稿は、2026年10月31日に本文・投稿者・日付を確かめたもの。埋め込んだ YouTube は oEmbed でタイトルと投稿者を照合し、実在を確かめたもの。どちらも投稿した人の個人の感想・撮影時点の内容で、この記事の数字とは別のもの。</p>
+
 ## まとめ: 3アプリ三刀流が2026年の正解
 
 長くなったけど、結論をもう一度。
