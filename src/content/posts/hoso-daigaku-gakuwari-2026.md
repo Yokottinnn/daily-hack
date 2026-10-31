@@ -411,6 +411,24 @@ references:
 
 **都度のほうは「回数を掛けて初めて効く」。** 映画を年1本しか見ない人にとっては500円の話でしかないが、**月1本 見る人には年6,000円**。ディズニーを年1回 行くだけでも**3,000円前後**が浮く。ここは自分の生活に掛け算してほしい。
 
+#### 動画で見る、放送大学の学割
+
+実際に学割を使っている人の動画も置いておく。
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/sNUIMAjIJ4k" title="54,000円で最大10年『学生』に？放送大学の学割活用術（エンマち）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+**54,000円で最大10年「学生」になる**使い方を紹介した動画。この記事の「10年ぶんで月450円」と同じ計算よ。
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/O0V_ya8h_c4" title="【Adobe税はこれで解決】放送大学を最安で活用して節約？？学割で節約金額はいくらになる？（イノシタカズキ【フリーランス映像クリエイター】）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+**Adobe の学割で、いくら節約になるか**を計算している動画。
+
+<p class="source-note">埋め込んだ YouTube は、2026年10月31日に oEmbed でタイトルと投稿者を照合し、実在を確かめたもの。投稿した人の個人の感想・撮影時点の内容。</p>
+
 <h2 id="museum">美術館・博物館｜国立美術館キャンパスメンバーズが一番 太い</h2>
 
 **都度のなかで、これだけ性質が違う。** 放送大学は**国立美術館キャンパスメンバーズ制度に加入している**ので、学生証を見せるだけで対象館の所蔵作品展が**何度でも無料**になる。
