@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-31T06:46:22.170Z",
+  "generated": "2026-10-31T09:20:52.226Z",
   "providers": {
     "a8": {
       "name": "A8.net",
@@ -7,81 +7,9 @@
       "needsHuman": false,
       "credentialsInKeychain": true,
       "reason": "",
-      "autoLoginTried": true,
       "url": "https://media-console.a8.net/program/list/partnered",
       "title": "参加中プログラム｜A8.netメディア管理画面",
-      "loginSteps": [
-        {
-          "label": "パスワードを打った直後",
-          "url": "https://media-console.a8.net/common/re-authentication",
-          "ins": [
-            "text:mediaLoginName=14文字",
-            "password:mediaLoginPassword=12文字"
-          ],
-          "msgs": [],
-          "btns": [
-            "a「ヘルプ」",
-            "a「お問い合わせ」",
-            "button「ログインする」",
-            "a「ログインID・パスワードをお忘れ」",
-            "a「こちら」",
-            "a「A8.net（リマインダー）から」",
-            "a「リマインダーの使い方がわかりませ」",
-            "button「TOP」",
-            "a「ヘルプ」",
-            "a「お問い合わせ」",
-            "a「利用規約」",
-            "a「不正行為と法律違反」"
-          ]
-        },
-        {
-          "label": "パスワードを送ったあと",
-          "url": "https://media-console.a8.net/program/list/partnered",
-          "ins": [
-            "search:keywords=0文字",
-            "search:searchFreeWord=0文字"
-          ],
-          "msgs": [],
-          "btns": [
-            "button「カテゴリ」",
-            "a「初めての方」",
-            "a「ヘルプ」",
-            "a「ログアウト」",
-            "a「ホーム」",
-            "a「プログラム検索」",
-            "a「プログラム管理」",
-            "a「レポート」",
-            "a「ツール」",
-            "a「登録情報」",
-            "a「セルフバック」",
-            "button「プログラムを検索」"
-          ]
-        },
-        {
-          "label": "さらに 4 秒後",
-          "url": "https://media-console.a8.net/program/list/partnered",
-          "ins": [
-            "search:keywords=0文字",
-            "search:searchFreeWord=0文字"
-          ],
-          "msgs": [],
-          "btns": [
-            "button「カテゴリ」",
-            "a「初めての方」",
-            "a「ヘルプ」",
-            "a「ログアウト」",
-            "a「ホーム」",
-            "a「プログラム検索」",
-            "a「プログラム管理」",
-            "a「レポート」",
-            "a「ツール」",
-            "a「登録情報」",
-            "a「セルフバック」",
-            "button「プログラムを検索」"
-          ]
-        }
-      ],
-      "partnered": 73,
+      "partnered": 100,
       "menus": 40
     }
   }
