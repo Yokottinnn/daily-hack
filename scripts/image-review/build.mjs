@@ -63,6 +63,8 @@ const FILES = {
   "hikari-cashback-comparison-2026": ["1-kodate.jpg"],
   // **未投稿**（2026-10-31）。海外旅行の通信の比較。素材は記事の数字とロゴだけ
   "overseas-esim-wifi-comparison-2026": ["1-order.jpg"],
+  // **未投稿**（2026-10-31）。置くだけWiFi・WiMAX比較。素材は記事の数字とロゴだけ
+  "home-router-wimax-comparison-2026": ["1-2nen.jpg"],
 };
 
 const map = {};
