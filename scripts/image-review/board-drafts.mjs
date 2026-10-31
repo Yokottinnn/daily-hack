@@ -37,8 +37,9 @@ for (const b of page.split(/\n\s*key:\s*"/).slice(1)) {
   const title = (b.match(/title:\s*"([^"]+)"/) || [])[1];
   const attach = (b.match(/attach:\s*"([^"]+)"/) || [])[1] || "";
   const pm = b.match(/posted:\s*\[([^\]]*)\]/);
-  const posted = pm ? [...pm[1].matchAll(/"(\d+)"/g)].length > 0 : false;
-  if (title && !meta.has(key)) meta.set(key, { title, attach, posted });
+  const ids = pm ? [...pm[1].matchAll(/"(\d+)"/g)].map((x) => x[1]) : [];
+  const posted = ids.length > 0;
+  if (title && !meta.has(key)) meta.set(key, { title, attach, posted, ids });
 }
 
 const weight = (s) => { let n = 0; for (const c of s.replace(/https?:\/\/\S+/g, "#".repeat(23))) n += c.codePointAt(0) < 0x80 ? 1 : 2; return n; };
@@ -63,6 +64,29 @@ for (const [key, parts] of Object.entries(posts)) {
     next: (status[key] && status[key].next) || null, why: (status[key] && status[key].why) || "", check: (status[key] && status[key].check) || [] });
 }
 drafts.sort((a, b) => (a.next || 99) - (b.next || 99));
-const doc = { updatedAt: new Date(Date.now() + 9 * 3600e3).toISOString().slice(0, 19) + "+09:00", reviewUrl: "https://claude.ai/artifact/1o7gjZZghit8kn3W4AXUdH", drafts };
+
+// ---- 投稿カレンダー（2026-10-31・利用者「いつどのタイミングで投稿をするかを、作戦室にカレンダー形式でビジュアル化して」）----
+// 1 行 = 1 組。date は JST の日付。state: posted（投稿済み・ID から日時）／scheduled（予約済み・scheduledAt）／planned（予定日だけ決まっている・planDate）
+const jst = (ms) => new Date(ms + 9 * 3600e3).toISOString();
+const fromId = (id) => Number((BigInt(id) >> 22n) + 1288834974657n);
+const calendar = [];
+for (const [key, m] of meta) {
+  const st = status[key] || {};
+  const ids = (st.ids && st.ids.length ? st.ids : m.ids) || [];
+  const sid = (styles[key] && styles[key].style) || "";
+  const base = { key, title: m.title, styleName: styleName.get(sid) || sid };
+  if (ids.length && (st.status === "posted" || m.posted || !st.status)) {
+    const t = jst(fromId(ids[0]));
+    calendar.push({ ...base, state: "posted", date: t.slice(0, 10), time: t.slice(11, 16), url: "https://x.com/heng_ji31590/status/" + ids[0] });
+  } else if (st.scheduledAt && (st.status || "draft") === "draft") {
+    const t = jst(Date.parse(st.scheduledAt));
+    calendar.push({ ...base, state: "scheduled", date: t.slice(0, 10), time: t.slice(11, 16) });
+  } else if (st.planDate && (st.status || "draft") === "draft") {
+    calendar.push({ ...base, state: "planned", date: st.planDate, time: st.planTime || "" });
+  }
+}
+calendar.sort((a, b) => (a.date + a.time).localeCompare(b.date + b.time));
+const doc = { updatedAt: new Date(Date.now() + 9 * 3600e3).toISOString().slice(0, 19) + "+09:00", reviewUrl: "https://claude.ai/artifact/1o7gjZZghit8kn3W4AXUdH", drafts, calendar };
 fs.writeFileSync(out, JSON.stringify(doc, null, 2) + "\n");
 console.log(`下書き ${drafts.length} 組: ${drafts.map((d) => d.key).join(", ")}`);
+console.log(`カレンダー ${calendar.length} 件: ` + calendar.map((c) => c.date + " " + c.key + "(" + c.state + ")").join(", "));
