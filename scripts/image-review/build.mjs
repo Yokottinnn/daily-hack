@@ -100,6 +100,7 @@ const LOCK = path.join(HERE, "posts.lock.json");
 const lock = JSON.parse(fs.readFileSync(LOCK, "utf8"));
 const sha = (s) => createHash("sha256").update(s, "utf8").digest("hex");
 let locked = 0;
+const handoffs = new Map(); // 渡しの 1 行 → 使った組（ワンパターン禁止・x-post-copy §1-F）
 let filled = false;
 for (const [k, list] of Object.entries(posts)) {
   list.forEach((t, i) => {
@@ -114,6 +115,22 @@ for (const [k, list] of Object.entries(posts)) {
       let fold = "";
       for (const para of t.split(/\n\n/)) { const next = fold ? fold + "\n\n" + para : para; if (weight(next) > 275) break; fold = next; }
       if (!fold) throw new Error(`${k} [${i + 1}] の最初の段落が重み ${weight(t.split(/\n\n/)[0])}。「さらに表示」の前に収まらない。冒頭の段落を 275 以内にする`);
+      // 2026-10-31: 説明型（本体のある長文）は冒頭を「開きたくなる文」にして `詳細は👇` の 1 行で終える（利用者の指示・x-post-copy §1-E）。
+      // 冒頭で答えを書き切ると「さらに表示」が押されない。**`詳細は👇` までの重みが 275 以内**で、独立した 1 行であること。
+      // 10/31 より前に出た長文だけ前の型のまま除外する
+      const FOLD_RULE_EXEMPT = ["cinema-toyosu", "prime", "points", "hanabi-a", "hanabi-b", "hanabi-c"];
+      if (!FOLD_RULE_EXEMPT.includes(k)) {
+        // 2026-10-31: 渡しの 1 行は「詳細は👇」固定にしない。👇 で終わる独立した 1 行を探し、**ほかの組と同じ言い方なら止める**（ワンパターン禁止・§1-F）
+        const lines = t.split("\n");
+        const at = lines.findIndex((l, j) => l.trim().endsWith("👇") && (lines[j + 1] ?? "").trim() === "");
+        if (at < 0) throw new Error(`${k} [${i + 1}] は長文（説明型）なのに、👇 で終わる渡しの 1 行が無い。冒頭で答えを書き切らず、続きへ渡す 1 行で終える（x-post-copy §1-E）`);
+        const head = lines.slice(0, at + 1).join("\n");
+        if (weight(head) > 275) throw new Error(`${k} [${i + 1}] の渡しの 1 行までが重み ${weight(head)}。さらに表示の前に収まらない。275 以内にする`);
+        const hand = lines[at].trim();
+        if (handoffs.has(hand)) throw new Error(`${k} [${i + 1}] の渡しの 1 行「${hand}」は ${handoffs.get(hand)} と同じ。ワンパターンにしない。中身に合わせて言い方を変える（x-post-copy §1-F）`);
+        handoffs.set(hand, k);
+        console.log(`    → 冒頭は「${hand}」で渡す（重み ${weight(head)}）`);
+      }
       console.log(`  ${k} [${i + 1}/${list.length}]  長文 重み ${w}（さらに表示の前に見える冒頭 ${weight(fold)}）`);
     }
 

@@ -3,12 +3,14 @@
 //   SHOP_SETUP=moshimo  … もしもで「Amazon」を検索し、出たプロモーションの行とボタンを読む（**押さない**）
 //   SHOP_SETUP=amazon-click … 本番の記事の Amazon ボタンを押し、着いた先に tag が残るか・ロボット確認が出ないかを読む（買わない）
 //   SHOP_SETUP=amazon-login … Keychain（dailyhack-asp-amazon）でアソシエイト・セントラルにログインする。確認コード・画像認証が出たら止めて画面を読む
+//   SHOP_SETUP=amazon-status … アソシエイト・セントラルに入れているか・クリックが 0 か 1 以上か（数は出さない）・サイトストライプの正式なリンクの形
 //   SHOP_SETUP=amazon-open  … 利用者がアソシエイトにログインする画面を開いたままにする
 //   SHOP_SETUP=yahoo    … Yahoo! デベロッパーネットワークのアプリ管理・登録の画面を読む（**送らない**）
 // ログインは asp-sync.mjs が保っている Chrome（CDP 18810）を使う。**鍵・会員名・報酬額は出さない**（鍵は文字数だけ）。
 // 出力: $OPS_REPORT_DIR/shop-setup/<SHOP_SETUP>.md（公開ブランチ ops/heartbeat に載る）
 import { createRequire } from 'node:module';
 import { execFileSync } from 'node:child_process';
+import { createHmac } from 'node:crypto';
 import fs from 'node:fs';
 import path from 'node:path';
 import os from 'node:os';
@@ -372,12 +374,62 @@ try {
         await p.locator('#signInSubmit:visible, input#signInSubmit:visible').first().click().catch(() => {}); await p.waitForLoadState('domcontentloaded', { timeout: 20000 }).catch(() => {}); await p.waitForTimeout(5000); }
       s0 = await st();
       lines.push(`  - 入れたあとの状態: ${s0}（${here()}）${/ax\/claim/.test(p.url()) ? '・Amazon がこの ID を知らない（「初めてご利用」）' : ''}`);
+      if (s0 === 'otp') {
+        const code = totpNow();
+        const box = p.locator('input[name=otpCode]:visible, #auth-mfa-otpcode:visible').first();
+        lines.push(`  - 確認コードの画面。Keychain の秘密のキー: ${code ? 'ある' : '**無い**（dailyhack-asp-amazon-totp）'}・入力欄: ${await box.count() ? 'ある' : '**無い**（メールの確認コードの画面かもしれない）'}`);
+        if (code && (await box.count())) {
+          await box.fill(code); const rem = p.locator('input[name=rememberDevice]:visible').first(); if (await rem.count()) await rem.check().catch(() => {});
+          await p.locator('#auth-signin-button:visible, input[type=submit]:visible').first().click().catch(() => {}); await p.waitForLoadState('domcontentloaded', { timeout: 20000 }).catch(() => {}); await p.waitForTimeout(5000);
+          s0 = await st(); lines.push(`  - コードを入れたあとの状態: ${s0}（${here()}）`);
+        }
+      }
       if (s0 === 'in' || s0 === 'otp' || s0 === 'captcha') break;
     }
     if (s0 === 'otp' || s0 === 'captcha' || s0 === 'other') await dump('ログインの途中で止まった画面（押していない）');
     if (s0 === 'in') {
       const heads = await p.evaluate(() => [...document.querySelectorAll('h1,h2,h3')].map((h) => h.innerText.trim()).filter(Boolean).slice(0, 12));
       lines.push('- **アソシエイト・セントラルに入れた**', ...heads.filter((x) => !NG.test(x)).map((x) => `  - ${mask(x).replace(/[0-9０-９][0-9０-９,.]*/g, '#')}`));
+    }
+  }
+
+  if (WHICH === 'amazon-status') {
+    // 2026-10-31 利用者が自動作業用の Chrome でアソシエイトにログインした。読むだけ（押すのはサイトストライプの「テキスト」だけ・買わない）
+    // ① 入れているか ② ホームの「クリック」が 0 か 1 以上か（**数は出さない**） ③ 正式なリンクの形（サイトストライプのテキストリンク）
+    await go('https://affiliate.amazon.co.jp/home');
+    const inn = /affiliate\.amazon\.co\.jp\/home/.test(p.url()) && !/signin|ax\/claim/.test(p.url());
+    lines.push(`- アソシエイト・セントラル: ${inn ? '**入れている**' : '**入れていない**（ログインが切れた）'}（${here()}）`);
+    if (inn) {
+      const txt = await p.evaluate(() => (document.body.innerText || '').split('\n').map((x) => x.trim()).filter(Boolean));
+      // t396: ホームは「クリック数:」の次の行が直近の合計（グラフの日付の行は拾わない）
+      const i = txt.findIndex((x) => /^クリック数[:：]/.test(x));
+      let clicks = null; if (i >= 0) { const m = (txt[i].replace(/^クリック数[:：]/, '') || txt[i + 1] || '').replace(/[,，]/g, '').match(/^\s*(\d+)\s*$/); if (m) clicks = Number(m[1]); }
+      lines.push(`- 税務情報のアンケート: ${txt.some((x) => /税務情報に関するアンケートへの回答が必要/.test(x)) ? '**未回答**（紹介料の支払いに必要）' : '回答済み'}`);
+      lines.push(`- ホームの「クリック」: ${clicks == null ? '見つからない' : clicks > 0 ? '**1 以上**（数は出さない）' : '0'}`);
+      lines.push('- ホームの項目（数字は # に伏せる）:', ...txt.filter((x) => x.length < 40 && !NG.test(x)).slice(0, 40).map((x) => `  - ${mask(x).replace(/[0-9０-９][0-9０-９,.]*/g, '#')}`));
+      await go('https://www.amazon.co.jp/s?k=mottole+MTL-E029');
+      const prod = await p.evaluate(() => { const a = document.querySelector('[data-component-type="s-search-result"] a[href*="/dp/"]'); return a ? a.href : ''; });
+      if (prod) {
+        await go(prod);
+        const ss = await p.evaluate(() => !!document.querySelector('#amzn-ss-wrap, [id^="amzn-ss"]'));
+        lines.push(`- 商品ページ: ${here()}・サイトストライプ: ${ss ? '出ている' : '**出ていない**'}`);
+        if (ss) {
+          // t396: id では押せなかった。帯の中の「テキスト」の文字で押し、「フルリンク」を選んでから読む
+          const ssBtns = await p.evaluate(() => [...document.querySelectorAll('#amzn-ss-wrap a, #amzn-ss-wrap button, #amzn-ss-wrap span, [id^="amzn-ss"] a')].map((e) => `${e.id || e.tagName.toLowerCase()}「${(e.innerText || '').trim().slice(0, 15)}」`).filter((x) => !/「」/.test(x)).slice(0, 15));
+          lines.push(`- 帯の部品: ${ssBtns.join(' ／ ') || 'なし'}`);
+          // t397: 帯のボタンは「リンク生成」（#amzn-ss-get-link-button）
+          await p.locator('#amzn-ss-get-link-button, #amzn-ss-text-link').first().click({ timeout: 5000 }).catch(() => {});
+          await p.waitForTimeout(2500);
+          await p.getByText(/フルリンク|完全なリンク|Full link/).first().click({ timeout: 3000 }).catch(() => {});
+          await p.waitForTimeout(1500);
+          const links = await p.evaluate(() => [...document.querySelectorAll('textarea, input[type=text], input:not([type])')].map((e) => e.value || e.textContent || '').filter((v) => /amazon\.co\.jp|amzn\.to/.test(v)));
+          const pop = await p.evaluate(() => [...document.querySelectorAll('[id^="amzn-ss"]')].filter((e) => e.getBoundingClientRect().height > 0).map((e) => (e.innerText || '').replace(/\s+/g, ' ').trim()).filter((x) => x && x.length < 120).slice(0, 12));
+          lines.push('- 「リンク生成」を押したあとの帯の文字:', ...pop.map((x) => `  - ${x.replace(/https?:\/\/\S+/g, (u) => u.replace(/[A-Za-z0-9]{20,}/g, '…'))}`));
+          for (const l of links.slice(0, 3)) { let shape = l; try { const u = new URL(l); shape = `${u.origin}${u.pathname.replace(/[A-Z0-9]{10}/, '<ASIN>')}?${[...u.searchParams.keys()].map((k) => `${k}=${k === 'tag' ? u.searchParams.get(k) : '…'}`).join('&')}`; } catch {}
+            lines.push(`- サイトストライプのリンク（形）: ${shape}`); }
+          if (!links.length) lines.push('- サイトストライプのリンクが読めなかった');
+        }
+      }
     }
   }
 
@@ -481,6 +533,17 @@ function amazonCreds() {
     }).filter((x) => x.user).sort((a, b) => b.mdat.localeCompare(a.mdat));
     return items.map((x) => { try { return { user: x.user, pass: execFileSync('/usr/bin/security', ['find-generic-password', '-s', 'dailyhack-asp-amazon', '-a', x.user, '-w'], { encoding: 'utf8', stdio: ['ignore', 'pipe', 'ignore'] }).replace(/\n$/, '') }; } catch { return null; } }).filter((x) => x && x.pass);
   } catch { const c = aspCred('amazon'); return c ? [c] : []; }
+}
+// Google Authenticator と同じ 6 桁（RFC 6238・SHA1・30 秒）。秘密のキーは Keychain（dailyhack-asp-amazon-totp）だけに置き、**値もコードも出さない**
+function totpNow() {
+  let key = '';
+  try { key = execFileSync('/usr/bin/security', ['find-generic-password', '-s', 'dailyhack-asp-amazon-totp', '-w'], { encoding: 'utf8', stdio: ['ignore', 'pipe', 'ignore'] }).replace(/\s+/g, '').toUpperCase(); } catch { return null; }
+  const A = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ234567'; let bits = '';
+  for (const ch of key.replace(/=+$/, '')) { const v = A.indexOf(ch); if (v < 0) return null; bits += v.toString(2).padStart(5, '0'); }
+  const buf = Buffer.from(bits.match(/.{8}/g).map((b) => parseInt(b, 2)));
+  const ctr = Buffer.alloc(8); ctr.writeBigUInt64BE(BigInt(Math.floor(Date.now() / 1000 / 30)));
+  const h = createHmac('sha1', buf).update(ctr).digest(); const o = h[h.length - 1] & 15;
+  return String(((h.readUInt32BE(o) & 0x7fffffff) % 1000000)).padStart(6, '0');
 }
 function aspCred(id) {
   try {
