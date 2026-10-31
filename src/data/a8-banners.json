@@ -76,7 +76,7 @@
   {
    "programId": "s00000000218001",
    "name": "一休.com",
-   "match": "ホテル|旅館|宿|温泉|連休|年末年始|紅葉|旅行|記念日",
+   "match": "ホテル|旅館|宿|温泉|連休|年末年始|紅葉|旅行|記念日|サウナ|ととのう",
    "html": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4BESU9+B1PLNE+1OK+6F1WH\" rel=\"nofollow\"> <img border=\"0\" width=\"300\" height=\"250\" alt=\"一休.com（PR）\" src=\"https://www28.a8.net/svt/bgt?aid=261031041668&wid=002&eno=01&mid=s00000000218001078000&mc=1\"></a> <img border=\"0\" width=\"1\" height=\"1\" src=\"https://www14.a8.net/0.gif?a8mat=4BESU9+B1PLNE+1OK+6F1WH\" alt=\"\">"
   },
   {
@@ -222,6 +222,48 @@
    "name": "audiobook.jp",
    "match": "読書|オーディオブック|書籍|電子書籍|本を読|ラジオ|ポッドキャスト",
    "html": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4BESUA+758T6+3CJQ+6FHC1\" rel=\"nofollow\"> <img border=\"0\" width=\"300\" height=\"250\" alt=\"audiobook.jp（PR）\" src=\"https://www25.a8.net/svt/bgt?aid=261031042012&wid=002&eno=01&mid=s00000015623001080000&mc=1\"></a> <img border=\"0\" width=\"1\" height=\"1\" src=\"https://www17.a8.net/0.gif?a8mat=4BESUA+758T6+3CJQ+6FHC1\" alt=\"\">"
+  },
+  {
+   "programId": "s00000006576010",
+   "name": "たびらい（遊び・体験）",
+   "match": "イベント|体験|お台場|チームラボ|展覧会|謎解き|花火|ライトアップ|ドローンショー|祭り|サウナ|テニス|アイドル|ドッグ",
+   "html": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4BESU9+DODIU2+1EQO+1NMZO1\" rel=\"nofollow\"> <img border=\"0\" width=\"300\" height=\"250\" alt=\"たびらい（遊び・体験）（PR）\" src=\"https://www23.a8.net/svt/bgt?aid=261031041827&wid=002&eno=01&mid=s00000006576010017000&mc=1\"></a> <img border=\"0\" width=\"1\" height=\"1\" src=\"https://www16.a8.net/0.gif?a8mat=4BESU9+DODIU2+1EQO+1NMZO1\" alt=\"\">"
+  },
+  {
+   "programId": "s00000022946005",
+   "name": "アゴダ（遊び・体験）",
+   "match": "チームラボ|展覧会|お台場|花火|イベント|ドラえもん|ラビリンス|高輪ゲートウェイ",
+   "html": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4BESU9+CLOCII+4X1W+TSJ41\" rel=\"nofollow\"> <img border=\"0\" width=\"300\" height=\"250\" alt=\"アゴダ（遊び・体験）（PR）\" src=\"https://www24.a8.net/svt/bgt?aid=261031041762&wid=002&eno=01&mid=s00000022946005004000&mc=1\"></a> <img border=\"0\" width=\"1\" height=\"1\" src=\"https://www18.a8.net/0.gif?a8mat=4BESU9+CLOCII+4X1W+TSJ41\" alt=\"\">"
+  },
+  {
+   "programId": "s00000010868002",
+   "name": "くまポン（クーポン）",
+   "match": "クーポン|モーニング|映画|シネマ|グルメ|チェーン店|朝食",
+   "html": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4BESU9+DSJK2I+2BUW+BY641\" rel=\"nofollow\"> <img border=\"0\" width=\"300\" height=\"250\" alt=\"くまポン（クーポン）（PR）\" src=\"https://www20.a8.net/svt/bgt?aid=261031041834&wid=002&eno=01&mid=s00000010868002007000&mc=1\"></a> <img border=\"0\" width=\"1\" height=\"1\" src=\"https://www12.a8.net/0.gif?a8mat=4BESU9+DSJK2I+2BUW+BY641\" alt=\"\">"
+  },
+  {
+   "programId": "s00000019447001",
+   "name": "スカパー!",
+   "match": "動画配信|VOD|Netflix|U-NEXT|サブスク|テニス|スポーツ|映画",
+   "html": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4BESUA+1SCD6+461Y+6HES1\" rel=\"nofollow\"> <img border=\"0\" width=\"300\" height=\"250\" alt=\"スカパー!（PR）\" src=\"https://www25.a8.net/svt/bgt?aid=261031042003&wid=002&eno=01&mid=s00000019447001089000&mc=1\"></a> <img border=\"0\" width=\"1\" height=\"1\" src=\"https://www15.a8.net/0.gif?a8mat=4BESUA+1SCD6+461Y+6HES1\" alt=\"\">"
+  },
+  {
+   "programId": "s00000000842023",
+   "name": "DMMブックス",
+   "match": "電子書籍|マンガ|漫画|動画配信|VOD",
+   "html": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4BESUA+GO6HM+6HW+3SZUAP\" rel=\"nofollow\"> <img border=\"0\" width=\"300\" height=\"250\" alt=\"DMMブックス（PR）\" src=\"https://www23.a8.net/svt/bgt?aid=261031042028&wid=002&eno=01&mid=s00000000842023010000&mc=1\"></a> <img border=\"0\" width=\"1\" height=\"1\" src=\"https://www14.a8.net/0.gif?a8mat=4BESUA+GO6HM+6HW+3SZUAP\" alt=\"\">"
+  },
+  {
+   "programId": "s00000004657003",
+   "name": "引越し侍",
+   "match": "引越|引っ越|晴海フラッグ|タワマン|タワーマンション|マンション|住宅ローン|住まい",
+   "html": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4BESUA+3K08M2+ZXM+I7NE9\" rel=\"nofollow\"> <img border=\"0\" width=\"300\" height=\"250\" alt=\"引越し侍（PR）\" src=\"https://www23.a8.net/svt/bgt?aid=261031042215&wid=002&eno=01&mid=s00000004657003059000&mc=1\"></a> <img border=\"0\" width=\"1\" height=\"1\" src=\"https://www14.a8.net/0.gif?a8mat=4BESUA+3K08M2+ZXM+I7NE9\" alt=\"\">"
+  },
+  {
+   "programId": "s00000001343017",
+   "name": "エアトリレンタカー",
+   "match": "カーシェア|レンタカー|IKEA|ドライブ",
+   "html": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4BESU9+CC5EU2+AD2+2T9U01\" rel=\"nofollow\"> <img border=\"0\" width=\"300\" height=\"250\" alt=\"エアトリレンタカー（PR）\" src=\"https://www21.a8.net/svt/bgt?aid=261031041746&wid=002&eno=01&mid=s00000001343017010000&mc=1\"></a> <img border=\"0\" width=\"1\" height=\"1\" src=\"https://www10.a8.net/0.gif?a8mat=4BESU9+CC5EU2+AD2+2T9U01\" alt=\"\">"
   }
  ]
 }
