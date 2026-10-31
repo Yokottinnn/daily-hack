@@ -151,7 +151,7 @@ references: ["https://mitsui-shopping-park.com/lalaport/toyosu/event/3613509.htm
   </div>
   <ul class="related-block-list">
     <li><a href="/posts/lalaport-guide-2026/">
-      <span class="related-block-thumb"><img src="/images/lalaport-guide-2026/eyecatch.jpg" alt="" loading="lazy" /></span>
+      <span class="related-block-thumb"><img src="/images/lalaport-guide-2026/eyecatch-2026-10-31.jpg" alt="" loading="lazy" /></span>
       <span class="related-block-body">
         <span class="related-block-cat">湾岸ライフ</span>
         <span class="related-block-name">ららぽーと売上ランキング 2026｜全20施設を決算資料で並べた</span>
