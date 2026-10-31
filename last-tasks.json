@@ -1,7 +1,1 @@
-[
-      {"task": "t360-amazon-login2.sh", "rc": 0, "out": "ボタン: -    rc=0 /      872 bytes"},
-      {"task": "t380-find-pages-rechargeable-kairo.sh", "rc": 0, "out": "  - 開いた: 【楽天市場】カイロ 充電式 安全設計 ハンドウォーマー 3段階温度調整 USB-C充電 急速発熱 電気カイロ 最大5.5時間 連続発熱 コンパクト 小型 ホワイト EZ4-TOY052W：激安アウトレット店｜カート: **無い**  ## hagoogi-ot-96"},
-      {"task": "t381-find-pages-mobile-battery.sh", "rc": 0, "out": "  - 開いた: 商品概要には、主要な商品情報が記載されています  キーボードショートカット  Shift + opt + D｜カート: あり - rakuten: 検索 45 件・型番あり 1 件   - https://item.rakuten.co.jp/resco/x001dgl3bf/｜11,000｜Anker アンカー Nano Power Ban"},
-      {"task": "t382-find-pages-heated-vest.sh", "rc": 0, "out": "  - https://item.rakuten.co.jp/tuzukiya/m03-6295/｜13,818｜マキタ CV202DZL 充電式 暖房ベスト(バッテリ・バッテリホルダ・充電器別売) L 黒 1点   - https://item.rakuten.co.jp/kentikuboy/10154709/｜16,932｜マキタ電動工具　充電式暖房ベスト　CV202DZ（本"},
-      {"task": "x385-read-cleanup-result-handling.sh", "rc": 0, "out": "x385 / x385-cleanup-result-handling.md"}
-  ]
+[]
