@@ -167,6 +167,17 @@ SPUの特典は、**そのために新しくお金を使うなら、元が取れ
 
 買う額と、いま達成しているSPUの倍率、重ねるイベントを選ぶと、**上限で頭打ちになる分まで引いた**もらえるポイントが出る。
 
+先に計算例を置いておく。**SPU 3倍（楽天カードだけ）＋マラソン10店＋5と0のつく日**で、1日に買った場合。
+
+| 買う額（税抜） | もらえるポイント | 実際の還元 | 頭打ちになったもの |
+| --- | --- | --- | --- |
+| 3万円 | 3,900pt | 13.0% | なし |
+| 5万円 | 6,500pt | 13.0% | なし |
+| 10万円 | 11,000pt | 11.0% | <a href="https://hb.afl.rakuten.co.jp/hgc/587f2635.77bb335f.587f2636.e34c8733/?pc=https%3A%2F%2Fevent.rakuten.co.jp%2Fcampaign%2Fpoint-up%2Fmarathon%2F&m=https%3A%2F%2Fevent.rakuten.co.jp%2Fcampaign%2Fpoint-up%2Fmarathon%2F" rel="sponsored noopener nofollow">マラソン</a>（7,000pt） |
+| 20万円 | 13,000pt | 6.5% | マラソン・5と0のつく日・カード特典分 |
+
+**買う額が倍になっても、ポイントは倍にならない。** 自分の条件では下のシミュレーターで。
+
 <div class="rk-sim">
   <div class="rk-row">
     <label for="rk-amt">買う額（税抜・この日の合計）</label>
