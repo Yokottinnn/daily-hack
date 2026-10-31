@@ -1,3 +1,1 @@
-[
-      {"task": "x393-verify-not-following.sh", "rc": 0, "out": "{n:6,unfollowed_at:2026-10-31T04:01:04.243Z,url_login:false,buttons:[<id>-follow:フォロー,<id>-follow:フォロー,<id>-follow:フォロー,<id>-follow:フォロー],gone:false,state:not_following} まとめ {following:0,not_following:6,unknown:0} ```  **following が 1 件でもあれば、x386"}
-  ]
+[]
