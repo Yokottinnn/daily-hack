@@ -1,3 +1,1 @@
-[
-      {"task": "x394-read-follow-jobs.sh", "rc": 0, "out": "## follow-balance ``` 行数 629  更新 10-25 17:29 --- plist の環境変数 {MAX_PROFILE_READS:40,DECIDE_BUDGET_S:150,FOLLOW_RATIO_GLIDE:370:0.57,500:0.50,700:0.42,1000:0.33,LIST_BUDGET_S:110,MIN_UNFOLLO"}
-  ]
+[]
