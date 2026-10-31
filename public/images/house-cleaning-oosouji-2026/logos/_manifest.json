@@ -1,0 +1,36 @@
+{
+  "_note": "識別目的で使うロゴ。**商標であり自由ライセンスではない。** 改変しない（CSS の枠は可）。取得元と取得日をここに残す。",
+  "yourmystar.png": {
+    "brand": "ユアマイスター",
+    "source": "https://p.ymcdn.jp/ip/q_90,s_460x64/jp/img/common/logo.svg",
+    "page": "https://yourmystar.jp/",
+    "fetched": "2026-10-31",
+    "license_note": "商標。識別目的で使用",
+    "task": "ops/tasks/t492-cleaning-logos-duskin.sh",
+    "note": "SVG を scripts/svg-to-png.mjs で PNG にした（形と色は変えていない）"
+  },
+  "duskin.png": {
+    "brand": "ダスキン（ナックダスキン）",
+    "source": "https://nac-duskin.com/duskin-acclean/img/logo.png",
+    "page": "https://nac-duskin.com/duskin-acclean/",
+    "fetched": "2026-10-31",
+    "license_note": "商標。識別目的で使用",
+    "task": "ops/tasks/t492-cleaning-logos-duskin.sh"
+  },
+  "kireiyu.png": {
+    "brand": "キレイユ",
+    "source": "https://kireiyu.com/assets/images/logo-kireiyu-2x.png",
+    "page": "https://kireiyu.com/",
+    "fetched": "2026-10-31",
+    "license_note": "商標。識別目的で使用",
+    "task": "ops/tasks/t492-cleaning-logos-duskin.sh"
+  },
+  "migxl.png": {
+    "brand": "ミガクる（MIGXL）",
+    "source": "https://migxl.com/assets/img/migxl-logo.png",
+    "page": "https://migxl.com/",
+    "fetched": "2026-10-31",
+    "license_note": "商標。識別目的で使用",
+    "task": "ops/tasks/t492-cleaning-logos-duskin.sh"
+  }
+}
