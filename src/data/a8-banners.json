@@ -1,0 +1,77 @@
+{
+ "_note": "記事の広告の横・サイドバーの上に出す A8 のバナー（300×250）。2026-10-31 に t426・t427 で A8 の広告リンク作成画面から取った。match は記事の題名・タグ・説明に当てる正規表現。合う記事にだけ出す",
+ "banners": [
+  {
+   "programId": "s00000017718004",
+   "name": "ドコモ光",
+   "match": "光回線|ネット回線|インターネット|ドコモ|ahamo|通信費|固定費|スマホ代|格安SIM|dポイント",
+   "html": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B3Y38+17GOPM+3SPO+NUMHT\" rel=\"nofollow\"> <img border=\"0\" width=\"300\" height=\"250\" alt=\"ドコモ光（PR）\" src=\"https://www20.a8.net/svt/bgt?aid=260524628073&wid=002&eno=01&mid=s00000017718004006000&mc=1\"></a> <img border=\"0\" width=\"1\" height=\"1\" src=\"https://www18.a8.net/0.gif?a8mat=4B3Y38+17GOPM+3SPO+NUMHT\" alt=\"\">"
+  },
+  {
+   "programId": "s00000016370001",
+   "name": "SoftBank 光",
+   "match": "光回線|ネット回線|インターネット|ソフトバンク|SoftBank|ワイモバイル|通信費|固定費|PayPay",
+   "html": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B3XB4+3JET0A+3IB8+601S1\" rel=\"nofollow\"> <img border=\"0\" width=\"300\" height=\"250\" alt=\"SoftBank 光（PR）\" src=\"https://www26.a8.net/svt/bgt?aid=260523616214&wid=002&eno=01&mid=s00000016370001008000&mc=1\"></a> <img border=\"0\" width=\"1\" height=\"1\" src=\"https://www16.a8.net/0.gif?a8mat=4B3XB4+3JET0A+3IB8+601S1\" alt=\"\">"
+  },
+  {
+   "programId": "s00000019044001",
+   "name": "auひかり",
+   "match": "光回線|ネット回線|インターネット|au|UQ|povo|通信費|固定費|Ponta",
+   "html": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B3Y38+ZQ1UI+42Y0+5ZMCH\" rel=\"nofollow\"> <img border=\"0\" width=\"300\" height=\"250\" alt=\"auひかり（PR）\" src=\"https://www21.a8.net/svt/bgt?aid=260524628060&wid=002&eno=01&mid=s00000019044001006000&mc=1\"></a> <img border=\"0\" width=\"1\" height=\"1\" src=\"https://www13.a8.net/0.gif?a8mat=4B3Y38+ZQ1UI+42Y0+5ZMCH\" alt=\"\">"
+  },
+  {
+   "programId": "s00000017718046",
+   "name": "BIGLOBE光",
+   "match": "光回線|ネット回線|インターネット|通信費|固定費",
+   "html": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B3XB4+383KII+3SPO+7LXBPT\" rel=\"nofollow\"> <img border=\"0\" width=\"300\" height=\"250\" alt=\"BIGLOBE光（PR）\" src=\"https://www26.a8.net/svt/bgt?aid=260523616195&wid=002&eno=01&mid=s00000017718046009000&mc=1\"></a> <img border=\"0\" width=\"1\" height=\"1\" src=\"https://www11.a8.net/0.gif?a8mat=4B3XB4+383KII+3SPO+7LXBPT\" alt=\"\">"
+  },
+  {
+   "programId": "s00000021621001",
+   "name": "SoftBank Air",
+   "match": "ホームルーター|WiMAX|置くだけ|工事不要|光回線|インターネット|一人暮らし|引越|通信費",
+   "html": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B3Y38+13W32Y+4MTU+609HT\" rel=\"nofollow\"> <img border=\"0\" width=\"300\" height=\"250\" alt=\"SoftBank Air（PR）\" src=\"https://www24.a8.net/svt/bgt?aid=260524628067&wid=002&eno=01&mid=s00000021621001009000&mc=1\"></a> <img border=\"0\" width=\"1\" height=\"1\" src=\"https://www13.a8.net/0.gif?a8mat=4B3Y38+13W32Y+4MTU+609HT\" alt=\"\">"
+  },
+  {
+   "programId": "s00000013511010",
+   "name": "エネピ（電気）",
+   "match": "電気|電力|電気代|光熱費|固定費|節約",
+   "html": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B3Y38+25ZTSQ+2W92+1NJZN5\" rel=\"nofollow\"> <img border=\"0\" width=\"300\" height=\"250\" alt=\"エネピ（電気）（PR）\" src=\"https://www21.a8.net/svt/bgt?aid=260524628131&wid=002&eno=01&mid=s00000013511010003000&mc=1\"></a> <img border=\"0\" width=\"1\" height=\"1\" src=\"https://www10.a8.net/0.gif?a8mat=4B3Y38+25ZTSQ+2W92+1NJZN5\" alt=\"\">"
+  },
+  {
+   "programId": "s00000017718005",
+   "name": "電気チョイス",
+   "match": "電気|電力|電気代|光熱費|固定費|節約",
+   "html": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B3Y38+15ODWA+3SPO+TU8U9\" rel=\"nofollow\"> <img border=\"0\" width=\"300\" height=\"250\" alt=\"電気チョイス（PR）\" src=\"https://www25.a8.net/svt/bgt?aid=260524628070&wid=002&eno=01&mid=s00000017718005012000&mc=1\"></a> <img border=\"0\" width=\"1\" height=\"1\" src=\"https://www18.a8.net/0.gif?a8mat=4B3Y38+15ODWA+3SPO+TU8U9\" alt=\"\">"
+  },
+  {
+   "programId": "s00000017675001",
+   "name": "ガス屋の窓口",
+   "match": "ガス|光熱費|固定費|節約",
+   "html": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B3Y38+12P7VE+3SDQ+5ZU29\" rel=\"nofollow\"> <img border=\"0\" width=\"300\" height=\"250\" alt=\"ガス屋の窓口（PR）\" src=\"https://www23.a8.net/svt/bgt?aid=260524628065&wid=002&eno=01&mid=s00000017675001007000&mc=1\"></a> <img border=\"0\" width=\"1\" height=\"1\" src=\"https://www18.a8.net/0.gif?a8mat=4B3Y38+12P7VE+3SDQ+5ZU29\" alt=\"\">"
+  },
+  {
+   "programId": "s00000023067001",
+   "name": "トラベリスト（格安航空券）",
+   "match": "航空券|飛行機|LCC|フライト|マイル|ANA|JAL|旅行|帰省|ツアー|旅",
+   "html": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B3Y38+1VVGII+4XZI+609HT\" rel=\"nofollow\"> <img border=\"0\" width=\"300\" height=\"250\" alt=\"トラベリスト（格安航空券）（PR）\" src=\"https://www28.a8.net/svt/bgt?aid=260524628114&wid=002&eno=01&mid=s00000023067001009000&mc=1\"></a> <img border=\"0\" width=\"1\" height=\"1\" src=\"https://www18.a8.net/0.gif?a8mat=4B3Y38+1VVGII+4XZI+609HT\" alt=\"\">"
+  },
+  {
+   "programId": "s00000024224001",
+   "name": "ブランドオフ（宅配買取）",
+   "match": "買取|ブランド|不用品|フリマ|メルカリ|断捨離|売る",
+   "html": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B3XB4+3K08M2+56WW+5ZMCH\" rel=\"nofollow\"> <img border=\"0\" width=\"300\" height=\"250\" alt=\"ブランドオフ（宅配買取）（PR）\" src=\"https://www29.a8.net/svt/bgt?aid=260523616215&wid=002&eno=01&mid=s00000024224001006000&mc=1\"></a> <img border=\"0\" width=\"1\" height=\"1\" src=\"https://www13.a8.net/0.gif?a8mat=4B3XB4+3K08M2+56WW+5ZMCH\" alt=\"\">"
+  },
+  {
+   "programId": "s00000016921003",
+   "name": "クラウドWiFi",
+   "match": "WiFi|Wi-Fi|ポケット|モバイルルーター|旅行|出張|通信|ギガ",
+   "html": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B3Y38+1WGW4A+3MKA+HWPVL\" rel=\"nofollow\"> <img border=\"0\" width=\"300\" height=\"250\" alt=\"クラウドWiFi（PR）\" src=\"https://www23.a8.net/svt/bgt?aid=260524628115&wid=002&eno=01&mid=s00000016921003008000&mc=1\"></a> <img border=\"0\" width=\"1\" height=\"1\" src=\"https://www16.a8.net/0.gif?a8mat=4B3Y38+1WGW4A+3MKA+HWPVL\" alt=\"\">"
+  },
+  {
+   "programId": "s00000014546024",
+   "name": "MONSTER MOBILE",
+   "match": "WiFi|Wi-Fi|ポケット|モバイルルーター|通信|ギガ|一人暮らし",
+   "html": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B3Y38+26L9EI+348K+3YXBHD\" rel=\"nofollow\"> <img border=\"0\" width=\"300\" height=\"250\" alt=\"MONSTER MOBILE（PR）\" src=\"https://www25.a8.net/svt/bgt?aid=260524628132&wid=002&eno=01&mid=s00000014546024006000&mc=1\"></a> <img border=\"0\" width=\"1\" height=\"1\" src=\"https://www14.a8.net/0.gif?a8mat=4B3Y38+26L9EI+348K+3YXBHD\" alt=\"\">"
+  }
+ ]
+}
