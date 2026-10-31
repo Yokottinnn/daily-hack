@@ -43,7 +43,8 @@
         "keyword": "サンコー HEAT25SBK",
         "must": [
           "HEAT25SBK"
-        ]
+        ],
+        "itemUrl": "https://item.rakuten.co.jp/acekougu/1003916531/"
       },
       "yahoo": {
         "keyword": "サンコー HEAT25SBK",
@@ -61,7 +62,7 @@
       },
       "amazon": {
         "keyword": "サンコー HEAT25SBK",
-        "asin": null
+        "asin": "B0FKMKCCYX"
       }
     },
     {
@@ -81,7 +82,8 @@
         "keyword": "アイリスオーヤマ FC21620",
         "must": [
           "FC21620"
-        ]
+        ],
+        "itemUrl": "https://item.rakuten.co.jp/bizstyle/290821/"
       },
       "yahoo": {
         "keyword": "アイリスオーヤマ FC21620",
@@ -98,8 +100,10 @@
         "checkedAt": "2026-10-30T21:46:11.773Z"
       },
       "amazon": {
-        "keyword": "アイリスオーヤマ FC21620",
-        "asin": null
+        "keyword": null,
+        "asin": null,
+        "_hiddenNote": "2026-10-31 利用者の判断（ダイアログ「その店に無い商品のボタンを消す」）で外した。本番で押した確認（t371〜t389）で、型番の商品がAmazonの検索結果に出なかった。証跡: https://claude.ai/artifact/9VGFmsTLBooRxm7V8AgCeD",
+        "_keywordWas": "アイリスオーヤマ FC21620"
       }
     },
     {
@@ -118,7 +122,8 @@
         "keyword": "アイリスオーヤマ GT21622",
         "must": [
           "GT21622"
-        ]
+        ],
+        "itemUrl": "https://item.rakuten.co.jp/irisplaza-r/290816/"
       },
       "yahoo": {
         "keyword": "アイリスオーヤマ GT21622",
@@ -156,7 +161,8 @@
         "keyword": "サンエス EH32490",
         "must": [
           "EH32490"
-        ]
+        ],
+        "itemUrl": "https://item.rakuten.co.jp/netdekenzai/ft-00029/"
       },
       "yahoo": {
         "keyword": "サンエス EH32490",
@@ -174,7 +180,7 @@
       },
       "amazon": {
         "keyword": "サンエス EH32490",
-        "asin": null
+        "asin": "B0FLTJBC65"
       }
     },
     {
@@ -194,7 +200,8 @@
         "keyword": "雷神服 RD9570",
         "must": [
           "RD9570"
-        ]
+        ],
+        "itemUrl": "https://item.rakuten.co.jp/golfpocket/986130/"
       },
       "yahoo": {
         "keyword": "雷神服 RD9570",
@@ -241,7 +248,8 @@
           "コネクトツー",
           "ファン",
           "変換"
-        ]
+        ],
+        "itemUrl": "https://item.rakuten.co.jp/costmarket/uy4gwrorjna5xklwohfrdtjy2y/"
       },
       "yahoo": {
         "keyword": "バートル サーモクラフト TC500",
@@ -288,7 +296,8 @@
         "keyword": "マキタ CV202DZ",
         "must": [
           "CV202D"
-        ]
+        ],
+        "itemUrl": "https://item.rakuten.co.jp/yamamura/cv202dz/"
       },
       "yahoo": {
         "keyword": "マキタ CV202DZ",
@@ -306,7 +315,7 @@
       },
       "amazon": {
         "keyword": "マキタ CV202DZ",
-        "asin": null
+        "asin": "B0814VRBG3"
       }
     }
   ]

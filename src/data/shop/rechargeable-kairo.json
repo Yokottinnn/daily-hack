@@ -48,7 +48,8 @@
         "keyword": "フランフラン 繰り返し使えるカイロ",
         "must": [
           "繰り返し使えるカイロ"
-        ]
+        ],
+        "itemUrl": "https://item.rakuten.co.jp/stylife/sz6951/"
       },
       "yahoo": {
         "keyword": "フランフラン 繰り返し使えるカイロ",
@@ -66,7 +67,7 @@
       },
       "amazon": {
         "keyword": "フランフラン 繰り返し使えるカイロ",
-        "asin": null
+        "asin": "B0HM2MQ4J4"
       }
     },
     {
@@ -87,7 +88,8 @@
         "keyword": "フランフラン 両手で使える充電式カイロ",
         "must": [
           "両手"
-        ]
+        ],
+        "itemUrl": "https://item.rakuten.co.jp/stylife/sz6952/"
       },
       "yahoo": {
         "keyword": "フランフラン 両手で使える充電式カイロ",
@@ -105,7 +107,7 @@
       },
       "amazon": {
         "keyword": "フランフラン 両手で使える充電式カイロ",
-        "asin": null
+        "asin": "B0HM2W53DM"
       }
     },
     {
@@ -125,7 +127,8 @@
         "keyword": "mottole MTL-E007",
         "must": [
           "MTL-E007"
-        ]
+        ],
+        "itemUrl": "https://item.rakuten.co.jp/mottole-shop/mtl-e007/"
       },
       "yahoo": {
         "keyword": "mottole MTL-E007",
@@ -143,7 +146,7 @@
       },
       "amazon": {
         "keyword": "mottole MTL-E007",
-        "asin": null
+        "asin": "B0FHNFHMMS"
       }
     },
     {
@@ -164,7 +167,8 @@
         "keyword": "mottole MTL-E029",
         "must": [
           "MTL-E029"
-        ]
+        ],
+        "itemUrl": "https://item.rakuten.co.jp/mottole-shop/mtl-e029/"
       },
       "yahoo": {
         "keyword": "mottole MTL-E029",
@@ -182,7 +186,7 @@
       },
       "amazon": {
         "keyword": "mottole MTL-E029",
-        "asin": null
+        "asin": "B0FH9PLBLY"
       }
     },
     {
@@ -203,7 +207,8 @@
         "keyword": "mottole MTL-E030",
         "must": [
           "MTL-E030"
-        ]
+        ],
+        "itemUrl": "https://item.rakuten.co.jp/mottole-shop/mtl-e030/"
       },
       "yahoo": {
         "keyword": "mottole MTL-E030",
@@ -220,8 +225,10 @@
         "checkedAt": "2026-10-30T21:46:11.773Z"
       },
       "amazon": {
-        "keyword": "mottole MTL-E030",
-        "asin": null
+        "keyword": null,
+        "asin": null,
+        "_hiddenNote": "2026-10-31 利用者の判断（ダイアログ「その店に無い商品のボタンを消す」）で外した。本番で押した確認（t371〜t389）で、型番の商品がAmazonの検索結果に出なかった。証跡: https://claude.ai/artifact/9VGFmsTLBooRxm7V8AgCeD",
+        "_keywordWas": "mottole MTL-E030"
       }
     },
     {
@@ -242,7 +249,8 @@
         "keyword": "e-Kairo Oval EK-OV25",
         "must": [
           "EK-OV25"
-        ]
+        ],
+        "itemUrl": "https://item.rakuten.co.jp/ksdenki/4983936410173/"
       },
       "yahoo": {
         "keyword": "e-Kairo Oval EK-OV25",
@@ -259,8 +267,10 @@
         "checkedAt": "2026-10-30T21:46:11.773Z"
       },
       "amazon": {
-        "keyword": "e-Kairo Oval EK-OV25",
-        "asin": null
+        "keyword": null,
+        "asin": null,
+        "_hiddenNote": "2026-10-31 利用者の判断（ダイアログ「その店に無い商品のボタンを消す」）で外した。本番で押した確認（t371〜t389）で、型番の商品がAmazonの検索結果に出なかった。証跡: https://claude.ai/artifact/9VGFmsTLBooRxm7V8AgCeD",
+        "_keywordWas": "e-Kairo Oval EK-OV25"
       }
     },
     {
@@ -281,7 +291,8 @@
         "keyword": "e-Kairo Carre EK-CR25",
         "must": [
           "EK-CR25"
-        ]
+        ],
+        "itemUrl": "https://item.rakuten.co.jp/ksdenki/4983936410128/"
       },
       "yahoo": {
         "keyword": "e-Kairo Carre EK-CR25",
@@ -299,7 +310,7 @@
       },
       "amazon": {
         "keyword": "e-Kairo Carre EK-CR25",
-        "asin": null
+        "asin": "B0FTFF1X7R"
       }
     },
     {
@@ -320,7 +331,8 @@
         "keyword": "e-Kairo Share EK-SH25",
         "must": [
           "EK-SH25"
-        ]
+        ],
+        "itemUrl": "https://item.rakuten.co.jp/biccamera/4983936410227/"
       },
       "yahoo": {
         "keyword": "e-Kairo Share EK-SH25",
@@ -338,7 +350,7 @@
       },
       "amazon": {
         "keyword": "e-Kairo Share EK-SH25",
-        "asin": null
+        "asin": "B0FTFVGYS4"
       }
     },
     {
@@ -359,7 +371,8 @@
         "keyword": "400-TOY052W",
         "must": [
           "TOY052"
-        ]
+        ],
+        "itemUrl": "https://item.rakuten.co.jp/esupply/ez4-toy052w/"
       },
       "yahoo": {
         "keyword": "400-TOY052W",
@@ -377,7 +390,7 @@
       },
       "amazon": {
         "keyword": "400-TOY052W",
-        "asin": null
+        "asin": "B0GCD6XHXZ"
       }
     },
     {
@@ -398,10 +411,11 @@
         "keyword": "HAGOOGI OT-96H",
         "must": [
           "OT-96H"
-        ]
+        ],
+        "itemUrl": "https://item.rakuten.co.jp/hagoogi/ot-96h-02/"
       },
       "yahoo": {
-        "keyword": "HAGOOGI OT-96H",
+        "keyword": null,
         "must": [
           "OT-96H"
         ],
@@ -412,11 +426,15 @@
         "reviewAverage": null,
         "reviewCount": null,
         "shop": null,
-        "checkedAt": "2026-10-30T21:46:11.773Z"
+        "checkedAt": "2026-10-30T21:46:11.773Z",
+        "_keywordWas": "HAGOOGI OT-96H",
+        "_hiddenNote": "2026-10-31 利用者の判断（ダイアログ「その店に無い商品のボタンを消す」）で外した。本番で押した確認（t371〜t389）で、型番の商品がYahoo!ショッピングの検索結果に出なかった。証跡: https://claude.ai/artifact/9VGFmsTLBooRxm7V8AgCeD"
       },
       "amazon": {
-        "keyword": "HAGOOGI OT-96H",
-        "asin": null
+        "keyword": null,
+        "asin": null,
+        "_hiddenNote": "2026-10-31 利用者の判断（ダイアログ「その店に無い商品のボタンを消す」）で外した。本番で押した確認（t371〜t389）で、型番の商品がAmazonの検索結果に出なかった。証跡: https://claude.ai/artifact/9VGFmsTLBooRxm7V8AgCeD",
+        "_keywordWas": "HAGOOGI OT-96H"
       }
     }
   ]
