@@ -11,6 +11,8 @@ import AdUnit from '../components/AdUnit.astro';
 import AdMax from '../components/AdMax.astro';
 import InlineRelated from '../components/InlineRelated.astro';
 import PromoCard from '../components/PromoCard.astro';
+import AspBanner from '../components/AspBanner.astro';
+import a8Banners from '../data/a8-banners.json';
 import { isAdMaxConfigured } from '../data/admax-tags';
 import { getCollection } from 'astro:content';
 import { WANGAN_AREAS, WANGAN_NEWS_TAG, upcomingEvents, jpRange, splitJpAddress, todayJst } from '../lib/wangan';
@@ -151,6 +153,14 @@ const earning = allPosts
   })
   .sort((a, b) => b.score - a.score || b.aff - a.aff || a.p.id.localeCompare(b.p.id));
 const promoPosts = earning.slice(0, 6).map((x) => x.p);
+
+// ── 提携済み A8 のバナー（300×250）。記事の題名・タグ・説明に合うものだけ、合う数の多い順に出す（2026-10-31）──
+const bannerText = [data.title, data.description ?? '', ...(data.tags ?? [])].join(' ');
+const banners = a8Banners.banners
+  .map((b) => ({ b, hits: new Set(bannerText.match(new RegExp(b.match, 'g')) ?? []).size }))
+  .filter((x) => x.hits > 0)
+  .sort((a, z) => z.hits - a.hits || a.b.programId.localeCompare(z.b.programId))
+  .map((x) => x.b);
 
 // 2件ずつのブロックに割る（最大3ブロック＝本文中に最大3箇所）
 const inlineRelatedBlocks: (typeof inlineRelatedPool)[] = [];
@@ -301,9 +311,13 @@ const howToLd = howToJsonLd(post.body, data.title);
 
         <!-- 広告枠2・3: 記事中盤 — JS で post-body 内の h2 の切れ目へ移動。
              広告と比較記事の案内を横に並べる（PC は 2 つ並び・スマホは縦積み）。広告のタグが無い枠は案内 2 枚にする -->
-        {[['dailyhack-article-middle', 1], ['dailyhack-article-mid2', 3]].map(([slot, i]) => (
+        {[['dailyhack-article-middle', 1, 0], ['dailyhack-article-mid2', 3, 1]].map(([slot, i, k]) => (
           <div class="ad-pair" data-mid-pair>
-            {isAdMaxConfigured(slot as string) ? <AdMax slot={slot as string} /> : promoPosts[(i as number) + 1] && <PromoCard post={promoPosts[(i as number) + 1]} />}
+            {isAdMaxConfigured(slot as string)
+              ? <AdMax slot={slot as string} />
+              : banners[k as number]
+                ? <AspBanner html={banners[k as number].html} name={banners[k as number].name} />
+                : promoPosts[(i as number) + 1] && <PromoCard post={promoPosts[(i as number) + 1]} />}
             {promoPosts[i as number] && <PromoCard post={promoPosts[i as number]} />}
           </div>
         ))}
@@ -354,7 +368,11 @@ const howToLd = howToJsonLd(post.body, data.title);
 
       <aside class="post-aside">
         {/* サイドバーの上: 比較記事の案内（PC だけ。スマホでは出さない・2026-10-31 利用者の指示） */}
-        {promoPosts[5] && <div class="aside-top-promo"><PromoCard post={promoPosts[5]} /></div>}
+        {(banners[2] || promoPosts[5]) && (
+          <div class="aside-top-promo">
+            {banners[2] ? <AspBanner html={banners[2].html} name={banners[2].name} /> : <PromoCard post={promoPosts[5]} />}
+          </div>
+        )}
         <TableOfContents headings={tocHeadings} />
         <!-- 広告枠3: サイドバー（デスクトップのみ表示、TOC下） -->
         <div style="margin-top: 20px;">
