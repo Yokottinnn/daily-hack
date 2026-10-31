@@ -1,40 +1,336 @@
 {
- "generated": "2026-10-31T06:37:19.219Z",
+ "generated": "2026-10-31T06:47:28.721Z",
  "programs": [
   {
    "id": "s00000017718005",
-   "name": "ログイン再認証｜A8.netメディア管理画面",
-   "banners": [],
+   "name": "広告リンク作成｜A8.netメディア管理画面",
+   "banners": [
+    {
+     "w": 300,
+     "h": 250,
+     "code": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B3Y38+15ODWA+3SPO+TU8U9\" rel=\"nofollow\"> <img border=\"0\" width=\"300\" height=\"250\" alt=\"\" src=\"https://www25.a8.net/svt/bgt?aid=260524628070&wid=002&eno=01&mid=s00000017718005012000&mc=1\"></a> <img border=\"0\" width=\"1\" height=\"1\" src=\"https://www18.a8.net/0.gif?a8mat=4B3Y38+15ODWA+3SPO+TU8U9\" alt=\"\">"
+    },
+    {
+     "w": 120,
+     "h": 60,
+     "code": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B3Y38+15ODWA+3SPO+TT69D\" rel=\"nofollow\"> <img border=\"0\" width=\"120\" height=\"60\" alt=\"\" src=\"https://www20.a8.net/svt/bgt?aid=260524628070&wid=002&eno=01&mid=s00000017718005007000&mc=1\"></a> <img border=\"0\" width=\"1\" height=\"1\" src=\"https://www17.a8.net/0.gif?a8mat=4B3Y38+15ODWA+3SPO+TT69D\" alt=\"\">"
+    },
+    {
+     "w": 468,
+     "h": 60,
+     "code": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B3Y38+15ODWA+3SPO+TSJ41\" rel=\"nofollow\"> <img border=\"0\" width=\"468\" height=\"60\" alt=\"\" src=\"https://www22.a8.net/svt/bgt?aid=260524628070&wid=002&eno=01&mid=s00000017718005004000&mc=1\"></a> <img border=\"0\" width=\"1\" height=\"1\" src=\"https://www15.a8.net/0.gif?a8mat=4B3Y38+15ODWA+3SPO+TSJ41\" alt=\"\">"
+    },
+    {
+     "w": 320,
+     "h": 50,
+     "code": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B3Y38+15ODWA+3SPO+TSQTT\" rel=\"nofollow\"> <img border=\"0\" width=\"320\" height=\"50\" alt=\"\" src=\"https://www25.a8.net/svt/bgt?aid=260524628070&wid=002&eno=01&mid=s00000017718005005000&mc=1\"></a> <img border=\"0\" width=\"1\" height=\"1\" src=\"https://www10.a8.net/0.gif?a8mat=4B3Y38+15ODWA+3SPO+TSQTT\" alt=\"\">"
+    },
+    {
+     "w": 234,
+     "h": 60,
+     "code": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B3Y38+15ODWA+3SPO+TSYJL\" rel=\"nofollow\"> <img border=\"0\" width=\"234\" height=\"60\" alt=\"\" src=\"https://www24.a8.net/svt/bgt?aid=260524628070&wid=002&eno=01&mid=s00000017718005006000&mc=1\"></a> <img border=\"0\" width=\"1\" height=\"1\" src=\"https://www14.a8.net/0.gif?a8mat=4B3Y38+15ODWA+3SPO+TSYJL\" alt=\"\">"
+    },
+    {
+     "w": 100,
+     "h": 60,
+     "code": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B3Y38+15ODWA+3SPO+TTDZ5\" rel=\"nofollow\"> <img border=\"0\" width=\"100\" height=\"60\" alt=\"\" src=\"https://www24.a8.net/svt/bgt?aid=260524628070&wid=002&eno=01&mid=s00000017718005008000&mc=1\"></a> <img border=\"0\" width=\"1\" height=\"1\" src=\"https://www17.a8.net/0.gif?a8mat=4B3Y38+15ODWA+3SPO+TTDZ5\" alt=\"\">"
+    }
+   ],
    "ui": []
   },
   {
    "id": "s00000017675001",
-   "name": "ログイン再認証｜A8.netメディア管理画面",
-   "banners": [],
+   "name": "広告リンク作成｜A8.netメディア管理画面",
+   "banners": [
+    {
+     "w": 120,
+     "h": 60,
+     "code": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B3Y38+12P7VE+3SDQ+5ZEMP\" rel=\"nofollow\"> <img border=\"0\" width=\"120\" height=\"60\" alt=\"\" src=\"https://www21.a8.net/svt/bgt?aid=260524628065&wid=002&eno=01&mid=s00000017675001005000&mc=1\"></a> <img border=\"0\" width=\"1\" height=\"1\" src=\"https://www19.a8.net/0.gif?a8mat=4B3Y38+12P7VE+3SDQ+5ZEMP\" alt=\"\">"
+    },
+    {
+     "w": 468,
+     "h": 60,
+     "code": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B3Y38+12P7VE+3SDQ+609HT\" rel=\"nofollow\"> <img border=\"0\" width=\"468\" height=\"60\" alt=\"\" src=\"https://www23.a8.net/svt/bgt?aid=260524628065&wid=002&eno=01&mid=s00000017675001009000&mc=1\"></a> <img border=\"0\" width=\"1\" height=\"1\" src=\"https://www10.a8.net/0.gif?a8mat=4B3Y38+12P7VE+3SDQ+609HT\" alt=\"\">"
+    },
+    {
+     "w": 300,
+     "h": 250,
+     "code": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B3Y38+12P7VE+3SDQ+5ZU29\" rel=\"nofollow\"> <img border=\"0\" width=\"300\" height=\"250\" alt=\"\" src=\"https://www23.a8.net/svt/bgt?aid=260524628065&wid=002&eno=01&mid=s00000017675001007000&mc=1\"></a> <img border=\"0\" width=\"1\" height=\"1\" src=\"https://www18.a8.net/0.gif?a8mat=4B3Y38+12P7VE+3SDQ+5ZU29\" alt=\"\">"
+    },
+    {
+     "w": 300,
+     "h": 250,
+     "code": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B3Y38+12P7VE+3SDQ+614CX\" rel=\"nofollow\"> <img border=\"0\" width=\"300\" height=\"250\" alt=\"\" src=\"https://www27.a8.net/svt/bgt?aid=260524628065&wid=002&eno=01&mid=s00000017675001013000&mc=1\"></a> <img border=\"0\" width=\"1\" height=\"1\" src=\"https://www19.a8.net/0.gif?a8mat=4B3Y38+12P7VE+3SDQ+614CX\" alt=\"\">"
+    },
+    {
+     "w": 728,
+     "h": 90,
+     "code": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B3Y38+12P7VE+3SDQ+631SX\" rel=\"nofollow\"> <img border=\"0\" width=\"728\" height=\"90\" alt=\"\" src=\"https://www22.a8.net/svt/bgt?aid=260524628065&wid=002&eno=01&mid=s00000017675001022000&mc=1\"></a> <img border=\"0\" width=\"1\" height=\"1\" src=\"https://www11.a8.net/0.gif?a8mat=4B3Y38+12P7VE+3SDQ+631SX\" alt=\"\">"
+    },
+    {
+     "w": 468,
+     "h": 60,
+     "code": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B3Y38+12P7VE+3SDQ+61JSH\" rel=\"nofollow\"> <img border=\"0\" width=\"468\" height=\"60\" alt=\"\" src=\"https://www21.a8.net/svt/bgt?aid=260524628065&wid=002&eno=01&mid=s00000017675001015000&mc=1\"></a> <img border=\"0\" width=\"1\" height=\"1\" src=\"https://www18.a8.net/0.gif?a8mat=4B3Y38+12P7VE+3SDQ+61JSH\" alt=\"\">"
+    },
+    {
+     "w": 160,
+     "h": 600,
+     "code": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B3Y38+12P7VE+3SDQ+63OY9\" rel=\"nofollow\"> <img border=\"0\" width=\"160\" height=\"600\" alt=\"\" src=\"https://www20.a8.net/svt/bgt?aid=260524628065&wid=002&eno=01&mid=s00000017675001025000&mc=1\"></a> <img border=\"0\" width=\"1\" height=\"1\" src=\"https://www19.a8.net/0.gif?a8mat=4B3Y38+12P7VE+3SDQ+63OY9\" alt=\"\">"
+    },
+    {
+     "w": 320,
+     "h": 50,
+     "code": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B3Y38+12P7VE+3SDQ+601S1\" rel=\"nofollow\"> <img border=\"0\" width=\"320\" height=\"50\" alt=\"\" src=\"https://www20.a8.net/svt/bgt?aid=260524628065&wid=002&eno=01&mid=s00000017675001008000&mc=1\"></a> <img border=\"0\" width=\"1\" height=\"1\" src=\"https://www14.a8.net/0.gif?a8mat=4B3Y38+12P7VE+3SDQ+601S1\" alt=\"\">"
+    },
+    {
+     "w": 100,
+     "h": 60,
+     "code": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B3Y38+12P7VE+3SDQ+5Z6WX\" rel=\"nofollow\"> <img border=\"0\" width=\"100\" height=\"60\" alt=\"\" src=\"https://www23.a8.net/svt/bgt?aid=260524628065&wid=002&eno=01&mid=s00000017675001004000&mc=1\"></a> <img border=\"0\" width=\"1\" height=\"1\" src=\"https://www13.a8.net/0.gif?a8mat=4B3Y38+12P7VE+3SDQ+5Z6WX\" alt=\"\">"
+    },
+    {
+     "w": 234,
+     "h": 60,
+     "code": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B3Y38+12P7VE+3SDQ+5ZMCH\" rel=\"nofollow\"> <img border=\"0\" width=\"234\" height=\"60\" alt=\"\" src=\"https://www22.a8.net/svt/bgt?aid=260524628065&wid=002&eno=01&mid=s00000017675001006000&mc=1\"></a> <img border=\"0\" width=\"1\" height=\"1\" src=\"https://www10.a8.net/0.gif?a8mat=4B3Y38+12P7VE+3SDQ+5ZMCH\" alt=\"\">"
+    },
+    {
+     "w": 100,
+     "h": 60,
+     "code": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B3Y38+12P7VE+3SDQ+60H7L\" rel=\"nofollow\"> <img border=\"0\" width=\"100\" height=\"60\" alt=\"\" src=\"https://www20.a8.net/svt/bgt?aid=260524628065&wid=002&eno=01&mid=s00000017675001010000&mc=1\"></a> <img border=\"0\" width=\"1\" height=\"1\" src=\"https://www16.a8.net/0.gif?a8mat=4B3Y38+12P7VE+3SDQ+60H7L\" alt=\"\">"
+    },
+    {
+     "w": 120,
+     "h": 60,
+     "code": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B3Y38+12P7VE+3SDQ+60OXD\" rel=\"nofollow\"> <img border=\"0\" width=\"120\" height=\"60\" alt=\"\" src=\"https://www28.a8.net/svt/bgt?aid=260524628065&wid=002&eno=01&mid=s00000017675001011000&mc=1\"></a> <img border=\"0\" width=\"1\" height=\"1\" src=\"https://www15.a8.net/0.gif?a8mat=4B3Y38+12P7VE+3SDQ+60OXD\" alt=\"\">"
+    },
+    {
+     "w": 234,
+     "h": 60,
+     "code": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B3Y38+12P7VE+3SDQ+60WN5\" rel=\"nofollow\"> <img border=\"0\" width=\"234\" height=\"60\" alt=\"\" src=\"https://www29.a8.net/svt/bgt?aid=260524628065&wid=002&eno=01&mid=s00000017675001012000&mc=1\"></a> <img border=\"0\" width=\"1\" height=\"1\" src=\"https://www10.a8.net/0.gif?a8mat=4B3Y38+12P7VE+3SDQ+60WN5\" alt=\"\">"
+    },
+    {
+     "w": 320,
+     "h": 50,
+     "code": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B3Y38+12P7VE+3SDQ+61C2P\" rel=\"nofollow\"> <img border=\"0\" width=\"320\" height=\"50\" alt=\"\" src=\"https://www22.a8.net/svt/bgt?aid=260524628065&wid=002&eno=01&mid=s00000017675001014000&mc=1\"></a> <img border=\"0\" width=\"1\" height=\"1\" src=\"https://www10.a8.net/0.gif?a8mat=4B3Y38+12P7VE+3SDQ+61C2P\" alt=\"\">"
+    }
+   ],
    "ui": []
   },
   {
    "id": "s00000023067001",
-   "name": "ログイン再認証｜A8.netメディア管理画面",
-   "banners": [],
+   "name": "広告リンク作成｜A8.netメディア管理画面",
+   "banners": [
+    {
+     "w": 234,
+     "h": 60,
+     "code": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B3Y38+1VVGII+4XZI+61C2P\" rel=\"nofollow\"> <img border=\"0\" width=\"234\" height=\"60\" alt=\"\" src=\"https://www26.a8.net/svt/bgt?aid=260524628114&wid=002&eno=01&mid=s00000023067001014000&mc=1\"></a> <img border=\"0\" width=\"1\" height=\"1\" src=\"https://www18.a8.net/0.gif?a8mat=4B3Y38+1VVGII+4XZI+61C2P\" alt=\"\">"
+    },
+    {
+     "w": 300,
+     "h": 250,
+     "code": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B3Y38+1VVGII+4XZI+609HT\" rel=\"nofollow\"> <img border=\"0\" width=\"300\" height=\"250\" alt=\"\" src=\"https://www28.a8.net/svt/bgt?aid=260524628114&wid=002&eno=01&mid=s00000023067001009000&mc=1\"></a> <img border=\"0\" width=\"1\" height=\"1\" src=\"https://www18.a8.net/0.gif?a8mat=4B3Y38+1VVGII+4XZI+609HT\" alt=\"\">"
+    },
+    {
+     "w": 120,
+     "h": 60,
+     "code": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B3Y38+1VVGII+4XZI+60OXD\" rel=\"nofollow\"> <img border=\"0\" width=\"120\" height=\"60\" alt=\"\" src=\"https://www21.a8.net/svt/bgt?aid=260524628114&wid=002&eno=01&mid=s00000023067001011000&mc=1\"></a> <img border=\"0\" width=\"1\" height=\"1\" src=\"https://www19.a8.net/0.gif?a8mat=4B3Y38+1VVGII+4XZI+60OXD\" alt=\"\">"
+    },
+    {
+     "w": 468,
+     "h": 60,
+     "code": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B3Y38+1VVGII+4XZI+5ZU29\" rel=\"nofollow\"> <img border=\"0\" width=\"468\" height=\"60\" alt=\"\" src=\"https://www28.a8.net/svt/bgt?aid=260524628114&wid=002&eno=01&mid=s00000023067001007000&mc=1\"></a> <img border=\"0\" width=\"1\" height=\"1\" src=\"https://www13.a8.net/0.gif?a8mat=4B3Y38+1VVGII+4XZI+5ZU29\" alt=\"\">"
+    },
+    {
+     "w": 234,
+     "h": 60,
+     "code": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B3Y38+1VVGII+4XZI+60H7L\" rel=\"nofollow\"> <img border=\"0\" width=\"234\" height=\"60\" alt=\"\" src=\"https://www29.a8.net/svt/bgt?aid=260524628114&wid=002&eno=01&mid=s00000023067001010000&mc=1\"></a> <img border=\"0\" width=\"1\" height=\"1\" src=\"https://www16.a8.net/0.gif?a8mat=4B3Y38+1VVGII+4XZI+60H7L\" alt=\"\">"
+    },
+    {
+     "w": 468,
+     "h": 60,
+     "code": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B3Y38+1VVGII+4XZI+614CX\" rel=\"nofollow\"> <img border=\"0\" width=\"468\" height=\"60\" alt=\"\" src=\"https://www25.a8.net/svt/bgt?aid=260524628114&wid=002&eno=01&mid=s00000023067001013000&mc=1\"></a> <img border=\"0\" width=\"1\" height=\"1\" src=\"https://www13.a8.net/0.gif?a8mat=4B3Y38+1VVGII+4XZI+614CX\" alt=\"\">"
+    },
+    {
+     "w": 320,
+     "h": 50,
+     "code": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B3Y38+1VVGII+4XZI+601S1\" rel=\"nofollow\"> <img border=\"0\" width=\"320\" height=\"50\" alt=\"\" src=\"https://www25.a8.net/svt/bgt?aid=260524628114&wid=002&eno=01&mid=s00000023067001008000&mc=1\"></a> <img border=\"0\" width=\"1\" height=\"1\" src=\"https://www15.a8.net/0.gif?a8mat=4B3Y38+1VVGII+4XZI+601S1\" alt=\"\">"
+    },
+    {
+     "w": 100,
+     "h": 60,
+     "code": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B3Y38+1VVGII+4XZI+60WN5\" rel=\"nofollow\"> <img border=\"0\" width=\"100\" height=\"60\" alt=\"\" src=\"https://www23.a8.net/svt/bgt?aid=260524628114&wid=002&eno=01&mid=s00000023067001012000&mc=1\"></a> <img border=\"0\" width=\"1\" height=\"1\" src=\"https://www18.a8.net/0.gif?a8mat=4B3Y38+1VVGII+4XZI+60WN5\" alt=\"\">"
+    },
+    {
+     "w": 120,
+     "h": 60,
+     "code": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B3Y38+1VVGII+4XZI+61JSH\" rel=\"nofollow\"> <img border=\"0\" width=\"120\" height=\"60\" alt=\"\" src=\"https://www21.a8.net/svt/bgt?aid=260524628114&wid=002&eno=01&mid=s00000023067001015000&mc=1\"></a> <img border=\"0\" width=\"1\" height=\"1\" src=\"https://www19.a8.net/0.gif?a8mat=4B3Y38+1VVGII+4XZI+61JSH\" alt=\"\">"
+    },
+    {
+     "w": 100,
+     "h": 60,
+     "code": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B3Y38+1VVGII+4XZI+61RI9\" rel=\"nofollow\"> <img border=\"0\" width=\"100\" height=\"60\" alt=\"\" src=\"https://www22.a8.net/svt/bgt?aid=260524628114&wid=002&eno=01&mid=s00000023067001016000&mc=1\"></a> <img border=\"0\" width=\"1\" height=\"1\" src=\"https://www10.a8.net/0.gif?a8mat=4B3Y38+1VVGII+4XZI+61RI9\" alt=\"\">"
+    },
+    {
+     "w": 320,
+     "h": 50,
+     "code": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B3Y38+1VVGII+4XZI+61Z81\" rel=\"nofollow\"> <img border=\"0\" width=\"320\" height=\"50\" alt=\"\" src=\"https://www21.a8.net/svt/bgt?aid=260524628114&wid=002&eno=01&mid=s00000023067001017000&mc=1\"></a> <img border=\"0\" width=\"1\" height=\"1\" src=\"https://www16.a8.net/0.gif?a8mat=4B3Y38+1VVGII+4XZI+61Z81\" alt=\"\">"
+    }
+   ],
    "ui": []
   },
   {
    "id": "s00000024224001",
-   "name": "ログイン再認証｜A8.netメディア管理画面",
-   "banners": [],
+   "name": "広告リンク作成｜A8.netメディア管理画面",
+   "banners": [
+    {
+     "w": 300,
+     "h": 250,
+     "code": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B3XB4+3K08M2+56WW+5ZMCH\" rel=\"nofollow\"> <img border=\"0\" width=\"300\" height=\"250\" alt=\"\" src=\"https://www29.a8.net/svt/bgt?aid=260523616215&wid=002&eno=01&mid=s00000024224001006000&mc=1\"></a> <img border=\"0\" width=\"1\" height=\"1\" src=\"https://www13.a8.net/0.gif?a8mat=4B3XB4+3K08M2+56WW+5ZMCH\" alt=\"\">"
+    },
+    {
+     "w": 120,
+     "h": 60,
+     "code": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B3XB4+3K08M2+56WW+601S1\" rel=\"nofollow\"> <img border=\"0\" width=\"120\" height=\"60\" alt=\"\" src=\"https://www21.a8.net/svt/bgt?aid=260523616215&wid=002&eno=01&mid=s00000024224001008000&mc=1\"></a> <img border=\"0\" width=\"1\" height=\"1\" src=\"https://www17.a8.net/0.gif?a8mat=4B3XB4+3K08M2+56WW+601S1\" alt=\"\">"
+    },
+    {
+     "w": 468,
+     "h": 60,
+     "code": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B3XB4+3K08M2+56WW+5Z6WX\" rel=\"nofollow\"> <img border=\"0\" width=\"468\" height=\"60\" alt=\"\" src=\"https://www24.a8.net/svt/bgt?aid=260523616215&wid=002&eno=01&mid=s00000024224001004000&mc=1\"></a> <img border=\"0\" width=\"1\" height=\"1\" src=\"https://www16.a8.net/0.gif?a8mat=4B3XB4+3K08M2+56WW+5Z6WX\" alt=\"\">"
+    },
+    {
+     "w": 320,
+     "h": 50,
+     "code": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B3XB4+3K08M2+56WW+5ZEMP\" rel=\"nofollow\"> <img border=\"0\" width=\"320\" height=\"50\" alt=\"\" src=\"https://www23.a8.net/svt/bgt?aid=260523616215&wid=002&eno=01&mid=s00000024224001005000&mc=1\"></a> <img border=\"0\" width=\"1\" height=\"1\" src=\"https://www19.a8.net/0.gif?a8mat=4B3XB4+3K08M2+56WW+5ZEMP\" alt=\"\">"
+    },
+    {
+     "w": 234,
+     "h": 60,
+     "code": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B3XB4+3K08M2+56WW+5ZU29\" rel=\"nofollow\"> <img border=\"0\" width=\"234\" height=\"60\" alt=\"\" src=\"https://www27.a8.net/svt/bgt?aid=260523616215&wid=002&eno=01&mid=s00000024224001007000&mc=1\"></a> <img border=\"0\" width=\"1\" height=\"1\" src=\"https://www19.a8.net/0.gif?a8mat=4B3XB4+3K08M2+56WW+5ZU29\" alt=\"\">"
+    },
+    {
+     "w": 100,
+     "h": 60,
+     "code": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B3XB4+3K08M2+56WW+609HT\" rel=\"nofollow\"> <img border=\"0\" width=\"100\" height=\"60\" alt=\"\" src=\"https://www20.a8.net/svt/bgt?aid=260523616215&wid=002&eno=01&mid=s00000024224001009000&mc=1\"></a> <img border=\"0\" width=\"1\" height=\"1\" src=\"https://www12.a8.net/0.gif?a8mat=4B3XB4+3K08M2+56WW+609HT\" alt=\"\">"
+    }
+   ],
    "ui": []
   },
   {
    "id": "s00000016921003",
-   "name": "ログイン再認証｜A8.netメディア管理画面",
-   "banners": [],
+   "name": "広告リンク作成｜A8.netメディア管理画面",
+   "banners": [
+    {
+     "w": 300,
+     "h": 250,
+     "code": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B3Y38+1WGW4A+3MKA+HWPVL\" rel=\"nofollow\"> <img border=\"0\" width=\"300\" height=\"250\" alt=\"\" src=\"https://www23.a8.net/svt/bgt?aid=260524628115&wid=002&eno=01&mid=s00000016921003008000&mc=1\"></a> <img border=\"0\" width=\"1\" height=\"1\" src=\"https://www16.a8.net/0.gif?a8mat=4B3Y38+1WGW4A+3MKA+HWPVL\" alt=\"\">"
+    },
+    {
+     "w": 468,
+     "h": 60,
+     "code": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B3Y38+1WGW4A+3MKA+HZAGX\" rel=\"nofollow\"> <img border=\"0\" width=\"468\" height=\"60\" alt=\"\" src=\"https://www29.a8.net/svt/bgt?aid=260524628115&wid=002&eno=01&mid=s00000016921003020000&mc=1\"></a> <img border=\"0\" width=\"1\" height=\"1\" src=\"https://www19.a8.net/0.gif?a8mat=4B3Y38+1WGW4A+3MKA+HZAGX\" alt=\"\">"
+    },
+    {
+     "w": 120,
+     "h": 60,
+     "code": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B3Y38+1WGW4A+3MKA+HZXM9\" rel=\"nofollow\"> <img border=\"0\" width=\"120\" height=\"60\" alt=\"\" src=\"https://www27.a8.net/svt/bgt?aid=260524628115&wid=002&eno=01&mid=s00000016921003023000&mc=1\"></a> <img border=\"0\" width=\"1\" height=\"1\" src=\"https://www17.a8.net/0.gif?a8mat=4B3Y38+1WGW4A+3MKA+HZXM9\" alt=\"\">"
+    },
+    {
+     "w": 500,
+     "h": 500,
+     "code": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B3Y38+1WGW4A+3MKA+HWXLD\" rel=\"nofollow\"> <img border=\"0\" width=\"500\" height=\"500\" alt=\"\" src=\"https://www25.a8.net/svt/bgt?aid=260524628115&wid=002&eno=01&mid=s00000016921003009000&mc=1\"></a> <img border=\"0\" width=\"1\" height=\"1\" src=\"https://www12.a8.net/0.gif?a8mat=4B3Y38+1WGW4A+3MKA+HWXLD\" alt=\"\">"
+    },
+    {
+     "w": 728,
+     "h": 90,
+     "code": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B3Y38+1WGW4A+3MKA+HW2Q9\" rel=\"nofollow\"> <img border=\"0\" width=\"728\" height=\"90\" alt=\"\" src=\"https://www20.a8.net/svt/bgt?aid=260524628115&wid=002&eno=01&mid=s00000016921003005000&mc=1\"></a> <img border=\"0\" width=\"1\" height=\"1\" src=\"https://www17.a8.net/0.gif?a8mat=4B3Y38+1WGW4A+3MKA+HW2Q9\" alt=\"\">"
+    },
+    {
+     "w": 250,
+     "h": 250,
+     "code": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B3Y38+1WGW4A+3MKA+HWAG1\" rel=\"nofollow\"> <img border=\"0\" width=\"250\" height=\"250\" alt=\"\" src=\"https://www24.a8.net/svt/bgt?aid=260524628115&wid=002&eno=01&mid=s00000016921003006000&mc=1\"></a> <img border=\"0\" width=\"1\" height=\"1\" src=\"https://www10.a8.net/0.gif?a8mat=4B3Y38+1WGW4A+3MKA+HWAG1\" alt=\"\">"
+    },
+    {
+     "w": 160,
+     "h": 600,
+     "code": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B3Y38+1WGW4A+3MKA+HWI5T\" rel=\"nofollow\"> <img border=\"0\" width=\"160\" height=\"600\" alt=\"\" src=\"https://www26.a8.net/svt/bgt?aid=260524628115&wid=002&eno=01&mid=s00000016921003007000&mc=1\"></a> <img border=\"0\" width=\"1\" height=\"1\" src=\"https://www17.a8.net/0.gif?a8mat=4B3Y38+1WGW4A+3MKA+HWI5T\" alt=\"\">"
+    },
+    {
+     "w": 240,
+     "h": 1200,
+     "code": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B3Y38+1WGW4A+3MKA+HX5B5\" rel=\"nofollow\"> <img border=\"0\" width=\"240\" height=\"1200\" alt=\"\" src=\"https://www28.a8.net/svt/bgt?aid=260524628115&wid=002&eno=01&mid=s00000016921003010000&mc=1\"></a> <img border=\"0\" width=\"1\" height=\"1\" src=\"https://www18.a8.net/0.gif?a8mat=4B3Y38+1WGW4A+3MKA+HX5B5\" alt=\"\">"
+    },
+    {
+     "w": 700,
+     "h": 160,
+     "code": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B3Y38+1WGW4A+3MKA+HXD0X\" rel=\"nofollow\"> <img border=\"0\" width=\"700\" height=\"160\" alt=\"\" src=\"https://www27.a8.net/svt/bgt?aid=260524628115&wid=002&eno=01&mid=s00000016921003011000&mc=1\"></a> <img border=\"0\" width=\"1\" height=\"1\" src=\"https://www10.a8.net/0.gif?a8mat=4B3Y38+1WGW4A+3MKA+HXD0X\" alt=\"\">"
+    },
+    {
+     "w": 936,
+     "h": 120,
+     "code": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B3Y38+1WGW4A+3MKA+HXKQP\" rel=\"nofollow\"> <img border=\"0\" width=\"936\" height=\"120\" alt=\"\" src=\"https://www26.a8.net/svt/bgt?aid=260524628115&wid=002&eno=01&mid=s00000016921003012000&mc=1\"></a> <img border=\"0\" width=\"1\" height=\"1\" src=\"https://www14.a8.net/0.gif?a8mat=4B3Y38+1WGW4A+3MKA+HXKQP\" alt=\"\">"
+    },
+    {
+     "w": 350,
+     "h": 43,
+     "code": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B3Y38+1WGW4A+3MKA+HXSGH\" rel=\"nofollow\"> <img border=\"0\" width=\"350\" height=\"43\" alt=\"\" src=\"https://www23.a8.net/svt/bgt?aid=260524628115&wid=002&eno=01&mid=s00000016921003013000&mc=1\"></a> <img border=\"0\" width=\"1\" height=\"1\" src=\"https://www10.a8.net/0.gif?a8mat=4B3Y38+1WGW4A+3MKA+HXSGH\" alt=\"\">"
+    },
+    {
+     "w": 500,
+     "h": 500,
+     "code": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B3Y38+1WGW4A+3MKA+HY069\" rel=\"nofollow\"> <img border=\"0\" width=\"500\" height=\"500\" alt=\"\" src=\"https://www26.a8.net/svt/bgt?aid=260524628115&wid=002&eno=01&mid=s00000016921003014000&mc=1\"></a> <img border=\"0\" width=\"1\" height=\"1\" src=\"https://www10.a8.net/0.gif?a8mat=4B3Y38+1WGW4A+3MKA+HY069\" alt=\"\">"
+    },
+    {
+     "w": 234,
+     "h": 60,
+     "code": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B3Y38+1WGW4A+3MKA+HY7W1\" rel=\"nofollow\"> <img border=\"0\" width=\"234\" height=\"60\" alt=\"\" src=\"https://www25.a8.net/svt/bgt?aid=260524628115&wid=002&eno=01&mid=s00000016921003015000&mc=1\"></a> <img border=\"0\" width=\"1\" height=\"1\" src=\"https://www16.a8.net/0.gif?a8mat=4B3Y38+1WGW4A+3MKA+HY7W1\" alt=\"\">"
+    },
+    {
+     "w": 120,
+     "h": 60,
+     "code": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B3Y38+1WGW4A+3MKA+HYFLT\" rel=\"nofollow\"> <img border=\"0\" width=\"120\" height=\"60\" alt=\"\" src=\"https://www20.a8.net/svt/bgt?aid=260524628115&wid=002&eno=01&mid=s00000016921003016000&mc=1\"></a> <img border=\"0\" width=\"1\" height=\"1\" src=\"https://www12.a8.net/0.gif?a8mat=4B3Y38+1WGW4A+3MKA+HYFLT\" alt=\"\">"
+    },
+    {
+     "w": 350,
+     "h": 43,
+     "code": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B3Y38+1WGW4A+3MKA+HYNBL\" rel=\"nofollow\"> <img border=\"0\" width=\"350\" height=\"43\" alt=\"\" src=\"https://www23.a8.net/svt/bgt?aid=260524628115&wid=002&eno=01&mid=s00000016921003017000&mc=1\"></a> <img border=\"0\" width=\"1\" height=\"1\" src=\"https://www12.a8.net/0.gif?a8mat=4B3Y38+1WGW4A+3MKA+HYNBL\" alt=\"\">"
+    },
+    {
+     "w": 300,
+     "h": 250,
+     "code": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B3Y38+1WGW4A+3MKA+HYV1D\" rel=\"nofollow\"> <img border=\"0\" width=\"300\" height=\"250\" alt=\"\" src=\"https://www21.a8.net/svt/bgt?aid=260524628115&wid=002&eno=01&mid=s00000016921003018000&mc=1\"></a> <img border=\"0\" width=\"1\" height=\"1\" src=\"https://www19.a8.net/0.gif?a8mat=4B3Y38+1WGW4A+3MKA+HYV1D\" alt=\"\">"
+    }
+   ],
    "ui": []
   },
   {
    "id": "s00000014546024",
-   "name": "ログイン再認証｜A8.netメディア管理画面",
-   "banners": [],
+   "name": "広告リンク作成｜A8.netメディア管理画面",
+   "banners": [
+    {
+     "w": 300,
+     "h": 250,
+     "code": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B3Y38+26L9EI+348K+3YXBHD\" rel=\"nofollow\"> <img border=\"0\" width=\"300\" height=\"250\" alt=\"\" src=\"https://www25.a8.net/svt/bgt?aid=260524628132&wid=002&eno=01&mid=s00000014546024006000&mc=1\"></a> <img border=\"0\" width=\"1\" height=\"1\" src=\"https://www14.a8.net/0.gif?a8mat=4B3Y38+26L9EI+348K+3YXBHD\" alt=\"\">"
+    },
+    {
+     "w": 468,
+     "h": 60,
+     "code": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B3Y38+26L9EI+348K+3YXJ75\" rel=\"nofollow\"> <img border=\"0\" width=\"468\" height=\"60\" alt=\"\" src=\"https://www27.a8.net/svt/bgt?aid=260524628132&wid=002&eno=01&mid=s00000014546024007000&mc=1\"></a> <img border=\"0\" width=\"1\" height=\"1\" src=\"https://www10.a8.net/0.gif?a8mat=4B3Y38+26L9EI+348K+3YXJ75\" alt=\"\">"
+    },
+    {
+     "w": 234,
+     "h": 60,
+     "code": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B3Y38+26L9EI+348K+3YXQWX\" rel=\"nofollow\"> <img border=\"0\" width=\"234\" height=\"60\" alt=\"\" src=\"https://www24.a8.net/svt/bgt?aid=260524628132&wid=002&eno=01&mid=s00000014546024008000&mc=1\"></a> <img border=\"0\" width=\"1\" height=\"1\" src=\"https://www15.a8.net/0.gif?a8mat=4B3Y38+26L9EI+348K+3YXQWX\" alt=\"\">"
+    },
+    {
+     "w": 120,
+     "h": 60,
+     "code": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B3Y38+26L9EI+348K+3YXYMP\" rel=\"nofollow\"> <img border=\"0\" width=\"120\" height=\"60\" alt=\"\" src=\"https://www24.a8.net/svt/bgt?aid=260524628132&wid=002&eno=01&mid=s00000014546024009000&mc=1\"></a> <img border=\"0\" width=\"1\" height=\"1\" src=\"https://www17.a8.net/0.gif?a8mat=4B3Y38+26L9EI+348K+3YXYMP\" alt=\"\">"
+    },
+    {
+     "w": 100,
+     "h": 60,
+     "code": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B3Y38+26L9EI+348K+3YY6CH\" rel=\"nofollow\"> <img border=\"0\" width=\"100\" height=\"60\" alt=\"\" src=\"https://www27.a8.net/svt/bgt?aid=260524628132&wid=002&eno=01&mid=s00000014546024010000&mc=1\"></a> <img border=\"0\" width=\"1\" height=\"1\" src=\"https://www10.a8.net/0.gif?a8mat=4B3Y38+26L9EI+348K+3YY6CH\" alt=\"\">"
+    }
+   ],
    "ui": []
   }
  ]

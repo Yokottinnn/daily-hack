@@ -1,7 +1,7 @@
 [
-      {"task": "t421-a8-banners-retry.sh", "rc": 0, "out": "- バナー 0 件（）  ### s00000013511010 ログイン再認証｜A8.netメディア管理画面 - 画面: https://media-console.a8.net/common/re-authentication - バナー 0 件（）"},
-      {"task": "t422-a8-banners-retry.sh", "rc": 0, "out": "- バナー 0 件（）  ### s00000014546024 ログイン再認証｜A8.netメディア管理画面 - 画面: https://media-console.a8.net/common/re-authentication - バナー 0 件（）"},
-      {"task": "t423-asp-search-wide1-retry.sh", "rc": 0, "out": "moshimo: 済 vc: 済 ``` - 詳細: `reports/asp-search/`（a8.md・moshimo.md・vc.md） rc=0 /      276 bytes"},
-      {"task": "t424-asp-search-wide2-retry.sh", "rc": 0, "out": "moshimo: 済 vc: 済 ``` - 詳細: `reports/asp-search/`（a8.md・moshimo.md・vc.md） rc=0 /      276 bytes"},
-      {"task": "t425-asp-search-wide3-retry.sh", "rc": 0, "out": "moshimo: 済 vc: 済 ``` - 詳細: `reports/asp-search/`（a8.md・moshimo.md・vc.md） rc=0 /      276 bytes"}
+      {"task": "t426-a8-banners-reauth.sh", "rc": 0, "out": "- バナー 6 件（120x60・320x50・468x60・300x250・234x60・100x60）  ### s00000013511010 広告リンク作成｜A8.netメディア管理画面 - 画面: https://media-console.a8.net/program/create-link - バナー 6 件（300x250・100x60・600x500・200x120・144x144・200x200）"},
+      {"task": "t427-a8-banners-reauth.sh", "rc": 0, "out": "- バナー 16 件（300x250・468x60・120x60・500x500・728x90・250x250・160x600・240x1200・700x160・936x120・350x43・500x500・234x60・120x60・350x43・300x250）  ### s00000014546024 広告リンク作成｜A8.netメディア管理画面 - 画面: https://media-console.a8.net/program/c"},
+      {"task": "t428-asp-search-wide1-reauth.sh", "rc": 0, "out": "moshimo: 済 vc: 済 ``` - 詳細: `reports/asp-search/`（a8.md・moshimo.md・vc.md） rc=0 /      276 bytes"},
+      {"task": "t429-asp-search-wide2-reauth.sh", "rc": 0, "out": "moshimo: 済 vc: 済 ``` - 詳細: `reports/asp-search/`（a8.md・moshimo.md・vc.md） rc=0 /      276 bytes"},
+      {"task": "t430-asp-search-wide3-reauth.sh", "rc": 0, "out": "moshimo: 済 vc: 済 ``` - 詳細: `reports/asp-search/`（a8.md・moshimo.md・vc.md） rc=0 /      276 bytes"}
   ]

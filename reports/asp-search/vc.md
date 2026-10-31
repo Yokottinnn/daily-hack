@@ -1,12 +1,12 @@
 # バリューコマース 提携済み（asp-search）
 
-生成: **2026-10-31T06:41:51.146Z**
+生成: **2026-10-31T06:53:47.901Z**
 
 - 「提携済み」の URL: javascript:void(0)
 
-- 【LYPプレミアム（旧Yahoo!プレミアム）】 会員獲得プログラム — https://aff.valuecommerce.ne.jp/ad/adDetail/2082539?tag=cm&spot=d
 - 【ニーズツアー】国内旅行＆沖縄旅行 — https://aff.valuecommerce.ne.jp/ad/adDetail/2175237?tag=cm&spot=d
 - 世界最大級！ツアーアクティビティの検索サイト「Liigo」販促プログラム — https://aff.valuecommerce.ne.jp/ad/adDetail/2161122?tag=cm&spot=d
+- 【LYPプレミアム（旧Yahoo!プレミアム）】 会員獲得プログラム — https://aff.valuecommerce.ne.jp/ad/adDetail/2082539?tag=cm&spot=d
 - マルイのネット通販マルイウェブチャネル — https://aff.valuecommerce.ne.jp/ad/adDetail/2165155?tag=cm&spot=d
 - Lenovo/レノボ公式オンラインストア — https://aff.valuecommerce.ne.jp/ad/adDetail/176
 - Audibleアフィリエイト紹介プログラム — https://aff.valuecommerce.ne.jp/ad/adDetail/2174874
