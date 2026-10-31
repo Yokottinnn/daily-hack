@@ -2,6 +2,7 @@
 //   SHOP_SETUP=rakuten  … 楽天ウェブサービスのアプリ一覧から Access Key を読み Keychain（dailyhack-rakuten-ws / accessKey）に入れ、API が通るか 1 回だけ試す
 //   SHOP_SETUP=moshimo  … もしもで「Amazon」を検索し、出たプロモーションの行とボタンを読む（**押さない**）
 //   SHOP_SETUP=amazon-click … 本番の記事の Amazon ボタンを押し、着いた先に tag が残るか・ロボット確認が出ないかを読む（買わない）
+//   SHOP_SETUP=amazon-login … Keychain（dailyhack-asp-amazon）でアソシエイト・セントラルにログインする。確認コード・画像認証が出たら止めて画面を読む
 //   SHOP_SETUP=amazon-open  … 利用者がアソシエイトにログインする画面を開いたままにする
 //   SHOP_SETUP=yahoo    … Yahoo! デベロッパーネットワークのアプリ管理・登録の画面を読む（**送らない**）
 // ログインは asp-sync.mjs が保っている Chrome（CDP 18810）を使う。**鍵・会員名・報酬額は出さない**（鍵は文字数だけ）。
@@ -347,6 +348,31 @@ try {
         `- 途中の URL（${hops.length} 回）: ${hops.slice(0, 5).join(' → ')}`, `- ページの題名: ${info.title || '—'}・ロボット確認の画面: ${info.robot ? '**出た**' : '出ていない'}・検索結果の商品 ${info.results ?? '—'} 件`,
         `- アソシエイトの帯（サイトストライプ）: ${info.stripe ? '出ている（この Chrome でアソシエイトにログイン済み）' : '出ていない（この Chrome ではアソシエイトに未ログイン）'}`);
       await q.close().catch(() => {});
+    }
+  }
+
+  if (WHICH === 'amazon-login') {
+    // 2026-10-31 利用者「ログインの作業自体も Mac でやって」。asp-sync と同じ Keychain（dailyhack-asp-amazon・アカウント＝メール）で入る。**値は出さない**
+    const cred = aspCred('amazon');
+    lines.push(`- Keychain の dailyhack-asp-amazon: ${cred ? 'ある' : '**無い**（登録は利用者が 1 回だけ: security add-generic-password -U -s dailyhack-asp-amazon -a \'メール\' -w）'}`);
+    await go('https://affiliate.amazon.co.jp/home');
+    const st = async () => { const u = p.url(); const t = await p.evaluate(() => document.body.innerText || '').catch(() => '');
+      return /affiliate\.amazon\.co\.jp\/home/.test(u) && !/ap\/signin/.test(u) ? 'in' : /ap\/(cvf|mfa)|確認コード|ワンタイムパスワード|OTP/i.test(u + t) ? 'otp' : /captcha|文字を入力|表示されている文字/i.test(t) ? 'captcha' : /ap\/signin/.test(u) ? 'signin' : 'other'; };
+    let s0 = await st();
+    lines.push(`- 最初の状態: ${s0}（${here()}）`);
+    if (s0 === 'signin' && cred) {
+      const email = p.locator('input[name=email]:visible, #ap_email:visible').first();
+      if (await email.count()) { await email.fill(cred.user); const c = p.locator('#continue:visible, input#continue:visible').first(); if (await c.count()) await c.click().catch(() => {}); await p.waitForTimeout(3000); }
+      const pw = p.locator('input[name=password]:visible, #ap_password:visible').first();
+      if (await pw.count()) { await pw.fill(cred.pass); const r = p.locator('input[name=rememberMe]:visible').first(); if (await r.count()) await r.check().catch(() => {});
+        await p.locator('#signInSubmit:visible, input#signInSubmit:visible').first().click().catch(() => {}); await p.waitForLoadState('domcontentloaded', { timeout: 20000 }).catch(() => {}); await p.waitForTimeout(5000); }
+      s0 = await st();
+      lines.push(`- ID・パスワードを入れたあとの状態: ${s0}（${here()}）`);
+    }
+    if (s0 === 'otp' || s0 === 'captcha' || s0 === 'other') await dump('ログインの途中で止まった画面（押していない）');
+    if (s0 === 'in') {
+      const heads = await p.evaluate(() => [...document.querySelectorAll('h1,h2,h3')].map((h) => h.innerText.trim()).filter(Boolean).slice(0, 12));
+      lines.push('- **アソシエイト・セントラルに入れた**', ...heads.filter((x) => !NG.test(x)).map((x) => `  - ${mask(x).replace(/[0-9０-９][0-9０-９,.]*/g, '#')}`));
     }
   }
 
