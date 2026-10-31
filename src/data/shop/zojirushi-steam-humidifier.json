@@ -28,7 +28,7 @@
       "label": "タンク"
     }
   ],
-  "pricesCheckedAt": null,
+  "pricesCheckedAt": "2026-10-30T21:46:11.773Z",
   "items": [
     {
       "id": "zojirushi-ee-tc60",
@@ -66,7 +66,15 @@
           "フィルター",
           "交換用",
           "部品"
-        ]
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/sanrex/ee-tc60-wa.html",
+        "price": 24500,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 0,
+        "shop": "サンサン マーケット",
+        "checkedAt": "2026-10-30T21:46:11.773Z"
       },
       "amazon": {
         "keyword": "象印 EE-TC60",
@@ -111,7 +119,15 @@
           "フィルター",
           "交換用",
           "部品"
-        ]
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/life-marketkyoto/ee-dg50-wa.html",
+        "price": 20560,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 0,
+        "shop": "ライフマーケットYahoo!店",
+        "checkedAt": "2026-10-30T21:46:11.773Z"
       },
       "amazon": {
         "keyword": "象印 EE-DG50",
@@ -156,7 +172,15 @@
           "フィルター",
           "交換用",
           "部品"
-        ]
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/sanrex/ee-dg35-ha.html",
+        "price": 18800,
+        "shippingFree": false,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 0,
+        "shop": "サンサン マーケット",
+        "checkedAt": "2026-10-30T21:46:11.773Z"
       },
       "amazon": {
         "keyword": "象印 EE-DG35",
@@ -201,7 +225,15 @@
           "フィルター",
           "交換用",
           "部品"
-        ]
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/macocoro/ee-rv50.html",
+        "price": 16100,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 0,
+        "shop": "まごころでんき Yahoo!店",
+        "checkedAt": "2026-10-30T21:46:11.773Z"
       },
       "amazon": {
         "keyword": "象印 EE-RV50",
@@ -246,7 +278,15 @@
           "フィルター",
           "交換用",
           "部品"
-        ]
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/to-rulease/1-240001019657.html",
+        "price": 14550,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 0,
+        "shop": "ディスカウントショップとーるりーす",
+        "checkedAt": "2026-10-30T21:46:11.773Z"
       },
       "amazon": {
         "keyword": "象印 EE-RV35",
@@ -289,7 +329,15 @@
           "フィルター",
           "交換用",
           "部品"
-        ]
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/wink-digital/276156.html",
+        "price": 15100,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 0,
+        "shop": "ウインクデジタル ヤフー店",
+        "checkedAt": "2026-10-30T21:46:11.773Z"
       },
       "amazon": {
         "keyword": "象印 EE-MC20",
@@ -332,7 +380,15 @@
           "フィルター",
           "交換用",
           "部品"
-        ]
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/archholesale/1311608.html",
+        "price": 30238,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 1,
+        "shop": "ア-チホ-ルセ-ル",
+        "checkedAt": "2026-10-30T21:46:11.773Z"
       },
       "amazon": {
         "keyword": "象印 EE-FA50",
