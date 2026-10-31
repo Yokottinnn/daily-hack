@@ -20,7 +20,7 @@ const KW = (process.env.ASP_KEYWORDS || '').split(',').map((x) => x.trim()).filt
 const NG = /契約者|振込|口座|氏名|合同会社|有限会社|（\d{6,}）|\(\d{6,}\)|あなたの報酬|確定報酬|未確定/;
 const clean = (t) => t.replace(/\s+/g, ' ').trim();
 
-const b = await chromium.connectOverCDP(`http://127.0.0.1:${process.env.CDP_PORT || '18810'}`);
+const b = await chromium.connectOverCDP(`http://127.0.0.1:${process.env.CDP_PORT || '18810'}`, { timeout: 90000 });
 const ctx = b.contexts()[0] || (await b.newContext());
 const p = await ctx.newPage();
 const loggedOut = async () => p.evaluate(() => !!document.querySelector('input[type=password]') || /login|re-authentication/i.test(location.href));

@@ -19,7 +19,7 @@ const NG = /契約者|振込|口座|氏名|合同会社|有限会社|（\d{6,}�
 const ROWS = [];
 const RID = /[0-9a-f]{8}\.[0-9a-f]{8}\.[0-9a-f]{8}\.[0-9a-f]{8}/g;
 
-const b = await chromium.connectOverCDP(`http://127.0.0.1:${process.env.CDP_PORT || '18810'}`);
+const b = await chromium.connectOverCDP(`http://127.0.0.1:${process.env.CDP_PORT || '18810'}`, { timeout: 90000 });
 const ctx = b.contexts()[0] || (await b.newContext());
 const p = await ctx.newPage();
 const lines = [`# ASP の画面調べ: ${WHICH}（asp-probe）`, '', `生成: **${new Date().toISOString()}**`, ''];

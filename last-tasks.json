@@ -1,1 +1,7 @@
-[]
+[
+      {"task": "t421-a8-banners-retry.sh", "rc": 0, "out": "- バナー 0 件（）  ### s00000013511010 ログイン再認証｜A8.netメディア管理画面 - 画面: https://media-console.a8.net/common/re-authentication - バナー 0 件（）"},
+      {"task": "t422-a8-banners-retry.sh", "rc": 0, "out": "- バナー 0 件（）  ### s00000014546024 ログイン再認証｜A8.netメディア管理画面 - 画面: https://media-console.a8.net/common/re-authentication - バナー 0 件（）"},
+      {"task": "t423-asp-search-wide1-retry.sh", "rc": 0, "out": "moshimo: 済 vc: 済 ``` - 詳細: `reports/asp-search/`（a8.md・moshimo.md・vc.md） rc=0 /      276 bytes"},
+      {"task": "t424-asp-search-wide2-retry.sh", "rc": 0, "out": "moshimo: 済 vc: 済 ``` - 詳細: `reports/asp-search/`（a8.md・moshimo.md・vc.md） rc=0 /      276 bytes"},
+      {"task": "t425-asp-search-wide3-retry.sh", "rc": 0, "out": "moshimo: 済 vc: 済 ``` - 詳細: `reports/asp-search/`（a8.md・moshimo.md・vc.md） rc=0 /      276 bytes"}
+  ]
