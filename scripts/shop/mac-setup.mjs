@@ -401,8 +401,10 @@ try {
     lines.push(`- アソシエイト・セントラル: ${inn ? '**入れている**' : '**入れていない**（ログインが切れた）'}（${here()}）`);
     if (inn) {
       const txt = await p.evaluate(() => (document.body.innerText || '').split('\n').map((x) => x.trim()).filter(Boolean));
-      const i = txt.findIndex((x) => /^クリック/.test(x));
-      let clicks = null; if (i >= 0) for (let j = i; j < Math.min(i + 4, txt.length); j++) { const m = txt[j].replace(/[,，]/g, '').match(/\d+/); if (m) { clicks = Number(m[0]); break; } }
+      // t396: ホームは「クリック数:」の次の行が直近の合計（グラフの日付の行は拾わない）
+      const i = txt.findIndex((x) => /^クリック数[:：]/.test(x));
+      let clicks = null; if (i >= 0) { const m = (txt[i].replace(/^クリック数[:：]/, '') || txt[i + 1] || '').replace(/[,，]/g, '').match(/^\s*(\d+)\s*$/); if (m) clicks = Number(m[1]); }
+      lines.push(`- 税務情報のアンケート: ${txt.some((x) => /税務情報に関するアンケートへの回答が必要/.test(x)) ? '**未回答**（紹介料の支払いに必要）' : '回答済み'}`);
       lines.push(`- ホームの「クリック」: ${clicks == null ? '見つからない' : clicks > 0 ? '**1 以上**（数は出さない）' : '0'}`);
       lines.push('- ホームの項目（数字は # に伏せる）:', ...txt.filter((x) => x.length < 40 && !NG.test(x)).slice(0, 40).map((x) => `  - ${mask(x).replace(/[0-9０-９][0-9０-９,.]*/g, '#')}`));
       await go('https://www.amazon.co.jp/s?k=mottole+MTL-E029');
@@ -412,8 +414,13 @@ try {
         const ss = await p.evaluate(() => !!document.querySelector('#amzn-ss-wrap, [id^="amzn-ss"]'));
         lines.push(`- 商品ページ: ${here()}・サイトストライプ: ${ss ? '出ている' : '**出ていない**'}`);
         if (ss) {
-          await p.locator('#amzn-ss-text-link, [id^="amzn-ss-text"]:visible').first().click({ timeout: 5000 }).catch(() => {});
-          await p.waitForTimeout(3000);
+          // t396: id では押せなかった。帯の中の「テキスト」の文字で押し、「フルリンク」を選んでから読む
+          const ssBtns = await p.evaluate(() => [...document.querySelectorAll('#amzn-ss-wrap a, #amzn-ss-wrap button, #amzn-ss-wrap span, [id^="amzn-ss"] a')].map((e) => `${e.id || e.tagName.toLowerCase()}「${(e.innerText || '').trim().slice(0, 15)}」`).filter((x) => !/「」/.test(x)).slice(0, 15));
+          lines.push(`- 帯の部品: ${ssBtns.join(' ／ ') || 'なし'}`);
+          await p.locator('#amzn-ss-wrap').getByText('テキスト', { exact: true }).first().click({ timeout: 5000 }).catch(() => {});
+          await p.waitForTimeout(2500);
+          await p.getByText(/フルリンク|完全なリンク|Full link/).first().click({ timeout: 3000 }).catch(() => {});
+          await p.waitForTimeout(1500);
           const links = await p.evaluate(() => [...document.querySelectorAll('textarea, input[type=text]')].map((e) => e.value).filter((v) => /amazon\.co\.jp|amzn\.to/.test(v)));
           for (const l of links.slice(0, 3)) { let shape = l; try { const u = new URL(l); shape = `${u.origin}${u.pathname.replace(/[A-Z0-9]{10}/, '<ASIN>')}?${[...u.searchParams.keys()].map((k) => `${k}=${k === 'tag' ? u.searchParams.get(k) : '…'}`).join('&')}`; } catch {}
             lines.push(`- サイトストライプのリンク（形）: ${shape}`); }
