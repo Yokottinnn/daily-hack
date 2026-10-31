@@ -185,6 +185,20 @@ tr[data-ccount]::after{top:4px;right:4px}
 .c .r{margin-top:8px;padding:8px 12px;border-left:3px solid var(--teal);background:var(--teal-soft);border-radius:0 8px 8px 0;white-space:pre-wrap;font-size:14px}
 .c a.go{font-size:12px}
 .list{display:grid;gap:10px;margin-top:12px}
+.calbar{display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin:8px 0}
+.cal-legend{display:flex;gap:10px;align-items:center;font-size:12px;color:var(--muted);margin-left:auto}
+.cal-legend i,.cal .ev i{display:inline-block;width:10px;height:10px;border-radius:3px;vertical-align:-1px;margin-right:3px}
+.st-posted{background:var(--ok)} .st-scheduled{background:var(--brand)} .st-planned{background:var(--warn)}
+.cal{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:4px}
+.cal .dow{font-size:12px;color:var(--muted);text-align:center;padding:2px 0}
+.cal .day{background:var(--sheet);border:1px solid var(--rule);border-radius:8px;min-height:86px;padding:4px 6px;font-size:12px;min-width:0}
+.cal .day.out{opacity:.35}
+.cal .day.today{border-color:var(--brand);box-shadow:inset 0 0 0 1px var(--brand)}
+.cal .day .n{font-family:var(--f-data);font-size:11px;color:var(--muted)}
+.cal .day.sat .n{color:var(--teal)} .cal .day.sun .n{color:var(--bad)}
+.cal .ev{display:block;margin-top:3px;line-height:1.35;word-break:break-all;color:var(--ink);text-decoration:none}
+.cal .ev small{color:var(--muted)}
+@media (max-width:820px){.cal .day{min-height:64px;padding:3px}.cal .ev{font-size:11px}}
 @media (max-width:820px){
   .shell{grid-template-columns:1fr}
   nav.toc{position:sticky;top:env(safe-area-inset-top,0px);max-height:none;z-index:15;border-right:0;border-bottom:1px solid var(--rule);padding:10px 16px}
@@ -841,6 +855,11 @@ tr[data-ccount]::after{top:4px;right:4px}
   <div class="c" data-cid="x.review-link"><div class="b"><b>投稿レビューページ</b>：文面の書き換え・画像へのコメント・型の変更はこちらで。<a href="https://claude.ai/artifact/1o7gjZZghit8kn3W4AXUdH" target="_blank" rel="noopener">レビューページを開く</a></div></div>
   <p class="src" id="xdrafts-meta">下書きの一覧を読み込み中</p>
   <div class="list" id="xdrafts"><p class="empty">読み込み中</p></div>
+  <h2 data-cid="x.cal.head">投稿カレンダー</h2>
+  <p class="src" data-cid="x.cal.rule"><b>翌週（月〜金）の投稿は、金曜までに Claude が準備してレビューページに出す。土日にあなたが決める。</b>決まったものは予約して、この表に出す。</p>
+  <div class="calbar"><button type="button" class="linkish" id="cal-prev">← 前の月</button><b id="cal-title"></b><button type="button" class="linkish" id="cal-next">次の月 →</button>
+    <span class="cal-legend"><i class="st-posted"></i>投稿済み <i class="st-scheduled"></i>予約済み <i class="st-planned"></i>出す日が決まった</span></div>
+  <div class="cal" id="xcal"><p class="empty">読み込み中</p></div>
   <h2>X の収益化までの距離</h2>
   <div class="tbl"><table><thead><tr><th>条件</th><th>いま</th><th>足りない</th></tr></thead><tbody id="tbl-xcond"><tr><td colspan="3" class="empty">データ待ち</td></tr></tbody></table></div>
   <p class="src">数字は共通戦略の「共有の数字」から（X 担当のセッションが一次情報で更新）。返信の表示は条件に数えられない。</p>
@@ -1120,7 +1139,7 @@ tr[data-ccount]::after{top:4px;right:4px}
     $$('#fb-filters button').forEach(b=>b.addEventListener('click',()=>{ fbF=b.dataset.f; $$('#fb-filters button').forEach(x=>x.setAttribute('aria-pressed',x===b?'true':'false')); renderList(); }));
     // スナップショット・更新履歴
     db.collection('ideas').onSnapshot(snap=>{ IDEAS=snap.docs.map(d=>Object.assign({id:d.id},d.data())); ideaFilters(); renderIdeas(); const n=IDEAS.filter(t=>t.status==='idea').length, b=$('a[data-page="ideas"] .badge',toc); if(b){ b.hidden=!n; b.textContent=n; } },()=>{ $('#ideas').innerHTML='<p class="empty">読み込めませんでした。</p>'; });
-    db.doc('xdrafts/current').onSnapshot(s=>{ renderXDrafts(s.exists?s.data():null); },()=>{ $('#xdrafts-meta').textContent='読み込めませんでした。'; });
+    db.doc('xdrafts/current').onSnapshot(s=>{ const d=s.exists?s.data():null; renderXDrafts(d); XCAL=(d&&d.calendar)||[]; renderXCal(); },()=>{ $('#xdrafts-meta').textContent='読み込めませんでした。'; });
     db.collection('linkplan').onSnapshot(snap=>{ LINKS=snap.docs.map(d=>Object.assign({id:d.id},d.data())); renderLinkplan(); },()=>{});
     db.collection('todos').onSnapshot(snap=>{ TODOS=snap.docs.map(d=>Object.assign({id:d.id},d.data())); renderTodos(); const n=TODOS.filter(t=>t.status==='you').length, b=$('a[data-page="tasks"] .badge',toc); if(b){ b.hidden=!n; b.textContent=n; } },()=>{ $('#todos').innerHTML='<p class="empty">読み込めませんでした。</p>'; });
     db.doc('results/latest').onSnapshot(s=>{ RESULTS=s.exists?s.data():null; renderResults(); if(SNAP) renderCalc(); },()=>{});
@@ -1296,6 +1315,23 @@ tr[data-ccount]::after{top:4px;right:4px}
   }
 
   // ---- X の投稿準備中の下書き（db の xdrafts/current。tweet2 がレビューページを更新するたびに書き換える） ----
+  // ---- 投稿カレンダー（xdrafts/current の calendar。2026-10-31 利用者「11月19日にはこの投稿、24日にはこの投稿、というのを可視化」）----
+  let XCAL=[], calYM=null;
+  function renderXCal(){ const box=$('#xcal'); if(!box) return;
+    const tz=new Date(Date.now()+9*3600e3); if(!calYM) calYM={y:tz.getUTCFullYear(),m:tz.getUTCMonth()};
+    const today=tz.toISOString().slice(0,10), {y,m}=calYM;
+    $('#cal-title').textContent=y+'年'+(m+1)+'月';
+    const first=new Date(Date.UTC(y,m,1)), start=new Date(first.getTime()-((first.getUTCDay()+6)%7)*864e5);
+    const NAME={posted:'投稿済み',scheduled:'予約済み',planned:'出す日が決まった'};
+    const cells=['月','火','水','木','金','土','日'].map(d=>'<div class="dow">'+d+'</div>');
+    for(let i=0;i<42;i++){ const d=new Date(start.getTime()+i*864e5), iso=d.toISOString().slice(0,10), wd=d.getUTCDay();
+      if(i>=35&&d.getUTCMonth()!==m) break;
+      const evs=XCAL.filter(e=>e.date===iso).map(e=>{ const lab='<i class="st-'+esc(e.state)+'" title="'+NAME[e.state]+'"></i>'+(e.time?'<small>'+esc(e.time)+' </small>':'')+esc(String(e.title||e.key).split('｜')[0]);
+        return e.url?'<a class="ev" href="'+esc(e.url)+'" target="_blank" rel="noopener" title="'+esc(e.title)+'">'+lab+'</a>':'<span class="ev" title="'+esc(e.title)+'（'+NAME[e.state]+'）">'+lab+'</span>'; }).join('');
+      cells.push('<div class="day'+(d.getUTCMonth()!==m?' out':'')+(iso===today?' today':'')+(wd===6?' sat':wd===0?' sun':'')+'" data-cid="x.cal.'+iso+'"><div class="n">'+d.getUTCDate()+'</div>'+evs+'</div>'); }
+    box.innerHTML=cells.join(''); applyCounts(); }
+  document.addEventListener('click',e=>{ const b=e.target.closest&&e.target.closest('#cal-prev,#cal-next'); if(!b||!calYM) return; calYM.m+=b.id==='cal-next'?1:-1; if(calYM.m<0){calYM.m=11;calYM.y--;} if(calYM.m>11){calYM.m=0;calYM.y++;} renderXCal(); });
+
   function renderXDrafts(D){ const box=$('#xdrafts'), meta=$('#xdrafts-meta'), home=$('#home-xdrafts'); if(!box) return;
     const L=((D&&D.drafts)||[]);
     meta.textContent=D?('更新 '+String(D.updatedAt||'').replace('T',' ').slice(0,16)+'・'+L.length+' 組（投稿していないものだけ）'):'まだ届いていません。';
