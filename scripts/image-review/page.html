@@ -76,6 +76,8 @@
   .nextbox li.alt { margin-left:1.2em; }
   .nextbox li > .linkish { font-weight:700; }
   .nextbox .hint { margin:8px 0 0; font-size:12px; color:var(--muted); }
+  .skip { display:inline-flex; align-items:center; gap:4px; margin-left:10px; font-size:12px; color:var(--muted); cursor:pointer; }
+  .set > header .skip { margin:6px 0 0; display:flex; }
   .linkish { font:inherit; background:none; border:0; padding:0; color:var(--ink); text-decoration:underline; cursor:pointer; text-align:left; }
   .state { display:inline-block; margin-bottom:4px; padding:1px 10px; border-radius:999px; font-size:11.5px; font-weight:700; border:1px solid currentColor; }
   .state.s-draft { color:var(--accent); }
@@ -647,7 +649,17 @@
     const pill = document.createElement("span");
     pill.className = "state s-" + set.state;
     pill.textContent = STATE_NAME[set.state] + (set.date ? "・" + set.date : "");
+    set._pill = pill;
     head.append(pill, h2, slug);
+    // **投稿しない組にチェックを付けられる**（2026-10-31・利用者「投稿するつもりがないものはちゃんとチェックをつけられるようにしたい／そうじゃないと一生『次に出す予定のもの』に溜まっていく」）
+    if (set.state === "draft" || set.state === "dropped") {
+      const lab = document.createElement("label"); lab.className = "skip";
+      const cb = document.createElement("input"); cb.type = "checkbox"; cb.checked = set.state === "dropped";
+      cb.addEventListener("change", () => setSkip(set.key, cb.checked));
+      lab.append(cb, document.createTextNode(" 投稿しない（見送りにする）"));
+      set._skip = cb;
+      head.append(lab);
+    }
     if (set.stateNote && set.state !== "draft") {
       const sn = document.createElement("p"); sn.className = "posted"; sn.textContent = set.stateNote; head.append(sn);
     }
@@ -870,10 +882,12 @@
       const chip = document.createElement("em");
       chip.textContent = STATE_NAME[set.state];
       b.append(chip);
+      set._chip = chip;
     } else {
       const c = document.createElement("em");
       c.className = "cand"; c.textContent = "候補";
       b.append(c);
+      set._chip = c;
       const n = document.createElement("i");
       n.dataset.count = set.key;
       b.append(n);
@@ -892,15 +906,20 @@
   const count = (s) => sections.filter((x) => x.set.state === s).length;
   tools.innerHTML =
     '<label>状態 <select data-k="state">' +
-      '<option value="draft">投稿候補（' + count("draft") + '）</option>' +
-      '<option value="posted">投稿済み（' + count("posted") + '）</option>' +
-      '<option value="ended">終了・見送り（' + (count("done") + count("dropped")) + '）</option>' +
-      '<option value="all">すべて（' + sections.length + '）</option></select></label>' +
+      '<option value="draft"></option><option value="posted"></option><option value="ended"></option><option value="all"></option></select></label>' +
     '<label>並べ方 <select data-k="sort">' +
       '<option value="next">次に出す順</option><option value="new">新しい順</option><option value="old">古い順</option>' +
       '<option value="open">未対応のコメントが多い順</option><option value="title">題名順</option></select></label>' +
     '<input type="search" data-k="q" placeholder="題名で探す（例：浜離宮、PAY ID）" aria-label="題名で探す">' +
     '<span class="hit"></span>';
+  function updateCounts() {
+    const o = tools.querySelectorAll('[data-k="state"] option');
+    o[0].textContent = "投稿候補（" + count("draft") + "）";
+    o[1].textContent = "投稿済み（" + count("posted") + "）";
+    o[2].textContent = "終了・見送り（" + (count("done") + count("dropped")) + "）";
+    o[3].textContent = "すべて（" + sections.length + "）";
+  }
+  updateCounts();
   const nextBox = document.createElement("section");
   nextBox.className = "nextbox";
   const openCount = (key) => (typeof rows !== "undefined" ? rows.filter((r) => r.set === key && !r.done).length : 0);
@@ -934,7 +953,8 @@
     el.addEventListener(el.tagName === "INPUT" ? "input" : "change", () => { filt[el.dataset.k] = el.value; applyFilter(); });
   }
   // 次の候補：投稿していない組を新しい順に並べ、押すとその組を開く
-  (function renderNext() {
+  function renderNext() {
+    nextBox.replaceChildren();
     // 順番は Claude の提案（set-status.json の next・why・check）。番号が同じものは「どちらか 1 つ」
     const cand = sections.map((x, i) => ({ s: x.set, i })).filter((x) => x.s.state === "draft")
       .sort((a, b) => (a.s.next || 99) - (b.s.next || 99) || String(b.s.date).localeCompare(String(a.s.date)));
@@ -948,7 +968,11 @@
       const a = document.createElement("button"); a.type = "button"; a.className = "linkish";
       a.textContent = (c.s.next ? c.s.next + ". " : "") + c.s.title;
       a.addEventListener("click", () => { filt.state = "draft"; tools.querySelector('[data-k="state"]').value = "draft"; applyFilter(); show(c.i); tabs.scrollIntoView({ block: "start" }); });
-      li.append(a);
+      const sk = document.createElement("label"); sk.className = "skip";
+      const cb = document.createElement("input"); cb.type = "checkbox";
+      cb.addEventListener("change", () => setSkip(c.s.key, cb.checked));
+      sk.append(cb, document.createTextNode(" 投稿しない"));
+      li.append(a, sk);
       if (c.s.why) { const w = document.createElement("p"); w.className = "why"; w.textContent = "理由：" + c.s.why; li.append(w); }
       if (c.s.check.length) { const ul = document.createElement("ul"); ul.className = "chk"; for (const t of c.s.check) { const x = document.createElement("li"); x.textContent = t; ul.append(x); } li.append(ul); }
       ol.append(li);
@@ -956,7 +980,31 @@
     const p = document.createElement("p"); p.className = "hint";
     p.textContent = cand.length ? "順番は Claude の提案です。違えばこのページかチャットで言ってください。投稿は、チャットで「この内容で投稿して」と書いたものだけ出します（選ぶだけでは出しません）。" : "いま投稿していない組はありません。";
     nextBox.append(h, cand.length ? ol : document.createTextNode(""), p);
-  })();
+  }
+  renderNext();
+
+  // ---------- 見送りの印（db の set_state/<key>）----------
+  // 付けた印は Claude が読みに来て set-status.json に写す（sync-set-state.mjs）。ページの上ではすぐ候補から外れる
+  for (const x of sections) x.set.baseState = x.set.state;
+  function refreshState() {
+    for (const { set } of sections) {
+      if (set._pill) { set._pill.className = "state s-" + set.state; set._pill.textContent = STATE_NAME[set.state] + (set.date ? "・" + set.date : ""); }
+      if (set._chip) { set._chip.className = set.state === "draft" ? "cand" : ""; set._chip.textContent = set.state === "draft" ? "候補" : STATE_NAME[set.state]; }
+      if (set._skip) set._skip.checked = set.state === "dropped";
+    }
+    updateCounts(); renderNext(); applyFilter();
+  }
+  async function setSkip(key, skip) {
+    const sec = sections.find((x) => x.set.key === key); if (!sec) return;
+    const prev = sec.set.state;
+    sec.set.state = skip ? "dropped" : "draft";
+    refreshState();
+    if (!db) { sec.set.state = prev; refreshState(); say("保存できません。公開されたリンクから開いてください。"); return; }
+    try {
+      await db.doc("set_state/" + key).set({ key, state: sec.set.state, at: new Date().toISOString(), by: "page" });
+      say(skip ? "「" + sec.set.title + "」を見送りにしました。候補に戻すときは、状態を「終了・見送り」にして、その組のチェックを外してください。" : "「" + sec.set.title + "」を候補に戻しました。");
+    } catch (e) { sec.set.state = prev; refreshState(); say("保存できませんでした。もう一度押してください。"); }
+  }
 
   // ---------- 投稿スタイル ----------
   function styleBox(set) {
@@ -1315,6 +1363,19 @@
         render();
       },
       () => { /* 書き換えが読めなくても、元の文面で動く */ }
+    );
+
+    db.collection("set_state").onSnapshot(
+      (snap) => {
+        snap.docs.forEach((d) => {
+          const v = d.data() || {};
+          const sec = sections.find((x) => x.set.key === d.id);
+          if (!sec || !(sec.set.baseState === "draft" || sec.set.baseState === "dropped")) return;   // 投稿済み・終了はページから変えない
+          if (v.state === "dropped" || v.state === "draft") sec.set.state = v.state;
+        });
+        refreshState();
+      },
+      () => { /* 読めなくても、元の状態で動く */ }
     );
 
     db.collection("style_requests").orderBy("askedAt").onSnapshot(
