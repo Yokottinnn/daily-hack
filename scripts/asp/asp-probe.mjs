@@ -364,8 +364,9 @@ try {
   if (WHICH === 'a8partnered') {
     // 提携中プログラムの名前・成果報酬・本人申込（セルフバック）可否を読む。A8_FROM/A8_TO で分割（1 タスク 5 分以内）
     // 提携中は 300 件を超えた（2026-10-31）。1 ページ 100 件なので、ページを送って全部集める
-    const ids = [];
-    for (let pg = 1; pg <= 10; pg++) {
+    // A8_IDS があればそれを読む（2026-10-31: 一覧の並べ替え付き URL が 0 件を返したため、t472 の一覧から渡す）
+    const ids = (process.env.A8_IDS || '').split(',').filter(Boolean);
+    for (let pg = 1; pg <= 10 && !process.env.A8_IDS; pg++) {
       await go(`https://media-console.a8.net/program/list/partnered?pageNo=${pg}&pageSize=100&sortKey=APPROVED_DATE&sortOrder=DESC`);
       const got = await p.evaluate(() => [...new Set([...document.querySelectorAll('a[href*="programId="]')].map((a) => (a.href.match(/programId=(s\d+)/) || [])[1]).filter(Boolean))]);
       const fresh = got.filter((x) => !ids.includes(x)); ids.push(...fresh);
@@ -376,6 +377,7 @@ try {
     for (const id of ids.slice(from, to)) {
       await p.goto(`https://media-console.a8.net/program/detail-partnered?programId=${id}`, { waitUntil: 'domcontentloaded', timeout: 20000 }).catch(() => {});
       await p.waitForTimeout(1800);
+      await a8Reauth(p, `https://media-console.a8.net/program/detail-partnered?programId=${id}`);
       const d = await p.evaluate(() => {
         const t = (document.body.innerText || '').split('\n').map((x) => x.trim()).filter(Boolean);
         const h = [...document.querySelectorAll('h1,h2,h3')].map((x) => x.innerText.replace(/\s+/g, ' ').trim()).filter((x) => x && !/プログラム詳細|広告リンク|提携/.test(x))[0] || '';
