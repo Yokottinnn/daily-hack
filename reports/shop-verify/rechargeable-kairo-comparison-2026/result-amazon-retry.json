@@ -1,0 +1,32 @@
+{
+ "slug": "rechargeable-kairo-comparison-2026",
+ "generated": "2026-10-31T02:31:16.745Z",
+ "total": 1,
+ "rows": [
+  {
+   "n": "01",
+   "store": "amazon",
+   "name": "",
+   "model": "e-Kairo Oval EK-OV25",
+   "href": "https://www.amazon.co.jp/s?k=e-Kairo%20Oval%20EK-OV25&tag=dailyhack-22",
+   "chain": [
+    "https://m.media-amazon.com/images/S/sash/sZn4-gu-i21bZhf.html",
+    "https://aax-fe.amazon-adsystem.com/s/iu3?d=amazon.co.jp&slot=navFooter&a2=0101558b2fcc76c9298154da3e1d2bc59c2eafa0443fb7ca34de785140ef482c35b9&old_oo=0&ts=1793413871684&s=AStzHNDVRliSNh_Oes7hro8tzGuMfAuE728BZr1Y8nAU&gdpr_consent=&gdpr_consent_avl=&cb=1793413871684",
+    "https://aax-fe.amazon-adsystem.com/s/iu3?d=amazon.co.jp&slot=navFooter&a2=0101558b2fcc76c9298154da3e1d2bc59c2eafa0443fb7ca34de785140ef482c35b9&old_oo=0&ts=1793413871684&s=AStzHNDVRliSNh_Oes7hro8tzGuMfAuE728BZr1Y8nAU&gdpr_consent=&gdpr_consent_avl=&cb=1793413871684&dcc=t",
+    "https://www.amazon.co.jp/s?k=e-Kairo+Oval+EK-OV25&tag=dailyhack-22"
+   ],
+   "fin": "https://www.amazon.co.jp/s?k=e-Kairo+Oval+EK-OV25&tag=dailyhack-22",
+   "aff": "着いた先の URL に tag=dailyhack-22（アソシエイトの印）",
+   "found": "検索結果 9 件",
+   "title": "Amazon.co.jp : e-Kairo Oval EK-OV25",
+   "robot": false,
+   "cart": true,
+   "amazonResults": 9,
+   "rakutenResults": 0,
+   "yahooResults": 0,
+   "noHit": false,
+   "modelOnPage": false,
+   "shot": "r01-amazon.jpg"
+  }
+ ]
+}
