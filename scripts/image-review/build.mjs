@@ -61,6 +61,8 @@ const FILES = {
   "pocket-wifi-comparison-2026": ["1-ranking.jpg"],
   // **未投稿**（2026-10-31）。光回線キャッシュバック比較。素材は記事の数字とロゴだけ
   "hikari-cashback-comparison-2026": ["1-kodate.jpg"],
+  // **未投稿**（2026-10-31）。海外旅行の通信の比較。素材は記事の数字とロゴだけ
+  "overseas-esim-wifi-comparison-2026": ["1-order.jpg"],
 };
 
 const map = {};
