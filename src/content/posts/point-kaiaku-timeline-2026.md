@@ -133,6 +133,24 @@ references: ["https://www.paypay-card.co.jp/info/009410.html", "https://k-tai.wa
 
 > 各サービスの詳しい使い方・最適な組み合わせは → [ポイントサービス徹底分析 2026](/posts/point-service-complete-guide-2026/) ／ [PayPay大改悪まとめ 2026年6月](/posts/paypay-2026-june-revision-guide/)
 
+## 実際に使った人の声と動画｜ポイントの改悪
+
+改悪をどう受け止め、どう乗り換えるかを、動画で補っておく。
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/VvC1Lcl2VCw" title="【2026年8月〜】大改悪ラッシュ！ポイ活5大サービスの改悪がヤバすぎる（ポイ活ガチ勢ななみちゃん）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+2026年8月からのポイ活サービスの改悪を 5 つまとめた動画。
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/bU-bFRZjU8U" title="【超悲報】dカード大改悪！2026年度の変更点と今後のアリ・ナシについて（ポイ活ガチ勢ななみちゃん）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+dカードの 2026 年度の変更点と、これから持つべきかを解説している。
+
+<p class="source-note">埋め込んだ YouTube は、2026年10月31日に oEmbed でタイトルと投稿者を照合し、実在を確かめたもの。投稿した人の個人の感想・撮影時点の内容で、この記事の数字とは別のもの。</p>
+
 ## ❓ よくある質問（FAQ）
 
 <div class="cmp-table-wrap">

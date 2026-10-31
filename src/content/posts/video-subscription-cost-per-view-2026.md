@@ -173,6 +173,24 @@ references:
 <p class="affiliate-text"><a href="https://px.a8.net/svt/ejp?a8mat=4BEIPG+6Z8YU2+5DFW+5YRHE" target="_blank" rel="sponsored noopener nofollow">WOWOWオンデマンドの公式サイト</a></p>
 </div>
 
+## 実際に使った人の声と動画｜動画サブスク
+
+どのサブスクを残すかを、動画で補っておく。
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/a1l0PHUhpYE" title="【2026年版】動画配信サービス7社を完全比較 知らないと月5,000円損するかも（総帥【そうすい】）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+動画配信サービス 7 社を比べた 2026 年版の解説。
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/v-ntv1fv2vk" title="【これ一本で決める】動画系サブスクって結局どこが最強？上位100位のアニメ・映画のラインナップを独自調査してみた【Prime/Netflix/UNEXT/dアニメetc】（ぷらぐら）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+上位 100 のアニメ・映画が、どのサブスクで見られるかを調べた動画。
+
+<p class="source-note">埋め込んだ YouTube は、2026年10月31日に oEmbed でタイトルと投稿者を照合し、実在を確かめたもの。投稿した人の個人の感想・撮影時点の内容で、この記事の数字とは別のもの。</p>
+
 ## まとめ: 月額じゃなく「1本単価」で選べ
 
 長々書いたけど、覚えてほしいのはこれだけよ。

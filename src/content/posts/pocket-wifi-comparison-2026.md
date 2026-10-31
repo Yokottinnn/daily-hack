@@ -516,6 +516,24 @@ references:
 
 **料金は2026年10月16日時点。** MONSTER MOBILE の表示価格には「2026年8月6日時点」の注記があり、キャンペーンの終了日は書かれていない。どの会社も料金やキャンペーンは改定されることがあるので、申し込む前に公式サイトで最新の額を確かめること。
 
+## 実際に使った人の声と動画｜ポケット型WiFi
+
+料金表だけでは分からない速さや使い勝手を、動画で補っておく。
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/qLwzi6JY8rI" title="【2026年最新】ポケットWiFiの利用料、実測速度、キャッシュバック、縛り完全比較　WiMAX 楽天Wi-Fiポケット モバイルルーター　おすすめのポケットWiFi（まさもばチャンネル）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+ポケット型WiFi の利用料・実測の速さ・キャッシュバック・縛りを比べた動画。
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/qR8OsIGkfHE" title="【新端末登場】無制限で安いポケット型WiFiのおすすめ2社はこれだ！契約なしモバイルWi-Fiも比較【2026年下半期版】（WiFi大学 by WiMAX比較ドットコム / HonNe）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+無制限で安いポケット型WiFi と、契約の要らないモバイル WiFi を比べている。
+
+<p class="source-note">埋め込んだ YouTube は、2026年10月31日に oEmbed でタイトルと投稿者を照合し、実在を確かめたもの。投稿した人の個人の感想・撮影時点の内容で、この記事の数字とは別のもの。</p>
+
 ## ポケット型WiFiのよくある質問
 
 **検索でよく聞かれることに、この記事の数字で答える。**

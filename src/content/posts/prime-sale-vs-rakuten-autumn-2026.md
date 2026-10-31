@@ -355,6 +355,24 @@ references:
   </ul>
 </aside>
 
+## 実際に買った人の声と動画｜プライム感謝祭
+
+感謝祭で実際に何が買われたかを、動画で見ておく。
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/eevZ1hSMdIA" title="【本日最終日】視聴者が選ぶ！Amazon プライム感謝祭2026売れ筋ランキングTop30！（カジェログ（かじかじ）｜元イヤホン専門店スタッフ）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+Amazon プライム感謝祭 2026 で、視聴者が選んだ売れ筋のランキング。
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/epLOiHlLGLU" title="【Amazonプライム感謝祭2026速報】先行セール開幕。「注目ガジェット(全て自腹)」を実機で紹介する。（さいちょう2nd）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+感謝祭の先行セールで、自腹で買ったガジェットを実機で紹介している。
+
+<p class="source-note">埋め込んだ YouTube は、2026年10月31日に oEmbed でタイトルと投稿者を照合し、実在を確かめたもの。投稿した人の個人の感想・撮影時点の内容で、この記事の数字とは別のもの。</p>
+
 ## よくある質問｜Amazonプライム感謝祭と楽天お買い物マラソン
 
 <div class="cmp-table-wrap">

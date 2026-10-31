@@ -709,6 +709,24 @@ references: ["https://kakakumag.com/money/?id=20897", "https://www.warau.jp/", "
 </li>
 </ul>
 
+## 実際に使った人の声と動画｜ポイント経済圏
+
+どの経済圏を選ぶかを、動画で補っておく。
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/Gsvd9LvopRE" title="５大ポイント経済圏で最強は？【楽天ポイント・PayPayポイント・Pontaポイント・dポイント・Vポイント】（ゆずひこちゃんねる）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+楽天・PayPay・Ponta・d・V の 5 大ポイント経済圏を比べた動画。
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/ulosBQPZDWs" title="【2026年最新】結局どれが一番得する？楽天・PayPay・Vポイント「本当にもらえる金額」ガチ比較ランキング（お金×資産のトリセツらぼ【ゆっくり】）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+楽天・PayPay・V ポイントで本当にもらえる金額を比べたランキング。
+
+<p class="source-note">埋め込んだ YouTube は、2026年10月31日に oEmbed でタイトルと投稿者を照合し、実在を確かめたもの。投稿した人の個人の感想・撮影時点の内容で、この記事の数字とは別のもの。</p>
+
 ## ❓ よくある質問（FAQ）
 
 <div class="cmp-table-wrap">
