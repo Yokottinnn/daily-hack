@@ -213,6 +213,7 @@ tr[data-ccount]::after{top:4px;right:4px}
   <h2>X の数字</h2>
   <p class="src">共通戦略（<code>docs/growth-strategy.md</code>）の「共有の数字」から。X 担当のセッションが一次情報で更新する。</p>
   <div class="grid" id="x-tiles"><p class="empty">スナップショットを待っています。</p></div>
+  <div class="c" data-cid="home.xdrafts" style="margin-top:10px"><div class="b"><b>X の投稿準備中</b>：<span id="home-xdrafts">読み込み中</span>　<a href="https://claude.ai/artifact/1o7gjZZghit8kn3W4AXUdH" target="_blank" rel="noopener">レビューページを開く</a>／<a href="#x">一覧を見る</a></div></div>
   <h2>検索の推移（週ごと）</h2>
   <div class="chart" id="chart-gsc"><p class="empty">スナップショットを待っています。</p></div>
   <h2>今週の自動所見<span class="when" id="findings-when"></span></h2>
@@ -767,6 +768,10 @@ tr[data-ccount]::after{top:4px;right:4px}
   <div class="eyebrow">X での告知</div>
   <h1>X は入口であり、もう 1 本の収益源。まずは認証済みフォロワー 500</h1>
   <p class="lead">X の運用は tweet2 のセッションの担当です。<strong>アフィリエイト記事は、記事の一番の驚きを 2 投稿のスレッドで出し、記事へ誘導します。</strong></p>
+  <h2 data-cid="x.drafts.head">投稿準備中の下書き</h2>
+  <div class="c" data-cid="x.review-link"><div class="b"><b>投稿レビューページ</b>：文面の書き換え・画像へのコメント・型の変更はこちらで。<a href="https://claude.ai/artifact/1o7gjZZghit8kn3W4AXUdH" target="_blank" rel="noopener">レビューページを開く</a></div></div>
+  <p class="src" id="xdrafts-meta">下書きの一覧を読み込み中</p>
+  <div class="list" id="xdrafts"><p class="empty">読み込み中</p></div>
   <h2>X の収益化までの距離</h2>
   <div class="tbl"><table><thead><tr><th>条件</th><th>いま</th><th>足りない</th></tr></thead><tbody id="tbl-xcond"><tr><td colspan="3" class="empty">データ待ち</td></tr></tbody></table></div>
   <p class="src">数字は共通戦略の「共有の数字」から（X 担当のセッションが一次情報で更新）。返信の表示は条件に数えられない。</p>
@@ -1046,6 +1051,7 @@ tr[data-ccount]::after{top:4px;right:4px}
     $$('#fb-filters button').forEach(b=>b.addEventListener('click',()=>{ fbF=b.dataset.f; $$('#fb-filters button').forEach(x=>x.setAttribute('aria-pressed',x===b?'true':'false')); renderList(); }));
     // スナップショット・更新履歴
     db.collection('ideas').onSnapshot(snap=>{ IDEAS=snap.docs.map(d=>Object.assign({id:d.id},d.data())); ideaFilters(); renderIdeas(); const n=IDEAS.filter(t=>t.status==='idea').length, b=$('a[data-page="ideas"] .badge',toc); if(b){ b.hidden=!n; b.textContent=n; } },()=>{ $('#ideas').innerHTML='<p class="empty">読み込めませんでした。</p>'; });
+    db.doc('xdrafts/current').onSnapshot(s=>{ renderXDrafts(s.exists?s.data():null); },()=>{ $('#xdrafts-meta').textContent='読み込めませんでした。'; });
     db.collection('linkplan').onSnapshot(snap=>{ LINKS=snap.docs.map(d=>Object.assign({id:d.id},d.data())); renderLinkplan(); },()=>{});
     db.collection('todos').onSnapshot(snap=>{ TODOS=snap.docs.map(d=>Object.assign({id:d.id},d.data())); renderTodos(); const n=TODOS.filter(t=>t.status==='you').length, b=$('a[data-page="tasks"] .badge',toc); if(b){ b.hidden=!n; b.textContent=n; } },()=>{ $('#todos').innerHTML='<p class="empty">読み込めませんでした。</p>'; });
     db.doc('results/latest').onSnapshot(s=>{ RESULTS=s.exists?s.data():null; renderResults(); },()=>{});
@@ -1218,6 +1224,20 @@ tr[data-ccount]::after{top:4px;right:4px}
     $('#tbl-xsets').innerHTML=(XD.reviewSets||[]).filter(r=>r.ids.length).map(r=>'<tr data-cid="x.set.'+esc(r.key)+'"><td>'+esc(r.title)+'</td><td>'+esc((r.at||'').slice(0,10))+'</td><td>'+(r.slug&&ART.find(a=>a.slug===r.slug)?'<a href="https://daily-hack.fieldbeside.com/posts/'+esc(r.slug)+'/" target="_blank" rel="noopener">記事</a>':'—')+'</td><td>'+r.ids.map((id,i)=>'<a href="https://x.com/heng_ji31590/status/'+esc(id)+'" target="_blank" rel="noopener">['+(i+1)+'/'+r.ids.length+']</a>').join(' ')+'</td></tr>').join('')||'<tr><td colspan="4" class="empty">データなし</td></tr>';
     applyCounts();
   }
+
+  // ---- X の投稿準備中の下書き（db の xdrafts/current。tweet2 がレビューページを更新するたびに書き換える） ----
+  function renderXDrafts(D){ const box=$('#xdrafts'), meta=$('#xdrafts-meta'), home=$('#home-xdrafts'); if(!box) return;
+    const L=((D&&D.drafts)||[]);
+    meta.textContent=D?('更新 '+String(D.updatedAt||'').replace('T',' ').slice(0,16)+'・'+L.length+' 組（投稿していないものだけ）'):'まだ届いていません。';
+    if(home) home.textContent=L.length?(L.length+' 組（'+L.slice(0,3).map(d=>d.title.split('｜')[0]).join('、')+(L.length>3?' ほか':'')+'）'):'なし';
+    if(!L.length){ box.innerHTML='<p class="empty">いま準備中の下書きはありません。</p>'; return; }
+    box.replaceChildren(...L.map(d=>{ const el=document.createElement('div'); el.className='c'; el.dataset.cid='x.draft.'+d.key;
+      el.innerHTML='<div class="h"><span class="pill warn">未投稿</span>'+(d.styleName?'<span class="pill info">'+esc(d.styleName)+'</span>':'')+(d.attach?'<span>'+esc(d.attach)+'</span>':'')+(d.edited?'<span>レビューページで書き換えあり</span>':'')+'</div>'
+        +'<div class="b"><b>'+esc(d.title)+'</b></div>'
+        +(d.head?'<div class="q" style="max-height:none">'+esc(d.head)+'</div>':'')
+        +((d.parts||[]).length?'<details><summary>全文（'+d.parts.length+' 投稿）</summary>'+d.parts.map((t,i)=>'<div class="b" style="margin-top:6px"><b>['+(i+1)+'/'+d.parts.length+']</b>\n'+esc(t)+'</div>').join('')+'</details>':'')
+        +'<div class="row"><a href="https://claude.ai/artifact/1o7gjZZghit8kn3W4AXUdH" target="_blank" rel="noopener">レビューページで直す</a></div>'; return el; }));
+    applyCounts(); }
 
   // ---- 成果リンクの一覧 ----
   let affF='all';

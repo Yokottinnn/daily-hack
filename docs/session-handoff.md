@@ -68,6 +68,12 @@
 
 <!-- 新しい記録がこの下に追加される（新しいものが上） -->
 
+### 2026-10-31 — 作戦室の『X での告知』と『全体像』に、投稿レビューページのリンクと投稿準備中の下書き（db の xdrafts/current）を常に出すようにした。board-drafts.mjs が作り、set-status.json（x387 でキューの x_tweet_id を見て埋めた）で投稿済みを外す。10/31 時点の準備中 7 組。手順は x-post-copy §5 と CLAUDE.md ルール 4
+
+次のアクション:
+
+- [ ] レビューページを publish するたび・投稿するたびに xdrafts/current を書き換える
+
 ### 2026-10-31 — 3店ボタン: 利用者の判断で『その店に無い商品』のボタンを外した（Amazon 6・Yahoo! 8・PR #1281）。楽天 MagGo Plus も商品ページへ。本番で確認: 楽天 28/28・Yahoo! 20/20・Amazon 18/22 がその商品のページ＋カートあり、紹介の印は全部あり。証跡ページ v2 を公開（scripts/shop/build-evidence-page.py・LIVE_DIR に本番 HTML を置いて作る）
 
 次のアクション:
