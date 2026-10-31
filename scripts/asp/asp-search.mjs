@@ -18,20 +18,44 @@ const BUDGET = Number(process.env.ASP_SEARCH_BUDGET_MS || 220000);
 const T0 = Date.now();
 const KW = (process.env.ASP_KEYWORDS || '').split(',').map((x) => x.trim()).filter(Boolean);
 const NG = /契約者|振込|口座|氏名|合同会社|有限会社|（\d{6,}）|\(\d{6,}\)|あなたの報酬|確定報酬|未確定/;
+// **A8 の「ログイン再認証」**（2026-10-31）: asp-sync で入ったあとでも、検索・広告リンクの画面を開くと
+// パスワードを聞き直されることがある。そのときは Keychain（dailyhack-asp-a8）の値で入り直して、元の画面を開き直す。値はどこにも書かない
+import { execFileSync as __ex } from 'node:child_process';
+async function a8Reauth(page, url) {
+  if (!/re-authentication|login/i.test(page.url()) && !(await page.locator('input[type=password]:visible').count())) return false;
+  let pass = '', user = '';
+  try {
+    const meta = __ex('/usr/bin/security', ['find-generic-password', '-s', 'dailyhack-asp-a8'], { encoding: 'utf8', stdio: ['ignore', 'pipe', 'ignore'] });
+    user = (meta.match(/"acct"<blob>="([^"]*)"/) || [])[1] || '';
+    pass = __ex('/usr/bin/security', ['find-generic-password', '-s', 'dailyhack-asp-a8', '-w'], { encoding: 'utf8', stdio: ['ignore', 'pipe', 'ignore'] }).replace(/\n$/, '');
+  } catch { return false; }
+  if (!pass) return false;
+  const id = page.locator('input[type=text]:visible, input[name=mediaLoginName]:visible').first();
+  if ((await id.count()) && !(await id.inputValue().catch(() => 'x')) && user) { await id.click().catch(() => {}); await id.pressSequentially(user, { delay: 30 }); }
+  const pw = page.locator('input[type=password]:visible').first();
+  await pw.click().catch(() => {}); await pw.fill('').catch(() => {}); await pw.pressSequentially(pass, { delay: 30 });
+  await pw.press('Enter').catch(() => {});
+  await page.waitForLoadState('domcontentloaded', { timeout: 20000 }).catch(() => {});
+  await page.waitForTimeout(4000);
+  if (url) { await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 25000 }).catch(() => {}); await page.waitForTimeout(2500); }
+  return true;
+}
 const clean = (t) => t.replace(/\s+/g, ' ').trim();
 
-const b = await chromium.connectOverCDP(`http://127.0.0.1:${process.env.CDP_PORT || '18810'}`);
+const b = await chromium.connectOverCDP(`http://127.0.0.1:${process.env.CDP_PORT || '18810'}`, { timeout: 90000 });
 const ctx = b.contexts()[0] || (await b.newContext());
 const p = await ctx.newPage();
 const loggedOut = async () => p.evaluate(() => !!document.querySelector('input[type=password]') || /login|re-authentication/i.test(location.href));
 
 // ---- A8: キーワード検索 ----
+const ALL = [];
 {
   const lines = ['# A8.net の検索結果（asp-search）', '', `生成: **${new Date().toISOString()}**`, ''];
   for (const kw of KW) {
     if (Date.now() - T0 > BUDGET * 0.55) { lines.push(`- （時間切れで「${kw}」以降は検索していない）`); break; }
     await p.goto(`https://media-console.a8.net/program/search/keyword?keywords=${encodeURIComponent(kw)}`, { waitUntil: 'domcontentloaded', timeout: 25000 }).catch(() => {});
     await p.waitForTimeout(2500);
+    if (await loggedOut()) await a8Reauth(p, `https://media-console.a8.net/program/search/keyword?keywords=${encodeURIComponent(kw)}`);
     if (await loggedOut()) { lines.push('**未ログイン。** asp-sync で入り直してから走らせる'); break; }
     const rows = await p.evaluate(() => {
       const out = new Map(), names = new Map();
@@ -58,10 +82,14 @@ const loggedOut = async () => p.evaluate(() => !!document.querySelector('input[t
       return [...out.entries()].map(([id, t]) => [id, (names.get(id) ? '【' + names.get(id) + '】 ' : '') + t]);
     });
     lines.push(`## 「${kw}」 ${rows.length} 件`, '');
+    for (const [id, t] of rows) if (!NG.test(t)) ALL.push({ kw, id, text: t });
     for (const [id, t] of rows.slice(0, 12)) if (!NG.test(t)) lines.push(`- \`${id}\` ${t.replace(/\|/g, '／')}`);
     lines.push('');
   }
-  fs.writeFileSync(path.join(OUT, 'a8.md'), lines.join('\n') + '\n');
+  const SUF = process.env.ASP_OUT_SUFFIX || '';
+  fs.writeFileSync(path.join(OUT, `a8${SUF}.md`), lines.join('\n') + '\n');
+  // 全件（md は 1 語 12 件まで）。申請の候補を選ぶのに使う（2026-10-31）
+  if (SUF) fs.writeFileSync(path.join(OUT, `a8${SUF}.json`), JSON.stringify({ generated: new Date().toISOString(), keywords: KW, rows: ALL }, null, 1));
   console.log(`a8: ${KW.length} 語`);
 }
 

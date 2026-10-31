@@ -16,10 +16,32 @@ fs.mkdirSync(OUT, { recursive: true });
 const WHICH = process.env.ASP_PROBE || '';
 // **会員名の行（Welcome, ○○ / ようこそ○○さん）も出さない**（2026-10-11 に楽天ウェブサービスで出してしまった）
 const NG = /契約者|振込|口座|氏名|合同会社|有限会社|（\d{6,}）|\(\d{6,}\)|あなたの報酬|確定報酬|未確定|様$|さん$|Welcome|ようこそ|こんにちは/i;
+// **A8 の「ログイン再認証」**（2026-10-31）: asp-sync で入ったあとでも、検索・広告リンクの画面を開くと
+// パスワードを聞き直されることがある。そのときは Keychain（dailyhack-asp-a8）の値で入り直して、元の画面を開き直す。値はどこにも書かない
+import { execFileSync as __ex } from 'node:child_process';
+async function a8Reauth(page, url) {
+  if (!/re-authentication|login/i.test(page.url()) && !(await page.locator('input[type=password]:visible').count())) return false;
+  let pass = '', user = '';
+  try {
+    const meta = __ex('/usr/bin/security', ['find-generic-password', '-s', 'dailyhack-asp-a8'], { encoding: 'utf8', stdio: ['ignore', 'pipe', 'ignore'] });
+    user = (meta.match(/"acct"<blob>="([^"]*)"/) || [])[1] || '';
+    pass = __ex('/usr/bin/security', ['find-generic-password', '-s', 'dailyhack-asp-a8', '-w'], { encoding: 'utf8', stdio: ['ignore', 'pipe', 'ignore'] }).replace(/\n$/, '');
+  } catch { return false; }
+  if (!pass) return false;
+  const id = page.locator('input[type=text]:visible, input[name=mediaLoginName]:visible').first();
+  if ((await id.count()) && !(await id.inputValue().catch(() => 'x')) && user) { await id.click().catch(() => {}); await id.pressSequentially(user, { delay: 30 }); }
+  const pw = page.locator('input[type=password]:visible').first();
+  await pw.click().catch(() => {}); await pw.fill('').catch(() => {}); await pw.pressSequentially(pass, { delay: 30 });
+  await pw.press('Enter').catch(() => {});
+  await page.waitForLoadState('domcontentloaded', { timeout: 20000 }).catch(() => {});
+  await page.waitForTimeout(4000);
+  if (url) { await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 25000 }).catch(() => {}); await page.waitForTimeout(2500); }
+  return true;
+}
 const ROWS = [];
 const RID = /[0-9a-f]{8}\.[0-9a-f]{8}\.[0-9a-f]{8}\.[0-9a-f]{8}/g;
 
-const b = await chromium.connectOverCDP(`http://127.0.0.1:${process.env.CDP_PORT || '18810'}`);
+const b = await chromium.connectOverCDP(`http://127.0.0.1:${process.env.CDP_PORT || '18810'}`, { timeout: 90000 });
 const ctx = b.contexts()[0] || (await b.newContext());
 const p = await ctx.newPage();
 const lines = [`# ASP の画面調べ: ${WHICH}（asp-probe）`, '', `生成: **${new Date().toISOString()}**`, ''];
@@ -278,7 +300,10 @@ try {
     p.on('dialog', (d) => { lines.push(`  - 確認ダイアログ: ${d.message().slice(0, 80)} → OK`); d.accept().catch(() => {}); });
     for (const id of (process.env.A8_IDS || '').split(',').filter(Boolean)) {
       lines.push(`### ${id}`);
+      // 続けて押すと A8 が「提携申請が失敗しました」を返す（2026-10-31・444 件中 60 件）。A8_GAP_MS で間をあける
+      if (process.env.A8_GAP_MS) await p.waitForTimeout(Number(process.env.A8_GAP_MS));
       await go(`https://media-console.a8.net/program/detail-not-partnered?programId=${id}`);
+      await a8Reauth(p, `https://media-console.a8.net/program/detail-not-partnered?programId=${id}`);
       const sel = p.locator('select[name=webSiteId]');
       if (!(await sel.count())) { lines.push(`- 申請欄が無い（${here()}・${(await p.title()).slice(0, 40)}）`, ''); continue; }
       const opt = await sel.evaluate((e) => { const o = [...e.options].find((x) => /daily ?hack/i.test(x.text)); return o ? o.value : ''; });
@@ -315,15 +340,76 @@ try {
     lines.push('## 楽天ウェブサービス アプリ登録（画像認証の手前まで入れた・送っていない）', '', `- 画面: ${q.url().replace(/[?#].*$/, '')}`, ...st.map((x) => `- ${x}`), '', '**このタブは開いたまま残す。** 利用者が画像認証の文字を入れて「Agree to the terms of service」を押す', '');
   }
 
+  if (WHICH === 'a8detail') {
+    // **読むだけ（2026-10-31）。** 提携中の案件の詳細ページの本文（広告主サイトの URL・成果条件など）を出す。自分の報酬額は NG で落とす
+    for (const id of (process.env.A8_IDS || '').split(',').filter(Boolean)) {
+      const u = `https://media-console.a8.net/program/detail-partnered?programId=${id}`;
+      await go(u); await a8Reauth(p, u);
+      const t = await p.evaluate(() => (document.body.innerText || '').split('\n').map((x) => x.trim()).filter(Boolean));
+      const hrefs = await p.evaluate(() => [...new Set([...document.querySelectorAll('a[href^=http]')].map((a) => a.href).filter((h) => !/a8\.net|fancs\.com|seedapp/.test(h)))]);
+      lines.push(`### ${id}`, `- 画面: ${here()}`, ...t.filter((x) => /https?:|サイト|URL|成果条件|対象|エリア|地域|否認/.test(x) && !NG.test(x)).slice(0, 25).map((x) => `  - ${x.slice(0, 150)}`), `- 外部リンク: ${hrefs.slice(0, 8).join(' / ') || '無し'}`, '');
+    }
+  }
+
+  if (WHICH === 'a8liststatus') {
+    // 申請した案件が「審査中」「提携中」のどちらに入ったかを一覧から数える（2026-10-31）。自分の報酬額は出さない
+    const listIds = async (kind) => {
+      const all = new Set();
+      for (let pg = 1; pg <= 10; pg++) {
+        await go(`https://media-console.a8.net/program/list/${kind}?pageNo=${pg}&pageSize=100`);
+        await a8Reauth(p, `https://media-console.a8.net/program/list/${kind}?pageNo=${pg}&pageSize=100`);
+        const ids = await p.evaluate(() => [...new Set([...document.querySelectorAll('a[href*="programId="]')].map((a) => (a.href.match(/programId=(s\d+)/) || [])[1]).filter(Boolean))]);
+        const before = all.size; ids.forEach((x) => all.add(x));
+        if (ids.length < 100 || all.size === before) break;
+      }
+      return [...all];
+    };
+    const applying = await listIds('applying'), partnered = await listIds('partnered');
+    const want = (process.env.A8_IDS || '').split(',').filter(Boolean);
+    const st = (id) => (partnered.includes(id) ? '提携中' : applying.includes(id) ? '審査中' : 'どちらにも無い');
+    const tally = {}; want.forEach((id) => { tally[st(id)] = (tally[st(id)] || 0) + 1; });
+    lines.push(`- 審査中の一覧 ${applying.length} 件・提携中の一覧 ${partnered.length} 件`, `- 調べた ${want.length} 件: ${Object.entries(tally).map(([k, v]) => `${k} ${v}`).join('・')}`, '', ...want.filter((id) => st(id) === 'どちらにも無い').map((id) => `- どちらにも無い: ${id}`), '');
+    fs.writeFileSync(path.join(OUT, `${WHICH}.json`), JSON.stringify({ generated: new Date().toISOString(), applying, partnered, status: Object.fromEntries(want.map((id) => [id, st(id)])) }, null, 1));
+  }
+
   if (WHICH === 'a8partnered') {
     // 提携中プログラムの名前・成果報酬・本人申込（セルフバック）可否を読む。A8_FROM/A8_TO で分割（1 タスク 5 分以内）
-    await go('https://media-console.a8.net/program/list/partnered?pageNo=1&pageSize=100&sortKey=APPROVED_DATE&sortOrder=DESC');
-    const ids = await p.evaluate(() => [...new Set([...document.querySelectorAll('a[href*="programId="]')].map((a) => (a.href.match(/programId=(s\d+)/) || [])[1]).filter(Boolean))]);
+    // 提携中は 300 件を超えた（2026-10-31）。1 ページ 100 件なので、ページを送って全部集める
+    // A8_IDS があればそれを読む（2026-10-31: 一覧の並べ替え付き URL が 0 件を返したため、t472 の一覧から渡す）
+    const ids = (process.env.A8_IDS || '').split(',').filter(Boolean);
+    // 2026-10-31 affiliate: 提携中が 310 件になり、毎日 全件の詳細を開くと時間切れになる。前の回と t47x の結果（reports/asp-probe/a8partnered*.json）を
+    // 控えにして、**新しく増えた案件だけ詳細を開く**。一覧の並べ替え付き URL が 0 件のときは並べ替え無しで読み直す。一覧が 0 件なら前の結果を消さない
+    const listIds = async (kind, sorted) => { const out = [];
+      for (let pg = 1; pg <= 10; pg++) {
+        const u = `https://media-console.a8.net/program/list/${kind}?pageNo=${pg}&pageSize=100${sorted ? '&sortKey=APPROVED_DATE&sortOrder=DESC' : ''}`;
+        await go(u); await a8Reauth(p, u);
+        const got = await p.evaluate(() => [...new Set([...document.querySelectorAll('a[href*="programId="]')].map((a) => (a.href.match(/programId=(s\d+)/) || [])[1]).filter(Boolean))]);
+        const fresh = got.filter((x) => !out.includes(x)); out.push(...fresh);
+        if (got.length < 100 || !fresh.length) break;
+      }
+      return out; };
+    if (!ids.length) { ids.push(...await listIds('partnered', true)); if (!ids.length) ids.push(...await listIds('partnered', false)); }
+    const applying = process.env.A8_IDS ? null : await listIds('applying', false).catch(() => null);
+    const cache = new Map();
+    for (const dir of [path.join(OUT), path.join(process.env.OPS_REPORT_DIR || '/tmp', '..', 'asp-probe')]) {
+      let files = []; try { files = fs.readdirSync(dir).filter((f) => /^a8partnered.*\.json$/.test(f)); } catch {}
+      for (const f of files) { try { for (const r of JSON.parse(fs.readFileSync(path.join(dir, f), 'utf8')).rows || []) if (r.id && r.name && r.name !== '（読めない）') cache.set(r.id, r); } catch {} }
+    }
+    if (!ids.length) {
+      lines.push('- ⚠️ 提携中の一覧が 0 件で読めなかった。前の結果を残す（上書きしない）', '');
+    }
     const from = Number(process.env.A8_FROM || 0), to = Number(process.env.A8_TO || ids.length);
+    const NEW_MAX = Number(process.env.A8_NEW_MAX || 80);   // 1 回に開く詳細の上限（残りは次の回）
+    let opened = 0;
+    lines.push(`- 控え（前の回までに読んだ案件）: ${cache.size} 件・審査中の一覧: ${applying ? applying.length + ' 件' : '読んでいない'}`);
     lines.push(`- 提携中 ${ids.length} 件のうち ${from}〜${to - 1} 番目を読む`, '', '| programId | 名前 | 成果報酬 | 本人申込・ポイント | 提携日など |', '| --- | --- | --- | --- | --- |');
     for (const id of ids.slice(from, to)) {
+      if (!process.env.A8_IDS && cache.has(id)) { ROWS.push(cache.get(id)); continue; }
+      if (opened >= NEW_MAX) continue;
+      opened++;
       await p.goto(`https://media-console.a8.net/program/detail-partnered?programId=${id}`, { waitUntil: 'domcontentloaded', timeout: 20000 }).catch(() => {});
       await p.waitForTimeout(1800);
+      await a8Reauth(p, `https://media-console.a8.net/program/detail-partnered?programId=${id}`);
       const d = await p.evaluate(() => {
         const t = (document.body.innerText || '').split('\n').map((x) => x.trim()).filter(Boolean);
         const h = [...document.querySelectorAll('h1,h2,h3')].map((x) => x.innerText.replace(/\s+/g, ' ').trim()).filter((x) => x && !/プログラム詳細|広告リンク|提携/.test(x))[0] || '';
@@ -338,7 +424,8 @@ try {
     }
     lines.push('');
     // 収益化作戦室が読む JSON（2026-10-12）。名前と広告側の報酬だけ。自分の報酬額は出さない
-    fs.writeFileSync(path.join(OUT, `${WHICH}.json`), JSON.stringify({ generated: new Date().toISOString(), total: ids.length, from, to, rows: ROWS }, null, 1));
+    lines.push(`- 新しく詳細を開いた ${opened} 件・控えから ${ROWS.length - opened} 件${ids.length - from > ROWS.length ? `・残り ${ids.length - from - ROWS.length} 件は次の回` : ''}`);
+    if (ids.length) fs.writeFileSync(path.join(OUT, `${WHICH}.json`), JSON.stringify({ generated: new Date().toISOString(), total: ids.length, from, to, rows: ROWS, applyingCount: applying ? applying.length : null }, null, 1));
   }
 
   if (WHICH === 'a8detail') {
@@ -483,6 +570,29 @@ try {
       const ui = codes.length ? [] : await p.evaluate(() => [...document.querySelectorAll('select, button, a.btn, input[type=radio], input[type=submit]')].filter((e) => e.offsetWidth).map((e) => e.tagName === 'SELECT' ? `select[name=${e.name}]〔${[...e.options].map((o) => o.text.trim()).slice(0, 6).join('|')}〕` : `${e.tagName.toLowerCase()}「${(e.innerText || e.value || '').trim().slice(0, 30)}」`).slice(0, 25));
       lines.push(`- 広告リンクの画面: ${here()}（${(await p.title()).slice(0, 30)}）`, `- コード ${codes.length} 件`, ...codes.map((c) => '```html\n' + c + '\n```'), ...(ui.length ? ['- コードが無いときの画面の部品: ' + ui.filter((x) => !NG.test(x)).join(' / ')] : []), '');
     }
+  }
+  if (WHICH === 'a8banners') {
+    // **読むだけ（2026-10-31・blog3）。** 記事の広告の横に置く A8 のバナー（300×250 など）のコードを集める。
+    // 広告リンク作成の画面（a8.md のメニューにある create-link）を開き、bgt（バナー画像）を含むコードだけを拾う。押すのはページ送りのリンクだけ
+    const res = [];
+    for (const id of (process.env.A8_IDS || '').split(',').filter(Boolean)) {
+      await go(`https://media-console.a8.net/program/create-link?programId=${id}`);
+      await a8Reauth(p, `https://media-console.a8.net/program/create-link?programId=${id}`);
+      const name = (await p.title()).slice(0, 80);
+      const got = new Map();
+      for (let pg = 0; pg < 4; pg++) {
+        const codes = await p.evaluate(() => [...document.querySelectorAll('textarea, input[type=text], pre, code')].map((t) => (t.value || t.textContent || '').trim()).filter((v) => /svt\/bgt/.test(v) && /a8mat=/.test(v)));
+        for (const c of codes) { const w = (c.match(/width="(\d+)"/) || [])[1], h = (c.match(/height="(\d+)"/) || [])[1]; got.set(c, { w: +w || null, h: +h || null, code: c.replace(/\s+/g, ' ').slice(0, 900) }); }
+        const next = await p.$('a[rel=next], a:has-text("次へ"), button:has-text("次へ")');
+        if (!next) break;
+        await next.click().catch(() => {}); await p.waitForTimeout(2500);
+      }
+      const list = [...got.values()];
+      const ui = list.length ? [] : await p.evaluate(() => [...document.querySelectorAll('select, input[type=radio], label, button, a')].filter((e) => e.offsetWidth && /バナー|画像|テキスト|サイズ|素材|種類|300|250/.test(e.innerText || e.value || [...(e.options || [])].map((o) => o.text).join('|'))).map((e) => e.tagName === 'SELECT' ? `select[name=${e.name}]〔${[...e.options].map((o) => o.text.trim()).slice(0, 12).join('|')}〕` : `${e.tagName.toLowerCase()}「${(e.innerText || e.value || '').trim().slice(0, 30)}」→${(e.href || '').slice(0, 90)}`).slice(0, 30));
+      res.push({ id, name, banners: list, ui });
+      lines.push(`### ${id} ${name}`, `- 画面: ${here()}`, `- バナー ${list.length} 件（${list.map((x) => `${x.w}x${x.h}`).join('・')}）`, ...(ui.length ? ['- バナーが無いときの画面の部品: ' + ui.filter((x) => !NG.test(x)).join(' / ')] : []), '');
+    }
+    fs.writeFileSync(path.join(OUT, process.env.A8_OUT || 'a8banners.json'), JSON.stringify({ generated: new Date().toISOString(), programs: res }, null, 1));
   }
   if (WHICH === 'vcsite') {
     // **読むだけ（t318）。** VC に登録したサイトの URL と、LinkSwitch のブロック設定・提携候補先の画面を読む（LinkSwitch が差し替えない理由を探す）

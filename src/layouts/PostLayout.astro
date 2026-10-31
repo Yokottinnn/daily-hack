@@ -10,6 +10,10 @@ import PostCard from '../components/PostCard.astro';
 import AdUnit from '../components/AdUnit.astro';
 import AdMax from '../components/AdMax.astro';
 import InlineRelated from '../components/InlineRelated.astro';
+import PromoCard from '../components/PromoCard.astro';
+import AspBanner from '../components/AspBanner.astro';
+import a8Banners from '../data/a8-banners.json';
+import { isAdMaxConfigured } from '../data/admax-tags';
 import { getCollection } from 'astro:content';
 import { WANGAN_AREAS, WANGAN_NEWS_TAG, upcomingEvents, jpRange, splitJpAddress, todayJst } from '../lib/wangan';
 import DraftCommentWidget from '../components/DraftCommentWidget.astro';
@@ -133,6 +137,30 @@ const inlineRelatedPool = (
     ? [...inlineRelatedCandidates.slice(0, 5), orphan]
     : inlineRelatedCandidates
 ).map((x) => x.post);
+
+// ── 広告の横に並べる「成果報酬つきの比較記事」（2026-10-31 利用者の指示）──
+// PC の広告（300×250）の横が空いていたので、成果リンクの入った記事への案内カードで埋める。
+// 近い順（タグ・カテゴリ）に並べ、本文中の関連記事と同じ記事は出さない。近い記事が足りなければ成果リンクの多い順で補う。
+const AFF_RE = /px\.a8\.net|hb\.afl\.rakuten|af\.moshimo|valuecommerce|data-shop-(?:buttons|table|card)|amazon\.co\.jp[^"\s]*tag=/g;
+const affCount = (p: (typeof allPosts)[number]) => ((p.body ?? '').match(AFF_RE) ?? []).length;
+const inlineIds = new Set(inlineRelatedPool.map((p) => p.id));
+const earning = allPosts
+  .filter((p) => p.id !== post.id && !inlineIds.has(p.id) && (affCount(p) > 0 || p.data.isPR))
+  .map((p) => {
+    const shared = (p.data.tags ?? []).filter((t) => postTags.has(t)).length;
+    const sameCat = postCategories.some((cat) => postBelongsToCategory(p.data, cat)) ? 1 : 0;
+    return { p, score: shared * 3 + sameCat * 2 + (postBelongsToCategory(p.data, 'comparisons') ? 1 : 0), aff: affCount(p) };
+  })
+  .sort((a, b) => b.score - a.score || b.aff - a.aff || a.p.id.localeCompare(b.p.id));
+const promoPosts = earning.slice(0, 6).map((x) => x.p);
+
+// ── 提携済み A8 のバナー（300×250）。記事の題名・タグ・説明に合うものだけ、合う数の多い順に出す（2026-10-31）──
+const bannerText = [data.title, data.description ?? '', ...(data.tags ?? [])].join(' ');
+const banners = a8Banners.banners
+  .map((b) => ({ b, hits: new Set(bannerText.match(new RegExp(b.match, 'g')) ?? []).size }))
+  .filter((x) => x.hits > 0)
+  .sort((a, z) => z.hits - a.hits || a.b.programId.localeCompare(z.b.programId))
+  .map((x) => x.b);
 
 // 2件ずつのブロックに割る（最大3ブロック＝本文中に最大3箇所）
 const inlineRelatedBlocks: (typeof inlineRelatedPool)[] = [];
@@ -281,9 +309,18 @@ const howToLd = howToJsonLd(post.body, data.title);
           <slot />
         </div>
 
-        <!-- 広告枠2・3: 記事中盤 — JS で post-body 内の h2 の切れ目へ移動 -->
-        <AdMax slot="dailyhack-article-middle" />
-        <AdMax slot="dailyhack-article-mid2" />
+        <!-- 広告枠2・3: 記事中盤 — JS で post-body 内の h2 の切れ目へ移動。
+             広告と比較記事の案内を横に並べる（PC は 2 つ並び・スマホは縦積み）。広告のタグが無い枠は案内 2 枚にする -->
+        {[['dailyhack-article-middle', 1, 0], ['dailyhack-article-mid2', 3, 1]].map(([slot, i, k]) => (
+          <div class="ad-pair" data-mid-pair>
+            {isAdMaxConfigured(slot as string)
+              ? <AdMax slot={slot as string} />
+              : banners[k as number]
+                ? <AspBanner html={banners[k as number].html} name={banners[k as number].name} />
+                : promoPosts[(i as number) + 1] && <PromoCard post={promoPosts[(i as number) + 1]} />}
+            {promoPosts[i as number] && <PromoCard post={promoPosts[i as number]} />}
+          </div>
+        ))}
 
         <!-- 本文中へ差し込む関連記事のプール — JS が h2 の切れ目へ移動する -->
         {inlineRelatedBlocks.length > 0 && (
@@ -294,8 +331,11 @@ const howToLd = howToJsonLd(post.body, data.title);
           </div>
         )}
 
-        <!-- 広告枠4: 記事末尾（本文と関連記事の間） -->
-        <AdMax slot="dailyhack-article-bottom" />
+        <!-- 広告枠4: 記事末尾（本文と関連記事の間）。広告（300×250）の横に比較記事の案内を並べる -->
+        <div class="ad-pair">
+          <AdMax slot="dailyhack-article-bottom" />
+          {promoPosts[0] && <PromoCard post={promoPosts[0]} />}
+        </div>
 
         {isWanganPost && (
           <nav class="wangan-next" aria-label="湾岸ライフの一覧">
@@ -327,6 +367,12 @@ const howToLd = howToJsonLd(post.body, data.title);
       </article>
 
       <aside class="post-aside">
+        {/* サイドバーの上: 比較記事の案内（PC だけ。スマホでは出さない・2026-10-31 利用者の指示） */}
+        {(banners[2] || promoPosts[5]) && (
+          <div class="aside-top-promo">
+            {banners[2] ? <AspBanner html={banners[2].html} name={banners[2].name} /> : <PromoCard post={promoPosts[5]} />}
+          </div>
+        )}
         <TableOfContents headings={tocHeadings} />
         <!-- 広告枠3: サイドバー（デスクトップのみ表示、TOC下） -->
         <div style="margin-top: 20px;">
@@ -408,10 +454,12 @@ const howToLd = howToJsonLd(post.body, data.title);
       }
 
       // ── 広告 ──（h2 が少ない記事では枠を減らす）
-      const ads = [
-        document.querySelector('aside[data-admax-slot="dailyhack-article-middle"]'),
-        document.querySelector('aside[data-admax-slot="dailyhack-article-mid2"]'),
-      ].filter(Boolean);
+      // 広告と比較記事の案内の 2 つ並び（中身が空の段は動かさずに消す）
+      const ads = Array.prototype.slice.call(document.querySelectorAll('[data-mid-pair]')).filter(function (el) {
+        if (el.querySelector('.promo-card, aside.admax')) return true;
+        el.remove();
+        return false;
+      });
       const adQuota = headings.length >= 6 ? 2 : headings.length >= 2 ? 1 : 0;
       ads.forEach(function (ad, i) {
         if (i >= adQuota) {
