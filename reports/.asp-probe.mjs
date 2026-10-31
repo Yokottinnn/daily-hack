@@ -340,6 +340,27 @@ try {
     lines.push('## 楽天ウェブサービス アプリ登録（画像認証の手前まで入れた・送っていない）', '', `- 画面: ${q.url().replace(/[?#].*$/, '')}`, ...st.map((x) => `- ${x}`), '', '**このタブは開いたまま残す。** 利用者が画像認証の文字を入れて「Agree to the terms of service」を押す', '');
   }
 
+  if (WHICH === 'a8status') {
+    // 申請した案件が「審査中」「提携中」のどちらに入ったかを一覧から数える（2026-10-31）。自分の報酬額は出さない
+    const listIds = async (kind) => {
+      const all = new Set();
+      for (let pg = 1; pg <= 10; pg++) {
+        await go(`https://media-console.a8.net/program/list/${kind}?pageNo=${pg}&pageSize=100`);
+        await a8Reauth(p, `https://media-console.a8.net/program/list/${kind}?pageNo=${pg}&pageSize=100`);
+        const ids = await p.evaluate(() => [...new Set([...document.querySelectorAll('a[href*="programId="]')].map((a) => (a.href.match(/programId=(s\d+)/) || [])[1]).filter(Boolean))]);
+        const before = all.size; ids.forEach((x) => all.add(x));
+        if (ids.length < 100 || all.size === before) break;
+      }
+      return [...all];
+    };
+    const applying = await listIds('applying'), partnered = await listIds('partnered');
+    const want = (process.env.A8_IDS || '').split(',').filter(Boolean);
+    const st = (id) => (partnered.includes(id) ? '提携中' : applying.includes(id) ? '審査中' : 'どちらにも無い');
+    const tally = {}; want.forEach((id) => { tally[st(id)] = (tally[st(id)] || 0) + 1; });
+    lines.push(`- 審査中の一覧 ${applying.length} 件・提携中の一覧 ${partnered.length} 件`, `- 調べた ${want.length} 件: ${Object.entries(tally).map(([k, v]) => `${k} ${v}`).join('・')}`, '', ...want.filter((id) => st(id) === 'どちらにも無い').map((id) => `- どちらにも無い: ${id}`), '');
+    fs.writeFileSync(path.join(OUT, `${WHICH}.json`), JSON.stringify({ generated: new Date().toISOString(), applying, partnered, status: Object.fromEntries(want.map((id) => [id, st(id)])) }, null, 1));
+  }
+
   if (WHICH === 'a8partnered') {
     // 提携中プログラムの名前・成果報酬・本人申込（セルフバック）可否を読む。A8_FROM/A8_TO で分割（1 タスク 5 分以内）
     await go('https://media-console.a8.net/program/list/partnered?pageNo=1&pageSize=100&sortKey=APPROVED_DATE&sortOrder=DESC');
