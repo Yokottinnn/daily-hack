@@ -397,7 +397,8 @@
         "keyword": "Anker Zolo Power Bank 10000mAh 30W A1688",
         "must": [
           "A1688"
-        ]
+        ],
+        "itemUrl": "https://item.rakuten.co.jp/anker/a1688/"
       },
       "yahoo": {
         "keyword": "Anker Zolo Power Bank 10000mAh 30W A1688",
@@ -452,7 +453,7 @@
       },
       "amazon": {
         "keyword": "Anker Nano Power Bank MagGo Plus A1113",
-        "asin": null
+        "asin": "B0H1G5LYR8"
       }
     }
   ]
