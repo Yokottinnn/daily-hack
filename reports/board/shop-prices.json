@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-30T21:46:11.773Z",
+ "generatedAt": "2026-10-31T21:45:11.813Z",
  "keys": {
   "rakuten": true,
   "rakutenAccessKey": false,
@@ -103,16 +103,16 @@
     },
     "yahoo": {
      "found": true,
-     "candidates": 2,
+     "candidates": 3,
      "name": "BURTLE バートル サーモクラフト(電熱パッド) 秋冬用 オレンジ TC500 84 F",
      "url": "https://store.shopping.yahoo.co.jp/monaka-store/s-b0b7jsc18k-20260720.html",
-     "price": 12588,
+     "price": 11838,
      "shippingFree": true,
      "point": 0,
      "reviewAverage": null,
      "reviewCount": 0,
      "shop": "MONAKA-STORE",
-     "net": 12588
+     "net": 11838
     }
    },
    "makita-cv202d": {
@@ -121,16 +121,16 @@
     },
     "yahoo": {
      "found": true,
-     "candidates": 29,
-     "name": "makita マキタ 充電式暖房ベストのみ CV202DZ（バッテリーホルダー・バッテリー・充電器別売）",
-     "url": "https://store.shopping.yahoo.co.jp/handskotera/cv202dz.html",
-     "price": 15651,
+     "candidates": 30,
+     "name": "マキタ CV202DZ(Sサイズ) (本体のみ) 10.8V/14.4V/18V充電式暖房ベスト バッテリ・ケーブルユニットB別売■安心の純正/新品■",
+     "url": "https://store.shopping.yahoo.co.jp/kabutechno/cv202dzs.html",
+     "price": 15463,
      "shippingFree": false,
      "point": 0,
      "reviewAverage": null,
-     "reviewCount": 1,
-     "shop": "ハンズコテラ Yahoo!ショップ",
-     "net": 15651
+     "reviewCount": 0,
+     "shop": "kabutechno",
+     "net": 15463
     }
    }
   },
@@ -138,31 +138,16 @@
    "cio-ss10k-slim2": {
     "rakuten": {
      "skipped": "RAKUTEN_ACCESS_KEY が無い"
-    },
-    "yahoo": {
-     "found": false,
-     "candidates": 0,
-     "searched": 0
     }
    },
    "cio-ex05-ss10k": {
     "rakuten": {
      "skipped": "RAKUTEN_ACCESS_KEY が無い"
-    },
-    "yahoo": {
-     "found": false,
-     "candidates": 0,
-     "searched": 0
     }
    },
    "cio-trio-ss20000": {
     "rakuten": {
      "skipped": "RAKUTEN_ACCESS_KEY が無い"
-    },
-    "yahoo": {
-     "found": false,
-     "candidates": 0,
-     "searched": 0
     }
    },
    "buffalo-bmpbsa10000": {
@@ -186,21 +171,11 @@
    "cheero-solitta-che138": {
     "rakuten": {
      "skipped": "RAKUTEN_ACCESS_KEY が無い"
-    },
-    "yahoo": {
-     "found": false,
-     "candidates": 0,
-     "searched": 1
     }
    },
    "cheero-solido-che135": {
     "rakuten": {
      "skipped": "RAKUTEN_ACCESS_KEY が無い"
-    },
-    "yahoo": {
-     "found": false,
-     "candidates": 0,
-     "searched": 1
     }
    },
    "elecom-de-c86": {
@@ -260,21 +235,11 @@
    "anker-zolo-a1688": {
     "rakuten": {
      "skipped": "RAKUTEN_ACCESS_KEY が無い"
-    },
-    "yahoo": {
-     "found": false,
-     "candidates": 0,
-     "searched": 1
     }
    },
    "anker-maggo-plus-a1113": {
     "rakuten": {
      "skipped": "RAKUTEN_ACCESS_KEY が無い"
-    },
-    "yahoo": {
-     "found": false,
-     "candidates": 0,
-     "searched": 1
     }
    }
   },
@@ -444,11 +409,6 @@
    "hagoogi-ot-96h": {
     "rakuten": {
      "skipped": "RAKUTEN_ACCESS_KEY が無い"
-    },
-    "yahoo": {
-     "found": false,
-     "candidates": 0,
-     "searched": 1
     }
    }
   },
@@ -460,15 +420,15 @@
     "yahoo": {
      "found": true,
      "candidates": 30,
-     "name": "象印　加湿器 EE-TC60 WA（ホワイト）",
-     "url": "https://store.shopping.yahoo.co.jp/sanrex/ee-tc60-wa.html",
-     "price": 24500,
+     "name": "象印　加湿器 EE-TC60 BM（ソフトブラック）",
+     "url": "https://store.shopping.yahoo.co.jp/sanrex/ee-tc60-bm.html",
+     "price": 25200,
      "shippingFree": true,
      "point": 0,
      "reviewAverage": null,
      "reviewCount": 0,
      "shop": "サンサン マーケット",
-     "net": 24500
+     "net": 25200
     }
    },
    "zojirushi-ee-dg50": {
@@ -478,15 +438,15 @@
     "yahoo": {
      "found": true,
      "candidates": 30,
-     "name": "象印 ZOJIRUSHI 加湿器 EE-DG50-WA スチーム式加湿器 4.0L ホワイト",
-     "url": "https://store.shopping.yahoo.co.jp/life-marketkyoto/ee-dg50-wa.html",
-     "price": 20560,
+     "name": "象印 (/F) スチーム式 加湿器 4L 2026年モデル ホワイト 白 4リットル 木造和室 8畳 プレハブ洋室 13畳 EE-DG50-WA EE-DG50(WA)",
+     "url": "https://store.shopping.yahoo.co.jp/proshopdate15/zojirushi-ee-dg50-wa.html",
+     "price": 20030,
      "shippingFree": true,
      "point": 0,
      "reviewAverage": null,
      "reviewCount": 0,
-     "shop": "ライフマーケットYahoo!店",
-     "net": 20560
+     "shop": "ProShop伊達",
+     "net": 20030
     }
    },
    "zojirushi-ee-dg35": {
@@ -496,15 +456,15 @@
     "yahoo": {
      "found": true,
      "candidates": 29,
-     "name": "象印　加湿器 EE-DG35 HA（グレー）",
-     "url": "https://store.shopping.yahoo.co.jp/sanrex/ee-dg35-ha.html",
-     "price": 18800,
-     "shippingFree": false,
+     "name": "象印 ZOJIRUSHI 加湿器 EE-DG35-WAスチーム式加湿器 3.0L ホワイト",
+     "url": "https://store.shopping.yahoo.co.jp/life-marketkyoto/ee-dg35-wa.html",
+     "price": 19190,
+     "shippingFree": true,
      "point": 0,
      "reviewAverage": null,
      "reviewCount": 0,
-     "shop": "サンサン マーケット",
-     "net": 18800
+     "shop": "ライフマーケットYahoo!店",
+     "net": 19190
     }
    },
    "zojirushi-ee-rv50": {
@@ -513,7 +473,7 @@
     },
     "yahoo": {
      "found": true,
-     "candidates": 28,
+     "candidates": 29,
      "name": "EE-RV50-WA ZOJIRUSHI スチーム式 加湿器 ホワイト 3.0L 象印 在庫あり お手入れ簡単 清潔な蒸気スチーム式 安全設計",
      "url": "https://store.shopping.yahoo.co.jp/macocoro/ee-rv50.html",
      "price": 16100,
@@ -567,16 +527,16 @@
     },
     "yahoo": {
      "found": true,
-     "candidates": 18,
-     "name": "加湿器 象印 EE-FA50-BA [ブラック]",
-     "url": "https://store.shopping.yahoo.co.jp/archholesale/1311608.html",
-     "price": 30238,
+     "candidates": 14,
+     "name": "【外箱破損/在庫あり】ZOJIRUSHI スチーム式加湿器 STAN. EE-FA50-BA ブラック 象印",
+     "url": "https://store.shopping.yahoo.co.jp/outletplaza/40001100658.html",
+     "price": 34249,
      "shippingFree": true,
      "point": 0,
      "reviewAverage": null,
-     "reviewCount": 1,
-     "shop": "ア-チホ-ルセ-ル",
-     "net": 30238
+     "reviewCount": 0,
+     "shop": "秋葉原　アウトレットプラザ",
+     "net": 34249
     }
    }
   }
