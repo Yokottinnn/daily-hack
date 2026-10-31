@@ -1,3 +1,4 @@
 [
-      {"task": "x391-schedule-points.sh", "rc": 0, "out": "ポイント経済圏を 11/1 12:00 に予約した / schedule-points.md"}
+      {"task": "t511-a8-banners-uncovered.sh", "rc": 0, "out": "- バナー 0 件（）  ### s00000006576010 広告リンク作成｜A8.netメディア管理画面 - 画面: https://media-console.a8.net/program/create-link - バナー 15 件（300x250・300x250・250x250・728x90・120x60・300x250・120x60・468x60・234x60・320x50・100x60・100x60・100x60�"},
+      {"task": "t512-a8-banners-uncovered.sh", "rc": 0, "out": "- バナー 14 件（234x60・300x250・120x60・350x160・468x60・468x60・468x60・120x60・468x60・224x33・125x125・120x60・100x60・100x100）  ### s00000001343017 広告リンク作成｜A8.netメディア管理画面 - 画面: https://media-console.a8.net/program/create-link - バナー 1"}
   ]
