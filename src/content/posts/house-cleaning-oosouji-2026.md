@@ -121,6 +121,44 @@ references:
 <figcaption>レンジフードは、ダスキンだと単品で22,000円から。水回りのセットに入れると1か所あたりが下がる。<cite>写真: Stilfehler / <a href="https://commons.wikimedia.org/wiki/File:California_Kitchen_Range_Hood.jpg" target="_blank" rel="noopener">Wikimedia Commons</a>（CC BY-SA 4.0）</cite></figcaption>
 </figure>
 
+## 実際に頼んだ人の声｜X の投稿から
+
+料金表だけでは分からないのが、**実際に頼んだ人がいくら払って、どう感じたか**。X で見つけた投稿を3つ置いておく。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">皆様、年末の大掃除バタバタで面倒じゃないですか。わたくし今日今から本格ハウスクリーニング頼んだので、レポします。<br><br>とりあえずリビングビフォー。床が汚い</p>&mdash; 時代と寝る女💋あいめこ/中国SNS運用屋さん (@zidaitoneruonna) <a href="https://twitter.com/zidaitoneruonna/status/1981933853414694978">2025年10月25日</a></blockquote>
+
+年末の大掃除をまるごとプロに任せた人の実況。**「自分でやる時間がない」から頼む**のが、年末のいちばん多い理由ね。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">水道水が地下水ってこともあって、ミネラルが豊富だから、水垢がすごい勢いでできるんだよね！お掃除が得意な方ではないから、新築から2年経った今、ハウスクリーニング水回り3点セットを頼みました。ほんとに気持ちがすっきりする！！大掃除終わった気分🤭 またお願いしよーっと！！</p>&mdash; アオ🦖4歳 (@aooooooogogo) <a href="https://twitter.com/aooooooogogo/status/1993275903946969197">2025年11月25日</a></blockquote>
+
+この記事でいちばん安くなると出した**水回り3点セット**を、実際に頼んだ人。「大掃除終わった気分」になれるのは、汚れの強い3か所をまとめて片づけられるからよ。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">エアコンクリーニング<br>２台依頼して１台7,500円×２で15,000円｡<br>お掃除機能付きで１台10,000円プラス｡<br>結局35,000円…＿|￣|○<br>お掃除機能付いててもカビとか気になるし…<br>業者さん頼んだら料金プラスになる恐怖😱</p>&mdash; すめ (@nohohon_fumosan) <a href="https://twitter.com/nohohon_fumosan/status/2114311075198009832">2026年10月25日</a></blockquote>
+
+**お掃除機能付きのエアコンは、1台で1万円ほど上がる。** この記事の表でも、ユアマイスターの相場で5,000円、ダスキンでは11,000円の差がある。見積もりを取る前に、家のエアコンにお掃除機能が付いているかを確かめておくこと。
+
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<p class="source-note">引用した X の投稿は、2026年10月31日に本文・投稿者・日付を確かめたもの。料金は投稿した人が頼んだ業者のもので、この記事で比べている会社の料金ではない。</p>
+
+## 動画で見る｜プロのハウスクリーニングで何をしてくれるか
+
+文章と料金表だけだと、**何をどこまでやってくれるのか**が想像しにくい。作業の中身と費用が分かる動画を2本選んだ。
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/m8ePSO9ZCy8" title="【プロの本気】お掃除職人が築32年の戸建を丸ごとお掃除！かかった費用も大公開！（楽待 RAKUMACHI）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+築32年の戸建てを、プロが丸ごと掃除する様子。**かかった費用も最後に出てくる**ので、家まるごとを頼むときの目安になる。
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/zquB-qIN3jw" title="【大阪ガスのハウスクリーニング】プロが教えるお風呂掃除！驚きの洗浄工程を全公開【大阪ガス公式】（大阪ガスの暮らしチャンネル【公式】）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+浴室クリーニングの工程を、大阪ガスの公式チャンネルが最初から最後まで見せている。**浴室を頼むと何をしてくれるのか**が分かる。
+
+<p class="source-note">埋め込んだ YouTube は、oEmbed でタイトルと投稿者を照合し、実在を確かめたもの。内容は撮影した時点のもの。</p>
+
 ## 会社ごとに見る｜料金と、向いている人
 
 ここからは1社ずつ。料金と対応地域、追加でかかるお金を書いた。
