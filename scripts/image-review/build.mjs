@@ -197,13 +197,31 @@ for (const k of Object.keys(setStyles)) {
 }
 console.log(`投稿スタイル: SET ${setKeys.length} 件 すべて指定済み（目録 ${catalog.styles.length} 型）`);
 
-for (const slot of ["/*__IMAGES__*/{}", "/*__POSTS__*/{}", "/*__STYLES__*/{}"]) {
+// 2026-10-31: 組ごとの状態（投稿候補／投稿済み／終了・見送り）と日付をページに渡す（利用者の指示「投稿済みとそうでない投稿を区別」「フィルタやソート」）。
+// 状態は set-status.json（キューの x_tweet_id で確かめて書く）と page.html の posted。日付は 投稿済みなら投稿 ID から、未投稿なら SET の注記の最初の日付
+const setStatus = fs.existsSync(path.join(HERE, "set-status.json")) ? JSON.parse(fs.readFileSync(path.join(HERE, "set-status.json"), "utf8")) : {};
+const STATUS = {};
+for (const b of src.split(/\n\s*\{\s*\n/)) {
+  const km = b.match(/^\s*key: "([^"]+)"/m); if (!km) continue;
+  const key = km[1]; const st = setStatus[key] || {};
+  const pm = b.match(/posted:\s*\[([^\]]*)\]/);
+  const ids = st.ids || (pm ? [...pm[1].matchAll(/"(\d+)"/g)].map((x) => x[1]) : []);
+  const state = st.status || (ids.length ? "posted" : "draft");
+  const fromId = ids[0] ? new Date(Number((BigInt(ids[0]) >> 22n) + 1288834974657n)).toISOString().slice(0, 10) : null;
+  const fromNote = (b.match(/(20\d\d-\d\d-\d\d)/) || [])[1] || null;
+  STATUS[key] = { state, ids, date: st.date || fromId || fromNote, note: st.note || "", next: st.next || null, why: st.why || "", check: st.check || [] };
+}
+const nState = (s) => Object.values(STATUS).filter((v) => v.state === s).length;
+console.log(`状態: 投稿候補 ${nState("draft")}・投稿済み ${nState("posted")}・終了/見送り ${nState("done") + nState("dropped")}`);
+
+for (const slot of ["/*__IMAGES__*/{}", "/*__POSTS__*/{}", "/*__STYLES__*/{}", "/*__STATUS__*/{}"]) {
   if (!src.includes(slot)) throw new Error("page.html に差し込み口が無い: " + slot);
 }
 const out = src
   .replace("/*__IMAGES__*/{}", JSON.stringify(map))
   .replace("/*__POSTS__*/{}", JSON.stringify(posts))
-  .replace("/*__STYLES__*/{}", JSON.stringify({ groups: catalog.groups, styles: catalog.styles, sets: setStyles }));
+  .replace("/*__STYLES__*/{}", JSON.stringify({ groups: catalog.groups, styles: catalog.styles, sets: setStyles }))
+  .replace("/*__STATUS__*/{}", JSON.stringify(STATUS));
 fs.writeFileSync(OUT, out);
 
 // **対象 N / 埋めた M を必ず両方 出す。** 合わなければここで気づける（最上位ルール 14）
