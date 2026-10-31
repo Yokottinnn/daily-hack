@@ -417,11 +417,14 @@ try {
           // t396: id では押せなかった。帯の中の「テキスト」の文字で押し、「フルリンク」を選んでから読む
           const ssBtns = await p.evaluate(() => [...document.querySelectorAll('#amzn-ss-wrap a, #amzn-ss-wrap button, #amzn-ss-wrap span, [id^="amzn-ss"] a')].map((e) => `${e.id || e.tagName.toLowerCase()}「${(e.innerText || '').trim().slice(0, 15)}」`).filter((x) => !/「」/.test(x)).slice(0, 15));
           lines.push(`- 帯の部品: ${ssBtns.join(' ／ ') || 'なし'}`);
-          await p.locator('#amzn-ss-wrap').getByText('テキスト', { exact: true }).first().click({ timeout: 5000 }).catch(() => {});
+          // t397: 帯のボタンは「リンク生成」（#amzn-ss-get-link-button）
+          await p.locator('#amzn-ss-get-link-button, #amzn-ss-text-link').first().click({ timeout: 5000 }).catch(() => {});
           await p.waitForTimeout(2500);
           await p.getByText(/フルリンク|完全なリンク|Full link/).first().click({ timeout: 3000 }).catch(() => {});
           await p.waitForTimeout(1500);
-          const links = await p.evaluate(() => [...document.querySelectorAll('textarea, input[type=text]')].map((e) => e.value).filter((v) => /amazon\.co\.jp|amzn\.to/.test(v)));
+          const links = await p.evaluate(() => [...document.querySelectorAll('textarea, input[type=text], input:not([type])')].map((e) => e.value || e.textContent || '').filter((v) => /amazon\.co\.jp|amzn\.to/.test(v)));
+          const pop = await p.evaluate(() => [...document.querySelectorAll('[id^="amzn-ss"]')].filter((e) => e.getBoundingClientRect().height > 0).map((e) => (e.innerText || '').replace(/\s+/g, ' ').trim()).filter((x) => x && x.length < 120).slice(0, 12));
+          lines.push('- 「リンク生成」を押したあとの帯の文字:', ...pop.map((x) => `  - ${x.replace(/https?:\/\/\S+/g, (u) => u.replace(/[A-Za-z0-9]{20,}/g, '…'))}`));
           for (const l of links.slice(0, 3)) { let shape = l; try { const u = new URL(l); shape = `${u.origin}${u.pathname.replace(/[A-Z0-9]{10}/, '<ASIN>')}?${[...u.searchParams.keys()].map((k) => `${k}=${k === 'tag' ? u.searchParams.get(k) : '…'}`).join('&')}`; } catch {}
             lines.push(`- サイトストライプのリンク（形）: ${shape}`); }
           if (!links.length) lines.push('- サイトストライプのリンクが読めなかった');
