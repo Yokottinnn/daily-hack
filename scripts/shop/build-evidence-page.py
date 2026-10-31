@@ -20,8 +20,21 @@ def show(path):
 
 def esc(s): return html.escape(str(s or ''))
 
+from urllib.parse import urlparse, parse_qs
+def nkey(h):
+    # 楽天は包んだ先（pc）、Amazon は /dp/ か検索語で比べる
+    q = parse_qs(urlparse(h).query)
+    if 'hb.afl.rakuten' in h: return 'r:' + (q.get('pc') or [''])[0]
+    if 'amazon' in h: return 'a:' + (re.search(r'/dp/(\w+)', h).group(1) if '/dp/' in h else (q.get('k') or [''])[0])
+    return h
 rows_all = []
 seen_keys = set()
+hidden = []
+# 本番の記事にいま出ているリンク（LIVE_DIR に p-<シリーズ>.html を置くと使う）
+LIVE = {}
+for _slug, _l, _ser in ART:
+    _f = os.path.join(os.environ.get('LIVE_DIR', ''), f'p-{_ser}.html')
+    LIVE[_slug] = {nkey(html.unescape(h)) for h in re.findall(r'class="shop-btn[^"]*" href="([^"]+)"', open(_f).read())} if os.environ.get('LIVE_DIR') and os.path.exists(_f) else None
 for slug, label, ser in ART:
     data = json.load(open(f'{REPO}/src/data/shop/{ser}.json'))
     for st, stl in STORES:
@@ -44,7 +57,7 @@ for slug, label, ser in ART:
             it = None
             for x in data['items']:
                 y = x.get('yahoo') or {}
-                if st == 'yahoo' and ((y.get('url') and fin.startswith(y['url'])) or (y.get('keyword') and '/search/' + y['keyword'].replace(' ', '+') + '/' in fin)):
+                if st == 'yahoo' and ((y.get('url') and fin.startswith(y['url'])) or ((y.get('keyword') or y.get('_keywordWas')) and '/search/' + (y.get('keyword') or y.get('_keywordWas')).replace(' ', '+') + '/' in fin)):
                     it = x
             if it:
                 r['name'] = r.get('name') or f"{it.get('brand', '')} {it['name']}".strip()
@@ -53,6 +66,11 @@ for slug, label, ser in ART:
                     norm = lambda t: re.sub(r'[\s\-‐－]', '', t.lower())
                     ok = [t for t in (r.get('top') or []) if all(norm(m) in norm(t) for m in must)]
                     r['keys'] = must; r['hits'] = len(ok); r['hitTitles'] = ok
+            # 外したボタン（利用者の判断で 2026-10-31 に外した）は証跡の行に出さず、下の一覧に出す
+            if st == 'yahoo' and '/search/' in fin and it and not (it.get('yahoo') or {}).get('keyword'):
+                hidden.append((label, stl, f"{it.get('brand', '')} {it['name']}".strip(), (it.get('yahoo') or {}).get('_hiddenNote', ''))); continue
+            if st != 'yahoo' and r.get('href') and LIVE.get(slug) is not None and nkey(r['href']) not in LIVE[slug]:
+                hidden.append((label, stl, r.get('name'), '')); continue
             key = (slug, st, re.sub(r'[?#].*$', '', fin) if st == 'yahoo' else r.get('href'))
             if key in seen_keys: continue
             seen_keys.add(key)
@@ -123,6 +141,7 @@ def tile(st, stl):
     return f'''<div class="tile"><p class="tl">{stl}</p><p class="big">{s["aff"]}<small>/{s["n"]}</small></p><p class="sub">紹介の印あり</p>
 <p class="big2 {'warn' if s['none'] else ''}">{s["buy"]}<small>/{s["n"]}</small></p><p class="sub">その商品のページに着き、カートのボタンがある{f"（残り {s['none']} 件は赤の行）" if s['none'] else ''}{f"・{s['err']} 件は確かめられず" if s['err'] else ''}</p></div>'''
 
+hidden_html = ('<section class="how"><h2>外したボタン（その店に型番の商品が無かったもの）</h2><p class="note" style="margin:0 0 8px">2026年10月31日に、検索しても別の商品しか出なかったボタンを記事から外した。</p><ul style="margin:0;padding-left:1.2em">' + ''.join(f'<li>{esc(a)}｜{esc(b)}｜{esc(c)}</li>' for a, b, c in sorted({(a, b, c) for a, b, c, _ in hidden})) + '</ul></section>') if hidden else ''
 page = f'''<title>3店ボタンの証跡</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;700;800&family=IBM+Plex+Mono:wght@400&display=swap">
@@ -182,7 +201,8 @@ code {{ font-family:var(--mono); font-size:.78rem; overflow-wrap:anywhere }}
 <dt>Yahoo!ショッピング</dt><dd>記事のリンクは素の商品 URL だが、押した瞬間にバリューコマースの LinkSwitch（<code>vc_pid=892728470</code>）が成果リンクへ差し替える。途中で <code>valuecommerce.com</code> を通り、着いた先に <code>sc_e=afvc_shp</code> が付く。</dd>
 <dt>Amazon</dt><dd>着いた先の URL に、こちらのアソシエイト ID <code>tag=dailyhack-22</code> が残っているか。</dd>
 <dt>買えるか</dt><dd>着いた画面の検索結果を 1 件ずつ読み、型番（例: <code>MTL-E030</code>）を含む商品があるかを数えた。商品ページに直接着いたものは、題名に型番があり「カートに入れる」ボタンがあるか。</dd>
-</dl><p class="note">2026年10月31日に、楽天と Amazon のボタンを検索ページから商品ページへ張り替えた。その店で型番の商品が見つからなかったものは、検索ページのまま残っている（赤で示した行）。紹介の記録は、楽天は押してから 24 時間、Amazon は 24 時間以内にカートへ入れた商品に付く。実際に報酬が付いたかどうかは、購入が入ったあとに各社の管理画面でしか確かめられない。Amazon は自分の注文を数えない。</p></section>
+</dl><p class="note">2026年10月31日に、楽天と Amazon のボタンを検索ページから商品ページへ張り替えた。その店で型番の商品が見つからなかったボタンは記事から外した（下の「外したボタン」）。商品ページが無く検索ページのまま残っているもの・カートのボタンが無いものは赤で示した。紹介の記録は、楽天は押してから 24 時間、Amazon は 24 時間以内にカートへ入れた商品に付く。実際に報酬が付いたかどうかは、購入が入ったあとに各社の管理画面でしか確かめられない。Amazon は自分の注文を数えない。</p></section>
+{hidden_html}
 <nav class="bar" aria-label="絞り込み"><button type="button" id="f-all" aria-pressed="true">すべて</button><button type="button" id="f-bad" aria-pressed="false">問題があるものだけ</button>
 <span class="sub">写真を押すと大きく開く</span></nav>
 {''.join(cards)}

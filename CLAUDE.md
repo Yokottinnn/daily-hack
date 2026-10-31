@@ -1009,6 +1009,24 @@ follow-balance の `GRACE_DAYS` が plist に無く、**スクリプトの既定
 - **リポジトリの md は記録用**（次のセッションが読むため）。残してよいが、**渡す物ではない**
 - チャット本文には**結論だけ**を書き、詳細はページに置く
 
+#### 分析は必ず作戦室の「分析レポート」にも足す（2026-10-31 に指示・全セッション・例外なし）
+
+> この分析も作戦室のアドホックのページに追加しておいて
+> 同じことを言わなくても以降こういった分析は全てちゃんと上記に追加してね
+
+**分析・調査・検証のページを publish したら、言われなくても作戦室の db の `analyses` に 1 件足す。**
+作戦室の「分析レポート」ページはこのコレクションを新しい順に出している（`scripts/strategy-board/board.html`）。
+
+```text
+ArtifactData(action="set", url="https://claude.ai/artifact/9KWGybrAHF7LtbQdVpw9YN",
+  collection="analyses", doc_id="<YYYY-MM-DD>-<短い英字>",
+  data={date, by: "blog3|tweet2|affiliate", kind, title, question, summary, points: [...], url: <分析のページ>})
+```
+
+- `question` は利用者の問いをそのまま要約、`summary` は結論 1〜2 文、`points` は要点（数字・やったこと・残り・費用）
+- **分析のページを直したら、`analyses` の要点も同じ内容に直す**（古い結論を残さない）
+- 実例: `2026-10-31-shop-buttons-evidence`（3 店ボタンの証跡）・`2026-10-25-x-follower-growth`
+
 ### 22. 説明はすべて日本語で書く（2026-10-05 に「何回同じこと言ったらわかんだよ」と叱られた・例外なし）
 
 **利用者への説明・手順・報告は、すべて日本語で書く。** 英語の画面表示やコマンドの出力が出る手順では、
