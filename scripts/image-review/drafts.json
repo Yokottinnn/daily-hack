@@ -1,6 +1,6 @@
 {
   "_doc": "レビューページの書き換え（drafts）のスナップショット。sync-drafts.mjs が書く。build.mjs と guard-post-approval.py が読む",
-  "syncedAt": "2026-10-31T05:16:59.468Z",
+  "syncedAt": "2026-10-31T11:46:11.987Z",
   "drafts": {
     "blue-badge-a/text-1": {
       "text": "ついに青バッジ、付いたわよ✔️\n\nあんたの損を、もっと遠くまで届けるためなんだから、\nすぐにフォローしなさい。\n\nポイ活・節約・お得情報、ここからもっと濃くしていくわ。\n青バッジ同士、見かけたら仲良くしてあげてもいいわよ😏",
@@ -29,6 +29,10 @@
     "morning/text-2": {
       "text": "なか卯の目玉焼き朝食、300円。\n\nごはん・みそ汁・目玉焼きつきで一食が完結するの。小盛300円、並盛でも320円よ。松屋より30円安い。\n\n朝4:00から11:00まで。モバイルオーダーなら早朝の割増もかからない。\n\n詳細をまとめたから今すぐチェックしなさい。\nhttps://daily-hack.fieldbeside.com/posts/morning-500-2026/",
       "updatedAt": "2026-09-23T04:48:25.626Z"
+    },
+    "points/text-2": {
+      "text": "5つの経済圏の公式ルールと、Xに投稿された獲得実績の中身は、記事に全部まとめてあるわよ。\n\nhttps://daily-hack.fieldbeside.com/posts/point-economy-real-results-2026/",
+      "updatedAt": "2026-10-31T11:41:09.356Z"
     },
     "prime/text-2": {
       "text": "Amazon・楽天それぞれの公式の条件はここに置いたわよ。買う前に寄るポイントサイトの入口も書いてあるわよ。\n\nhttps://daily-hack.fieldbeside.com/posts/prime-sale-vs-rakuten-autumn-2026/",

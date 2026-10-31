@@ -118,7 +118,7 @@ for (const [k, list] of Object.entries(posts)) {
       // 2026-10-31: 説明型（本体のある長文）は冒頭を「開きたくなる文」にして `詳細は👇` の 1 行で終える（利用者の指示・x-post-copy §1-E）。
       // 冒頭で答えを書き切ると「さらに表示」が押されない。**`詳細は👇` までの重みが 275 以内**で、独立した 1 行であること。
       // 10/31 より前に出た長文だけ前の型のまま除外する
-      const FOLD_RULE_EXEMPT = ["cinema-toyosu", "prime", "points", "hanabi-a", "hanabi-b", "hanabi-c"];
+      const FOLD_RULE_EXEMPT = ["cinema-toyosu", "prime", "hanabi-a", "hanabi-b", "hanabi-c"];
       if (!FOLD_RULE_EXEMPT.includes(k)) {
         // 2026-10-31: 渡しの 1 行は「詳細は👇」固定にしない。👇 で終わる独立した 1 行を探し、**ほかの組と同じ言い方なら止める**（ワンパターン禁止・§1-F）
         const lines = t.split("\n");
