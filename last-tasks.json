@@ -1,1 +1,11 @@
-[]
+[
+      {"task": "t440-a8-apply-wide.sh", "rc": 0, "out": ""},
+      {"task": "t441-a8-apply-wide.sh", "rc": 0, "out": "  - プログラムによっては審査結果が出るまで、数週間以上お時間を要する場合がございます。   - 提携完了  ### s00000001343017 - 押したあとの画面: https://media-console.a8.net/prog"},
+      {"task": "t442-a8-apply-wide.sh", "rc": 0, "out": "  - プログラムによっては審査結果が出るまで、数週間以上お時間を要する場合がございます。   - 提携完了  ### s00000027307001 - 押したあとの画面: https://media-console.a8.net/program/ag"},
+      {"task": "t443-a8-apply-wide.sh", "rc": 0, "out": "  - プログラムによっては審査結果が出るまで、数週間以上お時間を要する場合がございます。   - 提携完了  ### s00000020317001 - 押したあとの画面: https://media-console.a8.net/program/ag"},
+      {"task": "t444-a8-apply-wide.sh", "rc": 0, "out": "  - プログラムによっては審査結果が出るまで、数週間以上お時間を要する場合がございます。   - 提携完了  ### s00000020001003 - 押したあとの画面: https://media-console.a8.net/prog"},
+      {"task": "t445-a8-apply-wide.sh", "rc": 0, "out": "  - プログラムによっては審査結果が出るまで、数週間以上お時間を要する場合がございます。   - 審査中  ### s00000018745001 - 押したあとの画面: https://media-console.a8.net/program/agreement"},
+      {"task": "t446-a8-apply-wide.sh", "rc": 0, "out": "  - プログラムによっては審査結果が出るまで、数週間以上お時間を要する場合がございます。   - 審査中  ### s00000026610001 - 押したあとの画面: https://media-console.a8.net/program/agree"},
+      {"task": "t447-a8-apply-wide.sh", "rc": 0, "out": "  - プログラムによっては審査結果が出るまで、数週間以上お時間を要する場合がございます。   - 提携完了  ### s00000026001001 - 押したあとの画面: https://media-console.a8.net/program/ag"},
+      {"task": "t448-a8-apply-wide.sh", "rc": 0, "out": "  - プログラムによっては審査結果が出るまで、数週間以上お時間を要する場合がございます。   - 提携完了  ### s00000023131001 - 押したあとの画面: https://media-console.a8.net/program/ag"}
+  ]
