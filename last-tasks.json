@@ -1,1 +1,12 @@
-[]
+[
+      {"task": "t460-a8-apply-retry.sh", "rc": 0, "out": "### s00000016921006 - 申請欄が無い（https://media-console.a8.net/program/detail-not-partnered・プログラム詳細｜A8.netメディア管理画面）  ### s00000025318001 - 申請欄が無い（https://media-console.a8.net/program/detail-not-partnered・プログラム詳細｜A8.netメ�"},
+      {"task": "t461-a8-apply-retry.sh", "rc": 0, "out": "### s00000013465001 - 申請欄が無い（https://media-console.a8.net/program/detail-partnered・提携情報の表示（詳細）｜A8.netメディア管理画面）  ### s00000024730001 - 申請欄が無い（https://media-console.a8.net/program/detail-not-partnered・プログラム詳細｜A8."},
+      {"task": "t462-a8-apply-retry.sh", "rc": 0, "out": "### s00000024550001 - 申請欄が無い（https://media-console.a8.net/program/detail-not-partnered・プログラム詳細｜A8.netメディア管理画面）  ### s00000017947001 - 申請欄が無い（https://media-console.a8.net/program/detail-partnered・提携情報の表示（詳細）｜A8."},
+      {"task": "t463-a8-apply-retry.sh", "rc": 0, "out": "### s00000017695007 - 申請欄が無い（https://media-console.a8.net/program/detail-partnered・提携情報の表示（詳細）｜A8.netメディア管理画面）  ### s00000025310004 - 申請欄が無い（https://media-console.a8.net/program/detail-not-partnered・プログラム詳細｜A8."},
+      {"task": "t464-a8-apply-retry.sh", "rc": 0, "out": "### s00000020684001 - 申請欄が無い（https://media-console.a8.net/program/detail-not-partnered・プログラム詳細｜A8.netメディア管理画面）  ### s00000015619002 - 申請欄が無い（https://media-console.a8.net/program/detail-partnered・提携情報の表示（詳細）｜A8."},
+      {"task": "t465-a8-apply-retry.sh", "rc": 0, "out": "### s00000017068006 - 申請欄が無い（https://media-console.a8.net/program/detail-not-partnered・プログラム詳細｜A8.netメディア管理画面）  ### s00000019218002 - 申請欄が無い（https://media-console.a8.net/program/detail-not-partnered・プログラム詳細｜A8.netメ�"},
+      {"task": "t466-a8-apply-retry.sh", "rc": 0, "out": "### s00000013504001 - 申請欄が無い（https://media-console.a8.net/program/detail-partnered・提携情報の表示（詳細）｜A8.netメディア管理画面）  ### s00000021732002 - 申請欄が無い（https://media-console.a8.net/program/detail-not-partnered・プログラム詳細｜A8."},
+      {"task": "t467-a8-apply-retry.sh", "rc": 0, "out": "### s00000027240002 - 申請欄が無い（https://media-console.a8.net/program/detail-partnered・提携情報の表示（詳細）｜A8.netメディア管理画面）  ### s00000024389001 - 申請欄が無い（https://media-console.a8.net/program/detail-partnered・提携情報の表示（詳細�"},
+      {"task": "t468-a8-apply-retry.sh", "rc": 0, "out": "### s00000025659001 - 申請欄が無い（https://media-console.a8.net/program/detail-partnered・提携情報の表示（詳細）｜A8.netメディア管理画面）  ### s00000025498001 - 申請欄が無い（https://media-console.a8.net/program/detail-partnered・提携情報の表示（詳細�"},
+      {"task": "t469-a8-apply-retry.sh", "rc": 0, "out": "### s00000020635003 - 申請欄が無い（https://media-console.a8.net/program/detail-partnered・提携情報の表示（詳細）｜A8.netメディア管理画面）  ### s00000019448001 - 申請欄が無い（https://media-console.a8.net/program/detail-not-partnered・プログラム詳細｜A8."}
+  ]
