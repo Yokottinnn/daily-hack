@@ -150,7 +150,17 @@ references: ["https://b4c.jp/poigiken/articles/basic/poikatsu-osusume-2026.html"
 
 ## 実際に使った人の声と動画｜ポイ活の時給
 
-ポイ活の時給を、実際に測った人の動画で確かめておく。
+実際に使っている人の投稿と動画で補っておく。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">ポイ活、アンケート回答、毎日30分やって月数百円。 「塵も積もれば💪」って言い訳してた。 冷静に計算したら500時間で3万円→時給60円。 今の時代マックすら買えない値段で撃沈。。。 その時間を副業オタクにゃふ〜さんのTips実践に切り替えて、今は副業月8万🙌 100円のために人生売るの、やめよう！</p>&mdash; べる🪼副業OL (@fukugyool__) <a href="https://twitter.com/fukugyool__/status/1997255949791408620">2025年12月6日</a></blockquote>
+
+**毎日 30 分のポイ活とアンケートで、500 時間で 3 万円＝時給 60 円**だった、という計算。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">ポイ活で、やらないと決めてること3つ（時間編）。 ①1件の案件に30分以上かける ②ポイントサイトの比較に時間を使いすぎる ③広告動画を1日10本以上見る ②は3サイト見比べて、差額40円のために20分使った日があったから。 時給で考えたら、比べるより始めるほうが得でした</p>&mdash; Ritsuka (@Ritsuka_tamaru) <a href="https://twitter.com/Ritsuka_tamaru/status/2116004759505444982">2026年10月30日</a></blockquote>
+
+**ポイ活でやらないと決めていること 3 つ**（時間編）。時給を下げない工夫ね。
+
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <div class="yt-embed">
 <iframe src="https://www.youtube-nocookie.com/embed/V21TJ7Ps0Ps" title="毎日25分のポイ活、時給は約33円だった — まめ家が残す日課と切る日課 | 楽天経済圏ラボ（まめ研究員 楽天経済圏ラボ）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
@@ -164,7 +174,7 @@ references: ["https://b4c.jp/poigiken/articles/basic/poikatsu-osusume-2026.html"
 
 時給の低いポイ活を続けてしまう理由を解説した動画。
 
-<p class="source-note">埋め込んだ YouTube は、2026年10月31日に oEmbed でタイトルと投稿者を照合し、実在を確かめたもの。投稿した人の個人の感想・撮影時点の内容で、この記事の数字とは別のもの。</p>
+<p class="source-note">引用した X の投稿は、2026年10月31日に本文・投稿者・日付を確かめたもの。埋め込んだ YouTube は oEmbed でタイトルと投稿者を照合し、実在を確かめたもの。どちらも投稿した人の個人の感想・撮影時点の内容で、この記事の数字とは別のもの。</p>
 
 ## ❓ よくある質問（FAQ）
 
