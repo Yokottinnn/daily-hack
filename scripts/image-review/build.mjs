@@ -65,6 +65,11 @@ const FILES = {
   "overseas-esim-wifi-comparison-2026": ["1-order.jpg"],
   // **未投稿**（2026-10-31）。置くだけWiFi・WiMAX比較。素材は記事の数字とロゴだけ
   "home-router-wimax-comparison-2026": ["1-2nen.jpg"],
+  // **未投稿**（2026-10-31）。比較記事 4 本。素材は記事の数字とロゴだけ
+  "takuhai-kaitori-comparison-2026": ["1-henso.jpg"],
+  "domestic-flight-tour-sites-2026": ["1-modoranai.jpg"],
+  "hotel-booking-sites-2026": ["1-kangen.jpg"],
+  "walk-vs-pointsite-2026": ["1-30days.jpg"],
 };
 
 const map = {};
