@@ -1,0 +1,105 @@
+// 3 店ボタン（楽天・Yahoo!・Amazon）を本番の記事で 1 つずつ押し、着いた先を確かめて写真を残す（2026-10-31 利用者の指示
+// 「すべて、確実にそこからの購入で商品が購入できるかどうかを確認してその証跡も私に見せて」）。**読むだけ。カートに入れない・買わない。**
+//   - 押し方: 記事のページでボタンを本当にクリックする（Yahoo! はクリックの瞬間に LinkSwitch が成果リンクへ差し替えるため、URL を直接開くと確かめられない）
+//   - 見るもの: 途中の URL（アフィリエイトの転送を通ったか）・着いた先の URL に印が残るか・商品が出ているか（検索結果の件数／「カートに入れる」）・型番が画面にあるか
+//   - 写真: $OPS_REPORT_DIR/shop-verify/<slug>/NN-<店>.jpg（公開ブランチ ops/heartbeat に載る）
+// 使い方: SLUG=<記事> node verify-buttons.mjs   LLM 不使用・$0
+import { createRequire } from 'node:module';
+import fs from 'node:fs';
+import path from 'node:path';
+import os from 'node:os';
+
+const PW_DIR = [path.join(os.homedir(), '.openclaw/workspace/node_modules'), path.join(os.homedir(), 'openclaw/node_modules')]
+  .find((d) => fs.existsSync(path.join(d, 'playwright-core')));
+if (!PW_DIR) { console.log('playwright-core が無い'); process.exit(0); }
+const { chromium } = createRequire(path.join(PW_DIR, 'x.js'))('playwright-core');
+const SLUG = process.env.SLUG || '';
+const STORE = process.env.STORE || '';   // 店を 1 つに絞る（1 回の作業を 5 分以内に収めるため）
+const BUDGET = Number(process.env.VERIFY_BUDGET_MS || 250000);
+const t0 = Date.now();
+const OUT = path.join(process.env.OPS_REPORT_DIR || '/tmp', 'shop-verify', SLUG);
+fs.mkdirSync(OUT, { recursive: true });
+const rows = [];
+const lines = [`# 3 店ボタンの確認: ${SLUG}（scripts/shop/verify-buttons.mjs・**$0**）`, '', `生成: **${new Date().toISOString()}**`, ''];
+
+const b = await chromium.connectOverCDP(`http://127.0.0.1:${process.env.CDP_PORT || '18810'}`);
+const ctx = b.contexts()[0] || (await b.newContext());
+// 新しいタブの最初の転送から拾うため、押す前から全体で見張る（タブができてから付けると最初の転送を取りこぼす）
+const NAV = [];
+ctx.on('request', (r) => { try { if (r.isNavigationRequest()) NAV.push({ page: r.frame().page(), url: r.url() }); } catch {} });
+const art = await ctx.newPage();
+await art.setViewportSize({ width: 1280, height: 900 }).catch(() => {});
+await art.goto(`https://daily-hack.fieldbeside.com/posts/${SLUG}/`, { waitUntil: 'domcontentloaded', timeout: 30000 });
+await art.waitForTimeout(4000);   // LinkSwitch（vcdal.js）の読み込みを待つ
+const btns = await art.evaluate(() => {
+  const seen = new Set(); const out = [];
+  for (const a of document.querySelectorAll('a.shop-btn')) {
+    const store = (a.className.match(/shop-btn--(rakuten|yahoo|amazon)/) || [])[1]; const href = a.getAttribute('href');
+    if (!store || seen.has(href)) continue; seen.add(href);
+    // 商品名（ボタンの入っている箱の見出し）
+    const box = a.closest('.shop-card, .shop-box, section, div[class*="shop"]');
+    const name = ((box && box.querySelector('h3, h4, .shop-name, strong')) || {}).textContent || '';
+    out.push({ store, href, name: name.replace(/\s+/g, ' ').trim().slice(0, 60) });
+  }
+  return out;
+});
+if (STORE) btns.splice(0, btns.length, ...btns.filter((x) => x.store === STORE));
+lines.push(`- 記事のボタン（同じリンクは 1 回だけ${STORE ? '・' + STORE + ' だけ' : ''}）: ${btns.length} 個`, `- LinkSwitch のスクリプト: ${await art.evaluate(() => !!document.querySelector('script[src*="vcdal.js"]') && typeof window.vc_pid !== 'undefined' ? '読み込まれている（vc_pid=' + window.vc_pid + '）' : '**無い**')}`, '');
+
+const model = (h) => { try { const u = new URL(h); const q = u.searchParams.get('k') || decodeURIComponent((u.searchParams.get('pc') || '').match(/mall\/([^/]+)/)?.[1] || '') || u.searchParams.get('p') || ''; return decodeURIComponent(q).replace(/\+/g, ' ').trim(); } catch { return ''; } };
+let i = 0;
+for (const bt of btns) {
+  if (Date.now() - t0 > BUDGET) { lines.push(`- ⚠️ 時間切れで ${btns.length - i} 個を残した（次の回で続ける）`); break; }
+  i++;
+  const n = String(i).padStart(2, '0');
+  let q = null;
+  try {
+    // 記事の中のボタンを本当に押す（target=_blank なので新しいタブで開く）
+    const idx = await art.evaluate((h) => [...document.querySelectorAll('a.shop-btn')].findIndex((a) => a.getAttribute('href') === h), bt.href);
+    const el = (await art.$$('a.shop-btn'))[idx];
+    await el.scrollIntoViewIfNeeded().catch(() => {});
+    const [np] = await Promise.all([ctx.waitForEvent('page', { timeout: 15000 }), el.click({ modifiers: [] })]);
+    q = np;
+    await q.waitForLoadState('domcontentloaded', { timeout: 30000 }).catch(() => {});
+    await q.waitForTimeout(4500);
+    await q.setViewportSize({ width: 1280, height: 900 }).catch(() => {});
+    const fin = q.url();
+    const chain = [...new Set([...NAV.filter((x) => x.page === q).map((x) => x.url), fin])];
+    const m = model(bt.href);
+    const info = await q.evaluate((m) => {
+      const t = document.body.innerText || '';
+      const norm = (s) => s.toLowerCase().replace(/[\s\-‐－]/g, '');
+      return {
+        title: document.title.slice(0, 90),
+        robot: /ロボットではありません|captcha|Enter the characters|アクセスが集中/i.test(t),
+        cart: /カートに入れる|カートに追加|今すぐ買う|購入手続き/.test(t),
+        amazonResults: document.querySelectorAll('[data-component-type="s-search-result"]').length,
+        rakutenResults: document.querySelectorAll('.searchresultitem, [class*="searchresultitem"], [data-testid*="item"]').length,
+        yahooResults: document.querySelectorAll('[class*="SearchResult"] li, li[class*="LoopList"]').length,
+        noHit: /該当する商品が見つかりません|検索結果がありません|に一致する商品は見つかりませんでした|見つかりませんでした/.test(t),
+        modelOnPage: m ? norm(t).includes(norm(m.split(' ').slice(-1)[0])) : null,
+      };
+    }, m).catch(() => ({}));
+    let aff = '';
+    if (bt.store === 'rakuten') aff = chain.some((u) => /hb\.afl\.rakuten\.co\.jp\/(hgc|ichiba)\/587f2635/.test(u)) && /scid=af_pc_etc/.test(fin) ? '楽天アフィリエイトの転送を通り、着いた先に scid=af_pc_etc（アフィリエイト経由の印）' : '**印が見つからない**';
+    if (bt.store === 'amazon') aff = /[?&]tag=dailyhack-22(&|$)/.test(fin) ? '着いた先の URL に tag=dailyhack-22（アソシエイトの印）' : '**tag=dailyhack-22 が無い**';
+    if (bt.store === 'yahoo') aff = chain.some((u) => /valuecommerce\.com/.test(u)) || /sc_e=afvc|[?&]vc_/.test(fin) ? 'バリューコマースの転送を通った（LinkSwitch で成果リンクに差し替わった）' : '**バリューコマースを通っていない（素のリンクのまま）**';
+    const found = bt.store === 'amazon' ? `検索結果 ${info.amazonResults ?? '—'} 件` : bt.store === 'rakuten' ? `検索結果 ${info.rakutenResults ?? '—'} 件` : (info.cart ? '商品ページ（カートに入れるボタンあり）' : `検索結果 ${info.yahooResults ?? '—'} 件`);
+    const shot = `${n}-${bt.store}.jpg`;
+    await q.screenshot({ path: path.join(OUT, shot), type: 'jpeg', quality: 55 }).catch(() => {});
+    rows.push({ n, store: bt.store, name: bt.name, model: m, href: bt.href, chain, fin, aff, found, ...info, shot });
+    lines.push(`## ${n} ${bt.store}｜${bt.name || m}`, `- 押したリンク: ${bt.href}`, `- 途中: ${chain.slice(0, -1).map((u) => u.slice(0, 140)).join(' → ') || '（転送なし）'}`, `- 着いた先: ${fin.slice(0, 200)}`,
+      `- アフィリエイト: ${aff}`, `- 商品: ${found}・型番「${m}」の表示: ${info.modelOnPage == null ? '—' : info.modelOnPage ? 'あり' : '**無い**'}${info.noHit ? '・**該当なしの表示**' : ''}${info.robot ? '・**ロボット確認の画面**' : ''}${info.cart ? '・カートに入れるボタンあり' : ''}`,
+      `- 題名: ${info.title || '—'}`, `- 写真: shop-verify/${SLUG}/${shot}`, '');
+  } catch (e) {
+    lines.push(`## ${n} ${bt.store}｜${bt.name}`, `- ⚠️ 押せなかった: ${String(e).split('\n')[0].slice(0, 200)}`, '');
+    rows.push({ n, store: bt.store, name: bt.name, href: bt.href, error: String(e).split('\n')[0].slice(0, 200) });
+  }
+  if (q) await q.close().catch(() => {});
+}
+await art.close().catch(() => {});
+fs.writeFileSync(path.join(OUT, `result${STORE ? '-' + STORE : ''}.json`), JSON.stringify({ slug: SLUG, generated: new Date().toISOString(), total: btns.length, rows }, null, 1));
+fs.writeFileSync(path.join(OUT, `report${STORE ? '-' + STORE : ''}.md`), lines.join('\n'));
+console.log(lines.slice(0, 6).join('\n'));
+console.log(`対象 ${btns.length} 個 / 確かめた ${rows.length} 個`);
+process.exit(0);
