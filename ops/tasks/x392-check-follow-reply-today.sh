@@ -3,6 +3,9 @@
 # 今日（JST）のフォロー・返信・アンフォローのジョブが、実際に押したかをログから数える。
 # 書き換えは一切しない。他人のハンドルは伏せる（@*** / x.com/***）。
 set -u
+OUT="${OPS_REPORT_DIR:-/tmp}/x392-follow-reply-today.md"
+exec > >(tee "$OUT") 2>&1
+echo "# 今日のフォロー・返信・アンフォロー（読むだけ・\$0）"
 WS="$HOME/.openclaw/workspace"
 LOGS="$WS/logs"
 TODAY="$(TZ=Asia/Tokyo date +%Y-%m-%d)"
