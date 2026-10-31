@@ -340,6 +340,17 @@ try {
     lines.push('## 楽天ウェブサービス アプリ登録（画像認証の手前まで入れた・送っていない）', '', `- 画面: ${q.url().replace(/[?#].*$/, '')}`, ...st.map((x) => `- ${x}`), '', '**このタブは開いたまま残す。** 利用者が画像認証の文字を入れて「Agree to the terms of service」を押す', '');
   }
 
+  if (WHICH === 'a8detail') {
+    // **読むだけ（2026-10-31）。** 提携中の案件の詳細ページの本文（広告主サイトの URL・成果条件など）を出す。自分の報酬額は NG で落とす
+    for (const id of (process.env.A8_IDS || '').split(',').filter(Boolean)) {
+      const u = `https://media-console.a8.net/program/detail-partnered?programId=${id}`;
+      await go(u); await a8Reauth(p, u);
+      const t = await p.evaluate(() => (document.body.innerText || '').split('\n').map((x) => x.trim()).filter(Boolean));
+      const hrefs = await p.evaluate(() => [...new Set([...document.querySelectorAll('a[href^=http]')].map((a) => a.href).filter((h) => !/a8\.net|fancs\.com|seedapp/.test(h)))]);
+      lines.push(`### ${id}`, `- 画面: ${here()}`, ...t.filter((x) => /https?:|サイト|URL|成果条件|対象|エリア|地域|否認/.test(x) && !NG.test(x)).slice(0, 25).map((x) => `  - ${x.slice(0, 150)}`), `- 外部リンク: ${hrefs.slice(0, 8).join(' / ') || '無し'}`, '');
+    }
+  }
+
   if (WHICH === 'a8liststatus') {
     // 申請した案件が「審査中」「提携中」のどちらに入ったかを一覧から数える（2026-10-31）。自分の報酬額は出さない
     const listIds = async (kind) => {
