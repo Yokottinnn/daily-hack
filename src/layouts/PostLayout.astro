@@ -304,8 +304,11 @@ const howToLd = howToJsonLd(post.body, data.title);
           <ShareButtons url={fullUrl} title={data.title} />
         </header>
 
-        <!-- 広告枠1: 記事冒頭（リード文直下） -->
-        <AdMax slot="dailyhack-article-top" />
+        <!-- 広告枠1: 記事冒頭（リード文直下）。広告を 2 つ並べる（1 つだけで横を空けない・2026-10-31 利用者の指示） -->
+        <div class="ad-pair">
+          <AdMax slot="dailyhack-article-top" />
+          {adList[6] && <AspBanner html={adList[6].html} name={adList[6].name} />}
+        </div>
 
         <div class="post-body" id="post-body">
           <slot />
