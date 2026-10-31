@@ -315,6 +315,24 @@ QRコード決済は、**チャージ元クレカの選定が9割**。これ間�
   </ul>
 </aside>
 
+## 実際に使った人の声と動画｜QR 決済
+
+QR 決済をどう使い分けるかを、動画で補っておく。
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/rHCib3qBxYA" title="各スマホ決済の最大の還元率で強いのはどれ？【PayPay・楽天ペイ・auPAY・d払い・メルペイ・ファミペイ】（ゆずひこちゃんねる）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+PayPay・楽天ペイ・au PAY・d払いなど、スマホ決済の最大の還元率を比べた動画。
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/2IAgjDNNxMk" title="4大QRコード決済は今オワコン...？利用者のガチ本音と、今後の正しい使い方（ポイ活ガチ勢ななみちゃん）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+4 大 QR コード決済の利用者の本音と、これからの使い方を解説している。
+
+<p class="source-note">埋め込んだ YouTube は、2026年10月31日に oEmbed でタイトルと投稿者を照合し、実在を確かめたもの。投稿した人の個人の感想・撮影時点の内容で、この記事の数字とは別のもの。</p>
+
 ## まとめ: 3アプリ三刀流が2026年の正解
 
 長くなったけど、結論をもう一度。

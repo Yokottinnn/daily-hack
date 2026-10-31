@@ -36,6 +36,24 @@ references:
   <div class="hakkako-quote">先に一番の驚きを言っとく。<strong>1か月まじめに歩いても、3アプリの額は10円・30円・48〜144円。</strong>ハピタスの紹介特典で最初にもらえる100ptだけで、RenoBodyの3か月分を超えるの。歩くのはおまけ。<strong>お金の入口はポイントサイトのほう</strong>よ。</div>
 </div>
 
+## 実際に使った人の声と動画｜歩数アプリとポイントサイト
+
+歩数アプリで 1 か月にいくら貯まるかを、実際に試した人の動画で確かめておく。
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/j1-cAj-aPpo" title="【1か月ガチ検証】1日6千歩で月696円！所長がカルティポイントを続ける理由｜最新歩数・移動・健康ポイ活アプリ ※トリマ・おぢポ・レシチャレの次を探している方必見🔍️（ポイ活研究所）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+1 日 6 千歩で 1 か月 696 円だった、という検証。この記事の歩数アプリの試算と見比べられる。
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/tAME3Zak_bc" title="【2026年版】毎日5分だけ！広告なしで貯まるポイ活5選【月1,300円】（ぽいすけチャンネル【ポイ活】）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+毎日 5 分で広告なしに貯まるポイ活を 5 つ紹介している。
+
+<p class="source-note">埋め込んだ YouTube は、2026年10月31日に oEmbed でタイトルと投稿者を照合し、実在を確かめたもの。投稿した人の個人の感想・撮影時点の内容で、この記事の数字とは別のもの。</p>
+
 ## 30秒で分かる、歩数1か月とポイントサイト1回の差
 
 <div class="cmp-table-wrap">

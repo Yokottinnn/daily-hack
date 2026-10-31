@@ -139,6 +139,24 @@ references: ["https://tokyo-toyosu.manyo.co.jp/price/", "http://www.shopping-sum
 </div>
 </div>
 
+## 実際に行った人の声と動画｜湾岸のサウナ
+
+豊洲の万葉倶楽部の中の様子を、動画で見ておく。
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/T6TcU1cbakI" title="【東京豊洲 万葉倶楽部】温泉・サウナ・岩盤浴・休憩エリアまで360°絶景タワー爆誕!! 千客万来の最新スーパー銭湯（スパワークス）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+東京豊洲 万葉倶楽部の温泉・サウナ・岩盤浴・休憩エリアを紹介した動画。
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/HUJuCXtzpWg" title="【東京豊洲 万葉倶楽部】設備もサウナも景色も神、アスペが救われる…多分都内最強の避難所スパ見つけた（ツナリスㇾ社不めな）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+豊洲 万葉倶楽部の設備・サウナ・景色を紹介している。
+
+<p class="source-note">埋め込んだ YouTube は、2026年10月31日に oEmbed でタイトルと投稿者を照合し、実在を確かめたもの。投稿した人の個人の感想・撮影時点の内容で、この記事の数字とは別のもの。</p>
+
 ## ❓ よくある質問（FAQ）
 
 <div class="cmp-table-wrap">
