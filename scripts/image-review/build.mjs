@@ -57,6 +57,8 @@ const FILES = {
   "teamlab-hamarikyu-2026": ["1-cover.jpg", "2-access.jpg", "3-vs-toyosu.jpg", "4-yoru-300.jpg"],
   // **未投稿**（2026-10-31）。大掃除のハウスクリーニング比較。素材はロゴと記事の数字だけ
   "house-cleaning-oosouji-2026": ["1-3kasho.jpg", "2-mizumawari.jpg"],
+  // **未投稿**（2026-10-31）。ポケット型WiFi比較。素材は記事の数字とロゴだけ
+  "pocket-wifi-comparison-2026": ["1-ranking.jpg"],
 };
 
 const map = {};
