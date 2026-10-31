@@ -1,0 +1,488 @@
+{
+ "generated": "2026-10-31T09:06:52.149Z",
+ "total": 60,
+ "from": 0,
+ "to": 60,
+ "rows": [
+  {
+   "id": "s00000016469001",
+   "name": "商品券をクレジットカードで購入！【金券ねっと】",
+   "reward": "新規購入500円 Wチャンス",
+   "self": false,
+   "point": true,
+   "listing": "リスティングOK"
+  },
+  {
+   "id": "s00000015110002",
+   "name": "",
+   "reward": "新規カード発行2600円 EPC",
+   "self": true,
+   "point": false,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000003655004",
+   "name": "ポイントスタジアム無料会員募集",
+   "reward": "新規無料会員登録＋ポイント獲得100円 EPC",
+   "self": false,
+   "point": true,
+   "listing": "リスティングNG"
+  },
+  {
+   "id": "s00000025786001",
+   "name": "プリペイドコードをセブンのレジで手軽に買える【スマホプリペイド】",
+   "reward": "▽一般 購入5％",
+   "self": false,
+   "point": false,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000011939001",
+   "name": "初心者でも安心！印刷通販【ベストプリント】",
+   "reward": "購入3％ ▽ポイントサイト",
+   "self": true,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000027732001",
+   "name": "皮脂・毛穴・肌荒れに、縛りなし定期美容液【SNo.クリアエッセンス】",
+   "reward": "初回購入1500円 ▽ポイントサイト",
+   "self": false,
+   "point": false,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000023342001",
+   "name": "ハウスクリーニングはまとめてお任せください！【ナックダスキン】",
+   "reward": "▽一般 お問合せ2343円",
+   "self": false,
+   "point": false,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000017117006",
+   "name": "ギフトにぴったりのアイテムを全国へお届け！【京都きもの町】",
+   "reward": "▽一般メディア 購入5％",
+   "self": false,
+   "point": false,
+   "listing": "リスティングNG"
+  },
+  {
+   "id": "s00000001148001",
+   "name": "ヘアケアの人気ブランド【ラサーナ (La Sana) 公式ショップ】",
+   "reward": "▽一般メディア 購入10％",
+   "self": true,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000027309001",
+   "name": "業界最安級格安SIM！【ロケットモバイル】",
+   "reward": "新規購入1050円（データSIM） 新規購入1500円（通話SIM）",
+   "self": false,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000027731001",
+   "name": "最短即日開通！1GB単位で選べる縛りなし格安SIM【グリーンプラン（X-mobile）】",
+   "reward": "新規開通6000円 EPC",
+   "self": false,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000017964001",
+   "name": "つながる！速い！高品質を実現した格安SIM／スマホ【LIBMO(リブモ)】",
+   "reward": "新規契約1800円(端末なし音声通話なし) 新規契約3000円(端末なし音声通話あり)",
+   "self": true,
+   "point": false,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000000979014",
+   "name": "【BB.exciteモバイル／Fitプラン】従量制料金の格安SIM",
+   "reward": "新規開通1155円 EPC",
+   "self": true,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000024773001",
+   "name": "10年で5万人の携帯ブラック支援実績！【レンタル携帯MVNOサンシスコン】",
+   "reward": "新規契約4000円 EPC",
+   "self": false,
+   "point": false,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000022801001",
+   "name": "現金キャッシュバック実施中！最短翌日開通！次世代接続方式v6プラス利用可能光回線【イツキ光】",
+   "reward": "新規開通15000円 新規転用申込10000円",
+   "self": false,
+   "point": true,
+   "listing": "リスティングOK"
+  },
+  {
+   "id": "s00000026743001",
+   "name": "リファービッシュ品（整備済製品）を買うなら【バックマーケット】",
+   "reward": "購入4％ EPC",
+   "self": false,
+   "point": false,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000026076001",
+   "name": "スマホ・iPhone買取なら【ノジマのスマホ買取】安心の東証プライム市場企業運営",
+   "reward": "▽一般 買取成立1100円",
+   "self": false,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000025681002",
+   "name": "安心！低価格！中古スマホECサイト【mmoba】",
+   "reward": "購入4％ EPC",
+   "self": false,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000016351005",
+   "name": "中古スマホ激安販売のダイワンテレコム",
+   "reward": "購入5％ EPC",
+   "self": false,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000016351006",
+   "name": "【高評価レビュー多数】携帯/スマホのスピード高価買取",
+   "reward": "買取1350円 EPC",
+   "self": true,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000027225001",
+   "name": "スマホの広告を自動ブロック【OPEN BLOCK】",
+   "reward": "新規購入25％ EPC",
+   "self": false,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000025009003",
+   "name": "塗ってすぐにスマホに触れるハンドクリーム【ZIGENアクアハンドジェル】",
+   "reward": "初回購入1000円 EPC",
+   "self": false,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000017718022",
+   "name": "スマホのパケット量が使い放題で工事が不要！【SoftbankAir】",
+   "reward": "新規開通15000円 EPC",
+   "self": true,
+   "point": true,
+   "listing": "リスティングNG"
+  },
+  {
+   "id": "s00000024266003",
+   "name": "スマホ・iPhoneを全国どこでも超高額買取！！ Apple正規セラーの宅配買取YTHサービス",
+   "reward": "新規買取成立1000円 EPC",
+   "self": false,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000008091019",
+   "name": "光回線のインターネット接続サービス【DTI 光】",
+   "reward": "新規回線開通11250円(新規利用・転用・事業者変更) EPC",
+   "self": true,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000000979008",
+   "name": "PPPoE光回線【BB.excite光 Classic】",
+   "reward": "新規契約7000円 EPC",
+   "self": true,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000000979024",
+   "name": "フレッツ光の1ギガ光回線が安い【BB.exciteカスタム ネクスト回線】",
+   "reward": "新規利用5000円（転用・事業者変更） 新規利用5000円（新規契約）",
+   "self": false,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000000979016",
+   "name": "1ギガ光回線【BB.excite光 MEC】",
+   "reward": "新規利用1000円（転用契約） 新規利用1000円（事業者変更契約）",
+   "self": true,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000000979023",
+   "name": "フレッツ光の10ギガ光回線【BB.exciteカスタム クロス回線】",
+   "reward": "新規利用5000円（転用・事業者変更） 新規利用10000円（新規契約）",
+   "self": false,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000000979017",
+   "name": "段階料金制の光回線【BB.excite光 Fit】",
+   "reward": "新規利用2255円（転用契約） 新規利用2255円（事業者変更契約）",
+   "self": true,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000014546018",
+   "name": "5年連続☆*お客様満足度No.1！九州の光回線【BBIQ（ビビック）】",
+   "reward": "新規開通9000円 EPC",
+   "self": true,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000025883001",
+   "name": "東海地方の高速光回線なら【コミュファ光】充実したキャッシュバック特典あり！",
+   "reward": "新規申込3000円 新規問い合わせ3000円",
+   "self": false,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000000979020",
+   "name": "10ギガ光回線【 BB.excite光 10G】",
+   "reward": "新規利用7000円（新規契約） EPC",
+   "self": true,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000000040018",
+   "name": "【公式】BIGLOBE光プラス by auひかりプラス",
+   "reward": "新規申込7500円（1ギガ、10ギガ） 転用申込3690円（1ギガ、10ギガ）",
+   "self": false,
+   "point": false,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000022358003",
+   "name": "チャージ型ポケットWiFi【プレミアムチャージWiFi】何度も使える買い切り型モバイルWiFi",
+   "reward": "新規購入2000円 Wチャンス",
+   "self": false,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000022358002",
+   "name": "チャージ型ポケットWiFi【ギガセットWiFi】使いたい時に使いたい分だけチャージして使う！",
+   "reward": "新規購入2000円 EPC",
+   "self": false,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000013909002",
+   "name": "アメリカ専用レンタルWiFiルーター【U.S.データ】",
+   "reward": "新規申込1500円 EPC",
+   "self": true,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000027653001",
+   "name": "業界最安値水準！完全デジタルで即開通できる海外eSIM【Simmy】",
+   "reward": "購入15％ EPC",
+   "self": false,
+   "point": false,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000011875005",
+   "name": "WiFiモバイルルータの1日レンタルサービス【WiFiレンタルどっとこむ】",
+   "reward": "成約1200円 EPC",
+   "self": true,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000020187002",
+   "name": "【ギガWi-Fi】TVでも紹介★業界最安級のクラウドポケット型Wi-Fi★",
+   "reward": "新規利用5000円(10GB定額プラン) 新規利用13000円(100GB／3年割賦)",
+   "self": true,
+   "point": false,
+   "listing": "リスティングNG"
+  },
+  {
+   "id": "s00000013504001",
+   "name": "業界最安級の海外WiFiレンタル【WiFiトラベル】",
+   "reward": "新規申込1500円 EPC",
+   "self": false,
+   "point": false,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000025107001",
+   "name": "月額0円・契約不要【365チャージWiFi】プリペイド式チャージWi-Fi",
+   "reward": "新規購入600円 EPC",
+   "self": false,
+   "point": true,
+   "listing": "リスティングNG"
+  },
+  {
+   "id": "s00000021810003",
+   "name": "電気がなくても炊きたてごはん。【魔法のかまどごはん】",
+   "reward": "購入3％ EPC",
+   "self": false,
+   "point": false,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000021918003",
+   "name": "",
+   "reward": "新規利用開始5300円 EPC",
+   "self": false,
+   "point": false,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000022400001",
+   "name": "炭酸発生60分間を誇る、独自処方の洗い流さない炭酸ガスパック【EKATO.】",
+   "reward": "新規購入5500円 EPC",
+   "self": false,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000022400002",
+   "name": "炭酸発生60分間 洗い流し不要 炭酸ガスパック【EKATO.スターターキット】",
+   "reward": "初回購入1500円 EPC",
+   "self": true,
+   "point": false,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000004439045",
+   "name": "エコで経済的！電源確保ができない場所で大活躍の電源システム！【only style】紹介",
+   "reward": "購入5％ EPC",
+   "self": true,
+   "point": true,
+   "listing": "リスティングOK"
+  },
+  {
+   "id": "s00000022400003",
+   "name": "摩擦レス洗顔＋1分エステ【EKATO 炭酸泡パック洗顔】",
+   "reward": "初回購入1500円 EPC",
+   "self": false,
+   "point": false,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000004439066",
+   "name": "【唯一無二の存在】バッテリー式電源車レンタルサービス",
+   "reward": "レンタル料金(税抜)5％ EPC",
+   "self": true,
+   "point": true,
+   "listing": "リスティングNG"
+  },
+  {
+   "id": "s00000023934001",
+   "name": "ふるさと納税を始めるなら【au PAY ふるさと納税】",
+   "reward": "寄付金額（税抜）1％ EPC",
+   "self": false,
+   "point": false,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000027240002",
+   "name": "投資家・富裕層×ウイスキー好きと相性◎【ウイスキーふるさと納税】",
+   "reward": "購入7300円 EPC",
+   "self": false,
+   "point": false,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000025743001",
+   "name": "全国の美味しい特産品に特化したふるさと納税サイト【ふるさと本舗】",
+   "reward": "購入1％ EPC",
+   "self": false,
+   "point": false,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000027240001",
+   "name": "【高単価・商品続々追加中】駅メロ制作に文化財貸切─地方の特別な体験が買える！",
+   "reward": "購入5％(新米お届け便) 購入25000円(町長にプレゼンテーションできる権利)",
+   "self": false,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000024389001",
+   "name": "トップアスリート愛用の理由！「MPNプロテイン」美味しい上に質と配合量に大注目 ！",
+   "reward": "▽一般メディア 購入（税抜）5％",
+   "self": false,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000020819010",
+   "name": "老後資金・資産形成をFPに無料相談！厳選プロが丁寧サポート【ガーデン】",
+   "reward": "初回対面無料相談実施10250円 EPC",
+   "self": false,
+   "point": false,
+   "listing": "リスティングOK"
+  },
+  {
+   "id": "s00000026218001",
+   "name": "安定した未来のため資産形成やライフリスクは【ファイナンシャルプランナーに相談】へ",
+   "reward": "新規無料相談13000円 EPC",
+   "self": false,
+   "point": false,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000027294001",
+   "name": "無料で資産形成や保険について相談できる！FPカフェ",
+   "reward": "新規面談完了11700円 EPC",
+   "self": false,
+   "point": false,
+   "listing": "リスティングOK"
+  },
+  {
+   "id": "s00000017634001",
+   "name": "プロの意見も交えた初心者にやさしい保険選び【保険ランドリー】",
+   "reward": "新規面談11329円 EPC",
+   "self": false,
+   "point": false,
+   "listing": "リスティングOK"
+  },
+  {
+   "id": "s00000004570004",
+   "name": "【日本旅行】国内ツアー・国内宿泊・海外ツアー",
+   "reward": "予約金額2％ EPC",
+   "self": true,
+   "point": true,
+   "listing": "リスティングNG"
+  },
+  {
+   "id": "s00000026058001",
+   "name": "海外旅行のためのお得なeSIM【Saily】",
+   "reward": "新規購入10％ Wチャンス",
+   "self": false,
+   "point": true,
+   "listing": "リスティングNG"
+  }
+ ]
+}
