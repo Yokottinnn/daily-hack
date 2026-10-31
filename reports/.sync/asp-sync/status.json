@@ -1,16 +1,12 @@
 {
-  "generated": "2026-10-31T09:20:52.226Z",
+  "generated": "2026-10-31T10:46:50.414Z",
   "providers": {
     "a8": {
       "name": "A8.net",
-      "loggedIn": true,
+      "loggedIn": false,
       "needsHuman": false,
-      "credentialsInKeychain": true,
-      "reason": "",
-      "url": "https://media-console.a8.net/program/list/partnered",
-      "title": "参加中プログラム｜A8.netメディア管理画面",
-      "partnered": 100,
-      "menus": 40
+      "credentialsInKeychain": false,
+      "reason": "失敗: Error: page.goto: net::ERR_NAME_NOT_RESOLVED at https://pub.a8.net/a8v2/media/partnerProgramListAction.do\nCall log:\n  - navigating to \"https://pub.a8.net/a8v2/m"
     }
   }
 }
