@@ -1,4 +1,1 @@
-[
-      {"task": "t513-a8-banners-finance.sh", "rc": 0, "out": " ### s00000015110002 広告リンク作成｜A8.netメディア管理画面 - 画面: https://media-console.a8.net/program/create-link - バナー 0 件（） - バナーが無いときの画面の部品: select[name=materialType]〔すべて|バナー|テキスト|メール〕 / select[name=bannerS"},
-      {"task": "t514-a8-apply-finance.sh", "rc": 0, "out": " ### s00000014177001 - 押したあとの画面: https://media-console.a8.net/program/agreement/apply-result   - プログラム提携申請完了   - 未提携のものから提携中のも�"}
-  ]
+[]
