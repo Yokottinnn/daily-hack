@@ -300,6 +300,8 @@ try {
     p.on('dialog', (d) => { lines.push(`  - 確認ダイアログ: ${d.message().slice(0, 80)} → OK`); d.accept().catch(() => {}); });
     for (const id of (process.env.A8_IDS || '').split(',').filter(Boolean)) {
       lines.push(`### ${id}`);
+      // 続けて押すと A8 が「提携申請が失敗しました」を返す（2026-10-31・444 件中 60 件）。A8_GAP_MS で間をあける
+      if (process.env.A8_GAP_MS) await p.waitForTimeout(Number(process.env.A8_GAP_MS));
       await go(`https://media-console.a8.net/program/detail-not-partnered?programId=${id}`);
       await a8Reauth(p, `https://media-console.a8.net/program/detail-not-partnered?programId=${id}`);
       const sel = p.locator('select[name=webSiteId]');
