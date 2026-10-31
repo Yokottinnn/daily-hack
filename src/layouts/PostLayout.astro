@@ -150,7 +150,7 @@ const earning = allPosts
     return { p, score: shared * 3 + sameCat * 2 + (postBelongsToCategory(p.data, 'comparisons') ? 1 : 0), aff: affCount(p) };
   })
   .sort((a, b) => b.score - a.score || b.aff - a.aff || a.p.id.localeCompare(b.p.id));
-const promoPosts = earning.slice(0, 5).map((x) => x.p);
+const promoPosts = earning.slice(0, 6).map((x) => x.p);
 
 // 2件ずつのブロックに割る（最大3ブロック＝本文中に最大3箇所）
 const inlineRelatedBlocks: (typeof inlineRelatedPool)[] = [];
@@ -353,6 +353,8 @@ const howToLd = howToJsonLd(post.body, data.title);
       </article>
 
       <aside class="post-aside">
+        {/* サイドバーの上: 比較記事の案内（PC だけ。スマホでは出さない・2026-10-31 利用者の指示） */}
+        {promoPosts[5] && <div class="aside-top-promo"><PromoCard post={promoPosts[5]} /></div>}
         <TableOfContents headings={tocHeadings} />
         <!-- 広告枠3: サイドバー（デスクトップのみ表示、TOC下） -->
         <div style="margin-top: 20px;">

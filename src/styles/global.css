@@ -1512,3 +1512,6 @@ blockquote.twitter-tweet a:hover { color: var(--pink-700); }
 .ad-pair > .admax-placeholder { display: none; }
 .ad-pair > .admax, .ad-pair > .admax.is-filled { margin: 0; }
 .ad-pair > .admax:not(.is-filled) { flex: 0 0 0; margin-right: -20px; }
+/* サイドバーの上の案内は PC だけ（サイドバーが本文の下に回る幅では出さない） */
+.aside-top-promo { margin: 0 0 20px; display: flex; justify-content: center; }
+@media (max-width: 980px) { .aside-top-promo { display: none; } }
