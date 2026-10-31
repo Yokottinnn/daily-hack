@@ -1,3 +1,3 @@
 [
-      {"task": "t370-verify-amazon-retry.sh", "rc": 0, "out": "-rw-r--r--   1 ny  staff  108686 Oct 31 11:31 r01-amazon.jpg -rw-r--r--   1 ny  staff    1220 Oct 31 11:31 report-amazon-retry.md -rw-r--r--   1 ny  staff    9784 Oct 31 11:18 report-amazon.md -rw-r--r--   1 ny  staff    1437 Oct 31 11:31 result-amazon-retry.json -rw-r--r--   1 ny  staff   13652 Oct"}
+      {"task": "x383-unfollow-handle-exit.sh", "rc": 0, "out": "x383 / x383-unfollow-handle-exit.md"}
   ]
