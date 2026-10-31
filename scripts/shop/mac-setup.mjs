@@ -353,21 +353,26 @@ try {
 
   if (WHICH === 'amazon-login') {
     // 2026-10-31 利用者「ログインの作業自体も Mac でやって」。asp-sync と同じ Keychain（dailyhack-asp-amazon・アカウント＝メール）で入る。**値は出さない**
-    const cred = aspCred('amazon');
-    lines.push(`- Keychain の dailyhack-asp-amazon: ${cred ? 'ある' : '**無い**（登録は利用者が 1 回だけ: security add-generic-password -U -s dailyhack-asp-amazon -a \'メール\' -w）'}`);
+    // t360: 登録が複数ある（-U でも ID が違えば別の項目になる）と aspCred は最初の 1 件しか見ない。新しい順に全部試す（値は出さない）
+    const creds = amazonCreds();
+    lines.push(`- Keychain の dailyhack-asp-amazon: ${creds.length} 件（新しい順に試す・ID の形: ${creds.map((c) => (c.user.includes('@') ? 'メール' : /^\d+$/.test(c.user) ? '電話番号' : 'その他') + `・${c.user.length}文字`).join(' ／ ') || 'なし'}）`);
     await go('https://affiliate.amazon.co.jp/home');
     const st = async () => { const u = p.url(); const t = await p.evaluate(() => document.body.innerText || '').catch(() => '');
       return /affiliate\.amazon\.co\.jp\/home/.test(u) && !/ap\/signin/.test(u) ? 'in' : /ap\/(cvf|mfa)|確認コード|ワンタイムパスワード|OTP/i.test(u + t) ? 'otp' : /captcha|文字を入力|表示されている文字/i.test(t) ? 'captcha' : /ap\/signin/.test(u) ? 'signin' : 'other'; };
     let s0 = await st();
     lines.push(`- 最初の状態: ${s0}（${here()}）`);
-    if (s0 === 'signin' && cred) {
+    for (const [ci, cred] of creds.entries()) {
+      if (s0 !== 'signin' && !/ax\/claim/.test(p.url())) break;
+      if (ci > 0 || /ax\/claim/.test(p.url())) { await go('https://affiliate.amazon.co.jp/home'); s0 = await st(); if (s0 !== 'signin') break; }
+      lines.push(`- ${ci + 1} 件目の ID で試す`);
       const email = p.locator('input[name=email]:visible, #ap_email:visible').first();
       if (await email.count()) { await email.fill(cred.user); const c = p.locator('#continue:visible, input#continue:visible').first(); if (await c.count()) await c.click().catch(() => {}); await p.waitForTimeout(3000); }
       const pw = p.locator('input[name=password]:visible, #ap_password:visible').first();
       if (await pw.count()) { await pw.fill(cred.pass); const r = p.locator('input[name=rememberMe]:visible').first(); if (await r.count()) await r.check().catch(() => {});
         await p.locator('#signInSubmit:visible, input#signInSubmit:visible').first().click().catch(() => {}); await p.waitForLoadState('domcontentloaded', { timeout: 20000 }).catch(() => {}); await p.waitForTimeout(5000); }
       s0 = await st();
-      lines.push(`- ID・パスワードを入れたあとの状態: ${s0}（${here()}）`);
+      lines.push(`  - 入れたあとの状態: ${s0}（${here()}）${/ax\/claim/.test(p.url()) ? '・Amazon がこの ID を知らない（「初めてご利用」）' : ''}`);
+      if (s0 === 'in' || s0 === 'otp' || s0 === 'captcha') break;
     }
     if (s0 === 'otp' || s0 === 'captcha' || s0 === 'other') await dump('ログインの途中で止まった画面（押していない）');
     if (s0 === 'in') {
@@ -465,6 +470,18 @@ try {
 } catch (e) { lines.push(`- ⚠️ ${mask(String(e).split('\n')[0])}`); }
 finally { await p.close().catch(() => {}); }
 
+function amazonCreds() {
+  // dump-keychain は属性だけ（-d を付けないので秘密は出ない）。svce=dailyhack-asp-amazon の項目の acct と更新日時を拾う
+  try {
+    const dump = execFileSync('/usr/bin/security', ['dump-keychain'], { encoding: 'utf8', maxBuffer: 64 * 1024 * 1024, stdio: ['ignore', 'pipe', 'ignore'] });
+    const items = dump.split(/\nkeychain: /).filter((b) => /"svce"<blob>="dailyhack-asp-amazon"/.test(b)).map((b) => {
+      let user = (b.match(/"acct"<blob>="([^"]*)"/) || [])[1]; const hex = (b.match(/"acct"<blob>=0x([0-9A-Fa-f]+)/) || [])[1];
+      if (!user && hex) user = Buffer.from(hex, 'hex').toString('utf8');
+      return { user: user || '', mdat: (b.match(/"mdat"<timedate>=0x[0-9A-F]+\s+"(\d+)/) || [])[1] || '' };
+    }).filter((x) => x.user).sort((a, b) => b.mdat.localeCompare(a.mdat));
+    return items.map((x) => { try { return { user: x.user, pass: execFileSync('/usr/bin/security', ['find-generic-password', '-s', 'dailyhack-asp-amazon', '-a', x.user, '-w'], { encoding: 'utf8', stdio: ['ignore', 'pipe', 'ignore'] }).replace(/\n$/, '') }; } catch { return null; } }).filter((x) => x && x.pass);
+  } catch { const c = aspCred('amazon'); return c ? [c] : []; }
+}
 function aspCred(id) {
   try {
     const meta = execFileSync('/usr/bin/security', ['find-generic-password', '-s', `dailyhack-asp-${id}`], { encoding: 'utf8', stdio: ['ignore', 'pipe', 'ignore'] });
