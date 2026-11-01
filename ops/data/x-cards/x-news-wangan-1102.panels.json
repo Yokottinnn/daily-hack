@@ -1,0 +1,17 @@
+{
+  "_doc": "node scripts/gen-x-panels.mjs ops/data/x-cards/x-news-wangan-1102.panels.json",
+  "_note": "X だけの投稿（記事の紹介ではない）。素材は自作の文字だけ。数字は blog3 の湾岸ニュースの記事（ドローン配送 10/19 発表・臨海地下鉄 8/20 の会議・有明ガーデン 11/9）から",
+  "imageBase": "public/images/x-news-wangan-1102",
+  "out": "public/images/x-news-wangan-1102/x",
+  "theme": "ink",
+  "panels": [
+    {
+      "file": "1-3news.jpg",
+      "kind": "html",
+      "noHeader": true,
+      "html": "<div class=\"wrap\"><div class=\"k\">豊洲・晴海・有明</div><div class=\"t\">今週の<em>湾岸ニュース</em> 3本</div><div class=\"list\">\n<div class=\"r\"><div class=\"tag\">ドローン配送</div><div class=\"tx\"><b>豊洲・晴海・木場のタワマン向けが、東京都の事業に採択</b><span>2026年度は飛ばして確かめる段階。実際の注文で届くのは<em>2027年度</em>の実証から</span></div></div>\n<div class=\"r\"><div class=\"tag\">臨海地下鉄</div><div class=\"tx\"><b>地下の空間に「避難施設の機能」を付ける前提で検討</b><span>8/20 の都の会議で確認。<em>どの駅に・どれくらい</em>はまだ決まっていない</span></div></div>\n<div class=\"r\"><div class=\"tag\">有明ガーデン</div><div class=\"tx\"><b>アトリウムデッキが青く光るのは 11/9（月）の夜だけ</b><span>世界糖尿病デーのライトアップ（予定）。見るのは<em>無料</em></span></div></div>\n</div></div>",
+      "note": "2026年11月1日時点の発表から。予定は変わることがあるので、出かける前に公式で確認を。",
+      "css": "main{padding:0;height:1080px;display:block}\n.wrap{position:relative;height:1080px;padding:56px 60px 0;background:radial-gradient(circle at 10% 20%,rgba(214,62,118,.12),transparent 45%),radial-gradient(circle at 92% 80%,rgba(245,197,24,.16),transparent 48%),var(--cream)}\n.k{font-size:30px;font-weight:700;color:var(--ink-2);text-align:center}\n.t{font-size:60px;font-weight:900;line-height:1.25;text-align:center;margin-top:10px}\n.t em{font-style:normal;color:#D63E76}\n.note{position:absolute;left:60px;right:60px;bottom:40px;font-size:22px}\n.one{margin-top:26px;text-align:center;font-size:30px;font-weight:700;background:#46293A;color:#fff;border-radius:18px;padding:18px 16px}.one b{color:#F5C518;font-weight:900}\n.t{font-size:64px}.list{display:flex;flex-direction:column;gap:20px;margin-top:40px}\n.r{display:flex;gap:22px;align-items:center;background:#fff;border-radius:24px;padding:26px 26px;box-shadow:0 14px 30px -24px rgba(30,18,25,.45)}\n.tag{flex:0 0 200px;font-size:27px;font-weight:900;color:#fff;background:#D63E76;border-radius:16px;text-align:center;padding:14px 0}\n.tx b{display:block;font-size:30px;font-weight:900;line-height:1.35}.tx span{display:block;font-size:23px;color:var(--ink-2);margin-top:8px;line-height:1.5}.tx em{font-style:normal;color:#D63E76;font-weight:900}"
+    }
+  ]
+}

@@ -59,9 +59,10 @@ for (const [key, parts] of Object.entries(posts)) {
   const st = (status[key] && status[key].status) || "draft";
   if (m.posted || st !== "draft") continue;
   const sid = (styles[key] && styles[key].style) || "";
-  drafts.push({ key, title: m.title, attach: m.attach, style: sid, styleName: styleName.get(sid) || sid,
+  const PL = { news: "湾岸ニュース", poikatsu: "ポイ活", blog: "ブログ紹介", social: "交流" }; const pu = (status[key] && status[key].purpose) || "";
+  drafts.push({ key, title: (PL[pu] ? "【" + PL[pu] + "】" : "") + m.title, attach: m.attach, style: sid, styleName: styleName.get(sid) || sid,
     head: headOf(parts[0] || ""), parts, edited: edited.has(key),
-    next: (status[key] && status[key].next) || null, why: (status[key] && status[key].why) || "", check: (status[key] && status[key].check) || [] });
+    next: (status[key] && status[key].next) || null, purpose: (status[key] && status[key].purpose) || "", why: (status[key] && status[key].why) || "", check: (status[key] && status[key].check) || [] });
 }
 drafts.sort((a, b) => (a.next || 99) - (b.next || 99));
 

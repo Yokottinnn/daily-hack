@@ -1,0 +1,17 @@
+{
+  "_doc": "node scripts/gen-x-panels.mjs ops/data/x-cards/x-poikatsu-rakuten-cap.panels.json",
+  "_note": "X だけの投稿（記事の紹介ではない）。数字は楽天市場の公式ページ（2026-10-31 確認）。上限に届く買い物額はアタシの計算。ロゴは記事の logos/ から",
+  "imageBase": "public/images/x-poikatsu-rakuten-cap",
+  "out": "public/images/x-poikatsu-rakuten-cap/x",
+  "theme": "berry",
+  "panels": [
+    {
+      "file": "1-cap.jpg",
+      "kind": "html",
+      "noHeader": true,
+      "html": "<div class=\"wrap\"><div class=\"k\">楽天の「最大30.5倍」</div><div class=\"t\">倍率より先に<br><em>上限に届く額</em>を見る</div><div class=\"tbl\">\n<div class=\"h\"><span>上乗せ</span><span>もらえる上限</span><span>上限に届く買い物額</span></div>\n<div class=\"r\"><span class=\"nm\">お買い物マラソン <i>+9倍</i></span><span class=\"c\">7,000pt（1回）</span><span class=\"y\">約7.8万円</span></div>\n<div class=\"r\"><span class=\"nm\">5と0のつく日 <i>+1倍</i></span><span class=\"c\">1,000pt（月）</span><span class=\"y\">10万円</span></div>\n<div class=\"r\"><span class=\"nm\">勝ったら倍 <i>+2倍</i></span><span class=\"c\">1,000pt（1回）</span><span class=\"y\">5万円</span></div>\n</div><div class=\"one\">それ以上買っても、<b>上乗せは増えない</b></div></div>",
+      "note": "楽天市場の公式ページ（2026年10月31日確認）。上限に届く額は、上乗せの率で割ったアタシの計算。",
+      "css": "main{padding:0;height:1080px;display:block}\n.wrap{position:relative;height:1080px;padding:56px 60px 0;background:radial-gradient(circle at 10% 20%,rgba(214,62,118,.12),transparent 45%),radial-gradient(circle at 92% 80%,rgba(245,197,24,.16),transparent 48%),var(--cream)}\n.k{font-size:30px;font-weight:700;color:var(--ink-2);text-align:center}\n.t{font-size:60px;font-weight:900;line-height:1.25;text-align:center;margin-top:10px}\n.t em{font-style:normal;color:#D63E76}\n.note{position:absolute;left:60px;right:60px;bottom:40px;font-size:22px}\n.one{margin-top:26px;text-align:center;font-size:30px;font-weight:700;background:#46293A;color:#fff;border-radius:18px;padding:18px 16px}.one b{color:#F5C518;font-weight:900}\n.tbl{margin-top:40px;background:#fff;border-radius:26px;padding:14px 28px;box-shadow:0 20px 40px -26px rgba(30,18,25,.4)}\n.h,.r{display:grid;grid-template-columns:1fr 230px 250px;align-items:center;gap:12px}\n.h{font-size:22px;color:var(--ink-2);font-weight:700;padding:8px 0;border-bottom:2px solid #eadde3}.h span:nth-child(n+2){text-align:right}\n.r{padding:24px 0;border-bottom:2px dashed #eadde3}.r:last-child{border-bottom:0}\n.nm{font-size:30px;font-weight:900}.nm i{font-style:normal;color:#BF0000;font-size:26px}\n.c{text-align:right;font-size:27px;font-weight:700;color:var(--ink-2)}.y{text-align:right;font-size:38px;font-weight:900;color:#D63E76}"
+    }
+  ]
+}
