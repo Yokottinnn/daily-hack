@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-01T02:20:50.264Z",
+  "generated": "2026-11-01T14:14:42.796Z",
   "providers": {
     "a8": {
       "name": "A8.net",
@@ -11,6 +11,26 @@
       "title": "参加中プログラム｜A8.netメディア管理画面",
       "partnered": 100,
       "menus": 40
+    },
+    "moshimo": {
+      "name": "もしもアフィリエイト",
+      "loggedIn": true,
+      "needsHuman": false,
+      "credentialsInKeychain": true,
+      "reason": "",
+      "url": "https://af.moshimo.com/af/shop/index",
+      "title": "メディアオーナートップページ ｜ もしもアフィリエイト",
+      "menus": 9
+    },
+    "vc": {
+      "name": "バリューコマース",
+      "loggedIn": true,
+      "needsHuman": false,
+      "credentialsInKeychain": true,
+      "reason": "",
+      "url": "https://aff.valuecommerce.ne.jp/home",
+      "title": "ダッシュボード | アフィリエイト管理画面",
+      "menus": 16
     }
   }
 }
