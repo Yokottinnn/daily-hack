@@ -233,7 +233,7 @@ for (const b of src.split(/\n\s*\{\s*\n/)) {
   const state = st.status || (ids.length ? "posted" : "draft");
   const fromId = ids[0] ? new Date(Number((BigInt(ids[0]) >> 22n) + 1288834974657n)).toISOString().slice(0, 10) : null;
   const fromNote = (b.match(/(20\d\d-\d\d-\d\d)/) || [])[1] || null;
-  STATUS[key] = { state, ids, date: st.date || fromId || fromNote, note: st.note || "", next: st.next || null, why: st.why || "", check: st.check || [], purpose: st.purpose || "" };
+  STATUS[key] = { state, ids, date: st.date || fromId || fromNote, note: st.note || "", next: st.next || null, why: st.why || "", check: st.check || [], purpose: st.purpose || "", main_parts: st.main_parts || null };
 }
 const nState = (s) => Object.values(STATUS).filter((v) => v.state === s).length;
 console.log(`状態: 投稿候補 ${nState("draft")}・投稿済み ${nState("posted")}・終了/見送り ${nState("done") + nState("dropped")}`);
