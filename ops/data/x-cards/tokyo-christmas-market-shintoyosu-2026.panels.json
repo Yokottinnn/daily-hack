@@ -1,0 +1,25 @@
+{
+ "_doc": "X 告知の画像（公式の画像を正方形に整えたもの＋要点）。node scripts/gen-x-panels.mjs ops/data/x-cards/tokyo-christmas-market-shintoyosu-2026.panels.json",
+ "_note": "2026-11-01 利用者「公式から画像を持ってきてうまく成形してアイキャッチ画像を作るなど、そこまではやってほしい」。素材はブログの湾岸ニュース記事で blog3 が取った公式・プレスリリースの画像（photos/_manifest.json）。1 枚目は公式の画像を加工せず、正方形に収めて余白をぼかしで埋める。画像の中に出所は出さず ALT に書く（2026-10-11 の指示）。数字は posts.json の下書きから",
+ "imageBase": "public/images/tokyo-christmas-market-shintoyosu-2026",
+ "out": "public/images/tokyo-christmas-market-shintoyosu-2026/x",
+ "theme": "ink",
+ "panels": [
+  {
+   "file": "1-official.jpg",
+   "kind": "html",
+   "noHeader": true,
+   "html": "<div class=\"ey\"><img class=\"bgb\" src=\"photos/food-kv.jpg\" alt=\"\"><img class=\"fg\" src=\"photos/food-kv.jpg\" alt=\"\"></div>",
+   "css": "main{padding:0;height:1080px;display:block}\n.ey{position:relative;height:1080px;overflow:hidden;background:#111}\n.bgb{position:absolute;left:-60px;top:-60px;width:1200px;height:1200px;object-fit:cover;filter:blur(34px) brightness(.5)}\n.fg{position:absolute;left:28px;top:28px;width:1024px;height:1024px;object-fit:contain;filter:drop-shadow(0 18px 40px rgba(0,0,0,.45))}",
+   "alt": "東京クリスマスマーケット2026 in 新豊洲のフードのキービジュアル。2026年11月20日から12月25日、新豊洲会場。画像：東京クリスマスマーケット実行委員会（株式会社ビー・エフ・シー）・KKday のプレスリリース（PR TIMES）。キービジュアル ©Kayo Horaguchi"
+  },
+  {
+   "file": "2-point.jpg",
+   "kind": "html",
+   "noHeader": true,
+   "html": "<div class=\"wrap\"><img class=\"ph\" src=\"photos/gluhwein.jpg\" alt=\"\"><div class=\"shade\"></div><div class=\"tx\"><div class=\"k\">新豊洲 11/20〜12/25</div><div class=\"t\">大人は<em>平日</em>がいちばん安い</div><ul class=\"pts\"><li><b>平日</b>1,000円</li><li><b>土日祝</b>1,500円</li><li><b>12/24・25</b>2,000円</li></ul></div></div>",
+   "css": "main{padding:0;height:1080px;display:block}\n.wrap{position:relative;height:1080px;color:#fff;background:#1E1219;overflow:hidden}\n.ph{position:absolute;left:0;top:0;width:100%;height:520px;object-fit:cover;object-position:center}\n.shade{position:absolute;left:0;right:0;top:260px;height:262px;background:linear-gradient(180deg,rgba(30,18,25,0),#1E1219 92%)}\n.tx{position:absolute;left:56px;right:56px;top:410px;bottom:56px;display:flex;flex-direction:column}\n.k{align-self:flex-start;display:inline-block;font-size:30px;font-weight:900;color:#2A1923;background:#F5C518;border-radius:999px;padding:6px 22px}\n.t{font-size:74px;font-weight:900;line-height:1.2;margin-top:14px;text-shadow:0 2px 12px rgba(0,0,0,.4)}\n.t em{font-style:normal;color:#EC5C90}\n.pts{list-style:none;margin-top:26px;flex:1;display:flex;flex-direction:column;justify-content:center;gap:20px}\n.pts li{font-size:36px;font-weight:700;line-height:1.35;background:rgba(255,255,255,.08);border-left:10px solid #EC5C90;border-radius:14px;padding:16px 24px}\n.pts b{color:#F5C518;margin-right:12px}",
+   "alt": "3色のグリューワインの写真。文字：新豊洲 11/20〜12/25。大人は平日がいちばん安い。平日1,000円、土日祝1,500円、12月24日・25日は2,000円。画像：東京クリスマスマーケット実行委員会（株式会社ビー・エフ・シー）・KKday のプレスリリース（PR TIMES）。キービジュアル ©Kayo Horaguchi"
+  }
+ ]
+}

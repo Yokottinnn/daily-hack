@@ -1,0 +1,25 @@
+{
+ "_doc": "X 告知の画像（公式の画像を正方形に整えたもの＋要点）。node scripts/gen-x-panels.mjs ops/data/x-cards/tim-burton-labyrinth-toyosu-2026.panels.json",
+ "_note": "2026-11-01 利用者「公式から画像を持ってきてうまく成形してアイキャッチ画像を作るなど、そこまではやってほしい」。素材はブログの湾岸ニュース記事で blog3 が取った公式・プレスリリースの画像（photos/_manifest.json）。1 枚目は公式の画像を加工せず、正方形に収めて余白をぼかしで埋める。画像の中に出所は出さず ALT に書く（2026-10-11 の指示）。数字は posts.json の下書きから",
+ "imageBase": "public/images/tim-burton-labyrinth-toyosu-2026",
+ "out": "public/images/tim-burton-labyrinth-toyosu-2026/x",
+ "theme": "ink",
+ "panels": [
+  {
+   "file": "1-official.jpg",
+   "kind": "html",
+   "noHeader": true,
+   "html": "<div class=\"ey\"><img class=\"bgb\" src=\"photos/kv.jpg\" alt=\"\"><img class=\"fg\" src=\"photos/kv.jpg\" alt=\"\"></div>",
+   "css": "main{padding:0;height:1080px;display:block}\n.ey{position:relative;height:1080px;overflow:hidden;background:#111}\n.bgb{position:absolute;left:-60px;top:-60px;width:1200px;height:1200px;object-fit:cover;filter:blur(34px) brightness(.5)}\n.fg{position:absolute;left:28px;top:28px;width:1024px;height:1024px;object-fit:contain;filter:drop-shadow(0 18px 40px rgba(0,0,0,.45))}",
+   "alt": "ティム・バートンのラビリンスの公式キービジュアル。2026年11月25日から2027年2月21日、CREVIA BASE Tokyo（豊洲）。画像：ティム・バートンのラビリンス 広報事務局のプレスリリース（PR TIMES）"
+  },
+  {
+   "file": "2-point.jpg",
+   "kind": "html",
+   "noHeader": true,
+   "html": "<div class=\"wrap\"><img class=\"ph\" src=\"photos/room1.jpg\" alt=\"\"><div class=\"shade\"></div><div class=\"tx\"><div class=\"k\">11/25〜 豊洲・日時指定</div><div class=\"t\">同じチケットが<br>曜日で<em>600円</em>ちがう</div><ul class=\"pts\"><li><b>月〜木</b>4,400円</li><li><b>金</b>4,700円</li><li><b>土日祝</b>5,000円</li><li><b>休み</b>毎週火曜と1/1・2</li></ul></div></div>",
+   "css": "main{padding:0;height:1080px;display:block}\n.wrap{position:relative;height:1080px;color:#fff;background:#1E1219;overflow:hidden}\n.ph{position:absolute;left:0;top:0;width:100%;height:500px;object-fit:cover;object-position:center 40%}\n.shade{position:absolute;left:0;right:0;top:240px;height:262px;background:linear-gradient(180deg,rgba(30,18,25,0),#1E1219 92%)}\n.tx{position:absolute;left:56px;right:56px;top:390px;bottom:56px;display:flex;flex-direction:column}\n.k{align-self:flex-start;display:inline-block;font-size:30px;font-weight:900;color:#2A1923;background:#F5C518;border-radius:999px;padding:6px 22px}\n.t{font-size:74px;font-weight:900;line-height:1.2;margin-top:14px;text-shadow:0 2px 12px rgba(0,0,0,.4)}\n.t em{font-style:normal;color:#EC5C90}\n.pts{list-style:none;margin-top:26px;flex:1;display:flex;flex-direction:column;justify-content:center;gap:20px}\n.pts li{font-size:36px;font-weight:700;line-height:1.35;background:rgba(255,255,255,.08);border-left:10px solid #EC5C90;border-radius:14px;padding:16px 24px}\n.pts b{color:#F5C518;margin-right:12px}",
+   "alt": "赤い光の通路に、しま模様の手足の大きなキャラクターの立体が立つ展示室の写真。文字：11/25から豊洲・日時指定。同じチケットが曜日で600円ちがう。月〜木4,400円、金4,700円、土日祝5,000円。休みは毎週火曜と1月1日・2日。画像：ティム・バートンのラビリンス 広報事務局のプレスリリース（PR TIMES）"
+  }
+ ]
+}
