@@ -132,7 +132,18 @@ HOBIE の艇は、**足でペダルを踏んで進む**。水の中のヒレは�
 
 <!-- sns-x:hobie-toyosu-kayak -->
 
-豊洲での体験の投稿はまだ少ないので、**艇の説明**と**ぐるり公園の水の中**の動画を選んだ。
+同じ東電堀では、2026年9月に犬と乗れる「HOBIE DOG DAY」が開かれていて、その様子が投稿されている。
+
+- 豊洲の地域情報サイトは「**ワンちゃんと一緒に水遊び**」「**気持ち良さそう**」と紹介し、乗っている様子を**スタッフが撮影してくれる**サービスにも触れている
+- 豊洲6丁目の自治会は、足漕ぎカヤックで「**水の上をゆっくり進みながら、いつもとは違う景色を満喫**」と書いている
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">豊洲でワンちゃんと一緒に水遊び！「HOBIE DOG DAY」が東電堀で開催です🐶 気持ち良さそう〜！！ペットと乗ってる様子をスタッフが撮影してくれるサービスも✨</p>&mdash; とよすと (@toyosu_tokyo) <a href="https://twitter.com/toyosu_tokyo/status/2094987907501343087">2026年9月2日</a></blockquote>
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">“HOBIE JAPAN DOG DAY” 🐶ワンちゃんと一緒にカヤック体験！ 足漕ぎカヤックに乗って、水の上をゆっくり進みながら、いつもとは違う景色を満喫✨ ワンちゃんと一緒に、楽しいひとときを過ごしていました🐾💕 #豊洲6丁目 #カヤック体験 #犬と一緒</p>&mdash; 【公式】豊洲６丁目SKYZ自治会 (@Skyz20357856) <a href="https://twitter.com/Skyz20357856/status/2101913029923516510">2026年9月21日</a></blockquote>
+
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+艇そのものの動画も置いておく。
 
 - 2人乗りの元になった「ミラージュ・コンパス」を、**HOBIE JAPAN が組み立てから説明**している
 - 釣り具の店の動画では、足漕ぎのカヤックが「**話題**」として紹介されている
