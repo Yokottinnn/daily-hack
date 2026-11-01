@@ -1,5 +1,4 @@
 [
-      {"task": "t538-a8-apply-dog.sh", "rc": 0, "out": " ### s00000021939003 - 押したあとの画面: https://media-console.a8.net/program/agreement/apply-result   - プログラム提携申請完了   - 未提携のものから提"},
-      {"task": "t539-a8-apply-food.sh", "rc": 0, "out": " ### s00000000218004 - 押したあとの画面: https://media-console.a8.net/program/agreement/apply-result   - プログラム提携申請完了   - 未提携のものから�"},
-      {"task": "t540-a8-banners-lego-suzuhiro.sh", "rc": 0, "out": "  - A8.netより広告掲載面の開示を求めた際に応じていただけない場合は、成果キャンセルとなる可能性がございます。   - その他、広告掲載前に「A8.netでの禁止事項」をご確認いただきますようお願いいたします。   - PR文   - "}
+      {"task": "t541-a8-banners-dog.sh", "rc": 0, "out": "- バナー 2 件（300x250・100x60）  ### s00000017753002 広告リンク作成｜A8.netメディア管理画面 - 画面: https://media-console.a8.net/program/create-link - バナ�"},
+      {"task": "t542-a8-banners-food.sh", "rc": 0, "out": "### s00000021453001 広告リンク作成｜A8.netメディア管理画面 - 画面: https://media-console.a8.net/program/create-link - バナー 16 件（300x250・300x250・300x250・300x250・468x60・468x60・468x60・320x50・320x50・320x50・120x60・120x60・120x60・234x60・234x60・234x60"}
   ]
