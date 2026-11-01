@@ -1,0 +1,23 @@
+{
+ "aeonmall": {
+  "brand": "イオンモール",
+  "file": "aeonmall.png",
+  "source": "https://www.aeonmall.com/img/common/ogp.png",
+  "page": "https://www.aeonmall.com/",
+  "license_note": "公式サイト（商標）",
+  "width": 600,
+  "height": 311,
+  "copied_from": "public/images/outlet-mall-guide-2026/logos/aeonmall.png",
+  "note": "公式 OGP 画像から余白と周りの飾りを落とし、ロゴの枠だけを切り出した（2026-11-01）"
+ },
+ "aeonmall.png": {
+  "brand": "イオンモール",
+  "file": "aeonmall.png",
+  "source": "https://www.aeonmall.com/img/common/ogp.png",
+  "page": "https://www.aeonmall.com/",
+  "license_note": "公式サイト（商標）",
+  "width": 600,
+  "height": 311,
+  "copied_from": "public/images/outlet-mall-guide-2026/logos/aeonmall.png"
+ }
+}
