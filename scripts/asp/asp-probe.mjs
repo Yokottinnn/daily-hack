@@ -351,6 +351,23 @@ try {
     }
   }
 
+  if (WHICH === 'searchpages') {
+    // **もしも・バリューコマースの「案件を探す」画面の作りを読むだけ（押さない・送らない）（2026-11-01）。** 検索の仕組みを推測で書かないため
+    const dump = async () => p.evaluate(() => {
+      const vis = (el) => !!(el.offsetWidth || el.offsetHeight || el.getClientRects().length);
+      const forms = [...document.querySelectorAll('form')].filter(vis).slice(0, 6).map((f) => `form action=${f.getAttribute('action') || ''} method=${f.method}: ` + [...f.querySelectorAll('input,select')].filter((e) => e.type !== 'hidden' || e.name).map((e) => `${e.tagName.toLowerCase()}[${e.type || ''}] name=${e.name}${e.placeholder ? ' 「' + e.placeholder + '」' : ''}`).slice(0, 15).join(' / '));
+      const links = [...document.querySelectorAll('a')].filter(vis).map((a) => `${(a.innerText || '').replace(/\s+/g, ' ').trim().slice(0, 30)} → ${a.getAttribute('href') || ''}`).filter((x) => /検索|探す|さがす|search|promotion|adDetail|カテゴリ|category/i.test(x)).slice(0, 30);
+      return { forms, links, title: document.title };
+    });
+    const kw = process.env.SEARCH_KW || 'ドッグフード';
+    for (const u of ['https://af.moshimo.com/af/shop/promotion/search', `https://af.moshimo.com/af/shop/promotion/search?keyword=${encodeURIComponent(kw)}`, 'https://aff.valuecommerce.ne.jp/home', 'https://aff.valuecommerce.ne.jp/ad/search']) {
+      await go(u);
+      const d = await dump();
+      lines.push(`## ${u}`, `- 開いた画面: ${here()}（${d.title}）`, ...d.forms.map((x) => `- ${x}`), ...d.links.filter((x) => !NG.test(x)).map((x) => `  - ${x}`));
+      const items = await p.evaluate(() => [...document.querySelectorAll('a[href*="promotion_id"], a[href*="adDetail"]')].map((a) => (a.innerText || '').replace(/\s+/g, ' ').trim().slice(0, 60)).filter(Boolean).slice(0, 8));
+      lines.push(`- 案件らしいリンク（先頭 8）: ${items.filter((x) => !NG.test(x)).join(' ／ ') || 'なし'}`, '');
+    }
+  }
   if (WHICH === 'a8evidence') {
     // **読むだけ（2026-11-01・利用者「ここから何をしたら私の収益に繋がるのか、証跡を持って証明して」）。**
     // 提携中の案件の詳細ページの本文を、成果条件・否認条件・確定までの期間を含めてそのまま出す（個人名・自分の報酬額は NG で落とす）
