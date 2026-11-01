@@ -63,3 +63,4 @@ ai.openclaw.x-loop-guardian
 # **LLM を呼ばない（$0/回・$0/日・$0/月）。** 11:45 と 18:45 に走る。
 # フォロー側が 11:30 / 18:30 に撃つので、その後に外す。上限は 8 件（段階的に上げる）。
 ai.openclaw.follow-balance
+ai.openclaw.boost-watch
