@@ -1130,6 +1130,8 @@ try {
         const txt = (r.innerText || '').replace(/\s+/g, ' ');
         return { name: (a.innerText || '').replace(/\s+/g, ' ').trim().slice(0, 60), reward: (txt.match(/[0-9,.]+\s*(円|%)[^ ]{0,12}/) || [''])[0], href: a.href.replace(/\?.*$/, '') };
       }).filter((x) => x.name && !seen.has(x.href) && seen.add(x.href)); });
+    // もしもは 2026-11-02 にメディア登録が削除され、利用者が「放置」を選んだ（決定ログ 2026-11-02）。読みに行かない
+    if (process.env.MOSHIMO_OFF !== '0') { lines.push('- もしも: 読まない（2026-11-02 メディア登録削除・放置）'); } else {
     await go('https://af.moshimo.com/af/shop/promotion/search?apply_status=2');
     lines.push(`- もしも: 開いた画面 ${here()}（${(await p.title()).slice(0, 40)}）`);
     out.moshimo = await p.evaluate(() => { const seen = new Set();
@@ -1138,6 +1140,7 @@ try {
         const txt = (r.innerText || '').replace(/\s+/g, ' ');
         return { name: (a.innerText || a.title || '').replace(/\s+/g, ' ').trim().slice(0, 60), reward: (txt.match(/[0-9,.]+\s*(円|%)[^ ]{0,12}/) || [''])[0], href: a.href.replace(/\?.*$/, '') };
       }).filter((x) => x.name && !seen.has(x.href) && seen.add(x.href)); });
+    }
     for (const k of ['vc', 'moshimo']) out[k] = out[k].filter((x) => !NG.test(x.name));
     lines.push(`- バリューコマース 提携済み: ${out.vc.length} 件`, ...out.vc.map((x) => `  - ${x.name}｜${x.reward}`), `- もしも 提携中: ${out.moshimo.length} 件`, ...out.moshimo.map((x) => `  - ${x.name}｜${x.reward}`));
     if (!out.moshimo.length) lines.push('', '### もしもの画面のリンク（件数 0 のときの手がかり）', ...(await p.evaluate(() => [...document.querySelectorAll('a')].map((a) => (a.innerText || '').trim().slice(0, 30) + ' — ' + a.href.replace(/\?.*$/, '')).filter((t) => /promotion/.test(t)).slice(0, 25))).map((t) => `  - ${t}`));
