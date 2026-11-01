@@ -351,6 +351,17 @@ try {
     }
   }
 
+  if (WHICH === 'a8evidence') {
+    // **読むだけ（2026-11-01・利用者「ここから何をしたら私の収益に繋がるのか、証跡を持って証明して」）。**
+    // 提携中の案件の詳細ページの本文を、成果条件・否認条件・確定までの期間を含めてそのまま出す（個人名・自分の報酬額は NG で落とす）
+    for (const id of (process.env.A8_IDS || '').split(',').filter(Boolean)) {
+      const u = `https://media-console.a8.net/program/detail-partnered?programId=${id}`;
+      await go(u); await a8Reauth(p, u);
+      const t = await p.evaluate(() => (document.querySelector('main') || document.body).innerText.split('\n').map((x) => x.trim()).filter(Boolean));
+      lines.push(`### ${id}`, `- 画面: ${here()}`, ...t.filter((x) => !NG.test(x)).slice(0, 160).map((x) => `  - ${x.slice(0, 220)}`), '');
+    }
+  }
+
   if (WHICH === 'a8linkcheck') {
     // **読むだけ（2026-10-31・利用者「セルフバックのバナーじゃないよね？」）。** バナーのコードを取った画面が、
     // 提携サイト向けの「広告リンク作成」か、本人購入の「セルフバック」かを、画面の表題・見出し・選択中のサイト名で確かめる
