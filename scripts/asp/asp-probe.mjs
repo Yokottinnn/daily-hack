@@ -351,6 +351,19 @@ try {
     }
   }
 
+  if (WHICH === 'moshimostatus') {
+    // **もしもの案件の申請状態を、詳細画面の「基本情報」の中から読む（サイドバーの「申請中／提携中」のリンクを数えない）（2026-11-01）**
+    for (const id of (process.env.MOSHIMO_IDS || '').split(',').filter(Boolean)) {
+      await go(`https://af.moshimo.com/af/shop/promotion/detail?promotion_id=${id}&shop_site_id=694444`);
+      const t = await p.evaluate(() => document.body.innerText.split('\n').map((x) => x.trim()).filter(Boolean));
+      const i = t.indexOf('基本情報'); const st = i < 0 ? '基本情報が見えない' : (t.slice(i, i + 12).find((x) => /^(未申請|申請中|提携中|否認中|審査中)$/.test(x)) || '状態の語が無い');
+      const btn = t.slice(Math.max(0, i), i + 30).filter((x) => /提携申請|本人申込|広告リンク|申請を取り消/.test(x)).join(' ／ ');
+      lines.push(`- \`${id}\` 状態: **${st}** ／ ボタン: ${btn || 'なし'}`);
+    }
+    await go('https://af.moshimo.com/af/shop/promotion/search?apply_status=1&shop_site_id=694444');
+    const ids = await p.evaluate(() => [...new Set([...document.querySelectorAll('a[href*="promotion_id="]')].map((a) => (a.href.match(/promotion_id=(\d+)/) || [])[1]))].filter(Boolean));
+    lines.push('', `- 「申請中」の一覧にある ID: ${ids.join(', ')}`);
+  }
   if (WHICH === 'moshimoapply') {
     // **もしもの提携申請（2026-11-01・利用者「もしも・バリューコマースでも探す」＋10/31「申請の都度の確認は要らない」）。**
     // applyvc と同じ作り: 押したあとの確認画面を読み、費用の記載・メディアが daily-hack でない・送信ボタンが 1 個でない、のどれかなら送らない
