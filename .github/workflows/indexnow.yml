@@ -51,6 +51,7 @@ jobs:
       - name: IndexNow に送る
         env:
           SLUGS: ${{ steps.changed.outputs.slugs }}
+          BING_WEBMASTER_API_KEY: ${{ secrets.BING_WEBMASTER_API_KEY }}
         run: |
           # slug は英数字とハイフンだけ通す
           clean="$(echo "$SLUGS" | tr ' ' '\n' | grep -E '^[a-z0-9-]+$' | tr '\n' ' ')"
