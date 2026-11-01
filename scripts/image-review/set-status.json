@@ -76,8 +76,7 @@
       "画像",
       "[2/2] の記事の紹介"
     ],
-    "purpose": "blog",
-    "main_parts": 2
+    "purpose": "blog"
   },
   "points": {
     "status": "posted",
@@ -102,8 +101,7 @@
       "文面",
       "画像"
     ],
-    "purpose": "news",
-    "main_parts": 2
+    "purpose": "news"
   },
   "payid-a": {
     "status": "dropped",
@@ -135,8 +133,7 @@
       "画像 2 枚（3か所の比較・水回り3点）",
       "[2/2] の記事の紹介"
     ],
-    "purpose": "blog",
-    "main_parts": 2
+    "purpose": "blog"
   },
   "pocket-wifi": {
     "status": "draft",
@@ -148,8 +145,7 @@
       "画像 1 枚（使う量ごとの 1 位）。リチャージWiFi はロゴが無いので名前で出している",
       "[2/2] の記事の紹介"
     ],
-    "purpose": "blog",
-    "main_parts": 2
+    "purpose": "blog"
   },
   "hikari": {
     "status": "draft",
@@ -162,8 +158,7 @@
       "BIGLOBE光の還元期間の書き方（公式の表示が 9/30 のまま）",
       "[2/2] の記事の紹介"
     ],
-    "purpose": "blog",
-    "main_parts": 2
+    "purpose": "blog"
   },
   "esim": {
     "status": "draft",
@@ -176,8 +171,7 @@
       "各キャリアの無料枠の書き方（対象プランの言い方）",
       "[2/2] の記事の紹介"
     ],
-    "purpose": "blog",
-    "main_parts": 2
+    "purpose": "blog"
   },
   "wimax": {
     "status": "draft",
@@ -189,8 +183,7 @@
       "画像 1 枚（2年でやめたときに払う額）",
       "[2/2] の記事の紹介"
     ],
-    "purpose": "blog",
-    "main_parts": 2
+    "purpose": "blog"
   },
   "takuhai": {
     "status": "draft",
@@ -202,8 +195,7 @@
       "画像 1 枚（返送料と受け取り方）",
       "[2/2] の記事の紹介"
     ],
-    "purpose": "blog",
-    "main_parts": 2
+    "purpose": "blog"
   },
   "flight": {
     "status": "draft",
@@ -215,8 +207,7 @@
       "画像 1 枚（ANA・JAL 片道を取り消したとき）",
       "[2/2] の記事の紹介"
     ],
-    "purpose": "blog",
-    "main_parts": 2
+    "purpose": "blog"
   },
   "hotel": {
     "status": "draft",
@@ -228,8 +219,7 @@
       "画像 1 枚（1泊2万円でいくら戻るか）",
       "[2/2] の記事の紹介"
     ],
-    "purpose": "blog",
-    "main_parts": 2
+    "purpose": "blog"
   },
   "walkps": {
     "status": "draft",
@@ -242,8 +232,7 @@
       "ハピタス・ちょびリッチの特典の条件の書き方",
       "[2/2] の記事の紹介"
     ],
-    "purpose": "blog",
-    "main_parts": 2
+    "purpose": "blog"
   },
   "news-wangan-1102": {
     "status": "draft",
@@ -255,8 +244,7 @@
       "画像 1 枚（3 本のまとめ）",
       "3 本の選び方"
     ],
-    "next": 7,
-    "main_parts": 1
+    "next": 7
   },
   "news-koto-matsuri": {
     "status": "draft",
@@ -268,8 +256,7 @@
       "クルーズの料金・定員の書き方",
       "記事の URL を [2/2] に付けるか（いまは付けていない）"
     ],
-    "next": 1,
-    "main_parts": 1
+    "next": 1
   },
   "news-lalaport-bf": {
     "status": "draft",
@@ -280,8 +267,7 @@
       "文面（レシートの条件の書き方）",
       "出す時期（11/13〜20 のどこか）"
     ],
-    "next": 13,
-    "main_parts": 1
+    "next": 13
   },
   "poikatsu-rakuten-cap": {
     "status": "draft",
@@ -293,8 +279,7 @@
       "画像 1 枚（上限に届く額）",
       "上限に届く額の計算（7,000pt÷9%≒7.8万円 など）"
     ],
-    "next": 2,
-    "main_parts": 1
+    "next": 2
   },
   "poikatsu-kaiaku": {
     "status": "draft",
@@ -305,8 +290,7 @@
       "文面",
       "改悪 3 つの日付と数字"
     ],
-    "next": 5,
-    "main_parts": 1
+    "next": 5
   },
   "social-point-ask": {
     "status": "draft",
@@ -317,8 +301,7 @@
       "文面",
       "答えた人への返し方（手で返すか）"
     ],
-    "next": 11,
-    "main_parts": 1
+    "next": 11
   },
   "news-wangan-xmas": {
     "status": "draft",
@@ -329,8 +312,7 @@
       "文面（3 つの選び方）",
       "入場料・期間の書き方"
     ],
-    "next": 16,
-    "main_parts": 1
+    "next": 16
   },
   "news-flying-car": {
     "status": "draft",
@@ -341,8 +323,7 @@
       "文面",
       "初日・最終日の時間の書き方"
     ],
-    "next": 10,
-    "main_parts": 1
+    "next": 10
   },
   "news-tim-burton": {
     "status": "draft",
@@ -353,8 +334,7 @@
       "文面",
       "料金の書き方"
     ],
-    "next": 18,
-    "main_parts": 1
+    "next": 18
   },
   "poikatsu-smbc-touch": {
     "status": "draft",
@@ -365,8 +345,7 @@
       "文面",
       "上乗せの率を書かない理由（時期で率が変わっているため、条件だけ書いた）"
     ],
-    "next": 8,
-    "main_parts": 1
+    "next": 8
   },
   "poikatsu-5-0": {
     "status": "draft",
@@ -377,8 +356,7 @@
       "文面",
       "出す日（5・10・15・20・25・30 日のどれか）"
     ],
-    "next": 14,
-    "main_parts": 1
+    "next": 14
   },
   "news-kidzania-adult": {
     "status": "draft",
@@ -389,7 +367,6 @@
       "文面",
       "予約開始の日時と料金"
     ],
-    "main_parts": 1,
     "next": 4
   },
   "news-doraemon": {
@@ -401,7 +378,6 @@
       "文面",
       "ピンズの条件"
     ],
-    "main_parts": 1,
     "next": 20
   },
   "news-tsukudajima": {
@@ -412,7 +388,6 @@
     "check": [
       "文面"
     ],
-    "main_parts": 1,
     "next": 22
   }
 }
