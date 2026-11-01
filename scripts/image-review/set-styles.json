@@ -170,5 +170,17 @@
   "poikatsu-5-0": {
     "style": "deadline",
     "why": "その日の朝に出す期限型。エントリー忘れと上限を先に出す。5・10・15・20・25・30 日のどこかで使える（未投稿）"
+  },
+  "news-kidzania-adult": {
+    "style": "deadline",
+    "why": "予約開始の日時を 1 行目に出す期限型。短文（未投稿）"
+  },
+  "news-doraemon": {
+    "style": "discover",
+    "why": "『いま閉まってるの、知らなかったでしょ』で出す発見型。短文（未投稿）"
+  },
+  "news-tsukudajima": {
+    "style": "roundup",
+    "why": "無料・予約不要・景品を並べる一覧型。月島のもんじゃと合わせて提案。短文（未投稿）"
   }
 }
