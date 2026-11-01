@@ -78,7 +78,7 @@
     最後に費用の行「費用: 1 回 $0・1 日 $0・1 か月 $0（Console 課金。この作業はプランの利用枠の中）」
 10-B. **IndexNow の応答を 1 行報告する**（2026-10-30 に利用者が「1 日待って自動送信の応答を見る」を選んだ・Bing が 403 のあいだだけ）:
     PR をマージしたら GitHub Actions の「IndexNow」の実行ログを読み、Bing と api.indexnow.org の応答（200/202 か 403 か）を報告に 1 行で書く。
-    200/202 になったらこの手順を消す。まだ 403 なら、利用者に「Bing の API キーで送る」「Cloudflare のボット対策の設定を見る」をダイアログで出し直す
+    200/202 になったらこの手順を消す。2026-11-01 に利用者が「Bing の API キーで送る」を選んだ。`indexnow-changed.mjs` は Secrets の `BING_WEBMASTER_API_KEY` があれば Bing Webmaster の SubmitUrlBatch でも送る。ログの「Bing Webmaster API SubmitUrlBatch: 200」が出るまで、この行を報告に残す
 11. **引き継ぎ**: `npm run handoff -- "湾岸ニュース <日付>: <本数> 本" --next "…"`
 
 ## 記事の型
