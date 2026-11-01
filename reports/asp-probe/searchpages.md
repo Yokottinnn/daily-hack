@@ -1,6 +1,6 @@
 # ASP の画面調べ: searchpages（asp-probe）
 
-生成: **2026-11-01T14:46:42.032Z**
+生成: **2026-11-01T14:46:56.036Z**
 
 ## https://af.moshimo.com/af/shop/promotion/search
 - 開いた画面: https://af.moshimo.com/af/shop/promotion/search（プロモーション検索 ｜ もしもアフィリエイト）
@@ -84,14 +84,14 @@
 
 ## https://aff.valuecommerce.ne.jp/home
 - 開いた画面: https://aff.valuecommerce.ne.jp/home（ダッシュボード | アフィリエイト管理画面）
+  -  → /ad/adDetail/2165155?tag=cm&spot=d
+  - マルイのネット通販マルイウェブチャネル → /ad/adDetail/2165155?tag=cm&spot=d
   -  → /ad/adDetail/2161122?tag=cm&spot=d
   - 世界最大級！ツアーアクティビティの検索サイト「Liigo」販 → /ad/adDetail/2161122?tag=cm&spot=d
   -  → /ad/adDetail/2082539?tag=cm&spot=d
   - 【LYPプレミアム（旧Yahoo!プレミアム）】 会員獲得プ → /ad/adDetail/2082539?tag=cm&spot=d
   -  → /ad/adDetail/2175237?tag=cm&spot=d
   - 【ニーズツアー】国内旅行＆沖縄旅行 → /ad/adDetail/2175237?tag=cm&spot=d
-  -  → /ad/adDetail/2165155?tag=cm&spot=d
-  - マルイのネット通販マルイウェブチャネル → /ad/adDetail/2165155?tag=cm&spot=d
   -  → /ad/adDetail/176
   - Lenovo/レノボ公式オンラインストア → /ad/adDetail/176
   -  → /ad/adDetail/2174874
@@ -114,7 +114,7 @@
   - ザボディショップ オンラインショップ → /ad/adDetail/2063116
   -  → /ad/adDetail/2175815
   - 全国で展開する大手フィットネスクラブ【セントラルスポーツ】 → /ad/adDetail/2175815
-- 案件らしいリンク（先頭 8）: 世界最大級！ツアーアクティビティの検索サイト「Liigo」販促プログラム ／ 【LYPプレミアム（旧Yahoo!プレミアム）】 会員獲得プログラム ／ 【ニーズツアー】国内旅行＆沖縄旅行 ／ マルイのネット通販マルイウェブチャネル ／ Lenovo/レノボ公式オンラインストア ／ Audibleアフィリエイト紹介プログラム ／ 【LYPプレミアム（旧Yahoo!プレミアム）】 会員獲得プログラム ／ 机や椅子などのオフィス家具通販【オフィスコム】
+- 案件らしいリンク（先頭 8）: マルイのネット通販マルイウェブチャネル ／ 世界最大級！ツアーアクティビティの検索サイト「Liigo」販促プログラム ／ 【LYPプレミアム（旧Yahoo!プレミアム）】 会員獲得プログラム ／ 【ニーズツアー】国内旅行＆沖縄旅行 ／ Lenovo/レノボ公式オンラインストア ／ Audibleアフィリエイト紹介プログラム ／ 【LYPプレミアム（旧Yahoo!プレミアム）】 会員獲得プログラム ／ 机や椅子などのオフィス家具通販【オフィスコム】
 
 ## https://aff.valuecommerce.ne.jp/ad/search
 - 開いた画面: https://aff.valuecommerce.ne.jp/ad/search（ページが表示できません）
