@@ -76,9 +76,8 @@
 9. **公開**: まとめて 1 本の PR（その日の記事すべて）→ CI → マージ。**PR の bot コメントのプレビュー URL** を記事ごとに取る（最上位ルール 16）
 10. **報告**（日本語・最上位ルール 22）: 「レビューのお願い」を先頭に、記事ごとに見出し＋プレビュー URL（記事パス付き）＋見てほしい点 2 つ。
     最後に費用の行「費用: 1 回 $0・1 日 $0・1 か月 $0（Console 課金。この作業はプランの利用枠の中）」
-10-B. **IndexNow の応答を 1 行報告する**（2026-10-30 に利用者が「1 日待って自動送信の応答を見る」を選んだ・Bing が 403 のあいだだけ）:
-    PR をマージしたら GitHub Actions の「IndexNow」の実行ログを読み、Bing と api.indexnow.org の応答（200/202 か 403 か）を報告に 1 行で書く。
-    200/202 になったらこの手順を消す。2026-11-01 に利用者が「Bing の API キーで送る」を選んだ。`indexnow-changed.mjs` は Secrets の `BING_WEBMASTER_API_KEY` があれば Bing Webmaster の SubmitUrlBatch でも送る。ログの「Bing Webmaster API SubmitUrlBatch: 200」が出るまで、この行を報告に残す
+10-B. **IndexNow の応答を 1 行報告する**: PR をマージしたら GitHub Actions の「IndexNow」の実行ログを読み、「Bing Webmaster API SubmitUrlBatch」の応答を報告に 1 行で書く。
+    2026-11-01 に利用者が Secrets（`BING_WEBMASTER_API_KEY`）を登録し、同日の手動実行で **200** を確かめた（IndexNow の Bing 窓口と api.indexnow.org は 403 のまま・Yandex は 200）。200 でなくなったら、ログの実際の出力を添えて利用者に伝える
 11. **引き継ぎ**: `npm run handoff -- "湾岸ニュース <日付>: <本数> 本" --next "…"`
 
 ## 記事の型
