@@ -24,7 +24,7 @@
       "label": "洗濯"
     }
   ],
-  "pricesCheckedAt": "2026-10-31T21:45:11.813Z",
+  "pricesCheckedAt": "2026-11-01T21:45:16.154Z",
   "items": [
     {
       "id": "thanko-heat25sbk",
@@ -58,7 +58,7 @@
         "reviewAverage": null,
         "reviewCount": 0,
         "shop": "ハンズコテラ Yahoo!ショップ",
-        "checkedAt": "2026-10-31T21:45:11.813Z"
+        "checkedAt": "2026-11-01T21:45:16.154Z"
       },
       "amazon": {
         "keyword": "サンコー HEAT25SBK",
@@ -97,7 +97,7 @@
         "reviewAverage": 4.36,
         "reviewCount": 11,
         "shop": "ウエノ電器 Yahoo!店",
-        "checkedAt": "2026-10-31T21:45:11.813Z"
+        "checkedAt": "2026-11-01T21:45:16.154Z"
       },
       "amazon": {
         "keyword": null,
@@ -137,7 +137,7 @@
         "reviewAverage": 4,
         "reviewCount": 3,
         "shop": "メガストア Yahoo!店",
-        "checkedAt": "2026-10-31T21:45:11.813Z"
+        "checkedAt": "2026-11-01T21:45:16.154Z"
       },
       "amazon": {
         "keyword": "アイリスオーヤマ GT21622",
@@ -176,7 +176,7 @@
         "reviewAverage": null,
         "reviewCount": 0,
         "shop": "作業服 キノウェアショップ",
-        "checkedAt": "2026-10-31T21:45:11.813Z"
+        "checkedAt": "2026-11-01T21:45:16.154Z"
       },
       "amazon": {
         "keyword": "サンエス EH32490",
@@ -215,7 +215,7 @@
         "reviewAverage": null,
         "reviewCount": 0,
         "shop": "作業服 キノウェアショップ",
-        "checkedAt": "2026-10-31T21:45:11.813Z"
+        "checkedAt": "2026-11-01T21:45:16.154Z"
       },
       "amazon": {
         "keyword": "雷神服 RD9570",
@@ -272,7 +272,7 @@
         "reviewAverage": null,
         "reviewCount": 0,
         "shop": "MONAKA-STORE",
-        "checkedAt": "2026-10-31T21:45:11.813Z"
+        "checkedAt": "2026-11-01T21:45:16.154Z"
       },
       "amazon": {
         "keyword": "バートル サーモクラフト TC500",
@@ -304,14 +304,14 @@
         "must": [
           "CV202D"
         ],
-        "url": "https://store.shopping.yahoo.co.jp/kabutechno/cv202dzs.html",
-        "price": 15463,
-        "shippingFree": false,
+        "url": "https://store.shopping.yahoo.co.jp/diy-tool/m03-6295.html",
+        "price": 13946,
+        "shippingFree": true,
         "point": 0,
         "reviewAverage": null,
-        "reviewCount": 0,
-        "shop": "kabutechno",
-        "checkedAt": "2026-10-31T21:45:11.813Z"
+        "reviewCount": 2,
+        "shop": "DIY FACTORY ONLINE SHOP",
+        "checkedAt": "2026-11-01T21:45:16.154Z"
       },
       "amazon": {
         "keyword": "マキタ CV202DZ",
