@@ -9,6 +9,7 @@
 // 参照したところ、**公開後に 8 枚 とも出なかった。**
 // ローカルでは 8 枚 とも読めていた（`naturalWidth` で確認）ので、
 // **こちらで見ているかぎり気づけない**（最上位ルール 14 と同じ根）。
+import { execFileSync } from "node:child_process";
 import fs from "node:fs";
 import sharp from "sharp";
 import path from "node:path";
@@ -221,6 +222,18 @@ for (const k of Object.keys(setStyles)) {
 }
 console.log(`投稿スタイル: SET ${setKeys.length} 件 すべて指定済み（目録 ${catalog.styles.length} 型）`);
 
+// 2026-11-01: 型を変えたときの下書き（利用者「投稿のタイプを変えると下書きも変わるようにしてほしい／適用できそうなパターンだけ」）。
+// 長文は本体をいまの下書きから取るので、**毎回 作り直してから読む**（下書きを直したのに古い本体が出ないように）
+execFileSync(process.execPath, [path.join(HERE, "style-variants.src.mjs")], { stdio: "inherit" });
+const variants = JSON.parse(fs.readFileSync(path.join(HERE, "style-variants.json"), "utf8"));
+for (const [k, m] of Object.entries(variants.sets)) {
+  if (!setKeys.includes(k)) throw new Error(`style-variants: ${k} は page.html の SETS に無い`);
+  for (const s of Object.keys(m)) {
+    if (!styleIds.has(s)) throw new Error(`style-variants: ${k} の ${s} は目録に無い`);
+    if (setStyles[k] && setStyles[k].style === s) throw new Error(`style-variants: ${k} の ${s} はいまの型と同じ。いまの型を変えたら、元の型の下書きと入れ替える`);
+  }
+}
+
 // 2026-10-31: 組ごとの状態（投稿候補／投稿済み／終了・見送り）と日付をページに渡す（利用者の指示「投稿済みとそうでない投稿を区別」「フィルタやソート」）。
 // 状態は set-status.json（キューの x_tweet_id で確かめて書く）と page.html の posted。日付は 投稿済みなら投稿 ID から、未投稿なら SET の注記の最初の日付
 const setStatus = fs.existsSync(path.join(HERE, "set-status.json")) ? JSON.parse(fs.readFileSync(path.join(HERE, "set-status.json"), "utf8")) : {};
@@ -244,7 +257,7 @@ for (const slot of ["/*__IMAGES__*/{}", "/*__POSTS__*/{}", "/*__STYLES__*/{}", "
 const out = src
   .replace("/*__IMAGES__*/{}", JSON.stringify(map))
   .replace("/*__POSTS__*/{}", JSON.stringify(posts))
-  .replace("/*__STYLES__*/{}", JSON.stringify({ groups: catalog.groups, styles: catalog.styles, sets: setStyles }))
+  .replace("/*__STYLES__*/{}", JSON.stringify({ groups: catalog.groups, styles: catalog.styles, sets: setStyles, variants: variants.sets, noVariants: variants.none }))
   .replace("/*__STATUS__*/{}", JSON.stringify(STATUS));
 fs.writeFileSync(OUT, out);
 

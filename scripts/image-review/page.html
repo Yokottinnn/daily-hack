@@ -108,6 +108,18 @@
                        border:1px solid var(--edit); background:var(--edit); color:#fff; cursor:pointer; }
   .style-box button:disabled { opacity:.5; cursor:default; }
   .style-box .st-reqs { margin:6px 0 0; padding:0; list-style:none; font-size:12.5px; }
+  .style-box .st-vars { display:flex; flex-wrap:wrap; gap:6px; align-items:center; margin-top:8px; font-size:12.5px; }
+  .style-box .st-vars .lbl { color:var(--muted); }
+  .style-box .st-vars button { font-weight:500; background:transparent; color:inherit; border:1px solid var(--line); }
+  .style-box .st-vars button[aria-pressed="true"] { border-color:var(--accent); color:var(--accent); font-weight:700; }
+  .style-box .st-none { margin:6px 0 0; font-size:12.5px; color:var(--muted); }
+  .style-box .st-preview { margin-top:10px; padding:10px 12px; border:1px dashed var(--accent); border-radius:4px; }
+  .style-box .st-preview h4 { margin:0 0 4px; font-size:13px; }
+  .style-box .st-preview .pv-why { margin:0 0 8px; font-size:12.5px; color:var(--muted); }
+  .style-box .st-preview .pv-post { margin:0 0 10px; }
+  .style-box .st-preview .pv-head { font-family:var(--mono); font-size:11.5px; color:var(--muted); }
+  .style-box .st-preview .pv-text { margin:4px 0 0; white-space:pre-wrap; font-size:14px; line-height:1.7; }
+  .style-box .st-preview .pv-foot { margin:0; font-size:12px; color:var(--muted); }
   .style-box .st-reqs li { color:var(--accent); font-weight:700; }
   .style-box .st-reqs li.done { color:var(--done); font-weight:500; }
   .style-cat { margin-block:18px 0; }
@@ -1220,6 +1232,45 @@
       }
       sel.append(og);
     }
+    // 2026-11-01: 型を変えたときの下書き（当てはまる型だけ作ってある）。選ぶと下に出す
+    const vars = (STYLES.variants || {})[set.key] || {};
+    for (const o of sel.querySelectorAll("option")) if (vars[o.value]) o.textContent += " ✓下書きあり";
+    const pv = document.createElement("div"); pv.className = "st-preview"; pv.hidden = true;
+    const chips = [];
+    const showVariant = (sid) => {
+      pv.textContent = ""; pv.hidden = true;
+      for (const c of chips) c.setAttribute("aria-pressed", String(c.dataset.sid === sid));
+      const v = vars[sid]; if (!v) return;
+      const h = document.createElement("h4"); h.textContent = (styleById.get(sid) || {}).name + " にした場合の下書き";
+      const w = document.createElement("p"); w.className = "pv-why"; w.textContent = "この型が当てはまる理由： " + v.why;
+      pv.append(h, w);
+      v.posts.forEach((t, i) => {
+        const d = document.createElement("div"); d.className = "pv-post";
+        const hd = document.createElement("div"); hd.className = "pv-head"; hd.textContent = "[" + (i + 1) + "/" + v.posts.length + "] 重み " + v.weights[i] + (v.weights[i] > 275 ? "（長文。👇 の行までが「さらに表示」の前）" : "");
+        const tx = document.createElement("p"); tx.className = "pv-text"; tx.textContent = t;
+        d.append(hd, tx); pv.append(d);
+      });
+      const f = document.createElement("p"); f.className = "pv-foot"; f.textContent = "中身は、いまの下書きにある事実だけで並べ直したもの。この型で出すなら「この型に変える指示を出す」を押してください。";
+      pv.append(f); pv.hidden = false;
+    };
+    const varIds = Object.keys(vars);
+    if (varIds.length) {
+      const vr = document.createElement("div"); vr.className = "st-vars";
+      const l = document.createElement("span"); l.className = "lbl"; l.textContent = "ほかの型の下書き：";
+      vr.append(l);
+      for (const sid of varIds) {
+        const c = document.createElement("button"); c.type = "button"; c.dataset.sid = sid; c.setAttribute("aria-pressed", "false");
+        c.textContent = (styleById.get(sid) || {}).name || sid;
+        c.addEventListener("click", () => { const on = c.getAttribute("aria-pressed") === "true"; sel.value = on ? (a.style || sel.value) : sid; showVariant(on ? "" : sid); });
+        chips.push(c); vr.append(c);
+      }
+      box.append(vr);
+    } else if ((STYLES.noVariants || {})[set.key]) {
+      const nn = document.createElement("p"); nn.className = "st-none";
+      nn.textContent = "ほかの型の下書き：なし（" + STYLES.noVariants[set.key] + "）";
+      box.append(nn);
+    }
+    sel.addEventListener("change", () => showVariant(sel.value));
     const note = document.createElement("input"); note.type = "text"; note.placeholder = "ひとこと（任意）例：もっと引きを強く";
     const go = document.createElement("button"); go.type = "button"; go.textContent = "この型に変える指示を出す";
     go.addEventListener("click", async () => {
@@ -1238,6 +1289,7 @@
     });
     row.append(sel, note, go);
     box.append(row);
+    box.append(pv);
 
     const ul = document.createElement("ul"); ul.className = "st-reqs";
     box.append(ul);
