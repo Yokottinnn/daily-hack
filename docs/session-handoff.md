@@ -68,6 +68,11 @@
 
 <!-- 新しい記録がこの下に追加される（新しいものが上） -->
 
+### 2026-11-02 — ポイ活の候補 3 組（改悪の年表・三井住友カードのタッチ・5と0のつく日）に、各社のロゴと下書きの数字で画像を作った
+
+次のアクション:
+
+- [ ] 利用者がレビューページを見終えたら pins・drafts・set_state・style_requests を読む
 ### 2026-11-02 — もしも・VC でも 5 記事向けに申請。もしも: DigxiPop・楽天トラベル観光体験が提携中、4 件審査中（t547/t548）。VC: アクティビティジャパン・OZmall・ヒトサラは状態 A（提携済み）、Pontely は P（審査中）（t549）。検索・詳細・申請の probe（searchpages/moshimosearch/moshimodetail/moshimoapply/moshimostatus/vcsearch）を追加
 
 次のアクション:

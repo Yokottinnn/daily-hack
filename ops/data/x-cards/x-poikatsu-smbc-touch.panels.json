@@ -1,0 +1,17 @@
+{
+ "_doc": "node scripts/gen-x-panels.mjs ops/data/x-cards/x-poikatsu-smbc-touch.panels.json",
+ "_note": "X だけの投稿（ポイ活）。2026-11-01 利用者「下書き投稿に画像を作るなど、そこまではやってほしい」→ ポイ活の 3 組にも画像を作る、を選んだ。公式の写真が無い話題なので、各社のロゴと下書きの数字で組む。数字は posts.json の下書き（poikatsu-smbc-touch）から。ロゴは記事 point-kaiaku-timeline-2026 の logos/（取得元は _manifest.json）",
+ "imageBase": "public/images/x-poikatsu-smbc-touch",
+ "out": "public/images/x-poikatsu-smbc-touch/x",
+ "theme": "berry",
+ "panels": [
+  {
+   "file": "1-touch.jpg",
+   "kind": "html",
+   "noHeader": true,
+   "html": "<div class=\"wrap\"><div class=\"lgtop\"><img src=\"smbccard.png\" alt=\"\"></div><div class=\"k\">三井住友カード（NL）のコンビニ・飲食店の上乗せ</div><div class=\"t\">付くのは<br><em>スマホのタッチ</em>だけ</div>\n<div class=\"vs\"><div class=\"c ng\"><div class=\"m\">✕</div><div class=\"h\">カードを<br>端末にかざす</div><div class=\"cs\">上乗せは付かない</div></div>\n<div class=\"c ok\"><div class=\"m\">○</div><div class=\"h\">スマホの<br>タッチ決済</div><div class=\"cs\">モバイルオーダーも○</div></div></div>\n<div class=\"one\"><b>2025年12月から</b>。財布のカードじゃなくて、スマホで払いなさい</div></div>",
+   "css": "main{padding:0;height:1080px;display:block}\n.wrap{position:relative;height:1080px;padding:64px 60px 0;background:radial-gradient(circle at 10% 20%,rgba(214,62,118,.12),transparent 45%),radial-gradient(circle at 92% 80%,rgba(245,197,24,.16),transparent 48%),var(--cream)}\n.k{font-size:32px;font-weight:700;color:var(--ink-2);text-align:center}\n.t{font-size:66px;font-weight:900;line-height:1.25;text-align:center;margin-top:10px}\n.t em{font-style:normal;color:#D63E76}\n.one{position:absolute;left:60px;right:60px;bottom:64px;text-align:center;font-size:34px;font-weight:700;background:#46293A;color:#fff;border-radius:18px;padding:22px 16px}.one b{color:#F5C518;font-weight:900}\n.lgtop{text-align:center}.lgtop img{width:330px;height:auto;background:#fff;border-radius:14px;padding:16px 22px;box-shadow:0 10px 24px -18px rgba(30,18,25,.4)}\n.k{margin-top:22px;font-size:28px}\n.vs{margin-top:34px;display:grid;grid-template-columns:1fr 1fr;gap:26px}\n.c{background:#fff;border-radius:26px;padding:40px 20px;text-align:center;box-shadow:0 20px 40px -26px rgba(30,18,25,.4);border:4px solid #eadde3}\n.c.ok{border-color:#D63E76}\n.m{font-size:84px;font-weight:900;line-height:1}.ng .m{color:#9a8790}.ok .m{color:#D63E76}\n.h{font-size:42px;font-weight:900;line-height:1.25;margin-top:10px}\n.c .cs{font-size:30px;font-weight:700;color:var(--ink-2);margin-top:12px}\n.one{font-size:30px}",
+   "alt": "三井住友カードのロゴ。三井住友カード（NL）のコンビニ・飲食店の上乗せは、スマホのタッチ決済だけ。カードを端末にかざすと上乗せは付かない。スマホのタッチ決済とモバイルオーダーは付く。2025年12月から。ロゴは三井住友カードのもの"
+  }
+ ]
+}
