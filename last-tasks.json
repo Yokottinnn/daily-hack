@@ -1,4 +1,3 @@
 [
-      {"task": "t541-a8-banners-dog.sh", "rc": 0, "out": "- バナー 2 件（300x250・100x60）  ### s00000017753002 広告リンク作成｜A8.netメディア管理画面 - 画面: https://media-console.a8.net/program/create-link - バナ�"},
-      {"task": "t542-a8-banners-food.sh", "rc": 0, "out": "### s00000021453001 広告リンク作成｜A8.netメディア管理画面 - 画面: https://media-console.a8.net/program/create-link - バナー 16 件（300x250・300x250・300x250・300x250・468x60・468x60・468x60・320x50・320x50・320x50・120x60・120x60・120x60・234x60・234x60・234x60"}
+      {"task": "t543-a8-linkcheck-new14.sh", "rc": 0, "out": "  - サイト名   - セルフバック   - 掲載サイト   - Daily hack【アピールサイト】 - 画面にある a8mat: a8ma"}
   ]
