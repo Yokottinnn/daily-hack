@@ -1,0 +1,17 @@
+{
+ "_doc": "node scripts/gen-x-panels.mjs ops/data/x-cards/x-poikatsu-5-0.panels.json",
+ "_note": "X だけの投稿（ポイ活）。2026-11-01 利用者「下書き投稿に画像を作るなど、そこまではやってほしい」→ ポイ活の 3 組にも画像を作る、を選んだ。公式の写真が無い話題なので、各社のロゴと下書きの数字で組む。数字は posts.json の下書き（poikatsu-5-0）から。ロゴは x-poikatsu-rakuten-cap と同じ（記事 rakuten-point-max-multiplier-2026 の logos/rakutencard.png）",
+ "imageBase": "public/images/x-poikatsu-5-0",
+ "out": "public/images/x-poikatsu-5-0/x",
+ "theme": "berry",
+ "panels": [
+  {
+   "file": "1-entry.jpg",
+   "kind": "html",
+   "noHeader": true,
+   "html": "<div class=\"wrap\"><div class=\"lgtop\"><img src=\"rakutencard.png\" alt=\"\"></div><div class=\"k\">今日は5と0のつく日</div><div class=\"t\">買う前に<br><em>エントリー</em></div>\n<div class=\"st\"><div class=\"r\"><span class=\"n\">1</span><span class=\"tx\"><b>エントリーする</b>毎回必要。前回のは効かない</span></div>\n<div class=\"r\"><span class=\"n\">2</span><span class=\"tx\"><b>それから買う</b>上乗せは +1倍</span></div>\n<div class=\"r\"><span class=\"n\">3</span><span class=\"tx\"><b>上限は月1,000pt</b>10万円分で頭打ち</span></div></div>\n<div class=\"one\">エントリーを忘れた日は、<b>上乗せ0倍</b></div></div>",
+   "css": "main{padding:0;height:1080px;display:block}\n.wrap{position:relative;height:1080px;padding:64px 60px 0;background:radial-gradient(circle at 10% 20%,rgba(214,62,118,.12),transparent 45%),radial-gradient(circle at 92% 80%,rgba(245,197,24,.16),transparent 48%),var(--cream)}\n.k{font-size:32px;font-weight:700;color:var(--ink-2);text-align:center}\n.t{font-size:66px;font-weight:900;line-height:1.25;text-align:center;margin-top:10px}\n.t em{font-style:normal;color:#D63E76}\n.one{position:absolute;left:60px;right:60px;bottom:64px;text-align:center;font-size:34px;font-weight:700;background:#46293A;color:#fff;border-radius:18px;padding:22px 16px}.one b{color:#F5C518;font-weight:900}\n.lgtop{text-align:center}.lgtop img{width:300px;height:auto;background:#fff;border-radius:14px;padding:14px 20px;box-shadow:0 10px 24px -18px rgba(30,18,25,.4)}\n.k{margin-top:20px}\n.st{margin-top:32px;display:flex;flex-direction:column;gap:18px}\n.r{display:flex;align-items:center;gap:24px;background:#fff;border-radius:22px;padding:20px 28px;box-shadow:0 14px 30px -22px rgba(30,18,25,.4)}\n.n{flex:0 0 70px;height:70px;border-radius:50%;background:#D63E76;color:#fff;font-size:40px;font-weight:900;display:flex;align-items:center;justify-content:center}\n.tx{font-size:28px;font-weight:700;color:var(--ink-2)}.tx b{display:block;font-size:38px;font-weight:900;color:var(--ink)}",
+   "alt": "楽天カードのロゴ。今日は5と0のつく日。買う前にエントリー。1 エントリーする、毎回必要で前回のは効かない。2 それから買う、上乗せは+1倍。3 上限は月1,000pt、10万円分で頭打ち。エントリーを忘れた日は上乗せ0倍。ロゴは楽天カードのもの"
+  }
+ ]
+}

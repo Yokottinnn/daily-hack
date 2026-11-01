@@ -74,6 +74,10 @@ const FILES = {
   // **未投稿**（2026-11-01）。X だけの投稿（湾岸ニュース・ポイ活）
   "x-news-wangan-1102": ["1-3news.jpg"],
   "x-poikatsu-rakuten-cap": ["1-cap.jpg"],
+  // **未投稿**（2026-11-01）。ポイ活の候補。公式の写真が無い話題なので、各社のロゴと下書きの数字で組んだ
+  "x-poikatsu-kaiaku": ["1-kaiaku.jpg"],
+  "x-poikatsu-smbc-touch": ["1-touch.jpg"],
+  "x-poikatsu-5-0": ["1-entry.jpg"],
   // **未投稿**（2026-11-01）。湾岸ニュースの候補。素材はブログの記事で blog3 が取った公式・プレスリリースの画像（利用者「公式から画像を持ってきてうまく成形してアイキャッチ画像を作る」）
   "tim-burton-labyrinth-toyosu-2026": ["1-official.jpg", "2-point.jpg"],
   "lalaport-toyosu-black-friday-2026": ["1-official.jpg", "2-point.jpg"],
