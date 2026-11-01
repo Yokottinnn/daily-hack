@@ -1,0 +1,122 @@
+# ASP の画面調べ: searchpages（asp-probe）
+
+生成: **2026-11-01T14:46:42.032Z**
+
+## https://af.moshimo.com/af/shop/promotion/search
+- 開いた画面: https://af.moshimo.com/af/shop/promotion/search（プロモーション検索 ｜ もしもアフィリエイト）
+- form action=https://af.moshimo.com/af/shop/promotion/search method=get: input[hidden] name=form_name / select[select-one] name=shop_site_id / input[text] name=words 「プロモーション条件を詳細に設定して検索できます」 / input[checkbox] name=promotion_level1_category_code[] / input[checkbox] name=promotion_level1_category_code[] / input[checkbox] name=promotion_level1_category_code[] / input[checkbox] name=promotion_level1_category_code[] / input[checkbox] name=promotion_level1_category_code[] / input[checkbox] name=promotion_level1_category_code[] / input[checkbox] name=promotion_level1_category_code[] / input[checkbox] name=promotion_option_affiliate[] / input[checkbox] name=promotion_option_affiliate[] / input[checkbox] name=promotion_option_affiliate[] / input[checkbox] name=promotion_option_status[] / input[checkbox] name=promotion_option_status[]
+- form action=https://af.moshimo.com/af/shop/promotion/search method=post: input[hidden] name=form_name / select[select-one] name=apply_status / select[select-one] name=limit
+- form action=https://af.moshimo.com/af/shop/promotion/affiliate/lump/apply method=post: input[hidden] name=form_name / input[hidden] name=shop_site_id / input[checkbox] name=lump[] / input[checkbox] name= / input[checkbox] name= / input[checkbox] name= / input[checkbox] name=lump[] / input[checkbox] name= / input[checkbox] name= / input[checkbox] name= / input[checkbox] name=lump[] / input[checkbox] name= / input[checkbox] name= / input[checkbox] name= / input[checkbox] name=lump[]
+- form action=https://af.moshimo.com/af/shop/account/mm/opt/merchantMagazineOpt method=post: input[hidden] name=uniqid / input[hidden] name=form_name
+- form action=https://af.moshimo.com/af/shop/account/result/generate/opt method=post: input[hidden] name=uniqid / input[hidden] name=form_name
+- form action=https://af.moshimo.com/af/shop/account/result/approve/opt method=post: input[hidden] name=uniqid / input[hidden] name=form_name
+  - プロモーション検索 → javascript: void(0)
+  - 新着 → https://af.moshimo.com/af/shop/promotion/search?promotion_option_status[]=newly&shop_site_id=694444
+  - おすすめ → https://af.moshimo.com/af/shop/promotion/search?promotion_option_status[]=recommend&shop_site_id=694444
+  - SNS・YouTube注力 → https://af.moshimo.com/af/shop/promotion/search?promotion_option_status[]=sns_youtube_focus&shop_site_id=694444
+  - 本人申込OK → https://af.moshimo.com/af/shop/promotion/search?promotion_option_affiliate[]=self_action&shop_site_id=694444
+  - ショッピング → https://af.moshimo.com/af/shop/promotion/search?promotion_category_code=07&shop_site_id=694444
+  - 暮らし・住まい → https://af.moshimo.com/af/shop/promotion/search?promotion_category_code=08&shop_site_id=694444
+  - エンタメ・ホビー → https://af.moshimo.com/af/shop/promotion/search?promotion_category_code=09&shop_site_id=694444
+  - 働く・学ぶ → https://af.moshimo.com/af/shop/promotion/search?promotion_category_code=10&shop_site_id=694444
+  - ビジネス → https://af.moshimo.com/af/shop/promotion/search?promotion_category_code=11&shop_site_id=694444
+  - 健康・スポーツ → https://af.moshimo.com/af/shop/promotion/search?promotion_category_code=12&shop_site_id=694444
+  - 金融・保険 → https://af.moshimo.com/af/shop/promotion/search?promotion_category_code=13&shop_site_id=694444
+  - 申請中 → https://af.moshimo.com/af/shop/promotion/search?apply_status=1&shop_site_id=694444
+  - 提携中 → https://af.moshimo.com/af/shop/promotion/search?apply_status=2&shop_site_id=694444
+  - 否認中 → https://af.moshimo.com/af/shop/promotion/search?apply_status=3&shop_site_id=694444
+  -  → https://af.moshimo.com/af/shop/promotion/detail?promotion_id=7664&shop_site_id=694444
+  - 実践型生成AI活用キャンプ｜AI時代の実務力を3ヶ月で身につ → https://af.moshimo.com/af/shop/promotion/detail?promotion_id=7664&shop_site_id=694444
+  -  → https://af.moshimo.com/af/shop/promotion/detail?promotion_id=7813&shop_site_id=694444
+  - MEGURU（メグル）｜写真を撮るだけのAI食事記録と管理栄 → https://af.moshimo.com/af/shop/promotion/detail?promotion_id=7813&shop_site_id=694444
+  - 検索連動型広告、ディスプレイ広告／SNS広告 出稿ガイドライ → https://af.moshimo.com/af/shop/support/ppcGuideline
+  - 2 → https://af.moshimo.com/af/shop/promotion/search?shop_site_id=694444&order=open_datetime_d&page=1&limit=10
+  - 3 → https://af.moshimo.com/af/shop/promotion/search?shop_site_id=694444&order=open_datetime_d&page=2&limit=10
+  - 4 → https://af.moshimo.com/af/shop/promotion/search?shop_site_id=694444&order=open_datetime_d&page=3&limit=10
+  - 5 → https://af.moshimo.com/af/shop/promotion/search?shop_site_id=694444&order=open_datetime_d&page=4&limit=10
+  - 6 → https://af.moshimo.com/af/shop/promotion/search?shop_site_id=694444&order=open_datetime_d&page=5&limit=10
+  - 次 → https://af.moshimo.com/af/shop/promotion/search?shop_site_id=694444&order=open_datetime_d&page=1&limit=10
+  - 最後 → https://af.moshimo.com/af/shop/promotion/search?shop_site_id=694444&order=open_datetime_d&page=179&limit=10
+  -  → https://af.moshimo.com/af/shop/promotion/detail?promotion_id=6315&shop_site_id=694444
+  - 広告サンプルへ → https://af.moshimo.com/af/shop/promotion/source?promotion_id=6315&shop_site_id=694444
+  - 詳細条件へ → https://af.moshimo.com/af/shop/promotion/detail?promotion_id=6315&shop_site_id=694444
+- 案件らしいリンク（先頭 8）: 実践型生成AI活用キャンプ｜AI時代の実務力を3ヶ月で身につけるオンライン講座の申し込み ／ MEGURU（メグル）｜写真を撮るだけのAI食事記録と管理栄養士監修レシピが見れる健康管理アプリの有料プラン契約 ／ 広告サンプルへ ／ 広告リンクへ ／ 詳細条件へ ／ 広告サンプルへ ／ 広告リンクへ ／ 詳細条件へ
+
+## https://af.moshimo.com/af/shop/promotion/search?keyword=%E3%83%89%E3%83%83%E3%82%B0%E3%83%95%E3%83%BC%E3%83%89
+- 開いた画面: https://af.moshimo.com/af/shop/promotion/search（プロモーション検索 ｜ もしもアフィリエイト）
+- form action=https://af.moshimo.com/af/shop/promotion/search method=get: input[hidden] name=form_name / select[select-one] name=shop_site_id / input[text] name=words 「プロモーション条件を詳細に設定して検索できます」 / input[checkbox] name=promotion_level1_category_code[] / input[checkbox] name=promotion_level1_category_code[] / input[checkbox] name=promotion_level1_category_code[] / input[checkbox] name=promotion_level1_category_code[] / input[checkbox] name=promotion_level1_category_code[] / input[checkbox] name=promotion_level1_category_code[] / input[checkbox] name=promotion_level1_category_code[] / input[checkbox] name=promotion_option_affiliate[] / input[checkbox] name=promotion_option_affiliate[] / input[checkbox] name=promotion_option_affiliate[] / input[checkbox] name=promotion_option_status[] / input[checkbox] name=promotion_option_status[]
+- form action=https://af.moshimo.com/af/shop/promotion/search method=post: input[hidden] name=form_name / select[select-one] name=apply_status / select[select-one] name=limit
+- form action=https://af.moshimo.com/af/shop/promotion/affiliate/lump/apply method=post: input[hidden] name=form_name / input[hidden] name=shop_site_id / input[checkbox] name=lump[] / input[checkbox] name= / input[checkbox] name= / input[checkbox] name= / input[checkbox] name=lump[] / input[checkbox] name= / input[checkbox] name= / input[checkbox] name= / input[checkbox] name=lump[] / input[checkbox] name= / input[checkbox] name= / input[checkbox] name= / input[checkbox] name=lump[]
+- form action=https://af.moshimo.com/af/shop/account/mm/opt/merchantMagazineOpt method=post: input[hidden] name=uniqid / input[hidden] name=form_name
+- form action=https://af.moshimo.com/af/shop/account/result/generate/opt method=post: input[hidden] name=uniqid / input[hidden] name=form_name
+- form action=https://af.moshimo.com/af/shop/account/result/approve/opt method=post: input[hidden] name=uniqid / input[hidden] name=form_name
+  - プロモーション検索 → javascript: void(0)
+  - 新着 → https://af.moshimo.com/af/shop/promotion/search?promotion_option_status[]=newly&shop_site_id=694444
+  - おすすめ → https://af.moshimo.com/af/shop/promotion/search?promotion_option_status[]=recommend&shop_site_id=694444
+  - SNS・YouTube注力 → https://af.moshimo.com/af/shop/promotion/search?promotion_option_status[]=sns_youtube_focus&shop_site_id=694444
+  - 本人申込OK → https://af.moshimo.com/af/shop/promotion/search?promotion_option_affiliate[]=self_action&shop_site_id=694444
+  - ショッピング → https://af.moshimo.com/af/shop/promotion/search?promotion_category_code=07&shop_site_id=694444
+  - 暮らし・住まい → https://af.moshimo.com/af/shop/promotion/search?promotion_category_code=08&shop_site_id=694444
+  - エンタメ・ホビー → https://af.moshimo.com/af/shop/promotion/search?promotion_category_code=09&shop_site_id=694444
+  - 働く・学ぶ → https://af.moshimo.com/af/shop/promotion/search?promotion_category_code=10&shop_site_id=694444
+  - ビジネス → https://af.moshimo.com/af/shop/promotion/search?promotion_category_code=11&shop_site_id=694444
+  - 健康・スポーツ → https://af.moshimo.com/af/shop/promotion/search?promotion_category_code=12&shop_site_id=694444
+  - 金融・保険 → https://af.moshimo.com/af/shop/promotion/search?promotion_category_code=13&shop_site_id=694444
+  - 申請中 → https://af.moshimo.com/af/shop/promotion/search?apply_status=1&shop_site_id=694444
+  - 提携中 → https://af.moshimo.com/af/shop/promotion/search?apply_status=2&shop_site_id=694444
+  - 否認中 → https://af.moshimo.com/af/shop/promotion/search?apply_status=3&shop_site_id=694444
+  -  → https://af.moshimo.com/af/shop/promotion/detail?promotion_id=7664&shop_site_id=694444
+  - 実践型生成AI活用キャンプ｜AI時代の実務力を3ヶ月で身につ → https://af.moshimo.com/af/shop/promotion/detail?promotion_id=7664&shop_site_id=694444
+  -  → https://af.moshimo.com/af/shop/promotion/detail?promotion_id=7813&shop_site_id=694444
+  - MEGURU（メグル）｜写真を撮るだけのAI食事記録と管理栄 → https://af.moshimo.com/af/shop/promotion/detail?promotion_id=7813&shop_site_id=694444
+  - 検索連動型広告、ディスプレイ広告／SNS広告 出稿ガイドライ → https://af.moshimo.com/af/shop/support/ppcGuideline
+  - 2 → https://af.moshimo.com/af/shop/promotion/search?shop_site_id=694444&order=open_datetime_d&page=1&limit=10
+  - 3 → https://af.moshimo.com/af/shop/promotion/search?shop_site_id=694444&order=open_datetime_d&page=2&limit=10
+  - 4 → https://af.moshimo.com/af/shop/promotion/search?shop_site_id=694444&order=open_datetime_d&page=3&limit=10
+  - 5 → https://af.moshimo.com/af/shop/promotion/search?shop_site_id=694444&order=open_datetime_d&page=4&limit=10
+  - 6 → https://af.moshimo.com/af/shop/promotion/search?shop_site_id=694444&order=open_datetime_d&page=5&limit=10
+  - 次 → https://af.moshimo.com/af/shop/promotion/search?shop_site_id=694444&order=open_datetime_d&page=1&limit=10
+  - 最後 → https://af.moshimo.com/af/shop/promotion/search?shop_site_id=694444&order=open_datetime_d&page=179&limit=10
+  -  → https://af.moshimo.com/af/shop/promotion/detail?promotion_id=6315&shop_site_id=694444
+  - 広告サンプルへ → https://af.moshimo.com/af/shop/promotion/source?promotion_id=6315&shop_site_id=694444
+  - 詳細条件へ → https://af.moshimo.com/af/shop/promotion/detail?promotion_id=6315&shop_site_id=694444
+- 案件らしいリンク（先頭 8）: 実践型生成AI活用キャンプ｜AI時代の実務力を3ヶ月で身につけるオンライン講座の申し込み ／ MEGURU（メグル）｜写真を撮るだけのAI食事記録と管理栄養士監修レシピが見れる健康管理アプリの有料プラン契約 ／ 広告サンプルへ ／ 広告リンクへ ／ 詳細条件へ ／ 広告サンプルへ ／ 広告リンクへ ／ 詳細条件へ
+
+## https://aff.valuecommerce.ne.jp/home
+- 開いた画面: https://aff.valuecommerce.ne.jp/home（ダッシュボード | アフィリエイト管理画面）
+  -  → /ad/adDetail/2161122?tag=cm&spot=d
+  - 世界最大級！ツアーアクティビティの検索サイト「Liigo」販 → /ad/adDetail/2161122?tag=cm&spot=d
+  -  → /ad/adDetail/2082539?tag=cm&spot=d
+  - 【LYPプレミアム（旧Yahoo!プレミアム）】 会員獲得プ → /ad/adDetail/2082539?tag=cm&spot=d
+  -  → /ad/adDetail/2175237?tag=cm&spot=d
+  - 【ニーズツアー】国内旅行＆沖縄旅行 → /ad/adDetail/2175237?tag=cm&spot=d
+  -  → /ad/adDetail/2165155?tag=cm&spot=d
+  - マルイのネット通販マルイウェブチャネル → /ad/adDetail/2165155?tag=cm&spot=d
+  -  → /ad/adDetail/176
+  - Lenovo/レノボ公式オンラインストア → /ad/adDetail/176
+  -  → /ad/adDetail/2174874
+  - Audibleアフィリエイト紹介プログラム → /ad/adDetail/2174874
+  -  → /ad/adDetail/2082539
+  - 【LYPプレミアム（旧Yahoo!プレミアム）】 会員獲得プ → /ad/adDetail/2082539
+  -  → /ad/adDetail/2171394
+  - 机や椅子などのオフィス家具通販【オフィスコム】 → /ad/adDetail/2171394
+  -  → /ad/adDetail/2161042
+  - スーツケースレンタルなら日本最大級の【アールワイレンタル】R → /ad/adDetail/2161042
+  -  → /ad/adDetail/2175054
+  - 大手企業人事が転職をサポート／ユメキャリ転職エージェント → /ad/adDetail/2175054
+  -  → /ad/adDetail/2174615
+  - 【全国対応】無料保険相談『みんなの生命保険アドバイザー』 → /ad/adDetail/2174615
+  -  → /ad/adDetail/2098976
+  - リクナビNEXT『会員登録』キャンペーン → /ad/adDetail/2098976
+  -  → /ad/adDetail/2174354
+  - 現役人事が就活サポート【ユメキャリ就職エージェント】 → /ad/adDetail/2174354
+  -  → /ad/adDetail/2063116
+  - ザボディショップ オンラインショップ → /ad/adDetail/2063116
+  -  → /ad/adDetail/2175815
+  - 全国で展開する大手フィットネスクラブ【セントラルスポーツ】 → /ad/adDetail/2175815
+- 案件らしいリンク（先頭 8）: 世界最大級！ツアーアクティビティの検索サイト「Liigo」販促プログラム ／ 【LYPプレミアム（旧Yahoo!プレミアム）】 会員獲得プログラム ／ 【ニーズツアー】国内旅行＆沖縄旅行 ／ マルイのネット通販マルイウェブチャネル ／ Lenovo/レノボ公式オンラインストア ／ Audibleアフィリエイト紹介プログラム ／ 【LYPプレミアム（旧Yahoo!プレミアム）】 会員獲得プログラム ／ 机や椅子などのオフィス家具通販【オフィスコム】
+
+## https://aff.valuecommerce.ne.jp/ad/search
+- 開いた画面: https://aff.valuecommerce.ne.jp/ad/search（ページが表示できません）
+- 案件らしいリンク（先頭 8）: なし
+
