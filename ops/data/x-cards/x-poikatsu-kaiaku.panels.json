@@ -1,0 +1,17 @@
+{
+ "_doc": "node scripts/gen-x-panels.mjs ops/data/x-cards/x-poikatsu-kaiaku.panels.json",
+ "_note": "X だけの投稿（ポイ活）。2026-11-01 利用者「下書き投稿に画像を作るなど、そこまではやってほしい」→ ポイ活の 3 組にも画像を作る、を選んだ。公式の写真が無い話題なので、各社のロゴと下書きの数字で組む。数字は posts.json の下書き（poikatsu-kaiaku）から。ロゴは記事 point-kaiaku-timeline-2026 と overseas-esim-wifi-comparison-2026 の logos/（取得元はそれぞれの _manifest.json）",
+ "imageBase": "public/images/x-poikatsu-kaiaku",
+ "out": "public/images/x-poikatsu-kaiaku/x",
+ "theme": "berry",
+ "panels": [
+  {
+   "file": "1-kaiaku.jpg",
+   "kind": "html",
+   "noHeader": true,
+   "html": "<div class=\"wrap\"><div class=\"k\">2026年のポイント改悪</div><div class=\"t\">公共料金の還元、<br><em>半分</em>になった</div><div class=\"tl\">\n<div class=\"r\"><span class=\"d\">2/1</span><span class=\"lg\"><img src=\"dcard.png\" alt=\"\"></span><span class=\"tx\"><b>dカード</b>公共料金 <s>1%</s> → <em>0.5%</em></span></div>\n<div class=\"r\"><span class=\"d\">4/30</span><span class=\"lg\"><img class=\"sm\" src=\"docomo.png\" alt=\"\"></span><span class=\"tx\"><b>ドコモ ポイ活MAX終了</b>d払い 実質 <s>10%</s> → <em>5%</em></span></div>\n<div class=\"r\"><span class=\"d\">6/2</span><span class=\"lg\"><img src=\"paypay.png\" alt=\"\"></span><span class=\"tx\"><b>PayPay</b>公共料金 <s>1%</s> → <em>0.5%</em><small>チャージ二重取りも廃止</small></span></div>\n</div><div class=\"one\">引き落としのカード、<b>設定したままにしない</b></div></div>",
+   "css": "main{padding:0;height:1080px;display:block}\n.wrap{position:relative;height:1080px;padding:64px 60px 0;background:radial-gradient(circle at 10% 20%,rgba(214,62,118,.12),transparent 45%),radial-gradient(circle at 92% 80%,rgba(245,197,24,.16),transparent 48%),var(--cream)}\n.k{font-size:32px;font-weight:700;color:var(--ink-2);text-align:center}\n.t{font-size:66px;font-weight:900;line-height:1.25;text-align:center;margin-top:10px}\n.t em{font-style:normal;color:#D63E76}\n.one{position:absolute;left:60px;right:60px;bottom:64px;text-align:center;font-size:34px;font-weight:700;background:#46293A;color:#fff;border-radius:18px;padding:22px 16px}.one b{color:#F5C518;font-weight:900}\n.tl{margin-top:40px;background:#fff;border-radius:26px;padding:10px 30px;box-shadow:0 20px 40px -26px rgba(30,18,25,.4)}\n.r{display:grid;grid-template-columns:110px 170px 1fr;align-items:center;gap:18px;padding:22px 0;border-bottom:2px dashed #eadde3}.r:last-child{border-bottom:0}\n.d{font-size:38px;font-weight:900;color:#D63E76}\n.lg{height:90px;display:flex;align-items:center;justify-content:center;background:#fff;border:2px solid #eadde3;border-radius:14px;padding:8px}\n.lg img{max-width:100%;max-height:72px;object-fit:contain}.lg img.sm{width:140px;max-height:none}\n.tx{font-size:34px;font-weight:700}.tx b{display:block;font-size:26px;color:var(--ink-2);margin-bottom:2px}\n.tx s{color:#9a8790}.tx em{font-style:normal;color:#D63E76;font-weight:900;font-size:42px}\n.tx small{display:block;font-size:24px;color:var(--ink-2);margin-top:2px}",
+   "alt": "2026年のポイント改悪の年表。2月1日 dカード 公共料金の還元が1%から0.5%。4月30日 ドコモのポイ活MAX終了、d払いが実質10%から5%。6月2日 PayPay 公共料金が1%から0.5%、チャージ二重取りも廃止。引き落としのカード、設定したままにしない。ロゴは各社のもの"
+  }
+ ]
+}

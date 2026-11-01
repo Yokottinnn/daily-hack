@@ -35,6 +35,12 @@ jobs:
             exit 1
           fi
           echo "Build succeeded: $(find dist -type f | wc -l) files"
+      # もしもアフィリエイトは使わない（2026-11-02 利用者の指示・決定ログ）。出来上がったサイトにもしものリンク・バナーがあれば落とす
+      - name: No moshimo links
+        run: |
+          if grep -rIlE 'moshimo\.com|msmaflink|msmstatic' dist; then
+            echo "もしもアフィリエイトのリンク・バナーが入っている（2026-11-02 の利用者の指示で使わない）"; exit 1
+          fi
       - name: Astro type check
         run: npx astro check --minimumSeverity error
 
