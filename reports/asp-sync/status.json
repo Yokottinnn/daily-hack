@@ -1,16 +1,6 @@
 {
-  "generated": "2026-11-01T15:04:23.668Z",
+  "generated": "2026-11-01T15:10:11.144Z",
   "providers": {
-    "moshimo": {
-      "name": "もしもアフィリエイト",
-      "loggedIn": true,
-      "needsHuman": false,
-      "credentialsInKeychain": true,
-      "reason": "",
-      "url": "https://af.moshimo.com/af/shop/index",
-      "title": "メディアオーナートップページ ｜ もしもアフィリエイト",
-      "menus": 9
-    },
     "vc": {
       "name": "バリューコマース",
       "loggedIn": true,

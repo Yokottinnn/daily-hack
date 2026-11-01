@@ -1,3 +1,3 @@
 [
-      {"task": "t548-moshimo-status-vc-apply.sh", "rc": 0, "out": "- 新しいタブ: 開かなかった - 押した後の画面: https://aff.valuecommerce.ne.jp/ad/adDetail/2021810 - 画面内のダイアログ: 8 個「いいえ はい」 - その中のボタン: いいえ / はい - 「はい」の数: 1・問いの文: × 広告素材確認時の注意事項 �"}
+      {"task": "t549-vc-apply-one-by-one.sh", "rc": 0, "out": "- **申請後: 状態コード「A」** ## Pontely Foods（rc=0） - 申請前: 状態コード「P」 - 「広告素材を選ぶ」が見えない ```"}
   ]
