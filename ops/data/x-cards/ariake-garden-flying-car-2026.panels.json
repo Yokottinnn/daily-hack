@@ -1,0 +1,17 @@
+{
+ "_doc": "X 告知の画像（公式の画像を正方形に整えたもの＋要点）。node scripts/gen-x-panels.mjs ops/data/x-cards/ariake-garden-flying-car-2026.panels.json",
+ "_note": "2026-11-01 利用者「公式から画像を持ってきてうまく成形してアイキャッチ画像を作るなど、そこまではやってほしい」。素材はブログの湾岸ニュース記事で blog3 が取った公式・プレスリリースの画像（photos/_manifest.json）。1 枚目は公式の画像を加工せず、正方形に収めて余白をぼかしで埋める。画像の中に出所は出さず ALT に書く（2026-10-11 の指示）。数字は posts.json の下書きから",
+ "imageBase": "public/images/ariake-garden-flying-car-2026",
+ "out": "public/images/ariake-garden-flying-car-2026/x",
+ "theme": "ink",
+ "panels": [
+  {
+   "file": "2-point.jpg",
+   "kind": "html",
+   "noHeader": true,
+   "html": "<div class=\"wrap\"><img class=\"ph\" src=\"photos/official.png\" alt=\"\"><div class=\"shade\"></div><div class=\"tx\"><div class=\"k\">有明ガーデン 2階・入場無料</div><div class=\"t\">11/18〜23<br><em>空飛ぶクルマ</em>が来る</div><ul class=\"pts\"><li><b>初日</b>11/18（水）は12時から</li><li><b>最終日</b>11/23（月・祝）は16時まで</li><li><b>中身</b>機体の模型・ヘリとの音の違い・飛行の映像</li></ul></div></div>",
+   "css": "main{padding:0;height:1080px;display:block}\n.wrap{position:relative;height:1080px;color:#fff;background:#1E1219;overflow:hidden}\n.ph{position:absolute;left:0;top:0;width:100%;height:560px;object-fit:cover;object-position:center}\n.shade{position:absolute;left:0;right:0;top:300px;height:262px;background:linear-gradient(180deg,rgba(30,18,25,0),#1E1219 92%)}\n.tx{position:absolute;left:56px;right:56px;top:450px;bottom:56px;display:flex;flex-direction:column}\n.k{align-self:flex-start;display:inline-block;font-size:30px;font-weight:900;color:#2A1923;background:#F5C518;border-radius:999px;padding:6px 22px}\n.t{font-size:74px;font-weight:900;line-height:1.2;margin-top:14px;text-shadow:0 2px 12px rgba(0,0,0,.4)}\n.t em{font-style:normal;color:#EC5C90}\n.pts{list-style:none;margin-top:26px;flex:1;display:flex;flex-direction:column;justify-content:center;gap:20px}\n.pts li{font-size:36px;font-weight:700;line-height:1.35;background:rgba(255,255,255,.08);border-left:10px solid #EC5C90;border-radius:14px;padding:16px 24px}\n.pts b{color:#F5C518;margin-right:12px}",
+   "alt": "有明ガーデンの告知画像（TOKYO 空飛ぶクルマで広がる未来）。文字：有明ガーデン2階・入場無料。11/18〜23、空飛ぶクルマが来る。初日11/18は12時から、最終日11/23は16時まで。機体の模型、ヘリコプターとの音の違いの体験、飛行の映像。画像：有明ガーデンの告知画像"
+  }
+ ]
+}

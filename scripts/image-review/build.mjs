@@ -74,6 +74,14 @@ const FILES = {
   // **未投稿**（2026-11-01）。X だけの投稿（湾岸ニュース・ポイ活）
   "x-news-wangan-1102": ["1-3news.jpg"],
   "x-poikatsu-rakuten-cap": ["1-cap.jpg"],
+  // **未投稿**（2026-11-01）。湾岸ニュースの候補。素材はブログの記事で blog3 が取った公式・プレスリリースの画像（利用者「公式から画像を持ってきてうまく成形してアイキャッチ画像を作る」）
+  "tim-burton-labyrinth-toyosu-2026": ["1-official.jpg", "2-point.jpg"],
+  "lalaport-toyosu-black-friday-2026": ["1-official.jpg", "2-point.jpg"],
+  "tokyo-christmas-market-shintoyosu-2026": ["1-official.jpg", "2-point.jpg"],
+  "ariake-garden-flying-car-2026": ["2-point.jpg"],
+  "kidzania-tokyo-adult-christmas-2026": ["2-point.jpg"],
+  "doraemon-mirai-department-renewal-2026": ["1-official.jpg", "2-point.jpg"],
+  "tsukudajima-1644-2026": ["1-official.jpg", "2-point.jpg"],
 };
 
 const map = {};

@@ -1,0 +1,17 @@
+{
+ "_doc": "X 告知の画像（公式の画像を正方形に整えたもの＋要点）。node scripts/gen-x-panels.mjs ops/data/x-cards/kidzania-tokyo-adult-christmas-2026.panels.json",
+ "_note": "2026-11-01 利用者「公式から画像を持ってきてうまく成形してアイキャッチ画像を作るなど、そこまではやってほしい」。素材はブログの湾岸ニュース記事で blog3 が取った公式・プレスリリースの画像（photos/_manifest.json）。1 枚目は公式の画像を加工せず、正方形に収めて余白をぼかしで埋める。画像の中に出所は出さず ALT に書く（2026-10-11 の指示）。数字は posts.json の下書きから",
+ "imageBase": "public/images/kidzania-tokyo-adult-christmas-2026",
+ "out": "public/images/kidzania-tokyo-adult-christmas-2026/x",
+ "theme": "ink",
+ "panels": [
+  {
+   "file": "2-point.jpg",
+   "kind": "html",
+   "noHeader": true,
+   "html": "<div class=\"wrap\"><img class=\"ph\" src=\"photos/kv.png\" alt=\"\"><div class=\"shade\"></div><div class=\"tx\"><div class=\"k\">予約 11/9（月）12:00〜 Web先着</div><div class=\"t\"><em>16歳以上</em>だけの夜</div><ul class=\"pts\"><li><b>日</b>12/15（火）・25（金）16〜21時</li><li><b>料金</b>通常7,500円・優先入場9,500円</li><li><b>人数</b>1件4名まで</li><li><b>25日</b>クリスマスパレードに出られる</li></ul></div></div>",
+   "css": "main{padding:0;height:1080px;display:block}\n.wrap{position:relative;height:1080px;color:#fff;background:#1E1219;overflow:hidden}\n.ph{position:absolute;left:0;top:0;width:100%;height:560px;object-fit:cover;object-position:center}\n.shade{position:absolute;left:0;right:0;top:300px;height:262px;background:linear-gradient(180deg,rgba(30,18,25,0),#1E1219 92%)}\n.tx{position:absolute;left:56px;right:56px;top:450px;bottom:56px;display:flex;flex-direction:column}\n.k{align-self:flex-start;display:inline-block;font-size:30px;font-weight:900;color:#2A1923;background:#F5C518;border-radius:999px;padding:6px 22px}\n.t{font-size:74px;font-weight:900;line-height:1.2;margin-top:14px;text-shadow:0 2px 12px rgba(0,0,0,.4)}\n.t em{font-style:normal;color:#EC5C90}\n.pts{list-style:none;margin-top:26px;flex:1;display:flex;flex-direction:column;justify-content:center;gap:20px}\n.pts li{font-size:36px;font-weight:700;line-height:1.35;background:rgba(255,255,255,.08);border-left:10px solid #EC5C90;border-radius:14px;padding:16px 24px}\n.pts b{color:#F5C518;margin-right:12px}",
+   "alt": "大人のキッザニア クリスマスのキービジュアル。文字：予約は11月9日（月）12:00からWebの先着順。16歳以上だけの夜。12月15日（火）・25日（金）16〜21時。通常7,500円・優先入場9,500円。1件4名まで。25日はクリスマスパレードに出られる。画像：KCJ GROUP 株式会社のプレスリリース（PR TIMES）"
+  }
+ ]
+}
