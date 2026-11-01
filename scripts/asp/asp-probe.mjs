@@ -351,6 +351,64 @@ try {
     }
   }
 
+  if (WHICH === 'moshimodetail') {
+    // **もしもの案件の詳細画面を読む（名前・成果条件・否認条件・ボタン。押さない）（2026-11-01）**
+    for (const id of (process.env.MOSHIMO_IDS || '').split(',').filter(Boolean)) {
+      await go(`https://af.moshimo.com/af/shop/promotion/detail?promotion_id=${id}&shop_site_id=694444`);
+      const t = await p.evaluate(() => (document.querySelector('main, #main, .main, #contents') || document.body).innerText.split('\n').map((x) => x.trim()).filter(Boolean));
+      const i = Math.max(0, t.findIndex((x) => /プロモーション詳細|成果条件|成果地点/.test(x)) - 6);
+      lines.push(`### ${id}`, `- 画面: ${here()} 「${await p.title()}」`, ...t.slice(i, i + 70).filter((x) => !NG.test(x)).map((x) => `  - ${x.slice(0, 200)}`), '');
+    }
+  }
+  if (WHICH === 'vcsearch') {
+    // **VC の /ad/adList?keyword= で検索し、結果の案件を並べる（押さない）**
+    for (const kw of (process.env.SEARCH_KWS || '').split(',').map((x) => x.trim()).filter(Boolean)) {
+      await go(`https://aff.valuecommerce.ne.jp/ad/adList?keyword=${encodeURIComponent(kw)}`);
+      const rows = await p.evaluate(() => { const seen = new Set(); const out = [];
+        for (const a of document.querySelectorAll('a[href*="adDetail/"]')) { const id = (a.href.match(/adDetail\/(\d+)/) || [])[1]; if (!id || seen.has(id)) continue;
+          let box = a; for (let k = 0; k < 8 && box.parentElement; k++) { box = box.parentElement; if ((box.innerText || '').length > 150) break; }
+          seen.add(id); out.push([id, (box.innerText || '').replace(/\s+/g, ' ').trim().slice(0, 240)]); }
+        return out; });
+      lines.push(`## VC「${kw}」 ${rows.length} 件（${here()}）`, ...rows.filter(([, t]) => !NG.test(t)).slice(0, 10).map(([id, t]) => `- \`${id}\` ${t}`), '');
+    }
+  }
+  if (WHICH === 'moshimosearch') {
+    // **もしもの検索フォーム（words）でキーワード検索し、結果の案件を並べる。詳細画面のボタンを読むだけ（押さない）（2026-11-01）**
+    const KWS = (process.env.SEARCH_KWS || '').split(',').map((x) => x.trim()).filter(Boolean);
+    const rowsOf = () => p.evaluate(() => {
+      const seen = new Set(); const out = [];
+      for (const a of document.querySelectorAll('a[href*="promotion/detail?promotion_id="]')) {
+        const id = (a.href.match(/promotion_id=(\d+)/) || [])[1]; if (!id || seen.has(id)) continue;
+        let box = a; for (let i = 0; i < 6 && box.parentElement; i++) { box = box.parentElement; if ((box.innerText || '').length > 120) break; }
+        seen.add(id); out.push([id, (box.innerText || '').replace(/\s+/g, ' ').trim().slice(0, 260)]);
+      }
+      return out;
+    });
+    let firstId = '';
+    for (const kw of KWS) {
+      await go('https://af.moshimo.com/af/shop/promotion/search');
+      const box = p.locator('input[name=words]:visible').first();
+      if (!(await box.count())) { lines.push(`## 「${kw}」 検索欄が見えない`); continue; }
+      await box.fill(kw); await box.press('Enter'); await p.waitForLoadState('domcontentloaded').catch(() => {}); await p.waitForTimeout(3000);
+      const rows = await rowsOf();
+      lines.push(`## 「${kw}」 ${rows.length} 件（${p.url().slice(0, 160)}）`, ...rows.filter(([, t]) => !NG.test(t)).slice(0, 12).map(([id, t]) => `- \`${id}\` ${t}`), '');
+      if (!firstId && rows.length) firstId = rows[0][0];
+    }
+    if (firstId) {
+      await go(`https://af.moshimo.com/af/shop/promotion/detail?promotion_id=${firstId}`);
+      const btns = await p.evaluate(() => [...document.querySelectorAll('a,button,input[type=submit]')].filter((e) => e.offsetWidth || e.offsetHeight).map((e) => `${(e.innerText || e.value || '').replace(/\s+/g, ' ').trim().slice(0, 30)} → ${e.getAttribute('href') || e.getAttribute('onclick') || e.type || ''}`.slice(0, 120)).filter((x) => /提携|申請|申込|リンク/.test(x)).slice(0, 15));
+      lines.push(`## 詳細画面のボタン（promotion_id=${firstId}・押さない）`, ...btns.map((x) => `- ${x}`), '');
+    }
+  }
+  if (WHICH === 'vcrecon') {
+    // **バリューコマースで案件を探す画面の入口を読む（隠れたメニューも含めて /ad/ へのリンクと入力欄・押さない）**
+    await go('https://aff.valuecommerce.ne.jp/home');
+    const d = await p.evaluate(() => ({
+      links: [...new Set([...document.querySelectorAll('a')].map((a) => `${(a.innerText || a.textContent || '').replace(/\s+/g, ' ').trim().slice(0, 30)} → ${a.getAttribute('href') || ''}`))].filter((x) => /\/ad\/|search|検索|探す|さがす|プログラム/i.test(x) && !/adDetail/.test(x)).slice(0, 40),
+      inputs: [...document.querySelectorAll('input,select')].filter((e) => e.type !== 'hidden').map((e) => `${e.tagName.toLowerCase()}[${e.type}] name=${e.name} id=${e.id} 「${e.placeholder || ''}」 form=${e.form ? e.form.getAttribute('action') : ''}`).slice(0, 20),
+    }));
+    lines.push('## VC ホームの /ad/ への入口（隠れたメニューを含む）', ...d.links.filter((x) => !NG.test(x)).map((x) => `- ${x}`), '', '## 入力欄', ...d.inputs.map((x) => `- ${x}`), '');
+  }
   if (WHICH === 'searchpages') {
     // **もしも・バリューコマースの「案件を探す」画面の作りを読むだけ（押さない・送らない）（2026-11-01）。** 検索の仕組みを推測で書かないため
     const dump = async () => p.evaluate(() => {
