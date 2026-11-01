@@ -73,5 +73,26 @@ for (const ep of ['https://api.indexnow.org/IndexNow', 'https://www.bing.com/Ind
     console.error(`${ep}: ${e.message}`);
   }
 }
+// Bing Webmaster の URL 送信 API（2026-11-01 利用者が「Bing の API キーで送る」を選んだ）。
+// IndexNow の Bing 窓口が 403 を返し続けるため、Bing Webmaster Tools の API キーで直接送る。
+// キーはリポジトリの Secrets「BING_WEBMASTER_API_KEY」。無ければこの段は飛ばす（出力に書く）
+const bingKey = process.env.BING_WEBMASTER_API_KEY || '';
+if (!bingKey) {
+  console.log('Bing Webmaster API: キー（BING_WEBMASTER_API_KEY）が未登録なので送らない');
+} else {
+  try {
+    const res = await fetch(`https://ssl.bing.com/webmaster/api.svc/json/SubmitUrlBatch?apikey=${encodeURIComponent(bingKey)}`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json; charset=utf-8' },
+      body: JSON.stringify({ siteUrl: `https://${SITE}/`, urlList: urls }),
+    });
+    const body = (await res.text()).slice(0, 300);
+    console.log(`Bing Webmaster API SubmitUrlBatch: ${res.status} ${body}`);
+    if (res.status === 200) ok++;
+  } catch (e) {
+    console.error(`Bing Webmaster API: ${e.message}`);
+  }
+}
+
 // 1 つも受け付けなければ失敗にする（黙って成功に見せない）
 process.exit(ok > 0 ? 0 : 1);
