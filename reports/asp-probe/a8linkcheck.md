@@ -1,6 +1,6 @@
 # ASP の画面調べ: a8linkcheck（asp-probe）
 
-生成: **2026-11-01T13:13:42.540Z**
+生成: **2026-11-01T13:13:57.171Z**
 
 ### s00000000488017
 - 画面: https://media-console.a8.net/program/create-link（広告リンク作成｜A8.netメディア管理画面）
