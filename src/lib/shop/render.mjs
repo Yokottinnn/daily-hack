@@ -42,14 +42,13 @@ export function yahooLink(y) {
   if (!y || !(y.url || y.keyword)) return null;
   return y.url || `https://shopping.yahoo.co.jp/search?p=${enc(y.keyword)}`;
 }
-// Amazon: アソシエイトに直接（2026-10-30・もしもは 10/28 に否認）。tag が null のあいだは出さない
+// Amazon: アソシエイトに直接（2026-10-30）。tag が null のあいだは出さない。もしもは使わない（2026-11-02 利用者の指示）
 export function amazonLink(a, cfg) {
   const m = cfg.amazon || {};
   if (!a || !(a.asin || a.keyword)) return null;
   const target = a.asin ? `https://www.amazon.co.jp/dp/${a.asin}` : `https://www.amazon.co.jp/s?k=${enc(a.keyword)}`;
   if (m.via === 'associates') return m.tag ? `${target}${target.includes('?') ? '&' : '?'}tag=${enc(m.tag)}` : null;
-  if (!m.moshimoAId || !m.moshimoPId || !m.moshimoPcId || !m.moshimoPlId) return null;
-  return `https://af.moshimo.com/af/c/click?a_id=${m.moshimoAId}&p_id=${m.moshimoPId}&pc_id=${m.moshimoPcId}&pl_id=${m.moshimoPlId}&url=${enc(target)}`;
+  return null;
 }
 
 // ---- 価格 ----

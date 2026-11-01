@@ -1214,6 +1214,6 @@ mcp__github__pull_request_read(method="get_comments", pullNumber=<PR>)
 
 **サービスを紹介したら、提携・紹介リンクがあるか必ず当たる。** 手元に在るのは
 `src/data/banner-catalog.ts`（A8 の 66 件）と `src/data/referrals.ts`（紹介コード）。
-**A8・もしも・バリューコマース・楽天アフィリエイトの提携状況は `reports/asp-sync/`**（毎週 Mac が書き出す）。
+**A8・バリューコマース・楽天アフィリエイトの提携状況は `reports/asp-sync/`**（毎週 Mac が書き出す）。**もしもアフィリエイトは使わない**（2026-11-02 利用者の指示。記事にリンク・バナーを載せない。CI の「No moshimo links」が止める）。
 仕組みと止まったときの扱いは [`docs/asp-sync.md`](../../../docs/asp-sync.md)。
 **提携リンクを入れた記事は `isPR: true` にする**（ステマ規制）。

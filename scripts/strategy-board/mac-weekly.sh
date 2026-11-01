@@ -61,7 +61,7 @@ fi
 # 2b) A8 以外の提携中（バリューコマース・もしも）。ログインを保ってから読む
 OT_RC=99; OT_OK=false
 if [ -n "$NODE_BIN" ] && [ -s "$WORK/asp-probe.mjs" ]; then
-  ASP_ONLY=vc,moshimo OPS_REPORT_DIR="$WORK/sync" ASP_SYNC_BUDGET_MS=100000 run_limited 120 "$NODE_BIN" "$WORK/asp-sync.mjs" > "$WORK/sync2.log" 2>&1
+  ASP_ONLY=vc OPS_REPORT_DIR="$WORK/sync" ASP_SYNC_BUDGET_MS=100000 run_limited 120 "$NODE_BIN" "$WORK/asp-sync.mjs" > "$WORK/sync2.log" 2>&1
   ASP_PROBE=others OPS_REPORT_DIR="$BOARD" run_limited 180 "$NODE_BIN" "$WORK/asp-probe.mjs" > "$WORK/others.log" 2>&1; OT_RC=$?
   if [ -s "$BOARD/asp-probe/others.json" ] && "$NODE_BIN" -e 'JSON.parse(require("fs").readFileSync(process.argv[1],"utf8"))' "$BOARD/asp-probe/others.json" 2>/dev/null; then OT_OK=true; fi
 fi
