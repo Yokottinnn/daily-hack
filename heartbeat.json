@@ -1,15 +1,16 @@
 {
-  "generated_at": "2026-11-01T12:12:13Z",
+  "generated_at": "2026-11-01T12:42:24Z",
   "login_lock": {"present": false, "age_hours": 0},
   "cdp": {"healthy": true, "port": 18810},
-  "x_jobs": {"loaded": 8, "expected": 8, "ai_total": 15, "halted": false, "missing": []},
+  "x_jobs": {"loaded": 8, "expected": 8, "ai_total": 16, "halted": false, "missing": []},
   "last_reply": {"at": "2026-11-01T07:03:37.930Z", "age_hours": 5, "stale": false},
   "supervisor": {"at":"2026-11-01T08:00:10Z","date_jst":"2026-11-01","ran":9,"total":9,"not_run":[],"fixed":[]},
   "followback_bands": {"with_count":578,"total_rows":950,"bands":{"1000-4999":{"n":200,"back":35,"mature":194,"mature_back":35,"rate":18},"300-999":{"n":148,"back":25,"mature":141,"mature_back":25,"rate":17.7},"0-99":{"n":101,"back":21,"mature":98,"mature_back":21,"rate":21.4},"5000-49999":{"n":93,"back":6,"mature":90,"mature_back":6,"rate":6.7},"100-299":{"n":33,"back":8,"mature":31,"mature_back":8,"rate":25.8},"50000-up":{"n":3,"back":1,"mature":2,"mature_back":1,"rate":50}},"status_values":{"unfollowed":636,"revenge_ghost_already_unfollowed":48,"yes_late":21,"yes":126,"no":107,"pending":12},"note":"mature の率で見る"},
   "host": "NaokinoMBP-2",
-  "job_count": 26,
+  "job_count": 27,
   "jobs": [
     "ai.openclaw.badge-followback",
+    "ai.openclaw.boost-watch",
     "ai.openclaw.caffeinate",
     "ai.openclaw.comment-warmup",
     "ai.openclaw.competitor-follower-follow",
@@ -37,7 +38,9 @@
     "com.dailyhack.x-impressions"
   ],
   "reconnect": "既に起動している",
-  "tasks": [],
+  "tasks": [
+      {"task": "x398-install-boost-watch.sh", "rc": 0, "out": "boost-watch.js を入れた（構文 OK） bootstrap rc=0  **載っている** autoload 一覧: 無い（リポジトリ側で足す） --- 試しに 1 回走らせる（見�"}
+  ],
   "running": null,
   "auth": {
     "ok": true,
@@ -54,7 +57,7 @@
     ]
   },
   "autoload": {
-    "target": 15,
+    "target": 16,
     "tried": 0,
     "loaded": 0,
     "labels": []
