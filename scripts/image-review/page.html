@@ -614,6 +614,36 @@
       key: "social-point-ask", title: "あんたが一番使ってるポイントは？（問いかけ）", slug: "x-social-point-ask",
       attach: "画像なし",
       images: []
+    },
+    {
+      // **未投稿**（2026-11-01・目的: news）。記事の紹介ではない投稿
+      key: "news-wangan-xmas", title: "湾岸のクリスマス、もう始まってる（新豊洲・有明・お台場）", slug: "tokyo-christmas-market-shintoyosu-2026",
+      attach: "画像なし",
+      images: []
+    },
+    {
+      // **未投稿**（2026-11-01・目的: news）。記事の紹介ではない投稿
+      key: "news-flying-car", title: "空飛ぶクルマの展示（有明ガーデン・11/18〜23・無料）", slug: "ariake-garden-flying-car-2026",
+      attach: "画像なし",
+      images: []
+    },
+    {
+      // **未投稿**（2026-11-01・目的: news）。記事の紹介ではない投稿
+      key: "news-tim-burton", title: "ティム・バートンのラビリンス 豊洲（11/25〜・平日が安い）", slug: "tim-burton-labyrinth-toyosu-2026",
+      attach: "画像なし",
+      images: []
+    },
+    {
+      // **未投稿**（2026-11-01・目的: poikatsu）。記事の紹介ではない投稿
+      key: "poikatsu-smbc-touch", title: "三井住友カードのコンビニの上乗せは、スマホのタッチだけ", slug: "point-kaiaku-timeline-2026",
+      attach: "画像なし",
+      images: []
+    },
+    {
+      // **未投稿**（2026-11-01・目的: poikatsu）。記事の紹介ではない投稿
+      key: "poikatsu-5-0", title: "今日は5と0のつく日（楽天・エントリーは毎回）", slug: "rakuten-point-max-multiplier-2026",
+      attach: "画像なし",
+      images: []
     }
   ];
 
@@ -829,7 +859,9 @@
 
       const ph = document.createElement("div"); ph.className = "post-head";
       const seq = document.createElement("span"); seq.className = "seq";
-      seq.textContent = "[" + (i + 1) + "/" + posts.length + "]";
+      // 2026-11-01: main_parts より後ろは「伸び始めたときに出す引用・リプ」（CLAUDE.md 最上位ルール 4）。元の投稿の「投稿して」で一緒に承認される
+      const mainN = (STATUS[set.key] && STATUS[set.key].main_parts) || posts.length;
+      seq.textContent = i < mainN ? "[" + (i + 1) + "/" + mainN + "]" : (i === mainN ? "伸びたときの引用" : "伸びたときのリプ（自分の別の投稿に、この投稿のリンクと一緒に貼る）");
       const w = document.createElement("span"); w.className = "w";
       const edited = document.createElement("span"); edited.className = "edited"; edited.hidden = true;
       edited.textContent = "書き換え済み";
