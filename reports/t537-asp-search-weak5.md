@@ -19,3 +19,7 @@ vc: 済
 - 詳細: `reports/asp-search/`（a8.md・moshimo.md・vc.md）
 rc=0 /      544 bytes
 moshimo: 済
+vc: 済
+```
+- 詳細: `reports/asp-search/`（a8.md・moshimo.md・vc.md）
+rc=0 /      655 bytes
