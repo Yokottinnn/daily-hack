@@ -351,6 +351,36 @@ try {
     }
   }
 
+  if (WHICH === 'moshimoapply') {
+    // **もしもの提携申請（2026-11-01・利用者「もしも・バリューコマースでも探す」＋10/31「申請の都度の確認は要らない」）。**
+    // applyvc と同じ作り: 押したあとの確認画面を読み、費用の記載・メディアが daily-hack でない・送信ボタンが 1 個でない、のどれかなら送らない
+    const vis = (e) => { const r = e.getBoundingClientRect(); const cs = getComputedStyle(e); return r.width > 0 && r.height > 0 && cs.visibility !== 'hidden' && cs.display !== 'none'; };
+    const state = () => p.evaluate(() => [...document.querySelectorAll('*')].filter((e) => e.children.length === 0).map((e) => (e.innerText || '').trim()).filter((x) => /^(未申請|申請中|提携中|否認中)$/.test(x)).slice(0, 2).join(' ／ ') || '表示なし');
+    for (const id of (process.env.MOSHIMO_IDS || '').split(',').filter(Boolean)) {
+      await go(`https://af.moshimo.com/af/shop/promotion/detail?promotion_id=${id}&shop_site_id=694444`);
+      const media = await p.evaluate(() => { const t = document.body.innerText; const m = t.match(/選択中のメディア[:：]?\s*\n?\s*(?:メディアを選択\s*\n)?\s*([^\n]+)/); return m ? m[1].trim() : ''; });
+      lines.push(`### ${id} 「${(await p.title()).replace(/ ｜ もしもアフィリエイト$/, '').slice(0, 80)}」`, `- 申請前: ${await state()} ／ 選択中のメディア: ${media || '読めない'}`);
+      if (!/daily-hack/i.test(media)) { lines.push('- ⛔ メディアが daily-hack と読めない → 送らない', ''); continue; }
+      const btn = p.locator('a:visible, button:visible, input[type=submit]:visible').filter({ hasText: /^\s*提携申請する\s*$/ }).first();
+      if (!(await btn.count())) { lines.push('- 「提携申請する」が見えない → 送らない', ''); continue; }
+      await btn.click({ timeout: 5000 }).catch((e) => lines.push(`- ⚠️ 押せない: ${String(e).split('\n')[0]}`));
+      await p.waitForTimeout(3000);
+      const d = await p.evaluate((visSrc) => { const vis = eval(visSrc);
+        const ds = [...document.querySelectorAll('[role=dialog], .modal, [class*=modal], [class*=dialog], [class*=popup]')].filter(vis);
+        const root = ds.length ? ds[ds.length - 1] : null; if (!root) return null;
+        return { text: root.innerText.replace(/\s+/g, ' ').trim().slice(0, 600), btns: [...root.querySelectorAll('a,button,input[type=submit],input[type=button]')].filter(vis).map((b) => (b.innerText || b.value || '').trim()).filter(Boolean).slice(0, 8) }; }, vis.toString());
+      if (!d) { lines.push(`- 確認画面なし（URL ${here()}）→ 押した後の状態: ${await state()}`, ''); continue; }
+      lines.push(`- 確認画面: ${NG.test(d.text) ? '（伏せる）' : d.text}`, `- ボタン: ${d.btns.join(' / ')}`);
+      if (/有料|料金|手数料|費用|課金|支払/.test(d.text)) { lines.push('- ⛔ 費用の記載 → 送らない', ''); await p.keyboard.press('Escape').catch(() => {}); continue; }
+      const sb = p.locator('[role=dialog] :is(a,button,input[type=submit]):visible, .modal :is(a,button,input[type=submit]):visible, [class*=modal] :is(a,button,input[type=submit]):visible, [class*=dialog] :is(a,button,input[type=submit]):visible').filter({ hasText: /^\s*(提携申請(する)?|申請する|OK|はい|同意して申請)\s*$/ });
+      const cnt = await sb.count();
+      if (cnt !== 1) { lines.push(`- ⛔ 送信ボタンが ${cnt} 個 → 送らない`, ''); await p.keyboard.press('Escape').catch(() => {}); continue; }
+      await sb.first().click({ timeout: 5000 }).catch((e) => lines.push(`- ⚠️ 押せない: ${String(e).split('\n')[0]}`));
+      await p.waitForTimeout(3500);
+      await go(`https://af.moshimo.com/af/shop/promotion/detail?promotion_id=${id}&shop_site_id=694444`);
+      lines.push(`- **申請後: ${await state()}**`, '');
+    }
+  }
   if (WHICH === 'moshimodetail') {
     // **もしもの案件の詳細画面を読む（名前・成果条件・否認条件・ボタン。押さない）（2026-11-01）**
     for (const id of (process.env.MOSHIMO_IDS || '').split(',').filter(Boolean)) {
@@ -926,7 +956,8 @@ try {
         selects: [...root.querySelectorAll('select')].map((s) => ({ name: s.name, opts: [...s.options].map((o) => o.text.trim()) })),
         radios: [...root.querySelectorAll('input[type=radio],input[type=checkbox]')].map((r) => `${r.type}:${r.name}:${(r.closest('label,li,tr,div')?.innerText || '').replace(/\s+/g, ' ').trim().slice(0, 40)}${r.checked ? '(選択済)' : ''}`).slice(0, 10),
         btns: [...root.querySelectorAll('a,button,input[type=submit],input[type=button]')].filter(vis).map((b) => (b.innerText || b.value || '').trim()).filter(Boolean).slice(0, 10) }; }, vis.toString());
-    for (const [name, id] of [['Yahoo!トラベル', 2026983], ['ふるなび', 2142798], ['一休.com', 179], ['じゃらんnet', 2021810]]) {
+    const VC_LIST = process.env.VC_APPLY ? process.env.VC_APPLY.split(',').map((x) => x.split(':')).map(([id, name]) => [name || id, Number(id)]) : [['Yahoo!トラベル', 2026983], ['ふるなび', 2142798], ['一休.com', 179], ['じゃらんnet', 2021810]];
+    for (const [name, id] of VC_LIST) {
       await go(`https://aff.valuecommerce.ne.jp/ad/adDetail/${id}`);
       lines.push(`## VC「${name}」 adDetail/${id}`, `- 申請前の状態: ${await status()}`);
       const btn = p.locator('a:visible, button:visible').filter({ hasText: /^\s*新規提携\s*$/ }).first();
