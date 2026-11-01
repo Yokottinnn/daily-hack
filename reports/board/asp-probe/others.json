@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-31T21:44:24.697Z",
+ "generated": "2026-11-01T21:44:27.102Z",
  "vc": [
   {
    "name": "世界最大級！ツアーアクティビティの検索サイト「Liigo」販促プログラム",
@@ -7,9 +7,24 @@
    "href": "https://aff.valuecommerce.ne.jp/ad/adDetail/2161122"
   },
   {
+   "name": "ペット用品・犬具「1stdogcafe」【店舗別プログラム】",
+   "reward": "",
+   "href": "https://aff.valuecommerce.ne.jp/ad/adDetail/2166417"
+  },
+  {
+   "name": "ヒトサラ",
+   "reward": "",
+   "href": "https://aff.valuecommerce.ne.jp/ad/adDetail/2162006"
+  },
+  {
    "name": "Anker Japan 公式オンラインストアのアフィリエイトプログラム",
    "reward": "",
    "href": "https://aff.valuecommerce.ne.jp/ad/adDetail/2151822"
+  },
+  {
+   "name": "【アクティビティジャパン】遊び・体験・レジャーの予約サイト",
+   "reward": "",
+   "href": "https://aff.valuecommerce.ne.jp/ad/adDetail/2151410"
   },
   {
    "name": "ヘア・ネイル・エステサロン予約キャンペーン",
@@ -42,6 +57,11 @@
    "href": "https://aff.valuecommerce.ne.jp/ad/adDetail/2026983"
   },
   {
+   "name": "【OZmall（オズモール）】プレミアム予約",
+   "reward": "",
+   "href": "https://aff.valuecommerce.ne.jp/ad/adDetail/2026062"
+  },
+  {
    "name": "★ホテル・宿予約サイト「じゃらんnet」",
    "reward": "",
    "href": "https://aff.valuecommerce.ne.jp/ad/adDetail/2021810"
@@ -52,15 +72,15 @@
    "href": "https://aff.valuecommerce.ne.jp/ad/adDetail/179"
   },
   {
-   "name": "【ニーズツアー】国内旅行＆沖縄旅行",
+   "name": "マルイのネット通販マルイウェブチャネル",
    "reward": "",
-   "href": "https://aff.valuecommerce.ne.jp/ad/adDetail/2175237"
+   "href": "https://aff.valuecommerce.ne.jp/ad/adDetail/2165155"
   }
  ],
  "moshimo": [
   {
-   "name": "ディグラムラボ｜ディグラム診断・オリジナル詳細レポートの購入",
-   "reward": "1000円",
+   "name": "MEGURU（メグル）｜写真を撮るだけのAI食事記録と管理栄養士監修レシピが見れる健康管理アプリの有料プラン契約",
+   "reward": "500円",
    "href": "https://af.moshimo.com/af/shop/promotion/detail"
   },
   {
@@ -70,8 +90,13 @@
   },
   {
    "name": "どこでもリンクへ",
-   "reward": "2%",
+   "reward": "15%",
    "href": "https://af.moshimo.com/af/shop/promotion/source/anywhere"
+  },
+  {
+   "name": "本人申込する",
+   "reward": "15%",
+   "href": "https://af.moshimo.com/af/shop/promotion/self"
   },
   {
    "name": "商品リンクへ",
