@@ -1,6 +1,6 @@
 # バリューコマース（asp-sync）
 
-生成: **2026-11-02T01:04:04.039Z**
+生成: **2026-11-02T13:39:46.261Z**
 
 - ログイン: **できている**
 - 最終 URL: https://aff.valuecommerce.ne.jp/home
@@ -24,7 +24,6 @@
 | 【LYPプレミアム（旧Yahoo!プレミアム）】 会員獲得プログラム | https://aff.valuecommerce.ne.jp/ad/adDetail/2082539 |
 | 広告主を組み合わせて紹介することで、注文数アップ。相性の良いカテゴリーの組み合わせとおすすめ広告主、効果的な紹介方法をご | https://www.valuecommerce.ne.jp/event/advertiser-combination/ |
 | 広告主のセール・キャンペーン情報が一覧に。成果につながる投稿ネタがすぐ見つかる！ | https://www.valuecommerce.ne.jp/event/ad_calendar/ |
-| 【ベルーナ】みんなの酒屋 販売プログラム | https://aff.valuecommerce.ne.jp/ad/adDetail/2175574 |
 | 旅行サイト「Yahoo!トラベル」 | https://aff.valuecommerce.ne.jp/ad/adDetail/2026983 |
 | アフィリエイトサイト運営者利用規約 | http://www.valuecommerce.ne.jp/st_affiliate/terms.html |
 
@@ -33,14 +32,15 @@
 ```text
 ログアウト
 人気ワード：
-JRE|
-THE|
+ソースネクスト|
+CLOSET|
+Yahoo!ショッピング
 ダッシュボード
 レポート
 詳細検索
 ■プログラム一覧
-提携状況 新規提携 6 提携済み 提携待ち 2 未提携 再申請可
-新規提携 6
+提携状況 新規提携 7 提携済み 提携待ち 2 未提携 再申請可
+新規提携 7
 提携済み
 提携待ち 2
 再申請可
