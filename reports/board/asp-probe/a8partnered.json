@@ -1,9 +1,233 @@
 {
- "generated": "2026-11-01T21:43:46.188Z",
- "total": 331,
+ "generated": "2026-11-02T21:43:46.959Z",
+ "total": 359,
  "from": 0,
- "to": 331,
+ "to": 359,
  "rows": [
+  {
+   "id": "s00000015156003",
+   "name": "富士山の天然水をご自宅で【ふじざくら命水のバッグインボックス(BIB)】",
+   "reward": "購入4％（通常） 新規購入15％（定期）",
+   "self": true,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000015156001",
+   "name": "富士山の天然水ウォーターサーバーふじざくら命水【産直価格・安心安全の国産サーバー】",
+   "reward": "新規定期契約9525円 EPC",
+   "self": false,
+   "point": false,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000022023002",
+   "name": "ポケマルふるさと納税｜産直サイトポケットマルシェが運営するふるさと納税サイト",
+   "reward": "納税200円 EPC",
+   "self": false,
+   "point": false,
+   "listing": "リスティングNG"
+  },
+  {
+   "id": "s00000026141001",
+   "name": "ゲームの世界で学ぶオンライン英会話スクール【eスポーツ英会話eスピ！】",
+   "reward": "新規入会5000円 EPC",
+   "self": false,
+   "point": false,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000022023001",
+   "name": "会員50万人以上！日本最大級の産直サイト【ポケットマルシェ】",
+   "reward": "新規購入500円 EPC",
+   "self": false,
+   "point": false,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000020819004",
+   "name": "保険の無料相談サイト「ガーデン」",
+   "reward": "初回面談10250円 EPC",
+   "self": false,
+   "point": false,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000020819003",
+   "name": "貯蓄の無料相談サイト「ガーデン」",
+   "reward": "初回面談10250円 EPC",
+   "self": false,
+   "point": false,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000020819001",
+   "name": "学資保険の無料相談サイト「ガーデン」",
+   "reward": "新規面談10250円 新規資料請求500円",
+   "self": false,
+   "point": false,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000000979026",
+   "name": "【BB.exciteモバイル／Flatプラン】定額制料金の格安SIM",
+   "reward": "新規開通2200円 EPC",
+   "self": false,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000025316001",
+   "name": "女性専用AIパーソナルトレーニングジム FURDI（ファディー）",
+   "reward": "新規無料体験13670円(千歳烏山店、小岩店、西宮門戸厄神駅前店、武蔵小杉医大通り店) 新規無料体験7000円(その他)",
+   "self": false,
+   "point": false,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000027051001",
+   "name": "【料金は水代だけ！】日田天領水ウォーターサーバー「アクアリーヴ」",
+   "reward": "新規購入6000円 EPC",
+   "self": false,
+   "point": false,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000018938001",
+   "name": "スマホ乗り換えドットコム 【キャッシュバックキャンペーン実施中！！】",
+   "reward": "新規開通5500円(スマホ) 新規開通10000円(スマホMNP)",
+   "self": true,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000020187011",
+   "name": "引越し時の電気・ガス・ネットをまとめて無料手続き【電気の手続きサポートセンター】",
+   "reward": "新規契約6000円 EPC",
+   "self": false,
+   "point": false,
+   "listing": "リスティングNG"
+  },
+  {
+   "id": "s00000023372006",
+   "name": "契約不要・月額費用0円！バッテリーレス車載Wi-Fiルーター",
+   "reward": "新規購入25％ EPC",
+   "self": false,
+   "point": true,
+   "listing": "リスティングNG"
+  },
+  {
+   "id": "s00000023372001",
+   "name": "動画視聴に特化したVPN 海外から日本の動画サイトが観られないを解消【Glocal VPN】",
+   "reward": "新規契約1500円(1か月コース) 新規契約3000円(6か月コース)",
+   "self": false,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000015110001",
+   "name": "年会費永久無料【エポスカード発行】",
+   "reward": "新規カード発行2600円 EPC",
+   "self": true,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000025310008",
+   "name": "段ボールに詰めるだけ！なんでも1,000円買取！",
+   "reward": "新規買取成立1000円 EPC",
+   "self": false,
+   "point": true,
+   "listing": "リスティングNG"
+  },
+  {
+   "id": "s00000025310004",
+   "name": "使わなくなった香水を高価出張買取",
+   "reward": "新規買取2000円 EPC",
+   "self": false,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000025310002",
+   "name": "ルイ・ヴィトンバッグ最低10,000円以上で買取",
+   "reward": "新規買取5000円 EPC",
+   "self": false,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000016275012",
+   "name": "【最短開通即日】最大47,000円キャッシュバック！【TCOMヒカリ】",
+   "reward": "新規開通9000円 EPC",
+   "self": false,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000027744001",
+   "name": "スマホを充電しながら自動バックアップ！Qubii【Maktar公式サイト】",
+   "reward": "購入5％ EPC",
+   "self": false,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000016921006",
+   "name": "海外行くなら！【海外WiFiレンタルショップ】",
+   "reward": "初回契約3400円 EPC",
+   "self": true,
+   "point": false,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000016921004",
+   "name": "【FreeMax+5G】端末代金0円+無制限WiMAXレンタルサービス",
+   "reward": "初回契約5000円 EPC",
+   "self": true,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000023441001",
+   "name": "中古クラブなら在庫数１５万本の【ゴルフドゥ！オンラインショップ】",
+   "reward": "購入4％ 買取1000円",
+   "self": false,
+   "point": false,
+   "listing": "リスティングNG"
+  },
+  {
+   "id": "s00000027307001",
+   "name": "現地オプショナルツアー予約＆観光旅行【VELTRA-ベルトラ】",
+   "reward": "ツアー催行1％（国内） ツアー催行3％（海外）",
+   "self": false,
+   "point": true,
+   "listing": "リスティングNG"
+  },
+  {
+   "id": "s00000027506001",
+   "name": "引越し＆ライフライン手続きを一括代行！完全無料のワンストップサービス【引越しポルタ】",
+   "reward": "初回成約3000円 EPC",
+   "self": false,
+   "point": false,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000008091018",
+   "name": "縛りなしで使える格安SIM！2GB 660円(税込)/月〜【DTI SIM】",
+   "reward": "新規申込 900円 （データ/データSMS/音声　2GB〜16GB） 新規申込 950円 （データ/データSMS/音声データ　すごギガ）",
+   "self": false,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000027255001",
+   "name": "女性専用！フィットネス・ヨガ・エステ・サウナ全て使い放題【PORTセルフボディメイク】",
+   "reward": "クリック誘導10円 EPC",
+   "self": false,
+   "point": false,
+   "listing": "リスティング一部OK"
+  },
   {
    "id": "s00000021453001",
    "name": "京都から「千寿せんべい」などこだわりの和菓子をお届け【鼓月オンラインストア】",
@@ -1285,6 +1509,422 @@
    "listing": "リスティング一部OK"
   },
   {
+   "id": "s00000026280001",
+   "name": "細くても、存在感があるアクセサリーGARCIA",
+   "reward": "購入8％ EPC",
+   "self": false,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000010921001",
+   "name": "合宿免許受付センター",
+   "reward": "免許合宿参加12000円 EPC",
+   "self": false,
+   "point": true,
+   "listing": "リスティングOK"
+  },
+  {
+   "id": "s00000025957001",
+   "name": "肌への優しさにとことんこだわる自然派コスメ「ハウスオブローゼ」",
+   "reward": "購入5％ EPC",
+   "self": false,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000027866001",
+   "name": "メガネ・コンタクトの専門通販【メガネストアー公式オンラインショップ】",
+   "reward": "購入6.5％ EPC",
+   "self": false,
+   "point": false,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000002586002",
+   "name": "美に健康に！常温でおいしい幻の天然アルカリイオン水【温泉水99】",
+   "reward": "初回購入1000円 EPC",
+   "self": true,
+   "point": false,
+   "listing": "リスティングNG"
+  },
+  {
+   "id": "s00000022946005",
+   "name": "国内・海外の遊び・体験予約ならアゴダ【agoda】",
+   "reward": "体験完了（税抜）5％ EPC",
+   "self": false,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000023946003",
+   "name": "25年の信頼と実績！ハワイ旅行をもっと自由に、もっと快適に【Maikai Hawaii Tours】",
+   "reward": "ツアー催行5％ EPC",
+   "self": false,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000005350011",
+   "name": "",
+   "reward": "宿泊予約(税抜)1.57％ EPC",
+   "self": false,
+   "point": false,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000024278002",
+   "name": "関東発の格安スキーツアー【スキーツアー＆スノボツアー - ビッグホリデー】",
+   "reward": "ツアー参加2％ EPC",
+   "self": false,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000021239001",
+   "name": "国産/輸入車約300車種!月額1万円台からの新車定額カーリース（サブスク）【オリコで乗ーる】",
+   "reward": "新規契約30000円 EPC",
+   "self": true,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000027697001",
+   "name": "1,000社比較で海外ドライブを最安値に！日本語サポート付き【QEEQ】",
+   "reward": "予約金額5％ EPC",
+   "self": false,
+   "point": false,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000010693001",
+   "name": "キャンペーン中！沖縄・九州・北海道の格安レンタカー【スカイレンタカー】予約",
+   "reward": "レンタカー利用500円 EPC",
+   "self": true,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000006576005",
+   "name": "たびらいレンタカー予約【オンライン予約促進プログラム】",
+   "reward": "レンタカー予約230円 EPC",
+   "self": false,
+   "point": true,
+   "listing": "リスティングNG"
+  },
+  {
+   "id": "s00000014755001",
+   "name": "全国レンタカー最安値比較・予約ポータルサイト【レンナビ】",
+   "reward": "レンタカー予約300円 EPC",
+   "self": false,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000026619001",
+   "name": "待たないレンタカー【Uqey（ユーキー）】",
+   "reward": "レンタカー利用500円 EPC",
+   "self": false,
+   "point": true,
+   "listing": "リスティングNG"
+  },
+  {
+   "id": "s00000001343021",
+   "name": "夜行・高速バスの予約なら「エアトリ 夜行・高速バス」",
+   "reward": "購入金額4.5％ EPC",
+   "self": true,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000001343017",
+   "name": "日本全国のレンタカー格安料金を比較・予約するなら【エアトリレンタカー】にお任せ！",
+   "reward": "利用420円 EPC",
+   "self": true,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000022171005",
+   "name": "おトクに海外ツアー【トラベルウエスト】",
+   "reward": "海外ツアー成約3500円 EPC",
+   "self": false,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000001343022",
+   "name": "【ニーズツアー】スキー＆スノーボード",
+   "reward": "購入1700円 EPC",
+   "self": false,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000022171006",
+   "name": "24時間365日カンタン予約【海外ダイナミックパッケージ】",
+   "reward": "海外ダイナミックパッケージ成約2500円 EPC",
+   "self": false,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000022192001",
+   "name": "当日便も申込OK！乗継便検索にも対応♪【NAVITIME Travel】",
+   "reward": "国内航空券成約1200円 EPC",
+   "self": false,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000022946004",
+   "name": "国内・海外の格安航空券予約ならアゴダ【agoda】",
+   "reward": "搭乗完了（税抜）1.5％ EPC",
+   "self": false,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000022171001",
+   "name": "24時間365日国内航空券の最安値を一発検索・予約・購入が可能【リアルチケット】",
+   "reward": "国内航空券成約1500円 EPC",
+   "self": false,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000023067003",
+   "name": "【Travelist（海外格安航空券）】",
+   "reward": "成約2000円 EPC",
+   "self": false,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000022171004",
+   "name": "海外航空券を最安値をカンタン検索・比較・予約【トラベルウエスト】",
+   "reward": "海外航空券成約600円 EPC",
+   "self": false,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000023244001",
+   "name": "【Yahoo!トラベル】取り扱い施設数が約17000施設!!国内最大級宿泊予約サイト",
+   "reward": "宿泊予約(税抜)1％ EPC",
+   "self": false,
+   "point": false,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000001343016",
+   "name": "国内航空券＋ホテルの予約なら【エアトリプラス】",
+   "reward": "成約2070円 EPC",
+   "self": true,
+   "point": true,
+   "listing": "リスティングNG"
+  },
+  {
+   "id": "s00000023946002",
+   "name": "現地在住ガイドが日本語で案内するプライベートツアー予約サイト BUYMA TRAVEL",
+   "reward": "ツアー催行3％ EPC",
+   "self": false,
+   "point": true,
+   "listing": "リスティングNG"
+  },
+  {
+   "id": "s00000001343020",
+   "name": "国内ホテルの予約なら！「エアトリ国内ホテル予約」",
+   "reward": "宿泊予約金額(税抜)2.8％ EPC",
+   "self": true,
+   "point": true,
+   "listing": "リスティングNG"
+  },
+  {
+   "id": "s00000000218001",
+   "name": "【一休.com】厳選されたホテル予約",
+   "reward": "宿泊予約金額(税抜)1％ EPC",
+   "self": true,
+   "point": false,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000026857001",
+   "name": "【沖縄ツーリスト】らんらんツアー｜沖縄旅行の専門サイト",
+   "reward": "新規予約金額2％ EPC",
+   "self": false,
+   "point": false,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000025498001",
+   "name": "かしこい、おトク、旅行アプリ【NEWT(ニュート)】",
+   "reward": "ツアー参加orホテル利用1％ EPC",
+   "self": false,
+   "point": false,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000013798001",
+   "name": "格安航空券・海外旅行の【エアトリ】 渡航・宿泊・旅行促進",
+   "reward": "海外ホテル予約1％ 海外航空券購入2％",
+   "self": true,
+   "point": true,
+   "listing": "リスティングNG"
+  },
+  {
+   "id": "s00000013798009",
+   "name": "ハワイ旅行なら【エアトリハワイ】",
+   "reward": "ツアー申込1630円(ツアー料金500,000円まで) ツアー申込3270円(ツアー料金500,001円以上)",
+   "self": true,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000025659001",
+   "name": "海外旅行・出張なら手軽で便利なeSIM【JAPAN&GLOBAL eSIM】",
+   "reward": "購入15％ EPC",
+   "self": false,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000005350010",
+   "name": "「JTB旅物語」旅行予約",
+   "reward": "ツアー出発（税抜）3.6％ EPC",
+   "self": false,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000013465001",
+   "name": "クルーズ旅行と船旅のことなら【ベストワンクルーズ】成約促進",
+   "reward": "成約2000円 EPC",
+   "self": true,
+   "point": false,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000026123001",
+   "name": "あなたと一緒に作る海外旅行【トラベル・スタンダード・ジャパン】",
+   "reward": "新規旅行問い合わせ完了2000円 ▽ポイントサイト",
+   "self": false,
+   "point": false,
+   "listing": "リスティングNG"
+  },
+  {
+   "id": "s00000026058001",
+   "name": "海外旅行のためのお得なeSIM【Saily】",
+   "reward": "新規購入10％ Wチャンス",
+   "self": false,
+   "point": true,
+   "listing": "リスティングNG"
+  },
+  {
+   "id": "s00000004570004",
+   "name": "【日本旅行】国内ツアー・国内宿泊・海外ツアー",
+   "reward": "予約金額2％ EPC",
+   "self": true,
+   "point": true,
+   "listing": "リスティングNG"
+  },
+  {
+   "id": "s00000017634001",
+   "name": "プロの意見も交えた初心者にやさしい保険選び【保険ランドリー】",
+   "reward": "新規面談11329円 EPC",
+   "self": false,
+   "point": false,
+   "listing": "リスティングOK"
+  },
+  {
+   "id": "s00000027294001",
+   "name": "無料で資産形成や保険について相談できる！FPカフェ",
+   "reward": "新規面談完了11700円 EPC",
+   "self": false,
+   "point": false,
+   "listing": "リスティングOK"
+  },
+  {
+   "id": "s00000026218001",
+   "name": "安定した未来のため資産形成やライフリスクは【ファイナンシャルプランナーに相談】へ",
+   "reward": "新規無料相談13000円 EPC",
+   "self": false,
+   "point": false,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000020819010",
+   "name": "老後資金・資産形成をFPに無料相談！厳選プロが丁寧サポート【ガーデン】",
+   "reward": "初回対面無料相談実施10250円 EPC",
+   "self": false,
+   "point": false,
+   "listing": "リスティングOK"
+  },
+  {
+   "id": "s00000024389001",
+   "name": "トップアスリート愛用の理由！「MPNプロテイン」美味しい上に質と配合量に大注目 ！",
+   "reward": "▽一般メディア 購入（税抜）5％",
+   "self": false,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000027240001",
+   "name": "【高単価・商品続々追加中】駅メロ制作に文化財貸切─地方の特別な体験が買える！",
+   "reward": "購入5％(新米お届け便) 購入25000円(町長にプレゼンテーションできる権利)",
+   "self": false,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000025743001",
+   "name": "全国の美味しい特産品に特化したふるさと納税サイト【ふるさと本舗】",
+   "reward": "購入1％ EPC",
+   "self": false,
+   "point": false,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000027240002",
+   "name": "投資家・富裕層×ウイスキー好きと相性◎【ウイスキーふるさと納税】",
+   "reward": "購入7300円 EPC",
+   "self": false,
+   "point": false,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000023934001",
+   "name": "ふるさと納税を始めるなら【au PAY ふるさと納税】",
+   "reward": "寄付金額（税抜）1％ EPC",
+   "self": false,
+   "point": false,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000004439066",
+   "name": "【唯一無二の存在】バッテリー式電源車レンタルサービス",
+   "reward": "レンタル料金(税抜)5％ EPC",
+   "self": true,
+   "point": true,
+   "listing": "リスティングNG"
+  },
+  {
+   "id": "s00000022400003",
+   "name": "摩擦レス洗顔＋1分エステ【EKATO 炭酸泡パック洗顔】",
+   "reward": "初回購入1500円 EPC",
+   "self": false,
+   "point": false,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000004439045",
+   "name": "エコで経済的！電源確保ができない場所で大活躍の電源システム！【only style】紹介",
+   "reward": "購入5％ EPC",
+   "self": true,
+   "point": true,
+   "listing": "リスティングOK"
+  },
+  {
    "id": "s00000027809001",
    "name": "150講座以上！主婦・社会人の資格取得を応援する通信講座【キャリカレ】",
    "reward": "受講申込（税抜）2.37％ 資料請求475円",
@@ -1869,5 +2509,5 @@
    "listing": "リスティングNG"
   }
  ],
- "applyingCount": 225
+ "applyingCount": 185
 }
