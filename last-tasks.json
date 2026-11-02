@@ -1,3 +1,3 @@
 [
-      {"task": "t552-vc-amazon-owner-kind.sh", "rc": 0, "out": "- ⚠️ 開けない https://affiliate.amazon.co.jp/home: Error: page.goto: net::ERR_NAME_NOT_RESOLVED at https://affiliate.amazon.co.jp/home ## Amazon アソシエイト - 開いた画面: null/（パスワード欄: 0） - 候補の画面 0 件:    - /: 区分の欄なし"}
+      {"task": "t553-vc-amazon-owner-kind2.sh", "rc": 0, "out": "  - /home: 区分の欄なし   - /home/account/tag/manage: 区分の欄なし   - /home/account: 区分の欄なし   - /home/account/paymentHistory: 区分の欄なし   - /home/account: 区分の欄なし"}
   ]

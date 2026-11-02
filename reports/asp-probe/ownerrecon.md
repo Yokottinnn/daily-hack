@@ -1,15 +1,22 @@
 # ASP の画面調べ: ownerrecon（asp-probe）
 
-生成: **2026-11-02T13:40:19.629Z**
+生成: **2026-11-02T13:44:16.145Z**
 
 ## バリューコマース
 - 開いた画面: https://aff.valuecommerce.ne.jp/home（パスワード欄: 0）
-- 候補の画面 0 件: 
+- 候補の画面 4 件: /account/registrant ／ /account/reportAPI/redirect ／ /account/browserExtension/getApiKey ／ /account/messagingInbox
   - /home: 区分の欄なし
+  - /account/registrant: 区分の欄なし
+  - /account/reportAPI/viewPublishApiKey: 区分の欄なし
+  - /account/browserExtension/publishApiKey: 区分の欄なし
+  - /account/messagingInbox: 区分の欄なし
 
-- ⚠️ 開けない https://affiliate.amazon.co.jp/home: Error: page.goto: net::ERR_NAME_NOT_RESOLVED at https://affiliate.amazon.co.jp/home
 ## Amazon アソシエイト
-- 開いた画面: null/（パスワード欄: 0）
-- 候補の画面 0 件: 
-  - /: 区分の欄なし
+- 開いた画面: https://affiliate.amazon.co.jp/home（パスワード欄: 0）
+- 候補の画面 4 件: /home/account/tag/manage ／ /home/account ／ /home/account/payment/history ／ /home/account
+  - /home: 区分の欄なし
+  - /home/account/tag/manage: 区分の欄なし
+  - /home/account: 区分の欄なし
+  - /home/account/paymentHistory: 区分の欄なし
+  - /home/account: 区分の欄なし
 
