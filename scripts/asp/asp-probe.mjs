@@ -361,13 +361,13 @@ try {
         const v = [x.replace(/.*[:：]\s*/, ''), L[i + 1] || ''].find((y) => KIND.test(y)); if (v) out.push(`${x.slice(0, 20)} → ${v}`); } });
       return [...new Set(out)].slice(0, 6); }, KIND.source);
     const linksOf = (re) => p.evaluate((src) => { const re = new RegExp(src);
-      return [...new Set([...document.querySelectorAll('a')].filter((a) => re.test((a.innerText || a.textContent || '').trim())).map((a) => a.href).filter((h) => /^https?:/.test(h)))].slice(0, 6); }, re.source);
+      return [...new Set([...document.querySelectorAll('a')].filter((a) => re.test((a.innerText || a.textContent || '').trim()) || /\/account\/(?!site)|\/account$|payment|tax|profile|user\/info|member/i.test(a.getAttribute('href') || '')).map((a) => a.href).filter((h) => /^https?:/.test(h) && !/logout|help|faq/i.test(h)))].slice(0, 8); }, re.source);
     for (const [name, home] of [['バリューコマース', 'https://aff.valuecommerce.ne.jp/home'], ['Amazon アソシエイト', 'https://affiliate.amazon.co.jp/home']]) {
       await go(home);
       lines.push(`## ${name}`, `- 開いた画面: ${here()}（パスワード欄: ${await p.locator('input[type=password]:visible').count()}）`);
       const cand = await linksOf(/登録情報|会員情報|アカウント|口座|支払|税務|プロフィール|Account|Payment|Tax/);
       lines.push(`- 候補の画面 ${cand.length} 件: ${cand.map((u) => new URL(u).pathname).join(' ／ ')}`);
-      for (const u of [home, ...cand].slice(0, 5)) {
+      for (const u of [home, ...cand].slice(0, 7)) {
         if (u !== home) await go(u);
         const k = await readKind();
         lines.push(`  - ${new URL(p.url()).pathname}: ${k.length ? k.join(' ／ ') : '区分の欄なし'}`);
