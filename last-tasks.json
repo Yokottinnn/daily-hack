@@ -1,1 +1,3 @@
-[]
+[
+      {"task": "x404-follow-balance-result.sh", "rc": 0, "out": "# 比率の調整：22:16 に走らせた回の結果（2026-11-03 01:00 JST・読むだけ・$0） ``` [2026-11-02T13:16:18.171Z] === follow-balance start (dry=false min=20 max=20 grace=1d inactive=30d big=5000) === [2026-11-02T13:16:58.250Z] フォロー中: 472 件（39 秒） [2026-11-02T13:17:5"}
+  ]
