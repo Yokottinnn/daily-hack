@@ -15,9 +15,10 @@ from scipy import ndimage as ndi
 from skimage import measure
 from skimage.segmentation import expand_labels
 
-Z, X0, Y0, NX, NY = 15, 29105, 12904, 7, 7
-CROP = (80, 100, 1680, 1700)      # 1792px の並べた画像のうち使う範囲（px）
-VB = 1000                          # viewBox の一辺
+# 2026-11-03 利用者「新橋・銀座エリアも表示して／逆に巽エリアとかいらない」→ 西へ広げ、東は辰巳の手前で切る
+Z, X0, Y0, NX, NY = 15, 29104, 12903, 6, 8
+CROP = (100, 160, 1385, 1940)     # 並べた画像のうち使う範囲（px）。北西＝新橋・銀座、南東＝青海・有明
+VB = 1000                          # viewBox の横幅（縦は範囲の比で決まる）
 CACHE = '/tmp/wangan-tiles'
 OUT = os.path.join(os.path.dirname(__file__), '../../src/data/wangan-basemap.json')
 
@@ -52,6 +53,7 @@ def main():
     lab = expand_labels(seeds, distance=14) * land
     n = int(lab.max())
     s = VB / (x1 - x0)
+    vbh = round((y1 - y0) * s)
     shapes = []
     for k in range(1, n + 1):
         m = lab == k
@@ -90,6 +92,7 @@ def main():
         '_note': '湾岸イベントマップの陸の輪郭。scripts/wangan-map/gen-basemap.py が国土地理院の淡色地図タイル（z15）から作った。muni は市区町村コード（13102 中央区・13108 江東区・13103 港区・13109 品川区）',
         'source': '国土地理院（地理院タイル・淡色地図）',
         'viewBox': VB,
+        'viewBoxH': vbh,
         'tile': {'z': Z, 'x0': X0 + x0 / 256, 'y0': Y0 + y0 / 256, 'scale': s},
         'bounds': {'west': w_lon, 'east': e_lon, 'north': n_lat, 'south': s_lat},
         'land': [{'d': sh['d'], 'muni': sh['muni']} for sh in sorted(shapes, key=lambda x: -x['area'])],
