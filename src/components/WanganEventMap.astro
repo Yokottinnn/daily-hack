@@ -1,0 +1,451 @@
+---
+/**
+ * 湾岸エリアイベントマップ（2026-11-02）。湾岸ライフの一覧と /wangan-map/ に置く。
+ * 地図はイラスト調の SVG（陸の形は国土地理院の地図から取った本物の海岸線）。ピンは記事の `event:` から毎朝のビルドで入れ替わる。
+ * ハッカー子が「いま起きていること」をピンからピンへ案内する。動きは prefers-reduced-motion で止める。
+ */
+import { MAP_LAND, MAP_AREAS, MAP_LANDMARKS, MAP_SOURCE, mapItems } from '../lib/wangan-map';
+import { todayJst, jpDate, jpRange } from '../lib/wangan';
+import type { CollectionEntry } from 'astro:content';
+
+interface Props { posts: CollectionEntry<'posts'>[]; headingLevel?: 'h1' | 'h2'; title?: string }
+const { posts, headingLevel = 'h2', title = '湾岸エリアイベントマップ' } = Astro.props;
+const today = todayJst();
+const items = mapItems(posts, today);
+const events = items.filter((i) => i.kind === 'event');
+const H = headingLevel;
+const WARD_FILL: Record<string, string> = { 中央区: 'var(--wm-land-chuo)', 江東区: 'var(--wm-land-koto)' };
+// 目印の絵（シンプルな線画）。key ごとに 1 つ
+const ICON: Record<string, string> = {
+  market: '<path d="M-11 6h22v-9l-11-6-11 6z" class="wm-ic-b"/><path d="M-6 -2c3-3 9-3 12 0-3 3-9 3-12 0z" class="wm-ic-a"/>',
+  lalaport: '<path d="M-12 4h24l-4 6h-16z" class="wm-ic-b"/><path d="M-1 4v-14l9 10z" class="wm-ic-a"/>',
+  'ariake-arena': '<path d="M-13 6a13 11 0 0 1 26 0z" class="wm-ic-b"/><path d="M-7 6a7 6 0 0 1 14 0" class="wm-ic-l"/>',
+  'ariake-garden': '<rect x="-12" y="-4" width="24" height="10" rx="2" class="wm-ic-b"/><circle cx="-6" cy="-7" r="5" class="wm-ic-g"/><circle cx="5" cy="-8" r="6" class="wm-ic-g"/>',
+  bigsight: '<path d="M-13 -6h10l-3 6h-4zM3 -6h10l-3 6h-4z" class="wm-ic-b"/><rect x="-13" y="0" width="26" height="6" class="wm-ic-b"/>',
+  diversity: '<rect x="-11" y="-6" width="22" height="12" rx="2" class="wm-ic-b"/><path d="M-6 -6v-6h4v6" class="wm-ic-a"/>',
+  triton: '<rect x="-10" y="-12" width="6" height="18" class="wm-ic-b"/><rect x="-2" y="-16" width="6" height="22" class="wm-ic-b"/><rect x="6" y="-9" width="5" height="15" class="wm-ic-b"/>',
+  'harumi-flag': '<rect x="-11" y="-8" width="7" height="14" class="wm-ic-b"/><rect x="-2" y="-14" width="7" height="20" class="wm-ic-b"/><path d="M8 6v-14l6 3-6 3" class="wm-ic-a"/>',
+  monja: '<ellipse cx="0" cy="2" rx="12" ry="5" class="wm-ic-b"/><path d="M-5 0c2-3 6-3 9 0" class="wm-ic-l"/><path d="M6 -8l5-4" class="wm-ic-l"/>',
+  bousai: '<circle cx="-5" cy="-3" r="7" class="wm-ic-g"/><circle cx="6" cy="-1" r="6" class="wm-ic-g"/><rect x="-1" y="2" width="2" height="5" class="wm-ic-b"/>',
+};
+const data = JSON.stringify({ today, items });
+---
+
+<section class="wmap" aria-labelledby="wmap-title" data-wmap>
+  <div class="wmap-head">
+    <H id="wmap-title" class="wmap-title">{title}<span>（{jpDate(today)}時点）</span></H>
+    <p class="wmap-lead">晴海・勝どき・月島・豊洲・有明・青海で<strong>いま開催中のイベントと、これから始まるイベント</strong>を地図に置いた。ピンを押すと日付・会場・料金と記事が出る。ハッカー子が開催中のものから順に案内するわよ。</p>
+  </div>
+
+
+  <div class="wmap-time">
+    <label for="wmap-day">日付を動かす</label>
+    <input id="wmap-day" type="range" min="0" max="90" value="0" step="1" />
+    <output for="wmap-day" data-day-label>{jpDate(today)}</output>
+    <button type="button" class="wmap-play" data-play aria-pressed="false">▶ 90日を再生</button>
+  </div>
+
+  <div class="wmap-stage" data-stage>
+    <div class="wmap-canvas" data-canvas>
+      <svg class="wmap-svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="wmap-svg-title">
+        <title id="wmap-svg-title">湾岸エリア（中央区・江東区）のイベントマップ</title>
+        <defs>
+          <pattern id="wm-wave" width="60" height="22" patternUnits="userSpaceOnUse">
+            <path d="M2 14c6-6 12-6 18 0s12 6 18 0" class="wm-wave-line" />
+          </pattern>
+          <pattern id="wm-dots" width="10" height="10" patternUnits="userSpaceOnUse">
+            <circle cx="2" cy="2" r="0.9" class="wm-dot" />
+          </pattern>
+          <filter id="wm-rough" x="-5%" y="-5%" width="110%" height="110%">
+            <feTurbulence type="fractalNoise" baseFrequency="0.035" numOctaves="2" seed="7" />
+            <feDisplacementMap in="SourceGraphic" scale="5" />
+          </filter>
+          <filter id="wm-shadow" x="-10%" y="-10%" width="120%" height="120%">
+            <feDropShadow dx="0" dy="6" stdDeviation="4" flood-color="#1d4e7a" flood-opacity="0.22" />
+          </filter>
+        </defs>
+        <rect width="1000" height="1000" class="wm-sea" />
+        <rect width="1000" height="1000" fill="url(#wm-wave)" class="wm-waves" />
+        <g filter="url(#wm-shadow)">
+          <g filter="url(#wm-rough)">
+            {MAP_LAND.map((l) => <path d={l.d} class={`wm-land ${l.ward ? '' : 'wm-land-out'}`} style={WARD_FILL[l.ward] ? `fill:${WARD_FILL[l.ward]}` : ''} />)}
+          </g>
+        </g>
+        <g filter="url(#wm-rough)" opacity="0.5">
+          {MAP_LAND.map((l) => <path d={l.d} fill="url(#wm-dots)" />)}
+        </g>
+        <g class="wm-boat" aria-hidden="true">
+          <path id="wm-route" d="M18 887 C 30 760, 70 620, 100 512" fill="none" />
+          <g class="wm-boat-body">
+            <g transform="scale(1.6)"><path d="M-16 0h32l-7 8h-18z" class="wm-ic-b" /><rect x="-10" y="-6" width="18" height="6" rx="1.5" class="wm-ic-b" /><rect x="-5" y="-11" width="9" height="5" rx="1.5" class="wm-ic-a" /><circle cx="-6" cy="-3" r="1" class="wm-ic-l" /><circle cx="-1" cy="-3" r="1" class="wm-ic-l" /><circle cx="4" cy="-3" r="1" class="wm-ic-l" /></g>
+            <animateMotion dur="38s" repeatCount="indefinite" rotate="auto" keyPoints="0;1;0" keyTimes="0;0.5;1" calcMode="linear"><mpath href="#wm-route" /></animateMotion>
+          </g>
+        </g>
+        <g class="wm-landmarks" aria-hidden="true">
+          {MAP_LANDMARKS.map((l) => (
+            <g transform={`translate(${l.x} ${l.y})`} class="wm-lm">
+              <g transform="scale(1.5)" set:html={ICON[l.key] ?? ''} />
+              <text y="30" class="wm-lm-name">{l.name}</text>
+            </g>
+          ))}
+        </g>
+        <g class="wm-areas">
+          {MAP_AREAS.map((a) => (
+            <a href={`/tags/${a.tag}/`} class="wm-area">
+              <text x={a.x} y={a.y} class="wm-area-name">{a.tag}</text>
+              <text x={a.x} y={a.y + 18} class="wm-area-ward">{a.ward}</text>
+            </a>
+          ))}
+        </g>
+        <g class="wm-pins" data-pins>
+          {items.map((it, i) => (
+            <a href={`/posts/${it.slug}/`} class={`wm-pin wm-pin-${it.kind}`} data-i={i} aria-label={`${it.title}（${it.kind === 'event' ? jpRange(it.start, it.end || undefined) : jpDate(it.start)}・${it.place}）`}>
+              <title>{it.title}</title>
+              <g transform={`translate(${it.x} ${it.y})`}><g class="wm-pin-scale">
+              <circle r="22" cy="-30" class="wm-pin-pulse" />
+              <g class="wm-pin-drop">
+                <path d="M0 0l-7-10h14z" class="wm-pin-tail" />
+                <circle cy="-30" r="22" class="wm-pin-ring" />
+                <clipPath id={`wm-clip-${i}`}><circle cy="-30" r="18" /></clipPath>
+                {it.img
+                  ? <image href={it.img} x="-18" y="-48" width="36" height="36" preserveAspectRatio="xMidYMid slice" clip-path={`url(#wm-clip-${i})`} />
+                  : <circle cy="-30" r="18" class="wm-pin-noimg" />}
+                <g transform="translate(15 -47)" class="wm-pin-badge">
+                  <rect x="-13" y="-9" width="26" height="18" rx="9" />
+                  <text class="wm-pin-badge-t">{it.kind === 'event' ? `${Number(it.start.slice(5, 7))}/${Number(it.start.slice(8, 10))}` : 'NEW'}</text>
+                </g>
+                <text y="16" class="wm-pin-name">{it.short}</text>
+              </g>
+              </g></g>
+            </a>
+          ))}
+        </g>
+      </svg>
+
+      <div class="wmap-guide" data-guide aria-live="polite">
+        <div class="wmap-guide-bubble" data-guide-text>案内するわよ！</div>
+        <img src="/images/expr-01-wave.png" alt="" class="wmap-guide-face" width="72" height="72" data-guide-face />
+      </div>
+    </div>
+
+    <p class="wmap-pill" data-pill>📍 今日の湾岸</p>
+    <div class="wmap-zoom">
+      <button type="button" data-zoom="in" aria-label="拡大">＋</button>
+      <button type="button" data-zoom="out" aria-label="縮小">－</button>
+      <button type="button" data-zoom="reset" aria-label="全体を表示">⤢</button>
+    </div>
+    <div class="wmap-bar wmap-dock" role="toolbar" aria-label="表示するイベントの絞り込み">
+      <button type="button" class="wmap-chip is-on" data-filter="all"><i aria-hidden="true">🗺️</i>すべて <b data-count="all"></b></button>
+      <button type="button" class="wmap-chip" data-filter="now"><i aria-hidden="true">🎉</i>開催中 <b data-count="now"></b></button>
+      <button type="button" class="wmap-chip" data-filter="week"><i aria-hidden="true">📅</i>7日以内 <b data-count="week"></b></button>
+      <button type="button" class="wmap-chip" data-filter="free"><i aria-hidden="true">🆓</i>無料 <b data-count="free"></b></button>
+      <button type="button" class="wmap-chip" data-filter="news"><i aria-hidden="true">📰</i>ニュース <b data-count="news"></b></button>
+    </div>
+    <p class="wmap-credit">地図：{MAP_SOURCE}をもとに作成</p>
+  </div>
+
+  <div class="wmap-card" data-card hidden>
+    <button type="button" class="wmap-card-close" data-card-close aria-label="閉じる">×</button>
+    <a data-card-link class="wmap-card-link">
+      <img data-card-img alt="" loading="lazy" />
+      <div>
+        <p class="wmap-card-meta" data-card-meta></p>
+        <p class="wmap-card-title" data-card-title></p>
+        <p class="wmap-card-place" data-card-place></p>
+        <span class="wmap-card-go">記事を読む →</span>
+      </div>
+    </a>
+  </div>
+
+  <ol class="wmap-list" data-list>
+    {items.map((it, i) => (
+      <li data-i={i} class={`wmap-li wmap-li-${it.kind}`}>
+        <button type="button" data-goto={i} aria-label={`地図で${it.short}を見る`}>📍</button>
+        <span class="wmap-li-date">{it.kind === 'event' ? jpRange(it.start, it.end || undefined) : `${jpDate(it.start)}のニュース`}</span>
+        <a href={`/posts/${it.slug}/`}>{it.title}</a>
+        <span class="wmap-li-place">{it.area && `${it.area}・`}{it.place}{it.kind === 'event' && (it.isFree ? '・無料' : '')}</span>
+      </li>
+    ))}
+  </ol>
+  <script type="application/json" data-wmap-data set:html={data} />
+</section>
+
+<script>
+  type Item = { kind: 'event' | 'news'; slug: string; title: string; short: string; start: string; end: string; place: string; area: string; isFree: boolean; img: string; x: number; y: number };
+  const WD = ['日', '月', '火', '水', '木', '金', '土'];
+  const jp = (s: string) => { const [y, m, d] = s.split('-').map(Number); return `${m}月${d}日（${WD[new Date(Date.UTC(y, m - 1, d)).getUTCDay()]}）`; };
+  const add = (s: string, n: number) => { const t = new Date(s + 'T00:00:00Z'); t.setUTCDate(t.getUTCDate() + n); return t.toISOString().slice(0, 10); };
+  const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  for (const root of document.querySelectorAll<HTMLElement>('[data-wmap]')) {
+    const { today: buildDay, items } = JSON.parse(root.querySelector('[data-wmap-data]')!.textContent || '{}') as { today: string; items: Item[] };
+    // 見ている日（ビルドした日より後に開かれたら、その日を「今日」にする）
+    const nowJst = new Date(Date.now() + 9 * 3600e3).toISOString().slice(0, 10);
+    const base = nowJst > buildDay ? nowJst : buildDay;
+    let day = base;
+    let filter = 'all';
+    const pins = [...root.querySelectorAll<SVGAElement>('.wm-pin')];
+    const lis = [...root.querySelectorAll<HTMLElement>('.wmap-li')];
+    const label = root.querySelector<HTMLOutputElement>('[data-day-label]')!;
+    const range = root.querySelector<HTMLInputElement>('#wmap-day')!;
+    const guide = root.querySelector<HTMLElement>('[data-guide]')!;
+    const guideText = root.querySelector<HTMLElement>('[data-guide-text]')!;
+    const guideFace = root.querySelector<HTMLImageElement>('[data-guide-face]')!;
+    const card = root.querySelector<HTMLElement>('[data-card]')!;
+    const canvas = root.querySelector<HTMLElement>('[data-canvas]')!;
+    const stage = root.querySelector<HTMLElement>('[data-stage]')!;
+    const pill = root.querySelector<HTMLElement>('[data-pill]')!;
+
+    const isOn = (it: Item) => it.kind === 'news' ? it.start <= day : it.start <= day && day <= (it.end || add(it.start, 60));
+    const isSoon = (it: Item) => it.kind === 'event' && it.start > day && it.start <= add(day, 7);
+    const visible = (it: Item) => {
+      if (it.kind === 'event' && (it.end || add(it.start, 60)) < day) return false;
+      if (it.kind === 'news' && it.start > day) return false;
+      switch (filter) {
+        case 'now': return it.kind === 'event' && isOn(it);
+        case 'week': return it.kind === 'event' && (isOn(it) || isSoon(it));
+        case 'free': return it.kind === 'event' && it.isFree;
+        case 'news': return it.kind === 'news';
+        default: return true;
+      }
+    };
+    const counts = () => {
+      const c: Record<string, number> = { all: 0, now: 0, week: 0, free: 0, news: 0 };
+      for (const it of items) {
+        if (it.kind === 'event' && (it.end || add(it.start, 60)) < day) continue;
+        c.all++;
+        if (it.kind === 'event' && isOn(it)) c.now++;
+        if (it.kind === 'event' && (isOn(it) || isSoon(it))) c.week++;
+        if (it.kind === 'event' && it.isFree) c.free++;
+        if (it.kind === 'news') c.news++;
+      }
+      for (const [k, v] of Object.entries(c)) { const b = root.querySelector(`[data-count="${k}"]`); if (b) b.textContent = String(v); }
+    };
+    const render = () => {
+      items.forEach((it, i) => {
+        const show = visible(it);
+        pins[i].classList.toggle('is-hidden', !show);
+        pins[i].classList.toggle('is-now', show && it.kind === 'event' && isOn(it));
+        pins[i].classList.toggle('is-soon', show && isSoon(it));
+        lis[i].hidden = !show;
+      });
+      label.textContent = day === base ? `${jp(day)}・今日` : jp(day);
+      pill.textContent = `📍 ${day === base ? '今日' : jp(day)}の湾岸・${items.filter((it) => visible(it)).length}件`;
+      counts();
+    };
+
+    // ── ハッカー子の案内 ──
+    const FACES = ['/images/expr-01-wave.png', '/images/expr-04-cheer.png', '/images/expr-05-smug.png', '/images/expr-07-gasp.png'];
+    let tourIdx = -1; let tourTimer = 0;
+    const moveGuide = (i: number, say?: string) => {
+      const it = items[i];
+      guide.style.left = `${it.x / 10}%`;
+      guide.style.top = `${it.y / 10}%`;
+      guide.classList.remove('is-hop'); void guide.offsetWidth; guide.classList.add('is-hop');
+      guide.classList.toggle('is-left', it.x > (stage.clientWidth < 520 ? 480 : 620));
+      guideFace.src = FACES[i % FACES.length];
+      const when = it.kind === 'news' ? 'のニュース' : isOn(it) ? 'は開催中！' : `は${jp(it.start)}から`;
+      guideText.textContent = say ?? `${it.area || it.place}の「${it.short}」${when}`;
+      pins.forEach((p, k) => p.classList.toggle('is-focus', k === i));
+    };
+    const tourList = () => items.map((it, i) => ({ it, i })).filter(({ it }) => visible(it)).sort((a, b) => Number(isOn(b.it)) - Number(isOn(a.it)) || a.it.start.localeCompare(b.it.start));
+    const step = () => {
+      const list = tourList();
+      if (!list.length) { guideText.textContent = 'この条件のイベントは無いわ。日付か絞り込みを変えてみて'; return; }
+      tourIdx = (tourIdx + 1) % list.length;
+      moveGuide(list[tourIdx].i);
+    };
+    const startTour = () => { clearInterval(tourTimer); if (!reduce) tourTimer = window.setInterval(step, 4800); };
+    guide.addEventListener('click', () => { step(); startTour(); });
+
+    // ── カード ──
+    const open = (i: number) => {
+      const it = items[i];
+      card.hidden = false;
+      (card.querySelector('[data-card-link]') as HTMLAnchorElement).href = `/posts/${it.slug}/`;
+      const img = card.querySelector<HTMLImageElement>('[data-card-img]')!; img.src = it.img; img.hidden = !it.img;
+      card.querySelector('[data-card-meta]')!.textContent = it.kind === 'news' ? `${jp(it.start)}のニュース` : `${isOn(it) ? '開催中・' : ''}${jp(it.start)}${it.end && it.end !== it.start ? `〜${jp(it.end)}` : ''}`;
+      card.querySelector('[data-card-title]')!.textContent = it.title;
+      card.querySelector('[data-card-place]')!.textContent = `${it.place}${it.kind === 'event' ? (it.isFree ? '・無料' : '・料金は記事で') : ''}`;
+      moveGuide(i, it.kind === 'event' && isOn(it) ? 'ここ！いま開催中よ' : 'ここよ！');
+      clearInterval(tourTimer);
+    };
+    pins.forEach((p, i) => p.addEventListener('click', (e) => { e.preventDefault(); open(i); }));
+    root.querySelectorAll<HTMLButtonElement>('[data-goto]').forEach((b) => b.addEventListener('click', () => { open(Number(b.dataset.goto)); stage.scrollIntoView({ behavior: reduce ? 'auto' : 'smooth', block: 'center' }); }));
+    root.querySelector('[data-card-close]')!.addEventListener('click', () => { card.hidden = true; startTour(); });
+
+    // ── 絞り込み・日付 ──
+    root.querySelectorAll<HTMLButtonElement>('[data-filter]').forEach((b) => b.addEventListener('click', () => {
+      filter = b.dataset.filter!;
+      root.querySelectorAll('[data-filter]').forEach((x) => x.classList.toggle('is-on', x === b));
+      render(); tourIdx = -1; step(); startTour();
+    }));
+    range.addEventListener('input', () => { day = add(base, Number(range.value)); render(); });
+    range.addEventListener('change', () => { tourIdx = -1; step(); });
+    const play = root.querySelector<HTMLButtonElement>('[data-play]')!;
+    let playTimer = 0;
+    play.addEventListener('click', () => {
+      if (playTimer) { clearInterval(playTimer); playTimer = 0; play.textContent = '▶ 90日を再生'; play.setAttribute('aria-pressed', 'false'); return; }
+      play.textContent = '■ 止める'; play.setAttribute('aria-pressed', 'true');
+      if (Number(range.value) >= 90) range.value = '0';
+      playTimer = window.setInterval(() => {
+        const v = Number(range.value) + 1; range.value = String(v); day = add(base, v); render();
+        if (v % 6 === 0) { tourIdx = -1; step(); }
+        if (v >= 90) { clearInterval(playTimer); playTimer = 0; play.textContent = '▶ 90日を再生'; play.setAttribute('aria-pressed', 'false'); }
+      }, reduce ? 400 : 180);
+    });
+
+    // ── 拡大・移動（ドラッグ・ピンチ・ボタン） ──
+    let z = 1, tx = 0, ty = 0;
+    const clamp = () => { const w = stage.clientWidth, h = stage.clientHeight; tx = Math.min(0, Math.max(w - w * z, tx)); ty = Math.min(0, Math.max(h - h * z, ty)); };
+    const apply = () => { clamp(); canvas.style.transform = `translate(${tx}px, ${ty}px) scale(${z})`; root.style.setProperty('--wm-z', String(z)); root.classList.toggle('is-zoomed', z >= 2.5); };
+    const zoomAt = (nz: number, cx: number, cy: number) => { nz = Math.min(4, Math.max(1, nz)); tx = cx - ((cx - tx) * nz) / z; ty = cy - ((cy - ty) * nz) / z; z = nz; apply(); };
+    root.querySelectorAll<HTMLButtonElement>('[data-zoom]').forEach((b) => b.addEventListener('click', () => {
+      const r = stage.getBoundingClientRect();
+      if (b.dataset.zoom === 'reset') { z = 1; tx = 0; ty = 0; apply(); return; }
+      zoomAt(z * (b.dataset.zoom === 'in' ? 1.5 : 1 / 1.5), r.width / 2, r.height / 2);
+    }));
+    const pts = new Map<number, { x: number; y: number }>();
+    let last: { x: number; y: number; d: number } | null = null; let moved = false;
+    stage.addEventListener('pointerdown', (e) => { pts.set(e.pointerId, { x: e.clientX, y: e.clientY }); moved = false; last = null; });
+    stage.addEventListener('pointermove', (e) => {
+      if (!pts.has(e.pointerId)) return;
+      const prev = pts.get(e.pointerId)!; pts.set(e.pointerId, { x: e.clientX, y: e.clientY });
+      if (pts.size === 1 && z > 1) { tx += e.clientX - prev.x; ty += e.clientY - prev.y; if (Math.abs(e.clientX - prev.x) + Math.abs(e.clientY - prev.y) > 2) { moved = true; stage.setPointerCapture(e.pointerId); } apply(); }
+      if (pts.size === 2) {
+        const [a, b] = [...pts.values()]; const d = Math.hypot(a.x - b.x, a.y - b.y); const r = stage.getBoundingClientRect();
+        const c = { x: (a.x + b.x) / 2 - r.left, y: (a.y + b.y) / 2 - r.top };
+        if (last) zoomAt(z * (d / last.d), c.x, c.y);
+        last = { ...c, d }; moved = true;
+      }
+    });
+    const up = (e: PointerEvent) => { pts.delete(e.pointerId); if (pts.size < 2) last = null; };
+    stage.addEventListener('pointerup', up); stage.addEventListener('pointercancel', up);
+    stage.addEventListener('click', (e) => { if (moved) { e.preventDefault(); e.stopPropagation(); } }, true);
+    stage.addEventListener('wheel', (e) => { if (!e.ctrlKey && z === 1) return; e.preventDefault(); const r = stage.getBoundingClientRect(); zoomAt(z * (e.deltaY < 0 ? 1.15 : 1 / 1.15), e.clientX - r.left, e.clientY - r.top); }, { passive: false });
+
+    render();
+    // スマホは最初から湾岸の真ん中（豊洲・晴海・有明）に寄せる。全体は ⤢ で戻せる
+    const fitStart = () => { if (stage.clientWidth < 600) { z = 1; tx = 0; ty = 0; const w = stage.clientWidth; zoomAt(1.7, w * 0.5, w * 0.44); } };
+    fitStart();
+    // 画面に入ってから案内を始める（ピンは上から落ちてくる）
+    new IntersectionObserver((ents, ob) => { if (ents.some((x) => x.isIntersecting)) { root.classList.add('is-in'); setTimeout(() => { step(); startTour(); }, reduce ? 0 : 900); ob.disconnect(); } }, { threshold: 0.25 }).observe(stage);
+  }
+</script>
+
+<style>
+  .wmap { --wm-sea: #b6daf6; --wm-sea-line: #94c4ea; --wm-land-chuo: #fdf1f4; --wm-land-koto: #fbf8f0; --wm-land-out: #e9eaec; --wm-edge: #d7c7ae; --wm-ink: #5b4636; --wm-z: 1; --wm-pin: 1;
+    margin: 0 0 40px; }
+  .wmap-head { margin-bottom: 12px; }
+  .wmap-title { font-size: clamp(22px, 3.2vw, 30px); font-weight: 900; margin: 0 0 6px; text-wrap: balance; }
+  .wmap-title span { font-size: 0.55em; font-weight: 700; color: var(--ink-3); margin-left: 6px; }
+  .wmap-lead { margin: 0; color: var(--ink-2); font-size: 14px; line-height: 1.8; max-width: 70ch; }
+  .wmap-dock { position: absolute; left: 50%; bottom: 30px; transform: translateX(-50%); z-index: 4; display: flex; gap: 2px; padding: 6px; max-width: calc(100% - 20px); overflow-x: auto; scrollbar-width: none;
+    background: rgba(255, 255, 255, 0.82); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); border-radius: 18px; box-shadow: 0 6px 22px rgba(30, 60, 90, 0.18); }
+  .wmap-chip { flex: 0 0 auto; display: grid; justify-items: center; gap: 1px; border: 0; background: transparent; color: #45607a; border-radius: 12px; padding: 6px 10px; font-size: 11px; font-weight: 800; cursor: pointer; white-space: nowrap; }
+  .wmap-chip i { font-style: normal; font-size: 20px; line-height: 1; }
+  .wmap-chip b { font-size: 10px; color: #7a8ea3; font-variant-numeric: tabular-nums; }
+  .wmap-chip.is-on { background: #fff; color: var(--pink-700); box-shadow: 0 1px 6px rgba(30, 60, 90, 0.15); }
+  .wmap-chip.is-on b { color: var(--pink-700); }
+  .wmap-chip:focus-visible, .wmap-play:focus-visible, .wmap-zoom button:focus-visible { outline: 3px solid var(--pink-300); outline-offset: 2px; }
+  .wmap-pill { position: absolute; left: 10px; top: 10px; z-index: 4; margin: 0; padding: 7px 14px; border-radius: 999px; background: rgba(255, 255, 255, 0.9); box-shadow: 0 3px 12px rgba(30, 60, 90, 0.16); font-size: 12px; font-weight: 800; color: #45607a; }
+  .wmap-time { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 12px; margin: 0 0 10px; font-size: 13px; font-weight: 700; color: var(--ink-2); }
+  .wmap-time input { flex: 1 1 180px; min-width: 0; accent-color: var(--pink-500); }
+  .wmap-time output { min-width: 9em; font-variant-numeric: tabular-nums; color: var(--pink-700); }
+  .wmap-play { border: 0; background: var(--wm-ink); color: #fff; border-radius: 8px; padding: 6px 12px; font-weight: 700; cursor: pointer; }
+
+  .wmap-stage { position: relative; aspect-ratio: 1 / 1; width: min(100%, 82vh); max-width: 100%; margin-inline: auto; overflow: hidden; border-radius: 18px; border: 3px solid #fff; box-shadow: 0 0 0 1px var(--pink-200), 0 10px 28px rgba(60, 40, 20, 0.12); background: var(--wm-sea); touch-action: pan-y; user-select: none; }
+  .wmap-canvas { position: absolute; inset: 0; transform-origin: 0 0; transition: transform 0.25s ease; }
+  .wmap-svg { width: 100%; height: 100%; display: block; }
+  :global(.wm-sea) { fill: var(--wm-sea); }
+  :global(.wm-wave-line) { fill: none; stroke: var(--wm-sea-line); stroke-width: 1.6; stroke-linecap: round; opacity: 0.55; }
+  :global(.wm-waves) { animation: wm-drift 14s linear infinite; }
+  @keyframes wm-drift { from { transform: translateX(0); } to { transform: translateX(-60px); } }
+  :global(.wm-land) { fill: var(--wm-land-koto); stroke: var(--wm-edge); stroke-width: 2.4; stroke-linejoin: round; }
+  :global(.wm-land-out) { fill: var(--wm-land-out) !important; }
+  :global(.wm-dot) { fill: #d9c2a3; }
+  :global(.wm-ic-b) { fill: #fff; stroke: var(--wm-ink); stroke-width: 1.6; stroke-linejoin: round; }
+  :global(.wm-ic-a) { fill: #ff8fb1; stroke: var(--wm-ink); stroke-width: 1.4; }
+  :global(.wm-ic-g) { fill: #9fd69a; stroke: #5c8f57; stroke-width: 1.4; }
+  :global(.wm-ic-l) { fill: none; stroke: var(--wm-ink); stroke-width: 1.4; stroke-linecap: round; }
+  :global(.wm-lm > g), :global(.wm-lm-name) { transform: scale(calc(1 / var(--wm-z))); }
+  :global(.wm-lm-name) { font-size: 11px; font-weight: 700; fill: var(--wm-ink); text-anchor: middle; paint-order: stroke; stroke: #fffaf0; stroke-width: 3px; }
+  :global(.wm-area-name) { font-size: 26px; font-weight: 900; fill: #a3754c; text-anchor: middle; letter-spacing: 0.08em; paint-order: stroke; stroke: #fff; stroke-width: 5px; opacity: 0.85; }
+  :global(.wm-area-ward) { font-size: 11px; font-weight: 700; fill: #b89474; text-anchor: middle; paint-order: stroke; stroke: #fff; stroke-width: 3px; }
+  :global(.wm-area:hover .wm-area-name) { fill: var(--pink-700); }
+  :global(.wm-boat-body) { opacity: 0.9; }
+
+  :global(.wm-pin) { cursor: pointer; transition: opacity 0.3s; }
+  :global(.wm-pin-scale) { transform: scale(calc(var(--wm-pin) / var(--wm-z))); transition: transform 0.25s ease; }
+  :global(.wm-pin .wm-pin-drop) { transform: translateY(-200px); opacity: 0; transition: transform 0.6s cubic-bezier(0.3, 1.5, 0.5, 1), opacity 0.3s; }
+  .wmap.is-in :global(.wm-pin .wm-pin-drop) { transform: none; opacity: 1; }
+  :global(.wm-pin.is-hidden) { opacity: 0; pointer-events: none; }
+  :global(.wm-pin-ring) { fill: #fff; stroke: #4a7fd6; stroke-width: 3; filter: drop-shadow(0 3px 3px rgba(20, 50, 90, 0.3)); }
+  :global(.wm-pin-tail) { fill: #4a7fd6; transform: translateY(-9px); }
+  :global(.wm-pin-noimg) { fill: #dce9f7; }
+  :global(.wm-pin-news .wm-pin-ring) { stroke: #f0a020; } :global(.wm-pin-news .wm-pin-tail) { fill: #f0a020; }
+  :global(.wm-pin.is-soon .wm-pin-ring) { stroke: #7b6cf6; } :global(.wm-pin.is-soon .wm-pin-tail) { fill: #7b6cf6; }
+  :global(.wm-pin.is-now .wm-pin-ring) { stroke: var(--pink-500); } :global(.wm-pin.is-now .wm-pin-tail) { fill: var(--pink-500); }
+  :global(.wm-pin-badge rect) { fill: #4a7fd6; stroke: #fff; stroke-width: 1.5; }
+  :global(.wm-pin.is-now .wm-pin-badge rect) { fill: var(--pink-500); } :global(.wm-pin.is-soon .wm-pin-badge rect) { fill: #7b6cf6; } :global(.wm-pin-news .wm-pin-badge rect) { fill: #f0a020; }
+  :global(.wm-pin-badge-t) { font-size: 10px; font-weight: 900; fill: #fff; text-anchor: middle; dominant-baseline: central; }
+  :global(.wm-pin-name) { font-size: 12px; font-weight: 800; fill: #2b3f55; text-anchor: middle; paint-order: stroke; stroke: #fff; stroke-width: 4px; stroke-linejoin: round; opacity: 0; transition: opacity 0.2s; pointer-events: none; }
+  :global(.wm-pin.is-now .wm-pin-name), :global(.wm-pin.is-focus .wm-pin-name), :global(.wm-pin:hover .wm-pin-name), .wmap.is-zoomed :global(.wm-pin-name) { opacity: 1; }
+  :global(.wm-pin-pulse) { fill: var(--pink-500); opacity: 0; transform-box: fill-box; transform-origin: center; }
+  :global(.wm-pin.is-now .wm-pin-pulse) { animation: wm-pulse 1.8s ease-out infinite; }
+  @keyframes wm-pulse { 0% { transform: scale(0.6); opacity: 0.5; } 100% { transform: scale(1.8); opacity: 0; } }
+  :global(.wm-pin.is-focus .wm-pin-drop) { transform: scale(1.25); }
+  :global(.wm-pin:hover .wm-pin-drop), :global(.wm-pin:focus-visible .wm-pin-drop) { transform: scale(1.15); }
+
+  .wmap-guide { position: absolute; left: 50%; top: 50%; width: 0; height: 0; transition: left 1.4s cubic-bezier(0.5, 0, 0.3, 1), top 1.4s cubic-bezier(0.5, 0, 0.3, 1); z-index: 3; cursor: pointer; }
+  .wmap-guide-face { position: absolute; left: -36px; top: -118px; width: 72px; height: 72px; border-radius: 50%; background: #fff; border: 3px solid var(--pink-300); box-shadow: 0 6px 14px rgba(0, 0, 0, 0.18); object-fit: cover; object-position: center 12%; max-width: none; animation: wm-bob 2.4s ease-in-out infinite; transform: scale(calc(1 / var(--wm-z))); transform-origin: 50% 100%; }
+  .wmap-guide.is-hop .wmap-guide-face { animation: wm-hop 1.4s ease, wm-bob 2.4s 1.4s ease-in-out infinite; }
+  .wmap-guide-bubble { position: absolute; left: 44px; top: -128px; width: max-content; max-width: min(240px, 52vw); padding: 7px 11px; background: #fff; border: 2px solid var(--wm-ink); border-radius: 12px; font-size: 12px; font-weight: 800; line-height: 1.5; color: var(--wm-ink); box-shadow: 3px 3px 0 rgba(91, 70, 54, 0.25); transform: scale(calc(1 / var(--wm-z))); transform-origin: 0 100%; }
+  .wmap-guide.is-left .wmap-guide-bubble { left: auto; right: 44px; transform-origin: 100% 100%; }
+  @keyframes wm-bob { 0%, 100% { translate: 0 0; } 50% { translate: 0 -6px; } }
+  @keyframes wm-hop { 0% { translate: 0 0; } 30% { translate: 0 -40px; } 60% { translate: 0 0; } 75% { translate: 0 -10px; } 100% { translate: 0 0; } }
+
+  .wmap-zoom { position: absolute; right: 10px; top: 10px; display: grid; gap: 6px; z-index: 4; }
+  .wmap-zoom button { width: 38px; height: 38px; border-radius: 50%; border: 0; box-shadow: 0 3px 12px rgba(30, 60, 90, 0.18); background: rgba(255, 255, 255, 0.92); font-size: 18px; font-weight: 900; cursor: pointer; color: var(--wm-ink); }
+  .wmap-credit { position: absolute; left: 8px; right: 8px; bottom: 4px; text-align: center; margin: 0; font-size: 10px; color: #4b6b80; background: rgba(255, 255, 255, 0.75); padding: 2px 6px; border-radius: 6px; z-index: 4; }
+
+  .wmap-card { position: relative; margin-top: 10px; border: 2px solid var(--wm-ink); border-radius: 14px; background: #fff; box-shadow: 4px 4px 0 rgba(91, 70, 54, 0.2); }
+  .wmap-card-link { display: grid; grid-template-columns: 120px 1fr; gap: 12px; padding: 12px 44px 12px 12px; color: inherit; text-decoration: none; }
+  .wmap-card-link > div { min-width: 0; }
+  .wmap-card-link img { width: 120px; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 8px; max-width: 100%; }
+  .wmap-card-meta { margin: 0; font-size: 12px; font-weight: 800; color: var(--pink-700); }
+  .wmap-card-title { margin: 2px 0; font-weight: 900; line-height: 1.5; }
+  .wmap-card-place { margin: 0; font-size: 12px; color: var(--ink-3); }
+  .wmap-card-go { font-size: 12px; font-weight: 800; color: var(--pink-700); }
+  .wmap-card-close { position: absolute; right: 8px; top: 8px; width: 30px; height: 30px; border: 0; background: var(--pink-50); border-radius: 50%; font-size: 18px; cursor: pointer; }
+
+  .wmap-list { list-style: none; padding: 0; margin: 14px 0 0; display: grid; gap: 6px; }
+  .wmap-li { display: grid; grid-template-columns: 36px 1fr; gap: 0 8px; align-items: start; padding: 8px 10px; border: 1px solid var(--line); border-radius: 10px; background: #fff; }
+  .wmap-li > * { min-width: 0; }
+  .wmap-li button { grid-row: span 3; border: 0; background: var(--pink-50); border-radius: 8px; height: 34px; cursor: pointer; }
+  .wmap-li-date { font-size: 12px; font-weight: 800; color: var(--pink-700); }
+  .wmap-li a { font-weight: 800; line-height: 1.5; }
+  .wmap-li-place { font-size: 12px; color: var(--ink-3); }
+  .wmap-li-news .wmap-li-date { color: #b36b00; }
+
+  @media (max-width: 640px) {
+    .wmap { --wm-pin: 1.5; }
+    .wmap-dock { bottom: 24px; padding: 4px; border-radius: 14px; }
+    .wmap-chip { padding: 4px 7px; font-size: 10px; }
+    .wmap-chip i { font-size: 16px; }
+    .wmap-chip b { display: none; }
+    .wmap-credit { font-size: 9px; padding: 1px 4px; }
+    .wmap-pill { font-size: 11px; padding: 5px 10px; }
+  }
+  @media (max-width: 640px) {
+    .wmap-card-link { grid-template-columns: 1fr; }
+    .wmap-card-link img { width: 100%; }
+    .wmap-guide-face { width: 56px; height: 56px; left: -28px; top: -96px; }
+    .wmap-guide-bubble { left: 34px; top: -100px; font-size: 11px; }
+    .wmap-guide.is-left .wmap-guide-bubble { right: 34px; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    :global(.wm-waves), .wmap-guide-face, :global(.wm-pin.is-now .wm-pin-pulse) { animation: none !important; }
+    .wmap-guide, .wmap-canvas, :global(.wm-pin .wm-pin-drop) { transition: none !important; }
+  }
+</style>
