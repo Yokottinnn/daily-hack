@@ -1,4 +1,5 @@
 ---
+import { geoOf } from '../lib/wangan-map';
 import type { CollectionEntry } from 'astro:content';
 import type { MarkdownHeading } from 'astro';
 import BaseLayout from './BaseLayout.astro';
@@ -198,6 +199,7 @@ const articleJsonLd = {
 // イベントの記事は Event の構造化データも出す（2026-10-25・湾岸ニュース）。日時・場所は一次情報どおりにフロントマターへ書く
 const ev = data.event;
 const evAddr = ev ? splitJpAddress(ev.address) : null;
+const evGeo = ev ? geoOf(ev.address) : null;
 const eventLd = ev
   ? {
       '@context': 'https://schema.org',
@@ -210,6 +212,7 @@ const eventLd = ev
       location: {
         '@type': 'Place',
         name: ev.locationName,
+        ...(evGeo ? { geo: { '@type': 'GeoCoordinates', latitude: evGeo.lat, longitude: evGeo.lon } } : {}),
         address: {
           '@type': 'PostalAddress',
           streetAddress: evAddr!.street,
