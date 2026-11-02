@@ -6,6 +6,8 @@ import PostCard from '../../components/PostCard.astro';
 import AboutCard from '../../components/AboutCard.astro';
 import { postBelongsToCategory, type CategorySlug } from '../../lib/category';
 import { WANGAN_AREAS, WANGAN_NEWS_TAG, upcomingEvents, jpRange, jpDate, todayJst } from '../../lib/wangan';
+import WanganEventMap from '../../components/WanganEventMap.astro';
+import WanganMapGuide from '../../components/WanganMapGuide.astro';
 
 export async function getStaticPaths() {
   const cats = ['campaigns', 'services', 'comparisons', 'roundups', 'howto', 'wangan-life'];
@@ -181,6 +183,9 @@ for (const p of sorted) {
   {isWangan && (
     <section>
       <div class="wrap">
+        <WanganEventMap posts={sorted} />
+        <WanganMapGuide posts={sorted} compact />
+        <p style="margin: -16px 0 28px; font-size: 14px; font-weight: 700;"><a href="/wangan-map/">来週・今月・来月の一覧、地区ごと・会場ごとのイベントは「湾岸エリアイベントマップ」へ →</a></p>
         <div class="sec-head">
           <h2 id="upcoming">これから・開催中の湾岸イベント（{jpDate(today)}時点）</h2>
         </div>

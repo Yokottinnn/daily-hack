@@ -1,0 +1,111 @@
+---
+/**
+ * 湾岸エリアイベントマップの専用ページ（2026-11-02）。湾岸ライフの一覧にも同じマップを置いている。
+ * 「湾岸 イベント 今日」「豊洲 イベント マップ」「有明 今週末 イベント」で来る人のための入口。
+ */
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumb from '../components/Breadcrumb.astro';
+import WanganEventMap from '../components/WanganEventMap.astro';
+import { WANGAN_AREAS, jpDate, jpRange, todayJst } from '../lib/wangan';
+import { mapItems, nearestStation, periodRange, overlaps } from '../lib/wangan-map';
+import WanganMapGuide from '../components/WanganMapGuide.astro';
+
+const posts = (await getCollection('posts', ({ data }) => !data.draft && (data.category ?? []).includes('wangan-life')))
+  .sort((a, b) => b.data.publishDate.getTime() - a.data.publishDate.getTime());
+const today = todayJst();
+const items = mapItems(posts, today);
+const events = items.filter((i) => i.kind === 'event');
+const now = events.filter((e) => e.start <= today && today <= (e.end || e.start));
+const next = events.find((e) => e.start > today);
+const site = Astro.site!.toString().replace(/\/$/, '');
+const ym = `${Number(today.slice(0, 4))}年${Number(today.slice(5, 7))}月`;
+const title = `湾岸エリアイベントマップ【${ym}】豊洲・有明・晴海・月島の今日・今週・今月のイベント`;
+const description = `豊洲・有明・晴海・勝どき・月島・青海（中央区・江東区）のイベントを地図で一覧。${jpDate(today)}時点で開催中${now.length}件・これから${events.length - now.length}件。日付・会場・料金は公式発表どおり。毎朝更新。`;
+
+const week = events.filter((e) => overlaps(e, ...periodRange('week', today)));
+const month = events.filter((e) => overlaps(e, ...periodRange('month', today)));
+const free = events.filter((e) => e.isFree);
+const list = (xs: typeof events, n = 3) => xs.slice(0, n).map((e) => `「${e.title}」（${jpRange(e.start, e.end || undefined)}・${e.place}）`).join('、') + (xs.length > n ? `ほか${xs.length - n}件` : '');
+const toyosu = events.filter((e) => e.area === '豊洲');
+const ariake = events.filter((e) => e.area === '有明');
+const faq = [
+  { q: '湾岸エリアで今日やっているイベントは？', a: now.length ? `${jpDate(today)}時点で${now.length}件。${list(now)}。` : `${jpDate(today)}時点で開催中のものは無い。いちばん近いのは${next ? `「${next.title}」（${jpRange(next.start, next.end || undefined)}・${next.place}）` : 'まだ発表されていない'}。` },
+  { q: '今週末、湾岸で行けるイベントは？', a: week.length ? `今週（${jpRange(...periodRange('week', today))}）に開かれているのは${week.length}件。${list(week)}。` : '今週開かれるものは、いま掲載している中には無い。' },
+  { q: '今月の湾岸のイベントは？', a: month.length ? `今月は${month.length}件。${list(month, 4)}。` : '今月のものは、いま掲載している中には無い。' },
+  { q: '無料で行ける湾岸のイベントは？', a: free.length ? `無料のものは${free.length}件。${list(free)}。` : 'いま掲載している無料のものは無い。' },
+  { q: '豊洲でこれからあるイベントは？', a: toyosu.length ? `${toyosu.length}件。${list(toyosu)}。ららぽーと豊洲・豊洲市場・千客万来・新豊洲が主な会場。` : 'いま掲載している豊洲のイベントは無い。' },
+  { q: '有明でこれからあるイベントは？', a: ariake.length ? `${ariake.length}件。${list(ariake)}。有明アリーナ・有明ガーデン・東京ビッグサイトが主な会場。` : 'いま掲載している有明のイベントは無い。' },
+  { q: 'このマップはどの地域を扱っている？', a: '中央区の晴海・勝どき・月島・佃・豊海と、江東区の豊洲・有明・東雲・辰巳・青海。地図には目印として新橋・銀座・築地・お台場も描いているが、港区・品川区のイベントは扱っていない。' },
+  { q: '情報はどこから取っている？いつ更新している？', a: '施設の公式サイト・主催者のプレスリリース・東京都と中央区・江東区の発表。毎朝、新しいイベントの記事を書いてこの地図に足し、終わったイベントは自動で外している。地図の形は国土地理院の地図、駅の位置は OpenStreetMap をもとにした。' },
+];
+
+const ld = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'CollectionPage',
+    name: title,
+    description,
+    url: `${site}/wangan-map/`,
+    inLanguage: 'ja',
+    dateModified: today,
+    about: WANGAN_AREAS.map((a) => ({ '@type': 'Place', name: `東京都${a.ward}${a.tag}` })),
+    mainEntity: {
+      '@type': 'ItemList',
+      name: `湾岸エリアのイベント（${jpDate(today)}時点）`,
+      numberOfItems: events.length,
+      itemListElement: events.map((e, i) => ({
+        '@type': 'ListItem',
+        position: i + 1,
+        item: {
+          '@type': 'Event',
+          name: e.title,
+          startDate: e.start,
+          ...(e.end ? { endDate: e.end } : {}),
+          eventAttendanceMode: 'https://schema.org/OfflineEventAttendanceMode',
+          eventStatus: 'https://schema.org/EventScheduled',
+          url: `${site}/posts/${e.slug}/`,
+          ...(e.img ? { image: new URL(e.img, site).toString() } : {}),
+          ...(e.isFree ? { isAccessibleForFree: true } : {}),
+          location: {
+            '@type': 'Place',
+            name: e.place,
+            address: { '@type': 'PostalAddress', streetAddress: e.address, addressCountry: 'JP' },
+            ...(e.lat ? { geo: { '@type': 'GeoCoordinates', latitude: e.lat, longitude: e.lon } } : {}),
+          },
+        },
+      })),
+    },
+  },
+  { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: faq.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })) },
+];
+---
+
+<BaseLayout title={title} description={description}>
+  {ld.map((x) => <script slot="head" type="application/ld+json" set:html={JSON.stringify(x)} />)}
+  <section class="cat-hero" style="padding-bottom: 8px;">
+    <div class="wrap">
+      <Breadcrumb items={[{ label: 'ホーム', href: '/' }, { label: '湾岸ライフ', href: '/category/wangan-life/' }, { label: 'イベントマップ' }]} />
+    </div>
+  </section>
+  <section>
+    <div class="wrap">
+      <WanganEventMap posts={posts} headingLevel="h1" title={`湾岸エリアイベントマップ ${ym}`} />
+      <WanganMapGuide posts={posts} />
+
+      <div class="sec-head"><h2 id="faq">よくある質問</h2></div>
+      <div class="cmp-table-wrap">
+        <table class="cmp-table spec-table faq-table">
+          <tbody>
+            {faq.map((f) => <tr><th>{f.q}</th><td>{f.a}</td></tr>)}
+          </tbody>
+        </table>
+      </div>
+      <p style="margin-top: 16px; font-size: 13px; color: var(--ink-3);">
+        地区ごとの記事は
+        {WANGAN_AREAS.map((a, i) => <>{i > 0 && '・'}<a href={`/tags/${a.tag}/`}>{a.tag}</a></>)}
+        。湾岸の暮らしの記事は <a href="/category/wangan-life/">湾岸ライフの一覧</a>、毎朝のニュースは <a href="/tags/湾岸ニュース/">湾岸ニュース</a>。
+      </p>
+    </div>
+  </section>
+</BaseLayout>

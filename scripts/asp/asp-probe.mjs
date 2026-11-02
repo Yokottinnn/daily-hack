@@ -351,6 +351,30 @@ try {
     }
   }
 
+  if (WHICH === 'ownerrecon') {
+    // **VC・Amazon の登録が「法人」か「個人」かだけを読む（2026-11-02 利用者が選んだ）。押さない。**
+    // 名前・会社名・口座は出さない。出すのは「区分・種別・形態」の欄の値が 個人／法人／個人事業主 のどれかと、どの画面で読んだかだけ
+    const KIND = /^(個人|法人|個人事業主|法人・団体|法人（[^）]{0,10}）|Individual|Business|Corporation)$/;
+    const readKind = () => p.evaluate((src) => { const KIND = new RegExp(src);
+      const L = document.body.innerText.split('\n').map((x) => x.trim()).filter(Boolean); const out = [];
+      L.forEach((x, i) => { if (/区分|種別|形態|個人・法人|法人・個人|事業者|account type|entity/i.test(x) && x.length <= 30) {
+        const v = [x.replace(/.*[:：]\s*/, ''), L[i + 1] || ''].find((y) => KIND.test(y)); if (v) out.push(`${x.slice(0, 20)} → ${v}`); } });
+      return [...new Set(out)].slice(0, 6); }, KIND.source);
+    const linksOf = (re) => p.evaluate((src) => { const re = new RegExp(src);
+      return [...new Set([...document.querySelectorAll('a')].filter((a) => re.test((a.innerText || a.textContent || '').trim()) || /\/account\/(?!site)|\/account$|payment|tax|profile|user\/info|member/i.test(a.getAttribute('href') || '')).map((a) => a.href).filter((h) => /^https?:/.test(h) && !/logout|help|faq/i.test(h)))].slice(0, 8); }, re.source);
+    for (const [name, home] of [['バリューコマース', 'https://aff.valuecommerce.ne.jp/home'], ['Amazon アソシエイト', 'https://affiliate.amazon.co.jp/home']]) {
+      await go(home);
+      lines.push(`## ${name}`, `- 開いた画面: ${here()}（パスワード欄: ${await p.locator('input[type=password]:visible').count()}）`);
+      const cand = await linksOf(/登録情報|会員情報|アカウント|口座|支払|税務|プロフィール|Account|Payment|Tax/);
+      lines.push(`- 候補の画面 ${cand.length} 件: ${cand.map((u) => new URL(u).pathname).join(' ／ ')}`);
+      for (const u of [home, ...cand].slice(0, 7)) {
+        if (u !== home) await go(u);
+        const k = await readKind();
+        lines.push(`  - ${new URL(p.url()).pathname}: ${k.length ? k.join(' ／ ') : '区分の欄なし'}`);
+      }
+      lines.push('');
+    }
+  }
   if (WHICH === 'moshimostatus') {
     // **もしもの案件の申請状態を、詳細画面の「基本情報」の中から読む（サイドバーの「申請中／提携中」のリンクを数えない）（2026-11-01）**
     for (const id of (process.env.MOSHIMO_IDS || '').split(',').filter(Boolean)) {

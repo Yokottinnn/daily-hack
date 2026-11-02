@@ -1,0 +1,167 @@
+---
+/**
+ * 湾岸エリアイベントマップの文章の部分（2026-11-03 利用者「SEO・AIOで絶対に勝てるような構図にちゃんとしてね／十分なコメントとページ構成にして」）。
+ * 地図は JavaScript なしでは読めないので、**同じ中身を文章と表で必ず出す**（検索エンジンと AI の回答はここを読む）。
+ * - 冒頭で答える: 今日開いている件数・今週始まる件数・無料の件数・次に始まるもの
+ * - 期間ごと（今週・来週・今月・来月）の表
+ * - 地区ごと（豊洲・有明・晴海…）の節
+ * - 会場の一覧（住所・最寄り駅）
+ * 数字・日付・会場は記事の `event:`（一次情報どおり）からだけ作る。
+ */
+import { mapItems, periodRange, overlaps, nearestStation, addDays } from '../lib/wangan-map';
+import { WANGAN_AREAS, todayJst, jpDate, jpRange } from '../lib/wangan';
+import type { CollectionEntry } from 'astro:content';
+
+interface Props { posts: CollectionEntry<'posts'>[]; compact?: boolean }
+const { posts, compact = false } = Astro.props;
+const today = todayJst();
+const items = mapItems(posts, today);
+const events = items.filter((i) => i.kind === 'event');
+const endOf = (e: (typeof events)[number]) => e.end || addDays(e.start, 60);
+const now = events.filter((e) => e.start <= today && today <= endOf(e));
+const soon = events.filter((e) => e.start > today);
+const free = events.filter((e) => e.isFree);
+const next = soon[0];
+const range = (r: [string, string]) => (r[0] === r[1] ? jpDate(r[0]) : jpRange(r[0], r[1]));
+const periods = [
+  { id: 'this-week', label: '今週', r: periodRange('week', today) },
+  { id: 'next-week', label: '来週', r: periodRange('nextweek', today) },
+  { id: 'this-month', label: '今月', r: periodRange('month', today) },
+  { id: 'next-month', label: '来月', r: periodRange('nextmonth', today) },
+].map((p) => ({ ...p, list: events.filter((e) => overlaps(e, p.r[0], p.r[1])) }));
+const shown = compact ? periods.slice(0, 1) : periods;
+const fee = (e: (typeof events)[number]) => (e.isFree ? '無料' : '有料（記事に料金）');
+const station = (e: (typeof events)[number]) => (e.lat ? nearestStation(e.lat, e.lon!) : null);
+
+// 地区ごと
+const byArea = WANGAN_AREAS.map((a) => ({ ...a, list: events.filter((e) => e.area === a.tag) })).filter((a) => a.list.length > 0);
+// 会場ごと
+const venues = [...new Map(events.filter((e) => e.address).map((e) => [e.place, e])).values()].map((e) => ({
+  place: e.place, address: e.address!, area: e.area, st: station(e), count: events.filter((x) => x.place === e.place).length, slug: e.slug,
+}));
+---
+
+<div class="wguide">
+  <div class="wguide-answer">
+    <p class="wguide-kicker">{jpDate(today)}時点の湾岸（中央区・江東区）</p>
+    <p class="wguide-big">
+      開催中 <strong>{now.length}件</strong>・これから始まる <strong>{soon.length}件</strong>・無料 <strong>{free.length}件</strong>
+    </p>
+    {next && <p class="wguide-next">次に始まるのは「<a href={`/posts/${next.slug}/`}>{next.title}</a>」（{jpRange(next.start, next.end || undefined)}・{next.place}）。</p>}
+    {now.length > 0 && <p class="wguide-next">いま開いているのは {now.slice(0, 4).map((e, i) => <>{i > 0 && '、'}「<a href={`/posts/${e.slug}/`}>{e.title}</a>」</>)}{now.length > 4 && ` ほか${now.length - 4}件`}。</p>}
+  </div>
+
+  {shown.map((p) => (
+    <div class="wguide-sec" role="region" aria-labelledby={`wg-${p.id}`}>
+      <h2 id={`wg-${p.id}`}>{p.label}の湾岸イベント（{range(p.r)}）</h2>
+      {p.list.length ? (
+        <div class="cmp-table-wrap">
+          <table class="cmp-table wguide-table">
+            <thead><tr><th>日付</th><th>イベント・料金</th><th>会場・最寄り駅</th></tr></thead>
+            <tbody>
+              {p.list.map((e) => {
+                const st = station(e);
+                return (
+                  <tr>
+                    <td class="wguide-date">{jpRange(e.start, e.end || undefined)}</td>
+                    <td><a href={`/posts/${e.slug}/`}>{e.title}</a><br /><small>{fee(e)}</small></td>
+                    <td>{e.place}{e.area && `（${e.area}）`}{st && <><br /><small>{st.name}から直線約{st.meters}m</small></>}</td>
+                  </tr>
+                );
+              })}
+            </tbody>
+          </table>
+        </div>
+      ) : (
+        <p class="wguide-none">{p.label}（{range(p.r)}）に開かれるイベントは、いま掲載しているものの中には無い。新しいものは毎朝足している。</p>
+      )}
+    </div>
+  ))}
+
+  {!compact && (
+    <>
+      <div class="wguide-sec" role="region" aria-labelledby="wg-areas">
+        <h2 id="wg-areas">地区ごとのイベント（豊洲・有明・晴海・月島・青海）</h2>
+        <p>湾岸は運河で区切られた埋立地の集まりで、地区ごとに会場の性格が違う。地区の名前を押すと、その地区の記事がすべて見られる。</p>
+        {byArea.map((a) => (
+          <div class="wguide-area">
+            <h3><a href={`/tags/${a.tag}/`}>{a.tag}</a><span>（{a.ward}・{a.list.length}件）</span></h3>
+            <p class="wguide-area-lead">{a.lead}</p>
+            <ul>
+              {a.list.map((e) => <li><span class="wguide-date">{jpRange(e.start, e.end || undefined)}</span> <a href={`/posts/${e.slug}/`}>{e.title}</a>（{e.place}・{fee(e)}）</li>)}
+            </ul>
+          </div>
+        ))}
+      </div>
+
+      <div class="wguide-sec" role="region" aria-labelledby="wg-venues">
+        <h2 id="wg-venues">会場の一覧（住所・最寄り駅）</h2>
+        <div class="cmp-table-wrap">
+          <table class="cmp-table wguide-table">
+            <thead><tr><th>会場</th><th>住所</th><th>最寄り駅（直線距離）</th><th>掲載中</th></tr></thead>
+            <tbody>
+              {venues.map((v) => (
+                <tr>
+                  <td><a href={`/posts/${v.slug}/`}>{v.place}</a></td>
+                  <td>{v.address}</td>
+                  <td>{v.st ? `${v.st.name}・約${v.st.meters}m` : '—'}</td>
+                  <td>{v.count}件</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+        <p class="wguide-note">最寄り駅は駅の位置（OpenStreetMap）との直線距離。歩く道のりは長くなる。行き方は各記事に公式の案内どおりに書いている。</p>
+      </div>
+
+      <div class="wguide-sec" role="region" aria-labelledby="wg-how">
+        <h2 id="wg-how">このマップの見方</h2>
+        <ul class="wguide-how">
+          <li><strong>ピンの色</strong>：桃色は開催中、紫は 7 日以内に始まるもの、青はそれより先、橙は湾岸ニュース。ピンの札は始まる日付。</li>
+          <li><strong>期間を選ぶ</strong>：地図の下の帯で「今日・今週・来週・今月・来月・今年」を選ぶと、その期間に開かれているものだけが残る。「無料だけ」も選べる。</li>
+          <li><strong>くわしく見る</strong>：ピンに触れる（スマホは押す）と、地図の上に日付・会場・料金の小窓が出る。小窓から記事へ。</li>
+          <li><strong>動かす</strong>：ドラッグで動かし、＋－で拡大・縮小。⤢ で湾岸の真ん中に戻る。</li>
+        </ul>
+      </div>
+
+      <div class="wguide-sec" role="region" aria-labelledby="wg-src">
+        <h2 id="wg-src">情報の出どころと更新</h2>
+        <p>イベントの日付・時間・会場・料金は、施設の公式サイト・主催者のプレスリリース・東京都と中央区・江東区の発表をもとに、各記事に出典つきで書いている。マップと一覧は毎朝の湾岸ニュースの更新と一緒に作り直し、終わったイベントは自動で外している。扱う地域は中央区の晴海・勝どき・月島・佃・豊海と、江東区の豊洲・有明・東雲・辰巳・青海。地図には目印として新橋・銀座・築地・お台場も描いているが、港区・品川区のイベントは扱っていない。</p>
+        <p class="wguide-note">地図の形は国土地理院（地理院タイル・淡色地図）をもとに作成。駅の位置は © OpenStreetMap contributors。</p>
+      </div>
+    </>
+  )}
+</div>
+
+<style>
+  .wguide { display: grid; grid-template-columns: minmax(0, 1fr); gap: 28px; margin: 8px 0 32px; }
+  .wguide > * { min-width: 0; }
+  .wguide .cmp-table-wrap { overflow-x: auto; max-width: 100%; }
+  .wguide-answer { padding: 16px 18px; border-radius: 14px; background: var(--pink-50); border: 1px solid var(--pink-200); }
+  .wguide-kicker { margin: 0; font-size: 12px; font-weight: 800; color: var(--pink-700); }
+  .wguide-big { margin: 4px 0 6px; font-size: clamp(17px, 2.4vw, 21px); font-weight: 800; }
+  .wguide-big strong { color: var(--pink-700); font-variant-numeric: tabular-nums; }
+  .wguide-next { margin: 4px 0 0; font-size: 14px; line-height: 1.8; }
+  .wguide-sec h2 { font-size: clamp(19px, 2.6vw, 24px); margin: 0 0 10px; text-wrap: balance; }
+  .wguide-sec p { line-height: 1.9; max-width: 75ch; }
+  .wguide-table { min-width: 0 !important; width: 100%; }
+  .wguide-table td, .wguide-table th { font-size: 13px; vertical-align: top; }
+  .wguide-table td a { font-weight: 700; border-bottom: 1px dotted var(--pink-300); }
+  .wguide-table small { color: var(--ink-3); font-size: 12px; }
+  .wguide-table td { white-space: normal !important; }
+  .wguide-table .wguide-date { white-space: normal; min-width: 7.5em; }
+  @media (max-width: 640px) {
+    .wguide-table thead { display: none; }
+    .wguide-table, .wguide-table tbody, .wguide-table tr, .wguide-table td { display: block; width: 100%; }
+    .wguide-table tr { padding: 10px 12px; border-bottom: 1px solid var(--line); }
+    .wguide-table td { padding: 2px 0 !important; border: 0 !important; }
+  }
+  .wguide-date { white-space: nowrap; font-weight: 700; color: var(--pink-700); font-variant-numeric: tabular-nums; }
+  .wguide-none, .wguide-note { color: var(--ink-3); font-size: 13px; }
+  .wguide-area { padding: 12px 0; border-top: 1px dashed var(--line); }
+  .wguide-area h3 { margin: 0 0 4px; font-size: 18px; }
+  .wguide-area h3 span { font-size: 13px; font-weight: 700; color: var(--ink-3); margin-left: 4px; }
+  .wguide-area-lead { margin: 0 0 6px; font-size: 13px; color: var(--ink-2); }
+  .wguide-area ul { margin: 0; padding-left: 1.2em; line-height: 1.9; font-size: 14px; }
+  .wguide-how { line-height: 1.9; padding-left: 1.2em; }
+</style>

@@ -1,3 +1,4 @@
+import { geoOf } from '../lib/wangan-map';
 import type { APIRoute } from 'astro';
 import { getCollection } from 'astro:content';
 import { getCategories } from '../lib/category';
@@ -45,6 +46,7 @@ export const GET: APIRoute = async (ctx) => {
   lines.push('日付・会場・料金は施設の公式発表・プレスリリースどおり。湾岸ニュースは毎朝追加する。');
   lines.push('');
   lines.push(`- 一覧: ${site}/category/wangan-life/`);
+  lines.push(`- イベントマップ（地図でイベントの場所・日付・料金を見る）: ${site}/wangan-map/`);
   lines.push(`- 湾岸ニュース: ${site}/tags/${encodeURIComponent('湾岸ニュース')}/`);
   for (const a of WANGAN_AREAS) {
     if (wangan.some((p) => (p.data.tags ?? []).includes(a.tag))) {
@@ -55,7 +57,8 @@ export const GET: APIRoute = async (ctx) => {
   lines.push(`### これから・開催中のイベント（${jpDate(today)}時点・開始が近い順）`);
   lines.push('');
   for (const e of events) {
-    lines.push(`- ${jpRange(e.start, e.end)}｜${e.name}｜${e.place}｜${e.isFree ? '無料' : '料金は記事を参照'}｜${site}/posts/${e.post.id}/`);
+    const g = e.post.data.event ? geoOf(e.post.data.event.address) : null;
+    lines.push(`- ${jpRange(e.start, e.end)}｜${e.name}｜${e.place}${e.post.data.event ? `（${e.post.data.event.address}）` : ''}${g ? `｜緯度経度 ${g.lat},${g.lon}` : ''}｜${e.isFree ? '無料' : '料金は記事を参照'}｜${site}/posts/${e.post.id}/`);
   }
   if (events.length === 0) lines.push('- いま掲載中のイベントは無い');
   lines.push('');

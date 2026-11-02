@@ -1,4 +1,5 @@
 ---
+import { geoOf } from '../lib/wangan-map';
 import type { CollectionEntry } from 'astro:content';
 import type { MarkdownHeading } from 'astro';
 import BaseLayout from './BaseLayout.astro';
@@ -15,7 +16,6 @@ import a8Banners from '../data/a8-banners.json';
 import { isAdMaxConfigured } from '../data/admax-tags';
 import { getCollection } from 'astro:content';
 import { WANGAN_AREAS, WANGAN_NEWS_TAG, upcomingEvents, jpRange, splitJpAddress, todayJst } from '../lib/wangan';
-import DraftCommentWidget from '../components/DraftCommentWidget.astro';
 import { getPrimaryCategory, getCategories, postBelongsToCategory } from '../lib/category';
 import { collectHeadings } from '../lib/headings';
 import { faqJsonLd, howToJsonLd, sections } from '../lib/aio';
@@ -198,6 +198,7 @@ const articleJsonLd = {
 // イベントの記事は Event の構造化データも出す（2026-10-25・湾岸ニュース）。日時・場所は一次情報どおりにフロントマターへ書く
 const ev = data.event;
 const evAddr = ev ? splitJpAddress(ev.address) : null;
+const evGeo = ev ? geoOf(ev.address) : null;
 const eventLd = ev
   ? {
       '@context': 'https://schema.org',
@@ -210,6 +211,7 @@ const eventLd = ev
       location: {
         '@type': 'Place',
         name: ev.locationName,
+        ...(evGeo ? { geo: { '@type': 'GeoCoordinates', latitude: evGeo.lat, longitude: evGeo.lon } } : {}),
         address: {
           '@type': 'PostalAddress',
           streetAddress: evAddr!.street,
@@ -245,7 +247,7 @@ const wanganUpcoming = isWanganPost
 const howToLd = howToJsonLd(post.body, data.title);
 ---
 
-<BaseLayout title={data.title} description={data.description} ogImage={eyecatchSrc} noindex={data.draft}>
+<BaseLayout title={data.title} description={data.description} ogImage={eyecatchSrc} noindex={data.draft} reviewTools={showReviewTools}>
   <slot name="head" slot="head">
     <script type="application/ld+json" set:html={JSON.stringify(articleJsonLd)} />
     {faqLd && <script type="application/ld+json" set:html={JSON.stringify(faqLd)} />}
@@ -261,7 +263,6 @@ const howToLd = howToJsonLd(post.body, data.title);
       📝 DRAFT
     </div>
   )}
-  {showReviewTools && <DraftCommentWidget />}
   <main class="wrap">
     <div class="post-wrap">
       <article class="post-main" data-pagefind-body>
