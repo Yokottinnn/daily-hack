@@ -1,6 +1,6 @@
 # バリューコマース（asp-sync）
 
-生成: **2026-11-01T15:10:11.144Z**
+生成: **2026-11-02T01:04:04.039Z**
 
 - ログイン: **できている**
 - 最終 URL: https://aff.valuecommerce.ne.jp/home
@@ -17,9 +17,10 @@
 | MyLink一括変換 | https://aff.valuecommerce.ne.jp/tools/mylinkEcList |
 | サイト設定 | https://aff.valuecommerce.ne.jp/account/siteManage |
 | 【重要】広告主サイトの稼働状況に関するお知らせ | https://www.valuecommerce.ne.jp/support/maintenance/22906.html |
-| 【LYPプレミアム（旧Yahoo!プレミアム）】 会員獲得プログラム | https://aff.valuecommerce.ne.jp/ad/adDetail/2082539?tag=cm&spot=d |
 | 世界最大級！ツアーアクティビティの検索サイト「Liigo」販促プログラム | https://aff.valuecommerce.ne.jp/ad/adDetail/2161122?tag=cm&spot=d |
+| 【LYPプレミアム（旧Yahoo!プレミアム）】 会員獲得プログラム | https://aff.valuecommerce.ne.jp/ad/adDetail/2082539?tag=cm&spot=d |
 | Audibleアフィリエイト紹介プログラム | https://aff.valuecommerce.ne.jp/ad/adDetail/2174874 |
+| ふるさと納税「ふるなび」プログラム | https://aff.valuecommerce.ne.jp/ad/adDetail/2142798 |
 | 【LYPプレミアム（旧Yahoo!プレミアム）】 会員獲得プログラム | https://aff.valuecommerce.ne.jp/ad/adDetail/2082539 |
 | 広告主を組み合わせて紹介することで、注文数アップ。相性の良いカテゴリーの組み合わせとおすすめ広告主、効果的な紹介方法をご | https://www.valuecommerce.ne.jp/event/advertiser-combination/ |
 | 広告主のセール・キャンペーン情報が一覧に。成果につながる投稿ネタがすぐ見つかる！ | https://www.valuecommerce.ne.jp/event/ad_calendar/ |
@@ -32,15 +33,14 @@
 ```text
 ログアウト
 人気ワード：
-大人のデパート|
-サブスク|
-Renta!
+JRE|
+THE|
 ダッシュボード
 レポート
 詳細検索
 ■プログラム一覧
-提携状況 新規提携 4 提携済み 提携待ち 2 未提携 再申請可
-新規提携 4
+提携状況 新規提携 6 提携済み 提携待ち 2 未提携 再申請可
+新規提携 6
 提携済み
 提携待ち 2
 再申請可
@@ -68,7 +68,7 @@ LinkSwitch提携候補先
 レポート期間： 2026/10/01 ～ 2026/11/01
 1 (current)
 広告主名 リンク先URL数 リンク先URL表示回数 広告プログラム
-ジャルパック 国内ツアー [提携申請済] 152 25 広告プログラムを見る
+ジャルパック 国内ツアー [提携申請済] 163 27 広告プログラムを見る
 Softbank 光 54 14 広告プログラムを見る
 サンワダイレクト 14 14 広告プログラムを見る
 ふるさと納税「ふるなび」 [提携申請済] 76 9 広告プログラムを見る
