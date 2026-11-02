@@ -1,4 +1,5 @@
 ---
+import DraftCommentWidget from '../components/DraftCommentWidget.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import CookieConsent from '../components/CookieConsent.astro';
@@ -10,6 +11,8 @@ export interface Props {
   description?: string;
   ogImage?: string;
   noindex?: boolean;
+  /** 下書きの記事など、プレビュー以外でもコメント欄を出すとき */
+  reviewTools?: boolean;
 }
 
 const {
@@ -17,7 +20,10 @@ const {
   description = 'お得を毎日、ハック。ポイ活・節約・固定費削減のリアル最新情報を、毎日アップデート。',
   ogImage = '/images/mascot-avatar.png',
   noindex = false,
+  reviewTools = false,
 } = Astro.props;
+// プレビュー（下書きを含むビルド・*.pages.dev）では、全ページにコメント欄を出す（2026-11-02 利用者「このページにコメント機能がないよ　バグです」）
+const showReviewTools = reviewTools || import.meta.env.PUBLIC_INCLUDE_DRAFTS === 'true';
 
 const fullTitle = title === 'Daily Hack' ? title : `${title} | Daily Hack`;
 const canonical = new URL(Astro.url.pathname, Astro.site).toString();
@@ -179,5 +185,6 @@ const yandexVerification = import.meta.env.PUBLIC_YANDEX_VERIFICATION ?? '';
         2026-05-31 に外し、09-05 に記事ページにだけ戻し、**10-02 に利用者の指示で再び外した**。
         経緯は docs/ad-slots.md */}
     <CookieConsent />
+    {showReviewTools && <DraftCommentWidget />}
   </body>
 </html>
