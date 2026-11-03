@@ -1,28 +1,28 @@
-# 湾岸ニュース5選を予約する（2026-11-03 22:22:37 JST・$0）
+# 湾岸ニュース5選を予約する（2026-11-03 23:14:49 JST・$0）
 
 ## 0. 予約時刻
 
 ```
   JST          2026-11-04 08:00
   scheduled_at 2026-11-03T23:00:00.000Z  (UTC)
-  いまから      578 分後
+  いまから      526 分後
 ```
 
 ## 1. 画像 2 枚を origin/main から取り直す
 
 ```
-  1-cover.jpg        327318 bytes
-  2-list.jpg         234766 bytes
+  1-cover.jpg        327766 bytes
+  2-list.jpg         234723 bytes
   対象 2 枚 / 取れた 2 枚
 ```
 
 ## 2. 文面を origin/main から取り、利用者のレビューが入った版かを確かめて積む
 
 ```
-  ALT: 1枚目 269字 ／ 2枚目 502字
-  [1/2] レビュー済みの版 一致 ／ 文字 970 ／ 重み 1389 / 25000 ／ sha 681f961d277e
+  ALT: 1枚目 269字 ／ 2枚目 503字
+  [1/2] レビュー済みの版 一致 ／ 文字 971 ／ 重み 1391 / 25000 ／ sha 093377f9dd85
   [2/2] レビュー済みの版 一致 ／ 文字 154 ／ 重み 233 / 25000 ／ sha cf4476a46bf0
-OK 積んだ: x-news-20261104-wangan-5
+OK 積んだ: x-news-20261104-wangan-5b
   rc=0
 ```
 
@@ -45,7 +45,7 @@ OK 積んだ: x-news-20261104-wangan-5
 ## 5. Chrome は健全か（予約時点の参考。8:00 に run-publish.sh が ensure-chrome を呼ぶ）
 
 ```
-{"ok":true,"healthy":true,"round_trip_ms":2273,"product":"Chrome/140.0.7339.207","tabs":20}
+{"ok":true,"healthy":true,"round_trip_ms":4339,"product":"Chrome/140.0.7339.207","tabs":19}
   (rc=0)
 ```
 
