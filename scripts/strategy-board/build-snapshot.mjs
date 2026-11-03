@@ -79,6 +79,16 @@ for (const r of gsc?.data?.dates_90d || []) {
   weekly[k].clicks += r.c; weekly[k].impressions += r.i; weekly[k].days++;
 }
 const gscWeekly = Object.values(weekly).sort((a, b) => a.week.localeCompare(b.week));
+// 月ごと（2026-11-03 利用者のコメント）。dates_16m が無い間は 90 日分から作る。full = その月の日がそろっている
+const monthlyG = {};
+for (const r of gsc?.data?.dates_16m || gsc?.data?.dates_90d || []) {
+  const k = r.keys[0].slice(0, 7); monthlyG[k] = monthlyG[k] || { month: k, clicks: 0, impressions: 0, days: 0 };
+  monthlyG[k].clicks += r.c; monthlyG[k].impressions += r.i; monthlyG[k].days++;
+}
+const gscMonthly = Object.values(monthlyG).sort((a, b) => a.month.localeCompare(b.month))
+  .map((m) => ({ ...m, full: m.days >= new Date(Date.UTC(+m.month.slice(0, 4), +m.month.slice(5, 7), 0)).getUTCDate() }));
+// 最初の月は窓の途中から始まるので、日がそろっていなければ落とす
+if (gscMonthly.length > 1 && !gscMonthly[0].full) gscMonthly.shift();
 
 // ---------- 読者（Cloudflare・ボット除外） ----------
 const months = [...new Set([0, 1, 2, 3].map((k) => { const d = new Date(today); d.setMonth(d.getMonth() - k, 1); return iso(d).slice(0, 7); }))];
@@ -217,7 +227,17 @@ const reviewSets = [];
   } }
 reviewSets.sort((a, b) => (b.at || '').localeCompare(a.at || ''));
 // ---------- X とブログをつなぐ：投稿ごとに「告知の日と翌日の記事の読者」と「前後のフォロワーの増減」 ----------
-const fol = (xw?.followers || []).filter((f) => typeof f.count === 'number');
+// フォロワーの読み取りの失敗（2026-11-02 に 626 → 3 と記録された）を外す。前後の値の半分未満に落ちて戻る点は読み違い
+const folRaw = (xw?.followers || []).filter((f) => typeof f.count === 'number');
+const folBad = [];
+const fol = folRaw.filter((f, i) => {
+  const prev = folRaw.slice(0, i).reverse().find((x) => !folBad.includes(x));
+  const next = folRaw[i + 1];
+  const ref = [prev?.count, next?.count].filter((n) => typeof n === 'number');
+  if (ref.length && f.count < Math.min(...ref) * 0.5) { folBad.push(f); return false; }
+  return true;
+});
+if (folBad.length) console.warn(`X: フォロワーの読み違いを外した: ${folBad.map((f) => `${f.date}=${f.count}`).join(', ')}`);
 const folOn = (d) => { let v = null; for (const f of fol) { if (f.date <= d) v = f.count; else break; } return v; };
 const addDays = (d, n) => iso(new Date(new Date(d + 'T00:00:00Z').getTime() + n * 864e5));
 const humanOn = (slug, d) => daily[d]?.posts ? (daily[d].posts[`/posts/${slug}/`]?.human || 0) : null;
@@ -252,7 +272,7 @@ if (fol.length > 14) {
   if (g1 != null && g0 != null) xFacts.push(`フォロワーは直近 7 日で ${g1 >= 0 ? '+' : ''}${g1}、その前の 7 日で ${g0 >= 0 ? '+' : ''}${g0}（${last.date} 時点 ${last.count} 人）。`);
 }
 
-const xData = { generated: xw?.generated || null, joined: xPostsJoined, facts: xFacts, followers: (xw?.followers || []).filter((f) => typeof f.count === 'number'), posts: xw?.posts || [], keys: xw?.keys || null, reviewSets };
+const xData = { generated: xw?.generated || null, joined: xPostsJoined, facts: xFacts, followers: fol, posts: xw?.posts || [], keys: xw?.keys || null, reviewSets };
 
 // ---------- X の数字 ----------
 // **2026-10-19 まで、ここは docs/growth-strategy.md の手書きの表（10/12）だけを読んでいた。** 誰も更新せず、
@@ -368,7 +388,7 @@ const snapshot = {
     posts: { total: postList.length, isPR: postList.filter((p) => p.isPR).length, withAff: postList.filter((p) => p.aff > 0).length },
     pos4to10: { pages: pos4to10.length, impressions: sum(pos4to10, 'i') },
   },
-  gscWeekly, topPages, queries, pq, readTop, articles, pvMeta, xShared, monthly: monthlyRows, blog, others, xData,
+  gscWeekly, gscMonthly, topPages, queries, pq, readTop, articles, pvMeta, xShared, monthly: monthlyRows, blog, others, xData,
   a8: a8 ? { total: a8.total, rows: a8Rows, applyingCount: a8.applyingCount ?? null, generated: a8.generated } : null,
   // 記事ごとの成果リンクの一覧（2026-10-17・利用者の指示）
   affInventory: affInv,
