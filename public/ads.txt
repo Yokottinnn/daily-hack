@@ -14,11 +14,7 @@
 #
 #   HTTP と HTTPS の両方でアクセスできることも確認すること。
 #
-# ■ 忍者AdMAX ← いま実際に稼働している広告配信。**行が未設置。**
-#   忍者ツールズにログイン → AdMax → 広告枠一覧 → 「ads.txt を取得」で
-#   自サイト用の行が出るので、それをこのファイルへ貼る。
-#   取得した行の DIRECT / RESELLER が小文字になっている場合は大文字へ直す。
-#   ads.txt が無いドメインは在庫を買わない DSP があるため、収益に直接効く。
+# ■ 忍者AdMAX は 2026-11-03 にサイト全体から外した（利用者の指示。A8 などの成果報酬の広告に交換）。
 #
 # ■ Google AdSense ← 未審査。承認後に下記 placeholder を実際の pub-ID に置換する
 # google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0
