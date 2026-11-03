@@ -1,3 +1,3 @@
 [
-      {"task": "x420-check-wangan5-posted.sh", "rc": 0, "out": "# 湾岸ニュース5選の予約投稿は出たか（2026-11-04 08:19 JST・読むだけ・$0） ``` {status:awaiting_approval,x_tweet_id:null,thread_chain_ids:[null,null],posted_at:null,last_result:null} --- 1 回きりのジョブのログ（末尾 25 行） --- 画像・ALT に触れ"}
+      {"task": "x421-post-wangan5-now.sh", "rc": 0, "out": " ## 1. なぜ外れたか（読むだけ） ``` -rw-r--r--  1 ny  staff  857 Nov  3 23:14 ~/Library/LaunchAgents/ai.openclaw.publish-wangan5-oneshot.plist -rw-r--r--  1 ny  staff  857 Nov  3 23:14 ~/Library/LaunchAgents/ai."}
   ]
