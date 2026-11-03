@@ -1,3 +1,3 @@
 [
-      {"task": "x422-read-wangan5-error.sh", "rc": 0, "out": "# 湾岸ニュース5選の出し直しの失敗の中身（2026-11-04 08:26 JST・読むだけ・$0） ``` ログ行数: 7 --- 失敗の JSON（引数の base64 は伏せて、エラーの本文だけ） Command failed: /usr/local/bin/node scripts/post-via-playwright.js <本文の base64> /Users"}
+      {"task": "x423-post-wangan5-no-alt.sh", "rc": 0, "out": " ## 2. いま出す（ALT_TEXTS_FILE を渡さない） ``` [2026-11-04 08:44:20] start x423 (ALT 無し) [run-publish] thread_chain "}
   ]
