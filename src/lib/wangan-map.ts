@@ -11,6 +11,7 @@
 import type { CollectionEntry } from 'astro:content';
 import basemap from '../data/wangan-basemap.json';
 import venues from '../data/wangan-venues.json';
+import wide from '../data/wangan-basemap-wide.json';
 import { WANGAN_AREAS, WANGAN_NEWS_TAG, todayJst } from './wangan';
 
 type Post = CollectionEntry<'posts'>;
@@ -35,6 +36,11 @@ export const MAP_W = basemap.viewBox;
 export const MAP_H = (basemap as { viewBoxH?: number }).viewBoxH ?? basemap.viewBox;
 export const MAP_LAND = basemap.land.map((l) => ({ d: l.d, ward: WARD_CODE[l.muni] ?? '' }));
 export const MAP_SOURCE = basemap.source;
+/** 地図の外側の陸（縮小したときに見える・2026-11-03）。本体と同じ座標で、負や 1000 超えになる */
+export const MAP_WIDE = { extent: wide.extent as { x: number; y: number; w: number; h: number }, land: wide.land as string[] };
+/** 縮小・移動できる範囲（本体の外へ 650 まで）。外側の陸があるのはこの内側 */
+export const MAP_PAN = (() => { const e = MAP_WIDE.extent, m = 650; const x = Math.max(e.x, -m), y = Math.max(e.y, -m);
+  return { x, y, w: Math.min(e.x + e.w, MAP_W + m) - x, h: Math.min(e.y + e.h, MAP_H + m) - y }; })();
 const inMap = (x: number, y: number) => x > 0 && x < MAP_W && y > 0 && y < MAP_H;
 
 /** 駅（OpenStreetMap で引いた位置） */
