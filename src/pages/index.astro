@@ -9,7 +9,8 @@ import Ticker from '../components/Ticker.astro';
 import CategoryNav from '../components/CategoryNav.astro';
 import AboutCard from '../components/AboutCard.astro';
 import PeekCall from '../components/PeekCall.astro';
-import AdMax from '../components/AdMax.astro';
+import AspBanner from '../components/AspBanner.astro';
+import a8Banners from '../data/a8-banners.json';
 import { postBelongsToCategory } from '../lib/category';
 
 const includeDrafts = import.meta.env.PUBLIC_INCLUDE_DRAFTS === 'true';
@@ -19,11 +20,14 @@ const sorted = allPosts.sort(
 );
 const latest = sorted.slice(0, 3);
 const campaigns = sorted.filter((p) => postBelongsToCategory(p.data, 'campaigns')).slice(0, 3);
+// トップの広告: どの読者にも合いやすい提携済みの A8 の広告を 2 つ（ふるさと納税・ホテル予約）
+const HOME_ADS = ['s00000023934001', 's00000000218001'].map((id) => a8Banners.banners.find((b) => b.programId === id)).filter((b): b is (typeof a8Banners.banners)[number] => !!b);
 ---
 
 <BaseLayout title="Daily Hack" description="お得を毎日、ハック。ポイ活・節約・固定費削減のリアル最新情報を、毎日アップデート。">
   <Hero />
-  <div class="wrap"><AdMax slot="dailyhack-home-below-hero" /></div>
+  {/* 2026-11-03 忍者AdMAX を外し、A8（会社の口座に入る ASP）の広告に交換した */}
+  <div class="wrap"><div class="ad-pair">{HOME_ADS.map((b) => <AspBanner html={b.html} name={b.name} />)}</div></div>
   <UrgentCampaigns posts={campaigns} />
 
   <section>

@@ -1,5 +1,8 @@
 # 広告枠の全体像
 
+> **2026-11-03: 忍者AdMAX はサイト全体から外した**（利用者「忍者adMaxのバナーは全て外そう／おそらく儲けにつながらないので、ブログ全体から削除して、代わりにA8を中心に会社にお金が入ってくるバナーに交換して」）。
+> 下の表の slot はすべて A8 のバナー（`src/data/a8-banners.json`・`AspBanner.astro`）で埋めている。`AdMax.astro` と `admax-tags.ts` は削除した。以下の忍者AdMAX の記述は経緯として残している。
+
 **枠の位置は記事側では決めない。** すべて `src/layouts/PostLayout.astro` と
 `src/layouts/BaseLayout.astro` が持っている。記事の Markdown に広告タグを書かない。
 
