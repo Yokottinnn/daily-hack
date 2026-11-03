@@ -47,6 +47,8 @@ def main():
         cur = (end - datetime.timedelta(days=27), end)
         prev = (cur[0] - datetime.timedelta(days=28), cur[0] - datetime.timedelta(days=1))
         q90 = (end - datetime.timedelta(days=89), end)
+        # 月ごとの推移用（2026-11-03 利用者のコメント「月毎でも見られるように」）。Search Console は 16 か月まで
+        q16m = (datetime.date(end.year - 1, end.month, 1) - datetime.timedelta(days=1)).replace(day=1), end
     else:
         y, m = map(int, a.month.split("-"))
         cur = month_range(y, m)
@@ -60,6 +62,8 @@ def main():
         "queries_90d": (["query"], *q90),
         "dates_90d": (["date"], *q90),
     }
+    if a.rolling:
+        win["dates_16m"] = (["date"], *q16m)
     tok = w.gsc_token()
     out = {"month": a.month or "rolling", "generated": datetime.datetime.now().isoformat(timespec="seconds"),
            "windows": {}, "data": {}}
