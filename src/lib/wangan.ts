@@ -12,13 +12,16 @@ import type { CollectionEntry } from 'astro:content';
 type Post = CollectionEntry<'posts'>;
 
 /** 対象の地区。並びは記事の多い順に近い形で固定（表示の順） */
-export const WANGAN_AREAS: { tag: string; ward: string; lead: string }[] = [
+// 2026-11-03 利用者「築地は湾岸エリアだと思うので追加して／湾岸ライフ自体のエリアのカテゴリーにも追加して」
+// 2026-11-03 利用者「エリアの名前は青海じゃなくてお台場にして（検索ワード数が圧倒的に多い）」→ 札・地区ページは「お台場」。住所は江東区青海（`town`）
+export const WANGAN_AREAS: { tag: string; ward: string; lead: string; town?: string }[] = [
   { tag: '豊洲', ward: '江東区', lead: 'ららぽーと豊洲・豊洲市場・千客万来・新豊洲のイベントと開業' },
   { tag: '有明', ward: '江東区', lead: '有明ガーデン・有明アリーナ・有明コロシアム・防災公園のイベント' },
   { tag: '晴海', ward: '中央区', lead: '晴海フラッグ・晴海トリトン・東京湾大華火祭の観覧会場' },
   { tag: '勝どき', ward: '中央区', lead: '勝どき駅まわりの開業・交通・暮らし' },
   { tag: '月島', ward: '中央区', lead: 'もんじゃの街・月島の暮らしとタワマン' },
-  { tag: '青海', ward: '江東区', lead: 'ダイバーシティ東京・TOYOTA ARENA TOKYO のイベントと開業' },
+  { tag: '築地', ward: '中央区', lead: '築地場外市場・築地本願寺のイベントと開業' },
+  { tag: 'お台場', ward: '江東区', town: '青海', lead: 'ダイバーシティ東京・TOYOTA ARENA TOKYO（江東区青海）のイベントと開業' },
   { tag: '東雲', ward: '江東区', lead: '東雲の暮らしと開業' },
   { tag: '辰巳', ward: '江東区', lead: '辰巳の暮らしと開業' },
   { tag: '佃', ward: '中央区', lead: '佃の暮らし' },

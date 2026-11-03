@@ -14,6 +14,8 @@ export async function getStaticPaths() {
       tags.add(t);
     }
   }
+  // 湾岸の地区は、記事がまだ無くてもページを作る（地図の地区名から 404 にしない。2026-11-03）
+  for (const a of WANGAN_AREAS) tags.add(a.tag);
   return Array.from(tags).map((tag) => ({
     params: { tag },
     props: { tag },
@@ -39,7 +41,7 @@ const title = area
 const description = area
   ? `東京都${area.ward}${tag}の記事一覧。${area.lead}を、施設の公式発表とプレスリリースで確かめてまとめている。これから開催のイベントは${events.length}件。`
   : isNews
-    ? `中央区（晴海・勝どき・月島）と江東区（豊洲・有明・青海）のイベント・開業・生活の変化を毎朝まとめる湾岸ニュースの一覧。いまは${sorted.length}本、これから開催のイベントは${events.length}件。`
+    ? `中央区（晴海・勝どき・月島・築地）と江東区（豊洲・有明・お台場）のイベント・開業・生活の変化を毎朝まとめる湾岸ニュースの一覧。いまは${sorted.length}本、これから開催のイベントは${events.length}件。`
     : `「${tag}」タグが付いた Daily Hack の記事一覧。`;
 const ld = wangan
   ? {
@@ -61,7 +63,7 @@ const ld = wangan
   : null;
 ---
 
-<BaseLayout title={title} description={description}>
+<BaseLayout title={title} description={description} noindex={sorted.length === 0}>
   {ld && <script slot="head" type="application/ld+json" set:html={JSON.stringify(ld)} />}
   <main class="wrap" style="padding: 48px 0;">
     <Breadcrumb items={wangan ? [

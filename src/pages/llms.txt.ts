@@ -42,7 +42,7 @@ export const GET: APIRoute = async (ctx) => {
   const events = upcomingEvents(wangan, today);
   lines.push('## 湾岸ライフ（東京都中央区・江東区の湾岸）');
   lines.push('');
-  lines.push('対象は中央区の晴海・勝どき・月島・佃・豊海と、江東区の豊洲・有明・東雲・辰巳・青海。港区・品川区は扱わない。');
+  lines.push('対象は中央区の晴海・勝どき・月島・築地・佃・豊海と、江東区の豊洲・有明・東雲・辰巳・お台場（江東区青海）。港区・品川区は扱わない。');
   lines.push('日付・会場・料金は施設の公式発表・プレスリリースどおり。湾岸ニュースは毎朝追加する。');
   lines.push('');
   lines.push(`- 一覧: ${site}/category/wangan-life/`);
