@@ -17,4 +17,5 @@
 # ■ 忍者AdMAX は 2026-11-03 にサイト全体から外した（利用者の指示。A8 などの成果報酬の広告に交換）。
 #
 # ■ Google AdSense ← 未審査。承認後に下記 placeholder を実際の pub-ID に置換する
-# google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0
+# 2026-11-03 会社の Google アカウントで AdSense に申し込んだ（サイトは fieldbeside.com。審査中）
+google.com, pub-3805028233672648, DIRECT, f08c47fec0942fa0
