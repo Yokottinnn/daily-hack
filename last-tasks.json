@@ -1,3 +1,3 @@
 [
-      {"task": "x406-count-removable-mutuals.sh", "rc": 0, "out": " ## follow-balance が「反応」をどこから読んでいるか ``` 48:// **片思いは「反応をくれた人」でも外す**（既定 on。0 で従来に戻る） 281:  log(ホワイトリスト  + wl.size +  件"}
+      {"task": "x407-read-mutual-stage.sh", "rc": 0, "out": "```   let notFollowSet = new Set();   try {     const raw = JSON.parse(fs.readFileSync(NOTFOLLOW, utf8));     for (const h of (Array.isArray(raw) ? raw : Object.k"}
   ]
