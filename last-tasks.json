@@ -1,3 +1,3 @@
 [
-      {"task": "x414-reschedule-wangan-news-5.sh", "rc": 0, "out": "湾岸ニュース5選を 11/4 8:00 に予約した / schedule-wangan-news-5.md"}
+      {"task": "x415-follow-balance-result-skip.sh", "rc": 0, "out": "# 比率の調整：11/3 21:29 に走らせた回の結果（空振りを除いた版）（2026-11-03 23:25 JST・読むだけ・$0） ``` [2026-11-03T12:29:45.365Z] === follow-balance start (dry=false min=20 max=20 grace=1d inactive=30d big=5000) === [2026-11-03T12:30:32.282Z] フォロー中: 483 "}
   ]
