@@ -43,6 +43,9 @@
      利用者に「マジで雑な仕事するなよ」と指摘された。**古い数字を入れ替えても、更新したことにはならない**
 3. **サイトの db に書く**（`ArtifactData` の `batch`・1 回の承認）:
    - `snapshot/latest`（`set`。既存なので **先に `get` して `if_version`**）
+   - `snapshot/a8`（`set`・`--out` の隣にできる `<名前>.a8.json`。A8 の提携中の一覧）。**2026-11-03 に分けた**:
+     A8 の提携が 313 件になり、1 文書の上限（256KB）を超えて書けなくなったため。作戦室は 2 つを読んで合わせて描く。
+     `build-snapshot.mjs` は、どちらかが上限の 9 割を超えると「警告」を出す。出たら同じように分ける
    - `snapshots/<YYYY-MM-DD>`（`set`・新規）
 4. **コメントを読む**: `ArtifactData list collection=feedback`。`reply` が空のものが未対応
    - `scope`: `site`（全体）／`block`（記載ごと。`cid` と `quote` で場所が分かる）
