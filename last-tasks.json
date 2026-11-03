@@ -1,1 +1,3 @@
-[]
+[
+      {"task": "x416-count-engaged-mutuals.sh", "rc": 0, "out": "## 反応の記録の場所と読み方（コード） ``` 49:const ONEWAY_IGNORE_ENGAGED = process.env.ONEWAY_IGNORE_ENGAGED !== 0; 53:const ENGAGED = path.join(WS, data, reply-followers.json); 85:functio"}
+  ]
