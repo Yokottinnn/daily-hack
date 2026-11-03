@@ -1,3 +1,1 @@
-[
-      {"task": "x409-kickstart-follow-balance.sh", "rc": 0, "out": "``` いまの状態: not running kickstart rc=0 	state = running 	runs = 4 	last exit code = 0  ```"}
-  ]
+[]
