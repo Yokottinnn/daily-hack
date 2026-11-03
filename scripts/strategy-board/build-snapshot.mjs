@@ -42,7 +42,8 @@ for (const f of fs.readdirSync(POSTS_DIR).filter((x) => x.endsWith('.md'))) {
   const get = (k) => ((fm.match(new RegExp(`^${k}:\\s*"?(.*?)"?\\s*$`, 'm')) || [])[1] || '').trim();
   if (get('draft') === 'true') continue;
   const slug = f.replace(/\.md$/, '');
-  posts[slug] = { slug, title: get('title'), isPR: get('isPR') === 'true', updated: get('updatedDate') || get('publishDate'), published: (get('publishDate') || '').slice(0, 10), updatedOnly: (get('updatedDate') || '').slice(0, 10), aff: (src.match(AFF) || []).length,
+// 2026-11-03: 題名は 40 字で切る（db の 1 文書 256KB の上限に収める）
+  posts[slug] = { slug, title: (get('title') || '').slice(0, 40), isPR: get('isPR') === 'true', updated: get('updatedDate') || get('publishDate'), published: (get('publishDate') || '').slice(0, 10), updatedOnly: (get('updatedDate') || '').slice(0, 10), aff: (src.match(AFF) || []).length,
     cats: ((fm.match(/^category:\s*(.*)$/m) || [])[1] || '').match(/[a-z-]+/g) || [] };
 }
 const postList = Object.values(posts);
@@ -319,8 +320,10 @@ for (const v of Object.values(affByItem)) {
   if (hit.length === 1) (a8Articles[hit[0].id] = a8Articles[hit[0].id] || []).push(...v.articles);
 }
 // 2026-10-31: A8 の提携中が 310 件になり、作戦室の db の 1 文書の上限（256KB）に近づいた。名前・報酬を短くし、false と空の配列は書かない
-const a8Rows = (a8?.rows || []).map((r) => { const o = { id: r.id, name: (r.name || '').slice(0, 50), reward: (r.reward || '').replace(/\s*EPC$/, '').slice(0, 60), yen: yen(r.reward) };
-  if (r.self) o.self = true; if (r.listing) o.listing = r.listing; if (NG_PROGRAM.test(r.name || '')) o.ng = true; if ((a8Articles[r.id] || []).length) o.articles = a8Articles[r.id]; return o; });
+// 2026-11-03: 313 件で 279KB になり上限を超えた。作戦室が使っていない listing を落とし、yen が無いものは書かない。名前は 40 字
+const a8Rows = (a8?.rows || []).map((r) => { const o = { id: r.id, name: (r.name || '').slice(0, 40), reward: (r.reward || '').replace(/\s*EPC$/, '').slice(0, 40) };
+  const y = yen(r.reward); if (y != null) o.yen = y;
+  if (r.self) o.self = true; if (NG_PROGRAM.test(r.name || '')) o.ng = true; if ((a8Articles[r.id] || []).length) o.articles = a8Articles[r.id]; return o; });
 
 // ---------- 所見（決まった条件に当たったものだけ） ----------
 if (gsc) xShared.push({ k: 'ブログ Google 検索クリック（28 日）', v: String(gscCur.clicks), at: `${gscCur.from}〜${gscCur.to}`, src: 'Search Console（Mac が毎日読む）' });
@@ -369,7 +372,7 @@ const snapshot = {
   gscWeekly, topPages, queries, pq, readTop, articles, pvMeta, xShared, monthly: monthlyRows, blog, others, xData,
   a8: a8 ? { total: a8.total, rows: a8Rows, applyingCount: a8.applyingCount ?? null, generated: a8.generated } : null,
   // 記事ごとの成果リンクの一覧（2026-10-17・利用者の指示）
-  affInventory: affInv,
+  affInventory: affInv.map((a) => ({ ...a, title: (a.title || "").slice(0, 40) })),   // 2026-11-03: 題名は 40 字（256KB の上限）
   affByItem: Object.values(affByItem).sort((x, y) => y.articles.length - x.articles.length || y.n - x.n),
   manual,
   findings,
