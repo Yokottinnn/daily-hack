@@ -18,6 +18,7 @@ const posts = JSON.parse(fs.readFileSync(path.join(HERE, "posts.json"), "utf8"))
 const NONE = {
   "news-wangan-1102": "別々の 3 つのニュースを並べる投稿なので、まとめ一覧型のほかに当てはまる型が無い",
   "news-wangan-xmas": "3 か所の催しを並べる投稿なので、まとめ一覧型のほかに当てはまる型が無い",
+  "news-wangan-5": "5 件のイベントを日付順に並べる投稿なので、まとめ一覧型のほかに当てはまる型が無い",
   "social-point-ask": "リプで答えてもらう投稿なので、呼びかけ型のほかに当てはまる型が無い",
 };
 
