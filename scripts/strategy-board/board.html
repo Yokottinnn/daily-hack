@@ -244,7 +244,8 @@ tr[data-ccount]::after{top:4px;right:4px}
   <p class="src">共通戦略（<code>docs/growth-strategy.md</code>）の「共有の数字」から。X 担当のセッションが一次情報で更新する。</p>
   <div class="grid" id="x-tiles"><p class="empty">スナップショットを待っています。</p></div>
   <div class="c" data-cid="home.xdrafts" style="margin-top:10px"><div class="b"><b>X の投稿準備中</b>：<span id="home-xdrafts">読み込み中</span>　<a href="https://claude.ai/artifact/1o7gjZZghit8kn3W4AXUdH" target="_blank" rel="noopener">レビューページを開く</a>／<a href="#x">一覧を見る</a></div></div>
-  <h2>検索の推移（週ごと）</h2>
+  <h2 data-cid="home.gsc.head">検索の推移</h2>
+  <div class="tabs" data-gsc-tabs><button type="button" data-gv="w" aria-pressed="true">週ごと</button><button type="button" data-gv="m" aria-pressed="false">月ごと</button></div>
   <div class="chart" id="chart-gsc"><p class="empty">スナップショットを待っています。</p></div>
   <h2>今週の自動所見<span class="when" id="findings-when"></span></h2>
   <p class="src">決まった条件に当たったものだけが出ます（条件は「計測と振り返り」のページ）。</p>
@@ -350,7 +351,8 @@ tr[data-ccount]::after{top:4px;right:4px}
 
   <div class="secbar" id="now-blog" data-cid="now.sec.blog">ブログ（daily-hack.fieldbeside.com）<small>検索（Search Console）・訪問（Cloudflare）・記事ごとの数字</small></div>
   <div class="grid" id="now-kpi"><p class="empty">データ待ち</p></div>
-  <h3 data-cid="now.blog.h.gsc">検索の推移（週ごと）</h3>
+  <h3 data-cid="now.blog.h.gsc">検索の推移</h3>
+  <div class="tabs" data-gsc-tabs><button type="button" data-gv="w" aria-pressed="true">週ごと</button><button type="button" data-gv="m" aria-pressed="false">月ごと</button></div>
   <div class="chart" id="now-chart-gsc"><p class="empty">データ待ち</p></div>
   <h2>ブログ全体</h2>
   <div class="grid" id="blog-tiles"><p class="empty">データ待ち</p></div>
@@ -431,6 +433,7 @@ tr[data-ccount]::after{top:4px;right:4px}
   <h2 data-cid="asp.315tv0">提携中の案件（全 ASP）</h2>
   <p class="src">「本人 OK」はセルフバック（自分で申し込んで報酬を受け取る）に使える印。報酬は広告側の公開条件で、自分の実績ではありません。A8 とバリューコマース・もしもは毎日 Mac が読み直します。</p>
   <div class="tabs" id="asp-tabs"><button type="button" data-a="all" aria-pressed="true">すべて</button><button type="button" data-a="A8" aria-pressed="false">A8</button><button type="button" data-a="バリューコマース" aria-pressed="false">バリューコマース</button><button type="button" data-a="もしも" aria-pressed="false">もしも</button><button type="button" data-a="楽天" aria-pressed="false">楽天</button></div>
+  <div class="search"><input type="search" id="a8-q" placeholder="案件で探す（例：ガス、光回線、ふるさと、カード）。空白で区切ると全部を含むものだけ" aria-label="提携中の案件をキーワードで探す"><span class="status" id="a8-n"></span></div>
   <div class="filters" id="a8-filters"><button type="button" data-f="all" aria-pressed="true">すべて</button><button type="button" data-f="self" aria-pressed="false">本人 OK だけ</button><button type="button" data-f="ng" aria-pressed="false">使わない案件</button></div>
   <div class="tbl"><table class="wf"><thead><tr><th>案件</th><th>ASP</th><th>広告側の報酬</th><th>本人</th><th>載せている記事</th><th>メモ</th></tr></thead><tbody id="tbl-a8"><tr><td colspan="6" class="empty">データ待ち</td></tr></tbody></table></div>
   <h2 data-cid="asp.byitem">案件ごとの、載せている記事（対応表）</h2>
@@ -1176,15 +1179,7 @@ tr[data-ccount]::after{top:4px;right:4px}
       ['成果リンク入りの記事', fmtN(po.withAff)+' / '+fmtN(po.total), 'PR 表記 '+fmtN(po.isPR)+' 本', 'kpi.posts'],
     ].map(([t,v,s,cid])=>'<div class="tile" data-cid="'+cid+'"><div class="k">'+esc(t)+'</div><div class="v">'+v+'</div><div class="s">'+esc(s)+'</div></div>').join('');
     // 推移
-    const W=(S.gscWeekly||[]).filter(w=>w.days>=5);
-    if(W.length){ const w=640,h=200,pl=40,pr=40,pt=12,pb=28, mi=Math.max(...W.map(x=>x.impressions),1), mc=Math.max(...W.map(x=>x.clicks),1); const bw=(w-pl-pr)/W.length;
-      let svg='<svg viewBox="0 0 '+w+' '+h+'" role="img" aria-label="週ごとの検索の表示とクリック">';
-      [0,.5,1].forEach(f=>{ const y=pt+(h-pt-pb)*(1-f); svg+='<line x1="'+pl+'" x2="'+(w-pr)+'" y1="'+y+'" y2="'+y+'" stroke="var(--rule)"/><text x="'+(pl-6)+'" y="'+(y+4)+'" text-anchor="end" font-size="10" fill="var(--muted)">'+Math.round(mi*f)+'</text><text x="'+(w-pr+6)+'" y="'+(y+4)+'" font-size="10" fill="var(--brand)">'+Math.round(mc*f)+'</text>'; });
-      W.forEach((x,i)=>{ const bh=(h-pt-pb)*x.impressions/mi; svg+='<rect x="'+(pl+i*bw+bw*.18)+'" y="'+(h-pb-bh)+'" width="'+(bw*.64)+'" height="'+bh+'" rx="3" fill="var(--teal)" opacity=".55"/>'; if(i%2===0||W.length<8) svg+='<text x="'+(pl+i*bw+bw/2)+'" y="'+(h-10)+'" text-anchor="middle" font-size="10" fill="var(--muted)">'+x.week.slice(5).replace('-','/')+'</text>'; });
-      svg+='<polyline fill="none" stroke="var(--brand)" stroke-width="2" points="'+W.map((x,i)=>(pl+i*bw+bw/2)+','+(pt+(h-pt-pb)*(1-x.clicks/mc))).join(' ')+'"/>';
-      W.forEach((x,i)=>{ svg+='<circle cx="'+(pl+i*bw+bw/2)+'" cy="'+(pt+(h-pt-pb)*(1-x.clicks/mc))+'" r="'+(i===W.length-1?4:2.5)+'" fill="var(--brand)"/>'; });
-      svg+='</svg><div class="legend"><span style="--c:var(--teal)">表示（左の目盛り）</span><span style="--c:var(--brand)">クリック（右の目盛り）</span></div>';
-      const c=$('#chart-gsc'); c.innerHTML=svg; c.dataset.cid='home.chart-gsc'; }
+    drawGsc();
     // 所見
     const F=S.findings||[]; const lv={action:['ok','やること'],warn:['warn','注意'],info:['info','動き']};
     $('#findings').innerHTML=F.length?F.map(f=>'<li data-cid="finding.'+esc(f.key)+'"><span class="pill '+(lv[f.level]||lv.info)[0]+'">'+(lv[f.level]||lv.info)[1]+'</span><span>'+esc(f.text)+'</span></li>').join(''):'<li class="empty">今週は条件に当たる所見はありません。</li>';
@@ -1233,6 +1228,21 @@ tr[data-ccount]::after{top:4px;right:4px}
 
   // ---- 現状の数字: X・ブログ・アフィリエイトの数字を 1 ページに（2026-10-25 利用者のコメント 0dxd6x2bbryrclqjesc3）----
   // ほかのページで描いた表・グラフは写して使う（記載の番号は頭に now. を付けて別にする）
+  let gscView='w';
+  function drawGsc(){
+    const S=SNAP||{}; const M=gscView==='m';
+    const W=M?(S.gscMonthly||[]).map(x=>({week:x.month,clicks:x.clicks,impressions:x.impressions,days:x.days,full:x.full})):(S.gscWeekly||[]).filter(w=>w.days>=5);
+    if(!W.length){ $('#chart-gsc').innerHTML='<p class="empty">'+(M?'月ごとのデータは次の毎朝の更新から出ます。':'データ待ち')+'</p>'; mirror('#chart-gsc','#now-chart-gsc'); return; }
+    if(W.length){ const w=640,h=200,pl=40,pr=40,pt=12,pb=28, mi=Math.max(...W.map(x=>x.impressions),1), mc=Math.max(...W.map(x=>x.clicks),1); const bw=(w-pl-pr)/W.length;
+      let svg='<svg viewBox="0 0 '+w+' '+h+'" role="img" aria-label="'+(M?'月':'週')+'ごとの検索の表示とクリック">';
+      [0,.5,1].forEach(f=>{ const y=pt+(h-pt-pb)*(1-f); svg+='<line x1="'+pl+'" x2="'+(w-pr)+'" y1="'+y+'" y2="'+y+'" stroke="var(--rule)"/><text x="'+(pl-6)+'" y="'+(y+4)+'" text-anchor="end" font-size="10" fill="var(--muted)">'+Math.round(mi*f)+'</text><text x="'+(w-pr+6)+'" y="'+(y+4)+'" font-size="10" fill="var(--brand)">'+Math.round(mc*f)+'</text>'; });
+      W.forEach((x,i)=>{ const bh=(h-pt-pb)*x.impressions/mi; svg+='<rect x="'+(pl+i*bw+bw*.18)+'" y="'+(h-pb-bh)+'" width="'+(bw*.64)+'" height="'+bh+'" rx="3" fill="var(--teal)" opacity=".55"/>'; if(i%2===0||W.length<8) svg+='<text x="'+(pl+i*bw+bw/2)+'" y="'+(h-10)+'" text-anchor="middle" font-size="10" fill="var(--muted)">'+(M?(x.week.slice(2).replace('-','/')+(x.full?'':'*')):x.week.slice(5).replace('-','/'))+'</text>'; });
+      svg+='<polyline fill="none" stroke="var(--brand)" stroke-width="2" points="'+W.map((x,i)=>(pl+i*bw+bw/2)+','+(pt+(h-pt-pb)*(1-x.clicks/mc))).join(' ')+'"/>';
+      W.forEach((x,i)=>{ svg+='<circle cx="'+(pl+i*bw+bw/2)+'" cy="'+(pt+(h-pt-pb)*(1-x.clicks/mc))+'" r="'+(i===W.length-1?4:2.5)+'" fill="var(--brand)"/>'; });
+      svg+='</svg><div class="legend"><span style="--c:var(--teal)">表示（左の目盛り）</span><span style="--c:var(--brand)">クリック（右の目盛り）</span></div><p class="src">'+(M?'月ごと（* はまだ途中の月。Search Console は 2〜3 日遅れ）':'週ごと（月曜はじまり・5 日以上そろった週）')+'</p>';
+      const c=$('#chart-gsc'); c.innerHTML=svg; c.dataset.cid='home.chart-gsc'; mirror('#chart-gsc','#now-chart-gsc'); }
+  }
+  document.addEventListener('click',(e)=>{ const b=e.target.closest('[data-gsc-tabs] button'); if(!b) return; gscView=b.dataset.gv; $$('[data-gsc-tabs] button').forEach(x=>x.setAttribute('aria-pressed',x.dataset.gv===gscView?'true':'false')); drawGsc(); });
   function mirror(src,dst){ const a=$(src), b=$(dst); if(!a||!b) return; b.innerHTML=a.innerHTML; b.querySelectorAll('[data-cid]').forEach(e=>{ if(e.dataset.cid) e.dataset.cid='now.'+e.dataset.cid; }); if(a.dataset&&a.dataset.cid) b.dataset.cid='now.'+a.dataset.cid; }
   // 値の後ろの（…）は小さい行へ回す（タイルの数字が折り返して読めなくなるため）
   const tile=(t,v,sub,cid)=>{ const m=String(v).match(/^(.*?)（(.*)）$/); if(m){ v=m[1]; sub=m[2]+(sub?'・'+sub:''); } return '<div class="tile" data-cid="'+cid+'"><div class="k">'+esc(t)+'</div><div class="v">'+v+'</div><div class="s">'+esc(sub||'')+'</div></div>'; };
@@ -1631,7 +1641,8 @@ tr[data-ccount]::after{top:4px;right:4px}
   }
   $$('#todo-filters button').forEach(b=>b.addEventListener('click',()=>{ todoF=b.dataset.f; $$('#todo-filters button').forEach(x=>x.setAttribute('aria-pressed',x===b?'true':'false')); renderTodos(); }));
 
-  let a8F='all', aspF='all';
+  let a8F='all', aspF='all', a8Q='';
+  const normQ=(t)=>String(t||'').normalize('NFKC').toLowerCase();
   function programs(){
     const S=SNAP||{}, out=[];
     for(const r of (S.a8&&S.a8.rows)||[]) out.push({asp:'A8',id:r.id,name:r.name,reward:r.reward,self:r.self,ng:r.ng,yen:r.yen,articles:r.articles||[]});
@@ -1655,9 +1666,11 @@ tr[data-ccount]::after{top:4px;right:4px}
   function renderA8(){ renderSelfback(); renderByItem(); const tb=$('#tbl-a8'); const all=programs(); if(!all.length){ tb.innerHTML='<tr><td colspan="6" class="empty">データ待ち</td></tr>'; return; }
     const counts={}; all.forEach(r=>counts[r.asp]=(counts[r.asp]||0)+1);
     $$('#asp-tabs button').forEach(b=>{ const n=b.dataset.a==='all'?all.length:(counts[b.dataset.a]||0); b.textContent=(b.dataset.a==='all'?'すべて':b.dataset.a)+'（'+n+'）'; });
-    const rows=all.filter(r=>aspF==='all'||r.asp===aspF).filter(r=>a8F==='all'||(a8F==='self'&&r.self&&!r.ng)||(a8F==='ng'&&r.ng)).sort((a,b)=>(b.yen||0)-(a.yen||0));
+    const rows=all.filter(r=>aspF==='all'||r.asp===aspF).filter(r=>a8F==='all'||(a8F==='self'&&r.self&&!r.ng)||(a8F==='ng'&&r.ng)).filter(r=>{ const ws=normQ(a8Q).split(/\s+/).filter(Boolean); if(!ws.length) return true; const hay=normQ([r.name,r.asp,r.reward,r.note,JSON.stringify(r.articles||'')].join(' ')); return ws.every(w=>hay.includes(w)); }).sort((a,b)=>(b.yen||0)-(a.yen||0));
+    { const n=$('#a8-n'); if(n) n.textContent=rows.length+' 件'+(a8Q.trim()?'（「'+a8Q.trim()+'」で絞り込み）':''); }
     tb.innerHTML=rows.map(r=>'<tr data-cid="asp.p.'+esc(String(r.id||r.name).slice(-60))+'"><td>'+esc((r.name||'').slice(0,70))+'</td><td>'+esc(r.asp)+'</td><td>'+esc(r.reward||'')+'</td><td>'+(r.self===true?'<span class="pill ok">OK</span>':r.self===false?'<span class="pill">NG</span>':'—')+'</td><td>'+(r.asp==='A8'?artList(r.articles):'<span class="status">下の対応表</span>')+'</td><td>'+(r.ng?'<span class="pill bad">使わない</span>':esc(r.note||''))+'</td></tr>').join('')||'<tr><td colspan="6" class="empty">該当なし</td></tr>'; applyCounts(); }
   $$('#asp-tabs button').forEach(b=>b.addEventListener('click',()=>{ aspF=b.dataset.a; $$('#asp-tabs button').forEach(x=>x.setAttribute('aria-pressed',x===b?'true':'false')); renderA8(); }));
+  { const i=$('#a8-q'); if(i) i.addEventListener('input',()=>{ a8Q=i.value; renderA8(); }); }
   $$('#a8-filters button').forEach(b=>b.addEventListener('click',()=>{ a8F=b.dataset.f; $$('#a8-filters button').forEach(x=>x.setAttribute('aria-pressed',x===b?'true':'false')); renderA8(); }));
 })();
 </script>

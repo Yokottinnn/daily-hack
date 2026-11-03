@@ -312,6 +312,15 @@ const howToLd = howToJsonLd(post.body, data.title);
           {adList[7] && <AspBanner html={adList[7].html} name={adList[7].name} />}
         </div>
 
+        {/* 湾岸ライフの記事から、イベントマップへ必ずつなぐ（2026-11-04 利用者が選んだ「湾岸ライフの全記事にマップへのリンク」。マップを指すリンクが 122 本中 2 本しかなかった） */}
+        {isWanganPost && (
+          <a class="wangan-map-cta" href="/wangan-map/">
+            <span class="wangan-map-cta-ico" aria-hidden="true">📍</span>
+            <span><strong>湾岸エリアイベントマップ</strong>{postAreas.length > 0 ? `｜${postAreas.slice(0, 2).map((a) => a.tag).join('・')}ほか、` : '｜'}今日・今週の湾岸のイベントを地図で見る</span>
+            <span class="wangan-map-cta-go" aria-hidden="true">→</span>
+          </a>
+        )}
+
         <div class="post-body" id="post-body">
           <slot />
         </div>
@@ -344,6 +353,7 @@ const howToLd = howToJsonLd(post.body, data.title);
           <nav class="wangan-next" aria-label="湾岸ライフの一覧">
             <p class="wangan-next-title">湾岸ライフをもっと見る</p>
             <ul class="wangan-next-links">
+              <li><a href="/wangan-map/">湾岸エリアイベントマップ（今日・今週のイベントを地図で）</a></li>
               {postAreas.map((a) => <li><a href={`/tags/${a.tag}/`}>{a.tag}（{a.ward}）の記事一覧</a></li>)}
               <li><a href={`/tags/${WANGAN_NEWS_TAG}/`}>湾岸ニュースの一覧（毎朝更新）</a></li>
               <li><a href="/category/wangan-life/#upcoming">これからの湾岸イベント（日付順）</a></li>
@@ -546,6 +556,11 @@ const howToLd = howToJsonLd(post.body, data.title);
 </BaseLayout>
 
 <style>
+  .wangan-map-cta { display: flex; align-items: center; gap: 10px; margin: 0 0 24px; padding: 12px 16px; border: 1px solid var(--pink-200); border-radius: 12px; background: linear-gradient(90deg, #eaf5fe, var(--pink-50)); color: var(--ink); font-size: 14px; line-height: 1.6; text-decoration: none; }
+  .wangan-map-cta:hover { border-color: var(--pink-300); }
+  .wangan-map-cta strong { color: #1f4f86; }
+  .wangan-map-cta-ico { font-size: 20px; }
+  .wangan-map-cta-go { margin-left: auto; font-weight: 800; color: var(--pink-700); }
   .wangan-next { margin-top: 40px; padding: 18px 20px; border: 1px solid var(--pink-200); border-radius: 14px; background: var(--pink-50); }
   .wangan-next-title, .wangan-next-sub { margin: 0 0 8px; font-weight: 800; }
   .wangan-next-sub { margin-top: 14px; font-size: 14px; }
