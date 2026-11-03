@@ -64,7 +64,7 @@ const data = JSON.stringify({ today, items });
 const ratio = (MAP_H / MAP_W).toFixed(4);
 ---
 
-<section class="wmap" aria-labelledby="wmap-title" data-wmap style={`--wm-ratio:${ratio}`}>
+<div class="wmap" role="region" aria-labelledby="wmap-title" data-wmap style={`--wm-ratio:${ratio}`}>
   <div class="wmap-head">
     <H id="wmap-title" class="wmap-title">{title}<span>（{jpDate(today)}時点）</span></H>
     {lead && <p class="wmap-lead">晴海・勝どき・月島・豊洲・有明・青海（中央区・江東区）で、<strong>いま開いているイベントとこれから始まるイベント</strong>を地図に置いた。ピンに触れると、その場で日付・会場・料金が出る。下の帯で「今週」「来月」のように期間を選べるわよ。</p>}
@@ -160,10 +160,11 @@ const ratio = (MAP_H / MAP_W).toFixed(4);
         </g>
       </svg>
 
-      <div class="wmap-guide" data-guide aria-live="polite">
-        <div class="wmap-guide-bubble" data-guide-text>案内するわよ！</div>
-        <img src="/images/expr-01-wave.png" alt="" class="wmap-guide-face" width="72" height="72" data-guide-face />
-      </div>
+    </div>
+
+    <div class="wmap-guide" data-guide aria-live="polite">
+      <img src="/images/expr-01-wave.png" alt="" class="wmap-guide-face" width="40" height="40" data-guide-face />
+      <p class="wmap-guide-bubble" data-guide-text>ピンに触れると詳しく出るわよ</p>
     </div>
 
     <div class="wmap-pop" data-pop hidden role="dialog" aria-label="イベントの詳細">
@@ -210,7 +211,7 @@ const ratio = (MAP_H / MAP_W).toFixed(4);
     ))}
   </ol>
   <script type="application/json" data-wmap-data set:html={data} />
-</section>
+</div>
 
 <script>
   type Item = { kind: 'event' | 'news'; slug: string; title: string; short: string; start: string; end: string; place: string; area: string; isFree: boolean; img: string; x: number; y: number };
@@ -278,14 +279,16 @@ const ratio = (MAP_H / MAP_W).toFixed(4);
 
     // ── 拡大・移動 ──
     let z = 1, tx = 0, ty = 0;
+    const zoomOutBtn = root.querySelector<HTMLButtonElement>('[data-zoom="out"]'), zoomInBtn = root.querySelector<HTMLButtonElement>('[data-zoom="in"]');
     const cw = () => stage.clientWidth, ch = () => stage.clientWidth * ratio;
-    const minZ = () => Math.min(1, stage.clientHeight / ch());
+    // 2026-11-03 利用者「マイナスを押し続けると何も表示されていない青い部分が出る／一定の回数でもう押せないように」: 地図が枠を埋める大きさが下限
+    const minZ = () => Math.max(1, stage.clientHeight / ch());
     const clamp = () => {
       const w = stage.clientWidth, h = stage.clientHeight, W = cw() * z, Hh = ch() * z;
       tx = W <= w ? (w - W) / 2 : Math.min(0, Math.max(w - W, tx));
       ty = Hh <= h ? (h - Hh) / 2 : Math.min(0, Math.max(h - Hh, ty));
     };
-    const apply = () => { clamp(); canvas.style.transform = `translate(${tx}px, ${ty}px) scale(${z})`; root.style.setProperty('--wm-z', String(Math.max(z, 1))); root.classList.toggle('is-zoomed', z >= 2.2); placePop(); };
+    const apply = () => { clamp(); canvas.style.transform = `translate(${tx}px, ${ty}px) scale(${z})`; root.style.setProperty('--wm-z', String(Math.max(z, 1))); root.classList.toggle('is-zoomed', z >= 2.2); if (zoomOutBtn) zoomOutBtn.disabled = z <= minZ() + 0.001; if (zoomInBtn) zoomInBtn.disabled = z >= 3.999; placePop(); };
     const zoomAt = (nz: number, cx: number, cy: number) => { nz = Math.min(4, Math.max(minZ(), nz)); tx = cx - ((cx - tx) * nz) / z; ty = cy - ((cy - ty) * nz) / z; z = nz; apply(); };
     /** 地図の点（viewBox）を画面の真ん中へ */
     const centerOn = (mx: number, my: number, nz = z) => { z = Math.min(4, Math.max(minZ(), nz)); const k = cw() / 1000; tx = stage.clientWidth / 2 - mx * k * z; ty = stage.clientHeight / 2 - my * k * z; apply(); };
@@ -350,17 +353,14 @@ const ratio = (MAP_H / MAP_W).toFixed(4);
     let tourIdx = -1, tourTimer = 0;
     function say(i: number, text?: string) {
       const it = items[i];
-      guide.style.left = `${it.x / 10}%`; guide.style.top = `${(it.y / (1000 * ratio)) * 100}%`;
-      guide.classList.remove('is-hop'); void guide.offsetWidth; guide.classList.add('is-hop');
-      guide.classList.toggle('is-left', it.x > 620);
       guideFace.src = FACES[i % FACES.length];
       guideText.textContent = text ?? `${it.area || it.place}の「${it.short}」${it.kind === 'news' ? 'のニュース' : isOn(it) ? 'は開催中！' : `は${jp(it.start)}から`}`;
     }
     const tourList = () => items.map((it, i) => ({ it, i })).filter(({ it }) => match(it)).sort((a, b) => Number(isOn(b.it)) - Number(isOn(a.it)) || a.it.start.localeCompare(b.it.start));
-    const step = () => { const l = tourList(); if (!l.length) { guideText.textContent = 'この期間のイベントは無いわ。ほかの期間を選んでみて'; return; } tourIdx = (tourIdx + 1) % l.length; say(l[tourIdx].i); };
+    // 2026-11-03 利用者「キャラアイコンの移動は不要／もっとサイズを小さくして、吹き出しであらかじめコメントを表示しておいて」: 動かさず、期間の件数を言う
+    const step = () => { const l = tourList(); if (!l.length) { guideText.textContent = 'この期間のイベントは無いわ。ほかの期間を選んでみて'; return; } const on = l.filter(({ it }) => isOn(it)).length; guideFace.src = FACES[0]; guideText.textContent = `${on ? `いま開催中は${on}件！` : ''}ピンに触れると詳しく出るわよ`; };
     function stopTour() { clearInterval(tourTimer); }
-    function startTour() { stopTour(); if (!reduce) tourTimer = window.setInterval(step, 5200); }
-    guide.addEventListener('click', () => { step(); startTour(); });
+    function startTour() { stopTour(); }
 
     // ── 期間・無料 ──
     root.querySelectorAll<HTMLButtonElement>('[data-period]').forEach((b) => b.addEventListener('click', () => {
@@ -381,7 +381,7 @@ const ratio = (MAP_H / MAP_W).toFixed(4);
   .wmap-head { margin-bottom: 12px; }
   .wmap-title { font-size: clamp(22px, 3.2vw, 30px); font-weight: 900; margin: 0 0 6px; text-wrap: balance; }
   .wmap-title span { font-size: 0.55em; font-weight: 700; color: var(--ink-3); margin-left: 6px; }
-  .wmap-lead { margin: 0; color: var(--ink-2); font-size: 14px; line-height: 1.8; max-width: 72ch; }
+  .wmap-lead { margin: 0; color: var(--ink-2); font-size: 14px; line-height: 1.8; }
 
   .wmap-stage { position: relative; width: 100%; aspect-ratio: 16 / 10; min-height: 440px; max-height: 84vh; overflow: hidden; border-radius: 18px; border: 3px solid #fff; box-shadow: 0 0 0 1px var(--pink-200), 0 10px 28px rgba(60, 40, 20, 0.12); background: var(--wm-sea); touch-action: pan-y; user-select: none; cursor: grab; }
   .wmap-stage:active { cursor: grabbing; }
@@ -458,16 +458,16 @@ const ratio = (MAP_H / MAP_W).toFixed(4);
   .wmap-pop-go { font-size: 12px; font-weight: 800; color: var(--pink-700); margin-top: 2px; }
   .wmap-pop-x { position: absolute; right: 6px; top: 6px; z-index: 1; width: 28px; height: 28px; border: 0; border-radius: 50%; background: rgba(255, 255, 255, 0.9); font-size: 16px; cursor: pointer; }
 
-  .wmap-guide { position: absolute; left: 50%; top: 50%; width: 0; height: 0; transition: left 1.4s cubic-bezier(0.5, 0, 0.3, 1), top 1.4s cubic-bezier(0.5, 0, 0.3, 1); z-index: 3; cursor: pointer; }
-  .wmap-guide-face { position: absolute; left: -36px; top: -122px; width: 72px; height: 72px; max-width: none; border-radius: 50%; background: #fff; border: 3px solid var(--pink-300); box-shadow: 0 6px 14px rgba(0, 0, 0, 0.18); object-fit: cover; object-position: center 12%; animation: wm-bob 2.4s ease-in-out infinite; transform: scale(calc(1 / var(--wm-z))); transform-origin: 50% 100%; }
-  .wmap-guide.is-hop .wmap-guide-face { animation: wm-hop 1.4s ease, wm-bob 2.4s 1.4s ease-in-out infinite; }
-  .wmap-guide-bubble { position: absolute; left: 44px; top: -132px; width: max-content; max-width: min(240px, 52vw); padding: 7px 11px; background: #fff; border: 2px solid var(--wm-ink); border-radius: 12px; font-size: 12px; font-weight: 800; line-height: 1.5; color: var(--wm-ink); box-shadow: 3px 3px 0 rgba(91, 70, 54, 0.25); transform: scale(calc(1 / var(--wm-z))); transform-origin: 0 100%; }
-  .wmap-guide.is-left .wmap-guide-bubble { left: auto; right: 44px; transform-origin: 100% 100%; }
+  /* 案内役は動かさない（2026-11-03）。左下に小さく置き、吹き出しは最初から出す */
+  .wmap-guide { position: absolute; left: 12px; bottom: 92px; z-index: 4; display: flex; align-items: flex-end; gap: 6px; max-width: min(440px, calc(100% - 24px)); pointer-events: none; }
+  .wmap-guide-face { flex: 0 0 40px; width: 40px; height: 40px; max-width: none; border-radius: 50%; background: #fff; border: 2px solid var(--pink-300); box-shadow: 0 3px 8px rgba(0, 0, 0, 0.16); object-fit: cover; object-position: center 12%; }
+  .wmap-guide-bubble { position: relative; margin: 0 0 14px; padding: 6px 10px; background: #fff; border: 2px solid var(--wm-ink); border-radius: 10px 10px 10px 2px; font-size: 12px; font-weight: 800; line-height: 1.5; color: var(--wm-ink); box-shadow: 2px 2px 0 rgba(91, 70, 54, 0.22); }
   @keyframes wm-bob { 0%, 100% { translate: 0 0; } 50% { translate: 0 -6px; } }
   @keyframes wm-hop { 0% { translate: 0 0; } 30% { translate: 0 -40px; } 60% { translate: 0 0; } 75% { translate: 0 -10px; } 100% { translate: 0 0; } }
 
   .wmap-pill { position: absolute; left: 10px; top: 10px; z-index: 5; margin: 0; padding: 7px 14px; border-radius: 999px; background: rgba(255, 255, 255, 0.92); box-shadow: 0 3px 12px rgba(30, 60, 90, 0.16); font-size: 12px; font-weight: 800; color: #45607a; max-width: calc(100% - 80px); }
   .wmap-zoom { position: absolute; right: 10px; top: 10px; display: grid; gap: 6px; z-index: 5; }
+  .wmap-zoom button:disabled { opacity: 0.35; cursor: default; }
   .wmap-zoom button { width: 38px; height: 38px; border-radius: 50%; border: 0; box-shadow: 0 3px 12px rgba(30, 60, 90, 0.18); background: rgba(255, 255, 255, 0.92); font-size: 18px; font-weight: 900; cursor: pointer; color: var(--wm-ink); }
   .wmap-dock { position: absolute; left: 50%; bottom: 28px; transform: translateX(-50%); z-index: 5; display: flex; align-items: center; gap: 2px; padding: 6px; max-width: calc(100% - 20px); overflow-x: auto; scrollbar-width: none; background: rgba(255, 255, 255, 0.86); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); border-radius: 18px; box-shadow: 0 6px 22px rgba(30, 60, 90, 0.18); }
   .wmap-dock-sep { flex: 0 0 1px; align-self: stretch; margin: 6px 4px; background: #d5dde6; }
@@ -498,14 +498,15 @@ const ratio = (MAP_H / MAP_W).toFixed(4);
     .wmap-chip b { display: none; }
     .wmap-credit { font-size: 9px; }
     .wmap-pill { font-size: 11px; padding: 5px 10px; }
-    .wmap-guide-face { width: 56px; height: 56px; left: -28px; top: -100px; }
-    .wmap-guide-bubble { left: 34px; top: -104px; font-size: 11px; }
-    .wmap-guide.is-left .wmap-guide-bubble { right: 34px; }
+    .wmap-guide { bottom: 84px; left: 8px; }
+    .wmap-guide { max-width: 64%; }
+    .wmap-guide-face { flex-basis: 32px; width: 32px; height: 32px; }
+    .wmap-guide-bubble { font-size: 11px; padding: 4px 8px; margin-bottom: 10px; }
     .wmap-pop { width: min(260px, calc(100% - 16px)); }
   }
   @media (prefers-reduced-motion: reduce) {
     :global(.wm-waves), .wmap-guide-face, :global(.wm-pin.is-now .wm-pin-pulse), :global(.wm-cloud1), :global(.wm-cloud2) { animation: none !important; }
     :global(.wm-anim animateMotion), :global(.wm-rail animateMotion) { display: none; }
-    .wmap-guide, .wmap-canvas, :global(.wm-pin .wm-pin-drop) { transition: none !important; }
+    .wmap-canvas, :global(.wm-pin .wm-pin-drop) { transition: none !important; }
   }
 </style>
