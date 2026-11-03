@@ -3,7 +3,7 @@ title: "アイドルフェスGIFT 2026｜2026年11月27日（金）〜29日（�
 description: "初開催のアイドルフェス『GIFT 〜Girls Idol Festival Tokyo〜』は2026年11月27日（金）〜29日（日）、江東区のSGCホール有明とTOYOTA ARENA TOKYOで開く。全20組。DAY-1とDAY-3は売り切れ。11月28日・29日はABEMAで無料独占生中継。"
 publishDate: 2026-10-30
 category: ["wangan-life"]
-tags: ["湾岸ニュース", "有明", "青海", "SGCホール有明", "TOYOTA ARENA TOKYO", "アイドル", "2026年"]
+tags: ["湾岸ニュース", "有明", "お台場", "青海", "SGCホール有明", "TOYOTA ARENA TOKYO", "アイドル", "2026年"]
 isPR: true
 draft: false
 eyecatchUrl: "/images/gift-idol-festival-ariake-2026/cover.jpg"

@@ -45,17 +45,30 @@ export const MAP_STATIONS = STATIONS.map((s) => ({ key: s.key, name: s.name, min
 const LINES = ((venues as { lines?: Record<string, string[]> }).lines ?? {});
 export const MAP_YURIKAMOME = (LINES.yurikamome ?? []).map((k) => MAP_STATIONS.find((s) => s.key === k)).filter((s): s is (typeof MAP_STATIONS)[number] => !!s);
 
-/** 地図の目印にする、湾岸の外の地名（銀座・新橋・築地）。イベントの対象地域ではない */
+/**
+ * 地下鉄の線（2026-11-03 利用者「勝どき駅と月島駅が線路で繋がっていないので繋げて／何線かも重要な情報なので書いて」）。
+ * 駅は地図に置いた駅の位置、地図の外へ続く先は駅の緯度経度（OpenStreetMap）で向きだけ出す。
+ */
+const off = (lat: number, lon: number) => project(lat, lon);
+const st = (k: string) => { const s = MAP_STATIONS.find((x) => x.key === k); return s ? { x: s.x, y: s.y } : null; };
+const line = (pts: ({ x: number; y: number } | null)[]) => pts.filter((p): p is { x: number; y: number } => !!p);
+export const MAP_SUBWAYS = [
+  // 都営大江戸線: 大門 → 汐留 → 築地市場 → 勝どき → 月島 → 門前仲町
+  { key: 'oedo', name: '都営大江戸線', color: '#b6007a', pts: line([off(35.6564, 139.7546), st('汐留駅'), st('築地市場駅'), st('勝どき駅'), st('月島駅'), off(35.6717, 139.7963)]) },
+  // 東京メトロ有楽町線: 銀座一丁目 → 新富町 → 月島 → 豊洲 → 辰巳
+  { key: 'yurakucho', name: '東京メトロ有楽町線', color: '#b8955a', pts: line([off(35.6743, 139.7671), off(35.6706, 139.7735), st('月島駅'), st('豊洲駅'), off(35.6455, 139.8104)]) },
+].filter((l) => l.pts.length > 2);
+
+/** 地図の目印にする、湾岸の外の地名（銀座・新橋）。イベントの対象地域ではない（築地は 2026-11-03 に対象の地区へ） */
 export const MAP_REF_AREAS = [
   { name: '銀座', ...project(35.6717, 139.7649) },
   { name: '新橋', ...project(35.6662, 139.7577) },
-  { name: '築地', ...project(35.6655, 139.7712) },
 ].filter((a) => inMap(a.x, a.y));
 
 /** 地区の札（区の住所検索の位置） */
 const AREA_ADDR: Record<string, string> = {
-  晴海: '東京都中央区晴海', 勝どき: '東京都中央区勝どき', 月島: '東京都中央区月島', 佃: '東京都中央区佃', 豊海: '東京都中央区豊海町',
-  豊洲: '東京都江東区豊洲', 有明: '東京都江東区有明', 東雲: '東京都江東区東雲', 辰巳: '東京都江東区辰巳', 青海: '東京都江東区青海',
+  晴海: '東京都中央区晴海', 勝どき: '東京都中央区勝どき', 月島: '東京都中央区月島', 佃: '東京都中央区佃', 豊海: '東京都中央区豊海町', 築地: '東京都中央区築地',
+  豊洲: '東京都江東区豊洲', 有明: '東京都江東区有明', 東雲: '東京都江東区東雲', 辰巳: '東京都江東区辰巳', お台場: '東京都江東区青海', 青海: '東京都江東区青海',
 };
 /** 札の置き場所の微調整（住所検索の代表点は丁目の端に出ることがある。札が島から外れないよう寄せる） */
 const AREA_NUDGE: Record<string, [number, number]> = { 晴海: [-50, 30], 佃: [6, -20], 月島: [-14, 6], 勝どき: [-30, 0] };
@@ -101,7 +114,8 @@ export type MapItem = {
 };
 
 function areaOf(p: Post): string {
-  return (p.data.tags ?? []).find((t) => t in AREA_ADDR) ?? '';
+  const t = (p.data.tags ?? []).find((t) => t in AREA_ADDR) ?? '';
+  return t === '青海' ? 'お台場' : t;   // 青海は「お台場」の札にまとめる（2026-11-03）
 }
 
 function shorten(name: string): string {

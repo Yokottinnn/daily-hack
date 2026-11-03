@@ -10,7 +10,7 @@ const OUT = path.join(ROOT, 'src/data/wangan-venues.json');
 const CHECK = process.argv.includes('--check');
 
 // 地区の名前の位置（ラベル用）と、地図に絵で描く目印。住所は一次情報（各施設の公式）の表記
-export const AREAS = ['東京都中央区晴海', '東京都中央区勝どき', '東京都中央区月島', '東京都中央区佃', '東京都中央区豊海町', '東京都江東区豊洲', '東京都江東区有明', '東京都江東区東雲', '東京都江東区辰巳', '東京都江東区青海'];
+export const AREAS = ['東京都中央区晴海', '東京都中央区勝どき', '東京都中央区月島', '東京都中央区築地', '東京都中央区佃', '東京都中央区豊海町', '東京都江東区豊洲', '東京都江東区有明', '東京都江東区東雲', '東京都江東区辰巳', '東京都江東区青海'];
 export const LANDMARKS = [
   { key: 'market', name: '豊洲市場', address: '東京都江東区豊洲6-6-1' },
   { key: 'lalaport', name: 'ららぽーと豊洲', address: '東京都江東区豊洲2-4-9' },
