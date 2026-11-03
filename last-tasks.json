@@ -1,3 +1,3 @@
 [
-      {"task": "x407-read-mutual-stage.sh", "rc": 0, "out": "```   let notFollowSet = new Set();   try {     const raw = JSON.parse(fs.readFileSync(NOTFOLLOW, utf8));     for (const h of (Array.isArray(raw) ? raw : Object.k"}
+      {"task": "x408-unfollow-unverified-mutuals.sh", "rc": 0, "out": "``` 差し込んだ 入れた・構文 OK 462:    // x408: 記録で認証済みと分かっている相互（badge-followback）はプロフィールを開かない。未認証の相互に時 463:    const x408Ver = new Set"}
   ]
