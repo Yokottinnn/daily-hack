@@ -75,7 +75,7 @@ const FILES = {
   "x-news-wangan-1102": ["1-3news.jpg"],
   "x-poikatsu-rakuten-cap": ["1-cap.jpg"],
   // **未投稿**（2026-11-03）。湾岸ニュース5選。素材は各記事の公式・プレスリリースの画像
-  "x-wangan-news-5": ["1-cover.jpg", "2-ariake-lalaport.jpg", "3-timburton-doraemon.jpg", "4-xmas-calendar.jpg"],
+  "x-wangan-news-5": ["1-cover.jpg", "2-list.jpg"],
   // **未投稿**（2026-11-01）。ポイ活の候補。公式の写真が無い話題なので、各社のロゴと下書きの数字で組んだ
   "x-poikatsu-kaiaku": ["1-kaiaku.jpg"],
   "x-poikatsu-smbc-touch": ["1-touch.jpg"],
