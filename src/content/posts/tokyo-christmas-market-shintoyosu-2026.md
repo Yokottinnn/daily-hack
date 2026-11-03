@@ -123,6 +123,8 @@ references: ["https://prtimes.jp/main/html/rd/p/000000084.000047941.html", "http
   <li><div class="checklist-body"><strong>③ 滞在は2時間が目安</strong><p>混雑を避けるため。食べたいものを先に決めておくと回りやすい。</p></div></li>
 </ul>
 
+<p class="source-note">2026年11月2日に、新豊洲会場だけの<strong>VIPドーム</strong>（4ドーム・最大6名・28,000円〜）と、手づくりワークショップ6種類（1,600円〜4,800円）が発表された。料金と時間は <a href="/posts/tokyo-christmas-market-vip-dome-2026/">新豊洲のVIPドームとワークショップの記事</a> にまとめた。</p>
+
 ## 食べられるもの｜巨大プレッツェルと3色グリューワイン
 
 <figure class="rn-figure">
