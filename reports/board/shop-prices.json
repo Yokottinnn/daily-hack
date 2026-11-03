@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-02T21:45:04.170Z",
+ "generatedAt": "2026-11-03T21:43:52.122Z",
  "keys": {
   "rakuten": true,
   "rakutenAccessKey": false,
@@ -103,16 +103,16 @@
     },
     "yahoo": {
      "found": true,
-     "candidates": 8,
+     "candidates": 6,
      "name": "BURTLE バートル サーモクラフト(電熱パッド) 秋冬用 オレンジ TC500 84 F",
      "url": "https://store.shopping.yahoo.co.jp/monaka-store/s-b0b7jsc18k-20260720.html",
-     "price": 11838,
+     "price": 11409,
      "shippingFree": true,
      "point": 0,
      "reviewAverage": null,
      "reviewCount": 0,
      "shop": "MONAKA-STORE",
-     "net": 11838
+     "net": 11409
     }
    },
    "makita-cv202d": {
@@ -122,15 +122,15 @@
     "yahoo": {
      "found": true,
      "candidates": 30,
-     "name": "マキタ CV202DZ(Sサイズ) (本体のみ) 10.8V/14.4V/18V充電式暖房ベスト バッテリ・ケーブルユニットB別売■安心の純正/新品■",
-     "url": "https://store.shopping.yahoo.co.jp/kabutechno/cv202dzs.html",
-     "price": 15463,
-     "shippingFree": false,
+     "name": "マキタ 充電式 暖房ベスト(バッテリ・バッテリホルダ・充電器別売) 黒 L CV202DZL 1点",
+     "url": "https://store.shopping.yahoo.co.jp/diy-tool/m03-6295.html",
+     "price": 13946,
+     "shippingFree": true,
      "point": 0,
      "reviewAverage": null,
-     "reviewCount": 0,
-     "shop": "kabutechno",
-     "net": 15463
+     "reviewCount": 2,
+     "shop": "DIY FACTORY ONLINE SHOP",
+     "net": 13946
     }
    }
   },
@@ -420,15 +420,15 @@
     "yahoo": {
      "found": true,
      "candidates": 30,
-     "name": "ZOJIRUSHI 象印 【納期11月末頃】加湿器  スチーム式加湿器(木造10畳まで/プレハブ洋室17畳まで)ホワイト EE-TC60 WA",
-     "url": "https://store.shopping.yahoo.co.jp/murauchi3/2501000388399.html",
-     "price": 24530,
+     "name": "象印　加湿器 EE-TC60 BM（ソフトブラック）",
+     "url": "https://store.shopping.yahoo.co.jp/sanrex/ee-tc60-bm.html",
+     "price": 25200,
      "shippingFree": true,
      "point": 0,
      "reviewAverage": null,
      "reviewCount": 0,
-     "shop": "NEXT!",
-     "net": 24530
+     "shop": "サンサン マーケット",
+     "net": 25200
     }
    },
    "zojirushi-ee-dg50": {
@@ -437,7 +437,7 @@
     },
     "yahoo": {
      "found": true,
-     "candidates": 28,
+     "candidates": 29,
      "name": "象印 (/F) スチーム式 加湿器 4L 2026年モデル ホワイト 白 4リットル 木造和室 8畳 プレハブ洋室 13畳 EE-DG50-WA EE-DG50(WA)",
      "url": "https://store.shopping.yahoo.co.jp/proshopdate15/zojirushi-ee-dg50-wa.html",
      "price": 19990,
@@ -455,7 +455,7 @@
     },
     "yahoo": {
      "found": true,
-     "candidates": 29,
+     "candidates": 28,
      "name": "象印　加湿器 EE-DG35 HA（グレー）",
      "url": "https://store.shopping.yahoo.co.jp/sanrex/ee-dg35-ha.html",
      "price": 18780,
@@ -491,16 +491,16 @@
     },
     "yahoo": {
      "found": true,
-     "candidates": 28,
-     "name": "象印 加湿器 スチーム式 2.2L 木造6畳 プレハブ10畳 EE-RV35 WA ホワイト",
-     "url": "https://store.shopping.yahoo.co.jp/kaden-outlet/ee-rv35-wa.html",
-     "price": 14560,
+     "candidates": 26,
+     "name": "象印 スチーム式加湿器 2.2L ホワイト EE-RV35WA",
+     "url": "https://store.shopping.yahoo.co.jp/jetprice/b803lc.html",
+     "price": 14679,
      "shippingFree": true,
      "point": 0,
      "reviewAverage": null,
-     "reviewCount": 1,
-     "shop": "ウービルストア",
-     "net": 14560
+     "reviewCount": 0,
+     "shop": "JetPrice",
+     "net": 14679
     }
    },
    "zojirushi-ee-mc20": {
@@ -510,15 +510,15 @@
     "yahoo": {
      "found": true,
      "candidates": 28,
-     "name": "ZOJIRUSHI 象印 加湿器  スチーム式加湿器(木造3畳まで/プレハブ洋室6畳まで)サンドベージュ EE-MC20 CM",
-     "url": "https://store.shopping.yahoo.co.jp/murauchi3/2501000388467.html",
-     "price": 15000,
+     "name": "ZOJIRUSHI（象印）EE-MC20-CM　加湿器 スチーム式　【木造和室 〜3畳・プレハブ洋室 〜6畳】 容量1.8L サンドベージュ",
+     "url": "https://store.shopping.yahoo.co.jp/giga-web2/68016.html",
+     "price": 15099,
      "shippingFree": true,
      "point": 0,
      "reviewAverage": null,
      "reviewCount": 0,
-     "shop": "NEXT!",
-     "net": 15000
+     "shop": "GIGA ヤフー店",
+     "net": 15099
     }
    },
    "zojirushi-ee-fa50": {
@@ -527,16 +527,16 @@
     },
     "yahoo": {
      "found": true,
-     "candidates": 15,
-     "name": "ZOJIRUSHI スチーム式加湿器 STAN. EE-FA50-BA ブラック 象印",
-     "url": "https://store.shopping.yahoo.co.jp/outletplaza/40001082165.html",
-     "price": 35326,
+     "candidates": 16,
+     "name": "象印 STAN.スチーム式加湿器 ZOJIRUSHI スタン加湿器 マホービン キッチン家電 EE-FA50-WA 白 ホワイト おしゃれ 家電 新築祝い",
+     "url": "https://store.shopping.yahoo.co.jp/marry-gift/zfs-ee-fa50-wa.html",
+     "price": 32899,
      "shippingFree": true,
      "point": 0,
      "reviewAverage": null,
      "reviewCount": 0,
-     "shop": "秋葉原　アウトレットプラザ",
-     "net": 35326
+     "shop": "公式 ギフトフィールドマリー Yahoo!店",
+     "net": 32899
     }
    }
   }
