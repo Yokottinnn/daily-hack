@@ -306,13 +306,14 @@ const ratio = (MAP_H / MAP_W).toFixed(4);
     const zoomOutBtn = root.querySelector<HTMLButtonElement>('[data-zoom="out"]'), zoomInBtn = root.querySelector<HTMLButtonElement>('[data-zoom="in"]');
     const cw = () => stage.clientWidth, ch = () => stage.clientWidth * ratio;
     // 2026-11-03 利用者「マイナスを押し続けると何も表示されていない青い部分が出る／一定の回数でもう押せないように」: 地図が枠を埋める大きさが下限
-    const minZ = () => Math.max(1, stage.clientHeight / ch());
+    // 2026-11-03 利用者「マイナスの縮小はもう少し押せるようにして」: 枠を埋める大きさからさらに 2 回（1.5 倍ずつ）まで。ただし地図の全体が収まる大きさより小さくはしない（それ以上は何も無い海しか増えない）
+    const minZ = () => Math.max(Math.min(1, stage.clientHeight / ch()), Math.max(1, stage.clientHeight / ch()) / 2.25);
     const clamp = () => {
       const w = stage.clientWidth, h = stage.clientHeight, W = cw() * z, Hh = ch() * z;
       tx = W <= w ? (w - W) / 2 : Math.min(0, Math.max(w - W, tx));
       ty = Hh <= h ? (h - Hh) / 2 : Math.min(0, Math.max(h - Hh, ty));
     };
-    const apply = () => { clamp(); canvas.style.transform = `translate(${tx}px, ${ty}px) scale(${z})`; root.style.setProperty('--wm-z', String(Math.max(z, 1))); root.classList.toggle('is-zoomed', z >= 2.2); if (zoomOutBtn) zoomOutBtn.disabled = z <= minZ() + 0.001; if (zoomInBtn) zoomInBtn.disabled = z >= 3.999; placePop(); };
+    const apply = () => { clamp(); canvas.style.transform = `translate(${tx}px, ${ty}px) scale(${z})`; root.style.setProperty('--wm-z', String(Math.max(z, 1))); root.classList.toggle('is-zoomed', z >= 2.2); sideGuides(); if (zoomOutBtn) zoomOutBtn.disabled = z <= minZ() + 0.001; if (zoomInBtn) zoomInBtn.disabled = z >= 3.999; placePop(); };
     const zoomAt = (nz: number, cx: number, cy: number) => { nz = Math.min(4, Math.max(minZ(), nz)); tx = cx - ((cx - tx) * nz) / z; ty = cy - ((cy - ty) * nz) / z; z = nz; apply(); };
     /** 地図の点（viewBox）を画面の真ん中へ */
     const centerOn = (mx: number, my: number, nz = z) => { z = Math.min(4, Math.max(minZ(), nz)); const k = cw() / 1000; tx = stage.clientWidth / 2 - mx * k * z; ty = stage.clientHeight / 2 - my * k * z; apply(); };
@@ -356,15 +357,28 @@ const ratio = (MAP_H / MAP_W).toFixed(4);
       lis.forEach((l, k) => l.classList.toggle('is-focus', k === i));
       requestAnimationFrame(placePop);
     };
+    let leaveT = 0;
+    /** 吹き出しは、画面の右半分にあるキャラは左向き・左半分は右向きにする（画面の端で切れないように） */
+    function sideGuides() { const k = cw() / 1000, W = stage.clientWidth; root.querySelectorAll<HTMLElement>('.wmap-g').forEach((g) => { const sx = tx + Number(g.dataset.x) * k * z; const b = g.querySelector<HTMLElement>('.wmap-g-bubble'); if (b) { b.style.maxWidth = ''; b.style.whiteSpace = ''; } const need = (g.querySelector<HTMLElement>('.wmap-g-in')?.offsetWidth ?? 160) + 30; const left = W - sx < need && sx > W - sx; g.classList.toggle('is-left', left); const room = (left ? sx : W - sx) - 62; if (b && b.offsetWidth > room) { b.style.whiteSpace = 'normal'; b.style.maxWidth = `${Math.max(70, room)}px`; } }); }
     const closePop = () => { pop.hidden = true; popIdx = -1; pins.forEach((p) => p.classList.remove('is-focus')); lis.forEach((l) => l.classList.remove('is-focus')); };
     pins.forEach((p, i) => {
       p.addEventListener('click', (e) => { e.preventDefault(); if (popIdx === i && pop.dataset.sticky) { location.href = `/posts/${items[i].slug}/`; return; } openPop(i, true); say(i); stopTour(); });
-      if (hoverable) { p.addEventListener('mouseenter', () => { if (!pop.dataset.sticky || pop.hidden) openPop(i); }); p.addEventListener('focus', () => openPop(i)); }
+      if (hoverable) {
+        p.addEventListener('mouseenter', () => { clearTimeout(leaveT); if (popIdx !== i) openPop(i); });
+        p.addEventListener('mouseleave', leaveSoon);
+        p.addEventListener('focus', () => openPop(i));
+      }
     });
-    stage.addEventListener('mouseleave', () => { if (!pop.dataset.sticky) closePop(); });
+    // 2026-11-03 利用者「イベントのモーダルはカーソルを外したら非表示にして／×ボタンを押さないと消えないのは UI がわるい」:
+    // カーソルがピンからも小窓からも外れたら少し待って閉じる（ピン → 小窓へ動かす間は閉じない）。押して開いたものも同じ
+    function leaveSoon() { clearTimeout(leaveT); leaveT = window.setTimeout(() => { if (!pop.matches(':hover')) closePop(); }, 280); }
+    if (hoverable) { pop.addEventListener('mouseenter', () => clearTimeout(leaveT)); pop.addEventListener('mouseleave', leaveSoon); }
+    stage.addEventListener('mouseleave', () => closePop());
+    // スマホ: 地図の何も無いところを押したら閉じる
+    stage.addEventListener('click', (e) => { const t = e.target as Element; if (!pop.hidden && !t.closest('.wm-pin, .wmap-pop, .wmap-dock, .wmap-zoom')) closePop(); });
     root.querySelector('[data-pop-close]')!.addEventListener('click', () => { closePop(); startTour(); });
     lis.forEach((l, i) => {
-      if (hoverable) l.addEventListener('mouseenter', () => { if (!pins[i].classList.contains('is-hidden')) openPop(i); });
+      if (hoverable) { l.addEventListener('mouseenter', () => { clearTimeout(leaveT); if (!pins[i].classList.contains('is-hidden')) openPop(i); }); l.addEventListener('mouseleave', leaveSoon); }
     });
     root.querySelectorAll<HTMLButtonElement>('[data-goto]').forEach((b) => b.addEventListener('click', () => {
       const i = Number(b.dataset.goto); const it = items[i];
@@ -383,14 +397,16 @@ const ratio = (MAP_H / MAP_W).toFixed(4);
       for (const c of cand) { if (pick.length >= max) break; if (pick.every((p) => Math.hypot(p.it.x - c.it.x, p.it.y - c.it.y) > 220)) pick.push(c); }
       guidesBox.replaceChildren(...pick.map(({ it }, k) => {
         const el = document.createElement('div');
-        el.className = `wmap-g ${it.x > 520 ? 'is-left' : ''}`;
+        el.className = 'wmap-g'; el.dataset.x = String(it.x);
         el.style.left = `${it.x / 10}%`; el.style.top = `${(it.y / (1000 * ratio)) * 100}%`;
-        const name = it.short.length > 11 ? it.short.slice(0, 10) + '…' : it.short;
+        const cut = stage.clientWidth < 600 ? 8 : 11;
+        const name = it.short.length > cut ? it.short.slice(0, cut - 1) + '…' : it.short;
         const msg = isOn(it) ? `${name}、開催中よ` : `${name}は${Number(it.start.slice(5, 7))}/${Number(it.start.slice(8, 10))}から`;
         el.innerHTML = `<div class="wmap-g-in"><img src="${FACES[k % FACES.length]}" alt="" width="28" height="28" class="wmap-g-face"><span class="wmap-g-bubble"></span></div>`;
         el.querySelector('.wmap-g-bubble')!.textContent = msg;
         return el;
       }));
+      sideGuides();
     };
     function stopTour() {}
     function startTour() {}
