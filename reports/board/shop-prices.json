@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-03T21:43:52.122Z",
+ "generatedAt": "2026-11-04T21:42:31.770Z",
  "keys": {
   "rakuten": true,
   "rakutenAccessKey": false,
@@ -420,15 +420,15 @@
     "yahoo": {
      "found": true,
      "candidates": 30,
-     "name": "象印　加湿器 EE-TC60 BM（ソフトブラック）",
-     "url": "https://store.shopping.yahoo.co.jp/sanrex/ee-tc60-bm.html",
-     "price": 25200,
+     "name": "ZOJIRUSHI（象印）EE-TC60-BM　加湿器 スチーム式　【木造和室 〜10畳・プレハブ洋室 〜17畳】 容量4.0L ソフトブラック",
+     "url": "https://store.shopping.yahoo.co.jp/giga-web2/68009.html",
+     "price": 25179,
      "shippingFree": true,
      "point": 0,
      "reviewAverage": null,
      "reviewCount": 0,
-     "shop": "サンサン マーケット",
-     "net": 25200
+     "shop": "GIGA ヤフー店",
+     "net": 25179
     }
    },
    "zojirushi-ee-dg50": {
@@ -438,15 +438,15 @@
     "yahoo": {
      "found": true,
      "candidates": 29,
-     "name": "象印 (/F) スチーム式 加湿器 4L 2026年モデル ホワイト 白 4リットル 木造和室 8畳 プレハブ洋室 13畳 EE-DG50-WA EE-DG50(WA)",
-     "url": "https://store.shopping.yahoo.co.jp/proshopdate15/zojirushi-ee-dg50-wa.html",
-     "price": 19990,
+     "name": "【クーポン11/5限定】象印 ZOJIRUSHI 加湿器 EE-DG50-WA スチーム式加湿器 4.0L ホワイト",
+     "url": "https://store.shopping.yahoo.co.jp/life-marketkyoto/ee-dg50-wa.html",
+     "price": 20560,
      "shippingFree": true,
      "point": 0,
      "reviewAverage": null,
      "reviewCount": 0,
-     "shop": "ProShop伊達",
-     "net": 19990
+     "shop": "ライフマーケットYahoo!店",
+     "net": 20560
     }
    },
    "zojirushi-ee-dg35": {
@@ -456,15 +456,15 @@
     "yahoo": {
      "found": true,
      "candidates": 28,
-     "name": "象印　加湿器 EE-DG35 HA（グレー）",
-     "url": "https://store.shopping.yahoo.co.jp/sanrex/ee-dg35-ha.html",
-     "price": 18780,
+     "name": "ZOJIRUSHI　スチーム式加湿器　3.0L　ホワイト　EE-DG35-WA　象印マホービン",
+     "url": "https://store.shopping.yahoo.co.jp/to-rulease/1-240001019707.html",
+     "price": 18770,
      "shippingFree": true,
      "point": 0,
      "reviewAverage": null,
      "reviewCount": 0,
-     "shop": "サンサン マーケット",
-     "net": 18780
+     "shop": "ディスカウントショップとーるりーす",
+     "net": 18770
     }
    },
    "zojirushi-ee-rv50": {
@@ -473,7 +473,7 @@
     },
     "yahoo": {
      "found": true,
-     "candidates": 28,
+     "candidates": 26,
      "name": "象印マホービン　ZOJIRUSHI 加湿器 スチーム式 木造8畳 鉄筋13畳 ホワイト EE-RV50-WA",
      "url": "https://store.shopping.yahoo.co.jp/jhb-store/4974305232564.html",
      "price": 16239,
@@ -527,16 +527,16 @@
     },
     "yahoo": {
      "found": true,
-     "candidates": 16,
-     "name": "象印 STAN.スチーム式加湿器 ZOJIRUSHI スタン加湿器 マホービン キッチン家電 EE-FA50-WA 白 ホワイト おしゃれ 家電 新築祝い",
-     "url": "https://store.shopping.yahoo.co.jp/marry-gift/zfs-ee-fa50-wa.html",
-     "price": 32899,
+     "candidates": 14,
+     "name": "ZOJIRUSHI スチーム式加湿器 STAN. EE-FA50-BA ブラック 象印",
+     "url": "https://store.shopping.yahoo.co.jp/outletplaza/40001082165.html",
+     "price": 35326,
      "shippingFree": true,
      "point": 0,
      "reviewAverage": null,
      "reviewCount": 0,
-     "shop": "公式 ギフトフィールドマリー Yahoo!店",
-     "net": 32899
+     "shop": "秋葉原　アウトレットプラザ",
+     "net": 35326
     }
    }
   }
