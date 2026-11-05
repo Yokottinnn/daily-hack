@@ -228,7 +228,19 @@ const reviewSets = [];
 reviewSets.sort((a, b) => (b.at || '').localeCompare(a.at || ''));
 // ---------- X とブログをつなぐ：投稿ごとに「告知の日と翌日の記事の読者」と「前後のフォロワーの増減」 ----------
 // フォロワーの読み取りの失敗（2026-11-02 に 626 → 3 と記録された）を外す。前後の値の半分未満に落ちて戻る点は読み違い
-const folRaw = (xw?.followers || []).filter((f) => typeof f.count === 'number');
+// 2026-11-05: 毎日の記録（follower-snapshots）は 10 月下旬から 615〜626 で止まり、11/2 に 3・11/3 に 77 と読み違えていた。
+// 一方、毎朝プロフィールのヘッダーを読む x-numbers.json は 669 → 696 と伸びている（利用者「フォロワーが 11/2 で止まってる」）。
+// ヘッダーの値がある日はそれを使い（読んだ時刻の UTC の日付 = 前の晩の数）、無い日だけ毎日の記録を使う。
+const folHdr = {};
+for (const h of (git('log', '--format=%H', '-n', '200', HB, '--', 'reports/board/x-numbers.json') || '').split('\n').filter(Boolean).reverse()) {
+  const j = json(show(h, 'reports/board/x-numbers.json'));
+  const n = j?.header?.followers; if (typeof n !== 'number' || n <= 0 || !j.generated) continue;
+  folHdr[j.generated.slice(0, 10)] = { date: j.generated.slice(0, 10), count: n, following: j.header.following ?? null, at: j.generated, src: 'header' };
+}
+const folMap = {};
+for (const f of (xw?.followers || []).filter((f) => typeof f.count === 'number')) folMap[f.date] = f;
+for (const [d, f] of Object.entries(folHdr)) folMap[d] = f;
+const folRaw = Object.values(folMap).sort((a, b) => a.date.localeCompare(b.date));
 const folBad = [];
 const fol = folRaw.filter((f, i) => {
   const prev = folRaw.slice(0, i).reverse().find((x) => !folBad.includes(x));
