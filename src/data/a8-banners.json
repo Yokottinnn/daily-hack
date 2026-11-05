@@ -1,5 +1,5 @@
 {
- "_note": "記事の広告の横・サイドバーの上に出す A8 のバナー（300×250）。2026-10-31 に t426・t427（12 件）と t481〜t485（10/31 に提携した 25 件）で A8 の広告リンク作成画面から取った。match は記事の題名・タグ・説明に当てる正規表現。合う記事にだけ出す",
+ "_note": "記事の広告の横・サイドバーの上に出す A8 のバナー（300×250）。2026-10-31 に t426・t427（12 件）と t481〜t485（10/31 に提携した 25 件）で A8 の広告リンク作成画面から取った。match は記事の題名・タグ・説明に当てる正規表現。合う記事にだけ出す。2026-11-06 に t563 で KANGAPOOCH（11/1 申請・11/5 提携）を足した",
  "banners": [
   {
    "programId": "s00000017718004",
@@ -444,6 +444,12 @@
    "name": "鼓月（京都の和菓子）",
    "match": "佃島|和菓子|手土産|老舗",
    "html": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4BGAV3+FBBFQ2+4LJ6+60OXD\" rel=\"nofollow\"> <img border=\"0\" width=\"300\" height=\"250\" alt=\"鼓月（京都の和菓子）（PR）\" src=\"https://www28.a8.net/svt/bgt?aid=261101055926&wid=002&eno=01&mid=s00000021453001011000&mc=1\"></a> <img border=\"0\" width=\"1\" height=\"1\" src=\"https://www17.a8.net/0.gif?a8mat=4BGAV3+FBBFQ2+4LJ6+60OXD\" alt=\"\">"
+  },
+  {
+   "programId": "s00000020412003",
+   "name": "KANGAPOOCH（犬の抱っこ紐）",
+   "match": "犬|ドッグ|DOG|ペット|愛犬|抱っこ紐|お出かけ",
+   "html": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4BGAV3+EAZZTM+4DI0+HWXLD\" rel=\"nofollow\"> <img border=\"0\" width=\"300\" height=\"250\" alt=\"KANGAPOOCH（犬の抱っこ紐）（PR）\" src=\"https://www29.a8.net/svt/bgt?aid=261101055865&wid=002&eno=01&mid=s00000020412003009000&mc=1\"></a> <img border=\"0\" width=\"1\" height=\"1\" src=\"https://www11.a8.net/0.gif?a8mat=4BGAV3+EAZZTM+4DI0+HWXLD\" alt=\"\">"
   }
  ]
 }
