@@ -1,3 +1,1 @@
-[
-      {"task": "x424-read-alt-failure.sh", "rc": 0, "out": "# ALT を付けると投稿が落ちる件（2026-11-05 19:48:30 JST・$0・投稿していない）  ## ① post-via-playwright.js の ALT の部分と、例外を受ける部分 ```js 103:      // 2026-10-11 x264: 画像の説明（ALT）。ALT_TEXTS_FILE（JSON 配列）があれば、i 枚目に"}
-  ]
+[]
