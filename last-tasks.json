@@ -1,3 +1,3 @@
 [
-      {"task": "x426-why-oneshot-unloaded.sh", "rc": 0, "out": " ## 1. 再起動・ログイン・スリープ ``` { sec = 1789831206, usec = 319152 } Sun Sep 20 00:20:06 2026 2026-11-04 07:16:56 +0900 Assertions          	PID 26015(Google Chrome for Testing) "}
+      {"task": "x427-who-mass-unloads.sh", "rc": 0, "out": " ## 1. 外す処理を持つスクリプトの、launchctl を呼ぶ行 ``` --- tab-guard.js 69:    execSync(`for p in ~/Library/LaunchAgents/ai.openclaw.*.plist; do case $p in *tab-guard*) con"}
   ]
