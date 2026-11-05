@@ -1,5 +1,5 @@
 {
- "_note": "A8 に申請して審査中の案件と、通ったら入れる記事（2026-10-17・t309/t310）。毎日のルーティンの手順 6-B が読む。入れたら entries から消す",
+ "_note": "A8 に申請して審査中の案件と、通ったら入れる記事（2026-10-17・t309/t310）。毎日のルーティンの手順 6-B が読む。入れたら entries から消す。2026-11-05 に、2026-11-01 申請の 6 件（バナー用・slug なし）を足した（利用者が「毎朝の作戦室の更新で見る」を選んだ）",
  "entries": [
   {
    "programId": "s00000024602001",
@@ -100,6 +100,48 @@
    "programId": "s00000012552001",
    "name": "通信教育フォーサイト",
    "slug": "hoso-daigaku-gakuwari-2026"
+  },
+  {
+   "programId": "s00000025349002",
+   "name": "ドッグフード工房 定期便",
+   "slug": "",
+   "use": "記事ではなく広告の枠のバナー（src/data/a8-banners.json に題材の合う match で足し、証跡ページと作戦室 analyses を直す）",
+   "since": "2026-11-01"
+  },
+  {
+   "programId": "s00000021939003",
+   "name": "ミシュワン シニア",
+   "slug": "",
+   "use": "記事ではなく広告の枠のバナー（src/data/a8-banners.json に題材の合う match で足し、証跡ページと作戦室 analyses を直す）",
+   "since": "2026-11-01"
+  },
+  {
+   "programId": "s00000020412003",
+   "name": "KANGAPOOCH",
+   "slug": "",
+   "use": "記事ではなく広告の枠のバナー（src/data/a8-banners.json に題材の合う match で足し、証跡ページと作戦室 analyses を直す）",
+   "since": "2026-11-01"
+  },
+  {
+   "programId": "s00000011565001",
+   "name": "土居珈琲",
+   "slug": "",
+   "use": "記事ではなく広告の枠のバナー（src/data/a8-banners.json に題材の合う match で足し、証跡ページと作戦室 analyses を直す）",
+   "since": "2026-11-01"
+  },
+  {
+   "programId": "s00000026742001",
+   "name": "KEURIG",
+   "slug": "",
+   "use": "記事ではなく広告の枠のバナー（src/data/a8-banners.json に題材の合う match で足し、証跡ページと作戦室 analyses を直す）",
+   "since": "2026-11-01"
+  },
+  {
+   "programId": "s00000025742001",
+   "name": "日本茶きみくら",
+   "slug": "",
+   "use": "記事ではなく広告の枠のバナー（src/data/a8-banners.json に題材の合う match で足し、証跡ページと作戦室 analyses を直す）",
+   "since": "2026-11-01"
   }
  ]
 }
