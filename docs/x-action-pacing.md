@@ -60,3 +60,12 @@ grep 'x-action-guard' ~/.openclaw/workspace/logs/*.log      # 止めた記録（
 - plist に `NODE_OPTIONS=--require /Users/ny/.openclaw/workspace/lib/x-action-guard.cjs` を入れる
 - 押す前に `x-action-pacer.cjs until <種類> <秒>` を呼ぶ（または `require` して `waitFree`）
 - 1 回の起動でまとめて押す設計にしない。**件数を増やすなら起動の回数を増やして散らす**
+
+## フォロー解除のジョブ（台帳に記録して外す）
+
+| ジョブ | 入れたタスク | 形 |
+| --- | --- | --- |
+| follow-balance | x403（2026-11-02） | 外す直前に `waitTake("unfollow", 35 分)`。空かなければその回はそこで止める |
+| mutual-prune | x419（2026-11-04） | 同じ（外すボタンを探す行の直前） |
+
+**外すジョブを新しく作るときも、外す直前に `waitTake("unfollow")` を入れる。** 入れないと、ほかのジョブの間隔を無視して続けて外す（x402 で follow-balance が約 11 秒おきに外していた）。
