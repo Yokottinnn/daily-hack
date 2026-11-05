@@ -1,3 +1,1 @@
-[
-      {"task": "x427-who-mass-unloads.sh", "rc": 0, "out": " ## 1. 外す処理を持つスクリプトの、launchctl を呼ぶ行 ``` --- tab-guard.js 69:    execSync(`for p in ~/Library/LaunchAgents/ai.openclaw.*.plist; do case $p in *tab-guard*) con"}
-  ]
+[]
