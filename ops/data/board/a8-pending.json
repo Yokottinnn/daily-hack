@@ -116,13 +116,6 @@
    "since": "2026-11-01"
   },
   {
-   "programId": "s00000020412003",
-   "name": "KANGAPOOCH",
-   "slug": "",
-   "use": "記事ではなく広告の枠のバナー（src/data/a8-banners.json に題材の合う match で足し、証跡ページと作戦室 analyses を直す）",
-   "since": "2026-11-01"
-  },
-  {
    "programId": "s00000011565001",
    "name": "土居珈琲",
    "slug": "",
