@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-04T21:42:31.770Z",
+ "generatedAt": "2026-11-05T21:42:52.555Z",
  "keys": {
   "rakuten": true,
   "rakutenAccessKey": false,
@@ -103,7 +103,7 @@
     },
     "yahoo": {
      "found": true,
-     "candidates": 6,
+     "candidates": 3,
      "name": "BURTLE バートル サーモクラフト(電熱パッド) 秋冬用 オレンジ TC500 84 F",
      "url": "https://store.shopping.yahoo.co.jp/monaka-store/s-b0b7jsc18k-20260720.html",
      "price": 11409,
@@ -251,8 +251,8 @@
     "yahoo": {
      "found": true,
      "candidates": 18,
-     "name": "繰り返し使えるカイロ グレー",
-     "url": "https://store.shopping.yahoo.co.jp/zozo/111963060.html",
+     "name": "繰り返し使えるカイロ ピンク",
+     "url": "https://store.shopping.yahoo.co.jp/zozo/111963074.html",
      "price": 3480,
      "shippingFree": false,
      "point": 0,
@@ -268,9 +268,9 @@
     },
     "yahoo": {
      "found": true,
-     "candidates": 3,
-     "name": "両手で使える充電式カイロ グレー",
-     "url": "https://store.shopping.yahoo.co.jp/zozo/111963066.html",
+     "candidates": 2,
+     "name": "両手で使える充電式カイロ ピンク",
+     "url": "https://store.shopping.yahoo.co.jp/zozo/111963073.html",
      "price": 5480,
      "shippingFree": false,
      "point": 0,
@@ -287,15 +287,15 @@
     "yahoo": {
      "found": true,
      "candidates": 1,
-     "name": "充電式カイロ コンパクト 軽量 薄型 USB 速暖 モバイルバッテリー 使い捨てない 持ち運び 繰り返し使える 電気カイロ 携帯カイロ おしゃれ mottole MTL-E007",
+     "name": "【60%OFF】充電式カイロ コンパクト 軽量 薄型 USB 速暖 モバイルバッテリー 使い捨てない 持ち運び 繰り返し使える 電気カイロ 携帯カイロ mottole MTL-E007",
      "url": "https://store.shopping.yahoo.co.jp/mottole/mtl-e007.html",
-     "price": 2740,
+     "price": 1096,
      "shippingFree": true,
      "point": 0,
      "reviewAverage": 4.33,
      "reviewCount": 481,
      "shop": "mottole Yahoo!店",
-     "net": 2740
+     "net": 1096
     }
    },
    "mottole-mtl-e029": {
@@ -305,15 +305,15 @@
     "yahoo": {
      "found": true,
      "candidates": 1,
-     "name": "充電式カイロ 長時間 長持ち モバイルバッテリー 10,000mAh 大容量 電気カイロ USB 速暖 繰り返し使える 使い捨てない 冷え対策 おしゃれ mottole MTL-E029",
+     "name": "【58%OFF】充電式カイロ 長時間 長持ち モバイルバッテリー 10,000mAh 大容量 電気カイロ USB 速暖 繰り返し使える 使い捨てない 冷え対策 mottole MTL-E029",
      "url": "https://store.shopping.yahoo.co.jp/mottole/mtl-e029.html",
-     "price": 4120,
+     "price": 1730,
      "shippingFree": true,
      "point": 0,
      "reviewAverage": 4.35,
      "reviewCount": 93,
      "shop": "mottole Yahoo!店",
-     "net": 4120
+     "net": 1730
     }
    },
    "mottole-mtl-e030": {
@@ -422,13 +422,13 @@
      "candidates": 30,
      "name": "ZOJIRUSHI（象印）EE-TC60-BM　加湿器 スチーム式　【木造和室 〜10畳・プレハブ洋室 〜17畳】 容量4.0L ソフトブラック",
      "url": "https://store.shopping.yahoo.co.jp/giga-web2/68009.html",
-     "price": 25179,
+     "price": 25177,
      "shippingFree": true,
      "point": 0,
      "reviewAverage": null,
      "reviewCount": 0,
      "shop": "GIGA ヤフー店",
-     "net": 25179
+     "net": 25177
     }
    },
    "zojirushi-ee-dg50": {
@@ -456,15 +456,15 @@
     "yahoo": {
      "found": true,
      "candidates": 28,
-     "name": "ZOJIRUSHI　スチーム式加湿器　3.0L　ホワイト　EE-DG35-WA　象印マホービン",
-     "url": "https://store.shopping.yahoo.co.jp/to-rulease/1-240001019707.html",
-     "price": 18770,
+     "name": "象印　加湿器 EE-DG35 WA（ホワイト）",
+     "url": "https://store.shopping.yahoo.co.jp/sanrex/ee-dg35-wa.html",
+     "price": 18700,
      "shippingFree": true,
      "point": 0,
      "reviewAverage": null,
      "reviewCount": 0,
-     "shop": "ディスカウントショップとーるりーす",
-     "net": 18770
+     "shop": "サンサン マーケット",
+     "net": 18700
     }
    },
    "zojirushi-ee-rv50": {
@@ -473,16 +473,16 @@
     },
     "yahoo": {
      "found": true,
-     "candidates": 26,
-     "name": "象印マホービン　ZOJIRUSHI 加湿器 スチーム式 木造8畳 鉄筋13畳 ホワイト EE-RV50-WA",
-     "url": "https://store.shopping.yahoo.co.jp/jhb-store/4974305232564.html",
-     "price": 16239,
+     "candidates": 27,
+     "name": "EE-RV50-WA ZOJIRUSHI スチーム式 加湿器 ホワイト 3.0L 象印 在庫あり お手入れ簡単 清潔な蒸気スチーム式 安全設計",
+     "url": "https://store.shopping.yahoo.co.jp/macocoro/ee-rv50.html",
+     "price": 16240,
      "shippingFree": true,
      "point": 0,
      "reviewAverage": null,
      "reviewCount": 0,
-     "shop": "JHBストア",
-     "net": 16239
+     "shop": "まごころでんき Yahoo!店",
+     "net": 16240
     }
    },
    "zojirushi-ee-rv35": {
@@ -491,16 +491,16 @@
     },
     "yahoo": {
      "found": true,
-     "candidates": 26,
-     "name": "象印 スチーム式加湿器 2.2L ホワイト EE-RV35WA",
-     "url": "https://store.shopping.yahoo.co.jp/jetprice/b803lc.html",
-     "price": 14679,
+     "candidates": 25,
+     "name": "象印 スチーム式加湿器 2.2L 木造6畳 プレハブ10畳 EE-RV35-WA ホワイト",
+     "url": "https://store.shopping.yahoo.co.jp/pc-akindo/ee-rv35-wa.html",
+     "price": 14678,
      "shippingFree": true,
      "point": 0,
      "reviewAverage": null,
      "reviewCount": 0,
-     "shop": "JetPrice",
-     "net": 14679
+     "shop": "PCあきんど",
+     "net": 14678
     }
    },
    "zojirushi-ee-mc20": {
@@ -510,15 +510,15 @@
     "yahoo": {
      "found": true,
      "candidates": 28,
-     "name": "ZOJIRUSHI（象印）EE-MC20-CM　加湿器 スチーム式　【木造和室 〜3畳・プレハブ洋室 〜6畳】 容量1.8L サンドベージュ",
-     "url": "https://store.shopping.yahoo.co.jp/giga-web2/68016.html",
-     "price": 15099,
+     "name": "象印 加湿器 スチーム式 ZOJIRUSHI 木造3畳/プレハブ6畳まで 加湿能力200mL/h タンク1.8L サンドベージュ EE-MC20-CM",
+     "url": "https://store.shopping.yahoo.co.jp/gion/ee-mc20-cm.html",
+     "price": 15000,
      "shippingFree": true,
      "point": 0,
      "reviewAverage": null,
      "reviewCount": 0,
-     "shop": "GIGA ヤフー店",
-     "net": 15099
+     "shop": "ぎおん",
+     "net": 15000
     }
    },
    "zojirushi-ee-fa50": {
@@ -527,7 +527,7 @@
     },
     "yahoo": {
      "found": true,
-     "candidates": 14,
+     "candidates": 13,
      "name": "ZOJIRUSHI スチーム式加湿器 STAN. EE-FA50-BA ブラック 象印",
      "url": "https://store.shopping.yahoo.co.jp/outletplaza/40001082165.html",
      "price": 35326,
