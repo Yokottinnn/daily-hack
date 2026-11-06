@@ -1,0 +1,16 @@
+{
+  "generated": "2026-11-06T01:48:03.488Z",
+  "providers": {
+    "rakuten": {
+      "name": "楽天アフィリエイト",
+      "loggedIn": true,
+      "needsHuman": false,
+      "credentialsInKeychain": true,
+      "reason": "",
+      "url": "https://affiliate.rakuten.co.jp/report/summary",
+      "title": "【楽天アフィリエイト】 - レポート",
+      "affiliateIds": [],
+      "menus": 7
+    }
+  }
+}
