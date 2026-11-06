@@ -1,0 +1,27 @@
+{
+ "kv.jpg": {
+  "source": "https://www.jegt.jp/news/7846/",
+  "credit": "JEGT GRAND PRIX 公式サイト",
+  "fetched": "2026-11-07"
+ },
+ "simulator.jpg": {
+  "source": "https://city-circuit.com/2026/10/jegt/",
+  "credit": "CITY CIRCUIT TOKYO BAY 公式サイト",
+  "fetched": "2026-11-07"
+ },
+ "booth.jpg": {
+  "source": "https://city-circuit.com/2026/10/jegt/",
+  "credit": "CITY CIRCUIT TOKYO BAY 公式サイト",
+  "fetched": "2026-11-07"
+ },
+ "kart-race.jpg": {
+  "source": "https://city-circuit.com/2026/10/alljapankartingchampionship_ev_264/",
+  "credit": "CITY CIRCUIT TOKYO BAY 公式サイト",
+  "fetched": "2026-11-07"
+ },
+ "kart-course.jpg": {
+  "source": "https://city-circuit.com/2026/10/alljapankartingchampionship_ev_264/",
+  "credit": "CITY CIRCUIT TOKYO BAY 公式サイト",
+  "fetched": "2026-11-07"
+ }
+}
