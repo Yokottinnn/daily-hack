@@ -22,7 +22,8 @@ process.on('unhandledRejection', (e) => { lines.push(`- ⚠️ 未処理のエ�
 // asp-sync のメニューにあった入口（reports/.sync/asp-sync/*.md）。VC ともしもは「レポート」の文字のリンクを辿る
 const ENTRY = [
   { id: 'a8', name: 'A8.net', urls: ['https://media-console.a8.net/report/program/summary', 'https://media-console.a8.net/report/confirmed/program'] },
-  { id: 'rakuten', name: '楽天アフィリエイト', urls: ['https://affiliate.rakuten.co.jp/report/summary'] },
+  // 2026-11-06: 楽天で初の発生（未確定 1 件）。何がどの店で買われたかを見るため、サマリの画面から「注文明細」「ショップ別」「成果報酬・確定実績」も辿る（利用者「159円の報酬が発生しているみたいだけど、これなに？」）
+  { id: 'rakuten', name: '楽天アフィリエイト', urls: ['https://affiliate.rakuten.co.jp/report/summary'], follow: /^(注文明細|ショップ別|成果報酬・確定実績)$/ },
   { id: 'vc', name: 'バリューコマース', top: 'https://aff.valuecommerce.ne.jp/', link: /^レポート$/ },
   { id: 'moshimo', name: 'もしも', top: 'https://af.moshimo.com/af/shop/index', link: /^レポート$/ },
 ];
@@ -50,16 +51,24 @@ try {
       urls = links;
     }
     result.asps[e.id] = [];
-    for (const u of urls) {
+    const followed = new Set();
+    for (let ui = 0; ui < urls.length; ui++) {
+      const u = urls[ui];
       await go(u);
+      if (e.follow && ui === 0) {
+        const more = await p.evaluate((src) => { const re = new RegExp(src); return [...new Set([...document.querySelectorAll('a[href]')].filter((a) => re.test((a.innerText || '').trim())).map((a) => a.href))].slice(0, 4); }, e.follow.source);
+        for (const m of more) if (!urls.includes(m)) { urls = [...urls, m]; followed.add(m); }
+        lines.push(`- 辿る画面: ${more.length} 件`);
+      }
+
       const title = (await p.title()).slice(0, 60);
       const tables = await readTables();
       lines.push(`- 画面: ${here()}（${hide(title)}）・表 ${tables.length} 個`);
       tables.forEach((t, i) => {
         lines.push(`  - 表 ${i + 1}: 見出し「${t.head.map(hide).join(' | ')}」・行 ${t.rows.length}`);
-        t.rows.slice(0, 8).forEach((r) => { if (!NG.test(r.join(' '))) lines.push(`    - ${r.map(hide).join(' | ').slice(0, 220)}`); });
+        if (!followed.has(u)) t.rows.slice(0, 8).forEach((r) => { if (!NG.test(r.join(' '))) lines.push(`    - ${r.map(hide).join(' | ').slice(0, 220)}`); });
       });
-      if (!tables.length) {
+      if (!tables.length && !followed.has(u)) {
         const txt = await p.evaluate(() => (document.body.innerText || '').split('\n').map((x) => x.trim()).filter(Boolean).slice(0, 60));
         lines.push('  - 表が無い。画面の文字（数字は伏せる）:', ...txt.filter((x) => !NG.test(x)).slice(0, 30).map((x) => `    - ${hide(x).slice(0, 120)}`));
       }
