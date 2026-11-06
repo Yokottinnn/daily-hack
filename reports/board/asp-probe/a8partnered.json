@@ -1,9 +1,73 @@
 {
- "generated": "2026-11-05T21:41:22.902Z",
- "total": 372,
+ "generated": "2026-11-06T21:41:19.346Z",
+ "total": 380,
  "from": 0,
- "to": 372,
+ "to": 380,
  "rows": [
+  {
+   "id": "s00000027341001",
+   "name": "単身引越しに特化した大人気の安心サービス！【ケーエー引越センター】",
+   "reward": "新規引越し2800円 EPC",
+   "self": false,
+   "point": false,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000015223027",
+   "name": "人気の旅行券予約サイト【ソラハピ】",
+   "reward": "予約1500円 EPC",
+   "self": true,
+   "point": true,
+   "listing": "リスティングNG"
+  },
+  {
+   "id": "s00000021319001",
+   "name": "世界を明るく照らす【オーライト】",
+   "reward": "購入(税抜)8％ EPC",
+   "self": false,
+   "point": true,
+   "listing": "リスティングOK"
+  },
+  {
+   "id": "s00000009132015",
+   "name": "国産・無添加おせち予約【らでぃっしゅぼーや】",
+   "reward": "購入17％ EPC",
+   "self": true,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000009132001",
+   "name": "食材宅配サービス申込【らでぃっしゅぼーや】",
+   "reward": "新規申込み3000円 EPC",
+   "self": false,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000027749001",
+   "name": "プロパンガス料金を見直して最大2万円還元！【エネポケ】",
+   "reward": "新規切替完了10500円 EPC",
+   "self": false,
+   "point": false,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000022442001",
+   "name": "Nexus Card デポジット型クレジットカード",
+   "reward": "新規カード発行1500円 EPC",
+   "self": false,
+   "point": false,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000017245008",
+   "name": "【板前魂】木村佳乃さんがおせちをご紹介！全国的に知名度がある有名店",
+   "reward": "新規購入7.6％ EPC",
+   "self": true,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
   {
    "id": "s00000014557001",
    "name": "仲間が広がる、旅が深まる【クラブツーリズム】",
@@ -2981,5 +3045,5 @@
    "listing": "リスティングNG"
   }
  ],
- "applyingCount": 156
+ "applyingCount": 144
 }
