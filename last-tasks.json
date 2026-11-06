@@ -1,3 +1,1 @@
-[
-      {"task": "t564-rakuten-order-detail-2.sh", "rc": 0, "out": "rakuten: ログイン済み / 楽天ID 0 件 ``` - asp-results collect: rc=0・JSON 39873 bytes（中身は出さない） push: 送った（data/asp-results） rc=0 /      270 bytes"}
-  ]
+[]
