@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T23:27:09Z",
+  "generated_at": "2026-11-06T23:57:18Z",
   "login_lock": {"present": false, "age_hours": 0},
   "cdp": {"healthy": true, "port": 18810},
   "x_jobs": {"loaded": 8, "expected": 8, "ai_total": 16, "halted": false, "missing": []},
@@ -38,7 +38,9 @@
     "com.dailyhack.x-impressions"
   ],
   "reconnect": "既に起動している",
-  "tasks": [],
+  "tasks": [
+      {"task": "t565-a8-vc-status-recheck.sh", "rc": 0, "out": "- `2130178` [おすすめ] アソビュー株式会社 アソビュー！ （広告主ID: 3147096） 遊び予約／レジャーチケット購入サイト「アソビュー！」 即時提携 （プログラムID: 2130178） LinkSwitch対応 スマホ広告対応 リスティング不可 MyLink利�"}
+  ],
   "running": null,
   "auth": {
     "ok": false,
