@@ -23,9 +23,9 @@ process.on('unhandledRejection', (e) => { lines.push(`- ⚠️ 未処理のエ�
 const ENTRY = [
   { id: 'a8', name: 'A8.net', urls: ['https://media-console.a8.net/report/program/summary', 'https://media-console.a8.net/report/confirmed/program'] },
   // 2026-11-06: 楽天で初の発生（未確定 1 件）。何がどの店で買われたかを見るため、サマリの画面から「注文明細」「ショップ別」「成果報酬・確定実績」も辿る（利用者「159円の報酬が発生しているみたいだけど、これなに？」）
-  { id: 'rakuten', name: '楽天アフィリエイト', urls: ['https://affiliate.rakuten.co.jp/report/summary'], follow: /^(注文明細|ショップ別|成果報酬・確定実績)$/ },
+  { id: 'rakuten', name: '楽天アフィリエイト', urls: ['https://affiliate.rakuten.co.jp/report/summary'], tabs: ['注文明細', 'ショップ別', '成果報酬・確定実績'] },
   { id: 'vc', name: 'バリューコマース', top: 'https://aff.valuecommerce.ne.jp/', link: /^レポート$/ },
-  { id: 'moshimo', name: 'もしも', top: 'https://af.moshimo.com/af/shop/index', link: /^レポート$/ },
+  // もしもは 2026-11-02 にメディア登録が削除され、利用者の判断で放置（読まない）
 ];
 
 const b = await chromium.connectOverCDP(`http://127.0.0.1:${process.env.CDP_PORT || '18810'}`);
@@ -55,11 +55,6 @@ try {
     for (let ui = 0; ui < urls.length; ui++) {
       const u = urls[ui];
       await go(u);
-      if (e.follow && ui === 0) {
-        const more = await p.evaluate((src) => { const re = new RegExp(src); return [...new Set([...document.querySelectorAll('a[href]')].filter((a) => re.test((a.innerText || '').trim())).map((a) => a.href))].slice(0, 4); }, e.follow.source);
-        for (const m of more) if (!urls.includes(m)) { urls = [...urls, m]; followed.add(m); }
-        lines.push(`- 辿る画面: ${more.length} 件`);
-      }
 
       const title = (await p.title()).slice(0, 60);
       const tables = await readTables();
@@ -75,6 +70,17 @@ try {
       // 楽天のレポートは表ではなく文字で並ぶ（t340）。collect のときは画面の文字も持つ（数字入り・非公開の置き場にだけ書く）
       const text = MODE === 'collect' ? await p.evaluate(() => (document.body.innerText || '').split('\n').map((x) => x.trim()).filter(Boolean).slice(0, 400)) : undefined;
       result.asps[e.id].push({ url: here(), title, tables, text });
+    }
+    // タブを文字で押して読む（楽天の「注文明細」などは普通のリンクではなかった・2026-11-06）。商品名が出るので公開の md には件数だけ
+    for (const label of e.tabs || []) {
+      await go(urls[0]);
+      const el = p.getByText(label, { exact: true }).first();
+      const ok = await el.click({ timeout: 8000 }).then(() => true).catch(() => false);
+      await p.waitForTimeout(5000);
+      const tables = ok ? await readTables() : [];
+      lines.push(`- タブ「${label}」: ${ok ? '押せた' : '押せない'}・画面 ${here()}・表 ${tables.length} 個${tables.map((t) => '（行 ' + t.rows.length + '）').join('')}`);
+      const text = ok && MODE === 'collect' ? await p.evaluate(() => (document.body.innerText || '').split('\n').map((x) => x.trim()).filter(Boolean).slice(0, 400)) : undefined;
+      if (ok) result.asps[e.id].push({ url: here(), tab: label, title: (await p.title()).slice(0, 60), tables, text });
     }
     lines.push('');
   }
