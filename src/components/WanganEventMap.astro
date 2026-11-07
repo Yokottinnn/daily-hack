@@ -426,9 +426,16 @@ const ratio = (MAP_H / MAP_W).toFixed(4);
     // 2026-11-07 利用者「手のアイコンで移動するときに移動が少し遅い／もっさりしていて滑らかさがない」:
     // ① ドラッグ中は 0.25 秒のアニメーションを切る（指より遅れてついてきていた） ② 指の動きの 1.5 倍動かす ③ 離したあとも少し滑らせる
     const PAN_SPEED = 1.5;
+    // 2026-11-07 利用者「モバイルで非常にもっさりして全然動かない」: 動く絵（船・魚・電車・波・雲）が地図全体を毎フレーム描き直させていた
+    // （遅い CPU で測ると、全部止めると描画が 30 → 50 回／秒、ドラッグが 2.7 → 1.3 秒）。動かしている間は止め、離して止まったら再開する
+    const mapSvg = root.querySelector('.wmap-svg') as SVGSVGElement | null;
+    const setDragging = (on: boolean) => {
+      root.classList.toggle('is-dragging', on);
+      try { if (on) mapSvg?.pauseAnimations(); else if (!reduce) mapSvg?.unpauseAnimations(); } catch (e) { /* 古いブラウザ */ }
+    };
     let vx = 0, vy = 0, lastT = 0, glide = 0;
     const stopGlide = () => { if (glide) { cancelAnimationFrame(glide); glide = 0; } };
-    stage.addEventListener('pointerdown', (e) => { if ((e.target as Element).closest('.wmap-dock, .wmap-zoom, .wmap-pop')) return; stopGlide(); root.classList.add('is-dragging'); pts.set(e.pointerId, { x: e.clientX, y: e.clientY }); moved = false; last = null; vx = vy = 0; lastT = performance.now(); });
+    stage.addEventListener('pointerdown', (e) => { if ((e.target as Element).closest('.wmap-dock, .wmap-zoom, .wmap-pop')) return; stopGlide(); setDragging(true); pts.set(e.pointerId, { x: e.clientX, y: e.clientY }); moved = false; last = null; vx = vy = 0; lastT = performance.now(); });
     stage.addEventListener('pointermove', (e) => {
       if (!pts.has(e.pointerId)) return;
       const prev = pts.get(e.pointerId)!; pts.set(e.pointerId, { x: e.clientX, y: e.clientY });
@@ -447,13 +454,13 @@ const ratio = (MAP_H / MAP_W).toFixed(4);
       if (pts.size > 0) return;
       // 離したあと、速さを少しずつ落としながら滑らせる（止まっていたら滑らせない）
       const idle = performance.now() - lastT > 80;
-      if (!moved || idle || Math.hypot(vx, vy) < 0.05) { root.classList.remove('is-dragging'); return; }
+      if (!moved || idle || Math.hypot(vx, vy) < 0.05) { setDragging(false); return; }
       let prevT = performance.now();
       const step = (t: number) => {
         const dt = Math.min(32, t - prevT); prevT = t;
         tx += vx * dt; ty += vy * dt; const k = Math.pow(0.94, dt / 16); vx *= k; vy *= k;
         const bx = tx, by = ty; apply(); if (tx !== bx) vx = 0; if (ty !== by) vy = 0; // 端に当たったら止める
-        if (Math.hypot(vx, vy) > 0.02) glide = requestAnimationFrame(step); else { glide = 0; root.classList.remove('is-dragging'); }
+        if (Math.hypot(vx, vy) > 0.02) glide = requestAnimationFrame(step); else { glide = 0; setDragging(false); }
       };
       glide = requestAnimationFrame(step);
     };
@@ -558,12 +565,19 @@ const ratio = (MAP_H / MAP_W).toFixed(4);
   .wmap-title span { font-size: 0.55em; font-weight: 700; color: var(--ink-3); margin-left: 6px; }
   .wmap-lead { margin: 0; color: var(--ink-2); font-size: 14px; line-height: 1.8; }
 
-  .wmap-stage { position: relative; width: 100%; aspect-ratio: 16 / 10; min-height: 440px; max-height: 84vh; overflow: hidden; border-radius: 18px; border: 3px solid #fff; box-shadow: 0 0 0 1px var(--pink-200), 0 10px 28px rgba(60, 40, 20, 0.12); background: var(--wm-sea); touch-action: pan-y; user-select: none; cursor: grab; }
+  .wmap-stage { position: relative; width: 100%; aspect-ratio: 16 / 10; min-height: 440px; max-height: 84vh; overflow: hidden; border-radius: 18px; border: 3px solid #fff; box-shadow: 0 0 0 1px var(--pink-200), 0 10px 28px rgba(60, 40, 20, 0.12); background: var(--wm-sea); touch-action: none; user-select: none; cursor: grab; }
+  /* 2026-11-07: スマホで地図を縦に動かせなかった（pan-y で縦の指の動きがページのスクロールに取られていた）。地図の上の指の動きは全部地図で受ける。ページは地図の外でスクロールできる */
   .wmap-stage:active { cursor: grabbing; }
   .wmap-canvas { position: absolute; left: 0; top: 0; width: 100%; aspect-ratio: 1 / var(--wm-ratio); transform-origin: 0 0; transition: transform 0.25s ease; will-change: transform; }
   /* ドラッグ中と滑らせている間はアニメーションを切る（指にそのままついてくる） */
   .wmap.is-dragging .wmap-canvas { transition: none; }
   .wmap.is-dragging :global(.wm-pin-scale) { transition: none; }
+  /* 動かしている間は、CSS で動く絵（波・雲・ピンの点滅）も止める */
+  .wmap.is-dragging :global(.wm-waves), .wmap.is-dragging :global(.wm-cloud1), .wmap.is-dragging :global(.wm-cloud2), .wmap.is-dragging :global(.wm-pin-pulse) { animation-play-state: paused; }
+  /* スマホ（指で操作する端末）では、海一面の波と雲を止める。広い面積を描き直すので重い。船・魚・電車は残す */
+  @media (pointer: coarse) {
+    :global(.wm-waves), :global(.wm-cloud1), :global(.wm-cloud2) { animation: none !important; }
+  }
   .wmap-svg { width: 100%; height: 100%; display: block; overflow: visible; }
   :global(.wm-sea) { fill: var(--wm-sea); }
   :global(.wm-wave-line) { fill: none; stroke: var(--wm-sea-line); stroke-width: 1.6; stroke-linecap: round; opacity: 0.55; }
