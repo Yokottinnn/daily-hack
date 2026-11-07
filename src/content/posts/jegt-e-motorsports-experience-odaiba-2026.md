@@ -4,7 +4,7 @@ description: "2026年11月23日（月・祝）、お台場（江東区青海）�
 publishDate: 2026-11-07
 category: ["wangan-life"]
 tags: ["湾岸ニュース", "お台場", "青海", "シティサーキット東京ベイ", "eモータースポーツ", "子連れ", "無料イベント", "2026年"]
-isPR: false
+isPR: true
 draft: false
 eyecatchUrl: "/images/jegt-e-motorsports-experience-odaiba-2026/eyecatch.jpg"
 eyecatchAlt: "JEGT E-MOTORSPORTS EXPERIENCEの告知画像。レーシングシミュレーターに座ってハンドルを握る人たち"
@@ -141,6 +141,11 @@ event:
       <tr><th>車</th><td><strong>駐車場は大会の関係者専用</strong>。電車で行く</td></tr>
     </tbody>
   </table>
+</div>
+
+<div class="callout info">
+<p class="head">遠くから来るなら、前の晩にお台場・有明に泊まる</p>
+<p style="margin:0">同じ日の朝はまわりの道路と首都高が止まる。車で来るより、前の晩に近くへ泊まるほうが確実。お台場・有明のホテルは <a href="https://px.a8.net/svt/ejp?a8mat=4BESU9+BNQN16+AD2+3B4MFL" target="_blank" rel="sponsored noopener nofollow">エアトリの国内ホテル予約</a> や <a href="https://px.a8.net/svt/ejp?a8mat=4BESU9+B1PLNE+1OK+6F1WH" target="_blank" rel="sponsored noopener nofollow">一休.com</a> で、11月22日の日付を入れて探せる。</p>
 </div>
 
 <aside class="related-block">

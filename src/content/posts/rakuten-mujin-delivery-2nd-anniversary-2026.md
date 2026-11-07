@@ -4,7 +4,7 @@ description: "ロボットが商品を届ける「楽天無人配送」が2026�
 publishDate: 2026-11-07
 category: ["wangan-life"]
 tags: ["湾岸ニュース", "晴海", "月島", "勝どき", "豊洲", "有明", "東雲", "楽天無人配送", "クーポン", "2026年"]
-isPR: false
+isPR: true
 draft: false
 eyecatchUrl: "/images/rakuten-mujin-delivery-2nd-anniversary-2026/eyecatch.jpg"
 eyecatchAlt: "歩道に並んだ楽天無人配送のピンク色の配送ロボット"
@@ -133,6 +133,11 @@ references: ["https://prtimes.jp/main/html/rd/p/000002723.000005889.html", "http
       <tr><th>休み</th><td>荒天のときと、年末年始などの一部</td></tr>
     </tbody>
   </table>
+</div>
+
+<div class="callout info">
+<p class="head">受け取り場所が遠いなら、食材はお試しセットで</p>
+<p style="margin:0">お届け場所が近くに無い人や、まとめて買いたい人は、玄関まで届く食材の宅配を試すのも手。<a href="https://px.a8.net/svt/ejp?a8mat=4BESUA+WQVTM+3RK+2TXU75" target="_blank" rel="sponsored noopener nofollow">Oisix のおためしセット</a>は、初回だけの割安なセットで野菜や総菜を試せる。</p>
 </div>
 
 楽天によると、2年で<strong>累計の配送は1万件を超え</strong>、月の配送数は始めたころの<strong>6.4倍</strong>。<strong>指定した時間に着いた割合は95％以上</strong>（2026年9月）で、利用者の半分以上が2回以上使っているという（数字は楽天の発表）。
