@@ -413,8 +413,17 @@ const snapshot = {
 const OUT_A8 = OUT.replace(/\.json$/, '') + '.a8.json';
 const a8Doc = { generated: snapshot.a8?.generated ?? null, rows: snapshot.a8?.rows ?? [] };
 if (snapshot.a8) { snapshot.a8 = { ...snapshot.a8, rowsDoc: 'snapshot/a8' }; delete snapshot.a8.rows; }
+// 2026-11-07: snapshot/latest が 214KB（日本語を \u で数えると 283KB）になり、利用者の作戦室で読み込まれなくなった（「データ：読み込み中」のまま）。
+// 記事の一覧を snapshot/arts、成果リンクの一覧を snapshot/aff に分ける（それぞれ 10 万バイト以下）。作戦室は 4 つを読んで合わせて描く
+const OUT_ARTS = OUT.replace(/\.json$/, '') + '.arts.json', OUT_AFF = OUT.replace(/\.json$/, '') + '.aff.json';
+const artsDoc = { generated: snapshot.generatedAt, articles: snapshot.articles };
+const affDoc = { generated: snapshot.generatedAt, affInventory: snapshot.affInventory, affByItem: snapshot.affByItem };
+for (const k of ['articles', 'affInventory', 'affByItem']) delete snapshot[k];
+snapshot.splitDocs = ['snapshot/a8', 'snapshot/arts', 'snapshot/aff'];
 fs.writeFileSync(OUT, JSON.stringify(snapshot, null, 1));
 fs.writeFileSync(OUT_A8, JSON.stringify(a8Doc, null, 1));
-JSON.parse(fs.readFileSync(OUT, 'utf8')); JSON.parse(fs.readFileSync(OUT_A8, 'utf8')); // 書いたものを読み直す（最上位ルール 13）
-for (const [f, lim] of [[OUT, 262144], [OUT_A8, 262144]]) { const b = Buffer.byteLength(JSON.stringify(JSON.parse(fs.readFileSync(f, 'utf8')))); if (b > lim * 0.9) console.error(`警告: ${f} が ${b} バイト（上限 ${lim} の 9 割を超えた）`); }
-console.log(`snapshot: ${OUT} + ${OUT_A8}  gsc=${!!gsc}(${gscFile}) pv=${lastDay} a8=${a8 ? a8Rows.length : 0} findings=${findings.length}`);
+fs.writeFileSync(OUT_ARTS, JSON.stringify(artsDoc, null, 1));
+fs.writeFileSync(OUT_AFF, JSON.stringify(affDoc, null, 1));
+JSON.parse(fs.readFileSync(OUT, 'utf8')); JSON.parse(fs.readFileSync(OUT_A8, 'utf8')); JSON.parse(fs.readFileSync(OUT_ARTS, 'utf8')); JSON.parse(fs.readFileSync(OUT_AFF, 'utf8')); // 書いたものを読み直す（最上位ルール 13）
+for (const [f, lim] of [[OUT, 262144], [OUT_A8, 262144], [OUT_ARTS, 262144], [OUT_AFF, 262144]]) { const s = JSON.stringify(JSON.parse(fs.readFileSync(f, 'utf8'))); const b = Buffer.byteLength(s), e = s.replace(/[\u0080-\uffff]/g, '______').length; if (b > lim * 0.9 || e > lim * 0.9) console.error(`警告: ${f} が ${b} バイト（日本語を \\u で数えると ${e}・上限 ${lim} の 9 割を超えた）`); }
+console.log(`snapshot: ${OUT} + ${OUT_A8} + ${OUT_ARTS} + ${OUT_AFF}  gsc=${!!gsc}(${gscFile}) pv=${lastDay} a8=${a8 ? a8Rows.length : 0} findings=${findings.length}`);
