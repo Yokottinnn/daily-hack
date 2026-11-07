@@ -19,7 +19,7 @@ export async function getStaticPaths() {
 
 const { category } = Astro.params;
 
-const meta: Record<string, { label: string; h1: string; lead: string; face: string; title?: string; description?: string }> = {
+const meta: Record<string, { label: string; h1: string; lead: string; leadLines?: string[][]; face: string; title?: string; description?: string }> = {
   campaigns: {
     label: 'キャンペーン速報',
     h1: '締切前にチェック！速報キャンペーン',
@@ -55,6 +55,8 @@ const meta: Record<string, { label: string; h1: string; lead: string; face: stri
     h1: '晴海・豊洲・有明から届ける湾岸ライフのリアル',
     // 対象は中央区（晴海・勝どき・月島・築地・佃・豊海）と江東区（豊洲・有明・東雲・辰巳・お台場＝江東区青海）だけ（2026-11-03 築地を追加・青海をお台場の名前に）。港区・品川区は扱わない（2026-10-24 利用者の指示）
     lead: 'アタシが住んでる中央区晴海から発信。晴海・勝どき・月島・築地（中央区）と豊洲・有明・お台場（江東区）のイベント・開業・暮らしを、施設の公式発表とプレスリリースだけで毎朝まとめてるわ。',
+    // 画面に出すときの改行（意味の切れ目で折る。2026-11-07 利用者「改行が変なので、このページのコンテンツに合うようにちゃんと改行して」）
+    leadLines: [['アタシが住んでる', '中央区晴海から発信。'], ['晴海・', '勝どき・', '月島・', '築地（中央区）と、', '豊洲・', '有明・', 'お台場（江東区）の'], ['イベント・', '開業・', '暮らしを、', '施設の公式発表と', 'プレスリリースだけで', '毎朝まとめてるわ。']],
     face: '/images/expr-01-wave.png',
     title: '湾岸ライフ｜晴海・豊洲・有明・勝どき・月島のイベントと暮らし（毎朝更新）',
     description: '中央区（晴海・勝どき・月島・築地）と江東区（豊洲・有明・お台場）のイベント・開業・暮らしの記事一覧。開催日・会場・料金を施設の公式発表とプレスリリースで確かめ、毎朝更新。これから開催のイベントを日付順に並べている。',
@@ -175,7 +177,11 @@ for (const p of sorted) {
         <div>
           <span class="kicker">{m.label.toUpperCase()}</span>
           <h1>{m.h1}</h1>
-          <p class="lead">{m.lead}</p>
+          {m.leadLines ? (
+            <p class="lead lead-lines">{m.leadLines.map((line) => <span class="lead-line">{line.map((w) => <span class="lead-w">{w}</span>)}</span>)}</p>
+          ) : (
+            <p class="lead">{m.lead}</p>
+          )}
           <p style="color: var(--ink-3); font-size: 13px; margin-top: 12px;">現在 {sorted.length}記事掲載中</p>
         </div>
       </div>
@@ -185,7 +191,21 @@ for (const p of sorted) {
   {isWangan && (
     <section style="padding-top: 28px;">
       <div class="wrap">
-        <WanganEventMap posts={sorted} />
+        <WanganEventMap posts={sorted}>
+          {/* 2026-11-07 利用者「地区から探すは意外と重要なのに、ページの下部で目立っていない。マップの下に配置して」: 地図の枠のすぐ下 */}
+          <div slot="below-map">
+          <div class="sec-head" style="margin-top: 18px;">
+          <h2 id="areas">地区から探す</h2>
+        </div>
+        <ul class="wangan-areas">
+          {areas.map((a) => (
+            <li><a href={`/tags/${a.tag}/`}><strong>{a.tag}</strong><span>（{a.ward}・{a.count}本）</span><small>{a.lead}</small></a></li>
+          ))}
+          <li><a href={`/tags/${WANGAN_NEWS_TAG}/`}><strong>湾岸ニュース</strong><span>（毎朝更新・{newsCount}本）</span><small>イベント・開業・生活の変化の速報</small></a></li>
+        </ul>
+          </div>
+        </WanganEventMap>
+        <div style="height: 12px;"></div>
         <WanganMapGuide posts={sorted} compact />
         <p style="margin: -16px 0 28px; font-size: 14px; font-weight: 700;"><a href="/wangan-map/">来週・今月・来月の一覧、地区ごと・会場ごとのイベントは「湾岸エリアイベントマップ」へ →</a></p>
         <div class="sec-head">
@@ -206,15 +226,6 @@ for (const p of sorted) {
         )}
         <p style="color: var(--ink-3); font-size: 12px; margin-top: 8px;">日付・会場・料金は各記事の出典（施設の公式発表・プレスリリース）どおり。終わったイベントは一覧から外している。</p>
 
-        <div class="sec-head" style="margin-top: 36px;">
-          <h2 id="areas">地区から探す</h2>
-        </div>
-        <ul class="wangan-areas">
-          {areas.map((a) => (
-            <li><a href={`/tags/${a.tag}/`}><strong>{a.tag}</strong><span>（{a.ward}・{a.count}本）</span><small>{a.lead}</small></a></li>
-          ))}
-          <li><a href={`/tags/${WANGAN_NEWS_TAG}/`}><strong>湾岸ニュース</strong><span>（毎朝更新・{newsCount}本）</span><small>イベント・開業・生活の変化の速報</small></a></li>
-        </ul>
       </div>
     </section>
   )}
@@ -322,6 +333,9 @@ for (const p of sorted) {
   .wangan-ev-date { margin: 0 0 4px; font-size: 13px; font-weight: 700; color: var(--pink-700); }
   .wangan-ev-place { margin: 4px 0 0; font-size: 12px; color: var(--ink-3); }
   .wangan-now { display: inline-block; margin-right: 6px; padding: 1px 8px; border-radius: 999px; background: var(--pink-500); color: #fff; font-size: 11px; }
+  /* 意味の切れ目でだけ折る。行ごとに改行し、狭い画面では語のかたまりごとに折り返す */
+  .lead-lines .lead-line { display: block; }
+  .lead-lines .lead-w { display: inline-block; }
   .wangan-areas { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 10px; }
   .wangan-areas a { display: block; padding: 12px 14px; border: 1px solid var(--pink-200); border-radius: 12px; background: var(--pink-50); }
   .wangan-areas span { color: var(--ink-3); font-size: 12px; }
