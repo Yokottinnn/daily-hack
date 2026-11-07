@@ -1,0 +1,26 @@
+{
+ "flyer.png": {
+  "source": "https://grand-cycle-tokyo.jp/traffic_restrictions/",
+  "credit": "GRAND CYCLE TOKYO実行委員会「交通規制のお知らせ」",
+  "fetched": "2026-11-07",
+  "note": "交通規制のお知らせ（表面）"
+ },
+ "detour.png": {
+  "source": "https://grand-cycle-tokyo.jp/traffic_restrictions/",
+  "credit": "GRAND CYCLE TOKYO実行委員会「交通規制のお知らせ」",
+  "fetched": "2026-11-07",
+  "note": "10号地区う回路のご案内"
+ },
+ "map-closures.jpg": {
+  "source": "https://grand-cycle-tokyo.jp/traffic_restrictions/",
+  "credit": "GRAND CYCLE TOKYO実行委員会「交通規制のお知らせ」",
+  "fetched": "2026-11-07",
+  "note": "表面の地図の一部を拡大"
+ },
+ "expressway.jpg": {
+  "source": "https://grand-cycle-tokyo.jp/traffic_restrictions/",
+  "credit": "GRAND CYCLE TOKYO実行委員会「交通規制のお知らせ」",
+  "fetched": "2026-11-07",
+  "note": "表面の首都高の閉鎖図を拡大"
+ }
+}

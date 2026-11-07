@@ -22,9 +22,10 @@ process.on('unhandledRejection', (e) => { lines.push(`- ⚠️ 未処理のエ�
 // asp-sync のメニューにあった入口（reports/.sync/asp-sync/*.md）。VC ともしもは「レポート」の文字のリンクを辿る
 const ENTRY = [
   { id: 'a8', name: 'A8.net', urls: ['https://media-console.a8.net/report/program/summary', 'https://media-console.a8.net/report/confirmed/program'] },
-  { id: 'rakuten', name: '楽天アフィリエイト', urls: ['https://affiliate.rakuten.co.jp/report/summary'] },
+  // 2026-11-06: 楽天で初の発生（未確定 1 件）。何がどの店で買われたかを見るため、サマリの画面から「注文明細」「ショップ別」「成果報酬・確定実績」も辿る（利用者「159円の報酬が発生しているみたいだけど、これなに？」）
+  { id: 'rakuten', name: '楽天アフィリエイト', urls: ['https://affiliate.rakuten.co.jp/report/summary'], tabs: ['注文明細', 'ショップ別', '成果報酬・確定実績'] },
   { id: 'vc', name: 'バリューコマース', top: 'https://aff.valuecommerce.ne.jp/', link: /^レポート$/ },
-  { id: 'moshimo', name: 'もしも', top: 'https://af.moshimo.com/af/shop/index', link: /^レポート$/ },
+  // もしもは 2026-11-02 にメディア登録が削除され、利用者の判断で放置（読まない）
 ];
 
 const b = await chromium.connectOverCDP(`http://127.0.0.1:${process.env.CDP_PORT || '18810'}`);
@@ -50,22 +51,36 @@ try {
       urls = links;
     }
     result.asps[e.id] = [];
-    for (const u of urls) {
+    const followed = new Set();
+    for (let ui = 0; ui < urls.length; ui++) {
+      const u = urls[ui];
       await go(u);
+
       const title = (await p.title()).slice(0, 60);
       const tables = await readTables();
       lines.push(`- 画面: ${here()}（${hide(title)}）・表 ${tables.length} 個`);
       tables.forEach((t, i) => {
         lines.push(`  - 表 ${i + 1}: 見出し「${t.head.map(hide).join(' | ')}」・行 ${t.rows.length}`);
-        t.rows.slice(0, 8).forEach((r) => { if (!NG.test(r.join(' '))) lines.push(`    - ${r.map(hide).join(' | ').slice(0, 220)}`); });
+        if (!followed.has(u)) t.rows.slice(0, 8).forEach((r) => { if (!NG.test(r.join(' '))) lines.push(`    - ${r.map(hide).join(' | ').slice(0, 220)}`); });
       });
-      if (!tables.length) {
+      if (!tables.length && !followed.has(u)) {
         const txt = await p.evaluate(() => (document.body.innerText || '').split('\n').map((x) => x.trim()).filter(Boolean).slice(0, 60));
         lines.push('  - 表が無い。画面の文字（数字は伏せる）:', ...txt.filter((x) => !NG.test(x)).slice(0, 30).map((x) => `    - ${hide(x).slice(0, 120)}`));
       }
       // 楽天のレポートは表ではなく文字で並ぶ（t340）。collect のときは画面の文字も持つ（数字入り・非公開の置き場にだけ書く）
       const text = MODE === 'collect' ? await p.evaluate(() => (document.body.innerText || '').split('\n').map((x) => x.trim()).filter(Boolean).slice(0, 400)) : undefined;
       result.asps[e.id].push({ url: here(), title, tables, text });
+    }
+    // タブを文字で押して読む（楽天の「注文明細」などは普通のリンクではなかった・2026-11-06）。商品名が出るので公開の md には件数だけ
+    for (const label of e.tabs || []) {
+      await go(urls[0]);
+      const el = p.getByText(label, { exact: true }).first();
+      const ok = await el.click({ timeout: 8000 }).then(() => true).catch(() => false);
+      await p.waitForTimeout(5000);
+      const tables = ok ? await readTables() : [];
+      lines.push(`- タブ「${label}」: ${ok ? '押せた' : '押せない'}・画面 ${here()}・表 ${tables.length} 個${tables.map((t) => '（行 ' + t.rows.length + '）').join('')}`);
+      const text = ok && MODE === 'collect' ? await p.evaluate(() => (document.body.innerText || '').split('\n').map((x) => x.trim()).filter(Boolean).slice(0, 400)) : undefined;
+      if (ok) result.asps[e.id].push({ url: here(), tab: label, title: (await p.title()).slice(0, 60), tables, text });
     }
     lines.push('');
   }
