@@ -64,6 +64,8 @@ export default defineConfig({
   },
   integrations: [
     sitemap({
+      // 湾岸マップの外側を画像に焼くための作業用ページは載せない（2026-11-07）
+      filter: (page) => !page.includes('/wangan-map-bake/'),
       serialize(item) {
         const path = new URL(item.url).pathname;
         const lastmod = LASTMOD[path];

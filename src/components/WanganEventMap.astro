@@ -11,8 +11,9 @@ import { MAP_W, MAP_H, MAP_LAND, MAP_AREAS, MAP_LANDMARKS, MAP_SOURCE, MAP_STATI
 import { todayJst, jpDate, jpRange } from '../lib/wangan';
 import type { CollectionEntry } from 'astro:content';
 
-interface Props { posts: CollectionEntry<'posts'>[]; headingLevel?: 'h1' | 'h2'; title?: string; lead?: boolean }
-const { posts, headingLevel = 'h2', title = '湾岸エリアイベントマップ', lead = true } = Astro.props;
+interface Props { posts: CollectionEntry<'posts'>[]; headingLevel?: 'h1' | 'h2'; title?: string; lead?: boolean; bake?: boolean }
+// bake: 湾岸の外の路線と札を部品で描く（画像に焼く作業用ページ /wangan-map-bake/ だけ）。普段は焼いた画像を置く（2026-11-07・重さ対策）
+const { posts, headingLevel = 'h2', title = '湾岸エリアイベントマップ', lead = true, bake = false } = Astro.props;
 const today = todayJst();
 const items = mapItems(posts, today);
 const H = headingLevel;
@@ -172,10 +173,14 @@ const ratio = (MAP_H / MAP_W).toFixed(4);
         </g>
 
         {/* 鉄道の路線（停車駅を順につなぐ・路線の色）。湾岸の線より下に敷く */}
+        {bake ? (
         <g class="wm-rails-outer" aria-hidden="true">
           {MAP_OUTER_LINES.map((l) => <polyline points={l.pts.map((q) => `${q.x},${q.y}`).join(' ')} class="wm-rl-bed" />)}
           {MAP_OUTER_LINES.map((l) => <polyline points={l.pts.map((q) => `${q.x},${q.y}`).join(' ')} class="wm-rl" style={`stroke:${l.colour}`} />)}
         </g>
+        ) : (
+          <image class="wm-outer-rails" data-src="/images/wangan-map/outer-rails.png" x={MAP_PAN.x} y={MAP_PAN.y} width={MAP_PAN.w} height={MAP_PAN.h} preserveAspectRatio="none" aria-hidden="true" />
+        )}
         {/* 地下鉄（都営大江戸線・東京メトロ有楽町線） */}
         <g class="wm-subways" aria-hidden="true">
           {MAP_SUBWAYS.map((l) => <path d={straight(l.pts)} class="wm-sub-bed" />)}
@@ -213,6 +218,7 @@ const ratio = (MAP_H / MAP_W).toFixed(4);
         )}
 
         {/* 地図の外側の地名と駅（縮小したときに見える。湾岸の外なのでピンや地区の札は出さない・2026-11-07） */}
+        {bake ? (
         <g class="wm-outer" aria-hidden="true">
           {MAP_OUTER_LINE_LABELS.map((l) => <g transform={`translate(${l.x} ${l.y})`} class="wm-rl-lb"><g class="wm-st-in"><rect x={-(l.name.length * 5.6 + 8)} y="-9" width={l.name.length * 11.2 + 16} height="18" rx="9" style={`fill:${l.colour}`} /><text y="4">{l.name}</text></g></g>)}
           {MAP_OUTER_SPOTS.map((sp) => <g transform={`translate(${sp.x} ${sp.y})`} class="wm-spot"><g class="wm-st-in"><circle r="13" class="wm-spot-bg" /><text y="5" class="wm-spot-ico">{sp.icon}</text><text y="28" class="wm-spot-name">{sp.name}</text></g></g>)}
@@ -221,6 +227,12 @@ const ratio = (MAP_H / MAP_W).toFixed(4);
             <g transform={`translate(${s.x} ${s.y})`} class="wm-outer-st"><g class="wm-st-in"><circle r="4.5" class="wm-outer-st-dot" />{MAP_OUTER_STATION_NAMED.has(s.name) && <text x="7" y="4" class="wm-outer-st-name">{s.name}駅</text>}</g></g>
           ))}
         </g>
+        ) : (
+          <>
+            <image class="wm-outer-labels wm-ol-far" data-src="/images/wangan-map/outer-labels-far.png" x={MAP_PAN.x} y={MAP_PAN.y} width={MAP_PAN.w} height={MAP_PAN.h} preserveAspectRatio="none" aria-hidden="true" />
+            <image class="wm-outer-labels wm-ol-mid" data-src="/images/wangan-map/outer-labels-mid.png" x={MAP_PAN.x} y={MAP_PAN.y} width={MAP_PAN.w} height={MAP_PAN.h} preserveAspectRatio="none" aria-hidden="true" />
+          </>
+        )}
 
         <g class="wm-landmarks" aria-hidden="true">
           {MAP_LANDMARKS.map((l) => (
@@ -405,12 +417,19 @@ const ratio = (MAP_H / MAP_W).toFixed(4);
       tx = Math.min(-L, Math.max(w - R, tx)); ty = Math.min(-T, Math.max(h - B, ty));
       void W; void Hh;
     };
+    // 焼いた画像（湾岸の外の路線・札）は、地図を置いてから読み込む。最初の表示の回線を取り合わない
+    const outerRails = root.querySelector<SVGImageElement>('.wm-outer-rails');
+    const olFar = root.querySelector<SVGImageElement>('.wm-ol-far'), olMid = root.querySelector<SVGImageElement>('.wm-ol-mid');
+    const loadImg = (el: SVGImageElement | null) => { if (el && !el.getAttribute('href') && el.dataset.src) el.setAttribute('href', el.dataset.src); };
     // 拡大率が変わったときだけ、拡大率に合わせて大きさを変える部品（ピン・札）を描き直す（2026-11-07 利用者「移動がもっさり」。毎回書き換えると全部の部品を計算し直していた）
     let lastZ = -1;
     const apply = () => {
       clamp(); canvas.style.transform = `translate3d(${tx}px, ${ty}px, 0) scale(${z})`;
       if (z !== lastZ) { lastZ = z; root.style.setProperty('--wm-z', String(Math.max(z, 0.6))); root.classList.toggle('is-zoomed', z >= 2.2); if (zoomOutBtn) zoomOutBtn.disabled = z <= minZ() + 0.001; if (zoomInBtn) zoomInBtn.disabled = z >= 3.999; }
       sideGuides(); placePop();
+      // 引いたとき（拡大率 1.2 未満）だけ、湾岸の外の札の画像を出す（0.8 未満は far・それ以上は mid）。初めて引いたときに読み込む
+      const far = z < 0.8, mid = !far && z < 1.2; root.classList.toggle('is-far', far); root.classList.toggle('is-mid', mid);
+      if (far) loadImg(olFar); if (mid) loadImg(olMid);
     };
     // ドラッグ中は 1 フレームに 1 回だけ描く
     let raf = 0;
@@ -558,6 +577,9 @@ const ratio = (MAP_H / MAP_W).toFixed(4);
     // ② スマホはアドレスバーの出入りで高さが変わり、resize のたびに位置を計算し直して動いていた → 幅が変わったときだけ、見ている中心を保って直す
     const instant = (fn: () => void) => { root.classList.add('wm-instant'); fn(); void canvas.offsetWidth; requestAnimationFrame(() => requestAnimationFrame(() => root.classList.remove('wm-instant'))); };
     render(); instant(home); root.classList.add('is-ready');
+    const later = (fn: () => void) => ('requestIdleCallback' in window ? (window as unknown as { requestIdleCallback: (f: () => void, o: object) => void }).requestIdleCallback(fn, { timeout: 2500 }) : setTimeout(fn, 1200));
+    addEventListener('load', () => later(() => loadImg(outerRails)), { once: true });
+    if (document.readyState === 'complete') later(() => loadImg(outerRails));
     let lastW = stage.clientWidth;
     addEventListener('resize', () => {
       const w = stage.clientWidth; if (w === lastW) return;
@@ -650,6 +672,11 @@ const ratio = (MAP_H / MAP_W).toFixed(4);
   :global(.wm-ln text) { font-size: 12px; font-weight: 800; fill: #fff; text-anchor: middle; letter-spacing: 0.04em; }
   :global(.wm-rail-bed) { fill: none; stroke: #fff; stroke-width: 7; stroke-linecap: round; opacity: 0.9; }
   :global(.wm-rail-line) { fill: none; stroke: #2b6cb0; stroke-width: 2.4; stroke-dasharray: 8 5; stroke-linecap: round; opacity: 0.7; }
+  /* 焼いた画像（湾岸の外）。札は引いたときだけ */
+  :global(.wm-outer-rails), :global(.wm-outer-labels) { pointer-events: none; }
+  :global(.wm-outer-rails) { opacity: 0.95; }
+  :global(.wm-outer-labels) { display: none; }
+  .wmap.is-far :global(.wm-ol-far), .wmap.is-mid :global(.wm-ol-mid) { display: inline; }
   :global(.wm-rl-bed) { fill: none; stroke: #fff; stroke-width: 5.5; stroke-linejoin: round; stroke-linecap: round; opacity: 0.85; }
   :global(.wm-rl) { fill: none; stroke-width: 3; stroke-linejoin: round; stroke-linecap: round; opacity: 0.8; }
   :global(.wm-rl-lb text) { font-size: 11px; font-weight: 800; fill: #fff; text-anchor: middle; }
