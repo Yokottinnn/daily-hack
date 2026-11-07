@@ -1,1 +1,3 @@
-[]
+[
+      {"task": "x428-why-tabs-drop.sh", "rc": 0, "out": "## ① tab-guard.js（何を数えて、いつ全停止するか） ```js // 165 行 3: * tab-guard.js — Jordan の Chrome が「丸ごと落とされる」異常だけを検知して自動化を止める。 5: * 2026-"}
+  ]
