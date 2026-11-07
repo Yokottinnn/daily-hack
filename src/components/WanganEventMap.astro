@@ -328,7 +328,7 @@ const ratio = (MAP_H / MAP_W).toFixed(4);
 </div>
 
 <script>
-  type Item = { kind: 'event' | 'news'; slug: string; title: string; short: string; start: string; end: string; place: string; area: string; isFree: boolean; img: string; x: number; y: number };
+  type Item = { kind: 'event' | 'news'; slug: string; title: string; short: string; start: string; end: string; place: string; area: string; isFree: boolean; img: string; pop?: string; x: number; y: number };
   const WD = ['日', '月', '火', '水', '木', '金', '土'];
   const jp = (s: string) => { const [y, m, d] = s.split('-').map(Number); return `${m}月${d}日（${WD[new Date(Date.UTC(y, m - 1, d)).getUTCDay()]}）`; };
   const add = (s: string, n: number) => { const t = new Date(s + 'T00:00:00Z'); t.setUTCDate(t.getUTCDate() + n); return t.toISOString().slice(0, 10); };
@@ -483,7 +483,7 @@ const ratio = (MAP_H / MAP_W).toFixed(4);
     const openPop = (i: number, sticky = false) => {
       const it = items[i]; popIdx = i; pop.hidden = false; pop.dataset.sticky = sticky ? '1' : '';
       (pop.querySelector('[data-pop-link]') as HTMLAnchorElement).href = `/posts/${it.slug}/`;
-      const img = pop.querySelector<HTMLImageElement>('[data-pop-img]')!; img.src = it.img; img.hidden = !it.img;
+      const img = pop.querySelector<HTMLImageElement>('[data-pop-img]')!; img.src = it.pop || it.img; img.hidden = !it.img;
       pop.querySelector('[data-pop-meta]')!.textContent = it.kind === 'news' ? `${jp(it.start)}のニュース` : `${isOn(it) ? '🎉 開催中・' : isSoon(it) ? 'もうすぐ・' : ''}${jp(it.start)}${it.end && it.end !== it.start ? `〜${jp(it.end)}` : ''}`;
       pop.querySelector('[data-pop-title]')!.textContent = it.title;
       pop.querySelector('[data-pop-place]')!.textContent = `${it.area ? it.area + '・' : ''}${it.place}${it.kind === 'event' ? (it.isFree ? '・無料' : '・料金は記事で') : ''}`;
@@ -521,7 +521,7 @@ const ratio = (MAP_H / MAP_W).toFixed(4);
     }));
 
     // ── ハッカー子の案内: 注目のイベント（開催中 → 始まる日が近い順）のそばに、離して置く。動かさない ──
-    const FACES = ['/images/expr-05-smug.png', '/images/expr-01-wave.png', '/images/expr-07-gasp.png'];
+    const FACES = ['/images/expr-05-smug-240.webp', '/images/expr-01-wave-240.webp', '/images/expr-07-gasp-240.webp'];
     const say = (_i: number) => {};
     const step = () => {
       const max = stage.clientWidth < 600 ? 2 : 3;
