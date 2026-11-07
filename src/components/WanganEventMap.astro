@@ -148,6 +148,24 @@ const ratio = (MAP_H / MAP_W).toFixed(4);
             {[-18, -9, 0, 9, 18].map((x) => <g><ellipse cx={x} cy="-6.6" rx="1.9" ry="2.4" class="chochin" /><circle cx={x} cy="-6.6" r="4" class="chochin-glow" /></g>)}
           </g></g></g></g>
             <animateMotion dur="55s" repeatCount="indefinite" rotate="0" keyPoints="0;1;0" keyTimes="0;0.5;1" calcMode="linear"><mpath href="#wm-route2" /></animateMotion></g>
+          {/* 2026-11-07 利用者「海の箇所には、魚が泳いでいるようなイラストも追加して」: 陸から 16 以上離れた横 80 の帯（ブラウザの isPointInFill で確かめた）を往復する */}
+          {[
+            { x: 200, y: 640, c: '#ff9a5a', d: 16 }, { x: 480, y: 700, c: '#4fb3bf', d: 19 }, { x: 300, y: 780, c: '#f6c453', d: 14 },
+            { x: 140, y: 960, c: '#ff8fa3', d: 17 }, { x: 200, y: 1160, c: '#4fb3bf', d: 15 }, { x: 860, y: 1280, c: '#ff9a5a', d: 18 },
+          ].map((f, i) => (
+            <g class="wm-fish" transform={`translate(${f.x} ${f.y})`}>
+              <g><animateTransform attributeName="transform" type="translate" values="0 0;40 -3;80 0;40 3;0 0" keyTimes="0;0.25;0.5;0.75;1" dur={`${f.d}s`} begin={`-${i * 3}s`} repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" />
+                <g><animateTransform attributeName="transform" type="scale" values="1 1;-1 1" keyTimes="0;0.5" dur={`${f.d}s`} begin={`-${i * 3}s`} calcMode="discrete" repeatCount="indefinite" />
+                  <g class="wm-fish-body" style={`--fish:${f.c}`}>
+                    <path d="M-7 0 L-12 -4.5 L-11 0 L-12 4.5Z" class="fish-tail"><animateTransform attributeName="transform" type="rotate" values="-14 -7 0;14 -7 0;-14 -7 0" dur="0.7s" repeatCount="indefinite" /></path>
+                    <ellipse cx="0" cy="0" rx="8" ry="4.2" class="fish-fill" />
+                    <path d="M-1 -4 Q1.5 -7 4 -3.6" class="fish-fin" />
+                    <circle cx="4.4" cy="-0.9" r="1" class="fish-eye" />
+                  </g>
+                </g>
+              </g>
+            </g>
+          ))}
           <ellipse cx="0" cy="0" rx="160" ry="70" fill="url(#wm-cloud)" class="wm-cloud1" />
           <ellipse cx="0" cy="0" rx="120" ry="55" fill="url(#wm-cloud)" class="wm-cloud2" />
         </g>
@@ -553,6 +571,10 @@ const ratio = (MAP_H / MAP_W).toFixed(4);
   :global(.wmap .l2) { fill: none; stroke: #8aa9c4; stroke-width: 1.1; stroke-linecap: round; }
   :global(.wmap .lamp) { fill: #ffcf4a; }
   :global(.wmap .sub-car) { fill: #e9edf1; }
+  :global(.wmap .wm-fish-body) { opacity: 0.9; }
+  :global(.wmap .fish-fill), :global(.wmap .fish-tail) { fill: var(--fish); stroke: rgba(30, 60, 90, 0.35); stroke-width: 0.6; }
+  :global(.wmap .fish-fin) { fill: none; stroke: var(--fish); stroke-width: 1.4; stroke-linecap: round; filter: brightness(0.85); }
+  :global(.wmap .fish-eye) { fill: #1f2d3a; }
   /* 乗り物（2026-11-04 リアル寄りのイラストに） */
   :global(.wmap .wake) { fill: none; stroke: #fff; stroke-width: 1.6; stroke-linecap: round; opacity: 0.8; }
   :global(.wmap .hull) { fill: #23476b; stroke: #1a2f45; stroke-width: 1; stroke-linejoin: round; }
