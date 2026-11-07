@@ -78,6 +78,7 @@ const data = JSON.stringify({ today, items, pan: MAP_PAN });
 const ratio = (MAP_H / MAP_W).toFixed(4);
 ---
 
+<noscript><style>.wmap .wmap-canvas { opacity: 1 !important; }</style></noscript>
 <div class="wmap" role="region" aria-labelledby="wmap-title" data-wmap style={`--wm-ratio:${ratio}`}>
   <div class="wmap-head">
     <H id="wmap-title" class="wmap-title">{title}<span>（{jpDate(today)}時点）</span></H>
@@ -552,8 +553,17 @@ const ratio = (MAP_H / MAP_W).toFixed(4);
     const tog = root.querySelector<HTMLButtonElement>('[data-tog="free"]')!;
     tog.addEventListener('click', () => { freeOnly = !freeOnly; tog.classList.toggle('is-on', freeOnly); tog.setAttribute('aria-pressed', String(freeOnly)); closePop(); render(); step(); });
 
-    render(); home();
-    addEventListener('resize', () => apply());
+    // 2026-11-07 利用者「ローディングしているときに勝手にマップが動く。読み込んでないところに移動しようとするような挙動。完全にバグ」:
+    // ① 最初の位置合わせに 0.25 秒のアニメーションがかかり、左上から滑って見えていた → アニメーションなしで一瞬で置く
+    // ② スマホはアドレスバーの出入りで高さが変わり、resize のたびに位置を計算し直して動いていた → 幅が変わったときだけ、見ている中心を保って直す
+    const instant = (fn: () => void) => { root.classList.add('wm-instant'); fn(); void canvas.offsetWidth; requestAnimationFrame(() => requestAnimationFrame(() => root.classList.remove('wm-instant'))); };
+    render(); instant(home); root.classList.add('is-ready');
+    let lastW = stage.clientWidth;
+    addEventListener('resize', () => {
+      const w = stage.clientWidth; if (w === lastW) return;
+      const k0 = lastW / 1000; const cx = (lastW / 2 - tx) / (k0 * z), cy = (stage.clientHeight / 2 - ty) / (k0 * z);
+      lastW = w; instant(() => centerOn(cx, cy, z));
+    });
     new IntersectionObserver((ents, ob) => { if (ents.some((x) => x.isIntersecting)) { root.classList.add('is-in'); setTimeout(() => { step(); startTour(); }, reduce ? 0 : 900); ob.disconnect(); } }, { threshold: 0.25 }).observe(stage);
   }
 </script>
@@ -565,12 +575,17 @@ const ratio = (MAP_H / MAP_W).toFixed(4);
   .wmap-title span { font-size: 0.55em; font-weight: 700; color: var(--ink-3); margin-left: 6px; }
   .wmap-lead { margin: 0; color: var(--ink-2); font-size: 14px; line-height: 1.8; }
 
-  .wmap-stage { position: relative; width: 100%; aspect-ratio: 16 / 10; min-height: 440px; max-height: 84vh; overflow: hidden; border-radius: 18px; border: 3px solid #fff; box-shadow: 0 0 0 1px var(--pink-200), 0 10px 28px rgba(60, 40, 20, 0.12); background: var(--wm-sea); touch-action: none; user-select: none; cursor: grab; }
+  .wmap-stage { position: relative; width: 100%; aspect-ratio: 16 / 10; min-height: 440px; max-height: 84vh; max-height: 84svh; overflow: hidden; border-radius: 18px; border: 3px solid #fff; box-shadow: 0 0 0 1px var(--pink-200), 0 10px 28px rgba(60, 40, 20, 0.12); background: var(--wm-sea); touch-action: none; user-select: none; cursor: grab; }
   /* 2026-11-07: スマホで地図を縦に動かせなかった（pan-y で縦の指の動きがページのスクロールに取られていた）。地図の上の指の動きは全部地図で受ける。ページは地図の外でスクロールできる */
   .wmap-stage:active { cursor: grabbing; }
   .wmap-canvas { position: absolute; left: 0; top: 0; width: 100%; aspect-ratio: 1 / var(--wm-ratio); transform-origin: 0 0; transition: transform 0.25s ease; will-change: transform; }
   /* ドラッグ中と滑らせている間はアニメーションを切る（指にそのままついてくる） */
-  .wmap.is-dragging .wmap-canvas { transition: none; }
+  .wmap.is-dragging .wmap-canvas, .wmap.wm-instant .wmap-canvas { transition: none; }
+  /* 位置が決まるまで地図を見せない（左上が一瞬見えてから飛ぶのを防ぐ）。JS が動かない環境では noscript で見せる */
+  .wmap .wmap-canvas { opacity: 0; }
+  .wmap.is-ready .wmap-canvas { opacity: 1; transition: transform 0.25s ease, opacity 0.2s ease; }
+  .wmap.is-ready.is-dragging .wmap-canvas, .wmap.is-ready.wm-instant .wmap-canvas { transition: opacity 0.2s ease; }
+  .wmap.wm-instant :global(.wm-pin-scale) { transition: none; }
   .wmap.is-dragging :global(.wm-pin-scale) { transition: none; }
   /* 動かしている間は、CSS で動く絵（波・雲・ピンの点滅）も止める */
   .wmap.is-dragging :global(.wm-waves), .wmap.is-dragging :global(.wm-cloud1), .wmap.is-dragging :global(.wm-cloud2), .wmap.is-dragging :global(.wm-pin-pulse) { animation-play-state: paused; }
