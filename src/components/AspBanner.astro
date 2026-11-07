@@ -6,11 +6,13 @@ export interface Props {
   name: string;
 }
 const { html, name } = Astro.props;
+// バナーの画像は画面に近づいてから読む（2026-11-07・スマホの読み込み対策）。リンクと計測の仕組みは A8 のコードのまま
+const lazyHtml = html.replace(/<img(?![^>]*\bloading=)/g, '<img loading="lazy" decoding="async"');
 ---
 
 <aside class="asp-banner" aria-label={`広告（${name}）`}>
   <span class="asp-banner__label">PR</span>
-  <div class="asp-banner__body" set:html={html} />
+  <div class="asp-banner__body" set:html={lazyHtml} />
 </aside>
 
 <style>
