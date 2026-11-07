@@ -1180,7 +1180,9 @@ tr[data-ccount]::after{top:4px;right:4px}
     db.collection('todos').onSnapshot(snap=>{ TODOS=snap.docs.map(d=>Object.assign({id:d.id},d.data())); renderTodos(); const n=TODOS.filter(t=>t.status==='you').length, b=$('a[data-page="tasks"] .badge',toc); if(b){ b.hidden=!n; b.textContent=n; } },()=>{ $('#todos').innerHTML='<p class="empty">読み込めませんでした。</p>'; });
     db.doc('results/latest').onSnapshot(s=>{ RESULTS=s.exists?s.data():null; renderResults(); if(SNAP) renderCalc(); },()=>{});
     // 2026-11-03: A8 の提携中の一覧は snapshot/a8 に分けた（1 文書 256KB の上限）。両方そろえてから描く。古い snapshot（rows を含む）もそのまま描ける
-    let A8ROWS=null; const withA8=(x)=>{ if(x&&x.a8&&!x.a8.rows&&A8ROWS) x.a8=Object.assign({},x.a8,{rows:A8ROWS}); return x; };
+    let A8ROWS=null, ARTS=null; const withA8=(x)=>{ if(x&&x.a8&&!x.a8.rows&&A8ROWS) x.a8=Object.assign({},x.a8,{rows:A8ROWS}); if(x&&ARTS){ ['articles','affInventory','affByItem'].forEach(k=>{ if(x[k]==null&&ARTS[k]!=null) x[k]=ARTS[k]; }); } return x; };
+    // 2026-11-07: 記事の一覧・成果リンクの一覧は snapshot/arts に分けた（snapshot/latest が大きすぎて届かなくなったため）
+    ['snapshot/arts','snapshot/aff'].forEach(path=>db.doc(path).onSnapshot(s=>{ if(!s.exists) return; ARTS=Object.assign({},ARTS||{},s.data()); if(SNAP){ SNAP=withA8(SNAP); try{ renderSnapshot(SNAP); }catch(e){ console.error(e); } } },()=>{}));
     // 2026-11-07: 「データ：読み込み中」のまま数字が出ない（利用者の画面）。読めなかった理由を画面に出す
     const snapFail=(why)=>{ const m=$('#meta-data'); if(m) m.textContent='毎日の数字を読めない（'+why+'）'; };
     setTimeout(()=>{ if(!SNAP) snapFail('20 秒たっても届かない'); },20000);
