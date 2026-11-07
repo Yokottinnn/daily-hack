@@ -88,6 +88,10 @@ const FILES = {
   "kidzania-tokyo-adult-christmas-2026": ["2-point.jpg"],
   "doraemon-mirai-department-renewal-2026": ["1-official.jpg", "2-point.jpg"],
   "tsukudajima-1644-2026": ["1-official.jpg", "2-point.jpg"],
+  "rainbow-ride-traffic-restrictions-2026": ["1-official.jpg", "2-point.jpg"],
+  "rakuten-mujin-delivery-2nd-anniversary-2026": ["1-official.jpg", "2-point.jpg"],
+  "toyosu-market-november-events-2026": ["1-official.jpg", "2-point.jpg"],
+  "ariake-garden-ryuki-street-churros-2026": ["1-official.jpg", "2-point.jpg"],
 };
 
 const map = {};
