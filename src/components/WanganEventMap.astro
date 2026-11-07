@@ -121,8 +121,8 @@ const ratio = (MAP_H / MAP_W).toFixed(4);
         {/* 動く絵（海） */}
         <g class="wm-anim" aria-hidden="true">
           {/* 2026-11-03 利用者「船のアイコンが陸の上を走っているのでNG」: 地図の座標で海の上だけを通す（陸から 20〜30 離れることを機械で確かめた）。拡大しても地図と一緒に動くので位置はずれない */}
-          <path id="wm-route1" d="M 250 1290 C 230 1080, 220 900, 250 760 S 250 650, 245 610" fill="none" />
-          <g class="wm-ship"><g><animateTransform attributeName="transform" type="scale" values="-1 1;1 1" keyTimes="0;0.5" dur="40s" calcMode="discrete" repeatCount="indefinite" /><g transform="scale(1.15)" filter="url(#wm-veh)">
+          <path id="wm-route1" d="M 250 1290 C 222 1190, 262 1110, 236 1010 S 258 860, 242 780 S 254 660, 245 610" fill="none" />
+          <g class="wm-ship"><g><animateTransform attributeName="transform" type="scale" values="-1 1;1 1" keyTimes="0;0.5" dur="40s" calcMode="discrete" repeatCount="indefinite" /><g><animateTransform attributeName="transform" type="translate" values="0 0;0 -1.6;0 0.8;0 0" keyTimes="0;0.35;0.7;1" dur="2.6s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1" /><g><animateTransform attributeName="transform" type="rotate" values="-3.5;3;-3.5" dur="3.4s" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1" /><g transform="scale(1.15)" filter="url(#wm-veh)">
             {/* 水上バス（2026-11-04 利用者「電車と船をもう少しイラスト調ではありながらもリアリティがあるように」）: 紺の船体・白い客室・窓の列・航跡 */}
             <path d="M-34 1 q-8 2 -16 0 M-34 5 q-10 4 -20 3" class="wake" />
             <path d="M-28 -1 H22 Q30 -1 33 1 Q30 7 22 8 H-24 Q-28 7 -28 -1Z" class="hull" />
@@ -132,10 +132,10 @@ const ratio = (MAP_H / MAP_W).toFixed(4);
             <path d="M14 -8.4 L19 -2.6 H14Z" class="glass" />
             <rect x="-14" y="-15.5" width="16" height="4.5" rx="1.5" class="cabin" />
             <path d="M-10 -15.5 V-20 M-10 -19 h5" class="mast" />
-          </g></g>
+          </g></g></g></g>
             <animateMotion dur="40s" repeatCount="indefinite" rotate="0" keyPoints="0;1;0" keyTimes="0;0.5;1" calcMode="linear"><mpath href="#wm-route1" /></animateMotion></g>
           <path id="wm-route2" d="M 630 628 Q 590 665, 540 700 T 440 752" fill="none" />
-          <g class="wm-yakata"><g><animateTransform attributeName="transform" type="scale" values="-1 1;1 1" keyTimes="0;0.5" dur="55s" calcMode="discrete" repeatCount="indefinite" /><g transform="scale(1.15)" filter="url(#wm-veh)">
+          <g class="wm-yakata"><g><animateTransform attributeName="transform" type="scale" values="-1 1;1 1" keyTimes="0;0.5" dur="55s" calcMode="discrete" repeatCount="indefinite" /><g><animateTransform attributeName="transform" type="translate" values="0 0;0 -1.6;0 0.8;0 0" keyTimes="0;0.35;0.7;1" dur="2.6s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1" /><g><animateTransform attributeName="transform" type="rotate" values="-3.5;3;-3.5" dur="3.4s" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1" /><g transform="scale(1.15)" filter="url(#wm-veh)">
             {/* 屋形船: 木の船体・障子の窓・瓦の屋根・赤い提灯 */}
             <path d="M-32 2 q-8 2 -14 0" class="wake" />
             <path d="M-28 1 H24 Q31 0 34 -3 Q32 6 24 8 H-24 Q-28 7 -28 1Z" class="wood" />
@@ -146,13 +146,8 @@ const ratio = (MAP_H / MAP_W).toFixed(4);
             <path d="M-27 -9 Q-1 -12 25 -9 L21 -15 Q-1 -17 -23 -15Z" class="roof" />
             <path d="M-24 -9 H22" class="eave" />
             {[-18, -9, 0, 9, 18].map((x) => <g><ellipse cx={x} cy="-6.6" rx="1.9" ry="2.4" class="chochin" /><circle cx={x} cy="-6.6" r="4" class="chochin-glow" /></g>)}
-          </g></g>
+          </g></g></g></g>
             <animateMotion dur="55s" repeatCount="indefinite" rotate="0" keyPoints="0;1;0" keyTimes="0;0.5;1" calcMode="linear"><mpath href="#wm-route2" /></animateMotion></g>
-          <path id="wm-gull" d={`M ${MAP_W * 0.62} ${MAP_H * 0.3} c 80 -40 160 20 120 80 s -160 40 -120 -80`} fill="none" />
-          {[0, 1, 2].map((i) => (
-            <g class="wm-gull-g"><path d="M-8 0q4-6 8 0q4-6 8 0" class="gull" />
-              <animateMotion dur={`${18 + i * 4}s`} begin={`-${i * 5}s`} repeatCount="indefinite" rotate="auto"><mpath href="#wm-gull" /></animateMotion></g>
-          ))}
           <ellipse cx="0" cy="0" rx="160" ry="70" fill="url(#wm-cloud)" class="wm-cloud1" />
           <ellipse cx="0" cy="0" rx="120" ry="55" fill="url(#wm-cloud)" class="wm-cloud2" />
         </g>
@@ -160,7 +155,19 @@ const ratio = (MAP_H / MAP_W).toFixed(4);
         {/* 地下鉄（都営大江戸線・東京メトロ有楽町線） */}
         <g class="wm-subways" aria-hidden="true">
           {MAP_SUBWAYS.map((l) => <path d={straight(l.pts)} class="wm-sub-bed" />)}
-          {MAP_SUBWAYS.map((l) => <path d={straight(l.pts)} class="wm-sub-line" style={`stroke:${l.color}`} />)}
+          {MAP_SUBWAYS.map((l) => <path id={`wm-sub-${l.key}`} d={straight(l.pts)} class="wm-sub-line" style={`stroke:${l.color}`} />)}
+          {/* 2026-11-07 利用者「大江戸線や有楽町線も電車を動かすようにして」: 銀の車体に路線の色の帯。往復する */}
+          {MAP_SUBWAYS.map((l, i) => (
+            <g class="wm-train wm-subtrain"><g transform="scale(1.05)" filter="url(#wm-veh)">
+              {[-27, -9].map((x) => <g><rect x={x} y="-5.5" width="17" height="11" rx="2" class="car sub-car" /><rect x={x + 2} y="-3.6" width="13" height="3.8" rx="0.8" class="car-win" /><path d={`M${x + 0.6} 2.4 H${x + 16.4}`} class="car-band" style={`stroke:${l.color}`} /></g>)}
+              <path d="M9 -5.5 H22 Q28 -5.5 29 0 Q28 5.5 22 5.5 H9Z" class="car sub-car" />
+              <path d="M11 -3.6 H22 Q25.8 -3.6 26.6 -0.6 L11 -0.6Z" class="car-win" />
+              <path d="M9.6 2.4 H27.8" class="car-band" style={`stroke:${l.color}`} />
+              <circle cx="26.8" cy="3.2" r="0.9" class="car-lamp" />
+              <path d="M-10.4 0 H-9.4 M8 0 H9" class="car-joint" />
+            </g>
+              <animateMotion dur={`${l.key === 'oedo' ? 30 : 26}s`} begin={`-${i * 7}s`} repeatCount="indefinite" rotate="auto" keyPoints="0;1;0" keyTimes="0;0.5;1" calcMode="linear"><mpath href={`#wm-sub-${l.key}`} /></animateMotion></g>
+          ))}
         </g>
 
         {/* ゆりかもめ */}
@@ -271,6 +278,8 @@ const ratio = (MAP_H / MAP_W).toFixed(4);
     <p class="wmap-credit">地図：{MAP_SOURCE}をもとに作成／駅：© OpenStreetMap contributors</p>
   </div>
 
+  {/* 地図の枠のすぐ下に差し込む（湾岸ライフの一覧の「地区から探す」・2026-11-07） */}
+  <slot name="below-map" />
   <ol class="wmap-list" data-list>
     {items.map((it, i) => (
       <li data-i={i} class={`wmap-li wmap-li-${it.kind}`}>
@@ -543,7 +552,7 @@ const ratio = (MAP_H / MAP_W).toFixed(4);
   :global(.wmap .l) { fill: none; stroke: var(--wm-ink); stroke-width: 1.6; stroke-linecap: round; }
   :global(.wmap .l2) { fill: none; stroke: #8aa9c4; stroke-width: 1.1; stroke-linecap: round; }
   :global(.wmap .lamp) { fill: #ffcf4a; }
-  :global(.wmap .gull) { fill: none; stroke: #4b5d6e; stroke-width: 1.8; stroke-linecap: round; }
+  :global(.wmap .sub-car) { fill: #e9edf1; }
   /* 乗り物（2026-11-04 リアル寄りのイラストに） */
   :global(.wmap .wake) { fill: none; stroke: #fff; stroke-width: 1.6; stroke-linecap: round; opacity: 0.8; }
   :global(.wmap .hull) { fill: #23476b; stroke: #1a2f45; stroke-width: 1; stroke-linejoin: round; }
@@ -667,7 +676,7 @@ const ratio = (MAP_H / MAP_W).toFixed(4);
   }
   @media (prefers-reduced-motion: reduce) {
     :global(.wm-waves), :global(.wm-pin.is-now .wm-pin-pulse), :global(.wm-cloud1), :global(.wm-cloud2) { animation: none !important; }
-    :global(.wm-anim animateMotion), :global(.wm-rail animateMotion) { display: none; }
+    :global(.wm-anim animateMotion), :global(.wm-rail animateMotion), :global(.wm-subways animateMotion) { display: none; }
     .wmap-canvas, :global(.wm-pin .wm-pin-drop) { transition: none !important; }
   }
 </style>
