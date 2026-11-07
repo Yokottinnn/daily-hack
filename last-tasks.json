@@ -1,3 +1,1 @@
-[
-      {"task": "x434-tab-guard-kill-grace.sh", "rc": 0, "out": "## ① ensure-chrome.sh ``` 差し込んだ 構文 OK・入れ替えた（退避 ensure-chrome.sh.bak-x434） 167-  log CDP hang confirmed (${CONFIRM_TRIES} consecutive failures) — 自動化専用 Chrome を�"}
-  ]
+[]
