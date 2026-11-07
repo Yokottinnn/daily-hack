@@ -36,6 +36,14 @@ nav.toc{position:sticky;top:env(safe-area-inset-top,0px);align-self:start;max-he
 .toc a .n{font-family:var(--f-data);font-size:11px;color:var(--muted);min-width:18px}
 .toc a[aria-current="page"]{background:var(--brand-soft);color:var(--brand);font-weight:700}
 .toc a .badge{margin-left:auto;font-family:var(--f-data);font-size:11px;background:var(--memo);color:var(--memo-ink);border-radius:99px;padding:0 7px}
+.toc li.has-sub{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center}
+.toc .tg{font:inherit;font-size:12px;border:0;background:none;color:var(--muted);cursor:pointer;padding:4px 8px;border-radius:6px;line-height:1}
+.toc .tg:hover{background:var(--hover);color:var(--ink)}
+.toc .tg[aria-expanded="true"] span{display:inline-block;transform:rotate(90deg)}
+.toc ol.sub{grid-column:1/-1;margin:2px 0 6px 28px;gap:0;border-left:2px solid var(--rule)}
+.toc ol.sub a{font-size:13px;padding:4px 10px;border-radius:0 8px 8px 0;color:var(--muted)}
+.toc ol.sub a:hover{background:var(--hover);color:var(--ink)}
+.toc ol.sub a.on{color:var(--brand);font-weight:700;background:var(--brand-soft)}
 .toc .meta{margin-top:18px;font-size:12px;color:var(--muted);line-height:1.7}
 .toc .meta b{color:var(--ink);font-weight:500}
 main{padding-block:28px 120px;padding-inline:clamp(16px,4vw,56px);min-width:0}
@@ -214,6 +222,8 @@ tr[data-ccount]::after{top:4px;right:4px}
   .toc ol{display:flex;overflow-x:auto;gap:4px;margin-top:6px;padding-bottom:4px}
   .toc a{white-space:nowrap;padding:5px 10px}
   .toc .meta,.brand small{display:none}
+  .toc ol.sub,.toc .tg{display:none!important}
+  .toc li.has-sub{display:block}
   .brand{font-size:16px}
   .week{grid-template-columns:1fr;gap:4px}
   #panel{top:auto;height:78vh;width:100%;border-left:0;border-top:1px solid var(--rule);border-radius:16px 16px 0 0}
@@ -333,7 +343,7 @@ tr[data-ccount]::after{top:4px;right:4px}
   <p class="lead" data-cid="now.hub.lead">運営している 3 つ（<strong>X・ブログ・アフィリエイト</strong>）の数字を、このページに細かくまとめています。「全体像」には要点だけを残しています。<strong>表とグラフは毎日自動で入れ替わります</strong>（Mac が毎朝読み、作戦室に載せる）。</p>
   <div class="jump" id="now-jump"><button type="button" data-jump="now-x">X</button><button type="button" data-jump="now-blog">ブログ</button><button type="button" data-jump="now-aff">アフィリエイト</button></div>
 
-  <div class="secbar" id="now-x" data-cid="now.sec.x">X（@heng_ji31590）<small>フォロワー・収益化の条件・表示・投稿ごとの反応。Mac がプロフィール・アナリティクス・収益化の画面を毎日読む</small></div>
+  <div class="secbar" id="now-x" data-cid="now.sec.x" data-toc="X">X（@heng_ji31590）<small>フォロワー・収益化の条件・表示・投稿ごとの反応。Mac がプロフィール・アナリティクス・収益化の画面を毎日読む</small></div>
   <div class="grid" id="now-x-tiles"><p class="empty">データ待ち</p></div>
   <h3 data-cid="now.x.h.cond">収益化までの距離</h3>
   <div class="tbl"><table><thead><tr><th>条件</th><th>いま</th><th>足りない</th></tr></thead><tbody id="now-xcond"><tr><td colspan="3" class="empty">データ待ち</td></tr></tbody></table></div>
@@ -349,7 +359,7 @@ tr[data-ccount]::after{top:4px;right:4px}
   <h3 data-cid="now.x.h.facts">分かったこと</h3>
   <ul class="findings" id="now-x-facts"><li class="empty">データ待ち</li></ul>
 
-  <div class="secbar" id="now-blog" data-cid="now.sec.blog">ブログ（daily-hack.fieldbeside.com）<small>検索（Search Console）・訪問（Cloudflare）・記事ごとの数字</small></div>
+  <div class="secbar" id="now-blog" data-cid="now.sec.blog" data-toc="ブログ">ブログ（daily-hack.fieldbeside.com）<small>検索（Search Console）・訪問（Cloudflare）・記事ごとの数字</small></div>
   <div class="grid" id="now-kpi"><p class="empty">データ待ち</p></div>
   <h3 data-cid="now.blog.h.gsc">検索の推移</h3>
   <div class="tabs" data-gsc-tabs><button type="button" data-gv="w" aria-pressed="true">週ごと</button><button type="button" data-gv="m" aria-pressed="false">月ごと</button></div>
@@ -380,7 +390,7 @@ tr[data-ccount]::after{top:4px;right:4px}
     <div class="tile"><div class="k">負けている</div><p style="margin:6px 0 0"><b>大手と同じ話題の速報</b>。PayPay 改悪・値上げ一覧は 20〜100 位。<b>価格・キャンペーンのように数字の寿命が月単位の記事</b>は沈んでいる。</p></div>
     <div class="tile"><div class="k">取りこぼし</div><p style="margin:6px 0 0"><b>1 ページ目の下（4〜10 位）にいる記事</b>のクリック率が低い。タイトルと説明文を直すだけで流入が増える余地がある。</p></div>
   </div>
-  <div class="secbar" id="now-aff" data-cid="now.sec.aff">アフィリエイト<small>成果（クリック・発生・確定）と、記事に入っている成果リンク・提携中の案件</small></div>
+  <div class="secbar" id="now-aff" data-cid="now.sec.aff" data-toc="アフィリエイト">アフィリエイト<small>成果（クリック・発生・確定）と、記事に入っている成果リンク・提携中の案件</small></div>
   <div class="grid" id="now-aff-tiles"><p class="empty">データ待ち</p></div>
   <h3 data-cid="now.aff.h.results">成果（ASP ごと・今月と先月）</h3>
   <div id="now-aff-results"><p class="empty">データ待ち</p></div>
@@ -1020,11 +1030,25 @@ tr[data-ccount]::after{top:4px;right:4px}
     a.href='#'+p.dataset.page; a.dataset.page=p.dataset.page;
     a.innerHTML='<span class="n">'+String(i+1).padStart(2,'0')+'</span><span>'+esc(p.dataset.title)+'</span><span class="badge" hidden></span>';
     li.appendChild(a); toc.appendChild(li);
+    // 2026-11-07 利用者「縦に長すぎるので、大項目（X・ブログ・アフィリエイト）にワンクリックで移動したい／左のメニューを構造化してトグルで」
+    const secs=$$('.secbar[id]',p); if(!secs.length) return;
+    li.classList.add('has-sub');
+    const tg=document.createElement('button'); tg.type='button'; tg.className='tg'; tg.setAttribute('aria-label',p.dataset.title+' の見出しを開く'); tg.setAttribute('aria-expanded','false'); tg.innerHTML='<span>▸</span>';
+    const sub=document.createElement('ol'); sub.className='sub'; sub.hidden=true; sub.id='toc-sub-'+p.dataset.page; tg.setAttribute('aria-controls',sub.id);
+    secs.forEach(sec=>{ const sl=document.createElement('li'), sa=document.createElement('a'); sa.href='#b='+encodeURIComponent(sec.dataset.cid||sec.id); sa.dataset.sec=sec.id; sa.textContent=sec.dataset.toc||sec.firstChild.textContent.trim();
+      sa.addEventListener('click',ev=>{ ev.preventDefault(); $$('ol.sub a',toc).forEach(x=>x.classList.toggle('on',x===sa)); if(p.hidden) show(p.dataset.page); history.replaceState(null,'','#'+p.dataset.page); requestAnimationFrame(()=>sec.scrollIntoView({behavior:'smooth',block:'start'})); });
+      sl.appendChild(sa); sub.appendChild(sl); });
+    tg.addEventListener('click',()=>setSub(li,sub.hidden));
+    li.appendChild(tg); li.appendChild(sub);
   });
+  function setSub(li,open){ const sub=li.querySelector('ol.sub'), tg=li.querySelector('.tg'); if(!sub) return; sub.hidden=!open; tg.setAttribute('aria-expanded',open?'true':'false'); try{ localStorage.setItem('toc-open-'+li.querySelector('a').dataset.page, open?'1':'0'); }catch(e){} }
+  // いま画面に出ている大項目を目次で強調する
+  if('IntersectionObserver' in window){ const io=new IntersectionObserver(es=>{ es.forEach(en=>{ if(!en.isIntersecting) return; $$('ol.sub a',toc).forEach(a=>a.classList.toggle('on',a.dataset.sec===en.target.id)); }); },{rootMargin:'0px 0px -70% 0px'}); $$('.secbar[id]').forEach(x=>io.observe(x)); }
   function show(name, cid){
     const t=pages.find(p=>p.dataset.page===name)||pages[0];
     pages.forEach(p=>p.hidden=p!==t);
-    $$('a',toc).forEach(a=>a.setAttribute('aria-current',a.dataset.page===t.dataset.page?'page':'false'));
+    $$('a',toc).forEach(a=>{ if(!a.dataset.sec) a.setAttribute('aria-current',a.dataset.page===t.dataset.page?'page':'false'); });
+    $$('li.has-sub',toc).forEach(li=>{ const pg=li.querySelector('a').dataset.page; let saved=null; try{ saved=localStorage.getItem('toc-open-'+pg); }catch(e){} if(pg===t.dataset.page) setSub(li, saved!=='0'); });
     try{localStorage.setItem('board-page',t.dataset.page)}catch(e){}
     if(cid){const el=document.querySelector('[data-cid="'+CSS.escape(cid)+'"]'); if(el){el.scrollIntoView({block:'center'}); el.classList.remove('c-flash'); void el.offsetWidth; el.classList.add('c-flash'); return;}}
     window.scrollTo(0,0);
@@ -1142,7 +1166,7 @@ tr[data-ccount]::after{top:4px;right:4px}
     db.collection('feedback').orderBy('createdAt','desc').onSnapshot(snap=>{
       ALL=snap.docs.map(d=>{const v=d.data(); return Object.assign({id:d.id,scope:v.scope||(v.cid?'block':'page'),cid:v.cid||v.anchor||'',quote:v.quote||'',reply:v.reply||''},v);});
       applyCounts(); window.__ALL=ALL; openPendingC();
-      $$('a',toc).forEach(a=>{ if(a.dataset.page==='tasks') return; const n=ALL.filter(c=>c.page===a.dataset.page&&!c.reply).length; const b=a.querySelector('.badge'); b.hidden=!n; b.textContent=n; });
+      $$('a[data-page]',toc).forEach(a=>{ if(a.dataset.page==='tasks') return; const n=ALL.filter(c=>c.page===a.dataset.page&&!c.reply).length; const b=a.querySelector('.badge'); b.hidden=!n; b.textContent=n; });
       const open=ALL.filter(c=>!c.reply).length, fb=$('a[data-page="feedback"] .badge',toc); fb.hidden=!open; fb.textContent=open;
       renderList(); renderThread();
     },()=>{});
