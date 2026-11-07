@@ -1,3 +1,3 @@
 [
-      {"task": "x432-which-chrome.sh", "rc": 0, "out": " ## 1. Chrome の本体プロセス（ヘルパーは除く）と、付いている CDP のポート ``` pid 451 ／ 起動 Sun Sep 20 00:20:23 ／ Chrome for Testing ／ CDP なし ／ プロファイル 既定 pid 468 �"}
+      {"task": "t567-gsc-request-indexing.sh", "rc": 0, "out": "リクエスト済み: 0 t567-gsc-request-indexing.md"}
   ]
