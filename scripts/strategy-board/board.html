@@ -1004,6 +1004,11 @@ tr[data-ccount]::after{top:4px;right:4px}
 </aside>
 
 <script>
+// 2026-11-07: 画面で起きたエラーを上に赤く出す（「データ待ち」のまま止まる件の原因を利用者の画面で見るため）
+(function(){ const box=[]; const showErr=(msg)=>{ box.push(String(msg).slice(0,200)); let el=document.getElementById('page-err'); if(!el){ el=document.createElement('div'); el.id='page-err'; el.style.cssText='position:fixed;left:0;right:0;top:0;z-index:99;background:#b3261e;color:#fff;font:13px/1.5 system-ui,sans-serif;padding:6px 12px;white-space:pre-wrap;max-height:30vh;overflow:auto'; (document.body||document.documentElement).appendChild(el); } el.textContent='作戦室の表示でエラー（この文を Claude に伝えてください）\n'+box.slice(-5).join('\n'); };
+  window.addEventListener('error',e=>showErr((e.message||'error')+(e.lineno?' @'+e.lineno+':'+e.colno:'')));
+  window.addEventListener('unhandledrejection',e=>{ const r=e.reason; showErr('Promise: '+((r&&(r.code||r.message))||r)+(r&&r.stack?' / '+String(r.stack).split('\n')[1]:'')); });
+})();
 (function(){
   'use strict';
   const DECISIONS = [
@@ -1184,8 +1189,19 @@ tr[data-ccount]::after{top:4px;right:4px}
     // 2026-11-07: 記事の一覧・成果リンクの一覧は snapshot/arts に分けた（snapshot/latest が大きすぎて届かなくなったため）
     ['snapshot/arts','snapshot/aff'].forEach(path=>db.doc(path).onSnapshot(s=>{ if(!s.exists) return; ARTS=Object.assign({},ARTS||{},s.data()); if(SNAP){ SNAP=withA8(SNAP); try{ renderSnapshot(SNAP); }catch(e){ console.error(e); } } },()=>{}));
     // 2026-11-07: 「データ：読み込み中」のまま数字が出ない（利用者の画面）。読めなかった理由を画面に出す
-    const snapFail=(why)=>{ const m=$('#meta-data'); if(m) m.textContent='毎日の数字を読めない（'+why+'）'; };
-    setTimeout(()=>{ if(!SNAP) snapFail('20 秒たっても届かない'); },20000);
+    // 理由は左の「データ：」と、各ページの上の緑の丸（stamp）の両方に出す（利用者が見る場所）
+    const snapFail=(why)=>{ const t='毎日の数字を読めない（'+why+'）'; const m=$('#meta-data'); if(m) m.textContent=t; ['stamp-home','stamp-now','stamp-asp','stamp-aff'].forEach(id=>{ const el=$('#'+id); if(el){ el.classList.add('stale'); const sp=el.querySelector('span'); if(sp) sp.textContent=t; } }); };
+    // 購読が 8 秒たっても届かなければ、get で直接読む（購読だけが止まっている場合の逃げ道・2026-11-07）
+    setTimeout(async()=>{ if(SNAP) return;
+      try{ const [l,a8,ar,af]=await Promise.all(['snapshot/latest','snapshot/a8','snapshot/arts','snapshot/aff'].map(pth=>db.doc(pth).get().catch(e=>({__err:e}))));
+        if(l&&l.__err) throw l.__err;
+        if(a8&&!a8.__err&&a8.exists) A8ROWS=a8.data().rows||[];
+        [ar,af].forEach(x=>{ if(x&&!x.__err&&x.exists) ARTS=Object.assign({},ARTS||{},x.data()); });
+        if(SNAP) return;
+        if(l&&l.exists){ SNAP=withA8(l.data()); try{ renderSnapshot(SNAP); }catch(e){ snapFail('描画: '+String(e&&e.message||e).slice(0,80)); } } else snapFail('snapshot/latest が無い');
+      }catch(e){ snapFail('直接読み込み: '+String(e&&(e.code||e.message)||e).slice(0,80)); }
+    },8000);
+    setTimeout(()=>{ const m=$('#meta-data'); if(!SNAP&&!(m&&/読めない/.test(m.textContent))) snapFail('20 秒たっても届かない'); },20000);
     try{ db.doc('snapshot/latest').onSnapshot(s=>{ if(s.exists){ SNAP=withA8(s.data()); try{ renderSnapshot(SNAP); }catch(e){ console.error(e); snapFail('描画: '+String(e&&e.message||e).slice(0,80)); } } else { $('#meta-data').textContent='まだ届いていない'; } },(e)=>{ console.error(e); snapFail('読み込み: '+String(e&&(e.code||e.message)||e).slice(0,80)); }); }catch(e){ snapFail('購読: '+String(e&&e.message||e).slice(0,80)); }
     db.doc('snapshot/a8').onSnapshot(s=>{ if(!s.exists) return; A8ROWS=s.data().rows||[]; if(SNAP){ SNAP=withA8(SNAP); try{ renderSnapshot(SNAP); }catch(e){ console.error(e); } } },()=>{});
     // 分析レポート（アドホック）。結論と要点だけをここに置き、詳細は各分析のページへ（2026-10-26 利用者の指示）
