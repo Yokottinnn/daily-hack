@@ -4,7 +4,13 @@
 // keyed by article path. Jordan selects body text -> "コメント追加" -> writes
 // feedback -> saved locally. The "全部コピー" button exports all comments as
 // markdown for pasting back into chat so the article can be updated.
+// 2026-11-07: 対応済みのコメントを自動で消す（src/data/draft-comments-done.json）と、いま見ている版（コミットと作った時刻）の表示を足した。
 // 2026-10-19: 画像へのコメント（画像に触れると出るボタン）と、記事全体へのコメント（パネルのボタン）を追加。
+import doneData from '../data/draft-comments-done.json';
+const DONE: Record<string, number> = Object.fromEntries(Object.entries((doneData as { done: Record<string, string> }).done).map(([k, v]) => [k, new Date(v).getTime()]));
+const sha = (process.env.GITHUB_SHA || process.env.CF_PAGES_COMMIT_SHA || '').slice(0, 7);
+const built = new Date().toLocaleString('ja-JP', { timeZone: 'Asia/Tokyo', month: 'numeric', day: 'numeric', hour: '2-digit', minute: '2-digit' });
+const BUILD = `この版: ${built} に作成${sha ? `（${sha}）` : ''}`;
 ---
 
 <div id="draft-comment-widget" aria-live="polite">
@@ -22,6 +28,7 @@
       </div>
     </div>
     <p class="dc-help">本文をドラッグで選択すると 💬 ボタンが出ます。<br />画像はマウスを乗せる（スマホはタップする）と「🖼 この画像にコメント」が出ます。<br />記事全体へのコメントは上の「＋ 記事全体」から。<br />フィードバックは「全部コピー」でチャットに貼り付けて。</p>
+    <p class="dc-build">{BUILD}。対応が済んだコメントは自動で消えます。</p>
     <ul id="dc-list" role="list"></ul>
     <p id="dc-empty">まだコメントはないわよ。</p>
   </div>
@@ -40,7 +47,7 @@
   </div>
 </div>
 
-<script is:inline>
+<script is:inline define:vars={{ DONE }}>
   (function () {
     const STORAGE_KEY = 'daily-hack:draft-comments';
     const articleKey = window.location.pathname;
@@ -100,6 +107,16 @@
       all[key] = comments;
       try { localStorage.setItem(STORAGE_KEY, JSON.stringify(all)); } catch (e) {}
     }
+    // 対応済みのコメントを消す（そのページの「対応済みの時刻」より前に書かれたもの）
+    (function pruneDone() {
+      const all = loadAll(); let changed = false;
+      for (const k of Object.keys(all)) {
+        const cut = DONE[k]; if (!cut || !Array.isArray(all[k])) continue;
+        const keep = all[k].filter((c) => !(c && c.ts && c.ts < cut));
+        if (keep.length !== all[k].length) { all[k] = keep; changed = true; }
+      }
+      if (changed) { try { localStorage.setItem(STORAGE_KEY, JSON.stringify(all)); } catch (e) {} }
+    })();
     function refresh() {
       const comments = loadFor(articleKey);
       count.textContent = String(comments.length);
@@ -362,6 +379,7 @@
     padding: 1px 7px;
     font-size: 11px;
   }
+  .dc-build { margin: 0 0 8px; font-size: 11px; color: #8a7d84; }
   #dc-panel {
     position: absolute;
     top: 44px;
