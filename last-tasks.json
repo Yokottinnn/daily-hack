@@ -1,1 +1,3 @@
-[]
+[
+      {"task": "x430-tab-guard-restart-grace.sh", "rc": 0, "out": "``` 差し込んだ 構文 OK・入れ替えた（退避 ensure-chrome.sh.bak-x430） 170- 171:# x430（2026-11-07）: 立ち上げ直す時刻を残す。tab-guard はこの直後のタブの�"}
+  ]
