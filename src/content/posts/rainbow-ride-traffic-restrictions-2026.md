@@ -4,7 +4,7 @@ description: "自転車イベント「レインボーライド2026」で、2026�
 publishDate: 2026-11-07
 category: ["wangan-life"]
 tags: ["湾岸ニュース", "お台場", "青海", "有明", "通行止め", "交通規制", "首都高", "2026年"]
-isPR: false
+isPR: true
 draft: false
 eyecatchUrl: "/images/rainbow-ride-traffic-restrictions-2026/eyecatch.jpg"
 eyecatchAlt: "GRAND CYCLE TOKYOの「交通規制のお知らせ」。2026年11月23日の一般道と首都高の規制時間"
@@ -123,6 +123,11 @@ references: ["https://grand-cycle-tokyo.jp/traffic_restrictions/"]
 </figure>
 
 6:00ごろ〜13:00ごろ、<strong>品川方面・千葉方面へは回り道</strong>をするよう案内が出ている。青海の中の道と、有明ふ頭（フェリーふ頭）へ向かう道が止まり、<strong>東岸壁と西岸壁の間は車で横切れない</strong>。回り道は青い点線で、<strong>国道357号</strong>と青海縦貫線に沿っている。
+
+<div class="callout info">
+<p class="head">11月23日の朝に空港や遠出の予定があるなら</p>
+<p style="margin:0">首都高は4時ごろから止まる。早朝の便に乗る人は、前の晩に空港や駅の近くへ泊まるのも手。ホテルは <a href="https://px.a8.net/svt/ejp?a8mat=4BESU9+BNQN16+AD2+3B4MFL" target="_blank" rel="sponsored noopener nofollow">エアトリの国内ホテル予約</a> や <a href="https://px.a8.net/svt/ejp?a8mat=4BESU9+B1PLNE+1OK+6F1WH" target="_blank" rel="sponsored noopener nofollow">一休.com</a> で日付を入れて探せる。祝日の予定を電車で行ける遊びに変えるなら、<a href="https://px.a8.net/svt/ejp?a8mat=4BESU9+DODIU2+1EQO+1NMZO1" target="_blank" rel="sponsored noopener nofollow">たびらいの遊び・体験</a>でチケットを先に取れる。</p>
+</div>
 
 <aside class="related-block">
   <div class="related-block-head">

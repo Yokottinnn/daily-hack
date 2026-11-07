@@ -163,7 +163,24 @@ const banners = a8Banners.banners
 // 記事に合うバナーが足りない分は、どの記事にも合いやすい提携済みの広告で補う。同じ広告は 1 ページに 1 回だけ
 // 2026-11-03 利用者「忍者AdMAXのバナーは全て外そう／儲けにつながらないので、A8 を中心に会社にお金が入ってくるバナーに交換して」→ 忍者AdMAX の枠も A8 で埋めるので 10 枠ぶん用意する
 const FALLBACK_AD_IDS = ['s00000023934001', 's00000000218001', 's00000023244001', 's00000000488017', 's00000025743001', 's00000021712001', 's00000013798001', 's00000020428001', 's00000007478002', 's00000020962001'];
-const adList = [...banners, ...FALLBACK_AD_IDS.map((id) => a8Banners.banners.find((b) => b.programId === id)).filter((b): b is (typeof a8Banners.banners)[number] => !!b && !banners.includes(b))];
+// 湾岸ライフの記事は、読んだ人がそのまま使う「近くに泊まる・遊ぶ・食べる・家のこと」の広告を先に埋める（2026-11-07 利用者
+// 「湾岸ライフの記事はクリックした人にどんどんアフィリエイトのリンクを踏んでもらって、実際に売上を立てたい」）。
+// それまでは題材と関係の薄い穴埋め（ふるさと納税・ポータブル電源・スカパーなど）が上に来ていた
+const WANGAN_AD_IDS = [
+  's00000001343020', // エアトリ国内ホテル予約（イベント・遠征の宿）
+  's00000000218001', // 一休.com（ホテル）
+  's00000006576010', // たびらい（遊び・体験）
+  's00000022946005', // アゴダ（遊び・体験）
+  's00000020542002', // Retty（レストラン予約）
+  's00000000218004', // 一休.com レストラン
+  's00000012993002', // レゴランド・ディスカバリー・センター東京（お台場）
+  's00000016106001', // キャットハンド（家事代行・タワマン）
+  's00000010868002', // くまポン（クーポン）
+  's00000000488017', // Oisix おためしセット
+  's00000023244001', // Yahoo!トラベル
+];
+const fallbackIds = postCategories.includes('wangan-life') ? [...WANGAN_AD_IDS, ...FALLBACK_AD_IDS] : FALLBACK_AD_IDS;
+const adList = [...banners, ...fallbackIds.map((id) => a8Banners.banners.find((b) => b.programId === id)).filter((b, i, arr): b is (typeof a8Banners.banners)[number] => !!b && !banners.includes(b) && arr.indexOf(b) === i)];
 
 // 2件ずつのブロックに割る（最大3ブロック＝本文中に最大3箇所）
 const inlineRelatedBlocks: (typeof inlineRelatedPool)[] = [];
