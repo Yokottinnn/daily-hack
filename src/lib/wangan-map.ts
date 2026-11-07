@@ -9,6 +9,8 @@
  * **港区・品川区は対象外**（docs/wangan-news-routine.md）。地図の陸は描くが、地区の札とピンは出さない。
  */
 import type { CollectionEntry } from 'astro:content';
+import fs from 'node:fs';
+import path from 'node:path';
 import basemap from '../data/wangan-basemap.json';
 import venues from '../data/wangan-venues.json';
 import wide from '../data/wangan-basemap-wide.json';
@@ -164,6 +166,10 @@ export type MapItem = {
   area: string;
   isFree: boolean;
   img: string;
+  /** 小窓に出す画像（640×360） */
+  pop: string;
+  /** 元の表紙（検索エンジン向けの情報に使う） */
+  cover: string;
   x: number;
   y: number;
   lat?: number;
@@ -181,12 +187,20 @@ function shorten(name: string): string {
   return s.length > 18 ? s.slice(0, 17) + '…' : s;
 }
 
+/** ピンと小窓の小さな画像（scripts/wangan-map/gen-thumbs.mjs が作る）。無ければ元の表紙 */
+const small = (slug: string, kind: 'pin' | 'pop', orig: string) => {
+  const rel = `/images/_wm/${slug}-${kind}.webp`;
+  return fs.existsSync(path.join(process.cwd(), 'public', rel)) ? rel : orig;
+};
+
 /** マップに出すもの（イベント＋直近のニュース）。同じ場所に重なるピンは少しずつずらす */
 export function mapItems(posts: Post[], today = todayJst()): MapItem[] {
   const out: MapItem[] = [];
   for (const p of posts) {
     const ev = p.data.event;
-    const img = p.data.eyecatchUrl ?? '';
+    const orig = p.data.eyecatchUrl ?? '';
+    const img = orig ? small(p.id, 'pin', orig) : '';
+    const pop = orig ? small(p.id, 'pop', orig) : '';
     if (ev) {
       const start = day(ev.startDate);
       const end = day(ev.endDate ?? ev.startDate);
@@ -197,14 +211,14 @@ export function mapItems(posts: Post[], today = todayJst()): MapItem[] {
       if (!pl) continue;
       const { x, y } = project(pl.lat, pl.lon);
       if (!inMap(x, y)) continue;
-      out.push({ kind: 'event', slug: p.id, title: ev.name, short: shorten(ev.name), start, end: ev.endDate ? end : '', place: ev.locationName, area: areaOf(p), isFree: !!ev.isFree, img, x, y, lat: pl.lat, lon: pl.lon, address: ev.address });
+      out.push({ kind: 'event', slug: p.id, title: ev.name, short: shorten(ev.name), start, end: ev.endDate ? end : '', place: ev.locationName, area: areaOf(p), isFree: !!ev.isFree, img, pop, cover: orig, x, y, lat: pl.lat, lon: pl.lon, address: ev.address });
     } else if ((p.data.tags ?? []).includes(WANGAN_NEWS_TAG)) {
       const pub = day(p.data.publishDate.toISOString());
       if (pub < addDays(today, -14)) continue;
       const area = areaOf(p);
       const a = MAP_AREAS.find((m) => m.tag === area);
       if (!a) continue;
-      out.push({ kind: 'news', slug: p.id, title: p.data.title, short: shorten(p.data.title), start: pub, end: pub, place: area, area, isFree: false, img, x: a.x, y: a.y + 26 });
+      out.push({ kind: 'news', slug: p.id, title: p.data.title, short: shorten(p.data.title), start: pub, end: pub, place: area, area, isFree: false, img, pop, cover: orig, x: a.x, y: a.y + 26 });
     }
   }
   // 同じ点に重なるものを円く並べ直す
