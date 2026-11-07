@@ -7,7 +7,7 @@
  * - 動く絵: 船・屋形船・ゆりかもめ・かもめ・雲の影。ハッカー子が開催中のものから案内する
  * 動きは prefers-reduced-motion で止める。
  */
-import { MAP_W, MAP_H, MAP_LAND, MAP_AREAS, MAP_LANDMARKS, MAP_SOURCE, MAP_STATIONS, MAP_YURIKAMOME, MAP_REF_AREAS, MAP_SUBWAYS, MAP_WIDE, MAP_PAN, MAP_OUTER_STATIONS, MAP_OUTER_PLACES, mapItems } from '../lib/wangan-map';
+import { MAP_W, MAP_H, MAP_LAND, MAP_AREAS, MAP_LANDMARKS, MAP_SOURCE, MAP_STATIONS, MAP_YURIKAMOME, MAP_REF_AREAS, MAP_SUBWAYS, MAP_WIDE, MAP_PAN, MAP_OUTER_STATIONS, MAP_OUTER_PLACES, MAP_OUTER_LINES, MAP_OUTER_LINE_LABELS, MAP_OUTER_SPOTS, MAP_OUTER_STATION_NAMED, mapItems } from '../lib/wangan-map';
 import { todayJst, jpDate, jpRange } from '../lib/wangan';
 import type { CollectionEntry } from 'astro:content';
 
@@ -170,6 +170,11 @@ const ratio = (MAP_H / MAP_W).toFixed(4);
           <ellipse cx="0" cy="0" rx="120" ry="55" fill="url(#wm-cloud)" class="wm-cloud2" />
         </g>
 
+        {/* 鉄道の路線（停車駅を順につなぐ・路線の色）。湾岸の線より下に敷く */}
+        <g class="wm-rails-outer" aria-hidden="true">
+          {MAP_OUTER_LINES.map((l) => <polyline points={l.pts.map((q) => `${q.x},${q.y}`).join(' ')} class="wm-rl-bed" />)}
+          {MAP_OUTER_LINES.map((l) => <polyline points={l.pts.map((q) => `${q.x},${q.y}`).join(' ')} class="wm-rl" style={`stroke:${l.colour}`} />)}
+        </g>
         {/* 地下鉄（都営大江戸線・東京メトロ有楽町線） */}
         <g class="wm-subways" aria-hidden="true">
           {MAP_SUBWAYS.map((l) => <path d={straight(l.pts)} class="wm-sub-bed" />)}
@@ -208,9 +213,11 @@ const ratio = (MAP_H / MAP_W).toFixed(4);
 
         {/* 地図の外側の地名と駅（縮小したときに見える。湾岸の外なのでピンや地区の札は出さない・2026-11-07） */}
         <g class="wm-outer" aria-hidden="true">
+          {MAP_OUTER_LINE_LABELS.map((l) => <g transform={`translate(${l.x} ${l.y})`} class="wm-rl-lb"><g class="wm-st-in"><rect x={-(l.name.length * 5.6 + 8)} y="-9" width={l.name.length * 11.2 + 16} height="18" rx="9" style={`fill:${l.colour}`} /><text y="4">{l.name}</text></g></g>)}
+          {MAP_OUTER_SPOTS.map((sp) => <g transform={`translate(${sp.x} ${sp.y})`} class="wm-spot"><g class="wm-st-in"><circle r="13" class="wm-spot-bg" /><text y="5" class="wm-spot-ico">{sp.icon}</text><text y="28" class="wm-spot-name">{sp.name}</text></g></g>)}
           {MAP_OUTER_PLACES.map((a) => <g transform={`translate(${a.x} ${a.y})`} class="wm-outer-pl"><text class="wm-outer-pl-name">{a.name}</text></g>)}
           {MAP_OUTER_STATIONS.map((s) => (
-            <g transform={`translate(${s.x} ${s.y})`} class="wm-outer-st"><g class="wm-st-in"><circle r="4.5" class="wm-outer-st-dot" /><text x="7" y="4" class="wm-outer-st-name">{s.name}駅</text></g></g>
+            <g transform={`translate(${s.x} ${s.y})`} class="wm-outer-st"><g class="wm-st-in"><circle r="4.5" class="wm-outer-st-dot" />{MAP_OUTER_STATION_NAMED.has(s.name) && <text x="7" y="4" class="wm-outer-st-name">{s.name}駅</text>}</g></g>
           ))}
         </g>
 
@@ -614,6 +621,13 @@ const ratio = (MAP_H / MAP_W).toFixed(4);
   :global(.wm-ln text) { font-size: 12px; font-weight: 800; fill: #fff; text-anchor: middle; letter-spacing: 0.04em; }
   :global(.wm-rail-bed) { fill: none; stroke: #fff; stroke-width: 7; stroke-linecap: round; opacity: 0.9; }
   :global(.wm-rail-line) { fill: none; stroke: #2b6cb0; stroke-width: 2.4; stroke-dasharray: 8 5; stroke-linecap: round; opacity: 0.7; }
+  :global(.wm-rl-bed) { fill: none; stroke: #fff; stroke-width: 5.5; stroke-linejoin: round; stroke-linecap: round; opacity: 0.85; }
+  :global(.wm-rl) { fill: none; stroke-width: 3; stroke-linejoin: round; stroke-linecap: round; opacity: 0.8; }
+  :global(.wm-rl-lb text) { font-size: 11px; font-weight: 800; fill: #fff; text-anchor: middle; }
+  :global(.wm-rl-lb rect) { opacity: 0.92; }
+  :global(.wm-spot-bg) { fill: #fffaf2; stroke: #c9a27a; stroke-width: 1.6; }
+  :global(.wm-spot-ico) { font-size: 15px; text-anchor: middle; }
+  :global(.wm-spot-name) { font-size: 11.5px; font-weight: 800; fill: #8a6a4a; text-anchor: middle; paint-order: stroke; stroke: #fff; stroke-width: 3px; }
   :global(.wm-outer-st-dot) { fill: #fff; stroke: #7d93ab; stroke-width: 2.2; }
   :global(.wm-outer-st-name) { font-size: 11px; font-weight: 700; fill: #5f7690; paint-order: stroke; stroke: #fff; stroke-width: 3px; }
   :global(.wm-outer-pl-name) { font-size: 15px; font-weight: 800; fill: #a99a8a; text-anchor: middle; letter-spacing: 0.08em; paint-order: stroke; stroke: rgba(255, 255, 255, 0.9); stroke-width: 3.5px; transform: scale(calc(1 / var(--wm-z))); transform-box: fill-box; transform-origin: center; }
