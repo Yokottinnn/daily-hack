@@ -1,3 +1,1 @@
-[
-      {"task": "x429-read-tab-guard-ensure-chrome.sh", "rc": 0, "out": "```js      1	#!/usr/bin/env node      2	/**      3	 * tab-guard.js — Jordan の Chrome が「丸ごと落とされる」異常だけを検知して自動化を止める。      "}
-  ]
+[]
