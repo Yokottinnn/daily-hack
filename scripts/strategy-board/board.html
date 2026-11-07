@@ -1191,7 +1191,7 @@ tr[data-ccount]::after{top:4px;right:4px}
   // ---- スナップショットを描く ----
   function delta(cur,prev){ if(cur==null||!prev) return ''; const p=Math.round((cur-prev)/prev*100); return '<span class="delta '+(p>=0?'up':'down')+'">'+(p>=0?'+':'')+p+'%</span>'; }
   function stamp(id,S){ const el=$('#'+id); if(!el) return; const age=Math.round((Date.now()-new Date(S.generatedAt))/864e5); el.classList.toggle('stale',age>2); el.querySelector('span').textContent='自動更新 '+S.generatedAt.slice(0,10)+(age>2?'（'+age+' 日前・古い）':''); }
-  function renderSnapshot(S){
+  function renderSnapshotTop(S){
     $('#meta-data').textContent=S.generatedAt.slice(0,10)+' 更新';
     ['stamp-home','stamp-now','stamp-asp'].forEach(id=>stamp(id,S));
     const k=S.kpi||{};
@@ -1247,7 +1247,13 @@ tr[data-ccount]::after{top:4px;right:4px}
     $('#tbl-asp').innerHTML=(M.asp||[]).map(a=>'<tr data-cid="asp.status.'+hash(a.name)+'"><td><b>'+esc(a.name)+'</b>'+(a.account?'（'+esc(a.account)+'）':'')+'</td><td><span class="pill ok">'+(a.login==='auto'?'自動':'手動')+'</span></td><td>'+esc(a.note||'')+(a.partnered!=null?'（提携 '+a.partnered+' 件）':'')+'</td></tr>').join('');
     const A8=S.a8||{}; const autoPend=A8.applyingCount!=null?'<li data-cid="asp.pending.a8-applying"><b>A8 の審査中 '+fmtN(A8.applyingCount)+' 件</b>（提携中 '+fmtN(A8.total)+' 件・Mac が毎朝 A8 の「申込中プログラム」を数える）</li>':'';
     $('#list-pending').innerHTML=autoPend+(M.pending||[]).map(p=>'<li data-cid="asp.pending.'+esc(p.key)+'">'+esc(p.label)+' — '+esc(p.since)+' から</li>').join('')||(autoPend?'':'<li>待ちはありません。</li>');
-    renderA8(); renderAff(); renderNowHub(S); applyCounts();
+  }
+  // 2026-11-07: どこか 1 か所で落ちると、そのあとの表がすべて「データ待ち」のまま残っていた（利用者の指摘）。
+  // 部分ごとに分けて描き、落ちた部分は名前と理由を左の「データ：」の行に出す（ほかの部分は描き続ける）
+  function renderSnapshot(S){
+    const errs=[]; const safe=(name,fn)=>{ try{ fn(); }catch(e){ console.error(name,e); errs.push(name+'（'+String(e&&e.message||e).slice(0,80)+'）'); } };
+    safe('全体像',()=>renderSnapshotTop(S)); safe('ASP と案件',renderA8); safe('成果リンクの一覧',renderAff); safe('現状の数字',()=>renderNowHub(S)); safe('付箋',applyCounts);
+    if(errs.length){ const m=$('#meta-data'); if(m) m.textContent=((S.generatedAt||'').slice(0,10)||'—')+' 更新・表示に失敗した部分: '+errs.join('、'); }
   }
 
   // ---- 現状の数字: X・ブログ・アフィリエイトの数字を 1 ページに（2026-10-25 利用者のコメント 0dxd6x2bbryrclqjesc3）----
@@ -1289,8 +1295,10 @@ tr[data-ccount]::after{top:4px;right:4px}
       tile('プロフィールへのアクセス（90 日）',esc(xv('プロフィールへのアクセス（90 日）')),'','now.x.prof90'),
       tile('オリジナルコンテンツ報酬',esc(xv('オリジナルコンテンツ報酬')),'X の収益化の状態','now.x.rev'),
     ].join('');
-    mirror('#tbl-xcond','#now-xcond'); if(F.length>1){ drawFollowers('#now-chart-x',F); $('#now-chart-x').dataset.cid='now.x.followers-chart'; } renderNowPosts(); mirror('#x-facts','#now-x-facts');
-    XDAILY={F,sg}; renderXDaily();
+    // X のグラフ・投稿の表で落ちても、ブログとアフィリエイトの表は描く（落ちた理由は最後に投げ直して「データ：」の行に出す）
+    let xErr=null;
+    try{ mirror('#tbl-xcond','#now-xcond'); if(F.length>1){ drawFollowers('#now-chart-x',F); $('#now-chart-x').dataset.cid='now.x.followers-chart'; } renderNowPosts(); mirror('#x-facts','#now-x-facts');
+    XDAILY={F,sg}; renderXDaily(); }catch(e){ xErr=e; }
     // ブログ
     mirror('#kpi-tiles','#now-kpi'); mirror('#chart-gsc','#now-chart-gsc');
     // アフィリエイト
@@ -1311,6 +1319,7 @@ tr[data-ccount]::after{top:4px;right:4px}
     $('#now-aff-asp').innerHTML=Object.entries(rows).sort((a,b)=>b[1].spots-a[1].spots).map(([g,r])=>'<tr data-cid="now.aff.asp.'+hash(g)+'"><td><b>'+esc(g)+'</b>'+(r.names.length>1?'<br><span class="status">'+esc(r.names.join('・'))+'</span>':'')+'</td><td class="num">'+esc(String(part[g]??'—'))+'</td><td class="num">'+fmtN(r.arts)+'</td><td class="num">'+fmtN(r.spots)+'</td></tr>').join('');
     $('#now-aff-items').innerHTML=(S.affByItem||[]).slice().sort((a,b)=>b.articles.length-a.articles.length||b.n-a.n).slice(0,15).map(r=>'<tr data-cid="now.aff.item.'+hash(r.asp+r.item)+'"><td>'+esc(r.item)+'</td><td>'+esc(r.asp)+'</td><td class="num">'+fmtN(r.articles.length)+'</td><td class="num">'+fmtN(r.n)+'</td></tr>').join('')||'<tr><td colspan="4" class="empty">データ待ち</td></tr>';
     renderResults(); renderAfl();
+    if(xErr) throw xErr;
   }
   // X の投稿のランキング（現状の数字）。並べ替えと絞り込み（2026-10-25 利用者のコメント 6q1u6gj2wqp4bdf47unh）
   function renderNowPosts(){ const tb=$('#now-xposts'); if(!tb) return; const XD=(SNAP||{}).xData||{}; const J=XD.joined||[];
