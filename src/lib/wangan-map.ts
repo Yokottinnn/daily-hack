@@ -12,6 +12,7 @@ import type { CollectionEntry } from 'astro:content';
 import basemap from '../data/wangan-basemap.json';
 import venues from '../data/wangan-venues.json';
 import wide from '../data/wangan-basemap-wide.json';
+import outer from '../data/wangan-outer-labels.json';
 import { WANGAN_AREAS, WANGAN_NEWS_TAG, todayJst } from './wangan';
 
 type Post = CollectionEntry<'posts'>;
@@ -70,6 +71,33 @@ export const MAP_REF_AREAS = [
   { name: '銀座', ...project(35.6717, 139.7649) },
   { name: '新橋', ...project(35.6662, 139.7577) },
 ].filter((a) => inMap(a.x, a.y));
+
+/**
+ * 地図の外側（縮小したときに見える範囲）の駅と地名（2026-11-07 利用者「−ボタンで引いたとき、お台場エリア以外は一切表示されていないのが見栄えが悪い。
+ * 湾岸エリア以外も地名や駅名くらいは表示させて」）。位置は OpenStreetMap（t569）。本体の枠の外で、縮小できる範囲（MAP_PAN）の中だけ。
+ * 札が重ならないよう、乗り入れの多い駅から順に間を空けて選ぶ。地名は駅の札とも離す。
+ */
+const outsideCore = (x: number, y: number) => (x < -12 || x > MAP_W + 12 || y < -12 || y > MAP_H + 12)
+  && x > MAP_PAN.x + 20 && x < MAP_PAN.x + MAP_PAN.w - 20 && y > MAP_PAN.y + 20 && y < MAP_PAN.y + MAP_PAN.h - 20;
+const spaced = <T extends { x: number; y: number }>(list: T[], gap: number, avoid: { x: number; y: number }[] = [], avoidGap = 0) => {
+  const out: T[] = [];
+  for (const it of list) {
+    if (out.some((o) => Math.hypot(o.x - it.x, o.y - it.y) < gap)) continue;
+    if (avoid.some((o) => Math.hypot(o.x - it.x, o.y - it.y) < avoidGap)) continue;
+    out.push(it);
+  }
+  return out;
+};
+type OuterPt = { name: string; lat: number; lon: number; count?: number };
+export const MAP_OUTER_STATIONS = spaced(
+  (outer.stations as OuterPt[]).map((s) => ({ name: s.name, count: s.count ?? 1, ...project(s.lat, s.lon) }))
+    .filter((s) => outsideCore(s.x, s.y)).sort((a, b) => b.count - a.count || a.name.localeCompare(b.name)),
+  95,
+);
+export const MAP_OUTER_PLACES = spaced(
+  (outer.places as OuterPt[]).map((p) => ({ name: p.name, ...project(p.lat, p.lon) })).filter((p) => outsideCore(p.x, p.y)),
+  130, MAP_OUTER_STATIONS, 55,
+).filter((p, i, all) => all.findIndex((o) => o.name === p.name) === i);
 
 /** 地区の札（区の住所検索の位置） */
 const AREA_ADDR: Record<string, string> = {
