@@ -1,0 +1,612 @@
+[
+ {
+  "label": "publish-points-oneshot",
+  "when": "1日 12:00",
+  "script": "~/.openclaw/workspace/scripts/publish-points-oneshot.sh",
+  "script_exists": true,
+  "last_log": "2026-11-01",
+  "in_autoload": false,
+  "llm": false,
+  "looks_one_shot": true
+ },
+ {
+  "label": "thread-guard",
+  "when": "毎 30 分",
+  "script": "~/.openclaw/workspace/scripts/thread-guard.js",
+  "script_exists": true,
+  "last_log": "2026-09-30",
+  "in_autoload": false,
+  "llm": false,
+  "looks_one_shot": false
+ },
+ {
+  "label": "publish-payid-oneshot",
+  "when": "27日 12:00",
+  "script": "~/.openclaw/workspace/scripts/publish-payid-oneshot.sh",
+  "script_exists": true,
+  "last_log": "2026-09-27",
+  "in_autoload": false,
+  "llm": false,
+  "looks_one_shot": true
+ },
+ {
+  "label": "slack-watchdog",
+  "when": "常駐",
+  "script": "~/.openclaw/workspace/scripts/run-slack-watchdog.sh",
+  "script_exists": true,
+  "last_log": "2026-09-19",
+  "in_autoload": false,
+  "llm": false,
+  "looks_one_shot": false
+ },
+ {
+  "label": "auto-detect-and-unfollow-inactive",
+  "when": "22:30",
+  "script": "~/.openclaw/workspace/scripts/auto_detect_and_unfollow_inactive.js",
+  "script_exists": true,
+  "last_log": "2026-09-09",
+  "in_autoload": false,
+  "llm": false,
+  "looks_one_shot": false
+ },
+ {
+  "label": "canary-silent-gap",
+  "when": "毎 360 分",
+  "script": "cd ~/.openclaw/workspace && /usr/local/bin/node scripts/canary-silent-gap.js",
+  "script_exists": false,
+  "last_log": "2026-09-09",
+  "in_autoload": false,
+  "llm": false,
+  "looks_one_shot": false
+ },
+ {
+  "label": "cost-monitor-health",
+  "when": "毎 120 分",
+  "script": "~/.openclaw/workspace/scripts/health-check-cost-monitor.sh",
+  "script_exists": true,
+  "last_log": "2026-09-09",
+  "in_autoload": false,
+  "llm": false,
+  "looks_one_shot": false
+ },
+ {
+  "label": "cost-monitor",
+  "when": "毎 60 分",
+  "script": "~/.openclaw/workspace/scripts/run-cost-monitor.sh",
+  "script_exists": true,
+  "last_log": "2026-09-09",
+  "in_autoload": false,
+  "llm": false,
+  "looks_one_shot": false
+ },
+ {
+  "label": "daily-follow-summary",
+  "when": "23:00",
+  "script": "eval \"$(/usr/local/bin/node -e \"const c=require('~/.openclaw/openclaw.json');console.log('export SLACK_BOT_TOKEN='+JSON.stringify((c.channels&&c.channels.slack&&c.channels.slack.botToken)||''));\")\"; cd /Users/ny/.openclaw/workspace; /usr/local/bin/node scripts/daily-follow-summary.js",
+  "script_exists": false,
+  "last_log": "2026-09-09",
+  "in_autoload": false,
+  "llm": false,
+  "looks_one_shot": false
+ },
+ {
+  "label": "daily-must-rule-review",
+  "when": "09:00",
+  "script": "~/.openclaw/workspace/scripts/daily-must-rule-review.js",
+  "script_exists": true,
+  "last_log": "2026-09-09",
+  "in_autoload": false,
+  "llm": false,
+  "looks_one_shot": false
+ },
+ {
+  "label": "draft-eve",
+  "when": "18:30",
+  "script": "~/.openclaw/workspace/scripts/run-draft.sh",
+  "script_exists": true,
+  "last_log": "2026-09-09",
+  "in_autoload": false,
+  "llm": false,
+  "looks_one_shot": false
+ },
+ {
+  "label": "draft-late",
+  "when": "20:30",
+  "script": "~/.openclaw/workspace/scripts/run-draft.sh",
+  "script_exists": true,
+  "last_log": "2026-09-09",
+  "in_autoload": false,
+  "llm": false,
+  "looks_one_shot": false
+ },
+ {
+  "label": "draft-noon",
+  "when": "12:00",
+  "script": "~/.openclaw/workspace/scripts/run-draft.sh",
+  "script_exists": true,
+  "last_log": "2026-09-09",
+  "in_autoload": false,
+  "llm": false,
+  "looks_one_shot": false
+ },
+ {
+  "label": "engage-daily",
+  "when": "18:00",
+  "script": "~/.openclaw/workspace/scripts/run-engage.sh",
+  "script_exists": true,
+  "last_log": "2026-09-09",
+  "in_autoload": false,
+  "llm": false,
+  "looks_one_shot": false
+ },
+ {
+  "label": "fire-watchdog",
+  "when": "毎 60 分",
+  "script": "~/.openclaw/workspace/scripts/run-fire-watchdog.sh",
+  "script_exists": true,
+  "last_log": "2026-09-09",
+  "in_autoload": false,
+  "llm": false,
+  "looks_one_shot": false
+ },
+ {
+  "label": "follow-watchdog",
+  "when": "11:00",
+  "script": "cd ~/.openclaw/workspace; /Users/ny/.openclaw/workspace/scripts/ensure-chrome.sh; /usr/local/bin/node scripts/follow-watchdog.js",
+  "script_exists": false,
+  "last_log": "2026-09-09",
+  "in_autoload": false,
+  "llm": false,
+  "looks_one_shot": false
+ },
+ {
+  "label": "follower-monitor",
+  "when": "12:30",
+  "script": "eval \"$(/usr/local/bin/node -e \"const c=require('~/.openclaw/openclaw.json');console.log('export SLACK_BOT_TOKEN='+JSON.stringify((c.channels&&c.channels.slack&&c.channels.slack.botToken)||''));\")\"; cd /Users/ny/.openclaw/workspace; /usr/local/bin/node scripts/follower-growth-monitor.js",
+  "script_exists": false,
+  "last_log": "2026-09-09",
+  "in_autoload": false,
+  "llm": false,
+  "looks_one_shot": false
+ },
+ {
+  "label": "gateway",
+  "when": "常駐",
+  "script": "~/.openclaw/service-env/ai.openclaw.gateway-env-wrapper.sh",
+  "script_exists": true,
+  "last_log": "2026-09-09",
+  "in_autoload": false,
+  "llm": false,
+  "looks_one_shot": false
+ },
+ {
+  "label": "import-manual-image",
+  "when": "毎 30 分",
+  "script": "~/.openclaw/workspace/scripts/import-manual-image.js",
+  "script_exists": true,
+  "last_log": "2026-09-09",
+  "in_autoload": false,
+  "llm": false,
+  "looks_one_shot": false
+ },
+ {
+  "label": "pipeline-guardian",
+  "when": "毎 15 分",
+  "script": "~/.openclaw/workspace/scripts/pipeline-guardian.js",
+  "script_exists": true,
+  "last_log": "2026-09-09",
+  "in_autoload": false,
+  "llm": false,
+  "looks_one_shot": false
+ },
+ {
+  "label": "poll-approvals",
+  "when": "毎 1 分",
+  "script": "~/.openclaw/workspace/scripts/poll-approvals.sh",
+  "script_exists": true,
+  "last_log": "2026-09-09",
+  "in_autoload": false,
+  "llm": false,
+  "looks_one_shot": false
+ },
+ {
+  "label": "post-metrics-collector",
+  "when": "毎 360 分",
+  "script": "~/.openclaw/workspace/scripts/post-metrics-collector.js",
+  "script_exists": true,
+  "last_log": "2026-09-09",
+  "in_autoload": false,
+  "llm": false,
+  "looks_one_shot": false
+ },
+ {
+  "label": "qt-past-daily",
+  "when": "10:00",
+  "script": "~/.openclaw/workspace/scripts/qt-past-articles-orchestrator.sh",
+  "script_exists": true,
+  "last_log": "2026-09-09",
+  "in_autoload": false,
+  "llm": false,
+  "looks_one_shot": false
+ },
+ {
+  "label": "revenge-unfollow",
+  "when": "13:00",
+  "script": "cd ~/.openclaw/workspace; /Users/ny/.openclaw/workspace/scripts/ensure-chrome.sh; /usr/local/bin/node scripts/revenge-unfollow.js",
+  "script_exists": false,
+  "last_log": "2026-09-09",
+  "in_autoload": false,
+  "llm": false,
+  "looks_one_shot": false
+ },
+ {
+  "label": "trend-daily",
+  "when": "09:30",
+  "script": "~/.openclaw/workspace/scripts/trend-orchestrator.sh",
+  "script_exists": true,
+  "last_log": "2026-09-09",
+  "in_autoload": false,
+  "llm": false,
+  "looks_one_shot": false
+ },
+ {
+  "label": "v3-violation-watchdog",
+  "when": "毎 360 分",
+  "script": "~/.openclaw/workspace/scripts/v3-violation-watchdog.js",
+  "script_exists": true,
+  "last_log": "2026-09-09",
+  "in_autoload": false,
+  "llm": false,
+  "looks_one_shot": false
+ },
+ {
+  "label": "auto-thread-chainifier",
+  "when": "02:00",
+  "script": "~/.openclaw/workspace/scripts/auto-thread-chainifier.js",
+  "script_exists": true,
+  "last_log": "2026-09-08",
+  "in_autoload": false,
+  "llm": false,
+  "looks_one_shot": false
+ },
+ {
+  "label": "daily-action-norm",
+  "when": "06:00",
+  "script": "~/.openclaw/workspace/scripts/daily-action-norm.js",
+  "script_exists": true,
+  "last_log": "2026-09-08",
+  "in_autoload": false,
+  "llm": false,
+  "looks_one_shot": false
+ },
+ {
+  "label": "follower-daily-report",
+  "when": "08:00",
+  "script": "eval \"$(/usr/local/bin/node -e \"const c=require('~/.openclaw/openclaw.json');console.log('export SLACK_BOT_TOKEN='+JSON.stringify((c.channels&&c.channels.slack&&c.channels.slack.botToken)||''));\")\"; cd /Users/ny/.openclaw/workspace; /usr/local/bin/node scripts/follower-daily-report.js",
+  "script_exists": false,
+  "last_log": "2026-09-08",
+  "in_autoload": false,
+  "llm": false,
+  "looks_one_shot": false
+ },
+ {
+  "label": "grok-trending-daily",
+  "when": "08:00",
+  "script": "eval \"$(/usr/local/bin/node -e \"const c=require('~/.openclaw/openclaw.json');console.log('export SLACK_BOT_TOKEN='+JSON.stringify((c.channels&&c.channels.slack&&c.channels.slack.botToken)||''));\")\"; cd /Users/ny/.openclaw/workspace; /Users/ny/.openclaw/workspace/scripts/ensure-chrome.sh; /usr/local/bin/node scripts/grok-trending-daily.js",
+  "script_exists": false,
+  "last_log": "2026-09-08",
+  "in_autoload": false,
+  "llm": false,
+  "looks_one_shot": false
+ },
+ {
+  "label": "bookmark-analyzer",
+  "when": "曜1 09:30",
+  "script": "~/.openclaw/workspace/scripts/bookmark-analyzer.js",
+  "script_exists": true,
+  "last_log": "2026-09-07",
+  "in_autoload": false,
+  "llm": true,
+  "looks_one_shot": false
+ },
+ {
+  "label": "bookmark-watcher",
+  "when": "曜1 09:05",
+  "script": "~/.openclaw/workspace/scripts/bookmark-watcher.js",
+  "script_exists": true,
+  "last_log": "2026-09-07",
+  "in_autoload": false,
+  "llm": false,
+  "looks_one_shot": false
+ },
+ {
+  "label": "variety-audit",
+  "when": "曜1 10:30",
+  "script": "~/.openclaw/workspace/scripts/variety-audit.js",
+  "script_exists": true,
+  "last_log": "2026-09-07",
+  "in_autoload": false,
+  "llm": false,
+  "looks_one_shot": false
+ },
+ {
+  "label": "weekly-design-reminder",
+  "when": "曜1 10:00",
+  "script": "~/.openclaw/workspace/scripts/weekly-design-reminder.sh",
+  "script_exists": true,
+  "last_log": "2026-09-07",
+  "in_autoload": false,
+  "llm": false,
+  "looks_one_shot": false
+ },
+ {
+  "label": "node",
+  "when": "常駐",
+  "script": "~/.openclaw/service-env/ai.openclaw.node-env-wrapper.sh",
+  "script_exists": true,
+  "last_log": "2026-08-30",
+  "in_autoload": false,
+  "llm": false,
+  "looks_one_shot": false
+ },
+ {
+  "label": "seo-health",
+  "when": "曜1 08:10",
+  "script": "",
+  "script_exists": null,
+  "last_log": "2026-08-08",
+  "in_autoload": false,
+  "llm": false,
+  "looks_one_shot": false
+ },
+ {
+  "label": "sitemap-autosubmit",
+  "when": "07:40,19:40",
+  "script": "",
+  "script_exists": null,
+  "last_log": "2026-08-08",
+  "in_autoload": false,
+  "llm": false,
+  "looks_one_shot": false
+ },
+ {
+  "label": "unfollow-cleanup-evening",
+  "when": "20:30",
+  "script": "eval \"$(/usr/local/bin/node -e \"const c=require('~/.openclaw/openclaw.json');console.log('export SLACK_BOT_TOKEN='+JSON.stringify((c.channels&&c.channels.slack&&c.channels.slack.botToken)||''));\")\"; cd /Users/ny/.openclaw/workspace; /Users/ny/.openclaw/workspace/scripts/ensure-chrome.sh; MAX_PER_FIRE=2 /usr/local/bin/node scripts/unfollow-cleanup.js",
+  "script_exists": false,
+  "last_log": "2026-08-06",
+  "in_autoload": false,
+  "llm": false,
+  "looks_one_shot": false
+ },
+ {
+  "label": "unfollow-cleanup-morning",
+  "when": "08:30",
+  "script": "eval \"$(/usr/local/bin/node -e \"const c=require('~/.openclaw/openclaw.json');console.log('export SLACK_BOT_TOKEN='+JSON.stringify((c.channels&&c.channels.slack&&c.channels.slack.botToken)||''));\")\"; cd /Users/ny/.openclaw/workspace; /Users/ny/.openclaw/workspace/scripts/ensure-chrome.sh; MAX_PER_FIRE=3 /usr/local/bin/node scripts/unfollow-cleanup.js",
+  "script_exists": false,
+  "last_log": "2026-08-06",
+  "in_autoload": false,
+  "llm": false,
+  "looks_one_shot": false
+ },
+ {
+  "label": "monthly-kpi-report",
+  "when": "1日 09:00",
+  "script": "~/.openclaw/workspace/scripts/monthly-kpi-report.js",
+  "script_exists": true,
+  "last_log": "2026-08-01",
+  "in_autoload": false,
+  "llm": false,
+  "looks_one_shot": false
+ },
+ {
+  "label": "refollow-may18-once",
+  "when": "20日 21:00,21日 09:00",
+  "script": "~/.openclaw/workspace/scripts/refollow-may18-incident.js",
+  "script_exists": true,
+  "last_log": "2026-07-21",
+  "in_autoload": false,
+  "llm": false,
+  "looks_one_shot": true
+ },
+ {
+  "label": "chrome-cdp-heal",
+  "when": "毎 5 分",
+  "script": "~/openclaw/chrome-cdp-heal.sh",
+  "script_exists": true,
+  "last_log": "2026-07-08",
+  "in_autoload": false,
+  "llm": false,
+  "looks_one_shot": false
+ },
+ {
+  "label": "cost-report-daily",
+  "when": "00:05",
+  "script": "~/.openclaw/workspace/scripts/run-daily-cost-report.sh",
+  "script_exists": true,
+  "last_log": "2026-05-31",
+  "in_autoload": false,
+  "llm": false,
+  "looks_one_shot": false
+ },
+ {
+  "label": "blog-rss-watcher",
+  "when": "指定なし",
+  "script": "",
+  "script_exists": null,
+  "last_log": "",
+  "in_autoload": false,
+  "llm": false,
+  "looks_one_shot": false
+ },
+ {
+  "label": "celebrate-100",
+  "when": "指定なし",
+  "script": "",
+  "script_exists": null,
+  "last_log": "",
+  "in_autoload": false,
+  "llm": false,
+  "looks_one_shot": true
+ },
+ {
+  "label": "chrome-cdp",
+  "when": "指定なし",
+  "script": "",
+  "script_exists": null,
+  "last_log": "",
+  "in_autoload": false,
+  "llm": false,
+  "looks_one_shot": false
+ },
+ {
+  "label": "chrome-restart-hook",
+  "when": "指定なし",
+  "script": "",
+  "script_exists": null,
+  "last_log": "",
+  "in_autoload": false,
+  "llm": false,
+  "looks_one_shot": false
+ },
+ {
+  "label": "cookie-backup",
+  "when": "04:00,10:00,16:00,22:00",
+  "script": "~/.openclaw/workspace/scripts/cookie-backup.sh",
+  "script_exists": true,
+  "last_log": "",
+  "in_autoload": false,
+  "llm": false,
+  "looks_one_shot": false
+ },
+ {
+  "label": "crd-detect-daemon",
+  "when": "常駐",
+  "script": "~/.openclaw/workspace/scripts/crd-detect-daemon.js",
+  "script_exists": true,
+  "last_log": "",
+  "in_autoload": false,
+  "llm": false,
+  "looks_one_shot": false
+ },
+ {
+  "label": "daily-task-audit",
+  "when": "指定なし",
+  "script": "",
+  "script_exists": null,
+  "last_log": "",
+  "in_autoload": false,
+  "llm": false,
+  "looks_one_shot": false
+ },
+ {
+  "label": "incoming-reply-responder",
+  "when": "指定なし",
+  "script": "",
+  "script_exists": null,
+  "last_log": "",
+  "in_autoload": false,
+  "llm": false,
+  "looks_one_shot": false
+ },
+ {
+  "label": "memory-review",
+  "when": "指定なし",
+  "script": "",
+  "script_exists": null,
+  "last_log": "",
+  "in_autoload": false,
+  "llm": false,
+  "looks_one_shot": false
+ },
+ {
+  "label": "publish-hanabi-oneshot",
+  "when": "6日 08:00",
+  "script": "~/.openclaw/workspace/scripts/publish-hanabi-oneshot.sh",
+  "script_exists": true,
+  "last_log": "",
+  "in_autoload": false,
+  "llm": false,
+  "looks_one_shot": true
+ },
+ {
+  "label": "qt-daily",
+  "when": "指定なし",
+  "script": "",
+  "script_exists": null,
+  "last_log": "",
+  "in_autoload": false,
+  "llm": false,
+  "looks_one_shot": false
+ },
+ {
+  "label": "scheduled-entry-watchdog",
+  "when": "毎 1 分",
+  "script": "~/.openclaw/workspace/scripts/scheduled-entry-watchdog.js",
+  "script_exists": true,
+  "last_log": "",
+  "in_autoload": false,
+  "llm": false,
+  "looks_one_shot": false
+ },
+ {
+  "label": "sheet-sync",
+  "when": "指定なし",
+  "script": "",
+  "script_exists": null,
+  "last_log": "",
+  "in_autoload": false,
+  "llm": false,
+  "looks_one_shot": false
+ },
+ {
+  "label": "unfollow-daily",
+  "when": "指定なし",
+  "script": "",
+  "script_exists": null,
+  "last_log": "",
+  "in_autoload": false,
+  "llm": false,
+  "looks_one_shot": false
+ },
+ {
+  "label": "unfollow-evening",
+  "when": "指定なし",
+  "script": "",
+  "script_exists": null,
+  "last_log": "",
+  "in_autoload": false,
+  "llm": false,
+  "looks_one_shot": false
+ },
+ {
+  "label": "unfollow-stats-monitor",
+  "when": "指定なし",
+  "script": "",
+  "script_exists": null,
+  "last_log": "",
+  "in_autoload": false,
+  "llm": false,
+  "looks_one_shot": false
+ },
+ {
+  "label": "x-login-compat-test",
+  "when": "曜2 03:00",
+  "script": "",
+  "script_exists": null,
+  "last_log": "",
+  "in_autoload": false,
+  "llm": false,
+  "looks_one_shot": false
+ },
+ {
+  "label": "x-login-monitor",
+  "when": "指定なし",
+  "script": "",
+  "script_exists": null,
+  "last_log": "",
+  "in_autoload": false,
+  "llm": false,
+  "looks_one_shot": false
+ }
+]
