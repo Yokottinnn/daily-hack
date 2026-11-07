@@ -4,9 +4,11 @@ import { getPrimaryCategory } from '../lib/category';
 
 export interface Props {
   post: CollectionEntry<'posts'>;
+  /** 編集部おすすめ（よく読まれた記事）の札を付ける */
+  pick?: boolean;
 }
 
-const { post } = Astro.props;
+const { post, pick = false } = Astro.props;
 const primaryCat = getPrimaryCategory(post.data);
 
 const categoryLabel: Record<string, { label: string; cls: string }> = {
@@ -37,7 +39,7 @@ const eyecatchSrc =
   <div class="thumb">
     <img src={eyecatchSrc} alt={post.data.eyecatchAlt ?? ''} />
     {post.data.isPR && <span class="badge">PR</span>}
-    {post.data.featured && !post.data.isPR && <span class="badge dark">編集部おすすめ</span>}
+    {pick && !post.data.isPR && <span class="badge dark">編集部おすすめ</span>}
   </div>
   <div class="body">
     <span class={`cat ${cat.cls}`}>{cat.label}</span>

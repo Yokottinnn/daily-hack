@@ -8,6 +8,7 @@ import { postBelongsToCategory, type CategorySlug } from '../../lib/category';
 import { WANGAN_AREAS, WANGAN_NEWS_TAG, upcomingEvents, jpRange, jpDate, todayJst } from '../../lib/wangan';
 import WanganEventMap from '../../components/WanganEventMap.astro';
 import WanganMapGuide from '../../components/WanganMapGuide.astro';
+import { topByPv } from '../../lib/popular';
 
 export async function getStaticPaths() {
   const cats = ['campaigns', 'services', 'comparisons', 'roundups', 'howto', 'wangan-life'];
@@ -73,7 +74,8 @@ const all = await getCollection(
     postBelongsToCategory(data, category as CategorySlug),
 );
 const sorted = all.sort((a, b) => b.data.publishDate.getTime() - a.data.publishDate.getTime());
-const featured = sorted.filter((p) => p.data.featured).slice(0, 3);
+// 編集部おすすめ＝このカテゴリーで直近 28 日によく読まれた上位 3 本（2026-11-07 利用者の指示。手で付ける featured は使わない）
+const featured = topByPv(sorted, 3);
 const rest = sorted.filter((p) => !featured.includes(p));
 
 const pillarPosts = sorted.filter((p) => !p.data.parentPillar);
@@ -222,9 +224,10 @@ for (const p of sorted) {
       <div class="wrap">
         <div class="sec-head">
           <h2><span class="chibi"><img src="/images/expr-05-smug.png" alt="" /></span>編集部おすすめ</h2>
+          <span style="font-size: 12px; color: var(--ink-3);">直近28日によく読まれた記事</span>
         </div>
         <div class="articles">
-          {featured.map((p) => <PostCard post={p} />)}
+          {featured.map((p) => <PostCard post={p} pick={true} />)}
         </div>
       </div>
     </section>

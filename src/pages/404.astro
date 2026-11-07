@@ -2,12 +2,10 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
 import PostCard from '../components/PostCard.astro';
+import { topByPv } from '../lib/popular';
 
 const allPosts = await getCollection('posts', ({ data }) => !data.draft);
-const recommended = allPosts
-  .filter((p) => p.data.featured)
-  .sort((a, b) => b.data.publishDate.getTime() - a.data.publishDate.getTime())
-  .slice(0, 4);
+const recommended = topByPv(allPosts, 4); // よく読まれた順（2026-11-07）
 const fallback = allPosts
   .sort((a, b) => b.data.publishDate.getTime() - a.data.publishDate.getTime())
   .slice(0, 4);
