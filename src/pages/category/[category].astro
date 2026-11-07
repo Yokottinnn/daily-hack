@@ -170,8 +170,9 @@ for (const p of sorted) {
         { label: 'ホーム', href: '/' },
         { label: m.label },
       ]} />
-      <div style="display: grid; grid-template-columns: 96px 1fr; gap: 20px; align-items: center;">
-        <div style="width: 96px; height: 96px; border-radius: 50%; overflow: hidden; background: var(--pink-100); border: 4px solid #fff; box-shadow: 0 0 0 1px var(--pink-200);">
+      {/* 2026-11-07 利用者「spビューのときこのキャラアイコンいらない／バランス悪い」: スマホ幅ではキャラを出さず、文を全幅にする（global.css の .cat-hero-face） */}
+      <div class="cat-hero-grid">
+        <div class="cat-hero-face" style="width: 96px; height: 96px; border-radius: 50%; overflow: hidden; background: var(--pink-100); border: 4px solid #fff; box-shadow: 0 0 0 1px var(--pink-200);">
           <img src={m.face} alt="" style="width: 100%; height: 100%; object-fit: cover; object-position: center 18%;" />
         </div>
         <div>
