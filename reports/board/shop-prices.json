@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-06T21:42:34.015Z",
+ "generatedAt": "2026-11-07T21:42:36.057Z",
  "keys": {
   "rakuten": true,
   "rakutenAccessKey": false,
@@ -106,13 +106,13 @@
      "candidates": 8,
      "name": "BURTLE バートル サーモクラフト(電熱パッド) 秋冬用 オレンジ TC500 84 F",
      "url": "https://store.shopping.yahoo.co.jp/monaka-store/s-b0b7jsc18k-20260720.html",
-     "price": 11297,
+     "price": 9722,
      "shippingFree": true,
      "point": 0,
      "reviewAverage": null,
      "reviewCount": 0,
      "shop": "MONAKA-STORE",
-     "net": 11297
+     "net": 9722
     }
    },
    "makita-cv202d": {
@@ -156,7 +156,7 @@
     },
     "yahoo": {
      "found": true,
-     "candidates": 8,
+     "candidates": 6,
      "name": "バッファロー 半固体 モバイルバッテリー 10000mAh 30W Type-C 残量表示 パススルー 同時充電 PSE適合 日本メーカー シルキーホワイト BMPBSA10000WHX",
      "url": "https://store.shopping.yahoo.co.jp/buffalodirect/4950190385325.html",
      "price": 5990,
@@ -455,7 +455,7 @@
     },
     "yahoo": {
      "found": true,
-     "candidates": 28,
+     "candidates": 29,
      "name": "象印　加湿器 EE-DG35 WA（ホワイト）",
      "url": "https://store.shopping.yahoo.co.jp/sanrex/ee-dg35-wa.html",
      "price": 18700,
@@ -473,16 +473,16 @@
     },
     "yahoo": {
      "found": true,
-     "candidates": 28,
-     "name": "象印マホービン　ZOJIRUSHI 加湿器 スチーム式 木造8畳 鉄筋13畳 ホワイト EE-RV50-WA",
-     "url": "https://store.shopping.yahoo.co.jp/jhb-store/4974305232564.html",
-     "price": 16199,
+     "candidates": 26,
+     "name": "象印 スチーム式加湿器 EE-RV50 3.0L 480mL/h 木造8畳 プレハブ13畳 ホワイト",
+     "url": "https://store.shopping.yahoo.co.jp/irodorikukanin/23410615.html",
+     "price": 16200,
      "shippingFree": true,
      "point": 0,
      "reviewAverage": null,
      "reviewCount": 0,
-     "shop": "JHBストア",
-     "net": 16199
+     "shop": "彩り空間ホームライフ館",
+     "net": 16200
     }
    },
    "zojirushi-ee-rv35": {
@@ -492,15 +492,15 @@
     "yahoo": {
      "found": true,
      "candidates": 27,
-     "name": "象印 スチーム式加湿器 2.2L 木造6畳 プレハブ10畳 EE-RV35-WA ホワイト",
-     "url": "https://store.shopping.yahoo.co.jp/pc-akindo/ee-rv35-wa.html",
-     "price": 14678,
+     "name": "象印 スチーム式加湿器 2.2L ホワイト EE-RV35WA",
+     "url": "https://store.shopping.yahoo.co.jp/jetprice/b803lc.html",
+     "price": 14679,
      "shippingFree": true,
      "point": 0,
      "reviewAverage": null,
      "reviewCount": 0,
-     "shop": "PCあきんど",
-     "net": 14678
+     "shop": "JetPrice",
+     "net": 14679
     }
    },
    "zojirushi-ee-mc20": {
@@ -512,13 +512,13 @@
      "candidates": 27,
      "name": "ZOJIRUSHI（象印）EE-MC20-CM　加湿器 スチーム式　【木造和室 〜3畳・プレハブ洋室 〜6畳】 容量1.8L サンドベージュ",
      "url": "https://store.shopping.yahoo.co.jp/giga-web2/68016.html",
-     "price": 14996,
+     "price": 14999,
      "shippingFree": true,
      "point": 0,
      "reviewAverage": null,
      "reviewCount": 0,
      "shop": "GIGA ヤフー店",
-     "net": 14996
+     "net": 14999
     }
    },
    "zojirushi-ee-fa50": {
@@ -527,16 +527,16 @@
     },
     "yahoo": {
      "found": true,
-     "candidates": 15,
-     "name": "【即日発送】【新品】ZOJIRUSHI 象印 加湿器 STAN. EE-FA50-BA ブラック",
-     "url": "https://store.shopping.yahoo.co.jp/densidonya/4974305231000.html",
-     "price": 29585,
+     "candidates": 12,
+     "name": "ZOJIRUSHI スチーム式加湿器 STAN. EE-FA50-BA ブラック 象印",
+     "url": "https://store.shopping.yahoo.co.jp/outletplaza/40001082165.html",
+     "price": 35326,
      "shippingFree": true,
      "point": 0,
      "reviewAverage": null,
-     "reviewCount": 1,
-     "shop": "電子問屋",
-     "net": 29585
+     "reviewCount": 0,
+     "shop": "秋葉原　アウトレットプラザ",
+     "net": 35326
     }
    }
   }
