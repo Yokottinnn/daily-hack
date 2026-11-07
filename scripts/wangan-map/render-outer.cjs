@@ -1,6 +1,7 @@
 // 湾岸の外の路線と札（駅名・地名・名所・路線名）を画像に焼く（2026-11-07 利用者「地図の動かない部分を画像にする」を選んだ）。
 // スマホ相当で測ると、この約 400 個の部品だけでドラッグ中の描画が 52 → 39 回／秒に落ちていた。
-// 出力: public/images/wangan-map/outer-rails.png（路線・常に表示）と outer-labels-far.png・outer-labels-mid.png（色数 64 の PNG。WebP より小さかった）（札・引いたときだけ表示）、outer.json（置く範囲）。
+// 路線は render-base.cjs の地図の画像に入れた（2026-11-07）。
+// 出力: public/images/wangan-map/outer-labels-far.png・outer-labels-mid.png（色数 64 の PNG。WebP より小さかった）（札・引いたときだけ表示）、outer.json（置く範囲）。
 // 外側のデータ（src/data/wangan-outer-labels.json）や地図の範囲を変えたら作り直してコミットする:
 //   npm run build && npx http-server dist -p 4329 -s &  →  node scripts/wangan-map/render-outer.cjs http://localhost:4329/wangan-map-bake/
 const { chromium } = require('playwright');
@@ -19,7 +20,7 @@ const OUT = path.join(__dirname, '../../public/images/wangan-map');
   await p.evaluate(() => document.fonts.ready);
   const pan = await p.evaluate(() => JSON.parse(document.querySelector('[data-wmap-data]').textContent).pan);
   const W = Math.round(pan.w * PX), H = Math.round(pan.h * PX);
-  for (const [layer, keepSel, z] of [['rails', '.wm-rails-outer', 1], ['labels-far', '.wm-outer', 0.6], ['labels-mid', '.wm-outer', 1.0]]) {
+  for (const [layer, keepSel, z] of [['labels-far', '.wm-outer', 0.6], ['labels-mid', '.wm-outer', 1.0]]) {
     await p.evaluate(({ pan, W, H, keep, z }) => {
       const svg = document.querySelector('.wmap-svg');
       svg.pauseAnimations();
