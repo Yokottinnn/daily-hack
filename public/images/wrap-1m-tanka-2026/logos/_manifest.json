@@ -1,0 +1,7 @@
+{
+ "asahikasei.png": {"brand": "旭化成", "src": "https://www.asahi-kasei.com/media_14b9c4b91fd1055604ddea0a49cf6a352626c9250.png", "page": "https://www.asahi-kasei.com/", "note": "旭化成の公式サイトのヘッダーのロゴ（alt: Asahi Kasei Logo）。透明の余白だけ落とした。サランラップの製造販売元は旭化成ホームプロダクツ", "fetched": "2026-11-08"},
+ "kureha.png": {"brand": "クレハ", "src": "https://kurelife.jp/assets/img/common/logo/logomark-kureha.svg", "page": "https://kurelife.jp/products/newkrewrap/", "note": "クレハの家庭用品サイトの SVG を Chromium で PNG にした（色・形は変えていない）", "fetched": "2026-11-08"},
+ "nitori.png": {"brand": "ニトリ", "copied_from": "public/images/naka-mieru-air-fryer-2026/logos/nitori.png", "src": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d8/0f/28/d80f28f9-13ff-b30b-c34b-62fddb5be5ae/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/512x512bb.jpg", "page": "https://apps.apple.com/jp/app/id814928018", "note": "App Store のアプリのアイコン（提供元 Nitori Holdings Co., Ltd.）", "fetched": "2026-11-08"},
+ "shimachu.png": {"brand": "島忠", "src": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fc/00/53/fc0053ea-1de8-dc0b-1001-dee467c5d46e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg", "page": "https://apps.apple.com/jp/app/id1471079546", "note": "App Store の「島忠・ホームズアプリ」のアイコン（提供元 SHIMACHU CO.,LTD）", "fetched": "2026-11-08"},
+ "topvalu.png": {"brand": "トップバリュ", "src": "https://www.topvalu.net/img/logo_topvalu.png", "page": "https://www.topvalu.net/", "note": "トップバリュ公式サイトのヘッダーのロゴ", "fetched": "2026-11-08"}
+}
