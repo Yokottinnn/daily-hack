@@ -1,0 +1,8 @@
+{
+  "pixel-10a.jpg": {"src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/GP10a_Thumbnail2_Blog_HeroResized_USKWLtY.width-1300.png", "page": "https://blog.google/intl/ja-jp/products/devices-services/google-pixel-10a/", "credit": "Google 公式ブログ", "fetched": "2026-11-08"},
+  "pixel-10a-colors.jpg": {"src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/GP10a_Thumbnail2_Blog_HeroResized_USKWLtY.width-1300.png", "page": "https://blog.google/intl/ja-jp/products/devices-services/google-pixel-10a/", "credit": "Google 公式ブログ", "note": "右側（本体の並び）を切り出した", "fetched": "2026-11-08"},
+  "nothing-3a-lite.jpg": {"src": "https://cdn.sanity.io/images/gtd4w1cq/production/8e20678bead91663aee2ecf82f75a59df41fdd9a-4096x2305.jpg", "page": "https://jp.nothing.tech/products/phone-3a-lite", "credit": "Nothing 公式ストア", "fetched": "2026-11-08"},
+  "nothing-3a-lite-black.jpg": {"src": "https://cdn.sanity.io/images/gtd4w1cq/production/af194e074aa5d35657879ae1259807a0bce91a97-4096x2305.jpg", "page": "https://jp.nothing.tech/products/phone-3a-lite", "credit": "Nothing 公式ストア", "fetched": "2026-11-08"},
+  "nothing-3a-lite-use.jpg": {"src": "https://cdn.sanity.io/images/gtd4w1cq/production/45ef3df666d22fdf6400cb9a8b6c927da4d7cae1-4096x2305.jpg", "page": "https://jp.nothing.tech/products/phone-3a-lite", "credit": "Nothing 公式ストア", "fetched": "2026-11-08"},
+  "nothing-3a-lite-rakuten.jpg": {"src": "https://network.mobile.rakuten.co.jp/assets/img/product/phone-3a-lite/ogp.png", "page": "https://network.mobile.rakuten.co.jp/product/smartphone/phone-3a-lite/", "credit": "楽天モバイル 公式", "note": "下の帯を切り落とした", "fetched": "2026-11-08"}
+}
