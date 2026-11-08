@@ -68,6 +68,12 @@
 
 <!-- 新しい記録がこの下に追加される（新しいものが上） -->
 
+### 2026-11-08 — トレンド比較記事 優先A の4本を公開（#1521 ボイスレコーダー・#1522 スマートグラス・#1523 Pixel 10a vs Nothing (3a) Lite・#1524 ペットロボット）。3店ボタンのデータ pet-robot.json を追加。affiliate に3店ボタンのリンク確認を予約で依頼（trig_01Nqa3jyxrjKfPsoYC3719BL）
+
+次のアクション:
+
+- [ ] #1524 をマージ。続けて X の話題の5本（suitcase-xiaomi-nenmatsu・denkidai-setsuyaku-koshiki・wrap-1m-tanka・innner-men100-vs-hatsunetsu・open-ear-earphone-hikaku）→ B/C の6本。調査資料は daily-hack-affiliate/docs/research/<id>-products.md
+
 ### 2026-11-08 — 作戦室 2026-11-08: 数字の入れ替え・A8 0 件の表示を直した・編集部おすすめの道具が arts.json を読むよう直した
 
 次のアクション:
