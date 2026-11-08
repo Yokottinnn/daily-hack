@@ -67,7 +67,7 @@
 | `furusato-portal-comparison-2026` | 3 |  |
 | `furusato-tax-2026-reform-guide` | 1 |  |
 | `furusato-tax-beginner-guide-2026` | 1 |  |
-| `furusato-tax-food-picks-2026` | 1 |  |
+| `furusato-tax-food-picks-2026` | 16 | 2026-11-08 返礼品の item.rakuten.co.jp 15 本を包んだ |
 | `point-service-complete-guide-2026` | 0 | ID 差し替え |
 | `summer-cospa-travel-2026` | 16 |  |
 | `summer-travel-timesale-2026` | 5 |  |
