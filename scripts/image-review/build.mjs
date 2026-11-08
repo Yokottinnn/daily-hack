@@ -92,6 +92,9 @@ const FILES = {
   "rakuten-mujin-delivery-2nd-anniversary-2026": ["1-official.jpg", "2-point.jpg"],
   "toyosu-market-november-events-2026": ["1-official.jpg", "2-point.jpg"],
   "ariake-garden-ryuki-street-churros-2026": ["1-official.jpg", "2-point.jpg"],
+  "x-wangan-events-2026-11": ["a1-count.jpg"],
+  "furusato-tax-beginner-guide-2026": ["a1-question.jpg"],
+  "poikatsu-hourly-wage-2026": ["a1-compare.jpg"],
 };
 
 const map = {};
