@@ -1,6 +1,6 @@
 #!/bin/bash
 # **トレンド比較 3 記事の 3 店ボタン: must・exclude で別商品を拾っていないかを読む（t582・affiliate・読むだけ・$0）。**
-# blog3 からの依頼（2026-11-08）: ai-voice-recorder・ai-smart-glass・pet-robot の 3 つ。楽天・Yahoo! の検索結果の上位 30 件を、
+# blog3 からの依頼（2026-11-08）: ai-voice-recorder・ai-smart-glass・pet-robot の 3 つ（＋ carry-on-suitcase・winter-heating）。楽天・Yahoo! の検索結果の上位 30 件を、
 # 「当たり（must を全部含み exclude を含まない）」と「外したもの」に分けて商品名・店・価格を書き出す。鍵は Keychain から渡すだけで出さない。
 # あわせて t352 と同じく全シリーズの価格を取り、当たりがあれば reports/board/shop-prices.json に置く（apply-prices.mjs で反映する）。
 # ## 費用（最上位ルール 2-B）: LLM 不使用。**1 回 $0・1 日 $0・1 か月 $0**（1 回きり）
@@ -28,7 +28,7 @@ async function rk(q){ const p=new URLSearchParams({applicationId:RAKUTEN_APP_ID,
 async function yh(q){ const p=new URLSearchParams({appid:YAHOO_APP_ID,query:q.keyword,results:'30',in_stock:'true'});
   const j=await get('https://shopping.yahooapis.jp/ShoppingWebService/V3/itemSearch?'+p); return (j.hits||[]).map(x=>({name:x.name,shop:(x.seller||{}).name,price:x.price,url:x.url})); }
 const dir=process.argv[2];
-for (const s of ['ai-voice-recorder','ai-smart-glass','pet-robot']) {
+for (const s of ['ai-voice-recorder','ai-smart-glass','pet-robot','carry-on-suitcase','winter-heating']) {
   const d=JSON.parse(fs.readFileSync(`${dir}/${s}.json`,'utf8'));
   console.log(`\n## ${s}\n`);
   for (const it of d.items) {
