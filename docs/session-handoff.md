@@ -68,6 +68,12 @@
 
 <!-- 新しい記録がこの下に追加される（新しいものが上） -->
 
+### 2026-11-08 — トレンド比較記事を計6本公開（優先A 4本＋冬の電気代 #1527・スーツケース #1528）。3店ボタンのデータ winter-heating.json・carry-on-suitcase.json を追加。t581 で Xiaomi の公式価格を Mac から取得
+
+次のアクション:
+
+- [ ] #1528 をマージ。残り: wrap-1m-tanka・innner-men100-vs-hatsunetsu・open-ear-earphone-hikaku、B/C の6本（naka-mieru-air-fryer ほか）。調査は daily-hack-affiliate/docs/research/<id>-products.md
+
 ### 2026-11-08 — トレンド比較記事 優先A の4本を公開（#1521 ボイスレコーダー・#1522 スマートグラス・#1523 Pixel 10a vs Nothing (3a) Lite・#1524 ペットロボット）。3店ボタンのデータ pet-robot.json を追加。affiliate に3店ボタンのリンク確認を予約で依頼（trig_01Nqa3jyxrjKfPsoYC3719BL）
 
 次のアクション:
