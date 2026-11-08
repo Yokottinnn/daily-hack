@@ -1,0 +1,6 @@
+{
+ "flyer.jpg": {"src": "https://prcdn.freetls.fastly.net/release_image/84467/196/84467-196-820ab797fb8cf1882542d367418063c8-1414x2000.png", "page": "https://prtimes.jp/main/html/rd/p/000000196.000084467.html", "credit": "株式会社鏑木教育コンサルティングのプレスリリース（PR TIMES）", "fetched": "2026-11-09"},
+ "bunny.jpg": {"from": "flyer.jpg", "note": "チラシの作品例（Hopping Bunny）を切り出した"},
+ "illusion.jpg": {"from": "flyer.jpg", "note": "チラシの作品例（3D 錯視）を切り出した"},
+ "rainbow.jpg": {"from": "flyer.jpg", "note": "チラシの作品例（虹色の光の壁キャンバス）を切り出した"}
+}
