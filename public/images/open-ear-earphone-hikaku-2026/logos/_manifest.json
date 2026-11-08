@@ -1,0 +1,40 @@
+{
+ "huawei.png": {
+  "brand": "HUAWEI",
+  "src": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/47/c6/61/47c6618c-7a4e-c2e3-68d6-ae1c6c2282b7/AppIcon-0-1x_U007epad-0-1-0-85-220-0.png/512x512bb.jpg",
+  "page": "https://apps.apple.com/jp/app/id6738859278",
+  "note": "App Store のアプリのアイコン（提供元 Huawei Software Technologies Co., Ltd.）",
+  "fetched": "2026-11-08"
+ },
+ "shokz.png": {
+  "brand": "Shokz",
+  "src": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8a/14/99/8a149978-b7aa-f827-2fe3-a0e6e81de8a7/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/512x512bb.jpg",
+  "page": "https://apps.apple.com/jp/app/id1596854072",
+  "note": "App Store のアプリのアイコン（提供元 Shenzhen Shokz Co., Ltd.）",
+  "fetched": "2026-11-08"
+ },
+ "bose.png": {
+  "brand": "Bose",
+  "src": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/67/2b/c7/672bc773-64f6-bcad-72b6-2780feb24b1f/ProdRelease-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg",
+  "page": "https://apps.apple.com/jp/app/id1364986984",
+  "note": "App Store のアプリのアイコン（提供元 Bose Corporation）",
+  "fetched": "2026-11-08"
+ },
+ "sony.png": {
+  "brand": "ソニー",
+  "title": "File:Sony logo.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Sony_logo.svg",
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Sony_logo.svg/960px-Sony_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "Public domain",
+  "fetched": "2026-10-18",
+  "task": "ops/tasks/x318-sony-anker-logo.sh",
+  "copied_from": "public/images/prime-sale-vs-rakuten-autumn-2026/logos/sony.png"
+ },
+ "anker.png": {
+  "brand": "Anker",
+  "src": "https://www.ankerjapan.com/cdn/shop/files/logo-app-anker-v2.svg",
+  "fetched": "2026-10-25",
+  "note": "公式サイトのアプリ案内のロゴ（SVG を PNG に変換）",
+  "copied_from": "public/images/mobile-battery-comparison-2026/logos/anker.png"
+ }
+}
