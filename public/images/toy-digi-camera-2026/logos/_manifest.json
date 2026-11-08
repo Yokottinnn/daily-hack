@@ -1,0 +1,23 @@
+{
+ "kenko.png": {
+  "brand": "ケンコー・トキナー（Kenko）",
+  "src": "https://www.kenko-tokina.co.jp/images/common/logo.svg",
+  "page": "https://www.kenko-tokina.co.jp/",
+  "note": "公式サイトのヘッダーのロゴ（SVG を Chromium で PNG に。改変なし）",
+  "fetched": "2026-11-08"
+ },
+ "campsnap.png": {
+  "brand": "Camp Snap",
+  "src": "https://www.campsnap.jp/apple-touch-icon.png",
+  "page": "https://www.campsnap.jp/",
+  "note": "公式サイトのアイコン",
+  "fetched": "2026-11-08"
+ },
+ "kodak.png": {
+  "brand": "Kodak",
+  "src": "https://www.kodak.retopro.co/cdn/shop/files/KODAK_LOGO_170502_bfb4d4a7-1ff0-4a3c-8a12-b7f992a932f9.jpg",
+  "page": "https://www.kodak.retopro.co/",
+  "note": "Kodak 公式ストア（RETO 運営）のロゴ",
+  "fetched": "2026-11-08"
+ }
+}
