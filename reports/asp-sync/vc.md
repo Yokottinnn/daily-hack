@@ -1,6 +1,6 @@
 # バリューコマース（asp-sync）
 
-生成: **2026-11-08T12:00:54.168Z**
+生成: **2026-11-08T12:15:57.971Z**
 
 - ログイン: **できている**
 - 最終 URL: https://aff.valuecommerce.ne.jp/home
@@ -17,10 +17,10 @@
 | MyLink一括変換 | https://aff.valuecommerce.ne.jp/tools/mylinkEcList |
 | サイト設定 | https://aff.valuecommerce.ne.jp/account/siteManage |
 | 【重要】広告主サイトの稼働状況に関するお知らせ | https://www.valuecommerce.ne.jp/support/maintenance/22906.html |
+| 遊び予約／レジャーチケット購入サイト「アソビュー！」 | https://aff.valuecommerce.ne.jp/ad/adDetail/2130178?tag=cm&spot=d |
+| VAIOストア 販売促進プログラム | https://aff.valuecommerce.ne.jp/ad/adDetail/2169074?tag=cm&spot=d |
 | 世界最大級！ツアーアクティビティの検索サイト「Liigo」販促プログラム | https://aff.valuecommerce.ne.jp/ad/adDetail/2161122?tag=cm&spot=d |
 | 電子コミックサイト ブッコミ 月額コース契約プログラム | https://aff.valuecommerce.ne.jp/ad/adDetail/2171815?tag=cm&spot=d |
-| VAIOストア 販売促進プログラム | https://aff.valuecommerce.ne.jp/ad/adDetail/2169074?tag=cm&spot=d |
-| 遊び予約／レジャーチケット購入サイト「アソビュー！」 | https://aff.valuecommerce.ne.jp/ad/adDetail/2130178?tag=cm&spot=d |
 | Audibleアフィリエイト紹介プログラム | https://aff.valuecommerce.ne.jp/ad/adDetail/2174874 |
 | ふるさと納税「ふるなび」プログラム | https://aff.valuecommerce.ne.jp/ad/adDetail/2142798 |
 | 【LYPプレミアム（旧Yahoo!プレミアム）】 会員獲得プログラム | https://aff.valuecommerce.ne.jp/ad/adDetail/2082539 |
@@ -34,9 +34,9 @@
 ```text
 ログアウト
 人気ワード：
-paypay|
-next|
-楽天トラベル
+Anker|
+くまポン|
+Lenovo
 ダッシュボード
 レポート
 詳細検索
