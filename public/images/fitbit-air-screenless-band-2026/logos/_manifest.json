@@ -1,0 +1,37 @@
+{
+ "fitbit.png": {
+  "brand": "Google Fitbit（Google Health）",
+  "src": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/11/44/db/1144db62-b881-0ec9-4e9d-c5e470f72304/google_health_ios-0-0-1x_U007ephone-0-0-0-1-0-0-sRGB-0-85-220.png/512x512bb.jpg",
+  "page": "https://apps.apple.com/jp/app/id462638897",
+  "note": "App Store のアプリのアイコン（提供元 Google LLC）",
+  "fetched": "2026-11-08"
+ },
+ "polar.png": {
+  "brand": "POLAR",
+  "src": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3e/f0/67/3ef06755-5610-0f95-b54e-fcedde1d0d20/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+  "page": "https://apps.apple.com/jp/app/id717172678",
+  "note": "App Store のアプリのアイコン（提供元 Polar Electro Oy）",
+  "fetched": "2026-11-08"
+ },
+ "garmin.png": {
+  "brand": "Garmin",
+  "src": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/65/24/cc/6524cc12-606f-371c-e33e-02513bff21f3/AppIcon-0-0-1x_U007ephone-0-1-0-0-85-220.png/512x512bb.jpg",
+  "page": "https://apps.apple.com/jp/app/id583446403",
+  "note": "App Store のアプリのアイコン（提供元 Garmin International）",
+  "fetched": "2026-11-08"
+ },
+ "whoop.png": {
+  "brand": "WHOOP",
+  "src": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7f/88/08/7f880869-d5e1-cbe4-de3c-b3fe6ae69a14/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-0-85-220.png/512x512bb.jpg",
+  "page": "https://apps.apple.com/jp/app/id933944389",
+  "note": "App Store のアプリのアイコン（提供元 Whoop Incorporated）",
+  "fetched": "2026-11-08"
+ },
+ "amazfit.png": {
+  "brand": "Amazfit",
+  "src": "https://www.amazfit.jp/cdn/shop/files/Amazfit_logo_b_ea84c275-025b-47a8-a58c-aaf7d0f05168.png?v=1792054072&width=600",
+  "page": "https://www.amazfit.jp/",
+  "note": "Amazfit 日本公式サイトのヘッダーのロゴ",
+  "fetched": "2026-11-08"
+ }
+}

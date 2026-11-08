@@ -1,0 +1,42 @@
+{
+ "fitbit-air.jpg": {
+  "page": "https://store.google.com/jp/product/google_fitbit_air?hl=ja",
+  "credit": "Google ストア",
+  "fetched": "2026-11-08"
+ },
+ "fitbit-air-colors.jpg": {
+  "page": "https://blog.google/intl/ja-jp/google-health-fitbit/",
+  "credit": "Google 公式ブログ",
+  "fetched": "2026-11-08"
+ },
+ "fitbit-air-wear.jpg": {
+  "page": "https://blog.google/intl/ja-jp/google-health-fitbit/",
+  "credit": "Google 公式ブログ",
+  "fetched": "2026-11-08"
+ },
+ "polar-loop.jpg": {
+  "page": "https://www.polar.com/ja/loop",
+  "credit": "ポラール 公式",
+  "fetched": "2026-11-08"
+ },
+ "polar-loop-wear.jpg": {
+  "page": "https://www.polar.com/ja/loop",
+  "credit": "ポラール 公式",
+  "fetched": "2026-11-08"
+ },
+ "amazfit-helio-strap.jpg": {
+  "page": "https://www.amazfit.jp/products/amazfit-heliostrap",
+  "credit": "Amazfit 日本公式",
+  "fetched": "2026-11-08"
+ },
+ "garmin-index-sleep.jpg": {
+  "page": "https://www.garmin.co.jp/products/intosports/index-sleep-monitor-xl/",
+  "credit": "ガーミン 公式",
+  "fetched": "2026-11-08"
+ },
+ "garmin-index-sleep-bed.jpg": {
+  "page": "https://www.garmin.co.jp/products/intosports/index-sleep-monitor-xl/",
+  "credit": "ガーミン 公式",
+  "fetched": "2026-11-08"
+ }
+}

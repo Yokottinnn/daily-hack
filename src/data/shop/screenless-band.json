@@ -1,0 +1,54 @@
+{
+  "id": "screenless-band",
+  "title": "画面のないスマートバンド",
+  "_note": "価格・仕様は各社公式（2026-11-07 確認）。Fitbit Air・POLAR Loop・Helio Strap の価格はページに「税込」の文言がない。Fitbit Air は Google ストア日本で在庫切れ（入荷通知のみ）。出典は Yokottinnn/daily-hack-affiliate の docs/research/fitbit-air-screenless-band-products.md。Garmin Index Sleep Monitor と WHOOP は価格が公式で確かめられないので入れていない",
+  "columns": [
+    { "key": "price", "label": "公式の価格" },
+    { "key": "sub", "label": "月額" },
+    { "key": "year", "label": "1年の総額" },
+    { "key": "battery", "label": "電池（公称）" },
+    { "key": "water", "label": "耐水" }
+  ],
+  "pricesCheckedAt": null,
+  "items": [
+    {
+      "id": "fitbit-air",
+      "brand": "Google",
+      "name": "Google Fitbit Air",
+      "badge": "いちばん安い・月額は任意",
+      "summary": "16,800円から・本体5.2g。心拍や睡眠は無料で見られ、AIのコーチなどは Google Health Premium（月1,580円）。購入で3か月無料。",
+      "recommended": true,
+      "specs": { "price": "16,800円から", "sub": "任意（月1,580円／年13,000円）", "year": "16,800円（Premium なし）／29,800円〜", "battery": "最長7日", "water": "水深50m" },
+      "source": "https://store.google.com/jp/product/google_fitbit_air?hl=ja",
+      "rakuten": { "keyword": "Google Fitbit Air", "must": ["Fitbit Air"], "exclude": ["バンド", "ケース", "フィルム", "充電", "中古"] },
+      "yahoo": { "keyword": "Google Fitbit Air", "must": ["Fitbit Air"], "exclude": ["バンド", "ケース", "フィルム", "充電", "中古"] },
+      "amazon": { "keyword": "Google Fitbit Air", "asin": null }
+    },
+    {
+      "id": "amazfit-helio-strap",
+      "brand": "Amazfit",
+      "name": "Amazfit Helio Strap",
+      "badge": "電池10日・月額なし",
+      "summary": "17,600円。サブスクなしで心拍・睡眠・ストレスが見られる。電池は最大10日、5ATM。",
+      "recommended": false,
+      "specs": { "price": "17,600円", "sub": "コア機能は不要", "year": "17,600円", "battery": "最大10日", "water": "5ATM" },
+      "source": "https://www.amazfit.jp/products/amazfit-heliostrap",
+      "rakuten": { "keyword": "Amazfit Helio Strap", "must": ["Helio Strap"], "exclude": ["バンド 交換", "フィルム", "中古"] },
+      "yahoo": { "keyword": "Amazfit Helio Strap", "must": ["Helio Strap"], "exclude": ["バンド 交換", "フィルム", "中古"] },
+      "amazon": { "keyword": "Amazfit Helio Strap", "asin": null }
+    },
+    {
+      "id": "polar-loop",
+      "brand": "POLAR",
+      "name": "POLAR Loop",
+      "badge": "月額なし・2年保証",
+      "summary": "29,700円（マグネットシリコン版30,800円）。公式に「月額料金なし」、電池は最大8日。",
+      "recommended": false,
+      "specs": { "price": "29,700円", "sub": "なし", "year": "29,700円", "battery": "最大8日", "water": "WR30" },
+      "source": "https://www.polar.com/ja/loop",
+      "rakuten": { "keyword": "POLAR Loop ポラール ループ", "must": ["Loop"], "exclude": ["バンド 交換", "フィルム", "中古"] },
+      "yahoo": { "keyword": "POLAR Loop ポラール ループ", "must": ["Loop"], "exclude": ["バンド 交換", "フィルム", "中古"] },
+      "amazon": { "keyword": "POLAR Loop ポラール", "asin": null }
+    }
+  ]
+}
