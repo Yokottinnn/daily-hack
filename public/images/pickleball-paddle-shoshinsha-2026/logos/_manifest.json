@@ -1,0 +1,23 @@
+{
+ "mizuno.png": {
+  "brand": "ミズノ",
+  "src": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/44/a0/b3/44a0b3da-b929-97fc-6ba5-973585467b54/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "page": "https://apps.apple.com/jp/app/id1001830872",
+  "note": "App Store のアプリのアイコン（提供元 MIZUNO CORPORATION）",
+  "fetched": "2026-11-08"
+ },
+ "yonex.png": {
+  "brand": "ヨネックス",
+  "src": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/34/c6/a3/34c6a317-71b6-9345-a223-0dfe2155000b/AppIcon-0-0-1x_U007emarketing-0-4-0-85-220.png/512x512bb.jpg",
+  "page": "https://apps.apple.com/jp/app/id1555993970",
+  "note": "App Store のアプリのアイコン（提供元 YONEX CO.,LTD）",
+  "fetched": "2026-11-08"
+ },
+ "nagase-kenko.png": {
+  "brand": "ナガセケンコー（KENKO）",
+  "src": "https://shop9-makeshop.akamaized.net/shopimages/nagasekenko/logo.png",
+  "page": "https://www.nagase-kenko.shop/",
+  "note": "ナガセケンコー公式ネットショップのロゴ",
+  "fetched": "2026-11-08"
+ }
+}
