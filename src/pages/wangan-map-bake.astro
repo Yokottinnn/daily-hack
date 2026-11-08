@@ -1,0 +1,11 @@
+---
+// 湾岸マップの外側（路線と札）を画像に焼くための作業用ページ（2026-11-07）。検索に出さない（noindex・サイトマップから外す）。
+// 使い方は scripts/wangan-map/render-outer.cjs
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import WanganEventMap from '../components/WanganEventMap.astro';
+const posts = await getCollection('posts', ({ data }) => !data.draft && (data.category ?? []).includes('wangan-life'));
+---
+<BaseLayout title="湾岸マップの外側を焼く（作業用）" description="作業用のページです。" noindex={true}>
+  <main class="wrap"><WanganEventMap posts={posts} bake={true} /></main>
+</BaseLayout>

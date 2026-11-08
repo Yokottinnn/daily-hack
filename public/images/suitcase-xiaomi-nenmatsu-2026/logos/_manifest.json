@@ -1,0 +1,26 @@
+{
+ "xiaomi.png": {
+  "brand": "Xiaomi",
+  "title": "File:Xiaomi logo (2021-).svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Xiaomi_logo_(2021-).svg",
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Xiaomi_logo_%282021-%29.svg/960px-Xiaomi_logo_%282021-%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "Public domain",
+  "fetched": "2026-11-08"
+ },
+ "samsonite.png": {
+  "brand": "サムソナイト",
+  "title": "File:Samsonite Logo.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Samsonite_Logo.svg",
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Samsonite_Logo.svg/960px-Samsonite_Logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "Public domain",
+  "fetched": "2026-11-08"
+ },
+ "tumi.png": {
+  "brand": "TUMI",
+  "title": "File:Tumi-Logo.png",
+  "page": "https://commons.wikimedia.org/wiki/File:Tumi-Logo.png",
+  "src": "https://upload.wikimedia.org/wikipedia/commons/b/be/Tumi-Logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "license": "Public domain",
+  "fetched": "2026-11-08"
+ }
+}

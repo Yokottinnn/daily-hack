@@ -9,6 +9,8 @@
  * **港区・品川区は対象外**（docs/wangan-news-routine.md）。地図の陸は描くが、地区の札とピンは出さない。
  */
 import type { CollectionEntry } from 'astro:content';
+import fs from 'node:fs';
+import path from 'node:path';
 import basemap from '../data/wangan-basemap.json';
 import venues from '../data/wangan-venues.json';
 import wide from '../data/wangan-basemap-wide.json';
@@ -94,11 +96,35 @@ export const MAP_OUTER_STATIONS = spaced(
     .filter((s) => outsideCore(s.x, s.y)).sort((a, b) => b.count - a.count || a.name.localeCompare(b.name)),
   95,
 );
+/** 名所（湾岸の外のものだけ。絵の札で出す）。すぐ近くの駅は名前を省いて点だけにする（札が重なるため） */
+type OuterSpot = { name: string; icon: string; lat: number; lon: number };
+export const MAP_OUTER_SPOTS = spaced(((outer as unknown as { spots?: OuterSpot[] }).spots ?? [])
+  .map((sp) => ({ name: sp.name, icon: sp.icon, ...project(sp.lat, sp.lon) })).filter((sp) => outsideCore(sp.x, sp.y)), 70);
+
+export const MAP_OUTER_STATION_NAMED = new Set(MAP_OUTER_STATIONS.filter((st) => !MAP_OUTER_SPOTS.some((sp) => Math.hypot(sp.x - st.x, sp.y - st.y) < 40)).map((st) => st.name));
 export const MAP_OUTER_PLACES = spaced(
   (outer.places as OuterPt[]).map((p) => ({ name: p.name, ...project(p.lat, p.lon) })).filter((p) => outsideCore(p.x, p.y)),
-  130, MAP_OUTER_STATIONS, 55,
+  130, [...MAP_OUTER_STATIONS, ...MAP_OUTER_SPOTS], 55,
 ).filter((p, i, all) => all.findIndex((o) => o.name === p.name) === i);
 
+/**
+ * 鉄道の路線（2026-11-07 利用者「各駅の路線と、最低限の有名スポットだけはマッピングしたい」）。停車駅を順につないだ線。
+ * 路線の名前の札は、湾岸の外で、ほかの札と重ならない駅の間に 1 つ置く。
+ */
+type OuterLine = { name: string; colour: string; pts: [number, number][] };
+const OUTER_LINES_RAW = ((outer as unknown as { lines?: OuterLine[] }).lines ?? []);
+export const MAP_OUTER_LINES = OUTER_LINES_RAW.map((l) => ({ name: l.name, colour: l.colour, pts: l.pts.map(([lat, lon]) => project(lat, lon)) }));
+const lineLabelSpots: { x: number; y: number }[] = [];
+export const MAP_OUTER_LINE_LABELS = MAP_OUTER_LINES.map((l) => {
+  const mids = l.pts.slice(1).map((b, i) => { const a = l.pts[i]; return { x: (a.x + b.x) / 2, y: (a.y + b.y) / 2, len: Math.hypot(b.x - a.x, b.y - a.y) }; })
+    .filter((m) => m.len > 70 && outsideCore(m.x, m.y))
+    .filter((m) => ![...MAP_OUTER_STATIONS, ...MAP_OUTER_PLACES].some((o) => Math.hypot(o.x - m.x, o.y - m.y) < 45))
+    .filter((m) => !lineLabelSpots.some((o) => Math.hypot(o.x - m.x, o.y - m.y) < 110))
+    .sort((a, b) => b.len - a.len);
+  const m = mids[0]; if (!m) return null;
+  lineLabelSpots.push(m);
+  return { name: l.name, colour: l.colour, x: m.x, y: m.y };
+}).filter((x): x is { name: string; colour: string; x: number; y: number } => !!x);
 /** 地区の札（区の住所検索の位置） */
 const AREA_ADDR: Record<string, string> = {
   晴海: '東京都中央区晴海', 勝どき: '東京都中央区勝どき', 月島: '東京都中央区月島', 佃: '東京都中央区佃', 豊海: '東京都中央区豊海町', 築地: '東京都中央区築地',
@@ -140,6 +166,10 @@ export type MapItem = {
   area: string;
   isFree: boolean;
   img: string;
+  /** 小窓に出す画像（640×360） */
+  pop: string;
+  /** 元の表紙（検索エンジン向けの情報に使う） */
+  cover: string;
   x: number;
   y: number;
   lat?: number;
@@ -157,12 +187,20 @@ function shorten(name: string): string {
   return s.length > 18 ? s.slice(0, 17) + '…' : s;
 }
 
+/** ピンと小窓の小さな画像（scripts/wangan-map/gen-thumbs.mjs が作る）。無ければ元の表紙 */
+const small = (slug: string, kind: 'pin' | 'pop', orig: string) => {
+  const rel = `/images/_wm/${slug}-${kind}.webp`;
+  return fs.existsSync(path.join(process.cwd(), 'public', rel)) ? rel : orig;
+};
+
 /** マップに出すもの（イベント＋直近のニュース）。同じ場所に重なるピンは少しずつずらす */
 export function mapItems(posts: Post[], today = todayJst()): MapItem[] {
   const out: MapItem[] = [];
   for (const p of posts) {
     const ev = p.data.event;
-    const img = p.data.eyecatchUrl ?? '';
+    const orig = p.data.eyecatchUrl ?? '';
+    const img = orig ? small(p.id, 'pin', orig) : '';
+    const pop = orig ? small(p.id, 'pop', orig) : '';
     if (ev) {
       const start = day(ev.startDate);
       const end = day(ev.endDate ?? ev.startDate);
@@ -173,14 +211,14 @@ export function mapItems(posts: Post[], today = todayJst()): MapItem[] {
       if (!pl) continue;
       const { x, y } = project(pl.lat, pl.lon);
       if (!inMap(x, y)) continue;
-      out.push({ kind: 'event', slug: p.id, title: ev.name, short: shorten(ev.name), start, end: ev.endDate ? end : '', place: ev.locationName, area: areaOf(p), isFree: !!ev.isFree, img, x, y, lat: pl.lat, lon: pl.lon, address: ev.address });
+      out.push({ kind: 'event', slug: p.id, title: ev.name, short: shorten(ev.name), start, end: ev.endDate ? end : '', place: ev.locationName, area: areaOf(p), isFree: !!ev.isFree, img, pop, cover: orig, x, y, lat: pl.lat, lon: pl.lon, address: ev.address });
     } else if ((p.data.tags ?? []).includes(WANGAN_NEWS_TAG)) {
       const pub = day(p.data.publishDate.toISOString());
       if (pub < addDays(today, -14)) continue;
       const area = areaOf(p);
       const a = MAP_AREAS.find((m) => m.tag === area);
       if (!a) continue;
-      out.push({ kind: 'news', slug: p.id, title: p.data.title, short: shorten(p.data.title), start: pub, end: pub, place: area, area, isFree: false, img, x: a.x, y: a.y + 26 });
+      out.push({ kind: 'news', slug: p.id, title: p.data.title, short: shorten(p.data.title), start: pub, end: pub, place: area, area, isFree: false, img, pop, cover: orig, x: a.x, y: a.y + 26 });
     }
   }
   // 同じ点に重なるものを円く並べ直す

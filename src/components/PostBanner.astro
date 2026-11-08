@@ -23,13 +23,10 @@ const categoryLabel: Record<string, string> = {
   'wangan-life': '湾岸ライフ',
 };
 
+// 2026-11-08: キャラの表情の画像は代わりの画像に使わない（キャラのアイコンはブログに出さない）。表紙の無い記事は帯を出さない
 const categoryFallback: Record<string, string> = {
   campaigns: '/images/scene-04-heart.png',
   services: '/images/scene-07-grocery.png',
-  comparisons: '/images/expr-09-arms-crossed.png',
-  roundups: '/images/expr-05-smug.png',
-  howto: '/images/expr-04-cheer.png',
-  'wangan-life': '/images/expr-01-wave.png',
 };
 
 const eyecatch = post && primaryCat

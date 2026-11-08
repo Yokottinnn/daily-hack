@@ -1,6 +1,8 @@
 ---
 import type { CollectionEntry } from 'astro:content';
 import { getPrimaryCategory } from '../lib/category';
+import fs from 'node:fs';
+import path from 'node:path';
 
 export interface Props {
   post: CollectionEntry<'posts'>;
@@ -33,11 +35,15 @@ const categoryFallback: Record<string, string> = {
 };
 const eyecatchSrc =
   post.data.eyecatch?.src ?? post.data.eyecatchUrl ?? categoryFallback[primaryCat] ?? '/images/eyecatch/services.jpg';
+// 2026-11-07: カードは表示が 300px 前後なのに表紙の元画像（1600×900・1 枚 30 万バイト前後）を読んでいて、湾岸ライフの一覧で画像が 14.5 MB あった。
+// ビルドの前に作る 640×360 の WebP（scripts/wangan-map/gen-thumbs.mjs）があればそれを使う。画面に近づいてから読む（loading=lazy）
+const smallSrc = `/images/_wm/${post.id}-pop.webp`;
+const cardSrc = !post.data.eyecatch && post.data.eyecatchUrl?.startsWith('/') && fs.existsSync(path.join(process.cwd(), 'public', smallSrc)) ? smallSrc : eyecatchSrc;
 ---
 
 <a href={`/posts/${post.id}/`} class="art">
   <div class="thumb">
-    <img src={eyecatchSrc} alt={post.data.eyecatchAlt ?? ''} />
+    <img src={cardSrc} alt={post.data.eyecatchAlt ?? ''} loading="lazy" decoding="async" width="640" height="360" />
     {post.data.isPR && <span class="badge">PR</span>}
     {pick && !post.data.isPR && <span class="badge dark">編集部おすすめ</span>}
   </div>

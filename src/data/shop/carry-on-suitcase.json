@@ -1,0 +1,80 @@
+{
+  "id": "carry-on-suitcase",
+  "title": "機内持ち込みサイズのスーツケース（Xiaomi とサムソナイト・TUMI）",
+  "_note": "寸法・重さ・容量・保証は各社公式（2026-11-07 確認）。Xiaomi の価格は mi.com/jp の購入ページを Mac の Chrome で描画して読んだ（t581・2026-11-08 12:48）。3 辺の合計は公式の寸法を足した計算値。出典は Yokottinnn/daily-hack-affiliate の docs/research/suitcase-xiaomi-nenmatsu-products.md。無印良品は公式ページがメンテナンス中、RIMOWA は公式が 403 で、どちらも数字を確かめられず入れていない",
+  "columns": [
+    { "key": "price", "label": "公式価格（税込）" },
+    { "key": "sum", "label": "3辺の合計（計算）" },
+    { "key": "weight", "label": "重さ" },
+    { "key": "volume", "label": "容量" },
+    { "key": "warranty", "label": "保証" }
+  ],
+  "pricesCheckedAt": null,
+  "items": [
+    {
+      "id": "xiaomi-classic-pro-20",
+      "brand": "Xiaomi",
+      "name": "Xiaomi スーツケース Classic Pro 20インチ",
+      "badge": "いちばん安い",
+      "summary": "12,800円・約3.2kg・約39L。本体だけなら3辺109.5cm、ホイール込みは116.0cm。",
+      "recommended": true,
+      "specs": { "price": "12,800円", "sum": "本体109.5cm／ホイール込み116.0cm", "weight": "約3.2kg", "volume": "約39L", "warranty": "本体1年（Xiaomi の一般規定）" },
+      "source": "https://www.mi.com/jp/product/xiaomi-luggage-classic-pro/specs/",
+      "rakuten": { "keyword": "Xiaomi スーツケース Classic Pro 20", "must": ["Classic", "20"], "exclude": ["カバー", "中古"] },
+      "yahoo": { "keyword": "Xiaomi スーツケース Classic Pro 20", "must": ["Classic", "20"], "exclude": ["カバー", "中古"] },
+      "amazon": { "keyword": "Xiaomi スーツケース Classic Pro 20インチ", "asin": null }
+    },
+    {
+      "id": "xiaomi-front-pocket-20",
+      "brand": "Xiaomi",
+      "name": "Xiaomi フロントポケットスーツケース 20インチ",
+      "badge": "前ポケット",
+      "summary": "17,800円・約3.5kg・約38L。15.6インチのノートPCが入る前ポケット付き。",
+      "recommended": false,
+      "specs": { "price": "17,800円", "sum": "本体111.0cm／ホイール込み118.4cm", "weight": "約3.5kg", "volume": "約38L", "warranty": "本体1年（Xiaomi の一般規定）" },
+      "source": "https://www.mi.com/jp/product/xiaomi-front-pocket-carry-on-luggage-20/specs/",
+      "rakuten": { "keyword": "Xiaomi フロントポケット スーツケース 20", "must": ["フロントポケット"], "exclude": ["カバー", "中古"] },
+      "yahoo": { "keyword": "Xiaomi フロントポケット スーツケース 20", "must": ["フロントポケット"], "exclude": ["カバー", "中古"] },
+      "amazon": { "keyword": "Xiaomi フロントポケットスーツケース 20インチ", "asin": null }
+    },
+    {
+      "id": "samsonite-minter-55",
+      "brand": "サムソナイト",
+      "name": "サムソナイト ミンター スピナー55",
+      "badge": "公式に機内持ち込み",
+      "summary": "63,800円・3.3kg・33L。公式に「機内持ち込み対応サイズ」、保証は条件付き10年。",
+      "recommended": false,
+      "specs": { "price": "63,800円", "sum": "115.0cm（ホイール込み）", "weight": "3.3kg", "volume": "33L", "warranty": "条件付き10年" },
+      "source": "https://www.samsonite.co.jp/samsonite/minter/spinner55/black/ss-134532-1041.html",
+      "rakuten": { "keyword": "サムソナイト ミンター スピナー55", "must": ["ミンター", "55"], "exclude": ["カバー", "中古"] },
+      "yahoo": { "keyword": "サムソナイト ミンター スピナー55", "must": ["ミンター", "55"], "exclude": ["カバー", "中古"] },
+      "amazon": { "keyword": "サムソナイト ミンター スピナー55", "asin": null }
+    },
+    {
+      "id": "samsonite-c-lite-55",
+      "brand": "サムソナイト",
+      "name": "サムソナイト シーライト スピナー55 エキスパンダブル",
+      "badge": "いちばん軽い",
+      "summary": "83,600円・2.1kg・36L（拡張42L）。拡張しなければ3辺115.0cm。",
+      "recommended": false,
+      "specs": { "price": "83,600円", "sum": "115.0cm（拡張時118.0cm）", "weight": "2.1kg", "volume": "36L（拡張42L）", "warranty": "条件付き10年" },
+      "source": "https://www.samsonite.co.jp/samsonite/c-lite/spinner55exp/chili_red/ss-134679-1198.html",
+      "rakuten": { "keyword": "サムソナイト シーライト スピナー55", "must": ["シーライト", "55"], "exclude": ["カバー", "中古", "並行輸入"] },
+      "yahoo": { "keyword": "サムソナイト シーライト スピナー55", "must": ["シーライト", "55"], "exclude": ["カバー", "中古", "並行輸入"] },
+      "amazon": { "keyword": "サムソナイト シーライト スピナー55", "asin": null }
+    },
+    {
+      "id": "tumi-19degree-front-access",
+      "brand": "TUMI",
+      "name": "TUMI 19 DEGREE フロント・アクセス・エクスパンダブル・キャリーオン",
+      "badge": "前ポケット・5年保証",
+      "summary": "132,000円・3.78kg・38L。前から開けられる型で、Xiaomi のフロントポケットと同じ考え方。",
+      "recommended": false,
+      "specs": { "price": "132,000円", "sum": "114.5cm（拡張時119.5cm）", "weight": "3.78kg", "volume": "38L", "warranty": "5年" },
+      "source": "https://www.tumi.co.jp/tumi/19-degree/front-access-expandable-carry-on/tu-158991-2151.html",
+      "rakuten": { "keyword": "TUMI 19 DEGREE フロント アクセス キャリーオン", "must": ["19"], "exclude": ["カバー", "中古"] },
+      "yahoo": { "keyword": "TUMI 19 DEGREE フロント アクセス キャリーオン", "must": ["19"], "exclude": ["カバー", "中古"] },
+      "amazon": { "keyword": "TUMI 19 DEGREE フロント・アクセス キャリーオン", "asin": null }
+    }
+  ]
+}

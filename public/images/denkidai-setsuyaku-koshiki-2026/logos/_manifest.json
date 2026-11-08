@@ -1,0 +1,20 @@
+{
+ "panasonic.png": {
+  "brand": "パナソニック",
+  "title": "File:Panasonic Group logo.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Panasonic_Group_logo.svg",
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Panasonic_Group_logo.svg/960px-Panasonic_Group_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "orig": "https://upload.wikimedia.org/wikipedia/commons/5/54/Panasonic_Group_logo.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+  "license": "Public domain",
+  "fetched": "2026-10-18",
+  "task": "ops/tasks/x317-product-brand-logos-wiki.sh",
+  "copied_from": "public/images/prime-sale-vs-rakuten-autumn-2026/logos/panasonic.png"
+ },
+ "yamazen.png": {
+  "brand": "山善（YAMAZEN）",
+  "src": "https://www.yamazen.co.jp/themes/yamazen-2025/assets/images/logo/logo_01.svg",
+  "page": "https://www.yamazen.co.jp/",
+  "note": "山善 公式サイトのヘッダーのロゴ（SVG を Chromium で PNG に。改変なし）",
+  "fetched": "2026-11-08"
+ }
+}

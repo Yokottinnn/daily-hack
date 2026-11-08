@@ -7,7 +7,7 @@
   },
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build",
+    "build": "node scripts/wangan-map/gen-thumbs.mjs && astro build",
     "preview": "astro preview",
     "astro": "astro",
     "check": "astro check",

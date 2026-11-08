@@ -73,6 +73,35 @@
 次のアクション:
 
 - [ ] 利用者が候補を選び、日付と『投稿して』をもらったら com.dailyhack.publish-<slug>-oneshot で予約する。止まったジョブの扱いは利用者の判断待ち
+### 2026-11-08 — トレンド比較記事を計6本公開（優先A 4本＋冬の電気代 #1527・スーツケース #1528）。3店ボタンのデータ winter-heating.json・carry-on-suitcase.json を追加。t581 で Xiaomi の公式価格を Mac から取得
+
+次のアクション:
+
+- [ ] #1528 をマージ。残り: wrap-1m-tanka・innner-men100-vs-hatsunetsu・open-ear-earphone-hikaku、B/C の6本（naka-mieru-air-fryer ほか）。調査は daily-hack-affiliate/docs/research/<id>-products.md
+
+### 2026-11-08 — トレンド比較記事 優先A の4本を公開（#1521 ボイスレコーダー・#1522 スマートグラス・#1523 Pixel 10a vs Nothing (3a) Lite・#1524 ペットロボット）。3店ボタンのデータ pet-robot.json を追加。affiliate に3店ボタンのリンク確認を予約で依頼（trig_01Nqa3jyxrjKfPsoYC3719BL）
+
+次のアクション:
+
+- [ ] #1524 をマージ。続けて X の話題の5本（suitcase-xiaomi-nenmatsu・denkidai-setsuyaku-koshiki・wrap-1m-tanka・innner-men100-vs-hatsunetsu・open-ear-earphone-hikaku）→ B/C の6本。調査資料は daily-hack-affiliate/docs/research/<id>-products.md
+
+### 2026-11-08 — 作戦室 2026-11-08: 数字の入れ替え・A8 0 件の表示を直した・編集部おすすめの道具が arts.json を読むよう直した
+
+次のアクション:
+
+- [ ] 明日の作戦室と湾岸ニュース
+
+### 2026-11-08 — 湾岸ニュース 2026-11-08: 3 本（中央区商店街フェスタinはるみらい・あそべ～る水族館 in 有明ガーデン・有明ガーデンクリスマス2026・PR #1515）。イベントマップを地図アプリの作り（タイル画像）に（PR #1514）
+
+次のアクション:
+
+- [ ] 明日の湾岸ニュース。地図の形・路線を変えたら render-base.cjs で画像を作り直す
+
+### 2026-11-08 — イベントマップのスマホ対策: 外側の路線・地名を PNG に焼き込み（render-outer.cjs）、AdSense を load 後に、A8 バナー画像を lazy。実測 地図表示 5.3→3.4 秒・ドラッグ約48fps。PR #1513
+
+次のアクション:
+
+- [ ] PR #1513 のマージと本番確認。外側のデータ（wangan-outer-labels.json）を変えたら render-outer.cjs で画像を作り直す
 
 ### 2026-11-07 — x434: ensure-chrome の終了〜立ち上げの間もプロセス消滅で止めないようにした
 

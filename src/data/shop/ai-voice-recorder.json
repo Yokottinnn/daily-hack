@@ -1,0 +1,337 @@
+{
+  "id": "ai-voice-recorder",
+  "title": "AI ボイスレコーダー（買い切りの無料枠と、有料プランの2年の総額）",
+  "_note": "仕様・料金は各社公式（2026-11-07 確認）の記載だけ。本体は税込の通常価格。プランは公式の表示価格。出典と要確認（Plaud の月額請求の税込表記・Notta『生涯無料』の条件など）は Yokottinnn/daily-hack-affiliate の docs/research/ai-voice-recorder-kaikiri-products.md",
+  "columns": [
+    {
+      "key": "price",
+      "label": "本体（税込・公式）"
+    },
+    {
+      "key": "free",
+      "label": "追加料金なしの文字起こし"
+    },
+    {
+      "key": "paid",
+      "label": "有料プラン（月の上限）"
+    },
+    {
+      "key": "weight",
+      "label": "重さ"
+    },
+    {
+      "key": "rec",
+      "label": "連続録音（公称）"
+    },
+    {
+      "key": "lang",
+      "label": "言語数"
+    }
+  ],
+  "pricesCheckedAt": null,
+  "items": [
+    {
+      "id": "plaud-note-pro",
+      "brand": "Plaud",
+      "name": "Plaud Note Pro",
+      "badge": "長時間・画面つき",
+      "summary": "録音は最大50時間（長時間駆動モード）。無料で月300分、それ以上は年額16,800円のProで月1,200分。",
+      "recommended": false,
+      "specs": {
+        "price": "30,800円",
+        "free": "月300分",
+        "paid": "Pro 年16,800円（月1,200分）／月3,000円",
+        "weight": "30g",
+        "rec": "最大30時間（音声強化）／50時間（長時間）",
+        "lang": "112"
+      },
+      "source": "https://jp.plaud.ai/products/plaud-note-pro",
+      "rakuten": {
+        "keyword": "PLAUD NOTE Pro",
+        "must": [
+          "PLAUD",
+          "Pro"
+        ],
+        "exclude": [
+          "ケース",
+          "フィルム",
+          "カバー",
+          "Pin",
+          "ケーブル",
+          "充電",
+          "プラン",
+          "アプリ",
+          "セット"
+        ]
+      },
+      "yahoo": {
+        "keyword": "PLAUD NOTE Pro",
+        "must": [
+          "PLAUD",
+          "Pro"
+        ],
+        "exclude": [
+          "ケース",
+          "フィルム",
+          "カバー",
+          "Pin",
+          "ケーブル",
+          "充電",
+          "プラン",
+          "アプリ",
+          "セット"
+        ]
+      },
+      "amazon": {
+        "keyword": "PLAUD NOTE Pro",
+        "asin": null
+      }
+    },
+    {
+      "id": "plaud-note",
+      "brand": "Plaud",
+      "name": "Plaud Note",
+      "badge": "定番のカード型",
+      "summary": "Plaud の中でいちばん安い 27,500円。無料枠は月300分で、Pro・Unlimited は 3 機種共通。",
+      "recommended": false,
+      "specs": {
+        "price": "27,500円",
+        "free": "月300分",
+        "paid": "Pro 年16,800円（月1,200分）／月3,000円",
+        "weight": "30g",
+        "rec": "最大30時間",
+        "lang": "112"
+      },
+      "source": "https://jp.plaud.ai/products/plaud-note-ai-voice-recorder",
+      "rakuten": {
+        "keyword": "PLAUD NOTE ボイスレコーダー",
+        "must": [
+          "PLAUD",
+          "NOTE",
+          "64G"
+        ],
+        "exclude": [
+          "Pro",
+          "Pin",
+          "ケース",
+          "フィルム",
+          "カバー",
+          "ケーブル",
+          "充電",
+          "プラン",
+          "アプリ",
+          "セット"
+        ]
+      },
+      "yahoo": {
+        "keyword": "PLAUD NOTE ボイスレコーダー",
+        "must": [
+          "PLAUD",
+          "NOTE",
+          "64G"
+        ],
+        "exclude": [
+          "Pro",
+          "Pin",
+          "ケース",
+          "フィルム",
+          "カバー",
+          "ケーブル",
+          "充電",
+          "プラン",
+          "アプリ",
+          "セット"
+        ]
+      },
+      "amazon": {
+        "keyword": "PLAUD NOTE ボイスレコーダー",
+        "asin": null
+      }
+    },
+    {
+      "id": "plaud-notepin-s",
+      "brand": "Plaud",
+      "name": "Plaud NotePin S",
+      "badge": "身につける 17.4g",
+      "summary": "首から下げたり手首に付けたりできる 17.4g（ピンなし）。録音は最長20時間。",
+      "recommended": false,
+      "specs": {
+        "price": "28,600円",
+        "free": "月300分",
+        "paid": "Pro 年16,800円（月1,200分）／月3,000円",
+        "weight": "17.4g（ピンなし）",
+        "rec": "最長20時間",
+        "lang": "112"
+      },
+      "source": "https://jp.plaud.ai/products/plaud-notepin-s",
+      "rakuten": {
+        "keyword": "PLAUD NotePin S",
+        "must": [
+          "NotePin",
+          "S"
+        ],
+        "exclude": [
+          "ケース",
+          "フィルム",
+          "ストラップ",
+          "リストバンド",
+          "ネック",
+          "充電",
+          "セット",
+          "プラン"
+        ]
+      },
+      "yahoo": {
+        "keyword": "PLAUD NotePin S",
+        "must": [
+          "NotePin",
+          "S"
+        ],
+        "exclude": [
+          "ケース",
+          "フィルム",
+          "ストラップ",
+          "リストバンド",
+          "ネック",
+          "充電",
+          "セット",
+          "プラン"
+        ]
+      },
+      "amazon": {
+        "keyword": "PLAUD NotePin S",
+        "asin": null
+      }
+    },
+    {
+      "id": "notta-memo",
+      "brand": "Notta",
+      "name": "Notta Memo",
+      "badge": "無料枠が月600分",
+      "summary": "付属のハードウェアプランで月600分まで追加料金なし。月10時間までなら本体代だけで済む。",
+      "recommended": true,
+      "specs": {
+        "price": "23,500円",
+        "free": "月600分（ハードウェアプラン）",
+        "paid": "プレミアム 年14,220円（月1,800分）／月1,980円",
+        "weight": "約28g",
+        "rec": "約30時間",
+        "lang": "58"
+      },
+      "source": "https://www.notta.ai/hardware/memo",
+      "rakuten": {
+        "keyword": "Notta Memo",
+        "must": [
+          "Notta",
+          "Memo",
+          "32GB"
+        ],
+        "exclude": [
+          "Pro",
+          "ケース",
+          "フィルム",
+          "アウトレット"
+        ]
+      },
+      "yahoo": {
+        "keyword": "Notta Memo",
+        "must": [
+          "Notta",
+          "Memo",
+          "32GB"
+        ],
+        "exclude": [
+          "Pro",
+          "ケース",
+          "フィルム",
+          "アウトレット"
+        ]
+      },
+      "amazon": {
+        "keyword": "Notta Memo",
+        "asin": "B0G3GH1H1K"
+      }
+    },
+    {
+      "id": "notta-memo-pro",
+      "brand": "Notta",
+      "name": "Notta Memo Pro",
+      "badge": "月600分＋長時間",
+      "summary": "Notta Memo と同じ月600分の無料枠に、連続録音45〜50時間。プレミアム1年付きのセットもある。",
+      "recommended": false,
+      "specs": {
+        "price": "29,700円",
+        "free": "月600分（ハードウェアプラン）",
+        "paid": "プレミアム 年14,220円（月1,800分）／月1,980円",
+        "weight": "30g",
+        "rec": "45時間（Bluetooth接続時）／50時間",
+        "lang": "要確認"
+      },
+      "source": "https://www.notta.ai/hardware/memo-pro",
+      "rakuten": {
+        "keyword": "Notta Memo Pro",
+        "must": [
+          "Notta",
+          "Memo",
+          "Pro"
+        ],
+        "exclude": [
+          "ケース",
+          "フィルム"
+        ],
+        "itemUrl": "https://item.rakuten.co.jp/nottamemo/notta-memo-pro/"
+      },
+      "yahoo": {
+        "keyword": "Notta Memo Pro",
+        "must": [
+          "Notta",
+          "Memo",
+          "Pro"
+        ],
+        "exclude": [
+          "ケース",
+          "フィルム"
+        ]
+      },
+      "amazon": {
+        "keyword": "Notta Memo Pro",
+        "asin": "B0HFM1D1ZG"
+      }
+    },
+    {
+      "id": "automemo-s",
+      "brand": "ソースネクスト",
+      "name": "オートメモ S（AMSWH）",
+      "badge": "本体が最安・画面つき",
+      "summary": "本体 19,800円で 6 台の中でいちばん安い。ただし無料枠は月60分。有料は年14,800円で月30時間。",
+      "recommended": false,
+      "specs": {
+        "price": "19,800円",
+        "free": "月60分",
+        "paid": "プレミアム 年14,800円（月30時間）／月1,480円",
+        "weight": "約88g",
+        "rec": "約16時間",
+        "lang": "72"
+      },
+      "source": "https://automemo.com/device/",
+      "rakuten": {
+        "keyword": "オートメモ S AMSWH",
+        "must": [
+          "AMSWH"
+        ],
+        "exclude": []
+      },
+      "yahoo": {
+        "keyword": "オートメモ S AMSWH",
+        "must": [
+          "AMSWH"
+        ],
+        "exclude": []
+      },
+      "amazon": {
+        "keyword": "オートメモ S AMSWH",
+        "asin": null
+      }
+    }
+  ]
+}

@@ -879,6 +879,7 @@ blockquote.twitter-tweet a:hover { color: var(--pink-700); }
 /* Category page */
 .cat-hero { background: radial-gradient(800px 360px at 80% -10%, #FFE0EC 0%, transparent 60%), var(--pink-50); padding: 56px 0; border-bottom: 1px solid var(--line); }
 .cat-hero h1 { font-family: "RocknRoll One"; font-size: clamp(28px, 4vw, 44px); margin: 8px 0 12px; }
+.cat-hero-grid { display: block; } /* 2026-11-08: キャラのアイコンを外し、題名と紹介を左に詰めた（全幅） */
 .cat-hero .lead { color: var(--ink-2); font-size: 16px; line-height: 1.85; max-width: 700px; }
 .subtheme { padding: 48px 0; border-bottom: 1px solid var(--line); }
 .subtheme:last-child { border-bottom: 0; }
@@ -1506,3 +1507,13 @@ blockquote.twitter-tweet a:hover { color: var(--pink-700); }
 /* サイドバーの上の案内は PC だけ（サイドバーが本文の下に回る幅では出さない） */
 .aside-top-promo { margin: 0 0 20px; display: flex; justify-content: center; }
 @media (max-width: 980px) { .aside-top-promo { display: none; } }
+
+/* ── キャラのアイコンはブログに出さない（2026-11-08 利用者の指示・全ページ・例外なし） ──
+   利用者「キャラのアイコンは結構見る人を選んでしまうので、今後は基本的にブログの記事中などには表示させなくて大丈夫」
+   「タイトルの左側にあるキャラのアイコンのスペースは消して左に詰めて」。古い記事の Markdown に残っている書き方（hakkako-mascot など）もここで消す。
+   残すのはサイトのロゴ（ヘッダーの丸いマーク）・ファビコン・SNS 用の画像だけ。CLAUDE.md 最上位ルール 10 と blog-article スキルに記録 */
+.sec-head h2 .chibi, .hakkako-says .hakkako-mascot, .bubble-row .face, .cat-card .face, .qa-card .face, .duet-card .face,
+.about-card .avatar, .peek-call .peek, .hero-char, .cat-hero-face, .mascot-wrap, .related-block-icon { display: none !important; }
+.hakkako-says, .bubble-row, .about-card, .hero .grid, .cat-hero-grid { grid-template-columns: 1fr; }
+.peek-call { padding: 48px 56px; }
+@media (max-width: 760px) { .peek-call { padding: 32px 24px; } }

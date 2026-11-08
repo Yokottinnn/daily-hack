@@ -7,12 +7,13 @@
  * - 動く絵: 船・屋形船・ゆりかもめ・かもめ・雲の影。ハッカー子が開催中のものから案内する
  * 動きは prefers-reduced-motion で止める。
  */
-import { MAP_W, MAP_H, MAP_LAND, MAP_AREAS, MAP_LANDMARKS, MAP_SOURCE, MAP_STATIONS, MAP_YURIKAMOME, MAP_REF_AREAS, MAP_SUBWAYS, MAP_WIDE, MAP_PAN, MAP_OUTER_STATIONS, MAP_OUTER_PLACES, mapItems } from '../lib/wangan-map';
+import { MAP_W, MAP_H, MAP_LAND, MAP_AREAS, MAP_LANDMARKS, MAP_SOURCE, MAP_STATIONS, MAP_YURIKAMOME, MAP_REF_AREAS, MAP_SUBWAYS, MAP_WIDE, MAP_PAN, MAP_OUTER_STATIONS, MAP_OUTER_PLACES, MAP_OUTER_LINES, MAP_OUTER_LINE_LABELS, MAP_OUTER_SPOTS, MAP_OUTER_STATION_NAMED, mapItems } from '../lib/wangan-map';
 import { todayJst, jpDate, jpRange } from '../lib/wangan';
 import type { CollectionEntry } from 'astro:content';
 
-interface Props { posts: CollectionEntry<'posts'>[]; headingLevel?: 'h1' | 'h2'; title?: string; lead?: boolean }
-const { posts, headingLevel = 'h2', title = '湾岸エリアイベントマップ', lead = true } = Astro.props;
+interface Props { posts: CollectionEntry<'posts'>[]; headingLevel?: 'h1' | 'h2'; title?: string; lead?: boolean; bake?: boolean }
+// bake: 湾岸の外の路線と札を部品で描く（画像に焼く作業用ページ /wangan-map-bake/ だけ）。普段は焼いた画像を置く（2026-11-07・重さ対策）
+const { posts, headingLevel = 'h2', title = '湾岸エリアイベントマップ', lead = true, bake = false } = Astro.props;
 const today = todayJst();
 const items = mapItems(posts, today);
 const H = headingLevel;
@@ -78,6 +79,7 @@ const data = JSON.stringify({ today, items, pan: MAP_PAN });
 const ratio = (MAP_H / MAP_W).toFixed(4);
 ---
 
+<noscript><style>.wmap .wmap-canvas { opacity: 1 !important; }</style></noscript>
 <div class="wmap" role="region" aria-labelledby="wmap-title" data-wmap style={`--wm-ratio:${ratio}`}>
   <div class="wmap-head">
     <H id="wmap-title" class="wmap-title">{title}<span>（{jpDate(today)}時点）</span></H>
@@ -86,6 +88,78 @@ const ratio = (MAP_H / MAP_W).toFixed(4);
 
   <div class="wmap-stage" data-stage>
     <div class="wmap-canvas" data-canvas>
+      {!bake && (
+        <div class="wmap-base" aria-hidden="true" style={`left:${(MAP_PAN.x / MAP_W) * 100}%;top:${(MAP_PAN.y / MAP_H) * 100}%;width:${(MAP_PAN.w / MAP_W) * 100}%;height:${(MAP_PAN.h / MAP_H) * 100}%`}>
+          <img class="wmap-base-lo" src="/images/wangan-map/base-lo.webp" alt="" decoding="async" fetchpriority="high" />
+          <div class="wmap-tiles" data-tiles></div>
+        </div>
+      )}
+      {/* 2026-11-08 利用者が「動く絵を別の層にする」を選んだ: 船・魚・雲・電車を、ピンや文字の SVG とは別の SVG に分けた。
+          同じ SVG の中で動いていると、1 つ動くたびにピンと文字まで描き直していた（iPhone 相当で、何もしない 3 秒のうち 671ms がこれ）。
+          この層だけが描き直され、上のピン・文字の層は止まったまま */}
+      {/* 2026-11-08 利用者が「動く絵を別の層にする」を選んだ。船・魚・雲・電車は、SVG の中で動かす作り（SMIL）だと 1 つ動くたびに描き直しになる
+          （iPhone 相当で、何もしない 3 秒のうち約 600ms）。1 つずつ小さな絵にして、ブラウザの「位置だけ動かす」仕組み（CSS の transform・offset-path）で動かす。
+          絵は一度描いたら描き直さない。見た目と動き（道筋・往復・揺れ・向きの反転）は元のまま。地図の 1 単位 = 1px の箱を、地図の幅に合わせて縮める */}
+      <div class="wmap-movers wm-anim" data-movers aria-hidden="true" style={`height:${MAP_H}px`}>
+        {/* 水上バス・屋形船: 海の上だけを通る道筋を往復（2026-11-03 利用者「船のアイコンが陸の上を走っているのでNG」） */}
+        <div class="wm-mv wm-mv-boat" data-path="M 250 1290 C 222 1190, 262 1110, 236 1010 S 258 860, 242 780 S 254 660, 245 610" data-go="20"><div class="wm-flip" style="--dur: 40s;"><div class="wm-bob"><div class="wm-rock"><svg class="wm-mv-art" viewBox="-60 -30 120 60" width="120" height="60" aria-hidden="true"><defs><filter id="wm-veh" x="-20%" y="-30%" width="140%" height="170%"><feDropShadow dx="0" dy="2.2" stdDeviation="1.4" flood-color="#1d3a5a" flood-opacity="0.28" /></filter></defs><g transform="scale(1.15)" filter="url(#wm-veh)">
+            {/* 水上バス（2026-11-04 利用者「電車と船をもう少しイラスト調ではありながらもリアリティがあるように」）: 紺の船体・白い客室・窓の列・航跡 */}
+            <path d="M-34 1 q-8 2 -16 0 M-34 5 q-10 4 -20 3" class="wake" />
+            <path d="M-28 -1 H22 Q30 -1 33 1 Q30 7 22 8 H-24 Q-28 7 -28 -1Z" class="hull" />
+            <path d="M-27 1.6 H30" class="hull-band" />
+            <path d="M-21 -1 V-9 Q-21 -11 -19 -11 H12 Q18 -11 21 -1Z" class="cabin" />
+            {[-17, -11, -5, 1, 7].map((x) => <rect x={x} y="-8.6" width="4.4" height="4.2" rx="0.8" class="glass" />)}
+            <path d="M14 -8.4 L19 -2.6 H14Z" class="glass" />
+            <rect x="-14" y="-15.5" width="16" height="4.5" rx="1.5" class="cabin" />
+            <path d="M-10 -15.5 V-20 M-10 -19 h5" class="mast" />
+          </g></svg></div></div></div></div>
+        <div class="wm-mv wm-mv-boat" data-path="M 630 628 Q 590 665, 540 700 T 440 752" data-go="27.5"><div class="wm-flip" style="--dur: 55s;"><div class="wm-bob"><div class="wm-rock"><svg class="wm-mv-art" viewBox="-60 -30 120 60" width="120" height="60" aria-hidden="true"><defs><filter id="wm-veh" x="-20%" y="-30%" width="140%" height="170%"><feDropShadow dx="0" dy="2.2" stdDeviation="1.4" flood-color="#1d3a5a" flood-opacity="0.28" /></filter></defs><g transform="scale(1.15)" filter="url(#wm-veh)">
+            {/* 屋形船: 木の船体・障子の窓・瓦の屋根・赤い提灯 */}
+            <path d="M-32 2 q-8 2 -14 0" class="wake" />
+            <path d="M-28 1 H24 Q31 0 34 -3 Q32 6 24 8 H-24 Q-28 7 -28 1Z" class="wood" />
+            <path d="M-27 3.4 H29" class="wood-line" />
+            <rect x="-22" y="-9" width="42" height="10" rx="1" class="shoji" />
+            {[-16, -10, -4, 2, 8, 14].map((x) => <path d={`M${x} -9 V1`} class="shoji-line" />)}
+            <path d="M-22 -4 H20" class="shoji-line" />
+            <path d="M-27 -9 Q-1 -12 25 -9 L21 -15 Q-1 -17 -23 -15Z" class="roof" />
+            <path d="M-24 -9 H22" class="eave" />
+            {[-18, -9, 0, 9, 18].map((x) => <g><ellipse cx={x} cy="-6.6" rx="1.9" ry="2.4" class="chochin" /><circle cx={x} cy="-6.6" r="4" class="chochin-glow" /></g>)}
+          </g></svg></div></div></div></div>
+        {/* 魚: 陸から 16 以上離れた横 80 の帯を往復（2026-11-07 利用者「海の箇所には、魚が泳いでいるようなイラストも追加して」） */}
+        {[
+          { x: 200, y: 640, c: '#ff9a5a', d: 16 }, { x: 480, y: 700, c: '#4fb3bf', d: 19 }, { x: 300, y: 780, c: '#f6c453', d: 14 },
+          { x: 140, y: 960, c: '#ff8fa3', d: 17 }, { x: 200, y: 1160, c: '#4fb3bf', d: 15 }, { x: 860, y: 1280, c: '#ff9a5a', d: 18 },
+        ].map((f, i) => (
+          <div class="wm-fish-mv" style={`left:${f.x}px;top:${f.y}px;--dur:${f.d}s;--delay:-${i * 3}s`}><div class="wm-fish-swim"><div class="wm-flip"><svg class="wm-mv-art" viewBox="-20 -12 40 24" width="40" height="24" aria-hidden="true"><g class="wm-fish-body" style={`--fish:${f.c}`}>
+                    <path d="M-7 0 L-12 -4.5 L-11 0 L-12 4.5Z" class="fish-tail" />
+                    <ellipse cx="0" cy="0" rx="8" ry="4.2" class="fish-fill" />
+                    <path d="M-1 -4 Q1.5 -7 4 -3.6" class="fish-fin" />
+                    <circle cx="4.4" cy="-0.9" r="1" class="fish-eye" />
+                  </g></svg></div></div></div>
+        ))}
+        <div class="wm-cloud wm-cloud1"></div>
+        <div class="wm-cloud wm-cloud2"></div>
+        {/* 地下鉄（大江戸線・有楽町線）とゆりかもめ: 線路の上を往復（2026-11-07 利用者「大江戸線や有楽町線も電車を動かすようにして」） */}
+        {MAP_SUBWAYS.map((l, i) => (
+          <div class="wm-mv wm-mv-train" data-path={straight(l.pts)} data-go={l.key === 'oedo' ? 15 : 13} data-delay={-i * 7} data-rot="1"><svg class="wm-mv-art" viewBox="-60 -30 120 60" width="120" height="60" aria-hidden="true"><defs><filter id="wm-veh" x="-20%" y="-30%" width="140%" height="170%"><feDropShadow dx="0" dy="2.2" stdDeviation="1.4" flood-color="#1d3a5a" flood-opacity="0.28" /></filter></defs><g class="wm-train wm-subtrain"><g transform="scale(1.05)" filter="url(#wm-veh)">
+              {[-27, -9].map((x) => <g><rect x={x} y="-5.5" width="17" height="11" rx="2" class="car sub-car" /><rect x={x + 2} y="-3.6" width="13" height="3.8" rx="0.8" class="car-win" /><path d={`M${x + 0.6} 2.4 H${x + 16.4}`} class="car-band" style={`stroke:${l.color}`} /></g>)}
+              <path d="M9 -5.5 H22 Q28 -5.5 29 0 Q28 5.5 22 5.5 H9Z" class="car sub-car" />
+              <path d="M11 -3.6 H22 Q25.8 -3.6 26.6 -0.6 L11 -0.6Z" class="car-win" />
+              <path d="M9.6 2.4 H27.8" class="car-band" style={`stroke:${l.color}`} />
+              <circle cx="26.8" cy="3.2" r="0.9" class="car-lamp" />
+              <path d="M-10.4 0 H-9.4 M8 0 H9" class="car-joint" />
+            </g></g></svg></div>
+        ))}
+        {rail && <div class="wm-mv wm-mv-train" data-path={rail} data-go="17" data-rot="1"><svg class="wm-mv-art" viewBox="-60 -30 120 60" width="120" height="60" aria-hidden="true"><defs><filter id="wm-veh" x="-20%" y="-30%" width="140%" height="170%"><feDropShadow dx="0" dy="2.2" stdDeviation="1.4" flood-color="#1d3a5a" flood-opacity="0.28" /></filter></defs><g class="wm-train"><g transform="scale(1.15)" filter="url(#wm-veh)">
+              {/* ゆりかもめ: 白い車体・青い帯・黒い窓・丸い先頭 */}
+              {[-27, -9].map((x) => <g><rect x={x} y="-6" width="17" height="12" rx="2.4" class="car" /><rect x={x + 2} y="-4" width="13" height="4.2" rx="1" class="car-win" /><path d={`M${x + 0.6} 2.6 H${x + 16.4}`} class="car-band" /></g>)}
+              <path d="M9 -6 H22 Q29 -6 30 0 Q29 6 22 6 H9Z" class="car" />
+              <path d="M11 -4 H22 Q26.5 -4 27.4 -0.6 L11 -0.6Z" class="car-win" />
+              <path d="M9.6 2.6 H28.6" class="car-band" />
+              <circle cx="27.6" cy="3.6" r="0.9" class="car-lamp" />
+              <path d="M-10.4 0 H-9.4 M8 0 H9" class="car-joint" />
+            </g></g></svg></div>}
+      </div>
       <svg class="wmap-svg" viewBox={`0 0 ${MAP_W} ${MAP_H}`} role="img" aria-labelledby="wmap-svg-title">
         <title id="wmap-svg-title">湾岸エリア（中央区・江東区）のイベントマップ。新橋・銀座・築地から晴海・豊洲・有明・お台場まで</title>
         <defs>
@@ -93,9 +167,11 @@ const ratio = (MAP_H / MAP_W).toFixed(4);
           <pattern id="wm-dots" width="10" height="10" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="0.9" class="wm-dot" /></pattern>
           <filter id="wm-rough" x="-5%" y="-5%" width="110%" height="110%"><feTurbulence type="fractalNoise" baseFrequency="0.035" numOctaves="2" seed="7" /><feDisplacementMap in="SourceGraphic" scale="5" /></filter>
           <filter id="wm-shadow" x="-10%" y="-10%" width="120%" height="120%"><feDropShadow dx="0" dy="6" stdDeviation="4" flood-color="#1d4e7a" flood-opacity="0.2" /></filter>
-          <filter id="wm-veh" x="-20%" y="-30%" width="140%" height="170%"><feDropShadow dx="0" dy="2.2" stdDeviation="1.4" flood-color="#1d3a5a" flood-opacity="0.28" /></filter>
-          <radialGradient id="wm-cloud"><stop offset="0" stop-color="#2a5a80" stop-opacity="0.16" /><stop offset="1" stop-color="#2a5a80" stop-opacity="0" /></radialGradient>
         </defs>
+        {/* 2026-11-07 利用者「まだ移動が遅すぎる／根本的に設計が間違っている／ディズニーのアプリを見習って」:
+            動かない絵（海・陸・路線）は、手描きの揺れ・影・ドットのフィルターを毎回その場で計算していて、動かすたびに描き直しになっていた。
+            ここは作業用ページ（bake）でだけ描き、scripts/wangan-map/render-base.cjs で画像（地図アプリと同じタイル）に焼く。本番の地図は画像を滑らせるだけ */}
+        {bake && (<g class="wm-base">
         {/* 海と外側の陸は、縮小したときに見える広さまで描く（2026-11-03 利用者「－を押した時はもっと広範囲の地図を表示して」） */}
         <rect x={MAP_PAN.x} y={MAP_PAN.y} width={MAP_PAN.w} height={MAP_PAN.h} class="wm-sea" />
         <rect x={MAP_PAN.x} y={MAP_PAN.y} width={MAP_PAN.w} height={MAP_PAN.h} fill="url(#wm-wave)" class="wm-waves" />
@@ -117,102 +193,45 @@ const ratio = (MAP_H / MAP_W).toFixed(4);
         <g mask="url(#wm-feather)" filter="url(#wm-rough)">{MAP_LAND.filter((l) => WARD_FILL[l.ward]).map((l) => <path d={l.d} class="wm-ward" style={`fill:${WARD_FILL[l.ward]}`} />)}</g>
         <g filter="url(#wm-rough)" opacity="0.45">{MAP_LAND.map((l) => <path d={l.d} fill="url(#wm-dots)" />)}</g>
         </g>
+        </g>)}
 
-        {/* 動く絵（海） */}
-        <g class="wm-anim" aria-hidden="true">
-          {/* 2026-11-03 利用者「船のアイコンが陸の上を走っているのでNG」: 地図の座標で海の上だけを通す（陸から 20〜30 離れることを機械で確かめた）。拡大しても地図と一緒に動くので位置はずれない */}
-          <path id="wm-route1" d="M 250 1290 C 222 1190, 262 1110, 236 1010 S 258 860, 242 780 S 254 660, 245 610" fill="none" />
-          <g class="wm-ship"><g><animateTransform attributeName="transform" type="scale" values="-1 1;1 1" keyTimes="0;0.5" dur="40s" calcMode="discrete" repeatCount="indefinite" /><g><animateTransform attributeName="transform" type="translate" values="0 0;0 -1.6;0 0.8;0 0" keyTimes="0;0.35;0.7;1" dur="2.6s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1" /><g><animateTransform attributeName="transform" type="rotate" values="-3.5;3;-3.5" dur="3.4s" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1" /><g transform="scale(1.15)" filter="url(#wm-veh)">
-            {/* 水上バス（2026-11-04 利用者「電車と船をもう少しイラスト調ではありながらもリアリティがあるように」）: 紺の船体・白い客室・窓の列・航跡 */}
-            <path d="M-34 1 q-8 2 -16 0 M-34 5 q-10 4 -20 3" class="wake" />
-            <path d="M-28 -1 H22 Q30 -1 33 1 Q30 7 22 8 H-24 Q-28 7 -28 -1Z" class="hull" />
-            <path d="M-27 1.6 H30" class="hull-band" />
-            <path d="M-21 -1 V-9 Q-21 -11 -19 -11 H12 Q18 -11 21 -1Z" class="cabin" />
-            {[-17, -11, -5, 1, 7].map((x) => <rect x={x} y="-8.6" width="4.4" height="4.2" rx="0.8" class="glass" />)}
-            <path d="M14 -8.4 L19 -2.6 H14Z" class="glass" />
-            <rect x="-14" y="-15.5" width="16" height="4.5" rx="1.5" class="cabin" />
-            <path d="M-10 -15.5 V-20 M-10 -19 h5" class="mast" />
-          </g></g></g></g>
-            <animateMotion dur="40s" repeatCount="indefinite" rotate="0" keyPoints="0;1;0" keyTimes="0;0.5;1" calcMode="linear"><mpath href="#wm-route1" /></animateMotion></g>
-          <path id="wm-route2" d="M 630 628 Q 590 665, 540 700 T 440 752" fill="none" />
-          <g class="wm-yakata"><g><animateTransform attributeName="transform" type="scale" values="-1 1;1 1" keyTimes="0;0.5" dur="55s" calcMode="discrete" repeatCount="indefinite" /><g><animateTransform attributeName="transform" type="translate" values="0 0;0 -1.6;0 0.8;0 0" keyTimes="0;0.35;0.7;1" dur="2.6s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1" /><g><animateTransform attributeName="transform" type="rotate" values="-3.5;3;-3.5" dur="3.4s" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1" /><g transform="scale(1.15)" filter="url(#wm-veh)">
-            {/* 屋形船: 木の船体・障子の窓・瓦の屋根・赤い提灯 */}
-            <path d="M-32 2 q-8 2 -14 0" class="wake" />
-            <path d="M-28 1 H24 Q31 0 34 -3 Q32 6 24 8 H-24 Q-28 7 -28 1Z" class="wood" />
-            <path d="M-27 3.4 H29" class="wood-line" />
-            <rect x="-22" y="-9" width="42" height="10" rx="1" class="shoji" />
-            {[-16, -10, -4, 2, 8, 14].map((x) => <path d={`M${x} -9 V1`} class="shoji-line" />)}
-            <path d="M-22 -4 H20" class="shoji-line" />
-            <path d="M-27 -9 Q-1 -12 25 -9 L21 -15 Q-1 -17 -23 -15Z" class="roof" />
-            <path d="M-24 -9 H22" class="eave" />
-            {[-18, -9, 0, 9, 18].map((x) => <g><ellipse cx={x} cy="-6.6" rx="1.9" ry="2.4" class="chochin" /><circle cx={x} cy="-6.6" r="4" class="chochin-glow" /></g>)}
-          </g></g></g></g>
-            <animateMotion dur="55s" repeatCount="indefinite" rotate="0" keyPoints="0;1;0" keyTimes="0;0.5;1" calcMode="linear"><mpath href="#wm-route2" /></animateMotion></g>
-          {/* 2026-11-07 利用者「海の箇所には、魚が泳いでいるようなイラストも追加して」: 陸から 16 以上離れた横 80 の帯（ブラウザの isPointInFill で確かめた）を往復する */}
-          {[
-            { x: 200, y: 640, c: '#ff9a5a', d: 16 }, { x: 480, y: 700, c: '#4fb3bf', d: 19 }, { x: 300, y: 780, c: '#f6c453', d: 14 },
-            { x: 140, y: 960, c: '#ff8fa3', d: 17 }, { x: 200, y: 1160, c: '#4fb3bf', d: 15 }, { x: 860, y: 1280, c: '#ff9a5a', d: 18 },
-          ].map((f, i) => (
-            <g class="wm-fish" transform={`translate(${f.x} ${f.y})`}>
-              <g><animateTransform attributeName="transform" type="translate" values="0 0;40 -3;80 0;40 3;0 0" keyTimes="0;0.25;0.5;0.75;1" dur={`${f.d}s`} begin={`-${i * 3}s`} repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" />
-                <g><animateTransform attributeName="transform" type="scale" values="1 1;-1 1" keyTimes="0;0.5" dur={`${f.d}s`} begin={`-${i * 3}s`} calcMode="discrete" repeatCount="indefinite" />
-                  <g class="wm-fish-body" style={`--fish:${f.c}`}>
-                    <path d="M-7 0 L-12 -4.5 L-11 0 L-12 4.5Z" class="fish-tail"><animateTransform attributeName="transform" type="rotate" values="-14 -7 0;14 -7 0;-14 -7 0" dur="0.7s" repeatCount="indefinite" /></path>
-                    <ellipse cx="0" cy="0" rx="8" ry="4.2" class="fish-fill" />
-                    <path d="M-1 -4 Q1.5 -7 4 -3.6" class="fish-fin" />
-                    <circle cx="4.4" cy="-0.9" r="1" class="fish-eye" />
-                  </g>
-                </g>
-              </g>
-            </g>
-          ))}
-          <ellipse cx="0" cy="0" rx="160" ry="70" fill="url(#wm-cloud)" class="wm-cloud1" />
-          <ellipse cx="0" cy="0" rx="120" ry="55" fill="url(#wm-cloud)" class="wm-cloud2" />
+
+        {/* 鉄道の路線（停車駅を順につなぐ・路線の色）。湾岸の線より下に敷く */}
+        {bake && (
+        <g class="wm-base wm-rails-outer" aria-hidden="true">
+          {MAP_OUTER_LINES.map((l) => <polyline points={l.pts.map((q) => `${q.x},${q.y}`).join(' ')} class="wm-rl-bed" />)}
+          {MAP_OUTER_LINES.map((l) => <polyline points={l.pts.map((q) => `${q.x},${q.y}`).join(' ')} class="wm-rl" style={`stroke:${l.colour}`} />)}
         </g>
-
+        )}
         {/* 地下鉄（都営大江戸線・東京メトロ有楽町線） */}
         <g class="wm-subways" aria-hidden="true">
-          {MAP_SUBWAYS.map((l) => <path d={straight(l.pts)} class="wm-sub-bed" />)}
-          {MAP_SUBWAYS.map((l) => <path id={`wm-sub-${l.key}`} d={straight(l.pts)} class="wm-sub-line" style={`stroke:${l.color}`} />)}
-          {/* 2026-11-07 利用者「大江戸線や有楽町線も電車を動かすようにして」: 銀の車体に路線の色の帯。往復する */}
-          {MAP_SUBWAYS.map((l, i) => (
-            <g class="wm-train wm-subtrain"><g transform="scale(1.05)" filter="url(#wm-veh)">
-              {[-27, -9].map((x) => <g><rect x={x} y="-5.5" width="17" height="11" rx="2" class="car sub-car" /><rect x={x + 2} y="-3.6" width="13" height="3.8" rx="0.8" class="car-win" /><path d={`M${x + 0.6} 2.4 H${x + 16.4}`} class="car-band" style={`stroke:${l.color}`} /></g>)}
-              <path d="M9 -5.5 H22 Q28 -5.5 29 0 Q28 5.5 22 5.5 H9Z" class="car sub-car" />
-              <path d="M11 -3.6 H22 Q25.8 -3.6 26.6 -0.6 L11 -0.6Z" class="car-win" />
-              <path d="M9.6 2.4 H27.8" class="car-band" style={`stroke:${l.color}`} />
-              <circle cx="26.8" cy="3.2" r="0.9" class="car-lamp" />
-              <path d="M-10.4 0 H-9.4 M8 0 H9" class="car-joint" />
-            </g>
-              <animateMotion dur={`${l.key === 'oedo' ? 30 : 26}s`} begin={`-${i * 7}s`} repeatCount="indefinite" rotate="auto" keyPoints="0;1;0" keyTimes="0;0.5;1" calcMode="linear"><mpath href={`#wm-sub-${l.key}`} /></animateMotion></g>
-          ))}
+          {/* 線は画像に焼く（bake のときだけ描く）。電車が走る道筋（id 付き）は見えない線で残す */}
+          {bake && <g class="wm-base">{MAP_SUBWAYS.map((l) => <path d={straight(l.pts)} class="wm-sub-bed" />)}{MAP_SUBWAYS.map((l) => <path d={straight(l.pts)} class="wm-sub-line" style={`stroke:${l.color}`} />)}</g>}
         </g>
 
         {/* ゆりかもめ */}
         {rail && (
           <g class="wm-rail" aria-hidden="true">
-            <path id="wm-yuri" d={rail} class="wm-rail-bed" />
-            <path d={rail} class="wm-rail-line" />
-            <g class="wm-train"><g transform="scale(1.15)" filter="url(#wm-veh)">
-              {/* ゆりかもめ: 白い車体・青い帯・黒い窓・丸い先頭 */}
-              {[-27, -9].map((x) => <g><rect x={x} y="-6" width="17" height="12" rx="2.4" class="car" /><rect x={x + 2} y="-4" width="13" height="4.2" rx="1" class="car-win" /><path d={`M${x + 0.6} 2.6 H${x + 16.4}`} class="car-band" /></g>)}
-              <path d="M9 -6 H22 Q29 -6 30 0 Q29 6 22 6 H9Z" class="car" />
-              <path d="M11 -4 H22 Q26.5 -4 27.4 -0.6 L11 -0.6Z" class="car-win" />
-              <path d="M9.6 2.6 H28.6" class="car-band" />
-              <circle cx="27.6" cy="3.6" r="0.9" class="car-lamp" />
-              <path d="M-10.4 0 H-9.4 M8 0 H9" class="car-joint" />
-            </g>
-              <animateMotion dur="34s" repeatCount="indefinite" rotate="auto" keyPoints="0;1;0" keyTimes="0;0.5;1" calcMode="linear"><mpath href="#wm-yuri" /></animateMotion></g>
+            {bake && <g class="wm-base"><path d={rail} class="wm-rail-bed" /><path d={rail} class="wm-rail-line" /></g>}
           </g>
         )}
 
         {/* 地図の外側の地名と駅（縮小したときに見える。湾岸の外なのでピンや地区の札は出さない・2026-11-07） */}
+        {bake ? (
         <g class="wm-outer" aria-hidden="true">
+          {MAP_OUTER_LINE_LABELS.map((l) => <g transform={`translate(${l.x} ${l.y})`} class="wm-rl-lb"><g class="wm-st-in"><rect x={-(l.name.length * 5.6 + 8)} y="-9" width={l.name.length * 11.2 + 16} height="18" rx="9" style={`fill:${l.colour}`} /><text y="4">{l.name}</text></g></g>)}
+          {MAP_OUTER_SPOTS.map((sp) => <g transform={`translate(${sp.x} ${sp.y})`} class="wm-spot"><g class="wm-st-in"><circle r="13" class="wm-spot-bg" /><text y="5" class="wm-spot-ico">{sp.icon}</text><text y="28" class="wm-spot-name">{sp.name}</text></g></g>)}
           {MAP_OUTER_PLACES.map((a) => <g transform={`translate(${a.x} ${a.y})`} class="wm-outer-pl"><text class="wm-outer-pl-name">{a.name}</text></g>)}
           {MAP_OUTER_STATIONS.map((s) => (
-            <g transform={`translate(${s.x} ${s.y})`} class="wm-outer-st"><g class="wm-st-in"><circle r="4.5" class="wm-outer-st-dot" /><text x="7" y="4" class="wm-outer-st-name">{s.name}駅</text></g></g>
+            <g transform={`translate(${s.x} ${s.y})`} class="wm-outer-st"><g class="wm-st-in"><circle r="4.5" class="wm-outer-st-dot" />{MAP_OUTER_STATION_NAMED.has(s.name) && <text x="7" y="4" class="wm-outer-st-name">{s.name}駅</text>}</g></g>
           ))}
         </g>
+        ) : (
+          <>
+            <image class="wm-outer-labels wm-ol-far" data-src="/images/wangan-map/outer-labels-far.png" x={MAP_PAN.x} y={MAP_PAN.y} width={MAP_PAN.w} height={MAP_PAN.h} preserveAspectRatio="none" aria-hidden="true" />
+            <image class="wm-outer-labels wm-ol-mid" data-src="/images/wangan-map/outer-labels-mid.png" x={MAP_PAN.x} y={MAP_PAN.y} width={MAP_PAN.w} height={MAP_PAN.h} preserveAspectRatio="none" aria-hidden="true" />
+          </>
+        )}
 
         <g class="wm-landmarks" aria-hidden="true">
           {MAP_LANDMARKS.map((l) => (
@@ -320,7 +339,7 @@ const ratio = (MAP_H / MAP_W).toFixed(4);
 </div>
 
 <script>
-  type Item = { kind: 'event' | 'news'; slug: string; title: string; short: string; start: string; end: string; place: string; area: string; isFree: boolean; img: string; x: number; y: number };
+  type Item = { kind: 'event' | 'news'; slug: string; title: string; short: string; start: string; end: string; place: string; area: string; isFree: boolean; img: string; pop?: string; x: number; y: number };
   const WD = ['日', '月', '火', '水', '木', '金', '土'];
   const jp = (s: string) => { const [y, m, d] = s.split('-').map(Number); return `${m}月${d}日（${WD[new Date(Date.UTC(y, m - 1, d)).getUTCDay()]}）`; };
   const add = (s: string, n: number) => { const t = new Date(s + 'T00:00:00Z'); t.setUTCDate(t.getUTCDate() + n); return t.toISOString().slice(0, 10); };
@@ -376,6 +395,9 @@ const ratio = (MAP_H / MAP_W).toFixed(4);
         pins[i].classList.toggle('is-soon', show && isSoon(it));
         lis[i].hidden = !show;
       });
+      // 開催中のピンの波紋（動く絵の層に置く・2026-11-08）
+      const mv = root.querySelector('[data-movers]');
+      if (mv) { mv.querySelectorAll('.wm-pulse').forEach((e) => e.remove()); items.forEach((it, i) => { if (!pins[i].classList.contains('is-now')) return; const d = document.createElement('div'); d.className = 'wm-pulse'; d.style.left = `${it.x}px`; d.style.top = `${it.y}px`; mv.appendChild(d); }); }
       const [a, b] = range(period);
       pill.textContent = `📍 ${LABEL[period]}${period === 'all' ? '' : `（${jp(a)}${a !== b ? `〜${jp(b)}` : ''}）`}・${items.filter((it) => match(it)).length}件`;
       for (const k of Object.keys(LABEL)) { const el = root.querySelector(`[data-count="${k}"]`); if (el) el.textContent = String(items.filter((it) => match(it, k)).length); }
@@ -397,12 +419,60 @@ const ratio = (MAP_H / MAP_W).toFixed(4);
       tx = Math.min(-L, Math.max(w - R, tx)); ty = Math.min(-T, Math.max(h - B, ty));
       void W; void Hh;
     };
+    // 焼いた画像（湾岸の外の路線・札）は、地図を置いてから読み込む。最初の表示の回線を取り合わない
+    // ── 地図の画像（タイル）: 地図アプリと同じく、見えている所の細かい画像だけ読み、遠くなったら外す ──
+    // 粗い 1 枚（base-lo・1 単位 1 画素）を下に敷き、拡大して粗さが見える大きさになったら 1 単位 3 画素のタイル（256 単位四方）を重ねる
+    const tilesBox = root.querySelector<HTMLDivElement>('[data-tiles]');
+    const TILE = 256, COLS = Math.ceil(PAN.w / TILE), ROWS = Math.ceil(PAN.h / TILE);
+    const tiles = new Map<string, HTMLImageElement>();
+    const dpr = Math.min(3, window.devicePixelRatio || 1);
+    // 細かいタイルは、ページの読み込みが終わってから（最初の表示は粗い 1 枚で出し、回線を取り合わない）。先に触られたらその時点で
+    let tilesOk = false;
+    // 2026-11-08 利用者が「細かい地図の画像を先読み・2段階にする」を選んだ:
+    // ① 拡大しすぎていないときは 1 単位 2 画素のタイル（tiles2・画素が約半分）を使い、もっと拡大したら 3 画素（tiles）に切り替える
+    // ② 画像は展開（decode）が終わってから画面に足す（ドラッグ中に展開の待ちで引っかからない）
+    // ③ 動かしている向きの先を 1 列多く読んでおく
+    let tileLevel = 0, lastTx = 0, lastTy = 0, dirX = 0, dirY = 0;
+    const updateTiles = () => {
+      if (!tilesBox || !tilesOk) return;
+      const k = cw() / 1000, s = k * z; // 画面の 1 単位あたりの CSS 画素
+      const dev = s * dpr;               // 1 単位あたりの画面の画素
+      const level = dev <= 1.25 ? 0 : dev <= 2.1 ? 2 : 3; // 0 = 粗い 1 枚で足りる
+      tilesBox.hidden = !level;
+      if (level !== tileLevel) { const keep = tiles; tileLevel = level; if (!level) { for (const im of keep.values()) im.remove(); keep.clear(); return; } setTimeout(() => { for (const [key, im] of keep) if (!key.startsWith(`${level}:`)) { im.remove(); keep.delete(key); } }, 700); }
+      if (!level) return;
+      if (tx !== lastTx) dirX = tx < lastTx ? 1 : -1; if (ty !== lastTy) dirY = ty < lastTy ? 1 : -1; lastTx = tx; lastTy = ty;
+      const ux0 = -tx / s, uy0 = -ty / s, ux1 = ux0 + stage.clientWidth / s, uy1 = uy0 + stage.clientHeight / s;
+      const c0 = Math.max(0, Math.floor((ux0 - PAN.x) / TILE) - 1 - (dirX < 0 ? 1 : 0)), c1 = Math.min(COLS - 1, Math.floor((ux1 - PAN.x) / TILE) + 1 + (dirX > 0 ? 1 : 0));
+      const r0 = Math.max(0, Math.floor((uy0 - PAN.y) / TILE) - 1 - (dirY < 0 ? 1 : 0)), r1 = Math.min(ROWS - 1, Math.floor((uy1 - PAN.y) / TILE) + 1 + (dirY > 0 ? 1 : 0));
+      const dir = level === 2 ? 'tiles2' : 'tiles';
+      for (let r = r0; r <= r1; r++) for (let c = c0; c <= c1; c++) {
+        const key = `${level}:${c}-${r}`; if (tiles.has(key)) continue;
+        const im = new Image(); im.decoding = 'async'; im.alt = ''; im.className = 'wmap-tile'; im.draggable = false;
+        im.style.cssText = `left:${(c * TILE / PAN.w) * 100}%;top:${(r * TILE / PAN.h) * 100}%;width:${(TILE / PAN.w) * 100}%;height:${(TILE / PAN.h) * 100}%`;
+        im.src = `/images/wangan-map/${dir}/${c}-${r}.webp`;
+        tiles.set(key, im);
+        (im.decode ? im.decode() : Promise.resolve()).catch(() => {}).then(() => { if (tiles.get(key) !== im) return; tilesBox.appendChild(im); requestAnimationFrame(() => im.classList.add('is-on')); });
+      }
+      // 見えている所から 2 枚より離れたタイルは外す（メモリを食わない）
+      for (const [key, im] of tiles) { if (!key.startsWith(`${level}:`)) continue; const [c, r] = key.slice(2).split('-').map(Number); if (c < c0 - 2 || c > c1 + 2 || r < r0 - 2 || r > r1 + 2) { im.remove(); tiles.delete(key); } }
+    };
+    let tileRaf = 0;
+    const updateTilesSoon = () => { if (!tileRaf) tileRaf = requestAnimationFrame(() => { tileRaf = 0; updateTiles(); }); };
+    const olFar = root.querySelector<SVGImageElement>('.wm-ol-far'), olMid = root.querySelector<SVGImageElement>('.wm-ol-mid');
+    const loadImg = (el: SVGImageElement | null) => { if (el && !el.getAttribute('href') && el.dataset.src) el.setAttribute('href', el.dataset.src); };
     // 拡大率が変わったときだけ、拡大率に合わせて大きさを変える部品（ピン・札）を描き直す（2026-11-07 利用者「移動がもっさり」。毎回書き換えると全部の部品を計算し直していた）
     let lastZ = -1;
+    let dragging = false;
     const apply = () => {
       clamp(); canvas.style.transform = `translate3d(${tx}px, ${ty}px, 0) scale(${z})`;
       if (z !== lastZ) { lastZ = z; root.style.setProperty('--wm-z', String(Math.max(z, 0.6))); root.classList.toggle('is-zoomed', z >= 2.2); if (zoomOutBtn) zoomOutBtn.disabled = z <= minZ() + 0.001; if (zoomInBtn) zoomInBtn.disabled = z >= 3.999; }
-      sideGuides(); placePop();
+      // 端の案内の吹き出しは、幅を測って書き換えるので毎フレームやると描き直しになる。動かしている間はやらず、止まったら 1 回だけ
+      if (!dragging) sideGuides();
+      placePop(); updateTilesSoon();
+      // 引いたとき（拡大率 1.2 未満）だけ、湾岸の外の札の画像を出す（0.8 未満は far・それ以上は mid）。初めて引いたときに読み込む
+      const far = z < 0.8, mid = !far && z < 1.2; root.classList.toggle('is-far', far); root.classList.toggle('is-mid', mid);
+      if (far) loadImg(olFar); if (mid) loadImg(olMid);
     };
     // ドラッグ中は 1 フレームに 1 回だけ描く
     let raf = 0;
@@ -419,9 +489,47 @@ const ratio = (MAP_H / MAP_W).toFixed(4);
     // 2026-11-07 利用者「手のアイコンで移動するときに移動が少し遅い／もっさりしていて滑らかさがない」:
     // ① ドラッグ中は 0.25 秒のアニメーションを切る（指より遅れてついてきていた） ② 指の動きの 1.5 倍動かす ③ 離したあとも少し滑らせる
     const PAN_SPEED = 1.5;
+    // 2026-11-07 利用者「モバイルで非常にもっさりして全然動かない」: 動く絵（船・魚・電車・波・雲）が地図全体を毎フレーム描き直させていた
+    // （遅い CPU で測ると、全部止めると描画が 30 → 50 回／秒、ドラッグが 2.7 → 1.3 秒）。動かしている間は止め、離して止まったら再開する
+    // 動く絵は別の SVG（.wmap-anim）に分けた（2026-11-08）。止める・動かすはその層に対して行う
+    // 動く絵の箱（地図の 1 単位 = 1px）を、地図の幅に合わせて縮める。幅が変わったときも合わせる
+    const movers = root.querySelector<HTMLDivElement>('[data-movers]');
+    const fitMovers = () => { if (movers) movers.style.transform = `scale(${canvas.clientWidth / 1000})`; };
+    fitMovers(); addEventListener('resize', fitMovers);
+    // 電車と船: 道筋の点を先に計算し、「位置と向き（transform）」だけを動かす。道筋に沿って動かす指定（offset-path）だと、
+    // ブラウザが動くたびに絵を描き直していた（iPhone 相当の測定で、何もしない 3 秒のうち約 400ms）。transform だけなら描き直さない
+    if (movers && !reduce) {
+      const NS = 'http://www.w3.org/2000/svg';
+      movers.querySelectorAll<HTMLElement>('.wm-mv[data-path]').forEach((el) => {
+        const path = document.createElementNS(NS, 'path'); path.setAttribute('d', el.dataset.path || '');
+        const len = path.getTotalLength(); const n = Math.max(24, Math.min(160, Math.round(len / 12))); const rot = el.dataset.rot === '1';
+        const frames: Keyframe[] = [];
+        for (let k = 0; k <= n; k++) {
+          const at = (len * k) / n, pt = path.getPointAtLength(at);
+          let a = 0; if (rot) { const p2 = path.getPointAtLength(Math.min(len, at + 1)), p1 = path.getPointAtLength(Math.max(0, at - 1)); a = (Math.atan2(p2.y - p1.y, p2.x - p1.x) * 180) / Math.PI; }
+          frames.push({ transform: `translate(${pt.x.toFixed(1)}px, ${pt.y.toFixed(1)}px)${rot ? ` rotate(${a.toFixed(1)}deg)` : ''}` });
+        }
+        el.animate(frames, { duration: Number(el.dataset.go || 20) * 1000, delay: Number(el.dataset.delay || 0) * 1000, iterations: Infinity, direction: 'alternate', easing: 'linear' });
+      });
+    }
+    // 2026-11-08 利用者が「見ていないときは動く絵を止める」を選んだ: 地図が画面の外にあるとき・別のタブを見ているときは止める。戻れば動く
+    let offscreen = false;
+    const syncAnim = () => {
+      const stop = dragging || offscreen || document.hidden || reduce;
+      root.classList.toggle('is-off', offscreen || document.hidden);
+      root.classList.toggle('is-still', stop);
+      // 動く絵（CSS の animation と、上の電車・船の animate()）をまとめて止める・動かす
+      movers?.getAnimations({ subtree: true }).forEach((a) => { if (stop) a.pause(); else a.play(); });
+    };
+    document.addEventListener('visibilitychange', syncAnim);
+    new IntersectionObserver((ents) => { offscreen = !ents.some((x) => x.isIntersecting); syncAnim(); }, { threshold: 0 }).observe(stage);
+    const setDragging = (on: boolean) => {
+      dragging = on; root.classList.toggle('is-dragging', on); if (!on) sideGuides();
+      syncAnim();
+    };
     let vx = 0, vy = 0, lastT = 0, glide = 0;
     const stopGlide = () => { if (glide) { cancelAnimationFrame(glide); glide = 0; } };
-    stage.addEventListener('pointerdown', (e) => { if ((e.target as Element).closest('.wmap-dock, .wmap-zoom, .wmap-pop')) return; stopGlide(); root.classList.add('is-dragging'); pts.set(e.pointerId, { x: e.clientX, y: e.clientY }); moved = false; last = null; vx = vy = 0; lastT = performance.now(); });
+    stage.addEventListener('pointerdown', (e) => { if ((e.target as Element).closest('.wmap-dock, .wmap-zoom, .wmap-pop')) return; stopGlide(); setDragging(true); pts.set(e.pointerId, { x: e.clientX, y: e.clientY }); moved = false; last = null; vx = vy = 0; lastT = performance.now(); });
     stage.addEventListener('pointermove', (e) => {
       if (!pts.has(e.pointerId)) return;
       const prev = pts.get(e.pointerId)!; pts.set(e.pointerId, { x: e.clientX, y: e.clientY });
@@ -440,13 +548,13 @@ const ratio = (MAP_H / MAP_W).toFixed(4);
       if (pts.size > 0) return;
       // 離したあと、速さを少しずつ落としながら滑らせる（止まっていたら滑らせない）
       const idle = performance.now() - lastT > 80;
-      if (!moved || idle || Math.hypot(vx, vy) < 0.05) { root.classList.remove('is-dragging'); return; }
+      if (!moved || idle || Math.hypot(vx, vy) < 0.05) { setDragging(false); return; }
       let prevT = performance.now();
       const step = (t: number) => {
         const dt = Math.min(32, t - prevT); prevT = t;
         tx += vx * dt; ty += vy * dt; const k = Math.pow(0.94, dt / 16); vx *= k; vy *= k;
         const bx = tx, by = ty; apply(); if (tx !== bx) vx = 0; if (ty !== by) vy = 0; // 端に当たったら止める
-        if (Math.hypot(vx, vy) > 0.02) glide = requestAnimationFrame(step); else { glide = 0; root.classList.remove('is-dragging'); }
+        if (Math.hypot(vx, vy) > 0.02) glide = requestAnimationFrame(step); else { glide = 0; setDragging(false); }
       };
       glide = requestAnimationFrame(step);
     };
@@ -468,7 +576,7 @@ const ratio = (MAP_H / MAP_W).toFixed(4);
     const openPop = (i: number, sticky = false) => {
       const it = items[i]; popIdx = i; pop.hidden = false; pop.dataset.sticky = sticky ? '1' : '';
       (pop.querySelector('[data-pop-link]') as HTMLAnchorElement).href = `/posts/${it.slug}/`;
-      const img = pop.querySelector<HTMLImageElement>('[data-pop-img]')!; img.src = it.img; img.hidden = !it.img;
+      const img = pop.querySelector<HTMLImageElement>('[data-pop-img]')!; img.src = it.pop || it.img; img.hidden = !it.img;
       pop.querySelector('[data-pop-meta]')!.textContent = it.kind === 'news' ? `${jp(it.start)}のニュース` : `${isOn(it) ? '🎉 開催中・' : isSoon(it) ? 'もうすぐ・' : ''}${jp(it.start)}${it.end && it.end !== it.start ? `〜${jp(it.end)}` : ''}`;
       pop.querySelector('[data-pop-title]')!.textContent = it.title;
       pop.querySelector('[data-pop-place]')!.textContent = `${it.area ? it.area + '・' : ''}${it.place}${it.kind === 'event' ? (it.isFree ? '・無料' : '・料金は記事で') : ''}`;
@@ -505,28 +613,10 @@ const ratio = (MAP_H / MAP_W).toFixed(4);
       centerOn(it.x, it.y, Math.max(z, 2)); openPop(i, true); say(i); stopTour();
     }));
 
-    // ── ハッカー子の案内: 注目のイベント（開催中 → 始まる日が近い順）のそばに、離して置く。動かさない ──
-    const FACES = ['/images/expr-05-smug.png', '/images/expr-01-wave.png', '/images/expr-07-gasp.png'];
+    // 2026-11-08 利用者「マップ上のキャラのアイコンと、それに連動するコメントは邪魔なのでいらない。消して大丈夫」: ハッカー子の案内（顔と吹き出し）を外した。
+    // 期間や無料の切り替えから呼ばれる step() は残し、何も出さない
     const say = (_i: number) => {};
-    const step = () => {
-      const max = stage.clientWidth < 600 ? 2 : 3;
-      const cand = items.map((it, i) => ({ it, i })).filter(({ it }) => it.kind === 'event' && match(it))
-        .sort((a, b) => Number(isOn(b.it)) - Number(isOn(a.it)) || a.it.start.localeCompare(b.it.start));
-      const pick: typeof cand = [];
-      for (const c of cand) { if (pick.length >= max) break; if (pick.every((p) => Math.hypot(p.it.x - c.it.x, p.it.y - c.it.y) > 220)) pick.push(c); }
-      guidesBox.replaceChildren(...pick.map(({ it }, k) => {
-        const el = document.createElement('div');
-        el.className = 'wmap-g'; el.dataset.x = String(it.x);
-        el.style.left = `${it.x / 10}%`; el.style.top = `${(it.y / (1000 * ratio)) * 100}%`;
-        const cut = stage.clientWidth < 600 ? 8 : 11;
-        const name = it.short.length > cut ? it.short.slice(0, cut - 1) + '…' : it.short;
-        const msg = isOn(it) ? `${name}、開催中よ` : `${name}は${Number(it.start.slice(5, 7))}/${Number(it.start.slice(8, 10))}から`;
-        el.innerHTML = `<div class="wmap-g-in"><img src="${FACES[k % FACES.length]}" alt="" width="28" height="28" class="wmap-g-face"><span class="wmap-g-bubble"></span></div>`;
-        el.querySelector('.wmap-g-bubble')!.textContent = msg;
-        return el;
-      }));
-      sideGuides();
-    };
+    const step = () => { guidesBox.replaceChildren(); };
     function stopTour() {}
     function startTour() {}
 
@@ -538,26 +628,85 @@ const ratio = (MAP_H / MAP_W).toFixed(4);
     const tog = root.querySelector<HTMLButtonElement>('[data-tog="free"]')!;
     tog.addEventListener('click', () => { freeOnly = !freeOnly; tog.classList.toggle('is-on', freeOnly); tog.setAttribute('aria-pressed', String(freeOnly)); closePop(); render(); step(); });
 
-    render(); home();
-    addEventListener('resize', () => apply());
+    // 2026-11-07 利用者「ローディングしているときに勝手にマップが動く。読み込んでないところに移動しようとするような挙動。完全にバグ」:
+    // ① 最初の位置合わせに 0.25 秒のアニメーションがかかり、左上から滑って見えていた → アニメーションなしで一瞬で置く
+    // ② スマホはアドレスバーの出入りで高さが変わり、resize のたびに位置を計算し直して動いていた → 幅が変わったときだけ、見ている中心を保って直す
+    const instant = (fn: () => void) => { root.classList.add('wm-instant'); fn(); void canvas.offsetWidth; requestAnimationFrame(() => requestAnimationFrame(() => root.classList.remove('wm-instant'))); };
+    render(); instant(home); root.classList.add('is-ready');
+    const later = (fn: () => void) => ('requestIdleCallback' in window ? (window as unknown as { requestIdleCallback: (f: () => void, o: object) => void }).requestIdleCallback(fn, { timeout: 2500 }) : setTimeout(fn, 1200));
+    const enableTiles = () => { if (!tilesOk) { tilesOk = true; updateTiles(); } };
+    stage.addEventListener('pointerdown', enableTiles, { once: true });
+    if (document.readyState === 'complete') later(enableTiles); else addEventListener('load', () => later(enableTiles), { once: true });
+    let lastW = stage.clientWidth;
+    addEventListener('resize', () => {
+      const w = stage.clientWidth; if (w === lastW) return;
+      const k0 = lastW / 1000; const cx = (lastW / 2 - tx) / (k0 * z), cy = (stage.clientHeight / 2 - ty) / (k0 * z);
+      lastW = w; instant(() => centerOn(cx, cy, z));
+    });
     new IntersectionObserver((ents, ob) => { if (ents.some((x) => x.isIntersecting)) { root.classList.add('is-in'); setTimeout(() => { step(); startTour(); }, reduce ? 0 : 900); ob.disconnect(); } }, { threshold: 0.25 }).observe(stage);
   }
 </script>
 
 <style>
-  .wmap { --wm-sea: #b6daf6; --wm-sea-line: #94c4ea; --wm-land-chuo: #fdf1f4; --wm-land-koto: #fbf8f0; --wm-land-out: #ecedef; --wm-edge: #d7c7ae; --wm-ink: #5b4636; --wm-z: 1; --wm-pin: 1; margin: 0 0 40px; }
+  .wmap { --wm-sea: #b6daf6; --wm-sea-line: #94c4ea; --wm-land-chuo: #fbf8f0; /* 2026-11-08 利用者「勝どき・月島・築地だけ薄いピンクで目立つ。他と統一して」: 江東区と同じ地の色にそろえた */ --wm-land-koto: #fbf8f0; --wm-land-out: #ecedef; --wm-edge: #d7c7ae; --wm-ink: #5b4636; --wm-z: 1; --wm-pin: 1; margin: 0 0 40px; }
   .wmap-head { margin-bottom: 12px; }
   .wmap-title { font-size: clamp(22px, 3.2vw, 30px); font-weight: 900; margin: 0 0 6px; text-wrap: balance; }
   .wmap-title span { font-size: 0.55em; font-weight: 700; color: var(--ink-3); margin-left: 6px; }
   .wmap-lead { margin: 0; color: var(--ink-2); font-size: 14px; line-height: 1.8; }
 
-  .wmap-stage { position: relative; width: 100%; aspect-ratio: 16 / 10; min-height: 440px; max-height: 84vh; overflow: hidden; border-radius: 18px; border: 3px solid #fff; box-shadow: 0 0 0 1px var(--pink-200), 0 10px 28px rgba(60, 40, 20, 0.12); background: var(--wm-sea); touch-action: pan-y; user-select: none; cursor: grab; }
+  .wmap-stage { position: relative; width: 100%; aspect-ratio: 16 / 10; min-height: 440px; max-height: 84vh; max-height: 84svh; overflow: hidden; border-radius: 18px; border: 3px solid #fff; box-shadow: 0 0 0 1px var(--pink-200), 0 10px 28px rgba(60, 40, 20, 0.12); background: var(--wm-sea); touch-action: none; user-select: none; cursor: grab; }
+  /* 2026-11-07: スマホで地図を縦に動かせなかった（pan-y で縦の指の動きがページのスクロールに取られていた）。地図の上の指の動きは全部地図で受ける。ページは地図の外でスクロールできる */
   .wmap-stage:active { cursor: grabbing; }
   .wmap-canvas { position: absolute; left: 0; top: 0; width: 100%; aspect-ratio: 1 / var(--wm-ratio); transform-origin: 0 0; transition: transform 0.25s ease; will-change: transform; }
   /* ドラッグ中と滑らせている間はアニメーションを切る（指にそのままついてくる） */
-  .wmap.is-dragging .wmap-canvas { transition: none; }
+  .wmap.is-dragging .wmap-canvas, .wmap.wm-instant .wmap-canvas { transition: none; }
+  /* 位置が決まるまで地図を見せない（左上が一瞬見えてから飛ぶのを防ぐ）。JS が動かない環境では noscript で見せる */
+  .wmap .wmap-canvas { opacity: 0; }
+  .wmap.is-ready .wmap-canvas { opacity: 1; transition: transform 0.25s ease, opacity 0.2s ease; }
+  .wmap.is-ready.is-dragging .wmap-canvas, .wmap.is-ready.wm-instant .wmap-canvas { transition: opacity 0.2s ease; }
+  .wmap.wm-instant :global(.wm-pin-scale) { transition: none; }
   .wmap.is-dragging :global(.wm-pin-scale) { transition: none; }
+  /* 動かしている間は、CSS で動く絵（波・雲・ピンの点滅）も止める */
+  .wmap.is-dragging :global(.wm-waves), .wmap.is-dragging :global(.wm-cloud1), .wmap.is-dragging :global(.wm-cloud2), .wmap.is-dragging :global(.wm-pin-pulse) { animation-play-state: paused; }
+  .wmap.is-off :global(.wm-cloud1), .wmap.is-off :global(.wm-cloud2), .wmap.is-off :global(.wm-pin-pulse) { animation-play-state: paused; }
+  /* スマホ（指で操作する端末）では、海一面の波と雲を止める。広い面積を描き直すので重い。船・魚・電車は残す */
+  @media (pointer: coarse) {
+    :global(.wm-waves), :global(.wm-cloud1), :global(.wm-cloud2) { animation: none !important; }
+  }
   .wmap-svg { width: 100%; height: 100%; display: block; overflow: visible; }
+  /* 焼いた地図の画像（下敷き）。SVG はこの上に重ね、ピン・文字・乗り物だけを描く */
+  .wmap-base { position: absolute; overflow: hidden; pointer-events: none; background: var(--wm-sea); }
+  .wmap-base-lo { position: absolute; inset: 0; width: 100%; height: 100%; display: block; }
+  .wmap-tiles { position: absolute; inset: 0; }
+  .wmap-tiles[hidden] { display: none; }
+  :global(.wmap-tile) { position: absolute; display: block; opacity: 0; transition: opacity 0.18s; }
+  :global(.wmap-tile.is-on) { opacity: 1; }
+  .wmap-svg { position: relative; }
+  /* ── 動く絵（2026-11-08 作り替え）: 1 つずつ別の層にして、位置（transform・offset-path）だけを動かす。描き直しは起きない ── */
+  .wmap-movers { position: absolute; left: 0; top: 0; width: 1000px; transform-origin: 0 0; pointer-events: none; }
+  .wm-mv { position: absolute; left: 0; top: 0; width: 0; height: 0; will-change: transform; }
+  .wm-mv-art { position: absolute; left: -60px; top: -30px; overflow: visible; display: block; }
+  .wm-flip { animation: wm-flip var(--dur) steps(1, end) var(--delay, 0s) infinite; }
+  @keyframes wm-flip { 0% { transform: scaleX(-1); } 50% { transform: scaleX(1); } 100% { transform: scaleX(1); } }
+  .wm-bob { animation: wm-bob2 2.6s ease-in-out infinite; }
+  @keyframes wm-bob2 { 0%, 100% { transform: translateY(0); } 35% { transform: translateY(-1.6px); } 70% { transform: translateY(0.8px); } }
+  .wm-rock { animation: wm-rock 3.4s ease-in-out infinite; }
+  @keyframes wm-rock { 0%, 100% { transform: rotate(-3.5deg); } 50% { transform: rotate(3deg); } }
+  .wm-fish-mv { position: absolute; width: 0; height: 0; }
+  .wm-fish-mv .wm-mv-art { left: -20px; top: -12px; }
+  .wm-fish-swim { animation: wm-swim var(--dur) ease-in-out var(--delay) infinite; will-change: transform; }
+  @keyframes wm-swim { 0% { transform: translate(0, 0); } 25% { transform: translate(40px, -3px); } 50% { transform: translate(80px, 0); } 75% { transform: translate(40px, 3px); } 100% { transform: translate(0, 0); } }
+  .wm-fish-mv .wm-flip { animation-name: wm-flip-fish; }
+  @keyframes wm-flip-fish { 0% { transform: scaleX(1); } 50% { transform: scaleX(-1); } 100% { transform: scaleX(-1); } }
+  :global(.wmap .wm-fish-mv .fish-tail) { transform-box: view-box; transform-origin: -7px 0; animation: wm-tail 0.35s ease-in-out infinite alternate; }
+  @keyframes wm-tail { from { transform: rotate(-14deg); } to { transform: rotate(14deg); } }
+  .wm-cloud { position: absolute; left: 0; top: 0; border-radius: 50%; background: radial-gradient(closest-side, rgba(42, 90, 128, 0.16), rgba(42, 90, 128, 0)); will-change: transform; }
+  .wm-cloud.wm-cloud1 { width: 320px; height: 140px; margin: -70px 0 0 -160px; }
+  .wm-cloud.wm-cloud2 { width: 240px; height: 110px; margin: -55px 0 0 -120px; }
+  .wmap.is-still .wmap-movers *, .wmap.is-still .wmap-movers { animation-play-state: paused !important; }
+  /* 開催中のピンの波紋も、ピンの層（SVG）ではなくこの層で広げる（SVG の中だと広がるたびにピンと文字を描き直していた） */
+  :global(.wm-pulse) { position: absolute; width: 0; height: 0; transform: scale(calc(var(--wm-pin) / var(--wm-z))); transform-origin: 0 0; }
+  :global(.wm-pulse)::before { content: ''; position: absolute; left: -22px; top: -52px; width: 44px; height: 44px; border-radius: 50%; background: var(--pink-500); opacity: 0; animation: wm-pulse 1.8s ease-out infinite; will-change: transform, opacity; }
   :global(.wm-sea) { fill: var(--wm-sea); }
   :global(.wm-wave-line) { fill: none; stroke: var(--wm-sea-line); stroke-width: 1.6; stroke-linecap: round; opacity: 0.55; }
   :global(.wm-waves) { animation: wm-drift 14s linear infinite; }
@@ -614,6 +763,18 @@ const ratio = (MAP_H / MAP_W).toFixed(4);
   :global(.wm-ln text) { font-size: 12px; font-weight: 800; fill: #fff; text-anchor: middle; letter-spacing: 0.04em; }
   :global(.wm-rail-bed) { fill: none; stroke: #fff; stroke-width: 7; stroke-linecap: round; opacity: 0.9; }
   :global(.wm-rail-line) { fill: none; stroke: #2b6cb0; stroke-width: 2.4; stroke-dasharray: 8 5; stroke-linecap: round; opacity: 0.7; }
+  /* 焼いた画像（湾岸の外）。札は引いたときだけ */
+  :global(.wm-outer-labels) { pointer-events: none; }
+  :global(.wm-motion) { fill: none; stroke: none; }
+  :global(.wm-outer-labels) { display: none; }
+  .wmap.is-far :global(.wm-ol-far), .wmap.is-mid :global(.wm-ol-mid) { display: inline; }
+  :global(.wm-rl-bed) { fill: none; stroke: #fff; stroke-width: 5.5; stroke-linejoin: round; stroke-linecap: round; opacity: 0.85; }
+  :global(.wm-rl) { fill: none; stroke-width: 3; stroke-linejoin: round; stroke-linecap: round; opacity: 0.8; }
+  :global(.wm-rl-lb text) { font-size: 11px; font-weight: 800; fill: #fff; text-anchor: middle; }
+  :global(.wm-rl-lb rect) { opacity: 0.92; }
+  :global(.wm-spot-bg) { fill: #fffaf2; stroke: #c9a27a; stroke-width: 1.6; }
+  :global(.wm-spot-ico) { font-size: 15px; text-anchor: middle; }
+  :global(.wm-spot-name) { font-size: 11.5px; font-weight: 800; fill: #8a6a4a; text-anchor: middle; paint-order: stroke; stroke: #fff; stroke-width: 3px; }
   :global(.wm-outer-st-dot) { fill: #fff; stroke: #7d93ab; stroke-width: 2.2; }
   :global(.wm-outer-st-name) { font-size: 11px; font-weight: 700; fill: #5f7690; paint-order: stroke; stroke: #fff; stroke-width: 3px; }
   :global(.wm-outer-pl-name) { font-size: 15px; font-weight: 800; fill: #a99a8a; text-anchor: middle; letter-spacing: 0.08em; paint-order: stroke; stroke: rgba(255, 255, 255, 0.9); stroke-width: 3.5px; transform: scale(calc(1 / var(--wm-z))); transform-box: fill-box; transform-origin: center; }
@@ -647,7 +808,7 @@ const ratio = (MAP_H / MAP_W).toFixed(4);
   :global(.wm-pin.is-now .wm-pin-badge rect) { fill: var(--pink-500); } :global(.wm-pin.is-soon .wm-pin-badge rect) { fill: #7b6cf6; } :global(.wm-pin-news .wm-pin-badge rect) { fill: #f0a020; }
   :global(.wm-pin-badge-t) { font-size: 10px; font-weight: 900; fill: #fff; text-anchor: middle; dominant-baseline: central; }
   :global(.wm-pin-pulse) { fill: var(--pink-500); opacity: 0; transform-box: fill-box; transform-origin: center; }
-  :global(.wm-pin.is-now .wm-pin-pulse) { animation: wm-pulse 1.8s ease-out infinite; }
+  :global(.wm-pin-pulse) { display: none; } /* 2026-11-08: 波紋は .wm-pulse（動く絵の層）に移した */
   @keyframes wm-pulse { 0% { transform: scale(0.6); opacity: 0.5; } 100% { transform: scale(1.8); opacity: 0; } }
   :global(.wm-pin.is-focus .wm-pin-drop), :global(.wm-pin:hover .wm-pin-drop), :global(.wm-pin:focus-visible .wm-pin-drop) { transform: scale(1.25); }
 
@@ -709,7 +870,7 @@ const ratio = (MAP_H / MAP_W).toFixed(4);
   }
   @media (prefers-reduced-motion: reduce) {
     :global(.wm-waves), :global(.wm-pin.is-now .wm-pin-pulse), :global(.wm-cloud1), :global(.wm-cloud2) { animation: none !important; }
-    :global(.wm-anim animateMotion), :global(.wm-rail animateMotion), :global(.wm-subways animateMotion) { display: none; }
+    .wmap-movers, .wmap-movers *, :global(.wm-pulse)::before { animation: none !important; }
     .wmap-canvas, :global(.wm-pin .wm-pin-drop) { transition: none !important; }
   }
 </style>
