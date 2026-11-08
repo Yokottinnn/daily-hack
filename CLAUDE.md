@@ -1177,6 +1177,7 @@ ArtifactData(action="set", url="https://claude.ai/artifact/9KWGybrAHF7LtbQdVpw9Y
 - `question` は利用者の問いをそのまま要約、`summary` は結論 1〜2 文、`points` は要点（数字・やったこと・残り・費用）
 - **分析のページを直したら、`analyses` の要点も同じ内容に直す**（古い結論を残さない）
 - 実例: `2026-10-31-shop-buttons-evidence`（3 店ボタンの証跡）・`2026-10-25-x-follower-growth`
+- **フックで止めている**（2026-11-08・利用者が「フックで止める」を選んだ）。tweet2 が伸びている投稿 45 本の調査（x440）を読んで候補を作り報告までしたのに、analyses に入れていなかった。「書き足しているのになぜやっていないの」と指摘された。**md に書いた決まりは、思い出したときにしか守られなかった。** `.claude/hooks/enforce-analyses.py`（Stop フック）が、そのターンで Mac の調査のレポート（`origin/ops/heartbeat:reports/` で、中身に「読むだけ」があるか、名前に read・buzz・terms などが入るもの）を読んだのに analyses への書き込みが無ければ、終了させずに差し戻す。入れなくてよいものは本文に「分析レポートに入れない理由: …」と書く
 
 ### 22. 説明はすべて日本語で書く（2026-10-05 に「何回同じこと言ったらわかんだよ」と叱られた・例外なし）
 
