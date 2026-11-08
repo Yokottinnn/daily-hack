@@ -1,0 +1,44 @@
+{
+ "kenwood.png": {
+  "brand": "KENWOOD",
+  "src": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/25/cd/dd/25cddd7c-e779-5cbb-8204-798cf5243fa8/AppIcon-kenwood_pub-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+  "page": "https://apps.apple.com/jp/app/id6756486232",
+  "note": "App Store のアプリのアイコン（提供元 JVCKENWOOD Corporation）",
+  "fetched": "2026-11-08"
+ },
+ "technics.png": {
+  "brand": "Technics",
+  "src": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ea/2e/ad/ea2ead72-6e4c-b626-6ac5-0c6bfaf2350d/AppIcon-0-0-1x_U007epad-0-9-0-85-220.png/512x512bb.jpg",
+  "page": "https://apps.apple.com/jp/app/id1498029651",
+  "note": "App Store のアプリのアイコン（提供元 PANASONIC ENTERTAINMENT & COMMUNICATION CO., LTD.）",
+  "fetched": "2026-11-08"
+ },
+ "sony.png": {
+  "brand": "ソニー",
+  "title": "File:Sony logo.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Sony_logo.svg",
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Sony_logo.svg/960px-Sony_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "Public domain",
+  "fetched": "2026-10-18",
+  "task": "ops/tasks/x318-sony-anker-logo.sh",
+  "copied_from": "public/images/prime-sale-vs-rakuten-autumn-2026/logos/sony.png"
+ },
+ "apple.png": {
+  "brand": "Apple",
+  "file": "apple.png",
+  "source": null,
+  "page": null,
+  "license_note": "公式サイト（商標）",
+  "width": 199,
+  "height": 231,
+  "copied_from": "public/images/prime-sale-vs-rakuten-autumn-2026/logos/apple.png",
+  "task": "ops/tasks/t116・t117（2026-09-20・公式サイトから取得。元記事の _manifest.json の _note による）"
+ },
+ "anker.png": {
+  "brand": "Anker",
+  "src": "https://www.ankerjapan.com/cdn/shop/files/logo-app-anker-v2.svg",
+  "fetched": "2026-10-25",
+  "note": "公式サイトのアプリ案内のロゴ（SVG を PNG に変換）",
+  "copied_from": "public/images/mobile-battery-comparison-2026/logos/anker.png"
+ }
+}

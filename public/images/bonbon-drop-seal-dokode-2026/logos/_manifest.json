@@ -1,0 +1,16 @@
+{
+ "qlia.png": {
+  "brand": "クーリア（BONBON DROP 製造元）",
+  "src": "https://qlia.com/img/logo.png",
+  "page": "https://qlia.com/",
+  "note": "クーリア公式サイトのロゴ",
+  "fetched": "2026-11-08"
+ },
+ "sunstar.png": {
+  "brand": "サンスター文具",
+  "src": "https://www.sun-star-st.jp/_GgN4t0LN/wp-content/themes/wppackage/assets/img/common/img_common_header-logo01.png",
+  "page": "https://www.sun-star-st.jp/",
+  "note": "サンスター文具公式サイトのヘッダーのロゴ",
+  "fetched": "2026-11-08"
+ }
+}
