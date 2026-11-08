@@ -72,6 +72,11 @@
   - Yahoo!: 本番のドメインに PostLayout と同じ LinkSwitch のタグ（vc_pid 892728470）を置いたページで、素の `store.shopping.yahoo.co.jp`・`shopping.yahoo.co.jp/search` のリンクが読み込み時に `dalr.valuecommerce.com/dck/…?pid=892728470&sid=3776384&mid=2201292` に差し替わった（押しても同じ先へ出ていく）。**isPR: true の記事でだけ効く**（だから isPR でない記事ではビルドを落とす）
   - Amazon: **2026-10-28 にもしもで否認**（理由の開示なし）。**2026-10-30 に Amazon アソシエイトへ直接申し込み、ID `dailyhack-22` でボタンを出した。** 仮の参加中で、申し込みから 180 日以内に適格販売 3 件で本審査（自分の注文は数えない・却下されたら再審査なし）。以下は旧記録：**2026-10-25 22:17 に「申請中」を確認**（審査は数週間かかる場合あり）。通ったら `config.json` の `moshimo*` 4 つを入れ、楽天・Yahoo! と同じく実物で計測を確かめる
   - もしもの告知: 2026-11-01 から Amazon の成果は同じ日の分が 1 件にまとまって表示され、商品情報も取れなくなる。3 店ボタンは Amazon の価格を載せないので影響なし
+- **2026-11-08 に本番（daily-hack.fieldbeside.com）でもう一度押して確かめた**（利用者「楽天と Yahoo! の行き先に、このブログから来た印が見えない」）
+  - 楽天: 着いた先は `…?scid=af_pc_etc&sc2id=af_101_0_0` で、**ID はアドレスに出ない**。途中の `pt.afl.rakuten.co.jp/c/587f2635.77bb335f/` で `tg_af_histid`（.rakuten.co.jp・2 年）が保存され、それで成果を数える
+  - Yahoo!: 着いた先の末尾に **`sc_e=afvc_shp_3776384`**（3776384＝書き換えで入るこのサイトの sid）。記録は `.valuecommerce.com` の `VCB`・`VCIDENTITY`
+  - 同じ日にブログ全体を数え、Amazon のタグなし 20 本・楽天の返礼品の素のリンク 15 本を直した（#1531）。**本番のドメインは daily-hack.com ではない**（t582 でそれを打って名前が引けなかった）
+- **ビルドのたびに点検している**（2026-11-08・利用者が「点検を毎日の仕組みにする」を選んだ）。`npm run build` の直後に `scripts/check-aff-links.mjs`（package.json の `postbuild`）が全記事を読み、タグの無い Amazon・楽天 ID で包んでいない `item.rakuten.co.jp`・isPR でない記事の Yahoo! リンクが 1 本でもあればビルドを失敗させる。CI でも Cloudflare でも止まるので、取りこぼしたまま公開されない。$0
 - 楽天のリンクを使った記事は `docs/affiliate-registry.md` の「楽天アフィリエイトのリンクを入れた記事」に足す（法人 ID への張り替えの一覧）
 - 報酬額は記事に書かない
 

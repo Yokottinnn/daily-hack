@@ -1,0 +1,44 @@
+{
+ "tfal.png": {
+  "brand": "ティファール",
+  "src": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/00/05/be/0005beb1-1846-37ef-fc70-aa81b56bf17c/AppIcon-1x_U007emarketing-0-5-0-85-220-0.png/512x512bb.jpg",
+  "page": "https://apps.apple.com/jp/app/id6738371452",
+  "note": "App Store のアプリのアイコン（提供元 GROUPE SEB JAPAN CO., LTD.）",
+  "fetched": "2026-11-08"
+ },
+ "nitori.png": {
+  "brand": "ニトリ",
+  "src": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d8/0f/28/d80f28f9-13ff-b30b-c34b-62fddb5be5ae/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/512x512bb.jpg",
+  "page": "https://apps.apple.com/jp/app/id814928018",
+  "note": "App Store のアプリのアイコン（提供元 Nitori Holdings Co., Ltd.）",
+  "fetched": "2026-11-08"
+ },
+ "bruno.png": {
+  "brand": "BRUNO",
+  "src": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/48/30/fc/4830fc62-d2db-abd2-0a9e-89eff7100e03/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "page": "https://apps.apple.com/jp/app/id1600817365",
+  "note": "App Store のアプリのアイコン（提供元 BRUNO, INC.）",
+  "fetched": "2026-11-08"
+ },
+ "epeios.png": {
+  "brand": "EPEIOS",
+  "src": "https://epeios.jp/cdn/shop/files/EPEIOS_2_logo.png?v=1638773751&width=360",
+  "page": "https://epeios.jp/",
+  "note": "公式サイトのヘッダーのロゴ",
+  "fetched": "2026-11-08"
+ },
+ "beelicious.png": {
+  "brand": "Beelicious",
+  "src": "https://beelicious-jp.com/cdn/shop/files/2_05bf790a-98cb-471f-9380-7ab810badf14.png?v=1774236048&width=600",
+  "page": "https://beelicious-jp.com/",
+  "note": "公式サイトのヘッダーのロゴ",
+  "fetched": "2026-11-08"
+ },
+ "recolte.png": {
+  "brand": "レコルト",
+  "src": "https://recolte-jp.com/rao-4_lp/assets/img/top/logo-brown.svg",
+  "page": "https://recolte-jp.com/rao-4_lp/",
+  "note": "公式サイトのロゴ（SVG を Chromium で PNG に。改変なし）",
+  "fetched": "2026-11-08"
+ }
+}

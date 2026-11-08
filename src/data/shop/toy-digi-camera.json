@@ -1,0 +1,80 @@
+{
+  "id": "toy-digi-camera",
+  "title": "トイデジ（トイデジタルカメラ）",
+  "_note": "仕様・価格は各社公式（2026-11-07 確認）。Kenko の価格はケンコー・トキナー公式オンラインショップの税込。Camp Snap の画素数・SD カード・電池容量は公式に記載が見つからない。出典は Yokottinnn/daily-hack-affiliate の docs/research/toy-digi-camera-products.md。Kodak Charmera は国内の正規販売が確かめられないので 3 店ボタンに入れていない",
+  "columns": [
+    { "key": "price", "label": "公式の価格" },
+    { "key": "send", "label": "スマホへの送り方（公式）" },
+    { "key": "battery", "label": "電池" },
+    { "key": "card", "label": "記録（SD カード）" },
+    { "key": "screen", "label": "画面" }
+  ],
+  "pricesCheckedAt": null,
+  "items": [
+    {
+      "id": "kenko-pieni3",
+      "brand": "ケンコー・トキナー",
+      "name": "Kenko トイカメラ Pieni III",
+      "badge": "スマホに直接・いちばん安い",
+      "summary": "6,000円・約18g。付属の Type-C ケーブルでスマホに直接取り込める（全機種の保証はなし）。",
+      "recommended": true,
+      "specs": { "price": "6,000円", "send": "Type-C ケーブルでスマホに直接", "battery": "内蔵の充電池", "card": "microSDHC 4〜32GB（別売）", "screen": "なし" },
+      "source": "https://www.kenko-tokina.co.jp/imaging/camera/toycamera/pieni3.html",
+      "rakuten": { "keyword": "Kenko トイカメラ Pieni III", "must": ["Pieni"], "exclude": ["PIENI 8", "PIENIFLEX", "サンリオ", "ケース", "中古"] },
+      "yahoo": { "keyword": "Kenko トイカメラ Pieni III", "must": ["Pieni"], "exclude": ["PIENI 8", "PIENIFLEX", "サンリオ", "ケース", "中古"] },
+      "amazon": { "keyword": "Kenko トイカメラ Pieni III", "asin": null }
+    },
+    {
+      "id": "kenko-retro-digi90",
+      "brand": "ケンコー・トキナー",
+      "name": "Kenko レトロデジ90",
+      "badge": "乾電池で動く",
+      "summary": "7,700円。単四乾電池3本（別売）で動く、写ルンですのような形。取り込みはパソコン。",
+      "recommended": false,
+      "specs": { "price": "7,700円", "send": "記載なし（パソコンへ取り込み）", "battery": "単四アルカリ乾電池×3（別売）", "card": "microSDHC 4〜32GB（別売）", "screen": "なし（ファインダー）" },
+      "source": "https://www.kenko-tokina.co.jp/imaging/camera/toycamera/kcrd90.html",
+      "rakuten": { "keyword": "Kenko レトロデジ90", "must": ["レトロデジ"], "exclude": ["ケース", "中古"] },
+      "yahoo": { "keyword": "Kenko レトロデジ90", "must": ["レトロデジ"], "exclude": ["ケース", "中古"] },
+      "amazon": { "keyword": "Kenko レトロデジ90", "asin": null }
+    },
+    {
+      "id": "kenko-pieni8",
+      "brand": "ケンコー・トキナー",
+      "name": "Kenko PIENI 8",
+      "badge": "8ミリ風",
+      "summary": "7,700円・122万画素。8ミリカメラの形で動画も撮れる。充電と取り込みはパソコン。",
+      "recommended": false,
+      "specs": { "price": "7,700円", "send": "記載なし（パソコンへ取り込み）", "battery": "内蔵の充電池（パソコンで充電）", "card": "microSD 128MB〜2GB／microSDHC 4〜32GB", "screen": "なし" },
+      "source": "https://www.kenko-tokina.co.jp/imaging/camera/toycamera/pieni8.html",
+      "rakuten": { "keyword": "Kenko PIENI 8 トイカメラ", "must": ["PIENI"], "exclude": ["PIENIFLEX", "Pieni III", "ケース", "中古"] },
+      "yahoo": { "keyword": "Kenko PIENI 8 トイカメラ", "must": ["PIENI"], "exclude": ["PIENIFLEX", "Pieni III", "ケース", "中古"] },
+      "amazon": { "keyword": "Kenko PIENI 8", "asin": null }
+    },
+    {
+      "id": "kenko-pieniflex-m",
+      "brand": "ケンコー・トキナー",
+      "name": "Kenko PIENIFLEX M",
+      "badge": "二眼レフ風・画面あり",
+      "summary": "16,400円・有効52万画素。上から覗く1.3型の液晶があり、正方形で撮れる。",
+      "recommended": false,
+      "specs": { "price": "16,400円", "send": "記載なし（パソコンへ取り込み）", "battery": "内蔵の充電池", "card": "microSDHC 4〜32GB（別売）", "screen": "1.3型液晶" },
+      "source": "https://www.kenko-tokina.co.jp/imaging/camera/toycamera/pieniflexm.html",
+      "rakuten": { "keyword": "Kenko PIENIFLEX M", "must": ["PIENIFLEX"], "exclude": ["ケース", "中古"] },
+      "yahoo": { "keyword": "Kenko PIENIFLEX M", "must": ["PIENIFLEX"], "exclude": ["ケース", "中古"] },
+      "amazon": { "keyword": "Kenko PIENIFLEX M", "asin": null }
+    },
+    {
+      "id": "camp-snap-v105",
+      "brand": "Camp Snap",
+      "name": "Camp Snap 1st Gen（CS-V105）",
+      "badge": "画面なし・充電式",
+      "summary": "公式サイト10,980円。画面の無いフィルムカメラ風で、最大2000枚。USB-C ケーブルで取り込み。",
+      "recommended": false,
+      "specs": { "price": "10,980円（公式サイト）", "send": "USB-C ケーブルで取り込み（iPhone の Lightning は SD カードリーダーが必要）", "battery": "充電式", "card": "SD カード（容量の上限は記載なし）", "screen": "なし" },
+      "source": "https://www.campsnap.jp/",
+      "rakuten": { "keyword": "Camp Snap カメラ", "must": ["Camp Snap"], "exclude": ["PRO", "ケース", "ストラップ", "中古"] },
+      "yahoo": { "keyword": "Camp Snap カメラ", "must": ["Camp Snap"], "exclude": ["PRO", "ケース", "ストラップ", "中古"] },
+      "amazon": { "keyword": "Camp Snap カメラ CS-V105", "asin": null }
+    }
+  ]
+}
