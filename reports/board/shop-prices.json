@@ -1,11 +1,287 @@
 {
- "generatedAt": "2026-11-07T21:42:36.057Z",
+ "generatedAt": "2026-11-08T05:03:11.495Z",
  "keys": {
   "rakuten": true,
   "rakutenAccessKey": false,
   "yahoo": true
  },
  "series": {
+  "ai-smart-glass": {
+   "ray-ban-meta-gen3": {
+    "rakuten": {
+     "skipped": "RAKUTEN_ACCESS_KEY が無い"
+    },
+    "yahoo": {
+     "found": true,
+     "candidates": 29,
+     "name": "レイバン メタ サングラス NewModel 正規品 AIグラス スマートグラス GEN3 第3世代 RW4015 601SB 49 ZENA Ray-Ban META キャットアイ",
+     "url": "https://store.shopping.yahoo.co.jp/glassmania/rayban-meta-sg-rw4015-601sb.html",
+     "price": 78980,
+     "shippingFree": true,
+     "point": 0,
+     "reviewAverage": null,
+     "reviewCount": 0,
+     "shop": "グラスマニア Tokyo Aoyama",
+     "net": 78980
+    }
+   },
+   "ray-ban-meta-optics-gen2": {
+    "rakuten": {
+     "skipped": "RAKUTEN_ACCESS_KEY が無い"
+    },
+    "yahoo": {
+     "found": true,
+     "candidates": 24,
+     "name": "ボーナスストアPlus【新品未開封】Ray-Ban Meta Blayzer Optics Gen2 マットブラック RW7001 電子機能付きサングラス レイバン メタ 本体",
+     "url": "https://store.shopping.yahoo.co.jp/refun/mcl1pdy9ysw2tmco.html",
+     "price": 73700,
+     "shippingFree": true,
+     "point": 0,
+     "reviewAverage": null,
+     "reviewCount": 0,
+     "shop": "リファン Yahoo!ショップ",
+     "net": 73700
+    }
+   },
+   "oakley-meta-hstn": {
+    "rakuten": {
+     "skipped": "RAKUTEN_ACCESS_KEY が無い"
+    },
+    "yahoo": {
+     "found": true,
+     "candidates": 29,
+     "name": "ボーナスストアPlus【新品未開封】OAKLEY Meta HSTN GEN2 00W8002 80020751 ブラック/クリア AIグラス スマートグラス オークリー メタ 本体",
+     "url": "https://store.shopping.yahoo.co.jp/refun/mcl1pdh54dmp9a2o.html",
+     "price": 71940,
+     "shippingFree": true,
+     "point": 0,
+     "reviewAverage": null,
+     "reviewCount": 0,
+     "shop": "リファン Yahoo!ショップ",
+     "net": 71940
+    }
+   },
+   "rokid-glasses": {
+    "rakuten": {
+     "skipped": "RAKUTEN_ACCESS_KEY が無い"
+    },
+    "yahoo": {
+     "found": true,
+     "candidates": 24,
+     "name": "【最大600円引き】Rokid スマートAIグラス 対応 マグネット充電 変換アダプタ USB Type-C 入力 3ピン 磁気コネクタ 5V/0.5A 安定充電 LEDライト搭載",
+     "url": "https://store.shopping.yahoo.co.jp/mslforce/rokid.html",
+     "price": 890,
+     "shippingFree": true,
+     "point": 0,
+     "reviewAverage": null,
+     "reviewCount": 2,
+     "shop": "MSL FORCE公式店",
+     "net": 890
+    }
+   }
+  },
+  "ai-voice-recorder": {
+   "plaud-note-pro": {
+    "rakuten": {
+     "skipped": "RAKUTEN_ACCESS_KEY が無い"
+    },
+    "yahoo": {
+     "found": true,
+     "candidates": 16,
+     "name": "For PLAUD NOTE AI/Plaud Note Pro 専用充電ケーブル ボイスレコーダー充電器 磁気吸着式 Type C充電 100CM 4ピン 充電機 マグネット式充電ケーブル",
+     "url": "https://store.shopping.yahoo.co.jp/rosegarden2/b0fj77zmk3.html",
+     "price": 810,
+     "shippingFree": true,
+     "point": 0,
+     "reviewAverage": null,
+     "reviewCount": 0,
+     "shop": "薔薇庭",
+     "net": 810
+    }
+   },
+   "plaud-note": {
+    "rakuten": {
+     "skipped": "RAKUTEN_ACCESS_KEY が無い"
+    },
+    "yahoo": {
+     "found": true,
+     "candidates": 10,
+     "name": "ICレコーダー/PLAUD NOTE/AIボイスレコーダー",
+     "url": "https://store.shopping.yahoo.co.jp/ssol-shopping/2342114654587.html",
+     "price": 18260,
+     "shippingFree": true,
+     "point": 0,
+     "reviewAverage": null,
+     "reviewCount": 0,
+     "shop": "セカンドストリートYahoo!店",
+     "net": 18260
+    }
+   },
+   "plaud-notepin-s": {
+    "rakuten": {
+     "skipped": "RAKUTEN_ACCESS_KEY が無い"
+    },
+    "yahoo": {
+     "found": true,
+     "candidates": 11,
+     "name": "YCJDP For PLAUD NotePin AI/NotePin S ボイスレコーダー専用ネックストラップ プラウドノートピン アクセサ",
+     "url": "https://store.shopping.yahoo.co.jp/tokitaya/20260822170110-02136.html",
+     "price": 1774,
+     "shippingFree": true,
+     "point": 0,
+     "reviewAverage": null,
+     "reviewCount": 0,
+     "shop": "山田産業",
+     "net": 1774
+    }
+   },
+   "notta-memo": {
+    "rakuten": {
+     "skipped": "RAKUTEN_ACCESS_KEY が無い"
+    },
+    "yahoo": {
+     "found": true,
+     "candidates": 21,
+     "name": "Notta Memo AI ボイスレコーダー 録音 翻訳 ∠UK2595",
+     "url": "https://store.shopping.yahoo.co.jp/thrift-webshop/u-175-uk2595-07.html",
+     "price": 16500,
+     "shippingFree": true,
+     "point": 0,
+     "reviewAverage": null,
+     "reviewCount": 0,
+     "shop": "スリフト",
+     "net": 16500
+    }
+   },
+   "notta-memo-pro": {
+    "rakuten": {
+     "skipped": "RAKUTEN_ACCESS_KEY が無い"
+    },
+    "yahoo": {
+     "found": true,
+     "candidates": 8,
+     "name": "Notta NOTTAMEMOPROGY Notta Memo Pro +NottaBrainセット  AIボイスレコーダー 64GBメモリ内蔵 録音モード自動選択 スペースブラック",
+     "url": "https://store.shopping.yahoo.co.jp/yamada-denki/4222918013.html",
+     "price": 30800,
+     "shippingFree": true,
+     "point": 0,
+     "reviewAverage": null,
+     "reviewCount": 0,
+     "shop": "ヤマダデンキ Yahoo!店",
+     "net": 30800
+    }
+   },
+   "automemo-s": {
+    "rakuten": {
+     "skipped": "RAKUTEN_ACCESS_KEY が無い"
+    },
+    "yahoo": {
+     "found": true,
+     "candidates": 10,
+     "name": "ソースネクスト AutoMemo （オートメモ） S ホワイト AMSWH",
+     "url": "https://store.shopping.yahoo.co.jp/yamada-denki/525683016.html",
+     "price": 18700,
+     "shippingFree": true,
+     "point": 0,
+     "reviewAverage": 4.11,
+     "reviewCount": 9,
+     "shop": "ヤマダデンキ Yahoo!店",
+     "net": 18700
+    }
+   }
+  },
+  "carry-on-suitcase": {
+   "xiaomi-classic-pro-20": {
+    "rakuten": {
+     "skipped": "RAKUTEN_ACCESS_KEY が無い"
+    },
+    "yahoo": {
+     "found": true,
+     "candidates": 1,
+     "name": "Xiaomi スーツケース Classic Pro 20インチ ブラック グレー キャリーバッグ 旅行バッグ 軽量 静音 大容量 TSAロック 1日-7日",
+     "url": "https://store.shopping.yahoo.co.jp/xiaomijapanofficial/568700.html",
+     "price": 12800,
+     "shippingFree": true,
+     "point": 0,
+     "reviewAverage": null,
+     "reviewCount": 0,
+     "shop": "Xiaomi公式ストア",
+     "net": 12800
+    }
+   },
+   "xiaomi-front-pocket-20": {
+    "rakuten": {
+     "skipped": "RAKUTEN_ACCESS_KEY が無い"
+    },
+    "yahoo": {
+     "found": true,
+     "candidates": 1,
+     "name": "Xiaomi フロントポケットスーツケース 20\" 防水ポケット TSAロック 静音キャスター 軽量 耐衝撃性 大容量 高さ調節",
+     "url": "https://store.shopping.yahoo.co.jp/xiaomijapanofficial/57625.html",
+     "price": 17800,
+     "shippingFree": true,
+     "point": 0,
+     "reviewAverage": null,
+     "reviewCount": 0,
+     "shop": "Xiaomi公式ストア",
+     "net": 17800
+    }
+   },
+   "samsonite-minter-55": {
+    "rakuten": {
+     "skipped": "RAKUTEN_ACCESS_KEY が無い"
+    },
+    "yahoo": {
+     "found": true,
+     "candidates": 8,
+     "name": "サムソナイト スーツケース 33L 55cm 3.3kg 機内持ち込み ミンター スピナー55 Samsonite│ TSAロック ハード 旅行 キャリーケース キャリーバッグ 爆買",
+     "url": "https://store.shopping.yahoo.co.jp/sacsbar/sa-minter55.html",
+     "price": 63800,
+     "shippingFree": true,
+     "point": 0,
+     "reviewAverage": null,
+     "reviewCount": 1,
+     "shop": "サックスバーYahoo!店",
+     "net": 63800
+    }
+   },
+   "samsonite-c-lite-55": {
+    "rakuten": {
+     "skipped": "RAKUTEN_ACCESS_KEY が無い"
+    },
+    "yahoo": {
+     "found": true,
+     "candidates": 28,
+     "name": "【並行輸入品】サムソナイト スーツケース シーライト 55cm 36L Samsonite C-LITE スピナー 軽量",
+     "url": "https://store.shopping.yahoo.co.jp/glv/sn9-bl.html",
+     "price": 35999,
+     "shippingFree": true,
+     "point": 0,
+     "reviewAverage": 4.71,
+     "reviewCount": 42,
+     "shop": "GulliverOnlineShopping Yahoo!店",
+     "net": 35999
+    }
+   },
+   "tumi-19degree-front-access": {
+    "rakuten": {
+     "skipped": "RAKUTEN_ACCESS_KEY が無い"
+    },
+    "yahoo": {
+     "found": true,
+     "candidates": 6,
+     "name": "トゥミ TUMI 19 DEGREE ディグリー Front Access Expandable Carry-On フロント アクセス エクスパンダブル キャリーオン 38L 0228793DTX 158990",
+     "url": "https://store.shopping.yahoo.co.jp/u-stream/tum0000001097.html",
+     "price": 110000,
+     "shippingFree": true,
+     "point": 0,
+     "reviewAverage": null,
+     "reviewCount": 0,
+     "shop": "U-STREAM",
+     "net": 110000
+    }
+   }
+  },
   "heated-vest": {
    "thanko-heat25sbk": {
     "rakuten": {
@@ -243,6 +519,36 @@
     }
    }
   },
+  "pet-robot": {
+   "moflin-pe-m11": {
+    "rakuten": {
+     "skipped": "RAKUTEN_ACCESS_KEY が無い"
+    },
+    "yahoo": {
+     "found": false,
+     "candidates": 0,
+     "searched": 0
+    }
+   },
+   "qoobo": {
+    "rakuten": {
+     "skipped": "RAKUTEN_ACCESS_KEY が無い"
+    },
+    "yahoo": {
+     "found": true,
+     "candidates": 21,
+     "name": "ユカイ工学 Qoobo(クーボ) しっぽ ふりふり ロボット セラピー クッション (ブラウン)",
+     "url": "https://store.shopping.yahoo.co.jp/hana-mira/s-b07h96x7pt-20260908.html",
+     "price": 13752,
+     "shippingFree": true,
+     "point": 0,
+     "reviewAverage": null,
+     "reviewCount": 0,
+     "shop": "Hana-Hana",
+     "net": 13752
+    }
+   }
+  },
   "rechargeable-kairo": {
    "francfranc-kurikaeshi-2026": {
     "rakuten": {
@@ -412,6 +718,98 @@
     }
    }
   },
+  "winter-heating": {
+   "yamazen-ymm-w402": {
+    "rakuten": {
+     "skipped": "RAKUTEN_ACCESS_KEY が無い"
+    },
+    "yahoo": {
+     "found": true,
+     "candidates": 7,
+     "name": "YAMAZEN 電気ミニマット ホットカーペット 40×40cm YMM-W402 1台",
+     "url": "https://lohaco.yahoo.co.jp/store/h-lohaco/item/ek50993/",
+     "price": 3058,
+     "shippingFree": false,
+     "point": 0,
+     "reviewAverage": null,
+     "reviewCount": 0,
+     "shop": "LOHACO by アスクル",
+     "net": 3058
+    }
+   },
+   "panasonic-db-u12t": {
+    "rakuten": {
+     "skipped": "RAKUTEN_ACCESS_KEY が無い"
+    },
+    "yahoo": {
+     "found": true,
+     "candidates": 21,
+     "name": "パナソニック 電気しき毛布 シングル 140×80cm 丸洗い可 室温センサー付 グリーン DB-U12T-G",
+     "url": "https://store.shopping.yahoo.co.jp/oimus725/20251230062740-01077.html",
+     "price": 5830,
+     "shippingFree": true,
+     "point": 0,
+     "reviewAverage": null,
+     "reviewCount": 0,
+     "shop": "北村商会",
+     "net": 5830
+    }
+   },
+   "yamazen-yphs-160": {
+    "rakuten": {
+     "skipped": "RAKUTEN_ACCESS_KEY が無い"
+    },
+    "yahoo": {
+     "found": true,
+     "candidates": 1,
+     "name": "パネルヒーター 底面ヒーター 足元暖房 省エネ エコ 静音 転倒センサー 自動オフ 節電 電気暖房 デスクパネルヒーター フットヒーター YPHS-160 山善 YAMAZEN",
+     "url": "https://store.shopping.yahoo.co.jp/e-kurashi/98705.html",
+     "price": 8980,
+     "shippingFree": true,
+     "point": 0,
+     "reviewAverage": 4.44,
+     "reviewCount": 9,
+     "shop": "くらしのeショップ",
+     "net": 8980
+    }
+   },
+   "panasonic-cs-227djr": {
+    "rakuten": {
+     "skipped": "RAKUTEN_ACCESS_KEY が無い"
+    },
+    "yahoo": {
+     "found": true,
+     "candidates": 2,
+     "name": "パナソニック (2027年モデル)(標準工事セットエアコン)エオリア [6畳用] (冷房：6〜9畳/ 暖房：5〜6畳) Jシリーズ (クリスタルホワイト) CS-227DJR-W 返品種別A",
+     "url": "https://store.shopping.yahoo.co.jp/joshin/2098708170895-22-423.html",
+     "price": 146700,
+     "shippingFree": true,
+     "point": 0,
+     "reviewAverage": null,
+     "reviewCount": 0,
+     "shop": "Joshin web",
+     "net": 146700
+    }
+   },
+   "panasonic-ds-fn1200": {
+    "rakuten": {
+     "skipped": "RAKUTEN_ACCESS_KEY が無い"
+    },
+    "yahoo": {
+     "found": true,
+     "candidates": 11,
+     "name": "パナソニック セラミックファンヒーター 小型 防滴仕様 ホワイト DS-FN1200-W",
+     "url": "https://store.shopping.yahoo.co.jp/ank-shop/1788193899-3322.html",
+     "price": 5850,
+     "shippingFree": true,
+     "point": 0,
+     "reviewAverage": null,
+     "reviewCount": 1,
+     "shop": "アンク",
+     "net": 5850
+    }
+   }
+  },
   "zojirushi-steam-humidifier": {
    "zojirushi-ee-tc60": {
     "rakuten": {
@@ -419,7 +817,7 @@
     },
     "yahoo": {
      "found": true,
-     "candidates": 30,
+     "candidates": 29,
      "name": "ZOJIRUSHI 象印 【納期11月末頃】加湿器  スチーム式加湿器(木造10畳まで/プレハブ洋室17畳まで)ホワイト EE-TC60 WA",
      "url": "https://store.shopping.yahoo.co.jp/murauchi3/2501000388399.html",
      "price": 24530,
@@ -455,7 +853,7 @@
     },
     "yahoo": {
      "found": true,
-     "candidates": 29,
+     "candidates": 28,
      "name": "象印　加湿器 EE-DG35 WA（ホワイト）",
      "url": "https://store.shopping.yahoo.co.jp/sanrex/ee-dg35-wa.html",
      "price": 18700,
@@ -492,15 +890,15 @@
     "yahoo": {
      "found": true,
      "candidates": 27,
-     "name": "象印 スチーム式加湿器 2.2L ホワイト EE-RV35WA",
-     "url": "https://store.shopping.yahoo.co.jp/jetprice/b803lc.html",
-     "price": 14679,
+     "name": "ZOJIRUSHI スチーム式加湿器 EE-RV35-WA ホワイト 象印",
+     "url": "https://store.shopping.yahoo.co.jp/outletplaza/40001118314.html",
+     "price": 14675,
      "shippingFree": true,
      "point": 0,
      "reviewAverage": null,
      "reviewCount": 0,
-     "shop": "JetPrice",
-     "net": 14679
+     "shop": "秋葉原　アウトレットプラザ",
+     "net": 14675
     }
    },
    "zojirushi-ee-mc20": {
@@ -527,7 +925,7 @@
     },
     "yahoo": {
      "found": true,
-     "candidates": 12,
+     "candidates": 11,
      "name": "ZOJIRUSHI スチーム式加湿器 STAN. EE-FA50-BA ブラック 象印",
      "url": "https://store.shopping.yahoo.co.jp/outletplaza/40001082165.html",
      "price": 35326,
