@@ -1,0 +1,8 @@
+{
+ "gunze-kw3008.jpg": {"src": "https://image.rakuten.co.jp/gunze/cabinet/item_img/31/31kw3008/31kw3008.jpg", "page": "https://item.rakuten.co.jp/gunze/kw3008/", "credit": "グンゼ公式通販（楽天市場）", "fetched": "2026-11-08"},
+ "gunze-longseller.jpg": {"src": "https://image.rakuten.co.jp/gunze/cabinet/item_detail/kaitekikoubou/kaikou_d_01.jpg", "page": "https://item.rakuten.co.jp/gunze/kw3008/", "credit": "グンゼ公式通販（楽天市場）", "note": "縦長の説明画像の上 1/3 を切り出した", "fetched": "2026-11-08"},
+ "gunze-wash.jpg": {"src": "https://image.rakuten.co.jp/gunze/cabinet/item_detail/kaitekikoubou/kaikou_d_02.jpg", "page": "https://item.rakuten.co.jp/gunze/kw3008/", "credit": "グンゼ公式通販（楽天市場）", "note": "縦長の説明画像から「100回洗っても」の段を切り出した", "fetched": "2026-11-08"},
+ "uq-heattech.jpg": {"src": "https://image.uniqlo.com/UQ/ST3/jp/imagesgoods/461001/item/jpgoods_09_461001_3x4.jpg", "page": "https://www.uniqlo.com/jp/ja/products/E461001-000/00", "credit": "ユニクロ 公式", "fetched": "2026-11-08"},
+ "uq-gokudan-cotton.jpg": {"src": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/450529/item/goods_01_450529_3x4.jpg", "page": "https://www.uniqlo.com/jp/ja/products/E450529-000/00", "credit": "ユニクロ 公式", "fetched": "2026-11-08"},
+ "uq-chogokudan.jpg": {"src": "https://image.uniqlo.com/UQ/ST3/jp/imagesgoods/461011/item/jpgoods_08_461011_3x4.jpg", "page": "https://www.uniqlo.com/jp/ja/products/E461011-000/00", "credit": "ユニクロ 公式", "fetched": "2026-11-08"}
+}

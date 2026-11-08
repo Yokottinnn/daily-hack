@@ -1,0 +1,50 @@
+{
+  "id": "kitchen-wrap",
+  "title": "食品用ラップ 30cm×50m（クレラップ・サランラップ）",
+  "_note": "素材・耐熱はクレハ（kurelife.jp）と旭化成ホームプロダクツの公式（2026-11-07 確認）。両社とも公式にメーカー希望小売価格の記載なし。通販の価格は 2026-11-08 に Mac の Chrome で楽天・Amazon の検索結果を読んだ一例（ops/heartbeat の reports/t584-wrap-prices.md）。出典は Yokottinnn/daily-hack-affiliate の docs/research/wrap-1m-tanka-products.md",
+  "columns": [
+    { "key": "size", "label": "幅×長さ" },
+    { "key": "material", "label": "素材（公式）" },
+    { "key": "heat", "label": "耐熱／耐冷（公式）" },
+    { "key": "perm", "label": "1mあたり（通販の一例）" }
+  ],
+  "pricesCheckedAt": null,
+  "items": [
+    {
+      "id": "new-kurewrap-30-50",
+      "brand": "クレハ",
+      "name": "NEWクレラップ レギュラー 30cm×50m",
+      "badge": "耐熱140℃",
+      "summary": "ポリ塩化ビニリデン製。Amazon の3本パック1,550円（11/8 時点）なら1本約517円・1mあたり約10.3円。",
+      "recommended": true,
+      "specs": {
+        "size": "30cm×50m",
+        "material": "ポリ塩化ビニリデン",
+        "heat": "140℃／−60℃",
+        "perm": "約10.3円（Amazon 3本1,550円）"
+      },
+      "source": "https://kurelife.jp/products/newkrewrap/",
+      "rakuten": { "keyword": "NEWクレラップ 30cm×50m", "must": ["クレラップ", "50m"], "exclude": ["業務用", "中古", "ケース販売"] },
+      "yahoo": { "keyword": "NEWクレラップ 30cm×50m", "must": ["クレラップ", "50m"], "exclude": ["業務用", "中古"] },
+      "amazon": { "keyword": "NEWクレラップ レギュラー 30cm×50m", "asin": null }
+    },
+    {
+      "id": "saranwrap-30-50",
+      "brand": "旭化成ホームプロダクツ",
+      "name": "サランラップ 30cm×50m",
+      "badge": "耐熱140℃",
+      "summary": "ポリ塩化ビニリデン製。Amazon の1本523円（11/8 時点）で1mあたり約10.5円。楽天の30本まとめ買いは1本433円（約8.7円）。",
+      "recommended": false,
+      "specs": {
+        "size": "30cm×50m",
+        "material": "ポリ塩化ビニリデン",
+        "heat": "140℃／−60℃",
+        "perm": "約10.5円（Amazon 1本523円）"
+      },
+      "source": "https://www.asahi-kasei.co.jp/saran/products/saranwrap/",
+      "rakuten": { "keyword": "サランラップ 30cm×50m", "must": ["サランラップ", "50m"], "exclude": ["業務用", "中古"] },
+      "yahoo": { "keyword": "サランラップ 30cm×50m", "must": ["サランラップ", "50m"], "exclude": ["業務用", "中古"] },
+      "amazon": { "keyword": "サランラップ 30cm×50m", "asin": null }
+    }
+  ]
+}
