@@ -1197,6 +1197,22 @@ try {
     });
     lines.push(`## 広告の行（${rows.length} 件）`, '', ...rows.filter(([t]) => !NG.test(t)).map(([t, st, h]) => `- ${t.replace(/\|/g, '／')}［${st || '表示なし'}］ — ${h}`), '');
   }
+  if (WHICH === 'vccpc2') {
+    // **読むだけ（t587）。** t586 は URL に条件を付けても 0 件・件数の表示なしだった。画面で「クリック報酬（CPC）」を選んで検索ボタンを押し、出た画面の文をそのまま読む
+    await go('https://aff.valuecommerce.ne.jp/ad/adList');
+    const r = p.locator('#ad_search_condition_form_reward_4');
+    lines.push(`- ラジオ: ${await r.count()} 個`);
+    await r.check({ force: true, timeout: 5000 }).catch((e) => lines.push(`- 選べない: ${String(e).split('\n')[0]}`));
+    const sel = p.locator('select[name="ad_search_condition_form[sortData]"]');
+    if (await sel.count()) await sel.first().selectOption('cpc').catch(() => {});
+    const btn = p.locator('form:has(#ad_search_condition_form_reward_4) button[type=submit], form:has(#ad_search_condition_form_reward_4) input[type=submit]').first();
+    lines.push(`- 検索ボタン: ${await btn.count()} 個（${(await btn.innerText().catch(() => '')) || (await btn.getAttribute('value').catch(() => '')) || ''}）`);
+    if (await btn.count()) { await btn.click({ timeout: 8000 }).catch((e) => lines.push(`- 押せない: ${String(e).split('\n')[0]}`)); await p.waitForLoadState('domcontentloaded', { timeout: 20000 }).catch(() => {}); await p.waitForTimeout(4000); }
+    lines.push(`- 押したあとの URL: ${p.url().replace(/^https:\/\/[^/]+/, '').slice(0, 400)}`, '');
+    const body = await p.evaluate(() => (document.querySelector('main, .main-content, #contents') || document.body).innerText.split('\n').map((x) => x.trim()).filter(Boolean));
+    const i0 = body.findIndex((x) => /検索結果|該当|見つかりません|0件/.test(x));
+    lines.push(`## 押したあとの本文（検索結果のあたり・全 ${body.length} 行）`, '', ...body.slice(Math.max(0, i0 - 3), i0 + 70).filter((x) => !NG.test(x)).map((x) => `- ${x.slice(0, 180)}`), '');
+  }
   if (WHICH === 'vccpc') {
     // **読むだけ（t586）。** VC の案件検索で「報酬条件: クリック報酬（CPC）」の絞り込みを付け、「クリック報酬が高い順」に並べて全部の行を出す（t585 で絞り込みの項目があると分かった）
     await go('https://aff.valuecommerce.ne.jp/ad/adList');
