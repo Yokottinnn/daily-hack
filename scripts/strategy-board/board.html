@@ -413,9 +413,15 @@ tr[data-ccount]::after{top:4px;right:4px}
     <tr><td><b>A8.net</b>（記事のバナー・文字リンク）</td><td>案件ごと（申込完了・新規契約・資料請求など）。下の一覧に各案件の条件を出す</td><td>案件ごと（定額か %）</td><td>A8 の提携中の一覧（Mac が毎日読む）</td></tr>
     <tr><td><b>バリューコマース</b>（一休・じゃらん・Yahoo!トラベルの普通のリンクを LinkSwitch が差し替え）</td><td>予約（条件は案件ごと <span class="pill warn">要確認</span>）</td><td>案件ごと</td><td>バリューコマースの管理画面</td></tr>
   </tbody></table></div>
-  <h3 data-cid="now.aff.h.plan">記事をあと何本増やせばよいか（目標から逆算）</h3>
-  <p class="src">「1 本の記事が 1 か月に稼ぐ額 ＝ 読者 × リンクを押す割合 × 買う割合 × 1 件の報酬」で、目標の月額に届く本数を出す。<b>実績で埋まる欄は毎日のデータから入れ、実績が無い欄は「仮定」と書いて手で変えられる</b>ようにしてある。</p>
-  <div class="calc" id="afl-calc"><p class="empty">データ待ち</p></div>
+  <h3 data-cid="now.aff.h.adsense">Google AdSense（クリック広告）の成果</h3>
+  <p class="note" data-cid="now.aff.adsense.wait"><span class="pill warn">まだ数字なし</span> AdSense は審査中（fieldbeside.com で申請・サブドメインの daily-hack.fieldbeside.com も対象）。通って配信が始まったら、下の項目を毎日ここに入れて、ASP の成果と並べて分析する（2026-11-08 利用者「明確にここでアフィリエイトの成果として分析して記載をしたい／まずは箱だけ」）。</p>
+  <div class="tbl"><table class="wf"><thead><tr><th>取れる数字</th><th>中身</th><th>ここでの使い方</th></tr></thead><tbody>
+    <tr data-cid="now.aff.adsense.m.earn"><td><b>推定収益</b>（ESTIMATED_EARNINGS）</td><td>その日・その月の見込みの収益（確定は翌月）</td><td>ASP の「発生」と同じ列に並べ、月の合計を出す</td></tr>
+    <tr data-cid="now.aff.adsense.m.pv"><td><b>ページビュー</b>・<b>ページ RPM</b>（PAGE_VIEWS・PAGE_VIEWS_RPM）</td><td>広告が出たページの表示回数と、1,000 ページビューあたりの収益</td><td>読者が増えたら収益がいくら増えるかの目安。成果報酬の記事 1 本あたりと比べる</td></tr>
+    <tr data-cid="now.aff.adsense.m.imp"><td><b>表示回数</b>・<b>クリック</b>・<b>クリック率</b>・<b>クリック単価</b>（IMPRESSIONS・CLICKS・IMPRESSIONS_CTR・COST_PER_CLICK）</td><td>広告の表示とクリック、1 クリックの単価</td><td>どの枠が押されているか、A8 のバナーの枠と入れ替える判断に使う</td></tr>
+    <tr data-cid="now.aff.adsense.d"><td><b>区分</b>（DATE・DOMAIN_NAME・AD_UNIT_NAME・URL_CHANNEL_NAME・COUNTRY_NAME）</td><td>日付・サイト・広告ユニット・URL チャネル・国ごとに分けられる</td><td>記事ごとの収益は URL チャネルを作れば分かる（作らないとサイト全体の数字だけ）</td></tr>
+  </tbody></table></div>
+  <p class="src">出典: <a href="https://developers.google.com/adsense/management/metrics-dimensions" target="_blank" rel="noopener">AdSense Management API の指標と区分</a>。取り込み方（API か管理画面を Mac で読むか）は、審査に通ってから決める。</p>
   <h2>収益の仕掛けの現状</h2>
   <div class="tbl"><table>
     <thead><tr><th>仕掛け</th><th>状態</th><th>メモ</th></tr></thead>
@@ -425,8 +431,8 @@ tr[data-ccount]::after{top:4px;right:4px}
     <tr><td>バリューコマース</td><td><span class="pill ok">稼働</span></td><td>LinkSwitch を PR 記事に入れた（10/17）。一休・じゃらん・Yahoo!トラベル・Yahoo!ショッピングの普通のリンクが成果リンクに変わる。3 店ボタンの Yahoo! もこれで成果になる（10/25）</td></tr>
     <tr><td>Amazon アソシエイト</td><td><span class="pill warn">仮の参加</span></td><td>もしも経由は 10/28 に否認（理由の開示なし）。10/30 に Amazon へ直接申し込み、ID dailyhack-22 で 3 店ボタンの Amazon を出している。<b>申し込みから 180 日以内（2027-04-28 ごろまで）に 3 件売れると本審査</b>（自分の注文は数えない・却下されたら再審査なし）</td></tr>
     <tr><td>紹介コード</td><td><span class="pill ok">稼働</span></td><td>楽天カード・リクルートカード等（src/data/referrals.ts）</td></tr>
-    <tr><td>忍者AdMAX</td><td><span class="pill ok">5 枠</span></td><td>1 クリック 1〜3 円。本文中 2 枠は未登録</td></tr>
-    <tr><td>AdSense</td><td><span class="pill bad">未稼働</span></td><td>配線済み。審査の申請待ち</td></tr>
+    <tr><td>忍者AdMAX</td><td><span class="pill bad">外した</span></td><td>2026-11-03 にサイト全体から外し、枠は A8 のバナーに入れ替えた（儲けにつながらないため）</td></tr>
+    <tr><td>AdSense</td><td><span class="pill warn">審査中</span></td><td>fieldbeside.com で申請（サブドメインも対象）。通ったら上の「Google AdSense の成果」に数字を入れる</td></tr>
     </tbody></table></div>
 </section>
 
