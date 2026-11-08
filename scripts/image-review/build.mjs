@@ -265,13 +265,21 @@ for (const b of src.split(/\n\s*\{\s*\n/)) {
   const key = km[1]; const st = setStatus[key] || {};
   const pm = b.match(/posted:\s*\[([^\]]*)\]/);
   const ids = st.ids || (pm ? [...pm[1].matchAll(/"(\d+)"/g)].map((x) => x[1]) : []);
-  const state = st.status || (ids.length ? "posted" : "draft");
+  // 2026-11-08: 予約済み（scheduledAt がある未投稿）は候補の一覧から外す（利用者「もう投稿が決まっている候補は一覧から除外して」）
+  let state = st.status || (ids.length ? "posted" : "draft");
+  let schedNote = "";
+  if (state === "draft" && st.scheduledAt) {
+    state = "scheduled";
+    const d = new Date(st.scheduledAt);
+    const j = new Date(d.getTime() + 9 * 3600 * 1000);
+    schedNote = `${j.getUTCMonth() + 1}/${j.getUTCDate()}（${"日月火水木金土"[j.getUTCDay()]}）${String(j.getUTCHours()).padStart(2, "0")}:${String(j.getUTCMinutes()).padStart(2, "0")} に予約済み`;
+  }
   const fromId = ids[0] ? new Date(Number((BigInt(ids[0]) >> 22n) + 1288834974657n)).toISOString().slice(0, 10) : null;
   const fromNote = (b.match(/(20\d\d-\d\d-\d\d)/) || [])[1] || null;
-  STATUS[key] = { state, ids, date: st.date || fromId || fromNote, note: st.note || "", next: st.next || null, why: st.why || "", check: st.check || [], purpose: st.purpose || "", main_parts: st.main_parts || null };
+  STATUS[key] = { state, ids, date: st.date || fromId || fromNote, note: st.note || schedNote, next: st.next || null, why: st.why || "", check: st.check || [], purpose: st.purpose || "", main_parts: st.main_parts || null };
 }
 const nState = (s) => Object.values(STATUS).filter((v) => v.state === s).length;
-console.log(`状態: 投稿候補 ${nState("draft")}・投稿済み ${nState("posted")}・終了/見送り ${nState("done") + nState("dropped")}`);
+console.log(`状態: 投稿候補 ${nState("draft")}・予約済み ${nState("scheduled")}・投稿済み ${nState("posted")}・終了/見送り ${nState("done") + nState("dropped")}`);
 
 for (const slot of ["/*__IMAGES__*/{}", "/*__POSTS__*/{}", "/*__STYLES__*/{}", "/*__STATUS__*/{}"]) {
   if (!src.includes(slot)) throw new Error("page.html に差し込み口が無い: " + slot);

@@ -82,6 +82,7 @@
   .state { display:inline-block; margin-bottom:4px; padding:1px 10px; border-radius:999px; font-size:11.5px; font-weight:700; border:1px solid currentColor; }
   .state.s-draft { color:var(--accent); }
   .state.s-posted { color:var(--done); }
+  .state.s-scheduled { color:#2f6fb5; }
   .state.s-done, .state.s-dropped { color:var(--muted); }
   .set { margin-block:26px 0; }
   .set > header { padding-bottom:6px; border-bottom:2px solid var(--ink); }
@@ -923,7 +924,7 @@
   }
 
   // **状態を付ける**（2026-10-31・利用者「投稿済みの投稿とそうではない投稿を区別するようにしてほしい」）
-  const STATE_NAME = { draft: "投稿候補", posted: "投稿済み", done: "終了", dropped: "見送り" };
+  const STATE_NAME = { draft: "投稿候補", scheduled: "予約済み", posted: "投稿済み", done: "終了", dropped: "見送り" };
   for (const set of SETS) {
     const st = STATUS[set.key] || {};
     set.state = st.state || (set.posted ? "posted" : "draft");
@@ -1205,7 +1206,7 @@
   const count = (s) => sections.filter((x) => x.set.state === s).length;
   tools.innerHTML =
     '<label>状態 <select data-k="state">' +
-      '<option value="draft"></option><option value="posted"></option><option value="ended"></option><option value="all"></option></select></label>' +
+      '<option value="draft"></option><option value="scheduled"></option><option value="posted"></option><option value="ended"></option><option value="all"></option></select></label>' +
     '<label>並べ方 <select data-k="sort">' +
       '<option value="next">おすすめ順</option><option value="new">新しい順</option><option value="old">古い順</option>' +
       '<option value="open">未対応のコメントが多い順</option><option value="title">題名順</option></select></label>' +
@@ -1214,9 +1215,10 @@
   function updateCounts() {
     const o = tools.querySelectorAll('[data-k="state"] option');
     o[0].textContent = "投稿候補（" + count("draft") + "）";
-    o[1].textContent = "投稿済み（" + count("posted") + "）";
-    o[2].textContent = "終了・見送り（" + (count("done") + count("dropped")) + "）";
-    o[3].textContent = "すべて（" + sections.length + "）";
+    o[1].textContent = "予約済み（" + count("scheduled") + "）";
+    o[2].textContent = "投稿済み（" + count("posted") + "）";
+    o[3].textContent = "終了・見送り（" + (count("done") + count("dropped")) + "）";
+    o[4].textContent = "すべて（" + sections.length + "）";
   }
   updateCounts();
   const nextBox = document.createElement("section");

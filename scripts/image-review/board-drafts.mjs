@@ -58,6 +58,7 @@ for (const [key, parts] of Object.entries(posts)) {
   if (!m) continue;
   const st = (status[key] && status[key].status) || "draft";
   if (m.posted || st !== "draft") continue;
+  if (status[key] && status[key].scheduledAt) continue; // 予約済みは下書きの一覧に出さない（カレンダーに出る）
   const sid = (styles[key] && styles[key].style) || "";
   const PL = { news: "湾岸ニュース", poikatsu: "ポイ活", blog: "ブログ紹介", social: "交流" }; const pu = (status[key] && status[key].purpose) || "";
   drafts.push({ key, title: (PL[pu] ? "【" + PL[pu] + "】" : "") + m.title, attach: m.attach, style: sid, styleName: styleName.get(sid) || sid,
