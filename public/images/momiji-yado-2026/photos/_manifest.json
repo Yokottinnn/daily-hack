@@ -1,0 +1,56 @@
+{
+ "hakone.jpg": {
+  "src": "https://moaart.or.jp/hakone/wp-content/uploads/2019/07/e363d399c563d3e16bd8d4656d123cd9.jpg",
+  "page": "https://www.moaart.or.jp/hakone/",
+  "credit": "箱根美術館 公式",
+  "fetched": "2026-11-08"
+ },
+ "hakone-2.jpg": {
+  "src": "https://moaart.or.jp/hakone/wp-content/uploads/2020/03/716dd4cda53ff101069ee6c08e704b22.jpg",
+  "page": "https://www.moaart.or.jp/hakone/",
+  "credit": "箱根美術館 公式",
+  "fetched": "2026-11-08"
+ },
+ "kawaguchiko.jpg": {
+  "src": "https://fujisan.ne.jp/wp/wp-content/uploads/2026/01/もみじ回廊-scaled.jpg",
+  "page": "https://fujisan.ne.jp/",
+  "credit": "富士河口湖町観光連盟 公式",
+  "fetched": "2026-11-08"
+ },
+ "nagatoro.jpg": {
+  "src": "https://www.nagatoro.gr.jp/wp-content/uploads/2020/04/54fc6c132a0d04492b2b4dc170049e1f.jpg",
+  "page": "https://www.nagatoro.gr.jp/",
+  "credit": "長瀞町観光協会 公式",
+  "fetched": "2026-11-08"
+ },
+ "tsukuba.jpg": {
+  "src": "https://mt-tsukuba.com/wordpress2026/wp-content/uploads/2026/02/intro_img04.jpg",
+  "page": "https://www.mt-tsukuba.com/",
+  "credit": "筑波山 公式",
+  "fetched": "2026-11-08"
+ },
+ "yoro.jpg": {
+  "src": "https://maruchiba.jp/lsc/upfile/spot/0001/0271/10271_1_l.jpg",
+  "page": "https://maruchiba.jp/spot/detail_10271.html",
+  "credit": "まるごとe! ちば（千葉県公式観光物産サイト）",
+  "fetched": "2026-11-08"
+ },
+ "yoro-2.jpg": {
+  "src": "https://maruchiba.jp/lsc/upfile/spot/0001/0271/10271_6_l.jpg",
+  "page": "https://maruchiba.jp/spot/detail_10271.html",
+  "credit": "まるごとe! ちば（千葉県公式観光物産サイト）",
+  "fetched": "2026-11-08"
+ },
+ "kameyama.jpg": {
+  "src": "https://maruchiba.jp/lsc/upfile/spot/0001/0818/10818_2_l.jpg",
+  "page": "https://maruchiba.jp/spot/detail_10818.html",
+  "credit": "まるごとe! ちば（千葉県公式観光物産サイト）",
+  "fetched": "2026-11-08"
+ },
+ "kameyama-2.jpg": {
+  "src": "https://maruchiba.jp/lsc/upfile/spot/0001/0818/10818_5_l.jpg",
+  "page": "https://maruchiba.jp/spot/detail_10818.html",
+  "credit": "まるごとe! ちば（千葉県公式観光物産サイト）",
+  "fetched": "2026-11-08"
+ }
+}
