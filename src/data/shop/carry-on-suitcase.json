@@ -59,8 +59,8 @@
       "recommended": false,
       "specs": { "price": "83,600円", "sum": "115.0cm（拡張時118.0cm）", "weight": "2.1kg", "volume": "36L（拡張42L）", "warranty": "条件付き10年" },
       "source": "https://www.samsonite.co.jp/samsonite/c-lite/spinner55exp/chili_red/ss-134679-1198.html",
-      "rakuten": { "keyword": "サムソナイト シーライト スピナー55", "must": ["シーライト", "55"], "exclude": ["カバー", "中古"] },
-      "yahoo": { "keyword": "サムソナイト シーライト スピナー55", "must": ["シーライト", "55"], "exclude": ["カバー", "中古"] },
+      "rakuten": { "keyword": "サムソナイト シーライト スピナー55", "must": ["シーライト", "55"], "exclude": ["カバー", "中古", "並行輸入"] },
+      "yahoo": { "keyword": "サムソナイト シーライト スピナー55", "must": ["シーライト", "55"], "exclude": ["カバー", "中古", "並行輸入"] },
       "amazon": { "keyword": "サムソナイト シーライト スピナー55", "asin": null }
     },
     {
