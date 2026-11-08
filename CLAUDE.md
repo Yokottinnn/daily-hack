@@ -383,6 +383,7 @@ Claude が X に直接投稿することはない。確立している経路は�
   [`docs/cross-session-requests.md`](docs/cross-session-requests.md) に依頼として書く。**
   黙って見送るのも、勝手に直すのも、どちらも違反。
 - セッションどうしは直接のメッセージを送れない。記録はいつも Git の依頼表。
+- **調査・分析の結果は、その場の調査も含めて必ず作戦室の「分析レポート」（db の `analyses`）に 1 件入れる**（利用者「こういったアドホックの調査情報は絶対に作戦室に格納して／もちろんファイルとしても取得しておいて、ちゃんと以降の開発に活かせようにするのはOK」）。項目は date・by・kind・title・question（利用者の問い）・summary・points（出典つき）・url。ファイル（docs/ など）に残すのは併用でよいが、作戦室に入れずに「ファイルにまとめました」で終えない。affiliate・blog3・tweet2 共通
 - **共同作業は、相手のセッションに「1 回だけの予約」で直接届ける（2026-11-08 利用者がダイアログで「共同作業は確認なしで予約で届ける」を選んだ）。** セッションどうしの直接のメッセージ（SendMessage）はクラウドの別コンテナには届かない（同じマシン・リモートコントロールの相手だけ）。代わりに claude-code-remote の `create_trigger` に `persistent_session_id`（相手のセッション ID）と `run_once_at`（数分後）を付けると、相手のセッションにその文が利用者の発言として届き、相手が起きる（2026-11-08 に affiliate → blog3 で配信成功を確認）。利用者が一緒に作るよう指示した作業は、affiliate・blog3・tweet2 のどの向きでも、利用者に聞かずにこれで届けてよい。届けたら依頼表にも同じ内容を 1 行書く（記録はいつも依頼表）。宛先: affiliate `session_01BFbKBktY8SaGSADAuj4xcj` ／ blog3 `session_01RqPaqffepEWsiAkvhJEvmW` ／ tweet2 `session_01H2JQqdMCeKNiMVUTrAyX2t`。中身は相手がそれだけで動けるように書く（依頼表の行・ファイルのパス・PR 番号）。利用者の判断が要るものは、届いた側がダイアログで利用者に聞く
 - 共有ファイル（`CLAUDE.md` / `docs/session-*.md` / `.claude/hooks/`）を触る前に必ず `git pull`。
 
