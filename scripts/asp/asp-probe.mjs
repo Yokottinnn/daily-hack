@@ -1197,6 +1197,102 @@ try {
     });
     lines.push(`## 広告の行（${rows.length} 件）`, '', ...rows.filter(([t]) => !NG.test(t)).map(([t, st, h]) => `- ${t.replace(/\|/g, '／')}［${st || '表示なし'}］ — ${h}`), '');
   }
+  if (WHICH === 'vccpc2') {
+    // **読むだけ（t587）。** t586 は URL に条件を付けても 0 件・件数の表示なしだった。画面で「クリック報酬（CPC）」を選んで検索ボタンを押し、出た画面の文をそのまま読む
+    await go('https://aff.valuecommerce.ne.jp/ad/adList');
+    const r = p.locator('#ad_search_condition_form_reward_4');
+    lines.push(`- ラジオ: ${await r.count()} 個`);
+    await r.check({ force: true, timeout: 5000 }).catch((e) => lines.push(`- 選べない: ${String(e).split('\n')[0]}`));
+    const sel = p.locator('select[name="ad_search_condition_form[sortData]"]');
+    if (await sel.count()) await sel.first().selectOption('cpc').catch(() => {});
+    const btn = p.locator('form:has(#ad_search_condition_form_reward_4) button[type=submit], form:has(#ad_search_condition_form_reward_4) input[type=submit]').first();
+    lines.push(`- 検索ボタン: ${await btn.count()} 個（${(await btn.innerText().catch(() => '')) || (await btn.getAttribute('value').catch(() => '')) || ''}）`);
+    if (await btn.count()) { await btn.click({ timeout: 8000 }).catch((e) => lines.push(`- 押せない: ${String(e).split('\n')[0]}`)); await p.waitForLoadState('domcontentloaded', { timeout: 20000 }).catch(() => {}); await p.waitForTimeout(4000); }
+    lines.push(`- 押したあとの URL: ${p.url().replace(/^https:\/\/[^/]+/, '').slice(0, 400)}`, '');
+    const body = await p.evaluate(() => (document.querySelector('main, .main-content, #contents') || document.body).innerText.split('\n').map((x) => x.trim()).filter(Boolean));
+    const i0 = body.findIndex((x) => /検索結果|該当|見つかりません|0件/.test(x));
+    lines.push(`## 押したあとの本文（検索結果のあたり・全 ${body.length} 行）`, '', ...body.slice(Math.max(0, i0 - 3), i0 + 70).filter((x) => !NG.test(x)).map((x) => `- ${x.slice(0, 180)}`), '');
+  }
+  if (WHICH === 'vccpc') {
+    // **読むだけ（t586）。** VC の案件検索で「報酬条件: クリック報酬（CPC）」の絞り込みを付け、「クリック報酬が高い順」に並べて全部の行を出す（t585 で絞り込みの項目があると分かった）
+    await go('https://aff.valuecommerce.ne.jp/ad/adList');
+    const ctl = await p.evaluate(() => {
+      const out = [];
+      for (const lab of document.querySelectorAll('label')) {
+        if (!/クリック報酬（CPC）|クリック報酬\(CPC\)/.test(lab.innerText || '')) continue;
+        const inp = lab.control || lab.querySelector('input') || (lab.htmlFor && document.getElementById(lab.htmlFor));
+        if (inp) out.push({ name: inp.name, value: inp.value, type: inp.type, id: inp.id });
+      }
+      const sel = [...document.querySelectorAll('select')].map((s) => ({ name: s.name, opts: [...s.options].map((o) => [o.value, o.text.trim()]) })).filter((s) => s.opts.some(([, t]) => /クリック報酬が高い順/.test(t)));
+      return { inputs: out, sorts: sel };
+    });
+    lines.push('## 絞り込みの部品', '', '```', JSON.stringify(ctl).slice(0, 1500), '```', '');
+    const inp = ctl.inputs[0];
+    if (!inp) { lines.push('- 「クリック報酬（CPC）」の入力が見つからない'); }
+    else {
+      const sort = ctl.sorts[0]; const so = sort ? sort.opts.find(([, t]) => /クリック報酬が高い順/.test(t)) : null;
+      const total = [];
+      for (let pg = 1; pg <= 5; pg++) {
+        const q = new URLSearchParams(); q.set(inp.name, inp.value); q.set('ad_search_condition_form[appStatus]', '');
+        if (sort && so) q.set(sort.name, so[0]); q.set('page', String(pg));
+        await go('https://aff.valuecommerce.ne.jp/ad/adList?' + q.toString());
+        if (pg === 1) lines.push(`- 開いた URL: ${p.url().replace(/^https:\/\/[^/]+/, '')}`, `- ${await p.evaluate(() => ((document.body.innerText.match(/検索結果[：:]\s*[^\n]{0,30}/) || [])[0] || '件数の表示なし'))}`, '');
+        const rows = await p.evaluate(() => {
+          const seen = new Set(); const out = [];
+          for (const a of document.querySelectorAll('a[href*="adDetail/"]')) {
+            const key = a.href.replace(/[?#].*$/, ''); if (seen.has(key)) continue; seen.add(key);
+            let r = a; for (let i = 0; i < 10 && r.parentElement; i++) { r = r.parentElement; if ((r.innerText || '').includes('報酬情報')) break; }
+            const t = (r.innerText || '').replace(/\s+/g, ' ');
+            const name = (t.match(/^(.{0,90}?)（広告主ID/) || [])[1] || (a.innerText || '').trim();
+            const st = (t.match(/提携中|提携済み?|提携待ち|未提携|審査あり|即時提携/) || [''])[0];
+            const rw = (t.split('報酬情報')[1] || '').slice(0, 160);
+            out.push([name.trim().slice(0, 80), st, rw.trim(), key.replace(/^https:\/\/[^/]+/, '')]);
+          }
+          return out;
+        });
+        const fresh = rows.filter((r) => !total.some((x) => x[3] === r[3]));
+        if (!fresh.length) break; total.push(...fresh);
+      }
+      lines.push(`## クリック報酬（CPC）で絞った案件（${total.length} 件・クリック報酬が高い順）`, '', ...total.filter(([n]) => !NG.test(n)).map(([n, st, rw, h]) => `- ${n.replace(/\|/g, '／')}［${st || '状態の表示なし'}］ ${rw.replace(/\|/g, '／')} — ${h}`), '');
+    }
+  }
+  if (WHICH === 'clicksearch') {
+    // **読むだけ（t585・2026-11-08）。** ブログに貼れるクリック報酬の案件が A8・VC にどれだけあるか。検索画面の絞り込みの項目と、
+    // 「クリック」で探した結果の行のうち報酬欄に「クリック」を含むものを出す。申請・提携のボタンは押さない
+    const filters = async () => p.evaluate(() => {
+      const out = new Set();
+      document.querySelectorAll('label, option, legend, th, dt, .label, span').forEach((e) => { const t = (e.innerText || e.textContent || '').replace(/\s+/g, ' ').trim(); if (t && t.length < 40 && /報酬|クリック|CPC|成果/.test(t)) out.add(t); });
+      return [...out].slice(0, 40);
+    });
+    const rowsWith = async (hrefRe) => p.evaluate((src) => {
+      const re = new RegExp(src); const seen = new Set(); const out = [];
+      for (const a of document.querySelectorAll('a[href]')) {
+        if (!re.test(a.href)) continue; const key = a.href.replace(/[&?](tag|spot)=[^&]*/g, ''); if (seen.has(key)) continue; seen.add(key);
+        let r = a; for (let i = 0; i < 8 && r.parentElement; i++) { r = r.parentElement; if (r.tagName === 'TR' || r.tagName === 'LI' || (r.innerText || '').length > 200) break; }
+        const t = (r.innerText || '').replace(/\s+/g, ' ').trim();
+        if (/クリック|CPC/.test(t)) out.push([t.slice(0, 220), key.replace(/^https:\/\/[^/]+/, '')]);
+      }
+      return out.slice(0, 60);
+    }, hrefRe.source);
+    // A8
+    await go('https://media-console.a8.net/program/search/top'); await a8Reauth(p, 'https://media-console.a8.net/program/search/top');
+    lines.push(`## A8 の検索画面の絞り込み（報酬・クリックを含む項目）（${here()}）`, '', ...(await filters()).filter((x) => !NG.test(x)).map((x) => `- ${x}`), '');
+    for (const kw of ['クリック報酬', 'クリック']) {
+      const u = `https://media-console.a8.net/program/search/keyword?keywords=${encodeURIComponent(kw)}`; await go(u); await a8Reauth(p, u);
+      const total = await p.evaluate(() => ((document.body.innerText.match(/[\d,]+\s*件/) || [])[0] || ''));
+      const rows = await rowsWith(/programId=/);
+      lines.push(`## A8 で「${kw}」を検索（${total}）— 行の文にクリックを含むもの ${rows.length} 件`, '', ...rows.filter(([t]) => !NG.test(t)).map(([t, h]) => `- ${t.replace(/\|/g, '／')} — ${h}`), '');
+    }
+    // VC
+    await go('https://aff.valuecommerce.ne.jp/ad/adList');
+    lines.push(`## VC の検索画面の絞り込み（報酬・クリック・CPC を含む項目）（${here()}）`, '', ...(await filters()).filter((x) => !NG.test(x)).map((x) => `- ${x}`), '');
+    for (const kw of ['クリック報酬', 'クリック', 'CPC']) {
+      await go(`https://aff.valuecommerce.ne.jp/ad/adList?${encodeURIComponent('ad_search_condition_form[keyword]')}=${encodeURIComponent(kw)}&${encodeURIComponent('ad_search_condition_form[appStatus]')}=`);
+      const total = await p.evaluate(() => ((document.body.innerText.match(/検索結果[：:]\s*[^\n]{0,30}/) || [])[0] || ''));
+      const rows = await rowsWith(/adDetail\/\d+/);
+      lines.push(`## VC で「${kw}」を検索（${total}）— 行の文にクリック・CPC を含むもの ${rows.length} 件`, '', ...rows.filter(([t]) => !NG.test(t)).map(([t, h]) => `- ${t.replace(/\|/g, '／')} — ${h}`), '');
+    }
+  }
   if (WHICH === 'vcsites2') {
     // **読むだけ（t584）。** t583 で「サイト設定」の本文が条件に当たらず空だったので、全部の行を伏せ字つきで出す（登録しているサイトの種類・URL・審査の状態を見る）
     await go('https://aff.valuecommerce.ne.jp/account/siteManage');
