@@ -3,10 +3,22 @@
   "title": "食品用ラップ 30cm×50m（クレラップ・サランラップ）",
   "_note": "素材・耐熱はクレハ（kurelife.jp）と旭化成ホームプロダクツの公式（2026-11-07 確認）。両社とも公式にメーカー希望小売価格の記載なし。通販の価格は 2026-11-08 に Mac の Chrome で楽天・Amazon の検索結果を読んだ一例（ops/heartbeat の reports/t584-wrap-prices.md）。出典は Yokottinnn/daily-hack-affiliate の docs/research/wrap-1m-tanka-products.md",
   "columns": [
-    { "key": "size", "label": "幅×長さ" },
-    { "key": "material", "label": "素材（公式）" },
-    { "key": "heat", "label": "耐熱／耐冷（公式）" },
-    { "key": "perm", "label": "1mあたり（通販の一例）" }
+    {
+      "key": "size",
+      "label": "幅×長さ"
+    },
+    {
+      "key": "material",
+      "label": "素材（公式）"
+    },
+    {
+      "key": "heat",
+      "label": "耐熱／耐冷（公式）"
+    },
+    {
+      "key": "perm",
+      "label": "1mあたり（通販の一例）"
+    }
   ],
   "pricesCheckedAt": null,
   "items": [
@@ -24,9 +36,44 @@
         "perm": "約10.3円（Amazon 3本1,550円）"
       },
       "source": "https://kurelife.jp/products/newkrewrap/",
-      "rakuten": { "keyword": "NEWクレラップ 30cm×50m", "must": ["クレラップ", "50m"], "exclude": ["業務用", "中古", "ケース販売"] },
-      "yahoo": { "keyword": "NEWクレラップ 30cm×50m", "must": ["クレラップ", "50m"], "exclude": ["業務用", "中古"] },
-      "amazon": { "keyword": "NEWクレラップ レギュラー 30cm×50m", "asin": null }
+      "rakuten": {
+        "keyword": "NEWクレラップ 30cm×50m",
+        "must": [
+          "クレラップ",
+          "50m",
+          "30cm"
+        ],
+        "exclude": [
+          "業務用",
+          "中古",
+          "ケース販売",
+          "22cm",
+          "15cm",
+          "20m",
+          "ミニ"
+        ]
+      },
+      "yahoo": {
+        "keyword": "NEWクレラップ 30cm×50m",
+        "must": [
+          "クレラップ",
+          "50m",
+          "30cm"
+        ],
+        "exclude": [
+          "業務用",
+          "中古",
+          "22cm",
+          "15cm",
+          "20m",
+          "ミニ",
+          "ケース販売"
+        ]
+      },
+      "amazon": {
+        "keyword": "NEWクレラップ レギュラー 30cm×50m",
+        "asin": null
+      }
     },
     {
       "id": "saranwrap-30-50",
@@ -42,9 +89,44 @@
         "perm": "約10.5円（Amazon 1本523円）"
       },
       "source": "https://www.asahi-kasei.co.jp/saran/products/saranwrap/",
-      "rakuten": { "keyword": "サランラップ 30cm×50m", "must": ["サランラップ", "50m"], "exclude": ["業務用", "中古"] },
-      "yahoo": { "keyword": "サランラップ 30cm×50m", "must": ["サランラップ", "50m"], "exclude": ["業務用", "中古"] },
-      "amazon": { "keyword": "サランラップ 30cm×50m", "asin": null }
+      "rakuten": {
+        "keyword": "サランラップ 30cm×50m",
+        "must": [
+          "サランラップ",
+          "50m",
+          "30cm"
+        ],
+        "exclude": [
+          "業務用",
+          "中古",
+          "22cm",
+          "15cm",
+          "20m",
+          "ミニ",
+          "ケース販売"
+        ]
+      },
+      "yahoo": {
+        "keyword": "サランラップ 30cm×50m",
+        "must": [
+          "サランラップ",
+          "50m",
+          "30cm"
+        ],
+        "exclude": [
+          "業務用",
+          "中古",
+          "22cm",
+          "15cm",
+          "20m",
+          "ミニ",
+          "ケース販売"
+        ]
+      },
+      "amazon": {
+        "keyword": "サランラップ 30cm×50m",
+        "asin": null
+      }
     }
   ]
 }
