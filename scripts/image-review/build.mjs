@@ -82,7 +82,7 @@ const FILES = {
   "x-poikatsu-5-0": ["1-entry.jpg"],
   // **未投稿**（2026-11-01）。湾岸ニュースの候補。素材はブログの記事で blog3 が取った公式・プレスリリースの画像（利用者「公式から画像を持ってきてうまく成形してアイキャッチ画像を作る」）
   "tim-burton-labyrinth-toyosu-2026": ["1-official.jpg", "2-point.jpg"],
-  "lalaport-toyosu-black-friday-2026": ["1-official.jpg", "2-point.jpg", "3-flyer-top.jpg", "4-flyer-bottom.jpg"],
+  "lalaport-toyosu-black-friday-2026": ["1-official.jpg", "2-point.jpg", "3-flyer-top.jpg", "4-prizes.jpg"],
   "tokyo-christmas-market-shintoyosu-2026": ["1-official.jpg", "2-point.jpg"],
   "ariake-garden-flying-car-2026": ["2-point.jpg"],
   "kidzania-tokyo-adult-christmas-2026": ["2-point.jpg", "1-official.jpg", "3-price.jpg"],
