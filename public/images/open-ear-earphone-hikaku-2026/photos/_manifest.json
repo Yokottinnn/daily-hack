@@ -1,0 +1,32 @@
+{
+ "huawei-freeclip-2.jpg": {
+  "page": "https://consumer.huawei.com/jp/audio/freeclip2/",
+  "credit": "HUAWEI 公式",
+  "fetched": "2026-11-08"
+ },
+ "sony-linkbuds-clip.jpg": {
+  "page": "https://www.sony.jp/headphone/products/LinkBuds_Clip/",
+  "credit": "ソニー 公式",
+  "fetched": "2026-11-08"
+ },
+ "shokz-opendots-2.jpg": {
+  "page": "https://jp.shokz.com/products/opendots-2",
+  "credit": "Shokz 公式ストア",
+  "fetched": "2026-11-08"
+ },
+ "shokz-opendots-one.jpg": {
+  "page": "https://jp.shokz.com/products/opendots-one",
+  "credit": "Shokz 公式ストア",
+  "fetched": "2026-11-08"
+ },
+ "bose-ultra-open.jpg": {
+  "page": "https://www.bose.co.jp/p/sale/bose-ultra-open-earbuds/ULT-HEADPHONEOPN.html",
+  "credit": "Bose 公式",
+  "fetched": "2026-11-08"
+ },
+ "anker-aeroclip.jpg": {
+  "page": "https://www.ankerjapan.com/products/a3388",
+  "credit": "Anker Japan 公式",
+  "fetched": "2026-11-08"
+ }
+}
