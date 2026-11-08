@@ -88,10 +88,16 @@ const yandexVerification = import.meta.env.PUBLIC_YANDEX_VERIFICATION ?? '';
     <!-- Fonts (mockup準拠: Zen Maru Gothic + RocknRoll One のみ) -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@400;500;700;900&family=RocknRoll+One&display=swap"
-      rel="stylesheet"
-    />
+    {/* 2026-11-07: フォント（日本語で約 1.9 MB）が、ページの準備（地図を動かす処理も）と回線を取り合っていた。
+        スマホ相当の回線で測ると、地図が見えるまで 15.1 秒 → フォントを外すと 5.3 秒。ページの準備が終わってから読み込み、届いたら切り替える（見た目は同じ） */}
+    <script is:inline>
+      (function () {
+        var href = 'https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@400;500;700;900&family=RocknRoll+One&display=swap';
+        var add = function () { var l = document.createElement('link'); l.rel = 'stylesheet'; l.href = href; document.head.appendChild(l); };
+        if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', add); else add();
+      })();
+    </script>
+    <noscript><link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@400;500;700;900&family=RocknRoll+One&display=swap" rel="stylesheet" /></noscript>
 
     <!-- Structured data: WebSite -->
     <script type="application/ld+json" set:html={JSON.stringify({
@@ -169,11 +175,15 @@ const yandexVerification = import.meta.env.PUBLIC_YANDEX_VERIFICATION ?? '';
     {adsenseEnabled && (
       <>
         <meta name="google-adsense-account" content={adsenseClient} />
-        <script
-          async
-          src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${adsenseClient}`}
-          crossorigin="anonymous"
-        />
+        {/* 2026-11-07 利用者が「広告の読み込みを後回しにする」を選んだ。スマホ相当で、広告を止めると地図が見えるまで約 3 秒短くなった。
+            審査用の印（上の meta）は先頭に残し、広告の本体はページの読み込みが終わってから読む */}
+        <script is:inline define:vars={{ adsenseClient }}>
+          (function () {
+            var add = function () { var s = document.createElement('script'); s.async = true; s.crossOrigin = 'anonymous'; s.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=' + adsenseClient; document.head.appendChild(s); };
+            var later = function () { if ('requestIdleCallback' in window) requestIdleCallback(add, { timeout: 3000 }); else setTimeout(add, 1500); };
+            if (document.readyState === 'complete') later(); else addEventListener('load', later, { once: true });
+          })();
+        </script>
       </>
     )}
   </head>

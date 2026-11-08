@@ -65,7 +65,7 @@ const ld = [
           eventAttendanceMode: 'https://schema.org/OfflineEventAttendanceMode',
           eventStatus: 'https://schema.org/EventScheduled',
           url: `${site}/posts/${e.slug}/`,
-          ...(e.img ? { image: new URL(e.img, site).toString() } : {}),
+          ...(e.cover ? { image: new URL(e.cover, site).toString() } : {}),
           ...(e.isFree ? { isAccessibleForFree: true } : {}),
           location: {
             '@type': 'Place',
