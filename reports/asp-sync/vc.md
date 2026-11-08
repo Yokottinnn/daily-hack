@@ -1,6 +1,6 @@
 # バリューコマース（asp-sync）
 
-生成: **2026-11-06T23:54:27.759Z**
+生成: **2026-11-08T11:23:50.909Z**
 
 - ログイン: **できている**
 - 最終 URL: https://aff.valuecommerce.ne.jp/home
@@ -17,13 +17,14 @@
 | MyLink一括変換 | https://aff.valuecommerce.ne.jp/tools/mylinkEcList |
 | サイト設定 | https://aff.valuecommerce.ne.jp/account/siteManage |
 | 【重要】広告主サイトの稼働状況に関するお知らせ | https://www.valuecommerce.ne.jp/support/maintenance/22906.html |
-| 電子コミックサイト ブッコミ 月額コース契約プログラム | https://aff.valuecommerce.ne.jp/ad/adDetail/2171815?tag=cm&spot=d |
-| 遊び予約／レジャーチケット購入サイト「アソビュー！」 | https://aff.valuecommerce.ne.jp/ad/adDetail/2130178?tag=cm&spot=d |
 | 世界最大級！ツアーアクティビティの検索サイト「Liigo」販促プログラム | https://aff.valuecommerce.ne.jp/ad/adDetail/2161122?tag=cm&spot=d |
 | VAIOストア 販売促進プログラム | https://aff.valuecommerce.ne.jp/ad/adDetail/2169074?tag=cm&spot=d |
+| 電子コミックサイト ブッコミ 月額コース契約プログラム | https://aff.valuecommerce.ne.jp/ad/adDetail/2171815?tag=cm&spot=d |
+| 遊び予約／レジャーチケット購入サイト「アソビュー！」 | https://aff.valuecommerce.ne.jp/ad/adDetail/2130178?tag=cm&spot=d |
 | Audibleアフィリエイト紹介プログラム | https://aff.valuecommerce.ne.jp/ad/adDetail/2174874 |
 | ふるさと納税「ふるなび」プログラム | https://aff.valuecommerce.ne.jp/ad/adDetail/2142798 |
 | 【LYPプレミアム（旧Yahoo!プレミアム）】 会員獲得プログラム | https://aff.valuecommerce.ne.jp/ad/adDetail/2082539 |
+| 国内総合プログラム | https://aff.valuecommerce.ne.jp/ad/adDetail/2003520 |
 | 広告主を組み合わせて紹介することで、注文数アップ。相性の良いカテゴリーの組み合わせとおすすめ広告主、効果的な紹介方法をご | https://www.valuecommerce.ne.jp/event/advertiser-combination/ |
 | 広告主のセール・キャンペーン情報が一覧に。成果につながる投稿ネタがすぐ見つかる！ | https://www.valuecommerce.ne.jp/event/ad_calendar/ |
 | アフィリエイトサイト運営者利用規約 | http://www.valuecommerce.ne.jp/st_affiliate/terms.html |
@@ -33,8 +34,9 @@
 ```text
 ログアウト
 人気ワード：
-ヤマダ電機|
-ALSOK
+るるぶトラベル|
+サブスク|
+ペット保険
 ダッシュボード
 レポート
 詳細検索
@@ -65,10 +67,10 @@ Chrome拡張機能
 自己アフィリエイト
 Daily Hack あんたバカぁ?まだ損してるの? （ID:3776384）
 LinkSwitch提携候補先
-レポート期間： 2026/10/06 ～ 2026/11/06
+レポート期間： 2026/10/07 ～ 2026/11/07
 1 (current)
 広告主名 リンク先URL数 リンク先URL表示回数 広告プログラム
-ジャルパック 国内ツアー [提携申請済] 171 28 広告プログラムを見る
+ジャルパック 国内ツアー [提携申請済] 182 30 広告プログラムを見る
 Softbank 光 55 15 広告プログラムを見る
 サンワダイレクト 15 15 広告プログラムを見る
 ふるさと納税「ふるなび」 [提携申請済] 76 9 広告プログラムを見る

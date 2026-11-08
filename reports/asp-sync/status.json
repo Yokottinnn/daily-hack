@@ -1,17 +1,6 @@
 {
-  "generated": "2026-11-06T23:54:27.759Z",
+  "generated": "2026-11-08T11:23:50.909Z",
   "providers": {
-    "a8": {
-      "name": "A8.net",
-      "loggedIn": true,
-      "needsHuman": false,
-      "credentialsInKeychain": true,
-      "reason": "",
-      "url": "https://media-console.a8.net/program/list/partnered",
-      "title": "参加中プログラム｜A8.netメディア管理画面",
-      "partnered": 100,
-      "menus": 40
-    },
     "vc": {
       "name": "バリューコマース",
       "loggedIn": true,
@@ -67,7 +56,7 @@
           ]
         }
       ],
-      "menus": 17
+      "menus": 18
     }
   }
 }
