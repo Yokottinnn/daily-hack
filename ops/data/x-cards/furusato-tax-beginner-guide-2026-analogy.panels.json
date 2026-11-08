@@ -1,0 +1,17 @@
+{
+ "_doc": "アナロジー型の投稿の図（自作）。node scripts/gen-x-panels.mjs ops/data/x-cards/furusato-tax-beginner-guide-2026-analogy.panels.json",
+ "_note": "2026-11-08 x-post-copy §1-G。自作の図なので出所の表記は要らない",
+ "imageBase": "public/images/furusato-tax-beginner-guide-2026",
+ "out": "public/images/furusato-tax-beginner-guide-2026/x",
+ "theme": "ink",
+ "panels": [
+  {
+   "file": "a1-question.jpg",
+   "kind": "html",
+   "noHeader": true,
+   "html": "<div class=\"wrap\"><div class=\"k\">ふるさと納税</div><div class=\"t\">1万円で<em>3,000円の物</em>を<br>買って、なんで得？</div><div class=\"flow\"><div class=\"st\"><b>1万円</b><span>寄付する</span></div><div class=\"ar\">▼</div><div class=\"st\"><b>−8,000円</b><span>翌年の税金から引かれる</span></div><div class=\"ar\">▼</div><div class=\"st hi\"><b>実質2,000円</b><span>＋返礼品が届く</span></div></div><div class=\"nt\">2,000円は上限内なら何件寄付しても<b>年1回分</b>だけ</div></div>",
+   "css": "main{padding:0;height:1080px;display:block}\n.wrap{position:relative;height:1080px;color:#fff;background:linear-gradient(180deg,#2A1923,#1E1219);padding:64px 60px;display:flex;flex-direction:column}\n.k{align-self:flex-start;font-size:30px;font-weight:900;color:#2A1923;background:#F5C518;border-radius:999px;padding:6px 22px}\n.t{font-size:66px;font-weight:900;line-height:1.25;margin-top:16px}\n.t em{font-style:normal;color:#EC5C90}\n.flow{flex:1;display:flex;flex-direction:column;justify-content:center;gap:10px;margin-top:20px}\n.st{background:rgba(255,255,255,.08);border-radius:18px;padding:18px 28px;display:flex;align-items:baseline;gap:22px}\n.st b{font-size:58px;font-weight:900;color:#fff;min-width:330px}\n.st span{font-size:32px;font-weight:700;color:#f3dbe5}\n.st.hi{background:#EC5C90}\n.st.hi b,.st.hi span{color:#fff}\n.ar{text-align:center;font-size:30px;color:#F5C518;line-height:1}\n.nt{font-size:32px;font-weight:700;margin-top:18px;color:#f3dbe5}\n.nt b{color:#F5C518}",
+   "alt": "ふるさと納税の仕組みの図。1万円寄付する、翌年の税金から8,000円引かれる、実質2,000円で返礼品が届く。2,000円は上限内なら何件寄付しても年1回分だけ。図はDaily Hackが作成"
+  }
+ ]
+}
