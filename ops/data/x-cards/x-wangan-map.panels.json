@@ -1,0 +1,41 @@
+{
+ "_doc": "湾岸イベントマップの告知画像。node scripts/gen-x-panels.mjs ops/data/x-cards/x-wangan-map.panels.json",
+ "_note": "2026-11-08 利用者「湾岸エリアのイベントマップの告知投稿をつくって候補に入れて」。素材は自サイトのマップの画面（ローカルで撮影）。地図と駅の権利表記・写っている公式画像の出所は ALT に書く",
+ "imageBase": "public/images/x-wangan-map",
+ "out": "public/images/x-wangan-map/x",
+ "theme": "ink",
+ "panels": [
+  {
+   "file": "1-map.jpg",
+   "kind": "html",
+   "noHeader": true,
+   "html": "<div class=\"wrap\"><div class=\"band\"><div class=\"k\">豊洲・有明・晴海・お台場</div><div class=\"t\">湾岸のイベント、<em>地図1枚</em>にしたわ</div></div><img class=\"ph\" src=\"photos/map-all.jpg\" alt=\"\"><div class=\"foot\"><span>📅 今日・今週・今月</span><span>🆓 無料だけ</span><span>📍 ピンで日付と場所</span></div></div>",
+   "css": "main{padding:0;height:1080px;display:block}\n.wrap{position:relative;height:1080px;background:#1E1219;color:#fff;overflow:hidden}\n.band{height:230px;padding:40px 56px 0;box-sizing:border-box}\n.k{display:inline-block;font-size:28px;font-weight:900;color:#2A1923;background:#F5C518;border-radius:999px;padding:5px 20px}\n.t{font-size:58px;font-weight:900;line-height:1.2;margin-top:14px;white-space:nowrap}\n.t em{font-style:normal;color:#EC5C90}\n.ph{position:absolute;left:0;top:230px;width:1080px;height:675px;object-fit:cover}\n.foot{position:absolute;left:0;right:0;bottom:0;height:175px;display:flex;align-items:center;justify-content:center;gap:22px}\n.foot span{font-size:32px;font-weight:900;background:rgba(255,255,255,.1);border-radius:14px;padding:14px 20px}",
+   "alt": "Daily Hackの湾岸エリアイベントマップの画面。豊洲・有明・晴海・勝どき・お台場の地図に、これからの催しのピンが並んでいる。今日・今週・今月・無料だけで絞り込める。地図：国土地理院（地理院タイル・淡色地図）をもとに作成、駅：© OpenStreetMap contributors"
+  },
+  {
+   "file": "2-xmas.jpg",
+   "kind": "html",
+   "noHeader": true,
+   "html": "<div class=\"wrap\"><div class=\"band\"><div class=\"k\">11/20〜12/25・新豊洲</div><div class=\"t\"><em>クリスマスマーケット</em>もピンに</div></div><img class=\"ph\" src=\"photos/pop-xmas.jpg\" alt=\"\"></div>",
+   "css": "main{padding:0;height:1080px;display:block}\n.wrap{position:relative;height:1080px;background:#1E1219;color:#fff;overflow:hidden}\n.band{height:230px;padding:40px 56px 0;box-sizing:border-box}\n.k{display:inline-block;font-size:28px;font-weight:900;color:#2A1923;background:#F5C518;border-radius:999px;padding:5px 20px}\n.t{font-size:58px;font-weight:900;line-height:1.2;margin-top:14px;white-space:nowrap}\n.t em{font-style:normal;color:#EC5C90}\n.ph{position:absolute;left:0;top:230px;width:1080px;height:850px;object-fit:cover;object-position:center top}",
+   "alt": "イベントマップで東京クリスマスマーケット2026 in 新豊洲のピンを押した画面。11月20日〜12月25日。写っている画像は主催者の公式画像。地図：国土地理院（地理院タイル・淡色地図）をもとに作成、駅：© OpenStreetMap contributors"
+  },
+  {
+   "file": "3-car.jpg",
+   "kind": "html",
+   "noHeader": true,
+   "html": "<div class=\"wrap\"><div class=\"band\"><div class=\"k\">11/18〜23・有明・無料</div><div class=\"t\"><em>空飛ぶクルマ</em>の展示は無料</div></div><img class=\"ph\" src=\"photos/pop-car.jpg\" alt=\"\"></div>",
+   "css": "main{padding:0;height:1080px;display:block}\n.wrap{position:relative;height:1080px;background:#1E1219;color:#fff;overflow:hidden}\n.band{height:230px;padding:40px 56px 0;box-sizing:border-box}\n.k{display:inline-block;font-size:28px;font-weight:900;color:#2A1923;background:#F5C518;border-radius:999px;padding:5px 20px}\n.t{font-size:58px;font-weight:900;line-height:1.2;margin-top:14px;white-space:nowrap}\n.t em{font-style:normal;color:#EC5C90}\n.ph{position:absolute;left:0;top:230px;width:1080px;height:850px;object-fit:cover;object-position:center top}",
+   "alt": "イベントマップで空飛ぶクルマの展示（有明ガーデン・入場無料・11月18日〜23日）のピンを押した画面。写っている画像は東京都の告知画像。地図：国土地理院（地理院タイル・淡色地図）をもとに作成、駅：© OpenStreetMap contributors"
+  },
+  {
+   "file": "4-tb.jpg",
+   "kind": "html",
+   "noHeader": true,
+   "html": "<div class=\"wrap\"><div class=\"band\"><div class=\"k\">11/25〜2/21・豊洲</div><div class=\"t\"><em>ティム・バートン</em>の迷宮も</div></div><img class=\"ph\" src=\"photos/pop-tb.jpg\" alt=\"\"></div>",
+   "css": "main{padding:0;height:1080px;display:block}\n.wrap{position:relative;height:1080px;background:#1E1219;color:#fff;overflow:hidden}\n.band{height:230px;padding:40px 56px 0;box-sizing:border-box}\n.k{display:inline-block;font-size:28px;font-weight:900;color:#2A1923;background:#F5C518;border-radius:999px;padding:5px 20px}\n.t{font-size:58px;font-weight:900;line-height:1.2;margin-top:14px;white-space:nowrap}\n.t em{font-style:normal;color:#EC5C90}\n.ph{position:absolute;left:0;top:230px;width:1080px;height:850px;object-fit:cover;object-position:center top}",
+   "alt": "イベントマップでティム・バートンのラビリンス（豊洲・CREVIA BASE Tokyo・11月25日〜2月21日）のピンを押した画面。写っている画像は主催者の公式画像。地図：国土地理院（地理院タイル・淡色地図）をもとに作成、駅：© OpenStreetMap contributors"
+  }
+ ]
+}
