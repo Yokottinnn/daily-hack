@@ -1,0 +1,32 @@
+{
+ "mini-mat.jpg": {
+  "page": "https://book.yamazen.co.jp/product/detail/I00008525",
+  "credit": "山善 公式",
+  "fetched": "2026-11-08"
+ },
+ "mini-mat-item.jpg": {
+  "page": "https://book.yamazen.co.jp/product/detail/I00008525",
+  "credit": "山善 公式",
+  "fetched": "2026-11-08"
+ },
+ "blanket.jpg": {
+  "page": "https://panasonic.jp/danbo/products/DB-U12T.html",
+  "credit": "パナソニック 公式",
+  "fetched": "2026-11-08"
+ },
+ "panel-heater.jpg": {
+  "page": "https://book.yamazen.co.jp/product/detail/I00008518",
+  "credit": "山善 公式",
+  "fetched": "2026-11-08"
+ },
+ "ceramic.jpg": {
+  "page": "https://panasonic.jp/danbo/products/DS-FN1200.html",
+  "credit": "パナソニック 公式",
+  "fetched": "2026-11-08"
+ },
+ "aircon.jpg": {
+  "page": "https://panasonic.jp/aircon/Jseries.html",
+  "credit": "パナソニック 公式",
+  "fetched": "2026-11-08"
+ }
+}
