@@ -9,7 +9,7 @@ const sharp = require('sharp');
 const fs = require('fs');
 const path = require('path');
 const URL = process.argv[2] || 'http://localhost:4329/wangan-map-bake/';
-const TILE = 256, TILE_PX = 3, LO_PX = 1;
+const TILE = 256, TILE_PX = 3, TILE_PX2 = 2, LO_PX = 1;
 const OUT = path.join(__dirname, '../../public/images/wangan-map');
 (async () => {
   fs.mkdirSync(path.join(OUT, 'tiles'), { recursive: true });
@@ -48,14 +48,19 @@ const OUT = path.join(__dirname, '../../public/images/wangan-map');
   await sharp(lo).webp({ quality: 72, effort: 6 }).toFile(path.join(OUT, 'base-lo.webp'));
   console.log('base-lo', fs.statSync(path.join(OUT, 'base-lo.webp')).size);
   const cols = Math.ceil(pan.w / TILE), rows = Math.ceil(pan.h / TILE);
-  let total = 0;
-  for (let r = 0; r < rows; r++) for (let c = 0; c < cols; c++) {
-    const png = await shoot(pan.x + c * TILE, pan.y + r * TILE, TILE, TILE, TILE_PX);
-    const f = path.join(OUT, 'tiles', `${c}-${r}.webp`);
-    await sharp(png).webp({ quality: 72, effort: 6 }).toFile(f);
-    total += fs.statSync(f).size;
+  // 2026-11-08: 拡大しすぎていないとき用の 2 画素（tiles2）も焼く（画素が約半分で、展開が軽い）
+  for (const [dir, px] of [['tiles', TILE_PX], ['tiles2', TILE_PX2]]) {
+    fs.mkdirSync(path.join(OUT, dir), { recursive: true });
+    for (const f of fs.readdirSync(path.join(OUT, dir))) fs.unlinkSync(path.join(OUT, dir, f));
+    let total = 0;
+    for (let r = 0; r < rows; r++) for (let c = 0; c < cols; c++) {
+      const png = await shoot(pan.x + c * TILE, pan.y + r * TILE, TILE, TILE, px);
+      const f = path.join(OUT, dir, `${c}-${r}.webp`);
+      await sharp(png).webp({ quality: 72, effort: 6 }).toFile(f);
+      total += fs.statSync(f).size;
+    }
+    console.log(dir, cols * rows, Math.round(total / 1024) + 'KB');
   }
-  console.log('tiles', cols * rows, Math.round(total / 1024) + 'KB');
-  fs.writeFileSync(path.join(OUT, 'base.json'), JSON.stringify({ generated: new Date().toISOString(), pan, tile: TILE, tilePx: TILE_PX, loPx: LO_PX, cols, rows }, null, 1) + '\n');
+  fs.writeFileSync(path.join(OUT, 'base.json'), JSON.stringify({ generated: new Date().toISOString(), pan, tile: TILE, tilePx: TILE_PX, tilePx2: TILE_PX2, loPx: LO_PX, cols, rows }, null, 1) + '\n');
   await b.close();
 })();
