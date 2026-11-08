@@ -1197,6 +1197,70 @@ try {
     });
     lines.push(`## 広告の行（${rows.length} 件）`, '', ...rows.filter(([t]) => !NG.test(t)).map(([t, st, h]) => `- ${t.replace(/\|/g, '／')}［${st || '表示なし'}］ — ${h}`), '');
   }
+  if (WHICH === 'clicksearch') {
+    // **読むだけ（t585・2026-11-08）。** ブログに貼れるクリック報酬の案件が A8・VC にどれだけあるか。検索画面の絞り込みの項目と、
+    // 「クリック」で探した結果の行のうち報酬欄に「クリック」を含むものを出す。申請・提携のボタンは押さない
+    const filters = async () => p.evaluate(() => {
+      const out = new Set();
+      document.querySelectorAll('label, option, legend, th, dt, .label, span').forEach((e) => { const t = (e.innerText || e.textContent || '').replace(/\s+/g, ' ').trim(); if (t && t.length < 40 && /報酬|クリック|CPC|成果/.test(t)) out.add(t); });
+      return [...out].slice(0, 40);
+    });
+    const rowsWith = async (hrefRe) => p.evaluate((src) => {
+      const re = new RegExp(src); const seen = new Set(); const out = [];
+      for (const a of document.querySelectorAll('a[href]')) {
+        if (!re.test(a.href)) continue; const key = a.href.replace(/[&?](tag|spot)=[^&]*/g, ''); if (seen.has(key)) continue; seen.add(key);
+        let r = a; for (let i = 0; i < 8 && r.parentElement; i++) { r = r.parentElement; if (r.tagName === 'TR' || r.tagName === 'LI' || (r.innerText || '').length > 200) break; }
+        const t = (r.innerText || '').replace(/\s+/g, ' ').trim();
+        if (/クリック|CPC/.test(t)) out.push([t.slice(0, 220), key.replace(/^https:\/\/[^/]+/, '')]);
+      }
+      return out.slice(0, 60);
+    }, hrefRe.source);
+    // A8
+    await go('https://media-console.a8.net/program/search/top'); await a8Reauth(p, 'https://media-console.a8.net/program/search/top');
+    lines.push(`## A8 の検索画面の絞り込み（報酬・クリックを含む項目）（${here()}）`, '', ...(await filters()).filter((x) => !NG.test(x)).map((x) => `- ${x}`), '');
+    for (const kw of ['クリック報酬', 'クリック']) {
+      const u = `https://media-console.a8.net/program/search/keyword?keywords=${encodeURIComponent(kw)}`; await go(u); await a8Reauth(p, u);
+      const total = await p.evaluate(() => ((document.body.innerText.match(/[\d,]+\s*件/) || [])[0] || ''));
+      const rows = await rowsWith(/programId=/);
+      lines.push(`## A8 で「${kw}」を検索（${total}）— 行の文にクリックを含むもの ${rows.length} 件`, '', ...rows.filter(([t]) => !NG.test(t)).map(([t, h]) => `- ${t.replace(/\|/g, '／')} — ${h}`), '');
+    }
+    // VC
+    await go('https://aff.valuecommerce.ne.jp/ad/adList');
+    lines.push(`## VC の検索画面の絞り込み（報酬・クリック・CPC を含む項目）（${here()}）`, '', ...(await filters()).filter((x) => !NG.test(x)).map((x) => `- ${x}`), '');
+    for (const kw of ['クリック報酬', 'クリック', 'CPC']) {
+      await go(`https://aff.valuecommerce.ne.jp/ad/adList?${encodeURIComponent('ad_search_condition_form[keyword]')}=${encodeURIComponent(kw)}&${encodeURIComponent('ad_search_condition_form[appStatus]')}=`);
+      const total = await p.evaluate(() => ((document.body.innerText.match(/検索結果[：:]\s*[^\n]{0,30}/) || [])[0] || ''));
+      const rows = await rowsWith(/adDetail\/\d+/);
+      lines.push(`## VC で「${kw}」を検索（${total}）— 行の文にクリック・CPC を含むもの ${rows.length} 件`, '', ...rows.filter(([t]) => !NG.test(t)).map(([t, h]) => `- ${t.replace(/\|/g, '／')} — ${h}`), '');
+    }
+  }
+  if (WHICH === 'vcsites2') {
+    // **読むだけ（t584）。** t583 で「サイト設定」の本文が条件に当たらず空だったので、全部の行を伏せ字つきで出す（登録しているサイトの種類・URL・審査の状態を見る）
+    await go('https://aff.valuecommerce.ne.jp/account/siteManage');
+    const all = await p.evaluate(() => (document.querySelector('main, .main-content, #contents') || document.body).innerText.split('\n').map((x) => x.trim()).filter(Boolean));
+    lines.push(`## サイト設定の全部の行（${here()}・${all.length} 行）`, '', ...all.filter((x) => !NG.test(x)).slice(0, 80).map((x) => `- ${x.slice(0, 160)}`), '');
+    const opts = await p.evaluate(() => [...document.querySelectorAll('select option')].map((o) => o.text.trim()).filter(Boolean).slice(0, 30));
+    lines.push('## 画面のプルダウンの選択肢（サイト選択など）', '', ...opts.filter((x) => !NG.test(x)).map((x) => `- ${x.slice(0, 120)}`), '');
+  }
+  if (WHICH === 'vcsns') {
+    // **読むだけ（t583・2026-11-08）。** VC に X（SNS メディア）を登録しているか、CPC 専用プログラム（2025-07 開始・SNS 登録サイトだけに開示）が見えるかを読む。
+    // URL は推測しない: ホームのリンクから「サイト」「CPC」「SNS」を含むものを辿る。登録・申請のボタンは押さない
+    await go('https://aff.valuecommerce.ne.jp/home');
+    const txt = async () => p.evaluate(() => (document.querySelector('main, .main-content, #contents') || document.body).innerText.split('\n').map((x) => x.trim()).filter(Boolean));
+    const menu = await links(/サイト|メディア|CPC|SNS|クリック/);
+    lines.push(`## ホームのリンク（サイト・メディア・CPC・SNS・クリック）（${here()}）`, '', ...menu.filter(([t]) => !NG.test(t)).map(([t, h]) => `- ${t} — ${h}`), '');
+    const homeHits = (await txt()).filter((x) => /CPC|クリック報酬|SNS|X（旧Twitter）|Instagram|YouTube/.test(x)).slice(0, 20);
+    lines.push('## ホームの本文で CPC・SNS を含む行', '', ...homeHits.filter((x) => !NG.test(x)).map((x) => `- ${x.slice(0, 140)}`), '');
+    const seen = new Set();
+    for (const [t, h] of menu) {
+      if (!/^https:\/\/aff\.valuecommerce\.ne\.jp\//.test(h) || seen.has(h) || seen.size >= 6) continue; seen.add(h);
+      await go(h);
+      const rows = (await txt()).filter((x) => /https?:\/\/|x\.com|twitter|SNS|ブログ|ウェブサイト|審査|承認|CPC|クリック報酬|メディア種別|種類/.test(x)).slice(0, 30);
+      lines.push(`## 「${t}」を開いた画面（${here()}）`, '', ...rows.filter((x) => !NG.test(x)).map((x) => `- ${x.slice(0, 140)}`), '');
+      const sub = await links(/CPC|SNS|サイト一覧|サイトの追加|メディア/);
+      if (sub.length) lines.push('- この画面のリンク: ' + sub.filter(([tt]) => !NG.test(tt)).slice(0, 12).map(([tt, hh]) => `${tt}（${hh.replace(/\?.*$/, '')}）`).join('／'), '');
+    }
+  }
 } catch (e) { lines.push(`- ⚠️ 失敗: ${String(e).slice(0, 200)}`); }
 fs.writeFileSync(path.join(OUT, `${WHICH}.md`), lines.join('\n') + '\n');
 console.log(lines.join('\n').slice(0, 2500));

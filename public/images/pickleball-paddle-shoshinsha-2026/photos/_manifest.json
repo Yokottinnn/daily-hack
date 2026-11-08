@@ -1,0 +1,48 @@
+{
+ "kenko-paddle.jpg": {
+  "page": "https://www.nagase-kenko.shop/view/item/000000000597",
+  "credit": "ナガセケンコー 公式ネットショップ",
+  "fetched": "2026-11-08"
+ },
+ "kenko-starter-set.jpg": {
+  "page": "https://www.nagase-kenko.shop/view/item/000000000600",
+  "credit": "ナガセケンコー 公式ネットショップ",
+  "fetched": "2026-11-08"
+ },
+ "kenko-project-sante.jpg": {
+  "page": "https://www.nagase-kenko.shop/view/item/000000000789",
+  "credit": "ナガセケンコー 公式ネットショップ",
+  "fetched": "2026-11-08"
+ },
+ "kenko-project-sante-2.jpg": {
+  "page": "https://www.nagase-kenko.shop/view/item/000000000789",
+  "credit": "ナガセケンコー 公式ネットショップ",
+  "fetched": "2026-11-08"
+ },
+ "yonex-vcore.jpg": {
+  "page": "https://us.yonex.com/products/vcore-pickleball-paddle",
+  "credit": "YONEX（米国公式サイト）",
+  "fetched": "2026-11-08"
+ },
+ "yonex-ezone-plus.jpg": {
+  "page": "https://us.yonex.com/products/ezone-plus-pickleball-paddle",
+  "credit": "YONEX（米国公式サイト）",
+  "fetched": "2026-11-08"
+ },
+ "mizuno-lineup.jpg": {
+  "page": "https://corp.mizuno.com/jp/news-release/2026/20260710",
+  "credit": "ミズノ ニュースリリース",
+  "fetched": "2026-11-08",
+  "note": "ミズノのピックルボールのパドルの告知画像。記事で比べる CALIBER（パウダーブルー）そのものの写真ではない"
+ },
+ "mizuno-detail.jpg": {
+  "page": "https://corp.mizuno.com/jp/news-release/2026/20260710",
+  "credit": "ミズノ ニュースリリース",
+  "fetched": "2026-11-08"
+ },
+ "chuo-class.jpg": {
+  "page": "https://www.chuo-sports.jp/uncategorized/30094/",
+  "credit": "中央区立総合スポーツセンター",
+  "fetched": "2026-11-08"
+ }
+}

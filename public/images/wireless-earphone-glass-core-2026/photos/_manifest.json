@@ -1,0 +1,37 @@
+{
+ "glass-core-pro.jpg": {
+  "page": "https://online-store.jvckenwood.com/c/headphone/kenwood-headphone/kh-crz100t",
+  "credit": "JVCケンウッドストア",
+  "fetched": "2026-11-08"
+ },
+ "glass-core.jpg": {
+  "page": "https://online-store.jvckenwood.com/c/headphone/kenwood-headphone/kh-crz90t",
+  "credit": "JVCケンウッドストア",
+  "fetched": "2026-11-08"
+ },
+ "glass-core-wear.jpg": {
+  "page": "https://origin.kenwood.com/usa/wireless-earbuds/kh-crz100t-kh-crz90t/",
+  "credit": "KENWOOD 米国公式サイト",
+  "fetched": "2026-11-08"
+ },
+ "sony-wf-1000xm6.jpg": {
+  "page": "https://www.sony.jp/headphone/products/WF-1000XM6/",
+  "credit": "ソニー 公式",
+  "fetched": "2026-11-08"
+ },
+ "airpods-pro-3.jpg": {
+  "page": "https://www.apple.com/jp/airpods-pro/",
+  "credit": "Apple 公式",
+  "fetched": "2026-11-08"
+ },
+ "anker-liberty-5-pro.jpg": {
+  "page": "https://www.ankerjapan.com/products/d1203",
+  "credit": "Anker Japan 公式",
+  "fetched": "2026-11-08"
+ },
+ "technics-eah-az100.jpg": {
+  "page": "https://panasonic.jp/headphone/products/EAH-AZ100.html",
+  "credit": "Technics 公式",
+  "fetched": "2026-11-08"
+ }
+}
