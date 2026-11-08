@@ -1,0 +1,17 @@
+{
+ "_doc": "アナロジー型の投稿の図（自作）。node scripts/gen-x-panels.mjs ops/data/x-cards/poikatsu-hourly-wage-2026-analogy.panels.json",
+ "_note": "2026-11-08 x-post-copy §1-G。自作の図なので出所の表記は要らない",
+ "imageBase": "public/images/poikatsu-hourly-wage-2026",
+ "out": "public/images/poikatsu-hourly-wage-2026/x",
+ "theme": "ink",
+ "panels": [
+  {
+   "file": "a1-compare.jpg",
+   "kind": "html",
+   "noHeader": true,
+   "html": "<div class=\"wrap\"><div class=\"k\">ポイ活の実効時給</div><div class=\"t\">時間が<em>溶ける</em>方と<br>貯まる方</div><div class=\"cols\"><div class=\"col bad\"><h3>溶ける</h3><div class=\"it\"><b>レシート投稿</b><i>時給60〜300円</i></div><div class=\"it\"><b>動画を見るだけ</b><i>最悪 時給60円</i></div></div><div class=\"col good\"><h3>貯まる</h3><div class=\"it\"><b>クレカ発行・口座開設</b><i>時給1〜3万円</i></div><div class=\"it\"><b>買い物をサイト経由</b><i>時給1,200〜2,400円</i></div></div></div><div class=\"nt\">クレカは月1〜2枚まで。サイト経由は買う予定がある時だけ</div></div>",
+   "css": "main{padding:0;height:1080px;display:block}\n.wrap{position:relative;height:1080px;color:#fff;background:linear-gradient(180deg,#2A1923,#1E1219);padding:64px 60px;display:flex;flex-direction:column}\n.k{align-self:flex-start;font-size:30px;font-weight:900;color:#2A1923;background:#F5C518;border-radius:999px;padding:6px 22px}\n.t{font-size:66px;font-weight:900;line-height:1.25;margin-top:16px}\n.t em{font-style:normal;color:#EC5C90}\n.cols{flex:1;display:flex;gap:24px;margin-top:30px}\n.col{flex:1;border-radius:22px;padding:26px 24px;display:flex;flex-direction:column;gap:18px}\n.col h3{font-size:48px;font-weight:900}\n.bad{background:rgba(255,255,255,.08)}\n.bad h3{color:#9a8a92}\n.good{background:#EC5C90}\n.it{background:rgba(0,0,0,.18);border-radius:14px;padding:16px 18px}\n.it b{display:block;font-size:32px;font-weight:900}\n.it i{display:block;font-style:normal;font-size:38px;font-weight:900;color:#F5C518;margin-top:6px}\n.nt{font-size:28px;font-weight:700;margin-top:22px;color:#f3dbe5}",
+   "alt": "ポイ活の実効時給の比較。時間が溶ける方: レシート投稿 時給60〜300円、動画を見るだけ 最悪 時給60円。貯まる方: クレカ発行・口座開設 時給1〜3万円、買い物をサイト経由 時給1,200〜2,400円。数字はDaily Hackの記事「ポイ活の実効時給ガチ検証 2026」から"
+  }
+ ]
+}
