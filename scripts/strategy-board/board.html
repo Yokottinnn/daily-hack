@@ -1330,7 +1330,7 @@ tr[data-ccount]::after{top:4px;right:4px}
     const inv=S.affInventory||[], po=(S.kpi||{}).posts||{};
     const spots={}, arts={}; inv.forEach(a=>{ a.items.forEach(i=>{ spots[i.asp]=(spots[i.asp]||0)+i.n; }); new Set(a.items.map(i=>i.asp)).forEach(x=>{ arts[x]=(arts[x]||0)+1; }); });
     const allSpots=Object.values(spots).reduce((x,y)=>x+y,0);
-    const a8n=((S.a8||{}).rows||[]).length, vcn=((S.others||{}).vc||[]).length, mon=((S.others||{}).moshimo||[]).length;
+    const a8n=((S.a8||{}).rows||[]).length||(S.a8||{}).total||0, /* 2026-11-08 利用者のコメント zi0vzil06uy19lmp6u1v「A8 が 0 件」: 一覧（snapshot/a8）が届く前に描くと 0 になっていた。届く前は件数（total）を使う */ vcn=((S.others||{}).vc||[]).length, mon=((S.others||{}).moshimo||[]).length;
     $('#now-aff-tiles').innerHTML=[
       tile('成果リンクのある記事',fmtN(po.withAff)+' / '+fmtN(po.total),'残り '+fmtN((po.total||0)-(po.withAff||0))+' 本は 0 本','now.aff.with'),
       tile('成果リンクの数',fmtN(allSpots)+' か所','記事の本文から数えた数','now.aff.spots'),

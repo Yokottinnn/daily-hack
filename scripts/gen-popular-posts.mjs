@@ -11,8 +11,12 @@ const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..')
 const src = process.argv[2];
 if (!src) { console.error('使い方: node scripts/gen-popular-posts.mjs <snap.json>'); process.exit(1); }
 const snap = JSON.parse(fs.readFileSync(src, 'utf8'));
+// 2026-11-08: 記事の一覧はスナップショットの隣の <名前>.arts.json に分かれた（snapshot/latest が大きくなりすぎたため）。無ければ本体の articles を読む
+const artsPath = src.replace(/\.json$/, '.arts.json');
+const articles = snap.articles?.length ? snap.articles : (fs.existsSync(artsPath) ? JSON.parse(fs.readFileSync(artsPath, 'utf8')).articles || [] : []);
+if (!articles.length) { console.error(`記事の一覧が見つからない（${src} の articles も ${artsPath} も空）。書き換えずに止める`); process.exit(1); }
 const pv = {};
-for (const a of snap.articles || []) {
+for (const a of articles) {
   const n = a.h28 != null ? a.h28 : a.v28;
   if (a.slug && n > 0) pv[a.slug] = n;
 }
