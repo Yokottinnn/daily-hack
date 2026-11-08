@@ -1,0 +1,20 @@
+{
+ "travelist.png": {
+  "brand": "トラベリスト",
+  "source": "https://dew8lut0z0dqr.cloudfront.net/nuxt_web/dist/client/img/logo_header.bf1f6d7.svg",
+  "page": "https://travelist.jp/",
+  "fetched": "2026-10-16",
+  "license_note": "商標。識別目的で使用。改変なし（余白のみ除去）",
+  "note": "公式サイトのロゴ（識別目的・改変なし。余白のみ除去）",
+  "copied_from": "public/images/domestic-flight-tour-sites-2026/logos/travelist.png"
+ },
+ "airtrip.png": {
+  "brand": "エアトリ",
+  "source": "https://cdn.airtrip.jp/image/pc/airtrip_logo.webp",
+  "page": "https://www.airtrip.jp/",
+  "fetched": "2026-10-16",
+  "license_note": "商標。識別目的で使用。改変なし（余白のみ除去）",
+  "note": "公式サイトのロゴ（識別目的・改変なし。余白のみ除去）",
+  "copied_from": "public/images/domestic-flight-tour-sites-2026/logos/airtrip.png"
+ }
+}
