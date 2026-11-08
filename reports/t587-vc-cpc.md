@@ -1,0 +1,92 @@
+# VC のクリック報酬（CPC）の案件（t587・**$0**）
+
+生成: **2026-11-08T21:25:56+0900**
+
+```text
+vc: ログイン済み
+sync rc=0
+vccpc2 rc=0
+```
+# ASP の画面調べ: vccpc2（asp-probe）
+
+生成: **2026-11-08T12:26:08.080Z**
+
+- ラジオ: 1 個
+- 検索ボタン: 0 個（再検索）
+- 押したあとの URL: /ad/adList?ad_search_condition_form%5Bkeyword%5D=&ad_search_condition_form%5BadType%5D=&ad_search_condition_form%5BfacetCategoryGroup%5D=&ad_search_condition_form%5BfacetCategory%5D=&ad_search_condition_form%5Breward%5D=cpc&ad_search_condition_form%5BfixedMin%5D=&ad_search_condition_form%5BfixedMax%5D=&ad_search_condition_form%5BrateMin%5D=&ad_search_condition_form%5BrateMax%5D=&ad_search_conditio
+
+## 押したあとの本文（検索結果のあたり・全 180 行）
+
+- 広告プログラム検索プログラムから探す
+- プログラム検索 検索条件に合致したプログラムの一覧です。
+- プログラムから探す （0件）
+- 広告素材から探す（0件）
+- キーワード
+- 再検索
+- 広告タイプ
+- MyLink
+- バナー
+- 自由テキスト
+- テキスト
+- スマートフォン広告
+- スマートフォンテキスト
+- 広告サイズ
+- すべて
+- 800x600
+- 760x120
+- 728x200
+- 728x180
+- 728x90
+- 720x160
+- 700x240
+- 680x200
+- 630x250
+- 630x185
+- 630x80
+- 600x400
+- 600x200
+- 600x148
+- 600x100
+- 468x160
+- 468x60
+- 468x24
+- 400x600
+- 400x400
+- 400x250
+- 400x230
+- 400x100
+- 336x280
+- 325x325
+- 320x100
+- 320x51
+- 320x40
+- 300x350
+- 300x300
+- 300x250
+- 300x200
+- 300x100
+- 300x60
+- 300x52
+- 250x630
+- 250x300
+- 250x250
+- 250x90
+- 240x400
+- 236x600
+- 234x60
+- 224x33
+- 200x600
+- 200x400
+- 200x252
+- 200x212
+- 200x200
+- 200x40
+- 190x38
+- 180x150
+- 165x60
+- 160x600
+- 160x468
+- 148x600
+- 135x45
+- 130x18
+
