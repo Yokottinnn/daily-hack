@@ -76,6 +76,7 @@
   - 楽天: 着いた先は `…?scid=af_pc_etc&sc2id=af_101_0_0` で、**ID はアドレスに出ない**。途中の `pt.afl.rakuten.co.jp/c/587f2635.77bb335f/` で `tg_af_histid`（.rakuten.co.jp・2 年）が保存され、それで成果を数える
   - Yahoo!: 着いた先の末尾に **`sc_e=afvc_shp_3776384`**（3776384＝書き換えで入るこのサイトの sid）。記録は `.valuecommerce.com` の `VCB`・`VCIDENTITY`
   - 同じ日にブログ全体を数え、Amazon のタグなし 20 本・楽天の返礼品の素のリンク 15 本を直した（#1531）。**本番のドメインは daily-hack.com ではない**（t582 でそれを打って名前が引けなかった）
+- **ビルドのたびに点検している**（2026-11-08・利用者が「点検を毎日の仕組みにする」を選んだ）。`npm run build` の直後に `scripts/check-aff-links.mjs`（package.json の `postbuild`）が全記事を読み、タグの無い Amazon・楽天 ID で包んでいない `item.rakuten.co.jp`・isPR でない記事の Yahoo! リンクが 1 本でもあればビルドを失敗させる。CI でも Cloudflare でも止まるので、取りこぼしたまま公開されない。$0
 - 楽天のリンクを使った記事は `docs/affiliate-registry.md` の「楽天アフィリエイトのリンクを入れた記事」に足す（法人 ID への張り替えの一覧）
 - 報酬額は記事に書かない
 
