@@ -85,7 +85,7 @@ const FILES = {
   "lalaport-toyosu-black-friday-2026": ["1-official.jpg", "2-point.jpg"],
   "tokyo-christmas-market-shintoyosu-2026": ["1-official.jpg", "2-point.jpg"],
   "ariake-garden-flying-car-2026": ["2-point.jpg"],
-  "kidzania-tokyo-adult-christmas-2026": ["2-point.jpg"],
+  "kidzania-tokyo-adult-christmas-2026": ["2-point.jpg", "1-official.jpg", "3-price.jpg"],
   "doraemon-mirai-department-renewal-2026": ["1-official.jpg", "2-point.jpg"],
   "tsukudajima-1644-2026": ["1-official.jpg", "2-point.jpg"],
   "rainbow-ride-traffic-restrictions-2026": ["1-official.jpg", "2-point.jpg"],

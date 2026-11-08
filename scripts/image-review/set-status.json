@@ -101,7 +101,10 @@
       "文面",
       "画像"
     ],
-    "purpose": "news"
+    "purpose": "news",
+    "planDate": "2026-11-09",
+    "planTime": "12:00",
+    "scheduledAt": "2026-11-09T12:00:00+09:00"
   },
   "payid-a": {
     "status": "dropped",
@@ -378,7 +381,9 @@
       "文面",
       "予約開始の日時と料金"
     ],
-    "next": 4
+    "next": 4,
+    "planDate": "2026-11-08",
+    "scheduledAt": "2026-11-08T17:30:00+09:00"
   },
   "news-doraemon": {
     "status": "draft",

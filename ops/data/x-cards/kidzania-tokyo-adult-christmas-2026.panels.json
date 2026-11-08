@@ -1,6 +1,6 @@
 {
  "_doc": "X 告知の画像（公式の画像を正方形に整えたもの＋要点）。node scripts/gen-x-panels.mjs ops/data/x-cards/kidzania-tokyo-adult-christmas-2026.panels.json",
- "_note": "2026-11-01 利用者「公式から画像を持ってきてうまく成形してアイキャッチ画像を作るなど、そこまではやってほしい」。素材はブログの湾岸ニュース記事で blog3 が取った公式・プレスリリースの画像（photos/_manifest.json）。1 枚目は公式の画像を加工せず、正方形に収めて余白をぼかしで埋める。画像の中に出所は出さず ALT に書く（2026-10-11 の指示）。数字は posts.json の下書きから",
+ "_note": "2026-11-01 利用者「公式から画像を持ってきてうまく成形してアイキャッチ画像を作るなど、そこまではやってほしい」。素材はブログの湾岸ニュース記事で blog3 が取った公式・プレスリリースの画像（photos/_manifest.json）。1 枚目は公式の画像を加工せず、正方形に収めて余白をぼかしで埋める。画像の中に出所は出さず ALT に書く（2026-10-11 の指示）。数字は posts.json の下書きから。2026-11-08 利用者のコメント: 1 枚目（まとめ）はそのまま残し、公式の画像を 2・3 枚目に足す（元の 1 枚目を消さない）",
  "imageBase": "public/images/kidzania-tokyo-adult-christmas-2026",
  "out": "public/images/kidzania-tokyo-adult-christmas-2026/x",
  "theme": "ink",
@@ -12,6 +12,22 @@
    "html": "<div class=\"wrap\"><img class=\"ph\" src=\"photos/kv.png\" alt=\"\"><div class=\"shade\"></div><div class=\"tx\"><div class=\"k\">予約 11/9（月）12:00〜 Web先着</div><div class=\"t\"><em>16歳以上</em>だけの夜</div><ul class=\"pts\"><li><b>日</b>12/15（火）・25（金）16〜21時</li><li><b>料金</b>通常7,500円・優先入場9,500円</li><li><b>人数</b>1件4名まで</li><li><b>25日</b>クリスマスパレードに出られる</li></ul></div></div>",
    "css": "main{padding:0;height:1080px;display:block}\n.wrap{position:relative;height:1080px;color:#fff;background:#1E1219;overflow:hidden}\n.ph{position:absolute;left:0;top:0;width:100%;height:560px;object-fit:cover;object-position:center}\n.shade{position:absolute;left:0;right:0;top:300px;height:262px;background:linear-gradient(180deg,rgba(30,18,25,0),#1E1219 92%)}\n.tx{position:absolute;left:56px;right:56px;top:450px;bottom:56px;display:flex;flex-direction:column}\n.k{align-self:flex-start;display:inline-block;font-size:30px;font-weight:900;color:#2A1923;background:#F5C518;border-radius:999px;padding:6px 22px}\n.t{font-size:74px;font-weight:900;line-height:1.2;margin-top:14px;text-shadow:0 2px 12px rgba(0,0,0,.4)}\n.t em{font-style:normal;color:#EC5C90}\n.pts{list-style:none;margin-top:26px;flex:1;display:flex;flex-direction:column;justify-content:center;gap:20px}\n.pts li{font-size:36px;font-weight:700;line-height:1.35;background:rgba(255,255,255,.08);border-left:10px solid #EC5C90;border-radius:14px;padding:16px 24px}\n.pts b{color:#F5C518;margin-right:12px}",
    "alt": "大人のキッザニア クリスマスのキービジュアル。文字：予約は11月9日（月）12:00からWebの先着順。16歳以上だけの夜。12月15日（火）・25日（金）16〜21時。通常7,500円・優先入場9,500円。1件4名まで。25日はクリスマスパレードに出られる。画像：KCJ GROUP 株式会社のプレスリリース（PR TIMES）"
+  },
+  {
+   "file": "1-official.jpg",
+   "kind": "html",
+   "noHeader": true,
+   "html": "<div class=\"ey\"><img class=\"bgb\" src=\"photos/kv.png\" alt=\"\"><img class=\"fg\" src=\"photos/kv.png\" alt=\"\"></div>",
+   "css": "main{padding:0;height:1080px;display:block}\n.ey{position:relative;height:1080px;overflow:hidden;background:#111}\n.bgb{position:absolute;left:-60px;top:-60px;width:1200px;height:1200px;object-fit:cover;filter:blur(34px) brightness(.5)}\n.fg{position:absolute;left:28px;top:28px;width:1024px;height:1024px;object-fit:contain;filter:drop-shadow(0 18px 40px rgba(0,0,0,.45))}",
+   "alt": "大人のキッザニア クリスマスのキービジュアル（公式）。画像：KCJ GROUP 株式会社のプレスリリース（PR TIMES）"
+  },
+  {
+   "file": "3-price.jpg",
+   "kind": "html",
+   "noHeader": true,
+   "html": "<div class=\"wrap\"><div class=\"k\">公式の料金表</div><div class=\"t\">キッザニア東京の<em>日程と料金</em></div><div class=\"tb\"><div class=\"pc p1\"><img src=\"photos/sched.jpg\" alt=\"\"></div><div class=\"pc p2\"><img src=\"photos/sched.jpg\" alt=\"\"></div></div></div>",
+   "css": "main{padding:0;height:1080px;display:block}\n/*3-price*/.wrap{position:relative;height:1080px;color:#fff;background:linear-gradient(180deg,#2A1923,#1E1219);padding:52px 56px;display:flex;flex-direction:column;justify-content:center}\n.k{align-self:flex-start;font-size:30px;font-weight:900;color:#2A1923;background:#F5C518;border-radius:999px;padding:6px 22px}\n.t{font-size:72px;font-weight:900;line-height:1.2;margin-top:12px}\n.t em{font-style:normal;color:#EC5C90}\n.cap{font-size:26px;font-weight:700;color:#F5C518;margin-top:22px}\n.tb{background:#fff;border-radius:18px;padding:18px;margin-top:40px;display:flex;flex-direction:column;gap:14px}\n.pc{overflow:hidden;position:relative;width:932px}\n.pc img{position:absolute;top:0;display:block}\n.p1{height:196px}.p1 img{left:0;width:2161px;height:438px}\n.p2{height:148px}.p2 img{left:-704px;width:1639px;height:332px}\n.pts{list-style:none;margin-top:26px;flex:1;display:flex;flex-direction:column;justify-content:center;gap:18px}\n.pts li{font-size:38px;font-weight:700;line-height:1.35;background:rgba(255,255,255,.08);border-left:10px solid #EC5C90;border-radius:14px;padding:16px 24px}\n.pts b{color:#F5C518;margin-right:12px}",
+   "alt": "大人のキッザニア クリスマスの公式の料金表（キッザニア東京）：2026年12月15日（火）・12月25日（金）、通常入場7,500円・優先入場ダイヤモンド9,500円（税込）、発売開始11月9日（月）12:00〜。料金表：KCJ GROUP 株式会社のプレスリリース（PR TIMES）"
   }
  ]
 }
