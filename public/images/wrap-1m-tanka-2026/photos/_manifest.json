@@ -1,0 +1,57 @@
+{
+ "topvalu-mutenka.jpg": {
+  "src": "https://storage.topvalu.net/assets/contents/images/product/250425/4549414433531_PC_L.jpg",
+  "page": "https://www.topvalu.net/items/detail/4549414433531/",
+  "credit": "トップバリュ 公式",
+  "fetched": "2026-11-08"
+ },
+ "topvalu-5so.jpg": {
+  "src": "https://storage.topvalu.net/assets/contents/images/product/251722/4549414447798_PC_L.jpg",
+  "page": "https://www.topvalu.net/items/detail/4549414447798/",
+  "credit": "トップバリュ 公式",
+  "fetched": "2026-11-08"
+ },
+ "nitori-eco.jpg": {
+  "src": "https://www.nitori-net.jp/ecstatic/image/product/2111200006308/211120000630801.jpg",
+  "page": "https://www.nitori-net.jp/ec/product/2111200006308/",
+  "credit": "ニトリネット",
+  "fetched": "2026-11-08"
+ },
+ "nitori-eco-2.jpg": {
+  "src": "https://www.nitori-net.jp/ecstatic/image/product/2111200006308/211120000630804.jpg",
+  "page": "https://www.nitori-net.jp/ec/product/2111200006308/",
+  "credit": "ニトリネット",
+  "fetched": "2026-11-08"
+ },
+ "shimachu-food.jpg": {
+  "src": "https://www.nitori-net.jp/ecstatic/image/product/4850379/485037901.jpg",
+  "page": "https://www.nitori-net.jp/ec/product/4850379s/",
+  "credit": "ニトリネット",
+  "fetched": "2026-11-08"
+ },
+ "saran-prod.jpg": {
+  "src": "https://www.asahi-kasei.co.jp/saran/assets/images/products/saranwrap/sw_l_prod_01.jpg",
+  "page": "https://www.asahi-kasei.co.jp/saran/products/saranwrap/",
+  "credit": "旭化成ホームプロダクツ 公式",
+  "fetched": "2026-11-08"
+ },
+ "saran.jpg": {
+  "src": "https://www.asahi-kasei.co.jp/saran/assets/images/products/saranwrap/sw_l_m_s_pkg_50m_herein_banner.png",
+  "page": "https://www.asahi-kasei.co.jp/saran/products/saranwrap/",
+  "credit": "旭化成ホームプロダクツ 公式",
+  "note": "公式の画像から 30cm×50m の箱の部分だけを切り出した",
+  "fetched": "2026-11-08"
+ },
+ "kure-50m.jpg": {
+  "src": "https://kurelife.jp/assets/img/common/thumb/kureha-product-new_kurewrap-50m.jpg",
+  "page": "https://kurelife.jp/products/newkrewrap/",
+  "credit": "クレハ 公式",
+  "fetched": "2026-11-08"
+ },
+ "kure-lineup.png": {
+  "src": "https://kurelife.jp/assets/img/products/newkrewrap/index/lineup07.png",
+  "page": "https://kurelife.jp/products/newkrewrap/",
+  "credit": "クレハ 公式",
+  "fetched": "2026-11-08"
+ }
+}

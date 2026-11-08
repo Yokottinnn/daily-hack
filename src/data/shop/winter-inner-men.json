@@ -1,0 +1,68 @@
+{
+  "id": "winter-inner-men",
+  "title": "冬のメンズ肌着（綿100%）",
+  "_note": "グンゼ 快適工房 KW3008 の素材・価格は楽天市場の「グンゼオンラインショップ - グンゼ公式通販」の商品ページ（2026-11-07・11-08 確認）。ユニクロは通販モールで売っていないためボタンを置かない。出典は Yokottinnn/daily-hack-affiliate の docs/research/innner-men100-vs-hatsunetsu-products.md",
+  "columns": [
+    {
+      "key": "price",
+      "label": "公式の価格"
+    },
+    {
+      "key": "material",
+      "label": "素材（公式）"
+    },
+    {
+      "key": "note",
+      "label": "公式の説明"
+    }
+  ],
+  "pricesCheckedAt": null,
+  "items": [
+    {
+      "id": "gunze-kaitekikoubou-kw3008",
+      "brand": "グンゼ",
+      "name": "グンゼ 快適工房 長袖丸首 KW3008（メンズ）",
+      "badge": "本体 綿100%",
+      "summary": "本体 綿100%のフライス素材・日本製・S〜3L。グンゼ公式通販で1,980〜2,530円（サイズで違う）。",
+      "recommended": true,
+      "specs": {
+        "price": "1,980〜2,530円（サイズ別）",
+        "material": "本体 綿100%（袖口ゴム部は綿70〜80%・ポリエステル20〜30%）",
+        "note": "汗をよく吸うフライス素材・抗菌防臭加工・日本製"
+      },
+      "source": "https://item.rakuten.co.jp/gunze/kw3008/",
+      "rakuten": {
+        "keyword": "グンゼ 快適工房 KW3008",
+        "must": [
+          "KW3008"
+        ],
+        "exclude": [
+          "中古",
+          "レディース",
+          "ボクサー",
+          "ブリーフ",
+          "半袖",
+          "タンク"
+        ]
+      },
+      "yahoo": {
+        "keyword": "グンゼ 快適工房 KW3008",
+        "must": [
+          "KW3008"
+        ],
+        "exclude": [
+          "中古",
+          "レディース",
+          "ボクサー",
+          "ブリーフ",
+          "半袖",
+          "タンク"
+        ]
+      },
+      "amazon": {
+        "keyword": "グンゼ 快適工房 長袖丸首 KW3008",
+        "asin": null
+      }
+    }
+  ]
+}
