@@ -1,0 +1,6 @@
+{
+  "map-all.jpg": {"source": "https://daily-hack.fieldbeside.com/wangan-map/ （自サイトのイベントマップを 2026-11-08 にローカルの開発サーバーで撮影）", "credit": "地図: 国土地理院（地理院タイル・淡色地図）をもとに作成／駅: © OpenStreetMap contributors", "fetched": "2026-11-08"},
+  "pop-xmas.jpg": {"source": "同上（東京クリスマスマーケットのピンを押した状態。写っている画像は記事で使っている主催者の公式画像）", "fetched": "2026-11-08"},
+  "pop-car.jpg": {"source": "同上（空飛ぶクルマの展示のピン。画像は東京都の告知画像）", "fetched": "2026-11-08"},
+  "pop-tb.jpg": {"source": "同上（ティム・バートンのラビリンスのピン。画像は主催者の公式画像）", "fetched": "2026-11-08"}
+}
