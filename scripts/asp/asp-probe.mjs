@@ -1197,6 +1197,25 @@ try {
     });
     lines.push(`## 広告の行（${rows.length} 件）`, '', ...rows.filter(([t]) => !NG.test(t)).map(([t, st, h]) => `- ${t.replace(/\|/g, '／')}［${st || '表示なし'}］ — ${h}`), '');
   }
+  if (WHICH === 'vcsns') {
+    // **読むだけ（t583・2026-11-08）。** VC に X（SNS メディア）を登録しているか、CPC 専用プログラム（2025-07 開始・SNS 登録サイトだけに開示）が見えるかを読む。
+    // URL は推測しない: ホームのリンクから「サイト」「CPC」「SNS」を含むものを辿る。登録・申請のボタンは押さない
+    await go('https://aff.valuecommerce.ne.jp/home');
+    const txt = async () => p.evaluate(() => (document.querySelector('main, .main-content, #contents') || document.body).innerText.split('\n').map((x) => x.trim()).filter(Boolean));
+    const menu = await links(/サイト|メディア|CPC|SNS|クリック/);
+    lines.push(`## ホームのリンク（サイト・メディア・CPC・SNS・クリック）（${here()}）`, '', ...menu.filter(([t]) => !NG.test(t)).map(([t, h]) => `- ${t} — ${h}`), '');
+    const homeHits = (await txt()).filter((x) => /CPC|クリック報酬|SNS|X（旧Twitter）|Instagram|YouTube/.test(x)).slice(0, 20);
+    lines.push('## ホームの本文で CPC・SNS を含む行', '', ...homeHits.filter((x) => !NG.test(x)).map((x) => `- ${x.slice(0, 140)}`), '');
+    const seen = new Set();
+    for (const [t, h] of menu) {
+      if (!/^https:\/\/aff\.valuecommerce\.ne\.jp\//.test(h) || seen.has(h) || seen.size >= 6) continue; seen.add(h);
+      await go(h);
+      const rows = (await txt()).filter((x) => /https?:\/\/|x\.com|twitter|SNS|ブログ|ウェブサイト|審査|承認|CPC|クリック報酬|メディア種別|種類/.test(x)).slice(0, 30);
+      lines.push(`## 「${t}」を開いた画面（${here()}）`, '', ...rows.filter((x) => !NG.test(x)).map((x) => `- ${x.slice(0, 140)}`), '');
+      const sub = await links(/CPC|SNS|サイト一覧|サイトの追加|メディア/);
+      if (sub.length) lines.push('- この画面のリンク: ' + sub.filter(([tt]) => !NG.test(tt)).slice(0, 12).map(([tt, hh]) => `${tt}（${hh.replace(/\?.*$/, '')}）`).join('／'), '');
+    }
+  }
 } catch (e) { lines.push(`- ⚠️ 失敗: ${String(e).slice(0, 200)}`); }
 fs.writeFileSync(path.join(OUT, `${WHICH}.md`), lines.join('\n') + '\n');
 console.log(lines.join('\n').slice(0, 2500));
