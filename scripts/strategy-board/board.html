@@ -1215,9 +1215,11 @@ tr[data-ccount]::after{top:4px;right:4px}
 
   // ---- スナップショットを描く ----
   function delta(cur,prev){ if(cur==null||!prev) return ''; const p=Math.round((cur-prev)/prev*100); return '<span class="delta '+(p>=0?'up':'down')+'">'+(p>=0?'+':'')+p+'%</span>'; }
-  function stamp(id,S){ const el=$('#'+id); if(!el) return; const age=Math.round((Date.now()-new Date(S.generatedAt))/864e5); el.classList.toggle('stale',age>2); el.querySelector('span').textContent='自動更新 '+S.generatedAt.slice(0,10)+(age>2?'（'+age+' 日前・古い）':''); }
+  // 日付は日本時間で出す（generatedAt は UTC。朝 8:49 JST の更新が UTC だと前日の日付に見えていた・2026-11-08）
+  const jst=(iso,n)=>{ const t=Date.parse(iso); if(!isFinite(t)) return String(iso||'').slice(0,n||10); return new Date(t+9*36e5).toISOString().slice(0,n||10).replace('T',' '); };
+  function stamp(id,S){ const el=$('#'+id); if(!el) return; const age=Math.round((Date.now()-new Date(S.generatedAt))/864e5); el.classList.toggle('stale',age>2); el.querySelector('span').textContent='自動更新 '+jst(S.generatedAt)+(age>2?'（'+age+' 日前・古い）':''); }
   function renderSnapshotTop(S){
-    $('#meta-data').textContent=S.generatedAt.slice(0,10)+' 更新';
+    $('#meta-data').textContent=jst(S.generatedAt)+' 更新';
     ['stamp-home','stamp-now','stamp-asp'].forEach(id=>stamp(id,S));
     const k=S.kpi||{};
     const g=k.gsc28||{}, gp=k.gscPrev28||{}, pv=k.pv28||{}, pvp=k.pvPrev28||{}, po=k.posts||{};
@@ -1245,7 +1247,7 @@ tr[data-ccount]::after{top:4px;right:4px}
     $('#pv-note').innerHTML='<b>訪問の数の読み方</b>：記事ごとの訪問は Cloudflare の数で、<b>ボット（機械的なアクセス）を含みます</b>。ボットを除いた数が取れているのはサイト全体だけです（直近 28 日 '+fmtN((S.kpi||{}).pv28&&S.kpi.pv28.human)+'）。記録は '+esc(PM.first||'—')+' から（全期間 '+fmtN(PM.days90)+' 日）。'+(PM.spikeDays&&PM.spikeDays.length?'全記事が同じ日に跳ねた日（'+PM.spikeDays.map(d=>d.slice(5).replace('-','/')).join('・')+'）は、読者ではない一斉アクセスの疑いがあります。':'')+(PM.refFrom?'記事ごとのボット除外の訪問は '+esc(PM.refFrom)+' から記録しています。':'記事ごとのボット除外の訪問は 10/13 分から記録します。')+'<b>どこから来たか（X か検索か）は、Cloudflare の無料プランの集計では取れません</b>。Web Analytics を有効にすると取れるようになります（「タスク」のページ）。それまでは、日ごとの訪問と X の告知日・一斉アクセスの日を突き合わせて読みます（行を押すと詳細）。';
     ART=S.articles||[]; renderArticles(); ideaFilters(); renderIdeas();
     // 所見の時点
-    const GS=(S.sources||{}).gsc||{}; $('#findings-when').textContent='（'+S.generatedAt.slice(0,10)+' 更新・検索 '+((GS.window||[])[0]||'—')+'〜'+((GS.window||[])[1]||'—')+'・訪問 〜'+(PM.last||'—')+'）';
+    const GS=(S.sources||{}).gsc||{}; $('#findings-when').textContent='（'+jst(S.generatedAt)+' 更新・検索 '+((GS.window||[])[0]||'—')+'〜'+((GS.window||[])[1]||'—')+'・訪問 〜'+(PM.last||'—')+'）';
     // ブログ全体
     const B=S.blog||{}, K=S.kpi||{};
     // 前の 28 日との比較（2026-10-30 利用者のコメント「検索クリックと同じように先月比を出して欲しい」）。
@@ -1278,7 +1280,7 @@ tr[data-ccount]::after{top:4px;right:4px}
   function renderSnapshot(S){
     const errs=[]; const safe=(name,fn)=>{ try{ fn(); }catch(e){ console.error(name,e); errs.push(name+'（'+String(e&&e.message||e).slice(0,80)+'）'); } };
     safe('全体像',()=>renderSnapshotTop(S)); safe('ASP と案件',renderA8); safe('成果リンクの一覧',renderAff); safe('現状の数字',()=>renderNowHub(S)); safe('付箋',applyCounts);
-    if(errs.length){ const m=$('#meta-data'); if(m) m.textContent=((S.generatedAt||'').slice(0,10)||'—')+' 更新・表示に失敗した部分: '+errs.join('、'); }
+    if(errs.length){ const m=$('#meta-data'); if(m) m.textContent=(jst(S.generatedAt)||'—')+' 更新・表示に失敗した部分: '+errs.join('、'); }
   }
 
   // ---- 現状の数字: X・ブログ・アフィリエイトの数字を 1 ページに（2026-10-25 利用者のコメント 0dxd6x2bbryrclqjesc3）----
@@ -1367,7 +1369,7 @@ tr[data-ccount]::after{top:4px;right:4px}
     const R=RESULTS;
     if(!R||!(R.rows||[]).length){ box.innerHTML='<p class="note" data-cid="now.aff.results.wait">ASP の管理画面のレポート（クリック・発生・確定）を Mac が毎日読み、ここに載せる仕組みを affiliate が作っています（2026-10-25）。報酬額は公開リポジトリを通さず、この作戦室の中だけに置きます。</p>'; return; }
     const yen=(n)=>n==null?'—':'¥'+fmtN(n);
-    box.innerHTML='<p class="src">'+esc(R.note||'')+'（'+esc(String(R.generatedAt||'').slice(0,16).replace('T',' '))+' 取得）</p><div class="tbl"><table><thead><tr><th>ASP</th><th>期間</th><th>クリック</th><th>発生</th><th>発生の報酬</th><th>確定</th><th>確定の報酬</th></tr></thead><tbody>'
+    box.innerHTML='<p class="src">'+esc(R.note||'')+'（'+esc(jst(R.generatedAt,16))+' 取得）</p><div class="tbl"><table><thead><tr><th>ASP</th><th>期間</th><th>クリック</th><th>発生</th><th>発生の報酬</th><th>確定</th><th>確定の報酬</th></tr></thead><tbody>'
       +R.rows.map(r=>'<tr data-cid="now.aff.res.'+hash(r.asp+r.period)+'"><td><b>'+esc(r.asp)+'</b></td><td>'+esc(r.period||'')+'</td><td class="num">'+fmtN(r.clicks)+'</td><td class="num">'+fmtN(r.occurred)+'</td><td class="num">'+yen(r.occurredAmount)+'</td><td class="num">'+fmtN(r.confirmed)+'</td><td class="num">'+yen(r.confirmedAmount)+'</td></tr>').join('')+'</tbody></table></div>';
     applyCounts(); }
   $$('#now-jump button').forEach(b=>b.addEventListener('click',()=>{ const t=$('#'+b.dataset.jump); if(t) t.scrollIntoView({behavior:'smooth',block:'start'}); }));
