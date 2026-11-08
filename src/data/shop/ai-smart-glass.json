@@ -1,0 +1,212 @@
+{
+  "id": "ai-smart-glass",
+  "title": "AI スマートグラス（できること・度付きにできるか・総額）",
+  "_note": "仕様・価格は各社公式とメーカー名義の発表（2026-11-07 確認）の記載だけ。出典と要確認（Ray-Ban Meta・Oakley Meta の日本での度付き料金・重さ、Rokid の電池の時間とポイントの価格など）は Yokottinnn/daily-hack-affiliate の docs/research/ai-smart-glass-hikaku-products.md。Even G2 は国内の通販モールの正規店が確かめられないので 3 店ボタンに入れていない（公式ストアへのリンクだけ）。Meta Ray-Ban Display は国内正規販売なし",
+  "columns": [
+    {
+      "key": "price",
+      "label": "公式価格（税込）"
+    },
+    {
+      "key": "display",
+      "label": "視界への表示"
+    },
+    {
+      "key": "camera",
+      "label": "カメラ"
+    },
+    {
+      "key": "rx",
+      "label": "度付き"
+    },
+    {
+      "key": "battery",
+      "label": "電池（公式）"
+    },
+    {
+      "key": "translate",
+      "label": "翻訳"
+    }
+  ],
+  "pricesCheckedAt": null,
+  "items": [
+    {
+      "id": "ray-ban-meta-gen3",
+      "brand": "Ray-Ban Meta（Meta × EssilorLuxottica）",
+      "name": "Ray-Ban Meta (Gen 3)",
+      "badge": "定番・音声で答える",
+      "summary": "カメラで撮ってAIに聞く型。視界に字は出ない。78,980円から、ライブ翻訳は日本語を含む20言語。",
+      "recommended": false,
+      "specs": {
+        "price": "78,980円〜",
+        "display": "なし（音声で返す）",
+        "camera": "あり（3K動画）",
+        "rx": "日本での度付きは公式で確かめられず",
+        "battery": "最大9時間（Meta発表）",
+        "translate": "20言語（日本語含む）"
+      },
+      "source": "https://about.fb.com/ja/news/2026/09/ai-glasses-lineup-added/",
+      "rakuten": {
+        "keyword": "Ray-Ban Meta Gen3",
+        "must": [
+          "Meta"
+        ],
+        "exclude": [
+          "ケース",
+          "フィルム",
+          "中古",
+          "互換"
+        ]
+      },
+      "yahoo": {
+        "keyword": "Ray-Ban Meta Gen3",
+        "must": [
+          "Meta"
+        ],
+        "exclude": [
+          "ケース",
+          "フィルム",
+          "中古",
+          "互換"
+        ]
+      },
+      "amazon": {
+        "keyword": "Ray-Ban Meta Gen3",
+        "asin": null
+      }
+    },
+    {
+      "id": "ray-ban-meta-optics-gen2",
+      "brand": "Ray-Ban Meta（Meta × EssilorLuxottica）",
+      "name": "Ray-Ban Meta Optics (Gen 2)",
+      "badge": "度付き対応のレイバン",
+      "summary": "度付きにできる Ray-Ban Meta。度数は -6.00〜+6.00。本体82,500円で、度付きレンズは別売り（料金は公式で確かめられず）。",
+      "recommended": false,
+      "specs": {
+        "price": "82,500円（レンズ別売り）",
+        "display": "なし（音声で返す）",
+        "camera": "1200万画素・3K",
+        "rx": "できる（-6.00〜+6.00）",
+        "battery": "最大8時間",
+        "translate": "20言語（日本語含む）"
+      },
+      "source": "https://about.fb.com/ja/news/2026/05/ai-glass-launch/",
+      "rakuten": {
+        "keyword": "Ray-Ban Meta Optics",
+        "must": [
+          "Meta",
+          "Optics"
+        ],
+        "exclude": [
+          "ケース",
+          "中古",
+          "互換"
+        ]
+      },
+      "yahoo": {
+        "keyword": "Ray-Ban Meta Optics",
+        "must": [
+          "Meta",
+          "Optics"
+        ],
+        "exclude": [
+          "ケース",
+          "中古",
+          "互換"
+        ]
+      },
+      "amazon": {
+        "keyword": "Ray-Ban Meta Optics",
+        "asin": null
+      }
+    },
+    {
+      "id": "oakley-meta-hstn",
+      "brand": "Oakley Meta（Meta × EssilorLuxottica）",
+      "name": "Oakley Meta HSTN",
+      "badge": "スポーツ向け・IPX4",
+      "summary": "Ray-Ban Meta と同じ「音声で答える」型のオークリー版。77,220円から、IPX4、ケースで最大48時間。",
+      "recommended": false,
+      "specs": {
+        "price": "77,220円〜",
+        "display": "なし（音声で返す）",
+        "camera": "1200万画素・3K",
+        "rx": "日本での度付きは公式で確かめられず",
+        "battery": "最大8時間（ケースで48時間）",
+        "translate": "20言語（日本語含む）"
+      },
+      "source": "https://about.fb.com/ja/news/2026/05/ai-glass-launch/",
+      "rakuten": {
+        "keyword": "Oakley Meta HSTN",
+        "must": [
+          "HSTN"
+        ],
+        "exclude": [
+          "ケース",
+          "中古",
+          "互換"
+        ]
+      },
+      "yahoo": {
+        "keyword": "Oakley Meta HSTN",
+        "must": [
+          "HSTN"
+        ],
+        "exclude": [
+          "ケース",
+          "中古",
+          "互換"
+        ]
+      },
+      "amazon": {
+        "keyword": "Oakley Meta HSTN",
+        "asin": null
+      }
+    },
+    {
+      "id": "rokid-glasses",
+      "brand": "Rokid（国内販売: フューチャーモデル）",
+      "name": "Rokid スマートAIグラス",
+      "badge": "表示あり＋カメラあり",
+      "summary": "視界に字が出て、カメラもある。109,890円。度付きはクリップオンのレンズで16,990円から。翻訳など一部はポイント制（毎月100ポイント無料）。",
+      "recommended": true,
+      "specs": {
+        "price": "109,890円",
+        "display": "あり（両眼・グリーン）",
+        "camera": "1200万画素",
+        "rx": "クリップオンで対応（16,990円〜）",
+        "battery": "「1日中」（数値は非公表）",
+        "translate": "89言語（オンライン・ポイント制）／オフライン8言語"
+      },
+      "source": "https://jp.rokid.com/products/rokid-glasses",
+      "rakuten": {
+        "keyword": "Rokid スマートAIグラス",
+        "must": [
+          "Rokid"
+        ],
+        "exclude": [
+          "ケース",
+          "フィルム",
+          "Max",
+          "中古"
+        ]
+      },
+      "yahoo": {
+        "keyword": "Rokid スマートAIグラス",
+        "must": [
+          "Rokid"
+        ],
+        "exclude": [
+          "ケース",
+          "フィルム",
+          "Max",
+          "中古"
+        ]
+      },
+      "amazon": {
+        "keyword": "Rokid スマートAIグラス",
+        "asin": null
+      }
+    }
+  ]
+}
