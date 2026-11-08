@@ -1197,6 +1197,14 @@ try {
     });
     lines.push(`## 広告の行（${rows.length} 件）`, '', ...rows.filter(([t]) => !NG.test(t)).map(([t, st, h]) => `- ${t.replace(/\|/g, '／')}［${st || '表示なし'}］ — ${h}`), '');
   }
+  if (WHICH === 'vcsites2') {
+    // **読むだけ（t584）。** t583 で「サイト設定」の本文が条件に当たらず空だったので、全部の行を伏せ字つきで出す（登録しているサイトの種類・URL・審査の状態を見る）
+    await go('https://aff.valuecommerce.ne.jp/account/siteManage');
+    const all = await p.evaluate(() => (document.querySelector('main, .main-content, #contents') || document.body).innerText.split('\n').map((x) => x.trim()).filter(Boolean));
+    lines.push(`## サイト設定の全部の行（${here()}・${all.length} 行）`, '', ...all.filter((x) => !NG.test(x)).slice(0, 80).map((x) => `- ${x.slice(0, 160)}`), '');
+    const opts = await p.evaluate(() => [...document.querySelectorAll('select option')].map((o) => o.text.trim()).filter(Boolean).slice(0, 30));
+    lines.push('## 画面のプルダウンの選択肢（サイト選択など）', '', ...opts.filter((x) => !NG.test(x)).map((x) => `- ${x.slice(0, 120)}`), '');
+  }
   if (WHICH === 'vcsns') {
     // **読むだけ（t583・2026-11-08）。** VC に X（SNS メディア）を登録しているか、CPC 専用プログラム（2025-07 開始・SNS 登録サイトだけに開示）が見えるかを読む。
     // URL は推測しない: ホームのリンクから「サイト」「CPC」「SNS」を含むものを辿る。登録・申請のボタンは押さない
