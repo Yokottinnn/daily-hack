@@ -68,6 +68,12 @@
 
 <!-- 新しい記録がこの下に追加される（新しいものが上） -->
 
+### 2026-11-08 — B の2本を公開（#1536 エアフライヤー・#1537 トイデジ）。成果リンクを全記事で点検し Amazon タグなし20本・楽天の返礼品15本を直した（#1531）。ビルドで止める点検 scripts/check-aff-links.mjs を postbuild に入れた（#1534）。本番ドメインは daily-hack.fieldbeside.com（daily-hack.com ではない）
+
+次のアクション:
+
+- [ ] B/C の残り4本（pickleball-paddle-shoshinsha・wireless-earphone-glass-core・fitbit-air-screenless-band・bonbon-drop-seal-dokode）と X の話題の3本（wrap-1m-tanka・innner-men100-vs-hatsunetsu・open-ear-earphone-hikaku）
+
 ### 2026-11-07 — 毎週の投稿候補: 湾岸ニュース 2（11/23 交通規制・豊洲市場の11月）とお得情報 2（楽天無人配送のクーポン・有明ガーデンの新店）を画像つきで足した。候補は 19 組。止まっているジョブ 61 本の棚卸しページを出した
 
 次のアクション:
