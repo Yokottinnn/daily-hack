@@ -1,1 +1,4 @@
-[]
+[
+      {"task": "x445-read-follow-ratio-week.sh", "rc": 0, "out": "## 外した件数（follow-balance・日ごと・JST の日付ではなくログの日付） ``` 2026-11-02  起動 8 回 ／ 外れた 37 件 2026-11-03  起動 10 回 ／ 外れた 23 件 2026-11-04  起動 6 回 ／ "},
+      {"task": "x446-schedule-lalaport-bf.sh", "rc": 0, "out": "ららぽーと豊洲ブラックフライデーを 11/12 12:00 に予約した / x446-schedule-lalaport-bf.md"}
+  ]
