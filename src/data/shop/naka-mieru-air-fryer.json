@@ -3,13 +3,28 @@
   "title": "中が見えるエアフライヤー（窓付き・ガラス容器）",
   "_note": "仕様・価格は各社公式とティファールのニュースリリース（2026-11-07 確認）。1回の電気代は 消費電力×公式レシピの時間×31円/kWh の上限の目安。出典は Yokottinnn/daily-hack-affiliate の docs/research/naka-mieru-air-fryer-products.md。ニトリ XJ2G02 はニトリネットの販売で、通販モールの正規店が確かめられないので 3 店ボタンに入れていない",
   "columns": [
-    { "key": "type", "label": "中が見える形" },
-    { "key": "volume", "label": "容量" },
-    { "key": "watt", "label": "消費電力" },
-    { "key": "price", "label": "公式の価格" },
-    { "key": "dish", "label": "食洗機（公式の記載）" }
+    {
+      "key": "type",
+      "label": "中が見える形"
+    },
+    {
+      "key": "volume",
+      "label": "容量"
+    },
+    {
+      "key": "watt",
+      "label": "消費電力"
+    },
+    {
+      "key": "price",
+      "label": "公式の価格"
+    },
+    {
+      "key": "dish",
+      "label": "食洗機（公式の記載）"
+    }
   ],
-  "pricesCheckedAt": null,
+  "pricesCheckedAt": "2026-11-09T21:43:55.724Z",
   "items": [
     {
       "id": "bruno-boe122",
@@ -18,11 +33,48 @@
       "badge": "ガラス容器・食洗機OK",
       "summary": "容器そのものがガラス。約3.5L・1,000W・14,300円。から揚げ15分で1回 約7.8円（上限の目安）。",
       "recommended": true,
-      "specs": { "type": "ガラス製バスケット", "volume": "約3.5L", "watt": "1,000W", "price": "14,300円", "dish": "ガラスバスケット・網プレート・ヒーターカバー" },
+      "specs": {
+        "type": "ガラス製バスケット",
+        "volume": "約3.5L",
+        "watt": "1,000W",
+        "price": "14,300円",
+        "dish": "ガラスバスケット・網プレート・ヒーターカバー"
+      },
       "source": "https://bruno-onlineshop.com/item/07761168.html",
-      "rakuten": { "keyword": "BRUNO ガラスエアフライヤー BOE122", "must": ["BOE122"], "exclude": ["中古", "パーツ"] },
-      "yahoo": { "keyword": "BRUNO ガラスエアフライヤー BOE122", "must": ["BOE122"], "exclude": ["中古", "パーツ"] },
-      "amazon": { "keyword": "BRUNO ガラスエアフライヤー BOE122", "asin": null }
+      "rakuten": {
+        "keyword": "BRUNO ガラスエアフライヤー BOE122",
+        "must": [
+          "BOE122"
+        ],
+        "exclude": [
+          "中古",
+          "パーツ",
+          "◆"
+        ]
+      },
+      "yahoo": {
+        "keyword": "BRUNO ガラスエアフライヤー BOE122",
+        "must": [
+          "BOE122"
+        ],
+        "exclude": [
+          "中古",
+          "パーツ",
+          "◆"
+        ],
+        "url": null,
+        "price": null,
+        "shippingFree": null,
+        "point": null,
+        "reviewAverage": null,
+        "reviewCount": null,
+        "shop": null,
+        "checkedAt": null
+      },
+      "amazon": {
+        "keyword": "BRUNO ガラスエアフライヤー BOE122",
+        "asin": null
+      }
     },
     {
       "id": "beelicious-af4007",
@@ -31,11 +83,46 @@
       "badge": "窓付き・食洗機OK",
       "summary": "本体の窓と庫内ライト。4.5L・1,200W・公式ストア13,500円。ポテト15分で1回 約9.3円。",
       "recommended": false,
-      "specs": { "type": "本体の窓＋庫内ライト", "volume": "4.5L", "watt": "1,200W", "price": "13,500円（公式ストア）", "dish": "バスケット" },
+      "specs": {
+        "type": "本体の窓＋庫内ライト",
+        "volume": "4.5L",
+        "watt": "1,200W",
+        "price": "13,500円（公式ストア）",
+        "dish": "バスケット"
+      },
       "source": "https://beelicious-jp.com/products/beelicious%E3%83%8E%E3%83%B3%E3%83%95%E3%83%A9%E3%82%A4%E3%83%A4%E3%83%BCaf-ze4007-a",
-      "rakuten": { "keyword": "Beelicious ノンフライヤー 窓", "must": ["Beelicious"], "exclude": ["中古", "パーツ"] },
-      "yahoo": { "keyword": "Beelicious ノンフライヤー 窓", "must": ["Beelicious"], "exclude": ["中古", "パーツ"] },
-      "amazon": { "keyword": "Beelicious ノンフライヤー 見える窓付き", "asin": null }
+      "rakuten": {
+        "keyword": "Beelicious ノンフライヤー 窓",
+        "must": [
+          "Beelicious"
+        ],
+        "exclude": [
+          "中古",
+          "パーツ"
+        ]
+      },
+      "yahoo": {
+        "keyword": "Beelicious ノンフライヤー 窓",
+        "must": [
+          "Beelicious"
+        ],
+        "exclude": [
+          "中古",
+          "パーツ"
+        ],
+        "url": null,
+        "price": null,
+        "shippingFree": null,
+        "point": null,
+        "reviewAverage": null,
+        "reviewCount": null,
+        "shop": null,
+        "checkedAt": "2026-11-09T21:43:55.724Z"
+      },
+      "amazon": {
+        "keyword": "Beelicious ノンフライヤー 見える窓付き",
+        "asin": null
+      }
     },
     {
       "id": "epeios-epao248",
@@ -44,11 +131,56 @@
       "badge": "ガラスボウル2個",
       "summary": "大4L・小1.5Lの耐熱ガラスボウル。1,400W・19,860円。本体とフレーム以外は食洗機OK。",
       "recommended": false,
-      "specs": { "type": "耐熱ガラスボウル（大小2個）", "volume": "大 約4L／小 約1.5L", "watt": "1,400W", "price": "19,860円", "dish": "本体とフレーム以外の付属パーツ" },
+      "specs": {
+        "type": "耐熱ガラスボウル（大小2個）",
+        "volume": "大 約4L／小 約1.5L",
+        "watt": "1,400W",
+        "price": "19,860円",
+        "dish": "本体とフレーム以外の付属パーツ"
+      },
       "source": "https://epeios.jp/products/airfryer_epao248",
-      "rakuten": { "keyword": "EPEIOS ガラスボウル エアフライヤー", "must": ["EPEIOS"], "exclude": ["中古", "パーツ"] },
-      "yahoo": { "keyword": "EPEIOS ガラスボウル エアフライヤー", "must": ["EPEIOS"], "exclude": ["中古", "パーツ"] },
-      "amazon": { "keyword": "EPEIOS ガラスボウルエアフライヤー EPAO248", "asin": null }
+      "rakuten": {
+        "keyword": "EPEIOS ガラスボウル エアフライヤー",
+        "must": [
+          "EPEIOS",
+          "EPAO248"
+        ],
+        "exclude": [
+          "中古",
+          "パーツ",
+          "ボウル",
+          "適用",
+          "交換",
+          "専用"
+        ]
+      },
+      "yahoo": {
+        "keyword": "EPEIOS ガラスボウル エアフライヤー",
+        "must": [
+          "EPEIOS",
+          "EPAO248"
+        ],
+        "exclude": [
+          "中古",
+          "パーツ",
+          "ボウル",
+          "適用",
+          "交換",
+          "専用"
+        ],
+        "url": null,
+        "price": null,
+        "shippingFree": null,
+        "point": null,
+        "reviewAverage": null,
+        "reviewCount": null,
+        "shop": null,
+        "checkedAt": null
+      },
+      "amazon": {
+        "keyword": "EPEIOS ガラスボウルエアフライヤー EPAO248",
+        "asin": null
+      }
     },
     {
       "id": "recolte-rao-4",
@@ -57,11 +189,46 @@
       "badge": "窓付き",
       "summary": "ライト付きの窓。約4.0L・1,200W・16,500円。冷凍食品メニュー20分で1回 約12.4円。",
       "recommended": false,
-      "specs": { "type": "本体の窓＋ライト", "volume": "約4.0L", "watt": "1,200W", "price": "16,500円", "dish": "記載なし" },
+      "specs": {
+        "type": "本体の窓＋ライト",
+        "volume": "約4.0L",
+        "watt": "1,200W",
+        "price": "16,500円",
+        "dish": "記載なし"
+      },
       "source": "https://recolte.official.ec/items/150792905",
-      "rakuten": { "keyword": "レコルト エアーオーブン RAO-4", "must": ["RAO-4"], "exclude": ["中古", "パーツ"] },
-      "yahoo": { "keyword": "レコルト エアーオーブン RAO-4", "must": ["RAO-4"], "exclude": ["中古", "パーツ"] },
-      "amazon": { "keyword": "レコルト エアーオーブン 4L RAO-4", "asin": null }
+      "rakuten": {
+        "keyword": "レコルト エアーオーブン RAO-4",
+        "must": [
+          "RAO-4"
+        ],
+        "exclude": [
+          "中古",
+          "パーツ"
+        ]
+      },
+      "yahoo": {
+        "keyword": "レコルト エアーオーブン RAO-4",
+        "must": [
+          "RAO-4"
+        ],
+        "exclude": [
+          "中古",
+          "パーツ"
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/roomy/win2006-tu00c-1.html",
+        "price": 16500,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": 4.75,
+        "reviewCount": 8,
+        "shop": "インテリアショップ roomy",
+        "checkedAt": "2026-11-09T21:43:55.724Z"
+      },
+      "amazon": {
+        "keyword": "レコルト エアーオーブン 4L RAO-4",
+        "asin": null
+      }
     },
     {
       "id": "tfal-ey8228j0",
@@ -70,11 +237,46 @@
       "badge": "いちばん大きい",
       "summary": "透明窓と庫内ライト。6L・1,100W・参考価格25,800円（2026年10月発売）。",
       "recommended": false,
-      "specs": { "type": "本体の窓＋庫内ライト", "volume": "6L", "watt": "1,100W", "price": "25,800円（参考価格）", "dish": "記載なし（丸洗いは可）" },
+      "specs": {
+        "type": "本体の窓＋庫内ライト",
+        "volume": "6L",
+        "watt": "1,100W",
+        "price": "25,800円（参考価格）",
+        "dish": "記載なし（丸洗いは可）"
+      },
       "source": "https://www.t-fal.co.jp/pdf/develop/%E3%82%A8%E3%82%A2%E3%83%95%E3%83%A9%E3%82%A4%E3%83%A4%E3%83%BC_202610.pdf",
-      "rakuten": { "keyword": "ティファール エアフライヤー EY8228J0", "must": ["EY8228"], "exclude": ["中古", "パーツ"] },
-      "yahoo": { "keyword": "ティファール エアフライヤー EY8228J0", "must": ["EY8228"], "exclude": ["中古", "パーツ"] },
-      "amazon": { "keyword": "ティファール EY8228J0", "asin": null }
+      "rakuten": {
+        "keyword": "ティファール エアフライヤー EY8228J0",
+        "must": [
+          "EY8228"
+        ],
+        "exclude": [
+          "中古",
+          "パーツ"
+        ]
+      },
+      "yahoo": {
+        "keyword": "ティファール エアフライヤー EY8228J0",
+        "must": [
+          "EY8228"
+        ],
+        "exclude": [
+          "中古",
+          "パーツ"
+        ],
+        "url": null,
+        "price": null,
+        "shippingFree": null,
+        "point": null,
+        "reviewAverage": null,
+        "reviewCount": null,
+        "shop": null,
+        "checkedAt": "2026-11-09T21:43:55.724Z"
+      },
+      "amazon": {
+        "keyword": "ティファール EY8228J0",
+        "asin": null
+      }
     }
   ]
 }

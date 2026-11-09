@@ -20,7 +20,7 @@
       "label": "1mあたり（通販の一例）"
     }
   ],
-  "pricesCheckedAt": null,
+  "pricesCheckedAt": "2026-11-09T21:43:55.724Z",
   "items": [
     {
       "id": "new-kurewrap-30-50",
@@ -68,7 +68,15 @@
           "20m",
           "ミニ",
           "ケース販売"
-        ]
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/rusion-jp/rus-4901422153502.html",
+        "price": 480,
+        "shippingFree": false,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 0,
+        "shop": "RUSIONヤフー店",
+        "checkedAt": "2026-11-09T21:43:55.724Z"
       },
       "amazon": {
         "keyword": "NEWクレラップ レギュラー 30cm×50m",
@@ -121,7 +129,15 @@
           "20m",
           "ミニ",
           "ケース販売"
-        ]
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/kohnan-eshop/4901670110180.html",
+        "price": 450,
+        "shippingFree": false,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 1,
+        "shop": "コーナンeショップ Yahoo!ショッピング店",
+        "checkedAt": "2026-11-09T21:43:55.724Z"
       },
       "amazon": {
         "keyword": "サランラップ 30cm×50m",

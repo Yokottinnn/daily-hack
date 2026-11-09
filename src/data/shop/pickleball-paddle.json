@@ -3,13 +3,28 @@
   "title": "ピックルボールのパドル（初心者向け）",
   "_note": "仕様・価格はミズノのニュースリリースとナガセケンコー公式ネットショップ（2026-11-07 確認）。出典は Yokottinnn/daily-hack-affiliate の docs/research/pickleball-paddle-shoshinsha-products.md。ヨネックスの 2 本は米国公式の情報だけで、日本の正規販売と国内価格が確かめられないので 3 店ボタンに入れていない",
   "columns": [
-    { "key": "price", "label": "公式の価格（税込）" },
-    { "key": "weight", "label": "重さ" },
-    { "key": "face", "label": "素材（公式の表記）" },
-    { "key": "usap", "label": "USA Pickleball 公認" },
-    { "key": "set", "label": "中身" }
+    {
+      "key": "price",
+      "label": "公式の価格（税込）"
+    },
+    {
+      "key": "weight",
+      "label": "重さ"
+    },
+    {
+      "key": "face",
+      "label": "素材（公式の表記）"
+    },
+    {
+      "key": "usap",
+      "label": "USA Pickleball 公認"
+    },
+    {
+      "key": "set",
+      "label": "中身"
+    }
   ],
-  "pricesCheckedAt": null,
+  "pricesCheckedAt": "2026-11-09T21:43:55.724Z",
   "items": [
     {
       "id": "kenko-paddle",
@@ -18,11 +33,53 @@
       "badge": "いちばん安い",
       "summary": "6,050円・230g±5g。公式に「ピックルボールを初めてプレイする方にお勧め」。",
       "recommended": true,
-      "specs": { "price": "6,050円", "weight": "230g±5g", "face": "芯材：ポリプロピレン／グラスファイバー", "usap": "記載なし", "set": "パドル1本（カバー付き）" },
+      "specs": {
+        "price": "6,050円",
+        "weight": "230g±5g",
+        "face": "芯材：ポリプロピレン／グラスファイバー",
+        "usap": "記載なし",
+        "set": "パドル1本（カバー付き）"
+      },
       "source": "https://www.nagase-kenko.shop/view/item/000000000597",
-      "rakuten": { "keyword": "KENKO ピックルボールパドル ナガセケンコー", "must": ["ピックルボール"], "exclude": ["セット", "sante", "ボール 12", "中古"] },
-      "yahoo": { "keyword": "KENKO ピックルボールパドル ナガセケンコー", "must": ["ピックルボール"], "exclude": ["セット", "sante", "中古"] },
-      "amazon": { "keyword": "ナガセケンコー KENKO ピックルボールパドル", "asin": null }
+      "rakuten": {
+        "keyword": "KENKO ピックルボールパドル ナガセケンコー",
+        "must": [
+          "ピックルボール"
+        ],
+        "exclude": [
+          "セット",
+          "sante",
+          "ボール 12",
+          "中古",
+          "サンテ",
+          "PSPR"
+        ]
+      },
+      "yahoo": {
+        "keyword": "KENKO ピックルボールパドル ナガセケンコー",
+        "must": [
+          "ピックルボール"
+        ],
+        "exclude": [
+          "セット",
+          "sante",
+          "中古",
+          "サンテ",
+          "PSPR"
+        ],
+        "url": null,
+        "price": null,
+        "shippingFree": null,
+        "point": null,
+        "reviewAverage": null,
+        "reviewCount": null,
+        "shop": null,
+        "checkedAt": null
+      },
+      "amazon": {
+        "keyword": "ナガセケンコー KENKO ピックルボールパドル",
+        "asin": null
+      }
     },
     {
       "id": "kenko-starter-set",
@@ -31,11 +88,44 @@
       "badge": "2人ですぐ始める",
       "summary": "11,000円。パドル2本（カバー付き）とインドア用・アウトドア用のボール各2個。11月7日時点で公式ストアは売り切れ。",
       "recommended": false,
-      "specs": { "price": "11,000円", "weight": "230g±5g（1本）", "face": "パドルと同じ表記", "usap": "記載なし", "set": "パドル2本＋ボール4個" },
+      "specs": {
+        "price": "11,000円",
+        "weight": "230g±5g（1本）",
+        "face": "パドルと同じ表記",
+        "usap": "記載なし",
+        "set": "パドル2本＋ボール4個"
+      },
       "source": "https://www.nagase-kenko.shop/view/item/000000000600",
-      "rakuten": { "keyword": "KENKO ピックルボール スターターセット", "must": ["スターターセット"], "exclude": ["中古"] },
-      "yahoo": { "keyword": "KENKO ピックルボール スターターセット", "must": ["スターターセット"], "exclude": ["中古"] },
-      "amazon": { "keyword": "ナガセケンコー ピックルボール スターターセット", "asin": null }
+      "rakuten": {
+        "keyword": "KENKO ピックルボール スターターセット",
+        "must": [
+          "スターターセット"
+        ],
+        "exclude": [
+          "中古"
+        ]
+      },
+      "yahoo": {
+        "keyword": "KENKO ピックルボール スターターセット",
+        "must": [
+          "スターターセット"
+        ],
+        "exclude": [
+          "中古"
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/javasports/pb-st-rd.html",
+        "price": 11000,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 0,
+        "shop": "JAVASPORTS",
+        "checkedAt": "2026-11-09T21:43:55.724Z"
+      },
+      "amazon": {
+        "keyword": "ナガセケンコー ピックルボール スターターセット",
+        "asin": null
+      }
     },
     {
       "id": "mizuno-caliber",
@@ -44,11 +134,44 @@
       "badge": "公認・入門〜中級",
       "summary": "16,500円・約230g。USA Pickleball の公認を取得、細めのグリップ。2026年8月から国内で販売。",
       "recommended": false,
-      "specs": { "price": "16,500円", "weight": "約230g", "face": "グラスファイバー・ポリプロピレン・ウレタン", "usap": "公認を取得", "set": "パドル1本" },
+      "specs": {
+        "price": "16,500円",
+        "weight": "約230g",
+        "face": "グラスファイバー・ポリプロピレン・ウレタン",
+        "usap": "公認を取得",
+        "set": "パドル1本"
+      },
       "source": "https://corp.mizuno.com/jp/news-release/2026/20260710",
-      "rakuten": { "keyword": "ミズノ ピックルボール パドル CALIBER 63GPB690", "must": ["63GPB690"], "exclude": ["中古"] },
-      "yahoo": { "keyword": "ミズノ ピックルボール パドル CALIBER 63GPB690", "must": ["63GPB690"], "exclude": ["中古"] },
-      "amazon": { "keyword": "ミズノ ピックルボール パドル CALIBER 63GPB690", "asin": null }
+      "rakuten": {
+        "keyword": "ミズノ ピックルボール パドル CALIBER 63GPB690",
+        "must": [
+          "63GPB690"
+        ],
+        "exclude": [
+          "中古"
+        ]
+      },
+      "yahoo": {
+        "keyword": "ミズノ ピックルボール パドル CALIBER 63GPB690",
+        "must": [
+          "63GPB690"
+        ],
+        "exclude": [
+          "中古"
+        ],
+        "url": null,
+        "price": null,
+        "shippingFree": null,
+        "point": null,
+        "reviewAverage": null,
+        "reviewCount": null,
+        "shop": null,
+        "checkedAt": "2026-11-09T21:43:55.724Z"
+      },
+      "amazon": {
+        "keyword": "ミズノ ピックルボール パドル CALIBER 63GPB690",
+        "asin": null
+      }
     },
     {
       "id": "kenko-project-sante",
@@ -57,11 +180,44 @@
       "badge": "大会に出るなら",
       "summary": "22,000円・230g±10g。カーボンの面で USA Pickleball 公認（PBCoR.43）。公式に「本格的に大会出場したい方におすすめ」。",
       "recommended": false,
-      "specs": { "price": "22,000円", "weight": "230g±10g", "face": "T700 RAW カーボン（三層）", "usap": "公認（PBCoR.43）", "set": "パドル1本" },
+      "specs": {
+        "price": "22,000円",
+        "weight": "230g±10g",
+        "face": "T700 RAW カーボン（三層）",
+        "usap": "公認（PBCoR.43）",
+        "set": "パドル1本"
+      },
       "source": "https://www.nagase-kenko.shop/view/item/000000000789",
-      "rakuten": { "keyword": "KENKO ピックルボールパドル PROJECT sante", "must": ["sante"], "exclude": ["中古"] },
-      "yahoo": { "keyword": "KENKO ピックルボールパドル PROJECT sante", "must": ["sante"], "exclude": ["中古"] },
-      "amazon": { "keyword": "ナガセケンコー PROJECT sante ピックルボール", "asin": null }
+      "rakuten": {
+        "keyword": "KENKO ピックルボールパドル PROJECT sante",
+        "must": [
+          "sante"
+        ],
+        "exclude": [
+          "中古"
+        ]
+      },
+      "yahoo": {
+        "keyword": "KENKO ピックルボールパドル PROJECT sante",
+        "must": [
+          "sante"
+        ],
+        "exclude": [
+          "中古"
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/hed-club7/pb-pd-pspr.html",
+        "price": 20890,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 0,
+        "shop": "HEDが街にやって来る!",
+        "checkedAt": "2026-11-09T21:43:55.724Z"
+      },
+      "amazon": {
+        "keyword": "ナガセケンコー PROJECT sante ピックルボール",
+        "asin": null
+      }
     }
   ]
 }

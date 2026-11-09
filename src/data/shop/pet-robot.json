@@ -3,13 +3,28 @@
   "title": "ペットロボット（月額の要らない2体）",
   "_note": "仕様・価格は各社公式（2026-11-07 確認）の記載だけ。出典と要確認は Yokottinnn/daily-hack-affiliate の docs/research/pet-robot-sougaku-products.md。LOVOT・NICOBO は公式の直販で、通販モールの正規店が確かめられないので 3 店ボタンに入れていない。ポケともは価格が確かめられないので入れていない。モールの各店が正規の取扱店かは、買う前に店の名前で確かめるよう記事に書いた",
   "columns": [
-    { "key": "price", "label": "公式価格（税込）" },
-    { "key": "monthly", "label": "必須の月額" },
-    { "key": "warranty", "label": "メーカー保証" },
-    { "key": "battery", "label": "稼働と充電" },
-    { "key": "size", "label": "重さ" }
+    {
+      "key": "price",
+      "label": "公式価格（税込）"
+    },
+    {
+      "key": "monthly",
+      "label": "必須の月額"
+    },
+    {
+      "key": "warranty",
+      "label": "メーカー保証"
+    },
+    {
+      "key": "battery",
+      "label": "稼働と充電"
+    },
+    {
+      "key": "size",
+      "label": "重さ"
+    }
   ],
-  "pricesCheckedAt": null,
+  "pricesCheckedAt": "2026-11-09T21:43:55.724Z",
   "items": [
     {
       "id": "moflin-pe-m11",
@@ -26,9 +41,42 @@
         "size": "約260g"
       },
       "source": "https://www.casio.co.jp/release/2026/0724-moflin/",
-      "rakuten": { "keyword": "カシオ モフリン Moflin", "must": ["PE-M11"], "exclude": ["服", "ケース", "カバー", "中古"] },
-      "yahoo": { "keyword": "カシオ モフリン Moflin", "must": ["PE-M11"], "exclude": ["服", "ケース", "カバー", "中古"] },
-      "amazon": { "keyword": "カシオ モフリン PE-M11", "asin": null }
+      "rakuten": {
+        "keyword": "カシオ モフリン Moflin",
+        "must": [
+          "PE-M11"
+        ],
+        "exclude": [
+          "服",
+          "ケース",
+          "カバー",
+          "中古"
+        ]
+      },
+      "yahoo": {
+        "keyword": "カシオ モフリン Moflin",
+        "must": [
+          "PE-M11"
+        ],
+        "exclude": [
+          "服",
+          "ケース",
+          "カバー",
+          "中古"
+        ],
+        "url": null,
+        "price": null,
+        "shippingFree": null,
+        "point": null,
+        "reviewAverage": null,
+        "reviewCount": null,
+        "shop": null,
+        "checkedAt": "2026-11-09T21:43:55.724Z"
+      },
+      "amazon": {
+        "keyword": "カシオ モフリン PE-M11",
+        "asin": null
+      }
     },
     {
       "id": "qoobo",
@@ -45,9 +93,44 @@
         "size": "約1kg"
       },
       "source": "https://store.ux-xu.com/products/qoobo",
-      "rakuten": { "keyword": "Qoobo クーボ ユカイ工学", "must": ["Qoobo", "YE-QB001"], "exclude": ["Petit", "プチ", "カバー", "中古"] },
-      "yahoo": { "keyword": "Qoobo クーボ ユカイ工学", "must": ["Qoobo", "YE-QB001"], "exclude": ["Petit", "プチ", "カバー", "中古"] },
-      "amazon": { "keyword": "ユカイ工学 Qoobo", "asin": null }
+      "rakuten": {
+        "keyword": "Qoobo クーボ ユカイ工学",
+        "must": [
+          "Qoobo",
+          "YE-QB001"
+        ],
+        "exclude": [
+          "Petit",
+          "プチ",
+          "カバー",
+          "中古"
+        ]
+      },
+      "yahoo": {
+        "keyword": "Qoobo クーボ ユカイ工学",
+        "must": [
+          "Qoobo",
+          "YE-QB001"
+        ],
+        "exclude": [
+          "Petit",
+          "プチ",
+          "カバー",
+          "中古"
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/aprice/4580310090312.html",
+        "price": 14400,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 0,
+        "shop": "XPRICE Yahoo!店",
+        "checkedAt": "2026-11-09T21:43:55.724Z"
+      },
+      "amazon": {
+        "keyword": "ユカイ工学 Qoobo",
+        "asin": null
+      }
     }
   ]
 }
