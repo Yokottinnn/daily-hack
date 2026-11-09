@@ -96,7 +96,7 @@
     ]
   },
   "takanawa": {
-    "status": "draft",
+    "status": "posted",
     "date": "2026-10-11",
     "next": 24,
     "why": "【湾岸ニュース】11/3 は文化の日（祝日）。休日に行く場所の話なので、祝日に合わせる",
@@ -107,7 +107,9 @@
     "purpose": "news",
     "planDate": "2026-11-09",
     "planTime": "12:00",
-    "scheduledAt": "2026-11-09T12:00:00+09:00"
+    "scheduledAt": "2026-11-09T12:00:00+09:00",
+    "postedAt": "2026-11-10T00:37:15+09:00",
+    "tweetId": "2119816597372272853"
   },
   "payid-a": {
     "status": "dropped",
