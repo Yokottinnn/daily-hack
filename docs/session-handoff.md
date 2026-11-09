@@ -68,6 +68,12 @@
 
 <!-- 新しい記録がこの下に追加される（新しいものが上） -->
 
+### 2026-11-10 — 11/9: Mac が 5:27 JST ごろから外から届かない（bridge セッションに computer_unreachable）。heartbeat 2:54 停止、高輪 12:00 予約の成否は不明。利用者は『Mac が戻るのを待つ』を選んだ。利用者が Mac の daily-hack セッション(session_01W6NiKQJ2TGGM5c7SPW3kQo)に『x_tweet_id 無ければ publish-takanawa-oneshot.sh を実行』を送信済み（Mac 復帰時に実行される）。PR #1576（create_trigger 等を許可リストへ）作成
+
+次のアクション:
+
+- [ ] Mac 復帰後: 高輪の x_tweet_id を確認→set-status posted・レビューページ・作戦室を更新／x445・x446（ららぽーと 11/12 12:00）が走ったか確認／PR #1576 をマージ／今日の候補づくりは未着手
+
 ### 2026-11-09 — 湾岸ニュース 2026-11-09: 1 本（GLI晴海校のSTEAMイベント 11/21）。築地の再開発は直近 3 日で一次情報の動きなし
 
 次のアクション:
