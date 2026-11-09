@@ -1,1 +1,4 @@
-[]
+[
+      {"task": "t595-why-mac-stopped-1109.sh", "rc": 0, "out": " ## 1. 起動した時刻・再起動・ログイン ``` boottime: { sec = 1794237616, usec = 189849 } Tue Nov 10 00:20:16 2026 ny         console                         Tue Nov 10 00:20   still logged "},
+      {"task": "t596-jtrip-search-retry.sh", "rc": 0, "out": "Copyright JTRIP Co.,Ltd. All Rights Reserved. ```   LLM 不使用。**$0/回**（1 回きり）。予約はしない。"}
+  ]
