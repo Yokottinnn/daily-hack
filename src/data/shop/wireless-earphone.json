@@ -3,13 +3,28 @@
   "title": "完全ワイヤレスイヤホン（GLASS Core と定番 4 機種）",
   "_note": "仕様・価格は各社公式と直営ストア（2026-11-07 確認）。GLASS Core は KENWOOD 日本サイトが開けず、JVCケンウッドストアと KENWOOD 米国公式で確かめた。Technics EAH-AZ100 は公式の直販価格が確かめられない。出典は Yokottinnn/daily-hack-affiliate の docs/research/wireless-earphone-glass-core-products.md",
   "columns": [
-    { "key": "price", "label": "公式・直営ストアの価格" },
-    { "key": "battery", "label": "連続再生（イヤホン）" },
-    { "key": "case", "label": "ケース込み" },
-    { "key": "codec", "label": "コーデック" },
-    { "key": "water", "label": "防水" }
+    {
+      "key": "price",
+      "label": "公式・直営ストアの価格"
+    },
+    {
+      "key": "battery",
+      "label": "連続再生（イヤホン）"
+    },
+    {
+      "key": "case",
+      "label": "ケース込み"
+    },
+    {
+      "key": "codec",
+      "label": "コーデック"
+    },
+    {
+      "key": "water",
+      "label": "防水"
+    }
   ],
-  "pricesCheckedAt": null,
+  "pricesCheckedAt": "2026-11-09T21:43:55.724Z",
   "items": [
     {
       "id": "kenwood-glass-core-pro",
@@ -18,11 +33,48 @@
       "badge": "ケース込み最長49時間",
       "summary": "ガラス振動板とMEMSの2way。JVCケンウッドストア49,940円。ノイキャンONでもケース込み40.5時間。",
       "recommended": false,
-      "specs": { "price": "49,940円", "battery": "NC ON 12時間／OFF 14.5時間", "case": "NC ON 40.5時間／OFF 49時間", "codec": "SBC・AAC・LDAC", "water": "IPX4（イヤホン）" },
+      "specs": {
+        "price": "49,940円",
+        "battery": "NC ON 12時間／OFF 14.5時間",
+        "case": "NC ON 40.5時間／OFF 49時間",
+        "codec": "SBC・AAC・LDAC",
+        "water": "IPX4（イヤホン）"
+      },
       "source": "https://online-store.jvckenwood.com/c/headphone/kenwood-headphone/kh-crz100t",
-      "rakuten": { "keyword": "KENWOOD GLASS Core Pro KH-CRZ100T", "must": ["CRZ100"], "exclude": ["イヤーピース", "ケース", "中古"] },
-      "yahoo": { "keyword": "KENWOOD GLASS Core Pro KH-CRZ100T", "must": ["CRZ100"], "exclude": ["イヤーピース", "ケース", "中古"] },
-      "amazon": { "keyword": "KENWOOD KH-CRZ100T", "asin": null }
+      "rakuten": {
+        "keyword": "KENWOOD GLASS Core Pro KH-CRZ100T",
+        "must": [
+          "CRZ100"
+        ],
+        "exclude": [
+          "イヤーピース",
+          "ケース",
+          "中古"
+        ]
+      },
+      "yahoo": {
+        "keyword": "KENWOOD GLASS Core Pro KH-CRZ100T",
+        "must": [
+          "CRZ100"
+        ],
+        "exclude": [
+          "イヤーピース",
+          "ケース",
+          "中古"
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/outletplaza/40001116330.html",
+        "price": 47748,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 0,
+        "shop": "秋葉原　アウトレットプラザ",
+        "checkedAt": "2026-11-09T21:43:55.724Z"
+      },
+      "amazon": {
+        "keyword": "KENWOOD KH-CRZ100T",
+        "asin": null
+      }
     },
     {
       "id": "kenwood-glass-core",
@@ -31,11 +83,50 @@
       "badge": "軽い・LDAC",
       "summary": "ガラス振動板。JVCケンウッドストア27,830円。片耳5.85g、イヤホンだけでノイキャンON 13時間。",
       "recommended": true,
-      "specs": { "price": "27,830円", "battery": "NC ON 13時間／OFF 17時間", "case": "NC ON 34時間／OFF 44時間", "codec": "SBC・AAC・LDAC", "water": "IPX4（イヤホン）" },
+      "specs": {
+        "price": "27,830円",
+        "battery": "NC ON 13時間／OFF 17時間",
+        "case": "NC ON 34時間／OFF 44時間",
+        "codec": "SBC・AAC・LDAC",
+        "water": "IPX4（イヤホン）"
+      },
       "source": "https://online-store.jvckenwood.com/c/headphone/kenwood-headphone/kh-crz90t",
-      "rakuten": { "keyword": "KENWOOD GLASS Core KH-CRZ90T", "must": ["CRZ90"], "exclude": ["イヤーピース", "ケース", "中古"] },
-      "yahoo": { "keyword": "KENWOOD GLASS Core KH-CRZ90T", "must": ["CRZ90"], "exclude": ["イヤーピース", "ケース", "中古"] },
-      "amazon": { "keyword": "KENWOOD KH-CRZ90T", "asin": null }
+      "rakuten": {
+        "keyword": "KENWOOD GLASS Core KH-CRZ90T",
+        "must": [
+          "CRZ90"
+        ],
+        "exclude": [
+          "イヤーピース",
+          "ケース",
+          "中古",
+          "◆"
+        ]
+      },
+      "yahoo": {
+        "keyword": "KENWOOD GLASS Core KH-CRZ90T",
+        "must": [
+          "CRZ90"
+        ],
+        "exclude": [
+          "イヤーピース",
+          "ケース",
+          "中古",
+          "◆"
+        ],
+        "url": null,
+        "price": null,
+        "shippingFree": null,
+        "point": null,
+        "reviewAverage": null,
+        "reviewCount": null,
+        "shop": null,
+        "checkedAt": null
+      },
+      "amazon": {
+        "keyword": "KENWOOD KH-CRZ90T",
+        "asin": null
+      }
     },
     {
       "id": "sony-wf-1000xm6",
@@ -44,11 +135,50 @@
       "badge": "LC3にも対応",
       "summary": "ソニーストア39,600円。コーデックは SBC・AAC・LDAC・LC3。ケース込みでノイキャンON 24時間。",
       "recommended": false,
-      "specs": { "price": "39,600円（ソニーストア）", "battery": "NC ON 8時間／OFF 12時間", "case": "NC ON 24時間／OFF 36時間", "codec": "SBC・AAC・LDAC・LC3", "water": "公式で確かめられなかった" },
+      "specs": {
+        "price": "39,600円（ソニーストア）",
+        "battery": "NC ON 8時間／OFF 12時間",
+        "case": "NC ON 24時間／OFF 36時間",
+        "codec": "SBC・AAC・LDAC・LC3",
+        "water": "公式で確かめられなかった"
+      },
       "source": "https://www.sony.jp/headphone/products/WF-1000XM6/spec.html",
-      "rakuten": { "keyword": "ソニー WF-1000XM6", "must": ["WF-1000XM6"], "exclude": ["イヤーピース", "ケース", "カバー", "中古"] },
-      "yahoo": { "keyword": "ソニー WF-1000XM6", "must": ["WF-1000XM6"], "exclude": ["イヤーピース", "ケース", "カバー", "中古"] },
-      "amazon": { "keyword": "ソニー WF-1000XM6", "asin": null }
+      "rakuten": {
+        "keyword": "ソニー WF-1000XM6",
+        "must": [
+          "WF-1000XM6"
+        ],
+        "exclude": [
+          "イヤーピース",
+          "ケース",
+          "カバー",
+          "中古"
+        ]
+      },
+      "yahoo": {
+        "keyword": "ソニー WF-1000XM6",
+        "must": [
+          "WF-1000XM6"
+        ],
+        "exclude": [
+          "イヤーピース",
+          "ケース",
+          "カバー",
+          "中古"
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/big2nd/oam-3016.html",
+        "price": 35200,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 0,
+        "shop": "BIG2nd",
+        "checkedAt": "2026-11-09T21:43:55.724Z"
+      },
+      "amazon": {
+        "keyword": "ソニー WF-1000XM6",
+        "asin": null
+      }
     },
     {
       "id": "airpods-pro-3",
@@ -57,11 +187,52 @@
       "badge": "防水 IP57",
       "summary": "Apple Store 42,800円。イヤホンとケースの両方が IP57。ノイキャンONで8時間、ケース込み24時間。",
       "recommended": false,
-      "specs": { "price": "42,800円（Apple Store）", "battery": "ANC 有効時 8時間", "case": "ANC 有効時 24時間", "codec": "記載なし", "water": "IP57（イヤホンとケース）" },
+      "specs": {
+        "price": "42,800円（Apple Store）",
+        "battery": "ANC 有効時 8時間",
+        "case": "ANC 有効時 24時間",
+        "codec": "記載なし",
+        "water": "IP57（イヤホンとケース）"
+      },
       "source": "https://www.apple.com/jp/airpods-pro/specs/",
-      "rakuten": { "keyword": "AirPods Pro 3", "must": ["AirPods Pro 3"], "exclude": ["ケース", "カバー", "イヤーピース", "フィルム", "中古"] },
-      "yahoo": { "keyword": "AirPods Pro 3", "must": ["AirPods Pro 3"], "exclude": ["ケース", "カバー", "イヤーピース", "フィルム", "中古"] },
-      "amazon": { "keyword": "Apple AirPods Pro 3", "asin": null }
+      "rakuten": {
+        "keyword": "AirPods Pro 3",
+        "must": [
+          "AirPods Pro 3"
+        ],
+        "exclude": [
+          "ケース",
+          "カバー",
+          "イヤーピース",
+          "フィルム",
+          "中古"
+        ]
+      },
+      "yahoo": {
+        "keyword": "AirPods Pro 3",
+        "must": [
+          "AirPods Pro 3"
+        ],
+        "exclude": [
+          "ケース",
+          "カバー",
+          "イヤーピース",
+          "フィルム",
+          "中古"
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/densidonya/4549995635232-b.html",
+        "price": 36340,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": 4.84,
+        "reviewCount": 45,
+        "shop": "電子問屋",
+        "checkedAt": "2026-11-09T21:43:55.724Z"
+      },
+      "amazon": {
+        "keyword": "Apple AirPods Pro 3",
+        "asin": null
+      }
     },
     {
       "id": "anker-liberty-5-pro",
@@ -70,11 +241,50 @@
       "badge": "いちばん安い・ケース込み50時間",
       "summary": "Anker Japan 公式ストア26,990円。通常モードならケース込み最大50時間、マルチポイント3台。",
       "recommended": false,
-      "specs": { "price": "26,990円", "battery": "NC 6.5時間／通常 12時間", "case": "NC 28時間／通常 50時間", "codec": "SBC・AAC・LDAC", "water": "IP55（イヤホン）" },
+      "specs": {
+        "price": "26,990円",
+        "battery": "NC 6.5時間／通常 12時間",
+        "case": "NC 28時間／通常 50時間",
+        "codec": "SBC・AAC・LDAC",
+        "water": "IP55（イヤホン）"
+      },
       "source": "https://www.ankerjapan.com/products/d1203",
-      "rakuten": { "keyword": "Anker Soundcore Liberty 5 Pro", "must": ["Liberty 5 Pro"], "exclude": ["ケース", "カバー", "イヤーピース", "中古"] },
-      "yahoo": { "keyword": "Anker Soundcore Liberty 5 Pro", "must": ["Liberty 5 Pro"], "exclude": ["ケース", "カバー", "イヤーピース", "中古"] },
-      "amazon": { "keyword": "Anker Soundcore Liberty 5 Pro", "asin": "B0GK1QFGF6" }
+      "rakuten": {
+        "keyword": "Anker Soundcore Liberty 5 Pro",
+        "must": [
+          "Liberty 5 Pro"
+        ],
+        "exclude": [
+          "ケース",
+          "カバー",
+          "イヤーピース",
+          "中古"
+        ]
+      },
+      "yahoo": {
+        "keyword": "Anker Soundcore Liberty 5 Pro",
+        "must": [
+          "Liberty 5 Pro"
+        ],
+        "exclude": [
+          "ケース",
+          "カバー",
+          "イヤーピース",
+          "中古"
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/dshopone-y/4571651013405.html",
+        "price": 23090,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 1,
+        "shop": "ディーショップワン Yahoo!店",
+        "checkedAt": "2026-11-09T21:43:55.724Z"
+      },
+      "amazon": {
+        "keyword": "Anker Soundcore Liberty 5 Pro",
+        "asin": "B0GK1QFGF6"
+      }
     },
     {
       "id": "technics-eah-az100",
@@ -83,11 +293,54 @@
       "badge": "マルチポイント3台",
       "summary": "ノイキャンONで約10時間（AAC）、ケース込み約28時間。コーデックは LC3・LDAC・AAC・SBC。公式の直販価格は確かめられなかった。",
       "recommended": false,
-      "specs": { "price": "公式で確かめられなかった", "battery": "NC ON 約10時間（AAC）", "case": "NC ON 約28時間（AAC）", "codec": "LC3・LDAC・AAC・SBC", "water": "IPX4 相当" },
+      "specs": {
+        "price": "公式で確かめられなかった",
+        "battery": "NC ON 約10時間（AAC）",
+        "case": "NC ON 約28時間（AAC）",
+        "codec": "LC3・LDAC・AAC・SBC",
+        "water": "IPX4 相当"
+      },
       "source": "https://panasonic.jp/headphone/products/EAH-AZ100.html",
-      "rakuten": { "keyword": "Technics EAH-AZ100", "must": ["AZ100"], "exclude": ["イヤーピース", "ケース", "中古"] },
-      "yahoo": { "keyword": "Technics EAH-AZ100", "must": ["AZ100"], "exclude": ["イヤーピース", "ケース", "中古"] },
-      "amazon": { "keyword": "Technics EAH-AZ100", "asin": null }
+      "rakuten": {
+        "keyword": "Technics EAH-AZ100",
+        "must": [
+          "AZ100"
+        ],
+        "exclude": [
+          "イヤーピース",
+          "ケース",
+          "中古",
+          "片側",
+          "付属",
+          "純正"
+        ]
+      },
+      "yahoo": {
+        "keyword": "Technics EAH-AZ100",
+        "must": [
+          "AZ100"
+        ],
+        "exclude": [
+          "イヤーピース",
+          "ケース",
+          "中古",
+          "片側",
+          "付属",
+          "純正"
+        ],
+        "url": null,
+        "price": null,
+        "shippingFree": null,
+        "point": null,
+        "reviewAverage": null,
+        "reviewCount": null,
+        "shop": null,
+        "checkedAt": null
+      },
+      "amazon": {
+        "keyword": "Technics EAH-AZ100",
+        "asin": null
+      }
     }
   ]
 }

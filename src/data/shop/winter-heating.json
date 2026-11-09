@@ -3,12 +3,24 @@
   "title": "冬の暖房器具（1時間の電気代で比べる5台）",
   "_note": "消費電力・メーカー公表の電気代は各社公式（2026-11-07 確認）。1時間の電気代は 定格W÷1000×31円/kWh（家電公取協の目安単価）で計算。出典は Yokottinnn/daily-hack-affiliate の docs/research/denkidai-setsuyaku-koshiki-products.md。価格は公式に載っていない（山善・パナソニックとも通販価格）ので specs に書かず、3 店の価格の自動取得に任せる",
   "columns": [
-    { "key": "watt", "label": "消費電力（公式）" },
-    { "key": "hour", "label": "1時間の電気代（定格で計算）" },
-    { "key": "maker", "label": "メーカー公表の1時間" },
-    { "key": "area", "label": "暖める範囲" }
+    {
+      "key": "watt",
+      "label": "消費電力（公式）"
+    },
+    {
+      "key": "hour",
+      "label": "1時間の電気代（定格で計算）"
+    },
+    {
+      "key": "maker",
+      "label": "メーカー公表の1時間"
+    },
+    {
+      "key": "area",
+      "label": "暖める範囲"
+    }
   ],
-  "pricesCheckedAt": null,
+  "pricesCheckedAt": "2026-11-09T21:43:55.724Z",
   "items": [
     {
       "id": "yamazen-ymm-w402",
@@ -17,11 +29,43 @@
       "badge": "いちばん安い",
       "summary": "26Wで1時間 約0.8円（定格で計算）。座面や足元だけを温める。",
       "recommended": true,
-      "specs": { "watt": "26W", "hour": "約0.81円", "maker": "約0.4円", "area": "足元・座面" },
+      "specs": {
+        "watt": "26W",
+        "hour": "約0.81円",
+        "maker": "約0.4円",
+        "area": "足元・座面"
+      },
       "source": "https://book.yamazen.co.jp/product/detail/I00008525",
-      "rakuten": { "keyword": "山善 ミニホットマット YMM-W402", "must": ["YMM-W402"], "exclude": ["中古"] },
-      "yahoo": { "keyword": "山善 ミニホットマット YMM-W402", "must": ["YMM-W402"], "exclude": ["中古"] },
-      "amazon": { "keyword": "山善 YMM-W402", "asin": null }
+      "rakuten": {
+        "keyword": "山善 ミニホットマット YMM-W402",
+        "must": [
+          "YMM-W402"
+        ],
+        "exclude": [
+          "中古"
+        ]
+      },
+      "yahoo": {
+        "keyword": "山善 ミニホットマット YMM-W402",
+        "must": [
+          "YMM-W402"
+        ],
+        "exclude": [
+          "中古"
+        ],
+        "url": "https://lohaco.yahoo.co.jp/store/h-lohaco/item/ek50993/",
+        "price": 3058,
+        "shippingFree": false,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 0,
+        "shop": "LOHACO by アスクル",
+        "checkedAt": "2026-11-09T21:43:55.724Z"
+      },
+      "amazon": {
+        "keyword": "山善 YMM-W402",
+        "asin": null
+      }
     },
     {
       "id": "panasonic-db-u12t",
@@ -30,11 +74,43 @@
       "badge": "寝るときに",
       "summary": "定格54W。メーカー公表は「強」で1時間 約1.0円（室温10℃）。",
       "recommended": false,
-      "specs": { "watt": "54W", "hour": "約1.67円", "maker": "強 約1.0円・「3」約0.6円", "area": "寝床" },
+      "specs": {
+        "watt": "54W",
+        "hour": "約1.67円",
+        "maker": "強 約1.0円・「3」約0.6円",
+        "area": "寝床"
+      },
       "source": "https://panasonic.jp/danbo/products/DB-U12T/spec.html",
-      "rakuten": { "keyword": "パナソニック 電気しき毛布 DB-U12T", "must": ["DB-U12T"], "exclude": ["中古"] },
-      "yahoo": { "keyword": "パナソニック 電気しき毛布 DB-U12T", "must": ["DB-U12T"], "exclude": ["中古"] },
-      "amazon": { "keyword": "パナソニック DB-U12T", "asin": null }
+      "rakuten": {
+        "keyword": "パナソニック 電気しき毛布 DB-U12T",
+        "must": [
+          "DB-U12T"
+        ],
+        "exclude": [
+          "中古"
+        ]
+      },
+      "yahoo": {
+        "keyword": "パナソニック 電気しき毛布 DB-U12T",
+        "must": [
+          "DB-U12T"
+        ],
+        "exclude": [
+          "中古"
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/oimus725/20251230062740-01077.html",
+        "price": 5830,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 0,
+        "shop": "北村商会",
+        "checkedAt": "2026-11-09T21:43:55.724Z"
+      },
+      "amazon": {
+        "keyword": "パナソニック DB-U12T",
+        "asin": null
+      }
     },
     {
       "id": "yamazen-yphs-160",
@@ -43,11 +119,43 @@
       "badge": "デスクの足元",
       "summary": "160Wで1時間 約5円。机の下を4面で囲う。転倒防止センサーと切り忘れ防止タイマー付き。",
       "recommended": false,
-      "specs": { "watt": "160W", "hour": "約4.96円", "maker": "約4.8円", "area": "デスク下の足元" },
+      "specs": {
+        "watt": "160W",
+        "hour": "約4.96円",
+        "maker": "約4.8円",
+        "area": "デスク下の足元"
+      },
       "source": "https://book.yamazen.co.jp/product/detail/I00008518",
-      "rakuten": { "keyword": "山善 パネルヒーター YPHS-160", "must": ["YPHS-160"], "exclude": ["中古"] },
-      "yahoo": { "keyword": "山善 パネルヒーター YPHS-160", "must": ["YPHS-160"], "exclude": ["中古"] },
-      "amazon": { "keyword": "山善 YPHS-160", "asin": null }
+      "rakuten": {
+        "keyword": "山善 パネルヒーター YPHS-160",
+        "must": [
+          "YPHS-160"
+        ],
+        "exclude": [
+          "中古"
+        ]
+      },
+      "yahoo": {
+        "keyword": "山善 パネルヒーター YPHS-160",
+        "must": [
+          "YPHS-160"
+        ],
+        "exclude": [
+          "中古"
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/e-kurashi/98705.html",
+        "price": 8980,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": 4.44,
+        "reviewCount": 9,
+        "shop": "くらしのeショップ",
+        "checkedAt": "2026-11-09T21:43:55.724Z"
+      },
+      "amazon": {
+        "keyword": "山善 YPHS-160",
+        "asin": null
+      }
     },
     {
       "id": "panasonic-cs-227djr",
@@ -56,11 +164,45 @@
       "badge": "部屋ごと暖める",
       "summary": "暖房の定格430Wで1時間 約13.3円。外気温で125〜1,350Wまで動く。",
       "recommended": false,
-      "specs": { "watt": "暖房 430W（125〜1,350W）", "hour": "約13.3円（定格）", "maker": "記載なし", "area": "部屋全体（5〜6畳）" },
+      "specs": {
+        "watt": "暖房 430W（125〜1,350W）",
+        "hour": "約13.3円（定格）",
+        "maker": "記載なし",
+        "area": "部屋全体（5〜6畳）"
+      },
       "source": "https://panasonic.jp/aircon/Jseries.html",
-      "rakuten": { "keyword": "パナソニック エアコン CS-227DJR", "must": ["CS-227DJR"], "exclude": ["中古", "リモコン"] },
-      "yahoo": { "keyword": "パナソニック エアコン CS-227DJR", "must": ["CS-227DJR"], "exclude": ["中古", "リモコン"] },
-      "amazon": { "keyword": "パナソニック CS-227DJR", "asin": null }
+      "rakuten": {
+        "keyword": "パナソニック エアコン CS-227DJR",
+        "must": [
+          "CS-227DJR"
+        ],
+        "exclude": [
+          "中古",
+          "リモコン"
+        ]
+      },
+      "yahoo": {
+        "keyword": "パナソニック エアコン CS-227DJR",
+        "must": [
+          "CS-227DJR"
+        ],
+        "exclude": [
+          "中古",
+          "リモコン"
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/joshin/2098708170895-22-423.html",
+        "price": 146700,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 0,
+        "shop": "Joshin web",
+        "checkedAt": "2026-11-09T21:43:55.724Z"
+      },
+      "amazon": {
+        "keyword": "パナソニック CS-227DJR",
+        "asin": null
+      }
     },
     {
       "id": "panasonic-ds-fn1200",
@@ -69,11 +211,43 @@
       "badge": "すぐ温まる",
       "summary": "「強」1170W（50Hz）で1時間 約36.3円、「弱」約19.8円（メーカー公表）。",
       "recommended": false,
-      "specs": { "watt": "強 1170W／弱 640W（50Hz）", "hour": "強 約36.3円", "maker": "強 約36.3円・弱 約19.8円", "area": "人のまわり" },
+      "specs": {
+        "watt": "強 1170W／弱 640W（50Hz）",
+        "hour": "強 約36.3円",
+        "maker": "強 約36.3円・弱 約19.8円",
+        "area": "人のまわり"
+      },
       "source": "https://panasonic.jp/danbo/products/DS-FN1200/spec.html",
-      "rakuten": { "keyword": "パナソニック セラミックファンヒーター DS-FN1200", "must": ["DS-FN1200"], "exclude": ["中古"] },
-      "yahoo": { "keyword": "パナソニック セラミックファンヒーター DS-FN1200", "must": ["DS-FN1200"], "exclude": ["中古"] },
-      "amazon": { "keyword": "パナソニック DS-FN1200", "asin": null }
+      "rakuten": {
+        "keyword": "パナソニック セラミックファンヒーター DS-FN1200",
+        "must": [
+          "DS-FN1200"
+        ],
+        "exclude": [
+          "中古"
+        ]
+      },
+      "yahoo": {
+        "keyword": "パナソニック セラミックファンヒーター DS-FN1200",
+        "must": [
+          "DS-FN1200"
+        ],
+        "exclude": [
+          "中古"
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/jiatentusp4/20211219015352-00511us.html",
+        "price": 7505,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 0,
+        "shop": "プールトップ9",
+        "checkedAt": "2026-11-09T21:43:55.724Z"
+      },
+      "amazon": {
+        "keyword": "パナソニック DS-FN1200",
+        "asin": null
+      }
     }
   ]
 }
