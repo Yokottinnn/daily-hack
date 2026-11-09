@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-08T05:03:11.495Z",
+ "generatedAt": "2026-11-09T21:43:55.724Z",
  "keys": {
   "rakuten": true,
   "rakutenAccessKey": false,
@@ -67,16 +67,16 @@
     },
     "yahoo": {
      "found": true,
-     "candidates": 24,
-     "name": "【最大600円引き】Rokid スマートAIグラス 対応 マグネット充電 変換アダプタ USB Type-C 入力 3ピン 磁気コネクタ 5V/0.5A 安定充電 LEDライト搭載",
-     "url": "https://store.shopping.yahoo.co.jp/mslforce/rokid.html",
-     "price": 890,
+     "candidates": 6,
+     "name": "Rokid(ロキッド) Rokid Ai Glasses Style ブラック スマートAIグラス RV203-BK AIアシスタント リアルタイム翻訳 12MPカメラ ナビ",
+     "url": "https://store.shopping.yahoo.co.jp/ebest/4571344151759.html",
+     "price": 70198,
      "shippingFree": true,
      "point": 0,
      "reviewAverage": null,
-     "reviewCount": 2,
-     "shop": "MSL FORCE公式店",
-     "net": 890
+     "reviewCount": 0,
+     "shop": "イーベスト",
+     "net": 70198
     }
    }
   },
@@ -87,16 +87,16 @@
     },
     "yahoo": {
      "found": true,
-     "candidates": 16,
-     "name": "For PLAUD NOTE AI/Plaud Note Pro 専用充電ケーブル ボイスレコーダー充電器 磁気吸着式 Type C充電 100CM 4ピン 充電機 マグネット式充電ケーブル",
-     "url": "https://store.shopping.yahoo.co.jp/rosegarden2/b0fj77zmk3.html",
-     "price": 810,
+     "candidates": 11,
+     "name": "【長友佑都選手のTV-CMでお馴染みのPLAUD】Plaud Note Pro / Plaud Note Pro Flow Ediiton AIボイスレコーダー 録音 文字起こし AI 議事録 会議 音声記録",
+     "url": "https://store.shopping.yahoo.co.jp/softbank-selection/0199284926073.html",
+     "price": 30800,
      "shippingFree": true,
      "point": 0,
-     "reviewAverage": null,
-     "reviewCount": 0,
-     "shop": "薔薇庭",
-     "net": 810
+     "reviewAverage": 4.59,
+     "reviewCount": 131,
+     "shop": "トレテク!ソフトバンクセレクション",
+     "net": 30800
     }
    },
    "plaud-note": {
@@ -105,16 +105,16 @@
     },
     "yahoo": {
      "found": true,
-     "candidates": 10,
-     "name": "ICレコーダー/PLAUD NOTE/AIボイスレコーダー",
-     "url": "https://store.shopping.yahoo.co.jp/ssol-shopping/2342114654587.html",
-     "price": 18260,
+     "candidates": 9,
+     "name": "PLAUD NOTE AIボイスレコーダー ブラック 64GB AI文字起こし 自動要約 ICレコーダー 会議録音 オンライン会議対応 話者識別",
+     "url": "https://store.shopping.yahoo.co.jp/iru-nahonpo/3958-000530.html",
+     "price": 27000,
      "shippingFree": true,
      "point": 0,
      "reviewAverage": null,
      "reviewCount": 0,
-     "shop": "セカンドストリートYahoo!店",
-     "net": 18260
+     "shop": "イルーナ本舗",
+     "net": 27000
     }
    },
    "plaud-notepin-s": {
@@ -123,16 +123,16 @@
     },
     "yahoo": {
      "found": true,
-     "candidates": 11,
-     "name": "YCJDP For PLAUD NotePin AI/NotePin S ボイスレコーダー専用ネックストラップ プラウドノートピン アクセサ",
-     "url": "https://store.shopping.yahoo.co.jp/tokitaya/20260822170110-02136.html",
-     "price": 1774,
+     "candidates": 4,
+     "name": "【長友佑都選手のTV-CMでお馴染みのPLAUD】Plaud NotePin S AIボイスレコーダー ウェアラブル録音デバイス 文字起こし 仕事効率化",
+     "url": "https://store.shopping.yahoo.co.jp/softbank-selection/0199284031340.html",
+     "price": 28600,
      "shippingFree": true,
      "point": 0,
-     "reviewAverage": null,
-     "reviewCount": 0,
-     "shop": "山田産業",
-     "net": 1774
+     "reviewAverage": 4.5,
+     "reviewCount": 8,
+     "shop": "トレテク!ソフトバンクセレクション",
+     "net": 28600
     }
    },
    "notta-memo": {
@@ -141,16 +141,16 @@
     },
     "yahoo": {
      "found": true,
-     "candidates": 21,
-     "name": "Notta Memo AI ボイスレコーダー 録音 翻訳 ∠UK2595",
-     "url": "https://store.shopping.yahoo.co.jp/thrift-webshop/u-175-uk2595-07.html",
-     "price": 16500,
+     "candidates": 11,
+     "name": "NOTTA　Nott ［32GB / Bluetooth対応］　Notta Memo",
+     "url": "https://store.shopping.yahoo.co.jp/y-kojima/0860013896409.html",
+     "price": 23500,
      "shippingFree": true,
      "point": 0,
-     "reviewAverage": null,
-     "reviewCount": 0,
-     "shop": "スリフト",
-     "net": 16500
+     "reviewAverage": 4.22,
+     "reviewCount": 9,
+     "shop": "コジマYahoo!店",
+     "net": 23500
     }
    },
    "notta-memo-pro": {
@@ -159,7 +159,7 @@
     },
     "yahoo": {
      "found": true,
-     "candidates": 8,
+     "candidates": 5,
      "name": "Notta NOTTAMEMOPROGY Notta Memo Pro +NottaBrainセット  AIボイスレコーダー 64GBメモリ内蔵 録音モード自動選択 スペースブラック",
      "url": "https://store.shopping.yahoo.co.jp/yamada-denki/4222918013.html",
      "price": 30800,
@@ -233,15 +233,15 @@
     },
     "yahoo": {
      "found": true,
-     "candidates": 8,
-     "name": "サムソナイト スーツケース 33L 55cm 3.3kg 機内持ち込み ミンター スピナー55 Samsonite│ TSAロック ハード 旅行 キャリーケース キャリーバッグ 爆買",
-     "url": "https://store.shopping.yahoo.co.jp/sacsbar/sa-minter55.html",
+     "candidates": 7,
+     "name": "特典付 正規品10年保証 サムソナイト スーツケース Samsonite ミンター MINTER スピナー55 キャリーケース 機内持ち込み S 33L 1泊 2泊 HH5-001",
+     "url": "https://store.shopping.yahoo.co.jp/galleria-onlineshop/sam00058.html",
      "price": 63800,
      "shippingFree": true,
      "point": 0,
-     "reviewAverage": null,
-     "reviewCount": 1,
-     "shop": "サックスバーYahoo!店",
+     "reviewAverage": 4.6,
+     "reviewCount": 5,
+     "shop": "ギャレリア Bag&Luggage",
      "net": 63800
     }
    },
@@ -251,16 +251,16 @@
     },
     "yahoo": {
      "found": true,
-     "candidates": 28,
-     "name": "【並行輸入品】サムソナイト スーツケース シーライト 55cm 36L Samsonite C-LITE スピナー 軽量",
-     "url": "https://store.shopping.yahoo.co.jp/glv/sn9-bl.html",
-     "price": 35999,
+     "candidates": 2,
+     "name": "スーツケース サムソナイト 公式 Samsonite C-Lite [ シーライト・スピナー55 EXP ] 機内持込 旅行 小型 Sサイズ 1〜3泊",
+     "url": "https://store.shopping.yahoo.co.jp/samsenka/cs2-007.html",
+     "price": 83600,
      "shippingFree": true,
      "point": 0,
-     "reviewAverage": 4.71,
-     "reviewCount": 42,
-     "shop": "GulliverOnlineShopping Yahoo!店",
-     "net": 35999
+     "reviewAverage": null,
+     "reviewCount": 0,
+     "shop": "サムソナイト公式 Yahoo!ショッピング店",
+     "net": 83600
     }
    },
    "tumi-19degree-front-access": {
@@ -379,16 +379,16 @@
     },
     "yahoo": {
      "found": true,
-     "candidates": 8,
+     "candidates": 3,
      "name": "BURTLE バートル サーモクラフト(電熱パッド) 秋冬用 オレンジ TC500 84 F",
-     "url": "https://store.shopping.yahoo.co.jp/monaka-store/s-b0b7jsc18k-20260720.html",
-     "price": 9722,
+     "url": "https://store.shopping.yahoo.co.jp/kenzusutor/20251230030424-01049.html",
+     "price": 11325,
      "shippingFree": true,
      "point": 0,
      "reviewAverage": null,
      "reviewCount": 0,
-     "shop": "MONAKA-STORE",
-     "net": 9722
+     "shop": "鈴木物産",
+     "net": 11325
     }
    },
    "makita-cv202d": {
@@ -407,6 +407,44 @@
      "reviewCount": 2,
      "shop": "DIY FACTORY ONLINE SHOP",
      "net": 13946
+    }
+   }
+  },
+  "kitchen-wrap": {
+   "new-kurewrap-30-50": {
+    "rakuten": {
+     "skipped": "RAKUTEN_ACCESS_KEY が無い"
+    },
+    "yahoo": {
+     "found": true,
+     "candidates": 12,
+     "name": "1個 クレハ NEWクレラップ お徳用レギュラー 30cm×50m 食品包装用ラップ",
+     "url": "https://store.shopping.yahoo.co.jp/rusion-jp/rus-4901422153502.html",
+     "price": 480,
+     "shippingFree": false,
+     "point": 0,
+     "reviewAverage": null,
+     "reviewCount": 0,
+     "shop": "RUSIONヤフー店",
+     "net": 480
+    }
+   },
+   "saranwrap-30-50": {
+    "rakuten": {
+     "skipped": "RAKUTEN_ACCESS_KEY が無い"
+    },
+    "yahoo": {
+     "found": true,
+     "candidates": 12,
+     "name": "旭化成 サランラップ 30cm×50m",
+     "url": "https://store.shopping.yahoo.co.jp/kohnan-eshop/4901670110180.html",
+     "price": 450,
+     "shippingFree": false,
+     "point": 0,
+     "reviewAverage": null,
+     "reviewCount": 1,
+     "shop": "コーナンeショップ Yahoo!ショッピング店",
+     "net": 450
     }
    }
   },
@@ -460,7 +498,7 @@
     },
     "yahoo": {
      "found": true,
-     "candidates": 11,
+     "candidates": 10,
      "name": "エレコム 半固体モバイルバッテリー 半固体電池 モバイルバッテリー 10000mAh Type-C×2 USB-A 半固体リチウム電池 残量表示 elecom ブルー DE-C86-10000BU",
      "url": "https://store.shopping.yahoo.co.jp/gikstore/elc0980.html",
      "price": 8180,
@@ -479,8 +517,8 @@
     "yahoo": {
      "found": true,
      "candidates": 3,
-     "name": "エレコム リン酸鉄モバイルバッテリー 8000mAh 35W リチウムイオン電池 Type-C×2 A×1 ELECOM DE-C97L-8000BK",
-     "url": "https://store.shopping.yahoo.co.jp/elecom/4549550442596.html",
+     "name": "エレコム リン酸鉄モバイルバッテリー 8000mAh 35W リチウムイオン電池 Type-C×2 A×1 ELECOM DE-C97L-8000WH",
+     "url": "https://store.shopping.yahoo.co.jp/elecom/4549550442619.html",
      "price": 5280,
      "shippingFree": true,
      "point": 0,
@@ -519,8 +557,26 @@
     }
    }
   },
-  "pet-robot": {
-   "moflin-pe-m11": {
+  "naka-mieru-air-fryer": {
+   "bruno-boe122": {
+    "rakuten": {
+     "skipped": "RAKUTEN_ACCESS_KEY が無い"
+    },
+    "yahoo": {
+     "found": true,
+     "candidates": 17,
+     "name": "BRUNO◆ガラスエアフライヤー 調理家電 BRUNO BOE122",
+     "url": "https://store.shopping.yahoo.co.jp/ssol-shopping/2320089149727.html",
+     "price": 11660,
+     "shippingFree": true,
+     "point": 0,
+     "reviewAverage": null,
+     "reviewCount": 0,
+     "shop": "セカンドストリートYahoo!店",
+     "net": 11660
+    }
+   },
+   "beelicious-af4007": {
     "rakuten": {
      "skipped": "RAKUTEN_ACCESS_KEY が無い"
     },
@@ -530,22 +586,256 @@
      "searched": 0
     }
    },
-   "qoobo": {
+   "epeios-epao248": {
+    "rakuten": {
+     "skipped": "RAKUTEN_ACCESS_KEY が無い"
+    },
+    "yahoo": {
+     "found": true,
+     "candidates": 4,
+     "name": "エペイオス(Epeios) 1.5L ガラス ボウル Sサイズ ノンフライヤー 卓上 AO248適用 電気フライヤー 調理家電 揚げ物 電気調理器 肉 魚料理 デザート 爆買",
+     "url": "https://store.shopping.yahoo.co.jp/mpowjapanshop/ao248abgc-s.html",
+     "price": 4380,
+     "shippingFree": true,
+     "point": 0,
+     "reviewAverage": null,
+     "reviewCount": 0,
+     "shop": "MPOWJAPAN",
+     "net": 4380
+    }
+   },
+   "recolte-rao-4": {
+    "rakuten": {
+     "skipped": "RAKUTEN_ACCESS_KEY が無い"
+    },
+    "yahoo": {
+     "found": true,
+     "candidates": 6,
+     "name": "特典付［ recolte エアーオーブン 4L ］レコルト エアオーブン 大容量 ヘルシー フライヤー ノンオイル 温め直し タッチパネル 家庭用 卓上 レシピ付き RAO-4",
+     "url": "https://store.shopping.yahoo.co.jp/roomy/win2006-tu00c-1.html",
+     "price": 16500,
+     "shippingFree": true,
+     "point": 0,
+     "reviewAverage": 4.75,
+     "reviewCount": 8,
+     "shop": "インテリアショップ roomy",
+     "net": 16500
+    }
+   },
+   "tfal-ey8228j0": {
+    "rakuten": {
+     "skipped": "RAKUTEN_ACCESS_KEY が無い"
+    },
+    "yahoo": {
+     "found": false,
+     "candidates": 0,
+     "searched": 0
+    }
+   }
+  },
+  "open-ear-earphone": {
+   "huawei-freeclip-2": {
+    "rakuten": {
+     "skipped": "RAKUTEN_ACCESS_KEY が無い"
+    },
+    "yahoo": {
+     "found": true,
+     "candidates": 5,
+     "name": "2026新 HUAWEI FreeClip 2 フリークリップ ワイヤレス オープンイヤー Bluetooth 6.0 適応型リスニング体験 クリアな通話 38時間再生 IP57防塵防水 iOS/Android",
+     "url": "https://store.shopping.yahoo.co.jp/huaweistore/55037342.html",
+     "price": 24800,
+     "shippingFree": true,
+     "point": 0,
+     "reviewAverage": 4.77,
+     "reviewCount": 316,
+     "shop": "HUAWEI 公式 Yahoo!店",
+     "net": 24800
+    }
+   },
+   "anker-aeroclip": {
+    "rakuten": {
+     "skipped": "RAKUTEN_ACCESS_KEY が無い"
+    },
+    "yahoo": {
+     "found": true,
+     "candidates": 23,
+     "name": "オープンイヤー Anker Soundcore AeroClip専用アクセサリー スノー アンカー",
+     "url": "https://store.shopping.yahoo.co.jp/ankerdirect/a3388-3.html",
+     "price": 1990,
+     "shippingFree": true,
+     "point": 0,
+     "reviewAverage": null,
+     "reviewCount": 0,
+     "shop": "AnkerDirect",
+     "net": 1990
+    }
+   },
+   "sony-linkbuds-clip": {
+    "rakuten": {
+     "skipped": "RAKUTEN_ACCESS_KEY が無い"
+    },
+    "yahoo": {
+     "found": true,
+     "candidates": 28,
+     "name": "★ソニー / SONY LinkBuds Clip WF-LC900 (V) [ラベンダー]【イヤホン・ヘッドホン】【送料無料】",
+     "url": "https://store.shopping.yahoo.co.jp/d-rise2/p000000934072.html",
+     "price": 14840,
+     "shippingFree": true,
+     "point": 0,
+     "reviewAverage": null,
+     "reviewCount": 1,
+     "shop": "ディーライズ2号",
+     "net": 14840
+    }
+   },
+   "shokz-opendots-2": {
     "rakuten": {
      "skipped": "RAKUTEN_ACCESS_KEY が無い"
     },
     "yahoo": {
      "found": true,
      "candidates": 21,
-     "name": "ユカイ工学 Qoobo(クーボ) しっぽ ふりふり ロボット セラピー クッション (ブラウン)",
-     "url": "https://store.shopping.yahoo.co.jp/hana-mira/s-b07h96x7pt-20260908.html",
-     "price": 13752,
+     "name": "★Shokz OpenDots 2 SKZ-EP-000069 [ブラック]【イヤホン・ヘッドホン】【送料無料】",
+     "url": "https://store.shopping.yahoo.co.jp/d-rise2/p000000982786.html",
+     "price": 26780,
      "shippingFree": true,
      "point": 0,
      "reviewAverage": null,
      "reviewCount": 0,
-     "shop": "Hana-Hana",
-     "net": 13752
+     "shop": "ディーライズ2号",
+     "net": 26780
+    }
+   },
+   "shokz-opendots-one": {
+    "rakuten": {
+     "skipped": "RAKUTEN_ACCESS_KEY が無い"
+    },
+    "yahoo": {
+     "found": true,
+     "candidates": 23,
+     "name": "イヤホン・ヘッドホン Shokz OpenDots ONE - Black SKZ-EP-000054",
+     "url": "https://store.shopping.yahoo.co.jp/light-hikari/4571604941236.html",
+     "price": 16293,
+     "shippingFree": true,
+     "point": 0,
+     "reviewAverage": null,
+     "reviewCount": 1,
+     "shop": "らいぶshop",
+     "net": 16293
+    }
+   },
+   "bose-ultra-open": {
+    "rakuten": {
+     "skipped": "RAKUTEN_ACCESS_KEY が無い"
+    },
+    "yahoo": {
+     "found": true,
+     "candidates": 28,
+     "name": "Bose Ultra Open Earbuds 空間オーディオ イヤホン オープンイヤー 完全 ワイヤレス Bluetooth接続",
+     "url": "https://store.shopping.yahoo.co.jp/idea-marche/ultraopen.html",
+     "price": 21360,
+     "shippingFree": true,
+     "point": 0,
+     "reviewAverage": 4.83,
+     "reviewCount": 6,
+     "shop": "アイディアマルシェ",
+     "net": 21360
+    }
+   }
+  },
+  "pet-robot": {
+   "moflin-pe-m11": {
+    "rakuten": {
+     "skipped": "RAKUTEN_ACCESS_KEY が無い"
+    },
+    "yahoo": {
+     "found": false,
+     "candidates": 0,
+     "searched": 3
+    }
+   },
+   "qoobo": {
+    "rakuten": {
+     "skipped": "RAKUTEN_ACCESS_KEY が無い"
+    },
+    "yahoo": {
+     "found": true,
+     "candidates": 7,
+     "name": "クーボ Qoobo YE-QB001B フレンチブラウン ペットロボット 充電式 しっぽ付クッション しっぽ振る ユカイ工学 YEQB001 キッズ こども 誕生日プレゼント 玩具",
+     "url": "https://store.shopping.yahoo.co.jp/aprice/4580310090312.html",
+     "price": 14400,
+     "shippingFree": true,
+     "point": 0,
+     "reviewAverage": null,
+     "reviewCount": 0,
+     "shop": "XPRICE Yahoo!店",
+     "net": 14400
+    }
+   }
+  },
+  "pickleball-paddle": {
+   "kenko-paddle": {
+    "rakuten": {
+     "skipped": "RAKUTEN_ACCESS_KEY が無い"
+    },
+    "yahoo": {
+     "found": true,
+     "candidates": 6,
+     "name": "ナガセケンコー PB-PD-PSPR ピックルボールパドル プロジェクトサンテ フェニックスレッド レッド",
+     "url": "https://store.shopping.yahoo.co.jp/aprice/4937141071087.html",
+     "price": 22000,
+     "shippingFree": true,
+     "point": 0,
+     "reviewAverage": null,
+     "reviewCount": 0,
+     "shop": "XPRICE Yahoo!店",
+     "net": 22000
+    }
+   },
+   "kenko-starter-set": {
+    "rakuten": {
+     "skipped": "RAKUTEN_ACCESS_KEY が無い"
+    },
+    "yahoo": {
+     "found": true,
+     "candidates": 3,
+     "name": "ケンコー KENKO ピックルボール スターターセット パドル2本 ボール4個 セット ピックルボールラケット ラケットセット 初心者 ビギナー pb-st-rd",
+     "url": "https://store.shopping.yahoo.co.jp/javasports/pb-st-rd.html",
+     "price": 11000,
+     "shippingFree": true,
+     "point": 0,
+     "reviewAverage": null,
+     "reviewCount": 0,
+     "shop": "JAVASPORTS",
+     "net": 11000
+    }
+   },
+   "mizuno-caliber": {
+    "rakuten": {
+     "skipped": "RAKUTEN_ACCESS_KEY が無い"
+    },
+    "yahoo": {
+     "found": false,
+     "candidates": 0,
+     "searched": 0
+    }
+   },
+   "kenko-project-sante": {
+    "rakuten": {
+     "skipped": "RAKUTEN_ACCESS_KEY が無い"
+    },
+    "yahoo": {
+     "found": true,
+     "candidates": 2,
+     "name": "ケンコー　KENKO　ピックルボール　ピックルボールパドル　プロジェクトサンテ　PROJECT　sante　PB-PD-PSPR　フェニックスレッド",
+     "url": "https://store.shopping.yahoo.co.jp/hed-club7/pb-pd-pspr.html",
+     "price": 20890,
+     "shippingFree": true,
+     "point": 0,
+     "reviewAverage": null,
+     "reviewCount": 0,
+     "shop": "HEDが街にやって来る!",
+     "net": 20890
     }
    }
   },
@@ -599,7 +889,7 @@
      "shippingFree": true,
      "point": 0,
      "reviewAverage": 4.33,
-     "reviewCount": 481,
+     "reviewCount": 484,
      "shop": "mottole Yahoo!店",
      "net": 1096
     }
@@ -616,8 +906,8 @@
      "price": 1730,
      "shippingFree": true,
      "point": 0,
-     "reviewAverage": 4.35,
-     "reviewCount": 93,
+     "reviewAverage": 4.36,
+     "reviewCount": 94,
      "shop": "mottole Yahoo!店",
      "net": 1730
     }
@@ -707,7 +997,7 @@
      "shippingFree": true,
      "point": 0,
      "reviewAverage": null,
-     "reviewCount": 1,
+     "reviewCount": 2,
      "shop": "サンワダイレクト",
      "net": 3480
     }
@@ -715,6 +1005,154 @@
    "hagoogi-ot-96h": {
     "rakuten": {
      "skipped": "RAKUTEN_ACCESS_KEY が無い"
+    }
+   }
+  },
+  "screenless-band": {
+   "fitbit-air": {
+    "rakuten": {
+     "skipped": "RAKUTEN_ACCESS_KEY が無い"
+    },
+    "yahoo": {
+     "found": true,
+     "candidates": 14,
+     "name": "Google Fitbit Air[Berry]",
+     "url": "https://store.shopping.yahoo.co.jp/light-hikari/840353963986.html",
+     "price": 19554,
+     "shippingFree": true,
+     "point": 0,
+     "reviewAverage": null,
+     "reviewCount": 0,
+     "shop": "らいぶshop",
+     "net": 19554
+    }
+   },
+   "amazfit-helio-strap": {
+    "rakuten": {
+     "skipped": "RAKUTEN_ACCESS_KEY が無い"
+    },
+    "yahoo": {
+     "found": true,
+     "candidates": 25,
+     "name": "Amazfit Helio Strap スマートフィットネスバンド 対応 編み込みナイロンアームバンド 金属フレーム付き 弾性素材と調整バックルで腕に快適フィット",
+     "url": "https://store.shopping.yahoo.co.jp/visos-store/hama-jsh7029.html",
+     "price": 1998,
+     "shippingFree": true,
+     "point": 0,
+     "reviewAverage": null,
+     "reviewCount": 0,
+     "shop": "VISOS天然素材館",
+     "net": 1998
+    }
+   },
+   "polar-loop": {
+    "rakuten": {
+     "skipped": "RAKUTEN_ACCESS_KEY が無い"
+    },
+    "yahoo": {
+     "found": true,
+     "candidates": 30,
+     "name": "ポラール POLAR ヘルスケアバンド Loop ループ スマートバンド ベージュ 920115932",
+     "url": "https://store.shopping.yahoo.co.jp/grandseiko/920115932.html",
+     "price": 29700,
+     "shippingFree": true,
+     "point": 0,
+     "reviewAverage": null,
+     "reviewCount": 0,
+     "shop": "NEEL 横浜 ヤフーショッピング店",
+     "net": 29700
+    }
+   }
+  },
+  "toy-digi-camera": {
+   "kenko-pieni3": {
+    "rakuten": {
+     "skipped": "RAKUTEN_ACCESS_KEY が無い"
+    },
+    "yahoo": {
+     "found": true,
+     "candidates": 11,
+     "name": "即配 (KT) トイカメラ Pieni III BK ブラック ピエニ3  ドール用カメラ ドル撮 ラッピング 誕生日 クリスマス ミニチュアカメラ トイデジ ギフト",
+     "url": "https://store.shopping.yahoo.co.jp/kenkotokina2/4961607603611.html",
+     "price": 6600,
+     "shippingFree": true,
+     "point": 0,
+     "reviewAverage": null,
+     "reviewCount": 0,
+     "shop": "アウキャン ケンコー・トキナーオンラインショップ",
+     "net": 6600
+    }
+   },
+   "kenko-retro-digi90": {
+    "rakuten": {
+     "skipped": "RAKUTEN_ACCESS_KEY が無い"
+    },
+    "yahoo": {
+     "found": true,
+     "candidates": 23,
+     "name": "即配 (KT) レトロデジ90 クラシック KC-RD90CL ケンコー KENKO ラッピング無料 プレゼント 誕生日 トイデジ",
+     "url": "https://store.shopping.yahoo.co.jp/kenkotokina/4961607446867.html",
+     "price": 7707,
+     "shippingFree": true,
+     "point": 0,
+     "reviewAverage": null,
+     "reviewCount": 0,
+     "shop": "ケンコー・トキナー ヤフー店",
+     "net": 7707
+    }
+   },
+   "kenko-pieni8": {
+    "rakuten": {
+     "skipped": "RAKUTEN_ACCESS_KEY が無い"
+    },
+    "yahoo": {
+     "found": true,
+     "candidates": 14,
+     "name": "ケンコー トイカメラ PIENI 8 [DSC-PIENI 8] トイデジタルカメラ トイカメラ 《納期約２週間》",
+     "url": "https://store.shopping.yahoo.co.jp/emedama/4961607446430.html",
+     "price": 6336,
+     "shippingFree": true,
+     "point": 0,
+     "reviewAverage": null,
+     "reviewCount": 0,
+     "shop": "カメラのキタムラヤフー店",
+     "net": 6336
+    }
+   },
+   "kenko-pieniflex-m": {
+    "rakuten": {
+     "skipped": "RAKUTEN_ACCESS_KEY が無い"
+    },
+    "yahoo": {
+     "found": true,
+     "candidates": 10,
+     "name": "ケンコー Kenko トイカメラ PIENIFLEX KC-TY02",
+     "url": "https://store.shopping.yahoo.co.jp/denkichiweb/4961607438619.html",
+     "price": 7199,
+     "shippingFree": true,
+     "point": 0,
+     "reviewAverage": null,
+     "reviewCount": 0,
+     "shop": "デンキチWeb Yahoo!店",
+     "net": 7199
+    }
+   },
+   "camp-snap-v105": {
+    "rakuten": {
+     "skipped": "RAKUTEN_ACCESS_KEY が無い"
+    },
+    "yahoo": {
+     "found": true,
+     "candidates": 15,
+     "name": "キャンプスナップ カメラ Camp Snap Camera V105 スクリーンレスカメラ コンデジ デジカメ ギフト プレゼント 旅行 フィルター 送料無料 1年保証",
+     "url": "https://store.shopping.yahoo.co.jp/campsnap/cs-v105.html",
+     "price": 9980,
+     "shippingFree": true,
+     "point": 0,
+     "reviewAverage": 4.8,
+     "reviewCount": 10,
+     "shop": "Camp Snap公式 ヤフー店",
+     "net": 9980
     }
    }
   },
@@ -743,7 +1181,7 @@
     },
     "yahoo": {
      "found": true,
-     "candidates": 21,
+     "candidates": 18,
      "name": "パナソニック 電気しき毛布 シングル 140×80cm 丸洗い可 室温センサー付 グリーン DB-U12T-G",
      "url": "https://store.shopping.yahoo.co.jp/oimus725/20251230062740-01077.html",
      "price": 5830,
@@ -797,16 +1235,146 @@
     },
     "yahoo": {
      "found": true,
-     "candidates": 11,
+     "candidates": 8,
      "name": "パナソニック セラミックファンヒーター 小型 防滴仕様 ホワイト DS-FN1200-W",
-     "url": "https://store.shopping.yahoo.co.jp/ank-shop/1788193899-3322.html",
-     "price": 5850,
+     "url": "https://store.shopping.yahoo.co.jp/jiatentusp4/20211219015352-00511us.html",
+     "price": 7505,
+     "shippingFree": true,
+     "point": 0,
+     "reviewAverage": null,
+     "reviewCount": 0,
+     "shop": "プールトップ9",
+     "net": 7505
+    }
+   }
+  },
+  "winter-inner-men": {
+   "gunze-kaitekikoubou-kw3008": {
+    "rakuten": {
+     "skipped": "RAKUTEN_ACCESS_KEY が無い"
+    },
+    "yahoo": {
+     "found": true,
+     "candidates": 21,
+     "name": "グンゼ 快適工房 メンズ長袖丸首インナー  本体良質綿100% やわらかさ長持ち 日本製 年間 KW3008 GUNZE [M、L、LLサイズ] 紳士 インナー",
+     "url": "https://store.shopping.yahoo.co.jp/netdeinner/98108.html",
+     "price": 1584,
+     "shippingFree": false,
+     "point": 0,
+     "reviewAverage": null,
+     "reviewCount": 0,
+     "shop": "ネットでインナー",
+     "net": 1584
+    }
+   }
+  },
+  "wireless-earphone": {
+   "kenwood-glass-core-pro": {
+    "rakuten": {
+     "skipped": "RAKUTEN_ACCESS_KEY が無い"
+    },
+    "yahoo": {
+     "found": true,
+     "candidates": 3,
+     "name": "KENWOOD 完全ワイヤレスイヤホン GLASS Core Pro KH-CRZ100T 80周年記念モデル ケンウッド",
+     "url": "https://store.shopping.yahoo.co.jp/outletplaza/40001116330.html",
+     "price": 47748,
+     "shippingFree": true,
+     "point": 0,
+     "reviewAverage": null,
+     "reviewCount": 0,
+     "shop": "秋葉原　アウトレットプラザ",
+     "net": 47748
+    }
+   },
+   "kenwood-glass-core": {
+    "rakuten": {
+     "skipped": "RAKUTEN_ACCESS_KEY が無い"
+    },
+    "yahoo": {
+     "found": true,
+     "candidates": 4,
+     "name": "KENWOOD◆イヤホン GLASS Core KH-CRZ90T//",
+     "url": "https://store.shopping.yahoo.co.jp/ssol-shopping/2321148438271.html",
+     "price": 22660,
+     "shippingFree": true,
+     "point": 0,
+     "reviewAverage": null,
+     "reviewCount": 0,
+     "shop": "セカンドストリートYahoo!店",
+     "net": 22660
+    }
+   },
+   "sony-wf-1000xm6": {
+    "rakuten": {
+     "skipped": "RAKUTEN_ACCESS_KEY が無い"
+    },
+    "yahoo": {
+     "found": true,
+     "candidates": 18,
+     "name": "SONY ソニー イヤホン WF-1000XM6 プラチナシルバー ハイレゾ ノイズキャンセリング 外音取り込み 高性能マイク",
+     "url": "https://store.shopping.yahoo.co.jp/big2nd/oam-3016.html",
+     "price": 35200,
+     "shippingFree": true,
+     "point": 0,
+     "reviewAverage": null,
+     "reviewCount": 0,
+     "shop": "BIG2nd",
+     "net": 35200
+    }
+   },
+   "airpods-pro-3": {
+    "rakuten": {
+     "skipped": "RAKUTEN_ACCESS_KEY が無い"
+    },
+    "yahoo": {
+     "found": true,
+     "candidates": 15,
+     "name": "【ラッピング可】【即日発送】【新品 保証開始済み品】Apple アップル ワイヤレスイヤホン AirPods Pro 3 MFHP4J/A",
+     "url": "https://store.shopping.yahoo.co.jp/densidonya/4549995635232-b.html",
+     "price": 36340,
+     "shippingFree": true,
+     "point": 0,
+     "reviewAverage": 4.84,
+     "reviewCount": 45,
+     "shop": "電子問屋",
+     "net": 36340
+    }
+   },
+   "anker-liberty-5-pro": {
+    "rakuten": {
+     "skipped": "RAKUTEN_ACCESS_KEY が無い"
+    },
+    "yahoo": {
+     "found": true,
+     "candidates": 16,
+     "name": "アンカー イヤホン ワイヤレス Bluetooth 6.1 Soundcore Liberty 5 Pro D1203N11 ミッドナイトブラック A",
+     "url": "https://store.shopping.yahoo.co.jp/dshopone-y/4571651013405.html",
+     "price": 23090,
      "shippingFree": true,
      "point": 0,
      "reviewAverage": null,
      "reviewCount": 1,
-     "shop": "アンク",
-     "net": 5850
+     "shop": "ディーショップワン Yahoo!店",
+     "net": 23090
+    }
+   },
+   "technics-eah-az100": {
+    "rakuten": {
+     "skipped": "RAKUTEN_ACCESS_KEY が無い"
+    },
+    "yahoo": {
+     "found": true,
+     "candidates": 26,
+     "name": "Panasonic 純正 Technics ワイヤレスステレオインサイドホン EAH-AZ100 付属 片側 イヤホン  ブラック",
+     "url": "https://store.shopping.yahoo.co.jp/chanto3588/pnweaz100kl-pnweaz100kr.html",
+     "price": 18600,
+     "shippingFree": false,
+     "point": 0,
+     "reviewAverage": null,
+     "reviewCount": 1,
+     "shop": "Chanto3588",
+     "net": 18600
     }
    }
   },
@@ -817,16 +1385,16 @@
     },
     "yahoo": {
      "found": true,
-     "candidates": 29,
-     "name": "ZOJIRUSHI 象印 【納期11月末頃】加湿器  スチーム式加湿器(木造10畳まで/プレハブ洋室17畳まで)ホワイト EE-TC60 WA",
-     "url": "https://store.shopping.yahoo.co.jp/murauchi3/2501000388399.html",
-     "price": 24530,
+     "candidates": 28,
+     "name": "象印 スチーム式加湿器 ソフトブラック EE-TC60-BM",
+     "url": "https://store.shopping.yahoo.co.jp/jhb-store/4974305232502.html",
+     "price": 25173,
      "shippingFree": true,
      "point": 0,
      "reviewAverage": null,
      "reviewCount": 0,
-     "shop": "NEXT!",
-     "net": 24530
+     "shop": "JHBストア",
+     "net": 25173
     }
    },
    "zojirushi-ee-dg50": {
@@ -836,15 +1404,15 @@
     "yahoo": {
      "found": true,
      "candidates": 29,
-     "name": "象印 ZOJIRUSHI 加湿器 EE-DG50-WA スチーム式加湿器 4.0L ホワイト",
-     "url": "https://store.shopping.yahoo.co.jp/life-marketkyoto/ee-dg50-wa.html",
-     "price": 20560,
+     "name": "ZOJIRUSHI　加湿器　EE-DG50-WA [ホワイト]",
+     "url": "https://store.shopping.yahoo.co.jp/wink-digital/276155.html",
+     "price": 20480,
      "shippingFree": true,
      "point": 0,
      "reviewAverage": null,
      "reviewCount": 0,
-     "shop": "ライフマーケットYahoo!店",
-     "net": 20560
+     "shop": "ウインクデジタル ヤフー店",
+     "net": 20480
     }
    },
    "zojirushi-ee-dg35": {
@@ -853,7 +1421,7 @@
     },
     "yahoo": {
      "found": true,
-     "candidates": 28,
+     "candidates": 29,
      "name": "象印　加湿器 EE-DG35 WA（ホワイト）",
      "url": "https://store.shopping.yahoo.co.jp/sanrex/ee-dg35-wa.html",
      "price": 18700,
@@ -872,15 +1440,15 @@
     "yahoo": {
      "found": true,
      "candidates": 26,
-     "name": "象印 スチーム式加湿器 EE-RV50 3.0L 480mL/h 木造8畳 プレハブ13畳 ホワイト",
-     "url": "https://store.shopping.yahoo.co.jp/irodorikukanin/23410615.html",
-     "price": 16200,
+     "name": "EE-RV50-WA ZOJIRUSHI スチーム式 加湿器 ホワイト 3.0L 象印 在庫あり お手入れ簡単 清潔な蒸気スチーム式 安全設計",
+     "url": "https://store.shopping.yahoo.co.jp/macocoro/ee-rv50.html",
+     "price": 16240,
      "shippingFree": true,
      "point": 0,
      "reviewAverage": null,
      "reviewCount": 0,
-     "shop": "彩り空間ホームライフ館",
-     "net": 16200
+     "shop": "まごころでんき Yahoo!店",
+     "net": 16240
     }
    },
    "zojirushi-ee-rv35": {
@@ -889,16 +1457,16 @@
     },
     "yahoo": {
      "found": true,
-     "candidates": 27,
-     "name": "ZOJIRUSHI スチーム式加湿器 EE-RV35-WA ホワイト 象印",
-     "url": "https://store.shopping.yahoo.co.jp/outletplaza/40001118314.html",
-     "price": 14675,
+     "candidates": 23,
+     "name": "象印 スチーム式加湿器 2.2L 木造6畳 プレハブ10畳 EE-RV35-WA ホワイト",
+     "url": "https://store.shopping.yahoo.co.jp/pc-akindo/ee-rv35-wa.html",
+     "price": 14678,
      "shippingFree": true,
      "point": 0,
      "reviewAverage": null,
      "reviewCount": 0,
-     "shop": "秋葉原　アウトレットプラザ",
-     "net": 14675
+     "shop": "PCあきんど",
+     "net": 14678
     }
    },
    "zojirushi-ee-mc20": {
@@ -907,16 +1475,16 @@
     },
     "yahoo": {
      "found": true,
-     "candidates": 27,
-     "name": "ZOJIRUSHI（象印）EE-MC20-CM　加湿器 スチーム式　【木造和室 〜3畳・プレハブ洋室 〜6畳】 容量1.8L サンドベージュ",
-     "url": "https://store.shopping.yahoo.co.jp/giga-web2/68016.html",
-     "price": 14999,
+     "candidates": 28,
+     "name": "EE-MC20-CM  ZOJIRUSHI スチーム式 加湿器 サンドベージュ 1.8L 象印 在庫あり お手入れ簡単 清潔な蒸気スチーム式 安心設計",
+     "url": "https://store.shopping.yahoo.co.jp/macocoro/ee-mc20cm.html",
+     "price": 15100,
      "shippingFree": true,
      "point": 0,
      "reviewAverage": null,
-     "reviewCount": 0,
-     "shop": "GIGA ヤフー店",
-     "net": 14999
+     "reviewCount": 1,
+     "shop": "まごころでんき Yahoo!店",
+     "net": 15100
     }
    },
    "zojirushi-ee-fa50": {
@@ -925,16 +1493,16 @@
     },
     "yahoo": {
      "found": true,
-     "candidates": 11,
-     "name": "ZOJIRUSHI スチーム式加湿器 STAN. EE-FA50-BA ブラック 象印",
-     "url": "https://store.shopping.yahoo.co.jp/outletplaza/40001082165.html",
-     "price": 35326,
+     "candidates": 12,
+     "name": "象印 STAN.スチーム式加湿器 ZOJIRUSHI スタン加湿器 マホービン キッチン家電 EE-FA50-BA 黒 ブラック おしゃれ 家電 新築祝い",
+     "url": "https://store.shopping.yahoo.co.jp/marry-gift/zfs-ee-fa50-ba.html",
+     "price": 32901,
      "shippingFree": true,
      "point": 0,
      "reviewAverage": null,
      "reviewCount": 0,
-     "shop": "秋葉原　アウトレットプラザ",
-     "net": 35326
+     "shop": "公式 ギフトフィールドマリー Yahoo!店",
+     "net": 32901
     }
    }
   }
