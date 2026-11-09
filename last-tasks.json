@@ -1,3 +1,3 @@
 [
-      {"task": "x448-read-why-takanawa-failed.sh", "rc": 0, "out": "url=https://x.com/heng_ji31590 loggedIn=false 判定: 直近 8 本に高輪の投稿は無い"}
+      {"task": "x449-relogin-and-post-takanawa.sh", "rc": 0, "out": ""}
   ]
