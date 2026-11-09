@@ -3,13 +3,28 @@
   "title": "耳をふさがないイヤホン（イヤーカフ型・オープンイヤー）",
   "_note": "仕様・価格は各社公式とファーウェイ・ジャパンのプレスリリース（2026-11-07 確認）。連続再生は各社の試験条件が違う公称値。Bose の価格はセール中の表示。出典は Yokottinnn/daily-hack-affiliate の docs/research/open-ear-earphone-hikaku-products.md",
   "columns": [
-    { "key": "price", "label": "公式の価格" },
-    { "key": "weight", "label": "重さ（片耳）" },
-    { "key": "battery", "label": "連続再生（本体／ケース込み）" },
-    { "key": "water", "label": "防水" },
-    { "key": "leak", "label": "音漏れ（公式の説明）" }
+    {
+      "key": "price",
+      "label": "公式の価格"
+    },
+    {
+      "key": "weight",
+      "label": "重さ（片耳）"
+    },
+    {
+      "key": "battery",
+      "label": "連続再生（本体／ケース込み）"
+    },
+    {
+      "key": "water",
+      "label": "防水"
+    },
+    {
+      "key": "leak",
+      "label": "音漏れ（公式の説明）"
+    }
   ],
-  "pricesCheckedAt": null,
+  "pricesCheckedAt": "2026-11-09T21:43:55.724Z",
   "items": [
     {
       "id": "huawei-freeclip-2",
@@ -18,11 +33,50 @@
       "badge": "いちばん軽い",
       "summary": "片耳約5.1g・イヤホン IP57。市場想定価格27,280円。本体で約9時間。",
       "recommended": true,
-      "specs": { "price": "27,280円（市場想定価格）", "weight": "約5.1g", "battery": "約9時間／約38時間", "water": "イヤホン IP57・ケース IP54", "leak": "静かな場所では音量を下げるよう案内" },
+      "specs": {
+        "price": "27,280円（市場想定価格）",
+        "weight": "約5.1g",
+        "battery": "約9時間／約38時間",
+        "water": "イヤホン IP57・ケース IP54",
+        "leak": "静かな場所では音量を下げるよう案内"
+      },
       "source": "https://consumer.huawei.com/jp/audio/freeclip2/specs/",
-      "rakuten": { "keyword": "HUAWEI FreeClip 2", "must": ["FreeClip 2"], "exclude": ["ケース", "カバー", "フィルム", "中古"] },
-      "yahoo": { "keyword": "HUAWEI FreeClip 2", "must": ["FreeClip 2"], "exclude": ["ケース", "カバー", "フィルム", "中古"] },
-      "amazon": { "keyword": "HUAWEI FreeClip 2", "asin": null }
+      "rakuten": {
+        "keyword": "HUAWEI FreeClip 2",
+        "must": [
+          "FreeClip 2"
+        ],
+        "exclude": [
+          "ケース",
+          "カバー",
+          "フィルム",
+          "中古"
+        ]
+      },
+      "yahoo": {
+        "keyword": "HUAWEI FreeClip 2",
+        "must": [
+          "FreeClip 2"
+        ],
+        "exclude": [
+          "ケース",
+          "カバー",
+          "フィルム",
+          "中古"
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/huaweistore/55037342.html",
+        "price": 24800,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": 4.77,
+        "reviewCount": 316,
+        "shop": "HUAWEI 公式 Yahoo!店",
+        "checkedAt": "2026-11-09T21:43:55.724Z"
+      },
+      "amazon": {
+        "keyword": "HUAWEI FreeClip 2",
+        "asin": null
+      }
     },
     {
       "id": "anker-aeroclip",
@@ -31,11 +85,52 @@
       "badge": "いちばん安い",
       "summary": "17,990円・片耳約5.9g・IP55。本体で最大8時間、ケース込み最大32時間。",
       "recommended": false,
-      "specs": { "price": "17,990円", "weight": "約5.9g", "battery": "最大8時間／最大32時間", "water": "IP55（ケースは防水でない）", "leak": "耳に正確に音を届けて最小限に" },
+      "specs": {
+        "price": "17,990円",
+        "weight": "約5.9g",
+        "battery": "最大8時間／最大32時間",
+        "water": "IP55（ケースは防水でない）",
+        "leak": "耳に正確に音を届けて最小限に"
+      },
       "source": "https://www.ankerjapan.com/products/a3388",
-      "rakuten": { "keyword": "Anker Soundcore AeroClip", "must": ["AeroClip"], "exclude": ["ケース", "カバー", "中古"] },
-      "yahoo": { "keyword": "Anker Soundcore AeroClip", "must": ["AeroClip"], "exclude": ["ケース", "カバー", "中古"] },
-      "amazon": { "keyword": "Anker Soundcore AeroClip", "asin": null }
+      "rakuten": {
+        "keyword": "Anker Soundcore AeroClip",
+        "must": [
+          "AeroClip"
+        ],
+        "exclude": [
+          "ケース",
+          "カバー",
+          "中古",
+          "アクセサリー",
+          "専用"
+        ]
+      },
+      "yahoo": {
+        "keyword": "Anker Soundcore AeroClip",
+        "must": [
+          "AeroClip"
+        ],
+        "exclude": [
+          "ケース",
+          "カバー",
+          "中古",
+          "アクセサリー",
+          "専用"
+        ],
+        "url": null,
+        "price": null,
+        "shippingFree": null,
+        "point": null,
+        "reviewAverage": null,
+        "reviewCount": null,
+        "shop": null,
+        "checkedAt": null
+      },
+      "amazon": {
+        "keyword": "Anker Soundcore AeroClip",
+        "asin": null
+      }
     },
     {
       "id": "sony-linkbuds-clip",
@@ -44,11 +139,48 @@
       "badge": "音漏れ低減モード",
       "summary": "ソニーストア27,500円（保証3年）。リスニングモードに「音漏れ低減」。IPX4。",
       "recommended": false,
-      "specs": { "price": "27,500円（ソニーストア）", "weight": "約6.4g", "battery": "最大9時間／最大約37時間", "water": "IPX4", "leak": "「音漏れ低減」モード" },
+      "specs": {
+        "price": "27,500円（ソニーストア）",
+        "weight": "約6.4g",
+        "battery": "最大9時間／最大約37時間",
+        "water": "IPX4",
+        "leak": "「音漏れ低減」モード"
+      },
       "source": "https://www.sony.jp/headphone/products/LinkBuds_Clip/",
-      "rakuten": { "keyword": "ソニー LinkBuds Clip WF-LC900", "must": ["LC900"], "exclude": ["ケース", "カバー", "中古"] },
-      "yahoo": { "keyword": "ソニー LinkBuds Clip WF-LC900", "must": ["LC900"], "exclude": ["ケース", "カバー", "中古"] },
-      "amazon": { "keyword": "ソニー LinkBuds Clip WF-LC900", "asin": null }
+      "rakuten": {
+        "keyword": "ソニー LinkBuds Clip WF-LC900",
+        "must": [
+          "LC900"
+        ],
+        "exclude": [
+          "ケース",
+          "カバー",
+          "中古"
+        ]
+      },
+      "yahoo": {
+        "keyword": "ソニー LinkBuds Clip WF-LC900",
+        "must": [
+          "LC900"
+        ],
+        "exclude": [
+          "ケース",
+          "カバー",
+          "中古"
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/d-rise2/p000000934072.html",
+        "price": 14840,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 1,
+        "shop": "ディーライズ2号",
+        "checkedAt": "2026-11-09T21:43:55.724Z"
+      },
+      "amazon": {
+        "keyword": "ソニー LinkBuds Clip WF-LC900",
+        "asin": null
+      }
     },
     {
       "id": "shokz-opendots-2",
@@ -57,11 +189,48 @@
       "badge": "ケース込み40時間・IP57",
       "summary": "29,880円・片耳約6.4g。本体で最大10時間、ケース込み最大40時間。イヤホン IP57。",
       "recommended": false,
-      "specs": { "price": "29,880円", "weight": "約6.4g", "battery": "最大10時間／最大40時間", "water": "イヤホン IP57・ケース IP54", "leak": "振動板の設計で低減" },
+      "specs": {
+        "price": "29,880円",
+        "weight": "約6.4g",
+        "battery": "最大10時間／最大40時間",
+        "water": "イヤホン IP57・ケース IP54",
+        "leak": "振動板の設計で低減"
+      },
       "source": "https://jp.shokz.com/products/opendots-2",
-      "rakuten": { "keyword": "Shokz OpenDots 2", "must": ["OpenDots 2"], "exclude": ["ケース", "カバー", "中古"] },
-      "yahoo": { "keyword": "Shokz OpenDots 2", "must": ["OpenDots 2"], "exclude": ["ケース", "カバー", "中古"] },
-      "amazon": { "keyword": "Shokz OpenDots 2", "asin": null }
+      "rakuten": {
+        "keyword": "Shokz OpenDots 2",
+        "must": [
+          "OpenDots 2"
+        ],
+        "exclude": [
+          "ケース",
+          "カバー",
+          "中古"
+        ]
+      },
+      "yahoo": {
+        "keyword": "Shokz OpenDots 2",
+        "must": [
+          "OpenDots 2"
+        ],
+        "exclude": [
+          "ケース",
+          "カバー",
+          "中古"
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/d-rise2/p000000982786.html",
+        "price": 26780,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 0,
+        "shop": "ディーライズ2号",
+        "checkedAt": "2026-11-09T21:43:55.724Z"
+      },
+      "amazon": {
+        "keyword": "Shokz OpenDots 2",
+        "asin": null
+      }
     },
     {
       "id": "shokz-opendots-one",
@@ -70,11 +239,48 @@
       "badge": "逆音波のプライベートモード",
       "summary": "27,880円・片耳6.5g。逆の音波で外への音を小さくする DirectPitch とプライベートモード。",
       "recommended": false,
-      "specs": { "price": "27,880円", "weight": "6.5g", "battery": "最大10時間／最大40時間", "water": "イヤホン IP54・ケースは防水なし", "leak": "逆音波（DirectPitch）・プライベートモード" },
+      "specs": {
+        "price": "27,880円",
+        "weight": "6.5g",
+        "battery": "最大10時間／最大40時間",
+        "water": "イヤホン IP54・ケースは防水なし",
+        "leak": "逆音波（DirectPitch）・プライベートモード"
+      },
       "source": "https://jp.shokz.com/products/opendots-one",
-      "rakuten": { "keyword": "Shokz OpenDots ONE", "must": ["OpenDots ONE"], "exclude": ["ケース", "カバー", "中古"] },
-      "yahoo": { "keyword": "Shokz OpenDots ONE", "must": ["OpenDots ONE"], "exclude": ["ケース", "カバー", "中古"] },
-      "amazon": { "keyword": "Shokz OpenDots ONE", "asin": null }
+      "rakuten": {
+        "keyword": "Shokz OpenDots ONE",
+        "must": [
+          "OpenDots ONE"
+        ],
+        "exclude": [
+          "ケース",
+          "カバー",
+          "中古"
+        ]
+      },
+      "yahoo": {
+        "keyword": "Shokz OpenDots ONE",
+        "must": [
+          "OpenDots ONE"
+        ],
+        "exclude": [
+          "ケース",
+          "カバー",
+          "中古"
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/light-hikari/4571604941236.html",
+        "price": 16293,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 1,
+        "shop": "らいぶshop",
+        "checkedAt": "2026-11-09T21:43:55.724Z"
+      },
+      "amazon": {
+        "keyword": "Shokz OpenDots ONE",
+        "asin": null
+      }
     },
     {
       "id": "bose-ultra-open",
@@ -83,11 +289,48 @@
       "badge": "空間オーディオ",
       "summary": "公式ストア31,801円（セール中の表示）。本体で最長7時間。音漏れはダイポールの仕組みで抑える。",
       "recommended": false,
-      "specs": { "price": "31,801円（セール中の表示）", "weight": "公式で確かめられなかった", "battery": "最長7時間／ケースで追加19.5時間", "water": "IPX4", "leak": "ダイポールトランスデューサーで抑える" },
+      "specs": {
+        "price": "31,801円（セール中の表示）",
+        "weight": "公式で確かめられなかった",
+        "battery": "最長7時間／ケースで追加19.5時間",
+        "water": "IPX4",
+        "leak": "ダイポールトランスデューサーで抑える"
+      },
       "source": "https://www.bose.co.jp/p/sale/bose-ultra-open-earbuds/ULT-HEADPHONEOPN.html",
-      "rakuten": { "keyword": "Bose Ultra Open Earbuds", "must": ["Ultra Open"], "exclude": ["ケース", "カバー", "中古"] },
-      "yahoo": { "keyword": "Bose Ultra Open Earbuds", "must": ["Ultra Open"], "exclude": ["ケース", "カバー", "中古"] },
-      "amazon": { "keyword": "Bose Ultra Open Earbuds", "asin": null }
+      "rakuten": {
+        "keyword": "Bose Ultra Open Earbuds",
+        "must": [
+          "Ultra Open"
+        ],
+        "exclude": [
+          "ケース",
+          "カバー",
+          "中古"
+        ]
+      },
+      "yahoo": {
+        "keyword": "Bose Ultra Open Earbuds",
+        "must": [
+          "Ultra Open"
+        ],
+        "exclude": [
+          "ケース",
+          "カバー",
+          "中古"
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/idea-marche/ultraopen.html",
+        "price": 21360,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": 4.83,
+        "reviewCount": 6,
+        "shop": "アイディアマルシェ",
+        "checkedAt": "2026-11-09T21:43:55.724Z"
+      },
+      "amazon": {
+        "keyword": "Bose Ultra Open Earbuds",
+        "asin": null
+      }
     }
   ]
 }

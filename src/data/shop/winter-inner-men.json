@@ -16,7 +16,7 @@
       "label": "公式の説明"
     }
   ],
-  "pricesCheckedAt": null,
+  "pricesCheckedAt": "2026-11-09T21:43:55.724Z",
   "items": [
     {
       "id": "gunze-kaitekikoubou-kw3008",
@@ -57,7 +57,15 @@
           "ブリーフ",
           "半袖",
           "タンク"
-        ]
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/netdeinner/98108.html",
+        "price": 1584,
+        "shippingFree": false,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 0,
+        "shop": "ネットでインナー",
+        "checkedAt": "2026-11-09T21:43:55.724Z"
       },
       "amazon": {
         "keyword": "グンゼ 快適工房 長袖丸首 KW3008",
