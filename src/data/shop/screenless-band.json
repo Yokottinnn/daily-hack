@@ -24,7 +24,7 @@
       "label": "耐水"
     }
   ],
-  "pricesCheckedAt": "2026-11-09T21:43:55.724Z",
+  "pricesCheckedAt": "2026-11-10T21:43:26.737Z",
   "items": [
     {
       "id": "fitbit-air",
@@ -67,13 +67,13 @@
           "中古"
         ],
         "url": "https://store.shopping.yahoo.co.jp/light-hikari/840353963986.html",
-        "price": 19554,
+        "price": 19528,
         "shippingFree": true,
         "point": 0,
         "reviewAverage": null,
         "reviewCount": 0,
         "shop": "らいぶshop",
-        "checkedAt": "2026-11-09T21:43:55.724Z"
+        "checkedAt": "2026-11-10T21:43:26.737Z"
       },
       "amazon": {
         "keyword": "Google Fitbit Air",
@@ -124,14 +124,14 @@
           "専用",
           "交換"
         ],
-        "url": null,
-        "price": null,
-        "shippingFree": null,
-        "point": null,
-        "reviewAverage": null,
-        "reviewCount": null,
-        "shop": null,
-        "checkedAt": null
+        "url": "https://store.shopping.yahoo.co.jp/murauchi/6972596108726.html",
+        "price": 17600,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": 5,
+        "reviewCount": 4,
+        "shop": "murauchi.co.jp",
+        "checkedAt": "2026-11-10T21:43:26.737Z"
       },
       "amazon": {
         "keyword": "Amazfit Helio Strap",
@@ -181,7 +181,7 @@
         "reviewAverage": null,
         "reviewCount": 0,
         "shop": "NEEL 横浜 ヤフーショッピング店",
-        "checkedAt": "2026-11-09T21:43:55.724Z"
+        "checkedAt": "2026-11-10T21:43:26.737Z"
       },
       "amazon": {
         "keyword": "POLAR Loop ポラール",
