@@ -68,6 +68,12 @@
 
 <!-- 新しい記録がこの下に追加される（新しいものが上） -->
 
+### 2026-11-10 — 毎日の候補づくり 11/10: 伸びている投稿を x453 で集め（analyses 2026-11-10-x-buzz-posts）、2 組足した。analogy-earcuff-leak（目薬の値段違い→イヤーカフ型6台の音漏れ表記・blog）、news-culture-park-toyosu（11/14・15 豊洲公園・news）。レビューページ v126・作戦室 xdrafts v43
+
+次のアクション:
+
+- [ ] 利用者のレビュー待ち。明日も 18:43 に候補づくり
+
 ### 2026-11-10 — Slack に 5 分おきに出ていた『Chrome CDP heal 失敗』（約 30 件）を止めた。ai.openclaw.chrome-cdp-heal を x452 で bootout・.disabled に。11:52 以降の通知が無いことを確認
 
 次のアクション:

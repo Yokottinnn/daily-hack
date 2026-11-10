@@ -1,0 +1,25 @@
+{
+ "_doc": "X 告知の画像（TOKYOカルチャーデビューPARK）。node scripts/gen-x-panels.mjs ops/data/x-cards/tokyo-culture-debut-park-toyosu-2026.panels.json",
+ "_note": "2026-11-10 の毎日の候補づくり。素材は blog3 の湾岸ニュース記事で取った公式の画像（photos/_manifest.json）。1 枚目は公式のキービジュアルを加工せず正方形に。画像の中に出所は出さず ALT に書く",
+ "imageBase": "public/images/tokyo-culture-debut-park-toyosu-2026",
+ "out": "public/images/tokyo-culture-debut-park-toyosu-2026/x",
+ "theme": "ink",
+ "panels": [
+  {
+   "file": "1-official.jpg",
+   "kind": "html",
+   "noHeader": true,
+   "html": "<div class=\"ey\"><img class=\"bgb\" src=\"photos/keyvisual.jpg\" alt=\"\"><img class=\"fg\" src=\"photos/keyvisual.jpg\" alt=\"\"></div>",
+   "css": "main{padding:0;height:1080px;display:block}\n.ey{position:relative;height:1080px;overflow:hidden;background:#111}\n.bgb{position:absolute;left:-60px;top:-60px;width:1200px;height:1200px;object-fit:cover;filter:blur(34px) brightness(.55)}\n.fg{position:absolute;left:28px;top:28px;width:1024px;height:1024px;object-fit:contain;filter:drop-shadow(0 18px 40px rgba(0,0,0,.45))}",
+   "alt": "TOKYOカルチャーデビューPARKのキービジュアル（公式）。画像：TOKYOカルチャーデビュー公式サイト（東京都・アーツカウンシル東京）"
+  },
+  {
+   "file": "2-point.jpg",
+   "kind": "html",
+   "noHeader": true,
+   "html": "<div class=\"wrap\"><img class=\"ph\" src=\"photos/ikebana.jpg\" alt=\"\"><div class=\"shade\"></div><div class=\"tx\"><div class=\"k\">11/14（土）・15（日）10〜17時 豊洲公園</div><div class=\"t\"><em>入場無料</em>・申込なし</div><ul class=\"pts\"><li><b>対象</b>0〜18歳（ブースによって違う）</li><li><b>体験</b>約30ブース。大半が無料、有料は200〜1,000円</li><li><b>14日</b>KIRINJI（弾き語り）のライブ・芝生の映画</li><li><b>整理券</b>人気のブースは当日に配る予定</li></ul></div></div>",
+   "css": "main{padding:0;height:1080px;display:block}\n.wrap{position:relative;height:1080px;color:#fff;background:#1E1219;overflow:hidden}\n.ph{position:absolute;left:0;top:0;width:100%;height:540px;object-fit:cover}\n.shade{position:absolute;left:0;right:0;top:300px;height:242px;background:linear-gradient(180deg,rgba(30,18,25,0),#1E1219 92%)}\n.tx{position:absolute;left:56px;right:56px;top:430px;bottom:56px;display:flex;flex-direction:column}\n.k{align-self:flex-start;font-size:30px;font-weight:900;color:#2A1923;background:#F5C518;border-radius:999px;padding:6px 22px}\n.t{font-size:76px;font-weight:900;line-height:1.2;margin-top:14px;text-shadow:0 2px 12px rgba(0,0,0,.4)}\n.t em{font-style:normal;color:#EC5C90}\n.pts{list-style:none;margin-top:24px;flex:1;display:flex;flex-direction:column;justify-content:center;gap:18px}\n.pts li{font-size:35px;font-weight:700;line-height:1.35;background:rgba(255,255,255,.08);border-left:10px solid #EC5C90;border-radius:14px;padding:15px 22px}\n.pts b{color:#F5C518;margin-right:12px}",
+   "alt": "TOKYOカルチャーデビューPARK。11月14日（土）・15日（日）10〜17時、豊洲公園。入場無料・申込なし。対象は0〜18歳（ブースによって違う）。体験ブースは約30で大半が無料、有料は200〜1,000円。14日はKIRINJI（弾き語り）のライブと芝生の映画。人気のブースは当日に整理券を配る予定。写真：TOKYOカルチャーデビュー公式サイト（はじめてのいけばな体験・草月会）"
+  }
+ ]
+}
