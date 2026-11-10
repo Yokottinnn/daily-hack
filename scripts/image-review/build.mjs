@@ -94,6 +94,8 @@ const FILES = {
   "ariake-garden-ryuki-street-churros-2026": ["1-official.jpg", "2-point.jpg"],
   "x-wangan-events-2026-11": ["a1-count.jpg"],
   "x-wangan-map": ["1-map.jpg", "2-xmas.jpg", "3-car.jpg", "4-tb.jpg"],
+  "open-ear-earphone-hikaku-2026": ["1-zero.jpg", "2-table.jpg"],
+  "tokyo-culture-debut-park-toyosu-2026": ["1-official.jpg", "2-point.jpg"],
   "furusato-tax-beginner-guide-2026": ["a1-question.jpg"],
   "poikatsu-hourly-wage-2026": ["a1-compare.jpg"],
 };
