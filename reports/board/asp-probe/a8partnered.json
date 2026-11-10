@@ -1,9 +1,41 @@
 {
- "generated": "2026-11-09T21:41:14.671Z",
- "total": 388,
+ "generated": "2026-11-10T21:41:32.488Z",
+ "total": 392,
  "from": 0,
- "to": 388,
+ "to": 392,
  "rows": [
+  {
+   "id": "s00000023123002",
+   "name": "【ウリウリトレカ(ポケカ販売）】",
+   "reward": "購入7％ EPC",
+   "self": false,
+   "point": true,
+   "listing": "リスティングOK"
+  },
+  {
+   "id": "s00000004479002",
+   "name": "お水も無料で使える！アクアクララ ウォーターサーバー無料お試し【アクアクララ公式】",
+   "reward": "新規無料お試し設置完了1819円 EPC",
+   "self": true,
+   "point": false,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000027414001",
+   "name": "【レオゴルフ】全国対応のゴルフウェア宅配買取",
+   "reward": "新規買取成立2400円 EPC",
+   "self": false,
+   "point": false,
+   "listing": "リスティングNG"
+  },
+  {
+   "id": "s00000027811001",
+   "name": "韓国旅行の両替・決済をこれ1枚で完結【Travel Wallet】",
+   "reward": "初回カード発行1500円 EPC",
+   "self": false,
+   "point": false,
+   "listing": "リスティング一部OK"
+  },
   {
    "id": "s00000025281001",
    "name": "安値業界No.1！品揃え豊富！高価買取！【トレカ通販・買取 CARDMAX】",
@@ -3109,5 +3141,5 @@
    "listing": "リスティングNG"
   }
  ],
- "applyingCount": 134
+ "applyingCount": 129
 }
