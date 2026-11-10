@@ -1,3 +1,4 @@
 [
-      {"task": "x457-read-follow-and-lalaport.sh", "rc": 0, "out": "[2026-11-10T09:45:39.632Z] 自分のハンドルが画面から読めない → heng_ji31590 を使う（x395）   → 載っている"}
+      {"task": "x458-install-hardship-filter.sh", "rc": 0, "out": "  残った候補: 2 件（4 件中、2 件残れば正しい）   → 入れ終わった"},
+      {"task": "x459-guard-lalaport-1112.sh", "rc": 0, "out": "  com.dailyhack.lalaport-guard-1112-pre（11/12 11:30）→ 載っている   com.dailyhack.lalaport-guard-1112-post（11/12 12:20）→ 載っている"}
   ]
