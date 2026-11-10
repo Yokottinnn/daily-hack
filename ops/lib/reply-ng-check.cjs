@@ -41,6 +41,20 @@ function isNg(target, rulesOrPath) {
     if (links.includes(d)) return { ng: true, reason: 'link', hit: d };
   }
 
+  // 2-B. 相手が損・借金・トラブルを書いている（2026-11-10・x-reply-style §0 の 2）
+  //      アカウントが悪いのではなく、触れると傷口を踏むので返信しない。除外語より先に見る
+  const H = R.hardship_words;
+  if (H) {
+    for (const w of H.words || []) {
+      if (hay.includes(w)) return { ng: true, reason: 'hardship', hit: w };
+    }
+    for (const p of H.patterns || []) {
+      let m = null;
+      try { m = hay.match(new RegExp(p)); } catch (e) { m = null; }
+      if (m) return { ng: true, reason: 'hardship', hit: m[0] };
+    }
+  }
+
   // 3. 構造 — 文面に依らない特徴
   const S = R.structural_ng || {};
   if (S.min_account_age_days && target.createdAt) {
