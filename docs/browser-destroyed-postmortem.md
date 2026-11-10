@@ -81,3 +81,10 @@ launchctl unload ~/Library/LaunchAgents/ai.openclaw.chrome-cdp-heal.plist
   ポートが LISTEN していても健全とは限らない
 - [`docs/openclaw-recovery.md`](./openclaw-recovery.md) — OpenClaw が応答しないときの手順
 - [`docs/urgent-request-protocol.md`](./urgent-request-protocol.md) — 緊急依頼は 1 件だけ送る
+
+## 再発（2026-11-10）
+
+同じ通知が `#fun_reward-hack_tweet` に 5 分おきに約 30 件出た（〜11:46）。利用者「このメッセージが30件ぐらい来て本当に迷惑だからやめてほしい」。
+`ai.openclaw.chrome-cdp-heal` が再び載っていた（`runs = 133`）。10/30 付けの `.plist.disabled` があったのに、`.plist` も並んで在った（誰が戻したかは未確認）。
+x452 で `bootout` し `.plist` を `.disabled` に変えた（11:51）。11:52・11:57 の通知が来ないことを Slack で確かめた。
+**このジョブは戻さない。** 戻すなら Slack への通知を外してからにする。
