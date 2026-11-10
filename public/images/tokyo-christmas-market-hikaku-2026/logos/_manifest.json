@@ -1,0 +1,8 @@
+{
+ "tokyo-christmas-market.png": {"brand": "東京クリスマスマーケット", "copied_from": "public/images/tokyo-christmas-market-shintoyosu-2026/logos/tokyo-christmas-market.png", "fetched": "2026-11-11"},
+ "roppongi-hills.png": {"brand": "六本木ヒルズ", "source": "https://www.roppongihills.com/assets/images/logo/logo_01.svg", "page": "https://www.roppongihills.com/", "fetched": "2026-11-11", "note": "SVG を Chromium で PNG にした（色・形は変えていない）"},
+ "azabudai-hills.png": {"brand": "麻布台ヒルズ", "source": "https://www.azabudai-hills.com/images/logo-nopad.svg", "page": "https://www.azabudai-hills.com/", "fetched": "2026-11-11", "note": "SVG を Chromium で PNG にした"},
+ "tokyo-tower.png": {"brand": "東京タワー", "source": "https://www.tokyotower.co.jp/images/tokyotower_logo.png", "page": "https://www.tokyotower.co.jp/", "fetched": "2026-11-11"},
+ "skytree-town.png": {"brand": "東京スカイツリー", "source": "https://www.tokyo-skytree.jp/files/images/common/logo-cjk.png", "page": "https://www.tokyo-skytree.jp/", "fetched": "2026-11-11"},
+ "christmas-advent.jpg": {"brand": "東京クリスマスアドベント", "source": "https://prtimes.jp/main/html/rd/p/000000001.000192190.html", "page": "https://prtimes.jp/main/html/rd/p/000000001.000192190.html", "fetched": "2026-11-11", "note": "プレスリリースのロゴ画像"}
+}
