@@ -28,7 +28,7 @@
       "label": "翻訳"
     }
   ],
-  "pricesCheckedAt": "2026-11-09T21:43:55.724Z",
+  "pricesCheckedAt": "2026-11-10T21:43:26.737Z",
   "items": [
     {
       "id": "ray-ban-meta-gen3",
@@ -78,7 +78,7 @@
         "reviewAverage": null,
         "reviewCount": 0,
         "shop": "グラスマニア Tokyo Aoyama",
-        "checkedAt": "2026-11-09T21:43:55.724Z"
+        "checkedAt": "2026-11-10T21:43:26.737Z"
       },
       "amazon": {
         "keyword": "Ray-Ban Meta Gen3",
@@ -131,7 +131,7 @@
         "reviewAverage": null,
         "reviewCount": 0,
         "shop": "リファン Yahoo!ショップ",
-        "checkedAt": "2026-11-09T21:43:55.724Z"
+        "checkedAt": "2026-11-10T21:43:26.737Z"
       },
       "amazon": {
         "keyword": "Ray-Ban Meta Optics",
@@ -175,14 +175,14 @@
           "中古",
           "互換"
         ],
-        "url": "https://store.shopping.yahoo.co.jp/refun/mcl1pdh54dmp9a2o.html",
+        "url": "https://store.shopping.yahoo.co.jp/refun/mcl2pdvmmi1jh8tk.html",
         "price": 71940,
         "shippingFree": true,
         "point": 0,
         "reviewAverage": null,
         "reviewCount": 0,
         "shop": "リファン Yahoo!ショップ",
-        "checkedAt": "2026-11-09T21:43:55.724Z"
+        "checkedAt": "2026-11-10T21:43:26.737Z"
       },
       "amazon": {
         "keyword": "Oakley Meta HSTN",
@@ -224,7 +224,9 @@
           "フレーム",
           "サングラス",
           "ケーブル",
-          "レンズ"
+          "レンズ",
+          "Style",
+          "RV203"
         ]
       },
       "yahoo": {
@@ -246,16 +248,18 @@
           "フレーム",
           "サングラス",
           "ケーブル",
-          "レンズ"
+          "レンズ",
+          "Style",
+          "RV203"
         ],
-        "url": "https://store.shopping.yahoo.co.jp/ebest/4571344151759.html",
-        "price": 70198,
-        "shippingFree": true,
-        "point": 0,
+        "url": null,
+        "price": null,
+        "shippingFree": null,
+        "point": null,
         "reviewAverage": null,
-        "reviewCount": 0,
-        "shop": "イーベスト",
-        "checkedAt": "2026-11-09T21:43:55.724Z"
+        "reviewCount": null,
+        "shop": null,
+        "checkedAt": null
       },
       "amazon": {
         "keyword": "Rokid スマートAIグラス",
