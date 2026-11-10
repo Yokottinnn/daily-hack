@@ -1,0 +1,43 @@
+{
+ "flyer.jpg": {
+  "src": "https://prcdn.freetls.fastly.net/release_image/93966/614/93966-614-60d79ffc7594ae6869b3e73c525d01b1-1920x1280.png",
+  "page": "https://prtimes.jp/main/html/rd/p/000000614.000093966.html",
+  "credit": "辰巳出版（ミニベロミート実行委員会）のプレスリリース（PR TIMES）",
+  "fetched": "2026-11-11"
+ },
+ "ride.jpg": {
+  "src": "https://prcdn.freetls.fastly.net/release_image/93966/614/93966-614-3247b1b862025efaf84b8c9579531f6e-1000x682.jpg",
+  "page": "https://prtimes.jp/main/html/rd/p/000000614.000093966.html",
+  "credit": "辰巳出版（ミニベロミート実行委員会）のプレスリリース（PR TIMES）",
+  "fetched": "2026-11-11",
+  "note": "過去の開催のイメージ（リリースの表記）"
+ },
+ "booth.jpg": {
+  "src": "https://prcdn.freetls.fastly.net/release_image/93966/614/93966-614-2eda63f85f97e8a50e6e54dc3e77c507-1000x682.jpg",
+  "page": "https://prtimes.jp/main/html/rd/p/000000614.000093966.html",
+  "credit": "辰巳出版（ミニベロミート実行委員会）のプレスリリース（PR TIMES）",
+  "fetched": "2026-11-11",
+  "note": "過去の開催のイメージ（リリースの表記）"
+ },
+ "tour.jpg": {
+  "src": "https://prcdn.freetls.fastly.net/release_image/93966/614/93966-614-dd3d0f760d5ec17d07210dc40e9c1382-1000x682.jpg",
+  "page": "https://prtimes.jp/main/html/rd/p/000000614.000093966.html",
+  "credit": "辰巳出版（ミニベロミート実行委員会）のプレスリリース（PR TIMES）",
+  "fetched": "2026-11-11",
+  "note": "過去の開催のイメージ（リリースの表記）"
+ },
+ "lecture.jpg": {
+  "src": "https://prcdn.freetls.fastly.net/release_image/93966/614/93966-614-a642a30b15f20bc914aa2e806b1e1de2-1000x682.jpg",
+  "page": "https://prtimes.jp/main/html/rd/p/000000614.000093966.html",
+  "credit": "辰巳出版（ミニベロミート実行委員会）のプレスリリース（PR TIMES）",
+  "fetched": "2026-11-11",
+  "note": "過去の開催のイメージ（リリースの表記）"
+ },
+ "game.jpg": {
+  "src": "https://prcdn.freetls.fastly.net/release_image/93966/614/93966-614-fe3fa9fdf282414faf04f13e764fd2e8-1000x682.jpg",
+  "page": "https://prtimes.jp/main/html/rd/p/000000614.000093966.html",
+  "credit": "辰巳出版（ミニベロミート実行委員会）のプレスリリース（PR TIMES）",
+  "fetched": "2026-11-11",
+  "note": "過去の開催のイメージ（リリースの表記）"
+ }
+}
