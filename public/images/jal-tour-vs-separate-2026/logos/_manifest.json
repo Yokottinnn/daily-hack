@@ -1,0 +1,29 @@
+{
+ "j-trip.png": {
+  "brand": "J-TRIP（ジェイトリップ）",
+  "source": "https://mda.jtp.li/j-kakuyasu/img/logo.png",
+  "page": "https://www.jtrip.co.jp/",
+  "fetched": "2026-10-16",
+  "license_note": "商標。識別目的で使用。改変なし（余白のみ除去）",
+  "note": "公式サイトのロゴ（Mac t298 で取得・識別目的・改変なし。余白のみ除去）",
+  "copied_from": "public/images/domestic-flight-tour-sites-2026/logos/j-trip.png"
+ },
+ "jal.png": {
+  "brand": "JAL（日本航空）",
+  "source": "https://www.jal.co.jp/ の header ロゴ（alt: JAPAN AIRLINES）",
+  "page": "https://www.jal.co.jp/jp/ja/",
+  "fetched": "2026-09-23",
+  "task": "ops/tasks/t177-logos-real-browser2.sh",
+  "license_note": "商標。識別目的で使用。**SVG を Chromium で PNG にした**",
+  "copied_from": "public/images/domestic-flight-tour-sites-2026/logos/jal.png"
+ },
+ "rakutentravel.png": {
+  "brand": "楽天トラベル",
+  "source": "https://travel.rakuten.co.jp/",
+  "page": "https://travel.rakuten.co.jp/",
+  "fetched": "2026-09-20",
+  "license_note": "公式サイトのロゴ画像（商標）",
+  "task": "ops/tasks/t130-*.sh",
+  "copied_from": "public/images/hotel-booking-sites-2026/logos/rakutentravel.png"
+ }
+}
