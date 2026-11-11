@@ -1,0 +1,41 @@
+{
+ "_doc": "X 告知の画像（東京のクリスマスマーケット 8 会場の比較）。node scripts/gen-x-panels.mjs ops/data/x-cards/tokyo-christmas-market-hikaku-2026.panels.json",
+ "_note": "2026-11-11 blog3 からの依頼。素材は blog3 が取った各主催者のプレスリリースの画像（photos/_manifest.json）。1 枚目は新豊洲のキービジュアルを加工せず正方形に。画像の中に出所は出さず ALT に書く",
+ "imageBase": "public/images/tokyo-christmas-market-hikaku-2026",
+ "out": "public/images/tokyo-christmas-market-hikaku-2026/x",
+ "theme": "ink",
+ "panels": [
+  {
+   "file": "1-official.jpg",
+   "kind": "html",
+   "noHeader": true,
+   "html": "<div class=\"ey\"><img class=\"bgb\" src=\"photos/kv-shintoyosu.jpg\" alt=\"\"><img class=\"fg\" src=\"photos/kv-shintoyosu.jpg\" alt=\"\"></div>",
+   "css": "main{padding:0;height:1080px;display:block}\n.ey{position:relative;height:1080px;overflow:hidden;background:#111}\n.bgb{position:absolute;left:-60px;top:-60px;width:1200px;height:1200px;object-fit:cover;filter:blur(34px) brightness(.5)}\n.fg{position:absolute;left:28px;top:28px;width:1024px;height:1024px;object-fit:contain;filter:drop-shadow(0 18px 40px rgba(0,0,0,.45))}",
+   "alt": "東京クリスマスマーケット in 新豊洲（2026年に初開催）のキービジュアル（公式）。画像：東京クリスマスマーケット実行委員会（株式会社ビー・エフ・シー）・KKday のプレスリリース（PR TIMES）。キービジュアル ©Kayo Horaguchi"
+  },
+  {
+   "file": "2-compare.jpg",
+   "kind": "html",
+   "noHeader": true,
+   "html": "<div class=\"wrap\"><div class=\"k\">東京のクリスマスマーケット 2026年は8会場</div><div class=\"t\">入場料を取るのは<em>2つだけ</em></div><div class=\"grp pay\"><div class=\"gh\">💰 入場料あり（大人）</div><div class=\"row\"><b>新豊洲</b><span>11/20〜12/25・平日1,000円／土日祝1,500円／24・25日2,000円</span></div><div class=\"row\"><b>芝公園</b><span>12/4〜12/25・同じ料金</span></div></div><div class=\"grp free\"><div class=\"gh\">🆓 入場無料と発表</div><div class=\"row\"><b>東京タワー</b><span>11/13〜12/25</span></div><div class=\"row\"><b>スカイツリータウン</b><span>11/5〜12/25（いちばん長い51日間）</span></div><div class=\"row\"><b>上野公園</b><span>11/6〜12/25（ヒュッテ30店舗超）</span></div></div><div class=\"grp open\"><div class=\"gh\">🏙 広場や通りで開く</div><div class=\"row\"><b>六本木ヒルズ</b><span>11/21〜12/25</span></div><div class=\"row\"><b>麻布台ヒルズ</b><span>11/21〜12/25</span></div><div class=\"row\"><b>丸の内仲通り</b><span>11/12〜12/25</span></div></div></div>",
+   "css": "main{padding:0;height:1080px;display:block}\n.wrap{height:1080px;color:#fff;background:linear-gradient(180deg,#2A1923,#1E1219);padding:48px 52px;display:flex;flex-direction:column}\n.k{align-self:flex-start;font-size:28px;font-weight:900;color:#2A1923;background:#F5C518;border-radius:999px;padding:6px 22px}\n.t{font-size:66px;font-weight:900;margin:12px 0 18px}\n.t em{font-style:normal;color:#EC5C90}\n.grp{background:rgba(255,255,255,.07);border-radius:18px;padding:22px 24px;margin-top:20px;border-left:10px solid #888}\n.pay{border-left-color:#EC5C90}.free{border-left-color:#4CC38A}.open{border-left-color:#F5C518}\n.gh{font-size:33px;font-weight:900;margin-bottom:6px}\n.row{display:flex;gap:18px;font-size:31px;line-height:1.6}\n.row b{min-width:285px;color:#FFE9A6}\n.row span{opacity:.92}",
+   "alt": "東京のクリスマスマーケット2026年の8会場。入場料あり（大人）：新豊洲 11/20〜12/25・平日1,000円／土日祝1,500円／12月24・25日2,000円、芝公園 12/4〜12/25・同じ料金。入場無料と発表：東京タワー 11/13〜12/25、スカイツリータウン 11/5〜12/25（51日間）、上野公園 11/6〜12/25（ヒュッテ30店舗超）。広場や通りで開く：六本木ヒルズ・麻布台ヒルズ 11/21〜12/25、丸の内仲通り 11/12〜12/25"
+  },
+  {
+   "file": "3-mugs.jpg",
+   "kind": "html",
+   "noHeader": true,
+   "html": "<div class=\"wrap\"><img class=\"ph\" src=\"photos/tcm-mugs.jpg\" alt=\"\"><div class=\"shade\"></div><div class=\"tx\"><div class=\"k\">新豊洲（青）と芝公園（赤）の限定マグ</div><div class=\"t\">重ねると<em>1枚の絵</em>になる</div><ul class=\"pts\"><li>事前予約（KKday）は当日券と同じ値段で、大人にマグが付く</li><li>新豊洲は青、芝公園は赤。2会場とも行くと揃う</li></ul></div></div>",
+   "css": "main{padding:0;height:1080px;display:block}\n.wrap{position:relative;height:1080px;color:#fff;background:#1E1219;overflow:hidden}\n.ph{position:absolute;left:0;top:0;width:100%;height:700px;object-fit:cover;object-position:center 35%}\n.shade{position:absolute;left:0;right:0;top:480px;height:222px;background:linear-gradient(180deg,rgba(30,18,25,0),#1E1219 92%)}\n.tx{position:absolute;left:56px;right:56px;top:620px;bottom:56px;display:flex;flex-direction:column}\n.k{align-self:flex-start;font-size:30px;font-weight:900;color:#2A1923;background:#F5C518;border-radius:999px;padding:6px 22px}\n.t{font-size:72px;font-weight:900;line-height:1.2;margin-top:14px}\n.t em{font-style:normal;color:#EC5C90}\n.pts{list-style:none;margin-top:22px;display:flex;flex-direction:column;gap:16px}\n.pts li{font-size:34px;font-weight:700;line-height:1.35;background:rgba(255,255,255,.08);border-left:10px solid #EC5C90;border-radius:14px;padding:14px 22px}",
+   "alt": "東京クリスマスマーケットの2026年の限定マグ。新豊洲（青）と芝公園（赤）を重ねるとクリスマスピラミッドの絵になる。事前予約（KKday）は当日券と同じ値段で大人にマグが付く。画像：東京クリスマスマーケット実行委員会のプレスリリース（PR TIMES）"
+  },
+  {
+   "file": "4-free.jpg",
+   "kind": "html",
+   "noHeader": true,
+   "html": "<div class=\"wrap\"><img class=\"ph\" src=\"photos/tokyotower-venue.jpg\" alt=\"\"><div class=\"shade\"></div><div class=\"tx\"><div class=\"k\">11/13〜12/25・12:00〜22:00</div><div class=\"t\">東京タワーの真下は<em>入場無料</em></div><div class=\"sub\">スカイツリータウン・上野公園も入場無料と発表</div></div></div>",
+   "css": "main{padding:0;height:1080px;display:block}\n.wrap{position:relative;height:1080px;color:#fff;background:#1E1219;overflow:hidden}\n.ph{position:absolute;left:0;top:0;width:100%;height:1080px;object-fit:cover;object-position:center 30%}\n.shade{position:absolute;left:0;right:0;bottom:0;height:520px;background:linear-gradient(180deg,rgba(30,18,25,0),rgba(30,18,25,.92) 55%)}\n.tx{position:absolute;left:56px;right:56px;bottom:64px}\n.k{display:inline-block;font-size:30px;font-weight:900;color:#2A1923;background:#F5C518;border-radius:999px;padding:6px 22px}\n.t{font-size:70px;font-weight:900;line-height:1.2;margin-top:14px;text-shadow:0 2px 12px rgba(0,0,0,.5)}\n.t em{font-style:normal;color:#EC5C90}\n.sub{font-size:36px;font-weight:700;margin-top:14px}",
+   "alt": "TOKYO TOWER Christmas Market 2026 の会場。2026年11月13日〜12月25日、12:00〜22:00、入場無料。スカイツリータウン・上野公園も入場無料と発表。画像：東京タワークリスマスマーケット実行委員会のプレスリリース（PR TIMES）"
+  }
+ ]
+}
