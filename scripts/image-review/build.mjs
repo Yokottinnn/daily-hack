@@ -96,6 +96,7 @@ const FILES = {
   "x-wangan-map": ["1-map.jpg", "2-xmas.jpg", "3-car.jpg", "4-tb.jpg"],
   "open-ear-earphone-hikaku-2026": ["1-zero.jpg", "2-table.jpg"],
   "tokyo-culture-debut-park-toyosu-2026": ["1-official.jpg", "2-point.jpg"],
+  "tokyo-christmas-market-hikaku-2026": ["1-official.jpg", "2-compare.jpg", "3-mugs.jpg", "4-free.jpg"],
   "furusato-tax-beginner-guide-2026": ["a1-question.jpg"],
   "poikatsu-hourly-wage-2026": ["a1-compare.jpg"],
 };
