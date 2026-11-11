@@ -1,0 +1,43 @@
+{
+ "longchamp.jpg": {
+  "src": "https://trvimg.r10s.jp/share/HOTEL/9654/9654.jpg",
+  "page": "https://travel.rakuten.co.jp/HOTEL/9654/9654.html",
+  "credit": "ホテルロンシャンサッポロ（楽天トラベルの施設ページ）",
+  "fetched": "2026-11-11"
+ },
+ "emisia.jpg": {
+  "src": "https://trvimg.r10s.jp/share/HOTEL/901/901.jpg",
+  "page": "https://travel.rakuten.co.jp/HOTEL/901/901.html",
+  "credit": "ホテルエミシア札幌（楽天トラベルの施設ページ）",
+  "fetched": "2026-11-11",
+  "note": "受賞の札が入っていたので、建物の右側だけを切り出した"
+ },
+ "newotani.jpg": {
+  "src": "https://trvimg.r10s.jp/share/HOTEL/163/163.jpg",
+  "page": "https://travel.rakuten.co.jp/HOTEL/163/163.html",
+  "credit": "ニューオータニイン札幌（楽天トラベルの施設ページ）",
+  "fetched": "2026-11-11",
+  "note": "受賞の札が入っていたので、左下だけを切り出した"
+ },
+ "resol.jpg": {
+  "src": "https://trvimg.r10s.jp/share/HOTEL/835/835.jpg",
+  "page": "https://travel.rakuten.co.jp/HOTEL/835/835.html",
+  "credit": "ホテルリソル札幌 中島公園（楽天トラベルの施設ページ）",
+  "fetched": "2026-11-11"
+ },
+ "koko.jpg": {
+  "src": "https://trvimg.r10s.jp/share/HOTEL/176801/176801.jpg",
+  "page": "https://travel.rakuten.co.jp/HOTEL/176801/176801.html",
+  "credit": "KOKO HOTEL 札幌すすきの（楽天トラベルの施設ページ）",
+  "fetched": "2026-11-11"
+ },
+ "jal-777.jpg": {
+  "file": "JA773J Boeing 777 JAL Japan Airlines (7577194286).jpg",
+  "lic": "CC BY-SA 3.0",
+  "artist": "Aeroprints.com",
+  "page": "https://commons.wikimedia.org/wiki/File:JA773J_Boeing_777_JAL_Japan_Airlines_(7577194286).jpg",
+  "px": "2304x1536",
+  "bytes": 733617,
+  "copied_from": "public/images/nenmatsu-flight-2026/photos/jal-777.jpg"
+ }
+}

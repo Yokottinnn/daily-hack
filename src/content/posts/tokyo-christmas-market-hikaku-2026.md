@@ -245,6 +245,14 @@ references: ["https://prtimes.jp/main/html/rd/p/000000082.000047941.html", "http
   </ul>
 </aside>
 
+開幕前から前売り券を買った人の投稿。いいねは9,000を超えていた（11月11日時点）。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">新豊洲のクリスマスマーケット、ドリンクもフードも可愛いのたくさんでときめく💕 楽しみすぎて前売り買いました🎅</p>&mdash; @unganeko19 <a href="https://twitter.com/unganeko19/status/2117640928555090052">2026年11月3日</a></blockquote>
+
+初日の11月20日は点灯式がある。公式の告知はこれ。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">新豊洲、冬のマジックアワーに。ドイツ・デュッセルドルフ出身の生田絵梨花さんが、11月20日（金）東京クリスマスマーケット2026 in 新豊洲の点灯式に登壇します。🎄…</p>&mdash; @tokyochristmas <a href="https://twitter.com/tokyochristmas/status/2120336083762503824">2026年11月11日</a></blockquote>
+
 ## 東京クリスマスマーケット in 芝公園｜東京タワーを望む、2026年12月4日から
 
 <figure class="rn-figure">
@@ -265,6 +273,10 @@ references: ["https://prtimes.jp/main/html/rd/p/000000082.000047941.html", "http
 </div>
 
 新豊洲と同じ東京クリスマスマーケットの会場。**東京タワーを望む公園に、高さ約14mのクリスマスピラミッドが立つ**。会期は新豊洲より短い22日間。
+
+芝公園の会場の告知。いいねは700を超えていた。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">／ 東京クリスマスマーケット2026 in 芝公園 ＼ 期間🎄12月4日～12月25日 📍東京都立芝公園4号地</p>&mdash; @______hnjs <a href="https://twitter.com/______hnjs/status/2108487287202037778">2026年10月9日</a></blockquote>
 
 ## 六本木ヒルズ クリスマスマーケット2026｜開催20回目の老舗
 
@@ -287,6 +299,10 @@ references: ["https://prtimes.jp/main/html/rd/p/000000082.000047941.html", "http
 </div>
 
 国内でも古いクリスマスマーケットのひとつで、**2026年が20回目**。ドイツのクリスマス用品店「ケーテ・ウォルファルト」が出店し、各店から20回目の記念の限定品が出る。平日のランチタイムには限定のランチセットもある。すぐ近くのけやき坂のイルミネーションは2026年11月5日〜12月25日（17:00〜22:00）。
+
+去年（2025年）の大屋根プラザの様子。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">六本木ヒルズのクリスマスマーケット⛄️🥨🎄</p>&mdash; @ino21__ <a href="https://twitter.com/ino21__/status/1996889018597101764">2025年12月5日</a></blockquote>
 
 ## 麻布台ヒルズ クリスマスマーケット 2026｜飲食15店とカルティエのツリー
 
@@ -325,6 +341,10 @@ references: ["https://prtimes.jp/main/html/rd/p/000000082.000047941.html", "http
   </ul>
 </aside>
 
+去年（2025年）の投稿。トリュフポテトの投稿はいいねが1万を超えていた。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">麻布台ヒルズのクリスマスマーケット🎄 Balcony by 6thのトリュフポテトもあって嬉しい🧀♡</p>&mdash; @mxu22u <a href="https://twitter.com/mxu22u/status/1994352340577468618">2025年11月28日</a></blockquote>
+
 ## 東京タワー Christmas Market 2026｜真上にタワーを見る8つのヒュッテ
 
 <div class="real-photos cols-2">
@@ -346,6 +366,10 @@ references: ["https://prtimes.jp/main/html/rd/p/000000082.000047941.html", "http
 </div>
 
 ヒュッテは8つ。ソーセージ・プレッツェル・パスタ・チュロス、ホットワインやホットチョコレートが並ぶ。**真上に東京タワーを見る場所**で、夕方からはライトアップされたタワーの下で過ごせる。
+
+今年の開催を伝えた投稿。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">東京タワーの真下で楽しむマーケット🗼 「TOKYO TOWER Christmas Market 2026」が東京タワーで11/13(金)より開催。8つのヒュッテでソーセージやホ…</p>&mdash; @enjoy_tokyo <a href="https://twitter.com/enjoy_tokyo/status/2114190408670675402">2026年10月25日</a></blockquote>
 
 ## クリスマスマーケット in 東京スカイツリータウン｜11月5日から51日間・入場無料
 
@@ -369,6 +393,14 @@ references: ["https://prtimes.jp/main/html/rd/p/000000082.000047941.html", "http
 
 テーマは「絵本の中のクリスマスマーケット」で、2026年が11回目。**比べた8会場の中で会期がいちばん長く、始まりもいちばん早い**。15棟のヒュッテが並び、長さ67cmの「ぐるぐるソーセージ」や、2026年に初めて出るデザートピザがある。
 
+もう始まっている会場。11月11日に行った人の投稿。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">スカイツリーのクリスマスマーケット行ってきた🎄久しぶりのお天気だったからか人たくさんいて雰囲気良かった☺️ また行きたいなぁ〜❄️</p>&mdash; @planet0123 <a href="https://twitter.com/planet0123/status/2120480664432840889">2026年11月11日</a></blockquote>
+
+<div class="yt-embed"><iframe src="https://www.youtube-nocookie.com/embed/QZPb5ptGczY" title="2026年最新!【東京スカイツリー】クリスマスマーケット全15店舗と輝くイルミネーション" loading="lazy" allowfullscreen
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe></div>
+<p class="source-note">動画：<a href="https://www.youtube.com/watch?v=QZPb5ptGczY" target="_blank" rel="noopener">2026年最新!【東京スカイツリー】クリスマスマーケット全15店舗と輝くイルミネーション</a>（日常の風景 /60Vlog-scenery・2026年11月公開）</p>
+
 ## 東京クリスマスアドベント（上野公園）｜30店を超えるヒュッテとサーカス
 
 <div class="real-photos cols-2">
@@ -390,6 +422,14 @@ references: ["https://prtimes.jp/main/html/rd/p/000000082.000047941.html", "http
 
 福岡で始まった「クリスマスアドベント」の東京版で、2026年が2年目。**ヒュッテは30店舗を超え**、比べた会場の中でいちばん多い。約70万球のイルミネーション、100体を超えるサンタが集まる「Festa de Santa」（2026年11月18日〜）、屋外サーカス「AURA」（2026年11月27日〜12月24日）もある。
 
+上野公園の案内のアカウントの告知。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">【イベント情報】#上野公園 では 明日から12月25日(金)まで「東京クリスマスアドベント Sponsored by au PAY」が開催されます。袴腰広場からスタートし、11月1…</p>&mdash; @UENO_Info <a href="https://twitter.com/UENO_Info/status/2118273412300947717">2026年11月5日</a></blockquote>
+
+<div class="yt-embed"><iframe src="https://www.youtube-nocookie.com/embed/oI84M0zlML0" title="【中継】東京・上野で「東京クリスマスアドベント」12月25日まで開催　イルミネーションや屋外サーカス、ライブなども" loading="lazy" allowfullscreen
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe></div>
+<p class="source-note">動画：<a href="https://www.youtube.com/watch?v=oI84M0zlML0" target="_blank" rel="noopener">【中継】東京・上野で「東京クリスマスアドベント」12月25日まで開催　イルミネーションや屋外サーカス、ライブなども</a>（カンテレNEWS・2026年11月公開）</p>
+
 ## 丸の内仲通りのクリスマスマーケット｜通り全体がクリスマスの会場
 
 <div class="real-photos cols-2">
@@ -409,6 +449,10 @@ references: ["https://prtimes.jp/main/html/rd/p/000000082.000047941.html", "http
 </div>
 
 丸の内の「MARUNOUCHI BRIGHT HOLIDAY」の一部として、道路にテーブルと椅子を並べてマーケットを開く。2026年は**ハリー・ポッターとの組み合わせ**で、エリア内の9か所に作品をイメージした飾りが出る。丸の内仲通りのイルミネーションは2026年11月12日〜2027年2月14日。
+
+去年（2025年）の様子。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">丸の内クリスマスマーケットに行ってきました☺️</p>&mdash; @nea_photo_ne <a href="https://twitter.com/nea_photo_ne/status/2000196667874668613">2025年12月14日</a></blockquote>
 
 ## 夜のクリスマスマーケットに行くなら、泊まって回る
 
@@ -459,3 +503,5 @@ references: ["https://prtimes.jp/main/html/rd/p/000000082.000047941.html", "http
 <div class="hakkako-says">
   <div class="hakkako-quote">本場の雰囲気がほしいなら<strong>新豊洲の平日1,000円</strong>、タダで楽しむなら<strong>東京タワー・スカイツリータウン・上野</strong>。マグを集めるなら<strong>新豊洲と芝公園の2会場</strong>を予約で回りなさい。</div>
 </div>
+
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
