@@ -1,0 +1,26 @@
+{
+ "kv.jpg": {
+  "src": "https://prcdn.freetls.fastly.net/release_image/181607/14/181607-14-181409aa05b08ab269249d08fe180ced-1920x1080.jpg",
+  "page": "https://prtimes.jp/main/html/rd/p/000000014.000181607.html",
+  "credit": "PMA TOKYO実行委員会のプレスリリース（ソニック・ぷよぷよの画像は ©SEGA）",
+  "fetched": "2026-11-12"
+ },
+ "sonic.jpg": {
+  "src": "https://prcdn.freetls.fastly.net/release_image/181607/14/181607-14-0f9945888ba1ed1813453e540a12f305-1200x630.png",
+  "page": "https://prtimes.jp/main/html/rd/p/000000014.000181607.html",
+  "credit": "PMA TOKYO実行委員会のプレスリリース（ソニック・ぷよぷよの画像は ©SEGA）",
+  "fetched": "2026-11-12"
+ },
+ "puyo.jpg": {
+  "src": "https://prcdn.freetls.fastly.net/release_image/181607/14/181607-14-aa11943b7d003e7c54aa18e53774e567-1280x777.jpg",
+  "page": "https://prtimes.jp/main/html/rd/p/000000014.000181607.html",
+  "credit": "PMA TOKYO実行委員会のプレスリリース（ソニック・ぷよぷよの画像は ©SEGA）",
+  "fetched": "2026-11-12"
+ },
+ "booth.jpg": {
+  "src": "https://prcdn.freetls.fastly.net/release_image/181607/14/181607-14-4ae3cc5c0eb067c59d177d5842f71c1b-2000x1500.jpg",
+  "page": "https://prtimes.jp/main/html/rd/p/000000014.000181607.html",
+  "credit": "PMA TOKYO実行委員会のプレスリリース（ソニック・ぷよぷよの画像は ©SEGA）",
+  "fetched": "2026-11-12"
+ }
+}
