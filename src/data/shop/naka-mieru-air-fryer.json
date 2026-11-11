@@ -24,7 +24,7 @@
       "label": "食洗機（公式の記載）"
     }
   ],
-  "pricesCheckedAt": "2026-11-10T21:43:26.737Z",
+  "pricesCheckedAt": "2026-11-11T21:42:28.217Z",
   "items": [
     {
       "id": "bruno-boe122",
@@ -63,13 +63,13 @@
           "◆"
         ],
         "url": "https://store.shopping.yahoo.co.jp/ecjoyecj30/21673797.html",
-        "price": 12004,
+        "price": 12255,
         "shippingFree": false,
         "point": 0,
         "reviewAverage": null,
         "reviewCount": 0,
         "shop": "エクセレントショップ",
-        "checkedAt": "2026-11-10T21:43:26.737Z"
+        "checkedAt": "2026-11-11T21:42:28.217Z"
       },
       "amazon": {
         "keyword": "BRUNO ガラスエアフライヤー BOE122",
@@ -117,7 +117,7 @@
         "reviewAverage": null,
         "reviewCount": null,
         "shop": null,
-        "checkedAt": "2026-11-10T21:43:26.737Z"
+        "checkedAt": "2026-11-11T21:42:28.217Z"
       },
       "amazon": {
         "keyword": "Beelicious ノンフライヤー 見える窓付き",
@@ -175,7 +175,7 @@
         "reviewAverage": null,
         "reviewCount": null,
         "shop": null,
-        "checkedAt": "2026-11-10T21:43:26.737Z"
+        "checkedAt": "2026-11-11T21:42:28.217Z"
       },
       "amazon": {
         "keyword": "EPEIOS ガラスボウルエアフライヤー EPAO248",
@@ -216,14 +216,14 @@
           "中古",
           "パーツ"
         ],
-        "url": "https://store.shopping.yahoo.co.jp/roomy/win2006-tu00c-1.html",
+        "url": "https://store.shopping.yahoo.co.jp/aqua-inc/aq000183.html",
         "price": 16500,
         "shippingFree": true,
         "point": 0,
-        "reviewAverage": 4.75,
-        "reviewCount": 8,
-        "shop": "インテリアショップ roomy",
-        "checkedAt": "2026-11-10T21:43:26.737Z"
+        "reviewAverage": 4.53,
+        "reviewCount": 192,
+        "shop": "セレクトショップAQUA・アクア",
+        "checkedAt": "2026-11-11T21:42:28.217Z"
       },
       "amazon": {
         "keyword": "レコルト エアーオーブン 4L RAO-4",
@@ -264,14 +264,14 @@
           "中古",
           "パーツ"
         ],
-        "url": null,
-        "price": null,
-        "shippingFree": null,
-        "point": null,
+        "url": "https://store.shopping.yahoo.co.jp/somurie/t-fal-514.html",
+        "price": 25800,
+        "shippingFree": true,
+        "point": 0,
         "reviewAverage": null,
-        "reviewCount": null,
-        "shop": null,
-        "checkedAt": "2026-11-10T21:43:26.737Z"
+        "reviewCount": 0,
+        "shop": "ソムリエ@ギフト Yahoo!ショッピング店",
+        "checkedAt": "2026-11-11T21:42:28.217Z"
       },
       "amazon": {
         "keyword": "ティファール EY8228J0",
