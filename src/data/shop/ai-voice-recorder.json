@@ -28,7 +28,7 @@
       "label": "言語数"
     }
   ],
-  "pricesCheckedAt": "2026-11-10T21:43:26.737Z",
+  "pricesCheckedAt": "2026-11-11T21:42:28.217Z",
   "items": [
     {
       "id": "plaud-note-pro",
@@ -81,14 +81,14 @@
           "アプリ",
           "セット"
         ],
-        "url": "https://store.shopping.yahoo.co.jp/softbank-selection/0199284926073.html",
-        "price": 30800,
+        "url": "https://store.shopping.yahoo.co.jp/ecj/22025810.html",
+        "price": 30783,
         "shippingFree": true,
         "point": 0,
-        "reviewAverage": 4.59,
-        "reviewCount": 131,
-        "shop": "トレテク!ソフトバンクセレクション",
-        "checkedAt": "2026-11-10T21:43:26.737Z"
+        "reviewAverage": null,
+        "reviewCount": 0,
+        "shop": "ECJOY!",
+        "checkedAt": "2026-11-11T21:42:28.217Z"
       },
       "amazon": {
         "keyword": "PLAUD NOTE Pro",
@@ -157,7 +157,7 @@
         "reviewAverage": null,
         "reviewCount": 0,
         "shop": "イルーナ本舗",
-        "checkedAt": "2026-11-10T21:43:26.737Z"
+        "checkedAt": "2026-11-11T21:42:28.217Z"
       },
       "amazon": {
         "keyword": "PLAUD NOTE ボイスレコーダー",
@@ -220,7 +220,7 @@
         "reviewAverage": 4.5,
         "reviewCount": 8,
         "shop": "トレテク!ソフトバンクセレクション",
-        "checkedAt": "2026-11-10T21:43:26.737Z"
+        "checkedAt": "2026-11-11T21:42:28.217Z"
       },
       "amazon": {
         "keyword": "PLAUD NotePin S",
@@ -277,7 +277,7 @@
         "reviewAverage": 4.22,
         "reviewCount": 9,
         "shop": "コジマYahoo!店",
-        "checkedAt": "2026-11-10T21:43:26.737Z"
+        "checkedAt": "2026-11-11T21:42:28.217Z"
       },
       "amazon": {
         "keyword": "Notta Memo",
@@ -331,7 +331,7 @@
         "reviewAverage": null,
         "reviewCount": 0,
         "shop": "ヤマダデンキ Yahoo!店",
-        "checkedAt": "2026-11-10T21:43:26.737Z"
+        "checkedAt": "2026-11-11T21:42:28.217Z"
       },
       "amazon": {
         "keyword": "Notta Memo Pro",
@@ -374,7 +374,7 @@
         "reviewAverage": 4.11,
         "reviewCount": 9,
         "shop": "ヤマダデンキ Yahoo!店",
-        "checkedAt": "2026-11-10T21:43:26.737Z"
+        "checkedAt": "2026-11-11T21:42:28.217Z"
       },
       "amazon": {
         "keyword": "オートメモ S AMSWH",
