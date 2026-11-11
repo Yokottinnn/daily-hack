@@ -1,9 +1,25 @@
 {
- "generated": "2026-11-10T21:41:32.488Z",
- "total": 392,
+ "generated": "2026-11-11T21:41:09.741Z",
+ "total": 394,
  "from": 0,
- "to": 392,
+ "to": 394,
  "rows": [
+  {
+   "id": "s00000023341003",
+   "name": "がん保険の専門相談サイト【baby planet（ベビープラネット）】",
+   "reward": "新規無料相談13000円 EPC",
+   "self": false,
+   "point": false,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000027753001",
+   "name": "ニチイグループが誇る安心の家事サポート【サニーメイドサービス】",
+   "reward": "新規問合せ1000円 新規サービス利用2500円",
+   "self": false,
+   "point": false,
+   "listing": "リスティングNG"
+  },
   {
    "id": "s00000023123002",
    "name": "【ウリウリトレカ(ポケカ販売）】",
@@ -3141,5 +3157,5 @@
    "listing": "リスティングNG"
   }
  ],
- "applyingCount": 129
+ "applyingCount": 123
 }
