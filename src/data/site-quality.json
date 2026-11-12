@@ -1,0 +1,5 @@
+{
+  "_note": "AdSense「有用性の低いコンテンツ」（2026-11-12 不承認）への対策の設定。切り戻すときは tagIndexMinPosts を 0 に、sitemapExclude を [] にする（ファイルごと元に戻してもよい）。tagIndexMinPosts: 記事がこの本数より少ないタグのページは noindex にしてサイトマップから外す（湾岸の地区・湾岸ニュースのタグは 1 本以上あれば残す）。ページ自体は残すので、記事のタグのリンクは 404 にならない",
+  "tagIndexMinPosts": 3,
+  "sitemapExclude": ["/drafts/", "/search/"]
+}
