@@ -24,7 +24,7 @@
       "label": "中身"
     }
   ],
-  "pricesCheckedAt": "2026-11-11T21:42:28.217Z",
+  "pricesCheckedAt": "2026-11-12T21:42:17.852Z",
   "items": [
     {
       "id": "kenko-paddle",
@@ -74,7 +74,7 @@
         "reviewAverage": null,
         "reviewCount": null,
         "shop": null,
-        "checkedAt": "2026-11-11T21:42:28.217Z"
+        "checkedAt": "2026-11-12T21:42:17.852Z"
       },
       "amazon": {
         "keyword": "ナガセケンコー KENKO ピックルボールパドル",
@@ -113,14 +113,14 @@
         "exclude": [
           "中古"
         ],
-        "url": "https://store.shopping.yahoo.co.jp/javasports/pb-st-rd.html",
-        "price": 11000,
+        "url": "https://store.shopping.yahoo.co.jp/spg-sports/ken-pbstkny.html",
+        "price": 10340,
         "shippingFree": true,
         "point": 0,
         "reviewAverage": null,
         "reviewCount": 0,
-        "shop": "JAVASPORTS",
-        "checkedAt": "2026-11-11T21:42:28.217Z"
+        "shop": "SPG スポーツパレットゴトウ",
+        "checkedAt": "2026-11-12T21:42:17.852Z"
       },
       "amazon": {
         "keyword": "ナガセケンコー ピックルボール スターターセット",
@@ -166,7 +166,7 @@
         "reviewAverage": null,
         "reviewCount": null,
         "shop": null,
-        "checkedAt": "2026-11-11T21:42:28.217Z"
+        "checkedAt": "2026-11-12T21:42:17.852Z"
       },
       "amazon": {
         "keyword": "ミズノ ピックルボール パドル CALIBER 63GPB690",
@@ -212,7 +212,7 @@
         "reviewAverage": null,
         "reviewCount": 0,
         "shop": "HEDが街にやって来る!",
-        "checkedAt": "2026-11-11T21:42:28.217Z"
+        "checkedAt": "2026-11-12T21:42:17.852Z"
       },
       "amazon": {
         "keyword": "ナガセケンコー PROJECT sante ピックルボール",
