@@ -5,6 +5,7 @@ import Breadcrumb from '../../components/Breadcrumb.astro';
 import PostCard from '../../components/PostCard.astro';
 import AboutCard from '../../components/AboutCard.astro';
 import { WANGAN_AREAS, WANGAN_NEWS_TAG, upcomingEvents, jpRange, jpDate, todayJst } from '../../lib/wangan';
+import QUALITY from '../../data/site-quality.json';
 
 export async function getStaticPaths() {
   const posts = await getCollection('posts', ({ data }) => !data.draft);
@@ -63,7 +64,7 @@ const ld = wangan
   : null;
 ---
 
-<BaseLayout title={title} description={description} noindex={sorted.length === 0}>
+<BaseLayout title={title} description={description} noindex={sorted.length < (wangan ? 1 : Math.max(1, Number(QUALITY.tagIndexMinPosts) || 0))}>
   {ld && <script slot="head" type="application/ld+json" set:html={JSON.stringify(ld)} />}
   <main class="wrap" style="padding: 48px 0;">
     <Breadcrumb items={wangan ? [

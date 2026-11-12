@@ -57,6 +57,38 @@ function postLastmod() {
 
 const LASTMOD = postLastmod();
 
+/**
+ * サイトマップから外すタグ（2026-11-12・AdSense「有用性の低いコンテンツ」の対策）。
+ * 設定は src/data/site-quality.json。記事が tagIndexMinPosts 本より少ないタグのページは
+ * ページの側でも noindex にしている（src/pages/tags/[tag].astro）。湾岸の地区・湾岸ニュースは 1 本以上で残す。
+ */
+const QUALITY = JSON.parse(readFileSync(join(process.cwd(), 'src/data/site-quality.json'), 'utf-8'));
+function thinTagPaths() {
+  const min = Number(QUALITY.tagIndexMinPosts) || 0;
+  if (min <= 0) return new Set();
+  const wanganSrc = readFileSync(join(process.cwd(), 'src/lib/wangan.ts'), 'utf-8');
+  const keep = new Set([...wanganSrc.matchAll(/\{\s*tag:\s*'([^']+)'/g)].map((m) => m[1]));
+  const news = wanganSrc.match(/WANGAN_NEWS_TAG\s*=\s*'([^']+)'/);
+  if (news) keep.add(news[1]);
+  const dir = join(process.cwd(), 'src/content/posts');
+  /** @type {Record<string, number>} */
+  const count = {};
+  for (const name of readdirSync(dir)) {
+    if (!name.endsWith('.md') && !name.endsWith('.mdx')) continue;
+    const head = readFileSync(join(dir, name), 'utf-8').slice(0, 3000);
+    if (/^draft:\s*true/m.test(head)) continue;
+    const m = head.match(/^tags:\s*\[(.*)\]/m);
+    for (const t of m ? [...m[1].matchAll(/"([^"]+)"/g)].map((x) => x[1]) : []) count[t] = (count[t] || 0) + 1;
+  }
+  const out = new Set();
+  for (const t of keep) if (!count[t]) out.add(`/tags/${t}/`);   // 記事がまだ無い湾岸の地区（ページは noindex）
+  for (const [t, n] of Object.entries(count)) if (n < (keep.has(t) ? 1 : min)) out.add(`/tags/${t}/`);
+  return out;
+}
+const THIN_TAGS = thinTagPaths();
+/** @type {string[]} */
+const SITEMAP_EXCLUDE = Array.isArray(QUALITY.sitemapExclude) ? QUALITY.sitemapExclude : [];
+
 export default defineConfig({
   site: 'https://daily-hack.fieldbeside.com',
   vite: {
@@ -65,7 +97,14 @@ export default defineConfig({
   integrations: [
     sitemap({
       // 湾岸マップの外側を画像に焼くための作業用ページは載せない（2026-11-07）
-      filter: (page) => !page.includes('/wangan-map-bake/'),
+      // 記事の少ないタグ・下書き一覧・サイト内検索も載せない（2026-11-12・src/data/site-quality.json）
+      filter: (page) => {
+        if (page.includes('/wangan-map-bake/')) return false;
+        let path = new URL(page).pathname;
+        try { path = decodeURIComponent(path); } catch {}
+        if (SITEMAP_EXCLUDE.some((x) => path === x)) return false;
+        return !THIN_TAGS.has(path);
+      },
       serialize(item) {
         const path = new URL(item.url).pathname;
         const lastmod = LASTMOD[path];
