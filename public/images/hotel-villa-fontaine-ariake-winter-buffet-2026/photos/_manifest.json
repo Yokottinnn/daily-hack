@@ -1,0 +1,20 @@
+{
+ "buffet.jpg": {
+  "src": "https://prcdn.freetls.fastly.net/release_image/69368/173/69368-173-0ec2c4ab917d799b1e1db98fb0168663-3648x2432.jpg",
+  "page": "https://prtimes.jp/main/html/rd/p/000000173.000069368.html",
+  "credit": "住友不動産ヴィラフォンテーヌのプレスリリース（提供イメージ）",
+  "fetched": "2026-11-13"
+ },
+ "beef.jpg": {
+  "src": "https://prcdn.freetls.fastly.net/release_image/69368/173/69368-173-6619e677e60bc99ddc633037813907f7-3648x2433.jpg",
+  "page": "https://prtimes.jp/main/html/rd/p/000000173.000069368.html",
+  "credit": "住友不動産ヴィラフォンテーヌのプレスリリース（提供イメージ）",
+  "fetched": "2026-11-13"
+ },
+ "malatang.jpg": {
+  "src": "https://prcdn.freetls.fastly.net/release_image/69368/173/69368-173-77dcb36096f2a2c83a2d08062e76ecf6-3648x2433.jpg",
+  "page": "https://prtimes.jp/main/html/rd/p/000000173.000069368.html",
+  "credit": "住友不動産ヴィラフォンテーヌのプレスリリース（提供イメージ）",
+  "fetched": "2026-11-13"
+ }
+}

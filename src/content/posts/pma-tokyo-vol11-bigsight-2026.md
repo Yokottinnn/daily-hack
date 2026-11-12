@@ -3,7 +3,7 @@ title: "PMA TOKYO Vol.11｜2026年11月14日（土）東京ビッグサイトで
 description: "東京国際プロジェクションマッピングアワード「PMA TOKYO Vol.11」は2026年11月14日（土）16:30開場・17:30開始。有明の東京ビッグサイト会議棟（横94m×縦30m）に27作品を映す。入場無料・予約不要。開業30周年でソニックとぷよぷよの企画もある。"
 publishDate: 2026-11-12
 category: ["wangan-life"]
-tags: ["湾岸ニュース", "有明", "東京ビッグサイト", "プロジェクションマッピング", "無料", "イベント", "2026年"]
+tags: ["湾岸ニュース", "有明", "無料", "イベント", "2026年"]
 isPR: true
 draft: false
 eyecatchUrl: "/images/pma-tokyo-vol11-bigsight-2026/eyecatch.jpg"

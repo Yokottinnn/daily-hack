@@ -3,7 +3,7 @@ title: "Amazonブラックフライデー2026はいつ？｜開催は11月、日
 description: "Amazonは2026年もブラックフライデーを11月に開くと発表した。開催期間とセールの中身は11月19日（木）の午前中に公開予定。去年（2025年）は詳細の発表が11/14、先行セールが11/21〜23、本番が11/24〜12/1の8日間だった。いまからできる準備も公式の3ステップでまとめた。"
 publishDate: 2026-11-12
 category: ["campaigns", "howto"]
-tags: ["Amazon", "ブラックフライデー", "セール", "Amazonポイント", "プライム", "2026年"]
+tags: ["Amazon", "ブラックフライデー", "セール", "2026年"]
 isPR: true
 draft: false
 eyecatchUrl: "/images/amazon-blackfriday-2026-itsu/eyecatch.jpg"

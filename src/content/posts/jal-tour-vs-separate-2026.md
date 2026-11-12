@@ -3,7 +3,7 @@ title: "JALのツアーと別々の予約、どっちが安い？｜札幌1泊2�
 description: "羽田→札幌12月10日発・1泊2日・2人1室で、J-TRIPのJALツアーと「JALの航空券＋楽天トラベルの宿」を同じ便・同じ宿で比べた。宿5軒すべてでツアーが安く、差は1人1,180〜5,580円。12/24発は41,900円になる。2026年11月10日時点。"
 publishDate: 2026-11-11
 category: ["comparisons"]
-tags: ["JAL", "J-TRIP", "国内ツアー", "札幌", "楽天トラベル", "ダイナミックパッケージ", "格安航空券", "2026年"]
+tags: ["JAL", "楽天トラベル", "格安航空券", "2026年"]
 isPR: true
 draft: false
 eyecatchUrl: "/images/jal-tour-vs-separate-2026/eyecatch.jpg"
