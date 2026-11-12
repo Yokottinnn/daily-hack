@@ -1,0 +1,11 @@
+{
+ "amazon.png": {
+  "brand": "Amazon.co.jp",
+  "source": "https://www.pointtown.com/ 上の Amazon ロゴ",
+  "page": "https://www.pointtown.com/ 上の Amazon ロゴ",
+  "fetched": "2026-09-20",
+  "license_note": "商標。識別目的で使用",
+  "task": "ops/tasks/t130-*.sh",
+  "copied_from": "public/images/yodobashi-vs-amazon-rakuten-2026/logos/amazon.png"
+ }
+}
