@@ -1197,6 +1197,27 @@ try {
     });
     lines.push(`## 広告の行（${rows.length} 件）`, '', ...rows.filter(([t]) => !NG.test(t)).map(([t, st, h]) => `- ${t.replace(/\|/g, '／')}［${st || '表示なし'}］ — ${h}`), '');
   }
+  if (WHICH === 'resultshape') {
+    // **読むだけ・数字は伏せる（2026-11-12）。** 利用者のコメント「Amazonも追加してよ」「報酬金額だけじゃなくて発生売上も取得して」。
+    // ① A8 のレポートのメニュー（「レポート」を含むリンク）と、各画面の表の見出し（売上の列があるか）② Amazon アソシエイトのホームの文字の並び
+    const hideN = (x) => String(x).replace(/[0-9０-９][0-9０-９,，.]*/g, '#');
+    const heads = async () => p.evaluate(() => [...document.querySelectorAll('table')].filter((t) => t.getBoundingClientRect().height > 0).slice(0, 4).map((t) => [...t.querySelectorAll('thead th, tr:first-child th')].map((x) => x.innerText.replace(/\s+/g, ' ').trim()).slice(0, 20).join(' | ')));
+    const top = 'https://media-console.a8.net/report/program/summary';
+    await go(top); await a8Reauth(p, top);
+    const menu = (await links(/レポート|売上|成果/)).filter(([, h]) => /media-console\.a8\.net\/report/.test(h));
+    lines.push(`## A8 のレポートのメニュー（${menu.length} 件）`, '', ...menu.map(([t, h]) => `- ${t} — ${h.replace(/\?.*$/, '')}`), '');
+    const seen = new Set();
+    for (const [t, h] of menu) {
+      const u = h.replace(/#.*$/, ''); if (seen.has(u) || seen.size >= 10) continue; seen.add(u);
+      await go(u); await a8Reauth(p, u);
+      const hs = await heads();
+      lines.push(`### 「${t}」（${here()}）`, ...(hs.length ? hs.map((x, i) => `- 表 ${i + 1}: ${hideN(x)}`) : ['- 表なし']), `- 「売上」を含む文字: ${(await p.evaluate(() => [...new Set((document.body.innerText || '').split('\n').map((x) => x.trim()).filter((x) => /売上/.test(x) && x.length < 40))].slice(0, 8))).map(hideN).join('／') || 'なし'}`, '');
+    }
+    await go('https://affiliate.amazon.co.jp/home');
+    const atxt = await p.evaluate(() => (document.body.innerText || '').split('\n').map((x) => x.trim()).filter(Boolean).slice(0, 200));
+    lines.push(`## Amazon アソシエイトのホーム（${here()}・数字は伏せる）`, '', ...atxt.filter((x) => !NG.test(x)).slice(0, 120).map((x) => `- ${hideN(x).slice(0, 120)}`), '');
+    lines.push('## Amazon のホームの「レポート」を含むリンク', '', ...(await links(/レポート|収益|紹介料/)).map(([t, h]) => `- ${t} — ${String(h).replace(/\?.*$/, '')}`), '');
+  }
   if (WHICH === 'vccpc2') {
     // **読むだけ（t587）。** t586 は URL に条件を付けても 0 件・件数の表示なしだった。画面で「クリック報酬（CPC）」を選んで検索ボタンを押し、出た画面の文をそのまま読む
     await go('https://aff.valuecommerce.ne.jp/ad/adList');
