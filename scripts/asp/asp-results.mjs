@@ -21,10 +21,13 @@ process.on('unhandledRejection', (e) => { lines.push(`- ⚠️ 未処理のエ�
 
 // asp-sync のメニューにあった入口（reports/.sync/asp-sync/*.md）。VC ともしもは「レポート」の文字のリンクを辿る
 const ENTRY = [
-  { id: 'a8', name: 'A8.net', urls: ['https://media-console.a8.net/report/program/summary', 'https://media-console.a8.net/report/confirmed/program'] },
+  // 2026-11-12: 利用者「報酬金額だけじゃなくて発生売上も取得して」。A8 で売上（注文金額）の列があるのは「成果別（確定）」だけ（t612 で確かめた）
+  { id: 'a8', name: 'A8.net', urls: ['https://media-console.a8.net/report/program/summary', 'https://media-console.a8.net/report/confirmed/program', 'https://media-console.a8.net/report/confirmed/result'] },
   // 2026-11-06: 楽天で初の発生（未確定 1 件）。何がどの店で買われたかを見るため、サマリの画面から「注文明細」「ショップ別」「成果報酬・確定実績」も辿る（利用者「159円の報酬が発生しているみたいだけど、これなに？」）
   { id: 'rakuten', name: '楽天アフィリエイト', urls: ['https://affiliate.rakuten.co.jp/report/summary'], tabs: ['注文明細', 'ショップ別', '成果報酬・確定実績'] },
   { id: 'vc', name: 'バリューコマース', top: 'https://aff.valuecommerce.ne.jp/', link: /^レポート$/ },
+  // 2026-11-12: 利用者「Amazonも追加してよ」。ホームの「今月のレポート」（クリック・注文済み・発送済み・紹介料）と、ホームのリンクにある「売上レポート」（t612 で確かめた）
+  { id: 'amazon', name: 'Amazon アソシエイト', urls: ['https://affiliate.amazon.co.jp/home', 'https://affiliate.amazon.co.jp/home/reports'] },
   // もしもは 2026-11-02 にメディア登録が削除され、利用者の判断で放置（読まない）
 ];
 
