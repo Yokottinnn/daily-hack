@@ -1378,8 +1378,8 @@ tr[data-ccount]::after{top:4px;right:4px}
     const R=RESULTS;
     if(!R||!(R.rows||[]).length){ box.innerHTML='<p class="note" data-cid="now.aff.results.wait">ASP の管理画面のレポート（クリック・発生・確定）を Mac が毎日読み、ここに載せる仕組みを affiliate が作っています（2026-10-25）。報酬額は公開リポジトリを通さず、この作戦室の中だけに置きます。</p>'; return; }
     const yen=(n)=>n==null?'—':'¥'+fmtN(n);
-    box.innerHTML='<p class="src">'+esc(R.note||'')+'（'+esc(jst(R.generatedAt,16))+' 取得）</p><div class="tbl"><table><thead><tr><th>ASP</th><th>期間</th><th>クリック</th><th>発生</th><th>発生の報酬</th><th>確定</th><th>確定の報酬</th></tr></thead><tbody>'
-      +R.rows.map(r=>'<tr data-cid="now.aff.res.'+hash(r.asp+r.period)+'"><td><b>'+esc(r.asp)+'</b></td><td>'+esc(r.period||'')+'</td><td class="num">'+fmtN(r.clicks)+'</td><td class="num">'+fmtN(r.occurred)+'</td><td class="num">'+yen(r.occurredAmount)+'</td><td class="num">'+fmtN(r.confirmed)+'</td><td class="num">'+yen(r.confirmedAmount)+'</td></tr>').join('')+'</tbody></table></div>';
+    box.innerHTML='<p class="src">'+esc(R.note||'')+'（'+esc(jst(R.generatedAt,16))+' 取得）</p><div class="tbl"><table><thead><tr><th>ASP</th><th>期間</th><th>クリック</th><th>発生</th><th>発生の報酬</th><th>発生売上（買われた額）</th><th>確定</th><th>確定の報酬</th></tr></thead><tbody>'
+      +R.rows.map(r=>'<tr data-cid="now.aff.res.'+hash(r.asp+r.period)+'"><td><b>'+esc(r.asp)+'</b></td><td>'+esc(r.period||'')+'</td><td class="num">'+fmtN(r.clicks)+'</td><td class="num">'+fmtN(r.occurred)+'</td><td class="num">'+yen(r.occurredAmount)+'</td><td class="num">'+yen(r.sales)+'</td><td class="num">'+fmtN(r.confirmed)+'</td><td class="num">'+yen(r.confirmedAmount)+'</td></tr>').join('')+'</tbody></table></div>';
     applyCounts(); }
   $$('#now-jump button').forEach(b=>b.addEventListener('click',()=>{ const t=$('#'+b.dataset.jump); if(t) t.scrollIntoView({behavior:'smooth',block:'start'}); }));
   // ---- X のフォロワー（2026-10-31 利用者のコメント：点に触れたら即座に日付と人数のチップ・表示する期間は常に 60 日でスクロールで移動・日ごとの表は全期間も開ける） ----
