@@ -86,6 +86,7 @@ function thinTagPaths() {
   return out;
 }
 const THIN_TAGS = thinTagPaths();
+/** @type {string[]} */
 const SITEMAP_EXCLUDE = Array.isArray(QUALITY.sitemapExclude) ? QUALITY.sitemapExclude : [];
 
 export default defineConfig({
