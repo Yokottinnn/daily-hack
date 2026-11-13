@@ -1,1 +1,3 @@
-[]
+[
+      {"task": "x472-read-follow-causes.sh", "rc": 0, "out": "[2026-11-13T02:40:47.808Z] === end: 1/18 OK === [2026-11-13T11:56:01.011Z] === end: 0/18 OK === 179:  log(`=== end: ${ok}/${results.length} OK ===`);"}
+  ]
