@@ -5,6 +5,12 @@ on:
     branches: [main]
   push:
     branches: [main]
+  # 湾岸ライフの一覧・地区のページの「今日・明日・今週末」は組み立てた日の日付で決まる。
+  # マージが無い日も毎朝組み直して本番に出す（2026-11-13 利用者がダイアログで選んだ）。
+  # 15:05 UTC = 00:05 JST。GitHub の予約は数分〜数十分遅れることがある。費用は $0（Actions の無料枠）
+  schedule:
+    - cron: '5 15 * * *'
+  workflow_dispatch:
 
 permissions:
   contents: read
