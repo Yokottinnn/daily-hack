@@ -2,7 +2,7 @@
 title: "新電力おすすめ比較ランキング 2026｜電気代が安い会社6社とガス3社を料金例で比較"
 description: "電気・ガスの固定費、まだ大手のまま放置してるあんた、年間3〜5万円損してる。楽天でんき・ENEOSでんき・オクトパスエナジー他、電気6社＋ガス3社を4人家族モデルで徹底比較。2026年5月の最新条件で選び方フローまでアタシが教えてあげる。"
 publishDate: 2026-05-17
-category: ["comparisons", "howto"]
+category: ["comparisons", "howto", "rankings"]
 parentPillar: "fixed-cost-reduction-guide-2026"
 tags: ["電気代", "ガス代", "新電力", "節約", "比較", "楽天でんき", "ENEOSでんき"]
 isPR: true

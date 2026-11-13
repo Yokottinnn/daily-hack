@@ -2,7 +2,7 @@
 title: "動画サブスク「実質1本単価」ランキング 2026 — 月額が安い＝お得は大間違い"
 description: "Netflix・U-NEXT・Amazon Prime Video・Disney+・Hulu・DAZNを「実質1本単価」で再評価。月3本・8本・20本の3シナリオで最適サービスが逆転する。月額の安さだけで選ぶと損する理由をアタシが解説。"
 publishDate: 2026-06-03
-category: ["comparisons", "howto"]
+category: ["comparisons", "howto", "rankings"]
 tags: ["動画配信サービス", "VOD", "Netflix", "U-NEXT", "Amazonプライムビデオ", "Disney+", "Hulu", "DAZN", "サブスク", "比較"]
 isPR: true
 draft: false

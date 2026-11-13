@@ -28,6 +28,7 @@ const key = keyFile.replace('.txt', '');
 const urls = [
   ...slugs.map((s) => `https://${SITE}/posts/${s}/`),
   `https://${SITE}/category/wangan-life/`,
+  `https://${SITE}/category/rankings/`,
   `https://${SITE}/llms.txt`,
   `https://${SITE}/sitemap-0.xml`,
 ];
