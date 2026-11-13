@@ -3,7 +3,7 @@ title: "歩いてポイ活アプリおすすめランキング2026｜一番稼�
 description: "歩いて貯まるポイ活アプリ20個を「月いくら戻るか」でランキングにした。広告なし・動画なしで貯まるアプリ、PayPayに交換できるアプリ、位置情報を集めるかどうか（安全性）、なぜ歩くだけでお金がもらえるのかの仕組みまで。2026年10月時点の料金・条件に更新。"
 publishDate: 2026-09-13
 updatedDate: 2026-10-05
-category: ["roundups", "comparisons"]
+category: ["roundups", "comparisons", "rankings"]
 tags: ["ポイ活", "歩いてポイ活", "ランキング", "PayPay", "ANA Pocket", "JAL Wellness & Travel", "トリマ", "BitWalk", "ヘルスリー", "Web3", "マイル", "2026年版"]
 isPR: true
 draft: false

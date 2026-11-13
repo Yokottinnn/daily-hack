@@ -12,7 +12,7 @@ import WanganMapGuide from '../../components/WanganMapGuide.astro';
 import { topByPv } from '../../lib/popular';
 
 export async function getStaticPaths() {
-  const cats = ['campaigns', 'services', 'comparisons', 'roundups', 'howto', 'wangan-life'];
+  const cats = ['campaigns', 'services', 'comparisons', 'roundups', 'howto', 'wangan-life', 'rankings'];
   return cats.map((category) => ({
     params: { category },
   }));
@@ -62,6 +62,15 @@ const meta: Record<string, { label: string; h1: string; lead: string; leadLines?
     face: '/images/expr-01-wave-240.webp',
     title: '豊洲・有明・晴海のイベント【今日・明日・今週末】｜湾岸ライフ（毎朝更新）',
     description: '豊洲・有明・晴海・勝どき・月島・築地・お台場で今日・明日・今週末に開いているイベントを毎朝更新。開催日・会場・料金は施設の公式発表とプレスリリースで確かめ、これから開催のイベントも日付順に並べている。',
+  },
+  // 2026-11-13 利用者がダイアログで「ランキングのカテゴリを作る」を選んだ。検索で一番効いているのが「ららぽーと 売上ランキング」などのランキング系（Search Console 90 日の上位のほぼ全部）
+  rankings: {
+    label: 'ランキング',
+    h1: '売上・大きさ・安さのランキング｜公式の数字で並べた',
+    lead: 'ららぽーとの売上、イオンモールの大きさ、アウトレットの売上、モーニングの安さ。決算資料や公式の発表など、出どころの言える数字だけで並べたランキングを集めたわ。',
+    face: '/images/expr-05-smug-240.webp',
+    title: 'ランキングまとめ｜ららぽーと売上・イオンモール大きさ・アウトレット売上など公式の数字で並べた',
+    description: 'ららぽーとの売上ランキング、イオンモールの大きさランキング、アウトレットの売上、モーニングが安いチェーン店、ポイ活アプリなど、決算資料や公式の発表の数字だけで並べたランキング記事の一覧。',
   },
 };
 
@@ -209,6 +218,7 @@ for (const p of sorted) {
         <WanganMapGuide posts={sorted} compact />
         <p style="margin: -16px 0 28px; font-size: 14px; font-weight: 700;"><a href="/wangan-map/">来週・今月・来月の一覧、地区ごと・会場ごとのイベントは「湾岸エリアイベントマップ」へ →</a></p>
         <WanganDayEvents events={events} today={today} />
+        <p class="wday-venues">東京ビッグサイト・有明アリーナ・東京ガーデンシアターの今日の予定は<a href="/venues/">有明の会場のスケジュール</a>にまとめてある。</p>
         <div class="sec-head">
           <h2 id="upcoming">これから・開催中の湾岸イベント（{jpDate(today)}時点）</h2>
         </div>

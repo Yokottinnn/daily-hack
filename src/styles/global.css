@@ -83,7 +83,9 @@ button { font-family: inherit; cursor: pointer; border: 0; background: none; pad
 /* **881〜1150px でナビが右に 137px はみ出していた**（2026-09-20 に 1024px で描画して見つけた）。
    880px 以下でしか畳んでいなかったため、**タブレット横（1024px）とノートの狭い画面**が
    丸ごとこの帯に落ちていた。記事ページだけでなく全ページで起きていた。 */
-@media (max-width: 1150px) { .brand .tag { display: none; } .nav { gap: 16px; } .nav a { font-size: 13px; } }
+/* 2026-11-13 ナビに「ランキング」を足したら 1280px で 4px はみ出したので、帯を 1320px まで広げた */
+@media (max-width: 1320px) { .brand .tag { display: none; } .nav { gap: 16px; } .nav a { font-size: 13px; } }
+@media (max-width: 1000px) { .nav { gap: 10px; } .nav a { font-size: 12px; } .nav .cta-mini { padding: 8px 12px; } }
 @media (max-width: 880px) { .brand .tag { display: none; } .nav { gap: 14px; } .nav .item { display: none; } }
 
 /* ============ HERO ============ */

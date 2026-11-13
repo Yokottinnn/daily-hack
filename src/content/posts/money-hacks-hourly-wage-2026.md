@@ -2,7 +2,7 @@
 title: "お得施策の「本当の時給」ランキング 2026｜ポイ活・ふるさと納税・クレカで一番割がいいのは"
 description: "得した金額÷かかった手間時間＝実質時給。ポイ活・ふるさと納税・クレカ入会特典・証券&FX口座開設・セルフバックを時給換算でランキング。最低賃金以下の低時給ポイ活と、時給数万円の神案件をアタシが仕分けする。"
 publishDate: 2026-06-03
-category: ["comparisons", "howto", "campaigns"]
+category: ["comparisons", "howto", "campaigns", "rankings"]
 tags: ["ポイ活", "ふるさと納税", "クレジットカード", "時給", "節約", "セルフバック", "口座開設", "比較"]
 isPR: false
 draft: false

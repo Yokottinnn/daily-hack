@@ -1,0 +1,66 @@
+---
+/**
+ * 会場 1 つ分の「今日・明日・今週末・これから」（2026-11-13）。/venues/ と /venues/<会場>/ で使う。
+ */
+import { jpDate, jpRange } from '../lib/wangan';
+import { venueDays, type Venue, type VenueEvent } from '../lib/venues';
+interface Props { venue: Venue; today: string; full?: boolean; headingLevel?: 2 | 3 }
+const { venue, today, full = true, headingLevel = 2 } = Astro.props;
+const b = venueDays(venue.events, today);
+const groups = [
+  { id: 'today', title: `今日・${jpDate(b.today)}`, list: b.todayList },
+  { id: 'tomorrow', title: `明日・${jpDate(b.tomorrow)}`, list: b.tomorrowList },
+  { id: 'weekend', title: `今週末・${jpRange(b.sat, b.sun)}`, list: b.weekendList },
+];
+const H = headingLevel === 2 ? 'h2' : 'h3';
+const label = (e: VenueEvent) => (venue.key !== 'bigsight' && e.sub && e.sub !== e.name ? `${e.name}（${e.sub}）` : e.name);
+---
+<div class="vday">
+  {groups.map((g) => (
+    <section class="vday-g">
+      <H id={`${venue.key}-${g.id}`}>{g.title}の{venue.name}</H>
+      {g.list.length > 0 ? (
+        <ul>
+          {g.list.map((e) => (
+            <li>
+              {e.url ? <a href={e.url} target="_blank" rel="noopener nofollow">{label(e)}</a> : <b>{label(e)}</b>}
+              <span>{[jpRange(e.start, e.end), e.place, e.kind].filter(Boolean).join('・')}</span>
+            </li>
+          ))}
+        </ul>
+      ) : (
+        <p class="vday-none">公式の一覧に、この日のイベントは載っていない。</p>
+      )}
+    </section>
+  ))}
+</div>
+{full && (
+  <section class="vlist">
+    <H id={`${venue.key}-upcoming`}>{venue.name}のこれから30日の予定</H>
+    <div class="cmp-table-wrap">
+      <table class="cmp-table prose-table">
+        <thead><tr><th>日付</th><th>イベント</th><th>{venue.key === 'bigsight' ? 'ホール・入場' : '時間・種類'}</th></tr></thead>
+        <tbody>
+          {b.upcoming.map((e) => (
+            <tr>
+              <td>{jpRange(e.start, e.end)}</td>
+              <td>{e.url ? <a href={e.url} target="_blank" rel="noopener nofollow">{e.name}</a> : e.name}{e.sub && e.sub !== e.name && <span class="cell-sub">{e.sub}</span>}</td>
+              <td>{[e.place, e.kind].filter(Boolean).join('・')}{(e.hours || e.fee) && <span class="cell-sub">{[e.hours, e.fee].filter(Boolean).join('／').slice(0, 120)}</span>}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  </section>
+)}
+<style>
+  .vday { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 12px; margin: 0 0 24px; }
+  .vday-g { padding: 14px 16px; border: 1px solid var(--pink-200); border-radius: 14px; background: #fff; }
+  .vday-g h2, .vday-g h3 { font-size: 16px; margin: 0 0 8px; }
+  .vday-g ul { margin: 0; padding-left: 18px; line-height: 1.7; }
+  .vday-g li a, .vday-g li b { font-weight: 800; border-bottom: 1px dotted var(--pink-300); overflow-wrap: anywhere; }
+  .vday-g li span { display: block; font-size: 12px; color: var(--ink-3); }
+  .vday-none { margin: 0; font-size: 13px; color: var(--ink-3); }
+  .vlist h2, .vlist h3 { margin: 8px 0 12px; }
+  .vlist td { overflow-wrap: anywhere; }
+</style>

@@ -2,7 +2,7 @@
 title: "全国アウトレット徹底比較 2026｜32施設を運営会社で並べた。売上日本一は御殿場、店舗数日本一は木更津"
 description: "日本のアウトレットモール全32施設（日本SC協会）を、三井・三菱地所サイモン・イオン・西武ほか運営会社ごとに全部並べた。売上日本一が御殿場（1,409億で全SCトップ）という事実、2大勢力の哲学の違い、なぜ安いのかの仕組み、閉業した施設まで。"
 publishDate: 2026-08-11
-category: ["roundups", "comparisons"]
+category: ["roundups", "comparisons", "rankings"]
 tags: ["アウトレット", "アウトレットモール", "三井アウトレットパーク", "プレミアムアウトレット", "御殿場", "木更津", "軽井沢", "売上ランキング", "2026年版"]
 draft: false
 eyecatchUrl: "/images/outlet-mall-guide-2026/eyecatch.jpg"

@@ -2,7 +2,7 @@
 title: "ららぽーと売上ランキング 2026｜全20施設を決算資料で並べた（面積・店舗数つき）"
 description: "売上トップはららぽーとじゃない。三井不動産の決算資料から全20施設の売上ランキングを作り、大きさ（面積）・店舗数のランキングもつけた。売上を面積で割った売上効率ランキングでは、売上2位のTOKYO-BAYが7位に落ちる。横浜が110億円減った理由まで。"
 publishDate: 2026-08-09
-category: ["roundups", "comparisons"]
+category: ["roundups", "comparisons", "rankings"]
 tags: ["ららぽーと", "三井ショッピングパーク", "三井不動産", "ショッピングモール", "売上ランキング", "リニューアル", "ラゾーナ川崎", "TOKYO-BAY", "2026年版"]
 draft: false
 eyecatchUrl: "/images/lalaport-guide-2026/eyecatch-2026-10-31.jpg"
