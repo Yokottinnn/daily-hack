@@ -28,7 +28,7 @@
       "label": "翻訳"
     }
   ],
-  "pricesCheckedAt": "2026-11-12T21:42:17.852Z",
+  "pricesCheckedAt": "2026-11-13T21:42:07.148Z",
   "items": [
     {
       "id": "ray-ban-meta-gen3",
@@ -71,14 +71,14 @@
           "中古",
           "互換"
         ],
-        "url": "https://store.shopping.yahoo.co.jp/thats-net/rw4011-690571-53.html",
+        "url": "https://store.shopping.yahoo.co.jp/glassmania/rayban-meta-sg-rw4011-601ssb.html",
         "price": 78980,
         "shippingFree": true,
         "point": 0,
         "reviewAverage": null,
         "reviewCount": 0,
-        "shop": "メガネ・サングラスのThats",
-        "checkedAt": "2026-11-12T21:42:17.852Z"
+        "shop": "グラスマニア Tokyo Aoyama",
+        "checkedAt": "2026-11-13T21:42:07.148Z"
       },
       "amazon": {
         "keyword": "Ray-Ban Meta Gen3",
@@ -131,7 +131,7 @@
         "reviewAverage": null,
         "reviewCount": 0,
         "shop": "リファン Yahoo!ショップ",
-        "checkedAt": "2026-11-12T21:42:17.852Z"
+        "checkedAt": "2026-11-13T21:42:07.148Z"
       },
       "amazon": {
         "keyword": "Ray-Ban Meta Optics",
@@ -182,7 +182,7 @@
         "reviewAverage": null,
         "reviewCount": 0,
         "shop": "リファン Yahoo!ショップ",
-        "checkedAt": "2026-11-12T21:42:17.852Z"
+        "checkedAt": "2026-11-13T21:42:07.148Z"
       },
       "amazon": {
         "keyword": "Oakley Meta HSTN",
@@ -252,14 +252,14 @@
           "Style",
           "RV203"
         ],
-        "url": "https://store.shopping.yahoo.co.jp/onesmart/6976057790284.html",
-        "price": 109890,
-        "shippingFree": true,
-        "point": 0,
+        "url": null,
+        "price": null,
+        "shippingFree": null,
+        "point": null,
         "reviewAverage": null,
-        "reviewCount": 0,
-        "shop": "ワンズマートYahoo!ショッピング店",
-        "checkedAt": "2026-11-12T21:42:17.852Z"
+        "reviewCount": null,
+        "shop": null,
+        "checkedAt": "2026-11-13T21:42:07.148Z"
       },
       "amazon": {
         "keyword": "Rokid スマートAIグラス",
