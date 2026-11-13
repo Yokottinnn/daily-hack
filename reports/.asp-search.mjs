@@ -93,8 +93,8 @@ const ALL = [];
   console.log(`a8: ${KW.length} 語`);
 }
 
-// ---- もしも: 提携中の一覧 ----
-if (Date.now() - T0 < BUDGET * 0.8) {
+// ---- もしも: 提携中の一覧 ----（2026-11-02 に放置と決めたので MOSHIMO_OFF=1 で飛ばす）
+if (!process.env.MOSHIMO_OFF && Date.now() - T0 < BUDGET * 0.8) {
   const lines = ['# もしもアフィリエイト 提携中（asp-search）', '', `生成: **${new Date().toISOString()}**`, ''];
   await p.goto('https://af.moshimo.com/af/shop/promotion/search?apply_status=2', { waitUntil: 'domcontentloaded', timeout: 25000 }).catch(() => {});
   await p.waitForTimeout(3000);

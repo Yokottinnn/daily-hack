@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-12T16:07:18.655Z",
+  "generated": "2026-11-13T16:12:05.558Z",
   "providers": {
     "a8": {
       "name": "A8.net",
@@ -83,6 +83,63 @@
       ],
       "partnered": 100,
       "menus": 40
+    },
+    "vc": {
+      "name": "バリューコマース",
+      "loggedIn": true,
+      "needsHuman": false,
+      "credentialsInKeychain": true,
+      "reason": "",
+      "autoLoginTried": true,
+      "url": "https://aff.valuecommerce.ne.jp/home",
+      "title": "ダッシュボード | アフィリエイト管理画面",
+      "loginSteps": [
+        {
+          "label": "パスワードを打った直後",
+          "url": "https://aff.valuecommerce.ne.jp/",
+          "ins": [
+            "email:login_form[emailAddress]=24文字",
+            "password:login_form[encryptedPasswd]=15文字",
+            "checkbox:login_form[remember]=1文字"
+          ],
+          "msgs": [],
+          "btns": [
+            "button「ログイン」",
+            "a「パスワードをリセット」",
+            "a「個人情報保護方針」",
+            "a「管理画面ガイド」",
+            "a「ヘルプ」",
+            "a「ステップアップガイド」",
+            "a「イベント・セミナー情報」",
+            "a「特集・キャンペーン」",
+            "a「よくあるご質問」",
+            "a「お問い合わせ」",
+            "a「アフィリエイトサイト運営者利用規」",
+            "a「アフィリエイト運営ポリシー」"
+          ]
+        },
+        {
+          "label": "パスワードを送ったあと",
+          "url": "https://aff.valuecommerce.ne.jp/mfa/promotion",
+          "ins": [],
+          "msgs": [],
+          "btns": [
+            "a「後で設定」",
+            "a「2要素認証を有効化」"
+          ]
+        },
+        {
+          "label": "さらに 4 秒後",
+          "url": "https://aff.valuecommerce.ne.jp/mfa/promotion",
+          "ins": [],
+          "msgs": [],
+          "btns": [
+            "a「後で設定」",
+            "a「2要素認証を有効化」"
+          ]
+        }
+      ],
+      "menus": 23
     }
   }
 }
