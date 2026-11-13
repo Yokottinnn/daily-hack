@@ -5,6 +5,7 @@ import Breadcrumb from '../../components/Breadcrumb.astro';
 import PostCard from '../../components/PostCard.astro';
 import AboutCard from '../../components/AboutCard.astro';
 import { WANGAN_AREAS, WANGAN_NEWS_TAG, upcomingEvents, jpRange, jpDate, todayJst } from '../../lib/wangan';
+import WanganDayEvents from '../../components/WanganDayEvents.astro';
 import QUALITY from '../../data/site-quality.json';
 
 export async function getStaticPaths() {
@@ -35,12 +36,12 @@ const today = todayJst();
 const events = wangan ? upcomingEvents(sorted, today) : [];
 const site = Astro.site!.toString().replace(/\/$/, '');
 const title = area
-  ? `${tag}（${area.ward}）のイベント・ニュース・暮らし｜湾岸ライフ`
+  ? `${tag}のイベント【今日・明日・今週末】｜${area.ward}${tag}の湾岸ライフ（毎朝更新）`
   : isNews
     ? '湾岸ニュース｜晴海・豊洲・有明・勝どき・月島のイベントと開業（毎朝更新）'
     : `#${tag} の記事一覧`;
 const description = area
-  ? `東京都${area.ward}${tag}の記事一覧。${area.lead}を、施設の公式発表とプレスリリースで確かめてまとめている。これから開催のイベントは${events.length}件。`
+  ? `${tag}（東京都${area.ward}）で今日・明日・今週末に開いているイベントを毎朝更新。${area.lead}を、施設の公式発表とプレスリリースで確かめてまとめている。これから開催のイベントは${events.length}件。`
   : isNews
     ? `中央区（晴海・勝どき・月島・築地）と江東区（豊洲・有明・お台場）のイベント・開業・生活の変化を毎朝まとめる湾岸ニュースの一覧。いまは${sorted.length}本、これから開催のイベントは${events.length}件。`
     : `「${tag}」タグが付いた Daily Hack の記事一覧。`;
@@ -75,8 +76,9 @@ const ld = wangan
       { label: 'ホーム', href: '/' },
       { label: `#${tag}` },
     ]} />
-    <h1 style="font-family: 'RocknRoll One'; font-size: clamp(28px, 4vw, 40px); margin: 14px 0 8px;">{area ? `${tag}（${area.ward}）のイベントと暮らし` : isNews ? '湾岸ニュース' : `#${tag}`}</h1>
+    <h1 style="font-family: 'RocknRoll One'; font-size: clamp(28px, 4vw, 40px); margin: 14px 0 8px;">{area ? `${tag}の今日・今週末のイベント（${area.ward}）` : isNews ? '湾岸ニュース' : `#${tag}`}</h1>
     {wangan && <p style="color: var(--ink-2); font-size: 15px; margin: 0 0 12px;">{description}</p>}
+    {area && <WanganDayEvents events={events} today={today} place={tag} />}
     {events.length > 0 && (
       <section style="margin: 8px 0 28px;">
         <h2 style="font-size: 20px; margin: 0 0 10px;">これから・開催中のイベント（{jpDate(today)}時点）</h2>

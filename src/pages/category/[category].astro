@@ -5,6 +5,7 @@ import Breadcrumb from '../../components/Breadcrumb.astro';
 import PostCard from '../../components/PostCard.astro';
 import AboutCard from '../../components/AboutCard.astro';
 import { postBelongsToCategory, type CategorySlug } from '../../lib/category';
+import WanganDayEvents from '../../components/WanganDayEvents.astro';
 import { WANGAN_AREAS, WANGAN_NEWS_TAG, upcomingEvents, jpRange, jpDate, todayJst } from '../../lib/wangan';
 import WanganEventMap from '../../components/WanganEventMap.astro';
 import WanganMapGuide from '../../components/WanganMapGuide.astro';
@@ -52,14 +53,15 @@ const meta: Record<string, { label: string; h1: string; lead: string; leadLines?
   },
   'wangan-life': {
     label: '湾岸ライフ',
-    h1: '晴海・豊洲・有明から届ける湾岸ライフのリアル',
+    // 2026-11-13 利用者がダイアログで「題名と見出しに今日・今週末」を選んだ（検索候補「豊洲 イベント 今日／今週末」）
+    h1: '豊洲・有明・晴海の今日・今週末のイベント｜湾岸ライフ',
     // 対象は中央区（晴海・勝どき・月島・築地・佃・豊海）と江東区（豊洲・有明・東雲・辰巳・お台場＝江東区青海）だけ（2026-11-03 築地を追加・青海をお台場の名前に）。港区・品川区は扱わない（2026-10-24 利用者の指示）
     lead: 'アタシが住んでる中央区晴海から発信。晴海・勝どき・月島・築地（中央区）と豊洲・有明・お台場（江東区）のイベント・開業・暮らしを、施設の公式発表とプレスリリースだけで毎朝まとめてるわ。',
     // 画面に出すときの改行（意味の切れ目で折る。2026-11-07 利用者「改行が変なので、このページのコンテンツに合うようにちゃんと改行して」）
     leadLines: [['アタシが住んでる', '中央区晴海から発信。'], ['晴海・', '勝どき・', '月島・', '築地（中央区）と、', '豊洲・', '有明・', 'お台場（江東区）の'], ['イベント・', '開業・', '暮らしを、', '施設の公式発表と', 'プレスリリースだけで', '毎朝まとめてるわ。']],
     face: '/images/expr-01-wave-240.webp',
-    title: '湾岸ライフ｜晴海・豊洲・有明・勝どき・月島のイベントと暮らし（毎朝更新）',
-    description: '中央区（晴海・勝どき・月島・築地）と江東区（豊洲・有明・お台場）のイベント・開業・暮らしの記事一覧。開催日・会場・料金を施設の公式発表とプレスリリースで確かめ、毎朝更新。これから開催のイベントを日付順に並べている。',
+    title: '豊洲・有明・晴海のイベント【今日・明日・今週末】｜湾岸ライフ（毎朝更新）',
+    description: '豊洲・有明・晴海・勝どき・月島・築地・お台場で今日・明日・今週末に開いているイベントを毎朝更新。開催日・会場・料金は施設の公式発表とプレスリリースで確かめ、これから開催のイベントも日付順に並べている。',
   },
 };
 
@@ -206,6 +208,7 @@ for (const p of sorted) {
         <div style="height: 12px;"></div>
         <WanganMapGuide posts={sorted} compact />
         <p style="margin: -16px 0 28px; font-size: 14px; font-weight: 700;"><a href="/wangan-map/">来週・今月・来月の一覧、地区ごと・会場ごとのイベントは「湾岸エリアイベントマップ」へ →</a></p>
+        <WanganDayEvents events={events} today={today} />
         <div class="sec-head">
           <h2 id="upcoming">これから・開催中の湾岸イベント（{jpDate(today)}時点）</h2>
         </div>
