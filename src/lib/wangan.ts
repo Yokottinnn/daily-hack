@@ -96,3 +96,36 @@ export function splitJpAddress(address: string): { region?: string; locality?: s
   if (!m) return { street: address };
   return { region: m[1] ?? '東京都', locality: m[2], street: m[3] || address };
 }
+
+/** `YYYY-MM-DD` に日数を足す（日本時間の日付として扱う） */
+export function addDays(s: string, n: number): string {
+  const [y, m, d] = day(s).split('-').map(Number);
+  return new Date(Date.UTC(y, m - 1, d + n)).toISOString().slice(0, 10);
+}
+
+/** 今週末（土日）。今日が土曜なら今日と明日、日曜なら昨日と今日 */
+export function thisWeekend(today = todayJst()): { sat: string; sun: string } {
+  const [y, m, d] = today.split('-').map(Number);
+  const w = new Date(Date.UTC(y, m - 1, d)).getUTCDay();
+  const sat = w === 0 ? addDays(today, -1) : addDays(today, 6 - w);
+  return { sat, sun: addDays(sat, 1) };
+}
+
+/**
+ * 今日・明日・今週末に開いているイベント（2026-11-13 利用者がダイアログで「題名と見出しに今日・今週末」「今日・明日の節を足す」を選んだ）。
+ * Google の検索候補で地区名＋「イベント 今日／明日／今週末」が多かったため。判定はビルドした日（日本時間）
+ */
+export function eventsByDay(events: UpcomingEvent[], today = todayJst()) {
+  const tomorrow = addDays(today, 1);
+  const { sat, sun } = thisWeekend(today);
+  const on = (e: UpcomingEvent, a: string, b = a) => e.start <= b && a <= e.end;
+  return {
+    today,
+    tomorrow,
+    sat,
+    sun,
+    todayList: events.filter((e) => on(e, today)),
+    tomorrowList: events.filter((e) => on(e, tomorrow)),
+    weekendList: events.filter((e) => on(e, sat, sun)),
+  };
+}

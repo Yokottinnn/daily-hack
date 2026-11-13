@@ -1,0 +1,40 @@
+---
+/**
+ * 今日・明日・今週末の湾岸イベント（2026-11-13）。湾岸ライフの一覧と地区のページで使う。
+ * 検索候補「豊洲 イベント 今日／明日／今週末」に合わせた見出し。中身はフロントマターの event: から（ビルドした日で入れ替わる）
+ */
+import { eventsByDay, jpDate, jpRange, type UpcomingEvent } from '../lib/wangan';
+interface Props { events: UpcomingEvent[]; today: string; place?: string }
+const { events, today, place = '湾岸' } = Astro.props;
+const b = eventsByDay(events, today);
+const groups = [
+  { id: 'today', title: `今日（${jpDate(b.today)}）の${place}のイベント`, list: b.todayList },
+  { id: 'tomorrow', title: `明日（${jpDate(b.tomorrow)}）の${place}のイベント`, list: b.tomorrowList },
+  { id: 'weekend', title: `今週末（${jpRange(b.sat, b.sun)}）の${place}のイベント`, list: b.weekendList },
+];
+---
+<div class="wday">
+  {groups.map((g) => (
+    <section class="wday-g">
+      <h2 id={`wday-${g.id}`}>{g.title}</h2>
+      {g.list.length > 0 ? (
+        <ul>
+          {g.list.map((e) => (
+            <li><a href={`/posts/${e.post.id}/`}>{e.name}</a><span>{jpRange(e.start, e.end)}・{e.place}{e.isFree ? '・無料' : ''}</span></li>
+          ))}
+        </ul>
+      ) : (
+        <p class="wday-none">この日に開いているイベントは、まだ載せていない。新しいものは毎朝追加する。</p>
+      )}
+    </section>
+  ))}
+</div>
+<style>
+  .wday { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 12px; margin: 0 0 28px; }
+  .wday-g { padding: 14px 16px; border: 1px solid var(--pink-200); border-radius: 14px; background: #fff; }
+  .wday-g h2 { font-size: 17px; margin: 0 0 8px; }
+  .wday-g ul { margin: 0; padding-left: 18px; line-height: 1.7; }
+  .wday-g li a { font-weight: 800; border-bottom: 1px dotted var(--pink-300); }
+  .wday-g li span { display: block; font-size: 12px; color: var(--ink-3); }
+  .wday-none { margin: 0; font-size: 13px; color: var(--ink-3); }
+</style>
