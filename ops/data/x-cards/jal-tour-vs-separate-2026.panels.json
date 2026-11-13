@@ -1,0 +1,25 @@
+{
+ "_doc": "X 告知の画像。node scripts/gen-x-panels.mjs ops/data/x-cards/jal-tour-vs-separate-2026.panels.json",
+ "_note": "2026-11-13 の候補づくり（blog3 の依頼）。宿の写真は楽天トラベルの施設ページ、JAL 機は CC BY-SA 3.0（Aeroprints.com）。画像の中に出所は出さず ALT に書く",
+ "imageBase": "public/images/jal-tour-vs-separate-2026",
+ "out": "public/images/jal-tour-vs-separate-2026/x",
+ "theme": "ink",
+ "panels": [
+  {
+   "file": "1-compare.jpg",
+   "kind": "html",
+   "noHeader": true,
+   "html": "<div class=\"jw\"><div class=\"jk\">羽田→札幌 12/10発・1泊2日・2人1室（1人あたり）</div><div class=\"jt\">宿5軒、<em>全部ツアーが安い</em></div><div class=\"jh\"><span></span><span>宿</span><span>ツアー</span><span>別々</span><span>ツアーが安い</span></div><div class=\"jr\"><img class=\"jth\" src=\"photos/emisia.jpg\" alt=\"\"><div class=\"jn\">ホテルエミシア札幌</div><div class=\"jv\">33,200</div><div class=\"jv js\">38,780</div><div class=\"jd\">5,580円</div></div><div class=\"jr\"><img class=\"jth\" src=\"photos/newotani.jpg\" alt=\"\"><div class=\"jn\">ニューオータニイン札幌</div><div class=\"jv\">33,700</div><div class=\"jv js\">36,570</div><div class=\"jd\">2,870円</div></div><div class=\"jr\"><img class=\"jth\" src=\"photos/koko.jpg\" alt=\"\"><div class=\"jn\">KOKO HOTEL<br>札幌すすきの</div><div class=\"jv\">33,800</div><div class=\"jv js\">36,480</div><div class=\"jd\">2,680円</div></div><div class=\"jr\"><img class=\"jth\" src=\"photos/longchamp.jpg\" alt=\"\"><div class=\"jn\">ホテル<br>ロンシャンサッポロ</div><div class=\"jv\">32,700</div><div class=\"jv js\">34,180</div><div class=\"jd\">1,480円</div></div><div class=\"jr\"><img class=\"jth\" src=\"photos/resol.jpg\" alt=\"\"><div class=\"jn\">ホテルリソル札幌<br>中島公園</div><div class=\"jv\">33,700</div><div class=\"jv js\">34,880</div><div class=\"jd\">1,180円</div></div><div class=\"jf\">同じJALの便・同じ宿で比べた。別々＝航空券＋楽天トラベルの宿。<br><b>宿代が高い宿ほど、ツアーの得が大きい。</b></div></div>",
+   "css": "main{padding:0;height:1080px;display:block}\n.jw{height:1080px;background:#1E1219;color:#fff;padding:50px 48px;display:flex;flex-direction:column}\n.jk{align-self:flex-start;font-size:28px;font-weight:900;color:#2A1923;background:#F5C518;border-radius:999px;padding:6px 22px}\n.jt{font-size:62px;font-weight:900;line-height:1.2;margin:16px 0 8px}\n.jt em{font-style:normal;color:#EC5C90}\n.jh{display:grid;grid-template-columns:110px 1fr 140px 140px 160px;gap:14px;font-size:24px;color:#cbb;font-weight:700;padding:8px 0;text-align:right}\n.jh span:nth-child(2){text-align:left}\n.jr{display:grid;grid-template-columns:110px 1fr 140px 140px 160px;gap:14px;align-items:center;background:rgba(255,255,255,.07);border-radius:16px;padding:12px;margin-top:12px}\n.jth{width:110px;height:96px;object-fit:cover;border-radius:10px}\n.jn{font-size:27px;font-weight:800;line-height:1.25;word-break:keep-all}\n.jv{font-size:32px;font-weight:800;text-align:right}\n.js{color:#bbb;text-decoration:line-through;text-decoration-thickness:2px}\n.jd{font-size:36px;font-weight:900;color:#F5C518;text-align:right}\n.jf{margin-top:auto;font-size:28px;font-weight:700;color:#eee;line-height:1.45}\n.jf b{color:#F5C518}",
+   "alt": "羽田→札幌12/10発・1泊2日・2人1室の1人あたりの比較。ホテルエミシア札幌はツアー33,200円・別々38,780円で5,580円ツアーが安い。ニューオータニイン札幌は33,700円と36,570円で2,870円。KOKO HOTEL 札幌すすきのは33,800円と36,480円で2,680円。ホテルロンシャンサッポロは32,700円と34,180円で1,480円。ホテルリソル札幌 中島公園は33,700円と34,880円で1,180円。2026年11月10日に読んだ値段。写真：楽天トラベルの各施設ページ"
+  },
+  {
+   "file": "2-plane.jpg",
+   "kind": "html",
+   "noHeader": true,
+   "html": "<div class=\"wrap\"><img class=\"ph\" src=\"photos/jal-777.jpg\" alt=\"\"><div class=\"shade\"></div><div class=\"tx\"><div class=\"k\">別々に買うと、JALの往復だけで</div><div class=\"t\">1人<em>29,280円</em>＝ツアーの9割</div><ul class=\"pts\"><li><b>片道</b>羽田20:30発も新千歳21:15発も14,640円</li><li><b>ツアー</b>基本の代金は1人32,700円</li><li><b>12/24発</b>41,900円。前の日より11,200円高い</li><li><b>取消</b>予約した日の23時までは無料</li></ul></div></div>",
+   "css": "main{padding:0;height:1080px;display:block}\n.wrap{position:relative;height:1080px;color:#fff;background:#1E1219;overflow:hidden}\n.ph{position:absolute;left:0;top:0;width:100%;height:540px;object-fit:cover}\n.shade{position:absolute;left:0;right:0;top:300px;height:242px;background:linear-gradient(180deg,rgba(30,18,25,0),#1E1219 92%)}\n.tx{position:absolute;left:56px;right:56px;top:430px;bottom:56px;display:flex;flex-direction:column}\n.k{align-self:flex-start;font-size:30px;font-weight:900;color:#2A1923;background:#F5C518;border-radius:999px;padding:6px 22px}\n.t{font-size:70px;font-weight:900;line-height:1.2;margin-top:14px;text-shadow:0 2px 12px rgba(0,0,0,.4)}\n.t em{font-style:normal;color:#EC5C90}\n.pts{list-style:none;margin-top:24px;flex:1;display:flex;flex-direction:column;justify-content:center;gap:18px}\n.pts li{font-size:35px;font-weight:700;line-height:1.35;background:rgba(255,255,255,.08);border-left:10px solid #EC5C90;border-radius:14px;padding:15px 22px}\n.pts b{color:#F5C518;margin-right:12px}",
+   "alt": "別々に買うと、JALの往復だけで1人29,280円で、ツアーの基本の代金32,700円の9割。片道は羽田20:30発も新千歳21:15発も14,640円。12/24発のツアーは41,900円で前の日より11,200円高い。ツアーは予約した日の23時までは取消無料。写真：Aeroprints.com（CC BY-SA 3.0、Wikimedia Commons）"
+  }
+ ]
+}

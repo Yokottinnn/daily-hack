@@ -1,0 +1,25 @@
+{
+ "_doc": "X 告知の画像。node scripts/gen-x-panels.mjs ops/data/x-cards/pma-tokyo-vol11-bigsight-2026.panels.json",
+ "_note": "2026-11-13 の候補づくり。素材は blog3 の記事で取ったプレスリリースの画像。出所は ALT に書く",
+ "imageBase": "public/images/pma-tokyo-vol11-bigsight-2026",
+ "out": "public/images/pma-tokyo-vol11-bigsight-2026/x",
+ "theme": "ink",
+ "panels": [
+  {
+   "file": "1-official.jpg",
+   "kind": "html",
+   "noHeader": true,
+   "html": "<div class=\"ey\"><img class=\"bgb\" src=\"photos/kv.jpg\" alt=\"\"><img class=\"fg\" src=\"photos/kv.jpg\" alt=\"\"></div>",
+   "css": "main{padding:0;height:1080px;display:block}\n.ey{position:relative;height:1080px;overflow:hidden;background:#111}\n.bgb{position:absolute;left:-60px;top:-60px;width:1200px;height:1200px;object-fit:cover;filter:blur(34px) brightness(.55)}\n.fg{position:absolute;left:28px;top:28px;width:1024px;height:1024px;object-fit:contain;filter:drop-shadow(0 18px 40px rgba(0,0,0,.45))}",
+   "alt": "PMA TOKYO Vol.11 のキービジュアル（公式）。2026年11月14日（土）16:30開場・17:30開始、東京ビッグサイト会議棟前広場、入場無料。画像：PMA TOKYO実行委員会のプレスリリース"
+  },
+  {
+   "file": "2-point.jpg",
+   "kind": "html",
+   "noHeader": true,
+   "html": "<div class=\"wrap\"><img class=\"ph\" src=\"photos/puyo.jpg\" alt=\"\"><div class=\"shade\"></div><div class=\"tx\"><div class=\"k\">11/14（土）東京ビッグサイト 会議棟前広場</div><div class=\"t\"><em>入場無料</em>・予約なし</div><ul class=\"pts\"><li><b>時間</b>16:30開場・17:30開始</li><li><b>映す面</b>会議棟 横94m×縦30mに27作品</li><li><b>30周年</b>壁いっぱいに巨大ぷよぷよ</li><li><b>無料</b>温かい飲み物（数に限りあり）</li></ul></div></div>",
+   "css": "main{padding:0;height:1080px;display:block}\n.wrap{position:relative;height:1080px;color:#fff;background:#1E1219;overflow:hidden}\n.ph{position:absolute;left:0;top:0;width:100%;height:540px;object-fit:cover}\n.shade{position:absolute;left:0;right:0;top:300px;height:242px;background:linear-gradient(180deg,rgba(30,18,25,0),#1E1219 92%)}\n.tx{position:absolute;left:56px;right:56px;top:430px;bottom:56px;display:flex;flex-direction:column}\n.k{align-self:flex-start;font-size:30px;font-weight:900;color:#2A1923;background:#F5C518;border-radius:999px;padding:6px 22px}\n.t{font-size:70px;font-weight:900;line-height:1.2;margin-top:14px;text-shadow:0 2px 12px rgba(0,0,0,.4)}\n.t em{font-style:normal;color:#EC5C90}\n.pts{list-style:none;margin-top:24px;flex:1;display:flex;flex-direction:column;justify-content:center;gap:18px}\n.pts li{font-size:35px;font-weight:700;line-height:1.35;background:rgba(255,255,255,.08);border-left:10px solid #EC5C90;border-radius:14px;padding:15px 22px}\n.pts b{color:#F5C518;margin-right:12px}",
+   "alt": "PMA TOKYO Vol.11。11月14日（土）東京ビッグサイト会議棟前広場、入場無料・予約なし。16:30開場・17:30開始。会議棟（横94m×縦30m）に27作品を映す。開業30周年の企画で巨大なぷよぷよも。温かい飲み物の無料配布は数に限りあり。画像：PMA TOKYO実行委員会のプレスリリース（ぷよぷよ ©SEGA）"
+  }
+ ]
+}

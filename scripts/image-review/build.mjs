@@ -97,6 +97,10 @@ const FILES = {
   "open-ear-earphone-hikaku-2026": ["1-zero.jpg", "2-table.jpg"],
   "tokyo-culture-debut-park-toyosu-2026": ["1-official.jpg", "2-point.jpg"],
   "tokyo-christmas-market-hikaku-2026": ["1-official.jpg", "2-compare.jpg", "3-mugs.jpg", "4-free.jpg"],
+  "rakuten-marathon-guide-2026": ["1-rule.jpg"],
+  "pma-tokyo-vol11-bigsight-2026": ["1-official.jpg", "2-point.jpg"],
+  "jal-tour-vs-separate-2026": ["1-compare.jpg", "2-plane.jpg"],
+  "amazon-blackfriday-2026-itsu": ["1-official.jpg", "2-point.jpg"],
   "furusato-tax-beginner-guide-2026": ["a1-question.jpg"],
   "poikatsu-hourly-wage-2026": ["a1-compare.jpg"],
 };
