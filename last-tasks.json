@@ -1,1 +1,4 @@
-[]
+[
+      {"task": "t605-portable-power-sources.sh", "rc": 0, "out": " ⚠️ 開けない: Error: page.goto: Navigation to https://www.nite.go.jp/jiko/chuikanki/recall/index.html is interrupted by another navigation to https://w   LLM 不使用。**$0/回**（1 回きり）。買い物はしない。"},
+      {"task": "t606-portable-power-prices.sh", "rc": 0, "out": " shop-prices: 当たり 77 件・エラー 0 件 → /var/folders/qm/dwxlvygj76q_fq054b8jrrr80000gn/T//t606/shop-prices.json - 当たり 77 件 - reports/board/shop-prices.json に置いた rc=0 /    14732 bytes"}
+  ]
