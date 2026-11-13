@@ -197,7 +197,22 @@ Jackery は「70%まで」、Anker の C1000 は「80%まで」で数えてい�
 </table>
 </div>
 
-<p class="source-note">この記事を書いた2026年11月13日の時点では、上の公的な2つのサイトの検索結果をこちらで読み取れていない。買う日に、自分の買う型番で調べて。</p>
+### 2026年11月13日に調べた結果
+
+<div class="table-scroll">
+<table class="prose-table">
+  <thead><tr><th>メーカー</th><th>経済産業省のリコール一覧で見つかったもの</th></tr></thead>
+  <tbody>
+    <tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/portable-power-lfp-2026/logos/jackery.png" alt="" loading="lazy" /><a href="https://www.jackery.jp/" target="_blank" rel="noopener">Jackery</a></span></td><td><strong>名前の出る行は0件</strong></td></tr>
+    <tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/portable-power-lfp-2026/logos/anker.png" alt="" loading="lazy" /><a href="https://www.ankerjapan.com/" target="_blank" rel="noopener">Anker</a></span></td><td><strong>ポータブル電源は0件</strong><span class="cell-sub">アンカー・ジャパンの届け出は充電器・スピーカー・冷蔵庫・掃除機など</span></td></tr>
+    <tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/portable-power-lfp-2026/logos/ecoflow.png" alt="" loading="lazy" /><a href="https://jp.ecoflow.com/" target="_blank" rel="noopener">EcoFlow</a></span></td><td><strong>ポータブル電源の行が4件</strong><span class="cell-sub">2023年10月20日の届け出と、回収開始・対策内容の更新の行</span></td></tr>
+  </tbody>
+</table>
+</div>
+
+EcoFlow の届け出のうち、消費者庁のリコール情報サイトで中身が読めたのは<strong>「EcoFlow RIVER Pro」（型番 EFRIVER600PRO-JP）と専用エクストラバッテリー</strong>。異音とともに発煙する火災が起きたとして、2026年2月5日から回収・交換をしている。対象は2020年11月〜2024年4月に売られた57,000台（エクストラバッテリーは6,600台）。**この記事の5台（DELTA 3 Plus・DELTA 3 Classic）とは別の機種**よ。2023年10月20日の届け出の型番は、一覧からは読めていない。
+
+<p class="source-note">出典：<a href="https://www.meti.go.jp/product_safety/recall/index.html" target="_blank" rel="noopener">経済産業省 リコール情報</a>の一覧の全行と、<a href="https://www.recall.caa.go.jp/result/detail.php?rcl=00000034892&amp;screenkbn=06" target="_blank" rel="noopener">消費者庁 リコール情報サイトの EcoFlow RIVER Pro の詳細</a>（どちらも2026年11月13日に読んだ）。一覧にないことは「安全が保証された」という意味ではない。買う日に、自分の買う型番でもう一度調べて。</p>
 
 ## よくある質問
 
