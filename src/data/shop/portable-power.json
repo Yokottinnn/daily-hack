@@ -1,0 +1,80 @@
+{
+  "id": "portable-power",
+  "title": "ポータブル電源（リン酸鉄・1,000Wh クラス）",
+  "_note": "仕様は各メーカー公式の表記だけ（2026-11-13 に公式ストアのページで確認）。サイクル回数は各社の条件（容量が何%に下がるまでか）が違うので、条件ごと書く。BLUETTI は Mac（t605）で公式を読んでから足す",
+  "columns": [
+    { "key": "wh", "label": "容量" },
+    { "key": "out", "label": "AC 定格出力" },
+    { "key": "cycle", "label": "電池の寿命（公式）" },
+    { "key": "weight", "label": "重さ" },
+    { "key": "list", "label": "公式ストアの価格" }
+  ],
+  "pricesCheckedAt": null,
+  "items": [
+    {
+      "id": "jackery-1000-new-v3",
+      "brand": "Jackery",
+      "name": "Jackery ポータブル電源 1000 New V3（JE-1000G）",
+      "badge": "いちばん軽い",
+      "summary": "1,024Wh で約10.6kg。6台の中でいちばん軽く、サイクルも6,000回（70%まで）といちばん多い。",
+      "recommended": true,
+      "specs": { "wh": "1,024Wh", "out": "1,500W", "cycle": "約6,000回（容量70%まで）", "weight": "約10.6kg", "list": "82,350円（定価109,800円）" },
+      "source": "https://www.jackery.jp/products/explorer-1000-new-v3",
+      "rakuten": { "keyword": "Jackery 1000 New V3 JE-1000G", "must": ["1000", "V3"], "exclude": ["中古", "◆", "並行輸入", "ソーラーパネル", "セット", "Plus", "Pro", "整備済"] },
+      "yahoo": { "keyword": "Jackery 1000 New V3 JE-1000G", "must": ["1000", "V3"], "exclude": ["中古", "◆", "並行輸入", "ソーラーパネル", "セット", "Plus", "Pro", "整備済"] },
+      "amazon": { "keyword": "Jackery ポータブル電源 1000 New V3 JE-1000G", "asin": null }
+    },
+    {
+      "id": "ecoflow-delta-3-plus",
+      "brand": "EcoFlow",
+      "name": "EcoFlow DELTA 3 Plus（EFDELTA3P-JP）",
+      "badge": "容量を足せる",
+      "summary": "専用のバッテリーで最大5kWhまで広げられる。AC 充電は最短56分。",
+      "recommended": false,
+      "specs": { "wh": "1,024Wh（最大5kWh まで拡張）", "out": "1,500W（サージ3,000W）", "cycle": "4,000回以上", "weight": "約12.5kg", "list": "149,600円" },
+      "source": "https://jp.ecoflow.com/products/delta-3-plus-portable-power-station",
+      "rakuten": { "keyword": "EcoFlow DELTA 3 Plus", "must": ["DELTA", "3", "Plus"], "exclude": ["中古", "◆", "並行輸入", "ソーラーパネル", "セット", "エクストラバッテリー", "専用", "ケース", "バッグ", "カバー"] },
+      "yahoo": { "keyword": "EcoFlow DELTA 3 Plus", "must": ["DELTA", "3", "Plus"], "exclude": ["中古", "◆", "並行輸入", "ソーラーパネル", "セット", "エクストラバッテリー", "専用", "ケース", "バッグ", "カバー"] },
+      "amazon": { "keyword": "EcoFlow DELTA 3 Plus ポータブル電源", "asin": null }
+    },
+    {
+      "id": "anker-c1000-gen2",
+      "brand": "Anker",
+      "name": "Anker Solix C1000 Gen 2 Portable Power Station（A1763）",
+      "badge": "新しいモデル",
+      "summary": "2025年10月発売。前のモデルより約1.6kg軽く、電池は4,000回。",
+      "recommended": false,
+      "specs": { "wh": "1,024Wh", "out": "1,550W（瞬間最大2,300W）", "cycle": "4,000回", "weight": "約11.3kg", "list": "129,900円" },
+      "source": "https://www.ankerjapan.com/products/a1763",
+      "rakuten": { "keyword": "Anker Solix C1000 Gen 2", "must": ["C1000", "Gen"], "exclude": ["中古", "◆", "並行輸入", "ソーラーパネル", "セット", "専用", "ケース", "バッグ", "カバー", "BP1000"] },
+      "yahoo": { "keyword": "Anker Solix C1000 Gen 2", "must": ["C1000", "Gen"], "exclude": ["中古", "◆", "並行輸入", "ソーラーパネル", "セット", "専用", "ケース", "バッグ", "カバー", "BP1000"] },
+      "amazon": { "keyword": "Anker Solix C1000 Gen 2 Portable Power Station", "asin": null }
+    },
+    {
+      "id": "anker-c1000",
+      "brand": "Anker",
+      "name": "Anker Solix C1000 Portable Power Station（A1761）",
+      "badge": "前のモデル",
+      "summary": "Gen 2 の前のモデル。容量は1,056Wh と少し大きい。電池は3,000回（容量80%まで）。",
+      "recommended": false,
+      "specs": { "wh": "1,056Wh", "out": "1,500W（SurgePad 2,000W）", "cycle": "3,000回以上（容量80%まで）", "weight": "約12.9kg", "list": "119,900円" },
+      "source": "https://www.ankerjapan.com/products/a1761",
+      "rakuten": { "keyword": "Anker Solix C1000 A1761", "must": ["C1000"], "exclude": ["中古", "◆", "並行輸入", "ソーラーパネル", "セット", "専用", "ケース", "バッグ", "カバー", "Gen", "BP1000", "C1000X"] },
+      "yahoo": { "keyword": "Anker Solix C1000 A1761", "must": ["C1000"], "exclude": ["中古", "◆", "並行輸入", "ソーラーパネル", "セット", "専用", "ケース", "バッグ", "カバー", "Gen", "BP1000", "C1000X"] },
+      "amazon": { "keyword": "Anker Solix C1000 Portable Power Station A1761", "asin": null }
+    },
+    {
+      "id": "dji-power-1000",
+      "brand": "DJI",
+      "name": "DJI Power 1000",
+      "badge": "出力が大きい",
+      "summary": "AC の連続出力が2,200W と6台でいちばん大きい。その分いちばん重い。",
+      "recommended": false,
+      "specs": { "wh": "1,024Wh", "out": "2,200W（連続・100〜120V）", "cycle": "4,000回（容量70%以上を保つ）", "weight": "約13kg", "list": "—" },
+      "source": "https://www.dji.com/jp/power-1000/specs",
+      "rakuten": { "keyword": "DJI Power 1000", "must": ["Power", "1000"], "exclude": ["中古", "◆", "並行輸入", "ソーラーパネル", "セット", "専用", "ケース", "バッグ", "カバー", "Mini", "V2", "500", "2000", "ケーブル"] },
+      "yahoo": { "keyword": "DJI Power 1000", "must": ["Power", "1000"], "exclude": ["中古", "◆", "並行輸入", "ソーラーパネル", "セット", "専用", "ケース", "バッグ", "カバー", "Mini", "V2", "500", "2000", "ケーブル"] },
+      "amazon": { "keyword": "DJI Power 1000 ポータブル電源", "asin": null }
+    }
+  ]
+}
