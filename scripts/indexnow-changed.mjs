@@ -29,6 +29,10 @@ const urls = [
   ...slugs.map((s) => `https://${SITE}/posts/${s}/`),
   `https://${SITE}/category/wangan-life/`,
   `https://${SITE}/category/rankings/`,
+  `https://${SITE}/venues/`,
+  `https://${SITE}/venues/bigsight/`,
+  `https://${SITE}/venues/ariake-arena/`,
+  `https://${SITE}/venues/garden-theater/`,
   `https://${SITE}/llms.txt`,
   `https://${SITE}/sitemap-0.xml`,
 ];

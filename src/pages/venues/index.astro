@@ -1,0 +1,43 @@
+---
+/**
+ * 湾岸の会場のスケジュールのまとめ（2026-11-13）。東京ビッグサイト・有明アリーナ・東京ガーデンシアターの今日・明日・今週末。
+ */
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumb from '../../components/Breadcrumb.astro';
+import VenueSchedule from '../../components/VenueSchedule.astro';
+import { venues, venueDays, VENUE_META } from '../../lib/venues';
+import { jpDate, todayJst } from '../../lib/wangan';
+
+const today = todayJst();
+const ym = `${Number(today.slice(0, 4))}年${Number(today.slice(5, 7))}月`;
+const n = venues.reduce((s, v) => s + venueDays(v.events, today).todayList.length, 0);
+const title = `有明の会場のイベント【今日・明日・今週末】ビッグサイト・有明アリーナ・ガーデンシアター（${ym}・毎朝更新）`;
+const description = `東京ビッグサイト・有明アリーナ・東京ガーデンシアターで今日・明日・今週末に開かれるイベントを1ページに。${jpDate(today)}は3会場で${n}件。公式サイトのイベント一覧から毎朝更新している。`;
+---
+<BaseLayout title={title} description={description}>
+  <section class="cat-hero" style="padding-bottom: 8px;">
+    <div class="wrap">
+      <Breadcrumb items={[{ label: 'ホーム', href: '/' }, { label: '湾岸ライフ', href: '/category/wangan-life/' }, { label: '湾岸の会場のスケジュール' }]} />
+      <h1>有明の会場の今日・明日・今週末のイベント（{ym}）</h1>
+      <p class="lead">ビッグサイトの展示会、有明アリーナとガーデンシアターのコンサート。3つの会場の公式サイトの一覧を、毎朝読み直して並べてる。</p>
+    </div>
+  </section>
+  <section style="padding-top: 24px;">
+    <div class="wrap">
+      {venues.map((v) => (
+        <section class="vsec">
+          <h2 id={v.key}><a href={`/venues/${v.key}/`}>{v.name}</a></h2>
+          <VenueSchedule venue={v} today={today} full={false} headingLevel={3} />
+          <p><a href={`/venues/${v.key}/`}>{VENUE_META[v.key].query}・これから30日の予定を見る →</a></p>
+        </section>
+      ))}
+      <p class="source-note">出典：各会場の公式サイトのイベント一覧（{venues.map((v, i) => <>{i > 0 && '・'}<a href={v.source} target="_blank" rel="noopener">{v.name}</a></>)}）。中止・変更は公式サイトと主催者の発表で確かめて。</p>
+      <p>湾岸のイベントを地図で見るなら<a href="/wangan-map/">湾岸エリアイベントマップ</a>、記事は<a href="/category/wangan-life/">湾岸ライフ</a>にある。</p>
+    </div>
+  </section>
+</BaseLayout>
+<style>
+  .lead { max-width: 760px; color: var(--ink-2); line-height: 1.9; }
+  .vsec { margin-bottom: 28px; }
+  .vsec > h2 a { border-bottom: 2px solid var(--pink-300); }
+</style>

@@ -1,0 +1,56 @@
+---
+/**
+ * 会場ごとの「今日・明日・今週末のイベント」（2026-11-13 利用者がダイアログで選んだ）。
+ * 検索候補「東京ビッグサイト イベント 今日／明日」「有明アリーナ スケジュール 今日」「東京ガーデンシアター スケジュール」に合わせた。
+ * 中身は公式の一覧（scripts/fetch-venue-schedules.mjs が毎朝読む）。ビルドした日で入れ替わる。
+ */
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumb from '../../components/Breadcrumb.astro';
+import VenueSchedule from '../../components/VenueSchedule.astro';
+import { venues, venueDays, VENUE_META, type Venue } from '../../lib/venues';
+import { jpDate, todayJst } from '../../lib/wangan';
+
+export function getStaticPaths() {
+  return venues.map((v) => ({ params: { venue: v.key }, props: { venue: v } }));
+}
+const { venue } = Astro.props as { venue: Venue };
+const meta = VENUE_META[venue.key];
+const today = todayJst();
+const b = venueDays(venue.events, today);
+const ym = `${Number(today.slice(0, 4))}年${Number(today.slice(5, 7))}月`;
+const title = `${meta.query}【今日・明日・今週末】${ym}の予定（毎朝更新）`;
+const head = b.todayList.slice(0, 2).map((e) => `「${e.name}」`).join('');
+const description = `${venue.name}で今日・明日・今週末に開かれるイベントと、これから30日の予定を毎朝更新。${jpDate(today)}は${b.todayList.length ? `${head}など${b.todayList.length}件` : '公式の一覧に予定なし'}。日付・会場・時間は${venue.name}の公式サイトのとおり。`.slice(0, 158);
+const others = venues.filter((v) => v.key !== venue.key);
+const fetched = new Date(new Date(venue.fetched).getTime() + 9 * 3600 * 1000).toISOString().slice(0, 16).replace('T', ' ');
+---
+<BaseLayout title={title} description={description}>
+  <section class="cat-hero" style="padding-bottom: 8px;">
+    <div class="wrap">
+      <Breadcrumb items={[{ label: 'ホーム', href: '/' }, { label: '湾岸ライフ', href: '/category/wangan-life/' }, { label: '湾岸の会場のスケジュール', href: '/venues/' }, { label: venue.name }]} />
+      <h1>{meta.query}｜今日・明日・今週末（{ym}）</h1>
+      <p class="lead">{meta.lead}</p>
+    </div>
+  </section>
+  <section style="padding-top: 24px;">
+    <div class="wrap">
+      <VenueSchedule venue={venue} today={today} />
+      <p class="source-note">出典：<a href={venue.source} target="_blank" rel="noopener">{venue.name}の公式サイトのイベント一覧</a>（{fetched} に読んだもの）。中止・変更は公式サイトと主催者の発表で確かめて。</p>
+
+      <h2 id="access">{venue.name}への行き方</h2>
+      <p>{meta.access}</p>
+      <p class="aff-note">遠くから来るなら、有明のホテルは<a href="https://px.a8.net/svt/ejp?a8mat=4BESU9+B1PLNE+1OK+6F1WH" target="_blank" rel="sponsored noopener nofollow">一休.com</a>や<a href="https://px.a8.net/svt/ejp?a8mat=4BESU9+BNQN16+AD2+3B4MFL" target="_blank" rel="sponsored noopener nofollow">エアトリ</a>で空きを見ておくといいわ。人気の公演の日は埋まりやすいわ。<span class="pr">（PR）</span></p>
+
+      <h2 id="others">ほかの湾岸の会場</h2>
+      <ul>
+        {others.map((v) => <li><a href={`/venues/${v.key}/`}>{VENUE_META[v.key].query}（今日・明日・今週末）</a></li>)}
+        <li><a href="/wangan-map/">湾岸エリアイベントマップ</a>（豊洲・有明・晴海・月島のイベントを地図で）</li>
+        <li><a href="/category/wangan-life/">湾岸ライフ</a>（湾岸のイベント・開業・暮らしの記事）</li>
+      </ul>
+    </div>
+  </section>
+</BaseLayout>
+<style>
+  .lead { max-width: 760px; color: var(--ink-2); line-height: 1.9; }
+  .aff-note .pr { font-size: 12px; color: var(--ink-3); }
+</style>
