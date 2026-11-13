@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-13T11:22:51.106Z",
+ "generatedAt": "2026-11-13T21:42:07.148Z",
  "keys": {
   "rakuten": true,
   "rakutenAccessKey": false,
@@ -133,7 +133,7 @@
     },
     "yahoo": {
      "found": true,
-     "candidates": 11,
+     "candidates": 12,
      "name": "NOTTA　Nott ［32GB / Bluetooth対応］　Notta Memo",
      "url": "https://store.shopping.yahoo.co.jp/y-kojima/0860013896409.html",
      "price": 23500,
@@ -371,7 +371,7 @@
     },
     "yahoo": {
      "found": true,
-     "candidates": 7,
+     "candidates": 5,
      "name": "BURTLE バートル TC500 サーモクラフト 電熱パッド 単品 2022最新 17V対応型",
      "url": "https://store.shopping.yahoo.co.jp/worction/tc500.html",
      "price": 8980,
@@ -427,7 +427,7 @@
     },
     "yahoo": {
      "found": true,
-     "candidates": 11,
+     "candidates": 10,
      "name": "旭化成 サランラップ 30cm×50m",
      "url": "https://store.shopping.yahoo.co.jp/kohnan-eshop/4901670110180.html",
      "price": 450,
@@ -722,16 +722,16 @@
     },
     "yahoo": {
      "found": true,
-     "candidates": 27,
-     "name": "★ボーズ / Bose Ultra Open Earbuds [ホワイトスモーク]【イヤホン・ヘッドホン】【送料無料】",
-     "url": "https://store.shopping.yahoo.co.jp/d-rise2/p000000864065.html",
-     "price": 21260,
+     "candidates": 26,
+     "name": "Bose Ultra Open Earbuds 空間オーディオ イヤホン オープンイヤー 完全 ワイヤレス Bluetooth接続",
+     "url": "https://store.shopping.yahoo.co.jp/idea-marche/ultraopen.html",
+     "price": 21360,
      "shippingFree": true,
      "point": 0,
-     "reviewAverage": null,
-     "reviewCount": 1,
-     "shop": "ディーライズ2号",
-     "net": 21260
+     "reviewAverage": 4.83,
+     "reviewCount": 6,
+     "shop": "アイディアマルシェ",
+     "net": 21360
     }
    }
   },
@@ -829,9 +829,17 @@
      "skipped": "RAKUTEN_ACCESS_KEY が無い"
     },
     "yahoo": {
-     "found": false,
-     "candidates": 0,
-     "searched": 0
+     "found": true,
+     "candidates": 2,
+     "name": "【11/15 0時から 11/21 0時まで】Jackery ポータブル電源 1000New V3 十年長寿命 バッテリー コンパクト  防災 アウトドア用 車中泊アプリ遠隔操作 ジャクリ",
+     "url": "https://store.shopping.yahoo.co.jp/jackery-japan/21-0001-000447.html",
+     "price": 109800,
+     "shippingFree": true,
+     "point": 0,
+     "reviewAverage": 5,
+     "reviewCount": 3,
+     "shop": "Jackery Japan ヤフーショッピング店",
+     "net": 109800
     }
    },
    "ecoflow-delta-3-plus": {
@@ -840,7 +848,7 @@
     },
     "yahoo": {
      "found": true,
-     "candidates": 14,
+     "candidates": 6,
      "name": "エコフロー ポータブル電源 1024Wh DELTA 3 Plus EFDELTA3P-JP-CBOX EcoFlow",
      "url": "https://store.shopping.yahoo.co.jp/dshopone-y/4895251630023.html",
      "price": 83380,
@@ -852,22 +860,40 @@
      "net": 83380
     }
    },
+   "ecoflow-delta-3-classic": {
+    "rakuten": {
+     "skipped": "RAKUTEN_ACCESS_KEY が無い"
+    },
+    "yahoo": {
+     "found": true,
+     "candidates": 10,
+     "name": "EcoFlow ポータブル電源 DELTA 3 CLASSIC 容量 1,024Wh クラシック エコフロー エコフローポータブル電源",
+     "url": "https://store.shopping.yahoo.co.jp/monoworld-japan/compass1789655167.html",
+     "price": 53950,
+     "shippingFree": true,
+     "point": 0,
+     "reviewAverage": null,
+     "reviewCount": 0,
+     "shop": "株式会社 モノワールド",
+     "net": 53950
+    }
+   },
    "anker-c1000-gen2": {
     "rakuten": {
      "skipped": "RAKUTEN_ACCESS_KEY が無い"
     },
     "yahoo": {
      "found": true,
-     "candidates": 25,
-     "name": "Anker Solix C1000 Gen 2 Portable Power Station フィルム アンチグレア ブルーライトカット 保護フィルム",
-     "url": "https://store.shopping.yahoo.co.jp/motomoto/fe-bf-ag-td01977-zf.html",
-     "price": 1315,
+     "candidates": 21,
+     "name": "アンカー ポータブル電源 1024Wh Solix C1000 Gen 2 Portable Power Station A17635Z1 ダークグレー Anker",
+     "url": "https://store.shopping.yahoo.co.jp/dshopone-y/4571651001341.html",
+     "price": 74800,
      "shippingFree": true,
      "point": 0,
      "reviewAverage": null,
-     "reviewCount": 0,
-     "shop": "モットモット ヤフー店",
-     "net": 1315
+     "reviewCount": 1,
+     "shop": "ディーショップワン Yahoo!店",
+     "net": 74800
     }
    },
    "anker-c1000": {
@@ -875,19 +901,17 @@
      "skipped": "RAKUTEN_ACCESS_KEY が無い"
     },
     "yahoo": {
-     "found": false,
-     "candidates": 0,
-     "searched": 0
-    }
-   },
-   "dji-power-1000": {
-    "rakuten": {
-     "skipped": "RAKUTEN_ACCESS_KEY が無い"
-    },
-    "yahoo": {
-     "found": false,
-     "candidates": 0,
-     "searched": 30
+     "found": true,
+     "candidates": 7,
+     "name": "Anker Solix C1000 Portable Power Station 1056Wh ポータブル電源 リン酸鉄 ブラック",
+     "url": "https://store.shopping.yahoo.co.jp/harukaze-shouten/0194644197698.html",
+     "price": 66990,
+     "shippingFree": true,
+     "point": 0,
+     "reviewAverage": null,
+     "reviewCount": 2,
+     "shop": "はるかぜ商店",
+     "net": 66990
     }
    }
   },
@@ -1067,16 +1091,16 @@
     },
     "yahoo": {
      "found": true,
-     "candidates": 14,
+     "candidates": 13,
      "name": "Google Fitbit Air[Lavender]",
      "url": "https://store.shopping.yahoo.co.jp/light-hikari/840353943353.html",
-     "price": 19376,
+     "price": 19358,
      "shippingFree": true,
      "point": 0,
      "reviewAverage": null,
      "reviewCount": 0,
      "shop": "らいぶshop",
-     "net": 19376
+     "net": 19358
     }
    },
    "amazfit-helio-strap": {
@@ -1215,7 +1239,7 @@
     },
     "yahoo": {
      "found": true,
-     "candidates": 7,
+     "candidates": 8,
      "name": "YAMAZEN 電気ミニマット ホットカーペット 40×40cm YMM-W402 1台",
      "url": "https://lohaco.yahoo.co.jp/store/h-lohaco/item/ek50993/",
      "price": 3058,
@@ -1233,7 +1257,7 @@
     },
     "yahoo": {
      "found": true,
-     "candidates": 20,
+     "candidates": 18,
      "name": "パナソニック 電気しき毛布 シングル 140×80cm 丸洗い可 室温センサー付 グリーン DB-U12T-G",
      "url": "https://store.shopping.yahoo.co.jp/oimus725/20251230062740-01077.html",
      "price": 5830,
@@ -1251,7 +1275,7 @@
     },
     "yahoo": {
      "found": true,
-     "candidates": 1,
+     "candidates": 2,
      "name": "パネルヒーター 底面ヒーター 足元暖房 省エネ エコ 静音 転倒センサー 自動オフ 節電 電気暖房 デスクパネルヒーター フットヒーター YPHS-160 山善 YAMAZEN",
      "url": "https://store.shopping.yahoo.co.jp/e-kurashi/98705.html",
      "price": 8980,
@@ -1330,13 +1354,13 @@
      "candidates": 3,
      "name": "KENWOOD 完全ワイヤレスイヤホン GLASS Core Pro KH-CRZ100T 80周年記念モデル ケンウッド",
      "url": "https://store.shopping.yahoo.co.jp/outletplaza/40001116330.html",
-     "price": 47507,
+     "price": 47485,
      "shippingFree": true,
      "point": 0,
      "reviewAverage": null,
      "reviewCount": 0,
      "shop": "秋葉原　アウトレットプラザ",
-     "net": 47507
+     "net": 47485
     }
    },
    "kenwood-glass-core": {
@@ -1363,16 +1387,16 @@
     },
     "yahoo": {
      "found": true,
-     "candidates": 16,
+     "candidates": 15,
      "name": "SONY ソニー ワイヤレスイヤホン WF-1000XM6 シルバー Bluetooth ノイズキャンセリング ノイキャン ハイレゾ マイク付き【ラッピング対応可】 R-LOGI",
      "url": "https://store.shopping.yahoo.co.jp/sokuteikiya/4548736171817.html",
-     "price": 38431,
+     "price": 38427,
      "shippingFree": true,
      "point": 0,
      "reviewAverage": null,
      "reviewCount": 1,
      "shop": "測定の森Yahoo!ショッピング店",
-     "net": 38431
+     "net": 38427
     }
    },
    "airpods-pro-3": {
@@ -1417,7 +1441,7 @@
     },
     "yahoo": {
      "found": true,
-     "candidates": 26,
+     "candidates": 25,
      "name": "【新品】パナソニック Technics EAH-AZ100-N [シャンパンゴールド]【日曜日以外即日発送】【送料無料】",
      "url": "https://store.shopping.yahoo.co.jp/kaikyou/4549980975312.html",
      "price": 34290,
