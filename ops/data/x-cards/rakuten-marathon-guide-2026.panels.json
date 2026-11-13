@@ -1,0 +1,17 @@
+{
+ "_doc": "X の画像。node scripts/gen-x-panels.mjs ops/data/x-cards/rakuten-marathon-guide-2026.panels.json",
+ "_note": "2026-11-13 のアナロジー型の候補。公式の画像が記事に無いので自作の図（出所の表記は要らない）",
+ "imageBase": "public/images/rakuten-marathon-guide-2026",
+ "out": "public/images/rakuten-marathon-guide-2026/x",
+ "theme": "ink",
+ "panels": [
+  {
+   "file": "1-rule.jpg",
+   "kind": "html",
+   "noHeader": true,
+   "html": "<div class=\"rk\"><div class=\"rkk\">楽天お買い物マラソンの買い回りポイント</div><div class=\"rkt\">もらうのは<em>申告制</em>、<br>消えるのは<em>自動</em></div><div class=\"rkc\"><div class=\"rkb in\"><h3>もらう＝自分で</h3><ul><li>エントリーしないと付かない</li><li>5と0の日は当日に別のエントリーが要る</li></ul></div><div class=\"rkb out\"><h3>消える＝勝手に</h3><ul><li>期間限定ポイント</li><li>付いた月の翌月末で失効</li></ul></div></div><div class=\"rkl\"><div class=\"st\"><small>マラソン</small>終了</div><div class=\"st\"><small>翌月15日ごろ</small>付く</div><div class=\"st\"><small>その翌月末</small>消える</div></div><div class=\"rkf\">付いて約1か月半。付いたらすぐ使う</div></div>",
+   "css": "main{padding:0;height:1080px;display:block}\n.rk{height:1080px;background:linear-gradient(160deg,#2A1923,#46293A);color:#fff;padding:64px 60px;display:flex;flex-direction:column}\n.rkk{align-self:flex-start;font-size:30px;font-weight:900;color:#2A1923;background:#F5C518;border-radius:999px;padding:6px 24px}\n.rkt{font-size:80px;font-weight:900;line-height:1.25;margin:22px 0 34px}\n.rkt em{font-style:normal;color:#EC5C90}\n.rkc{display:grid;grid-template-columns:1fr 1fr;gap:26px}\n.rkb{border-radius:24px;padding:40px 34px 44px;background:rgba(255,255,255,.08)}\n.rkb h3{font-size:52px;font-weight:900;margin-bottom:18px}\n.rkb.in h3{color:#7FD6A8}.rkb.out h3{color:#EC5C90}\n.rkb li{list-style:none;font-size:38px;font-weight:700;line-height:1.4;margin-top:12px;padding-left:34px;position:relative}\n.rkb li:before{content:\"●\";position:absolute;left:0;top:2px;font-size:22px;color:#F5C518}\n.rkl{margin-top:auto;font-size:36px;display:flex;align-items:center;gap:0;font-size:30px;font-weight:800}\n.rkl .st{flex:1;text-align:center;padding:18px 6px;background:rgba(255,255,255,.1)}\n.rkl .st:first-child{border-radius:16px 0 0 16px}.rkl .st:last-child{border-radius:0 16px 16px 0;background:#D63E76}\n.rkl .st small{display:block;font-size:24px;color:#e7d6de;font-weight:700}\n.rkf{margin-top:28px;font-size:42px;font-weight:900;text-align:center;color:#F5C518}",
+   "alt": "楽天お買い物マラソンの買い回りポイントは、もらうのは申告制で消えるのは自動。もらうには、エントリーが必要で、5と0の日は当日に別のエントリーが要る。付くのは期間限定ポイントで、マラソン終了の翌月15日ごろに付き、その翌月末で消える。付いてから約1か月半。自作の図"
+  }
+ ]
+}
