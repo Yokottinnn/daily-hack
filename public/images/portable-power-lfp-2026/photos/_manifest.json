@@ -1,0 +1,41 @@
+{
+ "jackery.jpg": {
+  "src": "https://cdn.shopify.com/s/files/1/0100/1537/5438/files/1000V3_bb8bf5ac-4176-4525-8171-6b0b9208ebc2.webp?v=1784712250",
+  "page": "https://www.jackery.jp/products/explorer-1000-new-v3",
+  "credit": "Jackery 公式（製品画像）",
+  "fetched": "2026-11-13"
+ },
+ "ecoflow.jpg": {
+  "src": "https://cdn.shopify.com/s/files/1/0412/3459/6001/files/D3P_1200_1200.png?v=1780393439",
+  "page": "https://jp.ecoflow.com/products/delta-3-plus-portable-power-station",
+  "credit": "EcoFlow 公式（製品画像）",
+  "fetched": "2026-11-13",
+  "note": "上部の認証マーク・受賞の札を外すため、上から 20% を切った"
+ },
+ "anker-gen2.jpg": {
+  "src": "https://cdn.shopify.com/s/files/1/0508/4381/2001/files/A17635Z1.jpg?v=1765847206",
+  "page": "https://www.ankerjapan.com/products/a1763",
+  "credit": "Anker 公式（製品画像）",
+  "fetched": "2026-11-13"
+ },
+ "anker-c1000.jpg": {
+  "src": "https://cdn.shopify.com/s/files/1/0508/4381/2001/files/A1761_listing_product.jpg?v=1728639773",
+  "page": "https://www.ankerjapan.com/products/a1761",
+  "credit": "Anker 公式（製品画像）",
+  "fetched": "2026-11-13"
+ },
+ "ecoflow-d3c.jpg": {
+  "src": "https://cdn.shopify.com/s/files/1/0412/3459/6001/files/D3C_1200_1200.png",
+  "page": "https://jp.ecoflow.com/products/delta-3-classic",
+  "credit": "EcoFlow 公式（製品画像）",
+  "fetched": "2026-11-13",
+  "note": "上部の受賞の札を外すため、上から 22% を切った"
+ },
+ "jackery-room.jpg": {
+  "src": "https://cdn.shopify.com/s/files/1/0100/1537/5438/files/3_77fd0fe6-4083-4247-b9ac-2fa35b9cd4b2.webp",
+  "page": "https://www.jackery.jp/products/explorer-1000-new-v3",
+  "credit": "Jackery 公式（製品画像）",
+  "fetched": "2026-11-13",
+  "note": "画像の上の宣伝文を外して写真の部分だけ切り出した"
+ }
+}
