@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T00:29:36Z",
+  "generated_at": "2026-11-13T00:59:48Z",
   "login_lock": {"present": false, "age_hours": 0},
   "cdp": {"healthy": true, "port": 18810},
   "x_jobs": {"loaded": 8, "expected": 8, "ai_total": 63, "halted": false, "missing": []},
@@ -96,11 +96,13 @@
   },
   "activity": {
     "date": "2026-11-13",
-    "posted_today": 9,
+    "posted_today": 12,
     "detail": "ログを走査した",
     "sources": [
       {"file": "comment-orchestrator.log", "count": 3},
-      {"file": "comment-warmup.log", "count": 6}
+      {"file": "comment-warmup.log", "count": 6},
+      {"file": "trend-daily.log", "count": 2},
+      {"file": "trend-orchestrator.log", "count": 1}
     ]
   },
   "autoload": {
