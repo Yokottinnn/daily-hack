@@ -1,1 +1,4 @@
-[]
+[
+      {"task": "t624-dept-store-commons-photos.sh", "rc": 0, "out": "t624 / t624-airport-commons.md"},
+      {"task": "t625-dept-store-logos.sh", "rc": 0, "out": "t625 / t625-dept-store-logos.md"}
+  ]
