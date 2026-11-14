@@ -1,3 +1,1 @@
-[
-      {"task": "x473-read-night-follows.sh", "rc": 2, "out": "/var/folders/qm/dwxlvygj76q_fq054b8jrrr80000gn/T//ops-tasks/x473-read-night-follows.sh: line 20: syntax error near unexpected token `;;' /var/folders/qm/dwxlvygj76q_fq054b8jrrr80000gn/T//ops-tasks/x473-read-night-follows.sh: line 20: `for f in $(for f in $L/*.log; do n=$(grep -E $WIN $f 2>/dev/null "}
-  ]
+[]
