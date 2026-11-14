@@ -9,9 +9,9 @@
    "file": "a1-count.jpg",
    "kind": "html",
    "noHeader": true,
-   "html": "<div class=\"wrap\"><div class=\"k\">2026年11月時点</div><div class=\"t\">湾岸の<em>これからの</em><br>イベントまとめ</div><div class=\"rows\"><div class=\"rw\"><b>豊洲</b><i>7件</i></div><div class=\"rw\"><b>有明</b><i>6件</i></div><div class=\"rw\"><b>お台場</b><i>2件</i></div><div class=\"rw\"><b>晴海・東雲・浜離宮</b><i>各1件</i></div><div class=\"rw tot\"><b>合計</b><i>18件</i></div></div><div class=\"nt\">クリスマスマーケット・空飛ぶクルマ・チームラボ 浜離宮 ほか</div></div>",
+   "html": "<div class=\"wrap\"><div class=\"k\">2026年11月時点</div><div class=\"t\">湾岸の<em>これからの</em><br>イベントまとめ</div><div class=\"rows\"><div class=\"rw\"><b>豊洲</b><i>6件</i></div><div class=\"rw\"><b>有明</b><i>5件</i></div><div class=\"rw\"><b>お台場</b><i>2件</i></div><div class=\"rw\"><b>晴海・東雲・浜離宮</b><i>各1件</i></div><div class=\"rw tot\"><b>合計</b><i>16件</i></div></div><div class=\"nt\">クリスマスマーケット・空飛ぶクルマ・チームラボ 浜離宮 ほか</div></div>",
    "css": "main{padding:0;height:1080px;display:block}\n.wrap{position:relative;height:1080px;color:#fff;background:linear-gradient(180deg,#2A1923,#1E1219);padding:64px 60px;display:flex;flex-direction:column}\n.k{align-self:flex-start;font-size:30px;font-weight:900;color:#2A1923;background:#F5C518;border-radius:999px;padding:6px 22px}\n.t{font-size:66px;font-weight:900;line-height:1.25;margin-top:16px}\n.t em{font-style:normal;color:#EC5C90}\n.rows{flex:1;display:flex;flex-direction:column;justify-content:center;gap:12px;margin-top:20px}\n.rw{display:flex;justify-content:space-between;align-items:baseline;background:#3a2731 !important;border:0;border-radius:16px;padding:16px 28px}\n.rw b{color:#fff;font-size:44px;font-weight:900}\n.rw i{font-style:normal;font-size:52px;font-weight:900;color:#F5C518}\n.rw.tot{background:#EC5C90}\n.rw.tot i{color:#fff}\n.nt{font-size:28px;font-weight:700;margin-top:18px;color:#f3dbe5}",
-   "alt": "2026年11月時点の湾岸のこれからのイベントの件数。豊洲7件、有明6件、お台場2件、晴海・東雲・浜離宮が各1件、合計18件。図はDaily Hackが作成"
+   "alt": "2026年11月時点の湾岸のこれからのイベントの件数。豊洲6件、有明5件、お台場2件、晴海・東雲・浜離宮が各1件、合計16件。図はDaily Hackが作成"
   }
  ]
 }
