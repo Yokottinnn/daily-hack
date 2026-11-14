@@ -97,6 +97,13 @@
           "first": "泉佐野市",
           "value": "230.4億円",
           "source": "総務省"
+        },
+        {
+          "slug": "onsen-ranking-2026",
+          "topic": "温泉の源泉の数（都道府県）",
+          "first": "大分",
+          "value": "5,094か所",
+          "source": "環境省"
         }
       ]
     }
