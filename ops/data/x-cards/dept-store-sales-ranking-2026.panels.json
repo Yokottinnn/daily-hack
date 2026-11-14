@@ -1,0 +1,25 @@
+{
+ "_doc": "X 告知の画像（百貨店の売上ランキング）。node scripts/gen-x-panels.mjs ops/data/x-cards/dept-store-sales-ranking-2026.panels.json",
+ "_note": "2026-11-14 blog3 の依頼。写真は Wikimedia Commons の CC BY / CC BY-SA（photos/_manifest.json）。画像の中に出所は出さず ALT に撮影者名とライセンスを書く",
+ "imageBase": "public/images/dept-store-sales-ranking-2026",
+ "out": "public/images/dept-store-sales-ranking-2026/x",
+ "theme": "ink",
+ "panels": [
+  {
+   "file": "1-rank.jpg",
+   "kind": "html",
+   "noHeader": true,
+   "html": "<div class=\"dpw\"><div class=\"dpk\">百貨店の店舗別の売上（2026年2月期・3月期）</div><div class=\"dpt\">1位は<em>伊勢丹新宿本店</em></div><div class=\"dpr\"><div class=\"dpn\">1</div><img class=\"dpi\" src=\"photos/isetan.jpg\" alt=\"\"><div class=\"dpb\"><div class=\"dpnm\">伊勢丹新宿本店</div><div class=\"dpv\">4,250億円</div><div class=\"dps\">東京・新宿</div></div></div><div class=\"dpr\"><div class=\"dpn\">2</div><img class=\"dpi\" src=\"photos/hankyu.jpg\" alt=\"\"><div class=\"dpb\"><div class=\"dpnm\">阪急本店</div><div class=\"dpv\">3,487億円</div><div class=\"dps\">大阪・梅田</div></div></div><div class=\"dpr\"><div class=\"dpn\">3</div><img class=\"dpi\" src=\"photos/takashimaya.jpg\" alt=\"\"><div class=\"dpb\"><div class=\"dpnm\">高島屋大阪店</div><div class=\"dpv\">1,799億円</div><div class=\"dps\">大阪・難波</div></div></div><div class=\"dpf\">年1,000億円を超える店は<b>全国で12店</b>。うち<b>4店が高島屋</b></div></div>",
+   "css": "main{padding:0;height:1080px;display:block}\n.dpw{height:1080px;background:linear-gradient(160deg,#1E1219,#2A1923);color:#fff;padding:56px 52px;display:flex;flex-direction:column}\n.dpk{align-self:flex-start;font-size:30px;font-weight:900;color:#2A1923;background:#F5C518;border-radius:999px;padding:6px 24px}\n.dpt{font-size:66px;font-weight:900;line-height:1.2;margin:18px 0 26px}\n.dpt em{font-style:normal;color:#EC5C90}\n.dpr{display:flex;gap:24px;align-items:center;background:rgba(255,255,255,.08);border-radius:22px;padding:16px 20px;margin-bottom:20px}\n.dpn{font-size:64px;font-weight:900;color:#F5C518;width:60px;text-align:center;flex:none}\n.dpi{width:230px;height:170px;object-fit:cover;border-radius:14px;flex:none}\n.dpnm{font-size:40px;font-weight:900}\n.dpv{font-size:46px;font-weight:900;color:#EC5C90;margin-top:4px}\n.dps{font-size:27px;font-weight:700;color:#e7d6de;margin-top:6px}\n.dpf{margin-top:auto;font-size:32px;font-weight:800;line-height:1.45;color:#fff}\n.dpf b{color:#F5C518}",
+   "alt": "百貨店の店舗別の売上（6社の2026年2月期・3月期の決算資料）。1位伊勢丹新宿本店4,250億円、2位阪急本店3,487億円、3位高島屋大阪店1,799億円。年1,000億円を超える店は全国で12店で、うち4店が高島屋。写真：伊勢丹新宿本店 Lombroso（CC BY-SA 4.0）、阪急うめだ本店 Kanchi1979（CC BY-SA 4.0）、高島屋大阪店 663highland（CC BY 2.5）、いずれも Wikimedia Commons"
+  },
+  {
+   "file": "2-move.jpg",
+   "kind": "html",
+   "noHeader": true,
+   "html": "<div class=\"wrap\"><img class=\"ph\" src=\"photos/mitsukoshi.jpg\" alt=\"\"><div class=\"shade\"></div><div class=\"tx\"><div class=\"k\">伸びた店・減った店</div><div class=\"t\">三越日本橋は<em>4年続けて増加</em></div><ul class=\"pts\"><li><b>三越日本橋本店</b>1,690億円・4年続けて増えた</li><li><b>阪神梅田本店</b>+15.7%</li><li><b>松屋銀座</b>−10.9%</li><li><b>1,000億円超</b>12店のうち高島屋が4店</li></ul></div></div>",
+   "css": "main{padding:0;height:1080px;display:block}\n.wrap{position:relative;height:1080px;color:#fff;background:#1E1219;overflow:hidden}\n.ph{position:absolute;left:0;top:0;width:100%;height:540px;object-fit:cover}\n.shade{position:absolute;left:0;right:0;top:300px;height:242px;background:linear-gradient(180deg,rgba(30,18,25,0),#1E1219 92%)}\n.tx{position:absolute;left:56px;right:56px;top:430px;bottom:56px;display:flex;flex-direction:column}\n.k{align-self:flex-start;font-size:30px;font-weight:900;color:#2A1923;background:#F5C518;border-radius:999px;padding:6px 22px}\n.t{font-size:66px;font-weight:900;line-height:1.2;margin-top:14px;text-shadow:0 2px 12px rgba(0,0,0,.4)}\n.t em{font-style:normal;color:#EC5C90}\n.pts{list-style:none;margin-top:24px;flex:1;display:flex;flex-direction:column;justify-content:center;gap:18px}\n.pts li{font-size:35px;font-weight:700;line-height:1.35;background:rgba(255,255,255,.08);border-left:10px solid #EC5C90;border-radius:14px;padding:15px 22px}\n.pts b{color:#F5C518;margin-right:12px}",
+   "alt": "三越日本橋本店は1,690億円で4年続けて増えた。阪神梅田本店は+15.7%、松屋銀座は−10.9%。年1,000億円を超える12店のうち4店が高島屋。写真：三越日本橋本店 Kakidai（CC BY-SA 4.0、Wikimedia Commons）"
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "_doc": "X 告知の画像（空港の利用者数ランキング）。node scripts/gen-x-panels.mjs ops/data/x-cards/airport-passenger-ranking-2026.panels.json",
+ "_note": "2026-11-14 blog3 の依頼。写真は Wikimedia Commons の CC BY / CC BY-SA（photos/_manifest.json）。画像の中に出所は出さず ALT に撮影者名とライセンスを書く",
+ "imageBase": "public/images/airport-passenger-ranking-2026",
+ "out": "public/images/airport-passenger-ranking-2026/x",
+ "theme": "ink",
+ "panels": [
+  {
+   "file": "1-rank.jpg",
+   "kind": "html",
+   "noHeader": true,
+   "html": "<div class=\"apw\"><div class=\"apk\">2025年の空港の利用者数（国交省）</div><div class=\"apt\">全体の1位は<em>羽田</em></div><div class=\"apr\"><div class=\"apn\">1</div><img class=\"api\" src=\"photos/haneda.jpg\" alt=\"\"><div class=\"apb\"><div class=\"apnm\">羽田</div><div class=\"apv\">9,154万人</div><div class=\"aps\">1日25万人・国際線だけなら3位</div></div></div><div class=\"apr\"><div class=\"apn\">2</div><img class=\"api\" src=\"photos/narita.jpg\" alt=\"\"><div class=\"apb\"><div class=\"apnm\">成田</div><div class=\"apv\">4,114万人</div><div class=\"aps\">国際線だけなら1位（3,395万人）</div></div></div><div class=\"apr\"><div class=\"apn\">3</div><img class=\"api\" src=\"photos/kix.jpg\" alt=\"\"><div class=\"apb\"><div class=\"apnm\">関西</div><div class=\"apv\">3,406万人</div><div class=\"aps\">国際線2位・前の年から+11.3%</div></div></div><div class=\"apf\">全国93空港で<b>3億4,276万人</b>（+7.5%）。上の3つで<b>49%</b></div></div>",
+   "css": "main{padding:0;height:1080px;display:block}\n.apw{height:1080px;background:linear-gradient(160deg,#1E1219,#2A1923);color:#fff;padding:56px 52px;display:flex;flex-direction:column}\n.apk{align-self:flex-start;font-size:30px;font-weight:900;color:#2A1923;background:#F5C518;border-radius:999px;padding:6px 24px}\n.apt{font-size:66px;font-weight:900;line-height:1.2;margin:18px 0 26px}\n.apt em{font-style:normal;color:#EC5C90}\n.apr{display:flex;gap:24px;align-items:center;background:rgba(255,255,255,.08);border-radius:22px;padding:16px 20px;margin-bottom:20px}\n.apn{font-size:64px;font-weight:900;color:#F5C518;width:60px;text-align:center;flex:none}\n.api{width:230px;height:170px;object-fit:cover;border-radius:14px;flex:none}\n.apnm{font-size:40px;font-weight:900}\n.apv{font-size:46px;font-weight:900;color:#EC5C90;margin-top:4px}\n.aps{font-size:27px;font-weight:700;color:#e7d6de;margin-top:6px}\n.apf{margin-top:auto;font-size:32px;font-weight:800;line-height:1.45;color:#fff}\n.apf b{color:#F5C518}",
+   "alt": "2025年の空港の利用者数（国土交通省の空港別の表）。1位羽田9,154万人（1日25万人・国際線だけなら3位）、2位成田4,114万人（国際線だけなら1位の3,395万人）、3位関西3,406万人（国際線2位・前の年から+11.3%）。全国93空港で3億4,276万人、上の3つで49%。写真：羽田 Dandy1022（CC BY-SA 4.0）、成田 名無し野電車区（CC BY-SA 3.0）、関西 Wpcpey（CC BY 3.0）、いずれも Wikimedia Commons"
+  },
+  {
+   "file": "2-growth.jpg",
+   "kind": "html",
+   "noHeader": true,
+   "html": "<div class=\"wrap\"><img class=\"ph\" src=\"photos/fukuoka.jpg\" alt=\"\"><div class=\"shade\"></div><div class=\"tx\"><div class=\"k\">伸びた空港（2025年・前の年と比べて）</div><div class=\"t\">全国で<em>+7.5%</em></div><ul class=\"pts\"><li><b>関西</b>3,406万人・上位8つの中でいちばん伸びた</li><li><b>神戸</b>+13.5%で11位から10位に</li><li><b>静岡</b>+25.9%</li><li><b>上位8</b>順位は前の年と1つも変わらない</li></ul></div></div>",
+   "css": "main{padding:0;height:1080px;display:block}\n.wrap{position:relative;height:1080px;color:#fff;background:#1E1219;overflow:hidden}\n.ph{position:absolute;left:0;top:0;width:100%;height:540px;object-fit:cover}\n.shade{position:absolute;left:0;right:0;top:300px;height:242px;background:linear-gradient(180deg,rgba(30,18,25,0),#1E1219 92%)}\n.tx{position:absolute;left:56px;right:56px;top:430px;bottom:56px;display:flex;flex-direction:column}\n.k{align-self:flex-start;font-size:30px;font-weight:900;color:#2A1923;background:#F5C518;border-radius:999px;padding:6px 22px}\n.t{font-size:66px;font-weight:900;line-height:1.2;margin-top:14px;text-shadow:0 2px 12px rgba(0,0,0,.4)}\n.t em{font-style:normal;color:#EC5C90}\n.pts{list-style:none;margin-top:24px;flex:1;display:flex;flex-direction:column;justify-content:center;gap:18px}\n.pts li{font-size:35px;font-weight:700;line-height:1.35;background:rgba(255,255,255,.08);border-left:10px solid #EC5C90;border-radius:14px;padding:15px 22px}\n.pts b{color:#F5C518;margin-right:12px}",
+   "alt": "2025年に伸びた空港。全国93空港の合計は+7.5%。関西は3,406万人で+11.3%と上位8空港の中で最大。神戸は+13.5%で11位から10位に、静岡は+25.9%。上位8空港の順位は前の年と1つも変わらない。写真：福岡空港 Hirho（CC BY 4.0、Wikimedia Commons）"
+  }
+ ]
+}
