@@ -22,7 +22,7 @@ const { chromium } = createRequire(path.join(PW_DIR, 'x.js'))('playwright-core')
 const WHICH = process.env.SHOP_SETUP || '';
 const OUT = path.join(process.env.OPS_REPORT_DIR || '/tmp', 'shop-setup');
 fs.mkdirSync(OUT, { recursive: true });
-const NG = /契約者|振込|口座|氏名|会社|様$|さん$|Welcome|ようこそ|こんにちは|@|報酬/i;
+const NG = /契約者|振込|口座|氏名|会社|様$|さん$|Welcome|ようこそ|こんにちは|@|報酬|平素より|ご利用いただき|アカウントを選択|Google アカウント/i;
 const mask = (x) => String(x).replace(/[A-Za-z0-9_\-]{16,}/g, (m) => `［${m.length}文字・伏せた］`);
 const lines = [`# 3 店ボタンの Mac 側の準備: ${WHICH}（scripts/shop/mac-setup.mjs）`, '', `生成: **${new Date().toISOString()}**`, ''];
 
