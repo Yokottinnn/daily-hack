@@ -1,3 +1,1 @@
-[
-      {"task": "x482-dispatcher-dry-run.sh", "rc": 0, "out": "置いた: x-action-pacer.cjs 置いた: x-action-dispatcher.cjs 載っている ←  DRY_RUN => 1  run interval = 900 seconds  [x-action-dispatcher 試し運転] 2026-11-14T11:10:11.908Z {picked:列が空,next_in_min:36,queue:0}"}
-  ]
+[]
