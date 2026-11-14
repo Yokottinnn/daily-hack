@@ -608,6 +608,11 @@ references:
 <p class="affiliate-text"><a href="https://px.a8.net/svt/ejp?a8mat=4BEIPG+8P61QY+5YKQ+5YZ76" target="_blank" rel="sponsored noopener nofollow">【キャリカレ】総合カタログ請求案内</a><img src="https://www16.a8.net/0.gif?a8mat=4BEIPG+8P61QY+5YKQ+5YZ76" width="1" height="1" alt="" loading="lazy"></p>
 </div>
 
+<div class="callout info">
+<p class="head">英語を学び直したいなら</p>
+<p style="margin:0">英語を話す練習を毎日したいなら、オンライン英会話という手もある。月額1,100円から話し放題と案内している <a href="https://px.a8.net/svt/ejp?a8mat=4BESUA+5TKMHM+4FL0+HV7V6" target="_blank" rel="nofollow sponsored noopener">オンライン英会話 LanCul</a>（PR）や、初心者・女性限定の <a href="https://px.a8.net/svt/ejp?a8mat=4BESUA+5O7Q1M+27TW+BX3J6" target="_blank" rel="nofollow sponsored noopener">わたしのオンライン英会話</a>（PR）がある。料金と条件は各公式ページで確かめて。</p>
+</div>
+
 <h2 id="faq">よくある質問</h2>
 
 <div class="cmp-table-wrap">
