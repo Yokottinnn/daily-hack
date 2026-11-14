@@ -4,27 +4,100 @@
     {
       "name": "お店・商業施設",
       "items": [
-        { "slug": "lalaport-guide-2026", "topic": "ららぽーと（三井不動産の施設）の売上", "first": "ラゾーナ川崎", "value": "990億円", "source": "三井不動産の決算資料" },
-        { "slug": "aeon-mall-ranking-2026", "topic": "イオンモールの大きさ（総賃貸面積）", "first": "幕張新都心・橿原（同率）", "value": "12.8万㎡", "source": "イオンモール公式サイト" },
-        { "slug": "outlet-mall-guide-2026", "topic": "アウトレットの売上", "first": "御殿場", "value": "1,409億円", "source": "日本SC協会" },
-        { "slug": "dept-store-sales-ranking-2026", "topic": "百貨店の店舗別売上", "first": "伊勢丹新宿本店", "value": "4,250億円", "source": "6社の決算資料" },
-        { "slug": "electronics-retailer-sales-ranking-2026", "topic": "家電量販店の売上高", "first": "ヤマダホールディングス", "value": "1兆6,918億円", "source": "7社の決算短信" },
-        { "slug": "convenience-store-count-ranking-2026", "topic": "コンビニの都道府県別店舗数（3社合計）", "first": "東京都", "value": "7,028店", "source": "3社の公式サイト" },
-        { "slug": "morning-500-2026", "topic": "モーニングの安さ（チェーン店）", "first": "マクドナルド", "value": "180円", "source": "各社の公式サイト" }
+        {
+          "slug": "lalaport-guide-2026",
+          "topic": "ららぽーと（三井不動産の施設）の売上",
+          "first": "ラゾーナ川崎",
+          "value": "990億円",
+          "source": "三井不動産の決算資料"
+        },
+        {
+          "slug": "aeon-mall-ranking-2026",
+          "topic": "イオンモールの大きさ（総賃貸面積）",
+          "first": "幕張新都心・橿原（同率）",
+          "value": "12.8万㎡",
+          "source": "イオンモール公式サイト"
+        },
+        {
+          "slug": "outlet-mall-guide-2026",
+          "topic": "アウトレットの売上",
+          "first": "御殿場",
+          "value": "1,409億円",
+          "source": "日本SC協会"
+        },
+        {
+          "slug": "dept-store-sales-ranking-2026",
+          "topic": "百貨店の店舗別売上",
+          "first": "伊勢丹新宿本店",
+          "value": "4,250億円",
+          "source": "6社の決算資料"
+        },
+        {
+          "slug": "electronics-retailer-sales-ranking-2026",
+          "topic": "家電量販店の売上高",
+          "first": "ヤマダホールディングス",
+          "value": "1兆6,918億円",
+          "source": "7社の決算短信"
+        },
+        {
+          "slug": "convenience-store-count-ranking-2026",
+          "topic": "コンビニの都道府県別店舗数（3社合計）",
+          "first": "東京都",
+          "value": "7,028店",
+          "source": "3社の公式サイト"
+        },
+        {
+          "slug": "morning-500-2026",
+          "topic": "モーニングの安さ（チェーン店）",
+          "first": "マクドナルド",
+          "value": "180円",
+          "source": "各社の公式サイト"
+        }
       ]
     },
     {
       "name": "交通",
       "items": [
-        { "slug": "airport-passenger-ranking-2026", "topic": "空港の利用者数（2025年）", "first": "羽田", "value": "9,154万人", "source": "国土交通省" },
-        { "slug": "station-ridership-ranking-2026", "topic": "駅の利用者数（JR東日本・1日の乗車）", "first": "新宿", "value": "66万6,809人", "source": "JR東日本" }
+        {
+          "slug": "airport-passenger-ranking-2026",
+          "topic": "空港の利用者数（2025年）",
+          "first": "羽田",
+          "value": "9,154万人",
+          "source": "国土交通省"
+        },
+        {
+          "slug": "station-ridership-ranking-2026",
+          "topic": "駅の利用者数（JR東日本・1日の乗車）",
+          "first": "新宿",
+          "value": "66万6,809人",
+          "source": "JR東日本"
+        },
+        {
+          "slug": "cruise-port-ranking-2026",
+          "topic": "クルーズ船の寄港回数（2025年）",
+          "first": "横浜",
+          "value": "209回",
+          "source": "国土交通省"
+        }
       ]
     },
     {
       "name": "スポーツ・まち",
       "items": [
-        { "slug": "npb-attendance-ranking-2026", "topic": "プロ野球の観客動員（2026年）", "first": "阪神", "value": "299万8,391人", "source": "NPB" },
-        { "slug": "furusato-donation-ranking-2026", "topic": "ふるさと納税の受入額（令和7年度）", "first": "泉佐野市", "value": "230.4億円", "source": "総務省" }
+        {
+          "slug": "npb-attendance-ranking-2026",
+          "topic": "プロ野球の観客動員（2026年）",
+          "first": "阪神",
+          "value": "299万8,391人",
+          "source": "NPB"
+        },
+        {
+          "slug": "furusato-donation-ranking-2026",
+          "topic": "ふるさと納税の受入額（令和7年度）",
+          "first": "泉佐野市",
+          "value": "230.4億円",
+          "source": "総務省"
+        }
       ]
     }
   ]
