@@ -1,0 +1,17 @@
+{
+ "_doc": "X の画像（湾岸のモールのレシートの条件）。node scripts/gen-x-panels.mjs ops/data/x-cards/wangan-receipt-2026-11.panels.json",
+ "_note": "2026-11-14 のアナロジー型。素材は blog3 の 3 記事で取った各モール公式の画像。出所は ALT に書く",
+ "imageBase": "public/images",
+ "out": "public/images/wangan-receipt-2026-11/x",
+ "theme": "ink",
+ "panels": [
+  {
+   "file": "1-receipt.jpg",
+   "kind": "html",
+   "noHeader": true,
+   "html": "<div class=\"rw\"><div class=\"rk\">湾岸のモール・2026年11月</div><div class=\"rt\">レシートの<em>条件</em>が全部ちがう</div><div class=\"rr\"><img class=\"rth\" src=\"harumi-triton-november-deals-2026/photos/coupon-ticket.jpg\" alt=\"\"><div class=\"rb\"><div class=\"rn\">晴海トリトン</div><div class=\"rm\">1店500円以上を<b>4店分</b></div><div class=\"rs\">11/16〜18のレシートだけ・500円クーポン（11/18）</div></div></div><div class=\"rr\"><img class=\"rth\" src=\"lalaport-toyosu-black-friday-2026/photos/bf1.jpg\" alt=\"\"><div class=\"rb\"><div class=\"rn\">ららぽーと豊洲</div><div class=\"rm\">5店のどこかで<b>3,000円以上</b>＋もう1枚</div><div class=\"rs\">紙のレシートだけ・抽選会は11/21〜23</div></div></div><div class=\"rr\"><img class=\"rth\" src=\"ariake-garden-black-friday-2026/photos/bf.jpg\" alt=\"\"><div class=\"rb\"><div class=\"rn\">有明ガーデン</div><div class=\"rm\">店ごとに<b>期間が違う</b></div><div class=\"rs\">トモズ最大60倍は11/25〜29だけ</div></div></div><div class=\"rf\">捨てる前に、どこのレシートか見る</div></div>",
+   "css": "main{padding:0;height:1080px;display:block}\n.rw{height:1080px;background:linear-gradient(160deg,#2A1923,#46293A);color:#fff;padding:56px 52px;display:flex;flex-direction:column}\n.rk{align-self:flex-start;font-size:30px;font-weight:900;color:#2A1923;background:#F5C518;border-radius:999px;padding:6px 24px}\n.rt{font-size:70px;font-weight:900;line-height:1.2;margin:18px 0 26px}\n.rt em{font-style:normal;color:#EC5C90}\n.rr{display:flex;gap:26px;align-items:center;background:rgba(255,255,255,.08);border-radius:22px;padding:18px;margin-bottom:22px}\n.rth{width:230px;height:200px;object-fit:cover;object-position:center 70%;border-radius:14px;flex:none}\n.rn{font-size:42px;font-weight:900;color:#F5C518}\n.rm{font-size:36px;font-weight:800;line-height:1.35;margin-top:6px}\n.rm b{color:#EC5C90}\n.rs{font-size:27px;font-weight:700;color:#e7d6de;margin-top:8px;line-height:1.35}\n.rf{margin-top:auto;font-size:36px;font-weight:900;text-align:center;color:#F5C518}",
+   "alt": "湾岸のモールの11月のレシートの条件。晴海トリトンは1店500円以上を4店分、11月16日〜18日のレシートだけで、11月18日に500円クーポンと交換。ららぽーと豊洲は決まった5店で3,000円以上の1枚と、ほかの店の1枚。紙のレシートだけで、抽選会は11月21日〜23日。有明ガーデンは店ごとに期間が違い、トモズの最大60倍は11月25日〜29日だけ。画像：晴海トリトン・アーバンドック ららぽーと豊洲・有明ガーデンの各公式サイト"
+  }
+ ]
+}
