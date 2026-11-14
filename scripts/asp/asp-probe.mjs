@@ -555,18 +555,28 @@ try {
         await go(u); await a8Reauth(p, u);
         const got = await p.evaluate(() => [...new Set([...document.querySelectorAll('a[href*="programId="]')].map((a) => (a.href.match(/programId=(s\d+)/) || [])[1]).filter(Boolean))]);
         const fresh = got.filter((x) => !out.includes(x)); out.push(...fresh);
+        pageLog.push(`${kind}${sorted ? '（並べ替え）' : ''} ${pg} ページ目: ${got.length} 件・新しい ${fresh.length} 件`);
         if (got.length < 100 || !fresh.length) break;
       }
       return out; };
-    if (!ids.length) { ids.push(...await listIds('partnered', true)); if (!ids.length) ids.push(...await listIds('partnered', false)); }
+    // 2026-11-14 affiliate: 11/14 の朝、並べ替え付きの一覧が 1 ページ目（100 件）で止まり、394 件が 100 件になった（blog3 の依頼）。
+    // 並べ替え付き・無しの両方を読んで合わせる。それでも前の回より 1 割以上減ったら、読み損ねとみなして前の結果を残す
+    const pageLog = [];
+    if (!ids.length) { const seen = new Set();
+      for (const sorted of [true, false]) for (const x of await listIds('partnered', sorted).catch(() => [])) if (!seen.has(x)) { seen.add(x); ids.push(x); } }
+    let prevTotal = 0; try { prevTotal = JSON.parse(fs.readFileSync(path.join(OUT, `${WHICH}.json`), 'utf8')).total || 0; } catch {}
+    const shrunk = !process.env.A8_IDS && prevTotal && ids.length < prevTotal * 0.9;
     const applying = process.env.A8_IDS ? null : await listIds('applying', false).catch(() => null);
     const cache = new Map();
     for (const dir of [path.join(OUT), path.join(process.env.OPS_REPORT_DIR || '/tmp', '..', 'asp-probe')]) {
       let files = []; try { files = fs.readdirSync(dir).filter((f) => /^a8partnered.*\.json$/.test(f)); } catch {}
       for (const f of files) { try { for (const r of JSON.parse(fs.readFileSync(path.join(dir, f), 'utf8')).rows || []) if (r.id && r.name && r.name !== '（読めない）') cache.set(r.id, r); } catch {} }
     }
+    lines.push(...pageLog.map((x) => `- 一覧 ${x}`));
     if (!ids.length) {
       lines.push('- ⚠️ 提携中の一覧が 0 件で読めなかった。前の結果を残す（上書きしない）', '');
+    } else if (shrunk) {
+      lines.push(`- ⚠️ 提携中の一覧が ${ids.length} 件で、前の回（${prevTotal} 件）より 1 割以上少ない。読み損ねとみなして前の結果を残す（上書きしない）`, '');
     }
     const from = Number(process.env.A8_FROM || 0), to = Number(process.env.A8_TO || ids.length);
     const NEW_MAX = Number(process.env.A8_NEW_MAX || 80);   // 1 回に開く詳細の上限（残りは次の回）
@@ -595,7 +605,7 @@ try {
     lines.push('');
     // 収益化作戦室が読む JSON（2026-10-12）。名前と広告側の報酬だけ。自分の報酬額は出さない
     lines.push(`- 新しく詳細を開いた ${opened} 件・控えから ${ROWS.length - opened} 件${ids.length - from > ROWS.length ? `・残り ${ids.length - from - ROWS.length} 件は次の回` : ''}`);
-    if (ids.length) fs.writeFileSync(path.join(OUT, `${WHICH}.json`), JSON.stringify({ generated: new Date().toISOString(), total: ids.length, from, to, rows: ROWS, applyingCount: applying ? applying.length : null }, null, 1));
+    if (ids.length && !shrunk) fs.writeFileSync(path.join(OUT, `${WHICH}.json`), JSON.stringify({ generated: new Date().toISOString(), total: ids.length, from, to, rows: ROWS, applyingCount: applying ? applying.length : null }, null, 1));
   }
 
   if (WHICH === 'a8detail') {
