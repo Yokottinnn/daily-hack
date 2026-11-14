@@ -1,0 +1,38 @@
+{
+ "_note": "識別目的で使うロゴ。**商標であり自由ライセンスではない。** 改変しない（CSS の枠は可）。取得元と取得日をここに残す。",
+ "daimaru.png": {
+  "brand": "大丸",
+  "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Daimaru_Logo_full.svg/960px-Daimaru_Logo_full.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Daimaru_Logo_full.svg",
+  "fetched": "2026-11-14",
+  "license_note": "商標。識別目的で使用（Commons の表示: Public domain）"
+ },
+ "isetan.png": {
+  "brand": "伊勢丹",
+  "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Isetan_logo.svg/960px-Isetan_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Isetan_logo.svg",
+  "fetched": "2026-11-14",
+  "license_note": "商標。識別目的で使用（Commons の表示: Public domain）"
+ },
+ "matsuzakaya.png": {
+  "brand": "松坂屋",
+  "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Matsuzakaya_Logo_full.svg/960px-Matsuzakaya_Logo_full.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Matsuzakaya_Logo_full.svg",
+  "fetched": "2026-11-14",
+  "license_note": "商標。識別目的で使用（Commons の表示: Public domain）"
+ },
+ "mitsukoshi.png": {
+  "brand": "三越",
+  "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/MITSUKOSHI_logo.svg/960px-MITSUKOSHI_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:MITSUKOSHI_logo.svg",
+  "fetched": "2026-11-14",
+  "license_note": "商標。識別目的で使用（Commons の表示: Public domain）"
+ },
+ "takashimaya.png": {
+  "brand": "高島屋",
+  "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Takashimaya-Logo.svg/960px-Takashimaya-Logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Takashimaya-Logo.svg",
+  "fetched": "2026-11-14",
+  "license_note": "商標。識別目的で使用（Commons の表示: Public domain）"
+ }
+}
