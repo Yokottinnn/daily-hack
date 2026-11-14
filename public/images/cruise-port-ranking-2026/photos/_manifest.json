@@ -61,5 +61,50 @@
   "artist": "Jakub Hałun",
   "fetched": "2026-11-14",
   "via": "t635"
+ },
+ "kobe1.jpg": {
+  "file": "File:Cruise ship \"Concerto\" at Kobe Port at night.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Cruise_ship_%22Concerto%22_at_Kobe_Port_at_night.jpg",
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Cruise_ship_%22Concerto%22_at_Kobe_Port_at_night.jpg/1280px-Cruise_ship_%22Concerto%22_at_Kobe_Port_at_night.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "lic": "CC BY-SA 4.0",
+  "artist": "そらみみ",
+  "fetched": "2026-11-14",
+  "via": "t635"
+ },
+ "sasebo1.jpg": {
+  "file": "File:Port of Island of Sasebo in 99 islands outside Cruise-ship.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Port_of_Island_of_Sasebo_in_99_islands_outside_Cruise-ship.jpg",
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Port_of_Island_of_Sasebo_in_99_islands_outside_Cruise-ship.jpg/1280px-Port_of_Island_of_Sasebo_in_99_islands_outside_Cruise-ship.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "lic": "CC BY-SA 4.0",
+  "artist": "Jason M. C., Han",
+  "fetched": "2026-11-14",
+  "via": "t636"
+ },
+ "kagoshima2.jpg": {
+  "file": "File:Marine port Kagoshima 02.JPG",
+  "page": "https://commons.wikimedia.org/wiki/File:Marine_port_Kagoshima_02.JPG",
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Marine_port_Kagoshima_02.JPG/1280px-Marine_port_Kagoshima_02.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "lic": "CC BY-SA 3.0",
+  "artist": "Sakoppi",
+  "fetched": "2026-11-14",
+  "via": "t645"
+ },
+ "hiroshimab1.jpg": {
+  "file": "File:Hiroshima Port Ujina Passenger Terminal 20070811 crop2.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Hiroshima_Port_Ujina_Passenger_Terminal_20070811_crop2.jpg",
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Hiroshima_Port_Ujina_Passenger_Terminal_20070811_crop2.jpg/1280px-Hiroshima_Port_Ujina_Passenger_Terminal_20070811_crop2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "lic": "CC BY-SA 3.0",
+  "artist": "Aude",
+  "fetched": "2026-11-14",
+  "via": "t645"
+ },
+ "shimizub1.jpg": {
+  "file": "File:Mount Fuji and Port of Shimizu.JPG",
+  "page": "https://commons.wikimedia.org/wiki/File:Mount_Fuji_and_Port_of_Shimizu.JPG",
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Mount_Fuji_and_Port_of_Shimizu.JPG/1280px-Mount_Fuji_and_Port_of_Shimizu.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "lic": "CC BY-SA 4.0",
+  "artist": "Alpsdake",
+  "fetched": "2026-11-14",
+  "via": "t645"
  }
 }
