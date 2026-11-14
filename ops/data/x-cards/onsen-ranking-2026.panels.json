@@ -1,0 +1,25 @@
+{
+ "_doc": "X 告知の画像（温泉の都道府県ランキング）。node scripts/gen-x-panels.mjs ops/data/x-cards/onsen-ranking-2026.panels.json",
+ "_note": "2026-11-15 blog3 の依頼。写真は Wikimedia Commons（photos/_manifest.json）。画像の中に出所は出さず ALT に撮影者名とライセンスを書く",
+ "imageBase": "public/images/onsen-ranking-2026",
+ "out": "public/images/onsen-ranking-2026/x",
+ "theme": "ink",
+ "panels": [
+  {
+   "file": "1-source.jpg",
+   "kind": "html",
+   "noHeader": true,
+   "html": "<div class=\"srw\"><img class=\"srph\" src=\"photos/beppu.jpg\" alt=\"\"><div class=\"srsh\"></div><div class=\"srtx\"><div class=\"srkk\">源泉の数（2025年3月末）</div><div class=\"srt\">大分は<em>全国の18%</em></div><div class=\"srr srhl\"><span class=\"srk\">1</span><span class=\"srn\">大分</span><span class=\"srv\">5,094か所</span></div><div class=\"srr\"><span class=\"srk\">2</span><span class=\"srn\">鹿児島</span><span class=\"srv\">2,735か所</span></div><div class=\"srr\"><span class=\"srk\">3</span><span class=\"srn\">北海道</span><span class=\"srv\">2,249か所</span></div><div class=\"srr\"><span class=\"srk\">4</span><span class=\"srn\">静岡</span><span class=\"srv\">2,185か所</span></div><div class=\"srf\">2位の鹿児島の2倍近い</div></div></div>",
+   "css": "main{padding:0;height:1080px;display:block}\n.srw{position:relative;height:1080px;background:#1E1219;color:#fff;overflow:hidden}\n.srph{position:absolute;right:0;top:0;width:470px;height:1080px;object-fit:cover;opacity:.55}\n.srsh{position:absolute;inset:0;background:linear-gradient(90deg,#1E1219 52%,rgba(30,18,25,.35))}\n.srtx{position:absolute;left:56px;top:56px;width:640px;bottom:56px;display:flex;flex-direction:column}\n.srkk{align-self:flex-start;font-size:28px;font-weight:900;color:#2A1923;background:#F5C518;border-radius:999px;padding:6px 22px}\n.srt{font-size:64px;font-weight:900;line-height:1.2;margin:16px 0 22px}\n.srt em{font-style:normal;color:#EC5C90}\n.srr{display:flex;align-items:center;gap:18px;padding:12px 18px;margin-bottom:10px;border-radius:14px;background:rgba(255,255,255,.07);font-size:38px;font-weight:800}\n.srk{width:44px;color:#F5C518;font-weight:900;text-align:center}\n.srn{flex:1}\n.srv{font-variant-numeric:tabular-nums}\n.srhl{background:#D63E76;font-size:44px}\n.srhl .srk{color:#fff}\n.srf{margin-top:auto;font-size:28px;font-weight:700;color:#e7d6de;line-height:1.45}\n.srph{width:520px;opacity:.85}\n.srsh{background:linear-gradient(90deg,#1E1219 50%,rgba(30,18,25,.15))}\n.srt{font-size:76px;margin:20px 0 34px}\n.srr{font-size:50px;padding:22px 24px;margin-bottom:18px}\n.srhl{font-size:56px}\n.srf{font-size:36px !important;font-weight:800}",
+   "alt": "源泉の数の都道府県ランキング（2025年3月末）。1位 大分 5,094か所（全国の18%）、2位 鹿児島 2,735か所、3位 北海道 2,249か所、4位 静岡 2,185か所。出典：環境省「令和6年度 温泉利用状況」。写真：別府の湯けむり Marie-Sophie Mejan（CC BY 4.0）／Wikimedia Commons"
+  },
+  {
+   "file": "2-stay.jpg",
+   "kind": "html",
+   "noHeader": true,
+   "html": "<div class=\"ctw\"><img class=\"ctph\" src=\"photos/noboribetsu.jpg\" alt=\"\"><div class=\"ctsh\"></div><div class=\"cttx\"><div class=\"ctk\">温泉に泊まった人の数（2024年度）</div><div class=\"ctt\">1位は<em>北海道</em></div><div class=\"ctg\"><div class=\"ctc\"><i>北海道</i><b>1,358万人</b><s>1位</s></div><div class=\"ctc\"><i>大分</i><b>約550万人</b><s>5位（源泉の数は1位）</s></div></div></div></div>",
+   "css": "main{padding:0;height:1080px;display:block}\n.ctw{position:relative;height:1080px;background:#1E1219;color:#fff;overflow:hidden}\n.ctph{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}\n.ctsh{position:absolute;inset:0;background:linear-gradient(180deg,rgba(30,18,25,.15) 0%,rgba(30,18,25,.35) 40%,rgba(30,18,25,.94) 72%)}\n.cttx{position:absolute;left:56px;right:56px;bottom:60px}\n.ctk{display:inline-block;font-size:30px;font-weight:900;color:#2A1923;background:#F5C518;border-radius:999px;padding:6px 22px}\n.ctt{font-size:96px;font-weight:900;line-height:1.15;margin:14px 0 26px}\n.ctt em{font-style:normal;color:#EC5C90}\n.ctg{display:flex;gap:24px}\n.ctc{flex:1;background:rgba(255,255,255,.1);border-radius:20px;padding:22px 28px;display:flex;flex-direction:column}\n.ctc i{font-style:normal;font-size:30px;font-weight:800;color:#f3dbe5}\n.ctc b{font-size:84px;font-weight:900;color:#F5C518;line-height:1.15}\n.ctc s{text-decoration:none;font-size:30px;font-weight:800}",
+   "alt": "温泉に泊まった人の数（2024年度）は1位が北海道の1,358万人、2位は静岡の1,058万人。源泉の数が1位の大分は約550万人（5,495,869人）で5位。出典：環境省「令和6年度 温泉利用状況」。写真：登別温泉の地獄谷 Calistemon（CC BY-SA 4.0）／Wikimedia Commons"
+  }
+ ]
+}
