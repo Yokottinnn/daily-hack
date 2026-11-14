@@ -637,7 +637,12 @@
     "check": [
       "文面（数字は 11/10 に読んだ値段）",
       "画像 2 枚（宿5軒の表・JAL 機の写真は CC BY-SA を ALT に）"
-    ]
+    ],
+    "planDate": "2026-11-17",
+    "planTime": "12:00",
+    "scheduledAt": "2026-11-17T12:00:00+09:00",
+    "approval": "2026-11-15 00:3x JST 利用者「この投稿を17日の火曜日に予約投稿して」",
+    "note": "x485 で 11/17 12:00 に予約"
   },
   "poikatsu-amazon-bf-itsu": {
     "status": "draft",
