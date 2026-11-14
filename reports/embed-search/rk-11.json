@@ -1,0 +1,582 @@
+{
+ "ap-haneda": {
+  "x": [
+   {
+    "id": "2121442860264538460",
+    "name": "まろねふ@闘病中",
+    "sn": "YMS_3281F_",
+    "blue": false,
+    "at": "2026-11-14T03:19:27.000Z",
+    "likes": 0,
+    "text": "米国で発生した航空管制システムの障害で、羽田空港にも余波が広がっています。 第3ターミナルの国際線出発ロビーでは足止めされた多くの旅行客で溢れています。 米国への出発便は12時時点で約10分～30分遅れになっています。 日本との時差は約17時間、これから半日後に影響が大きくなるのでは。 https://t.co/kgsTGSEi0I",
+    "media": true
+   },
+   {
+    "id": "2106127089225416993",
+    "name": "マダムハニー／世界をお得に駆けめぐる",
+    "sn": "awatabi2",
+    "blue": true,
+    "at": "2026-10-02T21:00:02.000Z",
+    "likes": 63,
+    "text": "羽田空港第3ターミナル 海外へ行く人、 これ知ってるだけで結構違います。 ・両替所は最初に並ばない ・クレカで両替できる店もある ・JGCならエコノミーでもキャセイラウンジ ・朝10時と11時では混雑が全然違う 詳しくは↓",
+    "media": false
+   },
+   {
+    "id": "1991652119842287817",
+    "name": "NG*H",
+    "sn": "h4b82kix",
+    "blue": true,
+    "at": "2025-11-20T23:37:23.000Z",
+    "likes": 541,
+    "text": "羽田空港第3ターミナル ANAラウンジ混雑でANAスイートラウンジ入室資格ない人もANAスイートラウンジに案内するのどうなの？ こんなの不公平だからやめてほしい。 これがSFCの害かww https://t.co/R78Ikban2c",
+    "media": true
+   },
+   {
+    "id": "2119220233647075437",
+    "name": "在華坊",
+    "sn": "zaikabou",
+    "blue": true,
+    "at": "2026-11-08T00:07:31.000Z",
+    "likes": 58,
+    "text": "逆に（逆に？）第3ターミナルから神奈川のタクシーが出禁になっているので、神奈川方面の定額運賃を利用したい場合は第1第2ターミナルを使ってくださいと案内されているのだが、深夜に国際線で羽田空港に着いたらどうすりゃええの、とずっと思ってる",
+    "media": false
+   },
+   {
+    "id": "1991049517194785134",
+    "name": "アルファ🌏家なしホテル暮らし",
+    "sn": "alpha8net4",
+    "blue": true,
+    "at": "2025-11-19T07:42:51.000Z",
+    "likes": 13,
+    "text": "デルタスカイクラブ🇺🇸 羽田空港第3ターミナル ネット上の情報と、AIの回答ではゴールドメダリオンでもメイン（エコノミー）の乗客は入れないとのこと🤔 ダメ元で荷物の預け時に、デルタのスタッフさんに聞いてみた 👻ラウンジ入れないですよね？ 👦デルタアメックス持ってたら入れますよ 👻？？？ https://t.co/tXqCpsNmmi",
+    "media": true
+   }
+  ],
+  "yt": [
+   {
+    "id": "dSq-qqvYg2Y",
+    "title": "【ゆる回】同期CA3人が私服でトークしたら違った一面が見えました",
+    "ch": "JAL、サブチャンネルはじめました。",
+    "meta": "95万 2 年前",
+    "oTitle": "【ゆる回】同期CA3人が私服でトークしたら違った一面が見えました",
+    "oAuthor": "JAL、サブチャンネルはじめました。"
+   },
+   {
+    "id": "z4RHgJcZlkg",
+    "title": "CAのオフィスに行ったら飛んでないCAがたくさんいました",
+    "ch": "JAL、サブチャンネルはじめました。",
+    "meta": "70万 1 年前",
+    "oTitle": "CAのオフィスに行ったら飛んでないCAがたくさんいました",
+    "oAuthor": "JAL、サブチャンネルはじめました。"
+   },
+   {
+    "id": "FRMax5QyiX8",
+    "title": "羽田空港公式アプリ - Haneda Airport",
+    "ch": "HANEDA Airport",
+    "meta": "1.4万 3 年前",
+    "oTitle": "羽田空港公式アプリ - Haneda Airport",
+    "oAuthor": "HANEDA Airport "
+   },
+   {
+    "id": "mqRN_Cgymk8",
+    "title": "【ANAのCA1日密着】羽田空港での出社から退勤まで大公開！",
+    "ch": "ANA公式YouTube",
+    "meta": "813万 5 年前",
+    "oTitle": "【ANAのCA1日密着】羽田空港での出社から退勤まで大公開！",
+    "oAuthor": "ANA公式YouTube "
+   },
+   {
+    "id": "itFCT5p2j_A",
+    "title": "A Motion Time-lapse Journey Through a Day｜ 羽田空港（HANEDA Airport）",
+    "ch": "HANEDA Airport",
+    "meta": "3.5万 2 年前",
+    "oTitle": "A Motion Time-lapse Journey Through a Day｜ 羽田空港（HANEDA Airport）",
+    "oAuthor": "HANEDA Airport "
+   },
+   {
+    "id": "55FZ0X8E0tI",
+    "title": "管制塔から望む羽田空港 —Every Single Day｜ 羽田空港（HANEDA Airport）",
+    "ch": "HANEDA Airport",
+    "meta": "2.9万 2 年前",
+    "oTitle": "管制塔から望む羽田空港 —Every Single Day｜ 羽田空港（HANEDA Airport）",
+    "oAuthor": "HANEDA Airport "
+   }
+  ]
+ },
+ "ap-narita": {
+  "x": [
+   {
+    "id": "1983867960390512930",
+    "name": "すが夫婦",
+    "sn": "sugabell_family",
+    "blue": true,
+    "at": "2025-10-30T12:05:54.000Z",
+    "likes": 71,
+    "text": "📍成田空港第2ターミナル 制限内 ラウンジ「 虚空 -KoCoo‐」 ✈️出発前に昭和レトロがテーマの店内でのんびり夕飯をいただきました！ カウンターで注文できるメニューは味噌豚骨ラーメンをオーダー🍜 ビール、日本酒、ワインあり🍺🍶🍷 プライオリティパス持ちなので全て無料🥹 有難い🙏 https://t.co/FTL6iVY4b5",
+    "media": true
+   },
+   {
+    "id": "2118865868633571376",
+    "name": "sky-budgetスカイバジェット",
+    "sn": "skybudget",
+    "blue": true,
+    "at": "2026-11-07T00:39:24.000Z",
+    "likes": 23,
+    "text": "KUAʻAINAの新ブランド「KUAʻAINA’s Smashed Burger」が成田空港第2ターミナルに全国初出店 https://t.co/bz9dT0qFn9 https://t.co/whz0kZsq0j",
+    "media": true
+   },
+   {
+    "id": "2074096241248788905",
+    "name": "元祖食品サンプル屋",
+    "sn": "ganso_sample",
+    "blue": true,
+    "at": "2026-07-06T11:40:53.000Z",
+    "likes": 93,
+    "text": "＼ お知らせ ✨／ 成田空港内のお店「好奇心の部屋」にて 商品をお取り扱いいただいています✨ 夏休みに空港をご利用の際は ぜひお立ち寄りください✈ 📍成田空港第2ターミナル本館4階 AIRPORT MALL内 気になる方はぜひリポスト👆🔁 https://t.co/qTfHHOtJWZ https://t.co/rCnSqaym8k",
+    "media": true
+   },
+   {
+    "id": "2113193649735688428",
+    "name": "SPRING JAPAN（スプリング・ジャパン）",
+    "sn": "springjapan0801",
+    "blue": true,
+    "at": "2026-10-22T09:00:01.000Z",
+    "likes": 80,
+    "text": "／ フライト前の待ち時間、どう過ごす？✈️☕ ＼ 成田空港第2ターミナルにある 「Airport Café NODOKA」でゆったり過ごしませんか？✨ #スプリング・ジャパン の7:59までに 出発する早朝便をご利用の方は、 NODOKAの利用料金が20％OFF！😊 📍 成田空港第2ターミナル 📅 https://t.co/umGhMhQfIa",
+    "media": true
+   }
+  ],
+  "yt": [
+   {
+    "id": "0ML0y-i7MuM",
+    "title": "Narita Airport Business Aviation Terminal - Premier Gate- | Your Private Gateway to Japan",
+    "ch": "成田空港 Narita Airport【公式】",
+    "meta": "252 5 日前",
+    "oTitle": "Narita Airport Business Aviation Terminal - Premier Gate- | Your Private Gateway to Japan",
+    "oAuthor": "成田空港 Narita Airport【公式】"
+   },
+   {
+    "id": "jXndSsPQpD8",
+    "title": "【空港の未来を考える】成田空港で働く若手スタッフを対象に空港ツアーとワークショップを開催しました（なるほど☆成田空港/前編）",
+    "ch": "成田空港 Narita Airport【公式】",
+    "meta": "594 13 日前",
+    "oTitle": "【空港の未来を考える】成田空港で働く若手スタッフを対象に空港ツアーとワークショップを開催しました（なるほど☆成田空港/前編）",
+    "oAuthor": "成田空港 Narita Airport【公式】"
+   },
+   {
+    "id": "r6aVgFiDh9o",
+    "title": "【成田空港】『再び飛び立つ準備を。』オリジナルムービー | 15秒ver③",
+    "ch": "成田空港 Narita Airport【公式】",
+    "meta": "1379 5 年前",
+    "oTitle": "【成田空港】『再び飛び立つ準備を。』オリジナルムービー | 15秒ver③",
+    "oAuthor": "成田空港 Narita Airport【公式】"
+   },
+   {
+    "id": "ObB41ABvbhw",
+    "title": "【成田空港】『再び飛び立つ準備を。』オリジナルムービー | 15秒ver②",
+    "ch": "成田空港 Narita Airport【公式】",
+    "meta": "1155 5 年前",
+    "oTitle": "【成田空港】『再び飛び立つ準備を。』オリジナルムービー | 15秒ver②",
+    "oAuthor": "成田空港 Narita Airport【公式】"
+   },
+   {
+    "id": "wPPaFEj4MWA",
+    "title": "【成田空港】『再び飛び立つ準備を。』オリジナルムービー | 15秒ver①",
+    "ch": "成田空港 Narita Airport【公式】",
+    "meta": "1126 5 年前",
+    "oTitle": "【成田空港】『再び飛び立つ準備を。』オリジナルムービー | 15秒ver①",
+    "oAuthor": "成田空港 Narita Airport【公式】"
+   },
+   {
+    "id": "LZpA7cZkB7I",
+    "title": "【成田空港駐車場混雑のおしらせ】",
+    "ch": "成田空港 Narita Airport【公式】",
+    "meta": "24万 1 年前",
+    "oTitle": "【成田空港駐車場混雑のおしらせ】",
+    "oAuthor": "成田空港 Narita Airport【公式】"
+   }
+  ]
+ },
+ "ap-kix": {
+  "x": [
+   {
+    "id": "2119587212182557004",
+    "name": "cafe➡️Hiro@SFC2020#ただの☕好き",
+    "sn": "cafe78036723",
+    "blue": true,
+    "at": "2026-11-09T00:25:46.000Z",
+    "likes": 35,
+    "text": "✈️ 関西国際空港｜国際線アライアンス別比較 ChatGPTを使って、2026年冬ダイヤの国際線直行便をアライアンス別に集計してみました。 🟢 スターアライアンス：週141便（12.1%） 🔴 ワンワールド：週82.5便（7.1%） 🔵 スカイチーム・系列：週180便（15.4%） ⚫ 非加盟・LCC等：週763便（65.4%） https://t.co/HN9vzzC6ot",
+    "media": true
+   },
+   {
+    "id": "2120861287005782226",
+    "name": "cafe➡️Hiro@SFC2020#ただの☕好き",
+    "sn": "cafe78036723",
+    "blue": true,
+    "at": "2026-11-12T12:48:29.000Z",
+    "likes": 5,
+    "text": "✈️ 関西国際空港｜国際線・全航空会社比較 先ほどのANAとJALの比較に続き、今回は関空に就航する全航空会社を比較してみました。 2026年冬ダイヤ初週の国際線出発便数は、週1,166.5便。 🥇 Peach：120便 🥈 チェジュ航空：78便 🥉 トリニティ航空：74.5便 🔴 JAL：16位タイ・週24便 🔵 https://t.co/xLMsQaojoX",
+    "media": true
+   },
+   {
+    "id": "2119659209084252317",
+    "name": "cafe➡️Hiro@SFC2020#ただの☕好き",
+    "sn": "cafe78036723",
+    "blue": true,
+    "at": "2026-11-09T05:11:51.000Z",
+    "likes": 20,
+    "text": "✈️ 日本の国際線｜アライアンス別・週間出発便数比較 ChatGPTを使って、全国32空港の国際線直行便をアライアンス別に集計してみました。 🌏 全国合計：週5,404.5便 🟢 スターアライアンス：1,107便（20.5%） 🔴 ワンワールド：754便（14.0%） 🔵 スカイチーム・系列：879.5便（16.3%） ⚫ https://t.co/vrShED8MSN",
+    "media": true
+   },
+   {
+    "id": "2089618438050422984",
+    "name": "ぷーさん🤣Hilton 💎reserve予定✈️旅する投資家",
+    "sn": "dragoninvest1",
+    "blue": true,
+    "at": "2026-08-18T07:40:33.000Z",
+    "likes": 29,
+    "text": "関西国際空港（関空）の国内線「ANA・JAL共用ラウンジ」に到着。 噂には聞いてたけど……マジでガラガラで貸し切り状態！笑 伊丹や羽田のラウンジの混雑が嘘みたいに静かで快適すぎる。 https://t.co/QGK0QUln1n",
+    "media": true
+   }
+  ],
+  "yt": [
+   {
+    "id": "DrZCbYNo7GY",
+    "title": "【ドブに捨てた10万円】アメリカの車のイベントに行こうとしたらトラブル発生！まさかの新幹線で関西国際空港から成田へ直行＜DAY1＞",
+    "ch": "あかでみっくラバー博士のくるま奮闘記　AMC Racing",
+    "meta": "17万 1 年前",
+    "oTitle": "【ドブに捨てた10万円】アメリカの車のイベントに行こうとしたらトラブル発生！まさかの新幹線で関西国際空港から成田へ直行＜DAY1＞",
+    "oAuthor": "あかでみっくラバー博士のくるま奮闘記　AMC Racing"
+   },
+   {
+    "id": "OI-NK0lhp44",
+    "title": "関西国際空港 開港30周年SPECIAL MOVIE ーさぁ、次の目的地へー（15秒ver.）",
+    "ch": "Kansai Airports Group",
+    "meta": "590 2 年前",
+    "oTitle": "関西国際空港 開港30周年SPECIAL MOVIE ーさぁ、次の目的地へー（15秒ver.）",
+    "oAuthor": "Kansai Airports Group"
+   },
+   {
+    "id": "l5K0iV-lFj0",
+    "title": "【公式】Part2 「Smile Airport！」関西国際空港（KIX）・大阪国際空港（ITM）",
+    "ch": "Kansai Airports Group",
+    "meta": "1万 12 年前",
+    "oTitle": "【公式】Part2 「Smile Airport！」関西国際空港（KIX）・大阪国際空港（ITM）",
+    "oAuthor": "Kansai Airports Group"
+   },
+   {
+    "id": "-0HRkMnGszk",
+    "title": "不可能と思われた関西国際空港の内部 ― 日本の200億ドル規模の巨大浮体式空港プロジェクト",
+    "ch": "Sabin 土木工学",
+    "meta": "128万 9 か月前",
+    "oTitle": "不可能と思われた関西国際空港の内部 ― 日本の200億ドル規模の巨大浮体式空港プロジェクト",
+    "oAuthor": "Sabin 土木工学"
+   },
+   {
+    "id": "gmX25FLEHz0",
+    "title": "【関西国際空港】急遽、飛行機が飛ばなくなった設定で空港周辺で１日過ごそう！",
+    "ch": "うじとうえだ",
+    "meta": "413万 6 か月前",
+    "oTitle": "【関西国際空港】急遽、飛行機が飛ばなくなった設定で空港周辺で１日過ごそう！",
+    "oAuthor": "うじとうえだ"
+   },
+   {
+    "id": "cZcFTnGeMYs",
+    "title": "【公式】Part1 「Smile Airport！」関西国際空港（KIX）・大阪国際空港（ITM）",
+    "ch": "Kansai Airports Group",
+    "meta": "1.1万 12 年前",
+    "oTitle": "【公式】Part1 「Smile Airport！」関西国際空港（KIX）・大阪国際空港（ITM）",
+    "oAuthor": "Kansai Airports Group"
+   }
+  ]
+ },
+ "ap-fukuoka": {
+  "x": [
+   {
+    "id": "1986388120926101988",
+    "name": "トラベル Watch",
+    "sn": "travelwatch_jp",
+    "blue": true,
+    "at": "2025-11-06T11:00:07.000Z",
+    "likes": 6,
+    "text": "福岡空港、国際線ターミナル待合室の充電対応席が約5.7倍に。お菓子・食品14ブランドも新たに販売 https://t.co/vs0oGVZLBG https://t.co/Fb8ef0BCWt",
+    "media": true
+   },
+   {
+    "id": "2119339274437116152",
+    "name": "福岡空港✈Fukuoka Airport【公式】",
+    "sn": "FukuokaAirport",
+    "blue": false,
+    "at": "2026-11-08T08:00:33.000Z",
+    "likes": 280,
+    "text": "『福岡空港国際線ターミナルビル南側コンコース整備工事』の起工式が行われました！ より多くのお客さまの利便性向上に繋がるよう整備を進めて参ります！ 今後も進化し続ける福岡空港にご期待ください！ https://t.co/B31IJsfslB",
+    "media": true
+   },
+   {
+    "id": "1987758839836668113",
+    "name": "Aviation Wire",
+    "sn": "Aviation_Wire",
+    "blue": true,
+    "at": "2025-11-10T05:46:52.000Z",
+    "likes": 15,
+    "text": "福岡空港、国際線ターミナル刷新12/20完了 免税菓子店は拡張オープン https://t.co/QYiNfiz70I https://t.co/FlHZPvDPQu",
+    "media": true
+   },
+   {
+    "id": "2120974869408198995",
+    "name": "ホテルとグルメの株子ちゃん",
+    "sn": "kabukochan",
+    "blue": true,
+    "at": "2026-11-12T20:19:49.000Z",
+    "likes": 13,
+    "text": "新千歳に新しいラウンジが12月にできます でも、わが家の札幌便では使えません プラザ・プレミアム・ラウンジが新千歳空港の国際線に12月開業します。 ・場所は国際線ターミナル4階、66番ゲート付近。広さ814㎡で170席以上 ・スープカレーや北海道ソフトクリームのアラカルト＋ビュッフェ付き",
+    "media": false
+   },
+   {
+    "id": "2109477657226191212",
+    "name": "Yuu｜鋼の『たび🌏✖︎ まね📈』錬金術士",
+    "sn": "gk33984",
+    "blue": true,
+    "at": "2026-10-12T02:54:00.000Z",
+    "likes": 2,
+    "text": "## ✈️ Today's Column: 【進化が止まらない】都市型空港の最高峰！福岡空港の最新リニューアルと「超効率アクセス」完全ガイド https://t.co/eHY4fPVB47",
+    "media": true
+   },
+   {
+    "id": "2097325148445778095",
+    "name": "【公式】🇲🇾マレーシア ビジネス情報発信【CONNECTION】",
+    "sn": "ShingoAbe6",
+    "blue": true,
+    "at": "2026-09-08T14:04:16.000Z",
+    "likes": 25,
+    "text": "【マレーシア航空、クアラルンプール - 福岡線を再開】 マレーシア航空が9月2日、クアラルンプールと福岡を結ぶ直行便の運航を再開した。約20年ぶりとなる福岡線の復活は、マレーシアと日本・九州を結ぶ新たな航空ネットワークとして注目を集めている。 https://t.co/p6DCdAIyHX",
+    "media": true
+   }
+  ],
+  "yt": [
+   {
+    "id": "Iy8Tv36TU6w",
+    "title": "新福岡空港への移転提言が出ている件について解説します",
+    "ch": "堀江貴文 ホリエモン",
+    "meta": "26万 3 日前",
+    "oTitle": "新福岡空港への移転提言が出ている件について解説します",
+    "oAuthor": "堀江貴文 ホリエモン"
+   },
+   {
+    "id": "qS6TYwJRStc",
+    "title": "福岡空港ブランドムービー『空が広がる 未来が拓く』編 ロングver",
+    "ch": "TEAM FUK",
+    "meta": "2911 7 か月前",
+    "oTitle": "福岡空港ブランドムービー『空が広がる 未来が拓く』編 ロングver",
+    "oAuthor": "TEAM FUK"
+   },
+   {
+    "id": "CgMPX_B3XQ8",
+    "title": "福岡空港ブランドムービー『空が広がる 未来が拓く』編ショートver",
+    "ch": "TEAM FUK",
+    "meta": "222 7 か月前",
+    "oTitle": "福岡空港ブランドムービー『空が広がる 未来が拓く』編ショートver",
+    "oAuthor": "TEAM FUK"
+   }
+  ]
+ },
+ "ap-chitose": {
+  "x": [
+   {
+    "id": "1979771232951390249",
+    "name": "NHK北海道",
+    "sn": "nhk_hokkaido",
+    "blue": false,
+    "at": "2025-10-19T04:46:58.000Z",
+    "likes": 10,
+    "text": "新千歳空港 冬の国際線発着数過去最多へ カウンター増設も https://t.co/IKKkHKyA6O https://t.co/IKKkHKyA6O",
+    "media": false
+   },
+   {
+    "id": "2120884970667516298",
+    "name": "Aviation Wire",
+    "sn": "Aviation_Wire",
+    "blue": true,
+    "at": "2026-11-12T14:22:35.000Z",
+    "likes": 50,
+    "text": "新千歳空港、国際線に「プラザ・プレミアム・ラウンジ」26年内開業 https://t.co/3XBXT5Pe4M https://t.co/0nAUA3mjWy",
+    "media": true
+   },
+   {
+    "id": "2121131542449938758",
+    "name": "ななともch 〜お得に充実した旅を〜＠YouTube",
+    "sn": "nanatomo_ch",
+    "blue": true,
+    "at": "2026-11-13T06:42:23.000Z",
+    "likes": 9,
+    "text": "新千歳空港に「PLAZA PREMIUM LOUNGE」💡 新千歳から国際線、まだ乗ったことないので乗ってみたいです❗️",
+    "media": false
+   }
+  ],
+  "yt": [
+   {
+    "id": "ucrdNUq8ULM",
+    "title": "【北海道】新千歳空港の地図にのっていない幻の立ち食い寿しから旅スタート！",
+    "ch": "ハリセンボンOfficial Channel",
+    "meta": "32万 4 か月前",
+    "oTitle": "【北海道】新千歳空港の地図にのっていない幻の立ち食い寿しから旅スタート！",
+    "oAuthor": "ハリセンボンOfficial Channel"
+   },
+   {
+    "id": "ij9jviin-1w",
+    "title": "#1【密着映像✈️】新千歳空港で初仕事！タイトル未定の撮影裏側に密着📷",
+    "ch": "タイトル未定",
+    "meta": "8781 1 年前",
+    "oTitle": "#1【密着映像✈️】新千歳空港で初仕事！タイトル未定の撮影裏側に密着📷",
+    "oAuthor": "タイトル未定"
+   },
+   {
+    "id": "t_BYYjxH1dE",
+    "title": "精算機の前でびっくり「駐車料金の値段じゃないよ！」 新千歳空港の駐車代3倍値上げスタート 羽田は24時間2800円に対し3500円！狙い通りに混雑は緩和も…利用者から不満の声続出",
+    "ch": "HBCニュース　北海道放送",
+    "meta": "40万 1 年前",
+    "oTitle": "精算機の前でびっくり「駐車料金の値段じゃないよ！」 新千歳空港の駐車代3倍値上げスタート 羽田は24時間2800円に対し3500円！狙い通りに混雑は緩和も…利用者から不満の声続出",
+    "oAuthor": "HBCニュース　北海道放送"
+   },
+   {
+    "id": "F1Qr9RdOWPA",
+    "title": "第13回 新千歳空港国際アニメーション映画祭 公式トレーラー映像/New   Chitose 2026 Signal Film",
+    "ch": "新千歳空港国際アニメーション映画祭",
+    "meta": "23万 1 か月前",
+    "oTitle": "第13回 新千歳空港国際アニメーション映画祭 公式トレーラー映像/New   Chitose 2026 Signal Film",
+    "oAuthor": "新千歳空港国際アニメーション映画祭"
+   },
+   {
+    "id": "GINrMfMq4qo",
+    "title": "第12回 新千歳空港国際アニメーション映画祭 公式トレーラー映像 / New Chitose 2025 Signal Film",
+    "ch": "新千歳空港国際アニメーション映画祭",
+    "meta": "24万 1 年前",
+    "oTitle": "第12回 新千歳空港国際アニメーション映画祭 公式トレーラー映像 / New Chitose 2025 Signal Film",
+    "oAuthor": "新千歳空港国際アニメーション映画祭"
+   },
+   {
+    "id": "WlEuWeDukSo",
+    "title": "【保存版】新千歳空港グルメ攻略！道民がガチで選んだグルメが最高すぎた‥。",
+    "ch": "EZOTABI /エゾタビ",
+    "meta": "27万 6 か月前",
+    "oTitle": "【保存版】新千歳空港グルメ攻略！道民がガチで選んだグルメが最高すぎた‥。",
+    "oAuthor": "EZOTABI /エゾタビ"
+   }
+  ]
+ },
+ "ap-naha": {
+  "x": [
+   {
+    "id": "2057642366849409082",
+    "name": "那覇空港 Naha Airport【公式】",
+    "sn": "nahaairport_oka",
+    "blue": false,
+    "at": "2026-05-22T01:59:04.000Z",
+    "likes": 122,
+    "text": "【混雑情報】 那覇空港駐車場は現在満車となっております。 ご利用を予定されていたお客様には、ご不便をおかけし大変恐縮ですが、公共交通機関や周辺駐車場をご利用くださいますようお願いいたします。 https://t.co/8zL6T0Gx9v https://t.co/g9XYqEgCoO",
+    "media": true
+   },
+   {
+    "id": "2012078403898503341",
+    "name": "🐗188まさえ🦍",
+    "sn": "masaeyama",
+    "blue": false,
+    "at": "2026-01-16T08:24:08.000Z",
+    "likes": 3,
+    "text": "那覇空港、土曜日7時前に行けば駐車場とめれるかな、混雑情報では9時あとが満車っぽいけど、、、、、、、、、、行ってから満車で焦ったら😇 #那覇空港 #駐車場 #空き状況",
+    "media": false
+   },
+   {
+    "id": "2022520663983173959",
+    "name": "Momo",
+    "sn": "MomoAmbassador",
+    "blue": true,
+    "at": "2026-02-14T03:57:57.000Z",
+    "likes": 18,
+    "text": "那覇空港でさくらラウンジに入ろうとしましたが満席とのことで、1000円券を頂戴しました。でも館内ショップはどこも大混雑😢 https://t.co/0OdWGxWgwS",
+    "media": true
+   },
+   {
+    "id": "2075900786152997080",
+    "name": "砂川竜一(つきしろキリスト教会)",
+    "sn": "Tsukishiro1739",
+    "blue": false,
+    "at": "2026-07-11T11:11:30.000Z",
+    "likes": 33,
+    "text": "那覇空港は大混雑。出発も遅れに遅れています。皆さまお疲れ様でございます💦 https://t.co/r49D8xAFLa",
+    "media": true
+   },
+   {
+    "id": "2094995132051534110",
+    "name": "3密",
+    "sn": "SanMitsuGo",
+    "blue": true,
+    "at": "2026-09-02T03:45:37.000Z",
+    "likes": 39,
+    "text": "出発予定時刻になってもドアクローズしてないし搭乗も終わってない でもANA的には遅延理由、那覇空港混雑の為らしいぞ https://t.co/54YJwcHFZh",
+    "media": true
+   },
+   {
+    "id": "2006586519503679945",
+    "name": "ひろっぴー@🇯🇵タワマン🐳京都在住",
+    "sn": "hiro08891",
+    "blue": false,
+    "at": "2026-01-01T04:41:21.000Z",
+    "likes": 4,
+    "text": "那覇空港 1月1日13時の 混雑具合です。 ご参考まで #沖縄 https://t.co/lFloqQBQOM",
+    "media": true
+   }
+  ],
+  "yt": [
+   {
+    "id": "bVeL0DGDQMY",
+    "title": "那覇バス 定期観光",
+    "ch": "第一交通産業グループ",
+    "meta": "5092 7 年前",
+    "oTitle": "那覇バス 定期観光",
+    "oAuthor": "第一交通産業グループ"
+   },
+   {
+    "id": "Yq8WmXplhrU",
+    "title": "🔴【LIVE】沖縄ライブカメラ・那覇 国際通り〈県庁北口側〉 /Okinawa Live Camera 24/7",
+    "ch": "バクノビジョン",
+    "meta": "31 人が視聴中",
+    "oTitle": "🔴【LIVE】沖縄ライブカメラ・那覇 国際通り〈県庁北口側〉 /Okinawa Live Camera 24/7",
+    "oAuthor": "バクノビジョン"
+   },
+   {
+    "id": "i7OAlW0QhQU",
+    "title": "那覇空港に泊まれる?!ファーストキャビン那覇空港 宿泊記＆オフ会レポート",
+    "ch": "おのだまさし",
+    "meta": "2.6万 6 か月前",
+    "oTitle": "那覇空港に泊まれる?!ファーストキャビン那覇空港 宿泊記＆オフ会レポート",
+    "oAuthor": "おのだまさし"
+   },
+   {
+    "id": "JswLd1AVW9g",
+    "title": "【沖縄の空弁】那覇空港の最強コスパ飯。空港職員御用達の「コンビニシャロン」をご紹介！",
+    "ch": "おきなわちゃんねるsupported by沖楽",
+    "meta": "4.4万 8 か月前",
+    "oTitle": "【沖縄の空弁】那覇空港の最強コスパ飯。空港職員御用達の「コンビニシャロン」をご紹介！",
+    "oAuthor": "おきなわちゃんねるsupported by沖楽"
+   },
+   {
+    "id": "em6ReFJSqio",
+    "title": "いま那覇空港が熱い！朝の9:30から開いてて、500円から楽しめる本格的なBARに行ってきた！【沖縄観光/那覇空港】",
+    "ch": "孫六 ShowerTV【Japanese food &okinawa food guide】",
+    "meta": "3.3万 9 か月前",
+    "oTitle": "いま那覇空港が熱い！朝の9:30から開いてて、500円から楽しめる本格的なBARに行ってきた！【沖縄観光/那覇空港】",
+    "oAuthor": "孫六 ShowerTV【Japanese food &okinawa food guide】"
+   },
+   {
+    "id": "pHc0mYnvjok",
+    "title": "【新千歳空港→那覇空港】F22新千歳→那覇タイムアタック　日本最長路線を一体何分で飛行できるのか？（MSFS2024)",
+    "ch": "キャプテン ジョーCAPTAIN JOE",
+    "meta": "113万 4 か月前",
+    "oTitle": "【新千歳空港→那覇空港】F22新千歳→那覇タイムアタック　日本最長路線を一体何分で飛行できるのか？（MSFS2024)",
+    "oAuthor": "キャプテン ジョーCAPTAIN JOE"
+   }
+  ]
+ }
+}

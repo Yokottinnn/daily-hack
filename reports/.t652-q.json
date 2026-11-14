@@ -1,0 +1,44 @@
+[
+ {
+  "slug": "dept-takashimaya-osaka",
+  "x": [
+   "高島屋大阪店 免税"
+  ],
+  "yt": "大阪高島屋"
+ },
+ {
+  "slug": "dept-mitsukoshi",
+  "x": [
+   "日本橋三越本店"
+  ],
+  "yt": "日本橋三越本店 公式"
+ },
+ {
+  "slug": "dept-takashimaya-nihonbashi",
+  "x": [
+   "日本橋高島屋 重要文化財"
+  ],
+  "yt": "日本橋高島屋"
+ },
+ {
+  "slug": "dept-takashimaya-yokohama",
+  "x": [
+   "横浜高島屋 デパ地下"
+  ],
+  "yt": "横浜高島屋"
+ },
+ {
+  "slug": "dept-matsuzakaya",
+  "x": [
+   "松坂屋名古屋店"
+  ],
+  "yt": "松坂屋名古屋店"
+ },
+ {
+  "slug": "dept-ginza-mitsukoshi",
+  "x": [
+   "銀座三越 免税 混雑"
+  ],
+  "yt": "銀座三越"
+ }
+]
