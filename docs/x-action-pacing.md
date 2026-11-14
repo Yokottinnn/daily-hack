@@ -23,6 +23,8 @@
 | `follow` | `1.1/friendships/create.json` | 4 | 180 秒 |
 | `unfollow` | `1.1/friendships/destroy.json` | 6 | 120 秒 |
 
+**2026-11-14 追記（スパムのラベル・x477）:** 30 分の上限に加えて **24 時間の上限（`DAILY`: follow 10・unfollow 10・like 40）** と **深夜の停止（`QUIET`: JST 0〜7 時は follow・unfollow・like を押さない）** を足した。tweet は対象外（予約の告知を止めない）。台帳は 24 時間ぶん残す。
+
 値は `ops/lib/x-action-pacer.cjs` の `LIMITS`。**変えるときはここと CLAUDE.md の表も直す。**
 
 ## 仕組み（2 段）
