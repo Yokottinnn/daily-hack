@@ -17,7 +17,7 @@ fs.mkdirSync(OUT, { recursive: true });
 const BUDGET = Number(process.env.ASP_SEARCH_BUDGET_MS || 220000);
 const T0 = Date.now();
 const KW = (process.env.ASP_KEYWORDS || '').split(',').map((x) => x.trim()).filter(Boolean);
-const NG = /契約者|振込|口座|氏名|合同会社|有限会社|（\d{6,}）|\(\d{6,}\)|あなたの報酬|確定報酬|未確定/;
+const NG = /契約者|振込|口座|氏名|合同会社|有限会社|（\d{6,}）|\(\d{6,}\)|あなたの報酬|確定報酬|未確定|平素より|ご利用いただき|アカウントを選択|Google アカウント/;
 // **A8 の「ログイン再認証」**（2026-10-31）: asp-sync で入ったあとでも、検索・広告リンクの画面を開くと
 // パスワードを聞き直されることがある。そのときは Keychain（dailyhack-asp-a8）の値で入り直して、元の画面を開き直す。値はどこにも書かない
 import { execFileSync as __ex } from 'node:child_process';
