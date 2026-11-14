@@ -215,7 +215,10 @@ references: ["https://www.jreast.co.jp/company/data/passenger/", "https://www.to
 
 東京メトロの池袋駅は52万9,947人で、2位の大手町（35万993人）より約18万人多い。丸ノ内線・有楽町線・副都心線が通っていて、メトロの全130駅で1位よ。JRとメトロの数え方はちがうけれど、どちらの表でも上から2番目までに入っている。JRでもメトロでも、大きな乗り換えの駅ということね。
 
-{{fig:ikebukuro-gate.jpg|池袋駅の東武線の改札|池袋駅の東武線の改札。}}
+<figure class="rn-figure">
+  <img src="/images/station-ridership-ranking-2026/photos/ikebukuro-gate.jpg" alt="池袋駅の東武線の改札" loading="lazy" />
+  <figcaption>池袋駅の東武線の改札。<cite>撮影: MaedaAkihiko ／ <a href="https://commons.wikimedia.org/wiki/File:Tobu-Ikebukuro-STA_South-Gate_out.jpg" target="_blank" rel="noopener">Wikimedia Commons</a>（CC BY-SA 4.0）</cite></figcaption>
+</figure>
 
 駅の中の通路を全部歩いて見せる動画もある。
 
@@ -841,6 +844,7 @@ JR東日本の表は2024年度（2024年4月〜2025年3月）、東京メトロ�
   <li>JRE-Ueno-STA.jpg：<a href="https://commons.wikimedia.org/wiki/File:JRE-Ueno-STA.jpg" target="_blank" rel="noopener">MaedaAkihiko</a>（CC BY-SA 4.0・Wikimedia Commons）</li>
   <li>Tokyo Station (Marunouchi Building).jpg：<a href="https://commons.wikimedia.org/wiki/File:Tokyo_Station_(Marunouchi_Building).jpg" target="_blank" rel="noopener">Alexandr3126</a>（CC BY-SA 4.0・Wikimedia Commons）</li>
   <li>170824 Kita-Senju Station Tokyo Japan01s3.jpg：<a href="https://commons.wikimedia.org/wiki/File:170824_Kita-Senju_Station_Tokyo_Japan01s3.jpg" target="_blank" rel="noopener">663highland</a>（CC BY-SA 4.0・Wikimedia Commons）</li>
+  <li>Tobu-Ikebukuro-STA South-Gate out.jpg：<a href="https://commons.wikimedia.org/wiki/File:Tobu-Ikebukuro-STA_South-Gate_out.jpg" target="_blank" rel="noopener">MaedaAkihiko</a>（CC BY-SA 4.0・Wikimedia Commons）</li>
   <li>Yokohama-STA East-2023.jpg：<a href="https://commons.wikimedia.org/wiki/File:Yokohama-STA_East-2023.jpg" target="_blank" rel="noopener">MaedaAkihiko</a>（CC BY-SA 4.0・Wikimedia Commons）</li>
   <li>Shibuya station renewal 8.jpg：<a href="https://commons.wikimedia.org/wiki/File:Shibuya_station_renewal_8.jpg" target="_blank" rel="noopener">Syced</a>（CC0・Wikimedia Commons）</li>
   <li>Shinagawa Station -01.jpg：<a href="https://commons.wikimedia.org/wiki/File:Shinagawa_Station_-01.jpg" target="_blank" rel="noopener">Aimaimyi</a>（CC BY-SA 3.0・Wikimedia Commons）</li>
