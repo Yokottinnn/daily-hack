@@ -1,0 +1,25 @@
+{
+ "_doc": "X 告知の画像。node scripts/gen-x-panels.mjs ops/data/x-cards/convenience-store-count-ranking-2026.panels.json",
+ "_note": "2026-11-14 blog3 の依頼。写真は Wikimedia Commons（photos/_manifest.json）。画像の中に出所は出さず ALT に撮影者名とライセンスを書く",
+ "imageBase": "public/images/convenience-store-count-ranking-2026",
+ "out": "public/images/convenience-store-count-ranking-2026/x",
+ "theme": "ink",
+ "panels": [
+  {
+   "kind": "html",
+   "noHeader": true,
+   "html": "<div class=\"cvw\"><div class=\"cvk\">コンビニの都道府県別の店の数（3社合計）</div><div class=\"cvt\">1位は<em>東京 7,028店</em></div><div class=\"cvr\"><div class=\"cvn\">◎</div><img class=\"cvi\" src=\"photos/seven2.jpg\" alt=\"\"><div class=\"cvb\"><div class=\"cvnm\">セブン‐イレブン</div><div class=\"cvv\">26</div><div class=\"cvs\">いちばん多い都道府県の数</div></div></div><div class=\"cvr\"><div class=\"cvn\">◎</div><img class=\"cvi\" src=\"photos/lawson3.jpg\" alt=\"\"><div class=\"cvb\"><div class=\"cvnm\">ローソン</div><div class=\"cvv\">11</div><div class=\"cvs\">四国4県と山陰が多い</div></div></div><div class=\"cvr\"><div class=\"cvn\">◎</div><img class=\"cvi\" src=\"photos/familymart2.jpg\" alt=\"\"><div class=\"cvb\"><div class=\"cvnm\">ファミリーマート</div><div class=\"cvv\">10</div><div class=\"cvs\">大阪・愛知が多い</div></div></div><div class=\"cvf\">いちばん少ないのは<b>鳥取 264店</b>。ローソンだけ2026年2月末の数字</div></div>",
+   "css": "main{padding:0;height:1080px;display:block}\n.cvw{height:1080px;background:linear-gradient(160deg,#1E1219,#2A1923);color:#fff;padding:56px 52px;display:flex;flex-direction:column}\n.cvk{align-self:flex-start;font-size:30px;font-weight:900;color:#2A1923;background:#F5C518;border-radius:999px;padding:6px 24px}\n.cvt{font-size:64px;font-weight:900;line-height:1.2;margin:18px 0 26px}\n.cvt em{font-style:normal;color:#EC5C90}\n.cvr{display:flex;gap:24px;align-items:center;background:rgba(255,255,255,.08);border-radius:22px;padding:16px 20px;margin-bottom:20px}\n.cvn{font-size:64px;font-weight:900;color:#F5C518;width:60px;text-align:center;flex:none}\n.cvi{width:230px;height:170px;object-fit:cover;border-radius:14px;flex:none}\n.cvnm{font-size:40px;font-weight:900}\n.cvv{font-size:46px;font-weight:900;color:#EC5C90;margin-top:4px}\n.cvs{font-size:27px;font-weight:700;color:#e7d6de;margin-top:6px}\n.cvf{margin-top:auto;font-size:32px;font-weight:800;line-height:1.45}\n.cvf b{color:#F5C518}",
+   "file": "1-chain.jpg",
+   "alt": "コンビニ3社の都道府県別の店の数。3社合計の1位は東京7,028店、いちばん少ないのは鳥取264店。いちばん多いチェーンで分けると、セブン‐イレブン26都道府県、ローソン11（四国4県と山陰）、ファミリーマート10（大阪・愛知など）。ローソンだけ2026年2月末の数字。写真：セブン‐イレブン MIKI Yoshihito（CC BY 4.0）、ローソン Mr.ちゅらさん（CC BY-SA 4.0）、ファミリーマート Donnie28（CC BY-SA 4.0）、いずれも Wikimedia Commons"
+  },
+  {
+   "kind": "html",
+   "noHeader": true,
+   "html": "<div class=\"wrap\"><img class=\"ph\" src=\"photos/lawsonb1.jpg\" alt=\"\"><div class=\"shade\"></div><div class=\"tx\"><div class=\"k\">47都道府県で数えると</div><div class=\"t\">いちばん少ないのは<em>鳥取</em></div><ul class=\"pts\"><li><b>1位</b>東京 7,028店</li><li><b>最少</b>鳥取 264店</li><li><b>ファミマ</b>大阪・愛知</li><li><b>ローソン</b>四国4県と山陰</li></ul></div></div>",
+   "css": "main{padding:0;height:1080px;display:block}\n.wrap{position:relative;height:1080px;color:#fff;background:#1E1219;overflow:hidden}\n.ph{position:absolute;left:0;top:0;width:100%;height:540px;object-fit:cover}\n.shade{position:absolute;left:0;right:0;top:300px;height:242px;background:linear-gradient(180deg,rgba(30,18,25,0),#1E1219 92%)}\n.tx{position:absolute;left:56px;right:56px;top:430px;bottom:56px;display:flex;flex-direction:column}\n.k{align-self:flex-start;font-size:30px;font-weight:900;color:#2A1923;background:#F5C518;border-radius:999px;padding:6px 22px}\n.t{font-size:64px;font-weight:900;line-height:1.2;margin-top:14px;text-shadow:0 2px 12px rgba(0,0,0,.4)}\n.t em{font-style:normal;color:#EC5C90}\n.pts{list-style:none;margin-top:24px;flex:1;display:flex;flex-direction:column;justify-content:center;gap:18px}\n.pts li{font-size:35px;font-weight:700;line-height:1.35;background:rgba(255,255,255,.08);border-left:10px solid #EC5C90;border-radius:14px;padding:15px 22px}\n.pts b{color:#F5C518;margin-right:12px}",
+   "file": "2-map.jpg",
+   "alt": "コンビニ3社合計の店の数は1位東京7,028店、最少は鳥取264店。ファミリーマートがいちばん多いのは大阪・愛知など、ローソンは四国4県と山陰。写真：ローソン MiNe from Taipei, Taiwan（CC BY 2.0、Wikimedia Commons）"
+  }
+ ]
+}

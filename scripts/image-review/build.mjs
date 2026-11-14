@@ -106,6 +106,10 @@ const FILES = {
   "airport-passenger-ranking-2026": ["1-rank.jpg", "2-growth.jpg"],
   "dept-store-sales-ranking-2026": ["1-rank.jpg", "2-move.jpg"],
   "station-ridership-ranking-2026": ["1-metro.jpg", "2-jr.jpg"],
+  "convenience-store-count-ranking-2026": ["1-chain.jpg", "2-map.jpg"],
+  "npb-attendance-ranking-2026": ["1-rank.jpg", "2-league.jpg"],
+  "furusato-donation-ranking-2026": ["1-rank.jpg", "2-change.jpg"],
+  "electronics-retailer-sales-ranking-2026": ["1-rank.jpg", "2-merge.jpg"],
   "furusato-tax-beginner-guide-2026": ["a1-question.jpg"],
   "poikatsu-hourly-wage-2026": ["a1-compare.jpg"],
 };
