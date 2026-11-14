@@ -46,5 +46,59 @@
   "artist": "Rsa",
   "fetched": "2026-11-14",
   "via": "ops/tasks/t621"
+ },
+ "kix2.jpg": {
+  "file": "File:Kansai International Airport Terminal 2 Restrict area shops 201407.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Kansai_International_Airport_Terminal_2_Restrict_area_shops_201407.jpg",
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Kansai_International_Airport_Terminal_2_Restrict_area_shops_201407.jpg/1280px-Kansai_International_Airport_Terminal_2_Restrict_area_shops_201407.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "lic": "CC BY 3.0",
+  "artist": "Wpcpey",
+  "fetched": "2026-11-14",
+  "via": "cand"
+ },
+ "chitose2.jpg": {
+  "file": "File:New Chitose Airport Terminal from the airplane; July 2018.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:New_Chitose_Airport_Terminal_from_the_airplane;_July_2018.jpg",
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/New_Chitose_Airport_Terminal_from_the_airplane%3B_July_2018.jpg/1280px-New_Chitose_Airport_Terminal_from_the_airplane%3B_July_2018.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "lic": "CC BY 2.0",
+  "artist": "MIKI Yoshihito from Sapporo City,Hokkaido., JAPAN",
+  "fetched": "2026-11-14",
+  "via": "cand"
+ },
+ "itami.jpg": {
+  "file": "File:Itami Airport terminal.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Itami_Airport_terminal.jpg",
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Itami_Airport_terminal.jpg/1280px-Itami_Airport_terminal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "lic": "CC BY-SA 2.0",
+  "artist": "Joe Jones",
+  "fetched": "2026-11-14",
+  "via": "t637"
+ },
+ "centrair.jpg": {
+  "file": "File:Chubu Centrair International Airport - North Wing - 01.JPG",
+  "page": "https://commons.wikimedia.org/wiki/File:Chubu_Centrair_International_Airport_-_North_Wing_-_01.JPG",
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Chubu_Centrair_International_Airport_-_North_Wing_-_01.JPG/1280px-Chubu_Centrair_International_Airport_-_North_Wing_-_01.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "lic": "CC BY 3.0",
+  "artist": "JKT-c",
+  "fetched": "2026-11-14",
+  "via": "t637"
+ },
+ "kagoshima.jpg": {
+  "file": "File:鹿児島空港20210923-IMG 6375.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:%E9%B9%BF%E5%85%90%E5%B3%B6%E7%A9%BA%E6%B8%AF20210923-IMG_6375.jpg",
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/%E9%B9%BF%E5%85%90%E5%B3%B6%E7%A9%BA%E6%B8%AF20210923-IMG_6375.jpg/1280px-%E9%B9%BF%E5%85%90%E5%B3%B6%E7%A9%BA%E6%B8%AF20210923-IMG_6375.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "lic": "CC BY 4.0",
+  "artist": "くろふね",
+  "fetched": "2026-11-14",
+  "via": "t637"
+ },
+ "kobe.jpg": {
+  "file": "File:Kobe Airport06s5s3200.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Kobe_Airport06s5s3200.jpg",
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Kobe_Airport06s5s3200.jpg/1280px-Kobe_Airport06s5s3200.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "lic": "CC BY 2.5",
+  "artist": "663highland",
+  "fetched": "2026-11-14",
+  "via": "t637"
  }
 }
