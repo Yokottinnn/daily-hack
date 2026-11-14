@@ -1,0 +1,50 @@
+{
+ "shinjuku.jpg": {
+  "file": "File:JRE-Shinjuku-STA South-entrance.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:JRE-Shinjuku-STA_South-entrance.jpg",
+  "lic": "CC BY-SA 4.0",
+  "artist": "MaedaAkihiko",
+  "fetched": "2026-11-14",
+  "via": "ops/tasks/t626-station-commons-photos"
+ },
+ "ikebukuro.jpg": {
+  "file": "File:Ikebukuro-STA East.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Ikebukuro-STA_East.jpg",
+  "lic": "CC BY-SA 4.0",
+  "artist": "MaedaAkihiko",
+  "fetched": "2026-11-14",
+  "via": "ops/tasks/t626-station-commons-photos"
+ },
+ "ikebukuro-gate.jpg": {
+  "file": "File:Tobu-Ikebukuro-STA South-Gate out.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Tobu-Ikebukuro-STA_South-Gate_out.jpg",
+  "lic": "CC BY-SA 4.0",
+  "artist": "MaedaAkihiko",
+  "fetched": "2026-11-14",
+  "via": "ops/tasks/t626-station-commons-photos"
+ },
+ "tokyo.jpg": {
+  "file": "File:Tokyo Station (Marunouchi Building).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Tokyo_Station_(Marunouchi_Building).jpg",
+  "lic": "CC BY-SA 4.0",
+  "artist": "Alexandr3126",
+  "fetched": "2026-11-14",
+  "via": "ops/tasks/t626-station-commons-photos"
+ },
+ "otemachi.jpg": {
+  "file": "File:TokyoMetro-M18-Otemachi-station-platform-20071031.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:TokyoMetro-M18-Otemachi-station-platform-20071031.jpg",
+  "lic": "CC BY 2.5",
+  "artist": "LERK",
+  "fetched": "2026-11-14",
+  "via": "ops/tasks/t626-station-commons-photos"
+ },
+ "toyosu.jpg": {
+  "file": "File:Tokyo-Metro-Toyosu-Station-02.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Tokyo-Metro-Toyosu-Station-02.jpg",
+  "lic": "CC BY-SA 3.0",
+  "artist": "Rs1421",
+  "fetched": "2026-11-14",
+  "via": "ops/tasks/t626-station-commons-photos"
+ }
+}
