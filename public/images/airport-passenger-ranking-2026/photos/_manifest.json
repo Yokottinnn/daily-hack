@@ -1,0 +1,50 @@
+{
+ "haneda.jpg": {
+  "file": "File:Haneda Airport Terminal 1·2 Station name sign.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Haneda_Airport_Terminal_1%C2%B72_Station_name_sign.jpg",
+  "lic": "CC BY-SA 4.0",
+  "artist": "Dandy1022",
+  "fetched": "2026-11-14",
+  "via": "ops/tasks/t621"
+ },
+ "narita.jpg": {
+  "file": "File:Narita International Airport Terminal 1.JPG",
+  "page": "https://commons.wikimedia.org/wiki/File:Narita_International_Airport_Terminal_1.JPG",
+  "lic": "CC BY-SA 3.0",
+  "artist": "名無し野電車区",
+  "fetched": "2026-11-14",
+  "via": "ops/tasks/t621"
+ },
+ "kix.jpg": {
+  "file": "File:Kansai International Airport Terminal 1 Interior1 2014.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Kansai_International_Airport_Terminal_1_Interior1_2014.jpg",
+  "lic": "CC BY 3.0",
+  "artist": "Wpcpey",
+  "fetched": "2026-11-14",
+  "via": "ops/tasks/t621"
+ },
+ "fukuoka.jpg": {
+  "file": "File:Fukuoka Airport Domestic Passenger Terminal Building The ENE side Hakata-ku Fukuoka 20261025 164653.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Fukuoka_Airport_Domestic_Passenger_Terminal_Building_The_ENE_side_Hakata-ku_Fukuoka_20261025_164653.jpg",
+  "lic": "CC BY 4.0",
+  "artist": "Hirho",
+  "fetched": "2026-11-14",
+  "via": "ops/tasks/t621"
+ },
+ "chitose.jpg": {
+  "file": "File:New Chitose Airport inside (International).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:New_Chitose_Airport_inside_(International).jpg",
+  "lic": "CC BY-SA 3.0",
+  "artist": "欅 (Keyaki)",
+  "fetched": "2026-11-14",
+  "via": "ops/tasks/t621"
+ },
+ "naha.jpg": {
+  "file": "File:Naha Airport LCC terminal 20140829.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Naha_Airport_LCC_terminal_20140829.jpg",
+  "lic": "CC BY-SA 3.0",
+  "artist": "Rsa",
+  "fetched": "2026-11-14",
+  "via": "ops/tasks/t621"
+ }
+}
