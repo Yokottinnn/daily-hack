@@ -9,6 +9,7 @@ import WanganDayEvents from '../../components/WanganDayEvents.astro';
 import { WANGAN_AREAS, WANGAN_NEWS_TAG, upcomingEvents, jpRange, jpDate, todayJst } from '../../lib/wangan';
 import WanganEventMap from '../../components/WanganEventMap.astro';
 import WanganMapGuide from '../../components/WanganMapGuide.astro';
+import rankingsIndex from '../../data/rankings-index.json';
 import { topByPv } from '../../lib/popular';
 
 export async function getStaticPaths() {
@@ -67,10 +68,10 @@ const meta: Record<string, { label: string; h1: string; lead: string; leadLines?
   rankings: {
     label: 'ランキング',
     h1: '売上・大きさ・安さのランキング｜公式の数字で並べた',
-    lead: 'ららぽーとの売上、イオンモールの大きさ、アウトレットの売上、モーニングの安さ。決算資料や公式の発表など、出どころの言える数字だけで並べたランキングを集めたわ。',
+    lead: 'ららぽーと・百貨店・家電量販店の売上、空港と駅の利用者数、プロ野球の観客動員、ふるさと納税の受入額、コンビニの店舗数。決算資料や国・公式の発表など、出どころの言える数字だけで並べたランキングを集めたわ。',
     face: '/images/expr-05-smug-240.webp',
-    title: 'ランキングまとめ｜ららぽーと売上・イオンモール大きさ・アウトレット売上など公式の数字で並べた',
-    description: 'ららぽーとの売上ランキング、イオンモールの大きさランキング、アウトレットの売上、モーニングが安いチェーン店、ポイ活アプリなど、決算資料や公式の発表の数字だけで並べたランキング記事の一覧。',
+    title: 'ランキングまとめ｜売上・利用者数・観客動員・ふるさと納税など公式の数字で並べた',
+    description: 'ららぽーと・百貨店・家電量販店の売上、空港・駅の利用者数、プロ野球の観客動員、ふるさと納税の受入額、コンビニの都道府県別店舗数など、決算資料や国・公式の発表の数字だけで並べたランキング記事の一覧。各ランキングの1位と数字を早見表にまとめた。',
   },
 };
 
@@ -95,6 +96,13 @@ const pillarPosts = sorted.filter((p) => !p.data.parentPillar);
 
 // 湾岸ライフだけ: これからのイベント・地区・よくある質問（2026-10-30・検索と AI 回答の対策）
 const isWangan = category === 'wangan-life';
+const isRankings = category === 'rankings';
+// 2026-11-14 利用者がダイアログで「ランキング一覧ページを充実させる」を選んだ。各ランキングの 1 位と数字の早見表（記事が公開済みのものだけ出す）
+const rankingGroups = isRankings
+  ? rankingsIndex.groups
+      .map((g) => ({ ...g, items: g.items.filter((it) => sorted.some((p) => p.id === it.slug)) }))
+      .filter((g) => g.items.length > 0)
+  : [];
 const today = todayJst();
 const events = isWangan ? upcomingEvents(sorted, today) : [];
 const areas = isWangan
@@ -241,6 +249,37 @@ for (const p of sorted) {
     </section>
   )}
 
+  {rankingGroups.length > 0 && (
+    <section>
+      <div class="wrap">
+        <div class="sec-head">
+          <h2 id="quick">ランキングの1位 早見表</h2>
+          <span style="font-size: 12px; color: var(--ink-3);">数字は各記事に書いた公式の数字。出どころは右端の列</span>
+        </div>
+        {rankingGroups.map((g) => (
+          <div class="rk-group">
+            <h3>{g.name}</h3>
+            <div class="cmp-table-wrap">
+              <table class="cmp-table prose-table rk-table">
+                <thead><tr><th>ランキング</th><th>1位</th><th>数字</th><th>出どころ</th></tr></thead>
+                <tbody>
+                  {g.items.map((it) => (
+                    <tr>
+                      <td><a href={`/posts/${it.slug}/`}>{it.topic}</a></td>
+                      <td><strong>{it.first}</strong></td>
+                      <td>{it.value}</td>
+                      <td>{it.source}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
+  )}
+
   {featured.length > 0 && (
     <section>
       <div class="wrap">
@@ -351,4 +390,7 @@ for (const p of sorted) {
   .wangan-areas a { display: block; padding: 12px 14px; border: 1px solid var(--pink-200); border-radius: 12px; background: var(--pink-50); }
   .wangan-areas span { color: var(--ink-3); font-size: 12px; }
   .wangan-areas small { display: block; color: var(--ink-2); font-size: 12px; margin-top: 4px; }
+  .rk-group { margin: 0 0 18px; }
+  .rk-group h3 { font-size: 15px; margin: 0 0 8px; }
+  .rk-table td a { font-weight: 700; border-bottom: 1px dotted var(--pink-300); }
 </style>
