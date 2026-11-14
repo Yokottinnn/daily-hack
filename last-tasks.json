@@ -1,3 +1,5 @@
 [
-      {"task": "x486-read-lalaport-artists.sh", "rc": 0, "out": "ららぽーと豊洲の公式ページを読んだ / x486-read-lalaport-artists.md"}
+      {"task": "t672-park-photos.sh", "rc": 0, "out": "t672 / t672-park-photos.md"},
+      {"task": "t673-embed-rk-21.sh", "rc": 0, "out": "- X 2116772766544429104 @tochigi_kotsu  2026-11-01 ♥5 華厳の滝周辺の混雑状況をライブ配信中(栃木県日光市中宮祠 二荒橋前交差点)（https://t.co/3JHvPqRfHe）#日光 #渋滞 #日光渋滞 #日光渋滞対策 #ライブカメ - X 2121531168202055840 @SL_U_nankashi  202"},
+      {"task": "t674-embed-rk-22.sh", "rc": 0, "out": "- X 2019991575204622732 @t96j48OU4j77158  2026-02-07 ♥116 洞爺湖温泉観光協会様で公開しております、洞爺湖温泉の日帰り入浴OKのホテル様一覧です。 お出かけ先の少ない冬時期、洞爺湖にふらっと日帰り入浴なんていかがでしょう？ ht"}
   ]
