@@ -92,6 +92,13 @@
           "source": "NPB"
         },
         {
+          "slug": "jleague-attendance-ranking-2026",
+          "topic": "Jリーグの観客動員（2025年・J1の1試合平均）",
+          "first": "浦和",
+          "value": "37,350人",
+          "source": "Jリーグ公式 データサイト"
+        },
+        {
           "slug": "furusato-donation-ranking-2026",
           "topic": "ふるさと納税の受入額（令和7年度）",
           "first": "泉佐野市",
