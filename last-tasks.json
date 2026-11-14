@@ -1,1 +1,4 @@
-[]
+[
+      {"task": "x474-read-night-follows.sh", "rc": 0, "out": "badge-followback.log competitor-follower-follow.log comment-warmup.log"},
+      {"task": "x475-buzz-posts-1114.sh", "rc": 0, "out": "---  **対象 9 / X が読めた 9**  LLM 不使用。**$0/回**（1 回きり）。"}
+  ]
