@@ -61,5 +61,59 @@
   "artist": "Kekero",
   "fetched": "2026-11-14",
   "via": "t631"
+ },
+ "nagoya1.jpg": {
+  "file": "File:Nagoya City Hall 2011-10-28.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Nagoya_City_Hall_2011-10-28.jpg",
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Nagoya_City_Hall_2011-10-28.jpg/1280px-Nagoya_City_Hall_2011-10-28.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "lic": "CC BY-SA 3.0",
+  "artist": "Alpsdake",
+  "fetched": "2026-11-14",
+  "via": "t636"
+ },
+ "kyoto1.jpg": {
+  "file": "File:202506 Kyoto City Hall 03.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:202506_Kyoto_City_Hall_03.jpg",
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/202506_Kyoto_City_Hall_03.jpg/1280px-202506_Kyoto_City_Hall_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "lic": "CC BY-SA 4.0",
+  "artist": "Jonashtand",
+  "fetched": "2026-11-14",
+  "via": "t636"
+ },
+ "nemuro1.jpg": {
+  "file": "File:Nemuro Hanasaki-Port.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Nemuro_Hanasaki-Port.jpg",
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Nemuro_Hanasaki-Port.jpg/1280px-Nemuro_Hanasaki-Port.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "lic": "CC0",
+  "artist": "MaedaAkihiko",
+  "fetched": "2026-11-14",
+  "via": "t636"
+ },
+ "betsukai1.jpg": {
+  "file": "File:Tetra-Milk-Carton---Betsukai-Milk---2024-04-27 01.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Tetra-Milk-Carton---Betsukai-Milk---2024-04-27_01.jpg",
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Tetra-Milk-Carton---Betsukai-Milk---2024-04-27_01.jpg/1280px-Tetra-Milk-Carton---Betsukai-Milk---2024-04-27_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "lic": "CC BY 4.0",
+  "artist": "RuinDig/Yuki Uchida",
+  "fetched": "2026-11-14",
+  "via": "t636"
+ },
+ "kesennuma1.jpg": {
+  "file": "File:Port kesennuma 001 20130601.JPG",
+  "page": "https://commons.wikimedia.org/wiki/File:Port_kesennuma_001_20130601.JPG",
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Port_kesennuma_001_20130601.JPG/1280px-Port_kesennuma_001_20130601.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "lic": "CC BY-SA 4.0",
+  "artist": "Opqr",
+  "fetched": "2026-11-14",
+  "via": "t645"
+ },
+ "miyazaki2.jpg": {
+  "file": "File:Miyazaki Prefectural Government Headquarters 20170319.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Miyazaki_Prefectural_Government_Headquarters_20170319.jpg",
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Miyazaki_Prefectural_Government_Headquarters_20170319.jpg/1280px-Miyazaki_Prefectural_Government_Headquarters_20170319.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "lic": "CC BY-SA 4.0",
+  "artist": "そらみみ",
+  "fetched": "2026-11-14",
+  "via": "t645"
  }
 }
