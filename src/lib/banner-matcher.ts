@@ -25,6 +25,7 @@ const ARTICLE_TO_BANNER_CATEGORIES: Record<string, string[]> = {
   roundups:  ['travel-hotel', 'travel-air', 'travel-package', 'utility-electric', 'utility-gas'],
   howto:     ['utility-electric', 'utility-gas', 'internet-fiber', 'pointkatsu'],
   'wangan-life': [],
+  rankings: ['travel-hotel', 'utility-electric', 'internet-fiber', 'pointkatsu'],
 };
 
 const TAG_TO_BANNER_KEYWORDS: Record<string, string[]> = {

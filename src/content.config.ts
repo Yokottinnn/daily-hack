@@ -20,6 +20,7 @@ const posts = defineCollection({
           'roundups',
           'howto',
           'wangan-life',
+          'rankings',
         ]),
         z
           .array(
@@ -30,6 +31,7 @@ const posts = defineCollection({
               'roundups',
               'howto',
               'wangan-life',
+              'rankings',
             ]),
           )
           .min(1),

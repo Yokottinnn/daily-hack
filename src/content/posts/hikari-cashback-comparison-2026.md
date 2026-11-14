@@ -2,7 +2,7 @@
 title: "光回線キャッシュバック比較2026｜手取りで並べた2年総額ランキング（戸建て・マンション別）"
 description: "光回線8社の「最大◯万円」を受け取り条件まで読み、手取りで2年総額を並べ直した。戸建て1位は現金還元0円のコミュファ光92,280円、マンションはBIGLOBE光と@nifty光が7万円台で並ぶ。2年で解約したときの工事費残債と解約金も。"
 publishDate: 2026-10-16
-category: ["comparisons", "services", "howto"]
+category: ["comparisons", "services", "howto", "rankings"]
 tags: ["光回線", "キャッシュバック", "光回線 比較", "コミュファ光", "BIGLOBE光", "@nifty光", "So-net 光", "auひかり", "SoftBank 光", "ドコモ光", "フレッツ光", "2026年版"]
 isPR: true
 draft: false

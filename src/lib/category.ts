@@ -10,7 +10,8 @@ export type CategorySlug =
   | 'comparisons'
   | 'roundups'
   | 'howto'
-  | 'wangan-life';
+  | 'wangan-life'
+  | 'rankings';
 
 export const CATEGORY_LABELS: Record<CategorySlug, string> = {
   campaigns: 'キャンペーン速報',
@@ -19,6 +20,7 @@ export const CATEGORY_LABELS: Record<CategorySlug, string> = {
   roundups: 'まとめ',
   howto: 'ハウツー',
   'wangan-life': '湾岸ライフ',
+  rankings: 'ランキング',
 };
 
 type PostData = CollectionEntry<'posts'>['data'];

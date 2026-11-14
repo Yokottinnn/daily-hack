@@ -28,6 +28,11 @@ jobs:
           cache: 'npm'
       - name: Install dependencies
         run: npm ci
+      # 有明の会場（ビッグサイト・有明アリーナ・ガーデンシアター）の公式の一覧を読み直す（2026-11-13）。
+      # 読めなかった会場はコミット済みの中身を使う。失敗してもビルドは止めない。$0
+      - name: Fetch venue schedules
+        continue-on-error: true
+        run: node scripts/fetch-venue-schedules.mjs
       - name: Astro build
         run: npm run build
         env:

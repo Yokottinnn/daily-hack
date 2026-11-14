@@ -18,6 +18,7 @@ const categoryFallback: Record<string, string> = {
   roundups: '/images/eyecatch/roundups.jpg',
   howto: '/images/eyecatch/howto.jpg',
   'wangan-life': '/images/eyecatch/services.jpg',
+  rankings: '/images/eyecatch/comparisons.jpg',
 };
 const image = post.data.eyecatch?.src ?? post.data.eyecatchUrl ?? categoryFallback[cat] ?? '/images/eyecatch/services.jpg';
 // 題名の「｜」より前を見出しに、後ろを添え書きにする（長い題名で 2 行に収まらないため）
