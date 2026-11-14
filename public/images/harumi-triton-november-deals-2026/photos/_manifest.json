@@ -1,0 +1,32 @@
+{
+ "coupon.jpg": {
+  "src": "https://harumi-triton.jp/wp-content/uploads/2026/11/a19dd2dee6b6a251e1f569009ed9c7ec-scaled.jpg",
+  "page": "https://harumi-triton.jp/event_news/event_news-11399/",
+  "credit": "晴海トリトン 公式サイト",
+  "fetched": "2026-11-14"
+ },
+ "coupon-ticket.jpg": {
+  "src": "coupon.jpg の一部を切り出し",
+  "page": "https://harumi-triton.jp/event_news/event_news-11399/",
+  "credit": "晴海トリトン 公式サイト",
+  "fetched": "2026-11-14"
+ },
+ "maze.jpg": {
+  "src": "https://harumi-triton.jp/wp-content/uploads/2026/11/9e8b342e3f357cbfc4b90acb7444abc9-scaled.jpg",
+  "page": "https://harumi-triton.jp/event_news/event_news-11441/",
+  "credit": "晴海トリトン 公式サイト",
+  "fetched": "2026-11-14"
+ },
+ "maze-photo.jpg": {
+  "src": "maze.jpg の一部を切り出し",
+  "page": "https://harumi-triton.jp/event_news/event_news-11441/",
+  "credit": "晴海トリトン 公式サイト",
+  "fetched": "2026-11-14"
+ },
+ "line-gift.jpg": {
+  "src": "maze.jpg の一部を切り出し",
+  "page": "https://harumi-triton.jp/event_news/event_news-11441/",
+  "credit": "晴海トリトン 公式サイト",
+  "fetched": "2026-11-14"
+ }
+}
