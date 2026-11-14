@@ -24,7 +24,7 @@
       "label": "音漏れ（公式の説明）"
     }
   ],
-  "pricesCheckedAt": "2026-11-13T21:42:07.148Z",
+  "pricesCheckedAt": "2026-11-14T21:45:21.072Z",
   "items": [
     {
       "id": "huawei-freeclip-2",
@@ -64,14 +64,14 @@
           "フィルム",
           "中古"
         ],
-        "url": "https://store.shopping.yahoo.co.jp/huaweistore/55037342.html",
-        "price": 24800,
+        "url": "https://store.shopping.yahoo.co.jp/akibasoko/6942103169434.html",
+        "price": 25410,
         "shippingFree": true,
         "point": 0,
-        "reviewAverage": 4.77,
-        "reviewCount": 317,
-        "shop": "HUAWEI 公式 Yahoo!店",
-        "checkedAt": "2026-11-13T21:42:07.148Z"
+        "reviewAverage": null,
+        "reviewCount": 0,
+        "shop": "アキバ倉庫",
+        "checkedAt": "2026-11-14T21:45:21.072Z"
       },
       "amazon": {
         "keyword": "HUAWEI FreeClip 2",
@@ -127,7 +127,7 @@
         "reviewAverage": null,
         "reviewCount": 0,
         "shop": "ディーショップワン Yahoo!店",
-        "checkedAt": "2026-11-13T21:42:07.148Z"
+        "checkedAt": "2026-11-14T21:45:21.072Z"
       },
       "amazon": {
         "keyword": "Anker Soundcore AeroClip",
@@ -171,13 +171,13 @@
           "中古"
         ],
         "url": "https://store.shopping.yahoo.co.jp/pcbomber/252220012509600.html",
-        "price": 16206,
+        "price": 16071,
         "shippingFree": true,
         "point": 0,
         "reviewAverage": null,
         "reviewCount": 0,
         "shop": "PCボンバー Yahoo!店",
-        "checkedAt": "2026-11-13T21:42:07.148Z"
+        "checkedAt": "2026-11-14T21:45:21.072Z"
       },
       "amazon": {
         "keyword": "ソニー LinkBuds Clip WF-LC900",
@@ -220,14 +220,14 @@
           "カバー",
           "中古"
         ],
-        "url": "https://store.shopping.yahoo.co.jp/outletplaza/40001118494.html",
-        "price": 25871,
+        "url": "https://store.shopping.yahoo.co.jp/halsystem/8016647.html",
+        "price": 25603,
         "shippingFree": true,
         "point": 0,
         "reviewAverage": null,
         "reviewCount": 0,
-        "shop": "秋葉原　アウトレットプラザ",
-        "checkedAt": "2026-11-13T21:42:07.148Z"
+        "shop": "ハルシステムヤフー店",
+        "checkedAt": "2026-11-14T21:45:21.072Z"
       },
       "amazon": {
         "keyword": "Shokz OpenDots 2",
@@ -277,7 +277,7 @@
         "reviewAverage": null,
         "reviewCount": 1,
         "shop": "らいぶshop",
-        "checkedAt": "2026-11-13T21:42:07.148Z"
+        "checkedAt": "2026-11-14T21:45:21.072Z"
       },
       "amazon": {
         "keyword": "Shokz OpenDots ONE",
@@ -320,14 +320,14 @@
           "カバー",
           "中古"
         ],
-        "url": "https://store.shopping.yahoo.co.jp/idea-marche/ultraopen.html",
-        "price": 21360,
+        "url": "https://store.shopping.yahoo.co.jp/alljapan-online-shop/4969929259257.html",
+        "price": 21300,
         "shippingFree": true,
         "point": 0,
-        "reviewAverage": 4.83,
-        "reviewCount": 6,
-        "shop": "アイディアマルシェ",
-        "checkedAt": "2026-11-13T21:42:07.148Z"
+        "reviewAverage": null,
+        "reviewCount": 2,
+        "shop": "販売一丁目",
+        "checkedAt": "2026-11-14T21:45:21.072Z"
       },
       "amazon": {
         "keyword": "Bose Ultra Open Earbuds",
