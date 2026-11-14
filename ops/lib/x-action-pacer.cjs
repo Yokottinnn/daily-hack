@@ -54,9 +54,29 @@ function write(j) {
   fs.renameSync(tmp, LEDGER);
 }
 
+// 1 日の上限（2026-11-14・スパムのラベルが付いた。利用者がダイアログで「1 日の上限と深夜の停止を作っておく」を選んだ）。
+// 直近 24 時間で数える。投稿（tweet）は予約の告知を止めないよう上限を付けない
+const DAILY = { follow: 10, unfollow: 10, like: 40 };
+const DAY_MS = 24 * 60 * 60 * 1000;
+// 深夜は押さない（JST 0:00〜6:59）。人が寝ている時間に動くのは自動の印になる。投稿は対象外
+const QUIET = { types: ["follow", "unfollow", "like"], fromHour: 0, toHour: 7 };
+function jstHour(now) { return new Date(now + 9 * 3600000).getUTCHours(); }
+function msUntilQuietEnds(now) {
+  const d = new Date(now + 9 * 3600000); d.setUTCHours(QUIET.toHour, 0, 0, 0);
+  return Math.max(1000, d.getTime() - 9 * 3600000 - now);
+}
+
 function judge(j, type, now) {
   const L = LIMITS[type];
   if (!L) return { ok: true, waitMs: 0, reason: "対象外" };
+  if (QUIET.types.includes(type)) {
+    const h = jstHour(now);
+    if (h >= QUIET.fromHour && h < QUIET.toHour) return { ok: false, waitMs: msUntilQuietEnds(now), reason: `${type}: 深夜（JST ${QUIET.fromHour}〜${QUIET.toHour} 時）は押さない` };
+  }
+  if (DAILY[type]) {
+    const day = (j[type] || []).filter((t) => now - t < DAY_MS);
+    if (day.length >= DAILY[type]) return { ok: false, waitMs: DAY_MS - (now - day[0]) + 1000, reason: `${type}: 24 時間で ${day.length} 回（1 日の上限 ${DAILY[type]}）` };
+  }
   const xs = (j[type] || []).filter((t) => now - t < WINDOW_MS);
   if (xs.length) {
     const since = now - xs[xs.length - 1];
@@ -74,7 +94,7 @@ function take(type, now = Date.now()) {
   if (!lock()) return { ok: false, waitMs: 5000, reason: "台帳のロックが取れない" };
   try {
     const j = read();
-    for (const k of Object.keys(j)) j[k] = (j[k] || []).filter((t) => now - t < 2 * WINDOW_MS);
+    for (const k of Object.keys(j)) j[k] = (j[k] || []).filter((t) => now - t < DAY_MS + WINDOW_MS);
     const r = judge(j, type, now);
     if (r.ok) { (j[type] = j[type] || []).push(now); write(j); }
     return r;
@@ -104,7 +124,7 @@ async function waitFree(type, maxWaitMs) {
   }
 }
 
-module.exports = { LIMITS, LEDGER, WINDOW_MS, check, take, waitTake, waitFree };
+module.exports = { LIMITS, DAILY, QUIET, LEDGER, WINDOW_MS, check, take, waitTake, waitFree };
 
 if (require.main === module) {
   const [cmd, type, sec] = process.argv.slice(2);
@@ -122,7 +142,8 @@ if (require.main === module) {
     const j = read(), now = Date.now();
     for (const [t, L] of Object.entries(LIMITS)) {
       const xs = (j[t] || []).filter((x) => now - x < WINDOW_MS);
-      console.log(`${t}: 直近 30 分 ${xs.length}/${L.max}・間隔 ${L.gapMs / 1000} 秒`);
+      const d = (j[t] || []).filter((x) => now - x < DAY_MS);
+      console.log(`${t}: 直近 30 分 ${xs.length}/${L.max}・間隔 ${L.gapMs / 1000} 秒・直近 24 時間 ${d.length}/${DAILY[t] || "上限なし"}`);
     }
   } else {
     console.error("usage: x-action-pacer.cjs wait <tweet|like|follow|unfollow> [秒] | status");
