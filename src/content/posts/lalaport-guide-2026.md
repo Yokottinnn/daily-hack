@@ -434,6 +434,11 @@ North Gate 3階のフードコートは約1,400席。ららぽーとTOKYO-BAY全
 
 国内で唯一の新規予定地は東京・府中（2029年春）。ただし<strong>「ららぽーと」名称になるかは未発表</strong>だから、この地図には入れていない。
 
+<div class="callout info">
+<p class="head">遠くのららぽーとへ行く日の、ランチと泊まり</p>
+<p style="margin:0">TOKYO-BAY や EXPOCITY のように 1 日では回り切れない施設へ行くなら、ランチは <a href="https://px.a8.net/svt/ejp?a8mat=4BGAV3+EMWNX6+1OK+NV1XD" target="_blank" rel="nofollow sponsored noopener">一休.com レストラン</a>（PR）や <a href="https://hitosara.com/" target="_blank" rel="nofollow sponsored noopener">ヒトサラ</a>（PR）で近くの店を先に予約しておくと、昼どきの行列を避けられる。泊まりがけなら <a href="https://www.jalan.net/" target="_blank" rel="nofollow sponsored noopener">じゃらん</a>（PR）で施設の近くの宿を探せる。</p>
+</div>
+
 ## 大きさ（面積）ランキング｜一番大きいららぽーとはTOKYO-BAY
 
 「どこが一番デカいの？」に、順位で答える。売上は非開示の施設があるが、**面積は全施設で公表されている**ので全部並べられる。

@@ -4,7 +4,7 @@ description: "夜の浜離宮恩賜庭園がチームラボの作品になる（
 publishDate: 2026-10-26
 category: ["wangan-life"]
 tags: ["湾岸ニュース", "チームラボ", "浜離宮", "豊洲", "勝どき", "イベント", "2026年"]
-isPR: false
+isPR: true
 draft: false
 eyecatchUrl: "/images/teamlab-hamarikyu-2026/eyecatch.jpg"
 eyecatchAlt: "チームラボ 浜離宮2026｜夜の森に光る卵形の作品が並ぶ"
@@ -94,6 +94,11 @@ references: ["https://prtimes.jp/main/html/rd/p/000001215.000007339.html", "http
   <li><div class="checklist-body"><strong>② 当日でも、売り切れていなければ買える</strong><p>当日に買うときも公式のチケットサイトから。会場に着いてから買おうとしても買えない。</p></div></li>
   <li><div class="checklist-body"><strong>③ 雨や風の日は、見られない作品が出ることがある</strong><p>屋外の会場なので、天気によって一部の作品の展示が止まる。開場の時間が前後することもある。</p></div></li>
 </ul>
+
+<div class="callout info">
+<p class="head">同じ日に、ほかの体験も予約するなら</p>
+<p style="margin:0">チームラボ 浜離宮のチケットは公式サイトで予約する。その前後にもう 1 か所行くなら、<a href="https://www.asoview.com/" target="_blank" rel="nofollow sponsored noopener">アソビュー！</a>（PR）や <a href="https://www.jalan.net/activity/" target="_blank" rel="nofollow sponsored noopener">じゃらん 遊び・体験予約</a>（PR）で、東京の体験やチケットを日付で探せる。</p>
+</div>
 
 ## 豊洲・勝どき・月島からの行き方｜大江戸線で1駅から
 

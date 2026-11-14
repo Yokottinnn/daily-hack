@@ -189,6 +189,11 @@ JR東日本が品川の車両基地の跡地につくった街。**一度に開�
 <iframe src="https://www.youtube-nocookie.com/embed/cyMCFIHcLh8" title="【ニュウマン高輪】どこで食べる？これ1本で分かる！注目のレストラン＆カフェ44店徹底案内（東京お散歩グルメ Tokyo Cafe Vlog）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
 </div>
 
+<div class="callout info">
+<p class="head">高輪のレストランを先に予約するなら</p>
+<p style="margin:0">週末の昼や記念日のディナーは、<a href="https://px.a8.net/svt/ejp?a8mat=4BGAV3+EMWNX6+1OK+NV1XD" target="_blank" rel="nofollow sponsored noopener">一休.com レストラン</a>（PR）や <a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+33C3OA+3UQG+5YRHE" target="_blank" rel="nofollow sponsored noopener">OZmall</a>（PR）で高輪・品川の店の空きと特典つきのプランを見ておくと、当日に並ばずに済む。</p>
+</div>
+
 <h2 id="cafe">カフェ｜朝7時から開いている店がある</h2>
 
 <figure class="rn-figure">
