@@ -1,3 +1,4 @@
 [
-      {"task": "t621-airport-commons-photos.sh", "rc": 0, "out": "t621 / t621-airport-commons.md"}
+      {"task": "x477-pacer-daily-cap-and-grace-3d.sh", "rc": 0, "out": "置いた: /Users/ny/.openclaw/workspace/lib/x-action-pacer.cjs（7698 bytes・元は .bak.20261114-192546）   		GRACE_DAYS => 3 **いま走っている。触らない**（次の周回でやり直す）"},
+      {"task": "x478-read-follow-pacer-usage.sh", "rc": 0, "out": "12"}
   ]
