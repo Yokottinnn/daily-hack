@@ -110,6 +110,7 @@ const FILES = {
   "npb-attendance-ranking-2026": ["1-rank.jpg", "2-league.jpg"],
   "furusato-donation-ranking-2026": ["1-rank.jpg", "2-change.jpg"],
   "electronics-retailer-sales-ranking-2026": ["1-rank.jpg", "2-merge.jpg"],
+  "cruise-port-ranking-2026": ["1-rank.jpg", "2-tokyo.jpg"],
   "furusato-tax-beginner-guide-2026": ["a1-question.jpg"],
   "poikatsu-hourly-wage-2026": ["a1-compare.jpg"],
 };
