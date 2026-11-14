@@ -1,16 +1,15 @@
 {
-  "generated": "2026-11-13T22:29:57.486Z",
+  "generated": "2026-11-14T04:19:24.621Z",
   "providers": {
-    "a8": {
-      "name": "A8.net",
+    "vc": {
+      "name": "バリューコマース",
       "loggedIn": true,
       "needsHuman": false,
       "credentialsInKeychain": true,
       "reason": "",
-      "url": "https://media-console.a8.net/program/list/partnered",
-      "title": "参加中プログラム｜A8.netメディア管理画面",
-      "partnered": 100,
-      "menus": 40
+      "url": "https://aff.valuecommerce.ne.jp/home",
+      "title": "ダッシュボード | アフィリエイト管理画面",
+      "menus": 23
     }
   }
 }

@@ -1,6 +1,6 @@
 # バリューコマース（asp-sync）
 
-生成: **2026-11-13T16:12:05.558Z**
+生成: **2026-11-14T04:19:24.621Z**
 
 - ログイン: **できている**
 - 最終 URL: https://aff.valuecommerce.ne.jp/home
@@ -18,9 +18,9 @@
 | サイト設定 | https://aff.valuecommerce.ne.jp/account/siteManage |
 | 【重要】バリューコマース アフィリエイト 一部業務対応への影響について（アフィリエイトサイト向け） | https://www.valuecommerce.ne.jp/support/maintenance/23050.html |
 | 【重要】広告主サイトの稼働状況に関するお知らせ | https://www.valuecommerce.ne.jp/support/maintenance/22906.html |
-| 世界最大級！ツアーアクティビティの検索サイト「Liigo」販促プログラム | https://aff.valuecommerce.ne.jp/ad/adDetail/2161122?tag=cm&spot=d |
-| VAIOストア 販売促進プログラム | https://aff.valuecommerce.ne.jp/ad/adDetail/2169074?tag=cm&spot=d |
 | Amazon(アマゾン)アソシエイトプログラム | https://aff.valuecommerce.ne.jp/ad/adDetail/2090096?recommendOid=4933233 |
+| 電子コミックサイト ブッコミ 月額コース契約プログラム | https://aff.valuecommerce.ne.jp/ad/adDetail/2171815?tag=cm&spot=d |
+| 世界最大級！ツアーアクティビティの検索サイト「Liigo」販促プログラム | https://aff.valuecommerce.ne.jp/ad/adDetail/2161122?tag=cm&spot=d |
 | 遊び予約／レジャーチケット購入サイト「アソビュー！」 | https://aff.valuecommerce.ne.jp/ad/adDetail/2130178?tag=cm&spot=d |
 | 無料保険相談「保険マンモス」面談実施プログラム | https://aff.valuecommerce.ne.jp/ad/adDetail/2170534 |
 | Audibleアフィリエイト紹介プログラム | https://aff.valuecommerce.ne.jp/ad/adDetail/2174874 |
@@ -39,9 +39,9 @@
 ```text
 ログアウト
 人気ワード：
-PAL|
-BUYMA|
-ebook
+kindle|
+online|
+WEGO
 ダッシュボード
 レポート
 詳細検索
