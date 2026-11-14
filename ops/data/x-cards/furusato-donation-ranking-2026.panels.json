@@ -1,0 +1,25 @@
+{
+ "_doc": "X 告知の画像。node scripts/gen-x-panels.mjs ops/data/x-cards/furusato-donation-ranking-2026.panels.json",
+ "_note": "2026-11-14 blog3 の依頼。写真は Wikimedia Commons（photos/_manifest.json）。画像の中に出所は出さず ALT に撮影者名とライセンスを書く",
+ "imageBase": "public/images/furusato-donation-ranking-2026",
+ "out": "public/images/furusato-donation-ranking-2026/x",
+ "theme": "ink",
+ "panels": [
+  {
+   "kind": "html",
+   "noHeader": true,
+   "html": "<div class=\"fsw\"><div class=\"fsk\">ふるさと納税の受入額（令和7年度・総務省）</div><div class=\"fst\">1位は<em>泉佐野市</em></div><div class=\"fsr\"><div class=\"fsn\">1</div><img class=\"fsi\" src=\"photos/izumisano1.jpg\" alt=\"\"><div class=\"fsb\"><div class=\"fsnm\">泉佐野市（大阪）</div><div class=\"fsv\">230.4億円</div><div class=\"fss\"></div></div></div><div class=\"fsr\"><div class=\"fsn\">2</div><img class=\"fsi\" src=\"photos/shiranuka1.jpg\" alt=\"\"><div class=\"fsb\"><div class=\"fsnm\">白糠町（北海道）</div><div class=\"fsv\">223.3億円</div><div class=\"fss\"></div></div></div><div class=\"fsr\"><div class=\"fsn\">3</div><img class=\"fsi\" src=\"photos/miyakonojo1.jpg\" alt=\"\"><div class=\"fsb\"><div class=\"fsnm\">都城市（宮崎）</div><div class=\"fsv\">216.5億円</div><div class=\"fss\"></div></div></div><div class=\"fsf\">全国の合計は<b>1兆3,314億円</b>。上位4つが200億円を超えた</div></div>",
+   "css": "main{padding:0;height:1080px;display:block}\n.fsw{height:1080px;background:linear-gradient(160deg,#1E1219,#2A1923);color:#fff;padding:56px 52px;display:flex;flex-direction:column}\n.fsk{align-self:flex-start;font-size:30px;font-weight:900;color:#2A1923;background:#F5C518;border-radius:999px;padding:6px 24px}\n.fst{font-size:64px;font-weight:900;line-height:1.2;margin:18px 0 26px}\n.fst em{font-style:normal;color:#EC5C90}\n.fsr{display:flex;gap:24px;align-items:center;background:rgba(255,255,255,.08);border-radius:22px;padding:16px 20px;margin-bottom:20px}\n.fsn{font-size:64px;font-weight:900;color:#F5C518;width:60px;text-align:center;flex:none}\n.fsi{width:230px;height:170px;object-fit:cover;border-radius:14px;flex:none}\n.fsnm{font-size:40px;font-weight:900}\n.fsv{font-size:46px;font-weight:900;color:#EC5C90;margin-top:4px}\n.fss{font-size:27px;font-weight:700;color:#e7d6de;margin-top:6px}\n.fsf{margin-top:auto;font-size:32px;font-weight:800;line-height:1.45}\n.fsf b{color:#F5C518}",
+   "file": "1-rank.jpg",
+   "alt": "ふるさと納税の受入額（令和7年度・総務省）。1位泉佐野市（大阪）230.4億円、2位白糠町（北海道）223.3億円、3位都城市（宮崎）216.5億円。全国の合計は1兆3,314億円で、上位4つが200億円を超えた。写真：泉佐野市 Kekero（CC BY-SA 3.0）、白糠町 pakku（CC BY 3.0）、都城市 ja:User:Sanjo（CC BY-SA 3.0）、いずれも Wikimedia Commons"
+  },
+  {
+   "kind": "html",
+   "noHeader": true,
+   "html": "<div class=\"wrap\"><img class=\"ph\" src=\"photos/shiranuka2.jpg\" alt=\"\"><div class=\"shade\"></div><div class=\"tx\"><div class=\"k\">令和7年度・全国</div><div class=\"t\">上位4つが<em>200億円超</em></div><ul class=\"pts\"><li><b>宝塚市</b>令和6年度は1位・令和7年度は3.3億円</li><li><b>全国</b>1兆3,314億円</li><li><b>2位</b>白糠町（北海道）223.3億円</li><li><b>並べた数</b>全1,741市区町村</li></ul></div></div>",
+   "css": "main{padding:0;height:1080px;display:block}\n.wrap{position:relative;height:1080px;color:#fff;background:#1E1219;overflow:hidden}\n.ph{position:absolute;left:0;top:0;width:100%;height:540px;object-fit:cover}\n.shade{position:absolute;left:0;right:0;top:300px;height:242px;background:linear-gradient(180deg,rgba(30,18,25,0),#1E1219 92%)}\n.tx{position:absolute;left:56px;right:56px;top:430px;bottom:56px;display:flex;flex-direction:column}\n.k{align-self:flex-start;font-size:30px;font-weight:900;color:#2A1923;background:#F5C518;border-radius:999px;padding:6px 22px}\n.t{font-size:64px;font-weight:900;line-height:1.2;margin-top:14px;text-shadow:0 2px 12px rgba(0,0,0,.4)}\n.t em{font-style:normal;color:#EC5C90}\n.pts{list-style:none;margin-top:24px;flex:1;display:flex;flex-direction:column;justify-content:center;gap:18px}\n.pts li{font-size:35px;font-weight:700;line-height:1.35;background:rgba(255,255,255,.08);border-left:10px solid #EC5C90;border-radius:14px;padding:15px 22px}\n.pts b{color:#F5C518;margin-right:12px}",
+   "file": "2-change.jpg",
+   "alt": "令和7年度のふるさと納税の受入額は、上位4つが200億円を超えた。全国の合計は1兆3,314億円、2位は白糠町（北海道）223.3億円。令和6年度に1位だった宝塚市は3.3億円。全1,741市区町村を並べた。写真：白糠町 Syced（CC0、Wikimedia Commons）"
+  }
+ ]
+}

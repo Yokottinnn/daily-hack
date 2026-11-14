@@ -266,5 +266,21 @@
   "blog-station-ranking": {
     "style": "discover",
     "why": "『豊洲はメトロ130駅で5位、新橋・東京・新宿より多い』という湾岸の発見から入る。同じ日のランキング 2 本（対比型・順位型）と入り方を変えた"
+  },
+  "blog-conbini-ranking": {
+    "style": "zukan",
+    "why": "47都道府県をチェーンで塗り分ける図鑑型。自分の県を探したくなる"
+  },
+  "blog-npb-ranking": {
+    "style": "roundup",
+    "why": "1位・合計・2019年との差を短くまとめる。同じ日のランキング（対比・順位・発見）と入り方を変えた"
+  },
+  "blog-furusato-ranking": {
+    "style": "contrast",
+    "why": "1位の泉佐野と、前の年の1位から3.3億円に落ちた宝塚の対比で締める"
+  },
+  "blog-electronics-ranking": {
+    "style": "verified",
+    "why": "決算短信の数字だけで並べ、『ノジマは家電の部分だけなら3,399億円』と数え方の違いを確かめた事実で出す"
   }
 }

@@ -1,0 +1,25 @@
+{
+ "_doc": "X 告知の画像。node scripts/gen-x-panels.mjs ops/data/x-cards/electronics-retailer-sales-ranking-2026.panels.json",
+ "_note": "2026-11-14 blog3 の依頼。写真は Wikimedia Commons（photos/_manifest.json）。画像の中に出所は出さず ALT に撮影者名とライセンスを書く",
+ "imageBase": "public/images/electronics-retailer-sales-ranking-2026",
+ "out": "public/images/electronics-retailer-sales-ranking-2026/x",
+ "theme": "ink",
+ "panels": [
+  {
+   "kind": "html",
+   "noHeader": true,
+   "html": "<div class=\"elw\"><div class=\"elk\">家電量販店の売上高（決算短信）</div><div class=\"elt\">1位は<em>ヤマダ</em></div><div class=\"elr\"><div class=\"eln\">1</div><img class=\"eli\" src=\"photos/yamada1.jpg\" alt=\"\"><div class=\"elb\"><div class=\"elnm\">ヤマダ</div><div class=\"elv\">1兆6,918億円</div><div class=\"els\"></div></div></div><div class=\"elr\"><div class=\"eln\">2</div><img class=\"eli\" src=\"photos/biccamera1.jpg\" alt=\"\"><div class=\"elb\"><div class=\"elnm\">ビックカメラ</div><div class=\"elv\">1兆412億円</div><div class=\"els\"></div></div></div><div class=\"elr\"><div class=\"eln\">3</div><img class=\"eli\" src=\"logos/nojima.png\" alt=\"\" style=\"object-fit:contain;background:#fff;padding:18px;box-sizing:border-box\"><div class=\"elb\"><div class=\"elnm\">ノジマ</div><div class=\"elv\">9,828億円</div><div class=\"els\">家電の部分だけなら3,399億円</div></div></div><div class=\"elf\">ヤマダとエディオンは<b>2026年6月5日</b>に経営統合の基本合意</div></div>",
+   "css": "main{padding:0;height:1080px;display:block}\n.elw{height:1080px;background:linear-gradient(160deg,#1E1219,#2A1923);color:#fff;padding:56px 52px;display:flex;flex-direction:column}\n.elk{align-self:flex-start;font-size:30px;font-weight:900;color:#2A1923;background:#F5C518;border-radius:999px;padding:6px 24px}\n.elt{font-size:64px;font-weight:900;line-height:1.2;margin:18px 0 26px}\n.elt em{font-style:normal;color:#EC5C90}\n.elr{display:flex;gap:24px;align-items:center;background:rgba(255,255,255,.08);border-radius:22px;padding:16px 20px;margin-bottom:20px}\n.eln{font-size:64px;font-weight:900;color:#F5C518;width:60px;text-align:center;flex:none}\n.eli{width:230px;height:170px;object-fit:cover;border-radius:14px;flex:none}\n.elnm{font-size:40px;font-weight:900}\n.elv{font-size:46px;font-weight:900;color:#EC5C90;margin-top:4px}\n.els{font-size:27px;font-weight:700;color:#e7d6de;margin-top:6px}\n.elf{margin-top:auto;font-size:32px;font-weight:800;line-height:1.45}\n.elf b{color:#F5C518}",
+   "file": "1-rank.jpg",
+   "alt": "家電量販店の売上高（各社の決算短信）。1位ヤマダ1兆6,918億円、2位ビックカメラ1兆412億円、3位ノジマ9,828億円（家電の部分だけなら3,399億円）。ヤマダとエディオンは2026年6月5日に経営統合の基本合意。写真：ヤマダ 円周率３パーセント（CC BY-SA 4.0）、ビックカメラ Syced（CC0）、いずれも Wikimedia Commons。ノジマはロゴ"
+  },
+  {
+   "kind": "html",
+   "noHeader": true,
+   "html": "<div class=\"wrap\"><img class=\"ph\" src=\"photos/edion1.jpg\" alt=\"\"><div class=\"shade\"></div><div class=\"tx\"><div class=\"k\">ヤマダとエディオン</div><div class=\"t\"><em>経営統合</em>の基本合意</div><ul class=\"pts\"><li><b>合意</b>2026年6月5日</li><li><b>ヤマダ</b>1兆6,918億円で1位</li><li><b>ノジマ</b>家電の部分だけなら3,399億円</li><li><b>並べた数</b>上場7社</li></ul></div></div>",
+   "css": "main{padding:0;height:1080px;display:block}\n.wrap{position:relative;height:1080px;color:#fff;background:#1E1219;overflow:hidden}\n.ph{position:absolute;left:0;top:0;width:100%;height:540px;object-fit:cover}\n.shade{position:absolute;left:0;right:0;top:300px;height:242px;background:linear-gradient(180deg,rgba(30,18,25,0),#1E1219 92%)}\n.tx{position:absolute;left:56px;right:56px;top:430px;bottom:56px;display:flex;flex-direction:column}\n.k{align-self:flex-start;font-size:30px;font-weight:900;color:#2A1923;background:#F5C518;border-radius:999px;padding:6px 22px}\n.t{font-size:64px;font-weight:900;line-height:1.2;margin-top:14px;text-shadow:0 2px 12px rgba(0,0,0,.4)}\n.t em{font-style:normal;color:#EC5C90}\n.pts{list-style:none;margin-top:24px;flex:1;display:flex;flex-direction:column;justify-content:center;gap:18px}\n.pts li{font-size:35px;font-weight:700;line-height:1.35;background:rgba(255,255,255,.08);border-left:10px solid #EC5C90;border-radius:14px;padding:15px 22px}\n.pts b{color:#F5C518;margin-right:12px}",
+   "file": "2-merge.jpg",
+   "alt": "ヤマダとエディオンは2026年6月5日に経営統合の基本合意をした。ヤマダの売上高は1兆6,918億円で1位。ノジマは家電の部分だけなら3,399億円。上場7社を決算短信の数字で並べた。写真：エディオン Tokumeigakarinoaoshima（CC0、Wikimedia Commons）"
+  }
+ ]
+}
