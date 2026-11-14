@@ -101,6 +101,8 @@ const FILES = {
   "pma-tokyo-vol11-bigsight-2026": ["1-official.jpg", "2-point.jpg"],
   "jal-tour-vs-separate-2026": ["1-compare.jpg", "2-plane.jpg"],
   "amazon-blackfriday-2026-itsu": ["1-official.jpg", "2-point.jpg"],
+  "wangan-receipt-2026-11": ["1-receipt.jpg"],
+  "harumi-triton-november-deals-2026": ["1-official.jpg", "2-point.jpg"],
   "furusato-tax-beginner-guide-2026": ["a1-question.jpg"],
   "poikatsu-hourly-wage-2026": ["a1-compare.jpg"],
 };
