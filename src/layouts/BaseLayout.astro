@@ -158,6 +158,28 @@ const yandexVerification = import.meta.env.PUBLIC_YANDEX_VERIFICATION ?? '';
               });
             }
           } catch(e) {}
+          // 2026-11-14 affiliate: 成果リンク・3 店ボタンのクリックを記事ごとに計る（利用者がダイアログで選択）。
+          // rel="sponsored" のリンクと、LinkSwitch で成果リンクになる店のリンクを押したら affiliate_click を送る。
+          // 同意の扱いは上の consent の設定に従う（拒否なら GA4 は Cookie を使わない）
+          try {
+            var AFF = [['a8.net','A8'],['valuecommerce','VC'],['hb.afl.rakuten','楽天'],['tag=dailyhack-22','Amazon'],
+              ['jalan.net','VC'],['travel.yahoo.co.jp','VC'],['ikyu.com','VC'],['hitosara.com','VC'],['asoview.com','VC'],['shopping.yahoo.co.jp','VC']];
+            document.addEventListener('click', function (e) {
+              var a = e.target && e.target.closest ? e.target.closest('a[href]') : null;
+              if (!a) return;
+              var href = a.href || '', rel = a.getAttribute('rel') || '', asp = '';
+              for (var i = 0; i < AFF.length; i++) if (href.indexOf(AFF[i][0]) >= 0) { asp = AFF[i][1]; break; }
+              if (!asp && !/sponsored/.test(rel)) return;
+              var art = document.querySelector('article') || document.body, r = art.getBoundingClientRect(), ar = a.getBoundingClientRect();
+              var pos = r.height > 0 ? Math.max(0, Math.min(100, Math.round((ar.top - r.top) / r.height * 100))) : null;
+              var shop = (a.className.match(/shop-btn--(rakuten|yahoo|amazon)/) || [])[1] || '';
+              var host = ''; try { host = new URL(href).hostname; } catch (_) {}
+              gtag('event', 'affiliate_click', {
+                asp: asp || 'その他', link_host: host, position_pct: pos, shop_store: shop,
+                link_text: (a.textContent || '').replace(/\s+/g, ' ').trim().slice(0, 60), transport_type: 'beacon'
+              });
+            }, true);
+          } catch(e) {}
         </script>
       </>
     )}
