@@ -73,6 +73,13 @@
           "source": "JR東日本"
         },
         {
+          "slug": "subway-station-ranking-2026",
+          "topic": "東京メトロの駅の乗降人員（2025年度・1日平均）",
+          "first": "池袋",
+          "value": "52万9,947人",
+          "source": "東京メトロ"
+        },
+        {
           "slug": "cruise-port-ranking-2026",
           "topic": "クルーズ船の寄港回数（2025年）",
           "first": "横浜",
