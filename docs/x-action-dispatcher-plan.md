@@ -31,6 +31,13 @@
 | 列に残す期限 | 48 時間。過ぎたら押さずに捨てる（古い判断で押さない） |
 | 1 日の総数 | 第 1 段の上限のまま（フォロー 10・解除 10） |
 
+## 決まったこと（2026-11-14）
+
+- 優先の順は案のとおり（利用者「この順でよい」）
+- まず試し運転（利用者「第 2 段をまず試し運転で作る」）: x-action-pacer が押す直前の記録（`data/x-action-shadow.jsonl`）を残し、
+  `com.dailyhack.x-action-dispatcher`（15 分ごと・`DRY_RUN=1`・`ops/lib/x-action-dispatcher.cjs`）が「本番ならこれを押した」を
+  `data/x-action-dispatcher-dry.jsonl` に書く（x482）。何も押さない
+
 ## 段取り
 
 1. 列のファイルと押す係を作る（DRY_RUN で 1 日動かし、何を押す予定だったかだけ記録）
