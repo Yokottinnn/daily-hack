@@ -1,3 +1,3 @@
 [
-      {"task": "x483-read-spam-label.sh", "rc": 0, "out": "- 読めた行 163・当てはまった行 1 - 読めた行 118・当てはまった行 0"}
+      {"task": "t631-ranking-commons-photos.sh", "rc": 0, "out": "t631 / t631-airport-commons.md"}
   ]
