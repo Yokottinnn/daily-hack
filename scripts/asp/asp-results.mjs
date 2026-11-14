@@ -14,7 +14,7 @@ const { chromium } = createRequire(path.join(PW_DIR, 'x.js'))('playwright-core')
 const MODE = process.env.RESULTS_MODE || 'shape';
 const OUT = path.join(process.env.OPS_REPORT_DIR || '/tmp', 'asp-results');
 fs.mkdirSync(OUT, { recursive: true });
-const NG = /契約者|振込|口座|氏名|会社|様$|さん$|Welcome|ようこそ|こんにちは|@/i;
+const NG = /契約者|振込|口座|氏名|会社|様$|さん$|Welcome|ようこそ|こんにちは|@|平素より|ご利用いただき|アカウントを選択|Google アカウント/i;
 const hide = (x) => String(x).replace(/[0-9０-９][0-9０-９,，.]*/g, '#').replace(/[A-Za-z0-9_\-]{16,}/g, '［伏せた］');
 const lines = [`# ASP の成果の画面（asp-results・${MODE}）`, '', `生成: **${new Date().toISOString()}**`, ''];
 process.on('unhandledRejection', (e) => { lines.push(`- ⚠️ 未処理のエラー: ${hide(String(e && e.message || e).split('\n')[0].slice(0, 160))}`); });

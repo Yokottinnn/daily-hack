@@ -15,7 +15,7 @@ const OUT = path.join(process.env.OPS_REPORT_DIR || path.join(os.homedir(), '.op
 fs.mkdirSync(OUT, { recursive: true });
 const WHICH = process.env.ASP_PROBE || '';
 // **会員名の行（Welcome, ○○ / ようこそ○○さん）も出さない**（2026-10-11 に楽天ウェブサービスで出してしまった）
-const NG = /契約者|振込|口座|氏名|合同会社|有限会社|（\d{6,}）|\(\d{6,}\)|あなたの報酬|確定報酬|未確定|様$|さん$|Welcome|ようこそ|こんにちは/i;
+const NG = /契約者|振込|口座|氏名|合同会社|有限会社|（\d{6,}）|\(\d{6,}\)|あなたの報酬|確定報酬|未確定|様$|さん$|Welcome|ようこそ|こんにちは|平素より|ご利用いただき|アカウントを選択|Google アカウント/i;
 // **A8 の「ログイン再認証」**（2026-10-31）: asp-sync で入ったあとでも、検索・広告リンクの画面を開くと
 // パスワードを聞き直されることがある。そのときは Keychain（dailyhack-asp-a8）の値で入り直して、元の画面を開き直す。値はどこにも書かない
 import { execFileSync as __ex } from 'node:child_process';
