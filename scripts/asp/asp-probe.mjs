@@ -814,6 +814,150 @@ try {
       return { url: location.href, title: document.title, codes, head, ctrls, txt }; }, vis.toString());
     lines.push(`- 画面: ${d.url}（${d.title.slice(0, 40)}）`, `- 見出し: ${d.head.join(' ／ ')}`, `- タグらしいもの ${d.codes.length} 件`, ...d.codes.map((c) => '```html\n' + c + '\n```'), '- 設定の部品:', ...d.ctrls.filter((x) => !NG.test(x)).map((x) => `  - ${x}`), '- 関係する行:', ...d.txt.filter((x) => !NG.test(x)).map((x) => `  - ${x}`), '');
   }
+  if (WHICH === 'applyvc6') {
+    // **VC の提携申請・6 回目（t618）。2026-11-14 利用者がダイアログで「アソビュー・じゃらん遊び体験」「さとふる」の申請を選んだ。** 手順は applyvc3 と同じ（費用の記載・選択欄・送信ボタンが 1 つに決まらないときは送らない）。対象は VC_TARGETS="名前|検索語|ID;…"
+    // **VC の提携申請・3 回目（t302）。利用者が 2026-10-12 に「4 社とも申請する」を選び、2026-10-17 に「Mac に送らせる許可を出す」を選んだ。**
+    // t301 で、一覧の行は div.result-elm、チェック欄は input[name=check_option]、一括提携ボタンはチェックするまで隠れて無効と分かった。
+    // 1 社ずつ: 検索 → その行だけチェック → 一括提携 → 確認画面を読む → 費用の記載・選択欄があれば送らない／送信ボタンが 1 つに決まらなければ送らない
+    const vis = (e) => { const r = e.getBoundingClientRect(); const cs = getComputedStyle(e); return r.width > 0 && r.height > 0 && cs.visibility !== 'hidden' && cs.display !== 'none'; };
+    const search = async (kw) => { await go(`https://aff.valuecommerce.ne.jp/ad/adList?${encodeURIComponent('ad_search_condition_form[keyword]')}=${encodeURIComponent(kw)}&${encodeURIComponent('ad_search_condition_form[appStatus]')}=`); };
+    const rowOf = (id) => p.locator('div.result-elm').filter({ has: p.locator(`a[href*="adDetail/${id}"]`) }).first();
+    const status = async (id) => { const r = rowOf(id); if (!(await r.count())) return '一覧に出ない';
+      return ((await r.innerText().catch(() => '')).match(/提携中|提携済み?|提携待ち|審査中|即時提携|審査あり|自動提携|再申請可|否認|見送り/g) || []).join('・') || '表示なし'; };
+    for (const [name, kw, id] of (process.env.VC_TARGETS || '').split(';').map((x) => x.split('|')).filter((x) => x.length === 3)) {
+      await search(kw);
+      const row = rowOf(id);
+      lines.push(`## VC「${name}」 adDetail/${id}`, `- 申請前の一覧の行: 状態「${await status(id)}」`);
+      const cb = row.locator('input[name=check_option]');
+      if (!(await cb.count())) { lines.push('- チェック欄が無い（提携済みか対象外）→ 送らない', ''); continue; }
+      await cb.first().check({ force: true, timeout: 5000 }).catch((e) => lines.push(`- ⚠️ チェックできない: ${String(e).split('\n')[0]}`));
+      await p.waitForTimeout(1200);
+      const nChecked = await p.locator('input[name=check_option]:checked').count();
+      if (nChecked !== 1) { lines.push(`- ⛔ チェックが ${nChecked} 件（1 件でない）→ 送らない`, ''); continue; }
+      const bulk = p.locator('button:visible:enabled').filter({ hasText: /チェックしたプログラムと一括提携/ });
+      if (!(await bulk.count())) { lines.push('- ⛔ 一括提携のボタンが押せる状態にならない → 送らない', ''); continue; }
+      await bulk.first().click({ timeout: 5000 }).catch((e) => lines.push(`- ⚠️ 押せない: ${String(e).split('\n')[0]}`));
+      await p.waitForTimeout(3500);
+      const d = await p.evaluate((visSrc) => { const vis = eval(visSrc);
+        const ds = [...document.querySelectorAll('[role=dialog], .modal, .modal-dialog, .ui-dialog, [class*=modal], [class*=dialog]')].filter(vis);
+        const root = ds.length ? ds[ds.length - 1] : document.querySelector('main') || document.body;
+        return { inDialog: ds.length > 0, url: location.href.replace(/\?.*$/, ''), text: root.innerText.replace(/\s+/g, ' ').trim().slice(0, 900),
+          selects: [...root.querySelectorAll('select')].filter(vis).map((s) => `${s.name}〔${[...s.options].map((o) => o.text.trim()).slice(0, 8).join('|')}〕`),
+          btns: [...root.querySelectorAll('a,button,input[type=submit],input[type=button]')].filter(vis).map((b) => (b.innerText || b.value || '').trim()).filter(Boolean).slice(0, 14) }; }, vis.toString());
+      lines.push(`- 押した後: ${d.inDialog ? 'ダイアログ' : '画面'}（${d.url}）`, `  - 文: ${NG.test(d.text) ? '（会員情報を含むので伏せる）' : d.text}`, `  - 選択欄: ${d.selects.join(' / ') || 'なし'}`, `  - ボタン: ${d.btns.join(' / ')}`);
+      if (/有料|料金|手数料|費用|課金|支払/.test(d.text)) { lines.push('- ⛔ 費用に関する記載がある → 送らない', ''); await p.keyboard.press('Escape').catch(() => {}); continue; }
+      if (d.selects.length) { lines.push('- ⛔ 選択欄がある（どれを選ぶか決めていない）→ 送らない', ''); await p.keyboard.press('Escape').catch(() => {}); continue; }
+      const sendRe = /^\s*(提携申請(する)?|申請する|提携する|一括提携(申請)?(する)?|提携を申請する|申し込む|OK|はい|送信|確定|同意して申請|同意して提携)\s*$/;
+      const scope = d.inDialog ? '[role=dialog] :is(a,button,input[type=submit],input[type=button]):visible, .modal :is(a,button,input[type=submit],input[type=button]):visible, [class*=modal] :is(a,button,input[type=submit],input[type=button]):visible, [class*=dialog] :is(a,button,input[type=submit],input[type=button]):visible' : 'main :is(a,button,input[type=submit],input[type=button]):visible';
+      const sb = p.locator(scope).filter({ hasText: sendRe });
+      const cnt = await sb.count();
+      if (cnt !== 1) { lines.push(`- ⛔ 送信ボタンが ${cnt} 個（1 個に決まらない）→ 送らない`, ''); await p.keyboard.press('Escape').catch(() => {}); continue; }
+      lines.push(`- 送信: 「${(await sb.first().innerText().catch(() => '')).trim()}」を押す`);
+      await sb.first().click({ timeout: 5000 }).catch((e) => lines.push(`- ⚠️ 押せない: ${String(e).split('\n')[0]}`));
+      await p.waitForTimeout(4000);
+      const after = await p.evaluate(() => (document.body.innerText.match(/[^\n]*(提携|申請|完了|受け付け|エラー)[^\n]*/g) || []).map((x) => x.trim().slice(0, 90)).slice(0, 6));
+      lines.push(...after.filter((x) => !NG.test(x)).map((x) => `- 送った直後: ${x}`));
+      await search(kw);
+      lines.push(`- **送った後の一覧の行: 状態「${await status(id)}」・チェック欄 ${(await rowOf(id).locator('input[name=check_option]').count()) ? 'まだある' : '消えた'}**`, '');
+    }
+  }
+  if (WHICH === 'a8links') {
+    // **読むだけ（t311）。** 提携中の案件の詳細ページから「広告リンク」の画面へ辿り、素材（バナー・テキスト）のコードを読む。押すのはページを開くリンクだけ
+    for (const id of (process.env.A8_IDS || '').split(',').filter(Boolean)) {
+      await go(`https://media-console.a8.net/program/detail-partnered?programId=${id}`);
+      const name = await p.evaluate(() => [...document.querySelectorAll('h1,h2,h3')].map((x) => x.innerText.replace(/\s+/g, ' ').trim()).filter((x) => x && !/プログラム詳細|広告リンク|提携/.test(x))[0] || '');
+      const ls = await links(/広告リンク|素材|リンク作成|広告を作成/);
+      lines.push(`### ${id} ${name}`, `- 詳細ページ: ${here()}`, ...ls.slice(0, 8).map(([t, h]) => `- リンク候補: ${t} → ${h.slice(0, 120)}`));
+      // t311 は「素材別」（レポート）を先に拾った。作成画面（create-link）を優先する
+      const target = ls.find(([, h]) => /create-link/.test(h)) || ls.find(([, h]) => /^https?:/.test(h));
+      if (!target) { lines.push('- 広告リンクの画面へのリンクが見つからない', ''); continue; }
+      await go(target[1]);
+      const codes = await p.evaluate(() => {
+        const out = [];
+        for (const ta of document.querySelectorAll('textarea, input[type=text], pre, code')) {
+          const v = (ta.value || ta.textContent || '').trim();
+          if (/a8mat=/.test(v)) out.push(v.replace(/\s+/g, ' ').slice(0, 700));
+        }
+        if (!out.length) for (const a of document.querySelectorAll('a[href*="a8mat="]')) out.push(a.outerHTML.replace(/\s+/g, ' ').slice(0, 500));
+        return [...new Set(out)].slice(0, 12);
+      });
+      const ui = codes.length ? [] : await p.evaluate(() => [...document.querySelectorAll('select, button, a.btn, input[type=radio], input[type=submit]')].filter((e) => e.offsetWidth).map((e) => e.tagName === 'SELECT' ? `select[name=${e.name}]〔${[...e.options].map((o) => o.text.trim()).slice(0, 6).join('|')}〕` : `${e.tagName.toLowerCase()}「${(e.innerText || e.value || '').trim().slice(0, 30)}」`).slice(0, 25));
+      lines.push(`- 広告リンクの画面: ${here()}（${(await p.title()).slice(0, 30)}）`, `- コード ${codes.length} 件`, ...codes.map((c) => '```html\n' + c + '\n```'), ...(ui.length ? ['- コードが無いときの画面の部品: ' + ui.filter((x) => !NG.test(x)).join(' / ')] : []), '');
+    }
+  }
+  if (WHICH === 'a8banners') {
+    // **読むだけ（2026-10-31・blog3）。** 記事の広告の横に置く A8 のバナー（300×250 など）のコードを集める。
+    // 広告リンク作成の画面（a8.md のメニューにある create-link）を開き、bgt（バナー画像）を含むコードだけを拾う。押すのはページ送りのリンクだけ
+    const res = [];
+    for (const id of (process.env.A8_IDS || '').split(',').filter(Boolean)) {
+      await go(`https://media-console.a8.net/program/create-link?programId=${id}`);
+      await a8Reauth(p, `https://media-console.a8.net/program/create-link?programId=${id}`);
+      const name = (await p.title()).slice(0, 80);
+      const got = new Map();
+      for (let pg = 0; pg < 4; pg++) {
+        const codes = await p.evaluate(() => [...document.querySelectorAll('textarea, input[type=text], pre, code')].map((t) => (t.value || t.textContent || '').trim()).filter((v) => /svt\/bgt/.test(v) && /a8mat=/.test(v)));
+        for (const c of codes) { const w = (c.match(/width="(\d+)"/) || [])[1], h = (c.match(/height="(\d+)"/) || [])[1]; got.set(c, { w: +w || null, h: +h || null, code: c.replace(/\s+/g, ' ').slice(0, 900) }); }
+        const next = await p.$('a[rel=next], a:has-text("次へ"), button:has-text("次へ")');
+        if (!next) break;
+        await next.click().catch(() => {}); await p.waitForTimeout(2500);
+      }
+      const list = [...got.values()];
+      const ui = list.length ? [] : await p.evaluate(() => [...document.querySelectorAll('select, input[type=radio], label, button, a')].filter((e) => e.offsetWidth && /バナー|画像|テキスト|サイズ|素材|種類|300|250/.test(e.innerText || e.value || [...(e.options || [])].map((o) => o.text).join('|'))).map((e) => e.tagName === 'SELECT' ? `select[name=${e.name}]〔${[...e.options].map((o) => o.text.trim()).slice(0, 12).join('|')}〕` : `${e.tagName.toLowerCase()}「${(e.innerText || e.value || '').trim().slice(0, 30)}」→${(e.href || '').slice(0, 90)}`).slice(0, 30));
+      res.push({ id, name, banners: list, ui });
+      lines.push(`### ${id} ${name}`, `- 画面: ${here()}`, `- バナー ${list.length} 件（${list.map((x) => `${x.w}x${x.h}`).join('・')}）`, ...(ui.length ? ['- バナーが無いときの画面の部品: ' + ui.filter((x) => !NG.test(x)).join(' / ')] : []), '');
+    }
+    fs.writeFileSync(path.join(OUT, process.env.A8_OUT || 'a8banners.json'), JSON.stringify({ generated: new Date().toISOString(), programs: res }, null, 1));
+  }
+  if (WHICH === 'vcsite') {
+    // **読むだけ（t318）。** VC に登録したサイトの URL と、LinkSwitch のブロック設定・提携候補先の画面を読む（LinkSwitch が差し替えない理由を探す）
+    await go('https://aff.valuecommerce.ne.jp/account/site/3776384');
+    const d = await p.evaluate(() => (document.querySelector('main, .main-content, #contents') || document.body).innerText.split('\n').map((x) => x.trim()).filter((x) => /https?:\/\/|URL|サイト|審査|状態|カテゴリ/.test(x)).slice(0, 25).map((x) => x.slice(0, 120)));
+    lines.push(`## 登録サイト（${here()}）`, ...d.filter((x) => !NG.test(x)).map((x) => `- ${x}`), '');
+    for (const [label, re] of [['ブロック設定', /LinkSwitchのブロック設定/], ['提携候補先', /^提携候補先$/]]) {
+      await go('https://aff.valuecommerce.ne.jp/ad/AutoMyLink/getTag');
+      const ls = await links(re);
+      const t = ls.find(([, h]) => /^https?:/.test(h));
+      if (!t) { lines.push(`## ${label}: リンクが見つからない`, ''); continue; }
+      await go(t[1]);
+      const rows = await p.evaluate(() => (document.querySelector('main, .main-content, #contents') || document.body).innerText.split('\n').map((x) => x.trim()).filter(Boolean).slice(0, 60).map((x) => x.slice(0, 100)));
+      lines.push(`## ${label}（${here()}）`, ...rows.filter((x) => !NG.test(x)).map((x) => `- ${x}`), '');
+    }
+  }
+  if (WHICH === 'vclsget') {
+    // **LinkSwitch のタグを取る（t316）。利用者が 2026-10-17 に「PR 記事だけ・自動提携も許す」を選んだ。**
+    // タグ取得確認画面で、開始のボタンが 1 つに決まるときだけ押す。サイトの選択欄があれば Daily Hack を選ぶ。押した後の画面のタグを読む
+    const vis = (e) => { const r = e.getBoundingClientRect(); const cs = getComputedStyle(e); return r.width > 0 && r.height > 0 && cs.visibility !== 'hidden' && cs.display !== 'none'; };
+    const dump = () => p.evaluate((visSrc) => { const vis = eval(visSrc);
+      return { url: location.href.replace(/\?.*$/, ''), title: document.title,
+        codes: [...document.querySelectorAll('textarea, pre, code, input[type=text]')].map((e) => (e.value || e.textContent || '').trim()).filter((v) => /<script|valuecommerce/i.test(v)).map((v) => v.replace(/\s+/g, ' ').slice(0, 1200)),
+        ctrls: [...document.querySelectorAll('a, button, input[type=submit], input[type=button], select')].filter(vis).map((e) => e.tagName === 'SELECT' ? `select[name=${e.name}]〔${[...e.options].map((o) => (o.selected ? '✔' : '') + o.text.trim()).slice(0, 6).join('|')}〕` : `${e.tagName.toLowerCase()}「${(e.innerText || e.value || '').replace(/\s+/g, ' ').trim().slice(0, 30)}」`).filter((x) => !/「」$/.test(x)).slice(-40) }; }, vis.toString());
+    await go('https://aff.valuecommerce.ne.jp/ad/AutoMyLink/rd');
+    let d = await dump();
+    lines.push(`- 画面: ${d.url}（${d.title.slice(0, 30)}）`, `- タグ ${d.codes.length} 件`, '- 画面の部品（後ろから 40）:', ...d.ctrls.filter((x) => !NG.test(x)).map((x) => `  - ${x}`));
+    if (!d.codes.length) {
+      const sel = p.locator('select:visible');
+      for (let i = 0; i < await sel.count(); i++) { const o = await sel.nth(i).evaluate((e) => { const x = [...e.options].find((o) => /daily ?hack/i.test(o.text)); return x ? x.value : ''; }); if (o) { await sel.nth(i).selectOption(o); lines.push('- サイトの選択欄で Daily Hack を選んだ'); } }
+      // t316：開始のボタンは input の value「LinkSwitchを利用開始する」で、hasText に当たらなかった
+      const go1 = p.locator('input[type=submit][value="LinkSwitchを利用開始する"]:visible, input[type=button][value="LinkSwitchを利用開始する"]:visible, button:visible:has-text("LinkSwitchを利用開始する")');
+      const n = await go1.count();
+      lines.push(`- 開始のボタン: ${n} 個`);
+      if (n === 1) { lines.push('- 押す: 「LinkSwitchを利用開始する」'); await go1.first().click({ timeout: 8000 }).catch((e) => lines.push(`- ⚠️ ${String(e).split('\n')[0]}`)); await p.waitForTimeout(6000);
+        d = await dump(); lines.push(`- 押した後: ${d.url}（${d.title.slice(0, 30)}）`, `- タグ ${d.codes.length} 件`, '- 画面の部品:', ...d.ctrls.filter((x) => !NG.test(x)).map((x) => `  - ${x}`)); }
+    }
+    lines.push(...d.codes.map((c) => '```html\n' + c + '\n```'), '');
+  }
+  if (WHICH === 'vcls') {
+    // **読むだけ（t315）。** LinkSwitch の設定画面（一覧の行の「設定」リンク /ad/AutoMyLink/rd）を開き、タグと設定の状態を読む。押さない
+    const vis = (e) => { const r = e.getBoundingClientRect(); const cs = getComputedStyle(e); return r.width > 0 && r.height > 0 && cs.visibility !== 'hidden' && cs.display !== 'none'; };
+    await go('https://aff.valuecommerce.ne.jp/ad/AutoMyLink/rd');
+    const d = await p.evaluate((visSrc) => { const vis = eval(visSrc);
+      const codes = [...document.querySelectorAll('textarea, pre, code, input[type=text]')].map((e) => (e.value || e.textContent || '').trim()).filter((v) => /valuecommerce|vc_pid|vcdal|linkswitch/i.test(v)).map((v) => v.replace(/\s+/g, ' ').slice(0, 900));
+      const head = [...document.querySelectorAll('h1,h2,h3,h4')].map((x) => x.innerText.replace(/\s+/g, ' ').trim()).filter(Boolean).slice(0, 12);
+      const ctrls = [...document.querySelectorAll('input[type=radio], input[type=checkbox], select, button, a.btn')].filter(vis).map((e) => e.tagName === 'SELECT' ? `select[name=${e.name}]〔${[...e.options].map((o) => (o.selected ? '✔' : '') + o.text.trim()).slice(0, 6).join('|')}〕` : e.type === 'radio' || e.type === 'checkbox' ? `${e.type}:${e.name}=${e.value}${e.checked ? '✔' : ''}「${(e.closest('label,li,tr,div')?.innerText || '').replace(/\s+/g, ' ').trim().slice(0, 40)}」` : `${e.tagName.toLowerCase()}「${(e.innerText || e.value || '').trim().slice(0, 30)}」`).slice(0, 30);
+      const txt = (document.querySelector('main, .main-content, #contents') || document.body).innerText.split('\n').map((x) => x.trim()).filter((x) => /LinkSwitch|設定|有効|無効|タグ|サイト|対象/.test(x)).slice(0, 25).map((x) => x.slice(0, 100));
+      return { url: location.href, title: document.title, codes, head, ctrls, txt }; }, vis.toString());
+    lines.push(`- 画面: ${d.url}（${d.title.slice(0, 40)}）`, `- 見出し: ${d.head.join(' ／ ')}`, `- タグらしいもの ${d.codes.length} 件`, ...d.codes.map((c) => '```html\n' + c + '\n```'), '- 設定の部品:', ...d.ctrls.filter((x) => !NG.test(x)).map((x) => `  - ${x}`), '- 関係する行:', ...d.txt.filter((x) => !NG.test(x)).map((x) => `  - ${x}`), '');
+  }
   if (WHICH === 'applyvc5') {
     // **VC の提携申請・5 回目（t313）。利用者が 2026-10-12「4 社とも申請する」、2026-10-17「自分でやって」。**
     // t305 は「広告素材を選ぶ」を押して 5 秒待っても確認が出ず、状態は未提携（N）のままだった。
