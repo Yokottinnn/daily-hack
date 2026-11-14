@@ -1,3 +1,3 @@
 [
-      {"task": "t619-vc-apply-one-by-one.sh", "rc": 0, "out": "- 申請前: 状態コード「N」 - 「はい」の数: 1・問いの文: × 広告素材確認時の注意事項 本プログラムへの提携申請後に広告素材画面に遷移します。よろしいですか？ 提携申請� - 押す: 「はい」 - **申請後: 状態コード「P」** "}
+      {"task": "t620-a8-links-top-articles.sh", "rc": 0, "out": "```html <a href=https://px.a8.net/svt/ejp?a8mat=4B43JB+C9ROEY+5RZ8+BWVTE rel=nofollow>WAON POINTがたまる！つかえる！【イオンコンパストラベルモール】</a> <amp-pixel src=https://www11.a8.net/0.gif?a8mat=4B43JB+C9ROEY+5RZ8+BWVTE layout=nodisplay></amp-pixel> ``` ```html <a hre"}
   ]
