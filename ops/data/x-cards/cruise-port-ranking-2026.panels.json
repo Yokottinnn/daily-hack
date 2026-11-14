@@ -1,0 +1,25 @@
+{
+ "_doc": "X 告知の画像（クルーズ船の寄港回数ランキング）。node scripts/gen-x-panels.mjs ops/data/x-cards/cruise-port-ranking-2026.panels.json",
+ "_note": "2026-11-14 blog3 の依頼。写真は Wikimedia Commons（photos/_manifest.json）。横浜・東京は CC0、博多・那覇は CC BY-SA 4.0。画像の中に出所は出さず ALT に撮影者名とライセンスを書く",
+ "imageBase": "public/images/cruise-port-ranking-2026",
+ "out": "public/images/cruise-port-ranking-2026/x",
+ "theme": "ink",
+ "panels": [
+  {
+   "file": "1-rank.jpg",
+   "kind": "html",
+   "noHeader": true,
+   "html": "<div class=\"crw\"><div class=\"crk\">2025年・クルーズ船の寄港回数（全154港）</div><div class=\"crt\">1位と2位は<em>たった1回差</em></div><div class=\"crr\"><img src=\"photos/yokohama1.jpg\" alt=\"\"><div class=\"crb\"><span class=\"crn\">1</span><span class=\"crp\">横浜</span><span class=\"crv\">209回</span></div></div><div class=\"crr\"><img src=\"photos/hakata2.jpg\" alt=\"\"><div class=\"crb\"><span class=\"crn\">2</span><span class=\"crp\">博多</span><span class=\"crv\">208回</span></div></div><div class=\"crr\"><img src=\"photos/naha2.jpg\" alt=\"\"><div class=\"crb\"><span class=\"crn\">3</span><span class=\"crp\">那覇</span><span class=\"crv\">205回</span></div></div><div class=\"crf\">外国の船だけなら、1位は<b>長崎 194回</b></div></div>",
+   "css": "main{padding:0;height:1080px;display:block}\n.crw{height:1080px;background:#1E1219;color:#fff;padding:52px 52px;display:flex;flex-direction:column}\n.crk{align-self:flex-start;font-size:28px;font-weight:900;color:#2A1923;background:#F5C518;border-radius:999px;padding:6px 22px}\n.crt{font-size:64px;font-weight:900;line-height:1.2;margin:16px 0 22px}\n.crt em{font-style:normal;color:#EC5C90}\n.crr{position:relative;height:222px;border-radius:22px;overflow:hidden;margin-bottom:18px}\n.crr img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}\n.crb{position:absolute;inset:0;display:flex;align-items:center;gap:26px;padding:0 36px;background:linear-gradient(90deg,rgba(30,18,25,.92) 0%,rgba(30,18,25,.55) 60%,rgba(30,18,25,.2))}\n.crn{font-size:96px;font-weight:900;color:#F5C518;width:70px;text-align:center}\n.crp{font-size:66px;font-weight:900;flex:1}\n.crv{font-size:72px;font-weight:900;font-variant-numeric:tabular-nums}\n.crf{margin-top:auto;font-size:38px;font-weight:800;background:rgba(255,255,255,.08);border-radius:16px;padding:18px 26px}\n.crf b{color:#F5C518}",
+   "alt": "2025年のクルーズ船の寄港回数（全154港）。1位 横浜 209回、2位 博多 208回、3位 那覇 205回。外国の船だけなら1位は長崎 194回。出典：国土交通省「クルーズ船の寄港回数（2025年確報値）」。写真：横浜 Ootahara（CC0）、博多 Spaceaero2（CC BY-SA 4.0）、那覇 SCJiang（CC BY-SA 4.0）／Wikimedia Commons"
+  },
+  {
+   "file": "2-tokyo.jpg",
+   "kind": "html",
+   "noHeader": true,
+   "html": "<div class=\"ctw\"><img class=\"ctph\" src=\"photos/tokyo1.jpg\" alt=\"\"><div class=\"ctsh\"></div><div class=\"cttx\"><div class=\"ctk\">湾岸の東京国際クルーズターミナル</div><div class=\"ctt\">東京は<em>14位</em></div><div class=\"ctg\"><div class=\"ctc\"><i>東京の寄港回数</i><b>82回</b><s>うち外国の船 74回</s></div><div class=\"ctc\"><i>全国の合計</i><b>3,116回</b><s>前年の約1.3倍</s></div></div></div></div>",
+   "css": "main{padding:0;height:1080px;display:block}\n.ctw{position:relative;height:1080px;background:#1E1219;color:#fff;overflow:hidden}\n.ctph{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}\n.ctsh{position:absolute;inset:0;background:linear-gradient(180deg,rgba(30,18,25,.15) 0%,rgba(30,18,25,.35) 40%,rgba(30,18,25,.94) 72%)}\n.cttx{position:absolute;left:56px;right:56px;bottom:60px}\n.ctk{display:inline-block;font-size:30px;font-weight:900;color:#2A1923;background:#F5C518;border-radius:999px;padding:6px 22px}\n.ctt{font-size:96px;font-weight:900;line-height:1.15;margin:14px 0 26px}\n.ctt em{font-style:normal;color:#EC5C90}\n.ctg{display:flex;gap:24px}\n.ctc{flex:1;background:rgba(255,255,255,.1);border-radius:20px;padding:22px 28px;display:flex;flex-direction:column}\n.ctc i{font-style:normal;font-size:30px;font-weight:800;color:#f3dbe5}\n.ctc b{font-size:84px;font-weight:900;color:#F5C518;line-height:1.15}\n.ctc s{text-decoration:none;font-size:30px;font-weight:800}",
+   "alt": "湾岸の東京国際クルーズターミナル。2025年のクルーズ船の寄港回数で東京は14位の82回（うち外国の船74回）。全国の合計は3,116回で前年の約1.3倍。出典：国土交通省「クルーズ船の寄港回数（2025年確報値）」。写真：Syced（CC0）／Wikimedia Commons"
+  }
+ ]
+}

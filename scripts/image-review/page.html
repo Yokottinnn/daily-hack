@@ -76,6 +76,13 @@
   .nextbox li.alt { margin-left:1.2em; }
   .nextbox li > .linkish { font-weight:700; }
   .nextbox .hint { margin:8px 0 0; font-size:12px; color:var(--muted); }
+  /* 2026-11-14 利用者「今そのページで開いているドラフトを、この一覧の中でハイライトさせるようにしてほしい」 */
+  .nextbox li.cur { margin-inline:-10px; padding:8px 10px; background:#F5C518; color:#2A1923; border-radius:8px; box-shadow:0 0 0 3px #EC5C90; }
+  .nextbox li.cur .linkish, .nextbox li.cur .why, .nextbox li.cur .skip { color:#2A1923; }
+  .nextbox li.cur .curtag { display:inline-block; margin-right:8px; padding:1px 8px; border-radius:999px; background:#EC5C90; color:#fff; font-size:11.5px; font-weight:900; }
+  .nextbox .curbar { margin:0 0 10px; padding:8px 12px; border-radius:8px; background:#F5C518; color:#2A1923; font-size:13.5px; font-weight:700; display:flex; flex-wrap:wrap; align-items:center; gap:6px 12px; }
+  .nextbox .curbar .skip { margin-left:0; color:#2A1923; font-size:13px; }
+  .nextbox .curbar .linkish { color:#2A1923; font-size:12.5px; }
   .skip { display:inline-flex; align-items:center; gap:4px; margin-left:10px; font-size:12px; color:var(--muted); cursor:pointer; }
   .set > header .skip { margin:6px 0 0; display:flex; }
   .linkish { font:inherit; background:none; border:0; padding:0; color:var(--ink); text-decoration:underline; cursor:pointer; text-align:left; }
@@ -810,11 +817,11 @@
     },
     {
       // **未投稿**（2026-11-11・目的: blog・blog3 からの依頼）
-      key: "blog-xmas-market-hikaku", title: "東京のクリスマスマーケット 8 会場（入場料を取るのは 2 つだけ）", slug: "tokyo-christmas-market-hikaku-2026",
+      key: "blog-xmas-market-hikaku", title: "東京のクリスマスマーケット 8 会場（全会場の会期と見どころ）", slug: "tokyo-christmas-market-hikaku-2026",
       attach: "[1/2]（4枚）",
       images: [
         { file: "1-official.jpg", name: "1枚目", cap: "新豊洲の公式キービジュアル（加工なし）" },
-        { file: "2-compare.jpg", name: "2枚目", cap: "8 会場を有料・無料・広場で分けた表" },
+        { file: "2-compare.jpg", name: "2枚目", cap: "8 会場の一覧（会期と見どころ・各会場の公式の写真つき）" },
         { file: "3-mugs.jpg", name: "3枚目", cap: "新豊洲と芝公園の限定マグ" },
         { file: "4-free.jpg", name: "4枚目", cap: "東京タワーの会場（入場無料）" }
       ]
@@ -932,6 +939,15 @@
       images: [
         { file: "1-rank.jpg", name: "1枚目", cap: "上位 3 社（ノジマはロゴ）" },
         { file: "2-merge.jpg", name: "2枚目", cap: "ヤマダとエディオンの経営統合" }
+      ]
+    },
+    {
+      // **未投稿**（2026-11-15・目的: blog・blog3 からの依頼）
+      key: "blog-cruise-ranking", title: "クルーズ船の寄港回数（1位横浜209回・博多と1回差）", slug: "cruise-port-ranking-2026",
+      attach: "[1/2]（2枚）",
+      images: [
+        { file: "1-rank.jpg", name: "1枚目", cap: "上位 3 港（写真つき）と外国船だけの 1 位" },
+        { file: "2-tokyo.jpg", name: "2枚目", cap: "湾岸の東京は 14 位・全国の合計" }
       ]
     }
   ];
@@ -1414,11 +1430,13 @@
     const cand = sections.map((x, i) => ({ s: x.set, i })).filter((x) => x.s.state === "draft")
       .sort((a, b) => (a.s.next || 99) - (b.s.next || 99) || String(b.s.date).localeCompare(String(a.s.date)));
     const h = document.createElement("h2"); h.textContent = "投稿候補と、見てほしいところ（投稿していないもの " + cand.length + " 件・いつ出すかはあなたが決める）";
+    let curInList = false;
     const ol = document.createElement("ol");
     let last = null;
     for (const c of cand) {
       const li = document.createElement("li");
       if (c.s.next && c.s.next === last) li.className = "alt";
+      if (c.i === active) { li.classList.add("cur"); li.id = "next-cur"; const t = document.createElement("span"); t.className = "curtag"; t.textContent = "いま開いている組"; li.append(t); }
       last = c.s.next;
       const a = document.createElement("button"); a.type = "button"; a.className = "linkish";
       a.textContent = (c.s.next ? c.s.next + ". " : "") + c.s.title;
@@ -1430,13 +1448,36 @@
       cb.addEventListener("change", () => setSkip(c.s.key, cb.checked));
       sk.append(cb, document.createTextNode(" 投稿しない"));
       li.append(a, sk);
+      if (c.i === active) curInList = true;
       if (c.s.why) { const w = document.createElement("p"); w.className = "why"; w.textContent = "理由：" + c.s.why; li.append(w); }
       if (c.s.check.length) { const ul = document.createElement("ul"); ul.className = "chk"; for (const t of c.s.check) { const x = document.createElement("li"); x.textContent = t; ul.append(x); } li.append(ul); }
       ol.append(li);
     }
     const p = document.createElement("p"); p.className = "hint";
     p.textContent = cand.length ? "出す日を決めたら、チャットで日付と「投稿して」を伝えてください。決まった日は作戦室のカレンダーに出します（選ぶだけでは投稿しません）。" : "いま投稿していない組はありません。";
-    nextBox.append(h, cand.length ? ol : document.createTextNode(""), p);
+    // いま開いている組を一覧の先頭にも出す（件数が多くて、どこにあるか分からないため）
+    const cur = sections[active] && sections[active].set;
+    const bar = document.createElement("div"); bar.className = "curbar";
+    if (cur) {
+      const t = document.createElement("span"); t.textContent = "いま開いている組：" + cur.title;
+      bar.append(t);
+      if (cur.state === "draft" || cur.state === "dropped") {
+        const sk = document.createElement("label"); sk.className = "skip";
+        const cb = document.createElement("input"); cb.type = "checkbox"; cb.checked = cur.state === "dropped";
+        cb.addEventListener("change", () => setSkip(cur.key, cb.checked));
+        sk.append(cb, document.createTextNode(" 投稿しない"));
+        bar.append(sk);
+      }
+      if (curInList) {
+        const go = document.createElement("button"); go.type = "button"; go.className = "linkish"; go.textContent = "一覧の中の場所へ";
+        go.addEventListener("click", () => { const el = document.getElementById("next-cur"); if (el) el.scrollIntoView({ block: "center", behavior: "smooth" }); });
+        bar.append(go);
+      } else {
+        const n = document.createElement("span"); n.style.fontWeight = "400"; n.textContent = cur.state === "draft" ? "（いまの絞り込みでは一覧に出ていません）" : "（投稿候補ではないので一覧には出ません）";
+        bar.append(n);
+      }
+    }
+    nextBox.append(h, bar, cand.length ? ol : document.createTextNode(""), p);
   }
   renderNext();
 
@@ -1591,6 +1632,7 @@
       else b.removeAttribute("aria-current");
     });
     try { localStorage.setItem(KEY, sections[i].set.key); } catch (e) { /* 使えなくても動く */ }
+    renderNext();
     render();
   }
   main.before(nextBox, tools, tabs);
