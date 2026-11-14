@@ -97,6 +97,13 @@
           "first": "大分",
           "value": "5,094か所",
           "source": "環境省"
+        },
+        {
+          "slug": "national-park-ranking-2026",
+          "topic": "国立公園の利用者数（2024年）",
+          "first": "富士箱根伊豆",
+          "value": "1億2,418万人",
+          "source": "環境省"
         }
       ]
     },
