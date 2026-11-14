@@ -111,6 +111,8 @@ const FILES = {
   "furusato-donation-ranking-2026": ["1-rank.jpg", "2-change.jpg"],
   "electronics-retailer-sales-ranking-2026": ["1-rank.jpg", "2-merge.jpg"],
   "cruise-port-ranking-2026": ["1-rank.jpg", "2-tokyo.jpg"],
+  "onsen-ranking-2026": ["1-source.jpg", "2-stay.jpg"],
+  "jleague-attendance-ranking-2026": ["1-rank.jpg", "2-hiroshima.jpg"],
   "furusato-tax-beginner-guide-2026": ["a1-question.jpg"],
   "poikatsu-hourly-wage-2026": ["a1-compare.jpg"],
 };
