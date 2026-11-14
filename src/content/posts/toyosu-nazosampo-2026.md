@@ -4,7 +4,7 @@ description: "豊洲の謎解き散歩「豊洲まるっと謎さんぽ」は1�
 publishDate: 2026-10-26
 category: ["wangan-life"]
 tags: ["湾岸ニュース", "豊洲", "千客万来", "豊洲ぐるり公園", "謎解き", "イベント", "2026年"]
-isPR: false
+isPR: true
 draft: false
 eyecatchUrl: "/images/toyosu-nazosampo-2026/cover.jpg"
 eyecatchAlt: "豊洲まるっと謎さんぽ のキービジュアル。豊洲の景色とグルメのイラスト"
@@ -74,6 +74,11 @@ references: ["https://www.atpress.ne.jp/news/1872468", "https://nazoxnazo.com/ev
 </div>
 
 <p class="source-note">出典：<a href="https://nazoxnazo.com/event/toyosu_nazosampo/" target="_blank" rel="noopener">イベント公式ページ</a>（2026年10月26日に確認）・<a href="https://www.atpress.ne.jp/news/1872468" target="_blank" rel="noopener">プレスリリース</a>。キットをなくしたときの再配布と、自己都合の払い戻しはない。</p>
+
+<div class="callout info">
+<p class="head">謎解きの前後に、ほかの体験も</p>
+<p style="margin:0">豊洲で 1 日遊ぶなら、<a href="https://www.asoview.com/" target="_blank" rel="nofollow sponsored noopener">アソビュー！</a>（PR）や<a href="https://www.jalan.net/activity/" target="_blank" rel="nofollow sponsored noopener">じゃらん 遊び・体験予約</a>（PR）で、東京の体験やチケットを日付で探せる。</p>
+</div>
 
 ## 巡る場所｜千客万来・ぐるり公園・産業遺構・足湯
 

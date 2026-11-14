@@ -4,7 +4,7 @@ description: "豊洲・有明・月島・芝浦の湾岸サウナを徹底比較
 publishDate: 2026-06-13
 category: ["wangan-life", "comparisons"]
 tags: ["湾岸ライフ", "サウナ", "ととのう", "豊洲", "有明", "月島", "芝浦", "万葉倶楽部", "泉天空の湯", "サ活", "2026年"]
-isPR: false
+isPR: true
 draft: false
 featured: true
 eyecatchUrl: "/images/wangan-sauna-2026/eyecatch.jpg"
@@ -118,6 +118,11 @@ references: ["https://tokyo-toyosu.manyo.co.jp/price/", "http://www.shopping-sum
     </a></li>
   </ul>
 </aside>
+
+<div class="callout info">
+<p class="head">サウナや温泉のチケットを先に買うなら</p>
+<p style="margin:0">温浴施設の前売り券や体験は、<a href="https://www.asoview.com/" target="_blank" rel="nofollow sponsored noopener">アソビュー！</a>（PR）や<a href="https://www.jalan.net/activity/" target="_blank" rel="nofollow sponsored noopener">じゃらん 遊び・体験予約</a>（PR）で施設名を入れて探せる（扱いがあるかは施設ごとに違う）。</p>
+</div>
 
 ## 🧖 用途別おすすめ
 

@@ -4,7 +4,7 @@ description: "没入型展覧会「ティム・バートンのラビリンス」
 publishDate: 2026-10-28
 category: ["wangan-life"]
 tags: ["湾岸ニュース", "豊洲", "ティム・バートン", "展覧会", "イベント", "2026年"]
-isPR: false
+isPR: true
 draft: false
 eyecatchUrl: "/images/tim-burton-labyrinth-toyosu-2026/cover.jpg"
 eyecatchAlt: "ティム・バートンのラビリンス TIM BURTON'S LABYRINTH のキービジュアル"
@@ -117,6 +117,11 @@ references: ["https://prtimes.jp/main/html/rd/p/000000003.000187828.html", "http
     </a></li>
   </ul>
 </aside>
+
+<div class="callout info">
+<p class="head">豊洲でもう 1 つ予約するなら</p>
+<p style="margin:0">展覧会のあとに豊洲・有明でもう 1 か所回るなら、<a href="https://www.asoview.com/" target="_blank" rel="nofollow sponsored noopener">アソビュー！</a>（PR）や<a href="https://www.jalan.net/activity/" target="_blank" rel="nofollow sponsored noopener">じゃらん 遊び・体験予約</a>（PR）で、東京の体験やチケットを日付で探せる。</p>
+</div>
 
 ## 中身｜扉を選んで進む迷宮
 

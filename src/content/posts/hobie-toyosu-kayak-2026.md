@@ -4,7 +4,7 @@ description: "豊洲ぐるり公園乗船場で、HOBIE の足漕ぎカヤック
 publishDate: 2026-11-01
 category: ["wangan-life"]
 tags: ["湾岸ニュース", "豊洲", "豊洲ぐるり公園", "HOBIE", "カヤック", "SUP", "イベント", "2026年"]
-isPR: false
+isPR: true
 draft: false
 eyecatchUrl: "/images/hobie-toyosu-kayak-2026/eyecatch.jpg"
 eyecatchAlt: "豊洲ぐるり公園乗船場に並ぶ HOBIE の足漕ぎカヤックと足漕ぎSUP。奥に豊洲のタワーマンション"
@@ -114,6 +114,11 @@ references: ["https://hobiejapan.com/kayaking-rental-tour/toyosu/", "https://top
 </figure>
 
 **4人で行くならファミリープランが得。** 4人が60分ずつ乗ると 4,500円×4人＝18,000円のところ、1艇貸切なら12,000円。公式も「通常プランより6,000円お得」と書いている。
+
+<div class="callout info">
+<p class="head">水の上の体験をほかにも探すなら</p>
+<p style="margin:0">カヤックの日が合わなかったら、<a href="https://www.jalan.net/activity/" target="_blank" rel="nofollow sponsored noopener">じゃらん 遊び・体験予約</a>（PR）や<a href="https://www.asoview.com/" target="_blank" rel="nofollow sponsored noopener">アソビュー！</a>（PR）で、水の上の体験を日付で探せる。</p>
+</div>
 
 ## 足漕ぎカヤックとは｜ペンギンの羽ばたきで進む
 

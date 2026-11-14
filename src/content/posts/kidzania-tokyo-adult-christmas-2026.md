@@ -4,7 +4,7 @@ description: "ららぽーと豊洲のキッザニア東京で、16歳以上限�
 publishDate: 2026-10-31
 category: ["wangan-life"]
 tags: ["湾岸ニュース", "豊洲", "ららぽーと豊洲", "キッザニア東京", "クリスマス", "2026年"]
-isPR: false
+isPR: true
 draft: false
 eyecatchUrl: "/images/kidzania-tokyo-adult-christmas-2026/cover.jpg"
 eyecatchAlt: "大人のキッザニア Christmas version のキービジュアル。消防士やピザ職人の制服を着た大人たち"
@@ -112,6 +112,11 @@ references: ["https://prtimes.jp/main/html/rd/p/000000428.000078157.html", "http
 </ul>
 
 <p class="source-note">出典：<a href="https://www.kidzania.jp/tokyo/over16" target="_blank" rel="noopener">キッザニア東京「大人のキッザニア」</a>。優先入場はキッザニアへの入場の順番だけで、仕事体験の受付が優先されるわけではない。</p>
+
+<div class="callout info">
+<p class="head">クリスマスの湾岸で、もう 1 か所遊ぶなら</p>
+<p style="margin:0">大人のキッザニアのチケットは公式サイトで予約する。同じ日に豊洲・お台場のほかの体験も入れるなら、<a href="https://www.asoview.com/" target="_blank" rel="nofollow sponsored noopener">アソビュー！</a>（PR）や<a href="https://www.jalan.net/activity/" target="_blank" rel="nofollow sponsored noopener">じゃらん 遊び・体験予約</a>（PR）で、東京の体験やチケットを日付で探せる。</p>
+</div>
 
 ## クリスマスだけの企画｜サンタ帽・パレード・カンバッジ
 
