@@ -46,5 +46,68 @@
   "artist": "Kyu3a",
   "fetched": "2026-11-14",
   "via": "ops/tasks/t624"
+ },
+ "hankyu2.jpg": {
+  "file": "File:Umeda Hankyu Rooftop1 DSCN3920 20121118.JPG",
+  "page": "https://commons.wikimedia.org/wiki/File:Umeda_Hankyu_Rooftop1_DSCN3920_20121118.JPG",
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Umeda_Hankyu_Rooftop1_DSCN3920_20121118.JPG/1280px-Umeda_Hankyu_Rooftop1_DSCN3920_20121118.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "lic": "Public domain",
+  "artist": "Ogiyoshisan",
+  "fetched": "2026-11-14",
+  "via": "t638"
+ },
+ "takashimaya-yokohama.jpg": {
+  "file": "File:Takashimaya Yokohama 001.JPG",
+  "page": "https://commons.wikimedia.org/wiki/File:Takashimaya_Yokohama_001.JPG",
+  "src": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Takashimaya_Yokohama_001.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "lic": "CC BY-SA 3.0",
+  "artist": "Tennen-Gas",
+  "fetched": "2026-11-14",
+  "via": "t638"
+ },
+ "mitsukoshi-ginza.jpg": {
+  "file": "File:Ginza Mitsukoshi-1.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Ginza_Mitsukoshi-1.jpg",
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Ginza_Mitsukoshi-1.jpg/1280px-Ginza_Mitsukoshi-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "lic": "CC BY-SA 4.0",
+  "artist": "江戸村のとくぞう",
+  "fetched": "2026-11-14",
+  "via": "t638"
+ },
+ "daimaru-shinsaibashi.jpg": {
+  "file": "File:DAIMARU Shinsaibashi mise.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:DAIMARU_Shinsaibashi_mise.jpg",
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/DAIMARU_Shinsaibashi_mise.jpg/1280px-DAIMARU_Shinsaibashi_mise.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "lic": "CC BY-SA 4.0",
+  "artist": "Tokumeigakarinoaoshima",
+  "fetched": "2026-11-14",
+  "via": "t638"
+ },
+ "takashimaya-kyoto.jpg": {
+  "file": "File:Takashimaya-Kyoto-01.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Takashimaya-Kyoto-01.jpg",
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Takashimaya-Kyoto-01.jpg/1280px-Takashimaya-Kyoto-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "lic": "CC BY-SA 3.0",
+  "artist": "J o",
+  "fetched": "2026-11-14",
+  "via": "t638"
+ },
+ "jr-nagoya.jpg": {
+  "file": "File:JR Nagoya Takashimaya Level 11 2014.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:JR_Nagoya_Takashimaya_Level_11_2014.jpg",
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/JR_Nagoya_Takashimaya_Level_11_2014.jpg/1280px-JR_Nagoya_Takashimaya_Level_11_2014.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "lic": "CC BY-SA 4.0",
+  "artist": "Wpcpey",
+  "fetched": "2026-11-14",
+  "via": "t638"
+ },
+ "isetan2.jpg": {
+  "file": "File:August 2007 Isetan.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:August_2007_Isetan.jpg",
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/August_2007_Isetan.jpg/1280px-August_2007_Isetan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "lic": "CC0",
+  "artist": "Syced",
+  "fetched": "2026-11-14",
+  "via": "t638"
  }
 }
