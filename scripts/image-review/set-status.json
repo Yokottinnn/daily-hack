@@ -546,7 +546,12 @@
     "check": [
       "出す日までに始まった・終わった催しがないか（空飛ぶクルマは 11/18〜23）",
       "画像のピンの吹き出しの切れ方"
-    ]
+    ],
+    "planDate": "2026-11-15",
+    "planTime": "12:00",
+    "scheduledAt": "2026-11-15T12:00:00+09:00",
+    "approval": "2026-11-14 利用者「修正後に明日の予定で予約投稿して」",
+    "note": "x-blog-20261115-wangan-map（x484・com.dailyhack.publish-wangan-map-oneshot）"
   },
   "analogy-earcuff-leak": {
     "status": "draft",

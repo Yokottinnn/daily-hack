@@ -92,7 +92,7 @@ const FILES = {
   "rakuten-mujin-delivery-2nd-anniversary-2026": ["1-official.jpg", "2-point.jpg"],
   "toyosu-market-november-events-2026": ["1-official.jpg", "2-point.jpg"],
   "ariake-garden-ryuki-street-churros-2026": ["1-official.jpg", "2-point.jpg"],
-  "x-wangan-events-2026-11": ["a1-count.jpg"],
+  "x-wangan-events-2026-11": ["b1-picks.jpg", "b2-list.jpg", "b3-list.jpg", "a1-count.jpg"],
   "x-wangan-map": ["1-map.jpg", "2-xmas.jpg", "3-car.jpg", "4-tb.jpg"],
   "open-ear-earphone-hikaku-2026": ["1-zero.jpg", "2-table.jpg"],
   "tokyo-culture-debut-park-toyosu-2026": ["1-official.jpg", "2-point.jpg"],
