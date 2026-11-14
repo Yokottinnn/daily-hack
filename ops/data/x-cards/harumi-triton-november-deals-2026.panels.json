@@ -1,0 +1,25 @@
+{
+ "_doc": "X 告知の画像（晴海トリトン 500円クーポン）。node scripts/gen-x-panels.mjs ops/data/x-cards/harumi-triton-november-deals-2026.panels.json",
+ "_note": "2026-11-14 の毎日の候補づくり。素材は blog3 の記事で取った晴海トリトン公式の画像。出所は ALT に書く",
+ "imageBase": "public/images/harumi-triton-november-deals-2026",
+ "out": "public/images/harumi-triton-november-deals-2026/x",
+ "theme": "ink",
+ "panels": [
+  {
+   "file": "1-official.jpg",
+   "kind": "html",
+   "noHeader": true,
+   "html": "<div class=\"ey\"><img class=\"bgb\" src=\"photos/coupon.jpg\" alt=\"\"><img class=\"fg\" src=\"photos/coupon.jpg\" alt=\"\"></div>",
+   "css": "main{padding:0;height:1080px;display:block}\n.ey{position:relative;height:1080px;overflow:hidden;background:#111}\n.bgb{position:absolute;left:-60px;top:-60px;width:1200px;height:1200px;object-fit:cover;filter:blur(34px) brightness(.55)}\n.fg{position:absolute;left:28px;top:28px;width:1024px;height:1024px;object-fit:contain;filter:drop-shadow(0 18px 40px rgba(0,0,0,.45))}",
+   "alt": "晴海トリトン 500円クーポン プレゼントキャンペーンのチラシ（公式）。11月18日（水）11:00〜17:00、2階グランドロビー、先着500名。11月16日〜18日に4店舗で各500円（税込）以上買ったレシートと、LINEアンケートの回答で交換。画像：晴海トリトン 公式サイト"
+  },
+  {
+   "file": "2-point.jpg",
+   "kind": "html",
+   "noHeader": true,
+   "html": "<div class=\"wrap\"><img class=\"ph\" src=\"photos/maze-photo.jpg\" alt=\"\"><div class=\"shade\"></div><div class=\"tx\"><div class=\"k\">晴海トリトン 2階グランドロビー</div><div class=\"t\"><em>500円クーポン</em>は先着500名</div><ul class=\"pts\"><li><b>配る日</b>11/18（水）11〜17時・先着500名</li><li><b>レシート</b>11/16〜18の分だけ・1店500円以上を4店分</li><li><b>あと</b>LINEのアンケートに答える</li><li><b>29日（日）</b>小学生以下のダンボールめいろ</li></ul></div></div>",
+   "css": "main{padding:0;height:1080px;display:block}\n.wrap{position:relative;height:1080px;color:#fff;background:#1E1219;overflow:hidden}\n.ph{position:absolute;left:0;top:0;width:100%;height:540px;object-fit:cover}\n.shade{position:absolute;left:0;right:0;top:300px;height:242px;background:linear-gradient(180deg,rgba(30,18,25,0),#1E1219 92%)}\n.tx{position:absolute;left:56px;right:56px;top:430px;bottom:56px;display:flex;flex-direction:column}\n.k{align-self:flex-start;font-size:30px;font-weight:900;color:#2A1923;background:#F5C518;border-radius:999px;padding:6px 22px}\n.t{font-size:70px;font-weight:900;line-height:1.2;margin-top:14px;text-shadow:0 2px 12px rgba(0,0,0,.4)}\n.t em{font-style:normal;color:#EC5C90}\n.pts{list-style:none;margin-top:24px;flex:1;display:flex;flex-direction:column;justify-content:center;gap:18px}\n.pts li{font-size:35px;font-weight:700;line-height:1.35;background:rgba(255,255,255,.08);border-left:10px solid #EC5C90;border-radius:14px;padding:15px 22px}\n.pts b{color:#F5C518;margin-right:12px}",
+   "alt": "晴海トリトンの500円クーポン。配るのは11月18日（水）11〜17時、先着500名。使えるレシートは11月16日〜18日の分だけで、1店500円以上を4店分。あわせてLINEのアンケートに答える。11月29日（日）は小学生以下のダンボールめいろ。写真：晴海トリトン 公式サイト（ダンボールめいろ）"
+  }
+ ]
+}
