@@ -132,3 +132,9 @@ https://www.facebook.com/sharer/sharer.php?u=https://mitsui-shopping-park.com/la
 
 ## https://mitsui-shopping-park.com/lalaport/toyosu/news/
 ```
+  取れた 55155 bytes
+```
+
+## 個別のイベント（題名にライブ・ステージ等）
+
+**読むだけ。LLM 不使用（$0）。**
