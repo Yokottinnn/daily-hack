@@ -70,5 +70,41 @@
   "artist": "円周率３パーセント",
   "fetched": "2026-11-14",
   "via": "t631"
+ },
+ "kojima1.jpg": {
+  "file": "File:Kojima×Bic Camera Daito.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Kojima%C3%97Bic_Camera_Daito.jpg",
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Kojima%C3%97Bic_Camera_Daito.jpg/1280px-Kojima%C3%97Bic_Camera_Daito.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "lic": "CC BY-SA 4.0",
+  "artist": "Mr.ちゅらさん",
+  "fetched": "2026-11-14",
+  "via": "t633"
+ },
+ "kojima2.jpg": {
+  "file": "File:KOJIMA × BIC CAMERA Ibaraki store.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:KOJIMA_%C3%97_BIC_CAMERA_Ibaraki_store.jpg",
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/KOJIMA_%C3%97_BIC_CAMERA_Ibaraki_store.jpg/1280px-KOJIMA_%C3%97_BIC_CAMERA_Ibaraki_store.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "lic": "CC BY-SA 4.0",
+  "artist": "Tokumeigakarinoaoshima",
+  "fetched": "2026-11-14",
+  "via": "t633"
+ },
+ "yodobashi1.jpg": {
+  "file": "File:Yodobashi Camera Multimedia Sapporo 20100209 night.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Yodobashi_Camera_Multimedia_Sapporo_20100209_night.jpg",
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Yodobashi_Camera_Multimedia_Sapporo_20100209_night.jpg/1280px-Yodobashi_Camera_Multimedia_Sapporo_20100209_night.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "lic": "CC BY 2.0",
+  "artist": "David McKelvey",
+  "fetched": "2026-11-14",
+  "via": "t633"
+ },
+ "yodobashi3.jpg": {
+  "file": "File:Yodobashi Camera Multimedia Sendai.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Yodobashi_Camera_Multimedia_Sendai.jpg",
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Yodobashi_Camera_Multimedia_Sendai.jpg/1280px-Yodobashi_Camera_Multimedia_Sendai.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "lic": "CC BY-SA 3.0",
+  "artist": "広瀬川",
+  "fetched": "2026-11-14",
+  "via": "t633"
  }
 }
