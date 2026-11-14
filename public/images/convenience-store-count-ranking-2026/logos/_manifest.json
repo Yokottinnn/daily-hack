@@ -1,0 +1,32 @@
+{
+  "seven.png": {
+    "file": "seven.png",
+    "page": "https://commons.wikimedia.org/wiki/File:7-Eleven_logo_2021.svg",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/7-Eleven_logo_2021.svg/960px-7-Eleven_logo_2021.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "lic": "Public domain",
+    "artist": "",
+    "fetched": "2026-11-14",
+    "via": "t632",
+    "brand": "セブン‐イレブン",
+    "commons_file": "File:7-Eleven logo 2021.svg"
+  },
+  "familymart.png": {
+    "file": "familymart.png",
+    "page": "https://commons.wikimedia.org/wiki/File:FamilyMart_Logo_(2016-).svg",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/FamilyMart_Logo_%282016-%29.svg/960px-FamilyMart_Logo_%282016-%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "lic": "Public domain",
+    "artist": "",
+    "fetched": "2026-11-14",
+    "via": "t632",
+    "brand": "ファミリーマート",
+    "commons_file": "File:FamilyMart Logo (2016-).svg"
+  },
+  "lawson.png": {
+    "file": "lawson.png",
+    "brand": "ローソン",
+    "src": "https://www.lawson.co.jp/common2015/__icsFiles/afieldfile/2015/05/26/og_default.jpg",
+    "page": "https://www.lawson.co.jp/index.html",
+    "fetched": "2026-11-14",
+    "note": "公式サイトの og:image。白い余白だけ落とした（改変なし）"
+  }
+}
