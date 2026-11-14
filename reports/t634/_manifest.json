@@ -1,0 +1,26 @@
+{
+ "lawson1.png": {
+  "title": "File:Commons-logo.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "CC BY-SA 3.0"
+ },
+ "lawson2.png": {
+  "title": "File:CAO Logo.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:CAO_Logo.svg",
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/CAO_Logo.svg/960px-CAO_Logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "Public domain"
+ },
+ "lawson3.png": {
+  "title": "File:Daiei logo (2026).png",
+  "page": "https://commons.wikimedia.org/wiki/File:Daiei_logo_(2026).png",
+  "src": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Daiei_logo_%282026%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "license": "Public domain"
+ },
+ "lawson4.png": {
+  "title": "File:KDDI logos.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:KDDI_logos.svg",
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/KDDI_logos.svg/960px-KDDI_logos.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "Public domain"
+ }
+}
