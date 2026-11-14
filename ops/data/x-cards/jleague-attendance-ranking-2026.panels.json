@@ -1,0 +1,25 @@
+{
+ "_doc": "X 告知の画像（Jリーグの観客動員ランキング）。node scripts/gen-x-panels.mjs ops/data/x-cards/jleague-attendance-ranking-2026.panels.json",
+ "_note": "2026-11-15 blog3 の依頼。写真は Wikimedia Commons（photos/_manifest.json）。埼玉スタジアムは CC BY-SA 3.0、広島は CC0。ALT に撮影者名とライセンス",
+ "imageBase": "public/images/jleague-attendance-ranking-2026",
+ "out": "public/images/jleague-attendance-ranking-2026/x",
+ "theme": "ink",
+ "panels": [
+  {
+   "file": "1-rank.jpg",
+   "kind": "html",
+   "noHeader": true,
+   "html": "<div class=\"srw\"><img class=\"srph\" src=\"photos/saitamast.jpg\" alt=\"\"><div class=\"srsh\"></div><div class=\"srtx\"><div class=\"srkk\">2025年・J1の1試合平均の観客数</div><div class=\"srt\">浦和は<em>37,350人</em></div><div class=\"srr srhl\"><span class=\"srk\">1</span><span class=\"srn\">浦和</span><span class=\"srv\">37,350人</span></div><div class=\"srr\"><span class=\"srk\">2</span><span class=\"srn\">名古屋</span><span class=\"srv\">32,263人</span></div><div class=\"srr\"><span class=\"srk\">3</span><span class=\"srn\">FC東京</span><span class=\"srv\">31,590人</span></div><div class=\"srr\"><span class=\"srk\">4</span><span class=\"srn\">G大阪</span><span class=\"srv\">30,007人</span></div><div class=\"srr\"><span class=\"srk\">5</span><span class=\"srn\">鹿島</span><span class=\"srv\">27,401人</span></div><div class=\"srf\">プロ野球12球団の平均 31,515人より多い</div></div></div>",
+   "css": "main{padding:0;height:1080px;display:block}\n.srw{position:relative;height:1080px;background:#1E1219;color:#fff;overflow:hidden}\n.srph{position:absolute;right:0;top:0;width:470px;height:1080px;object-fit:cover;opacity:.55}\n.srsh{position:absolute;inset:0;background:linear-gradient(90deg,#1E1219 52%,rgba(30,18,25,.35))}\n.srtx{position:absolute;left:56px;top:56px;width:640px;bottom:56px;display:flex;flex-direction:column}\n.srkk{align-self:flex-start;font-size:28px;font-weight:900;color:#2A1923;background:#F5C518;border-radius:999px;padding:6px 22px}\n.srt{font-size:64px;font-weight:900;line-height:1.2;margin:16px 0 22px}\n.srt em{font-style:normal;color:#EC5C90}\n.srr{display:flex;align-items:center;gap:18px;padding:12px 18px;margin-bottom:10px;border-radius:14px;background:rgba(255,255,255,.07);font-size:38px;font-weight:800}\n.srk{width:44px;color:#F5C518;font-weight:900;text-align:center}\n.srn{flex:1}\n.srv{font-variant-numeric:tabular-nums}\n.srhl{background:#D63E76;font-size:44px}\n.srhl .srk{color:#fff}\n.srf{margin-top:auto;font-size:28px;font-weight:700;color:#e7d6de;line-height:1.45}\n.srph{width:520px;opacity:.85}\n.srsh{background:linear-gradient(90deg,#1E1219 50%,rgba(30,18,25,.15))}\n.srt{font-size:76px;margin:20px 0 34px}\n.srr{font-size:50px;padding:22px 24px;margin-bottom:18px}\n.srhl{font-size:56px}\n.srf{font-size:36px !important;font-weight:800}\n.srf{font-size:31px !important;white-space:nowrap}",
+   "alt": "2025年のJ1の1試合平均の観客数。1位 浦和 37,350人、2位 名古屋 32,263人、3位 FC東京 31,590人、4位 G大阪 30,007人、5位 鹿島 27,401人。浦和はプロ野球12球団の2025年の1試合平均（31,515人）より多い。出典：Jリーグ公式データサイト。写真：埼玉スタジアム2002 Ocdp（CC BY-SA 3.0）／Wikimedia Commons"
+  },
+  {
+   "file": "2-hiroshima.jpg",
+   "kind": "html",
+   "noHeader": true,
+   "html": "<div class=\"ctw\"><img class=\"ctph\" src=\"photos/peacewing.jpg\" alt=\"\"><div class=\"ctsh\"></div><div class=\"cttx\"><div class=\"ctk\">広島は新しいスタジアムで</div><div class=\"ctt\"><em>+84%</em></div><div class=\"ctg\"><div class=\"ctc\"><i>2019年の1試合平均</i><b>13,886人</b><s>新しいスタジアムができる前</s></div><div class=\"ctc\"><i>2025年の1試合平均</i><b>25,585人</b><s>エディオンピースウイング広島</s></div></div></div></div>",
+   "css": "main{padding:0;height:1080px;display:block}\n.ctw{position:relative;height:1080px;background:#1E1219;color:#fff;overflow:hidden}\n.ctph{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}\n.ctsh{position:absolute;inset:0;background:linear-gradient(180deg,rgba(30,18,25,.15) 0%,rgba(30,18,25,.35) 40%,rgba(30,18,25,.94) 72%)}\n.cttx{position:absolute;left:56px;right:56px;bottom:60px}\n.ctk{display:inline-block;font-size:30px;font-weight:900;color:#2A1923;background:#F5C518;border-radius:999px;padding:6px 22px}\n.ctt{font-size:96px;font-weight:900;line-height:1.15;margin:14px 0 26px}\n.ctt em{font-style:normal;color:#EC5C90}\n.ctg{display:flex;gap:24px}\n.ctc{flex:1;background:rgba(255,255,255,.1);border-radius:20px;padding:22px 28px;display:flex;flex-direction:column}\n.ctc i{font-style:normal;font-size:30px;font-weight:800;color:#f3dbe5}\n.ctc b{font-size:84px;font-weight:900;color:#F5C518;line-height:1.15}\n.ctc s{text-decoration:none;font-size:30px;font-weight:800}",
+   "alt": "サンフレッチェ広島の1試合平均の観客数は、2019年の13,886人から、新しいスタジアムができた後の2025年は25,585人に増えた（+84%）。出典：Jリーグ公式データサイト。写真：エディオンピースウイング広島 Bsx（CC0）／Wikimedia Commons"
+  }
+ ]
+}
