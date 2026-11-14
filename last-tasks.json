@@ -1,3 +1,3 @@
 [
-      {"task": "x480-spread-follow-actions.sh", "rc": 0, "out": "置いた: x-jitter.sh 入れた: 262:    /* x480: 押す直前に間隔の決まりを通す（記録する）。 入れた: 219:        /* x480: 押す前に間隔の決まりを通す（記録する）。空かなければこの回� 載っている ← launchd が持っている値: 載ってい�"}
+      {"task": "t622-station-ridership-sources.sh", "rc": 0, "out": "t622 / t622-station-ridership.md"}
   ]
