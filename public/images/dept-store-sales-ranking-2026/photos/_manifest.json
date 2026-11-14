@@ -1,0 +1,50 @@
+{
+ "isetan.jpg": {
+  "file": "File:Isetan Department Store Shinjuku Store (2019-05-01).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Isetan_Department_Store_Shinjuku_Store_(2019-05-01).jpg",
+  "lic": "CC BY-SA 4.0",
+  "artist": "Lombroso",
+  "fetched": "2026-11-14",
+  "via": "ops/tasks/t624"
+ },
+ "hankyu.jpg": {
+  "file": "File:JP-Osaka-Umeda-Hankyu-Department-Store.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:JP-Osaka-Umeda-Hankyu-Department-Store.jpg",
+  "lic": "CC BY-SA 4.0",
+  "artist": "Kanchi1979",
+  "fetched": "2026-11-14",
+  "via": "ops/tasks/t624"
+ },
+ "takashimaya.jpg": {
+  "file": "File:Takashimaya osaka02 1920.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Takashimaya_osaka02_1920.jpg",
+  "lic": "CC BY 2.5",
+  "artist": "663highland",
+  "fetched": "2026-11-14",
+  "via": "ops/tasks/t624"
+ },
+ "mitsukoshi.jpg": {
+  "file": "File:Mitsukoshi Nihonbashi main store 5.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Mitsukoshi_Nihonbashi_main_store_5.jpg",
+  "lic": "CC BY-SA 4.0",
+  "artist": "Kakidai",
+  "fetched": "2026-11-14",
+  "via": "ops/tasks/t624"
+ },
+ "takashimaya-nihonbashi.jpg": {
+  "file": "File:Takashimaya Nihonbashi Store 2010.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Takashimaya_Nihonbashi_Store_2010.jpg",
+  "lic": "CC BY-SA 3.0",
+  "artist": "Wiiii",
+  "fetched": "2026-11-14",
+  "via": "ops/tasks/t624"
+ },
+ "matsuzakaya.jpg": {
+  "file": "File:Matsuzakaya Nagoya from Chunichi Building.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Matsuzakaya_Nagoya_from_Chunichi_Building.jpg",
+  "lic": "CC BY-SA 4.0",
+  "artist": "Kyu3a",
+  "fetched": "2026-11-14",
+  "via": "ops/tasks/t624"
+ }
+}
