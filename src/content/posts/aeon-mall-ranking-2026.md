@@ -4,7 +4,7 @@ description: "イオンモールの公式サイトにある全国150施設の総
 publishDate: 2026-11-01
 category: ["roundups", "comparisons", "rankings"]
 tags: ["イオンモール", "イオンモール売上ランキング", "イオンモール大きさランキング", "ショッピングモール", "幕張新都心", "イオンモール橿原", "イオンレイクタウン", "2026年版"]
-isPR: false
+isPR: true
 draft: false
 eyecatchUrl: "/images/aeon-mall-ranking-2026/eyecatch.jpg"
 eyecatchAlt: "イオンモール大きさランキング2026。全国150施設を公式データで並べた。1位は幕張新都心と橿原、3館合わせたレイクタウンは19万㎡"
@@ -121,6 +121,11 @@ references:
     </a></li>
   </ul>
 </aside>
+
+<div class="callout info">
+<p class="head">大きいイオンモールへ遠出するなら</p>
+<p style="margin:0">幕張新都心やレイクタウンのように 1 日では回り切れないモールへ行くなら、<a href="https://px.a8.net/svt/ejp?a8mat=4B3Y38+36WPAY+5RZ8+5YJRM" target="_blank" rel="nofollow sponsored noopener">イオンコンパストラベルモール</a>（PR）で近くのホテルを探せて、WAON POINT もたまる。駅から遠いモールへは同じサイトの <a href="https://px.a8.net/svt/ejp?a8mat=4B43JB+C9ROEY+5RZ8+BX3J6" target="_blank" rel="nofollow sponsored noopener">全国レンタカー</a>（PR）も使える。イオンでよく買い物をするなら、イオングループで使えるクレジットカード <a href="https://px.a8.net/svt/ejp?a8mat=4BESU9+39AFQ2+5XGQ+5YJRM" target="_blank" rel="nofollow sponsored noopener">コスモ・ザ・カード・オーパス</a>（PR）も選択肢になる（条件は公式ページで確かめて）。</p>
+</div>
 
 ## 1位 イオンモール幕張新都心（千葉）｜128,000㎡、延床は40万㎡
 

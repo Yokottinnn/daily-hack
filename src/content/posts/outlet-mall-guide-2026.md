@@ -97,6 +97,11 @@ isPR: true
 
 なお木更津は、この690億（FY2024）から**翌FY2025で790億に伸びて**、三井の最大手として御殿場を追っている。詳しくは三井の章で。
 
+<div class="callout info">
+<p class="head">車が無い人が郊外のアウトレットへ行くなら</p>
+<p style="margin:0">御殿場・木更津・酒々井のように駅から遠いアウトレットは、レンタカーだと荷物が増えても困らない。<a href="https://px.a8.net/svt/ejp?a8mat=4BESU9+CC5EU2+AD2+2T9U01" target="_blank" rel="nofollow sponsored noopener">エアトリレンタカー</a>（PR）で各社の料金を並べて比べられる。御殿場や木更津で 1 泊するなら <a href="https://www.jalan.net/" target="_blank" rel="nofollow sponsored noopener">じゃらん</a>（PR）で近くの宿を探せる。</p>
+</div>
+
 ## 2大勢力の比較｜三井MOP vs プレミアム・アウトレット
 
 日本のアウトレットは、実質**この2社でほぼ決まる**（32施設中24施設）。ただし同じ「アウトレット」でも、思想がまるで違う。
