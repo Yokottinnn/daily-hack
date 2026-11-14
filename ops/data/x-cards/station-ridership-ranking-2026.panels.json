@@ -1,0 +1,25 @@
+{
+ "_doc": "X 告知の画像（駅の乗降客数ランキング）。node scripts/gen-x-panels.mjs ops/data/x-cards/station-ridership-ranking-2026.panels.json",
+ "_note": "2026-11-14 blog3 の依頼。写真は Wikimedia Commons の CC BY-SA（photos/_manifest.json）。画像の中に出所は出さず ALT に撮影者名とライセンスを書く",
+ "imageBase": "public/images/station-ridership-ranking-2026",
+ "out": "public/images/station-ridership-ranking-2026/x",
+ "theme": "ink",
+ "panels": [
+  {
+   "file": "1-metro.jpg",
+   "kind": "html",
+   "noHeader": true,
+   "html": "<div class=\"srw\"><img class=\"srph\" src=\"photos/toyosu.jpg\" alt=\"\"><div class=\"srsh\"></div><div class=\"srtx\"><div class=\"srkk\">東京メトロ・1日平均の乗降人員（2025年度）</div><div class=\"srt\">豊洲は<em>130駅で5位</em></div><div class=\"srr\"><span class=\"srk\">1</span><span class=\"srn\">池袋</span><span class=\"srv\">529,947人</span></div><div class=\"srr\"><span class=\"srk\">2</span><span class=\"srn\">大手町</span><span class=\"srv\">350,993人</span></div><div class=\"srr\"><span class=\"srk\">3</span><span class=\"srn\">北千住</span><span class=\"srv\">246,410人</span></div><div class=\"srr\"><span class=\"srk\">4</span><span class=\"srn\">銀座</span><span class=\"srv\">233,901人</span></div><div class=\"srr srhl\"><span class=\"srk\">5</span><span class=\"srn\">豊洲</span><span class=\"srv\">215,423人</span></div><div class=\"srr\"><span class=\"srk\">6</span><span class=\"srn\">新橋</span><span class=\"srv\">209,360人</span></div><div class=\"srr\"><span class=\"srk\">7</span><span class=\"srn\">東京</span><span class=\"srv\">209,216人</span></div><div class=\"srr\"><span class=\"srk\">8</span><span class=\"srn\">新宿</span><span class=\"srv\">201,609人</span></div><div class=\"srf\">新橋・東京・新宿（どれもメトロの駅）より多い</div></div></div>",
+   "css": "main{padding:0;height:1080px;display:block}\n.srw{position:relative;height:1080px;background:#1E1219;color:#fff;overflow:hidden}\n.srph{position:absolute;right:0;top:0;width:470px;height:1080px;object-fit:cover;opacity:.55}\n.srsh{position:absolute;inset:0;background:linear-gradient(90deg,#1E1219 52%,rgba(30,18,25,.35))}\n.srtx{position:absolute;left:56px;top:56px;width:640px;bottom:56px;display:flex;flex-direction:column}\n.srkk{align-self:flex-start;font-size:28px;font-weight:900;color:#2A1923;background:#F5C518;border-radius:999px;padding:6px 22px}\n.srt{font-size:64px;font-weight:900;line-height:1.2;margin:16px 0 22px}\n.srt em{font-style:normal;color:#EC5C90}\n.srr{display:flex;align-items:center;gap:18px;padding:12px 18px;margin-bottom:10px;border-radius:14px;background:rgba(255,255,255,.07);font-size:38px;font-weight:800}\n.srk{width:44px;color:#F5C518;font-weight:900;text-align:center}\n.srn{flex:1}\n.srv{font-variant-numeric:tabular-nums}\n.srhl{background:#D63E76;font-size:44px}\n.srhl .srk{color:#fff}\n.srf{margin-top:auto;font-size:28px;font-weight:700;color:#e7d6de;line-height:1.45}",
+   "alt": "東京メトロの1日平均の乗降人員（2025年度）。1位池袋529,947人、2位大手町350,993人、3位北千住246,410人、4位銀座233,901人、5位豊洲215,423人、6位新橋209,360人、7位東京209,216人、8位新宿201,609人。豊洲は全130駅で5位。写真：豊洲駅 Rs1421（CC BY-SA 3.0、Wikimedia Commons）"
+  },
+  {
+   "file": "2-jr.jpg",
+   "kind": "html",
+   "noHeader": true,
+   "html": "<div class=\"wrap\"><img class=\"ph\" src=\"photos/shinjuku.jpg\" alt=\"\"><div class=\"shade\"></div><div class=\"tx\"><div class=\"k\">JR東日本・1日平均の乗車人員（2024年度）</div><div class=\"t\">JRの1位は<em>新宿</em></div><ul class=\"pts\"><li><b>1位</b>新宿 666,809人</li><li><b>2位</b>池袋 499,128人</li><li><b>3位</b>東京 434,564人</li><li><b>数え方</b>JRは乗った人だけ・メトロは乗り降り両方</li></ul></div></div>",
+   "css": "main{padding:0;height:1080px;display:block}\n.wrap{position:relative;height:1080px;color:#fff;background:#1E1219;overflow:hidden}\n.ph{position:absolute;left:0;top:0;width:100%;height:540px;object-fit:cover}\n.shade{position:absolute;left:0;right:0;top:300px;height:242px;background:linear-gradient(180deg,rgba(30,18,25,0),#1E1219 92%)}\n.tx{position:absolute;left:56px;right:56px;top:430px;bottom:56px;display:flex;flex-direction:column}\n.k{align-self:flex-start;font-size:30px;font-weight:900;color:#2A1923;background:#F5C518;border-radius:999px;padding:6px 22px}\n.t{font-size:66px;font-weight:900;line-height:1.2;margin-top:14px;text-shadow:0 2px 12px rgba(0,0,0,.4)}\n.t em{font-style:normal;color:#EC5C90}\n.pts{list-style:none;margin-top:24px;flex:1;display:flex;flex-direction:column;justify-content:center;gap:18px}\n.pts li{font-size:35px;font-weight:700;line-height:1.35;background:rgba(255,255,255,.08);border-left:10px solid #EC5C90;border-radius:14px;padding:15px 22px}\n.pts b{color:#F5C518;margin-right:12px}",
+   "alt": "JR東日本の1日平均の乗車人員（2024年度）。1位新宿666,809人、2位池袋499,128人、3位東京434,564人。JRは乗った人だけ、東京メトロは乗り降り両方を数えるので、数字をそのまま比べない。写真：新宿駅 MaedaAkihiko（CC BY-SA 4.0、Wikimedia Commons）"
+  }
+ ]
+}

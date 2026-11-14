@@ -105,6 +105,7 @@ const FILES = {
   "harumi-triton-november-deals-2026": ["1-official.jpg", "2-point.jpg"],
   "airport-passenger-ranking-2026": ["1-rank.jpg", "2-growth.jpg"],
   "dept-store-sales-ranking-2026": ["1-rank.jpg", "2-move.jpg"],
+  "station-ridership-ranking-2026": ["1-metro.jpg", "2-jr.jpg"],
   "furusato-tax-beginner-guide-2026": ["a1-question.jpg"],
   "poikatsu-hourly-wage-2026": ["a1-compare.jpg"],
 };
