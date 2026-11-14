@@ -82,6 +82,25 @@
       ]
     },
     {
+      "name": "観光・宿泊",
+      "items": [
+        {
+          "slug": "shukuhaku-ranking-2026",
+          "topic": "都道府県別の延べ宿泊者数（2025年）",
+          "first": "東京",
+          "value": "1億790万人泊",
+          "source": "観光庁"
+        },
+        {
+          "slug": "onsen-ranking-2026",
+          "topic": "温泉の源泉の数（都道府県）",
+          "first": "大分",
+          "value": "5,094か所",
+          "source": "環境省"
+        }
+      ]
+    },
+    {
       "name": "スポーツ・まち",
       "items": [
         {
@@ -104,13 +123,6 @@
           "first": "泉佐野市",
           "value": "230.4億円",
           "source": "総務省"
-        },
-        {
-          "slug": "onsen-ranking-2026",
-          "topic": "温泉の源泉の数（都道府県）",
-          "first": "大分",
-          "value": "5,094か所",
-          "source": "環境省"
         }
       ]
     }
