@@ -697,5 +697,45 @@
       "文面（JR とメトロの数字をそのまま比べていないか）",
       "画像 2 枚（写真は CC BY-SA。撮影者は ALT に）"
     ]
+  },
+  "blog-conbini-ranking": {
+    "status": "draft",
+    "date": "2026-11-14",
+    "purpose": "blog",
+    "why": "【ブログ記事の紹介・ランキング】blog3 の依頼（11/14・PR #1680）。3社の公式の都道府県別店舗数",
+    "check": [
+      "文面（ローソンだけ2026年2月末の数字）",
+      "画像 2 枚（写真は CC BY / CC BY-SA。撮影者は ALT に）"
+    ]
+  },
+  "blog-npb-ranking": {
+    "status": "draft",
+    "date": "2026-11-14",
+    "purpose": "blog",
+    "why": "【ブログ記事の紹介・ランキング】blog3 の依頼（11/14・PR #1680）。NPB公式の2026年の入場者数",
+    "check": [
+      "文面（2019年との差は『約』）",
+      "画像 2 枚（写真は CC BY-SA。撮影者は ALT に）"
+    ]
+  },
+  "blog-furusato-ranking": {
+    "status": "draft",
+    "date": "2026-11-14",
+    "purpose": "blog",
+    "why": "【ブログ記事の紹介・ランキング（ニュースの切り口でも組める）】blog3 の依頼（11/14・PR #1680）。総務省の令和7年度の受入額",
+    "check": [
+      "文面（宝塚市の落ち方の書き方）",
+      "画像 2 枚（写真は CC0 / CC BY / CC BY-SA。撮影者は ALT に）"
+    ]
+  },
+  "blog-electronics-ranking": {
+    "status": "draft",
+    "date": "2026-11-14",
+    "purpose": "blog",
+    "why": "【ブログ記事の紹介・ランキング（経営統合のニュースの切り口でも組める）】blog3 の依頼（11/14・PR #1680）。各社の決算短信",
+    "check": [
+      "文面（ノジマの『家電の部分だけ』の言い方）",
+      "画像 2 枚（ノジマはロゴ・ほかは Commons の写真。撮影者は ALT に）"
+    ]
   }
 }
