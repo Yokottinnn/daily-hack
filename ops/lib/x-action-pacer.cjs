@@ -60,6 +60,14 @@ const DAILY = { follow: 10, unfollow: 10, like: 40 };
 const DAY_MS = 24 * 60 * 60 * 1000;
 // 深夜は押さない（JST 0:00〜6:59）。人が寝ている時間に動くのは自動の印になる。投稿は対象外
 const QUIET = { types: ["follow", "unfollow", "like"], fromHour: 0, toHour: 7 };
+// 間隔をばらつかせる（毎回同じ秒数で押さない）。前の回の時刻から決まる乱数なので、状態を持たずにどのジョブでも同じ値になる
+const RAND_GAP = { follow: [3 * 60000, 12 * 60000], unfollow: [3 * 60000, 12 * 60000] };
+const COMBINED = { types: ["follow", "unfollow"], max: 4 };
+function randGap(type, last) {
+  const [a, b] = RAND_GAP[type]; let h = Math.floor(last) ^ 0x5bd1e995;
+  h = Math.imul(h ^ (h >>> 15), 0x2c1b3c6d); h = Math.imul(h ^ (h >>> 12), 0x297a2d39); h ^= h >>> 15;
+  return a + ((h >>> 0) % (b - a));
+}
 function jstHour(now) { return new Date(now + 9 * 3600000).getUTCHours(); }
 function msUntilQuietEnds(now) {
   const d = new Date(now + 9 * 3600000); d.setUTCHours(QUIET.toHour, 0, 0, 0);
@@ -76,6 +84,15 @@ function judge(j, type, now) {
   if (DAILY[type]) {
     const day = (j[type] || []).filter((t) => now - t < DAY_MS);
     if (day.length >= DAILY[type]) return { ok: false, waitMs: DAY_MS - (now - day[0]) + 1000, reason: `${type}: 24 時間で ${day.length} 回（1 日の上限 ${DAILY[type]}）` };
+  }
+  // フォローと解除は合わせて数える（同じ 30 分に混ぜて固めない・2026-11-14）
+  if (COMBINED.types.includes(type)) {
+    const both = COMBINED.types.flatMap((k) => (j[k] || []).filter((t) => now - t < WINDOW_MS)).sort((a, b) => a - b);
+    if (both.length >= COMBINED.max) return { ok: false, waitMs: WINDOW_MS - (now - both[0]) + 1000, reason: `フォロー＋解除: 30 分で ${both.length} 回（合わせて上限 ${COMBINED.max}）` };
+    if (both.length && RAND_GAP[type]) {
+      const last = both[both.length - 1], g = randGap(type, last), since = now - last;
+      if (since < g) return { ok: false, waitMs: g - since, reason: `${type}: 前の回（フォロー・解除のどちらか）から ${Math.round(since / 1000)} 秒（今回は ${Math.round(g / 1000)} 秒 あける）` };
+    }
   }
   const xs = (j[type] || []).filter((t) => now - t < WINDOW_MS);
   if (xs.length) {
@@ -124,7 +141,7 @@ async function waitFree(type, maxWaitMs) {
   }
 }
 
-module.exports = { LIMITS, DAILY, QUIET, LEDGER, WINDOW_MS, check, take, waitTake, waitFree };
+module.exports = { LIMITS, DAILY, QUIET, RAND_GAP, COMBINED, LEDGER, WINDOW_MS, check, take, waitTake, waitFree };
 
 if (require.main === module) {
   const [cmd, type, sec] = process.argv.slice(2);
