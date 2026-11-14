@@ -1,0 +1,20 @@
+{
+ "bf.jpg": {
+  "src": "https://ariake.shopping-sumitomo-rd.com/wp-content/uploads/2026/11/1280_960.jpg",
+  "page": "https://ariake.shopping-sumitomo-rd.com/event/5242/",
+  "credit": "有明ガーデン 公式サイト「ARIAKE GARDEN BLACK FRIDAY」",
+  "fetched": "2026-11-14"
+ },
+ "bf-date.jpg": {
+  "src": "bf.jpg の一部を切り出し",
+  "page": "https://ariake.shopping-sumitomo-rd.com/event/5242/",
+  "credit": "有明ガーデン 公式サイト「ARIAKE GARDEN BLACK FRIDAY」",
+  "fetched": "2026-11-14"
+ },
+ "bf-title.jpg": {
+  "src": "bf.jpg の一部を切り出し",
+  "page": "https://ariake.shopping-sumitomo-rd.com/event/5242/",
+  "credit": "有明ガーデン 公式サイト「ARIAKE GARDEN BLACK FRIDAY」",
+  "fetched": "2026-11-14"
+ }
+}
