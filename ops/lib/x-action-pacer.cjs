@@ -103,6 +103,17 @@ function judge(j, type, now) {
   return { ok: true, waitMs: 0, reason: "" };
 }
 
+// 第 2 段（押す係を 1 つにまとめる）の試し運転用に、押す直前の記録を残す（2026-11-14）。失敗しても押すほうは止めない
+const SHADOW = path.join(path.dirname(LEDGER), "x-action-shadow.jsonl");
+function shadow(type, now) {
+  try {
+    let parent = "";
+    try { parent = require("child_process").execSync(`ps -o command= -p ${process.ppid}`, { encoding: "utf8", timeout: 2000 }).trim().slice(0, 200); } catch {}
+    const rec = { t: now, type, script: path.basename(process.argv[1] || ""), arg: (process.argv[2] || "").slice(0, 40), parent };
+    fs.appendFileSync(SHADOW, JSON.stringify(rec) + "\n");
+  } catch {}
+}
+
 function check(type, now = Date.now()) { return judge(read(), type, now); }
 
 function take(type, now = Date.now()) {
@@ -113,7 +124,7 @@ function take(type, now = Date.now()) {
     const j = read();
     for (const k of Object.keys(j)) j[k] = (j[k] || []).filter((t) => now - t < DAY_MS + WINDOW_MS);
     const r = judge(j, type, now);
-    if (r.ok) { (j[type] = j[type] || []).push(now); write(j); }
+    if (r.ok) { (j[type] = j[type] || []).push(now); write(j); shadow(type, now); }
     return r;
   } finally { unlock(); }
 }
