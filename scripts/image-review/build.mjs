@@ -103,6 +103,8 @@ const FILES = {
   "amazon-blackfriday-2026-itsu": ["1-official.jpg", "2-point.jpg"],
   "wangan-receipt-2026-11": ["1-receipt.jpg"],
   "harumi-triton-november-deals-2026": ["1-official.jpg", "2-point.jpg"],
+  "airport-passenger-ranking-2026": ["1-rank.jpg", "2-growth.jpg"],
+  "dept-store-sales-ranking-2026": ["1-rank.jpg", "2-move.jpg"],
   "furusato-tax-beginner-guide-2026": ["a1-question.jpg"],
   "poikatsu-hourly-wage-2026": ["a1-compare.jpg"],
 };
