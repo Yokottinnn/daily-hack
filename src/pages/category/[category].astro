@@ -10,6 +10,7 @@ import { WANGAN_AREAS, WANGAN_NEWS_TAG, upcomingEvents, jpRange, jpDate, todayJs
 import WanganEventMap from '../../components/WanganEventMap.astro';
 import WanganMapGuide from '../../components/WanganMapGuide.astro';
 import rankingsIndex from '../../data/rankings-index.json';
+import RankingsShowcase from '../../components/RankingsShowcase.astro';
 import { topByPv } from '../../lib/popular';
 
 export async function getStaticPaths() {
@@ -100,7 +101,7 @@ const isRankings = category === 'rankings';
 // 2026-11-14 利用者がダイアログで「ランキング一覧ページを充実させる」を選んだ。各ランキングの 1 位と数字の早見表（記事が公開済みのものだけ出す）
 const rankingGroups = isRankings
   ? rankingsIndex.groups
-      .map((g) => ({ ...g, items: g.items.filter((it) => sorted.some((p) => p.id === it.slug)) }))
+      .map((g) => ({ ...g, items: g.items.filter((it) => sorted.some((p) => p.id === it.slug)).map((it) => ({ ...it, img: sorted.find((p) => p.id === it.slug)?.data.eyecatchUrl })) }))
       .filter((g) => g.items.length > 0)
   : [];
 const today = todayJst();
@@ -252,10 +253,10 @@ for (const p of sorted) {
   {rankingGroups.length > 0 && (
     <section>
       <div class="wrap">
-        <div class="sec-head">
-          <h2 id="quick">ランキングの1位 早見表</h2>
-          <span style="font-size: 12px; color: var(--ink-3);">数字は各記事に書いた公式の数字。出どころは右端の列</span>
-        </div>
+        <RankingsShowcase groups={rankingGroups as any} />
+        <details class="rk-quick">
+        <summary><h2 id="quick">ランキングの1位 早見表（表で見る）</h2></summary>
+        <p style="font-size: 12px; color: var(--ink-3);">数字は各記事に書いた公式の数字。出どころは右端の列</p>
         {rankingGroups.map((g) => (
           <div class="rk-group">
             <h3>{g.name}</h3>
@@ -276,6 +277,7 @@ for (const p of sorted) {
             </div>
           </div>
         ))}
+        </details>
       </div>
     </section>
   )}
@@ -390,6 +392,11 @@ for (const p of sorted) {
   .wangan-areas a { display: block; padding: 12px 14px; border: 1px solid var(--pink-200); border-radius: 12px; background: var(--pink-50); }
   .wangan-areas span { color: var(--ink-3); font-size: 12px; }
   .wangan-areas small { display: block; color: var(--ink-2); font-size: 12px; margin-top: 4px; }
+  .rk-quick { margin: 34px 0 0; background: var(--paper, #fff); border: 1px solid var(--line, #eee); border-radius: 14px; padding: 6px 16px; }
+  .rk-quick > summary { cursor: pointer; list-style: none; }
+  .rk-quick > summary h2 { display: inline; font-size: 17px; }
+  .rk-quick > summary::after { content: " ▼"; font-size: 12px; color: var(--ink-3); }
+  .rk-quick[open] > summary::after { content: " ▲"; }
   .rk-group { margin: 0 0 18px; }
   .rk-group h3 { font-size: 15px; margin: 0 0 8px; }
   .rk-table td a { font-weight: 700; border-bottom: 1px dotted var(--pink-300); }
