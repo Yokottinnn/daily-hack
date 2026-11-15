@@ -108,7 +108,7 @@ const BUILD = `この版: ${built} に作成${sha ? `（${sha}）` : ''}`;
       try { localStorage.setItem(STORAGE_KEY, JSON.stringify(all)); } catch (e) {}
     }
     // 対応済みのコメントを消す（そのページの「対応済みの時刻」より前に書かれたもの）
-    (function pruneDone() {
+    function pruneDone() {
       const all = loadAll(); let changed = false;
       for (const k of Object.keys(all)) {
         const cut = DONE[k]; if (!cut || !Array.isArray(all[k])) continue;
@@ -116,7 +116,24 @@ const BUILD = `この版: ${built} に作成${sha ? `（${sha}）` : ''}`;
         if (keep.length !== all[k].length) { all[k] = keep; changed = true; }
       }
       if (changed) { try { localStorage.setItem(STORAGE_KEY, JSON.stringify(all)); } catch (e) {} }
-    })();
+      return changed;
+    }
+    pruneDone();
+    // 2026-11-15: 古い版（ハッシュ付きのプレビュー）でも消えるよう、最新の「対応済みの時刻」をブランチのプレビューから読む
+    const LATEST = 'https://claude-daily-hack-blog2-conv.daily-hack.pages.dev';
+    try {
+      fetch(LATEST + '/draft-comments-done.json', { cache: 'no-store' }).then((r) => r.ok ? r.json() : null).then((d) => {
+        if (!d) return;
+        for (const k of Object.keys(d)) { const v = new Date(d[k]).getTime(); if (v && (!DONE[k] || v > DONE[k])) DONE[k] = v; }
+        if (pruneDone() && typeof refresh === 'function') refresh();
+      }).catch(() => {});
+    } catch (e) {}
+    if (/^[0-9a-f]{8}\.daily-hack\.pages\.dev$/.test(location.hostname)) {
+      const note = document.createElement('p');
+      note.className = 'dc-build';
+      note.innerHTML = 'これは固定の古い版です。<a href="' + LATEST + location.pathname + '">いつでも最新の版はこちら</a>';
+      const b = document.querySelector('#dc-panel .dc-build'); if (b) b.after(note);
+    }
     function refresh() {
       const comments = loadFor(articleKey);
       count.textContent = String(comments.length);
