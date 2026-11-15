@@ -21,7 +21,8 @@ const {
   layoutKey,
 } = Astro.props;
 
-const client = import.meta.env.PUBLIC_ADSENSE_CLIENT ?? '';
+// 2026-11-15 AdSense 承認。BaseLayout と同じく、環境変数が無ければ会社のパブリッシャー ID を使う（ページのソースに出る公開情報）
+const client = import.meta.env.PUBLIC_ADSENSE_CLIENT || 'ca-pub-3805028233672648';
 const enabled = client.startsWith('ca-pub-');
 ---
 
