@@ -8,7 +8,7 @@
 #   ルートドメイン（fieldbeside.com）の ads.txt にフォールバックする。
 #   https://support.google.com/adsense/answer/9785052
 #
-#   → **fieldbeside.com/ads.txt に次の 1 行が要る**（このリポジトリの外）。
+#   → **fieldbeside.com/ads.txt に次の 1 行が要る**（このリポジトリの外・2026-11-13 に入れた）。
 #        SUBDOMAIN=daily-hack.fieldbeside.com
 #      それが置けないなら、広告事業者の行は fieldbeside.com/ads.txt 側に書く。
 #
@@ -16,6 +16,6 @@
 #
 # ■ 忍者AdMAX は 2026-11-03 にサイト全体から外した（利用者の指示。A8 などの成果報酬の広告に交換）。
 #
-# ■ Google AdSense ← 未審査。承認後に下記 placeholder を実際の pub-ID に置換する
-# 2026-11-03 会社の Google アカウントで AdSense に申し込んだ（サイトは fieldbeside.com。審査中）
+# ■ Google AdSense: 2026-11-03 に会社の Google アカウントで申し込み（サイトは fieldbeside.com）、2026-11-15 に承認された。
+#   fieldbeside.com/ads.txt にも同じ行と SUBDOMAIN=daily-hack.fieldbeside.com がある（2026-11-15 に確認）
 google.com, pub-3805028233672648, DIRECT, f08c47fec0942fa0

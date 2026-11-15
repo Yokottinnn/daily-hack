@@ -132,32 +132,32 @@ const yandexVerification = import.meta.env.PUBLIC_YANDEX_VERIFICATION ?? '';
       その site_tag を入れること。** 古い token を貼り直しても、また黙って 0 になる。
     */}
 
+    {/* 2026-11-15 AdSense 承認（affiliate）。同意の既定は地域で分ける（利用者がダイアログで「地域で分ける」を選んだ）。
+        EU・EEA・英国・スイスは同意するまで拒否、それ以外は拒否を押すまで同意。バナーで選んだ結果（localStorage）があればそれに従う。
+        GA4 と AdSense の両方が読むので、GA4 の有無にかかわらず先頭で決める */}
+    {(ga4Enabled || adsenseEnabled) && (
+      <script is:inline>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        (function () {
+          var EEA = ['AT','BE','BG','HR','CY','CZ','DK','EE','FI','FR','DE','GR','HU','IE','IT','LV','LT','LU','MT','NL','PL','PT','RO','SK','SI','ES','SE','IS','LI','NO','GB','CH'];
+          var D = { ad_storage: 'denied', ad_user_data: 'denied', ad_personalization: 'denied', analytics_storage: 'denied' };
+          var G = { ad_storage: 'granted', ad_user_data: 'granted', ad_personalization: 'granted', analytics_storage: 'granted' };
+          gtag('consent', 'default', Object.assign({ region: EEA, wait_for_update: 500 }, D));
+          gtag('consent', 'default', G);
+          var st = null; try { st = localStorage.getItem('daily-hack:cookie-consent'); } catch (e) {}
+          if (st === 'accepted') gtag('consent', 'update', G);
+          if (st === 'rejected') { gtag('consent', 'update', D); (window.adsbygoogle = window.adsbygoogle || []).requestNonPersonalizedAds = 1; }
+        })();
+      </script>
+    )}
+
     {ga4Enabled && (
       <>
         <script async src={`https://www.googletagmanager.com/gtag/js?id=${ga4Id}`} />
         <script is:inline define:vars={{ ga4Id }}>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
-          // デフォルトでは個別Cookieを拒否、CookieConsent側で同意があれば変更
-          gtag('consent', 'default', {
-            ad_storage: 'denied',
-            ad_user_data: 'denied',
-            ad_personalization: 'denied',
-            analytics_storage: 'denied',
-          });
           gtag('config', ga4Id, { anonymize_ip: true });
-          // CookieConsent で accept されたら有効化
-          try {
-            if (localStorage.getItem('daily-hack:cookie-consent') === 'accepted') {
-              gtag('consent', 'update', {
-                ad_storage: 'granted',
-                ad_user_data: 'granted',
-                ad_personalization: 'granted',
-                analytics_storage: 'granted',
-              });
-            }
-          } catch(e) {}
           // 2026-11-14 affiliate: 成果リンク・3 店ボタンのクリックを記事ごとに計る（利用者がダイアログで選択）。
           // rel="sponsored" のリンクと、LinkSwitch で成果リンクになる店のリンクを押したら affiliate_click を送る。
           // 同意の扱いは上の consent の設定に従う（拒否なら GA4 は Cookie を使わない）
