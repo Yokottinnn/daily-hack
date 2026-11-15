@@ -253,9 +253,8 @@ for (const p of sorted) {
   {rankingGroups.length > 0 && (
     <section>
       <div class="wrap">
-        <RankingsShowcase groups={rankingGroups as any} />
-        {/* 2026-11-15 下書きコメント「これだけたたんであってページ全体から浮いている／ファーストビューのようにキャッチーに」: 畳むのをやめ、表紙の帯と同じ調子の 1 位カードにした */}
-        <section class="rkq" id="quick">
+        <RankingsShowcase groups={rankingGroups as any}>
+        <section class="rkq" id="quick" slot="quick">
           <div class="rkq-head">
             <p class="rkq-kicker">1位だけ、まとめて一気見</p>
             <h2>ランキングの1位 早見表</h2>
@@ -279,6 +278,8 @@ for (const p of sorted) {
             </div>
           ))}
         </section>
+        </RankingsShowcase>
+        {/* 2026-11-15 下書きコメント「これだけたたんであってページ全体から浮いている／ファーストビューのようにキャッチーに」: 畳むのをやめ、表紙の帯と同じ調子の 1 位カードにした */}
       </div>
     </section>
   )}
