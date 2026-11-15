@@ -1,0 +1,25 @@
+{
+ "_doc": "X 告知の画像。node scripts/gen-x-panels.mjs ops/data/x-cards/subway-station-ranking-2026.panels.json",
+ "_note": "2026-11-15 blog3 の依頼。写真は Commons（CC BY-SA）。出所は画像に出さず ALT に",
+ "imageBase": "public/images/subway-station-ranking-2026",
+ "out": "public/images/subway-station-ranking-2026/x",
+ "theme": "ink",
+ "panels": [
+  {
+   "file": "1-metro.jpg",
+   "kind": "html",
+   "noHeader": true,
+   "html": "<div class=\"srw\"><img class=\"srph\" src=\"photos/ikebukuro.jpg\" alt=\"\"><div class=\"srsh\"></div><div class=\"srtx\"><div class=\"srkk\">東京メトロ・1日平均の乗降人員（2025年度）</div><div class=\"srt\">池袋は<em>6年連続1位</em></div><div class=\"srr srhl\"><span class=\"srk\">1</span><span class=\"srn\">池袋</span><span class=\"srv\">52万9,947</span></div><div class=\"srr\"><span class=\"srk\">2</span><span class=\"srn\">大手町</span><span class=\"srv\">35万993</span></div><div class=\"srr\"><span class=\"srk\">3</span><span class=\"srn\">北千住</span><span class=\"srv\">24万6,410</span></div><div class=\"srr\"><span class=\"srk\">4</span><span class=\"srn\">銀座</span><span class=\"srv\">23万3,901</span></div><div class=\"srr\"><span class=\"srk\">5</span><span class=\"srn\">豊洲</span><span class=\"srv\">21万5,423</span></div><div class=\"srf\">130駅のうち前の年より減ったのは3駅だけ</div></div></div>",
+   "css": "main{padding:0;height:1080px;display:block}\n.srw{position:relative;height:1080px;background:#1E1219;color:#fff;overflow:hidden}\n.srph{position:absolute;right:0;top:0;width:470px;height:1080px;object-fit:cover;opacity:.55}\n.srsh{position:absolute;inset:0;background:linear-gradient(90deg,#1E1219 52%,rgba(30,18,25,.35))}\n.srtx{position:absolute;left:56px;top:56px;width:640px;bottom:56px;display:flex;flex-direction:column}\n.srkk{align-self:flex-start;font-size:28px;font-weight:900;color:#2A1923;background:#F5C518;border-radius:999px;padding:6px 22px}\n.srt{font-size:64px;font-weight:900;line-height:1.2;margin:16px 0 22px}\n.srt em{font-style:normal;color:#EC5C90}\n.srr{display:flex;align-items:center;gap:18px;padding:12px 18px;margin-bottom:10px;border-radius:14px;background:rgba(255,255,255,.07);font-size:38px;font-weight:800}\n.srk{width:44px;color:#F5C518;font-weight:900;text-align:center}\n.srn{flex:1}\n.srv{font-variant-numeric:tabular-nums}\n.srhl{background:#D63E76;font-size:44px}\n.srhl .srk{color:#fff}\n.srf{margin-top:auto;font-size:28px;font-weight:700;color:#e7d6de;line-height:1.45}\n.srph{width:520px;opacity:.85}\n.srsh{background:linear-gradient(90deg,#1E1219 50%,rgba(30,18,25,.15))}\n.srt{font-size:72px;margin:20px 0 30px}\n.srr{font-size:46px;padding:20px 22px;margin-bottom:16px}\n.srhl{font-size:52px}\n.srf{font-size:31px !important;font-weight:800;white-space:nowrap}",
+   "alt": "東京メトロの1日平均の乗降人員（2025年度）。1位 池袋 52万9,947人（2020年度から6年連続）、2位 大手町 35万993人、3位 北千住 24万6,410人、4位 銀座 23万3,901人、5位 豊洲 21万5,423人。出典：東京メトロ。写真：池袋駅 MaedaAkihiko（CC BY-SA 4.0）／Wikimedia Commons"
+  },
+  {
+   "file": "2-shinjuku.jpg",
+   "kind": "html",
+   "noHeader": true,
+   "html": "<div class=\"ctw\"><img class=\"ctph\" src=\"photos/shinjuku.jpg\" alt=\"\"><div class=\"ctsh\"></div><div class=\"cttx\"><div class=\"ctk\">新宿駅・1日平均の乗降人員（2025年度）</div><div class=\"ctt\"><em>都営</em>のほうが多い</div><div class=\"ctg\"><div class=\"ctc\"><i>都営新宿線の新宿</i><b>30万896人</b><s>都営で1位</s></div><div class=\"ctc\"><i>丸ノ内線の新宿</i><b>20万1,609人</b><s>東京メトロ</s></div></div></div></div>",
+   "css": "main{padding:0;height:1080px;display:block}\n.ctw{position:relative;height:1080px;background:#1E1219;color:#fff;overflow:hidden}\n.ctph{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}\n.ctsh{position:absolute;inset:0;background:linear-gradient(180deg,rgba(30,18,25,.15) 0%,rgba(30,18,25,.35) 40%,rgba(30,18,25,.94) 72%)}\n.cttx{position:absolute;left:56px;right:56px;bottom:60px}\n.ctk{display:inline-block;font-size:30px;font-weight:900;color:#2A1923;background:#F5C518;border-radius:999px;padding:6px 22px}\n.ctt{font-size:96px;font-weight:900;line-height:1.15;margin:14px 0 26px}\n.ctt em{font-style:normal;color:#EC5C90}\n.ctg{display:flex;gap:24px}\n.ctc{flex:1;background:rgba(255,255,255,.1);border-radius:20px;padding:22px 28px;display:flex;flex-direction:column}\n.ctc i{font-style:normal;font-size:30px;font-weight:800;color:#f3dbe5}\n.ctc b{font-size:84px;font-weight:900;color:#F5C518;line-height:1.15}\n.ctc s{text-decoration:none;font-size:30px;font-weight:800}\n.ctc b{font-size:62px}",
+   "alt": "新宿駅の1日平均の乗降人員（2025年度）は、都営新宿線が30万896人で都営の1位、丸ノ内線は20万1,609人。出典：東京都交通局・東京メトロ。写真：丸ノ内線の新宿駅 っ（CC BY-SA 3.0）／Wikimedia Commons"
+  }
+ ]
+}
