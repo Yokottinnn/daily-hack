@@ -114,6 +114,9 @@ const FILES = {
   "onsen-ranking-2026": ["1-source.jpg", "2-stay.jpg"],
   "jleague-attendance-ranking-2026": ["1-rank.jpg", "2-hiroshima.jpg"],
   "black-friday-2026-matome": ["1-now.jpg", "2-week.jpg", "3-later.jpg"],
+  "shukuhaku-ranking-2026": ["1-rank.jpg", "2-per.jpg"],
+  "national-park-ranking-2026": ["1-rank.jpg", "2-foreign.jpg"],
+  "subway-station-ranking-2026": ["1-metro.jpg", "2-shinjuku.jpg"],
   "furusato-tax-beginner-guide-2026": ["a1-question.jpg"],
   "poikatsu-hourly-wage-2026": ["a1-compare.jpg"],
 };
