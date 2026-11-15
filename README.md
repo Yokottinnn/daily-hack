@@ -4,7 +4,7 @@
 
 - 本番URL: https://daily-hack.fieldbeside.com（公開後）
 - 連動Xアカウント: [@heng_ji31590](https://x.com/heng_ji31590)
-- 運営: 合同会社FieldBeside（代表: 横田直紀 / n-yokota@fieldbeside.com）
+- 運営: 合同会社FieldBeside（代表: 横田直紀 / info@fieldbeside.com）
 
 ## 技術スタック
 

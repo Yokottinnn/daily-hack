@@ -2,10 +2,11 @@
 """紹介リンク台帳 スプレッドシートを作成し、サービス行を seed して Jordan に共有。
 認証: SAキー（gsc-bot、activate-service-account済み・gcloud auth login不要）。
 Jordan が 紹介URL/コード/ログイン情報 を直接埋め込む台帳。"""
-import json, subprocess, urllib.request, urllib.error, pathlib
+import json, os, subprocess, sys, urllib.request, urllib.error, pathlib
 
 SA = "gsc-bot@daily-hack-blog.iam.gserviceaccount.com"
-JORDAN = "n-yokota@fieldbeside.com"
+# 共有先のアドレスは公開リポジトリに書かない。実行する人が環境変数で渡す
+JORDAN = os.environ.get("SHARE_EMAIL") or sys.exit("SHARE_EMAIL（シートを共有するメールアドレス）を設定して実行する")
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 SEED = json.load(open("/tmp/referral-seed.json"))
 

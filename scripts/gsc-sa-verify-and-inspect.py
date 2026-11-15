@@ -8,7 +8,7 @@ A完了スクリプト + Bを一括実行:
 5. 結果サマリ出力
 
 前提: SAキーは org policy で不可なので gcloud user → SA impersonation を使用。
-gcloud user が n-yokota@fieldbeside.com (Owner) で認証済みであること。
+gcloud user が運営者の Google アカウント（Owner）で認証済みであること。
 """
 import json, subprocess, urllib.request, urllib.parse, sys, time
 
