@@ -88,6 +88,9 @@ const medal = (r: number) => (r === 1 ? 'gold' : r === 2 ? 'silver' : 'bronze');
     ))}
   </div>
 
+  <!-- 1位の早見表（2026-11-15 下書きコメント「クイズの下・各カテゴリーの一覧より上に」）。中身はページ側から渡す -->
+  <slot name="quick" />
+
   <!-- ジャンルごとの 1〜3 位カード -->
   {groups.map((g, gi) => (
     <section class="rks-band" id={st(g.name).id} style={`--c:${st(g.name).c};--soft:${st(g.name).soft}`}>
