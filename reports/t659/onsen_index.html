@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja" xml:lang="ja" xmlns:mso="urn:schemas-microsoft-com:office:office" xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>温泉利用状況等について[温泉の保護と利用]</title>
+<meta http-equiv="Content-Language" content="ja" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta name="description" content="国内の温泉地数、源泉数、温泉利用者数等が記載されています。" />
+<meta name="keywords" content="温泉利用者数、温泉地数、源泉数" />
+<meta name="viewport" content="width=740,user-scalable=yes" />
+<link href="../style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="../js/jquery.min.js"></script>
+<script type="text/javascript">
+	// 画像のプリロード
+$(function(){
+	$("a img").each(function(){
+		if(String($(this).attr("src")).match(/_off\.(.*)$/)){
+			var img = new Image();
+			img.src = String($(this).attr("src")).replace(/-off\.(.*)$/,"-on.$1");
+		}
+	});
+});
+
+// 画像のロールオーバー
+$(function(){
+	$('a img').hover(function(){
+		$(this).attr('src',$(this).attr('src').replace('-off','-on'));
+	},function(){
+		$(this).attr('src',$(this).attr('src').replace('-on','-off'));
+	});
+});
+</script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-114498940-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-114498940-1');
+</script>
+
+<style type="text/css">
+				#srchBox
+				{
+				width:298px;
+				_width:296px;
+				margin-bottom:10px;
+				background-color:#FFFFFF;
+				color:#000000;
+				text-align:left;
+				float: right;
+				}
+				#srchBox *
+				{
+				margin:0;
+				padding:0;
+				font-size:100%;
+				*font-size:small;
+				*font:x-small;
+				}
+				#srchBox:after {
+					content: ".";
+					display: block;
+					clear: both;
+					visibility: hidden;
+					line-height: 0;
+					height: 0;
+				}
+				#srchBox a img
+				{
+				border:none;
+				}
+				#srchBox #srch
+				{
+				padding:0px 10px 0 10px;
+				}
+				#srchBox #srch #srchForm
+				{
+				white-space:nowrap;
+				}
+				#srchBox #srchInput
+				{
+				width:188px;
+				margin-right:6px;
+				vertical-align:bottom;
+				}
+				#srchBox #srchBtn
+				{
+				width:80px;
+				}
+				*html #srchBox #srchBtn
+				{
+				padding-top:2px;
+				}
+				*:first-child+html #srchBox #srchBtn
+				{
+				padding-top:2px;
+				}
+				#srchBox ul
+				{
+				margin-top:6px;
+				text-align:left;
+				}
+				#srchBox li
+				{
+				list-style-type:none;
+				display:inline;
+				zoom:1;
+				padding-right:10px;
+				}
+				#srchBox li input
+				{
+				zoom:1;
+				margin-right:2px;
+				_margin:-4px 0 -4px -4px;
+				vertical-align:middle;
+				border:0;
+				}
+				*:+html #srchBox li input
+				{
+				margin:-4px 0 -4px -4px;
+				}
+				#srchBox #srchLogo
+				{
+				margin:6px 6px 6px 0;
+				text-align:right;
+				}
+				#srchBox #srchLogo a
+				{
+				color:#666666;
+				text-decoration:none;
+				font-size:85%;
+				}
+				#srchBox #srchLogo a:hover
+				{
+				text-decoration:underline;
+				}
+				#srchBox.watermark
+				{
+				padding-bottom: 6px;
+				}
+				#srchBox.watermark #srchInput
+				{
+				padding:1px 1px 2px 1px;
+				border:1px solid #a5acb2;
+				background: #fff url(http://i.yimg.jp/images/search/customsearch/yjlogo/yjlogo_type4.gif) center center no-repeat;
+				}
+				#srchBox.watermark #srchInput.nomark
+				{
+				background: #fff;
+				}
+				#srchBox.watermark #srchLogo
+				{
+				display: none;
+				}
+
+				</style>
+
+<!--[if gte mso 9]><xml>
+<mso:CustomDocumentProperties>
+<mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Editor msdt:dt="string">移行用ユーザー</mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Editor>
+<mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Author msdt:dt="string">移行用ユーザー</mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Author>
+</mso:CustomDocumentProperties>
+</xml><![endif]-->
+</head>
+
+<body>
+<div id="header">
+  <div class="container">
+    <div id="ci">
+      <p><a href="http://www.env.go.jp"><img src="../img/env_logo.png" height="30" width="86" alt="環境省：Ministry of the Environment" /></a></p>
+    </div>
+    <ul id="info_menu">
+      <li><a href="#main">本文へ</a></li>
+      <li><a href="http://www.zoomsight-sv2.jp/ENV/controller/index.html#http://www.env.go.jp/">音声読み上げ・文字拡大</a></li>
+      <li><a href="../summit/sitemap.html">サイトマップ</a></li>
+      <li><a href="../summit/index.html">お問い合わせ</a></li>
+    </ul>
+    <div class="search">
+      <div id="srchBox" class="watermark">
+        
+        <form action="http://www.env.go.jp/search/search_result.html" method="get" id="srch" target="yjserp">
+          <p id="srchForm">
+            <input type="text" name="p" id="srchInput">
+            <input type="submit" value="検索" id="srchBtn" onclick="document.getElementById('srchInput').focus();">
+            <input type="hidden" id="fr" name="fr" value="cse">
+            <input type="hidden" id="ei" name="ei" value="UTF-8">
+            <input type="hidden" id="csid" name="csid" value="MjR6_rBHJoc15qfIEeZgG89cDuS8WhzVBQG7Y5Gm4e.e5rU-">
+          </p>
+          <input type="hidden" name="vs" value="www.env.go.jp/nature/onsen/" id="yjInsite">
+        </form>
+        <img src="http://custom.search.yahoo.co.jp/images/window/MjR6_rBHJoc15qfIEeZgG89cDuS8WhzVBQG7Y5Gm4e.e5rU-.gif" alt=""> </div>
+      <script type="text/javascript">
+			(function() {
+			var sb = document.getElementById('srchBox');
+			if (sb && sb.className == 'watermark') {
+				var si = document.getElementById('srchInput');
+				var f = function() { si.className = 'nomark'; };
+				var b = function() {
+					if (si.value == '') {
+						si.className = '';
+					}
+				};
+				si.onfocus = f;
+				si.onblur = b;
+				if (!/[&?]p=[^&]/.test(location.search)) {
+					b();
+				} else {
+					f();
+				}
+			}
+			})();
+			</script> 
+      <!-- /#srchBox --> 
+    </div>
+  </div>
+  <div class="main_img_box"><img src="../img/headerimg.png" width="950" height="65" alt="温泉の保護と利用　環境省では、温泉法に基づき、温泉の保護、可燃性天然ガスによる災害の防止及び温泉の利用の適正化のための施策を進めています。" /></div>
+</div>
+	
+<!-- FROM BREADCRUMB -->
+<div id="bread_crumb" class="wrapper">
+  <div class="container">
+    <ul>
+      <li><a href="http://www.env.go.jp">環境省</a></li>
+      <li><a href="http://www.env.go.jp/seisaku/index.html">政策分野・行政活動</a></li>
+      <li><a href="http://www.env.go.jp/seisaku/list/index.html">政策分野一覧</a></li>
+      <li><a href="http://www.env.go.jp/nature/index.html">自然環境・生物多様性</a></li>
+      <li><a href="../index.html">温泉の保護と利用</a></li>
+			<li>温泉に関するデータ</li>
+    </ul>
+  </div>
+</div>
+<!-- END BREADCRUMB --> 
+	
+
+	
+<!-- FROM CONTENTS -->
+<div id="contents" class="wrapper">
+	<div class="container">
+		<!-- //////////START MAIN INDEX////////// -->
+		<div id="global_menu">
+			<ul>
+				<!-- //////////「グローバルメニュー」は下記、各1行の<li>から</li>の部分を変更するかコピー＆ペーストで増やして下さい。削除する場合は<li>から</li>まで削除して下さい。
+					表示しているページ（現在地）を設定する場合はリンクの指定を削除（<a href="◯◯◯.html"></a>）して<li>に「on」クラスをつけて下さい。（<li class="on">）////////// -->
+				<li><a href="../index.html">温泉の保護と利用</a></li>
+				<li><a href="../point/index.html">温泉の定義</a></li>
+				<li><a href="../outline/index.html">温泉法の概要</a></li>
+				<li><a href="../area/index.html">国民保養温泉地</a></li>
+				<li class="on">温泉に関するデータ</li>
+				<li><a href="../docs/index.html">関連資料</a></li>
+				<li><a href="../council/index.html">審議会等</a></li>
+				<li><a href="../contact/index.html">都道府県連絡先一覧</a></li>
+				<li><a href="../links/index.html">リンク集</a></li>
+				<li><a href="../spa/index.html">新・湯治の推進<br /><span class="pc fs90">
+					－温泉地の活性化に向けて－</span></a></li>
+				<li><a href="../spa/spa_team.html">チーム　新・湯治</a></li>
+				<li><a href="../spa/spa_project.html">新・湯治による効果の把握<br /><span class="pc fs90">
+みんなの新・湯治プロジェクト</span></a></li>
+				<li><a href="../spa/spa_utilizing.html">温泉熱の有効活用について</a></li>
+				<!--<li><a href="../spa/spaent.html">新・湯治の推進-リンク集</a></li>-->
+				<!-- //////////「グローバルメニュー」ここまで////////// -->
+			</ul>
+		</div>
+		<!-- //////////END MAIN INDEX////////// -->
+		
+		<!-- //////////START MAIN CONTENTS////////// -->
+		<div id="main">
+			<div class="contearea">
+				<h1>温泉に関するデータ</h1>
+				<h2>温泉利用状況</h2>
+				<h3>温泉利用状況</h3>
+				<ul class="pb2em">
+					<!-- //////////「温泉利用状況」は下記、各1行の<li>から</li>の部分を変更するかコピー＆ペーストで増やして下さい。削除する場合は<li>から</li>まで削除して下さい。////////// -->
+					<li><a href="../pdf/6-7_p_1.pdf">令和６年度温泉利用状況：[PDF 93KB]</a></li>
+					<!-- //////////「温泉利用状況」ここまで////////// -->
+				</ul>
+				<h3>過去のデータはこちら</h3>
+				<ul class="pb2em">
+					<!-- //////////「過去のデータはこちら」は下記、各1行の<li>から</li>の部分を変更するかコピー＆ペーストで増やして下さい。削除する場合は<li>から</li>まで削除して下さい。////////// -->
+					<li><a href="../pdf/6-7_p_2.pdf">平成１０～令和５年度温泉利用状況：[PDF 890KB]</a></li>
+					<!-- //////////「過去のデータはこちら」ここまで////////// -->
+				</ul>
+				<h3>温泉利用状況経年変化表</h3>
+				<ul>
+					<!-- //////////「温泉利用状況経年変化表」は下記、各1行の<li>から</li>の部分を変更するかコピー＆ペーストで増やして下さい。削除する場合は<li>から</li>まで削除して下さい。////////// -->
+					<li><a href="../pdf/6-7_p_3.pdf">温泉利用状況経年変化表：[PDF 58KB]</a></li>
+					<li><a href="../pdf/6-7_p_4.pdf">温泉利用状況経年変化表(グラフ）：[PDF 372KB]</a><br />
+					※四捨五入等の理由により、端数において計数が合致しない場合があります。</li>
+					<!-- //////////「温泉利用状況経年変化表」ここまで////////// -->
+				</ul>
+				
+				<h2>温泉法に基づく行政処分状況</h2>
+				<h3>温泉法に基づく行政処分状況</h3>
+				<ul class="pb2em">
+					<!-- //////////「温泉法に基づく行政処分状況」は下記、各1行の<li>から</li>の部分を変更するかコピー＆ペーストで増やして下さい。削除する場合は<li>から</li>まで削除して下さい。////////// -->
+					<li><a href="../pdf/6-7_p_5.pdf">令和６年度温泉法に基づく行政処分状況：[PDF 93KB]</a></li>
+					<!-- //////////「温泉法に基づく行政処分状況」ここまで////////// -->
+				</ul>
+				<h3>過去のデータはこちら</h3>
+				<ul class="pb2em">
+					<!-- //////////「過去のデータはこちら」は下記、各1行の<li>から</li>の部分を変更するかコピー＆ペーストで増やして下さい。削除する場合は<li>から</li>まで削除して下さい。////////// -->
+					<li><a href="../pdf/6-7_p_6.pdf">平成１４～令和５年度温泉法に基づく行政処分状況：[PDF 1.39MB]</a></li>
+					<!-- //////////「過去のデータはこちら」ここまで////////// -->
+				</ul>
+				<h3>行政処分状況経年変化表</h3>
+				<ul class="pb2em">
+					<!-- //////////「行政処分状況経年変化表」は下記、各1行の<li>から</li>の部分を変更するかコピー＆ペーストで増やして下さい。削除する場合は<li>から</li>まで削除して下さい。////////// -->
+					<li><a href="../pdf/6-7_p_7.pdf">行政処分状況経年変化表（～平成１４年度）：[PDF 24KB]</a></li>
+					<li><a href="../pdf/6-7_p_8.pdf">行政処分状況経年変化表（平成１４年度～）：[PDF 63KB]</a></li>
+					<!-- //////////「行政処分状況経年変化表」ここまで////////// -->
+				</ul>
+			</div>
+			
+		</div>
+		<!-- //////////END MAIN CONTENTS////////// -->
+	
+	</div>
+	<p class="top_btn"><a href="#header"><img src="../img/page_top_btn.png" width="50" height="60" alt="ページTOP" /></a></p>
+</div>
+	
+	
+	
+<!-- FROM FOOTER -->
+<div id="footer" class="wrapper">
+  <div class="ft_en">環境省自然環境局自然環境整備課温泉地保護利用推進室</div>
+  <div class="container">
+    <div id="footer_inner">
+      <div class="env-logo"><img src="../img/footer_env_logo.png" height="42" width="115" alt="環境省" /></div>
+      <div class="copyright">
+        <p>環境省（法人番号1000012110001）</p>
+        <p>〒100-8975 東京都千代田区霞が関1-2-2 中央合同庁舎5号館 TEL 03-3581-3351(代表)<a href="http://www.env.go.jp/annai/map.html">地図・交通案内</a></p>
+        <ul>
+          <li><a href="http://www.env.go.jp/help.html">環境省ホームページについて</a></li>
+          <li><a href="http://www.env.go.jp/mail.html">著作権・リンクについて</a></li>
+          <li><a href="http://www.env.go.jp/privacy.html">プライバシーポリシー</a></li>
+          <li><a href="http://www.env.go.jp/link/">環境関連リンク集</a></li>
+        </ul>
+        <p lang="en" xml:lang="en"><small>Copyright Ministry of the Environment Government of Japan. All rights reserved.</small></p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- END FOOTER -->
+</body>
+</html>

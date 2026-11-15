@@ -1,0 +1,52 @@
+# A8 の広告リンクのコード（t325・**$0**）
+
+生成: **2026-10-19T11:38:11+0900**
+
+```text
+asp-sync rc=0
+probe try=1 rc=0
+```
+# ASP の画面調べ: a8links（asp-probe）
+
+生成: **2026-10-19T02:38:45.916Z**
+
+### s00000025070001 【映画・スポーツ・海外ドラマみるなら】WOWOWオンデマンド
+- 詳細ページ: https://media-console.a8.net/program/detail-partnered
+- リンク候補: 素材別 → https://media-console.a8.net/report/material
+- リンク候補: 広告リンク作成 → https://media-console.a8.net/program/create-link?programId=s00000025070001
+- 広告リンクの画面: https://media-console.a8.net/program/create-link（広告リンク作成｜A8.netメディア管理画面）
+- コード 11 件
+```html
+<a href="https://px.a8.net/svt/ejp?a8mat=4BEIPG+6Z8YU2+5DFW+5YJRM" rel="nofollow">【映画・スポーツ・海外ドラマみるなら】WOWOWオンデマンド</a> <img border="0" width="1" height="1" src="https://www14.a8.net/0.gif?a8mat=4BEIPG+6Z8YU2+5DFW+5YJRM" alt="">
+```
+```html
+<a href="https://px.a8.net/svt/ejp?a8mat=4BEIPG+6Z8YU2+5DFW+5YJRM" rel="nofollow">【映画・スポーツ・海外ドラマみるなら】WOWOWオンデマンド</a> <amp-pixel src="https://www19.a8.net/0.gif?a8mat=4BEIPG+6Z8YU2+5DFW+5YJRM" layout="nodisplay"></amp-pixel>
+```
+```html
+<a href="https://px.a8.net/svt/ejp?a8mat=4BEIPG+6Z8YU2+5DFW+5Z6WX" rel="nofollow"> <img border="0" width="100" height="60" alt="" src="https://www28.a8.net/svt/bgt?aid=261017908422&wid=002&eno=01&mid=s00000025070001004000&mc=1"></a> <img border="0" width="1" height="1" src="https://www11.a8.net/0.gif?a8mat=4BEIPG+6Z8YU2+5DFW+5Z6WX" alt="">
+```
+```html
+<a href="https://px.a8.net/svt/ejp?a8mat=4BEIPG+6Z8YU2+5DFW+609HT" rel="nofollow"> <img border="0" width="468" height="60" alt="" src="https://www29.a8.net/svt/bgt?aid=261017908422&wid=002&eno=01&mid=s00000025070001009000&mc=1"></a> <img border="0" width="1" height="1" src="https://www15.a8.net/0.gif?a8mat=4BEIPG+6Z8YU2+5DFW+609HT" alt="">
+```
+```html
+<a href="https://px.a8.net/svt/ejp?a8mat=4BEIPG+6Z8YU2+5DFW+5YZ75" rel="nofollow"> <img border="0" width="300" height="250" alt="" src="https://www23.a8.net/svt/bgt?aid=261017908422&wid=002&eno=01&mid=s00000025070001003000&mc=1"></a> <img border="0" width="1" height="1" src="https://www15.a8.net/0.gif?a8mat=4BEIPG+6Z8YU2+5DFW+5YZ75" alt="">
+```
+```html
+<a href="https://px.a8.net/svt/ejp?a8mat=4BEIPG+6Z8YU2+5DFW+5YRHE" rel="nofollow">WOWOWオンデマンド</a> <img border="0" width="1" height="1" src="https://www12.a8.net/0.gif?a8mat=4BEIPG+6Z8YU2+5DFW+5YRHE" alt="">
+```
+```html
+<a href="https://px.a8.net/svt/ejp?a8mat=4BEIPG+6Z8YU2+5DFW+5YRHE" rel="nofollow">WOWOWオンデマンド</a> <amp-pixel src="https://www17.a8.net/0.gif?a8mat=4BEIPG+6Z8YU2+5DFW+5YRHE" layout="nodisplay"></amp-pixel>
+```
+```html
+<a href="https://px.a8.net/svt/ejp?a8mat=4BEIPG+6Z8YU2+5DFW+5ZMCH" rel="nofollow"> <img border="0" width="160" height="600" alt="" src="https://www21.a8.net/svt/bgt?aid=261017908422&wid=002&eno=01&mid=s00000025070001006000&mc=1"></a> <img border="0" width="1" height="1" src="https://www11.a8.net/0.gif?a8mat=4BEIPG+6Z8YU2+5DFW+5ZMCH" alt="">
+```
+```html
+<a href="https://px.a8.net/svt/ejp?a8mat=4BEIPG+6Z8YU2+5DFW+601S1" rel="nofollow"> <img border="0" width="300" height="250" alt="" src="https://www21.a8.net/svt/bgt?aid=261017908422&wid=002&eno=01&mid=s00000025070001008000&mc=1"></a> <img border="0" width="1" height="1" src="https://www17.a8.net/0.gif?a8mat=4BEIPG+6Z8YU2+5DFW+601S1" alt="">
+```
+```html
+<a href="https://px.a8.net/svt/ejp?a8mat=4BEIPG+6Z8YU2+5DFW+5ZEMP" rel="nofollow"> <img border="0" width="120" height="60" alt="" src="https://www27.a8.net/svt/bgt?aid=261017908422&wid=002&eno=01&mid=s00000025070001005000&mc=1"></a> <img border="0" width="1" height="1" src="https://www11.a8.net/0.gif?a8mat=4BEIPG+6Z8YU2+5DFW+5ZEMP" alt="">
+```
+```html
+<a href="https://px.a8.net/svt/ejp?a8mat=4BEIPG+6Z8YU2+5DFW+5ZU29" rel="nofollow"> <img border="0" width="100" height="100" alt="" src="https://www24.a8.net/svt/bgt?aid=261017908422&wid=002&eno=01&mid=s00000025070001007000&mc=1"></a> <img border="0" width="1" height="1" src="https://www14.a8.net/0.gif?a8mat=4BEIPG+6Z8YU2+5DFW+5ZU29" alt="">
+```
+

@@ -1,0 +1,770 @@
+{
+ "series": "mobile-battery",
+ "generated": "2026-10-31T02:54:26.380Z",
+ "items": {
+  "cio-ss10k-slim2": {
+   "amazon": {
+    "searched": 29,
+    "hits": [
+     {
+      "asin": "B0H32FF1Y9",
+      "title": "CIO モバイルバッテリー 半固体 ワイヤレス充電 10000mAh SMARTCOBY SLIMⅡ Wireless2.2 SS10K (シルバー)",
+      "price": "￥9,480",
+      "sponsored": true
+     },
+     {
+      "asin": "B0GMWY26HF",
+      "title": "CIO 半固体モバイルバッテリー 10000mAh SMARTCOBY SLIMⅡ Wireless2.2 Pro SS10K (シルバー)",
+      "price": "￥8,580",
+      "sponsored": true
+     },
+     {
+      "asin": "B0GMWY26HF",
+      "title": "CIO 半固体モバイルバッテリー 10000mAh SMARTCOBY SLIMⅡ Wireless2.2 Pro SS10K (シルバー)",
+      "price": "￥8,580",
+      "sponsored": false
+     },
+     {
+      "asin": "B0FTZ63967",
+      "title": "CIO 半固体モバイルバッテリー 10000mAh SMARTCOBY Ex05 Wireless2.2 Pro CABLE SS10K (ブラック)",
+      "price": "￥8,980",
+      "sponsored": false
+     },
+     {
+      "asin": "B0H32FF1Y9",
+      "title": "CIO モバイルバッテリー 半固体 ワイヤレス充電 10000mAh SMARTCOBY SLIMⅡ Wireless2.2 SS10K (シルバー)",
+      "price": "￥9,480",
+      "sponsored": false
+     }
+    ],
+    "top": {
+     "asin": "B0GMWY26HF",
+     "title": "CIO 半固体モバイルバッテリー 10000mAh SMARTCOBY SLIMⅡ Wireless2.2 Pro SS10K (シルバー)",
+     "price": "￥8,580",
+     "sponsored": false,
+     "page": {
+      "title": "Amazon | CIO 半固体モバイルバッテリー 10000mAh SMARTCOBY SLIMⅡ Wireless2.2 Pro SS10K (シルバー) | Qi2.2 ワイヤレス充電 25W / USB-C35W出力, iPhone",
+      "cart": true,
+      "h1": "商品概要には、主要な商品情報が記載されています \nキーボードショートカット  Shift + opt + D"
+     }
+    }
+   },
+   "rakuten": {
+    "searched": 45,
+    "hits": [
+     {
+      "url": "https://item.rakuten.co.jp/machinoomise/cio-mb35w1c-ss10k-s2w25/",
+      "title": "CIO モバイルバッテリー 半固体電池 Qi2.2 25W ワイヤレス充電 35W 10000mAh Type-C iPhone Pixel iPad MacBook Neo 一部ノートPC対応 SMARTCOBY SLIM II Wireless2.2 Pro SS10K",
+      "price": "8,580",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/machinoomise/cio-mb30w1c-ssa10k-s2w25/",
+      "title": "CIO モバイルバッテリー 半固体電池 半固体系 燃えにくい 小型 薄型[14mm] 軽量 Qi2.2 ワイヤレス充電 10000mAh 25W出力 Type-C タイプC パススルー iPhone17 16 Pro Max Pixel Galaxy対応 マグネット 磁石 吸着 magsafe対応 急速充電 SMARTCOBY SLIM II Wireless2.2 SS10K",
+      "price": "9,480",
+      "ad": false
+     }
+    ],
+    "top": {
+     "url": "https://item.rakuten.co.jp/machinoomise/cio-mb35w1c-ss10k-s2w25/",
+     "title": "CIO モバイルバッテリー 半固体電池 Qi2.2 25W ワイヤレス充電 35W 10000mAh Type-C iPhone Pixel iPad MacBook Neo 一部ノートPC対応 SMARTCOBY SLIM II Wireless2.2 Pro SS10K",
+     "price": "8,580",
+     "ad": false,
+     "page": {
+      "title": "【楽天市場】CIO モバイルバッテリー 半固体電池 Qi2.2 25W ワイヤレス充電 35W 10000mAh Type-C iPhone Pixel iPad MacBook Neo 一部ノートPC対応 SMARTCOBY SLIM I",
+      "cart": false,
+      "h1": ""
+     }
+    }
+   }
+  },
+  "cio-ex05-ss10k": {
+   "amazon": {
+    "searched": 22,
+    "hits": [
+     {
+      "asin": "B0FTZ63967",
+      "title": "CIO 半固体モバイルバッテリー 10000mAh SMARTCOBY Ex05 Wireless2.2 Pro CABLE SS10K (ブラック)",
+      "price": "￥8,980",
+      "sponsored": false
+     },
+     {
+      "asin": "B0FTZ4KG4Y",
+      "title": "CIO SMARTCOBY Ex05 Wireless2.2 Pro CABLE SS10K 半固体モバイルバッテリー 10000mAh (ホワイト)",
+      "price": "￥8,980",
+      "sponsored": false
+     }
+    ],
+    "top": {
+     "asin": "B0FTZ63967",
+     "title": "CIO 半固体モバイルバッテリー 10000mAh SMARTCOBY Ex05 Wireless2.2 Pro CABLE SS10K (ブラック)",
+     "price": "￥8,980",
+     "sponsored": false,
+     "page": {
+      "title": "Amazon | CIO 半固体モバイルバッテリー 10000mAh SMARTCOBY Ex05 Wireless2.2 Pro CABLE SS10K (ブラック) | iPhone18 Pro対応, Qi2.2対応, 着脱可能ケーブル",
+      "cart": true,
+      "h1": "CIO 半固体モバイルバッテリー 10000mAh SMARTCOBY Ex05 Wireless2.2 Pro CABLE SS10K (ブラック)"
+     }
+    }
+   },
+   "rakuten": {
+    "searched": 45,
+    "hits": [
+     {
+      "url": "https://item.rakuten.co.jp/machinoomise/cio-mb35w2c-ss10k-ex05/",
+      "title": "CIO モバイルバッテリー 半固体電池 半固体系 燃えにくい 小型 軽量 Qi2.2 ワイヤレス充電 ケーブル内蔵 10000mAh 35W出力 Type-C タイプC 3台同時 iPhone 17 Pixel 10 Galaxy S26 MacBook 急速充電 マグネット magsafe対応 SMARTCOBY Ex05 Wireless2.2 Pro CABLE SS10K",
+      "price": "8,980",
+      "ad": false
+     }
+    ],
+    "top": {
+     "url": "https://item.rakuten.co.jp/machinoomise/cio-mb35w2c-ss10k-ex05/",
+     "title": "CIO モバイルバッテリー 半固体電池 半固体系 燃えにくい 小型 軽量 Qi2.2 ワイヤレス充電 ケーブル内蔵 10000mAh 35W出力 Type-C タイプC 3台同時 iPhone 17 Pixel 10 Galaxy S26 MacBook 急速充電 マグネット magsafe対応 SMARTCOBY Ex05 Wireless2.2 Pro CABLE SS10K",
+     "price": "8,980",
+     "ad": false,
+     "page": {
+      "title": "【楽天市場】CIO モバイルバッテリー 半固体電池 半固体系 燃えにくい 小型 軽量 Qi2.2 ワイヤレス充電 ケーブル内蔵 10000mAh 35W出力 Type-C タイプC 3台同時 iPhone 17 Pixel 10 Galax",
+      "cart": false,
+      "h1": ""
+     }
+    }
+   }
+  },
+  "cio-trio-ss20000": {
+   "amazon": {
+    "searched": 32,
+    "hits": [
+     {
+      "asin": "B0GMX17BH9",
+      "title": "CIO 半固体 モバイルバッテリー USB-C×2 USB-A×1 20000mAh 大容量 SMARTCOBY TRIO SS 35W (ホワイト)",
+      "price": "￥9,280",
+      "sponsored": true
+     },
+     {
+      "asin": "B0GMXGS247",
+      "title": "CIO 半固体 モバイルバッテリー USB-C×2 USB-A×1 20000mAh 大容量 SMARTCOBY TRIO SS 35W(ブラック)",
+      "price": "￥9,280",
+      "sponsored": false
+     },
+     {
+      "asin": "B0GMX17BH9",
+      "title": "CIO 半固体 モバイルバッテリー USB-C×2 USB-A×1 20000mAh 大容量 SMARTCOBY TRIO SS 35W (ホワイト)",
+      "price": "￥9,280",
+      "sponsored": false
+     },
+     {
+      "asin": "B0FB9JHXTX",
+      "title": "CIO SMARTCOBY TRIO 35W モバイルバッテリー PD USB-C×2 USB-A×1 大容量20000mAh (ホワイト)",
+      "price": "￥6,980",
+      "sponsored": false
+     },
+     {
+      "asin": "B0DM8PKN5L",
+      "title": "CIO モバイルバッテリー PD急速充電 USB-C×2 USB-A×1 大容量20000mAh SMARTCOBY TRIO 65W (ブラック)",
+      "price": "￥9,800",
+      "sponsored": false
+     },
+     {
+      "asin": "B0D6RGH7LH",
+      "title": "収納ケース対応 CIO SMARTCOBY TRIO 20000ｍAh 65W モバイルバッテリー (CIO 20000ｍAh ケース)",
+      "price": "￥1,799",
+      "sponsored": false
+     }
+    ],
+    "top": {
+     "asin": "B0GMXGS247",
+     "title": "CIO 半固体 モバイルバッテリー USB-C×2 USB-A×1 20000mAh 大容量 SMARTCOBY TRIO SS 35W(ブラック)",
+     "price": "￥9,280",
+     "sponsored": false,
+     "page": {
+      "title": "Amazon | CIO 半固体 モバイルバッテリー USB-C×2 USB-A×1 20000mAh 大容量 SMARTCOBY TRIO SS 35W(ブラック) | MacBook対応, WindowsノートPC対応, iPhone1",
+      "cart": true,
+      "h1": "商品概要には、主要な商品情報が記載されています \nキーボードショートカット  Shift + opt + D"
+     }
+    }
+   },
+   "rakuten": {
+    "searched": 45,
+    "hits": [
+     {
+      "url": "https://item.rakuten.co.jp/machinoomise/cio-mb35w2c1a-ssa20000/",
+      "title": "CIO モバイルバッテリー 半固体電池 20000mAh タイプC 35W 急速充電 3ポート iPhone 17 Pixel10 Galaxy S26 iPad MacBook Windows ノートPC対応 パススルー SMARTCOBY TRIO 35W SS モバイルバッテリー 20000mah モバイルバッテリー 大容量 cio モバイルバッテリー",
+      "price": "9,280",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/ksdenki/4570188380592/",
+      "title": "CIO モバイルバッテリー SMARTCOBY TRIO CIO-MB67W2C1A-20000-WH ホワイト 容量：20,000mAh",
+      "price": "8,980",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/machinoomise/cio-mb35w2c1a-20000/",
+      "title": "CIO モバイルバッテリー 大容量 20000mAh [世界最小級] PD 30W 小型 軽量 急速充電 3ポート パススルー iPhone/Android/Macbook/Windows ノートPC SMARTCOBY TRIO 35W 2C1A モバイルバッテリー 20000mah 充電器 3口 モバイルバッテリー 大容量 cio モバイルバッテリー",
+      "price": "6,980",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/sdgsevo/cimb35w2c1a20000/",
+      "title": "iPhone18対応 CIO 最大35W入出力 20000mAh コンパクト モバイルバッテリー SMARTCOBY TRIO 35W2C1A iPhone18対応 スマホ iPad Android iPhone Pro Max Macbook Air Pro Lenovo HP 急速充電 パススルー充電対応 USB-C×2 USB-A×1",
+      "price": "6,980",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/primeplus/20241219125800_39/",
+      "title": "WERJIA 収納ケース対応 CIO SMARTCOBY TRIO 20000mAh 65W モバイルバ ッテリー (CIO 20000mAh ケース)",
+      "price": "2,538",
+      "ad": false
+     }
+    ],
+    "top": {
+     "url": "https://item.rakuten.co.jp/machinoomise/cio-mb35w2c1a-ssa20000/",
+     "title": "CIO モバイルバッテリー 半固体電池 20000mAh タイプC 35W 急速充電 3ポート iPhone 17 Pixel10 Galaxy S26 iPad MacBook Windows ノートPC対応 パススルー SMARTCOBY TRIO 35W SS モバイルバッテリー 20000mah モバイルバッテリー 大容量 cio モバイルバッテリー",
+     "price": "9,280",
+     "ad": false,
+     "page": {
+      "title": "【楽天市場】CIO モバイルバッテリー 半固体電池 20000mAh タイプC 35W 急速充電 3ポート iPhone 17 Pixel10 Galaxy S26 iPad MacBook Windows ノートPC対応 パススルー SM",
+      "cart": false,
+      "h1": ""
+     }
+    }
+   }
+  },
+  "buffalo-bmpbsa10000": {
+   "amazon": {
+    "searched": 30,
+    "hits": [
+     {
+      "asin": "B0GQSW1DSL",
+      "title": "バッファロー 半固体モバイルバッテリー 10000mAh ケーブル一体型 30W PD 残量表示 シルキーホワイト BMPBSA10000WHX",
+      "price": "￥5,990",
+      "sponsored": true
+     },
+     {
+      "asin": "B0GQSW1DSL",
+      "title": "バッファロー 半固体モバイルバッテリー 10000mAh ケーブル一体型 30W PD 残量表示 シルキーホワイト BMPBSA10000WHX",
+      "price": "￥5,990",
+      "sponsored": false
+     },
+     {
+      "asin": "B0GQSRPRRN",
+      "title": "バッファロー 半固体モバイルバッテリー 10000mAh ケーブル一体型 30W PD 残量表示 メタリックブラック BMPBSA10000BKX",
+      "price": "￥5,990",
+      "sponsored": false
+     }
+    ],
+    "top": {
+     "asin": "B0GQSW1DSL",
+     "title": "バッファロー 半固体モバイルバッテリー 10000mAh ケーブル一体型 30W PD 残量表示 シルキーホワイト BMPBSA10000WHX",
+     "price": "￥5,990",
+     "sponsored": false,
+     "page": {
+      "title": "Amazon | バッファロー 半固体モバイルバッテリー 10000mAh ケーブル一体型 30W PD 残量表示 シルキーホワイト BMPBSA10000WHX | 半固体電池 大容量 薄型 LEDディスプレイ パススルー 2台 同時充電",
+      "cart": true,
+      "h1": "商品概要には、主要な商品情報が記載されています \nキーボードショートカット  Shift + opt + D"
+     }
+    }
+   },
+   "rakuten": {
+    "searched": 45,
+    "hits": [
+     {
+      "url": "https://item.rakuten.co.jp/buffalo-official/4950190385325/",
+      "title": "バッファロー 【 半固体 】 モバイルバッテリー 10000mAh 30W USB PD Type-C 一体型 LEDディスプレイ パススルー 2台同時充電 PSE適合 ワット時定格量37Wh 安心設計 日本メーカー【 iPhone / iPad / Android スマホ タブレット 対応 】 シルキーホワイト BMPBSA10000WHX",
+      "price": "5,990",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/buffalo-official/4950190385318/",
+      "title": "バッファロー 【 半固体 】 モバイルバッテリー 10000mAh 30W USB PD Type-C 一体型 LEDディスプレイ パススルー 2台同時充電 PSE適合 ワット時定格量37Wh 安心設計 日本メーカー【 iPhone / iPad / Android スマホ タブレット 対応 】 メタリックブラック BMPBSA10000BKX",
+      "price": "5,990",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/yamada-denki/1891764019/",
+      "title": "BUFFALO BMPBSA10000BK 半固体モバイルバッテリー Type-Cケーブル一体型 LEDモニターで残量確認 10000mAh ブラック",
+      "price": "7,980",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/yamada-denki/1891765016/",
+      "title": "BUFFALO BMPBSA10000WH 半固体モバイルバッテリー Type-Cケーブル一体型 LEDモニターで残量確認 10000mAh ホワイト",
+      "price": "7,980",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/jism/4950190385783-45-75523-n/",
+      "title": "バッファロー 半固体モバイルバッテリー 10000mAh 30W（ホワイト） BMPBSA10000WH",
+      "price": "7,980",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/excellar/1000033725/",
+      "title": "【1日と5.0のつく日、18日はポイント3倍！】【新品(開封のみ)】 BUFFALO 半固体モバイルバッテリー 10000mAh BMPBSA10000BK メタリックブラック",
+      "price": "7,980",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/jism/4950190385776-45-75523-n/",
+      "title": "バッファロー 半固体モバイルバッテリー 10000mAh 30W（ブラック） BMPBSA10000BK",
+      "price": "7,980",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/home-carpentry/1000033725/",
+      "title": "【新品(開封のみ)】 BUFFALO 半固体モバイルバッテリー 10000mAh BMPBSA10000BK メタリックブラック",
+      "price": "7,980",
+      "ad": false
+     }
+    ],
+    "top": {
+     "url": "https://item.rakuten.co.jp/buffalo-official/4950190385325/",
+     "title": "バッファロー 【 半固体 】 モバイルバッテリー 10000mAh 30W USB PD Type-C 一体型 LEDディスプレイ パススルー 2台同時充電 PSE適合 ワット時定格量37Wh 安心設計 日本メーカー【 iPhone / iPad / Android スマホ タブレット 対応 】 シルキーホワイト BMPBSA10000WHX",
+     "price": "5,990",
+     "ad": false,
+     "page": {
+      "title": "【楽天市場】バッファロー 【 半固体 】 モバイルバッテリー 10000mAh 30W USB PD Type-C 一体型 LEDディスプレイ パススルー 2台同時充電 PSE適合 ワット時定格量37Wh 安心設計 日本メーカー【 iPho",
+      "cart": false,
+      "h1": ""
+     }
+    }
+   }
+  },
+  "cheero-solitta-che138": {
+   "amazon": {
+    "searched": 14,
+    "hits": [
+     {
+      "asin": "B0H3N444XM",
+      "title": "cheero Solitta 10000mAh 準固体電池 モバイルバッテリー CHE-138-BK",
+      "price": "￥4,880",
+      "sponsored": false
+     },
+     {
+      "asin": "B0H3N7WG6C",
+      "title": "cheero Solitta 10000mAh 準固体電池 モバイルバッテリー CHE-138-WH",
+      "price": "￥4,880",
+      "sponsored": false
+     }
+    ],
+    "top": {
+     "asin": "B0H3N444XM",
+     "title": "cheero Solitta 10000mAh 準固体電池 モバイルバッテリー CHE-138-BK",
+     "price": "￥4,880",
+     "sponsored": false,
+     "page": {
+      "title": "Amazon | cheero Solitta 10000mAh 準固体電池 モバイルバッテリー CHE-138-BK | PD, 最大22.5W出力, 3台同時, 急速充電, ストラップ型ケーブル | モバイルバッテリー 通販",
+      "cart": true,
+      "h1": "商品概要には、主要な商品情報が記載されています \nキーボードショートカット  Shift + opt + D"
+     }
+    }
+   },
+   "rakuten": {
+    "searched": 45,
+    "hits": [
+     {
+      "url": "https://item.rakuten.co.jp/cheeromart/che-138/",
+      "title": "モバイルバッテリー 防災 準固体電池 PD20W 3台同時充電 急速充電対応 PSE認証 ケーブル一体型 機内持ち込み 小型 軽量 薄型 コンパクト 安全設計 タイプC Type-C USB-C USB-A Type-A 3ポート スマホ充電器 チーロ cheero Solitta 10000mAh CHE-138",
+      "price": "4,880",
+      "ad": false
+     }
+    ],
+    "top": {
+     "url": "https://item.rakuten.co.jp/cheeromart/che-138/",
+     "title": "モバイルバッテリー 防災 準固体電池 PD20W 3台同時充電 急速充電対応 PSE認証 ケーブル一体型 機内持ち込み 小型 軽量 薄型 コンパクト 安全設計 タイプC Type-C USB-C USB-A Type-A 3ポート スマホ充電器 チーロ cheero Solitta 10000mAh CHE-138",
+     "price": "4,880",
+     "ad": false,
+     "page": {
+      "title": "【楽天市場】モバイルバッテリー 防災 準固体電池 PD20W 3台同時充電 急速充電対応 PSE認証 ケーブル一体型 機内持ち込み 小型 軽量 薄型 コンパクト 安全設計 タイプC Type-C USB-C USB-A Type-A 3ポー",
+      "cart": false,
+      "h1": ""
+     }
+    }
+   }
+  },
+  "cheero-solido-che135": {
+   "amazon": {
+    "searched": 18,
+    "hits": [
+     {
+      "asin": "B0FV8JFHZ6",
+      "title": "cheero 準固体電池搭載モバイルバッテリー 10000mAh CHE-135-WH",
+      "price": "￥3,680",
+      "sponsored": false
+     },
+     {
+      "asin": "B0FV7SNKXC",
+      "title": "cheero 準固体電池搭載モバイルバッテリー 10000mAh CHE-135-BK",
+      "price": "￥3,680",
+      "sponsored": false
+     }
+    ],
+    "top": {
+     "asin": "B0FV8JFHZ6",
+     "title": "cheero 準固体電池搭載モバイルバッテリー 10000mAh CHE-135-WH",
+     "price": "￥3,680",
+     "sponsored": false,
+     "page": {
+      "title": "Amazon | cheero 準固体電池搭載モバイルバッテリー 10000mAh CHE-135-WH | PD20W, 急速充電対応, PSE認証, ケーブル一体型, USB-C USB-A | モバイルバッテリー 通販",
+      "cart": true,
+      "h1": "商品概要には、主要な商品情報が記載されています \nキーボードショートカット  Shift + opt + D"
+     }
+    }
+   },
+   "rakuten": {
+    "searched": 45,
+    "hits": [
+     {
+      "url": "https://item.rakuten.co.jp/cheeromart/che-135/",
+      "title": "モバイルバッテリー 防災 準固体電池 10000mAh 機内持ち込み PD20W 急速充電 PSE認証 Type-C USB-C USB-A 2ポート ケーブル内蔵 防災 スマホ 充電器 小型 軽量 薄型 コンパクト 安全設計 チーロ cheero Solido CHE-135",
+      "price": "3,680",
+      "ad": false
+     }
+    ],
+    "top": {
+     "url": "https://item.rakuten.co.jp/cheeromart/che-135/",
+     "title": "モバイルバッテリー 防災 準固体電池 10000mAh 機内持ち込み PD20W 急速充電 PSE認証 Type-C USB-C USB-A 2ポート ケーブル内蔵 防災 スマホ 充電器 小型 軽量 薄型 コンパクト 安全設計 チーロ cheero Solido CHE-135",
+     "price": "3,680",
+     "ad": false,
+     "page": {
+      "title": "【楽天市場】モバイルバッテリー 防災 準固体電池 10000mAh 機内持ち込み PD20W 急速充電 PSE認証 Type-C USB-C USB-A 2ポート ケーブル内蔵 防災 スマホ 充電器 小型 軽量 薄型 コンパクト 安全設計 ",
+      "cart": false,
+      "h1": ""
+     }
+    }
+   }
+  },
+  "elecom-de-c86": {
+   "amazon": {
+    "searched": 60,
+    "hits": [
+     {
+      "asin": "B0H9Y1X397",
+      "title": "エレコム モバイルバッテリー 半固体Li電池 残量表示 35W 10000mAh USB-C×2 USB-A ブラック DE-C86-10000BK",
+      "price": "￥5,958",
+      "sponsored": false
+     },
+     {
+      "asin": "B0H9Y298QY",
+      "title": "エレコム モバイルバッテリー 半固体Li電池 残量表示 35W 10000mAh USB-C×2 USB-A ホワイト DE-C86-10000WH",
+      "price": "",
+      "sponsored": false
+     },
+     {
+      "asin": "B0H9Y3SZ71",
+      "title": "エレコム モバイルバッテリー 半固体Li電池 残量表示 35W 10000mAh USB-C×2 USB-A ピンク DE-C86-10000PN",
+      "price": "",
+      "sponsored": false
+     }
+    ],
+    "top": {
+     "asin": "B0H9Y1X397",
+     "title": "エレコム モバイルバッテリー 半固体Li電池 残量表示 35W 10000mAh USB-C×2 USB-A ブラック DE-C86-10000BK",
+     "price": "￥5,958",
+     "sponsored": false,
+     "page": {
+      "title": "Amazon | エレコム モバイルバッテリー 半固体Li電池 残量表示 35W 10000mAh USB-C×2 USB-A ブラック DE-C86-10000BK | モバイルバッテリー 通販",
+      "cart": true,
+      "h1": "商品概要には、主要な商品情報が記載されています \nキーボードショートカット  Shift + opt + D"
+     }
+    }
+   },
+   "rakuten": {
+    "searched": 45,
+    "hits": [
+     {
+      "url": "https://item.rakuten.co.jp/elecom/4549550417396/",
+      "title": "エレコム 半固体電池 モバイルバッテリー 大容量 10000mAh 35W Type-C×2 USB-A モバイル バッテリー 半固体リチウム電池 残量表示 ブラック ELECOM DE-C86-10000BK",
+      "price": "8,480",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/elecom/4549550417402/",
+      "title": "エレコム 半固体電池 モバイルバッテリー 大容量 10000mAh 35W Type-C×2 USB-A モバイル バッテリー 半固体リチウム電池 残量表示 ブルー ELECOM DE-C86-10000BU",
+      "price": "8,480",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/elecom/4549550417419/",
+      "title": "エレコム 半固体電池 モバイルバッテリー 大容量 10000mAh 35W Type-C×2 USB-A モバイル バッテリー 半固体リチウム電池 残量表示 ピンク ELECOM DE-C86-10000PN",
+      "price": "8,480",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/excellar/1000032579/",
+      "title": "【1日と5.0のつく日、18日はポイント3倍！】ELECOM 半固体モバイルバッテリー 10000mAh/35W DE-C86-10000BK ブラック",
+      "price": "8,380",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/gikstore/elc0980/",
+      "title": "エレコム 半固体モバイルバッテリー 半固体電池 モバイルバッテリー 10000mAh 35W Type-C×2 USB-A 半固体リチウム電池 残量表示 elecom ブルー DE-C86-10000BU",
+      "price": "8,468",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/gikstore/elc0979/",
+      "title": "エレコム 半固体モバイルバッテリー 半固体電池 モバイルバッテリー 10000mAh 35W Type-C×2 USB-A 半固体リチウム電池 残量表示 elecom ブラック DE-C86-10000BK",
+      "price": "7,970",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/excellar/1000032576/",
+      "title": "【1日と5.0のつく日、18日はポイント3倍！】ELECOM 半固体モバイルバッテリー 10000mAh/35W DE-C86-10000WH ホワイト",
+      "price": "8,470",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/home-carpentry/1000032579/",
+      "title": "ELECOM 半固体モバイルバッテリー 10000mAh/35W DE-C86-10000BK ブラック",
+      "price": "8,380",
+      "ad": false
+     }
+    ],
+    "top": {
+     "url": "https://item.rakuten.co.jp/elecom/4549550417396/",
+     "title": "エレコム 半固体電池 モバイルバッテリー 大容量 10000mAh 35W Type-C×2 USB-A モバイル バッテリー 半固体リチウム電池 残量表示 ブラック ELECOM DE-C86-10000BK",
+     "price": "8,480",
+     "ad": false,
+     "page": {
+      "title": "【楽天市場】エレコム 半固体電池 モバイルバッテリー 大容量 10000ｍAh 35W Type-C×2 USB-A モバイル バッテリー 半固体リチウム電池 残量表示 ブラック ELECOM DE-C86-10000BK：エレコムダイレク",
+      "cart": false,
+      "h1": ""
+     }
+    }
+   }
+  },
+  "elecom-de-c97l": {
+   "amazon": {
+    "searched": 53,
+    "hits": []
+   },
+   "rakuten": {
+    "searched": 45,
+    "hits": [
+     {
+      "url": "https://item.rakuten.co.jp/elecom/4549550442619/",
+      "title": "エレコム リン酸鉄リチウムイオン電池 モバイルバッテリー 8000mAh USB PD 35W USB-C×2 USB-A×1 ホワイト ELECOM DE-C97L-8000WH",
+      "price": "5,280",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/elecom/4549550442596/",
+      "title": "エレコム リン酸鉄リチウムイオン電池 モバイルバッテリー 8000mAh USB PD 35W USB-C×2 USB-A×1 ブラック ELECOM DE-C97L-8000BK",
+      "price": "5,280",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/elecom/4549550442602/",
+      "title": "エレコム リン酸鉄リチウムイオン電池 モバイルバッテリー 8000mAh USB PD 35W USB-C×2 USB-A×1 ブルー ELECOM DE-C97L-8000BU",
+      "price": "5,280",
+      "ad": false
+     }
+    ],
+    "top": {
+     "url": "https://item.rakuten.co.jp/elecom/4549550442619/",
+     "title": "エレコム リン酸鉄リチウムイオン電池 モバイルバッテリー 8000mAh USB PD 35W USB-C×2 USB-A×1 ホワイト ELECOM DE-C97L-8000WH",
+     "price": "5,280",
+     "ad": false,
+     "page": {
+      "title": "【楽天市場】エレコム リン酸鉄リチウムイオン電池 モバイルバッテリー 8000mAh USB PD 35W USB-C×2 USB-A×1 ホワイト ELECOM DE-C97L-8000WH：エレコムダイレクトショップ",
+      "cart": false,
+      "h1": ""
+     }
+    }
+   }
+  },
+  "sanwa-700-btl062": {
+   "amazon": {
+    "searched": 19,
+    "hits": [
+     {
+      "asin": "B0GX7ZVL23",
+      "title": "サンワダイレクト モバイルバッテリー 半固体電池 10000mAh PD 20W Type-C ×2 USB A ×1 700-BTL062BK",
+      "price": "￥5,480",
+      "sponsored": true
+     },
+     {
+      "asin": "B0GX7ZVL23",
+      "title": "サンワダイレクト モバイルバッテリー 半固体電池 10000mAh PD 20W Type-C ×2 USB A ×1 700-BTL062BK",
+      "price": "￥5,480",
+      "sponsored": false
+     }
+    ],
+    "top": {
+     "asin": "B0GX7ZVL23",
+     "title": "サンワダイレクト モバイルバッテリー 半固体電池 10000mAh PD 20W Type-C ×2 USB A ×1 700-BTL062BK",
+     "price": "￥5,480",
+     "sponsored": false,
+     "page": {
+      "title": "Amazon | サンワダイレクト モバイルバッテリー 半固体電池 10000mAh PD 20W Type-C ×2 USB A ×1 700-BTL062BK | 急速充電,PSE認証済み,機内持ち込み可,準個体,モバ充 | モバイルバ",
+      "cart": true,
+      "h1": "商品概要には、主要な商品情報が記載されています \nキーボードショートカット  Shift + opt + D"
+     }
+    }
+   },
+   "rakuten": {
+    "searched": 45,
+    "hits": [
+     {
+      "url": "https://item.rakuten.co.jp/esupply/ez7-btl062bk/",
+      "title": "モバイルバッテリー 半固体電池 準固体電池 10000mAh PD20W C×2 A×1 燃えにくい 安全設計 3台同時充電 デジタル残量表示 PSE認証済み 飛行機持ち込み可能 スマホ モバ充 EZ7-BTL062BK",
+      "price": "5,480",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/gekiyasu-ink/ez7-btl062bk/",
+      "title": "モバイルバッテリー iPhone Android 燃えにくい 半固体電池 準固体電池 10000mAh PD20W C×2 A×1 安全設計 3台同時充電 デジタル残量表示 PSE認証済み 飛行機持ち込み可能 スマホ モバ充 EZ7-BTL062BK",
+      "price": "5,480",
+      "ad": false
+     }
+    ],
+    "top": {
+     "url": "https://item.rakuten.co.jp/esupply/ez7-btl062bk/",
+     "title": "モバイルバッテリー 半固体電池 準固体電池 10000mAh PD20W C×2 A×1 燃えにくい 安全設計 3台同時充電 デジタル残量表示 PSE認証済み 飛行機持ち込み可能 スマホ モバ充 EZ7-BTL062BK",
+     "price": "5,480",
+     "ad": false,
+     "page": {
+      "title": "【楽天市場】モバイルバッテリー 半固体電池 準固体電池 10000mAh PD20W C×2 A×1 燃えにくい 安全設計 3台同時充電 デジタル残量表示 PSE認証済み 飛行機持ち込み可能 スマホ モバ充 EZ7-BTL062BK：イーサ",
+      "cart": false,
+      "h1": ""
+     }
+    }
+   }
+  },
+  "anker-zolo-a1688": {
+   "amazon": {
+    "searched": 46,
+    "hits": [
+     {
+      "asin": "B0F66NSNWW",
+      "title": "Khanka 収納ケース 互換品 Anker Zolo Power Bank (10000mAh,30W) A1688，ブルー（ケースのみ）",
+      "price": "￥1,799",
+      "sponsored": false
+     },
+     {
+      "asin": "B0D9NM8X1L",
+      "title": "Khanka 収納ケース 互換品 Anker Zolo Power Bank (10000mAh,30W) A1688，ブラック（ケースのみ）",
+      "price": "￥2,099",
+      "sponsored": false
+     },
+     {
+      "asin": "B0F66MCYSR",
+      "title": "Khanka 収納ケース 互換品 Anker Zolo Power Bank (10000mAh,30W) A1688，オフホワイト（ケースのみ）",
+      "price": "￥1,799",
+      "sponsored": false
+     },
+     {
+      "asin": "B0FH6PDCN7",
+      "title": "SIKAI CASE For Anker Zolo Power Bank (10000mAh, 30W) 【ケースのみ】A1688/A1680Cモバイルバッテリー専用 保護カバー おしゃれデザイン 落下·キズ·ホコリ対策 柔らかい シリコンカバー 耐衝撃 持ち運び便利 (グレー)",
+      "price": "￥1,298",
+      "sponsored": false
+     }
+    ],
+    "top": {
+     "asin": "B0F66NSNWW",
+     "title": "Khanka 収納ケース 互換品 Anker Zolo Power Bank (10000mAh,30W) A1688，ブルー（ケースのみ）",
+     "price": "￥1,799",
+     "sponsored": false,
+     "page": {
+      "title": "Amazon | Khanka 収納ケース 互換品 Anker Zolo Power Bank (10000mAh,30W) A1688，ブルー（ケースのみ） | 圧迫防止 衝撃吸収 防塵防滴 持ち運びに便利 | ケース型バッテリー 通販",
+      "cart": true,
+      "h1": "商品概要には、主要な商品情報が記載されています \nキーボードショートカット  Shift + opt + D"
+     }
+    }
+   },
+   "rakuten": {
+    "searched": 45,
+    "hits": [
+     {
+      "url": "https://item.rakuten.co.jp/iikakaku-officialstore/x0019jfwc7-/",
+      "title": "Anker Zolo Power Bank (10000mAh, 30W, Built-In USB-Cケーブル) (モバイルバッテリー 10000mAh 最大30W出力 USB-C ケーブル一体型 ディスプレイ搭載) 【PD/PowerIQ搭載/PSE技術基準適合】iPhone 16 / 15 Android iPad その他各種機器対応 (ピンク) A1688052",
+      "price": "3,535円(価格+送料)",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/ps-direct/20260826172635_74/",
+      "title": "Khanka 収納ケース 互換品 Ank er Zolo Power Bank (10000mAh,30W) A1688，ブルー（ケースのみ）",
+      "price": "2,548",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/goodtimestore/20251208170211_107/",
+      "title": "（ケースのみ）Ank er Zolo Power Bank (10000mAh,30W,Built-In USB-Cケーブル)モバイルバッ テリー A1688専用収納ケース,ピンク-Khanka",
+      "price": "2,600",
+      "ad": false
+     }
+    ],
+    "top": {
+     "url": "https://item.rakuten.co.jp/iikakaku-officialstore/x0019jfwc7-/",
+     "title": "Anker Zolo Power Bank (10000mAh, 30W, Built-In USB-Cケーブル) (モバイルバッテリー 10000mAh 最大30W出力 USB-C ケーブル一体型 ディスプレイ搭載) 【PD/PowerIQ搭載/PSE技術基準適合】iPhone 16 / 15 Android iPad その他各種機器対応 (ピンク) A1688052",
+     "price": "3,535円(価格+送料)",
+     "ad": false,
+     "page": {
+      "title": "【楽天市場】Anker Zolo Power Bank (10000mAh, 30W, Built-In USB-Cケーブル) (モバイルバッテリー 10000mAh 最大30W出力 USB-C ケーブル一体型 ディスプレイ搭載) 【PD/",
+      "cart": false,
+      "h1": ""
+     }
+    }
+   }
+  },
+  "anker-maggo-plus-a1113": {
+   "amazon": {
+    "searched": 22,
+    "hits": [
+     {
+      "asin": "B0DHVPCZV2",
+      "title": "co2CREA 対応 Anker MagGo (10000mAh,Slim) A1664/ Nano (MagGo,Plus) A1113 収納ケース",
+      "price": "￥2,099",
+      "sponsored": false
+     },
+     {
+      "asin": "B0DHVMBBYL",
+      "title": "co2CREA 対応 Anker MagGo (10000mAh,Slim) A1664/ Nano (MagGo,Plus) A1113 収納ケース",
+      "price": "￥2,099",
+      "sponsored": false
+     },
+     {
+      "asin": "B0HHRZ29MX",
+      "title": "co2CREA 対応 Anker Nano (MagGo,Plus) A1113/MagGo (10000mAh,Slim) A1664 収納ケース",
+      "price": "￥2,099",
+      "sponsored": false
+     }
+    ],
+    "top": {
+     "asin": "B0DHVPCZV2",
+     "title": "co2CREA 対応 Anker MagGo (10000mAh,Slim) A1664/ Nano (MagGo,Plus) A1113 収納ケース",
+     "price": "￥2,099",
+     "sponsored": false,
+     "page": {
+      "title": "Amazon | co2CREA 対応 Anker MagGo (10000mAh,Slim) A1664/ Nano (MagGo,Plus) A1113 収納ケース | ブラック 硬質EVA素材 衝撃吸収 防塵防滴 軽量コンパクト | ",
+      "cart": true,
+      "h1": "商品概要には、主要な商品情報が記載されています \nキーボードショートカット  Shift + opt + D"
+     }
+    }
+   },
+   "rakuten": {
+    "searched": 45,
+    "hits": [
+     {
+      "url": "https://item.rakuten.co.jp/resco/x001dgl3bf/",
+      "title": "Anker アンカー Nano Power Bank (MagGo, Plus) A1113N21 モバイルバッテリー 10000mAh Qi2 最大15W マグネット式 ワイヤレス充電 USB-C 最大30W ホワイト 薄型 新品",
+      "price": "11,000",
+      "ad": false
+     }
+    ],
+    "top": {
+     "url": "https://item.rakuten.co.jp/resco/x001dgl3bf/",
+     "title": "Anker アンカー Nano Power Bank (MagGo, Plus) A1113N21 モバイルバッテリー 10000mAh Qi2 最大15W マグネット式 ワイヤレス充電 USB-C 最大30W ホワイト 薄型 新品",
+     "price": "11,000",
+     "ad": false,
+     "page": {
+      "title": "【楽天市場】Anker アンカー Nano Power Bank (MagGo, Plus) A1113N21 モバイルバッテリー 10000mAh Qi2 最大15W マグネット式 ワイヤレス充電 USB-C 最大30W ホワイト 薄型 ",
+      "cart": false,
+      "h1": ""
+     }
+    }
+   }
+  }
+ }
+}

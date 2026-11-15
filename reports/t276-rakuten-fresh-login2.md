@@ -1,0 +1,131 @@
+# asp-sync を 1 回 走らせる（t276・**$0**）
+
+生成: **2026-10-12T10:59:41+0900**
+
+| ASP | Keychain |
+| --- | --- |
+| a8 | **在る** |
+| moshimo | **在る** |
+| vc | **在る** |
+| rakuten | **在る** |
+
+```text
+rakuten: ログイン済み / 楽天ID 0 件
+```
+rc=0 /      273 bytes
+{
+ "name": "楽天アフィリエイト",
+ "loggedIn": true,
+ "needsHuman": false,
+ "credentialsInKeychain": true,
+ "reason": "",
+ "autoLoginTried": true,
+ "url": "https://affiliate.rakuten.co.jp/report/summary",
+ "title": "【楽天アフィリエイト】 - レポート",
+ "loginSteps": [
+  {
+   "label": "ID を打った直後",
+   "url": "https://login.account.rakuten.com/sso/authorize",
+   "ins": [
+    "text:username=20文字"
+   ],
+   "msgs": [],
+   "btns": [
+    "div[role=button]「次へ」",
+    "a「関連規約類 (新規タブで開きます」",
+    "a「個人情報保護方針 (新規タブで開」",
+    "a「シークレットモードを使用 (新規」",
+    "div[role=button]「パスワードをお忘れの方」",
+    "a「楽天会員登録（無料）」",
+    "a「ヘルプ」",
+    "a「個人情報保護方針」",
+    "a「会員規約」"
+   ]
+  },
+  {
+   "label": "「次へ」を押したあと",
+   "url": "https://login.account.rakuten.com/sso/authorize",
+   "ins": [
+    "password:password=0文字"
+   ],
+   "msgs": [],
+   "btns": [
+    "div[role=button]「次へ」",
+    "div[role=button]「パスワードをお忘れの方」",
+    "div[role=button]「別の楽天IDでログイン」",
+    "a「ヘルプ」",
+    "a「個人情報保護方針」",
+    "a「会員規約」"
+   ]
+  },
+  {
+   "label": "パスワードを打った直後",
+   "url": "https://login.account.rakuten.com/sso/authorize",
+   "ins": [
+    "password:password=8文字"
+   ],
+   "msgs": [],
+   "btns": [
+    "div[role=button]「次へ」",
+    "div[role=button]「パスワードをお忘れの方」",
+    "div[role=button]「別の楽天IDでログイン」",
+    "a「ヘルプ」",
+    "a「個人情報保護方針」",
+    "a「会員規約」"
+   ]
+  },
+  {
+   "label": "パスワードを送ったあと",
+   "url": "https://affiliate.rakuten.co.jp/report/summary",
+   "ins": [
+    "search:sitem=0文字",
+    "search:u=0文字"
+   ],
+   "msgs": [],
+   "btns": [
+    "a「ヘルプ」",
+    "a「規約・ガイドライン」",
+    "div[role=button]「マイページ」",
+    "div[role=button]「はじめての方へ」",
+    "div[role=button]「報酬アップのコツ」",
+    "div[role=button]「商品・サービスを探す」",
+    "div[role=button]「ツールを使う」",
+    "div[role=button]「プレミアムパートナー」",
+    "a「会員情報」",
+    "a「ログアウト」",
+    "a「トップページ」",
+    "a「2026年10月1日(木) 【1」"
+   ]
+  },
+  {
+   "label": "さらに 4 秒後",
+   "url": "https://affiliate.rakuten.co.jp/report/summary",
+   "ins": [
+    "search:sitem=0文字",
+    "search:u=0文字"
+   ],
+   "msgs": [],
+   "btns": [
+    "a「ヘルプ」",
+    "a「規約・ガイドライン」",
+    "div[role=button]「マイページ」",
+    "div[role=button]「はじめての方へ」",
+    "div[role=button]「報酬アップのコツ」",
+    "div[role=button]「商品・サービスを探す」",
+    "div[role=button]「ツールを使う」",
+    "div[role=button]「プレミアムパートナー」",
+    "a「会員情報」",
+    "a「ログアウト」",
+    "a「トップページ」",
+    "a「2026年10月1日(木) 【1」"
+   ]
+  }
+ ],
+ "affiliateIds": [],
+ "menus": 6
+}
+
+## Keychain（dailyhack-asp-rakuten）
+- ID の文字数: 20（@ を含む: はい）
+- 登録の数: 1（1 であること）
+- パスワードの文字数: 8

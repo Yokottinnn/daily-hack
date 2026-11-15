@@ -1,0 +1,11 @@
+{
+  "_note": "利用者が指定した URL から取得した業務スーパーのロゴ。**商標であり自由ライセンスではない。**識別目的で使う。改変しない。取得日 2026-09-20（ops/tasks/t119-gyomu-logo-given.sh）。",
+  "gyomu": {
+    "brand": "業務スーパー",
+    "file": "gyomu.png",
+    "source": "https://play-lh.googleusercontent.com/05N6s2kPrcS7UA_YS7qHblsJ1Lzxo6C2MNatbOFA0tW4SEykbqihG2U9FRYXvenZwv_bpXfeSp3vAJRKV_OA",
+    "source_type": "利用者の指定（Google Play のアイコン）",
+    "width": 512,
+    "height": 512
+  }
+}

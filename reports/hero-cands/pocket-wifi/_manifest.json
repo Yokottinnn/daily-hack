@@ -1,0 +1,34 @@
+{
+  "c1": {
+    "file": "Artist Concept - Astronaut Performs Tethering Maneuvers at Asteroid.jpg",
+    "lic": "Public domain",
+    "artist": "NASA",
+    "page": "https://commons.wikimedia.org/wiki/File:Artist_Concept_-_Astronaut_Performs_Tethering_Maneuvers_at_Asteroid.jpg",
+    "px": "1600x1200",
+    "bytes": 248166
+  },
+  "c2": {
+    "file": "Phone tethering on laptop.jpg",
+    "lic": "CC BY-SA 4.0",
+    "artist": "Picture: Paowee (talk · contribs)\n\nWikipedia: Wikimedia Foundation\n\nOS on PC: Canonical Ltd.\n\nOS on phone: Google LLC.\n\nBrowser: Mozilla Corporation",
+    "page": "https://commons.wikimedia.org/wiki/File:Phone_tethering_on_laptop.jpg",
+    "px": "3947x2508",
+    "bytes": 1324813
+  },
+  "c3": {
+    "file": "Silicon tethering 1.png",
+    "lic": "Public domain",
+    "artist": "Alsbaiee",
+    "page": "https://commons.wikimedia.org/wiki/File:Silicon_tethering_1.png",
+    "px": "1670x1254",
+    "bytes": 39504
+  },
+  "c4": {
+    "file": "Silicon tethering 2.png",
+    "lic": "Public domain",
+    "artist": "Alsbaiee",
+    "page": "https://commons.wikimedia.org/wiki/File:Silicon_tethering_2.png",
+    "px": "2733x497",
+    "bytes": 31806
+  }
+}

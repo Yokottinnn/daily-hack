@@ -1,0 +1,43 @@
+{
+  "sony-sony-logo.png": {
+    "brand": "ソニー",
+    "title": "File:Sony logo.svg",
+    "page": "https://commons.wikimedia.org/wiki/File:Sony_logo.svg",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Sony_logo.svg/960px-Sony_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "Public domain",
+    "fetched": "2026-10-18",
+    "task": "ops/tasks/x318-sony-anker-logo.sh"
+  },
+  "anker-app-1.png": {
+    "brand": "Anker soundcore",
+    "seller": "Power Mobile Life LLC",
+    "src": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/58/36/ff/5836ff60-ac71-6740-dfae-c57868ba8654/AppIcon-0-0-1x_U007ephone-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+    "page": "https://apps.apple.com/jp/app/anker-soundcore/id1331876603?uo=4",
+    "fetched": "2026-10-18",
+    "task": "ops/tasks/x318-sony-anker-logo.sh"
+  },
+  "anker-app-2.png": {
+    "brand": "Anker Power",
+    "seller": "Power Mobile Life LLC",
+    "src": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/dd/48/79/dd4879c2-cb2e-9ac5-74ad-e4d3ca7084ff/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+    "page": "https://apps.apple.com/jp/app/anker-power/id1635029057?uo=4",
+    "fetched": "2026-10-18",
+    "task": "ops/tasks/x318-sony-anker-logo.sh"
+  },
+  "anker-app-3.png": {
+    "brand": "Anker Japan 公式アプリ",
+    "seller": "Anker Japan Co., Ltd.",
+    "src": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5a/bf/85/5abf8573-a503-ddcc-07fe-fb7ebf115789/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+    "page": "https://apps.apple.com/jp/app/anker-japan-%E5%85%AC%E5%BC%8F%E3%82%A2%E3%83%97%E3%83%AA/id1609247679?uo=4",
+    "fetched": "2026-10-18",
+    "task": "ops/tasks/x318-sony-anker-logo.sh"
+  },
+  "anker-app-4.png": {
+    "brand": "Anker eufy",
+    "seller": "Power Mobile Life LLC",
+    "src": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/34/57/0b/34570b2b-babc-8d75-8d9b-2075e4b89bde/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+    "page": "https://apps.apple.com/jp/app/anker-eufy/id1424956516?uo=4",
+    "fetched": "2026-10-18",
+    "task": "ops/tasks/x318-sony-anker-logo.sh"
+  }
+}

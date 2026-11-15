@@ -1,0 +1,65 @@
+{
+ "generated": "2026-11-01T02:21:25.187Z",
+ "total": 7,
+ "from": 0,
+ "to": 7,
+ "rows": [
+  {
+   "id": "s00000026698001",
+   "name": "Hostinger - Webサイト作成に必要なすべてがここに",
+   "reward": "▽一般 新規購入80％",
+   "self": false,
+   "point": false,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000024877008",
+   "name": "【トラベルブック】団体・グループ旅行一括見積もりサービス",
+   "reward": "新規見積り申込1500円 EPC",
+   "self": false,
+   "point": false,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000027806001",
+   "name": "低価格×初心者特化！ダイエット専門パーソナルジム【HPER（ハイパー）】",
+   "reward": "新規無料カウンセリング実施or1日体験コース参加10000円 EPC",
+   "self": false,
+   "point": false,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000025908001",
+   "name": "会員数500万人突破！ポイ活サイト【ポイントインカム】",
+   "reward": "新規会員登録100円 EPC",
+   "self": false,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000017066001",
+   "name": "日本最大級のポイントサイト【ＥＣナビ】",
+   "reward": "新規会員登録210円 EPC",
+   "self": false,
+   "point": false,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000020637001",
+   "name": "業界最強の還元率でお小遣いが稼げるポイントサイト！【アメフリ】",
+   "reward": "新規無料会員登録100円 EPC",
+   "self": false,
+   "point": false,
+   "listing": "リスティングNG"
+  },
+  {
+   "id": "s00000014177001",
+   "name": "オンラインアンケートで謝礼を獲得【オピニオンワールド】会員登録促進",
+   "reward": "▽一般メディア 新規会員登録235円",
+   "self": false,
+   "point": true,
+   "listing": "リスティングNG"
+  }
+ ],
+ "applyingCount": null
+}

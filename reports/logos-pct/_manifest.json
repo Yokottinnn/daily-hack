@@ -1,0 +1,345 @@
+{
+  "_note": "識別目的で使うロゴ。**商標であり自由ライセンスではない。**取得日 2026-09-20（ops/tasks/t128-logos-pct.sh）。",
+  "jcb": [
+    {
+      "brand": "JCB",
+      "file": "jcb-1.png",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/JCB_logo.svg/960px-JCB_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File%3AJCB_logo.svg",
+      "license_note": "Public domain",
+      "width": 960,
+      "height": 741
+    },
+    {
+      "brand": "JCB",
+      "file": "jcb-2.png",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/JCB_%28J.C._Bamford_Excavators_Limited%29_logo.svg/960px-JCB_%28J.C._Bamford_Excavators_Limited%29_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File%3AJCB_%28J.C._Bamford_Excavators_Limited%29_logo.svg",
+      "license_note": "Public domain",
+      "width": 960,
+      "height": 371
+    }
+  ],
+  "smbccard": [
+    {
+      "brand": "三井住友カード",
+      "file": "smbccard-1.png",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Logo_smc.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "page": "https://commons.wikimedia.org/wiki/File%3ALogo_smc.png",
+      "license_note": "Public domain",
+      "width": 162,
+      "height": 26
+    },
+    {
+      "brand": "三井住友カード",
+      "file": "smbccard-2.png",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/The_logo_of_Sumitomo_Mitsui_Card_Company%2C_Limited.svg/960px-The_logo_of_Sumitomo_Mitsui_Card_Company%2C_Limited.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File%3AThe_logo_of_Sumitomo_Mitsui_Card_Company%2C_Limited.svg",
+      "license_note": "CC BY 4.0",
+      "width": 960,
+      "height": 127
+    }
+  ],
+  "rakutencard": [
+    {
+      "brand": "楽天カード",
+      "file": "rakutencard-1.png",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Rakuten_Card_logo.svg/960px-Rakuten_Card_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File%3ARakuten_Card_logo.svg",
+      "license_note": "Public domain",
+      "width": 960,
+      "height": 176
+    },
+    {
+      "brand": "楽天カード",
+      "file": "rakutencard-2.png",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Rakuten_Edy_logo.svg/960px-Rakuten_Edy_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File%3ARakuten_Edy_logo.svg",
+      "license_note": "Public domain",
+      "width": 960,
+      "height": 1501
+    }
+  ],
+  "jalan": [
+    {
+      "brand": "じゃらん",
+      "file": "jalan-1.png",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Group_structure_and_statistics_of_%E2%80%9CGourmet_Master_Co._Ltd.%E2%80%9D%2C_as_of_31_December_2017_-_%E3%80%8C%E9%96%8B%E6%9B%BC%E7%BE%8E%E9%A3%9F%E9%81%94%E4%BA%BA%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E3%80%8D%E7%9A%84%E9%9B%86%E5%9C%98%E6%9E%B6%E6%A7%8B%E5%8F%8A%E7%B5%B1%E8%A8%88%EF%BC%8C%E6%88%AA%E8%87%B32017%E5%B9%B412%E6%9C%8831%E6%97%A5.svg/960px-thumbnail.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File%3AGroup_structure_and_statistics_of_%E2%80%9CGourmet_Master_Co._Ltd.%E2%80%9D%2C_as_of_31_December_2017_-_%E3%80%8C%E9%96%8B%E6%9B%BC%E7%BE%8E%E9%A3%9F%E9%81%94%E4%BA%BA%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E3%80%8D%E7%9A%84%E9%9B%86%E5%9C%98%E6%9E%B6%E6%A7%8B%E5%8F%8A%E7%B5%B1%E8%A8%88%EF%BC%8C%E6%88%AA%E8%87%B32017%E5%B9%B412%E6%9C%8831%E6%97%A5.svg",
+      "license_note": "CC BY-SA 4.0",
+      "width": 960,
+      "height": 819
+    }
+  ],
+  "moppy": [
+    {
+      "brand": "モッピー",
+      "file": "moppy-1.png",
+      "source": "https://img.moppy.jp/pub/global/common/cashback/logo/img/money.png",
+      "page": "https://pc.moppy.jp/",
+      "license_note": "公式サイトのロゴ画像（商標）",
+      "width": 180,
+      "height": 144
+    },
+    {
+      "brand": "モッピー",
+      "file": "moppy-2.png",
+      "source": "https://img.moppy.jp/pub/global/common/cashback/logo/img/47.png",
+      "page": "https://pc.moppy.jp/",
+      "license_note": "公式サイトのロゴ画像（商標）",
+      "width": 180,
+      "height": 144
+    },
+    {
+      "brand": "モッピー",
+      "file": "moppy-3.png",
+      "source": "https://img.moppy.jp/pub/global/common/cashback/logo/img/30.png",
+      "page": "https://pc.moppy.jp/",
+      "license_note": "公式サイトのロゴ画像（商標）",
+      "width": 180,
+      "height": 144
+    },
+    {
+      "brand": "モッピー",
+      "file": "moppy-4.png",
+      "source": "https://img.moppy.jp/pub/global/common/cashback/logo/img/35.png",
+      "page": "https://pc.moppy.jp/",
+      "license_note": "公式サイトのロゴ画像（商標）",
+      "width": 180,
+      "height": 144
+    }
+  ],
+  "pointi": [
+    {
+      "brand": "ポイントインカム",
+      "file": "pointi-1.png",
+      "source": "https://pointi.jp/img_new/logo.png",
+      "page": "https://pointi.jp/",
+      "license_note": "公式サイトのロゴ画像（商標）",
+      "width": 211,
+      "height": 54
+    },
+    {
+      "brand": "ポイントインカム",
+      "file": "pointi-2.png",
+      "source": "https://img.pointi.jp/assets/contents/challenge_everyone/img/logo.png?230922",
+      "page": "https://pointi.jp/",
+      "license_note": "公式サイトのロゴ画像（商標）",
+      "width": 270,
+      "height": 50
+    },
+    {
+      "brand": "ポイントインカム",
+      "file": "pointi-3.png",
+      "source": "https://image.books.rakuten.co.jp/books/img/bnr/event/e-book/affiliate/125x125_logo.jpg",
+      "page": "https://pointi.jp/",
+      "license_note": "公式サイトのロゴ画像（商標）",
+      "width": 125,
+      "height": 125
+    },
+    {
+      "brand": "ポイントインカム",
+      "file": "pointi-4.png",
+      "source": "https://pointi.jp/img_new/news/logo.png",
+      "page": "https://pointi.jp/",
+      "license_note": "公式サイトのロゴ画像（商標）",
+      "width": 155,
+      "height": 21
+    }
+  ],
+  "pointtown": [
+    {
+      "brand": "ポイントタウン",
+      "file": "pointtown-1.svg",
+      "source": "https://img.pointtown.com/pc/images/common/logo.svg",
+      "page": "https://www.pointtown.com/",
+      "license_note": "公式サイトのロゴ画像（商標）",
+      "format": "svg"
+    },
+    {
+      "brand": "ポイントタウン",
+      "file": "pointtown-2.png",
+      "source": "https://img.pointtown.com/common/images/exchange/logo-amazon.png",
+      "page": "https://www.pointtown.com/",
+      "license_note": "公式サイトのロゴ画像（商標）",
+      "width": 401,
+      "height": 200
+    },
+    {
+      "brand": "ポイントタウン",
+      "file": "pointtown-3.png",
+      "source": "https://img.pointtown.com/common/images/exchange/logo-paypay-money-light-by-digi.png",
+      "page": "https://www.pointtown.com/",
+      "license_note": "公式サイトのロゴ画像（商標）",
+      "width": 400,
+      "height": 200
+    },
+    {
+      "brand": "ポイントタウン",
+      "file": "pointtown-4.png",
+      "source": "https://img.pointtown.com/common/images/exchange/logo_apple_gift.png",
+      "page": "https://www.pointtown.com/",
+      "license_note": "公式サイトのロゴ画像（商標）",
+      "width": 400,
+      "height": 200
+    }
+  ],
+  "aeoncard": [
+    {
+      "brand": "イオンカード",
+      "file": "aeoncard-1.png",
+      "source": "https://www.aeon.co.jp/-/media/aeoncard/assets/images/common/logo-aeon.png",
+      "page": "https://www.aeon.co.jp/",
+      "license_note": "公式サイトのロゴ画像（商標）",
+      "width": 500,
+      "height": 152
+    },
+    {
+      "brand": "イオンカード",
+      "file": "aeoncard-2.png",
+      "source": "https://www.aeon.co.jp/-/media/aeoncard/assets/images/common/logo-aeon-ki.png",
+      "page": "https://www.aeon.co.jp/",
+      "license_note": "公式サイトのロゴ画像（商標）",
+      "width": 500,
+      "height": 102
+    },
+    {
+      "brand": "イオンカード",
+      "file": "aeoncard-3.png",
+      "source": "https://www.aeon.co.jp/-/media/aeoncard/assets/images/common/logo-line.png",
+      "page": "https://www.aeon.co.jp/",
+      "license_note": "公式サイトのロゴ画像（商標）",
+      "width": 85,
+      "height": 85
+    },
+    {
+      "brand": "イオンカード",
+      "file": "aeoncard-4.png",
+      "source": "https://www.aeon.co.jp/-/media/aeoncard/assets/images/common/logo-youtube.png",
+      "page": "https://www.aeon.co.jp/",
+      "license_note": "公式サイトのロゴ画像（商標）",
+      "width": 85,
+      "height": 60
+    }
+  ],
+  "epos": [
+    {
+      "brand": "エポスカード",
+      "file": "epos-1.png",
+      "source": "https://www.eposcard.co.jp/common-files/img/com_head_logo01.png",
+      "page": "https://www.eposcard.co.jp/",
+      "license_note": "公式サイトのロゴ画像（商標）",
+      "width": 228,
+      "height": 70
+    },
+    {
+      "brand": "エポスカード",
+      "file": "epos-2.png",
+      "source": "https://www.eposcard.co.jp/common-files/img/sp_com_epotoku_logo02.gif",
+      "page": "https://www.eposcard.co.jp/",
+      "license_note": "公式サイトのロゴ画像（商標）",
+      "width": 130,
+      "height": 80
+    },
+    {
+      "brand": "エポスカード",
+      "file": "epos-3.png",
+      "source": "https://www.eposcard.co.jp/common-files/img/sp_com_tamaru_logo02.gif",
+      "page": "https://www.eposcard.co.jp/",
+      "license_note": "公式サイトのロゴ画像（商標）",
+      "width": 130,
+      "height": 80
+    },
+    {
+      "brand": "エポスカード",
+      "file": "epos-4.png",
+      "source": "https://www.eposcard.co.jp/img-files/top/index_logo02.png",
+      "page": "https://www.eposcard.co.jp/",
+      "license_note": "公式サイトのロゴ画像（商標）",
+      "width": 160,
+      "height": 65
+    }
+  ],
+  "paypaycard": [
+    {
+      "brand": "PayPayカード",
+      "file": "paypaycard-1.png",
+      "source": "https://www.paypay-card.co.jp/apple-touch-icon.png",
+      "page": "https://www.paypay-card.co.jp/",
+      "license_note": "公式サイトのロゴ画像（商標）",
+      "width": 120,
+      "height": 120
+    }
+  ],
+  "rakutentra": [
+    {
+      "brand": "楽天トラベル",
+      "file": "rakutentra-1.png",
+      "source": "https://trvimg.r10s.jp/share/common/images/travel-logo-pc.png",
+      "page": "https://travel.rakuten.co.jp/",
+      "license_note": "公式サイトのロゴ画像（商標）",
+      "width": 384,
+      "height": 64
+    },
+    {
+      "brand": "楽天トラベル",
+      "file": "rakutentra-2.svg",
+      "source": "https://trvimg.r10s.jp/share/pctop/images/logout_login_svg.svg",
+      "page": "https://travel.rakuten.co.jp/",
+      "license_note": "公式サイトのロゴ画像（商標）",
+      "format": "svg"
+    },
+    {
+      "brand": "楽天トラベル",
+      "file": "rakutentra-3.png",
+      "source": "https://img.travel.rakuten.co.jp/themepark/htb/202511/images/htb_logo.png",
+      "page": "https://travel.rakuten.co.jp/",
+      "license_note": "公式サイトのロゴ画像（商標）",
+      "width": 238,
+      "height": 90
+    },
+    {
+      "brand": "楽天トラベル",
+      "file": "rakutentra-4.png",
+      "source": "https://img.travel.rakuten.co.jp/smart/images/top/bnr_check/logo_travel.png",
+      "page": "https://travel.rakuten.co.jp/",
+      "license_note": "公式サイトのロゴ画像（商標）",
+      "width": 174,
+      "height": 30
+    }
+  ],
+  "yahootra": [
+    {
+      "brand": "Yahoo!トラベル",
+      "file": "yahootra-1.svg",
+      "source": "https://www.ikyu.com/design-system/assets/brand-icons/svg/paypay.svg",
+      "page": "https://travel.yahoo.co.jp/",
+      "license_note": "公式サイトのロゴ画像（商標）",
+      "format": "svg"
+    },
+    {
+      "brand": "Yahoo!トラベル",
+      "file": "yahootra-2.svg",
+      "source": "https://www.ikyu.com/design-system/assets/brand-icons/svg/facebook-circle.svg",
+      "page": "https://travel.yahoo.co.jp/",
+      "license_note": "公式サイトのロゴ画像（商標）",
+      "format": "svg"
+    },
+    {
+      "brand": "Yahoo!トラベル",
+      "file": "yahootra-3.svg",
+      "source": "https://www.ikyu.com/design-system/assets/brand-icons/svg/x-circle.svg",
+      "page": "https://travel.yahoo.co.jp/",
+      "license_note": "公式サイトのロゴ画像（商標）",
+      "format": "svg"
+    },
+    {
+      "brand": "Yahoo!トラベル",
+      "file": "yahootra-4.svg",
+      "source": "https://www.ikyu.com/design-system/assets/brand-icons/svg/line-circle.svg",
+      "page": "https://travel.yahoo.co.jp/",
+      "license_note": "公式サイトのロゴ画像（商標）",
+      "format": "svg"
+    }
+  ]
+}

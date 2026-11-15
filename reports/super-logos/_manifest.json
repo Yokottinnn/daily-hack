@@ -1,0 +1,52 @@
+{
+  "_note": "各チェーンの公式サイトから取得したロゴ。**商標であり自由ライセンスではない。**どのチェーンの節かを示す識別目的で使っている。改変せず、そのまま置くこと。取得日 2026-09-20（ops/tasks/t113-super-logos-rest.sh）。",
+  "trial": [
+    {
+      "brand": "トライアル（IR）",
+      "source": "https://trial-holdings.inc/images/ogp.png",
+      "page": "https://www.trial-holdings.inc/",
+      "source_type": "公式サイト（商標）",
+      "file": "trial-1.png",
+      "width": 1200,
+      "height": 630
+    },
+    {
+      "brand": "トライアル（IR）",
+      "source": "https://www.trial-holdings.inc/images/favicon.ico",
+      "page": "https://www.trial-holdings.inc/",
+      "source_type": "公式サイト（商標）",
+      "file": "trial-2.png",
+      "width": 196,
+      "height": 196
+    }
+  ],
+  "gyomu": [
+    {
+      "brand": "業務スーパー（会社情報）",
+      "source": "https://www.kobebussan.co.jp/apple-touch-icon.png",
+      "page": "https://www.kobebussan.co.jp/",
+      "source_type": "公式サイト（商標）",
+      "file": "gyomu-1.png",
+      "width": 180,
+      "height": 180
+    },
+    {
+      "brand": "業務スーパー（会社情報）",
+      "source": "https://www.kobebussan.co.jp/img/logo_s.png",
+      "page": "https://www.kobebussan.co.jp/",
+      "source_type": "公式サイト（商標）",
+      "file": "gyomu-2.png",
+      "width": 220,
+      "height": 34
+    },
+    {
+      "brand": "業務スーパー（会社情報）",
+      "source": "https://www.kobebussan.co.jp/img/logo.png",
+      "page": "https://www.kobebussan.co.jp/",
+      "source_type": "公式サイト（商標）",
+      "file": "gyomu-3.png",
+      "width": 636,
+      "height": 148
+    }
+  ]
+}

@@ -1,0 +1,488 @@
+{
+ "generated": "2026-10-31T09:12:06.327Z",
+ "total": 60,
+ "from": 0,
+ "to": 60,
+ "rows": [
+  {
+   "id": "s00000027043001",
+   "name": "“遊び心”と高品質。設営簡単・軽量・快適なキャンプ用品【HILLS FIELD】",
+   "reward": "購入10％ EPC",
+   "self": false,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000023371001",
+   "name": "もしものときの非常食・備蓄食料に、登山・キャンプにも【安心米のアルファー食品】",
+   "reward": "購入（税抜）8％ EPC",
+   "self": false,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000020065003",
+   "name": "月額費用0円！新時代Wi-Fi【STARチャージ Wi-Fi】",
+   "reward": "新規購入8％ EPC",
+   "self": true,
+   "point": true,
+   "listing": "リスティングOK"
+  },
+  {
+   "id": "s00000021712001",
+   "name": "【ポータブル電源】アウトドアや防災に活躍！大容量でコンセント使用可能なJackeryポータブル電源",
+   "reward": "購入4％ EPC",
+   "self": true,
+   "point": true,
+   "listing": "リスティングNG"
+  },
+  {
+   "id": "s00000027644001",
+   "name": "コンパクトで超高輝度！多機能LED懐中電灯の公式ショップ【WUBEN】",
+   "reward": "購入15％ キャンペーン",
+   "self": false,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000022499001",
+   "name": "安心と楽しみを蓄電するポータブル電源の【BLUETTI JAPAN】",
+   "reward": "注文4％ EPC",
+   "self": false,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000011202001",
+   "name": "山に登ろう！登山・トレッキング道具の【やまどうぐレンタル屋】",
+   "reward": "レンタル金額5％ EPC",
+   "self": true,
+   "point": true,
+   "listing": "リスティングNG"
+  },
+  {
+   "id": "s00000027055001",
+   "name": "20年以上の取引実績を誇るゴルフ会員権の仲介業社【安心・信頼の朝日ゴルフ】",
+   "reward": "新規問い合わせ5000円 EPC",
+   "self": false,
+   "point": false,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000026172001",
+   "name": "全国のゴルフ場の会員権のご購入やご売却は信頼と実績の【住地ゴルフ】",
+   "reward": "新規問い合わせ4500円 EPC",
+   "self": false,
+   "point": false,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000014877001",
+   "name": "ゴルフ場検索・予約サイト【じゃらんゴルフ】",
+   "reward": "プレー完了500円 EPC",
+   "self": true,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000027604001",
+   "name": "スピン革命で飛距離＆精度アップ！革新的ゴルフティー【PLUSTEE GOLF ONLINE】",
+   "reward": "購入10％ EPC",
+   "self": false,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000020001002",
+   "name": "ゴルフ用品通販【ヴィクトリアゴルフ】",
+   "reward": "購入(税抜)5.4％ EPC",
+   "self": true,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000010453001",
+   "name": "激安ゴルフクラブＵＳＡから直送【フェアウェイゴルフ】",
+   "reward": "購入10％ キャンペーン",
+   "self": true,
+   "point": true,
+   "listing": "リスティングOK"
+  },
+  {
+   "id": "s00000001671069",
+   "name": "スコアコミット型ゴルフスクール【RIZAPゴルフ】",
+   "reward": "新規来店9500円 EPC",
+   "self": false,
+   "point": false,
+   "listing": "リスティングNG"
+  },
+  {
+   "id": "s00000027637001",
+   "name": "キャロウェイ・タイトリストなど人気ブランドを網羅！【つるやゴルフONLINE】",
+   "reward": "▽一般 購入（税抜）5％",
+   "self": false,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000027470001",
+   "name": "プロも愛用するブランドゴルフウェア・用品の専門店【THE SUN GOLF】",
+   "reward": "購入（税抜）10％ EPC",
+   "self": false,
+   "point": false,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000026610001",
+   "name": "ゴルフの常識を覆した反則級パター【CROSSPUTT】",
+   "reward": "購入5％ EPC",
+   "self": false,
+   "point": false,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000018024005",
+   "name": "多種多様なゴルフ用品を買取しています！【ゴルフ買取アローズ】",
+   "reward": "新規買取成立1300円 EPC",
+   "self": true,
+   "point": false,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000019280005",
+   "name": "日本最大級の中古ゴルフウェア通販サイト『ストスト』",
+   "reward": "新規購入6％ EPC",
+   "self": false,
+   "point": true,
+   "listing": "リスティングNG"
+  },
+  {
+   "id": "s00000013178018",
+   "name": "【全国対応/宅配買取】ゴルフ用品買取【ＪＵＳＴＹ】",
+   "reward": "買取成立1500円 EPC",
+   "self": true,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000020048001",
+   "name": "【BEYOND】芸能人ご用達！パーソナルジム・プライベートジムなら",
+   "reward": "新規入会26000円 EPC",
+   "self": false,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000017957001",
+   "name": "【ビーコンセプト 太ももダイエット】女性向け下半身痩せパーソナルジム",
+   "reward": "新規入会25000円 EPC",
+   "self": false,
+   "point": false,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000017294002",
+   "name": "少し贅沢な大人のプライベートジムMMM（トリプルエム）",
+   "reward": "新規体験受講4000円 新規入会20000円",
+   "self": false,
+   "point": false,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000017294001",
+   "name": "2か月後よりも、2年後の理想のために…プライベートジム【MIOSTILE】",
+   "reward": "新規来店3776円 新規入会18882円",
+   "self": false,
+   "point": false,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000026001001",
+   "name": "※地域最安値更新中※ パーソナルジム『サスティナ』",
+   "reward": "新規入会10000円 EPC",
+   "self": false,
+   "point": false,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000015695001",
+   "name": "結果にコミット プライベートジム【RIZAP】入会申込み",
+   "reward": "新規来店30000円 キャンペーン",
+   "self": false,
+   "point": false,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000017294003",
+   "name": "パーソナルジム初！ダイエットしながらバストアップ出来るパーソナルジム！MMM（トリプルエム）",
+   "reward": "新規体験受講4000円 新規入会20000円",
+   "self": false,
+   "point": false,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000025694001",
+   "name": "人生が好転していくパーソナルジム THE PERSONAL GYM",
+   "reward": "新規入会27000円 EPC",
+   "self": false,
+   "point": false,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000014225015",
+   "name": "【シーボディ】「ミネラルバスパウダーアロマセット」身体の芯までしっかり温める発汗入浴剤",
+   "reward": "新規購入1000円 EPC",
+   "self": false,
+   "point": false,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000012993002",
+   "name": "レゴブロックがいっぱいの屋内体験型施設【レゴランドオンライン】予約促進",
+   "reward": "チケット購入6％ EPC",
+   "self": true,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000019409001",
+   "name": "大切な人へ贈りたい、様々なテーマの体験ギフト【ソウ・エクスペリエンス】",
+   "reward": "購入7％ EPC",
+   "self": true,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000023131001",
+   "name": "百貨店初のサブスク型ファッションレンタルサービス【AnotherADdress】",
+   "reward": "新規有料会員登録2307円 EPC",
+   "self": false,
+   "point": false,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000019447001",
+   "name": "スカパー!新規加入",
+   "reward": "新規有料契約3620円 Wチャンス",
+   "self": true,
+   "point": false,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000027222001",
+   "name": "コスパ×デザインで注目急上昇！BTOゲーミングPC【OZ GAMING】",
+   "reward": "購入3％ EPC",
+   "self": false,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000016565007",
+   "name": "安心と信頼の国産VPNが固定IPで利用可能【MillenVPN専用サーバー】",
+   "reward": "新規申込100円 新規契約10000円",
+   "self": false,
+   "point": true,
+   "listing": "リスティングNG"
+  },
+  {
+   "id": "s00000001004012",
+   "name": "「セカイVPN」でネット検閲や地理的規制を一時的に回避！無料Wi-Fiでのセキュリティも確保",
+   "reward": "契約1000円(セカイVPN) 契約1000円(マイIP)",
+   "self": false,
+   "point": true,
+   "listing": "リスティングNG"
+  },
+  {
+   "id": "s00000022942001",
+   "name": "スマホ・パソコン1つでいつでもオンラインで学べる【ヴィノテラス ワインスクール】",
+   "reward": "購入5％ 講座申込5％",
+   "self": false,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000005174001",
+   "name": "【最大70%割引】雑誌のオンライン書店「Fujisan.co.jp」紹介",
+   "reward": "購入5％ EPC",
+   "self": true,
+   "point": true,
+   "listing": "リスティングNG"
+  },
+  {
+   "id": "s00000015623001",
+   "name": "オーディオブック配信サービス【audiobook.jp（オーディオブックジェイピー）】",
+   "reward": "購入10％ 聴き放題プラン300円",
+   "self": true,
+   "point": false,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000000842023",
+   "name": "国内最大級の品揃え！【DMMブックス】",
+   "reward": "新規購入1200円 EPC",
+   "self": false,
+   "point": false,
+   "listing": "リスティングNG"
+  },
+  {
+   "id": "s00000017598001",
+   "name": "amazonギフト券等の電子ギフト券個人売買サイト【amaten(アマテン)】",
+   "reward": "新規購入1000円 新規出品1000円",
+   "self": false,
+   "point": false,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000027553001",
+   "name": "楽天ポイントが貯まる！音楽を聴くだけでお得なサブスク【楽天ミュージック】",
+   "reward": "新規有料プラン入会500円 EPC",
+   "self": true,
+   "point": false,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000013027001",
+   "name": "働くママ・パパからの味評価No１獲得！安心の手作り惣菜【わんまいる】",
+   "reward": "購入5000円(健幸ディナー・美食弁当の定期お届けセット) 購入（税抜）3％（上記以外の商品）",
+   "self": false,
+   "point": false,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000000488028",
+   "name": "主菜・副菜の2品が20分で完成！献立キット【Ｋｉｔ Ｏｉｓｉｘ】",
+   "reward": "新規購入１０００円 EPC",
+   "self": true,
+   "point": false,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000000488017",
+   "name": "Ｏｉｓｉｘおためしセット販売",
+   "reward": "購入1000円 EPC",
+   "self": true,
+   "point": false,
+   "listing": "リスティングNG"
+  },
+  {
+   "id": "s00000009132012",
+   "name": "おためしセット販売【らでぃっしゅぼーや】",
+   "reward": "初回購入1140円 EPC",
+   "self": false,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000008115002",
+   "name": "<夕食.net> 冷凍弁当「シンプルミール」初回50%OFF ※一部エリアのサービスです",
+   "reward": "新規購入1000円 EPC",
+   "self": true,
+   "point": false,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000008115003",
+   "name": "★YOSHIKEI★7コースから選べるミールキットお試し5days＼全国で好評発売中／",
+   "reward": "新規購入1100円 EPC",
+   "self": true,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000008115001",
+   "name": "<夕食.net> 日替わりメニュー初回50%OFF ※一部エリアのサービスとなります",
+   "reward": "新規購入1000円 EPC",
+   "self": false,
+   "point": false,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000024962001",
+   "name": "【モグモ】累計300万食突破！幼児向け冷凍宅食サービス",
+   "reward": "新規購入2500円 EPC",
+   "self": false,
+   "point": false,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000024360001",
+   "name": "冷蔵のお惣菜をご自宅へお届け、働くパパ・ママへ宅配食サービス【シェフの無添つくりおき】",
+   "reward": "新規購入7000円 EPC",
+   "self": false,
+   "point": false,
+   "listing": "リスティングNG"
+  },
+  {
+   "id": "s00000021681001",
+   "name": "水素水ウォーターサーバーのアクアバンク",
+   "reward": "新規ウォーターサーバー設置9500円 EPC",
+   "self": false,
+   "point": true,
+   "listing": "リスティングNG"
+  },
+  {
+   "id": "s00000023526001",
+   "name": "業界最安値のウォーターサーバー【富士おいしい水】",
+   "reward": "新規ウォーターサーバー設置8000円 EPC",
+   "self": false,
+   "point": false,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000021288005",
+   "name": "定額飲み放題のウォーターサーバー【アクアバンク】",
+   "reward": "新規契約8500円 EPC",
+   "self": true,
+   "point": true,
+   "listing": "リスティングNG"
+  },
+  {
+   "id": "s00000010789007",
+   "name": "【CM放映中】浄水型ウォーターサーバー「every frecious（エブリィフレシャス）」",
+   "reward": "新規ウォーターサーバー設置5000円 EPC",
+   "self": true,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000021058001",
+   "name": "全国対応！水道直結型の【楽水ウォーターサーバー】Purest設置台数No1",
+   "reward": "新規サーバー設置13500円 EPC",
+   "self": false,
+   "point": false,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000007476001",
+   "name": "天然水ウォーターサーバー・宅配水なら【公式】オーケンウォーター",
+   "reward": "新規定期申込11000円 EPC",
+   "self": false,
+   "point": false,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000023645001",
+   "name": "ボトル型とまったく違う新しい浄水型サーバー",
+   "reward": "新規ウォーターサーバー設置5000円 EPC",
+   "self": false,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000025052001",
+   "name": "累計445万セット販売！毎年完売グルメ杵屋のおせち料理【ときめく！お取り寄せ】",
+   "reward": "購入（税抜）5％ 商品別成果情報はこちら",
+   "self": true,
+   "point": true,
+   "listing": "リスティング一部OK"
+  },
+  {
+   "id": "s00000009319002",
+   "name": "顧客満足度約94％！【匠本舗】どんどん売れる＜料亭おせち＞",
+   "reward": "購入12％（その他） 購入16％（日本ばし「大増」監修七段重 七蕾亀粋）",
+   "self": true,
+   "point": true,
+   "listing": "リスティング一部OK"
+  }
+ ]
+}

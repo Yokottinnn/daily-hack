@@ -1,0 +1,220 @@
+{
+  "_note": "識別目的で使うロゴ。**商標であり自由ライセンスではない。**取得日 2026-09-20（ops/tasks/t127-resort-ikea-logos.sh）。",
+  "ikea": [
+    {
+      "brand": "IKEA",
+      "file": "ikea-1.png",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Self-serve_aisle_in_IKEA_Torp_Uddevalla_-_Cinematic_edit.jpg/960px-Self-serve_aisle_in_IKEA_Torp_Uddevalla_-_Cinematic_edit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File%3ASelf-serve_aisle_in_IKEA_Torp_Uddevalla_-_Cinematic_edit.jpg",
+      "license_note": "CC BY 4.0",
+      "width": 960,
+      "height": 1334
+    },
+    {
+      "brand": "IKEA",
+      "file": "ikea-2.png",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Ikea_logo_no_detalhe.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "page": "https://commons.wikimedia.org/wiki/File%3AIkea_logo_no_detalhe.JPG",
+      "license_note": "CC BY-SA 3.0",
+      "width": 308,
+      "height": 105
+    }
+  ],
+  "clubmed": [
+    {
+      "brand": "クラブメッド",
+      "file": "clubmed-1.png",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Club_Med_logo.svg/960px-Club_Med_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File%3AClub_Med_logo.svg",
+      "license_note": "Public domain",
+      "width": 960,
+      "height": 188
+    },
+    {
+      "brand": "クラブメッド",
+      "file": "clubmed-2.png",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/F.C._K%C3%B8benhavn_Fan_Club_Logo_Construction_Sheet.svg/960px-F.C._K%C3%B8benhavn_Fan_Club_Logo_Construction_Sheet.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File%3AF.C._K%C3%B8benhavn_Fan_Club_Logo_Construction_Sheet.svg",
+      "license_note": "CC BY-SA 3.0",
+      "width": 960,
+      "height": 960
+    }
+  ],
+  "pullman": [
+    {
+      "brand": "Pullman",
+      "file": "pullman-1.png",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Pullman_Logo_2013.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "page": "https://commons.wikimedia.org/wiki/File%3APullman_Logo_2013.png",
+      "license_note": "Public domain",
+      "width": 500,
+      "height": 82
+    },
+    {
+      "brand": "Pullman",
+      "file": "pullman-2.png",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Pullman_logo_2013.svg/960px-Pullman_logo_2013.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File%3APullman_logo_2013.svg",
+      "license_note": "Public domain",
+      "width": 960,
+      "height": 159
+    }
+  ],
+  "vinpearl": [
+    {
+      "brand": "Vinpearl",
+      "file": "vinpearl-1.png",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/9/90/Vinpearl_Land.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "page": "https://commons.wikimedia.org/wiki/File%3AVinpearl_Land.jpg",
+      "license_note": "CC BY-SA 4.0",
+      "width": 275,
+      "height": 183
+    }
+  ],
+  "ayana": [
+    {
+      "brand": "AYANA Resort Bali",
+      "file": "ayana-1.png",
+      "source": "https://www.ayana.com/img/bali/logo_white_x2_00091.png",
+      "page": "https://www.ayana.com/ja/bali/",
+      "license_note": "公式サイトのロゴ画像（商標）",
+      "width": 312,
+      "height": 164
+    }
+  ],
+  "amiana": [
+    {
+      "brand": "Amiana Resort Nha Trang",
+      "file": "amiana-1.png",
+      "source": "https://amianaresortsandhotels.com/wp-content/uploads/2025/11/white-logo-amiana.png",
+      "page": "https://amianaresortsandhotels.com/",
+      "license_note": "公式サイトのロゴ画像（商標）",
+      "width": 800,
+      "height": 522
+    },
+    {
+      "brand": "Amiana Resort Nha Trang",
+      "file": "amiana-2.png",
+      "source": "https://amianaresortsandhotels.com/wp-content/uploads/2024/05/cropped-favicon-32x32-1-180x180.png",
+      "page": "https://amianaresortsandhotels.com/",
+      "license_note": "公式サイトのロゴ画像（商標）",
+      "width": 180,
+      "height": 180
+    }
+  ],
+  "beresort": [
+    {
+      "brand": "BE Resort Mactan",
+      "file": "beresort-1.png",
+      "source": "https://beresortmactan.com/wp-content/uploads/2019/11/favicon.png",
+      "page": "https://beresortmactan.com/",
+      "license_note": "公式サイトのロゴ画像（商標）",
+      "width": 236,
+      "height": 236
+    }
+  ],
+  "orchid": [
+    {
+      "brand": "Phuket Orchid Resort",
+      "file": "orchid-1.png",
+      "source": "https://www.katagroup.com/orchid/wp-content/uploads/sites/2/2026/06/Phuket-Orchid-Resort-and-Spa-LOGO-without-katagroup.webp",
+      "page": "https://www.katagroup.com/orchid/",
+      "license_note": "公式サイトのロゴ画像（商標）",
+      "width": 951,
+      "height": 511
+    },
+    {
+      "brand": "Phuket Orchid Resort",
+      "file": "orchid-2.png",
+      "source": "https://www.katagroup.com/orchid/wp-content/uploads/sites/2/2026/02/logo-travelifegold.webp",
+      "page": "https://www.katagroup.com/orchid/",
+      "license_note": "公式サイトのロゴ画像（商標）",
+      "width": 256,
+      "height": 240
+    },
+    {
+      "brand": "Phuket Orchid Resort",
+      "file": "orchid-3.png",
+      "source": "https://www.katagroup.com/orchid/wp-content/uploads/sites/2/2026/02/logo-brand-star.png",
+      "page": "https://www.katagroup.com/orchid/",
+      "license_note": "公式サイトのロゴ画像（商標）",
+      "width": 450,
+      "height": 240
+    },
+    {
+      "brand": "Phuket Orchid Resort",
+      "file": "orchid-4.png",
+      "source": "https://www.katagroup.com/orchid/wp-content/uploads/sites/2/2026/02/logo-gmp.png",
+      "page": "https://www.katagroup.com/orchid/",
+      "license_note": "公式サイトのロゴ画像（商標）",
+      "width": 192,
+      "height": 192
+    }
+  ],
+  "alacarte": [
+    {
+      "brand": "À La Carte Da Nang Beach",
+      "file": "alacarte-1.png",
+      "source": "https://alacartedanangbeach.com/wp-content/uploads/2023/09/Alacarte-Da-Nang-logo.png",
+      "page": "https://alacartedanangbeach.com/en/",
+      "license_note": "公式サイトのロゴ画像（商標）",
+      "width": 387,
+      "height": 97
+    },
+    {
+      "brand": "À La Carte Da Nang Beach",
+      "file": "alacarte-2.png",
+      "source": "https://alacartedanangbeach.com/wp-content/uploads/2023/09/Alacarte-Da-Nang-logo-W.png",
+      "page": "https://alacartedanangbeach.com/en/",
+      "license_note": "公式サイトのロゴ画像（商標）",
+      "width": 387,
+      "height": 97
+    },
+    {
+      "brand": "À La Carte Da Nang Beach",
+      "file": "alacarte-3.png",
+      "source": "https://alacartedanangbeach.com/wp-content/uploads/2023/10/logo-fish-W-2-150x150.png",
+      "page": "https://alacartedanangbeach.com/en/",
+      "license_note": "公式サイトのロゴ画像（商標）",
+      "width": 150,
+      "height": 150
+    },
+    {
+      "brand": "À La Carte Da Nang Beach",
+      "file": "alacarte-4.png",
+      "source": "https://alacartedanangbeach.com/wp-content/uploads/2023/10/LOGO-TOP-W-e1697425308349-150x150.png",
+      "page": "https://alacartedanangbeach.com/en/",
+      "license_note": "公式サイトのロゴ画像（商標）",
+      "width": 150,
+      "height": 150
+    }
+  ],
+  "pullmandn": [
+    {
+      "brand": "Pullman Danang Beach",
+      "file": "pullmandn-1.svg",
+      "source": "https://www.pullman-danang.com/wp-content/themes/pullman-template/images/logo/logo-pullman.svg",
+      "page": "https://www.pullman-danang.com/",
+      "license_note": "公式サイトのロゴ画像（商標）",
+      "format": "svg"
+    },
+    {
+      "brand": "Pullman Danang Beach",
+      "file": "pullmandn-2.png",
+      "source": "https://www.pullman-danang.com/wp-content/uploads/sites/86/2021/07/logoSaleNoti-Copy.png",
+      "page": "https://www.pullman-danang.com/",
+      "license_note": "公式サイトのロゴ画像（商標）",
+      "width": 200,
+      "height": 76
+    },
+    {
+      "brand": "Pullman Danang Beach",
+      "file": "pullmandn-3.png",
+      "source": "https://www.pullman-danang.com/wp-content/themes/pullman-template/images/favicon/apple-touch-icon-180x180.png",
+      "page": "https://www.pullman-danang.com/",
+      "license_note": "公式サイトのロゴ画像（商標）",
+      "width": 180,
+      "height": 180
+    }
+  ]
+}

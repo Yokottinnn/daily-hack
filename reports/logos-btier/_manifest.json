@@ -1,0 +1,137 @@
+{
+  "_note": "識別目的で使うロゴ。**商標であり自由ライセンスではない。**取得日 2026-09-20（ops/tasks/t128-logos-btier.sh）。",
+  "paypay": [
+    {
+      "brand": "PayPay",
+      "file": "paypay-1.png",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/PayPay_Securities_logo.jpg/960px-PayPay_Securities_logo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File%3APayPay_Securities_logo.jpg",
+      "license_note": "Public domain",
+      "width": 960,
+      "height": 960
+    },
+    {
+      "brand": "PayPay",
+      "file": "paypay-2.png",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Google_Pay_Logo.svg/960px-Google_Pay_Logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File%3AGoogle_Pay_Logo.svg",
+      "license_note": "Public domain",
+      "width": 960,
+      "height": 360
+    }
+  ],
+  "amazon": [
+    {
+      "brand": "Amazon.co.jp",
+      "file": "amazon-1.png",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/1/16/Amazon_Prime_logo_%282023%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "page": "https://commons.wikimedia.org/wiki/File%3AAmazon_Prime_logo_%282023%29.png",
+      "license_note": "Public domain",
+      "width": 685,
+      "height": 169
+    },
+    {
+      "brand": "Amazon.co.jp",
+      "file": "amazon-2.png",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Amazon_Music_%28Logo%29.svg/960px-Amazon_Music_%28Logo%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File%3AAmazon_Music_%28Logo%29.svg",
+      "license_note": "Public domain",
+      "width": 960,
+      "height": 192
+    }
+  ],
+  "rakutenec": [
+    {
+      "brand": "楽天市場",
+      "file": "rakutenec-1.png",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Ichiba-web-header-logo.svg/960px-Ichiba-web-header-logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File%3AIchiba-web-header-logo.svg",
+      "license_note": "Public domain",
+      "width": 960,
+      "height": 153
+    },
+    {
+      "brand": "楽天市場",
+      "file": "rakutenec-2.png",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Ichiba-web-service-ichiba-twoline.svg/960px-Ichiba-web-service-ichiba-twoline.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File%3AIchiba-web-service-ichiba-twoline.svg",
+      "license_note": "Public domain",
+      "width": 960,
+      "height": 519
+    }
+  ],
+  "sbisec": [
+    {
+      "brand": "SBI証券",
+      "file": "sbisec-1.png",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/d/d1/SBI_Securities_Logo%282024%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "page": "https://commons.wikimedia.org/wiki/File%3ASBI_Securities_Logo%282024%29.png",
+      "license_note": "Public domain",
+      "width": 186,
+      "height": 50
+    },
+    {
+      "brand": "SBI証券",
+      "file": "sbisec-2.png",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/SBI_SECURITIES_Logo.svg/960px-SBI_SECURITIES_Logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File%3ASBI_SECURITIES_Logo.svg",
+      "license_note": "Public domain",
+      "width": 960,
+      "height": 559
+    }
+  ],
+  "rakutenpay": [
+    {
+      "brand": "楽天ペイ",
+      "file": "rakutenpay-1.svg",
+      "source": "https://finance.jp.rakuten-static.com/rpay/img/2/common/logo-pay-header.svg",
+      "page": "https://pay.rakuten.co.jp/",
+      "license_note": "公式サイトのロゴ画像（商標）",
+      "format": "svg"
+    },
+    {
+      "brand": "楽天ペイ",
+      "file": "rakutenpay-2.svg",
+      "source": "https://finance.jp.rakuten-static.com/rpay/img/2/common/logo-pay.svg",
+      "page": "https://pay.rakuten.co.jp/",
+      "license_note": "公式サイトのロゴ画像（商標）",
+      "format": "svg"
+    },
+    {
+      "brand": "楽天ペイ",
+      "file": "rakutenpay-3.png",
+      "source": "https://finance.jp.rakuten-static.com/rpay/img/1/common/shop/shop_logos_pc.png",
+      "page": "https://pay.rakuten.co.jp/",
+      "license_note": "公式サイトのロゴ画像（商標）",
+      "width": 940,
+      "height": 520
+    },
+    {
+      "brand": "楽天ペイ",
+      "file": "rakutenpay-4.svg",
+      "source": "https://finance.jp.rakuten-static.com/rpay/img/2/common/logo-edy.svg",
+      "page": "https://pay.rakuten.co.jp/",
+      "license_note": "公式サイトのロゴ画像（商標）",
+      "format": "svg"
+    }
+  ],
+  "rakutensec": [
+    {
+      "brand": "楽天証券",
+      "file": "rakutensec-1.svg",
+      "source": "https://www.rakuten-sec.co.jp/web/shared/img/logo_pc.svg",
+      "page": "https://www.rakuten-sec.co.jp/",
+      "license_note": "公式サイトのロゴ画像（商標）",
+      "format": "svg"
+    },
+    {
+      "brand": "楽天証券",
+      "file": "rakutensec-2.png",
+      "source": "https://www.rakuten-sec.co.jp/smartphone/img/securities.png",
+      "page": "https://www.rakuten-sec.co.jp/",
+      "license_note": "公式サイトのロゴ画像（商標）",
+      "width": 192,
+      "height": 192
+    }
+  ]
+}
