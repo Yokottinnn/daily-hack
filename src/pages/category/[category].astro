@@ -254,30 +254,31 @@ for (const p of sorted) {
     <section>
       <div class="wrap">
         <RankingsShowcase groups={rankingGroups as any} />
-        <details class="rk-quick">
-        <summary><h2 id="quick">ランキングの1位 早見表（表で見る）</h2></summary>
-        <p style="font-size: 12px; color: var(--ink-3);">数字は各記事に書いた公式の数字。出どころは右端の列</p>
-        {rankingGroups.map((g) => (
-          <div class="rk-group">
-            <h3>{g.name}</h3>
-            <div class="cmp-table-wrap">
-              <table class="cmp-table prose-table rk-table">
-                <thead><tr><th>ランキング</th><th>1位</th><th>数字</th><th>出どころ</th></tr></thead>
-                <tbody>
-                  {g.items.map((it) => (
-                    <tr>
-                      <td><a href={`/posts/${it.slug}/`}>{it.topic}</a></td>
-                      <td><strong>{it.first}</strong></td>
-                      <td>{it.value}</td>
-                      <td>{it.source}</td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
+        {/* 2026-11-15 下書きコメント「これだけたたんであってページ全体から浮いている／ファーストビューのようにキャッチーに」: 畳むのをやめ、表紙の帯と同じ調子の 1 位カードにした */}
+        <section class="rkq" id="quick">
+          <div class="rkq-head">
+            <p class="rkq-kicker">1位だけ、まとめて一気見</p>
+            <h2>ランキングの1位 早見表</h2>
+            <p class="rkq-sub">{rankingGroups.reduce((n, g) => n + g.items.length, 0)} のランキングの1位と数字。出どころは各カードの下</p>
           </div>
-        ))}
-        </details>
+          {rankingGroups.map((g) => (
+            <div class="rkq-group">
+              <h3>{g.name}</h3>
+              <ul class="rkq-grid">
+                {g.items.map((it) => (
+                  <li>
+                    <a href={`/posts/${it.slug}/`}>
+                      <span class="t">{it.topic}</span>
+                      <span class="w"><span class="crown" aria-hidden="true">👑</span><strong>{it.first}</strong></span>
+                      <span class="v">{it.value}</span>
+                      <span class="s">出どころ：{it.source}</span>
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </section>
       </div>
     </section>
   )}
@@ -392,12 +393,20 @@ for (const p of sorted) {
   .wangan-areas a { display: block; padding: 12px 14px; border: 1px solid var(--pink-200); border-radius: 12px; background: var(--pink-50); }
   .wangan-areas span { color: var(--ink-3); font-size: 12px; }
   .wangan-areas small { display: block; color: var(--ink-2); font-size: 12px; margin-top: 4px; }
-  .rk-quick { margin: 34px 0 0; background: var(--paper, #fff); border: 1px solid var(--line, #eee); border-radius: 14px; padding: 6px 16px; }
-  .rk-quick > summary { cursor: pointer; list-style: none; }
-  .rk-quick > summary h2 { display: inline; font-size: 17px; }
-  .rk-quick > summary::after { content: " ▼"; font-size: 12px; color: var(--ink-3); }
-  .rk-quick[open] > summary::after { content: " ▲"; }
-  .rk-group { margin: 0 0 18px; }
-  .rk-group h3 { font-size: 15px; margin: 0 0 8px; }
+  .rkq { margin: 56px 0 0; padding: 26px 24px 24px; border-radius: 20px; scroll-margin-top: 80px;
+    background: radial-gradient(circle at 85% 0%, #fff7c2 0, transparent 40%), repeating-conic-gradient(from 0deg at 85% -10%, #ffd84d 0 6deg, #ffe683 6deg 12deg); }
+  .rkq-kicker { margin: 0; font-size: 13px; font-weight: 700; color: #8a5a00; letter-spacing: .06em; }
+  .rkq-head h2 { margin: 4px 0 4px; font-size: clamp(24px, 4vw, 32px); font-weight: 900; color: #2b1d00; }
+  .rkq-sub { margin: 0 0 14px; font-size: 13px; color: #5a4300; }
+  .rkq-group h3 { display: inline-block; margin: 14px 0 8px; padding: 2px 12px; font-size: 13px; color: #fff; background: #2b1d00; border-radius: 99px; }
+  .rkq-grid { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(210px, 1fr)); gap: 10px; }
+  .rkq-grid a { display: grid; gap: 2px; height: 100%; padding: 12px 14px; background: #fff; border-radius: 14px; color: inherit; text-decoration: none; box-shadow: 0 3px 0 rgba(138, 90, 0, .25); transition: transform .15s; }
+  .rkq-grid a:hover { transform: translateY(-3px); }
+  .rkq-grid .t { font-size: 12px; color: #6d6775; line-height: 1.45; }
+  .rkq-grid .w { display: flex; align-items: center; gap: 6px; font-size: 18px; line-height: 1.3; color: #1f1c24; }
+  .rkq-grid .crown { font-size: 20px; }
+  .rkq-grid .v { font-size: 20px; font-weight: 900; color: #c2366c; line-height: 1.2; }
+  .rkq-grid .s { margin-top: 4px; font-size: 11px; color: #9a94a2; }
+  @media (max-width: 600px) { .rkq { padding: 20px 16px 18px; } .rkq-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; } .rkq-grid a { padding: 10px; } .rkq-grid .w { font-size: 15px; } .rkq-grid .v { font-size: 16px; } }
   .rk-table td a { font-weight: 700; border-bottom: 1px dotted var(--pink-300); }
 </style>
