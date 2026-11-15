@@ -145,7 +145,7 @@ Phase 10 用に `scripts/upload-image.js` を別途実装予定。OpenClaw が�
    - サイトURL: https://daily-hack.fieldbeside.com
    - 法人名: 合同会社FieldBeside
    - 担当者: 横田直紀
-   - 連絡先: n-yokota@fieldbeside.com
+   - 連絡先: info@fieldbeside.com
 3. 審査開始（数営業日〜2週間）
 
 ### 14.3 Google AdSense / Amazonアソシエイト 申請

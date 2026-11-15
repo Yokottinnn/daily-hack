@@ -18,7 +18,7 @@ Usage:
 import json, sys, os, re, urllib.parse, urllib.request, pathlib, argparse
 
 API = "https://commons.wikimedia.org/w/api.php"
-UA = "DailyHackBot/1.0 (https://daily-hack.fieldbeside.com; n-yokota@fieldbeside.com)"
+UA = "DailyHackBot/1.0 (https://daily-hack.fieldbeside.com; info@fieldbeside.com)"
 
 # 再利用しづらいライセンスは弾く
 BAD_LIC = re.compile(r"non[- ]?free|fair use|all rights reserved", re.I)
