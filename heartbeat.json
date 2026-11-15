@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-15T22:10:47Z",
+  "generated_at": "2026-11-15T22:40:58Z",
   "login_lock": {"present": false, "age_hours": 0},
   "cdp": {"healthy": true, "port": 18810},
   "x_jobs": {"loaded": 8, "expected": 8, "ai_total": 16, "halted": false, "missing": []},
-  "last_reply": {"at": "2026-11-15T20:24:49.054Z", "age_hours": 1, "stale": false},
+  "last_reply": {"at": "2026-11-15T20:24:49.054Z", "age_hours": 2, "stale": false},
   "supervisor": {"at":"2026-11-15T20:12:08Z","date_jst":"2026-11-16","ran":4,"total":9,"not_run":["comment-warmup","competitor-follower-follow","hashtag-follow","badge-followback","mutual-prune"],"fixed":[]},
   "followback_bands": {"with_count":678,"total_rows":1059,"bands":{"1000-4999":{"n":227,"back":34,"mature":223,"mature_back":34,"rate":15.2},"300-999":{"n":173,"back":21,"mature":170,"mature_back":21,"rate":12.4},"0-99":{"n":120,"back":18,"mature":119,"mature_back":18,"rate":15.1},"5000-49999":{"n":116,"back":7,"mature":113,"mature_back":7,"rate":6.2},"100-299":{"n":39,"back":8,"mature":38,"mature_back":8,"rate":21.1},"50000-up":{"n":3,"back":1,"mature":3,"mature_back":1,"rate":33.3}},"status_values":{"unfollowed":772,"revenge_ghost_already_unfollowed":84,"yes_late":20,"yes":119,"no":61,"pending":3},"note":"mature の率で見る"},
   "host": "NaokinoMBP-2",
