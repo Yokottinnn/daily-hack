@@ -1,3 +1,3 @@
 [
-      {"task": "x505-isetan-matsukiyo-logos.sh", "rc": 0, "out": "    logo-matsukiyo-2.jpg  578 bytes  224x48 ← https://www.matsukiyococokara-online.com/store/static/version1022045555/frontend/Mccm/MainTheme/ja_JP/img/common/logo_matsukiyococokara01_logomark01_b     logo-matsukiyo-3.jpg  488 bytes  180x180 ← https://www.matsukiyococokara-online.com/store/media"}
+      {"task": "x506-matsukiyo-logo-shot.sh", "rc": 0, "out": "    logo-matsukiyo-2.png  400x42 ← https://www.matsukiyococokara.com/common/images/footer_logo.png - matsukiyoonline: ロゴの候補 158 個 ← https://www.matsukiyococokara-online.com/store/     logo-matsukiyoonline-1.png  224x48 ← https://www.matsukiyococokara-online.com/store/static/version"}
   ]
