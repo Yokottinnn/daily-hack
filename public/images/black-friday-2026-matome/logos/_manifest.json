@@ -391,5 +391,13 @@
   "lic": "商標（識別目的）",
   "fetched": "2026-11-15",
   "via": "公式サイト（x503）"
+ },
+ "isetan.png": {
+  "brand": "三越伊勢丹オンラインストア",
+  "src": "https://seamless.mistore.jp/on/demandware.static/-/Sites-seamless-Library/ja_JP/dw401f1aa1/content/images/mistore_logo.png",
+  "page": "https://www.mistore.jp/shopping",
+  "lic": "商標（識別目的）・余白だけ落とした",
+  "fetched": "2026-11-15",
+  "via": "公式サイト（x505）"
  }
 }
