@@ -4,7 +4,7 @@ description: "豊洲市場で2026年11月に開かれるイベントを日付順
 publishDate: 2026-11-05
 category: ["wangan-life"]
 tags: ["湾岸ニュース", "豊洲", "豊洲市場", "魚がし横丁", "イベント", "無料", "2026年"]
-isPR: false
+isPR: true
 draft: false
 eyecatchUrl: "/images/toyosu-market-november-events-2026/eyecatch.jpg"
 eyecatchAlt: "豊洲市場の魚がし横丁で、うおがし銘茶などの店を回るツアーの参加者"
@@ -54,6 +54,16 @@ references: ["https://central-wholesale-market-pr.com/tanoshimu/202611-eventlist
   </a>
 </div>
 <span class="event-picks-credit">カード画像：東京都中央卸売市場「いちばの広場ナビ」より。</span>
+
+<div class="callout info">
+<p class="head">行く前に決めること｜チケット・泊まる・食べる</p>
+<p style="margin:0">朝の市場の催しに合わせて前の晩から豊洲に泊まる人や、そのまま豊洲で遊ぶ人向け。</p>
+<ul style="margin:6px 0 0">
+<li><b>チケット・体験</b>：<a href="https://www.asoview.com/" target="_blank" rel="nofollow sponsored noopener">アソビュー！</a>（PR）・<a href="https://www.jalan.net/activity/" target="_blank" rel="nofollow sponsored noopener">じゃらん 遊び・体験予約</a>（PR）で、東京の体験や施設のチケットを日付で探せる</li>
+<li><b>近くに泊まる</b>：<a href="https://www.jalan.net/" target="_blank" rel="nofollow sponsored noopener">じゃらん</a>（PR）・<a href="https://www.ikyu.com/" target="_blank" rel="nofollow sponsored noopener">一休.com</a>（PR）で、豊洲・有明のホテルを日付で比べられる</li>
+<li><b>食事の予約</b>：<a href="https://px.a8.net/svt/ejp?a8mat=4BGAV3+EMWNX6+1OK+NV1XD" target="_blank" rel="nofollow sponsored noopener">一休.com レストラン</a>（PR）・<a href="https://hitosara.com/" target="_blank" rel="nofollow sponsored noopener">ヒトサラ</a>（PR）で、豊洲・銀座の店を席だけ先に押さえられる</li>
+</ul>
+</div>
 
 ## 11月のイベント一覧｜日付順
 

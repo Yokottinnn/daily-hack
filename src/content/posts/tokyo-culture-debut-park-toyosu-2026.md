@@ -53,6 +53,16 @@ references: ["https://tokyo-culture-debut.rekibun.or.jp/news/714/", "https://tok
 </div>
 <span class="event-picks-credit">カード画像：TOKYOカルチャーデビュー公式サイトより。</span>
 
+<div class="callout info">
+<p class="head">行く前に決めること｜チケット・泊まる・食べる</p>
+<p style="margin:0">豊洲公園のまわりで、ほかの体験や食事もまとめて予定を立てるなら。</p>
+<ul style="margin:6px 0 0">
+<li><b>チケット・体験</b>：<a href="https://www.asoview.com/" target="_blank" rel="nofollow sponsored noopener">アソビュー！</a>（PR）・<a href="https://www.jalan.net/activity/" target="_blank" rel="nofollow sponsored noopener">じゃらん 遊び・体験予約</a>（PR）で、東京の体験や施設のチケットを日付で探せる</li>
+<li><b>近くに泊まる</b>：<a href="https://www.jalan.net/" target="_blank" rel="nofollow sponsored noopener">じゃらん</a>（PR）・<a href="https://www.ikyu.com/" target="_blank" rel="nofollow sponsored noopener">一休.com</a>（PR）で、豊洲・有明のホテルを日付で比べられる</li>
+<li><b>食事の予約</b>：<a href="https://px.a8.net/svt/ejp?a8mat=4BGAV3+EMWNX6+1OK+NV1XD" target="_blank" rel="nofollow sponsored noopener">一休.com レストラン</a>（PR）・<a href="https://hitosara.com/" target="_blank" rel="nofollow sponsored noopener">ヒトサラ</a>（PR）で、豊洲・銀座の店を席だけ先に押さえられる</li>
+</ul>
+</div>
+
 ## 日時と場所｜2026年11月14日（土）・15日（日）、豊洲公園
 
 <div class="cmp-table-wrap">
