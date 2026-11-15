@@ -399,5 +399,13 @@
   "lic": "商標（識別目的）・余白だけ落とした",
   "fetched": "2026-11-15",
   "via": "公式サイト（x505）"
+ },
+ "matsukiyo.png": {
+  "brand": "マツキヨココカラ（オンラインストア）",
+  "src": "https://www.matsukiyococokara-online.com/store/static/version1022045555/frontend/Mccm/MainTheme/ja_JP/img/common/logo_matsukiyococokara01_logomark01_b…",
+  "page": "https://www.matsukiyococokara-online.com/store/",
+  "lic": "商標（識別目的）",
+  "fetched": "2026-11-15",
+  "via": "公式サイトのページに表示されたロゴの要素を撮った（x506。画像の URL は Access Denied）"
  }
 }
