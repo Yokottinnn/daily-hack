@@ -17,7 +17,6 @@ references: ["https://event.rakuten.co.jp/furusato/", "https://event.rakuten.co.
 でも、差は残っている。**手持ちのポイントで払えるか、決済側の還元、サイト独自のサービス。** だからアタシが、主要6サイトの公式ページを読み直して、その3つで並べた。
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">先に一番の驚きを言っとく。<strong>ANAのふるさと納税はサイト側の「マイル積算サービス」を終了した。なのにANA公式は12月に「ANA Payを使えば寄付額200円ごとに1マイル」と案内してる。</strong>サイトがあげられなくなった分を、<strong>払い方の側</strong>が引き受けてるの。選ぶ基準は「どのサイトか」より「何で払うか」に移ったわ。</div>
 </div>
 
@@ -279,6 +278,5 @@ ANAのふるさと納税にも、同じ日付で「<strong>マイル積算サー
 **還元の率・上限・期間はキャンペーンで変わる。** 寄付の前に、使うサイトと決済サービスの公式で最新を確認すること。
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-01-wave.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">選び方は3段でいい。<strong>①貯めてるポイントで払えるサイト（楽天・au PAY・ANA）→ ②払い方の還元（決済側のキャンペーン）→ ③欲しい返礼品があるか。</strong>サイトのポイント競争は終わったけど、考えることが減ったわけじゃないのよ。</div>
 </div>

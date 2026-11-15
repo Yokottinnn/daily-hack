@@ -20,7 +20,6 @@ parentPillar: summer-travel-timesale-2026
 > 📌 [2026年夏の旅行タイムセール完全攻略](/posts/summer-travel-timesale-2026/) と合わせて読むと、JR・じゃらん・ANA/JAL系のパッケージまでカバーできるよ。
 
 <div class="hakkako-says">
-<img src="/images/expr-05-smug.png" alt="ハッカー子" />
 <p>結論からいくと、夏旅のコスパは「<strong>サイト選び × 経済圏マッチ × 早割平日</strong>」で決まる。同じ宿でもサイトで価格が変わるし、PayPay・楽天・dポイントどの陣営かで実質還元率が10〜30%動く。アタシのおすすめは <strong>サイトを 2 つ併用</strong> して同条件で見積もり、安い方をベース＋経済圏ポイントで仕上げる戦法。</p>
 </div>
 
@@ -105,7 +104,6 @@ parentPillar: summer-travel-timesale-2026
 | **じゃらん** | △ 限定 | 一部自治体の「じゃらん宿泊クーポン」のみ、 d ポイントとの併用に制限 |
 
 <div class="hakkako-says">
-<img src="/images/expr-05-smug.png" alt="ハッカー子" />
 <p>結論からいくと、ふるさと納税で旅行代を浮かしたいなら <strong>一休のふるさと納税が圧倒的に強い</strong>。対応宿が約 3,500 施設と最広、サマ割と組み合わせやすい。楽天は既に楽天ふるさと納税ユーザーなら有利だけど、Yahoo!とじゃらんは対応宿が少ないから補助的な位置。アタシのおすすめは <strong>一休ふるさと納税で1泊 + サマ割で1泊</strong> の二段攻撃。</p>
 </div>
 

@@ -20,7 +20,6 @@ references: ["https://www.ana.co.jp/travelandlife/article/001953/", "https://www
 このページでは、トリマ・ANA Pocket・JAL Wellness & Travel・dヘルスケア・楽天ヘルスケアの主要5アプリを、<strong>「実際に1か月でいくら稼げたか」</strong>という実績ベースで横断比較する。月額課金が要るもの・無料で完結するもの、貯まるのが現金系か・マイルか・経済圏ポイントか──全部ひっくるめて「**コスパで一番お得な移動ポイ活**」をハッキリさせる。
 
 <div class="hakkako-says">
-<img src="/images/expr-05-smug.png" alt="ハッカー子" />
 <p>先に結論だけ言っとくね。<strong>「現金・ギフト券が欲しい人はトリマ」「マイル貯めてる人はANA PocketかJAL」「楽天/ドコモ経済圏の人は楽天ヘルスケア・dヘルスケアを“無料で”」</strong>。移動ポイ活は1本に絞らず<strong>無料アプリを2〜3個併用</strong>するのが最強コスパ。理由は最後まで読めば全部わかる。</p>
 </div>
 
@@ -70,7 +69,6 @@ references: ["https://www.ana.co.jp/travelandlife/article/001953/", "https://www
 | <span class="cell-brand"><img class="brand-logo-sm" src="/images/move-to-earn-poikatsu-apps-2026/logos/rakutenhealth.png" alt="" loading="lazy" /><strong><a href="https://healthcare.rakuten.co.jp/" target="_blank" rel="noopener nofollow">楽天ヘルスケア</a></strong></span> | 月100〜150ポイント | 約100〜150円 | 0円 | **+100〜150円** |
 
 <div class="hakkako-says">
-<img src="/images/expr-07-gasp.png" alt="ハッカー子" />
 <p>数字で並べると一気に見えてくるでしょ。<strong>「歩いて1か月◯万円！」みたいな宣伝はほぼ盛ってる</strong>。現実は移動量がよほど多くて月1,000〜2,000円が良いところ。でもね、<strong>無料アプリを複数併用すれば「何もしなくても勝手に月1,500円前後」</strong>は十分狙える。どうせ歩くんだから、これは拾わなきゃ損。</p>
 </div>
 
@@ -264,7 +262,6 @@ references: ["https://www.ana.co.jp/travelandlife/article/001953/", "https://www
 この3本立てで、<strong>「いつもの移動のまま、月1,500〜3,000円分」</strong>が無理なく狙える。歩数チャレンジ系は同じ歩数を複数アプリにカウントできるので、**併用ペナルティが基本ない**のがミソ。
 
 <div class="hakkako-says">
-<img src="/images/expr-09-arms-crossed.png" alt="ハッカー子" />
 <p>逆に言うと、<strong>「JALに課金したのに月3,000歩しか歩かない」みたいなのは即赤字</strong>。課金型（JAL・ANA Pro）は“自分が本当に歩く・移動する人か”を1か月の無料体験で見極めてから。アタシは中央区晴海から銀座・豊洲をよく歩くから、課金型でもしっかり元が取れてる。</p>
 </div>
 
@@ -368,7 +365,6 @@ references: ["https://www.ana.co.jp/travelandlife/article/001953/", "https://www
 4. **最強コスパは**「無料アプリ2〜3本の併用」 — 同じ歩数を多重カウントできるので、いつもの移動のまま月1,500〜3,000円分が狙える
 
 <div class="hakkako-says">
-<img src="/images/expr-04-cheer.png" alt="ハッカー子" />
 <p>移動ポイ活は「一発で大儲け」じゃなくて、<strong>「どうせ動く分を取りこぼさない」ゲーム</strong>。無料アプリを入れて起動しとくだけで、1年で2〜3万円分。それでカフェ代が浮くと思えば悪くないでしょ？まずはトリマ＋経済圏アプリの無料コンビから始めてみて。あんたの移動、ちゃんとお金に変えていこ。</p>
 </div>
 

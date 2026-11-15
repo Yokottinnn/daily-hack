@@ -25,7 +25,6 @@ references: ["https://www.newoman.jp/takanawa/floorguide/detail/?scd=003014", "h
 **次の「026」は3026年。文字どおり千年に一度**で、開業をこの年に寄せる理由になる。
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">先に一番の驚きを言っとく。<strong>17施設のうち、男性専用（または基本男性専用）が9。女性がそのまま入れるのは8。</strong>過半数が男性専用よ。「2026年はサウナが熱い」って記事はいくらでもあるけど、<strong>この内訳を出してるところ、アタシは見たことない。</strong></div>
 </div>
 
@@ -169,7 +168,6 @@ references: ["https://www.newoman.jp/takanawa/floorguide/detail/?scd=003014", "h
 <h2 id="女性が入れるサウナ">女性が入れるサウナはどれか｜首都圏17施設のうち8軒</h2>
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-02-pout.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">新店ニュースを見て「行こう」と思った女性が、公式サイトを開いて初めて男性専用だと知る——これ、2026年の首都圏の新店では<strong>ほぼ2回に1回</strong>起きるってこと。だから先にこの表を置いとく。</div>
 </div>
 
@@ -845,6 +843,5 @@ references: ["https://www.newoman.jp/takanawa/floorguide/detail/?scd=003014", "h
 </aside>
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-01-wave.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">「新店が多い」で終わらせず、<strong>17施設・料金・駅・男女</strong>まで落とすと見えてくるものがある。東京に6割、男性専用と男女がちょうど半々、7月に5施設。次に自分が行く1軒を決めるのは、雰囲気じゃなくてこの表よ。</div>
 </div>

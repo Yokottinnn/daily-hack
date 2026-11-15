@@ -19,7 +19,6 @@ references: ["https://prtimes.jp/main/html/rd/p/000000203.000078856.html"]
 だからアタシがまとめた。土台は<strong>株式会社トモズのプレスリリース</strong>。変わったところと、営業時間を並べたわよ。
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">先に一番大事なことを言っとく。<strong>ペット用品が晴海トリトンの中で買えるようになった</strong>。それと、<strong>物販は21:00まで、調剤は19:00まで</strong>。時間がちがうから気をつけて。</div>
 </div>
 

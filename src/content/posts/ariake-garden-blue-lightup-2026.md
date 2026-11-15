@@ -28,7 +28,6 @@ references: ["https://ariake.shopping-sumitomo-rd.com/event/5337/", "https://www
 だからアタシがまとめた。土台は**有明ガーデンの公式のイベントページ**。いつ・どこが・何をするのかを並べたわよ。
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">先に一番大事なことを言っとく。<strong>青く光るのは2026年11月9日（月）の1晩だけ</strong>（予定）。期間の11月7日〜14日のうち、ほかの日は<strong>館内の画面に映像を流すだけ</strong>なのよ。</div>
 </div>
 

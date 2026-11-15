@@ -24,7 +24,6 @@ references:
 「月額が安いからこのサブスクにした」ってドヤ顔してる人。アタシ、はっきり言うけどあんたバカぁ？ 動画サブスクの本当のコスパは月額じゃ測れないのよ。**月額 ÷ その月に観た本数 = 実質1本単価**。これが全て。月990円でも2本しか観なきゃ1本495円。レンタル屋で借りた方が安いじゃない。今日はこの「実質1本単価」っていう物差しで、人気6社をぶった斬っていくわよ 😏
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">先に結論を置いとくわね。<strong>「観る本数」で最適サービスは逆転する</strong>のよ。月3本のライト層と月20本のヘビー層が同じサービス選んでたら、どっちかが確実に損してる。理由は下で全部教えてあげる。</div>
 </div>
 
@@ -154,7 +153,6 @@ references:
 </ul>
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-04-cheer.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">サブスクの固定費は「ポイ活」の主戦場でもあるの。決済を高還元カードに寄せるだけで実質単価がさらに下がる。やってない人は <a href="/posts/credit-card-no-annual-fee-comparison-2026/">クレカ比較記事</a> も読んでおきなさい。</div>
 </div>
 

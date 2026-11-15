@@ -27,7 +27,6 @@ references: ["https://prtimes.jp/main/html/rd/p/000001215.000007339.html", "http
 <p class="source-note">この記事の日程・料金は2026年10月26日に確かめたもの。</p>
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">先に一番の驚きを言っとく。<strong>勝どきからなら大江戸線で1駅</strong>。豊洲からでも月島で乗り換えて3駅よ。しかも<strong>2026年12月24日までの1か月だけ</strong>。豊洲のチームラボみたいに「いつでも行ける」と思ってると逃すわよ。</div>
 </div>
 
@@ -300,6 +299,5 @@ references: ["https://prtimes.jp/main/html/rd/p/000001215.000007339.html", "http
 <p class="source-note">表紙と作品の写真はチームラボのプレスリリースより（一部は合成画像・過去の展示写真）。出典：<a href="https://prtimes.jp/main/html/rd/p/000001215.000007339.html" target="_blank" rel="noopener">チームラボ「『チームラボ 浜離宮』を、東京・浜離宮恩賜庭園で開催」（PR TIMES・2026年10月23日）</a>／<a href="https://www.teamlab.art/jp/e/hamarikyu/" target="_blank" rel="noopener">チームラボ 浜離宮 公式サイト</a>。内容は変わることがある。出かける前に公式サイトで確かめて。</p>
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-01-wave.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">勝どきから<strong>1駅、2,500円、2026年12月24日まで</strong>。豊洲のチームラボはまだ1年以上あるんだから、今年の冬は浜離宮を先に押さえなさい。</div>
 </div>

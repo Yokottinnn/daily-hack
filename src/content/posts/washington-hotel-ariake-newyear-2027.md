@@ -28,7 +28,6 @@ references: ["https://prtimes.jp/main/html/rd/p/000001240.000001368.html", "http
 だからアタシがまとめた。土台は<strong>藤田観光株式会社のプレスリリース</strong>。時間・対象・もらえる物を並べたわよ。
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">先に一番大事なことを言っとく。<strong>参加できるのは宿泊者だけ</strong>。1月1日にチェックインかチェックアウトする人と、その日ホテルに泊まっている人よ。<strong>6種の遊びを全部回ると、大人はトートバッグ、子どもはスクイーズ</strong>がもらえる（数に限りあり）。</div>
 </div>
 
@@ -207,6 +206,5 @@ references: ["https://prtimes.jp/main/html/rd/p/000001240.000001368.html", "http
 <p class="source-note">この記事には広告（成果報酬のリンク）を含む。表紙は藤田観光株式会社のプレスリリースの写真（16:9に切り取った・前回の様子）。出典：<a href="https://prtimes.jp/main/html/rd/p/000001240.000001368.html" target="_blank" rel="noopener">藤田観光株式会社のプレスリリース（2026年11月5日）</a>。</p>
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-01-wave.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">元日に有明で泊まるなら、<strong>チェックアウトの前に10時から3階へ</strong>。お酒を飲まない子どもも、昔遊びでスクイーズがもらえるわよ。</div>
 </div>

@@ -19,7 +19,6 @@ references: ["https://prtimes.jp/main/html/rd/p/000002723.000005889.html", "http
 だからアタシがまとめた。土台は<strong>楽天グループのプレスリリースと、キャンペーンの公式ページ</strong>。届く場所・料金・クーポンの使い方を並べたわよ。
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">先に一番大事なことを言っとく。配送料は<strong>1回100円</strong>。クーポンは<strong>毎週金曜10時に配り直し</strong>で、4回ぜんぶ使えば<strong>最大1,700円引き</strong>。ただし<strong>先着250〜350枚</strong>だから、金曜の朝に取っておくこと。</div>
 </div>
 
@@ -188,6 +187,5 @@ references: ["https://prtimes.jp/main/html/rd/p/000002723.000005889.html", "http
 <p class="source-note">表紙は楽天グループ株式会社のプレスリリースの配送ロボットの写真（16:9に切り取った）。出典：<a href="https://prtimes.jp/main/html/rd/p/000002723.000005889.html" target="_blank" rel="noopener">楽天グループ株式会社のプレスリリース（2026年11月6日）</a>。</p>
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-01-wave.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">配送料100円で、1,500円以上の注文に400〜500円引き。<strong>重い飲み物や日用品をロボットに任せる</strong>には一番安い4週間よ。金曜10時、忘れないでね。</div>
 </div>

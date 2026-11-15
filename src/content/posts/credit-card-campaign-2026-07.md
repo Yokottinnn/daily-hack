@@ -20,7 +20,6 @@ references:
 「入会で最大29,000円相当！」——こういう広告、そのまま信じちゃダメよ。**"最大◯円"は全条件を満たした時の上限値**で、実際にもらえる額は条件次第。今日は2026年7月の主要クレカ入会特典を、<strong>"本当にもらえる額"と"受取の難しさ"</strong>まで忖度なしで並べるわ。狙い方を間違えなければ、数千〜1万円分は堅いわよ 😏
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-09-arms-crossed.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">タイプ別の結論。<strong>①とにかく簡単に確実に＝エポス（入会だけで2,000円相当）②高額狙い＝三井住友NL（利用条件クリアで最大13,000、SBI連携で最大29,000）③無条件で長く得＝楽天(1.0%)・リクルート(1.2%)</strong>。"最大額"より"自分が達成できる条件か"で選ぶのが正解。</div>
 </div>
 
@@ -50,7 +49,6 @@ references:
 
 <div class="compare-cards">
   <article class="compare-card">
-    <span class="compare-card-mascot"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <h3>手間ゼロで確実に</h3>
     <dl>
       <dt>おすすめ</dt><dd><strong>エポスカード</strong></dd>
@@ -58,7 +56,6 @@ references:
     </dl>
   </article>
   <article class="compare-card">
-    <span class="compare-card-mascot"><img src="/images/expr-05-smug.png" alt="" /></span>
     <h3>高額特典を狙う</h3>
     <dl>
       <dt>おすすめ</dt><dd><strong>三井住友カード(NL)</strong></dd>
@@ -66,7 +63,6 @@ references:
     </dl>
   </article>
   <article class="compare-card">
-    <span class="compare-card-mascot"><img src="/images/expr-03-bashful.png" alt="" /></span>
     <h3>無条件で長く得</h3>
     <dl>
       <dt>おすすめ</dt><dd><strong>楽天(1.0%)／リクルート(1.2%)</strong></dd>
@@ -76,7 +72,6 @@ references:
 </div>
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">狙い方のコツ。<strong>入会特典は"一度きりのボーナス"、通常還元は"一生効く差"</strong>。だから特典額だけで飛びつかず、"メインで使い続けるか"も込みで選ぶこと。特典目当ての複数申込は、短期に何枚も申し込むと審査に響くから月1枚ペースが安全よ。</div>
 </div>
 
@@ -109,7 +104,6 @@ references:
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">三井住友カード ゴールド (NL) 100万年修行完了！<br>届くだろうとは思っていたけど、たった5ヶ月で達成できました…えっ、今年出費多い／(^o^)＼</p>&mdash; honeplus (@honeplus) <a href="https://twitter.com/honeplus/status/2081284861025988907">2026年7月26日</a></blockquote>
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-09-arms-crossed.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">この「5ヶ月で達成」って声がまさにポイント。<strong>固定費・税金・日常決済をこのカードに寄せれば、年100万円は意外と早く届く</strong>のよ。一度達成すれば翌年から年会費ゼロで持てるから、"1年目だけ頑張る"のがコツ。ただし無駄遣いして修行するのは本末転倒だからね。</div>
 </div>
 
@@ -124,7 +118,6 @@ references:
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">JCBカードの入会キャンペーン正直甘く見てましたが、条件が比較的簡単なわりにもらえる額大きくていいですね！<br>今回作ったJCBカードWだと最大24,000円分もらえるらしいですが、<br>そのうち12,000円はスマホでタッチ決済、QUICPayなどを使うだけで20%キャッシュバック 上限6万円利用まで<br>8,000円分はマックやスタバなど還元率アップするお店での利用が+10% ポイント これは少し難しいですが上限8万利用まで<br>ポイントアップ加盟店なら全て対象のようなので、電車のタッチ決済利用分は通常分含め20%ポイント還元になるし、Amazonも対象になりそうなので上限達成は容易そうです。<br>最後の家族カード4,000円分は事情によっては難しいですが、それでも最大20,000円分カードの決済だけで達成できます。<br>他社だと銀行も一緒に作るとか証券も含めるとかいろいろ上限入れてきて若干ズルい感がありますが、JCBはカード利用だけのキャンペーン額を出してくれるのは好感触ですし、金額も結構高いので、クレカの入会キャンペーンの中ではかなり上位に入りそうな気がします。</p>&mdash; ロク@JGCマイラー ブログ (@roku_mile) <a href="https://twitter.com/roku_mile/status/2055929129493758253">2026年5月16日</a></blockquote>
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">この人の言う<strong>「銀行や証券まで作らせる他社と違い、JCBはカード利用だけの金額を出す」</strong>って視点が鋭いの。JCB Wは<strong>「40歳になる前に作れるか」が全て</strong>＝39歳以下しか新規入会できないから、対象年齢なら作っておく価値あり。20%CBは"スマホ決済"限定＝Apple Pay/Google Payに登録して使うのを忘れずに（ブラウザ払いは対象外）。</div>
 </div>
 
@@ -137,7 +130,6 @@ references:
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">エポスカードのIR。会員の半数弱にゴールドカード招待して、その内の半分がゴールド化、1/3がメインカード化って発明なんじゃなかろうか</p>&mdash; 8maki (@8maki) <a href="https://twitter.com/8maki/status/2080898255895007700">2026年7月25日</a></blockquote>
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-04-cheer.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">この視点が鋭いの。エポスは<strong>「まず無料で入会→使ってゴールド招待を待つ→招待ゴールドは年会費永年無料」</strong>という育て方が王道。いきなり高額特典を狙うより、"確実な2,000円＋将来の無料ゴールド"を取りにいくのが賢い。初めての1枚にも向いてるわ。</div>
 </div>
 
@@ -150,7 +142,6 @@ references:
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">【楽天JCBカードに新規入会すると...】<br><br>7/13(月)10:00～8/10(月)10:00の間<br>楽天JCBカードに新規入会&amp;3回利用いただくと<br><br> 8,000ポイント<br> もらえます!!<br><br>年会費永年無料！<br>この機会につくってみませんか？<br>詳細はこちら</p>&mdash; JCBブランド【公式】 (@JCB_BRAND) <a href="https://twitter.com/JCB_BRAND/status/2076501982416982495">2026年7月13日</a></blockquote>
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-04-cheer.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">楽天カードは<strong>「迷ったらまず持つ」王道の無料カード</strong>。8,000ポイントは"新規入会＋数回利用"で狙える手軽さだし、楽天経済圏を使う人なら通常還元だけでも十分に元が取れる。ブランドはVisa/Mastercard/JCB/Amexから選べる（この8,000pt告知はJCBブランド分）。派手な"最大額"より、<strong>確実にもらって長く得する</strong>タイプよ。</div>
 </div>
 
@@ -163,7 +154,6 @@ references:
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">新しいクレカ調べてたけど、Olive Infinite最強すぎないか？5,000万分、SBI証券と三井住友銀行にいれておけば、NISA 6%還元で外貨4%還元でカード年会費タダ！年間700万利用で追加で11万Vポイント貰えるらしい。とりあえず1枚作るか。</p>&mdash; Ash (@ashita01x) <a href="https://twitter.com/ashita01x/status/2080190253227548924">2026年7月20日</a></blockquote>
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-09-arms-crossed.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">この「最強すぎないか」って熱量が、まさに"注目度"そのもの。ただ投稿にもある通り、<strong>Infiniteは三井住友銀行＋SBI証券にまとまった資産（投稿では5,000万円規模）を置く前提の"上級者向け"</strong>。※正確な条件は必ず公式で確認してね。庶民は同じ三井住友でも<strong>ゴールド(NL)や通常グレードで十分</strong>よ。"最大額"に憧れて条件を見ずに飛びつくと、まさに本記事の「最大◯円の罠」にハマる——自分の資産・生活に合うグレードを選ぶのが正解。</div>
 </div>
 

@@ -15,7 +15,6 @@ author: "hacker-ko"
 アタシは中央区晴海に住んでるから毎年この時期は歩き回ってるんだけど、正直「知ってれば行ったのに」で終わってる人が多すぎる。だから**8月後半からでもまだ間に合うものだけ**を、料金の裏取り込みで全部並べた。有料のものは、割引の有無や当日券の値段まで書いてある。
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">先に結論。<strong>この夏いちばんコスパがいいのは「とよす夏祭り」と「豊洲公園の野外映画・ジャズ」。全部タダよ。</strong>屋台代だけ持って行けば1日遊べる。有料イベントに何千円も払う前に、まずこっちを埋めなさい。</div>
 </div>
 
@@ -351,7 +350,6 @@ author: "hacker-ko"
 </ul>
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-01-wave.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">湾岸の8月は<strong>「知ってるかどうか」だけで体験の量が10倍変わる</strong>。屋台代の数千円で、盆踊りも野外映画もジャズも全部行ける。アタシは全部歩いて回れる距離に住んでるけど、電車賃払ってでも来る価値はあると思ってる。あんたに足りないのはお金じゃなくて<strong>スケジュール表</strong>よ。この記事をブックマークして、次の週末から動きなさい。</div>
 </div>
 

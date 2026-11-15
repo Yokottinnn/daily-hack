@@ -16,7 +16,6 @@ isPR: true
 だからアタシが作った。**三井不動産が決算資料で公開している店舗別売上**を軸に、**ららぽーとの売上ランキングを全20施設ぶん**並べる。あわせて**面積ランキング・店舗数ランキング・地域別**も用意した。さらに**売上を面積で割った売上効率ランキング**を作った。**この順位はどこにも出ていない**。おまけに前年の資料と突き合わせて、**どこが伸びてどこが落ちたか**まで出した。この差分はどこにも載ってない。
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">先に一番の驚きを言っとく。<strong>売上トップは「ららぽーと」じゃない。</strong>ラゾーナ川崎プラザの990億円で、これは全国のショッピングセンターで3位。ららぽーとの最大手TOKYO-BAYですら790億で、まだ200億の差があるのよ。</div>
 </div>
 
@@ -506,7 +505,6 @@ North Gate 3階のフードコートは約1,400席。ららぽーとTOKYO-BAY全
 </div>
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">面白いのは<strong>海老名</strong>。面積は18位なのに店舗数は5位で、1店あたり約208㎡＝全施設でいちばん詰まってる。逆に<strong>甲子園</strong>は面積11位で店舗数20位、1店あたり約400㎡。同じ「ららぽーと」でもテナントの入れ方がまるで違うのよ。</div>
 </div>
 
@@ -1567,7 +1565,6 @@ TOKYO-BAYの**2.1倍**。この表の最下位（愛知東郷 46.0万円）と�
 </aside>
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-01-wave.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">ららぽーとは<strong>「近所のモール」じゃなくて、日本の商業のど真ん中</strong>よ。全国SC上位10のうち4つが三井の施設で、そこに毎年何百億が動いてる。次に行くとき、この数字を頭に入れて歩いてごらん。フードコートの席数も、キッズパークの位置も、全部意味があって置かれてるのが見えるから。</div>
 </div>
 

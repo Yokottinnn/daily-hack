@@ -19,7 +19,6 @@ references: ["https://www.ktr.mlit.go.jp/kawakoku/kawakoku00475.html", "https://
 だからアタシがまとめた。土台は<strong>川崎国道事務所の案内と、江東区のお知らせ</strong>。止まる時間と、行き先ごとの回り方を並べたわよ。
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">先に一番大事なことを言っとく。<strong>止まるのは土曜の夜24時から日曜の朝5時まで</strong>。国道357号は<strong>まっすぐ走るのと左折はできる</strong>。困るのは<strong>右折と、豊洲⇔有明ふ頭の南北の行き来</strong>よ。</div>
 </div>
 
@@ -174,6 +173,5 @@ references: ["https://www.ktr.mlit.go.jp/kawakoku/kawakoku00475.html", "https://
 <p class="source-note">表紙と図は国土交通省 関東地方整備局 川崎国道事務所の案内チラシ（表紙は全体が入るよう16:9に収めた）。出典：<a href="https://www.ktr.mlit.go.jp/kawakoku/kawakoku00475.html" target="_blank" rel="noopener">川崎国道事務所「令和８年１０月３１日、１１月１４日の夜間通行止めについて」</a>（2026年11月1日）。</p>
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-01-wave.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">土曜の夜に車で有明を通るなら、<strong>右折しない道を先に決めておく</strong>こと。カーナビが古い道を案内しても、交差点の手前で慌てずに済むわ。</div>
 </div>

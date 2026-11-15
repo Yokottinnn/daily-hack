@@ -31,7 +31,6 @@ references:
 だからアタシが作った。土台は**IKEA公式の配送・受取り・組立てのページ**と、**タイムズカー・三井のカーシェアーズ・EARTHCARの公式料金表**。定番の本棚 BILLY、シェルフ KALLAX、2人掛けソファ KLIPPAN の3点を例に、どっちがいくら安いかを計算した。
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">先に一番の驚きを言っとく。<strong>本棚BILLYを1本運ぶなら、配送4,500円に対してカーシェアは2,700円。</strong>差は1,800円。ところが<strong>シェルフKALLAXだと差は300円しかない。</strong>KALLAXは「コンパクトな大型商品」の安い配送枠に入るから。<strong>何を買うかで、答えがひっくり返る</strong>の。</div>
 </div>
 
@@ -411,7 +410,6 @@ IKEA の配送無料のキャンペーンと、おすすめの品を紹介した
 </div>
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-01-wave.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">「配送は高いからカーシェア」も「カーシェアは面倒だから配送」も、<strong>どっちも半分しか合ってない。</strong>KALLAXなら配送、本棚やソファを土日に運ぶならカーシェア。<strong>箱の長さと受け取る曜日</strong>、この2つを見てから決めなさい。年に何回かしか乗らないなら、月額0円のカーシェアを1つ持っておくと、次の大物のときに迷わずに済むわよ。</div>
 </div>
 

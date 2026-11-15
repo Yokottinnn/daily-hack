@@ -28,7 +28,6 @@ references: ["https://prtimes.jp/main/html/rd/p/000000020.000026467.html", "http
 だからアタシがまとめた。土台は**ニードのプレスリリース**。クイズラリーとアイデアラボの中身、料金、日程を並べたわよ。
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">先に一番大事なことを言っとく。<strong>クイズラリーはスマホだけで、いつでも無料</strong>。<strong>19スポットを全部回ると、佃島のオリジナルアイテムがもらえる</strong>わ（先着順）。月島でもんじゃを食べたついでに、歩いて数分よ。</div>
 </div>
 

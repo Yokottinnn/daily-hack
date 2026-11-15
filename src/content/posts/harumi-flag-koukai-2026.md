@@ -21,7 +21,6 @@ references:
 五輪選手村の跡地に生まれた総戸数5,632戸の巨大な新しい街。安さと広さで話題になった一方、駅遠・交通・転売…といった"現実"も語られてる。今日は**買う前・住む前に知っておくべき論点**を、報道と実際のXの声を突き合わせて、忖度なしで整理してあげる。脅すためじゃない、**自分に合うかを見極めるため**よ 😏
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-09-arms-crossed.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">先に核心。<strong>晴海フラッグの"後悔"の大半は「交通（駅遠・BRT依存）」の理解不足から来てる</strong>の。逆に言えば、<strong>通勤が新橋・銀座方面でBRTが効く人や在宅ワーク中心なら、広さも価格も破格</strong>。「みんなが後悔してるか」じゃなく「自分の生活動線に合うか」で判断しなさい。※以下のネガティブ論点は報道・個人の声を含み、断定ではないわ。</div>
 </div>
 
@@ -83,7 +82,6 @@ references:
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">うるせぇなと思ったし、移動しようにもバスが実際に遅れて目的地到着の時間も狂ったし、ルート変更か停留所一部スキップかなにかのアナウンスも車内に流れてたし、マジでくっだらねぇと思ったよ。<br><br>有明周辺やそのエリアの遅延が影響する近隣住民、みんなネガティブ感情しか持たないイベントだぞ。</p>&mdash; まる@𝑯𝑨𝑹𝑼𝑴𝑰 (@mmss58ss) <a href="https://twitter.com/mmss58ss/status/2050911682743177550">2026年5月3日</a></blockquote>
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-06-shock.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">これは"バス中心の街"の宿命ね。イベント時や悪天候で読みが狂うことはある。<strong>「毎朝、電車の時刻どおりに動きたい」人ほどストレスになりやすい</strong>から、内見のときは<strong>実際の通勤時間帯にBRT・バスを試す</strong>のが鉄則よ。</div>
 </div>
 
@@ -121,7 +119,6 @@ references:
 
 <div class="compare-cards">
   <article class="compare-card recommended">
-    <span class="compare-card-mascot"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <h3>広さと（当初の）価格</h3>
     <dl>
       <dt>専有面積</dt><dd>2LDK 約62㎡〜4LDK 約152㎡と広め</dd>
@@ -129,7 +126,6 @@ references:
     </dl>
   </article>
   <article class="compare-card">
-    <span class="compare-card-mascot"><img src="/images/expr-05-smug.png" alt="" /></span>
     <h3>海辺・公園・新しい街</h3>
     <dl>
       <dt>環境</dt><dd>プロムナード・晴海ふ頭公園、商業施設「ららテラス HARUMI FLAG」</dd>
@@ -137,7 +133,6 @@ references:
     </dl>
   </article>
   <article class="compare-card">
-    <span class="compare-card-mascot"><img src="/images/expr-03-bashful.png" alt="" /></span>
     <h3>子育て環境</h3>
     <dl>
       <dt>学校</dt><dd>晴海西小・中が2024年開校（人工芝校庭）</dd>
@@ -165,7 +160,6 @@ references:
 
 <div class="compare-cards">
   <article class="compare-card recommended">
-    <span class="compare-card-mascot"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <h3>✅ 向いてる人</h3>
     <dl>
       <dt>通勤</dt><dd>新橋・虎ノ門・銀座方面でBRT直通が効く／在宅ワーク中心</dd>
@@ -174,7 +168,6 @@ references:
     </dl>
   </article>
   <article class="compare-card">
-    <span class="compare-card-mascot"><img src="/images/expr-02-pout.png" alt="" /></span>
     <h3>⚠️ 向いてない人</h3>
     <dl>
       <dt>通勤</dt><dd>毎日の電車通勤で"駅近・駅直結"が絶対</dd>

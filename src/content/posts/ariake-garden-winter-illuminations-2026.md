@@ -27,7 +27,6 @@ references:
 だからアタシがまとめた。土台は**有明ガーデンの公式サイトのイベントページ**。日付と時間は公式の表記どおりに並べたわよ。
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">先に一番大事なことを言っとく。<strong>点灯は2026年10月31日（土）から2027年2月28日（日）まで</strong>。<strong>12月と1月だけ16時から</strong>点くから、暗くなるのが早い季節は夕方に寄れるのよ。</div>
 </div>
 
@@ -208,6 +207,5 @@ YouTube には、去年までの有明ガーデンの冬の夜を歩いて撮っ
 <p class="source-note">表紙は有明ガーデンの公式の告知画像。出典：<a href="https://ariake.shopping-sumitomo-rd.com/event/4900/" target="_blank" rel="noopener">有明ガーデン「ARIAKE GARDEN Winter Illuminations」</a>（2026年10月25日に確認）。</p>
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-01-wave.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">2026年10月31日から2027年2月28日まで。<strong>12月と1月は16時から</strong>点くから、夕方に寄って屋上のドームで1枚撮っていきなさい。</div>
 </div>

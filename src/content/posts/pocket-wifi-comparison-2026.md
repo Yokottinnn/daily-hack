@@ -26,7 +26,6 @@ references:
 だからアタシが作った。**6社の公式サイトに載っている料金表だけ**を使って、**月10GB・20GB・50GB・100GBの4通り**で2年総額を出し直した。さらに**1GBあたりの単価**と、**6か月・12か月・24か月で解約したときに払う総額**まで全部計算してある。
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">先に一番の驚きを言っとく。<strong>月20GBなら、2年でいちばん安いのは「月額0円の買い切り」のリチャージWiFiで37,915円。</strong>でも<strong>月100GB使う人が同じものを選ぶと101,535円</strong>まで跳ね上がって、MONSTER MOBILEの2年契約（74,052円）より<strong>27,483円も高くなる</strong>のよ。使う量で1位が丸ごと入れ替わるの。</div>
 </div>
 
@@ -586,7 +585,6 @@ references:
 </aside>
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-01-wave.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">「一番安いポケット型WiFi」なんて、<strong>あんたが月に何GB使うかを言わない限り決まらない</strong>のよ。まずスマホの設定画面で先月のデータ使用量を見なさい。その数字をこの記事の表に当てはめれば、1分で答えが出るから。</div>
 </div>
 

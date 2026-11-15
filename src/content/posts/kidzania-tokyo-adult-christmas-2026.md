@@ -27,7 +27,6 @@ references: ["https://prtimes.jp/main/html/rd/p/000000428.000078157.html", "http
 だからアタシがまとめた。土台は**KCJ GROUP のプレスリリース**と**キッザニア東京の公式ページ**。日程・料金・予約の始まりを並べたわよ。
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">先に一番大事なことを言っとく。<strong>予約は2026年11月9日（月）12:00から、Web の先着順</strong>。<strong>1件4名まで</strong>で、完売したら終わりよ。12月25日の夜にクリスマスパレードに出られるのは、この2日だけ。</div>
 </div>
 

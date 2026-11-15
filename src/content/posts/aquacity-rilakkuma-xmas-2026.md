@@ -17,7 +17,6 @@ references: ["https://prtimes.jp/main/html/rd/p/000000975.000018631.html", "http
 だからアタシがまとめた。土台は**サンエックスのプレスリリース**と**アクアシティお台場の公式ページ**。もらえる物ごとに、条件と先着の枚数を並べ直したわよ。
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">先に一番大事なことを言っとく。<strong>3,000円で2つともはもらえない。</strong>レストランのマーカーは12月3日まで、物販のトートは12月4日から。<strong>期間がきっちり分かれてる</strong>のよ。</div>
 </div>
 
@@ -178,6 +177,5 @@ references: ["https://prtimes.jp/main/html/rd/p/000000975.000018631.html", "http
 <p class="source-note">出典：<a href="https://prtimes.jp/main/html/rd/p/000000975.000018631.html" target="_blank" rel="noopener">サンエックス株式会社「アクアシティお台場がリラックマ一色に！」（PR TIMES・2026年10月23日）</a>／<a href="https://www.aquacity.jp/news/detail.php?id=63939" target="_blank" rel="noopener">アクアシティお台場 特設ページ</a>。内容は変わったり中止になったりすることがある。出かける前に特設ページで確かめて。</p>
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-01-wave.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">タダで持ち帰れるのはステッカー。<strong>3,000円使うなら、12月3日までは食事、4日からは買い物</strong>。これだけ覚えて行きなさい。</div>
 </div>

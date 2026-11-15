@@ -21,7 +21,6 @@ references:
 今日は2026年夏、**円安でも「コスパ」で殴り込める海外ビーチリゾートを8つ**、航空券・ホテル・ベストシーズン・ビザ・治安まで全部つけて総ざらいするわ。Xのリアルな体験談とYouTubeのホテル紹介動画も貼るから、"行った気"になりながら選びなさい 😏
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-04-cheer.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">先に結論。<strong>①狙うは近場アジア（燃油が桁違いに軽い）②「夏が適季」の国と「夏は雨季でも激安」の国を使い分ける③往復は2〜3万円台〜、ホテルは1泊1万円前後が狙える</strong>。円安を言い訳にしない。行き先の選び方ひとつで、南国は今でも十分手が届くわよ。</div>
 </div>
 
@@ -71,7 +70,6 @@ Xでも「円安でも近場アジアは戦える」という声は多いの。�
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">【最新情報】<br>海外リゾートに往復2万円台〜行けちゃう<br><br>・セブ 29,400円<br>・ボラカイ島 39,198円<br>・プーケット 47,567円<br>・バリ島 38,730円<br>・ダナン 30,543円</p>&mdash; シュウ｜航空券アラート (@Shu_inmyshus) <a href="https://twitter.com/Shu_inmyshus/status/1700200783403429960">2023年9月9日</a></blockquote>
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">こういう"往復2万円台〜"は、時期と便を選べば今でも現実的。もちろんお盆ピークは跳ね上がるけど、<strong>ずらせるなら平日・7月頭や9月が狙い目</strong>。片や世界では、フォーシーズンズ・ボラボラの「島まるごと7泊貸切」が約4.6億円なんて話もあるのよ（下の投稿）。同じ"南国"でも、庶民は2万円台で十分幸せになれるってこと 😏</div>
 </div>
 
@@ -280,7 +278,6 @@ Xでは「円安でハワイが遠いならニャチャン」という声が伸�
 航空券が要らないぶん、**同じ予算でも1泊が厚くできる**のが強み。会員プログラムの使い方まで含めた攻略は [大磯プリンス×SPGR完全ガイド](/posts/oiso-prince-spgr-guide-2026/) にまとめてある。
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">国内リゾートのコツは<strong>「オールインクルーシブ×連泊×航空券セット」</strong>。食事もドリンクも込みなら滞在中の追加出費がほぼゼロで、"総額"が読めるからむしろ海外より計算しやすいの。<strong>航空券＋宿のパッケージ（ダイナミックパッケージ）</strong>で取ると単品より安くなりやすいわよ。パスポートを出す元気がない年でも、南国はちゃんと楽しめる 😏</div>
 </div>
 

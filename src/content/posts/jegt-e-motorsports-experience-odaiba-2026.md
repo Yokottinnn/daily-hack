@@ -28,7 +28,6 @@ event:
 だからアタシがまとめた。土台は<strong>JEGTの公式発表と、会場（シティサーキット東京ベイ）の公式の案内</strong>。同じ日のカートの最終戦と、子ども向けの無料走行まで並べたわよ。
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">先に一番大事なことを言っとく。この日は<strong>シミュレーターも、カートのレース観戦も、キッズEVカート（ふだん20分2,000円）も無料</strong>。ただし<strong>開始時刻はまだ「調整中」</strong>。行く前に公式を見直すこと。</div>
 </div>
 
@@ -194,6 +193,5 @@ event:
 <p class="source-note">表紙はJEGT GRAND PRIX公式サイトの告知画像（16:9に切り取った）。出典：<a href="https://www.jegt.jp/news/7846/" target="_blank" rel="noopener">JEGT GRAND PRIX（2026年11月6日）</a>。</p>
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-01-wave.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">シミュレーターでコースを覚えて、外で本物のカートの最終戦を見る。<strong>祝日にお金をかけずに半日遊べる</strong>わ。時間が出たら、また見に来なさい。</div>
 </div>

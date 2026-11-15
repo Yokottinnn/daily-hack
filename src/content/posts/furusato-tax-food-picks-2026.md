@@ -15,7 +15,6 @@ author: "hacker-ko"
 ふるさと納税、上限額は計算した。サイトも決めた。**で、結局なに頼むの？** ここで止まる人が多すぎ。アタシが本気で美味しい食品返礼品15品を、米・肉・海鮮の3カテゴリで厳選してあげる。寄付額・市場価値・配送タイミングまで全部開示するから、もう「どれ選ぶか分からん」は通用しないわよ。
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-04-cheer.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">食品返礼品は<strong>還元率の体感が一番強いカテゴリ</strong>。家電や日用品より「得した感」が桁違いに大きい。あんたの胃袋を満たしながら税金を取り戻す、最強の戦略よ。</div>
 </div>
 

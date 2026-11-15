@@ -30,7 +30,6 @@ event:
 <p class="source-note">この記事の日時・条件は2026年11月8日に公式ページで確かめたもの。予約サイトは2026年12月上旬に公開の予定。</p>
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">先に一番大事なことを言っとく。サンタとの写真は<strong>申込（先着100組ずつ）と、当日3,000円以上の紙のレシート</strong>の両方が要る。午前の回は<strong>12月12日（土）の正午</strong>に受付開始、午後の回は<strong>当日の10時</strong>。電子レシートはダメよ。</div>
 </div>
 
@@ -198,6 +197,5 @@ event:
 <p class="source-note">表紙は有明ガーデン公式サイトの告知画像（16:9に切り取った）。出典：<a href="https://ariake.shopping-sumitomo-rd.com/event/5080/" target="_blank" rel="noopener">有明ガーデン「有明ガーデンクリスマス2026」</a></p>
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-01-wave.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">サンタの写真を狙うなら、<strong>12月12日（土）の正午にスマホの前</strong>。レシート用の買い物はクリスマスの食材やプレゼントで済ませれば、<strong>ムダな出費にならない</strong>わ。</div>
 </div>

@@ -39,7 +39,6 @@ references:
 だからアタシが作った。**各社の公式料金ページとキャンペーン規約**を全部読んで、申請の時期・オプションの条件・工事費の分割まで拾い、**「月額×24カ月＋工事費の実負担−キャッシュバック」の2年総額**で8社を並べ直した。戸建てとマンションは別々にランキングにしてある。2年目で解約したときの**工事費残債と解約金**も1社ずつ出した。
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">先に一番の驚きを言っとく。<strong>戸建ての2年総額1位は、現金キャッシュバックが0円のコミュファ光（92,280円）。</strong>「1年間980円」の月額割引が、どの会社の現金還元よりも効いてる。逆にキャッシュバックの額が大きく見える会社ほど、月額で取り返してるのよ。</div>
 </div>
 
@@ -525,7 +524,6 @@ references:
 </div>
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-01-wave.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">「最大◯万円」の大きな数字を見たら、<strong>受け取る月・やること・途中でやめた時の請求</strong>の3つを確かめなさい。それだけで、還元の額に釣られて2年で何万円も払う失敗はなくなる。申し込んだその日に、受け取りの月をカレンダーに入れておくのよ。</div>
 </div>
 

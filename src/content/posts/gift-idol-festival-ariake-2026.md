@@ -28,7 +28,6 @@ references: ["https://prtimes.jp/main/html/rd/p/000004167.000064643.html", "http
 だからアタシがまとめた。土台は**ABEMA（株式会社AbemaTV）のプレスリリース**。日程・会場・チケット・中継を並べたわよ。
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">先に一番大事なことを言っとく。<strong>2026年11月28日（土）と29日（日）は ABEMA で無料の生中継</strong>があるのよ。しかも<strong>DAY-1に出るグループも含めた全20組</strong>のステージを流す。チケットが無くても家で見られるわ。</div>
 </div>
 

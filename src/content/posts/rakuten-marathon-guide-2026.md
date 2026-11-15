@@ -19,7 +19,6 @@ references:
 「楽天お買い物マラソン、なんとなく参加してるけど…実はポイント取りこぼしてない？」——正直、ルールを知らずに回してる人、めちゃくちゃ多いのよ。**買い回りの上限、期間限定ポイントの失効、そして2025年10月から変わったふるさと納税の扱い**。ここを押さえるだけで戻ってくるポイントが段違い。次回に確実に勝てるよう、通年で使える攻略を叩き込んであげる 😏
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-09-arms-crossed.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">先に核心。<strong>①1ショップ1,000円以上で最大10倍、買い回り特典の上限は7,000pt②必ずエントリー、もらえるのは"期間限定ポイント"で翌月末に失効③5と0のつく日を重ねる④【重要】2025年10月改正でふるさと納税は買い回り・SPUの対象外に</strong>。この4つだけで大半の取りこぼしは防げる。</div>
 </div>
 
@@ -46,7 +45,6 @@ references:
 
 <div class="compare-cards">
   <article class="compare-card">
-    <span class="compare-card-mascot"><img src="/images/expr-05-smug.png" alt="" /></span>
     <h3>SPU</h3>
     <dl>
       <dt>内容</dt><dd>楽天カード/モバイル等の利用で倍率上乗せ（現行最大18倍クラス）</dd>
@@ -54,7 +52,6 @@ references:
     </dl>
   </article>
   <article class="compare-card">
-    <span class="compare-card-mascot"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <h3>5と0のつく日</h3>
     <dl>
       <dt>内容</dt><dd>5・10・15・20・25・30日にエントリー＋楽天カード決済で+3倍(計4倍)</dd>
@@ -62,7 +59,6 @@ references:
     </dl>
   </article>
   <article class="compare-card">
-    <span class="compare-card-mascot"><img src="/images/expr-03-bashful.png" alt="" /></span>
     <h3>勝ったら倍</h3>
     <dl>
       <dt>内容</dt><dd>楽天イーグルス等の勝利翌日に倍率アップ（要事前エントリー）</dd>
@@ -72,7 +68,6 @@ references:
 </div>
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-06-shock.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">【最重要・要注意】<strong>2025年10月の総務省告示改正で、ふるさと納税はポータル側のポイント付与が禁止に</strong>。楽天ふるさと納税は<strong>買い回りの1ショップカウント・買い回りポイント・SPUの対象外</strong>になったの。昔の「マラソンでふるさと納税してポイント荒稼ぎ」はもうできない。ただし<strong>「5と0のつく日」に楽天カードで寄付すればカード側の還元は付く</strong>から、そこが現実的な最適解よ。</div>
 </div>
 
@@ -82,7 +77,6 @@ references:
 
 <div class="compare-cards">
   <article class="compare-card">
-    <span class="compare-card-mascot"><img src="/images/expr-07-gasp.png" alt="" /></span>
     <h3>ポイント面</h3>
     <dl>
       <dt>上限超過</dt><dd>買い回り7,000pt上限。高額購入しても超過分は付かない＝事前に試算</dd>
@@ -91,7 +85,6 @@ references:
     </dl>
   </article>
   <article class="compare-card">
-    <span class="compare-card-mascot"><img src="/images/expr-02-pout.png" alt="" /></span>
     <h3>買い方の面</h3>
     <dl>
       <dt>1,000円未満</dt><dd>送料除く注文額が1,000円未満だとカウント外</dd>
@@ -119,14 +112,12 @@ references:
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">見落としがちな最大の注意点！<br>マラソンで貰える大量ポイントは【期間限定ポイント】だぽ<br>・付与：翌月15日頃<br>・期限：付与された「翌月末」まで（実質1ヶ月半！）<br>せっかく稼いだポイントを失効させたら一番勿体ないから、付与されたら街のドラッグストアや楽天ペイで速攻使い切ろう</p>&mdash; グルメ・防災ぽたぐまちゃん (@potaguma_) <a href="https://twitter.com/potaguma_/status/2083818488075038818">2026年8月2日</a></blockquote>
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">この人が言う通り、<strong>付与は翌月15日頃・期限は付与月の翌月末＝実質1ヶ月半で消える</strong>の。上の本文の通りよ。頑張って買い回りしても<strong>使い忘れたらゼロ</strong>だから、付与されたらドラッグストアや楽天ペイで即消化——これが取りこぼしを防ぐ鉄則ね。</div>
 </div>
 
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">楽天ペイの請求書払いって期間限定ポイント使えなくなったの？<br><br>今日試したけど楽天キャッシュ残高しか使えなかった</p>&mdash; きいポイ活×投資 (@kii_pointpay) <a href="https://twitter.com/kii_pointpay/status/2068896947549913105">2026年6月22日</a></blockquote>
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-06-shock.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">これも大事な"リアル"。<strong>期間限定ポイントは「使える場所」がじわじわ狭められてる</strong>のよ（楽天ペイの請求書払い等で使えない場面も）。だから<strong>「翌月末まで」に、確実に使える先で消化する</strong>のが安全。最新の使い道は楽天公式で要確認だけど、"貯めて忘れる"が一番の損だと覚えておいて。</div>
 </div>
 

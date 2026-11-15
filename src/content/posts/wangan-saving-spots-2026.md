@@ -17,7 +17,6 @@ author: "hacker-ko"
 アタシは中央区晴海在住。豊洲・有明・お台場まで全部チャリで行ける距離に住んで5年以上。観光客向けの「映え情報」じゃなくて、**地元民が毎週使ってる本当に家計をラクにするスポット8選**を、忖度ゼロで教えてあげる。
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-04-cheer.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">先に結論。湾岸エリアは <strong>「無料の絶景公園」「フードコート」「平日ランチ」</strong> の3つを使い倒せば、観光地値段に振り回されずに済むのよ。詳しく教えてあげるから読みなさい。</div>
 </div>
 
@@ -148,7 +147,6 @@ author: "hacker-ko"
 ファミレス・カフェ・専門店レストランで毎週外食すると月3〜5万。フードコート活用に切り替えるだけで**月1.5万円浮く**家庭はざらにある。
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">「子連れだから手抜き感を出したくない」って気持ちはわかる。でも子供が本当に喜ぶのは <strong>「フードコートで自分で席選んで自分でジュース取りに行く」</strong> 体験だったりするわよ。</div>
 </div>
 
@@ -301,7 +299,6 @@ author: "hacker-ko"
 特におすすめは**朝のラーメン店・朝定食専門店**。観光客が来る前の朝6〜9時に行けば、行列も避けられて値段も良心的なメニューが多い。
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-02-pout.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">湾岸エリアって <strong>「住むのは高いけど、遊びは工夫次第でタダ〜激安」</strong> なのよ。観光地値段に振り回されるあんたと地元民モードのアタシで、年間で平気で20〜30万円差がつくの。</div>
 </div>
 

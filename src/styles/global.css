@@ -1519,3 +1519,8 @@ blockquote.twitter-tweet a:hover { color: var(--pink-700); }
 .hakkako-says, .bubble-row, .about-card, .hero .grid, .cat-hero-grid { grid-template-columns: 1fr; }
 .peek-call { padding: 48px 56px; }
 @media (max-width: 760px) { .peek-call { padding: 32px 24px; } }
+
+/* 2026-11-15 利用者「文章に関してはフラットに邪念なしで見せたい」「キャラを大きく主張したデザインは本当にやめて」。
+   記事の Markdown からキャラの画像（expr-*・mascot*）は全部外した（129 記事・370 箇所）。書き戻されても出ないよう、本文とトップの漫画も隠す。 */
+main img[src^="/images/expr-"], main img[src^="/images/mascot"], .comic-band .strip { display: none !important; }
+.comic-band .inner { grid-template-columns: 1fr !important; }

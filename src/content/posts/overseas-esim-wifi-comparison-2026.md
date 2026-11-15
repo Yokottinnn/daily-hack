@@ -32,7 +32,6 @@ references:
 だからアタシが作った。**トリファ・Sakura Mobile・ドコモ・au・ソフトバンク・楽天モバイルの公式料金ページ**を読んで、韓国・台湾・ハワイ・タイの**4泊5日（5日間）の総額と1日あたりの単価**を全部計算した。キャリアの無料枠は**0円の行**として、ちゃんと表に入れてある。
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">先に一番の驚きを言っとく。<strong>いちばん安い選択肢は「何も買わない」で0円。</strong>ドコモ MAX・ahamo は30GB・15日まで、楽天モバイルは月2GBまで、ソフトバンクはハワイが追加料金なし。eSIMを買う前に、自分の契約を確かめなさい。</div>
 </div>
 
@@ -429,7 +428,6 @@ eSIM・ローミング・レンタル WiFi を比べた解説。
 </div>
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-01-wave.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">海外の通信は、<strong>買う前に「今の契約で何GBまで無料か」を見る</strong>のが一番の節約よ。無料枠が無いなら、1人はeSIM、みんなで行くなら海外WiFi。空港で慌ててカウンターに並ぶ前に、この表で決めておきなさい。</div>
 </div>
 

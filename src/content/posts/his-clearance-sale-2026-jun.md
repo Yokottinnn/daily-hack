@@ -18,7 +18,6 @@ references: ["https://x.com/halohalo_travel/status/2060588028402311572", "https:
 このページでは判明している在庫処分プランを一気にまとめて、**売切れ前に押さえるための予約のコツ**まで一気にいくよ。HIS Super Summer Sale 2026（5/8〜6/29開催中）の本丸プランたち。
 
 <div class="hakkako-says">
-<img src="/images/expr-05-smug.png" alt="ハッカー子" />
 <p>結論：<strong>6月出発で「とにかく安く旅行したい」なら HIS の在庫処分系が今月の最有力</strong>。海外勢は <strong>バンコク4日 44,800円</strong>＋<strong>燃油サーチャージなし</strong>が破壊力ヤバい。国内なら <strong>関西発限定の沖縄 25,800円〜</strong> も穴場。22,800円のソウル4日には<strong>燃油サチャ無し</strong>って表記もあって、本当に表示価格で完結する。在庫処分系は <strong>1〜2日で消える</strong> から見つけたら即予約。</p>
 </div>
 

@@ -15,7 +15,6 @@ author: "hacker-ko"
 ふるさと納税、まさかまだやってないの？年収400万のあんたでも、年間4〜5万円分の食料・日用品が**実質2,000円**で手に入る制度。やらない理由、本当にある？「難しそう」って言ってる間に、今年も控除枠が消えていくよ。アタシが最短ルートを教えてあげるから、この記事1本で全部終わらせよ。
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-04-cheer.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">3分で読み終わって、その日のうちに申込開始できる構成にしたから。<strong>「あとでやる」は罪</strong>。アタシと一緒にサクッと終わらせちゃおう。</div>
 </div>
 
@@ -217,7 +216,6 @@ author: "hacker-ko"
 
 <div class="compare-cards">
   <article class="compare-card recommended">
-    <span class="compare-card-mascot"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <h3 class="brand-h"><img class="brand-logo" src="/images/furusato-tax-beginner-guide-2026/logos/rakuten-furusato.png" alt="楽天ふるさと納税のロゴ" loading="lazy" /><span>楽天ふるさと納税</span></h3>
     <p class="tagline">楽天IDで即決済。楽天会員なら操作が最速、入力が最小。</p>
     <dl>
@@ -229,7 +227,6 @@ author: "hacker-ko"
   </article>
 
   <article class="compare-card recommended">
-    <span class="compare-card-mascot"><img src="/images/expr-05-smug.png" alt="" /></span>
     <h3 class="brand-h"><img class="brand-logo" src="/images/furusato-tax-beginner-guide-2026/logos/satofull.webp" alt="さとふるのロゴ" loading="lazy" /><span>さとふる</span></h3>
     <p class="tagline">UI最強の初心者向け。配送スピードが業界No.1で「早く食べたい」派の正解。</p>
     <dl>
@@ -241,7 +238,6 @@ author: "hacker-ko"
   </article>
 
   <article class="compare-card">
-    <span class="compare-card-mascot"><img src="/images/expr-09-arms-crossed.png" alt="" /></span>
     <h3 class="brand-h"><img class="brand-logo" src="/images/furusato-tax-beginner-guide-2026/logos/furunavi.png" alt="ふるなびのロゴ" loading="lazy" /><span>ふるなび</span></h3>
     <p class="tagline">家電・PC周辺機器系の返礼品ラインナップが業界一厚い玄人サイト。</p>
     <dl>
@@ -253,7 +249,6 @@ author: "hacker-ko"
   </article>
 
   <article class="compare-card recommended">
-    <span class="compare-card-mascot"><img src="/images/expr-02-pout.png" alt="" /></span>
     <h3 class="brand-h"><img class="brand-logo" src="/images/furusato-tax-beginner-guide-2026/logos/furusato-choice.png" alt="ふるさとチョイスのロゴ" loading="lazy" /><span>ふるさとチョイス</span></h3>
     <p class="tagline">取扱自治体数 <strong>1,800超で業界最多</strong>。災害支援寄付にも強い老舗。</p>
     <dl>
@@ -265,7 +260,6 @@ author: "hacker-ko"
   </article>
 
   <article class="compare-card">
-    <span class="compare-card-mascot"><img src="/images/expr-03-bashful.png" alt="" /></span>
     <h3 class="brand-h"><img class="brand-logo" src="/images/furusato-tax-beginner-guide-2026/logos/furusato-premium.png" alt="ふるさとプレミアムのロゴ" loading="lazy" /><span>ふるさとプレミアム</span></h3>
     <p class="tagline">特別感ある厳選返礼品。プレミアム志向で「ご褒美寄付」を狙うならここ。</p>
     <dl>
@@ -277,7 +271,6 @@ author: "hacker-ko"
   </article>
 
   <article class="compare-card">
-    <span class="compare-card-mascot"><img src="/images/expr-01-wave.png" alt="" /></span>
     <h3 class="brand-h"><img class="brand-logo" src="/images/furusato-tax-beginner-guide-2026/logos/aupay-furusato.png" alt="au PAY ふるさと納税のロゴ" loading="lazy" /><span>au PAY ふるさと納税</span></h3>
     <p class="tagline">au IDで即決済。auユーザーは決済UXが最速、Pontaポイントとも連動。</p>
     <dl>
@@ -289,7 +282,6 @@ author: "hacker-ko"
   </article>
 
   <article class="compare-card">
-    <span class="compare-card-mascot"><img src="/images/expr-06-shock.png" alt="" /></span>
     <h3 class="brand-h"><img class="brand-logo" src="/images/furusato-tax-beginner-guide-2026/logos/ana-furusato.png" alt="ANAのふるさと納税のロゴ" loading="lazy" /><span>ANAのふるさと納税</span></h3>
     <p class="tagline">ANAマイル連動の唯一無二。出張・旅行多めの会社員はここに寄せる価値あり。</p>
     <dl>

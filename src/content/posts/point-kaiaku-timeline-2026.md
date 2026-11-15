@@ -18,7 +18,6 @@ references: ["https://www.paypay-card.co.jp/info/009410.html", "https://k-tai.wa
 このページは、主要ポイント・決済・カードの<strong>「いつ・何が・どう変わったか」を時系列の年表で一覧化</strong>した保存版。改悪だけじゃなく数少ない改良（金利UP等）も対で並べ、**影響の大きかった改悪TOP5**・**次に改悪が来そうな兆候**・そして<strong>“今の乗り換え先”</strong>までまとめた。事象が起きるたびに更新していくから、ブックマーク推奨。
 
 <div class="hakkako-says">
-<img src="/images/expr-06-shock.png" alt="ハッカー子" />
 <p>2026年の二大事件は<strong>「PayPay 6/2大改悪」</strong>と<strong>「dポイ活MAX終了（4/30）」</strong>。さらにdカードの公共料金が2月に半減してて、<strong>“公共料金0.5%”が業界標準になりつつある</strong>のが今の流れ。黙ってると年で数千〜数万ポイント取りこぼすわよ。下の年表で「自分の使ってるやつ」がいつ変わったか確認して。</p>
 </div>
 
@@ -182,6 +181,5 @@ dカードの 2026 年度の変更点と、これから持つべきかを解説�
 → 関連: [ポイントサービス徹底分析 2026](/posts/point-service-complete-guide-2026/) ／ [PayPay大改悪まとめ](/posts/paypay-2026-june-revision-guide/) ／ [ポイ活の実効時給 ガチ検証](/posts/poikatsu-hourly-wage-2026/)
 
 <div class="hakkako-says">
-<img src="/images/expr-09-arms-crossed.png" alt="ハッカー子" />
 <p>ポイントは“放置で渋くなる”もの。年1回でいいから、この年表で「自分の決済、まだお得？」を点検して。改悪を食らったら、サッと乗り換えるのが勝ち。アタシはこのページ、改定が出るたびに更新するからね。</p>
 </div>

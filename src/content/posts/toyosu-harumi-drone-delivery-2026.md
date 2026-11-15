@@ -17,7 +17,6 @@ references: ["https://kyodonewsprwire.jp/release/202610168114", "https://cdn.kyo
 だからアタシがまとめた。土台は**3社のプレスリリース**（2026年10月19日）。いつ、どこで、何をするのかを、決まっていることだけ並べたわよ。
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">先に一番大事なことを言っとく。<strong>2026年度は飛ばして確かめる段階、実際に注文した荷物が届くのは2027年度の実証から。</strong>場所は<strong>豊洲・晴海・木場</strong>のエリアで、<strong>どのマンションかはまだ発表されていない</strong>わ。</div>
 </div>
 

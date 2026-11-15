@@ -17,7 +17,6 @@ references: ["https://event.rakuten.co.jp/campaign/point-up/everyday/point/", "h
 だからアタシが集めた。Xで<strong>獲得ポイントの実績を公開している投稿を13件</strong>拾って、全部の投稿を実在確認した。そこへ各社の公式ページ（楽天のSPU、PayPayステップ、dカードの特典、KDDIの発表、三井住友の案内）の<strong>2026年10月時点のルール</strong>を突き合わせて、「その人はどの条件で、いくら払って、いくら受け取ったのか」まで逆算してある。
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">先に一番の驚きを言っとく。<strong>PayPayカードで今年9万2,535ポイントを受け取った人は、本人が書いた還元率1.5%で割り戻すと、約617万円をカードで払っている。</strong>「月2万ポイント」の人たちの正体は、裏ワザじゃなくて<strong>決済額の大きさ</strong>なのよ。じゃあ普通の家計でどこまで取れるか。そこを経済圏ごとに見ていくわ。</div>
 </div>
 
@@ -406,6 +405,5 @@ SNSの実績と公式のルールを並べると、選び方は2つの質問で�
 <p class="source-note">埋め込んだ YouTube は<strong>すべて oEmbed でタイトルと投稿者を照合し、実在を確認したもの</strong>。公式チャンネルではなく個人の解説動画なので、内容は撮影時点のもの。</p>
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-09-arms-crossed.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">最後にもう1回だけ言うわよ。<strong>年に何十万ポイントの人は、年に何百万円払っている人。</strong>あんたが真似するべきなのは額じゃなくて、<strong>携帯の特典を取り切って、毎日の支払いを1つの経済圏に寄せる</strong>っていう順番のほう。それだけで、月数千ポイントは普通に届くわ。</div>
 </div>

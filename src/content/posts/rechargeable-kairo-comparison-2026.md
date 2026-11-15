@@ -27,7 +27,6 @@ references:
 <p class="source-note"><strong>この記事の価格・仕様・ルールは、2026年10月25日に各社の公式ページと官公庁の発表で確かめたもの。</strong>統計は年と期間を、発表には日付を年から書いている。</p>
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">先に結論を言っとく。<strong>長く持たせたいなら mottole の MTL-E029（弱で約8時間）</strong>。それと、充電式は<strong>44℃でも3〜4時間当てっぱなしで低温やけど</strong>になる。寝るときに使わない、これだけは守って。</div>
 </div>
 
@@ -454,6 +453,5 @@ references:
 <p class="source-note">出典：<a href="https://www.env.go.jp/recycle/waste/lithium_1/index.html" target="_blank" rel="noopener">環境省「リチウムイオン電池関係」</a>／<a href="https://www.caa.go.jp/policies/policy/consumer_safety/caution/caution_080/" target="_blank" rel="noopener">消費者庁</a>。</p>
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-01-wave.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">長く持たせたいなら<strong>MTL-E029</strong>、安全の書き方で選ぶなら<strong>HAGOOGI</strong>、軽さなら<strong>EK-CR25</strong>。どれを買っても、<strong>寝るときは使わない</strong>。これで冬はラクになるわよ。</div>
 </div>

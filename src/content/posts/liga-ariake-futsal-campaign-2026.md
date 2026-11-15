@@ -28,7 +28,6 @@ references: ["https://prtimes.jp/main/html/rd/p/000000032.000147292.html", "http
 だからアタシがまとめた。土台は<strong>LiGA DiVeRTiDA のプレスリリース</strong>と<strong>LiGA の会場ページ</strong>。もらえる条件と、駐車券でいくら浮くかを並べたわよ。
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">先に一番大事なことを言っとく。<strong>LiGA のサイトで申し込んで、大会の前に代表者LINEへ連絡したチームだけ</strong>。連絡を忘れるともらえない。それと、<strong>駐車券は無料券じゃない</strong>。<strong>2時間半まで600円</strong>になる券よ。</div>
 </div>
 

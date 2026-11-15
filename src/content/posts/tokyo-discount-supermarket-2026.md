@@ -27,7 +27,6 @@ references:
 だからアタシが作った。**都心で買える格安スーパー7社**を、**各社の決算資料と店舗数**から分解する。安さの理由は7社でぜんぶ違う。**経費率で勝つ会社**、**仕入れで勝つ会社**、**店を小さくして数で勝つ会社**——同じ「安い」でも中身が別物なのよ。
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">先に一番の驚きを言っとく。<strong>1店舗あたりの年商は、オーケーが43.4億円で、まいばすけっとが2.4億円。18倍の開きがある。</strong>どっちも「安いスーパー」なのに、稼ぎ方が正反対なの。</div>
 </div>
 
@@ -153,7 +152,6 @@ references:
 </div>
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-07-gasp.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">言っとくけど、この3つは<strong>別々の商品</strong>よ。「くるみパンとカツ丼、どっちが安い？」なんて比べようがない。<strong>じゃあ同じ商品で並べればいいじゃない</strong>——それができない理由が、この7社の性格そのものなの。</div>
 </div>
 
@@ -655,6 +653,5 @@ references:
 <p class="source-note">出典：<a href="https://ok-corporation.jp/company/performance/" target="_blank" rel="noopener">オーケー 業績</a>／<a href="https://www.ryutsuu.biz/accounts/s081318.html" target="_blank" rel="noopener">流通ニュース（トライアルHD 決算）</a>／<a href="https://www.ryutsuu.biz/strategy/r030512.html" target="_blank" rel="noopener">流通ニュース（西友買収）</a>／<a href="https://www.ryutsuu.biz/store/r101611.html" target="_blank" rel="noopener">流通ニュース（まいばすけっと出店計画）</a>／<a href="https://www.kobebussan.co.jp/business/retail.php" target="_blank" rel="noopener">神戸物産 業務スーパー事業</a>／<a href="https://hanamasa.co.jp/shop/tokyo/" target="_blank" rel="noopener">肉のハナマサ 東京都の店舗</a>／<a href="https://diamond-rm.net/management/businessplan/518841/" target="_blank" rel="noopener">ダイヤモンド・チェーンストア（トライアルの西友買収）</a>。写真は Wikimedia Commons（CC BY-SA / CC0・各撮影者）。価格は撮影時点のもので、店舗と時期によって変わる。</p>
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-01-wave.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">「都心は高い」って言われるけど、<strong>7社ぜんぶが都心で戦ってる</strong>のよ。しかも大箱と小箱で戦い方が正反対だから、<strong>使い分ければ両方おいしい</strong>。まとめ買いは大箱、今日のぶんは小箱。それだけ覚えて帰って。</div>
 </div>

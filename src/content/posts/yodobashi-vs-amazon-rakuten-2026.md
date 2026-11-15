@@ -22,7 +22,6 @@ references:
 だからアタシが忖度なしで、**送料・ポイント・配送・保証**を公式ベースで比較して、ヨドバシの本当の強みと弱点、そして3社の賢い使い分けを教えてあげる。実際に使ってる人の声も拾ったわ。買い物カゴに入れる前に読んでおきなさい 😏
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-09-arms-crossed.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">先に核心。<strong>ヨドバシ.comの強みは「全国送料無料（最低額なし）×ポイント約10％×最短当日×自社保証」</strong>。この“実質価格×安心”の総合力がすごいの。ただ<strong>万能じゃない</strong>——問い合わせ対応が遅い、常に最安ではない。だから「家電・日用品はヨドバシ、無いものはAmazon、ポイント経済圏なら楽天」の<strong>使い分け</strong>が正解よ。数字で見せていくわね。</div>
 </div>
 
@@ -37,7 +36,6 @@ references:
 </ul>
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">アタシのブログもアフィリで回してるから正直に言うけど、<strong>ヨドバシは紹介しても1円にもならない</strong>のよ（笑）。それでも勧めるのは、単純に読者にとってお得だから。“紹介料が出る＝おすすめ”とは限らない、ってこと覚えておいて。</div>
 </div>
 
@@ -58,7 +56,6 @@ references:
 
 <div class="compare-cards">
   <article class="compare-card">
-    <span class="compare-card-mascot"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <h3>ヨドバシ.com</h3>
     <dl>
       <dt>強み</dt><dd>全国送料無料（少額OK）・当日配送・ポイント約10%・自社保証。実質価格×安心の総合力</dd>
@@ -67,7 +64,6 @@ references:
     </dl>
   </article>
   <article class="compare-card">
-    <span class="compare-card-mascot"><img src="/images/expr-05-smug.png" alt="" /></span>
     <h3 class="brand-h"><img class="brand-logo" src="/images/yodobashi-vs-amazon-rakuten-2026/logos/amazon.png" alt="Amazon.co.jpのロゴ" loading="lazy" /><span>Amazon.co.jp</span></h3>
     <dl>
       <dt>強み</dt><dd>圧倒的な品揃え・プライムの配送速度・定期便最大15%OFF・セール</dd>
@@ -76,7 +72,6 @@ references:
     </dl>
   </article>
   <article class="compare-card">
-    <span class="compare-card-mascot"><img src="/images/expr-03-bashful.png" alt="" /></span>
     <h3 class="brand-h"><img class="brand-logo" src="/images/yodobashi-vs-amazon-rakuten-2026/logos/rakutenichiba-app.jpg" alt="楽天市場のロゴ" loading="lazy" /><span>楽天市場</span></h3>
     <dl>
       <dt>強み</dt><dd>楽天経済圏でポイントが積み上がる（SPU）・買い回りで倍率UP・ふるさと納税</dd>
@@ -92,7 +87,6 @@ references:
 
 <div class="compare-cards">
   <article class="compare-card">
-    <span class="compare-card-mascot"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <h3>ヨドバシ推しの声</h3>
     <dl>
       <dt>エヌユル氏</dt><dd>「Amazonが無法地帯化してきた中で、自家販売中心で詐欺商品が少なく、Amazonより安いこともある。普通の人はヨドバシだけで検索した方がいい」<a href="https://x.com/ncaq/status/1745597619999777090">［X］</a></dd>
@@ -100,7 +94,6 @@ references:
     </dl>
   </article>
   <article class="compare-card">
-    <span class="compare-card-mascot"><img src="/images/expr-06-shock.png" alt="" /></span>
     <h3>苦言・注意の声</h3>
     <dl>
       <dt>エヌユル氏</dt><dd>「ただトラブル時のお問い合わせシステムがゴミで2週間待ちとかある」＝サポートの遅さは弱点<a href="https://x.com/ncaq/status/1745597619999777090">［X］</a></dd>
@@ -110,7 +103,6 @@ references:
 </div>
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-09-arms-crossed.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">店舗の話だけど、こんな声も。<strong>「ヨドバシの店員が“これは重いだけでお勧めできない”と正直に言い、他社PCを並べて起動速度を実演してくれた。会計したら店頭価格より安かった」</strong>（<a href="https://x.com/hide3tu/status/1761822561049153970">X・いけさん</a>）。売らんかなじゃない誠実さがヨドバシらしさなのよね。</div>
 </div>
 
@@ -126,21 +118,18 @@ references:
 
 <div class="compare-cards">
   <article class="compare-card">
-    <span class="compare-card-mascot"><img src="/images/expr-05-smug.png" alt="" /></span>
     <h3>ヨドバシで買う</h3>
     <dl>
       <dt>おすすめ</dt><dd>家電・日用品・水や薬など少額の“送料無料まとめ買い”／早く欲しい時／ポイント込みで実質安い時</dd>
     </dl>
   </article>
   <article class="compare-card">
-    <span class="compare-card-mascot"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <h3>Amazonで買う</h3>
     <dl>
       <dt>おすすめ</dt><dd>ヨドバシに無い商品／プライムのポイントアップ時／定期便で消耗品を割引</dd>
     </dl>
   </article>
   <article class="compare-card">
-    <span class="compare-card-mascot"><img src="/images/expr-03-bashful.png" alt="" /></span>
     <h3>楽天で買う</h3>
     <dl>
       <dt>おすすめ</dt><dd>楽天経済圏を使っている人／お買い物マラソン期間／ふるさと納税</dd>
@@ -149,7 +138,6 @@ references:
 </div>
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-01-wave.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">アタシの結論。<strong>「Amazon・価格コムで検索 → ヨドバシ.comでも価格とポイントを確認 → 実質価格が近ければ送料無料＆安心のヨドバシ」</strong>。この“ワンクッション”を習慣にするだけで、地味に年間けっこう浮くのよ 😏</div>
 </div>
 

@@ -26,7 +26,6 @@ references: ["https://ariake.shopping-sumitomo-rd.com/event/5157/", "https://www
 だからアタシがまとめた。土台は**有明ガーデンの告知ページ**と、**東京都の報道発表**（2025年10月と2026年2月）。行く前に知っておきたいことと、都がいつ飛ばそうとしているのかを並べたわよ。
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">先に一番大事なことを言っとく。<strong>2026年11月18日（水）〜23日（月・祝）、入場も参加も無料。</strong>ただし<strong>初日は12時から、最終日は16時まで</strong>よ。</div>
 </div>
 

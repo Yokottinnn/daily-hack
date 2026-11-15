@@ -26,7 +26,6 @@ references:
 <p class="source-note"><strong>この記事の価格・仕様・ルールは、2026年10月25日に各社の公式ページと官公庁の発表で確かめたもの。</strong>統計は年と期間を、発表には日付を年から書いている。</p>
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">先に結論を言っとく。<strong>機内に持ち込めるのは1人2個まで、機内では充電しない。</strong>それと、<strong>2027年1月からは国際ルールで100Wh超が禁止の扱い</strong>になる。いま買うなら<strong>100Wh以下（10000〜20000mAh）</strong>にしておけば迷わないわよ。</div>
 </div>
 
@@ -392,6 +391,5 @@ Anker が自社の基準で「史上最も安全」とする「ネオリチウ�
 <p class="source-note">出典：<a href="https://www.jbrc.com/general/recycle_flow/" target="_blank" rel="noopener">JBRC「リサイクルの流れ」</a>（協力店の検索は <a href="https://www.jbrc.com/general/recycle_kensaku/" target="_blank" rel="noopener">こちら</a>）／<a href="https://www.env.go.jp/content/000389218.pdf" target="_blank" rel="noopener">環境省「改正資源有効利用促進法の施行に向けた関係法令の整備について」</a>。</p>
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-01-wave.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">選ぶなら<strong>100Wh以下で、PSEと事業者名の表示があるもの</strong>。飛行機には<strong>2個まで、預けない、機内で充電しない</strong>。これで年末年始は困らないわよ。</div>
 </div>

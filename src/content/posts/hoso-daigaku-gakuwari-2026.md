@@ -25,7 +25,6 @@ references:
 だからアタシが作った。**放送大学の公式（学費・学生の種類・よくある質問）から、在学できる年数と除籍の条件を拾って、「学生を10年 続けるのに最低いくらかかるか」を出した。** そのうえで、学割が効くものを**毎月ずっと浮くもの（サブスク）と、使った回だけ浮くもの（都度）に分けて**並べた。
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">先に一番の驚きを言っとく。<strong>1年で見るから高く見えるだけ</strong>よ。全科履修生は<strong>最長10年 在学できて、休学を足せば14年</strong>。除籍にならない最小構成なら<strong>10年で54,000円＝月450円</strong>。缶コーヒー4本ぶんで、10年ぶんの学生証が買えるのよ。</div>
 </div>
 
@@ -631,6 +630,5 @@ references:
 </div>
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-01-wave.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">まとめるわよ。<strong>1年で計算していたから高く見えていただけ</strong>。10年で割れば月450円、休学を足せば月321円よ。<strong>Adobeを使うなら初月で回収</strong>、使わなくても<strong>ac.jpメールの無料枠と美術館だけで超える</strong>。ただし<strong>年齢が条件の学割は何をしても効かない</strong>し、<strong>定期券は学割証では買えない</strong>。ここだけは勘違いしないでね。</div>
 </div>

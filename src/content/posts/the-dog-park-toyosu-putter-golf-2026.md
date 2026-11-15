@@ -23,7 +23,6 @@ references: ["https://prtimes.jp/main/html/rd/p/000000030.000103607.html", "http
 だからアタシがまとめた。土台は**運営に協賛するマイゴルのプレスリリース**と、**THE DOG PARK TOYOSU の公式サイトの料金表**。いくらで、何人で行くと得かを並べたわよ。
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">先に一番大事なことを言っとく。<strong>家族4人なら「家族セット」の2,000円</strong>。1人ずつ払うと2,400円だから、<strong>セットで400円浮く</strong>のよ。</div>
 </div>
 
@@ -174,6 +173,5 @@ YouTube には、9 月のプレオープンのころから飼い主の動画が�
 <p class="source-note">表紙は株式会社マイゴルのプレスリリースの告知画像。出典：<a href="https://prtimes.jp/main/html/rd/p/000000030.000103607.html" target="_blank" rel="noopener">株式会社マイゴル「愛犬と楽しめるパターゴルフが豊洲に10月7日オープン」（PR TIMES・2026年10月9日）</a>／<a href="https://the-dog-park.jp/putter-golf" target="_blank" rel="noopener">THE DOG PARK TOYOSU 公式サイト</a>。料金や時間は変わることがある。</p>
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-01-wave.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">家族なら<strong>家族セット、昼の2,000円</strong>がいちばん安い。犬はリードとマナーウェアを忘れないで。</div>
 </div>

@@ -21,7 +21,6 @@ references:
 確かに**2026年8月から高額療養費の自己負担上限が引き上げ**られる。でもね、「上がる＝保険が必要」は短絡すぎ。増える自己負担が**月いくらで、それを貯蓄でまかなえるかどうか**——そこを計算せずに保険に入るのが一番のカモよ。今日は「保険で埋める」か「貯蓄で足りる」か、**あんたの分岐点**を出してあげる 😏
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-09-arms-crossed.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">先に本音を言うわね。<strong>日本には高額療養費っていう“最強の公的保険”がもともとある。</strong>青天井で医療費がかかるわけじゃないの。改正で上限は少し上がるけど、それでも“月数万円の上乗せ”に耐えられる貯蓄がある人なら、民間の医療保険はマストじゃない。要るかどうかは、感情じゃなく数字で決めなさい。</div>
 </div>
 
@@ -95,7 +94,6 @@ references:
 
 <div class="compare-cards">
   <article class="compare-card">
-    <span class="compare-card-mascot"><img src="/images/expr-06-shock.png" alt="" /></span>
     <h3>🛡 保険で備えた方がいい人</h3>
     <p class="tagline">「一時的な数十万円の出費」で家計が傾くタイプ。</p>
     <dl>
@@ -107,7 +105,6 @@ references:
     <p class="compare-best">※必要なら<strong>掛け捨ての最小限</strong>で。過剰な特約は不要</p>
   </article>
   <article class="compare-card recommended">
-    <span class="compare-card-mascot"><img src="/images/expr-05-smug.png" alt="" /></span>
     <h3>💰 貯蓄で足りる人（保険は最小 or 不要）</h3>
     <p class="tagline">上乗せ数万円を“貯金から出せる”タイプ。</p>
     <dl>
@@ -126,7 +123,6 @@ references:
 </div>
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-01-wave.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">保険屋さんは「不安」を売るのが仕事。でもね、<strong>月1万円の医療保険に30年入れば360万円</strong>。その多くは使わずに終わる。同じお金を貯蓄＋NISAに回せば、医療費にも老後にも使える“自由なお金”になる。もちろん貯蓄が薄いうちは掛け捨ての最小限でカバーするのは合理的。<strong>「不安だから全部盛り」だけはやめなさい。</strong></div>
 </div>
 

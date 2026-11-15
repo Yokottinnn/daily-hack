@@ -21,7 +21,6 @@ references:
 そこで今回は、**JAL・ANAの公式路線情報を直接確認**して、**成田(NRT)・羽田(HND)それぞれから直行便で行ける海外の就航都市**を、忖度なしで整理したわ。ネットの噂じゃなく公式ベース。**いつ時点の情報かもハッキリ書く**から、空港選び・航空券探しの土台に使いなさい 😏
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-09-arms-crossed.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">先に“いまの地図”の核心。<strong>ヨーロッパ主要都市（ロンドン・パリ等）へのJAL/ANA直行便は、もうほぼ羽田発</strong>。成田発の欧州直行は今やかなり限定的なの。逆に<strong>成田は東南アジア・南アジア・レジャー路線＋成田ならではの就航先</strong>が強い。「どこ行くか」で使う空港が変わる時代よ。</div>
 </div>
 
@@ -112,7 +111,6 @@ references:
 
 <div class="compare-cards">
   <article class="compare-card">
-    <span class="compare-card-mascot"><img src="/images/expr-05-smug.png" alt="" /></span>
     <h3>羽田（HND）が強いところ</h3>
     <dl>
       <dt>欧州主要都市</dt><dd>ロンドン・パリ等の欧州直行はJAL/ANAとも羽田が中心</dd>
@@ -121,7 +119,6 @@ references:
     </dl>
   </article>
   <article class="compare-card">
-    <span class="compare-card-mascot"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <h3>成田（NRT）が強いところ</h3>
     <dl>
       <dt>東南・南アジアの厚み</dt><dd>ハノイ・ベンガルール・ムンバイ・パース等、成田ならではも</dd>
@@ -132,7 +129,6 @@ references:
 </div>
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-01-wave.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">SNSでも話題だけど、<strong>「国の数」だけ見ると成田の凄さは伝わりにくい</strong>のよね。実際は<strong>“就航都市数”“便数”“国際線利用者数”で成田が圧倒的</strong>（この記事はJAL/ANAの直行就航先に絞ってるから、他社・LCC込みの全体像はさらに成田が大きい）。「どの国へ行けるか」より「どの都市へ、どれだけ飛んでるか」で見るのがツウよ。</div>
 </div>
 
@@ -148,14 +144,12 @@ references:
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">★羽田空港or成田空港から直行便で行ける&quot;都市&quot;<br>（2026年7月20日現在）</p>&mdash; いつかいちくん✈︎ (@itsukaichi_engi) <a href="https://twitter.com/itsukaichi_engi/status/2078963094311801122">2026年7月20日</a></blockquote>
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-04-cheer.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">2,400以上のいいね・50万近い表示で拡散した投稿。<strong>「国」じゃなく「都市」で並べると、成田・羽田の厚みが一気に伝わる</strong>——まさにこの記事で言いたかったことなの。ちなみに本記事はさらに絞って<strong>JAL/ANAの"自社直行便"だけを公式確認</strong>して整理してるから、他社・LCC込みの全体像はもっと広いわよ。</div>
 </div>
 
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">今回良い便がなかったので成田にしたけど、入国は特に日本人ガラガラでドア開いてから10分弱でスカイライナー乗れたので慌てて一本前に滑り込み。これなら下手すると羽田の入国とか税関より空いてるし空港内移動も少なめで成田見直しある</p>&mdash; 哲戸(´･_･`)次郎丸 (@pp_GIRAUD) <a href="https://twitter.com/pp_GIRAUD/status/2083805226595934461">2026年8月2日</a></blockquote>
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">"羽田＝正義"に見えて、実は<strong>入国・税関・空港内移動のスムーズさで成田が快適</strong>ってケースは多いの。就航都市の数だけじゃなく、<strong>こういう体験ベースの使い勝手</strong>も空港選びの立派な判断材料。上の住み分けと合わせて、「どこへ行くか×どう移動したいか」で選びなさい。</div>
 </div>
 

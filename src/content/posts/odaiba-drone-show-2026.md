@@ -17,7 +17,6 @@ references: ["https://odaibadrone.com/", "https://www.tokyo-odaiba.net/event_tou
 だからアタシが作った。2026年にお台場で開かれるドローンショーを**3本ぜんぶ**、日程・時間・機数・観覧場所まで公式で裏を取って並べた。終わったものも「終わった」と書いてある。
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">先に一番の落とし穴を言っとく。9月の「Pixel Moon」は<strong>お月見がテーマなのに、本物の中秋の名月（9月25日）には もう終わってる。</strong>最終日が9月22日。しかも9/4〜9/22の19日間のうち、<strong>やるのは8日だけ</strong>。カレンダーを見ずに行くと確実に外すわよ。</div>
 </div>
 
@@ -237,7 +236,6 @@ references: ["https://odaibadrone.com/", "https://www.tokyo-odaiba.net/event_tou
 <p class="source-note">出典: <a href="https://www.nao.ac.jp/astro/sky/2026/09-topics03.html" target="_blank" rel="noopener">国立天文台「中秋の名月（2026年9月）」</a>／<a href="https://odaibadrone.com/" target="_blank" rel="noopener">ODAIBA DRONE SHOW 2026 公式</a></p>
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-02-pout.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">「お月見」って言われたら中秋の名月を思い浮かべるでしょ。でも<strong>ショーは5連休に合わせて組まれてる。</strong>天文じゃなくてカレンダーで決まってるの。責める話じゃないけど、<strong>知らないと3日ずれる。</strong></div>
 </div>
 
@@ -311,6 +309,5 @@ references: ["https://odaibadrone.com/", "https://www.tokyo-odaiba.net/event_tou
 </aside>
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-01-wave.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">お台場のドローンショーは<strong>1年で12日しかない</strong>。しかも全部タダ。行かない理由がないでしょ。<strong>9/5・9/6・9/20・9/21・9/22 は19時からAプログラム。</strong>子ども連れならここ。カレンダーに入れときなさい。</div>
 </div>

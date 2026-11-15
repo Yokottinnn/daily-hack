@@ -28,7 +28,6 @@ references: ["https://prtimes.jp/main/html/rd/p/000000090.000047941.html", "http
 だからアタシがまとめた。土台は<strong>実行委員会とAPAMAN（アパマンショップ）のプレスリリース</strong>。いつ・何人で・いくらかかるか、ワークショップの値段まで並べたわよ。
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">先に一番大事なことを言っとく。<strong>同じドームでも、日によって値段がちがう</strong>。夕方の食事プランは<strong>平日28,000円・土日祝32,000円・12月19日〜25日は48,000円</strong>。それと、<strong>平日の昼だけのアフタヌーンティー（1〜3名で12,000円）は12月18日（金）で終わり</strong>よ。</div>
 </div>
 

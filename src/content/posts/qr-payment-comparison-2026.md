@@ -17,7 +17,6 @@ author: "hacker-ko"
 「全部入れるとか面倒くさい」？ あんたバカぁ？ アプリ3つ追加するだけで年間数万円変わるのに、その手間を惜しむ理由ある？
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-09-arms-crossed.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">「PayPay入れて終わり」は2024年で卒業。2026年の正解は <strong>「3アプリ全部入れて、シーンで切り替える」</strong>。アプリ起動2秒の手間を惜しんで損するの、流石にダサくない？</div>
 </div>
 

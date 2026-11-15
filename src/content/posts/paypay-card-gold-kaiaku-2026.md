@@ -19,7 +19,6 @@ references:
 「PayPayカード ゴールド、改悪されたって聞いたけど…解約すべき？」——ちょっと待ちなさい。**"改悪"は事実だけど、"全員が損"ではない**の。むしろ**得になる人もいる**。慌てて解約する前に、自分がどっち側かを見極めなさい。数字で整理してあげる 😏
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-09-arms-crossed.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">核心を先に。<strong>2026年6月2日で"毎回+0.5%"が終了 → 「年間100万円以上で11,000pt」の定額還元に転換</strong>。だから<strong>年100〜220万円使う人はむしろ得、損するのは"100万円未満の少額派"と"220万円超の高額派"</strong>。あなたの年間利用額で答えが変わるのよ。</div>
 </div>
 
@@ -27,7 +26,6 @@ references:
 
 <div class="compare-cards">
   <article class="compare-card">
-    <span class="compare-card-mascot"><img src="/images/expr-06-shock.png" alt="" /></span>
     <h3>終了したもの</h3>
     <dl>
       <dt>+0.5%特典</dt><dd>決済額に毎回+0.5%上乗せ（実質最大1.5%）が<strong>2026/6/2で終了</strong></dd>
@@ -36,7 +34,6 @@ references:
     </dl>
   </article>
   <article class="compare-card">
-    <span class="compare-card-mascot"><img src="/images/expr-05-smug.png" alt="" /></span>
     <h3>代わりに新設</h3>
     <dl>
       <dt>年間利用特典</dt><dd><strong>年間100万円以上の利用で11,000pt</strong>（年会費相当）付与＝実質年会費無料</dd>
@@ -60,7 +57,6 @@ references:
 | 220万円超 | 0.5%累積が上回る | 11,000pt頭打ち | ❌ 改悪 |
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">つまり<strong>「年100〜220万円のミドル層」は新制度で得、割を食うのは"あまり使わない人"と"使いすぎる人"</strong>。年会費11,000円を回収するには100万円利用が必須になったから、<strong>年100万円も使わないなら年会費無料カードに乗り換えた方がいい</strong>——これが解約判断のライン。</div>
 </div>
 
@@ -79,8 +75,7 @@ references:
 
 <div class="compare-cards">
   <article class="compare-card">
-    <span class="compare-card-mascot"><img src="/images/expr-04-cheer.png" alt="" /></span>
-<h3 class="brand-h"><img class="brand-logo" src="/images/paypay-card-gold-kaiaku-2026/logos/smbccard.png" alt="三井住友カードのロゴ" loading="lazy" /><span>三井住友ゴールド(NL)</span></h3>
+    <h3 class="brand-h"><img class="brand-logo" src="/images/paypay-card-gold-kaiaku-2026/logos/smbccard.png" alt="三井住友カードのロゴ" loading="lazy" /><span>三井住友ゴールド(NL)</span></h3>
     <dl>
       <dt>年会費</dt><dd>5,500円→<strong>年100万利用で翌年以降 永年無料</strong></dd>
       <dt>特典</dt><dd>年100万で10,000pt＋対象店タッチ決済最大7%・空港ラウンジ</dd>
@@ -88,8 +83,7 @@ references:
     </dl>
   </article>
   <article class="compare-card">
-    <span class="compare-card-mascot"><img src="/images/expr-05-smug.png" alt="" /></span>
-<h3 class="brand-h"><img class="brand-logo" src="/images/paypay-card-gold-kaiaku-2026/logos/recruit-card.png" alt="リクルートカードのロゴ" loading="lazy" /><span>リクルートカード</span></h3>
+    <h3 class="brand-h"><img class="brand-logo" src="/images/paypay-card-gold-kaiaku-2026/logos/recruit-card.png" alt="リクルートカードのロゴ" loading="lazy" /><span>リクルートカード</span></h3>
     <dl>
       <dt>年会費</dt><dd>永年無料</dd>
       <dt>還元</dt><dd><strong>無条件1.2%</strong>（業界最高水準）</dd>
@@ -97,8 +91,7 @@ references:
     </dl>
   </article>
   <article class="compare-card">
-    <span class="compare-card-mascot"><img src="/images/expr-03-bashful.png" alt="" /></span>
-<h3 class="brand-h"><img class="brand-logo" src="/images/paypay-card-gold-kaiaku-2026/logos/rakuten-card.png" alt="楽天カードのロゴ" loading="lazy" /><span>楽天カード</span></h3>
+    <h3 class="brand-h"><img class="brand-logo" src="/images/paypay-card-gold-kaiaku-2026/logos/rakuten-card.png" alt="楽天カードのロゴ" loading="lazy" /><span>楽天カード</span></h3>
     <dl>
       <dt>年会費</dt><dd>永年無料</dd>
       <dt>還元</dt><dd>基本1.0%＋楽天市場で最大3倍</dd>
@@ -130,14 +123,12 @@ references:
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">今回の規約改定で絶対に押さえるべき<br>「5つの大改悪」の全貌です。<br><br>①ポイント払い分の還元が0%に<br>②公共料金・税金の還元率が半減<br>③交通系ICや他社決済へのチャージが<br>　ポイント付与対象外<br>④PayPayステップに本人確認が必須化 <br>⑤ゴールドカードの一律＋0.5%特典が廃止</p>&mdash; りゅーいち (@doragon10822) <a href="https://twitter.com/doragon10822/status/2061565964723073494">2026年6月2日</a></blockquote>
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-09-arms-crossed.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">180万回以上表示された注目投稿。<strong>⑤の「ゴールドの一律＋0.5%廃止」がまさにこの記事の主役</strong>よ。①〜④はPayPay決済（アプリ）側の改定だから、<strong>カードもアプリも同時に動いた＝"PayPay全体の改悪ラッシュ"</strong>だったの。ただしカードの損得は一律じゃない——上の損益分岐で見た通り、<strong>年100〜220万円使う人はむしろ得</strong>。リストの勢いに流されず、自分の額で判断しなさい。</div>
 </div>
 
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">Pay Pay カードゴールドが改悪したから解約を決意した18の夜<br><br>エポスプラチナに出戻りしようとしたらまさかの大改悪<br>VポイントカードPrimeにするかと思ったらこちらも改悪<br><br>その他改悪ラッシュで結局Pay Pカードゴールドを継続して使う事に<br><br>因果なもんよなぁ┐(´д｀)┌</p>&mdash; ナイス☆モンチ (@pesotapesota) <a href="https://twitter.com/pesotapesota/status/2083429835922383137">2026年8月1日</a></blockquote>
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">これ、めちゃくちゃリアルな声。<strong>「解約を決意→乗り換え先を探す→でも他社も軒並み改悪→結局継続」</strong>——2026年はカードもアプリも改悪ラッシュで、"逃げ先"も改悪してるのが実情なの。だからこそ<strong>脊髄反射で解約する前に、今の1枚が自分の利用額で得か損かを数字で見極める</strong>のが正解。乗り換えるにしても、感情じゃなく損得で選びなさい。</div>
 </div>
 

@@ -23,7 +23,6 @@ references:
 今日は、ジャンル別の「買い時カレンダー」と、どっちで買うにせよ**還元を二重・三重に積む鉄則**を置いていく。セール前のいま読んでおくのが一番効くやつ。
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">先に一番大事な結論。<strong>Amazonでも楽天でも、買う前に必ず「ポイントサイト」を経由しなさい。</strong>これをやるかやらないかで、同じ買い物の還元が丸ごと1段変わる。理由は下でちゃんと教えてあげる。</div>
 </div>
 
@@ -91,7 +90,6 @@ references:
 
 <div class="compare-cards">
   <article class="compare-card recommended">
-    <span class="compare-card-mascot"><img src="/images/expr-05-smug.png" alt="" /></span>
     <h3>🛒 今すぐ「プライムデー(7/10-13)」で買う物</h3>
     <p class="tagline">単品でガツンと値引きされる、Amazon本体が強いジャンル。</p>
     <dl>
@@ -138,7 +136,6 @@ references:
 </div>
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-01-wave.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">セールの魔力で「安いから」だけで買うのが一番の敵よ。<strong>要る物リストを作ってから、経由してポチる。</strong>この順番を守れば、セールはちゃんと味方になる。猛暑の電気代が気になる人は、家電を底値で更新するのも立派な節約——ついでに固定費も見直しなさい（下に置いとくわ）。</div>
 </div>
 

@@ -17,7 +17,6 @@ author: "hacker-ko"
 この記事では、**JR東日本びゅう・じゃらん・楽天トラベル・一休・Yahoo!トラベル・JTB・日本旅行・ANA・JAL** の公式タイムセール15件を、湾岸民が実際に使う想定で本気で比較してあげる。公式が推す **夏の目的地8選** もセットで公開。
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-06-shock.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">先に結論。<strong>5月29日が最大の山場</strong>。楽天アーリーサマー / 日本旅行 夏旅クーポン / ANA海外サマー が一斉に予約締切。1社の公式だけ見て決めると損するから、必ず3社以上で同じ日程を比較してから決めなさい。</div>
 </div>
 
@@ -220,7 +219,6 @@ PayPay経済圏で固定費まで集約してる人は、**Yahoo!トラベル+Pa
 [JTB 2026夏休み・お盆おすすめ](https://www.jtb.co.jp/season/summer/) のトップ推し。USJ・海遊館・道頓堀粉もんグルメ。**JTB 子連れ3人以上+3,000ptクーポン**との相性が抜群。
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">公式が夏に推してる場所、よく見ると <strong>全部「涼」</strong> なのよ。冷やし温泉・標高1,155m・ラベンダー早朝・夜の祭り。気候変動時代の旅は「映え」より「涼度」で選ばないと、現地で熱中症になって終わるわよ。</div>
 </div>
 

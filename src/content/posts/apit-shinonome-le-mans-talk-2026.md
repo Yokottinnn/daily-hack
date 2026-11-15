@@ -28,7 +28,6 @@ TSUTAYA BOOKSTORE APIT東雲店で、<strong>2026年11月23日（月・祝）</s
 だからアタシがまとめた。土台は<strong>主婦の友社のプレスリリース</strong>。時間・定員・サインのもらい方を並べたわよ。
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">先に一番大事なことを言っとく。<strong>トークは無料、ただし各回50名の立ち見で、定員になったら受付終了</strong>。<strong>サイン本と2ショット撮影は、当日その店で本（税込2,200円）を買った人だけ</strong>よ。</div>
 </div>
 
@@ -159,6 +158,5 @@ TSUTAYA BOOKSTORE APIT東雲店で、<strong>2026年11月23日（月・祝）</s
 <p class="source-note">表紙は株式会社主婦の友社のプレスリリースの告知画像（16:9に切り取った）。出典：<a href="https://prtimes.jp/main/html/rd/p/000003008.000002372.html" target="_blank" rel="noopener">株式会社主婦の友社のプレスリリース（2026年11月5日）</a>。</p>
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-01-wave.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">立ち見で50名だから、<strong>話を聞きたいなら入場の15分前に着く</strong>こと。サインが欲しい人は、本はその場で買うのよ。</div>
 </div>

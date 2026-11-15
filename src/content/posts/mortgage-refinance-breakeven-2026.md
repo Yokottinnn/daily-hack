@@ -21,7 +21,6 @@ references:
 でもね、「金利が上がる＝今すぐ借り換え！」と焦るのは早い。借り換えには**数十万円の諸費用**がかかる。得するかどうかは、感情じゃなくて**1本の計算式**で決まるの。今日はその「損益分岐月数」で、あんたが動くべきか置いておくべきかを機械的に判定してあげる 😏
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">結論の計算式はこれだけ。<strong>借り換え諸費用 ÷ 月々の返済軽減額 ＝ 回収月数。</strong>この回収月数が「残りの返済期間」より十分に短ければ、借り換えは得。短いほど強い。逆に回収に何十年もかかるなら、今回は見送りが正解よ。</div>
 </div>
 
@@ -111,7 +110,6 @@ references:
 正解は家計次第。<strong>「上がっても耐えられる余力があるか」</strong>で決めるのが筋よ。
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-01-wave.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">借り換えで一番もったいないのは「面倒だから」で放置すること。<strong>回収月数を1回計算するだけ</strong>で、動くべきか一瞬で分かるの。複数の銀行を1回でまとめて試算できる一括比較を使えば、手間もほぼゼロ。まずは自分の“実数字”を出しなさい。動かない判断も、計算してから決めれば納得できるでしょ。</div>
 </div>
 

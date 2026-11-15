@@ -19,7 +19,6 @@ references: ["https://prtimes.jp/main/html/rd/p/000002261.000022901.html", "http
 だからアタシがまとめた。土台は**ベネリックのプレスリリース**。いつ開くか、何が新しく出るか、何がもらえるかを並べたわよ。
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">先に一番大事なことを言っとく。<strong>2026年11月30日までは閉まってる</strong>から、行くなら<strong>12月1日（火）から</strong>。初日から<strong>8,000円（税込）以上買うと非売品の7周年ピンズ</strong>がもらえて、<strong>なくなり次第終わり</strong>よ。</div>
 </div>
 

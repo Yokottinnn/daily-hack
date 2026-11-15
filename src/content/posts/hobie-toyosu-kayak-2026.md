@@ -28,7 +28,6 @@ references: ["https://hobiejapan.com/kayaking-rental-tour/toyosu/", "https://top
 だからアタシがまとめた。土台は**HOBIE JAPAN の公式ページ**と、**開催日を載せた EventBank プレスの告知**。日にち・料金・乗れる艇・行き方を並べたわよ。
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">先に一番大事なことを言っとく。<strong>11月は4日間だけ</strong>。手じゃなくて<strong>足で漕ぐ</strong>から、カヤックが初めてでも腕が疲れないの。<strong>11月7日・8日は豊洲公園で江東湾岸まつり</strong>もやってるから、はしごするならこの2日よ。</div>
 </div>
 

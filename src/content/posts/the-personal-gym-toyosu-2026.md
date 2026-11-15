@@ -19,7 +19,6 @@ references: ["https://prtimes.jp/main/html/rd/p/000000055.000081498.html"]
 だからアタシがまとめた。土台は<strong>First fit株式会社のプレスリリース</strong>。場所・時間・料金・手ぶらで行けるかを並べたわよ。
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">先に一番大事なことを言っとく。<strong>1回7,150円（税込）で、朝7時から夜23時まで</strong>。<strong>ウェア・タオル・水・プロテインは店にある</strong>から、仕事帰りに手ぶらで寄れるわ。</div>
 </div>
 
@@ -158,6 +157,5 @@ references: ["https://prtimes.jp/main/html/rd/p/000000055.000081498.html"]
 <p class="source-note">表紙はFirst fit株式会社のプレスリリースの受付の写真（16:9に切り取った）。出典：<a href="https://prtimes.jp/main/html/rd/p/000000055.000081498.html" target="_blank" rel="noopener">First fit株式会社のプレスリリース（2026年11月4日）</a>。</p>
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-01-wave.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">パーソナルジムは<strong>続けた回数で値段が決まる</strong>。1回7,150円を週1で通うと、4週で28,600円。通う回数を決めてから行くこと。</div>
 </div>

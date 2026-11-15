@@ -24,7 +24,6 @@ references:
 「毎朝ヒゲ剃りに10分。年間60時間。10年で600時間（25日分）。」── これ、友人男性に計算させたら絶句してた数字よ。脱毛って「美意識高い系の贅沢」と思われがちだけど、**実は時間と肌トラブル（カミソリ負け・埋没毛・色素沈着）からの解放投資**として、コスパで考えると相当合理的なの。問題は「医療とサロンどっちがいいの？」「いくらかかるの？」「結局どこが一番おトクなの？」が情報多すぎて分からないこと。アタシは男性視点じゃないけど、データに基づいて2026年5月時点の主要5社を全部並べてあげる。読み終わる頃にはあんたに合う1社が決まってるから。
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">最初に大事なこと言っておくわよ。<strong>「絶対に痛くない」「100%効果保証」を謳うところは怪しい</strong>と思いなさい。脱毛は毛周期・肌質・毛量で個人差が必ず出る医療行為（または美容施術）よ。今日紹介する5社は全部、医療法人 or 老舗エステで実績がある正規業者だけど、それでも<strong>「無料カウンセリングで自分の毛量・肌質を診てもらってから契約する」</strong>のが絶対のルール。即決はNGよ。</div>
 </div>
 
@@ -204,8 +203,6 @@ references:
 
 <p><a href="https://www.sbc-mens.net/contents/datsumo/hige/" target="_blank" rel="nofollow noopener">湘南美容クリニックMEN'S公式 →</a></p>
 <h3 class="brand-h" id="-ゴリラクリニック--男性専門ゴリゴリ通う覚悟向け"><img class="brand-logo" src="/images/mens-hairremoval-comparison-2026/logos/gorilla.png" alt="ゴリラクリニックのロゴ" loading="lazy" /><span>3. ゴリラクリニック — 男性専門・「ゴリゴリ通う」覚悟向け</span></h3>
-
-<img src="/images/expr-09-arms-crossed.png" alt="ハッカー子" class="mascot-inline-right" style="width:140px;float:right;margin:0 0 12px 16px;" />
 
 | 項目 | 内容 |
 |---|---|

@@ -19,7 +19,6 @@ references: ["https://www.matsuyafoods.co.jp/matsuya/whatsnew/campaign/154328.ht
 このページでは4チェーン × 4-5 決済 を**横断**で比較して、**来店頻度別 / 経済圏別 / テイクアウトか店内か** で最適解を1枚にまとめる。月10回牛丼食べる人なら**月3,000-5,000円浮く**水準。
 
 <div class="hakkako-says">
-<img src="/images/expr-05-smug.png" alt="ハッカー子" />
 <p>結論先に言うと、<strong>松屋でいきたい人は60周年最強、すき家・なか卯派は三井住友カードNL（7%）+ ゼンショー共通ポイント15倍の二段重ね、吉野家派は d払いテイクアウト20%</strong>。4社のキャンペーン仕様が<strong>全部違うから</strong>、「いつもの店」を変えるだけで月数千円違う。アタシは家族3人で週2回牛丼なので、月4,800円浮かせてる計算。</p>
 </div>
 
@@ -154,7 +153,6 @@ references: ["https://www.matsuyafoods.co.jp/matsuya/whatsnew/campaign/154328.ht
 | 💳 **三井住友（Vポイント）** | すき家・なか卯でカード7%還元（NL/CL/Gold） | Vポイント15倍 = **約22.5%還元相当** | **毎月コツコツ派の最強路線** |
 
 <div class="hakkako-says">
-<img src="/images/expr-04-cheer.png" alt="ハッカー子" />
 <p>経済圏が決まってる人ほど<strong>「いつも使ってる決済を最大限活かす」</strong>のが正解。アタシの場合、d払いユーザだから 松屋(20%) → 吉野家(20%) → すき家(d払い1.5%+ゼンショー15倍) の順で月内に<strong>d払い経済圏で完結</strong>できる。</p>
 </div>
 
@@ -244,7 +242,6 @@ references: ["https://www.matsuyafoods.co.jp/matsuya/whatsnew/campaign/154328.ht
 ## まとめ — 6月の牛丼最強プレイブック
 
 <div class="hakkako-says">
-<img src="/images/expr-07-gasp.png" alt="ハッカー子" />
 <p>2026年6月は <strong>4チェーン同時に過去最強キャンペーンが走る奇跡の月</strong>。経済圏に合わせて使い分けるだけで、家族3人・週2回シナリオなら<strong>年間2万円浮く</strong>。「いつもの店」を変えるだけ、それだけ。</p>
 </div>
 
