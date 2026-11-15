@@ -132,7 +132,7 @@ async function main() {
   const recent = recentReplies(QUEUE, Number(process.env.RECENT_N || 8)).concat(extra).slice(-8);
   // **ゲートには分けて渡す。** 同じ実行の中は厳しく、日をまたいだ過去は緩く。
   // 一緒くたにすると、比較先が穴埋め時代の型そのものなので 1 件も通らない。
-  const recentForGate = recentReplies(QUEUE, 20);
+  const recentForGate = recentReplies(QUEUE, Number(process.env.RECENT_GATE_N || 50));
   const runForGate = extra;
 
   // --- DRY_RUN: API を呼ばずに、何を送るつもりだったかだけ出す ---

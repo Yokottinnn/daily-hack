@@ -365,6 +365,24 @@ function checkRelevance(input, rules) {
     }
   }
 
+  // 4-C. **文全体の似すぎ**（2026-11-15・x508。利用者がダイアログで「返信の言い回しの重なりを防ぐ」を選んだ）
+  //
+  // 4-A は書き出しと語尾だけを見る。真ん中だけ差し替えた「ほぼ同じ文」は通ってしまう。
+  // 記号・絵文字・空白を除いた 2 文字ずつの組の重なり（Jaccard）が similar_max 以上なら弾く。
+  // 「楽天のポイント5倍…先週やらかしたわ」と「…昨日やらかしたわ」は 0.83、話題が違えば 0.00 だった。
+  {
+    const bg = (t) => { const s = String(t).replace(/[\s\p{P}\p{S}\p{Extended_Pictographic}‍️]/gu, ''); const b = new Set(); for (let i = 0; i < s.length - 1; i++) b.add(s.slice(i, i + 2)); return b; };
+    const jac = (A, B) => { if (!A.size || !B.size) return 0; let n = 0; for (const x of A) if (B.has(x)) n++; return n / (A.size + B.size - n); };
+    const sw = Number.isFinite(r.similar_window) ? r.similar_window : 50;
+    const smax = Number.isFinite(r.similar_max) ? r.similar_max : 0.45;
+    const me = bg(text);
+    let best = 0, bestText = '';
+    for (const x of recent.slice(-sw).concat(runR)) { const v = jac(me, bg(x)); if (v > best) { best = v; bestText = String(x); } }
+    if (me.size >= 6 && best >= smax) {
+      reasons.push(`直近の返信とほぼ同じ文（似ている度 ${best.toFixed(2)}・「${bestText.slice(0, 20)}…」）＝使い回しに見える`);
+    }
+  }
+
   // 5. 直近重複
   const reps = immediateRepeats(text);
   const maxRep = Number.isFinite(r.max_immediate_repeat) ? r.max_immediate_repeat : 1;
