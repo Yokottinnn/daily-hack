@@ -298,5 +298,17 @@
   "analogy-bf-matome": {
     "style": "analogy",
     "why": "伸びている『まとめ 2026年版（時点つき）＋一覧画像』の角度を写す。直近の温泉（発見型）・Jリーグ（対比型）と入り方を変えた"
+  },
+  "blog-shukuhaku-ranking": {
+    "style": "verified",
+    "why": "「観光庁の確定値で見た」と検証の形で入る。直前のブラックフライデー（アナロジー）と入り方を変えた"
+  },
+  "blog-national-park-ranking": {
+    "style": "contrast",
+    "why": "利用者数の順位と外国人の順位の入れ替わりを対比する"
+  },
+  "blog-subway-ranking": {
+    "style": "question",
+    "why": "「新宿駅のいちばんは丸ノ内線」という思い込みを言い当てて返す"
   }
 }

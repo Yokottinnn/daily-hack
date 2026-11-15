@@ -1,0 +1,25 @@
+{
+ "_doc": "X 告知の画像。node scripts/gen-x-panels.mjs ops/data/x-cards/shukuhaku-ranking-2026.panels.json",
+ "_note": "2026-11-15 blog3 の依頼。写真は Commons（CC BY）。出所は画像に出さず ALT に",
+ "imageBase": "public/images/shukuhaku-ranking-2026",
+ "out": "public/images/shukuhaku-ranking-2026/x",
+ "theme": "ink",
+ "panels": [
+  {
+   "file": "1-rank.jpg",
+   "kind": "html",
+   "noHeader": true,
+   "html": "<div class=\"srw\"><img class=\"srph\" src=\"photos/tokyo.jpg\" alt=\"\"><div class=\"srsh\"></div><div class=\"srtx\"><div class=\"srkk\">延べ宿泊者数（2025年・観光庁）</div><div class=\"srt\">東京は<em>全国の16%</em></div><div class=\"srr srhl\"><span class=\"srk\">1</span><span class=\"srn\">東京</span><span class=\"srv\">1億790万</span></div><div class=\"srr\"><span class=\"srk\">2</span><span class=\"srn\">大阪</span><span class=\"srv\">5,877万</span></div><div class=\"srr\"><span class=\"srk\">3</span><span class=\"srn\">北海道</span><span class=\"srv\">4,650万</span></div><div class=\"srr\"><span class=\"srk\">4</span><span class=\"srn\">沖縄</span><span class=\"srv\">3,386万</span></div><div class=\"srr\"><span class=\"srk\">5</span><span class=\"srn\">京都</span><span class=\"srv\">3,316万</span></div><div class=\"srf\">東京で泊まった人の55.7%が外国人（単位は人泊）</div></div></div>",
+   "css": "main{padding:0;height:1080px;display:block}\n.srw{position:relative;height:1080px;background:#1E1219;color:#fff;overflow:hidden}\n.srph{position:absolute;right:0;top:0;width:470px;height:1080px;object-fit:cover;opacity:.55}\n.srsh{position:absolute;inset:0;background:linear-gradient(90deg,#1E1219 52%,rgba(30,18,25,.35))}\n.srtx{position:absolute;left:56px;top:56px;width:640px;bottom:56px;display:flex;flex-direction:column}\n.srkk{align-self:flex-start;font-size:28px;font-weight:900;color:#2A1923;background:#F5C518;border-radius:999px;padding:6px 22px}\n.srt{font-size:64px;font-weight:900;line-height:1.2;margin:16px 0 22px}\n.srt em{font-style:normal;color:#EC5C90}\n.srr{display:flex;align-items:center;gap:18px;padding:12px 18px;margin-bottom:10px;border-radius:14px;background:rgba(255,255,255,.07);font-size:38px;font-weight:800}\n.srk{width:44px;color:#F5C518;font-weight:900;text-align:center}\n.srn{flex:1}\n.srv{font-variant-numeric:tabular-nums}\n.srhl{background:#D63E76;font-size:44px}\n.srhl .srk{color:#fff}\n.srf{margin-top:auto;font-size:28px;font-weight:700;color:#e7d6de;line-height:1.45}\n.srph{width:520px;opacity:.85}\n.srsh{background:linear-gradient(90deg,#1E1219 50%,rgba(30,18,25,.15))}\n.srt{font-size:72px;margin:20px 0 30px}\n.srr{font-size:46px;padding:20px 22px;margin-bottom:16px}\n.srhl{font-size:52px}\n.srf{font-size:31px !important;font-weight:800;white-space:nowrap}",
+   "alt": "2025年の延べ宿泊者数（観光庁「宿泊旅行統計調査」確定値・人泊）。1位 東京 1億790万、2位 大阪 5,877万、3位 北海道 4,650万、4位 沖縄 3,386万、5位 京都 3,316万。東京は全国の16%で、55.7%が外国人。写真：東京 Guilhem Vellut（CC BY 2.0）／Wikimedia Commons"
+  },
+  {
+   "file": "2-per.jpg",
+   "kind": "html",
+   "noHeader": true,
+   "html": "<div class=\"ctw\"><img class=\"ctph\" src=\"photos/okinawa.jpg\" alt=\"\"><div class=\"ctsh\"></div><div class=\"cttx\"><div class=\"ctk\">人口1人あたりの延べ宿泊者数（2025年）</div><div class=\"ctt\">1位は<em>沖縄</em></div><div class=\"ctg\"><div class=\"ctc\"><i>沖縄</i><b>23.1泊</b><s>1位</s></div><div class=\"ctc\"><i>埼玉</i><b>0.7泊</b><s>いちばん少ない</s></div></div></div></div>",
+   "css": "main{padding:0;height:1080px;display:block}\n.ctw{position:relative;height:1080px;background:#1E1219;color:#fff;overflow:hidden}\n.ctph{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}\n.ctsh{position:absolute;inset:0;background:linear-gradient(180deg,rgba(30,18,25,.15) 0%,rgba(30,18,25,.35) 40%,rgba(30,18,25,.94) 72%)}\n.cttx{position:absolute;left:56px;right:56px;bottom:60px}\n.ctk{display:inline-block;font-size:30px;font-weight:900;color:#2A1923;background:#F5C518;border-radius:999px;padding:6px 22px}\n.ctt{font-size:96px;font-weight:900;line-height:1.15;margin:14px 0 26px}\n.ctt em{font-style:normal;color:#EC5C90}\n.ctg{display:flex;gap:24px}\n.ctc{flex:1;background:rgba(255,255,255,.1);border-radius:20px;padding:22px 28px;display:flex;flex-direction:column}\n.ctc i{font-style:normal;font-size:30px;font-weight:800;color:#f3dbe5}\n.ctc b{font-size:84px;font-weight:900;color:#F5C518;line-height:1.15}\n.ctc s{text-decoration:none;font-size:30px;font-weight:800}\n.ctc b{font-size:72px}",
+   "alt": "人口1人あたりの延べ宿泊者数（2025年）は沖縄が23.1泊で1位、いちばん少ないのは埼玉の0.7泊。出典：観光庁「宿泊旅行統計調査」。写真：沖縄 663highland（CC BY 2.5）／Wikimedia Commons"
+  }
+ ]
+}
