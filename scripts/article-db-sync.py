@@ -3,7 +3,7 @@
 記事DB ↔ Google Sheets 同期スクリプト。
 
 - 初回: Google Drive 上に「Daily Hack 記事DB」スプレッドシートを作成し、
-        Jordan (n-yokota@fieldbeside.com) を Writer として共有。シートIDを tmp/article-db.json に保存。
+        利用者（環境変数 SHARE_EMAIL のアドレス）を Writer として共有。シートIDを tmp/article-db.json に保存。
 - 2回目以降: 既存シートに以下3タブを再生成 + 上書き
     1) 公開済記事  : src/content/posts/*.md の frontmatter から
     2) GSC上位クエリ : Search Console から過去30日の上位クエリ
@@ -21,7 +21,8 @@ DB_META = TMP_DIR / "article-db.json"
 CANDIDATES_JSON = TMP_DIR / "article-candidates.json"
 
 SA = "gsc-bot@daily-hack-blog.iam.gserviceaccount.com"
-JORDAN_EMAIL = "n-yokota@fieldbeside.com"
+# 共有先のアドレスは公開リポジトリに書かない。実行する人が環境変数で渡す
+JORDAN_EMAIL = os.environ.get("SHARE_EMAIL") or sys.exit("SHARE_EMAIL（シートを共有するメールアドレス）を設定して実行する")
 SITE = "https://daily-hack.fieldbeside.com/"
 SHEET_TITLE = "Daily Hack 記事DB"
 
