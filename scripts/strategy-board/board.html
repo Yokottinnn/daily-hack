@@ -413,18 +413,18 @@ tr[data-ccount]::after{top:4px;right:4px}
     <tr><td><b>A8.net</b>（記事のバナー・文字リンク）</td><td>案件ごと（申込完了・新規契約・資料請求など）。下の一覧に各案件の条件を出す</td><td>案件ごと（定額か %）</td><td>A8 の提携中の一覧（Mac が毎日読む）</td></tr>
     <tr><td><b>バリューコマース</b>（一休・じゃらん・Yahoo!トラベルの普通のリンクを LinkSwitch が差し替え）</td><td>予約（条件は案件ごと <span class="pill warn">要確認</span>）</td><td>案件ごと</td><td>バリューコマースの管理画面</td></tr>
   </tbody></table></div>
-  <h3 data-cid="now.aff.h.adsense">Google のクリック広告（AdSense）の成果<span class="pill warn">審査待ち・まだ数字なし</span></h3>
+  <h3 data-cid="now.aff.h.adsense">Google のクリック広告（AdSense）の成果<span class="pill ok">承認済み</span><span class="pill warn">本人確認待ち（利用者）</span><span class="pill ok">自動広告で配信</span></h3>
   <p class="src">AdSense の審査が通ったら、ここに<b>アフィリエイトの成果と同じ並びで</b>クリック広告の数字を入れる（2026-11-08 利用者「明確にここでアフィリエイトの成果として分析して記載をしたい／まずは箱だけ作っておいて」）。取れる数字は <a href="https://developers.google.com/adsense/management/reference/rest/v2/Metric" target="_blank" rel="noopener">AdSense Management API の指標</a>と<a href="https://developers.google.com/adsense/management/reference/rest/v2/Dimension" target="_blank" rel="noopener">切り口</a>で確かめた（2026-11-09）。</p>
   <div class="tbl"><table class="wf"><thead><tr><th>載せる数字</th><th>AdSense の名前</th><th>何が分かるか</th><th>いまの値</th></tr></thead><tbody id="now-adsense">
-    <tr><td><b>見積もり収益</b></td><td><code>ESTIMATED_EARNINGS</code></td><td>クリック広告でいくら入ったか（前日までは確定に近く、当日分はあとで変わる）</td><td class="empty">審査待ち</td></tr>
-    <tr><td><b>クリック数・クリック率</b></td><td><code>CLICKS</code>・<code>PAGE_VIEWS_CTR</code>・<code>IMPRESSIONS_CTR</code></td><td>広告が押された回数と、表示に対する割合</td><td class="empty">審査待ち</td></tr>
-    <tr><td><b>1 クリックの単価</b></td><td><code>COST_PER_CLICK</code></td><td>押されて 1 回いくら入るか</td><td class="empty">審査待ち</td></tr>
-    <tr><td><b>1,000 ページビューあたりの収益</b></td><td><code>PAGE_VIEWS_RPM</code></td><td>記事が読まれたときの稼ぐ力。A8 などの成果リンクと比べる物差し</td><td class="empty">審査待ち</td></tr>
-    <tr><td><b>表示回数・見られた割合</b></td><td><code>IMPRESSIONS</code>・<code>ACTIVE_VIEW_VIEWABILITY</code></td><td>広告が出た回数と、画面に入った割合（枠の置き場所の良し悪し）</td><td class="empty">審査待ち</td></tr>
-    <tr><td><b>記事ごとの収益</b></td><td>切り口 <code>PAGE_URL</code></td><td>どの記事がクリック広告で稼いでいるか（成果リンクの一覧と並べる）</td><td class="empty">審査待ち</td></tr>
-    <tr><td><b>枠ごと・端末ごと・流入元ごと</b></td><td>切り口 <code>AD_UNIT_NAME</code>・<code>PLATFORM_TYPE_NAME</code>・<code>TRAFFIC_SOURCE_NAME</code></td><td>どの枠・スマホか PC か・Google か X かで差があるか</td><td class="empty">審査待ち</td></tr>
+    <tr><td><b>見積もり収益</b></td><td><code>ESTIMATED_EARNINGS</code></td><td>クリック広告でいくら入ったか（前日までは確定に近く、当日分はあとで変わる）</td><td class="empty">配信を始めたばかり（数字はまだ）</td></tr>
+    <tr><td><b>クリック数・クリック率</b></td><td><code>CLICKS</code>・<code>PAGE_VIEWS_CTR</code>・<code>IMPRESSIONS_CTR</code></td><td>広告が押された回数と、表示に対する割合</td><td class="empty">配信を始めたばかり（数字はまだ）</td></tr>
+    <tr><td><b>1 クリックの単価</b></td><td><code>COST_PER_CLICK</code></td><td>押されて 1 回いくら入るか</td><td class="empty">配信を始めたばかり（数字はまだ）</td></tr>
+    <tr><td><b>1,000 ページビューあたりの収益</b></td><td><code>PAGE_VIEWS_RPM</code></td><td>記事が読まれたときの稼ぐ力。A8 などの成果リンクと比べる物差し</td><td class="empty">配信を始めたばかり（数字はまだ）</td></tr>
+    <tr><td><b>表示回数・見られた割合</b></td><td><code>IMPRESSIONS</code>・<code>ACTIVE_VIEW_VIEWABILITY</code></td><td>広告が出た回数と、画面に入った割合（枠の置き場所の良し悪し）</td><td class="empty">配信を始めたばかり（数字はまだ）</td></tr>
+    <tr><td><b>記事ごとの収益</b></td><td>切り口 <code>PAGE_URL</code></td><td>どの記事がクリック広告で稼いでいるか（成果リンクの一覧と並べる）</td><td class="empty">配信を始めたばかり（数字はまだ）</td></tr>
+    <tr><td><b>枠ごと・端末ごと・流入元ごと</b></td><td>切り口 <code>AD_UNIT_NAME</code>・<code>PLATFORM_TYPE_NAME</code>・<code>TRAFFIC_SOURCE_NAME</code></td><td>どの枠・スマホか PC か・Google か X かで差があるか</td><td class="empty">配信を始めたばかり（数字はまだ）</td></tr>
   </tbody></table></div>
-  <p class="src">取り方の予定：審査が通ったら、Mac の毎日のジョブ（6:40）で AdSense の数字を読み、ASP の成果と同じ非公開の経路でここに届ける（AI 不使用・$0 の見込み。始める前に費用を出して聞く）。</p>
+  <p class="src">2026-11-15 に承認された（決定ログ 2026-11-15）。自動広告だけで始め、2 週間は成果リンクのクリックと比べてから手で置く枠を決める。本人確認（45 日以内）は利用者が行う。取り方の予定：Mac の毎日のジョブ（6:40）で AdSense の数字を読み、ASP の成果と同じ非公開の経路でここに届ける（AI 不使用・$0 の見込み。始める前に費用を出して聞く）。</p>
   <h2>収益の仕掛けの現状</h2>
   <div class="tbl"><table>
     <thead><tr><th>仕掛け</th><th>状態</th><th>メモ</th></tr></thead>
@@ -435,7 +435,7 @@ tr[data-ccount]::after{top:4px;right:4px}
     <tr><td>Amazon アソシエイト</td><td><span class="pill warn">仮の参加</span></td><td>もしも経由は 10/28 に否認（理由の開示なし）。10/30 に Amazon へ直接申し込み、ID dailyhack-22 で 3 店ボタンの Amazon を出している。<b>申し込みから 180 日以内（2027-04-28 ごろまで）に 3 件売れると本審査</b>（自分の注文は数えない・却下されたら再審査なし）</td></tr>
     <tr><td>紹介コード</td><td><span class="pill ok">稼働</span></td><td>楽天カード・リクルートカード等（src/data/referrals.ts）</td></tr>
     <tr><td>忍者AdMAX</td><td><span class="pill bad">外した</span></td><td>2026-11-03 に全ページから外した（利用者「儲けにつながらない」）。枠は A8 の成果報酬の広告で埋めている</td></tr>
-    <tr><td>AdSense</td><td><span class="pill warn">審査待ち</span></td><td>配線済み。審査が通ったら上の「Google のクリック広告の成果」に数字を入れる</td></tr>
+    <tr><td>AdSense</td><td><span class="pill ok">承認済み</span></td><td>2026-11-15 承認。自動広告で配信（手で置く枠はまだ置かない）。本人確認待ち（利用者・45 日以内）。数字は上の「Google のクリック広告の成果」に入れる</td></tr>
     </tbody></table></div>
 </section>
 
