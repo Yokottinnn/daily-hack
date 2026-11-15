@@ -351,5 +351,45 @@
   "width": 600,
   "height": 312,
   "copied_from": "outlet-mall-guide-2026/logos/premium.png"
+ },
+ "teppay.png": {
+  "brand": "teppay",
+  "src": "https://www.teppay.jp/assets_renewal/img/common/logo_teppay.svg",
+  "page": "https://www.teppay.jp/",
+  "lic": "商標（識別目的）",
+  "fetched": "2026-11-15",
+  "via": "公式サイト（x503）"
+ },
+ "toysrus.png": {
+  "brand": "トイザらス",
+  "src": "https://www.toysrus.co.jp/on/demandware.static/Sites-ToysRUs_JP-Site/-/default/dwf033eef2/images/logo/mobile/tru.svg",
+  "page": "https://www.toysrus.co.jp/",
+  "lic": "商標（識別目的）",
+  "fetched": "2026-11-15",
+  "via": "公式サイト（x503）"
+ },
+ "jrct.png": {
+  "brand": "JR東海ツアーズ",
+  "src": "https://travel.jr-central.co.jp/top/resources/share/image/common/logo_jtt_header-4da7c2d8ddbce8381134146d5a0be530.png",
+  "page": "https://travel.jr-central.co.jp/",
+  "lic": "商標（識別目的）",
+  "fetched": "2026-11-15",
+  "via": "公式サイト（x503）"
+ },
+ "heartbread.png": {
+  "brand": "ハートブレッド アンティーク",
+  "src": "https://www.heart-bread.com/wp-content/themes/antique/images/logo01.png",
+  "page": "https://www.heart-bread.com/",
+  "lic": "商標（識別目的）",
+  "fetched": "2026-11-15",
+  "via": "公式サイト（x503）"
+ },
+ "yahooshop.png": {
+  "brand": "Yahoo!ショッピング",
+  "src": "https://s.yimg.jp/c/logo/f/2.0/shopping_r_34_2x.png",
+  "page": "https://shopping.yahoo.co.jp/",
+  "lic": "商標（識別目的）",
+  "fetched": "2026-11-15",
+  "via": "公式サイト（x503）"
  }
 }
