@@ -13,6 +13,7 @@ references:
   - "https://prtimes.jp/main/html/rd/p/000001284.000030268.html"
   - "https://hyakka-ryoran-ayafubumi.hololivepro.com"
   - "https://ariake-arena.tokyo/access/"
+  - "https://twitter.com/nakiriayame/status/2121218028616691856"
 event:
   name: "AyaFubuMi 1st Live「百花繚乱あやふぶみ」"
   startDate: "2027-02-13T18:00:00+09:00"
@@ -178,6 +179,31 @@ event:
   <img src="/images/ariake-arena-ayafubumi-live-2027/photos/goods2.jpg" alt="受注生産グッズの告知画像（アクリルスタンド・アクリルパネル）" loading="lazy" />
   <figcaption>受注生産グッズ（アクリルスタンド各1,870円・アクリルパネル各2,860円）の告知画像。<cite>画像: <a href="https://prtimes.jp/main/html/rd/p/000001284.000030268.html" target="_blank" rel="noopener">カバー株式会社のプレスリリース（PR TIMES）</a>　© COVER</cite></figcaption>
 </figure>
+
+## SNS ではこう言われている｜発表から2日の声
+
+発表は2026年11月13日（金）21:00。X では次のような声が上がっている。
+
+- **メンバー本人**：百鬼あやめは「有明アリーナにて2daysやります！！」と、2人と立てることを喜ぶ投稿をした
+- **公式**：ホロライブプロダクションの公式アカウントが、DAY1「陽花の宴」とDAY2「月華の宴」で中身が違うことを告知している
+- **ファン**：「絶対行きたい」とFC先行に申し込んだ報告がある一方で、「有明アリーナは狭すぎるのでは」と、チケットの取りにくさを心配する声もある
+- **発表の配信**：発表は公式 YouTube の「あやふぶみ三位一体クイズ」の配信の中で行われた（配信のタイトルに「重大発表あり」）
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">あやふぶみ1st Live 2days 開催決定㊗️ #百花繚乱あやふぶみ 『百花繚乱あやふぶみ』 有明アリーナにて2daysやります！！ みんなのおかげでこんな素敵な開場で素敵な2人とライブできるの本当に嬉しい‼️</p>&mdash; 百鬼あやめ😈ホロライブ2期生 (@nakiriayame) <a href="https://twitter.com/nakiriayame/status/2121218028616691856">2026年11月13日</a></blockquote>
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">#いろはにほへっとあやふぶみ ライブ AyaFubuMi 1st Live「百花繚乱あやふぶみ」 2027/2/13（土）、2/14（日）2DAYS開催決定🎉 DAY1：-陽花の宴- DAY2：-月華の宴- DAY1とDAY2で異なる宴でお届け！ 会場：有明アリーナ</p>&mdash; ホロライブプロダクション【公式】 (@hololivetv) <a href="https://twitter.com/hololivetv/status/2121211486781808828">2026年11月13日</a></blockquote>
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">ホロリスになってから、初めてのフブさんのいるイベント ホロライブに興味を持つキッカケになった、あやめ殿 めちゃ歌上手な、みおしゃ 最高すぎるイベント 絶対行きたい #百花繚乱あやふぶみ</p>&mdash; うみまる🌽 (@umikun2580) <a href="https://twitter.com/umikun2580/status/2121818190837961107">2026年11月15日</a></blockquote>
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">あやふぶみで有明アリーナは狭すぎるのでないでしょうか？(心配)</p>&mdash; ｽﾄﾆｷぷんぷん🍙/🧂🐙 (@sto_holo4450) <a href="https://twitter.com/sto_holo4450/status/2121213828369465802">2026年11月13日</a></blockquote>
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/6l6fWAFhEJs" title="【重大発表あり】いろはにほへっと 3人の絆を試せ！【#あやふぶみ三位一体クイズ】（hololive ホロライブ）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/tzJm1yDe-YU" title="【MV】極楽ごきげん縁日和 / いろはにほへっと あやふぶみ（hololive ホロライブ）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
 
 ## 遠くから行くなら｜有明・豊洲に泊まる
 
