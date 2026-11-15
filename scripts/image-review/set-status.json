@@ -546,7 +546,7 @@
     }
   },
   "wangan-map-launch": {
-    "status": "draft",
+    "status": "posted",
     "date": "2026-11-08",
     "purpose": "blog",
     "why": "【自サイトの告知】湾岸エリアイベントマップ（/wangan-map/）の告知。注目の 3 つ（空飛ぶクルマ・クリスマスマーケット・ティム・バートン）を添え、マップを開いてもらう。画像はマップの実際の画面",
@@ -558,7 +558,9 @@
     "planTime": "12:00",
     "scheduledAt": "2026-11-15T12:00:00+09:00",
     "approval": "2026-11-14 利用者「修正後に明日の予定で予約投稿して」",
-    "note": "x-blog-20261115-wangan-map（x484・com.dailyhack.publish-wangan-map-oneshot）"
+    "note": "x-blog-20261115-wangan-map（x484・com.dailyhack.publish-wangan-map-oneshot）",
+    "postedAt": "2026-11-15T12:01:16+09:00",
+    "tweetId": "2121800568712962477"
   },
   "analogy-earcuff-leak": {
     "status": "draft",
