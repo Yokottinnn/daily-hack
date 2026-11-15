@@ -1524,3 +1524,7 @@ blockquote.twitter-tweet a:hover { color: var(--pink-700); }
    記事の Markdown からキャラの画像（expr-*・mascot*）は全部外した（129 記事・370 箇所）。書き戻されても出ないよう、本文とトップの漫画も隠す。 */
 main img[src^="/images/expr-"], main img[src^="/images/mascot"], .comic-band .strip { display: none !important; }
 .comic-band .inner { grid-template-columns: 1fr !important; }
+
+/* Jリーグ記事の入場料収入グラフ: スマホ幅では縦長の版に切り替える（2026-11-15） */
+.jl-chart .jl-sp { display: none !important; }
+@media (max-width: 640px) { .jl-chart .jl-pc { display: none !important; } .jl-chart .jl-sp { display: block !important; } }
