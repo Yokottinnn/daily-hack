@@ -60,6 +60,16 @@ references: ["https://www.newoman.jp/takanawa/floorguide/detail/?scd=003014", "h
 
 <span class="event-picks-credit">カード画像は Wikimedia Commons の再利用可ライセンス画像より（サウナ室: Jorge Royan / CC BY-SA 3.0、銭湯: ウィキ太郎(WikiTaro) / Public domain、東京: David Kernan / CC BY 4.0、横浜: Justin Taylor / CC BY 2.0）。**特定の施設の写真ではない。**</span>
 
+<div class="callout info">
+<p class="head">行く前に決めること｜チケット・泊まる・食べる</p>
+<p style="margin:0">サウナのあとの食事や、遠くの新店に行く日の宿をまとめて決めるなら。</p>
+<ul style="margin:6px 0 0">
+<li><b>チケット・体験</b>：<a href="https://www.asoview.com/" target="_blank" rel="nofollow sponsored noopener">アソビュー！</a>（PR）・<a href="https://www.jalan.net/activity/" target="_blank" rel="nofollow sponsored noopener">じゃらん 遊び・体験予約</a>（PR）で、東京の体験や施設のチケットを日付で探せる</li>
+<li><b>近くに泊まる</b>：<a href="https://www.jalan.net/" target="_blank" rel="nofollow sponsored noopener">じゃらん</a>（PR）・<a href="https://www.ikyu.com/" target="_blank" rel="nofollow sponsored noopener">一休.com</a>（PR）で、豊洲・有明のホテルを日付で比べられる</li>
+<li><b>食事の予約</b>：<a href="https://px.a8.net/svt/ejp?a8mat=4BGAV3+EMWNX6+1OK+NV1XD" target="_blank" rel="nofollow sponsored noopener">一休.com レストラン</a>（PR）・<a href="https://hitosara.com/" target="_blank" rel="nofollow sponsored noopener">ヒトサラ</a>（PR）で、豊洲・銀座の店を席だけ先に押さえられる</li>
+</ul>
+</div>
+
 <div class="cmp-table-wrap">
   <table class="cmp-table">
     <thead><tr><th>切り口</th><th>数字</th><th>意味</th></tr></thead>
