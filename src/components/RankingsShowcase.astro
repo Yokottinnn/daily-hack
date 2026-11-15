@@ -14,13 +14,13 @@ const { groups, pickSlug = 'lalaport-guide-2026' } = Astro.props;
 const all = groups.flatMap((g) => g.items);
 const pick = all.find((i) => i.slug === pickSlug) ?? all[0];
 const quizzes = all.filter((i) => i.slug !== pick.slug).slice(0, 8);
-const STYLE: Record<string, { c: string; soft: string; icon: string; id: string }> = {
-  'お店・商業施設': { c: '#e0457b', soft: '#fdeef3', icon: '🛍️', id: 'g-shop' },
-  '交通': { c: '#2f80d1', soft: '#eaf3fc', icon: '🚃', id: 'g-traffic' },
-  '観光・宿泊': { c: '#1f9d6b', soft: '#e8f6f0', icon: '♨️', id: 'g-travel' },
-  'スポーツ・まち': { c: '#e88a1a', soft: '#fdf3e6', icon: '⚾', id: 'g-sports' },
+const STYLE: Record<string, { c: string; soft: string; icon: string; id: string; en: string }> = {
+  'お店・商業施設': { c: '#e0457b', soft: '#fdf1f5', icon: '🛍️', id: 'g-shop', en: 'SHOP & MALL' },
+  '交通': { c: '#2f80d1', soft: '#eef5fc', icon: '🚃', id: 'g-traffic', en: 'TRANSPORT' },
+  '観光・宿泊': { c: '#1f9d6b', soft: '#edf7f2', icon: '♨️', id: 'g-travel', en: 'TRAVEL & STAY' },
+  'スポーツ・まち': { c: '#e88a1a', soft: '#fdf5ea', icon: '⚾', id: 'g-sports', en: 'SPORTS & CITY' },
 };
-const st = (n: string) => STYLE[n] ?? { c: '#6b5ca5', soft: '#f1eefa', icon: '🏆', id: 'g-' + encodeURIComponent(n) };
+const st = (n: string) => STYLE[n] ?? { c: '#6b5ca5', soft: '#f3f0fa', icon: '🏆', id: 'g-' + encodeURIComponent(n), en: 'RANKING' };
 const medal = (r: number) => (r === 1 ? 'gold' : r === 2 ? 'silver' : 'bronze');
 ---
 
@@ -89,9 +89,16 @@ const medal = (r: number) => (r === 1 ? 'gold' : r === 2 ? 'silver' : 'bronze');
   </div>
 
   <!-- ジャンルごとの 1〜3 位カード -->
-  {groups.map((g) => (
+  {groups.map((g, gi) => (
     <section class="rks-band" id={st(g.name).id} style={`--c:${st(g.name).c};--soft:${st(g.name).soft}`}>
-      <h2 class="rks-band-h"><span class="gi">{st(g.name).icon}</span>{g.name}のランキング<small>{g.items.length}件</small></h2>
+      <header class="rks-band-head">
+        <span class="no" aria-hidden="true">{String(gi + 1).padStart(2, '0')}</span>
+        <div class="tt">
+          <span class="en">{st(g.name).en}</span>
+          <h2>{g.name}のランキング</h2>
+        </div>
+        <span class="cnt"><b>{g.items.length}</b>件</span>
+      </header>
       <div class="rks-cards">
         {g.items.map((it) => (
           <article class="rk-card">
@@ -123,15 +130,15 @@ const medal = (r: number) => (r === 1 ? 'gold' : r === 2 ? 'silver' : 'bronze');
   .rks-sub b { font-size: 20px; color: #c2366c; }
   .rks-podium { display: flex; align-items: flex-end; gap: 6px; }
   .rks-podium .p { width: 74px; display: grid; justify-items: center; align-content: start; border-radius: 10px 10px 0 0; background: linear-gradient(#ffffff, #e7e7ee); box-shadow: inset 0 -6px 0 rgba(0,0,0,.06); padding-top: 6px; }
-  .rks-podium .p1 { height: 128px; background: linear-gradient(#fff6d6, #f4d27a); }
+  .rks-podium .p1 { height: 136px; background: linear-gradient(#fff6d6, #f4d27a); }
   .rks-podium .p2 { height: 96px; }
   .rks-podium .p3 { height: 76px; background: linear-gradient(#fff1e6, #e9b48c); }
-  .rks-podium .crown { font-size: 26px; line-height: 1; margin-top: -30px; }
+  .rks-podium .crown { font-size: 40px; line-height: 1; margin-top: -42px; }
   .rks-podium .n { font-size: 34px; font-weight: 900; color: #7a6b4a; margin-top: 4px; }
 
   .rks-genres { list-style: none; padding: 0; margin: 14px 0 22px; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px; }
   .rks-genres a { position: relative; display: grid; align-content: end; min-height: 96px; padding: 10px 12px; border-radius: 14px; color: #fff; text-decoration: none; overflow: hidden;
-    background: linear-gradient(0deg, color-mix(in srgb, var(--c) 88%, black) 0, color-mix(in srgb, var(--c) 70%, transparent) 60%, rgba(0,0,0,.35) 100%), var(--img) center/cover, var(--c); box-shadow: inset 0 -4px 0 var(--c); }
+    background: linear-gradient(0deg, color-mix(in srgb, var(--c) 92%, black) 0, color-mix(in srgb, var(--c) 86%, transparent) 100%), var(--img) center/cover, var(--c); box-shadow: inset 0 -4px 0 var(--c); }
   .rks-genres a:hover { transform: translateY(-2px); }
   .rks-genres .gi { position: absolute; top: 8px; left: 10px; font-size: 22px; }
   .rks-genres .gn { font-weight: 800; font-size: 16px; text-shadow: 0 1px 3px rgba(0,0,0,.5); }
@@ -170,10 +177,13 @@ const medal = (r: number) => (r === 1 ? 'gold' : r === 2 ? 'silver' : 'bronze');
   .qz .qa { margin: 8px 0 4px; font-size: 15px; }
   .qz a { font-size: 13px; font-weight: 700; }
 
-  .rks-band { margin: 34px 0 0; padding: 0 16px 18px; background: var(--soft); border-radius: 18px; border-top: 4px solid var(--c); scroll-margin-top: 80px; }
-  .rks-band-h { display: flex; align-items: center; gap: 10px; margin: -2px 0 14px; padding: 10px 18px; width: fit-content; max-width: 100%; background: var(--c); color: #fff; font-size: 18px; border-radius: 0 0 14px 14px; }
-  .rks-band-h small { font-size: 12px; font-weight: 500; opacity: .9; }
-  .rks-band-h .gi { font-size: 22px; }
+  .rks-band { margin: 40px 0 0; padding: 22px 22px 22px; background: var(--soft); border-radius: 20px; scroll-margin-top: 80px; }
+  .rks-band-head { display: grid; grid-template-columns: auto minmax(0, 1fr) auto; align-items: end; gap: 14px; margin: 0 0 18px; padding-bottom: 12px; border-bottom: 1px solid color-mix(in srgb, var(--c) 28%, transparent); }
+  .rks-band-head .no { font-size: 52px; font-weight: 900; line-height: .85; color: transparent; -webkit-text-stroke: 1.5px var(--c); letter-spacing: -.02em; font-family: "Helvetica Neue", Arial, sans-serif; }
+  .rks-band-head .en { display: block; font-size: 11px; font-weight: 800; letter-spacing: .22em; color: var(--c); margin-bottom: 2px; }
+  .rks-band-head h2 { margin: 0; font-size: 21px; line-height: 1.3; color: #22202a; }
+  .rks-band-head .cnt { font-size: 12px; color: #7a7482; white-space: nowrap; padding-bottom: 3px; }
+  .rks-band-head .cnt b { font-size: 20px; color: var(--c); margin-right: 1px; }
   .rks-cards { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
   .rk-card { background: #fff; border-radius: 14px; overflow: hidden; box-shadow: 0 2px 10px rgba(0,0,0,.06); display: flex; }
   .rk-card-link { display: flex; flex-direction: column; color: inherit; text-decoration: none; width: 100%; }
@@ -198,9 +208,10 @@ const medal = (r: number) => (r === 1 ? 'gold' : r === 2 ? 'silver' : 'bronze');
     .rks-quiz { grid-template-columns: 1fr; }
     .rks-cards { display: flex; overflow-x: auto; scroll-snap-type: x mandatory; gap: 10px; padding-bottom: 6px; margin: 0 -16px; padding-left: 16px; padding-right: 16px; }
     .rk-card { flex: 0 0 78%; scroll-snap-align: start; }
-    .rks-band { padding: 0 16px 14px; }
-    .rks-band-h { font-size: 15px; padding: 8px 14px; white-space: nowrap; }
-    .rks-band-h .gi { font-size: 18px; }
+    .rks-band { padding: 18px 16px 16px; }
+    .rks-band-head { gap: 10px; }
+    .rks-band-head .no { font-size: 40px; }
+    .rks-band-head h2 { font-size: 17px; }
     .rks-h2 { font-size: 17px; }
   }
 </style>
