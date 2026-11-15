@@ -1,3 +1,3 @@
 [
-      {"task": "t694-mofa-ranking-shot.sh", "rc": 0, "out": " rc=0 - mofa: 2407 文字 「（キッズ外務省）世界いろいろ雑学ランキング ｜ 外務省」 → https://www.mofa.go.jp/mofaj/kids/ranking/index.html  **読むだけ。LLM 不使用（$0／回）。**"}
+      {"task": "x499-read-pacer-callers.sh", "rc": 0, "out": "間隔の決まりの呼ばれ方を読んだ / x499-read-pacer-callers.md"}
   ]
