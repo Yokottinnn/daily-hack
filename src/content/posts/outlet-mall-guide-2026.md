@@ -16,7 +16,6 @@ isPR: true
 だからアタシが作った。**日本ショッピングセンター協会の公式一覧（全32施設）**を土台に、三井・三菱地所サイモン・イオン・西武まで運営会社ごとに全部並べる。そのうえで、各社が出している**売上を横断でランキング**した。この1枚はどこにも載ってない。
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">先に一番の驚きを言っとく。<strong>日本で一番売れているショッピングセンターは、アウトレットよ。</strong>御殿場プレミアム・アウトレットの<strong>年1,409億円</strong>——ららぽーともラゾーナ川崎も、日本中のどのモールも抜いて、これが全SCの頂点。「アウトレット＝型落ちを安く売る場所」だと思ってるあんた、認識が10年古いの。</div>
 </div>
 
@@ -371,7 +370,6 @@ isPR: true
 </ul>
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-01-wave.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">アウトレットは<strong>「安物を漁る場所」じゃなくて、日本の商業のど真ん中</strong>よ。日本一のSCが御殿場で、店舗数日本一が木更津。2強が全国を分け合って、毎年何千億が動いてる。次に行くとき、この数字と「なぜ安いのか」を頭に入れて歩いてごらん。二重価格に踊らされず、本物の掘り出し物だけ抜いて帰れるようになるから。</div>
 </div>
 

@@ -29,7 +29,6 @@ references:
 だからアタシが作った。ブランド品の**ブランドオフ**、Amazonアカウントで使う**リコマース**、スマホ専門の**モバゾウ**の3社について、公式の利用規約・FAQ・ご利用ガイドを読み、**①断ったときの返送料 ②お金が手元に来るまでの日数 ③受け取り方（現金振込かAmazonギフトカードか）**を同じ表にそろえた。数字は**2026年10月16日時点**のもの。
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">先に一番の驚きを言っとく。<strong>3社とも「送るとき」の送料は無料。でも「断って返してもらうとき」の送料は、モバゾウだけ自分持ち。</strong>しかも理由を問わず、よ。逆にリコマースは返送無料だけど、お金は<strong>Amazonギフトカードでしか受け取れない</strong>。どこも一長一短なの。</div>
 </div>
 
@@ -296,6 +295,5 @@ references:
 <p class="source-note">掲載の条件・価格・キャンペーンは2026年10月16日時点で各社の公式ページを確認したもの。改定・終了されることがあるため、申し込む前に各公式で最新の条件を確認すること。</p>
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-01-wave.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">「高く売れるのはどこ？」って聞きたくなる気持ちは分かる。でも査定額は品物しだいで、送ってみるまで分からないの。<strong>だから先に決めるのは「断ったらいくら」と「何で受け取るか」。</strong>そこさえ押さえれば、安く叩かれても損はしないわ。</div>
 </div>

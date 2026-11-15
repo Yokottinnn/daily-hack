@@ -18,7 +18,6 @@ references: ["https://tokyo-toyosu.manyo.co.jp/price/", "http://www.shopping-sum
 このページは、晴海在住のアタシが**湾岸の主要サウナを「コスパ・サウナの質・水風呂・外気浴・割引・Xの生の口コミ」で徹底比較**した保存版。**コスパ最強・ととのい重視・個室デート派**、用途別に「あなたが行くべき1軒」が分かる。
 
 <div class="hakkako-says">
-<img src="/images/expr-04-cheer.png" alt="ハッカー子" />
 <p>結論を先に。<strong>コスパ最強は「月島温泉」（実質1,000円・軟水の水風呂が神）</strong>。<strong>ととのい重視なら「泉天空の湯 有明」（14℃のストロング水風呂＋強ロウリュ）</strong>、<strong>観光・1日満喫なら「豊洲 万葉倶楽部」（千客万来の海鮮グルメ＋天然温泉の露天）</strong>、<strong>デート/個室派は「ALWAYS SAUNA 芝浦」</strong>。料金もキャンペーンも全然違うから、下の比較表で自分に合うのを選んで。</p>
 </div>
 
@@ -198,6 +197,5 @@ references: ["https://tokyo-toyosu.manyo.co.jp/price/", "http://www.shopping-sum
 → 関連: [湾岸エリア スーパー徹底比較](/posts/wangan-supermarkets-2026/) ／ [湾岸エリア 節約スポット完全マップ](/posts/wangan-saving-spots-2026/) ／ [湾岸×お金 完全ガイド 2026](/posts/wangan-money-guide-2026/)
 
 <div class="hakkako-says">
-<img src="/images/expr-05-smug.png" alt="ハッカー子" />
 <p>サウナは“どこでも同じ”じゃないの。水風呂の温度、外気浴の抜け感、混雑、そして財布へのダメージ——全部違う。湾岸はこれだけ選択肢があるんだから、その日の気分で使い分けるのが正解。まずは区民優待が効く有明か、サクッと月島から試してみて。</p>
 </div>

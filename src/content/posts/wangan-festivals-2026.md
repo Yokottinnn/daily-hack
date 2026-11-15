@@ -19,7 +19,6 @@ references: ["https://tokyo-hanabi-festival.com/", "https://koto-hanabi.com/", "
 このページは、中央区（晴海・月島・勝どき・佃）と江東区（豊洲・門前仲町）を中心に、**2026年7〜11月の湾岸エリアの花火・祭り・盆踊りをエリア別マップ付きで完全網羅**。「いつ・どこで・どう楽しむか」、そして<strong>意外と知らない“今年からの変更点”</strong>まで、地元目線でまとめたわ。
 
 <div class="hakkako-says">
-<img src="/images/expr-04-cheer.png" alt="ハッカー子" />
 <p>アタシ晴海在住だから断言する。<strong>今年の湾岸は本気で激アツ</strong>。特に大華火は11年ぶりだし、佃と深川の本祭りが重なるのは“次いつ揃うか分からない”レベルのレア。ただし<strong>東京湾大華火祭は昔と違って「全席チケット制」</strong>になってて、ふらっと海辺で無料観覧…はもうできない。ここだけは絶対に押さえて。<strong>そして 9月下旬のいま、区民優先の抽選はもう 3回とも終わってる。</strong>残ってるのは<strong>先着の一般チケット</strong>だけだから、行く気があるなら先に押さえて。</p>
 </div>
 
@@ -157,7 +156,6 @@ references: ["https://tokyo-hanabi-festival.com/", "https://koto-hanabi.com/", "
 <p class="source-note">出典：<a href="https://tokyo-hanabi-festival.com/venue/" target="_blank" rel="noopener">東京湾大華火祭 公式サイト「会場案内・観覧席について」</a>（2026年9月21日 時点）</p>
 
 <div class="hakkako-says">
-<img src="/images/expr-07-gasp.png" alt="ハッカー子" />
 <p>アタシの周りでも「区民枠があるから大丈夫」って油断してた人、<strong>もう買えなくなってる</strong>の。区民優先の抽選は<strong>3回とも終わってる</strong>から、いま動けるのは<strong>先着の一般チケットだけ</strong>。しかも<strong>10/24 当日の朝10時が締切</strong>で、決済方法によってはもっと早く閉まる。<strong>豊洲ぐるり公園と有明</strong>は一般会場だから、晴海に住んでなくても対岸から普通に見られるわよ。あと海の上から見ようとしてる人、<strong>標旗を持たない船は海上観覧そのものが不可</strong>だから気をつけて。</p>
 </div>
 
@@ -323,6 +321,5 @@ references: ["https://tokyo-hanabi-festival.com/", "https://koto-hanabi.com/", "
 → 関連: [湾岸エリア スーパー徹底比較 18店舗](/posts/wangan-supermarkets-2026/) ／ [湾岸エリア 節約スポット完全マップ](/posts/wangan-saving-spots-2026/) ／ [ポイントサービス徹底分析 2026](/posts/point-service-complete-guide-2026/)
 
 <div class="hakkako-says">
-<img src="/images/expr-05-smug.png" alt="ハッカー子" />
 <p>このページ、公式発表が出るたびに更新していくから、夏前にもう一回見にきてね。チケット発売日と本祭りの渡御時刻だけは、絶対に取りこぼさないように。湾岸の夏、一緒に全部回るわよ。</p>
 </div>

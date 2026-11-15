@@ -22,7 +22,6 @@ references:
 でもね、浮かれる前に大事なこと。**今回は「完全チケット制」で当日券なし**。ふらっと行って見られる花火じゃないの。**区民優先の抽選はもう終わっていて、残っているのは一般先着**——受付は**10月24日10:00まで**だけど、人気会場から埋まっていく方式よ。晴海在住のアタシが、全21会場のランクと見え方の違い・料金・申込手順まで、取りこぼしゼロでガイドするわ 🎆
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-04-cheer.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">結論を先に。<strong>いま取れるのは「一般先着」だけ。</strong>区民優先の抽選（7〜8月）はすべて終わってる。一般は<strong>10月24日10:00まで先着</strong>で、<strong>当日券は無い</strong>から、行くと決めたならここで取るしかない。会場は21ヶ所あって<strong>見え方も料金も全然ちがう</strong>——下のマップと早見表で選んで。</div>
 </div>
 
@@ -172,7 +171,6 @@ references:
 </ul>
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">晴海在住のアタシ的おすすめは、<strong>“正面”を優先して選ぶ</strong>こと。打上げは晴海ふ頭沖だから、<strong>晴海ふ頭公園（①②）・日の出ふ頭（⑩）</strong>が正面クラス。ここが埋まっていたら、<strong>ランクを下げるより会場を変える</strong>ほうが満足度は落ちにくい。豊洲・有明側は距離があるぶん、視界が開けていて全体が見やすいのよ。</div>
 </div>
 

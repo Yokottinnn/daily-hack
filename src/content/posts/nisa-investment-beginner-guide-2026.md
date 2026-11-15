@@ -15,7 +15,6 @@ author: "hacker-ko"
 新NISA、まさかまだ口座すら開いてないの？2024年から制度が刷新されて、**生涯1,800万円の非課税投資枠**が誰でも使えるようになったってのに、銀行に放置されたあんたの預金は今日も0.001%の金利で泣いてるわよ。月3万円を20年積み立てるだけで、ざっくり1,000万円超えのリターンが見える計算。やらない理由、ある？アタシが2026年最新版の最短ルートを教えてあげるから、この記事1本で口座開設から積立設定まで終わらせよ。
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-04-cheer.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">「投資こわい」とか言ってる暇に、新NISAは <strong>非課税で1,800万円</strong> 運用できる箱を国が用意してくれてるのよ。読み終わったその日のうちに口座申込まで終わらせる構成にしてあるから、サクッと終わらせなさいよ。</div>
 </div>
 
@@ -205,7 +204,6 @@ author: "hacker-ko"
 
 <div class="compare-cards">
   <article class="compare-card recommended">
-    <span class="compare-card-mascot"><img src="/images/expr-05-smug.png" alt="" /></span>
     <h3 class="brand-h"><img class="brand-logo" src="/images/nisa-investment-beginner-guide-2026/logos/sbisec.png" alt="SBI証券のロゴ" loading="lazy" /><span>SBI証券</span></h3>
     <p class="tagline">ネット証券口座数No.1。クレカ積立・銘柄数・三井住友カード連携で総合力最強。</p>
     <dl>
@@ -219,7 +217,6 @@ author: "hacker-ko"
   </article>
 
   <article class="compare-card recommended">
-    <span class="compare-card-mascot"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <h3 class="brand-h"><img class="brand-logo" src="/images/nisa-investment-beginner-guide-2026/logos/rakutensec.png" alt="楽天証券のロゴ" loading="lazy" /><span>楽天証券</span></h3>
     <p class="tagline">楽天経済圏との連携が最強。楽天カード積立で楽天ポイントが貯まる定番。</p>
     <dl>
@@ -233,7 +230,6 @@ author: "hacker-ko"
   </article>
 
   <article class="compare-card">
-    <span class="compare-card-mascot"><img src="/images/expr-09-arms-crossed.png" alt="" /></span>
     <h3>マネックス証券</h3>
     <p class="tagline">米国株分析ツールが業界最強。dカード積立で <strong>1.1%還元</strong>、ドコモ経済圏ユーザーの本命。</p>
     <dl>

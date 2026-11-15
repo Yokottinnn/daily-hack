@@ -26,7 +26,6 @@ references: ["https://www.tokyorinkai-koen.jp/news/oshirase/14886/", "https://ww
 だからアタシがまとめた。土台は**主催の東京臨海広域防災公園のお知らせ**と、出展する**新電元工業のプレスリリース**。行く前に知っておきたいことだけ並べたわよ。
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">先に一番大事なことを言っとく。<strong>入場は無料、時間は10時から15時まで。</strong>それと<strong>会場に駐車場は無い</strong>。ゆりかもめの有明駅から歩いて2分よ。</div>
 </div>
 
@@ -177,6 +176,5 @@ YouTube には、2024 年のぼうさいモーターショーを車両ごとに�
 <p class="source-note">表紙は主催（東京臨海広域防災公園）の告知チラシ。出典：<a href="https://www.tokyorinkai-koen.jp/news/oshirase/14886/" target="_blank" rel="noopener">東京臨海広域防災公園「ぼうさいモーターショー2026開催！」（2026年10月24日）</a>／<a href="https://prtimes.jp/main/html/rd/p/000000154.000063577.html" target="_blank" rel="noopener">新電元工業株式会社のプレスリリース（PR TIMES・2026年10月23日）</a>。天候などで内容が変わることがある。</p>
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-01-wave.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">タダで消防車と対策本部車を間近で見られて、EVにも乗れる。<strong>電車で行って、15時までに着く</strong>。それだけよ。</div>
 </div>

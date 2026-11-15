@@ -24,7 +24,6 @@ references:
 今日はアタシが、2026年に効いてくる主要カードの改悪を**公式情報ベースで時系列に整理**して、「で、結局どうすればいいの？」の乗り換え先まで全部置いていく。読み終わる頃には、あんたの財布は一段強くなってるはずよ 😏
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-09-arms-crossed.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">先に結論だけ言うわね。<strong>「チャージで稼ぐ」「公共料金をカードで払う」「カード現物のタッチで払う」</strong>——この3つで得してた人は、2026年に軒並みハシゴを外されてる。心当たりがあるなら、下まで読みなさい。</div>
 </div>
 
@@ -154,7 +153,6 @@ PayPay陣営は自社決済への集約を強めていて、<strong>チャージ
 
 <div class="compare-cards">
   <article class="compare-card recommended">
-    <span class="compare-card-mascot"><img src="/images/expr-05-smug.png" alt="" /></span>
     <h3 class="brand-h"><img class="brand-logo" src="/images/credit-card-kaiaku-2026/logos/rakuten-card.png" alt="楽天カードのロゴ" loading="lazy" /><span>楽天カード</span></h3>
     <p class="tagline">万人向けの王道。改悪見合わせの楽天ペイと合わせて経済圏が安定。</p>
     <dl>
@@ -199,7 +197,6 @@ PayPay陣営は自社決済への集約を強めていて、<strong>チャージ
 </div>
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-01-wave.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">タイプ別の最適解だけ置いとくわね。<br>・<strong>楽天をよく使う</strong>→ 楽天カード＋楽天ペイで決まり。<br>・<strong>使う店がバラバラ</strong>→ リクルートカードの1.2%が無難。<br>・<strong>コンビニ・外食が多い</strong>→ 三井住友（NL）を“スマホタッチ”で。現物タッチは卒業しなさい。<br>・<strong>固定費（公共料金）</strong>→ 半減したdカードから、1%以上を維持できるカードへ移すだけで年数千円戻る。</div>
 </div>
 

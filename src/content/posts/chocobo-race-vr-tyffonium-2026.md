@@ -27,7 +27,6 @@ event:
 だからアタシがまとめた。土台は<strong>ティフォンのプレスリリース</strong>。いつから・いくら・誰が乗れるかを並べたわよ。
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">先に一番大事なことを言っとく。<strong>始まるのは2026年11月20日（金）</strong>だけど、<strong>予約はもう受け付けてる</strong>。料金は<strong>1回2,900円</strong>で<strong>約15分</strong>。<strong>7歳以上</strong>から、<strong>13歳未満は保護者の同意</strong>が要るわよ。</div>
 </div>
 

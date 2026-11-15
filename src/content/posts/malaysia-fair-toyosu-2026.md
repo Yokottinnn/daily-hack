@@ -26,7 +26,6 @@ references: ["https://www.atpress.ne.jp/news/596151", "http://malaysiafair.jp/"]
 だからアタシがまとめた。土台は**運営事務局のプレスリリース**（駐日マレーシア大使館などが主催）。何が食べられて、何が体験できるかを並べたわよ。
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">先に一番大事なことを言っとく。<strong>2026年10月30日（金）〜11月1日（日）の3日間、10〜18時、入場無料。</strong>東京は2年ぶりで、前回の2日間から<strong>3日間に延びた</strong>わ。平日の金曜も開いてるわよ。</div>
 </div>
 

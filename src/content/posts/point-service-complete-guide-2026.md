@@ -20,7 +20,6 @@ references: ["https://kakakumag.com/money/?id=20897", "https://www.warau.jp/", "
 このページは、**アタシが主要なポイントサービスを片っ端から使い倒した上で**、2026年の全体像を「**4象限マップ**」で一度きれいに整理した保存版。共通ポイントから流通系・交通系、ポイントサイト、移動ポイ活まで、**どれを・どう組み合わせれば一番得か**が読み終わるころにはハッキリする。（約12分で読めます。最新動向＝Vポイント統合・PayPay/楽天/dの改悪・ポイントサイト業界再編まで反映）
 
 <div class="hakkako-says">
-<img src="/images/expr-05-smug.png" alt="ハッカー子" />
 <p>先に結論。<strong>①「軸」になる共通ポイントを1つ決める（楽天/PayPay/d/V/Ponta）②生活圏に合う“第二の軸”を足す（イオン民ならWAON、電車通勤ならJRE…）③ポイントサイト経由で二重取り ④移動・歩数で取りこぼし回収</strong>。全部やらなくていい。この順で“自分の地図”を作れば、もう迷わない。</p>
 </div>
 
@@ -47,7 +46,6 @@ references: ["https://kakakumag.com/money/?id=20897", "https://www.warau.jp/", "
 <p class="source-note">出典：各サービスの公式サイト。JAL Wellness &amp; Travel は月額550円（初回は入会日から翌月末まで無料）の有料サービス（2026年10月5日に公式で確認）。</p>
 
 <div class="hakkako-says">
-<img src="/images/expr-01-wave.png" alt="ハッカー子" />
 <p>だから大事なのは「どのポイントサイトが一番稼げるか」だけじゃなくて、<strong>普段の支払い・移動・買い物のどこで、どのポイントを拾うかを1枚の地図にすること</strong>。広告を見る時間がない人でも、支払い方を変えるだけで“使えるお金”は増やせるのよ。</p>
 </div>
 
@@ -202,7 +200,6 @@ references: ["https://kakakumag.com/money/?id=20897", "https://www.warau.jp/", "
 </div>
 
 <div class="hakkako-says">
-<img src="/images/expr-09-arms-crossed.png" alt="ハッカー子" />
 <p>第二の軸で大事なのは<strong>「自分の生活圏に1つだけ足す」</strong>こと。丸の内ポイントなんて大手町勤務以外には1円の価値もないけど、該当する人には最強。<strong>全部入れる必要はゼロ</strong>。自分が週1以上行く場所のやつだけでいい。</p>
 </div>
 
@@ -286,7 +283,6 @@ references: ["https://kakakumag.com/money/?id=20897", "https://www.warau.jp/", "
 | <span class="cell-brand"><img class="brand-logo-sm" src="/images/point-service-complete-guide-2026/logos/ecnavi.png" alt="ECナビのロゴ" loading="lazy" /><strong>ECナビ/ポイントタウン</strong></span> | DIGITALIO／GMOメディア・各900万人級 | 大手資本の安心感、交換ハブ(PeX) | 安心感重視 |
 
 <div class="hakkako-says">
-<img src="/images/expr-07-gasp.png" alt="ハッカー子" />
 <p>ポイントサイトで一番大事なのは<strong>「同じ案件でもサイトで還元が全然違う」</strong>こと。実際、同じクレカ1枚でも<strong>サイト間で最大7,000円分くらい差が出る</strong>ことがザラ。だから新しくクレカや口座を作るときは、必ず横断比較サイトで“今いちばん高いサイト”を確認してから経由する。これだけで年間の収穫が変わる。</p>
 </div>
 
@@ -763,7 +759,6 @@ references: ["https://kakakumag.com/money/?id=20897", "https://www.warau.jp/", "
 5. **移動・スキマで回収** — 無理しない範囲で。**年1回は棚卸し**（改悪・統合・再編が毎年ある）。
 
 <div class="hakkako-says">
-<img src="/images/expr-04-cheer.png" alt="ハッカー子" />
 <p>ポイ活は「たくさんやる人」より<strong>「整理できてる人」が勝つ</strong>。まず軸を1つ、生活圏の第二の軸を1つ、ポイントサイト経由を習慣に。それだけで上位2割。このページをブックマークして、年1回“自分の地図”を見直しにきてね。あんたのポイ活、ちゃんと体系立てていこ。</p>
 </div>
 

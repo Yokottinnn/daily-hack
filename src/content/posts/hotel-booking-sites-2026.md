@@ -32,7 +32,6 @@ references:
 だからアタシが作った。**各社のポイント案内・利用規約・ヘルプページと、楽天グループのプレスリリース**だけを土台に、国内ホテル予約サイト5社の還元とキャンセルの扱いを1枚にまとめた。数字はすべて**2026年10月16日時点**の公式ページの値よ。
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">先に一番の驚きを言っとく。<strong>楽天トラベルの会員特典は、2026年8月から「ポイント」じゃなくなった。</strong>予約するその場で最大4%引かれる即時割引に変わって、クーポンとも併用できる。逆にトラベリストは、ホテルではポイントが1ptも貯まらないのよ。</div>
 </div>
 
@@ -365,7 +364,6 @@ references:
 <h2 id="checklist">予約前に確かめる4つ</h2>
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-09-arms-crossed.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">還元の差は1泊で数百円、取消料の差は数千円〜宿泊代まるごと。<strong>確定ボタンを押す前の30秒</strong>で、この4つだけは見ておきなさい。</div>
 </div>
 
@@ -397,7 +395,6 @@ references:
 </div>
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-01-wave.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">ホテル予約サイトは<strong>「還元率の高い順」じゃなくて「重ねられる順」</strong>で選ぶものよ。楽天カードがあるなら楽天トラベル、イオンカードがあるならイオンコンパス。それから、確定ボタンの前にキャンセル規定を開く。これだけで損はほぼ消えるわ。</div>
 </div>
 

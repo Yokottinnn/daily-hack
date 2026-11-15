@@ -28,7 +28,6 @@ TOKYO FMの番組『From INI』の5周年イベントは、<strong>2027年2月10
 だからアタシがまとめた。土台は<strong>TOKYO FMのプレスリリースとイベントの公式サイト</strong>。いつ・どこで・いくら・いつまでに申し込むかを並べたわよ。
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">先に一番大事なことを言っとく。<strong>ファンクラブ先行（抽選）は2026年11月8日（日）23:59まで</strong>。チケットは<strong>10,000円</strong>で、<strong>1回の申し込みで4枚まで</strong>。<strong>電子チケットだけ</strong>で、<strong>転売・譲渡はできない</strong>わよ。</div>
 </div>
 

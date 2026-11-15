@@ -27,7 +27,6 @@ references:
 だからアタシが作った。土台は**Amazonの公式発表（aboutamazon.jp）とポイントアップキャンペーンのページ、楽天市場の各キャンペーンページ**。書いてある条件と上限から「何円買うと上限に届くか」を計算し、さらに**同じ商品7つの値段とポイントを、Amazonと楽天市場で見比べた**。
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">先に一番の驚きを言っとく。<strong>Amazonは「期間中の買い物の合計」が1万円を超えるとポイントが上乗せされる。楽天市場は「1,000円以上買ったお店の数」が増えるほど倍率が上がる。</strong>同じ1万円の買い物でも、ポイントが増える条件が正反対なの。だから<strong>1万円以上の物を1つ買うならAmazon、1,000円以上の物をいろんなお店で買うなら楽天市場</strong>。それと、同じ商品の値段比べは<strong>あんたの楽天市場の倍率しだいで勝ち負けが入れ替わる</strong>から、最後まで読みなさい。</div>
 </div>
 
@@ -399,7 +398,6 @@ Amazon プライム感謝祭 2026 で、視聴者が選んだ売れ筋のラン�
 </div>
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-01-wave.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">Amazonか楽天市場か、で悩むのはもうやめなさい。<strong>1万円以上の物を1つ買うならAmazon、1,000円以上の物をいろんなお店で買うなら楽天市場。</strong>同じ商品の値段比べは、<strong>自分の楽天市場の倍率を確かめてから</strong>。それで、どっちが安いかが決まるわよ。Amazonプライム感謝祭は<strong>10月19日（月）23:59まで</strong>で、エントリーしないと上乗せは付かないからね。</div>
 </div>
 

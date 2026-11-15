@@ -21,7 +21,6 @@ references:
 料金ランキングって、肝心なことを隠してるの。**「いくら払うか」は書いてあるのに「その金でどれだけ速いか」は書いてない**。アタシに言わせれば、それは値札だけ見て中身を見てないのと同じ。今日は料金じゃなくて、**速度コスパ＝速度単価**っていう独自指標であんたの常識をぶっ壊すわよ。
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">結論を先に置いとくわ。<strong>「最安SIM」は平日昼に1Mbpsを切ることが多くて、速度で割ると実は割高</strong>。逆にahamo・povo・LINEMOの大手サブブランドは、料金は中位でも昼に速度が落ちないから「1Mbpsあたりの月額」が安い。料金だけのランキングは“使えない速度”を平気で売りつけてくるのよ。</div>
 </div>
 
@@ -70,7 +69,6 @@ references:
 ここで気づいてほしいのは、**「料金が安い順」と「昼が速い順」がほぼ逆転してる**こと。日本通信やmineoは料金で見れば優等生。でも昼の実効速度では大手サブブランドに大きく離されてる。料金ランキングが見せない“裏面”がこれよ。
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-02-pout.png" alt="ハッカー子" /></div>
   <div class="hakkako-quote">アタシが一番ムカつくのが、最安SIMを「速度も十分！」って雑に売る記事。<strong>平日昼に0.5〜1Mbps</strong>って、地図もLINE画像も詰まる速度よ? それを「十分」って言うのは、あんたのランチタイムを舐めてるのと同じ。安さの裏で“使えない時間帯”を黙って売りつけてるだけ。</div>
 </div>
 
@@ -95,7 +93,6 @@ references:
 mineoには平日昼の谷を避ける「マイそく」みたいな割り切り型プランや、独自の節約機能もあるから、**昼はWiFi前提で割り切れる人**なら速度単価の数字ほど悪くは感じない。でも「昼にスマホ単体でサクサク使いたい」なら、その用途には向いてないってことを数字が正直に語ってるの。
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-09-arms-crossed.png" alt="ハッカー子" /></div>
   <div class="hakkako-quote">断言するわ。<strong>「昼にスマホ単体でちゃんと使いたい」なら、MVNO最安は買うな</strong>。多少高くても大手サブブランドを選びなさい。100円安いプランで毎日のランチタイムをイライラして過ごすって、コスパの計算ができてない証拠よ。時間も立派なコストなの。</div>
 </div>
 
@@ -185,7 +182,6 @@ mineoには平日昼の谷を避ける「マイそく」みたいな割り切り
 料金の総合比較・キャンペーン・容量の全体像が知りたいあんたは、ピラー記事の[格安SIM徹底比較（料金・品質）](/posts/cheap-sim-comparison-2026/)に戻りなさい。そっちで全体を掴んでから、この記事の速度コスパ視点で最終判断する——それが一番賢い順番よ。
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-04-cheer.png" alt="ハッカー子" /></div>
   <div class="hakkako-quote">迷ったら<strong>ahamo・povo・LINEMOの大手サブブランド3択</strong>で、昼の速度コスパはほぼ外さない。料金の100円差で毎日のランチタイムを犠牲にするより、ちょっと払って“いつでも速い”を買いなさい。それがアタシ流のコスパってもんよ。じゃ、行ってらっしゃい 👋</div>
 </div>
 

@@ -26,7 +26,6 @@ references: ["https://www.toshiseibi.metro.tokyo.lg.jp/bunyabetsu/kotsu_butsuryu
 だからアタシがまとめた。土台は**東京都の議事概要**（2026年8月20日の会議）と**東京都の事業計画案**、**中央区のお知らせ**。何が決まって、何がまだ決まっていないかを分けて書いたわよ。
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">先に一番大事なことを言っとく。東京都は<strong>2026年8月20日の会議で、臨海地下鉄の地下の空間に「避難施設としての機能を付ける前提」で検討を進める</strong>と確認したわ。<strong>どの駅にどれくらいの規模で、はまだ決まっていない。</strong>それと、晴海の第一生命ホールで<strong>2026年12月8日（火）に推進大会（参加無料）</strong>があるわよ。</div>
 </div>
 

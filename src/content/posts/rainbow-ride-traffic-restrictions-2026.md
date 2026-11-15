@@ -19,7 +19,6 @@ references: ["https://grand-cycle-tokyo.jp/traffic_restrictions/"]
 だからアタシがまとめた。土台は<strong>GRAND CYCLE TOKYOの「交通規制のお知らせ」と回り道の案内</strong>。止まる時間・止まる道・バスへの影響を並べたわよ。
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">先に一番大事なことを言っとく。<strong>首都高は朝4時から止まる</strong>。<strong>レインボーブリッジも東京ゲートブリッジも通れない</strong>から、祝日の朝に空港や千葉へ車で出る人は、<strong>4時より前に出るか、14時より後</strong>にすること。</div>
 </div>
 
@@ -186,6 +185,5 @@ references: ["https://grand-cycle-tokyo.jp/traffic_restrictions/"]
 <p class="source-note">表紙はGRAND CYCLE TOKYO実行委員会の「交通規制のお知らせ」の上の部分（16:9に切り取った）。出典：<a href="https://grand-cycle-tokyo.jp/traffic_restrictions/" target="_blank" rel="noopener">GRAND CYCLE TOKYO「交通規制について」</a>。</p>
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-01-wave.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">同じ日、青海のシティサーキット東京ベイでは<a href="/posts/jegt-e-motorsports-experience-odaiba-2026/">レースシミュレーターの無料体験</a>もある。<strong>この日の湾岸は、車より電車</strong>よ。</div>
 </div>

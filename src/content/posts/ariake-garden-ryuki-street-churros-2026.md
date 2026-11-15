@@ -28,7 +28,6 @@ references: ["https://prtimes.jp/main/html/rd/p/000000515.000062100.html"]
 だからアタシがまとめた。土台は<strong>住友不動産商業マネジメントのプレスリリース</strong>。2店の場所・時間・特典を並べたわよ。
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">先に一番お得なことを言っとく。<strong>チュロスのカフェコンボが1,230円→500円</strong>。ただし<strong>オープン日から先着100セットだけ</strong>。龍記の10%OFFは<strong>2026年11月20日（金）まで</strong>の5日間よ。</div>
 </div>
 
@@ -224,6 +223,5 @@ references: ["https://prtimes.jp/main/html/rd/p/000000515.000062100.html"]
 <p class="source-note">表紙は住友不動産商業マネジメント株式会社のプレスリリースの告知画像。出典：<a href="https://prtimes.jp/main/html/rd/p/000000515.000062100.html" target="_blank" rel="noopener">住友不動産商業マネジメント株式会社のプレスリリース（2026年11月2日）</a>。画像はすべてイメージ。</p>
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-01-wave.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">観劇や温泉の日に寄るなら、<strong>チケットかレシートを捨てずに持っていく</strong>こと。それだけで龍記はドリンク1杯、チュロスは130円引きよ。</div>
 </div>

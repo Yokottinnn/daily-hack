@@ -26,7 +26,6 @@ references: ["https://prtimes.jp/main/html/rd/p/000000019.000145961.html", "http
 だからアタシがまとめた。土台は**大会事務局のプレスリリース**（2026年8月31日）と**大会の公式サイト**。席の値段を日付ごとに並べて、どの日に行くのがいちばん得かを書いたわよ。
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">先に一番大事なことを言っとく。<strong>2026年10月26日（月）〜30日（金）は、S席・A席が6,000円。小学生以下はA席（自由席）が無料。</strong>決勝の11月1日（日）はS席8,000円よ。<strong>当日券は1,000円高い</strong>から、前の日までに買っておきなさい。</div>
 </div>
 

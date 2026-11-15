@@ -32,7 +32,6 @@ references:
 だからアタシが作った。**1日8,000歩を30日**歩いたときに、aruku&・RenoBody・Powl の3つが**公式に書いている条件だけ**でいくらになるかを計算した。そのうえで、ハピタスとちょびリッチの**入会特典を条件ごと**読み、歩数の何か月分にあたるかを出した。土台は各社の公式ヘルプ・友達紹介ページ・交換ページと、総務省の資料。数字は**2026年10月16日時点**のもの。
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">先に一番の驚きを言っとく。<strong>1か月まじめに歩いても、3アプリの額は10円・30円・48〜144円。</strong>ハピタスの紹介特典で最初にもらえる100ptだけで、RenoBodyの3か月分を超えるの。歩くのはおまけ。<strong>お金の入口はポイントサイトのほう</strong>よ。</div>
 </div>
 
@@ -326,6 +325,5 @@ references:
 <p class="source-note">掲載の条件・換算・キャンペーン期間は2026年10月16日時点で各社の公式ページを確認したもの。改定・終了されることがあるため、申し込む前に各公式で最新の条件を確認すること。</p>
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-01-wave.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">1か月歩いて10円。笑っていいわよ、アタシも計算して笑ったから。<strong>でも歩くのをやめろって話じゃない。</strong>歩くのは体のため、お金はポイントサイトの入口で取る。<strong>役割を分けるだけで、桁が2つ変わる</strong>の。</div>
 </div>

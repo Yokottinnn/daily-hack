@@ -30,7 +30,6 @@ event:
 <p class="source-note">この記事の日時・料金は2026年11月8日に公式ページで確かめたもの。</p>
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">先に一番大事なことを言っとく。入場1,100円のうち<strong>500円は買い物券で戻ってくる</strong>。ただし券は<strong>ファッション・雑貨の店で2,000円以上</strong>買うときだけ使える。それと<strong>支払いは現金だけ</strong>よ。</div>
 </div>
 
@@ -184,6 +183,5 @@ event:
 <p class="source-note">表紙は有明ガーデン公式サイトの告知画像（16:9に切り取った）。出典：<a href="https://ariake.shopping-sumitomo-rd.com/event/5240/" target="_blank" rel="noopener">有明ガーデン「あそべ～る水族館」</a></p>
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-01-wave.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">同じ3連休は、2階で<strong>空飛ぶクルマの展示（無料）</strong>もやってる。水族館で遊んで、展示を見て、夜はイルミネーション。<strong>有明ガーデンだけで1日つぶせる</strong>わ。</div>
 </div>

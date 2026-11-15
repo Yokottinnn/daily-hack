@@ -21,7 +21,6 @@ references:
 でも、ただ嘆いても財布は守れない。**いつ・何が上がるかを先回りして、買い方と固定費で受け止める**——それが今夏の家計防衛よ。改定日と実効策を、出典つきで整理したから使いなさい 😏
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-09-arms-crossed.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">先に結論。<strong>①保存が効く物は"改定日の前"に買う（7/1・8/1が山）②NB→PB置換で1〜3割カット③電気・ガスは8月が政府値引き最大（低圧4.5円/kWh）④ポイ活は還元日×日用品特売×単価比較で二重取り</strong>。一時的な食品値上げより、固定費見直しの方が効果は大きくて続くわよ。</div>
 </div>
 
@@ -49,7 +48,6 @@ references:
 
 <div class="compare-cards">
   <article class="compare-card">
-    <span class="compare-card-mascot"><img src="/images/expr-06-shock.png" alt="" /></span>
     <h3>7月1日〜</h3>
     <dl>
       <dt>パン</dt><dd>山崎製パン306品目(平均5.6%)・Pasco・フジパン</dd>
@@ -59,7 +57,6 @@ references:
     </dl>
   </article>
   <article class="compare-card">
-    <span class="compare-card-mascot"><img src="/images/expr-07-gasp.png" alt="" /></span>
     <h3>8月1日〜</h3>
     <dl>
       <dt>ツナ缶</dt><dd>はごろも シーチキン(6.7〜25%)・極洋</dd>
@@ -69,7 +66,6 @@ references:
     </dl>
   </article>
   <article class="compare-card">
-    <span class="compare-card-mascot"><img src="/images/expr-02-pout.png" alt="" /></span>
     <h3>夏前の直近波</h3>
     <dl>
       <dt>食用油</dt><dd>J-オイルミルズ 6/1納品(家庭用11〜16%)・日清オイリオ(最大21%)</dd>
@@ -80,7 +76,6 @@ references:
 </div>
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">狙いはシンプル。<strong>保存が効く"缶詰・乾麺・パスタ・トイレ紙・カイロ・コーヒー"は改定日(7/1・8/1)の前に前倒し買い</strong>。逆に生鮮や賞味期限が短い物を焦って買いだめするのは、廃棄で損するから禁物よ。</div>
 </div>
 
@@ -128,21 +123,18 @@ references:
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">【えっ、また値上げ…！？家計の悲鳴が聞こえる】<br>8月からまた食品の値上げラッシュが始まるみたい…しかも前年同月の約8割増って、家計へのダメージが大きすぎますよね</p>&mdash; まくのべ (@macnobi) <a href="https://twitter.com/macnobi/status/2083723777075298424">2026年8月2日</a></blockquote>
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-07-gasp.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">この「また値上げ…」の体感、まさに数字が裏付けてる。上で見た通り<strong>7月2,566・9月3,029品目</strong>と波は続くの。嘆くだけじゃ財布は守れないから、<strong>保存が効く物は"改定日の前"に前倒し買い</strong>——これが一番シンプルに効く先回りよ。</div>
 </div>
 
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">大王製紙は2026年5月に発表した通り、8月1日納品分からエリエールブランドのトイレットペーパー、ティッシュ、生理用品、紙おむつなど家庭用・業務用全製品を15%以上値上げする。<br><br>給与が上がらない現状において、誰もが避けられない必需品が15%も値上がりすることは、家計に大きな打撃となる。</p>&mdash; 船乗り投資家 (@Tyyyaaabbb) <a href="https://twitter.com/Tyyyaaabbb/status/2081753397066412354">2026年7月27日</a></blockquote>
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">トイレ紙・ティッシュは<strong>保存が効く＝まさに"改定日前の前倒し買い"が効く筆頭</strong>。しかも<strong>NB→PB（トップバリュ/セブンプレミアム等）置換</strong>で1〜3割カットできる定番よ。必需品こそ、単価（枚・m）で比べて賢く積んでおきなさい。</div>
 </div>
 
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">【悲報】<br><br>我が家の再エネ賦課金。<br>多くの方に見てほしい。<br><br>ただでさえ年々上がっているのに、5月からさらに値上げ。<br>これ、冬になったら1万に近づくよ…。<br>年間６万！？はぁ・・・。<br><br>誰かの利権のためになっている再エネ賦課金。<br>早くやめてほしい。<br>ぜひ拡散してほしい。</p>&mdash; 烏丸 (@sirozukuri) <a href="https://twitter.com/sirozukuri/status/2083508040133644429">2026年8月1日</a></blockquote>
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-09-arms-crossed.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">食品より効くのは、実は<strong>電気・ガスの"固定費"側</strong>。上で書いた通り<strong>8月は政府値引きが最大（低圧4.5円/kWh・都市ガス18円/㎥）</strong>だから今夏はまだ守られてるけど、<strong>10月以降は補助縮小で"秋の再値上げ"</strong>が来る。だからこそ、一度やれば毎月効く<strong>プラン見直し・格安SIM・サブスク棚卸し</strong>が最強の防御なのよ。</div>
 </div>
 

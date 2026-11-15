@@ -21,7 +21,6 @@ references:
 だからアタシが作った。土台は**楽天市場の公式ページ（SPU・お買い物マラソンのガイド・5と0のつく日・勝ったら倍）を2026年10月31日に読んだ内容**。最後に、買う額を入れると**上限まで込みで**もらえるポイントが出るシミュレーターを置いてある。
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">先に一番の驚きを言っとく。<strong>SPUの上限はいま18.5倍</strong>（2026年にファミマが加わって18倍から上がった）。そこにマラソン・5と0・勝ったら倍を同じ日に重ねると<strong>計算上は30.5倍</strong>。でもね、<strong>マラソンは7,000pt、5と0と勝ったら倍は1,000ptで頭打ち</strong>。倍率を上げるより、上限の手前で買い物を止めるほうが効くのよ。</div>
 </div>
 
@@ -112,7 +111,6 @@ SPUの特典は、**そのために新しくお金を使うなら、元が取れ
 | **倍率のためだけには取らない** | キャリア決済・楽天ウォレット（暗号資産）・Kドリームス（車券） | 損をしうる買い物で倍率を取りにいくのは本末転倒 |
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-09-arms-crossed.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">ブックスの+0.5倍のために、いらない本を3,000円買う？ 月の買い物が5万円でも<strong>戻るのは250ポイント</strong>。<strong>3,000円払って250ポイント</strong>じゃ、あんたバカぁ？って話よ。</div>
 </div>
 
@@ -328,7 +326,6 @@ SPUを全部追うと損をする理由を、特典ごとに解説している�
 ## よくある質問（楽天ポイントの倍率）
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-07-gasp.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">「30.5倍なら3万円で9,150pt！」って思った？ <strong>マラソンの上限は7,000pt</strong>。全部重ねる日ほど、上限を先に見てから買いなさい。</div>
 </div>
 

@@ -27,7 +27,6 @@ references:
 <p class="source-note"><strong>この記事の価格・仕様・ルールは、2026年10月25日に各社の公式ページと官公庁の発表で確かめたもの。</strong>統計は年と期間を、発表には日付を年から書いている。</p>
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">先に結論を言っとく。<strong>手持ちのモバイルバッテリーで動くのはサンコー・アイリスオーヤマ・サンエス</strong>。<strong>マキタとバートルは専用のバッテリーだけ</strong>。それと、1シーズン充電しても電気代は<strong>約90〜400円</strong>よ。</div>
 </div>
 
@@ -346,6 +345,5 @@ references:
 <div data-shop-card="heated-vest:makita-cv202d"></div>
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-01-wave.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">家のモバイルバッテリーで済ませたいなら<strong>サンコー</strong>、届いてすぐ使いたいなら<strong>アイリス</strong>、工具のバッテリーがあるなら<strong>マキタ</strong>。どれでも<strong>インナーで着て、寝るときは脱ぐ</strong>。これでいいわよ。</div>
 </div>

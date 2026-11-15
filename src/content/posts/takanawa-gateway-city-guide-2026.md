@@ -17,7 +17,6 @@ references: ["https://www.takanawagateway-city.com/", "https://www.takanawagatew
 だからアタシが、**ニュウマン高輪とシティの公式ページを全部読んで**、ランチ・カフェ・サウナ・駐車場を「どの建物の何階か」で並べ直した。
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">先に一番の発見を言っとく。<strong>この街、朝7時から開いてる店があるの。</strong>1階の VERVE COFFEE ROASTERS と、MIMURE のベーカリーよ。28階の LUFTBAUM も<strong>8時から24時まで開放</strong>されてる。<strong>「休日に遊びに行く場所」だと思ってると、平日の朝と夜を丸ごと見落とすわよ。</strong></div>
 </div>
 
@@ -395,7 +394,6 @@ THE LINKPILLAR 2 の2・3階。基準営業時間は **10:00〜22:00**。Impress
 </div>
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-01-wave.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">回り方は時間で決めるといいわ。<strong>朝は1階で VERVE、昼は South 4F か MIMURE、夕方は28階の LUFTBAUM、夜は高輪SAUNAS。</strong>半年たっても「休日にちょっと寄る」だけで帰る人が多いけど、それじゃこの街の半分しか見てないのよ。</div>
 </div>
 

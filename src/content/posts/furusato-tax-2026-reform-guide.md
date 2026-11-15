@@ -21,7 +21,6 @@ references:
 でも慌てなくていい。**控除の仕組みは変わっていない**し、今年分の締め切りは**12月31日**。今日は「何が変わったのか」と「どのジャンルに影響が出るのか」を整理して、年末までにやる5ステップと、上限額をオーバーしない安全設計まで置いていく 😏
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-09-arms-crossed.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">先に結論。<strong>影響を受けたのは「加工品・工業製品・雑貨系」。</strong>米・肉・果物みたいな“ザ・地場産”は影響が小さい。去年の返礼品が見当たらないなら、県外原料の加工品や自治体ロゴだけの雑貨だった可能性が高いわ。控除の仕組み自体は変わらないから、慌てず上限内でね。</div>
 </div>
 
@@ -73,7 +72,6 @@ references:
 
 <div class="compare-cards">
   <article class="compare-card">
-    <span class="compare-card-mascot"><img src="/images/expr-06-shock.png" alt="" /></span>
     <h3>⚠ 影響が大きい</h3>
     <p class="tagline">「その土地で作った」の証明が弱いジャンル。10月以降は扱えなくなったものがある。</p>
     <dl>
@@ -85,7 +83,6 @@ references:
     <p class="compare-best">※去年と同じ物を探すなら、<strong>まず掲載が続いているか</strong>を確かめる</p>
   </article>
   <article class="compare-card recommended">
-    <span class="compare-card-mascot"><img src="/images/expr-05-smug.png" alt="" /></span>
     <h3>✅ ほぼ影響なし（王道）</h3>
     <p class="tagline">“ザ・地場産”は基準を余裕でクリア。慌てなくてOK。</p>
     <dl>
@@ -195,7 +192,6 @@ references:
 5. **ワンストップ特例 or 確定申告の準備をする。** 5自治体以内ならワンストップ特例申請書を提出（期限は翌年1月10日必着）。6自治体以上は確定申告。
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-01-wave.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">よくある事故が「上限を超えて自己負担が増える」パターン。<strong>年収が確定してない夏〜秋は、上限見込みの9割で止めるのが鉄則</strong>よ。あと、ポイント還元は2025年10月にもう廃止されてるから、「サイトのポイントで選ぶ」時代は終わったの。今は<strong>返礼品そのものの価値と、決済で貯まる通常ポイント</strong>で選びなさい。</div>
 </div>
 

@@ -26,7 +26,6 @@ references:
 だからアタシが作った。**歩いてポイントや暗号資産がもらえるアプリ20個**を、**5つのカテゴリ**に分けて勢力図に置いた。そのうえで、**1日1万歩を1年 続けたら いくらになるか**を、各社が公表している条件から全部そろえて計算した。
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">先に一番の驚きを言っとく。<strong>「歩いてお金が貯まる」で一番 多く戻ってくるのは、暗号資産でもマイルでもなく、ただのWAONポイントだった。</strong>年365円。派手さはゼロだけど、条件を満たせば必ず入るのはここだけなの。</div>
 </div>
 
@@ -975,7 +974,6 @@ references:
 <p class="source-note">出典：<img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/jalwellness.png" alt="JAL Wellness &amp; Travelのロゴ" loading="lazy" /><a href="https://www.jal.co.jp/jp/ja/jmb/wellness/" target="_blank" rel="noopener">JAL Wellness &amp; Travel</a>／<a href="https://www.ana.co.jp/ja/jp/shoppingandlife/point/" target="_blank" rel="noopener">ANAマイレージクラブ</a>／<img class="brand-logo-sm" src="/images/walk-poikatsu-2026/logos/torima.png" alt="トリマのロゴ" loading="lazy" /><a href="https://www.trip-mile.com/" target="_blank" rel="noopener">トリマ</a>／<a href="https://www.arukuto.jp/" target="_blank" rel="noopener">aruku&amp;</a>／<a href="https://vitality.sumitomolife.co.jp/about/status/" target="_blank" rel="noopener">住友生命 Vitality</a>／<a href="https://kenkou-uplus.metro.tokyo.lg.jp/" target="_blank" rel="noopener">東京健康UPlus</a>／<a href="https://coinpost.jp/crypto/move-to-earn/bitwalk/" target="_blank" rel="noopener">CoinPost（BitWalk）</a>／<a href="https://hedge.guide/feature/healthree-bc202307.html" target="_blank" rel="noopener">HEDGE GUIDE（HEALTHREE）</a>。写真は Wikimedia Commons（CC BY-SA / CC0・各撮影者）。料金・交換レート・付与条件は改定されることがあるため、最新は各公式で確認すること。</p>
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-01-wave.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">歩いて年365円。<strong>笑う額だけど、これ「歩かなくても減らないお金」じゃないのよ。</strong>どうせ歩くなら受け取っておけばいい、ってだけの話。<strong>1万歩を「お金のため」に歩き始めると、たいてい続かない</strong>から、そこだけ気をつけて。
   </div>
 </div>

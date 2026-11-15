@@ -16,7 +16,6 @@ author: "hacker-ko"
 新幹線でちょくちょく東京・仙台・新潟あたりに行く人。あんたまだ普通に正規運賃で乗ってるの？ JR東日本グループが楽天銀行と組んで作った **JRE BANK**、口座を持ってるだけで **JRE BANK優待割引券（4割引）が最大年10枚** とか「どこかにビューーン」2,000ポイント割引クーポンとかが降ってくる。年に数回乗るだけで、メガバンクの金利を一生集めるより遥かに得する設計よ。2026年版でアタシが**全部**整理してあげるから、開設するかどうかは読み終わってから決めなさい 😏
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-06-shock.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">あんた、JREバンクの存在しらないの？ JR東日本ユーザーで知らずに普通に運賃払ってる人、<strong>毎年1万円単位で損してる</strong>のよ。今日でその知らなかった、終わらせなさい。</div>
 </div>
 
@@ -337,7 +336,6 @@ JRE BANK には **JR東日本×楽天銀行が運営する「口座紹介プロ�
 <div class="compare-cards">
   <article class="compare-card recommended">
     <span class="compare-card-image"><img src="https://www.jrebank.jp/top/images/ogp.jpg" alt="JRE BANK 公式OGP画像" loading="lazy" /></span>
-    <span class="compare-card-mascot"><img src="/images/expr-05-smug.png" alt="" /></span>
     <h3 class="brand-h"><img class="brand-logo" src="/images/jre-bank-campaign-2026/logos/jrebank.png" alt="JRE BANKのロゴ" loading="lazy" /><span>JRE BANK（楽天銀行ベース）</span></h3>
     <p class="tagline">JR東日本ユーザーの「持ってないだけで損」枠。最大年10枚の優待割引券（4割引）が本体。</p>
     <dl>

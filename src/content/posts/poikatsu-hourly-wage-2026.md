@@ -18,7 +18,6 @@ references: ["https://b4c.jp/poigiken/articles/basic/poikatsu-osusume-2026.html"
 このページは、ポイ活の各手段を「**実効時給＝獲得額÷投下した正味時間**」で測ってランキング化した検証版。さらに、**あなたの本業の時給を入れると「その手段はやる価値があるか」を即判定する診断ツール**つき。割に合う案件と、正直やめたほうがいい案件が一目で分かる。
 
 <div class="hakkako-says">
-<img src="/images/expr-05-smug.png" alt="ハッカー子" />
 <p>先に結論。ポイ活は<strong>「3層」</strong>に割れるの。①<strong>高額単発案件（クレカ発行・口座開設）＝時給1〜3万円</strong>、②<strong>日常のクレカ/QR還元＝手間ゼロで実質“無限大時給”</strong>、③<strong>歩数・レシート・動画・事前アンケート＝時給数十〜数百円で最低賃金以下</strong>。アタシが言いたいのはシンプル。<strong>①と②だけ全力でやって、③を“専従で”やるのはやめなさい</strong>。時間を本業や副業に回したほうが得よ。</p>
 </div>
 
@@ -120,7 +119,6 @@ references: ["https://b4c.jp/poigiken/articles/basic/poikatsu-osusume-2026.html"
 </div>
 
 <div class="hakkako-says">
-<img src="/images/expr-09-arms-crossed.png" alt="ハッカー子" />
 <p>勘違いしないでほしいの。<strong>「ポイ活＝ダメ」じゃない</strong>。ダメなのは<strong>“低時給の作業を、本業や睡眠を削って専従でやる”こと</strong>。①高額単発を厳選して、②日常の決済還元を取りこぼさない。この2つだけで、労力対効果は跳ね上がる。レシートを5分かけて1円拾う暇があったら、その時間で本業のスキル上げたほうが、生涯で見たら桁違いに得よ。</p>
 </div>
 

@@ -29,7 +29,6 @@ references:
 </figure>
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-09-arms-crossed.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">先に核心を3つ。<strong>①ハブ(中継所)は「1ポイント≒1円」系＝ドットマネー/PeX/Gポイント。1本依存は危険で二本立てが鉄則</strong>。<strong>②マイルは"率"が命——dポイント→JALやVポイント→ANAは50%、東急→ANAは75%と差が大きい</strong>。<strong>③共通ポイント同士は意外と直接交換できない（楽天は他社へ出せない、dポイント⇔Pontaも不可）</strong>。この3点を押さえれば、もう交換で損しないわ。</div>
 </div>
 
@@ -75,7 +74,6 @@ references:
 <p class="source-note">出典: <a href="https://ameblo.jp/dotmoney/entry-12974161885.html" target="_blank" rel="noopener nofollow">ドットマネー公式スタッフブログ</a>／<a href="https://pex.jp/introduce" target="_blank" rel="noopener nofollow">PeX公式</a>／<a href="https://www.gpoint.co.jp/pen/charge/" target="_blank" rel="noopener nofollow">Gポイント公式</a>。手数料・最低交換額は交換先やキャンペーンで変動するため、交換直前に各公式で最新をご確認ください。</p>
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">ハブは全部「1ポイント≒1円」だけど、<strong>PeXだけ"10ポイント=1円"表記</strong>だから桁を勘違いしないで。そして最大手のドットマネーが今止まってる（→8/12再開目処）のが今回の肝。<strong>ハブは1本に頼らず、ドットマネー＋PeX(orGポイント)の二本立て</strong>にしておけば、片方が事故っても出口を確保できるわ。</div>
 </div>
 
@@ -100,7 +98,6 @@ references:
 <p class="source-note">出典: <a href="https://www.ana.co.jp/ja/jp/shoppingandlife/point/tukau_rakuten/" target="_blank" rel="noopener nofollow">ANA公式(楽天ポイント→ANAマイル)</a>／<a href="https://dpoint.docomo.ne.jp/article/2009_07.html" target="_blank" rel="noopener nofollow">ドコモ公式(dポイント×JAL)</a>／<a href="https://point.recruit.co.jp/pontaweb/excpoint/pontajal/" target="_blank" rel="noopener nofollow">Ponta公式(→JALマイル)</a>。Vポイント→ANA・東急→ANAは条件つき。マイル交換は改定・増量が多いので交換直前に各公式で確認を。</p>
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-04-cheer.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">ポイントは大半が「1P=1円」だけど、<strong>マイルにすると1P=2円以上の価値になることもある</strong>（特典航空券の使い方次第）。だから飛行機に乗る人はマイルが有力な出口。ただし<strong>かつての"メトロポイント黄金ルート(ソラチカ)"や旧ANA東急ルートは2022年3月で終了</strong>して、高レートの裏技はかなり減った。今は上の正攻法ルートを、<strong>増量キャンペーンのタイミングで使うのが賢い</strong>のよ。</div>
 </div>
 
@@ -118,7 +115,6 @@ references:
 <p class="source-note">出典: <a href="https://www.ana.co.jp/ja/jp/shoppingandlife/point/tukau_rakuten/" target="_blank" rel="noopener nofollow">ANA公式(楽天ポイントの扱い)</a>ほか。WAON POINT・nanaco・JRE POINT等は各経済圏でほぼクローズド設計で、共通ポイント同士の直接交換は限定的（各公式で要確認）。</p>
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-06-shock.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">つまり<strong>「貯める前に、出口を決めておく」</strong>のが正解。特に楽天ポイントは他社へ移せないから、楽天で貯めるなら楽天市場・楽天ペイ・楽天キャッシュで使い切る前提。dポイントとPontaを行き来させたい人は、そもそも<strong>片方に寄せて貯める</strong>のが事故らないコツよ。</div>
 </div>
 

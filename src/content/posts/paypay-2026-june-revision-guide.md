@@ -20,7 +20,6 @@ references: ["https://coki.jp/article/column/83119/", "https://b4c.jp/poigiken/a
 このページでは、**何がどう変わったのか**を一次情報ベースで全部整理して、**あんたが今すぐやるべき3つの対策**と、**月の利用額別にPayPayカード／楽天カード／JREカードどれが得か**まで、まるっと解説する。3分で「自分は何をすればいいか」が分かるようにした。
 
 <div class="hakkako-says">
-<img src="/images/expr-06-shock.png" alt="ハッカー子" />
 <p>先に一番大事なやつ言っとくね。<strong>①eKYC（本人確認）は今すぐ済ませる（やってないと還元ゼロ）②公共料金のPayPayカード払いはやめて他カードに移す③ポイントは「払う」んじゃなく貯めて使い道を選ぶ</strong>。この3つだけでも被害は最小化できる。順番に説明するよ。</p>
 </div>
 
@@ -63,7 +62,6 @@ references: ["https://coki.jp/article/column/83119/", "https://b4c.jp/poigiken/a
 ゴールドの「基本1.5%」を支えてた<strong>+0.5%上乗せが廃止→基本1.0%に</strong>。代わりに**年間100万円利用で11,000ptボーナス**（年会費11,000円と実質相殺）が新設。年100万円使わない人は**ゴールドの旨味が薄れた**。
 
 <div class="hakkako-says">
-<img src="/images/expr-09-arms-crossed.png" alt="ハッカー子" />
 <p>④のeKYCだけは本気で今すぐやって。①〜③は「使い方を変える」話だけど、④は<strong>やってないと“正しく使ってても”還元ゼロ</strong>。アプリ開いて本人確認の案内が出てたら、5分で終わらせときな。</p>
 </div>
 
@@ -103,7 +101,6 @@ references: ["https://coki.jp/article/column/83119/", "https://b4c.jp/poigiken/a
 > 💡 **読み方**：店舗・ネットの**通常決済1.0%は改定後も健在**なので、「PayPayをやめろ」って話じゃない。**“公共料金とICチャージ”だけ別カードに逃がす**のが一番ラク＆効果的。Suica使う人はJRE CARDのモバイルSuicaチャージ1.5%が刺さる。
 
 <div class="hakkako-says">
-<img src="/images/expr-05-smug.png" alt="ハッカー子" />
 <p>アタシのおすすめは<strong>「PayPayは店の通常決済1%でそのまま使う＋公共料金とSuicaチャージだけ別カードに分ける」</strong>のハイブリッド。全部乗り換えるより、損してる部分だけ切り出す方が手間も少ない。固定費が月5万あるなら、0.5%差で年3,000円は変わるからね。</p>
 </div>
 
@@ -179,7 +176,6 @@ references: ["https://coki.jp/article/column/83119/", "https://b4c.jp/poigiken/a
 5. **通常決済1.0%は健在** — PayPayを全部やめる必要はない。“損してる部分だけ”切り出すのが正解。
 
 <div class="hakkako-says">
-<img src="/images/expr-04-cheer.png" alt="ハッカー子" />
 <p>改悪って聞くと焦るけど、やることはシンプル。<strong>eKYC済ませて、公共料金とSuicaチャージだけ別カードに分ける。それで被害の9割は止まる</strong>。あんたの固定費、ちゃんと1%以上のカードで払えてるか、この機会に1回だけ見直しとこ。</p>
 </div>
 

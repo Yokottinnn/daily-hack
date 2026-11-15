@@ -26,7 +26,6 @@ references: ["https://www.atpress.ne.jp/news/1872468", "https://nazoxnazo.com/ev
 だからアタシがまとめた。土台は**企画した株式会社ハレガケのプレスリリース**と**イベントの公式ページ**。どこで買って、どこを回って、何時間かかるかを並べたわよ。
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">先に一番大事なことを言っとく。<strong>1キット2,300円（税込）、制限時間なし。</strong>スタートは<strong>千客万来の「豊洲番屋」</strong>だから、そこで買うのがいちばん早いわ。<strong>2028年9月30日まで</strong>やってるから、急がなくていいわよ。</div>
 </div>
 

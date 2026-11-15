@@ -32,7 +32,6 @@ references:
 だからアタシが作った。**各社が公式に出している旅行業務取扱料金表・取消料の規定・ポイントの案内だけ**を土台に、国内の航空券サイト4社とツアー3社の手数料を1枚にまとめた。数字はすべて**2026年10月16日時点**の公式ページの値よ。
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">先に一番の驚きを言っとく。<strong>JALのツアーに「21日前まで取消料無料」は無い。</strong>ニーズツアーとJ-TRIPは入金した瞬間から1区間500円の取消料がかかるの。無料で取り消せるのは、エアトリ国内ツアーのLCC・スカイマーク利用分だけよ。</div>
 </div>
 
@@ -444,7 +443,6 @@ JALの航空券取消料（1区間・往路復路ごと）は、ニーズツア�
 </div>
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-01-wave.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">航空券サイトは<strong>「安く買う場所」じゃなくて「戻らないお金が決まる場所」</strong>よ。取り消すかもしれないならエアトリ国内ツアーのLCC便、取り消さないならトラベリストのアプリ。予約ボタンを押す前に、この表をもう一回見なさい。</div>
 </div>
 

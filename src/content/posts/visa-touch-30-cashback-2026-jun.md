@@ -20,7 +20,6 @@ references: ["https://www.smbc-card.com/mem/cardinfo/26/cardinfo7224638.jsp", "h
 ただし「エントリー」と「Visa割登録」を**事前にやっておかないと1円も還元されない**のがこのキャンペーンの罠。このページで、**対象店舗・還元の内訳・上限・登録手順・損しない使い方**を全部まとめた。3分で「自分が何をすればいいか」が分かる。
 
 <div class="hakkako-says">
-<img src="/images/expr-05-smug.png" alt="ハッカー子" />
 <p>先に要点だけ。<strong>①6/5から「Visa割登録」＋「エントリー」を今すぐ済ませる ②対象6店舗で“スマホの”Visaタッチ決済を使う ③Apple Payで10%＋三井住友カードで20%＝合計最大30%（上限2,000円）</strong>。登録してないと還元ゼロだから、行く予定がある人は<strong>とにかく先に登録</strong>しときな。</p>
 </div>
 
@@ -71,7 +70,6 @@ references: ["https://www.smbc-card.com/mem/cardinfo/26/cardinfo7224638.jsp", "h
 - ＋αで、**Apple PayのVisaタッチを1回1,000円以上**使うと「**はずれなしの抽選で1回最大500円**」が当たるチャンスもある（カード1枚あたりの参加回数に上限あり）。
 
 <div class="hakkako-says">
-<img src="/images/expr-07-gasp.png" alt="ハッカー子" />
 <p>30%って聞くとデカいけど、<strong>上限は合計2,000円</strong>だからね。特典①は1万円利用で1,000円、特典②は5,000円利用で1,000円が上限の目安。だから<strong>「対象店で1〜2回、まとまった会計をスマホタッチで払う」</strong>のが一番効率いい。チマチマ使うより、家族の外食やまとめ買いで“ドン”と使うのがコツ。</p>
 </div>
 
@@ -126,7 +124,6 @@ references: ["https://www.smbc-card.com/mem/cardinfo/26/cardinfo7224638.jsp", "h
 4. **Androidも特典②（20%）は対象**。iPhoneなら特典①②＋抽選もフル活用。
 
 <div class="hakkako-says">
-<img src="/images/expr-04-cheer.png" alt="ハッカー子" />
 <p>どうせ牛角もくら寿司も西松屋も行くんだから、<strong>登録ひと手間で会計が最大3割引</strong>になるならやらない手はないでしょ。三井住友カードを持ってない人も、この機会に年会費無料のカードを1枚作っておくと、こういうキャンペーンを毎回拾えるようになるよ。まずは登録だけ、今日のうちに！</p>
 </div>
 

@@ -17,7 +17,6 @@ references: ["https://img.unitedcinemas.jp/pdf/toyosu/luc_toyosu_flexsound.pdf",
 だからアタシがまとめた。土台は**劇場が出している告知のチラシ**と**劇場からのお知らせ**。決まっていることと、まだ出ていないことを分けて書いたわよ。
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">先に一番大事なことを言っとく。<strong>2026年12月4日（金）から「ローソン・ユナイテッドシネマ豊洲」</strong>になって、<strong>4DX 以外の全スクリーンの真ん中1〜2列</strong>に、体で音を感じる席が入るわ。<strong>その席の料金はまだ発表されていない</strong>のよ。</div>
 </div>
 

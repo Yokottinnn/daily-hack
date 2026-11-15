@@ -16,7 +16,6 @@ author: "hacker-ko"
 固定費。毎月、何も考えずに垂れ流してる「あの請求」のこと。**通信費・電気代・サブスク**、この3大コストを2026年仕様で見直しただけで、**年12万円浮く**家庭がザラにある。年12万円って、月1万円。月1万円って、ランチ20回ぶん。あんた、ランチ20回タダ食いと、何もしないで損し続けるの、どっちがいい？答え出てるよね。アタシが最短で削る順番、教えてあげる。
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">月1万円ぼーっと垂れ流しといて「給料上がらない」って騒いでるあんた、<strong>年12万円浮かせる気あんの？</strong>本気で削れば3時間で終わる作業よ。</div>
 </div>
 
@@ -223,7 +222,6 @@ ahamo・povo・LINEMO・楽天モバイル・UQモバイル・ワイモバイル
 
 <div class="compare-cards">
   <article class="compare-card recommended">
-    <span class="compare-card-mascot"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <h3 class="brand-h"><img class="brand-logo" src="/images/fixed-cost-reduction-guide-2026/logos/rakuten-denki.png" alt="楽天でんきのロゴ" loading="lazy" /><span>楽天でんき</span></h3>
     <p class="tagline">楽天経済圏との連動が強烈。電気代でも楽天ポイントが貯まり、SPU倍率にも貢献。</p>
     <dl>
@@ -234,7 +232,6 @@ ahamo・povo・LINEMO・楽天モバイル・UQモバイル・ワイモバイル
   </article>
 
   <article class="compare-card recommended">
-    <span class="compare-card-mascot"><img src="/images/expr-05-smug.png" alt="" /></span>
     <h3 class="brand-h"><img class="brand-logo" src="/images/fixed-cost-reduction-guide-2026/logos/au-denki.png" alt="auでんきのロゴ" loading="lazy" /><span>auでんき</span></h3>
     <p class="tagline">auユーザーなら電気代でPontaポイント還元。スマホとセットで請求がまとまる。</p>
     <dl>
@@ -245,7 +242,6 @@ ahamo・povo・LINEMO・楽天モバイル・UQモバイル・ワイモバイル
   </article>
 
   <article class="compare-card">
-    <span class="compare-card-mascot"><img src="/images/expr-09-arms-crossed.png" alt="" /></span>
     <h3 class="brand-h"><img class="brand-logo" src="/images/fixed-cost-reduction-guide-2026/logos/docomo-denki.png" alt="ドコモでんきのロゴ" loading="lazy" /><span>ドコモでんき</span></h3>
     <p class="tagline">ドコモユーザー向け。dポイントが貯まる + dカード払いで還元上乗せ。</p>
     <dl>

@@ -16,7 +16,6 @@ X で「セントラルガーデン月島ザ・タワーの建築進捗！」っ
 だから作った。**建設中・計画中のタワマンを実測地図の上に全部プロットして、竣工がいつで、何階建てで、いくらで売ってるか、一枚で分かるようにした。** 進捗を追える X アカウントと YouTube も最後にまとめてある。
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">先に結論。<strong>いま湾岸の新築タワーは、中央区の月島・勝どき・豊海に異常なほど集中してる。</strong>2026〜2029年だけで半径1.5km圏に約4,500戸が降ってくるのよ。豊洲や有明が主戦場だと思ってるなら、あんた地図を見てないだけ。</div>
 </div>
 
@@ -263,7 +262,6 @@ X で「セントラルガーデン月島ザ・タワーの建築進捗！」っ
 <p class="source-note">動画：<a href="https://www.youtube.com/watch?v=TxgJtf8J5rM" target="_blank" rel="noopener">【タイムラプス】築地市場の7年間　閉場・解体から再開発へ　跡地の変化</a>（朝日新聞／2025年12月公開）</p>
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-09-arms-crossed.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">ここ、<strong>「築地が完成したら勝どき・月島の価値が上がる」って理屈で今の価格を正当化してくる営業</strong>が絶対に出てくる。でも一期のまちびらきですら2030年代前半、全体はもっと先よ。<strong>10年単位の話を、今日の値付けの根拠にしちゃダメ。</strong></div>
 </div>
 
@@ -397,7 +395,6 @@ X で「セントラルガーデン月島ザ・タワーの建築進捗！」っ
 </div>
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-06-shock.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">気付いた？ <strong>2026〜2027年に中央区だけで3,300戸以上が一気に竣工する。</strong>そのあと2028〜2029年にさらに1,200戸。中古の売り物件がどっと出るタイミングでもあるってこと。買うにしろ借りるにしろ、この波を知らずに動くのはただのカモよ。</div>
 </div>
 
@@ -546,7 +543,6 @@ X で「セントラルガーデン月島ザ・タワーの建築進捗！」っ
 </ul>
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-01-wave.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">湾岸は<strong>5年でまったく違う街になる場所</strong>。アタシが晴海に住み始めた頃と今でも景色が別物よ。数字と地図を持たずに「なんとなく良さそう」で動くのがいちばん高くつく。この記事はブックマークしといて、竣工と価格が動くたびに更新するから。</div>
 </div>
 

@@ -25,7 +25,6 @@ references: ["https://prtimes.jp/main/html/rd/p/000000084.000047941.html", "http
 だからアタシがまとめた。土台は**東京クリスマスマーケット実行委員会のプレスリリース**と、オンラインのチケットを売る **KKday のプレスリリース**。いくら払って、いつ行くのがいちばん得かを並べたわよ。
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">先に一番大事なことを言っとく。<strong>大人の入場料は、平日1,000円・土日祝1,500円・12月24日と25日は2,000円</strong>。同じ会場なのに倍ちがう。それと、<strong>事前予約は同じ値段でマグカップが付く</strong>のよ。</div>
 </div>
 
@@ -196,6 +195,5 @@ references: ["https://prtimes.jp/main/html/rd/p/000000084.000047941.html", "http
 <p class="source-note">表紙は東京クリスマスマーケット実行委員会のフードのキービジュアル。出典：<a href="https://prtimes.jp/main/html/rd/p/000000084.000047941.html" target="_blank" rel="noopener">東京クリスマスマーケット実行委員会「新豊洲初開催『東京クリスマスマーケット2026』注目グルメを公開！」（PR TIMES・2026年10月16日）</a>／<a href="https://prtimes.jp/main/html/rd/p/000000200.000028214.html" target="_blank" rel="noopener">KKday「マグカップ付き入場券を発売」（PR TIMES・2026年10月2日）</a>／<a href="https://tokyochristmas.net/" target="_blank" rel="noopener">東京クリスマスマーケット公式サイト</a>。内容は変わることがある。出かける前に公式サイトで確かめて。</p>
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-01-wave.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">いちばん安いのは<strong>平日の1,000円</strong>。マグカップがほしいなら<strong>同じ値段の事前予約</strong>。24日と25日は倍かかるのを忘れないで。</div>
 </div>

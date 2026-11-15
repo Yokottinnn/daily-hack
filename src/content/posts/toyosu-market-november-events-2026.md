@@ -27,7 +27,6 @@ references: ["https://central-wholesale-market-pr.com/tanoshimu/202611-eventlist
 だからアタシがまとめた。土台は<strong>東京都中央卸売市場の「いちばの広場ナビ」</strong>。日付順に並べたわよ。
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">先に一番大事なことを言っとく。<strong>魚がし横丁のツアーは無料だけど、申込は2026年11月16日（月）まで</strong>。当日行っても入れないわよ。<strong>11月14日（土）</strong>はせり体験と産地の販売が重なるから、行くならこの日。</div>
 </div>
 
@@ -217,6 +216,5 @@ references: ["https://central-wholesale-market-pr.com/tanoshimu/202611-eventlist
 <p class="source-note">表紙は東京都中央卸売市場「いちばの広場ナビ」の写真（16:9に切り取った）。出典：<a href="https://central-wholesale-market-pr.com/tanoshimu/202611-eventlist/" target="_blank" rel="noopener">いちばの広場ナビ「11月イベント情報」</a>（2026年11月4日）。</p>
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-01-wave.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">魚がし横丁を<strong>店の人の説明と試食つきで回れる</strong>のがツアーのいいところ。<strong>無料で、申込は2026年11月16日（月）まで</strong>。申し込むなら今のうちよ。</div>
 </div>

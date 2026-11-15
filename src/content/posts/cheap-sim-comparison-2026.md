@@ -16,7 +16,6 @@ author: "hacker-ko"
 毎月8,000円のスマホ代、未だに3大キャリアで払い続けてる人。アタシ、はっきり言うけどあんたバカぁ？ 2026年の今、**月3,000円以下で同じ通信品質**が手に入るのよ。年間6万円差、5年で30万円。気づいた瞬間に乗り換えなさい、というのが今日の話 😏
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">時間ないあんたのために結論だけ置いとくわよ。<strong>「楽天モバイル」か「ahamo」か「povo」</strong>、この3択で9割の人が決着する。理由は下で全部教えてあげるから、しっかりついて来なさい。</div>
 </div>
 
@@ -113,7 +112,6 @@ author: "hacker-ko"
 
 <div class="compare-cards">
   <article class="compare-card recommended">
-    <span class="compare-card-mascot"><img src="/images/expr-05-smug.png" alt="" /></span>
     <h3 class="brand-h"><img class="brand-logo" src="/images/cheap-sim-comparison-2026/logos/rakutenmobile.png" alt="楽天モバイルのロゴ" loading="lazy" /><span>楽天モバイル</span></h3>
     <p class="tagline">データ使い放題で月3,278円。楽天経済圏ユーザーなら議論終了。</p>
     <dl>
@@ -131,7 +129,6 @@ author: "hacker-ko"
   </article>
 
   <article class="compare-card recommended">
-    <span class="compare-card-mascot"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <h3 class="brand-h"><img class="brand-logo" src="/images/cheap-sim-comparison-2026/logos/ahamo.png" alt="ahamoのロゴ" loading="lazy" /><span>ahamo</span></h3>
     <p class="tagline">ドコモ回線そのまま月2,970円。品質重視派の本命。</p>
     <dl>
@@ -146,7 +143,6 @@ author: "hacker-ko"
   </article>
 
   <article class="compare-card">
-    <span class="compare-card-mascot"><img src="/images/expr-06-shock.png" alt="" /></span>
     <h3 class="brand-h"><img class="brand-logo" src="/images/cheap-sim-comparison-2026/logos/povo.png" alt="povo 2.0のロゴ" loading="lazy" /><span>povo 2.0</span></h3>
     <p class="tagline">基本料0円。使った分だけトッピング、サブ回線の覇者。</p>
     <dl>
@@ -161,7 +157,6 @@ author: "hacker-ko"
   </article>
 
   <article class="compare-card">
-    <span class="compare-card-mascot"><img src="/images/expr-01-wave.png" alt="" /></span>
     <h3 class="brand-h"><img class="brand-logo" src="/images/cheap-sim-comparison-2026/logos/linemo.png" alt="LINEMOのロゴ" loading="lazy" /><span>LINEMO</span></h3>
     <p class="tagline">ソフトバンク回線・LINE使い放題。SNS族の隠れた本命。</p>
     <dl>
@@ -176,7 +171,6 @@ author: "hacker-ko"
   </article>
 
   <article class="compare-card">
-    <span class="compare-card-mascot"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <h3 class="brand-h"><img class="brand-logo" src="/images/cheap-sim-comparison-2026/logos/uqmobile.png" alt="UQ mobileのロゴ" loading="lazy" /><span>UQ mobile</span></h3>
     <p class="tagline">au回線×店頭サポートあり。家族割・光割重視派向け。</p>
     <dl>
@@ -191,7 +185,6 @@ author: "hacker-ko"
   </article>
 
   <article class="compare-card">
-    <span class="compare-card-mascot"><img src="/images/expr-01-wave.png" alt="" /></span>
     <h3 class="brand-h"><img class="brand-logo" src="/images/cheap-sim-comparison-2026/logos/ymobile.png" alt="Y!mobileのロゴ" loading="lazy" /><span>Y!mobile</span></h3>
     <p class="tagline">ソフトバンク回線+店頭サポート。PayPay経済圏とセット運用。</p>
     <dl>

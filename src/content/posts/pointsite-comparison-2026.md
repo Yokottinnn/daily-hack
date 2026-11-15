@@ -17,7 +17,6 @@ author: "hacker-ko"
 今日は4大ポイントサイト、**モッピー・ハピタス・ポイントインカム・ポイントタウン**を、案件数・還元率・交換先・初心者の使いやすさで横並びに比較してあげる。読み終わったら、どれを「メイン」にしてどれを「サブ」で残すか、迷わず決められるようになるわよ 😏
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-04-cheer.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">時間ないあんたのために結論だけ先に置いとく。<strong>メイン1本＋サブ2〜3本の併用</strong>が正解。1サイト依存はマジで損するから、今日でその癖は卒業しなさい。</div>
 </div>
 
@@ -103,7 +102,6 @@ author: "hacker-ko"
   <article class="compare-card recommended">
     <span class="compare-card-image"><img src="https://img.moppy.jp/pub/global/pc/top/nologin/redesign_202510/mainvisual_moppy.png" alt="モッピー メインビジュアル" loading="lazy" /></span>
     <span class="compare-card-tag is-main">メイン</span>
-    <span class="compare-card-mascot"><img src="/images/expr-05-smug.png" alt="" /></span>
     <h3 class="brand-h"><img class="brand-logo" src="/images/pointsite-comparison-2026/logos/moppy.png" alt="モッピーのロゴ" loading="lazy" /><span>モッピー</span></h3>
     <p class="tagline">国内最大級・案件数No.1。マイラー御用達の絶対王者。</p>
     <dl>
@@ -123,7 +121,6 @@ author: "hacker-ko"
   <article class="compare-card recommended">
     <span class="compare-card-image is-logo"><img src="https://img.hapitas.jp/img/images/logo.png" alt="ハピタス 公式ロゴ" loading="lazy" /></span>
     <span class="compare-card-tag is-sub">サブ・ショッピング系</span>
-    <span class="compare-card-mascot"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <h3 class="brand-h"><img class="brand-logo" src="/images/pointsite-comparison-2026/logos/hapitas.png" alt="ハピタスのロゴ" loading="lazy" /><span>ハピタス</span></h3>
     <p class="tagline">ショッピング案件の還元率がエグい。買い物中心ならコレ。</p>
     <dl>
@@ -143,7 +140,6 @@ author: "hacker-ko"
   <article class="compare-card">
     <span class="compare-card-image is-logo"><img src="https://pointi.jp/img_share/rogo.png" alt="ポイントインカム 公式ロゴ" loading="lazy" /></span>
     <span class="compare-card-tag is-sub">サブ・継続派</span>
-    <span class="compare-card-mascot"><img src="/images/expr-01-wave.png" alt="" /></span>
     <h3 class="brand-h"><img class="brand-logo" src="/images/pointsite-comparison-2026/logos/pointincome.png" alt="ポイントインカムのロゴ" loading="lazy" /><span>ポイントインカム</span></h3>
     <p class="tagline">使い続けるほど得する「ランク制度」と長期利用ボーナスが最強。</p>
     <dl>
@@ -163,7 +159,6 @@ author: "hacker-ko"
   <article class="compare-card">
     <span class="compare-card-image"><img src="https://img.pointtown.com/pc/images/regist/character-kuma.png" alt="ポイントタウン キャラクター" loading="lazy" /></span>
     <span class="compare-card-tag is-sub">サブ・安心感重視</span>
-    <span class="compare-card-mascot"><img src="/images/expr-06-shock.png" alt="" /></span>
     <h3 class="brand-h"><img class="brand-logo" src="/images/pointsite-comparison-2026/logos/pointtown.png" alt="ポイントタウンのロゴ" loading="lazy" /><span>ポイントタウン</span></h3>
     <p class="tagline">GMOグループ運営の安心感。サブで持っておく価値あり。</p>
     <dl>

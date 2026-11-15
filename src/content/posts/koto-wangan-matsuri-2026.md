@@ -28,7 +28,6 @@ references: ["https://prtimes.jp/main/html/rd/p/000000043.000111702.html", "http
 だからアタシがまとめた。土台は**主催（江東区観光協会）のチラシ**と**観光協会のクルーズの案内**。何があるか、いくらかかるかを並べたわよ。
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">先に一番大事なことを言っとく。<strong>入場は無料</strong>で、<strong>中学生以下は観光協会のブースでプラバン作りが無料</strong>よ（なくなり次第終わり）。湾岸を巡る<strong>クルーズは別料金で申込順</strong>。10月16日に一度売り切れて、22日に再販されたわ。</div>
 </div>
 

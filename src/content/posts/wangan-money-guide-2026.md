@@ -18,7 +18,6 @@ references: ["https://www.city.chuo.lg.jp/", "https://www.city.koto.lg.jp/", "ht
 このページは、晴海・豊洲・勝どきに暮らすアタシが、**中央区・江東区・港区の“お金がラクになる制度”を区公式の一次情報で全部並べて比較**した保存版。子ども医療費・出産費用助成・給食費・プレミアム商品券・コミュニティバスまで、「**結局どこで差がつくのか**」が読み終わるころにはハッキリする。
 
 <div class="hakkako-says">
-<img src="/images/expr-05-smug.png" alt="ハッカー子" />
 <p>先に結論を言うわ。<strong>子ども医療費は3区とも横並びで差がつかない</strong>。みんなここを比較しがちだけど、本当に効いてくるのは<strong>出産まわりの給付・給食費・プレミアム商品券</strong>。ここを知ってるかどうかで、数万〜数十万円変わる。湾岸は高所得世帯が多いから<strong>ふるさと納税の“効き”も大きい</strong>。順番に見ていこ。</p>
 </div>
 
@@ -209,6 +208,5 @@ references: ["https://www.city.chuo.lg.jp/", "https://www.city.koto.lg.jp/", "ht
 → 関連: [湾岸エリア スーパー徹底比較 18店舗](/posts/wangan-supermarkets-2026/) ／ [湾岸エリア 節約スポット完全マップ](/posts/wangan-saving-spots-2026/) ／ [湾岸エリア 花火・祭りカレンダー 2026](/posts/wangan-festivals-2026/)
 
 <div class="hakkako-says">
-<img src="/images/expr-04-cheer.png" alt="ハッカー子" />
 <p>「住んでる区の制度、ちゃんと使えてる？」って、意外とみんな答えられないの。このページをブックマークして、ライフイベントのたびに見直すだけで、取りこぼしがグッと減るわよ。湾岸ライフ、賢く楽しも。</p>
 </div>

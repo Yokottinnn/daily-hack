@@ -15,7 +15,6 @@ author: "hacker-ko"
 新NISAの口座、ようやく開いた？「次は銘柄を選ぶターン」で固まってるあんた、安心しなさい。アタシが2026年5月時点で**つみたて投資枠に入れて絶対に間違えない5本**を厳選してきたから。eMAXIS Slim、SBI・V、楽天・オールカントリー…名前は似てるけど信託報酬・連動指数・純資産は全部違う。違いを理解せずに「とりあえずオルカン」と買って、あとから「あっちのほうが安かった」と知って買い直すのは時間の無駄よ。20年使う相棒、ちゃんと選びなさい。
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">結論先出し。<strong>迷ったら eMAXIS Slim 全世界株式（オール・カントリー）1本でゴール</strong>。あんたの生活圏が SBI なら SBI・V系、楽天なら楽天・プラスでもOK。<strong>信託報酬と連動指数</strong>さえ押さえれば、あとは経済圏で選んで終わり。20年放置するんだから、入口でビビるだけ損よ。</div>
 </div>
 
@@ -89,7 +88,6 @@ author: "hacker-ko"
 <div class="compare-cards">
   <article class="compare-card recommended">
     <span class="compare-card-tag is-main">王道No.1</span>
-    <span class="compare-card-mascot"><img src="/images/expr-05-smug.png" alt="" /></span>
     <h3>eMAXIS Slim 全世界株式（オール・カントリー）</h3>
     <p class="tagline">通称「オルカン」。新NISAつみたて枠の絶対王者。迷ったらコレ1本でゴール。</p>
     <dl>
@@ -107,7 +105,6 @@ author: "hacker-ko"
 
   <article class="compare-card recommended">
     <span class="compare-card-tag is-main">王道No.2</span>
-    <span class="compare-card-mascot"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <h3>eMAXIS Slim 米国株式（S&P500）</h3>
     <p class="tagline">米国一強を信じるならコレ。オルカンとほぼ同水準のコストで米国大型500社に集中投資。</p>
     <dl>
@@ -125,7 +122,6 @@ author: "hacker-ko"
 
   <article class="compare-card recommended">
     <span class="compare-card-tag is-sub">コスト最安</span>
-    <span class="compare-card-mascot"><img src="/images/expr-09-arms-crossed.png" alt="" /></span>
     <h3>SBI・V・S&P500インデックス・ファンド</h3>
     <p class="tagline">SBIアセットマネジメントの本気。バンガード社のETFを通じてS&P500に投資する低コスト勢。</p>
     <dl>
@@ -142,7 +138,6 @@ author: "hacker-ko"
 
   <article class="compare-card">
     <span class="compare-card-tag is-sub">SBI×全世界</span>
-    <span class="compare-card-mascot"><img src="/images/expr-01-wave.png" alt="" /></span>
     <h3>SBI・全世界株式インデックス・ファンド（雪だるま）</h3>
     <p class="tagline">SBI版オルカン。FTSEグローバル・オールキャップ・インデックス連動で小型株までカバー。</p>
     <dl>
@@ -159,7 +154,6 @@ author: "hacker-ko"
 
   <article class="compare-card">
     <span class="compare-card-tag is-sub">楽天経済圏</span>
-    <span class="compare-card-mascot"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <h3>楽天・オールカントリー株式インデックス・ファンド</h3>
     <p class="tagline">楽天投信投資顧問の対オルカン後発勢。信託報酬は業界最安級、楽天証券との相性◎。</p>
     <dl>

@@ -17,7 +17,6 @@ references: ["https://www.sonysonpo.co.jp/", "https://www.sbisonpo.co.jp/", "htt
 自動車保険、**「ディーラーで言われるがまま代理店型」のまま10年放置**してるあんた、はっきり言うわよ、年間3〜5万円ドブ捨てしてる。2026年の今、ダイレクト型主要8社をネットで一括見積もりすれば**同じ補償内容で半額近くなる**ことだって珍しくない。今日アタシが、年代・等級・走行距離別に「あんたが選ぶべき1社」までナビゲートしてあげる 😏
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">時間ないあんたのために結論先出し。<strong>「ソニー損保」「SBI損保」「おとなの自動車保険（SOMPOダイレクト）」</strong>の3社をまず一括見積もりに突っ込みなさい。年齢・等級・走行距離次第で最安は変わるから、必ず<strong>3社以上の見積もりを並べて比べる</strong>のがコツよ。</div>
 </div>
 
@@ -126,7 +125,6 @@ references: ["https://www.sonysonpo.co.jp/", "https://www.sbisonpo.co.jp/", "htt
 
 <div class="compare-cards">
   <article class="compare-card recommended">
-    <span class="compare-card-mascot"><img src="/images/expr-05-smug.png" alt="" /></span>
     <h3 class="brand-h"><img class="brand-logo" src="/images/car-insurance-comparison-2026/logos/sonysonpo.png" alt="ソニー損保のロゴ" loading="lazy" /><span>ソニー損保</span></h3>
     <p class="tagline">走行距離区分制の代表格。「乗らない人」ほど安くなる、ダイレクト型の王道。</p>
     <dl>
@@ -141,7 +139,6 @@ references: ["https://www.sonysonpo.co.jp/", "https://www.sbisonpo.co.jp/", "htt
   </article>
 
   <article class="compare-card recommended">
-    <span class="compare-card-mascot"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <h3 class="brand-h"><img class="brand-logo" src="/images/car-insurance-comparison-2026/logos/sbisonpo.png" alt="SBI損保のロゴ" loading="lazy" /><span>SBI損保</span></h3>
     <p class="tagline">価格.com満足度ランキング常連の「安さ最強」候補。補償シンプルで分かりやすい。</p>
     <dl>
@@ -156,7 +153,6 @@ references: ["https://www.sonysonpo.co.jp/", "https://www.sbisonpo.co.jp/", "htt
   </article>
 
   <article class="compare-card">
-    <span class="compare-card-mascot"><img src="/images/expr-06-shock.png" alt="" /></span>
     <h3 class="brand-h"><img class="brand-logo" src="/images/car-insurance-comparison-2026/logos/zurich.png" alt="チューリッヒのロゴ" loading="lazy" /><span>チューリッヒ</span></h3>
     <p class="tagline">ネット割引の総額が業界最大級。割引マシマシで初年度の体感価格を最小化したい人へ。</p>
     <dl>
@@ -171,7 +167,6 @@ references: ["https://www.sonysonpo.co.jp/", "https://www.sbisonpo.co.jp/", "htt
   </article>
 
   <article class="compare-card">
-    <span class="compare-card-mascot"><img src="/images/expr-01-wave.png" alt="" /></span>
     <h3 class="brand-h"><img class="brand-logo" src="/images/car-insurance-comparison-2026/logos/mitsuidirect.png" alt="三井ダイレクト損保のロゴ" loading="lazy" /><span>三井ダイレクト損保</span></h3>
     <p class="tagline">MS&ADグループの安心感＋ダイレクト型の価格。バランス型の有力候補。</p>
     <dl>
@@ -186,7 +181,6 @@ references: ["https://www.sonysonpo.co.jp/", "https://www.sbisonpo.co.jp/", "htt
   </article>
 
   <article class="compare-card">
-    <span class="compare-card-mascot"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <h3 class="brand-h"><img class="brand-logo" src="/images/car-insurance-comparison-2026/logos/axa.png" alt="アクサダイレクトのロゴ" loading="lazy" /><span>アクサダイレクト</span></h3>
     <p class="tagline">割引メニューの豊富さが頭ひとつ抜けてる。家族構成・車種の変化に強い。</p>
     <dl>
@@ -201,7 +195,6 @@ references: ["https://www.sonysonpo.co.jp/", "https://www.sbisonpo.co.jp/", "htt
   </article>
 
   <article class="compare-card recommended">
-    <span class="compare-card-mascot"><img src="/images/expr-05-smug.png" alt="" /></span>
     <h3 class="brand-h"><img class="brand-logo" src="/images/car-insurance-comparison-2026/logos/sompodirect.png" alt="おとなの自動車保険のロゴ" loading="lazy" /><span>おとなの自動車保険<br>（SOMPOダイレクト損害保険）</span></h3>
     <p class="tagline">40-50代に最も有利な1歳刻み年齢料率。事故率の低い世代ほど安くなる設計。</p>
     <dl>
@@ -217,7 +210,6 @@ references: ["https://www.sonysonpo.co.jp/", "https://www.sbisonpo.co.jp/", "htt
   </article>
 
   <article class="compare-card">
-    <span class="compare-card-mascot"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <h3>東京海上ダイレクト<br>（旧イーデザイン損保）</h3>
     <p class="tagline">大手・東京海上日動グループのダイレクト窓口。テレマティクス「&e」も選べる。</p>
     <dl>
@@ -232,7 +224,6 @@ references: ["https://www.sonysonpo.co.jp/", "https://www.sbisonpo.co.jp/", "htt
   </article>
 
   <article class="compare-card">
-    <span class="compare-card-mascot"><img src="/images/expr-01-wave.png" alt="" /></span>
     <h3 class="brand-h"><img class="brand-logo" src="/images/car-insurance-comparison-2026/logos/rakutensonpo.png" alt="楽天損保 ドライブアシストのロゴ" loading="lazy" /><span>楽天損保 ドライブアシスト</span></h3>
     <p class="tagline">楽天経済圏ユーザーの本命。保険料の支払い・受取で楽天ポイントが循環する。</p>
     <dl>
@@ -391,7 +382,6 @@ references: ["https://www.sonysonpo.co.jp/", "https://www.sbisonpo.co.jp/", "htt
 人身傷害があれば搭乗者傷害は基本不要、これだけで年間数千円〜1万円浮く。
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-09-arms-crossed.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">「営業に勧められたから全部つけた」は<strong>カモネギ宣言</strong>。代理店型からダイレクト型に切り替えるタイミングで、特約も棚卸ししなさい。年5,000〜1万円は確実に追加で浮くわよ。</div>
 </div>
 

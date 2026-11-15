@@ -26,7 +26,6 @@ references: ["https://prtimes.jp/main/html/rd/p/000000003.000187828.html", "http
 だからアタシがまとめた。土台は**広報事務局のプレスリリース**（2026年9月25日）と**公式サイト**。曜日ごとの値段と、休みの日を並べたわよ。
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">先に一番大事なことを言っとく。<strong>一般は月〜木が4,400円、土日祝は5,000円。</strong>だから平日がいちばん安いわ。それと<strong>毎週火曜は休み</strong>、<strong>2027年1月1日・2日も休み</strong>よ。<strong>日付の変更と払い戻しはできない</strong>から気をつけて。</div>
 </div>
 

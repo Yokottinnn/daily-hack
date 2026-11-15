@@ -20,7 +20,6 @@ references:
 だからアタシが作った。土台は**イオンモール株式会社の公式サイト「施設情報」**。国内の全施設のページに載っている**総賃貸面積・延床面積・駐車台数**を1つずつ集めて、**全国150施設**を並べた。売上のほうは、決算説明資料まで当たって「どこまで公開されているか」を書いておく。
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">先に一番の驚きを言っとく。<strong>1位は幕張新都心と橿原の同率（12.8万㎡）</strong>。でもね、<strong>レイクタウンは公式サイトで3つに分かれてる</strong>の。mori・kaze・アウトレットを足すと<strong>約19万㎡で、ぶっちぎりの日本最大</strong>よ。それと、<strong>モールごとの売上はイオンが出してない</strong>。売上ランキングを名乗る表は、どれも推計なのよ。</div>
 </div>
 

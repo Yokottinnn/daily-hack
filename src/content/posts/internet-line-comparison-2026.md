@@ -17,7 +17,6 @@ author: "hacker-ko"
 アタシは家のネット回線を **キャッシュバック額・月額料金・対応エリア・違約金条件** の 4 軸で見て決める派。今回は Daily Hack 編集部が **主要 6 社（フレッツ光、ソフトバンク光、コミュファ光、BIGLOBE光、So-net光、GMO光アクセス）** を一括比較してあげる。
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">先に結論。<strong>キャッシュバック重視ならフレッツ光（最大79,000円）かBIGLOBE光（最大40,000円）</strong>、<strong>月額重視ならコミュファ光（月額980円〜の年間プラン）</strong>、<strong>auひかりエリアならBIGLOBE光経由でau契約</strong>。エリア外なら So-net 光か GMO 光が無難。</div>
 </div>
 
@@ -256,7 +255,6 @@ author: "hacker-ko"
 </div>
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-02-pout.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">「結局どれが一番得？」って聞くあんた、まだ自分のスマホキャリアと住所エリアを言ってないでしょ？光回線は <strong>スマホセット割が効くキャリア</strong> と <strong>対応エリア</strong> の2軸で90%決まる。CB額だけ見て決めて、スマホ割逃すのが一番もったいないのよ。</div>
 </div>
 

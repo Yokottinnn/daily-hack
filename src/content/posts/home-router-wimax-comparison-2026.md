@@ -25,7 +25,6 @@ references:
 だからアタシが作った。SoftBank Air・BIGLOBE WiMAX +5G・DTI WiMAX 2+、参考に楽天モバイルの Rakuten Turbo を加えた4つを、**各社の公式料金ページの数字だけ**で計算し直した。**2年総額**に加えて、**2年で解約したときに残る端末代**まで出してある。
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">先に一番の驚きを言っとく。<strong>4社とも契約解除料は0円。なのにSoftBank Airは2年で解約すると、端末の残りが47,520〜49,500円残る。</strong>「実質4,950円」は4年使う前提の数字なのよ。2年でやめたときに実際に払う額は、最安のBIGLOBEの<strong>約1.6倍</strong>になる。</div>
 </div>
 
@@ -423,7 +422,6 @@ WiMAX の HOME 5G L13 とドコモ home 5G HR02 を比べている。
 </div>
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-01-wave.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">「解約金0円」って言葉に安心しちゃダメよ。<strong>見るべきは、あんたがその家に何年住むか。</strong>2年以内に動く可能性があるなら、端末の分割と割引が連動していないほうを選びなさい。4年以上住むなら、スマホのセット割で選べばいいわ。</div>
 </div>
 

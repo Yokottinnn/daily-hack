@@ -28,7 +28,6 @@ references: ["https://mitsui-shopping-park.com/lalaport/toyosu/event/3613509.htm
 だからアタシがまとめた。土台は**ららぽーと豊洲の公式のイベントページ 2 つ**。日付・条件・当たる数を、ページの表記どおりに並べたわよ。
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">先に一番大事なことを言っとく。<strong>抽選会はレシートが 2 枚要る</strong>のよ。ユニクロ・GU・SANWA・アカチャンホンポ・無印良品のどこかで<strong>3,000円以上</strong>の 1 枚と、<strong>ほかの店</strong>の 1 枚。しかも<strong>紙のレシートだけ</strong>。電子レシートは使えないわ。</div>
 </div>
 

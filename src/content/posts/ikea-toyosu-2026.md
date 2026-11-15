@@ -17,7 +17,6 @@ references: ["https://www.ikea.com/jp/ja/stores/toyosu/", "https://prtimes.jp/ma
 だからアタシが作った。**イケア・ジャパンが出した店内写真とプレスリリース、公式の店舗ページ**を土台に、**どのゾーンに何が売っているか**を1つずつ見ていく。あわせて、**都心のIKEAがいまどうなっているか**と、オープン記念のキャンペーンまで。
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">先に一番の驚きを言っとく。<strong>置いてある約600点のうち、約500点はその場で持って帰れる。</strong>比率にすると<strong>83%</strong>。郊外の大型店みたいに「見て、番号を控えて、倉庫で探す」がほとんど要らないの。<strong>電車で来て、手で持って帰る</strong>ための店として作られてるってこと。</div>
 </div>
 
@@ -417,6 +416,5 @@ references: ["https://www.ikea.com/jp/ja/stores/toyosu/", "https://prtimes.jp/ma
 </aside>
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-01-wave.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">まとめるとね。<strong>豊洲は「見に行く店」じゃなくて「持って帰る店」。</strong>大きい家具をじっくり比べたいなら Tokyo-Bay、ごはんも食べたいなら渋谷、<strong>仕事帰りに寄ってその日から使うものを買うなら豊洲</strong>。駅直結で21時までやってるのが効くのよ。サメ抱えて有楽町線に乗んなさい。</div>
 </div>

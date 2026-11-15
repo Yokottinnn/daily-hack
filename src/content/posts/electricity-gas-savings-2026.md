@@ -19,7 +19,6 @@ author: "hacker-ko"
 今日はアタシが、本気でお得な**電気6社＋ガス3社**を4人家族モデル（月使用量350kWh）で横並びに比較してあげる。読み終わったら、迷わずあんたの家にベストな組み合わせが決まる。新電力の倒産リスクや料金見直しの注意点まで、誠実に全部書く 😏
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">先に結論。<strong>楽天でんき or ENEOSでんき or オクトパスエナジー</strong>のどれかに切り替えなさい。あんたの経済圏と使用量で決まるけど、大手のまま放置だけは絶対に損確定よ。</div>
 </div>
 
@@ -86,7 +85,6 @@ author: "hacker-ko"
 <div class="compare-cards">
   <article class="compare-card recommended">
     <span class="compare-card-tag is-main">推奨枠</span>
-    <span class="compare-card-mascot"><img src="/images/expr-05-smug.png" alt="" /></span>
     <h3 class="brand-h"><img class="brand-logo" src="/images/electricity-gas-savings-2026/logos/rakuten-denki.png" alt="楽天でんきのロゴ" loading="lazy" /><span>楽天でんき</span></h3>
     <p class="tagline">楽天経済圏なら一択。電気代でも楽天ポイントが貯まり、SPU倍率にも貢献。</p>
     <dl>
@@ -102,7 +100,6 @@ author: "hacker-ko"
 
   <article class="compare-card recommended">
     <span class="compare-card-tag is-main">推奨枠</span>
-    <span class="compare-card-mascot"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <h3 class="brand-h"><img class="brand-logo" src="/images/electricity-gas-savings-2026/logos/eneos.png" alt="ENEOSでんきのロゴ" loading="lazy" /><span>ENEOSでんき</span></h3>
     <p class="tagline">大手石油元売り・JXTGエネルギー運営の安定感。長期契約でさらに割引が乗る老舗。</p>
     <dl>
@@ -118,7 +115,6 @@ author: "hacker-ko"
 
   <article class="compare-card recommended">
     <span class="compare-card-tag is-sub">サブ推奨</span>
-    <span class="compare-card-mascot"><img src="/images/expr-01-wave.png" alt="" /></span>
     <h3 class="brand-h"><img class="brand-logo" src="/images/electricity-gas-savings-2026/logos/octopus.png" alt="オクトパスエナジーのロゴ" loading="lazy" /><span>オクトパスエナジー</span></h3>
     <p class="tagline">英国発・東京ガスとの合弁。再エネ100%プランで環境派にも刺さる新興勢力。</p>
     <dl>
@@ -134,7 +130,6 @@ author: "hacker-ko"
 
   <article class="compare-card">
     <span class="compare-card-tag is-sub">市場連動型</span>
-    <span class="compare-card-mascot"><img src="/images/expr-02-pout.png" alt="" /></span>
     <h3 class="brand-h"><img class="brand-logo" src="/images/electricity-gas-savings-2026/logos/looop.png" alt="Looopでんきのロゴ" loading="lazy" /><span>Looopでんき</span></h3>
     <p class="tagline">基本料金0円＋市場連動型「スマートタイムONE」が看板。価格変動を読める人向け。</p>
     <dl>
@@ -150,7 +145,6 @@ author: "hacker-ko"
 
   <article class="compare-card">
     <span class="compare-card-tag is-sub">au経済圏</span>
-    <span class="compare-card-mascot"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <h3 class="brand-h"><img class="brand-logo" src="/images/electricity-gas-savings-2026/logos/au.png" alt="auでんきのロゴ" loading="lazy" /><span>auでんき</span></h3>
     <p class="tagline">au・UQモバイルユーザー＆Ponta派の本命。電気代でPontaポイントが貯まる。</p>
     <dl>
@@ -166,7 +160,6 @@ author: "hacker-ko"
 
   <article class="compare-card">
     <span class="compare-card-tag is-sub">SoftBank経済圏</span>
-    <span class="compare-card-mascot"><img src="/images/expr-01-wave.png" alt="" /></span>
     <h3 class="brand-h"><img class="brand-logo" src="/images/electricity-gas-savings-2026/logos/softbank.png" alt="ソフトバンクでんきのロゴ" loading="lazy" /><span>ソフトバンクでんき</span></h3>
     <p class="tagline">ソフトバンク・ワイモバイル・PayPayユーザーに刺さるセット割。</p>
     <dl>
@@ -272,7 +265,6 @@ author: "hacker-ko"
 <div class="compare-cards">
   <article class="compare-card recommended">
     <span class="compare-card-tag is-main">本命</span>
-    <span class="compare-card-mascot"><img src="/images/expr-05-smug.png" alt="" /></span>
     <h3 class="brand-h"><img class="brand-logo" src="/images/electricity-gas-savings-2026/logos/tokyogas.png" alt="東京ガスのロゴ" loading="lazy" /><span>東京ガス</span></h3>
     <p class="tagline">首都圏の老舗・最大手。電気とのセット割「ずっとも電気」で総合最強。</p>
     <dl>
@@ -288,7 +280,6 @@ author: "hacker-ko"
 
   <article class="compare-card recommended">
     <span class="compare-card-tag is-sub">割安重視</span>
-    <span class="compare-card-mascot"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <h3 class="brand-h"><img class="brand-logo" src="/images/electricity-gas-savings-2026/logos/lemongas.png" alt="レモンガスのロゴ" loading="lazy" /><span>レモンガス</span></h3>
     <p class="tagline">関東圏で東京ガスから乗り換える代表格。基本料金・従量料金とも安く設計。</p>
     <dl>
@@ -304,7 +295,6 @@ author: "hacker-ko"
 
   <article class="compare-card">
     <span class="compare-card-tag is-sub">ENEOS経済圏</span>
-    <span class="compare-card-mascot"><img src="/images/expr-01-wave.png" alt="" /></span>
     <h3 class="brand-h"><img class="brand-logo" src="/images/electricity-gas-savings-2026/logos/eneos.png" alt="ENEOS都市ガスのロゴ" loading="lazy" /><span>ENEOS都市ガス</span></h3>
     <p class="tagline">ENEOSでんきとセットで請求まとめ＆Tポイント還元。電気と一括で固めたい人向け。</p>
     <dl>

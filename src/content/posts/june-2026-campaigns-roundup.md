@@ -16,7 +16,6 @@ author: "hacker-ko"
 5月の銀行キャンペーンを取り逃した人、まだ顔上げないでいいから黙って読みなさい。6月は **銀行・クレカ・QR決済・ふるさと納税が全部"動く"月**。優先度を間違えて月末にバタバタする人を、アタシは過去にも何百人見てきたわよ。先に結論を置いておくと、6月にやるべき案件は **TOP15、合計で4万〜10万円相当**。やるかやらないかで、夏のボーナス手取りが普通に変わるレベルの差が出るからね 😏
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">6月のキャンペーンまとめ、<strong>アタシが選別してあげる</strong>わよ。全部はやらなくていいから、Day1にやるやつだけ今日中にやりなさい。あんたの夏のボーナス、これで1万円分くらい厚くなるわよ。</div>
 </div>
 
@@ -66,7 +65,6 @@ author: "hacker-ko"
 <div class="compare-cards">
   <article class="compare-card recommended">
     <span class="compare-card-image"><img src="https://www.smbc.co.jp/kojin/olive/imgs/index_img_18_pc.png" alt="Olive（三井住友銀行）" loading="lazy" /></span>
-    <span class="compare-card-mascot"><img src="/images/expr-05-smug.png" alt="" /></span>
     <h3>1. Olive（三井住友銀行）</h3>
     <p class="tagline">6月もキャンペーン継続中。最大30,000円相当のVポイントは依然として最強案件。</p>
     <dl>
@@ -81,7 +79,6 @@ author: "hacker-ko"
 
   <article class="compare-card recommended">
     <span class="compare-card-image"><img src="https://www.rakuten-bank.co.jp/jrebank/campaign/referral/images/img-main-sp.png" alt="JRE BANK" loading="lazy" /></span>
-    <span class="compare-card-mascot"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <h3 class="brand-h"><img class="brand-logo" src="/images/june-2026-campaigns-roundup/logos/jrebank.png" alt="JRE BANKのロゴ" loading="lazy" /><span>2. JRE BANK 開設</span></h3>
     <p class="tagline">JR東日本ユーザーは"無条件"で勝てる銀行。新幹線4割引・キャッシュバックが地味に強烈。</p>
     <dl>
@@ -96,7 +93,6 @@ author: "hacker-ko"
 
   <article class="compare-card recommended">
     <span class="compare-card-image is-logo"><img src="https://www.rakuten-bank.co.jp/shared/images/header/logo_pc.svg" alt="楽天銀行" loading="lazy" /></span>
-    <span class="compare-card-mascot"><img src="/images/expr-01-wave.png" alt="" /></span>
     <h3 class="brand-h"><img class="brand-logo" src="/images/june-2026-campaigns-roundup/logos/rakutenbank.png" alt="楽天銀行のロゴ" loading="lazy" /><span>3. 楽天銀行 紹介プログラム</span></h3>
     <p class="tagline">楽天経済圏の入口。ハッピープログラム登録で確実に200pt、紹介者は最大2,000pt。</p>
     <dl>
@@ -111,7 +107,6 @@ author: "hacker-ko"
 
   <article class="compare-card recommended">
     <span class="compare-card-image"><img src="https://image.card.jp.rakuten-static.com/card_corp/pc/contents/premiumprogram/kanban.png" alt="楽天カードのキャンペーン" loading="lazy" /></span>
-    <span class="compare-card-mascot"><img src="/images/expr-05-smug.png" alt="" /></span>
     <h3 class="brand-h"><img class="brand-logo" src="/images/june-2026-campaigns-roundup/logos/rakuten-card.png" alt="楽天カードのロゴ" loading="lazy" /><span>4. 楽天カード（紹介経由）</span></h3>
     <p class="tagline">入会キャンペーン + 紹介プログラム上乗せで6月も二重取りができる定番。</p>
     <dl>
@@ -126,7 +121,6 @@ author: "hacker-ko"
 
   <article class="compare-card recommended">
     <span class="compare-card-image"><img src="https://www.jcb.co.jp/promotion/ordercard/w/images/renewal/info_img01_sp.jpg" alt="JCBカードWのキャンペーン" loading="lazy" /></span>
-    <span class="compare-card-mascot"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <h3 class="brand-h"><img class="brand-logo" src="/images/june-2026-campaigns-roundup/logos/jcb.png" alt="JCBのロゴ" loading="lazy" /><span>5. JCBカードW</span></h3>
     <p class="tagline">39歳以下なら今月中に申し込みなさい。Amazon・スタバの還元率は他カードを置き去り。</p>
     <dl>
@@ -141,7 +135,6 @@ author: "hacker-ko"
 
   <article class="compare-card recommended">
     <span class="compare-card-image"><img src="https://recruit-card.jp/site_assets/lp/sp/img/basic-card/feature-rich/campaign_card_master.png" alt="リクルートカードのキャンペーン" loading="lazy" /></span>
-    <span class="compare-card-mascot"><img src="/images/expr-01-wave.png" alt="" /></span>
     <h3 class="brand-h"><img class="brand-logo" src="/images/june-2026-campaigns-roundup/logos/recruit-card.png" alt="リクルートカードのロゴ" loading="lazy" /><span>6. リクルートカード（紹介経由）</span></h3>
     <p class="tagline">基本還元率1.2%の最高峰。紹介プログラム経由で通常キャンペーンに上乗せ特典。</p>
     <dl>
@@ -156,7 +149,6 @@ author: "hacker-ko"
 
   <article class="compare-card recommended">
     <span class="compare-card-image"><img src="https://image.paypay.ne.jp/page/top/images/img_about_04.png" alt="PayPayの新規登録特典" loading="lazy" /></span>
-    <span class="compare-card-mascot"><img src="/images/expr-06-shock.png" alt="" /></span>
     <h3 class="brand-h"><img class="brand-logo" src="/images/june-2026-campaigns-roundup/logos/paypay.png" alt="PayPayのロゴ" loading="lazy" /><span>7. PayPay 新規登録</span></h3>
     <p class="tagline">QR決済シェアNo.1。新規登録 + 本人確認で即時ポイント。インストールするだけで負けない案件。</p>
     <dl>
@@ -171,7 +163,6 @@ author: "hacker-ko"
 
   <article class="compare-card recommended">
     <span class="compare-card-image is-logo"><img src="https://payment.rakuten.co.jp/img/logo-Rpayment20241101.svg" alt="楽天ペイ" loading="lazy" /></span>
-    <span class="compare-card-mascot"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <h3 class="brand-h"><img class="brand-logo" src="/images/june-2026-campaigns-roundup/logos/rakutenpay.png" alt="楽天ペイのロゴ" loading="lazy" /><span>8. 楽天ペイ 新規登録</span></h3>
     <p class="tagline">楽天カードとの組み合わせで還元率が爆上がり。SPU連携も狙えるから楽天民は必須。</p>
     <dl>
@@ -186,7 +177,6 @@ author: "hacker-ko"
 
   <article class="compare-card recommended">
     <span class="compare-card-image"><img src="https://service.smt.docomo.ne.jp/keitai_payment/assets/top/image/illust_point_description_01.png" alt="d払いの新規登録" loading="lazy" /></span>
-    <span class="compare-card-mascot"><img src="/images/expr-01-wave.png" alt="" /></span>
     <h3>9. d払い 新規登録</h3>
     <p class="tagline">dポイント経済圏の入口。ローソン・マツキヨ・ガストの常連は無視できない。</p>
     <dl>
@@ -201,7 +191,6 @@ author: "hacker-ko"
 
   <article class="compare-card">
     <span class="compare-card-image"><img src="https://about.paypay.ne.jp/uploads/2025/02/20250228_02_image01_sp.jpg" alt="PayPayカード" loading="lazy" /></span>
-    <span class="compare-card-mascot"><img src="/images/expr-05-smug.png" alt="" /></span>
     <h3 class="brand-h"><img class="brand-logo" src="/images/june-2026-campaigns-roundup/logos/paypaycard.png" alt="PayPayカードのロゴ" loading="lazy" /><span>10. PayPayカード</span></h3>
     <p class="tagline">PayPay残高に直接チャージできる唯一のクレカ。ソフトバンク経済圏なら効率が段違い。</p>
     <dl>
@@ -215,7 +204,6 @@ author: "hacker-ko"
   </article>
 
   <article class="compare-card">
-    <span class="compare-card-mascot"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <h3 class="brand-h"><img class="brand-logo" src="/images/june-2026-campaigns-roundup/logos/mufg.png" alt="三菱UFJ銀行のロゴ" loading="lazy" /><span>11. 三菱UFJ銀行 紹介</span></h3>
     <p class="tagline">紹介してもされても1,500円のシンプル設計。既存口座があるなら家族に紹介して両者ゲット。</p>
     <dl>
@@ -229,7 +217,6 @@ author: "hacker-ko"
   </article>
 
   <article class="compare-card">
-    <span class="compare-card-mascot"><img src="/images/expr-01-wave.png" alt="" /></span>
     <h3 class="brand-h"><img class="brand-logo" src="/images/june-2026-campaigns-roundup/logos/mizuho.png" alt="みずほ銀行のロゴ" loading="lazy" /><span>12. みずほ銀行 紹介</span></h3>
     <p class="tagline">既存銀行の乗り換え候補。住宅ローン検討者には地味に効く特典が用意されている。</p>
     <dl>
@@ -243,7 +230,6 @@ author: "hacker-ko"
   </article>
 
   <article class="compare-card">
-    <span class="compare-card-mascot"><img src="/images/expr-05-smug.png" alt="" /></span>
     <h3>13. ふるさと納税の運用調整</h3>
     <p class="tagline">6月は年収予測が立つ最初の月。上限額の再計算 + 上半期分の寄付実行で月末までに動く。</p>
     <dl>
@@ -257,7 +243,6 @@ author: "hacker-ko"
   </article>
 
   <article class="compare-card">
-    <span class="compare-card-mascot"><img src="/images/expr-04-cheer.png" alt="" /></span>
     <h3 class="brand-h"><img class="brand-logo" src="/images/june-2026-campaigns-roundup/logos/rakutenichiba-app.jpg" alt="楽天市場のロゴ" loading="lazy" /><span>14. 楽天市場アプリ 初回特典</span></h3>
     <p class="tagline">アプリで久しぶり or 初回の買い物をするだけで最大1,000ポイント。やらない理由がない案件。</p>
     <dl>
@@ -271,7 +256,6 @@ author: "hacker-ko"
   </article>
 
   <article class="compare-card">
-    <span class="compare-card-mascot"><img src="/images/expr-01-wave.png" alt="" /></span>
     <h3>15. GO（タクシーアプリ）紹介</h3>
     <p class="tagline">移動費を経費化したい人・梅雨で雨タクシー多めの月にちょうどいい500円OFFクーポン。</p>
     <dl>

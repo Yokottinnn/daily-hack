@@ -17,7 +17,6 @@ references: ["https://sp.jorudan.co.jp/leaf/news/jrd_260902_1.html", "https://ww
 だからアタシが作った。**日本気象と日本気象協会（tenki.jp）の2026年の予想**を土台に、関東・甲信の46か所を**例年の見頃が早い順**に並べ、**東京23区のおすすめ10か所と電車で日帰りの3か所**は、料金・最寄駅に加えて**今年の夜の催し・割引・園内のグルメ**まで公式で確かめた。
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">先に一番の驚きを言っとく。<strong>東京の紅葉は11月29日ごろで平年並み。なのに高尾山は11月19日〜で、去年（11月11日〜）より8日遅い。</strong>9月後半から気温が高い日が続いて、山の色づきが後ろにずれたの。去年の感覚で11月の頭に行くと、まだ青いわよ。</div>
 </div>
 
@@ -795,7 +794,6 @@ references: ["https://sp.jorudan.co.jp/leaf/news/jrd_260902_1.html", "https://ww
 **見頃は天気で前後する。** 予想は10月以降も更新されるので、出かける前は日本気象協会や各名所の公式で最新の色づきを確認すること。
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-01-wave.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">今年は<strong>「平年並みか、ちょっと遅い」</strong>。10月中に動くなら日光、11月の前半なら昭和記念公園、11月の終わりから12月の頭は都内の庭園と外苑——この順で回ると外さないわよ。夜なら<strong>小石川後楽園（11/13〜）→六義園（11/25〜）</strong>の順。前売のほうが200円安いから、行く日が決まったら先に買っときなさい。</div>
 </div>
 

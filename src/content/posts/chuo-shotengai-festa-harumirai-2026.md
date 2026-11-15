@@ -30,7 +30,6 @@ event:
 <p class="source-note">この記事の日時・内容は2026年11月8日に公式ページで確かめたもの。</p>
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-05-smug.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">先に一番大事なことを言っとく。<strong>駄菓子の配布は10時から本部テントで先着200名</strong>。抽選券は<strong>13時30分までに商店街のテントで買い物</strong>した人だけ。子連れは<strong>朝いちばん</strong>に行くのが正解ね。</div>
 </div>
 
@@ -187,6 +186,5 @@ event:
 <p class="source-note">表紙は中央区観光商業まつり公式サイトの告知画像（16:9に切り取った）。出典：<a href="https://chuocity-tourismandmarketfair.jp/events/shopping-street-festival/" target="_blank" rel="noopener">中央区観光商業まつり 公式サイト</a>／<a href="https://www.city.chuo.lg.jp/a0003/kusei/kouhoukouchou/press/260928.html" target="_blank" rel="noopener">中央区プレスリリース（2026年9月28日）</a></p>
 
 <div class="hakkako-says">
-  <div class="hakkako-mascot"><img src="/images/expr-01-wave.png" alt="Daily Hackマスコット" /></div>
   <div class="hakkako-quote">築地と月島と人形町を、晴海で<strong>1日でまとめて回れる</strong>のはこの日だけ。朝は駄菓子、昼は焼きそば、13時半までに買い物して抽選。<strong>この順番で回れば取りこぼさない</strong>わ。</div>
 </div>

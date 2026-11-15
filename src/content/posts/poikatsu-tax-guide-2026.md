@@ -18,7 +18,6 @@ references: ["https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1907.htm",
 このページは、**国税庁の一次情報をもとに「課税される/されない」を判定フローで整理**した保存版。一時所得の50万円控除、給与所得者の“20万円ルール”、そして**みんなが見落とす住民税の落とし穴**まで、ポイ活民が知っておくべき税金をまるっとまとめた。
 
 <div class="hakkako-says">
-<img src="/images/expr-09-arms-crossed.png" alt="ハッカー子" />
 <p>先に超大事なことを言うわ。<strong>普段の買い物でもらう楽天ポイントやPayPayポイントは「値引き」扱いで非課税</strong>。ここは申告いらない。問題は<strong>懸賞の当選・友達紹介・セルフバック（自己アフィリ）みたいに“買い物の値引きじゃない”もうけ</strong>。これは課税対象になりうる。下のフローで自分がどっちか確かめて。<br>※税金は個別事情で結論が変わるから、この記事は一般論。最終判断は必ず税務署か税理士に確認してね（アタシは税理士じゃないわよ）。</p>
 </div>
 
@@ -96,7 +95,6 @@ references: ["https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1907.htm",
 - **20万円ライン**＝給与所得者の「確定申告が必要か」の基準（**所得税のみ**）。
 
 <div class="hakkako-says">
-<img src="/images/expr-06-shock.png" alt="ハッカー子" />
 <p>ここ、いちばんの落とし穴。<strong>「20万円以下だから申告しなくていい」は“所得税だけ”の話</strong>。<strong>住民税にはこの20万円ルールがない</strong>から、利益が1円でもあれば原則お住まいの市区町村に住民税の申告が必要なの。「確定申告はいらないけど住民税の申告はいる」ケースがあるから注意。（確定申告をすれば住民税側は自動連携でOK）</p>
 </div>
 
@@ -160,6 +158,5 @@ references: ["https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1907.htm",
 → 関連: [ポイントサービス徹底分析 2026](/posts/point-service-complete-guide-2026/) ／ [お得施策の『本当の時給』ランキング 2026](/posts/money-hacks-hourly-wage-2026/) ／ [移動ポイ活アプリ徹底比較 2026](/posts/move-to-earn-poikatsu-apps-2026/)
 
 <div class="hakkako-says">
-<img src="/images/expr-05-smug.png" alt="ハッカー子" />
 <p>「税金が怖いからポイ活しない」って、いちばんもったいない。<strong>通常還元は非課税、課税型も“線引き”さえ分かれば淡々と処理するだけ</strong>。正しく知って、堂々と得しよ。心配な額になってきたら、ケチらず税理士に相談するのが結局いちばん安いわよ。</p>
 </div>
