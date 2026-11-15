@@ -24,7 +24,7 @@
       "label": "ケーブル"
     }
   ],
-  "pricesCheckedAt": "2026-11-14T21:45:21.072Z",
+  "pricesCheckedAt": "2026-11-15T21:45:24.468Z",
   "items": [
     {
       "id": "cio-ss10k-slim2",
@@ -185,7 +185,7 @@
         "reviewAverage": 4.67,
         "reviewCount": 12,
         "shop": "バッファロー公式ストア",
-        "checkedAt": "2026-11-14T21:45:21.072Z"
+        "checkedAt": "2026-11-15T21:45:24.468Z"
       },
       "amazon": {
         "keyword": "バッファロー 半固体 モバイルバッテリー BMPBSA10000",
@@ -299,14 +299,14 @@
         "must": [
           "DE-C86"
         ],
-        "url": "https://store.shopping.yahoo.co.jp/gikstore/elc0980.html",
+        "url": "https://store.shopping.yahoo.co.jp/gikstore/elc0979.html",
         "price": 8250,
         "shippingFree": true,
         "point": 0,
-        "reviewAverage": null,
-        "reviewCount": 1,
+        "reviewAverage": 4,
+        "reviewCount": 4,
         "shop": "Gikstore",
-        "checkedAt": "2026-11-14T21:45:21.072Z"
+        "checkedAt": "2026-11-15T21:45:24.468Z"
       },
       "amazon": {
         "keyword": "エレコム 半固体 モバイルバッテリー DE-C86-10000",
@@ -345,7 +345,7 @@
         "reviewAverage": null,
         "reviewCount": 0,
         "shop": "エレコムダイレクトショップ",
-        "checkedAt": "2026-11-14T21:45:21.072Z"
+        "checkedAt": "2026-11-15T21:45:24.468Z"
       },
       "amazon": {
         "keyword": null,
@@ -385,7 +385,7 @@
         "reviewAverage": 4.25,
         "reviewCount": 4,
         "shop": "サンワダイレクト",
-        "checkedAt": "2026-11-14T21:45:21.072Z"
+        "checkedAt": "2026-11-15T21:45:24.468Z"
       },
       "amazon": {
         "keyword": "サンワダイレクト 半固体 モバイルバッテリー 700-BTL062",
