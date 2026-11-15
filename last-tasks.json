@@ -1,5 +1,1 @@
-[
-      {"task": "x507-follow-likely-back-browse-click.sh", "rc": 0, "out": "載っている ←  FOLLOW_MIN_RATIO => 0.7 載っている ←  FOLLOW_MIN_RATIO => 0.7 入れた node --check 通った（324 行）"},
-      {"task": "x508-reply-similarity-gate.sh", "rc": 0, "out": "relevance: 入れた relevance: node --check 通った asuka-reply: 入れた asuka-reply: node --check 通った ほぼ同じ文: 止まった ／ 別の話題: 通った"},
-      {"task": "x509-schedule-bf-matome.sh", "rc": 0, "out": "ブラックフライデーまとめを 11/19 12:08 に予約した / x509-schedule-bf-matome.md"}
-  ]
+[]
