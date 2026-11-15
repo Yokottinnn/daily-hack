@@ -43,6 +43,8 @@
 
 30 日の模擬（候補が常にある前提の上限側）: フォロー＋解除は 1 日 19〜73 件（平均 46）、間隔の中央 6 分・90% 点 60 分。実際の件数は各ジョブが出す候補の数で決まる。ジョブごとの頭打ち（x480 の 2 件）は暴走よけの値に戻した（FOLLOWBACK_MAX_PER_RUN=25・COMPETITOR/HASHTAG_FOLLOW_DAILY_CAP=20・REPLY_FOLLOW_DAILY_CAP=30・follow-balance MAX_UNFOLLOW=20・mutual-prune MAX_UNFOLLOW=8）。
 
+**2026-11-15 追記（x502）:** `follow-handle.js` は押す直前に 2.5〜7 秒 止まり、1〜4 回スクロールし、4 回に 1 回は固定でない最新の投稿にいいねしてから押す（いいねは `take("like")` を通す）。呼び出し側の打ち切りは 240 秒（以前は 30〜60 秒で、150 秒の間隔待ちの途中で打ち切っていた）。
+
 `node ~/.openclaw/workspace/lib/x-action-pacer.cjs status` で「きょうの動き方」（始まり・終わり・休憩・調子）と並んでいるジョブが出る。
 
 値は `ops/lib/x-action-pacer.cjs` の `LIMITS`。**変えるときはここと CLAUDE.md の表も直す。**
