@@ -1,0 +1,38 @@
+{
+ "aerial.jpg": {
+  "src": "https://images.microcms-assets.io/assets/64a3217d05bf44b9b9abcc66fb81e5f8/80da1f5084d6487aab500ee0427f08b5/After20261014_Mitsui_20261014.jpg",
+  "page": "https://tsukiji-machizukuri.jp/news/oshirase-20261105/",
+  "credit": "築地まちづくり株式会社「現場の状況に関するお知らせ（2026年11月5日更新）」写真1 現場の上空写真",
+  "fetched": "2026-11-16"
+ },
+ "dig.jpg": {
+  "src": "https://images.microcms-assets.io/assets/64a3217d05bf44b9b9abcc66fb81e5f8/26dfdf44f312499ca73a550864762798/10%E6%9C%88%E5%86%99%E7%9C%9F.jpg",
+  "page": "https://tsukiji-machizukuri.jp/news/oshirase-20261105/",
+  "credit": "築地まちづくり株式会社「現場の状況に関するお知らせ（2026年11月5日更新）」写真2 埋蔵文化財発掘調査の様子",
+  "fetched": "2026-11-16"
+ },
+ "perspective-day.jpg": {
+  "src": "https://tsukiji-machizukuri.jp/assets/images/img-slider01_pc_D7W7atLU.jpg",
+  "page": "https://tsukiji-machizukuri.jp/",
+  "credit": "築地まちづくり株式会社 プロジェクトサイト（完成イメージ）",
+  "fetched": "2026-11-16"
+ },
+ "perspective-night.jpg": {
+  "src": "https://tsukiji-machizukuri.jp/assets/images/img-slider02_pc_Dwodmn4Y.jpg",
+  "page": "https://tsukiji-machizukuri.jp/",
+  "credit": "築地まちづくり株式会社 プロジェクトサイト（完成イメージ）",
+  "fetched": "2026-11-16"
+ },
+ "perspective-street.jpg": {
+  "src": "https://tsukiji-machizukuri.jp/assets/images/img-slider03_pc_h8p8OOC5.jpg",
+  "page": "https://tsukiji-machizukuri.jp/",
+  "credit": "築地まちづくり株式会社 プロジェクトサイト（完成イメージ）",
+  "fetched": "2026-11-16"
+ },
+ "map.jpg": {
+  "src": "https://tsukiji-machizukuri.jp/assets/images/img-map_pc_BZSV1DuR.jpg",
+  "page": "https://tsukiji-machizukuri.jp/",
+  "credit": "築地まちづくり株式会社 プロジェクトサイト（計画地の地図）",
+  "fetched": "2026-11-16"
+ }
+}
