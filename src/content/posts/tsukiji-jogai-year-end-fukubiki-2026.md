@@ -171,6 +171,26 @@ references: ["https://www.tsukiji.or.jp/event/2026/11/p14351/", "https://www.tsu
 
 ほかの湾岸のニュースは<a href="/tags/湾岸ニュース/">湾岸ニュースの一覧</a>、地区ごとのまとめは<a href="/category/wangan-life/">湾岸ライフ</a>にある。
 
+## SNS ではこう言われている｜年末の場外は「人・人・人」
+
+X と YouTube では、次のような声と動画が見つかった。
+
+- **福引セールは過去にもあった**：築地KYビルの商業会は、2026年夏の福引セールで「特賞5万円が合計20本」と告知していた
+- **年末の混み具合**：2025年12月28日〜30日には「人・人・人」「年末らしい混雑。観光客も多い」という投稿が続いた
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">特賞5万円が合計20本当たる‼ #福引セール 残りはあと12本もあります！同時開催の【夏の市】は #築地KYビル 各店おすすめ品をご紹介📷 １階たまごスイーツの店 #tsukijiSHOURO からは 【玉子焼松露ハーフ】同店は築地場外市場の玉子焼専門店 #つきぢ松露 のスイーツ店です！📷</p>&mdash; 築地共栄商業協同組合 (@tkjkysyougyouk) <a href="https://twitter.com/tkjkysyougyouk/status/2078288170509349136">2026年7月18日</a></blockquote>
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">年末の築地場外市場は人・人・人！ つきじかんので海鮮丼ランチ🐟🍚 特選上うに丼＆ネギトロサーモン丼＆トロたく寿司with焼き海苔🍣 トロたく寿司を食べる時は焼き海苔がオススメ！ 焼き海苔は3枚なので半分に割るとトロたく寿司6個に1枚ずつ使えます😊 うにを焼き海苔で巻いても美味！😋</p>&mdash; 月島長屋 (@tukishimanagaya) <a href="https://twitter.com/tukishimanagaya/status/2005938906936795568">2025年12月30日</a></blockquote>
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">築地場外の多け乃で、鱚天と小柱かき揚げの定食 大盛、キンキ煮定食 大盛、牡蠣フライ、寒鰤刺身。つれあいと。場外は年末らしい混雑。観光客も多い。</p>&mdash; 渡邊　博光 (@nabehiro87) <a href="https://twitter.com/nabehiro87/status/2005138784753779049">2025年12月28日</a></blockquote>
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/8G511sSvG6k" title="【最新⭐︎築地場外市場】初心者安心🔰ガイドブックにないリアル情報！年末の買い物完璧ガイドです。" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/SbDdfIHOPiA" title="築地場外市場2025 年末12月27日 大混雑！特大たらばがに、ずわいがに" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
 ## よくある質問
 
 <div class="cmp-table-wrap">

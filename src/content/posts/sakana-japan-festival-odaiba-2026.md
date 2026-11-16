@@ -159,6 +159,27 @@ references: ["https://prtimes.jp/main/html/rd/p/000000061.000068543.html", "http
 
 ほかの湾岸のニュースは<a href="/tags/湾岸ニュース/">湾岸ニュースの一覧</a>、地区ごとのまとめは<a href="/category/wangan-life/">湾岸ライフ</a>にある。
 
+## SNS ではこう言われている｜約80ブースが集まる
+
+X と YouTube では、次のような声と動画が見つかった。
+
+- **開催の告知**：2026年11月16日、約80ブースが集まり、鮨 銀座おのでらの本まぐろの食べ比べや福島のヒラメの無料試食があると紹介された
+- **2年ぶりのお台場**：2026年8月には「2年ぶりお台場で3日間開催へ」と報じられた
+- **主催の発信**：公式アカウントは、同じ年の代々木公園の回も告知していた
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">全国の海鮮グルメ約80ブースが集結！ 「魚ジャパンフェス2026」開催 豪華海鮮丼にカニ、牡蠣、イクラ、 鮨 銀座おのでらの本まぐろ食べ比べも🍣 さらに福島のヒラメを使った 握り寿司＆カルパッチョの無料試食を実施 日本最大級の魚介グルメの祭典！ 📅 12/4(金)-6(日) 📍 東京・お台場 🎟</p>&mdash; イベントチェッカー製作委員会 (@event_checker) <a href="https://twitter.com/event_checker/status/2122201084638740739">2026年11月16日</a></blockquote>
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">【国内最大級】全国各地の海の幸を味わえる「魚ジャパンフェス」2年ぶりお台場で3日間開催へ【2026年12月4日～6日】 #鉄道チャンネル</p>&mdash; 鉄道チャンネル (@TetsudoCh_sub) <a href="https://twitter.com/TetsudoCh_sub/status/2089151755590513093">2026年8月17日</a></blockquote>
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">魚ジャパンフェス 2026 in 代々木公園🐟 発見！ふくしまお魚まつり ふくしまスイーツフェスティバル 明日から開催🐟✨ #魚ジャパンフェス #発見ふくしまお魚まつり #ふくしまスイーツフェスティバル</p>&mdash; sakanajapanproject🐟 (@37Sakana_JAPAN) <a href="https://twitter.com/37Sakana_JAPAN/status/2024441761482125819">2026年2月19日</a></blockquote>
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/RA_-K6AmdvE" title="【全国の地魚グルメの熱き戦いに密着】カニ！真鯛！サーモン！「魚ジャパンフェスティバル」【それスタ】｜TBS NEWS DIG" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/qnwsaZt97FU" title="魚ジャパンフェス２０２６" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
 ## よくある質問
 
 <div class="cmp-table-wrap">

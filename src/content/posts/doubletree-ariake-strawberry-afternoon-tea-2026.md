@@ -156,6 +156,27 @@ references: ["https://prtimes.jp/main/html/rd/p/000000016.000149444.html", "http
 
 ほかの湾岸のニュースは<a href="/tags/湾岸ニュース/">湾岸ニュースの一覧</a>、地区ごとのまとめは<a href="/category/wangan-life/">湾岸ライフ</a>にある。
 
+## SNS ではこう言われている｜季節ごとに変わるアフタヌーンティー
+
+X と YouTube では、次のような声と動画が見つかった。
+
+- **春のいちご**：2026年3月の「桜×いちごアフタヌーンティー」は、事前予約でテイクアウトもできたと紹介されている
+- **直前のクリスマス**：2026年10月には、溶け出すサンタ帽のスイーツが入った「クリスマスアフタヌーンティー」が話題になった
+- **スタンド**：秋のアフタヌーンティーを食べた人は「他店とは違ったスタンドなのが印象的」と書いている
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">東京ビッグサイトすぐそばの【ダブルツリーbyヒルトン東京有明】 桜×いちごアフタヌーンティーは、事前予約でテイクアウトも可能。春のピクニックにぴったり🛍️🍓🌸 ボリュームもちょうどよくて気軽なデートにおすすめです。 客室はさすが、常にほぼ満室だそうです🏨😆 #ホテル #取材ライター</p>&mdash; ホテルライター🏨岩井なな (@nana_kiji) <a href="https://twitter.com/nana_kiji/status/2031970853098070387">2026年3月12日</a></blockquote>
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">ダブルツリーbyヒルトン東京有明「クリスマスアフタヌーンティー」とろ～り“溶け出す”サンタ帽＆ふわふわマシュマロのホットチョコ -</p>&mdash; Fashion Press (@fashionpressnet) <a href="https://twitter.com/fashionpressnet/status/2113858045973586129">2026年10月24日</a></blockquote>
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">ダブルツリーbyヒルトン東京有明 ご招待していただいたオータムアフタヌーンティー🍂 他店とは違ったスタンドなのが印象的だった🫶🏽</p>&mdash; 🫶🏽 (@tiramisu_621) <a href="https://twitter.com/tiramisu_621/status/2110038934629786071">2026年10月13日</a></blockquote>
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/ZSfuh2L1ixc" title="【ダブルツリー東京有明】ダイヤ特典を攻略！ハッピーアワー活用法＆朝食2会場を徹底比較" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/1N6HZCLT6zw" title="ダブルツリーbyヒルトン東京有明｜都内でこの料金！？" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
 ## よくある質問
 
 <div class="cmp-table-wrap">

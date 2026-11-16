@@ -172,6 +172,27 @@ references: ["https://prtimes.jp/main/html/rd/p/000000009.000172658.html", "http
 
 ほかの湾岸のニュースは<a href="/tags/湾岸ニュース/">湾岸ニュースの一覧</a>、地区ごとのまとめは<a href="/category/wangan-life/">湾岸ライフ</a>にある。
 
+## SNS ではこう言われている｜入場無料で大抽選会
+
+X と YouTube では、次のような声と動画が見つかった。
+
+- **告知**：「入場無料なのに、大抽選会で当たる豪華クルーズ旅行がいくつもある」と、2026年の開催を紹介する投稿がある
+- **前回の参加者**：2025年の回で大抽選会に参加し、記念品のタンブラーが当たったという報告がある
+- **会場の今**：東京国際クルーズターミナルの公式アカウントは、2026年11月にも大型客船の入港を伝えている
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">入場無料なのに、大抽選会で当たる豪華クルーズ旅行がいくつもある・・・！ 日本最大級「クルーズEXPO 2026東京」が開催へ ≫</p>&mdash; とよすと (@toyosu_tokyo) <a href="https://twitter.com/toyosu_tokyo/status/2121785576974340225">2026年11月15日</a></blockquote>
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">クルーズEXPO、船当てるはずがタンブラーが当たりました🎯✨ よく見るとsaseboって書いてあって、佐世保は先日ベリッシマで立ち寄ったのもあって来てくれてありがとうの気持ちでいっぱい🎁✨</p>&mdash; 千葉主婦🚢🏉 (@chibawomannkitu) <a href="https://twitter.com/chibawomannkitu/status/1997435684559405286">2025年12月6日</a></blockquote>
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">ただいま東京国際クルーズターミナルにWesterdamが入港いたしました🛳️ 気温は冷え込んでおりますが、秋空らしい太陽が出ているので暖かいです☀️ 本船は本日出港予定となります！ 是非ターミナルへお越しください🥂 #東京国際クルーズターミナル #Westerdam</p>&mdash; 東京国際クルーズターミナル【公式】 (@Cruise_Terminal) <a href="https://twitter.com/Cruise_Terminal/status/2119196059713044597">2026年11月7日</a></blockquote>
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/yyQOGV-TRmo" title="東京国際クルーズターミナルへの行き方｜駅から館内・乗船口まで歩いてみた" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/V7sqJ18v490" title="東京国際クルーズターミナル竣工ムービー" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
 ## よくある質問
 
 <div class="cmp-table-wrap">

@@ -191,6 +191,27 @@ references: ["https://www.toshiseibi.metro.tokyo.lg.jp/machizukuri/machi_project
 
 ほかの湾岸のニュースは<a href="/tags/湾岸ニュース/">湾岸ニュースの一覧</a>、地区ごとのまとめは<a href="/category/wangan-life/">湾岸ライフ</a>にある。
 
+## SNS ではこう言われている｜発掘と再開発の両方に注目
+
+X と YouTube では、次のような声と動画が見つかった。
+
+- **発掘への関心**：2026年11月、跡地から江戸期の名勝（浴恩園）が見つかったことを伝える記事が広く共有された
+- **地元の受け止め**：2026年8月6日に中央区と事業者が「合意書」を交わしたことを、緑化率40%以上・防災拠点の整備などの中身と一緒にまとめる投稿がある
+- **工事の大きさ**：現地を見た人からは「再開発デカい」という声も
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">移転後8年…築地市場跡地から「江戸期の名勝」奇跡の発掘！ 小池都政は再開発ありきで黙殺も #日刊ゲンダイDIGITAL</p>&mdash; 建築エコノミスト森山高至「土建国防論」執筆中 (@mori_arch_econo) <a href="https://twitter.com/mori_arch_econo/status/2121112900958031912">2026年11月13日</a></blockquote>
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">築地市場跡地再開発 築地まちづくりの合意書が8月6日付で中央区と事業者の間で「合意書」が取り交わされました！ 緑化率40%以上の確保や防災拠点の整備、駐輪場の設置など、安心・安全な街づくり。 今後の「継続協議事項」も含めまとめました。 #中央区 #築地再開発</p>&mdash; アルール@Utako (@UtakoCo) <a href="https://twitter.com/UtakoCo/status/2085325680032543094">2026年8月6日</a></blockquote>
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">築地市場跡地の再開発デカい</p>&mdash; すんで埼玉 (@sunde_saitama) <a href="https://twitter.com/sunde_saitama/status/2001848006476542441">2025年12月19日</a></blockquote>
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/DPVVC18O2ko" title="【公式】「築地地区まちづくり事業」イメージ映像" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/TxgJtf8J5rM" title="【タイムラプス】築地市場の7年間　閉場・解体から再開発へ　跡地の変化" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
 ## よくある質問
 
 <div class="cmp-table-wrap">
