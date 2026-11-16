@@ -102,6 +102,66 @@ references: ["https://data.j-league.or.jp/SFTD14/search?competition_year=2025&co
 
 1位の**浦和は37,350人**で、2位の名古屋（32,263人）に5,000人以上の差をつけている。3万人を超えたのは浦和・名古屋・FC東京・G大阪の4クラブ。いちばん少ない福岡（10,031人）と浦和では、約3.7倍の差があるわ。20クラブのうち、2万人を超えるのは11クラブよ。
 
+## 入場料収入のランキング｜2025年度の1位は浦和の22億1,400万円
+
+観客の数が分かったら、次に気になるのは「そのお客さんでいくら入っているか」。Jリーグは毎年、全クラブの決算を<strong>クラブ決算一覧</strong>として公式に出していて、そこに<strong>入場料収入</strong>（チケットの売上）が載っているの。2025年度のJ1全20クラブを、入場料収入の多い順に並べたわ。
+
+| 順位 | クラブ | 入場料収入 | 2024年度 | 増減 | 売上高に占める割合 |
+| --- | --- | --- | --- | --- | --- |
+| 1 | 浦和 | **2,214百万円** | 2,012百万円 | +10.0% | 19.6% |
+| 2 | 広島 | **2,166百万円** | 2,004百万円 | +8.1% | 25.9% |
+| 3 | 横浜FM | **1,530百万円** | 1,741百万円 | -12.1% | 19.7% |
+| 4 | 川崎Ｆ | **1,469百万円** | 1,329百万円 | +10.5% | 14.6% |
+| 5 | 鹿島 | **1,458百万円** | 1,238百万円 | +17.8% | 17.8% |
+| 6 | Ｇ大阪 | **1,451百万円** | 1,185百万円 | +22.4% | 16.5% |
+| 7 | 神戸 | **1,441百万円** | 1,309百万円 | +10.1% | 16.5% |
+| 8 | FC東京 | **1,439百万円** | 1,450百万円 | -0.8% | 20.0% |
+| 9 | 名古屋 | **1,360百万円** | 1,310百万円 | +3.8% | 21.0% |
+| 10 | 新潟 | **1,247百万円** | 1,010百万円 | +23.5% | 27.6% |
+| 11 | Ｃ大阪 | **1,164百万円** | 1,000百万円 | +16.4% | 20.3% |
+| 12 | 清水 | **1,128百万円** | （J1外） | — | 21.1% |
+| 13 | 京都 | **891百万円** | 612百万円 | +45.6% | 20.1% |
+| 14 | 東京Ｖ | **784百万円** | 726百万円 | +8.0% | 17.4% |
+| 15 | 柏 | **754百万円** | 623百万円 | +21.0% | 16.0% |
+| 16 | 福岡 | **647百万円** | 669百万円 | -3.3% | 17.3% |
+| 17 | 湘南 | **599百万円** | 476百万円 | +25.8% | 15.5% |
+| 18 | 町田 | **571百万円** | 687百万円 | -16.9% | 8.3% |
+| 19 | 横浜FC | **512百万円** | （J1外） | — | 15.5% |
+| 20 | 岡山 | **350百万円** | （J1外） | — | 18.3% |
+
+<p class="source-note">出典：<a href="https://www.jleague.jp/corporate/assets/pdf/club_info/j_kessan-2025.pdf" target="_blank" rel="noopener">Jリーグ公式「2025年度 J1 クラブ決算一覧」</a>と<a href="https://www.jleague.jp/corporate/assets/pdf/club_info/j_kessan-2024.pdf" target="_blank" rel="noopener">「2024年度 J1 クラブ決算一覧」</a>（単位：百万円）。入場料収入はリーグ戦だけでなくカップ戦などのホームゲームも含む。増減と割合（入場料収入÷売上高）はアタシの計算。決算の月はクラブごとに違う（多くは1月期）。</p>
+
+**1位は浦和の2,214百万円（22億1,400万円）**。観客の数でも1位だったけれど、お金で見ても1位よ。すぐ後ろに<strong>広島の2,166百万円</strong>が付けていて、差は48百万円しかない。観客の1試合平均では7位の広島が、入場料収入では2位まで上がるの。2024年度も浦和2,012百万円・広島2,004百万円で、2年続けてこの2クラブが抜けているわ。
+
+広島は<strong>売上高の25.9%が入場料収入</strong>で、上位のクラブの中ではいちばん高い。浦和（19.6%）や川崎F（14.6%）と比べると、チケットの売上に頼る割合が大きいクラブだと分かるわ。反対に町田は売上高6,914百万円のうち入場料収入が571百万円で、割合は8.3%。売上高はJ1で9番目に大きいのに、入場料収入は18位よ。
+
+J1全20クラブの入場料収入を足すと<strong>23,175百万円（約232億円）</strong>、1クラブ平均は1,159百万円。2024年度（20クラブで21,729百万円）より6.7%増えたわ。
+
+### 入場料収入の推移｜2019年度から2025年度まで
+
+同じクラブ決算一覧を、2019年度までさかのぼって並べたわ。2025年度の上位9クラブよ。
+
+| クラブ | 2019年度 | 2020年度 | 2021年度 | 2022年度 | 2023年度 | 2024年度 | 2025年度 | 2019→2025 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 浦和 | 2,300 | 423 | 626 | 1,439 | 2,145 | 2,012 | **2,214** | -4% |
+| 広島 | 547 | 272 | 262 | 405 | 631 | 2,004 | **2,166** | +296% |
+| 横浜FM | 1,286 | 497 | 654 | 1,019 | 1,499 | 1,741 | **1,530** | +19% |
+| 川崎Ｆ | 1,042 | 435 | 490 | 1,048 | 1,258 | 1,329 | **1,469** | +41% |
+| 鹿島 | 996 | 475 | 581 | 801 | 1,201 | 1,238 | **1,458** | +46% |
+| Ｇ大阪 | 1,247 | 324 | 249 | 701 | 970 | 1,185 | **1,451** | +16% |
+| 神戸 | 1,260 | 422 | 486 | 827 | 1,320 | 1,309 | **1,441** | +14% |
+| FC東京 | 1,104 | 314 | 511 | 893 | 1,208 | 1,450 | **1,439** | +30% |
+| 名古屋 | 1,221 | 378 | 592 | 698 | 1,243 | 1,310 | **1,360** | +11% |
+| J1の1クラブ平均 | 926 | 305 | 399 | 704 | 961 | 1,086 | 1,159 | +25% |
+
+<p class="source-note">出典：Jリーグ公式「J1 クラブ決算一覧」<a href="https://www.jleague.jp/corporate/assets/pdf/club_info/j_kessan-2019.pdf" target="_blank" rel="noopener">2019年度</a>〜<a href="https://www.jleague.jp/corporate/assets/pdf/club_info/j_kessan-2025.pdf" target="_blank" rel="noopener">2025年度</a>（単位：百万円）。その年度にJ1にいたクラブの平均。増減はアタシの計算。</p>
+
+<figure class="jl-chart"><svg class="jl-sp" viewBox="0 0 360 440" role="img" aria-label="J1の入場料収入の推移（2019〜2025年度）。上位5クラブの折れ線グラフ（スマホ用）" style="width:100%;height:auto;background:#fff;font-family:inherit"><rect x="12" y="14" width="16" height="5" rx="2" fill="#d6213b"/><text x="34" y="20" font-size="15" fill="#1f1c24">浦和</text><rect x="126" y="14" width="16" height="5" rx="2" fill="#6b3fa0"/><text x="148" y="20" font-size="15" fill="#1f1c24">広島</text><rect x="240" y="14" width="16" height="5" rx="2" fill="#1f5fbf"/><text x="262" y="20" font-size="15" fill="#1f1c24">横浜FM</text><rect x="12" y="42" width="16" height="5" rx="2" fill="#2a9d4b"/><text x="34" y="48" font-size="15" fill="#1f1c24">川崎Ｆ</text><rect x="126" y="42" width="16" height="5" rx="2" fill="#9a6b00"/><text x="148" y="48" font-size="15" fill="#1f1c24">鹿島</text><text x="42" y="78" text-anchor="end" font-size="12" fill="#6b6575">百万円</text><line x1="48" x2="346" y1="406.0" y2="406.0" stroke="#e5e2ea"/><text x="42" y="410.0" text-anchor="end" font-size="12" fill="#6b6575">0</text><line x1="48" x2="346" y1="327.5" y2="327.5" stroke="#e5e2ea"/><text x="42" y="331.5" text-anchor="end" font-size="12" fill="#6b6575">600</text><line x1="48" x2="346" y1="249.0" y2="249.0" stroke="#e5e2ea"/><text x="42" y="253.0" text-anchor="end" font-size="12" fill="#6b6575">1,200</text><line x1="48" x2="346" y1="170.5" y2="170.5" stroke="#e5e2ea"/><text x="42" y="174.5" text-anchor="end" font-size="12" fill="#6b6575">1,800</text><line x1="48" x2="346" y1="92.0" y2="92.0" stroke="#e5e2ea"/><text x="42" y="96.0" text-anchor="end" font-size="12" fill="#6b6575">2,400</text><text x="48.0" y="428" text-anchor="middle" font-size="12" fill="#6b6575">’19</text><text x="97.7" y="428" text-anchor="middle" font-size="12" fill="#6b6575">’20</text><text x="147.3" y="428" text-anchor="middle" font-size="12" fill="#6b6575">’21</text><text x="197.0" y="428" text-anchor="middle" font-size="12" fill="#6b6575">’22</text><text x="246.7" y="428" text-anchor="middle" font-size="12" fill="#6b6575">’23</text><text x="296.3" y="428" text-anchor="middle" font-size="12" fill="#6b6575">’24</text><text x="346.0" y="428" text-anchor="middle" font-size="12" fill="#6b6575">’25</text><polyline points="48.0,105.1 97.7,350.7 147.3,324.1 197.0,217.7 246.7,125.4 296.3,142.8 346.0,116.3" fill="none" stroke="#d6213b" stroke-width="2.5" stroke-linejoin="round"/><circle cx="48.0" cy="105.1" r="3" fill="#d6213b"/><circle cx="97.7" cy="350.7" r="3" fill="#d6213b"/><circle cx="147.3" cy="324.1" r="3" fill="#d6213b"/><circle cx="197.0" cy="217.7" r="3" fill="#d6213b"/><circle cx="246.7" cy="125.4" r="3" fill="#d6213b"/><circle cx="296.3" cy="142.8" r="3" fill="#d6213b"/><circle cx="346.0" cy="116.3" r="3" fill="#d6213b"/><polyline points="48.0,334.4 97.7,370.4 147.3,371.7 197.0,353.0 246.7,323.4 296.3,143.8 346.0,122.6" fill="none" stroke="#6b3fa0" stroke-width="2.5" stroke-linejoin="round"/><circle cx="48.0" cy="334.4" r="3" fill="#6b3fa0"/><circle cx="97.7" cy="370.4" r="3" fill="#6b3fa0"/><circle cx="147.3" cy="371.7" r="3" fill="#6b3fa0"/><circle cx="197.0" cy="353.0" r="3" fill="#6b3fa0"/><circle cx="246.7" cy="323.4" r="3" fill="#6b3fa0"/><circle cx="296.3" cy="143.8" r="3" fill="#6b3fa0"/><circle cx="346.0" cy="122.6" r="3" fill="#6b3fa0"/><polyline points="48.0,237.7 97.7,341.0 147.3,320.4 197.0,272.7 246.7,209.9 296.3,178.2 346.0,205.8" fill="none" stroke="#1f5fbf" stroke-width="2.5" stroke-linejoin="round"/><circle cx="48.0" cy="237.7" r="3" fill="#1f5fbf"/><circle cx="97.7" cy="341.0" r="3" fill="#1f5fbf"/><circle cx="147.3" cy="320.4" r="3" fill="#1f5fbf"/><circle cx="197.0" cy="272.7" r="3" fill="#1f5fbf"/><circle cx="246.7" cy="209.9" r="3" fill="#1f5fbf"/><circle cx="296.3" cy="178.2" r="3" fill="#1f5fbf"/><circle cx="346.0" cy="205.8" r="3" fill="#1f5fbf"/><polyline points="48.0,269.7 97.7,349.1 147.3,341.9 197.0,268.9 246.7,241.4 296.3,232.1 346.0,213.8" fill="none" stroke="#2a9d4b" stroke-width="2.5" stroke-linejoin="round"/><circle cx="48.0" cy="269.7" r="3" fill="#2a9d4b"/><circle cx="97.7" cy="349.1" r="3" fill="#2a9d4b"/><circle cx="147.3" cy="341.9" r="3" fill="#2a9d4b"/><circle cx="197.0" cy="268.9" r="3" fill="#2a9d4b"/><circle cx="246.7" cy="241.4" r="3" fill="#2a9d4b"/><circle cx="296.3" cy="232.1" r="3" fill="#2a9d4b"/><circle cx="346.0" cy="213.8" r="3" fill="#2a9d4b"/><polyline points="48.0,275.7 97.7,343.9 147.3,330.0 197.0,301.2 246.7,248.9 296.3,244.0 346.0,215.2" fill="none" stroke="#9a6b00" stroke-width="2.5" stroke-linejoin="round"/><circle cx="48.0" cy="275.7" r="3" fill="#9a6b00"/><circle cx="97.7" cy="343.9" r="3" fill="#9a6b00"/><circle cx="147.3" cy="330.0" r="3" fill="#9a6b00"/><circle cx="197.0" cy="301.2" r="3" fill="#9a6b00"/><circle cx="246.7" cy="248.9" r="3" fill="#9a6b00"/><circle cx="296.3" cy="244.0" r="3" fill="#9a6b00"/><circle cx="346.0" cy="215.2" r="3" fill="#9a6b00"/></svg><svg class="jl-pc" viewBox="0 0 720 380" role="img" aria-label="J1の入場料収入の推移（2019〜2025年度）。上位5クラブの折れ線グラフ" style="width:100%;height:auto;display:block;background:#fff;font-family:inherit"><line x1="62.0" x2="686" y1="340.0" y2="340.0" stroke="#e5e2ea" stroke-width="1"/><text x="54.2" y="344.0" text-anchor="end" font-size="15" fill="#6b6575">0</text><line x1="62.0" x2="686" y1="270.5" y2="270.5" stroke="#e5e2ea" stroke-width="1"/><text x="54.2" y="274.5" text-anchor="end" font-size="15" fill="#6b6575">600</text><line x1="62.0" x2="686" y1="201.0" y2="201.0" stroke="#e5e2ea" stroke-width="1"/><text x="54.2" y="205.0" text-anchor="end" font-size="15" fill="#6b6575">1,200</text><line x1="62.0" x2="686" y1="131.5" y2="131.5" stroke="#e5e2ea" stroke-width="1"/><text x="54.2" y="135.5" text-anchor="end" font-size="15" fill="#6b6575">1,800</text><line x1="62.0" x2="686" y1="62.0" y2="62.0" stroke="#e5e2ea" stroke-width="1"/><text x="54.2" y="66.0" text-anchor="end" font-size="15" fill="#6b6575">2,400</text><text x="62.0" y="366" text-anchor="middle" font-size="15" fill="#6b6575">2019</text><text x="166.0" y="366" text-anchor="middle" font-size="15" fill="#6b6575">2020</text><text x="270.0" y="366" text-anchor="middle" font-size="15" fill="#6b6575">2021</text><text x="374.0" y="366" text-anchor="middle" font-size="15" fill="#6b6575">2022</text><text x="478.0" y="366" text-anchor="middle" font-size="15" fill="#6b6575">2023</text><text x="582.0" y="366" text-anchor="middle" font-size="15" fill="#6b6575">2024</text><text x="686.0" y="366" text-anchor="middle" font-size="15" fill="#6b6575">2025</text><text x="62.0" y="48" font-size="14" fill="#6b6575">百万円</text><polyline points="62.0,73.6 166.0,291.0 270.0,267.5 374.0,173.3 478.0,91.5 582.0,106.9 686.0,83.5" fill="none" stroke="#d6213b" stroke-width="2.5" stroke-linejoin="round"/><circle cx="62.0" cy="73.6" r="3.5" fill="#d6213b"/><circle cx="166.0" cy="291.0" r="3.5" fill="#d6213b"/><circle cx="270.0" cy="267.5" r="3.5" fill="#d6213b"/><circle cx="374.0" cy="173.3" r="3.5" fill="#d6213b"/><circle cx="478.0" cy="91.5" r="3.5" fill="#d6213b"/><circle cx="582.0" cy="106.9" r="3.5" fill="#d6213b"/><circle cx="686.0" cy="83.5" r="3.5" fill="#d6213b"/><polyline points="62.0,276.6 166.0,308.5 270.0,309.7 374.0,293.1 478.0,266.9 582.0,107.9 686.0,89.1" fill="none" stroke="#6b3fa0" stroke-width="2.5" stroke-linejoin="round"/><circle cx="62.0" cy="276.6" r="3.5" fill="#6b3fa0"/><circle cx="166.0" cy="308.5" r="3.5" fill="#6b3fa0"/><circle cx="270.0" cy="309.7" r="3.5" fill="#6b3fa0"/><circle cx="374.0" cy="293.1" r="3.5" fill="#6b3fa0"/><circle cx="478.0" cy="266.9" r="3.5" fill="#6b3fa0"/><circle cx="582.0" cy="107.9" r="3.5" fill="#6b3fa0"/><circle cx="686.0" cy="89.1" r="3.5" fill="#6b3fa0"/><polyline points="62.0,191.0 166.0,282.4 270.0,264.2 374.0,222.0 478.0,166.4 582.0,138.3 686.0,162.8" fill="none" stroke="#1f5fbf" stroke-width="2.5" stroke-linejoin="round"/><circle cx="62.0" cy="191.0" r="3.5" fill="#1f5fbf"/><circle cx="166.0" cy="282.4" r="3.5" fill="#1f5fbf"/><circle cx="270.0" cy="264.2" r="3.5" fill="#1f5fbf"/><circle cx="374.0" cy="222.0" r="3.5" fill="#1f5fbf"/><circle cx="478.0" cy="166.4" r="3.5" fill="#1f5fbf"/><circle cx="582.0" cy="138.3" r="3.5" fill="#1f5fbf"/><circle cx="686.0" cy="162.8" r="3.5" fill="#1f5fbf"/><polyline points="62.0,219.3 166.0,289.6 270.0,283.2 374.0,218.6 478.0,194.3 582.0,186.1 686.0,169.8" fill="none" stroke="#2a9d4b" stroke-width="2.5" stroke-linejoin="round"/><circle cx="62.0" cy="219.3" r="3.5" fill="#2a9d4b"/><circle cx="166.0" cy="289.6" r="3.5" fill="#2a9d4b"/><circle cx="270.0" cy="283.2" r="3.5" fill="#2a9d4b"/><circle cx="374.0" cy="218.6" r="3.5" fill="#2a9d4b"/><circle cx="478.0" cy="194.3" r="3.5" fill="#2a9d4b"/><circle cx="582.0" cy="186.1" r="3.5" fill="#2a9d4b"/><circle cx="686.0" cy="169.8" r="3.5" fill="#2a9d4b"/><polyline points="62.0,224.6 166.0,285.0 270.0,272.7 374.0,247.2 478.0,200.9 582.0,196.6 686.0,171.1" fill="none" stroke="#9a6b00" stroke-width="2.5" stroke-linejoin="round"/><circle cx="62.0" cy="224.6" r="3.5" fill="#9a6b00"/><circle cx="166.0" cy="285.0" r="3.5" fill="#9a6b00"/><circle cx="270.0" cy="272.7" r="3.5" fill="#9a6b00"/><circle cx="374.0" cy="247.2" r="3.5" fill="#9a6b00"/><circle cx="478.0" cy="200.9" r="3.5" fill="#9a6b00"/><circle cx="582.0" cy="196.6" r="3.5" fill="#9a6b00"/><circle cx="686.0" cy="171.1" r="3.5" fill="#9a6b00"/><rect x="62.0" y="14" width="14" height="4" rx="9.7" fill="#d6213b"/><text x="81.4" y="21" font-size="17" fill="#1f1c24">浦和</text><rect x="133.7" y="14" width="14" height="4" rx="9.7" fill="#6b3fa0"/><text x="153.1" y="21" font-size="17" fill="#1f1c24">広島</text><rect x="205.4" y="14" width="14" height="4" rx="9.7" fill="#1f5fbf"/><text x="224.8" y="21" font-size="17" fill="#1f1c24">横浜FM</text><rect x="304.2" y="14" width="14" height="4" rx="9.7" fill="#2a9d4b"/><text x="323.6" y="21" font-size="17" fill="#1f1c24">川崎Ｆ</text><rect x="389.5" y="14" width="14" height="4" rx="9.7" fill="#9a6b00"/><text x="408.9" y="21" font-size="17" fill="#1f1c24">鹿島</text></svg><figcaption>J1の入場料収入の推移（2025年度の上位5クラブ・単位は百万円）。<cite>出典：Jリーグ公式「J1 クラブ決算一覧」2019〜2025年度をもとにアタシが作図</cite></figcaption></figure>
+
+いちばん目立つのは<strong>広島の線</strong>。2019年度は547百万円で、上の表の9クラブの中では最も少なかった。それが2024年度に2,004百万円と<strong>前の年の3.2倍</strong>になり、2025年度は2,166百万円。<strong>2019年度から約4倍（+296%）</strong>よ。2024年に新しいスタジアム（エディオンピースウイング広島）で試合を始めた年と重なるわ（観客の推移はあとの「J1の観客の推移」の章で）。
+
+浦和は2019年度の2,300百万円がこの7年でいちばん多く、2025年度の2,214百万円はまだその手前。鹿島（+46%）・川崎F（+41%）・FC東京（+30%）・横浜FM（+19%）はコロナ前を上回っているわ。2020年度はJ1の1クラブ平均が305百万円まで落ちていて（2019年度の約3分の1）、無観客や入場制限があった年の落ち込みがはっきり出ているわね。
+
 ## 試合ごとの入場者数ランキング｜いちばん入ったのは国立の59,574人
 
 クラブの平均だけでは、どの試合に人が集まったのかが見えない。そこで、Jリーグのデータサイトにある**試合ごとの入場者数**から、2025年のJ1全380試合を多い順に並べたわ。
@@ -686,66 +746,6 @@ C大阪の最多は7月5日のG大阪戦（大阪ダービー）の22,365人、�
 
 鹿島も2019年の20,569人から<strong>+33%</strong>の27,401人。清水は15,043人から18,803人（+25%）、名古屋も27,612人から32,263人（+17%）に増えた。反対に、C大阪（−13%）・湘南（−11%）・川崎F（−5%）は2019年より少ないわ。
 
-## 入場料収入のランキング｜2025年度の1位は浦和の22億1,400万円
-
-観客の数が分かったら、次に気になるのは「そのお客さんでいくら入っているか」。Jリーグは毎年、全クラブの決算を<strong>クラブ決算一覧</strong>として公式に出していて、そこに<strong>入場料収入</strong>（チケットの売上）が載っているの。2025年度のJ1全20クラブを、入場料収入の多い順に並べたわ。
-
-| 順位 | クラブ | 入場料収入 | 2024年度 | 増減 | 売上高に占める割合 |
-| --- | --- | --- | --- | --- | --- |
-| 1 | 浦和 | **2,214百万円** | 2,012百万円 | +10.0% | 19.6% |
-| 2 | 広島 | **2,166百万円** | 2,004百万円 | +8.1% | 25.9% |
-| 3 | 横浜FM | **1,530百万円** | 1,741百万円 | -12.1% | 19.7% |
-| 4 | 川崎Ｆ | **1,469百万円** | 1,329百万円 | +10.5% | 14.6% |
-| 5 | 鹿島 | **1,458百万円** | 1,238百万円 | +17.8% | 17.8% |
-| 6 | Ｇ大阪 | **1,451百万円** | 1,185百万円 | +22.4% | 16.5% |
-| 7 | 神戸 | **1,441百万円** | 1,309百万円 | +10.1% | 16.5% |
-| 8 | FC東京 | **1,439百万円** | 1,450百万円 | -0.8% | 20.0% |
-| 9 | 名古屋 | **1,360百万円** | 1,310百万円 | +3.8% | 21.0% |
-| 10 | 新潟 | **1,247百万円** | 1,010百万円 | +23.5% | 27.6% |
-| 11 | Ｃ大阪 | **1,164百万円** | 1,000百万円 | +16.4% | 20.3% |
-| 12 | 清水 | **1,128百万円** | （J1外） | — | 21.1% |
-| 13 | 京都 | **891百万円** | 612百万円 | +45.6% | 20.1% |
-| 14 | 東京Ｖ | **784百万円** | 726百万円 | +8.0% | 17.4% |
-| 15 | 柏 | **754百万円** | 623百万円 | +21.0% | 16.0% |
-| 16 | 福岡 | **647百万円** | 669百万円 | -3.3% | 17.3% |
-| 17 | 湘南 | **599百万円** | 476百万円 | +25.8% | 15.5% |
-| 18 | 町田 | **571百万円** | 687百万円 | -16.9% | 8.3% |
-| 19 | 横浜FC | **512百万円** | （J1外） | — | 15.5% |
-| 20 | 岡山 | **350百万円** | （J1外） | — | 18.3% |
-
-<p class="source-note">出典：<a href="https://www.jleague.jp/corporate/assets/pdf/club_info/j_kessan-2025.pdf" target="_blank" rel="noopener">Jリーグ公式「2025年度 J1 クラブ決算一覧」</a>と<a href="https://www.jleague.jp/corporate/assets/pdf/club_info/j_kessan-2024.pdf" target="_blank" rel="noopener">「2024年度 J1 クラブ決算一覧」</a>（単位：百万円）。入場料収入はリーグ戦だけでなくカップ戦などのホームゲームも含む。増減と割合（入場料収入÷売上高）はアタシの計算。決算の月はクラブごとに違う（多くは1月期）。</p>
-
-**1位は浦和の2,214百万円（22億1,400万円）**。観客の数でも1位だったけれど、お金で見ても1位よ。すぐ後ろに<strong>広島の2,166百万円</strong>が付けていて、差は48百万円しかない。観客の1試合平均では7位の広島が、入場料収入では2位まで上がるの。2024年度も浦和2,012百万円・広島2,004百万円で、2年続けてこの2クラブが抜けているわ。
-
-広島は<strong>売上高の25.9%が入場料収入</strong>で、上位のクラブの中ではいちばん高い。浦和（19.6%）や川崎F（14.6%）と比べると、チケットの売上に頼る割合が大きいクラブだと分かるわ。反対に町田は売上高6,914百万円のうち入場料収入が571百万円で、割合は8.3%。売上高はJ1で9番目に大きいのに、入場料収入は18位よ。
-
-J1全20クラブの入場料収入を足すと<strong>23,175百万円（約232億円）</strong>、1クラブ平均は1,159百万円。2024年度（20クラブで21,729百万円）より6.7%増えたわ。
-
-### 入場料収入の推移｜2019年度から2025年度まで
-
-同じクラブ決算一覧を、2019年度までさかのぼって並べたわ。2025年度の上位9クラブよ。
-
-| クラブ | 2019年度 | 2020年度 | 2021年度 | 2022年度 | 2023年度 | 2024年度 | 2025年度 | 2019→2025 |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 浦和 | 2,300 | 423 | 626 | 1,439 | 2,145 | 2,012 | **2,214** | -4% |
-| 広島 | 547 | 272 | 262 | 405 | 631 | 2,004 | **2,166** | +296% |
-| 横浜FM | 1,286 | 497 | 654 | 1,019 | 1,499 | 1,741 | **1,530** | +19% |
-| 川崎Ｆ | 1,042 | 435 | 490 | 1,048 | 1,258 | 1,329 | **1,469** | +41% |
-| 鹿島 | 996 | 475 | 581 | 801 | 1,201 | 1,238 | **1,458** | +46% |
-| Ｇ大阪 | 1,247 | 324 | 249 | 701 | 970 | 1,185 | **1,451** | +16% |
-| 神戸 | 1,260 | 422 | 486 | 827 | 1,320 | 1,309 | **1,441** | +14% |
-| FC東京 | 1,104 | 314 | 511 | 893 | 1,208 | 1,450 | **1,439** | +30% |
-| 名古屋 | 1,221 | 378 | 592 | 698 | 1,243 | 1,310 | **1,360** | +11% |
-| J1の1クラブ平均 | 926 | 305 | 399 | 704 | 961 | 1,086 | 1,159 | +25% |
-
-<p class="source-note">出典：Jリーグ公式「J1 クラブ決算一覧」<a href="https://www.jleague.jp/corporate/assets/pdf/club_info/j_kessan-2019.pdf" target="_blank" rel="noopener">2019年度</a>〜<a href="https://www.jleague.jp/corporate/assets/pdf/club_info/j_kessan-2025.pdf" target="_blank" rel="noopener">2025年度</a>（単位：百万円）。その年度にJ1にいたクラブの平均。増減はアタシの計算。</p>
-
-<figure class="jl-chart"><svg class="jl-sp" viewBox="0 0 360 440" role="img" aria-label="J1の入場料収入の推移（2019〜2025年度）。上位5クラブの折れ線グラフ（スマホ用）" style="width:100%;height:auto;background:#fff;font-family:inherit"><rect x="12" y="14" width="16" height="5" rx="2" fill="#d6213b"/><text x="34" y="20" font-size="15" fill="#1f1c24">浦和</text><rect x="126" y="14" width="16" height="5" rx="2" fill="#6b3fa0"/><text x="148" y="20" font-size="15" fill="#1f1c24">広島</text><rect x="240" y="14" width="16" height="5" rx="2" fill="#1f5fbf"/><text x="262" y="20" font-size="15" fill="#1f1c24">横浜FM</text><rect x="12" y="42" width="16" height="5" rx="2" fill="#2a9d4b"/><text x="34" y="48" font-size="15" fill="#1f1c24">川崎Ｆ</text><rect x="126" y="42" width="16" height="5" rx="2" fill="#9a6b00"/><text x="148" y="48" font-size="15" fill="#1f1c24">鹿島</text><text x="42" y="78" text-anchor="end" font-size="12" fill="#6b6575">百万円</text><line x1="48" x2="346" y1="406.0" y2="406.0" stroke="#e5e2ea"/><text x="42" y="410.0" text-anchor="end" font-size="12" fill="#6b6575">0</text><line x1="48" x2="346" y1="327.5" y2="327.5" stroke="#e5e2ea"/><text x="42" y="331.5" text-anchor="end" font-size="12" fill="#6b6575">600</text><line x1="48" x2="346" y1="249.0" y2="249.0" stroke="#e5e2ea"/><text x="42" y="253.0" text-anchor="end" font-size="12" fill="#6b6575">1,200</text><line x1="48" x2="346" y1="170.5" y2="170.5" stroke="#e5e2ea"/><text x="42" y="174.5" text-anchor="end" font-size="12" fill="#6b6575">1,800</text><line x1="48" x2="346" y1="92.0" y2="92.0" stroke="#e5e2ea"/><text x="42" y="96.0" text-anchor="end" font-size="12" fill="#6b6575">2,400</text><text x="48.0" y="428" text-anchor="middle" font-size="12" fill="#6b6575">’19</text><text x="97.7" y="428" text-anchor="middle" font-size="12" fill="#6b6575">’20</text><text x="147.3" y="428" text-anchor="middle" font-size="12" fill="#6b6575">’21</text><text x="197.0" y="428" text-anchor="middle" font-size="12" fill="#6b6575">’22</text><text x="246.7" y="428" text-anchor="middle" font-size="12" fill="#6b6575">’23</text><text x="296.3" y="428" text-anchor="middle" font-size="12" fill="#6b6575">’24</text><text x="346.0" y="428" text-anchor="middle" font-size="12" fill="#6b6575">’25</text><polyline points="48.0,105.1 97.7,350.7 147.3,324.1 197.0,217.7 246.7,125.4 296.3,142.8 346.0,116.3" fill="none" stroke="#d6213b" stroke-width="2.5" stroke-linejoin="round"/><circle cx="48.0" cy="105.1" r="3" fill="#d6213b"/><circle cx="97.7" cy="350.7" r="3" fill="#d6213b"/><circle cx="147.3" cy="324.1" r="3" fill="#d6213b"/><circle cx="197.0" cy="217.7" r="3" fill="#d6213b"/><circle cx="246.7" cy="125.4" r="3" fill="#d6213b"/><circle cx="296.3" cy="142.8" r="3" fill="#d6213b"/><circle cx="346.0" cy="116.3" r="3" fill="#d6213b"/><polyline points="48.0,334.4 97.7,370.4 147.3,371.7 197.0,353.0 246.7,323.4 296.3,143.8 346.0,122.6" fill="none" stroke="#6b3fa0" stroke-width="2.5" stroke-linejoin="round"/><circle cx="48.0" cy="334.4" r="3" fill="#6b3fa0"/><circle cx="97.7" cy="370.4" r="3" fill="#6b3fa0"/><circle cx="147.3" cy="371.7" r="3" fill="#6b3fa0"/><circle cx="197.0" cy="353.0" r="3" fill="#6b3fa0"/><circle cx="246.7" cy="323.4" r="3" fill="#6b3fa0"/><circle cx="296.3" cy="143.8" r="3" fill="#6b3fa0"/><circle cx="346.0" cy="122.6" r="3" fill="#6b3fa0"/><polyline points="48.0,237.7 97.7,341.0 147.3,320.4 197.0,272.7 246.7,209.9 296.3,178.2 346.0,205.8" fill="none" stroke="#1f5fbf" stroke-width="2.5" stroke-linejoin="round"/><circle cx="48.0" cy="237.7" r="3" fill="#1f5fbf"/><circle cx="97.7" cy="341.0" r="3" fill="#1f5fbf"/><circle cx="147.3" cy="320.4" r="3" fill="#1f5fbf"/><circle cx="197.0" cy="272.7" r="3" fill="#1f5fbf"/><circle cx="246.7" cy="209.9" r="3" fill="#1f5fbf"/><circle cx="296.3" cy="178.2" r="3" fill="#1f5fbf"/><circle cx="346.0" cy="205.8" r="3" fill="#1f5fbf"/><polyline points="48.0,269.7 97.7,349.1 147.3,341.9 197.0,268.9 246.7,241.4 296.3,232.1 346.0,213.8" fill="none" stroke="#2a9d4b" stroke-width="2.5" stroke-linejoin="round"/><circle cx="48.0" cy="269.7" r="3" fill="#2a9d4b"/><circle cx="97.7" cy="349.1" r="3" fill="#2a9d4b"/><circle cx="147.3" cy="341.9" r="3" fill="#2a9d4b"/><circle cx="197.0" cy="268.9" r="3" fill="#2a9d4b"/><circle cx="246.7" cy="241.4" r="3" fill="#2a9d4b"/><circle cx="296.3" cy="232.1" r="3" fill="#2a9d4b"/><circle cx="346.0" cy="213.8" r="3" fill="#2a9d4b"/><polyline points="48.0,275.7 97.7,343.9 147.3,330.0 197.0,301.2 246.7,248.9 296.3,244.0 346.0,215.2" fill="none" stroke="#9a6b00" stroke-width="2.5" stroke-linejoin="round"/><circle cx="48.0" cy="275.7" r="3" fill="#9a6b00"/><circle cx="97.7" cy="343.9" r="3" fill="#9a6b00"/><circle cx="147.3" cy="330.0" r="3" fill="#9a6b00"/><circle cx="197.0" cy="301.2" r="3" fill="#9a6b00"/><circle cx="246.7" cy="248.9" r="3" fill="#9a6b00"/><circle cx="296.3" cy="244.0" r="3" fill="#9a6b00"/><circle cx="346.0" cy="215.2" r="3" fill="#9a6b00"/></svg><svg class="jl-pc" viewBox="0 0 720 380" role="img" aria-label="J1の入場料収入の推移（2019〜2025年度）。上位5クラブの折れ線グラフ" style="width:100%;height:auto;display:block;background:#fff;font-family:inherit"><line x1="62.0" x2="686" y1="340.0" y2="340.0" stroke="#e5e2ea" stroke-width="1"/><text x="54.2" y="344.0" text-anchor="end" font-size="15" fill="#6b6575">0</text><line x1="62.0" x2="686" y1="270.5" y2="270.5" stroke="#e5e2ea" stroke-width="1"/><text x="54.2" y="274.5" text-anchor="end" font-size="15" fill="#6b6575">600</text><line x1="62.0" x2="686" y1="201.0" y2="201.0" stroke="#e5e2ea" stroke-width="1"/><text x="54.2" y="205.0" text-anchor="end" font-size="15" fill="#6b6575">1,200</text><line x1="62.0" x2="686" y1="131.5" y2="131.5" stroke="#e5e2ea" stroke-width="1"/><text x="54.2" y="135.5" text-anchor="end" font-size="15" fill="#6b6575">1,800</text><line x1="62.0" x2="686" y1="62.0" y2="62.0" stroke="#e5e2ea" stroke-width="1"/><text x="54.2" y="66.0" text-anchor="end" font-size="15" fill="#6b6575">2,400</text><text x="62.0" y="366" text-anchor="middle" font-size="15" fill="#6b6575">2019</text><text x="166.0" y="366" text-anchor="middle" font-size="15" fill="#6b6575">2020</text><text x="270.0" y="366" text-anchor="middle" font-size="15" fill="#6b6575">2021</text><text x="374.0" y="366" text-anchor="middle" font-size="15" fill="#6b6575">2022</text><text x="478.0" y="366" text-anchor="middle" font-size="15" fill="#6b6575">2023</text><text x="582.0" y="366" text-anchor="middle" font-size="15" fill="#6b6575">2024</text><text x="686.0" y="366" text-anchor="middle" font-size="15" fill="#6b6575">2025</text><text x="62.0" y="48" font-size="14" fill="#6b6575">百万円</text><polyline points="62.0,73.6 166.0,291.0 270.0,267.5 374.0,173.3 478.0,91.5 582.0,106.9 686.0,83.5" fill="none" stroke="#d6213b" stroke-width="2.5" stroke-linejoin="round"/><circle cx="62.0" cy="73.6" r="3.5" fill="#d6213b"/><circle cx="166.0" cy="291.0" r="3.5" fill="#d6213b"/><circle cx="270.0" cy="267.5" r="3.5" fill="#d6213b"/><circle cx="374.0" cy="173.3" r="3.5" fill="#d6213b"/><circle cx="478.0" cy="91.5" r="3.5" fill="#d6213b"/><circle cx="582.0" cy="106.9" r="3.5" fill="#d6213b"/><circle cx="686.0" cy="83.5" r="3.5" fill="#d6213b"/><polyline points="62.0,276.6 166.0,308.5 270.0,309.7 374.0,293.1 478.0,266.9 582.0,107.9 686.0,89.1" fill="none" stroke="#6b3fa0" stroke-width="2.5" stroke-linejoin="round"/><circle cx="62.0" cy="276.6" r="3.5" fill="#6b3fa0"/><circle cx="166.0" cy="308.5" r="3.5" fill="#6b3fa0"/><circle cx="270.0" cy="309.7" r="3.5" fill="#6b3fa0"/><circle cx="374.0" cy="293.1" r="3.5" fill="#6b3fa0"/><circle cx="478.0" cy="266.9" r="3.5" fill="#6b3fa0"/><circle cx="582.0" cy="107.9" r="3.5" fill="#6b3fa0"/><circle cx="686.0" cy="89.1" r="3.5" fill="#6b3fa0"/><polyline points="62.0,191.0 166.0,282.4 270.0,264.2 374.0,222.0 478.0,166.4 582.0,138.3 686.0,162.8" fill="none" stroke="#1f5fbf" stroke-width="2.5" stroke-linejoin="round"/><circle cx="62.0" cy="191.0" r="3.5" fill="#1f5fbf"/><circle cx="166.0" cy="282.4" r="3.5" fill="#1f5fbf"/><circle cx="270.0" cy="264.2" r="3.5" fill="#1f5fbf"/><circle cx="374.0" cy="222.0" r="3.5" fill="#1f5fbf"/><circle cx="478.0" cy="166.4" r="3.5" fill="#1f5fbf"/><circle cx="582.0" cy="138.3" r="3.5" fill="#1f5fbf"/><circle cx="686.0" cy="162.8" r="3.5" fill="#1f5fbf"/><polyline points="62.0,219.3 166.0,289.6 270.0,283.2 374.0,218.6 478.0,194.3 582.0,186.1 686.0,169.8" fill="none" stroke="#2a9d4b" stroke-width="2.5" stroke-linejoin="round"/><circle cx="62.0" cy="219.3" r="3.5" fill="#2a9d4b"/><circle cx="166.0" cy="289.6" r="3.5" fill="#2a9d4b"/><circle cx="270.0" cy="283.2" r="3.5" fill="#2a9d4b"/><circle cx="374.0" cy="218.6" r="3.5" fill="#2a9d4b"/><circle cx="478.0" cy="194.3" r="3.5" fill="#2a9d4b"/><circle cx="582.0" cy="186.1" r="3.5" fill="#2a9d4b"/><circle cx="686.0" cy="169.8" r="3.5" fill="#2a9d4b"/><polyline points="62.0,224.6 166.0,285.0 270.0,272.7 374.0,247.2 478.0,200.9 582.0,196.6 686.0,171.1" fill="none" stroke="#9a6b00" stroke-width="2.5" stroke-linejoin="round"/><circle cx="62.0" cy="224.6" r="3.5" fill="#9a6b00"/><circle cx="166.0" cy="285.0" r="3.5" fill="#9a6b00"/><circle cx="270.0" cy="272.7" r="3.5" fill="#9a6b00"/><circle cx="374.0" cy="247.2" r="3.5" fill="#9a6b00"/><circle cx="478.0" cy="200.9" r="3.5" fill="#9a6b00"/><circle cx="582.0" cy="196.6" r="3.5" fill="#9a6b00"/><circle cx="686.0" cy="171.1" r="3.5" fill="#9a6b00"/><rect x="62.0" y="14" width="14" height="4" rx="9.7" fill="#d6213b"/><text x="81.4" y="21" font-size="17" fill="#1f1c24">浦和</text><rect x="133.7" y="14" width="14" height="4" rx="9.7" fill="#6b3fa0"/><text x="153.1" y="21" font-size="17" fill="#1f1c24">広島</text><rect x="205.4" y="14" width="14" height="4" rx="9.7" fill="#1f5fbf"/><text x="224.8" y="21" font-size="17" fill="#1f1c24">横浜FM</text><rect x="304.2" y="14" width="14" height="4" rx="9.7" fill="#2a9d4b"/><text x="323.6" y="21" font-size="17" fill="#1f1c24">川崎Ｆ</text><rect x="389.5" y="14" width="14" height="4" rx="9.7" fill="#9a6b00"/><text x="408.9" y="21" font-size="17" fill="#1f1c24">鹿島</text></svg><figcaption>J1の入場料収入の推移（2025年度の上位5クラブ・単位は百万円）。<cite>出典：Jリーグ公式「J1 クラブ決算一覧」2019〜2025年度をもとにアタシが作図</cite></figcaption></figure>
-
-いちばん目立つのは<strong>広島の線</strong>。2019年度は547百万円で、上の表の9クラブの中では最も少なかった。それが2024年度に2,004百万円と<strong>前の年の3.2倍</strong>になり、2025年度は2,166百万円。<strong>2019年度から約4倍（+296%）</strong>よ。観客の章で書いたとおり、2024年に新しいスタジアム（エディオンピースウイング広島）で試合を始めた年と重なるわ。
-
-浦和は2019年度の2,300百万円がこの7年でいちばん多く、2025年度の2,214百万円はまだその手前。鹿島（+46%）・川崎F（+41%）・FC東京（+30%）・横浜FM（+19%）はコロナ前を上回っているわ。2020年度はJ1の1クラブ平均が305百万円まで落ちていて（2019年度の約3分の1）、無観客や入場制限があった年の落ち込みがはっきり出ているわね。
-
 ## スタジアム別の観客｜1試合平均の1位は国立の47,456人
 
 同じクラブでもスタジアムを変えると数字が変わる。そこで、2025年のJ1を**スタジアムごと**に集計したわ。
@@ -913,12 +913,12 @@ J1の1試合平均はプロ野球の約3分の2で、合計ではプロ野球の
 | --- | --- | --- |
 | Jリーグ（サッカー） | **あり**（毎年、全クラブ） | <a href="https://www.jleague.jp/corporate/about_jclubs/management_jclubs/" target="_blank" rel="noopener">Jクラブ経営情報</a> |
 | Bリーグ（バスケットボール） | **あり**（毎年、B1・B2・B3の全クラブ） | <a href="https://www.bleague.jp/files/user/about/pdf/financial_settlement_2024.pdf" target="_blank" rel="noopener">2024-25シーズン クラブ決算概要</a> |
-| プロ野球（NPB） | **見つからず** | 入場者数は<a href="https://npb.jp/statistics/2025/attendance.html" target="_blank" rel="noopener">NPBの公式記録</a>にあるが、球団ごとの入場料収入をリーグがまとめた資料は見つからなかった |
-| Tリーグ（卓球） | **見つからず** | リーグがクラブ別の決算をまとめた資料は見つからなかった |
+| プロ野球（NPB） | **なし**（売上高を出しているのもソフトバンクだけ） | 各球団の<a href="#プロ野球の決算公告売上高を出しているのはソフトバンクだけ">官報の決算公告</a>（下で詳しく） |
+| Tリーグ（卓球） | **なし**（リーグ自身の決算も総資産だけ） | 一般社団法人Tリーグの官報の決算公告 |
 
-<p class="source-note">2026年11月15日に各リーグの公式サイトで確認。プロ野球とTリーグは、リーグの公式資料でクラブ別の入場料収入を確かめられなかったため、金額は載せていない。</p>
+<p class="source-note">2026年11月16日に確認。JリーグとBリーグは各リーグの公式資料。プロ野球とTリーグは、官報に載った決算公告を<a href="https://catr.jp/categories/1" target="_blank" rel="noopener">官報決算データベース</a>の転記で確かめた。どの球団・クラブも入場料収入は公表していないため、金額では比べていない。</p>
 
-だから金額で並べられるのは<strong>サッカーとバスケットボール</strong>の2つ。プロ野球は観客の数（1試合平均31,515人）なら上の章で比べたとおりだけど、お金の比較は推測になるので、ここではしないわ。
+だから金額で並べられるのは<strong>サッカーとバスケットボール</strong>の2つ。プロ野球は観客の数（1試合平均31,515人）なら上の章で比べたとおりだけど、入場料収入はどの球団も出していないの。下で、球団が出している決算の中身を確かめておくわ。
 
 ### Bリーグの入場料収入｜B1の上位10クラブ（2024-25シーズン）
 
@@ -940,6 +940,33 @@ Bリーグの2024-25シーズンは<strong>2024年度</strong>の決算なので
 <p class="source-note">出典：<a href="https://www.bleague.jp/files/user/about/pdf/financial_settlement_2024.pdf" target="_blank" rel="noopener">B.LEAGUE「2024-25シーズン（2024年度）クラブ決算概要」B1クラブ</a>（公表は千円単位。百万円に丸めたのはアタシ）と、Jリーグ公式「2024年度 J1 クラブ決算一覧」。決算の月はクラブごとに違う（A東京・川崎・名古屋Dなどは3月決算）。</p>
 
 <strong>千葉ジェッツは1,564百万円</strong>で、J1の2024年度に入れると浦和・広島・横浜FMに次ぐ<strong>4位</strong>。FC東京（1,450百万円）より多いのよ。<strong>琉球ゴールデンキングスの1,344百万円も5位相当</strong>で、川崎F（1,329百万円）を上回るわ。Bリーグの資料に載っている新しいアリーナの席数は5,000〜1万席ほどで、J1のスタジアムよりずっと小さいのに、上位のクラブはサッカーの上位と同じくらいのチケット収入を得ている、ということね。
+
+### プロ野球の決算公告｜売上高を出しているのはソフトバンクだけ
+
+株式会社の球団は、決算を官報などに載せる決まりがある（決算公告）。ただ、載せる中身は会社によって違う。12球団の最新の決算公告を並べると、こうなるわ。
+
+| 球団（会社） | 決算期 | 売上高 | 当期純利益 |
+| --- | --- | --- | --- |
+| 福岡ソフトバンクホークス | 2026年2月期 | **509億3,800万円** | 57億2,000万円 |
+| 阪神タイガース | 2026年3月期 | 載せていない | 27億5,400万円 |
+| 横浜DeNAベイスターズ | 2025年12月期 | 載せていない | 24億6,100万円 |
+| ヤクルト球団 | 2025年12月期 | 載せていない | 16億2,543万円 |
+| 西武ライオンズ | 2026年3月期 | 載せていない | 14億2,468万円 |
+| 広島東洋カープ | 2025年12月期 | 載せていない | 6億2,800万円 |
+| 千葉ロッテマリーンズ | 2026年3月期 | 載せていない | 9,672万円 |
+| 楽天野球団 | 2025年12月期 | 載せていない | 6,433万円 |
+| 北海道日本ハムファイターズ | 2025年12月期 | 載せていない | ▲12億6,200万円 |
+| オリックス野球クラブ | 2026年3月期 | 載せていない | 載せていない |
+| 読売巨人軍 | — | 決算公告が見つからない | — |
+| 中日ドラゴンズ | — | 決算公告が見つからない | — |
+
+<p class="source-note">出典：各社の官報の決算公告（<a href="https://catr.jp/categories/1" target="_blank" rel="noopener">官報決算データベース「プロ野球球団に関連する会社の決算一覧」</a>の転記で2026年11月16日に確認）。並びは当期純利益の多い順。▲は赤字。</p>
+
+売上高まで載せているのは<strong>ソフトバンクだけ</strong>で、2026年2月期は<strong>509億3,800万円</strong>。J1でいちばん売上高が大きい浦和（2025年度 11,310百万円＝約113億円）の<strong>約4.5倍</strong>よ。ほかの球団の公告は利益と貸借対照表だけで、巨人と中日は決算公告そのものが見つからなかった。<strong>入場料収入は、12球団のどこも公表していない</strong>わ。
+
+ソフトバンクの売上高は、2021年2月期の229億9,600万円（コロナで無観客・入場制限）から5年で2.2倍になっている。ただし売上高には放映権・スポンサー・グッズなども入るので、チケットの売上だけを取り出すことはできないの。
+
+卓球のTリーグは、リーグを運営する一般社団法人Tリーグの決算公告（2025年6月期）でも、載っているのは総資産（1億7,932万円）だけ。クラブごとの数字は、リーグもクラブも出していないわ。
 
 ### リーグ全体で比べると｜B1はJ1の約6割、ただし伸びはB1が上
 
