@@ -407,5 +407,21 @@
   "lic": "商標（識別目的）",
   "fetched": "2026-11-15",
   "via": "公式サイトのページに表示されたロゴの要素を撮った（x506。画像の URL は Access Denied）"
+ },
+ "aupay.png": {
+  "brand": "au PAY",
+  "src": "https://aupay.wallet.auone.jp/_nuxt/logo_2x.DQLRWxfX.png",
+  "page": "https://aupay.wallet.auone.jp/",
+  "lic": "商標（識別目的）",
+  "fetched": "2026-11-16",
+  "via": "公式サイトに表示されたロゴの要素を撮った（x514）"
+ },
+ "rakutenpay.png": {
+  "brand": "楽天ペイ",
+  "src": "https://finance.jp.rakuten-static.com/rpay/img/2/common/logo-pay.svg",
+  "page": "https://pay.rakuten.co.jp/",
+  "lic": "商標（識別目的）",
+  "fetched": "2026-11-16",
+  "via": "公式サイトに表示されたロゴの要素を撮った（x514）"
  }
 }
