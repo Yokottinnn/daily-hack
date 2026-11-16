@@ -165,6 +165,27 @@ references: ["https://prtimes.jp/main/html/rd/p/000000069.000090362.html", "http
 
 ほかの湾岸のニュースは<a href="/tags/湾岸ニュース/">湾岸ニュースの一覧</a>、地区ごとのまとめは<a href="/category/wangan-life/">湾岸ライフ</a>にある。
 
+## SNS ではこう言われている｜晴海直売所での受け取り限定
+
+X と YouTube では、次のような声と動画が見つかった。
+
+- **予約の開始**：京はやしやの公式アカウントは2026年10月16日に予約の開始を告知し、「今年も、晴海直売所でのお受け取り限定」と書いている
+- **抹茶ノエル**：2026年10月23日には、抹茶を主役にした七層の「抹茶ノエル」を紹介している
+- **晴海直売所**：休業していた晴海直売所は、2026年8月17日に営業を再開した（中央区晴海1-6 晴海ITSビュープラザ6号棟）
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">🎄🎅 クリスマスケーキのご予約、開始しました 🎅🎄 今年のクリスマスを彩る、京はやしやのクリスマスケーキ。 毎年人気の「サンタのクリスマスケーキ」に加え、今年は新作も数量限定で登場します。 今年も、晴海直売所でのお受け取り限定。</p>&mdash; 京はやしや【公式】 (@kyo_hayashiya) <a href="https://twitter.com/kyo_hayashiya/status/2110903161624162725">2026年10月16日</a></blockquote>
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">🎄 2026 Christmas Cake 今年のクリスマスに、 京はやしやの「抹茶ノエル」を。 京都の老舗茶舗が仕立てる、 抹茶を主役にした七層のクリスマスケーキ。 抹茶の豊かな香りと深い味わいに、 苺、柚子、パッションフルーツの爽やかなアクセント。 ひと口ごとに移ろう味わいと、</p>&mdash; 京はやしや【公式】 (@kyo_hayashiya) <a href="https://twitter.com/kyo_hayashiya/status/2113435241495122116">2026年10月23日</a></blockquote>
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">【京はやしや晴海直売所 営業再開のご案内】 平素は当店をご利用いただきまして誠にありがとうございます。 京はやしや晴海直売所は、本日8月17日（月）から営業を再開いたします。 ■京はやしや 晴海直売所 住所：〒104-0053 東京都中央区晴海1-6 晴海ITSビュープラザ6号棟 209号室</p>&mdash; 京はやしや【公式】 (@kyo_hayashiya) <a href="https://twitter.com/kyo_hayashiya/status/2089170350420414555">2026年8月17日</a></blockquote>
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/qcQgbdGTXdI" title="【京はやしや】フランス🇫🇷伝統菓子を老舗お茶屋さんが素敵にアレンジ！キリッと美味しい抹茶の香りを十分に楽しめる…やっぱり抹茶は美味しい【お取り寄せスイーツNo.92】" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/Kn-FlC-MKzU" title="【お取り寄せスイーツNo.118】抹茶🌱ほうじ茶を濃厚に食べれる癖になるスイーツ！日本の夏って感じがするし老若男女に愛される味ってこれかぁ…となりました【京はやしや】" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
 ## よくある質問
 
 <div class="cmp-table-wrap">
