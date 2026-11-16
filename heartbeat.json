@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T13:46:59Z",
+  "generated_at": "2026-11-16T14:17:12Z",
   "login_lock": {"present": false, "age_hours": 0},
   "cdp": {"healthy": true, "port": 18810},
   "x_jobs": {"loaded": 8, "expected": 8, "ai_total": 16, "halted": false, "missing": []},
@@ -43,7 +43,10 @@
     "com.dailyhack.x-impressions"
   ],
   "reconnect": "既に起動している",
-  "tasks": [],
+  "tasks": [
+      {"task": "t699-embed-rk-28.sh", "rc": 0, "out": "- X 1997435684559405286 @chibawomannkitu  2025-12-06 ♥33 クルーズEXPO、船当てるはずがタンブラーが当たりました🎯✨ よく見るとsaseboって書いてあって、佐世保は先日ベリッシマで立ち寄ったのもあって来てくれてありがとうの気持ち�"},
+      {"task": "t700-embed-rk-29.sh", "rc": 0, "out": "- X 2111389255440457816 @Hotel_Chinzanso ✔ 2026-10-17 ♥215 ホテル椿山荘東京のクリスマスケーキ🎄 クリスマスを彩るラインナップから、3品をご紹介。 濃厚かつ爽やかな「プレミアムダブルチーズケーキ」。 パティシエがひとつひと�"}
+  ],
   "running": null,
   "auth": {
     "ok": true,
