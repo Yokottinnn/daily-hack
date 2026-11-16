@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-15T21:45:24.468Z",
+ "generatedAt": "2026-11-16T21:45:46.797Z",
  "keys": {
   "rakuten": true,
   "rakutenAccessKey": false,
@@ -80,15 +80,15 @@
     "yahoo": {
      "found": true,
      "candidates": 8,
-     "name": "PLAUD Nicebuild ボイスレコーダー Note Pro ブラック",
-     "url": "https://store.shopping.yahoo.co.jp/ecjoyecj25/22025810.html",
-     "price": 30783,
+     "name": "★Nicebuild Plaud Note Pro [ブラック]【ボイスレコーダー・ICレコーダー】【送料無料】",
+     "url": "https://store.shopping.yahoo.co.jp/d-rise/p000000925255.html",
+     "price": 29640,
      "shippingFree": true,
      "point": 0,
      "reviewAverage": null,
-     "reviewCount": 0,
-     "shop": "HJN ヤフー店",
-     "net": 30783
+     "reviewCount": 1,
+     "shop": "ディーライズ",
+     "net": 29640
     }
    },
    "plaud-note": {
@@ -225,7 +225,7 @@
     },
     "yahoo": {
      "found": true,
-     "candidates": 8,
+     "candidates": 7,
      "name": "サムソナイト スーツケース 33L 55cm 3.3kg 機内持ち込み ミンター スピナー55 Samsonite│ TSAロック ハード 旅行 キャリーケース キャリーバッグ 爆買",
      "url": "https://store.shopping.yahoo.co.jp/sacsbar/sa-minter55.html",
      "price": 63800,
@@ -261,16 +261,16 @@
     },
     "yahoo": {
      "found": true,
-     "candidates": 3,
+     "candidates": 5,
      "name": "スーツケース 19 DEGREE フロント・アクセス・エクスパンダブル・キャリーオン スーツケース（機内持ち込みサイズ） 1泊〜3泊程度",
-     "url": "https://store.shopping.yahoo.co.jp/zozo/102395469.html",
-     "price": 132000,
+     "url": "https://store.shopping.yahoo.co.jp/zozo/102395470.html",
+     "price": 96525,
      "shippingFree": false,
      "point": 0,
      "reviewAverage": null,
      "reviewCount": 0,
      "shop": "ZOZOTOWN Yahoo!店",
-     "net": 132000
+     "net": 96525
     }
    }
   },
@@ -335,7 +335,7 @@
     },
     "yahoo": {
      "found": true,
-     "candidates": 22,
+     "candidates": 30,
      "name": "サンエス EH32490 (服のみ) カーボンヒートベスト SUN-S S〜5L EXHEAT エクスヒート 防寒",
      "url": "https://store.shopping.yahoo.co.jp/oosumi-marutake/sunseh32490.html",
      "price": 9160,
@@ -392,13 +392,13 @@
      "candidates": 30,
      "name": "マキタ 充電式 暖房ベスト(バッテリ・バッテリホルダ・充電器別売) 黒 L CV202DZL 1点",
      "url": "https://store.shopping.yahoo.co.jp/diy-tool/m03-6295.html",
-     "price": 13946,
+     "price": 13947,
      "shippingFree": true,
      "point": 0,
      "reviewAverage": null,
      "reviewCount": 2,
      "shop": "DIY FACTORY ONLINE SHOP",
-     "net": 13946
+     "net": 13947
     }
    }
   },
@@ -427,7 +427,7 @@
     },
     "yahoo": {
      "found": true,
-     "candidates": 11,
+     "candidates": 13,
      "name": "旭化成 サランラップ 30cm×50m",
      "url": "https://store.shopping.yahoo.co.jp/kohnan-eshop/4901670110180.html",
      "price": 450,
@@ -490,7 +490,7 @@
     },
     "yahoo": {
      "found": true,
-     "candidates": 10,
+     "candidates": 9,
      "name": "エレコム 半固体モバイルバッテリー 半固体電池 モバイルバッテリー 10000mAh Type-C×2 USB-A 半固体リチウム電池 残量表示 elecom ブラック DE-C86-10000BK",
      "url": "https://store.shopping.yahoo.co.jp/gikstore/elc0979.html",
      "price": 8250,
@@ -509,8 +509,8 @@
     "yahoo": {
      "found": true,
      "candidates": 3,
-     "name": "エレコム リン酸鉄モバイルバッテリー 8000mAh 35W リチウムイオン電池 Type-C×2 A×1 ELECOM DE-C97L-8000WH",
-     "url": "https://store.shopping.yahoo.co.jp/elecom/4549550442619.html",
+     "name": "エレコム リン酸鉄モバイルバッテリー 8000mAh 35W リチウムイオン電池 Type-C×2 A×1 ELECOM DE-C97L-8000BU",
+     "url": "https://store.shopping.yahoo.co.jp/elecom/4549550442602.html",
      "price": 5280,
      "shippingFree": true,
      "point": 0,
@@ -558,14 +558,14 @@
      "found": true,
      "candidates": 16,
      "name": "BRUNO (ブルーノ) BOE122 ガラスエアフライヤー BOE122-IV",
-     "url": "https://store.shopping.yahoo.co.jp/ecjoyecj30/21673797.html",
-     "price": 11683,
+     "url": "https://store.shopping.yahoo.co.jp/ecj/21673797.html",
+     "price": 12574,
      "shippingFree": false,
      "point": 0,
      "reviewAverage": null,
      "reviewCount": 0,
-     "shop": "エクセレントショップ",
-     "net": 11683
+     "shop": "ECJOY!",
+     "net": 12574
     }
    },
    "beelicious-af4007": {
@@ -663,13 +663,13 @@
      "candidates": 30,
      "name": "SONY(ソニー) LinkBuds Clip WF-LC900(G) グリーン",
      "url": "https://store.shopping.yahoo.co.jp/pcbomber/252220012509600.html",
-     "price": 15943,
+     "price": 15962,
      "shippingFree": true,
      "point": 0,
      "reviewAverage": null,
      "reviewCount": 0,
      "shop": "PCボンバー Yahoo!店",
-     "net": 15943
+     "net": 15962
     }
    },
    "shokz-opendots-2": {
@@ -678,16 +678,16 @@
     },
     "yahoo": {
      "found": true,
-     "candidates": 22,
-     "name": "★Shokz OpenDots 2 SKZ-EP-000069 [ブラック]【イヤホン・ヘッドホン】【送料無料】",
-     "url": "https://store.shopping.yahoo.co.jp/d-rise2/p000000982786.html",
-     "price": 26930,
+     "candidates": 23,
+     "name": "Shokz SKZ-EP-000069 OpenDots 2 イヤーカフ型 球面音響設計 11.8mmドライバー搭載 Bluetooth対応 Black",
+     "url": "https://store.shopping.yahoo.co.jp/best-denki/1595331012.html",
+     "price": 26880,
      "shippingFree": true,
      "point": 0,
-     "reviewAverage": null,
-     "reviewCount": 0,
-     "shop": "ディーライズ2号",
-     "net": 26930
+     "reviewAverage": 2.67,
+     "reviewCount": 3,
+     "shop": "ベスト電器Yahoo!店",
+     "net": 26880
     }
    },
    "shokz-opendots-one": {
@@ -697,8 +697,8 @@
     "yahoo": {
      "found": true,
      "candidates": 23,
-     "name": "イヤホン・ヘッドホン Shokz OpenDots ONE - Black SKZ-EP-000054",
-     "url": "https://store.shopping.yahoo.co.jp/light-hikari/4571604941236.html",
+     "name": "イヤホン・ヘッドホン Shokz OpenDots ONE - Grey SKZ-EP-000053",
+     "url": "https://store.shopping.yahoo.co.jp/light-hikari/4571604941229.html",
      "price": 16293,
      "shippingFree": true,
      "point": 0,
@@ -840,16 +840,16 @@
     },
     "yahoo": {
      "found": true,
-     "candidates": 7,
-     "name": "エコフロー ポータブル電源 1024Wh DELTA 3 Plus EFDELTA3P-JP-CBOX EcoFlow",
-     "url": "https://store.shopping.yahoo.co.jp/dshopone-y/4895251630023.html",
-     "price": 83380,
+     "candidates": 8,
+     "name": "エコフロー　EcoFlow DELTA 3 Plus ［リン酸鉄リチウムイオン電池 /13出力 /AC・DC充電・ソーラー(別売) /USB Power Delivery対応］　EFDELTA3P-JP-Cbox",
+     "url": "https://store.shopping.yahoo.co.jp/y-kojima/4895251630023.html",
+     "price": 83120,
      "shippingFree": true,
      "point": 0,
-     "reviewAverage": 4.67,
-     "reviewCount": 3,
-     "shop": "ディーショップワン Yahoo!店",
-     "net": 83380
+     "reviewAverage": 4.85,
+     "reviewCount": 13,
+     "shop": "コジマYahoo!店",
+     "net": 83120
     }
    },
    "ecoflow-delta-3-classic": {
@@ -877,14 +877,14 @@
     "yahoo": {
      "found": true,
      "candidates": 22,
-     "name": "【新品】A17635Z1 ●ANKER アンカー Solix C1000 Gen 2 Portable Power Station [ダークグレー]  【東証上場の安心企業 】",
-     "url": "https://store.shopping.yahoo.co.jp/mitene/a17635z1.html",
+     "name": "アンカー ポータブル電源 1024Wh Solix C1000 Gen 2 Portable Power Station A17635Z1 ダークグレー Anker",
+     "url": "https://store.shopping.yahoo.co.jp/dshopone-y/4571651001341.html",
      "price": 74800,
      "shippingFree": true,
      "point": 0,
      "reviewAverage": null,
-     "reviewCount": 0,
-     "shop": "MITENE Premium",
+     "reviewCount": 1,
+     "shop": "ディーショップワン Yahoo!店",
      "net": 74800
     }
    },
@@ -957,7 +957,7 @@
      "shippingFree": true,
      "point": 0,
      "reviewAverage": 4.33,
-     "reviewCount": 489,
+     "reviewCount": 490,
      "shop": "mottole Yahoo!店",
      "net": 1096
     }
@@ -974,8 +974,8 @@
      "price": 1730,
      "shippingFree": true,
      "point": 0,
-     "reviewAverage": 4.36,
-     "reviewCount": 94,
+     "reviewAverage": 4.35,
+     "reviewCount": 95,
      "shop": "mottole Yahoo!店",
      "net": 1730
     }
@@ -1084,15 +1084,15 @@
     "yahoo": {
      "found": true,
      "candidates": 15,
-     "name": "Google Fitbit Air[Lavender]",
-     "url": "https://store.shopping.yahoo.co.jp/light-hikari/840353943353.html",
-     "price": 19284,
+     "name": "【爆買week】【新品未開封】 Google Fitbit Air Berry 0840353963986",
+     "url": "https://store.shopping.yahoo.co.jp/digitalisland/0840353963986.html",
+     "price": 19000,
      "shippingFree": true,
      "point": 0,
      "reviewAverage": null,
      "reviewCount": 0,
-     "shop": "らいぶshop",
-     "net": 19284
+     "shop": "digitalisland",
+     "net": 19000
     }
    },
    "amazfit-helio-strap": {
@@ -1139,15 +1139,15 @@
     },
     "yahoo": {
      "found": true,
-     "candidates": 10,
-     "name": "即配 (KT) トイカメラ Pieni III BK ブラック ピエニ3  ドール用カメラ ドル撮 ラッピング 誕生日 クリスマス ミニチュアカメラ トイデジ ギフト",
-     "url": "https://store.shopping.yahoo.co.jp/kenkotokina2/4961607603611.html",
+     "candidates": 8,
+     "name": "ケンコー・トキナー Kenko トイカメラ Pieni III ソーダ",
+     "url": "https://store.shopping.yahoo.co.jp/y-sofmap/4961607603581.html",
      "price": 6600,
      "shippingFree": true,
      "point": 0,
      "reviewAverage": null,
      "reviewCount": 0,
-     "shop": "アウキャン ケンコー・トキナーオンラインショップ",
+     "shop": "ソフマップ Yahoo!店",
      "net": 6600
     }
    },
@@ -1231,8 +1231,8 @@
     },
     "yahoo": {
      "found": true,
-     "candidates": 8,
-     "name": "YAMAZEN 電気ミニマット ホットカーペット 40×40cm YMM-W402 1台",
+     "candidates": 7,
+     "name": "山善(YAMAZEN) 電気ミニマット ホットカーペット 40×40cm YMM-W402 1台",
      "url": "https://lohaco.yahoo.co.jp/store/h-lohaco/item/ek50993/",
      "price": 3058,
      "shippingFree": false,
@@ -1249,16 +1249,16 @@
     },
     "yahoo": {
      "found": true,
-     "candidates": 17,
+     "candidates": 15,
      "name": "パナソニック 電気しき毛布 シングル 140×80cm 丸洗い可 室温センサー付 グリーン DB-U12T-G",
      "url": "https://store.shopping.yahoo.co.jp/oimus725/20251230062740-01077.html",
-     "price": 5830,
+     "price": 5775,
      "shippingFree": true,
      "point": 0,
      "reviewAverage": null,
      "reviewCount": 0,
      "shop": "北村商会",
-     "net": 5830
+     "net": 5775
     }
    },
    "yamazen-yphs-160": {
@@ -1267,7 +1267,7 @@
     },
     "yahoo": {
      "found": true,
-     "candidates": 2,
+     "candidates": 1,
      "name": "パネルヒーター 底面ヒーター 足元暖房 省エネ エコ 静音 転倒センサー 自動オフ 節電 電気暖房 デスクパネルヒーター フットヒーター YPHS-160 山善 YAMAZEN",
      "url": "https://store.shopping.yahoo.co.jp/e-kurashi/98705.html",
      "price": 8980,
@@ -1303,7 +1303,7 @@
     },
     "yahoo": {
      "found": true,
-     "candidates": 10,
+     "candidates": 5,
      "name": "パナソニック セラミックファンヒーター コンパクト ホワイト DS-FN1200-W",
      "url": "https://store.shopping.yahoo.co.jp/jiatentusp3/20211022030523-00267us.html",
      "price": 8590,
@@ -1346,13 +1346,13 @@
      "candidates": 3,
      "name": "KENWOOD 完全ワイヤレスイヤホン GLASS Core Pro KH-CRZ100T 80周年記念モデル ケンウッド",
      "url": "https://store.shopping.yahoo.co.jp/outletplaza/40001116330.html",
-     "price": 47332,
+     "price": 47285,
      "shippingFree": true,
      "point": 0,
      "reviewAverage": null,
      "reviewCount": 0,
      "shop": "秋葉原　アウトレットプラザ",
-     "net": 47332
+     "net": 47285
     }
    },
    "kenwood-glass-core": {
@@ -1379,7 +1379,7 @@
     },
     "yahoo": {
      "found": true,
-     "candidates": 14,
+     "candidates": 17,
      "name": "SONY ソニー ワイヤレスイヤホン WF-1000XM6 シルバー Bluetooth ノイズキャンセリング ノイキャン ハイレゾ マイク付き【ラッピング対応可】 R-LOGI",
      "url": "https://store.shopping.yahoo.co.jp/sokuteikiya/4548736171817.html",
      "price": 38392,
@@ -1397,16 +1397,16 @@
     },
     "yahoo": {
      "found": true,
-     "candidates": 13,
-     "name": "【新品未開封・保証未開始】AirPods Pro 3 MFHP4J/A【日曜日以外即日発送】【送料無料】",
-     "url": "https://store.shopping.yahoo.co.jp/kaikyou/4549995635232.html",
-     "price": 37250,
+     "candidates": 15,
+     "name": "★国内正規品 新品未開封・保証開始 AirPods Pro 3 MFHP4J/A  ワイヤレスイヤホン 本体 2025年発売 第3世代",
+     "url": "https://store.shopping.yahoo.co.jp/jcka-mobile2/4549995635233.html",
+     "price": 36450,
      "shippingFree": true,
      "point": 0,
-     "reviewAverage": 5,
-     "reviewCount": 6,
-     "shop": "モバイル販売",
-     "net": 37250
+     "reviewAverage": 4.98,
+     "reviewCount": 49,
+     "shop": "ジェーシカモバイル2号店",
+     "net": 36450
     }
    },
    "anker-liberty-5-pro": {
@@ -1415,7 +1415,7 @@
     },
     "yahoo": {
      "found": true,
-     "candidates": 15,
+     "candidates": 14,
      "name": "アンカー イヤホン ワイヤレス Bluetooth 6.1 Soundcore Liberty 5 Pro D1203N11 ミッドナイトブラック A",
      "url": "https://store.shopping.yahoo.co.jp/dshopone-y/4571651013405.html",
      "price": 23090,
@@ -1433,7 +1433,7 @@
     },
     "yahoo": {
      "found": true,
-     "candidates": 25,
+     "candidates": 26,
      "name": "【新品】パナソニック Technics EAH-AZ100-N [シャンパンゴールド]【日曜日以外即日発送】【送料無料】",
      "url": "https://store.shopping.yahoo.co.jp/kaikyou/4549980975312.html",
      "price": 34290,
@@ -1453,7 +1453,7 @@
     },
     "yahoo": {
      "found": true,
-     "candidates": 29,
+     "candidates": 27,
      "name": "象印 スチーム式加湿器 ソフトブラック EE-TC60-BM",
      "url": "https://store.shopping.yahoo.co.jp/jhb-store/4974305232502.html",
      "price": 25149,
@@ -1472,15 +1472,15 @@
     "yahoo": {
      "found": true,
      "candidates": 29,
-     "name": "【新品・在庫】EE-DG50-WA ●象印 スチーム式加湿器 4.0L [ホワイト] (EE-DG50)  東証上場の安心企業☆",
-     "url": "https://store.shopping.yahoo.co.jp/mitene/ee-dg50-wa.html",
-     "price": 20800,
+     "name": "EE-DG50-WA 象印 スチーム式 加湿器 ホワイト  在庫あり タンク4L お手入れ簡単 清潔な蒸気スチーム式 安全設計 ZOJIRUSHI",
+     "url": "https://store.shopping.yahoo.co.jp/macocoro/ee-dg50wa.html",
+     "price": 21380,
      "shippingFree": true,
      "point": 0,
      "reviewAverage": null,
      "reviewCount": 0,
-     "shop": "MITENE Premium",
-     "net": 20800
+     "shop": "まごころでんき Yahoo!店",
+     "net": 21380
     }
    },
    "zojirushi-ee-dg35": {
@@ -1543,16 +1543,16 @@
     },
     "yahoo": {
      "found": true,
-     "candidates": 28,
-     "name": "象印 スチーム式加湿器 1.8L 木造3畳 プレハブ6畳 EE-MC20-CM サンドベージュ",
-     "url": "https://store.shopping.yahoo.co.jp/pc-akindo/ee-mc20-cm.html",
-     "price": 15380,
+     "candidates": 29,
+     "name": "象印 スチーム式加湿器 1.8L 木造3畳 プレハブ6畳 EE-MC20-GM セージグリーン",
+     "url": "https://store.shopping.yahoo.co.jp/pc-akindo/ee-mc20-gm.html",
+     "price": 15126,
      "shippingFree": true,
      "point": 0,
      "reviewAverage": null,
      "reviewCount": 0,
      "shop": "PCあきんど",
-     "net": 15380
+     "net": 15126
     }
    },
    "zojirushi-ee-fa50": {
@@ -1561,7 +1561,7 @@
     },
     "yahoo": {
      "found": true,
-     "candidates": 10,
+     "candidates": 11,
      "name": "ZOJIRUSHI スチーム式加湿器 STAN. EE-FA50-BA ブラック 象印",
      "url": "https://store.shopping.yahoo.co.jp/outletplaza/40001082165.html",
      "price": 35326,
