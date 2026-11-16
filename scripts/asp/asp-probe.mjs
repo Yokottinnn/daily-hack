@@ -605,7 +605,16 @@ try {
     lines.push('');
     // 収益化作戦室が読む JSON（2026-10-12）。名前と広告側の報酬だけ。自分の報酬額は出さない
     lines.push(`- 新しく詳細を開いた ${opened} 件・控えから ${ROWS.length - opened} 件${ids.length - from > ROWS.length ? `・残り ${ids.length - from - ROWS.length} 件は次の回` : ''}`);
-    if (ids.length && !shrunk) fs.writeFileSync(path.join(OUT, `${WHICH}.json`), JSON.stringify({ generated: new Date().toISOString(), total: ids.length, from, to, rows: ROWS, applyingCount: applying ? applying.length : null }, null, 1));
+    // 2026-11-16 affiliate: 11/14 に 100 件の結果で上書きしたため、控え（前の回の rows）が失われ、詳細を 1 日 80 件ずつ開き直していた。
+    // rows が total に届かない日（11/15 は 396 件中 180、11/16 は 260）でも上書きしていた（blog3 の依頼）。
+    // ① 読んだ案件は消えない控え a8partnered-cache.json に足していく ② rows が前の回より少なく、かつ total の 9 割に届かないときは上書きしない
+    const realRows = ROWS.filter((r) => r.id && r.name && r.name !== '（読めない）');
+    for (const r of realRows) cache.set(r.id, r);
+    try { fs.writeFileSync(path.join(OUT, `${WHICH}-cache.json`), JSON.stringify({ generated: new Date().toISOString(), note: '読んだ案件の控え（消さない・提携が切れた案件も残る）', rows: [...cache.values()] }, null, 1)); } catch {}
+    let prevRows = 0; try { prevRows = (JSON.parse(fs.readFileSync(path.join(OUT, `${WHICH}.json`), 'utf8')).rows || []).length; } catch {}
+    const partial = !process.env.A8_IDS && ROWS.length < (to - from) * 0.9 && ROWS.length < prevRows;
+    if (ROWS.length < to - from) lines.push(`- ⚠️ 提携中 ${to - from} 件のうち ${ROWS.length} 件しか名前・報酬が無い（残りは次の回）。${partial ? '前の回（' + prevRows + ' 件）より少ないので上書きしない' : '前の回より多いので書く'}`);
+    if (ids.length && !shrunk && !partial) fs.writeFileSync(path.join(OUT, `${WHICH}.json`), JSON.stringify({ generated: new Date().toISOString(), total: ids.length, from, to, rows: ROWS, missing: Math.max(0, to - from - ROWS.length), applyingCount: applying ? applying.length : null }, null, 1));
   }
 
   if (WHICH === 'a8detail') {
