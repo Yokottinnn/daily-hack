@@ -1,3 +1,3 @@
 [
-      {"task": "x515-ariake-shop-logos.sh", "rc": 0, "out": "- ariakeshops: 撮った 0 個 ← https://ariake.shopping-sumitomo-rd.com/shop/     logo-airwallet-1.png  620x224 「airwallet」 alt=COIN+ ← https://airwallet.jp/assets/images/logo_coinplus.png - airwallet: 撮った 1 個 ← https://airwallet.jp/  **読むだけ。LLM 不使用（$0／回）�"}
+      {"task": "x516-ariake-shop-logos-2.sh", "rc": 0, "out": "    logo-umami-1.png  96x66 「umami」 alt=logo ← https://umamiburger.jp/images/logo.png - umami: 撮った 1 個 ← https://umamiburger.jp/ - aeonstyle: 撮った 0 個 ← https://www.aeonretail.jp/  **読むだけ。LLM 不使用（$0／回）。**"}
   ]
