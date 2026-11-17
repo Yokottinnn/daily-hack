@@ -1,3 +1,1 @@
-[
-      {"task": "x519-read-jal-error.sh", "rc": 0, "out": "step: thread-main-exec child_stdout: {ok:false,step:alt-text,error:page.$$eval: Target page, context or browser has been closed}n child_stderr: [post-via-playwright] attached 2/2 image(s)n thread_results: [] ```"}
-  ]
+[]
