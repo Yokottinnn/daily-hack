@@ -1,3 +1,3 @@
 [
-      {"task": "x520-retry-jal-post.sh", "rc": 0, "out": "出し直す前の x_tweet_id: なし **出た: https://x.com/heng_ji31590/status/2122532366879261178**"}
+      {"task": "x521-oneshot-retry-once.sh", "rc": 0, "out": "入れた publish-rainbow-ride-oneshot.sh: 入れた・bash -n 通った 入れた publish-bf-matome-oneshot.sh: 入れた・bash -n 通った"}
   ]
