@@ -652,7 +652,7 @@
     "note": "2026-11-14 利用者がレビューページで「投稿しない」にした"
   },
   "blog-jal-tour-separate": {
-    "status": "draft",
+    "status": "posted",
     "date": "2026-11-13",
     "purpose": "blog",
     "why": "【ブログ記事の紹介】blog3 の依頼（11/13）。成果リンク（楽天トラベル・J-TRIP）つきの比較記事。年末の旅行を決める前の時期",
@@ -664,7 +664,9 @@
     "planTime": "12:00",
     "scheduledAt": "2026-11-17T12:00:00+09:00",
     "approval": "2026-11-15 00:3x JST 利用者「この投稿を17日の火曜日に予約投稿して」",
-    "note": "x485 で 11/17 12:00 に予約"
+    "note": "x485 で 11/17 12:00 に予約",
+    "postedAt": "2026-11-17T12:28:00+09:00",
+    "tweetId": "2122532366879261178"
   },
   "poikatsu-amazon-bf-itsu": {
     "status": "dropped",
