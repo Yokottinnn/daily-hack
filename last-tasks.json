@@ -1,1 +1,3 @@
-[]
+[
+      {"task": "t704-asp-sync-stale-diag.sh", "rc": 0, "out": "```  ## 5) シム  在る（実行可）: `/Users/ny/.openclaw/bin/asp-sync-boot.sh`"}
+  ]
