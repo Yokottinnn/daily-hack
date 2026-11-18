@@ -1,3 +1,1 @@
-[
-      {"task": "t705-asp-sync-last-run-read.sh", "rc": 0, "out": "/Users/ny/.openclaw/ops-heartbeat-wt/reports/.sync/asp-sync -rw-r--r--  1 ny  staff    404 Nov 14 13:31 status.json /Users/ny/.openclaw/ops-heartbeat-wt/reports/.sync-t342/asp-sync -rw-r--r--  1 ny  staff  1415 Oct 25 17:09 status.json ```"}
-  ]
+[]
