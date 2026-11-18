@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-17T21:44:49.845Z",
+ "generatedAt": "2026-11-18T21:44:40.351Z",
  "keys": {
   "rakuten": true,
   "rakutenAccessKey": false,
@@ -79,16 +79,16 @@
     },
     "yahoo": {
      "found": true,
-     "candidates": 10,
-     "name": "AIボイスレコーダー Plaud Note Pro ブラック",
-     "url": "https://store.shopping.yahoo.co.jp/outletplaza/40001109250.html",
-     "price": 26710,
+     "candidates": 9,
+     "name": "PLAUD Nicebuild ボイスレコーダー Note Pro ブラック",
+     "url": "https://store.shopping.yahoo.co.jp/ecj/22025810.html",
+     "price": 29457,
      "shippingFree": true,
      "point": 0,
      "reviewAverage": null,
      "reviewCount": 0,
-     "shop": "秋葉原　アウトレットプラザ",
-     "net": 26710
+     "shop": "ECJOY!",
+     "net": 29457
     }
    },
    "plaud-note": {
@@ -133,7 +133,7 @@
     },
     "yahoo": {
      "found": true,
-     "candidates": 12,
+     "candidates": 11,
      "name": "NOTTA　Nott ［32GB / Bluetooth対応］　Notta Memo",
      "url": "https://store.shopping.yahoo.co.jp/y-kojima/0860013896409.html",
      "price": 23500,
@@ -409,7 +409,7 @@
     },
     "yahoo": {
      "found": true,
-     "candidates": 14,
+     "candidates": 13,
      "name": "1個 クレハ NEWクレラップ お徳用レギュラー 30cm×50m 食品包装用ラップ",
      "url": "https://store.shopping.yahoo.co.jp/rusion-jp/rus-4901422153502.html",
      "price": 480,
@@ -490,14 +490,14 @@
     },
     "yahoo": {
      "found": true,
-     "candidates": 9,
-     "name": "エレコム 半固体モバイルバッテリー 半固体電池 モバイルバッテリー 10000mAh Type-C×2 USB-A 半固体リチウム電池 残量表示 elecom ブラック DE-C86-10000BK",
-     "url": "https://store.shopping.yahoo.co.jp/gikstore/elc0979.html",
+     "candidates": 8,
+     "name": "エレコム 半固体モバイルバッテリー 半固体電池 モバイルバッテリー 10000mAh Type-C×2 USB-A 半固体リチウム電池 残量表示 elecom ブルー DE-C86-10000BU",
+     "url": "https://store.shopping.yahoo.co.jp/gikstore/elc0980.html",
      "price": 8250,
      "shippingFree": true,
      "point": 0,
-     "reviewAverage": 4,
-     "reviewCount": 4,
+     "reviewAverage": null,
+     "reviewCount": 1,
      "shop": "Gikstore",
      "net": 8250
     }
@@ -559,13 +559,13 @@
      "candidates": 16,
      "name": "BRUNO (ブルーノ) BOE122 ガラスエアフライヤー BOE122-IV",
      "url": "https://store.shopping.yahoo.co.jp/ecj/21673797.html",
-     "price": 11934,
+     "price": 11683,
      "shippingFree": false,
      "point": 0,
      "reviewAverage": null,
      "reviewCount": 0,
      "shop": "ECJOY!",
-     "net": 11934
+     "net": 11683
     }
    },
    "beelicious-af4007": {
@@ -595,14 +595,14 @@
     "yahoo": {
      "found": true,
      "candidates": 6,
-     "name": "レコルト 専用オーブンペーパーの特典 ノンフライヤー エアーオーブン 4L 大容量 家庭用 電気フライヤー エアフライヤー エアオーブン RAO-4 ヘルシー",
-     "url": "https://store.shopping.yahoo.co.jp/aqua-inc/aq000183.html",
+     "name": "特典付［ recolte エアーオーブン 4L ］レコルト エアオーブン 大容量 ヘルシー フライヤー ノンオイル 温め直し タッチパネル 家庭用 卓上 レシピ付き RAO-4",
+     "url": "https://store.shopping.yahoo.co.jp/roomy/win2006-tu00c-1.html",
      "price": 16500,
      "shippingFree": true,
      "point": 0,
-     "reviewAverage": 4.52,
-     "reviewCount": 194,
-     "shop": "セレクトショップAQUA・アクア",
+     "reviewAverage": 4.64,
+     "reviewCount": 11,
+     "shop": "インテリアショップ roomy",
      "net": 16500
     }
    },
@@ -650,7 +650,7 @@
     },
     "yahoo": {
      "found": true,
-     "candidates": 20,
+     "candidates": 19,
      "name": "アンカー ワイヤレスイヤホン オープンイヤー型 Soundcore AeroClip A3388N11 ミッドナイトブラック Anker",
      "url": "https://store.shopping.yahoo.co.jp/dshopone-y/4571411227073.html",
      "price": 15424,
@@ -668,16 +668,16 @@
     },
     "yahoo": {
      "found": true,
-     "candidates": 30,
-     "name": "SONY(ソニー) LinkBuds Clip WF-LC900(G) グリーン",
-     "url": "https://store.shopping.yahoo.co.jp/pcbomber/252220012509600.html",
-     "price": 15935,
+     "candidates": 29,
+     "name": "『新品』SONY (ソニー) LinkBuds Clip WF-LC900 (V) [ラベンダー]",
+     "url": "https://store.shopping.yahoo.co.jp/noahshoping/4548736175181.html",
+     "price": 16215,
      "shippingFree": true,
      "point": 0,
      "reviewAverage": null,
      "reviewCount": 0,
-     "shop": "PCボンバー Yahoo!店",
-     "net": 15935
+     "shop": "ノア商社Yahoo!店",
+     "net": 16215
     }
    },
    "shokz-opendots-2": {
@@ -705,8 +705,8 @@
     "yahoo": {
      "found": true,
      "candidates": 23,
-     "name": "イヤホン・ヘッドホン Shokz OpenDots ONE - Grey SKZ-EP-000053",
-     "url": "https://store.shopping.yahoo.co.jp/light-hikari/4571604941229.html",
+     "name": "イヤホン・ヘッドホン Shokz OpenDots ONE - Black SKZ-EP-000054",
+     "url": "https://store.shopping.yahoo.co.jp/light-hikari/4571604941236.html",
      "price": 16293,
      "shippingFree": true,
      "point": 0,
@@ -722,7 +722,7 @@
     },
     "yahoo": {
      "found": true,
-     "candidates": 27,
+     "candidates": 28,
      "name": "[国内正規品 未開封新品]Bose Ultra Open Earbuds 完全ワイヤレス オープンイヤー ULTRAOPENEBWHT ホワイトスモーク",
      "url": "https://store.shopping.yahoo.co.jp/alljapan-online-shop/4969929259257.html",
      "price": 21300,
@@ -752,7 +752,7 @@
     },
     "yahoo": {
      "found": true,
-     "candidates": 7,
+     "candidates": 8,
      "name": "クーボ Qoobo YE-QB001B フレンチブラウン ペットロボット 充電式 しっぽ付クッション しっぽ振る ユカイ工学 YEQB001 キッズ こども 誕生日プレゼント 玩具",
      "url": "https://store.shopping.yahoo.co.jp/aprice/4580310090312.html",
      "price": 14400,
@@ -848,7 +848,7 @@
     },
     "yahoo": {
      "found": true,
-     "candidates": 8,
+     "candidates": 10,
      "name": "エコフロー ポータブル電源 1024Wh DELTA 3 Plus EFDELTA3P-JP-CBOX EcoFlow",
      "url": "https://store.shopping.yahoo.co.jp/dshopone-y/4895251630023.html",
      "price": 83120,
@@ -884,7 +884,7 @@
     },
     "yahoo": {
      "found": true,
-     "candidates": 23,
+     "candidates": 22,
      "name": "アンカー ポータブル電源 1024Wh Solix C1000 Gen 2 Portable Power Station A17635Z1 ダークグレー Anker",
      "url": "https://store.shopping.yahoo.co.jp/dshopone-y/4571651001341.html",
      "price": 74800,
@@ -922,16 +922,16 @@
     },
     "yahoo": {
      "found": true,
-     "candidates": 16,
-     "name": "繰り返し使えるカイロ ピンク",
-     "url": "https://store.shopping.yahoo.co.jp/zozo/111963074.html",
-     "price": 3480,
+     "candidates": 14,
+     "name": "「2025年モデル」繰り返し使えるカイロ グレー typeC対応 充電式 モバイルバッテリー機能 電子カイロ ギフト プレゼント 贈り物",
+     "url": "https://store.shopping.yahoo.co.jp/zozo/98176783.html",
+     "price": 2780,
      "shippingFree": false,
      "point": 0,
-     "reviewAverage": null,
-     "reviewCount": 0,
+     "reviewAverage": 3.75,
+     "reviewCount": 4,
      "shop": "ZOZOTOWN Yahoo!店",
-     "net": 3480
+     "net": 2780
     }
    },
    "francfranc-ryote-2026": {
@@ -1091,7 +1091,7 @@
     },
     "yahoo": {
      "found": true,
-     "candidates": 14,
+     "candidates": 16,
      "name": "【爆買week】【新品未開封】 Google Fitbit Air Berry 0840353963986",
      "url": "https://store.shopping.yahoo.co.jp/digitalisland/0840353963986.html",
      "price": 19000,
@@ -1257,16 +1257,16 @@
     },
     "yahoo": {
      "found": true,
-     "candidates": 16,
+     "candidates": 17,
      "name": "パナソニック 電気しき毛布 シングル 140×80cm 丸洗い可 室温センサー付 グリーン DB-U12T-G",
      "url": "https://store.shopping.yahoo.co.jp/oimus725/20251230062740-01077.html",
-     "price": 5775,
+     "price": 5830,
      "shippingFree": true,
      "point": 0,
      "reviewAverage": null,
      "reviewCount": 0,
      "shop": "北村商会",
-     "net": 5775
+     "net": 5830
     }
    },
    "yamazen-yphs-160": {
@@ -1351,16 +1351,16 @@
     },
     "yahoo": {
      "found": true,
-     "candidates": 3,
-     "name": "KENWOOD 完全ワイヤレスイヤホン GLASS Core Pro KH-CRZ100T 80周年記念モデル ケンウッド",
-     "url": "https://store.shopping.yahoo.co.jp/outletplaza/40001116330.html",
-     "price": 47285,
+     "candidates": 4,
+     "name": "【未使用】KENWOOD GLASS Core Pro KH-CRZ100T【ECセンター】保証期間１ヶ月",
+     "url": "https://store.shopping.yahoo.co.jp/janpara/108214272-222.html",
+     "price": 43980,
      "shippingFree": true,
      "point": 0,
      "reviewAverage": null,
      "reviewCount": 0,
-     "shop": "秋葉原　アウトレットプラザ",
-     "net": 47285
+     "shop": "じゃんぱら Yahoo!店",
+     "net": 43980
     }
    },
    "kenwood-glass-core": {
@@ -1387,16 +1387,16 @@
     },
     "yahoo": {
      "found": true,
-     "candidates": 17,
+     "candidates": 18,
      "name": "SONY ソニー ワイヤレスイヤホン WF-1000XM6 シルバー Bluetooth ノイズキャンセリング ノイキャン ハイレゾ マイク付き【ラッピング対応可】 R-LOGI",
      "url": "https://store.shopping.yahoo.co.jp/sokuteikiya/4548736171817.html",
-     "price": 38380,
+     "price": 38339,
      "shippingFree": true,
      "point": 0,
      "reviewAverage": null,
      "reviewCount": 1,
      "shop": "測定の森Yahoo!ショッピング店",
-     "net": 38380
+     "net": 38339
     }
    },
    "airpods-pro-3": {
@@ -1423,16 +1423,16 @@
     },
     "yahoo": {
      "found": true,
-     "candidates": 16,
-     "name": "【アウトレット 展示品・メーカー保証なし】★ANKER Soundcore Liberty 5 Pro D1203N21 [パールホワイト]【送料無料】",
-     "url": "https://store.shopping.yahoo.co.jp/d-rise2/p700000023745.html",
-     "price": 21380,
+     "candidates": 15,
+     "name": "アンカー イヤホン ワイヤレス Bluetooth 6.1 Soundcore Liberty 5 Pro D1203N11 ミッドナイトブラック A",
+     "url": "https://store.shopping.yahoo.co.jp/dshopone-y/4571651013405.html",
+     "price": 23090,
      "shippingFree": true,
      "point": 0,
      "reviewAverage": null,
-     "reviewCount": 0,
-     "shop": "ディーライズ2号",
-     "net": 21380
+     "reviewCount": 1,
+     "shop": "ディーショップワン Yahoo!店",
+     "net": 23090
     }
    },
    "technics-eah-az100": {
@@ -1442,15 +1442,15 @@
     "yahoo": {
      "found": true,
      "candidates": 26,
-     "name": "【新品】パナソニック Technics EAH-AZ100-N [シャンパンゴールド]【日曜日以外即日発送】【送料無料】",
-     "url": "https://store.shopping.yahoo.co.jp/kaikyou/4549980975312.html",
-     "price": 34290,
+     "name": "イヤホン・ヘッドホン Technics EAH-AZ100-N [シャンパンゴールド]",
+     "url": "https://store.shopping.yahoo.co.jp/light-hikari/4549980975312.html",
+     "price": 34299,
      "shippingFree": true,
      "point": 0,
-     "reviewAverage": null,
-     "reviewCount": 2,
-     "shop": "モバイル販売",
-     "net": 34290
+     "reviewAverage": 4.75,
+     "reviewCount": 8,
+     "shop": "らいぶshop",
+     "net": 34299
     }
    }
   },
@@ -1461,7 +1461,7 @@
     },
     "yahoo": {
      "found": true,
-     "candidates": 29,
+     "candidates": 27,
      "name": "象印 スチーム式加湿器 ソフトブラック EE-TC60-BM",
      "url": "https://store.shopping.yahoo.co.jp/jhb-store/4974305232502.html",
      "price": 25149,
@@ -1480,15 +1480,15 @@
     "yahoo": {
      "found": true,
      "candidates": 29,
-     "name": "象印 加湿器 EE-DG50 WA ホワイト 4.0L 在庫有り即納",
-     "url": "https://store.shopping.yahoo.co.jp/kurashiya/002-9336800.html",
-     "price": 21400,
+     "name": "象印 スチーム式加湿器 EE-DG50-HA グレー 加湿器 EEDG50HA (納期目安1-2週間)※正規代理店",
+     "url": "https://store.shopping.yahoo.co.jp/dejikura/4974305232540.html",
+     "price": 20670,
      "shippingFree": true,
      "point": 0,
-     "reviewAverage": 4.75,
-     "reviewCount": 4,
-     "shop": "くらし屋 Yahoo!ショッピング店",
-     "net": 21400
+     "reviewAverage": null,
+     "reviewCount": 0,
+     "shop": "デジ倉",
+     "net": 20670
     }
    },
    "zojirushi-ee-dg35": {
@@ -1497,15 +1497,15 @@
     },
     "yahoo": {
      "found": true,
-     "candidates": 30,
-     "name": "ZOJIRUSHI　加湿器　EE-DG35-WA [ホワイト]",
-     "url": "https://store.shopping.yahoo.co.jp/wink-digital/276153.html",
+     "candidates": 29,
+     "name": "象印　加湿器 EE-DG35 WA（ホワイト）",
+     "url": "https://store.shopping.yahoo.co.jp/sanrex/ee-dg35-wa.html",
      "price": 18700,
      "shippingFree": true,
      "point": 0,
      "reviewAverage": null,
      "reviewCount": 0,
-     "shop": "ウインクデジタル ヤフー店",
+     "shop": "サンサン マーケット",
      "net": 18700
     }
    },
