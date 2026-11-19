@@ -1,8 +1,8 @@
 {
- "generated": "2026-11-18T21:41:32.963Z",
- "total": 399,
+ "generated": "2026-11-19T21:41:48.804Z",
+ "total": 398,
  "from": 0,
- "to": 399,
+ "to": 398,
  "rows": [
   {
    "id": "s00000015530001",
@@ -664,14 +664,6 @@
    "id": "s00000026698001",
    "name": "Hostinger - Webサイト作成に必要なすべてがここに",
    "reward": "▽一般 新規購入80％",
-   "self": false,
-   "point": false,
-   "listing": "リスティング一部OK"
-  },
-  {
-   "id": "s00000024877008",
-   "name": "【トラベルブック】団体・グループ旅行一括見積もりサービス",
-   "reward": "新規見積り申込1500円 EPC",
    "self": false,
    "point": false,
    "listing": "リスティング一部OK"
@@ -3198,5 +3190,5 @@
   }
  ],
  "missing": 0,
- "applyingCount": 106
+ "applyingCount": 103
 }
