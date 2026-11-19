@@ -34,7 +34,10 @@
 
 1. **最新にする**: `git fetch origin main && git checkout -B <作業ブランチ> origin/main`
    （作業ブランチに未マージのコミットが無いことを先に `git log origin/main..HEAD` で確かめる）
-2. **スナップショットを作る**: `node scripts/strategy-board/build-snapshot.mjs --out /tmp/snap.json`
+2. **スナップショットを作る**: 先に db の `snapshot/hist` と `results/latest` を `ArtifactData get … out_dir=/tmp/db` で書き出し、
+   `node scripts/strategy-board/build-snapshot.mjs --out /tmp/snap.json --hist /tmp/db/snapshot/hist.json --results /tmp/db/results/latest.json`
+   - `--hist` を付けると、今日の数字を 1 行足した `/tmp/snap.hist.json` もできる（全体像の「前週・前月との差」に使う・2026-11-19）。**付け忘れると前週との差が「記録なし」のまま止まる**
+   - snapshot の `home` に、全体像の「これからの 14 日」（公開予定の記事・記事のフロントマターの `event`・X の予約 `reports/board/x-schedule.json`）と「知っておくこと」（マージ待ちの PR・止まっているデータ・`manual.json` の `deadlines`・依頼表の未対応の数）が入る。PR は `gh api` で読む（読めなければ null で、作戦室は「データ待ち」）
    - 末尾の行に `gsc=… pv=… a8=… findings=…` が出る。**`gsc=false` や `a8=0` なら、その事実を更新履歴に書く**（隠さない）
    - **`sources` の日付を必ず見る。** 所見に `stale`（古いデータ）が出ていたら、**その日は「数字を更新した」と報告しない。**
      先に Mac の `com.dailyhack.board-weekly`（6:40）が動いたかを `ops/heartbeat` の `reports/board/mac-weekly-status.json` で確かめ、
@@ -51,6 +54,7 @@
      A8 の提携が 313 件になり、1 文書の上限（256KB）を超えて書けなくなったため。作戦室は 2 つを読んで合わせて描く。
      `build-snapshot.mjs` は、どちらかが上限の 9 割を超えると「警告」を出す。出たら同じように分ける
    - `snapshots/<YYYY-MM-DD>`（`set`・新規）
+   - `snapshot/hist`（`set`・`<名前>.hist.json`。先に読んだ版の `if_version`）。日ごとの数字だけ（1 日 300 バイトほど・400 日で古いものを落とす）。成果は ASP ごとのクリックと発生の件数だけで、報酬額は積まない
 4. **コメントを読む**: `ArtifactData list collection=feedback`。`reply` が空のものが未対応
    - `scope`: `site`（全体）／`block`（記載ごと。`cid` と `quote` で場所が分かる）
    - **指摘どおりに直せるものは直し**、何をしたかを `reply` に書く（`update` ＋ `if_version`）
@@ -95,6 +99,7 @@
 | `feedback/<自動 id>` | `scope`(site/block)・`page`・`cid`・`quote`・`body`・`createdAt`・`reply` | 利用者（`reply` は Claude） |
 | `decisions/<id>` | `checked`・`title`・`updatedAt` | 利用者 |
 | `todos/<id>` | `title`・`owner`・`status`(you/claimed/claude/verified)・`why`・`how`・`verify`・`note` | 利用者がチェック、Claude が確かめて完了 |
+| `snapshot/hist` | 日ごとの小さな記録（X・ブログの数字、ASP のクリック・発生の件数）。全体像の前週・前月との差に使う（2026-11-19） | ルーティン |
 | `changelog/<id>` | `date`・`kind`・`summary`・`items[]` | Claude |
 
 ## データから取れない事実

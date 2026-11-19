@@ -1,5 +1,19 @@
 {
   "_note": "データから自動で取れない事実だけを置く（収益化作戦室が読む）。公開リポジトリなので、自分の報酬額・会社名・氏名・口座は書かない。週次ルーティンと blog セッションが更新する。",
+  "deadlines": [
+    {
+      "key": "adsense-identity",
+      "label": "Google AdSense の本人確認（承認の 2026-11-15 から 45 日以内・利用者が行う）",
+      "date": "2026-12-30",
+      "src": "docs/growth-strategy.md の決定ログ 2026-11-15"
+    },
+    {
+      "key": "amazon-review",
+      "label": "Amazon アソシエイトの本審査（申し込みの 2026-10-30 から 180 日以内に適格販売 3 件）",
+      "date": "2027-04-28",
+      "src": "この manual.json の Amazon アソシエイトの行"
+    }
+  ],
   "pending": [
     {
       "key": "amazon-review",
