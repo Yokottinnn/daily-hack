@@ -28,6 +28,9 @@ const ENTRY = [
   { id: 'vc', name: 'バリューコマース', top: 'https://aff.valuecommerce.ne.jp/', link: /^レポート$/ },
   // 2026-11-12: 利用者「Amazonも追加してよ」。ホームの「今月のレポート」（クリック・注文済み・発送済み・紹介料）と、ホームのリンクにある「売上レポート」（t612 で確かめた）
   { id: 'amazon', name: 'Amazon アソシエイト', urls: ['https://affiliate.amazon.co.jp/home', 'https://affiliate.amazon.co.jp/home/reports'] },
+  // 2026-11-19: 利用者「AdSense の数字も作戦室で見られるようにして」。ホーム（推定収益額・身元確認のお願い）とレポート（ページビュー・表示回数・クリック）。
+  // AdSense の画面は読み込みが遅いので 14 秒待つ（t695・t696 で確かめた）。会社のプロファイルの u/0 で読める（t694）
+  { id: 'adsense', name: 'Google AdSense', wait: 14000, urls: ['https://adsense.google.com/adsense/u/0/pub-3805028233672648/home', 'https://adsense.google.com/adsense/u/0/pub-3805028233672648/reporting'] },
   // もしもは 2026-11-02 にメディア登録が削除され、利用者の判断で放置（読まない）
 ];
 
@@ -58,6 +61,7 @@ try {
     for (let ui = 0; ui < urls.length; ui++) {
       const u = urls[ui];
       await go(u);
+      if (e.wait) await p.waitForTimeout(e.wait);
 
       const title = (await p.title()).slice(0, 60);
       const tables = await readTables();
@@ -67,11 +71,11 @@ try {
         if (!followed.has(u)) t.rows.slice(0, 8).forEach((r) => { if (!NG.test(r.join(' '))) lines.push(`    - ${r.map(hide).join(' | ').slice(0, 220)}`); });
       });
       if (!tables.length && !followed.has(u)) {
-        const txt = await p.evaluate(() => (document.body.innerText || '').split('\n').map((x) => x.trim()).filter(Boolean).slice(0, 60));
+        const txt = await p.evaluate((mainOnly) => (((mainOnly && document.querySelector('[role=main], main')) || document.body).innerText || '').split('\n').map((x) => x.trim()).filter(Boolean).slice(0, 60), e.id === 'adsense');   // AdSense は上のアカウント欄に氏名が出るので本文だけ
         lines.push('  - 表が無い。画面の文字（数字は伏せる）:', ...txt.filter((x) => !NG.test(x)).slice(0, 30).map((x) => `    - ${hide(x).slice(0, 120)}`));
       }
       // 楽天のレポートは表ではなく文字で並ぶ（t340）。collect のときは画面の文字も持つ（数字入り・非公開の置き場にだけ書く）
-      const text = MODE === 'collect' ? await p.evaluate(() => (document.body.innerText || '').split('\n').map((x) => x.trim()).filter(Boolean).slice(0, 400)) : undefined;
+      const text = MODE === 'collect' ? await p.evaluate((mainOnly) => (((mainOnly && document.querySelector('[role=main], main')) || document.body).innerText || '').split('\n').map((x) => x.trim()).filter(Boolean).slice(0, 400), e.id === 'adsense') : undefined;
       result.asps[e.id].push({ url: here(), title, tables, text });
     }
     // タブを文字で押して読む（楽天の「注文明細」などは普通のリンクではなかった・2026-11-06）。商品名が出るので公開の md には件数だけ
