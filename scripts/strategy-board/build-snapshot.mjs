@@ -3,7 +3,8 @@
 // LLM 不使用・$0。毎週のルーティン（docs/strategy-board-routine.md）がクラウドで走らせ、
 // 出力の JSON を ArtifactData でサイトの db（snapshot/latest と snapshots/<日付>）に書く。
 //
-//   node scripts/strategy-board/build-snapshot.mjs --out /tmp/snapshot.json
+//   node scripts/strategy-board/build-snapshot.mjs --out /tmp/snapshot.json [--hist <db の snapshot/hist の JSON>] [--results <db の results/latest の JSON>]
+//   --hist を付けると、その日の数字を 1 行足した <out>.hist.json も書く（作戦室の全体像の「前週・前月との差」・2026-11-19）
 //
 // 読むもの（すべて git の参照から。ネットワークに出ない）:
 //   origin/ops/heartbeat : reports/board/gsc-weekly.json（無ければ最新の gsc-monthly-*.json → t205-gsc-full.json）
@@ -15,6 +16,7 @@
 //
 // **数字に無いことは書かない。** 所見は下の RULES の条件に当たったものだけ。推測で埋めない（最上位ルール 11・20）。
 import { buildInventory } from './aff-inventory.mjs';
+import { entryOf, addDay, jstDate } from './home-hist.mjs';
 import { execFileSync } from 'node:child_process';
 import fs from 'node:fs';
 import path from 'node:path';
@@ -383,6 +385,55 @@ if (xNum?.fallbackFrom) push('warn', 'x-fallback', `今朝は X の数字を読�
 if (!a8) push('warn', 'a8-missing', 'A8 の提携一覧がまだ届いていない（Mac の週次ジョブの初回待ち）。');
 for (const p of manual.pending || []) if (p.since && daysAgo(p.since) > 21) push('info', 'pending-' + p.key, `${p.label} は申請から ${daysAgo(p.since)} 日。審査の状況を確かめる。`);
 
+// ---------- 全体像（トップ）のカレンダー・判断待ち・止まっているデータ（2026-11-19 利用者「作戦室のトップに X とブログとアフィリエイトのサマリや投稿予定カレンダー、その他サマリーで知るべき情報を」）----------
+// どれもリポジトリと ops/heartbeat から読むだけ（LLM 不使用・Mac のジョブも増やさない）。取れないものは null にして、作戦室は「データ待ち」と出す
+const jstToday = iso(new Date(today.getTime() + 9 * 3600e3));
+const homeEnd = iso(new Date(new Date(jstToday + 'T00:00:00Z').getTime() + 13 * 864e5));
+const blogPlan = [], events = [];
+for (const f of fs.readdirSync(POSTS_DIR).filter((x) => x.endsWith('.md'))) {
+  const src = fs.readFileSync(path.join(POSTS_DIR, f), 'utf8');
+  const fm = (src.match(/^---\n([\s\S]*?)\n---/) || [])[1] || '';
+  const get = (k) => ((fm.match(new RegExp(`^${k}:\\s*"?(.*?)"?\\s*$`, 'm')) || [])[1] || '').trim();
+  const slug = f.replace(/\.md$/, ''), title = get('title').split('｜')[0].slice(0, 60), pub = get('publishDate').slice(0, 10), draft = get('draft') === 'true';
+  if (draft) blogPlan.push({ slug, title, date: pub >= jstToday ? pub : null, state: 'draft' });
+  else if (pub > jstToday) blogPlan.push({ slug, title, date: pub, state: 'scheduled' });
+  const ev = (fm.match(/^event:\n((?:[ \t]+.*\n?)+)/m) || [])[1];
+  if (ev) {
+    const eg = (k) => ((ev.match(new RegExp(`^\\s+${k}:\\s*"?(.*?)"?\\s*$`, 'm')) || [])[1] || '').trim();
+    const s = eg('startDate').slice(0, 10), e = (eg('endDate') || eg('startDate')).slice(0, 10);
+    if (s && s <= homeEnd && e >= jstToday) events.push({ slug, name: eg('name').slice(0, 60), start: s, end: e, draft });
+  }
+}
+events.sort((a, b) => a.start.localeCompare(b.start));
+// X の予約・キュー（tweet2 が reports/board/x-schedule.json に書き出す。形は依頼表 2026-11-19 affiliate → tweet2 の案 { generated, posts: [{ id, scheduled_at, kind, slug, text, status }] }。まだ無ければ null）
+const xSchedRaw = json(show(HB, 'reports/board/x-schedule.json'));
+const xSchedule = xSchedRaw ? { generated: xSchedRaw.generated || xSchedRaw.generatedAt || null, items: (Array.isArray(xSchedRaw) ? xSchedRaw : (xSchedRaw.posts || xSchedRaw.items || xSchedRaw.schedule || [])).slice(0, 60) } : null;
+// 依頼表の「未対応」「対応中」を宛先ごとに数える（blog2 は blog3 に数える）
+const reqText = fs.existsSync(path.join(ROOT, 'docs/cross-session-requests.md')) ? fs.readFileSync(path.join(ROOT, 'docs/cross-session-requests.md'), 'utf8') : '';
+const reqOpen = { blog3: 0, tweet2: 0, affiliate: 0 }, reqNew = { blog3: 0, tweet2: 0, affiliate: 0 };
+for (const l of reqText.split('\n')) {
+  const c = l.split('|').map((x) => x.trim()); if (!/^20\d\d-\d\d-\d\d$/.test(c[1] || '')) continue;
+  if (!/^\**(未対応|対応中)/.test(c[4] || '')) continue;
+  const to = ((c[2] || '').split('→')[1] || '').replace(/blog2/g, 'blog3');
+  for (const k of Object.keys(reqOpen)) if (to.includes(k)) { reqOpen[k]++; if (daysAgo(c[1]) <= 7) reqNew[k]++; }
+}
+// マージ待ちの PR（gh が使えるときだけ。使えなければ null で、作戦室は「データ待ち」）
+let openPRs = null;
+try {
+  const out = execFileSync('gh', ['api', 'repos/Yokottinnn/daily-hack/pulls?state=open&per_page=100', '--jq', '[.[]|{n:.number,t:.title,at:.created_at,draft:.draft}]'], { encoding: 'utf8', timeout: 20000, stdio: ['ignore', 'pipe', 'ignore'] });
+  openPRs = JSON.parse(out).map((p) => ({ ...p, t: String(p.t).slice(0, 80), age: daysAgo(p.at) }));
+} catch { openPRs = null; }
+// 止まっているデータ（毎日届くはずのものの日付。lim 日以上前なら止まっている）
+const staleList = [
+  ['ASP の提携状況（asp-sync）', aspStatus?.generated, 2],
+  ['X の数字', xNum?.generated, 2],
+  ['検索データ（Search Console）', gsc?.generated, 2],
+  ['A8 の提携一覧', a8?.generated, 2],
+  ['読者データ（Cloudflare）', lastDay, 3],
+].map(([name, at, lim]) => ({ name, at: at || null, days: at ? daysAgo(at) : null, lim }));
+const macFail = macWeekly ? Object.entries(macWeekly).filter(([, v]) => v && typeof v === 'object' && v.ok === false).map(([k]) => k) : [];
+const home = { today: jstToday, end: homeEnd, blogPlan, events, xSchedule, requests: { open: reqOpen, new7: reqNew }, openPRs, stale: staleList, macFail, deadlines: manual.deadlines || [] };
+
 const snapshot = {
   generatedAt: new Date().toISOString(),
   sources: {
@@ -407,6 +458,7 @@ const snapshot = {
   affByItem: Object.values(affByItem).sort((x, y) => y.articles.length - x.articles.length || y.n - x.n),
   manual,
   findings,
+  home,
 };
 // 2026-11-03: A8 の提携中の一覧は別の文書（snapshot/a8）に分けて持つ。1 文書 256KB の上限を超えたため。
 // 作戦室（board.html）は snapshot/latest と snapshot/a8 の両方を読み、a8.rows を戻してから描く
@@ -427,6 +479,15 @@ fs.writeFileSync(OUT_A8, JSON.stringify(a8Doc, null, 1));
 fs.writeFileSync(OUT_ARTS, JSON.stringify(artsDoc, null, 1));
 fs.writeFileSync(OUT_AFF, JSON.stringify(affDoc, null, 1));
 fs.writeFileSync(OUT_AFFI, JSON.stringify(affiDoc, null, 1));
+// 2026-11-19: 全体像の「前週・前月との差」用の日ごとの記録（db の snapshot/hist）。前日までの記録を --hist で受け取り、今日の 1 行を足す
+const OUT_HIST = OUT.replace(/\.json$/, '') + '.hist.json';
+if (args.hist) {
+  const rd = (f) => { try { const j = JSON.parse(fs.readFileSync(f, 'utf8')); return j.data || j; } catch { return null; } };
+  const hist = addDay(rd(args.hist) || { days: {} }, jstDate(snapshot.generatedAt), entryOf(snapshot, args.results ? rd(args.results) : null));
+  fs.writeFileSync(OUT_HIST, JSON.stringify(hist, null, 1));
+  JSON.parse(fs.readFileSync(OUT_HIST, 'utf8'));
+  console.log(`hist: ${OUT_HIST} days=${Object.keys(hist.days).length}`);
+}
 for (const f of [OUT, OUT_A8, OUT_ARTS, OUT_AFF, OUT_AFFI]) JSON.parse(fs.readFileSync(f, 'utf8')); // 書いたものを読み直す（最上位ルール 13）
 for (const [f, lim] of [[OUT, 262144], [OUT_A8, 262144], [OUT_ARTS, 262144], [OUT_AFF, 262144], [OUT_AFFI, 262144]]) { const s = JSON.stringify(JSON.parse(fs.readFileSync(f, 'utf8'))); const b = Buffer.byteLength(s), e = s.replace(/[\u0080-\uffff]/g, '______').length; if (b > lim * 0.9 || e > lim * 0.9) console.error(`警告: ${f} が ${b} バイト（日本語を \\u で数えると ${e}・上限 ${lim} の 9 割を超えた）`); }
 console.log(`snapshot: ${OUT} + ${OUT_A8} + ${OUT_ARTS} + ${OUT_AFF} + ${OUT_AFFI}  gsc=${!!gsc}(${gscFile}) pv=${lastDay} a8=${a8 ? a8Rows.length : 0} findings=${findings.length}`);

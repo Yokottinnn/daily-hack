@@ -229,6 +229,42 @@ tr[data-ccount]::after{top:4px;right:4px}
   #panel{top:auto;height:78vh;width:100%;border-left:0;border-top:1px solid var(--rule);border-radius:16px 16px 0 0}
 }
 @media (prefers-reduced-motion:reduce){[data-cid].c-flash{animation:none}}
+/* ---- 全体像の先頭：3 本のサマリの帯・14 日の予定・知っておくこと（2026-11-19） ---- */
+.hm-band{display:grid;grid-template-columns:140px minmax(0,1fr);gap:12px;align-items:start;padding:14px 0;border-top:1px solid var(--rule)}
+.hm-band:first-of-type{border-top:0}
+.hm-lab{font-family:var(--f-display);font-weight:900;font-size:18px;line-height:1.3}
+.hm-lab small{display:block;font-family:var(--f-body);font-weight:400;font-size:11.5px;color:var(--muted);margin-top:2px}
+.hm-cards{display:grid;gap:10px;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));min-width:0}
+.hm-card{background:var(--sheet);border:1px solid var(--rule);border-radius:12px;padding:12px 14px;min-width:0;display:flex;flex-direction:column;gap:2px}
+.hm-card .k{font-size:12px;color:var(--muted);line-height:1.5}
+.hm-card .v{font-family:var(--f-data);font-size:24px;font-weight:500;font-variant-numeric:tabular-nums;line-height:1.25;overflow-wrap:anywhere}
+.hm-card .v small{font-size:13px;color:var(--muted);margin-left:4px}
+.hm-card .d{font-size:12px;line-height:1.6;font-variant-numeric:tabular-nums}
+.hm-card .d .up{color:var(--ok)} .hm-card .d .down{color:var(--bad)} .hm-card .d .flat{color:var(--muted)}
+.hm-card .g{font-size:12px;color:var(--muted);line-height:1.5;margin-top:4px}
+.hm-card .bar{height:6px;border-radius:99px;background:var(--hover);overflow:hidden;margin-top:6px}
+.hm-card .bar i{display:block;height:100%;background:var(--brand);border-radius:99px}
+.hm-card.wait .v{font-size:15px;color:var(--muted);font-family:var(--f-body)}
+.hm-card.ads{border-style:dashed}
+.hm-asp{grid-column:1/-1;font-size:13px}
+.hm-asp table{font-size:13px}
+.hm-cal{display:grid;gap:6px}
+.hm-day{display:grid;grid-template-columns:76px minmax(0,1fr);gap:10px;align-items:start;padding:6px 10px;border-radius:10px;background:var(--sheet);border:1px solid var(--rule)}
+.hm-day.today{border-color:var(--brand);box-shadow:inset 0 0 0 1px var(--brand)}
+.hm-day.empty-day{background:transparent;border-style:dashed;padding:2px 10px}
+.hm-day .dt{font-family:var(--f-data);font-size:13px;font-variant-numeric:tabular-nums;line-height:1.9}
+.hm-day .dt.sat{color:var(--teal)} .hm-day .dt.sun{color:var(--bad)}
+.hm-evs{display:flex;flex-wrap:wrap;gap:4px 6px;min-width:0}
+.hm-ev{display:inline-flex;gap:6px;align-items:baseline;font-size:13px;line-height:1.5;padding:2px 8px;border-radius:8px;background:var(--hover);color:var(--ink);text-decoration:none;max-width:100%;min-width:0}
+.hm-ev b{font-size:11px;font-weight:700;white-space:nowrap}
+.hm-ev span{overflow-wrap:anywhere;min-width:0}
+.hm-ev.blog b{color:var(--brand)} .hm-ev.x b{color:var(--teal)} .hm-ev.ev b{color:var(--warn)}
+.hm-legend{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:12px;color:var(--muted);margin:0 0 8px}
+.hm-know{display:grid;gap:10px;grid-template-columns:repeat(auto-fill,minmax(min(100%,340px),1fr))}
+.hm-know .c ul{margin:4px 0 0;padding-left:1.1em;font-size:13px}
+.hm-know .c li{margin:2px 0}
+.hm-know .c .h{font-weight:700;font-size:14px;display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+@media (max-width:820px){.hm-band{grid-template-columns:1fr;gap:8px}.hm-cards{grid-template-columns:repeat(2,minmax(0,1fr))}.hm-card .v{font-size:20px}.hm-day{grid-template-columns:1fr;gap:2px}.hm-day .dt{line-height:1.5}.hm-day.empty-day{grid-template-columns:auto 1fr;gap:10px}}
 </style>
 
 <div class="shell">
@@ -247,6 +283,18 @@ tr[data-ccount]::after{top:4px;right:4px}
   <div class="eyebrow">全体像</div>
   <h1>「そんな視点あったんだ」のお得比較で X から人を集め、ブログの成果報酬で稼ぐ</h1>
   <div class="stamp" id="stamp-home"><i></i><span>データを読み込み中</span></div>
+  <h2 data-cid="home.sum.head">いまの数字</h2>
+  <p class="src" id="hm-src">毎朝のスナップショットと、affiliate が毎朝書く ASP の成果から。前週・前月との差は日ごとの記録（snapshot/hist）と比べる。</p>
+  <div class="hm-band" data-cid="home.sum.x"><div class="hm-lab">X<small id="hm-x-at">データ待ち</small></div><div class="hm-cards" id="hm-x"><p class="empty">データ待ち</p></div></div>
+  <div class="hm-band" data-cid="home.sum.blog"><div class="hm-lab">ブログ<small id="hm-blog-at">データ待ち</small></div><div class="hm-cards" id="hm-blog"><p class="empty">データ待ち</p></div></div>
+  <div class="hm-band" data-cid="home.sum.aff"><div class="hm-lab">アフィリエイト<small id="hm-aff-at">データ待ち</small></div><div class="hm-cards" id="hm-aff"><p class="empty">データ待ち</p></div></div>
+  <h2 data-cid="home.cal.head">これからの 14 日</h2>
+  <div class="hm-legend"><span><b style="color:var(--brand)">ブログ</b> 公開予定の記事</span><span><b style="color:var(--teal)">X</b> 予約・予定の投稿</span><span><b style="color:var(--warn)">イベント</b> 記事にしたイベント・セールが始まる日</span></div>
+  <p class="src" id="hm-cal-src">データ待ち</p>
+  <div class="hm-cal" id="hm-cal"><p class="empty">データ待ち</p></div>
+  <h2 data-cid="home.know.head">知っておくこと</h2>
+  <div class="hm-know" id="hm-know"><p class="empty">データ待ち</p></div>
+  <h2 data-cid="home.policy.head">方針</h2>
   <p class="lead">daily-hack の強みは、<strong>ちょっとしたお得情報を、誰もやっていない切り口で、ハッカー子の個性で面白く比べること</strong>です。湾岸の一次データはその長所の 1 つで、主戦場ではありません。いま人を連れてこられるのは X（7 日で 26.7K 表示）で、Google 検索は 28 日で 33 クリックです。<strong>X で集め、記事の成果報酬で稼ぎ、X の収益化は認証済みフォロワー 500 を先に取る</strong>——この順で「これからの動き」を進めます。数字と所見は<strong>毎日自動で入れ替わり</strong>、その結果で戦略と予定を直します。</p>
   <h2>ブログの数字（直近 28 日）</h2>
   <div class="grid" id="kpi-tiles"></div>
@@ -1175,7 +1223,7 @@ tr[data-ccount]::after{top:4px;right:4px}
       sendBtn.disabled=false;
     });
     DECISIONS.forEach(d=>{ const box=$('#d-'+d.id), ref=db.doc('decisions/'+d.id);
-      ref.onSnapshot(s=>{const v=s.exists?s.data():null; box.checked=!!(v&&v.checked);},()=>{});
+      ref.onSnapshot(s=>{const v=s.exists?s.data():null; box.checked=!!(v&&v.checked); renderHome();},()=>{});
       box.addEventListener('change',()=>{ ref.set({checked:box.checked,title:d.t,updatedAt:new Date().toISOString()}).catch(()=>{box.checked=!box.checked;}); }); });
     db.collection('feedback').orderBy('createdAt','desc').onSnapshot(snap=>{
       ALL=snap.docs.map(d=>{const v=d.data(); return Object.assign({id:d.id,scope:v.scope||(v.cid?'block':'page'),cid:v.cid||v.anchor||'',quote:v.quote||'',reply:v.reply||''},v);});
@@ -1188,11 +1236,13 @@ tr[data-ccount]::after{top:4px;right:4px}
     function renderList(){ const list=ALL.filter(c=>fbF==='all'||(fbF==='open'&&!c.reply)||(fbF==='site'&&c.scope==='site')||(fbF==='block'&&c.scope!=='site')); const box=$('#all-comments'); if(!list.length){box.innerHTML='<p class="empty">該当するコメントはありません。</p>';return;} box.replaceChildren(...list.map(c=>renderComment(c,true))); }
     $$('#fb-filters button').forEach(b=>b.addEventListener('click',()=>{ fbF=b.dataset.f; $$('#fb-filters button').forEach(x=>x.setAttribute('aria-pressed',x===b?'true':'false')); renderList(); }));
     // スナップショット・更新履歴
-    db.collection('ideas').onSnapshot(snap=>{ IDEAS=snap.docs.map(d=>Object.assign({id:d.id},d.data())); ideaFilters(); renderIdeas(); const n=IDEAS.filter(t=>t.status==='idea').length, b=$('a[data-page="ideas"] .badge',toc); if(b){ b.hidden=!n; b.textContent=n; } },()=>{ $('#ideas').innerHTML='<p class="empty">読み込めませんでした。</p>'; });
-    db.doc('xdrafts/current').onSnapshot(s=>{ const d=s.exists?s.data():null; renderXDrafts(d); XCAL=(d&&d.calendar)||[]; renderXCal(); },()=>{ $('#xdrafts-meta').textContent='読み込めませんでした。'; });
+    db.collection('ideas').onSnapshot(snap=>{ IDEAS=snap.docs.map(d=>Object.assign({id:d.id},d.data())); ideaFilters(); renderIdeas(); renderHome(); const n=IDEAS.filter(t=>t.status==='idea').length, b=$('a[data-page="ideas"] .badge',toc); if(b){ b.hidden=!n; b.textContent=n; } },()=>{ $('#ideas').innerHTML='<p class="empty">読み込めませんでした。</p>'; });
+    db.doc('xdrafts/current').onSnapshot(s=>{ const d=s.exists?s.data():null; renderXDrafts(d); XCAL=(d&&d.calendar)||[]; renderXCal(); renderHome(); },()=>{ $('#xdrafts-meta').textContent='読み込めませんでした。'; });
     db.collection('linkplan').onSnapshot(snap=>{ LINKS=snap.docs.map(d=>Object.assign({id:d.id},d.data())); renderLinkplan(); },()=>{});
-    db.collection('todos').onSnapshot(snap=>{ TODOS=snap.docs.map(d=>Object.assign({id:d.id},d.data())); renderTodos(); const n=TODOS.filter(t=>t.status==='you').length, b=$('a[data-page="tasks"] .badge',toc); if(b){ b.hidden=!n; b.textContent=n; } },()=>{ $('#todos').innerHTML='<p class="empty">読み込めませんでした。</p>'; });
-    db.doc('results/latest').onSnapshot(s=>{ RESULTS=s.exists?s.data():null; renderResults(); if(SNAP) renderCalc(); },()=>{});
+    db.collection('todos').onSnapshot(snap=>{ TODOS=snap.docs.map(d=>Object.assign({id:d.id},d.data())); renderTodos(); renderHome(); const n=TODOS.filter(t=>t.status==='you').length, b=$('a[data-page="tasks"] .badge',toc); if(b){ b.hidden=!n; b.textContent=n; } },()=>{ $('#todos').innerHTML='<p class="empty">読み込めませんでした。</p>'; });
+    db.doc('results/latest').onSnapshot(s=>{ RESULTS=s.exists?s.data():null; renderResults(); if(SNAP) renderCalc(); renderHome(); },()=>{});
+    // 全体像の「前週・前月との差」用の日ごとの記録（毎朝のルーティンが build-snapshot.mjs --hist で 1 行足す・2026-11-19）
+    db.doc('snapshot/hist').onSnapshot(s=>{ HIST=s.exists?s.data():null; renderHome(); },()=>{});
     // 2026-11-03: A8 の提携中の一覧は snapshot/a8 に分けた（1 文書 256KB の上限）。両方そろえてから描く。古い snapshot（rows を含む）もそのまま描ける
     // 2026-11-07: 本物の作戦室では db から届く文書が凍結されていて（書き換え不可）、ここで a8.rows などを足そうとして
     // 「Attempted to assign to readonly property」で落ち、数字が一切描かれていなかった（利用者の画面の赤い帯で判明）。
@@ -1288,7 +1338,7 @@ tr[data-ccount]::after{top:4px;right:4px}
   // 部分ごとに分けて描き、落ちた部分は名前と理由を左の「データ：」の行に出す（ほかの部分は描き続ける）
   function renderSnapshot(S){
     const errs=[]; const safe=(name,fn)=>{ try{ fn(); }catch(e){ console.error(name,e); errs.push(name+'（'+String(e&&e.message||e).slice(0,80)+'）'); } };
-    safe('全体像',()=>renderSnapshotTop(S)); safe('ASP と案件',renderA8); safe('成果リンクの一覧',renderAff); safe('現状の数字',()=>renderNowHub(S)); safe('付箋',applyCounts);
+    safe('全体像',()=>renderSnapshotTop(S)); safe('全体像の先頭',renderHome); safe('ASP と案件',renderA8); safe('成果リンクの一覧',renderAff); safe('現状の数字',()=>renderNowHub(S)); safe('付箋',applyCounts);
     if(errs.length){ const m=$('#meta-data'); if(m) m.textContent=(jst(S.generatedAt)||'—')+' 更新・表示に失敗した部分: '+errs.join('、'); }
   }
 
@@ -1471,6 +1521,128 @@ tr[data-ccount]::after{top:4px;right:4px}
         +((d.parts||[]).length?'<details><summary>全文（'+d.parts.length+' 投稿）</summary>'+d.parts.map((t,i)=>'<div class="b" style="margin-top:6px"><b>['+(i+1)+'/'+d.parts.length+']</b>\n'+esc(t)+'</div>').join('')+'</details>':'')
         +'<div class="row"><a href="https://claude.ai/artifact/1o7gjZZghit8kn3W4AXUdH" target="_blank" rel="noopener">レビューページで直す</a></div>'; return el; }));
     applyCounts(); }
+
+  // ---- 全体像の先頭：3 本のサマリの帯・これからの 14 日・知っておくこと（2026-11-19 利用者「作戦室のトップページに、X とブログとアフィリエイトのサマリや投稿予定カレンダー、その他サマリーで知るべき情報をまとめて」）----
+  // 数字はすべて既にある文書から（snapshot/latest の xShared・kpi・home、snapshot/hist、results/latest、ideas、xdrafts/current、todos、decisions）。取れないカードは「データ待ち」
+  let HIST=null;
+  const hmJst=()=>new Date(Date.now()+9*36e5).toISOString().slice(0,10);
+  const addD=(d,n)=>new Date(Date.parse(d+'T00:00:00Z')+n*864e5).toISOString().slice(0,10);
+  // 記録から「n 日前（その日以前でいちばん近い日）」の値を引く。7 日前なら 4 日以上ずれたものは使わない
+  function histAt(key,n){ const D=(HIST&&HIST.days)||{}; const t=addD(hmJst(),-n); const ks=Object.keys(D).filter(d=>d<=t&&D[d][key]!=null).sort(); const k=ks[ks.length-1]; if(!k) return null; if((Date.parse(t)-Date.parse(k))/864e5>Math.max(3,n/4)) return null; return {d:k,v:D[k][key]}; }
+  const sgn=(n)=>(n>0?'+':n<0?'−':'±')+fmtN(Math.abs(n));
+  const dl=(cur,prev,label)=>{ if(cur==null||!prev||prev.v==null) return '<span class="flat">'+esc(label)+'：記録なし</span>'; const d=cur-prev.v; return '<span class="'+(d>0?'up':d<0?'down':'flat')+'">'+esc(label)+' '+sgn(d)+'</span>'; };
+  const hmCard=(o)=>'<div class="hm-card'+(o.cls?' '+o.cls:'')+'" data-cid="'+esc(o.cid)+'"><div class="k">'+esc(o.k)+'</div><div class="v">'+o.v+'</div>'+(o.d?'<div class="d">'+o.d+'</div>':'')+(o.goal?'<div class="bar" role="img" aria-label="'+esc(o.goal.label)+'"><i style="width:'+Math.max(0,Math.min(100,o.goal.pct)).toFixed(1)+'%"></i></div><div class="g">'+esc(o.goal.label)+'</div>':o.g?'<div class="g">'+esc(o.g)+'</div>':'')+'</div>';
+  const waitCard=(k,cid,why)=>hmCard({k,cid,cls:'wait',v:'データ待ち',g:why});
+  const pnum=(v)=>{ if(v==null) return null; const m=String(v).replace(/,/g,'').match(/(\d+(?:\.\d+)?)\s*(K|万)?/); return m?Math.round(Number(m[1])*(m[2]==='K'?1000:m[2]==='万'?10000:1)):null; };
+
+  function renderHomeX(S){ const box=$('#hm-x'); if(!box) return;
+    if(!S){ box.innerHTML=waitCard('X の数字','home.x.wait','毎朝のスナップショットが届いていない'); return; }
+    const X=(S.xShared||[]).filter(r=>!/手書き/.test(r.src||'')), xr=(k)=>X.find(r=>r.k===k)||{};
+    const at=xr('フォロワー').at; $('#hm-x-at').textContent=at?at+' に読んだ数':'データ待ち';
+    const F=((S.xData||{}).followers||[]).filter(f=>typeof f.count==='number'), last=F[F.length-1];
+    const ago=(n)=>{ if(!last) return null; const t=Date.parse(last.date)-n*864e5; let b=null; for(const f of F){ if(Date.parse(f.date)<=t) b=f; } return b?{d:b.date,v:b.count}:null; };
+    const fol=pnum(xr('フォロワー').v), vf=pnum(xr('認証済みフォロワー').v), imp=pnum(xr('インプレッション（7 日）').v), vi=pnum(xr('認証済みインプレッション（90 日・ホーム・返信除く）').v);
+    const ratio=(String(xr('フォロー中').v||'').match(/比率 ([\d.]+)/)||[])[1];
+    box.innerHTML=[
+      fol!=null?hmCard({k:'フォロワー',cid:'home.x.fol',v:fmtN(fol),d:dl(fol,histAt('fol',7)||ago(7),'前週')+'・'+dl(fol,histAt('fol',28)||ago(28),'4 週前'),g:ratio?'フォロー÷フォロワー '+ratio:''}):waitCard('フォロワー','home.x.fol','X の数字が読めていない'),
+      vf!=null?hmCard({k:'認証済みフォロワー',cid:'home.x.vfol',v:fmtN(vf)+'<small>/ 500</small>',d:dl(vf,histAt('vfol',7),'前週')+'・'+dl(vf,histAt('vfol',28),'4 週前'),goal:{pct:vf/5,label:vf>=500?'収益化の条件 500 に届いた':'収益化の条件 500 まで あと '+fmtN(500-vf)}}):waitCard('認証済みフォロワー','home.x.vfol','収益化の条件の画面が読めていない'),
+      imp!=null?hmCard({k:'表示（7 日・返信を含む）',cid:'home.x.imp7',v:fmtN(imp),d:dl(imp,histAt('imp7',7),'前週'),g:'X の画面の表示（丸めた数）'}):waitCard('表示（7 日）','home.x.imp7','アナリティクスが読めていない'),
+      vi!=null?hmCard({k:'認証済みの表示（90 日）',cid:'home.x.vimp',v:fmtN(vi)+'<small>/ 50 万</small>',d:dl(vi,histAt('vimp90',7),'前週')+'・'+dl(vi,histAt('vimp90',28),'4 週前'),goal:{pct:vi/5000,label:'収益化の条件 50 万まで あと '+fmtN(Math.max(0,500000-vi))+'（ホーム・返信を除く）'}}):waitCard('認証済みの表示（90 日）','home.x.vimp','収益化の条件の画面が読めていない'),
+    ].join(''); }
+
+  function renderHomeBlog(S){ const box=$('#hm-blog'); if(!box) return;
+    if(!S){ box.innerHTML=waitCard('ブログの数字','home.blog.wait','毎朝のスナップショットが届いていない'); return; }
+    const K=S.kpi||{}, g=K.gsc28||{}, gp=K.gscPrev28||{}, pv=K.pv28||{}, pvp=K.pvPrev28||{}, po=K.posts||{};
+    $('#hm-blog-at').textContent=(g.from&&g.to)?'検索 '+g.from.slice(5).replace('-','/')+'〜'+g.to.slice(5).replace('-','/'):'データ待ち';
+    const p28=(cur,prev)=>prev==null||!prev?'<span class="flat">前の 28 日：記録なし</span>':'<span class="'+(cur>=prev?'up':'down')+'">前の 28 日 '+fmtN(prev)+'（'+(cur>=prev?'+':'')+Math.round((cur-prev)/prev*100)+'%）</span>';
+    box.innerHTML=[
+      pv.human!=null?hmCard({k:'読者（28 日・ボット除外）',cid:'home.blog.readers',v:fmtN(pv.human),d:p28(pv.human,pvp.human)+'<br>'+dl(pv.human,histAt('readers28',7),'1 週前の集計から'),g:'Cloudflare の訪問・〜'+((S.pvMeta||{}).last||'—')}):waitCard('読者（28 日）','home.blog.readers','読者データが届いていない'),
+      g.clicks!=null?hmCard({k:'検索クリック（28 日）',cid:'home.blog.clicks',v:fmtN(g.clicks),d:p28(g.clicks,gp.clicks)+'<br>'+dl(g.clicks,histAt('clicks28',7),'1 週前の集計から'),g:'平均 '+(g.position??'—')+' 位・CTR '+(g.ctr??'—')+'%'}):waitCard('検索クリック（28 日）','home.blog.clicks','Search Console が届いていない'),
+      g.impressions!=null?hmCard({k:'検索表示（28 日）',cid:'home.blog.imp',v:fmtN(g.impressions),d:p28(g.impressions,gp.impressions)}):'',
+      po.total!=null?hmCard({k:'成果リンクのある記事',cid:'home.blog.aff',v:fmtN(po.withAff)+'<small>/ '+fmtN(po.total)+' 本</small>',d:dl(po.withAff,histAt('withAff',7),'前週')+'・'+dl(po.total,histAt('posts',7),'記事数 前週'),goal:{pct:po.total?po.withAff/po.total*100:0,label:'成果リンクが 0 本の記事 あと '+fmtN((po.total||0)-(po.withAff||0))+' 本'}}):waitCard('成果リンクのある記事','home.blog.aff','記事の一覧が届いていない'),
+    ].join(''); }
+
+  function renderHomeAff(){ const box=$('#hm-aff'); if(!box) return; const R=RESULTS;
+    if(!R||!(R.rows||[]).length){ box.innerHTML=waitCard('ASP の成果','home.aff.wait','affiliate が毎朝書く results/latest が届いていない'); $('#hm-aff-at').textContent='データ待ち'; return; }
+    $('#hm-aff-at').textContent=jst(R.generatedAt,16)+' 取得';
+    const isAds=(r)=>/AdSense/i.test(r.asp||''), rows=R.rows.filter(r=>!isAds(r)), ads=R.rows.find(isAds);
+    const sum=(k)=>{ const v=rows.map(r=>r[k]).filter(x=>typeof x==='number'); return v.length?v.reduce((a,b)=>a+b,0):null; };
+    const yen=(n)=>n==null?'—':'¥'+fmtN(n);
+    const clicks=sum('clicks'), occ=sum('occurred'), occA=sum('occurredAmount'), conA=sum('confirmedAmount');
+    // 前月との差：記録（snapshot/hist の aff）に前月の最後の日があれば、その日の「今月」のクリックと比べる
+    const D=(HIST&&HIST.days)||{}, ym=hmJst().slice(0,7), pk=Object.keys(D).filter(d=>d.slice(0,7)<ym&&D[d].aff).sort().pop();
+    const prevClicks=pk?D[pk].aff.rows.filter(r=>!/AdSense/i.test(r.asp)&&/今月/.test(r.period)&&typeof r.clicks==='number').reduce((a,r)=>a+r.clicks,0):null;
+    const amz=rows.find(r=>/Amazon/.test(r.asp));
+    const cards=[
+      hmCard({k:'クリック（成果報酬の合計）',cid:'home.aff.clicks',v:fmtN(clicks),d:prevClicks!=null?dl(clicks,{v:prevClicks},'前月'):'<span class="flat">前月：記録なし（12 月から比べられる）</span>',g:'クリック数が出ない ASP（バリューコマースなど）は含まない'}),
+      hmCard({k:'発生（件）',cid:'home.aff.occ',v:fmtN(occ)+'<small>件</small>',d:'<span class="flat">確定 '+fmtN(sum('confirmed'))+' 件</span>',g:'期間は各社の画面の既定のまま'}),
+      hmCard({k:'報酬（発生・確定前）',cid:'home.aff.amount',v:yen(occA),d:'<span class="flat">確定 '+yen(conA)+'</span>',g:'楽天は個人 ID（会社の売上には数えない）'}),
+      amz?hmCard({k:'Amazon 本審査（適格販売 3 件）',cid:'home.aff.amazon',v:fmtN(amz.confirmed||0)+'<small>/ 3 件</small>',goal:{pct:(amz.confirmed||0)/3*100,label:'発送済み '+fmtN(amz.confirmed||0)+' 件・注文 '+fmtN(amz.occurred||0)+' 件。期限 2027-04-28 ごろ'}}):'',
+      ads?hmCard({k:'Google AdSense（成果報酬とは別）',cid:'home.aff.adsense',cls:'ads',v:yen(ads.occurredAmount)+'<small>今月の見込み</small>',d:'<span class="flat">クリック '+fmtN(ads.clicks)+'・表示 '+fmtN(ads.occurred)+'</span>',g:ads.note||''}):hmCard({k:'Google AdSense（成果報酬とは別）',cid:'home.aff.adsense',cls:'wait ads',v:'データ待ち',g:'affiliate が results/latest に AdSense の行を足すと出る'}),
+    ];
+    const tbl='<details class="hm-asp" data-cid="home.aff.asp"><summary>ASP ごとの内訳（'+R.rows.length+' 行）</summary><div class="tbl"><table><thead><tr><th>ASP</th><th>期間</th><th>クリック</th><th>発生</th><th>報酬（発生）</th><th>確定</th></tr></thead><tbody>'
+      +R.rows.map(r=>'<tr data-cid="home.aff.asp.'+hash(r.asp+(r.period||''))+'"><td><b>'+esc(r.asp)+'</b>'+(isAds(r)?'<br><span class="status">表示回数を「発生」に入れている</span>':'')+'</td><td>'+esc(r.period||'')+'</td><td class="num">'+fmtN(r.clicks)+'</td><td class="num">'+fmtN(r.occurred)+'</td><td class="num">'+yen(r.occurredAmount)+'</td><td class="num">'+fmtN(r.confirmed)+'</td></tr>').join('')+'</tbody></table></div><p class="src" style="margin-top:4px">詳しくは「現状の数字」のアフィリエイトの節。報酬額は公開リポジトリを通さず、この作戦室の中だけに置く。</p></details>';
+    box.innerHTML=cards.join('')+tbl; }
+
+  function renderHomeCal(S){ const box=$('#hm-cal'), src=$('#hm-cal-src'); if(!box) return;
+    const H=(S&&S.home)||null, today=hmJst(), end=addD(today,13), by={};
+    const put=(d,html)=>{ if(d>=today&&d<=end) (by[d]=by[d]||[]).push(html); };
+    const ev=(cls,lab,txt,url,title)=>(url?'<a class="hm-ev '+cls+'" href="'+esc(url)+'" target="_blank" rel="noopener" title="'+esc(title||txt)+'">':'<span class="hm-ev '+cls+'" title="'+esc(title||txt)+'">')+'<b>'+esc(lab)+'</b><span>'+esc(txt)+'</span>'+(url?'</a>':'</span>');
+    const notes=[];
+    if(H){ (H.blogPlan||[]).filter(b=>b.date).forEach(b=>put(b.date,ev('blog',b.state==='draft'?'ブログ 下書き':'ブログ 公開',b.title)));
+      (H.events||[]).forEach(e=>{ if(e.start>=today) put(e.start,ev('ev','イベント'+(e.end&&e.end!==e.start?' 〜'+e.end.slice(5).replace('-','/'):''),e.name,'https://daily-hack.fieldbeside.com/posts/'+e.slug+'/')); });
+      const ongoing=(H.events||[]).filter(e=>e.start<today);
+      if(ongoing.length) notes.push('開催中のイベント '+ongoing.length+' 件（下の「開催中」）');
+      const drafts=(H.blogPlan||[]).filter(b=>b.state==='draft'&&!b.date); if(drafts.length) notes.push('日付の無い下書き '+drafts.length+' 本');
+    }
+    // X：xdrafts/current の calendar（tweet2 が予約・予定を書く）と、tweet2 が書き出す x-schedule（あれば）
+    const XN={posted:'X 投稿済み',scheduled:'X 予約',planned:'X 予定'};
+    (XCAL||[]).forEach(e=>put(e.date,ev('x',(XN[e.state]||'X')+(e.time?' '+e.time:''),String(e.title||e.key||'').split('｜')[0],e.url)));
+    const XS=H&&H.xSchedule; let xNoDate=0;
+    // x-schedule の形（依頼表 2026-11-19 affiliate → tweet2 の案）: { posts: [{ id, scheduled_at（JST・未定は null）, kind, slug, text, status }] }
+    if(XS) (XS.items||[]).forEach(e=>{ const at=String(e.scheduled_at||e.scheduledAt||e.date||e.at||''), d=at.slice(0,10), tm=e.time||(at.match(/T(\d\d:\d\d)/)||[])[1]||''; if(!d){ xNoDate++; return; } put(d,ev('x','X '+(/queue/.test(e.status||e.state||'')?'キュー':'予約')+(tm?' '+tm:''),String(e.title||e.text||e.key||e.slug||e.id||'').split('｜')[0].slice(0,40),e.url)); });
+    if(xNoDate) notes.push('X のキューで日時が決まっていないもの '+xNoDate+' 件');
+    if(!XS) notes.push('X の予約一覧（x-schedule）は準備中。いまは X の投稿カレンダーの予約・予定だけを出す');
+    // 記事の構想の書き上げ期限（書くと決めた〜公開前の確認）
+    const act=(IDEAS||[]).filter(t=>['picked','requested','prep','writing','review'].includes(t.status));
+    act.filter(t=>t.deadline).forEach(t=>put(t.deadline,ev('blog','構想の期限・'+(IST[normSt(t.status)]||['',''])[1],String(t.title||'').split('｜')[0])));
+    const over=act.filter(t=>t.deadline&&t.deadline<today);
+    if(IDEAS&&IDEAS.length){ const c={}; IDEAS.forEach(t=>{ const s=normSt(t.status); c[s]=(c[s]||0)+1; }); notes.push('記事の構想：'+['picked','prep','writing','review'].filter(s=>c[s]).map(s=>IST[s][1]+' '+c[s]).join('・')+(over.length?'・期限を過ぎたもの '+over.length+' 本':'')); }
+    if(!H&&!(XCAL||[]).length){ box.innerHTML='<p class="empty">データ待ち</p>'; src.textContent='毎朝のスナップショットが届いていない'; return; }
+    src.textContent=today.slice(5).replace('-','/')+'〜'+end.slice(5).replace('-','/')+'。'+notes.join('。')+'。';
+    const rows=[]; for(let i=0;i<14;i++){ const d=addD(today,i), wd=new Date(d+'T00:00:00Z').getUTCDay(), L=by[d]||[];
+      rows.push('<div class="hm-day'+(i===0?' today':'')+(L.length?'':' empty-day')+'" data-cid="home.cal.'+d+'"><div class="dt'+(wd===6?' sat':wd===0?' sun':'')+'">'+d.slice(5).replace('-','/')+'（'+WD[wd]+'）</div><div class="hm-evs">'+(L.length?L.join(''):'<span class="status">予定なし</span>')+'</div></div>'); }
+    const ong=(H&&H.events||[]).filter(e=>e.start<today);
+    box.innerHTML=rows.join('')+(ong.length?'<details data-cid="home.cal.ongoing"><summary>開催中のイベント（'+ong.length+' 件・今日より前に始まったもの）</summary><ul class="plain">'+ong.map(e=>'<li><a href="https://daily-hack.fieldbeside.com/posts/'+esc(e.slug)+'/" target="_blank" rel="noopener">'+esc(e.name)+'</a> <span class="status">'+esc(e.start.slice(5).replace('-','/'))+'〜'+esc(e.end.slice(5).replace('-','/'))+'</span></li>').join('')+'</ul></details>':''); }
+
+  function renderHomeKnow(S){ const box=$('#hm-know'); if(!box) return; const H=(S&&S.home)||null, cards=[];
+    const card=(cid,head,pill,body)=>'<div class="c" data-cid="'+cid+'"><div class="h">'+head+(pill||'')+'</div>'+body+'</div>';
+    // 判断待ち
+    const undec=DECISIONS.filter(d=>{ const b=$('#d-'+d.id); return b&&!b.checked; });
+    const you=(TODOS||[]).filter(t=>t.status==='you');
+    const prs=H&&H.openPRs, recent=prs?prs.filter(p=>p.age!=null&&p.age<=14):[];
+    cards.push(card('home.know.decide','あなたの判断待ち','',
+      '<ul>'+(db?'<li><a href="#home" data-hm-jump="decide">決めてほしいこと</a>：チェックの付いていないもの '+undec.length+' 件</li>'
+      +'<li><a href="#tasks">タスク</a>：あなたの番 '+you.length+' 件'+(you.length?'（'+you.slice(0,3).map(t=>esc(String(t.title||'').slice(0,24))).join('、')+(you.length>3?' ほか':'')+'）':'')+'</li>':'<li>決めてほしいこと・タスク：データ待ち（保存先につながっていない）</li>')
+      +(prs?'<li>マージ待ちの PR '+prs.length+' 本（うち 14 日以内 '+recent.length+' 本）'+(recent.length?'<ul>'+recent.slice(0,5).map(p=>'<li><a href="https://github.com/Yokottinnn/daily-hack/pull/'+p.n+'" target="_blank" rel="noopener">#'+p.n+'</a> '+esc(p.t)+'</li>').join('')+'</ul>':'')+'</li>':'<li>マージ待ちの PR：データ待ち（毎朝のスナップショットで読む）</li>')+'</ul>'));
+    // 止まっているデータ
+    if(H){ const st=(H.stale||[]).filter(x=>x.days==null||x.days>=x.lim);
+      const fix=(name)=>{ const kw=(name.match(/（([^）]+)）/)||[])[1]; const p=kw&&prs?prs.find(p=>p.t.toLowerCase().includes(kw.toLowerCase().split(' ')[0])):null; return p?' <a href="https://github.com/Yokottinnn/daily-hack/pull/'+p.n+'" target="_blank" rel="noopener">#'+p.n+'</a> で直す（マージ待ち）':''; };
+      const MF={x_numbers:'X の数字（今朝の読み取り）',gsc:'Search Console',a8_partnered:'A8 の提携一覧',others:'ほかの ASP',shop:'3 店ボタンの価格',x:'X の投稿の記録',asp_results:'ASP の成果'};
+      cards.push(card('home.know.stale','止まっているデータ',st.length||(H.macFail||[]).length?' <span class="pill warn">'+(st.length+(H.macFail||[]).length)+'</span>':' <span class="pill ok">なし</span>',
+        (st.length||(H.macFail||[]).length?'<ul>'+st.map(x=>'<li>'+esc(x.name)+'：'+(x.days==null?'届いていない':x.at.slice(0,10)+' のまま（'+x.days+' 日前）')+fix(x.name)+'</li>').join('')+(H.macFail||[]).map(k=>'<li>今朝の Mac のジョブで失敗：'+esc(MF[k]||k)+'</li>').join('')+'</ul>':'<p class="status" style="margin:4px 0 0">毎日届くデータはすべて 2 日以内。</p>')));
+      // 期限
+      const dl2=(H.deadlines||[]).map(d=>({...d,left:daysTo(d.date)})).sort((a,b)=>a.date.localeCompare(b.date));
+      cards.push(card('home.know.deadline','期限','',dl2.length?'<ul>'+dl2.map(d=>'<li><b>'+esc(d.date)+'</b>（'+(d.left<0?'過ぎた':'あと '+d.left+' 日')+'）'+esc(d.label)+'</li>').join('')+'</ul>':'<p class="status">データ待ち</p>'));
+      // 依頼
+      const R=H.requests||{}, o=R.open||{}, n7=R.new7||{};
+      cards.push(card('home.know.requests','セッションどうしの未対応の依頼','','<ul>'+[['blog3','ブログ（blog3）'],['tweet2','X（tweet2）'],['affiliate','アフィリエイト（affiliate）']].map(([k,l])=>'<li>'+l+'：'+fmtN(o[k])+' 件'+(n7[k]?'（うち直近 7 日 '+n7[k]+' 件）':'')+'</li>').join('')+'</ul><p class="src" style="margin:4px 0 0">docs/cross-session-requests.md の「未対応」「対応中」を宛先ごとに数えた（1 行に宛先が 2 つあれば両方に数える）。</p>'));
+    } else cards.push(card('home.know.wait','止まっているデータ・期限・依頼','','<p class="status">データ待ち（毎朝のスナップショットが届いていない）</p>'));
+    box.innerHTML=cards.join(''); }
+  document.addEventListener('click',e=>{ const a=e.target.closest&&e.target.closest('[data-hm-jump]'); if(!a) return; e.preventDefault(); const t=$('#'+a.dataset.hmJump); if(t) t.scrollIntoView({behavior:'smooth',block:'start'}); });
+
+  function renderHome(){ const S=SNAP; const parts=[['X',()=>renderHomeX(S)],['ブログ',()=>renderHomeBlog(S)],['アフィリエイト',renderHomeAff],['14 日',()=>renderHomeCal(S)],['知っておくこと',()=>renderHomeKnow(S)]];
+    for(const [n,fn] of parts){ try{ fn(); }catch(e){ console.error('全体像 '+n,e); } } try{ applyCounts(); }catch(e){} }
 
   // ---- 成果リンクの一覧 ----
   let affF='all';
@@ -1740,6 +1912,8 @@ tr[data-ccount]::after{top:4px;right:4px}
     tb.innerHTML=rows.map(r=>'<tr data-cid="asp.p.'+esc(String(r.id||r.name).slice(-60))+'"><td>'+esc((r.name||'').slice(0,70))+'</td><td>'+esc(r.asp)+'</td><td>'+esc(r.reward||'')+'</td><td>'+(r.self===true?'<span class="pill ok">OK</span>':r.self===false?'<span class="pill">NG</span>':'—')+'</td><td>'+(r.asp==='A8'?artList(r.articles):'<span class="status">下の対応表</span>')+'</td><td>'+(r.ng?'<span class="pill bad">使わない</span>':esc(r.note||''))+'</td></tr>').join('')||'<tr><td colspan="6" class="empty">該当なし</td></tr>'; applyCounts(); }
   $$('#asp-tabs button').forEach(b=>b.addEventListener('click',()=>{ aspF=b.dataset.a; $$('#asp-tabs button').forEach(x=>x.setAttribute('aria-pressed',x===b?'true':'false')); renderA8(); }));
   { const i=$('#a8-q'); if(i) i.addEventListener('input',()=>{ a8Q=i.value; renderA8(); }); }
+  // 保存先につながらないとき（ローカルで開いたときなど）も全体像の先頭を描く。届いたら db の購読が描き直す
+  setTimeout(()=>{ if(!SNAP) renderHome(); },0);
   $$('#a8-filters button').forEach(b=>b.addEventListener('click',()=>{ a8F=b.dataset.f; $$('#a8-filters button').forEach(x=>x.setAttribute('aria-pressed',x===b?'true':'false')); renderA8(); }));
 })();
 </script>
