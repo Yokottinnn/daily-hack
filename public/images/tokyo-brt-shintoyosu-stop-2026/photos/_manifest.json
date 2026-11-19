@@ -1,0 +1,6 @@
+{
+ "shintoyosu-map.jpg": {"src": "https://www.metro.tokyo.lg.jp/documents/d/tosei/20261118_03_03b", "page": "https://www.metro.tokyo.lg.jp/information/press/2026/11/2026111814", "credit": "東京都都市整備局「東京BRT 新豊洲停留所の設置を決定しました！」（2026年11月18日）地図の画像", "fetched": "2026-11-19"},
+ "bus-01.jpg": {"src": "https://tokyo-brt.co.jp/sites/default/files/img/img-bus-01.jpg", "page": "https://tokyo-brt.co.jp/about/vehicle/", "credit": "東京BRT「車両のご紹介」", "fetched": "2026-11-19"},
+ "bus-02.jpg": {"src": "https://tokyo-brt.co.jp/sites/default/files/img/img-bus-02.jpg", "page": "https://tokyo-brt.co.jp/about/vehicle/", "credit": "東京BRT「車両のご紹介」", "fetched": "2026-11-19"},
+ "../eyecatch.jpg": {"src": "https://www.metro.tokyo.lg.jp/documents/d/tosei/20261118_03_03b", "page": "https://www.metro.tokyo.lg.jp/information/press/2026/11/2026111814", "credit": "東京都都市整備局 報道発表の地図の画像（全体を収め、余白はぼかし）", "fetched": "2026-11-19"}
+}
