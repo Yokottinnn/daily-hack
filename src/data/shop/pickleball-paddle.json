@@ -24,7 +24,7 @@
       "label": "中身"
     }
   ],
-  "pricesCheckedAt": "2026-11-18T21:44:40.351Z",
+  "pricesCheckedAt": "2026-11-19T21:43:49.002Z",
   "items": [
     {
       "id": "kenko-paddle",
@@ -67,14 +67,14 @@
           "サンテ",
           "PSPR"
         ],
-        "url": null,
-        "price": null,
-        "shippingFree": null,
-        "point": null,
+        "url": "https://store.shopping.yahoo.co.jp/ishispojp/nagase-pbpdkny.html",
+        "price": 7130,
+        "shippingFree": true,
+        "point": 0,
         "reviewAverage": null,
-        "reviewCount": null,
-        "shop": null,
-        "checkedAt": "2026-11-18T21:44:40.351Z"
+        "reviewCount": 0,
+        "shop": "卓球専門店いしかわスポーツ",
+        "checkedAt": "2026-11-19T21:43:49.002Z"
       },
       "amazon": {
         "keyword": "ナガセケンコー KENKO ピックルボールパドル",
@@ -113,14 +113,14 @@
         "exclude": [
           "中古"
         ],
-        "url": "https://store.shopping.yahoo.co.jp/sportsguide/pbstkny-blrd.html",
+        "url": "https://store.shopping.yahoo.co.jp/ishidasp/pb-st-kny.html",
         "price": 11000,
-        "shippingFree": false,
+        "shippingFree": true,
         "point": 0,
         "reviewAverage": null,
         "reviewCount": 0,
-        "shop": "スポーツガイドonline",
-        "checkedAt": "2026-11-18T21:44:40.351Z"
+        "shop": "イシダスポーツ",
+        "checkedAt": "2026-11-19T21:43:49.002Z"
       },
       "amazon": {
         "keyword": "ナガセケンコー ピックルボール スターターセット",
@@ -166,7 +166,7 @@
         "reviewAverage": null,
         "reviewCount": null,
         "shop": null,
-        "checkedAt": "2026-11-18T21:44:40.351Z"
+        "checkedAt": "2026-11-19T21:43:49.002Z"
       },
       "amazon": {
         "keyword": "ミズノ ピックルボール パドル CALIBER 63GPB690",
@@ -212,7 +212,7 @@
         "reviewAverage": null,
         "reviewCount": 0,
         "shop": "HEDが街にやって来る!",
-        "checkedAt": "2026-11-18T21:44:40.351Z"
+        "checkedAt": "2026-11-19T21:43:49.002Z"
       },
       "amazon": {
         "keyword": "ナガセケンコー PROJECT sante ピックルボール",
