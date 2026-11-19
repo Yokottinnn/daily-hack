@@ -1,6 +1,6 @@
 ---
-title: "ブラックフライデー2026まとめ｜33件の日程を公式ページで確認。楽天は11/19 20時、Amazonは11/19に発表、当日は11/27（金）"
-description: "2026年のブラックフライデーを33件、各社の公式ページだけで日程と中身を確かめて一覧にした。楽天は11/19(木)20:00〜11/25 1:59で上限7,000ポイント、Yahoo!は11/22〜最大23%、Amazonは11/19午前に日程発表。日程が公式で確かめられない店も分けて書いた。"
+title: "ブラックフライデー2026まとめ｜33件の日程を公式ページで確認。楽天は11/19 20時、Amazonは11/27先行・11/30〜12/7、当日は11/27（金）"
+description: "2026年のブラックフライデーを33件、各社の公式ページだけで日程と中身を確かめて一覧にした。楽天は11/19(木)20:00〜11/25 1:59で上限7,000ポイント、Yahoo!は11/22〜29で最大23%、Amazonは先行11/27〜、本番11/30〜12/7。日程が公式で確かめられない店も分けて書いた。"
 publishDate: 2026-11-15
 category: ["campaigns", "roundups"]
 tags: ["ブラックフライデー", "セール", "楽天市場", "Amazon", "Yahoo!ショッピング", "イオン", "ユニクロ", "2026年"]
@@ -40,7 +40,7 @@ references:
 だからアタシが作った。2026年11月15日に、**各社の公式ページ（キャンペーンページ・ニュースリリース）を1件ずつ開いて**、書いてある期間と中身だけを一覧にしたわ。公式で日程が確かめられなかった店は、一覧に混ぜずに[最後の節](#日程が公式で確かめられなかった店参考にした一覧との違い)へ分けてある。
 
 <div class="hakkako-says">
-  <div class="hakkako-quote">先に一番大事なことを言っとく。<strong>楽天は11月19日（木）20時スタート、Amazonはその日の午前に日程を出す</strong>。つまり<strong>11/19が今年の本番の入口</strong>よ。それと、出回っている一覧の中には<strong>もう売り切れた企画や、システム不具合で止まっている企画</strong>がそのまま載っているから、出かける前に公式を見て。</div>
+  <div class="hakkako-quote">先に一番大事なことを言っとく。<strong>楽天は11月19日（木）20時スタート。Amazonは11月27日（金）に先行セール、11月30日（月）〜12月7日（月）が本番</strong>で、ポイントアップのエントリーは11月19日10時から始まっている。つまり<strong>11/19が今年の本番の入口</strong>よ。それと、出回っている一覧の中には<strong>もう売り切れた企画や、システム不具合で止まっている企画</strong>がそのまま載っているから、出かける前に公式を見て。</div>
 </div>
 
 ## 30秒で分かる、ブラックフライデー2026
@@ -52,10 +52,10 @@ references:
     <p>買いまわりで最大10倍。<strong>上限7,000P</strong>。</p>
     <span class="pick-go">詳しく見る →</span>
   </a>
-  <a class="event-pick" href="#amazon11月19日木の午前に日程を発表" style="--pick-img:url('/images/black-friday-2026-matome/photos/amazon-kv.jpg')">
+  <a class="event-pick" href="#amazon先行セール11月27日金から本番は11月30日月12月7日月" style="--pick-img:url('/images/black-friday-2026-matome/photos/amazon-kv.jpg')">
     <span class="pick-date">Amazon</span>
-    <h4>11/19午前に発表</h4>
-    <p>開催は11月。<strong>日程はまだ</strong>。</p>
+    <h4>11/27先行・11/30本番</h4>
+    <p>本番は<strong>12/7まで</strong>の8日間。</p>
     <span class="pick-go">詳しく見る →</span>
   </a>
   <a class="event-pick" href="#イオン店舗は本州東北を除くと四国ネットは1116の959まで" style="--pick-img:url('/images/black-friday-2026-matome/photos/aeon.jpg')">
@@ -94,10 +94,11 @@ references:
 | 時期 | 始まるところ |
 | --- | --- |
 | もう始まっている | 三越伊勢丹オンライン、OWNDAYS、カインズ、Zoff、ドン・キホーテ、ハンズ、ダイソンなど |
-| **11月19日（木）** | **楽天市場（20時）**、Gap、トイザらス（ネット正午）、**Amazonの日程発表（午前）** |
+| **11月19日（木）** | **楽天市場（20時）**、Gap、トイザらス（ネット正午）、**Amazonのポイントアップのエントリー（10時）** |
 | **11月20日（金）** | **イオンモール、ユニクロ感謝祭、ディズニーストア、餃子の王将** |
-| 11月22日（日） | Yahoo!ショッピング |
-| 11月27日（金）＝当日 | H&M、タワーレコード、幸楽苑 |
+| 11月22日（日） | Yahoo!ショッピング（29日まで） |
+| 11月27日（金）＝当日 | **Amazonの先行セール（29日まで）**、H&M、タワーレコード、幸楽苑 |
+| 11月30日（月） | **Amazonの本番（12月7日まで）** |
 
 <p class="source-note">出典: <a href="https://www2.hm.com/ja_jp/seasonal/black-friday.html" target="_blank" rel="noopener">H&M「ブラックフライデー」（2026年のブラックフライデーは11月27日（金））</a>（2026年11月15日に確認）</p>
 
@@ -133,7 +134,7 @@ references:
 
 <p class="source-note">各社の公式ページ（店名のリンク先）を2026年11月15日に読んで作成。期間・内容は変わることがある。</p>
 
-### 11月16日〜22日に始まる（14件）
+### 11月16日〜22日に始まる（13件）
 
 <div class="cmp-table-wrap">
 <table class="cmp-table">
@@ -144,7 +145,6 @@ references:
 <tr><td>11/17</td><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/black-friday-2026-matome/logos/jtb.png" alt="" loading="lazy" /><a href="https://www.jtb.co.jp/myjtb/campaign/blackfriday/" target="_blank" rel="noopener">JTB</a></span></td><td>来店 11/17〜12/1</td><td>来店抽選で2,000名に1,000ポイント</td></tr>
 <tr><td>11/18</td><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/black-friday-2026-matome/logos/takashimaya.png" alt="" loading="lazy" /><a href="https://www.takashimaya.co.jp/shopping/special/blackfriday/" target="_blank" rel="noopener">高島屋オンラインストア</a></span></td><td>11/18 10:00〜11/28 10:00</td><td>クーポン第1弾11/18〜23、第2弾11/23〜28</td></tr>
 <tr><td>11/19</td><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/black-friday-2026-matome/logos/rakuten.png" alt="" loading="lazy" /><a href="https://event.rakuten.co.jp/campaign/point-up/blackfriday/" target="_blank" rel="noopener">楽天市場</a></span></td><td>11/19 20:00〜11/25 1:59</td><td>買いまわりで最大10倍（上限7,000ポイント）</td></tr>
-<tr><td>11/19</td><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/black-friday-2026-matome/logos/amazon.png" alt="" loading="lazy" /><a href="https://www.aboutamazon.jp/news/retail/amazon-black-friday-2026" target="_blank" rel="noopener">Amazon</a></span></td><td>11月（日程は11/19午前に発表）</td><td>中身も11/19に発表</td></tr>
 <tr><td>11/19</td><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/black-friday-2026-matome/logos/gap.png" alt="" loading="lazy" /><a href="https://www.gapinc.com/ja-jp/articles/2026/10/gap-kicks-off-black-friday-2026%E2%80%9D-on-november-19" target="_blank" rel="noopener">Gap</a></span></td><td>11/19〜11/30</td><td>限定価格、12月に50％OFFになるカード</td></tr>
 <tr><td>11/19</td><td><span class="cell-brand"><a href="https://www.toysrus.co.jp/ja-jp/promotions/blackfriday-toy/" target="_blank" rel="noopener">トイザらス・ベビーザらス</a></span></td><td>ネット 11/19正午〜／店舗 11/20〜</td><td>おもちゃ・ベビー用品のセール</td></tr>
 <tr><td>11/20</td><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/black-friday-2026-matome/logos/aeonmall.png" alt="" loading="lazy" /><a href="https://lp.aeonmall.com/lp/blackfriday/" target="_blank" rel="noopener">イオンモール</a></span></td><td>11/20〜11/30</td><td>アプリで毎日 半額クーポンの抽選</td></tr>
@@ -152,20 +152,21 @@ references:
 <tr><td>11/20</td><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/black-friday-2026-matome/logos/disney.png" alt="" loading="lazy" /><a href="https://store.disney.co.jp/special/black-friday-sale.html" target="_blank" rel="noopener">ディズニーストア</a></span></td><td>11/20〜</td><td>最大40％OFFの限定セール（11/17に続報）</td></tr>
 <tr><td>11/20</td><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/black-friday-2026-matome/logos/ohsho.png" alt="" loading="lazy" /><a href="https://www.ohsho.co.jp/info/2026/1120232026.html" target="_blank" rel="noopener">餃子の王将</a></span></td><td>11/20〜11/23</td><td>500円ごとに餃子1人前半額券</td></tr>
 <tr><td>11/20</td><td><span class="cell-brand"><a href="https://www.heart-bread.com/" target="_blank" rel="noopener">ハートブレッド アンティーク</a></span></td><td>11/20〜11/30</td><td>期間限定の黒いパン</td></tr>
-<tr><td>11/22</td><td><span class="cell-brand"><a href="https://shopping.yahoo.co.jp/promotion/campaign/blackfriday/" target="_blank" rel="noopener">Yahoo!ショッピング</a></span></td><td>11/22〜</td><td>最大23％のポイント付与</td></tr>
+<tr><td>11/22</td><td><span class="cell-brand"><a href="https://shopping.yahoo.co.jp/promotion/campaign/blackfriday/" target="_blank" rel="noopener">Yahoo!ショッピング</a></span></td><td>11/22〜11/29</td><td>最大23％のポイント付与</td></tr>
 </tbody>
 </table>
 </div>
 
 <p class="source-note">各社の公式ページ（店名のリンク先）を2026年11月15日に読んで作成。期間・内容は変わることがある。</p>
 
-### 11月23日以降に始まる（5件）
+### 11月23日以降に始まる（6件）
 
 <div class="cmp-table-wrap">
 <table class="cmp-table">
 <thead><tr><th>開始</th><th>お店・サービス</th><th>期間</th><th>中身</th></tr></thead>
 <tbody>
 <tr><td>11/24</td><td><span class="cell-brand"><a href="https://cp.lp.matsukiyococokara-online.com/hs/campaign/mcc-promo/Kao_matsucoco/black-friday-2026" target="_blank" rel="noopener">マツキヨココカラ</a></span></td><td>11/24配信予定</td><td>公式アプリにクーポンを配信</td></tr>
+<tr><td>11/27</td><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/black-friday-2026-matome/logos/amazon.png" alt="" loading="lazy" /><a href="https://www.aboutamazon.jp/news/retail/amazon-black-friday-2026" target="_blank" rel="noopener">Amazon</a></span></td><td>先行 11/27 0:00〜11/29 23:59／本番 11/30 0:00〜12/7 23:59</td><td>エントリーして合計1万円以上でポイント上乗せ（上限1万ポイント）</td></tr>
 <tr><td>11/27</td><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/black-friday-2026-matome/logos/tower.png" alt="" loading="lazy" /><a href="https://tower.jp/article/feature_item/2026/11/05/0104" target="_blank" rel="noopener">タワーレコード</a></span></td><td>11/27</td><td>RSD BLACK FRIDAY（ネット販売は11/29 0:00から）</td></tr>
 <tr><td>11/27</td><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/black-friday-2026-matome/logos/hm.png" alt="" loading="lazy" /><a href="https://www2.hm.com/ja_jp/seasonal/black-friday.html" target="_blank" rel="noopener">H&M</a></span></td><td>11/27〜</td><td>ブラックフライデーセール</td></tr>
 <tr><td>11/27</td><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/black-friday-2026-matome/logos/kourakuen.png" alt="" loading="lazy" /><a href="https://www.kourakuen.co.jp/" target="_blank" rel="noopener">幸楽苑</a></span></td><td>11/27〜11/29</td><td>郡山ブラックが500円</td></tr>
@@ -174,7 +175,7 @@ references:
 </table>
 </div>
 
-<p class="source-note">各社の公式ページ（店名のリンク先）を2026年11月15日に読んで作成。期間・内容は変わることがある。</p>
+<p class="source-note">各社の公式ページ（店名のリンク先）を2026年11月15日に読んで作成（Amazonは2026年11月19日に確認）。期間・内容は変わることがある。</p>
 
 <aside class="related-block">
   <div class="related-block-head">
@@ -185,7 +186,7 @@ references:
       <span class="related-block-thumb"><img src="/images/amazon-blackfriday-2026-itsu/eyecatch.jpg" alt="" loading="lazy" /></span>
       <span class="related-block-body">
         <span class="related-block-cat">セール</span>
-        <span class="related-block-name">Amazonブラックフライデー2026はいつ？｜開催は11月、日程の発表は11月19日（木）午前。去年は11/21に先行セール、11/24から8日間</span>
+        <span class="related-block-name">Amazonブラックフライデー2026はいつ？｜先行セール11/27（金）から、本番は11/30（月）〜12/7（月）の8日間。ポイントアップの上限は1万ポイント</span>
       </span>
     </a></li>
   </ul>
@@ -222,7 +223,7 @@ references:
 <iframe src="https://www.youtube-nocookie.com/embed/QiQE0YuK9eg" title="【上限8,500pt】楽天ブラックフライデー2026を公式の数字だけで全部計算してみた（りきお@資産形成、お金の総合チャンネル）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
 </div>
 
-<h3 class="brand-h" id="amazon11月19日木の午前に日程を発表"><img class="brand-logo" src="/images/black-friday-2026-matome/logos/amazon.png" alt="Amazonのロゴ" loading="lazy" /><span>Amazon｜11月19日（木）の午前に日程を発表</span></h3>
+<h3 class="brand-h" id="amazon先行セール11月27日金から本番は11月30日月12月7日月"><img class="brand-logo" src="/images/black-friday-2026-matome/logos/amazon.png" alt="Amazonのロゴ" loading="lazy" /><span>Amazon｜先行セール11月27日（金）から、本番は11月30日（月）〜12月7日（月）</span></h3>
 
 <figure class="rn-figure">
   <img src="/images/black-friday-2026-matome/photos/amazon-kv.jpg" alt="Amazonブラックフライデー2026の告知画像" loading="lazy" />
@@ -232,28 +233,30 @@ references:
 <div class="cmp-table-wrap">
 <table class="cmp-table spec-table">
 <tbody>
-<tr><th>開催</th><td>2026年11月（Amazonが発表）</td></tr>
-<tr><th>日程・中身</th><td><strong>11月19日（木）の午前中に公開予定</strong></td></tr>
+<tr><th>先行セール</th><td><strong>2026年11月27日（金）0:00〜11月29日（日）23:59</strong>の3日間</td></tr>
+<tr><th>本番</th><td><strong>2026年11月30日（月）0:00〜12月7日（月）23:59</strong>の8日間</td></tr>
+<tr><th>ポイントアップ</th><td>エントリー（11/19 10:00〜12/7）して、11/27〜12/7に<strong>合計10,000円（税込）以上</strong>買うと上乗せ。上限<strong>10,000ポイント</strong>（期間限定ポイント）</td></tr>
+<tr><th>ほかの企画</th><td>ポイントDeal祭り（5%以上のポイント）、dポイント連携（総額5,000万ポイント山分け）、Amazon Beauty Collection Box（11/30〜12/3の毎日12時）など</td></tr>
 <tr><th>去年（2025年）</th><td>先行セール11/21〜23、本番11/24〜12/1の8日間</td></tr>
 </tbody>
 </table>
 </div>
 
-Amazonは11月5日に「2026年もブラックフライデーを11月に開く」と発表した。**開催期間とセールの中身は、まだ出ていない。** 日付を言い切っている一覧があっても、それは去年の並びからの予想よ。
+Amazonは2026年11月19日に日程と中身を発表した。**先行3日＋本番8日の並びは去年と同じで、全体が6日うしろにずれた。** 本番の終わりは12月7日（月）で、楽天（11月25日）やYahoo!ショッピング（11月29日）より遅くまで続くわ。ポイントアップは<strong>エントリーしないと付かない</strong>ので、先行セールの11月27日（金）より前に押しておくこと。
 
-<p class="source-note">出典: <a href="https://www.aboutamazon.jp/news/retail/amazon-black-friday-2026" target="_blank" rel="noopener">About Amazon Japan「Amazon、2026年『Amazon ブラックフライデー』を開催」</a>（2026年11月15日に確認）</p>
+<p class="source-note">出典: <a href="https://www.aboutamazon.jp/news/retail/amazon-black-friday-2026" target="_blank" rel="noopener">About Amazon Japan「Amazon、2026年『Amazon ブラックフライデー』を開催」</a>（2026年11月5日公開・11月19日更新。2026年11月19日に確認）</p>
 
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">Amazon、2026年のブラックフライデーを11月に開催</p>&mdash; ケータイ Watch (@ktai_watch) <a href="https://twitter.com/ktai_watch/status/2118284712976531487">2026年11月5日</a></blockquote>
 
-11/19に日程が出たら、セールの会場は<a href="https://www.amazon.co.jp/blackfriday?tag=dailyhack-22" target="_blank" rel="sponsored noopener nofollow">Amazonブラックフライデーの特設ページ</a>（PR）にまとまる。
+セールの会場は<a href="https://www.amazon.co.jp/blackfriday?tag=dailyhack-22" target="_blank" rel="sponsored noopener nofollow">Amazonブラックフライデーの特設ページ</a>（PR）、エントリーは<a href="https://www.amazon.co.jp/events/pointupcampaign/?tag=dailyhack-22" target="_blank" rel="sponsored noopener nofollow">ポイントアップキャンペーンのページ</a>（PR）から。目玉の商品を探すなら、5%以上のポイントが付く<a href="https://www.amazon.co.jp/PointsDeal?tag=dailyhack-22" target="_blank" rel="sponsored noopener nofollow">ポイントDeal祭り</a>（PR）も見て（資生堂・Anker・BEAMS・Onなど）。
 
 <h3 id="yahooショッピング11月22日日から最大23">Yahoo!ショッピング｜11月22日（日）から最大23％</h3>
 
 <div class="cmp-table-wrap">
 <table class="cmp-table spec-table">
 <tbody>
-<tr><th>始まり</th><td><strong>11月22日（日）</strong>から（最大23％のポイント付与）</td></tr>
-<tr><th>最大+7％</th><td>合計20,000円以上の購入（上限7,000円相当／期間）</td></tr>
+<tr><th>期間</th><td><strong>11月22日（日）〜11月29日（日）</strong>（最大23％のポイント付与）</td></tr>
+<tr><th>最大+7％</th><td>期間中に合計5,000円以上で+4％、合計20,000円以上で+7％（上限7,000円相当／期間）</td></tr>
 <tr><th>毎日最大+5％</th><td>指定の支払い方法で購入（上限5,000円相当／月）</td></tr>
 <tr><th>最大+9％</th><td>ボーナスストアPlusで購入</td></tr>
 <tr><th>さらに+2％</th><td>ボーナスストアPlusの上乗せ（上限5,000円相当／期間）</td></tr>
@@ -262,9 +265,9 @@ Amazonは11月5日に「2026年もブラックフライデーを11月に開く�
 </table>
 </div>
 
-Yahoo!ショッピングの公式ページには、**終わりの日がまだ書かれていない**（「日程・内容は変更あり」）。最大23％は4つの上乗せを全部そろえたときの数字で、**どれにも別々の上限がある**。とくに+9％のボーナスストアPlusは、対象のお店で買ったときだけよ。
+Yahoo!ショッピングの公式ページでは、ポイントアップと特別価格の期間が<strong>11月22日（日）〜29日（日）</strong>になった（「日程・内容は変更あり」の注記つき）。最大23％は4つの上乗せを全部そろえたときの数字で、**どれにも別々の上限がある**。とくに+9％のボーナスストアPlusは、対象のお店で買ったときだけよ。
 
-<p class="source-note">出典: <a href="https://shopping.yahoo.co.jp/promotion/campaign/blackfriday/" target="_blank" rel="noopener">Yahoo!ショッピング「ブラックフライデー 2026」</a>（2026年11月15日に確認）</p>
+<p class="source-note">出典: <a href="https://shopping.yahoo.co.jp/promotion/campaign/blackfriday/" target="_blank" rel="noopener">Yahoo!ショッピング「ブラックフライデー 2026」</a>（2026年11月19日に確認）</p>
 
 <aside class="related-block">
   <div class="related-block-head">
@@ -968,7 +971,7 @@ Yahoo!ショッピングの公式ページには、**終わりの日がまだ書
 
 <ul class="checklist">
   <li><div class="checklist-body"><strong>楽天は11/19 20時までにエントリー。</strong><p>エントリー前の買い物は、買いまわりの数に入らない</p></div></li>
-  <li><div class="checklist-body"><strong>Amazonは11/19の午前に日程を見る。</strong><p>欲しい物は先に「欲しいものリスト」に入れて、いまの値段をメモしておく（セール価格が本当に安いか比べられる）</p></div></li>
+  <li><div class="checklist-body"><strong>Amazonは11/27（金）までにポイントアップのエントリー。</strong><p>エントリーは11月19日10時から。欲しい物は先に「欲しいものリスト」に入れて、いまの値段をメモしておく（セール価格が本当に安いか比べられる）</p></div></li>
   <li><div class="checklist-body"><strong>ポイントの上限を先に計算する。</strong><p>楽天の上乗せは7,000ポイントまで、Yahoo!の+7％は7,000円相当まで。上限を超えた分は戻ってこない</p></div></li>
   <li><div class="checklist-body"><strong>「期間限定ポイント」の期限を見る。</strong><p>楽天もYahoo!も、上乗せ分は使える期間が決まっている</p></div></li>
   <li><div class="checklist-body"><strong>店舗の企画は、近くの店が対象かを見る。</strong><p>イオンの店舗の企画は本州（東北を除く）と四国だけ</p></div></li>
@@ -983,8 +986,8 @@ Yahoo!ショッピングの公式ページには、**終わりの日がまだ書
 <div class="cmp-table-wrap">
   <table class="cmp-table spec-table faq-table">
     <tbody>
-      <tr><th>2026年のブラックフライデーはいつ？</th><td>当日は11月27日（金）。ただ日本のセールはその前から始まるところが多く、楽天は11月19日（木）20:00〜25日（水）1:59、イオンモールは11月20日（金）〜30日（月）、Yahoo!ショッピングは11月22日（日）から。</td></tr>
-      <tr><th>Amazonのブラックフライデー2026はいつから？</th><td>11月15日時点ではまだ発表されていない。Amazonは開催期間と中身を11月19日（木）の午前中に公開すると言っている。去年（2025年）は先行セールが11/21〜23、本番が11/24〜12/1だった。</td></tr>
+      <tr><th>2026年のブラックフライデーはいつ？</th><td>当日は11月27日（金）。ただ日本のセールはその前から始まるところが多く、楽天は11月19日（木）20:00〜25日（水）1:59、イオンモールは11月20日（金）〜30日（月）、Yahoo!ショッピングは11月22日（日）〜29日（日）、Amazonは先行セールが11月27日（金）〜29日（日）、本番が11月30日（月）〜12月7日（月）。</td></tr>
+      <tr><th>Amazonのブラックフライデー2026はいつから？</th><td>先行セールが2026年11月27日（金）0:00〜29日（日）23:59、本番が11月30日（月）0:00〜12月7日（月）23:59の8日間（2026年11月19日にAmazonが発表）。ポイントアップは11月19日（木）10時からエントリーでき、合計10,000円（税込）以上で上限10,000ポイント。</td></tr>
       <tr><th>楽天ブラックフライデーのポイント上限は？</th><td>ショップ買いまわりの上乗せが7,000ポイント（期間限定ポイント）。ラクマで買うと+1倍分が別に上限1,500ポイント。</td></tr>
       <tr><th>イオンのブラックフライデーはいつまで？</th><td>ネット先行セールは11月16日（月）9:59まで。イオンモールの企画は11月20日（金）〜30日（月）。店舗の企画は本州（東北を除く）と四国のイオン・イオンスタイルで行われる。</td></tr>
       <tr><th>ユニクロのブラックフライデーは？</th><td>ユニクロは「ユニクロ感謝祭」として11月20日（金）〜26日（木）の7日間開く。11/20〜23は10,000円以上でトートバッグがもらえる（店舗は先着、ネットは抽選）。</td></tr>
