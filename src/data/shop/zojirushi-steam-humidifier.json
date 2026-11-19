@@ -28,7 +28,7 @@
       "label": "タンク"
     }
   ],
-  "pricesCheckedAt": "2026-11-18T21:44:40.351Z",
+  "pricesCheckedAt": "2026-11-19T21:43:49.002Z",
   "items": [
     {
       "id": "zojirushi-ee-tc60",
@@ -68,13 +68,13 @@
           "部品"
         ],
         "url": "https://store.shopping.yahoo.co.jp/jhb-store/4974305232502.html",
-        "price": 25149,
+        "price": 25048,
         "shippingFree": true,
         "point": 0,
         "reviewAverage": null,
         "reviewCount": 0,
         "shop": "JHBストア",
-        "checkedAt": "2026-11-18T21:44:40.351Z"
+        "checkedAt": "2026-11-19T21:43:49.002Z"
       },
       "amazon": {
         "keyword": "象印 EE-TC60",
@@ -127,7 +127,7 @@
         "reviewAverage": null,
         "reviewCount": 0,
         "shop": "デジ倉",
-        "checkedAt": "2026-11-18T21:44:40.351Z"
+        "checkedAt": "2026-11-19T21:43:49.002Z"
       },
       "amazon": {
         "keyword": "象印 EE-DG50",
@@ -180,7 +180,7 @@
         "reviewAverage": null,
         "reviewCount": 0,
         "shop": "サンサン マーケット",
-        "checkedAt": "2026-11-18T21:44:40.351Z"
+        "checkedAt": "2026-11-19T21:43:49.002Z"
       },
       "amazon": {
         "keyword": "象印 EE-DG35",
@@ -233,7 +233,7 @@
         "reviewAverage": null,
         "reviewCount": 0,
         "shop": "まごころでんき Yahoo!店",
-        "checkedAt": "2026-11-18T21:44:40.351Z"
+        "checkedAt": "2026-11-19T21:43:49.002Z"
       },
       "amazon": {
         "keyword": "象印 EE-RV50",
@@ -279,14 +279,14 @@
           "交換用",
           "部品"
         ],
-        "url": "https://store.shopping.yahoo.co.jp/jetprice/b803lc.html",
-        "price": 14679,
+        "url": "https://store.shopping.yahoo.co.jp/pc-akindo/ee-rv35-wa.html",
+        "price": 14580,
         "shippingFree": true,
         "point": 0,
         "reviewAverage": null,
         "reviewCount": 0,
-        "shop": "JetPrice",
-        "checkedAt": "2026-11-18T21:44:40.351Z"
+        "shop": "PCあきんど",
+        "checkedAt": "2026-11-19T21:43:49.002Z"
       },
       "amazon": {
         "keyword": "象印 EE-RV35",
@@ -330,14 +330,14 @@
           "交換用",
           "部品"
         ],
-        "url": "https://store.shopping.yahoo.co.jp/pc-akindo/ee-mc20-gm.html",
-        "price": 15126,
+        "url": "https://store.shopping.yahoo.co.jp/pc-akindo/ee-mc20-cm.html",
+        "price": 15380,
         "shippingFree": true,
         "point": 0,
         "reviewAverage": null,
         "reviewCount": 0,
         "shop": "PCあきんど",
-        "checkedAt": "2026-11-18T21:44:40.351Z"
+        "checkedAt": "2026-11-19T21:43:49.002Z"
       },
       "amazon": {
         "keyword": "象印 EE-MC20",
@@ -381,14 +381,14 @@
           "交換用",
           "部品"
         ],
-        "url": "https://store.shopping.yahoo.co.jp/d-rise2/p700000023250.html",
-        "price": 30030,
+        "url": "https://store.shopping.yahoo.co.jp/outletplaza/40001082165.html",
+        "price": 35326,
         "shippingFree": true,
         "point": 0,
         "reviewAverage": null,
-        "reviewCount": 0,
-        "shop": "ディーライズ2号",
-        "checkedAt": "2026-11-18T21:44:40.351Z"
+        "reviewCount": 1,
+        "shop": "秋葉原　アウトレットプラザ",
+        "checkedAt": "2026-11-19T21:43:49.002Z"
       },
       "amazon": {
         "keyword": "象印 EE-FA50",
