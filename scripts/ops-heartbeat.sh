@@ -120,7 +120,22 @@ if [ ! -e "$WT/.git" ]; then
   fi
 else
   git -C "$WT" fetch -q origin "$BRANCH" 2>/dev/null || true
+  # **2026-11-18 affiliate（blog3 の依頼・t704・t705）**: launchd の別ジョブ（asp-sync・毎朝 6:12）は
+  # この worktree の reports/asp-sync/ に直接書く。下の reset --hard が、commit される前にその変更を
+  # origin の版へ書き戻していたため、status.json が 11/14 のまま 4 日止まった。
+  # reset の前に、外のジョブが書く場所で「変わった・増えた」ファイルだけを退避し、reset の後に戻す。
+  _keep="$(mktemp -d "${TMPDIR:-/tmp}/hb-keep.XXXXXX")"
+  for _d in reports/asp-sync; do
+    git -C "$WT" status --porcelain -- "$_d" 2>/dev/null | sed -n 's/^.. //p' | while IFS= read -r _f; do
+      [ -f "$WT/$_f" ] || continue
+      mkdir -p "$_keep/$(dirname "$_f")" && cp -p "$WT/$_f" "$_keep/$_f"
+    done
+  done
   git -C "$WT" reset -q --hard "origin/$BRANCH" 2>/dev/null || true
+  if [ -n "$(ls -A "$_keep" 2>/dev/null)" ]; then
+    cp -Rp "$_keep/." "$WT/" 2>/dev/null && echo "ops-heartbeat: 外のジョブの出力を残した（$(cd "$_keep" && find . -type f | wc -l | tr -d ' ') 件）" >&2
+  fi
+  rm -rf "$_keep"
 fi
 
 # --- コミットされたタスクを Mac 上で実行する --------------------------------

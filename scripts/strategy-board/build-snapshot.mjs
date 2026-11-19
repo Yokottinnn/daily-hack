@@ -405,9 +405,9 @@ for (const f of fs.readdirSync(POSTS_DIR).filter((x) => x.endsWith('.md'))) {
   }
 }
 events.sort((a, b) => a.start.localeCompare(b.start));
-// X の予約・キュー（tweet2 が reports/board/x-schedule.json に書き出す。まだ無ければ null）
+// X の予約・キュー（tweet2 が reports/board/x-schedule.json に書き出す。形は依頼表 2026-11-19 affiliate → tweet2 の案 { generated, posts: [{ id, scheduled_at, kind, slug, text, status }] }。まだ無ければ null）
 const xSchedRaw = json(show(HB, 'reports/board/x-schedule.json'));
-const xSchedule = xSchedRaw ? { generated: xSchedRaw.generated || xSchedRaw.generatedAt || null, items: (Array.isArray(xSchedRaw) ? xSchedRaw : (xSchedRaw.items || xSchedRaw.schedule || [])).slice(0, 60) } : null;
+const xSchedule = xSchedRaw ? { generated: xSchedRaw.generated || xSchedRaw.generatedAt || null, items: (Array.isArray(xSchedRaw) ? xSchedRaw : (xSchedRaw.posts || xSchedRaw.items || xSchedRaw.schedule || [])).slice(0, 60) } : null;
 // 依頼表の「未対応」「対応中」を宛先ごとに数える（blog2 は blog3 に数える）
 const reqText = fs.existsSync(path.join(ROOT, 'docs/cross-session-requests.md')) ? fs.readFileSync(path.join(ROOT, 'docs/cross-session-requests.md'), 'utf8') : '';
 const reqOpen = { blog3: 0, tweet2: 0, affiliate: 0 }, reqNew = { blog3: 0, tweet2: 0, affiliate: 0 };

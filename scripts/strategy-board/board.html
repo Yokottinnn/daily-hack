@@ -1598,7 +1598,10 @@ tr[data-ccount]::after{top:4px;right:4px}
     // X：xdrafts/current の calendar（tweet2 が予約・予定を書く）と、tweet2 が書き出す x-schedule（あれば）
     const XN={posted:'X 投稿済み',scheduled:'X 予約',planned:'X 予定'};
     (XCAL||[]).forEach(e=>put(e.date,ev('x',(XN[e.state]||'X')+(e.time?' '+e.time:''),String(e.title||e.key||'').split('｜')[0],e.url)));
-    const XS=H&&H.xSchedule; if(XS) (XS.items||[]).forEach(e=>{ const d=String(e.date||e.at||e.scheduledAt||'').slice(0,10); if(d) put(d,ev('x','X '+(e.state==='queued'?'キュー':'予約')+(e.time?' '+e.time:''),String(e.title||e.key||e.slug||'').split('｜')[0],e.url)); });
+    const XS=H&&H.xSchedule; let xNoDate=0;
+    // x-schedule の形（依頼表 2026-11-19 affiliate → tweet2 の案）: { posts: [{ id, scheduled_at（JST・未定は null）, kind, slug, text, status }] }
+    if(XS) (XS.items||[]).forEach(e=>{ const at=String(e.scheduled_at||e.scheduledAt||e.date||e.at||''), d=at.slice(0,10), tm=e.time||(at.match(/T(\d\d:\d\d)/)||[])[1]||''; if(!d){ xNoDate++; return; } put(d,ev('x','X '+(/queue/.test(e.status||e.state||'')?'キュー':'予約')+(tm?' '+tm:''),String(e.title||e.text||e.key||e.slug||e.id||'').split('｜')[0].slice(0,40),e.url)); });
+    if(xNoDate) notes.push('X のキューで日時が決まっていないもの '+xNoDate+' 件');
     if(!XS) notes.push('X の予約一覧（x-schedule）は準備中。いまは X の投稿カレンダーの予約・予定だけを出す');
     // 記事の構想の書き上げ期限（書くと決めた〜公開前の確認）
     const act=(IDEAS||[]).filter(t=>['picked','requested','prep','writing','review'].includes(t.status));
