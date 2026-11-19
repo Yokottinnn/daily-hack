@@ -1,0 +1,245 @@
+# AdSense の広告が出ない原因を確かめる（2026-11-19 09:45:14 JST・読むだけ）
+
+## 本番の記事 point-service-complete-guide-2026（Mac の回線・会社のプロファイル）
+- 本文に自動で置かれた広告: 0
+- 広告の枠: unfilled（全画面用の控え）・高さ 0 ／ filled・高さ 0 ／ filled（アンカー）・高さ 129
+- AdSense の設定: {"head_tag_slot_vars":{"google_ad_client":"ca-pub-3805028233672648"},"first_tag_on_page":1,"page_contains_reactive_tag":true,"allow_second_reactive_tag":false,"ads_density_stats_processed":true,"proce
+
+## 本番の記事 lalaport-guide-2026（Mac の回線・会社のプロファイル）
+- 本文に自動で置かれた広告: 0
+- 広告の枠: unfilled（全画面用の控え）・高さ 0 ／ filled・高さ 0 ／ filled（アンカー）・高さ 263
+- AdSense の設定: {"head_tag_slot_vars":{"google_ad_client":"ca-pub-3805028233672648"},"first_tag_on_page":1,"page_contains_reactive_tag":true,"allow_second_reactive_tag":false,"ads_density_stats_processed":true,"proce
+
+## レポート（既定）
+- URL: https://adsense.google.com/adsense/u/0/pub-3805028233672648/reporting
+  - warning_amber
+  - 警告
+  - ウクライナでの戦争を受け、Google は、戦争を利用するコンテンツ、戦争の存在を否定するコンテンツ、または戦争を容認するコンテンツを含む広告の収益化を一時停止します
+  - 表示しない
+  - 今日
+  - check
+  - 過去 7 日間
+  - 過去 30 日間
+  - 今月
+  - 先月
+  - カスタム
+  - arrow_drop_down
+  - add
+  - 比較を追加
+  - settings
+  - search
+  - レポートを検索
+  - add
+  - 未保存のレポート
+  - clear
+  - Entire account by day
+  - Estimated earnings by Date
+  - Top pages
+  - Earnings for your popular pages
+  - more_vert
+  - Sites
+  - Performance of each site
+  - more_vert
+  - Content platform
+  - Estimated earnings by Platform、Content Platform
+  - more_vert
+  - Countries
+  - How ads perform by country
+  - more_vert
+  - Ad units
+  - Estimated earnings by Ad unit
+  - more_vert
+  - Platforms
+  - Estimated earnings by Platform
+  - more_vert
+  - Entire account by week
+  - Estimated earnings by Week
+  - more_vert
+  - Entire account by month
+  - Estimated earnings by Month
+  - more_vert
+  - Custom channels
+  - Estimated earnings by Custom channel
+  - more_vert
+  - URL channels
+  - Estimated earnings by URL channels
+  - more_vert
+  - Verified sites
+  - Estimated earnings by Verified site
+  - more_vert
+  - Served creatives
+  - Estimated earnings by Served creative
+  - more_vert
+  - Ad formats
+  - Performance of different ad types
+  - more_vert
+  - Ad sizes
+  - Estimated earnings by Ad size
+  - more_vert
+  - Creative sizes
+  - Estimated earnings by Creative size
+  - more_vert
+  - Targeting types
+  - Estimated earnings by Targeting type
+  - more_vert
+  - Bid types
+  - Estimated earnings by Bid type
+  - more_vert
+  - Ad networks
+  - Estimated earnings by Ad network
+  - more_vert
+  - apps
+  - 未保存のレポート
+  - 保存
+  - more_vert
+  - 内訳:
+  - 日付
+  - arrow_drop_down
+  - add
+  - 追加
+  - filter_alt
+  - check
+  - 推定収益額
+  - ページ ビュー
+  - ページのインプレッション収益
+  - 表示回数
+  - インプレッション収益
+  - アクティブ ビュー視認可能率
+  - クリック数
+  - edit
+  - multiline_chart
+  - 推定収益額
+  - subject
+  - 日付
+  - 推定収益額
+  - ページ ビュー
+  - ページのインプレッション収益
+  - 表示回数
+  - インプレッション収益
+  - アクティブ ビュー視認可能率
+  - クリック数
+  - すべて
+  - ［数字］0
+  - ［数字］1 以上
+  - ［数字］1 以上
+  - ［数字］1 以上
+  - ［数字］1 以上
+  - ［数字］1 以上
+  - ［数字］0
+  - 全体平均
+  - ［数字］0
+  - ［数字］1 以上
+  - —
+  - ［数字］1 以上
+  - —
+  - —
+  - ［数字］0
+  - 2026年11月18日(水)
+  - ［数字］0
+  - ［数字］1 以上
+  - ［数字］1 以上
+  - ［数字］1 以上
+  - ［数字］1 以上
+  - ［数字］1 以上
+  - ［数字］0
+  - 表示行数:
+  - ［数字］1 以上
+  - arrow_drop_down
+  - 3 件中 1～3 件を表示
+  - first_page
+  - chevron_left
+  - chevron_right
+  - last_page
+  - feedback
+
+## ポリシー センター
+- URL: https://adsense.google.com/adsense/u/0/pub-3805028233672648/policy-center
+  - 現在、問題はありません
+  - サイトの広告配信を停止または制限する問題は現在発生していません。引き続き、優れたサイトの開発に取り組んでください。
+  - ポリシー センターの詳細
+
+## お支払い
+- URL: https://adsense.google.com/adsense/u/0/pub-3805028233672648/payments
+  - お支払いアカウント
+  - AdSense（日本）
+
+## ホーム
+- URL: https://adsense.google.com/adsense/u/0/pub-3805028233672648/home
+  - お支払いの受け取り手順
+  - 残高が最低お支払い額に達したときにお支払いを受け取れるよう、必ず事前にすべての設定を完了してください。 詳細
+  - 身元確認
+  - 最低収益額
+  - 銀行の詳細
+  - 最低お支払い額
+  - 送金済みお支払い額
+  - 完了
+  - 本人確認が完了しました
+  - 本人確認が完了したため、AdSense での初回のお支払いの準備が整いました。
+  - 詳細
+  - 表示しない
+  - 推奨
+  - 税務情報を追加
+  - お支払い金額を正しく計算するには、税務情報の提供が必要になる場合があります。
+  - 詳細
+  - 税務情報を追加
+  - 推奨
+  - 広告をさらに作成
+  - 新しい広告でサイトの収益を増やしましょう。
+  - 詳細
+  - 広告を作成
+  - expand_less
+  - 閉じる
+  - 4 個のうち 1～3個目を表示中
+  - chevron_left
+  - chevron_right
+  - 推定収益額
+  - more_vert
+  - 本日（現時点まで）
+  - ［数字］1 以上
+  - ［数字］1 以上
+  - 昨日
+  - ［数字］0
+  - ［数字］0
+  - +￥#
+  - 変更なし
+  - 先週の同じ曜日との比較
+  - 過去 7 日間
+  - ［数字］0
+  - ［数字］0
+  - +￥#
+  - 変更なし
+  - 過去 7 日間との比較
+  - 今月
+  - ［数字］1 以上
+  - ［数字］1 以上
+  - +￥#
+  - ￥# 増加
+  - 前年同期との比較
+  - 残高
+  - more_vert
+  - ［数字］0
+  - 前回の支払い
+  - ［数字］0
+  - star
+  - お客様の参考になりそうな情報を表示しています
+  - お客様に合わせてカスタマイズされた収益増加のヒントを受け取りましょう
+  - サイトの掲載結果を最適化する方法を確認したり、AdSense に関する最新情報を入手したりできます。
+  - 今すぐご登録ください
+  - 閉じる
+  - new_releases
+  - お客様の参考になりそうな情報を表示しています
+  - お知らせ
+  - more_vert
+  - ［数字］1 以上
+  - ユニバーサル オプトアウト メカニズムが導入される予定の米国の州
+  - 2026 年 11 月 16 日
+  - 2027 年 1 月 1 日以降、ルイジアナ州とバーモント州では、ユニバーサル オプトアウト メカニズムとオプトアウト優先シグナルの規定が導入され、同様のプライバシーに関する規則が適用されている...
+  - ［数字］1 以上
+  - 包括的なプライバシー法が施行される予定の米国の州
+  - 2026 年 11 月 16 日
+  - 2027 年 1 月 1 日以降、オクラホマ州、ルイジアナ州、アラバマ州、バーモント州でプライバシー法の規定が施行されます。これらの州における Google の対応は、包括的な法律が施行されてい...
+  - お知らせの表示
+  - keep_outline
+  - expand_more
+  - © 2026 Google.
+
