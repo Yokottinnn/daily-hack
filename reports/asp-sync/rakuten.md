@@ -1,6 +1,6 @@
 # 楽天アフィリエイト（asp-sync）
 
-生成: **2026-10-26T22:30:48.692Z**
+生成: **2026-11-19T21:12:01.985Z**
 
 - ログイン: **できている**
 - 最終 URL: https://affiliate.rakuten.co.jp/report/summary
@@ -13,7 +13,8 @@
 | レポート | https://affiliate.rakuten.co.jp/report?l-id=af_header_mypage_02 |
 | レポート | https://affiliate.rakuten.co.jp/report/summary?l-id=af_header_mypage_02 |
 | サイト情報の登録 | https://affiliate.rakuten.co.jp/user/sites?l-id=af_header_mypage_03 |
-| 2026年10月1日(木) 【10月応募開始】SNSリンク別レポートキャンペーン | https://affiliate.rakuten.co.jp/info/#20261001 |
+| 2026年11月2日(月) キャンペーン 楽天ブックスにポケモンがやってきた！エントリ―＆条件達成でオリジナルグッズが当 | https://affiliate.rakuten.co.jp/info/#20261102 |
+| 2026年11月1日(日) キャンペーン 【11月応募開始】SNSリンク別レポートキャンペーン | https://affiliate.rakuten.co.jp/info/#20261101 |
 | レポート | https://affiliate.rakuten.co.jp/report/summary?l-id=af_footer_mypage_02 |
 | サイト情報の登録 | https://affiliate.rakuten.co.jp/user/sites?l-id=af_footer_mypage_03 |
 
@@ -54,12 +55,13 @@ SNSでの紹介方法
 ログアウト
 トップページ
 アフィリエイトレポート
-2026年10月1日(木) 【10月応募開始】SNSリンク別レポートキャンペーン
+2026年11月2日(月) キャンペーン 楽天ブックスにポケモンがやってきた！エントリ―＆条件達成でオリジナルグッズが当たる！キャンペーン
+2026年11月1日(日) キャンペーン 【11月応募開始】SNSリンク別レポートキャンペーン
 ショップ別
 注文明細
-クリック数 3
-売上件数 未確定 0
-CVR 0.00%
+クリック数 107
+売上件数 未確定 1
+CVR 0.93%
 売上金額
 クリック
 売上件数
