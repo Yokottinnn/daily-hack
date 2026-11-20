@@ -1,3 +1,5 @@
 [
-      {"task": "t760-gsc-request-indexing-top.sh", "rc": 0, "out": "リクエスト済み: 1 t760-gsc-request-indexing.md"}
+      {"task": "t750-embed-rk-55.sh", "rc": 0, "out": "- YT _YqcJC8pK94 「ふるさと納税のやり方｜2026年に変わった点とワンストップ特例【2026年版】」 / 暮らしとお金ニュース / 79 1 か月前 - YT ROTFjODuum8 「【2026年版】ふるさと納税 12月の駆け込み前に確認したい5つ｜決済日・上限額�"},
+      {"task": "t751-rakuten-furusato-photos.sh", "rc": 0, "out": "t751 / t751-bf-photos.md"},
+      {"task": "t752-furusato-items-read.sh", "rc": 0, "out": "- hamburg: 54 行 「【楽天市場】【ふるさと納税】【年内配送 12/15決済完了分まで※定期便除く】直火焼 デミグラスソース ハンバーグ 11」 - rice: 34 行 「【楽天市場】【ふるさと納税】【新米】令和8年度産 北海道産ななつぼし "}
   ]
