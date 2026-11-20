@@ -28,7 +28,7 @@
       "label": "言語数"
     }
   ],
-  "pricesCheckedAt": "2026-11-19T21:43:49.002Z",
+  "pricesCheckedAt": "2026-11-20T21:42:34.454Z",
   "items": [
     {
       "id": "plaud-note-pro",
@@ -88,7 +88,7 @@
         "reviewAverage": null,
         "reviewCount": 0,
         "shop": "秋葉原　アウトレットプラザ",
-        "checkedAt": "2026-11-19T21:43:49.002Z"
+        "checkedAt": "2026-11-20T21:42:34.454Z"
       },
       "amazon": {
         "keyword": "PLAUD NOTE Pro",
@@ -157,7 +157,7 @@
         "reviewAverage": null,
         "reviewCount": 0,
         "shop": "イルーナ本舗",
-        "checkedAt": "2026-11-19T21:43:49.002Z"
+        "checkedAt": "2026-11-20T21:42:34.454Z"
       },
       "amazon": {
         "keyword": "PLAUD NOTE ボイスレコーダー",
@@ -220,7 +220,7 @@
         "reviewAverage": 4.5,
         "reviewCount": 8,
         "shop": "トレテク!ソフトバンクセレクション",
-        "checkedAt": "2026-11-19T21:43:49.002Z"
+        "checkedAt": "2026-11-20T21:42:34.454Z"
       },
       "amazon": {
         "keyword": "PLAUD NotePin S",
@@ -277,7 +277,7 @@
         "reviewAverage": 4.22,
         "reviewCount": 9,
         "shop": "コジマYahoo!店",
-        "checkedAt": "2026-11-19T21:43:49.002Z"
+        "checkedAt": "2026-11-20T21:42:34.454Z"
       },
       "amazon": {
         "keyword": "Notta Memo",
@@ -324,14 +324,14 @@
           "ケース",
           "フィルム"
         ],
-        "url": "https://store.shopping.yahoo.co.jp/yamada-denki/4222918013.html",
-        "price": 30800,
+        "url": "https://store.shopping.yahoo.co.jp/nottamemo-y/y-notta-memo-pro.html",
+        "price": 29700,
         "shippingFree": true,
         "point": 0,
         "reviewAverage": null,
-        "reviewCount": 1,
-        "shop": "ヤマダデンキ Yahoo!店",
-        "checkedAt": "2026-11-19T21:43:49.002Z"
+        "reviewCount": 0,
+        "shop": "Notta Memo 公式 Yahoo!店",
+        "checkedAt": "2026-11-20T21:42:34.454Z"
       },
       "amazon": {
         "keyword": "Notta Memo Pro",
@@ -367,14 +367,14 @@
           "AMSWH"
         ],
         "exclude": [],
-        "url": "https://store.shopping.yahoo.co.jp/ksdenki/4549804972909.html",
+        "url": "https://store.shopping.yahoo.co.jp/yamada-denki/525683016.html",
         "price": 18700,
         "shippingFree": true,
         "point": 0,
-        "reviewAverage": null,
-        "reviewCount": 2,
-        "shop": "ケーズデンキ Yahoo!ショップ",
-        "checkedAt": "2026-11-19T21:43:49.002Z"
+        "reviewAverage": 4.11,
+        "reviewCount": 9,
+        "shop": "ヤマダデンキ Yahoo!店",
+        "checkedAt": "2026-11-20T21:42:34.454Z"
       },
       "amazon": {
         "keyword": "オートメモ S AMSWH",

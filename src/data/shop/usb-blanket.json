@@ -24,7 +24,7 @@
       "label": "重さ"
     }
   ],
-  "pricesCheckedAt": null,
+  "pricesCheckedAt": "2026-11-20T21:42:34.454Z",
   "items": [
     {
       "id": "yamazen-yktpd15",
@@ -59,7 +59,15 @@
         "exclude": [
           "中古",
           "◆"
-        ]
+        ],
+        "url": null,
+        "price": null,
+        "shippingFree": null,
+        "point": null,
+        "reviewAverage": null,
+        "reviewCount": null,
+        "shop": null,
+        "checkedAt": "2026-11-20T21:42:34.454Z"
       },
       "amazon": {
         "keyword": "山善 くるみケット Over Air PD YKTPD-15",
@@ -98,7 +106,15 @@
         "exclude": [
           "中古",
           "◆"
-        ]
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/beisiadenki/4550533250091.html",
+        "price": 10550,
+        "shippingFree": false,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 0,
+        "shop": "Bサプライズ(ベイシア電器)",
+        "checkedAt": "2026-11-20T21:42:34.454Z"
       },
       "amazon": {
         "keyword": "山善 くるみケット はんてん PD YKHPD-15",
@@ -137,7 +153,15 @@
         "exclude": [
           "中古",
           "◆"
-        ]
+        ],
+        "url": null,
+        "price": null,
+        "shippingFree": null,
+        "point": null,
+        "reviewAverage": null,
+        "reviewCount": null,
+        "shop": null,
+        "checkedAt": "2026-11-20T21:42:34.454Z"
       },
       "amazon": {
         "keyword": "山善 くるみケット LIGHT PD YHK-PD43",
@@ -176,7 +200,15 @@
         "exclude": [
           "中古",
           "◆"
-        ]
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/thanko-inc/000000004537.html",
+        "price": 3480,
+        "shippingFree": false,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 1,
+        "shop": "サンコー公式通販サイト Yahoo!店",
+        "checkedAt": "2026-11-20T21:42:34.454Z"
       },
       "amazon": {
         "keyword": "サンコー ポンチョっと BRKT24HBW",
@@ -299,7 +331,15 @@
         "exclude": [
           "中古",
           "◆"
-        ]
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/japan-eyewear/hntn23hbk.html",
+        "price": 6980,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 0,
+        "shop": "株式会社ジャパンアイウェア",
+        "checkedAt": "2026-11-20T21:42:34.454Z"
       },
       "amazon": {
         "keyword": "サンコー ほかてん HNTN23HBK",
