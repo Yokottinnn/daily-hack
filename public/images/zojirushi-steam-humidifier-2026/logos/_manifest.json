@@ -1,0 +1,13 @@
+{
+ "zojirushi.png": {
+  "brand": "象印",
+  "title": "File:Zojirushi Logo.svg",
+  "page": "https://en.wikipedia.org/wiki/File:Zojirushi_Logo.svg",
+  "src": "https://thumb.wikimedia.org/wikipedia/en/thumb/5/5f/Zojirushi_Logo.svg/960px-Zojirushi_Logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "orig": "https://upload.wikimedia.org/wikipedia/en/5/5f/Zojirushi_Logo.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+  "license": "Fair use",
+  "fetched": "2026-10-18",
+  "task": "ops/tasks/x317-product-brand-logos-wiki.sh",
+  "copied_from": "public/images/prime-sale-vs-rakuten-autumn-2026/logos/zojirushi.png"
+ }
+}

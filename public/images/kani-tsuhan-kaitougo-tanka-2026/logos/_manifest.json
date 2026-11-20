@@ -1,0 +1,21 @@
+{
+ "rakuten.png": {
+  "brand": "楽天市場",
+  "source": "コモンズ / 公式の楽天市場ロゴ",
+  "page": "コモンズ / 公式の楽天市場ロゴ",
+  "fetched": "2026-09-20",
+  "license_note": "商標。識別目的で使用",
+  "task": "ops/tasks/t132-*.sh",
+  "replaced_by": "rakutenichiba-app.jpg（台湾版「樂天市場」だったため 2026-10-25 に差し替え）",
+  "copied_from": "black-friday-2026-matome"
+ },
+ "yahooshop.png": {
+  "brand": "Yahoo!ショッピング",
+  "src": "https://s.yimg.jp/c/logo/f/2.0/shopping_r_34_2x.png",
+  "page": "https://shopping.yahoo.co.jp/",
+  "lic": "商標（識別目的）",
+  "fetched": "2026-11-15",
+  "via": "公式サイト（x503）",
+  "copied_from": "black-friday-2026-matome"
+ }
+}

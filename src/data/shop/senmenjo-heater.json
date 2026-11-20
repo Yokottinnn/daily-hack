@@ -1,0 +1,330 @@
+{
+  "id": "senmenjo-heater",
+  "title": "洗面所・脱衣所のヒーター（防滴か人感センサーか）",
+  "_note": "仕様はパナソニック・山善の公式の商品ページ（2026-11-20 確認）の記載だけ。防滴は公式に IPX 等級の記載があるものだけ書き、記載が無いものは「記載なし」（無いとは限らない）。10分の電気代は「強の消費電力(W、50Hz)÷1000×(10/60)時間×31円/kWh（家電公取協の目安単価）」で計算した、ずっと強で動いた場合の値。価格は自動取得に任せる",
+  "columns": [
+    {
+      "key": "drip",
+      "label": "防滴"
+    },
+    {
+      "key": "sensor",
+      "label": "人感センサー"
+    },
+    {
+      "key": "watt",
+      "label": "消費電力（強）"
+    },
+    {
+      "key": "ten",
+      "label": "10分の電気代（強・計算）"
+    },
+    {
+      "key": "size",
+      "label": "大きさ・重さ"
+    }
+  ],
+  "pricesCheckedAt": null,
+  "items": [
+    {
+      "id": "panasonic-ds-fas1200",
+      "brand": "パナソニック",
+      "name": "セラミックファンヒーター DS-FAS1200",
+      "badge": "防滴＋切タイマー",
+      "summary": "水がはねる洗面台の近くに置きたい人に。防滴（IPX1）で、5時間までの切タイマー付き",
+      "recommended": true,
+      "specs": {
+        "drip": "IPX1（防滴仕様）",
+        "sensor": "なし",
+        "watt": "1150W（50Hz）／1100W（60Hz）",
+        "ten": "約5.9円",
+        "size": "高さ31.5×幅25.5×奥行13.1cm・2.6kg"
+      },
+      "source": "https://panasonic.jp/danbo/products/DS-FAS1200/feature.html",
+      "rakuten": {
+        "keyword": "パナソニック DS-FAS1200",
+        "must": [
+          "DS-FAS1200"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "交換",
+          "部品",
+          "フィルター",
+          "カバー"
+        ]
+      },
+      "yahoo": {
+        "keyword": "パナソニック DS-FAS1200",
+        "must": [
+          "DS-FAS1200"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "交換",
+          "部品",
+          "フィルター",
+          "カバー"
+        ]
+      },
+      "amazon": {
+        "keyword": "パナソニック DS-FAS1200",
+        "asin": null
+      }
+    },
+    {
+      "id": "panasonic-ds-fan1200",
+      "brand": "パナソニック",
+      "name": "セラミックファンヒーター DS-FAN1200",
+      "badge": "防滴・シンプル",
+      "summary": "防滴（IPX1）があればよく、操作は強・弱のつまみだけでいい人に",
+      "recommended": false,
+      "specs": {
+        "drip": "IPX1（防滴仕様）",
+        "sensor": "なし",
+        "watt": "1150W（50Hz）／1100W（60Hz）",
+        "ten": "約5.9円",
+        "size": "高さ31.5×幅25.5×奥行13.1cm・2.5kg"
+      },
+      "source": "https://panasonic.jp/danbo/products/DS-FAN1200/feature.html",
+      "rakuten": {
+        "keyword": "パナソニック DS-FAN1200",
+        "must": [
+          "DS-FAN1200"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "交換",
+          "部品",
+          "フィルター",
+          "カバー"
+        ]
+      },
+      "yahoo": {
+        "keyword": "パナソニック DS-FAN1200",
+        "must": [
+          "DS-FAN1200"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "交換",
+          "部品",
+          "フィルター",
+          "カバー"
+        ]
+      },
+      "amazon": {
+        "keyword": "パナソニック DS-FAN1200",
+        "asin": null
+      }
+    },
+    {
+      "id": "panasonic-ds-fzx1200",
+      "brand": "パナソニック",
+      "name": "セラミックファンヒーター DS-FZX1200",
+      "badge": "人感＋室温センサー",
+      "summary": "水がかからない場所に置けて、消し忘れを人感センサーに任せたい人に。室温約22℃で止まる",
+      "recommended": false,
+      "specs": {
+        "drip": "記載なし",
+        "sensor": "あり（約2m・左右約45°）",
+        "watt": "1170W（50Hz）／1130W（60Hz）",
+        "ten": "約6.0円",
+        "size": "高さ37.9×幅23.5×奥行14.0cm"
+      },
+      "source": "https://panasonic.jp/danbo/products/DS-FZX1200/feature.html",
+      "rakuten": {
+        "keyword": "パナソニック DS-FZX1200",
+        "must": [
+          "DS-FZX1200"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "交換",
+          "部品",
+          "フィルター",
+          "カバー"
+        ]
+      },
+      "yahoo": {
+        "keyword": "パナソニック DS-FZX1200",
+        "must": [
+          "DS-FZX1200"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "交換",
+          "部品",
+          "フィルター",
+          "カバー"
+        ]
+      },
+      "amazon": {
+        "keyword": "パナソニック DS-FZX1200",
+        "asin": null
+      }
+    },
+    {
+      "id": "yamazen-dsf-ve122",
+      "brand": "山善",
+      "name": "脱衣所温風セラミックファンヒーター DSF-VE122",
+      "badge": "上向き温風",
+      "summary": "脱衣所で足元から体まで温めたい人に。人感と温度センサーの両方付き",
+      "recommended": false,
+      "specs": {
+        "drip": "記載なし",
+        "sensor": "あり（約2m・上下約30°／左右約60°）",
+        "watt": "1200W",
+        "ten": "約6.2円",
+        "size": "幅20×奥行14×高さ31.5cm・2.0kg"
+      },
+      "source": "https://book.yamazen.co.jp/product/detail/I00008559",
+      "rakuten": {
+        "keyword": "山善 DSF-VE122",
+        "must": [
+          "DSF-VE122"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "交換",
+          "部品",
+          "フィルター",
+          "カバー"
+        ]
+      },
+      "yahoo": {
+        "keyword": "山善 DSF-VE122",
+        "must": [
+          "DSF-VE122"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "交換",
+          "部品",
+          "フィルター",
+          "カバー"
+        ]
+      },
+      "amazon": {
+        "keyword": "山善 DSF-VE122",
+        "asin": null
+      }
+    },
+    {
+      "id": "yamazen-dsf-s123",
+      "brand": "山善",
+      "name": "大風量セラミックファンヒーター（人感センサー） DSF-S123",
+      "badge": "広く届く",
+      "summary": "広めの脱衣所で、人感センサーの届く距離（約3m）を優先したい人に",
+      "recommended": false,
+      "specs": {
+        "drip": "記載なし",
+        "sensor": "あり（約3m・上下左右約60°）",
+        "watt": "1200W",
+        "ten": "約6.2円",
+        "size": "幅26×奥行13.3×高さ40cm・2.8kg"
+      },
+      "source": "https://book.yamazen.co.jp/product/detail/I00003606",
+      "rakuten": {
+        "keyword": "山善 DSF-S123",
+        "must": [
+          "DSF-S123"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "交換",
+          "部品",
+          "フィルター",
+          "カバー"
+        ]
+      },
+      "yahoo": {
+        "keyword": "山善 DSF-S123",
+        "must": [
+          "DSF-S123"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "交換",
+          "部品",
+          "フィルター",
+          "カバー"
+        ]
+      },
+      "amazon": {
+        "keyword": "山善 DSF-S123",
+        "asin": null
+      }
+    },
+    {
+      "id": "yamazen-dmsf-j063",
+      "brand": "山善",
+      "name": "セラミックファンヒーター（人感センサー） DMSF-J063",
+      "badge": "小さい・600W",
+      "summary": "トイレや狭い洗面所で足元だけ温めたい人に。600Wで電気代は1200Wの半分",
+      "recommended": false,
+      "specs": {
+        "drip": "記載なし",
+        "sensor": "あり（約2m・上下左右約60°）",
+        "watt": "600W",
+        "ten": "約3.1円",
+        "size": "幅13.5×奥行12.5×高さ19cm・0.8kg"
+      },
+      "source": "https://book.yamazen.co.jp/product/detail/I00003978",
+      "rakuten": {
+        "keyword": "山善 DMSF-J063",
+        "must": [
+          "DMSF-J063"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "交換",
+          "部品",
+          "フィルター",
+          "カバー"
+        ]
+      },
+      "yahoo": {
+        "keyword": "山善 DMSF-J063",
+        "must": [
+          "DMSF-J063"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "交換",
+          "部品",
+          "フィルター",
+          "カバー"
+        ]
+      },
+      "amazon": {
+        "keyword": "山善 DMSF-J063",
+        "asin": null
+      }
+    }
+  ]
+}

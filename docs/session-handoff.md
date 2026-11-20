@@ -74,6 +74,30 @@
 
 - [ ] 12月の楽天スーパーSALEの日程が出たら rakuten-blackfriday-vs-supersale-dec-2026 の12月の節・FAQ・表紙の文言を今年の日付に直す
 
+### 2026-11-21 — blog3: 記事 2 本を公開（usb-kiru-moufu-mobile-battery-2026・heparin-ruiji-lotion-price-2026）。3 店ボタン usb-blanket.json・heparin-lotion.json を新設。X/YouTube は t730・t731
+
+次のアクション:
+
+- [ ] t732〜t737 で 3 店ボタンの遷移先を本番で確かめる。作戦室 ideas を published に
+
+### 2026-11-21 — blog3: おせち2027（osechi-2027-reizou-reitou）とカニ通販（kani-tsuhan-kaitougo-tanka-2026）の記事を書いた。Yahoo!のランキング上位から各8品、事実はYahoo!の商品ページ（クラウドで読めた）、楽天の同じ商品はt742で成果リンクの行き先まで確認
+
+次のアクション:
+
+- [ ] 公開後に作戦室 ideas を published に。X の告知は tweet2 に依頼
+
+### 2026-11-21 — blog3: 比較記事 2 本（zojirushi-steam-humidifier-2026・senmenjo-heater-boteki-2026）を書いた。ヒーターの 3 店ボタンのデータ src/data/shop/senmenjo-heater.json を新しく作った（パナソニック・山善の公式で防滴・人感・W を確認）。X・YouTube は t720（rk-40）で探して syndication／oEmbed で照合
+
+次のアクション:
+
+- [ ] 価格の自動取得が senmenjo-heater を拾うかを次の apply-prices で見る（山善 3 機種は 2026-10〜11 に型番が変わったばかりで、店に新しい型番が無いと検索リンクのまま）
+
+### 2026-11-21 — 名前検索の対策: トップの題名・説明文に「デイリーハック」と中身、WebSite の構造化データに別名・運営会社のロゴ・X を追加
+
+次のアクション:
+
+- [ ] 本番に出たら t760 で Google にトップの読み直しを頼む
+
 ### 2026-11-20 — x524 でブラックフライデーまとめが 11/19 12:09 に出たのを確認（2123252148729450700）。レビュー v154・作戦室 xdrafts v65 を投稿済みに
 
 次のアクション:
