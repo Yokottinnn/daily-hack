@@ -2,6 +2,12 @@
   "_note": "データから自動で取れない事実だけを置く（収益化作戦室が読む）。公開リポジトリなので、自分の報酬額・会社名・氏名・口座は書かない。週次ルーティンと blog セッションが更新する。",
   "deadlines": [
     {
+      "key": "adsense-anchor-review",
+      "label": "AdSense のアンカー広告（スマホ画面下の固定）を続けるかの見直し（AdSense の収益と成果リンクのクリックの前後を比べて決める・利用者）",
+      "date": "2026-11-24",
+      "src": "docs/growth-strategy.md の決定ログ 2026-11-19"
+    },
+    {
       "key": "adsense-identity",
       "label": "Google AdSense の本人確認（承認の 2026-11-15 から 45 日以内・利用者が行う）",
       "date": "2026-12-30",
