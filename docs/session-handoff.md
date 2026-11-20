@@ -68,6 +68,12 @@
 
 <!-- 新しい記録がこの下に追加される（新しいものが上） -->
 
+### 2026-11-21 — blog3: おせち2027（osechi-2027-reizou-reitou）とカニ通販（kani-tsuhan-kaitougo-tanka-2026）の記事を書いた。Yahoo!のランキング上位から各8品、事実はYahoo!の商品ページ（クラウドで読めた）、楽天の同じ商品はt742で成果リンクの行き先まで確認
+
+次のアクション:
+
+- [ ] 公開後に作戦室 ideas を published に。X の告知は tweet2 に依頼
+
 ### 2026-11-21 — blog3: 比較記事 2 本（zojirushi-steam-humidifier-2026・senmenjo-heater-boteki-2026）を書いた。ヒーターの 3 店ボタンのデータ src/data/shop/senmenjo-heater.json を新しく作った（パナソニック・山善の公式で防滴・人感・W を確認）。X・YouTube は t720（rk-40）で探して syndication／oEmbed で照合
 
 次のアクション:
