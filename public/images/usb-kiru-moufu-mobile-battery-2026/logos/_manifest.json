@@ -1,0 +1,41 @@
+{
+ "yamazen.png": {
+  "brand": "山善（YAMAZEN）",
+  "src": "https://www.yamazen.co.jp/themes/yamazen-2025/assets/images/logo/logo_01.svg",
+  "page": "https://www.yamazen.co.jp/",
+  "note": "山善 公式サイトのヘッダーのロゴ（SVG を PNG に。改変なし）",
+  "fetched": "2026-11-08",
+  "copied_from": "public/images/denkidai-setsuyaku-koshiki-2026/logos/yamazen.png"
+ },
+ "thanko.png": {
+  "brand": "サンコー（THANKO）",
+  "src": "https://data.thanko.jp/common/logo-thanko.png",
+  "page": "https://www.thanko.jp/",
+  "note": "サンコー公式通販のヘッダーのロゴ（改変なし）",
+  "fetched": "2026-11-20"
+ },
+ "cio.png": {
+  "brand": "CIO",
+  "src": "https://connectinternationalone.co.jp/wp/wp-content/themes/fcvanilla/img/common/footer_logo.svg",
+  "fetched": "2026-10-25",
+  "copied_from": "public/images/mobile-battery-comparison-2026/logos/cio.png"
+ },
+ "buffalo.png": {
+  "brand": "バッファロー",
+  "src": "https://www.buffalo.jp/",
+  "fetched": "2026-10-25",
+  "copied_from": "public/images/mobile-battery-comparison-2026/logos/buffalo.png"
+ },
+ "cheero.png": {
+  "brand": "cheero",
+  "src": "https://cheero.shop/cdn/shop/t/10/assets/logo_cheero.svg",
+  "fetched": "2026-10-25",
+  "copied_from": "public/images/mobile-battery-comparison-2026/logos/cheero.png"
+ },
+ "anker.png": {
+  "brand": "Anker",
+  "src": "https://www.ankerjapan.com/cdn/shop/files/logo-app-anker-v2.svg",
+  "fetched": "2026-10-25",
+  "copied_from": "public/images/mobile-battery-comparison-2026/logos/anker.png"
+ }
+}
