@@ -52,6 +52,8 @@ const model = (h) => { try { const u = new URL(h); const q = u.searchParams.get(
 // SHOP_JSON: src/data/shop/<シリーズ>.json（タスクが origin/main から取り出して渡す）。押したリンクから商品を引く
 const SHOP = (() => { try { return JSON.parse(fs.readFileSync(process.env.SHOP_JSON || '', 'utf8')).items || []; } catch { return []; } })();
 const itemOf = (bt) => SHOP.find((x) => (bt.store === 'yahoo' && x.yahoo?.url && bt.href.startsWith(x.yahoo.url))
+  || (bt.store === 'amazon' && x.amazon?.asin && bt.href.includes(`/dp/${x.amazon.asin}`))
+  || (bt.store === 'rakuten' && x.rakuten?.itemUrl && decodeURIComponent(bt.href).includes(x.rakuten.itemUrl))
   || (x[bt.store]?.keyword && model(bt.href) === x[bt.store].keyword)) || null;
 let i = 0;
 for (const bt of btns) {
@@ -94,7 +96,7 @@ for (const bt of btns) {
       return {
         title: document.title.slice(0, 90),
         robot: /ロボットではありません|captcha|Enter the characters|アクセスが集中/i.test(t),
-        cart: /カートに入れる|カートに追加|今すぐ買う|購入手続き/.test(t),
+        cart: /カートに入れる|カートに追加|今すぐ買う|購入手続き|買い物かごに入れる|かごに追加/.test(t),
         amazonResults: document.querySelectorAll('[data-component-type="s-search-result"]').length,
         rakutenResults: document.querySelectorAll('.searchresultitem, [class*="searchresultitem"], [data-testid*="item"]').length,
         yahooResults: document.querySelectorAll('[class*="SearchResult"] li, li[class*="LoopList"]').length,

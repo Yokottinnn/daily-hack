@@ -1,0 +1,111 @@
+{
+  "id": "heparin-lotion",
+  "title": "ヘパリン類似物質 0.3% のローション（市販の第2類医薬品）",
+  "_note": "市販の第2類医薬品だけ（区分・内容量・成分量はメーカー公式ページで 2026-11-20 に blog3 が確認）。効能・使い方は書かない。処方薬（ヒルドイドローションなど）はネットで買えないので入れていない。大正製薬 ヘパリオローションはヘパリン類似物質のほかにアラントイン・トコフェロール酢酸エステルを含む配合剤で、公式に内容量の記載が見つからず入れていない",
+  "columns": [
+    {
+      "key": "kubun",
+      "label": "区分（公式）"
+    },
+    {
+      "key": "size",
+      "label": "内容量"
+    },
+    {
+      "key": "ingredient",
+      "label": "有効成分（100g中）"
+    },
+    {
+      "key": "official",
+      "label": "メーカー直販の価格（税込）"
+    }
+  ],
+  "pricesCheckedAt": null,
+  "items": [
+    {
+      "id": "healmild-lotion-120",
+      "brand": "健栄製薬",
+      "name": "ヒルマイルドローション 120g",
+      "badge": "直販の1gあたりがいちばん安い",
+      "summary": "健栄製薬の直販で 120g 2,728円（1g あたり約22.7円）。",
+      "recommended": true,
+      "specs": {
+        "kubun": "第2類医薬品",
+        "size": "120g",
+        "ingredient": "ヘパリン類似物質 0.3g",
+        "official": "2,728円（1gあたり約22.7円）"
+      },
+      "source": "https://www.kenei-pharm.com/healmild/products/",
+      "rakuten": {
+        "keyword": "ヒルマイルドローション 120g",
+        "must": ["ヒルマイルド", "ローション", "120"],
+        "exclude": ["クリーム", "スプレー", "泡", "ライト", "セット", "中古", "◆"]
+      },
+      "yahoo": {
+        "keyword": "ヒルマイルドローション 120g",
+        "must": ["ヒルマイルド", "ローション", "120"],
+        "exclude": ["クリーム", "スプレー", "泡", "ライト", "セット", "中古", "◆"]
+      },
+      "amazon": {
+        "keyword": "ヒルマイルドローション 120g 第2類医薬品",
+        "asin": null
+      }
+    },
+    {
+      "id": "healmild-lotion-60",
+      "brand": "健栄製薬",
+      "name": "ヒルマイルドローション 60g",
+      "badge": "まず小さいほうで試す",
+      "summary": "健栄製薬の直販で 60g 1,705円（1g あたり約28.4円）。",
+      "specs": {
+        "kubun": "第2類医薬品",
+        "size": "60g",
+        "ingredient": "ヘパリン類似物質 0.3g",
+        "official": "1,705円（1gあたり約28.4円）"
+      },
+      "source": "https://www.kenei-pharm.com/healmild/products/",
+      "rakuten": {
+        "keyword": "ヒルマイルドローション 60g",
+        "must": ["ヒルマイルド", "ローション", "60"],
+        "exclude": ["クリーム", "スプレー", "泡", "ライト", "セット", "中古", "◆"]
+      },
+      "yahoo": {
+        "keyword": "ヒルマイルドローション 60g",
+        "must": ["ヒルマイルド", "ローション", "60"],
+        "exclude": ["クリーム", "スプレー", "泡", "ライト", "セット", "中古", "◆"]
+      },
+      "amazon": {
+        "keyword": "ヒルマイルドローション 60g 第2類医薬品",
+        "asin": null
+      }
+    },
+    {
+      "id": "pierson-hp-lotion",
+      "brand": "新新薬品工業",
+      "name": "ピアソンHPローション 50g",
+      "badge": "50g",
+      "summary": "新新薬品工業のピアソンHPローション。メーカーの公式ページに価格の記載はない。",
+      "specs": {
+        "kubun": "第2類医薬品",
+        "size": "50g",
+        "ingredient": "ヘパリン類似物質 0.3g",
+        "official": "公式に記載なし"
+      },
+      "source": "https://www.shinshin-yakuhin.co.jp/products/",
+      "rakuten": {
+        "keyword": "ピアソンHPローション 50g",
+        "must": ["ピアソン", "ローション"],
+        "exclude": ["クリーム", "EX", "セット", "中古", "◆"]
+      },
+      "yahoo": {
+        "keyword": "ピアソンHPローション 50g",
+        "must": ["ピアソン", "ローション"],
+        "exclude": ["クリーム", "EX", "セット", "中古", "◆"]
+      },
+      "amazon": {
+        "keyword": "ピアソンHPローション 50g 第2類医薬品",
+        "asin": null
+      }
+    }
+  ]
+}
