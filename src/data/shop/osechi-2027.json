@@ -1,0 +1,113 @@
+{
+  "id": "osechi-2027",
+  "title": "おせち 2027（冷蔵・冷凍・届く日）",
+  "_note": "2026-11-21 blog3。楽天・Yahoo! だけ（Amazon なし）。ボタンのリンクだけに使う（keyword を入れないので自動の価格取得はしない。価格・届く日・締め切りは記事の本文に Yahoo! の商品ページの値と確認日を書いた）。楽天の URL は t742 で楽天アフィリエイトのリンクから開いて着いた先（同じショップの同じ商品）",
+  "columns": [],
+  "pricesCheckedAt": null,
+  "items": [
+    {
+      "id": "irodori-saiko",
+      "brand": "彩りの里（楽天は 海鮮かに処）",
+      "name": "銀座「田中屋」監修おせち 彩幸 6寸三段 35品目 約3人前（冷蔵）",
+      "recommended": false,
+      "source": "https://store.shopping.yahoo.co.jp/irodorinosato/702.html",
+      "rakuten": {
+        "itemUrl": "https://item.rakuten.co.jp/kanidokoro/702/"
+      },
+      "yahoo": {
+        "url": "https://store.shopping.yahoo.co.jp/irodorinosato/702.html"
+      }
+    },
+    {
+      "id": "senga-omotenashi",
+      "brand": "おもてなし参道",
+      "name": "千賀屋謹製 おもてなし 8.5寸 三段重 58品 4〜5人前（冷蔵）",
+      "recommended": false,
+      "source": "https://store.shopping.yahoo.co.jp/omo-san/7006yh.html",
+      "rakuten": {
+        "itemUrl": "https://item.rakuten.co.jp/omosan/7006/"
+      },
+      "yahoo": {
+        "url": "https://store.shopping.yahoo.co.jp/omo-san/7006yh.html"
+      }
+    },
+    {
+      "id": "hisamatsu-hakata",
+      "brand": "博多久松",
+      "name": "和洋折衷本格料亭おせち 博多 8寸 三段重 50品 4〜5人前（冷凍）",
+      "recommended": false,
+      "source": "https://store.shopping.yahoo.co.jp/hisamatsu/2009071401.html",
+      "rakuten": {
+        "itemUrl": "https://item.rakuten.co.jp/hisamatsu/2009hakata/"
+      },
+      "yahoo": {
+        "url": "https://store.shopping.yahoo.co.jp/hisamatsu/2009071401.html"
+      }
+    },
+    {
+      "id": "belluna-nozomi",
+      "brand": "ベルーナグルメ",
+      "name": "ベルーナおせち 希 和洋中 三段重 46品目 2〜3人前（冷凍）",
+      "recommended": false,
+      "source": "https://store.shopping.yahoo.co.jp/bellunafoods/h1300-m4091-2002212.html",
+      "rakuten": {
+        "itemUrl": "https://item.rakuten.co.jp/belluna-gourmet/2002212/"
+      },
+      "yahoo": {
+        "url": "https://store.shopping.yahoo.co.jp/bellunafoods/h1300-m4091-2002212.html"
+      }
+    },
+    {
+      "id": "senga-omoiyari",
+      "brand": "おもてなし参道",
+      "name": "千賀屋謹製 おもいやり 6.5寸 三段重 38品 3人前（冷蔵）",
+      "recommended": false,
+      "source": "https://store.shopping.yahoo.co.jp/omo-san/7005yh.html",
+      "rakuten": {
+        "itemUrl": "https://item.rakuten.co.jp/omosan/7005/"
+      },
+      "yahoo": {
+        "url": "https://store.shopping.yahoo.co.jp/omo-san/7005yh.html"
+      }
+    },
+    {
+      "id": "takumi-kouga",
+      "brand": "笑顔の食卓 匠（楽天は 海鮮かに処）",
+      "name": "「中村孝明」監修おせち 煌賀 二段重 50品目（冷蔵）",
+      "recommended": false,
+      "source": "https://store.shopping.yahoo.co.jp/egaotakumi/667-3101.html",
+      "rakuten": {
+        "itemUrl": "https://item.rakuten.co.jp/kanidokoro/667s/"
+      },
+      "yahoo": {
+        "url": "https://store.shopping.yahoo.co.jp/egaotakumi/667-3101.html"
+      }
+    },
+    {
+      "id": "itamae-hishou",
+      "brand": "おせち専門店 板前魂",
+      "name": "板前魂の飛翔 8.5寸 三段重 39品 5人前（冷凍）",
+      "recommended": false,
+      "source": "https://store.shopping.yahoo.co.jp/itamaetamashii/234405.html",
+      "rakuten": {
+        "itemUrl": "https://item.rakuten.co.jp/2-itamae/hisyou/"
+      },
+      "yahoo": {
+        "url": "https://store.shopping.yahoo.co.jp/itamaetamashii/234405.html"
+      }
+    },
+    {
+      "id": "kouragumi-tsunuga",
+      "brand": "越前かに職人 甲羅組",
+      "name": "甲羅組おせち 角鹿 6.5寸 三段重 3〜4人前（冷凍）",
+      "recommended": false,
+      "source": "https://store.shopping.yahoo.co.jp/kouragumi/500007.html",
+      "rakuten": {
+        "itemUrl": "https://item.rakuten.co.jp/kouragumi/500007/"
+      },
+      "yahoo": {
+        "url": "https://store.shopping.yahoo.co.jp/kouragumi/500007.html"
+      }
+    }
+  ]
+}
