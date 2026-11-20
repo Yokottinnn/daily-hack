@@ -1,0 +1,58 @@
+{
+  "gift.jpg": {
+    "title": "File:Christmas-xmas-gifts-presents (23698727474).jpg",
+    "lic": "CC0",
+    "artist": "www.Pixel.la Free Stock Photos",
+    "page": "https://commons.wikimedia.org/wiki/File:Christmas-xmas-gifts-presents_(23698727474).jpg",
+    "fetched": "2026-11-20",
+    "via": "ops/tasks/t751-rakuten-furusato-photos.sh"
+  },
+  "osechi.jpg": {
+    "title": "File:Osechi yoyaku.jpg",
+    "lic": "CC BY-SA 3.0",
+    "artist": "7'o'7",
+    "page": "https://commons.wikimedia.org/wiki/File:Osechi_yoyaku.jpg",
+    "fetched": "2026-11-20",
+    "via": "ops/tasks/t751-rakuten-furusato-photos.sh"
+  },
+  "ricecooker.jpg": {
+    "title": "File:Philips HD4711 in showroom 20100825.jpg",
+    "lic": "CC BY-SA 3.0",
+    "artist": "Ask27",
+    "page": "https://commons.wikimedia.org/wiki/File:Philips_HD4711_in_showroom_20100825.jpg",
+    "fetched": "2026-11-20",
+    "via": "ops/tasks/t751-rakuten-furusato-photos.sh"
+  },
+  "heater.jpg": {
+    "title": "File:Wall-fixed kerosene heater.jpg",
+    "lic": "CC BY 3.0",
+    "artist": "Douglas P Perkins (Douglaspperkins (talk))",
+    "page": "https://commons.wikimedia.org/wiki/File:Wall-fixed_kerosene_heater.jpg",
+    "fetched": "2026-11-20",
+    "via": "ops/tasks/t751-rakuten-furusato-photos.sh"
+  },
+  "zuwai.jpg": {
+    "title": "File:Frozen Snow Crab Legs.jpg",
+    "lic": "CC BY-SA 4.0",
+    "artist": "Whoisjohngalt",
+    "page": "https://commons.wikimedia.org/wiki/File:Frozen_Snow_Crab_Legs.jpg",
+    "fetched": "2026-11-20",
+    "via": "ops/tasks/t751-rakuten-furusato-photos.sh"
+  },
+  "rice.jpg": {
+    "title": "File:Five kg rice bags.jpg",
+    "lic": "CC BY-SA 3.0",
+    "artist": "Marcel Montes",
+    "page": "https://commons.wikimedia.org/wiki/File:Five_kg_rice_bags.jpg",
+    "fetched": "2026-11-20",
+    "via": "ops/tasks/t751-rakuten-furusato-photos.sh"
+  },
+  "powerstation.jpg": {
+    "title": "File:Goal Zero Yeti 1400 Lithium Portable Power Station with WiFi Battery Pack with MacBook Pro - USB-C Power Delivery Specification (PD spec) (43467687445).jpg",
+    "lic": "CC BY-SA 2.0",
+    "artist": "Tony Webster from Minneapolis, Minnesota, United States",
+    "page": "https://commons.wikimedia.org/wiki/File:Goal_Zero_Yeti_1400_Lithium_Portable_Power_Station_with_WiFi_Battery_Pack_with_MacBook_Pro_-_USB-C_Power_Delivery_Specification_(PD_spec)_(43467687445).jpg",
+    "fetched": "2026-11-20",
+    "via": "ops/tasks/t751-rakuten-furusato-photos.sh"
+  }
+}

@@ -68,6 +68,12 @@
 
 <!-- 新しい記録がこの下に追加される（新しいものが上） -->
 
+### 2026-11-21 — 楽天ブラックフライデーと12月のスーパーSALEの比較記事、ふるさと納税12月の駆け込み記事を公開（作戦室の ideas を published に）
+
+次のアクション:
+
+- [ ] 12月の楽天スーパーSALEの日程が出たら rakuten-blackfriday-vs-supersale-dec-2026 の12月の節・FAQ・表紙の文言を今年の日付に直す
+
 ### 2026-11-21 — blog3: 記事 2 本を公開（usb-kiru-moufu-mobile-battery-2026・heparin-ruiji-lotion-price-2026）。3 店ボタン usb-blanket.json・heparin-lotion.json を新設。X/YouTube は t730・t731
 
 次のアクション:
