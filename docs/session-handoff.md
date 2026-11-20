@@ -68,6 +68,12 @@
 
 <!-- 新しい記録がこの下に追加される（新しいものが上） -->
 
+### 2026-11-21 — blog3: 記事 2 本を公開（usb-kiru-moufu-mobile-battery-2026・heparin-ruiji-lotion-price-2026）。3 店ボタン usb-blanket.json・heparin-lotion.json を新設。X/YouTube は t730・t731
+
+次のアクション:
+
+- [ ] t732〜t737 で 3 店ボタンの遷移先を本番で確かめる。作戦室 ideas を published に
+
 ### 2026-11-21 — blog3: おせち2027（osechi-2027-reizou-reitou）とカニ通販（kani-tsuhan-kaitougo-tanka-2026）の記事を書いた。Yahoo!のランキング上位から各8品、事実はYahoo!の商品ページ（クラウドで読めた）、楽天の同じ商品はt742で成果リンクの行き先まで確認
 
 次のアクション:

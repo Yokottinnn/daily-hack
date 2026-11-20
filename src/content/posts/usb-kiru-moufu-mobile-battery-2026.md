@@ -409,7 +409,31 @@ references:
 
 <div data-shop-card="usb-blanket:thanko-brkt24hbw"></div>
 
-<!-- EMBEDS -->
+## 実際の声と動画｜USBの電気毛布とモバイルバッテリー
+
+メーカーの発信と、実際に買って試した動画を並べた。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">寒いけど、暖房を点ける程ではない… そんな時には『くるみケット』がオススメ ●お手持ちのモバイルバッテリーでOK ●電源を気にせず家中どこでも使える ●820gと軽量✨ 上からずぼっと被るだけ。コンセントを気にせず自由に動けるから、家事をする時にも最適です。</p>&mdash; 株式会社 山善【公式】 (@YAMAZEN_jp) <a href="https://twitter.com/YAMAZEN_jp/status/1983368441613463958">2025年10月29日</a></blockquote>
+
+**山善の公式アカウント**の紹介。「お手持ちのモバイルバッテリーでOK」とあるが、PD＋の機種は**USB-Cから9V 2A以上が出るもの**という条件が付く（公式の商品ページ）。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">上からずぼっと被るだけ 着たまま動ける電気毛布 急に寒くなりましたね🥶まだ11月だし、ヒーター点けるのもなぁ…と言う時にオススメの電気毛布です。モバイルバッテリーで使えるから、着たまま自由に動けます。</p>&mdash; 株式会社 山善【公式】 (@YAMAZEN_jp) <a href="https://twitter.com/YAMAZEN_jp/status/2119626279334932774">2026年11月9日</a></blockquote>
+
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/-hBvSYd-X7A" title="くるみケット Over Air PD＋（USBタイプ） YKPD-15（YAMAZENチャンネル）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+山善の公式チャンネルの紹介動画（YKPD-15 は YKTPD-15 と共用の型番と公式ページに記載）。
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/eRjDL3KxSjg" title="【本当に使える？】モバイルバッテリーで使えるUSB式電気毛布を買ってみたから検証してみた結果（サトシの秘密基地）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+モバイルバッテリーで動くUSB式の電気毛布を、実際に買って試している。
+
+<p class="source-note">引用した X の投稿は、2026年11月20日に本文・投稿者・日付を確かめたもの。埋め込んだ YouTube は oEmbed でタイトルと投稿者を照合し、実在を確かめたもの。どちらも投稿した人の発信・撮影時点の内容で、この記事の数字とは別のもの。</p>
 
 ## よくある質問
 

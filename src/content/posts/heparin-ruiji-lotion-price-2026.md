@@ -253,7 +253,27 @@ references:
 
 <div data-shop-card="heparin-lotion:pierson-hp-lotion"></div>
 
-<!-- EMBEDS -->
+## 実際の声と動画｜処方と市販の値段
+
+処方と市販の値段の差、2027年3月からの制度について、実際に出ている声と動画。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">類似品は売ってるんすよね… 因みに市販品めちゃくちゃ高い。 さっき紹介してもろたヒルメナイド1本分で、皮膚科で処方されるヒルドイド5、6本分くらいのお値段…（わしはいつも8本ぐらい処方してもろてます）</p>&mdash; きらり山 優 (@ymzkmsr) <a href="https://twitter.com/ymzkmsr/status/1986386989739090358">2025年11月6日</a></blockquote>
+
+**市販品は処方の何本分**という体感の声。薬の部分だけを1gで比べると、後発品の3割負担（約1.9円）とヒルマイルドローション120gの直販（約22.7円）で約12倍。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">みんな知ってる？ 病院のお薬の値段が上がっちゃうよ💦 来年3月から開始予定のOTCの制度のことなんやけどそもそもOTCとは？ 病院で処方される薬のうち、市販薬（OTC）とほぼ同じ成分・効能を持つ薬のことです 代表例としては、 ロキソニン（痛み止め） アレグラ（花粉症薬） ヒルドイド（保湿剤）</p>&mdash; masumi.m#のんべぇ隊No.36 (@TAIMAMAMASUMI) <a href="https://twitter.com/TAIMAMAMASUMI/status/2062656448887480343">2026年6月4日</a></blockquote>
+
+2027年3月1日からの**OTC類似薬の追加負担**を知らせる投稿。対象の決め方と対象外になる場合は、上の厚生労働省の節にまとめた。
+
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/WEv_GJ56QRE" title="【乾燥肌対策】大人気「ヘパリン類似物質」の市販薬（ヒルマイルド/カルテHD/ヘパソフト等）を薬剤師が徹底比較！（薬剤師ゆうのお薬紹介）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+薬剤師が、ヘパリン類似物質の市販薬を並べて比べている。
+
+<p class="source-note">引用した X の投稿は、2026年11月20日に本文・投稿者・日付を確かめたもの。埋め込んだ YouTube は oEmbed でタイトルと投稿者を照合し、実在を確かめたもの。どちらも投稿した人の発信・撮影時点の内容で、この記事の数字とは別のもの。</p>
 
 ## よくある質問
 
