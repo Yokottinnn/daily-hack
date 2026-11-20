@@ -75,6 +75,8 @@
 | `rechargeable-kairo-comparison-2026` | 3 店ボタン（`src/data/shop/rechargeable-kairo.json`） | 楽天のリンクは `src/data/shop/config.json` の `rakuten.affiliateId` 1 か所で替わる（記事の Markdown には書いていない） |
 | `mobile-battery-comparison-2026` | 3 店ボタン（`src/data/shop/mobile-battery.json`） | 同上 |
 | `heated-vest-comparison-2026` | 3 店ボタン（`src/data/shop/heated-vest.json`） | 同上 |
+| `zojirushi-steam-humidifier-2026` | 3 店ボタン（`src/data/shop/zojirushi-steam-humidifier.json`） | 同上（2026-11-20） |
+| `senmenjo-heater-boteki-2026` | 3 店ボタン（`src/data/shop/senmenjo-heater.json`） | 同上（2026-11-20） |
 
 ## A8 のリンクを入れた湾岸ライフの記事（2026-10-25）
 
