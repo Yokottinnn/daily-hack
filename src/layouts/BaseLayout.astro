@@ -24,7 +24,8 @@ const {
 // プレビュー（下書きを含むビルド・*.pages.dev）では、全ページにコメント欄を出す（2026-11-02 利用者「このページにコメント機能がないよ　バグです」）
 const showReviewTools = reviewTools || import.meta.env.PUBLIC_INCLUDE_DRAFTS === 'true';
 
-const fullTitle = title === 'Daily Hack' ? title : `${title} | Daily Hack`;
+// トップは「Daily Hack（デイリーハック）｜…」のように自前で全部書くので、後ろに名前を足さない（2026-11-20 名前で検索して出やすくする）
+const fullTitle = title.startsWith('Daily Hack') ? title : `${title} | Daily Hack`;
 const canonical = new URL(Astro.url.pathname, Astro.site).toString();
 const ogImageUrl = new URL(ogImage, Astro.site).toString();
 
@@ -104,11 +105,17 @@ const yandexVerification = import.meta.env.PUBLIC_YANDEX_VERIFICATION ?? '';
       '@context': 'https://schema.org',
       '@type': 'WebSite',
       name: 'Daily Hack',
+      // 2026-11-20: 「デイリーハック」で探されても同じサイトだと分かるように別名を足した（利用者がダイアログで選んだ）
+      alternateName: ['デイリーハック', 'Daily Hack（デイリーハック）'],
       url: Astro.site?.toString(),
-      description: 'お得を毎日、ハック。',
+      inLanguage: 'ja',
+      description: 'お得を毎日、ハック。ポイ活・節約・比較と、豊洲・有明・晴海の湾岸ニュース。',
       publisher: {
         '@type': 'Organization',
         name: 'Fieldbeside合同会社',
+        url: 'https://fieldbeside.com/',
+        logo: { '@type': 'ImageObject', url: new URL('/images/mascot-avatar-240.webp', Astro.site).toString() },
+        sameAs: ['https://x.com/heng_ji31590'],
       },
     })} />
 
