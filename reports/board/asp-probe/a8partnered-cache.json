@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-19T21:41:48.799Z",
+ "generated": "2026-11-20T21:41:20.722Z",
  "note": "読んだ案件の控え（消さない・提携が切れた案件も残る）",
  "rows": [
   {
@@ -3169,6 +3169,14 @@
    "self": false,
    "point": false,
    "listing": "リスティングNG"
+  },
+  {
+   "id": "s00000016938001",
+   "name": "ソニーグループが提供する『NUROモバイル』",
+   "reward": "新規申込1350円 EPC",
+   "self": true,
+   "point": true,
+   "listing": "リスティング一部OK"
   }
  ]
 }
