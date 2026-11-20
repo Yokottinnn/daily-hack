@@ -68,6 +68,12 @@
 
 <!-- 新しい記録がこの下に追加される（新しいものが上） -->
 
+### 2026-11-21 — blog3: 比較記事 2 本（zojirushi-steam-humidifier-2026・senmenjo-heater-boteki-2026）を書いた。ヒーターの 3 店ボタンのデータ src/data/shop/senmenjo-heater.json を新しく作った（パナソニック・山善の公式で防滴・人感・W を確認）。X・YouTube は t720（rk-40）で探して syndication／oEmbed で照合
+
+次のアクション:
+
+- [ ] 価格の自動取得が senmenjo-heater を拾うかを次の apply-prices で見る（山善 3 機種は 2026-10〜11 に型番が変わったばかりで、店に新しい型番が無いと検索リンクのまま）
+
 ### 2026-11-21 — 名前検索の対策: トップの題名・説明文に「デイリーハック」と中身、WebSite の構造化データに別名・運営会社のロゴ・X を追加
 
 次のアクション:
