@@ -1,0 +1,33 @@
+{
+  "rakuten-furusato.png": {
+    "brand": "楽天ふるさと納税",
+    "source": "https://r.r10s.jp/evt/event/furusato/_cmn/img/20250418_logo.svg",
+    "page": "https://event.rakuten.co.jp/furusato/",
+    "fetched": "2026-09-22",
+    "task": "ops/tasks/t155-brand-logos-batch.sh",
+    "license_note": "商標。識別目的で使用。**SVG を Chromium で PNG にした**",
+    "copied_from": "public/images/furusato-portal-comparison-2026/logos/rakuten-furusato.png",
+    "copied": "2026-11-20"
+  },
+  "rakutencard.png": {
+    "brand": "楽天カード",
+    "source": "https://www.rakuten-card.co.jp/",
+    "page": "https://www.rakuten-card.co.jp/",
+    "fetched": "2026-09-20",
+    "license_note": "公式サイトのロゴ画像（商標）",
+    "task": "ops/tasks/t130-*.sh",
+    "copied_from": "public/images/prime-sale-vs-rakuten-autumn-2026/logos/rakutencard.png",
+    "copied": "2026-11-20"
+  },
+  "rakutenichiba-app.jpg": {
+    "brand": "楽天市場",
+    "seller": "Rakuten Group, Inc.",
+    "src": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/44/6c/cc/446ccc60-4ecc-7f46-cc97-9ed11a734483/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+    "page": "https://apps.apple.com/jp/app/%E6%A5%BD%E5%A4%A9%E5%B8%82%E5%A0%B4-%E3%81%8A%E8%B2%B7%E3%81%84%E7%89%A9%E3%81%A7%E6%A5%BD%E5%A4%A9%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88%E3%81%8C%E8%B2%AF%E3%81%BE%E3%82%8B%E4%BE%BF%E5%88%A9%E3%81%AA%E9%80%9A%E8%B2%A9%E3%82%A2%E3%83%97%E3%83%AA/id419267350?uo=4",
+    "fetched": "2026-10-18",
+    "task": "ops/tasks/x316-product-brand-logos.sh",
+    "note": "App Store に提供元（Rakuten Group, Inc.）が登録した楽天市場アプリのアイコン。前の rakutenichiba.png は台湾版「樂天市場」だったため差し替えた（2026-10-18）",
+    "copied_from": "public/images/prime-sale-vs-rakuten-autumn-2026/logos/rakutenichiba-app.jpg",
+    "copied": "2026-11-20"
+  }
+}
