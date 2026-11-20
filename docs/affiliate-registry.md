@@ -75,6 +75,8 @@
 | `rechargeable-kairo-comparison-2026` | 3 店ボタン（`src/data/shop/rechargeable-kairo.json`） | 楽天のリンクは `src/data/shop/config.json` の `rakuten.affiliateId` 1 か所で替わる（記事の Markdown には書いていない） |
 | `mobile-battery-comparison-2026` | 3 店ボタン（`src/data/shop/mobile-battery.json`） | 同上 |
 | `heated-vest-comparison-2026` | 3 店ボタン（`src/data/shop/heated-vest.json`） | 同上 |
+| `usb-kiru-moufu-mobile-battery-2026` | 3 店ボタン（`src/data/shop/usb-blanket.json`・`mobile-battery.json`） | 同上（2026-11-20） |
+| `heparin-ruiji-lotion-price-2026` | 3 店ボタン（`src/data/shop/heparin-lotion.json`） | 同上（2026-11-20）。市販の第2類医薬品だけ |
 
 ## A8 のリンクを入れた湾岸ライフの記事（2026-10-25）
 
