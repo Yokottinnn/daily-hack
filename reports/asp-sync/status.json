@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-19T21:12:01.985Z",
+  "generated": "2026-11-20T21:12:06.126Z",
   "providers": {
     "a8": {
       "name": "A8.net",
@@ -223,7 +223,7 @@
           ]
         }
       ],
-      "menus": 23
+      "menus": 21
     },
     "rakuten": {
       "name": "楽天アフィリエイト",
