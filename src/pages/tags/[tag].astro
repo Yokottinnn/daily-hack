@@ -67,7 +67,7 @@ const ld = wangan
 
 <BaseLayout title={title} description={description} noindex={sorted.length < (wangan ? 1 : Math.max(1, Number(QUALITY.tagIndexMinPosts) || 0))}>
   {ld && <script slot="head" type="application/ld+json" set:html={JSON.stringify(ld)} />}
-  <main class="wrap" style="padding: 48px 0;">
+  <main class="wrap" style="padding-top: 48px; padding-bottom: 48px;">
     <Breadcrumb items={wangan ? [
       { label: 'ホーム', href: '/' },
       { label: '湾岸ライフ', href: '/category/wangan-life/' },
