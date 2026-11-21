@@ -1665,6 +1665,308 @@
       "all": 1855,
       "human": 954,
       "scope": "blog-html"
+    },
+    "pages": {
+      "/": {
+        "human": 10
+      },
+      "/author/": {
+        "human": 3
+      },
+      "/category/campaigns/": {
+        "human": 3
+      },
+      "/category/services/": {
+        "human": 3
+      },
+      "/disclaimer/": {
+        "human": 3
+      },
+      "/about/": {
+        "human": 2
+      },
+      "/category/comparisons/": {
+        "human": 2
+      },
+      "/category/howto/": {
+        "human": 2
+      },
+      "/category/roundups/": {
+        "human": 2
+      },
+      "/category/wangan-life/": {
+        "human": 2
+      },
+      "/contact/": {
+        "human": 2
+      },
+      "/privacy/": {
+        "human": 2
+      },
+      "/search/": {
+        "human": 2
+      },
+      "/tags/%E3%82%BF%E3%83%AF%E3%83%9E%E3%83%B3/": {
+        "human": 2
+      },
+      "/tags/%E3%83%86%E3%82%A3%E3%83%A0%E3%83%BB%E3%83%90%E3%83%BC%E3%83%88%E3%83%B3/": {
+        "human": 2
+      },
+      "/tags/%E3%83%86%E3%83%8B%E3%82%B9/": {
+        "human": 2
+      },
+      "/tags/%E3%83%89%E3%83%AD%E3%83%BC%E3%83%B3/": {
+        "human": 2
+      },
+      "/tags/%E3%83%9E%E3%83%AC%E3%83%BC%E3%82%B7%E3%82%A2%E3%83%95%E3%82%A7%E3%82%A2/": {
+        "human": 2
+      },
+      "/tags/%E5%8D%83%E5%AE%A2%E4%B8%87%E6%9D%A5/": {
+        "human": 2
+      },
+      "/tags/%E6%9C%89%E6%98%8E%E3%82%B3%E3%83%AD%E3%82%B7%E3%82%A2%E3%83%A0/": {
+        "human": 2
+      },
+      "/tags/%E6%9D%B1%E3%83%ACPPO/": {
+        "human": 2
+      },
+      "/tags/%E8%87%A8%E6%B5%B7%E5%9C%B0%E4%B8%8B%E9%89%84/": {
+        "human": 2
+      },
+      "/tags/%E8%AC%8E%E8%A7%A3%E3%81%8D/": {
+        "human": 2
+      },
+      "/tags/%E8%B1%8A%E6%B4%B2%E3%81%90%E3%82%8B%E3%82%8A%E5%85%AC%E5%9C%92/": {
+        "human": 2
+      },
+      "/tags/%E8%B1%8A%E6%B4%B2%E5%85%AC%E5%9C%92/": {
+        "human": 2
+      },
+      "/drafts/": {
+        "human": 1
+      },
+      "/tags/%E3%81%8A%E3%81%99%E3%81%99%E3%82%81/": {
+        "human": 1
+      },
+      "/tags/%E3%81%8A%E5%8F%B0%E5%A0%B4/": {
+        "human": 1
+      },
+      "/tags/%E3%81%8C%E3%82%93%E4%BF%9D%E9%99%BA/": {
+        "human": 1
+      },
+      "/tags/%E3%81%8F%E3%82%89%E5%AF%BF%E5%8F%B8/": {
+        "human": 1
+      },
+      "/tags/%E3%81%95%E3%81%A8%E3%81%B5%E3%82%8B/": {
+        "human": 1
+      },
+      "/tags/%E3%81%98%E3%82%83%E3%82%89%E3%82%93/": {
+        "human": 1
+      },
+      "/tags/%E3%81%99%E3%81%8D%E5%AE%B6/": {
+        "human": 1
+      },
+      "/tags/%E3%81%9D%E3%81%AA%E3%82%A8%E3%83%AA%E3%82%A2%E6%9D%B1%E4%BA%AC/": {
+        "human": 1
+      },
+      "/tags/%E3%81%A1%E3%82%87%E3%81%B3%E3%83%AA%E3%83%83%E3%83%81/": {
+        "human": 1
+      },
+      "/tags/%E3%81%A4%E3%81%BF%E3%81%9F%E3%81%A6%E6%8A%95%E8%B3%87%E6%9E%A0/": {
+        "human": 1
+      },
+      "/tags/%E3%81%A4%E3%81%BF%E3%81%9F%E3%81%A6%E6%8A%95%E8%B3%87/": {
+        "human": 1
+      },
+      "/tags/%E3%81%A8%E3%81%A8%E3%81%AE%E3%81%86/": {
+        "human": 1
+      },
+      "/tags/%E3%81%A9%E3%81%93%E3%81%8B%E3%81%AB%E3%83%9E%E3%82%A4%E3%83%AB/": {
+        "human": 1
+      },
+      "/tags/%E3%81%AA%E3%81%8B%E5%8D%AF/": {
+        "human": 1
+      },
+      "/tags/%E3%81%B5%E3%82%8B%E3%81%95%E3%81%A8%E3%83%81%E3%83%A7%E3%82%A4%E3%82%B9/": {
+        "human": 1
+      },
+      "/tags/%E3%81%B5%E3%82%8B%E3%81%95%E3%81%A8%E7%B4%8D%E7%A8%8E%20%E3%81%8A%E3%81%99%E3%81%99%E3%82%81%202026/": {
+        "human": 1
+      },
+      "/tags/%E3%81%B5%E3%82%8B%E3%81%95%E3%81%A8%E7%B4%8D%E7%A8%8E%20%E3%82%B5%E3%82%A4%E3%83%88/": {
+        "human": 1
+      },
+      "/tags/%E3%81%B5%E3%82%8B%E3%81%95%E3%81%A8%E7%B4%8D%E7%A8%8E/": {
+        "human": 1
+      },
+      "/tags/%E3%81%B5%E3%82%8B%E3%81%AA%E3%81%B3/": {
+        "human": 1
+      },
+      "/tags/%E3%81%BE%E3%81%84%E3%81%B0%E3%81%99%E3%81%91%E3%81%A3%E3%81%A8/": {
+        "human": 1
+      },
+      "/tags/%E3%81%BE%E3%81%A8%E3%82%81/": {
+        "human": 1
+      },
+      "/tags/%E3%81%BF%E3%82%93%E3%81%AA%E3%81%AEFX/": {
+        "human": 1
+      },
+      "/tags/%E3%82%89%E3%82%89%E3%81%BD%E3%83%BC%E3%81%A8%E8%B1%8A%E6%B4%B2/": {
+        "human": 1
+      },
+      "/tags/%E3%82%89%E3%82%89%E3%81%BD%E3%83%BC%E3%81%A8/": {
+        "human": 1
+      },
+      "/tags/%E3%82%A2%E3%82%A4%E3%83%89%E3%83%AB/": {
+        "human": 1
+      },
+      "/tags/%E3%82%A2%E3%82%A4%E3%83%95%E3%83%AB/": {
+        "human": 1
+      },
+      "/tags/%E3%82%A2%E3%82%A4%E3%83%AA%E3%82%B9%E3%82%AA%E3%83%BC%E3%83%A4%E3%83%9E/": {
+        "human": 1
+      },
+      "/tags/%E3%82%A2%E3%82%A6%E3%83%88%E3%83%AC%E3%83%83%E3%83%88%E3%83%A2%E3%83%BC%E3%83%AB/": {
+        "human": 1
+      },
+      "/tags/%E3%82%A2%E3%82%A6%E3%83%88%E3%83%AC%E3%83%83%E3%83%88/": {
+        "human": 1
+      },
+      "/tags/%E3%82%A2%E3%82%AF%E3%82%B5%E3%83%80%E3%82%A4%E3%83%AC%E3%82%AF%E3%83%88/": {
+        "human": 1
+      },
+      "/tags/%E3%82%A2%E3%82%B3%E3%83%A0/": {
+        "human": 1
+      },
+      "/tags/%E3%82%A2%E3%83%B3%E3%82%B1%E3%83%BC%E3%83%88%E3%83%A2%E3%83%8B%E3%82%BF%E3%83%BC/": {
+        "human": 1
+      },
+      "/tags/%E3%82%A2%E3%83%BC%E3%83%AA%E3%83%BC%E3%82%B5%E3%83%9E%E3%83%BC/": {
+        "human": 1
+      },
+      "/tags/%E3%82%A4%E3%82%AA%E3%83%B3%E3%82%B3%E3%83%B3%E3%83%91%E3%82%B9%E3%83%88%E3%83%A9%E3%83%99%E3%83%AB%E3%83%A2%E3%83%BC%E3%83%AB/": {
+        "human": 1
+      },
+      "/tags/%E3%82%A4%E3%82%AA%E3%83%B3%E3%83%A2%E3%83%BC%E3%83%AB%E5%A3%B2%E4%B8%8A%E3%83%A9%E3%83%B3%E3%82%AD%E3%83%B3%E3%82%B0/": {
+        "human": 1
+      },
+      "/tags/%E3%82%A4%E3%82%AA%E3%83%B3%E3%83%A2%E3%83%BC%E3%83%AB%E5%A4%A7%E3%81%8D%E3%81%95%E3%83%A9%E3%83%B3%E3%82%AD%E3%83%B3%E3%82%B0/": {
+        "human": 1
+      },
+      "/tags/%E3%82%A4%E3%82%AA%E3%83%B3%E3%83%A2%E3%83%BC%E3%83%AB%E6%A9%BF%E5%8E%9F/": {
+        "human": 1
+      },
+      "/tags/%E3%82%A4%E3%82%AA%E3%83%B3%E3%83%A2%E3%83%BC%E3%83%AB/": {
+        "human": 1
+      },
+      "/tags/%E3%82%A4%E3%82%AA%E3%83%B3%E3%83%AC%E3%82%A4%E3%82%AF%E3%82%BF%E3%82%A6%E3%83%B3/": {
+        "human": 1
+      },
+      "/tags/%E3%82%A4%E3%82%B1%E3%82%A2/": {
+        "human": 1
+      },
+      "/tags/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/": {
+        "human": 1
+      },
+      "/tags/%E3%82%A4%E3%83%AB%E3%83%9F%E3%83%8D%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3/": {
+        "human": 1
+      },
+      "/tags/%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%8D%E3%83%83%E3%83%88/": {
+        "human": 1
+      },
+      "/tags/%E3%82%A4%E3%83%B3%E3%83%87%E3%83%83%E3%82%AF%E3%82%B9%E3%83%95%E3%82%A1%E3%83%B3%E3%83%89/": {
+        "human": 1
+      },
+      "/tags/%E3%82%A4%E3%83%B3%E3%83%95%E3%82%A3%E3%83%8B%E3%83%86%E3%82%A3%E3%83%97%E3%83%BC%E3%83%AB/": {
+        "human": 1
+      },
+      "/tags/%E3%82%A8%E3%82%A2%E3%82%B3%E3%83%B3%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%8B%E3%83%B3%E3%82%B0/": {
+        "human": 1
+      },
+      "/tags/%E3%82%A8%E3%82%A2%E3%82%B3%E3%83%B3/": {
+        "human": 1
+      },
+      "/tags/%E3%82%A8%E3%82%A2%E3%83%88%E3%83%AA/": {
+        "human": 1
+      },
+      "/tags/%E3%82%A8%E3%83%8B%E3%82%BF%E3%82%A4%E3%83%A0%E3%83%95%E3%82%A3%E3%83%83%E3%83%88%E3%83%8D%E3%82%B9/": {
+        "human": 1
+      },
+      "/tags/%E3%82%A8%E3%83%9D%E3%82%B9%E3%82%AB%E3%83%BC%E3%83%89/": {
+        "human": 1
+      },
+      "/tags/%E3%82%AA%E3%83%AA%E3%83%83%E3%82%AF%E3%82%B9/": {
+        "human": 1
+      },
+      "/tags/%E3%82%AA%E3%83%BC%E3%82%B1%E3%83%BC/": {
+        "human": 1
+      },
+      "/tags/%E3%82%AB%E3%82%A4%E3%83%AD/": {
+        "human": 1
+      },
+      "/tags/%E3%82%AB%E3%83%A4%E3%83%83%E3%82%AF/": {
+        "human": 1
+      },
+      "/tags/%E3%82%AB%E3%83%BC%E3%82%B7%E3%82%A7%E3%82%A2/": {
+        "human": 1
+      },
+      "/tags/%E3%82%AB%E3%83%BC%E3%83%89%E3%83%AD%E3%83%BC%E3%83%B3/": {
+        "human": 1
+      },
+      "/tags/%E3%82%AC%E3%82%A4%E3%83%89/": {
+        "human": 1
+      },
+      "/tags/%E3%82%AC%E3%82%B9%E4%BB%A3/": {
+        "human": 1
+      },
+      "/tags/%E3%82%AD%E3%83%83%E3%82%B6%E3%83%8B%E3%82%A2%E6%9D%B1%E4%BA%AC/": {
+        "human": 1
+      },
+      "/tags/%E3%82%AD%E3%83%A3%E3%83%83%E3%82%B7%E3%83%A5%E3%83%AC%E3%82%B9/": {
+        "human": 1
+      },
+      "/tags/%E3%82%AD%E3%83%A3%E3%83%B3%E3%82%BB%E3%83%AB%E6%96%99/": {
+        "human": 1
+      },
+      "/tags/%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%9A%E3%83%BC%E3%83%B3/": {
+        "human": 1
+      },
+      "/tags/%E3%82%AD%E3%83%AC%E3%82%A4%E3%83%A6/": {
+        "human": 1
+      },
+      "/tags/%E3%82%AF%E3%83%A9%E3%82%A6%E3%83%89WiFi/": {
+        "human": 1
+      },
+      "/tags/%E3%82%AF%E3%83%AA%E3%82%B9%E3%83%9E%E3%82%B9/": {
+        "human": 1
+      },
+      "/tags/%E3%82%AF%E3%83%AC%E3%82%AB%E6%94%B9%E6%82%AA/": {
+        "human": 1
+      },
+      "/tags/%E3%82%AF%E3%83%AC%E3%82%AB/": {
+        "human": 1
+      },
+      "/tags/%E3%82%AF%E3%83%AC%E3%82%B8%E3%83%83%E3%83%88%E3%82%AB%E3%83%BC%E3%83%89/": {
+        "human": 1
+      },
+      "/tags/%E3%82%AF%E3%83%BC%E3%83%9D%E3%83%B3%E3%83%95%E3%82%A7%E3%82%B9/": {
+        "human": 1
+      },
+      "/tags/%E3%82%B0%E3%83%AB%E3%83%A1/": {
+        "human": 1
+      },
+      "/tags/%E3%82%B1%E3%83%B3%E3%82%BF%E3%83%83%E3%82%AD%E3%83%BC/": {
+        "human": 1
+      },
+      "/tags/%E3%82%B3%E3%82%B9%E3%83%91/": {
+        "human": 1
+      },
+      "/tags/%E3%82%B3%E3%83%9F%E3%83%A5%E3%83%95%E3%82%A1%E5%85%89/": {
+        "human": 1
+      },
+      "/tags/%E3%82%B3%E3%83%A1%E3%83%80%E7%8F%88%E7%90%B2%E5%BA%97/": {
+        "human": 1
+      }
     }
   },
   "2026-11-02": {
@@ -2980,6 +3282,83 @@
       "all": 696,
       "human": 216,
       "scope": "blog-html"
+    },
+    "pages": {
+      "/": {
+        "human": 34
+      },
+      "/about/": {
+        "human": 1
+      },
+      "/category/howto/": {
+        "human": 1
+      },
+      "/category/roundups/": {
+        "human": 1
+      },
+      "/contact/": {
+        "human": 1
+      },
+      "/tags/%E3%82%A2%E3%82%A4%E3%83%89%E3%83%AB/": {
+        "human": 1
+      },
+      "/tags/TOKYO-BAY/": {
+        "human": 1
+      },
+      "/tags/ahamo/": {
+        "human": 1
+      },
+      "/category/campaigns/": {
+        "human": 0
+      },
+      "/category/comparisons/": {
+        "human": 0
+      },
+      "/category/services/": {
+        "human": 0
+      },
+      "/category/wangan-life/": {
+        "human": 0
+      },
+      "/privacy/": {
+        "human": 0
+      },
+      "/search/": {
+        "human": 0
+      },
+      "/tags/%E3%81%A9%E3%81%93%E3%81%8B%E3%81%AB%E3%83%9E%E3%82%A4%E3%83%AB/": {
+        "human": 0
+      },
+      "/tags/%E3%82%AD%E3%83%A3%E3%83%83%E3%82%B7%E3%83%A5%E3%83%90%E3%83%83%E3%82%AF/": {
+        "human": 0
+      },
+      "/tags/%E3%82%AF%E3%83%AC%E3%82%AB%E6%94%B9%E6%82%AA/": {
+        "human": 0
+      },
+      "/tags/%E3%82%B1%E3%83%B3%E3%82%BF%E3%83%83%E3%82%AD%E3%83%BC/": {
+        "human": 0
+      },
+      "/tags/%E3%83%8B%E3%83%A5%E3%82%A6%E3%83%9E%E3%83%B3%E9%AB%98%E8%BC%AA%20%E3%83%AC%E3%82%B9%E3%83%88%E3%83%A9%E3%83%B3/": {
+        "human": 0
+      },
+      "/tags/%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88%E9%82%84%E5%85%83/": {
+        "human": 0
+      },
+      "/tags/%E6%99%B4%E6%B5%B7/": {
+        "human": 0
+      },
+      "/tags/%E8%B1%8A%E6%B4%B2/": {
+        "human": 0
+      },
+      "/tags/SoftBank%20%E5%85%89/": {
+        "human": 0
+      },
+      "/tags/au%E3%81%B2%E3%81%8B%E3%82%8A/": {
+        "human": 0
+      },
+      "/tags/au%E7%B5%8C%E6%B8%88%E5%9C%8F/": {
+        "human": 0
+      }
     }
   },
   "2026-11-03": {
@@ -4208,6 +4587,308 @@
       "all": 1246,
       "human": 174,
       "scope": "blog-html"
+    },
+    "pages": {
+      "/": {
+        "human": 5
+      },
+      "/category/comparisons/": {
+        "human": 1
+      },
+      "/category/wangan-life/": {
+        "human": 1
+      },
+      "/privacy/": {
+        "human": 1
+      },
+      "/tags/%E3%83%80%E3%82%A4%E3%83%90%E3%83%BC%E3%82%B7%E3%83%86%E3%82%A3%E6%9D%B1%E4%BA%AC/": {
+        "human": 1
+      },
+      "/tags/%E3%83%89%E3%83%A9%E3%81%88%E3%82%82%E3%82%93%E6%9C%AA%E6%9D%A5%E3%83%87%E3%83%91%E3%83%BC%E3%83%88/": {
+        "human": 1
+      },
+      "/tags/%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF%E3%83%95%E3%83%A9%E3%82%A4%E3%83%87%E3%83%BC/": {
+        "human": 1
+      },
+      "/tags/%E3%83%A6%E3%83%8A%E3%82%A4%E3%83%86%E3%83%83%E3%83%89%E3%83%BB%E3%82%B7%E3%83%8D%E3%83%9E%E8%B1%8A%E6%B4%B2/": {
+        "human": 1
+      },
+      "/tags/%E6%8A%BD%E9%81%B8%E4%BC%9A/": {
+        "human": 1
+      },
+      "/tags/%E6%98%A0%E7%94%BB%E9%A4%A8/": {
+        "human": 1
+      },
+      "/tags/%E9%9D%92%E6%B5%B7/": {
+        "human": 1
+      },
+      "/tags/IIJmio/": {
+        "human": 1
+      },
+      "/tags/SGC%E3%83%9B%E3%83%BC%E3%83%AB%E6%9C%89%E6%98%8E/": {
+        "human": 1
+      },
+      "/tags/TOYOTA%20ARENA%20TOKYO/": {
+        "human": 1
+      },
+      "/wangan-map/": {
+        "human": 1
+      },
+      "/tags/%E3%81%8A%E5%8F%B0%E5%A0%B4/": {
+        "human": 0
+      },
+      "/tags/%E3%81%95%E3%81%A8%E3%81%B5%E3%82%8B/": {
+        "human": 0
+      },
+      "/tags/%E3%81%98%E3%82%83%E3%82%89%E3%82%93/": {
+        "human": 0
+      },
+      "/tags/%E3%81%99%E3%81%8D%E5%AE%B6/": {
+        "human": 0
+      },
+      "/tags/%E3%81%BE%E3%81%A8%E3%82%81/": {
+        "human": 0
+      },
+      "/tags/%E3%82%A2%E3%82%B3%E3%83%A0/": {
+        "human": 0
+      },
+      "/tags/%E3%82%A4%E3%82%B1%E3%82%A2/": {
+        "human": 0
+      },
+      "/tags/%E3%82%AC%E3%82%B9%E4%BB%A3/": {
+        "human": 0
+      },
+      "/tags/%E3%82%AF%E3%83%A9%E3%82%A6%E3%83%89WiFi/": {
+        "human": 0
+      },
+      "/tags/%E3%82%B3%E3%82%B9%E3%83%91/": {
+        "human": 0
+      },
+      "/tags/%E3%82%B4%E3%82%B8%E3%83%A9/": {
+        "human": 0
+      },
+      "/tags/%E3%82%B5%E3%82%A6%E3%83%8A/": {
+        "human": 0
+      },
+      "/tags/%E3%82%B5%E3%83%9E%E5%89%B2/": {
+        "human": 0
+      },
+      "/tags/%E3%82%B5%E6%B4%BB/": {
+        "human": 0
+      },
+      "/tags/%E3%82%BD%E3%82%A6%E3%83%AB/": {
+        "human": 0
+      },
+      "/tags/%E3%82%BD%E3%83%8B%E3%83%83%E3%82%AF/": {
+        "human": 0
+      },
+      "/tags/%E3%83%84%E3%82%A2%E3%83%BC/": {
+        "human": 0
+      },
+      "/tags/%E3%83%97%E3%83%AD%E3%83%9F%E3%82%B9/": {
+        "human": 0
+      },
+      "/tags/%E3%83%AD%E3%83%94%E3%82%A2/": {
+        "human": 0
+      },
+      "/tags/%E4%B8%80%E4%BC%91/": {
+        "human": 0
+      },
+      "/tags/%E5%80%9F%E3%82%8A%E6%8F%9B%E3%81%88/": {
+        "human": 0
+      },
+      "/tags/%E5%88%A9%E4%B8%8A%E3%81%92/": {
+        "human": 0
+      },
+      "/tags/%E5%8B%9D%E3%81%A9%E3%81%8D/": {
+        "human": 0
+      },
+      "/tags/%E5%8D%B3%E6%97%A5%E8%9E%8D%E8%B3%87/": {
+        "human": 0
+      },
+      "/tags/%E5%90%89%E9%87%8E%E5%AE%B6/": {
+        "human": 0
+      },
+      "/tags/%E5%9B%BA%E5%AE%9A%E9%87%91%E5%88%A9/": {
+        "human": 0
+      },
+      "/tags/%E5%A4%89%E5%8B%95%E9%87%91%E5%88%A9/": {
+        "human": 0
+      },
+      "/tags/%E5%A4%8F%E6%97%85/": {
+        "human": 0
+      },
+      "/tags/%E5%BE%A1%E6%AE%BF%E5%A0%B4/": {
+        "human": 0
+      },
+      "/tags/%E6%90%8D%E7%9B%8A%E5%88%86%E5%B2%90/": {
+        "human": 0
+      },
+      "/tags/%E6%94%B9%E6%82%AA/": {
+        "human": 0
+      },
+      "/tags/%E6%96%B0%E5%BA%97/": {
+        "human": 0
+      },
+      "/tags/%E6%96%B0%E9%9B%BB%E5%8A%9B/": {
+        "human": 0
+      },
+      "/tags/%E6%96%BD%E8%A8%AD%E4%B8%80%E8%A6%A7/": {
+        "human": 0
+      },
+      "/tags/%E6%99%82%E9%96%93%E4%BE%A1%E5%80%A4/": {
+        "human": 0
+      },
+      "/tags/%E6%99%B4%E6%B5%B7/": {
+        "human": 0
+      },
+      "/tags/%E6%9C%88%E5%B3%B6/": {
+        "human": 0
+      },
+      "/tags/%E6%9C%89%E6%98%8E/": {
+        "human": 0
+      },
+      "/tags/%E6%9C%9D%E9%A3%9F/": {
+        "human": 0
+      },
+      "/tags/%E6%9C%A8%E6%9B%B4%E6%B4%A5/": {
+        "human": 0
+      },
+      "/tags/%E6%9D%BE%E5%B1%8B/": {
+        "human": 0
+      },
+      "/tags/%E6%A5%BD%E5%A4%A9%E3%83%9A%E3%82%A4/": {
+        "human": 0
+      },
+      "/tags/%E6%A5%BD%E5%A4%A9%E9%8A%80%E8%A1%8C/": {
+        "human": 0
+      },
+      "/tags/%E6%B2%96%E7%B8%84/": {
+        "human": 0
+      },
+      "/tags/%E6%B5%9C%E9%9B%A2%E5%AE%AE/": {
+        "human": 0
+      },
+      "/tags/%E6%B5%B7%E9%AE%AE/": {
+        "human": 0
+      },
+      "/tags/%E6%B9%BE%E5%B2%B8/": {
+        "human": 0
+      },
+      "/tags/%E7%84%A1%E6%96%99/": {
+        "human": 0
+      },
+      "/tags/%E7%8C%9B%E6%9A%91/": {
+        "human": 0
+      },
+      "/tags/%E7%A7%BB%E5%8B%95/": {
+        "human": 0
+      },
+      "/tags/%E7%AF%80%E7%A8%8E/": {
+        "human": 0
+      },
+      "/tags/%E7%AF%80%E9%9B%BB/": {
+        "human": 0
+      },
+      "/tags/%E7%B1%B3/": {
+        "human": 0
+      },
+      "/tags/%E7%B4%B9%E4%BB%8B/": {
+        "human": 0
+      },
+      "/tags/%E8%82%89/": {
+        "human": 0
+      },
+      "/tags/%E8%8A%9D%E6%B5%A6/": {
+        "human": 0
+      },
+      "/tags/%E8%A5%BF%E5%8F%8B/": {
+        "human": 0
+      },
+      "/tags/%E8%AC%8E%E8%A7%A3%E3%81%8D/": {
+        "human": 0
+      },
+      "/tags/%E8%B1%8A%E6%B4%B2/": {
+        "human": 0
+      },
+      "/tags/%E8%BB%BD%E4%BA%95%E6%B2%A2/": {
+        "human": 0
+      },
+      "/tags/%E8%BF%94%E7%A4%BC%E5%93%81/": {
+        "human": 0
+      },
+      "/tags/%E9%87%91%E5%88%A9%E6%AF%94%E8%BC%83/": {
+        "human": 0
+      },
+      "/tags/%E9%87%91%E8%9E%8D/": {
+        "human": 0
+      },
+      "/tags/%E9%8A%80%E8%A1%8C/": {
+        "human": 0
+      },
+      "/tags/%E9%9B%BB%E6%B0%97%E6%96%99%E9%87%91/": {
+        "human": 0
+      },
+      "/tags/%E9%AB%98%E8%BC%AASAUNAS/": {
+        "human": 0
+      },
+      "/tags/%E9%BB%84%E9%87%91%E6%B9%AF/": {
+        "human": 0
+      },
+      "/tags/10%E6%9C%88%E4%BB%A5%E9%99%8D/": {
+        "human": 0
+      },
+      "/tags/2026%E5%B9%B4%E6%94%B9%E6%AD%A3/": {
+        "human": 0
+      },
+      "/tags/2026/": {
+        "human": 0
+      },
+      "/tags/6%E6%9C%88%E5%87%BA%E7%99%BA/": {
+        "human": 0
+      },
+      "/tags/ENEOS%E3%81%A7%E3%82%93%E3%81%8D/": {
+        "human": 0
+      },
+      "/tags/HIS/": {
+        "human": 0
+      },
+      "/tags/IKEA/": {
+        "human": 0
+      },
+      "/tags/JCB%E3%82%AB%E3%83%BC%E3%83%89W/": {
+        "human": 0
+      },
+      "/tags/LUFTBAUM/": {
+        "human": 0
+      },
+      "/tags/LUUP/": {
+        "human": 0
+      },
+      "/tags/MONSTER%20MOBILE/": {
+        "human": 0
+      },
+      "/tags/PARADISE%E5%A4%A7%E6%89%8B%E7%94%BA/": {
+        "human": 0
+      },
+      "/tags/PR/": {
+        "human": 0
+      },
+      "/tags/Pixel%20Moon/": {
+        "human": 0
+      },
+      "/tags/SAUNA%E6%B1%BD%E6%B1%BD/": {
+        "human": 0
+      },
+      "/tags/SBI/": {
+        "human": 0
+      },
+      "/tags/SMBC%E3%83%A2%E3%83%93%E3%83%83%E3%83%88/": {
+        "human": 0
+      },
+      "/tags/So-net%E5%85%89/": {
+        "human": 0
+      }
     }
   },
   "2026-11-04": {
@@ -5903,6 +6584,308 @@
       "all": 3133,
       "human": 581,
       "scope": "blog-html"
+    },
+    "pages": {
+      "/": {
+        "human": 44
+      },
+      "/category/services/": {
+        "human": 14
+      },
+      "/search/": {
+        "human": 13
+      },
+      "/about/": {
+        "human": 6
+      },
+      "/contact/": {
+        "human": 6
+      },
+      "/author/": {
+        "human": 5
+      },
+      "/category/campaigns/": {
+        "human": 5
+      },
+      "/category/comparisons/": {
+        "human": 5
+      },
+      "/category/wangan-life/": {
+        "human": 5
+      },
+      "/disclaimer/": {
+        "human": 5
+      },
+      "/privacy/": {
+        "human": 5
+      },
+      "/category/roundups/": {
+        "human": 4
+      },
+      "/category/howto/": {
+        "human": 3
+      },
+      "/tags/%E3%83%95%E3%83%83%E3%83%88%E3%82%B5%E3%83%AB/": {
+        "human": 2
+      },
+      "/tags/Buddy%E3%82%B9%E3%83%9D%E3%83%BC%E3%83%84%E3%82%A2%E3%83%AA%E3%83%BC%E3%83%8A%E6%9C%89%E6%98%8E/": {
+        "human": 2
+      },
+      "/tags/%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%9A%E3%83%BC%E3%83%B3/": {
+        "human": 1
+      },
+      "/tags/%E3%83%80%E3%82%B9%E3%82%AD%E3%83%B3/": {
+        "human": 1
+      },
+      "/tags/%E3%83%A6%E3%82%A2%E3%83%9E%E3%82%A4%E3%82%B9%E3%82%BF%E3%83%BC/": {
+        "human": 1
+      },
+      "/tags/%E4%BD%83%E5%B3%B61644/": {
+        "human": 1
+      },
+      "/tags/%E5%9B%BD%E9%81%93357%E5%8F%B7/": {
+        "human": 1
+      },
+      "/tags/%E6%96%B0%E5%BA%97/": {
+        "human": 1
+      },
+      "/tags/%E6%9C%89%E6%98%8E%E3%82%AC%E3%83%BC%E3%83%87%E3%83%B3/": {
+        "human": 1
+      },
+      "/tags/%E6%9C%89%E6%98%8E/": {
+        "human": 1
+      },
+      "/tags/%E6%B5%B4%E5%AE%A4%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%8B%E3%83%B3%E3%82%B0/": {
+        "human": 1
+      },
+      "/tags/%E8%B1%8A%E6%B4%B2/": {
+        "human": 1
+      },
+      "/tags/%E9%80%9A%E8%A1%8C%E6%AD%A2%E3%82%81/": {
+        "human": 1
+      },
+      "/tags/%E9%A6%99%E6%B8%AF%E9%A3%B2%E8%8C%B6%20%E9%BE%8D%E8%A8%98/": {
+        "human": 1
+      },
+      "/tags/2026%E5%B9%B4/": {
+        "human": 1
+      },
+      "/tags/Amazon%E3%83%97%E3%83%A9%E3%82%A4%E3%83%A0%E6%84%9F%E8%AC%9D%E7%A5%AD/": {
+        "human": 1
+      },
+      "/tags/IKEA/": {
+        "human": 1
+      },
+      "/tags/LiGA%20DiVeRTiDA/": {
+        "human": 1
+      },
+      "/tags/STREET%20CHURROS/": {
+        "human": 1
+      },
+      "/wangan-map/": {
+        "human": 1
+      },
+      "/tags/%E3%81%AA%E3%81%8B%E5%8D%AF/": {
+        "human": 0
+      },
+      "/tags/%E3%82%A8%E3%82%A2%E3%82%B3%E3%83%B3/": {
+        "human": 0
+      },
+      "/tags/%E3%82%AB%E3%82%A4%E3%83%AD/": {
+        "human": 0
+      },
+      "/tags/%E3%82%AC%E3%82%A4%E3%83%89/": {
+        "human": 0
+      },
+      "/tags/%E3%82%AF%E3%83%AC%E3%82%AB/": {
+        "human": 0
+      },
+      "/tags/%E3%82%B5%E3%83%B3%E3%82%A8%E3%82%B9/": {
+        "human": 0
+      },
+      "/tags/%E3%82%BB%E3%83%BC%E3%83%AB/": {
+        "human": 0
+      },
+      "/tags/%E3%82%BF%E3%82%AA%E3%83%AB/": {
+        "human": 0
+      },
+      "/tags/%E3%83%81%E3%82%B1%E3%83%83%E3%83%88/": {
+        "human": 0
+      },
+      "/tags/%E3%83%93%E3%83%BC%E3%83%81/": {
+        "human": 0
+      },
+      "/tags/%E3%83%9B%E3%83%86%E3%83%AB/": {
+        "human": 0
+      },
+      "/tags/%E3%83%9E%E3%82%AD%E3%82%BF/": {
+        "human": 0
+      },
+      "/tags/%E3%83%AC%E3%82%A4%E3%82%AF/": {
+        "human": 0
+      },
+      "/tags/%E4%B8%AD%E5%A4%AE%E5%8C%BA/": {
+        "human": 0
+      },
+      "/tags/%E4%BD%8F%E6%B0%91%E7%A8%8E/": {
+        "human": 0
+      },
+      "/tags/%E5%85%A5%E9%96%80/": {
+        "human": 0
+      },
+      "/tags/%E5%85%AD%E7%BE%A9%E5%9C%92/": {
+        "human": 0
+      },
+      "/tags/%E5%86%86%E5%AE%89/": {
+        "human": 0
+      },
+      "/tags/%E5%86%8D%E9%96%8B%E7%99%BA/": {
+        "human": 0
+      },
+      "/tags/%E5%86%AC/": {
+        "human": 0
+      },
+      "/tags/%E5%89%AF%E6%A5%AD/": {
+        "human": 0
+      },
+      "/tags/%E5%8D%83%E5%AE%A2%E4%B8%87%E6%9D%A5/": {
+        "human": 0
+      },
+      "/tags/%E5%8D%8A%E5%9B%BA%E4%BD%93/": {
+        "human": 0
+      },
+      "/tags/%E5%9B%BD%E9%9A%9B%E7%B7%9A/": {
+        "human": 0
+      },
+      "/tags/%E5%A4%8F%E4%BC%91%E3%81%BF/": {
+        "human": 0
+      },
+      "/tags/%E5%A4%8F%E7%A5%AD%E3%82%8A/": {
+        "human": 0
+      },
+      "/tags/%E5%AD%A6%E5%89%B2/": {
+        "human": 0
+      },
+      "/tags/%E5%AD%A6%E7%94%9F%E8%A8%BC/": {
+        "human": 0
+      },
+      "/tags/%E5%AE%B6%E8%A8%88/": {
+        "human": 0
+      },
+      "/tags/%E5%BE%8C%E6%82%94/": {
+        "human": 0
+      },
+      "/tags/%E6%8A%95%E8%B3%87/": {
+        "human": 0
+      },
+      "/tags/%E6%8A%BD%E9%81%B8/": {
+        "human": 0
+      },
+      "/tags/%E6%94%BE%E9%80%81%E5%A4%A7%E5%AD%A6/": {
+        "human": 0
+      },
+      "/tags/%E6%96%B0%E5%AE%BF%E5%BE%A1%E8%8B%91/": {
+        "human": 0
+      },
+      "/tags/%E6%96%B0%E8%B1%8A%E6%B4%B2/": {
+        "human": 0
+      },
+      "/tags/%E6%96%B0NISA/": {
+        "human": 0
+      },
+      "/tags/%E6%97%85%E8%A1%8C/": {
+        "human": 0
+      },
+      "/tags/%E6%97%A5%E5%85%89/": {
+        "human": 0
+      },
+      "/tags/%E6%97%A5%E7%94%A8%E5%93%81/": {
+        "human": 0
+      },
+      "/tags/%E6%97%A5%E9%8A%80/": {
+        "human": 0
+      },
+      "/tags/%E6%98%BC%20%E9%81%85%E3%81%84/": {
+        "human": 0
+      },
+      "/tags/%E6%9D%B1%E3%83%ACPPO/": {
+        "human": 0
+      },
+      "/tags/%E6%9D%B1%E4%BA%AC%E9%83%BD/": {
+        "human": 0
+      },
+      "/tags/%E6%9D%B1%E4%BA%AC/": {
+        "human": 0
+      },
+      "/tags/%E6%9D%BE%E4%BA%95FX/": {
+        "human": 0
+      },
+      "/tags/%E6%A0%BC%E5%AE%89/": {
+        "human": 0
+      },
+      "/tags/%E6%A0%BC%E5%AE%89SIM/": {
+        "human": 0
+      },
+      "/tags/%E6%A5%BD%E5%A4%A9%E3%83%9A%E3%82%A4/": {
+        "human": 0
+      },
+      "/tags/%E6%A5%BD%E5%A4%A9FX/": {
+        "human": 0
+      },
+      "/tags/%E6%B1%9F%E6%9D%B1%E5%8C%BA/": {
+        "human": 0
+      },
+      "/tags/%E6%B4%97%E5%89%A4/": {
+        "human": 0
+      },
+      "/tags/%E6%B8%AF%E5%8C%BA/": {
+        "human": 0
+      },
+      "/tags/%E6%BA%96%E5%9B%BA%E4%BD%93/": {
+        "human": 0
+      },
+      "/tags/%E7%89%9B%E4%B8%BC/": {
+        "human": 0
+      },
+      "/tags/%E7%89%A9%E4%BE%A1%E9%AB%98/": {
+        "human": 0
+      },
+      "/tags/%E7%9B%86%E8%B8%8A%E3%82%8A/": {
+        "human": 0
+      },
+      "/tags/%E7%9B%B4%E8%A1%8C%E4%BE%BF/": {
+        "human": 0
+      },
+      "/tags/%E7%9F%B3%E5%9E%A3/": {
+        "human": 0
+      },
+      "/tags/%E7%A8%8E%E9%87%91/": {
+        "human": 0
+      },
+      "/tags/%E7%B4%85%E8%91%89/": {
+        "human": 0
+      },
+      "/tags/%E7%B4%85%E8%91%892026/": {
+        "human": 0
+      },
+      "/tags/%E7%B8%9B%E3%82%8A%E3%81%AA%E3%81%97WiFi/": {
+        "human": 0
+      },
+      "/tags/%E8%A6%8B%E9%A0%83/": {
+        "human": 0
+      },
+      "/tags/%E8%B2%B7%E3%81%84%E6%99%82/": {
+        "human": 0
+      },
+      "/tags/%E9%80%9A%E4%BF%A1%E8%B2%BB/": {
+        "human": 0
+      },
+      "/tags/%E9%80%9A%E8%B2%A9/": {
+        "human": 0
+      },
+      "/tags/%E9%82%84%E5%85%83%E7%8E%87/": {
+        "human": 0
+      }
     }
   },
   "2026-11-05": {
@@ -6838,14 +7821,14 @@
         "r": 1
       },
       {
-        "path": "/posts/olive-30000-cb-may-2026/",
-        "v": 1,
-        "r": 1
-      },
-      {
         "path": "/posts/liga-ariake-futsal-campaign-2026/",
         "v": 1,
         "r": 2
+      },
+      {
+        "path": "/posts/olive-30000-cb-may-2026/",
+        "v": 1,
+        "r": 1
       },
       {
         "path": "/posts/hotel-booking-sites-2026/",
@@ -7155,6 +8138,308 @@
       "all": 1097,
       "human": 231,
       "scope": "blog-html"
+    },
+    "pages": {
+      "/": {
+        "human": 27
+      },
+      "/author/": {
+        "human": 10
+      },
+      "/wangan-map/": {
+        "human": 2
+      },
+      "/tags/%E3%82%A8%E3%82%A2%E3%82%B3%E3%83%B3%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%8B%E3%83%B3%E3%82%B0/": {
+        "human": 1
+      },
+      "/tags/%E3%82%AB%E3%83%A4%E3%83%83%E3%82%AF/": {
+        "human": 1
+      },
+      "/tags/%E3%82%AD%E3%83%83%E3%82%B6%E3%83%8B%E3%82%A2%E6%9D%B1%E4%BA%AC/": {
+        "human": 1
+      },
+      "/tags/%E3%82%AD%E3%83%AC%E3%82%A4%E3%83%A6/": {
+        "human": 1
+      },
+      "/tags/%E3%83%8F%E3%82%A6%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%8B%E3%83%B3%E3%82%B0/": {
+        "human": 1
+      },
+      "/tags/%E3%83%AC%E3%83%B3%E3%82%B8%E3%83%95%E3%83%BC%E3%83%89/": {
+        "human": 1
+      },
+      "/tags/%E4%BD%83/": {
+        "human": 1
+      },
+      "/tags/%E4%BD%8F%E5%90%89%E7%A5%9E%E7%A4%BE/": {
+        "human": 1
+      },
+      "/tags/%E5%A4%A7%E6%8E%83%E9%99%A4/": {
+        "human": 1
+      },
+      "/tags/%E8%A1%97%E6%AD%A9%E3%81%8D/": {
+        "human": 1
+      },
+      "/tags/%E9%A2%A8%E5%91%82%E9%87%9C%E6%B4%97%E6%B5%84/": {
+        "human": 1
+      },
+      "/tags/HOBIE/": {
+        "human": 1
+      },
+      "/tags/SUP/": {
+        "human": 1
+      },
+      "/category/comparisons/": {
+        "human": 0
+      },
+      "/search/": {
+        "human": 0
+      },
+      "/tags/%E3%81%8A%E3%81%99%E3%81%99%E3%82%81/": {
+        "human": 0
+      },
+      "/tags/%E3%81%8C%E3%82%93%E4%BF%9D%E9%99%BA/": {
+        "human": 0
+      },
+      "/tags/%E3%81%A8%E3%81%A8%E3%81%AE%E3%81%86/": {
+        "human": 0
+      },
+      "/tags/%E3%81%B5%E3%82%8B%E3%81%AA%E3%81%B3/": {
+        "human": 0
+      },
+      "/tags/%E3%81%BF%E3%82%93%E3%81%AA%E3%81%AEFX/": {
+        "human": 0
+      },
+      "/tags/%E3%82%A2%E3%82%A4%E3%83%95%E3%83%AB/": {
+        "human": 0
+      },
+      "/tags/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/": {
+        "human": 0
+      },
+      "/tags/%E3%82%AA%E3%83%AA%E3%83%83%E3%82%AF%E3%82%B9/": {
+        "human": 0
+      },
+      "/tags/%E3%82%AA%E3%83%BC%E3%82%B1%E3%83%BC/": {
+        "human": 0
+      },
+      "/tags/%E3%82%AB%E3%83%BC%E3%82%B7%E3%82%A7%E3%82%A2/": {
+        "human": 0
+      },
+      "/tags/%E3%82%AF%E3%83%AA%E3%82%B9%E3%83%9E%E3%82%B9/": {
+        "human": 0
+      },
+      "/tags/%E3%82%B5%E3%83%96%E3%82%B9%E3%82%AF/": {
+        "human": 0
+      },
+      "/tags/%E3%82%B5%E3%83%AD%E3%83%B3%E8%84%B1%E6%AF%9B/": {
+        "human": 0
+      },
+      "/tags/%E3%82%B5%E3%83%B3%E3%82%B3%E3%83%BC/": {
+        "human": 0
+      },
+      "/tags/%E3%82%B9%E3%83%9E%E3%83%9B%E8%B2%B7%E5%8F%96/": {
+        "human": 0
+      },
+      "/tags/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC/": {
+        "human": 0
+      },
+      "/tags/%E3%82%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%BC/": {
+        "human": 0
+      },
+      "/tags/%E3%82%BD%E3%83%8B%E3%83%BC%E6%90%8D%E4%BF%9D/": {
+        "human": 0
+      },
+      "/tags/%E3%82%BF%E3%82%A4%E3%83%A0%E3%82%BB%E3%83%BC%E3%83%AB/": {
+        "human": 0
+      },
+      "/tags/%E3%83%81%E3%82%A7%E3%83%BC%E3%83%B3%E5%BA%97/": {
+        "human": 0
+      },
+      "/tags/%E3%83%81%E3%83%BC%E3%83%A0%E3%83%A9%E3%83%9C/": {
+        "human": 0
+      },
+      "/tags/%E3%83%86%E3%83%8B%E3%82%B9/": {
+        "human": 0
+      },
+      "/tags/%E3%83%88%E3%83%A9%E3%82%A4%E3%82%A2%E3%83%AB/": {
+        "human": 0
+      },
+      "/tags/%E3%83%89%E3%83%A9%E3%81%88%E3%82%82%E3%82%93/": {
+        "human": 0
+      },
+      "/tags/%E3%83%8D%E3%82%AA%E3%83%81%E3%83%A3%E3%83%BC%E3%82%B8WiFi/": {
+        "human": 0
+      },
+      "/tags/%E3%83%8D%E3%83%83%E3%83%88%E9%8A%80%E8%A1%8C/": {
+        "human": 0
+      },
+      "/tags/%E3%83%90%E3%83%BC%E3%83%88%E3%83%AB/": {
+        "human": 0
+      },
+      "/tags/%E3%83%92%E3%82%B2%E8%84%B1%E6%AF%9B/": {
+        "human": 0
+      },
+      "/tags/%E3%83%9B%E3%83%86%E3%83%AB%E4%BA%88%E7%B4%84/": {
+        "human": 0
+      },
+      "/tags/%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88/": {
+        "human": 0
+      },
+      "/tags/%E3%83%9D%E3%82%B1%E3%83%83%E3%83%88%E5%9E%8BWiFi/": {
+        "human": 0
+      },
+      "/tags/%E3%83%9E%E3%83%8D%E3%83%83%E3%82%AF%E3%82%B9FX/": {
+        "human": 0
+      },
+      "/tags/%E3%83%9E%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%B3/": {
+        "human": 0
+      },
+      "/tags/%E3%83%A1%E3%83%B3%E3%82%BA%E3%83%AA%E3%82%BC/": {
+        "human": 0
+      },
+      "/tags/%E3%83%A1%E3%83%B3%E3%82%BA%E8%84%B1%E6%AF%9B/": {
+        "human": 0
+      },
+      "/tags/%E3%83%A2%E3%83%90%E3%82%A4%E3%83%ABWiFi/": {
+        "human": 0
+      },
+      "/tags/%E3%83%A2%E3%83%90%E3%82%BE%E3%82%A6/": {
+        "human": 0
+      },
+      "/tags/%E3%83%A2%E3%83%BC%E3%83%8B%E3%83%B3%E3%82%B0/": {
+        "human": 0
+      },
+      "/tags/%E3%83%A8%E3%83%89%E3%83%90%E3%82%B7/": {
+        "human": 0
+      },
+      "/tags/%E3%83%AA%E3%82%B3%E3%83%9E%E3%83%BC%E3%82%B9/": {
+        "human": 0
+      },
+      "/tags/%E3%83%AA%E3%82%BE%E3%83%BC%E3%83%88/": {
+        "human": 0
+      },
+      "/tags/%E3%83%AA%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%A2%E3%83%AB/": {
+        "human": 0
+      },
+      "/tags/%E3%83%AA%E3%83%B3%E9%85%B8%E9%89%84/": {
+        "human": 0
+      },
+      "/tags/%E4%B8%80%E6%99%82%E6%89%80%E5%BE%97/": {
+        "human": 0
+      },
+      "/tags/%E4%B8%87%E8%91%89%E5%80%B6%E6%A5%BD%E9%83%A8/": {
+        "human": 0
+      },
+      "/tags/%E4%B8%89%E4%BA%95%E4%B8%8D%E5%8B%95%E7%94%A3/": {
+        "human": 0
+      },
+      "/tags/%E4%B9%97%E3%82%8A%E6%8F%9B%E3%81%88/": {
+        "human": 0
+      },
+      "/tags/%E4%BD%8F%E3%81%BE%E3%81%84%E9%81%B8%E3%81%B3/": {
+        "human": 0
+      },
+      "/tags/%E4%BD%8F%E5%AE%85%E3%83%AD%E3%83%BC%E3%83%B3/": {
+        "human": 0
+      },
+      "/tags/%E4%BF%9D%E9%99%BA%E8%A6%8B%E7%9B%B4%E3%81%97/": {
+        "human": 0
+      },
+      "/tags/%E5%80%A4%E4%B8%8A%E3%81%92/": {
+        "human": 0
+      },
+      "/tags/%E5%85%A8%E8%BA%AB%E8%84%B1%E6%AF%9B/": {
+        "human": 0
+      },
+      "/tags/%E5%8C%BB%E7%99%82%E4%BF%9D%E9%99%BA/": {
+        "human": 0
+      },
+      "/tags/%E5%8C%BB%E7%99%82%E8%84%B1%E6%AF%9B/": {
+        "human": 0
+      },
+      "/tags/%E5%9B%BA%E5%AE%9A%E8%B2%BB%E5%89%8A%E6%B8%9B/": {
+        "human": 0
+      },
+      "/tags/%E5%9C%A8%E5%BA%AB%E3%82%BB%E3%83%BC%E3%83%AB/": {
+        "human": 0
+      },
+      "/tags/%E5%9C%A8%E7%B1%8D%E7%A2%BA%E8%AA%8D/": {
+        "human": 0
+      },
+      "/tags/%E5%A4%A7%E5%9D%82%E3%81%AA%E3%81%8A%E3%81%BF/": {
+        "human": 0
+      },
+      "/tags/%E5%A4%A7%E7%94%B0%E9%BB%92%E5%85%AC%E5%9C%92/": {
+        "human": 0
+      },
+      "/tags/%E5%AD%90%E8%82%B2%E3%81%A6%E6%94%AF%E6%8F%B4/": {
+        "human": 0
+      },
+      "/tags/%E5%AE%85%E9%85%8D%E8%B2%B7%E5%8F%96/": {
+        "human": 0
+      },
+      "/tags/%E5%AE%9F%E5%8A%B9%E6%99%82%E7%B5%A6/": {
+        "human": 0
+      },
+      "/tags/%E5%B0%B1%E8%88%AA%E9%83%BD%E5%B8%82/": {
+        "human": 0
+      },
+      "/tags/%E5%B9%BD%E9%9C%8A%E4%BC%9A%E5%93%A1/": {
+        "human": 0
+      },
+      "/tags/%E6%88%90%E7%94%B0%E7%A9%BA%E6%B8%AF/": {
+        "human": 0
+      },
+      "/tags/%E6%97%A5%E6%9C%AC%E6%97%85%E8%A1%8C/": {
+        "human": 0
+      },
+      "/tags/%E6%97%A5%E6%9C%AC%E9%80%9A%E4%BF%A1/": {
+        "human": 0
+      },
+      "/tags/%E6%97%A7%E5%8F%A4%E6%B2%B3%E5%BA%AD%E5%9C%92/": {
+        "human": 0
+      },
+      "/tags/%E6%99%82%E7%B5%A6%E6%8F%9B%E7%AE%97/": {
+        "human": 0
+      },
+      "/tags/%E6%9D%B1%E5%8D%97%E3%82%A2%E3%82%B8%E3%82%A2/": {
+        "human": 0
+      },
+      "/tags/%E6%9D%BE%E5%B1%8B%E3%82%A2%E3%83%97%E3%83%AA/": {
+        "human": 0
+      },
+      "/tags/%E6%9D%BE%E5%BC%81%E3%83%8D%E3%83%83%E3%83%88/": {
+        "human": 0
+      },
+      "/tags/%E6%A0%BC%E5%AE%89%E3%82%B8%E3%83%A0/": {
+        "human": 0
+      },
+      "/tags/%E6%A0%BC%E5%AE%89%E6%97%85%E8%A1%8C/": {
+        "human": 0
+      },
+      "/tags/%E6%A0%BC%E5%AE%89SIM%20%E9%80%9F%E5%BA%A6/": {
+        "human": 0
+      },
+      "/tags/%E6%A5%AD%E5%8B%99%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC/": {
+        "human": 0
+      },
+      "/tags/%E6%A5%BD%E5%A4%A9%E3%81%A7%E3%82%93%E3%81%8D/": {
+        "human": 0
+      },
+      "/tags/%E6%A5%BD%E5%A4%A9%E3%82%AB%E3%83%BC%E3%83%89/": {
+        "human": 0
+      },
+      "/tags/%E6%A5%BD%E5%A4%A9%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BCSALE/": {
+        "human": 0
+      },
+      "/tags/%E6%A5%BD%E5%A4%A9%E3%83%88%E3%83%A9%E3%83%99%E3%83%AB/": {
+        "human": 0
+      },
+      "/tags/%E6%A5%BD%E5%A4%A9%E5%B8%82%E5%A0%B4/": {
+        "human": 0
+      },
+      "/tags/%E6%A5%BD%E5%A4%A9%E8%A8%BC%E5%88%B8/": {
+        "human": 0
+      }
     }
   },
   "2026-11-06": {
@@ -7960,12 +9245,12 @@
         "r": 1
       },
       {
-        "path": "/tags/%E6%B5%B7%E9%AE%AE/",
+        "path": "/tags/%E5%9B%BA%E5%AE%9A%E9%87%91%E5%88%A9/",
         "v": 1,
         "r": 1
       },
       {
-        "path": "/tags/%E5%9B%BA%E5%AE%9A%E9%87%91%E5%88%A9/",
+        "path": "/tags/%E6%B5%B7%E9%AE%AE/",
         "v": 1,
         "r": 1
       },
@@ -8020,14 +9305,14 @@
         "r": 2
       },
       {
-        "path": "/tags/%E3%83%AA%E3%83%81%E3%83%A3%E3%83%BC%E3%82%B8WiFi/",
-        "v": 1,
-        "r": 2
-      },
-      {
         "path": "/tags/%E3%82%B5%E3%83%AD%E3%83%B3%E8%84%B1%E6%AF%9B/",
         "v": 1,
         "r": 1
+      },
+      {
+        "path": "/tags/%E3%83%AA%E3%83%81%E3%83%A3%E3%83%BC%E3%82%B8WiFi/",
+        "v": 1,
+        "r": 2
       },
       {
         "path": "/tags/VIP%E3%83%89%E3%83%BC%E3%83%A0/",
@@ -8297,6 +9582,308 @@
       "all": 787,
       "human": 196,
       "scope": "blog-html"
+    },
+    "pages": {
+      "/": {
+        "human": 26
+      },
+      "/category/campaigns/": {
+        "human": 1
+      },
+      "/category/comparisons/": {
+        "human": 1
+      },
+      "/category/services/": {
+        "human": 1
+      },
+      "/tags/%E3%82%A4%E3%82%AA%E3%83%B3%E3%83%A2%E3%83%BC%E3%83%AB%E5%A3%B2%E4%B8%8A%E3%83%A9%E3%83%B3%E3%82%AD%E3%83%B3%E3%82%B0/": {
+        "human": 1
+      },
+      "/tags/%E3%82%A4%E3%82%AA%E3%83%B3%E3%83%A2%E3%83%BC%E3%83%AB%E5%A4%A7%E3%81%8D%E3%81%95%E3%83%A9%E3%83%B3%E3%82%AD%E3%83%B3%E3%82%B0/": {
+        "human": 1
+      },
+      "/tags/%E3%82%A4%E3%82%AA%E3%83%B3%E3%83%A2%E3%83%BC%E3%83%AB/": {
+        "human": 1
+      },
+      "/tags/%E3%82%A4%E3%82%AA%E3%83%B3%E3%83%AC%E3%82%A4%E3%82%AF%E3%82%BF%E3%82%A6%E3%83%B3/": {
+        "human": 1
+      },
+      "/tags/%E3%83%86%E3%82%A3%E3%83%95%E3%82%A9%E3%83%8B%E3%82%A6%E3%83%A0/": {
+        "human": 1
+      },
+      "/tags/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%8A%E3%83%AB%E3%83%95%E3%82%A1%E3%83%B3%E3%82%BF%E3%82%B8%E3%83%BCXIV/": {
+        "human": 1
+      },
+      "/tags/%E3%83%95%E3%83%83%E3%83%88%E3%82%B5%E3%83%AB/": {
+        "human": 1
+      },
+      "/tags/%E6%9C%89%E6%98%8E%E3%82%A2%E3%83%AA%E3%83%BC%E3%83%8A/": {
+        "human": 1
+      },
+      "/tags/From%20INI/": {
+        "human": 1
+      },
+      "/tags/VIP%E3%83%89%E3%83%BC%E3%83%A0/": {
+        "human": 1
+      },
+      "/about/": {
+        "human": 0
+      },
+      "/tags/%E3%81%9D%E3%81%AA%E3%82%A8%E3%83%AA%E3%82%A2%E6%9D%B1%E4%BA%AC/": {
+        "human": 0
+      },
+      "/tags/%E3%81%A4%E3%81%BF%E3%81%9F%E3%81%A6%E6%8A%95%E8%B3%87%E6%9E%A0/": {
+        "human": 0
+      },
+      "/tags/%E3%81%A4%E3%81%BF%E3%81%9F%E3%81%A6%E6%8A%95%E8%B3%87/": {
+        "human": 0
+      },
+      "/tags/%E3%81%B5%E3%82%8B%E3%81%95%E3%81%A8%E3%83%81%E3%83%A7%E3%82%A4%E3%82%B9/": {
+        "human": 0
+      },
+      "/tags/%E3%82%89%E3%82%89%E3%81%BD%E3%83%BC%E3%81%A8%E8%B1%8A%E6%B4%B2/": {
+        "human": 0
+      },
+      "/tags/%E3%82%89%E3%82%89%E3%81%BD%E3%83%BC%E3%81%A8/": {
+        "human": 0
+      },
+      "/tags/%E3%82%A2%E3%82%A4%E3%83%89%E3%83%AB/": {
+        "human": 0
+      },
+      "/tags/%E3%82%A2%E3%82%A4%E3%83%AA%E3%82%B9%E3%82%AA%E3%83%BC%E3%83%A4%E3%83%9E/": {
+        "human": 0
+      },
+      "/tags/%E3%82%A2%E3%82%A6%E3%83%88%E3%83%AC%E3%83%83%E3%83%88/": {
+        "human": 0
+      },
+      "/tags/%E3%82%A2%E3%82%AF%E3%82%B5%E3%83%80%E3%82%A4%E3%83%AC%E3%82%AF%E3%83%88/": {
+        "human": 0
+      },
+      "/tags/%E3%82%A2%E3%83%BC%E3%83%AA%E3%83%BC%E3%82%B5%E3%83%9E%E3%83%BC/": {
+        "human": 0
+      },
+      "/tags/%E3%82%A4%E3%83%AB%E3%83%9F%E3%83%8D%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3/": {
+        "human": 0
+      },
+      "/tags/%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%8D%E3%83%83%E3%83%88/": {
+        "human": 0
+      },
+      "/tags/%E3%82%AB%E3%83%BC%E3%83%89%E3%83%AD%E3%83%BC%E3%83%B3/": {
+        "human": 0
+      },
+      "/tags/%E3%82%AD%E3%83%83%E3%82%B6%E3%83%8B%E3%82%A2%E6%9D%B1%E4%BA%AC/": {
+        "human": 0
+      },
+      "/tags/%E3%82%AD%E3%83%A3%E3%83%83%E3%82%B7%E3%83%A5%E3%83%AC%E3%82%B9/": {
+        "human": 0
+      },
+      "/tags/%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%9A%E3%83%BC%E3%83%B3/": {
+        "human": 0
+      },
+      "/tags/%E3%82%AD%E3%83%AC%E3%82%A4%E3%83%A6/": {
+        "human": 0
+      },
+      "/tags/%E3%82%AF%E3%83%BC%E3%83%9D%E3%83%B3%E3%83%95%E3%82%A7%E3%82%B9/": {
+        "human": 0
+      },
+      "/tags/%E3%82%B0%E3%83%AB%E3%83%A1/": {
+        "human": 0
+      },
+      "/tags/%E3%82%B3%E3%83%A1%E3%83%80%E7%8F%88%E7%90%B2%E5%BA%97/": {
+        "human": 0
+      },
+      "/tags/%E3%82%B4%E3%83%AA%E3%83%A9%E3%82%AF%E3%83%AA%E3%83%8B%E3%83%83%E3%82%AF/": {
+        "human": 0
+      },
+      "/tags/%E3%82%B7%E3%82%A7%E3%82%A2%E3%82%B5%E3%82%A4%E3%82%AF%E3%83%AB/": {
+        "human": 0
+      },
+      "/tags/%E3%82%B7%E3%83%9F%E3%83%A5%E3%83%AC%E3%83%BC%E3%82%BF%E3%83%BC/": {
+        "human": 0
+      },
+      "/tags/%E3%82%B7%E3%83%B3%E3%82%AC%E3%83%9D%E3%83%BC%E3%83%AB/": {
+        "human": 0
+      },
+      "/tags/%E3%82%B8%E3%83%A0/": {
+        "human": 0
+      },
+      "/tags/%E3%82%BD%E3%83%95%E3%83%88%E3%83%90%E3%83%B3%E3%82%AF%E5%85%89/": {
+        "human": 0
+      },
+      "/tags/%E3%82%BF%E3%82%A4%E3%83%A0%E3%82%BA%E3%82%AB%E3%83%BC/": {
+        "human": 0
+      },
+      "/tags/%E3%82%BF%E3%82%AF%E3%82%B7%E3%83%BC%E3%82%A2%E3%83%97%E3%83%AA/": {
+        "human": 0
+      },
+      "/tags/%E3%82%BF%E3%83%AF%E3%83%9E%E3%83%B3/": {
+        "human": 0
+      },
+      "/tags/%E3%82%BF%E3%83%AF%E3%83%BC%E3%83%9E%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%B3/": {
+        "human": 0
+      },
+      "/tags/%E3%83%80%E3%82%A4%E3%83%AC%E3%82%AF%E3%83%88%E5%9E%8B/": {
+        "human": 0
+      },
+      "/tags/%E3%83%86%E3%82%A3%E3%83%A0%E3%83%BB%E3%83%90%E3%83%BC%E3%83%88%E3%83%B3/": {
+        "human": 0
+      },
+      "/tags/%E3%83%89%E3%83%AD%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%BC/": {
+        "human": 0
+      },
+      "/tags/%E3%83%89%E3%83%AD%E3%83%BC%E3%83%B3/": {
+        "human": 0
+      },
+      "/tags/%E3%83%89%E3%83%B3%E3%83%BB%E3%82%AD%E3%83%9B%E3%83%BC%E3%83%86/": {
+        "human": 0
+      },
+      "/tags/%E3%83%90%E3%83%83%E3%83%95%E3%82%A1%E3%83%AD%E3%83%BC/": {
+        "human": 0
+      },
+      "/tags/%E3%83%91%E3%82%BF%E3%83%BC%E3%82%B4%E3%83%AB%E3%83%95/": {
+        "human": 0
+      },
+      "/tags/%E3%83%91%E3%83%BC%E3%82%BD%E3%83%8A%E3%83%AB%E3%82%B8%E3%83%A0/": {
+        "human": 0
+      },
+      "/tags/%E3%83%95%E3%82%A3%E3%83%83%E3%83%88%E3%83%8D%E3%82%B9/": {
+        "human": 0
+      },
+      "/tags/%E3%83%96%E3%83%A9%E3%83%B3%E3%83%89%E3%82%AA%E3%83%95/": {
+        "human": 0
+      },
+      "/tags/%E3%83%96%E3%83%A9%E3%83%B3%E3%83%89%E8%B2%B7%E5%8F%96/": {
+        "human": 0
+      },
+      "/tags/%E3%83%97%E3%83%A9%E3%82%A4%E3%83%A0%E3%83%87%E3%83%BC2026/": {
+        "human": 0
+      },
+      "/tags/%E3%83%97%E3%83%A9%E3%82%A4%E3%83%A0%E6%84%9F%E8%AC%9D%E7%A5%AD2026/": {
+        "human": 0
+      },
+      "/tags/%E3%83%97%E3%83%AC%E3%83%9F%E3%82%A2%E3%83%A0%E4%BC%9A%E5%93%A1/": {
+        "human": 0
+      },
+      "/tags/%E3%83%97%E3%83%AC%E3%83%9F%E3%82%A2%E3%83%A0%E5%95%86%E5%93%81%E5%88%B8/": {
+        "human": 0
+      },
+      "/tags/%E3%83%9B%E3%83%86%E3%83%AB%E4%BA%88%E7%B4%84%E3%82%B5%E3%82%A4%E3%83%88/": {
+        "human": 0
+      },
+      "/tags/%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88%E3%82%AB%E3%83%BC%E3%83%89/": {
+        "human": 0
+      },
+      "/tags/%E3%83%9E%E3%82%AF%E3%83%89%E3%83%8A%E3%83%AB%E3%83%89/": {
+        "human": 0
+      },
+      "/tags/%E3%83%9E%E3%83%AC%E3%83%BC%E3%82%B7%E3%82%A2%E3%83%95%E3%82%A7%E3%82%A2/": {
+        "human": 0
+      },
+      "/tags/%E3%83%A6%E3%82%A2%E3%83%9E%E3%82%A4%E3%82%B9%E3%82%BF%E3%83%BC/": {
+        "human": 0
+      },
+      "/tags/%E3%83%A9%E3%82%A4%E3%83%88%E3%82%A2%E3%83%83%E3%83%97/": {
+        "human": 0
+      },
+      "/tags/%E3%83%A9%E3%82%BE%E3%83%BC%E3%83%8A%E5%B7%9D%E5%B4%8E/": {
+        "human": 0
+      },
+      "/tags/%E3%83%AA%E3%83%81%E3%83%A3%E3%83%BC%E3%82%B8WiFi/": {
+        "human": 0
+      },
+      "/tags/%E3%83%AC%E3%83%B3%E3%82%B8%E3%83%95%E3%83%BC%E3%83%89/": {
+        "human": 0
+      },
+      "/tags/%E3%83%AF%E3%83%B3%E3%82%B9%E3%83%88%E3%83%83%E3%83%97%E7%89%B9%E4%BE%8B/": {
+        "human": 0
+      },
+      "/tags/%E4%B8%80%E6%8B%AC%E8%A6%8B%E7%A9%8D%E3%82%82%E3%82%8A/": {
+        "human": 0
+      },
+      "/tags/%E4%B8%89%E4%BA%95%E4%BD%8F%E5%8F%8B%E9%8A%80%E8%A1%8C/": {
+        "human": 0
+      },
+      "/tags/%E4%BA%8C%E9%87%8D%E5%8F%96%E3%82%8A/": {
+        "human": 0
+      },
+      "/tags/%E4%BD%83%E5%B3%B61644/": {
+        "human": 0
+      },
+      "/tags/%E4%BD%8F%E5%90%89%E7%A5%9E%E7%A4%BE%E4%BE%8B%E7%A5%AD/": {
+        "human": 0
+      },
+      "/tags/%E4%BD%8F%E5%90%89%E7%A5%9E%E7%A4%BE/": {
+        "human": 0
+      },
+      "/tags/%E5%85%85%E9%9B%BB%E5%BC%8F%E3%82%AB%E3%82%A4%E3%83%AD/": {
+        "human": 0
+      },
+      "/tags/%E5%8B%95%E7%94%BB%E9%85%8D%E4%BF%A1%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9/": {
+        "human": 0
+      },
+      "/tags/%E5%8B%9D%E3%81%A3%E3%81%9F%E3%82%89%E5%80%8D/": {
+        "human": 0
+      },
+      "/tags/%E5%8C%97%E6%AC%A7%E3%82%A4%E3%83%B3%E3%83%86%E3%83%AA%E3%82%A2/": {
+        "human": 0
+      },
+      "/tags/%E5%9C%B0%E5%A0%B4%E7%94%A3%E5%93%81%E5%9F%BA%E6%BA%96/": {
+        "human": 0
+      },
+      "/tags/%E5%A4%96%E7%82%BA%E3%81%A9%E3%81%A3%E3%81%A8%E3%82%B3%E3%83%A0/": {
+        "human": 0
+      },
+      "/tags/%E5%A4%A7%E7%A3%AF%E3%83%AD%E3%83%B3%E3%82%B0%E3%83%93%E3%83%BC%E3%83%81/": {
+        "human": 0
+      },
+      "/tags/%E5%B0%8F%E7%9F%B3%E5%B7%9D%E5%BE%8C%E6%A5%BD%E5%9C%92/": {
+        "human": 0
+      },
+      "/tags/%E6%8A%BD%E9%81%B8%E4%BC%9A/": {
+        "human": 0
+      },
+      "/tags/%E6%96%B0%E7%AF%89%E3%83%9E%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%B3/": {
+        "human": 0
+      },
+      "/tags/%E6%98%8E%E6%B2%BB%E7%A5%9E%E5%AE%AE%E5%A4%96%E8%8B%91/": {
+        "human": 0
+      },
+      "/tags/%E6%98%A0%E7%94%BB%E9%A4%A8/": {
+        "human": 0
+      },
+      "/tags/%E6%98%AD%E5%92%8C%E8%A8%98%E5%BF%B5%E5%85%AC%E5%9C%92/": {
+        "human": 0
+      },
+      "/tags/%E6%99%B4%E6%B5%B7%E3%83%95%E3%83%A9%E3%83%83%E3%82%B0/": {
+        "human": 0
+      },
+      "/tags/%E6%9C%89%E6%98%8E%E3%82%B3%E3%83%AD%E3%82%B7%E3%82%A2%E3%83%A0/": {
+        "human": 0
+      },
+      "/tags/%E6%9D%B1%E4%BA%AC%E6%B9%BE%E5%A4%A7%E8%8F%AF%E7%81%AB%E7%A5%AD/": {
+        "human": 0
+      },
+      "/tags/%E6%A0%BC%E5%AE%89%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC/": {
+        "human": 0
+      },
+      "/tags/%E6%A5%BD%E5%A4%A9%E3%81%B5%E3%82%8B%E3%81%95%E3%81%A8%E7%B4%8D%E7%A8%8E/": {
+        "human": 0
+      },
+      "/tags/%E6%A9%9F%E5%86%85%E6%8C%81%E3%81%A1%E8%BE%BC%E3%81%BF/": {
+        "human": 0
+      },
+      "/tags/%E6%B1%9F%E6%9D%B1%E6%B9%BE%E5%B2%B8%E3%81%BE%E3%81%A4%E3%82%8A/": {
+        "human": 0
+      },
+      "/tags/%E6%B1%9F%E6%9D%B1%E8%8A%B1%E7%81%AB%E5%A4%A7%E4%BC%9A/": {
+        "human": 0
+      },
+      "/tags/%E6%B1%BA%E6%B8%88%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%9A%E3%83%BC%E3%83%B3/": {
+        "human": 0
+      },
+      "/tags/%E6%B3%89%E5%A4%A9%E7%A9%BA%E3%81%AE%E6%B9%AF/": {
+        "human": 0
+      }
     }
   },
   "2026-11-07": {
@@ -9503,6 +11090,233 @@
       "all": 1300,
       "human": 181,
       "scope": "blog-html"
+    },
+    "pages": {
+      "/category/wangan-life/": {
+        "human": 25
+      },
+      "/": {
+        "human": 13
+      },
+      "/wangan-map/": {
+        "human": 7
+      },
+      "/tags/%E3%82%A4%E3%82%AA%E3%83%B3%E3%83%A2%E3%83%BC%E3%83%AB%E6%A9%BF%E5%8E%9F/": {
+        "human": 1
+      },
+      "/tags/%E3%83%88%E3%83%A2%E3%82%BA/": {
+        "human": 1
+      },
+      "/tags/%E3%83%89%E3%83%A9%E3%83%83%E3%82%B0%E3%82%B9%E3%83%88%E3%82%A2/": {
+        "human": 1
+      },
+      "/tags/%E3%83%AF%E3%83%BC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%83%E3%83%97/": {
+        "human": 1
+      },
+      "/tags/%E5%B9%95%E5%BC%B5%E6%96%B0%E9%83%BD%E5%BF%83/": {
+        "human": 1
+      },
+      "/tags/%E6%99%B4%E6%B5%B7%E3%83%88%E3%83%AA%E3%83%88%E3%83%B3/": {
+        "human": 1
+      },
+      "/tags/2027%E5%B9%B4/": {
+        "human": 1
+      },
+      "/tags/Buddy%E3%82%B9%E3%83%9D%E3%83%BC%E3%83%84%E3%82%A2%E3%83%AA%E3%83%BC%E3%83%8A%E6%9C%89%E6%98%8E/": {
+        "human": 1
+      },
+      "/tags/INI/": {
+        "human": 1
+      },
+      "/tags/LiGA%20DiVeRTiDA/": {
+        "human": 1
+      },
+      "/tags/TOKYO%20FM/": {
+        "human": 1
+      },
+      "/tags/VR/": {
+        "human": 1
+      },
+      "/category/roundups/": {
+        "human": 0
+      },
+      "/tags/%E3%81%B5%E3%82%8B%E3%81%95%E3%81%A8%E7%B4%8D%E7%A8%8E%20%E3%81%8A%E3%81%99%E3%81%99%E3%82%81%202026/": {
+        "human": 0
+      },
+      "/tags/%E3%81%B5%E3%82%8B%E3%81%95%E3%81%A8%E7%B4%8D%E7%A8%8E%20%E3%82%B5%E3%82%A4%E3%83%88/": {
+        "human": 0
+      },
+      "/tags/%E3%81%BE%E3%81%84%E3%81%B0%E3%81%99%E3%81%91%E3%81%A3%E3%81%A8/": {
+        "human": 0
+      },
+      "/tags/%E3%82%A2%E3%82%A6%E3%83%88%E3%83%AC%E3%83%83%E3%83%88%E3%83%A2%E3%83%BC%E3%83%AB/": {
+        "human": 0
+      },
+      "/tags/%E3%82%A2%E3%83%B3%E3%82%B1%E3%83%BC%E3%83%88%E3%83%A2%E3%83%8B%E3%82%BF%E3%83%BC/": {
+        "human": 0
+      },
+      "/tags/%E3%82%A4%E3%82%AA%E3%83%B3%E3%82%B3%E3%83%B3%E3%83%91%E3%82%B9%E3%83%88%E3%83%A9%E3%83%99%E3%83%AB%E3%83%A2%E3%83%BC%E3%83%AB/": {
+        "human": 0
+      },
+      "/tags/%E3%82%A4%E3%82%AA%E3%83%B3%E3%83%A2%E3%83%BC%E3%83%AB%E5%A3%B2%E4%B8%8A%E3%83%A9%E3%83%B3%E3%82%AD%E3%83%B3%E3%82%B0/": {
+        "human": 0
+      },
+      "/tags/%E3%82%A4%E3%82%AA%E3%83%B3%E3%83%A2%E3%83%BC%E3%83%AB%E5%A4%A7%E3%81%8D%E3%81%95%E3%83%A9%E3%83%B3%E3%82%AD%E3%83%B3%E3%82%B0/": {
+        "human": 0
+      },
+      "/tags/%E3%82%A4%E3%82%AA%E3%83%B3%E3%83%A2%E3%83%BC%E3%83%AB/": {
+        "human": 0
+      },
+      "/tags/%E3%82%A4%E3%82%AA%E3%83%B3%E3%83%AC%E3%82%A4%E3%82%AF%E3%82%BF%E3%82%A6%E3%83%B3/": {
+        "human": 0
+      },
+      "/tags/%E3%82%A4%E3%83%B3%E3%83%87%E3%83%83%E3%82%AF%E3%82%B9%E3%83%95%E3%82%A1%E3%83%B3%E3%83%89/": {
+        "human": 0
+      },
+      "/tags/%E3%82%A4%E3%83%B3%E3%83%95%E3%82%A3%E3%83%8B%E3%83%86%E3%82%A3%E3%83%97%E3%83%BC%E3%83%AB/": {
+        "human": 0
+      },
+      "/tags/%E3%82%A8%E3%82%A2%E3%82%B3%E3%83%B3%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%8B%E3%83%B3%E3%82%B0/": {
+        "human": 0
+      },
+      "/tags/%E3%82%A8%E3%83%8B%E3%82%BF%E3%82%A4%E3%83%A0%E3%83%95%E3%82%A3%E3%83%83%E3%83%88%E3%83%8D%E3%82%B9/": {
+        "human": 0
+      },
+      "/tags/%E3%82%AB%E3%83%A4%E3%83%83%E3%82%AF/": {
+        "human": 0
+      },
+      "/tags/%E3%82%B5%E3%82%A6%E3%83%8A%E3%83%A1%E3%83%83%E3%83%84%E3%82%A1%E5%A4%A7%E4%BA%95%E7%94%BA/": {
+        "human": 0
+      },
+      "/tags/%E3%82%B7%E3%83%A7%E3%83%83%E3%83%94%E3%83%B3%E3%82%B0%E3%83%A2%E3%83%BC%E3%83%AB/": {
+        "human": 0
+      },
+      "/tags/%E3%82%B9%E3%83%97%E3%83%AC%E3%83%83%E3%83%89%E6%AF%94%E8%BC%83/": {
+        "human": 0
+      },
+      "/tags/%E3%83%80%E3%82%A4%E3%83%90%E3%83%BC%E3%82%B7%E3%83%86%E3%82%A3%E6%9D%B1%E4%BA%AC/": {
+        "human": 0
+      },
+      "/tags/%E3%83%80%E3%82%B9%E3%82%AD%E3%83%B3/": {
+        "human": 0
+      },
+      "/tags/%E3%83%88%E3%82%A4%E3%83%AC%E3%83%83%E3%83%88%E3%83%9A%E3%83%BC%E3%83%91%E3%83%BC/": {
+        "human": 0
+      },
+      "/tags/%E3%83%89%E3%83%A9%E3%81%88%E3%82%82%E3%82%93%E6%9C%AA%E6%9D%A5%E3%83%87%E3%83%91%E3%83%BC%E3%83%88/": {
+        "human": 0
+      },
+      "/tags/%E3%83%8B%E3%83%A5%E3%82%A6%E3%83%9E%E3%83%B3%E9%AB%98%E8%BC%AA%20%E3%83%AC%E3%82%B9%E3%83%88%E3%83%A9%E3%83%B3/": {
+        "human": 0
+      },
+      "/tags/%E3%83%8B%E3%83%A5%E3%82%A6%E3%83%9E%E3%83%B3%E9%AB%98%E8%BC%AA/": {
+        "human": 0
+      },
+      "/tags/%E3%83%8F%E3%82%A6%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%8B%E3%83%B3%E3%82%B0/": {
+        "human": 0
+      },
+      "/tags/%E3%83%92%E3%83%97%E3%83%8E%E3%82%B7%E3%82%B9%E3%83%9E%E3%82%A4%E3%82%AF/": {
+        "human": 0
+      },
+      "/tags/%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF%E3%83%95%E3%83%A9%E3%82%A4%E3%83%87%E3%83%BC/": {
+        "human": 0
+      },
+      "/tags/%E3%83%97%E3%83%AC%E3%83%9F%E3%82%A2%E3%83%A0%E3%82%A2%E3%82%A6%E3%83%88%E3%83%AC%E3%83%83%E3%83%88/": {
+        "human": 0
+      },
+      "/tags/%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88%E3%82%A2%E3%83%83%E3%83%97%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%9A%E3%83%BC%E3%83%B3/": {
+        "human": 0
+      },
+      "/tags/%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88%E4%BB%98%E4%B8%8E%E7%A6%81%E6%AD%A2/": {
+        "human": 0
+      },
+      "/tags/%E3%83%A2%E3%83%90%E3%82%A4%E3%83%AB%E3%83%90%E3%83%83%E3%83%86%E3%83%AA%E3%83%BC/": {
+        "human": 0
+      },
+      "/tags/%E3%83%A6%E3%83%8A%E3%82%A4%E3%83%86%E3%83%83%E3%83%89%E3%83%BB%E3%82%B7%E3%83%8D%E3%83%9E%E8%B1%8A%E6%B4%B2/": {
+        "human": 0
+      },
+      "/tags/%E3%83%A8%E3%83%89%E3%83%90%E3%82%B7%E3%83%89%E3%83%83%E3%83%88%E3%82%B3%E3%83%A0/": {
+        "human": 0
+      },
+      "/tags/%E3%83%AA%E3%82%BE%E3%83%BC%E3%83%88%E3%82%B0%E3%83%A9%E3%83%B3%E3%83%94%E3%83%B3%E3%82%B0/": {
+        "human": 0
+      },
+      "/tags/%E4%B8%89%E4%BA%95%E3%81%AE%E3%82%AB%E3%83%BC%E3%82%B7%E3%82%A7%E3%82%A2%E3%83%BC%E3%82%BA/": {
+        "human": 0
+      },
+      "/tags/%E4%B8%89%E4%BA%95%E3%82%A2%E3%82%A6%E3%83%88%E3%83%AC%E3%83%83%E3%83%88%E3%83%91%E3%83%BC%E3%82%AF/": {
+        "human": 0
+      },
+      "/tags/%E4%B8%89%E4%BA%95%E3%82%B7%E3%83%A7%E3%83%83%E3%83%94%E3%83%B3%E3%82%B0%E3%83%91%E3%83%BC%E3%82%AF/": {
+        "human": 0
+      },
+      "/tags/%E4%BD%83/": {
+        "human": 0
+      },
+      "/tags/%E5%85%A5%E4%BC%9A%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%9A%E3%83%BC%E3%83%B3/": {
+        "human": 0
+      },
+      "/tags/%E5%87%BA%E7%94%A3%E8%B2%BB%E7%94%A8%E5%8A%A9%E6%88%90/": {
+        "human": 0
+      },
+      "/tags/%E5%8B%9D%E3%81%A9%E3%81%8D/": {
+        "human": 0
+      },
+      "/tags/%E5%A3%B2%E4%B8%8A%E3%83%A9%E3%83%B3%E3%82%AD%E3%83%B3%E3%82%B0/": {
+        "human": 0
+      },
+      "/tags/%E5%A4%A7%E7%A3%AF%E3%83%97%E3%83%AA%E3%83%B3%E3%82%B9%E3%83%9B%E3%83%86%E3%83%AB/": {
+        "human": 0
+      },
+      "/tags/%E5%B1%95%E8%A6%A7%E4%BC%9A/": {
+        "human": 0
+      },
+      "/tags/%E6%9D%B1%E4%BA%AC%E3%82%A2%E3%82%AF%E3%82%A2%E3%82%B7%E3%83%B3%E3%83%95%E3%82%A9%E3%83%8B%E3%83%BC/": {
+        "human": 0
+      },
+      "/tags/%E6%9D%B1%E4%BA%AC%E3%82%AF%E3%83%AA%E3%82%B9%E3%83%9E%E3%82%B9%E3%83%9E%E3%83%BC%E3%82%B1%E3%83%83%E3%83%88/": {
+        "human": 0
+      },
+      "/tags/%E6%9D%B1%E4%BA%AC%E3%83%AA%E3%83%99%E3%83%B3%E3%82%B8%E3%83%A3%E3%83%BC%E3%82%BA/": {
+        "human": 0
+      },
+      "/tags/%E6%9D%B1%E4%BA%AC%E8%87%A8%E6%B5%B7%E5%BA%83%E5%9F%9F%E9%98%B2%E7%81%BD%E5%85%AC%E5%9C%92/": {
+        "human": 0
+      },
+      "/tags/%E6%A5%BD%E5%A4%A9%E3%81%8A%E8%B2%B7%E3%81%84%E7%89%A9%E3%83%9E%E3%83%A9%E3%82%BD%E3%83%B3/": {
+        "human": 0
+      },
+      "/tags/%E7%87%83%E6%B2%B9%E3%82%B5%E3%83%BC%E3%83%81%E3%83%A3%E3%83%BC%E3%82%B8%E3%81%AA%E3%81%97/": {
+        "human": 0
+      },
+      "/tags/%E8%A1%97%E6%AD%A9%E3%81%8D/": {
+        "human": 0
+      },
+      "/tags/%E8%B1%8A%E6%B4%B2%E3%81%90%E3%82%8B%E3%82%8A%E5%85%AC%E5%9C%92/": {
+        "human": 0
+      },
+      "/tags/%E9%AB%98%E8%BC%AA%E3%82%B2%E3%83%BC%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A4%20%E3%82%AB%E3%83%95%E3%82%A7/": {
+        "human": 0
+      },
+      "/tags/%E9%AB%98%E8%BC%AA%E3%82%B2%E3%83%BC%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A4%E3%82%B7%E3%83%86%E3%82%A3%20%E3%83%A9%E3%83%B3%E3%83%81/": {
+        "human": 0
+      },
+      "/tags/%E9%AB%98%E8%BC%AA%E3%82%B2%E3%83%BC%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A4%E3%82%B7%E3%83%86%E3%82%A3%20%E9%A7%90%E8%BB%8A%E5%A0%B4/": {
+        "human": 0
+      },
+      "/tags/%E9%AB%98%E8%BC%AA%E3%82%B2%E3%83%BC%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A4%E3%82%B7%E3%83%86%E3%82%A3/": {
+        "human": 0
+      },
+      "/tags/HOBIE/": {
+        "human": 0
+      },
+      "/tags/SUP/": {
+        "human": 0
+      },
+      "/tags/VIP%E3%83%89%E3%83%BC%E3%83%A0/": {
+        "human": 0
+      }
     }
   },
   "2026-11-08": {
@@ -10698,12 +12512,12 @@
         "r": 1
       },
       {
-        "path": "/posts/cheap-sim-comparison-2026/",
+        "path": "/posts/wangan-sauna-2026/",
         "v": 1,
         "r": 1
       },
       {
-        "path": "/posts/wangan-sauna-2026/",
+        "path": "/posts/cheap-sim-comparison-2026/",
         "v": 1,
         "r": 1
       },
@@ -10718,12 +12532,12 @@
         "r": 1
       },
       {
-        "path": "/posts/olive-30000-cb-may-2026/",
+        "path": "/posts/liga-ariake-futsal-campaign-2026/",
         "v": 1,
         "r": 1
       },
       {
-        "path": "/posts/liga-ariake-futsal-campaign-2026/",
+        "path": "/posts/olive-30000-cb-may-2026/",
         "v": 1,
         "r": 1
       },
@@ -11437,6 +13251,308 @@
       "all": 2004,
       "human": 700,
       "scope": "blog-html"
+    },
+    "pages": {
+      "/": {
+        "human": 15
+      },
+      "/wangan-map/": {
+        "human": 10
+      },
+      "/category/wangan-life/": {
+        "human": 3
+      },
+      "/about/": {
+        "human": 1
+      },
+      "/category/campaigns/": {
+        "human": 1
+      },
+      "/category/comparisons/": {
+        "human": 1
+      },
+      "/category/howto/": {
+        "human": 1
+      },
+      "/category/roundups/": {
+        "human": 1
+      },
+      "/category/services/": {
+        "human": 1
+      },
+      "/contact/": {
+        "human": 1
+      },
+      "/disclaimer/": {
+        "human": 1
+      },
+      "/privacy/": {
+        "human": 1
+      },
+      "/tags/%E3%81%82%E3%81%9D%E3%81%B9%EF%BD%9E%E3%82%8B%E6%B0%B4%E6%97%8F%E9%A4%A8/": {
+        "human": 1
+      },
+      "/tags/%E3%81%8A%E5%8F%B0%E5%A0%B4/": {
+        "human": 1
+      },
+      "/tags/%E3%81%8A%E6%AD%A3%E6%9C%88/": {
+        "human": 1
+      },
+      "/tags/%E3%81%99%E3%81%8D%E5%AE%B6/": {
+        "human": 1
+      },
+      "/tags/%E3%81%AA%E3%81%8B%E5%8D%AF/": {
+        "human": 1
+      },
+      "/tags/%E3%81%AF%E3%82%8B%E3%81%BF%E3%82%89%E3%81%84/": {
+        "human": 1
+      },
+      "/tags/%E3%81%B5%E3%82%8B%E3%81%95%E3%81%A8%E7%B4%8D%E7%A8%8E/": {
+        "human": 1
+      },
+      "/tags/%E3%82%A2%E3%82%A4%E3%83%AA%E3%82%B9%E3%82%AA%E3%83%BC%E3%83%A4%E3%83%9E/": {
+        "human": 1
+      },
+      "/tags/%E3%82%A2%E3%83%B3%E3%82%B1%E3%83%BC%E3%83%88%E3%83%A2%E3%83%8B%E3%82%BF%E3%83%BC/": {
+        "human": 1
+      },
+      "/tags/%E3%82%A4%E3%82%AA%E3%83%B3%E3%82%B3%E3%83%B3%E3%83%91%E3%82%B9%E3%83%88%E3%83%A9%E3%83%99%E3%83%AB%E3%83%A2%E3%83%BC%E3%83%AB/": {
+        "human": 1
+      },
+      "/tags/%E3%82%A4%E3%82%AA%E3%83%B3%E3%83%A2%E3%83%BC%E3%83%AB%E5%A3%B2%E4%B8%8A%E3%83%A9%E3%83%B3%E3%82%AD%E3%83%B3%E3%82%B0/": {
+        "human": 1
+      },
+      "/tags/%E3%82%A4%E3%82%AA%E3%83%B3%E3%83%A2%E3%83%BC%E3%83%AB%E5%A4%A7%E3%81%8D%E3%81%95%E3%83%A9%E3%83%B3%E3%82%AD%E3%83%B3%E3%82%B0/": {
+        "human": 1
+      },
+      "/tags/%E3%82%A4%E3%82%AA%E3%83%B3%E3%83%A2%E3%83%BC%E3%83%AB%E6%A9%BF%E5%8E%9F/": {
+        "human": 1
+      },
+      "/tags/%E3%82%A4%E3%82%AA%E3%83%B3%E3%83%A2%E3%83%BC%E3%83%AB/": {
+        "human": 1
+      },
+      "/tags/%E3%82%A4%E3%82%AA%E3%83%B3%E3%83%AC%E3%82%A4%E3%82%AF%E3%82%BF%E3%82%A6%E3%83%B3/": {
+        "human": 1
+      },
+      "/tags/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/": {
+        "human": 1
+      },
+      "/tags/%E3%82%A8%E3%82%A2%E3%82%B3%E3%83%B3%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%8B%E3%83%B3%E3%82%B0/": {
+        "human": 1
+      },
+      "/tags/%E3%82%AD%E3%83%A3%E3%83%83%E3%82%B7%E3%83%A5%E3%83%AC%E3%82%B9/": {
+        "human": 1
+      },
+      "/tags/%E3%82%AD%E3%83%A3%E3%83%B3%E3%82%BB%E3%83%AB%E6%96%99/": {
+        "human": 1
+      },
+      "/tags/%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%9A%E3%83%BC%E3%83%B3/": {
+        "human": 1
+      },
+      "/tags/%E3%82%AD%E3%83%AC%E3%82%A4%E3%83%A6/": {
+        "human": 1
+      },
+      "/tags/%E3%82%AF%E3%83%AC%E3%82%B8%E3%83%83%E3%83%88%E3%82%AB%E3%83%BC%E3%83%89/": {
+        "human": 1
+      },
+      "/tags/%E3%82%B3%E3%82%B9%E3%83%91/": {
+        "human": 1
+      },
+      "/tags/%E3%82%B3%E3%83%A1%E3%83%80%E7%8F%88%E7%90%B2%E5%BA%97/": {
+        "human": 1
+      },
+      "/tags/%E3%82%B5%E3%83%B3%E3%82%A8%E3%82%B9/": {
+        "human": 1
+      },
+      "/tags/%E3%82%B5%E3%83%B3%E3%82%B3%E3%83%BC/": {
+        "human": 1
+      },
+      "/tags/%E3%82%B5%E3%83%B3%E3%82%BF%E3%82%AF%E3%83%AD%E3%83%BC%E3%82%B9/": {
+        "human": 1
+      },
+      "/tags/%E3%82%B7%E3%83%86%E3%82%A3%E3%82%B5%E3%83%BC%E3%82%AD%E3%83%83%E3%83%88%E6%9D%B1%E4%BA%AC%E3%83%99%E3%82%A4/": {
+        "human": 1
+      },
+      "/tags/%E3%82%B7%E3%83%A7%E3%83%83%E3%83%94%E3%83%B3%E3%82%B0%E3%83%A2%E3%83%BC%E3%83%AB/": {
+        "human": 1
+      },
+      "/tags/%E3%82%BB%E3%83%AB%E3%83%95%E3%83%90%E3%83%83%E3%82%AF/": {
+        "human": 1
+      },
+      "/tags/%E3%82%BB%E3%83%BC%E3%83%AB/": {
+        "human": 1
+      },
+      "/tags/%E3%82%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%BC/": {
+        "human": 1
+      },
+      "/tags/%E3%83%80%E3%82%B9%E3%82%AD%E3%83%B3/": {
+        "human": 1
+      },
+      "/tags/%E3%83%81%E3%82%A7%E3%83%BC%E3%83%B3%E5%BA%97/": {
+        "human": 1
+      },
+      "/tags/%E3%83%81%E3%83%BC%E3%83%A0%E3%83%A9%E3%83%9C/": {
+        "human": 1
+      },
+      "/tags/%E3%83%88%E3%83%A9%E3%83%99%E3%83%AA%E3%82%B9%E3%83%88/": {
+        "human": 1
+      },
+      "/tags/%E3%83%8F%E3%82%A6%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%8B%E3%83%B3%E3%82%B0/": {
+        "human": 1
+      },
+      "/tags/%E3%83%90%E3%83%83%E3%83%95%E3%82%A1%E3%83%AD%E3%83%BC/": {
+        "human": 1
+      },
+      "/tags/%E3%83%90%E3%83%BC%E3%83%88%E3%83%AB/": {
+        "human": 1
+      },
+      "/tags/%E3%83%92%E3%83%BC%E3%82%BF%E3%83%BC%E3%83%99%E3%82%B9%E3%83%88/": {
+        "human": 1
+      },
+      "/tags/%E3%83%97%E3%83%A9%E3%82%A4%E3%83%A0%E3%83%87%E3%83%BC2026/": {
+        "human": 1
+      },
+      "/tags/%E3%83%97%E3%83%A9%E3%82%A4%E3%83%A0%E6%84%9F%E8%AC%9D%E7%A5%AD2026/": {
+        "human": 1
+      },
+      "/tags/%E3%83%9B%E3%83%86%E3%83%AB%E4%BA%88%E7%B4%84%E3%82%B5%E3%82%A4%E3%83%88/": {
+        "human": 1
+      },
+      "/tags/%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88%E3%82%A2%E3%83%83%E3%83%97%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%9A%E3%83%BC%E3%83%B3/": {
+        "human": 1
+      },
+      "/tags/%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88%E3%82%B5%E3%82%A4%E3%83%88/": {
+        "human": 1
+      },
+      "/tags/%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88%E7%B5%8C%E6%B8%88%E5%9C%8F/": {
+        "human": 1
+      },
+      "/tags/%E3%83%9E%E3%82%AD%E3%82%BF/": {
+        "human": 1
+      },
+      "/tags/%E3%83%9E%E3%82%AF%E3%83%89%E3%83%8A%E3%83%AB%E3%83%89/": {
+        "human": 1
+      },
+      "/tags/%E3%83%A2%E3%83%90%E3%82%A4%E3%83%AB%E3%83%90%E3%83%83%E3%83%86%E3%83%AA%E3%83%BC/": {
+        "human": 1
+      },
+      "/tags/%E3%83%A2%E3%83%BC%E3%83%8B%E3%83%B3%E3%82%B0/": {
+        "human": 1
+      },
+      "/tags/%E3%83%A6%E3%82%A2%E3%83%9E%E3%82%A4%E3%82%B9%E3%82%BF%E3%83%BC/": {
+        "human": 1
+      },
+      "/tags/%E3%83%AA%E3%82%BE%E3%83%BC%E3%83%88%E3%82%B0%E3%83%A9%E3%83%B3%E3%83%94%E3%83%B3%E3%82%B0/": {
+        "human": 1
+      },
+      "/tags/%E3%83%AA%E3%83%B3%E9%85%B8%E9%89%84/": {
+        "human": 1
+      },
+      "/tags/%E3%83%AB%E3%83%BB%E3%83%9E%E3%83%B3/": {
+        "human": 1
+      },
+      "/tags/%E3%83%AC%E3%83%B3%E3%82%B8%E3%83%95%E3%83%BC%E3%83%89/": {
+        "human": 1
+      },
+      "/tags/%E4%B8%89%E4%BA%95%E4%BD%8F%E5%8F%8B%E3%82%AB%E3%83%BC%E3%83%89/": {
+        "human": 1
+      },
+      "/tags/%E4%B8%AD%E5%A4%AE%E5%8C%BA%E8%A6%B3%E5%85%89%E5%95%86%E6%A5%AD%E3%81%BE%E3%81%A4%E3%82%8A/": {
+        "human": 1
+      },
+      "/tags/%E4%BD%83/": {
+        "human": 1
+      },
+      "/tags/%E4%BD%8F%E5%AE%85%E3%83%AD%E3%83%BC%E3%83%B3/": {
+        "human": 1
+      },
+      "/tags/%E5%80%9F%E3%82%8A%E6%8F%9B%E3%81%88/": {
+        "human": 1
+      },
+      "/tags/%E5%86%AC/": {
+        "human": 1
+      },
+      "/tags/%E5%88%A9%E4%B8%8A%E3%81%92/": {
+        "human": 1
+      },
+      "/tags/%E5%8D%8A%E5%9B%BA%E4%BD%93/": {
+        "human": 1
+      },
+      "/tags/%E5%8F%A3%E5%BA%A7%E9%96%8B%E8%A8%AD/": {
+        "human": 1
+      },
+      "/tags/%E5%90%89%E9%87%8E%E5%AE%B6/": {
+        "human": 1
+      },
+      "/tags/%E5%95%86%E5%BA%97%E8%A1%97/": {
+        "human": 1
+      },
+      "/tags/%E5%9B%BA%E5%AE%9A%E9%87%91%E5%88%A9/": {
+        "human": 1
+      },
+      "/tags/%E5%9B%BD%E9%81%93357%E5%8F%B7/": {
+        "human": 1
+      },
+      "/tags/%E5%A4%89%E5%8B%95%E9%87%91%E5%88%A9/": {
+        "human": 1
+      },
+      "/tags/%E5%A4%A7%E6%8E%83%E9%99%A4/": {
+        "human": 1
+      },
+      "/tags/%E5%AD%90%E9%80%A3%E3%82%8C/": {
+        "human": 1
+      },
+      "/tags/%E5%AE%9F%E5%8A%B9%E6%99%82%E7%B5%A6/": {
+        "human": 1
+      },
+      "/tags/%E5%AF%BA%E7%94%B0%E9%99%BD%E6%AC%A1%E9%83%8E/": {
+        "human": 1
+      },
+      "/tags/%E5%B9%95%E5%BC%B5%E6%96%B0%E9%83%BD%E5%BF%83/": {
+        "human": 1
+      },
+      "/tags/%E6%90%8D%E7%9B%8A%E5%88%86%E5%B2%90/": {
+        "human": 1
+      },
+      "/tags/%E6%97%A5%E9%8A%80/": {
+        "human": 1
+      },
+      "/tags/%E6%99%82%E7%B5%A6%E6%8F%9B%E7%AE%97/": {
+        "human": 1
+      },
+      "/tags/%E6%99%82%E7%B5%A6/": {
+        "human": 1
+      },
+      "/tags/%E6%99%B4%E6%B5%B7/": {
+        "human": 1
+      },
+      "/tags/%E6%9C%88%E5%B3%B6/": {
+        "human": 1
+      },
+      "/tags/%E6%9C%89%E6%98%8E%E3%82%AC%E3%83%BC%E3%83%87%E3%83%B3/": {
+        "human": 1
+      },
+      "/tags/%E6%9C%89%E6%98%8E/": {
+        "human": 1
+      },
+      "/tags/%E6%9C%9D%E9%A3%9F/": {
+        "human": 1
+      },
+      "/tags/%E6%9D%B1%E4%BA%AC%E3%83%99%E3%82%A4%E6%9C%89%E6%98%8E%E3%83%AF%E3%82%B7%E3%83%B3%E3%83%88%E3%83%B3%E3%83%9B%E3%83%86%E3%83%AB/": {
+        "human": 1
+      },
+      "/tags/%E6%9D%BE%E5%B1%8B%E3%82%A2%E3%83%97%E3%83%AA/": {
+        "human": 1
+      },
+      "/tags/%E6%9D%BE%E5%B1%8B/": {
+        "human": 1
+      },
+      "/tags/%E6%9D%BE%E5%BC%81%E3%83%8D%E3%83%83%E3%83%88/": {
+        "human": 1
+      },
+      "/tags/%E6%A5%BD%E5%A4%A9%E3%81%8A%E8%B2%B7%E3%81%84%E7%89%A9%E3%83%9E%E3%83%A9%E3%82%BD%E3%83%B3/": {
+        "human": 1
+      }
     }
   },
   "2026-11-09": {
@@ -12162,6 +14278,11 @@
         "r": 2
       },
       {
+        "path": "/tags/%E3%82%AD%E3%83%A3%E3%83%83%E3%82%B7%E3%83%A5%E3%83%AC%E3%82%B9/",
+        "v": 2,
+        "r": 2
+      },
+      {
         "path": "/tags/%E3%83%A6%E3%83%8A%E3%82%A4%E3%83%86%E3%83%83%E3%83%89%E3%83%BB%E3%82%B7%E3%83%8D%E3%83%9E%E8%B1%8A%E6%B4%B2/",
         "v": 2,
         "r": 2
@@ -12173,11 +14294,6 @@
       },
       {
         "path": "/tags/%E5%AD%90%E9%80%A3%E3%82%8C/",
-        "v": 2,
-        "r": 2
-      },
-      {
-        "path": "/tags/%E3%82%AD%E3%83%A3%E3%83%83%E3%82%B7%E3%83%A5%E3%83%AC%E3%82%B9/",
         "v": 2,
         "r": 2
       },
@@ -12237,12 +14353,12 @@
         "r": 2
       },
       {
-        "path": "/tags/VIP%E3%83%89%E3%83%BC%E3%83%A0/",
+        "path": "/tags/%E3%83%AA%E3%83%81%E3%83%A3%E3%83%BC%E3%82%B8WiFi/",
         "v": 2,
         "r": 2
       },
       {
-        "path": "/tags/%E3%83%AA%E3%83%81%E3%83%A3%E3%83%BC%E3%82%B8WiFi/",
+        "path": "/tags/VIP%E3%83%89%E3%83%BC%E3%83%A0/",
         "v": 2,
         "r": 2
       },
@@ -12799,6 +14915,26 @@
       "all": 1424,
       "human": 103,
       "scope": "blog-html"
+    },
+    "pages": {
+      "/": {
+        "human": 20
+      },
+      "/tags/%E7%AF%89%E5%9C%B0/": {
+        "human": 1
+      },
+      "/tags/%E9%A6%99%E6%B8%AF%E9%A3%B2%E8%8C%B6%20%E9%BE%8D%E8%A8%98/": {
+        "human": 1
+      },
+      "/search/": {
+        "human": 0
+      },
+      "/tags/2027%E5%B9%B4/": {
+        "human": 0
+      },
+      "/tags/VR/": {
+        "human": 0
+      }
     }
   },
   "2026-11-10": {
@@ -14207,6 +16343,56 @@
       "all": 996,
       "human": 94,
       "scope": "blog-html"
+    },
+    "pages": {
+      "/": {
+        "human": 13
+      },
+      "/tags/%E5%9B%BD%E9%81%93357%E5%8F%B7/": {
+        "human": 1
+      },
+      "/tags/%E6%9D%B1%E9%9B%B2/": {
+        "human": 1
+      },
+      "/tags/%E8%B1%8A%E6%B4%B2%E5%B8%82%E5%A0%B4/": {
+        "human": 1
+      },
+      "/tags/%E8%B1%8A%E6%B5%B7/": {
+        "human": 1
+      },
+      "/tags/%E8%BE%B0%E5%B7%B3/": {
+        "human": 1
+      },
+      "/tags/%E9%80%9A%E8%A1%8C%E6%AD%A2%E3%82%81/": {
+        "human": 1
+      },
+      "/tags/%E9%AD%9A%E3%81%8C%E3%81%97%E6%A8%AA%E4%B8%81/": {
+        "human": 1
+      },
+      "/tags/Ray-Ban%20Meta/": {
+        "human": 1
+      },
+      "/tags/STREET%20CHURROS/": {
+        "human": 1
+      },
+      "/tags/THE%20PERSONAL%20GYM/": {
+        "human": 1
+      },
+      "/contact/": {
+        "human": 0
+      },
+      "/tags/%E3%81%8A%E6%AD%A3%E6%9C%88/": {
+        "human": 0
+      },
+      "/tags/%E9%A6%99%E6%B8%AF%E9%A3%B2%E8%8C%B6%20%E9%BE%8D%E8%A8%98/": {
+        "human": 0
+      },
+      "/tags/APIT%E6%9D%B1%E9%9B%B2/": {
+        "human": 0
+      },
+      "/tags/TSUTAYA%20BOOKSTORE/": {
+        "human": 0
+      }
     }
   },
   "2026-11-11": {
@@ -15132,7 +17318,7 @@
         "r": 1
       },
       {
-        "path": "/tags/%E5%AD%90%E9%80%A3%E3%82%8C/",
+        "path": "/tags/%E4%B8%89%E4%BA%95%E3%82%AC%E3%83%BC%E3%83%87%E3%83%B3%E3%83%9B%E3%83%86%E3%83%AB%E8%B1%8A%E6%B4%B2%E3%83%97%E3%83%AC%E3%83%9F%E3%82%A2/",
         "v": 1,
         "r": 1
       },
@@ -15142,7 +17328,7 @@
         "r": 1
       },
       {
-        "path": "/tags/%E4%B8%89%E4%BA%95%E3%82%AC%E3%83%BC%E3%83%87%E3%83%B3%E3%83%9B%E3%83%86%E3%83%AB%E8%B1%8A%E6%B4%B2%E3%83%97%E3%83%AC%E3%83%9F%E3%82%A2/",
+        "path": "/tags/%E5%AD%90%E9%80%A3%E3%82%8C/",
         "v": 1,
         "r": 1
       },
@@ -15235,7 +17421,7 @@
       },
       {
         "k": "FR",
-        "v": 262
+        "v": 261
       },
       {
         "k": "JP",
@@ -15432,6 +17618,44 @@
       "all": 867,
       "human": 88,
       "scope": "blog-html"
+    },
+    "pages": {
+      "/": {
+        "human": 17
+      },
+      "/tags/%E3%82%AF%E3%83%BC%E3%83%9D%E3%83%B3/": {
+        "human": 1
+      },
+      "/tags/%E3%83%AB%E3%83%BB%E3%83%9E%E3%83%B3/": {
+        "human": 1
+      },
+      "/tags/%E4%BA%A4%E9%80%9A%E8%A6%8F%E5%88%B6/": {
+        "human": 1
+      },
+      "/tags/%E5%AD%90%E9%80%A3%E3%82%8C/": {
+        "human": 1
+      },
+      "/tags/%E6%A5%BD%E5%A4%A9%E7%84%A1%E4%BA%BA%E9%85%8D%E9%80%81/": {
+        "human": 1
+      },
+      "/tags/APIT%E6%9D%B1%E9%9B%B2/": {
+        "human": 1
+      },
+      "/tags/%E3%83%8B%E3%83%A5%E3%82%A6%E3%83%9E%E3%83%B3%E9%AB%98%E8%BC%AA%20%E3%83%AC%E3%82%B9%E3%83%88%E3%83%A9%E3%83%B3/": {
+        "human": 0
+      },
+      "/tags/%E5%AF%BA%E7%94%B0%E9%99%BD%E6%AC%A1%E9%83%8E/": {
+        "human": 0
+      },
+      "/tags/%E6%9D%B1%E4%BA%AC%E3%83%99%E3%82%A4%E6%9C%89%E6%98%8E%E3%83%AF%E3%82%B7%E3%83%B3%E3%83%88%E3%83%B3%E3%83%9B%E3%83%86%E3%83%AB/": {
+        "human": 0
+      },
+      "/tags/%E8%B1%8A%E6%B4%B2%E5%B8%82%E5%A0%B4/": {
+        "human": 0
+      },
+      "/tags/STREET%20CHURROS/": {
+        "human": 0
+      }
     }
   },
   "2026-11-12": {
@@ -16292,12 +18516,12 @@
         "r": 1
       },
       {
-        "path": "/posts/gyudon-chains-cashless-2026-jun/",
+        "path": "/posts/his-clearance-sale-2026-jun/",
         "v": 1,
         "r": 1
       },
       {
-        "path": "/posts/his-clearance-sale-2026-jun/",
+        "path": "/posts/gyudon-chains-cashless-2026-jun/",
         "v": 1,
         "r": 1
       },
@@ -16782,6 +19006,74 @@
       "all": 813,
       "human": 97,
       "scope": "blog-html"
+    },
+    "pages": {
+      "/": {
+        "human": 12
+      },
+      "/tags/%E3%81%8A%E6%AD%A3%E6%9C%88/": {
+        "human": 1
+      },
+      "/tags/%E3%82%B7%E3%83%86%E3%82%A3%E3%82%B5%E3%83%BC%E3%82%AD%E3%83%83%E3%83%88%E6%9D%B1%E4%BA%AC%E3%83%99%E3%82%A4/": {
+        "human": 1
+      },
+      "/tags/%E5%AF%BA%E7%94%B0%E9%99%BD%E6%AC%A1%E9%83%8E/": {
+        "human": 1
+      },
+      "/tags/%E6%9D%B1%E4%BA%AC%E3%83%99%E3%82%A4%E6%9C%89%E6%98%8E%E3%83%AF%E3%82%B7%E3%83%B3%E3%83%88%E3%83%B3%E3%83%9B%E3%83%86%E3%83%AB/": {
+        "human": 1
+      },
+      "/tags/%E7%84%A1%E6%96%99%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/": {
+        "human": 1
+      },
+      "/tags/%E9%A6%96%E9%83%BD%E9%AB%98/": {
+        "human": 1
+      },
+      "/tags/TSUTAYA%20BOOKSTORE/": {
+        "human": 1
+      },
+      "/tags/e%E3%83%A2%E3%83%BC%E3%82%BF%E3%83%BC%E3%82%B9%E3%83%9D%E3%83%BC%E3%83%84/": {
+        "human": 1
+      },
+      "/tags/%E3%81%82%E3%81%9D%E3%81%B9%EF%BD%9E%E3%82%8B%E6%B0%B4%E6%97%8F%E9%A4%A8/": {
+        "human": 0
+      },
+      "/tags/%E3%81%AF%E3%82%8B%E3%81%BF%E3%82%89%E3%81%84/": {
+        "human": 0
+      },
+      "/tags/%E3%82%A8%E3%82%A2%E3%83%95%E3%83%A9%E3%82%A4%E3%83%A4%E3%83%BC/": {
+        "human": 0
+      },
+      "/tags/%E3%82%AF%E3%83%BC%E3%83%9D%E3%83%B3/": {
+        "human": 0
+      },
+      "/tags/%E3%83%86%E3%82%A3%E3%83%95%E3%82%A1%E3%83%BC%E3%83%AB/": {
+        "human": 0
+      },
+      "/tags/%E3%83%8B%E3%83%88%E3%83%AA/": {
+        "human": 0
+      },
+      "/tags/%E3%83%8E%E3%83%B3%E3%83%95%E3%83%A9%E3%82%A4%E3%83%A4%E3%83%BC/": {
+        "human": 0
+      },
+      "/tags/%E3%83%AC%E3%82%B3%E3%83%AB%E3%83%88/": {
+        "human": 0
+      },
+      "/tags/%E4%B8%AD%E5%A4%AE%E5%8C%BA%E8%A6%B3%E5%85%89%E5%95%86%E6%A5%AD%E3%81%BE%E3%81%A4%E3%82%8A/": {
+        "human": 0
+      },
+      "/tags/%E5%AD%90%E9%80%A3%E3%82%8C/": {
+        "human": 0
+      },
+      "/tags/3%E9%80%A3%E4%BC%91/": {
+        "human": 0
+      },
+      "/tags/BRUNO/": {
+        "human": 0
+      },
+      "/tags/EPEIOS/": {
+        "human": 0
+      }
     }
   },
   "2026-11-13": {
@@ -18137,12 +20429,12 @@
         "r": 2
       },
       {
-        "path": "/tags/%E4%B8%AD%E5%A4%AE%E5%8C%BA/",
+        "path": "/tags/%E6%B5%B7%E9%AE%AE/",
         "v": 1,
         "r": 1
       },
       {
-        "path": "/tags/%E6%B5%B7%E9%AE%AE/",
+        "path": "/tags/%E4%B8%AD%E5%A4%AE%E5%8C%BA/",
         "v": 1,
         "r": 1
       },
@@ -18610,6 +20902,185 @@
       "all": 4477,
       "human": 1981,
       "scope": "blog-html"
+    },
+    "pages": {
+      "/": {
+        "human": 14
+      },
+      "/privacy/": {
+        "human": 3
+      },
+      "/category/rankings/": {
+        "human": 2
+      },
+      "/category/wangan-life/": {
+        "human": 2
+      },
+      "/about/": {
+        "human": 1
+      },
+      "/author/": {
+        "human": 1
+      },
+      "/category/campaigns/": {
+        "human": 1
+      },
+      "/category/comparisons/": {
+        "human": 1
+      },
+      "/category/howto/": {
+        "human": 1
+      },
+      "/category/roundups/": {
+        "human": 1
+      },
+      "/category/services/": {
+        "human": 1
+      },
+      "/contact/": {
+        "human": 1
+      },
+      "/disclaimer/": {
+        "human": 1
+      },
+      "/search/": {
+        "human": 1
+      },
+      "/tags/%E3%82%A4%E3%82%AA%E3%83%B3%E3%83%A2%E3%83%BC%E3%83%AB%E5%A3%B2%E4%B8%8A%E3%83%A9%E3%83%B3%E3%82%AD%E3%83%B3%E3%82%B0/": {
+        "human": 1
+      },
+      "/tags/%E3%82%A4%E3%82%B1%E3%82%A2/": {
+        "human": 1
+      },
+      "/tags/%E3%82%A4%E3%83%AB%E3%83%9F%E3%83%8D%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3/": {
+        "human": 1
+      },
+      "/tags/%E3%82%AF%E3%83%AA%E3%82%B9%E3%83%9E%E3%82%B9/": {
+        "human": 1
+      },
+      "/tags/%E3%82%B4%E3%82%B8%E3%83%A9/": {
+        "human": 1
+      },
+      "/tags/%E3%83%8B%E3%83%BC%E3%82%BA%E3%83%84%E3%82%A2%E3%83%BC/": {
+        "human": 1
+      },
+      "/tags/%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88/": {
+        "human": 1
+      },
+      "/tags/%E6%96%B0%E8%B1%8A%E6%B4%B2/": {
+        "human": 1
+      },
+      "/tags/%E6%9C%89%E6%98%8E/": {
+        "human": 1
+      },
+      "/tags/%E6%A0%BC%E5%AE%89%E8%88%AA%E7%A9%BA%E5%88%B8/": {
+        "human": 1
+      },
+      "/tags/%E6%A5%BD%E5%A4%A9%E3%81%8A%E8%B2%B7%E3%81%84%E7%89%A9%E3%83%9E%E3%83%A9%E3%82%BD%E3%83%B3/": {
+        "human": 1
+      },
+      "/tags/%E6%A5%BD%E5%A4%A9%E5%B8%82%E5%A0%B4/": {
+        "human": 1
+      },
+      "/tags/%E6%B5%9C%E9%9B%A2%E5%AE%AE/": {
+        "human": 1
+      },
+      "/tags/%E6%B9%BE%E5%B2%B8%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9/": {
+        "human": 1
+      },
+      "/tags/%E6%B9%BE%E5%B2%B8/": {
+        "human": 1
+      },
+      "/tags/%E7%9B%86%E8%B8%8A%E3%82%8A/": {
+        "human": 1
+      },
+      "/tags/%E7%A5%AD%E3%82%8A/": {
+        "human": 1
+      },
+      "/tags/%E7%AF%80%E7%B4%84/": {
+        "human": 1
+      },
+      "/tags/%E7%BF%BB%E8%A8%B3/": {
+        "human": 1
+      },
+      "/tags/%E8%8A%B1%E7%81%AB%E5%A4%A7%E4%BC%9A/": {
+        "human": 1
+      },
+      "/tags/%E8%B1%8A%E6%B4%B2/": {
+        "human": 1
+      },
+      "/tags/2026%E5%B9%B4%E7%89%88/": {
+        "human": 1
+      },
+      "/tags/2026%E5%B9%B4/": {
+        "human": 1
+      },
+      "/tags/Amazon%E3%82%AE%E3%83%95%E3%83%88%E3%82%AB%E3%83%BC%E3%83%89/": {
+        "human": 1
+      },
+      "/tags/OZmall/": {
+        "human": 1
+      },
+      "/tags/V%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88/": {
+        "human": 1
+      },
+      "/venues/": {
+        "human": 1
+      },
+      "/venues/ariake-arena/": {
+        "human": 1
+      },
+      "/venues/bigsight/": {
+        "human": 1
+      },
+      "/venues/garden-theater/": {
+        "human": 1
+      },
+      "/wangan-map/": {
+        "human": 1
+      },
+      "/tags/%E3%81%A1%E3%81%84%E3%81%8B%E3%82%8F/": {
+        "human": 0
+      },
+      "/tags/%E3%82%AF%E3%83%BC%E3%83%AA%E3%82%A2/": {
+        "human": 0
+      },
+      "/tags/%E3%82%B5%E3%83%B3%E3%82%B9%E3%82%BF%E3%83%BC%E6%96%87%E5%85%B7/": {
+        "human": 0
+      },
+      "/tags/%E3%82%B5%E3%83%B3%E3%83%AA%E3%82%AA/": {
+        "human": 0
+      },
+      "/tags/%E3%82%B7%E3%83%BC%E3%83%AB/": {
+        "human": 0
+      },
+      "/tags/%E3%83%9C%E3%83%B3%E3%83%9C%E3%83%B3%E3%83%89%E3%83%AD%E3%83%83%E3%83%97%E3%82%B7%E3%83%BC%E3%83%AB/": {
+        "human": 0
+      },
+      "/tags/%E4%BA%A4%E9%80%9A%E8%A6%8F%E5%88%B6/": {
+        "human": 0
+      },
+      "/tags/%E5%95%86%E5%BA%97%E8%A1%97/": {
+        "human": 0
+      },
+      "/tags/%E5%AD%90%E3%81%A9%E3%82%82/": {
+        "human": 0
+      },
+      "/tags/%E6%A5%BD%E5%A4%A9%E7%84%A1%E4%BA%BA%E9%85%8D%E9%80%81/": {
+        "human": 0
+      },
+      "/tags/%E7%84%A1%E6%96%99%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/": {
+        "human": 0
+      },
+      "/tags/%E8%8B%B1%E8%AA%9E/": {
+        "human": 0
+      },
+      "/tags/BONBON%20DROP/": {
+        "human": 0
+      },
+      "/tags/e%E3%83%A2%E3%83%BC%E3%82%BF%E3%83%BC%E3%82%B9%E3%83%9D%E3%83%BC%E3%83%84/": {
+        "human": 0
+      }
     }
   },
   "2026-11-14": {
@@ -19485,12 +21956,12 @@
         "r": 2
       },
       {
-        "path": "/posts/his-clearance-sale-2026-jun/",
+        "path": "/posts/gyudon-chains-cashless-2026-jun/",
         "v": 2,
         "r": 2
       },
       {
-        "path": "/posts/gyudon-chains-cashless-2026-jun/",
+        "path": "/posts/his-clearance-sale-2026-jun/",
         "v": 2,
         "r": 2
       },
@@ -20548,6 +23019,203 @@
       "all": 3045,
       "human": 690,
       "scope": "blog-html"
+    },
+    "pages": {
+      "/": {
+        "human": 23
+      },
+      "/about/": {
+        "human": 10
+      },
+      "/category/wangan-life/": {
+        "human": 10
+      },
+      "/category/campaigns/": {
+        "human": 7
+      },
+      "/contact/": {
+        "human": 7
+      },
+      "/wangan-map/": {
+        "human": 2
+      },
+      "/author/": {
+        "human": 1
+      },
+      "/category/comparisons/": {
+        "human": 1
+      },
+      "/category/howto/": {
+        "human": 1
+      },
+      "/category/services/": {
+        "human": 1
+      },
+      "/privacy/": {
+        "human": 1
+      },
+      "/tags/%E3%81%BE%E3%81%A8%E3%82%81/": {
+        "human": 1
+      },
+      "/tags/%E3%82%89%E3%82%89%E3%81%BD%E3%83%BC%E3%81%A8%E8%B1%8A%E6%B4%B2/": {
+        "human": 1
+      },
+      "/tags/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/": {
+        "human": 1
+      },
+      "/tags/%E3%82%B3%E3%83%B3%E3%83%93%E3%83%8B/": {
+        "human": 1
+      },
+      "/tags/%E3%83%84%E3%82%A2%E3%83%BC/": {
+        "human": 1
+      },
+      "/tags/%E3%83%88%E3%83%A2%E3%82%BA/": {
+        "human": 1
+      },
+      "/tags/%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF%E3%83%95%E3%83%A9%E3%82%A4%E3%83%87%E3%83%BC/": {
+        "human": 1
+      },
+      "/tags/%E3%83%97%E3%83%AC%E3%83%9F%E3%82%A2%E3%83%A0%E4%BC%9A%E5%93%A1/": {
+        "human": 1
+      },
+      "/tags/%E3%83%97%E3%83%AD%E9%87%8E%E7%90%83/": {
+        "human": 1
+      },
+      "/tags/%E3%83%A9%E3%83%B3%E3%82%AD%E3%83%B3%E3%82%B0/": {
+        "human": 1
+      },
+      "/tags/%E5%B1%95%E8%A6%A7%E4%BC%9A/": {
+        "human": 1
+      },
+      "/tags/%E6%97%85%E8%A1%8C/": {
+        "human": 1
+      },
+      "/tags/%E6%9D%B1%E5%8D%97%E3%82%A2%E3%82%B8%E3%82%A2/": {
+        "human": 1
+      },
+      "/tags/%E6%B5%B7%E5%A4%96%E6%97%85%E8%A1%8C/": {
+        "human": 1
+      },
+      "/tags/%E7%99%BE%E8%B2%A8%E5%BA%97/": {
+        "human": 1
+      },
+      "/tags/%E7%9B%B4%E8%A1%8C%E4%BE%BF/": {
+        "human": 1
+      },
+      "/tags/%E7%A7%BB%E5%8B%95/": {
+        "human": 1
+      },
+      "/tags/%E7%A9%BA%E6%B8%AF/": {
+        "human": 1
+      },
+      "/tags/3%E9%80%A3%E4%BC%91/": {
+        "human": 1
+      },
+      "/tags/ANA/": {
+        "human": 1
+      },
+      "/tags/Anker/": {
+        "human": 1
+      },
+      "/tags/HIS/": {
+        "human": 1
+      },
+      "/tags/RenoBody/": {
+        "human": 1
+      },
+      "/tags/Technics/": {
+        "human": 1
+      },
+      "/category/rankings/": {
+        "human": 0
+      },
+      "/tags/%E3%81%84%E3%81%A1%E3%81%94/": {
+        "human": 0
+      },
+      "/tags/%E3%82%A2%E3%83%95%E3%82%BF%E3%83%8C%E3%83%BC%E3%83%B3%E3%83%86%E3%82%A3%E3%83%BC/": {
+        "human": 0
+      },
+      "/tags/%E3%82%A4%E3%83%B3%E3%83%8A%E3%83%BC/": {
+        "human": 0
+      },
+      "/tags/%E3%82%AA%E3%83%BC%E3%83%88%E3%83%A1%E3%83%A2/": {
+        "human": 0
+      },
+      "/tags/%E3%82%AF%E3%83%AA%E3%82%B9%E3%83%9E%E3%82%B9%E3%83%9E%E3%83%BC%E3%82%B1%E3%83%83%E3%83%88/": {
+        "human": 0
+      },
+      "/tags/%E3%82%AF%E3%83%AC%E3%83%A9%E3%83%83%E3%83%97/": {
+        "human": 0
+      },
+      "/tags/%E3%82%B5%E3%83%A9%E3%83%B3%E3%83%A9%E3%83%83%E3%83%97/": {
+        "human": 0
+      },
+      "/tags/%E3%82%B5%E3%83%B3%E3%82%BF%E3%82%AF%E3%83%AD%E3%83%BC%E3%82%B9/": {
+        "human": 0
+      },
+      "/tags/%E3%83%92%E3%83%BC%E3%83%88%E3%83%86%E3%83%83%E3%82%AF/": {
+        "human": 0
+      },
+      "/tags/%E3%83%A1%E3%83%B3%E3%82%BA/": {
+        "human": 0
+      },
+      "/tags/%E3%83%A6%E3%83%8B%E3%82%AF%E3%83%AD/": {
+        "human": 0
+      },
+      "/tags/%E3%83%A9%E3%83%83%E3%83%97/": {
+        "human": 0
+      },
+      "/tags/%E4%B8%89%E4%BA%95%E3%82%AC%E3%83%BC%E3%83%87%E3%83%B3%E3%83%9B%E3%83%86%E3%83%AB%E8%B1%8A%E6%B4%B2%E3%83%97%E3%83%AC%E3%83%9F%E3%82%A2/": {
+        "human": 0
+      },
+      "/tags/%E5%85%AD%E6%9C%AC%E6%9C%A8%E3%83%92%E3%83%AB%E3%82%BA/": {
+        "human": 0
+      },
+      "/tags/%E6%96%87%E5%AD%97%E8%B5%B7%E3%81%93%E3%81%97/": {
+        "human": 0
+      },
+      "/tags/%E6%9A%96%E6%88%BF/": {
+        "human": 0
+      },
+      "/tags/%E6%9C%89%E6%98%8E/": {
+        "human": 0
+      },
+      "/tags/%E6%9D%B1%E4%BA%AC%E3%82%BF%E3%83%AF%E3%83%BC/": {
+        "human": 0
+      },
+      "/tags/%E7%B6%BF/": {
+        "human": 0
+      },
+      "/tags/%E8%82%8C%E7%9D%80/": {
+        "human": 0
+      },
+      "/tags/%E8%87%AA%E8%BB%A2%E8%BB%8A/": {
+        "human": 0
+      },
+      "/tags/%E8%AD%B0%E4%BA%8B%E9%8C%B2/": {
+        "human": 0
+      },
+      "/tags/%E8%B1%8A%E6%B4%B2/": {
+        "human": 0
+      },
+      "/tags/%E9%9B%BB%E6%B0%97%E3%83%BB%E3%82%AC%E3%82%B9%E6%96%99%E9%87%91%E6%94%AF%E6%8F%B4/": {
+        "human": 0
+      },
+      "/tags/%E9%9B%BB%E6%B0%97%E6%AF%9B%E5%B8%83/": {
+        "human": 0
+      },
+      "/tags/AI%E3%83%9C%E3%82%A4%E3%82%B9%E3%83%AC%E3%82%B3%E3%83%BC%E3%83%80%E3%83%BC/": {
+        "human": 0
+      },
+      "/tags/Notta/": {
+        "human": 0
+      },
+      "/tags/Plaud/": {
+        "human": 0
+      },
+      "/tags/STEAM/": {
+        "human": 0
+      }
     }
   },
   "2026-11-15": {
@@ -21468,12 +24136,12 @@
         "r": 2
       },
       {
-        "path": "/tags/%E5%AE%BF%E6%B3%8A%E8%80%85%E6%95%B0/",
+        "path": "/tags/%E3%82%AF%E3%83%BC%E3%83%AA%E3%82%A2/",
         "v": 2,
         "r": 2
       },
       {
-        "path": "/tags/%E3%82%AF%E3%83%BC%E3%83%AA%E3%82%A2/",
+        "path": "/tags/%E5%AE%BF%E6%B3%8A%E8%80%85%E6%95%B0/",
         "v": 2,
         "r": 2
       },
@@ -21668,7 +24336,7 @@
         "r": 1
       },
       {
-        "path": "/tags/%E5%AD%90%E9%80%A3%E3%82%8C/",
+        "path": "/tags/3%E9%80%A3%E4%BC%91/",
         "v": 1,
         "r": 1
       },
@@ -21678,12 +24346,12 @@
         "r": 2
       },
       {
-        "path": "/tags/3%E9%80%A3%E4%BC%91/",
+        "path": "/tags/%E4%B8%89%E4%BA%95%E3%82%AC%E3%83%BC%E3%83%87%E3%83%B3%E3%83%9B%E3%83%86%E3%83%AB%E8%B1%8A%E6%B4%B2%E3%83%97%E3%83%AC%E3%83%9F%E3%82%A2/",
         "v": 1,
         "r": 1
       },
       {
-        "path": "/tags/%E4%B8%89%E4%BA%95%E3%82%AC%E3%83%BC%E3%83%87%E3%83%B3%E3%83%9B%E3%83%86%E3%83%AB%E8%B1%8A%E6%B4%B2%E3%83%97%E3%83%AC%E3%83%9F%E3%82%A2/",
+        "path": "/tags/%E5%AD%90%E9%80%A3%E3%82%8C/",
         "v": 1,
         "r": 1
       },
@@ -21893,12 +24561,12 @@
         "r": 2
       },
       {
-        "path": "/tags/%E3%82%B9%E3%83%97%E3%83%AC%E3%83%83%E3%83%89%E6%AF%94%E8%BC%83/",
+        "path": "/tags/STEAM/",
         "v": 1,
         "r": 1
       },
       {
-        "path": "/tags/STEAM/",
+        "path": "/tags/%E3%82%B9%E3%83%97%E3%83%AC%E3%83%83%E3%83%89%E6%AF%94%E8%BC%83/",
         "v": 1,
         "r": 1
       },
@@ -21947,7 +24615,7 @@
     "countries": [
       {
         "k": "US",
-        "v": 2628
+        "v": 2626
       },
       {
         "k": "FR",
@@ -22029,7 +24697,7 @@
     "browsers": [
       {
         "k": "Unknown",
-        "v": 2203
+        "v": 2201
       },
       {
         "k": "Chrome",
@@ -22370,9 +25038,221 @@
       "scope": "zone"
     },
     "pv": {
-      "all": 2963,
+      "all": 2961,
       "human": 582,
       "scope": "blog-html"
+    },
+    "pages": {
+      "/": {
+        "human": 8
+      },
+      "/privacy/": {
+        "human": 8
+      },
+      "/category/wangan-life/": {
+        "human": 5
+      },
+      "/category/rankings/": {
+        "human": 3
+      },
+      "/wangan-map/": {
+        "human": 3
+      },
+      "/about/": {
+        "human": 1
+      },
+      "/author/": {
+        "human": 1
+      },
+      "/category/comparisons/": {
+        "human": 1
+      },
+      "/category/howto/": {
+        "human": 1
+      },
+      "/category/services/": {
+        "human": 1
+      },
+      "/drafts/": {
+        "human": 1
+      },
+      "/tags/%E3%81%82%E3%82%84%E3%81%B5%E3%81%B6%E3%81%BF/": {
+        "human": 1
+      },
+      "/tags/%E3%81%8A%E6%AD%A3%E6%9C%88/": {
+        "human": 1
+      },
+      "/tags/%E3%81%BE%E3%81%84%E3%81%B0%E3%81%99%E3%81%91%E3%81%A3%E3%81%A8/": {
+        "human": 1
+      },
+      "/tags/%E3%82%A4%E3%82%AA%E3%83%B3/": {
+        "human": 1
+      },
+      "/tags/%E3%82%A4%E3%83%B3%E3%83%90%E3%82%A6%E3%83%B3%E3%83%89/": {
+        "human": 1
+      },
+      "/tags/%E3%82%AD%E3%83%A3%E3%83%83%E3%82%B7%E3%83%A5%E3%83%AC%E3%82%B9/": {
+        "human": 1
+      },
+      "/tags/%E3%82%BB%E3%83%AB%E3%83%95%E3%83%90%E3%83%83%E3%82%AF/": {
+        "human": 1
+      },
+      "/tags/%E3%82%BB%E3%83%BC%E3%83%AB/": {
+        "human": 1
+      },
+      "/tags/%E3%83%86%E3%83%8B%E3%82%B9/": {
+        "human": 1
+      },
+      "/tags/%E3%83%9B%E3%83%AD%E3%83%A9%E3%82%A4%E3%83%96/": {
+        "human": 1
+      },
+      "/tags/%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88%E3%82%B5%E3%82%A4%E3%83%88/": {
+        "human": 1
+      },
+      "/tags/%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88%E9%82%84%E5%85%83/": {
+        "human": 1
+      },
+      "/tags/%E3%83%9D%E3%82%A4%E6%B4%BB/": {
+        "human": 1
+      },
+      "/tags/%E3%83%A6%E3%83%8B%E3%82%AF%E3%83%AD/": {
+        "human": 1
+      },
+      "/tags/%E4%BA%8C%E9%87%8D%E5%8F%96%E3%82%8A/": {
+        "human": 1
+      },
+      "/tags/%E5%9B%BD%E7%AB%8B%E5%85%AC%E5%9C%92/": {
+        "human": 1
+      },
+      "/tags/%E5%A4%A7%E5%9D%82%E3%81%AA%E3%81%8A%E3%81%BF/": {
+        "human": 1
+      },
+      "/tags/%E5%AE%BF%E6%B3%8A%E8%80%85%E6%95%B0/": {
+        "human": 1
+      },
+      "/tags/%E6%9C%89%E6%98%8E%E3%82%A2%E3%83%AA%E3%83%BC%E3%83%8A/": {
+        "human": 1
+      },
+      "/tags/%E6%9C%89%E6%98%8E%E3%82%B3%E3%83%AD%E3%82%B7%E3%82%A2%E3%83%A0/": {
+        "human": 1
+      },
+      "/tags/%E6%9D%B1%E3%83%ACPPO/": {
+        "human": 1
+      },
+      "/tags/%E6%9D%B1%E4%BA%AC%E3%83%99%E3%82%A4%E6%9C%89%E6%98%8E%E3%83%AF%E3%82%B7%E3%83%B3%E3%83%88%E3%83%B3%E3%83%9B%E3%83%86%E3%83%AB/": {
+        "human": 1
+      },
+      "/tags/%E6%9D%B1%E4%BA%AC%E3%83%AA%E3%83%99%E3%83%B3%E3%82%B8%E3%83%A3%E3%83%BC%E3%82%BA/": {
+        "human": 1
+      },
+      "/tags/%E6%A5%BD%E5%A4%A9%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BCSALE/": {
+        "human": 1
+      },
+      "/tags/%E6%B8%A9%E6%B3%89/": {
+        "human": 1
+      },
+      "/tags/%E7%99%BE%E8%8A%B1%E7%B9%9A%E4%B9%B1%E3%81%82%E3%82%84%E3%81%B5%E3%81%B6%E3%81%BF/": {
+        "human": 1
+      },
+      "/tags/%E8%A6%B3%E5%85%89/": {
+        "human": 1
+      },
+      "/tags/2027%E5%B9%B4/": {
+        "human": 1
+      },
+      "/tags/ANA%20Pocket/": {
+        "human": 1
+      },
+      "/tags/Amazon/": {
+        "human": 1
+      },
+      "/tags/From%20INI/": {
+        "human": 1
+      },
+      "/tags/INI/": {
+        "human": 1
+      },
+      "/tags/LOVOT/": {
+        "human": 1
+      },
+      "/tags/PayPay%E3%82%AB%E3%83%BC%E3%83%89/": {
+        "human": 1
+      },
+      "/tags/Powl/": {
+        "human": 1
+      },
+      "/tags/TOKYO%20FM/": {
+        "human": 1
+      },
+      "/tags/Yahoo!%E3%82%B7%E3%83%A7%E3%83%83%E3%83%94%E3%83%B3%E3%82%B0/": {
+        "human": 1
+      },
+      "/tags/Yahoo%21%E3%82%B7%E3%83%A7%E3%83%83%E3%83%94%E3%83%B3%E3%82%B0/": {
+        "human": 1
+      },
+      "/tags/%E3%82%A4%E3%83%A4%E3%83%BC%E3%82%AB%E3%83%95/": {
+        "human": 0
+      },
+      "/tags/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%B3%E3%82%A4%E3%83%A4%E3%83%BC/": {
+        "human": 0
+      },
+      "/tags/%E3%82%B0%E3%83%B3%E3%82%BC/": {
+        "human": 0
+      },
+      "/tags/%E3%82%B1%E3%83%B3%E3%82%B3%E3%83%BC%E3%83%BB%E3%83%88%E3%82%AD%E3%83%8A%E3%83%BC/": {
+        "human": 0
+      },
+      "/tags/%E3%83%88%E3%82%A4%E3%82%AB%E3%83%A1%E3%83%A9/": {
+        "human": 0
+      },
+      "/tags/%E3%83%88%E3%83%83%E3%83%97%E3%83%90%E3%83%AA%E3%83%A5/": {
+        "human": 0
+      },
+      "/tags/%E3%83%8A%E3%82%AC%E3%82%BB%E3%82%B1%E3%83%B3%E3%82%B3%E3%83%BC/": {
+        "human": 0
+      },
+      "/tags/%E3%83%91%E3%83%89%E3%83%AB/": {
+        "human": 0
+      },
+      "/tags/%E3%83%91%E3%83%8D%E3%83%AB%E3%83%92%E3%83%BC%E3%82%BF%E3%83%BC/": {
+        "human": 0
+      },
+      "/tags/%E3%83%94%E3%83%83%E3%82%AF%E3%83%AB%E3%83%9C%E3%83%BC%E3%83%AB/": {
+        "human": 0
+      },
+      "/tags/%E3%83%9C%E3%83%B3%E3%83%9C%E3%83%B3%E3%83%89%E3%83%AD%E3%83%83%E3%83%97%E3%82%B7%E3%83%BC%E3%83%AB/": {
+        "human": 0
+      },
+      "/tags/%E3%83%A8%E3%83%8D%E3%83%83%E3%82%AF%E3%82%B9/": {
+        "human": 0
+      },
+      "/tags/%E3%83%AC%E3%83%88%E3%83%AD%E3%83%87%E3%82%B890/": {
+        "human": 0
+      },
+      "/tags/%E3%83%AF%E3%82%A4%E3%83%A4%E3%83%AC%E3%82%B9%E3%82%A4%E3%83%A4%E3%83%9B%E3%83%B3/": {
+        "human": 0
+      },
+      "/tags/%E5%88%9D%E5%BF%83%E8%80%85/": {
+        "human": 0
+      },
+      "/tags/%E5%A3%B2%E4%B8%8A%E3%83%A9%E3%83%B3%E3%82%AD%E3%83%B3%E3%82%B0/": {
+        "human": 0
+      },
+      "/tags/%E8%BB%BD%E4%BA%95%E6%B2%A2/": {
+        "human": 0
+      },
+      "/tags/Camp%20Snap/": {
+        "human": 0
+      },
+      "/tags/LinkBuds%20Clip/": {
+        "human": 0
+      },
+      "/tags/Pieni%20III/": {
+        "human": 0
+      },
+      "/tags/Shokz/": {
+        "human": 0
+      }
     }
   },
   "2026-11-16": {
@@ -23538,14 +26418,14 @@
         "r": 1
       },
       {
-        "path": "/tags/%E4%B8%89%E4%BA%95%E3%82%AC%E3%83%BC%E3%83%87%E3%83%B3%E3%83%9B%E3%83%86%E3%83%AB%E8%B1%8A%E6%B4%B2%E3%83%97%E3%83%AC%E3%83%9F%E3%82%A2/",
-        "v": 1,
-        "r": 2
-      },
-      {
         "path": "/tags/%E3%82%B7%E3%83%BC%E3%83%AB/",
         "v": 1,
         "r": 1
+      },
+      {
+        "path": "/tags/%E4%B8%89%E4%BA%95%E3%82%AC%E3%83%BC%E3%83%87%E3%83%B3%E3%83%9B%E3%83%86%E3%83%AB%E8%B1%8A%E6%B4%B2%E3%83%97%E3%83%AC%E3%83%9F%E3%82%A2/",
+        "v": 1,
+        "r": 2
       },
       {
         "path": "/tags/%E4%BA%80%E5%B1%B1%E6%B9%96/",
@@ -24198,6 +27078,218 @@
       "all": 2358,
       "human": 516,
       "scope": "blog-html"
+    },
+    "pages": {
+      "/": {
+        "human": 11
+      },
+      "/wangan-map/": {
+        "human": 8
+      },
+      "/category/wangan-life/": {
+        "human": 3
+      },
+      "/tags/%E9%9D%92%E6%B5%B7/": {
+        "human": 2
+      },
+      "/category/comparisons/": {
+        "human": 1
+      },
+      "/tags/%E3%81%8A%E5%8F%B0%E5%A0%B4/": {
+        "human": 1
+      },
+      "/tags/%E3%82%A2%E3%82%A4%E3%83%89%E3%83%AB/": {
+        "human": 1
+      },
+      "/tags/%E3%82%AF%E3%83%AB%E3%83%BC%E3%82%BA/": {
+        "human": 1
+      },
+      "/tags/%E3%82%B5%E3%83%B3%E3%82%B3%E3%83%BC/": {
+        "human": 1
+      },
+      "/tags/%E3%83%89%E3%83%A9%E3%81%88%E3%82%82%E3%82%93%E6%9C%AA%E6%9D%A5%E3%83%87%E3%83%91%E3%83%BC%E3%83%88/": {
+        "human": 1
+      },
+      "/tags/%E3%83%A1%E3%83%B3%E3%82%BA%E8%84%B1%E6%AF%9B/": {
+        "human": 1
+      },
+      "/tags/%E4%B8%AD%E5%A4%AE%E5%8C%BA/": {
+        "human": 1
+      },
+      "/tags/%E5%85%85%E9%9B%BB%E5%BC%8F%E3%82%AB%E3%82%A4%E3%83%AD/": {
+        "human": 1
+      },
+      "/tags/%E5%88%9D%E5%BF%83%E8%80%85/": {
+        "human": 1
+      },
+      "/tags/%E5%AD%90%E3%81%A9%E3%82%82/": {
+        "human": 1
+      },
+      "/tags/%E5%AE%B6%E8%A8%88/": {
+        "human": 1
+      },
+      "/tags/%E6%8A%BD%E9%81%B8/": {
+        "human": 1
+      },
+      "/tags/%E6%A5%BD%E5%A4%A9%E3%83%A2%E3%83%90%E3%82%A4%E3%83%AB/": {
+        "human": 1
+      },
+      "/tags/%E6%B5%B4%E5%AE%A4%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%8B%E3%83%B3%E3%82%B0/": {
+        "human": 1
+      },
+      "/tags/%E6%B5%B7%E5%A4%96eSIM/": {
+        "human": 1
+      },
+      "/tags/%E7%84%A1%E6%96%99/": {
+        "human": 1
+      },
+      "/tags/%E7%A4%BE%E4%BC%9A%E4%BF%9D%E9%9A%9C/": {
+        "human": 1
+      },
+      "/tags/%E7%AF%89%E5%9C%B0%E5%A0%B4%E5%A4%96%E5%B8%82%E5%A0%B4/": {
+        "human": 1
+      },
+      "/tags/%E7%AF%89%E5%9C%B0/": {
+        "human": 1
+      },
+      "/tags/%E9%80%9A%E4%BF%A1%E9%80%9F%E5%BA%A6/": {
+        "human": 1
+      },
+      "/tags/%E9%80%9A%E8%A1%8C%E6%AD%A2%E3%82%81/": {
+        "human": 1
+      },
+      "/tags/BIGLOBE%20WiMAX/": {
+        "human": 1
+      },
+      "/tags/GMO%E5%85%89/": {
+        "human": 1
+      },
+      "/tags/HARUMI%20FLAG/": {
+        "human": 1
+      },
+      "/tags/Xiaomi/": {
+        "human": 1
+      },
+      "/tags/e%E3%83%A2%E3%83%BC%E3%82%BF%E3%83%BC%E3%82%B9%E3%83%9D%E3%83%BC%E3%83%84/": {
+        "human": 1
+      },
+      "/tags/eKYC/": {
+        "human": 1
+      },
+      "/about/": {
+        "human": 0
+      },
+      "/author/": {
+        "human": 0
+      },
+      "/category/howto/": {
+        "human": 0
+      },
+      "/privacy/": {
+        "human": 0
+      },
+      "/tags/%E3%82%B9%E3%83%9E%E3%83%9B/": {
+        "human": 0
+      },
+      "/tags/%E3%82%B9%E3%83%9E%E3%83%BC%E3%83%88%E3%82%B0%E3%83%A9%E3%82%B9/": {
+        "human": 0
+      },
+      "/tags/%E3%82%B9%E3%83%9E%E3%83%BC%E3%83%88%E3%83%90%E3%83%B3%E3%83%89/": {
+        "human": 0
+      },
+      "/tags/%E3%83%88%E3%82%A4%E3%83%87%E3%82%B8/": {
+        "human": 0
+      },
+      "/tags/%E3%83%89%E3%82%B3%E3%83%A2/": {
+        "human": 0
+      },
+      "/tags/%E3%83%8B%E3%83%A5%E3%82%A6%E3%83%9E%E3%83%B3%E9%AB%98%E8%BC%AA/": {
+        "human": 0
+      },
+      "/tags/%E3%83%9D%E3%83%BC%E3%82%BF%E3%83%96%E3%83%AB%E9%9B%BB%E6%BA%90/": {
+        "human": 0
+      },
+      "/tags/%E3%83%9F%E3%82%BA%E3%83%8E/": {
+        "human": 0
+      },
+      "/tags/%E5%B8%B0%E7%9C%81/": {
+        "human": 0
+      },
+      "/tags/%E5%B9%B4%E6%9C%AB%E5%B9%B4%E5%A7%8B/": {
+        "human": 0
+      },
+      "/tags/%E5%BA%A6%E4%BB%98%E3%81%8D/": {
+        "human": 0
+      },
+      "/tags/%E6%9C%AD%E5%B9%8C/": {
+        "human": 0
+      },
+      "/tags/%E6%A9%9F%E5%86%85%E6%8C%81%E3%81%A1%E8%BE%BC%E3%81%BF/": {
+        "human": 0
+      },
+      "/tags/%E7%A6%8F%E5%B2%A1/": {
+        "human": 0
+      },
+      "/tags/%E7%BF%BB%E8%A8%B3/": {
+        "human": 0
+      },
+      "/tags/AI%E3%82%B9%E3%83%9E%E3%83%BC%E3%83%88%E3%82%B0%E3%83%A9%E3%82%B9/": {
+        "human": 0
+      },
+      "/tags/AirPods%20Pro%203/": {
+        "human": 0
+      },
+      "/tags/Amazfit%20Helio%20Strap/": {
+        "human": 0
+      },
+      "/tags/Even%20G2/": {
+        "human": 0
+      },
+      "/tags/Fitbit%20Air/": {
+        "human": 0
+      },
+      "/tags/GLASS%20Core/": {
+        "human": 0
+      },
+      "/tags/Google%20Health%20Premium/": {
+        "human": 0
+      },
+      "/tags/HUAWEI%20FreeClip%202/": {
+        "human": 0
+      },
+      "/tags/KENWOOD/": {
+        "human": 0
+      },
+      "/tags/Kodak%20Charmera/": {
+        "human": 0
+      },
+      "/tags/LCC/": {
+        "human": 0
+      },
+      "/tags/Nothing%20Phone%20(3a)%20Lite/": {
+        "human": 0
+      },
+      "/tags/POLAR%20Loop/": {
+        "human": 0
+      },
+      "/tags/Pixel%2010a/": {
+        "human": 0
+      },
+      "/tags/Ray-Ban%20Meta/": {
+        "human": 0
+      },
+      "/tags/Rokid/": {
+        "human": 0
+      },
+      "/tags/Technics/": {
+        "human": 0
+      },
+      "/tags/WHOOP/": {
+        "human": 0
+      },
+      "/tags/au/": {
+        "human": 0
+      }
     }
   },
   "2026-11-17": {
@@ -26052,13 +29144,90 @@
       "all": 2748,
       "human": 455,
       "scope": "blog-html"
+    },
+    "pages": {
+      "/": {
+        "human": 12
+      },
+      "/category/wangan-life/": {
+        "human": 4
+      },
+      "/wangan-map/": {
+        "human": 3
+      },
+      "/tags/%E3%81%AF%E3%82%8B%E3%81%BF%E3%82%89%E3%81%84/": {
+        "human": 1
+      },
+      "/tags/%E3%82%A2%E3%83%95%E3%82%BF%E3%83%BC%E3%82%B9%E3%82%AF%E3%83%BC%E3%83%AB/": {
+        "human": 1
+      },
+      "/tags/%E3%83%9E%E3%83%AC%E3%83%BC%E3%82%B7%E3%82%A2%E3%83%95%E3%82%A7%E3%82%A2/": {
+        "human": 1
+      },
+      "/tags/%E5%87%BA%E7%94%A3%E8%B2%BB%E7%94%A8%E5%8A%A9%E6%88%90/": {
+        "human": 1
+      },
+      "/tags/%E5%AD%90%E8%82%B2%E3%81%A6%E6%94%AF%E6%8F%B4/": {
+        "human": 1
+      },
+      "/tags/%E5%AD%90%E8%82%B2%E3%81%A6/": {
+        "human": 1
+      },
+      "/tags/%E6%99%B4%E6%B5%B7/": {
+        "human": 1
+      },
+      "/tags/%E6%9C%88%E5%B3%B6/": {
+        "human": 1
+      },
+      "/tags/%E6%B1%9F%E6%9D%B1%E5%8C%BA/": {
+        "human": 1
+      },
+      "/tags/%E6%B3%89%E5%A4%A9%E7%A9%BA%E3%81%AE%E6%B9%AF/": {
+        "human": 1
+      },
+      "/tags/%E6%B9%BE%E5%B2%B8%E3%83%A9%E3%82%A4%E3%83%95/": {
+        "human": 1
+      },
+      "/tags/%E8%82%B2%E4%BC%91/": {
+        "human": 1
+      },
+      "/tags/%E9%A6%96%E9%83%BD%E9%AB%98/": {
+        "human": 1
+      },
+      "/category/rankings/": {
+        "human": 0
+      },
+      "/tags/%E3%82%A4%E3%82%AA%E3%83%B3/": {
+        "human": 0
+      },
+      "/tags/%E4%BA%80%E5%B1%B1%E6%B9%96/": {
+        "human": 0
+      },
+      "/tags/%E6%B2%B3%E5%8F%A3%E6%B9%96/": {
+        "human": 0
+      },
+      "/tags/%E7%AD%91%E6%B3%A2%E5%B1%B1/": {
+        "human": 0
+      },
+      "/tags/%E7%AE%B1%E6%A0%B9/": {
+        "human": 0
+      },
+      "/tags/%E9%95%B7%E7%80%9E/": {
+        "human": 0
+      },
+      "/tags/%E9%A4%8A%E8%80%81%E6%B8%93%E8%B0%B7/": {
+        "human": 0
+      },
+      "/tags/Yahoo!%E3%82%B7%E3%83%A7%E3%83%83%E3%83%94%E3%83%B3%E3%82%B0/": {
+        "human": 0
+      }
     }
   },
   "2026-11-18": {
     "visits": 2236,
     "requests": 8008,
     "paths": 2225,
-    "jp": 50,
+    "jp": 65,
     "human": 386,
     "top": [
       {
@@ -27466,47 +30635,83 @@
     "countries": [
       {
         "k": "US",
-        "v": 2070
+        "v": 1808
       },
       {
         "k": "NO",
-        "v": 170
+        "v": 187
       },
       {
         "k": "FR",
-        "v": 60
+        "v": 76
       },
       {
         "k": "JP",
-        "v": 50
+        "v": 65
       },
       {
         "k": "UA",
-        "v": 40
-      },
-      {
-        "k": "BE",
-        "v": 10
-      },
-      {
-        "k": "SG",
-        "v": 10
+        "v": 29
       },
       {
         "k": "DE",
-        "v": 10
+        "v": 27
       },
       {
-        "k": "MY",
-        "v": 0
+        "k": "NL",
+        "v": 11
       },
       {
-        "k": "AT",
-        "v": 0
+        "k": "SG",
+        "v": 8
+      },
+      {
+        "k": "FI",
+        "v": 5
+      },
+      {
+        "k": "AU",
+        "v": 5
+      },
+      {
+        "k": "SE",
+        "v": 3
       },
       {
         "k": "GB",
-        "v": 0
+        "v": 3
+      },
+      {
+        "k": "NZ",
+        "v": 1
+      },
+      {
+        "k": "HK",
+        "v": 1
+      },
+      {
+        "k": "CA",
+        "v": 1
+      },
+      {
+        "k": "MY",
+        "v": 1
+      },
+      {
+        "k": "KR",
+        "v": 1
+      },
+      {
+        "k": "BE",
+        "v": 1
+      },
+      {
+        "k": "RU",
+        "v": 1
+      },
+      {
+        "k": "CN",
+        "v": 1
       }
     ],
     "browsers": [
@@ -27830,6 +31035,134 @@
       "all": 2303,
       "human": 429,
       "scope": "blog-html"
+    },
+    "pages": {
+      "/": {
+        "human": 9
+      },
+      "/category/wangan-life/": {
+        "human": 2
+      },
+      "/tags/%E3%81%84%E3%81%A1%E3%81%94/": {
+        "human": 1
+      },
+      "/tags/%E3%82%A2%E3%83%95%E3%82%BF%E3%83%8C%E3%83%BC%E3%83%B3%E3%83%86%E3%82%A3%E3%83%BC/": {
+        "human": 1
+      },
+      "/tags/%E3%82%A2%E3%83%AB%E3%83%90%E3%83%AB%E3%82%AF%E6%9D%B1%E4%BA%AC/": {
+        "human": 1
+      },
+      "/tags/%E3%82%B0%E3%83%AB%E3%83%A1/": {
+        "human": 1
+      },
+      "/tags/%E3%83%9D%E3%83%83%E3%83%97%E3%82%A2%E3%83%83%E3%83%97/": {
+        "human": 1
+      },
+      "/tags/%E4%B8%89%E4%BA%95%E3%82%AC%E3%83%BC%E3%83%87%E3%83%B3%E3%83%9B%E3%83%86%E3%83%AB%E8%B1%8A%E6%B4%B2%E3%83%97%E3%83%AC%E3%83%9F%E3%82%A2/": {
+        "human": 1
+      },
+      "/tags/%E6%9C%89%E6%98%8E%E3%82%AC%E3%83%BC%E3%83%87%E3%83%B3/": {
+        "human": 1
+      },
+      "/tags/Oisix/": {
+        "human": 1
+      },
+      "/tags/TOYOTA%20ARENA%20TOKYO/": {
+        "human": 1
+      },
+      "/venues/": {
+        "human": 1
+      },
+      "/venues/ariake-arena/": {
+        "human": 1
+      },
+      "/wangan-map/": {
+        "human": 1
+      },
+      "/tags/%E3%81%82%E3%82%84%E3%81%B5%E3%81%B6%E3%81%BF/": {
+        "human": 0
+      },
+      "/tags/%E3%82%A4%E3%83%B3%E3%83%90%E3%82%A6%E3%83%B3%E3%83%89/": {
+        "human": 0
+      },
+      "/tags/%E3%82%B3%E3%83%B3%E3%83%93%E3%83%8B/": {
+        "human": 0
+      },
+      "/tags/%E3%82%B5%E3%83%83%E3%82%AB%E3%83%BC/": {
+        "human": 0
+      },
+      "/tags/%E3%82%B5%E3%83%A0%E3%82%BD%E3%83%8A%E3%82%A4%E3%83%88/": {
+        "human": 0
+      },
+      "/tags/%E3%82%B9%E3%83%BC%E3%83%84%E3%82%B1%E3%83%BC%E3%82%B9/": {
+        "human": 0
+      },
+      "/tags/%E3%83%8B%E3%82%B3%E3%83%9C/": {
+        "human": 0
+      },
+      "/tags/%E3%83%97%E3%83%AD%E9%87%8E%E7%90%83/": {
+        "human": 0
+      },
+      "/tags/%E3%83%9A%E3%83%83%E3%83%88%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88/": {
+        "human": 0
+      },
+      "/tags/%E3%83%9B%E3%83%AD%E3%83%A9%E3%82%A4%E3%83%96/": {
+        "human": 0
+      },
+      "/tags/%E3%83%9D%E3%82%B1%E3%81%A8%E3%82%82/": {
+        "human": 0
+      },
+      "/tags/%E3%83%A2%E3%83%95%E3%83%AA%E3%83%B3/": {
+        "human": 0
+      },
+      "/tags/%E5%9B%BD%E7%AB%8B%E5%85%AC%E5%9C%92/": {
+        "human": 0
+      },
+      "/tags/%E5%AE%B6%E9%9B%BB/": {
+        "human": 0
+      },
+      "/tags/%E5%AE%BF%E6%B3%8A%E8%80%85%E6%95%B0/": {
+        "human": 0
+      },
+      "/tags/%E6%9D%B1%E4%BA%AC%E3%83%A1%E3%83%88%E3%83%AD/": {
+        "human": 0
+      },
+      "/tags/%E6%B8%A9%E6%B3%89/": {
+        "human": 0
+      },
+      "/tags/%E7%99%BE%E8%8A%B1%E7%B9%9A%E4%B9%B1%E3%81%82%E3%82%84%E3%81%B5%E3%81%B6%E3%81%BF/": {
+        "human": 0
+      },
+      "/tags/%E7%99%BE%E8%B2%A8%E5%BA%97/": {
+        "human": 0
+      },
+      "/tags/%E7%A9%BA%E6%B8%AF/": {
+        "human": 0
+      },
+      "/tags/%E8%A6%B3%E5%85%89/": {
+        "human": 0
+      },
+      "/tags/%E9%83%BD%E5%96%B6%E5%9C%B0%E4%B8%8B%E9%89%84/": {
+        "human": 0
+      },
+      "/tags/%E9%A7%85/": {
+        "human": 0
+      },
+      "/tags/J%E3%83%AA%E3%83%BC%E3%82%B0/": {
+        "human": 0
+      },
+      "/tags/LOVOT/": {
+        "human": 0
+      },
+      "/tags/Qoobo/": {
+        "human": 0
+      },
+      "/tags/TUMI/": {
+        "human": 0
+      },
+      "/tags/Xiaomi/": {
+        "human": 0
+      }
     }
   },
   "2026-11-19": {
@@ -29869,6 +33202,107 @@
       "all": 3340,
       "human": 769,
       "scope": "blog-html"
+    },
+    "pages": {
+      "/": {
+        "human": 10
+      },
+      "/category/wangan-life/": {
+        "human": 3
+      },
+      "/author/": {
+        "human": 2
+      },
+      "/category/comparisons/": {
+        "human": 2
+      },
+      "/category/howto/": {
+        "human": 2
+      },
+      "/category/services/": {
+        "human": 2
+      },
+      "/privacy/": {
+        "human": 2
+      },
+      "/wangan-map/": {
+        "human": 2
+      },
+      "/about/": {
+        "human": 1
+      },
+      "/category/campaigns/": {
+        "human": 1
+      },
+      "/category/roundups/": {
+        "human": 1
+      },
+      "/contact/": {
+        "human": 1
+      },
+      "/search/": {
+        "human": 1
+      },
+      "/tags/%E3%81%99%E3%81%8D%E5%AE%B6/": {
+        "human": 1
+      },
+      "/tags/%E3%82%AF%E3%83%AA%E3%82%B9%E3%83%9E%E3%82%B9%E3%83%9E%E3%83%BC%E3%82%B1%E3%83%83%E3%83%88/": {
+        "human": 1
+      },
+      "/tags/%E3%82%B3%E3%83%A1%E3%83%80%E7%8F%88%E7%90%B2%E5%BA%97/": {
+        "human": 1
+      },
+      "/tags/%E3%82%BF%E3%83%AF%E3%83%9E%E3%83%B3/": {
+        "human": 1
+      },
+      "/tags/%E3%83%80%E3%82%B9%E3%82%AD%E3%83%B3/": {
+        "human": 1
+      },
+      "/tags/%E3%83%89%E3%83%AD%E3%83%BC%E3%83%B3/": {
+        "human": 1
+      },
+      "/tags/%E3%83%9E%E3%82%AF%E3%83%89%E3%83%8A%E3%83%AB%E3%83%89/": {
+        "human": 1
+      },
+      "/tags/%E3%83%A2%E3%83%BC%E3%83%8B%E3%83%B3%E3%82%B0/": {
+        "human": 1
+      },
+      "/tags/%E4%BA%A4%E9%80%9A/": {
+        "human": 1
+      },
+      "/tags/%E5%B9%B4%E6%9C%AB/": {
+        "human": 1
+      },
+      "/tags/%E6%9C%9D%E9%A3%9F/": {
+        "human": 1
+      },
+      "/tags/%E6%9D%B1%E4%BA%AC%E9%83%BD/": {
+        "human": 1
+      },
+      "/tags/%E6%9D%B1%E4%BA%ACBRT/": {
+        "human": 1
+      },
+      "/tags/%E8%B2%B7%E3%81%84%E5%87%BA%E3%81%97/": {
+        "human": 1
+      },
+      "/tags/cheero/": {
+        "human": 1
+      },
+      "/tags/%E3%82%A2%E3%83%95%E3%82%BF%E3%83%BC%E3%82%B9%E3%82%AF%E3%83%BC%E3%83%AB/": {
+        "human": 0
+      },
+      "/tags/%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%8A%E3%82%B7%E3%83%A7%E3%83%8A%E3%83%AB%E3%82%B9%E3%82%AF%E3%83%BC%E3%83%AB/": {
+        "human": 0
+      },
+      "/tags/%E3%83%97%E3%83%AA%E3%82%B9%E3%82%AF%E3%83%BC%E3%83%AB/": {
+        "human": 0
+      },
+      "/tags/%E5%AD%90%E8%82%B2%E3%81%A6/": {
+        "human": 0
+      },
+      "/tags/%E8%82%B2%E4%BC%91/": {
+        "human": 0
+      }
     }
   },
   "2026-11-20": {
@@ -31239,12 +34673,12 @@
         "r": 1
       },
       {
-        "path": "/tags/OZmall/",
+        "path": "/tags/%E8%B1%8A%E6%B5%B7/",
         "v": 1,
         "r": 1
       },
       {
-        "path": "/tags/%E8%B1%8A%E6%B5%B7/",
+        "path": "/tags/OZmall/",
         "v": 1,
         "r": 1
       },
@@ -31810,6 +35244,137 @@
       "all": 2366,
       "human": 556,
       "scope": "blog-html"
+    },
+    "pages": {
+      "/": {
+        "human": 19
+      },
+      "/category/wangan-life/": {
+        "human": 6
+      },
+      "/wangan-map/": {
+        "human": 3
+      },
+      "/venues/": {
+        "human": 2
+      },
+      "/about/": {
+        "human": 1
+      },
+      "/category/rankings/": {
+        "human": 1
+      },
+      "/category/roundups/": {
+        "human": 1
+      },
+      "/contact/": {
+        "human": 1
+      },
+      "/disclaimer/": {
+        "human": 1
+      },
+      "/tags/%E3%82%89%E3%82%89%E3%81%BD%E3%83%BC%E3%81%A8/": {
+        "human": 1
+      },
+      "/tags/%E3%82%A4%E3%82%AA%E3%83%B3%E3%83%A2%E3%83%BC%E3%83%AB%E5%A4%A7%E3%81%8D%E3%81%95%E3%83%A9%E3%83%B3%E3%82%AD%E3%83%B3%E3%82%B0/": {
+        "human": 1
+      },
+      "/tags/%E3%82%AB%E3%83%8B%E9%80%9A%E8%B2%A9/": {
+        "human": 1
+      },
+      "/tags/%E3%82%AD%E3%83%83%E3%82%B6%E3%83%8B%E3%82%A2%E6%9D%B1%E4%BA%AC/": {
+        "human": 1
+      },
+      "/tags/%E3%82%AF%E3%83%AA%E3%82%B9%E3%83%9E%E3%82%B9/": {
+        "human": 1
+      },
+      "/tags/%E3%82%BF%E3%83%A9%E3%83%90%E3%82%AC%E3%83%8B/": {
+        "human": 1
+      },
+      "/tags/%E3%83%8E%E3%83%B3%E3%83%95%E3%83%A9%E3%82%A4%E3%83%A4%E3%83%BC/": {
+        "human": 1
+      },
+      "/tags/%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9/": {
+        "human": 1
+      },
+      "/tags/%E3%83%A2%E3%83%83%E3%83%94%E3%83%BC/": {
+        "human": 1
+      },
+      "/tags/%E3%83%AF%E3%83%BC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%83%E3%83%97/": {
+        "human": 1
+      },
+      "/tags/%E5%85%B1%E9%80%9A%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88/": {
+        "human": 1
+      },
+      "/tags/%E5%86%B7%E5%87%8D%E3%81%8A%E3%81%9B%E3%81%A1/": {
+        "human": 1
+      },
+      "/tags/%E5%AD%90%E9%80%A3%E3%82%8C/": {
+        "human": 1
+      },
+      "/tags/%E6%9D%B1%E4%BA%AC%E3%82%AF%E3%83%AA%E3%82%B9%E3%83%9E%E3%82%B9%E3%83%9E%E3%83%BC%E3%82%B1%E3%83%83%E3%83%88/": {
+        "human": 1
+      },
+      "/tags/%E6%A5%BD%E5%A4%A9%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88/": {
+        "human": 1
+      },
+      "/tags/%E6%A5%BD%E5%A4%A9%E5%B8%82%E5%A0%B4/": {
+        "human": 1
+      },
+      "/tags/%E9%80%9A%E4%BF%A1%E8%B2%BB%E5%89%8A%E6%B8%9B/": {
+        "human": 1
+      },
+      "/tags/%E9%9B%BB%E7%86%B1%E3%83%99%E3%82%B9%E3%83%88/": {
+        "human": 1
+      },
+      "/tags/2026%E5%B9%B4%E7%89%88/": {
+        "human": 1
+      },
+      "/tags/2026%E5%B9%B4/": {
+        "human": 1
+      },
+      "/tags/Apple%20Pay/": {
+        "human": 1
+      },
+      "/tags/CAMP/": {
+        "human": 1
+      },
+      "/tags/Olive/": {
+        "human": 1
+      },
+      "/tags/SoftBank%20%E5%85%89/": {
+        "human": 1
+      },
+      "/tags/TokyoBay%20Light%20Wish/": {
+        "human": 1
+      },
+      "/tags/V%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88/": {
+        "human": 1
+      },
+      "/tags/%E3%82%A2%E3%83%AB%E3%83%90%E3%83%AB%E3%82%AF%E6%9D%B1%E4%BA%AC/": {
+        "human": 0
+      },
+      "/tags/%E3%83%9D%E3%83%83%E3%83%97%E3%82%A2%E3%83%83%E3%83%97/": {
+        "human": 0
+      },
+      "/tags/%E5%B9%B4%E6%9C%AB/": {
+        "human": 0
+      },
+      "/tags/%E6%B9%BE%E5%B2%B8%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9/": {
+        "human": 0
+      },
+      "/tags/%E7%AF%89%E5%9C%B0%E5%86%8D%E9%96%8B%E7%99%BA/": {
+        "human": 0
+      },
+      "/tags/%E8%A9%B0%E3%82%81%E6%94%BE%E9%A1%8C/": {
+        "human": 0
+      },
+      "/tags/%E8%B1%8A%E6%B4%B2%20%E5%8D%83%E5%AE%A2%E4%B8%87%E6%9D%A5/": {
+        "human": 0
+      },
+      "/tags/Oisix/": {
+        "human": 0
+      }
     }
   }
 }
