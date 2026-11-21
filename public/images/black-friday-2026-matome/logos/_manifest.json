@@ -423,5 +423,13 @@
   "lic": "商標（識別目的）",
   "fetched": "2026-11-16",
   "via": "公式サイトに表示されたロゴの要素を撮った（x514）"
+ },
+ "coinplus.png": {
+  "brand": "COIN+（エアウォレット）",
+  "src": "https://airwallet.jp/assets/images/logo_coinplus.png",
+  "page": "https://airwallet.jp/",
+  "lic": "商標（識別目的）",
+  "fetched": "2026-11-16",
+  "via": "公式サイトに表示されたロゴの要素を撮った（x515）"
  }
 }

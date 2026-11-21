@@ -1,0 +1,17 @@
+{
+ "_doc": "X 告知の画像（ブラックフライデーの時期の決済キャンペーン 5 つ）。node scripts/gen-x-panels.mjs ops/data/x-cards/bf-pay-campaigns-2026.panels.json",
+ "_note": "2026-11-16 の毎日の候補づくり（アナロジー型）。元は 2121556194435412324（いいね612・teppay の「お得キャンペーン全まとめ」）。中身は blog3 の記事 black-friday-2026-matome の「払い方で上乗せ」の表（各社の公式ページを11/15に確認）。ロゴは商標・識別目的",
+ "imageBase": "public/images/black-friday-2026-matome",
+ "out": "public/images/black-friday-2026-matome/x",
+ "theme": "ink",
+ "panels": [
+  {
+   "file": "4-pay5.jpg",
+   "kind": "html",
+   "noHeader": true,
+   "html": "<div class=\"w\"><div class=\"k\">ブラックフライデーの時期に重なる</div><div class=\"t\">払い方で戻ってくる<br><em>決済キャンペーン 5つ</em></div><div class=\"r\"><img class=\"lg\" src=\"logos/teppay.png\" alt=\"\"><div class=\"b\"><div class=\"n\">teppay（JR東日本）</div><div class=\"c\">500円以上のコード決済で20%還元<span class=\"t\">要エントリー</span></div></div><div class=\"d\">11/4〜12/25</div></div><div class=\"r\"><img class=\"lg\" src=\"logos/coinplus.png\" alt=\"\"><div class=\"b\"><div class=\"n\">エアウォレット（COIN+）</div><div class=\"c\">QR・バーコード決済で15%還元<span class=\"t\">要エントリー</span></div></div><div class=\"d\">11/3〜11/30</div></div><div class=\"r\"><img class=\"lg\" src=\"logos/aupay.png\" alt=\"\"><div class=\"b\"><div class=\"n\">au PAY プリペイドカード</div><div class=\"c\">2,000円以上×3回で最大1,200円分<span class=\"t\">Google Payのタッチ決済</span></div></div><div class=\"d\">10/30〜11/29</div></div><div class=\"r\"><img class=\"lg\" src=\"logos/rakutencard.png\" alt=\"\"><div class=\"b\"><div class=\"n\">楽天カード</div><div class=\"c\">条件達成でもれなく最大2,000pt<span class=\"t\">Google Payのタッチ決済</span></div></div><div class=\"d\">11/2〜12/31</div></div><div class=\"r\"><img class=\"lg\" src=\"logos/rakutenpay.png\" alt=\"\"><div class=\"b\"><div class=\"n\">楽天ペイ・楽天ポイントカード</div><div class=\"c\">パンパースが最大40%還元<span class=\"t\">対象店</span></div></div><div class=\"d\">11/1〜12/31</div></div><div class=\"f\">エントリーは払う前に。上限・対象店は各社の公式で確認（11/15時点）</div></div>",
+   "css": ".w{height:1080px;background:#1E1219;color:#fff;padding:44px 44px 36px;display:flex;flex-direction:column;box-sizing:border-box}\nmain{padding:0;height:1080px;display:block}\n.k{align-self:flex-start;font-size:28px;font-weight:900;color:#2A1923;background:#F5C518;border-radius:999px;padding:5px 22px}\n.t{font-size:60px;font-weight:900;line-height:1.18;margin:14px 0 22px}\n.t em{font-style:normal;color:#EC5C90}\n.r{display:flex;align-items:center;gap:20px;background:rgba(255,255,255,.08);border-radius:14px;padding:14px 18px 14px 12px;margin-bottom:12px}\n.lg{width:150px;height:72px;object-fit:contain;background:#fff;border-radius:8px;flex:none;padding:6px;box-sizing:border-box}\n.b{flex:1;min-width:0}\n.n{font-size:30px;font-weight:900;line-height:1.2}\n.c{font-size:25px;font-weight:700;color:#f3dbe5;margin-top:4px;line-height:1.3}\n.c .t{display:inline-block;font-size:19px;margin:0 0 0 10px;color:#2A1923;background:#F5C518;border-radius:6px;padding:1px 8px;vertical-align:2px}\n.d{flex:none;font-size:27px;font-weight:900;color:#F5C518;text-align:right;width:200px}\n.f{margin-top:auto;font-size:26px;font-weight:900;background:#D63E76;border-radius:14px;padding:16px 22px}",
+   "alt": "ブラックフライデーの時期に重なる決済キャンペーン5つ（2026年11月15日に各社の公式ページで確認）。teppay（JR東日本）11/4〜12/25 対象店で500円以上のコード決済で20%還元（要エントリー）。エアウォレット（COIN+）11/3〜11/30 QR・バーコード決済で15%還元（要エントリー）。au PAY プリペイドカード 10/30〜11/29 Google Payのタッチ決済で1回2,000円以上を3回で最大1,200円分。楽天カード 11/2〜12/31 Google Payのタッチ決済で条件達成でもれなく最大2,000ポイント。楽天ペイ・楽天ポイントカード 11/1〜12/31 対象店でパンパースが最大40%還元。ロゴは各社の商標"
+  }
+ ]
+}

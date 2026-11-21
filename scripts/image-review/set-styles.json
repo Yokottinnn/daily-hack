@@ -310,5 +310,13 @@
   "blog-subway-ranking": {
     "style": "question",
     "why": "「新宿駅のいちばんは丸ノ内線」という思い込みを言い当てて返す"
+  },
+  "news-tokyobay-light-wish": {
+    "style": "deadline",
+    "why": "「12/10に行ってもツリーはまだ無い」という日付の注意を1行目に置く期限型。短文型"
+  },
+  "analogy-bf-pay": {
+    "style": "analogy",
+    "why": "伸びている投稿（2121556194435412324・いいね612）の「キャンペーン全まとめ」を決済ごとに並べる形を写した。説明型（長文）"
   }
 }
