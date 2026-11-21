@@ -36,6 +36,54 @@
    "html": "<div class=\"wrap\"><img class=\"ph\" src=\"photos/tokyotower-venue.jpg\" alt=\"\"><div class=\"shade\"></div><div class=\"tx\"><div class=\"k\">11/13〜12/25・12:00〜22:00</div><div class=\"t\">東京タワーの真下は<em>入場無料</em></div><div class=\"sub\">スカイツリータウン・上野公園も入場無料と発表</div></div></div>",
    "css": "main{padding:0;height:1080px;display:block}\n.wrap{position:relative;height:1080px;color:#fff;background:#1E1219;overflow:hidden}\n.ph{position:absolute;left:0;top:0;width:100%;height:1080px;object-fit:cover;object-position:center 30%}\n.shade{position:absolute;left:0;right:0;bottom:0;height:520px;background:linear-gradient(180deg,rgba(30,18,25,0),rgba(30,18,25,.92) 55%)}\n.tx{position:absolute;left:56px;right:56px;bottom:64px}\n.k{display:inline-block;font-size:30px;font-weight:900;color:#2A1923;background:#F5C518;border-radius:999px;padding:6px 22px}\n.t{font-size:70px;font-weight:900;line-height:1.2;margin-top:14px;text-shadow:0 2px 12px rgba(0,0,0,.5)}\n.t em{font-style:normal;color:#EC5C90}\n.sub{font-size:36px;font-weight:700;margin-top:14px}",
    "alt": "TOKYO TOWER Christmas Market 2026 の会場。2026年11月13日〜12月25日、12:00〜22:00、入場無料。スカイツリータウン・上野公園も入場無料と発表。画像：東京タワークリスマスマーケット実行委員会のプレスリリース（PR TIMES）"
+  },
+  {
+   "file": "5-shiba.jpg",
+   "kind": "html",
+   "noHeader": true,
+   "html": "<div class=\"wrap\"><div class=\"crop\"><img src=\"photos/tcm-2venues.jpg\" alt=\"\"></div><div class=\"shade\"></div><div class=\"tx\"><div class=\"k\">12/4〜12/25・11:00〜22:00</div><div class=\"t\">芝公園は<em>12/4から</em></div><div class=\"sub\">高さ約14mのピラミッド・大人 平日1,000円</div></div></div>",
+   "css": "main{padding:0;height:1080px;display:block}\n.wrap{position:relative;height:1080px;color:#fff;background:#1E1219;overflow:hidden}\n.ph{position:absolute;left:0;top:0;width:100%;height:1080px;object-fit:cover;object-position:center 30%}\n.shade{position:absolute;left:0;right:0;bottom:0;height:520px;background:linear-gradient(180deg,rgba(30,18,25,0),rgba(30,18,25,.92) 55%)}\n.tx{position:absolute;left:56px;right:56px;bottom:64px}\n.k{display:inline-block;font-size:30px;font-weight:900;color:#2A1923;background:#F5C518;border-radius:999px;padding:6px 22px}\n.t{font-size:70px;font-weight:900;line-height:1.2;margin-top:14px;text-shadow:0 2px 12px rgba(0,0,0,.5)}\n.t em{font-style:normal;color:#EC5C90}\n.sub{font-size:36px;font-weight:700;margin-top:14px}\n.crop{position:absolute;inset:0;overflow:hidden;background:#3a0d14}\n.crop img{position:absolute;width:2100px;left:-1040px;top:-985px}",
+   "alt": "東京クリスマスマーケット in 芝公園。2026年12月4日〜25日、11:00〜22:00。東京タワーを望む公園に高さ約14mのクリスマスピラミッド。大人の入場は平日1,000円・土日1,500円・24/25日2,000円。画像：東京クリスマスマーケット実行委員会のプレスリリース（PR TIMES）"
+  },
+  {
+   "file": "6-roppongi.jpg",
+   "kind": "html",
+   "noHeader": true,
+   "html": "<div class=\"wrap\"><img class=\"ph\" src=\"photos/roppongi-pretzel.jpg\" alt=\"\"><div class=\"shade\"></div><div class=\"tx\"><div class=\"k\">11/21〜12/25・11:00〜21:00</div><div class=\"t\">六本木ヒルズは<em>開催20回目</em></div><div class=\"sub\">2026年のオリジナルマグ 1,700円</div></div></div>",
+   "css": "main{padding:0;height:1080px;display:block}\n.wrap{position:relative;height:1080px;color:#fff;background:#1E1219;overflow:hidden}\n.ph{position:absolute;left:0;top:0;width:100%;height:1080px;object-fit:cover;object-position:center 30%}\n.shade{position:absolute;left:0;right:0;bottom:0;height:520px;background:linear-gradient(180deg,rgba(30,18,25,0),rgba(30,18,25,.92) 55%)}\n.tx{position:absolute;left:56px;right:56px;bottom:64px}\n.k{display:inline-block;font-size:30px;font-weight:900;color:#2A1923;background:#F5C518;border-radius:999px;padding:6px 22px}\n.t{font-size:70px;font-weight:900;line-height:1.2;margin-top:14px;text-shadow:0 2px 12px rgba(0,0,0,.5)}\n.t em{font-style:normal;color:#EC5C90}\n.sub{font-size:36px;font-weight:700;margin-top:14px}",
+   "alt": "六本木ヒルズ クリスマスマーケット2026（大屋根プラザ）。2026年11月21日〜12月25日、11:00〜21:00。2026年が開催20回目。オリジナルマグ1,700円。画像：森ビル（六本木ヒルズ クリスマスマーケット2026）のプレスリリース（PR TIMES）"
+  },
+  {
+   "file": "7-azabudai.jpg",
+   "kind": "html",
+   "noHeader": true,
+   "html": "<div class=\"wrap\"><img class=\"ph\" src=\"photos/azabudai-venue.jpg\" alt=\"\"><div class=\"shade\"></div><div class=\"tx\"><div class=\"k\">11/21〜12/25・11:00〜21:00</div><div class=\"t\">麻布台ヒルズは<em>飲食15店</em></div><div class=\"sub\">ローストチキン 1,100円・カリーブルスト 880円〜</div></div></div>",
+   "css": "main{padding:0;height:1080px;display:block}\n.wrap{position:relative;height:1080px;color:#fff;background:#1E1219;overflow:hidden}\n.ph{position:absolute;left:0;top:0;width:100%;height:1080px;object-fit:cover;object-position:center 30%}\n.shade{position:absolute;left:0;right:0;bottom:0;height:520px;background:linear-gradient(180deg,rgba(30,18,25,0),rgba(30,18,25,.92) 55%)}\n.tx{position:absolute;left:56px;right:56px;bottom:64px}\n.k{display:inline-block;font-size:30px;font-weight:900;color:#2A1923;background:#F5C518;border-radius:999px;padding:6px 22px}\n.t{font-size:70px;font-weight:900;line-height:1.2;margin-top:14px;text-shadow:0 2px 12px rgba(0,0,0,.5)}\n.t em{font-style:normal;color:#EC5C90}\n.sub{font-size:36px;font-weight:700;margin-top:14px}",
+   "alt": "麻布台ヒルズ クリスマスマーケット 2026（中央広場）。2026年11月21日〜12月25日、11:00〜21:00。物販4店・飲食15店。骨付きもも肉のローストチキン1,100円、カリーブルスト880円〜。画像：森ビル（麻布台ヒルズ クリスマスマーケット 2026）のプレスリリース（PR TIMES）"
+  },
+  {
+   "file": "8-skytree.jpg",
+   "kind": "html",
+   "noHeader": true,
+   "html": "<div class=\"wrap\"><img class=\"ph\" src=\"photos/skytree-arch.jpg\" alt=\"\"><div class=\"shade\"></div><div class=\"tx\"><div class=\"k\">11/5〜12/25・11:00〜22:00</div><div class=\"t\">スカイツリータウンは<em>51日間</em></div><div class=\"sub\">入場無料・15店・雨でも開く</div></div></div>",
+   "css": "main{padding:0;height:1080px;display:block}\n.wrap{position:relative;height:1080px;color:#fff;background:#1E1219;overflow:hidden}\n.ph{position:absolute;left:0;top:0;width:100%;height:1080px;object-fit:cover;object-position:center 30%}\n.shade{position:absolute;left:0;right:0;bottom:0;height:520px;background:linear-gradient(180deg,rgba(30,18,25,0),rgba(30,18,25,.92) 55%)}\n.tx{position:absolute;left:56px;right:56px;bottom:64px}\n.k{display:inline-block;font-size:30px;font-weight:900;color:#2A1923;background:#F5C518;border-radius:999px;padding:6px 22px}\n.t{font-size:70px;font-weight:900;line-height:1.2;margin-top:14px;text-shadow:0 2px 12px rgba(0,0,0,.5)}\n.t em{font-style:normal;color:#EC5C90}\n.sub{font-size:36px;font-weight:700;margin-top:14px}",
+   "alt": "クリスマスマーケット in 東京スカイツリータウン（東京ソラマチ4階 スカイアリーナ）。2026年11月5日〜12月25日の51日間、11:00〜22:00。入場無料・15店舗・雨でも開く。画像：ワールドリカーインポーターズ（クリスマスマーケット2026 in 東京スカイツリータウン）のプレスリリース（PR TIMES）"
+  },
+  {
+   "file": "9-ueno.jpg",
+   "kind": "html",
+   "noHeader": true,
+   "html": "<div class=\"wrap\"><img class=\"ph\" src=\"photos/ueno-snowdome.jpg\" alt=\"\"><div class=\"shade\"></div><div class=\"tx\"><div class=\"k\">11/6〜12/25・袴腰広場 12:00〜23:00</div><div class=\"t\">上野公園は<em>30店超</em></div><div class=\"sub\">入場無料・屋外サーカスは前売り3,500円</div></div></div>",
+   "css": "main{padding:0;height:1080px;display:block}\n.wrap{position:relative;height:1080px;color:#fff;background:#1E1219;overflow:hidden}\n.ph{position:absolute;left:0;top:0;width:100%;height:1080px;object-fit:cover;object-position:center 30%}\n.shade{position:absolute;left:0;right:0;bottom:0;height:520px;background:linear-gradient(180deg,rgba(30,18,25,0),rgba(30,18,25,.92) 55%)}\n.tx{position:absolute;left:56px;right:56px;bottom:64px}\n.k{display:inline-block;font-size:30px;font-weight:900;color:#2A1923;background:#F5C518;border-radius:999px;padding:6px 22px}\n.t{font-size:70px;font-weight:900;line-height:1.2;margin-top:14px;text-shadow:0 2px 12px rgba(0,0,0,.5)}\n.t em{font-style:normal;color:#EC5C90}\n.sub{font-size:36px;font-weight:700;margin-top:14px}",
+   "alt": "東京クリスマスアドベント（上野恩賜公園）。2026年11月6日〜12月25日、袴腰広場は12:00〜23:00。ヒュッテは30店舗超で入場無料。屋外サーカス「AURA」は前売り3,500円。画像：東京クリスマスアドベント（サエキジャパン2）のプレスリリース（PR TIMES）"
+  },
+  {
+   "file": "10-marunouchi.jpg",
+   "kind": "html",
+   "noHeader": true,
+   "html": "<div class=\"wrap\"><img class=\"ph\" src=\"photos/marunouchi-terrace.jpg\" alt=\"\"><div class=\"shade\"></div><div class=\"tx\"><div class=\"k\">11/12〜12/25・JR東京駅の丸の内側</div><div class=\"t\">丸の内仲通りは<em>通りが会場</em></div><div class=\"sub\">2026年はハリー・ポッターと組む・10店舗</div></div></div>",
+   "css": "main{padding:0;height:1080px;display:block}\n.wrap{position:relative;height:1080px;color:#fff;background:#1E1219;overflow:hidden}\n.ph{position:absolute;left:0;top:0;width:100%;height:1080px;object-fit:cover;object-position:center 30%}\n.shade{position:absolute;left:0;right:0;bottom:0;height:520px;background:linear-gradient(180deg,rgba(30,18,25,0),rgba(30,18,25,.92) 55%)}\n.tx{position:absolute;left:56px;right:56px;bottom:64px}\n.k{display:inline-block;font-size:30px;font-weight:900;color:#2A1923;background:#F5C518;border-radius:999px;padding:6px 22px}\n.t{font-size:70px;font-weight:900;line-height:1.2;margin-top:14px;text-shadow:0 2px 12px rgba(0,0,0,.5)}\n.t em{font-style:normal;color:#EC5C90}\n.sub{font-size:36px;font-weight:700;margin-top:14px}",
+   "alt": "丸の内仲通りのクリスマスマーケット。2026年11月12日〜12月25日（行幸通りは11月27日から）。通りにテーブルと椅子を並べて開く。2026年はハリー・ポッターと組み、10店舗。画像：三菱地所（MARUNOUCHI BRIGHT HOLIDAY）のプレスリリース（PR TIMES）"
   }
  ]
 }
