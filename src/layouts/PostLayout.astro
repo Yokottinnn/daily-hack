@@ -555,6 +555,14 @@ const howToLd = howToJsonLd(post.body, data.title);
     (function () {
       const items = document.querySelectorAll('.post-body .checklist li');
       items.forEach((li) => {
+        // Markdown の箇条書きで書いた項目は、中身を 1 つの箱に包む。包まないと太字の後ろの文が
+        // グリッドの細い 1 列目に落ち、スマホで 1〜2 文字ずつ縦に折れる（2026-11-21 利用者の指摘・CSS の :has に頼らない保険）
+        if (!li.querySelector(':scope > .checklist-body, :scope > .checklist-text')) {
+          const box = document.createElement('span');
+          box.className = 'checklist-text';
+          while (li.firstChild) box.appendChild(li.firstChild);
+          li.appendChild(box);
+        }
         li.setAttribute('role', 'button');
         li.setAttribute('tabindex', '0');
         li.setAttribute('aria-pressed', 'false');

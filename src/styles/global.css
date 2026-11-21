@@ -1547,3 +1547,5 @@ main img[src^="/images/expr-"], main img[src^="/images/mascot"], .comic-band .st
   .checklist li:not(:has(> .checklist-body))::before { left: 14px; }
   .checklist li.done:not(:has(> .checklist-body))::after { left: 25px; }
 }
+.checklist li > .checklist-text { display: block; min-width: 0; overflow-wrap: anywhere; }
+.checklist li > .checklist-text > p { margin: 0; }
