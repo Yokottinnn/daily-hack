@@ -1532,3 +1532,18 @@ main img[src^="/images/expr-"], main img[src^="/images/mascot"], .comic-band .st
 
 /* 編集部のページ: スマホではキャラの枠を出さないので、ボタンの下の空白を詰める（2026-11-21） */
 @media (max-width: 680px) { .author-hero { padding-top: 32px !important; padding-bottom: 40px !important; } }
+
+/* チェックリストを Markdown の箇条書きで書いた項目（.checklist-body で包んでいないもの）は、
+   太字の後ろの文が 2 列のグリッドの細い 1 列目（チェック枠の列）に落ちて、スマホで 1〜2 文字ずつ縦に折れていた（2026-11-21 利用者の指摘）。
+   そういう項目は普通の文の流れにして、チェック枠は左に絶対配置する。 */
+.checklist li:not(:has(> .checklist-body)) { display: block; padding-left: 62px; }
+.checklist li:not(:has(> .checklist-body))::before { position: absolute; left: 18px; top: 50%; transform: translateY(-50%); }
+.checklist li:not(:has(> .checklist-body)):active::before { transform: translateY(-50%) scale(0.92); }
+.checklist li.done:not(:has(> .checklist-body))::before { transform: translateY(-50%) scale(1.05); }
+.checklist li:not(:has(> .checklist-body)) > p { margin: 0; }
+.checklist li.done:not(:has(> .checklist-body))::after { left: 32px; }
+@media (max-width: 540px) {
+  .checklist li:not(:has(> .checklist-body)) { padding-left: 46px; }
+  .checklist li:not(:has(> .checklist-body))::before { left: 14px; }
+  .checklist li.done:not(:has(> .checklist-body))::after { left: 25px; }
+}
