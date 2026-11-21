@@ -171,14 +171,6 @@ badge-followback-state.json: オブジェクト 3 キー 例のキーの形: 0,1
    .followed_back: 配列 462 件 キー: handle,at
    .initialized: boolean
 follow-balance-empty.json: オブジェクト 66 キー 例のキーの形: 0,1
-   .takuya10288561: 配列 2 件
-   .blogucci: 配列 1 件
-   .nounaikanojo: 配列 1 件
-   .brandonkhill: 配列 1 件
-   .lalafanlazona: 配列 1 件
-   .yuyan_pace: 配列 2 件
-   .citysayama: 配列 2 件
-   .m_rabbit_4: 配列 5 件
 follow-balance-followers-prev.json: オブジェクト 2 キー 例のキーの形: string
    .at: string
    .followers: 配列 799 件
@@ -190,14 +182,6 @@ follow-balance-lists.json: オブジェクト 5 キー 例のキーの形: strin
    .secs: オブジェクト 2 キー 例のキーの形: number
 follow-balance-notfollowing.json: 配列 409 件
 follow-balance-state.json: オブジェクト 792 キー 例のキーの形: unfollowed_at,why,rank
-   .noa0rz: オブジェクト 3 キー 例のキーの形: string
-   .jun_01_: オブジェクト 3 キー 例のキーの形: string
-   .alohamiler: オブジェクト 3 キー 例のキーの形: string
-   .Umaane33: オブジェクト 3 キー 例のキーの形: string
-   .uorokushoten: オブジェクト 3 キー 例のキーの形: string
-   .isse501: オブジェクト 3 キー 例のキーの形: string
-   .zaionline: オブジェクト 3 キー 例のキーの形: string
-   .KS65616482: オブジェクト 3 キー 例のキーの形: string
 follower-daily-report-state.json: オブジェクト 3 キー 例のキーの形: string
    .last_run: string
    .consec_behind: number
@@ -211,23 +195,7 @@ follower-target-config.json: オブジェクト 5 キー 例のキーの形: str
    .baseline_count: number
    .baseline_date: string
 mutual-prune-state.json: オブジェクト 145 キー 例のキーの形: unfollowed_at,why,followers,idle_days
-   .yjcyjn: オブジェクト 4 キー 例のキーの形: string
-   .trttmrn: オブジェクト 4 キー 例のキーの形: string
-   .MlkSude: オブジェクト 4 キー 例のキーの形: string
-   .PROksifdhg: オブジェクト 4 キー 例のキーの形: string
-   .tmtt23: オブジェクト 4 キー 例のキーの形: string
-   .purplefatiha: オブジェクト 4 キー 例のキーの形: string
-   .hugkm15: オブジェクト 4 キー 例のキーの形: string
-   .1UNIApjv3r1051: オブジェクト 4 キー 例のキーの形: string
 reply-followers.json: オブジェクト 1079 キー 例のキーの形: followed_at,followback_status,scheduled_unfollow_at,source,comment_id,followback_judgment_at,still_following,follows_back,checked_at,unfollowed_at,unfollow_source,unfollow_note
-   .mao_otk_tw: オブジェクト 12 キー 例のキーの形: string
-   .cpaky1: オブジェクト 12 キー 例のキーの形: string
-   .sukesankoba: オブジェクト 12 キー 例のキーの形: string
-   .fxmeitantei: オブジェクト 12 キー 例のキーの形: string
-   .feldoman0504: オブジェクト 12 キー 例のキーの形: string
-   .STARPayment07: オブジェクト 12 キー 例のキーの形: string
-   .Kimama_FIRE: オブジェクト 12 キー 例のキーの形: string
-   .hirouma888: オブジェクト 12 キー 例のキーの形: string
 unfollow-cleanup-state.json: オブジェクト 9 キー 例のキーの形: number
    .version: number
    .phase: string
