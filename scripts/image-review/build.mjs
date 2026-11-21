@@ -119,6 +119,8 @@ const FILES = {
   // **未投稿**（2026-11-21）。湾岸ニュース・アナロジー型
   "scsk-camp-koyomi-workshop-2026": ["1-official.jpg", "2-point.jpg"],
   "wangan-illumination-2026": ["1-cover.jpg"],
+  // **未投稿**（2026-11-22）。利用者の依頼・ポイ活
+  "marunouchi-workers-invite-2026": ["1-official.jpg", "2-code.jpg"],
   "shukuhaku-ranking-2026": ["1-rank.jpg", "2-per.jpg"],
   "national-park-ranking-2026": ["1-rank.jpg", "2-foreign.jpg"],
   "subway-station-ranking-2026": ["1-metro.jpg", "2-shinjuku.jpg"],
