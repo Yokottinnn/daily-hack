@@ -1549,3 +1549,13 @@ main img[src^="/images/expr-"], main img[src^="/images/mascot"], .comic-band .st
 }
 .checklist li > .checklist-text { display: block; min-width: 0; overflow-wrap: anywhere; }
 .checklist li > .checklist-text > p { margin: 0; }
+
+/* スマホで、列の多い表のセルが 2〜4 文字の幅まで潰れて文字が縦に並んでいた（2026-11-21 利用者の指摘を受けて全ページを調べた・14 本）。
+   表は横にスクロールできる（display:block・overflow-x:auto）ので、セルに最低の幅を持たせて潰さず、はみ出す分は横スクロールに回す。 */
+@media (max-width: 640px) {
+  .post-body table th, .post-body table td { min-width: 6.5em; padding-left: 10px; padding-right: 10px; }
+  /* 1 列目は PC では折り返さない（名前を 1 行で見せる）が、スマホでは長い 1 列目が幅を取り、ほかの列が潰れていた */
+  .post-body table tbody td:first-child { white-space: normal; min-width: 5.5em; max-width: 10em; }
+  .post-body table th:empty, .post-body table td:empty { min-width: 0; }
+  .post-body .cmp-table-wrap { overflow-x: auto; }
+}
