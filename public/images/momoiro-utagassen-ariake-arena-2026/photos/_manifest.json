@@ -1,0 +1,21 @@
+{
+ "arena.jpg": {
+  "page": "https://ariake-arena.tokyo/",
+  "credit": "有明アリーナ 公式サイト",
+  "rights": "© TOKYO ARIAKE ARENA",
+  "fetched": "2026-11-21"
+ },
+ "no-car.jpg": {
+  "page": "https://ariake-arena.tokyo/access/",
+  "credit": "有明アリーナ 公式サイト",
+  "rights": "© TOKYO ARIAKE ARENA",
+  "fetched": "2026-11-21"
+ },
+ "../eyecatch.jpg": {
+  "page": "https://ariake-arena.tokyo/",
+  "credit": "有明アリーナ 公式サイト",
+  "rights": "© TOKYO ARIAKE ARENA",
+  "fetched": "2026-11-21",
+  "note": "公式サイトのトップ画像の建物部分を切り出し（文字は含まない）"
+ }
+}

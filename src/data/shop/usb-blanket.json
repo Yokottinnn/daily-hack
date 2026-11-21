@@ -1,0 +1,350 @@
+{
+  "id": "usb-blanket",
+  "title": "USB の電気毛布・着る毛布（PD 9V が要るか・モバイルバッテリーで何時間）",
+  "_note": "仕様は山善（book.yamazen.co.jp）とサンコー（thanko.jp）の公式ページの記載だけ（2026-11-20 に blog3 が確認）。時間は公式に書いてある値だけを入れ、計算した目安は記事の本文に式つきで書く。山善 YHK-US43・YAPP-75US・YTAPP-751US は公式ページが無くなっていた（トップへ転送）ので入れていない。他社（コイズミ・アイリスオーヤマなど）は公式ページを開けず、数字を確かめていないので入れていない",
+  "columns": [
+    {
+      "key": "power",
+      "label": "必要な電源（公式）"
+    },
+    {
+      "key": "watt",
+      "label": "消費電力"
+    },
+    {
+      "key": "hours",
+      "label": "10,000mAh で（公式）"
+    },
+    {
+      "key": "type",
+      "label": "形"
+    },
+    {
+      "key": "weight",
+      "label": "重さ"
+    }
+  ],
+  "pricesCheckedAt": "2026-11-20T21:42:34.454Z",
+  "items": [
+    {
+      "id": "yamazen-yktpd15",
+      "brand": "山善",
+      "name": "くるみケット Over Air PD＋（USBタイプ） YKTPD-15",
+      "badge": "PD 9V が要る・いちばん広い",
+      "summary": "上からかぶる着る毛布。ヒーター3面で、下だけ使えば弱で約8時間20分（10,000mAh）。",
+      "recommended": true,
+      "specs": {
+        "power": "USB Type-C・PD 9V/2A 以上",
+        "watt": "15W",
+        "hours": "全面 強 2時間・弱 3時間15分（下部のみ 弱 8時間20分）",
+        "type": "かぶる着る毛布（約105×120cm）",
+        "weight": "0.8kg"
+      },
+      "source": "https://book.yamazen.co.jp/product/detail/I00008979",
+      "rakuten": {
+        "keyword": "山善 くるみケット YKTPD-15",
+        "must": [
+          "YKTPD-15"
+        ],
+        "exclude": [
+          "中古",
+          "◆"
+        ]
+      },
+      "yahoo": {
+        "keyword": "山善 くるみケット YKTPD-15",
+        "must": [
+          "YKTPD-15"
+        ],
+        "exclude": [
+          "中古",
+          "◆"
+        ],
+        "url": null,
+        "price": null,
+        "shippingFree": null,
+        "point": null,
+        "reviewAverage": null,
+        "reviewCount": null,
+        "shop": null,
+        "checkedAt": "2026-11-20T21:42:34.454Z"
+      },
+      "amazon": {
+        "keyword": "山善 くるみケット Over Air PD YKTPD-15",
+        "asin": null
+      }
+    },
+    {
+      "id": "yamazen-ykhpd15",
+      "brand": "山善",
+      "name": "くるみケット はんてん PD＋（USBタイプ） YKHPD-15",
+      "badge": "PD 9V が要る・半纏型",
+      "summary": "腕を通す半纏の形。家事や近所への外出でもそのまま着られる。",
+      "specs": {
+        "power": "USB Type-C・PD 9V/2A 以上",
+        "watt": "15W",
+        "hours": "公式に記載なし",
+        "type": "半纏（身丈 約75.5cm）",
+        "weight": "0.7kg"
+      },
+      "source": "https://book.yamazen.co.jp/product/detail/I00009294",
+      "rakuten": {
+        "keyword": "山善 くるみケット はんてん YKHPD-15",
+        "must": [
+          "YKHPD-15"
+        ],
+        "exclude": [
+          "中古",
+          "◆"
+        ]
+      },
+      "yahoo": {
+        "keyword": "山善 くるみケット はんてん YKHPD-15",
+        "must": [
+          "YKHPD-15"
+        ],
+        "exclude": [
+          "中古",
+          "◆"
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/beisiadenki/4550533250091.html",
+        "price": 10550,
+        "shippingFree": false,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 0,
+        "shop": "Bサプライズ(ベイシア電器)",
+        "checkedAt": "2026-11-20T21:42:34.454Z"
+      },
+      "amazon": {
+        "keyword": "山善 くるみケット はんてん PD YKHPD-15",
+        "asin": null
+      }
+    },
+    {
+      "id": "yamazen-yhkpd43",
+      "brand": "山善",
+      "name": "くるみケット LIGHT PD＋（USBタイプ） YHK-PD43",
+      "badge": "PD 9V が要る・いちばん軽い",
+      "summary": "0.4kg のひざ掛け。ボタンで留めるとポンチョになる。",
+      "specs": {
+        "power": "USB Type-C・PD 9V/2A 以上",
+        "watt": "13.5W",
+        "hours": "強 2時間20分・中 2時間45分・弱 3時間30分",
+        "type": "ひざ掛け・ポンチョ（約120×70cm）",
+        "weight": "0.4kg"
+      },
+      "source": "https://book.yamazen.co.jp/product/detail/I00009293",
+      "rakuten": {
+        "keyword": "山善 くるみケット LIGHT YHK-PD43",
+        "must": [
+          "YHK-PD43"
+        ],
+        "exclude": [
+          "中古",
+          "◆"
+        ]
+      },
+      "yahoo": {
+        "keyword": "山善 くるみケット LIGHT YHK-PD43",
+        "must": [
+          "YHK-PD43"
+        ],
+        "exclude": [
+          "中古",
+          "◆"
+        ],
+        "url": null,
+        "price": null,
+        "shippingFree": null,
+        "point": null,
+        "reviewAverage": null,
+        "reviewCount": null,
+        "shop": null,
+        "checkedAt": "2026-11-20T21:42:34.454Z"
+      },
+      "amazon": {
+        "keyword": "山善 くるみケット LIGHT PD YHK-PD43",
+        "asin": null
+      }
+    },
+    {
+      "id": "thanko-brkt24hbw",
+      "brand": "サンコー",
+      "name": "USBヒーターブランケット「ポンチョっと」 BRKT24HBW",
+      "badge": "5V 1A で動く・200g",
+      "summary": "スマホ用のモバイルバッテリーでも条件に届きやすい 5V 1A・3.75W。収納袋つき。",
+      "specs": {
+        "power": "USB 5V 1A",
+        "watt": "3.75W",
+        "hours": "公式に記載なし",
+        "type": "ひざ掛け・ポンチョ（約60×85cm）",
+        "weight": "約200g"
+      },
+      "source": "https://www.thanko.jp/view/item/000000004537",
+      "rakuten": {
+        "keyword": "サンコー ポンチョっと BRKT24HBW",
+        "must": [
+          "BRKT24HBW"
+        ],
+        "exclude": [
+          "中古",
+          "◆"
+        ]
+      },
+      "yahoo": {
+        "keyword": "サンコー ポンチョっと BRKT24HBW",
+        "must": [
+          "BRKT24HBW"
+        ],
+        "exclude": [
+          "中古",
+          "◆"
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/thanko-inc/000000004537.html",
+        "price": 3480,
+        "shippingFree": false,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 1,
+        "shop": "サンコー公式通販サイト Yahoo!店",
+        "checkedAt": "2026-11-20T21:42:34.454Z"
+      },
+      "amazon": {
+        "keyword": "サンコー ポンチョっと BRKT24HBW",
+        "asin": null
+      }
+    },
+    {
+      "id": "thanko-walh24sju",
+      "brand": "サンコー",
+      "name": "ヒーターで温かい「着るロングブランケット」 WALH24SJU",
+      "badge": "5V 2A・弱で約15時間",
+      "summary": "前と後ろのヒーターを別々に入り切りできる、袖つきの着る毛布。",
+      "specs": {
+        "power": "USB 5V 2.0A 以上",
+        "watt": "最大 約10W",
+        "hours": "強 約7時間・中 約12時間・弱 約15時間",
+        "type": "袖つきの着る毛布（横130×縦108cm）",
+        "weight": "約850g"
+      },
+      "source": "https://www.thanko.jp/view/item/000000004571",
+      "rakuten": {
+        "keyword": null,
+        "must": [
+          "WALH24SJU"
+        ],
+        "exclude": [
+          "中古",
+          "◆"
+        ],
+        "_keywordWas": "サンコー 着るロングブランケット WALH24SJU",
+        "_hiddenNote": "2026-11-20 blog3 が本番で押した確認（t732・t733）で、型番の商品が楽天市場の検索結果に出なかったので外した（利用者の 2026-10-31 の判断「その店に無い商品のボタンを消す」と同じ扱い）。証跡: ops/heartbeat の reports/shop-verify/usb-kiru-moufu-mobile-battery-2026/"
+      },
+      "yahoo": {
+        "keyword": null,
+        "must": [
+          "WALH24SJU"
+        ],
+        "exclude": [
+          "中古",
+          "◆"
+        ],
+        "_keywordWas": "サンコー 着るロングブランケット WALH24SJU",
+        "_hiddenNote": "2026-11-20 blog3 が本番で押した確認（t732・t733）で、型番の商品がYahoo!ショッピングの検索結果に出なかったので外した（利用者の 2026-10-31 の判断「その店に無い商品のボタンを消す」と同じ扱い）。証跡: ops/heartbeat の reports/shop-verify/usb-kiru-moufu-mobile-battery-2026/"
+      },
+      "amazon": {
+        "keyword": "サンコー 着るロングブランケット WALH24SJU",
+        "asin": null
+      }
+    },
+    {
+      "id": "thanko-hntn24hbl",
+      "brand": "サンコー",
+      "name": "電熱半纏「ほかてん」ライト HNTN24HBL",
+      "badge": "5V 2A・7W の半纏",
+      "summary": "ヒーター3か所の半纏。洗濯機で丸洗いできる。",
+      "specs": {
+        "power": "USB 5V 2.0A 以上",
+        "watt": "7W",
+        "hours": "強 約5時間・中 約6.5時間・弱 約8時間",
+        "type": "半纏（着丈 72cm）",
+        "weight": "約850g"
+      },
+      "source": "https://www.thanko.jp/view/item/000000004522",
+      "rakuten": {
+        "keyword": "サンコー ほかてん ライト HNTN24HBL",
+        "must": [
+          "HNTN24HBL"
+        ],
+        "exclude": [
+          "中古",
+          "◆"
+        ]
+      },
+      "yahoo": {
+        "keyword": null,
+        "must": [
+          "HNTN24HBL"
+        ],
+        "exclude": [
+          "中古",
+          "◆"
+        ],
+        "_keywordWas": "サンコー ほかてん ライト HNTN24HBL",
+        "_hiddenNote": "2026-11-20 blog3 が本番で押した確認（t732・t733）で、型番の商品がYahoo!ショッピングの検索結果に出なかったので外した（利用者の 2026-10-31 の判断「その店に無い商品のボタンを消す」と同じ扱い）。証跡: ops/heartbeat の reports/shop-verify/usb-kiru-moufu-mobile-battery-2026/"
+      },
+      "amazon": {
+        "keyword": "サンコー ほかてん ライト HNTN24HBL",
+        "asin": null
+      }
+    },
+    {
+      "id": "thanko-hntn23hbk",
+      "brand": "サンコー",
+      "name": "電熱半纏「ほかてん」 HNTN23HBK",
+      "badge": "5V 2A・ヒーター5か所",
+      "summary": "ヒーター5か所の半纏。ライトより大きく、消費電力も約10W と大きい。",
+      "specs": {
+        "power": "USB 5V 2.0A 以上",
+        "watt": "約10W",
+        "hours": "高 約3.5時間・中 約4時間・低 約4.5時間",
+        "type": "半纏（着丈 84.5cm）",
+        "weight": "約1.2kg"
+      },
+      "source": "https://www.thanko.jp/view/item/000000004219",
+      "rakuten": {
+        "keyword": "サンコー ほかてん HNTN23HBK",
+        "must": [
+          "HNTN23HBK"
+        ],
+        "exclude": [
+          "中古",
+          "◆"
+        ]
+      },
+      "yahoo": {
+        "keyword": "サンコー ほかてん HNTN23HBK",
+        "must": [
+          "HNTN23HBK"
+        ],
+        "exclude": [
+          "中古",
+          "◆"
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/japan-eyewear/hntn23hbk.html",
+        "price": 6980,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 0,
+        "shop": "株式会社ジャパンアイウェア",
+        "checkedAt": "2026-11-20T21:42:34.454Z"
+      },
+      "amazon": {
+        "keyword": "サンコー ほかてん HNTN23HBK",
+        "asin": null
+      }
+    }
+  ]
+}

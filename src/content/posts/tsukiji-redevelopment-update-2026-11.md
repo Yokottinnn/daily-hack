@@ -2,6 +2,7 @@
 title: "築地再開発の最新状況2026｜東京都が2026年11月にファクトシートを更新。浴恩園の池の石積み、費用1,450億円、2030年代前半にまちびらき一期"
 description: "築地市場跡地の再開発（築地地区まちづくり事業）。東京都が2026年11月にファクトシートを更新し、浴恩園の池の石積みや明治期の製鋼炉の出土、調査と対策の費用1,450億円、2030年代前半のまちびらき一期を示した。"
 publishDate: 2026-11-16
+updatedDate: 2026-11-21
 category: ["wangan-life"]
 tags: ["湾岸ニュース", "築地", "築地再開発", "中央区", "2026年"]
 isPR: true
@@ -9,7 +10,7 @@ draft: false
 eyecatchUrl: "/images/tsukiji-redevelopment-update-2026-11/eyecatch.jpg"
 eyecatchAlt: "築地市場跡地の上空写真（築地まちづくり株式会社・2026年11月5日更新のお知らせより）"
 author: "hacker-ko"
-references: ["https://www.toshiseibi.metro.tokyo.lg.jp/machizukuri/machi_project/toshi_saisei/saisei08", "https://www.toshiseibi.metro.tokyo.lg.jp/documents/d/toshiseibi/factsheet_jp20261111-1", "https://www.toshiseibi.metro.tokyo.lg.jp/documents/d/toshiseibi/pdf_bosai_toshi_saisei_data_teianegaiyou", "https://tsukiji-machizukuri.jp/news/oshirase-20261105/", "https://tsukiji-machizukuri.jp/"]
+references: ["https://www.toshiseibi.metro.tokyo.lg.jp/machizukuri/machi_project/toshi_saisei/saisei08", "https://www.toshiseibi.metro.tokyo.lg.jp/documents/d/toshiseibi/factsheet_jp20261124", "https://www.toshiseibi.metro.tokyo.lg.jp/documents/d/toshiseibi/pdf_bosai_toshi_saisei_data_teianegaiyou", "https://tsukiji-machizukuri.jp/news/oshirase-20261105/", "https://tsukiji-machizukuri.jp/"]
 ---
 
 築地市場跡地の再開発（東京都の**築地地区まちづくり事業**）について、東京都都市整備局が**2026年11月にファクトシートを更新**した。発掘調査で**浴恩園（よくおんえん）の池の護岸とみられる石積み**が出ていること、調査と土壌対策と古い基礎の撤去にかかる費用が**概算1,450億円**であること、2030年代前半に「**まちびらき一期**」という予定が、都の資料にまとまって載ったのよ。
@@ -80,6 +81,7 @@ references: ["https://www.toshiseibi.metro.tokyo.lg.jp/machizukuri/machi_project
       <tr><td>2025年8月</td><td>事業者が<strong>基本計画</strong>を公表</td></tr>
       <tr><td>2026年7月12日（日）</td><td>発掘調査現場見学会。<strong>約4,000人</strong>が来場（都市整備局）</td></tr>
       <tr><td>2026年11月</td><td>都がファクトシートを更新（浴恩園部の調査の項目を追加）</td></tr>
+      <tr><td>2026年11月20日</td><td>都が築地まちづくりのページとファクトシートを更新。<strong>令和7年度の試掘（265㎡）</strong>が加わり、試掘の合計は<strong>約10,500㎡（10,513㎡）</strong>に</td></tr>
     </tbody>
   </table>
 </div>
@@ -113,13 +115,13 @@ references: ["https://www.toshiseibi.metro.tokyo.lg.jp/machizukuri/machi_project
   <table class="cmp-table prose-table">
     <thead><tr><th>調査</th><th>分かったこと</th></tr></thead>
     <tbody>
-      <tr><td><strong>試掘調査</strong><span class="cell-sub">2020年度〜・約10,200㎡</span></td><td>隅田川の旧護岸とみられる石積み、旧市場の基礎などで壊れた池の護岸とみられる石積みの一部</td></tr>
+      <tr><td><strong>試掘調査</strong><span class="cell-sub">2020年度〜・約10,500㎡（2026年11月20日更新）</span></td><td>隅田川の旧護岸とみられる石積み、旧市場の基礎などで壊れた池の護岸とみられる石積みの一部</td></tr>
       <tr><td><strong>本掘調査</strong><span class="cell-sub">2025年7月〜・2026年6月時点</span></td><td><strong>明治期の海軍の遺構と思われる製鋼炉の底部</strong>など。有識者の意見を踏まえ、<strong>一部を移して保存</strong>できるよう関係機関と協議</td></tr>
       <tr><td><strong>浴恩園部</strong><span class="cell-sub">2026年11月時点</span></td><td>旧市場の基礎などで壊れた<strong>池の護岸とみられる石積み</strong>と<strong>島状の盛土</strong>。石積みの下の胴木や杭の状態から、<strong>明治期以降に手が入ったもの</strong>と推測</td></tr>
     </tbody>
   </table>
 </div>
-<p class="source-note">出典：<a href="https://www.toshiseibi.metro.tokyo.lg.jp/documents/d/toshiseibi/factsheet_jp20261111-1" target="_blank" rel="noopener">東京都都市整備局「築地地区のまちづくりについて（ファクトシート・よくある質問）」令和8年（2026年）11月更新</a> Q16〜Q18</p>
+<p class="source-note">出典：<a href="https://www.toshiseibi.metro.tokyo.lg.jp/documents/d/toshiseibi/factsheet_jp20261124" target="_blank" rel="noopener">東京都都市整備局「築地地区のまちづくりについて（ファクトシート・よくある質問）」令和8年（2026年）11月更新</a> Q16〜Q18</p>
 
 製鋼炉について、都がまとめた有識者の意見は「鉄を反射炉で溶かす段階から、坩堝炉（るつぼろ）で溶かした鋼を使う段階へ移った**最初期の遺構**」「**他に類を見ない遺構**」。浴恩園部については「江戸期のものが明治期に大きく削られ、激しく改変された状況」で、旧地形も含めて変遷を把握してほしい、という意見が付いている。
 
@@ -225,7 +227,7 @@ X と YouTube では、次のような声と動画が見つかった。
   </table>
 </div>
 
-<p class="source-note">出典：<a href="https://www.toshiseibi.metro.tokyo.lg.jp/machizukuri/machi_project/toshi_saisei/saisei08" target="_blank" rel="noopener">東京都都市整備局「築地まちづくり」</a>（2026年11月12日更新）／<a href="https://www.toshiseibi.metro.tokyo.lg.jp/documents/d/toshiseibi/factsheet_jp20261111-1" target="_blank" rel="noopener">ファクトシート・よくある質問（2026年11月更新）</a>／<a href="https://www.toshiseibi.metro.tokyo.lg.jp/documents/d/toshiseibi/pdf_bosai_toshi_saisei_data_teianegaiyou" target="_blank" rel="noopener">事業予定者の提案概要（2024年4月）</a>／<a href="https://tsukiji-machizukuri.jp/news/oshirase-20261105/" target="_blank" rel="noopener">築地まちづくり株式会社「現場の状況に関するお知らせ（2026年11月5日更新）」</a></p>
+<p class="source-note">出典：<a href="https://www.toshiseibi.metro.tokyo.lg.jp/machizukuri/machi_project/toshi_saisei/saisei08" target="_blank" rel="noopener">東京都都市整備局「築地まちづくり」</a>（2026年11月20日更新）／<a href="https://www.toshiseibi.metro.tokyo.lg.jp/documents/d/toshiseibi/factsheet_jp20261124" target="_blank" rel="noopener">ファクトシート・よくある質問（2026年11月更新）</a>／<a href="https://www.toshiseibi.metro.tokyo.lg.jp/documents/d/toshiseibi/pdf_bosai_toshi_saisei_data_teianegaiyou" target="_blank" rel="noopener">事業予定者の提案概要（2024年4月）</a>／<a href="https://tsukiji-machizukuri.jp/news/oshirase-20261105/" target="_blank" rel="noopener">築地まちづくり株式会社「現場の状況に関するお知らせ（2026年11月5日更新）」</a></p>
 
 <div class="hakkako-says">
   <div class="hakkako-quote">築地は「工事中の空き地」じゃなくて、<strong>いまは江戸と明治が掘り出されてる最中</strong>なのよ。動きがあったら、アタシがまた書くわ。</div>

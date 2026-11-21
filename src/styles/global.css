@@ -873,7 +873,8 @@ blockquote.twitter-tweet a:hover { color: var(--pink-700); }
 .share a:hover, .share button:hover { background: var(--pink-500); color: #fff; border-color: var(--pink-500); }
 
 /* Static page */
-.static-page { padding: 48px 0 80px; max-width: 760px; margin: 0 auto; }
+/* 左右の余白は .wrap に任せる（padding の一括指定で 0 にしていた・2026-11-21 スマホで文字が画面の端に付いていた） */
+.static-page { padding-top: 48px; padding-bottom: 80px; max-width: 760px; margin: 0 auto; }
 .static-page h1 { font-family: "RocknRoll One"; font-size: clamp(28px, 4vw, 36px); margin: 0 0 24px; }
 .static-page h2 { font-family: "RocknRoll One"; font-size: 22px; margin: 36px 0 14px; padding-left: 14px; border-left: 4px solid var(--pink-500); }
 .static-page p, .static-page li { font-size: 15.5px; line-height: 1.95; }
@@ -1528,3 +1529,6 @@ main img[src^="/images/expr-"], main img[src^="/images/mascot"], .comic-band .st
 /* Jリーグ記事の入場料収入グラフ: スマホ幅では縦長の版に切り替える（2026-11-15） */
 .jl-chart .jl-sp { display: none !important; }
 @media (max-width: 640px) { .jl-chart .jl-pc { display: none !important; } .jl-chart .jl-sp { display: block !important; } }
+
+/* 編集部のページ: スマホではキャラの枠を出さないので、ボタンの下の空白を詰める（2026-11-21） */
+@media (max-width: 680px) { .author-hero { padding-top: 32px !important; padding-bottom: 40px !important; } }

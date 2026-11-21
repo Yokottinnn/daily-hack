@@ -227,6 +227,13 @@ NITE によると、**モバイルバッテリーの事故は2021〜2025年の5�
         <span class="related-block-name">充電式カイロおすすめ10選｜安全で長く持つのはどれ？使い捨て何枚分で元が取れるか</span>
       </span>
     </a></li>
+    <li><a href="/posts/usb-kiru-moufu-mobile-battery-2026/">
+      <span class="related-block-thumb"><img src="/images/usb-kiru-moufu-mobile-battery-2026/eyecatch.jpg" alt="" loading="lazy" /></span>
+      <span class="related-block-body">
+        <span class="related-block-cat">比較</span>
+        <span class="related-block-name">USBの電気毛布・着る毛布はモバイルバッテリーで何時間？｜PD 9Vが要る機種・5Vで動く機種</span>
+      </span>
+    </a></li>
   </ul>
 </aside>
 

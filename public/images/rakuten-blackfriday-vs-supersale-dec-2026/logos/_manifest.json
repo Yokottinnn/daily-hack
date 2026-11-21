@@ -1,0 +1,49 @@
+{
+  "rakutenichiba-app.jpg": {
+    "brand": "楽天市場",
+    "seller": "Rakuten Group, Inc.",
+    "src": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/44/6c/cc/446ccc60-4ecc-7f46-cc97-9ed11a734483/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+    "page": "https://apps.apple.com/jp/app/%E6%A5%BD%E5%A4%A9%E5%B8%82%E5%A0%B4-%E3%81%8A%E8%B2%B7%E3%81%84%E7%89%A9%E3%81%A7%E6%A5%BD%E5%A4%A9%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88%E3%81%8C%E8%B2%AF%E3%81%BE%E3%82%8B%E4%BE%BF%E5%88%A9%E3%81%AA%E9%80%9A%E8%B2%A9%E3%82%A2%E3%83%97%E3%83%AA/id419267350?uo=4",
+    "fetched": "2026-10-18",
+    "task": "ops/tasks/x316-product-brand-logos.sh",
+    "note": "App Store に提供元（Rakuten Group, Inc.）が登録した楽天市場アプリのアイコン。前の rakutenichiba.png は台湾版「樂天市場」だったため差し替えた（2026-10-18）",
+    "copied_from": "public/images/prime-sale-vs-rakuten-autumn-2026/logos/rakutenichiba-app.jpg",
+    "copied": "2026-11-20"
+  },
+  "yahooshop.png": {
+    "brand": "Yahoo!ショッピング",
+    "src": "https://s.yimg.jp/c/logo/f/2.0/shopping_r_34_2x.png",
+    "page": "https://shopping.yahoo.co.jp/",
+    "lic": "商標（識別目的）",
+    "fetched": "2026-11-15",
+    "via": "公式サイト（x503）",
+    "copied_from": "public/images/black-friday-2026-matome/logos/yahooshop.png",
+    "copied": "2026-11-20"
+  },
+  "anker.png": {
+    "brand": "Anker",
+    "src": "https://www.ankerjapan.com/cdn/shop/files/logo-app-anker-v2.svg",
+    "fetched": "2026-10-25",
+    "note": "公式サイトのアプリ案内のロゴ（SVG を PNG に変換）",
+    "copied_from": "public/images/portable-power-lfp-2026/logos/anker.png",
+    "copied": "2026-11-20"
+  },
+  "rakutencard.png": {
+    "brand": "楽天カード",
+    "source": "https://www.rakuten-card.co.jp/",
+    "page": "https://www.rakuten-card.co.jp/",
+    "fetched": "2026-09-20",
+    "license_note": "公式サイトのロゴ画像（商標）",
+    "task": "ops/tasks/t130-*.sh",
+    "copied_from": "public/images/prime-sale-vs-rakuten-autumn-2026/logos/rakutencard.png",
+    "copied": "2026-11-20"
+  },
+  "tiger.png": {
+    "brand": "タイガー魔法瓶",
+    "src": "https://www.tiger-corporation.com/wp-content/themes/tiger-corporation/assets/images/tiger-logo.svg",
+    "page": "https://www.tiger-corporation.com/ja/jpn/",
+    "lic": "商標（識別目的）",
+    "fetched": "2026-11-20",
+    "note": "公式サイトのヘッダーのロゴ（白抜き版。SVG を Chromium で PNG にした。表示は on-dark の枠）"
+  }
+}

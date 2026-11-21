@@ -1,0 +1,5 @@
+{
+ "kenei.png": {"brand": "健栄製薬", "src": "https://www.kenei-pharm.com/include/img/p_logo.png", "page": "https://www.kenei-pharm.com/", "note": "公式サイトのヘッダーのロゴ（改変なし）", "fetched": "2026-11-20"},
+ "shinshin.png": {"brand": "新新薬品工業（ピアソン）", "src": "https://www.shinshin-yakuhin.co.jp/_common/img/logo@2x.png", "page": "https://www.shinshin-yakuhin.co.jp/", "note": "公式サイトのヘッダーのロゴ（改変なし）。製造販売元のロゴなので、会社名を書いた行にだけ置く", "fetched": "2026-11-20"},
+ "maruho.png": {"brand": "マルホ", "src": "https://www.maruho.co.jp/assets/images/common/sp/header_logo.png", "page": "https://www.maruho.co.jp/", "note": "公式サイトのヘッダーのロゴ（改変なし）", "fetched": "2026-11-20"}
+}

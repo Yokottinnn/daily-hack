@@ -1,0 +1,113 @@
+{
+  "id": "kani-kaitougo",
+  "title": "カニ通販（解凍後の重さで比べる）",
+  "_note": "2026-11-21 blog3。楽天・Yahoo! だけ（Amazon なし）。ボタンのリンクだけに使う（keyword を入れないので自動の価格取得はしない。価格と重さは記事の本文に Yahoo! の商品ページの値と確認日を書いた）。楽天の URL は t742 で楽天アフィリエイトのリンクから開いて着いた先。楽天で同じ商品が見つからなかったもの（甲羅組 100007・ますよね タラバ 850・森源 zkani-014）は楽天の検索結果へのリンク",
+  "columns": [],
+  "pricesCheckedAt": null,
+  "items": [
+    {
+      "id": "kouragumi-zuwai-nama",
+      "brand": "越前かに職人 甲羅組",
+      "name": "カット生ずわい蟹 特盛1.8kg",
+      "recommended": false,
+      "source": "https://store.shopping.yahoo.co.jp/kouragumi/100007.html",
+      "rakuten": {
+        "itemUrl": "https://search.rakuten.co.jp/search/mall/%E7%94%B2%E7%BE%85%E7%B5%84%20%E3%82%AB%E3%83%83%E3%83%88%E7%94%9F%E3%81%9A%E3%82%8F%E3%81%84%E8%9F%B9%20%E7%89%B9%E7%9B%9B%201.8kg/"
+      },
+      "yahoo": {
+        "url": "https://store.shopping.yahoo.co.jp/kouragumi/100007.html"
+      }
+    },
+    {
+      "id": "kouragumi-taraba-tsume",
+      "brand": "越前かに職人 甲羅組",
+      "name": "ボイルたらばがに 爪1kg（解凍後800g）",
+      "recommended": false,
+      "source": "https://store.shopping.yahoo.co.jp/kouragumi/240021.html",
+      "rakuten": {
+        "itemUrl": "https://item.rakuten.co.jp/kouragumi/240021/"
+      },
+      "yahoo": {
+        "url": "https://store.shopping.yahoo.co.jp/kouragumi/240021.html"
+      }
+    },
+    {
+      "id": "kouragumi-zuwai-3kg",
+      "brand": "越前かに職人 甲羅組",
+      "name": "ボイルずわいがに メガ盛り3kg",
+      "recommended": false,
+      "source": "https://store.shopping.yahoo.co.jp/kouragumi/100075.html",
+      "rakuten": {
+        "itemUrl": "https://item.rakuten.co.jp/kouragumi/100075/"
+      },
+      "yahoo": {
+        "url": "https://store.shopping.yahoo.co.jp/kouragumi/100075.html"
+      }
+    },
+    {
+      "id": "masuyone-taraba",
+      "brand": "越前かに問屋ますよね",
+      "name": "本タラバ脚1肩 総重量1kg 正味900g",
+      "recommended": false,
+      "source": "https://store.shopping.yahoo.co.jp/masuyone/y-taraba-asi850.html",
+      "rakuten": {
+        "itemUrl": "https://search.rakuten.co.jp/search/mall/%E3%81%BE%E3%81%99%E3%82%88%E3%81%AD%20%E3%82%BF%E3%83%A9%E3%83%90%20%E7%B7%8F%E9%87%8D%E9%87%8F1kg/"
+      },
+      "yahoo": {
+        "url": "https://store.shopping.yahoo.co.jp/masuyone/y-taraba-asi850.html"
+      }
+    },
+    {
+      "id": "manzoku-taraba",
+      "brand": "満足良品館",
+      "name": "超特大タラバガニ肩付き脚 1肩2kg",
+      "recommended": false,
+      "source": "https://store.shopping.yahoo.co.jp/manzokuryohinkan/71316.html",
+      "rakuten": {
+        "itemUrl": "https://item.rakuten.co.jp/kanisho/71316/"
+      },
+      "yahoo": {
+        "url": "https://store.shopping.yahoo.co.jp/manzokuryohinkan/71316.html"
+      }
+    },
+    {
+      "id": "takumi-taraba",
+      "brand": "笑顔の食卓 匠",
+      "name": "超特大9Lボイルたらば 半むき身満足セット",
+      "recommended": false,
+      "source": "https://store.shopping.yahoo.co.jp/egaotakumi/404.html",
+      "rakuten": {
+        "itemUrl": "https://item.rakuten.co.jp/kanidokoro/404/"
+      },
+      "yahoo": {
+        "url": "https://store.shopping.yahoo.co.jp/egaotakumi/404.html"
+      }
+    },
+    {
+      "id": "yamato-taraba",
+      "brand": "海の幸なのにYAMATO",
+      "name": "カット済み特大タラバ蟹 1kg",
+      "recommended": false,
+      "source": "https://store.shopping.yahoo.co.jp/sfd-ymd/bt-00041.html",
+      "rakuten": {
+        "itemUrl": "https://item.rakuten.co.jp/sfd-ymt/bt-00041/"
+      },
+      "yahoo": {
+        "url": "https://store.shopping.yahoo.co.jp/sfd-ymd/bt-00041.html"
+      }
+    },
+    {
+      "id": "morigen-zuwai",
+      "brand": "食の達人森源商店",
+      "name": "プレミアムずわい蟹ポーション 1kg",
+      "recommended": false,
+      "source": "https://store.shopping.yahoo.co.jp/morigen/zkani-014.html",
+      "rakuten": {
+        "itemUrl": "https://search.rakuten.co.jp/search/mall/%E6%A3%AE%E6%BA%90%E5%95%86%E5%BA%97%20%E3%81%9A%E3%82%8F%E3%81%84%E8%9F%B9%20%E3%83%9D%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%201kg/"
+      },
+      "yahoo": {
+        "url": "https://store.shopping.yahoo.co.jp/morigen/zkani-014.html"
+      }
+    }
+  ]
+}
