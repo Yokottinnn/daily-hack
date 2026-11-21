@@ -139,6 +139,34 @@ if (refDays28.length) {
   readTop.splice(0, readTop.length, ...articles.filter((a) => a.h28 > 0).sort((a, b) => b.h28 - a.h28).slice(0, 20)
     .map((a) => ({ slug: a.slug, v: a.v28, title: a.title, aff: a.aff, c28: a.c28, h28: a.h28, refs28: a.refs28 })));
 }
+// ---------- 記事以外のページ（トップ・カテゴリの一覧・地図など）の読者（2026-11-21） ----------
+// 利用者がダイアログで「一覧ページの閲覧数も作戦室で見えるようにする」を選んだ。
+// 読者（ボット除外）は pv-archive の pages（2026-11-21 から・上位 100 パス）がある日だけ。訪問（ボット込み）は top から全日。
+const CAT_LABEL = { campaigns: 'キャンペーン速報', services: 'サービス紹介', comparisons: '比較', roundups: 'まとめ', howto: 'ハウツー', 'wangan-life': '湾岸ライフ', rankings: 'ランキング' };
+const pageLabel = (pth) => {
+  let m;
+  if (pth === '/') return 'トップページ';
+  if ((m = pth.match(/^\/category\/([^/]+)\/(?:(\d+)\/)?$/))) return `カテゴリの一覧：${CAT_LABEL[m[1]] || m[1]}${m[2] ? `（${m[2]} ページ目）` : ''}`;
+  if ((m = pth.match(/^\/tags\/([^/]+)\/$/))) { let t = m[1]; try { t = decodeURIComponent(t); } catch (e) {} return `タグの一覧：${t}`; }
+  if (pth === '/wangan-map/') return '湾岸イベントマップ';
+  const FIX = { '/author/': '運営者のページ', '/about/': 'このサイトについて', '/contact/': 'お問い合わせ', '/posts/': '記事の一覧', '/tags/': 'タグの一覧（全体）', '/privacy/': 'プライバシーポリシー' };
+  if (FIX[pth]) return FIX[pth];
+  if (pth === '/venues/') return '会場の一覧';
+  if ((m = pth.match(/^\/venues\/([^/]+)\/$/))) return `会場のページ：${m[1]}`;
+  if (pth.startsWith('/posts/')) return '記事の一覧';
+  return pth;
+};
+const isPagePath = (pth) => !/^\/posts\/[^/]+\/$/.test(pth) && !/\.[a-z0-9]{2,5}$/i.test(pth) && !/^\/(_|api\/|cdn-cgi\/)/.test(pth);
+const pageDays28 = in28.filter((d) => daily[d]?.pages);
+const pagesAgg = {};
+for (const d of in28) for (const t of daily[d]?.top || []) { if (!isPagePath(t.path)) continue; const r = (pagesAgg[t.path] = pagesAgg[t.path] || { path: t.path, v: 0, h: 0 }); r.v += t.v || 0; }
+for (const d of pageDays28) for (const [pth, x] of Object.entries(daily[d].pages || {})) { if (!isPagePath(pth)) continue; const r = (pagesAgg[pth] = pagesAgg[pth] || { path: pth, v: 0, h: 0 }); r.h += x.human || 0; }
+// 上位 30 に、カテゴリの一覧（1 ページ目）は入らなくても必ず足す（どのカテゴリの一覧が読まれているかを比べるため）
+const pagesSorted = Object.values(pagesAgg).sort((a, b) => (pageDays28.length ? b.h - a.h : 0) || b.v - a.v);
+const pagesTop = [...pagesSorted.slice(0, 30), ...pagesSorted.slice(30).filter((r) => /^\/category\/[^/]+\/$/.test(r.path))]
+  .map((r) => ({ path: r.path, label: pageLabel(r.path), v28: r.v, h28: pageDays28.length ? r.h : null }));
+const pagesMeta = { humanDays: pageDays28.length, days: in28.length, from: pageDays28[0] || null };
+
 // 日ごとの訪問（記事の詳細で棒にする）と、全記事が同じ日に跳ねた日（読者ではない一斉アクセスの疑い）
 const recentDays = days.slice(-45);
 const postTotal = (d) => (daily[d]?.top || []).filter((t) => t.path.startsWith('/posts/')).reduce((a, t) => a + (t.v || 0), 0);
@@ -451,7 +479,7 @@ const snapshot = {
     posts: { total: postList.length, isPR: postList.filter((p) => p.isPR).length, withAff: postList.filter((p) => p.aff > 0).length },
     pos4to10: { pages: pos4to10.length, impressions: sum(pos4to10, 'i') },
   },
-  gscWeekly, gscMonthly, topPages, queries, pq, readTop, articles, pvMeta, xShared, monthly: monthlyRows, blog, others, xData,
+  gscWeekly, gscMonthly, topPages, queries, pq, readTop, pagesTop, pagesMeta, articles, pvMeta, xShared, monthly: monthlyRows, blog, others, xData,
   a8: a8 ? { total: a8.total, rows: a8Rows, applyingCount: a8.applyingCount ?? null, generated: a8.generated } : null,
   // 記事ごとの成果リンクの一覧（2026-10-17・利用者の指示）
   affInventory: affInv,

@@ -432,6 +432,10 @@ tr[data-ccount]::after{top:4px;right:4px}
   <h2 data-cid="now.m5dkh">読まれている記事（直近 28 日）</h2>
   <p class="src">「読者」はボット（機械的なアクセス）を除いた訪問、「訪問」はボットを含む数。「検索から」は Search Console のクリックで、読者との差が検索以外（X・直接など）から来た分です。「内訳」を押すと日ごとの詳細が開きます。</p>
   <div class="tbl"><table class="wf"><thead><tr><th>記事</th><th>読者（ボット除外）</th><th>訪問（ボット込み）</th><th>検索から</th><th>内訳</th><th>成果リンク</th></tr></thead><tbody id="tbl-read"><tr><td colspan="5" class="empty">データ待ち</td></tr></tbody></table></div>
+  <h2 data-cid="now.pages">記事以外のページ（トップ・カテゴリの一覧・地図など・直近 28 日）</h2>
+  <p class="src">記事ではないページがどれだけ開かれているか。「読者」はボットを除いた訪問で、<b>2026-11-21 から集め始めた</b>ので、集めた日の分だけの数です（何日分かは下に出ます）。「訪問」はボットを含む数で、28 日分そろっています。カテゴリの一覧は、上位に入らなくても全部出します。</p>
+  <div class="tbl"><table class="wf"><thead><tr><th>ページ</th><th>読者（ボット除外）</th><th>訪問（ボット込み）</th></tr></thead><tbody id="tbl-pages"><tr><td colspan="3" class="empty">データ待ち</td></tr></tbody></table></div>
+  <p class="src" id="pages-note"></p>
   <h2>勝てている型・負けている型</h2>
   <div class="grid">
     <div class="tile"><div class="k">勝てている</div><p style="margin:6px 0 0"><b>公式の数字を並べたランキング</b>。ららぽーと売上ランキングは 7〜8 位で、検索クリックの大半を占める。数字の寿命が年単位で、競合が書いていない切り口。</p></div>
@@ -1302,6 +1306,9 @@ tr[data-ccount]::after{top:4px;right:4px}
       const groups=Object.values(by).map(g=>({...g,top:g.rows.filter(r=>r.p<=20).sort((a,b)=>b.i-a.i),rest:g.rows.filter(r=>r.p>20).sort((a,b)=>b.i-a.i)})).filter(g=>g.top.length).sort((a,b)=>b.top.reduce((x,r)=>x+r.i,0)-a.top.reduce((x,r)=>x+r.i,0));
       const q1=(r,full)=>'<li>'+esc(r.q)+' <span class="status">'+r.p.toFixed(1)+' 位・表示 '+fmtN(r.i)+(full?'・クリック '+fmtN(r.c):'')+'</span></li>';
       $('#tbl-pq').innerHTML=groups.map(g=>'<tr data-cid="now.pq.'+esc(g.slug)+'"><td>'+link(g)+'</td><td><ul class="plain" style="margin:0">'+g.top.slice(0,10).map(r=>q1(r,true)).join('')+'</ul>'+(g.top.length>10?'<details><summary>ほか '+(g.top.length-10)+' 語</summary><ul class="plain" style="margin:0">'+g.top.slice(10).map(r=>q1(r,true)).join('')+'</ul></details>':'')+'</td><td>'+(g.rest.length?'<ul class="plain" style="margin:0">'+g.rest.slice(0,8).map(r=>q1(r,false)).join('')+'</ul>':'<span class="status">ほかに出ている語は無い</span>')+'</td></tr>').join('')||'<tr><td colspan="3" class="empty">データなし</td></tr>'; }
+    { const PB='https://daily-hack.fieldbeside.com', PMt=S.pagesMeta||{};
+      $('#tbl-pages').innerHTML=(S.pagesTop||[]).map(r=>'<tr data-cid="now.pages.'+esc(r.path)+'"><td><a href="'+esc(PB+r.path)+'" target="_blank" rel="noopener">'+esc(r.label)+'</a></td><td class="num"><b>'+(r.h28!=null?fmtN(r.h28):'—')+'</b></td><td class="num">'+fmtN(r.v28)+'</td></tr>').join('')||'<tr><td colspan="3" class="empty">データなし（作戦室の毎日の更新から出ます）</td></tr>';
+      const pn=$('#pages-note'); if(pn) pn.textContent=PMt.days?('読者の数は '+(PMt.humanDays||0)+' 日分（'+(PMt.from||'まだ無し')+' から）／訪問は '+PMt.days+' 日分。'):''; }
     $('#tbl-read').innerHTML=(S.readTop||[]).map(r=>{ const a=(S.articles||[]).find(x=>x.slug===r.slug)||{}; return '<tr data-cid="now.read.'+esc(r.slug)+'"><td>'+link(r)+'</td><td class="num"><b>'+(r.h28!=null?fmtN(r.h28):'—')+'</b></td><td class="num">'+fmtN(r.v)+'</td><td class="num">'+fmtN(r.c28)+'</td><td><button type="button" class="linkish" data-detail="'+esc(r.slug)+'">'+esc(whyShort(a,PM))+'</button></td><td>'+affPill(r.aff)+'</td></tr>'; }).join('')||'<tr><td colspan="6" class="empty">データなし</td></tr>';
     $('#pv-note').innerHTML='<b>訪問の数の読み方</b>：記事ごとの訪問は Cloudflare の数で、<b>ボット（機械的なアクセス）を含みます</b>。ボットを除いた数が取れているのはサイト全体だけです（直近 28 日 '+fmtN((S.kpi||{}).pv28&&S.kpi.pv28.human)+'）。記録は '+esc(PM.first||'—')+' から（全期間 '+fmtN(PM.days90)+' 日）。'+(PM.spikeDays&&PM.spikeDays.length?'全記事が同じ日に跳ねた日（'+PM.spikeDays.map(d=>d.slice(5).replace('-','/')).join('・')+'）は、読者ではない一斉アクセスの疑いがあります。':'')+(PM.refFrom?'記事ごとのボット除外の訪問は '+esc(PM.refFrom)+' から記録しています。':'記事ごとのボット除外の訪問は 10/13 分から記録します。')+'<b>どこから来たか（X か検索か）は、Cloudflare の無料プランの集計では取れません</b>。Web Analytics を有効にすると取れるようになります（「タスク」のページ）。それまでは、日ごとの訪問と X の告知日・一斉アクセスの日を突き合わせて読みます（行を押すと詳細）。';
     ART=S.articles||[]; renderArticles(); ideaFilters(); renderIdeas();
