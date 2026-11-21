@@ -551,6 +551,19 @@ const howToLd = howToJsonLd(post.body, data.title);
   </script>
 
   <script is:inline>
+    // X の投稿（blockquote.twitter-tweet）があれば、X の埋め込みスクリプトを 1 回だけ読み込む（2026-11-21）。
+    // 記事ごとに <script src="widgets.js"> を書く作りで、120 本中 39 本が書き忘れて文字だけのカードになっていた（利用者の指摘「画像も含めて表示して」）。
+    // 記事に書いてあるものと二重に読み込まないよう、既にあれば足さない。
+    (function () {
+      if (!document.querySelector('blockquote.twitter-tweet')) return;
+      if (document.querySelector('script[src*="platform.twitter.com/widgets.js"]')) return;
+      var s = document.createElement('script');
+      s.src = 'https://platform.twitter.com/widgets.js'; s.async = true; s.charset = 'utf-8';
+      document.body.appendChild(s);
+    })();
+  </script>
+
+  <script is:inline>
     // .checklist のチェックボックスをクリック可能に
     (function () {
       const items = document.querySelectorAll('.post-body .checklist li');
