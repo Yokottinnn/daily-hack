@@ -1,6 +1,6 @@
 {
   "_doc": "レビューページの書き換え（drafts）のスナップショット。sync-drafts.mjs が書く。build.mjs と guard-post-approval.py が読む",
-  "syncedAt": "2026-11-21T03:33:12.949Z",
+  "syncedAt": "2026-11-21T15:27:15.256Z",
   "drafts": {
     "analogy-bf-matome/text-2": {
       "text": "出回ってる一覧と違うところもあるわ。majicaの宝箱は一時停止中、ゴディバのハッピーバッグは終了、ニトリは公式ページに期間なし。\n\n店ごとの中身はこっちで確認。総集編を見れるわよ。\nhttps://daily-hack.fieldbeside.com/posts/black-friday-2026-matome/",
