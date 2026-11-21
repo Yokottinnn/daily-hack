@@ -113,7 +113,9 @@ const FILES = {
   "cruise-port-ranking-2026": ["1-rank.jpg", "2-tokyo.jpg"],
   "onsen-ranking-2026": ["1-source.jpg", "2-stay.jpg"],
   "jleague-attendance-ranking-2026": ["1-rank.jpg", "2-hiroshima.jpg"],
-  "black-friday-2026-matome": ["0-cover.jpg", "1-now.jpg", "2-week.jpg", "3-later.jpg"],
+  "black-friday-2026-matome": ["0-cover.jpg", "1-now.jpg", "2-week.jpg", "3-later.jpg", "4-pay5.jpg"],
+  // **未投稿**（2026-11-20）。湾岸ニュース
+  "tokyobay-light-wish-odaiba-2026": ["1-official.jpg", "2-point.jpg"],
   "shukuhaku-ranking-2026": ["1-rank.jpg", "2-per.jpg"],
   "national-park-ranking-2026": ["1-rank.jpg", "2-foreign.jpg"],
   "subway-station-ranking-2026": ["1-metro.jpg", "2-shinjuku.jpg"],
