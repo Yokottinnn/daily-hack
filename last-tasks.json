@@ -1,5 +1,4 @@
 [
-      {"task": "t770-gsc-request-indexing-rankings.sh", "rc": 0, "out": "リクエスト済み: 5 t770-gsc-request-indexing.md"},
-      {"task": "t771-gsc-request-indexing-rankings.sh", "rc": 0, "out": "リクエスト済み: 4 t771-gsc-request-indexing.md"},
-      {"task": "t772-gsc-request-indexing-rankings.sh", "rc": 0, "out": "リクエスト済み: 2 t772-gsc-request-indexing.md"}
+      {"task": "x528-read-follow-filters-and-unfollow-back.sh", "rc": 0, "out": "13"},
+      {"task": "x529-mutual-prune-revert-0.8.sh", "rc": 0, "out": "変える前: MUTUAL_RATIO_CUT=0・MAX_UNFOLLOW=8・GRACE_DAYS=3 載っている ← launchd が持っている値:"}
   ]
