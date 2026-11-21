@@ -1,0 +1,70 @@
+---
+/**
+ * ランキングの一覧ページ（/category/rankings/）への入口（2026-11-21）。
+ * 一覧ページの読者が 28 日で 6 人と、カテゴリの一覧で最も少なかった（作戦室「記事以外のページ」）。
+ * 利用者がダイアログで「一覧への入口を増やす」を選んだ。トップページとランキング記事の本文の後ろに置く。
+ * 数字は src/data/rankings-index.json（各記事の順位表から写したもの）。キャラの画像は使わない。
+ */
+import { getCollection } from 'astro:content';
+import idx from '../data/rankings-index.json';
+import { postBelongsToCategory } from '../lib/category';
+
+interface Props { exclude?: string; heading?: string }
+const { exclude, heading = '1位はどこ？　数字で見るランキング' } = Astro.props;
+
+type Item = { slug: string; topic: string; q: string; first: string; value: string; source: string };
+const groups = (idx as { groups: { name: string; items: Item[] }[] }).groups;
+const all = groups.flatMap((g) => g.items.map((i) => ({ ...i, genre: g.name })));
+// ジャンルが偏らないように、各ジャンルから順に 1 本ずつ取る（記事ページでは開いている記事を外す）
+const pool = groups.map((g) => g.items.filter((i) => i.slug !== exclude));
+const seed = exclude ? [...exclude].reduce((a, c) => a + c.charCodeAt(0), 0) : 0;
+const picks: (Item & { genre: string })[] = [];
+for (let round = 0; picks.length < 4 && round < 10; round++) {
+  pool.forEach((items, gi) => {
+    if (picks.length >= 4 || !items.length) return;
+    const it = items[(seed + round) % items.length];
+    if (!picks.some((p) => p.slug === it.slug)) picks.push({ ...it, genre: groups[gi].name });
+  });
+}
+// 一覧ページと同じ数え方（公開中のランキングの記事の本数）
+const total = (await getCollection('posts', ({ data }) => !data.draft && postBelongsToCategory(data, 'rankings'))).length;
+const COLOR: Record<string, string> = { 'お店・商業施設': '#e0457b', '交通': '#2f80d1', '観光・宿泊': '#1f9d6b', 'スポーツ・まち': '#e88a1a' };
+---
+
+<section class="rkt" aria-labelledby="rkt-h">
+  <div class="rkt-head">
+    <h2 id="rkt-h">{heading}</h2>
+    <a class="rkt-all" href="/category/rankings/">全 {total} 本の一覧へ →</a>
+  </div>
+  <p class="rkt-lead">公式の数字だけで並べたランキングを、答えを当ててから開けるようにまとめています。</p>
+  <ul class="rkt-cards">
+    {picks.map((p) => (
+      <li style={`--c:${COLOR[p.genre] ?? '#6b5ca5'}`}>
+        <a href={`/posts/${p.slug}/`}>
+          <span class="rkt-genre">{p.genre}</span>
+          <span class="rkt-q">{p.q}</span>
+          <span class="rkt-go">答えを見る →</span>
+        </a>
+      </li>
+    ))}
+  </ul>
+  <a class="rkt-btn" href="/category/rankings/">ランキングを全部見る（{total} 本）</a>
+</section>
+
+<style>
+  .rkt { margin: 40px 0; padding: 22px 20px; border: 2px solid #1d1d1f; border-radius: 16px; background: #fffaf0; }
+  .rkt-head { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 6px 16px; }
+  .rkt-head h2 { margin: 0; font-size: 1.25rem; line-height: 1.4; border: 0; padding: 0; }
+  .rkt-all { font-size: .9rem; font-weight: 700; white-space: nowrap; }
+  .rkt-lead { margin: 6px 0 14px; font-size: .9rem; color: #555; }
+  .rkt-cards { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; }
+  .rkt-cards li { margin: 0; }
+  .rkt-cards a { display: flex; flex-direction: column; gap: 8px; height: 100%; box-sizing: border-box; padding: 14px; border-radius: 12px; background: #fff; border: 1px solid #e6e1d6; border-top: 5px solid var(--c); color: inherit; text-decoration: none; }
+  .rkt-cards a:hover { box-shadow: 0 4px 14px rgba(0,0,0,.08); }
+  .rkt-genre { font-size: .75rem; font-weight: 700; color: var(--c); }
+  .rkt-q { font-weight: 800; line-height: 1.45; overflow-wrap: anywhere; }
+  .rkt-go { margin-top: auto; font-size: .85rem; font-weight: 700; color: var(--c); }
+  .rkt-btn { display: block; margin: 16px auto 0; max-width: 360px; text-align: center; padding: 12px 16px; border-radius: 999px; background: #1d1d1f; color: #fff !important; font-weight: 800; text-decoration: none; }
+  @media (max-width: 860px) { .rkt-cards { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+  @media (max-width: 420px) { .rkt { padding: 18px 14px; } .rkt-cards { gap: 8px; } .rkt-cards a { padding: 12px 10px; } .rkt-q { font-size: .92rem; } }
+</style>

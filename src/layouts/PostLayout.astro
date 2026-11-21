@@ -1,4 +1,5 @@
 ---
+import RankingsTeaser from '../components/RankingsTeaser.astro';
 import { geoOf } from '../lib/wangan-map';
 import type { CollectionEntry } from 'astro:content';
 import type { MarkdownHeading } from 'astro';
@@ -414,6 +415,9 @@ const howToLd = howToJsonLd(post.body, data.title);
         )}
       </aside>
     </div>
+
+    {/* ランキングの記事は、本文の後ろにほかのランキングと一覧への入口を置く（2026-11-21・一覧の読者が 28 日で 6 人だった） */}
+    {postCategories.includes('rankings') && <RankingsTeaser exclude={post.id} heading="ほかのランキングも当ててみる" />}
 
     {siblingClusters.length > 0 && parentPillar && (
       <section style="padding: 56px 0 24px;">
