@@ -1,1 +1,5 @@
-[]
+[
+      {"task": "t770-gsc-request-indexing-rankings.sh", "rc": 0, "out": "リクエスト済み: 5 t770-gsc-request-indexing.md"},
+      {"task": "t771-gsc-request-indexing-rankings.sh", "rc": 0, "out": "リクエスト済み: 4 t771-gsc-request-indexing.md"},
+      {"task": "t772-gsc-request-indexing-rankings.sh", "rc": 0, "out": "リクエスト済み: 2 t772-gsc-request-indexing.md"}
+  ]
