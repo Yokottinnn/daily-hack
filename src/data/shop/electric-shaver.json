@@ -1,0 +1,167 @@
+{
+  "id": "electric-shaver",
+  "title": "メンズ電動シェーバー（往復式と回転式・替刃の交換の目安・洗浄器の有無）",
+  "_note": "仕様・交換の目安・価格は各社の公式ページだけ（2026-11-22 確認）。ブラウンは braun.jp の製品ページと替刃のページ（交換は18か月に一度）、パナソニックは製品ページの仕様表・Panasonic Store Plus（公式通販）の価格・FAQ（一体型セット刃 約1.5年、外刃 約1年、内刃 約2年）、フィリップスは製品ページの技術仕様（替刃は2年ごと）、マクセル イズミは製品ページと Maxell 公式ショップの価格。ブラウンとフィリップスは公式に価格の記載がない。",
+  "columns": [
+    { "key": "type", "label": "方式" },
+    { "key": "runtime", "label": "使用時間（公称）" },
+    { "key": "cleaner", "label": "洗浄器" },
+    { "key": "blade", "label": "替刃と交換の目安（公式）" },
+    { "key": "price", "label": "公式の価格" }
+  ],
+  "pricesCheckedAt": null,
+  "items": [
+    {
+      "id": "braun-9660cc",
+      "brand": "ブラウン",
+      "name": "シリーズ9 Pro+ 9660cc",
+      "badge": "往復式の最上位・洗浄器付き",
+      "summary": "濃いヒゲを1回で剃り切りたい人。5+1カットシステムと6in1全自動アルコール洗浄システム付き。",
+      "recommended": false,
+      "specs": {
+        "type": "往復式（5+1カットシステム）",
+        "runtime": "最大60分（充電60分）",
+        "cleaner": "あり（6in1全自動アルコール洗浄システム）",
+        "blade": "F/C96M・18か月に一度",
+        "price": "公式に記載なし"
+      },
+      "source": "https://www.braun.jp/ja-jp/male-grooming/shavers-for-men/series-9/series-9-pro-plus-9660cc",
+      "rakuten": { "keyword": "ブラウン シリーズ9 Pro+ 9660cc", "must": ["9660cc"], "exclude": ["替刃", "交換", "互換", "対応", "専用", "カートリッジ", "洗浄液", "中古", "◆", "並行輸入"] },
+      "yahoo": { "keyword": "ブラウン シリーズ9 Pro+ 9660cc", "must": ["9660cc"], "exclude": ["替刃", "交換", "互換", "対応", "専用", "カートリッジ", "洗浄液", "中古", "◆", "並行輸入"] },
+      "amazon": { "keyword": "ブラウン シリーズ9 Pro+ 9660cc", "asin": null }
+    },
+    {
+      "id": "braun-70-n1200s",
+      "brand": "ブラウン",
+      "name": "密着シリーズ7 70-N1200s",
+      "badge": "ブラウン公式のベストセラー",
+      "summary": "洗浄器は要らないから、首まわりまで密着する往復式が欲しい人。360°密着ヘッド、約50分駆動。",
+      "recommended": false,
+      "specs": {
+        "type": "往復式（360°密着システム）",
+        "runtime": "約50分（5分の急速充電で1回分）",
+        "cleaner": "なし（本体を水洗い）",
+        "blade": "F/C70B-3（Series7用）・18か月に一度",
+        "price": "公式に記載なし"
+      },
+      "source": "https://www.braun.jp/ja-jp/male-grooming/shavers-for-men/series-7/series-7-70-n1200s",
+      "rakuten": { "keyword": "ブラウン シリーズ7 70-N1200s", "must": ["70-N1200s"], "exclude": ["替刃", "交換", "互換", "対応", "専用", "カートリッジ", "洗浄液", "中古", "◆", "並行輸入"] },
+      "yahoo": { "keyword": "ブラウン シリーズ7 70-N1200s", "must": ["70-N1200s"], "exclude": ["替刃", "交換", "互換", "対応", "専用", "カートリッジ", "洗浄液", "中古", "◆", "並行輸入"] },
+      "amazon": { "keyword": "ブラウン 密着シリーズ7 70-N1200s", "asin": null }
+    },
+    {
+      "id": "panasonic-es-l690u",
+      "brand": "パナソニック",
+      "name": "ラムダッシュPRO 6枚刃 ES-L690U",
+      "badge": "替刃代を公式の値段で計算できる",
+      "summary": "往復式で深剃りと洗浄器の両方が欲しい人。6枚刃、全自動洗浄充電器付き、約14日間もつ。",
+      "recommended": true,
+      "specs": {
+        "type": "往復式（リニアモーター・約14,000ストローク／分）",
+        "runtime": "約14日間（1日約3分）",
+        "cleaner": "あり（全自動洗浄充電器）",
+        "blade": "ES9610（一体型）・約1.5年ごと",
+        "price": "68,310円（公式通販）"
+      },
+      "source": "https://panasonic.jp/shaver/products/ES-L690U.html",
+      "rakuten": { "keyword": "パナソニック ラムダッシュPRO 6枚刃 ES-L690U", "must": ["ES-L690U"], "exclude": ["替刃", "交換", "互換", "対応", "専用", "洗浄剤", "中古", "◆", "並行輸入"] },
+      "yahoo": { "keyword": "パナソニック ラムダッシュPRO 6枚刃 ES-L690U", "must": ["ES-L690U"], "exclude": ["替刃", "交換", "互換", "対応", "専用", "洗浄剤", "中古", "◆", "並行輸入"] },
+      "amazon": { "keyword": "パナソニック ラムダッシュPRO 6枚刃 ES-L690U", "asin": null }
+    },
+    {
+      "id": "panasonic-es-p690u",
+      "brand": "パナソニック",
+      "name": "ラムダッシュ パームインPRO 6枚刃 ES-P690U",
+      "badge": "冬のキャッシュバック対象",
+      "summary": "手のひらに収まる小さなシェーバーを贈り物にしたい人。パームインポッドとワイヤレス充電台付き。",
+      "recommended": false,
+      "specs": {
+        "type": "往復式（リニアモーター・約14,000ストローク／分）",
+        "runtime": "約14日間（1日約3分）",
+        "cleaner": "あり（パームインポッド）",
+        "blade": "ES-9S62・一体型なら約1.5年／外刃なら約1年",
+        "price": "84,150円（公式通販）"
+      },
+      "source": "https://panasonic.jp/shaver/products/ES-P690U.html",
+      "rakuten": { "keyword": "パナソニック パームインPRO 6枚刃 ES-P690U", "must": ["ES-P690U"], "exclude": ["替刃", "交換", "互換", "対応", "専用", "洗浄剤", "ケース", "カバー", "中古", "◆", "並行輸入"] },
+      "yahoo": { "keyword": "パナソニック パームインPRO 6枚刃 ES-P690U", "must": ["ES-P690U"], "exclude": ["替刃", "交換", "互換", "対応", "専用", "洗浄剤", "ケース", "カバー", "中古", "◆", "並行輸入"] },
+      "amazon": { "keyword": "パナソニック ラムダッシュ パームインPRO 6枚刃 ES-P690U", "asin": null }
+    },
+    {
+      "id": "panasonic-es-l382w",
+      "brand": "パナソニック",
+      "name": "ラムダッシュ 3枚刃 ES-L382W",
+      "badge": "洗浄器付きでいちばん安い",
+      "summary": "洗浄器は欲しいけど予算は3万円以内の人。3枚刃、全自動洗浄充電器付き。",
+      "recommended": false,
+      "specs": {
+        "type": "往復式（リニアモーター・約13,000ストローク／分）",
+        "runtime": "約14日間（1日約3分）",
+        "cleaner": "あり（全自動洗浄充電器）",
+        "blade": "外刃 ES9092・約1年／内刃 ES9068・約2年",
+        "price": "27,500円（公式通販）"
+      },
+      "source": "https://panasonic.jp/shaver/products/ES-L382W.html",
+      "rakuten": { "keyword": "パナソニック ラムダッシュ 3枚刃 ES-L382W", "must": ["ES-L382W"], "exclude": ["替刃", "交換", "互換", "対応", "専用", "洗浄剤", "中古", "◆", "並行輸入"] },
+      "yahoo": { "keyword": "パナソニック ラムダッシュ 3枚刃 ES-L382W", "must": ["ES-L382W"], "exclude": ["替刃", "交換", "互換", "対応", "専用", "洗浄剤", "中古", "◆", "並行輸入"] },
+      "amazon": { "keyword": "パナソニック ラムダッシュ 3枚刃 ES-L382W", "asin": null }
+    },
+    {
+      "id": "philips-s7886",
+      "brand": "フィリップス",
+      "name": "シェーバー 7000シリーズ S7886/50",
+      "badge": "回転式・洗浄器付き",
+      "summary": "回転式で肌あたりを重視したい人。マイクロビーズのヘッド、クイッククリーンポッド付き。",
+      "recommended": false,
+      "specs": {
+        "type": "回転式（45枚刃・毎分90,000回カット）",
+        "runtime": "約60分（約1時間充電）",
+        "cleaner": "あり（クイッククリーンポッド）",
+        "blade": "SH71・2年ごと",
+        "price": "公式に記載なし（オープン価格）"
+      },
+      "source": "https://www.philips.co.jp/c-p/S7886_50/shaver-series-7000-wet-dry-electric-shaver",
+      "rakuten": { "keyword": "フィリップス 7000シリーズ S7886/50", "must": ["S7886"], "exclude": ["替刃", "交換", "互換", "対応", "専用", "カートリッジ", "中古", "◆", "並行輸入"] },
+      "yahoo": { "keyword": "フィリップス 7000シリーズ S7886/50", "must": ["S7886"], "exclude": ["替刃", "交換", "互換", "対応", "専用", "カートリッジ", "中古", "◆", "並行輸入"] },
+      "amazon": { "keyword": "フィリップス シェーバー 7000シリーズ S7886/50", "asin": null }
+    },
+    {
+      "id": "philips-s5885",
+      "brand": "フィリップス",
+      "name": "シェーバー 5000シリーズ S5885/10",
+      "badge": "回転式を手ごろに",
+      "summary": "回転式を試したい人。替刃は7000シリーズと同じ SH71 で、交換は2年ごと。",
+      "recommended": false,
+      "specs": {
+        "type": "回転式（45枚刃・毎分90,000回カット）",
+        "runtime": "約60分（約1時間充電）",
+        "cleaner": "なし（本体丸洗い）",
+        "blade": "SH71・2年ごと",
+        "price": "公式に記載なし（オープン価格）"
+      },
+      "source": "https://www.philips.co.jp/c-p/S5885_10/shaver-series-5000-wet-dry-electric-shaver",
+      "rakuten": { "keyword": "フィリップス 5000シリーズ S5885/10", "must": ["S5885"], "exclude": ["替刃", "交換", "互換", "対応", "専用", "カートリッジ", "中古", "◆", "並行輸入"] },
+      "yahoo": { "keyword": "フィリップス 5000シリーズ S5885/10", "must": ["S5885"], "exclude": ["替刃", "交換", "互換", "対応", "専用", "カートリッジ", "中古", "◆", "並行輸入"] },
+      "amazon": { "keyword": "フィリップス シェーバー 5000シリーズ S5885/10", "asin": null }
+    },
+    {
+      "id": "maxell-izf-v855w",
+      "brand": "マクセル イズミ",
+      "name": "V8シリーズ 5枚刃 IZF-V855W",
+      "badge": "替刃交換なしで5年",
+      "summary": "替刃代を気にしたくない人。切れ味が5年続く長寿命刃「サステバ」、本体も刃も5年保証。",
+      "recommended": false,
+      "specs": {
+        "type": "往復式（5枚刃）",
+        "runtime": "約20日間（1日約3分）",
+        "cleaner": "なし（本体丸洗い・IPX7）",
+        "blade": "替刃交換なしで5年（切れ味）",
+        "price": "15,800円（Maxell 公式ショップ）"
+      },
+      "source": "https://www.izumi.maxell.co.jp/kaden/products/izf_v855w/",
+      "rakuten": { "keyword": "マクセル イズミ IZF-V855W", "must": ["IZF-V855W"], "exclude": ["替刃", "交換", "互換", "対応", "専用", "中古", "◆", "並行輸入"] },
+      "yahoo": { "keyword": "マクセル イズミ IZF-V855W", "must": ["IZF-V855W"], "exclude": ["替刃", "交換", "互換", "対応", "専用", "中古", "◆", "並行輸入"] },
+      "amazon": { "keyword": "マクセル イズミ V8 IZF-V855W", "asin": null }
+    }
+  ]
+}
