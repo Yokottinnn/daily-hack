@@ -21,6 +21,7 @@ references:
   - "https://www.toshiba-lifestyle.com/jp/microwaves/er-d5000c/function"
   - "https://kadenfan.hitachi.co.jp/range/lineup/mro-w1e/spec.html"
   - "https://prtimes.jp/main/html/rd/p/000000251.000027680.html"
+  - "https://www.irisohyama.co.jp/products/electrical-appliances/cooking-appliances/microwave-microwave-oven/steam-oven/steam-oven-18l"
 ---
 
 「スチームオーブンレンジって高いけど、スチームって本当に使うの？」「30Lの大きいのにしたいけど、うちの棚に置けるの？」——年末のローストチキンやクリスマスのお菓子を前に、ブラックフライデーでオーブンレンジを買い替えようとすると、まずこの2つで手が止まる。**スチームの方式と、置くのに要る高さ・奥行を同じ表に並べた比較**は、意外と見つからない。
@@ -44,8 +45,8 @@ references:
   </a>
   <a class="event-pick" href="#置けるか高さは本体上の隙間" style="--pick-img:url('/images/oven-range-comparison-2026/photos/sharp-axrs1d-size.jpg')">
     <span class="pick-date">高さ</span>
-    <h4>438〜490mm</h4>
-    <p>本体＋上の隙間<strong>8〜10cm</strong>。左右・後ろは全機種ピッタリ。</p>
+    <h4>430〜490mm</h4>
+    <p>本体＋上の隙間<strong>8〜10cm</strong>。左右・後ろは6台がピッタリ。</p>
     <span class="pick-go">詳しく見る →</span>
   </a>
   <a class="event-pick" href="#扉を開けたときの奥行6272cm" style="--pick-img:url('/images/oven-range-comparison-2026/photos/sharp-rewf277-open.jpg')">
@@ -65,7 +66,7 @@ references:
     <tbody>
       <tr class="recommended"><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/oven-range-comparison-2026/logos/sharp.png" alt="" loading="lazy" /><a href="https://jp.sharp/range/products/axrs1d/" target="_blank" rel="noopener">シャープ ヘルシオ AX-RS1D</a></span></td><td><strong>スチームを毎日の焼き物・おかずに使いたい</strong><span class="cell-sub">過熱水蒸気で焼く「ウォーターオーブン」。30L・2段熱風。食材を並べて調理方法を選ぶだけの「まかせて調理」（2026年6月25日発売）</span></td></tr>
       <tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/oven-range-comparison-2026/logos/panasonic.png" alt="" loading="lazy" /><a href="https://panasonic.jp/range/products/NE-UBS10E.html" target="_blank" rel="noopener">パナソニック ビストロ NE-UBS10E</a></span></td><td><strong>30Lがほしいけど、上の棚までの高さがぎりぎり</strong><span class="cell-sub">本体の高さ370mm・上8cmで、上の隙間を公式が書いている30Lの4台の中でいちばん低い450mmに収まる。グリルとスープを一度に作る（2026年6月上旬発売）</span></td></tr>
-      <tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/oven-range-comparison-2026/logos/panasonic.png" alt="" loading="lazy" /><a href="https://panasonic.jp/range/products/NE-FS3E.html" target="_blank" rel="noopener">パナソニック NE-FS3E</a></span></td><td><strong>スチームは使わない。あたためとトースト・ときどきオーブン</strong><span class="cell-sub">スチームなしの23L。高さ338mm・上10cmで438mm、扉を開けても奥行62.1cm。7台でいちばん場所を取らない</span></td></tr>
+      <tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/oven-range-comparison-2026/logos/panasonic.png" alt="" loading="lazy" /><a href="https://panasonic.jp/range/products/NE-FS3E.html" target="_blank" rel="noopener">パナソニック NE-FS3E</a></span></td><td><strong>スチームは使わない。あたためとトースト・ときどきオーブン</strong><span class="cell-sub">スチームなしの23L。高さ338mm・上10cmで438mm、扉を開けても奥行62.1cm。23L以上の6台でいちばん場所を取らない</span></td></tr>
     </tbody>
   </table>
 </div>
@@ -95,19 +96,21 @@ references:
 
 ## スチームは要るか｜方式は4つ
 
-「スチーム」と書いてあっても、水の入れ方と使い方で中身が違う。7台を方式で分けると4つになる。**どれが上ということはなく、何を作るかで決まる**。
+「スチーム」と書いてあっても、水の入れ方と使い方で中身が違う。18Lのアイリスオーヤマ MO-F1808-B を除く6台を方式で分けると4つになる（MO-F1808-B は表の下に書いた）。**どれが上ということはなく、何を作るかで決まる**。
 
 <div class="cmp-table-wrap">
   <table class="cmp-table prose-table">
     <thead><tr><th>方式</th><th>中身と、この記事の機種</th></tr></thead>
     <tbody>
       <tr><td><strong>過熱水蒸気で焼く（ウォーターオーブン）</strong></td><td><strong>水を100℃より高く熱した蒸気そのもので焼く</strong><span class="cell-sub">シャープは、230℃のとき過熱水蒸気は熱風の約8倍の熱量を持つと説明している。ヘルシオ AX-RS1D</span></td></tr>
-      <tr><td><strong>タンク式のスチーム＋過熱水蒸気</strong></td><td><strong>給水タンクの水で蒸す・過熱水蒸気で焼くを選べる</strong><span class="cell-sub">ビストロ NE-UBS10E（タンク650mL・低温スチーム60〜95℃）・石窯ドーム ER-D5000C（過熱水蒸気100〜300℃）・ヘルシーシェフ MRO-W1E（ボイラー熱風式）・アイリスオーヤマ MS-F3002-B（過熱水蒸気）</span></td></tr>
+      <tr><td><strong>タンク式のスチーム＋過熱水蒸気</strong></td><td><strong>給水タンクの水で蒸す・過熱水蒸気で焼くを選べる</strong><span class="cell-sub">ビストロ NE-UBS10E（タンク650mL・低温スチーム60〜95℃）・石窯ドーム ER-D5000C（過熱水蒸気100〜300℃）・ヘルシーシェフ MRO-W1E（ボイラー熱風式）</span></td></tr>
       <tr><td><strong>カップ式のスチーム</strong></td><td><strong>スチームカップに水を入れて、ヒーターと一緒に使う</strong><span class="cell-sub">シャープ RE-WF277（公式の表記は「スチーム＋ヒーター加熱（スチームカップ式）」）。タンクを洗う手間が無い</span></td></tr>
       <tr><td><strong>スチームなし</strong></td><td><strong>あたため・トースト・オーブンだけ</strong><span class="cell-sub">パナソニック NE-FS3E（上下ヒーター・250℃）</span></td></tr>
     </tbody>
   </table>
 </div>
+
+<p class="source-note">18Lのアイリスオーヤマ MO-F1808-B は、公式が「角皿を使ってスチーム調理ができるので蒸し料理もできる」と書いている。水をタンクに入れるのかカップに入れるのかは、公式の製品ページには書いていない。</p>
 
 ### スチームが効くのは、この3つ
 
@@ -139,20 +142,21 @@ references:
   <div class="num-row"><span class="num-label">ヘルシーシェフ MRO-W1E</span><span class="num-track"><span class="num-fill" style="--w:89%"></span></span><span class="num-value">310℃</span></div>
   <div class="num-row"><span class="num-label">ヘルシオ AX-RS1D</span><span class="num-track"><span class="num-fill" style="--w:86%"></span></span><span class="num-value">300℃</span></div>
   <div class="num-row"><span class="num-label">ビストロ NE-UBS10E</span><span class="num-track"><span class="num-fill" style="--w:86%"></span></span><span class="num-value">300℃</span></div>
-  <div class="num-row"><span class="num-label">アイリス MS-F3002-B</span><span class="num-track"><span class="num-fill" style="--w:86%"></span></span><span class="num-value">300℃</span></div>
   <div class="num-row"><span class="num-label">RE-WF277</span><span class="num-track"><span class="num-fill" style="--w:71%"></span></span><span class="num-value">250℃</span></div>
   <div class="num-row"><span class="num-label">NE-FS3E</span><span class="num-track"><span class="num-fill" style="--w:71%"></span></span><span class="num-value">250℃</span></div>
+  <div class="num-row"><span class="num-label">アイリス MO-F1808-B</span><span class="num-track"><span class="num-fill" style="--w:71%"></span></span><span class="num-value">250℃</span></div>
 </div>
 <p class="num-note">いちばん高い温度は数分だけで、そのあと自動で下がる（AX-RS1D は240℃以上が約5分で230℃に、NE-UBS10E は300℃が5分で230℃に）。棒の長さは350℃を100%にした割合。</p>
 
 ## 置けるか｜高さは「本体＋上の隙間」
 
-**上の隙間を公式が書いている6台は、どれも左右と後ろを壁にピッタリ置ける**。差が出るのは**上**。公式は「上方◯cm以上あけて」と書いていて、置き場所の上に棚がある家は、**本体の高さにこの隙間を足した高さ**が要る。
+**上の隙間を公式が書いている7台のうち、6台は左右と後ろを壁にピッタリ置ける**。残るアイリスオーヤマ MO-F1808-B は、取扱説明書で「上・後ろ・左・右に10cm以上、上後左右のいずれか1面は開放」と決めている。差が出るのは**上**。公式は「上方◯cm以上あけて」と書いていて、置き場所の上に棚がある家は、**本体の高さにこの隙間を足した高さ**が要る。
 
 <div class="cmp-table-wrap">
   <table class="cmp-table prose-table">
     <thead><tr><th>機種（容量）</th><th>要る高さ＝本体＋上の隙間</th></tr></thead>
     <tbody>
+      <tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/oven-range-comparison-2026/logos/iris.png" alt="" loading="lazy" /><a href="https://www.irisohyama.co.jp/products/electrical-appliances/cooking-appliances/microwave-microwave-oven/steam-oven/steam-oven-18l" target="_blank" rel="noopener">MO-F1808-B（18L）</a></span></td><td><strong>430mm</strong><span class="cell-sub">330mm＋100mm。ただし左右・後ろにも10cm以上（いずれか1面は開放）</span></td></tr>
       <tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/oven-range-comparison-2026/logos/panasonic.png" alt="" loading="lazy" /><a href="https://panasonic.jp/range/products/NE-FS3E/spec.html" target="_blank" rel="noopener">NE-FS3E（23L）</a></span></td><td><strong>438mm</strong><span class="cell-sub">338mm＋100mm</span></td></tr>
       <tr class="recommended"><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/oven-range-comparison-2026/logos/panasonic.png" alt="" loading="lazy" /><a href="https://panasonic.jp/range/products/NE-UBS10E/spec.html" target="_blank" rel="noopener">NE-UBS10E（30L）</a></span></td><td><strong>450mm</strong><span class="cell-sub">370mm＋80mm。上の隙間が分かる30Lでいちばん低い</span></td></tr>
       <tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/oven-range-comparison-2026/logos/sharp.png" alt="" loading="lazy" /><a href="https://jp.sharp/range/products/axrs1d/spec/" target="_blank" rel="noopener">AX-RS1D（30L）</a></span></td><td><strong>470mm</strong><span class="cell-sub">390mm（蒸気ダクトを含む）＋80mm</span></td></tr>
@@ -169,7 +173,7 @@ references:
 </figure>
 
 <div class="hakkako-says">
-  <div class="hakkako-quote">メジャーで測るのは<strong>「置く台から上の棚の下まで」</strong>。30Lにしたいなら<strong>450mm</strong>あればビストロ NE-UBS10E、<strong>490mm</strong>あればこの表のどれでも置ける。幅は7台とも465〜500mmだから、50cmあれば足りるわよ。</div>
+  <div class="hakkako-quote">メジャーで測るのは<strong>「置く台から上の棚の下まで」</strong>。30Lにしたいなら<strong>450mm</strong>あればビストロ NE-UBS10E、<strong>490mm</strong>あればこの表のどれでも置ける。幅は7台とも455〜500mmだから、50cmあれば足りるわよ。</div>
 </div>
 
 ### 扉を開けたときの奥行｜62〜72cm
@@ -190,7 +194,7 @@ references:
   </table>
 </div>
 
-<p class="source-note">出典：各社の公式の仕様表と寸法図（<a href="https://jp.sharp/range/products/axrs1d/spec/" target="_blank" rel="noopener">AX-RS1D</a>・<a href="https://jp.sharp/range/products/rewf277/spec/" target="_blank" rel="noopener">RE-WF277</a>・<a href="https://panasonic.jp/range/products/NE-UBS10E/spec.html" target="_blank" rel="noopener">NE-UBS10E</a>・<a href="https://panasonic.jp/range/products/NE-FS3E/spec.html" target="_blank" rel="noopener">NE-FS3E</a>・<a href="https://www.toshiba-lifestyle.com/jp/microwaves/er-d5000c/spec" target="_blank" rel="noopener">ER-D5000C</a>・<a href="https://kadenfan.hitachi.co.jp/range/lineup/mro-w1e/spec.html" target="_blank" rel="noopener">MRO-W1E</a>）。</p>
+<p class="source-note">出典：各社の公式の仕様表と寸法図（<a href="https://jp.sharp/range/products/axrs1d/spec/" target="_blank" rel="noopener">AX-RS1D</a>・<a href="https://jp.sharp/range/products/rewf277/spec/" target="_blank" rel="noopener">RE-WF277</a>・<a href="https://panasonic.jp/range/products/NE-UBS10E/spec.html" target="_blank" rel="noopener">NE-UBS10E</a>・<a href="https://panasonic.jp/range/products/NE-FS3E/spec.html" target="_blank" rel="noopener">NE-FS3E</a>・<a href="https://www.toshiba-lifestyle.com/jp/microwaves/er-d5000c/spec" target="_blank" rel="noopener">ER-D5000C</a>・<a href="https://kadenfan.hitachi.co.jp/range/lineup/mro-w1e/spec.html" target="_blank" rel="noopener">MRO-W1E</a>・<a href="https://www.irisohyama.co.jp/products/electrical-appliances/cooking-appliances/microwave-microwave-oven/steam-oven/steam-oven-18l" target="_blank" rel="noopener">MO-F1808-B</a>（隙間は公式ページの取扱説明書）。MO-F1808-B は扉を開けたときの奥行を公式が書いていないので、奥行の表には入れていない。</p>
 
 ### 重さと、置く台の注意
 
@@ -199,10 +203,10 @@ references:
 <div class="num-grid">
   <div class="num-row is-top"><span class="num-label">ER-D5000C</span><span class="num-track"><span class="num-fill" style="--w:100%"></span></span><span class="num-value">約23kg</span></div>
   <div class="num-row"><span class="num-label">AX-RS1D</span><span class="num-track"><span class="num-fill" style="--w:91%"></span></span><span class="num-value">約21kg</span></div>
-  <div class="num-row"><span class="num-label">アイリス MS-F3002-B</span><span class="num-track"><span class="num-fill" style="--w:91%"></span></span><span class="num-value">21.0kg</span></div>
   <div class="num-row"><span class="num-label">NE-UBS10E</span><span class="num-track"><span class="num-fill" style="--w:86%"></span></span><span class="num-value">約19.7kg</span></div>
   <div class="num-row"><span class="num-label">MRO-W1E</span><span class="num-track"><span class="num-fill" style="--w:78%"></span></span><span class="num-value">約18.0kg</span></div>
   <div class="num-row"><span class="num-label">NE-FS3E</span><span class="num-track"><span class="num-fill" style="--w:66%"></span></span><span class="num-value">15.2kg</span></div>
+  <div class="num-row"><span class="num-label">アイリス MO-F1808-B</span><span class="num-track"><span class="num-fill" style="--w:61%"></span></span><span class="num-value">14.0kg</span></div>
   <div class="num-row"><span class="num-label">RE-WF277</span><span class="num-track"><span class="num-fill" style="--w:57%"></span></span><span class="num-value">約13kg</span></div>
 </div>
 <p class="num-note">棒の長さは23kgを100%にした割合。</p>
@@ -211,7 +215,7 @@ references:
 
 <div data-shop-table="oven-range"></div>
 
-### 30Lの5台を、自動メニューと2段で並べる
+### 30Lの4台を、自動メニューと2段で並べる
 
 <div class="cmp-table-wrap">
   <table class="cmp-table prose-table">
@@ -221,7 +225,6 @@ references:
       <tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/oven-range-comparison-2026/logos/hitachi.png" alt="" loading="lazy" /><a href="https://kadenfan.hitachi.co.jp/range/lineup/mro-w1e/spec.html" target="_blank" rel="noopener">MRO-W1E</a></span></td><td><strong>250・2段熱風コンベクション</strong><span class="cell-sub">冷凍・冷蔵・常温を組み合わせて最大4品を一度にあたためる</span></td></tr>
       <tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/oven-range-comparison-2026/logos/sharp.png" alt="" loading="lazy" /><a href="https://jp.sharp/range/products/axrs1d/spec/" target="_blank" rel="noopener">AX-RS1D</a></span></td><td><strong>150・2段熱風コンベクション</strong><span class="cell-sub">過熱水蒸気で焼く。生成AIで調理の相談ができる「クックトーク」に対応</span></td></tr>
       <tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/oven-range-comparison-2026/logos/toshiba.png" alt="" loading="lazy" /><a href="https://www.toshiba-lifestyle.com/jp/microwaves/er-d5000c/function" target="_blank" rel="noopener">ER-D5000C</a></span></td><td><strong>126・熱風2段</strong><span class="cell-sub">最高350℃。味を付けて並べるだけの2段同時調理「石窯おまかせ焼き」</span></td></tr>
-      <tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/oven-range-comparison-2026/logos/iris.png" alt="" loading="lazy" /><a href="https://www.irisohyama.co.jp/products/electrical-appliances/cooking-appliances/microwave-microwave-oven/steam-oven/convection-steam-oven-30" target="_blank" rel="noopener">MS-F3002-B</a></span></td><td><strong>レシピ108・2段コンベクション</strong><span class="cell-sub">出力と時間を決めて「時短」を押すと自動で強い出力に切り換える「時短ブースト」</span></td></tr>
     </tbody>
   </table>
 </div>
@@ -292,7 +295,7 @@ references:
   </table>
 </div>
 
-**30Lを低い棚の下に置きたい人の第一候補**。本体の高さ370mmは30Lの5台でいちばん低く、上8cmで450mmに収まる。新しい「おまかせグリル＆スープ」は、マイクロ波で熱くなるヒートグリル皿を上段に、スープを下に入れて、1人分から2品を一度に仕上げる。自動メニューは7台で最多の308。スチームはタンク式で、60〜95℃の低温スチームも使える。
+**30Lを低い棚の下に置きたい人の第一候補**。本体の高さ370mmは30Lの4台でいちばん低く、上8cmで450mmに収まる。新しい「おまかせグリル＆スープ」は、マイクロ波で熱くなるヒートグリル皿を上段に、スープを下に入れて、1人分から2品を一度に仕上げる。自動メニューは7台で最多の308。スチームはタンク式で、60〜95℃の低温スチームも使える。
 
 <div class="real-photos cols-2">
 <figure class="rn-figure">
@@ -436,29 +439,30 @@ references:
 
 <div data-shop-card="oven-range:sharp-re-wf277"></div>
 
-<h3 class="brand-h" id="ms-f3002"><img class="brand-logo" src="/images/oven-range-comparison-2026/logos/iris.png" alt="アイリスオーヤマのロゴ" loading="lazy" /><span>アイリスオーヤマ コンベクションスチームオーブンレンジ MS-F3002-B｜過熱水蒸気・2段・30L</span></h3>
+<h3 class="brand-h" id="mo-f1808"><img class="brand-logo" src="/images/oven-range-comparison-2026/logos/iris.png" alt="アイリスオーヤマのロゴ" loading="lazy" /><span>アイリスオーヤマ スチームオーブンレンジ MO-F1808-B｜18L・高さ330mm・14.0kg</span></h3>
 
 <figure class="rn-figure">
-  <img src="/images/oven-range-comparison-2026/photos/iris-ms-f3002.jpg" alt="木目調のハンドルが付いた黒いオーブンレンジ MS-F3002-B" loading="lazy" />
-  <figcaption>MS-F3002-B（木目調のハンドル）。<cite>出典：<a href="https://www.irisohyama.co.jp/products/electrical-appliances/cooking-appliances/microwave-microwave-oven/steam-oven/convection-steam-oven-30" target="_blank" rel="noopener">アイリスオーヤマ 公式</a></cite></figcaption>
+  <img src="/images/oven-range-comparison-2026/photos/iris-mo-f1808.jpg" alt="黒いスチームオーブンレンジ MO-F1808-B。操作パネルが扉の下にある" loading="lazy" />
+  <figcaption>MO-F1808-B（ブラック）。操作パネルは扉の下。<cite>出典：<a href="https://www.irisohyama.co.jp/products/electrical-appliances/cooking-appliances/microwave-microwave-oven/steam-oven/steam-oven-18l" target="_blank" rel="noopener">アイリスオーヤマ 公式</a></cite></figcaption>
 </figure>
 
 <div class="cmp-table-wrap">
   <table class="cmp-table spec-table">
     <tbody>
-      <tr><th>スチーム</th><td>過熱水蒸気（スチームヒーター1,350W）</td></tr>
-      <tr><th>総庫内容量</th><td>約30L（2段調理のコンベクションオーブン）</td></tr>
-      <tr><th>オーブン</th><td>100〜300℃・発酵（35・40・45℃）</td></tr>
-      <tr><th>レシピ数</th><td>108</td></tr>
-      <tr><th>大きさ・重さ</th><td>幅493×奥行438×高さ380mm（ハンドル・突出部を除く）・21.0kg</td></tr>
-      <tr><th>センサー</th><td>64眼センサー</td></tr>
+      <tr><th>スチーム</th><td>角皿を使ってスチーム調理（蒸し料理）</td></tr>
+      <tr><th>総庫内容量</th><td>約18L（フラット）・加熱室は約幅355×奥行295×高さ165mm</td></tr>
+      <tr><th>オーブン</th><td>40℃（発酵）・110〜250℃</td></tr>
+      <tr><th>レンジ</th><td>900W・600W・500W・200W相当</td></tr>
+      <tr><th>自動メニュー</th><td>20</td></tr>
+      <tr><th>大きさ・重さ</th><td>幅455×奥行375×高さ330mm・14.0kg</td></tr>
+      <tr><th>置き方</th><td>上・後ろ・左・右に10cm以上。上後左右のいずれか1面は開放（取扱説明書）</td></tr>
     </tbody>
   </table>
 </div>
 
-**過熱水蒸気と2段のオーブンがほしいけれど、大手4社の上位機ほどの機能は要らない人向け**。30L・2段・300℃・過熱水蒸気と、30Lの上位機と同じ骨組みを持つ。出力と時間を決めて「時短」ボタンを押すと、自動で強い出力に切り換える「時短ブースト」も付く。本体は高さ380mm・21.0kg。上にあける寸法は、置く前に取扱説明書（公式ページからPDFで読める）で確かめて。2026年11月22日に楽天市場とAmazonを型番で探したときは見つけにくかったので、買うならアイリスオーヤマの公式ページから。
+**一人暮らし・2人暮らしで、置き場所をできるだけ小さくしたい人向け**。この記事でただ1台の18Lで、本体は幅455×奥行375×高さ330mmと7台でいちばん小さく、上に10cm足しても430mm。重さも14.0kgで、30Lの機種（約18〜23kg）より軽い。公式によると、操作パネルを扉の下に置いたぶん横幅を広く使えて、庫内がフラットなので大きなコンビニ弁当も温められる。20の自動メニューには、ゆで野菜・唐揚げ・ケーキがあり、角皿を使えば蒸し料理もできる。気をつけたいのは置き方で、**ほかの6台と違って左右と後ろにも10cm以上あけ、上後左右のどこか1面を開けておく**決まり（取扱説明書）。三方を壁に囲まれた棚の奥に押し込む置き方はできないので、置く前に左右も測って。
 
-<div class="yt-embed"><iframe src="https://www.youtube-nocookie.com/embed/pHMleYrxwiU" title="【レンジ・オーブンこれ一台！】コンベクションスチームオーブンレンジ  MS-F3002-B　おすすめポイント" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe></div>
+<div data-shop-card="oven-range:iris-mo-f1808"></div>
 
 <h3 class="brand-h" id="ne-fs3e"><img class="brand-logo" src="/images/oven-range-comparison-2026/logos/panasonic.png" alt="パナソニックのロゴ" loading="lazy" /><span>パナソニック オーブンレンジ NE-FS3E｜スチームなし・23L</span></h3>
 
@@ -480,7 +484,7 @@ references:
   </table>
 </div>
 
-**スチームの3つ（しっとり焼く・蒸す/発酵・冷凍と冷蔵を一緒に）を使わない人は、これで足りる**。高さ338mm・上10cmで438mm、扉を開けても621mmと、7台で最も場所を取らない。湿度センサー（絶対湿度センサー）であたため、グリルは遠赤Wヒーター。レンジの1000Wは約3分の短時間で、そのあと600Wに切り換わる。
+**スチームの3つ（しっとり焼く・蒸す/発酵・冷凍と冷蔵を一緒に）を使わない人は、これで足りる**。高さ338mm・上10cmで438mm、扉を開けても621mmと、23L以上の6台で最も場所を取らない。湿度センサー（絶対湿度センサー）であたため、グリルは遠赤Wヒーター。レンジの1000Wは約3分の短時間で、そのあと600Wに切り換わる。
 
 <div data-shop-card="oven-range:panasonic-ne-fs3e"></div>
 
@@ -511,6 +515,7 @@ Xで「オーブンレンジ」の買い替えの話を読むと、言われて�
       <tr><td><strong>夕食のあたためが毎日ばらばら</strong></td><td><strong><a href="https://kadenfan.hitachi.co.jp/range/lineup/mro-w1e/" target="_blank" rel="noopener">ヘルシーシェフ MRO-W1E</a></strong><span class="cell-sub">温度のちがう最大4品を一度にあたためる</span></td></tr>
       <tr><td><strong>上の棚まで低いが30Lがほしい</strong></td><td><strong><a href="https://panasonic.jp/range/products/NE-UBS10E.html" target="_blank" rel="noopener">ビストロ NE-UBS10E</a></strong><span class="cell-sub">30Lで要る高さ450mm。自動メニュー308</span></td></tr>
       <tr><td><strong>奥行の浅い棚・軽さ優先</strong></td><td><strong><a href="https://jp.sharp/range/products/rewf277/" target="_blank" rel="noopener">シャープ RE-WF277</a></strong><span class="cell-sub">奥行385mm・約13kg。高さは490mm要る</span></td></tr>
+      <tr><td><strong>一人暮らし・置き場所を小さくしたい</strong></td><td><strong><a href="https://www.irisohyama.co.jp/products/electrical-appliances/cooking-appliances/microwave-microwave-oven/steam-oven/steam-oven-18l" target="_blank" rel="noopener">アイリスオーヤマ MO-F1808-B</a></strong><span class="cell-sub">18L・幅455×高さ330mm・14.0kg。左右と後ろにも10cm要る</span></td></tr>
     </tbody>
   </table>
 </div>
@@ -540,7 +545,7 @@ Xで「オーブンレンジ」の買い替えの話を読むと、言われて�
       <tr><th>スチームなしのオーブンレンジで困ることは？</th><td>あたため・トースト・オーブン（250℃まで）はできる。できないのは、過熱水蒸気で焼く・蒸す・スチーム発酵。焼き魚や鶏肉をしっとり焼きたい、パンを生地から焼く、という予定が無ければ困らない。</td></tr>
       <tr><th>30Lのオーブンレンジを置くのに、上はどれくらいあける？</th><td>上の隙間を公式が書いている30Lの4台は、上に8〜10cm（ビストロ NE-UBS10E とヘルシオ AX-RS1D は8cm、石窯ドーム ER-D5000C は9cm、ヘルシーシェフ MRO-W1E は10cm）。本体の高さを足すと450〜489mm要る。左右と後ろは4台とも壁にピッタリ置ける。</td></tr>
       <tr><th>冷蔵庫の上に置ける？</th><td>日立は MRO-W1E の仕様のページで「冷蔵庫などの上に置く場合は耐熱100℃以上かを確認」と書いている。冷蔵庫の天板の耐熱と、上の隙間（天井や棚まで）を両方確かめて。</td></tr>
-      <tr><th>2段調理は何がいい？</th><td>天板2枚ぶんを一度に焼ける。クッキーやシュー、ローストチキンと付け合わせを同時に作れる。この記事では AX-RS1D・NE-UBS10E・ER-D5000C・MRO-W1E・アイリスオーヤマ MS-F3002-B の5台が2段のオーブン。</td></tr>
+      <tr><th>2段調理は何がいい？</th><td>天板2枚ぶんを一度に焼ける。クッキーやシュー、ローストチキンと付け合わせを同時に作れる。この記事では AX-RS1D・NE-UBS10E・ER-D5000C・MRO-W1E の4台が2段のオーブン。</td></tr>
     </tbody>
   </table>
 </div>
