@@ -1,0 +1,140 @@
+{
+  "id": "facial-device",
+  "title": "美顔器（EMS・RF・イオンの方式の違いと、毎日続けられる使用時間・専用ジェルの費用）",
+  "_note": "仕様・価格は各社の公式ページとプレスリリースだけ（2026-11-22 確認）。効果は各社の表示の範囲だけ書く（薬機法・景品表示法）。ヤーマンは ops/tasks/t950 で公式ページを読んだ",
+  "columns": [
+    { "key": "price", "label": "公式の価格" },
+    { "key": "method", "label": "方式" },
+    { "key": "time", "label": "1回の時間・頻度（公式）" },
+    { "key": "gel", "label": "ジェル" }
+  ],
+  "pricesCheckedAt": null,
+  "items": [
+    {
+      "id": "panasonic-eh-sr90",
+      "brand": "パナソニック",
+      "name": "バイタリフト RF LUXE EH-SR90",
+      "badge": "RF・EMS・イオン・LEDの4つ",
+      "summary": "6MHzのRF・EMS・イオン・赤色LEDの4つを5モードで使い分ける。2026年11月上旬の新製品。",
+      "recommended": true,
+      "specs": {
+        "price": "99,000円（メーカー希望小売価格）",
+        "method": "RF（1〜6MHz）・EMS・イオン・赤色LED",
+        "time": "スペシャルケア約6分を週2〜3回／デイリーケア約3分を1日1回",
+        "gel": "専用ジェル EH-4R06（100g・3,410円）。手持ちの化粧品も可"
+      },
+      "source": "https://panasonic.jp/face/products/EH-SR90.html",
+      "rakuten": { "keyword": "パナソニック バイタリフト RF LUXE EH-SR90", "must": ["EH-SR90"], "exclude": ["中古", "◆", "並行輸入", "ジェル", "交換", "コットンリング", "カバー", "ケース", "専用"] },
+      "yahoo": { "keyword": "パナソニック バイタリフト RF LUXE EH-SR90", "must": ["EH-SR90"], "exclude": ["中古", "◆", "並行輸入", "ジェル", "交換", "コットンリング", "カバー", "ケース", "専用"] },
+      "amazon": { "keyword": "パナソニック バイタリフト RF LUXE EH-SR90", "asin": null }
+    },
+    {
+      "id": "panasonic-eh-ss85",
+      "brand": "パナソニック",
+      "name": "イオンブースト マルチ EX EH-SS85",
+      "badge": "いつもの化粧品で毎日",
+      "summary": "イオンで化粧品を角層まで届ける美顔器。EMSも付き、1モード2〜3分から使える。ジェルは要らない。",
+      "recommended": false,
+      "specs": {
+        "price": "59,400円（パナソニックの製品ページの価格）",
+        "method": "イオン（導入・導出）・EMS・冷却",
+        "time": "1モード2〜3分・5モードのフルコースで15分",
+        "gel": "不要（いつもの化粧水・美容液・クリームで使う）"
+      },
+      "source": "https://panasonic.jp/face/products/EH-SS85.html",
+      "rakuten": { "keyword": "パナソニック イオンブースト マルチ EX EH-SS85", "must": ["EH-SS85"], "exclude": ["中古", "◆", "並行輸入", "コットンリング", "交換", "カバー", "ケース", "専用"] },
+      "yahoo": { "keyword": "パナソニック イオンブースト マルチ EX EH-SS85", "must": ["EH-SS85"], "exclude": ["中古", "◆", "並行輸入", "コットンリング", "交換", "カバー", "ケース", "専用"] },
+      "amazon": { "keyword": "パナソニック イオンブースト マルチ EX EH-SS85", "asin": null }
+    },
+    {
+      "id": "yaman-deep-lift-duo",
+      "brand": "ヤーマン",
+      "name": "ディープリフト デュオ YJFA1P",
+      "badge": "温と冷を1台で",
+      "summary": "RF（0.5〜8MHz）で温める「温リフト」と、冷やしながらEMSを流す「冷リフト」を切り替える。2026年11月上旬の新製品。",
+      "recommended": false,
+      "specs": {
+        "price": "99,000円（ヤーマン公式）",
+        "method": "RF（0.5〜8MHz）・EMS・冷却",
+        "time": "確認中",
+        "gel": "確認中"
+      },
+      "source": "https://www.ya-man.com/",
+      "rakuten": { "keyword": "ヤーマン ディープリフト デュオ YJFA1P", "must": ["YJFA1P"], "exclude": ["中古", "◆", "並行輸入", "ジェル", "交換", "カバー", "ケース", "専用"] },
+      "yahoo": { "keyword": "ヤーマン ディープリフト デュオ YJFA1P", "must": ["YJFA1P"], "exclude": ["中古", "◆", "並行輸入", "ジェル", "交換", "カバー", "ケース", "専用"] },
+      "amazon": { "keyword": "ヤーマン ディープリフト デュオ YJFA1P", "asin": null }
+    },
+    {
+      "id": "yaman-finger-lifttouch",
+      "brand": "ヤーマン",
+      "name": "フィンガーリフタッチ YJMD2",
+      "badge": "指にはめる",
+      "summary": "人差し指と親指にはめて使う指型の美顔器。2026年9月4日の新製品。",
+      "recommended": false,
+      "specs": {
+        "price": "33,000円（ヤーマン公式）",
+        "method": "確認中",
+        "time": "確認中",
+        "gel": "確認中"
+      },
+      "source": "https://www.ya-man.com/",
+      "rakuten": { "keyword": "ヤーマン フィンガーリフタッチ YJMD2", "must": ["YJMD2"], "exclude": ["中古", "◆", "並行輸入", "ジェル", "交換", "カバー", "ケース", "専用"] },
+      "yahoo": { "keyword": "ヤーマン フィンガーリフタッチ YJMD2", "must": ["YJMD2"], "exclude": ["中古", "◆", "並行輸入", "ジェル", "交換", "カバー", "ケース", "専用"] },
+      "amazon": { "keyword": "ヤーマン フィンガーリフタッチ YJMD2", "asin": null }
+    },
+    {
+      "id": "refa-derma-heat",
+      "brand": "ReFa（MTG）",
+      "name": "リファダーマヒート RE-AM-03A",
+      "badge": "温めながら表面は冷やす",
+      "summary": "高周波の熱を送りながら、肌の表面はペルチェで冷やす。コンセントにつないで使う。",
+      "recommended": false,
+      "specs": {
+        "price": "77,000円（ReFa公式）",
+        "method": "高周波（RF）の温熱・ペルチェ冷却・赤色LED",
+        "time": "公式の使用レポートは2日に1回",
+        "gel": "リファスムースジェル（200mL・2,000円）"
+      },
+      "source": "https://www.refa.net/item/refa_derma_heat/",
+      "rakuten": { "keyword": "リファ ダーマヒート RE-AM-03A", "must": ["ダーマヒート"], "exclude": ["中古", "◆", "並行輸入", "ジェル", "交換", "カバー", "ケース", "専用"] },
+      "yahoo": { "keyword": "リファ ダーマヒート RE-AM-03A", "must": ["ダーマヒート"], "exclude": ["中古", "◆", "並行輸入", "ジェル", "交換", "カバー", "ケース", "専用"] },
+      "amazon": { "keyword": "ReFa DERMA HEAT リファダーマヒート", "asin": null }
+    },
+    {
+      "id": "refa-carat-lift",
+      "brand": "ReFa（MTG）",
+      "name": "リファカラットリフト RR-AT-02A",
+      "badge": "転がすローラー＋EMS",
+      "summary": "ReFaで初めてEMSを載せたローラー。顔と体のモードがある。ジェルは要らない。",
+      "recommended": false,
+      "specs": {
+        "price": "30,800円（ReFa公式）",
+        "method": "EMS（20Hz）・マイクロカレント・ローラー",
+        "time": "確認中",
+        "gel": "不要"
+      },
+      "source": "https://www.refa.net/item/refa_carat_lift/",
+      "rakuten": { "keyword": "リファカラットリフト", "must": ["カラットリフト"], "exclude": ["中古", "◆", "並行輸入", "交換", "カバー", "ケース", "専用", "スタンド"] },
+      "yahoo": { "keyword": "リファカラットリフト", "must": ["カラットリフト"], "exclude": ["中古", "◆", "並行輸入", "交換", "カバー", "ケース", "専用", "スタンド"] },
+      "amazon": { "keyword": "ReFa CARAT LIFT リファカラットリフト", "asin": null }
+    },
+    {
+      "id": "salonia-ems-lift-brush",
+      "brand": "SALONIA",
+      "name": "SALONIA EMSリフトブラシ",
+      "badge": "3万円以下・顔と頭皮",
+      "summary": "ピンの付いたブラシ型。顔・頭皮・体の3モードで、温感つき。",
+      "recommended": false,
+      "specs": {
+        "price": "27,500円（SALONIA公式）",
+        "method": "EMS・温感",
+        "time": "確認中",
+        "gel": "確認中"
+      },
+      "source": "https://salonia.jp/product/skin/facecare/ems/",
+      "rakuten": { "keyword": "サロニア EMSリフトブラシ", "must": ["リフトブラシ"], "exclude": ["中古", "◆", "並行輸入", "3D", "交換", "カバー", "ケース", "専用", "ドライヤー"] },
+      "yahoo": { "keyword": "サロニア EMSリフトブラシ", "must": ["リフトブラシ"], "exclude": ["中古", "◆", "並行輸入", "3D", "交換", "カバー", "ケース", "専用", "ドライヤー"] },
+      "amazon": { "keyword": "SALONIA EMSリフトブラシ", "asin": null }
+    }
+  ]
+}
