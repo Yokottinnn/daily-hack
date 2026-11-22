@@ -1,7 +1,7 @@
 {
   "id": "shaver-blade",
   "title": "電動シェーバーの替刃（3店の値段と、公式の値段・交換の目安）",
-  "_note": "対応する本体・交換の目安・公式の値段は各社の公式ページで 2026-11-22 に確かめたもの。パナソニックは Panasonic Store Plus（公式通販）の価格。ブラウンとフィリップスの替刃は公式に価格の記載がない。3店の値段は楽天市場・Yahoo!ショッピングの API が毎日書く。純正でない互換品は入れていない。Amazon の ASIN は ops/tasks/t1062 で題名に型番があり広告枠でない純正品。F/C96M は互換品しか出なかったので検索リンクのまま。",
+  "_note": "対応する本体・交換の目安・公式の値段は各社の公式ページで 2026-11-22 に確かめたもの。パナソニックは Panasonic Store Plus（公式通販）の価格。ブラウンとフィリップスの替刃は公式に価格の記載がない。3店の値段は楽天市場・Yahoo!ショッピングの API が毎日書く。純正でない互換品は入れていない。Amazon の ASIN は ops/tasks/t1062 で題名に型番があり広告枠でない純正品。F/C96M は互換品しか出なかったので検索リンクのまま。2026-11-23 に 70-N1200s 用として入れていた F/C70B-3 を外した（70-N1200s に合う替刃を公式で確かめられなかったため）。",
   "columns": [
     { "key": "fits", "label": "この記事で使う本体" },
     { "key": "cycle", "label": "交換の目安（公式）" },
@@ -19,17 +19,6 @@
       "rakuten": { "keyword": "ブラウン 替刃 F/C96M", "must": ["96M"], "exclude": ["互換", "対応", "中古", "◆", "並行輸入"] },
       "yahoo": { "keyword": "ブラウン 替刃 F/C96M", "must": ["96M"], "exclude": ["互換", "対応", "中古", "◆", "並行輸入"] },
       "amazon": { "keyword": "ブラウン 替刃 F/C96M", "asin": null }
-    },
-    {
-      "id": "braun-fc70b",
-      "brand": "ブラウン",
-      "name": "Series7用 網刃・内刃一体型カセット F/C70B-3",
-      "badge": "シリーズ7（70-）用",
-      "specs": { "fits": "密着シリーズ7 70-N1200s", "cycle": "18か月に一度", "official": "記載なし" },
-      "source": "https://www.braun.jp/ja-jp/male-grooming/shavers-replacement-parts",
-      "rakuten": { "keyword": "ブラウン 替刃 F/C70B-3", "must": ["70B"], "exclude": ["互換", "対応", "中古", "◆", "並行輸入"] },
-      "yahoo": { "keyword": "ブラウン 替刃 F/C70B-3", "must": ["70B"], "exclude": ["互換", "対応", "中古", "◆", "並行輸入"] },
-      "amazon": { "keyword": "ブラウン 替刃 F/C70B-3", "asin": "B00DVDIRXU" }
     },
     {
       "id": "panasonic-es9610",

@@ -159,7 +159,7 @@ references:
       <tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/electric-shaver-comparison-2026/logos/panasonic.png" alt="" loading="lazy" /><a href="https://panasonic.jp/consumables/products/ES9092.html" target="_blank" rel="noopener">ES-L382W の外刃と内刃</a></span></td><td><strong>外刃 5,170円（約1年）＋内刃 2,970円（約2年）→ 年6,655円</strong><span class="cell-sub">外刃と内刃のセット替刃 ES9310 は7,700円。毎年セットで替えると年7,700円になる</span></td></tr>
       <tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/electric-shaver-comparison-2026/logos/panasonic.png" alt="" loading="lazy" /><a href="https://panasonic.jp/consumables/products/ES9610.html" target="_blank" rel="noopener">ES-L690U の一体型セット替刃 ES9610</a></span></td><td><strong>10,890円（約1.5年）→ 年7,260円</strong><span class="cell-sub">外刃と内刃がひとつになった一体型。パナソニックは一体型を「使い始めから約1.5年ごと」の交換をすすめている</span></td></tr>
       <tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/electric-shaver-comparison-2026/logos/panasonic.png" alt="" loading="lazy" /><a href="https://panasonic.jp/consumables/products/ES-9S62.html" target="_blank" rel="noopener">ES-P690U の替刃 ES-9S62</a></span></td><td><strong>10,890円 → 年7,260〜10,890円</strong><span class="cell-sub">2026年9月発売。品名に「一体型」「外刃」の区別が書いておらず、どちらの目安を当てるかを公式で確かめられなかった。一体型（約1.5年）なら年7,260円、外刃（約1年）なら年10,890円</span></td></tr>
-      <tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/electric-shaver-comparison-2026/logos/braun.png" alt="" loading="lazy" /><a href="https://www.braun.jp/ja-jp/male-grooming/shavers-replacement-parts" target="_blank" rel="noopener">ブラウン F/C96M・F/C70B-3</a></span></td><td><strong>18か月に一度（値段は公式に記載なし）</strong><span class="cell-sub">「18か月に一度のシェーバーホイルとカッターブロックの交換」をすすめている。網刃と内刃が一体のカセット。値段は下の3店の表で</span></td></tr>
+      <tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/electric-shaver-comparison-2026/logos/braun.png" alt="" loading="lazy" /><a href="https://www.braun.jp/ja-jp/male-grooming/shavers-replacement-parts" target="_blank" rel="noopener">ブラウンのカセット替刃</a></span></td><td><strong>18か月に一度（値段は公式に記載なし）</strong><span class="cell-sub">「18か月に一度のシェーバーホイルとカッターブロックの交換」をすすめている。網刃と内刃が一体のカセット。シリーズ9 Pro+ 9660cc は製品ページに替刃「96M」とある。値段は下の3店の表で</span></td></tr>
       <tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/electric-shaver-comparison-2026/logos/philips.png" alt="" loading="lazy" /><a href="https://www.philips.co.jp/c-p/S7886_50/shaver-series-7000-wet-dry-electric-shaver" target="_blank" rel="noopener">フィリップス SH71</a></span></td><td><strong>2年ごと（値段は公式に記載なし）</strong><span class="cell-sub">S7886/50 と S5885/10 の技術仕様に「2年ごとに SH71 と交換」とある。値段は下の3店の表で</span></td></tr>
     </tbody>
   </table>
@@ -285,7 +285,6 @@ references:
 <div data-shop-table="shaver-blade"></div>
 
 <div data-shop-card="shaver-blade:braun-fc96m"></div>
-<div data-shop-card="shaver-blade:braun-fc70b"></div>
 <div data-shop-card="shaver-blade:panasonic-es9610"></div>
 <div data-shop-card="shaver-blade:panasonic-es-9s62"></div>
 <div data-shop-card="shaver-blade:panasonic-es9092"></div>
@@ -314,7 +313,7 @@ references:
   <figcaption>キワぞりトリマーとケースが付く。洗浄器は付かない。<cite>出典：<a href="https://www.braun.jp/ja-jp/male-grooming/shavers-for-men/series-7/series-7-70-n1200s" target="_blank" rel="noopener">ブラウン 公式サイト</a></cite></figcaption>
 </figure>
 
-**ブラウンの公式サイトの電気シェーバーのページで「ベストセラー」として出ている1台**。全方向にヘッドが動く「360°密着システム」で、あご下の剃り残しを減らす。人工知能テクノロジー付きで、フル充電で約50分、5分の急速充電で1回分。100%防水でお風呂剃りもできる。洗浄器は付かないので、水洗いでお手入れする。替刃は公式の替刃ページの「Series7 / Prosonic 用」の F/C70B-3（ブラック）。
+**ブラウンの公式サイトの電気シェーバーのページで「ベストセラー」として出ている1台**。全方向にヘッドが動く「360°密着システム」で、あご下の剃り残しを減らす。人工知能テクノロジー付きで、フル充電で約50分、5分の急速充電で1回分。100%防水でお風呂剃りもできる。洗浄器は付かないので、水洗いでお手入れする。替刃は、公式の替刃ページにシリーズ7用として「New Series7 用」（F/C74S・F/C73S）と「Series7 / Prosonic 用」（F/C70S-3Z・F/C70B-3）が並んでいて、70-N1200s がどれに当たるかは製品ページで確かめられなかった。買う前に、本体に書いてある4桁の番号でブラウンの公式の「替刃・パーツ検索」を使って確かめてほしい。
 
 <figure class="rn-figure">
   <img src="/images/electric-shaver-comparison-2026/photos/braun-70n1200s-flex.jpg" alt="ブラウン シリーズ7 の360°密着システム" loading="lazy" />
