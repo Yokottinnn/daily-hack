@@ -1,5 +1,1 @@
-[
-      {"task": "t954-verify-rakuten-facial-device.sh", "rc": 0, "out": "- 商品: 検索結果 50 件・型番「サロニア EMSリフトブラシ」の表示: あり - 題名: 【楽天市場】サロニア EMSリフトブラシの通販 - 写真: Mac の手元のみ（private-shots/shop-verify/facial-device-comparison-2026/v06-rakuten.jpg・公開しない） -rw-r--"},
-      {"task": "t955-verify-yahoo-facial-device.sh", "rc": 0, "out": "- 商品: 検索結果 14 件・型番「」の表示: — - 題名: サロニア EMSリフトブラシのおすすめ人気商品一覧 通販 - Yahoo!ショッピング - 写真: Mac の手元のみ（private-shots/shop-verify/facial-device-comparison-2026/v12-yahoo.jpg・公開しない） -rw-r-"},
-      {"task": "t956-verify-amazon-facial-device.sh", "rc": 0, "out": "- 商品: 検索結果 0 件・型番「」の表示: —・カートに入れるボタンあり - 題名: Amazon.co.jp: SALONIA サロニア 美顔器 EMS リフトブラシ シルバー 【Amazon.co.jp限定】 | SAL22206SL,EMS,電気ブラシ,美顔器 - 写真: Mac の手元のみ（private-shot"}
-  ]
+[]
