@@ -1,3 +1,5 @@
 [
-      {"task": "t1095-cellstar-spec-read.sh", "rc": 0, "out": ""}
+      {"task": "t1072-verify-rakuten-nc-headphones.sh", "rc": 0, "out": "- 商品: 検索結果 0 件・型番「」の表示: —・カートに入れるボタンあり - 題名: 【楽天市場】Anker Soundcore Space 2 (Bluetooth 6.1 ワイヤレス ヘッドホン)【最大70時間音楽再生 / ウルトラノイズキャンセリング 3.5  - 写真: Mac の手元�"},
+      {"task": "t1073-verify-yahoo-nc-headphones.sh", "rc": 0, "out": "- 商品: 検索結果 44 件・型番「Soundcore Space 2 ヘッドホン」の表示: あり - 題名: Soundcore Space 2 ヘッドホンのおすすめ人気商品一覧 通販 - Yahoo!ショッピング - 写真: Mac の手元のみ（private-shots/shop-verify/noise-cancelling-headphones-comparis"},
+      {"task": "t1074-verify-amazon-nc-headphones.sh", "rc": 0, "out": "- 商品: 検索結果 0 件・型番「」の表示: —・カートに入れるボタンあり - 題名: Amazon.co.jp: Anker Soundcore Space 2 ブラック | （Bluetooth 6.1 ワイヤレス ヘッドホン）【最大70時間音楽再生 / ウルトラ - 写真: Mac の手元のみ（private-shot"}
   ]
