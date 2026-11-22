@@ -1,0 +1,467 @@
+{
+ "id": "oven-range",
+ "title": "オーブンレンジ（スチームは要るか・キッチンに置けるか）",
+ "_note": "仕様は各社の公式の仕様表・ニュースリリース（2026-11-22 確認）の記載だけ。価格は手で書かない（apply-prices.mjs が書く）。外形寸法は幅×奥行×高さで、奥行はハンドルを含まない値（ハンドル込みは本文）。上の隙間は公式の「上方◯cm以上あけて」の値で、その6機種は左右・後ろを壁にピッタリ置ける。アイリスオーヤマは 2026-11-22 に MS-F3002-B（楽天・Amazon に型番の商品が無かった・t912）から、公式の現行一覧にあって 3 店で売っている MO-F1808-B に替えた（t990〜t995）。MO-F1808-B の上の隙間は公式の取扱説明書の値で、左右・後ろも10cm以上・いずれか1面は開放。Amazon は黒の型番どおりの商品ページが見つからなかったので検索リンク。 Amazon の ASIN は t912（scripts/shop/find-product-pages.mjs）で題名に型番が入っていたもの。AX-RS1D・RE-WF277 は型番の商品が出なかったので検索リンク。",
+ "columns": [
+  {
+   "key": "steam",
+   "label": "スチーム"
+  },
+  {
+   "key": "volume",
+   "label": "総庫内容量"
+  },
+  {
+   "key": "size",
+   "label": "幅×奥行×高さ"
+  },
+  {
+   "key": "gap",
+   "label": "上の隙間"
+  }
+ ],
+ "pricesCheckedAt": null,
+ "items": [
+  {
+   "id": "sharp-ax-rs1d",
+   "brand": "シャープ",
+   "name": "ウォーターオーブン ヘルシオ AX-RS1D",
+   "badge": "水で焼く・30L",
+   "summary": "過熱水蒸気（ヘルシオエンジン）で焼く。30L・2段熱風コンベクション。上は8cmあければ左右・後ろはピッタリ置ける。2026年6月25日発売。",
+   "recommended": true,
+   "specs": {
+    "steam": "過熱水蒸気（ヘルシオエンジン）",
+    "volume": "30L",
+    "size": "500×435×390mm",
+    "gap": "上8cm"
+   },
+   "source": "https://jp.sharp/range/products/axrs1d/spec/",
+   "rakuten": {
+    "keyword": "ヘルシオ AX-RS1D",
+    "must": [
+     "AX-RS1D"
+    ],
+    "exclude": [
+     "中古",
+     "◆",
+     "並行輸入",
+     "部品",
+     "交換",
+     "専用",
+     "対応",
+     "角皿",
+     "トレー",
+     "カバー",
+     "セット",
+     "網",
+     "アクセサリー",
+     "ケーブル"
+    ]
+   },
+   "yahoo": {
+    "keyword": "ヘルシオ AX-RS1D",
+    "must": [
+     "AX-RS1D"
+    ],
+    "exclude": [
+     "中古",
+     "◆",
+     "並行輸入",
+     "部品",
+     "交換",
+     "専用",
+     "対応",
+     "角皿",
+     "トレー",
+     "カバー",
+     "セット",
+     "網",
+     "アクセサリー",
+     "ケーブル"
+    ]
+   },
+   "amazon": {
+    "keyword": "シャープ ヘルシオ AX-RS1D",
+    "asin": null
+   }
+  },
+  {
+   "id": "panasonic-ne-ubs10e",
+   "brand": "パナソニック",
+   "name": "スチームオーブンレンジ ビストロ NE-UBS10E",
+   "badge": "グリルとスープを同時に",
+   "summary": "上段でグリル、下でスープを一度に作る「おまかせグリル＆スープ」。30L・300℃。上は8cm。2026年6月上旬発売。",
+   "recommended": false,
+   "specs": {
+    "steam": "スチーム＋過熱水蒸気（タンク650mL）",
+    "volume": "30L",
+    "size": "494×435×370mm",
+    "gap": "上8cm"
+   },
+   "source": "https://panasonic.jp/range/products/NE-UBS10E/spec.html",
+   "rakuten": {
+    "keyword": "ビストロ NE-UBS10E",
+    "must": [
+     "NE-UBS10E"
+    ],
+    "exclude": [
+     "中古",
+     "◆",
+     "並行輸入",
+     "部品",
+     "交換",
+     "専用",
+     "対応",
+     "角皿",
+     "トレー",
+     "カバー",
+     "セット",
+     "網",
+     "アクセサリー",
+     "ケーブル"
+    ]
+   },
+   "yahoo": {
+    "keyword": "ビストロ NE-UBS10E",
+    "must": [
+     "NE-UBS10E"
+    ],
+    "exclude": [
+     "中古",
+     "◆",
+     "並行輸入",
+     "部品",
+     "交換",
+     "専用",
+     "対応",
+     "角皿",
+     "トレー",
+     "カバー",
+     "セット",
+     "網",
+     "アクセサリー",
+     "ケーブル"
+    ]
+   },
+   "amazon": {
+    "keyword": "パナソニック ビストロ NE-UBS10E",
+    "asin": "B0GX52CLWK"
+   }
+  },
+  {
+   "id": "toshiba-er-d5000c",
+   "brand": "東芝",
+   "name": "過熱水蒸気オーブンレンジ 石窯ドーム ER-D5000C",
+   "badge": "350℃・パンとお菓子",
+   "summary": "熱風2段で最高350℃。2段で同時に焼く「石窯おまかせ焼き」。30L。上は9cm。2026年6月発売。",
+   "recommended": false,
+   "specs": {
+    "steam": "過熱水蒸気（100〜300℃）",
+    "volume": "30L",
+    "size": "498×399×399mm",
+    "gap": "上9cm"
+   },
+   "source": "https://www.toshiba-lifestyle.com/jp/microwaves/er-d5000c/spec",
+   "rakuten": {
+    "keyword": "石窯ドーム ER-D5000C",
+    "must": [
+     "ER-D5000C"
+    ],
+    "exclude": [
+     "中古",
+     "◆",
+     "並行輸入",
+     "部品",
+     "交換",
+     "専用",
+     "対応",
+     "角皿",
+     "トレー",
+     "カバー",
+     "セット",
+     "網",
+     "アクセサリー",
+     "ケーブル"
+    ]
+   },
+   "yahoo": {
+    "keyword": "石窯ドーム ER-D5000C",
+    "must": [
+     "ER-D5000C"
+    ],
+    "exclude": [
+     "中古",
+     "◆",
+     "並行輸入",
+     "部品",
+     "交換",
+     "専用",
+     "対応",
+     "角皿",
+     "トレー",
+     "カバー",
+     "セット",
+     "網",
+     "アクセサリー",
+     "ケーブル"
+    ]
+   },
+   "amazon": {
+    "keyword": "東芝 石窯ドーム ER-D5000C",
+    "asin": "B0HQNXS8DQ"
+   }
+  },
+  {
+   "id": "hitachi-mro-w1e",
+   "brand": "日立",
+   "name": "過熱水蒸気オーブンレンジ ヘルシーシェフ MRO-W1E",
+   "badge": "あたためを4品同時",
+   "summary": "温度のちがう最大4品を一度にあたためる「複数同時あたため」。30L・310℃・2段。上は10cm。2026年8月上旬発売。",
+   "recommended": false,
+   "specs": {
+    "steam": "過熱水蒸気（ボイラー熱風式）",
+    "volume": "30L",
+    "size": "497×442×375mm",
+    "gap": "上10cm"
+   },
+   "source": "https://kadenfan.hitachi.co.jp/range/lineup/mro-w1e/spec.html",
+   "rakuten": {
+    "keyword": "ヘルシーシェフ MRO-W1E",
+    "must": [
+     "MRO-W1E"
+    ],
+    "exclude": [
+     "中古",
+     "◆",
+     "並行輸入",
+     "部品",
+     "交換",
+     "専用",
+     "対応",
+     "角皿",
+     "トレー",
+     "カバー",
+     "セット",
+     "網",
+     "アクセサリー",
+     "ケーブル"
+    ]
+   },
+   "yahoo": {
+    "keyword": "ヘルシーシェフ MRO-W1E",
+    "must": [
+     "MRO-W1E"
+    ],
+    "exclude": [
+     "中古",
+     "◆",
+     "並行輸入",
+     "部品",
+     "交換",
+     "専用",
+     "対応",
+     "角皿",
+     "トレー",
+     "カバー",
+     "セット",
+     "網",
+     "アクセサリー",
+     "ケーブル"
+    ]
+   },
+   "amazon": {
+    "keyword": "日立 ヘルシーシェフ MRO-W1E",
+    "asin": "B0HGKLK4KV"
+   }
+  },
+  {
+   "id": "sharp-re-wf277",
+   "brand": "シャープ",
+   "name": "過熱水蒸気オーブンレンジ RE-WF277",
+   "badge": "奥行38.5cm・27L",
+   "summary": "スチームカップに水を入れて使う過熱水蒸気オーブンレンジ。27L・奥行385mm・約13kg。上は10cm。",
+   "recommended": false,
+   "specs": {
+    "steam": "スチームカップ式",
+    "volume": "27L",
+    "size": "465×385×390mm",
+    "gap": "上10cm"
+   },
+   "source": "https://jp.sharp/range/products/rewf277/spec/",
+   "rakuten": {
+    "keyword": "シャープ RE-WF277",
+    "must": [
+     "RE-WF277"
+    ],
+    "exclude": [
+     "中古",
+     "◆",
+     "並行輸入",
+     "部品",
+     "交換",
+     "専用",
+     "対応",
+     "角皿",
+     "トレー",
+     "カバー",
+     "セット",
+     "網",
+     "アクセサリー",
+     "ケーブル"
+    ]
+   },
+   "yahoo": {
+    "keyword": "シャープ RE-WF277",
+    "must": [
+     "RE-WF277"
+    ],
+    "exclude": [
+     "中古",
+     "◆",
+     "並行輸入",
+     "部品",
+     "交換",
+     "専用",
+     "対応",
+     "角皿",
+     "トレー",
+     "カバー",
+     "セット",
+     "網",
+     "アクセサリー",
+     "ケーブル"
+    ]
+   },
+   "amazon": {
+    "keyword": "シャープ 過熱水蒸気オーブンレンジ RE-WF277",
+    "asin": null
+   }
+  },
+  {
+   "id": "panasonic-ne-fs3e",
+   "brand": "パナソニック",
+   "name": "オーブンレンジ NE-FS3E",
+   "badge": "スチームなし・23L",
+   "summary": "スチームを使わないオーブンレンジ。23L・高さ338mm・15.2kg。オーブンは250℃まで。上は10cm。",
+   "recommended": false,
+   "specs": {
+    "steam": "なし（上下ヒーター）",
+    "volume": "23L",
+    "size": "468×386×338mm",
+    "gap": "上10cm"
+   },
+   "source": "https://panasonic.jp/range/products/NE-FS3E/spec.html",
+   "rakuten": {
+    "keyword": "パナソニック NE-FS3E",
+    "must": [
+     "NE-FS3E"
+    ],
+    "exclude": [
+     "中古",
+     "◆",
+     "並行輸入",
+     "部品",
+     "交換",
+     "専用",
+     "対応",
+     "角皿",
+     "トレー",
+     "カバー",
+     "セット",
+     "網",
+     "アクセサリー",
+     "ケーブル"
+    ]
+   },
+   "yahoo": {
+    "keyword": "パナソニック NE-FS3E",
+    "must": [
+     "NE-FS3E"
+    ],
+    "exclude": [
+     "中古",
+     "◆",
+     "並行輸入",
+     "部品",
+     "交換",
+     "専用",
+     "対応",
+     "角皿",
+     "トレー",
+     "カバー",
+     "セット",
+     "網",
+     "アクセサリー",
+     "ケーブル"
+    ]
+   },
+   "amazon": {
+    "keyword": "パナソニック オーブンレンジ NE-FS3E",
+    "asin": "B0H7RR57J8"
+   }
+  },
+  {
+   "id": "iris-mo-f1808",
+   "brand": "アイリスオーヤマ",
+   "name": "スチームオーブンレンジ MO-F1808-B",
+   "badge": "18L・高さ330mm",
+   "summary": "角皿を使ってスチーム調理ができる18L。幅455×高さ330mm・14.0kg。取扱説明書では上・後ろ・左・右に10cm以上（いずれか1面は開放）。",
+   "recommended": false,
+   "specs": {
+    "steam": "角皿でスチーム調理",
+    "volume": "18L",
+    "size": "455×375×330mm",
+    "gap": "上10cm（左右・後ろも10cm）"
+   },
+   "source": "https://www.irisohyama.co.jp/products/electrical-appliances/cooking-appliances/microwave-microwave-oven/steam-oven/steam-oven-18l",
+   "rakuten": {
+    "keyword": "アイリスオーヤマ MO-F1808",
+    "must": [
+     "MO-F1808"
+    ],
+    "exclude": [
+     "中古",
+     "◆",
+     "並行輸入",
+     "部品",
+     "交換",
+     "専用",
+     "対応",
+     "角皿",
+     "トレー",
+     "カバー",
+     "セット",
+     "網",
+     "アクセサリー",
+     "ケーブル"
+    ]
+   },
+   "yahoo": {
+    "keyword": "アイリスオーヤマ MO-F1808-B",
+    "must": [
+     "MO-F1808"
+    ],
+    "exclude": [
+     "中古",
+     "◆",
+     "並行輸入",
+     "部品",
+     "交換",
+     "専用",
+     "対応",
+     "角皿",
+     "トレー",
+     "カバー",
+     "セット",
+     "網",
+     "アクセサリー",
+     "ケーブル"
+    ]
+   },
+   "amazon": {
+    "keyword": "アイリスオーヤマ スチームオーブンレンジ MO-F1808",
+    "asin": null
+   }
+  }
+ ]
+}
