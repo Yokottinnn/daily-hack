@@ -1,0 +1,8 @@
+[
+ {"id":"comtec-zdr-851r","store":"amazon","keyword":"ZDR-851R","must":["851R"],"exclude":["中古","並行輸入","対応","適合","フィルム","保護"]},
+ {"id":"kenwood-drv-x80em","store":"amazon","keyword":"ケンウッド ミラレコ DRV-X80EM","must":["X80EM"],"exclude":["中古","並行輸入","対応","適合","フィルム","保護"]},
+ {"id":"yupiteru-y-3300","store":"amazon","keyword":"ユピテル marumie Y-3300","must":["3300"],"exclude":["中古","並行輸入","対応","適合","フィルム","保護","Y-3200","Z-330"]},
+ {"id":"pioneer-vrec-dz810d2","store":"amazon","keyword":"パイオニア VREC-DZ810D","must":["DZ810D"],"exclude":["中古","並行輸入","対応","適合","フィルム","保護"]},
+ {"id":"cellstar-cs-n210","store":"amazon","keyword":"セルスター ドライブレコーダー CS-N210","must":["N210"],"exclude":["中古","並行輸入","対応","適合","フィルム","保護"]},
+ {"id":"alpine-dvr-dm1200a2-ic","store":"amazon","keyword":"アルパイン DVR-DM1200A2","must":["DM1200A2"],"exclude":["中古","並行輸入","対応","適合","フィルム","保護"]}
+]
