@@ -1,0 +1,7 @@
+{
+  "dyson.png": {"brand": "ダイソン", "file": "File:Dyson logo.svg", "page": "https://commons.wikimedia.org/wiki/File:Dyson_logo.svg", "copied_from": "public/images/black-friday-2026-matome/logos/dyson.png", "fetched": "2026-11-22"},
+  "panasonic.png": {"brand": "パナソニック", "title": "File:Panasonic Group logo.svg", "page": "https://commons.wikimedia.org/wiki/File:Panasonic_Group_logo.svg", "copied_from": "public/images/denkidai-setsuyaku-koshiki-2026/logos/panasonic.png", "fetched": "2026-11-22"},
+  "sharp.png": {"brand": "シャープ", "src": "https://jp.sharp/assets/common/images/logo_sharp.svg", "page": "https://jp.sharp/beauty/", "note": "公式サイトのヘッダーの SVG を scripts/svg-to-png.mjs で PNG にした（改変なし）", "fetched": "2026-11-22"},
+  "refa.png": {"brand": "ReFa（MTG）", "src": "https://www.refa.net/item/refa_beautech_dryer_smart_w/ のヘッダー（p.header-head__logo）のインライン SVG", "page": "https://www.refa.net/", "note": "公式サイトのヘッダーのロゴ SVG を scripts/svg-to-png.mjs で PNG にした（改変なし）", "fetched": "2026-11-22"},
+  "salonia.png": {"brand": "SALONIA", "src": "https://salonia.jp/img/svg/logo.svg", "page": "https://salonia.jp/", "note": "公式サイトのヘッダーの SVG を scripts/svg-to-png.mjs で PNG にした（改変なし）", "fetched": "2026-11-22"}
+}

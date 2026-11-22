@@ -1,0 +1,30 @@
+{
+ "irobot.png": {
+  "brand": "アイロボット（iRobot）",
+  "src": "https://www.irobot-jp.com/img/header_logo.png",
+  "fetched": "2026-11-22"
+ },
+ "roborock.png": {
+  "brand": "ロボロック（Roborock）",
+  "src": "https://jp.roborock.com/ のフッターのロゴ（インライン SVG）",
+  "fetched": "2026-11-22",
+  "note": "SVG を PNG に変換・余白を落とした"
+ },
+ "ecovacs.png": {
+  "brand": "エコバックス（ECOVACS）",
+  "src": "https://site-static.ecovacs.com/v4/site/logo.png",
+  "fetched": "2026-11-22"
+ },
+ "eufy.png": {
+  "brand": "Anker（Eufy）",
+  "src": "https://www.eufy.com/ のヘッダーのロゴ（インライン SVG・ANKER eufy の組ロゴ）",
+  "fetched": "2026-11-22",
+  "note": "SVG を PNG に変換・余白を落とした"
+ },
+ "switchbot.png": {
+  "brand": "SwitchBot",
+  "src": "https://www.switchbot.jp/cdn/shop/files/switchbot_logo-red.png",
+  "fetched": "2026-11-22",
+  "note": "透明の余白を落とした"
+ }
+}
