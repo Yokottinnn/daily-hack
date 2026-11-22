@@ -1,0 +1,182 @@
+{
+ "sharp-hw24k.jpg": {
+  "src": "https://jp.sharp/hotcook/products/knhw24k/images/gallery-1.jpg",
+  "page": "https://jp.sharp/hotcook/products/knhw24k/",
+  "credit": "シャープ ヘルシオ ホットクック 公式",
+  "fetched": "2026-11-22",
+  "size": [
+   1000,
+   1000
+  ]
+ },
+ "sharp-hw24k-food.jpg": {
+  "src": "https://jp.sharp/hotcook/products/knhw24k/images/point02.jpg",
+  "page": "https://jp.sharp/hotcook/products/knhw24k/",
+  "credit": "シャープ ヘルシオ ホットクック 公式",
+  "fetched": "2026-11-22",
+  "size": [
+   960,
+   540
+  ]
+ },
+ "sharp-hw24k-stir.jpg": {
+  "src": "https://jp.sharp/hotcook/products/knhw24k/images/point01.jpg",
+  "page": "https://jp.sharp/hotcook/products/knhw24k/",
+  "credit": "シャープ ヘルシオ ホットクック 公式",
+  "fetched": "2026-11-22",
+  "size": [
+   960,
+   540
+  ]
+ },
+ "sharp-hw16k.jpg": {
+  "src": "https://jp.sharp/hotcook/products/knhw16k/images/gallery-1.jpg",
+  "page": "https://jp.sharp/hotcook/products/knhw16k/",
+  "credit": "シャープ ヘルシオ ホットクック 公式",
+  "fetched": "2026-11-22",
+  "size": [
+   1000,
+   1000
+  ]
+ },
+ "sharp-hw16k-black.jpg": {
+  "src": "https://jp.sharp/hotcook/products/knhw16k/images/gallery-3.jpg",
+  "page": "https://jp.sharp/hotcook/products/knhw16k/",
+  "credit": "シャープ ヘルシオ ホットクック 公式",
+  "fetched": "2026-11-22",
+  "size": [
+   1000,
+   1000
+  ]
+ },
+ "sharp-hw24k-mv.jpg": {
+  "src": "https://jp.sharp/hotcook/assets/index/images/main-visual-knhw24k.jpg",
+  "page": "https://jp.sharp/hotcook/",
+  "credit": "シャープ ヘルシオ ホットクック 公式",
+  "fetched": "2026-11-22",
+  "size": [
+   1200,
+   413
+  ]
+ },
+ "pana-ac1000-kakuni.jpg": {
+  "src": "https://panasonic.jp/content/dam/panasonic/jp/ja/cook/products/NF-AC1000/img/img09_02_pc.jpg",
+  "page": "https://panasonic.jp/cook/products/NF-AC1000.html",
+  "credit": "パナソニック 公式",
+  "fetched": "2026-11-22",
+  "size": [
+   1200,
+   497
+  ]
+ },
+ "pana-ac1000-stew.jpg": {
+  "src": "https://panasonic.jp/content/dam/panasonic/jp/ja/cook/products/NF-AC1000/img/img10_02.jpg",
+  "page": "https://panasonic.jp/cook/products/NF-AC1000.html",
+  "credit": "パナソニック 公式",
+  "fetched": "2026-11-22",
+  "size": [
+   864,
+   486
+  ]
+ },
+ "pana-ac1000.jpg": {
+  "src": "https://panasonic.jp/content/dam/panasonic/jp/ja/cook/products/NF-AC1000/img/og.png",
+  "page": "https://panasonic.jp/cook/products/NF-AC1000.html",
+  "credit": "パナソニック 公式",
+  "fetched": "2026-11-22",
+  "size": [
+   1200,
+   630
+  ]
+ },
+ "pana-pc400.jpg": {
+  "src": "https://panasonic.jp/content/dam/panasonic/jp/ja/cook/products/NF-PC400/img/img03.jpg",
+  "page": "https://panasonic.jp/cook/products/NF-PC400.html",
+  "credit": "パナソニック 公式",
+  "fetched": "2026-11-22",
+  "size": [
+   686,
+   512
+  ]
+ },
+ "pana-pc400-kakuni.jpg": {
+  "src": "https://panasonic.jp/content/dam/panasonic/jp/ja/cook/products/NF-PC400/img/img02.jpg",
+  "page": "https://panasonic.jp/cook/products/NF-PC400.html",
+  "credit": "パナソニック 公式",
+  "fetched": "2026-11-22",
+  "size": [
+   686,
+   512
+  ]
+ },
+ "pana-pc400-curry.jpg": {
+  "src": "https://panasonic.jp/content/dam/panasonic/jp/ja/cook/products/NF-PC400/img/img01.jpg",
+  "page": "https://panasonic.jp/cook/products/NF-PC400.html",
+  "credit": "パナソニック 公式",
+  "fetched": "2026-11-22",
+  "size": [
+   1200,
+   600
+  ]
+ },
+ "tfal-pro.jpg": {
+  "src": "https://image.gsj.platform.cloudec.jp/ax-commerce-image-s3-gsj/item_3915_7211419596_CY3811J0_04.jpg",
+  "page": "https://www.t-fal.co.jp/pressurecookers/epc/products/lakulacooker-pro-7211419596/",
+  "credit": "ティファール 公式サイト",
+  "fetched": "2026-11-22",
+  "size": [
+   1200,
+   1200
+  ]
+ },
+ "tfal-pro-set.jpg": {
+  "src": "https://image.gsj.platform.cloudec.jp/ax-commerce-image-s3-gsj/item_3915_7211419596_CY3811J0_05.jpg",
+  "page": "https://www.t-fal.co.jp/pressurecookers/epc/products/lakulacooker-pro-7211419596/",
+  "credit": "ティファール 公式サイト",
+  "fetched": "2026-11-22",
+  "size": [
+   1200,
+   1200
+  ]
+ },
+ "tfal-c4m.jpg": {
+  "src": "https://image.gsj.platform.cloudec.jp/ax-commerce-image-s3-gsj/item_437_001.jpg",
+  "page": "https://www.t-fal.co.jp/pressurecookers/epc/products/cook4me-7211419232/",
+  "credit": "ティファール 公式サイト",
+  "fetched": "2026-11-22",
+  "size": [
+   1000,
+   1000
+  ]
+ },
+ "tfal-c4m-front.jpg": {
+  "src": "https://image.gsj.platform.cloudec.jp/ax-commerce-image-s3-gsj/item_437_002.jpg",
+  "page": "https://www.t-fal.co.jp/pressurecookers/epc/products/cook4me-7211419232/",
+  "credit": "ティファール 公式サイト",
+  "fetched": "2026-11-22",
+  "size": [
+   1000,
+   1000
+  ]
+ },
+ "tfal-mini.jpg": {
+  "src": "https://image.gsj.platform.cloudec.jp/ax-commerce-image-s3-gsj/item_430_001.jpg",
+  "page": "https://www.t-fal.co.jp/pressurecookers/epc/products/lakulacooker-mini-7211419069/",
+  "credit": "ティファール 公式サイト",
+  "fetched": "2026-11-22",
+  "size": [
+   1000,
+   1000
+  ]
+ },
+ "tfal-mini-set.jpg": {
+  "src": "https://image.gsj.platform.cloudec.jp/ax-commerce-image-s3-gsj/item_430_003.jpg",
+  "page": "https://www.t-fal.co.jp/pressurecookers/epc/products/lakulacooker-mini-7211419069/",
+  "credit": "ティファール 公式サイト",
+  "fetched": "2026-11-22",
+  "size": [
+   1000,
+   1000
+  ]
+ }
+}
