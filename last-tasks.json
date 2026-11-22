@@ -1,3 +1,3 @@
 [
-      {"task": "x539-read-camp-and-test-10-images.sh", "rc": 0, "out": "status=awaiting_approval x_tweet_id=なし posted_at=なし scheduled_at=2026-11-22T03:13:00.000Z 載っていない（走り終えて自分を外したか、最初から載っていない）"}
+      {"task": "x540-read-own-timeline-camp.sh", "rc": 0, "out": "6"}
   ]
