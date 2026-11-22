@@ -477,13 +477,23 @@ references:
 
 ## 使っている人の声と動画｜全自動コーヒーメーカー
 
-<!-- X_POSTS -->
+買った人が書いているのは、**味の満足と、豆代・洗い物が少し増えること**。この記事の計算と同じところを気にしている。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">ボドゲの話じゃなくて恐縮だけど 今年の買ってよかったNo.1はこのコーヒーメーカー(NC-A58)2万円弱。 豆と水を入れるだけでミルの爆音といい香りが部屋に広がってやる気が出るし機械が淹れると確定で美味い。 デメリットは出費(豆代)とカフェイン摂取量が増え、洗い物が多少出ること</p>&mdash; ボドざき (@zkbdg) <a href="https://twitter.com/zkbdg/status/2117578905838371193">2026年11月3日</a></blockquote>
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">税理士にOKもらって経費で買ったマグニフィカSが届いて１か月経過したんだけどね、これで作るカフェラテが旨すぎて…めっちゃ気に入ってる！！ 味は安い豆を使っても確実にコンビニラテ以上、スタバのラテと同格の味！（作り方によってはそれ以上）こーれお勧めですわ☕✨</p>&mdash; けいじろう (@KEIJIROISM) <a href="https://twitter.com/KEIJIROISM/status/2052877644186918977">2026年5月9日</a></blockquote>
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">コーヒーマシンが故障したのでデロンギのマグニフィカS買った☕️ ちょっと高かったけどフィルター要らずでめちゃくちゃ便利！ せっかくだしミルクジャグも買おうかな</p>&mdash; あずまゆき＠日常 (@cats_go_fishing) <a href="https://twitter.com/cats_go_fishing/status/2039947892761497904">2026年4月3日</a></blockquote>
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">念願のCM-D457を手に入れた！ウッキウキで豆探しにGOだ！ #コーヒー #珈琲 #TWINBIRD</p>&mdash; 縞痔瘻 (@shimajiro713) <a href="https://twitter.com/shimajiro713/status/2080928369601134936">2026年7月25日</a></blockquote>
+
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <div class="yt-embed"><iframe src="https://www.youtube-nocookie.com/embed/l2C2OuiY7rg" title="【徹底比較】ツインバード vs パナソニック全自動コーヒーメーカー！" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe></div>
 
 ツインバードとパナソニックの全自動コーヒーメーカーを、同じ豆で淹れ比べている。
 
-<p class="source-note">埋め込んだ YouTube は oEmbed でタイトルと投稿者を照合し、実在を確かめたもの（2026年11月22日）。どれも投稿した人の個人の感想・撮影時点の内容で、この記事の数字とは別のもの。</p>
+<p class="source-note">引用した X の投稿は、2026年11月22日に本文・投稿者・日付を確かめたもの。埋め込んだ YouTube は oEmbed でタイトルと投稿者を照合し、実在を確かめたもの（2026年11月22日）。どれも投稿した人の個人の感想・撮影時点の内容で、この記事の数字とは別のもの。</p>
 
 ## よくある質問
 
