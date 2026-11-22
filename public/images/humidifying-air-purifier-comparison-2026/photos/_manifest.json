@@ -1,0 +1,16 @@
+{
+ "kiwx75-room.jpg": {"page": "https://jp.sharp/kuusei/products/kiwx75/", "credit": "シャープ 公式", "src_file": "images/gallery-1.jpg", "fetched": "2026-11-22"},
+ "kiwx75-wash.jpg": {"page": "https://jp.sharp/kuusei/products/kiwx75/feature/humidify/", "credit": "シャープ 公式", "src_file": "images/sub01-2.jpg", "fetched": "2026-11-22"},
+ "kiwx70-room.jpg": {"page": "https://jp.sharp/kuusei/products/kiwx70/", "credit": "シャープ 公式", "src_file": "images/gallery-1.jpg", "fetched": "2026-11-22"},
+ "kiwx70-prefilter.jpg": {"page": "https://jp.sharp/kuusei/products/kiwx70/feature/humidify/", "credit": "シャープ 公式", "src_file": "images/sub04.jpg", "fetched": "2026-11-22"},
+ "kiws50-room.jpg": {"page": "https://jp.sharp/kuusei/products/kiws50/", "credit": "シャープ 公式", "src_file": "images/gallery-1.jpg", "fetched": "2026-11-22"},
+ "kiws50-tray.jpg": {"page": "https://jp.sharp/kuusei/products/kiws50/feature/humidify/", "credit": "シャープ 公式", "src_file": "images/sub05-1.jpg", "fetched": "2026-11-22"},
+ "mck707a.jpg": {"page": "https://www.ac.daikin.co.jp/cleanair/hg", "credit": "ダイキン工業 公式", "src_file": "cleanair/2027/top/lin_hg_202609-png.png（製品の部分を切り出し）", "fetched": "2026-11-22"},
+ "mck707a-tank.jpg": {"page": "https://www.ac.daikin.co.jp/cleanair/hg/kinou/kasitsu", "credit": "ダイキン工業 公式", "src_file": "cleanair/2027/hg/images/kinou/pic_03_02-png.png", "fetched": "2026-11-22"},
+ "mck557a-room.jpg": {"page": "https://www.ac.daikin.co.jp/cleanair/tw", "credit": "ダイキン工業 公式", "src_file": "cleanair/2026/tw/images/kv_1-jpg.jpg（左側を切り出し）", "fetched": "2026-11-22"},
+ "mck557a-tafu.jpg": {"page": "https://www.ac.daikin.co.jp/cleanair/tw", "credit": "ダイキン工業 公式", "src_file": "cleanair/tw/images/top/pic_feat_03_2024-png.png", "fetched": "2026-11-22"},
+ "f-vx70d-room.jpg": {"page": "https://panasonic.jp/airrich/products/F-VX70D.html", "credit": "パナソニック 公式", "src_file": "airrich/products/f-vx70d/img09.jpg", "fetched": "2026-11-22"},
+ "f-vx70d-care.jpg": {"page": "https://panasonic.jp/airrich/products/F-VX70D.html", "credit": "パナソニック 公式", "src_file": "airrich/products/f-vx70d/img15_pc.jpg", "fetched": "2026-11-22"},
+ "f-vxw90-room.jpg": {"page": "https://panasonic.jp/airrich/products/F-VXW90.html", "credit": "パナソニック 公式", "src_file": "airrich/products/f-vxw90/img/img001_sp.jpg", "fetched": "2026-11-22"},
+ "f-vxw90-care.jpg": {"page": "https://panasonic.jp/airrich/products/F-VXW90.html", "credit": "パナソニック 公式", "src_file": "airrich/products/f-vxw90/img/img10_pc.jpg", "fetched": "2026-11-22"}
+}
