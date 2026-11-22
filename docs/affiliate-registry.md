@@ -98,6 +98,7 @@
 | `oven-toaster-comparison-2026` | 3 店ボタン（`src/data/shop/oven-toaster.json`） | 2026-11-22 追加。オーブントースター 8 機種 |
 | `rice-cooker-comparison-2026` | 3 店ボタン（`src/data/shop/suihanki.json`） | 同上（2026-11-22）。炊飯器 5.5合 8 台 |
 | `facial-device-comparison-2026` | 3 店ボタン（`src/data/shop/facial-device.json`） | 2026-11-22 追加。美顔器 6 機種（Amazon は全部 ASIN） |
+| `electric-kettle-comparison-2026` | 3 店ボタン（`src/data/shop/electric-kettle.json`） | 2026-11-22 追加。電気ケトル 8 機種 |
 
 ## A8 のリンクを入れた湾岸ライフの記事（2026-10-25）
 
