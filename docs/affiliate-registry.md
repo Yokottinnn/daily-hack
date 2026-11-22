@@ -88,6 +88,7 @@
 | `smartwatch-comparison-2026` | 3 店ボタン（`src/data/shop/smartwatch.json`） | 同上（2026-11-22） |
 | `premium-hair-dryer-comparison-2026` | 3 店ボタン（`src/data/shop/premium-hair-dryer.json`） | 同上（2026-11-22） |
 | `robot-cleaner-comparison-2026` | 3 店ボタン（`src/data/shop/robot-cleaner.json`） | 2026-11-22 追加 |
+| `cordless-stick-cleaner-comparison-2026` | 3 店ボタン（`src/data/shop/cordless-stick-cleaner.json`） | 2026-11-22 追加 |
 | `electric-pressure-cooker-comparison-2026` | 3 店ボタン（`src/data/shop/denki-atsuryokunabe.json`） | 同上（2026-11-22）。電気圧力鍋・自動調理鍋 8 台 |
 
 ## A8 のリンクを入れた湾岸ライフの記事（2026-10-25）
