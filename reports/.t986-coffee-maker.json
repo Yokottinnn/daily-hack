@@ -1,0 +1,433 @@
+{
+  "id": "coffee-maker",
+  "title": "全自動コーヒーメーカー・全自動エスプレッソマシン（1杯いくらで、何杯で元が取れるか・毎日の手入れ）",
+  "_note": "仕様と価格は各メーカーの公式ページ・公式ストアの表示だけ（2026-11-22 に確認）。元が取れる杯数の式は記事の本文に書いた。タイガーは現行の公式ラインアップにミル付きが無く外した",
+  "columns": [
+    {
+      "key": "type",
+      "label": "種類"
+    },
+    {
+      "key": "cups",
+      "label": "一度に淹れる量"
+    },
+    {
+      "key": "mill",
+      "label": "ミル"
+    },
+    {
+      "key": "care",
+      "label": "毎日の手入れ"
+    },
+    {
+      "key": "price",
+      "label": "公式の価格"
+    }
+  ],
+  "pricesCheckedAt": null,
+  "items": [
+    {
+      "id": "panasonic-nc-a58",
+      "brand": "パナソニック",
+      "name": "コーヒーメーカー NC-A58",
+      "badge": "いちばん早く元が取れる",
+      "summary": "ドリップを毎朝2〜4杯。ミルは抽出のたびに自動で洗う",
+      "recommended": true,
+      "specs": {
+        "type": "ドリップ",
+        "cups": "4カップ（545mL）",
+        "mill": "縦型ミル・メッシュフィルターの交換で挽き分け",
+        "care": "ミルを蒸らしの前に自動で洗浄",
+        "price": "21,780円（公式の商品ページ）"
+      },
+      "source": "https://panasonic.jp/coffee/products/NC-A58.html",
+      "rakuten": {
+        "keyword": "パナソニック NC-A58",
+        "must": [
+          "NC-A58"
+        ],
+        "exclude": [
+          "中古",
+          "フィルター",
+          "交換",
+          "部品",
+          "◆",
+          "並行輸入"
+        ],
+        "itemUrl": "https://item.rakuten.co.jp/panasonic-store/nc-a58-k/"
+      },
+      "yahoo": {
+        "keyword": "パナソニック NC-A58",
+        "must": [
+          "NC-A58"
+        ],
+        "exclude": [
+          "中古",
+          "フィルター",
+          "交換",
+          "部品",
+          "◆",
+          "並行輸入"
+        ]
+      },
+      "amazon": {
+        "keyword": "パナソニック コーヒーメーカー NC-A58",
+        "asin": "B0DTKHNK9G"
+      }
+    },
+    {
+      "id": "zojirushi-ec-rt40",
+      "brand": "象印",
+      "name": "コーヒーメーカー 珈琲通 EC-RT40",
+      "badge": "保温してもヒーターで煮詰めない",
+      "summary": "まほうびん構造のステンレスサーバーで、淹れたあとも電気を使わず保温",
+      "recommended": false,
+      "specs": {
+        "type": "ドリップ",
+        "cups": "4杯（540mL）",
+        "mill": "ミル一体型・挽き分けフィルターで中細挽き／粗挽き",
+        "care": "ミルケース・フィルターケースなどを外して丸洗い",
+        "price": "30,800円（象印ダイレクト）"
+      },
+      "source": "https://www.zojirushi.co.jp/syohin/kitchen/coffee_maker/ecrt_ecsa/",
+      "rakuten": {
+        "keyword": "象印 EC-RT40",
+        "must": [
+          "EC-RT40"
+        ],
+        "exclude": [
+          "中古",
+          "交換",
+          "部品",
+          "フィルター",
+          "◆",
+          "並行輸入"
+        ],
+        "itemUrl": "https://item.rakuten.co.jp/r-kojima/4974305220066/"
+      },
+      "yahoo": {
+        "keyword": "象印 EC-RT40",
+        "must": [
+          "EC-RT40"
+        ],
+        "exclude": [
+          "中古",
+          "交換",
+          "部品",
+          "フィルター",
+          "◆",
+          "並行輸入"
+        ]
+      },
+      "amazon": {
+        "keyword": "象印 コーヒーメーカー EC-RT40",
+        "asin": "B09D7J2RHZ"
+      }
+    },
+    {
+      "id": "siroca-sc-c261",
+      "brand": "シロカ",
+      "name": "コーン式全自動コーヒーメーカー カフェばこPRO SC-C261",
+      "badge": "豆と水の計量がいらない",
+      "summary": "豆200gと水を入れておけば、杯数を選ぶだけ。マグに直接も淹れられる",
+      "recommended": false,
+      "specs": {
+        "type": "ドリップ",
+        "cups": "コーヒーカップ2〜6杯・マグに直接1杯",
+        "mill": "コーン式・挽き目は無段階",
+        "care": "バスケット・給水タンクを外して丸洗い。ミルお手入れモード",
+        "price": "32,780円（シロカ公式オンラインストア）"
+      },
+      "source": "https://www.siroca.co.jp/cafebakopro/",
+      "rakuten": {
+        "keyword": "シロカ カフェばこPRO SC-C261",
+        "must": [
+          "SC-C261"
+        ],
+        "exclude": [
+          "中古",
+          "バスケットリング",
+          "フィルター",
+          "交換",
+          "部品",
+          "◆",
+          "並行輸入"
+        ],
+        "itemUrl": "https://item.rakuten.co.jp/r-kojima/4589919846849/"
+      },
+      "yahoo": {
+        "keyword": "シロカ カフェばこPRO SC-C261",
+        "must": [
+          "SC-C261"
+        ],
+        "exclude": [
+          "中古",
+          "バスケットリング",
+          "フィルター",
+          "交換",
+          "部品",
+          "◆",
+          "並行輸入"
+        ]
+      },
+      "amazon": {
+        "keyword": "シロカ カフェばこPRO SC-C261",
+        "asin": "B0FW4WCJKN"
+      }
+    },
+    {
+      "id": "twinbird-cm-d457b",
+      "brand": "ツインバード",
+      "name": "全自動コーヒーメーカー CM-D457B",
+      "badge": "湯温を83℃と90℃で選べる",
+      "summary": "臼式のミルで粗・中・細の3段階。3杯までの少人数向け",
+      "recommended": false,
+      "specs": {
+        "type": "ドリップ",
+        "cups": "3カップ（450mL）",
+        "mill": "低速臼式フラットミル・粗／中／細",
+        "care": "ドリッパー・サーバーふた・ガラスサーバーを洗う。ミルは水洗い不可",
+        "price": "41,800円（ツインバード公式ストア）"
+      },
+      "source": "https://store.twinbird.jp/products/cmd457",
+      "rakuten": {
+        "keyword": "ツインバード CM-D457B",
+        "must": [
+          "CM-D457B"
+        ],
+        "exclude": [
+          "中古",
+          "フィルター",
+          "交換",
+          "部品",
+          "キャニスター",
+          "◆",
+          "並行輸入"
+        ],
+        "itemUrl": "https://item.rakuten.co.jp/yamada-denki/3447983011/"
+      },
+      "yahoo": {
+        "keyword": "ツインバード CM-D457B",
+        "must": [
+          "CM-D457B"
+        ],
+        "exclude": [
+          "中古",
+          "フィルター",
+          "交換",
+          "部品",
+          "キャニスター",
+          "◆",
+          "並行輸入"
+        ]
+      },
+      "amazon": {
+        "keyword": "ツインバード 全自動コーヒーメーカー CM-D457B",
+        "asin": "B07HFP6H3L"
+      }
+    },
+    {
+      "id": "delonghi-ecam22112b",
+      "brand": "デロンギ",
+      "name": "マグニフィカS 全自動コーヒーマシン ECAM22112B",
+      "badge": "カフェラテを家で作る入口",
+      "summary": "スチームノズルで牛乳を泡立てる。ボタンとダイヤルで操作する定番",
+      "recommended": true,
+      "specs": {
+        "type": "エスプレッソ（スチームノズル付き）",
+        "cups": "1杯ずつ（2杯同時も可）・水タンク1.8L",
+        "mill": "コーン式",
+        "care": "電源の入・切で内部を自動洗浄。カス受け・トレイ・水タンク・抽出ユニットを外して洗う",
+        "price": "69,800円（デロンギ公式ストア）"
+      },
+      "source": "https://www.delonghi.com/ja-jp/p/magunifuikas-ecam22112b-magunifuikas-%E5%85%A8%E8%87%AA%E5%8B%95ko%E3%83%BChi%E3%83%BCmashin-buratsuku/ECAM22112B.html",
+      "rakuten": {
+        "keyword": "デロンギ ECAM22112B",
+        "must": [
+          "ECAM22112"
+        ],
+        "exclude": [
+          "中古",
+          "フィルター",
+          "交換",
+          "部品",
+          "除石灰",
+          "クリーナー",
+          "ミルクジャグ",
+          "◆",
+          "並行輸入"
+        ]
+      },
+      "yahoo": {
+        "keyword": "デロンギ ECAM22112B",
+        "must": [
+          "ECAM22112"
+        ],
+        "exclude": [
+          "中古",
+          "フィルター",
+          "交換",
+          "部品",
+          "除石灰",
+          "クリーナー",
+          "ミルクジャグ",
+          "◆",
+          "並行輸入"
+        ]
+      },
+      "amazon": {
+        "keyword": "デロンギ マグニフィカS ECAM22112B",
+        "asin": "B088HJCVDX"
+      }
+    },
+    {
+      "id": "delonghi-ecam22020b",
+      "brand": "デロンギ",
+      "name": "マグニフィカ スタート 全自動コーヒーマシン ECAM22020B",
+      "badge": "タッチ操作でブラック専用",
+      "summary": "エスプレッソとカフェ・ジャポーネをワンタッチ。牛乳は使わない人向け",
+      "recommended": false,
+      "specs": {
+        "type": "エスプレッソ（ミルク機能なし）",
+        "cups": "1杯ずつ（2杯同時も可）・水タンク1.8L",
+        "mill": "コーン式",
+        "care": "豆挽きから抽出、内部洗浄まで全自動（公式の記載）",
+        "price": "87,800円（デロンギ公式ストアのセール価格。通常97,800円）"
+      },
+      "source": "https://www.delonghi.com/ja-jp/p/magnifica-start-ecam22020b-magunifuika-suta%E3%83%BCto-%E5%85%A8%E8%87%AA%E5%8B%95ko%E3%83%BChi%E3%83%BCmashin-buratsuku/ECAM22020B.html",
+      "rakuten": {
+        "keyword": "デロンギ ECAM22020B",
+        "must": [
+          "ECAM22020"
+        ],
+        "exclude": [
+          "中古",
+          "フィルター",
+          "交換",
+          "部品",
+          "除石灰",
+          "クリーナー",
+          "◆",
+          "並行輸入"
+        ],
+        "itemUrl": "https://item.rakuten.co.jp/delonghi/0132240059/"
+      },
+      "yahoo": {
+        "keyword": "デロンギ ECAM22020B",
+        "must": [
+          "ECAM22020"
+        ],
+        "exclude": [
+          "中古",
+          "フィルター",
+          "交換",
+          "部品",
+          "除石灰",
+          "クリーナー",
+          "◆",
+          "並行輸入"
+        ]
+      },
+      "amazon": {
+        "keyword": "デロンギ マグニフィカ スタート ECAM22020B",
+        "asin": "B0CM5LSZYF"
+      }
+    },
+    {
+      "id": "twinbird-cm-d495b",
+      "brand": "ツインバード",
+      "name": "匠バリスタエスプレッソマシン CM-D495B",
+      "badge": "2026年12月発売の新型",
+      "summary": "牛乳を自動で泡立てる。横幅18.5cmで、電源の入・切で抽出経路を自動洗浄",
+      "recommended": false,
+      "specs": {
+        "type": "エスプレッソ（自動ミルク泡立て）",
+        "cups": "1杯ずつ・水タンク1.8L・ミルク容器300mL",
+        "mill": "内蔵（ホッパー280g）",
+        "care": "電源の入・切で給湯とコーヒーの経路を自動洗浄。ミルクノズルは分解して水洗い",
+        "price": "98,780円（ツインバード公式ストア）"
+      },
+      "source": "https://store.twinbird.jp/products/cmd495",
+      "rakuten": {
+        "keyword": "ツインバード CM-D495B",
+        "must": [
+          "CM-D495"
+        ],
+        "exclude": [
+          "中古",
+          "交換",
+          "部品",
+          "◆",
+          "並行輸入"
+        ]
+      },
+      "yahoo": {
+        "keyword": "ツインバード CM-D495B",
+        "must": [
+          "CM-D495"
+        ],
+        "exclude": [
+          "中古",
+          "交換",
+          "部品",
+          "◆",
+          "並行輸入"
+        ]
+      },
+      "amazon": {
+        "keyword": "ツインバード 匠バリスタ CM-D495B",
+        "asin": null
+      }
+    },
+    {
+      "id": "delonghi-exam44055b",
+      "brand": "デロンギ",
+      "name": "リヴェリア 全自動コーヒーマシン EXAM44055B",
+      "badge": "豆を2種類入れ替えられる",
+      "summary": "タッチパネルでミルクメニューまで。豆ホッパーを付け替えて2種類の豆を使い分ける",
+      "recommended": false,
+      "specs": {
+        "type": "エスプレッソ（自動ミルク）",
+        "cups": "1杯ずつ（2杯同時も可）・水タンク1.4L",
+        "mill": "内蔵（豆ホッパー250g・付け替え式）",
+        "care": "本体とミルクコンテナを自動で内部洗浄（公式の記載）",
+        "price": "218,000円（デロンギ公式ストアのセール価格。通常238,000円）"
+      },
+      "source": "https://www.delonghi.com/ja-jp/p/rivelia-exam44055b-rivueria-%E5%85%A8%E8%87%AA%E5%8B%95ko%E3%83%BChi%E3%83%BCmashin/EXAM44055B.html",
+      "rakuten": {
+        "keyword": "デロンギ リヴェリア EXAM44055B",
+        "must": [
+          "EXAM44055B"
+        ],
+        "exclude": [
+          "中古",
+          "交換",
+          "部品",
+          "ホッパー",
+          "ミルクコンテナ",
+          "◆",
+          "並行輸入"
+        ]
+      },
+      "yahoo": {
+        "keyword": "デロンギ リヴェリア EXAM44055B",
+        "must": [
+          "EXAM44055B"
+        ],
+        "exclude": [
+          "中古",
+          "交換",
+          "部品",
+          "ホッパー",
+          "ミルクコンテナ",
+          "◆",
+          "並行輸入"
+        ]
+      },
+      "amazon": {
+        "keyword": "デロンギ リヴェリア EXAM44055B",
+        "asin": "B0HFQZT2GB"
+      }
+    }
+  ]
+}

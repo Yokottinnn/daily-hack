@@ -1,8 +1,12 @@
 [
-      {"task": "t1000-embed-kettle.sh", "rc": 0, "out": "- X 2115366100984823828 @fmuttyan ✔ 2026-10-28 ♥5 【注目キッチン・調理家電速報 (17:48)】 【WEB限定】象印 電気ケトル 0.8L 蒸気レス構造 安全設計 ほこりブロック エクリュ CK-JA08AM-WZ ✨ おすすめポ - X 2123612313764946243 @zurashi_select  2026-11-"},
-      {"task": "t1001-find-pages-kettle.sh", "rc": 0, "out": "  - B0BR3P96P9｜￥8,164｜[山善] 電気ケトル 電気ポット 0.8L 一人暮らし 二人暮らし (消費電力 1200W / 温度調節/保温機能/空焚き防止機能) ブラックブロンズ EGL-   - B0BR3PTQHG｜￥7,345｜[山善] 電気ケトル 電気ポット 0.8L 一人暮らし 二"},
-      {"task": "t1002-delonghi-official-read.sh", "rc": 0, "out": "  64 . 192 ..  **読むだけ。LLM 不使用（$0／回）。**"},
-      {"task": "t1010-embed-hot-plate.sh", "rc": 0, "out": "- YT BYMn0941LEk 「タイガー ホットプレートCPV-T130を開封」 / CaravanYUTV / 1.6万 13 年前 - YT JcqAhjfAdWE 「【2025年決定版】最強ホットプレートTOP5！コスパ・収納・機能をガチ比較」 / トクモノ (TokuMono) / 1.1万 11 か月前  --- 対象 4 / 読"},
-      {"task": "t1011-iris-hotplate-read.sh", "rc": 0, "out": " - 製品らしいリンク 0 件   - 画像 logo-iris.svg: 2713 bytes — https://www.irisohyama.co.jp/images/common/logo.svg  **読むだけ。LLM 不使用（$0／回）。**"},
-      {"task": "t1016-embed-hot-plate-2.sh", "rc": 0, "out": "- X 1990712808116531546 @Skyrocket_Co ✔ 2025-11-18 ♥48 【家電で快適！生活向上委員会！！！】 📢家電女優 奈津子(@natsuko_twins) が 毎週便利な家電をご紹介✨ 💡本日ご紹介したのは… ヤマゼンのホットプレート 「XG - X 1941269399555670459 "}
+      {"task": "t1033-alienware-read.sh", "rc": 0, "out": "44906 p-AW2726DM-7.png 44906 p-AW2726DM-8.png 44906 p-AW2726DM-9.png  **読むだけ。LLM 不使用（$0／回）。**"},
+      {"task": "t1034-find-pages-alienware.sh", "rc": 0, "out": " ## dell-aw2726dm@1（must: AW2726DM） - amazon: 検索 45 件・型番あり 1 件   - B0GR9F5TNY｜￥59,073｜Dell AW2726DM 26.5インチ 有機EL Alienware ゲーミングモニター   - 開いた: Dell AW2726DM 26.5インチ 有機EL Alienware ゲーミングモニター｜カート: あり"},
+      {"task": "t982-yahoo-reverify-premium-hair-dryer.sh", "rc": 0, "out": "- 03 SwitchBot ロボット掃除機 K11｜型番「SwitchBot ロボット掃除機 K11」｜通常の商品 304 件（広告 20 件は数えない）のうち型番一致 90 件 - 04 Anker（Eufy） Eufy Robot Vacuum Auto-Empty C10（T2292）｜型番「C10」｜通常の商品 268 件（広告 2 �"},
+      {"task": "t983-yahoo-reverify-smartwatch.sh", "rc": 0, "out": "- 03 シャープ KI-WS50｜型番「KI-WS50」｜通常の商品 432 件（広告 48 件は数えない）のうち型番一致 90 件 - 04 ダイキン MCK707A｜型番「MCK707A」｜通常の商品 349 件（広告 31 件は数えない）のうち型番一致 90 件 - 05 ダイキン MCK557A｜"},
+      {"task": "t984-yahoo-reverify-futon-dryer.sh", "rc": 0, "out": "- 11 ブラウン オーラルB iO 替えブラシ アルティメイトクリーン 6本入り iORBCW-6EL｜型番「アルティメイトクリーン 6本」｜通常の商品 365 件（広告 34 件は数えない）のうち型番一致 90 件 - 12 ブラウン オーラルB マルチアクシ�"},
+      {"task": "t985-yahoo-reverify-electric-pressure-cooker.sh", "rc": 0, "out": "- 04 パナソニック セパレート型コードレススティック掃除機 MC-NX600KM｜型番「NX600KM」｜通常の商品 349 件（広告 32 件は数えない）のうち型番一致 90 件 - 05 ダイソン Dyson PencilVac Fluffycones (SV50 FC)｜型番「SV50」｜通常の商品 303 "},
+      {"task": "t986-yahoo-reverify-rice-cooker.sh", "rc": 0, "out": "- 04 ツインバード 全自動コーヒーメーカー CM-D457B｜型番「CM-D457B」｜通常の商品 316 件（広告 28 件は数えない）のうち型番一致 90 件 - 05 デロンギ マグニフィカS 全自動コーヒーマシン ECAM22112B｜型番「ECAM22112」｜通常の商品 "},
+      {"task": "t987-yahoo-reverify-massager.sh", "rc": 0, "out": "- 04 パナソニック ストレートアイロン ナノケア EH-HN51｜型番「EH-HN51」｜通常の商品 383 件（広告 39 件は数えない）のうち型番一致 90 件 - 05 パナソニック ストレートアイロン ナノケア EH-HN30｜型番「EH-HN30」｜通常の商品 331 "},
+      {"task": "t988-yahoo-reverify-countertop-dishwasher.sh", "rc": 0, "out": "- 04 アラジン グラファイトトースター（2枚焼き）AET-GS13D｜型番「AET-GS13D」｜通常の商品 309 件（広告 26 件は数えない）のうち型番一致 33 件 - 05 パナソニック オーブントースター NT-D500｜型番「NT-D500」｜通常の商品 298 件（�"},
+      {"task": "t989-yahoo-reverify-facial-device.sh", "rc": 0, "out": "- 02 パナソニック スチームオーブンレンジ ビストロ NE-UBS10E｜型番「NE-UBS10E」｜通常の商品 308 件（広告 22 件は数えない）のうち型番一致 90 件 - 03 東芝 過熱水蒸気オーブンレンジ 石窯ドーム ER-D5000C｜型番「ER-D5000C」｜通常"}
   ]

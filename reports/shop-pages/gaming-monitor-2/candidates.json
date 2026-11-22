@@ -1,0 +1,54 @@
+{
+ "series": "gaming-monitor-2",
+ "generated": "2026-11-22T11:20:53.589Z",
+ "items": {
+  "dell-aw2725d@0": {
+   "amazon": {
+    "searched": 46,
+    "hits": [
+     {
+      "asin": "B0FGD3ZHRS",
+      "title": "Dell AW2725D 26.7インチ 有機EL Alienware ゲーミングモニター",
+      "price": "￥60,750",
+      "sponsored": false
+     }
+    ],
+    "top": {
+     "asin": "B0FGD3ZHRS",
+     "title": "Dell AW2725D 26.7インチ 有機EL Alienware ゲーミングモニター",
+     "price": "￥60,750",
+     "sponsored": false,
+     "page": {
+      "title": "Amazon.co.jp: Dell AW2725D 26.7インチ 有機EL Alienware ゲーミングモニター | 無輝点3年保証/QHD/QD-OLED,抗反射/DP×1,HDMI×2/DCI-P3 99.3%/縦横回転,高さ調整",
+      "cart": true,
+      "h1": "Dell AW2725D 26.7インチ 有機EL Alienware ゲーミングモニター"
+     }
+    }
+   }
+  },
+  "dell-aw2726dm@1": {
+   "amazon": {
+    "searched": 45,
+    "hits": [
+     {
+      "asin": "B0GR9F5TNY",
+      "title": "Dell AW2726DM 26.5インチ 有機EL Alienware ゲーミングモニター",
+      "price": "￥59,073",
+      "sponsored": false
+     }
+    ],
+    "top": {
+     "asin": "B0GR9F5TNY",
+     "title": "Dell AW2726DM 26.5インチ 有機EL Alienware ゲーミングモニター",
+     "price": "￥59,073",
+     "sponsored": false,
+     "page": {
+      "title": "Amazon.co.jp: Dell AW2726DM 26.5インチ 有機EL Alienware ゲーミングモニター | 無輝点3年保証/QHD/QD-OLED,抗反射/DP 1.4×1,HDMI×2/DCI-P3 99%/縦横回転,高",
+      "cart": true,
+      "h1": "Dell AW2726DM 26.5インチ 有機EL Alienware ゲーミングモニター"
+     }
+    }
+   }
+  }
+ }
+}
