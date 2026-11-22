@@ -1,0 +1,590 @@
+{
+ "series": "body-scale",
+ "generated": "2026-11-22T22:31:28.242Z",
+ "items": {
+  "tanita-rd-917l": {
+   "amazon": {
+    "searched": 20,
+    "hits": [
+     {
+      "asin": "B09T71VTTC",
+      "title": "タニタ(Tanita) RD-917L(メタリックブラック) 体組成計 インナースキャンデュアル",
+      "price": "￥25,636",
+      "sponsored": false
+     },
+     {
+      "asin": "B09VS6K9GD",
+      "title": "タニタ(Tanita) RD-917L(パールホワイト) 体組成計 インナースキャンデュアル",
+      "price": "￥27,545",
+      "sponsored": false
+     },
+     {
+      "asin": "B09VS721JB",
+      "title": "RD-917L(グレイッシュゴールド) 体組成計 インナースキャンデュアル",
+      "price": "￥27,233",
+      "sponsored": false
+     }
+    ],
+    "top": {
+     "asin": "B09T71VTTC",
+     "title": "タニタ(Tanita) RD-917L(メタリックブラック) 体組成計 インナースキャンデュアル",
+     "price": "￥25,636",
+     "sponsored": false,
+     "page": {
+      "title": "Amazon | タニタ(Tanita) RD-917L(メタリックブラック) 体組成計 インナースキャンデュアル | TANITA | 体重・体脂肪・体組成計 通販",
+      "cart": true,
+      "h1": "商品概要には、主要な商品情報が記載されています \nキーボードショートカット  Shift + opt + D"
+     }
+    }
+   },
+   "rakuten": {
+    "searched": 45,
+    "hits": [
+     {
+      "url": "https://item.rakuten.co.jp/jism/4904785047822-23-5904-n/",
+      "title": "タニタ 体組成計（パールホワイト） RD-917L-WH TANITA　インナースキャンデュアル [RD917LWH]",
+      "price": "32,340",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/tanita/rd917l/",
+      "title": "【ポイント15倍＋クーポン：ブラックフライデー】 タニタ 体組成計 体重計 RD-917L はかるで暮らしと向き合う 筋肉の質が分かる 体脂肪率 スマホ連動 50g単位 内臓脂肪 BMI 筋肉量 体内年齢 基礎代謝 筋質点数 日本製 Bluetooth 高精度測定 健康管理 ダイエット",
+      "price": "39,360",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/yamada-denki/3464633029/",
+      "title": "タニタ RD-917L-WH インナースキャンデュアル ホワイト",
+      "price": "32,340",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/ebest/4904785047815/",
+      "title": "タニタ TANITA RD-917L メタリックブラック 体組成計 インナースキャンデュアル RD917L",
+      "price": "32,340",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/yamada-denki/3464633012/",
+      "title": "タニタ RD-917L-BK インナースキャンデュアル ブラック",
+      "price": "32,340",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/gbft-ltd/gb-st00-9480/",
+      "title": "【11/25限定最大3000円OFFクーポン発行＆エントリーでP3倍！更に全商品ポイント3倍！】 タニタ RD-917L-BK インナースキャンデュアル ブラック",
+      "price": "29,108",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/ebest/4904785047822/",
+      "title": "タニタ TANITA RD-917L パールホワイト 体組成計 インナースキャンデュアル RD917L",
+      "price": "32,340",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/ec-current/4904785047822/",
+      "title": "タニタ TANITA RD-917L パールホワイト 体組成計 インナースキャンデュアル RD917L",
+      "price": "32,340",
+      "ad": false
+     }
+    ],
+    "top": {
+     "url": "https://item.rakuten.co.jp/jism/4904785047822-23-5904-n/",
+     "title": "タニタ 体組成計（パールホワイト） RD-917L-WH TANITA　インナースキャンデュアル [RD917LWH]",
+     "price": "32,340",
+     "ad": false,
+     "page": {
+      "title": "【楽天市場】タニタ 体組成計（パールホワイト） RD-917L-WH TANITA　インナースキャンデュアル [RD917LWH]：Joshin web 家電とPCの大型専門店",
+      "cart": true,
+      "h1": ""
+     }
+    }
+   }
+  },
+  "tanita-bc-623l": {
+   "amazon": {
+    "searched": 28,
+    "hits": []
+   },
+   "rakuten": {
+    "searched": 45,
+    "hits": [
+     {
+      "url": "https://item.rakuten.co.jp/jism/4904785196032-23-5904-n/",
+      "title": "タニタ 体組成計（メタリックブルー） BC623LBL TANITA 左右部位別体組成計　BC-623L [BC623LBL]",
+      "price": "23,090",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/mypita/bc623lbl/",
+      "title": "タニタ 左右部位別体組成計 メタリックブルー BC623LBL 正規品 日本製 TANITA BC-623L BL 4904785196032",
+      "price": "21,780",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/jism/4904785230057-23-5904-n/",
+      "title": "タニタ 体組成計（カッパー） BC623LCP TANITA 左右部位別体組成計 BC-623L [BC623LCP]",
+      "price": "23,090",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/relie-3f/bc623l/",
+      "title": "TANITA タニタ 体組成計 BC-623L | BC623L TANITA タニタ 体組成計 メタリックブルー カッパー【最大3,000円OFFクーポン・20日3倍｜ブラックフライデー】",
+      "price": "20,521",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/koreda/bc623l/",
+      "title": "TANITA タニタ 体組成計 BC-623L | BC623L TANITA タニタ 体組成計 メタリックブルー カッパー【最大3,000円OFFクーポン・20日3倍｜ブラックフライデー】",
+      "price": "20,521",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/mypita/bc623lcp/",
+      "title": "タニタ 左右部位別体組成計 カッパー BC623LCP 正規品 日本製 BC-623L CP 4904785230057",
+      "price": "21,780",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/youplan/100003969312/",
+      "title": "【ポイント10倍】 タニタ 体重計・体脂肪計・体組成計 BC-623L [メタリックブルー] [タイプ：体組成計 測定方式：両手両足 サイズ：312x58x362 mm 重量：2.7 kg] 【P10倍】",
+      "price": "29,260",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/youplan/100003969311/",
+      "title": "【ポイント10倍】 タニタ 体重計・体脂肪計・体組成計 BC-623L [カッパー] [タイプ：体組成計 測定方式：両手両足 サイズ：312x58x362 mm 重量：2.7 kg] 【P10倍】",
+      "price": "29,370",
+      "ad": false
+     }
+    ],
+    "top": {
+     "url": "https://item.rakuten.co.jp/jism/4904785196032-23-5904-n/",
+     "title": "タニタ 体組成計（メタリックブルー） BC623LBL TANITA 左右部位別体組成計　BC-623L [BC623LBL]",
+     "price": "23,090",
+     "ad": false,
+     "page": {
+      "title": "【楽天市場】タニタ 体組成計（メタリックブルー） BC623LBL TANITA 左右部位別体組成計　BC-623L [BC623LBL]：Joshin web 家電とPCの大型専門店",
+      "cart": true,
+      "h1": ""
+     }
+    }
+   }
+  },
+  "tanita-bc-774l": {
+   "amazon": {
+    "searched": 32,
+    "hits": [
+     {
+      "asin": "B0F8Q35D2W",
+      "title": "タニタ 体重計 体組成計 スマホ連動【業界初 脚点判定（体重を支える足の筋肉量を点数化）】体脂肪率/筋肉量/内臓脂肪レベル/体重/体内年齢/基礎代謝量/BMI/乗るピタ/マイサポ 立て掛け収納OK ヘルスメーター BC-774L-WH",
+      "price": "",
+      "sponsored": false
+     },
+     {
+      "asin": "B0F8Q3T3PC",
+      "title": "タニタ 体重計 体組成計 スマホ連動【業界初 脚点判定（体重を支える足の筋肉量を点数化）】体脂肪率/筋肉量/内臓脂肪レベル/体重/体内年齢/基礎代謝量/BMI/乗るピタ/マイサポ 立て掛け収納OK ヘルスメーター BC-774L-BK",
+      "price": "",
+      "sponsored": false
+     }
+    ],
+    "top": {
+     "asin": "B0F8Q35D2W",
+     "title": "タニタ 体重計 体組成計 スマホ連動【業界初 脚点判定（体重を支える足の筋肉量を点数化）】体脂肪率/筋肉量/内臓脂肪レベル/体重/体内年齢/基礎代謝量/BMI/乗るピタ/マイサポ 立て掛け収納OK ヘルスメーター BC-774L-WH",
+     "price": "",
+     "sponsored": false,
+     "page": {
+      "title": "Amazon.co.jp: タニタ 体重計 体組成計 スマホ連動【業界初 脚点判定（体重を支える足の筋肉量を点数化）】体脂肪率/筋肉量/内臓脂肪レベル/体重/体内年齢/基礎代謝量/BMI/乗るピタ/マイサポ 立て掛け収納OK ヘルスメーター",
+      "cart": true,
+      "h1": "商品概要には、主要な商品情報が記載されています \nキーボードショートカット  Shift + opt + D"
+     }
+    }
+   },
+   "rakuten": {
+    "searched": 45,
+    "hits": [
+     {
+      "url": "https://item.rakuten.co.jp/tanita/bc774l/",
+      "title": "【ポイント20倍：ブラックフライデー】 タニタ 体重計 体組成計 体脂肪計 BC-774L スマホ 連動 スマホ連動 アプリ 脚点タニタ脚点 足 筋肉 体脂肪率 内臓脂肪 筋肉量 自動認識 乗るだけ 100g単位 簡単操作 デジタル 正確 ホワイト ブラック bc774l TANITA",
+      "price": "13,200",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/minimalife/bc774l/",
+      "title": "タニタ 体組成計 乗るピタ 脚点 スマホ連動 BC-774L 送料無料 体重計 体脂肪計 ヘルスメーター アプリ連動 Bluetooth デジタル プレゼント ギフト 男性 女性 健康管理 ダイエット 100g 筋肉量 基礎代謝 体内年齢 BMI 薄い コンパクト 収納 TANITA ss26",
+      "price": "11,880",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/tanita/bc774l_2/",
+      "title": "タニタ 体重計 体組成計 体脂肪計 BC-774L スマホ 連動 アプリ 脚点 足 筋肉 体脂肪率 内臓脂肪 筋肉量 自動認識 乗るだけ 100g単位 簡単操作 デジタル 正確 ホワイト ブラック TANITA",
+      "price": "13,200",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/fukushi-kobo/g4560110/",
+      "title": "TANITA タニタ 脚点計測体組成計 BC-774L WH",
+      "price": "13,200",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/ibuki-shop/20261103110719_111/",
+      "title": "タニタ 体重計 体組成計 スマホ連動【業界初 脚点判定（体重を支える足の筋肉量を点数化）】体脂肪率/筋肉量/内臓脂肪レベル/体重/体内年齢/基礎代謝量/BMI/乗るピタ/マイサポ 立て掛け収納OK ヘルスメーター BC-774L-WH",
+      "price": "15,842",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/tsunagu2017/ncwmgdqu618x1yxafd9s50x/",
+      "title": "体組成計 体重計 TANITA タニタ BC-774L スマホ連動 乗るピタ ヘルスメーター 脚点判定 体脂肪率 筋肉量 内臓脂肪レベル 体内年齢 基礎代謝量 BMI 立て掛け収納 薄型",
+      "price": "16,400",
+      "ad": false
+     }
+    ],
+    "top": {
+     "url": "https://item.rakuten.co.jp/tanita/bc774l/",
+     "title": "【ポイント20倍：ブラックフライデー】 タニタ 体重計 体組成計 体脂肪計 BC-774L スマホ 連動 スマホ連動 アプリ 脚点タニタ脚点 足 筋肉 体脂肪率 内臓脂肪 筋肉量 自動認識 乗るだけ 100g単位 簡単操作 デジタル 正確 ホワイト ブラック bc774l TANITA",
+     "price": "13,200",
+     "ad": false,
+     "page": {
+      "title": "【楽天市場】【ポイント20倍：ブラックフライデー】 タニタ 体重計 体組成計 体脂肪計 BC-774L スマホ 連動 スマホ連動 アプリ 脚点タニタ脚点 足 筋肉 体脂肪率 内臓脂肪 筋肉量 自動認識 乗るだけ 100g単位 簡単操作 デジ",
+      "cart": true,
+      "h1": ""
+     }
+    }
+   }
+  },
+  "withings-body-smart": {
+   "amazon": {
+    "searched": 23,
+    "hits": []
+   },
+   "rakuten": {
+    "searched": 45,
+    "hits": [
+     {
+      "url": "https://item.rakuten.co.jp/trend-tech/3700546708602/",
+      "title": "【正規販売代理店】 体重計 Withings Body Smart ヘルスケア ウィジングス ボディ 体組成計 筋肉量 内臓脂肪　健康管理",
+      "price": "15,950",
+      "ad": false
+     }
+    ],
+    "top": {
+     "url": "https://item.rakuten.co.jp/trend-tech/3700546708602/",
+     "title": "【正規販売代理店】 体重計 Withings Body Smart ヘルスケア ウィジングス ボディ 体組成計 筋肉量 内臓脂肪　健康管理",
+     "price": "15,950",
+     "ad": false,
+     "page": {
+      "title": "【楽天市場】【正規販売代理店】 体重計 Withings Body Smart ヘルスケア ウィジングス ボディ 体組成計 筋肉量 内臓脂肪　健康管理：トレテク！SoftBank SELECTION",
+      "cart": true,
+      "h1": ""
+     }
+    }
+   }
+  },
+  "elecom-hcs-wfs03": {
+   "amazon": {
+    "searched": 17,
+    "hits": []
+   },
+   "rakuten": {
+    "searched": 45,
+    "hits": [
+     {
+      "url": "https://item.rakuten.co.jp/ksdenki/4549550286626/",
+      "title": "エレコム Wi-Fi通信機能搭載　ECLEAR（エクリア）体組成計 HCS-WFS03-BK",
+      "price": "5,530",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/ksdenki/4549550286633/",
+      "title": "エレコム Wi-Fi通信機能搭載　ECLEAR（エクリア）体組成計 HCS-WFS03-WH",
+      "price": "6,358",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/r-kojima/4549550286626/",
+      "title": "エレコム　ELECOM　体重計 体組成計 自動認識機能付 Wi-Fi スマホ連動 ECLEAR Plus ブラック　HCS-WFS03BK",
+      "price": "5,530",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/biccamera/4549550286626/",
+      "title": "ELECOM｜エレコム Wi-Fi通信機能搭載 体組成計 ECLEAR（エクリア） ブラック HCS-WFS03BK",
+      "price": "5,530",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/mamamedic/b0c9lsfds8/",
+      "title": "エレコム 体重計 体組成計 データ転送操作不要 Wi-Fi接続 カーペット脚 バックライト付き 体重/内臓脂肪レベル/体脂肪率/BMI/骨格筋率/骨量/基礎代謝 50g単位 HCS-WFS03BK/HCS-WFS03WH ブラック",
+      "price": "8,140",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/biccamera/4549550286633/",
+      "title": "ELECOM｜エレコム Wi-Fi通信機能搭載 体組成計 ECLEAR（エクリア） ホワイト HCS-WFS03WH",
+      "price": "6,358",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/shopfuu/adsqkfzj5un9aoukmxpm--b0c9lsfds8/",
+      "title": "エレコム 体重計 体組成計 【 データ転送操作不要 Wi-Fi接続 】 カーペット脚 バックライト付き (体重/内臓脂肪レベル/体脂肪率/BMI/骨格筋率/骨量/基礎代謝) 50g単位 HCS-WFS03 (ホワイト)",
+      "price": "8,050",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/tsukasa-shop/adsqkfzj5un9aoukmxpm--b0c9lsfds8/",
+      "title": "エレコム 体重計 体組成計 【 データ転送操作不要 Wi-Fi接続 】 カーペット脚 バックライト付き (体重/内臓脂肪レベル/体脂肪率/BMI/骨格筋率/骨量/基礎代謝) 50g単位 HCS-WFS03 (ホワイト)",
+      "price": "7,990",
+      "ad": false
+     }
+    ],
+    "top": {
+     "url": "https://item.rakuten.co.jp/ksdenki/4549550286626/",
+     "title": "エレコム Wi-Fi通信機能搭載　ECLEAR（エクリア）体組成計 HCS-WFS03-BK",
+     "price": "5,530",
+     "ad": false,
+     "page": {
+      "title": "【楽天市場】エレコム Wi-Fi通信機能搭載　ECLEAR（エクリア）体組成計 HCS-WFS03-BK：ケーズデンキ　楽天市場店",
+      "cart": true,
+      "h1": ""
+     }
+    }
+   }
+  },
+  "omron-krd-703t": {
+   "amazon": {
+    "searched": 52,
+    "hits": [
+     {
+      "asin": "B0GXYZ5QB3",
+      "title": "体重 体組成計 ン ブラック KRD-703T スマホ連動 データ自動転送 全身測定方式 部位別測定 BMI 骨格筋率 体脂肪率",
+      "price": "￥14,364",
+      "sponsored": false
+     },
+     {
+      "asin": "B0HRT416X5",
+      "title": "体重 体組成計 カラダスキャン ブラック KRD-703T スマホ連動 データ自動転送 全身測定方式 部位別測定 BMI 骨格筋率 体脂肪率",
+      "price": "￥13,636",
+      "sponsored": false
+     }
+    ],
+    "top": {
+     "asin": "B0GXYZ5QB3",
+     "title": "体重 体組成計 ン ブラック KRD-703T スマホ連動 データ自動転送 全身測定方式 部位別測定 BMI 骨格筋率 体脂肪率",
+     "price": "￥14,364",
+     "sponsored": false,
+     "page": {
+      "title": "Amazon.co.jp: 体重 体組成計 ン ブラック KRD-703T スマホ連動 データ自動転送 全身測定方式 部位別測定 BMI 骨格筋率 体脂肪率 : ホーム＆キッチン",
+      "cart": true,
+      "h1": "商品概要には、主要な商品情報が記載されています \nキーボードショートカット  Shift + opt + D"
+     }
+    }
+   },
+   "rakuten": {
+    "searched": 45,
+    "hits": [
+     {
+      "url": "https://item.rakuten.co.jp/life-rhythm/hbf-702t/",
+      "title": "＼対象商品限定950円OFFクーポン配布中／オムロン 公式 体組成計 KRD-703T カラダスキャン ブラック 体重計 スマホ連動 部位別測定 体脂肪計 内臓脂肪レベル bluetooth アプリ iPhone ヘルスケア 体脂肪率 基礎代謝 骨格筋率 スマホ連携 送料無料 デジタル",
+      "price": "17,750",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/lightbase/lb9917208bd5/",
+      "title": "オムロン 体重 体組成計 カラダスキャン ブラック KRD-703T スマホ連動 データ自動転送 全身測定方式 部位別測定 BMI 骨格筋率 体",
+      "price": "20,667",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/kokolohas-style/202307100318274975479418945/",
+      "title": "オムロン 体重体組成計KRD-703T カラダスキャン KRD-703T",
+      "price": "24,637",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/itemstore-oosaka/10000100/",
+      "title": "オムロン 体重体組成計KRD-703T カラダスキャン KRD-703T",
+      "price": "22,186",
+      "ad": false
+     }
+    ],
+    "top": {
+     "url": "https://item.rakuten.co.jp/life-rhythm/hbf-702t/",
+     "title": "＼対象商品限定950円OFFクーポン配布中／オムロン 公式 体組成計 KRD-703T カラダスキャン ブラック 体重計 スマホ連動 部位別測定 体脂肪計 内臓脂肪レベル bluetooth アプリ iPhone ヘルスケア 体脂肪率 基礎代謝 骨格筋率 スマホ連携 送料無料 デジタル",
+     "price": "17,750",
+     "ad": false,
+     "page": {
+      "title": "【楽天市場】＼対象商品限定950円OFFクーポン配布中／オムロン 公式 体組成計 KRD-703T カラダスキャン ブラック 体重計 スマホ連動 部位別測定 体脂肪計 内臓脂肪レベル bluetooth アプリ iPhone ヘルスケア 体",
+      "cart": true,
+      "h1": ""
+     }
+    }
+   }
+  },
+  "omron-krd-603t2": {
+   "amazon": {
+    "searched": 52,
+    "hits": [
+     {
+      "asin": "B0C2J6BX53",
+      "title": "オムロン 体重 体組成計 カラダスキャン ブラック KRD-603T2-BK スマホ連動 データ自動転送 自動認識 乗るだけで測定開始 50g単位 BMI 骨格筋率 体脂肪率",
+      "price": "￥12,916",
+      "sponsored": false
+     },
+     {
+      "asin": "B0C2J48K8X",
+      "title": "オムロン 体重 体組成計 カラダスキャン ホワイト KRD-603T2-W スマホ連動 データ自動転送自動認識 乗るだけで測定開始 50g単位 BMI 骨格筋率 体脂肪率",
+      "price": "￥13,132",
+      "sponsored": false
+     }
+    ],
+    "top": {
+     "asin": "B0C2J6BX53",
+     "title": "オムロン 体重 体組成計 カラダスキャン ブラック KRD-603T2-BK スマホ連動 データ自動転送 自動認識 乗るだけで測定開始 50g単位 BMI 骨格筋率 体脂肪率",
+     "price": "￥12,916",
+     "sponsored": false,
+     "page": {
+      "title": "Amazon | オムロン 体重 体組成計 カラダスキャン ブラック KRD-603T2-BK スマホ連動 データ自動転送 自動認識 乗るだけで測定開始 50g単位 BMI 骨格筋率 体脂肪率 | Omron | 体重・体脂肪・体組成計 通",
+      "cart": true,
+      "h1": "商品概要には、主要な商品情報が記載されています \nキーボードショートカット  Shift + opt + D"
+     }
+    }
+   },
+   "rakuten": {
+    "searched": 45,
+    "hits": [
+     {
+      "url": "https://item.rakuten.co.jp/life-rhythm/hbf-256t-w/",
+      "title": "オムロン 公式 体組成計 KRD-603T2-W KRD-603T2-BK カラダスキャン 体重計 スマホ連動 体脂肪計 内臓脂肪レベル bluetooth アプリ ヘルスケア 体脂肪率 基礎代謝 スマホ連携 ヘルスメーター",
+      "price": "14,980",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/chiisana--shiawase/20261017120127_41/",
+      "title": "オムロン 体重 体組成計 カラダスキャン ホワイト KRD-603T2-W スマホ連動 データ自動転送自動認識 乗るだけで測定開始 50g単位 BMI 骨格筋率 体脂肪率",
+      "price": "17,967",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/denitselect/4975479419096/",
+      "title": "オムロン 体重 体組成計 カラダスキャン ホワイト KRD-603T2-W スマホ連動 データ自動転送自動認識 乗るだけで測定開始 50g単位 BMI 骨格筋率 体脂肪率",
+      "price": "17,770",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/saino/b0cb676lkt/",
+      "title": "オムロン 体重 体組成計 カラダスキャン KRD-603T2-BK/KRD-603T2-W スマホ連動 データ自動転送 自動認識 乗るだけで測定開始 50g単位 BMI 骨格筋率 体脂肪率 ブラック / ホワイト",
+      "price": "21,120",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/lifeforest/20261105012946_187_df8f/",
+      "title": "オムロン 体重 体組成計 カラダスキャン ブラック KRD-603T2-BK スマホ連動 データ自動転送 自動認識 乗るだけで測定開始 50g単位 BMI 骨格筋率 体脂肪率",
+      "price": "16,313",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/denitselect/4975479419102/",
+      "title": "オムロン 体重 体組成計 カラダスキャン ブラック KRD-603T2-BK スマホ連動 データ自動転送 自動認識 乗るだけで測定開始 50g単位 BMI 骨格筋率 体脂肪率",
+      "price": "16,990",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/sproutsllc/s-b0c2j6bx53-20261019/",
+      "title": "オムロン 体重 体組成計 カラダスキャン ブラック KRD-603T2-BK スマホ連動 データ自動転送 自動認識 乗るだけで測定開始 50g単位 BMI 骨格筋率 体脂肪率",
+      "price": "19,536",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/lifeforest/20261105012949_187_d484/",
+      "title": "オムロン 体重 体組成計 カラダスキャン ホワイト KRD-603T2-W スマホ連動 データ自動転送自動認識 乗るだけで測定開始 50g単位 BMI 骨格筋率 体脂肪率",
+      "price": "17,036",
+      "ad": false
+     }
+    ],
+    "top": {
+     "url": "https://item.rakuten.co.jp/life-rhythm/hbf-256t-w/",
+     "title": "オムロン 公式 体組成計 KRD-603T2-W KRD-603T2-BK カラダスキャン 体重計 スマホ連動 体脂肪計 内臓脂肪レベル bluetooth アプリ ヘルスケア 体脂肪率 基礎代謝 スマホ連携 ヘルスメーター",
+     "price": "14,980",
+     "ad": false,
+     "page": {
+      "title": "【楽天市場】オムロン 公式 体組成計 KRD-603T2-W KRD-603T2-BK カラダスキャン 体重計 スマホ連動 体脂肪計 内臓脂肪レベル bluetooth アプリ ヘルスケア 体脂肪率 基礎代謝 スマホ連携 ヘルスメーター：オ",
+      "cart": true,
+      "h1": ""
+     }
+    }
+   }
+  },
+  "xiaomi-s400": {
+   "amazon": {
+    "searched": 36,
+    "hits": [
+     {
+      "asin": "B0D3P8ZP21",
+      "title": "Xiaomi S400 浴室用スケール BHR7793GL ホワイト",
+      "price": "￥7,613",
+      "sponsored": false
+     }
+    ],
+    "top": {
+     "asin": "B0D3P8ZP21",
+     "title": "Xiaomi S400 浴室用スケール BHR7793GL ホワイト",
+     "price": "￥7,613",
+     "sponsored": false,
+     "page": {
+      "title": "Amazon.co.jp: Xiaomi S400 浴室用スケール BHR7793GL ホワイト : ドラッグストア",
+      "cart": true,
+      "h1": "商品概要には、主要な商品情報が記載されています \nキーボードショートカット  Shift + opt + D"
+     }
+    }
+   },
+   "rakuten": {
+    "searched": 45,
+    "hits": [
+     {
+      "url": "https://item.rakuten.co.jp/xiaomiofficial/m59594/",
+      "title": "Xiaomi 体組成計 S400 詳細なヘルスチェックを可能にする二周波精度 身体データを正確に測定 健康状態を詳細に分析 25項目測定 体脂肪率測定 Bluetooth 5.0接続 おしゃれ 薄型 コンパクト 高性能",
+      "price": "4,130円(価格+送料)",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/titivate520/yq55rv7vhjpp3au6h2flb3bjne/",
+      "title": "S400 更新モデル 100Wブックシェルフアクティブスピーカー デュアルモード3インチBluetooth iFiホームサブウーファー音楽システムTVコンピュータ用",
+      "price": "13,359",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/costmarket/os25urb2hmqdthc4vhndekvcfa/",
+      "title": "AIYIMA S400 【更新モデル 】100Wブックシェルフアクティブスピーカー デュアルモード3インチBluetooth HiFiホームサブウーファー音楽システムTVコンピュータ用",
+      "price": "13,279",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/cocohi-nata/yvzrhvafbfyes36nrlk4jse5a4/",
+      "title": "AIYIMA S400 【更新モデル 】100Wブックシェルフアクティブスピーカー デュアルモード3インチBluetooth HiFiホームサブウーファー音楽システムTVコンピュータ用",
+      "price": "13,279",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/whitehalca/nvufopmw4cdjcswhgectfvn7ly/",
+      "title": "AIYIMA S400 【更新モデル 】100Wブックシェルフアクティブスピーカー デュアルモード3インチBluetooth HiFiホームサブウーファー音楽システムTVコンピュータ用",
+      "price": "13,279",
+      "ad": false
+     }
+    ],
+    "top": {
+     "url": "https://item.rakuten.co.jp/xiaomiofficial/m59594/",
+     "title": "Xiaomi 体組成計 S400 詳細なヘルスチェックを可能にする二周波精度 身体データを正確に測定 健康状態を詳細に分析 25項目測定 体脂肪率測定 Bluetooth 5.0接続 おしゃれ 薄型 コンパクト 高性能",
+     "price": "4,130円(価格+送料)",
+     "ad": false,
+     "page": {
+      "title": "【楽天市場】Xiaomi 体組成計 S400 詳細なヘルスチェックを可能にする二周波精度 身体データを正確に測定 健康状態を詳細に分析 25項目測定 体脂肪率測定 Bluetooth 5.0接続 おしゃれ 薄型 コンパクト 高性能：Xiao",
+      "cart": true,
+      "h1": ""
+     }
+    }
+   }
+  }
+ }
+}
