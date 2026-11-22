@@ -110,7 +110,7 @@ for (const bt of btns) {
         cart: /カートに入れる|カートに追加|今すぐ買う|購入手続き|買い物かごに入れる|かごに追加/.test(t),
         amazonResults: document.querySelectorAll('[data-component-type="s-search-result"]').length,
         rakutenResults: document.querySelectorAll('.searchresultitem, [class*="searchresultitem"], [data-testid*="item"]').length,
-        yahooResults: [...document.querySelectorAll('[class*="SearchResult_SearchResultItem"]')].filter((e) => !e.closest('.carousel')).length,
+        yahooResults: [...document.querySelectorAll('[class*="SearchResult_SearchResultItem"]')].filter((e) => !e.closest('.carousel') && !(e.parentElement && e.parentElement.closest('[class*="SearchResult_SearchResultItem"]'))).length,
         noHit: /該当する商品が見つかりません|検索結果がありません|に一致する商品は見つかりませんでした|見つかりませんでした/.test(t),
         modelOnPage: m ? norm(t).includes(norm(m.split(' ').slice(-1)[0])) : null,
         // 検索結果の 1 件ずつ（広告の枠・検索欄・見出しは見ない）に型番が入っているか
@@ -124,7 +124,9 @@ for (const bt of btns) {
           let els = [...document.querySelectorAll(sel)];
           if (!els.length) els = [...document.querySelectorAll(lnk)];
           const isAd = (e) => !!e.closest('.carousel') || [...e.querySelectorAll('span, em, small, p, div')].some((x) => x.children.length === 0 && /^(PR|広告|スポンサー)$/.test((x.textContent || '').trim()));
-          const ads = store === 'yahoo' ? els.filter(isAd).length + [...document.querySelectorAll('.carousel .item')].filter((x) => !els.includes(x)).length : null;
+          if (store === 'yahoo') els = els.filter((e) => !(e.parentElement && e.parentElement.closest(sel)));
+          // [class*=…] は 1 件の中の部品（…SearchResultItem__image__… など）にも当たり、件数が十数倍に膨らんでいた（t982〜t989）。いちばん外側の箱だけを 1 件と数える
+          const ads = store === 'yahoo' ? els.filter(isAd).length + document.querySelectorAll('.carousel .item').length : null;
           if (store === 'yahoo') els = els.filter((e) => !isAd(e));
           const title = (e) => (e.innerText || '').split('\n').map((x) => x.trim()).filter(Boolean).sort((a, z) => z.length - a.length).find((x) => x.length <= 160) || '';
           // Yahoo! は 1 件の箱の文字全体で型番を見る（題名がいちばん長い行とは限らない）。ほかの店は今までどおり題名の行で見る

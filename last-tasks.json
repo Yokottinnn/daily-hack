@@ -1,4 +1,5 @@
 [
-      {"task": "t993-find-pages-iris-oven-2.sh", "rc": 0, "out": "  - https://item.rakuten.co.jp/eleking/561060/｜14,800｜[10%OFFクーポン★19日20:00-25日9:59]電子レンジ オーブンレンジ スチームオーブンレンジ フラット アイリスオーヤマ 18L グリル スチー   - https://item.rakuten.co.jp/inskagu/574609/｜14,800｜【P5�"},
-      {"task": "t994-iris-oven-official-2.sh", "rc": 0, "out": "    10cm以上     ● ● 肩より高い位置に設置しない     ● ● 本体の上にものを置かない  **読むだけ。LLM 不使用（$0／回）。**"}
+      {"task": "t1035-verify-rakuten-gaming-monitor.sh", "rc": 0, "out": "- 商品: 検索結果 50 件・型番「MSI MAG 272QP QD-OLED X24」の表示: あり - 題名: 【楽天市場】MSI MAG 272QP QD-OLED X24の通販 - 写真: Mac の手元のみ（private-shots/shop-verify/gaming-monitor-comparison-2026/v07-rakuten.jpg・公開しない） -rw-r--r--   1 ny  staff"},
+      {"task": "t1036-verify-yahoo-gaming-monitor.sh", "rc": 0, "out": "- 商品: 検索結果 30 件・型番「MSI MAG 272QP QD-OLED X24」の表示: あり - 題名: MSI MAG 272QP QD-OLED X24のおすすめ人気商品一覧 通販 - Yahoo!ショッピング - 写真: Mac の手元のみ（private-shots/shop-verify/gaming-monitor-comparison-2026/v07-yahoo.jpg・公�"},
+      {"task": "t1037-verify-amazon-gaming-monitor.sh", "rc": 0, "out": "- 商品: 検索結果 0 件・型番「」の表示: —・カートに入れるボタンあり - 題名: Amazon.co.jp: 【Amazon.co.jp限定】MSI QD-有機EL ゲーミングモニター MAG 272QP QD-OLED X24 26.5インチ/WQHD/QD- - 写真: Mac の手元のみ（private-shots/shop-verify/gaming-m"}
   ]
