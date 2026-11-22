@@ -103,6 +103,7 @@
 | `body-composition-scale-comparison-2026` | 3 店ボタン（`src/data/shop/body-scale.json`） | 2026-11-23 追加。体組成計 8 機種（タニタ・オムロン・Withings・エレコム・Xiaomi） |
 | `electric-kettle-comparison-2026` | 3 店ボタン（`src/data/shop/electric-kettle.json`） | 2026-11-22 追加。電気ケトル 8 機種 |
 | `electric-shaver-comparison-2026` | 3 店ボタン（`src/data/shop/electric-shaver.json`・`shaver-blade.json`） | 2026-11-22 追加。メンズ電動シェーバー 8 機種と替刃 7 種 |
+| `dashcam-comparison-2026` | 3 店ボタン（`src/data/shop/dashcam.json`） | 2026-11-23 追加。ドライブレコーダー 7 機種（コムテック・ケンウッド・ユピテル・パイオニア・セルスター・アルパイン。Amazon は 4 機種が ASIN） |
 
 ## A8 のリンクを入れた湾岸ライフの記事（2026-10-25）
 

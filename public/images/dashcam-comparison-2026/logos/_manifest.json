@@ -1,0 +1,44 @@
+{
+ "comtec.png": {
+  "brand": "コムテック",
+  "src": "https://www.e-comtec.co.jp/_include/img/logo_bk.webp",
+  "page": "https://www.e-comtec.co.jp/",
+  "kind": "公式サイトのヘッダーのロゴ（クラウドから取得・WebP を PNG にした）",
+  "fetched": "2026-11-23"
+ },
+ "kenwood.png": {
+  "brand": "ケンウッド",
+  "src": "https://www.kenwood.com/content/dam/kenwood/webmaterial/kenwood_logo.svg",
+  "page": "https://www.kenwood.com/jp/",
+  "kind": "公式サイトのヘッダーのロゴ（ops/tasks/t1093・SVG を Chromium で PNG にした・白抜きなので on-dark）",
+  "fetched": "2026-11-23"
+ },
+ "yupiteru.png": {
+  "brand": "ユピテル",
+  "src": "https://www.yupiteru.co.jp/share/img/base/logo.png",
+  "page": "https://www.yupiteru.co.jp/",
+  "kind": "公式サイトのヘッダーのロゴ（ops/tasks/t1093）",
+  "fetched": "2026-11-23"
+ },
+ "pioneer.png": {
+  "brand": "パイオニア",
+  "src": "https://assets.jpn.pioneer/ja/assets/img/logo.svg",
+  "page": "https://jpn.pioneer/ja/carrozzeria/",
+  "kind": "公式サイトのヘッダーのロゴ（ops/tasks/t1093・SVG を Chromium で PNG にした）",
+  "fetched": "2026-11-23"
+ },
+ "cellstar.png": {
+  "brand": "セルスター",
+  "src": "https://www.cellstar.co.jp/assets/img/common/headLogo.png",
+  "page": "https://www.cellstar.co.jp/",
+  "kind": "公式サイトのヘッダーのロゴ（ops/tasks/t1093・白抜きなので on-dark）",
+  "fetched": "2026-11-23"
+ },
+ "alpine.png": {
+  "brand": "アルパイン",
+  "src": "https://www.alpine.co.jp/files/common/images/common_img_header01.png",
+  "page": "https://www.alpine.co.jp/",
+  "kind": "公式サイトのヘッダーのロゴ（ops/tasks/t1093）",
+  "fetched": "2026-11-23"
+ }
+}
