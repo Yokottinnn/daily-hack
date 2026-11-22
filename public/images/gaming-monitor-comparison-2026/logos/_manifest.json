@@ -1,0 +1,68 @@
+{
+ "zowie": {
+  "brand": "ZOWIE（BenQ）",
+  "file": "zowie.png",
+  "source": "https://zowie.benq.com/ja-jp/monitor/xq2766x.html",
+  "page": "https://zowie.benq.com/ja-jp/monitor/xq2766x.html",
+  "license_note": "公式サイト（商標・識別目的）",
+  "fetched": "2026-11-22",
+  "width": 1189,
+  "height": 277,
+  "note": "ヘッダーのインライン SVG を Chromium で PNG にした。文字が白なので on-dark で置く"
+ },
+ "rog": {
+  "brand": "ROG（ASUS）",
+  "file": "rog.png",
+  "source": "https://rog.asus.com/jp/monitors/27-to-31-5-inches/rog-strix-xg27acs-gen2-xg27acsr/",
+  "page": "https://rog.asus.com/jp/monitors/27-to-31-5-inches/rog-strix-xg27acs-gen2-xg27acsr/",
+  "license_note": "公式サイト（商標・識別目的）",
+  "fetched": "2026-11-22",
+  "width": 1200,
+  "height": 217,
+  "note": "ヘッダーのインライン SVG（id=rogLogo）を Chromium で PNG にした"
+ },
+ "lg": {
+  "brand": "LG",
+  "file": "lg.png",
+  "source": "https://www.lg.com/content/dam/lge/common/logo/logo-lg-100-44.svg",
+  "page": "https://www.lg.com/content/dam/lge/common/logo/logo-lg-100-44.svg",
+  "license_note": "公式サイト（商標・識別目的）",
+  "fetched": "2026-11-22",
+  "width": 1190,
+  "height": 528,
+  "note": "公式サイトのロゴ SVG を Chromium で PNG にした"
+ },
+ "iodata": {
+  "brand": "アイ・オー・データ機器（I-O DATA）",
+  "file": "iodata.png",
+  "source": "https://www.iodata.jp/shared/img/logo_white.png",
+  "page": "https://www.iodata.jp/shared/img/logo_white.png",
+  "license_note": "公式サイト（商標・識別目的）",
+  "fetched": "2026-11-22",
+  "width": 292,
+  "height": 34,
+  "note": "公式サイトのフッターの白抜きロゴ。on-dark で置く"
+ },
+ "alienware": {
+  "brand": "Alienware（デル）",
+  "file": "alienware.png",
+  "source": "https://i.dell.com/assetlink/img/en/alienware-logo-head-rgb-dl28rt-original.png",
+  "page": "https://www.dell.com/ja-jp/shop/monitors/apd/alienware-27-280hz-qd-oled%E3%82%B2%E3%83%BC%E3%83%9F%E3%83%B3%E3%82%B0-%E3%83%A2%E3%83%8B%E3%82%BF%E3%83%BC-aw2725d/aw2725d_monitor",
+  "license_note": "公式サイト（商標・識別目的）",
+  "fetched": "2026-11-22",
+  "width": 113,
+  "height": 160,
+  "note": "デル公式の AW2725D 製品ページにある Alienware のロゴ（ops/tasks/t1033 で取得）"
+ },
+ "msi-mag": {
+  "brand": "MSI MAG シリーズ",
+  "file": "msi-mag.png",
+  "source": "https://storage-asset.msi.com/global/picture/image/feature/monitor/MAG/MAG-272QP-QD-OLED-X50/kv/mag-icon.png",
+  "page": "https://jp.msi.com/Monitor/MAG-272QP-QD-OLED-X24",
+  "license_note": "公式サイト（商標・識別目的）",
+  "fetched": "2026-11-22",
+  "width": 300,
+  "height": 107,
+  "note": "MSI 公式の製品ページの「MSI MAG Series logo」（ops/tasks/t1030 で取得）。透明な余白だけ落とした"
+ }
+}
