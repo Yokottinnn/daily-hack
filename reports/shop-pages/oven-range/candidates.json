@@ -1,10 +1,10 @@
 {
  "series": "oven-range",
- "generated": "2026-11-22T09:30:33.492Z",
+ "generated": "2026-11-22T09:32:07.854Z",
  "items": {
   "sharp-ax-rs1d": {
    "amazon": {
-    "searched": 13,
+    "searched": 14,
     "hits": []
    },
    "rakuten": {
@@ -74,7 +74,7 @@
   },
   "panasonic-ne-ubs10e": {
    "amazon": {
-    "searched": 52,
+    "searched": 53,
     "hits": [
      {
       "asin": "B0GX52CLWK",
@@ -180,7 +180,7 @@
   },
   "toshiba-er-d5000c": {
    "amazon": {
-    "searched": 31,
+    "searched": 33,
     "hits": [
      {
       "asin": "B0HQNXS8DQ",
@@ -268,7 +268,7 @@
   },
   "hitachi-mro-w1e": {
    "amazon": {
-    "searched": 15,
+    "searched": 16,
     "hits": [
      {
       "asin": "B0HGKLK4KV",
@@ -432,7 +432,7 @@
   },
   "iris-ms-f3002-b": {
    "amazon": {
-    "searched": 4,
+    "searched": 6,
     "hits": []
    },
    "rakuten": {
