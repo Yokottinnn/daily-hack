@@ -1,0 +1,24 @@
+## 公式 18L（HTTP 200・本文 2894 字）
+  - img official-01.jpg 600x483 10724B alt「スチームオーブンレンジ 18L KMO-F1812-B ブラック」 https://www.irisohyama.co.jp/products/web-catalog/img/items/113535/item_001.jpg
+  - img official-02.png 72x52 1379B alt「レンジ」 https://www.irisohyama.co.jp/products/web-catalog/img/icons/range.png
+  - img official-03.png 72x52 1478B alt「グリル」 https://www.irisohyama.co.jp/products/web-catalog/img/icons/grill.png
+  - img official-04.png 72x52 1535B alt「オーブン」 https://www.irisohyama.co.jp/products/web-catalog/img/icons/oven.png
+  - img official-05.png 72x52 1625B alt「スチーム」 https://www.irisohyama.co.jp/products/web-catalog/img/icons/steam.png
+  - img official-06.jpg 746x600 47299B alt「スチームオーブンレンジ 18L MO-F1808-B ブラック」 https://www.irisohyama.co.jp/products/web-catalog/img/items/516983/item_001.jpg
+  - img official-07.jpg 600x404 10140B alt「スチームオーブンレンジ 18L フラットテーブル MO-F1806-W ホワイト」 https://www.irisohyama.co.jp/products/web-catalog/img/items/513809/item_001.jpg
+- PDF 3 件: https://www.irisohyama.co.jp/products/manual/pdf/113535.pdf https://www.irisohyama.co.jp/products/manual/pdf/516983.pdf https://www.irisohyama.co.jp/products/manual/pdf/513809.pdf
+  - PDF m0 6992508B（HTTP 200）https://www.irisohyama.co.jp/products/manual/pdf/113535.pdf → 手元だけ
+  - PDF m1 10370528B（HTTP 200）https://www.irisohyama.co.jp/products/manual/pdf/516983.pdf → 手元だけ
+  - PDF m2 9898818B（HTTP 200）https://www.irisohyama.co.jp/products/manual/pdf/513809.pdf → 手元だけ
+
+## Amazon B09572Y1QQ
+- 題名: アイリスオーヤマ スチームオーブンレンジ 18L フラットテーブル 時短調理 スピードあたため 自動メニュー20種類 ブラック MO-F1808A
+- 色: —
+- 型番の行: —
+- カート: あり
+
+## Amazon B09PRHJQC1
+- 題名: アイリスオーヤマ スチームオーブンレンジ 18L フラットテーブル 時短調理 スピードあたため 自動メニュー20種類 アッシュ MO-F1808-HA
+- 色: —
+- 型番の行: —
+- カート: あり
