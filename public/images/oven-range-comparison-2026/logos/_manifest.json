@@ -1,0 +1,42 @@
+{
+ "sharp.png": {
+  "brand": "シャープ",
+  "src": "https://jp.sharp/assets/common/images/logo_sharp.svg",
+  "page": "https://jp.sharp/hotcook/",
+  "note": "公式サイトのヘッダーのロゴ（SVG を Chromium で PNG にし、透明の余白だけ落とした）",
+  "fetched": "2026-11-22",
+  "copied_from": "public/images/electric-pressure-cooker-comparison-2026/logos/sharp.png"
+ },
+ "panasonic.png": {
+  "brand": "パナソニック",
+  "page": "https://commons.wikimedia.org/wiki/File:Panasonic_Group_logo.svg",
+  "license": "Public domain",
+  "fetched": "2026-10-18",
+  "copied_from": "public/images/cordless-stick-cleaner-comparison-2026/logos/panasonic.png"
+ },
+ "hitachi.png": {
+  "brand": "日立",
+  "page": "https://commons.wikimedia.org/wiki/File:Hitachi_logo.svg",
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Hitachi_logo.svg/960px-Hitachi_logo.svg.png",
+  "lic": "Public domain",
+  "fetched": "2026-11-22",
+  "via": "Wikimedia Commons",
+  "copied_from": "public/images/cordless-stick-cleaner-comparison-2026/logos/hitachi.png"
+ },
+ "iris.png": {
+  "brand": "アイリスオーヤマ",
+  "page": "https://commons.wikimedia.org/wiki/File:IRIS_OHYAMA_logo.svg",
+  "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/IRIS_OHYAMA_logo.svg/500px-IRIS_OHYAMA_logo.svg.png",
+  "lic": "Public domain",
+  "fetched": "2026-11-22",
+  "via": "Wikimedia Commons",
+  "copied_from": "public/images/cordless-stick-cleaner-comparison-2026/logos/iris.png"
+ },
+ "toshiba.png": {
+  "brand": "東芝",
+  "src": "https://www.toshiba-lifestyle.com/jp/img/common/header-logo-2.svg",
+  "page": "https://www.toshiba-lifestyle.com/jp/microwaves/",
+  "note": "東芝ライフスタイル公式サイトのヘッダーのロゴ（alt=TOSHIBA。SVG を Chromium で PNG にし、透明の余白だけ落とした）",
+  "fetched": "2026-11-22"
+ }
+}
