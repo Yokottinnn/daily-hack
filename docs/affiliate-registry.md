@@ -84,6 +84,7 @@
 | `usb-kiru-moufu-mobile-battery-2026` | 3 店ボタン（`src/data/shop/usb-blanket.json`・`mobile-battery.json`） | 同上（2026-11-20） |
 | `heparin-ruiji-lotion-price-2026` | 3 店ボタン（`src/data/shop/heparin-lotion.json`） | 同上（2026-11-20）。市販の第2類医薬品だけ |
 | `futon-dryer-comparison-2026` | 3 店ボタン（`src/data/shop/futon-dryer.json`） | 同上（2026-11-22） |
+| `smartwatch-comparison-2026` | 3 店ボタン（`src/data/shop/smartwatch.json`） | 同上（2026-11-22） |
 | `premium-hair-dryer-comparison-2026` | 3 店ボタン（`src/data/shop/premium-hair-dryer.json`） | 同上（2026-11-22） |
 
 ## A8 のリンクを入れた湾岸ライフの記事（2026-10-25）
