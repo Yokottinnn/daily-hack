@@ -1,5 +1,3 @@
 [
-      {"task": "t1063-verify-rakuten-electric-shaver.sh", "rc": 0, "out": "- 商品: 検索結果 50 件・型番「フィリップス 替刃 SH71」の表示: あり - 題名: 【楽天市場】フィリップス 替刃 SH71の通販 - 写真: Mac の手元のみ（private-shots/shop-verify/electric-shaver-comparison-2026/v15-rakuten.jpg・公開しない） -rw-r--r--   "},
-      {"task": "t1064-verify-yahoo-electric-shaver.sh", "rc": 0, "out": "- 商品: 検索結果 30 件・型番「フィリップス 替刃 SH71」の表示: あり - 題名: フィリップス 替刃 SH71のおすすめ人気商品一覧 通販 - Yahoo!ショッピング - 写真: Mac の手元のみ（private-shots/shop-verify/electric-shaver-comparison-2026/v15-yahoo."},
-      {"task": "t1065-verify-amazon-electric-shaver.sh", "rc": 0, "out": "- 商品: 検索結果 0 件・型番「」の表示: — - 題名: 警告:専門医療機器 - 写真: Mac の手元のみ（private-shots/shop-verify/electric-shaver-comparison-2026/v15-amazon.jpg・公開しない） -rw-r--r--   1 ny  staff  14584 Nov 23 08:55 report-amazon-v2.md -rw-r--r--   1 "}
+      {"task": "x545-read-follow-ratio-week.sh", "rc": 0, "out": "## 外した件数（follow-balance・日ごと・JST の日付ではなくログの日付） ``` 2026-11-16  起動 6 回 ／ 外れた 6 件 2026-11-17  起動 6 回 ／ 外れた 9 件 2026-11-18  起動 6 回 ／ 外"}
   ]

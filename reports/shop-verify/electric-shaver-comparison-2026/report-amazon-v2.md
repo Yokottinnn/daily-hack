@@ -1,6 +1,6 @@
 # 3 店ボタンの確認: electric-shaver-comparison-2026（scripts/shop/verify-buttons.mjs・**$0**）
 
-生成: **2026-11-22T23:53:13.720Z**
+生成: **2026-11-22T23:54:21.102Z**
 
 - 記事のボタン（同じリンクは 1 回だけ・amazon だけ）: 15 個
 - LinkSwitch のスクリプト: 読み込まれている（vc_pid=892728470）
@@ -30,7 +30,7 @@
 - 途中: https://m.media-amazon.com/images/S/sash/jzEkkqgQ2QXA7oq.html
 - 着いた先: https://www.amazon.co.jp/s?k=%E3%83%96%E3%83%A9%E3%82%A6%E3%83%B3+%E5%AF%86%E7%9D%80%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA7+70-N1200s&tag=dailyhack-22
 - アフィリエイト: 着いた先の URL に tag=dailyhack-22（アソシエイトの印）
-- 買えるか: その商品のページ（カートに入れるボタンあり）（ブラウン対応 シリーズ7替刃 73S F/C73S 互換 シェーバー替刃 交換ヘッド70B1000s 70B1200s 70N1000s 70N1200s 70N4300cs 適用）
+- 買えるか: その商品のページ（カートに入れるボタンあり）（ブラウン対応 s7 替刃 シリーズ7 シリーズ73S F/C73Sシェーバー 替え刃 Series7 70B1000s 70B1200s 70N1000s 70N1200s 70N）
 - 商品: 検索結果 8 件・型番「ブラウン 密着シリーズ7 70-N1200s」の表示: あり・カートに入れるボタンあり
 - 題名: Amazon.co.jp : ブラウン 密着シリーズ7 70-N1200s
 - 写真: Mac の手元のみ（private-shots/shop-verify/electric-shaver-comparison-2026/v03-amazon.jpg・公開しない）
