@@ -1,0 +1,9 @@
+{
+  "_note": "smartwatch-comparison-2026 のロゴ（商標・識別目的・改変なし）。取得・複製 2026-11-22（blog3）。複製したものは copied_from に元の記事を残す（元の _manifest.json に取得元がある）。",
+  "apple.png": {"brand": "Apple", "copied_from": "public/images/wireless-earphone-glass-core-2026/logos/apple.png", "license_note": "公式サイト（商標）"},
+  "google.png": {"brand": "Google", "copied_from": "public/images/pixel10a-vs-nothing3alite-2026/logos/google.png", "src": "https://apps.apple.com/jp/app/id284815942", "kind": "App Store アイコン（Google アプリ・提供元 Google LLC）"},
+  "garmin.png": {"brand": "Garmin", "copied_from": "public/images/fitbit-air-screenless-band-2026/logos/garmin.png", "src": "https://apps.apple.com/jp/app/id583446403", "kind": "App Store アイコン（Garmin Connect・提供元 Garmin）"},
+  "xiaomi.png": {"brand": "Xiaomi", "copied_from": "public/images/suitcase-xiaomi-nenmatsu-2026/logos/xiaomi.png", "page": "https://commons.wikimedia.org/wiki/File:Xiaomi_logo_(2021-).svg"},
+  "samsung.png": {"brand": "Samsung", "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Samsung_wordmark.svg/960px-Samsung_wordmark.svg.png", "page": "https://commons.wikimedia.org/wiki/File:Samsung_wordmark.svg", "license_note": "Public domain（Commons の表記）・商標", "fetched": "2026-11-22"},
+  "huawei.png": {"brand": "HUAWEI", "src": "https://consumer.huawei.com/.resources/huawei-cbg-site-lm-basic/webresources/mkt/etc/designs/huawei-cbg-site/clientlib-campaign-v4/common-v4/images/logo.svg", "page": "https://consumer.huawei.com/jp/", "kind": "公式サイトのヘッダーのロゴ（SVG を Chromium で PNG にした）", "fetched": "2026-11-22"}
+}
