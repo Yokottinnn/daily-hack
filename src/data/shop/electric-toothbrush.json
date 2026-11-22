@@ -1,0 +1,168 @@
+{
+  "id": "electric-toothbrush",
+  "title": "電動歯ブラシ（音波式と回転式・替えブラシ代・電池の持ち）",
+  "_note": "仕様は各メーカーの公式ページ（フィリップスは製品ページの技術仕様、オーラルBは公式サイトと公式ストア、パナソニックは公式の比較表、オムロンは公式ストア）で 2026-11-22 に確かめたものだけ。公式に無い項目は「記載なし」。",
+  "columns": [
+    { "key": "type", "label": "方式" },
+    { "key": "motion", "label": "動き（公称）" },
+    { "key": "battery", "label": "電池の持ち（公称）" },
+    { "key": "modes", "label": "モード" },
+    { "key": "sensor", "label": "押しつけ防止" },
+    { "key": "head", "label": "替えブラシ（公式の目安）" }
+  ],
+  "pricesCheckedAt": null,
+  "items": [
+    {
+      "id": "philips-hx4021",
+      "brand": "フィリップス",
+      "name": "ソニッケアー 2100シリーズ HX4021/01",
+      "badge": "いちばん手軽な音波式",
+      "summary": "手磨きから初めて替える人。ボタン1つで2段階の強さ、約14日間もつ。",
+      "specs": {
+        "type": "音波式",
+        "motion": "記載なし",
+        "battery": "約14日間",
+        "modes": "クリーン（強さ2段階）",
+        "sensor": "記載なし",
+        "head": "約3か月ごと／付属はインターケアー"
+      },
+      "source": "https://www.philips.co.jp/c-p/HX4021_01/2100-rechargeable-toothbrush",
+      "rakuten": { "keyword": "ソニッケアー HX4021/01", "must": ["HX4021"], "exclude": ["替えブラシ", "ブラシヘッド", "互換", "対応", "専用", "交換"] },
+      "yahoo": { "keyword": "ソニッケアー HX4021/01", "must": ["HX4021"], "exclude": ["替えブラシ", "ブラシヘッド", "互換", "対応", "専用", "交換"] },
+      "amazon": { "keyword": "フィリップス ソニッケアー HX4021/01", "asin": null }
+    },
+    {
+      "id": "philips-hx7421",
+      "brand": "フィリップス",
+      "name": "ソニッケアー 7100シリーズ HX7421/11",
+      "badge": "アプリと過圧センサー",
+      "summary": "押しつけ癖を直したい人。4モード×3段階、21日間もつ、充電ケース付き。",
+      "specs": {
+        "type": "音波式",
+        "motion": "約31,000ストローク／分",
+        "battery": "21日間",
+        "modes": "4モード（クリーン・ホワイト・センシティブ・ガムヘルス）×強さ3段階",
+        "sensor": "あり（ライトリングが紫に点灯）",
+        "head": "約3か月ごと／付属はプレミアムガムケア"
+      },
+      "source": "https://www.philips.co.jp/c-p/HX7421_11/series-7100-rechargeable-toothbrush",
+      "rakuten": { "keyword": "ソニッケアー HX7421/11", "must": ["HX7421"], "exclude": ["替えブラシ", "ブラシヘッド", "互換", "対応", "専用", "交換"] },
+      "yahoo": { "keyword": "ソニッケアー HX7421/11", "must": ["HX7421"], "exclude": ["替えブラシ", "ブラシヘッド", "互換", "対応", "専用", "交換"] },
+      "amazon": { "keyword": "フィリップス ソニッケアー 7100 HX7421/11", "asin": null }
+    },
+    {
+      "id": "philips-hx9911",
+      "brand": "フィリップス",
+      "name": "ダイヤモンドクリーン 9000 HX9911/72",
+      "badge": "グラス充電の上位機",
+      "summary": "毎日の道具を良い物にしたい人・贈り物に。ブラシヘッド認識、充電グラス付き。",
+      "specs": {
+        "type": "音波式",
+        "motion": "約31,000ストローク／分",
+        "battery": "14日間",
+        "modes": "4モード（クリーン・ディープクリーンプラス・ガムヘルス・ホワイトプラス）×強さ3段階",
+        "sensor": "あり（振動とパルス音）",
+        "head": "約3か月ごと／付属はA3オールインワン"
+      },
+      "source": "https://www.philips.co.jp/c-p/HX9911_72/diamondclean-9000-rechargeable-toothbrush",
+      "rakuten": { "keyword": "ダイヤモンドクリーン 9000 HX9911/72", "must": ["HX9911"], "exclude": ["替えブラシ", "ブラシヘッド", "互換", "対応", "専用", "交換"] },
+      "yahoo": { "keyword": "ダイヤモンドクリーン 9000 HX9911/72", "must": ["HX9911"], "exclude": ["替えブラシ", "ブラシヘッド", "互換", "対応", "専用", "交換"] },
+      "amazon": { "keyword": "フィリップス ダイヤモンドクリーン 9000 HX9911/72", "asin": null }
+    },
+    {
+      "id": "oralb-io2",
+      "brand": "ブラウン オーラルB",
+      "name": "オーラルB iO2",
+      "badge": "回転式の入門",
+      "summary": "回転式を試したい人。押しつけ防止センサー付きで、電池は約4週間。",
+      "specs": {
+        "type": "回転式（丸型回転＋マイクロ振動）",
+        "motion": "記載なし",
+        "battery": "4週間",
+        "modes": "3モード（超やわらか・やわらか・標準クリーン）",
+        "sensor": "あり（赤く点灯して速度を落とす）",
+        "head": "3か月ごと／iO専用"
+      },
+      "source": "https://www.oralb.braun.co.jp/ja-jp/products/electric-toothbrushes/oral-b-io-series-2",
+      "rakuten": { "keyword": "オーラルB iO2 本体", "must": ["iO2"], "exclude": ["替えブラシ", "互換", "対応", "専用", "交換", "iO20"] },
+      "yahoo": { "keyword": "オーラルB iO2 本体", "must": ["iO2"], "exclude": ["替えブラシ", "互換", "対応", "専用", "交換", "iO20"] },
+      "amazon": { "keyword": "ブラウン オーラルB iO2", "asin": null }
+    },
+    {
+      "id": "oralb-pro1",
+      "brand": "ブラウン オーラルB",
+      "name": "オーラルB PRO1 D305.523.3",
+      "badge": "替えブラシ代が安い回転式",
+      "summary": "安く回転式を使いたい人。公式ストアで6,760円、替えブラシは8本入りがある。",
+      "specs": {
+        "type": "回転式（3D丸型回転）",
+        "motion": "記載なし",
+        "battery": "記載なし",
+        "modes": "3モード（通常・やわらかクリーン・ホワイトニング）",
+        "sensor": "あり（過圧ストッパーで上下振動が止まる）",
+        "head": "3か月ごと／iO以外のブラシ"
+      },
+      "source": "https://www.oralb.braun.co.jp/ja-jp/products/electric-toothbrushes/pro-1",
+      "rakuten": { "keyword": "オーラルB PRO1 D305", "must": ["D305"], "exclude": ["替えブラシ", "互換", "対応", "専用", "交換"] },
+      "yahoo": { "keyword": "オーラルB PRO1 D305", "must": ["D305"], "exclude": ["替えブラシ", "互換", "対応", "専用", "交換"] },
+      "amazon": { "keyword": "ブラウン オーラルB PRO1 D305", "asin": null }
+    },
+    {
+      "id": "panasonic-ew-da49",
+      "brand": "パナソニック",
+      "name": "ドルツ リニア音波振動ハブラシ EW-DA49",
+      "badge": "2時間で充電",
+      "summary": "充電の手間を減らしたい人。約2時間の充電で約90分、厚さ約3mmの薄型ヘッド。",
+      "specs": {
+        "type": "音波式（リニア音波振動）",
+        "motion": "約31,000ブラシストローク／分",
+        "battery": "約90分（約2時間の充電）",
+        "modes": "3モード（クリーン・ソフト・センシティブ）",
+        "sensor": "あり（警告音）",
+        "head": "3か月が目安／付属はトータルケア・極細毛ポイント磨き"
+      },
+      "source": "https://panasonic.jp/teeth/products/EW-DA49.html",
+      "rakuten": { "keyword": "ドルツ EW-DA49", "must": ["EW-DA49"], "exclude": ["替えブラシ", "替ブラシ", "互換", "対応", "専用", "交換"] },
+      "yahoo": { "keyword": "ドルツ EW-DA49", "must": ["EW-DA49"], "exclude": ["替えブラシ", "替ブラシ", "互換", "対応", "専用", "交換"] },
+      "amazon": { "keyword": "パナソニック ドルツ EW-DA49", "asin": null }
+    },
+    {
+      "id": "panasonic-ew-dt88",
+      "brand": "パナソニック",
+      "name": "ドルツ プレミアム W音波振動ハブラシ スマート EW-DT88",
+      "badge": "磨き方をアプリで見る",
+      "summary": "磨き方そのものを直したい人。押し付け力・動かしすぎ・45°をリアルタイムで知らせる。",
+      "specs": {
+        "type": "音波式（W音波振動）",
+        "motion": "ヨコ約31,000・タタキ約20,000ブラシストローク／分",
+        "battery": "W音波モード 約45分・その他 約66分（約7時間の充電）",
+        "modes": "Wクリーン・Wガム・クリーン・ソフト・カスタマイズ",
+        "sensor": "あり（音と光・プロ）",
+        "head": "3か月が目安／付属は歯間フィット・トータルケアなど"
+      },
+      "source": "https://panasonic.jp/teeth/products/EW-DT88.html",
+      "rakuten": { "keyword": "ドルツ EW-DT88", "must": ["EW-DT88"], "exclude": ["替えブラシ", "替ブラシ", "互換", "対応", "専用", "交換"] },
+      "yahoo": { "keyword": "ドルツ EW-DT88", "must": ["EW-DT88"], "exclude": ["替えブラシ", "替ブラシ", "互換", "対応", "専用", "交換"] },
+      "amazon": { "keyword": "パナソニック ドルツ EW-DT88", "asin": null }
+    },
+    {
+      "id": "omron-ht-b3221",
+      "brand": "オムロン",
+      "name": "音波式電動歯ブラシ HT-B3221-JT",
+      "badge": "替えブラシ代がいちばん安い",
+      "summary": "ランニングコストを抑えたい人。替えブラシは公式で2本1,100円、本体は約64g。",
+      "specs": {
+        "type": "音波式",
+        "motion": "クリーン 約25,500回／分（歯垢除去ブラシ使用時）",
+        "battery": "記載なし",
+        "modes": "3モード（クリーン・ポイントケア・ソフトケア）",
+        "sensor": "記載なし",
+        "head": "タイプ2のブラシ（2本入り）"
+      },
+      "source": "https://store.healthcare.omron.co.jp/category/35/HT_B3221_JT.html",
+      "rakuten": { "keyword": "オムロン HT-B3221-JT", "must": ["HT-B3221"], "exclude": ["替えブラシ", "互換", "対応", "専用", "交換"] },
+      "yahoo": { "keyword": "オムロン HT-B3221-JT", "must": ["HT-B3221"], "exclude": ["替えブラシ", "互換", "対応", "専用", "交換"] },
+      "amazon": { "keyword": "オムロン 音波式電動歯ブラシ HT-B3221-JT", "asin": null }
+    }
+  ]
+}

@@ -2,7 +2,7 @@
 // **読むだけ。カートに入れない・買わない。** Mac の Chrome（CDP）で検索結果を開き、1 件ずつの題名に must（型番）が全部入っていて
 // exclude を含まないものを候補にする。Amazon は ASIN、楽天は item.rakuten.co.jp の商品 URL。候補の 1 件目の商品ページも開いて写真を残す。
 // 使い方: SHOP_JSON=<src/data/shop/<シリーズ>.json> SERIES=<シリーズ> node find-product-pages.mjs   LLM 不使用・$0
-// 出力: $OPS_REPORT_DIR/shop-pages/<シリーズ>/candidates.json と p-<商品 id>-<店>.jpg
+// 出力: $OPS_REPORT_DIR/shop-pages/<シリーズ>/candidates.json（写真 p-<商品 id>-<店>.jpg は Mac の手元の private-shots にだけ置く）
 import { createRequire } from 'node:module';
 import fs from 'node:fs';
 import path from 'node:path';
@@ -16,6 +16,9 @@ const SERIES = process.env.SERIES || '';
 const BUDGET = Number(process.env.FIND_BUDGET_MS || 230000);
 const t0 = Date.now();
 const OUT = path.join(process.env.OPS_REPORT_DIR || '/tmp', 'shop-pages', SERIES);
+// 写真は公開ブランチに置かない（ログイン中の氏名が写る・2026-11-22）。Mac の手元だけに残す
+const SHOTS = path.join(os.homedir(), '.openclaw/workspace/private-shots', 'shop-pages', SERIES);
+fs.mkdirSync(SHOTS, { recursive: true });
 fs.mkdirSync(OUT, { recursive: true });
 const data = JSON.parse(fs.readFileSync(process.env.SHOP_JSON, 'utf8'));
 // QUERIES: 型番で見つからなかったものを別の言葉で探し直す（[{id, store, keyword, must, exclude}]）。指定があれば商品データの代わりにこれを回す
@@ -82,7 +85,7 @@ for (const it of data.items || []) {
         await pg.waitForTimeout(3000);
         const pv = await pg.evaluate(() => ({ title: document.title.slice(0, 120), cart: /カートに入れる|今すぐ買う|買い物かごに入れる|かごに追加|ご購入手続きへ/.test(document.body.innerText || ''), h1: ((document.querySelector('h1') || {}).innerText || '').slice(0, 120) }));
         row[store].top = { ...top, page: pv };
-        await pg.screenshot({ path: path.join(OUT, `p-${it.id}-${store}.jpg`), type: 'jpeg', quality: 55 }).catch(() => {});
+        await pg.screenshot({ path: path.join(SHOTS, `p-${it.id}-${store}.jpg`), type: 'jpeg', quality: 55 }).catch(() => {});
         lines.push(`  - 開いた: ${pv.h1 || pv.title}｜カート: ${pv.cart ? 'あり' : '**無い**'}`);
       }
     } catch (e) {

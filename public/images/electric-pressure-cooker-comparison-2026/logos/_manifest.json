@@ -1,0 +1,35 @@
+{
+ "sharp.png": {
+  "brand": "シャープ",
+  "src": "https://jp.sharp/assets/common/images/logo_sharp.svg",
+  "page": "https://jp.sharp/hotcook/",
+  "note": "公式サイトのヘッダーのロゴ（SVG を Chromium で PNG にし、透明の余白だけ落とした）",
+  "fetched": "2026-11-22"
+ },
+ "panasonic.png": {
+  "brand": "パナソニック",
+  "title": "File:Panasonic Group logo.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Panasonic_Group_logo.svg",
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Panasonic_Group_logo.svg/960px-Panasonic_Group_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "orig": "https://upload.wikimedia.org/wikipedia/commons/5/54/Panasonic_Group_logo.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+  "license": "Public domain",
+  "fetched": "2026-10-18",
+  "task": "ops/tasks/x317-product-brand-logos-wiki.sh",
+  "copied_from": "public/images/denkidai-setsuyaku-koshiki-2026/logos/panasonic.png"
+ },
+ "tfal.png": {
+  "brand": "ティファール",
+  "src": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/00/05/be/0005beb1-1846-37ef-fc70-aa81b56bf17c/AppIcon-1x_U007emarketing-0-5-0-85-220-0.png/512x512bb.jpg",
+  "page": "https://apps.apple.com/jp/app/id6738371452",
+  "note": "App Store のアプリのアイコン（提供元 GROUPE SEB JAPAN CO., LTD.）",
+  "fetched": "2026-11-08",
+  "copied_from": "public/images/naka-mieru-air-fryer-2026/logos/tfal.png"
+ },
+ "iris.png": {
+  "brand": "アイリスオーヤマ",
+  "src": "https://www.irisohyama.co.jp/images/common/logo.svg",
+  "page": "https://www.irisohyama.co.jp/products/electrical-appliances/cooking-appliances/pressure-cooker/electric-pressure-cooker",
+  "note": "公式サイトのヘッダーのロゴ（ops/tasks/t841 で Mac が取得。SVG を Chromium で PNG にした）",
+  "fetched": "2026-11-22"
+ }
+}
