@@ -1,0 +1,13 @@
+{
+  "_note": "各社の公式サイト・ニュースリリースの製品写真（2026-11-22 取得・blog3）。記事では figcaption に出典を書く。",
+  "sony-wh-1000xm6.jpg": {"src": "https://www.sony.jp/CorporateCruise/Press/202505/25-0516/images/img_001.jpg", "page": "https://www.sony.jp/CorporateCruise/Press/202505/25-0516/", "credit": "ソニー ニュースリリース"},
+  "sony-wh-1000xm6-wear.jpg": {"src": "https://www.sony.jp/CorporateCruise/Press/202505/25-0516/images/img_002.jpg", "page": "https://www.sony.jp/CorporateCruise/Press/202505/25-0516/", "credit": "ソニー ニュースリリース"},
+  "bose-qc-ultra-2.jpg": {"src": "https://assets.bosecreative.com/transform/69de3d90-3cc5-4f7c-ac71-d03a030e4154/FY27_QCUHIILE27-ChryChoc_CREA-1174_PDP_EcomGal1_Silo_1500x1120", "page": "https://www.bose.co.jp/p/headphones/bose-quietcomfort-ultra-headphones-2nd-gen/QCUH2-HEADPHONEARN.html", "credit": "Bose 公式"},
+  "bose-qc-ultra-2-scene.jpg": {"src": "https://assets.bosecreative.com/transform/41d5c858-279b-4701-b56b-a530a6fae10b/QCUHII26-BoseBlack_SF_PDP_Carousel_1_Desktop_2880x1620", "page": "https://www.bose.co.jp/p/headphones/bose-quietcomfort-ultra-headphones-2nd-gen/QCUH2-HEADPHONEARN.html", "credit": "Bose 公式"},
+  "apple-airpods-max-2.jpg": {"src": "https://www.apple.com/v/airpods-max/k/images/specs/hero_midnight__d5qsulrfqzu6_large_2x.jpg", "page": "https://www.apple.com/jp/airpods-max/specs/", "credit": "Apple 公式"},
+  "sennheiser-momentum-5.jpg": {"src": "https://cdn.shopify.com/s/files/1/0857/9832/2504/files/M5_Black_Main_IsoFront_6ba4136e-9d0b-4062-ab54-e6dfda9858eb.jpg", "page": "https://jp.sennheiser-hearing.com/products/momentum-5-wireless", "credit": "ゼンハイザー 公式"},
+  "technics-eah-a1000.jpg": {"src": "https://jp.technics.com/products/headphone/a1000/images/slider01_l.jpg", "page": "https://jp.technics.com/products/headphone/a1000/", "credit": "テクニクス 公式"},
+  "technics-eah-a1000-2.jpg": {"src": "https://jp.technics.com/products/headphone/a1000/images/slider02_l.jpg", "page": "https://jp.technics.com/products/headphone/a1000/", "credit": "テクニクス 公式"},
+  "anker-space-2-pro.jpg": {"src": "Anker Japan の製品データ（products/d1406.json）の 1 枚目", "page": "https://www.ankerjapan.com/products/d1406", "credit": "Anker Japan 公式"},
+  "soundcore-space-2.jpg": {"src": "Anker Japan の製品データ（products/d1402.json）の 1 枚目", "page": "https://www.ankerjapan.com/products/d1402", "credit": "Anker Japan 公式"}
+}
