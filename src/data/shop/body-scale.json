@@ -1,0 +1,470 @@
+{
+  "id": "body-scale",
+  "title": "体組成計（スマホへの記録の方式と、両手で持つタイプの違い）",
+  "_note": "仕様・価格は各社の公式ページだけ（2026-11-22 確認）。タニタは製品ページ（tanita.co.jp）とタニタ公式オンラインショップ、オムロンはオムロン ヘルスケア公式オンラインストア（製品ページと機能比較表）、Xiaomi は mi.com の製品・仕様・購入ページ。Withings・エレコムは ops/tasks/t1020 で公式ページを読んだ。測定値の正確さ・健康効果は各社の表示の範囲だけ書く",
+  "columns": [
+    {
+      "key": "price",
+      "label": "公式の価格"
+    },
+    {
+      "key": "type",
+      "label": "測り方"
+    },
+    {
+      "key": "link",
+      "label": "スマホへの送り方"
+    },
+    {
+      "key": "app",
+      "label": "アプリ"
+    }
+  ],
+  "pricesCheckedAt": null,
+  "items": [
+    {
+      "id": "tanita-rd-917l",
+      "brand": "タニタ",
+      "name": "インナースキャンデュアル RD-917L",
+      "badge": "筋肉の質まで・50g単位",
+      "summary": "筋肉の量に加えて「筋質点数」と脈拍も測る、タニタの両足タイプの上位機。体重は50g単位。",
+      "recommended": false,
+      "specs": {
+        "price": "42,350円（タニタ公式オンラインショップ）",
+        "type": "両足（4電極）",
+        "link": "Bluetooth",
+        "app": "ヘルスプラネット・TANITA Record"
+      },
+      "source": "https://www.tanita.co.jp/product/bodycompositionmonitor/1902",
+      "rakuten": {
+        "keyword": "タニタ インナースキャンデュアル RD-917L",
+        "must": [
+          "RD-917L"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "専用",
+          "対応",
+          "ケース",
+          "カバー",
+          "マット",
+          "フィルム",
+          "セット"
+        ]
+      },
+      "yahoo": {
+        "keyword": "タニタ インナースキャンデュアル RD-917L",
+        "must": [
+          "RD-917L"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "専用",
+          "対応",
+          "ケース",
+          "カバー",
+          "マット",
+          "フィルム",
+          "セット"
+        ]
+      },
+      "amazon": {
+        "keyword": "タニタ インナースキャンデュアル RD-917L",
+        "asin": null
+      }
+    },
+    {
+      "id": "tanita-bc-623l",
+      "brand": "タニタ",
+      "name": "左右部位別体組成計 BC-623L",
+      "badge": "グリップを握って部位別",
+      "summary": "グリップを握る8電極で、両腕・両脚・体幹の5部位の脂肪率と筋肉量が分かる。部位別の結果はアプリで見る。",
+      "recommended": false,
+      "specs": {
+        "price": "27,500円（タニタ公式オンラインショップ）",
+        "type": "両手両足（8電極・グリップ）",
+        "link": "Bluetooth",
+        "app": "ヘルスプラネット・TANITA Record"
+      },
+      "source": "https://www.tanita.co.jp/product/bodycompositionmonitor/24423",
+      "rakuten": {
+        "keyword": "タニタ 左右部位別体組成計 BC-623L",
+        "must": [
+          "BC-623L"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "専用",
+          "対応",
+          "ケース",
+          "カバー",
+          "マット",
+          "フィルム",
+          "セット"
+        ]
+      },
+      "yahoo": {
+        "keyword": "タニタ 左右部位別体組成計 BC-623L",
+        "must": [
+          "BC-623L"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "専用",
+          "対応",
+          "ケース",
+          "カバー",
+          "マット",
+          "フィルム",
+          "セット"
+        ]
+      },
+      "amazon": {
+        "keyword": "タニタ 左右部位別体組成計 BC-623L",
+        "asin": null
+      }
+    },
+    {
+      "id": "tanita-bc-774l",
+      "brand": "タニタ",
+      "name": "体組成計 BC-774L",
+      "badge": "脚の筋肉を点数で",
+      "summary": "体重を支える脚の筋肉量を「脚点」で出す両足タイプ。乗るだけで測れて、立てかけてしまえる。",
+      "recommended": false,
+      "specs": {
+        "price": "13,200円（タニタ公式オンラインショップ）",
+        "type": "両足（4電極）",
+        "link": "Bluetooth",
+        "app": "ヘルスプラネット・TANITA Record"
+      },
+      "source": "https://www.tanita.co.jp/product/bodycompositionmonitor/23698",
+      "rakuten": {
+        "keyword": "タニタ 体組成計 BC-774L",
+        "must": [
+          "BC-774L"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "専用",
+          "対応",
+          "ケース",
+          "カバー",
+          "マット",
+          "フィルム",
+          "セット"
+        ]
+      },
+      "yahoo": {
+        "keyword": "タニタ 体組成計 BC-774L",
+        "must": [
+          "BC-774L"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "専用",
+          "対応",
+          "ケース",
+          "カバー",
+          "マット",
+          "フィルム",
+          "セット"
+        ]
+      },
+      "amazon": {
+        "keyword": "タニタ 体組成計 BC-774L",
+        "asin": null
+      }
+    },
+    {
+      "id": "withings-body-smart",
+      "brand": "Withings",
+      "name": "Withings Body Smart",
+      "badge": "Wi-Fi でも Bluetooth でも",
+      "summary": "Wi-Fi か Bluetooth でつなぎ、8人まで見分ける。カラーの画面で、安静時の心拍数や基礎代謝量も追う。",
+      "recommended": false,
+      "specs": {
+        "price": "17,700円（Withings公式・ブラックフライデー特別セールの表示）",
+        "type": "両足（複数の周波数）",
+        "link": "Wi-Fi・Bluetooth",
+        "app": "Withings のアプリ"
+      },
+      "source": "https://www.withings.com/ja-jp/collections/body-smart",
+      "rakuten": {
+        "keyword": "Withings Body Smart",
+        "must": [
+          "Body Smart"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "専用",
+          "対応",
+          "ケース",
+          "カバー",
+          "マット",
+          "フィルム",
+          "セット",
+          "Pro"
+        ]
+      },
+      "yahoo": {
+        "keyword": "Withings Body Smart",
+        "must": [
+          "Body Smart"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "専用",
+          "対応",
+          "ケース",
+          "カバー",
+          "マット",
+          "フィルム",
+          "セット",
+          "Pro"
+        ]
+      },
+      "amazon": {
+        "keyword": "Withings Body Smart 体組成計",
+        "asin": null
+      }
+    },
+    {
+      "id": "elecom-hcs-wfs03",
+      "brand": "エレコム",
+      "name": "エクリア Wi-Fi体組成計 HCS-WFS03",
+      "badge": "Wi-Fi・1万円台",
+      "summary": "家の Wi-Fi（2.4GHz）につないで、乗るだけで専用アプリ「ECLEAR plus」に送る。体重は50g単位。",
+      "recommended": false,
+      "specs": {
+        "price": "10,637円（エレコムの標準価格）",
+        "type": "両足",
+        "link": "Wi-Fi（2.4GHz のみ）",
+        "app": "ECLEAR plus"
+      },
+      "source": "https://www.elecom.co.jp/products/HCS-WFS03WH.html",
+      "rakuten": {
+        "keyword": "エレコム 体組成計 HCS-WFS03",
+        "must": [
+          "HCS-WFS03"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "専用",
+          "対応",
+          "ケース",
+          "カバー",
+          "マット",
+          "フィルム",
+          "セット"
+        ]
+      },
+      "yahoo": {
+        "keyword": "エレコム 体組成計 HCS-WFS03",
+        "must": [
+          "HCS-WFS03"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "専用",
+          "対応",
+          "ケース",
+          "カバー",
+          "マット",
+          "フィルム",
+          "セット"
+        ]
+      },
+      "amazon": {
+        "keyword": "エレコム エクリア 体組成計 HCS-WFS03",
+        "asin": null
+      }
+    },
+    {
+      "id": "omron-krd-703t",
+      "brand": "オムロン",
+      "name": "体重体組成計 カラダスキャン KRD-703T",
+      "badge": "両手両足で部位別",
+      "summary": "グリップを持って両手両足で測り、両腕・体幹・両脚の骨格筋率と皮下脂肪率を部位別に出す。OMRON connect で記録。",
+      "recommended": true,
+      "specs": {
+        "price": "19,800円（オムロン公式オンラインストア）",
+        "type": "両手両足（グリップ）",
+        "link": "Bluetooth",
+        "app": "OMRON connect"
+      },
+      "source": "https://store.healthcare.omron.co.jp/category/HBF_CONNECT/KRD_703T.html",
+      "rakuten": {
+        "keyword": "オムロン 体重体組成計 KRD-703T",
+        "must": [
+          "KRD-703T"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "専用",
+          "対応",
+          "ケース",
+          "カバー",
+          "マット",
+          "フィルム",
+          "セット"
+        ]
+      },
+      "yahoo": {
+        "keyword": "オムロン 体重体組成計 KRD-703T",
+        "must": [
+          "KRD-703T"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "専用",
+          "対応",
+          "ケース",
+          "カバー",
+          "マット",
+          "フィルム",
+          "セット"
+        ]
+      },
+      "amazon": {
+        "keyword": "オムロン 体重体組成計 KRD-703T",
+        "asin": null
+      }
+    },
+    {
+      "id": "omron-krd-603t2",
+      "brand": "オムロン",
+      "name": "体重体組成計 カラダスキャン KRD-603T2",
+      "badge": "約4秒・50g単位",
+      "summary": "乗るだけで約4秒で測り、体重は50g単位。ガラスの天板で、OMRON connect に自動で記録する両足タイプ。",
+      "recommended": false,
+      "specs": {
+        "price": "17,800円（オムロン公式オンラインストア）",
+        "type": "両足",
+        "link": "Bluetooth",
+        "app": "OMRON connect"
+      },
+      "source": "https://store.healthcare.omron.co.jp/category/HBF_CONNECT/KRD_603T2_W.html",
+      "rakuten": {
+        "keyword": "オムロン 体重体組成計 KRD-603T2",
+        "must": [
+          "KRD-603T2"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "専用",
+          "対応",
+          "ケース",
+          "カバー",
+          "マット",
+          "フィルム",
+          "セット"
+        ]
+      },
+      "yahoo": {
+        "keyword": "オムロン 体重体組成計 KRD-603T2",
+        "must": [
+          "KRD-603T2"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "専用",
+          "対応",
+          "ケース",
+          "カバー",
+          "マット",
+          "フィルム",
+          "セット"
+        ]
+      },
+      "amazon": {
+        "keyword": "オムロン 体重体組成計 KRD-603T2",
+        "asin": null
+      }
+    },
+    {
+      "id": "xiaomi-s400",
+      "brand": "Xiaomi",
+      "name": "Xiaomi 体組成計 S400",
+      "badge": "いちばん安い・家族36人",
+      "summary": "50kHzと250kHzの2つの周波数で測る両足タイプ。Xiaomi Home アプリで25の指標を見られて、3,580円。",
+      "recommended": false,
+      "specs": {
+        "price": "3,580円（Xiaomi公式ストア）",
+        "type": "両足（2周波）",
+        "link": "Bluetooth（ゲートウェイ経由の自動同期も）",
+        "app": "Xiaomi Home"
+      },
+      "source": "https://www.mi.com/jp/product/xiaomi-body-composition-scale-s400/",
+      "rakuten": {
+        "keyword": "Xiaomi 体組成計 S400",
+        "must": [
+          "S400"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "専用",
+          "対応",
+          "ケース",
+          "カバー",
+          "マット",
+          "フィルム",
+          "セット",
+          "グローバル"
+        ]
+      },
+      "yahoo": {
+        "keyword": "Xiaomi 体組成計 S400",
+        "must": [
+          "S400"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "専用",
+          "対応",
+          "ケース",
+          "カバー",
+          "マット",
+          "フィルム",
+          "セット",
+          "グローバル"
+        ]
+      },
+      "amazon": {
+        "keyword": "Xiaomi 体組成計 S400",
+        "asin": null
+      }
+    }
+  ]
+}
