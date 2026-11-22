@@ -1,0 +1,4 @@
+[
+ {"id":"dell-aw2725d","store":"amazon","keyword":"Alienware AW2725D QD-OLED","must":["AW2725D"],"exclude":["AW2725DF","AW2725DM","保護フィルム","フィルム","アーム","カバー","専用","対応","中古"]},
+ {"id":"dell-aw2726dm","store":"amazon","keyword":"Alienware AW2726DM QD-OLED","must":["AW2726DM"],"exclude":["保護フィルム","フィルム","アーム","カバー","専用","対応","中古"]}
+]
