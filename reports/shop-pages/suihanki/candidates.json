@@ -1,0 +1,746 @@
+{
+ "series": "suihanki",
+ "generated": "2026-11-22T05:03:18.395Z",
+ "items": {
+  "zojirushi-nx-ab10": {
+   "amazon": {
+    "searched": 33,
+    "hits": [
+     {
+      "asin": "B0H1VZDQ7G",
+      "title": "象印 炊飯器 炎舞炊き 5.5合 NX-AB10-BZ 黒",
+      "price": "￥101,418",
+      "sponsored": false
+     },
+     {
+      "asin": "B0H1VX3WDH",
+      "title": "象印 炊飯器 炎舞炊き 5.5合 NX-AB10-WZ 白",
+      "price": "￥101,727",
+      "sponsored": false
+     }
+    ],
+    "top": {
+     "asin": "B0H1VZDQ7G",
+     "title": "象印 炊飯器 炎舞炊き 5.5合 NX-AB10-BZ 黒",
+     "price": "￥101,418",
+     "sponsored": false,
+     "page": {
+      "title": "Amazon | 象印 炊飯器 炎舞炊き 5.5合 NX-AB10-BZ 黒 | フラッグシップモデル|圧力IH|わが家炊き121通り|保温40時間|お手入れ点数2点|日本製|内釜5年保証 | 象印マホービン(ZOJIRUSHI) | 炊飯",
+      "cart": true,
+      "h1": "商品概要には、主要な商品情報が記載されています \nキーボードショートカット  Shift + opt + D"
+     }
+    }
+   },
+   "rakuten": {
+    "searched": 45,
+    "hits": [
+     {
+      "url": "https://item.rakuten.co.jp/smartkitchen/10013296/",
+      "title": "【11/26 10:59迄限定★2000円クーポン】最上位機種 象印 圧力IH炊飯ジャー 炎舞炊き 5.5合/1升炊 2026年発売 （ZOJIRUSHI 炊飯器 炊飯ジャー 高級炊飯器 最新 新機種 特許技術 玄米 圧力IH 長時間保温 お手入れ簡単 雑穀米 おしゃれ NX-AB10 NX-AB18）【送料無料】",
+      "price": "129,580",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/f272183-daito/ak80/",
+      "title": "【ふるさと納税】象印 圧力IH炊飯ジャー 炎舞炊き シリーズ最高峰 NX-AB10-BZ 黒 ブラック 5.5合炊き | ZOJIRUSHI 炊飯器 えんぶだき 白米 ごはん 5合 新生活 ファミリー向け キッチン家電 調理家電 生活家電 人気 おすすめ 送料無料 大阪府大東市",
+      "price": "390,000",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/ryouhinkobo/zojirushi-4974305232182/",
+      "title": "新品 ZOJIRUSHI 圧力IH炊飯ジャー極め炊き 炎舞炊き NX-AB10-BZ [黒]",
+      "price": "107,800",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/monotoki/100001692-eski/",
+      "title": "最上位モデル 象印 炎舞炊き 圧力IH炊飯ジャー 2026年新商品 5.5合炊き NX-AB10 BZ WZ 最上位モデル 炊飯器 炊飯ジャー ごはん 炊く おかゆ 象印マホービン ZOJIRUSHI 玄米 雑穀米 40時間保温 大火力 豪炎かまど釜",
+      "price": "129,800",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/digitallab/nx-ab10-wz/",
+      "title": "象印 ZOJIRUSHI 圧力IH炊飯器 炎舞炊き 5.5合炊き NX-AB10-WZ [白]",
+      "price": "115,000",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/shopworld/149204-149207/",
+      "title": "|最高峰モデル | 象印 炊飯器 大火力 1升 5.5合 象印 一人暮らし IH ih IH5.5 3合 5合 炎舞炊き 炊飯ジャー 3合炊き 5合炊き 一升 炊飯ジャー象印 炊き分け NX-AB NX-AB10 NX-AB18 NX-AB10-BZ NX-AB10-WZ NX-AB18-BZ NX-AB18-WZ 保",
+      "price": "112,480",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/akindo/nx-ab10-bz/",
+      "title": "【250円OFFクーポン☆11/25 1:59迄】象印 5.5合炊き 炊飯器 圧力IH炊飯ジャー 炎舞炊き NX-AB10-BZ 黒 圧力 IH 5.5合【送料無料】【KK9N0D18P】",
+      "price": "114,800",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/eatoki-r/100001692-eski/",
+      "title": "【ブラックフライデー限定】最上位モデル 象印 炎舞炊き 圧力IH炊飯ジャー 2026年新商品 5.5合炊き NX-AB10 BZ WZ 最上位モデル 炊飯器 炊飯ジャー ごはん 炊く おかゆ 象印マホービン ZOJIRUSHI 玄米 雑穀米 40時間保温 大火力 豪炎かまど釜",
+      "price": "129,800",
+      "ad": false
+     }
+    ],
+    "top": {
+     "url": "https://item.rakuten.co.jp/smartkitchen/10013296/",
+     "title": "【11/26 10:59迄限定★2000円クーポン】最上位機種 象印 圧力IH炊飯ジャー 炎舞炊き 5.5合/1升炊 2026年発売 （ZOJIRUSHI 炊飯器 炊飯ジャー 高級炊飯器 最新 新機種 特許技術 玄米 圧力IH 長時間保温 お手入れ簡単 雑穀米 おしゃれ NX-AB10 NX-AB18）【送料無料】",
+     "price": "129,580",
+     "ad": false,
+     "page": {
+      "title": "【楽天市場】【11/26 10:59迄限定★2000円クーポン】最上位機種 象印 圧力IH炊飯ジャー 炎舞炊き 5.5合/1升炊 2026年発売 （ZOJIRUSHI 炊飯器 炊飯ジャー 高級炊飯器 最新 新機種 特許技術 玄米 圧力IH ",
+      "cart": true,
+      "h1": ""
+     }
+    }
+   }
+  },
+  "zojirushi-nw-yd10": {
+   "amazon": {
+    "searched": 52,
+    "hits": [
+     {
+      "asin": "B0H5841K26",
+      "title": "象印マホービン 炊飯器 5.5合 ブラック NW-YD10-BA",
+      "price": "￥30,455",
+      "sponsored": false
+     }
+    ],
+    "top": {
+     "asin": "B0H5841K26",
+     "title": "象印マホービン 炊飯器 5.5合 ブラック NW-YD10-BA",
+     "price": "￥30,455",
+     "sponsored": false,
+     "page": {
+      "title": "Amazon | 象印マホービン 炊飯器 5.5合 ブラック NW-YD10-BA | 象印マホービン(ZOJIRUSHI) | 炊飯器",
+      "cart": true,
+      "h1": "商品概要には、主要な商品情報が記載されています \nキーボードショートカット  Shift + opt + D"
+     }
+    }
+   },
+   "rakuten": {
+    "searched": 45,
+    "hits": [
+     {
+      "url": "https://item.rakuten.co.jp/r-kojima/4974305232311/",
+      "title": "象印マホービン　ZOJIRUSHI　炊飯器 5.5合 豪熱大火力 圧力IHジャー 鉄 -くろがね仕込み- 豪炎かまど釜 ブラック　NW-YD10-BA",
+      "price": "38,637",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/biccamera/4974305232311/",
+      "title": "【エントリーで最大全額ポイント還元｜11/25まで】 象印マホービン｜ZOJIRUSHI 圧力IH炊飯ジャー 豪熱大火力　極め炊き ブラック NW-YD10 [5.5合 /圧力IH]",
+      "price": "38,637",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/r-kojima/4974305232328/",
+      "title": "象印マホービン　ZOJIRUSHI　炊飯器 5.5合 豪熱大火力 圧力IHジャー 鉄 -くろがね仕込み- 豪炎かまど釜 ホワイト　NW-YD10-WA",
+      "price": "38,637",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/d-price/nw-yc10-bz/",
+      "title": "【11月25日入荷予定】ZOJIRUSHI 象印 豪熱大火力 5.5合 圧力IH炊飯ジャー ブラック NW-YD10-BA【北海道・沖縄・離島配送不可】",
+      "price": "33,800",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/jism/4974305232311-24-11074-n/",
+      "title": "象印 圧力IH炊飯ジャー（5.5合炊き）　ブラック NW-YD10-BA ZOJIRUSHI　豪熱大火力 炊飯器　5.5合 [NWYD10BA]",
+      "price": "38,637",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/skyblue-/nw-yd10/",
+      "title": "象印マホービン 炊飯器 5.5合 NW-YD10　ブラック / ホワイト",
+      "price": "32,498",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/yamada-denki/6614827019/",
+      "title": "象印マホービン NW-YD10-BA 圧力IH炊飯ジャー 3通りの炊き分け圧力 豪熱大火力 5.5合炊き ブラック 【2026年モデル】",
+      "price": "38,637",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/life-ma/nw-yd10-ba/",
+      "title": "象印 ZOJIRUSHI 炊飯器 圧力IH炊飯ジャー 極め炊き 豪熱大火力 NW-YD10-BA 5.5合炊きブラック【北海道・沖縄・離島配送不可】",
+      "price": "32,942",
+      "ad": false
+     }
+    ],
+    "top": {
+     "url": "https://item.rakuten.co.jp/r-kojima/4974305232311/",
+     "title": "象印マホービン　ZOJIRUSHI　炊飯器 5.5合 豪熱大火力 圧力IHジャー 鉄 -くろがね仕込み- 豪炎かまど釜 ブラック　NW-YD10-BA",
+     "price": "38,637",
+     "ad": false,
+     "page": {
+      "title": "【楽天市場】象印マホービン　ZOJIRUSHI　炊飯器 5.5合 豪熱大火力 圧力IHジャー 鉄 -くろがね仕込み- 豪炎かまど釜 ブラック　NW-YD10-BA：コジマ楽天市場店",
+      "cart": true,
+      "h1": ""
+     }
+    }
+   }
+  },
+  "tiger-jrt-a100": {
+   "amazon": {
+    "searched": 15,
+    "hits": [
+     {
+      "asin": "B0GSYQCL5Q",
+      "title": "【公式SHOP限定】タイガー魔法瓶(TIGER) 炊飯器 5.5合 土鍋ご泡火炊き 最上位 土鍋20周年記念モデル ブラック JRT-A100K",
+      "price": "￥154,000",
+      "sponsored": true
+     },
+     {
+      "asin": "B0HS3KDDK2",
+      "title": "タイガー魔法瓶 土鍋ご泡火炊き JRT-A100-KS [墨黒]",
+      "price": "￥96,364",
+      "sponsored": false
+     },
+     {
+      "asin": "B0GSYQCL5Q",
+      "title": "【公式SHOP限定】タイガー魔法瓶(TIGER) 炊飯器 5.5合 土鍋ご泡火炊き 最上位 土鍋20周年記念モデル ブラック JRT-A100K",
+      "price": "￥154,000",
+      "sponsored": false
+     },
+     {
+      "asin": "B0HS39ZFXG",
+      "title": "タイガー魔法瓶 土鍋ご泡火炊き JRT-A100-WG [月白]",
+      "price": "￥94,947",
+      "sponsored": false
+     },
+     {
+      "asin": "B0GSYV59S6",
+      "title": "【公式SHOP限定】タイガー魔法瓶(TIGER) 炊飯器 5.5合 土鍋ご泡火炊き 最上位 土鍋20周年記念モデル ホワイト JRT-A100W",
+      "price": "￥154,000",
+      "sponsored": false
+     }
+    ],
+    "top": {
+     "asin": "B0HS3KDDK2",
+     "title": "タイガー魔法瓶 土鍋ご泡火炊き JRT-A100-KS [墨黒]",
+     "price": "￥96,364",
+     "sponsored": false,
+     "page": {
+      "title": "Amazon | タイガー魔法瓶 土鍋ご泡火炊き JRT-A100-KS [墨黒] | タイガー魔法瓶(TIGER) | 炊飯器 通販",
+      "cart": true,
+      "h1": "商品概要には、主要な商品情報が記載されています \nキーボードショートカット  Shift + opt + D"
+     }
+    }
+   },
+   "rakuten": {
+    "searched": 45,
+    "hits": [
+     {
+      "url": "https://item.rakuten.co.jp/acronym/0104/",
+      "title": "タイガー魔法瓶 土鍋圧力IHジャー炊飯器「炊きたて」　土鍋ご泡火炊き JRT-A100KS 墨黒",
+      "price": "101,500",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/akindo/jrt-a100-ks/",
+      "title": "【250円OFFクーポン☆11/25 1:59迄】タイガー 5.5合炊き 炊飯器 土鍋圧力IHジャー炊飯器 炊きたて 土鍋ご泡火炊き JRT-A100-KS 墨黒 土鍋 圧力 IH 5.5合【送料無料】【KK9N0D18P】",
+      "price": "101,978",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/ecolotop/jrt-a100-wg/",
+      "title": "【送料込み（北海道・沖縄・離島は配送不可）】タイガー 土鍋圧力IHジャー炊飯器 ご泡火炊き ゲッパク(月白) JRTA100WG JRT-A100WG JRT-A100-WG",
+      "price": "96,398",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/winkstore/274548/",
+      "title": "タイガー　炊飯器　土鍋ご泡火炊き JRT-A100-KS [墨黒]",
+      "price": "105,000",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/auc-worldichi/4904710451816/",
+      "title": "【ダイヤ・プラチナ限定エントリーでポイント5倍！】【新品】TIGER タイガー魔法瓶 土鍋圧力IHジャー 土鍋ご泡火炊き JRT-A100-KS 墨黒",
+      "price": "102,500",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/jhb-trade/4904710451823/",
+      "title": "タイガー炊飯器 5.5合 炊きたて 土鍋ご泡火炊き とろ火IH 匠おひつ保温 月白（げっぱく） JRT-A100WG",
+      "price": "96,395",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/yas-online/4904710451816/",
+      "title": "タイガー魔法瓶 タイガー TIGER JRT-A100-KS 土鍋 ご泡火炊き 圧力IH炊飯ジャー 炊飯器 5.5合炊き 墨黒 すみくろ 黒 JRT-A100",
+      "price": "101,900",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/e-den-shop/4904710451816/",
+      "title": "「在庫あります」タイガー　TIGER 炊飯器 5.5合 炊きたて 土鍋圧力IHジャー 土鍋ご泡火炊き とろ火IH 匠おひつ保温 墨黒（すみくろ） JRT-A100KS",
+      "price": "119,800",
+      "ad": false
+     }
+    ],
+    "top": {
+     "url": "https://item.rakuten.co.jp/acronym/0104/",
+     "title": "タイガー魔法瓶 土鍋圧力IHジャー炊飯器「炊きたて」　土鍋ご泡火炊き JRT-A100KS 墨黒",
+     "price": "101,500",
+     "ad": false,
+     "page": {
+      "title": "【楽天市場】タイガー魔法瓶 土鍋圧力IHジャー炊飯器「炊きたて」　土鍋ご泡火炊き JRT-A100KS 墨黒：ミヂカ家電",
+      "cart": true,
+      "h1": ""
+     }
+    }
+   }
+  },
+  "tiger-jpv-l100": {
+   "amazon": {
+    "searched": 52,
+    "hits": []
+   },
+   "rakuten": {
+    "searched": 45,
+    "hits": [
+     {
+      "url": "https://item.rakuten.co.jp/sanrex2/jpv-l100-ko/",
+      "title": "タイガー 炊飯器 5.5合炊き 炊きたて 遠赤土鍋コーティング 粒立ち保温 省エネ JPV-L100-KO オフブラック",
+      "price": "37,000",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/ksdenki/4904710451915/",
+      "title": "(長期無料保証) タイガー魔法瓶 圧力IHジャー炊飯器〈炊き立て〉 JPV-L100 KO オフブラック 炊飯容量：5.5合",
+      "price": "45,461",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/denkichiweb/4904710451922/",
+      "title": "【エントリーでポイント10倍！】タイガー TIGER JPV-L100-HC 圧力IHジャー炊飯器 炊きたて 5.5合 チェスナッツグレー〈JPVL100HC〉",
+      "price": "37,797",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/rakuten24/407282/",
+      "title": "タイガー 魔法瓶 圧力IHジャー炊飯器 JPV-L100(1台)",
+      "price": "45,799",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/kenkocom/407282/",
+      "title": "タイガー 魔法瓶 圧力IHジャー炊飯器 JPV-L100(1台)",
+      "price": "45,799",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/biccamera/4904710451915/",
+      "title": "【エントリーで最大全額ポイント還元｜11/25まで】 タイガー｜TIGER 圧力IHジャー炊飯器 炊きたて オフブラック JPV-L100KO [5.5合 /圧力IH]【rb_makerA】",
+      "price": "45,461",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/daiyu8/4904710451922/",
+      "title": "【在庫有・即納】タイガー 圧力IHジャー炊飯器 5.5合炊き JPV-L100HC 炊きたて チェスナッツグレー 炊飯ジャー 土鍋蓄熱コート釜",
+      "price": "38,498",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/jism/4904710451915-24-11074-n/",
+      "title": "タイガー 圧力IHジャー炊飯器（5.5合炊き） オフブラック JPV-L100KO TIGER　炊きたて 炊飯器　5.5合 [JPVL100KO]",
+      "price": "45,461",
+      "ad": false
+     }
+    ],
+    "top": {
+     "url": "https://item.rakuten.co.jp/sanrex2/jpv-l100-ko/",
+     "title": "タイガー 炊飯器 5.5合炊き 炊きたて 遠赤土鍋コーティング 粒立ち保温 省エネ JPV-L100-KO オフブラック",
+     "price": "37,000",
+     "ad": false,
+     "page": {
+      "title": "【楽天市場】タイガー 炊飯器 5.5合炊き 炊きたて 遠赤土鍋コーティング 粒立ち保温 省エネ JPV-L100-KO オフブラック：サンサンマーケット",
+      "cart": true,
+      "h1": ""
+     }
+    }
+   }
+  },
+  "panasonic-sr-x910e": {
+   "amazon": {
+    "searched": 22,
+    "hits": [
+     {
+      "asin": "B0H7RYXQCH",
+      "title": "パナソニック 可変圧力ＩＨジャー炊飯器 Bistro 5.5合(1.0L) フラッグシップモデル ビストロ匠技AI搭載、ステンレスクリアフレーム搭載 Wおどり炊き ブラック SR-X910E-K",
+      "price": "￥89,063",
+      "sponsored": false
+     },
+     {
+      "asin": "B0H7S1V7LL",
+      "title": "パナソニック 可変圧力ＩＨジャー炊飯器 Bistro 5.5合(1.0L) フラッグシップモデル ビストロ匠技AI、ステンレスクリアフレーム搭載 Wおどり炊き ライトグレージュ SR-X910E-H",
+      "price": "￥89,100",
+      "sponsored": false
+     }
+    ],
+    "top": {
+     "asin": "B0H7RYXQCH",
+     "title": "パナソニック 可変圧力ＩＨジャー炊飯器 Bistro 5.5合(1.0L) フラッグシップモデル ビストロ匠技AI搭載、ステンレスクリアフレーム搭載 Wおどり炊き ブラック SR-X910E-K",
+     "price": "￥89,063",
+     "sponsored": false,
+     "page": {
+      "title": "Amazon | パナソニック 可変圧力ＩＨジャー炊飯器 Bistro 5.5合(1.0L) フラッグシップモデル ビストロ匠技AI搭載、ステンレスクリアフレーム搭載 Wおどり炊き ブラック SR-X910E-K | パナソニック(Pana",
+      "cart": true,
+      "h1": "商品概要には、主要な商品情報が記載されています \nキーボードショートカット  Shift + opt + D"
+     }
+    }
+   },
+   "rakuten": {
+    "searched": 45,
+    "hits": [
+     {
+      "url": "https://item.rakuten.co.jp/panasonic-store/sr-x910e-k/",
+      "title": "【公式店】 パナソニック 可変圧力IHジャー炊飯器 ビストロ 選べる容量（5.5合/1升） 選べる2色 SR-X910E/X918E 食感炊き分け 銘柄炊き分け 高速 保温 予約 Wおどり炊き 玄米 炊飯器 送料無料 クリスマス",
+      "price": "99,908",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/b-surprise2/4550719164518/",
+      "title": "パナソニック 可変圧力IHジャー炊飯器 ビストロ 5.5合炊き SR-X910E-K ブラック Bistro 1.0L 銘柄炊き分け",
+      "price": "99,908",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/superdeal/17481ndh10630/",
+      "title": "【延長保証付が選べる】【レビュー特典】Panasonic パナソニック 可変圧力IHジャー炊飯器 Bistro 5.5合 SR-X910E ブラック/ライトグレージュ",
+      "price": "108,900",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/emedama/4550719164525/",
+      "title": "パナソニック SR-X910E-H 可変圧力lHジャー炊飯器 Bistro ライトグレージュ [5.5合炊き] 新生活 おどり炊き",
+      "price": "99,908",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/masanios/panasonic-sr-x910e-k/",
+      "title": "パナソニックSR-X910E-K[5年延長保証無料進呈★]5.5合Wおどり炊き可変圧力IHジャー炊飯器ビストロSRX910EK",
+      "price": "99,908",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/emedama/4550719164518/",
+      "title": "パナソニック SR-X910E-K 可変圧力lHジャー炊飯器 Bistro ブラック[5.5合炊] 新生活 おどり炊き",
+      "price": "99,908",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/value-shopping/4550719164525/",
+      "title": "＼期間限定!クーポン配布中／ パナソニック ビストロ SR-X910E-H [ライトグレージュ] Y通常配送商品",
+      "price": "95,865",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/e-cutestyle/p000000986388/",
+      "title": "★Panasonic / パナソニック ビストロ SR-X910E-K [ブラック]【炊飯器】【送料無料】",
+      "price": "96,530",
+      "ad": false
+     }
+    ],
+    "top": {
+     "url": "https://item.rakuten.co.jp/panasonic-store/sr-x910e-k/",
+     "title": "【公式店】 パナソニック 可変圧力IHジャー炊飯器 ビストロ 選べる容量（5.5合/1升） 選べる2色 SR-X910E/X918E 食感炊き分け 銘柄炊き分け 高速 保温 予約 Wおどり炊き 玄米 炊飯器 送料無料 クリスマス",
+     "price": "99,908",
+     "ad": false,
+     "page": {
+      "title": "【楽天市場】【公式店】 パナソニック 可変圧力ＩＨジャー炊飯器 ビストロ 選べる容量（5.5合/1升） 選べる2色 SR-X910E/X918E 食感炊き分け 銘柄炊き分け 高速 保温 予約 Wおどり炊き 玄米 炊飯器 送料無料 クリスマス",
+      "cart": true,
+      "h1": ""
+     }
+    }
+   }
+  },
+  "hitachi-rz-w100jm": {
+   "amazon": {
+    "searched": 23,
+    "hits": [
+     {
+      "asin": "B0FS1CS8WR",
+      "title": "日立 炊飯器 5.5合 圧力&スチームIH ふっくら御膳 RZ-W100JM K 漆黒 日本製 圧騰甘み炊き 大火力 沸騰鉄釜 蒸気カット",
+      "price": "￥68,220",
+      "sponsored": false
+     }
+    ],
+    "top": {
+     "asin": "B0FS1CS8WR",
+     "title": "日立 炊飯器 5.5合 圧力&スチームIH ふっくら御膳 RZ-W100JM K 漆黒 日本製 圧騰甘み炊き 大火力 沸騰鉄釜 蒸気カット",
+     "price": "￥68,220",
+     "sponsored": false,
+     "page": {
+      "title": "Amazon | 日立 炊飯器 5.5合 圧力&スチームIH ふっくら御膳 RZ-W100JM K 漆黒 日本製 圧騰甘み炊き 大火力 沸騰鉄釜 蒸気カット | 日立(HITACHI) | 炊飯器 通販",
+      "cart": true,
+      "h1": "商品概要には、主要な商品情報が記載されています \nキーボードショートカット  Shift + opt + D"
+     }
+    }
+   },
+   "rakuten": {
+    "searched": 45,
+    "hits": [
+     {
+      "url": "https://item.rakuten.co.jp/ecjoy/21826032/",
+      "title": "HITACHI 日立 RZW100JM 炊飯器 圧力＆スチーム ふっくら御膳 漆黒(しっこく) RZ-W100JM [5.5合 /圧力IH]",
+      "price": "80,338",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/ai-corporation/rz-w100jm-k/",
+      "title": "先着25枚【 500円OFF 】ブラックフライデー限定クーポンあり！日立 炊飯器 RZ-W100JM-K ふっくら御膳 圧力＆スチームIH 5.5合炊き 蒸気カット 漆黒 RZW100JMK 新品 メーカー保証1年",
+      "price": "82,480",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/auc-gion/rz-w100jm-k/",
+      "title": "【11/20限定ダイヤモンド会員は当店全品最大P5倍】炊飯器 日立 HITACHI 圧力&スチームIH炊飯ジャー ふっくら御膳 5.5合炊き 漆黒 しっこく RZ-W100JM-K【KK9N0D18P】",
+      "price": "85,500",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/a-price/4549873213675/",
+      "title": "炊飯器 5.5合 日立 RZ-W100JM(K) 漆黒 ふっくら御膳 圧力スチームIH炊飯ジャー 5.5合炊き エクプラ特選",
+      "price": "90,727",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/adenkistore/rz-w100jm-k/",
+      "title": "在庫有!!日立 炊飯器 5.5合 圧力&スチームIH ふっくら御膳 RZ-W100JM K 漆黒 日本製 圧騰甘み炊き 大火力 沸騰鉄釜 蒸気カット",
+      "price": "80,337",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/premoa/4549873213675/",
+      "title": "炊飯器 5.5合 RZ-W100JM(K) 日立 漆黒 ふっくら御膳 圧力スチームIH炊飯ジャー 5.5合炊き エクプラ特選",
+      "price": "90,727",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/f082023-hitachi/l002-1/",
+      "title": "【ふるさと納税】【圧力&スチームIHタイプ　ふっくら御膳】（5.5合）RZ-W100JM(K)【 HITACHI 日立 家電 茨城県 日立市 】",
+      "price": "238,000",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/urutoragion/rz-w100jm-k/",
+      "title": "【11/20は期間限定クーポン発行】炊飯器 日立 HITACHI 圧力&スチームIH炊飯ジャー ふっくら御膳 5.5合炊き 漆黒 しっこく RZ-W100JM-K【/srm】",
+      "price": "85,500",
+      "ad": false
+     }
+    ],
+    "top": {
+     "url": "https://item.rakuten.co.jp/ecjoy/21826032/",
+     "title": "HITACHI 日立 RZW100JM 炊飯器 圧力＆スチーム ふっくら御膳 漆黒(しっこく) RZ-W100JM [5.5合 /圧力IH]",
+     "price": "80,338",
+     "ad": false,
+     "page": {
+      "title": "【楽天市場】HITACHI 日立 RZW100JM 炊飯器 圧力＆スチーム ふっくら御膳 漆黒(しっこく) RZ-W100JM [5.5合 /圧力IH]：ECJOY！楽天市場店",
+      "cart": true,
+      "h1": ""
+     }
+    }
+   }
+  },
+  "toshiba-rc-10zwa": {
+   "amazon": {
+    "searched": 13,
+    "hits": [
+     {
+      "asin": "B0FZ9D7M4B",
+      "title": "東芝 真空圧力IH炊飯器 RC-10ZWA(K) 5.5合 グランブラック 炎匠炊き 備長炭かまど丸釜 鍛造釜底7mm [LR41H 1個セット]",
+      "price": "￥86,181",
+      "sponsored": true
+     },
+     {
+      "asin": "B0FZ9D7M4B",
+      "title": "東芝 真空圧力IH炊飯器 RC-10ZWA(K) 5.5合 グランブラック 炎匠炊き 備長炭かまど丸釜 鍛造釜底7mm [LR41H 1個セット]",
+      "price": "￥86,181",
+      "sponsored": false
+     }
+    ],
+    "top": {
+     "asin": "B0FZ9D7M4B",
+     "title": "東芝 真空圧力IH炊飯器 RC-10ZWA(K) 5.5合 グランブラック 炎匠炊き 備長炭かまど丸釜 鍛造釜底7mm [LR41H 1個セット]",
+     "price": "￥86,181",
+     "sponsored": false,
+     "page": {
+      "title": "Amazon | 東芝 真空圧力IH炊飯器 RC-10ZWA(K) 5.5合 グランブラック 炎匠炊き 備長炭かまど丸釜 鍛造釜底7mm [LR41H 1個セット] | 5.5合、炎匠炊き、備長炭かまど丸釜、鍛造釜底7mm、内釜5年保証、日",
+      "cart": true,
+      "h1": "商品概要には、主要な商品情報が記載されています \nキーボードショートカット  Shift + opt + D"
+     }
+    }
+   },
+   "rakuten": {
+    "searched": 45,
+    "hits": [
+     {
+      "url": "https://item.rakuten.co.jp/r-kojima/4904530144479/",
+      "title": "東芝　TOSHIBA　炊飯器 5.5合 炎匠炊き 真空圧力IH カラータッチ液晶 グランブラック　RC-10ZWA-K",
+      "price": "108,000",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/ksdenki/4904530144479/",
+      "title": "(長期無料保証) 東芝（TOSHIBA） 真空圧力IH炊飯器 RC-10ZWA(K) グランブラック 炊飯容量：5.5合",
+      "price": "108,000",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/biccamera/4904530144479/",
+      "title": "東芝｜TOSHIBA 炊飯ジャー 炎匠炊き グランブラック RC-10ZWA-K [5.5合 /圧力IH]",
+      "price": "108,000",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/l-nana/4904530144479/",
+      "title": "【TOSHIBA】RC-10ZWA-K 東芝 5.5合炊き 真空圧力IHジャー炊飯器 グランブラック 炎匠炊き フラッグシップモデル 【備長炭かまど丸釜】",
+      "price": "91,600",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/kaden-sakura/4904530144479/",
+      "title": "東芝【TOSHIBA】5.5合炊き 真空圧力IHジャー炊飯器 グランブラック 炎匠炊き フラッグシップモデル RC-10ZWA-K【備長炭かまど丸釜】",
+      "price": "91,600",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/surprise-shop/rc-10zwa-k/",
+      "title": "RC-10ZWA-K 東芝 TOSHIBA 炎匠炊き 真空圧力IH炊飯器 備長炭かまど丸釜 5.5合炊き カラータッチ液晶搭載 グランブラック",
+      "price": "93,500",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/ebest/4904530144479/",
+      "title": "東芝 TOSHIBA RC-10ZWA-K グランブラック 炎 匠炊き 真空圧力IH炊飯器 5.5合炊き RC10ZWAK",
+      "price": "116,387",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/n-chacha/4904530144479/",
+      "title": "5.5合炊き 真空圧力IHジャー炊飯器 グランブラック 炎匠炊き フラッグシップモデル RC-10ZWA-K 東芝【TOSHIBA】【備長炭かまど丸釜】",
+      "price": "91,600",
+      "ad": false
+     }
+    ],
+    "top": {
+     "url": "https://item.rakuten.co.jp/r-kojima/4904530144479/",
+     "title": "東芝　TOSHIBA　炊飯器 5.5合 炎匠炊き 真空圧力IH カラータッチ液晶 グランブラック　RC-10ZWA-K",
+     "price": "108,000",
+     "ad": false,
+     "page": {
+      "title": "【楽天市場】東芝　TOSHIBA　炊飯器 5.5合 炎匠炊き 真空圧力IH カラータッチ液晶 グランブラック　RC-10ZWA-K：コジマ楽天市場店",
+      "cart": true,
+      "h1": ""
+     }
+    }
+   }
+  },
+  "mitsubishi-nj-bw10j": {
+   "amazon": {
+    "searched": 9,
+    "hits": [
+     {
+      "asin": "B0HGLD1288",
+      "title": "三菱電機 IHジャー炊飯器 5.5合 本炭釜 紬 NJ-BW10J-W 白絹 2026年モデル[LR41H 1個付]",
+      "price": "￥108,908",
+      "sponsored": true
+     },
+     {
+      "asin": "B0HGKVQ6TC",
+      "title": "三菱電機 IHジャー炊飯器 5.5合 本炭釜 紬 NJ-BW10J-B 炭漆黒 2026年モデル[LR41H 1個付]",
+      "price": "",
+      "sponsored": false
+     },
+     {
+      "asin": "B0HGLD1288",
+      "title": "三菱電機 IHジャー炊飯器 5.5合 本炭釜 紬 NJ-BW10J-W 白絹 2026年モデル[LR41H 1個付]",
+      "price": "￥108,908",
+      "sponsored": false
+     }
+    ],
+    "top": {
+     "asin": "B0HGKVQ6TC",
+     "title": "三菱電機 IHジャー炊飯器 5.5合 本炭釜 紬 NJ-BW10J-B 炭漆黒 2026年モデル[LR41H 1個付]",
+     "price": "",
+     "sponsored": false,
+     "page": {
+      "title": "Amazon | 三菱電機 IHジャー炊飯器 5.5合 本炭釜 紬 NJ-BW10J-B 炭漆黒 2026年モデル[LR41H 1個付] | 音声ナビ付きフルドット特大液晶 洗う部品は2点,真・かまど炊き,おにぎりモード,銘柄芳潤炊き50銘",
+      "cart": false,
+      "h1": "商品概要には、主要な商品情報が記載されています \nキーボードショートカット  Shift + opt + D"
+     }
+    }
+   },
+   "rakuten": {
+    "searched": 45,
+    "hits": [
+     {
+      "url": "https://item.rakuten.co.jp/auc-gion/nj-bw10j-b/",
+      "title": "【11/20限定ダイヤモンド会員は当店全品最大P5倍】炊飯器 5.5合 IH 本炭釜 紬 炭漆黒（すみしっこく） 銘柄芳潤炊き 低温調理 三菱電機 NJ-BW10J-B【KK9N0D18P】",
+      "price": "95,800",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/premoa/4573637012976/",
+      "title": "炊飯器 5.5合 NJ-BW10J-B 三菱電機 MITSUBISHI 炭漆黒 本炭釜 紬 IH炊飯器 5.5合炊き エクプラ特選",
+      "price": "99,800",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/r-kojima/4573637012976/",
+      "title": "三菱　MITSUBISHI　炊飯器 5.5合 本炭釜 紬（つむぎ） IHジャー 真・かまど炊き おにぎりモード 銘柄芳潤炊き 炭漆黒（すみしっこく）　NJ-BW10J",
+      "price": "121,100",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/ksdenki/4573637012969/",
+      "title": "(長期無料保証) 三菱電機（MITSUBISHI） 炊飯器　本炭釜　紬　5.5合 NJ-BW10J-W 白絹",
+      "price": "121,100",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/r-kojima/4573637012969/",
+      "title": "三菱　MITSUBISHI　炊飯器 5.5合 本炭釜 紬（つむぎ） IHジャー 真・かまど炊き おにぎりモード 銘柄芳潤炊き 白絹（しろきぬ）　NJ-BW10J",
+      "price": "121,100",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/ksdenki/4573637012976/",
+      "title": "(長期無料保証) 三菱電機（MITSUBISHI） 炊飯器　本炭釜　紬　5.5合 NJ-BW10J-B 炭漆黒",
+      "price": "121,100",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/a-price/4573637012969/",
+      "title": "炊飯器 5.5合 三菱電機 MITSUBISHI NJ-BW10J-W 白絹 本炭釜 紬 IH炊飯器 5.5合炊き エクプラ特選",
+      "price": "105,498",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/yamada-denki/6614879018/",
+      "title": "三菱電機 NJ-BW10J-B 三菱IHジャー炊飯器 本炭炊釜 紬 真・かまど炊きモード 5.5合炊き 炭漆黒 2026年モデル",
+      "price": "121,100",
+      "ad": false
+     }
+    ],
+    "top": {
+     "url": "https://item.rakuten.co.jp/auc-gion/nj-bw10j-b/",
+     "title": "【11/20限定ダイヤモンド会員は当店全品最大P5倍】炊飯器 5.5合 IH 本炭釜 紬 炭漆黒（すみしっこく） 銘柄芳潤炊き 低温調理 三菱電機 NJ-BW10J-B【KK9N0D18P】",
+     "price": "95,800",
+     "ad": false,
+     "page": {
+      "title": "【楽天市場】【11/20限定ﾀﾞｲﾔﾓﾝﾄﾞ会員は当店全品最大P5倍】炊飯器 5.5合 IH 本炭釜 紬 炭漆黒（すみしっこく） 銘柄芳潤炊き 低温調理 三菱電機 NJ-BW10J-B【KK9N0D18P】：ぎおん楽天市場店",
+      "cart": true,
+      "h1": ""
+     }
+    }
+   }
+  }
+ }
+}
