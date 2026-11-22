@@ -19,6 +19,7 @@ references:
   - "https://panasonic.jp/hotplate/products/NF-HM310.html"
   - "https://panasonic.jp/hotplate/products/NF-HM310/spec.html"
   - "https://book.yamazen.co.jp/product/detail/I00008863"
+  - "https://www.irisohyama.co.jp/products/electrical-appliances/cooking-appliances/hot-plate-appliances/hot-plate/grilled-style-hot-plate"
   - "https://www.eftc.or.jp/qa/"
 ---
 
@@ -26,7 +27,7 @@ references:
 
 だからアタシが作った。土台は **BRUNO・象印・タイガー・パナソニック・アイリスオーヤマ・山善の公式の仕様表と、メーカー直販の価格**。2026年11月に売っている7機種を、プレートの寸法・付け替えプレート・丸洗いできる範囲・収納の仕方で並べたわよ。年末年始の集まりと鍋の季節、ブラックフライデーと贈り物で選ぶ人が多い時期だから、買う前に見ておくところも最後にまとめた。
 
-<p class="source-note">この記事の価格・仕様は2026年11月22日に各社の公式で確かめたもの。価格はメーカー直販（BRUNO online・タイガーオンラインストア）の税込の金額で、店の販売価格とは違う。象印・パナソニック・アイリスオーヤマはオープン価格（メーカーが希望小売価格を決めていない）。プレートの面積は公式の内寸の「幅×奥行」で出した計算値。この記事は使ったレビューではなく、公式の数字を並べた調査です。</p>
+<p class="source-note">この記事の価格・仕様は2026年11月22日に各社の公式で確かめたもの。価格はメーカー直販（BRUNO online・タイガーオンラインストア）の税込の金額で、店の販売価格とは違う。象印・パナソニックはオープン価格（メーカーが希望小売価格を決めていない）。プレートの面積は公式の内寸の「幅×奥行」で出した計算値。この記事は使ったレビューではなく、公式の数字を並べた調査です。</p>
 
 <div class="hakkako-says">
   <div class="hakkako-quote">先に一番の驚きを言っとく。<strong>平面プレートの広さは、いちばん広いタイガー CRV-G301（約1,301cm²）といちばん小さいBRUNO コンパクト（約612cm²）で約2.1倍</strong>も違う。しかも<strong>本体の幅は52.3cmと37.5cmで、差は1.4倍だけ</strong>。テーブルに置ける幅で選ぶと、焼ける量を読み違えるのよ。</div>
@@ -84,6 +85,7 @@ references:
     <thead><tr><th>機種（本体の幅）</th><th>平面プレートの面積（幅×奥行）／深さ</th></tr></thead>
     <tbody>
       <tr class="recommended"><td><span class="cell-brand"><img class="brand-logo-sm on-dark" src="/images/hot-plate-comparison-2026/logos/tiger.png" alt="" loading="lazy" /><a href="https://www.tiger-corporation.com/ja/jpn/product/others/crv-g301/" target="_blank" rel="noopener">タイガー CRV-G301（52.3cm）</a></span></td><td><strong>約1,301cm²（42.1×30.9cm）</strong><span class="cell-sub">深さ2.4cm・BRUNO コンパクトの約2.1倍</span></td></tr>
+      <tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/hot-plate-comparison-2026/logos/iris.png" alt="" loading="lazy" /><a href="https://www.irisohyama.co.jp/products/electrical-appliances/cooking-appliances/hot-plate-appliances/hot-plate/grilled-style-hot-plate" target="_blank" rel="noopener">アイリスオーヤマ APA-139-B（48.5cm）</a></span></td><td><strong>約1,126cm²（39.8×28.3cm）</strong><span class="cell-sub">深さ2.7cm・BRUNO コンパクトの約1.8倍</span></td></tr>
       <tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/hot-plate-comparison-2026/logos/zojirushi.png" alt="" loading="lazy" /><a href="https://www.zojirushi.co.jp/syohin/kitchen/hot_plate/ea-kl/" target="_blank" rel="noopener">象印 EA-KL30（48cm）</a></span></td><td><strong>約1,114cm²（40.8×27.3cm）</strong><span class="cell-sub">深さ3.5cm・BRUNO コンパクトの約1.8倍</span></td></tr>
       <tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/hot-plate-comparison-2026/logos/panasonic.png" alt="" loading="lazy" /><a href="https://panasonic.jp/hotplate/products/NF-HM310.html" target="_blank" rel="noopener">パナソニック NF-HM310（55.6cm）</a></span></td><td><strong>約1,039cm²（39.8×26.1cm）</strong><span class="cell-sub">深さ2.5cm・BRUNO コンパクトの約1.7倍</span></td></tr>
       <tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/hot-plate-comparison-2026/logos/bruno.png" alt="" loading="lazy" /><a href="https://bruno-onlineshop.com/item/0999DP07.html" target="_blank" rel="noopener">BRUNO コンパクト（37.5cm）</a></span></td><td><strong>約612cm²（30×20.4cm）</strong><span class="cell-sub">プレートの外形の寸法。BRUNO公式で「2〜3人用」</span></td></tr>
@@ -95,7 +97,7 @@ references:
 
 <p class="source-note">計算：各社の公式の平面プレートの内寸（約）の幅×奥行。BRUNO コンパクトは平面プレート単品（<a href="https://bruno-onlineshop.com/item/09990889.html" target="_blank" rel="noopener">BOE021-FLAT</a>）の外形の寸法で、焼ける面はこれより少し小さい。パナソニックは公式の商品ページの図の寸法。本体の幅はふたをして温度調節器を付けない状態の公式の値（タイガーは温度調節器を付けると56.9cm）。</p>
 
-**BRUNO公式が「2〜3人用」と書いているコンパクトの約612cm²を物差しにすると、約1.7〜2.1倍のタイガー・象印・パナソニックは4〜5人で囲める広さの目安**になる（面積の比からの計算で、メーカーの表示ではない）。たこ焼きの数で見ても、BRUNO みんなのホットプレートは40個、象印 EA-KL30とタイガー CRV-G301は30個を一度に焼ける。
+**BRUNO公式が「2〜3人用」と書いているコンパクトの約612cm²を物差しにすると、約1.7〜2.1倍のタイガー・アイリスオーヤマ・象印・パナソニックは4〜5人で囲める広さの目安**になる（面積の比からの計算で、メーカーの表示ではない）。たこ焼きの数で見ても、BRUNO みんなのホットプレートは40個、象印 EA-KL30とタイガー CRV-G301は30個を一度に焼ける。
 
 <aside class="related-block">
   <div class="related-block-head">
@@ -133,6 +135,7 @@ references:
     <tbody>
       <tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/hot-plate-comparison-2026/logos/zojirushi.png" alt="" loading="lazy" /><a href="https://www.zojirushi.co.jp/syohin/kitchen/hot_plate/ea-kl/" target="_blank" rel="noopener">象印 EA-KL30</a></span></td><td><strong>6度に傾いた溝で脂を流す「傾斜溝つき焼肉プレート」</strong><span class="cell-sub">象印の従来品比で油切れ約50%アップ・油の飛び散り約50%カット（象印調べ）</span></td></tr>
       <tr><td><span class="cell-brand"><img class="brand-logo-sm on-dark" src="/images/hot-plate-comparison-2026/logos/tiger.png" alt="" loading="lazy" /><a href="https://www.tiger-corporation.com/ja/jpn/product/others/crv-g301/" target="_blank" rel="noopener">タイガー CRV-G301</a></span></td><td><strong>余分な油を穴から落とす「穴あき・波形プレート」</strong><span class="cell-sub">深さ2.2cm</span></td></tr>
+      <tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/hot-plate-comparison-2026/logos/iris.png" alt="" loading="lazy" /><a href="https://www.irisohyama.co.jp/products/electrical-appliances/cooking-appliances/hot-plate-appliances/hot-plate/grilled-style-hot-plate" target="_blank" rel="noopener">アイリスオーヤマ APA-139-B</a></span></td><td><strong>余分な油を穴から水受皿へ落とす「穴あきプレート」</strong><span class="cell-sub">煙が出にくく、油の飛び散りも少ない（アイリスオーヤマ公式）</span></td></tr>
       <tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/hot-plate-comparison-2026/logos/yamazen.png" alt="" loading="lazy" /><a href="https://book.yamazen.co.jp/product/detail/I00008863" target="_blank" rel="noopener">山善 YHP-TX130</a></span></td><td><strong>プレートの裏をX字の立体にした「Xカット構造」</strong><span class="cell-sub">油を下へ落として、焼き肉の煙と油ハネを抑える</span></td></tr>
       <tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/hot-plate-comparison-2026/logos/bruno.png" alt="" loading="lazy" /><a href="https://bruno-onlineshop.com/item/07761244.html" target="_blank" rel="noopener">BRUNO みんなのホットプレート</a></span></td><td><strong>傾きの違う2つの面を持つグリルプレート（HIGH・LOW）</strong><span class="cell-sub">脂を落としたい肉とうまみを残したい肉で焼き分ける</span></td></tr>
       <tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/hot-plate-comparison-2026/logos/panasonic.png" alt="" loading="lazy" /><a href="https://panasonic.jp/hotplate/products/NF-HM310.html" target="_blank" rel="noopener">パナソニック NF-HM310</a></span></td><td><strong>余分な脂を落とす波型の焼肉プレート</strong><span class="cell-sub">平面プレートと合わせてダイヤモンドフッ素コート</span></td></tr>
@@ -163,6 +166,7 @@ references:
       <tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/hot-plate-comparison-2026/logos/bruno.png" alt="" loading="lazy" /><a href="https://bruno-onlineshop.com/item/07761244.html" target="_blank" rel="noopener">BRUNO みんなのホットプレート（約3.9kg）</a></span></td><td><strong>ヒーターを外して、プレート・ふた・本体まで丸洗い</strong><span class="cell-sub">プレートを重ねてしまう</span></td></tr>
       <tr><td><span class="cell-brand"><img class="brand-logo-sm on-dark" src="/images/hot-plate-comparison-2026/logos/tiger.png" alt="" loading="lazy" /><a href="https://www.tiger-corporation.com/ja/jpn/product/others/crv-g301/" target="_blank" rel="noopener">タイガー CRV-G301（約8.6kg）</a></span></td><td><strong>本体ガード・プレート・ヒーターが外れる完全分離。本体ガードとプレートは丸洗い</strong><span class="cell-sub">スタンドを引き出して縦置き（幅約14.8cm）。収納ケースに2枚と金属へらをまとめる</span></td></tr>
       <tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/hot-plate-comparison-2026/logos/zojirushi.png" alt="" loading="lazy" /><a href="https://www.zojirushi.co.jp/syohin/kitchen/hot_plate/ea-kl/" target="_blank" rel="noopener">象印 EA-KL30（約7.0kg）</a></span></td><td><strong>ヒーターを外して本体ガードとプレートを丸洗い</strong><span class="cell-sub">3枚を重ねて高さ18cm</span></td></tr>
+      <tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/hot-plate-comparison-2026/logos/iris.png" alt="" loading="lazy" /><a href="https://www.irisohyama.co.jp/products/electrical-appliances/cooking-appliances/hot-plate-appliances/hot-plate/grilled-style-hot-plate" target="_blank" rel="noopener">アイリスオーヤマ APA-139-B（約6.2kg）</a></span></td><td><strong>穴から落ちた油は水受皿へ。プレートと水受皿を外して洗う</strong><span class="cell-sub">しまうときは高さ13.7cm（使うときは8.5cm）</span></td></tr>
       <tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/hot-plate-comparison-2026/logos/panasonic.png" alt="" loading="lazy" /><a href="https://panasonic.jp/hotplate/products/NF-HM310.html" target="_blank" rel="noopener">パナソニック NF-HM310（収納時 約6.2kg）</a></span></td><td><strong>プレート丸洗い。油がたまりやすい遮熱板もヒーターから外して拭ける</strong><span class="cell-sub">丸みのある形で、シンクの中でも洗いやすい</span></td></tr>
       <tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/hot-plate-comparison-2026/logos/yamazen.png" alt="" loading="lazy" /><a href="https://book.yamazen.co.jp/product/detail/I00008863" target="_blank" rel="noopener">山善 YHP-TX130（約3.2kg）</a></span></td><td><strong>プレート・水トレイ・フタを丸洗い</strong><span class="cell-sub">フタは自立する。取っ手を外してプレートとフタの間にしまう</span></td></tr>
       <tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/hot-plate-comparison-2026/logos/bruno.png" alt="" loading="lazy" /><a href="https://bruno-onlineshop.com/item/0999DP07.html" target="_blank" rel="noopener">BRUNO コンパクト（約2.3kg）</a></span></td><td><strong>プレートを外して洗う</strong><span class="cell-sub">使ったあとはプレートも小物も本体の中に重ねてしまえる</span></td></tr>
@@ -332,6 +336,31 @@ references:
 
 <div data-shop-card="hot-plate:panasonic-nf-hm310"></div>
 
+<h3 class="brand-h" id="iris-apa-139"><img class="brand-logo" src="/images/hot-plate-comparison-2026/logos/iris.png" alt="アイリスオーヤマのロゴ" loading="lazy" /><span>アイリスオーヤマ 網焼き風ホットプレート APA-139-B｜穴あきプレートで網焼き風</span></h3>
+
+<figure class="rn-figure">
+  <img src="/images/hot-plate-comparison-2026/photos/iris-apa-series.jpg" alt="アイリスオーヤマの網焼き風ホットプレート。本体の上に平面プレート、穴あきプレート、ふたを重ねた図" loading="lazy" />
+  <figcaption>網焼き風ホットプレートのシリーズ。<cite>出典：<a href="https://www.irisohyama.co.jp/products/electrical-appliances/cooking-appliances/hot-plate-appliances/hot-plate/grilled-style-hot-plate" target="_blank" rel="noopener">アイリスオーヤマ 公式</a></cite></figcaption>
+</figure>
+
+<div class="cmp-table-wrap">
+  <table class="cmp-table spec-table">
+    <tbody>
+      <tr><th>付属プレート</th><td>平面・焼肉（穴あき）・たこ焼き、水受皿、ふた</td></tr>
+      <tr><th>プレート内寸</th><td>39.8×28.3cm・深さ2.7cm（外寸 42.5×30cm）</td></tr>
+      <tr><th>本体寸法</th><td>48.5×35.6×8.5cm（プレート1枚を付けて）・しまうときは高さ13.7cm・約6.2kg</td></tr>
+      <tr><th>消費電力</th><td>1,300W</td></tr>
+      <tr><th>温度設定</th><td>保温・140〜250℃</td></tr>
+      <tr><th>コード</th><td>1.8m</td></tr>
+      <tr><th>保証</th><td>買った日から1年間</td></tr>
+    </tbody>
+  </table>
+</div>
+
+**余分な油を穴から落とす穴あきプレートで、煙が出にくく、油の飛び散りも少ない網焼き風ホットプレートの3枚プレートの型**（アイリスオーヤマ公式）。穴から落ちた油は水受皿にたまる。平面プレートの内寸39.8×28.3cmは、プレートの寸法が分かる機種のなかでタイガー CRV-G301に次ぐ2番目の広さで、象印 EA-KL30（40.8×27.3cm）とほぼ同じ面積。しまうときも重ねて高さ13.7cmに収まる。コードは1.8mと短めなので、延長コードが要るかは先に見ておきたい。
+
+<div data-shop-card="hot-plate:iris-apa-139"></div>
+
 <h3 class="brand-h" id="yamazen-yhp-tx130"><img class="brand-logo" src="/images/hot-plate-comparison-2026/logos/yamazen.png" alt="山善のロゴ" loading="lazy" /><span>山善 減煙焼き肉グリル XGRILL TRIPLE YHP-TX130｜焼肉の煙を抑える3枚組</span></h3>
 
 <div class="real-photos cols-2">
@@ -362,7 +391,25 @@ references:
 
 <div data-shop-card="hot-plate:yamazen-yhp-tx130"></div>
 
-## 買った人の声と動画｜BRUNO・山善・象印
+## 買った人の声と動画｜BRUNO・象印・タイガー・山善
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">BRUNOのホットプレートに買い替えた✌今日は鍋する✨</p>&mdash; ✦.*こもも✦.* (@comomoco382) <a href="https://twitter.com/comomoco382/status/2116097743534117306">2026年10月30日</a></blockquote>
+
+BRUNOのホットプレートに買い替えて、さっそく鍋をするという声。鍋の季節に買い替える人がいるのが分かるわね。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">おはようございます 長いこと使っていたホットプレートを買い替えました 焼肉プレートが自慢の"やきやき" 脂が落ちて煙が立ちにくい構造が特徴 豚トロと牛カルビのおうち焼肉で大満足</p>&mdash; まお (@spring_mao) <a href="https://twitter.com/spring_mao/status/1878950404710605142">2025年1月13日</a></blockquote>
+
+象印の「やきやき」に買い替えた人の声。焼肉プレートの「脂が落ちて煙が立ちにくい」作りを挙げている。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">ホットプレート 蓋をロックできるのはタイガーだけなのかな ロックできると縦置き保存できるから収納性がいいのよね…</p>&mdash; 地獄の田中@大船市長 (@JigokuTanaka) <a href="https://twitter.com/JigokuTanaka/status/1975140500589154658">2025年10月6日</a></blockquote>
+
+タイガーのホットプレートの縦置きを「収納性がいい」と評価している声。しまう場所に困る人が見ているところね。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">ホットプレート欲しいンゴ 昨日買いに行ったけどパナソニック派の夫とブルーノ派のワイで意見が分かれて一旦保留(´°̥̥̥̥̥̥̥̥ω°̥̥̥̥̥̥̥̥｀) ブルーノ可愛いやん、、、</p>&mdash; 桃色の虚無こあら🩷🐨🌿 (@kyomukoala) <a href="https://twitter.com/kyomukoala/status/1877984183253082585">2025年1月11日</a></blockquote>
+
+パナソニックとBRUNOで家族の意見が割れた、という声。見た目と使い勝手のどちらを取るかは、多くの家で迷うところね。
+
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <div class="yt-embed">
 <iframe src="https://www.youtube-nocookie.com/embed/uUYI5osemoo" title="【商品レビュー】BRUNOコンパクトホットプレート限定カラー【BOE021】グリーングレー３種深鍋セット＆マルチプレート（SORE*HSP家族のくらし*）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
@@ -394,13 +441,13 @@ BRUNO コンパクトホットプレート（BOE021）に深鍋とマルチプ�
 
 BRUNOの公式チャンネルによる、コンパクトホットプレートの使い方。
 
-<p class="source-note">埋め込んだ YouTube は2026年11月22日に oEmbed でタイトルと投稿者を照合し、実在を確かめたもの。投稿した人の個人の感想・撮影時点の内容で、この記事の数字とは別のもの。</p>
+<p class="source-note">引用した X の投稿は、2026年11月22日に本文・投稿者・日付を確かめたもの。埋め込んだ YouTube は同じ日に oEmbed でタイトルと投稿者を照合し、実在を確かめたもの。どちらも投稿した人の個人の感想・撮影時点の内容で、この記事の数字とは別のもの。</p>
 
 ## 年末年始と贈り物で買う前に｜見ておく4つ
 
 <ul class="checklist">
-  <li><div class="checklist-body"><strong>① 何人で囲むか → 平面プレートの面積</strong><p>BRUNO公式が「2〜3人用」と書くコンパクトの平面プレートは約612cm²。4〜5人なら、その約1.7〜2.1倍のパナソニック NF-HM310（約1,039cm²）・象印 EA-KL30（約1,114cm²）・タイガー CRV-G301（約1,301cm²）が目安になる。</p></div></li>
-  <li><div class="checklist-body"><strong>② テーブルの幅とコードの長さ</strong><p>本体の幅はBRUNO コンパクトの37.5cmからパナソニック NF-HM310の55.6cmまで。コードは約1.8m（BRUNOの2機種）から3m（タイガー）まで。食卓の真ん中に置くなら、コンセントまでの距離を測っておく。</p></div></li>
+  <li><div class="checklist-body"><strong>① 何人で囲むか → 平面プレートの面積</strong><p>BRUNO公式が「2〜3人用」と書くコンパクトの平面プレートは約612cm²。4〜5人なら、その約1.7〜2.1倍のパナソニック NF-HM310（約1,039cm²）・象印 EA-KL30（約1,114cm²）・アイリスオーヤマ APA-139-B（約1,126cm²）・タイガー CRV-G301（約1,301cm²）が目安になる。</p></div></li>
+  <li><div class="checklist-body"><strong>② テーブルの幅とコードの長さ</strong><p>本体の幅はBRUNO コンパクトの37.5cmからパナソニック NF-HM310の55.6cmまで。コードは約1.8m（BRUNOの2機種・アイリスオーヤマ）から3m（タイガー）まで。食卓の真ん中に置くなら、コンセントまでの距離を測っておく。</p></div></li>
   <li><div class="checklist-body"><strong>③ 鍋ものもするか</strong><p>すき焼き・パエリアまでするなら、平面プレートが深さ3.5cmの象印 EA-KL30かBRUNO みんなのホットプレート。BRUNO コンパクトは別売りのセラミックコート鍋を足す形になる。</p></div></li>
   <li><div class="checklist-body"><strong>④ セール価格と直販の価格を比べる</strong><p>この記事の価格はメーカー直販の金額（2026年11月22日）。楽天市場・Yahoo!ショッピングの価格は上の比較表で、送料とポイントを含めて比べて。BRUNO直営は+550円でメーカー保証を1年延ばせる（BRUNO online の表示）。</p></div></li>
 </ul>
@@ -427,7 +474,7 @@ BRUNOの公式チャンネルによる、コンパクトホットプレートの
     <thead><tr><th>人数</th><th>向いている機種／向かない人</th></tr></thead>
     <tbody>
       <tr><td><strong>1〜3人</strong><span class="cell-sub"><a href="https://bruno-onlineshop.com/item/0999DP07.html" target="_blank" rel="noopener">BRUNO コンパクト</a>・<a href="https://book.yamazen.co.jp/product/detail/I00008863" target="_blank" rel="noopener">山善 YHP-TX130</a></span></td><td><strong>向いている：食卓が小さい・軽くて出し入れが楽なものがいい人</strong><span class="cell-sub">向かない：来客が多く、一度にたくさん焼きたい人</span></td></tr>
-      <tr class="recommended"><td><strong>3〜5人</strong><span class="cell-sub"><a href="https://www.zojirushi.co.jp/syohin/kitchen/hot_plate/ea-kl/" target="_blank" rel="noopener">象印 EA-KL30</a>・<a href="https://panasonic.jp/hotplate/products/NF-HM310.html" target="_blank" rel="noopener">パナソニック NF-HM310</a>・<a href="https://bruno-onlineshop.com/item/07761244.html" target="_blank" rel="noopener">BRUNO みんなの</a></span></td><td><strong>向いている：焼肉・たこ焼き・鍋を家族で回す人</strong><span class="cell-sub">向かない：棚の上段にしまう人（象印は約7.0kg）</span></td></tr>
+      <tr class="recommended"><td><strong>3〜5人</strong><span class="cell-sub"><a href="https://www.zojirushi.co.jp/syohin/kitchen/hot_plate/ea-kl/" target="_blank" rel="noopener">象印 EA-KL30</a>・<a href="https://panasonic.jp/hotplate/products/NF-HM310.html" target="_blank" rel="noopener">パナソニック NF-HM310</a>・<a href="https://www.irisohyama.co.jp/products/electrical-appliances/cooking-appliances/hot-plate-appliances/hot-plate/grilled-style-hot-plate" target="_blank" rel="noopener">アイリスオーヤマ APA-139-B</a>・<a href="https://bruno-onlineshop.com/item/07761244.html" target="_blank" rel="noopener">BRUNO みんなの</a></span></td><td><strong>向いている：焼肉・たこ焼き・鍋を家族で回す人</strong><span class="cell-sub">向かない：棚の上段にしまう人（象印は約7.0kg）</span></td></tr>
       <tr><td><strong>5人以上・来客</strong><span class="cell-sub"><a href="https://www.tiger-corporation.com/ja/jpn/product/others/crv-g301/" target="_blank" rel="noopener">タイガー CRV-G301</a></span></td><td><strong>向いている：年末年始に親戚が集まる・プレートの広さを最優先にする人</strong><span class="cell-sub">向かない：重さが気になる人（約8.6kg）・テーブルの幅が55cmに足りない人</span></td></tr>
     </tbody>
   </table>
@@ -439,7 +486,7 @@ BRUNOの公式チャンネルによる、コンパクトホットプレートの
   <table class="cmp-table spec-table faq-table">
     <tbody>
       <tr><th>4人家族なら、ホットプレートはどのくらいの大きさがいい？</th><td>平面プレートの面積で約1,000cm²以上が目安。BRUNO公式が「2〜3人用」と書くコンパクトの平面プレートは約612cm²で、その約1.7倍のパナソニック NF-HM310（39.8×26.1cm）や約1.8倍の象印 EA-KL30（40.8×27.3cm）なら4人で囲みやすい（面積の比からの計算）。</td></tr>
-      <tr><th>いちばんプレートが広いホットプレートは？</th><td>この7機種で寸法が公表されているなかでは、タイガー CRV-G301の平面プレート（内寸42.1×30.9cm・約1,301cm²）。たこ焼きの数ではBRUNO みんなのホットプレートの40個がいちばん多い。</td></tr>
+      <tr><th>いちばんプレートが広いホットプレートは？</th><td>この7機種で寸法が公表されているなかでは、タイガー CRV-G301の平面プレート（内寸42.1×30.9cm・約1,301cm²）。2番目はアイリスオーヤマ APA-139-B（39.8×28.3cm・約1,126cm²）。たこ焼きの数ではBRUNO みんなのホットプレートの40個がいちばん多い。</td></tr>
       <tr><th>ホットプレートで鍋はできる？</th><td>深さのあるプレートならできる。象印 EA-KL30の深型平面プレートは深さ3.5cmで、すき焼きやパスタも公式が案内している。BRUNO みんなのホットプレートの平面プレートも深さ35mm。BRUNO コンパクトは別売りのセラミックコート鍋を使う。</td></tr>
       <tr><th>ホットプレートの電気代は1時間いくら？</th><td>消費電力1,300Wの機種を最大火力で1時間使い続けると約40円、1,200Wなら約37円（31円/kWh）。実際は温度を保つために止まる時間があるので、これより少なくなる。</td></tr>
       <tr><th>しまう場所が狭いときは？</th><td>タイガー CRV-G301はスタンドで縦に立てて幅約14.8cmにしまえる。BRUNO コンパクトはプレートも小物も本体の中に重ねてしまえ、山善 YHP-TX130は取っ手をプレートとフタの間に収める。</td></tr>

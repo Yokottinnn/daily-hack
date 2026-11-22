@@ -198,5 +198,16 @@
    600,
    400
   ]
+ },
+ "iris-apa-series.jpg": {
+  "page": "https://www.irisohyama.co.jp/products/electrical-appliances/cooking-appliances/hot-plate-appliances/hot-plate/grilled-style-hot-plate",
+  "credit": "アイリスオーヤマ 公式",
+  "license": "製品写真（メーカー公式・識別と紹介の目的で出典を記して使用）",
+  "fetched": "2026-11-22",
+  "size": [
+   300,
+   300
+  ],
+  "note": "網焼き風ホットプレートのシリーズの代表写真（og:image）。Mac の ops/tasks t1012 で取得"
  }
 }
