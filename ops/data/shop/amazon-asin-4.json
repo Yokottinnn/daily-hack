@@ -1,0 +1,232 @@
+[
+ {
+  "id": "electric-toothbrush~philips-hx4021",
+  "store": "amazon",
+  "keyword": "フィリップス ソニッケアー HX4021/01",
+  "must": [
+   "HX4021"
+  ],
+  "exclude": [
+   "互換",
+   "対応",
+   "中古",
+   "◆",
+   "並行輸入",
+   "交換用",
+   "フィルム",
+   "替えブラシ",
+   "替ブラシ",
+   "ブラシヘッド"
+  ]
+ },
+ {
+  "id": "electric-toothbrush~philips-hx7421",
+  "store": "amazon",
+  "keyword": "フィリップス ソニッケアー 7100 HX7421/11",
+  "must": [
+   "HX7421"
+  ],
+  "exclude": [
+   "互換",
+   "対応",
+   "中古",
+   "◆",
+   "並行輸入",
+   "交換用",
+   "フィルム",
+   "替えブラシ",
+   "替ブラシ",
+   "ブラシヘッド"
+  ]
+ },
+ {
+  "id": "electric-toothbrush~philips-hx9911",
+  "store": "amazon",
+  "keyword": "フィリップス ダイヤモンドクリーン 9000 HX9911/72",
+  "must": [
+   "HX9911"
+  ],
+  "exclude": [
+   "互換",
+   "対応",
+   "中古",
+   "◆",
+   "並行輸入",
+   "交換用",
+   "フィルム",
+   "替えブラシ",
+   "替ブラシ",
+   "ブラシヘッド"
+  ]
+ },
+ {
+  "id": "electric-toothbrush~oralb-io2",
+  "store": "amazon",
+  "keyword": "ブラウン オーラルB iO2",
+  "must": [
+   "iO2"
+  ],
+  "exclude": [
+   "互換",
+   "対応",
+   "中古",
+   "◆",
+   "並行輸入",
+   "交換用",
+   "フィルム",
+   "替えブラシ",
+   "替ブラシ",
+   "ブラシヘッド"
+  ]
+ },
+ {
+  "id": "electric-toothbrush~oralb-pro1",
+  "store": "amazon",
+  "keyword": "ブラウン オーラルB PRO1 D305",
+  "must": [
+   "D305"
+  ],
+  "exclude": [
+   "互換",
+   "対応",
+   "中古",
+   "◆",
+   "並行輸入",
+   "交換用",
+   "フィルム",
+   "替えブラシ",
+   "替ブラシ",
+   "ブラシヘッド"
+  ]
+ },
+ {
+  "id": "electric-toothbrush~panasonic-ew-da49",
+  "store": "amazon",
+  "keyword": "パナソニック ドルツ EW-DA49",
+  "must": [
+   "EW-DA49"
+  ],
+  "exclude": [
+   "互換",
+   "対応",
+   "中古",
+   "◆",
+   "並行輸入",
+   "交換用",
+   "フィルム",
+   "替えブラシ",
+   "替ブラシ",
+   "ブラシヘッド"
+  ]
+ },
+ {
+  "id": "electric-toothbrush~panasonic-ew-dt88",
+  "store": "amazon",
+  "keyword": "パナソニック ドルツ EW-DT88",
+  "must": [
+   "EW-DT88"
+  ],
+  "exclude": [
+   "互換",
+   "対応",
+   "中古",
+   "◆",
+   "並行輸入",
+   "交換用",
+   "フィルム",
+   "替えブラシ",
+   "替ブラシ",
+   "ブラシヘッド"
+  ]
+ },
+ {
+  "id": "electric-toothbrush~omron-ht-b3221",
+  "store": "amazon",
+  "keyword": "オムロン 音波式電動歯ブラシ HT-B3221-JT",
+  "must": [
+   "HT-B3221"
+  ],
+  "exclude": [
+   "互換",
+   "対応",
+   "中古",
+   "◆",
+   "並行輸入",
+   "交換用",
+   "フィルム",
+   "替えブラシ",
+   "替ブラシ",
+   "ブラシヘッド"
+  ]
+ },
+ {
+  "id": "toothbrush-head~philips-c2-hx9024",
+  "store": "amazon",
+  "keyword": "フィリップス ソニッケアー クリーンプラス HX9024/14",
+  "must": [
+   "HX9024"
+  ],
+  "exclude": [
+   "互換",
+   "対応",
+   "中古",
+   "◆",
+   "並行輸入",
+   "交換用",
+   "フィルム"
+  ]
+ },
+ {
+  "id": "toothbrush-head~philips-g3-hx9054",
+  "store": "amazon",
+  "keyword": "フィリップス ソニッケアー プレミアムガムケア HX9054/91",
+  "must": [
+   "HX9054"
+  ],
+  "exclude": [
+   "互換",
+   "対応",
+   "中古",
+   "◆",
+   "並行輸入",
+   "交換用",
+   "フィルム"
+  ]
+ },
+ {
+  "id": "toothbrush-head~oralb-io-ultimate6",
+  "store": "amazon",
+  "keyword": "ブラウン オーラルB iO 替えブラシ アルティメイトクリーン 6本",
+  "must": [
+   "アルティメイトクリーン",
+   "6本"
+  ],
+  "exclude": [
+   "互換",
+   "対応",
+   "中古",
+   "◆",
+   "並行輸入",
+   "交換用",
+   "フィルム"
+  ]
+ },
+ {
+  "id": "toothbrush-head~oralb-multi8",
+  "store": "amazon",
+  "keyword": "ブラウン オーラルB マルチアクションブラシ EB50RB-8",
+  "must": [
+   "EB50",
+   "8本"
+  ],
+  "exclude": [
+   "互換",
+   "対応",
+   "中古",
+   "◆",
+   "並行輸入",
+   "交換用",
+   "フィルム"
+  ]
+ }
+]

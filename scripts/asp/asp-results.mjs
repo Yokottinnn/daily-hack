@@ -47,7 +47,7 @@ const readTables = () => p.evaluate(() => [...document.querySelectorAll('table')
 const result = { generatedAt: new Date().toISOString(), asps: {} };
 
 try {
-  for (const e of ENTRY) {
+  for (const e of ENTRY.filter((x) => !process.env.RESULTS_ONLY || process.env.RESULTS_ONLY.split(',').includes(x.id))) {
     lines.push(`## ${e.name}`, '');
     let urls = e.urls || [];
     if (!urls.length) {
@@ -62,6 +62,34 @@ try {
       const u = urls[ui];
       await go(u);
       if (e.wait) await p.waitForTimeout(e.wait);
+      // 2026-11-22 利用者「（AdSense の行を）今月にそろえる」。レポートの既定の期間は「今日」なので、「今月」に切り替えてから読む。
+      // 期間の一覧が開いていなければ、いま選ばれている期間（「今日」など）のボタンを押して開く。切り替えられたかは range に残す
+      let range = null;
+      if (e.id === 'adsense' && /\/reporting/.test(u)) {
+        // t777: Playwright の filter({visible}) が Mac の版で効かず、押せなかった。画面の中で「今月」とだけ書かれた見えている要素を探し、押せる親（ボタン・チップ・選択肢）を押す
+        const clickText = (re) => p.evaluate((src) => {
+          const re = new RegExp(src);
+          const vis = (e) => { const r = e.getBoundingClientRect(); const cs = getComputedStyle(e); return r.width > 0 && r.height > 0 && cs.visibility !== 'hidden' && cs.display !== 'none'; };
+          const els = [...document.querySelectorAll('body *')].filter((e) => re.test((e.innerText || e.textContent || '').trim()) && vis(e));
+          els.sort((a, b) => a.querySelectorAll('*').length - b.querySelectorAll('*').length);   // いちばん内側の要素から
+          const t = els[0]; if (!t) return '';
+          const c = t.closest('button, [role=button], [role=option], [role=radio], [role=tab], [role=menuitem], [role=menuitemradio], material-chip, mat-chip, a') || t;
+          c.click(); return (c.tagName + ' ' + (c.getAttribute('role') || '')).trim();
+        }, re.source).catch(() => '');
+        let how = await clickText(/^今月$/);
+        await p.waitForTimeout(3000);
+        // t778: 期間はラジオのチップ（material-chip role=radio）。選ばれているものは aria-checked="true"。押すのは「今月」の 1 回だけにする
+        const selected = () => p.evaluate(() => {
+          const c = [...document.querySelectorAll('[role=radio][aria-checked=true], [role=radio][aria-selected=true], material-chip[selected], material-chip.selected')]
+            .map((e) => (e.innerText || '').replace(/check/g, '').trim()).filter(Boolean);
+          return c.join('・');
+        }).catch(() => '');
+        await p.waitForTimeout(8000);
+        const sel = await selected();
+        lines.push(`- 「今月」を押した: ${how || '押せない'}・選ばれている期間: ${sel || '読めない'}`);
+        range = /今月/.test(sel) ? '今月' : `${sel || '不明'}（今月への切り替えに失敗）`;
+        lines.push(`- 期間: ${range}`);
+      }
 
       const title = (await p.title()).slice(0, 60);
       const tables = await readTables();
@@ -76,7 +104,7 @@ try {
       }
       // 楽天のレポートは表ではなく文字で並ぶ（t340）。collect のときは画面の文字も持つ（数字入り・非公開の置き場にだけ書く）
       const text = MODE === 'collect' ? await p.evaluate((mainOnly) => (((mainOnly && document.querySelector('[role=main], main')) || document.body).innerText || '').split('\n').map((x) => x.trim()).filter(Boolean).slice(0, 400), e.id === 'adsense') : undefined;
-      result.asps[e.id].push({ url: here(), title, tables, text });
+      result.asps[e.id].push({ url: here(), title, tables, text, ...(range ? { range } : {}) });
     }
     // タブを文字で押して読む（楽天の「注文明細」などは普通のリンクではなかった・2026-11-06）。商品名が出るので公開の md には件数だけ
     for (const label of e.tabs || []) {
