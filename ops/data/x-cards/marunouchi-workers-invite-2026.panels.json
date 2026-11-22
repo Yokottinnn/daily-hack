@@ -1,0 +1,25 @@
+{
+ "_doc": "X 告知の画像。node scripts/gen-x-panels.mjs ops/data/x-cards/marunouchi-workers-invite-2026.panels.json",
+ "_note": "2026-11-22 利用者の依頼（丸の内ワーカーズのお友だち紹介）。素材はキャンペーンの詳細ページ（marunouchi.com/pickup/campaign/11212）と招待のページの公式画像（x535 で Mac が取得）。紹介コードは利用者のもの（8Q9YWPzzJ）。出所は画像に出さず ALT に書く",
+ "imageBase": "public/images/marunouchi-workers-invite-2026",
+ "out": "public/images/marunouchi-workers-invite-2026/x",
+ "theme": "ink",
+ "panels": [
+  {
+   "file": "1-official.jpg",
+   "kind": "html",
+   "noHeader": true,
+   "html": "<div class=\"ey\"><img class=\"bgb\" src=\"photos/detail-5.jpg\" alt=\"\"><img class=\"fg\" src=\"photos/detail-5.jpg\" alt=\"\"></div>",
+   "css": "main{padding:0;height:1080px;display:block}\n.ey{position:relative;height:1080px;overflow:hidden;background:#f3ece4}\n.bgb{position:absolute;left:-60px;top:-60px;width:1200px;height:1200px;object-fit:cover;filter:blur(34px) brightness(.85)}\n.fg{position:absolute;left:28px;top:28px;width:1024px;height:1024px;object-fit:contain;filter:drop-shadow(0 18px 40px rgba(0,0,0,.45))}",
+   "alt": "MARUNOUCHI WORKERS お友だち紹介キャンペーンの告知画像。2026年11月16日〜12月6日。紹介したあなたも、紹介されたお友だちも丸の内ポイント300ポイント、紹介人数分もらえる。会員限定。画像：Marunouchi.com（三菱地所）"
+  },
+  {
+   "file": "2-code.jpg",
+   "kind": "html",
+   "noHeader": true,
+   "html": "<div class=\"w\"><div class=\"k\">大手町・丸の内・有楽町の三菱地所のビルで働く人</div><div class=\"t\">登録して応募するだけで<br>丸の内ポイント<em>300pt</em></div><img class=\"bn\" src=\"photos/lp-mine-3.jpg\" alt=\"\"><div class=\"code\"><i>紹介コード</i><b>8Q9YWPzzJ</b></div><div class=\"st\"><div><span>STEP 1</span>登録とLINE連携</div><div><span>STEP 2</span>応募フォームにコード</div><div><span>締切</span>12/6（日）23:59</div></div></div>",
+   "css": "main{padding:0;height:1080px;display:block}\n.w{height:1080px;background:linear-gradient(180deg,#FBF4EC,#F3E6D8);color:#2A1923;display:flex;flex-direction:column;padding:56px 56px 48px;box-sizing:border-box}\n.k{align-self:flex-start;font-size:30px;font-weight:900;color:#fff;background:#D7263D;border-radius:999px;padding:6px 24px}\n.t{font-size:64px;font-weight:900;line-height:1.2;margin-top:18px}\n.t em{font-style:normal;color:#D7263D}\n.bn{margin-top:26px;width:100%;border-radius:18px;box-shadow:0 8px 24px rgba(0,0,0,.12)}\n.code{margin-top:30px;background:#fff;border:4px dashed #0E6E8C;border-radius:22px;padding:20px 28px;display:flex;align-items:center;gap:26px}\n.code i{font-style:normal;font-size:30px;font-weight:900;color:#0E6E8C;white-space:nowrap}\n.code b{font-size:72px;font-weight:900;letter-spacing:.06em;font-family:\"Noto Sans Mono\",\"Menlo\",monospace}\n.st{margin-top:26px;display:flex;gap:18px}\n.st div{flex:1;background:#2A1923;color:#fff;border-radius:16px;padding:16px 20px;font-size:28px;font-weight:800;line-height:1.35}\n.st div span{display:block;color:#F5C518;font-size:24px}",
+   "alt": "MARUNOUCHI WORKERS のお友だち紹介キャンペーン。大手町・丸の内・有楽町の三菱地所のビルで働く人が対象。登録して応募するだけで丸の内ポイント300pt。紹介コードは 8Q9YWPzzJ。STEP1 登録とLINE連携、STEP2 応募フォームに紹介コードを入れる。締切は2026年12月6日（日）23:59。画像の一部：MARUNOUCHI WORKERS（三菱地所）"
+  }
+ ]
+}
