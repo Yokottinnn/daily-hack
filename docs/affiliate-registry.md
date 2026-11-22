@@ -67,6 +67,7 @@
 | `furusato-portal-comparison-2026` | 3 |  |
 | `furusato-tax-2026-reform-guide` | 1 |  |
 | `futon-dryer-comparison-2026` | 3 店ボタン（`src/data/shop/futon-dryer.json`） | 3 店ボタン（2026-11-22） |
+| `countertop-dishwasher-comparison-2026` | 3 店ボタン（`src/data/shop/countertop-dishwasher.json`） | 3 店ボタン（2026-11-22） |
 | `furusato-tax-beginner-guide-2026` | 1 |  |
 | `furusato-tax-food-picks-2026` | 16 | 2026-11-08 返礼品の item.rakuten.co.jp 15 本を包んだ |
 | `rakuten-blackfriday-vs-supersale-dec-2026` | 9 | 2026-11-20 ブラックフライデー会場・スーパーSALE・タイガー JPL-H10NK・Anker Solix C1000 Gen 2 |
@@ -78,6 +79,7 @@
 | `rechargeable-kairo-comparison-2026` | 3 店ボタン（`src/data/shop/rechargeable-kairo.json`） | 楽天のリンクは `src/data/shop/config.json` の `rakuten.affiliateId` 1 か所で替わる（記事の Markdown には書いていない） |
 | `mobile-battery-comparison-2026` | 3 店ボタン（`src/data/shop/mobile-battery.json`） | 同上 |
 | `heated-vest-comparison-2026` | 3 店ボタン（`src/data/shop/heated-vest.json`） | 同上 |
+| `coffee-maker-comparison-2026` | 3 店ボタン（`src/data/shop/coffee-maker.json`） | 同上 |
 | `zojirushi-steam-humidifier-2026` | 3 店ボタン（`src/data/shop/zojirushi-steam-humidifier.json`） | 同上（2026-11-20） |
 | `senmenjo-heater-boteki-2026` | 3 店ボタン（`src/data/shop/senmenjo-heater.json`） | 同上（2026-11-20） |
 | `humidifying-air-purifier-comparison-2026` | 3 店ボタン（`src/data/shop/humidifying-air-purifier.json`） | 同上（2026-11-22） |
@@ -89,7 +91,11 @@
 | `premium-hair-dryer-comparison-2026` | 3 店ボタン（`src/data/shop/premium-hair-dryer.json`） | 同上（2026-11-22） |
 | `robot-cleaner-comparison-2026` | 3 店ボタン（`src/data/shop/robot-cleaner.json`） | 2026-11-22 追加 |
 | `cordless-stick-cleaner-comparison-2026` | 3 店ボタン（`src/data/shop/cordless-stick-cleaner.json`） | 2026-11-22 追加 |
+| `massager-comparison-2026` | 3 店ボタン（`src/data/shop/neck-foot-massager.json`） | 2026-11-22 追加 |
 | `electric-pressure-cooker-comparison-2026` | 3 店ボタン（`src/data/shop/denki-atsuryokunabe.json`） | 同上（2026-11-22）。電気圧力鍋・自動調理鍋 8 台 |
+| `hair-iron-comparison-2026` | 3 店ボタン（`src/data/shop/hair-iron.json`） | 2026-11-22 追加。ヘアアイロン 8 機種 |
+| `oven-toaster-comparison-2026` | 3 店ボタン（`src/data/shop/oven-toaster.json`） | 2026-11-22 追加。オーブントースター 8 機種 |
+| `rice-cooker-comparison-2026` | 3 店ボタン（`src/data/shop/suihanki.json`） | 同上（2026-11-22）。炊飯器 5.5合 8 台 |
 | `facial-device-comparison-2026` | 3 店ボタン（`src/data/shop/facial-device.json`） | 2026-11-22 追加。美顔器 6 機種（Amazon は全部 ASIN） |
 
 ## A8 のリンクを入れた湾岸ライフの記事（2026-10-25）

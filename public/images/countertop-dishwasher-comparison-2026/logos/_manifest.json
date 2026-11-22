@@ -1,0 +1,37 @@
+{
+ "panasonic.png": {
+  "brand": "パナソニック",
+  "title": "File:Panasonic Group logo.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Panasonic_Group_logo.svg",
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Panasonic_Group_logo.svg/960px-Panasonic_Group_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "orig": "https://upload.wikimedia.org/wikipedia/commons/5/54/Panasonic_Group_logo.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+  "license": "Public domain",
+  "fetched": "2026-10-18",
+  "task": "ops/tasks/x317-product-brand-logos-wiki.sh",
+  "copied_from": "public/images/senmenjo-heater-boteki-2026/logos/panasonic.png"
+ },
+ "siroca.png": {
+  "brand": "シロカ",
+  "src": "https://www.siroca.co.jp/wp-content/themes/siroca_corp/img/common/logo.svg",
+  "page": "https://www.siroca.co.jp/product/dishwasher/",
+  "license": "商標（識別目的で使用・改変なし）",
+  "fetched": "2026-11-22",
+  "note": "公式サイトのヘッダーの SVG を Chromium で PNG にした"
+ },
+ "aqua.png": {
+  "brand": "アクア（AQUA）",
+  "src": "https://aqua-has.com/wp-content/themes/aqua-has/resources/images/common/logo_blue.svg",
+  "page": "https://aqua-has.com/dishwasher",
+  "license": "商標（識別目的で使用・改変なし）",
+  "fetched": "2026-11-22",
+  "note": "公式サイトのヘッダーの SVG を Chromium で PNG にした"
+ },
+ "toshiba.png": {
+  "brand": "東芝",
+  "src": "https://www.toshiba-lifestyle.com/jp/img/common/header-logo-2.svg",
+  "page": "https://www.toshiba-lifestyle.com/jp/dish-drye/",
+  "license": "商標（識別目的で使用・改変なし）",
+  "fetched": "2026-11-22",
+  "note": "東芝ライフスタイルの公式サイトのヘッダーの SVG。描く大きさだけ指定して PNG にした"
+ }
+}
