@@ -1,0 +1,59 @@
+{
+  "_note": "smartwatch-comparison-2026 の写真。すべてメーカー公式（ニュースルーム・プレスリリース・公式ストア）の製品画像。取得 2026-11-22（blog3）。huawei-gt7.jpg はプレスリリースの画像の左側（製品部分）だけを切り出した（右側の文字の帯を外すため）。",
+  "aw12.jpg": {
+    "brand": "Apple",
+    "product": "Apple Watch Series 12",
+    "src": "https://www.apple.com/newsroom/images/2026/09/introducing-apple-watch-series-12-with-the-all-new-health-sensing-system/article/Apple-Watch-Series-12-2up-260909_big.jpg.large.jpg",
+    "page": "https://www.apple.com/jp/newsroom/2026/09/introducing-apple-watch-series-12-with-the-all-new-health-sensing-system/",
+    "credit": "Apple ニュースルーム"
+  },
+  "awse3.jpg": {
+    "brand": "Apple",
+    "product": "Apple Watch SE 3",
+    "src": "https://www.apple.com/newsroom/images/2025/09/get-ready-to-discover-the-next-generation-of-iphone-apple-watch-and-airpods/article/Apple-Watch-SE-3_inline.jpg.large.jpg",
+    "page": "https://www.apple.com/jp/newsroom/2025/09/get-ready-to-discover-the-next-generation-of-iphone-apple-watch-and-airpods/",
+    "credit": "Apple ニュースルーム"
+  },
+  "awu4.jpg": {
+    "brand": "Apple",
+    "product": "Apple Watch Ultra 4",
+    "src": "https://www.apple.com/newsroom/images/2026/09/apple-unveils-apple-watch-ultra-4/article/Apple-Watch-Ultra-4-hero-260909_big.jpg.large.jpg",
+    "page": "https://www.apple.com/jp/newsroom/2026/09/apple-unveils-apple-watch-ultra-4/",
+    "credit": "Apple ニュースルーム"
+  },
+  "pixel-watch-5.jpg": {
+    "brand": "Google",
+    "product": "Google Pixel Watch 5",
+    "src": "https://lh3.googleusercontent.com/nSUBWvB5ZS8EuDVE4EeRn0fKctpULzHYGd2vxzfTU_Dr3LGmJJ_ld-t2mgnyL8jrIIaGdrkBCQAPXqdUI5k0LE3PIh5CqDnOB6RD=w1200",
+    "page": "https://store.google.com/jp/product/pixel_watch_5?hl=ja",
+    "credit": "Google ストア"
+  },
+  "galaxy-watch9.jpg": {
+    "brand": "Samsung",
+    "product": "Samsung Galaxy Watch9",
+    "src": "https://img.global.news.samsung.com/jp/wp-content/uploads/2026/08/Samsung-Mobile-Galaxy-Unpacked-July-2026-Galaxy-Watch-Ultra2-Galaxy-Watch9-A-First-Look_dl9-e1785999381884.jpg",
+    "page": "https://news.samsung.com/jp/galaxy-watch-onsale-2026",
+    "credit": "Samsung Newsroom 日本"
+  },
+  "vivoactive-6.jpg": {
+    "brand": "Garmin",
+    "product": "Garmin vívoactive 6",
+    "src": "https://www.garmin.co.jp/m/jp/g/news/135223-119-7d0f06bad1a4ffcb68f6877f23813ced-3710x2475.jpg",
+    "page": "https://www.garmin.co.jp/news/pressroom/news2026-0901-vivoactive6/",
+    "credit": "Garmin プレスリリース"
+  },
+  "huawei-gt7.jpg": {
+    "brand": "HUAWEI",
+    "product": "HUAWEI WATCH GT 7",
+    "src": "https://prcdn.freetls.fastly.net/release_image/24671/638/24671-638-b9408d70d0c892dff566a7728b798510-2160x1080.jpg",
+    "page": "https://prtimes.jp/main/html/rd/p/000000638.000024671.html",
+    "credit": "華為技術日本 プレスリリース（PR TIMES）"
+  },
+  "xiaomi-s5.jpg": {
+    "brand": "Xiaomi",
+    "product": "Xiaomi Watch S5 46mm",
+    "src": "https://prcdn.freetls.fastly.net/release_image/98799/239/98799-239-607c4410cfe768c9a82d27bb7e9b5e5a-3900x2925.jpg",
+    "page": "https://prtimes.jp/main/html/rd/p/000000239.000098799.html",
+    "credit": "シャオミ・ジャパン プレスリリース（PR TIMES）"
+  }
+}
