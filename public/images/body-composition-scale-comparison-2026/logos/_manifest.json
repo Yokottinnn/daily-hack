@@ -1,0 +1,36 @@
+{
+ "tanita.png": {
+  "brand": "タニタ",
+  "src": "https://www.tanita.co.jp/_nuxt/img/logo_company_blue.732fc53.svg",
+  "page": "https://www.tanita.co.jp/",
+  "kind": "公式サイトのヘッダーのロゴ（SVG を Chromium で PNG にした）",
+  "fetched": "2026-11-22"
+ },
+ "withings.png": {
+  "brand": "Withings",
+  "src": "https://www.withings.com/cdn/shop/files/Logo-black.svg",
+  "page": "https://www.withings.com/jp/ja/",
+  "kind": "公式サイトのヘッダーのロゴ（ops/tasks/t1020 で取得・SVG を Chromium で PNG にした）",
+  "fetched": "2026-11-22"
+ },
+ "elecom.png": {
+  "brand": "エレコム",
+  "src": "https://upload.wikimedia.org/wikipedia/commons/5/55/Elecom_logo.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Elecom_logo.svg",
+  "license": "Public domain（PD-textlogo・商標）",
+  "fetched": "2026-11-23"
+ },
+ "omron.png": {
+  "brand": "オムロン",
+  "copied_from": "public/images/electric-toothbrush-comparison-2026/logos/omron.png",
+  "page": "https://commons.wikimedia.org/wiki/File:OMRON_Logo.svg",
+  "license": "Public domain（商標）",
+  "fetched": "2026-11-22"
+ },
+ "xiaomi.png": {
+  "brand": "Xiaomi",
+  "copied_from": "public/images/smartwatch-comparison-2026/logos/xiaomi.png",
+  "page": "https://commons.wikimedia.org/wiki/File:Xiaomi_logo_(2021-).svg",
+  "fetched": "2026-11-22"
+ }
+}
