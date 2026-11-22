@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-22T08:54:55Z",
+  "generated_at": "2026-11-22T09:32:21Z",
   "login_lock": {"present": false, "age_hours": 0},
   "cdp": {"healthy": true, "port": 18810},
   "x_jobs": {"loaded": 8, "expected": 8, "ai_total": 16, "halted": false, "missing": []},
-  "last_reply": {"at": "2026-11-18T01:17:05.594Z", "age_hours": 103, "stale": true},
+  "last_reply": {"at": "2026-11-18T01:17:05.594Z", "age_hours": 104, "stale": true},
   "supervisor": {"at":"2026-11-22T08:00:05Z","date_jst":"2026-11-22","ran":9,"total":9,"not_run":[],"fixed":[]},
   "followback_bands": {"with_count":696,"total_rows":1080,"bands":{"1000-4999":{"n":232,"back":35,"mature":232,"mature_back":35,"rate":15.1},"300-999":{"n":177,"back":24,"mature":176,"mature_back":24,"rate":13.6},"0-99":{"n":123,"back":18,"mature":122,"mature_back":18,"rate":14.8},"5000-49999":{"n":120,"back":8,"mature":119,"mature_back":7,"rate":5.9},"100-299":{"n":41,"back":8,"mature":41,"mature_back":8,"rate":19.5},"50000-up":{"n":3,"back":1,"mature":3,"mature_back":1,"rate":33.3}},"status_values":{"unfollowed":810,"revenge_ghost_already_unfollowed":84,"yes_late":22,"yes":126,"no":37,"pending":1},"note":"mature の率で見る"},
   "host": "NaokinoMBP-2",
@@ -42,7 +42,12 @@
     "com.dailyhack.x-impressions"
   ],
   "reconnect": "既に起動している",
-  "tasks": [],
+  "tasks": [
+      {"task": "t887-verify-amazon-dp-2.sh", "rc": 0, "out": ""},
+      {"task": "t888-verify-amazon-dp-3.sh", "rc": 0, "out": ""},
+      {"task": "t889-verify-amazon-dp-4.sh", "rc": 0, "out": ""},
+      {"task": "t912-find-pages-oven-range.sh", "rc": 0, "out": "  - https://item.rakuten.co.jp/panasonic-store/ne-fs3e-w/｜37,965｜【公式店】 パナソニック オーブンレンジ 23L ホワイト NE-FS3E-W フラット 庫内広々 シンプル操作 あたため 解凍 ワンボウル お急ぎ 簡単 お手   - https://item.rakuten.co.jp/emedama/455"}
+  ],
   "running": null,
   "auth": {
     "ok": false,
@@ -135,7 +140,7 @@
   ],
   "clone": {
     "branch": "main",
-    "behind": 0,
+    "behind": 13,
     "dirty": 0
   },
   "followers": {

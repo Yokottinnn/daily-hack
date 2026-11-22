@@ -1,7 +1,1 @@
-[
-      {"task": "t886-verify-amazon-dp-1.sh", "rc": 0, "out": " - premium-hair-dryer-comparison-2026: rc=0   - ボタン 7 個 / 押した 7 個 / 商品ページ＋型番＋tag 7 個 - robot-cleaner-comparison-2026: rc=0   - ボタン 6 個 / 押した 6 個 / 商品ページ＋型番＋tag 6 個"},
-      {"task": "t887-verify-amazon-dp-2.sh", "rc": 0, "out": "  - ボタン 4 個 / 押した 4 個 / 商品ページ＋型番＋tag 4 個 - humidifying-air-purifier-comparison-2026: rc=0   - ボタン 4 個 / 押した 4 個 / 商品ページ＋型番＋tag 4 個 - futon-dryer-comparison-2026: rc=0   - ボタン 7 個 / 押した 7 個 / 商品ページ＋型"},
-      {"task": "t888-verify-amazon-dp-3.sh", "rc": 0, "out": " 生成: **2026-11-22T18:27:17+0900**  - electric-toothbrush-comparison-2026: rc=0   - ボタン 13 個 / 押した 13 個 / 商品ページ＋型番＋tag 13 個"},
-      {"task": "t889-verify-amazon-dp-4.sh", "rc": 0, "out": "  - ボタン 4 個 / 押した 4 個 / 商品ページ＋型番＋tag 4 個 - electric-pressure-cooker-comparison-2026: rc=0   - ボタン 4 個 / 押した 4 個 / 商品ページ＋型番＋tag 4 個 - cordless-stick-cleaner-comparison-2026: rc=0   - ボタン 7 個 / 押した 7 個 / 商品ペ�"},
-      {"task": "t953-yaman-duo-read.sh", "rc": 0, "out": "3125304 yaman-duo-pr-7.png 48353 yaman-duo-pr-8.jpg 337191 yaman-duo-pr-9.png  **読むだけ。LLM 不使用（$0／回）。**"}
-  ]
+[]
