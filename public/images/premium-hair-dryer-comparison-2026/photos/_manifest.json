@@ -1,0 +1,103 @@
+{
+  "panasonic-eh-na0k.jpg": {
+    "brand": "パナソニック",
+    "product": "ナノケア EH-NA0K（ミストグレー）",
+    "page": "https://panasonic.jp/hair/products/EH-NA0K.html",
+    "src": "https://panasonicjp.scene7.com/is/image/panasonicjp/EH-NA0K-H_main_cmj",
+    "fetched": "2026-11-22"
+  },
+  "panasonic-eh-na0k-black.jpg": {
+    "brand": "パナソニック",
+    "product": "ナノケア EH-NA0K（チャコールブラック）",
+    "page": "https://panasonic.jp/hair/products/EH-NA0K.html",
+    "src": "https://panasonicjp.scene7.com/is/image/panasonicjp/EH-NA0K-K_main_cmj",
+    "fetched": "2026-11-22"
+  },
+  "panasonic-eh-nb70.jpg": {
+    "brand": "パナソニック",
+    "product": "ナノケア EH-NB70（シアーベージュ）",
+    "page": "https://panasonic.jp/hair/products/EH-NB70.html",
+    "src": "https://panasonicjp.scene7.com/is/image/panasonicjp/EH-NB70-E_furi_main",
+    "fetched": "2026-11-22"
+  },
+  "panasonic-eh-nb70-black.jpg": {
+    "brand": "パナソニック",
+    "product": "ナノケア EH-NB70",
+    "page": "https://panasonic.jp/hair/products/EH-NB70.html",
+    "src": "https://panasonicjp.scene7.com/is/image/panasonicjp/EH-NB70-K_furi_main",
+    "fetched": "2026-11-22"
+  },
+  "refa-smart-w-side.jpg": {
+    "brand": "ReFa（MTG）",
+    "product": "ReFa BEAUTECH DRYER SMART W",
+    "page": "https://www.refa.net/item/refa_beautech_dryer_smart_w/",
+    "src": "https://www.refa.net/item/refa_beautech_dryer_smart_w/images/02-image.jpg",
+    "fetched": "2026-11-22"
+  },
+  "refa-smart-w-inside.jpg": {
+    "brand": "ReFa（MTG）",
+    "product": "ReFa BEAUTECH DRYER SMART W",
+    "page": "https://www.refa.net/item/refa_beautech_dryer_smart_w/",
+    "src": "https://www.refa.net/item/refa_beautech_dryer_smart_w/images/01-image.jpg",
+    "fetched": "2026-11-22"
+  },
+  "refa-se-w.jpg": {
+    "brand": "ReFa（MTG）",
+    "product": "ReFa BEAUTECH DRYER SE W",
+    "page": "https://www.refa.net/item/refa_beautech_dryer_se_w/",
+    "src": "https://www.refa.net/assets/img/item/refa_beautech_dryer_se_w/img_product01.jpg",
+    "fetched": "2026-11-22"
+  },
+  "sharp-ib-wx903.jpg": {
+    "brand": "シャープ",
+    "product": "プラズマクラスタードレープフロードライヤー IB-WX903",
+    "page": "https://jp.sharp/beauty/products/ibwx903/",
+    "src": "https://jp.sharp/beauty/products/ibwx903/images/gallery-1.jpg",
+    "fetched": "2026-11-22"
+  },
+  "sharp-ib-wx903-white.jpg": {
+    "brand": "シャープ",
+    "product": "IB-WX903（ホワイト系）",
+    "page": "https://jp.sharp/beauty/products/ibwx903/",
+    "src": "https://jp.sharp/beauty/products/ibwx903/images/gallery-4.jpg",
+    "fetched": "2026-11-22"
+  },
+  "salonia-smoothshine.jpg": {
+    "brand": "SALONIA",
+    "product": "スムースシャインドライヤー",
+    "page": "https://salonia.jp/product/hairitempre/hairdryerpre/smoothshinedryer/",
+    "src": "https://salonia.jp/wp-content/uploads/2024/06/img_smoothshinedryerMain.jpg",
+    "fetched": "2026-11-22"
+  },
+  "salonia-smoothshine-black.jpg": {
+    "brand": "SALONIA",
+    "product": "スムースシャインドライヤー（ブラック）",
+    "page": "https://salonia.jp/product/hairitempre/hairdryerpre/smoothshinedryer/",
+    "src": "https://salonia.jp/wp-content/uploads/2024/06/img_smoothdryer02.jpg",
+    "fetched": "2026-11-22"
+  },
+  "dyson-supersonic-nural-shine.jpg": {
+    "brand": "ダイソン",
+    "product": "Dyson Supersonic Nural Shine ヘアドライヤー（HD16 ダークブルー／コッパー）",
+    "page": "https://www.dyson.co.jp/hair-care/hair-dryers/supersonic-nural-shine/dark-blue-copper",
+    "src": "https://dyson-h.assetsadobe2.com/is/image/content/dam/dyson/leap-petite-global/products/hair-care/supersonic-nural/pdp/",
+    "task": "ops/tasks/t850-dryer-official-read.sh",
+    "fetched": "2026-11-22"
+  },
+  "dyson-supersonic-travel.jpg": {
+    "brand": "ダイソン",
+    "product": "Dyson Supersonic Travel ヘアドライヤー（HD19 セラミックピンク）",
+    "page": "https://www.dyson.co.jp/hair-care/hair-dryers/supersonic-travel/ceramic-pink",
+    "src": "https://dyson-h.assetsadobe2.com/is/image/content/dam/dyson/images/specifications/beauty/hair-dryers/supersonic-travel/",
+    "task": "ops/tasks/t850-dryer-official-read.sh",
+    "fetched": "2026-11-22"
+  },
+  "dyson-supersonic-travel-blue.jpg": {
+    "brand": "ダイソン",
+    "product": "Dyson Supersonic Travel ヘアドライヤー（HD19 ダークブルー／コッパー）",
+    "page": "https://www.dyson.co.jp/hair-care/hair-dryers/supersonic-travel/dark-blue-copper",
+    "src": "https://dyson-h.assetsadobe2.com/is/image/content/dam/dyson/images/products/primary/673739-01.png",
+    "task": "ops/tasks/t850-dryer-official-read.sh",
+    "fetched": "2026-11-22"
+  }
+}
