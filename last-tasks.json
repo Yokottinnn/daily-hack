@@ -1,3 +1,5 @@
 [
-      {"task": "t890-purge-shop-screenshots.sh", "rc": 0, "out": "手元に移して公開から外した写真 469 件 ／ 残り 0 件 ／ 文字のレポートの氏名 0 件 ／ コミット数 539 → 1（この直後の push で GitHub に出る）"}
+      {"task": "t843-verify-rakuten-denki-atsuryokunabe.sh", "rc": 0, "out": "- 商品: 検索結果 45 件・型番「アイリスオーヤマ 電気圧力鍋 KPC-MB4-B」の表示: あり - 題名: 【楽天市場】アイリスオーヤマ 電気圧力鍋 KPC-MB4-Bの通販 - 写真: Mac の手元のみ（private-shots/shop-verify/electric-pressure-cooker-comparison-2026/v"},
+      {"task": "t844-verify-yahoo-denki-atsuryokunabe.sh", "rc": 0, "out": "- 商品: 検索結果 5 件・型番「」の表示: — - 題名: アイリスオーヤマ 電気圧力鍋 KPC-MB4-Bのおすすめ人気商品一覧 通販 - Yahoo!ショッピング - 写真: Mac の手元のみ（private-shots/shop-verify/electric-pressure-cooker-comparison-2026/v16-yahoo.jpg�"},
+      {"task": "t845-verify-amazon-denki-atsuryokunabe.sh", "rc": 0, "out": "- 商品: 検索結果 43 件・型番「アイリスオーヤマ 電気圧力鍋 4.0L KPC-MB4-B」の表示: あり・カートに入れるボタンあり - 題名: Amazon.co.jp : アイリスオーヤマ 電気圧力鍋 4.0L KPC-MB4-B - 写真: Mac の手元のみ（private-shots/shop-verify/elect"}
   ]
