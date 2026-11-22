@@ -1,0 +1,8 @@
+{
+  "dyson.png": {"brand": "ダイソン", "page": "https://commons.wikimedia.org/wiki/File:Dyson_logo.svg", "lic": "Public domain", "fetched": "2026-11-15", "via": "Wikimedia Commons", "copied_from": "public/images/black-friday-2026-matome/logos/dyson.png"},
+  "shark.png": {"brand": "シャーク", "page": "https://commons.wikimedia.org/wiki/File:Shark_logo_black.png", "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Shark_logo_black.png/960px-Shark_logo_black.png", "lic": "Public domain", "fetched": "2026-11-22", "via": "Wikimedia Commons"},
+  "panasonic.png": {"brand": "パナソニック", "page": "https://commons.wikimedia.org/wiki/File:Panasonic_Group_logo.svg", "license": "Public domain", "fetched": "2026-10-18", "copied_from": "public/images/senmenjo-heater-boteki-2026/logos/panasonic.png"},
+  "hitachi.png": {"brand": "日立", "page": "https://commons.wikimedia.org/wiki/File:Hitachi_logo.svg", "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Hitachi_logo.svg/960px-Hitachi_logo.svg.png", "lic": "Public domain", "fetched": "2026-11-22", "via": "Wikimedia Commons"},
+  "makita.png": {"brand": "マキタ", "src": "https://www.makita.co.jp/common/img/logo.svg", "fetched": "2026-10-25", "note": "SVG を PNG に変換", "copied_from": "public/images/heated-vest-comparison-2026/logos/makita.png"},
+  "iris.png": {"brand": "アイリスオーヤマ", "page": "https://commons.wikimedia.org/wiki/File:IRIS_OHYAMA_logo.svg", "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/IRIS_OHYAMA_logo.svg/500px-IRIS_OHYAMA_logo.svg.png", "lic": "Public domain", "fetched": "2026-11-22", "via": "Wikimedia Commons"}
+}
