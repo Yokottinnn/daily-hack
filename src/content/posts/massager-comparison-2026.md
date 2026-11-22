@@ -465,7 +465,47 @@ references:
 
 <div data-shop-card="neck-foot-massager:lourdes-ax-hx458"></div>
 
-<!-- VOICES -->
+## 実際の声と動画｜首・肩・足のマッサージ器の使い方
+
+アテックスのくびレッチは、2026年4月20日の発売日に公式アカウントが使ってみた様子を出し、家電量販店の売り場でも「寝ころぶだけで」という使い方で紹介されている。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">＼本日発売／ #首コリ さんの救世主「くびレッチ」使ってみました！ 毎日の #デスクワーク で、首コリが気になる！という方にお使いいただきたい「くびレッチ」✨ 独特な動きで、首コリに影響する #胸鎖乳突筋筋 を捉えてもみほぐします。 店頭やショールームでもぜひ体験してみてくださいね👀</p>&mdash; ATEX【アテックス公式】 (@ATEX_official) <a href="https://twitter.com/ATEX_official/status/2046153525689000181">2026年4月20日</a></blockquote>
+
+発売日の、アテックス公式の投稿。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">【4階 健康家電コーナー】 寝ころぶだけでストレッチ＆マッサージ✨ 人気メーカーATEXの『くびレッチ』は スマホ操作やデスクワークで疲れた 首周りの筋肉を温めながらほぐせます☺️ 2026年4月発売の最新モデル🌼 是非店頭でお試しください！</p>&mdash; 【公式】ビックカメラ柏店🍀柏たん (@bic_kashiwa) <a href="https://twitter.com/bic_kashiwa/status/2077309693924692354">2026年7月15日</a></blockquote>
+
+ビックカメラ柏店の売り場の投稿。マッサージ器は店頭で試せるところが多いので、贈る前に一度当ててみるのも手ね。
+
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+各社が公式に出している動画で、使う姿勢と大きさを確かめておくと、贈る相手の家での使い方が想像しやすい。
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/_hveetlOeOM" title="【ドクターエア】3Dネックマッサージャープレミアム SMART 装着方法（ドクターエア公式 DOCTORAIR）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+ドクターエア MN-10 の首へのかけ方と、バックルを背中に回して手ぶらにする付け方。
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/TCiBGkDAkPY" title="エアーマッサージャー EW-RA192 はくだけキュッとリフレ 商品紹介【パナソニック公式】" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+パナソニック EW-RA192 に脚を入れてから、エアーバッグで包むまで。
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/n0vh9ubxgZo" title="フットマッサージャー R22 KC-330 商品紹介【フジ医療器公式】" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+フジ医療器 KC-330 のもみ板とローラーの動き、ふくらはぎ部の角度の変え方。
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/QOOVGCWNgT4" title="エクサガン ハイパー｜手の中に驚きのパワフルさ（ドクターエア公式 DOCTORAIR）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+ドクターエア エクサガン ハイパーの大きさと、アタッチメントの付け替え。
+
+<p class="source-note">引用した X の投稿は、2026年11月22日に本文・投稿者・日付を確かめたもの。埋め込んだ YouTube は、同じ日に oEmbed でタイトルと投稿者を照合し、実在を確かめたもの（どれもメーカーの公式チャンネル）。</p>
 
 ## 選び方｜向いている人・向かない人
 
