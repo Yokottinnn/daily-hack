@@ -1,0 +1,10 @@
+[
+ {"id":"np-tml1","store":"amazon","keyword":"パナソニック 食器洗い乾燥機 NP-TML1","must":["NP-TML1"],"exclude":["洗剤","カバー","マット","専用","対応"]},
+ {"id":"np-tsp2","store":"amazon","keyword":"パナソニック 食器洗い乾燥機 NP-TSP2","must":["NP-TSP2"],"exclude":["洗剤","カバー","マット","専用","対応"]},
+ {"id":"ss-m171","store":"amazon","keyword":"シロカ 食器洗い乾燥機 SS-M171","must":["SS-M171"],"exclude":["洗剤","カバー","マット","専用","対応"]},
+ {"id":"ss-mu251","store":"amazon","keyword":"シロカ 食器洗い乾燥機 SS-MU251","must":["SS-MU251"],"exclude":["洗剤","カバー","マット","専用","対応"]},
+ {"id":"ss-la451","store":"amazon","keyword":"シロカ 食器洗い乾燥機 SS-LA451","must":["SS-LA451"],"exclude":["洗剤","カバー","マット","専用","対応"]},
+ {"id":"dws-33b","store":"amazon","keyword":"東芝 食器洗い乾燥機 DWS-33B","must":["DWS-33B"],"exclude":["洗剤","カバー","マット","専用","対応"]},
+ {"id":"adw-m28b","store":"amazon","keyword":"アクア 食器洗い乾燥機 ADW-M28B","must":["ADW-M28B"],"exclude":["洗剤","カバー","マット","専用","対応"]},
+ {"id":"iris","store":"amazon","keyword":"アイリスオーヤマ 食器洗い乾燥機 工事不要","must":["アイリスオーヤマ","食器洗い"],"exclude":["洗剤","カバー","マット","専用","対応"]}
+]
