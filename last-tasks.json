@@ -1,1 +1,5 @@
-[]
+[
+      {"task": "t902-verify-rakuten-suihanki.sh", "rc": 0, "out": "- 商品: 検索結果 47 件・型番「三菱 本炭釜 紬 NJ-BW10J」の表示: あり - 題名: 【楽天市場】三菱 本炭釜 紬 NJ-BW10Jの通販 - 写真: Mac の手元のみ（private-shots/shop-verify/rice-cooker-comparison-2026/v08-rakuten.jpg・公開しない） -rw-r--r--   1 ny  "},
+      {"task": "t903-verify-yahoo-suihanki.sh", "rc": 0, "out": "- 商品: 検索結果 12 件・型番「」の表示: — - 題名: 三菱 本炭釜 紬 NJ-BW10Jのおすすめ人気商品一覧 通販 - Yahoo!ショッピング - 写真: Mac の手元のみ（private-shots/shop-verify/rice-cooker-comparison-2026/v16-yahoo.jpg・公開しない） -rw-r--r--   "},
+      {"task": "t904-verify-amazon-suihanki.sh", "rc": 0, "out": "- 商品: 検索結果 0 件・型番「」の表示: —・カートに入れるボタンあり - 題名: Amazon | 三菱電機 IHジャー炊飯器 5.5合 本炭釜 紬 NJ-BW10J-W 白絹 2026年モデル[LR41H 1個付] | 音声ナビ付きフルドット特大液晶 洗う部品 - 写真: Mac の�"}
+  ]
