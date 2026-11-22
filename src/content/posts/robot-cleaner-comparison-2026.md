@@ -92,7 +92,7 @@ references:
 
 ### いま読む理由｜ブラックフライデーと年末の大掃除
 
-**2026年のブラックフライデーは、楽天市場が11月19日（木）20時から、Amazonは先行セールが11月27日（金）から、本番が11月30日（月）〜12月7日（月）**。ロボット掃除機は値段が大きいので、ポイントの上乗せが効きやすい。日程の一覧は下の記事にまとめてある。
+**ブラックフライデーは、楽天市場が2026年11月19日（木）20時から、Amazonは先行セールが2026年11月27日（金）から、本番が2026年11月30日（月）〜12月7日（月）**。ロボット掃除機は値段が大きいので、ポイントの上乗せが効きやすい。日程の一覧は下の記事にまとめてある。
 
 もう1つは**年末の大掃除**。床は毎日ロボットに任せて、人はエアコン・換気扇・お風呂に回す、という分け方ができる。
 
@@ -290,21 +290,39 @@ references:
 
 <p class="source-note">「公式に記載なし」は、メーカーの仕様表にその数字が無いもの。楽天市場・Yahoo!ショッピングの価格は、各店の表示から本体価格と通常ポイントで出した目安で、送料は含めていない。</p>
 
+## 実際に使った人の声｜ロボット掃除機
+
+買ったあとに何が起きるかは、使っている人の投稿がいちばん分かりやすい。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">ルンバミニ買って大正解😃 猫毛も猫砂もボタン１つでキレイにしてくれる😍 最高だー！ 通常サイズはパワー強いし最強だけど我が家には大きすぎてあきらめてた ミニ出してくれてありがとう #アイロボット #ROOMBA</p>&mdash; しげちゃん (@rucynews) <a href="https://twitter.com/rucynews/status/2105547529077379386">2026年10月1日</a></blockquote>
+
+**猫の毛と猫砂を、ルンバ Mini で毎日取っている**という声。大きいルンバは家に入らなかった、という理由で Mini を選んでいる。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">ボーナスで買ったルンバミニ、ちゃんと掃除しててえらい👏 ちなみに小型の割に音はうるさい</p>&mdash; ともき💩 (@tomoking_fps) <a href="https://twitter.com/tomoking_fps/status/2075045070181716373">2026年7月9日</a></blockquote>
+
+**小さくても音は大きい**という声。寝ている時間や在宅勤務の時間に動かすなら、スケジュールで外す。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">やべ キッチンに敷いたビニールマットの裏カビてる😱🦠 原因は毎日ロボット掃除機で水拭きしてるからかな・・</p>&mdash; サキシマ (@__urashima) <a href="https://twitter.com/__urashima/status/2058009510405632415">2026年5月23日</a></blockquote>
+
+**毎日水拭きしていたら、キッチンのビニールマットの裏がカビた**という投稿。水拭きを使うなら、マットは水拭きの範囲から外すか、ときどき裏を見る。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">ロボット掃除機で水拭きすると汚れを伸ばしているみたいに黒ずむのでモップにウタマロを吹きかけて先に水拭きしていますがなんかムダなことをしている気がします😖</p>&mdash; Bpapa (@Bpapalemon) <a href="https://twitter.com/Bpapalemon/status/2116873092832313800">2026年11月1日</a></blockquote>
+
+**水拭きで汚れが伸びて黒ずむ**という悩み。モップを掃除の途中や終わりに洗うステーションが付いているかは、ここに効いてくる。
+
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<p class="source-note">引用した X の投稿は、2026年11月22日に本文・投稿者・日付を確かめたもの。投稿した人の個人の感想で、この記事の数字とは別のもの。</p>
+
 ## 実際に使った人の動画｜ロボット掃除機
 
-買う前の不安と、実機の動きは動画で確かめるのが早い。
+買う前に知っておきたい落とし穴は、動画で確かめるのが早い。
 
 <div class="yt-embed">
 <iframe src="https://www.youtube-nocookie.com/embed/im0AXxDI-dw" title="【保存版】ロボット掃除機を買う前に知ってほしい7つの落とし穴｜実際に使ってわかった対策（KENT | ロボット掃除機に100万円以上使った男）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
 </div>
 
 買う前に知っておきたい落とし穴を7つに分けて、使ってわかった対策と一緒に話している。
-
-<div class="yt-embed">
-<iframe src="https://www.youtube-nocookie.com/embed/VCQRqea4jjM" title="マジでスゴい、最強のロボット掃除機が届いた！Roborock・Saros 20（キオク的サンサク -記憶的散策-）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
-</div>
-
-Saros 20 を家で動かしたレビュー。
 
 <p class="source-note">埋め込んだ YouTube は、2026年11月22日に oEmbed でタイトルと投稿者を照合し、実在を確かめたもの。投稿した人の個人の感想・撮影時点の内容で、この記事の数字とは別のもの。</p>
 
@@ -455,6 +473,14 @@ Saros 20 を家で動かしたレビュー。
   <figcaption><cite>出典：<a href="https://jp.roborock.com/pages/roborock-saros-20" target="_blank" rel="noopener">Roborock 公式サイト</a></cite></figcaption>
 </figure>
 
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">＼段差が多いお家にも🏠／ 部屋をまたぐ段差も、カーペットも。 「Saros 20」ならスムーズにお掃除🤖✨ カーペットを掃除するときは、 一度ドックへ戻ってモップを自動で取り外し。 カーペットを濡らさず、吸引清掃します🧹 さらに、段差に差しかかると、</p>&mdash; Roborock.JAPAN/ロボロック (@RoborockJ) <a href="https://twitter.com/RoborockJ/status/2113540941625585826">2026年10月23日</a></blockquote>
+
+ロボロックの日本の公式アカウントの投稿。カーペットを掃除するときは、一度ドックに戻ってモップを外すと書いている。
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/VCQRqea4jjM" title="マジでスゴい、最強のロボット掃除機が届いた！Roborock・Saros 20（キオク的サンサク -記憶的散策-）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
 <div data-shop-card="robot-cleaner:roborock-saros-20"></div>
 
 <h3 class="brand-h" id="ルンバ-max-775-combo"><img class="brand-logo" src="/images/robot-cleaner-comparison-2026/logos/irobot.png" alt="アイロボットのロゴ" loading="lazy" /><span>⑦ ルンバ Max 775 Combo＋AutoWash 充電ステーション（X285060）｜コードと犬猫の排泄物を避ける</span></h3>
@@ -510,7 +536,7 @@ Saros 20 を家で動かしたレビュー。
       <tr><th>コードは避けてくれる？</th><td>Saros 20・T90 MAX OMNI・ルンバ Max 775 Combo は、カメラか3Dセンサーでケーブル・コードを見分けて避けると公式に書いている。ただし、どのメーカーも回避を保証はしていないので、掃除の前に片付けるのが確実。</td></tr>
       <tr><th>水拭き付きは本当に要る？</th><td>フローリングが多く、食べこぼしや足あとを毎日拭きたいなら役に立つ。Eufy で比べると、吸うだけの C10（29,990円）と水拭き付きの C28（99,990円）の差は70,000円。安く拭きたいなら、市販のシートで拭けるルンバ Mini・SwitchBot K11+ がある。</td></tr>
       <tr><th>ペットの毛は絡まない？</th><td>7機種とも、ゴム製のブラシや絡み防止の仕組みを公式にうたっている。犬・猫の固形の排泄物を避けると書いているのは、ルンバ Max 775 Combo だけ。</td></tr>
-      <tr><th>いつ買うのが安い？</th><td>2026年は、楽天ブラックフライデーが11月19日（木）20時から、Amazonブラックフライデーの本番が11月30日（月）〜12月7日（月）。値段とポイントは日によって変わるので、上の比較表で3店の今の価格を見てから決めて。</td></tr>
+      <tr><th>いつ買うのが安い？</th><td>2026年は、楽天ブラックフライデーが2026年11月19日（木）20時から、Amazonブラックフライデーの本番が2026年11月30日（月）〜12月7日（月）。値段とポイントは日によって変わるので、上の比較表で3店の今の価格を見てから決めて。</td></tr>
     </tbody>
   </table>
 </div>

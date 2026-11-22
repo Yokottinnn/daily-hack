@@ -3,11 +3,26 @@
   "title": "ロボット掃除機（段差・コード・ペットの毛で止まらないか／水拭きは要るか）",
   "_note": "仕様は 2026-11-22 に各社の公式ページ・公式ストア・プレスリリースで確かめたものだけ。公式に数値の無い項目は「公式に記載なし」。Saros 20 はメーカーの希望小売価格が公式に無い",
   "columns": [
-    { "key": "step", "label": "乗り越えられる段差（公式）" },
-    { "key": "avoid", "label": "コード・物の回避" },
-    { "key": "mop", "label": "水拭き" },
-    { "key": "height", "label": "本体の高さ" },
-    { "key": "dock", "label": "ステーション" }
+    {
+      "key": "step",
+      "label": "乗り越えられる段差（公式）"
+    },
+    {
+      "key": "avoid",
+      "label": "コード・物の回避"
+    },
+    {
+      "key": "mop",
+      "label": "水拭き"
+    },
+    {
+      "key": "height",
+      "label": "本体の高さ"
+    },
+    {
+      "key": "dock",
+      "label": "ステーション"
+    }
   ],
   "pricesCheckedAt": null,
   "items": [
@@ -26,9 +41,42 @@
         "dock": "ゴミ自動収集（最大90日分）"
       },
       "source": "https://store.irobot-jp.com/item/F155260.html",
-      "rakuten": { "keyword": "ルンバ ミニ F155260", "must": ["F155260"], "exclude": ["中古", "◆", "交換", "紙パック", "フィルター", "ブラシ", "シート", "並行輸入"] },
-      "yahoo": { "keyword": "ルンバ ミニ F155260", "must": ["F155260"], "exclude": ["中古", "◆", "交換", "紙パック", "フィルター", "ブラシ", "シート", "並行輸入"] },
-      "amazon": { "keyword": "ルンバ Mini F155260", "asin": null }
+      "rakuten": {
+        "keyword": "ルンバ ミニ F155260",
+        "must": [
+          "F155260"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "交換",
+          "紙パック",
+          "フィルター",
+          "ブラシ",
+          "シート",
+          "並行輸入"
+        ]
+      },
+      "yahoo": {
+        "keyword": "ルンバ ミニ F155260",
+        "must": [
+          "F155260"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "交換",
+          "紙パック",
+          "フィルター",
+          "ブラシ",
+          "シート",
+          "並行輸入"
+        ]
+      },
+      "amazon": {
+        "keyword": "ルンバ Mini F155260",
+        "asin": null
+      }
     },
     {
       "id": "switchbot-k11-plus",
@@ -45,9 +93,46 @@
         "dock": "ゴミ自動収集（4L紙パック）"
       },
       "source": "https://www.switchbot.jp/products/switchbot-robot-vacuum-cleaner-k11",
-      "rakuten": { "keyword": "SwitchBot ロボット掃除機 K11+", "must": ["K11"], "exclude": ["中古", "◆", "交換", "紙パック", "ブラシ", "消耗品", "アクセサリー", "Pro", "プロ", "並行輸入"] },
-      "yahoo": { "keyword": "SwitchBot ロボット掃除機 K11+", "must": ["K11"], "exclude": ["中古", "◆", "交換", "紙パック", "ブラシ", "消耗品", "アクセサリー", "Pro", "プロ", "並行輸入"] },
-      "amazon": { "keyword": "SwitchBot ロボット掃除機 K11+", "asin": null }
+      "rakuten": {
+        "keyword": "SwitchBot ロボット掃除機 K11+",
+        "must": [
+          "K11"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "交換",
+          "紙パック",
+          "ブラシ",
+          "消耗品",
+          "アクセサリー",
+          "Pro",
+          "プロ",
+          "並行輸入"
+        ]
+      },
+      "yahoo": {
+        "keyword": "SwitchBot ロボット掃除機 K11+",
+        "must": [
+          "K11"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "交換",
+          "紙パック",
+          "ブラシ",
+          "消耗品",
+          "アクセサリー",
+          "Pro",
+          "プロ",
+          "並行輸入"
+        ]
+      },
+      "amazon": {
+        "keyword": "SwitchBot ロボット掃除機 K11+",
+        "asin": null
+      }
     },
     {
       "id": "eufy-c10",
@@ -64,9 +149,44 @@
         "dock": "ゴミ自動収集"
       },
       "source": "https://www.ankerjapan.com/products/t2292",
-      "rakuten": { "keyword": "Eufy Robot Vacuum Auto-Empty C10", "must": ["C10"], "exclude": ["中古", "◆", "交換", "紙パック", "ダストバッグ", "フィルター", "ブラシ", "アクセサリー", "並行輸入"] },
-      "yahoo": { "keyword": "Eufy Robot Vacuum Auto-Empty C10", "must": ["C10"], "exclude": ["中古", "◆", "交換", "紙パック", "ダストバッグ", "フィルター", "ブラシ", "アクセサリー", "並行輸入"] },
-      "amazon": { "keyword": "Eufy Robot Vacuum Auto-Empty C10", "asin": null }
+      "rakuten": {
+        "keyword": "Eufy Robot Vacuum Auto-Empty C10",
+        "must": [
+          "C10"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "交換",
+          "紙パック",
+          "ダストバッグ",
+          "フィルター",
+          "ブラシ",
+          "アクセサリー",
+          "並行輸入"
+        ]
+      },
+      "yahoo": {
+        "keyword": "Eufy Robot Vacuum Auto-Empty C10",
+        "must": [
+          "C10"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "交換",
+          "紙パック",
+          "ダストバッグ",
+          "フィルター",
+          "ブラシ",
+          "アクセサリー",
+          "並行輸入"
+        ]
+      },
+      "amazon": {
+        "keyword": "Eufy Robot Vacuum Auto-Empty C10",
+        "asin": null
+      }
     },
     {
       "id": "eufy-omni-c28",
@@ -83,9 +203,45 @@
         "dock": "ゴミ収集・モップ洗浄・約50℃温風乾燥"
       },
       "source": "https://www.ankerjapan.com/products/t211a",
-      "rakuten": { "keyword": "Eufy Robot Vacuum Omni C28", "must": ["C28"], "exclude": ["中古", "◆", "交換", "ローラーモップ単品", "紙パック", "ダストバッグ", "フィルター", "ブラシ", "アクセサリー", "並行輸入"] },
-      "yahoo": { "keyword": "Eufy Robot Vacuum Omni C28", "must": ["C28"], "exclude": ["中古", "◆", "交換", "紙パック", "ダストバッグ", "フィルター", "ブラシ", "アクセサリー", "並行輸入"] },
-      "amazon": { "keyword": "Eufy Robot Vacuum Omni C28", "asin": null }
+      "rakuten": {
+        "keyword": "Eufy Robot Vacuum Omni C28",
+        "must": [
+          "C28"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "交換",
+          "ローラーモップ単品",
+          "紙パック",
+          "ダストバッグ",
+          "フィルター",
+          "ブラシ",
+          "アクセサリー",
+          "並行輸入"
+        ]
+      },
+      "yahoo": {
+        "keyword": "Eufy Robot Vacuum Omni C28",
+        "must": [
+          "C28"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "交換",
+          "紙パック",
+          "ダストバッグ",
+          "フィルター",
+          "ブラシ",
+          "アクセサリー",
+          "並行輸入"
+        ]
+      },
+      "amazon": {
+        "keyword": "Eufy Robot Vacuum Omni C28",
+        "asin": null
+      }
     },
     {
       "id": "ecovacs-t90-max-omni",
@@ -102,9 +258,49 @@
         "dock": "ゴミ収集2.5L・モップ洗浄・45℃温風乾燥"
       },
       "source": "https://www.ecovacs.com/jp/shop/deebot-robotic-vacuum-cleaner/deebot-t90-max-omni-black",
-      "rakuten": { "keyword": "DEEBOT T90 MAX OMNI", "must": ["T90"], "exclude": ["中古", "◆", "交換", "PRO", "プロ", "紙パック", "ゴミパック", "ブラシ", "モップ単品", "洗浄剤", "アクセサリー", "並行輸入"] },
-      "yahoo": { "keyword": "DEEBOT T90 MAX OMNI", "must": ["T90"], "exclude": ["中古", "◆", "交換", "PRO", "プロ", "紙パック", "ゴミパック", "ブラシ", "洗浄剤", "アクセサリー", "並行輸入"] },
-      "amazon": { "keyword": "エコバックス DEEBOT T90 MAX OMNI", "asin": null }
+      "rakuten": {
+        "keyword": "DEEBOT T90 MAX OMNI",
+        "must": [
+          "T90"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "交換",
+          "PRO",
+          "プロ",
+          "紙パック",
+          "ゴミパック",
+          "ブラシ",
+          "モップ単品",
+          "洗浄剤",
+          "アクセサリー",
+          "並行輸入"
+        ]
+      },
+      "yahoo": {
+        "keyword": "DEEBOT T90 MAX OMNI",
+        "must": [
+          "T90"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "交換",
+          "PRO",
+          "プロ",
+          "紙パック",
+          "ゴミパック",
+          "ブラシ",
+          "洗浄剤",
+          "アクセサリー",
+          "並行輸入"
+        ]
+      },
+      "amazon": {
+        "keyword": "エコバックス DEEBOT T90 MAX OMNI",
+        "asin": null
+      }
     },
     {
       "id": "roborock-saros-20",
@@ -121,9 +317,51 @@
         "dock": "ゴミ収集・100℃温水でモップ洗浄・乾燥"
       },
       "source": "https://jp.roborock.com/pages/roborock-saros-20",
-      "rakuten": { "keyword": "Roborock Saros 20", "must": ["Saros 20"], "exclude": ["中古", "◆", "交換", "Sonic", "Flow", "ソニック", "フロー", "紙パック", "ブラシ", "モップクロス", "フィルター", "アクセサリー", "並行輸入"] },
-      "yahoo": { "keyword": "Roborock Saros 20", "must": ["Saros 20"], "exclude": ["中古", "◆", "交換", "Sonic", "Flow", "ソニック", "フロー", "紙パック", "ブラシ", "フィルター", "アクセサリー", "並行輸入"] },
-      "amazon": { "keyword": "Roborock Saros 20", "asin": null }
+      "rakuten": {
+        "keyword": "Roborock Saros 20",
+        "must": [
+          "Saros 20"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "交換",
+          "Sonic",
+          "Flow",
+          "ソニック",
+          "フロー",
+          "紙パック",
+          "ブラシ",
+          "モップクロス",
+          "フィルター",
+          "アクセサリー",
+          "並行輸入"
+        ]
+      },
+      "yahoo": {
+        "keyword": "Roborock Saros 20",
+        "must": [
+          "Saros 20"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "交換",
+          "Sonic",
+          "Flow",
+          "ソニック",
+          "フロー",
+          "紙パック",
+          "ブラシ",
+          "フィルター",
+          "アクセサリー",
+          "並行輸入"
+        ]
+      },
+      "amazon": {
+        "keyword": "Roborock Saros 20",
+        "asin": null
+      }
     },
     {
       "id": "irobot-roomba-max-775-combo",
@@ -140,9 +378,42 @@
         "dock": "ゴミ収集最大3か月・75℃温水洗浄・50℃温風乾燥・洗剤自動投入"
       },
       "source": "https://store.irobot-jp.com/item/X285060.html",
-      "rakuten": { "keyword": "ルンバ Max 775 Combo X285060", "must": ["X285060"], "exclude": ["中古", "◆", "交換", "紙パック", "フィルター", "ブラシ", "洗剤", "並行輸入"] },
-      "yahoo": { "keyword": "ルンバ Max 775 Combo X285060", "must": ["X285060"], "exclude": ["中古", "◆", "交換", "紙パック", "フィルター", "ブラシ", "洗剤", "並行輸入"] },
-      "amazon": { "keyword": "ルンバ Max 775 Combo X285060", "asin": null }
+      "rakuten": {
+        "keyword": "ルンバ Max 775 Combo X285060",
+        "must": [
+          "X285060"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "交換",
+          "紙パック",
+          "フィルター",
+          "ブラシ",
+          "洗剤",
+          "並行輸入"
+        ]
+      },
+      "yahoo": {
+        "keyword": "ルンバ Max 775 Combo X285060",
+        "must": [
+          "X285060"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "交換",
+          "紙パック",
+          "フィルター",
+          "ブラシ",
+          "洗剤",
+          "並行輸入"
+        ]
+      },
+      "amazon": {
+        "keyword": "ルンバ Max 775 Combo X285060",
+        "asin": null
+      }
     }
   ]
 }
