@@ -1,0 +1,48 @@
+# ドライブレコーダー コムテック・ケンウッド・セルスターの公式ページ（t1090・**$0**）
+
+生成: **2026-11-23T07:54:25+0900**
+
+- `playwright-core`: **`/Users/ny/.openclaw/workspace/node_modules`** に在る
+- Chrome: **CDP 18810 で応答あり**
+
+rc=0
+- コムテック 入口 https://www.comtec.co.jp/ ⚠️ Error: page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://www.comtec.co.jp/
+Call log:
+- コムテック 入口 https://www.comtec.co.jp/products/ ⚠️ Error: page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://www.comtec.co.jp/products/
+
+- ⚠️ コムテック ZDR065 の製品ページが見つからない（文字で当たったリンク: なし）
+- コムテック 入口 https://www.comtec.co.jp/products/ ⚠️ Error: page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://www.comtec.co.jp/products/
+
+- コムテック 入口 https://www.comtec.co.jp/ ⚠️ Error: page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://www.comtec.co.jp/
+Call log:
+- ⚠️ コムテック ZDR-851R の製品ページが見つからない（文字で当たったリンク: なし）
+- ケンウッド 入口 https://www.kenwood.com/jp/car/drive-recorders/ ⚠️ Error: page.goto: Navigation to "https://www.kenwood.com/jp/car/drive-recorders/" is inter
+- ケンウッド 入口 https://www.kenwood.com/jp/car/ ⚠️ Error: page.goto: Navigation to "https://www.kenwood.com/jp/car/" is interrupted by anothe
+- ⚠️ ケンウッド DRV-X80EM の製品ページが見つからない（文字で当たったリンク: なし）
+- セルスター 入口 https://www.cellstar.co.jp/ ⚠️ Error: page.goto: Navigation to "https://www.cellstar.co.jp/" is interrupted by another na
+- セルスター 入口 https://www.cellstar.co.jp/products/ ⚠️ Error: page.goto: Navigation to "https://www.cellstar.co.jp/products/" is interrupted by a
+- ⚠️ セルスター CS-N210 の製品ページが見つからない（文字で当たったリンク: なし）
+- ロゴ comtec ⚠️ Error: page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://www.comtec.co.jp/
+Call log:
+  - navig
+- ロゴ kenwood ⚠️ Error: page.goto: Navigation to "https://www.kenwood.com/jp/" is interrupted by another navigation t
+- ロゴ cellstar ⚠️ Error: page.goto: Navigation to "https://www.cellstar.co.jp/" is interrupted by another navigation t
+- ロゴ yupiteru ⚠️ Error: page.goto: Navigation to "https://www.yupiteru.co.jp/" is interrupted by another navigation t
+- ロゴ pioneer ⚠️ Error: page.goto: Navigation to "https://jpn.pioneer/ja/carrozzeria/" is interrupted by another navi
+- ロゴ alpine ⚠️ Error: page.goto: Navigation to "https://www.alpine.co.jp/" is interrupted by another navigation to 
+
+---
+経過 12 秒
+
+ 
+ 
+96 .
+72992 ..
+64 img
+ 
+ 
+ 
+64 .
+96 ..
+
+**読むだけ。LLM 不使用（$0／回）。**

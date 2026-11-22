@@ -1,1 +1,5 @@
-[]
+[
+      {"task": "t1090-dashcam-official-read.sh", "rc": 0, "out": "  64 . 96 ..  **読むだけ。LLM 不使用（$0／回）。**"},
+      {"task": "t1091-embed-dashcam.sh", "rc": 0, "out": "- X 2122257679599145187 @PHV300km_1L  2026-11-16 ♥140 ドラレコやETCは長期保証品がやっぱりおすすめ。 ドラレコなんかはT’zブランドでユピテルやコムテックのドラレコがOEMで3年保証で買えます。 実体験で故障率考えるとアルパイン�"},
+      {"task": "t1092-find-pages-dashcam.sh", "rc": 0, "out": "  - https://item.rakuten.co.jp/autobacs-ec/4958043025947/｜76,390｜【11月19日〜25日 23:59まで　ブラックフライデー　ポイント10倍対象！オートバックス公式】アルパイン DVR-DM1200A2-IC   - https://item.rakuten.co.jp/gearbox/dvr-dm1200a2-ic-set/｜85,980｜DVR-DM"}
+  ]
