@@ -1,0 +1,196 @@
+# アイリスオーヤマのオーブンレンジの公式ページ（t910・**$0**）
+
+生成: **2026-11-22T13:39:56+0900**
+
+- `playwright-core`: **`/Users/ny/.openclaw/workspace/node_modules`** に在る
+- Chrome: **CDP 18810 で応答あり**
+
+rc=0
+## カテゴリ「スチームオーブンレンジ｜電子レンジ・オーブンレンジ｜キッチン家電｜電化製品｜商品情報｜アイリスオーヤマ」 3522 文字
+- 製品らしいリンク 8 件
+  - スチームオーブンレンジ 26L カップ式 カップ式のスチームオーブンレンジ 26Lです — https://www.irisohyama.co.jp/products/electrical-appliances/cooking-appliances/microwave-microwave-oven/steam-oven/steam-oven-range-cup-type-26l
+  - スチームオーブンレンジ 26Lタンク式 タンク式のスチームオーブンレンジ 26Lです。 — https://www.irisohyama.co.jp/products/electrical-appliances/cooking-appliances/microwave-microwave-oven/steam-oven/steam-oven-range-tank-type-26l
+  - コンベクションスチームオーブンレンジ30L 2段調理可能なコンベクションスチームオーブンレンジです。 — https://www.irisohyama.co.jp/products/electrical-appliances/cooking-appliances/microwave-microwave-oven/steam-oven/convection-steam-oven-30
+  - スチームオーブンレンジ スチーム用カップ式 30L カップ式のスチームオーブンレンジ 30Lです。 — https://www.irisohyama.co.jp/products/electrical-appliances/cooking-appliances/microwave-microwave-oven/steam-oven/steam-oven-range-cup-type-30l
+  - スチームオーブンレンジ スチーム用カップ式 24L 食材の水分を残したまま余分な油を落としヘルシーに調理できます。 — https://www.irisohyama.co.jp/products/electrical-appliances/cooking-appliances/microwave-microwave-oven/steam-oven/steam-oven-range-cup-type-24l
+  - スチームオーブンレンジ タンク式過熱水蒸気式 24L 食材に含まれている余分な油分・塩分をカットして、栄養素を残したままヘルシーに調理できます。 — https://www.irisohyama.co.jp/products/electrical-appliances/cooking-appliances/microwave-microwave-oven/steam-oven/steam-oven-range-tank-type-24l
+  - スチームオーブンレンジ 18L 食材の水分を残したまま余分な油を落としヘルシーに調理できます。少人数世帯・1人暮らしにぴったりサイズ。 — https://www.irisohyama.co.jp/products/electrical-appliances/cooking-appliances/microwave-microwave-oven/steam-oven/steam-oven-18l
+  - スチーム流水解凍オーブンレンジ 24L スチームを使って流水解凍のようにムラなくおいしい解凍ができる「スチーム流水解凍」を搭載。 — https://www.irisohyama.co.jp/products/electrical-appliances/cooking-appliances/microwave-microwave-oven/steam-oven/steam-running-water-thawing-microwave-oven
+- 本文の型番らしい語: SOT-201 / SOT-401 / IBM-010-C
+  - 画像 logo-iris.svg: 2713 bytes — https://www.irisohyama.co.jp/images/common/logo.svg
+## カテゴリ「電子レンジ・オーブンレンジ｜キッチン家電｜電化製品｜商品情報｜アイリスオーヤマ」 3084 文字
+- 製品らしいリンク 10 件
+  - スチームオーブンレンジ 26L カップ式 カップ式のスチームオーブンレンジ 26Lです — https://www.irisohyama.co.jp/products/electrical-appliances/cooking-appliances/microwave-microwave-oven/steam-oven/steam-oven-range-cup-type-26l
+  - スチームオーブンレンジ 26Lタンク式 タンク式のスチームオーブンレンジ 26Lです。 — https://www.irisohyama.co.jp/products/electrical-appliances/cooking-appliances/microwave-microwave-oven/steam-oven/steam-oven-range-tank-type-26l
+  - コンベクションスチームオーブンレンジ30L 2段調理可能なコンベクションスチームオーブンレンジです。 — https://www.irisohyama.co.jp/products/electrical-appliances/cooking-appliances/microwave-microwave-oven/steam-oven/convection-steam-oven-30
+  - スチームオーブンレンジ スチーム用カップ式 30L カップ式のスチームオーブンレンジ 30Lです。 — https://www.irisohyama.co.jp/products/electrical-appliances/cooking-appliances/microwave-microwave-oven/steam-oven/steam-oven-range-cup-type-30l
+  - スチームオーブンレンジ スチーム用カップ式 24L 食材の水分を残したまま余分な油を落としヘルシーに調理できます。 — https://www.irisohyama.co.jp/products/electrical-appliances/cooking-appliances/microwave-microwave-oven/steam-oven/steam-oven-range-cup-type-24l
+  - スチームオーブンレンジ タンク式過熱水蒸気式 24L 食材に含まれている余分な油分・塩分をカットして、栄養素を残したままヘルシーに調理できます。 — https://www.irisohyama.co.jp/products/electrical-appliances/cooking-appliances/microwave-microwave-oven/steam-oven/steam-oven-range-tank-type-24l
+  - スチームオーブンレンジ 18L 食材の水分を残したまま余分な油を落としヘルシーに調理できます。少人数世帯・1人暮らしにぴったりサイズ。 — https://www.irisohyama.co.jp/products/electrical-appliances/cooking-appliances/microwave-microwave-oven/steam-oven/steam-oven-18l
+  - スチーム流水解凍オーブンレンジ 24L スチームを使って流水解凍のようにムラなくおいしい解凍ができる「スチーム流水解凍」を搭載。 — https://www.irisohyama.co.jp/products/electrical-appliances/cooking-appliances/microwave-microwave-oven/steam-oven/steam-running-water-thawing-microwave-oven
+  - オーブンレンジ オーブンレンジ（16L／18L） — https://www.irisohyama.co.jp/products/electrical-appliances/cooking-appliances/microwave-microwave-oven/microwave-oven
+  - 単機能レンジ かんたん両面焼きレンジ／単機能レンジ（ターンテーブル／フラットテーブル） — https://www.irisohyama.co.jp/products/electrical-appliances/cooking-appliances/microwave-microwave-oven/single-function-range
+- 本文の型番らしい語: SOT-201 / SOT-401 / IBM-010-C
+
+## p1「スチームオーブンレンジ 26L カップ式｜スチームオーブンレンジ｜電子レンジ・オーブンレンジ｜キッチン家電｜電化製品｜商品情報｜アイリスオーヤマ」 3819 文字
+- URL: https://www.irisohyama.co.jp/products/electrical-appliances/cooking-appliances/microwave-microwave-oven/steam-oven/steam-oven-range-cup-type-26l
+- 型番: —
+- 容量: 容量 ケース
+- 消費電力: 消費電力量 60.6kWh/年 オーブン機能の年間消費電力量 12.8kWh/年
+- 温度: 温度調節 40℃（発酵）、110～250℃ タイマー 90分
+- スチーム: スチームオーブンレンジ
+- 設置: —
+- メニュー: —
+- 寸法: サイズ（mm ・kg ） パッケージサイズ（mm） ケース
+- 質量: 重量 備考 幅 奥行 高さ
+- 発売: —
+- 価格: —
+  - 画像 p1-og.jpg: 3062 bytes — https://www.irisohyama.co.jp/products/web-catalog/img/serieses/steam-oven-range-cup-type-26l/thumb.jpg
+  - img1 1200x630 「アイリスオーヤマとNTT西日本「マルチロボティクスプラットフォーム」を活用したフ」
+  - 画像 p1-img1.jpg: 22306 bytes — https://www.irisohyama.co.jp/news/2026/img/1116/fb.png
+  - img2 1200x680 「清掃員に変装した吉沢 亮さんがスパイとして暗躍！？ DX清掃ロボット「JILBY」
+  - 画像 p1-img2.jpg: 186355 bytes — https://www.irisohyama.co.jp/news/2026/img/1112/fb.png
+  - img3 1200x630 「モナキをCM初起用！アイリスのお茶 綠 レモンフレーバー/白桃フレーバー新TVC」
+  - img4 1200x630 「独自の流速変更ドリッパーでよりコク深い抽出も可能！本体幅がスリムな「コーン式全自」
+  - img5 1200x630 「DX清掃ロボット「JILBY（ジルビー）」をホームセンターのユニディ 松戸ときわ」
+  - img6 1200x630 「ビルトイン食器洗い乾燥機のサイズダウンで生じる15cmの隙間を収納に変える「食洗」
+
+## p2「スチームオーブンレンジ 26Lタンク式｜スチームオーブンレンジ｜電子レンジ・オーブンレンジ｜キッチン家電｜電化製品｜商品情報｜アイリスオーヤマ」 3797 文字
+- URL: https://www.irisohyama.co.jp/products/electrical-appliances/cooking-appliances/microwave-microwave-oven/steam-oven/steam-oven-range-tank-type-26l
+- 型番: —
+- 容量: 容量 ケース
+- 消費電力: 消費電力量 60.6kWh／年 オーブン機能の年間消費電力量 12.8kWh／年
+- 温度: 温度調節 40℃（発酵）、110～250℃ タイマー 90分
+- スチーム: スチームオーブンレンジ
+- 設置: —
+- メニュー: —
+- 寸法: サイズ（mm ・kg ） パッケージサイズ（mm） ケース
+- 質量: 重量 備考 幅 奥行 高さ
+- 発売: —
+- 価格: —
+  - 画像 p2-og.jpg: 3477 bytes — https://www.irisohyama.co.jp/products/web-catalog/img/serieses/steam-oven-range-tank-type-26l/thumb.jpg
+  - img1 1200x630 「アイリスオーヤマとNTT西日本「マルチロボティクスプラットフォーム」を活用したフ」
+  - 画像 p2-img1.jpg: 22306 bytes — https://www.irisohyama.co.jp/news/2026/img/1116/fb.png
+  - img2 1200x680 「清掃員に変装した吉沢 亮さんがスパイとして暗躍！？ DX清掃ロボット「JILBY」
+  - 画像 p2-img2.jpg: 186355 bytes — https://www.irisohyama.co.jp/news/2026/img/1112/fb.png
+  - img3 1200x630 「モナキをCM初起用！アイリスのお茶 綠 レモンフレーバー/白桃フレーバー新TVC」
+  - img4 1200x630 「独自の流速変更ドリッパーでよりコク深い抽出も可能！本体幅がスリムな「コーン式全自」
+  - img5 1200x630 「DX清掃ロボット「JILBY（ジルビー）」をホームセンターのユニディ 松戸ときわ」
+  - img6 1200x630 「ビルトイン食器洗い乾燥機のサイズダウンで生じる15cmの隙間を収納に変える「食洗」
+
+## p3「コンベクションスチームオーブンレンジ30L｜スチームオーブンレンジ｜電子レンジ・オーブンレンジ｜キッチン家電｜電化製品｜商品情報｜アイリスオーヤマ」 3990 文字
+- URL: https://www.irisohyama.co.jp/products/electrical-appliances/cooking-appliances/microwave-microwave-oven/steam-oven/convection-steam-oven-30
+- 型番: —
+- 容量: 容量 ケース
+- 消費電力: 消費電力量 58.9kWh／年 オーブン機能の年間消費電力量 11.6kWh／年
+- 温度: 温度調節 35℃ ・40℃ ・45℃（発酵）、100～300℃ タイマー 30秒～90分（発酵は10秒～90分）
+- スチーム: スチームオーブンレンジ
+- 設置: —
+- メニュー: —
+- 寸法: サイズ（mm ・kg ） パッケージサイズ（mm） ケース
+- 質量: 重量 備考 幅 奥行 高さ
+- 発売: —
+- 価格: —
+  - 画像 p3-og.jpg: 59165 bytes — https://www.irisohyama.co.jp/products/web-catalog/img/serieses/convection-steam-oven-30/thumb.jpg
+  - img1 1200x630 「アイリスオーヤマとNTT西日本「マルチロボティクスプラットフォーム」を活用したフ」
+  - 画像 p3-img1.jpg: 22306 bytes — https://www.irisohyama.co.jp/news/2026/img/1116/fb.png
+  - img2 1200x680 「清掃員に変装した吉沢 亮さんがスパイとして暗躍！？ DX清掃ロボット「JILBY」
+  - 画像 p3-img2.jpg: 186355 bytes — https://www.irisohyama.co.jp/news/2026/img/1112/fb.png
+  - img3 1200x630 「モナキをCM初起用！アイリスのお茶 綠 レモンフレーバー/白桃フレーバー新TVC」
+  - img4 1200x630 「独自の流速変更ドリッパーでよりコク深い抽出も可能！本体幅がスリムな「コーン式全自」
+  - img5 1200x630 「DX清掃ロボット「JILBY（ジルビー）」をホームセンターのユニディ 松戸ときわ」
+  - img6 1200x630 「ビルトイン食器洗い乾燥機のサイズダウンで生じる15cmの隙間を収納に変える「食洗」
+
+## p4「スチームオーブンレンジ スチーム用カップ式 30L｜スチームオーブンレンジ｜電子レンジ・オーブンレンジ｜キッチン家電｜電化製品｜商品情報｜アイリスオーヤマ」 3832 文字
+- URL: https://www.irisohyama.co.jp/products/electrical-appliances/cooking-appliances/microwave-microwave-oven/steam-oven/steam-oven-range-cup-type-30l
+- 型番: —
+- 容量: 容量 ケース
+- 消費電力: 消費電力量 61.0kWh/年 オーブン機能の年間消費電力量 11.6kWh/年
+- 温度: 温度調節 40℃（発酵）、110～250℃ タイマー 90分
+- スチーム: スチームオーブンレンジ
+- 設置: —
+- メニュー: —
+- 寸法: サイズ（mm ・kg ） パッケージサイズ（mm） ケース
+- 質量: 重量 備考 幅 奥行 高さ
+- 発売: —
+- 価格: —
+  - 画像 p4-og.jpg: 37852 bytes — https://www.irisohyama.co.jp/products/web-catalog/img/serieses/steam-oven-range-cup-type-30l/thumb.jpg
+  - img1 1200x630 「アイリスオーヤマとNTT西日本「マルチロボティクスプラットフォーム」を活用したフ」
+  - 画像 p4-img1.jpg: 22306 bytes — https://www.irisohyama.co.jp/news/2026/img/1116/fb.png
+  - img2 1200x680 「清掃員に変装した吉沢 亮さんがスパイとして暗躍！？ DX清掃ロボット「JILBY」
+  - 画像 p4-img2.jpg: 186355 bytes — https://www.irisohyama.co.jp/news/2026/img/1112/fb.png
+  - img3 1200x630 「モナキをCM初起用！アイリスのお茶 綠 レモンフレーバー/白桃フレーバー新TVC」
+  - img4 1200x630 「独自の流速変更ドリッパーでよりコク深い抽出も可能！本体幅がスリムな「コーン式全自」
+  - img5 1200x630 「DX清掃ロボット「JILBY（ジルビー）」をホームセンターのユニディ 松戸ときわ」
+  - img6 1200x630 「ビルトイン食器洗い乾燥機のサイズダウンで生じる15cmの隙間を収納に変える「食洗」
+
+## p5「スチームオーブンレンジ スチーム用カップ式 24L｜スチームオーブンレンジ｜電子レンジ・オーブンレンジ｜キッチン家電｜電化製品｜商品情報｜アイリスオーヤマ」 3729 文字
+- URL: https://www.irisohyama.co.jp/products/electrical-appliances/cooking-appliances/microwave-microwave-oven/steam-oven/steam-oven-range-cup-type-24l
+- 型番: —
+- 容量: 容量 ケース
+- 消費電力: 消費電力 1450W
+- 温度: 温度調節 「発酵」35℃、40℃、100～250℃ タイマー 5秒～90分
+- スチーム: スチームオーブンレンジ
+- 設置: —
+- メニュー: —
+- 寸法: サイズ（mm ・kg ） パッケージサイズ（mm） ケース
+- 質量: 重量 幅 奥行 高さ
+- 発売: —
+- 価格: —
+  - 画像 p5-og.jpg: 29097 bytes — https://www.irisohyama.co.jp/products/web-catalog/img/serieses/steam-oven-range-cup-type-24l/thumb.jpg
+  - img1 1200x630 「アイリスオーヤマとNTT西日本「マルチロボティクスプラットフォーム」を活用したフ」
+  - 画像 p5-img1.jpg: 22306 bytes — https://www.irisohyama.co.jp/news/2026/img/1116/fb.png
+  - img2 1200x680 「清掃員に変装した吉沢 亮さんがスパイとして暗躍！？ DX清掃ロボット「JILBY」
+  - 画像 p5-img2.jpg: 186355 bytes — https://www.irisohyama.co.jp/news/2026/img/1112/fb.png
+  - img3 1200x630 「モナキをCM初起用！アイリスのお茶 綠 レモンフレーバー/白桃フレーバー新TVC」
+  - img4 1200x630 「独自の流速変更ドリッパーでよりコク深い抽出も可能！本体幅がスリムな「コーン式全自」
+  - img5 1200x630 「DX清掃ロボット「JILBY（ジルビー）」をホームセンターのユニディ 松戸ときわ」
+  - img6 1200x630 「ビルトイン食器洗い乾燥機のサイズダウンで生じる15cmの隙間を収納に変える「食洗」
+
+## p6「スチームオーブンレンジ タンク式過熱水蒸気式 24L｜スチームオーブンレンジ｜電子レンジ・オーブンレンジ｜キッチン家電｜電化製品｜商品情報｜アイリスオーヤマ」 3865 文字
+- URL: https://www.irisohyama.co.jp/products/electrical-appliances/cooking-appliances/microwave-microwave-oven/steam-oven/steam-oven-range-tank-type-24l
+- 型番: —
+- 容量: 容量 ケース
+- 消費電力: 消費電力 1450W
+- 温度: 温度調節：「発酵」35℃、40℃、100～250℃（庫内温度が高いときは210℃まで）
+- スチーム: スチームオーブンレンジ
+- 設置: —
+- メニュー: 自動メニューで操作時、スチー...
+- 寸法: サイズ（mm ・kg ） パッケージサイズ（mm） ケース
+- 質量: 重量 幅 奥行 高さ
+- 発売: —
+- 価格: —
+  - 画像 p6-og.jpg: 37600 bytes — https://www.irisohyama.co.jp/products/web-catalog/img/serieses/steam-oven-range-tank-type-24l/thumb.jpg
+  - img1 1200x630 「アイリスオーヤマとNTT西日本「マルチロボティクスプラットフォーム」を活用したフ」
+  - 画像 p6-img1.jpg: 22306 bytes — https://www.irisohyama.co.jp/news/2026/img/1116/fb.png
+  - img2 1200x680 「清掃員に変装した吉沢 亮さんがスパイとして暗躍！？ DX清掃ロボット「JILBY」
+  - 画像 p6-img2.jpg: 186355 bytes — https://www.irisohyama.co.jp/news/2026/img/1112/fb.png
+  - img3 1200x630 「モナキをCM初起用！アイリスのお茶 綠 レモンフレーバー/白桃フレーバー新TVC」
+  - img4 1200x630 「独自の流速変更ドリッパーでよりコク深い抽出も可能！本体幅がスリムな「コーン式全自」
+  - img5 1200x630 「DX清掃ロボット「JILBY（ジルビー）」をホームセンターのユニディ 松戸ときわ」
+  - img6 1200x630 「ビルトイン食器洗い乾燥機のサイズダウンで生じる15cmの隙間を収納に変える「食洗」
+
+## p7「スチームオーブンレンジ 18L｜スチームオーブンレンジ｜電子レンジ・オーブンレンジ｜キッチン家電｜電化製品｜商品情報｜アイリスオーヤマ」 5398 文字
+- URL: https://www.irisohyama.co.jp/products/electrical-appliances/cooking-appliances/microwave-microwave-oven/steam-oven/steam-oven-18l
+- 型番: —
+- 容量: 容量 ケース
+- 消費電力: 消費電力量 59.6kWh/年 オーブン機能の年間消費電力量 13.8kWh/年
+- 温度: 温度調節 40℃（発酵）、110～250℃（庫内温度が高いときは210℃まで） タイマー 90分
+- スチーム: スチームオーブンレンジ
+- 設置: —
+- メニュー: —
+- 寸法: サイズ。
+- 質量: 重量 備考 幅 奥行 高さ
+- 発売: —
+- 価格: —
+  - 画像 p7-og.jpg: 22218 bytes — https://www.irisohyama.co.jp/products/web-catalog/img/serieses/steam-oven-18l/thumb.jpg
+  - img1 1200x630 「アイリスオーヤマとNTT西日本「マルチロボティクスプラットフォーム」を活用したフ」
+  - 画像 p7-img1.jpg: 22306 bytes — https://www.irisohyama.co.jp/news/2026/img/1116/fb.png
+  - img2 1200x680 「清掃員に変装した吉沢 亮さんがスパイとして暗躍！？ DX清掃ロボット「JILBY」
+  - 画像 p7-img2.jpg: 186355 bytes — https://www.irisohyama.co.jp/news/2026/img/1112/fb.png
+  - img3 1200x630 「モナキをCM初起用！アイリスのお茶 綠 レモンフレーバー/白桃フレーバー新TVC」
+  - img4 1200x630 「独自の流速変更ドリッパーでよりコク深い抽出も可能！本体幅がスリムな「コーン式全自」
+  - img5 1200x630 「DX清掃ロボット「JILBY（ジルビー）」をホームセンターのユニディ 松戸ときわ」
+  - img6 1200x630 「ビルトイン食器洗い乾燥機のサイズダウンで生じる15cmの隙間を収納に変える「食洗」
+
+**読むだけ。LLM 不使用（$0／回）。**
