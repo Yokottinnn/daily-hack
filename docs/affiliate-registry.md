@@ -66,6 +66,7 @@
 | --- | --- | --- |
 | `furusato-portal-comparison-2026` | 3 |  |
 | `furusato-tax-2026-reform-guide` | 1 |  |
+| `futon-dryer-comparison-2026` | 3 店ボタン（`src/data/shop/futon-dryer.json`） | 3 店ボタン（2026-11-22） |
 | `furusato-tax-beginner-guide-2026` | 1 |  |
 | `furusato-tax-food-picks-2026` | 16 | 2026-11-08 返礼品の item.rakuten.co.jp 15 本を包んだ |
 | `rakuten-blackfriday-vs-supersale-dec-2026` | 9 | 2026-11-20 ブラックフライデー会場・スーパーSALE・タイガー JPL-H10NK・Anker Solix C1000 Gen 2 |
@@ -79,12 +80,14 @@
 | `heated-vest-comparison-2026` | 3 店ボタン（`src/data/shop/heated-vest.json`） | 同上 |
 | `zojirushi-steam-humidifier-2026` | 3 店ボタン（`src/data/shop/zojirushi-steam-humidifier.json`） | 同上（2026-11-20） |
 | `senmenjo-heater-boteki-2026` | 3 店ボタン（`src/data/shop/senmenjo-heater.json`） | 同上（2026-11-20） |
+| `humidifying-air-purifier-comparison-2026` | 3 店ボタン（`src/data/shop/humidifying-air-purifier.json`） | 同上（2026-11-22） |
 | `osechi-2027-reizou-reitou` | 楽天・Yahoo! のボタン（`src/data/shop/osechi-2027.json`）＋本文 1 | 楽天・Yahoo! だけ（2026-11-21） |
 | `kani-tsuhan-kaitougo-tanka-2026` | 楽天・Yahoo! のボタン（`src/data/shop/kani-kaitougo.json`）＋本文 1 | 楽天・Yahoo! だけ（2026-11-21） |
 | `usb-kiru-moufu-mobile-battery-2026` | 3 店ボタン（`src/data/shop/usb-blanket.json`・`mobile-battery.json`） | 同上（2026-11-20） |
 | `heparin-ruiji-lotion-price-2026` | 3 店ボタン（`src/data/shop/heparin-lotion.json`） | 同上（2026-11-20）。市販の第2類医薬品だけ |
 | `smartwatch-comparison-2026` | 3 店ボタン（`src/data/shop/smartwatch.json`） | 同上（2026-11-22） |
 | `premium-hair-dryer-comparison-2026` | 3 店ボタン（`src/data/shop/premium-hair-dryer.json`） | 同上（2026-11-22） |
+| `robot-cleaner-comparison-2026` | 3 店ボタン（`src/data/shop/robot-cleaner.json`） | 2026-11-22 追加 |
 
 ## A8 のリンクを入れた湾岸ライフの記事（2026-10-25）
 
