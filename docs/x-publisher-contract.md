@@ -122,7 +122,7 @@ console.log(JSON.stringify({
 
 **`t004` は 5 つ全部を外していた。** だから `no candidate` だった。
 
-### 画像は `image_path`。**カンマ区切りで最大 4 枚**
+### 画像は `image_path`。**カンマ区切りで最大 10 枚**（2026-11-22 に 4 → 10。x538 で 6 枚・x539 で 10 枚が投稿画面に入るのを確かめ、x541 で `post-via-playwright.js` の上限を 10 にした。他人の投稿では 16 枚付いた例がある（x537）が、こちらで確かめたのは 10 枚まで）
 
 `run-publish.sh` が読むのは **`image_path`** で、`post-via-playwright.js:31` が
 `split(",")` している。**`images` ではない。**

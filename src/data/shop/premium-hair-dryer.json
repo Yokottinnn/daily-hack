@@ -28,7 +28,7 @@
       "source": "https://www.dyson.co.jp/hair-care/hair-dryers/supersonic-nural-shine/dark-blue-copper",
       "rakuten": { "keyword": "ダイソン Supersonic Nural Shine HD16", "must": ["HD16"], "exclude": ["中古", "◆", "並行輸入", "ノズル", "交換", "スタンド", "ホルダー", "アタッチメント", "ツール", "フィルター", "カバー"] },
       "yahoo": { "keyword": "ダイソン Supersonic Nural Shine HD16", "must": ["HD16"], "exclude": ["中古", "◆", "並行輸入", "ノズル", "交換", "スタンド", "ホルダー", "アタッチメント", "ツール", "フィルター", "カバー"] },
-      "amazon": { "keyword": "Dyson Supersonic Nural Shine HD16", "asin": null }
+      "amazon": { "keyword": "Dyson Supersonic Nural Shine HD16", "asin": "B0FTRT75K3" }
     },
     {
       "id": "dyson-supersonic-travel",
@@ -47,7 +47,7 @@
       "source": "https://www.dyson.co.jp/hair-care/hair-dryers/supersonic-travel/ceramic-pink",
       "rakuten": { "keyword": "ダイソン Supersonic Travel HD19", "must": ["HD19"], "exclude": ["中古", "◆", "並行輸入", "ノズル", "交換", "スタンド", "ホルダー", "アタッチメント", "ツール", "ケース", "カバー"] },
       "yahoo": { "keyword": "ダイソン Supersonic Travel HD19", "must": ["HD19"], "exclude": ["中古", "◆", "並行輸入", "ノズル", "交換", "スタンド", "ホルダー", "アタッチメント", "ツール", "ケース", "カバー"] },
-      "amazon": { "keyword": "Dyson Supersonic Travel HD19", "asin": null }
+      "amazon": { "keyword": "Dyson Supersonic Travel HD19", "asin": "B0HN7JHCHP" }
     },
     {
       "id": "panasonic-eh-na0k",
@@ -66,7 +66,7 @@
       "source": "https://panasonic.jp/hair/products/EH-NA0K/spec.html",
       "rakuten": { "keyword": "パナソニック ナノケア EH-NA0K", "must": ["EH-NA0K"], "exclude": ["中古", "◆", "並行輸入", "ノズル", "交換", "スタンド", "ホルダー"] },
       "yahoo": { "keyword": "パナソニック ナノケア EH-NA0K", "must": ["EH-NA0K"], "exclude": ["中古", "◆", "並行輸入", "ノズル", "交換", "スタンド", "ホルダー"] },
-      "amazon": { "keyword": "パナソニック ナノケア EH-NA0K", "asin": null }
+      "amazon": { "keyword": "パナソニック ナノケア EH-NA0K", "asin": "B0FHGY1FYH" }
     },
     {
       "id": "panasonic-eh-nb70",
@@ -85,7 +85,7 @@
       "source": "https://panasonic.jp/hair/products/EH-NB70/spec.html",
       "rakuten": { "keyword": "パナソニック ナノケア EH-NB70", "must": ["EH-NB70"], "exclude": ["中古", "◆", "並行輸入", "ノズル", "交換", "スタンド", "ホルダー", "EH-NB70KT"] },
       "yahoo": { "keyword": "パナソニック ナノケア EH-NB70", "must": ["EH-NB70"], "exclude": ["中古", "◆", "並行輸入", "ノズル", "交換", "スタンド", "ホルダー", "EH-NB70KT"] },
-      "amazon": { "keyword": "パナソニック ナノケア EH-NB70", "asin": null }
+      "amazon": { "keyword": "パナソニック ナノケア EH-NB70", "asin": "B0HJ1JHG4G" }
     },
     {
       "id": "refa-beautech-dryer-smart-w",
@@ -104,7 +104,7 @@
       "source": "https://www.refa.net/item/refa_beautech_dryer_smart_w/",
       "rakuten": { "keyword": "リファ ビューテック ドライヤー スマート ダブル", "must": ["スマート"], "exclude": ["中古", "◆", "並行輸入", "ホルダー", "スタンド", "ノズル", "SE W", "PRO", "BX"] },
       "yahoo": { "keyword": "リファ ビューテック ドライヤー スマート ダブル", "must": ["スマート"], "exclude": ["中古", "◆", "並行輸入", "ホルダー", "スタンド", "ノズル", "SE W", "PRO", "BX"] },
-      "amazon": { "keyword": "ReFa BEAUTECH DRYER SMART W", "asin": null }
+      "amazon": { "keyword": "ReFa BEAUTECH DRYER SMART W", "asin": "B0FQ4YKT2F" }
     },
     {
       "id": "sharp-ib-wx903",
@@ -123,7 +123,7 @@
       "source": "https://jp.sharp/beauty/products/ibwx903/spec/",
       "rakuten": { "keyword": "シャープ IB-WX903", "must": ["IB-WX903"], "exclude": ["中古", "◆", "並行輸入", "ノズル", "交換"] },
       "yahoo": { "keyword": "シャープ IB-WX903", "must": ["IB-WX903"], "exclude": ["中古", "◆", "並行輸入", "ノズル", "交換"] },
-      "amazon": { "keyword": "シャープ IB-WX903", "asin": null }
+      "amazon": { "keyword": "シャープ IB-WX903", "asin": "B0HCSMHB84" }
     },
     {
       "id": "salonia-smooth-shine",
@@ -142,7 +142,7 @@
       "source": "https://salonia.jp/product/hairitempre/hairdryerpre/smoothshinedryer/",
       "rakuten": { "keyword": "サロニア スムースシャインドライヤー", "must": ["スムースシャイン"], "exclude": ["中古", "◆", "並行輸入", "スマート", "ノズル", "アイロン", "ブラシ"] },
       "yahoo": { "keyword": "サロニア スムースシャインドライヤー", "must": ["スムースシャイン"], "exclude": ["中古", "◆", "並行輸入", "スマート", "ノズル", "アイロン", "ブラシ"] },
-      "amazon": { "keyword": "SALONIA スムースシャインドライヤー", "asin": null }
+      "amazon": { "keyword": "SALONIA スムースシャインドライヤー", "asin": "B0D44ZXPYM" }
     }
   ]
 }
