@@ -1,0 +1,231 @@
+[
+ {
+  "id": "toothbrush-head~panasonic-ew0810",
+  "store": "amazon",
+  "keyword": "パナソニック ドルツ 替えブラシ トータルケアブラシ EW0810",
+  "must": [
+   "EW0810"
+  ],
+  "exclude": [
+   "互換",
+   "対応",
+   "中古",
+   "◆",
+   "並行輸入",
+   "交換用",
+   "フィルム"
+  ]
+ },
+ {
+  "id": "toothbrush-head~panasonic-ew0830",
+  "store": "amazon",
+  "keyword": "パナソニック ドルツ 替えブラシ 歯間フィットブラシ EW0830",
+  "must": [
+   "EW0830"
+  ],
+  "exclude": [
+   "互換",
+   "対応",
+   "中古",
+   "◆",
+   "並行輸入",
+   "交換用",
+   "フィルム"
+  ]
+ },
+ {
+  "id": "toothbrush-head~omron-sb172",
+  "store": "amazon",
+  "keyword": "オムロン 歯垢除去ブラシ SB-172",
+  "must": [
+   "SB-172"
+  ],
+  "exclude": [
+   "互換",
+   "対応",
+   "中古",
+   "◆",
+   "並行輸入",
+   "交換用",
+   "フィルム"
+  ]
+ },
+ {
+  "id": "denki-atsuryokunabe~sharp-kn-hw24k",
+  "store": "amazon",
+  "keyword": "シャープ ホットクック KN-HW24K",
+  "must": [
+   "KN-HW24K"
+  ],
+  "exclude": [
+   "互換",
+   "対応",
+   "中古",
+   "◆",
+   "並行輸入",
+   "交換用",
+   "フィルム",
+   "パッキン",
+   "内なべ",
+   "内鍋"
+  ]
+ },
+ {
+  "id": "denki-atsuryokunabe~sharp-kn-hw16k",
+  "store": "amazon",
+  "keyword": "シャープ ホットクック KN-HW16K",
+  "must": [
+   "KN-HW16K"
+  ],
+  "exclude": [
+   "互換",
+   "対応",
+   "中古",
+   "◆",
+   "並行輸入",
+   "交換用",
+   "フィルム",
+   "パッキン",
+   "内なべ",
+   "内鍋"
+  ]
+ },
+ {
+  "id": "denki-atsuryokunabe~panasonic-nf-ac1000",
+  "store": "amazon",
+  "keyword": "パナソニック オートクッカー ビストロ NF-AC1000",
+  "must": [
+   "NF-AC1000"
+  ],
+  "exclude": [
+   "互換",
+   "対応",
+   "中古",
+   "◆",
+   "並行輸入",
+   "交換用",
+   "フィルム",
+   "パッキン",
+   "内なべ",
+   "内鍋"
+  ]
+ },
+ {
+  "id": "denki-atsuryokunabe~panasonic-nf-pc400",
+  "store": "amazon",
+  "keyword": "パナソニック 電気圧力鍋 NF-PC400",
+  "must": [
+   "NF-PC400"
+  ],
+  "exclude": [
+   "互換",
+   "対応",
+   "中古",
+   "◆",
+   "並行輸入",
+   "交換用",
+   "フィルム",
+   "パッキン",
+   "内なべ",
+   "内鍋"
+  ]
+ },
+ {
+  "id": "denki-atsuryokunabe~tfal-cy3811j0",
+  "store": "amazon",
+  "keyword": "ティファール ラクラ・クッカー プロ CY3811J0",
+  "must": [
+   "CY3811J0"
+  ],
+  "exclude": [
+   "互換",
+   "対応",
+   "中古",
+   "◆",
+   "並行輸入",
+   "交換用",
+   "フィルム",
+   "パッキン",
+   "内なべ",
+   "内鍋"
+  ]
+ },
+ {
+  "id": "denki-atsuryokunabe~tfal-cy8768jp",
+  "store": "amazon",
+  "keyword": "ティファール クックフォーミー CY8768JP",
+  "must": [
+   "CY8768JP"
+  ],
+  "exclude": [
+   "互換",
+   "対応",
+   "中古",
+   "◆",
+   "並行輸入",
+   "交換用",
+   "フィルム",
+   "パッキン",
+   "内なべ",
+   "内鍋"
+  ]
+ },
+ {
+  "id": "denki-atsuryokunabe~tfal-cy3401jp",
+  "store": "amazon",
+  "keyword": "ティファール ラクラ・クッカー ミニ CY3401JP",
+  "must": [
+   "CY3401JP"
+  ],
+  "exclude": [
+   "互換",
+   "対応",
+   "中古",
+   "◆",
+   "並行輸入",
+   "交換用",
+   "フィルム",
+   "パッキン",
+   "内なべ",
+   "内鍋"
+  ]
+ },
+ {
+  "id": "denki-atsuryokunabe~iris-kpc-mb4-b",
+  "store": "amazon",
+  "keyword": "アイリスオーヤマ 電気圧力鍋 4.0L KPC-MB4-B",
+  "must": [
+   "KPC-MB4"
+  ],
+  "exclude": [
+   "互換",
+   "対応",
+   "中古",
+   "◆",
+   "並行輸入",
+   "交換用",
+   "フィルム",
+   "パッキン",
+   "内なべ",
+   "内鍋"
+  ]
+ },
+ {
+  "id": "cordless-stick-cleaner~shark-lc050j",
+  "store": "amazon",
+  "keyword": "Shark GlideClean LC050J",
+  "must": [
+   "LC050J"
+  ],
+  "exclude": [
+   "互換",
+   "対応",
+   "中古",
+   "◆",
+   "並行輸入",
+   "交換用",
+   "フィルム",
+   "バッテリー"
+  ]
+ }
+]
