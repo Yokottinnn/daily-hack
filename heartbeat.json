@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-22T04:53:32Z",
+  "generated_at": "2026-11-22T05:23:43Z",
   "login_lock": {"present": false, "age_hours": 0},
   "cdp": {"healthy": true, "port": 18810},
   "x_jobs": {"loaded": 8, "expected": 8, "ai_total": 16, "halted": false, "missing": []},
-  "last_reply": {"at": "2026-11-18T01:17:05.594Z", "age_hours": 99, "stale": true},
+  "last_reply": {"at": "2026-11-18T01:17:05.594Z", "age_hours": 100, "stale": true},
   "supervisor": {"at":"2026-11-21T20:12:12Z","date_jst":"2026-11-22","ran":4,"total":9,"not_run":["comment-warmup","competitor-follower-follow","hashtag-follow","badge-followback","mutual-prune"],"fixed":[]},
   "followback_bands": {"with_count":696,"total_rows":1080,"bands":{"1000-4999":{"n":232,"back":35,"mature":232,"mature_back":35,"rate":15.1},"300-999":{"n":177,"back":24,"mature":176,"mature_back":24,"rate":13.6},"0-99":{"n":123,"back":18,"mature":122,"mature_back":18,"rate":14.8},"5000-49999":{"n":120,"back":8,"mature":119,"mature_back":7,"rate":5.9},"100-299":{"n":41,"back":8,"mature":41,"mature_back":8,"rate":19.5},"50000-up":{"n":3,"back":1,"mature":3,"mature_back":1,"rate":33.3}},"status_values":{"unfollowed":810,"revenge_ghost_already_unfollowed":84,"yes_late":22,"yes":126,"no":37,"pending":1},"note":"mature の率で見る"},
   "host": "NaokinoMBP-2",
@@ -42,13 +42,7 @@
     "com.dailyhack.x-impressions"
   ],
   "reconnect": "既に起動している",
-  "tasks": [
-      {"task": "t920-coffee-embed-search.sh", "rc": 0, "out": "- X 2105552593703567846 @siroca_JP ✔ 2026-10-01 ♥1152 ／ 10月1日は #コーヒーの日 ！ 全自動コーヒーメーカー カフェばこPRO ２名様にプレゼント☕ ＼ 豆も水も計量不要で、タイマー、じかマグ機能搭載！ こだわりの一杯を、もっと - X"},
-      {"task": "t921-find-pages-coffee-maker.sh", "rc": 0, "out": "- rakuten: 検索 45 件・型番あり 3 件   - https://item.rakuten.co.jp/delonghi/r132250246/｜196,200｜【25％OFF】デロンギ リヴェリア ラテクレマクール アップグレードセット 全自動コーヒーマシン オニキスブラック [EXAM44055B] delonghi   - https://i"},
-      {"task": "t970-dishwasher-iris-official.sh", "rc": 0, "out": "- ⚠️ p4: Error: page.goto: Page crashed Call log:   - navigating to https://www.irisohyama.co.jp/products/electrical-appliances/cooking-appliances/d  **読むだけ。LLM 不使用（$0／回）。**"},
-      {"task": "t971-embed-dishwasher.sh", "rc": 0, "out": " ## aqua - YT t_uQ8idIJb0 「AQUAのファミリー向け食洗機がどう凄いのか解説【ADW-L4】」 / タジマの食洗機 / 3.9万 3 年前 - YT CzoW8Xe6uyc 「自動給水食洗器を自力で設置してみた【分岐水栓工事 DIY】」 / ヒロ / 3612 1 年前 - YT GtD91Llg4U0 「�"},
-      {"task": "t972-find-pages-dishwasher.sh", "rc": 0, "out": "- amazon: 検索 48 件・型番あり 3 件   - B0811MR8D9｜—｜アイリスオーヤマ 食洗機 食器洗い乾燥機 工事不要 コンパクト 上下ノズル洗浄 メーカー保証 ホワイト ISHT-5000-W   - B08XTL856B｜—｜アイリスオーヤマ(IRIS OHYAMA) 食洗機 食器洗"}
-  ],
+  "tasks": [],
   "running": null,
   "auth": {
     "ok": false,
@@ -141,7 +135,7 @@
   ],
   "clone": {
     "branch": "main",
-    "behind": 17,
+    "behind": 0,
     "dirty": 0
   },
   "followers": {
