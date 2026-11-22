@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T03:44:12Z",
+  "generated_at": "2026-11-22T04:14:52Z",
   "login_lock": {"present": false, "age_hours": 0},
   "cdp": {"healthy": true, "port": 18810},
   "x_jobs": {"loaded": 8, "expected": 8, "ai_total": 16, "halted": false, "missing": []},
@@ -41,15 +41,12 @@
     "com.dailyhack.x-impressions"
   ],
   "reconnect": "既に起動している",
-  "tasks": [
-      {"task": "t815-verify-yahoo-cordless-stick-cleaner.sh", "rc": 0, "out": ""},
-      {"task": "t816-verify-amazon-cordless-stick-cleaner.sh", "rc": 0, "out": ""}
-  ],
+  "tasks": [],
   "running": null,
   "auth": {
-    "ok": true,
-    "expires_at": "2026-11-22T04:06:39Z",
-    "detail": "有効期限内"
+    "ok": false,
+    "expires_at": "1970-01-01T00:00:00Z",
+    "detail": "トークンの有効期限を過ぎている"
   },
   "activity": {
     "date": "2026-11-22",
@@ -137,7 +134,7 @@
   ],
   "clone": {
     "branch": "main",
-    "behind": 5,
+    "behind": 0,
     "dirty": 0
   },
   "followers": {
