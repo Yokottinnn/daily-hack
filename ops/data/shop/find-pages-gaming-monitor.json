@@ -1,0 +1,9 @@
+[
+ {"id":"zowie-xq2766x","store":"amazon","keyword":"BenQ ZOWIE XQ2766X","must":["XQ2766X"],"exclude":["保護フィルム","フィルム","アーム","カバー","専用","対応","中古"]},
+ {"id":"asus-xg27acsr","store":"amazon","keyword":"ASUS ROG Strix XG27ACSR","must":["XG27ACS"],"exclude":["保護フィルム","フィルム","アーム","カバー","専用","対応","中古"]},
+ {"id":"lg-27gx790a","store":"amazon","keyword":"LG UltraGear 27GX790A-B","must":["27GX790A"],"exclude":["保護フィルム","フィルム","アーム","カバー","専用","対応","中古"]},
+ {"id":"dell-aw2725df","store":"amazon","keyword":"Alienware AW2725DF","must":["AW2725DF"],"exclude":["保護フィルム","フィルム","アーム","カバー","専用","対応","中古"]},
+ {"id":"iodata-gdu271jad","store":"amazon","keyword":"アイオーデータ LCD-GDU271JAD","must":["GDU271JAD"],"exclude":["保護フィルム","フィルム","アーム","カバー","専用","対応","中古"]},
+ {"id":"iodata-gdq271ja","store":"amazon","keyword":"アイオーデータ LCD-GDQ271JA","must":["GDQ271JA"],"exclude":["保護フィルム","フィルム","アーム","カバー","専用","対応","中古","JAW","WOS"]},
+ {"id":"msi-272qp","store":"amazon","keyword":"MSI MAG 272QP QD-OLED X24","must":["272QP"],"exclude":["保護フィルム","フィルム","アーム","カバー","専用","対応","中古"]}
+]
