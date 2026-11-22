@@ -3,11 +3,26 @@
   "title": "全自動コーヒーメーカー・全自動エスプレッソマシン（1杯いくらで、何杯で元が取れるか・毎日の手入れ）",
   "_note": "仕様と価格は各メーカーの公式ページ・公式ストアの表示だけ（2026-11-22 に確認）。元が取れる杯数の式は記事の本文に書いた。タイガーは現行の公式ラインアップにミル付きが無く外した",
   "columns": [
-    { "key": "type", "label": "種類" },
-    { "key": "cups", "label": "一度に淹れる量" },
-    { "key": "mill", "label": "ミル" },
-    { "key": "care", "label": "毎日の手入れ" },
-    { "key": "price", "label": "公式の価格" }
+    {
+      "key": "type",
+      "label": "種類"
+    },
+    {
+      "key": "cups",
+      "label": "一度に淹れる量"
+    },
+    {
+      "key": "mill",
+      "label": "ミル"
+    },
+    {
+      "key": "care",
+      "label": "毎日の手入れ"
+    },
+    {
+      "key": "price",
+      "label": "公式の価格"
+    }
   ],
   "pricesCheckedAt": null,
   "items": [
@@ -26,9 +41,39 @@
         "price": "21,780円（公式の商品ページ）"
       },
       "source": "https://panasonic.jp/coffee/products/NC-A58.html",
-      "rakuten": { "keyword": "パナソニック NC-A58", "must": ["NC-A58"], "exclude": ["中古", "フィルター", "交換", "部品", "◆", "並行輸入"] },
-      "yahoo": { "keyword": "パナソニック NC-A58", "must": ["NC-A58"], "exclude": ["中古", "フィルター", "交換", "部品", "◆", "並行輸入"] },
-      "amazon": { "keyword": "パナソニック コーヒーメーカー NC-A58", "asin": null }
+      "rakuten": {
+        "keyword": "パナソニック NC-A58",
+        "must": [
+          "NC-A58"
+        ],
+        "exclude": [
+          "中古",
+          "フィルター",
+          "交換",
+          "部品",
+          "◆",
+          "並行輸入"
+        ],
+        "itemUrl": "https://item.rakuten.co.jp/panasonic-store/nc-a58-k/"
+      },
+      "yahoo": {
+        "keyword": "パナソニック NC-A58",
+        "must": [
+          "NC-A58"
+        ],
+        "exclude": [
+          "中古",
+          "フィルター",
+          "交換",
+          "部品",
+          "◆",
+          "並行輸入"
+        ]
+      },
+      "amazon": {
+        "keyword": "パナソニック コーヒーメーカー NC-A58",
+        "asin": "B0DTKHNK9G"
+      }
     },
     {
       "id": "zojirushi-ec-rt40",
@@ -45,9 +90,39 @@
         "price": "30,800円（象印ダイレクト）"
       },
       "source": "https://www.zojirushi.co.jp/syohin/kitchen/coffee_maker/ecrt_ecsa/",
-      "rakuten": { "keyword": "象印 EC-RT40", "must": ["EC-RT40"], "exclude": ["中古", "交換", "部品", "フィルター", "◆", "並行輸入"] },
-      "yahoo": { "keyword": "象印 EC-RT40", "must": ["EC-RT40"], "exclude": ["中古", "交換", "部品", "フィルター", "◆", "並行輸入"] },
-      "amazon": { "keyword": "象印 コーヒーメーカー EC-RT40", "asin": null }
+      "rakuten": {
+        "keyword": "象印 EC-RT40",
+        "must": [
+          "EC-RT40"
+        ],
+        "exclude": [
+          "中古",
+          "交換",
+          "部品",
+          "フィルター",
+          "◆",
+          "並行輸入"
+        ],
+        "itemUrl": "https://item.rakuten.co.jp/r-kojima/4974305220066/"
+      },
+      "yahoo": {
+        "keyword": "象印 EC-RT40",
+        "must": [
+          "EC-RT40"
+        ],
+        "exclude": [
+          "中古",
+          "交換",
+          "部品",
+          "フィルター",
+          "◆",
+          "並行輸入"
+        ]
+      },
+      "amazon": {
+        "keyword": "象印 コーヒーメーカー EC-RT40",
+        "asin": "B09D7J2RHZ"
+      }
     },
     {
       "id": "siroca-sc-c261",
@@ -64,9 +139,41 @@
         "price": "32,780円（シロカ公式オンラインストア）"
       },
       "source": "https://www.siroca.co.jp/cafebakopro/",
-      "rakuten": { "keyword": "シロカ カフェばこPRO SC-C261", "must": ["SC-C261"], "exclude": ["中古", "バスケットリング", "フィルター", "交換", "部品", "◆", "並行輸入"] },
-      "yahoo": { "keyword": "シロカ カフェばこPRO SC-C261", "must": ["SC-C261"], "exclude": ["中古", "バスケットリング", "フィルター", "交換", "部品", "◆", "並行輸入"] },
-      "amazon": { "keyword": "シロカ カフェばこPRO SC-C261", "asin": null }
+      "rakuten": {
+        "keyword": "シロカ カフェばこPRO SC-C261",
+        "must": [
+          "SC-C261"
+        ],
+        "exclude": [
+          "中古",
+          "バスケットリング",
+          "フィルター",
+          "交換",
+          "部品",
+          "◆",
+          "並行輸入"
+        ],
+        "itemUrl": "https://item.rakuten.co.jp/r-kojima/4589919846849/"
+      },
+      "yahoo": {
+        "keyword": "シロカ カフェばこPRO SC-C261",
+        "must": [
+          "SC-C261"
+        ],
+        "exclude": [
+          "中古",
+          "バスケットリング",
+          "フィルター",
+          "交換",
+          "部品",
+          "◆",
+          "並行輸入"
+        ]
+      },
+      "amazon": {
+        "keyword": "シロカ カフェばこPRO SC-C261",
+        "asin": "B0FW4WCJKN"
+      }
     },
     {
       "id": "twinbird-cm-d457b",
@@ -83,9 +190,41 @@
         "price": "41,800円（ツインバード公式ストア）"
       },
       "source": "https://store.twinbird.jp/products/cmd457",
-      "rakuten": { "keyword": "ツインバード CM-D457B", "must": ["CM-D457B"], "exclude": ["中古", "フィルター", "交換", "部品", "キャニスター", "◆", "並行輸入"] },
-      "yahoo": { "keyword": "ツインバード CM-D457B", "must": ["CM-D457B"], "exclude": ["中古", "フィルター", "交換", "部品", "キャニスター", "◆", "並行輸入"] },
-      "amazon": { "keyword": "ツインバード 全自動コーヒーメーカー CM-D457B", "asin": null }
+      "rakuten": {
+        "keyword": "ツインバード CM-D457B",
+        "must": [
+          "CM-D457B"
+        ],
+        "exclude": [
+          "中古",
+          "フィルター",
+          "交換",
+          "部品",
+          "キャニスター",
+          "◆",
+          "並行輸入"
+        ],
+        "itemUrl": "https://item.rakuten.co.jp/yamada-denki/3447983011/"
+      },
+      "yahoo": {
+        "keyword": "ツインバード CM-D457B",
+        "must": [
+          "CM-D457B"
+        ],
+        "exclude": [
+          "中古",
+          "フィルター",
+          "交換",
+          "部品",
+          "キャニスター",
+          "◆",
+          "並行輸入"
+        ]
+      },
+      "amazon": {
+        "keyword": "ツインバード 全自動コーヒーメーカー CM-D457B",
+        "asin": "B07HFP6H3L"
+      }
     },
     {
       "id": "delonghi-ecam22112b",
@@ -102,9 +241,44 @@
         "price": "69,800円（デロンギ公式ストア）"
       },
       "source": "https://www.delonghi.com/ja-jp/p/magunifuikas-ecam22112b-magunifuikas-%E5%85%A8%E8%87%AA%E5%8B%95ko%E3%83%BChi%E3%83%BCmashin-buratsuku/ECAM22112B.html",
-      "rakuten": { "keyword": "デロンギ ECAM22112B", "must": ["ECAM22112"], "exclude": ["中古", "フィルター", "交換", "部品", "除石灰", "クリーナー", "ミルクジャグ", "◆", "並行輸入"] },
-      "yahoo": { "keyword": "デロンギ ECAM22112B", "must": ["ECAM22112"], "exclude": ["中古", "フィルター", "交換", "部品", "除石灰", "クリーナー", "ミルクジャグ", "◆", "並行輸入"] },
-      "amazon": { "keyword": "デロンギ マグニフィカS ECAM22112B", "asin": null }
+      "rakuten": {
+        "keyword": "デロンギ ECAM22112B",
+        "must": [
+          "ECAM22112"
+        ],
+        "exclude": [
+          "中古",
+          "フィルター",
+          "交換",
+          "部品",
+          "除石灰",
+          "クリーナー",
+          "ミルクジャグ",
+          "◆",
+          "並行輸入"
+        ]
+      },
+      "yahoo": {
+        "keyword": "デロンギ ECAM22112B",
+        "must": [
+          "ECAM22112"
+        ],
+        "exclude": [
+          "中古",
+          "フィルター",
+          "交換",
+          "部品",
+          "除石灰",
+          "クリーナー",
+          "ミルクジャグ",
+          "◆",
+          "並行輸入"
+        ]
+      },
+      "amazon": {
+        "keyword": "デロンギ マグニフィカS ECAM22112B",
+        "asin": "B088HJCVDX"
+      }
     },
     {
       "id": "delonghi-ecam22020b",
@@ -121,9 +295,43 @@
         "price": "87,800円（デロンギ公式ストアのセール価格。通常97,800円）"
       },
       "source": "https://www.delonghi.com/ja-jp/p/magnifica-start-ecam22020b-magunifuika-suta%E3%83%BCto-%E5%85%A8%E8%87%AA%E5%8B%95ko%E3%83%BChi%E3%83%BCmashin-buratsuku/ECAM22020B.html",
-      "rakuten": { "keyword": "デロンギ ECAM22020B", "must": ["ECAM22020"], "exclude": ["中古", "フィルター", "交換", "部品", "除石灰", "クリーナー", "◆", "並行輸入"] },
-      "yahoo": { "keyword": "デロンギ ECAM22020B", "must": ["ECAM22020"], "exclude": ["中古", "フィルター", "交換", "部品", "除石灰", "クリーナー", "◆", "並行輸入"] },
-      "amazon": { "keyword": "デロンギ マグニフィカ スタート ECAM22020B", "asin": null }
+      "rakuten": {
+        "keyword": "デロンギ ECAM22020B",
+        "must": [
+          "ECAM22020"
+        ],
+        "exclude": [
+          "中古",
+          "フィルター",
+          "交換",
+          "部品",
+          "除石灰",
+          "クリーナー",
+          "◆",
+          "並行輸入"
+        ],
+        "itemUrl": "https://item.rakuten.co.jp/delonghi/0132240059/"
+      },
+      "yahoo": {
+        "keyword": "デロンギ ECAM22020B",
+        "must": [
+          "ECAM22020"
+        ],
+        "exclude": [
+          "中古",
+          "フィルター",
+          "交換",
+          "部品",
+          "除石灰",
+          "クリーナー",
+          "◆",
+          "並行輸入"
+        ]
+      },
+      "amazon": {
+        "keyword": "デロンギ マグニフィカ スタート ECAM22020B",
+        "asin": "B0CM5LSZYF"
+      }
     },
     {
       "id": "twinbird-cm-d495b",
@@ -140,9 +348,36 @@
         "price": "98,780円（ツインバード公式ストア）"
       },
       "source": "https://store.twinbird.jp/products/cmd495",
-      "rakuten": { "keyword": "ツインバード CM-D495B", "must": ["CM-D495"], "exclude": ["中古", "交換", "部品", "◆", "並行輸入"] },
-      "yahoo": { "keyword": "ツインバード CM-D495B", "must": ["CM-D495"], "exclude": ["中古", "交換", "部品", "◆", "並行輸入"] },
-      "amazon": { "keyword": "ツインバード 匠バリスタ CM-D495B", "asin": null }
+      "rakuten": {
+        "keyword": "ツインバード CM-D495B",
+        "must": [
+          "CM-D495"
+        ],
+        "exclude": [
+          "中古",
+          "交換",
+          "部品",
+          "◆",
+          "並行輸入"
+        ]
+      },
+      "yahoo": {
+        "keyword": "ツインバード CM-D495B",
+        "must": [
+          "CM-D495"
+        ],
+        "exclude": [
+          "中古",
+          "交換",
+          "部品",
+          "◆",
+          "並行輸入"
+        ]
+      },
+      "amazon": {
+        "keyword": "ツインバード 匠バリスタ CM-D495B",
+        "asin": null
+      }
     },
     {
       "id": "delonghi-exam44055b",
@@ -159,9 +394,40 @@
         "price": "218,000円（デロンギ公式ストアのセール価格。通常238,000円）"
       },
       "source": "https://www.delonghi.com/ja-jp/p/rivelia-exam44055b-rivueria-%E5%85%A8%E8%87%AA%E5%8B%95ko%E3%83%BChi%E3%83%BCmashin/EXAM44055B.html",
-      "rakuten": { "keyword": "デロンギ リヴェリア EXAM44055B", "must": ["EXAM44055B"], "exclude": ["中古", "交換", "部品", "ホッパー", "ミルクコンテナ", "◆", "並行輸入"] },
-      "yahoo": { "keyword": "デロンギ リヴェリア EXAM44055B", "must": ["EXAM44055B"], "exclude": ["中古", "交換", "部品", "ホッパー", "ミルクコンテナ", "◆", "並行輸入"] },
-      "amazon": { "keyword": "デロンギ リヴェリア EXAM44055B", "asin": null }
+      "rakuten": {
+        "keyword": "デロンギ リヴェリア EXAM44055B",
+        "must": [
+          "EXAM44055B"
+        ],
+        "exclude": [
+          "中古",
+          "交換",
+          "部品",
+          "ホッパー",
+          "ミルクコンテナ",
+          "◆",
+          "並行輸入"
+        ]
+      },
+      "yahoo": {
+        "keyword": "デロンギ リヴェリア EXAM44055B",
+        "must": [
+          "EXAM44055B"
+        ],
+        "exclude": [
+          "中古",
+          "交換",
+          "部品",
+          "ホッパー",
+          "ミルクコンテナ",
+          "◆",
+          "並行輸入"
+        ]
+      },
+      "amazon": {
+        "keyword": "デロンギ リヴェリア EXAM44055B",
+        "asin": "B0HFQZT2GB"
+      }
     }
   ]
 }
