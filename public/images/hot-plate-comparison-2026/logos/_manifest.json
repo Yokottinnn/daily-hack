@@ -1,0 +1,54 @@
+{
+ "bruno": {
+  "brand": "BRUNO",
+  "src": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/48/30/fc/4830fc62-d2db-abd2-0a9e-89eff7100e03/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "page": "https://apps.apple.com/jp/app/id1600817365",
+  "note": "App Store のアプリのアイコン（提供元 BRUNO, INC.）",
+  "fetched": "2026-11-08",
+  "copied_from": "public/images/naka-mieru-air-fryer-2026/logos/bruno.png"
+ },
+ "zojirushi": {
+  "brand": "象印",
+  "title": "File:Zojirushi Logo.svg",
+  "page": "https://en.wikipedia.org/wiki/File:Zojirushi_Logo.svg",
+  "src": "https://thumb.wikimedia.org/wikipedia/en/thumb/5/5f/Zojirushi_Logo.svg/960px-Zojirushi_Logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "orig": "https://upload.wikimedia.org/wikipedia/en/5/5f/Zojirushi_Logo.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+  "license": "Fair use",
+  "fetched": "2026-10-18",
+  "task": "ops/tasks/x317-product-brand-logos-wiki.sh",
+  "copied_from": "public/images/oven-toaster-comparison-2026/logos/zojirushi.png"
+ },
+ "tiger": {
+  "brand": "タイガー魔法瓶",
+  "src": "https://www.tiger-corporation.com/wp-content/themes/tiger-corporation/assets/images/tiger-logo.svg",
+  "page": "https://www.tiger-corporation.com/ja/jpn/",
+  "lic": "商標（識別目的）",
+  "fetched": "2026-11-20",
+  "note": "白抜き版。表示は on-dark の枠",
+  "copied_from": "public/images/oven-toaster-comparison-2026/logos/tiger.png"
+ },
+ "panasonic": {
+  "brand": "パナソニック",
+  "page": "https://commons.wikimedia.org/wiki/File:Panasonic_Group_logo.svg",
+  "lic": "Public domain",
+  "fetched": "2026-10-18",
+  "copied_from": "public/images/oven-toaster-comparison-2026/logos/panasonic.png"
+ },
+ "iris": {
+  "brand": "アイリスオーヤマ",
+  "page": "https://commons.wikimedia.org/wiki/File:IRIS_OHYAMA_logo.svg",
+  "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/IRIS_OHYAMA_logo.svg/500px-IRIS_OHYAMA_logo.svg.png",
+  "lic": "Public domain",
+  "fetched": "2026-11-22",
+  "via": "Wikimedia Commons",
+  "copied_from": "public/images/oven-range-comparison-2026/logos/iris.png"
+ },
+ "yamazen": {
+  "brand": "山善（YAMAZEN）",
+  "src": "https://www.yamazen.co.jp/themes/yamazen-2025/assets/images/logo/logo_01.svg",
+  "page": "https://www.yamazen.co.jp/",
+  "note": "山善 公式サイトのヘッダーのロゴ（SVG を Chromium で PNG に。改変なし）",
+  "fetched": "2026-11-08",
+  "copied_from": "public/images/senmenjo-heater-boteki-2026/logos/yamazen.png"
+ }
+}
