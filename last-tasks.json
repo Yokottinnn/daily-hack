@@ -1,3 +1,5 @@
 [
-      {"task": "t1082-find-pages-garment-steamer.sh", "rc": 0, "out": "  - https://item.rakuten.co.jp/irisplaza-r/562507/｜8,980｜【公式】アイロン ハンディ コード付き スチーム 衣類スチーマー ハンディスチーマー スチームアイロン ハンガースチーマー アイリスオーヤマ 小型 コンパクト    - https://item.rak"}
+      {"task": "t1096-verify-rakuten-dashcam.sh", "rc": 0, "out": "- 商品: 検索結果 48 件・型番「アルパイン DVR-DM1200A2-IC」の表示: あり - 題名: 【楽天市場】アルパイン DVR-DM1200A2-ICの通販 - 写真: Mac の手元のみ（private-shots/shop-verify/dashcam-comparison-2026/v07-rakuten.jpg・公開しない） -rw-r--r--   1 ny  "},
+      {"task": "t1097-verify-yahoo-dashcam.sh", "rc": 0, "out": "- 商品: 検索結果 31 件・型番「アルパイン DVR-DM1200A2-IC」の表示: あり - 題名: アルパイン DVR-DM1200A2-ICのおすすめ人気商品一覧 通販 - Yahoo!ショッピング - 写真: Mac の手元のみ（private-shots/shop-verify/dashcam-comparison-2026/v07-yahoo.jpg・"},
+      {"task": "t1098-verify-amazon-dashcam.sh", "rc": 0, "out": "- 商品: 検索結果 0 件・型番「」の表示: —・カートに入れるボタンあり - 題名: Amazon | アルパイン(ALPINE) ドライブレコーダー搭載 12型デジタルミラー (車内用リアカメラ) DVR-DM1200A2-IC【純正ミラー交換タイプ】前後2カメラ - �"}
   ]
