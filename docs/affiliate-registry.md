@@ -96,6 +96,7 @@
 | `oven-range-comparison-2026` | 3 店ボタン（`src/data/shop/oven-range.json`） | 2026-11-22 追加。オーブンレンジ 7 台 |
 | `hair-iron-comparison-2026` | 3 店ボタン（`src/data/shop/hair-iron.json`） | 2026-11-22 追加。ヘアアイロン 8 機種 |
 | `oven-toaster-comparison-2026` | 3 店ボタン（`src/data/shop/oven-toaster.json`） | 2026-11-22 追加。オーブントースター 8 機種 |
+| `hot-plate-comparison-2026` | 3 店ボタン（`src/data/shop/hot-plate.json`） | 2026-11-22 追加。ホットプレート 7 機種 |
 | `rice-cooker-comparison-2026` | 3 店ボタン（`src/data/shop/suihanki.json`） | 同上（2026-11-22）。炊飯器 5.5合 8 台 |
 | `facial-device-comparison-2026` | 3 店ボタン（`src/data/shop/facial-device.json`） | 2026-11-22 追加。美顔器 6 機種（Amazon は全部 ASIN） |
 
