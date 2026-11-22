@@ -1,0 +1,212 @@
+{
+  "_note": "識別目的で使うロゴ。**商標であり自由ライセンスではない。**改変せず、余白のみ切って置くこと。取得日 2026-09-20（ops/tasks/t117-gakuwari-logos-b.sh）。",
+  "toho": [
+    {
+      "brand": "TOHOシネマズ",
+      "file": "toho-site.png",
+      "source": "https://www.tohotheater.jp/responsive/images/icon/TClogo_main.png",
+      "page": "https://www.tohotheater.jp/",
+      "license_note": "公式サイト（商標）",
+      "width": 152,
+      "height": 152
+    }
+  ],
+  "cinemas109": [
+    {
+      "brand": "109シネマズ",
+      "file": "cinemas109-site.png",
+      "source": "https://109cinemas.net/img/ogp.png",
+      "page": "https://109cinemas.net/",
+      "license_note": "公式サイト（商標）",
+      "width": 1200,
+      "height": 630
+    }
+  ],
+  "aeoncinema": [
+    {
+      "brand": "イオンシネマ",
+      "file": "aeoncinema-site.png",
+      "source": "https://www.aeoncinema.com/common/images/sakuhinpage/thumb_for_ogp.gif",
+      "page": "https://www.aeoncinema.com/",
+      "license_note": "公式サイト（商標）",
+      "width": 100,
+      "height": 67
+    }
+  ],
+  "usj": [
+    {
+      "brand": "ユニバーサル・スタジオ・ジャパン",
+      "file": "usj-site.png",
+      "source": "https://www.usj.co.jp/contentdata/usj/ja/jp/files/assets/logos/universal-japan-logo-b.png",
+      "page": "https://www.usj.co.jp/web/ja/jp",
+      "license_note": "公式サイト（商標）",
+      "width": 280,
+      "height": 170
+    }
+  ],
+  "fujiq": [
+    {
+      "brand": "富士急ハイランド",
+      "file": "fujiq-site.png",
+      "source": "http://www.fujiq.jp/igflrr000000003t-img/ogimage.png",
+      "page": "https://www.fujiq.jp/",
+      "license_note": "公式サイト（商標）",
+      "width": 1200,
+      "height": 630
+    }
+  ],
+  "bigecho": [
+    {
+      "brand": "ビッグエコー",
+      "file": "bigecho-site.png",
+      "source": "https://big-echo.jp/wordpress/wp-content/uploads/2013/11/brand_logo_bigecho1_1.gif",
+      "page": "https://big-echo.jp/",
+      "license_note": "公式サイト（商標）",
+      "width": 308,
+      "height": 147
+    }
+  ],
+  "round1": [
+    {
+      "brand": "ラウンドワン",
+      "file": "round1-site.png",
+      "source": "https://www.round1.co.jp/img/common/logo.png",
+      "page": "https://www.round1.co.jp/",
+      "license_note": "公式サイト（商標）",
+      "width": 201,
+      "height": 60
+    }
+  ],
+  "manekineko": [
+    {
+      "brand": "カラオケまねきねこ",
+      "file": "manekineko-site.png",
+      "source": "https://d1k5d0nneloh3k.cloudfront.net/wp-content/uploads/2025/11/19144910/ogimage.png",
+      "page": "https://www.karaokemanekineko.jp/",
+      "license_note": "公式サイト（商標）",
+      "width": 600,
+      "height": 315
+    }
+  ],
+  "gyukaku": [
+    {
+      "brand": "牛角",
+      "file": "gyukaku-site.png",
+      "source": "https://www.gyukaku.ne.jp/img/ogp.jpg",
+      "page": "https://www.gyukaku.ne.jp/",
+      "license_note": "公式サイト（商標）",
+      "width": 1200,
+      "height": 630
+    }
+  ],
+  "willer": [
+    {
+      "brand": "WILLER",
+      "file": "willer-site.png",
+      "source": "https://travel.willer.co.jp/img/fb.jpg",
+      "page": "https://travel.willer.co.jp/",
+      "license_note": "公式サイト（商標）",
+      "width": 1200,
+      "height": 600
+    }
+  ],
+  "art0123": [
+    {
+      "brand": "アート引越センター",
+      "file": "art0123-site.png",
+      "source": "https://www.the0123.com/common/img/og_img.gif",
+      "page": "https://www.the0123.com/",
+      "license_note": "公式サイト（商標）",
+      "width": 300,
+      "height": 244
+    }
+  ],
+  "momat": [
+    {
+      "brand": "東京国立近代美術館",
+      "file": "momat-site.png",
+      "source": "https://www.momat.go.jp/wp-content/themes/momat/images/favicon/apple-touch-icon.webp",
+      "page": "https://www.momat.go.jp/",
+      "license_note": "公式サイト（商標）",
+      "width": 180,
+      "height": 180
+    }
+  ],
+  "nmwa": [
+    {
+      "brand": "国立西洋美術館",
+      "file": "nmwa-site.png",
+      "source": "http://www.nmwa.go.jp/jp/img/thumb_facebook.png",
+      "page": "https://www.nmwa.go.jp/",
+      "license_note": "公式サイト（商標）",
+      "width": 200,
+      "height": 200
+    }
+  ],
+  "momak": [
+    {
+      "brand": "京都国立近代美術館",
+      "file": "momak-site.png",
+      "source": "https://www.momak.go.jp/wp-content/themes/momak/assets/img/top/logo_nfaj.jpg",
+      "page": "https://www.momak.go.jp/",
+      "license_note": "公式サイト（商標）",
+      "width": 120,
+      "height": 147
+    }
+  ],
+  "nmao": [
+    {
+      "brand": "国立国際美術館",
+      "file": "nmao-site.png",
+      "source": "https://www.nmao.go.jp/wp-content/themes/nmao/images/ogp.png",
+      "page": "https://www.nmao.go.jp/",
+      "license_note": "公式サイト（商標）",
+      "width": 1200,
+      "height": 630
+    }
+  ],
+  "nfaj": [
+    {
+      "brand": "国立映画アーカイブ",
+      "file": "nfaj-site.png",
+      "source": "https://www.nfaj.go.jp/wp-content/uploads/cropped-logo1-1.png",
+      "page": "https://www.nfaj.go.jp/",
+      "license_note": "公式サイト（商標）",
+      "width": 512,
+      "height": 512
+    }
+  ],
+  "ticcoop": [
+    {
+      "brand": "東京インターカレッジコープ",
+      "file": "ticcoop-site.png",
+      "source": "https://tic-coop.com/user_data/packages/default/img/common/logo_intercollege.png",
+      "page": "https://tic-coop.com/coop/",
+      "license_note": "公式サイト（商標）",
+      "width": 378,
+      "height": 63
+    }
+  ],
+  "docomo": [
+    {
+      "brand": "NTTドコモ",
+      "file": "docomo-site.png",
+      "source": "https://www.docomo.ne.jp/smt/images/common/favicon.png",
+      "page": "https://www.docomo.ne.jp/",
+      "license_note": "公式サイト（商標）",
+      "width": 129,
+      "height": 129
+    }
+  ],
+  "ana": [
+    {
+      "brand": "全日本空輸",
+      "file": "ana-site.png",
+      "source": "https://www.ana.co.jp/common-layout2/images/www2/footer_logo_skytrax.png",
+      "page": "https://www.ana.co.jp/",
+      "license_note": "公式サイト（商標）",
+      "width": 144,
+      "height": 144
+    }
+  ]
+}

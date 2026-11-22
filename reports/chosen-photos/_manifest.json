@@ -1,0 +1,59 @@
+{
+ "_note": "本番採用分。取得日 2026-09-21（ops/tasks/t145-fetch-chosen-photos.sh）。",
+ "items": [
+  {
+   "file": "arakawa-kakoubashi.jpg",
+   "use": "荒川河川敷（江東花火大会）",
+   "commons_title": "File:荒川右岸終点より荒川河口橋の眺め - panoramio.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File%3A%E8%8D%92%E5%B7%9D%E5%8F%B3%E5%B2%B8%E7%B5%82%E7%82%B9%E3%82%88%E3%82%8A%E8%8D%92%E5%B7%9D%E6%B2%B3%E5%8F%A3%E6%A9%8B%E3%81%AE%E7%9C%BA%E3%82%81_-_panoramio.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Kiyo",
+   "px": "1920x1440"
+  },
+  {
+   "file": "sunamachi-ginza.jpg",
+   "use": "砂町銀座商店街（江東区の街）",
+   "commons_title": "File:Sunamachi ginza shopping street koto tokyo 2009.JPG",
+   "page": "https://commons.wikimedia.org/wiki/File%3ASunamachi_ginza_shopping_street_koto_tokyo_2009.JPG",
+   "license": "CC BY-SA 3.0",
+   "artist": "User:Kentin",
+   "px": "1920x1440"
+  },
+  {
+   "file": "kachidoki-canal.jpg",
+   "use": "勝どきの運河（中央区の街）",
+   "commons_title": "File:Kachidoki canals (32924622428).jpg",
+   "page": "https://commons.wikimedia.org/wiki/File%3AKachidoki_canals_%2832924622428%29.jpg",
+   "license": "CC BY 2.0",
+   "artist": "Raita Futo from Tokyo, Japan",
+   "px": "1920x1280"
+  },
+  {
+   "file": "rainbow-bridge.jpg",
+   "use": "レインボーブリッジ（港区）",
+   "commons_title": "File:Rainbow Bridge-2.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File%3ARainbow_Bridge-2.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "ZENsan",
+   "px": "1920x1119"
+  },
+  {
+   "file": "toyosu-gururi.jpg",
+   "use": "豊洲ぐるり公園",
+   "commons_title": "File:Toyosu Gururi Park, at Toyosu, Koto, Tokyo (2019-01-01) 02.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File%3AToyosu_Gururi_Park%2C_at_Toyosu%2C_Koto%2C_Tokyo_%282019-01-01%29_02.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Lombroso",
+   "px": "1920x1440"
+  },
+  {
+   "file": "harumi-skyline.jpg",
+   "use": "晴海の湾岸スカイライン",
+   "commons_title": "File:Harumi from Rainbow Bridge090505.JPG",
+   "page": "https://commons.wikimedia.org/wiki/File%3AHarumi_from_Rainbow_Bridge090505.JPG",
+   "license": "Public domain",
+   "artist": "妖精書士",
+   "px": "1280x960"
+  }
+ ]
+}

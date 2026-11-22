@@ -1,0 +1,28 @@
+{
+ "generated": "2026-11-21T21:42:06.803Z",
+ "handle": "heng_ji31590",
+ "header": {
+  "following": 549,
+  "followers": 757,
+  "raw": {
+   "following": "549 フォロー中",
+   "followers": "757 フォロワー"
+  }
+ },
+ "d7": {
+  "impressions": 30000,
+  "profileVisits": 138,
+  "engagements": 282,
+  "verifiedFollowers": 445,
+  "followersOnPage": 757
+ },
+ "d90": {
+  "impressions": 236000,
+  "profileVisits": 1671
+ },
+ "ocr": {
+  "verifiedFollowers": 445,
+  "verifiedImpressions90": 259,
+  "eligible": false
+ }
+}

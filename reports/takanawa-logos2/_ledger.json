@@ -1,0 +1,86 @@
+{
+ "shop-02-1.png": {
+  "src": "https://www.newoman.jp/uploads/images/resized/656x656/lumine/002728/002728/8a835de6.png",
+  "page": "https://www.newoman.jp/takanawa/floorguide/detail/?scd=003352",
+  "shop": "GLS",
+  "title": "OGAWA COFFEE LABORATORY GLS : 125 The Swirling Lab ワインバー",
+  "w": 656,
+  "h": 656,
+  "alt": "OGAWA COFFEE LABORATORY GLS : 125 The Swirling Lab",
+  "cls": "",
+  "bytes": 16846,
+  "fetched": "2026-10-04"
+ },
+ "shop-03-1.png": {
+  "src": "https://www.newoman.jp/uploads/images/resized/656x656/lumine/002728/002728/b7cead4c.png",
+  "page": "https://www.newoman.jp/takanawa/floorguide/detail/?scd=003350",
+  "shop": "TAP",
+  "title": "OGAWA COFFEE LABORATORY TAP : 020 The Brewing Lab ビアバー",
+  "w": 656,
+  "h": 656,
+  "alt": "OGAWA COFFEE LABORATORY TAP : 020 The Brewing Lab",
+  "cls": "",
+  "bytes": 16796,
+  "fetched": "2026-10-04"
+ },
+ "shop-04-1.png": {
+  "src": "https://www.newoman.jp/uploads/images/resized/656x656/lumine/002728/002728/054ae193.png",
+  "page": "https://www.newoman.jp/takanawa/floorguide/detail/?scd=003351",
+  "shop": "PIZ",
+  "title": "OGAWA COFFEE LABORATORY PIZ : 550 The Composing Lab ピザ",
+  "w": 656,
+  "h": 656,
+  "alt": "OGAWA COFFEE LABORATORY PIZ : 550 The Composing Lab",
+  "cls": "",
+  "bytes": 17127,
+  "fetched": "2026-10-04"
+ },
+ "shop-05-1.jpg": {
+  "src": "https://www.newoman.jp/uploads/images/resized/656x656/lumine/002728/002728/a432d30f.jpg",
+  "page": "https://www.newoman.jp/takanawa/floorguide/detail/?scd=002906",
+  "shop": "VERVE",
+  "title": "VERVE COFFEE ROASTERS カフェ MAP｜5",
+  "w": 656,
+  "h": 656,
+  "alt": "VERVE COFFEE ROASTERS",
+  "cls": "",
+  "bytes": 16650,
+  "fetched": "2026-10-04"
+ },
+ "shop-05-2.jpg": {
+  "src": "https://www.newoman.jp/uploads/images/resized/656x656/lumine/002728/002728/eab0332f.jpg",
+  "page": "https://www.newoman.jp/takanawa/floorguide/detail/?scd=002906",
+  "shop": "VERVE",
+  "title": "VERVE COFFEE ROASTERS カフェ MAP｜5",
+  "w": 656,
+  "h": 656,
+  "alt": "VERVE COFFEE ROASTERS",
+  "cls": "",
+  "bytes": 115348,
+  "fetched": "2026-10-04"
+ },
+ "shop-06-1.jpg": {
+  "src": "https://www.newoman.jp/uploads/images/resized/656x656/lumine/002728/002728/fa53f4ce.jpg",
+  "page": "https://www.newoman.jp/takanawa/floorguide/detail/?scd=003011",
+  "shop": "SOW COFFEE",
+  "title": "SOW COFFEE ROASTERS ロースタリーカフェ MAP｜17",
+  "w": 656,
+  "h": 656,
+  "alt": "SOW COFFEE ROASTERS",
+  "cls": "",
+  "bytes": 44539,
+  "fetched": "2026-10-04"
+ },
+ "shop-06-2.jpg": {
+  "src": "https://www.newoman.jp/uploads/images/resized/656x656/lumine/002728/002728/37bc9526.jpg",
+  "page": "https://www.newoman.jp/takanawa/floorguide/detail/?scd=003011",
+  "shop": "SOW COFFEE",
+  "title": "SOW COFFEE ROASTERS ロースタリーカフェ MAP｜17",
+  "w": 656,
+  "h": 656,
+  "alt": "SOW COFFEE ROASTERS",
+  "cls": "",
+  "bytes": 133460,
+  "fetched": "2026-10-04"
+ }
+}

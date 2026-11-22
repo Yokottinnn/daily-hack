@@ -1,0 +1,18 @@
+[
+ {"id":"mottole-mtl-e030","store":"amazon","keyword":"mottole MTL-E030 充電式カイロ 分離","must":["mottole"],"exclude":["ケースのみ"]},
+ {"id":"elaice-ek-ov25","store":"amazon","keyword":"エレス イーカイロ オーバル 25","must":["オーバル"]},
+ {"id":"elaice-ek-cr25","store":"amazon","keyword":"エレス イーカイロ カレ 25","must":["カレ"]},
+ {"id":"elaice-ek-sh25","store":"amazon","keyword":"エレス イーカイロ シェア 25","must":["シェア"]},
+ {"id":"sanwa-400-toy052w","store":"amazon","keyword":"サンワダイレクト 充電式カイロ ハンドウォーマー 3段階温度調整 TOY052","must":["サンワ"]},
+ {"id":"hagoogi-ot-96h","store":"amazon","keyword":"HAGOOGI 充電式カイロ OT-96H","must":["HAGOOGI","カイロ"]},
+ {"id":"hagoogi-ot-96h","store":"rakuten","keyword":"HAGOOGI 充電式カイロ","must":["HAGOOGI"]},
+ {"id":"elecom-de-c97l","store":"amazon","keyword":"エレコム リン酸鉄 モバイルバッテリー 8000mAh DE-C97L-8000BK","must":["エレコム","リン酸鉄"]},
+ {"id":"anker-zolo-a1688","store":"amazon","keyword":"Anker Zolo Power Bank 10000mAh 30W Built-In USB-C ケーブル","must":["Anker","Zolo","10000"],"exclude":["ケース","互換","カバー","専用"]},
+ {"id":"anker-zolo-a1688","store":"rakuten","keyword":"Anker Zolo Power Bank 10000mAh 30W Built-In","must":["Anker","Zolo","10000"],"exclude":["ケース","互換","カバー","専用"]},
+ {"id":"anker-maggo-plus-a1113","store":"amazon","keyword":"Anker Nano Power Bank MagGo Plus","must":["Anker","MagGo","Plus"],"exclude":["ケース","互換","カバー","専用","対応"]},
+ {"id":"anker-maggo-plus-a1113","store":"rakuten","keyword":"Anker Nano Power Bank MagGo Plus","must":["Anker","MagGo","Plus"],"exclude":["ケース","互換","カバー","専用","対応"]},
+ {"id":"iris-fc21620","store":"amazon","keyword":"アイリスオーヤマ インナーヒートベストセット FC21620","must":["アイリスオーヤマ","インナー"]},
+ {"id":"iris-gt21622","store":"amazon","keyword":"アイリスオーヤマ メンズヒートベストセット GT21622","must":["GT21622"]},
+ {"id":"suns-raijin-bo32550","store":"amazon","keyword":"サンエス 雷神服 インナーベスト BO32550 発熱ユニット RD9570","must":["雷神"]},
+ {"id":"burtle-tc500","store":"amazon","keyword":"バートル サーモクラフト 電熱パッド TC500","must":["サーモクラフト"]}
+]

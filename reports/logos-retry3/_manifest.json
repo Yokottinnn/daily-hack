@@ -1,0 +1,196 @@
+{
+  "_note": "識別目的で使うロゴ。**商標であり自由ライセンスではない。**取得日 2026-09-20（ops/tasks/t122-logos-retry3.sh）。",
+  "rakutensenior": [
+    {
+      "brand": "楽天シニア",
+      "file": "rakutensenior-app.png",
+      "source": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/b4/86/54/b4865445-6ff5-18aa-8049-80183a0ce6d9/075597926835.jpg/100x100bb.jpg",
+      "page": "https://music.apple.com/jp/album/sing-to-you/1441035549?i=1441035550&uo=4",
+      "license_note": "App Store の登録アイコン（商標）",
+      "width": 100,
+      "height": 100
+    }
+  ],
+  "cokeon": [
+    {
+      "brand": "Coke ON",
+      "file": "cokeon-app.png",
+      "source": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ce/11/20/ce1120d5-b172-3b04-2f95-ce64349e05c7/AppIcon-0-0-1x_U007ephone-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+      "page": "https://apps.apple.com/jp/app/coke-on-%E3%82%B3%E3%83%BC%E3%82%AF%E3%82%AA%E3%83%B3/id1088184021?uo=4",
+      "license_note": "App Store の登録アイコン（商標）",
+      "width": 512,
+      "height": 512
+    }
+  ],
+  "dhealth": [
+    {
+      "brand": "dヘルスケア",
+      "file": "dhealth-app.png",
+      "source": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/98/01/99/98019990-1243-af7a-a808-22fd61c2f000/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "page": "https://apps.apple.com/jp/app/d%E3%83%98%E3%83%AB%E3%82%B9%E3%82%B1%E3%82%A2-%E6%AD%A9%E6%95%B0%E3%81%A7d%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88%E3%81%8C%E3%81%9F%E3%81%BE%E3%82%8B%E5%81%A5%E5%BA%B7%E7%AE%A1%E7%90%86%E3%82%A2%E3%83%97%E3%83%AA/id1352137023?uo=4",
+      "license_note": "App Store の登録アイコン（商標）",
+      "width": 512,
+      "height": 512
+    }
+  ],
+  "mitsui": [
+    {
+      "brand": "三井不動産",
+      "file": "mitsui-1.png",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Mitsui_Fudosan_logo_%282024%29.svg/960px-Mitsui_Fudosan_logo_%282024%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File%3AMitsui_Fudosan_logo_%282024%29.svg",
+      "license_note": "Public domain",
+      "width": 960,
+      "height": 302
+    },
+    {
+      "brand": "三井不動産",
+      "file": "mitsui-2.png",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Mitsui_Fudosan_Logo_1991.svg/960px-Mitsui_Fudosan_Logo_1991.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File%3AMitsui_Fudosan_Logo_1991.svg",
+      "license_note": "Public domain",
+      "width": 960,
+      "height": 276
+    }
+  ],
+  "vitality": [
+    {
+      "brand": "住友生命",
+      "file": "vitality-1.png",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Logo_Sumitomo_Life_Insurance.svg/960px-Logo_Sumitomo_Life_Insurance.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File%3ALogo_Sumitomo_Life_Insurance.svg",
+      "license_note": "Public domain",
+      "width": 960,
+      "height": 153
+    },
+    {
+      "brand": "住友生命",
+      "file": "vitality-2.png",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Sumitomo_Life_Insurance_Company_logo.svg/960px-Sumitomo_Life_Insurance_Company_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File%3ASumitomo_Life_Insurance_Company_logo.svg",
+      "license_note": "Public domain",
+      "width": 960,
+      "height": 197
+    }
+  ],
+  "comiket": [
+    {
+      "brand": "コミックマーケット",
+      "file": "comiket-1.png",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Comiket_logo.svg/960px-Comiket_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File%3AComiket_logo.svg",
+      "license_note": "Public domain",
+      "width": 960,
+      "height": 581
+    },
+    {
+      "brand": "コミックマーケット",
+      "file": "comiket-2.png",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Hirasawa_Ui_itansha.jpg/960px-Hirasawa_Ui_itansha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File%3AHirasawa_Ui_itansha.jpg",
+      "license_note": "Public domain",
+      "width": 960,
+      "height": 837
+    }
+  ],
+  "tomica": [
+    {
+      "brand": "トミカ",
+      "file": "tomica-1.png",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Tomica_brand_textlogo.png/960px-Tomica_brand_textlogo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File%3ATomica_brand_textlogo.png",
+      "license_note": "Public domain",
+      "width": 960,
+      "height": 190
+    },
+    {
+      "brand": "トミカ",
+      "file": "tomica-2.png",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Vlade_Divac.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "page": "https://commons.wikimedia.org/wiki/File%3AVlade_Divac.jpg",
+      "license_note": "Public domain",
+      "width": 496,
+      "height": 438
+    }
+  ],
+  "toyota": [
+    {
+      "brand": "トヨタ",
+      "file": "toyota-1.png",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Subaru_Solterra_ST-E_Auto_Zuerich_2023_1X7A1257.jpg/960px-Subaru_Solterra_ST-E_Auto_Zuerich_2023_1X7A1257.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File%3ASubaru_Solterra_ST-E_Auto_Zuerich_2023_1X7A1257.jpg",
+      "license_note": "CC BY-SA 4.0",
+      "width": 960,
+      "height": 640
+    },
+    {
+      "brand": "トヨタ",
+      "file": "toyota-2.png",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Subaru_Solterra_1X7A2482.jpg/960px-Subaru_Solterra_1X7A2482.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File%3ASubaru_Solterra_1X7A2482.jpg",
+      "license_note": "CC BY-SA 4.0",
+      "width": 960,
+      "height": 641
+    }
+  ],
+  "aeon": [
+    {
+      "brand": "イオン",
+      "file": "aeon-1.png",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Logo_of_AEON_CINEMA.jpg/960px-Logo_of_AEON_CINEMA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File%3ALogo_of_AEON_CINEMA.jpg",
+      "license_note": "CC0",
+      "width": 960,
+      "height": 720
+    },
+    {
+      "brand": "イオン",
+      "file": "aeon-2.png",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Aeon_logo.svg/960px-Aeon_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File%3AAeon_logo.svg",
+      "license_note": "Public domain",
+      "width": 960,
+      "height": 338
+    }
+  ],
+  "jal": [
+    {
+      "brand": "日本航空",
+      "file": "jal-1.png",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Japan_Airlines_Logo_%281989_-_2002%29.svg/960px-Japan_Airlines_Logo_%281989_-_2002%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File%3AJapan_Airlines_Logo_%281989_-_2002%29.svg",
+      "license_note": "Public domain",
+      "width": 960,
+      "height": 489
+    },
+    {
+      "brand": "日本航空",
+      "file": "jal-2.png",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Air_Japan_blue_logo.svg/960px-Air_Japan_blue_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File%3AAir_Japan_blue_logo.svg",
+      "license_note": "Public domain",
+      "width": 960,
+      "height": 244
+    }
+  ],
+  "ana": [
+    {
+      "brand": "全日本空輸",
+      "file": "ana-1.png",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/7/70/All_Nippon_Airways_Logo_with_Inspiration_of_Japan_Titles.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "page": "https://commons.wikimedia.org/wiki/File%3AAll_Nippon_Airways_Logo_with_Inspiration_of_Japan_Titles.png",
+      "license_note": "Public domain",
+      "width": 337,
+      "height": 144
+    },
+    {
+      "brand": "全日本空輸",
+      "file": "ana-2.png",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/All_Nippon_Airways_Old_Logo.jpg/960px-All_Nippon_Airways_Old_Logo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File%3AAll_Nippon_Airways_Old_Logo.jpg",
+      "license_note": "CC BY-SA 2.0",
+      "width": 960,
+      "height": 989
+    }
+  ]
+}

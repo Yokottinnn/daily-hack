@@ -1,0 +1,73 @@
+# ASP の成果の画面（asp-results・shape）
+
+生成: **2026-11-22T02:53:32.635Z**
+
+## Google AdSense
+
+- 画面: https://adsense.google.com/adsense/u/0/pub-3805028233672648/home（ホーム – Google AdSense）・表 0 個
+  - 表が無い。画面の文字（数字は伏せる）:
+    - お支払いの受け取り手順
+    - 残高が最低お支払い額に達したときにお支払いを受け取れるよう、必ず事前にすべての設定を完了してください。 詳細
+    - 身元確認
+    - 最低収益額
+    - 銀行の詳細
+    - 最低お支払い額
+    - 送金済みお支払い額
+    - 完了
+    - 本人確認が完了しました
+    - 本人確認が完了したため、AdSense での初回のお支払いの準備が整いました。
+    - 詳細
+    - 表示しない
+    - 推奨
+    - 税務情報を追加
+    - お支払い金額を正しく計算するには、税務情報の提供が必要になる場合があります。
+    - 詳細
+    - 税務情報を追加
+    - 推奨
+    - 広告をさらに作成
+    - 新しい広告でサイトの収益を増やしましょう。
+    - 詳細
+    - 広告を作成
+    - expand_less
+    - 閉じる
+    - # 個のうち #～#個目を表示中
+    - chevron_left
+    - chevron_right
+    - 推定収益額
+    - more_vert
+    - 本日（現時点まで）
+- 「今月」を押した: MATERIAL-CHIP radio・選ばれている期間: 過去 30 日間
+- 期間: 過去 30 日間（今月への切り替えに失敗）
+- 画面: https://adsense.google.com/adsense/u/0/pub-3805028233672648/reporting/（レポート – Google AdSense）・表 0 個
+  - 表が無い。画面の文字（数字は伏せる）:
+    - warning_amber
+    - 警告
+    - ウクライナでの戦争を受け、Google は、戦争を利用するコンテンツ、戦争の存在を否定するコンテンツ、または戦争を容認するコンテンツを含む広告の収益化を一時停止します
+    - 表示しない
+    - 今日
+    - 過去 # 日間
+    - 過去 # 日間
+    - check
+    - 今月
+    - 先月
+    - カスタム
+    - arrow_drop_down
+    - settings
+    - search
+    - レポートを検索
+    - add
+    - 未保存のレポート
+    - clear
+    - Entire account by day
+    - Estimated earnings by Date
+    - Top pages
+    - Earnings for your popular pages
+    - more_vert
+    - Sites
+    - Performance of each site
+    - more_vert
+    - Content platform
+    - Estimated earnings by Platform、Content Platform
+    - more_vert
+    - Countries
+

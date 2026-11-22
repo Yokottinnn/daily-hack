@@ -1,0 +1,92 @@
+{
+  "hitachi-1.png": {
+    "brand": "Hitachi",
+    "title": "File:Astemo logo.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Astemo_logo.jpg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/6/64/Astemo_logo.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "orig": "https://upload.wikimedia.org/wikipedia/commons/6/64/Astemo_logo.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY-SA 4.0",
+    "fetched": "2026-11-22",
+    "task": "ops/tasks/t832-futon-dryer-logos.sh"
+  },
+  "hitachi-2.png": {
+    "brand": "Hitachi",
+    "title": "File:Commons-logo.svg",
+    "page": "https://en.wikipedia.org/wiki/File:Commons-logo.svg",
+    "src": "https://thumb.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "orig": "https://upload.wikimedia.org/wikipedia/en/4/4a/Commons-logo.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC-BY-SA-3.0",
+    "fetched": "2026-11-22",
+    "task": "ops/tasks/t832-futon-dryer-logos.sh"
+  },
+  "hitachi-3.png": {
+    "brand": "Hitachi",
+    "title": "File:Hitachi 2025 logo.svg",
+    "page": "https://commons.wikimedia.org/wiki/File:Hitachi_2025_logo.svg",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Hitachi_2025_logo.svg/960px-Hitachi_2025_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "orig": "https://upload.wikimedia.org/wikipedia/commons/8/85/Hitachi_2025_logo.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "Public domain",
+    "fetched": "2026-11-22",
+    "task": "ops/tasks/t832-futon-dryer-logos.sh"
+  },
+  "sharp-1.png": {
+    "brand": "Sharp Corporation",
+    "title": "File:Commons-logo.svg",
+    "page": "https://en.wikipedia.org/wiki/File:Commons-logo.svg",
+    "src": "https://thumb.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "orig": "https://upload.wikimedia.org/wikipedia/en/4/4a/Commons-logo.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC-BY-SA-3.0",
+    "fetched": "2026-11-22",
+    "task": "ops/tasks/t832-futon-dryer-logos.sh"
+  },
+  "sharp-2.png": {
+    "brand": "Sharp Corporation",
+    "title": "File:Foxconn Logo.svg",
+    "page": "https://commons.wikimedia.org/wiki/File:Foxconn_Logo.svg",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Foxconn_Logo.svg/960px-Foxconn_Logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "orig": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Foxconn_Logo.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "Public domain",
+    "fetched": "2026-11-22",
+    "task": "ops/tasks/t832-futon-dryer-logos.sh"
+  },
+  "sharp-3.png": {
+    "brand": "Sharp Corporation",
+    "title": "File:Logo of the Sharp Corporation.svg",
+    "page": "https://commons.wikimedia.org/wiki/File:Logo_of_the_Sharp_Corporation.svg",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Logo_of_the_Sharp_Corporation.svg/960px-Logo_of_the_Sharp_Corporation.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "orig": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Logo_of_the_Sharp_Corporation.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "Public domain",
+    "fetched": "2026-11-22",
+    "task": "ops/tasks/t832-futon-dryer-logos.sh"
+  },
+  "iris-1.png": {
+    "brand": "Iris Ohyama",
+    "title": "File:IRIS OHYAMA logo.svg",
+    "page": "https://commons.wikimedia.org/wiki/File:IRIS_OHYAMA_logo.svg",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/IRIS_OHYAMA_logo.svg/960px-IRIS_OHYAMA_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "orig": "https://upload.wikimedia.org/wikipedia/commons/9/90/IRIS_OHYAMA_logo.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "Public domain",
+    "fetched": "2026-11-22",
+    "task": "ops/tasks/t832-futon-dryer-logos.sh"
+  },
+  "iris-ja-1.png": {
+    "brand": "アイリスオーヤマ",
+    "title": "ファイル:Adidas 2022 logo.svg",
+    "page": "https://commons.wikimedia.org/wiki/File:Adidas_2022_logo.svg",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Adidas_2022_logo.svg/960px-Adidas_2022_logo.svg.png?utm_source=ja.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "orig": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Adidas_2022_logo.svg?utm_source=ja.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "Public domain",
+    "fetched": "2026-11-22",
+    "task": "ops/tasks/t832-futon-dryer-logos.sh"
+  },
+  "iris-ja-2.png": {
+    "brand": "アイリスオーヤマ",
+    "title": "ファイル:IRIS OHYAMA logo.svg",
+    "page": "https://commons.wikimedia.org/wiki/File:IRIS_OHYAMA_logo.svg",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/IRIS_OHYAMA_logo.svg/960px-IRIS_OHYAMA_logo.svg.png?utm_source=ja.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "orig": "https://upload.wikimedia.org/wikipedia/commons/9/90/IRIS_OHYAMA_logo.svg?utm_source=ja.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "Public domain",
+    "fetched": "2026-11-22",
+    "task": "ops/tasks/t832-futon-dryer-logos.sh"
+  }
+}

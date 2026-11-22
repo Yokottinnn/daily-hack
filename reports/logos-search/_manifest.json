@@ -1,0 +1,323 @@
+{
+  "_note": "識別目的で使うロゴ。**商標であり自由ライセンスではない。**取得日 2026-09-20（ops/tasks/t121-logos-search.sh）。",
+  "azure": [
+    {
+      "brand": "Microsoft Azure",
+      "file": "azure-1.png",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Microsoft_Azure_Logo.svg/960px-Microsoft_Azure_Logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File%3AMicrosoft_Azure_Logo.svg",
+      "license_note": "Public domain",
+      "width": 960,
+      "height": 277
+    },
+    {
+      "brand": "Microsoft Azure",
+      "file": "azure-2.png",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Microsoft_Azure.svg/960px-Microsoft_Azure.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File%3AMicrosoft_Azure.svg",
+      "license_note": "Public domain",
+      "width": 960,
+      "height": 960
+    }
+  ],
+  "lucid": [
+    {
+      "brand": "Lucidchart",
+      "file": "lucid-1.png",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Lucidchart-Primary3D-Logo-Default-TypeCG100-onClear-np-RGB-L.png/960px-Lucidchart-Primary3D-Logo-Default-TypeCG100-onClear-np-RGB-L.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File%3ALucidchart-Primary3D-Logo-Default-TypeCG100-onClear-np-RGB-L.png",
+      "license_note": "Public domain",
+      "width": 960,
+      "height": 138
+    },
+    {
+      "brand": "Lucidchart",
+      "file": "lucid-2.png",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Lucidchart-logo.svg/960px-Lucidchart-logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File%3ALucidchart-logo.svg",
+      "license_note": "CC BY-SA 4.0",
+      "width": 960,
+      "height": 134
+    }
+  ],
+  "notion": [
+    {
+      "brand": "Notion",
+      "file": "notion-1.png",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/4/45/Notion_app_logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "page": "https://commons.wikimedia.org/wiki/File%3ANotion_app_logo.png",
+      "license_note": "Public domain",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "brand": "Notion",
+      "file": "notion-2.png",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/PicklePlus_Logo_2026.png/960px-PicklePlus_Logo_2026.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File%3APicklePlus_Logo_2026.png",
+      "license_note": "表記なし",
+      "width": 960,
+      "height": 960
+    }
+  ],
+  "spotify": [
+    {
+      "brand": "Spotify",
+      "file": "spotify-1.png",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Spotify_logo_Square.svg/960px-Spotify_logo_Square.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File%3ASpotify_logo_Square.svg",
+      "license_note": "CC0",
+      "width": 960,
+      "height": 722
+    },
+    {
+      "brand": "Spotify",
+      "file": "spotify-2.png",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Spotify_New_Full_Logo_RGB_Green.png/960px-Spotify_New_Full_Logo_RGB_Green.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File%3ASpotify_New_Full_Logo_RGB_Green.png",
+      "license_note": "CC0",
+      "width": 960,
+      "height": 263
+    }
+  ],
+  "figma": [
+    {
+      "brand": "Figma",
+      "file": "figma-1.png",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Figma-logo.svg/960px-Figma-logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File%3AFigma-logo.svg",
+      "license_note": "Public domain",
+      "width": 960,
+      "height": 1440
+    },
+    {
+      "brand": "Figma",
+      "file": "figma-2.png",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Figma_Series_Logo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "page": "https://commons.wikimedia.org/wiki/File%3AFigma_Series_Logo.jpg",
+      "license_note": "Public domain",
+      "width": 166,
+      "height": 80
+    }
+  ],
+  "github": [
+    {
+      "brand": "GitHub",
+      "file": "github-1.png",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/GitHub_logo_2013.svg/960px-GitHub_logo_2013.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File%3AGitHub_logo_2013.svg",
+      "license_note": "Public domain",
+      "width": 960,
+      "height": 274
+    },
+    {
+      "brand": "GitHub",
+      "file": "github-2.png",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/GitHub_Invertocat_Logo_invert.svg/960px-GitHub_Invertocat_Logo_invert.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File%3AGitHub_Invertocat_Logo_invert.svg",
+      "license_note": "CC BY 4.0",
+      "width": 960,
+      "height": 960
+    }
+  ],
+  "jetbrains": [
+    {
+      "brand": "JetBrains",
+      "file": "jetbrains-1.png",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/JetBrains_Academy_Logo.svg/960px-JetBrains_Academy_Logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File%3AJetBrains_Academy_Logo.svg",
+      "license_note": "Public domain",
+      "width": 960,
+      "height": 123
+    },
+    {
+      "brand": "JetBrains",
+      "file": "jetbrains-2.png",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/JetBrains_company_logo.svg/960px-JetBrains_company_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File%3AJetBrains_company_logo.svg",
+      "license_note": "Public domain",
+      "width": 960,
+      "height": 207
+    }
+  ],
+  "visualstudio": [
+    {
+      "brand": "Visual Studio",
+      "file": "visualstudio-1.png",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Visual_Studio_Icon_2019.svg/960px-Visual_Studio_Icon_2019.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File%3AVisual_Studio_Icon_2019.svg",
+      "license_note": "Public domain",
+      "width": 960,
+      "height": 956
+    },
+    {
+      "brand": "Visual Studio",
+      "file": "visualstudio-2.png",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Visual_Studio_Logo_%282013-2017%29.svg/960px-Visual_Studio_Logo_%282013-2017%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File%3AVisual_Studio_Logo_%282013-2017%29.svg",
+      "license_note": "CC BY-SA 3.0",
+      "width": 960,
+      "height": 993
+    }
+  ],
+  "tableau": [
+    {
+      "brand": "Tableau",
+      "file": "tableau-1.png",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/0/01/Tableau_Software_Logo_Small.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "page": "https://commons.wikimedia.org/wiki/File%3ATableau_Software_Logo_Small.png",
+      "license_note": "Public domain",
+      "width": 480,
+      "height": 94
+    },
+    {
+      "brand": "Tableau",
+      "file": "tableau-2.png",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Ionicons_logo-tableau.svg/960px-Ionicons_logo-tableau.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File%3AIonicons_logo-tableau.svg",
+      "license_note": "MIT",
+      "width": 960,
+      "height": 960
+    }
+  ],
+  "fujiq": [
+    {
+      "brand": "富士急ハイランド",
+      "file": "fujiq-1.png",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Fuji-Q_Highland_logo.svg/960px-Fuji-Q_Highland_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File%3AFuji-Q_Highland_logo.svg",
+      "license_note": "Public domain",
+      "width": 960,
+      "height": 116
+    },
+    {
+      "brand": "富士急ハイランド",
+      "file": "fujiq-2.png",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Fuji-Q_eejanaika_logo.svg/960px-Fuji-Q_eejanaika_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File%3AFuji-Q_eejanaika_logo.svg",
+      "license_note": "Public domain",
+      "width": 960,
+      "height": 876
+    }
+  ],
+  "nmwa": [
+    {
+      "brand": "国立西洋美術館",
+      "file": "nmwa-1.png",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/L%27Escaut_par_temps_orageux_-_Eug%C3%A8ne_Boudin.jpg/960px-L%27Escaut_par_temps_orageux_-_Eug%C3%A8ne_Boudin.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File%3AL%27Escaut_par_temps_orageux_-_Eug%C3%A8ne_Boudin.jpg",
+      "license_note": "Public domain",
+      "width": 960,
+      "height": 736
+    },
+    {
+      "brand": "国立西洋美術館",
+      "file": "nmwa-2.png",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Seneca_Kansas_Post_Office_Mural.jpg/960px-Seneca_Kansas_Post_Office_Mural.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File%3ASeneca_Kansas_Post_Office_Mural.jpg",
+      "license_note": "Public domain",
+      "width": 960,
+      "height": 640
+    }
+  ],
+  "willer": [
+    {
+      "brand": "WILLER",
+      "file": "willer-1.png",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Willer_Express_Logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "page": "https://commons.wikimedia.org/wiki/File%3AWiller_Express_Logo.png",
+      "license_note": "Public domain",
+      "width": 400,
+      "height": 91
+    },
+    {
+      "brand": "WILLER",
+      "file": "willer-2.png",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Willer_Express_106_IKEBUS_Logo.jpg/960px-Willer_Express_106_IKEBUS_Logo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File%3AWiller_Express_106_IKEBUS_Logo.jpg",
+      "license_note": "CC BY-SA 4.0",
+      "width": 960,
+      "height": 720
+    }
+  ],
+  "autodesk": [
+    {
+      "brand": "Autodesk",
+      "file": "autodesk-1.png",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Autodesk_Logo_2021.svg/960px-Autodesk_Logo_2021.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File%3AAutodesk_Logo_2021.svg",
+      "license_note": "Public domain",
+      "width": 960,
+      "height": 106
+    },
+    {
+      "brand": "Autodesk",
+      "file": "autodesk-2.png",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Autodesk_Maya_logo.svg/960px-Autodesk_Maya_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File%3AAutodesk_Maya_logo.svg",
+      "license_note": "Public domain",
+      "width": 960,
+      "height": 238
+    }
+  ],
+  "unreal": [
+    {
+      "brand": "Unreal Engine",
+      "file": "unreal-1.png",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Unreal_Engine_Logo_%28new_typeface%29.svg/960px-Unreal_Engine_Logo_%28new_typeface%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File%3AUnreal_Engine_Logo_%28new_typeface%29.svg",
+      "license_note": "Public domain",
+      "width": 960,
+      "height": 1166
+    },
+    {
+      "brand": "Unreal Engine",
+      "file": "unreal-2.png",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Unreal_Engine_4_logo_and_wordmark.svg/960px-Unreal_Engine_4_logo_and_wordmark.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File%3AUnreal_Engine_4_logo_and_wordmark.svg",
+      "license_note": "Public domain",
+      "width": 960,
+      "height": 1060
+    }
+  ],
+  "microsoft": [
+    {
+      "brand": "Microsoft",
+      "file": "microsoft-1.png",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Microsoft_Office_logos_%282013-2019%29.svg/960px-Microsoft_Office_logos_%282013-2019%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File%3AMicrosoft_Office_logos_%282013-2019%29.svg",
+      "license_note": "Public domain",
+      "width": 960,
+      "height": 418
+    },
+    {
+      "brand": "Microsoft",
+      "file": "microsoft-2.png",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Logo_Microsoft_Office_365_%282013-2019%29.svg/960px-Logo_Microsoft_Office_365_%282013-2019%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File%3ALogo_Microsoft_Office_365_%282013-2019%29.svg",
+      "license_note": "Public domain",
+      "width": 960,
+      "height": 211
+    }
+  ],
+  "amazon": [
+    {
+      "brand": "Amazon",
+      "file": "amazon-1.png",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/1/16/Amazon_Prime_logo_%282023%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "page": "https://commons.wikimedia.org/wiki/File%3AAmazon_Prime_logo_%282023%29.png",
+      "license_note": "Public domain",
+      "width": 685,
+      "height": 169
+    },
+    {
+      "brand": "Amazon",
+      "file": "amazon-2.png",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Amazon_Music_%28Logo%29.svg/960px-Amazon_Music_%28Logo%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File%3AAmazon_Music_%28Logo%29.svg",
+      "license_note": "Public domain",
+      "width": 960,
+      "height": 192
+    }
+  ]
+}

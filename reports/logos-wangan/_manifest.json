@@ -1,0 +1,63 @@
+{
+  "_note": "識別目的で使うロゴ。**商標であり自由ライセンスではない。**取得日 2026-09-20（ops/tasks/t123-wangan-logos.sh）。",
+  "senkyaku": [
+    {
+      "brand": "豊洲 千客万来",
+      "file": "senkyaku-1.png",
+      "source": "https://www.toyosu-senkyakubanrai.jp/image/top/top_pc_shopnews_logo2.png",
+      "page": "https://toyosu-senkyakubanrai.jp/",
+      "license_note": "公式サイトのロゴ画像（商標）",
+      "width": 1200,
+      "height": 364
+    },
+    {
+      "brand": "豊洲 千客万来",
+      "file": "senkyaku-2.png",
+      "source": "https://www.toyosu-senkyakubanrai.jp/image/top/top_pc_shopnews_logo3.png",
+      "page": "https://toyosu-senkyakubanrai.jp/",
+      "license_note": "公式サイトのロゴ画像（商標）",
+      "width": 1200,
+      "height": 384
+    }
+  ],
+  "toyosupit": [
+    {
+      "brand": "豊洲PIT",
+      "file": "toyosupit-1.png",
+      "source": "https://toyosu.pia-pit.jp/assets/images/logo_pitzero.jpg",
+      "page": "https://toyosu.pia-pit.jp/",
+      "license_note": "公式サイトのロゴ画像（商標）",
+      "width": 362,
+      "height": 110
+    },
+    {
+      "brand": "豊洲PIT",
+      "file": "toyosupit-2.png",
+      "source": "https://toyosu.pia-pit.jp/assets/images/logo_sendai.jpg",
+      "page": "https://toyosu.pia-pit.jp/",
+      "license_note": "公式サイトのロゴ画像（商標）",
+      "width": 362,
+      "height": 92
+    },
+    {
+      "brand": "豊洲PIT",
+      "file": "toyosupit-3.png",
+      "source": "https://toyosu.pia-pit.jp/assets/images/logo_10th_anniv.jpg",
+      "page": "https://toyosu.pia-pit.jp/",
+      "license_note": "公式サイトのロゴ画像（商標）",
+      "width": 440,
+      "height": 160
+    }
+  ],
+  "toyotaarena": [
+    {
+      "brand": "TOYOTA ARENA TOKYO",
+      "file": "toyotaarena-1.png",
+      "source": "https://www.toyota-arena-tokyo.jp/apple-icon.png?b5e5f7679ce725cd",
+      "page": "https://www.toyota-arena-tokyo.jp/",
+      "license_note": "公式サイトのロゴ画像（商標）",
+      "width": 180,
+      "height": 180
+    }
+  ]
+}

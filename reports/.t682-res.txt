@@ -1,0 +1,15 @@
+- aeon: 365 文字 「イオン 超！ブラックフライデーFes」 → https://chirashi.otoku.aeonsquare.net/pc/chirashi/blackfriday/
+- aeonpoint: 57 文字 「お店でも！ネットでも！買えば買うほどポイントアップ！｜イオン」 → https://chirashi.otoku.aeonsquare.net/pc/chirashi/point_stepup/
+- nitori: 4171 文字 「家具・大型家電　ブラックフライデーセール | ニトリネット【公式】 家具・インテリア通販」 → https://www.nitori-net.jp/ec/characteristic/campaign/hikitori/
+- akachan: 21 文字 「年に一度のレッドフライデー！厳選商品が期間限定でお得！|アカチャンホンポのレッドフライデー」 → https://chirashi.akachan.jp/chirashi/special/akatoku/
+- owndays: 1492 文字 「BLACK FRIDAY | メガネ通販のオンデーズオンラインストア (眼鏡・めがね)」 → https://www.owndays.com/jp/ja/news/blackfriday
+- zoff: 713 文字 「BLACK FRIDAY｜メガネのZoffオンラインストア（めがね・眼鏡ブランド）」 → https://www.zoff.co.jp/shop/contents/blackfriday_store.aspx
+- dennys: 1114 文字 「ブラックフライデー2026 | デニーズ」 → https://www.dennys.jp/campaign/blackfriday/
+- lalaport: 1523 文字 「出会え！買っちゃえ！BLACK FRIDAY | RSC共通」 → https://mitsui-shopping-park.com/lalaport/special/blackfriday_2026_11/
+- mop: 1570 文字 「三井アウトレットパーク ブラックフライデー開催 | 三井アウトレットパーク」 → https://mitsui-shopping-park.com/mop/special/2611_blackfriday/
+- premium: 571 文字 「プレミアム・アウトレット 公式」 → https://www.premiumoutlets.co.jp/
+- premiumsale: 663 文字 「Premium Outlets® Sale - プレミアム・アウトレット - PREMIUM OUTLETS®」 → https://www.premiumoutlets.co.jp/sp/pos_202611/
+- googlestore: 12396 文字 「Google ストアでは Google のデバイスやアクセサリをご購入いただけます」 → https://store.google.com/jp/?hl=ja&pli=1
+- gapjp: 662 文字 「Gap公式オンラインストア」 → https://www.gap.co.jp/news/post/?news_id=1400
+- aoyamatop: 7410 文字 「【公式】洋服の青山 | メンズ・レディースのスーツ・ビジネスウェア通販」 → https://www.y-aoyama.jp/ec/shop/
+- amazonbf: 110 文字 「ページが見つかりません」 → https://www.amazon.co.jp/b?node=24216006051

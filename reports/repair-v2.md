@@ -1,0 +1,145 @@
+# 修理を今度こそ当てる
+
+**このレポートが作られた時刻: 2026-09-13 02:30:15 JST**
+
+> x41 は `node -e` に埋め込んだシングルクォートが失われて**構文エラーで死んだ。**
+> 今回はパッチを**引用符つきヒアドキュメントでファイルに落として**実行する。
+> シェルは中身を一切 解釈しない。
+
+## 0. 前提
+
+```
+  3 ループ    : **8 / 8 本**
+  CDP         : 健全
+  login ロック: 無い
+```
+
+## 1. `asuka-reply.cjs` に修理を当てる
+
+```
+  --- 当てる前 ---
+    233:  // COSMETIC_REPAIR のための定数（空文字・半角スペース）
+    237:  // COSMETIC_REPAIR (2026-09-13): **見た目の重複だけで捨てない。**
+    277:  if (!rel.ok) return skip('噛み合い検査で弾いた: ' + rel.reasons.join(' / '));
+  パッチ: /var/folders/qm/dwxlvygj76q_fq054b8jrrr80000gn/T/xrepair.vtHIrLo2Uz.js（78 行）
+  パッチの node --check: OK
+  退避: asuka-reply.cjs.bak-20260913-023015
+    既に入っている。何もしない。
+  対象の node --check: OK
+  --- 当てた後（**必ず出す**） ---
+    231:  let rel = checkRelevance({ text, targetText: target, recentReplies: recentForGate, runReplies: runForGate }, relRules);
+    237:  // COSMETIC_REPAIR (2026-09-13): **見た目の重複だけで捨てない。**
+    248:    const FIXABLE = [/^末尾の絵文字「/, /^書き出しの「/, /^テンプレに無い絵文字「/];
+    249:    const cosmetic = rs.length > 0 && rs.every((r) => FIXABLE.some((re) => re.test(r)));
+    272:        if (re2.ok) { text = fixed; rel = re2; }
+    277:  if (!rel.ok) return skip('噛み合い検査で弾いた: ' + rel.reasons.join(' / '));
+```
+
+## 2. 定時と同じ `MAX_PICKS_PER_FIRE=4` で走らせる
+
+直接 叩くと既定の **2** になる。9/9 の定時実行は **4** だった。
+**1 日あたりの件数は変えない。** 定時と同じ条件で測るために揃えるだけ。
+
+```
+  走らせる前の累計: **857 件**
+
+  --- 実行（最大 4 件・約 $0.012） ---
+    [2026-09-13T02:30:16] === comment orchestrator start (max_picks=4, reply_follow_cap=10) ===
+    [2026-09-13T02:33:17] no candidates
+
+     60 秒後: 累計 857 件
+    120 秒後: 累計 857 件
+
+  走らせる前: 857 件 → 後: 857 件
+  **今回 出た数: 0 件**
+```
+
+### まだ 0 件。**弾かれた理由をそのまま出す**
+
+修理が効いていれば、`末尾の絵文字`・`書き出しの`・`テンプレに無い絵文字` だけを
+理由に落ちることは無くなるはず。**それらがまだ単独で出ていれば、修理が動いていない。**
+
+```
+  [2026-09-09T16:03:16] gen failed (#4): {"ok":false,"error":"PR/アフィリ/拡散キャンペーンの投稿なので LLM を呼ばずに見送る: #PR / r10.to","skip":true,"reason":"PR/アフィリ/拡散キャンペーンの投稿なので LLM を呼ばずに見送る: #PR / r10.to"}
+  [2026-09-09T16:03:16] === orchestrator done: 4 drafts, 6 reply-connected follows today ===
+  [2026-09-09T19:00:05] === comment orchestrator start (max_picks=4, reply_follow_cap=30) ===
+  [2026-09-09T19:03:07] picked 4 / max 4 (from 10 candidates)
+  [2026-09-09T19:03:08] gen failed (#1): {"ok":false,"error":"PR/アフィリ/拡散キャンペーンの投稿なので LLM を呼ばずに見送る: 詳細はこちら","skip":true,"reason":"PR/アフィリ/拡散キャンペーンの投稿なので LLM を呼ばずに見送る: 詳細はこちら"}
+  [2026-09-09T19:03:10] enqueue: {"ok":true,"id":"comment-20260909-1903-1"}
+  [2026-09-09T19:03:29] enqueue: {"ok":true,"id":"comment-20260909-1903-2"}
+  [2026-09-09T19:03:53] gen failed (#4): {"ok":false,"error":"生成側が skip: 紹介コード・招待コード・登録誘導の投稿。返信すべきでない","skip":true,"reason":"生成側が skip: 紹介コード・招待コード・登録誘導の投稿。返信すべきでない"}
+  [2026-09-09T19:03:53] === orchestrator done: 4 drafts, 10 reply-connected follows today ===
+  [2026-09-09T22:00:05] === comment orchestrator start (max_picks=4, reply_follow_cap=30) ===
+  [2026-09-09T22:03:08] picked 4 / max 4 (from 15 candidates)
+  [2026-09-09T22:03:10] gen failed (#1): {"ok":false,"error":"生成側が skip: 楽天公式のキャンペーン告知投稿。返信すべき個人の体験・質問・情報がなく、無理に返信すると宣伝への乗っかりになる。また URL 短縮で詳細が不明なため、具体的な数字や条�
+  [2026-09-09T22:03:12] gen failed (#2): {"ok":false,"error":"噛み合い検査で弾いた: 相手の投稿と共有する内容語が 0 個（1 個必要）＝読んでいない返信 / 書き出しの「あら、」が直近 20 件に 3 件＝同じ入り方の繰り返し","skip":true,"reason":"噛み合い検査で
+  [2026-09-09T22:03:15] gen failed (#3): {"ok":false,"error":"生成側が skip: 店舗の販売促進投稿。相手の具体的な状況・選択・困りごとがなく、返信する実質的な内容がない。商品への感想も数字も固有情報もないため、どの投稿にも貼れる型になってし�
+  [2026-09-09T22:03:17] enqueue: {"ok":true,"id":"comment-20260909-2203-3"}
+  [2026-09-09T22:03:38] === orchestrator done: 4 drafts, 10 reply-connected follows today ===
+```
+
+## 3. フォロー／アンフォローは何件 出ているか
+
+**返信ばかり見ていて、ここを一度も数えていなかった。**
+
+### 3-A. 一次情報（状態ファイルの実体）
+
+```
+  reply-followers.json        331 件 / 最終更新 2026-09-13 01:15
+  followed.json               173 件 / 最終更新 2026-09-13 00:51
+
+  --- data/ にある状態ファイル ---
+    attachments
+    auto-images
+    auto-reply-fail-streak.json
+    automation-window.json
+    badge-followback-state.json
+    blog-covers
+    blog-eyecatch-cache
+    blog-rss-state.json
+    bookmark-learnings.json
+    bookmark-state.json
+    canary-state.json
+    celebration
+    character-library
+    chrome-pid.json
+    claude-cost-latest.csv
+    comment-state.json
+    comment-templates.json
+    comment-templates.json.bak.20260513-100323
+    comment-templates.json.bak.20260515-watashi-migration
+    comment-templates.json.pre034.20260827-154041
+    cookie-backups
+    cost-2026-07.csv
+    cost-log.jsonl
+    dm-state.json
+    engagement_log.json
+```
+
+### 3-B. 一次情報**ではない**（ログの行数。二重計上する）
+
+```
+  competitor-follower-follow   本日    0 行 / 最終更新 09-09 18:47
+  hashtag-follow               本日    0 行 / 最終更新 09-09 17:04
+  badge-followback             本日    0 行 / 最終更新 09-13 00:51
+  reply-followback-check       本日    0 行 / 最終更新 09-13 01:15
+  reply-followers-cleanup      本日    0 行 / 最終更新 09-13 00:24
+
+  --- 直近の「フォロー／解除」行（各 3 行） ---
+  [competitor-follower-follow]
+      @<伏せ>: ❌ follower count out of range (6, need 10-50000)
+    [2026-09-09T09:46:51.072Z]   @<伏せ>: ❌ follower count out of range (7, need 10-50000)
+      @<伏せ>: ❌ follower count out of range (7, need 10-50000)
+  [hashtag-follow]
+    today already follows: 6 (A:0+B:6) / DAILY_CAP=90 / remaining=84
+    [2026-09-09T08:03:42.277Z]   @<伏せ>: ❌ follower count out of range (3, need 10-50000)
+      @<伏せ>: ❌ follower count out of range (3, need 10-50000)
+  [badge-followback]
+    {"ok":true,"scanned":227,"verified":70,"followed_back":2,"handles":["ayanofinance","9EQkuM9L1uzJYOq"]}
+    [silence-enforce] this script kind=badge-followback-error is silent, slack HTTP calls suppressed
+    {"ok":true,"scanned":233,"verified":74,"followed_back":0,"handles":[]}
+  [reply-followers-cleanup]
+    [2026-09-12T15:23:58.784Z] @<伏せ>: unfollow failed (no unfollow button)
+    [2026-09-12T15:24:05.971Z] @<伏せ>: unfollow failed (no unfollow button)
+    [2026-09-12T15:24:13.156Z] @<伏せ>: unfollow failed (no unfollow button)
+```

@@ -1,0 +1,237 @@
+{
+  "_note": "写真の候補。**採用したものだけ本採用でフル解像度を取り直す。** 取得日 2026-09-21（ops/tasks/t137-photos-evergreen.sh）。",
+  "arakawa": [
+    {
+      "what": "荒川・砂町水辺公園（江東花火大会）",
+      "thumb": "arakawa-1.jpg",
+      "commons_title": "File:View from the Funabori Tower,Tokyo,Japan.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3AView_from_the_Funabori_Tower%2CTokyo%2CJapan.jpg",
+      "license": "CC BY-SA 4.0",
+      "artist": "しんぎんぐきゃっと",
+      "px": "4032x3024",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/3/31/View_from_the_Funabori_Tower%2CTokyo%2CJapan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    },
+    {
+      "what": "荒川・砂町水辺公園（江東花火大会）",
+      "thumb": "arakawa-2.jpg",
+      "commons_title": "File:Metropolitan Expressway-Central Loop-2005-10-24.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3AMetropolitan_Expressway-Central_Loop-2005-10-24.jpg",
+      "license": "CC BY-SA 4.0",
+      "artist": "Syohei Arai",
+      "px": "2048x1536",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Metropolitan_Expressway-Central_Loop-2005-10-24.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    },
+    {
+      "what": "荒川・砂町水辺公園（江東花火大会）",
+      "thumb": "arakawa-3.jpg",
+      "commons_title": "File:荒川右岸終点より荒川河口橋の眺め - panoramio.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3A%E8%8D%92%E5%B7%9D%E5%8F%B3%E5%B2%B8%E7%B5%82%E7%82%B9%E3%82%88%E3%82%8A%E8%8D%92%E5%B7%9D%E6%B2%B3%E5%8F%A3%E6%A9%8B%E3%81%AE%E7%9C%BA%E3%82%81_-_panoramio.jpg",
+      "license": "CC BY-SA 3.0",
+      "artist": "Kiyo",
+      "px": "2272x1704",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/7/71/%E8%8D%92%E5%B7%9D%E5%8F%B3%E5%B2%B8%E7%B5%82%E7%82%B9%E3%82%88%E3%82%8A%E8%8D%92%E5%B7%9D%E6%B2%B3%E5%8F%A3%E6%A9%8B%E3%81%AE%E7%9C%BA%E3%82%81_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    }
+  ],
+  "sunamachi": [
+    {
+      "what": "砂町",
+      "thumb": "sunamachi-1.jpg",
+      "commons_title": "File:Sunamachi ginza shopping street koto tokyo 2009.JPG",
+      "page": "https://commons.wikimedia.org/wiki/File%3ASunamachi_ginza_shopping_street_koto_tokyo_2009.JPG",
+      "license": "CC BY-SA 3.0",
+      "artist": "User:Kentin",
+      "px": "3264x2448",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/8/84/Sunamachi_ginza_shopping_street_koto_tokyo_2009.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    },
+    {
+      "what": "砂町",
+      "thumb": "sunamachi-2.jpg",
+      "commons_title": "File:Tokyo Metro Minami-sunamachi sta 001.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3ATokyo_Metro_Minami-sunamachi_sta_001.jpg",
+      "license": "CC BY-SA 3.0",
+      "artist": "東京特許許可局",
+      "px": "1600x1200",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Tokyo_Metro_Minami-sunamachi_sta_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    },
+    {
+      "what": "砂町",
+      "thumb": "sunamachi-3.jpg",
+      "commons_title": "File:Tokyo City Shinkin Bank Sunamachi Branch.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3ATokyo_City_Shinkin_Bank_Sunamachi_Branch.jpg",
+      "license": "CC BY 4.0",
+      "artist": "Suikotei",
+      "px": "2863x2150",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Tokyo_City_Shinkin_Bank_Sunamachi_Branch.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    },
+    {
+      "what": "砂町",
+      "thumb": "sunamachi-4.jpg",
+      "commons_title": "File:Tokyo Bay Shinkin Bank Sunamachi Branch.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3ATokyo_Bay_Shinkin_Bank_Sunamachi_Branch.jpg",
+      "license": "CC BY 4.0",
+      "artist": "Suikotei",
+      "px": "4248x3190",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Tokyo_Bay_Shinkin_Bank_Sunamachi_Branch.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    }
+  ],
+  "chuoku": [
+    {
+      "what": "中央区（月島・勝どき）",
+      "thumb": "chuoku-1.jpg",
+      "commons_title": "File:Kachidoki canals (32924622428).jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3AKachidoki_canals_%2832924622428%29.jpg",
+      "license": "CC BY 2.0",
+      "artist": "Raita Futo from Tokyo, Japan",
+      "px": "5850x3900",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Kachidoki_canals_%2832924622428%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    },
+    {
+      "what": "中央区（月島・勝どき）",
+      "thumb": "chuoku-2.jpg",
+      "commons_title": "File:20080317-JPN140-Sumida-Tsukiji-more.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3A20080317-JPN140-Sumida-Tsukiji-more.jpg",
+      "license": "CC BY 3.0",
+      "artist": "Bobak Ha'Eri",
+      "px": "5620x2103",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/20080317-JPN140-Sumida-Tsukiji-more.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    }
+  ],
+  "minatoku": [
+    {
+      "what": "港区（台場・芝浦）",
+      "thumb": "minatoku-1.jpg",
+      "commons_title": "File:Rainbow Bridge-2.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3ARainbow_Bridge-2.jpg",
+      "license": "CC BY-SA 3.0",
+      "artist": "ZENsan",
+      "px": "3627x2113",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Rainbow_Bridge-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    }
+  ],
+  "toyosu": [
+    {
+      "what": "豊洲の街",
+      "thumb": "toyosu-1.jpg",
+      "commons_title": "File:Toyosu Gururi Park, at Toyosu, Koto, Tokyo (2019-01-01) 02.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3AToyosu_Gururi_Park%2C_at_Toyosu%2C_Koto%2C_Tokyo_%282019-01-01%29_02.jpg",
+      "license": "CC BY-SA 4.0",
+      "artist": "Lombroso",
+      "px": "5056x3792",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Toyosu_Gururi_Park%2C_at_Toyosu%2C_Koto%2C_Tokyo_%282019-01-01%29_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    },
+    {
+      "what": "豊洲の街",
+      "thumb": "toyosu-2.jpg",
+      "commons_title": "File:Toyosu Gururi Park, at Toyosu, Koto, Tokyo (2019-01-01) 01.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3AToyosu_Gururi_Park%2C_at_Toyosu%2C_Koto%2C_Tokyo_%282019-01-01%29_01.jpg",
+      "license": "CC BY-SA 4.0",
+      "artist": "Lombroso",
+      "px": "5056x3792",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Toyosu_Gururi_Park%2C_at_Toyosu%2C_Koto%2C_Tokyo_%282019-01-01%29_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    },
+    {
+      "what": "豊洲の街",
+      "thumb": "toyosu-3.jpg",
+      "commons_title": "File:Shin-Toyosu Station, at Toyosu, Koto, Tokyo (2019-01-01) 06.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3AShin-Toyosu_Station%2C_at_Toyosu%2C_Koto%2C_Tokyo_%282019-01-01%29_06.jpg",
+      "license": "CC BY-SA 4.0",
+      "artist": "Lombroso",
+      "px": "5056x3792",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/7/72/Shin-Toyosu_Station%2C_at_Toyosu%2C_Koto%2C_Tokyo_%282019-01-01%29_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    },
+    {
+      "what": "豊洲の街",
+      "thumb": "toyosu-4.jpg",
+      "commons_title": "File:Shin-Toyosu Station, at Toyosu, Koto, Tokyo (2019-01-01) 05.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3AShin-Toyosu_Station%2C_at_Toyosu%2C_Koto%2C_Tokyo_%282019-01-01%29_05.jpg",
+      "license": "CC BY-SA 4.0",
+      "artist": "Lombroso",
+      "px": "5056x3792",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Shin-Toyosu_Station%2C_at_Toyosu%2C_Koto%2C_Tokyo_%282019-01-01%29_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    }
+  ],
+  "ariake": [
+    {
+      "what": "有明",
+      "thumb": "ariake-1.jpg",
+      "commons_title": "File:Tokyo Fashion Town Building, at Ariake, Koto, Tokyo (2019-01-01) 01.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3ATokyo_Fashion_Town_Building%2C_at_Ariake%2C_Koto%2C_Tokyo_%282019-01-01%29_01.jpg",
+      "license": "CC BY-SA 4.0",
+      "artist": "Lombroso",
+      "px": "5056x3792",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Tokyo_Fashion_Town_Building%2C_at_Ariake%2C_Koto%2C_Tokyo_%282019-01-01%29_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    },
+    {
+      "what": "有明",
+      "thumb": "ariake-2.jpg",
+      "commons_title": "File:Tokyo Fashion Town Building, at Ariake, Koto, Tokyo (2019-01-01) 08.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3ATokyo_Fashion_Town_Building%2C_at_Ariake%2C_Koto%2C_Tokyo_%282019-01-01%29_08.jpg",
+      "license": "CC BY-SA 4.0",
+      "artist": "Lombroso",
+      "px": "5056x3792",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Tokyo_Fashion_Town_Building%2C_at_Ariake%2C_Koto%2C_Tokyo_%282019-01-01%29_08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    },
+    {
+      "what": "有明",
+      "thumb": "ariake-3.jpg",
+      "commons_title": "File:Ariake Nishi Port Park, at Ariake, Koto, Tokyo (2019-01-01) 03.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3AAriake_Nishi_Port_Park%2C_at_Ariake%2C_Koto%2C_Tokyo_%282019-01-01%29_03.jpg",
+      "license": "CC BY-SA 4.0",
+      "artist": "Lombroso",
+      "px": "5056x3792",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Ariake_Nishi_Port_Park%2C_at_Ariake%2C_Koto%2C_Tokyo_%282019-01-01%29_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    },
+    {
+      "what": "有明",
+      "thumb": "ariake-4.jpg",
+      "commons_title": "File:Tokyo Fashion Town Building, at Ariake, Koto, Tokyo (2019-01-01) 02.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3ATokyo_Fashion_Town_Building%2C_at_Ariake%2C_Koto%2C_Tokyo_%282019-01-01%29_02.jpg",
+      "license": "CC BY-SA 4.0",
+      "artist": "Lombroso",
+      "px": "5056x3792",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Tokyo_Fashion_Town_Building%2C_at_Ariake%2C_Koto%2C_Tokyo_%282019-01-01%29_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    }
+  ],
+  "harumi": [
+    {
+      "what": "晴海",
+      "thumb": "harumi-1.jpg",
+      "commons_title": "File:Illuminated street corner at blue hour - facade of the building Fujiya in Ginza Chuo-ku Tokyo Japan.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3AIlluminated_street_corner_at_blue_hour_-_facade_of_the_building_Fujiya_in_Ginza_Chuo-ku_Tokyo_Japan.jpg",
+      "license": "CC BY-SA 4.0",
+      "artist": "Basile Morin",
+      "px": "4720x3192",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Illuminated_street_corner_at_blue_hour_-_facade_of_the_building_Fujiya_in_Ginza_Chuo-ku_Tokyo_Japan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    },
+    {
+      "what": "晴海",
+      "thumb": "harumi-2.jpg",
+      "commons_title": "File:Rinko Fire Station, at Harumi, Chuo, Tokyo (2019-01-01).jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3ARinko_Fire_Station%2C_at_Harumi%2C_Chuo%2C_Tokyo_%282019-01-01%29.jpg",
+      "license": "CC BY-SA 4.0",
+      "artist": "Lombroso",
+      "px": "5056x3792",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Rinko_Fire_Station%2C_at_Harumi%2C_Chuo%2C_Tokyo_%282019-01-01%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    },
+    {
+      "what": "晴海",
+      "thumb": "harumi-3.jpg",
+      "commons_title": "File:Harumi from Rainbow Bridge090505.JPG",
+      "page": "https://commons.wikimedia.org/wiki/File%3AHarumi_from_Rainbow_Bridge090505.JPG",
+      "license": "Public domain",
+      "artist": "妖精書士",
+      "px": "1280x960",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Harumi_from_Rainbow_Bridge090505.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    },
+    {
+      "what": "晴海",
+      "thumb": "harumi-4.jpg",
+      "commons_title": "File:Harumi Triton Square , Tokyo - panoramio.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3AHarumi_Triton_Square_%2C_Tokyo_-_panoramio.jpg",
+      "license": "CC BY-SA 3.0",
+      "artist": "Kaz Ish",
+      "px": "4032x3024",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Harumi_Triton_Square_%2C_Tokyo_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    }
+  ]
+}

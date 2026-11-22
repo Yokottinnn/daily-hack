@@ -1,0 +1,175 @@
+# 湾岸ニュース 2026-11-20 の元のページ（t711・読むだけ・$0）
+
+生成: **2026-11-20T07:07:48+0900**
+
+rc=0
+
+## marche-dmenu
+
+- タイトル: Sorry...
+- 行き先: https://news.google.com/rss/articles/CBMigwFBVV95cUxOZ0tNUmFqWm5IOXRieUVKT29SOW1yZWlZS29kRDdiYWVoMXd4M0NqcUxWZjc5N0ZqYlp0cVlvdU1KZ0V2eTlleDhpOWQ1T1N5ZUJEV3Q0WkNua21MYVI3Yl8tOERDU0J4LVJMZEZ4V1huU01CNkxvUEktTXhrRVQxZHZpQdIBgwFBVV95cUxOZ0tNUmFqWm5IOXRieUVKT29SOW1yZWlZS29kRDdiYWVoMXd4M0NqcUxWZjc5N0ZqYlp0cVlvdU1KZ0V2eTlleDhpOWQ1T1N5ZUJEV3Q0WkNua21MYVI3Yl8tOERDU0J4LVJMZEZ4V1huU01CNkxvUEktTXhrRVQxZHZpQQ?oc=5&hl=ja&gl=JP&ceid=JP:ja
+- og:image: 
+- 本文 215 文字のうち、日付・場所・料金の行 0 行
+
+```text
+
+```
+
+### リンク（本文の中・上位 40）
+
+```text
+
+```
+
+### 画像（幅 300 以上）
+
+```text
+
+```
+
+## yoga-walker
+
+- タイトル: 〜つながるヨガ、ひろがる笑顔〜 みんなでヨガ in 晴海ふ頭公園(東京都)の情報｜ウォーカープラス
+- 行き先: https://www.walkerplus.com/event/ar0313e624519/
+- og:image: https://ms-cache.walkerplus.com/walkertouch/wtd/event/19/l2/624519.jpg
+- 本文 2064 文字のうち、日付・場所・料金の行 17 行
+
+```text
+〜つながるヨガ、ひろがる笑顔〜 みんなでヨガ in 晴海ふ頭公園
+2026年11月22日(日)
+開催時間
+場所
+関東 東京都 中央区 晴海ふ頭公園
+晴海ふ頭公園の多目的広場で開催される参加無料の屋外ヨガイベント。レインボーブリッジを望む開放的なロケーションで、2名の講師によるヨガを体験できる。初心者から経験者まで楽しめる内容で、参加者にはカルローズ米のサンプルをプレゼント。アンケート回答者を対象とした料理教室の招待抽選も実施。同日には海鮮グルメを楽しめる「シーフードピクニック」も開催される。
+[公式サイトなど、〜つながるヨガ、ひろがる笑顔〜 みんなでヨガ in 晴海ふ頭公園の詳しいイベント情報を見る]
+開催場所
+晴海ふ頭公園 [地図]
+※掲載情報は2026年11月時点のものです。随時更新をしておりますが内容が変更となっている場合がありますので、事前にご確認のうえ、おでかけください。
+※自然災害の影響やその他諸事情により、イベントの開催情報、施設の営業時間、植物の開花・見頃期間などは変更になる場合があります。
+関東 東京都 中央区 スポーツイベント
+東京都 千代田区 中央区 港区 新宿区 文京区 台東区 墨田区 江東区 品川区 目黒区 大田区 世田谷区 渋谷区 中野区 杉並区 豊島区 北区 荒川区 板橋区 練馬区 足立区 葛飾区 江戸川区 八王子市 立川市 武蔵野市 町田市 多摩市
+全件 花見 花火 紅葉 イルミネーション カウントダウン 花・自然 ライトアップ 年中行事・歳時記 味覚狩り・フルーツ狩り クリスマスイベント 福袋・初売り
+全件 無料イベント 終了間際
+時間別
+キャンプ場、グランピングからBBQ、アスレチックまで！非日常体験を存分に堪能できるアウトドアスポットを紹介
+```
+
+### リンク（本文の中・上位 40）
+
+```text
+https://www.walkerplus.com/event_list/ar0300/ | 関東
+https://www.walkerplus.com/event_list/ar0313/ | 東京都
+https://www.walkerplus.com/event_list/ar0313102/chuo/ | 中央区
+https://www.walkerplus.com/event/ar0313e624519/ | 全件
+https://www.walkerplus.com/event/ar0313e624519/data.html | 詳細データ
+https://www.walkerplus.com/event/ar0313e624519/price.html | 料金
+https://www.walkerplus.com/event/ar0313e624519/map.html | 地図
+https://www.walkerplus.com/event/ar0313e624519/#photo | 
+https://www.walkerplus.com/event_list/eg0108/ | スポーツイベント
+https://www.walkerplus.com/event_list/12/ar0313/ | 12月
+https://www.walkerplus.com/event_list/01/ar0313/ | 1月
+https://www.walkerplus.com/event_list/02/ar0313/ | 2月
+https://www.walkerplus.com/event_list/1120/ar0313/ | 20
+https://www.walkerplus.com/event_list/1121/ar0313/ | 21
+https://www.walkerplus.com/event_list/1122/ar0313/ | 22
+https://www.walkerplus.com/event_list/1123/ar0313/ | 23
+https://www.walkerplus.com/event_list/1124/ar0313/ | 24
+https://www.walkerplus.com/event_list/1125/ar0313/ | 25
+https://www.walkerplus.com/event_list/1126/ar0313/ | 26
+https://www.walkerplus.com/event_list/1127/ar0313/ | 27
+https://www.walkerplus.com/event_list/1128/ar0313/ | 28
+https://www.walkerplus.com/event_list/1129/ar0313/ | 29
+https://www.walkerplus.com/event_list/1130/ar0313/ | 30
+https://www.walkerplus.com/event_list/today/ar0313/ | 今日
+https://www.walkerplus.com/event_list/tommorow/ar0313/ | 明日
+https://www.walkerplus.com/event_list/weekend/ar0313/ | 今週末
+https://www.walkerplus.com/event_list/11/ar0313/ | 11月すべてのイベント
+https://www.walkerplus.com/event_list/ar0313/eg0130/ | 花・自然
+https://www.walkerplus.com/event_list/ar0313/eg0120/ | 体験イベント・アクティビティ
+https://www.walkerplus.com/event_list/ar0313/eg0118/ | 物産展・観光フェア
+https://www.walkerplus.com/event_list/ar0313/eg0055/ | 全件
+https://www.walkerplus.com/event_list/ar0313101/chiyoda/ | 千代田区
+https://www.walkerplus.com/event_list/ar0313103/minato/ | 港区
+https://www.walkerplus.com/event_list/ar0313104/shinjuku/ | 新宿区
+https://www.walkerplus.com/event_list/ar0313105/bunkyo/ | 文京区
+https://www.walkerplus.com/event_list/ar0313106/taito/ | 台東区
+https://www.walkerplus.com/event_list/ar0313107/sumida/ | 墨田区
+https://www.walkerplus.com/event_list/ar0313108/koto/ | 江東区
+https://www.walkerplus.com/event_list/ar0313109/shinagawa/ | 品川区
+https://www.walkerplus.com/event_list/ar0313110/meguro/ | 目黒区
+```
+
+### 画像（幅 300 以上）
+
+```text
+https://image.walkerplus.com/wpimg/walkertouch/wtd/event/19/n/624519.jpg?w=670&h=400 | 640 | 335 | 
+https://www.walkerplus.com/asset/diy/images/shared/mvtk_630_100x2.webp | 1260 | 200 | 
+https://ms-cache.walkerplus.com/walkertouch/image_cache/pickup/ThemeWalker/yokohama/2026-08_yokohamaW__400400pixel.jpg | 400 | 400 | 
+https://ms-cache.walkerplus.com/walkertouch/image_cache/pickup/ThemeWalker/okinawa/resized_2026-09_okinawaW__400400pixel_1.jpg | 400 | 400 | 
+https://ms-cache.walkerplus.com/walkertouch/image_cache/pickup/www/thumb_business.jpg | 400 | 400 | 
+https://ms-cache.walkerplus.com/walkertouch/image_cache/pickup/www/hoshino_square_1000.jpg | 1000 | 1000 | 
+https://www.walkerplus.com/asset/diy/images/sp/main_koyo01.jpg | 420 | 168 | 紅葉・紅葉名所・見頃
+https://www.walkerplus.com/asset/diy/images/sp/main_illumi.jpg | 420 | 168 | イルミネーション特集
+https://www.walkerplus.com/asset/diy/images/sp/main__camp.jpg | 420 | 168 | アウトドア特集
+```
+
+## scsk-ref
+
+- タイトル: 豊洲のSCSKが無料開催！小1～中3対象の「CAMPこよみワークショップ ～2027～」、申込締切は11月23日 | とよすと - 毎日更新！豊洲エリアの今がわかる地域情報サイト
+- 行き先: https://toyosu.tokyo/event/camp-workshop-calendar-2027-info/
+- og:image: https://toyosu.tokyo/wp-content/uploads/2026/11/xn_2026-11-16-9.42.55.webp
+- 本文 943 文字のうち、日付・場所・料金の行 23 行
+
+```text
+豊洲のSCSKが無料開催！小1～中3対象の「CAMPこよみワークショップ ～2027～」、申込締切は11月23日
+2026年11月19日
+豊洲に本社を構えるSCSK株式会社は「CAMPこよみワークショップ ～2027～」を2026年12月6日（日）に開催します！
+今回のワークショップは小学1年生～中学3年生を対象に、みんなで大きなカレンダーをつくるというもの。
+定員は30名で、参加は無料。
+CAMPこよみワークショップ ～2027～の内容
+未来を担うこどもたちに向けた次世代育成活動を行っているSCSKグループの“CAMP”。
+今回の「CAMPこよみワークショップ ～2027～」では、次の内容となっていますよ。
+みんなで2027年の大きなカレンダーをつくって、新しい年の準備をしよう！
+2～3人に分かれて各月を担当し、カレンダーをつくっていく、年に一度のワークショップ
+申込締切は11月23日（月・祝）。
+下記より申込できますので、興味のある方は申込をお忘れなく！
+CAMPこよみワークショップ ～2027～　申込ページ
+【CAMPこよみワークショップ ～2027～】
+■日程：2026年12月6日（日）
+■時間：13:00～17:00
+■会場：SCSK豊洲本社(東京)
+■対象：小学1年生～中学3年生
+■参加費：無料
+■持ち物：飲み物
+■申込締切日：11月23日（月・祝）
+【豊洲・有明・お台場など】2026年11月・12月のイベントスケジュール
+CAMP CAMPこよみワークショップ SCSK イベント ワークショップ 子育て 豊洲 豊洲フロント
+```
+
+### リンク（本文の中・上位 40）
+
+```text
+https://toyosu.tokyo/category/event/ | イベント
+https://twitter.com/share?url=https%3A%2F%2Ftoyosu.tokyo%2Fevent%2Fcamp-workshop-calendar-2027-info%2F&text=%E8%B1%8A%E6%B4%B2%E3%81%AESCSK%E3%81%8C%E7%84%A1%E6%96%99%E9%96%8B%E5%82%AC%EF%BC%81%E5%B0%8F1%EF%BD%9E%E4%B8%AD3%E5%AF%BE%E8%B1%A1%E3%81%AE%E3%80%8CCAMP%E3%81%93%E3%82%88%E3%81%BF%E3%83%AF%E3%83%BC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%83%E3%83%97+%EF%BD%9E2027%EF%BD%9E%E3%80%8D%E3%80%81%E7%94%B3%E8%BE%BC%E7%B7%A0%E5%88%87%E3%81%AF11%E6%9C%8823%E6%97%A5%20-%20%E3%81%A8%E3%82%88%E3%81%99%E3%81%A8%20-%20%E6%AF%8E%E6%97%A5%E6%9B%B4%E6%96%B0%EF%BC%81%E8%B1%8A%E6%B4%B2%E3%82%A8%E3%83%AA%E3%82%A2%E3%81%AE%E4%BB%8A%E3%81%8C%E3%82%8F%E3%81%8B%E3%82%8B%E5%9C%B0%E5%9F%9F%E6%83%85%E5%A0%B1%E3%82%B5%E3%82%A4%E3%83%88&via=toyosu_tokyo&related=toyosu_tokyo | 
+https://b.hatena.ne.jp/add?mode=confirm&url=https%3A%2F%2Ftoyosu.tokyo%2Fevent%2Fcamp-workshop-calendar-2027-info%2F | 
+https://getpocket.com/edit?url=https%3A%2F%2Ftoyosu.tokyo%2Fevent%2Fcamp-workshop-calendar-2027-info%2F&title=%E8%B1%8A%E6%B4%B2%E3%81%AESCSK%E3%81%8C%E7%84%A1%E6%96%99%E9%96%8B%E5%82%AC%EF%BC%81%E5%B0%8F1%EF%BD%9E%E4%B8%AD3%E5%AF%BE%E8%B1%A1%E3%81%AE%E3%80%8CCAMP%E3%81%93%E3%82%88%E3%81%BF%E3%83%AF%E3%83%BC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%83%E3%83%97+%EF%BD%9E2027%EF%BD%9E%E3%80%8D%E3%80%81%E7%94%B3%E8%BE%BC%E7%B7%A0%E5%88%87%E3%81%AF11%E6%9C%8823%E6%97%A5%20-%20%E3%81%A8%E3%82%88%E3%81%99%E3%81%A8%20-%20%E6%AF%8E%E6%97%A5%E6%9B%B4%E6%96%B0%EF%BC%81%E8%B1%8A%E6%B4%B2%E3%82%A8%E3%83%AA%E3%82%A2%E3%81%AE%E4%BB%8A%E3%81%8C%E3%82%8F%E3%81%8B%E3%82%8B%E5%9C%B0%E5%9F%9F%E6%83%85%E5%A0%B1%E3%82%B5%E3%82%A4%E3%83%88 | 
+https://www.camp-k.com/kodomo/261206&utm_source=local&utm_campaign=261206 | CAMPこよみワークショップ ～2027～　申込ページ
+https://toyosu.tokyo/event/event-schedule-2026-1112/ | 【豊洲・有明・お台場など】2026年11月・12月のイベントスケジュール2026年も豊洲やお台場など湾岸エリアでは、クリ
+https://twitter.com/share?url=https%3A%2F%2Ftoyosu.tokyo%2Fevent%2Fcamp-workshop-calendar-2027-info&text=%E8%B1%8A%E6%B4%B2%E3%81%AESCSK%E3%81%8C%E7%84%A1%E6%96%99%E9%96%8B%E5%82%AC%EF%BC%81%E5%B0%8F1%EF%BD%9E%E4%B8%AD3%E5%AF%BE%E8%B1%A1%E3%81%AE%E3%80%8CCAMP%E3%81%93%E3%82%88%E3%81%BF%E3%83%AF%E3%83%BC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%83%E3%83%97%20%EF%BD%9E2027%EF%BD%9E%E3%80%8D%E3%80%81%E7%94%B3%E8%BE%BC%E7%B7%A0%E5%88%87%E3%81%AF11%E6%9C%8823%E6%97%A5%20%7C%20%E3%81%A8%E3%82%88%E3%81%99%E3%81%A8%20-%20%E6%AF%8E%E6%97%A5%E6%9B%B4%E6%96%B0%EF%BC%81%E8%B1%8A%E6%B4%B2%E3%82%A8%E3%83%AA%E3%82%A2%E3%81%AE%E4%BB%8A%E3%81%8C%E3%82%8F%E3%81%8B%E3%82%8B%E5%9C%B0%E5%9F%9F%E6%83%85%E5%A0%B1%E3%82%B5%E3%82%A4%E3%83%88 | ツイートする
+https://toyosu.tokyo/tag/camp/ | CAMP
+https://toyosu.tokyo/tag/camp%e3%81%93%e3%82%88%e3%81%bf%e3%83%af%e3%83%bc%e3%82%af%e3%82%b7%e3%83%a7%e3%83%83%e3%83%97/ | CAMPこよみワークショップ
+https://toyosu.tokyo/tag/scsk/ | SCSK
+https://toyosu.tokyo/tag/%e3%82%a4%e3%83%99%e3%83%b3%e3%83%88/ | イベント
+https://toyosu.tokyo/tag/%e3%83%af%e3%83%bc%e3%82%af%e3%82%b7%e3%83%a7%e3%83%83%e3%83%97/ | ワークショップ
+https://toyosu.tokyo/tag/%e5%ad%90%e8%82%b2%e3%81%a6/ | 子育て
+https://toyosu.tokyo/tag/%e8%b1%8a%e6%b4%b2/ | 豊洲
+https://toyosu.tokyo/tag/%e8%b1%8a%e6%b4%b2%e3%83%95%e3%83%ad%e3%83%b3%e3%83%88/ | 豊洲フロント
+```
+
+### 画像（幅 300 以上）
+
+```text
+https://toyosu.tokyo/wp-content/uploads/2026/11/xn_2026-11-16-9.42.55.webp | 1000 | 637 | 
+```
+
+**読むだけ。LLM 不使用（$0／回）。**

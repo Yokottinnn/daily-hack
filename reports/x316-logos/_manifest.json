@@ -1,0 +1,121 @@
+{
+  "anker-1.png": {
+    "brand": "Anker",
+    "title": "File:Anker Logo Original.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Anker_Logo_Original.jpg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/9/98/Anker_Logo_Original.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "orig": "https://upload.wikimedia.org/wikipedia/commons/9/98/Anker_Logo_Original.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "mime": "image/jpeg",
+    "license": "CC BY-SA 4.0",
+    "fetched": "2026-10-18",
+    "task": "ops/tasks/x316-product-brand-logos.sh"
+  },
+  "anker-2.png": {
+    "brand": "Anker",
+    "title": "File:Anker-Logo-Prosp-ca1955.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Anker-Logo-Prosp-ca1955.jpg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Anker-Logo-Prosp-ca1955.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "orig": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Anker-Logo-Prosp-ca1955.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "mime": "image/jpeg",
+    "license": "Public domain",
+    "fetched": "2026-10-18",
+    "task": "ops/tasks/x316-product-brand-logos.sh"
+  },
+  "anker-3.png": {
+    "brand": "Anker",
+    "title": "File:Logo Anker Schroeder ASDO.png",
+    "page": "https://commons.wikimedia.org/wiki/File:Logo_Anker_Schroeder_ASDO.png",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Logo_Anker_Schroeder_ASDO.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "orig": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Logo_Anker_Schroeder_ASDO.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "mime": "image/png",
+    "license": "Public domain",
+    "fetched": "2026-10-18",
+    "task": "ops/tasks/x316-product-brand-logos.sh"
+  },
+  "anker-4.png": {
+    "brand": "Anker",
+    "title": "File:Anker Logo.svg",
+    "page": "https://commons.wikimedia.org/wiki/File:Anker_Logo.svg",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Anker_Logo.svg/960px-Anker_Logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "orig": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Anker_Logo.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "mime": "image/svg+xml",
+    "license": "Public domain",
+    "fetched": "2026-10-18",
+    "task": "ops/tasks/x316-product-brand-logos.sh"
+  },
+  "sony-1.png": {
+    "brand": "Sony",
+    "title": "File:Logo of the Sony Corporation (make.believe).svg",
+    "page": "https://commons.wikimedia.org/wiki/File:Logo_of_the_Sony_Corporation_(make.believe).svg",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Logo_of_the_Sony_Corporation_%28make.believe%29.svg/960px-Logo_of_the_Sony_Corporation_%28make.believe%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "orig": "https://upload.wikimedia.org/wikipedia/commons/9/97/Logo_of_the_Sony_Corporation_%28make.believe%29.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "mime": "image/svg+xml",
+    "license": "Public domain",
+    "fetched": "2026-10-18",
+    "task": "ops/tasks/x316-product-brand-logos.sh"
+  },
+  "sony-2.png": {
+    "brand": "Sony",
+    "title": "File:Sony Interactive Entertainment logo (2016).svg",
+    "page": "https://commons.wikimedia.org/wiki/File:Sony_Interactive_Entertainment_logo_(2016).svg",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Sony_Interactive_Entertainment_logo_%282016%29.svg/960px-Sony_Interactive_Entertainment_logo_%282016%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "orig": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Sony_Interactive_Entertainment_logo_%282016%29.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "mime": "image/svg+xml",
+    "license": "Public domain",
+    "fetched": "2026-10-18",
+    "task": "ops/tasks/x316-product-brand-logos.sh"
+  },
+  "sony-3.png": {
+    "brand": "Sony",
+    "title": "File:Sony BBC Earth.png",
+    "page": "https://commons.wikimedia.org/wiki/File:Sony_BBC_Earth.png",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/5/56/Sony_BBC_Earth.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "orig": "https://upload.wikimedia.org/wikipedia/commons/5/56/Sony_BBC_Earth.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "mime": "image/png",
+    "license": "Public domain",
+    "fetched": "2026-10-18",
+    "task": "ops/tasks/x316-product-brand-logos.sh"
+  },
+  "sony-4.png": {
+    "brand": "Sony",
+    "title": "File:Sony Pictures Animation 2006 logo.svg",
+    "page": "https://commons.wikimedia.org/wiki/File:Sony_Pictures_Animation_2006_logo.svg",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Sony_Pictures_Animation_2006_logo.svg/960px-Sony_Pictures_Animation_2006_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "orig": "https://upload.wikimedia.org/wikipedia/commons/3/37/Sony_Pictures_Animation_2006_logo.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "mime": "image/svg+xml",
+    "license": "Public domain",
+    "fetched": "2026-10-18",
+    "task": "ops/tasks/x316-product-brand-logos.sh"
+  },
+  "rakuten-app-1.png": {
+    "brand": "楽天市場 - お買い物で楽天ポイントが貯まる便利な通販アプリ",
+    "seller": "Rakuten Group, Inc.",
+    "src": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/44/6c/cc/446ccc60-4ecc-7f46-cc97-9ed11a734483/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+    "page": "https://apps.apple.com/jp/app/%E6%A5%BD%E5%A4%A9%E5%B8%82%E5%A0%B4-%E3%81%8A%E8%B2%B7%E3%81%84%E7%89%A9%E3%81%A7%E6%A5%BD%E5%A4%A9%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88%E3%81%8C%E8%B2%AF%E3%81%BE%E3%82%8B%E4%BE%BF%E5%88%A9%E3%81%AA%E9%80%9A%E8%B2%A9%E3%82%A2%E3%83%97%E3%83%AA/id419267350?uo=4",
+    "fetched": "2026-10-18",
+    "task": "ops/tasks/x316-product-brand-logos.sh"
+  },
+  "rakuten-app-2.png": {
+    "brand": "楽天ペイ-楽天ポイントカードも利用できるスマホ決済アプリ",
+    "seller": "Rakuten Group, Inc.",
+    "src": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/45/6c/65/456c656e-46f0-c72d-b283-4d8a55048580/Pay-0-0-1x_U007ephone-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+    "page": "https://apps.apple.com/jp/app/%E6%A5%BD%E5%A4%A9%E3%83%9A%E3%82%A4-%E6%A5%BD%E5%A4%A9%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88%E3%82%AB%E3%83%BC%E3%83%89%E3%82%82%E5%88%A9%E7%94%A8%E3%81%A7%E3%81%8D%E3%82%8B%E3%82%B9%E3%83%9E%E3%83%9B%E6%B1%BA%E6%B8%88%E3%82%A2%E3%83%97%E3%83%AA/id1139755229?uo=4",
+    "fetched": "2026-10-18",
+    "task": "ops/tasks/x316-product-brand-logos.sh"
+  },
+  "rakuten-app-3.png": {
+    "brand": "楽天カード：明細確認アプリ",
+    "seller": "RAKUTEN CARD,INC.",
+    "src": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6f/46/a9/6f46a912-46ef-67ea-ee1f-76576edad92f/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+    "page": "https://apps.apple.com/jp/app/%E6%A5%BD%E5%A4%A9%E3%82%AB%E3%83%BC%E3%83%89-%E6%98%8E%E7%B4%B0%E7%A2%BA%E8%AA%8D%E3%82%A2%E3%83%97%E3%83%AA/id570105907?uo=4",
+    "fetched": "2026-10-18",
+    "task": "ops/tasks/x316-product-brand-logos.sh"
+  },
+  "rakuten-top-1.png": {
+    "brand": "楽天市場",
+    "src": "https://r.r10s.jp/com/img/home/logo/touch_google.png",
+    "page": "https://www.rakuten.co.jp/",
+    "fetched": "2026-10-18",
+    "task": "ops/tasks/x316-product-brand-logos.sh"
+  }
+}

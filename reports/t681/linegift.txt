@@ -1,0 +1,14 @@
+TITLE: LINE Login
+URL: https://access.line.me/oauth2/v2.1/login?returnUri=%2Foauth2%2Fv2.1%2Fauthorize%2Fconsent%3Fapp_id%3D1654120723-lYaWZEb6%26client_id%3D1654120723%26scope%3Dprofile%26state%3DDMDV4sIOzAfv%26response_type%3Dcode%26code_challenge_method%3DS256%26code_challenge%3DxzqGfvFqxT5z0hUe0JDSLiCccx7rQr_DDR3rt8A-o40%26liff_sdk_version%3D2.31.1%26type%3DL%26redirect_uri%3Dhttps%253A%252F%252Fgift.line.me&loginChannelId=1654120723&loginState=VrWdfdOJsrCFh50SjxblFD#/
+
+LINE
+Login
+ログイン
+
+または他の方法でログイン
+QRコードログイン
+ログイン出来ない場合
+メールアドレス・パスワードの確認はこちら
+© LY Corporation
+LINEヤフー株式会社のリンク
+プライバシーポリシー利用規約

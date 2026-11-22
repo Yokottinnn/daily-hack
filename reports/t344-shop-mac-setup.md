@@ -1,0 +1,159 @@
+# 3 店ボタンの Mac 側の準備・11 回目（t344・**$0**）
+
+生成: **2026-10-25T17:18:28+0900**
+
+```text
+moshimo: ログイン済み
+rakuten: ログイン済み / 楽天ID 0 件
+```
+- rakuten: rc=0
+  - ログの末尾:
+    - 楽天 API（2026-07-01 版）の試し: HTTP 400・{
+      "errors": {
+        "errorCode": 400,
+        "errorMessage": "accessKey must be present as a query parameter or in the header"
+      }
+    }
+# 3 店ボタンの Mac 側の準備: rakuten（scripts/shop/mac-setup.mjs）
+
+生成: **2026-10-25T08:18:43.391Z**
+
+- 画面: https://webservice.rakuten.co.jp/app/list
+
+- 「More Details」を押した: https://webservice.rakuten.co.jp/app/list
+- Application ID: 36 文字（Keychain の値と同じ）
+- Access Key が画面に見つからない（「表示」ボタンで隠れている可能性）。ボタン一覧を下に出す
+- 入力欄の形（値は文字数だけ）:
+  - input[type=hidden name=captcha-key id=refresh-captcha-key] 値0文字
+  - input[type=text name=captcha id=refresh-captcha] 値0文字
+  - input[type=hidden name=captcha-key id=edit-captcha-key] 値0文字
+  - input[type=text name=app_name id=edit-app_name] 値0文字
+  - input[type=url name=app_site id=edit-app_site] 値0文字
+  - textarea[type=textarea name=origins id=edit-origins] 値0文字
+  - textarea[type=textarea name=app_description id=edit-app_description] 値0文字
+  - textarea[type=textarea name=usage_purpose id=edit-usage_purpose] 値0文字
+  - input[type=text name=expected_qps id=edit-expected_qps] 値0文字
+  - input[type=checkbox name=api_scopes[] id=edit-ichiba-checkbox] 値6文字
+  - input[type=checkbox name=api_scopes[] id=edit-travel-checkbox] 値6文字
+  - input[type=checkbox name=api_scopes[] id=edit-books-checkbox] 値5文字
+- 「Access Key」の行のまわりの HTML（値は伏せる）:
+```html
+<div id="［41文字・伏せた］" class="card mb-4"> <div class="card-header d-flex ［23文字・伏せた］ p-4 mb-3 gap"> <div class="d-flex flex-column gap"> <h2 id="［45文字・伏せた］" class="headlineLv2">dailyhack</h2> <div class="text-secondary"> <span id="［47文字・伏せた］" class="status-badge active px-2 py-1 mr-2"> ACTIVE </span> Expires: <span id="［47文字・伏せた］" data-iso-date="2027-10-14T23:18:16+09:00">14 Oct 2027</span> </div> </div> <div class="d-flex ［18文字・伏せた］ gap"> <button id="［51文字・伏せた］" type="button" class="btn ［18文字・伏せた］" onclick="［16文字・伏せた］('［36文字・伏せた］')" disabled=""><i class="fa fa-sync-alt text-dark mr-2"></i>Refresh</button> <button id="［51文字・伏せた］" type="button" class="btn ［18文字・伏せた］" onclick="［16文字・伏せた］('［36文字・伏せた］')">More Details</button> <button id="［48文字・伏せた］" type="button" class="btn ［18文字・伏せた］" onclick="openEditModal('［36文字・伏せた］')"><i class="fa fa-edit text-dark mr-2"></i>Edit</button> </div> </div> <div class="card-body row no-gutters px-4 pt-3 pb-4"> <div class="col-sm-6 p-2"> <span id="［50文字・伏せた］" class="d-block text-secondary mb-1">Application URL</span> <a href="https://daily-hack.fieldbeside.com/" target="_blank" id="［40文字・伏せた］" class="text-primary">https://daily-hack.fieldbeside.com/</a> </div> <div class="col-sm-6 p-2"> <span id="［49文字・伏せた］" class="d-block text-secondary mb-1">Application ID</span> <div class="d-flex"> <code id="［43文字・伏せた］" class="flex-grow-1">［36文字・伏せた］</code> <button type="button" id="［48文字・伏せた］" class="btn icon-button" onclick="copyToClipboard('［36文字・伏せた］')"><i class="fa fa-clone"></i></button> </div> </div> <div class="col-sm-6 p-2"> <span id="［53文字・伏せた］" class="d-block text-secondary mb-1">Access Key</span> <div class="d-flex"> <code class="flex-grow-1" id="［47文字・伏せた］">［伏せ字］</code> <button type="button" id="［20文字・伏せた］
+```
+- カードの文字（値は伏せる）:
+  - dailyhack
+  - ACTIVE Expires: 14 Oct 2027
+  - Refresh
+  - More Details
+  - Edit
+  - Application URL
+  - https://daily-hack.fieldbeside.com/
+  - Application ID
+  - ［36文字・伏せた］
+  - Access Key
+  - ［伏せ字］
+  - Affiliate ID
+  - 587f2635.77bb335f.587f2636.e34c8733
+- カードの中のボタン:
+  - button 「Refresh」 aria= title= data=
+  - button 「More Details」 aria= title= data=
+  - button 「Edit」 aria= title= data=
+  - a 「https://daily-hack.fieldbeside」 aria= title= data=
+  - button 「」 aria= title= data=
+  - button 「」 aria= title= data=
+  - button 「」 aria= title= data=
+  - button 「」 aria= title= data=
+- アイコンを押したときのクリップボード: 空 ／ 空 ／ 空 ／ 空
+- 「Access Key」の行の HTML:
+```html
+<div class="col-sm-6 p-2"> <span id="［53文字・伏せた］" class="d-block text-secondary mb-1">Access Key</span> <div class="d-flex"> <code class="flex-grow-1" id="［47文字・伏せた］">［伏せ字］</code> <button type="button" id="［54文字・伏せた］" class="btn icon-button" onclick="toggleSecret('［36文字・伏せた］', this)"><i class="fa fa-eye"></i></button> <button type="button" id="［52文字・伏せた］" class="btn icon-button" onclick="copyToClipboard('［46文字・伏せた］')"><i class="fa fa-clone"></i></button> </div> </div>
+```
+- アイコンのボタン 4 個を押したあとの Access Key: まだ伏せ字（•••…）
+- 楽天 API（2026-07-01 版）の試し: HTTP 400・{
+  "errors": {
+    "errorCode": 400,
+    "errorMessage": "accessKey must be present as a query parameter or in the header"
+  }
+}
+
+- moshimo-media: rc=0
+  - ログの末尾:
+      - 登録するメディアは5記事以上・5投稿以上である。
+      - 5記事・5投稿未満で登録されますと登録後の審査で削除となります。
+      - ※現状、X（Twitter）の登録にはフォロワー数3,000人以上が必要です。
+      - 利用規約 会社概要 プライバシーポリシー カスタマーハラスメント対応ポリシー よくある質問
+    - 選択肢:
+      - select[name=shop_site_id]: メディアを選択
+# 3 店ボタンの Mac 側の準備: moshimo-media（scripts/shop/mac-setup.mjs）
+
+生成: **2026-10-25T08:19:25.312Z**
+
+## 申請の画面のメディアの選択肢
+
+- ✔ メディアを選択（value 空）
+
+## メディア登録へのリンク
+
+- 登録メディア一覧（登録） — https://af.moshimo.com/af/shop/management/media
+- メディア運営ツール — javascript: void(0)
+- メディア育成ガイド — https://af.moshimo.com/af/shop/howToGrow
+- メディア登録審査ガイドライン — https://af.moshimo.com/af/shop/support/siteGuideline
+- メディア登録が削除となる事例 — https://af.moshimo.com/af/shop/support/［18文字・伏せた］
+- メディア運営ガイドライン — https://af.moshimo.com/af/shop/support/［18文字・伏せた］
+- プロフィールページのメディア登録ガイドライン — https://af.moshimo.com/af/shop/support/［16文字・伏せた］
+
+## メディア一覧の画面
+
+- 画面: https://af.moshimo.com/af/shop/management/media（メディア一覧 ｜ もしもアフィリエイト）
+
+見出し:
+- メディア一覧
+- メディア登録
+
+入力欄:
+- select[type=select-one name=shop_site_id] 「」
+- input[type=text name=words] 「表示中のページではプロモーション検索機能をご利用いただけません」
+- input[type=submit name=] 「」
+- input[type=text name=media_url] 「https://example.com」
+
+ボタン:
+- メディアを登録する
+
+## URL を入れて「メディアを登録する」を押したあと（この先は送っていない）
+
+- 画面: https://af.moshimo.com/af/shop/management/media（メディア一覧 ｜ もしもアフィリエイト）
+
+見出し:
+- メディア一覧
+- メディア登録
+
+入力欄:
+- select[type=select-one name=shop_site_id] 「」
+- input[type=text name=words] 「表示中のページではプロモーション検索機能をご利用いただけません」
+- input[type=submit name=] 「」
+- input[type=text name=media_url] 「https://example.com」
+
+ボタン:
+- メディアを登録する
+
+- 画面の案内の文字:
+  - メディアを選択
+  - カテゴリで探す
+  - メディア登録審査ガイドライン
+  - メディア登録が削除となる事例
+  - プロフィールページのメディア登録ガイドライン
+  - メディア登録
+  - ご自身で運営されているWebサイト、ブログ、アプリ、YouTubeチャンネル、Instagramアカウント、X(Twitter)アカウント等をご登録いただけます。ただし、プロモーション提携可能（広告掲載可能）なメディアは「Webサイト、ブログ、アプリ、YouTube、Instagram、X(Twitter)のいずれか」
+  - 同じアカウント内で、過去に登録されたことがあるURLはご登録いただけません。過去に登録済みのURLを復活（有効）としたい場合や不明点がある場合はよくある質問をご確認ください。
+  - プロフィールページのメディア登録ガイドライン
+  - メディア登録審査ガイドライン
+  - メディアを登録する
+  - 登録前にご確認ください。(1/2)
+  - 登録するメディアは5記事以上・5投稿以上である。
+  - 5記事・5投稿未満で登録されますと登録後の審査で削除となります。
+  - ※現状、X（Twitter）の登録にはフォロワー数3,000人以上が必要です。
+  - 利用規約 会社概要 プライバシーポリシー カスタマーハラスメント対応ポリシー よくある質問
+- 選択肢:
+  - select[name=shop_site_id]: メディアを選択
+
+rc=0 /     9933 bytes

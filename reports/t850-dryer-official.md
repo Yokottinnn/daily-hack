@@ -1,0 +1,130 @@
+# 高級ドライヤー ダイソン・ヤーマンの公式ページ（t850・**$0**）
+
+生成: **2026-11-22T11:24:02+0900**
+
+- `playwright-core`: **`/Users/ny/.openclaw/workspace/node_modules`** に在る
+- Chrome: **CDP 18810 で応答あり**
+
+rc=0
+
+### dyson-list
+- 「ダイソン ヘアドライヤー｜パワフルな風で低温なのに速乾」 https://www.dyson.co.jp/hair-care/hair-dryers
+- 本文 3713 文字 / 画像（幅600以上）26 枚
+
+- ダイソンの製品ページ候補 9 件
+  -  — https://www.dyson.co.jp/hair-care/hair-dryers/supersonic-travel/ceramic-pink
+  -  — https://www.dyson.co.jp/hair-care/hair-dryers/supersonic/lite-black-nickel
+  -  — https://www.dyson.co.jp/hair-care/hair-dryers/supersonic-travel/dark-blue-copper
+  -  — https://www.dyson.co.jp/hair-care/hair-dryers/supersonic-r/ceramic-patina-topaz
+  -  — https://www.dyson.co.jp/hair-care/hair-dryers/supersonic-r/vinca-blue
+  -  — https://www.dyson.co.jp/hair-care/hair-dryers/supersonic-r/ceramic-pink
+  -  — https://www.dyson.co.jp/hair-care/hair-dryers/supersonic-nural-shine/dark-blue-copper
+  -  — https://www.dyson.co.jp/hair-care/hair-dryers/supersonic-nural-shine/plum-copper
+  -  — https://www.dyson.co.jp/hair-care/hair-dryers/supersonic-nural-shine/ceramic-pink
+
+### dyson-p1
+- 「Dyson Supersonic Nural™ Shineヘアドライヤー ダークブルー／コッパー (HD16 DBBC) | ダイソン公式」 https://www.dyson.co.jp/hair-care/hair-dryers/supersonic-nural-shine/dark-blue-copper
+- 本文 6561 文字 / 画像（幅600以上）34 枚
+  - img dyson-p1-1.png 615x461 87306B 「Dyson Supersonic Nural™ Shineヘアドライヤー ダークブルーコッパー」 https://dyson-h.assetsadobe2.com/is/image/content/dam/dyson/leap-petite-global/products/hair-care/supersonic-nural/pdp/prussian-blue-rich-co
+  - img dyson-p1-2.jpg 1080x1080 87206B 「自動温度調整¹で熱ダメージを防ぐ²」 https://dyson-h.assetsadobe2.com/is/image/content/dam/dyson/jp/products/hc/jwy/lookbook-605g/HC08_Cojp_605G_1.jpg
+  - img dyson-p1-3.jpg 1080x1080 79619B 「低温ツールでデリケートな頭皮や髪にやさしい風を」 https://dyson-h.assetsadobe2.com/is/image/content/dam/dyson/jp/products/hc/jwy/lookbook-605g/HC08_Cojp_605G_2.jpg
+  - img dyson-p1-4.jpg 1080x1080 74677B 「ツヤ出しツールでうねりを抑え、浮き毛を抑制」 https://dyson-h.assetsadobe2.com/is/image/content/dam/dyson/jp/products/hc/jwy/lookbook-605g/HC08_Cojp_605G_3.jpg
+  - img dyson-p1-5.png 946x104 12463B 「」 https://www.dyson.co.jp/content/dam/dyson/motifs/master/pc/dyson-supersonic/supersonic-nural-shine.png
+
+### dyson-p2
+- 「Dyson Supersonic™ Travelヘアドライヤー セラミックピンク (HD19 VLP) | ヘアケア | ダイソン公式」 https://www.dyson.co.jp/hair-care/hair-dryers/supersonic-travel/ceramic-pink
+- 本文 7410 文字 / 画像（幅600以上）41 枚
+  - img dyson-p2-1.png 615x461 61417B 「Dyson Supersonic™ Travel ヘアドライヤー」 https://dyson-h.assetsadobe2.com/is/image/content/dam/dyson/images/specifications/beauty/hair-dryers/supersonic-travel/Web_921_Dynamic_Spec_
+  - img dyson-p2-2.jpg 800x1200 48106B 「Dyson Supersonic Nural™ Shineヘアドライヤー プラム／コッパ― (HD16 PC)」 https://dyson-h.assetsadobe2.com/is/image/content/dam/dyson/images/products/primary/318942-01.png
+  - img dyson-p2-3.jpg 800x1200 31668B 「Dyson Supersonic™ Travelヘアドライヤー ダークブルー／コッパー (HD19 DBBC)」 https://dyson-h.assetsadobe2.com/is/image/content/dam/dyson/images/products/primary/673739-01.png
+  - img dyson-p2-4.jpg 800x1200 33595B 「Dyson Supersonic™ Originヘアドライヤー ブラック／ニッケル (HD08 BBN)」 https://dyson-h.assetsadobe2.com/is/image/content/dam/dyson/images/products/primary/711289-01.png
+  - img dyson-p2-5.jpg 800x1200 27197B 「Dyson Supersonic r™ヘアドライヤー ビンカブルー／トパーズ (HD17 VBTO)」 https://dyson-h.assetsadobe2.com/is/image/content/dam/dyson/images/products/primary/522097-01.png
+
+### dyson-p3
+- 「Dyson Supersonic r™ヘアドライヤー セラミックパティーナ／トパーズ (HD17 CPATO) | ヘアケア | ダイソン公式」 https://www.dyson.co.jp/hair-care/hair-dryers/supersonic-r/ceramic-patina-topaz
+- 本文 6192 文字 / 画像（幅600以上）37 枚
+  - img dyson-p3-1.png 615x410 56375B 「」 https://dyson-h.assetsadobe2.com/is/image/content/dam/dyson/products/hair-care/505d/consumer/pdp/patina-topaz/505D_DM_Specification_CPACTPOR
+  - img dyson-p3-2.jpg 800x800 10957B 「星5つ」 https://dyson-h.assetsadobe2.com/is/image/content/dam/dyson/products/hair-care/dyson-airwrapid/PDPs/vinca-blue-topaz/anchor-links/HC-Reviews
+  - img dyson-p3-3.jpg 1080x1080 78806B 「Dyson Supersonic rヘアドライヤーを使用している女性」 https://dyson-h.assetsadobe2.com/is/image/content/dam/dyson/jp/products/hc/jwy/lookbook-505d/HC08_Cojp_505D_7.jpg
+  - img dyson-p3-4.jpg 1080x1080 62926B 「Dyson Supersonic rヘアドライヤーでスタイリングした女性モデル」 https://dyson-h.assetsadobe2.com/is/image/content/dam/dyson/jp/products/hc/jwy/lookbook-505d/HC08_Cojp_505D_8.jpg
+  - img dyson-p3-5.jpg 1920x748 51990B 「Dyson Supersonic rヘアドライヤーと低温ツールで髪を乾かすモデル」 https://dyson-h.assetsadobe2.com/is/image/content/dam/dyson/jp/products/hc/jwy/HO04_HC_505D_JWY_cojp-asset_260126.jpg?$responsive$&cropPathE
+
+### yaman-top
+- 「ヤーマン公式通販サイト | ヤーマンオンラインストア」 https://www.ya-man.com/
+- 本文 4324 文字 / 画像（幅600以上）46 枚
+
+### yaman-search
+- 「ヤーマン公式通販サイト | ヤーマンオンラインストア」 https://www.ya-man.com/
+- 本文 4324 文字 / 画像（幅600以上）46 枚
+
+- ヤーマンのドライヤー候補 2 件
+  - ドライヤー — https://www.ya-man.com/Form/Product/ProductList.aspx?cat=104101
+  - 2026/09/17 ミーゼからコンパクトなドライヤー『mysé Airy Me』が新登場！ — https://www.ya-man.com/Form/Product/ProductDetail.aspx?shop=0&pid=ms91&topTopics
+
+### yaman-p1
+- 「ドライヤー｜ヤーマン公式通販サイト | ヤーマンオンラインストア」 https://www.ya-man.com/Form/Product/ProductList.aspx?cat=104101
+- 本文 1518 文字 / 画像（幅600以上）34 枚
+  - img yaman-p1-1.jpg 0x0 10334B 「og:image」 https://www.ya-man.com/Contents/Feature/OGP.jpg
+  - img yaman-p1-2.jpg 3360x134 58856B 「」 https://www.ya-man.com/Contents%2fFeature%2fbn3360_134_holiday2026.jpg
+  - img yaman-p1-3.jpg 3360x134 49807B 「」 https://www.ya-man.com/Contents%2fFeature%2fbn3360_134_bf2026.jpg
+  - img yaman-p1-4.jpg 1500x230 53729B 「」 https://www.ya-man.com/Contents%2fFeature%2fbn1500_230_bf2026.jpg
+  - img yaman-p1-5.jpg 600x600 13920B 「フェイスケア」 https://www.ya-man.com/Contents/ImagesPkg/top_all/category/cat101.jpg
+
+### yaman-p2
+- 「ミーゼ Airy Me（エアリーミー）｜ヤーマン公式通販サイト | ヤーマンオンラインストア」 https://www.ya-man.com/Form/Product/ProductDetail.aspx?shop=0&pid=ms91&topTopics
+- 本文 1800 文字 / 画像（幅600以上）76 枚
+  - img ✗ 404 https://www.ya-man.com/Contents/Feature/ms91_M.jpg
+  - img yaman-p2-1.jpg 3360x134 58856B 「」 https://www.ya-man.com/Contents%2fFeature%2fbn3360_134_holiday2026.jpg
+  - img yaman-p2-2.jpg 3360x134 49807B 「」 https://www.ya-man.com/Contents%2fFeature%2fbn3360_134_bf2026.jpg
+  - img yaman-p2-3.jpg 1500x230 53729B 「」 https://www.ya-man.com/Contents%2fFeature%2fbn1500_230_bf2026.jpg
+  - img yaman-p2-4.jpg 600x600 13920B 「フェイスケア」 https://www.ya-man.com/Contents/ImagesPkg/top_all/category/cat101.jpg
+  - img yaman-p2-5.jpg 600x600 13781B 「ヘアケア」 https://www.ya-man.com/Contents/ImagesPkg/top_all/category/cat104.jpg
+
+---
+経過 82 秒
+
+ 
+ 
+352 .
+59776 ..
+9514 dyson-list.txt
+16338 dyson-p1.txt
+17809 dyson-p2.txt
+15239 dyson-p3.txt
+864 img
+2826 yaman-p1.txt
+4121 yaman-p2.txt
+9791 yaman-search.txt
+9791 yaman-top.txt
+ 
+ 
+ 
+864 .
+352 ..
+87306 dyson-p1-1.png
+87206 dyson-p1-2.jpg
+79619 dyson-p1-3.jpg
+74677 dyson-p1-4.jpg
+12463 dyson-p1-5.png
+61417 dyson-p2-1.png
+48106 dyson-p2-2.jpg
+31668 dyson-p2-3.jpg
+33595 dyson-p2-4.jpg
+27197 dyson-p2-5.jpg
+56375 dyson-p3-1.png
+10957 dyson-p3-2.jpg
+78806 dyson-p3-3.jpg
+62926 dyson-p3-4.jpg
+51990 dyson-p3-5.jpg
+10334 yaman-p1-1.jpg
+58856 yaman-p1-2.jpg
+49807 yaman-p1-3.jpg
+53729 yaman-p1-4.jpg
+13920 yaman-p1-5.jpg
+58856 yaman-p2-1.jpg
+49807 yaman-p2-2.jpg
+53729 yaman-p2-3.jpg
+13920 yaman-p2-4.jpg
+13781 yaman-p2-5.jpg
+
+**読むだけ。LLM 不使用（$0／回）。**

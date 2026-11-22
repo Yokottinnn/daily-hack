@@ -1,0 +1,212 @@
+# AdSense の自動広告がオンかを読む（2026-11-15 20:39:10 JST・押さない・入力しない・$0）
+
+- u/0: **読める**
+
+## ホーム
+- URL: https://adsense.google.com/adsense/u/0/pub-3805028233672648/home（題名 ホーム – Google AdSense）
+- 本文:
+  - お支払いの受け取り手順
+  - 残高が最低お支払い額に達したときにお支払いを受け取れるよう、必ず事前にすべての設定を完了してください。 詳細
+  - 身元確認
+  - 最低収益額
+  - 銀行の詳細
+  - 最低お支払い額
+  - 送金済みお支払い額
+  - 身元確認
+  - 本人確認
+  - 収益化を開始するには、身元確認を行う必要があります。
+  - 詳細
+  - 本人確認
+  - 推奨
+  - 税務情報を追加
+  - お支払い金額を正しく計算するには、税務情報の提供が必要になる場合があります。
+  - 詳細
+  - 税務情報を追加
+  - 推奨
+  - 広告をさらに作成
+  - 新しい広告でサイトの収益を増やしましょう。
+  - 詳細
+  - 広告を作成
+  - expand_less
+  - 閉じる
+  - 4 個のうち 1～3個目を表示中
+  - chevron_left
+  - chevron_right
+  - 推定収益額
+  - more_vert
+  - 本日（現時点まで）
+  - ￥#
+  - ￥#
+  - 昨日
+  - ￥#
+  - ￥#
+  - +￥#
+  - 変更なし
+  - 先週の同じ曜日との比較
+  - 過去 7 日間
+  - ￥#
+  - ￥#
+  - +￥#
+  - 変更なし
+  - 過去 7 日間との比較
+  - 今月
+  - ￥#
+  - ￥#
+  - +￥#
+  - 変更なし
+  - 前年同期との比較
+  - 残高
+  - more_vert
+  - ¥#
+  - 前回の支払い
+  - ￥#
+  - star
+  - お客様の参考になりそうな情報を表示しています
+  - お客様に合わせてカスタマイズされた収益増加のヒントを受け取りましょう
+  - サイトの掲載結果を最適化する方法を確認したり、AdSense に関する最新情報を入手したりできます。
+  - 今すぐご登録ください
+  - 閉じる
+  - new_releases
+  - お客様の参考になりそうな情報を表示しています
+  - お知らせ
+  - more_vert
+  - 1
+  - Google の AI ラベルの表示対象地域が拡大
+  - 2026 年 11 月 12 日
+  - カリフォルニア、韓国、ベトナムで今後導入される規制要件に対応するため、Google は 2026 年 11 月より、これらの地域で AI ラベルの機能を拡張します。パブリッシャーのプロパティでは...
+  - 2
+  - TCF エラーレポートがポリシー センターに移行
+  - 2026 年 10 月 15 日
+  - EEA、英国、スイスからの広告リクエストに関連付けられている IAB TCF TC 文字列で検出された問題を表示していた TCF エラーレポートが、[ブランド保護]、[コンテンツ]、[ブロックの...
+  - お知らせの表示
+  - keep_outline
+  - expand_more
+  - © 2026 Google.
+
+## 広告 › サイトごと
+- URL: https://adsense.google.com/adsense/u/0/pub-3805028233672648/myads/sites（題名 広告 – Google AdSense）
+- 本文:
+  - サイトごと
+  - 広告ユニットごと
+  - 全般設定
+  - サイトの広告を管理しましょう
+  - 広告掲載を自動化しましょう。 自動広告⁠open_in_new‎フォーマットと 自動最適化⁠open_in_new‎テストを使用すると、すべての最適な場所に自動的に広告が表示されます
+  - AdSense コードをコピー
+  - サイト
+  - AMP 設定
+  - chevron_right
+  - search
+  - サイト名で検索
+  - filter_list
+  - 名前
+  - 自動最適化
+  - 自動広告
+  - アクション
+  - fieldbeside.com
+  - オン
+  - オン
+  - insert_chart
+  - mode_edit
+  - 表示行数:
+  - 10
+  - arrow_drop_down
+  - 1 件中 1～1 件を表示
+  - first_page
+  - chevron_left
+  - chevron_right
+  - last_page
+
+## サイト
+- URL: https://adsense.google.com/adsense/u/0/pub-3805028233672648/sites/list（題名 サイト – Google AdSense）
+- 本文:
+  - サイトの管理
+  - AdSense で収益化したいサイトを追加します。 サイトの収益化に関する詳細
+  - add
+  - 新しいサイト
+  - search
+  - 検索
+  - filter_list
+  - フィルタ:
+  - 準備完了
+  - 準備中
+  - 要審査
+  - 要確認
+  - サイトの URL
+  - 承認状況
+  - help_outline
+  - ステータスの詳細
+  - ads.txt のステータス
+  - help_outline
+  - 最終更新
+  - help_outline
+  - 操作
+  - fieldbeside.com
+  - 準備完了
+  - —
+  - 承認済み
+  - 2026年11月15日
+  - 15:55 | JST
+  - delete
+  - 次のページに移動:
+  - 最大 1
+  - 表示行数:
+  - 50
+  - arrow_drop_down
+  - 1 件中 1～1 件を表示
+  - first_page
+  - chevron_left
+  - chevron_right
+  - last_page
+
+## 自動広告の設定（daily-hack）
+- URL: https://adsense.google.com/adsense/u/0/pub-3805028233672648/myads/sites/preview（題名 広告 – Google AdSense）
+- 切り替え:
+  - 広告 = undefined
+  - 自動広告 = true
+- 本文:
+  - サイトごと
+  - 広告ユニットごと
+  - 全般設定
+  - close
+  - 広告設定のプレビュー
+  - | fieldbeside.com
+  - info_outline
+  - feedback
+  - フィードバックを送信
+  - 広告設定
+  - 自動最適化
+  - 自動広告
+  - done
+  - サイトのすべての最適な場所に自動的に広告を表示します
+  - 自動広告の詳細⁠open_in_new‎
+  - フォーマットによっては、収益分配率が異なる場合があります。 フォーマットごとの収益分配率の詳細⁠open_in_new‎
+  - インテント重視のフォーマット ベータ版
+  - （0/1）
+  - chevron_right
+  - オーバーレイ フォーマット
+  - （3/3）
+  - chevron_right
+  - ページ内フォーマット
+  - （1/2）
+  - chevron_right
+  - 除外エリア
+  - chevron_right
+  - 除外ページ
+  - chevron_right
+  - サイトに適用
+  - arrow_back
+  - refresh
+  - 8 個のページ内広告
+  - error_outline
+  - コードを取得
+  - smartphone
+  - モバイル
+  - computer
+  - Desktop
+
+## お支払い・本人確認
+- URL: https://adsense.google.com/adsense/u/0/pub-3805028233672648/payments（題名 お支払い情報 – お支払い – Google AdSense）
+- 本文:
+  - お支払いアカウント
+  - AdSense（日本）
+

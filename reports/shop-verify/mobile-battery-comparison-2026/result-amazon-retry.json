@@ -1,0 +1,32 @@
+{
+ "slug": "mobile-battery-comparison-2026",
+ "generated": "2026-10-31T02:31:29.460Z",
+ "total": 1,
+ "rows": [
+  {
+   "n": "01",
+   "store": "amazon",
+   "name": "",
+   "model": "Anker Zolo Power Bank 10000mAh 30W A1688",
+   "href": "https://www.amazon.co.jp/s?k=Anker%20Zolo%20Power%20Bank%2010000mAh%2030W%20A1688&tag=dailyhack-22",
+   "chain": [
+    "https://m.media-amazon.com/images/S/sash/sZn4-gu-i21bZhf.html",
+    "https://aax-fe.amazon-adsystem.com/s/iu3?d=amazon.co.jp&slot=navFooter&a2=0101558b2fcc76c9298154da3e1d2bc59c2eafa0443fb7ca34de785140ef482c35b9&old_oo=0&ts=1793413884098&s=AfTcwQ-bGG_3QO1XkoWpIzgjzUVrOkbk-M4Ssnnk5bTg&gdpr_consent=&gdpr_consent_avl=&cb=1793413884098",
+    "https://aax-fe.amazon-adsystem.com/s/iu3?d=amazon.co.jp&slot=navFooter&a2=0101558b2fcc76c9298154da3e1d2bc59c2eafa0443fb7ca34de785140ef482c35b9&old_oo=0&ts=1793413884098&s=AfTcwQ-bGG_3QO1XkoWpIzgjzUVrOkbk-M4Ssnnk5bTg&gdpr_consent=&gdpr_consent_avl=&cb=1793413884098&dcc=t",
+    "https://www.amazon.co.jp/s?k=Anker+Zolo+Power+Bank+10000mAh+30W+A1688&tag=dailyhack-22"
+   ],
+   "fin": "https://www.amazon.co.jp/s?k=Anker+Zolo+Power+Bank+10000mAh+30W+A1688&tag=dailyhack-22",
+   "aff": "着いた先の URL に tag=dailyhack-22（アソシエイトの印）",
+   "found": "検索結果 36 件",
+   "title": "Amazon.co.jp : Anker Zolo Power Bank 10000mAh 30W A1688",
+   "robot": false,
+   "cart": true,
+   "amazonResults": 36,
+   "rakutenResults": 0,
+   "yahooResults": 0,
+   "noHit": false,
+   "modelOnPage": true,
+   "shot": "r01-amazon.jpg"
+  }
+ ]
+}

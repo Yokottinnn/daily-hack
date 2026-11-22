@@ -1,0 +1,150 @@
+# AdSense の広告が出ない原因を確かめる（2026-11-15 21:12:10 JST・読むだけ）
+
+## 本番の記事 point-service-complete-guide-2026（Mac の回線・会社のプロファイル）
+- 本文に自動で置かれた広告: 0
+- 広告の枠: unfilled（全画面用の控え）・高さ 0
+- AdSense の設定: {"head_tag_slot_vars":{"google_ad_client":"ca-pub-3805028233672648"},"first_tag_on_page":1,"page_contains_reactive_tag":true,"allow_second_reactive_tag":false,"ads_density_stats_processed":true}
+
+## 本番の記事 lalaport-guide-2026（Mac の回線・会社のプロファイル）
+- 本文に自動で置かれた広告: 0
+- 広告の枠: unfilled（全画面用の控え）・高さ 0
+- AdSense の設定: {"head_tag_slot_vars":{"google_ad_client":"ca-pub-3805028233672648"},"first_tag_on_page":1,"page_contains_reactive_tag":true,"allow_second_reactive_tag":false,"ads_density_stats_processed":true}
+
+## レポート（既定）
+- URL: https://adsense.google.com/adsense/u/0/pub-3805028233672648/reporting
+  - error_outline
+  - アラート
+  - 要ご対応: AdSense お支払いアカウントをご確認ください
+  - [お支払い] に移動
+  - warning_amber
+  - 警告
+  - ウクライナでの戦争を受け、Google は、戦争を利用するコンテンツ、戦争の存在を否定するコンテンツ、または戦争を容認するコンテンツを含む広告の収益化を一時停止します
+  - 表示しない
+  - 今日
+  - check
+  - 過去 7 日間
+  - 過去 30 日間
+  - 今月
+  - 先月
+  - カスタム
+  - arrow_drop_down
+  - settings
+  - search
+  - レポートを検索
+  - add
+  - 未保存のレポート
+  - clear
+  - Entire account by day
+  - Estimated earnings by Date
+  - Top pages
+  - Earnings for your popular pages
+  - more_vert
+  - Sites
+  - Performance of each site
+  - more_vert
+  - Content platform
+  - Estimated earnings by Platform、Content Platform
+  - more_vert
+  - Countries
+  - How ads perform by country
+  - more_vert
+  - Ad units
+  - Estimated earnings by Ad unit
+  - more_vert
+  - Platforms
+  - Estimated earnings by Platform
+  - more_vert
+  - Entire account by week
+  - Estimated earnings by Week
+  - more_vert
+  - Entire account by month
+  - Estimated earnings by Month
+  - more_vert
+  - Custom channels
+  - Estimated earnings by Custom channel
+  - more_vert
+  - URL channels
+  - Estimated earnings by URL channels
+  - more_vert
+  - Verified sites
+  - Estimated earnings by Verified site
+  - more_vert
+  - Served creatives
+  - Estimated earnings by Served creative
+  - more_vert
+  - Ad formats
+  - Performance of different ad types
+  - more_vert
+  - Ad sizes
+  - Estimated earnings by Ad size
+  - more_vert
+  - Creative sizes
+  - Estimated earnings by Creative size
+  - more_vert
+  - Targeting types
+  - Estimated earnings by Targeting type
+  - more_vert
+  - Bid types
+  - Estimated earnings by Bid type
+  - more_vert
+  - Ad networks
+  - Estimated earnings by Ad network
+  - more_vert
+  - apps
+  - 未保存のレポート
+  - 保存
+  - more_vert
+  - 内訳:
+  - 日付
+  - arrow_drop_down
+  - add
+  - 追加
+  - filter_alt
+  - check
+  - 推定収益額
+  - ページ ビュー
+  - ページのインプレッション収益
+  - 表示回数
+  - インプレッション収益
+  - アクティブ ビュー視認可能率
+  - クリック数
+  - edit
+  - multiline_chart
+  - 表で目のアイコンをクリックするとグラフにデータが表示されます
+  - 日付
+  - 推定収益額
+  - ページ ビュー
+  - ページのインプレッション収益
+  - 表示回数
+  - インプレッション収益
+  - アクティブ ビュー視認可能率
+  - クリック数
+  - すべて
+  - ［数字］0
+  - ［数字］0
+  - —
+  - ［数字］0
+  - —
+  - —
+  - ［数字］0
+  - 表示行数:
+  - ［数字］1 以上
+  - arrow_drop_down
+  - 1 件中 1～1 件を表示
+  - first_page
+  - chevron_left
+  - chevron_right
+  - last_page
+  - feedback
+
+## ポリシー センター
+- URL: https://adsense.google.com/adsense/u/0/pub-3805028233672648/policy-center
+  - 現在、問題はありません
+  - サイトの広告配信を停止または制限する問題は現在発生していません。引き続き、優れたサイトの開発に取り組んでください。
+  - ポリシー センターの詳細
+
+## お支払い
+- URL: https://adsense.google.com/adsense/u/0/pub-3805028233672648/payments
+  - お支払いアカウント
+  - AdSense（日本）
+

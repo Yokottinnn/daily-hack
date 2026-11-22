@@ -1,0 +1,95 @@
+# コードレススティック掃除機の公式ページ（t810・**$0**）
+
+生成: **2026-11-22T11:29:00+0900**
+
+- `playwright-core`: **`/Users/ny/.openclaw/workspace/node_modules`** に在る
+- Chrome: **CDP 18810 で応答あり**
+
+rc=0
+
+### dyson-cordless（ダイソン コードレススティック掃除機｜パワフルな吸引力で快適な掃除を）
+- URL: https://www.dyson.co.jp/vacuum-cleaners/cordless
+- 本文 5844 文字 / 大きい画像 13 枚 / og:image 
+  - img 1920x674 「Exploded cutaway of Dyson Fluffycones cleaner head showing t」 https://dyson-h.assetsadobe2.com/is/image/content/dam/dyson/products/home/floorcare/powerbroom/pencilvac/fallback/Web_683_Overview_FALLBACK-IMG_Module_1.jpg?$responsive$&cropPathE=desktop&fit=stretch,
+  - img 1920x674 「Exploded cutaway of Dyson Fluffycones cleaner head showing t」 https://dyson-h.assetsadobe2.com/is/image/content/dam/dyson/products/home/floorcare/powerbroom/pencilvac/fallback/Web_683_Overview_FALLBACK-IMG_Module_1.jpg?$responsive$&cropPathE=desktop&fit=stretch,
+  - img 1920x523 「ダイソンのコードレス掃除機に搭載されたHEPAフィルターが、微細な粒子やアレルゲンを捕捉する様子を切り取ったもの。」 https://dyson-h.assetsadobe2.com/is/image/content/dam/dyson/campaigns/plp-2024/TechCarousel_4.jpg?cropPathE=desktop&fit=stretch,1&wid=1920
+  - img 1920x523 「ダイソンの掃除機を切り取ったもので、ダイソン独自のハイパーダイミウムモーターが吸引力を生み出している。」 https://dyson-h.assetsadobe2.com/is/image/content/dam/dyson/jp/products/fc/pdp/pencilvac/TechCarousel_1_2.jpg?cropPathE=desktop&fit=stretch,1&wid=1920
+  - img 1920x523 「デジタルモーターバーのクリーナーヘッドの切り抜きで、床を掃除する内部技術を示す。」 https://dyson-h.assetsadobe2.com/is/image/content/dam/dyson/campaigns/plp-2024/TechCarousel_2.jpg?cropPathE=desktop&fit=stretch,1&wid=1920
+  - img 1920x523 「ダイソンのルートサイクロン分離システムの切り抜きで、吸引力の低下を防いでいることがわかる。」 https://dyson-h.assetsadobe2.com/is/image/content/dam/dyson/campaigns/plp-2024/TechCarousel_3.jpg?cropPathE=desktop&fit=stretch,1&wid=1920
+  - img 1920x523 「ダイソンのコードレス掃除機に搭載されたHEPAフィルターが、微細な粒子やアレルゲンを捕捉する様子を切り取ったもの。」 https://dyson-h.assetsadobe2.com/is/image/content/dam/dyson/campaigns/plp-2024/TechCarousel_4.jpg?cropPathE=desktop&fit=stretch,1&wid=1920
+  - img 1920x523 「ダイソンの掃除機を切り取ったもので、ダイソン独自のハイパーダイミウムモーターが吸引力を生み出している。」 https://dyson-h.assetsadobe2.com/is/image/content/dam/dyson/jp/products/fc/pdp/pencilvac/TechCarousel_1_2.jpg?cropPathE=desktop&fit=stretch,1&wid=1920
+- 一致したリンク 6 件
+  -  — https://www.dyson.co.jp/vacuum-cleaners/powerbroom/pencilvac/fluffycones
+  - すべてのレビューを読む — https://www.dyson.co.jp/vacuum-cleaners/powerbroom/pencilvac/reviews
+  -  — https://www.dyson.co.jp/vacuum-cleaners/cordless/v12/detect-slim-absolute-gold-iron-gold
+  - すべてのレビューを読む — https://www.dyson.co.jp/vacuum-cleaners/cordless/v12/reviews
+  -  — https://www.dyson.co.jp/vacuum-cleaners/cordless/v12/detect-slim-absolute
+  -  — https://www.dyson.co.jp/vacuum-cleaners/powerbroom/pencilvac/fluffy
+
+### dyson-cordless-p1（ダイソン ペンシルバック | 掃除機 | ダイソン公式）
+- URL: https://www.dyson.co.jp/vacuum-cleaners/powerbroom/pencilvac/fluffycones
+- 本文 5814 文字 / 大きい画像 38 枚 / og:image 
+  - img 576x864 「Dyson PencilVac Fluffycones logo.」 https://dyson-h.assetsadobe2.com/is/image/content/dam/dyson/images/products/primary/499044-01.png?cropPathE=desktop&fit=stretch,1&wid=576
+  - img 576x720 「Dyson PencilVac Fluffyconesと、出し入れが自由自在な充電スタンド」 https://dyson-h.assetsadobe2.com/is/image/content/dam/dyson/jp/products/fc/pdp/pencilvac/683_update_video_thumbnail_vertical.jpg?cropPathE=desktop&fit=stretch,1&wid=576
+  - img 576x720 「」 https://dyson-h.assetsadobe2.com/is/image/content/dam/dyson/products/vacuum-cleaners-category/pencilvac/pdp/fluffycones/gallery/683-PDP-Fluffycones-Gallery-3_vertical.jpg?cropPathE=desktop&fit=stretch
+  - img 576x720 「」 https://dyson-h.assetsadobe2.com/is/image/content/dam/dyson/products/vacuum-cleaners-category/pencilvac/pdp/fluffycones/gallery/683-PDP-Fluffycones-Gallery-4_vertical.jpg?cropPathE=desktop&fit=stretch
+  - img 576x720 「」 https://dyson-h.assetsadobe2.com/is/image/content/dam/dyson/products/vacuum-cleaners-category/pencilvac/pdp/fluffycones/gallery/683-PDP-Fluffycones-Gallery-5_vertical.jpg?cropPathE=desktop&fit=stretch
+  - img 576x324 「」 https://dyson-h.assetsadobe2.com/is/image/content/dam/dyson/products/vacuum-cleaners-category/pencilvac/pdp/fluffycones/gallery/683-PDP-Fluffycones-Gallery-6_vertical.jpg?cropPathE=desktop&fit=stretch
+  - img 576x324 「」 https://dyson-h.assetsadobe2.com/is/image/content/dam/dyson/products/vacuum-cleaners-category/pencilvac/pdp/fluffycones/gallery/683-PDP-Fluffycones-Gallery-8_vertical.jpg?cropPathE=desktop&fit=stretch
+  - img 576x321 「」 https://dyson-h.assetsadobe2.com/is/image/content/dam/dyson/products/vacuum-cleaners-category/pencilvac/pdp/fluffycones/gallery/683-PDP-Fluffycones-Gallery-1_vertical.jpg?cropPathE=desktop&fit=stretch
+  - 保存 img/dyson-cordless-p1-1.jpg 21316 bytes ← https://dyson-h.assetsadobe2.com/is/image/content/dam/dyson/images/products/primary/499044-01.png?cropPathE=desktop&fit=stretch,1&wid=576
+  - 保存 img/dyson-cordless-p1-2.jpg 17268 bytes ← https://dyson-h.assetsadobe2.com/is/image/content/dam/dyson/jp/products/fc/pdp/pencilvac/683_update_video_thumbnail_vertical.jpg?cropPathE=desktop&fit=stretch,1
+  - 保存 img/dyson-cordless-p1-3.jpg 38342 bytes ← https://dyson-h.assetsadobe2.com/is/image/content/dam/dyson/products/vacuum-cleaners-category/pencilvac/pdp/fluffycones/gallery/683-PDP-Fluffycones-Gallery-3_ve
+
+### dyson-cordless-p2（Dyson PencilVac™ コードレスクリーナーの口コミ・レビュー | ダイソン公式）
+- URL: https://www.dyson.co.jp/vacuum-cleaners/powerbroom/pencilvac/reviews
+- 本文 1770 文字 / 大きい画像 6 枚 / og:image 
+  - img 576x864 「」 https://dyson-h.assetsadobe2.com/is/image/content/dam/dyson/images/products/primary/499044-01.png?$responsive$&fmt=png-alpha&cropPathE=desktop&fit=stretch,1&wid=576
+  - img 1920x749 「A person cleans around their home with the Dyson PencilVac F」 https://dyson-h.assetsadobe2.com/is/image/content/dam/dyson/products/home/floorcare/powerbroom/pencilvac/rcc/Web_683_Fluffycones_Reviews.jpg?$responsive$&cropPathE=desktop&fit=stretch,1&fmt=pjpeg&wid=
+  - img 512x512 「」 https://www.dyson.co.jp/content/dam/dyson/icons/owner-footer/mydyson/guarantee-activate.png
+  - img 560x560 「ダイソンチャットボットのマーク」 https://www.dyson.co.jp/content/dam/dyson/icons/Vector.png
+  - img 1001x1000 「ダイソンCSお客様相談室　LINE公式アカウント」 https://www.dyson.co.jp/content/dam/dyson/icons/LINE_Brand_icon.png
+  - img 800x1200 「Dyson PencilVac Fluffycones (SV50 FC)」 https://dyson-h.assetsadobe2.com/is/image/content/dam/dyson/images/products/primary/499044-01.png
+  - 保存 img/dyson-cordless-p2-1.png 137781 bytes ← https://dyson-h.assetsadobe2.com/is/image/content/dam/dyson/images/products/primary/499044-01.png?$responsive$&fmt=png-alpha&cropPathE=desktop&fit=stretch,1&wid
+  - 保存 img/dyson-cordless-p2-2.jpg 63197 bytes ← https://dyson-h.assetsadobe2.com/is/image/content/dam/dyson/products/home/floorcare/powerbroom/pencilvac/rcc/Web_683_Fluffycones_Reviews.jpg?$responsive$&cropPa
+  - 保存 img/dyson-cordless-p2-3.png 14828 bytes ← https://www.dyson.co.jp/content/dam/dyson/icons/owner-footer/mydyson/guarantee-activate.png
+
+### dyson-cordless-p3（Dyson V12 Detect Slim Absolute (SV46 ABL EX) | 掃除機 | ダイソン公式）
+- URL: https://www.dyson.co.jp/vacuum-cleaners/cordless/v12/detect-slim-absolute-gold-iron-gold
+- 本文 8157 文字 / 大きい画像 39 枚 / og:image 
+  - img 576x864 「v12 detect slimロゴ」 https://dyson-h.assetsadobe2.com/is/image/content/dam/dyson/images/products/primary-locale/ja_jp/447831-01.png?cropPathE=desktop&fit=stretch,1&wid=576
+  - img 576x324 「」 https://dyson-h.assetsadobe2.com/is/image/content/dam/dyson/jp/products/fc/led/illumination_video_thumbnail_vertical.jpg?cropPathE=desktop&fit=stretch,1&wid=576
+  - img 576x720 「Dyson V12 Detect Slim vacuum with Slim Fluffy Laser cleaner 」 https://dyson-h.assetsadobe2.com/is/image/content/dam/dyson/images/gallery/home/floorcare/cordless/v12-detect-slim/hepa-gold/V12_HEPA_gold_PDP_gallery_images_versatility_vertical.jpg?cropPathE=desktop
+  - img 576x720 「Laser Slim Fluffy cleaner head revealing dust.」 https://dyson-h.assetsadobe2.com/is/image/content/dam/dyson/images/gallery/home/floorcare/cordless/v12-detect-slim/hepa-gold/02-Gallery-laser-gold_vertical.jpg?cropPathE=desktop&fit=stretch,1&wid=576
+  - img 576x720 「Hair screw tool sucking up long hair.」 https://dyson-h.assetsadobe2.com/is/image/content/dam/dyson/images/gallery/home/floorcare/cordless/v12-detect-slim/hepa-gold/07-Gallery-Hair-screw-gold_vertical.jpg?cropPathE=desktop&fit=stretch,1&wid
+  - img 576x720 「Cutaway of the Dyson Hyperdymium motor.」 https://dyson-h.assetsadobe2.com/is/image/content/dam/dyson/images/gallery/home/floorcare/cordless/v12-detect-slim/hepa-gold/V12_HEPA_gold_PDP_gallery_images_tech_vertical.jpg?cropPathE=desktop&fit=st
+  - img 576x720 「Cutaway of multi-stage filtration.」 https://dyson-h.assetsadobe2.com/is/image/content/dam/dyson/images/gallery/home/floorcare/cordless/v12-detect-slim/hepa-gold/V12_HEPA_gold_PDP_gallery_images_filtration_vertical.jpg?cropPathE=desktop&
+  - img 576x720 「LCD screen showing real-time particle count.」 https://dyson-h.assetsadobe2.com/is/image/content/dam/dyson/images/gallery/home/floorcare/cordless/v12-detect-slim/hepa-gold/V12_HEPA_gold_PDP_gallery_images_LCDscreen_nasties_vertical.jpg?cropPathE=d
+  - 保存 img/dyson-cordless-p3-1.jpg 33548 bytes ← https://dyson-h.assetsadobe2.com/is/image/content/dam/dyson/images/products/primary-locale/ja_jp/447831-01.png?cropPathE=desktop&fit=stretch,1&wid=576
+  - 保存 img/dyson-cordless-p3-2.jpg 18311 bytes ← https://dyson-h.assetsadobe2.com/is/image/content/dam/dyson/jp/products/fc/led/illumination_video_thumbnail_vertical.jpg?cropPathE=desktop&fit=stretch,1&wid=576
+  - 保存 img/dyson-cordless-p3-3.jpg 41333 bytes ← https://dyson-h.assetsadobe2.com/is/image/content/dam/dyson/images/gallery/home/floorcare/cordless/v12-detect-slim/hepa-gold/V12_HEPA_gold_PDP_gallery_images_ve
+- ⚠️ shark-top: Error: page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.sharkninja.co.jp/
+Call log:
+  - navigating to "https://www.sharkninja.co.jp/", w
+- ⚠️ makita-cleaner: Error: page.goto: Navigation to "https://www.makita.co.jp/product/cate/?&type=2&move=catm&catl=05&title=%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%8A
+- ⚠️ makita-news: Error: page.goto: Navigation to "https://www.makita.co.jp/news/" is interrupted by another navigation to "https://www.makita.co.jp/product/c
+- ⚠️ iris-search: Error: page.goto: Navigation to "https://www.irisohyama.co.jp/search/?q=SCD-186P" is interrupted by another navigation to "https://www.makit
+- ⚠️ iris-cleaner: Error: page.goto: Navigation to "https://www.irisohyama.co.jp/products/home-appliances/cleaner/" is interrupted by another navigation to "ht
+
+---
+保存した画像 9 枚 / 開いたページ 9
+
+ 
+352 .
+224 ..
+21316 dyson-cordless-p1-1.jpg
+17268 dyson-cordless-p1-2.jpg
+38342 dyson-cordless-p1-3.jpg
+137781 dyson-cordless-p2-1.png
+63197 dyson-cordless-p2-2.jpg
+14828 dyson-cordless-p2-3.png
+33548 dyson-cordless-p3-1.jpg
+18311 dyson-cordless-p3-2.jpg
+41333 dyson-cordless-p3-3.jpg
+
+**読むだけ。LLM 不使用（$0／回）。**

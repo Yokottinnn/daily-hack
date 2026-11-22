@@ -1,0 +1,655 @@
+{
+ "slug": "smartwatch-comparison-2026",
+ "generated": "2026-11-22T03:12:43.891Z",
+ "total": 16,
+ "rows": [
+  {
+   "n": "01",
+   "store": "yahoo",
+   "name": "",
+   "model": "",
+   "href": "https://dalr.valuecommerce.com/dck/88288b5c8c?pid=892728470&sid=3776384&aid=2826703&mid=2201292&ub=awJarwAANiFt7AdGCooFuwqKC%2FDI0w%3D%3D&rid=awJdRgAFMzNt7AdGCooD7AqKCJT2SA&isec=6b025d46&vcurl=https%3A%2F%2Fshopping.yahoo.co.jp%2Fsearch%3Fp%3Dvivoactive%25206&ckref=https%3A%2F%2Fdaily-hack.fieldbeside.com%2Fposts%2Fsmartwatch-comparison-2026%2F&ih=WWFob28h44K344On44OD44OU44Oz44Kw44Gn6KaL44KL&vo__ih=WWFob28h44K344On44OD44OU44Oz44Kw44Gn6KaL44KL&vo__uri=https%3A%2F%2Fshopping.yahoo.co.jp%2Fsearch%3Fp%3Dvivoactive%25206",
+   "chain": [
+    "https://shopping.yahoo.co.jp/aiagent/preload",
+    "https://gum.criteo.com/syncframe?topUrl=shopping.yahoo.co.jp&origin=onetag&ceid=443304cd-6c00-482b-b6f3-851d073c80dc",
+    "https://cdn.d2-apps.net/html/frame.html",
+    "https://shopping.yahoo.co.jp/search/vivoactive+6/0/?sc_e=afvc_shp_3776384"
+   ],
+   "fin": "https://shopping.yahoo.co.jp/search/vivoactive+6/0/?sc_e=afvc_shp_3776384",
+   "aff": "バリューコマースの転送を通った（LinkSwitch で成果リンクに差し替わった）",
+   "found": "検索結果 6 件",
+   "buy": "検索結果 4 件のうち、型番「」の商品が 4 件",
+   "title": "vivoactive 6のおすすめ人気商品一覧 通販 - Yahoo!ショッピング",
+   "robot": false,
+   "cart": false,
+   "amazonResults": 0,
+   "rakutenResults": 0,
+   "yahooResults": 6,
+   "noHit": false,
+   "modelOnPage": null,
+   "keys": [],
+   "items": 4,
+   "hits": 4,
+   "hitTitles": [
+    "ガーミン 充電ケーブルスタンド付 Garmin Fenix8/7/6/5/Vivoactive6/5/4/Venu3/sq2/ForeAthlete55/Forerunner970",
+    "お取り寄せ",
+    "お取り寄せ"
+   ],
+   "top": [
+    "ガーミン 充電ケーブルスタンド付 Garmin Fenix8/7/6/5/Vivoactive6/5/4/Venu3/sq2/ForeAthlete55/Forerunner970",
+    "お取り寄せ",
+    "お取り寄せ"
+   ],
+   "titleHit": true,
+   "h1": "vivoactive 6\nの検索結果",
+   "shot": "v01-yahoo.jpg"
+  },
+  {
+   "n": "02",
+   "store": "yahoo",
+   "name": "",
+   "model": "",
+   "href": "https://dalr.valuecommerce.com/dck/88288b5c8c?pid=892728470&sid=3776384&aid=2826703&mid=2201292&ub=awJarwAANiFt7AdGCooFuwqKC%2FDI0w%3D%3D&rid=awJdRgAFMzNt7AdGCooD7AqKCJT2SA&isec=6b025d46&vcurl=https%3A%2F%2Fshopping.yahoo.co.jp%2Fsearch%3Fp%3DApple%2520Watch%2520Series%252012&ckref=https%3A%2F%2Fdaily-hack.fieldbeside.com%2Fposts%2Fsmartwatch-comparison-2026%2F&ih=WWFob28h&vo__ih=WWFob28h&vo__uri=https%3A%2F%2Fshopping.yahoo.co.jp%2Fsearch%3Fp%3DApple%2520Watch%2520Series%252012",
+   "chain": [
+    "https://shopping.yahoo.co.jp/aiagent/preload",
+    "https://gum.criteo.com/syncframe?topUrl=shopping.yahoo.co.jp&origin=onetag&ceid=17265f61-f6e4-4a38-8895-a249907bc88d",
+    "https://cdn.d2-apps.net/html/frame.html",
+    "https://shopping.yahoo.co.jp/search/Apple+Watch+Series+12/0/?sc_e=afvc_shp_3776384"
+   ],
+   "fin": "https://shopping.yahoo.co.jp/search/Apple+Watch+Series+12/0/?sc_e=afvc_shp_3776384",
+   "aff": "バリューコマースの転送を通った（LinkSwitch で成果リンクに差し替わった）",
+   "found": "検索結果 10 件",
+   "buy": "検索結果 8 件のうち、型番「」の商品が 8 件",
+   "title": "Apple Watch Series 12のおすすめ人気商品一覧 通販 - Yahoo!ショッピング",
+   "robot": false,
+   "cart": false,
+   "amazonResults": 0,
+   "rakutenResults": 0,
+   "yahooResults": 10,
+   "noHit": false,
+   "modelOnPage": null,
+   "keys": [],
+   "items": 8,
+   "hits": 8,
+   "hitTitles": [
+    "アップルウォッチ ケース 全面保護 AppleWatch Series12 Series11 Series10 Series9 Ultra4 Ultra3 Ultra Series",
+    "お取り寄せ",
+    "中古"
+   ],
+   "top": [
+    "アップルウォッチ ケース 全面保護 AppleWatch Series12 Series11 Series10 Series9 Ultra4 Ultra3 Ultra Series",
+    "お取り寄せ",
+    "中古"
+   ],
+   "titleHit": true,
+   "h1": "Apple Watch Series 12\nの検索結果",
+   "shot": "v02-yahoo.jpg"
+  },
+  {
+   "n": "03",
+   "store": "yahoo",
+   "name": "",
+   "model": "",
+   "href": "https://dalr.valuecommerce.com/dck/88288b5c8c?pid=892728470&sid=3776384&aid=2826703&mid=2201292&ub=awJarwAANiFt7AdGCooFuwqKC%2FDI0w%3D%3D&rid=awJdRgAFMzNt7AdGCooD7AqKCJT2SA&isec=6b025d46&vcurl=https%3A%2F%2Fshopping.yahoo.co.jp%2Fsearch%3Fp%3DApple%2520Watch%2520SE%25203&ckref=https%3A%2F%2Fdaily-hack.fieldbeside.com%2Fposts%2Fsmartwatch-comparison-2026%2F&ih=WWFob28h&vo__ih=WWFob28h&vo__uri=https%3A%2F%2Fshopping.yahoo.co.jp%2Fsearch%3Fp%3DApple%2520Watch%2520SE%25203",
+   "chain": [
+    "https://shopping.yahoo.co.jp/aiagent/preload",
+    "https://gum.criteo.com/syncframe?topUrl=shopping.yahoo.co.jp&origin=onetag&ceid=89c1642c-ebb3-4fe6-8da9-b86fe46dc313",
+    "https://cdn.d2-apps.net/html/frame.html",
+    "https://shopping.yahoo.co.jp/search/Apple+Watch+SE+3/0/?sc_e=afvc_shp_3776384"
+   ],
+   "fin": "https://shopping.yahoo.co.jp/search/Apple+Watch+SE+3/0/?sc_e=afvc_shp_3776384",
+   "aff": "バリューコマースの転送を通った（LinkSwitch で成果リンクに差し替わった）",
+   "found": "検索結果 3 件",
+   "buy": "検索結果 1 件のうち、型番「」の商品が 1 件",
+   "title": "Apple Watch SE 3のおすすめ人気商品一覧 通販 - Yahoo!ショッピング",
+   "robot": false,
+   "cart": false,
+   "amazonResults": 0,
+   "rakutenResults": 0,
+   "yahooResults": 3,
+   "noHit": false,
+   "modelOnPage": null,
+   "keys": [],
+   "items": 1,
+   "hits": 1,
+   "hitTitles": [
+    "AppleWatch アップルウォッチ Series11 Series10 Series9 Series8 Series7 Series6 Series5 Series4 Seri"
+   ],
+   "top": [
+    "AppleWatch アップルウォッチ Series11 Series10 Series9 Series8 Series7 Series6 Series5 Series4 Seri"
+   ],
+   "titleHit": true,
+   "h1": "Apple Watch SE 3\nの検索結果",
+   "shot": "v03-yahoo.jpg"
+  },
+  {
+   "n": "04",
+   "store": "yahoo",
+   "name": "",
+   "model": "",
+   "href": "https://dalr.valuecommerce.com/dck/88288b5c8c?pid=892728470&sid=3776384&aid=2826703&mid=2201292&ub=awJarwAANiFt7AdGCooFuwqKC%2FDI0w%3D%3D&rid=awJdRgAFMzNt7AdGCooD7AqKCJT2SA&isec=6b025d46&vcurl=https%3A%2F%2Fshopping.yahoo.co.jp%2Fsearch%3Fp%3DApple%2520Watch%2520Ultra%25204&ckref=https%3A%2F%2Fdaily-hack.fieldbeside.com%2Fposts%2Fsmartwatch-comparison-2026%2F&ih=WWFob28h&vo__ih=WWFob28h&vo__uri=https%3A%2F%2Fshopping.yahoo.co.jp%2Fsearch%3Fp%3DApple%2520Watch%2520Ultra%25204",
+   "chain": [
+    "https://shopping.yahoo.co.jp/aiagent/preload",
+    "https://gum.criteo.com/syncframe?topUrl=shopping.yahoo.co.jp&origin=onetag&ceid=e314d27a-e188-46f0-bb98-98e4e33442cf",
+    "https://cdn.d2-apps.net/html/frame.html",
+    "https://shopping.yahoo.co.jp/search/Apple+Watch+Ultra+4/0/?sc_e=afvc_shp_3776384"
+   ],
+   "fin": "https://shopping.yahoo.co.jp/search/Apple+Watch+Ultra+4/0/?sc_e=afvc_shp_3776384",
+   "aff": "バリューコマースの転送を通った（LinkSwitch で成果リンクに差し替わった）",
+   "found": "検索結果 24 件",
+   "buy": "検索結果 22 件のうち、型番「」の商品が 22 件",
+   "title": "Apple Watch Ultra 4のおすすめ人気商品一覧 通販 - Yahoo!ショッピング",
+   "robot": false,
+   "cart": false,
+   "amazonResults": 0,
+   "rakutenResults": 0,
+   "yahooResults": 24,
+   "noHit": false,
+   "modelOnPage": null,
+   "keys": [],
+   "items": 22,
+   "hits": 22,
+   "hitTitles": [
+    "アップルウォッチ ケース 全面保護 AppleWatch Series12 Series11 Series10 Series9 Ultra4 Ultra3 Ultra Series",
+    "お取り寄せ",
+    "お取り寄せ"
+   ],
+   "top": [
+    "アップルウォッチ ケース 全面保護 AppleWatch Series12 Series11 Series10 Series9 Ultra4 Ultra3 Ultra Series",
+    "お取り寄せ",
+    "お取り寄せ"
+   ],
+   "titleHit": true,
+   "h1": "Apple Watch Ultra 4\nの検索結果",
+   "shot": "v04-yahoo.jpg"
+  },
+  {
+   "n": "05",
+   "store": "yahoo",
+   "name": "",
+   "model": "",
+   "href": "https://dalr.valuecommerce.com/dck/88288b5c8c?pid=892728470&sid=3776384&aid=2826703&mid=2201292&ub=awJarwAANiFt7AdGCooFuwqKC%2FDI0w%3D%3D&rid=awJdRgAFMzNt7AdGCooD7AqKCJT2SA&isec=6b025d46&vcurl=https%3A%2F%2Fshopping.yahoo.co.jp%2Fsearch%3Fp%3DGoogle%2520Pixel%2520Watch%25205&ckref=https%3A%2F%2Fdaily-hack.fieldbeside.com%2Fposts%2Fsmartwatch-comparison-2026%2F&ih=WWFob28h&vo__ih=WWFob28h&vo__uri=https%3A%2F%2Fshopping.yahoo.co.jp%2Fsearch%3Fp%3DGoogle%2520Pixel%2520Watch%25205",
+   "chain": [
+    "https://shopping.yahoo.co.jp/aiagent/preload",
+    "https://gum.criteo.com/syncframe?topUrl=shopping.yahoo.co.jp&origin=onetag&ceid=d7b2d8a1-6ecd-46c2-b679-c2e45c37696f",
+    "https://cdn.d2-apps.net/html/frame.html",
+    "https://shopping.yahoo.co.jp/search/Google+Pixel+Watch+5/0/?sc_e=afvc_shp_3776384"
+   ],
+   "fin": "https://shopping.yahoo.co.jp/search/Google+Pixel+Watch+5/0/?sc_e=afvc_shp_3776384",
+   "aff": "バリューコマースの転送を通った（LinkSwitch で成果リンクに差し替わった）",
+   "found": "検索結果 5 件",
+   "buy": "検索結果 3 件のうち、型番「」の商品が 3 件",
+   "title": "Google Pixel Watch 5のおすすめ人気商品一覧 通販 - Yahoo!ショッピング",
+   "robot": false,
+   "cart": false,
+   "amazonResults": 0,
+   "rakutenResults": 0,
+   "yahooResults": 5,
+   "noHit": false,
+   "modelOnPage": null,
+   "keys": [],
+   "items": 3,
+   "hits": 3,
+   "hitTitles": [
+    "Google Pixel Watch 5 45mm 41mm 2026 Google Pixel Watch 4 45mm 41mm 2025 Google Pixel Watch",
+    "中古",
+    "中古"
+   ],
+   "top": [
+    "Google Pixel Watch 5 45mm 41mm 2026 Google Pixel Watch 4 45mm 41mm 2025 Google Pixel Watch",
+    "中古",
+    "中古"
+   ],
+   "titleHit": true,
+   "h1": "Google Pixel Watch 5\nの検索結果",
+   "shot": "v05-yahoo.jpg"
+  },
+  {
+   "n": "06",
+   "store": "yahoo",
+   "name": "",
+   "model": "",
+   "href": "https://dalr.valuecommerce.com/dck/88288b5c8c?pid=892728470&sid=3776384&aid=2826703&mid=2201292&ub=awJarwAANiFt7AdGCooFuwqKC%2FDI0w%3D%3D&rid=awJdRgAFMzNt7AdGCooD7AqKCJT2SA&isec=6b025d46&vcurl=https%3A%2F%2Fshopping.yahoo.co.jp%2Fsearch%3Fp%3DGalaxy%2520Watch9&ckref=https%3A%2F%2Fdaily-hack.fieldbeside.com%2Fposts%2Fsmartwatch-comparison-2026%2F&ih=WWFob28h&vo__ih=WWFob28h&vo__uri=https%3A%2F%2Fshopping.yahoo.co.jp%2Fsearch%3Fp%3DGalaxy%2520Watch9",
+   "chain": [
+    "https://shopping.yahoo.co.jp/aiagent/preload",
+    "https://gum.criteo.com/syncframe?topUrl=shopping.yahoo.co.jp&origin=onetag&ceid=b7919bec-6fbf-4af1-818c-3ca6a56a6e14",
+    "https://cdn.d2-apps.net/html/frame.html",
+    "https://shopping.yahoo.co.jp/search/Galaxy+Watch9/0/?sc_e=afvc_shp_3776384"
+   ],
+   "fin": "https://shopping.yahoo.co.jp/search/Galaxy+Watch9/0/?sc_e=afvc_shp_3776384",
+   "aff": "バリューコマースの転送を通った（LinkSwitch で成果リンクに差し替わった）",
+   "found": "検索結果 18 件",
+   "buy": "検索結果 16 件のうち、型番「」の商品が 16 件",
+   "title": "Galaxy Watch9のおすすめ人気商品一覧 通販 - Yahoo!ショッピング",
+   "robot": false,
+   "cart": false,
+   "amazonResults": 0,
+   "rakutenResults": 0,
+   "yahooResults": 18,
+   "noHit": false,
+   "modelOnPage": null,
+   "keys": [],
+   "items": 16,
+   "hits": 16,
+   "hitTitles": [
+    "iPhoneケーブル Type-cケーブル全機種対応 PD60W 長さ0.25m 0.5m 1m 1.5m急速充電 データ転送 iPad iPhone17 Air 16 15 14",
+    "お取り寄せ",
+    "お取り寄せ"
+   ],
+   "top": [
+    "iPhoneケーブル Type-cケーブル全機種対応 PD60W 長さ0.25m 0.5m 1m 1.5m急速充電 データ転送 iPad iPhone17 Air 16 15 14",
+    "お取り寄せ",
+    "お取り寄せ"
+   ],
+   "titleHit": true,
+   "h1": "Galaxy Watch9\nの検索結果",
+   "shot": "v06-yahoo.jpg"
+  },
+  {
+   "n": "07",
+   "store": "yahoo",
+   "name": "",
+   "model": "",
+   "href": "https://dalr.valuecommerce.com/dck/88288b5c8c?pid=892728470&sid=3776384&aid=2826703&mid=2201292&ub=awJarwAANiFt7AdGCooFuwqKC%2FDI0w%3D%3D&rid=awJdRgAFMzNt7AdGCooD7AqKCJT2SA&isec=6b025d46&vcurl=https%3A%2F%2Fshopping.yahoo.co.jp%2Fsearch%3Fp%3Dvivoactive%25206&ckref=https%3A%2F%2Fdaily-hack.fieldbeside.com%2Fposts%2Fsmartwatch-comparison-2026%2F&ih=WWFob28h&vo__ih=WWFob28h&vo__uri=https%3A%2F%2Fshopping.yahoo.co.jp%2Fsearch%3Fp%3Dvivoactive%25206",
+   "chain": [
+    "https://shopping.yahoo.co.jp/aiagent/preload",
+    "https://gum.criteo.com/syncframe?topUrl=shopping.yahoo.co.jp&origin=onetag&ceid=6a99e532-9f66-444b-a5b1-80bb11c0aac3",
+    "https://cdn.d2-apps.net/html/frame.html",
+    "https://shopping.yahoo.co.jp/search/vivoactive+6/0/?sc_e=afvc_shp_3776384"
+   ],
+   "fin": "https://shopping.yahoo.co.jp/search/vivoactive+6/0/?sc_e=afvc_shp_3776384",
+   "aff": "バリューコマースの転送を通った（LinkSwitch で成果リンクに差し替わった）",
+   "found": "検索結果 6 件",
+   "buy": "検索結果 4 件のうち、型番「」の商品が 4 件",
+   "title": "vivoactive 6のおすすめ人気商品一覧 通販 - Yahoo!ショッピング",
+   "robot": false,
+   "cart": false,
+   "amazonResults": 0,
+   "rakutenResults": 0,
+   "yahooResults": 6,
+   "noHit": false,
+   "modelOnPage": null,
+   "keys": [],
+   "items": 4,
+   "hits": 4,
+   "hitTitles": [
+    "ガーミン 充電ケーブルスタンド付 Garmin Fenix8/7/6/5/Vivoactive6/5/4/Venu3/sq2/ForeAthlete55/Forerunner970",
+    "お取り寄せ",
+    "お取り寄せ"
+   ],
+   "top": [
+    "ガーミン 充電ケーブルスタンド付 Garmin Fenix8/7/6/5/Vivoactive6/5/4/Venu3/sq2/ForeAthlete55/Forerunner970",
+    "お取り寄せ",
+    "お取り寄せ"
+   ],
+   "titleHit": true,
+   "h1": "vivoactive 6\nの検索結果",
+   "shot": "v07-yahoo.jpg"
+  },
+  {
+   "n": "08",
+   "store": "yahoo",
+   "name": "",
+   "model": "",
+   "href": "https://dalr.valuecommerce.com/dck/88288b5c8c?pid=892728470&sid=3776384&aid=2826703&mid=2201292&ub=awJarwAANiFt7AdGCooFuwqKC%2FDI0w%3D%3D&rid=awJdRgAFMzNt7AdGCooD7AqKCJT2SA&isec=6b025d46&vcurl=https%3A%2F%2Fshopping.yahoo.co.jp%2Fsearch%3Fp%3DHUAWEI%2520WATCH%2520GT%25207&ckref=https%3A%2F%2Fdaily-hack.fieldbeside.com%2Fposts%2Fsmartwatch-comparison-2026%2F&ih=WWFob28h&vo__ih=WWFob28h&vo__uri=https%3A%2F%2Fshopping.yahoo.co.jp%2Fsearch%3Fp%3DHUAWEI%2520WATCH%2520GT%25207",
+   "chain": [
+    "https://shopping.yahoo.co.jp/aiagent/preload",
+    "https://gum.criteo.com/syncframe?topUrl=shopping.yahoo.co.jp&origin=onetag&ceid=8dda7ac4-e7c5-4cd5-b483-5fef4898ba57",
+    "https://cdn.d2-apps.net/html/frame.html",
+    "https://shopping.yahoo.co.jp/search/HUAWEI+WATCH+GT+7/0/?sc_e=afvc_shp_3776384"
+   ],
+   "fin": "https://shopping.yahoo.co.jp/search/HUAWEI+WATCH+GT+7/0/?sc_e=afvc_shp_3776384",
+   "aff": "バリューコマースの転送を通った（LinkSwitch で成果リンクに差し替わった）",
+   "found": "検索結果 5 件",
+   "buy": "検索結果 3 件のうち、型番「」の商品が 3 件",
+   "title": "HUAWEI WATCH GT 7のおすすめ人気商品一覧 通販 - Yahoo!ショッピング",
+   "robot": false,
+   "cart": false,
+   "amazonResults": 0,
+   "rakutenResults": 0,
+   "yahooResults": 5,
+   "noHit": false,
+   "modelOnPage": null,
+   "keys": [],
+   "items": 3,
+   "hits": 3,
+   "hitTitles": [
+    "iPhoneケーブル Type-cケーブル全機種対応 PD60W 長さ0.25m 0.5m 1m 1.5m急速充電 データ転送 iPad iPhone17 Air 16 15 14",
+    "中古",
+    "中古"
+   ],
+   "top": [
+    "iPhoneケーブル Type-cケーブル全機種対応 PD60W 長さ0.25m 0.5m 1m 1.5m急速充電 データ転送 iPad iPhone17 Air 16 15 14",
+    "中古",
+    "中古"
+   ],
+   "titleHit": true,
+   "h1": "HUAWEI WATCH GT 7\nの検索結果",
+   "shot": "v08-yahoo.jpg"
+  },
+  {
+   "n": "09",
+   "store": "yahoo",
+   "name": "",
+   "model": "",
+   "href": "https://dalr.valuecommerce.com/dck/88288b5c8c?pid=892728470&sid=3776384&aid=2826703&mid=2201292&ub=awJarwAANiFt7AdGCooFuwqKC%2FDI0w%3D%3D&rid=awJdRgAFMzNt7AdGCooD7AqKCJT2SA&isec=6b025d46&vcurl=https%3A%2F%2Fshopping.yahoo.co.jp%2Fsearch%3Fp%3DXiaomi%2520Watch%2520S5%252046mm&ckref=https%3A%2F%2Fdaily-hack.fieldbeside.com%2Fposts%2Fsmartwatch-comparison-2026%2F&ih=WWFob28h&vo__ih=WWFob28h&vo__uri=https%3A%2F%2Fshopping.yahoo.co.jp%2Fsearch%3Fp%3DXiaomi%2520Watch%2520S5%252046mm",
+   "chain": [
+    "https://shopping.yahoo.co.jp/aiagent/preload",
+    "https://gum.criteo.com/syncframe?topUrl=shopping.yahoo.co.jp&origin=onetag&ceid=2ea32455-1da7-4417-a457-a5275a38cdf8",
+    "https://cdn.d2-apps.net/html/frame.html",
+    "https://shopping.yahoo.co.jp/search/Xiaomi+Watch+S5+46mm/0/?sc_e=afvc_shp_3776384"
+   ],
+   "fin": "https://shopping.yahoo.co.jp/search/Xiaomi+Watch+S5+46mm/0/?sc_e=afvc_shp_3776384",
+   "aff": "バリューコマースの転送を通った（LinkSwitch で成果リンクに差し替わった）",
+   "found": "検索結果 9 件",
+   "buy": "検索結果 7 件のうち、型番「」の商品が 7 件",
+   "title": "Xiaomi Watch S5 46mmのおすすめ人気商品一覧 通販 - Yahoo!ショッピング",
+   "robot": false,
+   "cart": false,
+   "amazonResults": 0,
+   "rakutenResults": 0,
+   "yahooResults": 9,
+   "noHit": false,
+   "modelOnPage": null,
+   "keys": [],
+   "items": 7,
+   "hits": 7,
+   "hitTitles": [
+    "【数量限定】カーディガン 秋 レディース 春 Uネック Vネック ニット 冬 秋冬 大きいサイズ 20代 30代 上着 無地 セーター ボーダー 40代 10代 きれいめ tops",
+    "中古",
+    "中古"
+   ],
+   "top": [
+    "【数量限定】カーディガン 秋 レディース 春 Uネック Vネック ニット 冬 秋冬 大きいサイズ 20代 30代 上着 無地 セーター ボーダー 40代 10代 きれいめ tops",
+    "中古",
+    "中古"
+   ],
+   "titleHit": true,
+   "h1": "Xiaomi Watch S5 46mm\nの検索結果",
+   "shot": "v09-yahoo.jpg"
+  },
+  {
+   "n": "10",
+   "store": "yahoo",
+   "name": "Apple Watch Series 12",
+   "model": "",
+   "href": "https://dalr.valuecommerce.com/dck/88288b5c8c?pid=892728470&sid=3776384&aid=2826703&mid=2201292&ub=awJarwAANiFt7AdGCooFuwqKC%2FDI0w%3D%3D&rid=awJdRgAFMzNt7AdGCooD7AqKCJT2SA&isec=6b025d46&vcurl=https%3A%2F%2Fshopping.yahoo.co.jp%2Fsearch%3Fp%3DApple%2520Watch%2520Series%252012&ckref=https%3A%2F%2Fdaily-hack.fieldbeside.com%2Fposts%2Fsmartwatch-comparison-2026%2F&ih=WWFob28h44K344On44OD44OU44Oz44Kw44Gn6KaL44KL&vo__ih=WWFob28h44K344On44OD44OU44Oz44Kw44Gn6KaL44KL&vo__uri=https%3A%2F%2Fshopping.yahoo.co.jp%2Fsearch%3Fp%3DApple%2520Watch%2520Series%252012",
+   "chain": [
+    "https://shopping.yahoo.co.jp/aiagent/preload",
+    "https://gum.criteo.com/syncframe?topUrl=shopping.yahoo.co.jp&origin=onetag&ceid=469c9e77-7e8a-4de9-8749-37a8671f66a2",
+    "https://cdn.d2-apps.net/html/frame.html",
+    "https://shopping.yahoo.co.jp/search/Apple+Watch+Series+12/0/?sc_e=afvc_shp_3776384"
+   ],
+   "fin": "https://shopping.yahoo.co.jp/search/Apple+Watch+Series+12/0/?sc_e=afvc_shp_3776384",
+   "aff": "バリューコマースの転送を通った（LinkSwitch で成果リンクに差し替わった）",
+   "found": "検索結果 9 件",
+   "buy": "検索結果 7 件のうち、型番「」の商品が 7 件",
+   "title": "Apple Watch Series 12のおすすめ人気商品一覧 通販 - Yahoo!ショッピング",
+   "robot": false,
+   "cart": false,
+   "amazonResults": 0,
+   "rakutenResults": 0,
+   "yahooResults": 9,
+   "noHit": false,
+   "modelOnPage": null,
+   "keys": [],
+   "items": 7,
+   "hits": 7,
+   "hitTitles": [
+    "アップルウォッチ ケース 全面保護 AppleWatch Series12 Series11 Series10 Series9 Ultra4 Ultra3 Ultra Series",
+    "お取り寄せ",
+    "中古"
+   ],
+   "top": [
+    "アップルウォッチ ケース 全面保護 AppleWatch Series12 Series11 Series10 Series9 Ultra4 Ultra3 Ultra Series",
+    "お取り寄せ",
+    "中古"
+   ],
+   "titleHit": true,
+   "h1": "Apple Watch Series 12\nの検索結果",
+   "shot": "v10-yahoo.jpg"
+  },
+  {
+   "n": "11",
+   "store": "yahoo",
+   "name": "Apple Watch SE 3",
+   "model": "",
+   "href": "https://dalr.valuecommerce.com/dck/88288b5c8c?pid=892728470&sid=3776384&aid=2826703&mid=2201292&ub=awJarwAANiFt7AdGCooFuwqKC%2FDI0w%3D%3D&rid=awJdRgAFMzNt7AdGCooD7AqKCJT2SA&isec=6b025d46&vcurl=https%3A%2F%2Fshopping.yahoo.co.jp%2Fsearch%3Fp%3DApple%2520Watch%2520SE%25203&ckref=https%3A%2F%2Fdaily-hack.fieldbeside.com%2Fposts%2Fsmartwatch-comparison-2026%2F&ih=WWFob28h44K344On44OD44OU44Oz44Kw44Gn6KaL44KL&vo__ih=WWFob28h44K344On44OD44OU44Oz44Kw44Gn6KaL44KL&vo__uri=https%3A%2F%2Fshopping.yahoo.co.jp%2Fsearch%3Fp%3DApple%2520Watch%2520SE%25203",
+   "chain": [
+    "https://shopping.yahoo.co.jp/aiagent/preload",
+    "https://gum.criteo.com/syncframe?topUrl=shopping.yahoo.co.jp&origin=onetag&ceid=0e181f7d-d86d-4634-8052-25b3055256da",
+    "https://cdn.d2-apps.net/html/frame.html",
+    "https://shopping.yahoo.co.jp/search/Apple+Watch+SE+3/0/?sc_e=afvc_shp_3776384"
+   ],
+   "fin": "https://shopping.yahoo.co.jp/search/Apple+Watch+SE+3/0/?sc_e=afvc_shp_3776384",
+   "aff": "バリューコマースの転送を通った（LinkSwitch で成果リンクに差し替わった）",
+   "found": "検索結果 3 件",
+   "buy": "検索結果 1 件のうち、型番「」の商品が 1 件",
+   "title": "Apple Watch SE 3のおすすめ人気商品一覧 通販 - Yahoo!ショッピング",
+   "robot": false,
+   "cart": false,
+   "amazonResults": 0,
+   "rakutenResults": 0,
+   "yahooResults": 3,
+   "noHit": false,
+   "modelOnPage": null,
+   "keys": [],
+   "items": 1,
+   "hits": 1,
+   "hitTitles": [
+    "アップルウォッチ ケース 全面保護 AppleWatch Series12 Series11 Series10 Series9 Ultra4 Ultra3 Ultra Series"
+   ],
+   "top": [
+    "アップルウォッチ ケース 全面保護 AppleWatch Series12 Series11 Series10 Series9 Ultra4 Ultra3 Ultra Series"
+   ],
+   "titleHit": true,
+   "h1": "Apple Watch SE 3\nの検索結果",
+   "shot": "v11-yahoo.jpg"
+  },
+  {
+   "n": "12",
+   "store": "yahoo",
+   "name": "Apple Watch Ultra 4",
+   "model": "",
+   "href": "https://dalr.valuecommerce.com/dck/88288b5c8c?pid=892728470&sid=3776384&aid=2826703&mid=2201292&ub=awJarwAANiFt7AdGCooFuwqKC%2FDI0w%3D%3D&rid=awJdRgAFMzNt7AdGCooD7AqKCJT2SA&isec=6b025d46&vcurl=https%3A%2F%2Fshopping.yahoo.co.jp%2Fsearch%3Fp%3DApple%2520Watch%2520Ultra%25204&ckref=https%3A%2F%2Fdaily-hack.fieldbeside.com%2Fposts%2Fsmartwatch-comparison-2026%2F&ih=WWFob28h44K344On44OD44OU44Oz44Kw44Gn6KaL44KL&vo__ih=WWFob28h44K344On44OD44OU44Oz44Kw44Gn6KaL44KL&vo__uri=https%3A%2F%2Fshopping.yahoo.co.jp%2Fsearch%3Fp%3DApple%2520Watch%2520Ultra%25204",
+   "chain": [
+    "https://shopping.yahoo.co.jp/aiagent/preload",
+    "https://gum.criteo.com/syncframe?topUrl=shopping.yahoo.co.jp&origin=onetag&ceid=dcaeacf0-5dcb-483e-9428-bee26c69cd07",
+    "https://cdn.d2-apps.net/html/frame.html",
+    "https://shopping.yahoo.co.jp/search/Apple+Watch+Ultra+4/0/?sc_e=afvc_shp_3776384"
+   ],
+   "fin": "https://shopping.yahoo.co.jp/search/Apple+Watch+Ultra+4/0/?sc_e=afvc_shp_3776384",
+   "aff": "バリューコマースの転送を通った（LinkSwitch で成果リンクに差し替わった）",
+   "found": "検索結果 24 件",
+   "buy": "検索結果 22 件のうち、型番「」の商品が 22 件",
+   "title": "Apple Watch Ultra 4のおすすめ人気商品一覧 通販 - Yahoo!ショッピング",
+   "robot": false,
+   "cart": false,
+   "amazonResults": 0,
+   "rakutenResults": 0,
+   "yahooResults": 24,
+   "noHit": false,
+   "modelOnPage": null,
+   "keys": [],
+   "items": 22,
+   "hits": 22,
+   "hitTitles": [
+    "アップルウォッチ ケース 全面保護 AppleWatch Series12 Series11 Series10 Series9 Ultra4 Ultra3 Ultra Series",
+    "お取り寄せ",
+    "お取り寄せ"
+   ],
+   "top": [
+    "アップルウォッチ ケース 全面保護 AppleWatch Series12 Series11 Series10 Series9 Ultra4 Ultra3 Ultra Series",
+    "お取り寄せ",
+    "お取り寄せ"
+   ],
+   "titleHit": true,
+   "h1": "Apple Watch Ultra 4\nの検索結果",
+   "shot": "v12-yahoo.jpg"
+  },
+  {
+   "n": "13",
+   "store": "yahoo",
+   "name": "Google Pixel Watch 5",
+   "model": "",
+   "href": "https://dalr.valuecommerce.com/dck/88288b5c8c?pid=892728470&sid=3776384&aid=2826703&mid=2201292&ub=awJarwAANiFt7AdGCooFuwqKC%2FDI0w%3D%3D&rid=awJdRgAFMzNt7AdGCooD7AqKCJT2SA&isec=6b025d46&vcurl=https%3A%2F%2Fshopping.yahoo.co.jp%2Fsearch%3Fp%3DGoogle%2520Pixel%2520Watch%25205&ckref=https%3A%2F%2Fdaily-hack.fieldbeside.com%2Fposts%2Fsmartwatch-comparison-2026%2F&ih=WWFob28h44K344On44OD44OU44Oz44Kw44Gn6KaL44KL&vo__ih=WWFob28h44K344On44OD44OU44Oz44Kw44Gn6KaL44KL&vo__uri=https%3A%2F%2Fshopping.yahoo.co.jp%2Fsearch%3Fp%3DGoogle%2520Pixel%2520Watch%25205",
+   "chain": [
+    "https://shopping.yahoo.co.jp/aiagent/preload",
+    "https://gum.criteo.com/syncframe?topUrl=shopping.yahoo.co.jp&origin=onetag&ceid=6843a951-987c-4804-b98d-a64d000e9b2a",
+    "https://cdn.d2-apps.net/html/frame.html",
+    "https://shopping.yahoo.co.jp/search/Google+Pixel+Watch+5/0/?sc_e=afvc_shp_3776384"
+   ],
+   "fin": "https://shopping.yahoo.co.jp/search/Google+Pixel+Watch+5/0/?sc_e=afvc_shp_3776384",
+   "aff": "バリューコマースの転送を通った（LinkSwitch で成果リンクに差し替わった）",
+   "found": "検索結果 5 件",
+   "buy": "検索結果 3 件のうち、型番「」の商品が 3 件",
+   "title": "Google Pixel Watch 5のおすすめ人気商品一覧 通販 - Yahoo!ショッピング",
+   "robot": false,
+   "cart": false,
+   "amazonResults": 0,
+   "rakutenResults": 0,
+   "yahooResults": 5,
+   "noHit": false,
+   "modelOnPage": null,
+   "keys": [],
+   "items": 3,
+   "hits": 3,
+   "hitTitles": [
+    "Google Pixel Watch 5 45mm 41mm 2026 Google Pixel Watch 4 45mm 41mm 2025 Google Pixel Watch",
+    "中古",
+    "中古"
+   ],
+   "top": [
+    "Google Pixel Watch 5 45mm 41mm 2026 Google Pixel Watch 4 45mm 41mm 2025 Google Pixel Watch",
+    "中古",
+    "中古"
+   ],
+   "titleHit": true,
+   "h1": "Google Pixel Watch 5\nの検索結果",
+   "shot": "v13-yahoo.jpg"
+  },
+  {
+   "n": "14",
+   "store": "yahoo",
+   "name": "Samsung Galaxy Watch9",
+   "model": "",
+   "href": "https://dalr.valuecommerce.com/dck/88288b5c8c?pid=892728470&sid=3776384&aid=2826703&mid=2201292&ub=awJarwAANiFt7AdGCooFuwqKC%2FDI0w%3D%3D&rid=awJdRgAFMzNt7AdGCooD7AqKCJT2SA&isec=6b025d46&vcurl=https%3A%2F%2Fshopping.yahoo.co.jp%2Fsearch%3Fp%3DGalaxy%2520Watch9&ckref=https%3A%2F%2Fdaily-hack.fieldbeside.com%2Fposts%2Fsmartwatch-comparison-2026%2F&ih=WWFob28h44K344On44OD44OU44Oz44Kw44Gn6KaL44KL&vo__ih=WWFob28h44K344On44OD44OU44Oz44Kw44Gn6KaL44KL&vo__uri=https%3A%2F%2Fshopping.yahoo.co.jp%2Fsearch%3Fp%3DGalaxy%2520Watch9",
+   "chain": [
+    "https://shopping.yahoo.co.jp/aiagent/preload",
+    "https://gum.criteo.com/syncframe?topUrl=shopping.yahoo.co.jp&origin=onetag&ceid=d31f60f0-9cd6-4e64-96cd-b228b5276b18",
+    "https://cdn.d2-apps.net/html/frame.html",
+    "https://shopping.yahoo.co.jp/search/Galaxy+Watch9/0/?sc_e=afvc_shp_3776384"
+   ],
+   "fin": "https://shopping.yahoo.co.jp/search/Galaxy+Watch9/0/?sc_e=afvc_shp_3776384",
+   "aff": "バリューコマースの転送を通った（LinkSwitch で成果リンクに差し替わった）",
+   "found": "検索結果 18 件",
+   "buy": "検索結果 16 件のうち、型番「」の商品が 16 件",
+   "title": "Galaxy Watch9のおすすめ人気商品一覧 通販 - Yahoo!ショッピング",
+   "robot": false,
+   "cart": false,
+   "amazonResults": 0,
+   "rakutenResults": 0,
+   "yahooResults": 18,
+   "noHit": false,
+   "modelOnPage": null,
+   "keys": [],
+   "items": 16,
+   "hits": 16,
+   "hitTitles": [
+    "iPhoneケーブル Type-cケーブル全機種対応 PD60W 長さ0.25m 0.5m 1m 1.5m急速充電 データ転送 iPad iPhone17 Air 16 15 14",
+    "お取り寄せ",
+    "お取り寄せ"
+   ],
+   "top": [
+    "iPhoneケーブル Type-cケーブル全機種対応 PD60W 長さ0.25m 0.5m 1m 1.5m急速充電 データ転送 iPad iPhone17 Air 16 15 14",
+    "お取り寄せ",
+    "お取り寄せ"
+   ],
+   "titleHit": true,
+   "h1": "Galaxy Watch9\nの検索結果",
+   "shot": "v14-yahoo.jpg"
+  },
+  {
+   "n": "15",
+   "store": "yahoo",
+   "name": "HUAWEI WATCH GT 7",
+   "model": "",
+   "href": "https://dalr.valuecommerce.com/dck/88288b5c8c?pid=892728470&sid=3776384&aid=2826703&mid=2201292&ub=awJarwAANiFt7AdGCooFuwqKC%2FDI0w%3D%3D&rid=awJdRgAFMzNt7AdGCooD7AqKCJT2SA&isec=6b025d46&vcurl=https%3A%2F%2Fshopping.yahoo.co.jp%2Fsearch%3Fp%3DHUAWEI%2520WATCH%2520GT%25207&ckref=https%3A%2F%2Fdaily-hack.fieldbeside.com%2Fposts%2Fsmartwatch-comparison-2026%2F&ih=WWFob28h44K344On44OD44OU44Oz44Kw44Gn6KaL44KL&vo__ih=WWFob28h44K344On44OD44OU44Oz44Kw44Gn6KaL44KL&vo__uri=https%3A%2F%2Fshopping.yahoo.co.jp%2Fsearch%3Fp%3DHUAWEI%2520WATCH%2520GT%25207",
+   "chain": [
+    "https://shopping.yahoo.co.jp/aiagent/preload",
+    "https://gum.criteo.com/syncframe?topUrl=shopping.yahoo.co.jp&origin=onetag&ceid=458f874f-7a2e-48bb-b0db-eb0a0c144d3b",
+    "https://cdn.d2-apps.net/html/frame.html",
+    "https://shopping.yahoo.co.jp/search/HUAWEI+WATCH+GT+7/0/?sc_e=afvc_shp_3776384"
+   ],
+   "fin": "https://shopping.yahoo.co.jp/search/HUAWEI+WATCH+GT+7/0/?sc_e=afvc_shp_3776384",
+   "aff": "バリューコマースの転送を通った（LinkSwitch で成果リンクに差し替わった）",
+   "found": "検索結果 5 件",
+   "buy": "検索結果 3 件のうち、型番「」の商品が 3 件",
+   "title": "HUAWEI WATCH GT 7のおすすめ人気商品一覧 通販 - Yahoo!ショッピング",
+   "robot": false,
+   "cart": false,
+   "amazonResults": 0,
+   "rakutenResults": 0,
+   "yahooResults": 5,
+   "noHit": false,
+   "modelOnPage": null,
+   "keys": [],
+   "items": 3,
+   "hits": 3,
+   "hitTitles": [
+    "iPhoneケーブル Type-cケーブル全機種対応 PD60W 長さ0.25m 0.5m 1m 1.5m急速充電 データ転送 iPad iPhone17 Air 16 15 14",
+    "中古",
+    "中古"
+   ],
+   "top": [
+    "iPhoneケーブル Type-cケーブル全機種対応 PD60W 長さ0.25m 0.5m 1m 1.5m急速充電 データ転送 iPad iPhone17 Air 16 15 14",
+    "中古",
+    "中古"
+   ],
+   "titleHit": true,
+   "h1": "HUAWEI WATCH GT 7\nの検索結果",
+   "shot": "v15-yahoo.jpg"
+  },
+  {
+   "n": "16",
+   "store": "yahoo",
+   "name": "Xiaomi Watch S5 46mm",
+   "model": "",
+   "href": "https://dalr.valuecommerce.com/dck/88288b5c8c?pid=892728470&sid=3776384&aid=2826703&mid=2201292&ub=awJarwAANiFt7AdGCooFuwqKC%2FDI0w%3D%3D&rid=awJdRgAFMzNt7AdGCooD7AqKCJT2SA&isec=6b025d46&vcurl=https%3A%2F%2Fshopping.yahoo.co.jp%2Fsearch%3Fp%3DXiaomi%2520Watch%2520S5%252046mm&ckref=https%3A%2F%2Fdaily-hack.fieldbeside.com%2Fposts%2Fsmartwatch-comparison-2026%2F&ih=WWFob28h44K344On44OD44OU44Oz44Kw44Gn6KaL44KL&vo__ih=WWFob28h44K344On44OD44OU44Oz44Kw44Gn6KaL44KL&vo__uri=https%3A%2F%2Fshopping.yahoo.co.jp%2Fsearch%3Fp%3DXiaomi%2520Watch%2520S5%252046mm",
+   "chain": [
+    "https://shopping.yahoo.co.jp/aiagent/preload",
+    "https://gum.criteo.com/syncframe?topUrl=shopping.yahoo.co.jp&origin=onetag&ceid=0396188b-d774-4ced-b0db-dd8331aa6f5c",
+    "https://cdn.d2-apps.net/html/frame.html",
+    "https://shopping.yahoo.co.jp/search/Xiaomi+Watch+S5+46mm/0/?sc_e=afvc_shp_3776384"
+   ],
+   "fin": "https://shopping.yahoo.co.jp/search/Xiaomi+Watch+S5+46mm/0/?sc_e=afvc_shp_3776384",
+   "aff": "バリューコマースの転送を通った（LinkSwitch で成果リンクに差し替わった）",
+   "found": "検索結果 9 件",
+   "buy": "検索結果 7 件のうち、型番「」の商品が 7 件",
+   "title": "Xiaomi Watch S5 46mmのおすすめ人気商品一覧 通販 - Yahoo!ショッピング",
+   "robot": false,
+   "cart": false,
+   "amazonResults": 0,
+   "rakutenResults": 0,
+   "yahooResults": 9,
+   "noHit": false,
+   "modelOnPage": null,
+   "keys": [],
+   "items": 7,
+   "hits": 7,
+   "hitTitles": [
+    "【数量限定】カーディガン 秋 レディース 春 Uネック Vネック ニット 冬 秋冬 大きいサイズ 20代 30代 上着 無地 セーター ボーダー 40代 10代 きれいめ tops",
+    "中古",
+    "中古"
+   ],
+   "top": [
+    "【数量限定】カーディガン 秋 レディース 春 Uネック Vネック ニット 冬 秋冬 大きいサイズ 20代 30代 上着 無地 セーター ボーダー 40代 10代 きれいめ tops",
+    "中古",
+    "中古"
+   ],
+   "titleHit": true,
+   "h1": "Xiaomi Watch S5 46mm\nの検索結果",
+   "shot": "v16-yahoo.jpg"
+  }
+ ]
+}

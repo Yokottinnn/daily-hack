@@ -1,0 +1,94 @@
+# ロボット掃除機の 3 店ボタンの行き先（t801・**$0**）
+
+生成: **2026-11-22T11:57:05+0900**
+
+- `playwright-core`: **`/Users/ny/.openclaw/workspace/node_modules`** に在る
+- Chrome: **CDP 18810 で応答あり**
+
+rc=0
+- **F155260** search.rakuten.co.jp — 型番の出現 8 回 — 計測の印あり
+  - 着いた先: https://search.rakuten.co.jp/search/mall/%E3%83%AB%E3%83%B3%E3%83%90+%E3%83%9F%E3%83%8B+F155260/?scid=af_pc_etc&sc2id=af_101_0_0
+  - 題名: 【楽天市場】ルンバ ミニ F155260の通販
+  - 上位: 【エントリーで最大全額ポイント還元｜11/25まで】 iRobot｜アイロボット 【国内正規品】Roomba Mini  / 【在庫なくなり次第】次回の納期目安としては注文後1ヶ月先となっております。iRobot Roomba Mini 掃除機& / iRobot 【国内正規品】Roomba Mini (ルンバ ミニ) 掃除機＆床拭きロボット+AutoEmpty（白） 
+- **X285060** search.rakuten.co.jp — 型番の出現 5 回 — 計測の印あり
+  - 着いた先: https://search.rakuten.co.jp/search/mall/%E3%83%AB%E3%83%B3%E3%83%90+Max+775+Combo+X285060/?scid=af_pc_etc&sc2id=af_101_0_0
+  - 題名: 【楽天市場】ルンバ Max 775 Combo X285060の通販
+  - 上位: iRobot Roomba Max 775 Combo ロボット + AutoWash 充電ステーション ブラック X2 / 【エントリーで最大全額ポイント還元｜11/25まで】 iRobot｜アイロボット ロボット掃除機 「ルンバ」Max775
+- **T90** search.rakuten.co.jp — 型番の出現 40 回 — 計測の印あり
+  - 着いた先: https://search.rakuten.co.jp/search/mall/DEEBOT+T90+MAX+OMNI/?scid=af_pc_etc&sc2id=af_101_0_0
+  - 題名: 【楽天市場】DEEBOT T90 MAX OMNIの通販
+  - 上位: [PR] 【クーポン利用で99,800円！11/19〜12/15】＜9/25新発売＞ロボット掃除機 DEEBOT T90 / [PR] 【クーポン利用で99,800円&P10倍！11/19〜12/15】ロボット掃除機 DEEBOT T90 PRO / [PR] 【クーポン利用で74,900円！11/19 20:00〜11/25 01:59】ロボット掃除機 DEEBOT 
+- **C10** search.rakuten.co.jp — 型番の出現 55 回 — 計測の印あり
+  - 着いた先: https://search.rakuten.co.jp/search/mall/Eufy+Robot+Vacuum+Auto-Empty+C10/?scid=af_pc_etc&sc2id=af_101_0_0
+  - 題名: 【楽天市場】Eufy Robot Vacuum Auto-Empty C10の通販
+  - 上位: [PR] 【セール実施中 + 先着クーポン配布中 11/25まで】【超薄型】Anker Eufy (ユーフィ) Robo / [PR] 送料無料 Eufy Robot Vacuum Auto-Empty C10 用 消耗品 ロボット掃除機 ダスト / [PR] 送料無料eufyロボット掃除機用紙パック Robot Vacuum Auto-Empty C10 紙パック O
+- **C28** search.rakuten.co.jp — 型番の出現 29 回 — 計測の印あり
+  - 着いた先: https://search.rakuten.co.jp/search/mall/Eufy+Robot+Vacuum+Omni+C28/?scid=af_pc_etc&sc2id=af_101_0_0
+  - 題名: 【楽天市場】Eufy Robot Vacuum Omni C28の通販
+  - 上位: [PR] 【セール実施中 + 先着クーポン配布中 11/25まで】Anker Eufy (ユーフィ) Robot Vac / 【セール実施中 + 先着クーポン配布中 11/25まで】Anker Eufy (ユーフィ) Robot Vacuum O / Anker Eufy Robot Vacuum 交換用ダストバッグ (Omni E35 / Omni C30 Edge 
+- **Saros 20** search.rakuten.co.jp — 型番の出現 39 回 — 計測の印あり
+  - 着いた先: https://search.rakuten.co.jp/search/mall/Roborock+Saros+20/?scid=af_pc_etc&sc2id=af_101_0_0
+  - 題名: 【楽天市場】Roborock Saros 20の通販
+  - 上位: [PR] 【Saros20が7万円OFF(〜11/25 1:59まで)】ロボロック Roborock ロボット掃除機 S / [PR] 【Saros20 SETが20%OFF】ロボット掃除機 Roborock Saros20 洗剤セット | お掃 / [PR] Roborock S20F5204 Saros 20 Flow 吸引力36,000Pa 加圧式セルフクリーニン
+- **K11** search.rakuten.co.jp — 型番の出現 52 回 — 計測の印あり
+  - 着いた先: https://search.rakuten.co.jp/search/mall/SwitchBot+%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E6%8E%83%E9%99%A4%E6%A9%9F+K11%2B/?scid=af_pc_etc&sc2id=af_101_0_0
+  - 題名: 【楽天市場】SwitchBot ロボット掃除機 K11+の通販
+  - 上位: [PR] 【冬の暮らし応援SALE！】SwitchBot スイッチボット ロボット掃除機 K11+ お掃除ロボット 掃除 / [PR] 【冬の暮らし応援SALE】SwitchBot スイッチボット ロボット掃除機 K11+ お掃除ロボット 掃除ロ / [PR] SWITCHBOT　ロボット掃除機K11+ White　W3003101
+- **F155260** shopping.yahoo.co.jp — 型番の出現 13 回 — 計測の印なし
+  - 着いた先: https://shopping.yahoo.co.jp/search/%E3%83%AB%E3%83%B3%E3%83%90+%E3%83%9F%E3%83%8B+F155260/0/
+  - 題名: ルンバ ミニ F155260のおすすめ人気商品一覧 通販 - Yahoo!ショッピング
+  - 上位: （取れず）
+- **X285060** shopping.yahoo.co.jp — 型番の出現 4 回 — 計測の印なし
+  - 着いた先: https://shopping.yahoo.co.jp/search/%E3%83%AB%E3%83%B3%E3%83%90+Max+775+Combo+X285060/0/
+  - 題名: ルンバ Max 775 Combo X285060のおすすめ人気商品一覧 通販 - Yahoo!ショッピング
+  - 上位: （取れず）
+- **T90** shopping.yahoo.co.jp — 型番の出現 4 回 — 計測の印なし
+  - 着いた先: https://shopping.yahoo.co.jp/search/DEEBOT+T90+MAX+OMNI/0/
+  - 題名: DEEBOT T90 MAX OMNIのおすすめ人気商品一覧 通販 - Yahoo!ショッピング
+  - 上位: （取れず）
+- **C10** shopping.yahoo.co.jp — 型番の出現 36 回 — 計測の印なし
+  - 着いた先: https://shopping.yahoo.co.jp/search/Eufy+Robot+Vacuum+Auto-Empty+C10/0/
+  - 題名: Eufy Robot Vacuum Auto-Empty C10のおすすめ人気商品一覧 通販 - Yahoo!ショッピング
+  - 上位: （取れず）
+- **C28** shopping.yahoo.co.jp — 型番の出現 34 回 — 計測の印なし
+  - 着いた先: https://shopping.yahoo.co.jp/search/Eufy+Robot+Vacuum+Omni+C28/0/
+  - 題名: Eufy Robot Vacuum Omni C28のおすすめ人気商品一覧 通販 - Yahoo!ショッピング
+  - 上位: （取れず）
+- **Saros 20** shopping.yahoo.co.jp — 型番の出現 18 回 — 計測の印なし
+  - 着いた先: https://shopping.yahoo.co.jp/search/Roborock+Saros+20/0/
+  - 題名: Roborock Saros 20のおすすめ人気商品一覧 通販 - Yahoo!ショッピング
+  - 上位: （取れず）
+- **K11** shopping.yahoo.co.jp — 型番の出現 34 回 — 計測の印なし
+  - 着いた先: https://shopping.yahoo.co.jp/search/SwitchBot+%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E6%8E%83%E9%99%A4%E6%A9%9F+K11%2B/0/
+  - 題名: SwitchBot ロボット掃除機 K11+のおすすめ人気商品一覧 通販 - Yahoo!ショッピング
+  - 上位: （取れず）
+- **T90** www.amazon.co.jp — 型番の出現 78 回 — 計測の印あり
+  - 着いた先: https://www.amazon.co.jp/s?k=%E3%82%A8%E3%82%B3%E3%83%90%E3%83%83%E3%82%AF%E3%82%B9+DEEBOT+T90+MAX+OMNI&tag=dailyhack-22
+  - 題名: Amazon.co.jp : エコバックス DEEBOT T90 MAX OMNI
+  - 上位: ECOVACS (エコバックス)DEEBOT T90 MAX OMNI 吸引力30,000Pa ロボット掃除機 水拭き両 / ECOVACS (エコバックス)DEEBOT T90 MAX OMNI 吸引力30,000Pa ロボット掃除機 水拭き両 / ECOVACS (エコバックス)DEEBOT T90 MAX OMNI 吸引力30,000Pa ロボット掃除機 水拭き両
+- **X285060** www.amazon.co.jp — 型番の出現 1 回 — 計測の印あり
+  - 着いた先: https://www.amazon.co.jp/s?k=%E3%83%AB%E3%83%B3%E3%83%90+Max+775+Combo+X285060&tag=dailyhack-22
+  - 題名: Amazon.co.jp : ルンバ Max 775 Combo X285060
+  - 上位: （取れず）
+- **F155260** www.amazon.co.jp — 型番の出現 2 回 — 計測の印あり
+  - 着いた先: https://www.amazon.co.jp/s?k=%E3%83%AB%E3%83%B3%E3%83%90+Mini+F155260&tag=dailyhack-22
+  - 題名: Amazon.co.jp : ルンバ Mini F155260
+  - 上位: 【超小型/2026年度グッドデザイン賞受賞】ルンバ（Roomba） Mini 掃除機＆床拭きロボット + AutoEmp / 【超小型/2026年度グッドデザイン賞受賞】ルンバ（Roomba） Mini 掃除機＆床拭きロボット + AutoEmp
+- **C10** www.amazon.co.jp — 型番の出現 46 回 — 計測の印あり
+  - 着いた先: https://www.amazon.co.jp/s?k=Eufy+Robot+Vacuum+Auto-Empty+C10&tag=dailyhack-22
+  - 題名: Amazon.co.jp : Eufy Robot Vacuum Auto-Empty C10
+  - 上位: Anker Eufy (ユーフィ) Robot Vacuum Auto-Empty C10 ブラック ロボット掃除機 / Anker Eufy (ユーフィ) Robot Vacuum Auto-Empty C10 ブラック ロボット掃除機 / 22個パック ユーフィー ロボット掃除機 Eufy C10 用 消耗品 ロボット掃除機 ダストバッグ 紙パック フィルタ
+- **C28** www.amazon.co.jp — 型番の出現 38 回 — 計測の印あり
+  - 着いた先: https://www.amazon.co.jp/s?k=Eufy+Robot+Vacuum+Omni+C28&tag=dailyhack-22
+  - 題名: Amazon.co.jp : Eufy Robot Vacuum Omni C28
+  - 上位: Anker Eufy (ユーフィ) Robot Vacuum Omni C28 ブラック ロボット掃除機 ローラーモップ / Anker Eufy (ユーフィ) Robot Vacuum Omni C28 ブラック ロボット掃除機 ローラーモップ / Anker Eufy (ユーフィ) Robot Vacuum Omni C28 ホワイト ロボット掃除機
+- **Saros 20** www.amazon.co.jp — 型番の出現 40 回 — 計測の印あり
+  - 着いた先: https://www.amazon.co.jp/s?k=Roborock+Saros+20&tag=dailyhack-22
+  - 題名: Amazon.co.jp : Roborock Saros 20
+  - 上位: Roborock(ロボロック) Saros 10R/Saros 20/Qrevo Edge 2 対応 掃除機交換部品 / Roborock(ロボロック) Saros 10R/Saros 20/Qrevo Edge 2 対応 掃除機交換部品 / ロボット掃除機 ロボロックに適合 アクセサリー消耗品 Saros 10R/Saros 20/Qrevo Edge 2/Q
+- **K11** www.amazon.co.jp — 型番の出現 18 回 — 計測の印あり
+  - 着いた先: https://www.amazon.co.jp/s?k=SwitchBot+%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E6%8E%83%E9%99%A4%E6%A9%9F+K11%2B&tag=dailyhack-22
+  - 題名: Amazon.co.jp : SwitchBot ロボット掃除機 K11+
+  - 上位: 【26年最新】SwitchBot ロボット掃除機 K11+ Pro 超小型 12000pa強力吸引 水拭き 高精度マッピ / 【26年最新】SwitchBot ロボット掃除機 K11+ Pro 超小型 12000pa強力吸引 水拭き 高精度マッピ / 【世界最小級掃除機】 SwitchBot ロボット掃除機 K11+ 超小型 高精度マッピング 6000pa強力吸引 水拭
+
+対象 21 / 開けた 21
