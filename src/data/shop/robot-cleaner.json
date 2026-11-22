@@ -1,0 +1,419 @@
+{
+  "id": "robot-cleaner",
+  "title": "ロボット掃除機（段差・コード・ペットの毛で止まらないか／水拭きは要るか）",
+  "_note": "仕様は 2026-11-22 に各社の公式ページ・公式ストア・プレスリリースで確かめたものだけ。公式に数値の無い項目は「公式に記載なし」。Saros 20 はメーカーの希望小売価格が公式に無い",
+  "columns": [
+    {
+      "key": "step",
+      "label": "乗り越えられる段差（公式）"
+    },
+    {
+      "key": "avoid",
+      "label": "コード・物の回避"
+    },
+    {
+      "key": "mop",
+      "label": "水拭き"
+    },
+    {
+      "key": "height",
+      "label": "本体の高さ"
+    },
+    {
+      "key": "dock",
+      "label": "ステーション"
+    }
+  ],
+  "pricesCheckedAt": null,
+  "items": [
+    {
+      "id": "irobot-roomba-mini",
+      "brand": "アイロボット",
+      "name": "Roomba Mini 掃除機＆床拭きロボット + AutoEmpty 充電ステーション（F155260）",
+      "badge": "小さい・安い",
+      "summary": "ワンルームや家具の多い部屋に。本体24.5cm角で、水拭きは使い捨てシート。",
+      "recommended": false,
+      "specs": {
+        "step": "公式に記載なし",
+        "avoid": "LiDARで障害物を避ける（カメラなし）",
+        "mop": "使い捨てシート（市販のシートも可）",
+        "height": "9.2cm",
+        "dock": "ゴミ自動収集（最大90日分）"
+      },
+      "source": "https://store.irobot-jp.com/item/F155260.html",
+      "rakuten": {
+        "keyword": "ルンバ ミニ F155260",
+        "must": [
+          "F155260"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "交換",
+          "紙パック",
+          "フィルター",
+          "ブラシ",
+          "シート",
+          "並行輸入"
+        ]
+      },
+      "yahoo": {
+        "keyword": "ルンバ ミニ F155260",
+        "must": [
+          "F155260"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "交換",
+          "紙パック",
+          "フィルター",
+          "ブラシ",
+          "シート",
+          "並行輸入"
+        ]
+      },
+      "amazon": {
+        "keyword": "ルンバ Mini F155260",
+        "asin": null
+      }
+    },
+    {
+      "id": "switchbot-k11-plus",
+      "brand": "SwitchBot",
+      "name": "SwitchBot ロボット掃除機 K11+",
+      "badge": "直径24.8cm",
+      "summary": "椅子の脚が多いダイニングに。4Lの紙パックでゴミ捨ては年4回の目安。",
+      "recommended": false,
+      "specs": {
+        "step": "公式に記載なし（8cm以上の段差は落下防止センサーで回避）",
+        "avoid": "LDSレーザーで障害物を避ける（カメラなし）",
+        "mop": "使い捨てシート（市販のシートも可）",
+        "height": "9.2cm",
+        "dock": "ゴミ自動収集（4L紙パック）"
+      },
+      "source": "https://www.switchbot.jp/products/switchbot-robot-vacuum-cleaner-k11",
+      "rakuten": {
+        "keyword": "SwitchBot ロボット掃除機 K11+",
+        "must": [
+          "K11"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "交換",
+          "紙パック",
+          "ブラシ",
+          "消耗品",
+          "アクセサリー",
+          "Pro",
+          "プロ",
+          "並行輸入"
+        ]
+      },
+      "yahoo": {
+        "keyword": "SwitchBot ロボット掃除機 K11+",
+        "must": [
+          "K11"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "交換",
+          "紙パック",
+          "ブラシ",
+          "消耗品",
+          "アクセサリー",
+          "Pro",
+          "プロ",
+          "並行輸入"
+        ]
+      },
+      "amazon": {
+        "keyword": "SwitchBot ロボット掃除機 K11+",
+        "asin": null
+      }
+    },
+    {
+      "id": "eufy-c10",
+      "brand": "Anker（Eufy）",
+      "name": "Eufy Robot Vacuum Auto-Empty C10（T2292）",
+      "badge": "3万円台・水拭きなし",
+      "summary": "吸うだけで十分な人に。高さ7.2cmの薄型で、約17mmまでの段差を乗り越える。",
+      "recommended": false,
+      "specs": {
+        "step": "約17mm",
+        "avoid": "iPathレーザーナビゲーション",
+        "mop": "なし",
+        "height": "7.2cm",
+        "dock": "ゴミ自動収集"
+      },
+      "source": "https://www.ankerjapan.com/products/t2292",
+      "rakuten": {
+        "keyword": "Eufy Robot Vacuum Auto-Empty C10",
+        "must": [
+          "C10"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "交換",
+          "紙パック",
+          "ダストバッグ",
+          "フィルター",
+          "ブラシ",
+          "アクセサリー",
+          "並行輸入"
+        ]
+      },
+      "yahoo": {
+        "keyword": "Eufy Robot Vacuum Auto-Empty C10",
+        "must": [
+          "C10"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "交換",
+          "紙パック",
+          "ダストバッグ",
+          "フィルター",
+          "ブラシ",
+          "アクセサリー",
+          "並行輸入"
+        ]
+      },
+      "amazon": {
+        "keyword": "Eufy Robot Vacuum Auto-Empty C10",
+        "asin": null
+      }
+    },
+    {
+      "id": "eufy-omni-c28",
+      "brand": "Anker（Eufy）",
+      "name": "Eufy Robot Vacuum Omni C28（T211A）",
+      "badge": "10万円でローラーモップ",
+      "summary": "水拭きもモップ洗いも任せたい人の入口。約1.0kgで押し付けるローラーモップ。",
+      "recommended": true,
+      "specs": {
+        "step": "公式に記載なし",
+        "avoid": "レーザーセンサーでおもちゃ・靴下などを検知",
+        "mop": "ローラーモップ（約1.0kgで加圧）",
+        "height": "11.1cm",
+        "dock": "ゴミ収集・モップ洗浄・約50℃温風乾燥"
+      },
+      "source": "https://www.ankerjapan.com/products/t211a",
+      "rakuten": {
+        "keyword": "Eufy Robot Vacuum Omni C28",
+        "must": [
+          "C28"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "交換",
+          "ローラーモップ単品",
+          "紙パック",
+          "ダストバッグ",
+          "フィルター",
+          "ブラシ",
+          "アクセサリー",
+          "並行輸入"
+        ]
+      },
+      "yahoo": {
+        "keyword": "Eufy Robot Vacuum Omni C28",
+        "must": [
+          "C28"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "交換",
+          "紙パック",
+          "ダストバッグ",
+          "フィルター",
+          "ブラシ",
+          "アクセサリー",
+          "並行輸入"
+        ]
+      },
+      "amazon": {
+        "keyword": "Eufy Robot Vacuum Omni C28",
+        "asin": null
+      }
+    },
+    {
+      "id": "ecovacs-t90-max-omni",
+      "brand": "エコバックス",
+      "name": "DEEBOT T90 MAX OMNI",
+      "badge": "20mmの段差・コードを避ける",
+      "summary": "ドアレールの多い家とペットの毛に。30,000Paの吸引とローラーモップ。",
+      "recommended": false,
+      "specs": {
+        "step": "最大20mm（機械式の乗り越え）",
+        "avoid": "TrueDetect 3Dでケーブル・スリッパなど最小2cmを検知",
+        "mop": "ローラーモップ（OZMO ROLLER 3.0）",
+        "height": "9.5cm",
+        "dock": "ゴミ収集2.5L・モップ洗浄・45℃温風乾燥"
+      },
+      "source": "https://www.ecovacs.com/jp/shop/deebot-robotic-vacuum-cleaner/deebot-t90-max-omni-black",
+      "rakuten": {
+        "keyword": "DEEBOT T90 MAX OMNI",
+        "must": [
+          "T90"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "交換",
+          "PRO",
+          "プロ",
+          "紙パック",
+          "ゴミパック",
+          "ブラシ",
+          "モップ単品",
+          "洗浄剤",
+          "アクセサリー",
+          "並行輸入"
+        ]
+      },
+      "yahoo": {
+        "keyword": "DEEBOT T90 MAX OMNI",
+        "must": [
+          "T90"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "交換",
+          "PRO",
+          "プロ",
+          "紙パック",
+          "ゴミパック",
+          "ブラシ",
+          "洗浄剤",
+          "アクセサリー",
+          "並行輸入"
+        ]
+      },
+      "amazon": {
+        "keyword": "エコバックス DEEBOT T90 MAX OMNI",
+        "asin": null
+      }
+    },
+    {
+      "id": "roborock-saros-20",
+      "brand": "ロボロック",
+      "name": "Roborock Saros 20",
+      "badge": "二段の段差 最大8.8cm",
+      "summary": "敷居やラグの段差で止まるのがいちばん嫌な人に。高さ7.98cmの薄型。",
+      "recommended": false,
+      "specs": {
+        "step": "二段で合計最大8.8cm（4.5cm＋4.3cm・社内試験の条件）",
+        "avoid": "StarSight 2.0で幅2cm・高さ2cm以上の物を回避（ケーブル・ペットを認識）",
+        "mop": "回転モップ2枚（毎分200回転）",
+        "height": "7.98cm",
+        "dock": "ゴミ収集・100℃温水でモップ洗浄・乾燥"
+      },
+      "source": "https://jp.roborock.com/pages/roborock-saros-20",
+      "rakuten": {
+        "keyword": "Roborock Saros 20",
+        "must": [
+          "Saros 20"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "交換",
+          "Sonic",
+          "Flow",
+          "ソニック",
+          "フロー",
+          "紙パック",
+          "ブラシ",
+          "モップクロス",
+          "フィルター",
+          "アクセサリー",
+          "並行輸入"
+        ]
+      },
+      "yahoo": {
+        "keyword": "Roborock Saros 20",
+        "must": [
+          "Saros 20"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "交換",
+          "Sonic",
+          "Flow",
+          "ソニック",
+          "フロー",
+          "紙パック",
+          "ブラシ",
+          "フィルター",
+          "アクセサリー",
+          "並行輸入"
+        ]
+      },
+      "amazon": {
+        "keyword": "Roborock Saros 20",
+        "asin": null
+      }
+    },
+    {
+      "id": "irobot-roomba-max-775-combo",
+      "brand": "アイロボット",
+      "name": "Roomba Max 775 Combo ロボット + AutoWash 充電ステーション（X285060）",
+      "badge": "ペットの排泄物を避ける",
+      "summary": "犬・猫がいて、コードや固形の排泄物を避けてほしい人に。75℃でモップを洗う。",
+      "recommended": false,
+      "specs": {
+        "step": "公式に記載なし",
+        "avoid": "PrecisionVision AIでコード・靴・犬猫の固形の排泄物を回避（LiDAR＋カメラ）",
+        "mop": "ローラーモップ（毎分200回転・壁際へ伸びる）",
+        "height": "10.4cm",
+        "dock": "ゴミ収集最大3か月・75℃温水洗浄・50℃温風乾燥・洗剤自動投入"
+      },
+      "source": "https://store.irobot-jp.com/item/X285060.html",
+      "rakuten": {
+        "keyword": "ルンバ Max 775 Combo X285060",
+        "must": [
+          "X285060"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "交換",
+          "紙パック",
+          "フィルター",
+          "ブラシ",
+          "洗剤",
+          "並行輸入"
+        ]
+      },
+      "yahoo": {
+        "keyword": "ルンバ Max 775 Combo X285060",
+        "must": [
+          "X285060"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "交換",
+          "紙パック",
+          "フィルター",
+          "ブラシ",
+          "洗剤",
+          "並行輸入"
+        ]
+      },
+      "amazon": {
+        "keyword": "ルンバ Max 775 Combo X285060",
+        "asin": null
+      }
+    }
+  ]
+}
