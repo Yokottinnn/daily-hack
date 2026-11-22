@@ -24,7 +24,7 @@
       "label": "公式ストアの価格"
     }
   ],
-  "pricesCheckedAt": "2026-11-20T21:42:34.454Z",
+  "pricesCheckedAt": "2026-11-21T21:42:39.263Z",
   "items": [
     {
       "id": "jackery-1000-new-v3",
@@ -93,7 +93,7 @@
         "reviewAverage": 5,
         "reviewCount": 3,
         "shop": "Jackery Japan ヤフーショッピング店",
-        "checkedAt": "2026-11-20T21:42:34.454Z"
+        "checkedAt": "2026-11-21T21:42:39.263Z"
       },
       "amazon": {
         "keyword": "Jackery ポータブル電源 1000 New V3 JE-1000G",
@@ -166,14 +166,14 @@
           "Classic",
           "クラシック"
         ],
-        "url": "https://store.shopping.yahoo.co.jp/dshopone-y/4895251630023.html",
+        "url": "https://store.shopping.yahoo.co.jp/y-kojima/4895251630023.html",
         "price": 83120,
         "shippingFree": true,
         "point": 0,
-        "reviewAverage": 4.67,
-        "reviewCount": 3,
-        "shop": "ディーショップワン Yahoo!店",
-        "checkedAt": "2026-11-20T21:42:34.454Z"
+        "reviewAverage": 4.85,
+        "reviewCount": 13,
+        "shop": "コジマYahoo!店",
+        "checkedAt": "2026-11-21T21:42:39.263Z"
       },
       "amazon": {
         "keyword": "EcoFlow DELTA 3 Plus ポータブル電源",
@@ -243,13 +243,13 @@
           "Max"
         ],
         "url": "https://store.shopping.yahoo.co.jp/idea-marche/efdelta3c-jp-cbox-d.html",
-        "price": 54900,
+        "price": 53940,
         "shippingFree": true,
         "point": 0,
         "reviewAverage": null,
         "reviewCount": 1,
         "shop": "アイディアマルシェ",
-        "checkedAt": "2026-11-20T21:42:34.454Z"
+        "checkedAt": "2026-11-21T21:42:39.263Z"
       },
       "amazon": {
         "keyword": "EcoFlow DELTA 3 Classic ポータブル電源",
@@ -319,7 +319,7 @@
         "reviewAverage": null,
         "reviewCount": 1,
         "shop": "ディーショップワン Yahoo!店",
-        "checkedAt": "2026-11-20T21:42:34.454Z"
+        "checkedAt": "2026-11-21T21:42:39.263Z"
       },
       "amazon": {
         "keyword": "Anker Solix C1000 Gen 2 Portable Power Station",
@@ -393,7 +393,7 @@
         "reviewAverage": null,
         "reviewCount": 2,
         "shop": "はるかぜ商店",
-        "checkedAt": "2026-11-20T21:42:34.454Z"
+        "checkedAt": "2026-11-21T21:42:39.263Z"
       },
       "amazon": {
         "keyword": "Anker Solix C1000 Portable Power Station A1761",
