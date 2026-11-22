@@ -1,0 +1,27 @@
+{
+  "sharp.png": {
+    "brand": "シャープ",
+    "page": "https://jp.sharp/kuusei/",
+    "src": "https://jp.sharp/assets/common/images/logo_sharp.svg",
+    "note": "シャープ公式サイトのヘッダーのロゴ（SVG）を Chromium で PNG にし、透明な余白だけ落とした。色・形は変えていない",
+    "license": "商標（識別目的で使用）",
+    "fetched": "2026-11-22"
+  },
+  "daikin.png": {
+    "brand": "ダイキン",
+    "page": "https://www.ac.daikin.co.jp/cleanair",
+    "src": "https://www.ac.daikin.co.jp/-/media/Project/Daikin/ac_daikin_co_jp/dj_common/rwd/images/logo-png.png",
+    "note": "ダイキン工業の空気清浄機のページのヘッダーのロゴ（PNG・171×36）をそのまま使用",
+    "license": "商標（識別目的で使用）",
+    "fetched": "2026-11-22"
+  },
+  "panasonic.png": {
+    "brand": "パナソニック",
+    "title": "File:Panasonic Group logo.svg",
+    "page": "https://commons.wikimedia.org/wiki/File:Panasonic_Group_logo.svg",
+    "license": "Public domain",
+    "fetched": "2026-10-18",
+    "task": "ops/tasks/x317-product-brand-logos-wiki.sh",
+    "copied_from": "public/images/denkidai-setsuyaku-koshiki-2026/logos/panasonic.png"
+  }
+}

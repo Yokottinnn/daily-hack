@@ -2,7 +2,8 @@
 // 「すべて、確実にそこからの購入で商品が購入できるかどうかを確認してその証跡も私に見せて」）。**読むだけ。カートに入れない・買わない。**
 //   - 押し方: 記事のページでボタンを本当にクリックする（Yahoo! はクリックの瞬間に LinkSwitch が成果リンクへ差し替えるため、URL を直接開くと確かめられない）
 //   - 見るもの: 途中の URL（アフィリエイトの転送を通ったか）・着いた先の URL に印が残るか・商品が出ているか（検索結果の件数／「カートに入れる」）・型番が画面にあるか
-//   - 写真: $OPS_REPORT_DIR/shop-verify/<slug>/NN-<店>.jpg（公開ブランチ ops/heartbeat に載る）
+//   - 写真: **公開ブランチには置かない**（2026-11-22: 楽天のヘッダーにログイン中の利用者の氏名と保有ポイントが写り、ops/heartbeat に載っていた）。
+//     写真は Mac の手元だけ（~/.openclaw/workspace/private-shots/shop-verify/<slug>/）に置き、レポート（文字）だけを $OPS_REPORT_DIR に出す
 // 使い方: SLUG=<記事> node verify-buttons.mjs   LLM 不使用・$0
 import { createRequire } from 'node:module';
 import fs from 'node:fs';
@@ -20,6 +21,8 @@ const BUDGET = Number(process.env.VERIFY_BUDGET_MS || 250000);
 const t0 = Date.now();
 const OUT = path.join(process.env.OPS_REPORT_DIR || '/tmp', 'shop-verify', SLUG);
 fs.mkdirSync(OUT, { recursive: true });
+const SHOTS = path.join(os.homedir(), '.openclaw/workspace/private-shots', 'shop-verify', SLUG);
+fs.mkdirSync(SHOTS, { recursive: true });
 const rows = [];
 const lines = [`# 3 店ボタンの確認: ${SLUG}（scripts/shop/verify-buttons.mjs・**$0**）`, '', `生成: **${new Date().toISOString()}**`, ''];
 
@@ -122,11 +125,11 @@ for (const bt of btns) {
     const buy = info.cart && info.titleHit ? 'その商品のページ（カートに入れるボタンあり）' : info.hits > 0 ? `検索結果 ${info.items} 件のうち、型番「${info.keys.join(' ')}」の商品が ${info.hits} 件` : info.cart ? `商品ページだが題名に「${info.keys.join(' ')}」が無い（要目視）` : `**検索結果 ${info.items ?? 0} 件に型番「${(info.keys || []).join(' ')}」の商品が無い**`;
     const found = bt.store === 'amazon' ? `検索結果 ${info.amazonResults ?? '—'} 件` : bt.store === 'rakuten' ? `検索結果 ${info.rakutenResults ?? '—'} 件` : (info.cart ? '商品ページ（カートに入れるボタンあり）' : `検索結果 ${info.yahooResults ?? '—'} 件`);
     const shot = `${process.env.SHOT_PREFIX || (MATCH ? 'r' : '')}${n}-${bt.store}.jpg`;
-    await q.screenshot({ path: path.join(OUT, shot), type: 'jpeg', quality: 55 }).catch(() => {});
+    await q.screenshot({ path: path.join(SHOTS, shot), type: 'jpeg', quality: 55 }).catch(() => {});
     rows.push({ n, store: bt.store, name: bt.name, model: m, href: bt.href, chain, fin, aff, found, buy, ...info, shot });
     lines.push(`## ${n} ${bt.store}｜${bt.name || m}`, `- 押したリンク: ${bt.href}`, `- 途中: ${chain.slice(0, -1).map((u) => u.slice(0, 140)).join(' → ') || '（転送なし）'}`, `- 着いた先: ${fin.slice(0, 200)}`,
       `- アフィリエイト: ${aff}`, `- 買えるか: ${buy}${info.hitTitles?.length ? '（' + info.hitTitles[0] + '）' : ''}`, `- 商品: ${found}・型番「${m}」の表示: ${info.modelOnPage == null ? '—' : info.modelOnPage ? 'あり' : '**無い**'}${info.noHit ? '・**該当なしの表示**' : ''}${info.robot ? '・**ロボット確認の画面**' : ''}${info.cart ? '・カートに入れるボタンあり' : ''}`,
-      `- 題名: ${info.title || '—'}`, `- 写真: shop-verify/${SLUG}/${shot}`, '');
+      `- 題名: ${info.title || '—'}`, `- 写真: Mac の手元のみ（private-shots/shop-verify/${SLUG}/${shot}・公開しない）`, '');
   } catch (e) {
     lines.push(`## ${n} ${bt.store}｜${bt.name}`, `- ⚠️ 押せなかった: ${String(e).split('\n')[0].slice(0, 200)}`, '');
     rows.push({ n, store: bt.store, name: bt.name, href: bt.href, error: String(e).split('\n')[0].slice(0, 200) });
