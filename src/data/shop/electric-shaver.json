@@ -1,7 +1,7 @@
 {
   "id": "electric-shaver",
   "title": "メンズ電動シェーバー（往復式と回転式・替刃の交換の目安・洗浄器の有無）",
-  "_note": "仕様・交換の目安・価格は各社の公式ページだけ（2026-11-22 確認）。ブラウンは braun.jp の製品ページと替刃のページ（交換は18か月に一度）、パナソニックは製品ページの仕様表・Panasonic Store Plus（公式通販）の価格・FAQ（一体型セット刃 約1.5年、外刃 約1年、内刃 約2年）、フィリップスは製品ページの技術仕様（替刃は2年ごと）、マクセル イズミは製品ページと Maxell 公式ショップの価格。ブラウンとフィリップスは公式に価格の記載がない。",
+  "_note": "仕様・交換の目安・価格は各社の公式ページだけ（2026-11-22 確認）。ブラウンは braun.jp の製品ページと替刃のページ（交換は18か月に一度）、パナソニックは製品ページの仕様表・Panasonic Store Plus（公式通販）の価格・FAQ（一体型セット刃 約1.5年、外刃 約1年、内刃 約2年）、フィリップスは製品ページの技術仕様（替刃は2年ごと）、マクセル イズミは製品ページと Maxell 公式ショップの価格。ブラウンとフィリップスは公式に価格の記載がない。Amazon の ASIN は ops/tasks/t1061（find-product-pages）で題名に型番があり広告枠でないもの。70-N1200s と S5885/10 は型番の合う商品ページが無く検索リンクのまま。",
   "columns": [
     { "key": "type", "label": "方式" },
     { "key": "runtime", "label": "使用時間（公称）" },
@@ -28,7 +28,7 @@
       "source": "https://www.braun.jp/ja-jp/male-grooming/shavers-for-men/series-9/series-9-pro-plus-9660cc",
       "rakuten": { "keyword": "ブラウン シリーズ9 Pro+ 9660cc", "must": ["9660cc"], "exclude": ["替刃", "交換", "互換", "対応", "専用", "カートリッジ", "洗浄液", "中古", "◆", "並行輸入"] },
       "yahoo": { "keyword": "ブラウン シリーズ9 Pro+ 9660cc", "must": ["9660cc"], "exclude": ["替刃", "交換", "互換", "対応", "専用", "カートリッジ", "洗浄液", "中古", "◆", "並行輸入"] },
-      "amazon": { "keyword": "ブラウン シリーズ9 Pro+ 9660cc", "asin": null }
+      "amazon": { "keyword": "ブラウン シリーズ9 Pro+ 9660cc", "asin": "B08F7SVPLX" }
     },
     {
       "id": "braun-70-n1200s",
@@ -66,7 +66,7 @@
       "source": "https://panasonic.jp/shaver/products/ES-L690U.html",
       "rakuten": { "keyword": "パナソニック ラムダッシュPRO 6枚刃 ES-L690U", "must": ["ES-L690U"], "exclude": ["替刃", "交換", "互換", "対応", "専用", "洗浄剤", "中古", "◆", "並行輸入"] },
       "yahoo": { "keyword": "パナソニック ラムダッシュPRO 6枚刃 ES-L690U", "must": ["ES-L690U"], "exclude": ["替刃", "交換", "互換", "対応", "専用", "洗浄剤", "中古", "◆", "並行輸入"] },
-      "amazon": { "keyword": "パナソニック ラムダッシュPRO 6枚刃 ES-L690U", "asin": null }
+      "amazon": { "keyword": "パナソニック ラムダッシュPRO 6枚刃 ES-L690U", "asin": "B0DBKSVBGM" }
     },
     {
       "id": "panasonic-es-p690u",
@@ -85,7 +85,7 @@
       "source": "https://panasonic.jp/shaver/products/ES-P690U.html",
       "rakuten": { "keyword": "パナソニック パームインPRO 6枚刃 ES-P690U", "must": ["ES-P690U"], "exclude": ["替刃", "交換", "互換", "対応", "専用", "洗浄剤", "ケース", "カバー", "中古", "◆", "並行輸入"] },
       "yahoo": { "keyword": "パナソニック パームインPRO 6枚刃 ES-P690U", "must": ["ES-P690U"], "exclude": ["替刃", "交換", "互換", "対応", "専用", "洗浄剤", "ケース", "カバー", "中古", "◆", "並行輸入"] },
-      "amazon": { "keyword": "パナソニック ラムダッシュ パームインPRO 6枚刃 ES-P690U", "asin": null }
+      "amazon": { "keyword": "パナソニック ラムダッシュ パームインPRO 6枚刃 ES-P690U", "asin": "B0H5C451HX" }
     },
     {
       "id": "panasonic-es-l382w",
@@ -104,7 +104,7 @@
       "source": "https://panasonic.jp/shaver/products/ES-L382W.html",
       "rakuten": { "keyword": "パナソニック ラムダッシュ 3枚刃 ES-L382W", "must": ["ES-L382W"], "exclude": ["替刃", "交換", "互換", "対応", "専用", "洗浄剤", "中古", "◆", "並行輸入"] },
       "yahoo": { "keyword": "パナソニック ラムダッシュ 3枚刃 ES-L382W", "must": ["ES-L382W"], "exclude": ["替刃", "交換", "互換", "対応", "専用", "洗浄剤", "中古", "◆", "並行輸入"] },
-      "amazon": { "keyword": "パナソニック ラムダッシュ 3枚刃 ES-L382W", "asin": null }
+      "amazon": { "keyword": "パナソニック ラムダッシュ 3枚刃 ES-L382W", "asin": "B0H5BR58BH" }
     },
     {
       "id": "philips-s7886",
@@ -123,7 +123,7 @@
       "source": "https://www.philips.co.jp/c-p/S7886_50/shaver-series-7000-wet-dry-electric-shaver",
       "rakuten": { "keyword": "フィリップス 7000シリーズ S7886/50", "must": ["S7886"], "exclude": ["替刃", "交換", "互換", "対応", "専用", "カートリッジ", "中古", "◆", "並行輸入"] },
       "yahoo": { "keyword": "フィリップス 7000シリーズ S7886/50", "must": ["S7886"], "exclude": ["替刃", "交換", "互換", "対応", "専用", "カートリッジ", "中古", "◆", "並行輸入"] },
-      "amazon": { "keyword": "フィリップス シェーバー 7000シリーズ S7886/50", "asin": null }
+      "amazon": { "keyword": "フィリップス シェーバー 7000シリーズ S7886/50", "asin": "B0CP7MZVHZ" }
     },
     {
       "id": "philips-s5885",
@@ -161,7 +161,7 @@
       "source": "https://www.izumi.maxell.co.jp/kaden/products/izf_v855w/",
       "rakuten": { "keyword": "マクセル イズミ IZF-V855W", "must": ["IZF-V855W"], "exclude": ["替刃", "交換", "互換", "対応", "専用", "中古", "◆", "並行輸入"] },
       "yahoo": { "keyword": "マクセル イズミ IZF-V855W", "must": ["IZF-V855W"], "exclude": ["替刃", "交換", "互換", "対応", "専用", "中古", "◆", "並行輸入"] },
-      "amazon": { "keyword": "マクセル イズミ V8 IZF-V855W", "asin": null }
+      "amazon": { "keyword": "マクセル イズミ V8 IZF-V855W", "asin": "B0GSTD6TZR" }
     }
   ]
 }
