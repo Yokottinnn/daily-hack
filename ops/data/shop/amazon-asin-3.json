@@ -1,0 +1,206 @@
+[
+ {
+  "id": "humidifying-air-purifier~sharp-ki-ws50",
+  "store": "amazon",
+  "keyword": "シャープ KI-WS50",
+  "must": [
+   "KI-WS50"
+  ],
+  "exclude": [
+   "互換",
+   "対応",
+   "中古",
+   "◆",
+   "並行輸入",
+   "交換用",
+   "フィルム"
+  ]
+ },
+ {
+  "id": "humidifying-air-purifier~daikin-mck707a",
+  "store": "amazon",
+  "keyword": "ダイキン MCK707A",
+  "must": [
+   "MCK707A"
+  ],
+  "exclude": [
+   "互換",
+   "対応",
+   "中古",
+   "◆",
+   "並行輸入",
+   "交換用",
+   "フィルム"
+  ]
+ },
+ {
+  "id": "humidifying-air-purifier~daikin-mck557a",
+  "store": "amazon",
+  "keyword": "ダイキン MCK557A",
+  "must": [
+   "MCK557A"
+  ],
+  "exclude": [
+   "互換",
+   "対応",
+   "中古",
+   "◆",
+   "並行輸入",
+   "交換用",
+   "フィルム"
+  ]
+ },
+ {
+  "id": "humidifying-air-purifier~panasonic-f-vx70d",
+  "store": "amazon",
+  "keyword": "パナソニック F-VX70D",
+  "must": [
+   "F-VX70D"
+  ],
+  "exclude": [
+   "互換",
+   "対応",
+   "中古",
+   "◆",
+   "並行輸入",
+   "交換用",
+   "フィルム"
+  ]
+ },
+ {
+  "id": "humidifying-air-purifier~panasonic-f-vxw90",
+  "store": "amazon",
+  "keyword": "パナソニック F-VXW90",
+  "must": [
+   "F-VXW90"
+  ],
+  "exclude": [
+   "互換",
+   "対応",
+   "中古",
+   "◆",
+   "並行輸入",
+   "交換用",
+   "フィルム"
+  ]
+ },
+ {
+  "id": "futon-dryer~iris-fk-w3-w",
+  "store": "amazon",
+  "keyword": "アイリスオーヤマ カラリエ FK-W3-W",
+  "must": [
+   "FK-W3"
+  ],
+  "exclude": [
+   "互換",
+   "対応",
+   "中古",
+   "◆",
+   "並行輸入",
+   "交換用",
+   "フィルム"
+  ]
+ },
+ {
+  "id": "futon-dryer~zojirushi-rf-fb20",
+  "store": "amazon",
+  "keyword": "象印 スマートドライ RF-FB20",
+  "must": [
+   "RF-FB20"
+  ],
+  "exclude": [
+   "互換",
+   "対応",
+   "中古",
+   "◆",
+   "並行輸入",
+   "交換用",
+   "フィルム"
+  ]
+ },
+ {
+  "id": "futon-dryer~zojirushi-rf-ua10",
+  "store": "amazon",
+  "keyword": "象印 スマートドライ RF-UA10",
+  "must": [
+   "RF-UA10"
+  ],
+  "exclude": [
+   "互換",
+   "対応",
+   "中古",
+   "◆",
+   "並行輸入",
+   "交換用",
+   "フィルム"
+  ]
+ },
+ {
+  "id": "futon-dryer~hitachi-hfk-vs6000",
+  "store": "amazon",
+  "keyword": "日立 ふとん乾燥機 HFK-VS6000",
+  "must": [
+   "HFK-VS6000"
+  ],
+  "exclude": [
+   "互換",
+   "対応",
+   "中古",
+   "◆",
+   "並行輸入",
+   "交換用",
+   "フィルム"
+  ]
+ },
+ {
+  "id": "futon-dryer~hitachi-hfk-cv1b",
+  "store": "amazon",
+  "keyword": "日立 ふとん乾燥機 HFK-CV1B",
+  "must": [
+   "HFK-CV1B"
+  ],
+  "exclude": [
+   "互換",
+   "対応",
+   "中古",
+   "◆",
+   "並行輸入",
+   "交換用",
+   "フィルム"
+  ]
+ },
+ {
+  "id": "futon-dryer~panasonic-fd-f06x2",
+  "store": "amazon",
+  "keyword": "パナソニック ふとん暖め乾燥機 FD-F06X2",
+  "must": [
+   "FD-F06X2"
+  ],
+  "exclude": [
+   "互換",
+   "対応",
+   "中古",
+   "◆",
+   "並行輸入",
+   "交換用",
+   "フィルム"
+  ]
+ },
+ {
+  "id": "futon-dryer~sharp-ud-df1",
+  "store": "amazon",
+  "keyword": "シャープ ふとん乾燥機 UD-DF1",
+  "must": [
+   "UD-DF1"
+  ],
+  "exclude": [
+   "互換",
+   "対応",
+   "中古",
+   "◆",
+   "並行輸入",
+   "交換用",
+   "フィルム"
+  ]
+ }
+]
