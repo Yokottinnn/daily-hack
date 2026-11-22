@@ -1,0 +1,5 @@
+{"id":"oven-range-iris2","items":[
+ {"id":"iris-mo-f2404","rakuten":{"keyword":"アイリスオーヤマ MO-F2404","must":["F2404"],"exclude":["角皿","トレー","カバー","部品","専用"]},"amazon":{"keyword":"アイリスオーヤマ スチームオーブンレンジ MO-F2404"}},
+ {"id":"iris-ms-f3003","rakuten":{"keyword":"アイリスオーヤマ MS-F3003-B","must":["MS-F3003"],"exclude":["角皿","トレー","カバー","部品","専用"]},"amazon":{"keyword":"アイリスオーヤマ スチームオーブンレンジ MS-F3003-B"}},
+ {"id":"iris-mo-f1808","rakuten":{"keyword":"アイリスオーヤマ MO-F1808-B","must":["MO-F1808"],"exclude":["角皿","トレー","カバー","部品","専用"]},"amazon":{"keyword":"アイリスオーヤマ スチームオーブンレンジ MO-F1808-B"}}
+]}
