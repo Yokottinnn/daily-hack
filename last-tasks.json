@@ -1,5 +1,5 @@
 [
-      {"task": "t1096-verify-rakuten-dashcam.sh", "rc": 0, "out": "- 商品: 検索結果 48 件・型番「アルパイン DVR-DM1200A2-IC」の表示: あり - 題名: 【楽天市場】アルパイン DVR-DM1200A2-ICの通販 - 写真: Mac の手元のみ（private-shots/shop-verify/dashcam-comparison-2026/v07-rakuten.jpg・公開しない） -rw-r--r--   1 ny  "},
-      {"task": "t1097-verify-yahoo-dashcam.sh", "rc": 0, "out": "- 商品: 検索結果 31 件・型番「アルパイン DVR-DM1200A2-IC」の表示: あり - 題名: アルパイン DVR-DM1200A2-ICのおすすめ人気商品一覧 通販 - Yahoo!ショッピング - 写真: Mac の手元のみ（private-shots/shop-verify/dashcam-comparison-2026/v07-yahoo.jpg・"},
-      {"task": "t1098-verify-amazon-dashcam.sh", "rc": 0, "out": "- 商品: 検索結果 0 件・型番「」の表示: —・カートに入れるボタンあり - 題名: Amazon | アルパイン(ALPINE) ドライブレコーダー搭載 12型デジタルミラー (車内用リアカメラ) DVR-DM1200A2-IC【純正ミラー交換タイプ】前後2カメラ - �"}
+      {"task": "t1083-verify-rakuten-garment-steamer.sh", "rc": 0, "out": "- 商品: 検索結果 45 件・型番「アイリスオーヤマ プレススチーマー IRS-P2」の表示: あり - 題名: 【楽天市場】アイリスオーヤマ プレススチーマー IRS-P2の通販 - 写真: Mac の手元のみ（private-shots/shop-verify/garment-steamer-comparison-202"},
+      {"task": "t1084-verify-yahoo-garment-steamer.sh", "rc": 0, "out": "- 商品: 検索結果 14 件・型番「アイリスオーヤマ プレススチーマー IRS-P2」の表示: あり - 題名: アイリスオーヤマ プレススチーマー IRS-P2のおすすめ人気商品一覧 通販 - Yahoo!ショッピング - 写真: Mac の手元のみ（private-shots/sh"},
+      {"task": "t1085-verify-amazon-garment-steamer.sh", "rc": 0, "out": "- 商品: 検索結果 0 件・型番「」の表示: —・カートに入れるボタンあり - 題名: Amazon.co.jp: アイリスオーヤマ 衣類スチーマー ズボンプレッサー機能搭載 2WAYスチーマー 衣類 アイロン クリーニング スーツ ワイシャツ ビジネ�"}
   ]
