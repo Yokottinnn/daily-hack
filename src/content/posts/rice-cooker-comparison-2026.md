@@ -133,6 +133,10 @@ references:
   <div class="hakkako-quote">差額は約9.7万円。<strong>5年使うなら、1日あたり約53円</strong>（97,020円÷1,825日）。毎日2回炊く家なら1回約27円よ。お茶碗1杯の違いに毎回それを払えるかで決めればいい。逆に、週末にまとめて炊いて冷凍する家なら、保温40時間の差はほとんど効かないわ。</div>
 </div>
 
+同じ2台を並べて「約8万円差は必要か」を話した動画もある（動画の中の価格は撮影した時点のもの）。
+
+<div class="yt-embed"><iframe src="https://www.youtube-nocookie.com/embed/SKEkflmbwp8" title="象印 NW-YD10とNX-AB10を比較｜約8万円差は必要？5.5合圧力IHの選び方" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe></div>
+
 <p class="source-note">出典：<a href="https://www.zojirushi.co.jp/syohin/rice/ricecooker/nx-ab/spec.html" target="_blank" rel="noopener">象印 NX-AB 商品仕様</a>・<a href="https://www.zojirushi.co.jp/syohin/rice/ricecooker/nw-yd/" target="_blank" rel="noopener">象印 NW-YD</a>・<a href="https://www.zojirushi.co.jp/corp/news/2026/260514/NXAB.html" target="_blank" rel="noopener">象印 ニュースリリース（2026年5月14日）</a>。1日あたりは自分で計算した目安。</p>
 
 ## 圧力IHか、土鍋か、圧力なしか
@@ -312,6 +316,8 @@ references:
 
 タイガーが2006年に業界で初めて本物の土鍋を内なべに使ってから20年目の記念モデル。新しく入れた「とろ火IH制御」で、**甘み（還元糖）が約19％、もっちり感が約6.7％上がった**とタイガーは書いている（どちらも同社の2025年製 JRX-S100 との比較）。土鍋は落とすと割れる素材だけど、**割れも5年保証**の対象になっているのは安心ね。保温は24時間で、40時間の機種よりは短い。
 
+<div class="yt-embed"><iframe src="https://www.youtube-nocookie.com/embed/t2BiFaMrrFk" title="タイガー最上位炊飯器｜土鍋ご泡火炊き JRT-A型｜タイガー魔法瓶" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe></div>
+
 <div data-shop-card="suihanki:tiger-jrt-a100"></div>
 
 <h3 class="brand-h" id="jpv-l100"><img class="brand-logo on-dark" src="/images/rice-cooker-comparison-2026/logos/tiger.png" alt="タイガー魔法瓶のロゴ" loading="lazy" /><span>タイガー 炊きたて JPV-L100｜土鍋コートの圧力IH・57,800円</span></h3>
@@ -387,6 +393,8 @@ references:
 
 **4つのセンサーでお米の状態を見て、炊き方を変える**のがビストロの考え方。パナソニックは「お米の状態を見極めていつも新米のようにおいしい」と書いている。食感は「ふつう」と、かため・やわらか・もちもち・しゃっきりの各3段階の13通りから選べる。奥行きが30cmと短いので、奥行きの浅い棚にも置きやすい。
 
+<div class="yt-embed"><iframe src="https://www.youtube-nocookie.com/embed/FaSPPJsHIZ8" title="感動のかまどごはんを目指した炊き技。「Wおどり炊き」搭載パナソニック炊飯器X9Eシリーズ【パナソニック公式】" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe></div>
+
 <div data-shop-card="suihanki:panasonic-sr-x910e"></div>
 
 <h3 class="brand-h" id="rz-w100jm"><img class="brand-logo" src="/images/rice-cooker-comparison-2026/logos/hitachi.png" alt="日立のロゴ" loading="lazy" /><span>日立 ふっくら御膳 RZ-W100JM｜1.5気圧とスチーム・99,800円</span></h3>
@@ -416,6 +424,8 @@ references:
 </div>
 
 **圧力は8台の中でいちばん強い最高1.5気圧**。大火力で沸騰させ、圧力とスチームで蒸らす。京都の米老舗「八代目儀兵衛」が理想とする炊き上がりを目指して監修したモデルよ。蒸気がほとんど出ない「**蒸気カット**」なので、棚の中やコンセントの近くなど、蒸気が気になる場所に置きたい人に向く。内釜の保証は6年と、8台でいちばん長い。
+
+<div class="yt-embed"><iframe src="https://www.youtube-nocookie.com/embed/h5nItBopj_c" title="RZ-W100JM／RZ-Z100JM　京の米老舗 八代目儀兵衛 webムービー" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe></div>
 
 <div data-shop-card="suihanki:hitachi-rz-w100jm"></div>
 
@@ -447,6 +457,8 @@ references:
 
 **真空ポンプで内釜の中の空気を抜き、お米の芯まで水を吸わせる**のが東芝だけの仕組み。炊いている途中にも追加で真空にして、お米の表面が傷つくのを防ぐ。保温も真空で、白米なら最長40時間。羽釜をまねた丸い底で、かまどのような強い対流を起こす。炊飯時の消費電力は1,450Wと8台でいちばん大きい。
 
+<div class="yt-embed"><iframe src="https://www.youtube-nocookie.com/embed/0dYX3P95B5c" title="ジャー炊飯器 炎匠炊き「RC-10ZWA/SGA 商品紹介」｜東芝ライフスタイル" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe></div>
+
 <div data-shop-card="suihanki:toshiba-rc-10zwa"></div>
 
 <h3 class="brand-h" id="nj-bw10j"><img class="brand-logo" src="/images/rice-cooker-comparison-2026/logos/mitsubishi.png" alt="三菱電機のロゴ" loading="lazy" /><span>三菱電機 本炭釜 紬 NJ-BW10J｜圧力をかけない炭の釜</span></h3>
@@ -477,11 +489,39 @@ references:
 
 **8台の中で唯一、圧力をかけない**。三菱は「お米本来のおいしさを引き出すために『圧力をかけない』炊き方にこだわる」と書いている。もちもちより**粒が立ったしゃっきりしたごはん**が好きな人、カレーや炒飯を作ることが多い人に向くわ。内釜は木炭や竹炭とは違う炭素材で、**強い衝撃で割れることがある**と三菱は注意している。公式サイトには2026年7月16日に新モデルとして載った。
 
+圧力をかけない三菱の炊き方を、家電に詳しい人が解説した動画もある。
+
+<div class="yt-embed"><iframe src="https://www.youtube-nocookie.com/embed/iQLOCOr9F1A" title="しゃっきりご飯の伝道師！三菱炊飯器のすべて【本炭釜】圧力なしでも、ご飯はここまで美味しくなる！！" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe></div>
+
 <div data-shop-card="suihanki:mitsubishi-nj-bw10j"></div>
 
 ## 使った人の声｜SNSではこう言われている
 
-<!-- EMBEDS -->
+X で「炎舞炊き」「土鍋ご泡火炊き」「高い炊飯器 買ってよかった」などを探して、買う前・買った後の投稿を読んだ。目立ったのは次の3つ。
+
+<div class="cmp-table-wrap">
+  <table class="cmp-table prose-table">
+    <thead><tr><th>よく出る声</th><th>どんな投稿か</th></tr></thead>
+    <tbody>
+      <tr><td><strong>値段で迷う</strong></td><td><strong>「3万違うんよぅう」「15万は買えない…」</strong><span class="cell-sub">上位機と1つ下の機種の差額で手が止まる投稿が多い。この記事の「5万と15万の差」の節が答え</span></td></tr>
+      <tr><td><strong>おいしい</strong></td><td><strong>土鍋の機種で炊いたごはんを「美味しいです‼️」</strong><span class="cell-sub">お店やイベントで上位機のごはんを食べた投稿も出ている</span></td></tr>
+      <tr><td><strong>売り場で迷う</strong></td><td><strong>「竈門炊き！とか、炎舞！とか、ダイヤモンド釜！とか」</strong><span class="cell-sub">各社の名前が技の名前のようで、違いが分かりにくいという声</span></td></tr>
+    </tbody>
+  </table>
+</div>
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">炊飯器 炎舞炊きめちゃくちゃ気になる。 毎日の事やし美味しいご飯を妥協なしで買った炊飯器炊いたご飯が食べれる。。だがしかし この表みたら ゆ ら ぐ…! 3万違うんよぅう 電気屋さん行ってこようかな…</p>&mdash; さな🎀【v-Soul】【CherryBlossom】 (@sana__time) <a href="https://twitter.com/sana__time/status/1961397420694319567">2025年8月29日</a></blockquote>
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">15万のタイガー炊飯器だそうです 美味しいです‼️ でも15万は買えない… 炊飯器を持っていないから土鍋で炊いてるけど、簡単だし目分量でも炊き上がるのを覚えてしまった🤭</p>&mdash; ケロ (@royal_kero) <a href="https://twitter.com/royal_kero/status/2109161462359105604">2026年10月11日</a></blockquote>
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">炊飯器買い替えェェェェ！前回から12？3？年は経ってる？久しぶりの炊飯器売り場は竈門炊き！とか、炎舞！とか、ダイヤモンド釜！とか色々と技の名前みたいでかっこよかった。</p>&mdash; カヨタス (@arupaka_ko) <a href="https://twitter.com/arupaka_ko/status/2087086062787256566">2026年8月11日</a></blockquote>
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">炊飯器買ったぜ タイガーだぜ、土鍋だぜ</p>&mdash; 唎酒師トッキー@日本酒大図鑑チャンネル (@Tokio_numata) <a href="https://twitter.com/Tokio_numata/status/2098383310527566001">2026年9月11日</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+「10万円の炊飯器は本当に高いだけか」を、料理研究家が食べ比べた動画もある。
+
+<div class="yt-embed"><iframe src="https://www.youtube-nocookie.com/embed/Raq76bLWRuA" title="10万円の炊飯器とか絶対ボッタクリだろ、検証するわ" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe></div>
 
 ## 向いている人・向かない人
 
@@ -529,4 +569,3 @@ references:
 <div class="hakkako-says">
   <div class="hakkako-quote">決め方は<strong>「好きな食感」と「毎日炊きたてを食べるか」</strong>の2つ。もちもちなら圧力IH、粒立ちなら三菱。毎日炊きたてを食べて、釜や保証にお金を払う価値があるなら15万円クラス、そうでなければ<strong>5万円台の圧力IHで十分</strong>よ。オープン価格だから、ブラックフライデーで3つの店の値段を見比べてから買うのよ。</div>
 </div>
-
