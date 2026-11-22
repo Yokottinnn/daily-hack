@@ -1,0 +1,6 @@
+{
+  "braun.png": {"brand": "ブラウン", "title": "File:Braun Logo.svg", "page": "https://commons.wikimedia.org/wiki/File:Braun_Logo.svg", "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Braun_Logo.svg/500px-Braun_Logo.svg.png", "license": "Public domain（商標）", "fetched": "2026-11-22"},
+  "maxell.png": {"brand": "マクセル イズミ（マクセル）", "title": "File:Maxell logo.svg", "page": "https://commons.wikimedia.org/wiki/File:Maxell_logo.svg", "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Maxell_logo.svg/500px-Maxell_logo.svg.png", "license": "Public domain（商標）", "fetched": "2026-11-22", "note": "IZUMI のシェーバーはマクセル イズミの製品で、公式の販売先は「Maxell 公式ショップ」"},
+  "philips.png": {"brand": "フィリップス", "title": "File:Philips logo.svg", "page": "https://commons.wikimedia.org/wiki/File:Philips_logo.svg", "license": "Public domain（商標）", "fetched": "2026-11-22", "copied_from": "public/images/electric-toothbrush-comparison-2026/logos/philips.png"},
+  "panasonic.png": {"brand": "パナソニック", "title": "File:Panasonic Group logo.svg", "page": "https://commons.wikimedia.org/wiki/File:Panasonic_Group_logo.svg", "license": "Public domain（商標）", "fetched": "2026-10-18", "copied_from": "public/images/electric-toothbrush-comparison-2026/logos/panasonic.png"}
+}
