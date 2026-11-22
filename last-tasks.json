@@ -1,3 +1,6 @@
 [
-      {"task": "t912-find-pages-oven-range.sh", "rc": 0, "out": ""}
+      {"task": "t962-find-pages-hair-iron.sh", "rc": 0, "out": "  - https://item.rakuten.co.jp/dejikura/4571607698328/｜6,578｜SALONIA サロニア コードレス ストレートヘアアイロン 12mm KSAL26131-GR グレー KSAL26131GR (納期目安1-2週間)   - https://item.rakuten.co.jp/dejikura/4571607698311/｜6,578｜SALONIA サロニア コードレ�"},
+      {"task": "t963-verify-rakuten-hair-iron.sh", "rc": 0, "out": "- 商品: 検索結果 50 件・型番「SALONIA サロニア コードレス ストレートヘアアイロン」の表示: あり - 題名: 【楽天市場】SALONIA サロニア コードレス ストレートヘアアイロンの通販 - 写真: Mac の手元のみ（private-shots/shop-verify/ha"},
+      {"task": "t964-verify-yahoo-hair-iron.sh", "rc": 0, "out": "- 商品: 検索結果 9 件・型番「」の表示: — - 題名: SALONIA サロニア コードレス ストレートヘアアイロンのおすすめ人気商品一覧 通販 - Yahoo!ショッピング - 写真: Mac の手元のみ（private-shots/shop-verify/hair-iron-comparison-2026/v16-yahoo."},
+      {"task": "t965-verify-amazon-hair-iron.sh", "rc": 0, "out": "- 商品: 検索結果 56 件・型番「SALONIA サロニア コードレス ストレートヘアアイロン」の表示: あり・カートに入れるボタンあり - 題名: Amazon.co.jp : SALONIA サロニア コードレス ストレートヘアアイロン - 写真: Mac の手元のみ（p"}
   ]
