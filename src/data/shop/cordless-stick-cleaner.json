@@ -26,7 +26,7 @@
       "source": "https://www.sharkninja.jp/products/lc050j",
       "rakuten": { "keyword": "Shark GlideClean LC050J", "must": ["LC050J"], "exclude": ["交換", "専用", "対応", "フィルター", "バッテリー", "◆", "中古"] },
       "yahoo": { "keyword": "Shark GlideClean LC050J", "must": ["LC050J"], "exclude": ["交換", "専用", "対応", "フィルター", "バッテリー", "◆", "中古"] },
-      "amazon": { "keyword": "Shark GlideClean LC050J", "asin": null }
+      "amazon": { "keyword": "Shark GlideClean LC050J", "asin": "B0HNW8JZL7" }
     },
     {
       "id": "shark-lc900j",
@@ -44,7 +44,7 @@
       "source": "https://www.sharkninja.jp/products/lc900j",
       "rakuten": { "keyword": "Shark ActiClean LC900J", "must": ["LC900J"], "exclude": ["交換", "専用", "対応", "フィルター", "バッテリー", "◆", "中古"] },
       "yahoo": { "keyword": "Shark ActiClean LC900J", "must": ["LC900J"], "exclude": ["交換", "専用", "対応", "フィルター", "バッテリー", "◆", "中古"] },
-      "amazon": { "keyword": "Shark ActiClean LC900J", "asin": null }
+      "amazon": { "keyword": "Shark ActiClean LC900J", "asin": "B0HF7YYVDY" }
     },
     {
       "id": "hitachi-pv-bg1000r",
@@ -62,7 +62,7 @@
       "source": "https://kadenfan.hitachi.co.jp/clean/lineup/pv-bg1000r/",
       "rakuten": { "keyword": "日立 PV-BG1000R", "must": ["BG1000R"], "exclude": ["交換", "専用", "対応", "フィルター", "バッテリー", "◆", "中古"] },
       "yahoo": { "keyword": "日立 PV-BG1000R", "must": ["BG1000R"], "exclude": ["交換", "専用", "対応", "フィルター", "バッテリー", "◆", "中古"] },
-      "amazon": { "keyword": "日立 PV-BG1000R", "asin": null }
+      "amazon": { "keyword": "日立 PV-BG1000R", "asin": "B0H86XWLK2" }
     },
     {
       "id": "panasonic-mc-nx600km",
@@ -80,7 +80,7 @@
       "source": "https://panasonic.jp/soji/products/MC-NX600KM.html",
       "rakuten": { "keyword": "パナソニック MC-NX600KM", "must": ["NX600KM"], "exclude": ["交換", "専用", "対応", "紙パック", "フィルター", "バッテリー", "◆", "中古"] },
       "yahoo": { "keyword": "パナソニック MC-NX600KM", "must": ["NX600KM"], "exclude": ["交換", "専用", "対応", "紙パック", "フィルター", "バッテリー", "◆", "中古"] },
-      "amazon": { "keyword": "パナソニック MC-NX600KM", "asin": null }
+      "amazon": { "keyword": "パナソニック MC-NX600KM", "asin": "B0HLK971F9" }
     },
     {
       "id": "dyson-pencilvac-fc",
@@ -98,7 +98,7 @@
       "source": "https://www.dyson.co.jp/vacuum-cleaners/powerbroom/pencilvac/fluffycones",
       "rakuten": { "keyword": "Dyson PencilVac Fluffycones SV50", "must": ["SV50"], "exclude": ["交換", "専用", "対応", "フィルター", "バッテリー", "◆", "中古", "互換"] },
       "yahoo": { "keyword": "Dyson PencilVac Fluffycones SV50", "must": ["SV50"], "exclude": ["交換", "専用", "対応", "フィルター", "バッテリー", "◆", "中古", "互換"] },
-      "amazon": { "keyword": "Dyson PencilVac Fluffycones SV50 FC", "asin": null }
+      "amazon": { "keyword": "Dyson PencilVac Fluffycones SV50 FC", "asin": "B0F7WJW98P" }
     },
     {
       "id": "dyson-v12-detect-slim",
@@ -116,7 +116,7 @@
       "source": "https://www.dyson.co.jp/vacuum-cleaners/cordless/v12/detect-slim-absolute",
       "rakuten": { "keyword": "Dyson V12 Detect Slim Absolute SV46", "must": ["SV46"], "exclude": ["交換", "専用", "対応", "フィルター", "バッテリー", "◆", "中古", "互換"] },
       "yahoo": { "keyword": "Dyson V12 Detect Slim Absolute SV46", "must": ["SV46"], "exclude": ["交換", "専用", "対応", "フィルター", "バッテリー", "◆", "中古", "互換"] },
-      "amazon": { "keyword": "Dyson V12 Detect Slim Absolute SV46 ABL", "asin": null }
+      "amazon": { "keyword": "Dyson V12 Detect Slim Absolute SV46 ABL", "asin": "B0F7X49XXK" }
     },
     {
       "id": "makita-cl287fd",
@@ -134,7 +134,7 @@
       "source": "https://www.makita.co.jp/product/detail/?&model=CL287FD",
       "rakuten": { "keyword": "マキタ CL287FD", "must": ["CL287FD"], "exclude": ["交換", "専用", "対応", "フィルター", "◆", "中古", "互換"] },
       "yahoo": { "keyword": "マキタ CL287FD", "must": ["CL287FD"], "exclude": ["交換", "専用", "対応", "フィルター", "◆", "中古", "互換"] },
-      "amazon": { "keyword": "マキタ CL287FD", "asin": null }
+      "amazon": { "keyword": "マキタ CL287FD", "asin": "B0HLCW2KPN" }
     },
     {
       "id": "iris-scd-186p",
