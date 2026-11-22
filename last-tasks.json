@@ -1,7 +1,1 @@
-[
-      {"task": "t910-iris-oven-read.sh", "rc": 0, "out": "  - 画像 p7-img2.jpg: 186355 bytes — https://www.irisohyama.co.jp/news/2026/img/1112/fb.png   - img3 1200x630 「モナキをCM初起用！アイリスのお茶 綠 レモンフレーバー/白桃フレーバー新TVC」   - img4 1200x630 「独自の流速変更ドリッパーでよりコク深"},
-      {"task": "t911-embed-oven-range.sh", "rc": 0, "out": "- X 2062116962021569021 @Tento_kenjuu  2026-06-03 ♥6 石窯ドームのちょっと良いヤツを思い切って買ったのよ！(パン作りにハマって、前のが熱に耐えかねて壊れた) 予熱の終了時間教えてくれるし、高温だし、天板2枚入るし、天板のコ�"},
-      {"task": "t960-hairiron-official-read.sh", "rc": 0, "out": "4488 yaman-top-7.png 121384 yaman-top-8.jpg 121384 yaman-top-9.jpg  **読むだけ。LLM 不使用（$0／回）。**"},
-      {"task": "t961-embed-hairiron.sh", "rc": 0, "out": "- X 2124158999713227031 @AnzuNotice ✔ 2026-11-21 ♥0 デンキチWeb Yahoo!店にて販売中 パナソニック Panasonic ストレートアイロン ナノケア 高浸透ナノイー EH-HN51 https://t.co/ilymd2uI - YT n7PVH8jqYeU 「【ガチ検証】パナソニック【EH-HN30・EH-HN51】2�"},
-      {"task": "x543-schedule-xmas-market-hikaku.sh", "rc": 0, "out": "ブラックフライデーまとめを 11/19 12:08 に予約した / x543-schedule-xmas-market-hikaku.md"}
-  ]
+[]

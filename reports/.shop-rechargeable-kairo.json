@@ -28,7 +28,7 @@
       "label": "スマホ充電"
     }
   ],
-  "pricesCheckedAt": "2026-10-30T21:46:11.773Z",
+  "pricesCheckedAt": "2026-11-21T21:42:39.263Z",
   "items": [
     {
       "id": "francfranc-kurikaeshi-2026",
@@ -56,14 +56,14 @@
         "must": [
           "繰り返し使えるカイロ"
         ],
-        "url": "https://store.shopping.yahoo.co.jp/zozo/111963074.html",
-        "price": 3480,
+        "url": "https://store.shopping.yahoo.co.jp/zozo/98176783.html",
+        "price": 2363,
         "shippingFree": false,
         "point": 0,
-        "reviewAverage": null,
-        "reviewCount": 0,
+        "reviewAverage": 3.75,
+        "reviewCount": 4,
         "shop": "ZOZOTOWN Yahoo!店",
-        "checkedAt": "2026-10-30T21:46:11.773Z"
+        "checkedAt": "2026-11-21T21:42:39.263Z"
       },
       "amazon": {
         "keyword": "フランフラン 繰り返し使えるカイロ",
@@ -103,7 +103,7 @@
         "reviewAverage": null,
         "reviewCount": 0,
         "shop": "ZOZOTOWN Yahoo!店",
-        "checkedAt": "2026-10-30T21:46:11.773Z"
+        "checkedAt": "2026-11-21T21:42:39.263Z"
       },
       "amazon": {
         "keyword": "フランフラン 両手で使える充電式カイロ",
@@ -139,10 +139,10 @@
         "price": 1096,
         "shippingFree": true,
         "point": 0,
-        "reviewAverage": 4.33,
-        "reviewCount": 481,
+        "reviewAverage": 4.34,
+        "reviewCount": 493,
         "shop": "mottole Yahoo!店",
-        "checkedAt": "2026-10-30T21:46:11.773Z"
+        "checkedAt": "2026-11-21T21:42:39.263Z"
       },
       "amazon": {
         "keyword": "mottole MTL-E007",
@@ -179,10 +179,10 @@
         "price": 1730,
         "shippingFree": true,
         "point": 0,
-        "reviewAverage": 4.35,
-        "reviewCount": 93,
+        "reviewAverage": 4.36,
+        "reviewCount": 97,
         "shop": "mottole Yahoo!店",
-        "checkedAt": "2026-10-30T21:46:11.773Z"
+        "checkedAt": "2026-11-21T21:42:39.263Z"
       },
       "amazon": {
         "keyword": "mottole MTL-E029",
@@ -216,17 +216,19 @@
           "MTL-E030"
         ],
         "url": "https://store.shopping.yahoo.co.jp/mottole/mtl-e030.html",
-        "price": 4630,
+        "price": 3704,
         "shippingFree": true,
         "point": 0,
         "reviewAverage": 4.24,
         "reviewCount": 74,
         "shop": "mottole Yahoo!店",
-        "checkedAt": "2026-10-30T21:46:11.773Z"
+        "checkedAt": "2026-11-21T21:42:39.263Z"
       },
       "amazon": {
-        "keyword": "mottole MTL-E030",
-        "asin": null
+        "keyword": null,
+        "asin": null,
+        "_hiddenNote": "2026-10-31 利用者の判断（ダイアログ「その店に無い商品のボタンを消す」）で外した。本番で押した確認（t371〜t389）で、型番の商品がAmazonの検索結果に出なかった。証跡: https://claude.ai/artifact/9VGFmsTLBooRxm7V8AgCeD",
+        "_keywordWas": "mottole MTL-E030"
       }
     },
     {
@@ -262,11 +264,13 @@
         "reviewAverage": null,
         "reviewCount": 0,
         "shop": "BINOTOKI Yahoo!店",
-        "checkedAt": "2026-10-30T21:46:11.773Z"
+        "checkedAt": "2026-11-21T21:42:39.263Z"
       },
       "amazon": {
-        "keyword": "e-Kairo Oval EK-OV25",
-        "asin": null
+        "keyword": null,
+        "asin": null,
+        "_hiddenNote": "2026-10-31 利用者の判断（ダイアログ「その店に無い商品のボタンを消す」）で外した。本番で押した確認（t371〜t389）で、型番の商品がAmazonの検索結果に出なかった。証跡: https://claude.ai/artifact/9VGFmsTLBooRxm7V8AgCeD",
+        "_keywordWas": "e-Kairo Oval EK-OV25"
       }
     },
     {
@@ -302,7 +306,7 @@
         "reviewAverage": null,
         "reviewCount": 2,
         "shop": "BINOTOKI Yahoo!店",
-        "checkedAt": "2026-10-30T21:46:11.773Z"
+        "checkedAt": "2026-11-21T21:42:39.263Z"
       },
       "amazon": {
         "keyword": "e-Kairo Carre EK-CR25",
@@ -339,10 +343,10 @@
         "price": 3099,
         "shippingFree": true,
         "point": 0,
-        "reviewAverage": null,
-        "reviewCount": 2,
+        "reviewAverage": 4.67,
+        "reviewCount": 3,
         "shop": "BINOTOKI Yahoo!店",
-        "checkedAt": "2026-10-30T21:46:11.773Z"
+        "checkedAt": "2026-11-21T21:42:39.263Z"
       },
       "amazon": {
         "keyword": "e-Kairo Share EK-SH25",
@@ -376,13 +380,13 @@
           "TOY052"
         ],
         "url": "https://store.shopping.yahoo.co.jp/sanwadirect/400-toy052w.html",
-        "price": 2980,
+        "price": 3480,
         "shippingFree": true,
         "point": 0,
         "reviewAverage": null,
-        "reviewCount": 1,
+        "reviewCount": 2,
         "shop": "サンワダイレクト",
-        "checkedAt": "2026-10-30T21:46:11.773Z"
+        "checkedAt": "2026-11-21T21:42:39.263Z"
       },
       "amazon": {
         "keyword": "400-TOY052W",
@@ -411,7 +415,7 @@
         "itemUrl": "https://item.rakuten.co.jp/hagoogi/ot-96h-02/"
       },
       "yahoo": {
-        "keyword": "HAGOOGI OT-96H",
+        "keyword": null,
         "must": [
           "OT-96H"
         ],
@@ -422,11 +426,15 @@
         "reviewAverage": null,
         "reviewCount": null,
         "shop": null,
-        "checkedAt": "2026-10-30T21:46:11.773Z"
+        "checkedAt": "2026-10-30T21:46:11.773Z",
+        "_keywordWas": "HAGOOGI OT-96H",
+        "_hiddenNote": "2026-10-31 利用者の判断（ダイアログ「その店に無い商品のボタンを消す」）で外した。本番で押した確認（t371〜t389）で、型番の商品がYahoo!ショッピングの検索結果に出なかった。証跡: https://claude.ai/artifact/9VGFmsTLBooRxm7V8AgCeD"
       },
       "amazon": {
-        "keyword": "HAGOOGI OT-96H",
-        "asin": null
+        "keyword": null,
+        "asin": null,
+        "_hiddenNote": "2026-10-31 利用者の判断（ダイアログ「その店に無い商品のボタンを消す」）で外した。本番で押した確認（t371〜t389）で、型番の商品がAmazonの検索結果に出なかった。証跡: https://claude.ai/artifact/9VGFmsTLBooRxm7V8AgCeD",
+        "_keywordWas": "HAGOOGI OT-96H"
       }
     }
   ]
