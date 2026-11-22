@@ -1,0 +1,26 @@
+
+## ms-f2601（HTTP 200・本文 1089 字・もっと読む 1 回）
+- URL: https://www.irisohyama.co.jp/products/electrical-appliances/cooking-appliances/microwave-microwave-oven/steam-oven/steam-oven-range-tank-type-26l
+  - img ms-f2601-01.jpg 0x0 3477B alt「og:image」 https://www.irisohyama.co.jp/products/web-catalog/img/serieses/steam-oven-range-tank-type-26l/thumb.jpg
+  - img ms-f2601-02.png 1200x630 126167B alt「朝に飲むならアイリスのお茶 綠(りょく)」 https://www.irisohyama.co.jp/ryoku/images/fb.png
+  - img ms-f2601-03.png 1200x630 175655B alt「フレーバー緑茶」 https://www.irisohyama.co.jp/ryoku/flavor/images/fb.png
+  - img ms-f2601-04.png 1200x630 251464B alt「アイリスの強炭酸水 CRYSTAL SPARK」 https://www.irisohyama.co.jp/crystal-spark/images/fb.png
+  - img ms-f2601-05.jpg 1200x630 166721B alt「アイリスの強炭酸水 CRYSTAL SPARK フレーバー」 https://www.irisohyama.co.jp/crystal-spark/flavor/images/fb.jpg
+  - img ms-f2601-06.png 1200x630 191231B alt「低温製法米のおいしいごはん®」 https://www.irisohyama.co.jp/retort-cooked-rice/images/fb.png
+  - img ms-f2601-07.jpg 1201x631 340662B alt「大凍量 大型冷蔵庫」 https://www.irisohyama.co.jp/refrigerator-portal/daitouryou/images/fb.jpg
+  - img ms-f2601-08.jpg 1200x630 295863B alt「アイリス史上最強炭酸 TANSAN X」 https://www.irisohyama.co.jp/crystal-spark/tansan-x/images/fb.jpg
+- PDF のリンク 1 件: https://www.irisohyama.co.jp/products/manual/pdf/518149.pdf
+- PDF 14494084B（HTTP 200）→ 手元に保存（公開しない）
+
+## ms-2402（HTTP 200・本文 1093 字・もっと読む 1 回）
+- URL: https://www.irisohyama.co.jp/products/electrical-appliances/cooking-appliances/microwave-microwave-oven/steam-oven/steam-oven-range-tank-type-24l
+  - img ms-2402-01.jpg 0x0 37600B alt「og:image」 https://www.irisohyama.co.jp/products/web-catalog/img/serieses/steam-oven-range-tank-type-24l/thumb.jpg
+  - img ms-2402-02.png 1200x630 126167B alt「朝に飲むならアイリスのお茶 綠(りょく)」 https://www.irisohyama.co.jp/ryoku/images/fb.png
+  - img ms-2402-03.png 1200x630 175655B alt「フレーバー緑茶」 https://www.irisohyama.co.jp/ryoku/flavor/images/fb.png
+  - img ms-2402-04.png 1200x630 251464B alt「アイリスの強炭酸水 CRYSTAL SPARK」 https://www.irisohyama.co.jp/crystal-spark/images/fb.png
+  - img ms-2402-05.jpg 1200x630 166721B alt「アイリスの強炭酸水 CRYSTAL SPARK フレーバー」 https://www.irisohyama.co.jp/crystal-spark/flavor/images/fb.jpg
+  - img ms-2402-06.png 1200x630 191231B alt「低温製法米のおいしいごはん®」 https://www.irisohyama.co.jp/retort-cooked-rice/images/fb.png
+  - img ms-2402-07.jpg 1201x631 340662B alt「大凍量 大型冷蔵庫」 https://www.irisohyama.co.jp/refrigerator-portal/daitouryou/images/fb.jpg
+  - img ms-2402-08.jpg 1200x630 295863B alt「アイリス史上最強炭酸 TANSAN X」 https://www.irisohyama.co.jp/crystal-spark/tansan-x/images/fb.jpg
+- PDF のリンク 1 件: https://www.irisohyama.co.jp/products/manual/pdf/562525.pdf
+- PDF 44127334B（HTTP 200）→ 手元に保存（公開しない）
