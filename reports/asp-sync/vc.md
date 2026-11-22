@@ -1,6 +1,6 @@
 # バリューコマース（asp-sync）
 
-生成: **2026-11-21T21:12:06.022Z**
+生成: **2026-11-22T21:12:05.850Z**
 
 - ログイン: **できている**
 - 最終 URL: https://aff.valuecommerce.ne.jp/home
@@ -18,10 +18,10 @@
 | サイト設定 | https://aff.valuecommerce.ne.jp/account/siteManage |
 | 【復旧】バリューコマース アフィリエイト 一部業務対応への影響について（アフィリエイトサイト向け） | https://www.valuecommerce.ne.jp/support/maintenance/23054.html |
 | 【重要】広告主サイトの稼働状況に関するお知らせ | https://www.valuecommerce.ne.jp/support/maintenance/22906.html |
-| 世界最大級！ツアーアクティビティの検索サイト「Liigo」販促プログラム | https://aff.valuecommerce.ne.jp/ad/adDetail/2161122?tag=cm&spot=d |
 | 電子コミックサイト ブッコミ 月額コース契約プログラム | https://aff.valuecommerce.ne.jp/ad/adDetail/2171815?tag=cm&spot=d |
-| 遊び予約／レジャーチケット購入サイト「アソビュー！」 | https://aff.valuecommerce.ne.jp/ad/adDetail/2130178?tag=cm&spot=d |
 | Amazon(アマゾン)アソシエイトプログラム | https://aff.valuecommerce.ne.jp/ad/adDetail/2090096?recommendOid=4933233 |
+| VAIOストア 販売促進プログラム | https://aff.valuecommerce.ne.jp/ad/adDetail/2169074?tag=cm&spot=d |
+| 遊び予約／レジャーチケット購入サイト「アソビュー！」 | https://aff.valuecommerce.ne.jp/ad/adDetail/2130178?tag=cm&spot=d |
 | 【JTB】国内宿泊予約(旅館・ホテル)と国内ツアー予約プログラム | https://aff.valuecommerce.ne.jp/ad/adDetail/2024978 |
 | 国内総合プログラム | https://aff.valuecommerce.ne.jp/ad/adDetail/2003520 |
 | Audibleアフィリエイト紹介プログラム | https://aff.valuecommerce.ne.jp/ad/adDetail/2174874 |
@@ -37,8 +37,8 @@
 ```text
 ログアウト
 人気ワード：
-韓国語|
-プロテイン|
+BTO|
+Apple|
 ダッシュボード
 レポート
 詳細検索
@@ -65,21 +65,22 @@ MyLink一括変換
 ITPタグ
 レポートAPI
 Chrome拡張機能
-メッセージ 8
+メッセージ 6
 自己アフィリエイト
 Daily Hack あんたバカぁ?まだ損してるの? （ID:3776384）
 LinkSwitch提携候補先
-レポート期間： 2026/10/21 ～ 2026/11/21
+レポート期間： 2026/10/22 ～ 2026/11/22
 1 (current)
 広告主名 リンク先URL数 リンク先URL表示回数 広告プログラム
-ジャルパック 国内ツアー [提携申請済] 177 30 広告プログラムを見る
+ふるさと納税「ふるなび」 [提携申請済] 345 89 広告プログラムを見る
+ジャルパック 国内ツアー [提携申請済] 301 64 広告プログラムを見る
+Softbank 光 174 56 広告プログラムを見る
+ふるさとチョイス 36 36 広告プログラムを見る
 ジャルパック 海外ツアー [提携申請済] 104 28 広告プログラムを見る
-ふるさと納税「ふるなび」 [提携申請済] 127 25 広告プログラムを見る
-サンワダイレクト 19 19 広告プログラムを見る
-Softbank 光 55 14 広告プログラムを見る
-ふるさとチョイス 9 9 広告プログラムを見る
-TOWER RECORDS ONLINE 16 8 広告プログラムを見る
-エアトリ 9 6 広告プログラムを見る
+サンワダイレクト 26 26 広告プログラムを見る
+エアトリ 30 20 広告プログラムを見る
+TOWER RECORDS ONLINE 30 15 広告プログラムを見る
+LOHACO by ASKUL 25 9 広告プログラムを見る
 JTB旅物語公式サイト 5 5 広告プログラムを見る
 Anker公式オンラインストア [提携申請済] 16 4 広告プログラムを見る
 【J-TRIP】国内旅行・国内ツアーのジェイトリップツアー [提携申請済] 6 4 広告プログラムを見る
