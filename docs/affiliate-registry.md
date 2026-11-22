@@ -95,9 +95,12 @@
 | `electric-pressure-cooker-comparison-2026` | 3 店ボタン（`src/data/shop/denki-atsuryokunabe.json`） | 同上（2026-11-22）。電気圧力鍋・自動調理鍋 8 台 |
 | `oven-range-comparison-2026` | 3 店ボタン（`src/data/shop/oven-range.json`） | 2026-11-22 追加。オーブンレンジ 7 台 |
 | `hair-iron-comparison-2026` | 3 店ボタン（`src/data/shop/hair-iron.json`） | 2026-11-22 追加。ヘアアイロン 8 機種 |
+| `gaming-monitor-comparison-2026` | 3 店ボタン（`src/data/shop/gaming-monitor.json`） | 2026-11-22 追加。ゲーミングモニター 7 機種 |
 | `oven-toaster-comparison-2026` | 3 店ボタン（`src/data/shop/oven-toaster.json`） | 2026-11-22 追加。オーブントースター 8 機種 |
+| `hot-plate-comparison-2026` | 3 店ボタン（`src/data/shop/hot-plate.json`） | 2026-11-22 追加。ホットプレート 7 機種 |
 | `rice-cooker-comparison-2026` | 3 店ボタン（`src/data/shop/suihanki.json`） | 同上（2026-11-22）。炊飯器 5.5合 8 台 |
 | `facial-device-comparison-2026` | 3 店ボタン（`src/data/shop/facial-device.json`） | 2026-11-22 追加。美顔器 6 機種（Amazon は全部 ASIN） |
+| `body-composition-scale-comparison-2026` | 3 店ボタン（`src/data/shop/body-scale.json`） | 2026-11-23 追加。体組成計 8 機種（タニタ・オムロン・Withings・エレコム・Xiaomi） |
 | `electric-kettle-comparison-2026` | 3 店ボタン（`src/data/shop/electric-kettle.json`） | 2026-11-22 追加。電気ケトル 8 機種 |
 
 ## A8 のリンクを入れた湾岸ライフの記事（2026-10-25）

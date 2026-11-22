@@ -1,0 +1,406 @@
+{
+  "id": "gaming-monitor",
+  "title": "ゲーミングモニター 27インチ（Hzと解像度・PS5／Switch 2 で何Hzまで出るか）",
+  "_note": "仕様は各社の日本の公式の製品ページ・仕様表だけ（2026-11-22 確認）。ゲーム機の欄は、モニターのメーカーが公式にゲーム機の対応を書いているものだけ書き、書いていないものは HDMI の規格を書く。デル・MSI は ops/tasks/t1030 で公式ページを読んだ",
+  "columns": [
+    {
+      "key": "res",
+      "label": "画面・解像度"
+    },
+    {
+      "key": "hz",
+      "label": "最大リフレッシュレート（PC）"
+    },
+    {
+      "key": "console",
+      "label": "ゲーム機（公式の記載）"
+    },
+    {
+      "key": "panel",
+      "label": "パネル"
+    },
+    {
+      "key": "ports",
+      "label": "映像入力"
+    }
+  ],
+  "pricesCheckedAt": null,
+  "items": [
+    {
+      "id": "zowie-xq2766x",
+      "brand": "BenQ（ZOWIE）",
+      "name": "ZOWIE XQ2766X",
+      "badge": "FPS・360Hz",
+      "summary": "27インチ WQHD で360Hz。PS5／Xbox Series X|S は WQHD 120Hz と公式の仕様に書いてある。",
+      "recommended": false,
+      "specs": {
+        "res": "27インチ・2560×1440",
+        "hz": "360Hz",
+        "console": "PS5／Xbox Series X|S：2560×1440 120Hz（HDMI 2.1）",
+        "panel": "Fast TN（DyAc 3）",
+        "ports": "HDMI 2.1×3・DisplayPort 1.4×1"
+      },
+      "source": "https://zowie.benq.com/ja-jp/monitor/xq2766x.html",
+      "rakuten": {
+        "keyword": "ZOWIE XQ2766X",
+        "must": [
+          "XQ2766X"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "アーム",
+          "フィルム",
+          "カバー",
+          "専用",
+          "対応"
+        ]
+      },
+      "yahoo": {
+        "keyword": "ZOWIE XQ2766X",
+        "must": [
+          "XQ2766X"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "アーム",
+          "フィルム",
+          "カバー",
+          "専用",
+          "対応"
+        ]
+      },
+      "amazon": {
+        "keyword": "BenQ ZOWIE XQ2766X",
+        "asin": "B0HKWBGSZW"
+      }
+    },
+    {
+      "id": "asus-xg27acsr",
+      "brand": "ASUS（ROG）",
+      "name": "ROG Strix XG27ACS Gen2（XG27ACSR）",
+      "badge": "IPS・バランス",
+      "summary": "27インチ WQHD・220Hz の Fast IPS。HDMI 2.1 と USB-C（DP Alt Mode）を1本ずつ持つ。",
+      "recommended": true,
+      "specs": {
+        "res": "27インチ・2560×1440",
+        "hz": "220Hz（オーバークロック）",
+        "console": "PS5／Xbox の VRR は HDMI 2.1 で動く（ASUS のよくある質問）",
+        "panel": "Fast IPS",
+        "ports": "HDMI 2.1×1・DisplayPort 1.4×1・USB-C×1"
+      },
+      "source": "https://rog.asus.com/jp/monitors/27-to-31-5-inches/rog-strix-xg27acs-gen2-xg27acsr/spec/",
+      "rakuten": {
+        "keyword": "ASUS XG27ACSR",
+        "must": [
+          "XG27ACS"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "アーム",
+          "フィルム",
+          "カバー",
+          "専用",
+          "対応"
+        ]
+      },
+      "yahoo": {
+        "keyword": "ASUS XG27ACSR",
+        "must": [
+          "XG27ACS"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "アーム",
+          "フィルム",
+          "カバー",
+          "専用",
+          "対応"
+        ]
+      },
+      "amazon": {
+        "keyword": "XG27ACSR",
+        "asin": null
+      }
+    },
+    {
+      "id": "lg-27gx790a",
+      "brand": "LG（UltraGear）",
+      "name": "LG UltraGear OLED 27GX790A-B",
+      "badge": "有機EL・480Hz",
+      "summary": "26.5インチ WQHD の有機ELで480Hz。HDMI でも VRR が使え、コンソールでも遊べるとLGが発表している。",
+      "recommended": false,
+      "specs": {
+        "res": "26.5インチ・2560×1440",
+        "hz": "480Hz",
+        "console": "HDMIでもVRRが可能（LGの発表）",
+        "panel": "有機EL（OLED）",
+        "ports": "HDMI×2・DisplayPort 2.1×1"
+      },
+      "source": "https://www.lg.com/jp/monitors/gaming-monitors/27gx790a-b/",
+      "rakuten": {
+        "keyword": "LG 27GX790A-B",
+        "must": [
+          "27GX790A"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "アーム",
+          "フィルム",
+          "カバー",
+          "専用",
+          "対応"
+        ]
+      },
+      "yahoo": {
+        "keyword": "LG 27GX790A-B",
+        "must": [
+          "27GX790A"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "アーム",
+          "フィルム",
+          "カバー",
+          "専用",
+          "対応"
+        ]
+      },
+      "amazon": {
+        "keyword": "LG UltraGear 27GX790A-B",
+        "asin": "B0DTXYDQTQ"
+      }
+    },
+    {
+      "id": "dell-aw2725d",
+      "brand": "デル（Alienware）",
+      "name": "Alienware 27 280Hz QD-OLED AW2725D",
+      "badge": "有機EL・280Hz",
+      "summary": "27インチ WQHD の QD-OLED で280Hz。HDMI 2.1 が2つあり、どちらでも WQHD 280Hz・VRR まで。焼き付きも3年保証。",
+      "recommended": false,
+      "specs": {
+        "res": "27インチ（表示26.7インチ）・2560×1440",
+        "hz": "280Hz",
+        "console": "HDMI 2.1（FRL）×2：WQHD 280Hz・HDR・VRR まで（デルの仕様）",
+        "panel": "QD-OLED（量子ドット有機EL）",
+        "ports": "HDMI 2.1×2・DisplayPort 1.4×1"
+      },
+      "source": "https://www.dell.com/ja-jp/shop/monitors/apd/alienware-27-280hz-qd-oled%E3%82%B2%E3%83%BC%E3%83%9F%E3%83%B3%E3%82%B0-%E3%83%A2%E3%83%8B%E3%82%BF%E3%83%BC-aw2725d/aw2725d_monitor",
+      "rakuten": {
+        "keyword": "Alienware AW2725D",
+        "must": [
+          "AW2725D"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "アーム",
+          "フィルム",
+          "カバー",
+          "専用",
+          "対応",
+          "AW2725DF",
+          "AW2725DM"
+        ]
+      },
+      "yahoo": {
+        "keyword": "Alienware AW2725D",
+        "must": [
+          "AW2725D"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "アーム",
+          "フィルム",
+          "カバー",
+          "専用",
+          "対応",
+          "AW2725DF",
+          "AW2725DM"
+        ]
+      },
+      "amazon": {
+        "keyword": "Dell Alienware AW2725D",
+        "asin": "B0FGD3ZHRS"
+      }
+    },
+    {
+      "id": "iodata-gdu271jad",
+      "brand": "アイ・オー・データ（GigaCrysta）",
+      "name": "GigaCrysta LCD-GDU271JAD",
+      "badge": "4K・PS5とSwitch 2",
+      "summary": "27インチ 4K・160Hz と、フルHD・320Hz をリモコンで切り替えられる。対応ゲーム機に PS5 Pro・PS5・Switch 2 が並ぶ。",
+      "recommended": true,
+      "specs": {
+        "res": "27インチ・3840×2160",
+        "hz": "4Kで160Hz／フルHDで320Hz",
+        "console": "対応ゲーム機に PS5 Pro・PS5・Nintendo Switch 2 ほか（4K 120Hz は HDMI）",
+        "panel": "AHVA",
+        "ports": "HDMI×2・DisplayPort×1"
+      },
+      "source": "https://www.iodata.jp/product/lcd/gaming/lcd-gdu271jad/index.htm",
+      "rakuten": {
+        "keyword": "LCD-GDU271JAD",
+        "must": [
+          "GDU271JAD"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "アーム",
+          "フィルム",
+          "カバー",
+          "専用",
+          "対応"
+        ]
+      },
+      "yahoo": {
+        "keyword": "LCD-GDU271JAD",
+        "must": [
+          "GDU271JAD"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "アーム",
+          "フィルム",
+          "カバー",
+          "専用",
+          "対応"
+        ]
+      },
+      "amazon": {
+        "keyword": "アイ・オー・データ LCD-GDU271JAD",
+        "asin": null
+      }
+    },
+    {
+      "id": "iodata-gdq271ja",
+      "brand": "アイ・オー・データ（GigaCrysta）",
+      "name": "GigaCrysta LCD-GDQ271JA",
+      "badge": "WQHD・入門",
+      "summary": "27インチ WQHD・180Hz（180Hz は DisplayPort）。HDMI では WQHD 120Hz まで。対応ゲーム機に PS5・Switch が並ぶ。",
+      "recommended": false,
+      "specs": {
+        "res": "27インチ・2560×1440",
+        "hz": "180Hz（DisplayPort）／HDMIは144Hzまで",
+        "console": "対応ゲーム機に PS5・Nintendo Switch ほか",
+        "panel": "AHVA",
+        "ports": "HDMI×2・DisplayPort×1"
+      },
+      "source": "https://www.iodata.jp/product/lcd/gaming/lcd-gdq271ja/index.htm",
+      "rakuten": {
+        "keyword": "LCD-GDQ271JA",
+        "must": [
+          "GDQ271JA"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "アーム",
+          "フィルム",
+          "カバー",
+          "専用",
+          "対応",
+          "JAW",
+          "WOS"
+        ]
+      },
+      "yahoo": {
+        "keyword": "LCD-GDQ271JA",
+        "must": [
+          "GDQ271JA"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "アーム",
+          "フィルム",
+          "カバー",
+          "専用",
+          "対応",
+          "JAW",
+          "WOS"
+        ]
+      },
+      "amazon": {
+        "keyword": "アイ・オー・データ LCD-GDQ271JA",
+        "asin": null
+      }
+    },
+    {
+      "id": "msi-272qp",
+      "brand": "MSI",
+      "name": "MSI MAG 272QP QD-OLED X24",
+      "badge": "有機EL・HDMI 240Hz",
+      "summary": "26.5インチ WQHD の QD-OLED で240Hz。HDMI 2.1 が2つで、HDMI でも WQHD 240Hz。USB-C の映像入力も持つ。",
+      "recommended": false,
+      "specs": {
+        "res": "26.5インチ・2560×1440",
+        "hz": "240Hz",
+        "console": "HDMI 2.1×2：WQHD 240Hz まで（MSI の仕様）",
+        "panel": "QD-OLED（量子ドット有機EL）",
+        "ports": "HDMI 2.1×2・DisplayPort 1.4a×1・USB-C×1"
+      },
+      "source": "https://jp.msi.com/Monitor/MAG-272QP-QD-OLED-X24/Specification",
+      "rakuten": {
+        "keyword": "MSI 272QP QD-OLED X24",
+        "must": [
+          "272QP",
+          "X24"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "アーム",
+          "フィルム",
+          "カバー",
+          "専用",
+          "対応",
+          "X50"
+        ]
+      },
+      "yahoo": {
+        "keyword": "272QP QD-OLED X24",
+        "must": [
+          "272QP",
+          "X24"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "アーム",
+          "フィルム",
+          "カバー",
+          "専用",
+          "対応",
+          "X50"
+        ]
+      },
+      "amazon": {
+        "keyword": "MSI MAG 272QP QD-OLED X24",
+        "asin": "B0FSKNDXBJ"
+      }
+    }
+  ]
+}
