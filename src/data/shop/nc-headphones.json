@@ -1,0 +1,543 @@
+{
+  "id": "nc-headphones",
+  "title": "ノイズキャンセリングのワイヤレスヘッドホン（重さ・電池・飛行機のケーブル）",
+  "_note": "仕様・価格は各社の公式ページだけ（2026-11-22 確認）。ソニーは製品ページ・仕様・ソニーストアの価格・WH-1000Xシリーズ10周年キャンペーン、Bose は bose.co.jp の製品ページの技術仕様と価格、Apple は AirPods Max 2 の仕様ページと 2026年3月16日のニュースリリース、ゼンハイザーは jp.sennheiser-hearing.com の製品ページ、テクニクスは製品の仕様ページとパナソニックの 2026年9月30日のプレスリリース・パナソニック公式通販の価格、Anker は ankerjapan.com の製品ページ。電池の時間は各社の試験の条件が違う公称値（ノイズキャンセリング ON）。",
+  "columns": [
+    {
+      "key": "price",
+      "label": "公式の価格"
+    },
+    {
+      "key": "weight",
+      "label": "重さ（公称）"
+    },
+    {
+      "key": "battery",
+      "label": "電池（NC ON・公称）"
+    },
+    {
+      "key": "wired",
+      "label": "機内の有線接続"
+    }
+  ],
+  "pricesCheckedAt": null,
+  "items": [
+    {
+      "id": "sony-wh-1000xm6",
+      "brand": "ソニー",
+      "name": "WH-1000XM6",
+      "badge": "いちばん軽い・1万円戻る",
+      "summary": "7台でいちばん軽い約254g。2027年1月12日までに買うと、条件を満たせば1万円が戻る。",
+      "recommended": true,
+      "specs": {
+        "price": "59,400円（ソニーストア）",
+        "weight": "約254g",
+        "battery": "最大30時間",
+        "wired": "ケーブル付き（ステレオミニ）"
+      },
+      "source": "https://www.sony.jp/headphone/products/WH-1000XM6/spec.html",
+      "rakuten": {
+        "keyword": "ソニー WH-1000XM6",
+        "must": [
+          "WH-1000XM6"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "海外版",
+          "専用",
+          "ケース",
+          "カバー",
+          "イヤーパッド",
+          "イヤークッション",
+          "交換",
+          "スタンド",
+          "ハンガー",
+          "ケーブル",
+          "セット",
+          "アクセサリー",
+          "フィルム",
+          "ステッカー",
+          "イヤホン",
+          "Earbuds"
+        ]
+      },
+      "yahoo": {
+        "keyword": "ソニー WH-1000XM6",
+        "must": [
+          "WH-1000XM6"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "海外版",
+          "専用",
+          "ケース",
+          "カバー",
+          "イヤーパッド",
+          "イヤークッション",
+          "交換",
+          "スタンド",
+          "ハンガー",
+          "ケーブル",
+          "セット",
+          "アクセサリー",
+          "フィルム",
+          "ステッカー",
+          "イヤホン",
+          "Earbuds"
+        ]
+      },
+      "amazon": {
+        "keyword": "ソニー WH-1000XM6",
+        "asin": null
+      }
+    },
+    {
+      "id": "bose-qc-ultra-2",
+      "brand": "Bose",
+      "name": "QuietComfort Ultra Headphones（第2世代）",
+      "badge": "ボーズ史上最高のNC",
+      "summary": "Bose が「ボーズ史上最高」と書くノイズキャンセリング。約260gで最長30時間。",
+      "recommended": false,
+      "specs": {
+        "price": "59,400円（Bose 公式）",
+        "weight": "約260g",
+        "battery": "最長30時間（イマーシブオーディオで23時間）",
+        "wired": "ケーブル付き（3.5mm-2.5mm）"
+      },
+      "source": "https://www.bose.co.jp/p/headphones/bose-quietcomfort-ultra-headphones-2nd-gen/QCUH2-HEADPHONEARN.html",
+      "rakuten": {
+        "keyword": "Bose QuietComfort Ultra Headphones 第2世代",
+        "must": [
+          "Ultra Headphones",
+          "第2世代"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "海外版",
+          "専用",
+          "ケース",
+          "カバー",
+          "イヤーパッド",
+          "イヤークッション",
+          "交換",
+          "スタンド",
+          "ハンガー",
+          "ケーブル",
+          "セット",
+          "アクセサリー",
+          "フィルム",
+          "ステッカー",
+          "イヤホン",
+          "Earbuds"
+        ]
+      },
+      "yahoo": {
+        "keyword": "Bose QuietComfort Ultra Headphones 第2世代",
+        "must": [
+          "Ultra Headphones",
+          "第2世代"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "海外版",
+          "専用",
+          "ケース",
+          "カバー",
+          "イヤーパッド",
+          "イヤークッション",
+          "交換",
+          "スタンド",
+          "ハンガー",
+          "ケーブル",
+          "セット",
+          "アクセサリー",
+          "フィルム",
+          "ステッカー",
+          "イヤホン",
+          "Earbuds"
+        ]
+      },
+      "amazon": {
+        "keyword": "Bose QuietComfort Ultra Headphones 第2世代",
+        "asin": null
+      }
+    },
+    {
+      "id": "apple-airpods-max-2",
+      "brand": "Apple",
+      "name": "AirPods Max 2",
+      "badge": "iPhone と使うなら",
+      "summary": "前の世代より最大1.5倍効くとAppleが書くノイズキャンセリング。7台でいちばん重い約386.2g。",
+      "recommended": false,
+      "specs": {
+        "price": "89,800円（Apple 公式）",
+        "weight": "約386.2g",
+        "battery": "最大20時間",
+        "wired": "アナログのケーブルは同梱なし（USB-C）"
+      },
+      "source": "https://www.apple.com/jp/airpods-max/specs/",
+      "rakuten": {
+        "keyword": "Apple AirPods Max 2",
+        "must": [
+          "AirPods Max 2"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "海外版",
+          "専用",
+          "ケース",
+          "カバー",
+          "イヤーパッド",
+          "イヤークッション",
+          "交換",
+          "スタンド",
+          "ハンガー",
+          "ケーブル",
+          "セット",
+          "アクセサリー",
+          "フィルム",
+          "ステッカー",
+          "イヤホン",
+          "Earbuds"
+        ]
+      },
+      "yahoo": {
+        "keyword": "Apple AirPods Max 2",
+        "must": [
+          "AirPods Max 2"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "海外版",
+          "専用",
+          "ケース",
+          "カバー",
+          "イヤーパッド",
+          "イヤークッション",
+          "交換",
+          "スタンド",
+          "ハンガー",
+          "ケーブル",
+          "セット",
+          "アクセサリー",
+          "フィルム",
+          "ステッカー",
+          "イヤホン",
+          "Earbuds"
+        ]
+      },
+      "amazon": {
+        "keyword": "Apple AirPods Max 2",
+        "asin": null
+      }
+    },
+    {
+      "id": "sennheiser-momentum-5",
+      "brand": "Sennheiser",
+      "name": "MOMENTUM 5 Wireless",
+      "badge": "電池が最長57時間",
+      "summary": "ノイズキャンセリングをつけて最長57時間。電池は自分で交換できる。",
+      "recommended": false,
+      "specs": {
+        "price": "69,960円（ゼンハイザー公式）",
+        "weight": "約290g",
+        "battery": "最長57時間",
+        "wired": "ケーブル付き（3.5mm-2.5mm）"
+      },
+      "source": "https://jp.sennheiser-hearing.com/products/momentum-5-wireless",
+      "rakuten": {
+        "keyword": "ゼンハイザー MOMENTUM 5 Wireless",
+        "must": [
+          "MOMENTUM 5"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "海外版",
+          "専用",
+          "ケース",
+          "カバー",
+          "イヤーパッド",
+          "イヤークッション",
+          "交換",
+          "スタンド",
+          "ハンガー",
+          "ケーブル",
+          "セット",
+          "アクセサリー",
+          "フィルム",
+          "ステッカー",
+          "イヤホン",
+          "Earbuds"
+        ]
+      },
+      "yahoo": {
+        "keyword": "ゼンハイザー MOMENTUM 5 Wireless",
+        "must": [
+          "MOMENTUM 5"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "海外版",
+          "専用",
+          "ケース",
+          "カバー",
+          "イヤーパッド",
+          "イヤークッション",
+          "交換",
+          "スタンド",
+          "ハンガー",
+          "ケーブル",
+          "セット",
+          "アクセサリー",
+          "フィルム",
+          "ステッカー",
+          "イヤホン",
+          "Earbuds"
+        ]
+      },
+      "amazon": {
+        "keyword": "ゼンハイザー MOMENTUM 5 Wireless",
+        "asin": null
+      }
+    },
+    {
+      "id": "technics-eah-a1000",
+      "brand": "Technics",
+      "name": "EAH-A1000",
+      "badge": "2026年11月19日発売",
+      "summary": "テクニクス初のオーバーイヤーの磁性流体ドライバー機。ノイズキャンセリングをつけて約45時間（AAC）。",
+      "recommended": false,
+      "specs": {
+        "price": "59,400円（パナソニック公式通販）",
+        "weight": "約306g",
+        "battery": "約45時間（AAC）",
+        "wired": "ケーブル付き（USB-C-3.5mm）"
+      },
+      "source": "https://jp.technics.com/products/headphone/a1000/spec/",
+      "rakuten": {
+        "keyword": "テクニクス EAH-A1000",
+        "must": [
+          "EAH-A1000"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "海外版",
+          "専用",
+          "ケース",
+          "カバー",
+          "イヤーパッド",
+          "イヤークッション",
+          "交換",
+          "スタンド",
+          "ハンガー",
+          "ケーブル",
+          "セット",
+          "アクセサリー",
+          "フィルム",
+          "ステッカー",
+          "イヤホン",
+          "Earbuds"
+        ]
+      },
+      "yahoo": {
+        "keyword": "テクニクス EAH-A1000",
+        "must": [
+          "EAH-A1000"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "海外版",
+          "専用",
+          "ケース",
+          "カバー",
+          "イヤーパッド",
+          "イヤークッション",
+          "交換",
+          "スタンド",
+          "ハンガー",
+          "ケーブル",
+          "セット",
+          "アクセサリー",
+          "フィルム",
+          "ステッカー",
+          "イヤホン",
+          "Earbuds"
+        ]
+      },
+      "amazon": {
+        "keyword": "テクニクス EAH-A1000",
+        "asin": null
+      }
+    },
+    {
+      "id": "anker-space-2-pro",
+      "brand": "Anker",
+      "name": "Space 2 Pro",
+      "badge": "3万円台・2026年11月発売",
+      "summary": "Anker が「Anker史上最高性能」と書くノイズキャンセリング。約265gで32,990円。",
+      "recommended": false,
+      "specs": {
+        "price": "32,990円（Anker Japan 公式）",
+        "weight": "約265g",
+        "battery": "最大30時間",
+        "wired": "ケーブル付き（3.5mm AUX）"
+      },
+      "source": "https://www.ankerjapan.com/products/d1406",
+      "rakuten": {
+        "keyword": "Anker Space 2 Pro",
+        "must": [
+          "Space 2 Pro"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "海外版",
+          "専用",
+          "ケース",
+          "カバー",
+          "イヤーパッド",
+          "イヤークッション",
+          "交換",
+          "スタンド",
+          "ハンガー",
+          "ケーブル",
+          "セット",
+          "アクセサリー",
+          "フィルム",
+          "ステッカー",
+          "イヤホン",
+          "Earbuds"
+        ]
+      },
+      "yahoo": {
+        "keyword": "Anker Space 2 Pro",
+        "must": [
+          "Space 2 Pro"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "海外版",
+          "専用",
+          "ケース",
+          "カバー",
+          "イヤーパッド",
+          "イヤークッション",
+          "交換",
+          "スタンド",
+          "ハンガー",
+          "ケーブル",
+          "セット",
+          "アクセサリー",
+          "フィルム",
+          "ステッカー",
+          "イヤホン",
+          "Earbuds"
+        ]
+      },
+      "amazon": {
+        "keyword": "Anker Space 2 Pro",
+        "asin": null
+      }
+    },
+    {
+      "id": "soundcore-space-2",
+      "brand": "Anker",
+      "name": "Soundcore Space 2",
+      "badge": "いちばん安い・50時間",
+      "summary": "16,990円で、ノイズキャンセリングをつけて最大50時間。約260g。",
+      "recommended": false,
+      "specs": {
+        "price": "16,990円（Anker Japan 公式）",
+        "weight": "約260g",
+        "battery": "最大50時間",
+        "wired": "ケーブル付き（3.5mm AUX）"
+      },
+      "source": "https://www.ankerjapan.com/products/d1402",
+      "rakuten": {
+        "keyword": "Soundcore Space 2 ヘッドホン",
+        "must": [
+          "Space 2"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "海外版",
+          "専用",
+          "ケース",
+          "カバー",
+          "イヤーパッド",
+          "イヤークッション",
+          "交換",
+          "スタンド",
+          "ハンガー",
+          "ケーブル",
+          "セット",
+          "アクセサリー",
+          "フィルム",
+          "ステッカー",
+          "イヤホン",
+          "Earbuds",
+          "Pro",
+          "プロ"
+        ]
+      },
+      "yahoo": {
+        "keyword": "Soundcore Space 2 ヘッドホン",
+        "must": [
+          "Space 2"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "海外版",
+          "専用",
+          "ケース",
+          "カバー",
+          "イヤーパッド",
+          "イヤークッション",
+          "交換",
+          "スタンド",
+          "ハンガー",
+          "ケーブル",
+          "セット",
+          "アクセサリー",
+          "フィルム",
+          "ステッカー",
+          "イヤホン",
+          "Earbuds",
+          "Pro",
+          "プロ"
+        ]
+      },
+      "amazon": {
+        "keyword": "Soundcore Space 2 ヘッドホン",
+        "asin": null
+      }
+    }
+  ]
+}
