@@ -1,0 +1,18 @@
+<svg id="グループ_1961" data-name="グループ 1961" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="40" viewBox="0 0 40 40">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="長方形_790" data-name="長方形 790" width="35.092" height="23.262" fill="none"/>
+    </clipPath>
+  </defs>
+  <rect id="長方形_787" data-name="長方形 787" width="40" height="40" fill="none"/>
+  <g id="グループ_1941" data-name="グループ 1941" transform="translate(2.393 7.976)">
+    <g id="グループ_1940" data-name="グループ 1940" transform="translate(0 0)" clip-path="url(#clip-path)">
+      <path id="パス_395" data-name="パス 395" d="M33.975.4a.719.719,0,0,1,.718.718V22.145a.718.718,0,0,1-.718.718H1.117A.718.718,0,0,1,.4,22.145V1.117A.719.719,0,0,1,1.117.4Zm0-.4H1.117A1.117,1.117,0,0,0,0,1.117V22.145a1.116,1.116,0,0,0,1.117,1.117H33.975a1.116,1.116,0,0,0,1.117-1.117V1.117A1.117,1.117,0,0,0,33.975,0" transform="translate(0 0)"/>
+      <path id="パス_396" data-name="パス 396" d="M24.872,7.867H16.9V3.308h7.968ZM25,2.909H16.772a.267.267,0,0,0-.267.268V8a.267.267,0,0,0,.267.268H25A.268.268,0,0,0,25.271,8V3.177A.268.268,0,0,0,25,2.909" transform="translate(-3.342 -0.589)"/>
+      <line id="線_73" data-name="線 73" x2="2.163" transform="translate(14.678 12.583)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+      <line id="線_74" data-name="線 74" x2="2.163" transform="translate(14.678 14.433)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+      <line id="線_75" data-name="線 75" x2="2.163" transform="translate(18.251 12.583)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+      <line id="線_76" data-name="線 76" x2="2.163" transform="translate(18.251 14.433)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+    </g>
+  </g>
+</svg>

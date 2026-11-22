@@ -1,0 +1,25 @@
+<svg id="グループ_1957" data-name="グループ 1957" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="40" viewBox="0 0 40 40">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="長方形_783" data-name="長方形 783" width="32.025" height="29.098" fill="none"/>
+    </clipPath>
+  </defs>
+  <rect id="長方形_774" data-name="長方形 774" width="40" height="40" fill="none"/>
+  <g id="グループ_1939" data-name="グループ 1939" transform="translate(4.003 5.605)">
+    <g id="グループ_1938" data-name="グループ 1938" transform="translate(0 0)" clip-path="url(#clip-path)">
+      <path id="パス_394" data-name="パス 394" d="M30.84.4a.793.793,0,0,1,.792.793V27.905a.792.792,0,0,1-.792.792H1.228a.793.793,0,0,1-.792-.792V1.193A.793.793,0,0,1,1.228.4Zm0-.4H1.228A1.193,1.193,0,0,0,.036,1.193V27.905A1.192,1.192,0,0,0,1.228,29.1H30.84a1.192,1.192,0,0,0,1.192-1.192V1.193A1.192,1.192,0,0,0,30.84,0" transform="translate(-0.007 0)"/>
+      <rect id="長方形_778" data-name="長方形 778" width="8.394" height="7.57" rx="0.389" transform="translate(11.83 3.525)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+      <path id="長方形_779" data-name="長方形 779" d="M.307,0H4.582a.307.307,0,0,1,.307.307v7.5a.308.308,0,0,1-.308.308H.308A.308.308,0,0,1,0,7.805V.307A.307.307,0,0,1,.307,0Z" transform="translate(3.864 3.244)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+      <path id="長方形_780" data-name="長方形 780" d="M.307,0H4.582a.307.307,0,0,1,.307.307v7.5a.308.308,0,0,1-.308.308H.307A.307.307,0,0,1,0,7.806V.307A.307.307,0,0,1,.307,0Z" transform="translate(23.3 3.244)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+      <line id="線_70" data-name="線 70" x2="3.805" transform="translate(0 21.994)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+      <line id="線_71" data-name="線 71" x2="3.805" transform="translate(28.151 21.994)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+      <line id="線_72" data-name="線 72" x2="14.811" transform="translate(8.542 21.994)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+      <circle id="楕円形_76" data-name="楕円形 76" cx="0.895" cy="0.895" r="0.895" transform="translate(11.096 24.366)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+      <circle id="楕円形_77" data-name="楕円形 77" cx="0.895" cy="0.895" r="0.895" transform="translate(13.786 24.366)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+      <circle id="楕円形_78" data-name="楕円形 78" cx="0.895" cy="0.895" r="0.895" transform="translate(16.476 24.366)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+      <circle id="楕円形_79" data-name="楕円形 79" cx="0.895" cy="0.895" r="0.895" transform="translate(19.166 24.366)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+      <path id="長方形_781" data-name="長方形 781" d="M.307,0H4.582a.307.307,0,0,1,.307.307v7.5a.308.308,0,0,1-.308.308H.307A.307.307,0,0,1,0,7.806V.307A.307.307,0,0,1,.307,0Z" transform="translate(3.864 18.873)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+      <path id="長方形_782" data-name="長方形 782" d="M.307,0H4.582a.307.307,0,0,1,.307.307v7.5a.308.308,0,0,1-.308.308H.307A.307.307,0,0,1,0,7.806V.307A.307.307,0,0,1,.307,0Z" transform="translate(23.3 18.873)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+    </g>
+  </g>
+</svg>
