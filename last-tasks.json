@@ -1,7 +1,1 @@
-[
-      {"task": "t1024-find-pages-body-scale-retry.sh", "rc": 0, "out": "  - https://item.rakuten.co.jp/xiaomiofficial/m59594/｜4,130円(価格+送料)｜Xiaomi 体組成計 S400 詳細なヘルスチェックを可能にする二周波精度 身体データを正確に測定 健康状態を詳細に分析 25項目測定 体脂肪率測定 Blue   - https://item.rakuten."},
-      {"task": "t1025-elecom-scale-images-retry.sh", "rc": 0, "out": "36585 elecom-wh-HCS-WFS03WH_39.jpg 14146 elecom-wh-HCS-WFS03WH_42.jpg 2225 elecom-wh-logo_elecom_01.svg  **読むだけ。LLM 不使用（$0／回）。**"},
-      {"task": "t1026-verify-rakuten-body-scale.sh", "rc": 0, "out": "- 商品: 検索結果 47 件・型番「Xiaomi 体組成計 S400」の表示: あり - 題名: 【楽天市場】Xiaomi 体組成計 S400の通販 - 写真: Mac の手元のみ（private-shots/shop-verify/body-composition-scale-comparison-2026/v08-rakuten.jpg・公開しない） -rw-r--r--   1 ny "},
-      {"task": "t1027-verify-yahoo-body-scale.sh", "rc": 0, "out": "- 商品: 検索結果 30 件・型番「Xiaomi 体組成計 S400」の表示: あり - 題名: Xiaomi 体組成計 S400のおすすめ人気商品一覧 通販 - Yahoo!ショッピング - 写真: Mac の手元のみ（private-shots/shop-verify/body-composition-scale-comparison-2026/v08-yahoo.jpg�"},
-      {"task": "t1028-verify-amazon-body-scale.sh", "rc": 0, "out": "- 商品: 検索結果 37 件・型番「Xiaomi 体組成計 S400」の表示: あり・カートに入れるボタンあり - 題名: Amazon.co.jp : Xiaomi 体組成計 S400 - 写真: Mac の手元のみ（private-shots/shop-verify/body-composition-scale-comparison-2026/v08-amazon.jpg・公開し�"}
-  ]
+[]
