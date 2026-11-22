@@ -1,0 +1,128 @@
+[
+ {
+  "id": "cordless-stick-cleaner~shark-lc900j",
+  "store": "amazon",
+  "keyword": "Shark ActiClean LC900J",
+  "must": [
+   "LC900J"
+  ],
+  "exclude": [
+   "互換",
+   "対応",
+   "中古",
+   "◆",
+   "並行輸入",
+   "交換用",
+   "フィルム",
+   "バッテリー"
+  ]
+ },
+ {
+  "id": "cordless-stick-cleaner~hitachi-pv-bg1000r",
+  "store": "amazon",
+  "keyword": "日立 PV-BG1000R",
+  "must": [
+   "BG1000R"
+  ],
+  "exclude": [
+   "互換",
+   "対応",
+   "中古",
+   "◆",
+   "並行輸入",
+   "交換用",
+   "フィルム",
+   "バッテリー"
+  ]
+ },
+ {
+  "id": "cordless-stick-cleaner~panasonic-mc-nx600km",
+  "store": "amazon",
+  "keyword": "パナソニック MC-NX600KM",
+  "must": [
+   "NX600KM"
+  ],
+  "exclude": [
+   "互換",
+   "対応",
+   "中古",
+   "◆",
+   "並行輸入",
+   "交換用",
+   "フィルム",
+   "バッテリー"
+  ]
+ },
+ {
+  "id": "cordless-stick-cleaner~dyson-pencilvac-fc",
+  "store": "amazon",
+  "keyword": "Dyson PencilVac Fluffycones SV50 FC",
+  "must": [
+   "SV50"
+  ],
+  "exclude": [
+   "互換",
+   "対応",
+   "中古",
+   "◆",
+   "並行輸入",
+   "交換用",
+   "フィルム",
+   "バッテリー"
+  ]
+ },
+ {
+  "id": "cordless-stick-cleaner~dyson-v12-detect-slim",
+  "store": "amazon",
+  "keyword": "Dyson V12 Detect Slim Absolute SV46 ABL",
+  "must": [
+   "SV46"
+  ],
+  "exclude": [
+   "互換",
+   "対応",
+   "中古",
+   "◆",
+   "並行輸入",
+   "交換用",
+   "フィルム",
+   "バッテリー"
+  ]
+ },
+ {
+  "id": "cordless-stick-cleaner~makita-cl287fd",
+  "store": "amazon",
+  "keyword": "マキタ CL287FD",
+  "must": [
+   "CL287FD"
+  ],
+  "exclude": [
+   "互換",
+   "対応",
+   "中古",
+   "◆",
+   "並行輸入",
+   "交換用",
+   "フィルム",
+   "バッテリー"
+  ]
+ },
+ {
+  "id": "cordless-stick-cleaner~iris-scd-186p",
+  "store": "amazon",
+  "keyword": "アイリスオーヤマ SCD-186P",
+  "must": [
+   "186P"
+  ],
+  "exclude": [
+   "互換",
+   "対応",
+   "中古",
+   "◆",
+   "並行輸入",
+   "交換用",
+   "フィルム",
+   "バッテリー"
+  ]
+ }
+]
