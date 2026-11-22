@@ -126,7 +126,7 @@
         ]
       },
       "amazon": {
-        "keyword": "ASUS ROG Strix XG27ACSR",
+        "keyword": "XG27ACSR",
         "asin": null
       }
     },
@@ -362,7 +362,7 @@
       },
       "source": "https://jp.msi.com/Monitor/MAG-272QP-QD-OLED-X24/Specification",
       "rakuten": {
-        "keyword": "MSI MAG 272QP QD-OLED X24",
+        "keyword": "MSI 272QP QD-OLED X24",
         "must": [
           "272QP",
           "X24"
@@ -380,7 +380,7 @@
         ]
       },
       "yahoo": {
-        "keyword": "MSI MAG 272QP QD-OLED X24",
+        "keyword": "272QP QD-OLED X24",
         "must": [
           "272QP",
           "X24"
