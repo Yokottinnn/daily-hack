@@ -1,5 +1,5 @@
 [
-      {"task": "t843-verify-rakuten-denki-atsuryokunabe.sh", "rc": 0, "out": "- 商品: 検索結果 45 件・型番「アイリスオーヤマ 電気圧力鍋 KPC-MB4-B」の表示: あり - 題名: 【楽天市場】アイリスオーヤマ 電気圧力鍋 KPC-MB4-Bの通販 - 写真: Mac の手元のみ（private-shots/shop-verify/electric-pressure-cooker-comparison-2026/v"},
-      {"task": "t844-verify-yahoo-denki-atsuryokunabe.sh", "rc": 0, "out": "- 商品: 検索結果 5 件・型番「」の表示: — - 題名: アイリスオーヤマ 電気圧力鍋 KPC-MB4-Bのおすすめ人気商品一覧 通販 - Yahoo!ショッピング - 写真: Mac の手元のみ（private-shots/shop-verify/electric-pressure-cooker-comparison-2026/v16-yahoo.jpg�"},
-      {"task": "t845-verify-amazon-denki-atsuryokunabe.sh", "rc": 0, "out": "- 商品: 検索結果 43 件・型番「アイリスオーヤマ 電気圧力鍋 4.0L KPC-MB4-B」の表示: あり・カートに入れるボタンあり - 題名: Amazon.co.jp : アイリスオーヤマ 電気圧力鍋 4.0L KPC-MB4-B - 写真: Mac の手元のみ（private-shots/shop-verify/elect"}
+      {"task": "t814-verify-rakuten-cordless-stick-cleaner.sh", "rc": 0, "out": "- 商品: 検索結果 48 件・型番「アイリスオーヤマ SCD-186P」の表示: あり - 題名: 【楽天市場】アイリスオーヤマ SCD-186Pの通販 - 写真: Mac の手元のみ（private-shots/shop-verify/cordless-stick-cleaner-comparison-2026/v08-rakuten.jpg・公開しない） "},
+      {"task": "t815-verify-yahoo-cordless-stick-cleaner.sh", "rc": 0, "out": "- 商品: 検索結果 8 件・型番「」の表示: — - 題名: アイリスオーヤマ SCD-186Pのおすすめ人気商品一覧 通販 - Yahoo!ショッピング - 写真: Mac の手元のみ（private-shots/shop-verify/cordless-stick-cleaner-comparison-2026/v16-yahoo.jpg・公開しない）"},
+      {"task": "t816-verify-amazon-cordless-stick-cleaner.sh", "rc": 0, "out": "- 商品: 検索結果 7 件・型番「アイリスオーヤマ SCD-186P」の表示: あり・カートに入れるボタンあり - 題名: Amazon.co.jp : アイリスオーヤマ SCD-186P - 写真: Mac の手元のみ（private-shots/shop-verify/cordless-stick-cleaner-comparison-2026/v08-amazon."}
   ]
