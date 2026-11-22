@@ -483,6 +483,17 @@ references:
 
 <h3 class="brand-h" id="elecom-hcs-wfs03"><img class="brand-logo" src="/images/body-composition-scale-comparison-2026/logos/elecom.png" alt="エレコムのロゴ" loading="lazy" /><span>エレコム エクリア HCS-WFS03｜Wi-Fi で送る・1万円台</span></h3>
 
+<div class="real-photos cols-2">
+  <figure class="rn-figure">
+    <img src="/images/body-composition-scale-comparison-2026/photos/elecom-hcs-wfs03.jpg" alt="白いエレコム エクリア HCS-WFS03 を斜め上から見たところ" loading="lazy" />
+    <figcaption>エクリア HCS-WFS03（ホワイト）。<cite>出典：<a href="https://www.elecom.co.jp/products/HCS-WFS03WH.html" target="_blank" rel="noopener">エレコム 公式</a></cite></figcaption>
+  </figure>
+  <figure class="rn-figure">
+    <img src="/images/body-composition-scale-comparison-2026/photos/elecom-hcs-wfs03-use.jpg" alt="フローリングに置いたエレコム HCS-WFS03 に素足で乗ろうとしているところ" loading="lazy" />
+    <figcaption>電源を入れずに、乗るだけで測る。<cite>出典：<a href="https://www.elecom.co.jp/products/HCS-WFS03WH.html" target="_blank" rel="noopener">エレコム 公式</a></cite></figcaption>
+  </figure>
+</div>
+
 <div class="cmp-table-wrap">
   <table class="cmp-table spec-table">
     <tbody>
