@@ -37,9 +37,12 @@ await art.goto(`https://daily-hack.fieldbeside.com/posts/${SLUG}/`, { waitUntil:
 await art.waitForTimeout(4000);   // LinkSwitch（vcdal.js）の読み込みを待つ
 const btns = await art.evaluate(() => {
   const seen = new Set(); const out = [];
+  // LinkSwitch は読み込み時に Yahoo! の href を dalr.valuecommerce.com/dck/…?vcurl=<元の URL> に書き換え、ボタンごとに ih などが違う。
+  // 同じ商品を 2 回押さないよう、重なりの判定は元の URL で行う（2026-11-22）
+  const inner = (h) => { try { const u = new URL(h); return /valuecommerce\.com$/.test(u.hostname) ? (u.searchParams.get('vcurl') || u.searchParams.get('vo__uri') || h) : h; } catch { return h; } };
   for (const a of document.querySelectorAll('a.shop-btn')) {
     const store = (a.className.match(/shop-btn--(rakuten|yahoo|amazon)/) || [])[1]; const href = a.getAttribute('href');
-    if (!store || seen.has(href)) continue; seen.add(href);
+    if (!store || seen.has(inner(href))) continue; seen.add(inner(href));
     // 商品名（ボタンの入っている箱の見出し）
     const box = a.closest('.shop-card, .shop-box, section, div[class*="shop"]');
     const name = ((box && box.querySelector('h3, h4, .shop-name, strong')) || {}).textContent || '';
@@ -51,10 +54,14 @@ if (STORE) btns.splice(0, btns.length, ...btns.filter((x) => x.store === STORE))
 if (MATCH) btns.splice(0, btns.length, ...btns.filter((x) => MATCH.split('|').some((m) => x.href.includes(m))));
 lines.push(`- 記事のボタン（同じリンクは 1 回だけ${STORE ? '・' + STORE + ' だけ' : ''}）: ${btns.length} 個`, `- LinkSwitch のスクリプト: ${await art.evaluate(() => !!document.querySelector('script[src*="vcdal.js"]') && typeof window.vc_pid !== 'undefined' ? '読み込まれている（vc_pid=' + window.vc_pid + '）' : '**無い**')}`, '');
 
-const model = (h) => { try { const u = new URL(h); const q = u.searchParams.get('k') || decodeURIComponent((u.searchParams.get('pc') || '').match(/mall\/([^/]+)/)?.[1] || '') || u.searchParams.get('p') || ''; return decodeURIComponent(q).replace(/\+/g, ' ').trim(); } catch { return ''; } };
+// Yahoo! のボタンは LinkSwitch が dck の成果リンクに書き換えるので、元の URL（vcurl / vo__uri）を取り出してから読む。
+// これをしないと型番が空になり、keys が [] のとき every() が常に真になって、検索結果の全部（広告も）を「型番の商品」と数えていた（2026-11-22）
+const inner = (h) => { try { const u = new URL(h); return /valuecommerce\.com$/.test(u.hostname) ? (u.searchParams.get('vcurl') || u.searchParams.get('vo__uri') || h) : h; } catch { return h; } };
+const model = (h0) => { try { const h = inner(h0); const u = new URL(h); const q = u.searchParams.get('k') || decodeURIComponent((u.searchParams.get('pc') || '').match(/mall\/([^/]+)/)?.[1] || '') || u.searchParams.get('p') || ''; return decodeURIComponent(q).replace(/\+/g, ' ').trim(); } catch { return ''; } };
 // SHOP_JSON: src/data/shop/<シリーズ>.json（タスクが origin/main から取り出して渡す）。押したリンクから商品を引く
-const SHOP = (() => { try { return JSON.parse(fs.readFileSync(process.env.SHOP_JSON || '', 'utf8')).items || []; } catch { return []; } })();
-const itemOf = (bt) => SHOP.find((x) => (bt.store === 'yahoo' && x.yahoo?.url && bt.href.startsWith(x.yahoo.url))
+// 記事が 2 つのシリーズを使うとき（電動歯ブラシ＋替えブラシなど）は , で区切って複数渡せる
+const SHOP = (process.env.SHOP_JSON || '').split(',').filter(Boolean).flatMap((f) => { try { return JSON.parse(fs.readFileSync(f, 'utf8')).items || []; } catch { return []; } });
+const itemOf = (bt) => SHOP.find((x) => (bt.store === 'yahoo' && x.yahoo?.url && inner(bt.href).startsWith(x.yahoo.url))
   || (bt.store === 'amazon' && x.amazon?.asin && bt.href.includes(`/dp/${x.amazon.asin}`))
   || (bt.store === 'rakuten' && x.rakuten?.itemUrl && decodeURIComponent(bt.href).includes(x.rakuten.itemUrl))
   || (x[bt.store]?.keyword && model(bt.href) === x[bt.store].keyword)) || null;
@@ -89,9 +96,10 @@ for (const bt of btns) {
     // 型番の照合キー: 英字と数字を両方含む 4 文字以上の語のうち最長のもの。無ければ全部の語（2026-10-31・検索欄の文字で「あり」になる誤りを直した）
     // 商品データ（src/data/shop/<シリーズ>.json の must）があればそれを使う
     const it = itemOf(bt);
-    const toks = (it ? (it.amazon?.keyword || it.rakuten?.keyword || '') : m).split(/\s+/).filter(Boolean);
+    const toks = (it ? (it[bt.store]?.keyword || it.amazon?.keyword || it.rakuten?.keyword || '') : m).split(/\s+/).filter(Boolean);
     const mt = toks.filter((t) => /\d/.test(t) && /[A-Za-z]/.test(t) && t.length >= 4).sort((a, z) => z.length - a.length);
-    const keys = it?.rakuten?.must || it?.yahoo?.must || (mt.length ? [mt[0]] : toks);
+    // その店の must を先に。どれも無ければ型番らしい語。**空なら照合しない**（空の every() は真になる）
+    const keys = (it?.[bt.store]?.must?.length ? it[bt.store].must : null) || (it?.rakuten?.must?.length ? it.rakuten.must : null) || (it?.yahoo?.must?.length ? it.yahoo.must : null) || (mt.length ? [mt[0]] : toks);
     if (it) bt.name = `${it.brand || ''} ${it.name}`.trim();
     const info = await q.evaluate(([m, keys, store]) => {
       const t = document.body.innerText || '';
@@ -102,19 +110,31 @@ for (const bt of btns) {
         cart: /カートに入れる|カートに追加|今すぐ買う|購入手続き|買い物かごに入れる|かごに追加/.test(t),
         amazonResults: document.querySelectorAll('[data-component-type="s-search-result"]').length,
         rakutenResults: document.querySelectorAll('.searchresultitem, [class*="searchresultitem"], [data-testid*="item"]').length,
-        yahooResults: document.querySelectorAll('[class*="SearchResult"] li, li[class*="LoopList"]').length,
+        yahooResults: [...document.querySelectorAll('[class*="SearchResult_SearchResultItem"]')].filter((e) => !e.closest('.carousel') && !(e.parentElement && e.parentElement.closest('[class*="SearchResult_SearchResultItem"]'))).length,
         noHit: /該当する商品が見つかりません|検索結果がありません|に一致する商品は見つかりませんでした|見つかりませんでした/.test(t),
         modelOnPage: m ? norm(t).includes(norm(m.split(' ').slice(-1)[0])) : null,
         // 検索結果の 1 件ずつ（広告の枠・検索欄・見出しは見ない）に型番が入っているか
         ...(() => {
-          const sel = { amazon: '[data-component-type="s-search-result"]', rakuten: '.searchresultitem, [class*="searchresultitem"]', yahoo: 'li[class*="LoopList"], [class*="SearchResult"] li' }[store];
-          const lnk = { amazon: 'a[href*="/dp/"]', rakuten: 'a[href*="item.rakuten.co.jp"]', yahoo: 'a[href*="store.shopping.yahoo.co.jp"]' }[store];
+          // Yahoo!（t980・t981 で読んだ 2026-11-22 の作り）: 通常の検索結果は 1 件ずつ div[class*="SearchResult_SearchResultItem"]。
+          // 先頭などに差し込まれる別枠（div.carousel > div.items > div.item。記事と無関係の商品が出る広告・おすすめ枠）は数えない。
+          // 以前の 'li[class*="LoopList"], [class*="SearchResult"] li' は、ページ全体の li#searchResults1 を 1 件として拾い、
+          // その中のいちばん長い行（先頭の別枠の題名）を商品名にしていた
+          const sel = { amazon: '[data-component-type="s-search-result"]', rakuten: '.searchresultitem, [class*="searchresultitem"]', yahoo: '[class*="SearchResult_SearchResultItem"]' }[store];
+          const lnk = { amazon: 'a[href*="/dp/"]', rakuten: 'a[href*="item.rakuten.co.jp"]', yahoo: '[class*="SearchResult_SearchResult__"] a[href*="store.shopping.yahoo.co.jp"]' }[store];
           let els = [...document.querySelectorAll(sel)];
           if (!els.length) els = [...document.querySelectorAll(lnk)];
-          const items = els.map((e) => (e.innerText || '').split('\n').map((x) => x.trim()).filter(Boolean).sort((a, z) => z.length - a.length).find((x) => x.length <= 160) || '').filter(Boolean);
-          const hit = (x) => keys.every((k) => norm(x).includes(norm(k)));
+          const isAd = (e) => !!e.closest('.carousel') || [...e.querySelectorAll('span, em, small, p, div')].some((x) => x.children.length === 0 && /^(PR|広告|スポンサー)$/.test((x.textContent || '').trim()));
+          if (store === 'yahoo') els = els.filter((e) => !(e.parentElement && e.parentElement.closest(sel)));
+          // [class*=…] は 1 件の中の部品（…SearchResultItem__image__… など）にも当たり、件数が十数倍に膨らんでいた（t982〜t989）。いちばん外側の箱だけを 1 件と数える
+          const ads = store === 'yahoo' ? els.filter(isAd).length + document.querySelectorAll('.carousel .item').length : null;
+          if (store === 'yahoo') els = els.filter((e) => !isAd(e));
+          const title = (e) => (e.innerText || '').split('\n').map((x) => x.trim()).filter(Boolean).sort((a, z) => z.length - a.length).find((x) => x.length <= 160) || '';
+          // Yahoo! は 1 件の箱の文字全体で型番を見る（題名がいちばん長い行とは限らない）。ほかの店は今までどおり題名の行で見る
+          const cards = els.map((e) => ({ t: title(e), all: store === 'yahoo' ? (e.innerText || '') : title(e) })).filter((c) => c.t);
+          const hit = (x) => keys.length > 0 && keys.every((k) => norm(x).includes(norm(k)));
           const h1 = (document.querySelector('h1') || {}).innerText || '';
-          return { keys, items: items.length, hits: items.filter(hit).length, hitTitles: items.filter(hit).slice(0, 3).map((x) => x.slice(0, 90)), top: items.slice(0, 3).map((x) => x.slice(0, 90)), titleHit: hit(document.title + ' ' + h1), h1: h1.slice(0, 90) };
+          const hc = cards.filter((c) => hit(c.all));
+          return { keys, ads, items: cards.length, hits: hc.length, hitTitles: hc.slice(0, 3).map((c) => c.t.slice(0, 90)), top: cards.slice(0, 3).map((c) => c.t.slice(0, 90)), titleHit: hit(document.title + ' ' + h1), h1: h1.slice(0, 90) };
         })(),
       };
     }, [m, keys, bt.store]).catch(() => ({}));
@@ -122,7 +142,7 @@ for (const bt of btns) {
     if (bt.store === 'rakuten') aff = /scid=af_pc_etc/.test(fin) ? '着いた先の URL に scid=af_pc_etc（楽天アフィリエイト経由の印）' + (chain.some((u) => /hb\.afl\.rakuten\.co\.jp/.test(u)) ? '・途中で hb.afl.rakuten.co.jp を通った' : '') : '**印が見つからない**';
     if (bt.store === 'amazon') aff = /[?&]tag=dailyhack-22(&|$)/.test(fin) ? '着いた先の URL に tag=dailyhack-22（アソシエイトの印）' : '**tag=dailyhack-22 が無い**';
     if (bt.store === 'yahoo') aff = chain.some((u) => /valuecommerce\.com/.test(u)) || /sc_e=afvc|[?&]vc_/.test(fin) ? 'バリューコマースの転送を通った（LinkSwitch で成果リンクに差し替わった）' : '**バリューコマースを通っていない（素のリンクのまま）**';
-    const buy = info.cart && info.titleHit ? 'その商品のページ（カートに入れるボタンあり）' : info.hits > 0 ? `検索結果 ${info.items} 件のうち、型番「${info.keys.join(' ')}」の商品が ${info.hits} 件` : info.cart ? `商品ページだが題名に「${info.keys.join(' ')}」が無い（要目視）` : `**検索結果 ${info.items ?? 0} 件に型番「${(info.keys || []).join(' ')}」の商品が無い**`;
+    const buy = !keys.length ? '**型番が分からない（商品データにも押したリンクにも型番が無い）・照合していない**' : info.cart && info.titleHit ? 'その商品のページ（カートに入れるボタンあり）' : info.hits > 0 ? `検索結果 ${info.items} 件${info.ads != null ? `（広告・別枠 ${info.ads} 件は数えない）` : ''}のうち、型番「${info.keys.join(' ')}」の商品が ${info.hits} 件` : info.cart ? `商品ページだが題名に「${info.keys.join(' ')}」が無い（要目視）` : `**検索結果 ${info.items ?? 0} 件に型番「${(info.keys || []).join(' ')}」の商品が無い**`;
     const found = bt.store === 'amazon' ? `検索結果 ${info.amazonResults ?? '—'} 件` : bt.store === 'rakuten' ? `検索結果 ${info.rakutenResults ?? '—'} 件` : (info.cart ? '商品ページ（カートに入れるボタンあり）' : `検索結果 ${info.yahooResults ?? '—'} 件`);
     const shot = `${process.env.SHOT_PREFIX || (MATCH ? 'r' : '')}${n}-${bt.store}.jpg`;
     await q.screenshot({ path: path.join(SHOTS, shot), type: 'jpeg', quality: 55 }).catch(() => {});
