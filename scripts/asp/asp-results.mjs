@@ -78,19 +78,16 @@ try {
         }, re.source).catch(() => '');
         let how = await clickText(/^今月$/);
         await p.waitForTimeout(3000);
-        // 選ばれている期間は、その文字の次の行に「check」（チェックの印）が出る（t696）。aria-selected／aria-checked も見る
+        // t778: 期間はラジオのチップ（material-chip role=radio）。選ばれているものは aria-checked="true"。押すのは「今月」の 1 回だけにする
         const selected = () => p.evaluate(() => {
-          const L = ((document.querySelector('[role=main], main') || document.body).innerText || '').split('\n').map((x) => x.trim()).filter(Boolean);
-          const byCheck = L.findIndex((x, i) => /^(今日|過去 \d+ 日間|今月|先月|カスタム)$/.test(x) && L[i + 1] === 'check');
-          if (byCheck >= 0) return L[byCheck];
-          const a = [...document.querySelectorAll('[aria-selected=true], [aria-checked=true]')].map((e) => (e.innerText || '').trim()).find((x) => /^(今日|過去 \d+ 日間|今月|先月)$/.test(x));
-          return a || '';
+          const c = [...document.querySelectorAll('[role=radio][aria-checked=true], [role=radio][aria-selected=true], material-chip[selected], material-chip.selected')]
+            .map((e) => (e.innerText || '').replace(/check/g, '').trim()).filter(Boolean);
+          return c.join('・');
         }).catch(() => '');
-        if (await selected() !== '今月') { await clickText(/^(今日|過去 7 日間|過去 30 日間|先月)$/); await p.waitForTimeout(1500); how = await clickText(/^今月$/) || how; await p.waitForTimeout(3000); }
         await p.waitForTimeout(8000);
         const sel = await selected();
         lines.push(`- 「今月」を押した: ${how || '押せない'}・選ばれている期間: ${sel || '読めない'}`);
-        range = sel === '今月' ? '今月' : `${sel || '不明'}（今月への切り替えに失敗）`;
+        range = /今月/.test(sel) ? '今月' : `${sel || '不明'}（今月への切り替えに失敗）`;
         lines.push(`- 期間: ${range}`);
       }
 
