@@ -1,0 +1,51 @@
+{
+ "panasonic.png": {
+  "brand": "パナソニック",
+  "title": "File:Panasonic Group logo.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Panasonic_Group_logo.svg",
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Panasonic_Group_logo.svg/960px-Panasonic_Group_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "orig": "https://upload.wikimedia.org/wikipedia/commons/5/54/Panasonic_Group_logo.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+  "license": "Public domain",
+  "fetched": "2026-10-18",
+  "task": "ops/tasks/x317-product-brand-logos-wiki.sh",
+  "copied_from": "public/images/futon-dryer-comparison-2026/logos/panasonic.png"
+ },
+ "zojirushi.png": {
+  "brand": "象印",
+  "title": "File:Zojirushi Logo.svg",
+  "page": "https://en.wikipedia.org/wiki/File:Zojirushi_Logo.svg",
+  "src": "https://thumb.wikimedia.org/wikipedia/en/thumb/5/5f/Zojirushi_Logo.svg/960px-Zojirushi_Logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "orig": "https://upload.wikimedia.org/wikipedia/en/5/5f/Zojirushi_Logo.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+  "license": "Fair use",
+  "fetched": "2026-10-18",
+  "task": "ops/tasks/x317-product-brand-logos-wiki.sh",
+  "copied_from": "public/images/futon-dryer-comparison-2026/logos/zojirushi.png"
+ },
+ "doutor.jpg": {
+  "brand": "ドトールコーヒー",
+  "source": "https://www.doutor.co.jp/",
+  "source_type": "公式サイト（商標）",
+  "file": "doutor.jpg",
+  "width": 176,
+  "height": 176,
+  "copied_from": "public/images/morning-500-2026/logos/doutor.jpg"
+ },
+ "delonghi.png": {
+  "brand": "デロンギ",
+  "src": "https://www.delonghi.com/ja-jp/ （公式サイトのヘッダーのロゴ SVG）",
+  "fetched": "2026-11-22",
+  "note": "公式サイトの SVG を Chromium で PNG にした。改変なし（余白だけ落とした）"
+ },
+ "twinbird.png": {
+  "brand": "ツインバード",
+  "src": "https://cdn.shopify.com/s/files/1/0590/7316/7535/files/logo-tb-black-01.svg（ツインバード公式ストアのヘッダー）",
+  "fetched": "2026-11-22",
+  "note": "公式サイトの SVG を Chromium で PNG にした。改変なし（余白だけ落とした）"
+ },
+ "siroca.png": {
+  "brand": "シロカ",
+  "src": "https://www.siroca.co.jp/wp-content/themes/siroca_corp/img/common/logo.svg（シロカ公式サイトのヘッダー）",
+  "fetched": "2026-11-22",
+  "note": "公式サイトの SVG を Chromium で PNG にした。改変なし（余白だけ落とした）"
+ }
+}

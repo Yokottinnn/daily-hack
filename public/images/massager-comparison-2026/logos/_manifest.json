@@ -1,0 +1,7 @@
+{
+  "panasonic.png": {"brand": "パナソニック", "page": "https://commons.wikimedia.org/wiki/File:Panasonic_Group_logo.svg", "license": "Public domain", "fetched": "2026-10-18", "copied_from": "public/images/cordless-stick-cleaner-comparison-2026/logos/panasonic.png"},
+  "atex.png": {"brand": "アテックス", "src": "https://www.atex-net.co.jp/assets/images/common/logo.svg", "page": "https://www.atex-net.co.jp/", "fetched": "2026-11-22", "note": "公式サイトのヘッダーのロゴ（SVG を PNG に変換）"},
+  "drair.png": {"brand": "ドクターエア", "src": "https://www.dr-air.com/jp/ja/img/logo_bk.svg", "page": "https://www.dr-air.com/jp/ja/", "fetched": "2026-11-22", "note": "公式サイトのロゴ（黒版の SVG を PNG に変換）"},
+  "fuji.png": {"brand": "フジ医療器", "src": "https://www.fujiiryoki.co.jp/files/assets/img/common/base/h_logo.png", "page": "https://www.fujiiryoki.co.jp/", "fetched": "2026-11-22", "note": "公式サイトのヘッダーのロゴ"},
+  "sixpad.png": {"brand": "SIXPAD", "src": "https://www.mtgec.jp/wellness/sixpad/assets/img/common/logo_sixpad.svg", "page": "https://www.mtgec.jp/wellness/sixpad/", "fetched": "2026-11-22", "note": "公式サイトのロゴ（SVG を PNG に変換）"}
+}

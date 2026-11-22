@@ -1,0 +1,80 @@
+{
+ "panasonic-eh-sr90.jpg": {
+  "page": "https://panasonic.jp/face/products/EH-SR90.html",
+  "source": "メーカー公式サイトの製品ページの画像",
+  "fetched": "2026-11-22"
+ },
+ "panasonic-eh-sr90-main.jpg": {
+  "page": "https://panasonic.jp/face/products/EH-SR90.html",
+  "source": "メーカー公式サイトの製品ページの画像",
+  "fetched": "2026-11-22"
+ },
+ "panasonic-eh-4r06-gel.jpg": {
+  "page": "https://panasonic.jp/consumables/products/EH-4R06.html",
+  "source": "メーカー公式サイトの製品ページの画像",
+  "fetched": "2026-11-22"
+ },
+ "panasonic-eh-ss85.jpg": {
+  "page": "https://panasonic.jp/face/products/EH-SS85.html",
+  "source": "メーカー公式サイトの製品ページの画像",
+  "fetched": "2026-11-22"
+ },
+ "panasonic-eh-ss85-wide.jpg": {
+  "page": "https://panasonic.jp/face/products/EH-SS85.html",
+  "source": "メーカー公式サイトの製品ページの画像",
+  "fetched": "2026-11-22"
+ },
+ "refa-derma-heat.jpg": {
+  "page": "https://www.refa.net/item/refa_derma_heat/",
+  "source": "メーカー公式サイトの製品ページの画像",
+  "fetched": "2026-11-22"
+ },
+ "refa-derma-heat-head.jpg": {
+  "page": "https://www.refa.net/item/refa_derma_heat/",
+  "source": "メーカー公式サイトの製品ページの画像",
+  "fetched": "2026-11-22"
+ },
+ "refa-carat-lift.jpg": {
+  "page": "https://www.refa.net/item/refa_carat_lift/",
+  "source": "メーカー公式サイトの製品ページの画像",
+  "fetched": "2026-11-22"
+ },
+ "refa-carat-lift-og.jpg": {
+  "page": "https://www.refa.net/item/refa_carat_lift/",
+  "source": "メーカー公式サイトの製品ページの画像",
+  "fetched": "2026-11-22"
+ },
+ "salonia-ems-lift-brush.jpg": {
+  "page": "https://salonia.jp/product/skin/facecare/ems/",
+  "source": "メーカー公式サイトの製品ページの画像",
+  "fetched": "2026-11-22"
+ },
+ "salonia-ems-lift-brush-use.jpg": {
+  "page": "https://salonia.jp/product/skin/facecare/ems/",
+  "source": "メーカー公式サイトの製品ページの画像",
+  "fetched": "2026-11-22"
+ },
+ "salonia-ems-lift-brush-scene.jpg": {
+  "page": "https://salonia.jp/product/skin/facecare/ems/",
+  "source": "メーカー公式サイトの製品ページの画像",
+  "fetched": "2026-11-22"
+ },
+ "yaman-deep-lift-duo.jpg": {
+  "page": "https://www.ya-man.com/Form/Product/ProductDetail.aspx?shop=0&pid=yjfa1p&bid=yaman_tokyo_japan&cat=101",
+  "src": "https://www.ya-man.com/Contents/ProductImages/0/yjfa1p_LL.jpg",
+  "source": "ヤーマン公式オンラインストアの商品画像（ops/tasks/t953 で取得）",
+  "fetched": "2026-11-22"
+ },
+ "yaman-deep-lift-duo-modes.jpg": {
+  "page": "https://www.ya-man.com/Form/Product/ProductDetail.aspx?shop=0&pid=yjfa1p&bid=yaman_tokyo_japan&cat=101",
+  "src": "https://www.ya-man.com/Contents/ProductSubImages/0/yjfa1p_sub09_LL.jpg",
+  "source": "ヤーマン公式オンラインストアの商品画像（ops/tasks/t953 で取得）",
+  "fetched": "2026-11-22"
+ },
+ "yaman-deep-lift-duo-hero.jpg": {
+  "page": "https://digitalpr.jp/r/145430",
+  "src": "https://digitalpr.jp/simg/2963/145430/700_492_202610071921046ac61d10c19e6.png",
+  "source": "ヤーマンのプレスリリース（2026年10月・ops/tasks/t953 で取得）",
+  "fetched": "2026-11-22"
+ }
+}
