@@ -369,6 +369,61 @@ tr[data-ccount]::after{top:4px;right:4px}
 </section>
 
 <!-- ============ 成果リンクの一覧 ============ -->
+<section class="page" data-page="x" data-title="X での告知" hidden>
+  <div class="eyebrow">X での告知</div>
+  <h1>X は入口であり、もう 1 本の収益源。まずは認証済みフォロワー 500</h1>
+  <p class="lead">X の運用は tweet2 のセッションの担当です。<strong>アフィリエイト記事は、記事の一番の驚きを 2 投稿のスレッドで出し、記事へ誘導します。</strong></p>
+  <h2 data-cid="x.cal.head">投稿カレンダー</h2>
+  <p class="src" data-cid="x.cal.rule"><b>翌週（月〜金）の投稿は、金曜までに Claude が準備してレビューページに出す。土日にあなたが決める。</b>決まったものは予約して、この表に出す。</p>
+  <div class="calbar"><button type="button" class="linkish" id="cal-prev">← 前の月</button><b id="cal-title"></b><button type="button" class="linkish" id="cal-next">次の月 →</button>
+    <span class="cal-legend"><i class="st-posted"></i>投稿済み <i class="st-scheduled"></i>予約済み <i class="st-planned"></i>想定投稿日（出す日はあなたが決める）</span></div>
+  <div class="cal" id="xcal"><p class="empty">読み込み中</p></div>
+  <h2 data-cid="x.drafts.head">投稿準備中の下書き</h2>
+  <div class="c" data-cid="x.review-link"><div class="b"><b>投稿レビューページ</b>：文面の書き換え・画像へのコメント・型の変更はこちらで。<a href="https://claude.ai/artifact/1o7gjZZghit8kn3W4AXUdH" target="_blank" rel="noopener">レビューページを開く</a></div></div>
+  <p class="src" id="xdrafts-meta">下書きの一覧を読み込み中</p>
+  <div class="list" id="xdrafts"><p class="empty">読み込み中</p></div>
+  <h2>X の収益化までの距離</h2>
+  <div class="tbl"><table><thead><tr><th>条件</th><th>いま</th><th>足りない</th></tr></thead><tbody id="tbl-xcond"><tr><td colspan="3" class="empty">データ待ち</td></tr></tbody></table></div>
+  <p class="src">数字は共通戦略の「共有の数字」から（X 担当のセッションが一次情報で更新）。返信の表示は条件に数えられない。</p>
+  <h2>分かったこと</h2>
+  <ul class="findings" id="x-facts"><li class="empty">Mac からの書き出し待ち</li></ul>
+  <h2>フォロワーの推移</h2>
+  <div class="chart" id="chart-x"><p class="empty">Mac からの書き出し待ち</p></div>
+  <h2>投稿のランキング（表示回数）</h2>
+  <p class="src">表示・いいね・リポスト・返信は、Mac が 3 時間おきに記録している最新値。「記事の読者」は告知した日と翌日にその記事を読んだ人（ボット除外・9/13 から記録）。「フォロワー」は前日から翌日までの増減（その 2 日の記録がそろうときだけ）。</p>
+  <div class="tbl"><table class="wf"><thead id="thead-xposts"><tr><th>投稿</th><th>表示</th></tr></thead><tbody id="tbl-xposts"><tr><td colspan="2" class="empty">Mac からの書き出し待ち</td></tr></tbody></table></div>
+  <h2>これまでの投稿（記事の告知など）</h2>
+  <div class="tbl"><table class="wf"><thead><tr><th>投稿</th><th>投稿日</th><th>記事</th><th>X で見る</th></tr></thead><tbody id="tbl-xsets"><tr><td colspan="4" class="empty">データ待ち</td></tr></tbody></table></div>
+  <h2>投稿の方針</h2>
+  <ul class="plain">
+    <li><b>記事の告知は 1 日おき。</b>記事 1 本から「告知 1 ＋ 単発の小ネタ 1〜2」を切り出す（認証済みの表示は自分の投稿でしか積めない）。</li>
+    <li><b>成果報酬の付いた比較記事を優先して告知する。</b>告知の記事 URL には <code>utm_source=x</code> を付け、X から何人来たかを測る。</li>
+    <li><b>独自の切り口×ハッカー子の声。</b>投稿スタイルは 15 型から選ぶ。キャラ（アタシ・〜わよ・あんた）は変えない。</li>
+    <li><b>投稿は、あなたが「投稿して」と書いたときだけ。</b>画像を見たうえでの承認が要る。</li>
+    <li>フォローは認証済みアカウントに寄せ、総数は増やさない（比 0.45〜0.65）。返信は条件に数えられないので、フォロワーを増やす手段として使う。</li>
+  </ul>
+  <h2>流れ</h2>
+  <ol class="plain">
+    <li>blog 側が記事を公開し、<code>cross-session-requests.md</code> に URL・要点 3 つ・画像を書く。</li>
+    <li>tweet2 が投稿スタイルを 15 型から 1 つ選び、文面と 1080×1080 の画像を作る。</li>
+    <li>あなたがチャットで文面と画像を見て 👍。画像を見ていない承認では投稿しない。</li>
+    <li>OpenClaw が投稿。👍 から 15 分で出ていなければ経路を疑って報告する。</li>
+  </ol>
+  <h2>アフィリエイト記事に合う投稿の型</h2>
+  <ul class="plain">
+    <li><b>計算してみた型</b>：「ふるさと納税、サイトで還元が◯円違う」のように数字で引く。</li>
+    <li><b>損得スレッド型</b>：知らないと損する期限・条件を並べる。</li>
+    <li><b>知らなかったでしょ型</b>：湾岸の新施設・新制度、マンションの回線事情の意外な事実。</li>
+  </ul>
+  <h2>決まり</h2>
+  <ul class="plain">
+    <li>成果リンクを X に貼る投稿には #PR を付ける。ASP に X をメディア登録してから。</li>
+    <li>画像に出所の行は出さない。CC BY の写真は ALT に撮影者名を書く。</li>
+    <li>フォロー／フォロワー比 0.45〜0.65 を崩す施策は出さない。</li>
+  </ul>
+</section>
+
+<!-- ============ 計測 ============ -->
 <section class="page" data-page="afflinks" data-title="成果リンクの一覧" hidden>
   <div class="eyebrow">成果リンクの一覧</div>
   <h1>どの記事に、どの ASP の、どの案件のリンクが入っているか</h1>
@@ -930,61 +985,6 @@ tr[data-ccount]::after{top:4px;right:4px}
 </section>
 
 <!-- ============ X ============ -->
-<section class="page" data-page="x" data-title="X での告知" hidden>
-  <div class="eyebrow">X での告知</div>
-  <h1>X は入口であり、もう 1 本の収益源。まずは認証済みフォロワー 500</h1>
-  <p class="lead">X の運用は tweet2 のセッションの担当です。<strong>アフィリエイト記事は、記事の一番の驚きを 2 投稿のスレッドで出し、記事へ誘導します。</strong></p>
-  <h2 data-cid="x.cal.head">投稿カレンダー</h2>
-  <p class="src" data-cid="x.cal.rule"><b>翌週（月〜金）の投稿は、金曜までに Claude が準備してレビューページに出す。土日にあなたが決める。</b>決まったものは予約して、この表に出す。</p>
-  <div class="calbar"><button type="button" class="linkish" id="cal-prev">← 前の月</button><b id="cal-title"></b><button type="button" class="linkish" id="cal-next">次の月 →</button>
-    <span class="cal-legend"><i class="st-posted"></i>投稿済み <i class="st-scheduled"></i>予約済み <i class="st-planned"></i>想定投稿日（出す日はあなたが決める）</span></div>
-  <div class="cal" id="xcal"><p class="empty">読み込み中</p></div>
-  <h2 data-cid="x.drafts.head">投稿準備中の下書き</h2>
-  <div class="c" data-cid="x.review-link"><div class="b"><b>投稿レビューページ</b>：文面の書き換え・画像へのコメント・型の変更はこちらで。<a href="https://claude.ai/artifact/1o7gjZZghit8kn3W4AXUdH" target="_blank" rel="noopener">レビューページを開く</a></div></div>
-  <p class="src" id="xdrafts-meta">下書きの一覧を読み込み中</p>
-  <div class="list" id="xdrafts"><p class="empty">読み込み中</p></div>
-  <h2>X の収益化までの距離</h2>
-  <div class="tbl"><table><thead><tr><th>条件</th><th>いま</th><th>足りない</th></tr></thead><tbody id="tbl-xcond"><tr><td colspan="3" class="empty">データ待ち</td></tr></tbody></table></div>
-  <p class="src">数字は共通戦略の「共有の数字」から（X 担当のセッションが一次情報で更新）。返信の表示は条件に数えられない。</p>
-  <h2>分かったこと</h2>
-  <ul class="findings" id="x-facts"><li class="empty">Mac からの書き出し待ち</li></ul>
-  <h2>フォロワーの推移</h2>
-  <div class="chart" id="chart-x"><p class="empty">Mac からの書き出し待ち</p></div>
-  <h2>投稿のランキング（表示回数）</h2>
-  <p class="src">表示・いいね・リポスト・返信は、Mac が 3 時間おきに記録している最新値。「記事の読者」は告知した日と翌日にその記事を読んだ人（ボット除外・9/13 から記録）。「フォロワー」は前日から翌日までの増減（その 2 日の記録がそろうときだけ）。</p>
-  <div class="tbl"><table class="wf"><thead id="thead-xposts"><tr><th>投稿</th><th>表示</th></tr></thead><tbody id="tbl-xposts"><tr><td colspan="2" class="empty">Mac からの書き出し待ち</td></tr></tbody></table></div>
-  <h2>これまでの投稿（記事の告知など）</h2>
-  <div class="tbl"><table class="wf"><thead><tr><th>投稿</th><th>投稿日</th><th>記事</th><th>X で見る</th></tr></thead><tbody id="tbl-xsets"><tr><td colspan="4" class="empty">データ待ち</td></tr></tbody></table></div>
-  <h2>投稿の方針</h2>
-  <ul class="plain">
-    <li><b>記事の告知は 1 日おき。</b>記事 1 本から「告知 1 ＋ 単発の小ネタ 1〜2」を切り出す（認証済みの表示は自分の投稿でしか積めない）。</li>
-    <li><b>成果報酬の付いた比較記事を優先して告知する。</b>告知の記事 URL には <code>utm_source=x</code> を付け、X から何人来たかを測る。</li>
-    <li><b>独自の切り口×ハッカー子の声。</b>投稿スタイルは 15 型から選ぶ。キャラ（アタシ・〜わよ・あんた）は変えない。</li>
-    <li><b>投稿は、あなたが「投稿して」と書いたときだけ。</b>画像を見たうえでの承認が要る。</li>
-    <li>フォローは認証済みアカウントに寄せ、総数は増やさない（比 0.45〜0.65）。返信は条件に数えられないので、フォロワーを増やす手段として使う。</li>
-  </ul>
-  <h2>流れ</h2>
-  <ol class="plain">
-    <li>blog 側が記事を公開し、<code>cross-session-requests.md</code> に URL・要点 3 つ・画像を書く。</li>
-    <li>tweet2 が投稿スタイルを 15 型から 1 つ選び、文面と 1080×1080 の画像を作る。</li>
-    <li>あなたがチャットで文面と画像を見て 👍。画像を見ていない承認では投稿しない。</li>
-    <li>OpenClaw が投稿。👍 から 15 分で出ていなければ経路を疑って報告する。</li>
-  </ol>
-  <h2>アフィリエイト記事に合う投稿の型</h2>
-  <ul class="plain">
-    <li><b>計算してみた型</b>：「ふるさと納税、サイトで還元が◯円違う」のように数字で引く。</li>
-    <li><b>損得スレッド型</b>：知らないと損する期限・条件を並べる。</li>
-    <li><b>知らなかったでしょ型</b>：湾岸の新施設・新制度、マンションの回線事情の意外な事実。</li>
-  </ul>
-  <h2>決まり</h2>
-  <ul class="plain">
-    <li>成果リンクを X に貼る投稿には #PR を付ける。ASP に X をメディア登録してから。</li>
-    <li>画像に出所の行は出さない。CC BY の写真は ALT に撮影者名を書く。</li>
-    <li>フォロー／フォロワー比 0.45〜0.65 を崩す施策は出さない。</li>
-  </ul>
-</section>
-
-<!-- ============ 計測 ============ -->
 <section class="page" data-page="measure" data-title="計測と振り返り" hidden>
   <div class="eyebrow">計測と振り返り</div>
   <h1>毎週、データが集まり、所見が出て、サイトと計画が書き換わる</h1>
