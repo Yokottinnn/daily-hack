@@ -90,7 +90,7 @@
       "source": "https://www.ac.daikin.co.jp/cleanair/ichiran",
       "rakuten": { "keyword": "ダイキン MCK707A", "must": ["MCK707A"], "exclude": ["フィルター", "交換", "部品", "ユニット", "中古", "◆", "並行輸入", "セット"] },
       "yahoo": { "keyword": "ダイキン MCK707A", "must": ["MCK707A"], "exclude": ["フィルター", "交換", "部品", "ユニット", "中古", "◆", "並行輸入", "セット"] },
-      "amazon": { "keyword": "ダイキン MCK707A", "asin": null }
+      "amazon": { "keyword": "ダイキン MCK707A", "asin": "B0HFMD3YYF" }
     },
     {
       "id": "daikin-mck557a",
@@ -110,7 +110,7 @@
       "source": "https://www.ac.daikin.co.jp/cleanair/ichiran",
       "rakuten": { "keyword": "ダイキン MCK557A", "must": ["MCK557A"], "exclude": ["フィルター", "交換", "部品", "ユニット", "中古", "◆", "並行輸入", "セット"] },
       "yahoo": { "keyword": "ダイキン MCK557A", "must": ["MCK557A"], "exclude": ["フィルター", "交換", "部品", "ユニット", "中古", "◆", "並行輸入", "セット"] },
-      "amazon": { "keyword": "ダイキン MCK557A", "asin": null }
+      "amazon": { "keyword": "ダイキン MCK557A", "asin": "B0HFMQVJDT" }
     },
     {
       "id": "panasonic-f-vx70d",
@@ -130,7 +130,7 @@
       "source": "https://panasonic.jp/airrich/products/F-VX70D/spec.html",
       "rakuten": { "keyword": "パナソニック F-VX70D", "must": ["F-VX70D"], "exclude": ["フィルター", "交換", "部品", "中古", "◆", "並行輸入", "セット"] },
       "yahoo": { "keyword": "パナソニック F-VX70D", "must": ["F-VX70D"], "exclude": ["フィルター", "交換", "部品", "中古", "◆", "並行輸入", "セット"] },
-      "amazon": { "keyword": "パナソニック F-VX70D", "asin": null }
+      "amazon": { "keyword": "パナソニック F-VX70D", "asin": "B08QYXJY66" }
     },
     {
       "id": "panasonic-f-vxw90",
@@ -150,7 +150,7 @@
       "source": "https://panasonic.jp/airrich/products/F-VXW90/spec.html",
       "rakuten": { "keyword": "パナソニック F-VXW90", "must": ["F-VXW90"], "exclude": ["フィルター", "交換", "部品", "中古", "◆", "並行輸入", "セット"] },
       "yahoo": { "keyword": "パナソニック F-VXW90", "must": ["F-VXW90"], "exclude": ["フィルター", "交換", "部品", "中古", "◆", "並行輸入", "セット"] },
-      "amazon": { "keyword": "パナソニック F-VXW90", "asin": null }
+      "amazon": { "keyword": "パナソニック F-VXW90", "asin": "B0DGPWWFSJ" }
     }
   ]
 }

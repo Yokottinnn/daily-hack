@@ -1,0 +1,248 @@
+[
+ {
+  "id": "robot-cleaner~roborock-saros-20",
+  "store": "amazon",
+  "keyword": "Roborock Saros 20",
+  "must": [
+   "Saros 20"
+  ],
+  "exclude": [
+   "互換",
+   "対応",
+   "中古",
+   "◆",
+   "並行輸入",
+   "交換用",
+   "フィルム",
+   "紙パック",
+   "ダストバッグ",
+   "消耗品",
+   "アクセサリー",
+   "交換"
+  ]
+ },
+ {
+  "id": "robot-cleaner~irobot-roomba-max-775-combo",
+  "store": "amazon",
+  "keyword": "ルンバ Max 775 Combo X285060",
+  "must": [
+   "X285060"
+  ],
+  "exclude": [
+   "互換",
+   "対応",
+   "中古",
+   "◆",
+   "並行輸入",
+   "交換用",
+   "フィルム",
+   "紙パック",
+   "ダストバッグ",
+   "消耗品",
+   "アクセサリー",
+   "交換"
+  ]
+ },
+ {
+  "id": "smartwatch~apple-watch-series-12",
+  "store": "amazon",
+  "keyword": "Apple Watch Series 12",
+  "must": [
+   "Series 12"
+  ],
+  "exclude": [
+   "互換",
+   "対応",
+   "中古",
+   "◆",
+   "並行輸入",
+   "交換用",
+   "フィルム",
+   "保護",
+   "充電器",
+   "ケーブル",
+   "専用"
+  ]
+ },
+ {
+  "id": "smartwatch~apple-watch-se-3",
+  "store": "amazon",
+  "keyword": "Apple Watch SE 3",
+  "must": [
+   "SE 3"
+  ],
+  "exclude": [
+   "互換",
+   "対応",
+   "中古",
+   "◆",
+   "並行輸入",
+   "交換用",
+   "フィルム",
+   "保護",
+   "充電器",
+   "ケーブル",
+   "専用"
+  ]
+ },
+ {
+  "id": "smartwatch~apple-watch-ultra-4",
+  "store": "amazon",
+  "keyword": "Apple Watch Ultra 4",
+  "must": [
+   "Ultra 4"
+  ],
+  "exclude": [
+   "互換",
+   "対応",
+   "中古",
+   "◆",
+   "並行輸入",
+   "交換用",
+   "フィルム",
+   "保護",
+   "充電器",
+   "ケーブル",
+   "専用"
+  ]
+ },
+ {
+  "id": "smartwatch~pixel-watch-5",
+  "store": "amazon",
+  "keyword": "Google Pixel Watch 5",
+  "must": [
+   "Pixel Watch 5"
+  ],
+  "exclude": [
+   "互換",
+   "対応",
+   "中古",
+   "◆",
+   "並行輸入",
+   "交換用",
+   "フィルム",
+   "保護",
+   "充電器",
+   "ケーブル",
+   "専用"
+  ]
+ },
+ {
+  "id": "smartwatch~galaxy-watch9",
+  "store": "amazon",
+  "keyword": "Galaxy Watch9",
+  "must": [
+   "Watch9"
+  ],
+  "exclude": [
+   "互換",
+   "対応",
+   "中古",
+   "◆",
+   "並行輸入",
+   "交換用",
+   "フィルム",
+   "保護",
+   "充電器",
+   "ケーブル",
+   "専用"
+  ]
+ },
+ {
+  "id": "smartwatch~garmin-vivoactive-6",
+  "store": "amazon",
+  "keyword": "vivoactive 6",
+  "must": [
+   "active 6"
+  ],
+  "exclude": [
+   "互換",
+   "対応",
+   "中古",
+   "◆",
+   "並行輸入",
+   "交換用",
+   "フィルム",
+   "保護",
+   "充電器",
+   "ケーブル",
+   "専用"
+  ]
+ },
+ {
+  "id": "smartwatch~huawei-watch-gt7",
+  "store": "amazon",
+  "keyword": "HUAWEI WATCH GT 7",
+  "must": [
+   "GT 7"
+  ],
+  "exclude": [
+   "互換",
+   "対応",
+   "中古",
+   "◆",
+   "並行輸入",
+   "交換用",
+   "フィルム",
+   "保護",
+   "充電器",
+   "ケーブル",
+   "専用"
+  ]
+ },
+ {
+  "id": "smartwatch~xiaomi-watch-s5",
+  "store": "amazon",
+  "keyword": "Xiaomi Watch S5 46mm",
+  "must": [
+   "Watch S5"
+  ],
+  "exclude": [
+   "互換",
+   "対応",
+   "中古",
+   "◆",
+   "並行輸入",
+   "交換用",
+   "フィルム",
+   "保護",
+   "充電器",
+   "ケーブル",
+   "専用"
+  ]
+ },
+ {
+  "id": "humidifying-air-purifier~sharp-ki-wx75",
+  "store": "amazon",
+  "keyword": "シャープ KI-WX75",
+  "must": [
+   "KI-WX75"
+  ],
+  "exclude": [
+   "互換",
+   "対応",
+   "中古",
+   "◆",
+   "並行輸入",
+   "交換用",
+   "フィルム"
+  ]
+ },
+ {
+  "id": "humidifying-air-purifier~sharp-ki-wx70",
+  "store": "amazon",
+  "keyword": "シャープ KI-WX70",
+  "must": [
+   "KI-WX70"
+  ],
+  "exclude": [
+   "互換",
+   "対応",
+   "中古",
+   "◆",
+   "並行輸入",
+   "交換用",
+   "フィルム"
+  ]
+ }
+]
