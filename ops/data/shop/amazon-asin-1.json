@@ -1,0 +1,245 @@
+[
+ {
+  "id": "premium-hair-dryer~dyson-supersonic-nural-shine",
+  "store": "amazon",
+  "keyword": "Dyson Supersonic Nural Shine HD16",
+  "must": [
+   "HD16"
+  ],
+  "exclude": [
+   "互換",
+   "対応",
+   "中古",
+   "◆",
+   "並行輸入",
+   "交換用",
+   "フィルム",
+   "スタンド",
+   "ホルダー"
+  ]
+ },
+ {
+  "id": "premium-hair-dryer~dyson-supersonic-travel",
+  "store": "amazon",
+  "keyword": "Dyson Supersonic Travel HD19",
+  "must": [
+   "HD19"
+  ],
+  "exclude": [
+   "互換",
+   "対応",
+   "中古",
+   "◆",
+   "並行輸入",
+   "交換用",
+   "フィルム",
+   "スタンド",
+   "ホルダー"
+  ]
+ },
+ {
+  "id": "premium-hair-dryer~panasonic-eh-na0k",
+  "store": "amazon",
+  "keyword": "パナソニック ナノケア EH-NA0K",
+  "must": [
+   "EH-NA0K"
+  ],
+  "exclude": [
+   "互換",
+   "対応",
+   "中古",
+   "◆",
+   "並行輸入",
+   "交換用",
+   "フィルム",
+   "スタンド",
+   "ホルダー"
+  ]
+ },
+ {
+  "id": "premium-hair-dryer~panasonic-eh-nb70",
+  "store": "amazon",
+  "keyword": "パナソニック ナノケア EH-NB70",
+  "must": [
+   "EH-NB70"
+  ],
+  "exclude": [
+   "互換",
+   "対応",
+   "中古",
+   "◆",
+   "並行輸入",
+   "交換用",
+   "フィルム",
+   "スタンド",
+   "ホルダー"
+  ]
+ },
+ {
+  "id": "premium-hair-dryer~refa-beautech-dryer-smart-w",
+  "store": "amazon",
+  "keyword": "ReFa BEAUTECH DRYER SMART W",
+  "must": [
+   "SMART W"
+  ],
+  "exclude": [
+   "互換",
+   "対応",
+   "中古",
+   "◆",
+   "並行輸入",
+   "交換用",
+   "フィルム",
+   "スタンド",
+   "ホルダー"
+  ]
+ },
+ {
+  "id": "premium-hair-dryer~sharp-ib-wx903",
+  "store": "amazon",
+  "keyword": "シャープ IB-WX903",
+  "must": [
+   "IB-WX903"
+  ],
+  "exclude": [
+   "互換",
+   "対応",
+   "中古",
+   "◆",
+   "並行輸入",
+   "交換用",
+   "フィルム",
+   "スタンド",
+   "ホルダー"
+  ]
+ },
+ {
+  "id": "premium-hair-dryer~salonia-smooth-shine",
+  "store": "amazon",
+  "keyword": "SALONIA スムースシャインドライヤー",
+  "must": [
+   "スムースシャイン"
+  ],
+  "exclude": [
+   "互換",
+   "対応",
+   "中古",
+   "◆",
+   "並行輸入",
+   "交換用",
+   "フィルム",
+   "スタンド",
+   "ホルダー"
+  ]
+ },
+ {
+  "id": "robot-cleaner~irobot-roomba-mini",
+  "store": "amazon",
+  "keyword": "ルンバ Mini F155260",
+  "must": [
+   "F155260"
+  ],
+  "exclude": [
+   "互換",
+   "対応",
+   "中古",
+   "◆",
+   "並行輸入",
+   "交換用",
+   "フィルム",
+   "紙パック",
+   "ダストバッグ",
+   "消耗品",
+   "アクセサリー",
+   "交換"
+  ]
+ },
+ {
+  "id": "robot-cleaner~switchbot-k11-plus",
+  "store": "amazon",
+  "keyword": "SwitchBot ロボット掃除機 K11+",
+  "must": [
+   "K11"
+  ],
+  "exclude": [
+   "互換",
+   "対応",
+   "中古",
+   "◆",
+   "並行輸入",
+   "交換用",
+   "フィルム",
+   "紙パック",
+   "ダストバッグ",
+   "消耗品",
+   "アクセサリー",
+   "交換"
+  ]
+ },
+ {
+  "id": "robot-cleaner~eufy-c10",
+  "store": "amazon",
+  "keyword": "Eufy Robot Vacuum Auto-Empty C10",
+  "must": [
+   "C10"
+  ],
+  "exclude": [
+   "互換",
+   "対応",
+   "中古",
+   "◆",
+   "並行輸入",
+   "交換用",
+   "フィルム",
+   "紙パック",
+   "ダストバッグ",
+   "消耗品",
+   "アクセサリー",
+   "交換"
+  ]
+ },
+ {
+  "id": "robot-cleaner~eufy-omni-c28",
+  "store": "amazon",
+  "keyword": "Eufy Robot Vacuum Omni C28",
+  "must": [
+   "C28"
+  ],
+  "exclude": [
+   "互換",
+   "対応",
+   "中古",
+   "◆",
+   "並行輸入",
+   "交換用",
+   "フィルム",
+   "紙パック",
+   "ダストバッグ",
+   "消耗品",
+   "アクセサリー",
+   "交換"
+  ]
+ },
+ {
+  "id": "robot-cleaner~ecovacs-t90-max-omni",
+  "store": "amazon",
+  "keyword": "エコバックス DEEBOT T90 MAX OMNI",
+  "must": [
+   "T90"
+  ],
+  "exclude": [
+   "互換",
+   "対応",
+   "中古",
+   "◆",
+   "並行輸入",
+   "交換用",
+   "フィルム",
+   "紙パック",
+   "ダストバッグ",
+   "消耗品",
+   "アクセサリー",
+   "交換"
+  ]
+ }
+]
