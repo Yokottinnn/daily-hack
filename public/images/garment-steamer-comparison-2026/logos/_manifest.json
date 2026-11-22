@@ -1,0 +1,37 @@
+{
+ "panasonic": {
+  "brand": "パナソニック",
+  "page": "https://commons.wikimedia.org/wiki/File:Panasonic_Group_logo.svg",
+  "lic": "Public domain",
+  "fetched": "2026-10-18",
+  "copied_from": "public/images/hot-plate-comparison-2026/logos/panasonic.png"
+ },
+ "iris": {
+  "brand": "アイリスオーヤマ",
+  "page": "https://commons.wikimedia.org/wiki/File:IRIS_OHYAMA_logo.svg",
+  "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/IRIS_OHYAMA_logo.svg/500px-IRIS_OHYAMA_logo.svg.png",
+  "lic": "Public domain",
+  "fetched": "2026-11-22",
+  "via": "Wikimedia Commons",
+  "copied_from": "public/images/hot-plate-comparison-2026/logos/iris.png"
+ },
+ "tfal": {
+  "brand": "ティファール",
+  "src": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/00/05/be/0005beb1-1846-37ef-fc70-aa81b56bf17c/AppIcon-1x_U007emarketing-0-5-0-85-220-0.png/512x512bb.jpg",
+  "page": "https://apps.apple.com/jp/app/id6738371452",
+  "note": "App Store のアプリのアイコン（提供元 GROUPE SEB JAPAN CO., LTD.）",
+  "fetched": "2026-11-08",
+  "copied_from": "public/images/electric-kettle-comparison-2026/logos/tfal.png"
+ },
+ "hitachi": {
+  "brand": "日立",
+  "title": "File:Hitachi 2025 logo.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Hitachi_2025_logo.svg",
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Hitachi_2025_logo.svg/960px-Hitachi_2025_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "orig": "https://upload.wikimedia.org/wikipedia/commons/8/85/Hitachi_2025_logo.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+  "license": "Public domain",
+  "fetched": "2026-11-22",
+  "task": "ops/tasks/t832-futon-dryer-logos.sh",
+  "copied_from": "public/images/futon-dryer-comparison-2026/logos/hitachi.png"
+ }
+}
