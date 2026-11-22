@@ -1,4 +1,8 @@
 [
-      {"task": "t1020-body-scale-official-read.sh", "rc": 0, "out": "64037 withings-3-3.jpg 33025 withings-3-4.jpg 780716 withings-3-5.png  **読むだけ。LLM 不使用（$0／回）。**"},
-      {"task": "t1021-embed-body-scale.sh", "rc": 0, "out": "- X 2030560652574790102 @ksdenki_web  2026-03-08 ♥4 ／ ラジオ「ツッチー家電予備校」で紹介された話題の商品📻 ＼ 体重や体脂肪率など基本的な項目はもちろん、タニタの体組成計なら脚の筋肉量も測定できます⚖️体重を支えるだ�"}
+      {"task": "t1000-embed-kettle.sh", "rc": 0, "out": "- X 2115366100984823828 @fmuttyan ✔ 2026-10-28 ♥5 【注目キッチン・調理家電速報 (17:48)】 【WEB限定】象印 電気ケトル 0.8L 蒸気レス構造 安全設計 ほこりブロック エクリュ CK-JA08AM-WZ ✨ おすすめポ - X 2123612313764946243 @zurashi_select  2026-11-"},
+      {"task": "t1001-find-pages-kettle.sh", "rc": 0, "out": "  - B0BR3P96P9｜￥8,164｜[山善] 電気ケトル 電気ポット 0.8L 一人暮らし 二人暮らし (消費電力 1200W / 温度調節/保温機能/空焚き防止機能) ブラックブロンズ EGL-   - B0BR3PTQHG｜￥7,345｜[山善] 電気ケトル 電気ポット 0.8L 一人暮らし 二"},
+      {"task": "t1002-delonghi-official-read.sh", "rc": 0, "out": "  64 . 192 ..  **読むだけ。LLM 不使用（$0／回）。**"},
+      {"task": "t1010-embed-hot-plate.sh", "rc": 0, "out": "- YT BYMn0941LEk 「タイガー ホットプレートCPV-T130を開封」 / CaravanYUTV / 1.6万 13 年前 - YT JcqAhjfAdWE 「【2025年決定版】最強ホットプレートTOP5！コスパ・収納・機能をガチ比較」 / トクモノ (TokuMono) / 1.1万 11 か月前  --- 対象 4 / 読"},
+      {"task": "t1011-iris-hotplate-read.sh", "rc": 0, "out": " - 製品らしいリンク 0 件   - 画像 logo-iris.svg: 2713 bytes — https://www.irisohyama.co.jp/images/common/logo.svg  **読むだけ。LLM 不使用（$0／回）。**"},
+      {"task": "t1016-embed-hot-plate-2.sh", "rc": 0, "out": "- X 1990712808116531546 @Skyrocket_Co ✔ 2025-11-18 ♥48 【家電で快適！生活向上委員会！！！】 📢家電女優 奈津子(@natsuko_twins) が 毎週便利な家電をご紹介✨ 💡本日ご紹介したのは… ヤマゼンのホットプレート 「XG - X 1941269399555670459 "}
   ]

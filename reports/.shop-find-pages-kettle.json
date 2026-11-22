@@ -1,0 +1,10 @@
+[
+ {"id":"ko8601j0","store":"amazon","keyword":"ティファール アプレシア ロック コントロール KO8601J0","must":["KO8601"],"exclude":["洗浄剤","専用","対応","交換","パーツ","中古"]},
+ {"id":"ko9208jp","store":"amazon","keyword":"ティファール カフェ ロック コントロール KO9208JP","must":["KO9208"],"exclude":["洗浄剤","専用","対応","交換","パーツ","中古"]},
+ {"id":"ck-ka10","store":"amazon","keyword":"象印 電気ケトル CK-KA10","must":["CK-KA10"],"exclude":["専用","対応","交換","パーツ","中古"]},
+ {"id":"ptv-a080","store":"amazon","keyword":"タイガー 蒸気レス電気ケトル PTV-A080","must":["PTV-A080"],"exclude":["専用","対応","交換","パーツ","中古"]},
+ {"id":"kpt03jp","store":"amazon","keyword":"バルミューダ ザ・ポット KPT03JP","must":["KPT03"],"exclude":["専用","対応","交換","パーツ","中古"]},
+ {"id":"kboe1260j","store":"amazon","keyword":"デロンギ アイコナ 温度設定機能付き電気カフェケトル KBOE1260J","must":["KBOE1260"],"exclude":["専用","対応","交換","パーツ","中古"]},
+ {"id":"yku-sc1210j","store":"amazon","keyword":"山善 湯こぼれ防止温調電気ケトル YKU-SC1210J","must":["YKU-SC1210"],"exclude":["専用","対応","交換","パーツ","中古"]},
+ {"id":"egl-c1281","store":"amazon","keyword":"山善 温度調節機能付き電気ケトル EGL-C1281","must":["EGL-C1281"],"exclude":["専用","対応","交換","パーツ","中古"]}
+]
