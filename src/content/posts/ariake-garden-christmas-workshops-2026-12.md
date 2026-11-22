@@ -147,6 +147,24 @@ event:
 <p style="margin:0">夕方まで遊んだら、そのまま有明でディナーにするのもいいわね。有明ガーデンのまわりの店は<a href="https://px.a8.net/svt/ejp?a8mat=4BGAV3+ERO4RE+4EI4+BZVU9" target="_blank" rel="sponsored noopener nofollow">Retty</a>（PR）や<a href="https://px.a8.net/svt/ejp?a8mat=4BGAV3+EMWNX6+1OK+NV1XD" target="_blank" rel="sponsored noopener nofollow">一休.com レストラン</a>（PR）で席を取っておける。物より体験を贈りたいなら<a href="https://px.a8.net/svt/ejp?a8mat=4BESU9+EV8QE2+45RE+5ZMCH" target="_blank" rel="sponsored noopener nofollow">ソウ・エクスペリエンスの体験ギフト</a>（PR）もあるわよ。</p>
 </div>
 
+## SNS ではこう言われている
+
+「名作絵本のクッキー缶セレクション」は全国を回っている店で、行く先々で話題になっている。
+
+- <strong>はらぺこあおむしの公式</strong>：2026年11月に大阪の駅の店で「はらぺこあおむし」のクッキー缶とラムネ缶を売っていると案内した
+- <strong>名古屋・富山</strong>：名古屋パルコ（2026年11月21日〜12月6日）や富山駅前でも開かれ、「話題の絵本コラボクッキー缶が大集合」と紹介されている
+- <strong>有明ガーデンの夜</strong>：ワークショップの帰りに見られる冬のイルミネーションの動画も上がっている
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">期間限定ポップアップストア「#名作絵本のクッキー缶セレクション by Cake.jp」にて、「#はらぺこあおむし」#クッキー缶 と #ラムネ缶 を販売中 【Metro Opus なかもず店 Osaka Metro #なかもず駅 改札外】 26年11/18（水）～11/24（火） 営業時間：13:00～21:00（火曜日は20:00閉店）</p>&mdash; 公式 「エリック・カールの世界」日本版/はらぺこあおむし (@EricCarle_JP) <a href="https://twitter.com/EricCarle_JP/status/2123296671237095465">2026年11月19日</a></blockquote>
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">「名作絵本のクッキー缶セレクション」限定ショップが名古屋パルコ西館8階に11月21日(土)から12月6日(日)まで限定オープンします</p>&mdash; 名古屋グルメ探偵 アスカイ (@gourmet_nagoya) <a href="https://twitter.com/gourmet_nagoya/status/2123619928171561197">2026年11月20日</a></blockquote>
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">話題の絵本コラボクッキー缶が大集合！ 富山駅前『マルート』で『名作絵本のクッキー缶セレクション by Cake. jp』開催！10月30日～11月8日。</p>&mdash; ガタ子@とやま速報 (@toyamasokuhou) <a href="https://twitter.com/toyamasokuhou/status/2115371699835424855">2026年10月28日</a></blockquote>
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/UU38abXpOvI" title="Ariake Garden Winter Illumination 2026 有明ガーデン | Tokyo Christmas Lights" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
 ## 回り方
 
 <ul class="checklist">

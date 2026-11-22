@@ -113,6 +113,25 @@ event:
   </ul>
 </aside>
 
+## SNS ではこう言われている
+
+福島の側も、もう告知を始めている。
+
+- <strong>いわき市の観光の公式</strong>：2026年11月13日に「築地で味わう、福島の海の幸！」と、3品の無料試食を案内した
+- <strong>福島を応援するアカウント</strong>：「常磐もの」を味わいながら福島の漁業の今を知る機会、築地の買い物とあわせて立ち寄りたい、と紹介している
+- <strong>前の回に行った人</strong>：2026年2月の回の日には、会場に来た人が「入場料無料で、魚河岸食堂では当日限定メニューも」と投稿していた
+- <strong>動画</strong>：2023年の築地での福島の魚介の試食会は、テレ東BIZのニュースで取り上げられている
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">＼ 築地で味わう、福島の海の幸！🐟 ／ 【第21回福島県漁業の今と試食会】 11/28(土)、東京・築地魚河岸で開催！ 釜揚げシラス、サンマのポーポー焼き、アンコウの唐揚げを無料試食会！築地でのお買い物や散策の合間に、ぜひお立ち寄りください。</p>&mdash; いわき市観光情報【公式】 (@kankouiwaki) <a href="https://twitter.com/kankouiwaki/status/2121140582202462446">2026年11月13日</a></blockquote>
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">11/28(土)、築地魚河岸で「福島県漁業の今と試食会」が開催されます！🐟 釜揚げシラス、サンマのポーポー焼き、アンコウの唐揚げがなんと無料で試食できるそうです😊 福島の海が育む「常磐もの」を味わいながら、福島の漁業の今を知る機会にも。築地でのお買い物とあわせて立ち寄りたいですね！</p>&mdash; 福島LOVE会🍶東京で出会える福島 (@LoveFukushima14) <a href="https://twitter.com/LoveFukushima14/status/2122087253241741650">2026年11月16日</a></blockquote>
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">本日、築地魚河岸にて福島漁連さんの試食会！ 入場料無料で、魚河岸食堂では当日限定メニューも食べられるそうです</p>&mdash; ほづみゆうき (@ninofku) <a href="https://twitter.com/ninofku/status/2024989641104080956">2026年2月21日</a></blockquote>
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/OvQN0434fgQ" title="築地で福島県産の魚介類の試食会（2023年4月8日）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
 ## 行き方と回り方
 
 <figure class="rn-figure">

@@ -146,6 +146,20 @@ event:
 <p style="margin:0">会場は広くて人も多い。小型犬なら、疲れたときに抱えて歩ける<a href="https://px.a8.net/svt/ejp?a8mat=4BGAV3+EAZZTM+4DI0+HWXLD" target="_blank" rel="sponsored noopener nofollow">犬の抱っこ紐 KANGAPOOCH</a>（PR）があると人混みでも安心よ。会場でおやつを試して気になったら、家では<a href="https://px.a8.net/svt/ejp?a8mat=4BGAV3+E9T4M2+5FLE+5YZ75" target="_blank" rel="sponsored noopener nofollow">ドッグフード工房のお試し</a>（PR）で続きを試すのもあり。</p>
 </div>
 
+## SNS ではこう言われている
+
+- <strong>前の秋の回に行った人</strong>：2025年11月のお台場の回では「久々ポメいっぱい！」と、同じ犬種の仲間に会えた声が出ていた
+- <strong>今回の予習</strong>：犬のアカウントが、犬種別オフ会やドッグランの利用条件をまとめて紹介している
+- <strong>動画</strong>：主催のFLAFFYの公式チャンネルが、2026年6月の回の会場の様子を出している
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">お友だちとお台場いってきた🐾 久々ポメいっぱい！ 楽しかった🐶💕 #ポメラニアン #ジャパンわんこフェスタ</p>&mdash; くるみizm (@KURUMI_izm) <a href="https://twitter.com/KURUMI_izm/status/1992532273435234517">2025年11月23日</a></blockquote>
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">🐶ジャパンわんこフェスタ2026は11/27〜29にお台場で開催！ チワワ・ダックス・プードルなど犬種別オフ会も予定されています🐾 参加日や時間、ドッグランの利用条件をまとめました👇</p>&mdash; みーあどっぐ (@PMCdog030407) <a href="https://twitter.com/PMCdog030407/status/2122889279537893451">2026年11月18日</a></blockquote>
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/4b6uVz_1-VU" title="ジャパンわんこフェスタ2026年6月 in お台場" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
 ## 回り方
 
 <ul class="checklist">

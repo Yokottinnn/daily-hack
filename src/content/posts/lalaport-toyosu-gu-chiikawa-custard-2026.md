@@ -138,6 +138,22 @@ event:
 <p style="margin:0">服やお菓子のほかに何か贈りたいなら、選んだ人が好きな体験を選べる<a href="https://px.a8.net/svt/ejp?a8mat=4BESU9+EV8QE2+45RE+5ZMCH" target="_blank" rel="sponsored noopener nofollow">ソウ・エクスペリエンスの体験ギフト</a>（PR）も候補になるわよ。遠くから豊洲まで来るなら、近くの宿は<a href="https://px.a8.net/svt/ejp?a8mat=4BESU9+BNQN16+AD2+3B4MFL" target="_blank" rel="sponsored noopener nofollow">エアトリの国内ホテル予約</a>（PR）で探せる。</p>
 </div>
 
+## SNS ではこう言われている
+
+- <strong>第1弾の朝</strong>：2026年11月20日の第1弾では、ホビーの情報アカウントが全国の整理券の時間をまとめ、「8:00〜 東京｜ららぽーと豊洲」と書いていた。豊洲は早い組に入っていたわけ
+- <strong>買った人の動画</strong>：GU×ちいかわの購入品を紹介する動画がいくつも上がっている
+- <strong>I LOVE CUSTARD</strong>：仙台駅の出店では「ブリュレカスタードがめちゃ美味」という声。ラゾーナ川崎プラザも2026年5月に期間限定で出店を案内していた
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">ちいかわ×GU 明日の争奪戦の備え❕ 11/20(金) 全国の販売・整理券配布時間まとめ⏰ 【7:15～】 🛒GUオンライン販売開始 【8:00～】 埼玉｜コクーンシティ 東京｜ららぽーと豊洲 【8:30～】 大阪｜あべのキューズモール 大阪｜イオンモール四條畷 【9:00～】 群馬｜高崎オーパ</p>&mdash; てんてん ｜ホビー最新情報 (@tenks_01) <a href="https://twitter.com/tenks_01/status/2123095895394943368">2026年11月19日</a></blockquote>
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">【仙台民へ】 現在仙台駅2階の伊達のこみち近くに出店している「I LOVE CUSTARD」さんのブリュレカスタードがめちゃ美味です😍 クッキーも美味しいです😋 明日（23日）までの出店です。 おすすめです👍️</p>&mdash; あるくま＠DQW (@arukuma_dqw) <a href="https://twitter.com/arukuma_dqw/status/2124480456414695874">2026年11月22日</a></blockquote>
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">5/27(水)まで1F グラン・フード SANWA前イベントスペースにて、カスタードが主役の人気スイーツ店「I LOVE CUSTARD」が期間限定でオープンします🍩この機会にぜひご賞味ください💛</p>&mdash; ラゾーナ川崎プラザ (@lalafanlazona) <a href="https://twitter.com/lalafanlazona/status/2054766150400037366">2026年5月14日</a></blockquote>
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/tfpaaYKdYds" title="【GU×ちいかわ】20000円分の購入品紹介と着用レビュー、してみました。" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
 ## 回り方
 
 <ul class="checklist">
