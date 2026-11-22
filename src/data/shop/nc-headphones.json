@@ -1,7 +1,7 @@
 {
   "id": "nc-headphones",
   "title": "ノイズキャンセリングのワイヤレスヘッドホン（重さ・電池・飛行機のケーブル）",
-  "_note": "仕様・価格は各社の公式ページだけ（2026-11-22 確認）。ソニーは製品ページ・仕様・ソニーストアの価格・WH-1000Xシリーズ10周年キャンペーン、Bose は bose.co.jp の製品ページの技術仕様と価格、Apple は AirPods Max 2 の仕様ページと 2026年3月16日のニュースリリース、ゼンハイザーは jp.sennheiser-hearing.com の製品ページ、テクニクスは製品の仕様ページとパナソニックの 2026年9月30日のプレスリリース・パナソニック公式通販の価格、Anker は ankerjapan.com の製品ページ。電池の時間は各社の試験の条件が違う公称値（ノイズキャンセリング ON）。",
+  "_note": "仕様・価格は各社の公式ページだけ（2026-11-22 確認）。ソニーは製品ページ・仕様・ソニーストアの価格・WH-1000Xシリーズ10周年キャンペーン、Bose は bose.co.jp の製品ページの技術仕様と価格、Apple は AirPods Max 2 の仕様ページと 2026年3月16日のニュースリリース、ゼンハイザーは jp.sennheiser-hearing.com の製品ページ、テクニクスは製品の仕様ページとパナソニックの 2026年9月30日のプレスリリース・パナソニック公式通販の価格、Anker は ankerjapan.com の製品ページ。電池の時間は各社の試験の条件が違う公称値（ノイズキャンセリング ON）。 Amazon の ASIN と楽天の商品ページは ops/tasks/t1071（find-product-pages）で、題名に型番があり広告枠でないもの（Bose は LE ではない通常版、MOMENTUM 5 は型番の合う唯一の出品のホワイト）。楽天の商品ページはメーカーの公式店（ゼンハイザー・パナソニック・アンカー）だけ。ソニー・Bose・Apple の楽天は検索のまま。",
   "columns": [
     {
       "key": "price",
@@ -92,7 +92,7 @@
       },
       "amazon": {
         "keyword": "ソニー WH-1000XM6",
-        "asin": null
+        "asin": "B0F77PMC1P"
       }
     },
     {
@@ -167,7 +167,7 @@
       },
       "amazon": {
         "keyword": "Bose QuietComfort Ultra Headphones 第2世代",
-        "asin": null
+        "asin": "B0FL2HYBGJ"
       }
     },
     {
@@ -240,7 +240,7 @@
       },
       "amazon": {
         "keyword": "Apple AirPods Max 2",
-        "asin": null
+        "asin": "B0GSS9PJFY"
       }
     },
     {
@@ -282,7 +282,8 @@
           "ステッカー",
           "イヤホン",
           "Earbuds"
-        ]
+        ],
+        "itemUrl": "https://item.rakuten.co.jp/sennheiser-hearing/m5aebt/"
       },
       "yahoo": {
         "keyword": "ゼンハイザー MOMENTUM 5 Wireless",
@@ -313,7 +314,7 @@
       },
       "amazon": {
         "keyword": "ゼンハイザー MOMENTUM 5 Wireless",
-        "asin": null
+        "asin": "B0H1Y91MCQ"
       }
     },
     {
@@ -355,7 +356,8 @@
           "ステッカー",
           "イヤホン",
           "Earbuds"
-        ]
+        ],
+        "itemUrl": "https://item.rakuten.co.jp/panasonic-store/eah-a1000/"
       },
       "yahoo": {
         "keyword": "テクニクス EAH-A1000",
@@ -386,7 +388,7 @@
       },
       "amazon": {
         "keyword": "テクニクス EAH-A1000",
-        "asin": null
+        "asin": "B0HLJQRQVL"
       }
     },
     {
@@ -428,7 +430,8 @@
           "ステッカー",
           "イヤホン",
           "Earbuds"
-        ]
+        ],
+        "itemUrl": "https://item.rakuten.co.jp/anker/d1406/"
       },
       "yahoo": {
         "keyword": "Anker Space 2 Pro",
@@ -459,7 +462,7 @@
       },
       "amazon": {
         "keyword": "Anker Space 2 Pro",
-        "asin": null
+        "asin": "B0HCZ6DN6M"
       }
     },
     {
@@ -503,7 +506,8 @@
           "Earbuds",
           "Pro",
           "プロ"
-        ]
+        ],
+        "itemUrl": "https://item.rakuten.co.jp/anker/d1402/"
       },
       "yahoo": {
         "keyword": "Soundcore Space 2 ヘッドホン",
@@ -536,7 +540,7 @@
       },
       "amazon": {
         "keyword": "Soundcore Space 2 ヘッドホン",
-        "asin": null
+        "asin": "B0GCCZTV95"
       }
     }
   ]
