@@ -498,15 +498,25 @@ if (snapshot.a8) { snapshot.a8 = { ...snapshot.a8, rowsDoc: 'snapshot/a8' }; del
 // 2026-11-17: snapshot/aff が日本語を \u で数えて 240KB（上限 256KB の 9 割超）になったので、案件ごとの集計（affByItem）を snapshot/affitem に分けた
 const OUT_ARTS = OUT.replace(/\.json$/, '') + '.arts.json', OUT_AFF = OUT.replace(/\.json$/, '') + '.aff.json', OUT_AFFI = OUT.replace(/\.json$/, '') + '.affitem.json';
 const artsDoc = { generated: snapshot.generatedAt, articles: snapshot.articles };
-const affDoc = { generated: snapshot.generatedAt, affInventory: snapshot.affInventory };
-const affiDoc = { generated: snapshot.generatedAt, affByItem: snapshot.affByItem };
+// 2026-11-23: 11/22〜23 に比較記事が 20 本以上増え、snapshot/aff が日本語を \u で数えて 295KB（上限 256KB 超）、affitem も 261KB になった。
+// どちらも前半・後半の 2 文書に分ける（aff + aff2 の affInventoryB、affitem + affitem2 の affByItemB）。作戦室は前半と後半をつないで描く
+// 件数ではなく大きさ（日本語を \u で数えた長さ）で半分に分ける。記事によって成果リンクの数が大きく違うため
+const half = (a) => { const arr = a || []; const sz = arr.map((x) => JSON.stringify(x).replace(/[\u0080-\uffff]/g, '______').length); const tot = sz.reduce((p, c) => p + c, 0); let acc = 0, m = 0; while (m < arr.length && acc + sz[m] <= tot / 2) acc += sz[m++]; return [arr.slice(0, m), arr.slice(m)]; };
+const [affA, affB] = half(snapshot.affInventory), [itemA, itemB] = half(snapshot.affByItem);
+const affDoc = { generated: snapshot.generatedAt, affInventory: affA };
+const aff2Doc = { generated: snapshot.generatedAt, affInventoryB: affB };
+const affiDoc = { generated: snapshot.generatedAt, affByItem: itemA };
+const affi2Doc = { generated: snapshot.generatedAt, affByItemB: itemB };
 for (const k of ['articles', 'affInventory', 'affByItem']) delete snapshot[k];
-snapshot.splitDocs = ['snapshot/a8', 'snapshot/arts', 'snapshot/aff', 'snapshot/affitem'];
+snapshot.splitDocs = ['snapshot/a8', 'snapshot/arts', 'snapshot/aff', 'snapshot/aff2', 'snapshot/affitem', 'snapshot/affitem2'];
+const OUT_AFF2 = OUT.replace(/\.json$/, '') + '.aff2.json', OUT_AFFI2 = OUT.replace(/\.json$/, '') + '.affitem2.json';
 fs.writeFileSync(OUT, JSON.stringify(snapshot, null, 1));
 fs.writeFileSync(OUT_A8, JSON.stringify(a8Doc, null, 1));
 fs.writeFileSync(OUT_ARTS, JSON.stringify(artsDoc, null, 1));
 fs.writeFileSync(OUT_AFF, JSON.stringify(affDoc, null, 1));
 fs.writeFileSync(OUT_AFFI, JSON.stringify(affiDoc, null, 1));
+fs.writeFileSync(OUT_AFF2, JSON.stringify(aff2Doc, null, 1));
+fs.writeFileSync(OUT_AFFI2, JSON.stringify(affi2Doc, null, 1));
 // 2026-11-19: 全体像の「前週・前月との差」用の日ごとの記録（db の snapshot/hist）。前日までの記録を --hist で受け取り、今日の 1 行を足す
 const OUT_HIST = OUT.replace(/\.json$/, '') + '.hist.json';
 if (args.hist) {
@@ -516,6 +526,6 @@ if (args.hist) {
   JSON.parse(fs.readFileSync(OUT_HIST, 'utf8'));
   console.log(`hist: ${OUT_HIST} days=${Object.keys(hist.days).length}`);
 }
-for (const f of [OUT, OUT_A8, OUT_ARTS, OUT_AFF, OUT_AFFI]) JSON.parse(fs.readFileSync(f, 'utf8')); // 書いたものを読み直す（最上位ルール 13）
-for (const [f, lim] of [[OUT, 262144], [OUT_A8, 262144], [OUT_ARTS, 262144], [OUT_AFF, 262144], [OUT_AFFI, 262144]]) { const s = JSON.stringify(JSON.parse(fs.readFileSync(f, 'utf8'))); const b = Buffer.byteLength(s), e = s.replace(/[\u0080-\uffff]/g, '______').length; if (b > lim * 0.9 || e > lim * 0.9) console.error(`警告: ${f} が ${b} バイト（日本語を \\u で数えると ${e}・上限 ${lim} の 9 割を超えた）`); }
-console.log(`snapshot: ${OUT} + ${OUT_A8} + ${OUT_ARTS} + ${OUT_AFF} + ${OUT_AFFI}  gsc=${!!gsc}(${gscFile}) pv=${lastDay} a8=${a8 ? a8Rows.length : 0} findings=${findings.length}`);
+for (const f of [OUT, OUT_A8, OUT_ARTS, OUT_AFF, OUT_AFFI, OUT_AFF2, OUT_AFFI2]) JSON.parse(fs.readFileSync(f, 'utf8')); // 書いたものを読み直す（最上位ルール 13）
+for (const [f, lim] of [[OUT, 262144], [OUT_A8, 262144], [OUT_ARTS, 262144], [OUT_AFF, 262144], [OUT_AFFI, 262144], [OUT_AFF2, 262144], [OUT_AFFI2, 262144]]) { const s = JSON.stringify(JSON.parse(fs.readFileSync(f, 'utf8'))); const b = Buffer.byteLength(s), e = s.replace(/[\u0080-\uffff]/g, '______').length; if (b > lim * 0.9 || e > lim * 0.9) console.error(`警告: ${f} が ${b} バイト（日本語を \\u で数えると ${e}・上限 ${lim} の 9 割を超えた）`); }
+console.log(`snapshot: ${OUT} + ${OUT_A8} + ${OUT_ARTS} + ${OUT_AFF} + ${OUT_AFF2} + ${OUT_AFFI} + ${OUT_AFFI2}  gsc=${!!gsc}(${gscFile}) pv=${lastDay} a8=${a8 ? a8Rows.length : 0} findings=${findings.length}`);
