@@ -1,0 +1,66 @@
+{
+  "zojirushi.png": {
+    "brand": "象印",
+    "title": "File:Zojirushi Logo.svg",
+    "page": "https://en.wikipedia.org/wiki/File:Zojirushi_Logo.svg",
+    "src": "https://thumb.wikimedia.org/wikipedia/en/thumb/5/5f/Zojirushi_Logo.svg/960px-Zojirushi_Logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "orig": "https://upload.wikimedia.org/wikipedia/en/5/5f/Zojirushi_Logo.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "Fair use",
+    "fetched": "2026-10-18",
+    "task": "ops/tasks/x317-product-brand-logos-wiki.sh",
+    "copied_from": "public/images/futon-dryer-comparison-2026/logos/zojirushi.png",
+    "copied": "2026-11-22"
+  },
+  "hitachi.png": {
+    "brand": "日立",
+    "title": "File:Hitachi 2025 logo.svg",
+    "page": "https://commons.wikimedia.org/wiki/File:Hitachi_2025_logo.svg",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Hitachi_2025_logo.svg/960px-Hitachi_2025_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "orig": "https://upload.wikimedia.org/wikipedia/commons/8/85/Hitachi_2025_logo.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "Public domain",
+    "fetched": "2026-11-22",
+    "task": "ops/tasks/t832-futon-dryer-logos.sh",
+    "copied_from": "public/images/futon-dryer-comparison-2026/logos/hitachi.png",
+    "copied": "2026-11-22"
+  },
+  "panasonic.png": {
+    "brand": "パナソニック",
+    "title": "File:Panasonic Group logo.svg",
+    "page": "https://commons.wikimedia.org/wiki/File:Panasonic_Group_logo.svg",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Panasonic_Group_logo.svg/960px-Panasonic_Group_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "orig": "https://upload.wikimedia.org/wikipedia/commons/5/54/Panasonic_Group_logo.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "Public domain",
+    "fetched": "2026-10-18",
+    "task": "ops/tasks/x317-product-brand-logos-wiki.sh",
+    "copied_from": "public/images/electric-pressure-cooker-comparison-2026/logos/panasonic.png",
+    "copied": "2026-11-22"
+  },
+  "tiger.png": {
+    "brand": "タイガー魔法瓶",
+    "src": "https://www.tiger-corporation.com/wp-content/themes/tiger-corporation/assets/images/tiger-logo.svg",
+    "page": "https://www.tiger-corporation.com/ja/jpn/",
+    "lic": "商標（識別目的）",
+    "fetched": "2026-11-20",
+    "note": "公式サイトのヘッダーのロゴ（白抜き版。SVG を Chromium で PNG にした。表示は on-dark の枠）",
+    "copied_from": "public/images/rakuten-blackfriday-vs-supersale-dec-2026/logos/tiger.png",
+    "copied": "2026-11-22"
+  },
+  "toshiba.png": {
+    "brand": "東芝",
+    "title": "File:Toshiba logo.svg",
+    "page": "https://commons.wikimedia.org/wiki/File:Toshiba_logo.svg",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Toshiba_logo.svg/960px-Toshiba_logo.svg.png",
+    "license": "Public domain",
+    "fetched": "2026-11-22",
+    "note": "MediaWiki API で実体 URL とライセンスを取得（クラウドから）"
+  },
+  "mitsubishi.png": {
+    "brand": "三菱電機",
+    "title": "File:Mitsubishi Electric logo.svg",
+    "page": "https://commons.wikimedia.org/wiki/File:Mitsubishi_Electric_logo.svg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Mitsubishi_Electric_logo.svg/960px-Mitsubishi_Electric_logo.svg.png",
+    "license": "Public domain",
+    "fetched": "2026-11-22",
+    "note": "MediaWiki API で実体 URL とライセンスを取得（クラウドから）"
+  }
+}
