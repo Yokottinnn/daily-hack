@@ -66,6 +66,7 @@
 | --- | --- | --- |
 | `furusato-portal-comparison-2026` | 3 |  |
 | `furusato-tax-2026-reform-guide` | 1 |  |
+| `futon-dryer-comparison-2026` | 3 店ボタン（`src/data/shop/futon-dryer.json`） | 3 店ボタン（2026-11-22） |
 | `furusato-tax-beginner-guide-2026` | 1 |  |
 | `furusato-tax-food-picks-2026` | 16 | 2026-11-08 返礼品の item.rakuten.co.jp 15 本を包んだ |
 | `rakuten-blackfriday-vs-supersale-dec-2026` | 9 | 2026-11-20 ブラックフライデー会場・スーパーSALE・タイガー JPL-H10NK・Anker Solix C1000 Gen 2 |

@@ -1,0 +1,102 @@
+{
+ "zojirushi-rf-fb20.jpg": {
+  "src": "https://www.zojirushi.co.jp/syohin/life/coverlet-dryer/rf-fb/img/pc/step_02.jpg",
+  "page": "https://www.zojirushi.co.jp/syohin/life/coverlet-dryer/rf-fb/",
+  "credit": "象印マホービン 公式サイト",
+  "lic": "引用（出典表記）",
+  "fetched": "2026-11-22"
+ },
+ "zojirushi-rf-fb20-b.jpg": {
+  "src": "https://www.zojirushi.co.jp/syohin/life/coverlet-dryer/rf-fb/img/img-compact.jpg",
+  "page": "https://www.zojirushi.co.jp/syohin/life/coverlet-dryer/rf-fb/",
+  "credit": "象印マホービン 公式サイト",
+  "lic": "引用（出典表記）",
+  "fetched": "2026-11-22"
+ },
+ "zojirushi-rf-ua10.jpg": {
+  "src": "https://www.zojirushi.co.jp/syohin/life/coverlet-dryer/rf-ua/img/pc/img-product.png",
+  "page": "https://www.zojirushi.co.jp/syohin/life/coverlet-dryer/rf-ua/",
+  "credit": "象印マホービン 公式サイト",
+  "lic": "引用（出典表記）",
+  "fetched": "2026-11-22"
+ },
+ "zojirushi-rf-ua10-b.jpg": {
+  "src": "https://www.zojirushi.co.jp/syohin/life/coverlet-dryer/rf-ua/img/pc/step_02.jpg",
+  "page": "https://www.zojirushi.co.jp/syohin/life/coverlet-dryer/rf-ua/",
+  "credit": "象印マホービン 公式サイト",
+  "lic": "引用（出典表記）",
+  "fetched": "2026-11-22"
+ },
+ "hitachi-hfk-vs6000.jpg": {
+  "src": "https://kadenfan.hitachi.co.jp/futon/hfk-vs6000/img/img_product.jpg",
+  "page": "https://kadenfan.hitachi.co.jp/futon/hfk-vs6000/",
+  "credit": "日立グローバルライフソリューションズ 公式サイト",
+  "lic": "引用（出典表記）",
+  "fetched": "2026-11-22"
+ },
+ "hitachi-hfk-vs6000-c.jpg": {
+  "src": "https://kadenfan.hitachi.co.jp/futon/hfk-vs6000/img/img_item02.jpg",
+  "page": "https://kadenfan.hitachi.co.jp/futon/hfk-vs6000/",
+  "credit": "日立グローバルライフソリューションズ 公式サイト",
+  "lic": "引用（出典表記）",
+  "fetched": "2026-11-22"
+ },
+ "hitachi-hfk-cv1b.jpg": {
+  "src": "https://kadenfan.hitachi.co.jp/futon/hfk-cv1b/img/img_item03.jpg",
+  "page": "https://kadenfan.hitachi.co.jp/futon/hfk-cv1b/",
+  "credit": "日立グローバルライフソリューションズ 公式サイト",
+  "lic": "引用（出典表記）",
+  "fetched": "2026-11-22"
+ },
+ "hitachi-hfk-cv1b-b.jpg": {
+  "src": "https://kadenfan.hitachi.co.jp/futon/hfk-cv1b/img/img_product01.jpg",
+  "page": "https://kadenfan.hitachi.co.jp/futon/hfk-cv1b/",
+  "credit": "日立グローバルライフソリューションズ 公式サイト",
+  "lic": "引用（出典表記）",
+  "fetched": "2026-11-22"
+ },
+ "panasonic-fd-f06x2.jpg": {
+  "src": "https://panasonic.jp/content/dam/panasonic/jp/ja/futon/products/FD-F06X2/img/bed-example.jpg",
+  "page": "https://panasonic.jp/futon/products/FD-F06X2.html",
+  "credit": "パナソニック 公式サイト",
+  "lic": "引用（出典表記）",
+  "fetched": "2026-11-22"
+ },
+ "panasonic-fd-f06x2-c.jpg": {
+  "src": "https://panasonic.jp/content/dam/panasonic/jp/ja/futon/products/FD-F06X2/img/PC-heat-img.jpg",
+  "page": "https://panasonic.jp/futon/products/FD-F06X2.html",
+  "credit": "パナソニック 公式サイト",
+  "lic": "引用（出典表記）",
+  "fetched": "2026-11-22"
+ },
+ "sharp-ud-df1.jpg": {
+  "src": "https://jp.sharp/kansouki/products/uddf1/images/gallery-8.jpg",
+  "page": "https://jp.sharp/kansouki/products/uddf1/",
+  "credit": "シャープ 公式サイト",
+  "lic": "引用（出典表記）",
+  "fetched": "2026-11-22"
+ },
+ "sharp-ud-df1-b.jpg": {
+  "src": "https://jp.sharp/kansouki/products/uddf1/images/gallery-9.jpg",
+  "page": "https://jp.sharp/kansouki/products/uddf1/",
+  "credit": "シャープ 公式サイト",
+  "lic": "引用（出典表記）",
+  "fetched": "2026-11-22"
+ },
+ "iris-fk-w3.jpg": {
+  "src": "https://www.irisohyama.co.jp/kararie/futon/fk-w3-product/images/mode-img06.jpg",
+  "page": "https://www.irisohyama.co.jp/kararie/futon/fk-w3-product/",
+  "credit": "アイリスオーヤマ 公式サイト",
+  "lic": "引用（出典表記）",
+  "fetched": "2026-11-22",
+  "task": "ops/tasks/t830-futon-dryer-iris-official.sh"
+ },
+ "iris-fk-w3-b.jpg": {
+  "src": "https://www.irisohyama.co.jp/kararie/futon/fk-w3-product/images/function-img01.jpg",
+  "page": "https://www.irisohyama.co.jp/kararie/futon/fk-w3-product/",
+  "credit": "アイリスオーヤマ 公式サイト",
+  "lic": "引用（出典表記）",
+  "fetched": "2026-11-22",
+  "task": "ops/tasks/t830-futon-dryer-iris-official.sh"
+ }
+}
