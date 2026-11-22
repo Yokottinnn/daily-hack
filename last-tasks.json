@@ -1,5 +1,3 @@
 [
-      {"task": "t814-verify-rakuten-cordless-stick-cleaner.sh", "rc": 0, "out": "- 商品: 検索結果 48 件・型番「アイリスオーヤマ SCD-186P」の表示: あり - 題名: 【楽天市場】アイリスオーヤマ SCD-186Pの通販 - 写真: Mac の手元のみ（private-shots/shop-verify/cordless-stick-cleaner-comparison-2026/v08-rakuten.jpg・公開しない） "},
-      {"task": "t815-verify-yahoo-cordless-stick-cleaner.sh", "rc": 0, "out": "- 商品: 検索結果 8 件・型番「」の表示: — - 題名: アイリスオーヤマ SCD-186Pのおすすめ人気商品一覧 通販 - Yahoo!ショッピング - 写真: Mac の手元のみ（private-shots/shop-verify/cordless-stick-cleaner-comparison-2026/v16-yahoo.jpg・公開しない）"},
-      {"task": "t816-verify-amazon-cordless-stick-cleaner.sh", "rc": 0, "out": "- 商品: 検索結果 7 件・型番「アイリスオーヤマ SCD-186P」の表示: あり・カートに入れるボタンあり - 題名: Amazon.co.jp : アイリスオーヤマ SCD-186P - 写真: Mac の手元のみ（private-shots/shop-verify/cordless-stick-cleaner-comparison-2026/v08-amazon."}
+      {"task": "x539-read-camp-and-test-10-images.sh", "rc": 0, "out": "status=awaiting_approval x_tweet_id=なし posted_at=なし scheduled_at=2026-11-22T03:13:00.000Z 載っていない（走り終えて自分を外したか、最初から載っていない）"}
   ]
