@@ -92,6 +92,7 @@
 | `massager-comparison-2026` | 3 店ボタン（`src/data/shop/neck-foot-massager.json`） | 2026-11-22 追加 |
 | `electric-pressure-cooker-comparison-2026` | 3 店ボタン（`src/data/shop/denki-atsuryokunabe.json`） | 同上（2026-11-22）。電気圧力鍋・自動調理鍋 8 台 |
 | `oven-toaster-comparison-2026` | 3 店ボタン（`src/data/shop/oven-toaster.json`） | 2026-11-22 追加。オーブントースター 8 機種 |
+| `rice-cooker-comparison-2026` | 3 店ボタン（`src/data/shop/suihanki.json`） | 同上（2026-11-22）。炊飯器 5.5合 8 台 |
 
 ## A8 のリンクを入れた湾岸ライフの記事（2026-10-25）
 

@@ -1,7 +1,7 @@
 {
   "id": "suihanki",
   "title": "炊飯器 5.5合（5万と15万で何が違うか・圧力か土鍋か炭釜か）",
-  "_note": "仕様は各社の公式の製品ページ・仕様表（2026-11-22 にクラウドから読んだ）の記載だけ。価格の列は各社の公式通販の表示価格（税込・2026-11-22 時点・セールで変わる）。メーカーはどれもオープン価格。三菱電機は公式通販が無いので「オープン価格」。保温は各社が書く最長時間（メニューで違う）。",
+  "_note": "仕様は各社の公式の製品ページ・仕様表（2026-11-22 にクラウドから読んだ）の記載だけ。「公式通販」の列は各社の公式通販の表示価格（税込・2026-11-22 時点・セールで変わる）。メーカーはどれもオープン価格。三菱電機は公式通販が無いので「オープン価格」。保温は各社が書く最長時間（メニューで違う）。",
   "columns": [
     {
       "key": "way",
@@ -13,11 +13,11 @@
     },
     {
       "key": "warm",
-      "label": "最長の保温"
+      "label": "保温"
     },
     {
       "key": "price",
-      "label": "公式通販の価格"
+      "label": "公式通販"
     }
   ],
   "pricesCheckedAt": null,
@@ -25,15 +25,15 @@
     {
       "id": "zojirushi-nx-ab10",
       "brand": "象印",
-      "name": "圧力IH炊飯ジャー 炎舞炊き NX-AB10",
-      "badge": "いちばん高い一台",
+      "name": "炎舞炊き NX-AB10",
+      "badge": "最上位の鉄釜",
       "summary": "6つの底IHで激しく対流させる炎舞炊きの最上位。鉄の豪炎かまど釜・内釜5年保証・40時間保温。2026年6月21日発売。",
       "recommended": false,
       "specs": {
-        "way": "圧力IH（1.0〜1.3気圧）",
-        "kama": "鉄の豪炎かまど釜（釜厚2.2mm）",
+        "way": "圧力IH 1.3気圧",
+        "kama": "鉄 2.2mm",
         "warm": "40時間",
-        "price": "148,500円（象印ダイレクト）"
+        "price": "148,500円"
       },
       "source": "https://www.zojirushi.co.jp/syohin/rice/ricecooker/nx-ab/spec.html",
       "rakuten": {
@@ -94,15 +94,15 @@
     {
       "id": "zojirushi-nw-yd10",
       "brand": "象印",
-      "name": "圧力IH炊飯ジャー NW-YD10",
-      "badge": "5万円台の圧力IH",
+      "name": "圧力IH NW-YD10",
+      "badge": "5万円台",
       "summary": "大火力で炊き続ける豪熱大火力の圧力IH。釜厚1.7mm・30時間保温・内釜3年保証。2026年7月発売。",
       "recommended": true,
       "specs": {
-        "way": "圧力IH（炊き分け圧力3通り）",
-        "kama": "黒まる厚釜（釜厚1.7mm）",
+        "way": "圧力IH",
+        "kama": "金属 1.7mm",
         "warm": "30時間",
-        "price": "51,480円（象印ダイレクト）"
+        "price": "51,480円"
       },
       "source": "https://www.zojirushi.co.jp/syohin/rice/ricecooker/nw-yd/",
       "rakuten": {
@@ -163,15 +163,15 @@
     {
       "id": "tiger-jrt-a100",
       "brand": "タイガー魔法瓶",
-      "name": "土鍋圧力IHジャー炊飯器 土鍋ご泡火炊き JRT-A100",
+      "name": "土鍋ご泡火炊き JRT-A100",
       "badge": "本物の土鍋",
       "summary": "内なべが本物の土鍋（なべ厚最大約5mm）の最上位。約300度のWレイヤーIH・割れと内面コーティングの5年保証。2026年6月21日発売。",
       "recommended": false,
       "specs": {
-        "way": "土鍋圧力IH（多段階圧力）",
-        "kama": "土鍋釜（なべ厚最大約5mm）",
+        "way": "土鍋圧力IH",
+        "kama": "土鍋 最大5mm",
         "warm": "24時間",
-        "price": "148,500円（タイガーオンラインストア）"
+        "price": "148,500円"
       },
       "source": "https://www.tiger-corporation.com/ja/jpn/product/rice-cooker/jrt-a/specs/",
       "rakuten": {
@@ -232,15 +232,15 @@
     {
       "id": "tiger-jpv-l100",
       "brand": "タイガー魔法瓶",
-      "name": "圧力IHジャー炊飯器 炊きたて JPV-L100",
-      "badge": "土鍋コートの圧力IH",
+      "name": "炊きたて JPV-L100",
+      "badge": "土鍋コート",
       "summary": "遠赤5層土鍋蓄熱コート釜（なべ厚約2mm）の圧力IH。24時間保温・内なべ内面コーティング3年保証。",
       "recommended": false,
       "specs": {
         "way": "圧力IH",
-        "kama": "遠赤5層土鍋蓄熱コート釜（約2mm）",
+        "kama": "土鍋コート 2mm",
         "warm": "24時間",
-        "price": "57,800円（タイガーオンラインストア）"
+        "price": "57,800円"
       },
       "source": "https://www.tiger-corporation.com/ja/jpn/product/rice-cooker/jpv-l/",
       "rakuten": {
@@ -301,15 +301,15 @@
     {
       "id": "panasonic-sr-x910e",
       "brand": "パナソニック",
-      "name": "可変圧力IHジャー炊飯器 ビストロ SR-X910E",
-      "badge": "お米に合わせて炊き方を変える",
+      "name": "ビストロ SR-X910E",
+      "badge": "AI炊き分け",
       "summary": "4つのセンサーで見極めるビストロ匠技AI（約9,600通り）。73銘柄の炊き分け・30時間保温・内釜コート5年保証。2026年9月発売。",
       "recommended": false,
       "specs": {
         "way": "可変圧力IH",
-        "kama": "ダイヤモンド竈釜（釜厚約2.2mm）",
+        "kama": "竈釜 2.2mm",
         "warm": "30時間",
-        "price": "99,000円（パナソニック公式通販）"
+        "price": "99,000円"
       },
       "source": "https://panasonic.jp/suihan/products/SR-X910E/spec.html",
       "rakuten": {
@@ -370,15 +370,15 @@
     {
       "id": "hitachi-rz-w100jm",
       "brand": "日立",
-      "name": "圧力&スチームIHジャー炊飯器 ふっくら御膳 RZ-W100JM",
-      "badge": "圧力とスチーム",
+      "name": "ふっくら御膳 RZ-W100JM",
+      "badge": "1.5気圧",
       "summary": "最高1.5気圧とスチームで蒸らす。大火力 沸騰鉄釜・スチーム保温40時間・蒸気カット・カーボンフッ素6年保証。",
       "recommended": false,
       "specs": {
-        "way": "圧力＆スチームIH（最高1.5気圧）",
-        "kama": "大火力 沸騰鉄釜",
+        "way": "圧力＋スチーム 1.5気圧",
+        "kama": "鉄釜",
         "warm": "40時間",
-        "price": "99,800円（日立の家電品オンラインストア）"
+        "price": "99,800円"
       },
       "source": "https://kadenfan.hitachi.co.jp/kitchen/lineup/rz-w100jm/spec.html",
       "rakuten": {
@@ -439,15 +439,15 @@
     {
       "id": "toshiba-rc-10zwa",
       "brand": "東芝",
-      "name": "真空圧力IHジャー炊飯器 炎匠炊き RC-10ZWA",
-      "badge": "真空で吸水させる",
+      "name": "炎匠炊き RC-10ZWA",
+      "badge": "真空で吸水",
       "summary": "真空ポンプで芯まで吸水させ、1.2気圧で炊く。備長炭かまど丸釜・真空保温40時間・71銘柄。2026年6月発売。",
       "recommended": false,
       "specs": {
-        "way": "真空圧力IH（1.2気圧）",
+        "way": "真空圧力IH 1.2気圧",
         "kama": "備長炭かまど丸釜",
         "warm": "40時間",
-        "price": "147,400円（東芝公式オンラインショップ）"
+        "price": "147,400円"
       },
       "source": "https://www.toshiba-lifestyle.com/jp/rice-cookers/rc-10zwa/spec",
       "rakuten": {
@@ -508,15 +508,15 @@
     {
       "id": "mitsubishi-nj-bw10j",
       "brand": "三菱電機",
-      "name": "IHジャー炊飯器 本炭釜 紬 NJ-BW10J",
-      "badge": "あえて圧力なし",
+      "name": "本炭釜 紬 NJ-BW10J",
+      "badge": "圧力なし",
       "summary": "「圧力をかけない」炊き方の本炭釜。粒立ち重視・50銘柄の芳潤炊き・内釜コート3年保証。2026年モデル。",
       "recommended": false,
       "specs": {
         "way": "IH（圧力なし）",
-        "kama": "本炭釜（純度99.9%の炭素材）",
-        "warm": "選べる保温",
-        "price": "オープン価格（公式通販なし）"
+        "kama": "本炭釜",
+        "warm": "選べる",
+        "price": "オープン価格"
       },
       "source": "https://www.mitsubishielectric.co.jp/home/suihanki/product/honsumi/nj-bw10j/spec/index.html",
       "rakuten": {
