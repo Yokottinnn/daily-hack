@@ -28,7 +28,7 @@
       "source": "https://www.refa.net/item/refa_straight_iron_pro/",
       "rakuten": { "keyword": "リファ ストレートアイロン プロ", "must": ["ストレートアイロン", "プロ"], "exclude": ["中古", "◆", "並行輸入", "プラス", "+", "パワー", "ホルダー", "ケース", "カバー", "スタンド", "ポーチ"] },
       "yahoo": { "keyword": "リファ ストレートアイロン プロ", "must": ["ストレートアイロン", "プロ"], "exclude": ["中古", "◆", "並行輸入", "プラス", "+", "パワー", "ホルダー", "ケース", "カバー", "スタンド", "ポーチ"] },
-      "amazon": { "keyword": "ReFa STRAIGHT IRON PRO リファ ストレートアイロン プロ", "asin": null }
+      "amazon": { "keyword": "ReFa STRAIGHT IRON PRO リファ ストレートアイロン プロ", "asin": "B0FQ4TTDYZ" }
     },
     {
       "id": "refa-curl-iron-pro",
@@ -47,7 +47,7 @@
       "source": "https://www.refa.net/item/refa_curl_iron_pro/",
       "rakuten": { "keyword": "リファ カールアイロン プロ 32mm", "must": ["カールアイロン", "プロ"], "exclude": ["中古", "◆", "並行輸入", "プラス", "+", "ホルダー", "ケース", "カバー", "スタンド", "ポーチ"] },
       "yahoo": { "keyword": "リファ カールアイロン プロ 32mm", "must": ["カールアイロン", "プロ"], "exclude": ["中古", "◆", "並行輸入", "プラス", "+", "ホルダー", "ケース", "カバー", "スタンド", "ポーチ"] },
-      "amazon": { "keyword": "ReFa CURL IRON PRO リファ カールアイロン プロ 32mm", "asin": null }
+      "amazon": { "keyword": "ReFa CURL IRON PRO リファ カールアイロン プロ 32mm", "asin": "B0CP6XTFL5" }
     },
     {
       "id": "refa-finger-iron-st",
@@ -66,7 +66,7 @@
       "source": "https://www.refa.net/item/refa_finger_iron_st/",
       "rakuten": { "keyword": "リファ フィンガーアイロン ST", "must": ["フィンガーアイロン"], "exclude": ["中古", "◆", "並行輸入", "ST6", "ST 6", "ホルダー", "ケース", "カバー", "スタンド", "ポーチ"] },
       "yahoo": { "keyword": "リファ フィンガーアイロン ST", "must": ["フィンガーアイロン"], "exclude": ["中古", "◆", "並行輸入", "ST6", "ST 6", "ホルダー", "ケース", "カバー", "スタンド", "ポーチ"] },
-      "amazon": { "keyword": "ReFa FINGER IRON ST リファ フィンガーアイロン", "asin": null }
+      "amazon": { "keyword": "ReFa FINGER IRON ST リファ フィンガーアイロン", "asin": "B0FK4VXXHS" }
     },
     {
       "id": "panasonic-eh-hn51",
@@ -85,7 +85,7 @@
       "source": "https://panasonic.jp/hair/products/EH-HN51/spec.html",
       "rakuten": { "keyword": "パナソニック ナノケア ストレートアイロン EH-HN51", "must": ["EH-HN51"], "exclude": ["中古", "◆", "並行輸入", "キャップ", "カバー", "交換"] },
       "yahoo": { "keyword": "パナソニック ナノケア ストレートアイロン EH-HN51", "must": ["EH-HN51"], "exclude": ["中古", "◆", "並行輸入", "キャップ", "カバー", "交換"] },
-      "amazon": { "keyword": "パナソニック ナノケア ストレートアイロン EH-HN51", "asin": null }
+      "amazon": { "keyword": "パナソニック ナノケア ストレートアイロン EH-HN51", "asin": "B0HPFD16DB" }
     },
     {
       "id": "panasonic-eh-hn30",
@@ -104,7 +104,7 @@
       "source": "https://panasonic.jp/hair/products/EH-HN30/spec.html",
       "rakuten": { "keyword": "パナソニック ナノケア ストレートアイロン EH-HN30", "must": ["EH-HN30"], "exclude": ["中古", "◆", "並行輸入", "キャップ", "カバー", "交換"] },
       "yahoo": { "keyword": "パナソニック ナノケア ストレートアイロン EH-HN30", "must": ["EH-HN30"], "exclude": ["中古", "◆", "並行輸入", "キャップ", "カバー", "交換"] },
-      "amazon": { "keyword": "パナソニック ナノケア ストレートアイロン EH-HN30", "asin": null }
+      "amazon": { "keyword": "パナソニック ナノケア ストレートアイロン EH-HN30", "asin": "B0HLD9HMT3" }
     },
     {
       "id": "dyson-airstrait",
@@ -123,7 +123,7 @@
       "source": "https://www.dyson.co.jp/hair-care/wet-to-dry-straighteners/airstrait/ceramic-pink",
       "rakuten": { "keyword": "ダイソン Airstrait ストレイトナー HT01", "must": ["HT01"], "exclude": ["中古", "◆", "並行輸入", "スタンド", "ブラシ", "クリップ", "コーム", "フィルター", "交換", "ホルダー", "カバー"] },
       "yahoo": { "keyword": "ダイソン Airstrait ストレイトナー HT01", "must": ["HT01"], "exclude": ["中古", "◆", "並行輸入", "スタンド", "ブラシ", "クリップ", "コーム", "フィルター", "交換", "ホルダー", "カバー"] },
-      "amazon": { "keyword": "Dyson Airstrait ストレイトナー HT01", "asin": null }
+      "amazon": { "keyword": "Dyson Airstrait ストレイトナー HT01", "asin": "B0D9K867MW" }
     },
     {
       "id": "salonia-straight",
@@ -142,7 +142,7 @@
       "source": "https://salonia.jp/product/hair/iron/straight/",
       "rakuten": { "keyword": "SALONIA サロニア ストレートヘアアイロン 24mm", "must": ["サロニア", "ストレート"], "exclude": ["中古", "◆", "並行輸入", "コードレス", "2WAY", "カール", "ミニ", "スムースシャイン", "グロッシー", "ケース", "ポーチ", "カバー"] },
       "yahoo": { "keyword": "SALONIA サロニア ストレートヘアアイロン 24mm", "must": ["サロニア", "ストレート"], "exclude": ["中古", "◆", "並行輸入", "コードレス", "2WAY", "カール", "ミニ", "スムースシャイン", "グロッシー", "ケース", "ポーチ", "カバー"] },
-      "amazon": { "keyword": "SALONIA サロニア ストレートヘアアイロン 24mm", "asin": null }
+      "amazon": { "keyword": "SALONIA サロニア ストレートヘアアイロン 24mm", "asin": "B0CPYKGKBH" }
     },
     {
       "id": "salonia-cordless",
@@ -161,7 +161,7 @@
       "source": "https://salonia.jp/product/hair/iron/cordless/",
       "rakuten": { "keyword": "SALONIA サロニア コードレス ストレートヘアアイロン", "must": ["サロニア", "コードレス"], "exclude": ["中古", "◆", "並行輸入", "カール", "ドライヤー", "ブラシ", "ケース", "ポーチ", "カバー"] },
       "yahoo": { "keyword": "SALONIA サロニア コードレス ストレートヘアアイロン", "must": ["サロニア", "コードレス"], "exclude": ["中古", "◆", "並行輸入", "カール", "ドライヤー", "ブラシ", "ケース", "ポーチ", "カバー"] },
-      "amazon": { "keyword": "SALONIA サロニア コードレス ストレートヘアアイロン", "asin": null }
+      "amazon": { "keyword": "SALONIA サロニア コードレス ストレートヘアアイロン", "asin": "B0HBPY8T53" }
     }
   ]
 }
