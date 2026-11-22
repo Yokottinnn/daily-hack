@@ -1,3 +1,8 @@
 [
-      {"task": "x542-camp-delete-dup-and-reply.sh", "rc": 0, "out": "消えたか: true ／ 画面の先頭: キーボードショートカットを表示するには、はてなマークを押してください。 キーボードショートカットを表示 ホーム 話題を検索 通知 チャット 通話 Grok プレミアム 履歴 記事 プロフィール �"}
+      {"task": "t880-amazon-asin-1.sh", "rc": 0, "out": "  - B0HD133FKT｜￥127,091｜ECOVACS (エコバックス)DEEBOT T90 MAX OMNI 吸引力30,000Pa ロボット掃除機 水拭き両用 ローラーモップ ホワイト   - B0GKMRR3KD｜￥136,182｜ECOVACS(エコバックス) DEEBOT T90 OMNI ローラー式強力モップ ロボット掃除機 30,0"},
+      {"task": "t881-amazon-asin-2.sh", "rc": 0, "out": "## humidifying-air-purifier~sharp-ki-wx75@10（must: KI-WX75） - amazon: 検索 14 件・型番あり 0 件  ## humidifying-air-purifier~sharp-ki-wx70@11（must: KI-WX70） - amazon: 検索 15 件・型番あり 0 件"},
+      {"task": "t882-amazon-asin-3.sh", "rc": 0, "out": "## futon-dryer~sharp-ud-df1@11（must: UD-DF1） - amazon: 検索 33 件・型番あり 1 件   - B08L5RHRCW｜￥11,800｜シャープ ふとん乾燥機 衣類乾燥機 プラズマクラスター 7000 スタンダード 消臭 空気浄化 UD-DF1-W   - 開いた: 商品概要には、主要な商"},
+      {"task": "t883-amazon-asin-4.sh", "rc": 0, "out": "- amazon: 検索 22 件・型番あり 2 件   - B097K8V5TK｜￥4,073｜Oral-B ブラウン オーラルB 替えブラシ マルチアクションブラシ 交換カラーシグナル付き フラストレーションフリーパッケージ EB50 (8本)   - B098QCVPCC｜￥5,600｜ブラウン オ�"},
+      {"task": "t884-amazon-asin-5.sh", "rc": 0, "out": "- amazon: 検索 6 件・型番あり 2 件   - B0HNW8JZL7｜￥63,500｜【Amazon.co.jp限定】 Shark シャーク 掃除機 コードレス 軽量 スティッククリーナー LC050JBKNC   - B0HNW25ZLQ｜￥63,500｜【Amazon.co.jp限定】 Shark シャーク 掃除機 コードレス 軽量 �"},
+      {"task": "t885-amazon-asin-6.sh", "rc": 0, "out": "- amazon: 検索 5 件・型番あり 2 件   - B0HM23PG4M｜￥12,708｜広告枠｜アイリスオーヤマ 充電式 2WAY SCD-186P-W ホワイト 本体0.7kg LR41H 1個セット   - B0HM23PG4M｜￥12,708｜アイリスオーヤマ 充電式 2WAY SCD-186P-W ホワイト 本体0.7kg LR41H 1個セ�"}
   ]
