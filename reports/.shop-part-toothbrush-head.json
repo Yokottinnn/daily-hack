@@ -1,0 +1,90 @@
+{
+  "id": "toothbrush-head",
+  "title": "電動歯ブラシの替えブラシ（3店の値段と、公式の値段）",
+  "_note": "入数・対応・公式の値段は各メーカーの公式ページ・公式ストアで 2026-11-22 に確かめたもの。フィリップスは公式の販売価格の記載が無い（オープン価格）。3店の値段は楽天市場・Yahoo!ショッピングの API が毎日書く。",
+  "columns": [
+    { "key": "count", "label": "入数" },
+    { "key": "fits", "label": "使える本体" },
+    { "key": "official", "label": "公式の値段（1本あたり）" }
+  ],
+  "pricesCheckedAt": null,
+  "items": [
+    {
+      "id": "philips-c2-hx9024",
+      "brand": "フィリップス",
+      "name": "ソニッケアー クリーンプラス ブラシヘッド HX9024/14",
+      "badge": "ソニッケアーのほぼ全機種に付く",
+      "specs": { "count": "4本", "fits": "ソニッケアー（キッズ・eシリーズ・Philips One を除く）", "official": "記載なし（オープン価格）" },
+      "source": "https://www.philips.co.jp/c-p/HX9024_14/c2-plaque-control-4-pack-brush-heads",
+      "rakuten": { "keyword": "ソニッケアー クリーンプラス HX9024/14", "must": ["HX9024"], "exclude": ["互換", "対応"] },
+      "yahoo": { "keyword": "ソニッケアー クリーンプラス HX9024/14", "must": ["HX9024"], "exclude": ["互換", "対応"] },
+      "amazon": { "keyword": "フィリップス ソニッケアー クリーンプラス HX9024/14", "asin": "B0GBW879Q8" }
+    },
+    {
+      "id": "philips-g3-hx9054",
+      "brand": "フィリップス",
+      "name": "ソニッケアー プレミアムガムケア ブラシヘッド HX9054/91",
+      "badge": "7100の付属と同じ",
+      "specs": { "count": "4本", "fits": "ソニッケアー（はめ込み式）", "official": "記載なし（オープン価格）" },
+      "source": "https://www.philips.co.jp/c-p/HX9054_91/g3-premium-gum-4-pack-brush-heads",
+      "rakuten": { "keyword": "ソニッケアー プレミアムガムケア HX9054", "must": ["HX9054"], "exclude": ["互換", "対応"] },
+      "yahoo": { "keyword": "ソニッケアー プレミアムガムケア HX9054", "must": ["HX9054"], "exclude": ["互換", "対応"] },
+      "amazon": { "keyword": "フィリップス ソニッケアー プレミアムガムケア HX9054/91", "asin": "B0FXWX2RXJ" }
+    },
+    {
+      "id": "oralb-io-ultimate6",
+      "brand": "ブラウン オーラルB",
+      "name": "iO 替えブラシ アルティメイトクリーン 6本入り iORBCW-6EL",
+      "badge": "iO2など iO シリーズ用",
+      "specs": { "count": "6本", "fits": "iO シリーズ", "official": "8,338円（約1,390円）" },
+      "source": "https://www.oralb-braun-onlinestore.jp/c/hds",
+      "rakuten": { "keyword": "オーラルB iO アルティメイトクリーン 6本", "must": ["アルティメイトクリーン", "6本"], "exclude": ["互換", "対応", "12本", "3本"] },
+      "yahoo": { "keyword": "オーラルB iO アルティメイトクリーン 6本", "must": ["アルティメイトクリーン", "6本"], "exclude": ["互換", "対応", "12本", "3本"] },
+      "amazon": { "keyword": "ブラウン オーラルB iO 替えブラシ アルティメイトクリーン 6本", "asin": null }
+    },
+    {
+      "id": "oralb-multi8",
+      "brand": "ブラウン オーラルB",
+      "name": "マルチアクションブラシ 8本入り EB50RB-8",
+      "badge": "PRO1など iO 以外用",
+      "specs": { "count": "8本", "fits": "iO 以外のオーラルB（PRO1 など）", "official": "8,338円（約1,042円）" },
+      "source": "https://www.oralb-braun-onlinestore.jp/c/hds",
+      "rakuten": { "keyword": "オーラルB マルチアクションブラシ EB50RB-8", "must": ["EB50", "8本"], "exclude": ["互換", "対応"] },
+      "yahoo": { "keyword": "オーラルB マルチアクションブラシ EB50RB-8", "must": ["EB50", "8本"], "exclude": ["互換", "対応"] },
+      "amazon": { "keyword": "ブラウン オーラルB マルチアクションブラシ EB50RB-8", "asin": "B098QCVPCC" }
+    },
+    {
+      "id": "panasonic-ew0810",
+      "brand": "パナソニック",
+      "name": "ドルツ トータルケアブラシ（2本入）EW0810",
+      "badge": "EW-DA49 の付属と同じ",
+      "specs": { "count": "2本", "fits": "ドルツ（EW-DA49・EW-DT88 など）", "official": "この記事では確かめられなかった" },
+      "source": "https://panasonic.jp/consumables/products/EW0810.html",
+      "rakuten": { "keyword": "パナソニック トータルケアブラシ EW0810", "must": ["EW0810"], "exclude": ["互換", "対応"] },
+      "yahoo": { "keyword": "パナソニック トータルケアブラシ EW0810", "must": ["EW0810"], "exclude": ["互換", "対応"] },
+      "amazon": { "keyword": "パナソニック ドルツ 替えブラシ トータルケアブラシ EW0810", "asin": "B0CC8Q9BP6" }
+    },
+    {
+      "id": "panasonic-ew0830",
+      "brand": "パナソニック",
+      "name": "ドルツ 歯間フィットブラシ（2本入）EW0830",
+      "badge": "EW-DT88 の付属と同じ",
+      "specs": { "count": "2本", "fits": "ドルツ（EW-DT88 など）", "official": "この記事では確かめられなかった" },
+      "source": "https://panasonic.jp/consumables/products/EW0830.html",
+      "rakuten": { "keyword": "パナソニック 歯間フィットブラシ EW0830", "must": ["EW0830"], "exclude": ["互換", "対応", "EW08304"] },
+      "yahoo": { "keyword": "パナソニック 歯間フィットブラシ EW0830", "must": ["EW0830"], "exclude": ["互換", "対応", "EW08304"] },
+      "amazon": { "keyword": "パナソニック ドルツ 替えブラシ 歯間フィットブラシ EW0830", "asin": "B0FKFX8T3C" }
+    },
+    {
+      "id": "omron-sb172",
+      "brand": "オムロン",
+      "name": "歯垢除去ブラシ 2本入り（タイプ2）SB-172",
+      "badge": "1本550円",
+      "specs": { "count": "2本", "fits": "タイプ2のブラシに対応する本体（HT-B3221-JT など）", "official": "1,100円（550円）" },
+      "source": "https://store.healthcare.omron.co.jp/category/SB/",
+      "rakuten": { "keyword": "オムロン 歯垢除去ブラシ SB-172", "must": ["SB-172"], "exclude": ["互換", "対応", "5P", "6セット"] },
+      "yahoo": { "keyword": "オムロン 歯垢除去ブラシ SB-172", "must": ["SB-172"], "exclude": ["互換", "対応", "5P", "6セット"] },
+      "amazon": { "keyword": "オムロン 歯垢除去ブラシ SB-172", "asin": "B0CJ7TYTSJ" }
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+- yaman-duo: 「製品仕様」を 1 個押した
+- yaman-duo: 「ご使用方法」を 0 個押した
+- yaman-duo: 「もっと見る」を 1 個押した
+- yaman-duo: 「仕様」を 1 個押した
+- yaman-duo: 「使い方」を 0 個押した
+
+### yaman-duo
+- 本文 2307 文字 / 画像候補 51 枚
+  - img yaman-duo-1.jpg 600x600 12689B 「」 https://www.ya-man.com/Contents/ProductImages/0/yjfa1p_LL.jpg
+  - img yaman-duo-2.jpg 600x600 53437B 「」 https://www.ya-man.com/Contents/ProductSubImages/0/yjfa1p_sub01_LL.jpg
+  - img yaman-duo-3.jpg 600x600 57788B 「」 https://www.ya-man.com/Contents/ProductSubImages/0/yjfa1p_sub02_LL.jpg
+  - img yaman-duo-4.jpg 600x600 45832B 「」 https://www.ya-man.com/Contents/ProductSubImages/0/yjfa1p_sub03_LL.jpg
+  - img yaman-duo-5.jpg 600x600 52667B 「」 https://www.ya-man.com/Contents/ProductSubImages/0/yjfa1p_sub04_LL.jpg
+  - img yaman-duo-6.jpg 600x600 48509B 「」 https://www.ya-man.com/Contents/ProductSubImages/0/yjfa1p_sub05_LL.jpg
+  - img yaman-duo-7.jpg 600x600 42481B 「」 https://www.ya-man.com/Contents/ProductSubImages/0/yjfa1p_sub06_LL.jpg
+  - img yaman-duo-8.jpg 600x600 62858B 「」 https://www.ya-man.com/Contents/ProductSubImages/0/yjfa1p_sub07_LL.jpg
+  - img yaman-duo-9.jpg 600x600 47828B 「」 https://www.ya-man.com/Contents/ProductSubImages/0/yjfa1p_sub08_LL.jpg
+  - img yaman-duo-10.jpg 600x600 51246B 「」 https://www.ya-man.com/Contents/ProductSubImages/0/yjfa1p_sub09_LL.jpg
+- yaman-duo-pr: 「製品仕様」を 0 個押した
+- yaman-duo-pr: 「ご使用方法」を 0 個押した
+- yaman-duo-pr: 「もっと見る」を 0 個押した
+- yaman-duo-pr: 「仕様」を 0 個押した
+- yaman-duo-pr: 「使い方」を 0 個押した
+
+### yaman-duo-pr
+- 本文 4742 文字 / 画像候補 23 枚
+  - img yaman-duo-pr-1.png 1051x739 898427B 「」 https://digitalpr.jp/simg/2963/145430/700_492_202610071921046ac61d10c19e6.png
+  - img yaman-duo-pr-2.jpg 800x285 12616B 「」 https://digitalpr.jp/simg/2963/145430/500_178_202610071942516ac6222b423e0.jpg
+  - img yaman-duo-pr-3.jpg 1280x432 54193B 「」 https://digitalpr.jp/simg/2963/145430/500_169_202610080852276ac6db3b72176.jpg
+  - img yaman-duo-pr-4.jpg 1266x494 57583B 「」 https://digitalpr.jp/simg/2963/145430/500_195_202610080852496ac6db51c50fb.jpg
+  - img yaman-duo-pr-5.jpg 1001x2614 108292B 「」 https://digitalpr.jp/simg/2963/145430/100_261_202610071944336ac62291d24d1.jpg
+  - img yaman-duo-pr-6.jpg 4539x2551 548806B 「」 https://digitalpr.jp/simg/2963/145430/500_281_202610071947156ac6233342e2e.jpg
+  - img yaman-duo-pr-7.png 7428x7428 3125304B 「ヤーマン株式会社」 https://digitalpr.jp/simg/2963/148524/60_60_202611161213356afa74df8b171.png
+  - img yaman-duo-pr-8.jpg 1155x1155 48353B 「ヤーマン株式会社」 https://digitalpr.jp/simg/2963/148547/60_60_202611161420536afa92b5c07a3.jpg
+  - img yaman-duo-pr-9.png 925x925 337191B 「ヤーマン株式会社」 https://digitalpr.jp/simg/2963/147763/60_60_202611060956106aed25aaee391.png
+  - img yaman-duo-pr-10.jpg 1280x1280 34235B 「ヤーマン株式会社」 https://digitalpr.jp/simg/2963/147065/60_60_202610281819556ae1be3b2790a.jpg
+
+---
+経過 32 秒
