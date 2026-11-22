@@ -1,1 +1,9 @@
-[]
+[
+      {"task": "t1003-verify-rakuten-kettle.sh", "rc": 0, "out": "- 商品: 検索結果 46 件・型番「山善 温度調節機能付き電気ケトル EGL-C1281」の表示: あり - 題名: 【楽天市場】山善 温度調節機能付き電気ケトル EGL-C1281の通販 - 写真: Mac の手元のみ（private-shots/shop-verify/electric-kettle-comparison-202"},
+      {"task": "t1004-verify-yahoo-kettle.sh", "rc": 0, "out": "- 商品: 検索結果 378 件・型番「山善 温度調節機能付き電気ケトル EGL-C1281」の表示: あり - 題名: 山善 温度調節機能付き電気ケトル EGL-C1281のおすすめ人気商品一覧 通販 - Yahoo!ショッピング - 写真: Mac の手元のみ（private-shots/s"},
+      {"task": "t1005-verify-amazon-kettle.sh", "rc": 0, "out": "- 商品: 検索結果 0 件・型番「」の表示: —・カートに入れるボタンあり - 題名: Amazon | [山善] 電気ケトル 電気ポット 0.8L 一人暮らし 二人暮らし (消費電力 1200W / 温度調節/保温機能/空焚き防止機能) ブラックブロンズ EGL-C - �"},
+      {"task": "t1012-iris-hotplate-read-2.sh", "rc": 0, "out": "  - img6 1200x630 「ビルトイン食器洗い乾燥機のサイズダウンで生じる15cmの隙間を収納に変える「食洗」   - img7 1200x630 「朝に飲むならアイリスのお茶 綠(りょく)」   - img8 1200x630 「フレーバー緑茶」  **読むだけ。LLM 不使用（$0�"},
+      {"task": "t1022-elecom-scale-images.sh", "rc": 0, "out": "  64 . 96 ..  **読むだけ。LLM 不使用（$0／回）。**"},
+      {"task": "t1023-find-pages-body-scale.sh", "rc": 0, "out": "    at /Users/ny/.openclaw/workspace/node_modules/playwright-core/lib/server/chromium/crConnection.js:138:14  Node.js v26.0.0 - rc=1 （report.md が無い）"},
+      {"task": "t992-iris-oven-stores.sh", "rc": 0, "out": ""}
+  ]
