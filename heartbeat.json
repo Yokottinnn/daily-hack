@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-22T11:07:13Z",
+  "generated_at": "2026-11-22T11:42:48Z",
   "login_lock": {"present": false, "age_hours": 0},
   "cdp": {"healthy": true, "port": 18810},
   "x_jobs": {"loaded": 8, "expected": 8, "ai_total": 16, "halted": false, "missing": []},
-  "last_reply": {"at": "2026-11-18T01:17:05.594Z", "age_hours": 105, "stale": true},
+  "last_reply": {"at": "2026-11-18T01:17:05.594Z", "age_hours": 106, "stale": true},
   "supervisor": {"at":"2026-11-22T08:00:05Z","date_jst":"2026-11-22","ran":9,"total":9,"not_run":[],"fixed":[]},
   "followback_bands": {"with_count":696,"total_rows":1080,"bands":{"1000-4999":{"n":232,"back":35,"mature":232,"mature_back":35,"rate":15.1},"300-999":{"n":177,"back":24,"mature":176,"mature_back":24,"rate":13.6},"0-99":{"n":123,"back":18,"mature":122,"mature_back":18,"rate":14.8},"5000-49999":{"n":120,"back":8,"mature":119,"mature_back":7,"rate":5.9},"100-299":{"n":41,"back":8,"mature":41,"mature_back":8,"rate":19.5},"50000-up":{"n":3,"back":1,"mature":3,"mature_back":1,"rate":33.3}},"status_values":{"unfollowed":810,"revenge_ghost_already_unfollowed":84,"yes_late":22,"yes":126,"no":37,"pending":1},"note":"mature の率で見る"},
   "host": "NaokinoMBP-2",
@@ -43,9 +43,11 @@
   ],
   "reconnect": "既に起動している",
   "tasks": [
-      {"task": "t1032-find-pages-gaming-monitor.sh", "rc": 0, "out": ""},
-      {"task": "t990-find-pages-iris-oven.sh", "rc": 0, "out": "  - https://item.rakuten.co.jp/tuzukiya/i14-18108/｜46,310｜※法人専用品※アイリスオーヤマ 518148 スチームオーブンレンジ 26Lカップ式 ブラック MO-FS2601-B 1点   - https://item.rakuten.co.jp/asahiprocureace/422-0418/｜46,676円(価格+送料)｜IRIS 518148 スチ�"},
-      {"task": "t991-iris-oven-official.sh", "rc": 0, "out": "    580:設置する     602:アース棒の設置が必要です。販売店または電気工     2206:（型は、5×13cm、深さ5cm以上の金属製ミニ  **読むだけ。LLM 不使用（$0／回）。**"}
+      {"task": "t1003-verify-rakuten-kettle.sh", "rc": 0, "out": ""},
+      {"task": "t1004-verify-yahoo-kettle.sh", "rc": 0, "out": ""},
+      {"task": "t1005-verify-amazon-kettle.sh", "rc": 0, "out": ""},
+      {"task": "t1012-iris-hotplate-read-2.sh", "rc": 0, "out": ""},
+      {"task": "t992-iris-oven-stores.sh", "rc": 0, "out": "- MS-F3002｜オーブンレンジ 電子レンジ フラット 30L 時短ブースト タイパレンジ オーブン 2段 時短 コンベクションスチーム アイリスオーヤマ MS-F3002 *｜https://store.shopping.yahoo.co.jp/gardenliving-y/579596.html  ## アイリスプラザ 検索（"}
   ],
   "running": null,
   "auth": {
@@ -139,7 +141,7 @@
   ],
   "clone": {
     "branch": "main",
-    "behind": 9,
+    "behind": 0,
     "dirty": 0
   },
   "followers": {

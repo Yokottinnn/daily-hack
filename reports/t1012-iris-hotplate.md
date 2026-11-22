@@ -1,0 +1,397 @@
+# アイリスオーヤマのホットプレートの公式ページ（t1012・**$0**）
+
+生成: **2026-11-22T20:40:19+0900**
+
+- `playwright-core`: **`/Users/ny/.openclaw/workspace/node_modules`** に在る
+- Chrome: **CDP 18810 で応答あり**
+
+rc=0
+## category1「ホットプレート／グリル鍋｜キッチン家電｜電化製品｜商品情報｜アイリスオーヤマ」 3086 文字 — https://www.irisohyama.co.jp/products/electrical-appliances/cooking-appliances/hot-plate-appliances
+- 下の階層 2 件（うちカテゴリらしい 1）
+## category2「ホットプレート｜ホットプレート／グリル鍋｜キッチン家電｜電化製品｜商品情報｜アイリスオーヤマ」 3290 文字 — https://www.irisohyama.co.jp/products/electrical-appliances/cooking-appliances/hot-plate-appliances/hot-plate
+
+- 製品らしいリンク 11 件
+  - グリル鍋 2枚／3枚プレート — https://www.irisohyama.co.jp/products/electrical-appliances/cooking-appliances/hot-plate-appliances/grill-pan-cooker
+  - ホットプレート ホットプレート／たこ焼きプレート — https://www.irisohyama.co.jp/products/electrical-appliances/cooking-appliances/hot-plate-appliances/hot-plate
+  - New 左右温調ホットプレート 左右で温度調節が可能なホットプレートです。 — https://www.irisohyama.co.jp/products/electrical-appliances/cooking-appliances/hot-plate-appliances/hot-plate/left-and-right-temperature-control-hot-plate
+  - 薄型ホットプレート ヒーター内蔵プレートです — https://www.irisohyama.co.jp/products/electrical-appliances/cooking-appliances/hot-plate-appliances/hot-plate/thin-hot-plate
+  - ワイドホットプレート 幅50cmのワイドプレートで、一度にたくさん焼けるワイドホットプレートです。 — https://www.irisohyama.co.jp/products/electrical-appliances/cooking-appliances/hot-plate-appliances/hot-plate/wide-sided-hot-plate
+  - 両面ホットプレート 蓋つき 2枚のプレートで2種類の料理が同時にできる両面ホットプレートです。 — https://www.irisohyama.co.jp/products/electrical-appliances/cooking-appliances/hot-plate-appliances/hot-plate/double-sided-hot-plate-lid
+  - 両面ホットプレート 折り畳み可能な両面ホットプレートです。 — https://www.irisohyama.co.jp/products/electrical-appliances/cooking-appliances/hot-plate-appliances/hot-plate/double-sided-hot-plate
+  - 網焼き風ホットプレート 網焼き風プレート付きホットプレートです。 — https://www.irisohyama.co.jp/products/electrical-appliances/cooking-appliances/hot-plate-appliances/hot-plate/grilled-style-hot-plate
+  - ricopa ミニホットプレート ricopaシリーズのホットプレートです。 — https://www.irisohyama.co.jp/products/electrical-appliances/cooking-appliances/hot-plate-appliances/hot-plate/ricopa-mini-hot-plate
+  - 丸型ホットプレート シンプルな丸型のホットプレートです。 — https://www.irisohyama.co.jp/products/electrical-appliances/cooking-appliances/hot-plate-appliances/hot-plate/round-hot-plate
+  - たこ焼きプレート たこ焼き専用のホットプレートです。 — https://www.irisohyama.co.jp/products/electrical-appliances/cooking-appliances/hot-plate-appliances/hot-plate/takoyaki-plate
+  - 画像 logo-iris.svg: 2713 bytes — https://www.irisohyama.co.jp/images/common/logo.svg
+
+## p1「グリル鍋｜ホットプレート／グリル鍋｜キッチン家電｜電化製品｜商品情報｜アイリスオーヤマ」 3053 文字
+- URL: https://www.irisohyama.co.jp/products/electrical-appliances/cooking-appliances/hot-plate-appliances/grill-pan-cooker
+- 型番: —
+- プレート寸法: —
+- 付属プレート: プレート／グリル鍋
+- 消費電力: —
+- 温度: —
+- 寸法: —
+- 質量: —
+- コード: —
+- 発売: —
+- 価格: —
+  - 画像 p1-og.jpg: 12530 bytes — https://www.irisohyama.co.jp/products/web-catalog/img/cats/grill-pan-cooker/thumb.jpg
+  - img1 1200x630 「アイリスオーヤマとNTT西日本「マルチロボティクスプラットフォーム」を活用したフ」
+  - 画像 p1-img1.jpg: 22306 bytes — https://www.irisohyama.co.jp/news/2026/img/1116/fb.png
+  - img2 1200x680 「清掃員に変装した吉沢 亮さんがスパイとして暗躍！？ DX清掃ロボット「JILBY」
+  - 画像 p1-img2.jpg: 186355 bytes — https://www.irisohyama.co.jp/news/2026/img/1112/fb.png
+  - img3 1200x630 「モナキをCM初起用！アイリスのお茶 綠 レモンフレーバー/白桃フレーバー新TVC」
+  - 画像 p1-img3.jpg: 310408 bytes — https://www.irisohyama.co.jp/news/2026/img/1028/fb.png
+  - img4 1200x630 「独自の流速変更ドリッパーでよりコク深い抽出も可能！本体幅がスリムな「コーン式全自」
+  - img5 1200x630 「DX清掃ロボット「JILBY（ジルビー）」をホームセンターのユニディ 松戸ときわ」
+  - img6 1200x630 「ビルトイン食器洗い乾燥機のサイズダウンで生じる15cmの隙間を収納に変える「食洗」
+  - img7 1200x630 「朝に飲むならアイリスのお茶 綠(りょく)」
+  - img8 1200x630 「フレーバー緑茶」
+
+## p2「左右温調ホットプレート｜ホットプレート｜ホットプレート／グリル鍋｜キッチン家電｜電化製品｜商品情報｜アイリスオーヤマ」 10464 文字
+- URL: https://www.irisohyama.co.jp/products/electrical-appliances/cooking-appliances/hot-plate-appliances/hot-plate/left-and-right-temperature-control-hot-plate
+- 型番: —
+- プレート寸法: プレートサイズ 平面プレート：(内寸)W395×D262×H30mm/(外寸)W427×D296×H44.5mm/平面ハーフプレート：(内寸)W192×D270×H30mm/(外寸)W217×D296×H44.5mm/焼肉ハーフプレート：(内寸)W192
+- 付属プレート: プレート／グリル鍋
+- 消費電力: 消費電力 1350W（ヒーター675W×2）
+- 温度: 温度調節が可能なホットプレートです。
+- 寸法: サイズ（mm ・kg ） パッケージサイズ（mm） ケース
+- 質量: 重量 備考 幅 奥行 高さ
+- コード: コードセット除く）：W483×D355×H153mm
+- 発売: —
+- 価格: —
+  - 画像 p2-og.jpg: 8454 bytes — https://www.irisohyama.co.jp/products/web-catalog/img/serieses/left-and-right-temperature-control-hot-plate/thumb.jpg
+  - img1 1200x630 「アイリスオーヤマとNTT西日本「マルチロボティクスプラットフォーム」を活用したフ」
+  - 画像 p2-img1.jpg: 22306 bytes — https://www.irisohyama.co.jp/news/2026/img/1116/fb.png
+  - img2 1200x680 「清掃員に変装した吉沢 亮さんがスパイとして暗躍！？ DX清掃ロボット「JILBY」
+  - 画像 p2-img2.jpg: 186355 bytes — https://www.irisohyama.co.jp/news/2026/img/1112/fb.png
+  - img3 1200x630 「モナキをCM初起用！アイリスのお茶 綠 レモンフレーバー/白桃フレーバー新TVC」
+  - 画像 p2-img3.jpg: 310408 bytes — https://www.irisohyama.co.jp/news/2026/img/1028/fb.png
+  - img4 1200x630 「独自の流速変更ドリッパーでよりコク深い抽出も可能！本体幅がスリムな「コーン式全自」
+  - img5 1200x630 「DX清掃ロボット「JILBY（ジルビー）」をホームセンターのユニディ 松戸ときわ」
+  - img6 1200x630 「ビルトイン食器洗い乾燥機のサイズダウンで生じる15cmの隙間を収納に変える「食洗」
+  - img7 1200x630 「朝に飲むならアイリスのお茶 綠(りょく)」
+  - img8 1200x630 「フレーバー緑茶」
+
+## p3「薄型ホットプレート｜ホットプレート｜ホットプレート／グリル鍋｜キッチン家電｜電化製品｜商品情報｜アイリスオーヤマ」 3604 文字
+- URL: https://www.irisohyama.co.jp/products/electrical-appliances/cooking-appliances/hot-plate-appliances/hot-plate/thin-hot-plate
+- 型番: —
+- プレート寸法: プレートサイズ ※外寸は遮熱板足を含む
+- 付属プレート: プレート／グリル鍋
+- 消費電力: 消費電力 1300W
+- 温度: —
+- 寸法: サイズ（mm ・kg ） パッケージサイズ（mm） ケース
+- 質量: 重量 備考 幅 奥行 高さ
+- コード: コード長さ 1.8m 付属品 コントローラー、開閉式脚
+- 発売: —
+- 価格: —
+  - 画像 p3-og.jpg: 525042 bytes — https://www.irisohyama.co.jp/products/web-catalog/img/serieses/thin-hot-plate/thumb.jpg
+  - img1 1200x630 「アイリスオーヤマとNTT西日本「マルチロボティクスプラットフォーム」を活用したフ」
+  - 画像 p3-img1.jpg: 22306 bytes — https://www.irisohyama.co.jp/news/2026/img/1116/fb.png
+  - img2 1200x680 「清掃員に変装した吉沢 亮さんがスパイとして暗躍！？ DX清掃ロボット「JILBY」
+  - 画像 p3-img2.jpg: 186355 bytes — https://www.irisohyama.co.jp/news/2026/img/1112/fb.png
+  - img3 1200x630 「モナキをCM初起用！アイリスのお茶 綠 レモンフレーバー/白桃フレーバー新TVC」
+  - 画像 p3-img3.jpg: 310408 bytes — https://www.irisohyama.co.jp/news/2026/img/1028/fb.png
+  - img4 1200x630 「独自の流速変更ドリッパーでよりコク深い抽出も可能！本体幅がスリムな「コーン式全自」
+  - img5 1200x630 「DX清掃ロボット「JILBY（ジルビー）」をホームセンターのユニディ 松戸ときわ」
+  - img6 1200x630 「ビルトイン食器洗い乾燥機のサイズダウンで生じる15cmの隙間を収納に変える「食洗」
+  - img7 1200x630 「朝に飲むならアイリスのお茶 綠(りょく)」
+  - img8 1200x630 「フレーバー緑茶」
+
+## p4「ワイドホットプレート｜ホットプレート｜ホットプレート／グリル鍋｜キッチン家電｜電化製品｜商品情報｜アイリスオーヤマ」 4139 文字
+- URL: https://www.irisohyama.co.jp/products/electrical-appliances/cooking-appliances/hot-plate-appliances/hot-plate/wide-sided-hot-plate
+- 型番: —
+- プレート寸法: プレートサイズ 平面プレート：W591×D334mm コードの長さ 約2.5m
+- 付属プレート: プレート／グリル鍋
+- 消費電力: 消費電力 1350W
+- 温度: 温度調節範囲 保温～約250℃ 製品サイズ 使用時：W595×D392×H90mm（プレート1枚装着）／収納時1枚：W606×D
+- 寸法: サイズ（mm ・kg ） パッケージサイズ（mm） ケース
+- 質量: 重量 幅 奥行 高さ
+- コード: コード除く）
+- 発売: —
+- 価格: —
+  - 画像 p4-og.jpg: 39396 bytes — https://www.irisohyama.co.jp/products/web-catalog/img/serieses/wide-sided-hot-plate/thumb.jpg
+  - img1 1200x630 「アイリスオーヤマとNTT西日本「マルチロボティクスプラットフォーム」を活用したフ」
+  - 画像 p4-img1.jpg: 22306 bytes — https://www.irisohyama.co.jp/news/2026/img/1116/fb.png
+  - img2 1200x680 「清掃員に変装した吉沢 亮さんがスパイとして暗躍！？ DX清掃ロボット「JILBY」
+  - 画像 p4-img2.jpg: 186355 bytes — https://www.irisohyama.co.jp/news/2026/img/1112/fb.png
+  - img3 1200x630 「モナキをCM初起用！アイリスのお茶 綠 レモンフレーバー/白桃フレーバー新TVC」
+  - 画像 p4-img3.jpg: 310408 bytes — https://www.irisohyama.co.jp/news/2026/img/1028/fb.png
+  - img4 1200x630 「独自の流速変更ドリッパーでよりコク深い抽出も可能！本体幅がスリムな「コーン式全自」
+  - img5 1200x630 「DX清掃ロボット「JILBY（ジルビー）」をホームセンターのユニディ 松戸ときわ」
+  - img6 1200x630 「ビルトイン食器洗い乾燥機のサイズダウンで生じる15cmの隙間を収納に変える「食洗」
+  - img7 1200x630 「朝に飲むならアイリスのお茶 綠(りょく)」
+  - img8 1200x630 「フレーバー緑茶」
+
+## p5「両面ホットプレート 蓋つき｜ホットプレート｜ホットプレート／グリル鍋｜キッチン家電｜電化製品｜商品情報｜アイリスオーヤマ」 5535 文字
+- URL: https://www.irisohyama.co.jp/products/electrical-appliances/cooking-appliances/hot-plate-appliances/hot-plate/double-sided-hot-plate-lid
+- 型番: —
+- プレート寸法: プレートサイズがアップして、2種類の料理が一度にたくさんつくれる両面ホットプレートです。2枚のプレートで2種類の料理が同時にできます。プレートごとにそれぞれ温度調節ができるので、保温と高温調理など使い方...
+- 付属プレート: プレート／グリル鍋
+- 消費電力: 消費電力 1300W
+- 温度: 温度調節ができるので、保温と高温調理など使い方...
+- 寸法: サイズがアップして、2種類の料理が一度にたくさんつくれる両面ホットプレートです。2枚のプレートで2種類の料理が同時にできます。プレートごとにそれぞれ温度調節ができるの
+- 質量: 重量 備考 幅 奥行 高さ
+- コード: コードの長さ 約1.8m
+- 発売: —
+- 価格: —
+  - 画像 p5-og.jpg: 45525 bytes — https://www.irisohyama.co.jp/products/web-catalog/img/serieses/double-sided-hot-plate-lid/thumb.jpg
+  - img1 1200x630 「アイリスオーヤマとNTT西日本「マルチロボティクスプラットフォーム」を活用したフ」
+  - 画像 p5-img1.jpg: 22306 bytes — https://www.irisohyama.co.jp/news/2026/img/1116/fb.png
+  - img2 1200x680 「清掃員に変装した吉沢 亮さんがスパイとして暗躍！？ DX清掃ロボット「JILBY」
+  - 画像 p5-img2.jpg: 186355 bytes — https://www.irisohyama.co.jp/news/2026/img/1112/fb.png
+  - img3 1200x630 「モナキをCM初起用！アイリスのお茶 綠 レモンフレーバー/白桃フレーバー新TVC」
+  - 画像 p5-img3.jpg: 310408 bytes — https://www.irisohyama.co.jp/news/2026/img/1028/fb.png
+  - img4 1200x630 「独自の流速変更ドリッパーでよりコク深い抽出も可能！本体幅がスリムな「コーン式全自」
+  - img5 1200x630 「DX清掃ロボット「JILBY（ジルビー）」をホームセンターのユニディ 松戸ときわ」
+  - img6 1200x630 「ビルトイン食器洗い乾燥機のサイズダウンで生じる15cmの隙間を収納に変える「食洗」
+  - img7 1200x630 「朝に飲むならアイリスのお茶 綠(りょく)」
+  - img8 1200x630 「フレーバー緑茶」
+
+## p6「両面ホットプレート｜ホットプレート｜ホットプレート／グリル鍋｜キッチン家電｜電化製品｜商品情報｜アイリスオーヤマ」 4263 文字
+- URL: https://www.irisohyama.co.jp/products/electrical-appliances/cooking-appliances/hot-plate-appliances/hot-plate/double-sided-hot-plate
+- 型番: —
+- プレート寸法: プレートサイズ 約W254×D221×H28mm 保証期間 お買い上げ日より1年間
+- 付属プレート: プレート／グリル鍋
+- 消費電力: 消費電力 1300W
+- 温度: 温度調節ができます。折りたたみ式で折りたたむとサイズが1／2になり、キッチンの隙間などにコンパクトに収納が可能です...
+- 寸法: サイズが1／2になり、キッチンの隙間などにコンパクトに収納が可能です...
+- 質量: 重量 備考 幅 奥行 高さ
+- コード: コードの長さ 約1.8m プレート温度 保温、約140℃～250℃
+- 発売: —
+- 価格: —
+  - 画像 p6-og.jpg: 20296 bytes — https://www.irisohyama.co.jp/products/web-catalog/img/serieses/double-sided-hot-plate/thumb.jpg
+  - img1 1200x630 「アイリスオーヤマとNTT西日本「マルチロボティクスプラットフォーム」を活用したフ」
+  - 画像 p6-img1.jpg: 22306 bytes — https://www.irisohyama.co.jp/news/2026/img/1116/fb.png
+  - img2 1200x680 「清掃員に変装した吉沢 亮さんがスパイとして暗躍！？ DX清掃ロボット「JILBY」
+  - 画像 p6-img2.jpg: 186355 bytes — https://www.irisohyama.co.jp/news/2026/img/1112/fb.png
+  - img3 1200x630 「モナキをCM初起用！アイリスのお茶 綠 レモンフレーバー/白桃フレーバー新TVC」
+  - 画像 p6-img3.jpg: 310408 bytes — https://www.irisohyama.co.jp/news/2026/img/1028/fb.png
+  - img4 1200x630 「独自の流速変更ドリッパーでよりコク深い抽出も可能！本体幅がスリムな「コーン式全自」
+  - img5 1200x630 「DX清掃ロボット「JILBY（ジルビー）」をホームセンターのユニディ 松戸ときわ」
+  - img6 1200x630 「ビルトイン食器洗い乾燥機のサイズダウンで生じる15cmの隙間を収納に変える「食洗」
+  - img7 1200x630 「朝に飲むならアイリスのお茶 綠(りょく)」
+  - img8 1200x630 「フレーバー緑茶」
+
+## p7「網焼き風ホットプレート｜ホットプレート｜ホットプレート／グリル鍋｜キッチン家電｜電化製品｜商品情報｜アイリスオーヤマ」 6306 文字
+- URL: https://www.irisohyama.co.jp/products/electrical-appliances/cooking-appliances/hot-plate-appliances/hot-plate/grilled-style-hot-plate
+- 型番: —
+- プレート寸法: プレートサイズ W398×D283×H27mm(プレート内寸)/W425×D300mm(プレート外寸) プレートコーティング フッ素樹脂コーティング
+- 付属プレート: プレート／グリル鍋
+- 消費電力: 消費電力 1300W
+- 温度: —
+- 寸法: サイズ（mm ・kg ） パッケージサイズ（mm） ケース
+- 質量: 重量 幅 奥行 高さ
+- コード: コードの長さ 1.8m 付属品 平面プレート、焼肉プレート、たこ焼
+- 発売: —
+- 価格: —
+  - 画像 p7-og.jpg: 10864 bytes — https://www.irisohyama.co.jp/products/web-catalog/img/serieses/grilled-style-hot-plate/thumb.jpg
+  - img1 1200x630 「アイリスオーヤマとNTT西日本「マルチロボティクスプラットフォーム」を活用したフ」
+  - 画像 p7-img1.jpg: 22306 bytes — https://www.irisohyama.co.jp/news/2026/img/1116/fb.png
+  - img2 1200x680 「清掃員に変装した吉沢 亮さんがスパイとして暗躍！？ DX清掃ロボット「JILBY」
+  - 画像 p7-img2.jpg: 186355 bytes — https://www.irisohyama.co.jp/news/2026/img/1112/fb.png
+  - img3 1200x630 「モナキをCM初起用！アイリスのお茶 綠 レモンフレーバー/白桃フレーバー新TVC」
+  - 画像 p7-img3.jpg: 310408 bytes — https://www.irisohyama.co.jp/news/2026/img/1028/fb.png
+  - img4 1200x630 「独自の流速変更ドリッパーでよりコク深い抽出も可能！本体幅がスリムな「コーン式全自」
+  - img5 1200x630 「DX清掃ロボット「JILBY（ジルビー）」をホームセンターのユニディ 松戸ときわ」
+  - img6 1200x630 「ビルトイン食器洗い乾燥機のサイズダウンで生じる15cmの隙間を収納に変える「食洗」
+  - img7 1200x630 「朝に飲むならアイリスのお茶 綠(りょく)」
+  - img8 1200x630 「フレーバー緑茶」
+
+**読むだけ。LLM 不使用（$0／回）。**
+rc=0
+## category1「ホットプレート／グリル鍋｜キッチン家電｜電化製品｜商品情報｜アイリスオーヤマ」 3086 文字 — https://www.irisohyama.co.jp/products/electrical-appliances/cooking-appliances/hot-plate-appliances
+- 下の階層 2 件（うちカテゴリらしい 1）
+## category2「ホットプレート｜ホットプレート／グリル鍋｜キッチン家電｜電化製品｜商品情報｜アイリスオーヤマ」 3290 文字 — https://www.irisohyama.co.jp/products/electrical-appliances/cooking-appliances/hot-plate-appliances/hot-plate
+
+- 製品らしいリンク 11 件
+  - グリル鍋 2枚／3枚プレート — https://www.irisohyama.co.jp/products/electrical-appliances/cooking-appliances/hot-plate-appliances/grill-pan-cooker
+  - ホットプレート ホットプレート／たこ焼きプレート — https://www.irisohyama.co.jp/products/electrical-appliances/cooking-appliances/hot-plate-appliances/hot-plate
+  - New 左右温調ホットプレート 左右で温度調節が可能なホットプレートです。 — https://www.irisohyama.co.jp/products/electrical-appliances/cooking-appliances/hot-plate-appliances/hot-plate/left-and-right-temperature-control-hot-plate
+  - 薄型ホットプレート ヒーター内蔵プレートです — https://www.irisohyama.co.jp/products/electrical-appliances/cooking-appliances/hot-plate-appliances/hot-plate/thin-hot-plate
+  - ワイドホットプレート 幅50cmのワイドプレートで、一度にたくさん焼けるワイドホットプレートです。 — https://www.irisohyama.co.jp/products/electrical-appliances/cooking-appliances/hot-plate-appliances/hot-plate/wide-sided-hot-plate
+  - 両面ホットプレート 蓋つき 2枚のプレートで2種類の料理が同時にできる両面ホットプレートです。 — https://www.irisohyama.co.jp/products/electrical-appliances/cooking-appliances/hot-plate-appliances/hot-plate/double-sided-hot-plate-lid
+  - 両面ホットプレート 折り畳み可能な両面ホットプレートです。 — https://www.irisohyama.co.jp/products/electrical-appliances/cooking-appliances/hot-plate-appliances/hot-plate/double-sided-hot-plate
+  - 網焼き風ホットプレート 網焼き風プレート付きホットプレートです。 — https://www.irisohyama.co.jp/products/electrical-appliances/cooking-appliances/hot-plate-appliances/hot-plate/grilled-style-hot-plate
+  - ricopa ミニホットプレート ricopaシリーズのホットプレートです。 — https://www.irisohyama.co.jp/products/electrical-appliances/cooking-appliances/hot-plate-appliances/hot-plate/ricopa-mini-hot-plate
+  - 丸型ホットプレート シンプルな丸型のホットプレートです。 — https://www.irisohyama.co.jp/products/electrical-appliances/cooking-appliances/hot-plate-appliances/hot-plate/round-hot-plate
+  - たこ焼きプレート たこ焼き専用のホットプレートです。 — https://www.irisohyama.co.jp/products/electrical-appliances/cooking-appliances/hot-plate-appliances/hot-plate/takoyaki-plate
+  - 画像 logo-iris.svg: 2713 bytes — https://www.irisohyama.co.jp/images/common/logo.svg
+
+## p1「グリル鍋｜ホットプレート／グリル鍋｜キッチン家電｜電化製品｜商品情報｜アイリスオーヤマ」 3053 文字
+- URL: https://www.irisohyama.co.jp/products/electrical-appliances/cooking-appliances/hot-plate-appliances/grill-pan-cooker
+- 型番: —
+- プレート寸法: —
+- 付属プレート: プレート／グリル鍋
+- 消費電力: —
+- 温度: —
+- 寸法: —
+- 質量: —
+- コード: —
+- 発売: —
+- 価格: —
+  - 画像 p1-og.jpg: 12530 bytes — https://www.irisohyama.co.jp/products/web-catalog/img/cats/grill-pan-cooker/thumb.jpg
+  - img1 1200x630 「アイリスオーヤマとNTT西日本「マルチロボティクスプラットフォーム」を活用したフ」
+  - 画像 p1-img1.jpg: 22306 bytes — https://www.irisohyama.co.jp/news/2026/img/1116/fb.png
+  - img2 1200x680 「清掃員に変装した吉沢 亮さんがスパイとして暗躍！？ DX清掃ロボット「JILBY」
+  - 画像 p1-img2.jpg: 186355 bytes — https://www.irisohyama.co.jp/news/2026/img/1112/fb.png
+  - img3 1200x630 「モナキをCM初起用！アイリスのお茶 綠 レモンフレーバー/白桃フレーバー新TVC」
+  - 画像 p1-img3.jpg: 310408 bytes — https://www.irisohyama.co.jp/news/2026/img/1028/fb.png
+  - img4 1200x630 「独自の流速変更ドリッパーでよりコク深い抽出も可能！本体幅がスリムな「コーン式全自」
+  - img5 1200x630 「DX清掃ロボット「JILBY（ジルビー）」をホームセンターのユニディ 松戸ときわ」
+  - img6 1200x630 「ビルトイン食器洗い乾燥機のサイズダウンで生じる15cmの隙間を収納に変える「食洗」
+  - img7 1200x630 「朝に飲むならアイリスのお茶 綠(りょく)」
+  - img8 1200x630 「フレーバー緑茶」
+
+## p2「左右温調ホットプレート｜ホットプレート｜ホットプレート／グリル鍋｜キッチン家電｜電化製品｜商品情報｜アイリスオーヤマ」 10464 文字
+- URL: https://www.irisohyama.co.jp/products/electrical-appliances/cooking-appliances/hot-plate-appliances/hot-plate/left-and-right-temperature-control-hot-plate
+- 型番: —
+- プレート寸法: プレートサイズ 平面プレート：(内寸)W395×D262×H30mm/(外寸)W427×D296×H44.5mm/平面ハーフプレート：(内寸)W192×D270×H30mm/(外寸)W217×D296×H44.5mm/焼肉ハーフプレート：(内寸)W192
+- 付属プレート: プレート／グリル鍋
+- 消費電力: 消費電力 1350W（ヒーター675W×2）
+- 温度: 温度調節が可能なホットプレートです。
+- 寸法: サイズ（mm ・kg ） パッケージサイズ（mm） ケース
+- 質量: 重量 備考 幅 奥行 高さ
+- コード: コードセット除く）：W483×D355×H153mm
+- 発売: —
+- 価格: —
+  - 画像 p2-og.jpg: 8454 bytes — https://www.irisohyama.co.jp/products/web-catalog/img/serieses/left-and-right-temperature-control-hot-plate/thumb.jpg
+  - img1 1200x630 「アイリスオーヤマとNTT西日本「マルチロボティクスプラットフォーム」を活用したフ」
+  - 画像 p2-img1.jpg: 22306 bytes — https://www.irisohyama.co.jp/news/2026/img/1116/fb.png
+  - img2 1200x680 「清掃員に変装した吉沢 亮さんがスパイとして暗躍！？ DX清掃ロボット「JILBY」
+  - 画像 p2-img2.jpg: 186355 bytes — https://www.irisohyama.co.jp/news/2026/img/1112/fb.png
+  - img3 1200x630 「モナキをCM初起用！アイリスのお茶 綠 レモンフレーバー/白桃フレーバー新TVC」
+  - 画像 p2-img3.jpg: 310408 bytes — https://www.irisohyama.co.jp/news/2026/img/1028/fb.png
+  - img4 1200x630 「独自の流速変更ドリッパーでよりコク深い抽出も可能！本体幅がスリムな「コーン式全自」
+  - img5 1200x630 「DX清掃ロボット「JILBY（ジルビー）」をホームセンターのユニディ 松戸ときわ」
+  - img6 1200x630 「ビルトイン食器洗い乾燥機のサイズダウンで生じる15cmの隙間を収納に変える「食洗」
+  - img7 1200x630 「朝に飲むならアイリスのお茶 綠(りょく)」
+  - img8 1200x630 「フレーバー緑茶」
+
+## p3「薄型ホットプレート｜ホットプレート｜ホットプレート／グリル鍋｜キッチン家電｜電化製品｜商品情報｜アイリスオーヤマ」 3604 文字
+- URL: https://www.irisohyama.co.jp/products/electrical-appliances/cooking-appliances/hot-plate-appliances/hot-plate/thin-hot-plate
+- 型番: —
+- プレート寸法: プレートサイズ ※外寸は遮熱板足を含む
+- 付属プレート: プレート／グリル鍋
+- 消費電力: 消費電力 1300W
+- 温度: —
+- 寸法: サイズ（mm ・kg ） パッケージサイズ（mm） ケース
+- 質量: 重量 備考 幅 奥行 高さ
+- コード: コード長さ 1.8m 付属品 コントローラー、開閉式脚
+- 発売: —
+- 価格: —
+  - 画像 p3-og.jpg: 525042 bytes — https://www.irisohyama.co.jp/products/web-catalog/img/serieses/thin-hot-plate/thumb.jpg
+  - img1 1200x630 「アイリスオーヤマとNTT西日本「マルチロボティクスプラットフォーム」を活用したフ」
+  - 画像 p3-img1.jpg: 22306 bytes — https://www.irisohyama.co.jp/news/2026/img/1116/fb.png
+  - img2 1200x680 「清掃員に変装した吉沢 亮さんがスパイとして暗躍！？ DX清掃ロボット「JILBY」
+  - 画像 p3-img2.jpg: 186355 bytes — https://www.irisohyama.co.jp/news/2026/img/1112/fb.png
+  - img3 1200x630 「モナキをCM初起用！アイリスのお茶 綠 レモンフレーバー/白桃フレーバー新TVC」
+  - 画像 p3-img3.jpg: 310408 bytes — https://www.irisohyama.co.jp/news/2026/img/1028/fb.png
+  - img4 1200x630 「独自の流速変更ドリッパーでよりコク深い抽出も可能！本体幅がスリムな「コーン式全自」
+  - img5 1200x630 「DX清掃ロボット「JILBY（ジルビー）」をホームセンターのユニディ 松戸ときわ」
+  - img6 1200x630 「ビルトイン食器洗い乾燥機のサイズダウンで生じる15cmの隙間を収納に変える「食洗」
+  - img7 1200x630 「朝に飲むならアイリスのお茶 綠(りょく)」
+  - img8 1200x630 「フレーバー緑茶」
+
+## p4「ワイドホットプレート｜ホットプレート｜ホットプレート／グリル鍋｜キッチン家電｜電化製品｜商品情報｜アイリスオーヤマ」 4139 文字
+- URL: https://www.irisohyama.co.jp/products/electrical-appliances/cooking-appliances/hot-plate-appliances/hot-plate/wide-sided-hot-plate
+- 型番: —
+- プレート寸法: プレートサイズ 平面プレート：W591×D334mm コードの長さ 約2.5m
+- 付属プレート: プレート／グリル鍋
+- 消費電力: 消費電力 1350W
+- 温度: 温度調節範囲 保温～約250℃ 製品サイズ 使用時：W595×D392×H90mm（プレート1枚装着）／収納時1枚：W606×D
+- 寸法: サイズ（mm ・kg ） パッケージサイズ（mm） ケース
+- 質量: 重量 幅 奥行 高さ
+- コード: コード除く）
+- 発売: —
+- 価格: —
+  - 画像 p4-og.jpg: 39396 bytes — https://www.irisohyama.co.jp/products/web-catalog/img/serieses/wide-sided-hot-plate/thumb.jpg
+  - img1 1200x630 「アイリスオーヤマとNTT西日本「マルチロボティクスプラットフォーム」を活用したフ」
+  - 画像 p4-img1.jpg: 22306 bytes — https://www.irisohyama.co.jp/news/2026/img/1116/fb.png
+  - img2 1200x680 「清掃員に変装した吉沢 亮さんがスパイとして暗躍！？ DX清掃ロボット「JILBY」
+  - 画像 p4-img2.jpg: 186355 bytes — https://www.irisohyama.co.jp/news/2026/img/1112/fb.png
+  - img3 1200x630 「モナキをCM初起用！アイリスのお茶 綠 レモンフレーバー/白桃フレーバー新TVC」
+  - 画像 p4-img3.jpg: 310408 bytes — https://www.irisohyama.co.jp/news/2026/img/1028/fb.png
+  - img4 1200x630 「独自の流速変更ドリッパーでよりコク深い抽出も可能！本体幅がスリムな「コーン式全自」
+  - img5 1200x630 「DX清掃ロボット「JILBY（ジルビー）」をホームセンターのユニディ 松戸ときわ」
+  - img6 1200x630 「ビルトイン食器洗い乾燥機のサイズダウンで生じる15cmの隙間を収納に変える「食洗」
+  - img7 1200x630 「朝に飲むならアイリスのお茶 綠(りょく)」
+  - img8 1200x630 「フレーバー緑茶」
+
+## p5「両面ホットプレート 蓋つき｜ホットプレート｜ホットプレート／グリル鍋｜キッチン家電｜電化製品｜商品情報｜アイリスオーヤマ」 5535 文字
+- URL: https://www.irisohyama.co.jp/products/electrical-appliances/cooking-appliances/hot-plate-appliances/hot-plate/double-sided-hot-plate-lid
+- 型番: —
+- プレート寸法: プレートサイズがアップして、2種類の料理が一度にたくさんつくれる両面ホットプレートです。2枚のプレートで2種類の料理が同時にできます。プレートごとにそれぞれ温度調節ができるので、保温と高温調理など使い方...
+- 付属プレート: プレート／グリル鍋
+- 消費電力: 消費電力 1300W
+- 温度: 温度調節ができるので、保温と高温調理など使い方...
+- 寸法: サイズがアップして、2種類の料理が一度にたくさんつくれる両面ホットプレートです。2枚のプレートで2種類の料理が同時にできます。プレートごとにそれぞれ温度調節ができるの
+- 質量: 重量 備考 幅 奥行 高さ
+- コード: コードの長さ 約1.8m
+- 発売: —
+- 価格: —
+  - 画像 p5-og.jpg: 45525 bytes — https://www.irisohyama.co.jp/products/web-catalog/img/serieses/double-sided-hot-plate-lid/thumb.jpg
+  - img1 1200x630 「アイリスオーヤマとNTT西日本「マルチロボティクスプラットフォーム」を活用したフ」
+  - 画像 p5-img1.jpg: 22306 bytes — https://www.irisohyama.co.jp/news/2026/img/1116/fb.png
+  - img2 1200x680 「清掃員に変装した吉沢 亮さんがスパイとして暗躍！？ DX清掃ロボット「JILBY」
+  - 画像 p5-img2.jpg: 186355 bytes — https://www.irisohyama.co.jp/news/2026/img/1112/fb.png
+  - img3 1200x630 「モナキをCM初起用！アイリスのお茶 綠 レモンフレーバー/白桃フレーバー新TVC」
+  - 画像 p5-img3.jpg: 310408 bytes — https://www.irisohyama.co.jp/news/2026/img/1028/fb.png
+  - img4 1200x630 「独自の流速変更ドリッパーでよりコク深い抽出も可能！本体幅がスリムな「コーン式全自」
+  - img5 1200x630 「DX清掃ロボット「JILBY（ジルビー）」をホームセンターのユニディ 松戸ときわ」
+  - img6 1200x630 「ビルトイン食器洗い乾燥機のサイズダウンで生じる15cmの隙間を収納に変える「食洗」
+  - img7 1200x630 「朝に飲むならアイリスのお茶 綠(りょく)」
+  - img8 1200x630 「フレーバー緑茶」
+
+## p6「両面ホットプレート｜ホットプレート｜ホットプレート／グリル鍋｜キッチン家電｜電化製品｜商品情報｜アイリスオーヤマ」 4263 文字
+- URL: https://www.irisohyama.co.jp/products/electrical-appliances/cooking-appliances/hot-plate-appliances/hot-plate/double-sided-hot-plate
+- 型番: —
+- プレート寸法: プレートサイズ 約W254×D221×H28mm 保証期間 お買い上げ日より1年間
+- 付属プレート: プレート／グリル鍋
+- 消費電力: 消費電力 1300W
+- 温度: 温度調節ができます。折りたたみ式で折りたたむとサイズが1／2になり、キッチンの隙間などにコンパクトに収納が可能です...
+- 寸法: サイズが1／2になり、キッチンの隙間などにコンパクトに収納が可能です...
+- 質量: 重量 備考 幅 奥行 高さ
+- コード: コードの長さ 約1.8m プレート温度 保温、約140℃～250℃
+- 発売: —
+- 価格: —
+  - 画像 p6-og.jpg: 20296 bytes — https://www.irisohyama.co.jp/products/web-catalog/img/serieses/double-sided-hot-plate/thumb.jpg
+  - img1 1200x630 「アイリスオーヤマとNTT西日本「マルチロボティクスプラットフォーム」を活用したフ」
+  - 画像 p6-img1.jpg: 22306 bytes — https://www.irisohyama.co.jp/news/2026/img/1116/fb.png
+  - img2 1200x680 「清掃員に変装した吉沢 亮さんがスパイとして暗躍！？ DX清掃ロボット「JILBY」
+  - 画像 p6-img2.jpg: 186355 bytes — https://www.irisohyama.co.jp/news/2026/img/1112/fb.png
+  - img3 1200x630 「モナキをCM初起用！アイリスのお茶 綠 レモンフレーバー/白桃フレーバー新TVC」
+  - 画像 p6-img3.jpg: 310408 bytes — https://www.irisohyama.co.jp/news/2026/img/1028/fb.png
+  - img4 1200x630 「独自の流速変更ドリッパーでよりコク深い抽出も可能！本体幅がスリムな「コーン式全自」
+  - img5 1200x630 「DX清掃ロボット「JILBY（ジルビー）」をホームセンターのユニディ 松戸ときわ」
+  - img6 1200x630 「ビルトイン食器洗い乾燥機のサイズダウンで生じる15cmの隙間を収納に変える「食洗」
+  - img7 1200x630 「朝に飲むならアイリスのお茶 綠(りょく)」
+  - img8 1200x630 「フレーバー緑茶」
+
+## p7「網焼き風ホットプレート｜ホットプレート｜ホットプレート／グリル鍋｜キッチン家電｜電化製品｜商品情報｜アイリスオーヤマ」 6306 文字
+- URL: https://www.irisohyama.co.jp/products/electrical-appliances/cooking-appliances/hot-plate-appliances/hot-plate/grilled-style-hot-plate
+- 型番: —
+- プレート寸法: プレートサイズ W398×D283×H27mm(プレート内寸)/W425×D300mm(プレート外寸) プレートコーティング フッ素樹脂コーティング
+- 付属プレート: プレート／グリル鍋
+- 消費電力: 消費電力 1300W
+- 温度: —
+- 寸法: サイズ（mm ・kg ） パッケージサイズ（mm） ケース
+- 質量: 重量 幅 奥行 高さ
+- コード: コードの長さ 1.8m 付属品 平面プレート、焼肉プレート、たこ焼
+- 発売: —
+- 価格: —
+  - 画像 p7-og.jpg: 10864 bytes — https://www.irisohyama.co.jp/products/web-catalog/img/serieses/grilled-style-hot-plate/thumb.jpg
+  - img1 1200x630 「アイリスオーヤマとNTT西日本「マルチロボティクスプラットフォーム」を活用したフ」
+  - 画像 p7-img1.jpg: 22306 bytes — https://www.irisohyama.co.jp/news/2026/img/1116/fb.png
+  - img2 1200x680 「清掃員に変装した吉沢 亮さんがスパイとして暗躍！？ DX清掃ロボット「JILBY」
+  - 画像 p7-img2.jpg: 186355 bytes — https://www.irisohyama.co.jp/news/2026/img/1112/fb.png
+  - img3 1200x630 「モナキをCM初起用！アイリスのお茶 綠 レモンフレーバー/白桃フレーバー新TVC」
+  - 画像 p7-img3.jpg: 310408 bytes — https://www.irisohyama.co.jp/news/2026/img/1028/fb.png
+  - img4 1200x630 「独自の流速変更ドリッパーでよりコク深い抽出も可能！本体幅がスリムな「コーン式全自」
+  - img5 1200x630 「DX清掃ロボット「JILBY（ジルビー）」をホームセンターのユニディ 松戸ときわ」
+  - img6 1200x630 「ビルトイン食器洗い乾燥機のサイズダウンで生じる15cmの隙間を収納に変える「食洗」
+  - img7 1200x630 「朝に飲むならアイリスのお茶 綠(りょく)」
+  - img8 1200x630 「フレーバー緑茶」
+
+**読むだけ。LLM 不使用（$0／回）。**

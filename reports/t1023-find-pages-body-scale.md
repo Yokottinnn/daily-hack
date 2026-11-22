@@ -1,0 +1,24 @@
+# 商品ページの候補（t1023・body-scale・**$0**）
+
+生成: **2026-11-22T20:42:07+0900**
+
+/Users/ny/.openclaw/workspace/node_modules/playwright-core/lib/utils/isomorphic/assert.js:26
+    throw new Error(message || "Assertion error");
+          ^
+
+Error: targetInfo: {
+  "targetId": "F16D38EA34E07F0C2A3A535CDF43BA1B",
+  "type": "shared_worker",
+  "title": "",
+  "url": "blob:https://www.irisohyama.co.jp/7f9a9cbb-4c34-48e5-9203-270cc525c3b3",
+  "attached": true,
+  "canAccessOpener": false
+}
+    at assert (/Users/ny/.openclaw/workspace/node_modules/playwright-core/lib/utils/isomorphic/assert.js:26:11)
+    at CRBrowser._onAttachedToTarget (/Users/ny/.openclaw/workspace/node_modules/playwright-core/lib/server/chromium/crBrowser.js:140:30)
+    at CRSession.emit (node:events:509:20)
+    at /Users/ny/.openclaw/workspace/node_modules/playwright-core/lib/server/chromium/crConnection.js:138:14
+
+Node.js v26.0.0
+- rc=1
+（report.md が無い）
