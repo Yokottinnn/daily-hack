@@ -196,6 +196,26 @@ references:
 
 パナソニック公式の、F-VX70Dの加湿まわりのお手入れ動画。買う前に1回見ておくと、月1回の手間がどのくらいか分かる。
 
+### 使っている人の声｜手入れがつらい人と、買ってよかった人
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">加湿空気清浄機<br>お手入れめんどくさすぎて加湿器ほぼ機能してない<br>ふつうに加湿器とかヤカンでお湯沸かすみたいな方がいいかもしれない</p>&mdash; さぶすす (@jere_sub) <a href="https://twitter.com/jere_sub/status/2003266912890053089">2025年12月23日</a></blockquote>
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">空気清浄機の加湿機能もう使いたくない。手入れして何とかなるレベルじゃない。</p>&mdash; じゅか (@zhuka0523) <a href="https://twitter.com/zhuka0523/status/2122291141139952008">2026年11月16日</a></blockquote>
+
+「**手入れが面倒で、加湿を使わなくなった**」という声は少なくない。加湿フィルターに水あかが付くと、加湿の力が落ちたりニオイが出たりする。だからこそ、**買う前に「自分は月1回の手入れを続けられるか」を考えて、続けにくいなら自動洗浄（シャープ）か前面だけで済む機種（パナソニック）を選ぶ**のが失敗しにくいわね。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">おはようございます<br>今朝は朝食後、上履き洗い、トイレ掃除と済ませてから年末にサボってしまった空気清浄機のお手入れを<br>ホームページを見ると月に一回とありますが年に一回が限界<br>加湿フィルターは重曹に漬けこんで他は掃除機で吸い取ります<br>いつも綺麗な空気をありがとうですね</p>&mdash; iwa_sen (@iwasenenglish) <a href="https://twitter.com/iwasenenglish/status/2030091684927918186">2026年3月7日</a></blockquote>
+
+メーカーの「月に1回」に対して、実際は「年に1回が限界」という人もいる。なお、ダイキンは公式で「中性洗剤・重曹でのお手入れで抗菌効果が低下する場合がある」と書いているので、洗い方は機種の取扱説明書に合わせること。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">買ってよかった家電第2位‼️<br>加湿空気清浄機‼️‼️‼️‼️‼️<br>ありがとうシャープ</p>&mdash; ちゃんこ (@oxo_oxo_s) <a href="https://twitter.com/oxo_oxo_s/status/2117926702261391393">2026年11月4日</a></blockquote>
+
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+一方で「買ってよかった家電」に挙げる人もいる。手入れを続けられる人にとっては、1台で冬の乾燥とホコリをまとめて片づけられる家電ね。
+
+<p class="source-note">引用した X の投稿は、2026年11月22日に本文・投稿者・日付を確かめたもの（日付は日本時間）。投稿した人の個人の感想で、この記事の数字とは別のもの。</p>
+
 ## 満水で何時間もつか｜寝ている間の給水
 
 <figure class="rn-figure">
