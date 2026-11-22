@@ -1,4 +1,4 @@
 [
-      {"task": "t1080-steamer-official-read.sh", "rc": 0, "out": "186355 iris-3-3.jpg 310408 iris-3-4.jpg 261399 iris-3-5.png  **読むだけ。LLM 不使用（$0／回）。**"},
-      {"task": "t1081-embed-garment-steamer.sh", "rc": 0, "out": "- YT GgNRqSULYPk 「【アニ私物★ティファール編】衣類スチーマーで古着の軍モノとシャツからネクタイまでシワが取れてアニ気絶！シワに油断するな！洋服ケアは男の嗜み！」 / アニチューブ 片野英児【アニキ】 / 3.6万 4 年前"}
+      {"task": "t1093-dashcam-official-read-2.sh", "rc": 0, "out": "32488 logo-pioneer-3.png 3012 logo-yupiteru-1.png 48 logo-yupiteru-inline.svg  **読むだけ。LLM 不使用（$0／回）。**"},
+      {"task": "t1094-find-pages-dashcam-amazon.sh", "rc": 0, "out": "  - B0GWP8M7DG｜￥66,455｜アルパイン(ALPINE) ドライブレコーダー搭載 12型デジタルミラー (車内用リアカメラ) DVR-DM1200A2-IC【純正ミラー交換タイプ】前後2カメ   - B0GWPCPLKW｜￥64,859｜アルパイン(ALPINE) ドライブレコーダー搭載 12型�"}
   ]
