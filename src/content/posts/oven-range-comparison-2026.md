@@ -154,7 +154,7 @@ references:
     <thead><tr><th>機種（容量）</th><th>要る高さ＝本体＋上の隙間</th></tr></thead>
     <tbody>
       <tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/oven-range-comparison-2026/logos/panasonic.png" alt="" loading="lazy" /><a href="https://panasonic.jp/range/products/NE-FS3E/spec.html" target="_blank" rel="noopener">NE-FS3E（23L）</a></span></td><td><strong>438mm</strong><span class="cell-sub">338mm＋100mm</span></td></tr>
-      <tr class="recommended"><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/oven-range-comparison-2026/logos/panasonic.png" alt="" loading="lazy" /><a href="https://panasonic.jp/range/products/NE-UBS10E/spec.html" target="_blank" rel="noopener">NE-UBS10E（30L）</a></span></td><td><strong>450mm</strong><span class="cell-sub">370mm＋80mm。30Lでいちばん低い</span></td></tr>
+      <tr class="recommended"><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/oven-range-comparison-2026/logos/panasonic.png" alt="" loading="lazy" /><a href="https://panasonic.jp/range/products/NE-UBS10E/spec.html" target="_blank" rel="noopener">NE-UBS10E（30L）</a></span></td><td><strong>450mm</strong><span class="cell-sub">370mm＋80mm。上の隙間が分かる30Lでいちばん低い</span></td></tr>
       <tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/oven-range-comparison-2026/logos/sharp.png" alt="" loading="lazy" /><a href="https://jp.sharp/range/products/axrs1d/spec/" target="_blank" rel="noopener">AX-RS1D（30L）</a></span></td><td><strong>470mm</strong><span class="cell-sub">390mm（蒸気ダクトを含む）＋80mm</span></td></tr>
       <tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/oven-range-comparison-2026/logos/hitachi.png" alt="" loading="lazy" /><a href="https://kadenfan.hitachi.co.jp/range/lineup/mro-w1e/spec.html" target="_blank" rel="noopener">MRO-W1E（30L）</a></span></td><td><strong>475mm</strong><span class="cell-sub">375mm＋100mm</span></td></tr>
       <tr><td><span class="cell-brand"><img class="brand-logo-sm" src="/images/oven-range-comparison-2026/logos/toshiba.png" alt="" loading="lazy" /><a href="https://www.toshiba-lifestyle.com/jp/microwaves/er-d5000c/spec" target="_blank" rel="noopener">ER-D5000C（30L）</a></span></td><td><strong>489mm</strong><span class="cell-sub">399mm＋90mm</span></td></tr>
@@ -207,7 +207,7 @@ references:
 </div>
 <p class="num-note">棒の長さは23kgを100%にした割合。</p>
 
-## 7台の比較表
+## 比較表｜3つの店の値段もここで
 
 <div data-shop-table="oven-range"></div>
 
@@ -456,11 +456,9 @@ references:
   </table>
 </div>
 
-**過熱水蒸気と2段のオーブンがほしいけれど、大手4社の上位機ほどの機能は要らない人向け**。30L・2段・300℃・過熱水蒸気と、30Lの上位機と同じ骨組みを持つ。出力と時間を決めて「時短」ボタンを押すと、自動で強い出力に切り換える「時短ブースト」も付く。本体は高さ380mm・21.0kg。上にあける寸法は商品ページに無いので、置く前に取扱説明書（公式ページからPDFで読める）で確かめて。
+**過熱水蒸気と2段のオーブンがほしいけれど、大手4社の上位機ほどの機能は要らない人向け**。30L・2段・300℃・過熱水蒸気と、30Lの上位機と同じ骨組みを持つ。出力と時間を決めて「時短」ボタンを押すと、自動で強い出力に切り換える「時短ブースト」も付く。本体は高さ380mm・21.0kg。上にあける寸法は、置く前に取扱説明書（公式ページからPDFで読める）で確かめて。2026年11月22日に楽天市場とAmazonを型番で探したときは見つけにくかったので、買うならアイリスオーヤマの公式ページから。
 
 <div class="yt-embed"><iframe src="https://www.youtube-nocookie.com/embed/pHMleYrxwiU" title="【レンジ・オーブンこれ一台！】コンベクションスチームオーブンレンジ  MS-F3002-B　おすすめポイント" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe></div>
-
-<div data-shop-card="oven-range:iris-ms-f3002-b"></div>
 
 <h3 class="brand-h" id="ne-fs3e"><img class="brand-logo" src="/images/oven-range-comparison-2026/logos/panasonic.png" alt="パナソニックのロゴ" loading="lazy" /><span>パナソニック オーブンレンジ NE-FS3E｜スチームなし・23L</span></h3>
 

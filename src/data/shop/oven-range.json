@@ -1,7 +1,7 @@
 {
  "id": "oven-range",
  "title": "オーブンレンジ（スチームは要るか・キッチンに置けるか）",
- "_note": "仕様は各社の公式の仕様表・ニュースリリース（2026-11-22 確認）の記載だけ。価格は手で書かない（apply-prices.mjs が書く）。外形寸法は幅×奥行×高さで、奥行はハンドルを含まない値（ハンドル込みは本文）。上の隙間は公式の「上方◯cm以上あけて」の値で、その6機種は左右・後ろを壁にピッタリ置ける。アイリスオーヤマの商品ページには上の隙間の記載が無いので「—」（ops/tasks/t910 で Mac が読んだ）。",
+ "_note": "仕様は各社の公式の仕様表・ニュースリリース（2026-11-22 確認）の記載だけ。価格は手で書かない（apply-prices.mjs が書く）。外形寸法は幅×奥行×高さで、奥行はハンドルを含まない値（ハンドル込みは本文）。上の隙間は公式の「上方◯cm以上あけて」の値で、その6機種は左右・後ろを壁にピッタリ置ける。アイリスオーヤマ MS-F3002-B は楽天市場・Amazon の検索で型番の商品が見つからなかった（ops/tasks/t912）ので、3 店ボタンには入れず記事の節だけにした。 Amazon の ASIN は t912（scripts/shop/find-product-pages.mjs）で題名に型番が入っていたもの。AX-RS1D・RE-WF277 は型番の商品が出なかったので検索リンク。",
  "columns": [
   {
    "key": "steam",
@@ -145,7 +145,7 @@
    },
    "amazon": {
     "keyword": "パナソニック ビストロ NE-UBS10E",
-    "asin": null
+    "asin": "B0GX52CLWK"
    }
   },
   {
@@ -208,7 +208,7 @@
    },
    "amazon": {
     "keyword": "東芝 石窯ドーム ER-D5000C",
-    "asin": null
+    "asin": "B0HQNXS8DQ"
    }
   },
   {
@@ -271,7 +271,7 @@
    },
    "amazon": {
     "keyword": "日立 ヘルシーシェフ MRO-W1E",
-    "asin": null
+    "asin": "B0HGKLK4KV"
    }
   },
   {
@@ -338,69 +338,6 @@
    }
   },
   {
-   "id": "iris-ms-f3002-b",
-   "brand": "アイリスオーヤマ",
-   "name": "コンベクションスチームオーブンレンジ 30L MS-F3002-B",
-   "badge": "過熱水蒸気・2段",
-   "summary": "過熱水蒸気と2段のコンベクションオーブン。30L・300℃・64眼センサー。高さ380mm・21.0kg。",
-   "recommended": false,
-   "specs": {
-    "steam": "過熱水蒸気",
-    "volume": "約30L",
-    "size": "493×438×380mm",
-    "gap": "—"
-   },
-   "source": "https://www.irisohyama.co.jp/products/electrical-appliances/cooking-appliances/microwave-microwave-oven/steam-oven/convection-steam-oven-30",
-   "rakuten": {
-    "keyword": "アイリスオーヤマ MS-F3002",
-    "must": [
-     "MS-F3002"
-    ],
-    "exclude": [
-     "中古",
-     "◆",
-     "並行輸入",
-     "部品",
-     "交換",
-     "専用",
-     "対応",
-     "角皿",
-     "トレー",
-     "カバー",
-     "セット",
-     "網",
-     "アクセサリー",
-     "ケーブル"
-    ]
-   },
-   "yahoo": {
-    "keyword": "アイリスオーヤマ MS-F3002",
-    "must": [
-     "MS-F3002"
-    ],
-    "exclude": [
-     "中古",
-     "◆",
-     "並行輸入",
-     "部品",
-     "交換",
-     "専用",
-     "対応",
-     "角皿",
-     "トレー",
-     "カバー",
-     "セット",
-     "網",
-     "アクセサリー",
-     "ケーブル"
-    ]
-   },
-   "amazon": {
-    "keyword": "アイリスオーヤマ コンベクションスチームオーブンレンジ MS-F3002-B",
-    "asin": null
-   }
-  },
-  {
    "id": "panasonic-ne-fs3e",
    "brand": "パナソニック",
    "name": "オーブンレンジ NE-FS3E",
@@ -460,7 +397,7 @@
    },
    "amazon": {
     "keyword": "パナソニック オーブンレンジ NE-FS3E",
-    "asin": null
+    "asin": "B0H7RR57J8"
    }
   }
  ]
