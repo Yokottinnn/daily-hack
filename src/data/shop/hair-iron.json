@@ -1,0 +1,167 @@
+{
+  "id": "hair-iron",
+  "title": "ヘアアイロン（何度まで上がるか・海外や飛行機で使えるか）",
+  "_note": "仕様・価格は各社の公式ページだけ（2026-11-22 確認）。温度は公式の設定温度。海外は公式の電源の表示（AC100-240V かどうか）。飛行機は国土交通省の「ヘアケア製品」の案内と各社の FAQ。ダイソンは ops/tasks/t960 で公式ページを読んだ",
+  "columns": [
+    { "key": "type", "label": "種類" },
+    { "key": "price", "label": "公式の価格" },
+    { "key": "temp", "label": "設定温度" },
+    { "key": "volt", "label": "海外（電源）" },
+    { "key": "weight", "label": "重さ（公式の条件）" }
+  ],
+  "pricesCheckedAt": null,
+  "items": [
+    {
+      "id": "refa-straight-iron-pro",
+      "brand": "ReFa（MTG）",
+      "name": "ReFa STRAIGHT IRON PRO リファストレートアイロン プロ",
+      "badge": "定番・海外対応",
+      "summary": "140〜220℃の5段階。AC100〜240Vで、変圧器なしで海外でも使える。",
+      "recommended": true,
+      "specs": {
+        "type": "ストレート",
+        "price": "23,000円（ReFa公式）",
+        "temp": "140／160／180／200／220℃",
+        "volt": "AC100〜240V",
+        "weight": "約325g（電源コード含む）"
+      },
+      "source": "https://www.refa.net/item/refa_straight_iron_pro/",
+      "rakuten": { "keyword": "リファ ストレートアイロン プロ", "must": ["ストレートアイロン", "プロ"], "exclude": ["中古", "◆", "並行輸入", "プラス", "+", "パワー", "ホルダー", "ケース", "カバー", "スタンド", "ポーチ"] },
+      "yahoo": { "keyword": "リファ ストレートアイロン プロ", "must": ["ストレートアイロン", "プロ"], "exclude": ["中古", "◆", "並行輸入", "プラス", "+", "パワー", "ホルダー", "ケース", "カバー", "スタンド", "ポーチ"] },
+      "amazon": { "keyword": "ReFa STRAIGHT IRON PRO リファ ストレートアイロン プロ", "asin": null }
+    },
+    {
+      "id": "refa-curl-iron-pro",
+      "brand": "ReFa（MTG）",
+      "name": "ReFa CURL IRON PRO リファカールアイロン プロ（32mm）",
+      "badge": "巻き髪・海外対応",
+      "summary": "120〜180℃の4段階。太さは19・26・32・38mmの4種類。AC100〜240V。",
+      "recommended": false,
+      "specs": {
+        "type": "カール（19・26・32・38mm）",
+        "price": "25,000円（ReFa公式）",
+        "temp": "120／140／160／180℃",
+        "volt": "AC100〜240V",
+        "weight": "32mmで約375g（電源コード含む）"
+      },
+      "source": "https://www.refa.net/item/refa_curl_iron_pro/",
+      "rakuten": { "keyword": "リファ カールアイロン プロ 32mm", "must": ["カールアイロン", "プロ"], "exclude": ["中古", "◆", "並行輸入", "プラス", "+", "ホルダー", "ケース", "カバー", "スタンド", "ポーチ"] },
+      "yahoo": { "keyword": "リファ カールアイロン プロ 32mm", "must": ["カールアイロン", "プロ"], "exclude": ["中古", "◆", "並行輸入", "プラス", "+", "ホルダー", "ケース", "カバー", "スタンド", "ポーチ"] },
+      "amazon": { "keyword": "ReFa CURL IRON PRO リファ カールアイロン プロ 32mm", "asin": null }
+    },
+    {
+      "id": "refa-finger-iron-st",
+      "brand": "ReFa（MTG）",
+      "name": "ReFa FINGER IRON ST リファフィンガーアイロン ST",
+      "badge": "コードレス・前髪",
+      "summary": "約160g の充電式。160℃と180℃の2段階。飛行機は内蔵の電池を外して機内に持ち込む。",
+      "recommended": false,
+      "specs": {
+        "type": "コードレス（ストレート）",
+        "price": "14,500円（ReFa公式）",
+        "temp": "約160℃・180℃",
+        "volt": "充電式（USB）",
+        "weight": "約160g（キャップ・ケーブル含まず）"
+      },
+      "source": "https://www.refa.net/item/refa_finger_iron_st/",
+      "rakuten": { "keyword": "リファ フィンガーアイロン ST", "must": ["フィンガーアイロン"], "exclude": ["中古", "◆", "並行輸入", "ST6", "ST 6", "ホルダー", "ケース", "カバー", "スタンド", "ポーチ"] },
+      "yahoo": { "keyword": "リファ フィンガーアイロン ST", "must": ["フィンガーアイロン"], "exclude": ["中古", "◆", "並行輸入", "ST6", "ST 6", "ホルダー", "ケース", "カバー", "スタンド", "ポーチ"] },
+      "amazon": { "keyword": "ReFa FINGER IRON ST リファ フィンガーアイロン", "asin": null }
+    },
+    {
+      "id": "panasonic-eh-hn51",
+      "brand": "パナソニック",
+      "name": "ストレートアイロン ナノケア EH-HN51",
+      "badge": "高浸透ナノイー・国内専用",
+      "summary": "ドライヤーの高浸透ナノイーをストレートアイロンに載せた機種。130〜200℃の5段階。AC100V専用。",
+      "recommended": false,
+      "specs": {
+        "type": "ストレート",
+        "price": "34,650円（パナソニック公式）",
+        "temp": "約130／155／170／185／200℃",
+        "volt": "AC100V（海外使用×）",
+        "weight": "約430g（コード込み）"
+      },
+      "source": "https://panasonic.jp/hair/products/EH-HN51/spec.html",
+      "rakuten": { "keyword": "パナソニック ナノケア ストレートアイロン EH-HN51", "must": ["EH-HN51"], "exclude": ["中古", "◆", "並行輸入", "キャップ", "カバー", "交換"] },
+      "yahoo": { "keyword": "パナソニック ナノケア ストレートアイロン EH-HN51", "must": ["EH-HN51"], "exclude": ["中古", "◆", "並行輸入", "キャップ", "カバー", "交換"] },
+      "amazon": { "keyword": "パナソニック ナノケア ストレートアイロン EH-HN51", "asin": null }
+    },
+    {
+      "id": "panasonic-eh-hn30",
+      "brand": "パナソニック",
+      "name": "ストレートアイロン ナノケア EH-HN30",
+      "badge": "小さめ・海外対応",
+      "summary": "幅4.8cm のコンパクトタイプで、ストレートもカールもできる。AC100〜120V／220〜240V。",
+      "recommended": false,
+      "specs": {
+        "type": "ストレート・カール",
+        "price": "23,760円（パナソニック公式）",
+        "temp": "約120／140／160／180／200℃",
+        "volt": "AC100〜120V／220〜240V",
+        "weight": "約415g（コード込み）"
+      },
+      "source": "https://panasonic.jp/hair/products/EH-HN30/spec.html",
+      "rakuten": { "keyword": "パナソニック ナノケア ストレートアイロン EH-HN30", "must": ["EH-HN30"], "exclude": ["中古", "◆", "並行輸入", "キャップ", "カバー", "交換"] },
+      "yahoo": { "keyword": "パナソニック ナノケア ストレートアイロン EH-HN30", "must": ["EH-HN30"], "exclude": ["中古", "◆", "並行輸入", "キャップ", "カバー", "交換"] },
+      "amazon": { "keyword": "パナソニック ナノケア ストレートアイロン EH-HN30", "asin": null }
+    },
+    {
+      "id": "dyson-airstrait",
+      "brand": "ダイソン",
+      "name": "Dyson Airstrait ストレイトナー HT01",
+      "badge": "濡れた髪から・プレートなし",
+      "summary": "熱いプレートではなく風で、濡れた髪を乾かしながらまっすぐにする。重さは990g。",
+      "recommended": false,
+      "specs": {
+        "type": "ストレート（風・濡れた髪から）",
+        "price": "29,900円（ダイソン公式・アウトレット品）",
+        "temp": "ウェットモード140℃（公式の注記）",
+        "volt": "公式の仕様に記載なし",
+        "weight": "990g（ケーブル・プラグ含む）"
+      },
+      "source": "https://www.dyson.co.jp/hair-care/wet-to-dry-straighteners/airstrait/ceramic-pink",
+      "rakuten": { "keyword": "ダイソン Airstrait ストレイトナー HT01", "must": ["HT01"], "exclude": ["中古", "◆", "並行輸入", "スタンド", "ブラシ", "クリップ", "コーム", "フィルター", "交換", "ホルダー", "カバー"] },
+      "yahoo": { "keyword": "ダイソン Airstrait ストレイトナー HT01", "must": ["HT01"], "exclude": ["中古", "◆", "並行輸入", "スタンド", "ブラシ", "クリップ", "コーム", "フィルター", "交換", "ホルダー", "カバー"] },
+      "amazon": { "keyword": "Dyson Airstrait ストレイトナー HT01", "asin": null }
+    },
+    {
+      "id": "salonia-straight",
+      "brand": "SALONIA",
+      "name": "SALONIA ストレートヘアアイロン（24mm）",
+      "badge": "3千円台・比べる基準",
+      "summary": "120〜230℃をダイヤルで調整。AC100〜240V。プレートは15・24・35mmの3種類。",
+      "recommended": false,
+      "specs": {
+        "type": "ストレート（15・24・35mm）",
+        "price": "3,828円（SALONIA公式）",
+        "temp": "120〜230℃（ダイヤル）",
+        "volt": "AC100〜240V",
+        "weight": "24mmで約305〜345g（色で違う）"
+      },
+      "source": "https://salonia.jp/product/hair/iron/straight/",
+      "rakuten": { "keyword": "SALONIA サロニア ストレートヘアアイロン 24mm", "must": ["サロニア", "ストレート"], "exclude": ["中古", "◆", "並行輸入", "コードレス", "2WAY", "カール", "ミニ", "スムースシャイン", "グロッシー", "ケース", "ポーチ", "カバー"] },
+      "yahoo": { "keyword": "SALONIA サロニア ストレートヘアアイロン 24mm", "must": ["サロニア", "ストレート"], "exclude": ["中古", "◆", "並行輸入", "コードレス", "2WAY", "カール", "ミニ", "スムースシャイン", "グロッシー", "ケース", "ポーチ", "カバー"] },
+      "amazon": { "keyword": "SALONIA サロニア ストレートヘアアイロン 24mm", "asin": null }
+    },
+    {
+      "id": "salonia-cordless",
+      "brand": "SALONIA",
+      "name": "SALONIA コードレス ストレートヘアアイロン",
+      "badge": "コードレス・6千円台",
+      "summary": "約165g の充電式で、140・160・180℃の3段階。スマホに給電できる。電池を外せば機内に持ち込める。",
+      "recommended": false,
+      "specs": {
+        "type": "コードレス（ストレート）",
+        "price": "6,578円（SALONIA公式）",
+        "temp": "140／160／180℃",
+        "volt": "充電式（電池は取り外し式）",
+        "weight": "約165g（キャップなし）"
+      },
+      "source": "https://salonia.jp/product/hair/iron/cordless/",
+      "rakuten": { "keyword": "SALONIA サロニア コードレス ストレートヘアアイロン", "must": ["サロニア", "コードレス"], "exclude": ["中古", "◆", "並行輸入", "カール", "ドライヤー", "ブラシ", "ケース", "ポーチ", "カバー"] },
+      "yahoo": { "keyword": "SALONIA サロニア コードレス ストレートヘアアイロン", "must": ["サロニア", "コードレス"], "exclude": ["中古", "◆", "並行輸入", "カール", "ドライヤー", "ブラシ", "ケース", "ポーチ", "カバー"] },
+      "amazon": { "keyword": "SALONIA サロニア コードレス ストレートヘアアイロン", "asin": null }
+    }
+  ]
+}
