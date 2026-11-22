@@ -1,1 +1,5 @@
-[]
+[
+      {"task": "t1013-verify-rakuten-hot-plate.sh", "rc": 0, "out": "- 商品: 検索結果 46 件・型番「山善 XGRILL TRIPLE YHP-TX130」の表示: あり - 題名: 【楽天市場】山善 XGRILL TRIPLE YHP-TX130の通販 - 写真: Mac の手元のみ（private-shots/shop-verify/hot-plate-comparison-2026/v07-rakuten.jpg・公開しない） -rw-r--r--   1 ny  "},
+      {"task": "t1014-verify-yahoo-hot-plate.sh", "rc": 0, "out": "- 商品: 検索結果 30 件・型番「山善 XGRILL TRIPLE YHP-TX130」の表示: あり - 題名: 山善 XGRILL TRIPLE YHP-TX130のおすすめ人気商品一覧 通販 - Yahoo!ショッピング - 写真: Mac の手元のみ（private-shots/shop-verify/hot-plate-comparison-2026/v07-yahoo.jpg・"},
+      {"task": "t1015-verify-amazon-hot-plate.sh", "rc": 0, "out": "- 商品: 検索結果 0 件・型番「」の表示: —・カートに入れるボタンあり - 題名: Amazon.co.jp: [山善] 煙の少ない ホットプレート 焼き肉グリル XGRILL TRIPLE 一人暮らし 二人暮らし 「素早く、美味しく焼ける」 3枚 (焼肉/たこ焼 - �"}
+  ]
