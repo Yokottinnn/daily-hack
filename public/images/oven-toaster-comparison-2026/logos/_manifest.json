@@ -1,0 +1,53 @@
+{
+ "balmuda.png": {
+  "brand": "バルミューダ",
+  "page": "https://commons.wikimedia.org/wiki/File:BALMUDA_company_logo.svg",
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/BALMUDA_company_logo.svg/960px-BALMUDA_company_logo.svg.png",
+  "lic": "Public domain",
+  "fetched": "2026-11-22",
+  "via": "Wikimedia Commons"
+ },
+ "aladdin.png": {
+  "brand": "アラジン",
+  "src": "https://aladdin-aic.com/commons/images/logo_footer.png",
+  "page": "https://aladdin-aic.com/",
+  "lic": "商標（識別目的）",
+  "fetched": "2026-11-22",
+  "note": "公式サイトのフッターのロゴ（ランプのマークと「くらしに あたたかい 魔法を」）。改変なし"
+ },
+ "siroca.png": {
+  "brand": "シロカ",
+  "src": "https://www.siroca.co.jp/wp-content/themes/siroca_corp/img/common/logo.svg",
+  "page": "https://www.siroca.co.jp/",
+  "lic": "商標（識別目的）",
+  "fetched": "2026-11-22",
+  "note": "SVG を Chromium で PNG にした（scripts/svg-to-png.mjs）"
+ },
+ "panasonic.png": {
+  "brand": "パナソニック",
+  "page": "https://commons.wikimedia.org/wiki/File:Panasonic_Group_logo.svg",
+  "lic": "Public domain",
+  "fetched": "2026-10-18",
+  "copied_from": "public/images/cordless-stick-cleaner-comparison-2026/logos/panasonic.png"
+ },
+ "zojirushi.png": {
+  "brand": "象印",
+  "title": "File:Zojirushi Logo.svg",
+  "page": "https://en.wikipedia.org/wiki/File:Zojirushi_Logo.svg",
+  "src": "https://thumb.wikimedia.org/wikipedia/en/thumb/5/5f/Zojirushi_Logo.svg/960px-Zojirushi_Logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "orig": "https://upload.wikimedia.org/wikipedia/en/5/5f/Zojirushi_Logo.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+  "license": "Fair use",
+  "fetched": "2026-10-18",
+  "task": "ops/tasks/x317-product-brand-logos-wiki.sh",
+  "copied_from": "public/images/zojirushi-steam-humidifier-2026/logos/zojirushi.png"
+ },
+ "tiger.png": {
+  "brand": "タイガー魔法瓶",
+  "src": "https://www.tiger-corporation.com/wp-content/themes/tiger-corporation/assets/images/tiger-logo.svg",
+  "page": "https://www.tiger-corporation.com/ja/jpn/",
+  "lic": "商標（識別目的）",
+  "fetched": "2026-11-20",
+  "note": "白抜き版。表示は on-dark の枠",
+  "copied_from": "public/images/rakuten-blackfriday-vs-supersale-dec-2026/logos/tiger.png"
+ }
+}
