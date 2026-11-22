@@ -66,12 +66,31 @@ try {
       // 期間の一覧が開いていなければ、いま選ばれている期間（「今日」など）のボタンを押して開く。切り替えられたかは range に残す
       let range = null;
       if (e.id === 'adsense' && /\/reporting/.test(u)) {
-        const vis = (loc) => loc.filter({ visible: true }).first();
-        const month = () => vis(p.getByText('今月', { exact: true }));
-        let ok = await month().click({ timeout: 4000 }).then(() => true).catch(() => false);
-        if (!ok) { await vis(p.getByText(/^(今日|過去 7 日間|過去 30 日間|先月|カスタム)$/)).click({ timeout: 4000 }).catch(() => {}); await p.waitForTimeout(1500); ok = await month().click({ timeout: 4000 }).then(() => true).catch(() => false); }
+        // t777: Playwright の filter({visible}) が Mac の版で効かず、押せなかった。画面の中で「今月」とだけ書かれた見えている要素を探し、押せる親（ボタン・チップ・選択肢）を押す
+        const clickText = (re) => p.evaluate((src) => {
+          const re = new RegExp(src);
+          const vis = (e) => { const r = e.getBoundingClientRect(); const cs = getComputedStyle(e); return r.width > 0 && r.height > 0 && cs.visibility !== 'hidden' && cs.display !== 'none'; };
+          const els = [...document.querySelectorAll('body *')].filter((e) => re.test((e.innerText || e.textContent || '').trim()) && vis(e));
+          els.sort((a, b) => a.querySelectorAll('*').length - b.querySelectorAll('*').length);   // いちばん内側の要素から
+          const t = els[0]; if (!t) return '';
+          const c = t.closest('button, [role=button], [role=option], [role=radio], [role=tab], [role=menuitem], [role=menuitemradio], material-chip, mat-chip, a') || t;
+          c.click(); return (c.tagName + ' ' + (c.getAttribute('role') || '')).trim();
+        }, re.source).catch(() => '');
+        let how = await clickText(/^今月$/);
+        await p.waitForTimeout(3000);
+        // 選ばれている期間は、その文字の次の行に「check」（チェックの印）が出る（t696）。aria-selected／aria-checked も見る
+        const selected = () => p.evaluate(() => {
+          const L = ((document.querySelector('[role=main], main') || document.body).innerText || '').split('\n').map((x) => x.trim()).filter(Boolean);
+          const byCheck = L.findIndex((x, i) => /^(今日|過去 \d+ 日間|今月|先月|カスタム)$/.test(x) && L[i + 1] === 'check');
+          if (byCheck >= 0) return L[byCheck];
+          const a = [...document.querySelectorAll('[aria-selected=true], [aria-checked=true]')].map((e) => (e.innerText || '').trim()).find((x) => /^(今日|過去 \d+ 日間|今月|先月)$/.test(x));
+          return a || '';
+        }).catch(() => '');
+        if (await selected() !== '今月') { await clickText(/^(今日|過去 7 日間|過去 30 日間|先月)$/); await p.waitForTimeout(1500); how = await clickText(/^今月$/) || how; await p.waitForTimeout(3000); }
         await p.waitForTimeout(8000);
-        range = ok ? '今月' : '今日（切り替えに失敗）';
+        const sel = await selected();
+        lines.push(`- 「今月」を押した: ${how || '押せない'}・選ばれている期間: ${sel || '読めない'}`);
+        range = sel === '今月' ? '今月' : `${sel || '不明'}（今月への切り替えに失敗）`;
         lines.push(`- 期間: ${range}`);
       }
 
