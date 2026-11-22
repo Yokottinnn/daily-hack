@@ -1,0 +1,28 @@
+{
+ "panasonic.png": {
+  "brand": "パナソニック",
+  "copied_from": "public/images/premium-hair-dryer-comparison-2026/logos/panasonic.png",
+  "page": "https://commons.wikimedia.org/wiki/File:Panasonic_Group_logo.svg",
+  "fetched": "2026-11-22"
+ },
+ "refa.png": {
+  "brand": "ReFa（MTG）",
+  "copied_from": "public/images/premium-hair-dryer-comparison-2026/logos/refa.png",
+  "page": "https://www.refa.net/",
+  "fetched": "2026-11-22"
+ },
+ "salonia.png": {
+  "brand": "SALONIA",
+  "copied_from": "public/images/premium-hair-dryer-comparison-2026/logos/salonia.png",
+  "page": "https://salonia.jp/",
+  "src": "https://salonia.jp/img/svg/logo.svg",
+  "fetched": "2026-11-22"
+ },
+ "yaman.png": {
+  "brand": "ヤーマン（YA-MAN TOKYO JAPAN）",
+  "src": "https://www.ya-man.com/Contents%2fFeature%2flogo_yaman.png",
+  "page": "https://www.ya-man.com/",
+  "note": "公式サイトのトップのブランドロゴ（ops/tasks/t950 で取得・改変なし）",
+  "fetched": "2026-11-22"
+ }
+}
