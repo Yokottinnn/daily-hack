@@ -1,13 +1,28 @@
 {
   "id": "neck-foot-massager",
   "title": "首・肩・足のマッサージ器（医療機器か・どこに当てるか）",
-  "_note": "仕様は各社の公式の製品ページ・仕様ページ・ニュースリリースの記載だけ（2026-11-22 にクラウドから直接読んで確認）。医療機器かどうかは、公式の仕様に医療機器認証番号があるかで分けた。マッサージガン 3 機種は公式の仕様に認証番号の記載がない",
+  "_note": "仕様は各社の公式の製品ページ・仕様ページ・ニュースリリースの記載だけ（2026-11-22 にクラウドから直接読んで確認）。医療機器かどうかは、公式の仕様に医療機器認証番号があるかで分けた。マッサージガン 3 機種は公式の仕様に認証番号の記載がない。Amazon の ASIN は Mac で Amazon の検索結果を読み、題名に型番が入っていて広告枠でないものを選んだ（ops/tasks t941）。SIXPAD は限定セットしか出ず、ルルドガン モバイルは型番の一致が無かったので検索リンクのまま",
   "columns": [
-    { "key": "part", "label": "当てる場所" },
-    { "key": "medical", "label": "医療機器か" },
-    { "key": "power", "label": "電源" },
-    { "key": "weight", "label": "重さ（本体）" },
-    { "key": "timer", "label": "自動で止まるまで" }
+    {
+      "key": "part",
+      "label": "当てる場所"
+    },
+    {
+      "key": "medical",
+      "label": "医療機器か"
+    },
+    {
+      "key": "power",
+      "label": "電源"
+    },
+    {
+      "key": "weight",
+      "label": "重さ（本体）"
+    },
+    {
+      "key": "timer",
+      "label": "自動で止まるまで"
+    }
   ],
   "pricesCheckedAt": null,
   "items": [
@@ -20,15 +35,48 @@
       "recommended": true,
       "specs": {
         "part": "首・肩",
-        "medical": "管理医療機器（認証番号 308AHBZX00014000）",
-        "power": "充電式（約3時間で満充電）",
+        "medical": "管理医療機器",
+        "power": "充電式",
         "weight": "約1.2kg",
         "timer": "約10分"
       },
       "source": "https://www.dr-air.com/jp/ja/support/spec/?product=26657",
-      "rakuten": { "keyword": "ドクターエア 3Dネックマッサージャープレミアム SMART MN-10", "must": ["MN-10"], "exclude": ["交換", "専用", "対応", "カバーのみ", "USBコード", "◆", "中古", "並行輸入"] },
-      "yahoo": { "keyword": "ドクターエア 3Dネックマッサージャープレミアム SMART MN-10", "must": ["MN-10"], "exclude": ["交換", "専用", "対応", "カバーのみ", "USBコード", "◆", "中古", "並行輸入"] },
-      "amazon": { "keyword": "ドクターエア 3Dネックマッサージャープレミアム SMART MN-10", "asin": null }
+      "rakuten": {
+        "keyword": "ドクターエア 3Dネックマッサージャープレミアム SMART MN-10",
+        "must": [
+          "MN-10"
+        ],
+        "exclude": [
+          "交換",
+          "専用",
+          "対応",
+          "カバーのみ",
+          "USBコード",
+          "◆",
+          "中古",
+          "並行輸入"
+        ]
+      },
+      "yahoo": {
+        "keyword": "ドクターエア 3Dネックマッサージャープレミアム SMART MN-10",
+        "must": [
+          "MN-10"
+        ],
+        "exclude": [
+          "交換",
+          "専用",
+          "対応",
+          "カバーのみ",
+          "USBコード",
+          "◆",
+          "中古",
+          "並行輸入"
+        ]
+      },
+      "amazon": {
+        "keyword": "ドクターエア 3Dネックマッサージャープレミアム SMART MN-10",
+        "asin": "B0H8YGDG1S"
+      }
     },
     {
       "id": "lourdes-ax-hj186",
@@ -39,15 +87,44 @@
       "recommended": true,
       "specs": {
         "part": "首・ふくらはぎ",
-        "medical": "管理医療機器（認証番号 308AHBZX00001000）",
-        "power": "コンセント（ACアダプター）",
+        "medical": "管理医療機器",
+        "power": "コンセント",
         "weight": "約900g",
         "timer": "10分"
       },
       "source": "https://www.atex-net.co.jp/products/lourdes/AX-HJ186/",
-      "rakuten": { "keyword": "アテックス ルルド くびレッチ AX-HJ186", "must": ["HJ186"], "exclude": ["交換", "専用", "対応", "カバー", "◆", "中古"] },
-      "yahoo": { "keyword": "アテックス ルルド くびレッチ AX-HJ186", "must": ["HJ186"], "exclude": ["交換", "専用", "対応", "カバー", "◆", "中古"] },
-      "amazon": { "keyword": "アテックス ルルド くびレッチ AX-HJ186", "asin": null }
+      "rakuten": {
+        "keyword": "アテックス ルルド くびレッチ AX-HJ186",
+        "must": [
+          "HJ186"
+        ],
+        "exclude": [
+          "交換",
+          "専用",
+          "対応",
+          "カバー",
+          "◆",
+          "中古"
+        ]
+      },
+      "yahoo": {
+        "keyword": "アテックス ルルド くびレッチ AX-HJ186",
+        "must": [
+          "HJ186"
+        ],
+        "exclude": [
+          "交換",
+          "専用",
+          "対応",
+          "カバー",
+          "◆",
+          "中古"
+        ]
+      },
+      "amazon": {
+        "keyword": "アテックス ルルド くびレッチ AX-HJ186",
+        "asin": "B0GVHRR8RB"
+      }
     },
     {
       "id": "panasonic-ew-ra192",
@@ -58,15 +135,44 @@
       "recommended": true,
       "specs": {
         "part": "足先〜太もも",
-        "medical": "管理医療機器（認証番号 306AKBZX00015000）",
-        "power": "コンセント（ACアダプター）",
+        "medical": "管理医療機器",
+        "power": "コンセント",
         "weight": "約2.1kg",
         "timer": "約10分"
       },
       "source": "https://panasonic.jp/massage_parts/products/EW-RA192/spec.html",
-      "rakuten": { "keyword": "パナソニック はくだけキュッとリフレ EW-RA192", "must": ["RA192"], "exclude": ["交換", "専用", "対応", "カバー", "◆", "中古"] },
-      "yahoo": { "keyword": "パナソニック はくだけキュッとリフレ EW-RA192", "must": ["RA192"], "exclude": ["交換", "専用", "対応", "カバー", "◆", "中古"] },
-      "amazon": { "keyword": "パナソニック はくだけキュッとリフレ EW-RA192", "asin": null }
+      "rakuten": {
+        "keyword": "パナソニック はくだけキュッとリフレ EW-RA192",
+        "must": [
+          "RA192"
+        ],
+        "exclude": [
+          "交換",
+          "専用",
+          "対応",
+          "カバー",
+          "◆",
+          "中古"
+        ]
+      },
+      "yahoo": {
+        "keyword": "パナソニック はくだけキュッとリフレ EW-RA192",
+        "must": [
+          "RA192"
+        ],
+        "exclude": [
+          "交換",
+          "専用",
+          "対応",
+          "カバー",
+          "◆",
+          "中古"
+        ]
+      },
+      "amazon": {
+        "keyword": "パナソニック はくだけキュッとリフレ EW-RA192",
+        "asin": "B0DFXXD71J"
+      }
     },
     {
       "id": "fuji-kc-330",
@@ -77,15 +183,44 @@
       "recommended": false,
       "specs": {
         "part": "足裏・ふくらはぎ",
-        "medical": "管理医療機器（認証番号 303ABBZX00056000）",
-        "power": "コンセント（AC100V）",
+        "medical": "管理医療機器",
+        "power": "コンセント",
         "weight": "約11kg",
         "timer": "約15分"
       },
       "source": "https://www.fujiiryoki.co.jp/product/smallmassager/kc330/index.html",
-      "rakuten": { "keyword": "フジ医療器 フットマッサージャー KC-330", "must": ["KC-330"], "exclude": ["交換", "専用", "対応", "カバー", "◆", "中古"] },
-      "yahoo": { "keyword": "フジ医療器 フットマッサージャー KC-330", "must": ["KC-330"], "exclude": ["交換", "専用", "対応", "カバー", "◆", "中古"] },
-      "amazon": { "keyword": "フジ医療器 フットマッサージャー KC-330", "asin": null }
+      "rakuten": {
+        "keyword": "フジ医療器 フットマッサージャー KC-330",
+        "must": [
+          "KC-330"
+        ],
+        "exclude": [
+          "交換",
+          "専用",
+          "対応",
+          "カバー",
+          "◆",
+          "中古"
+        ]
+      },
+      "yahoo": {
+        "keyword": "フジ医療器 フットマッサージャー KC-330",
+        "must": [
+          "KC-330"
+        ],
+        "exclude": [
+          "交換",
+          "専用",
+          "対応",
+          "カバー",
+          "◆",
+          "中古"
+        ]
+      },
+      "amazon": {
+        "keyword": "フジ医療器 フットマッサージャー KC-330",
+        "asin": "B0BDDNBFWT"
+      }
     },
     {
       "id": "lourdes-ax-hp117",
@@ -96,15 +231,44 @@
       "recommended": false,
       "specs": {
         "part": "足",
-        "medical": "管理医療機器（認証番号 305AGBZX00060000）",
-        "power": "コンセント（ACアダプター）",
+        "medical": "管理医療機器",
+        "power": "コンセント",
         "weight": "約2.0kg",
         "timer": "約15分"
       },
       "source": "https://www.atex-net.co.jp/products/lourdes/AX-HP117/",
-      "rakuten": { "keyword": "アテックス ルルド プロもみフットマッサージャー AX-HP117", "must": ["HP117"], "exclude": ["交換", "専用", "対応", "カバー", "◆", "中古"] },
-      "yahoo": { "keyword": "アテックス ルルド プロもみフットマッサージャー AX-HP117", "must": ["HP117"], "exclude": ["交換", "専用", "対応", "カバー", "◆", "中古"] },
-      "amazon": { "keyword": "アテックス ルルド プロもみフットマッサージャー AX-HP117", "asin": null }
+      "rakuten": {
+        "keyword": "アテックス ルルド プロもみフットマッサージャー AX-HP117",
+        "must": [
+          "HP117"
+        ],
+        "exclude": [
+          "交換",
+          "専用",
+          "対応",
+          "カバー",
+          "◆",
+          "中古"
+        ]
+      },
+      "yahoo": {
+        "keyword": "アテックス ルルド プロもみフットマッサージャー AX-HP117",
+        "must": [
+          "HP117"
+        ],
+        "exclude": [
+          "交換",
+          "専用",
+          "対応",
+          "カバー",
+          "◆",
+          "中古"
+        ]
+      },
+      "amazon": {
+        "keyword": "アテックス ルルド プロもみフットマッサージャー AX-HP117",
+        "asin": "B0CLL68G6S"
+      }
     },
     {
       "id": "sixpad-power-gun-active",
@@ -114,16 +278,51 @@
       "summary": "振動は約1,800〜3,000回/分の5段階。アタッチメント4種とポーチが付く。",
       "recommended": false,
       "specs": {
-        "part": "全身（当てる場所を選ぶ）",
-        "medical": "医療機器ではない（認証番号の記載なし）",
-        "power": "充電式（約3時間30分で満充電）",
+        "part": "全身（自分で当てる）",
+        "medical": "医療機器ではない",
+        "power": "充電式",
         "weight": "約425g",
         "timer": "約10分"
       },
       "source": "https://www.mtgec.jp/wellness/sixpad/products/powergunactive/",
-      "rakuten": { "keyword": "SIXPAD パワーガンアクティブ SE-BW", "must": ["パワーガン", "アクティブ"], "exclude": ["交換", "専用", "対応", "アタッチメント", "ケース", "◆", "中古", "並行輸入"] },
-      "yahoo": { "keyword": "SIXPAD パワーガンアクティブ SE-BW", "must": ["パワーガン", "アクティブ"], "exclude": ["交換", "専用", "対応", "アタッチメント", "ケース", "◆", "中古", "並行輸入"] },
-      "amazon": { "keyword": "SIXPAD Power Gun Active パワーガンアクティブ", "asin": null }
+      "rakuten": {
+        "keyword": "SIXPAD パワーガンアクティブ SE-BW",
+        "must": [
+          "パワーガン",
+          "アクティブ"
+        ],
+        "exclude": [
+          "交換",
+          "専用",
+          "対応",
+          "アタッチメント",
+          "ケース",
+          "◆",
+          "中古",
+          "並行輸入"
+        ]
+      },
+      "yahoo": {
+        "keyword": "SIXPAD パワーガンアクティブ SE-BW",
+        "must": [
+          "パワーガン",
+          "アクティブ"
+        ],
+        "exclude": [
+          "交換",
+          "専用",
+          "対応",
+          "アタッチメント",
+          "ケース",
+          "◆",
+          "中古",
+          "並行輸入"
+        ]
+      },
+      "amazon": {
+        "keyword": "SIXPAD Power Gun Active パワーガンアクティブ",
+        "asin": null
+      }
     },
     {
       "id": "drair-exagun-hyper",
@@ -133,16 +332,49 @@
       "summary": "約220gの小型で、振幅は7mm。振動3段階のほかに約650回/分のフェイスモードがある。",
       "recommended": false,
       "specs": {
-        "part": "全身（当てる場所を選ぶ）",
-        "medical": "医療機器ではない（認証番号の記載なし）",
-        "power": "充電式（約2時間で満充電）",
+        "part": "全身（自分で当てる）",
+        "medical": "医療機器ではない",
+        "power": "充電式",
         "weight": "約220g",
         "timer": "約10分"
       },
       "source": "https://www.dr-air.com/jp/ja/support/spec/?product=14832",
-      "rakuten": { "keyword": "ドクターエア エクサガン ハイパー REG-04", "must": ["REG-04"], "exclude": ["交換", "専用", "対応", "アタッチメント", "アダプタ", "◆", "中古", "並行輸入"] },
-      "yahoo": { "keyword": "ドクターエア エクサガン ハイパー REG-04", "must": ["REG-04"], "exclude": ["交換", "専用", "対応", "アタッチメント", "アダプタ", "◆", "中古", "並行輸入"] },
-      "amazon": { "keyword": "ドクターエア エクサガン ハイパー REG-04", "asin": null }
+      "rakuten": {
+        "keyword": "ドクターエア エクサガン ハイパー REG-04",
+        "must": [
+          "REG-04"
+        ],
+        "exclude": [
+          "交換",
+          "専用",
+          "対応",
+          "アタッチメント",
+          "アダプタ",
+          "◆",
+          "中古",
+          "並行輸入"
+        ]
+      },
+      "yahoo": {
+        "keyword": "ドクターエア エクサガン ハイパー REG-04",
+        "must": [
+          "REG-04"
+        ],
+        "exclude": [
+          "交換",
+          "専用",
+          "対応",
+          "アタッチメント",
+          "アダプタ",
+          "◆",
+          "中古",
+          "並行輸入"
+        ]
+      },
+      "amazon": {
+        "keyword": "ドクターエア エクサガン ハイパー REG-04",
+        "asin": "B0B9GJ1KT9"
+      }
     },
     {
       "id": "lourdes-ax-hx458",
@@ -152,16 +384,45 @@
       "summary": "手のひらに収まる約170g。ヘッドが温まり、ヒーターだけでも使える。2026年9月1日発売。",
       "recommended": false,
       "specs": {
-        "part": "全身（当てる場所を選ぶ）",
-        "medical": "医療機器ではない（認証番号の記載なし）",
-        "power": "充電式（約1.5時間で満充電）",
+        "part": "全身（自分で当てる）",
+        "medical": "医療機器ではない",
+        "power": "充電式",
         "weight": "約170g",
         "timer": "5分"
       },
       "source": "https://www.atex-net.co.jp/products/lourdes/AX-HX458/",
-      "rakuten": { "keyword": "アテックス ルルドガン モバイル AX-HX458", "must": ["HX458"], "exclude": ["交換", "専用", "対応", "ヘッド", "◆", "中古"] },
-      "yahoo": { "keyword": "アテックス ルルドガン モバイル AX-HX458", "must": ["HX458"], "exclude": ["交換", "専用", "対応", "ヘッド", "◆", "中古"] },
-      "amazon": { "keyword": "アテックス ルルドガン モバイル AX-HX458", "asin": null }
+      "rakuten": {
+        "keyword": "アテックス ルルドガン モバイル AX-HX458",
+        "must": [
+          "HX458"
+        ],
+        "exclude": [
+          "交換",
+          "専用",
+          "対応",
+          "ヘッド",
+          "◆",
+          "中古"
+        ]
+      },
+      "yahoo": {
+        "keyword": "アテックス ルルドガン モバイル AX-HX458",
+        "must": [
+          "HX458"
+        ],
+        "exclude": [
+          "交換",
+          "専用",
+          "対応",
+          "ヘッド",
+          "◆",
+          "中古"
+        ]
+      },
+      "amazon": {
+        "keyword": "アテックス ルルドガン モバイル AX-HX458",
+        "asin": null
+      }
     }
   ]
 }

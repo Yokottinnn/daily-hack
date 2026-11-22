@@ -1,6 +1,8 @@
 [
-      {"task": "t962-find-pages-hair-iron.sh", "rc": 0, "out": "  - https://item.rakuten.co.jp/dejikura/4571607698328/｜6,578｜SALONIA サロニア コードレス ストレートヘアアイロン 12mm KSAL26131-GR グレー KSAL26131GR (納期目安1-2週間)   - https://item.rakuten.co.jp/dejikura/4571607698311/｜6,578｜SALONIA サロニア コードレ�"},
-      {"task": "t963-verify-rakuten-hair-iron.sh", "rc": 0, "out": "- 商品: 検索結果 50 件・型番「SALONIA サロニア コードレス ストレートヘアアイロン」の表示: あり - 題名: 【楽天市場】SALONIA サロニア コードレス ストレートヘアアイロンの通販 - 写真: Mac の手元のみ（private-shots/shop-verify/ha"},
-      {"task": "t964-verify-yahoo-hair-iron.sh", "rc": 0, "out": "- 商品: 検索結果 9 件・型番「」の表示: — - 題名: SALONIA サロニア コードレス ストレートヘアアイロンのおすすめ人気商品一覧 通販 - Yahoo!ショッピング - 写真: Mac の手元のみ（private-shots/shop-verify/hair-iron-comparison-2026/v16-yahoo."},
-      {"task": "t965-verify-amazon-hair-iron.sh", "rc": 0, "out": "- 商品: 検索結果 56 件・型番「SALONIA サロニア コードレス ストレートヘアアイロン」の表示: あり・カートに入れるボタンあり - 題名: Amazon.co.jp : SALONIA サロニア コードレス ストレートヘアアイロン - 写真: Mac の手元のみ（p"}
+      {"task": "t932-verify-rakuten-oven-toaster.sh", "rc": 0, "out": "- 商品: 検索結果 50 件・型番「シロカ すばやきトースター ST-2D451」の表示: あり - 題名: 【楽天市場】シロカ すばやきトースター ST-2D451の通販 - 写真: Mac の手元のみ（private-shots/shop-verify/oven-toaster-comparison-2026/v08-rakuten.jpg・公"},
+      {"task": "t933-verify-yahoo-oven-toaster.sh", "rc": 0, "out": "- 商品: 検索結果 10 件・型番「」の表示: — - 題名: シロカ すばやきトースター ST-2D451のおすすめ人気商品一覧 通販 - Yahoo!ショッピング - 写真: Mac の手元のみ（private-shots/shop-verify/oven-toaster-comparison-2026/v16-yahoo.jpg・公開しな�"},
+      {"task": "t934-verify-amazon-oven-toaster.sh", "rc": 0, "out": "- 商品: 検索結果 0 件・型番「」の表示: —・カートに入れるボタンあり - 題名: Amazon | シロカ すばやきトースター ST-2D451 ブラック｜オーブントースター トースター 庫内高10cm 90秒で極上トースト 炎風テクノロジー 温度40～2"},
+      {"task": "t942-verify-rakuten-massager.sh", "rc": 0, "out": "- 商品: 検索結果 45 件・型番「アテックス ルルドガン モバイル AX-HX458」の表示: あり - 題名: 【楽天市場】アテックス ルルドガン モバイル AX-HX458の通販 - 写真: Mac の手元のみ（private-shots/shop-verify/massager-comparison-2026/v08-rakuten"},
+      {"task": "t943-verify-yahoo-massager.sh", "rc": 0, "out": "- 商品: 検索結果 6 件・型番「」の表示: — - 題名: アテックス ルルドガン モバイル AX-HX458のおすすめ人気商品一覧 通販 - Yahoo!ショッピング - 写真: Mac の手元のみ（private-shots/shop-verify/massager-comparison-2026/v16-yahoo.jpg・公開しな"},
+      {"task": "t944-verify-amazon-massager.sh", "rc": 0, "out": "- 商品: 検索結果 17 件・型番「アテックス ルルドガン モバイル AX-HX458」の表示: あり・カートに入れるボタンあり - 題名: Amazon.co.jp : アテックス ルルドガン モバイル AX-HX458 - 写真: Mac の手元のみ（private-shots/shop-verify/massager-"}
   ]
