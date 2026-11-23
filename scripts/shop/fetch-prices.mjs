@@ -78,7 +78,8 @@ for (const f of fs.readdirSync(DIR).filter((x) => x.endsWith('.json') && x !== '
       try { row[store] = await fn(q); } catch (e) { row[store] = { error: String(e.message || e).slice(0, 200) }; out.errors.push(`${sid}/${it.id}/${store}: ${row[store].error}`); }
       // 2026-11-23 affiliate: 鍵が無くて問い合わせなかった店（いまは楽天）は待たない。商品が 283 件に増え、
       // 待ち時間だけで 10 分を超えて Mac の上限（mac-weekly の 300 秒）で止められ、11/23 の朝の価格が出なかった
-      if (!(row[store] && row[store].skipped)) await sleep(1100);
+      // 2026-11-24: 楽天を待たなくなった分、Yahoo! の問い合わせの間が 1.1 秒に縮まり、27 件が HTTP 429（回数の上限）になった。Yahoo! は 2 秒あける
+      if (!(row[store] && row[store].skipped)) await sleep(store === 'yahoo' ? 2000 : 1100);
     }
     out.series[sid][it.id] = row;
   }
