@@ -106,7 +106,7 @@ if [ -n "$NODE_BIN" ] && [ -s "$SJS" ] && ls "$SDIR"/*.json >/dev/null 2>&1; the
   ( export RAKUTEN_APP_ID="$(security find-generic-password -s dailyhack-rakuten-ws -a applicationId -w 2>/dev/null)"
     export RAKUTEN_ACCESS_KEY="$(security find-generic-password -s dailyhack-rakuten-ws -a accessKey -w 2>/dev/null)"
     export YAHOO_APP_ID="$(security find-generic-password -s dailyhack-yahoo-shopping -a clientId -w 2>/dev/null)"
-    run_limited 300 "$NODE_BIN" "$SJS" --dir "$SDIR" --out "$WORK/shop-prices.json" > "$WORK/shop.log" 2>&1 )
+    run_limited 900 "$NODE_BIN" "$SJS" --dir "$SDIR" --out "$WORK/shop-prices.json" > "$WORK/shop.log" 2>&1 )   # 2026-11-23: 商品 283 件・1 件 1.1 秒で 300 秒では足りない
   # **rc では判断しない。** 読めて、どこか 1 店でも当たりがあるときだけ置く（全部外れのファイルで前回を上書きしない）
   if "$NODE_BIN" -e 'const j=JSON.parse(require("fs").readFileSync(process.argv[1],"utf8"));const n=Object.values(j.series||{}).flatMap(s=>Object.values(s)).flatMap(r=>Object.values(r)).filter(x=>x&&x.found).length;process.exit(n>0?0:1)' "$WORK/shop-prices.json" 2>/dev/null; then
     mv "$WORK/shop-prices.json" "$BOARD/shop-prices.json"; SHOP_OK=true
