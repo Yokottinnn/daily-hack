@@ -26,7 +26,7 @@ references:
   - "https://prtimes.jp/main/html/rd/p/000000264.000098799.html"
   - "https://www.aboutamazon.jp/news/devices/androidos-amazon-kids-tablet-series"
   - "https://japan.cnet.com/article/35253390/"
-  - "https://www.amazon.co.jp/dp/B0C2XN8HKD"
+  - "https://www.amazon.co.jp/dp/B0C2XN8HKD?tag=dailyhack-22"
 ---
 
 「動画と読書くらいしか使わないなら、2万円台のタブレットで足りる？それとも結局 iPad を買ったほうがいい？」「容量は64GBで足りるの？何年使えるの？」——年末の贈り物やブラックフライデーの前に、ここで手が止まっている人は多いはず。
