@@ -1,0 +1,43 @@
+{
+ "braun.png": {
+  "brand": "ブラウン",
+  "title": "File:Braun Logo.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Braun_Logo.svg",
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Braun_Logo.svg/500px-Braun_Logo.svg.png",
+  "license": "Public domain（商標）",
+  "fetched": "2026-11-22",
+  "copied_from": "/images/hand-blender-comparison-2026/logos/braun.png"
+ },
+ "iris.png": {
+  "brand": "アイリスオーヤマ",
+  "src": "https://www.irisohyama.co.jp/images/common/logo.svg",
+  "page": "https://www.irisohyama.co.jp/products/electrical-appliances/cooking-appliances/pressure-cooker/electric-pressure-cooker",
+  "note": "公式サイトのヘッダーのロゴ（ops/tasks/t841 で Mac が取得。SVG を Chromium で PNG にした）",
+  "fetched": "2026-11-22",
+  "copied_from": "/images/electric-pressure-cooker-comparison-2026/logos/iris.png"
+ },
+ "yamazen.png": {
+  "brand": "山善（YAMAZEN）",
+  "src": "https://www.yamazen.co.jp/themes/yamazen-2025/assets/images/logo/logo_01.svg",
+  "page": "https://www.yamazen.co.jp/",
+  "note": "山善 公式サイトのヘッダーのロゴ（SVG を Chromium で PNG に。改変なし）",
+  "fetched": "2026-11-08",
+  "copied_from": "/images/hand-blender-comparison-2026/logos/yamazen.png"
+ },
+ "ninja.png": {
+  "brand": "Ninja",
+  "src": "https://www.sharkninja.jp/cdn/shop/files/logo_ninja.svg",
+  "page": "https://www.sharkninja.jp/products/fn100j",
+  "note": "SharkNinja 公式オンラインストアのヘッダーの Ninja のロゴ（SVG を PNG にした）",
+  "license": "商標（識別目的で使用）",
+  "fetched": "2026-11-24"
+ },
+ "cosori.png": {
+  "brand": "COSORI",
+  "src": "https://cdn.shopify.com/s/files/1/0628/6435/9667/files/COSOR_Lite_2.0L_air_fryer_user_manual.pdf",
+  "page": "https://vesync.jp/products/cosori-lite-2l-mini-air-fryer",
+  "note": "VeSync Japan 公式の COSORI 取扱説明書の表紙のロゴ（ベクターを描画して余白を落とした）",
+  "license": "商標（識別目的で使用）",
+  "fetched": "2026-11-24"
+ }
+}
