@@ -1,7 +1,4 @@
 [
-      {"task": "t1200-embed-portable-power-station.sh", "rc": 0, "out": "- X 2029678062632325582 @karakutisyokai ✔ 2026-03-05 ♥10 Jackery (ジャクリ) ポータブル電源 1500 New 100W ソーラーパネル 1枚 2点セット 1536Wh 大容量 90分でフル充電 リン酸鉄 長寿命 バッテリー 定 - X 2123828541511127369 @ysm82ysm82ysm82  2026-11-20 ♥7 "},
-      {"task": "t1201-find-pages-portable-power-station.sh", "rc": 0, "out": "  - https://item.rakuten.co.jp/anker/a1754/｜109,900｜【39,910円OFFクーポン 11/25まで】Anker Solix C800 Plus Portable Power Station ポータブル電源 768   - https://item.rakuten.co.jp/attojoystore/a1754511-anker-solix-c800/｜99,980｜【 A1754511】【アンカーソラ―バッテ�"},
-      {"task": "t1210-air-fryer-official-read.sh", "rc": 0, "out": "3407 ninja-4.svg 1590 ninja-svg1.svg 2984 ninja-svg2.svg  **読むだけ。LLM 不使用（$0／回）。**"},
-      {"task": "t1211-air-fryer-official-read-2.sh", "rc": 0, "out": "854 iris-svg2.svg 1233 philips-svg1.svg 348 philips-svg2.svg  **読むだけ。LLM 不使用（$0／回）。**"},
-      {"task": "t1212-embed-air-fryer.sh", "rc": 0, "out": "- X 2051144481777549357 @undefined  undefined ♥null  - X 2114212178035368215 @peko15mini  2026-10-25 ♥72 コソリ着弾だよ🏠 バスケットとプレートはお風呂(食洗機) に入ってもらってお仕事準備だよ👍 #コソリ #ノンフライヤー https://t.co/fCt8RpTxds - Y"}
+      {"task": "t1183-find-pages-electric-blanket-2.sh", "rc": 0, "out": "  - https://item.rakuten.co.jp/sekichu/4550533317442/｜6,980｜【即日出荷】山善 YAMAZEN 電気掛敷毛布 YMK-203 188×130 電気毛布   - https://item.rakuten.co.jp/biccamera/4550533317442/｜7,680｜山善｜YAMAZEN 電気毛布 掛け敷き両用 YMK-203 [掛・敷毛布]   - https://i"},
+      {"task": "t1184-electric-blanket-photos.sh", "rc": 0, "out": "385307 pana-lineup-4.jpg 48979 pana-lineup-5.jpg 3087 pana-lineup-6.png  **読むだけ。LLM 不使用（$0／回）。**"}
   ]
