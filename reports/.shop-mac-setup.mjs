@@ -212,6 +212,13 @@ try {
     await go('https://webservice.rakuten.co.jp/app/list');
     await rakutenRelogin();   // 本人確認のし直しに飛ばされたら、asp-sync と同じ Keychain で入り直す（t332）
     lines.push(`- 画面: ${here()}（${/login\.account/.test(p.url()) ? 'ログイン画面に飛ばされた' : 'アプリ一覧'}）・Application ID: ${appId ? appId.length + ' 文字' : '無い'}`);
+    // t1133: ボタンも code も 0 個だった。会社のプロファイルに替えた（11/15）ので、楽天ウェブサービスに入れていない可能性。題名と画面の文字（伏せる）を出す
+    { const t = await p.title().catch(() => ''); const txt = await p.evaluate(() => (document.body.innerText || '').split('\n').map((x) => x.trim()).filter(Boolean).slice(0, 25)).catch(() => []);
+      lines.push(`- 題名: ${t.slice(0, 60)}`, '- 画面の文字（伏せる）:', ...txt.filter((x) => !NG.test(x)).map((x) => `  - ${mask(x).slice(0, 100)}`));
+      // ログインの入口があれば、楽天会員でログインしてから一覧に戻る
+      const loginLink = p.locator('a:has-text("ログイン"), a:has-text("Login"), a:has-text("Sign in"), button:has-text("ログイン"), button:has-text("Login")').first();
+      if (await loginLink.count()) { lines.push('- ログインの入口があったので押す'); await loginLink.click({ timeout: 5000 }).catch(() => {}); await p.waitForTimeout(5000); await rakutenRelogin(); await go('https://webservice.rakuten.co.jp/app/list'); lines.push(`- 入り直したあとの画面: ${here()}（題名 ${(await p.title().catch(() => '')).slice(0, 60)}）`); }
+    }
     // 書き込みの横取り（ページ内のどの経路でコピーしても window.__copied に残る）
     await p.evaluate(() => {
       window.__copied = [];

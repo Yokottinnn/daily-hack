@@ -1,8 +1,16 @@
 # 3 店ボタンの Mac 側の準備: rakuten3（scripts/shop/mac-setup.mjs）
 
-生成: **2026-11-23T13:47:14.121Z**
+生成: **2026-11-23T13:54:48.879Z**
 
 - 画面: https://webservice.rakuten.co.jp/app/list（アプリ一覧）・Application ID: 36 文字
+- 題名: Error 503
+- 画面の文字（伏せる）:
+  - アクセスが集中し、ページを閲覧しにくい状態になっております
+  - エラー: 503 Service Temporarily Unavailable
+  - 現在、サーバへのアクセスが集中し、ページを閲覧しにくい状態になっております。
+  - ご迷惑をおかけしまして誠に申し訳ございませんが、しばらく経ってからアクセスしていただきますようお願い申し上げます。
+  - Reference #18.0ef9cb17.1795442091.4cba5159
+  - © Rakuten Group, Inc.
 - onclick: 0 個（）
 - data 属性の長い英数: なし
 - スクリプトの中の長い英数: 0 個
