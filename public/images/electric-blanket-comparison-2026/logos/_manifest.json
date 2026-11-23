@@ -1,0 +1,42 @@
+{
+ "panasonic.png": {
+  "brand": "パナソニック",
+  "page": "https://commons.wikimedia.org/wiki/File:Panasonic_Group_logo.svg",
+  "lic": "Public domain",
+  "fetched": "2026-10-18",
+  "copied_from": "public/images/hand-blender-comparison-2026/logos/panasonic.png"
+ },
+ "yamazen.png": {
+  "brand": "山善（YAMAZEN）",
+  "src": "https://www.yamazen.co.jp/themes/yamazen-2025/assets/images/logo/logo_01.svg",
+  "page": "https://www.yamazen.co.jp/",
+  "note": "山善 公式サイトのヘッダーのロゴ（SVG を Chromium で PNG に。改変なし）",
+  "fetched": "2026-11-08",
+  "copied_from": "public/images/hand-blender-comparison-2026/logos/yamazen.png"
+ },
+ "iris.png": {
+  "brand": "アイリスオーヤマ",
+  "page": "https://commons.wikimedia.org/wiki/File:IRIS_OHYAMA_logo.svg",
+  "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/IRIS_OHYAMA_logo.svg/500px-IRIS_OHYAMA_logo.svg.png",
+  "lic": "Public domain",
+  "fetched": "2026-11-22",
+  "via": "Wikimedia Commons",
+  "copied_from": "public/images/cordless-stick-cleaner-comparison-2026/logos/iris.png"
+ },
+ "koden.png": {
+  "brand": "広電（KODEN）",
+  "src": "https://koden-j.com/wp-content/uploads/2021/10/logo-koden-blue.svg",
+  "page": "https://koden-j.com/line-up/koden/electric-blanket/",
+  "lic": "商標（識別目的）",
+  "note": "広電 公式サイトのヘッダーのロゴ（SVG を Chrome で PNG に。余白だけ落とした・改変なし）",
+  "fetched": "2026-11-23"
+ },
+ "koizumi.png": {
+  "brand": "コイズミ（小泉成器）",
+  "src": "https://www.koizumiseiki.jp/assets/common/img/h_logo_koizumi_pc.png",
+  "page": "https://www.koizumiseiki.jp/",
+  "lic": "商標（識別目的）",
+  "note": "小泉成器 商品総合サイトのヘッダーのロゴ（余白だけ落とした・改変なし）",
+  "fetched": "2026-11-23"
+ }
+}

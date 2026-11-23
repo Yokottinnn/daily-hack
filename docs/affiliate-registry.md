@@ -109,6 +109,7 @@
 | `dashcam-comparison-2026` | 3 店ボタン（`src/data/shop/dashcam.json`） | 2026-11-23 追加。ドライブレコーダー 7 機種（コムテック・ケンウッド・ユピテル・パイオニア・セルスター・アルパイン。Amazon は 4 機種が ASIN） |
 | `tablet-comparison-2026` | 3 店ボタン（`src/data/shop/tablet.json`） | 2026-11-23 追加。タブレット 7 機種（iPad A16・iPad Air M4・iPad mini A20 Pro・Galaxy Tab A11+・Xiaomi Pad 8・REDMI Pad 2 9.7・Fire HD 10。Amazon は 7 機種すべて ASIN） |
 | `ereader-comparison-2026` | 3 店ボタン（`src/data/shop/ereader.json`） | 2026-11-23 追加。電子書籍リーダー 8 機種（Kindle 2026 年モデル 4・楽天Kobo 3・BOOX Go7。Amazon は 8 機種すべて ASIN。楽天は商品ページ） |
+| `electric-blanket-comparison-2026` | 3 店ボタン（`src/data/shop/electric-blanket.json`） | 2026-11-23 追加。電気毛布（掛け敷き兼用）8 機種（広電・山善 2・パナソニック 2・コイズミ 2・アイリスオーヤマ。Amazon は 6 機種が ASIN） |
 
 ## A8 のリンクを入れた湾岸ライフの記事（2026-10-25）
 
