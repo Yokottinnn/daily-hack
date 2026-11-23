@@ -1,5 +1,3 @@
 [
-      {"task": "t1215-verify-rakuten-air-fryer.sh", "rc": 0, "out": "- 商品: 検索結果 48 件・型番「山善 エアフライヤー YAH-AC120」の表示: あり - 題名: 【楽天市場】山善 エアフライヤー YAH-AC120の通販 - 写真: Mac の手元のみ（private-shots/shop-verify/air-fryer-comparison-2026/v07-rakuten.jpg・公開しない） -rw"},
-      {"task": "t1216-verify-yahoo-air-fryer.sh", "rc": 0, "out": "- 商品: 検索結果 32 件・型番「山善 エアフライヤー YAH-AC120」の表示: あり - 題名: 山善 エアフライヤー YAH-AC120のおすすめ人気商品一覧 通販 - Yahoo!ショッピング - 写真: Mac の手元のみ（private-shots/shop-verify/air-fryer-comparison-2026/"},
-      {"task": "t1217-verify-amazon-air-fryer.sh", "rc": 0, "out": "- 商品: 検索結果 0 件・型番「」の表示: —・カートに入れるボタンあり - 題名: Amazon.co.jp: [山善] ノンフライヤー 4.5L 大容量 電気フライヤー ノンオイル エアフライヤー 3~5人用 家庭用 卓上 揚げ物 惣菜 タイマー 温度調節 レ"}
+      {"task": "t1218-yahoo-braun-hf3030-search.sh", "rc": 0, "out": "- 「ブラウン ノンフライヤー」: 商品名 36 件・HF3030 を含む 0 件 - 「ブラウン マルチフライ3」: 商品名 31 件・HF3030 を含む 0 件 - 「BRAUN ノンフライヤー」: 商品名 34 件・HF3030 を含む 0 件  **読むだけ。LLM 不使用（$0／回）。**"}
   ]
