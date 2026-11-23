@@ -1,0 +1,5 @@
+[
+ {"key":"braun","dom":"braunhousehold\\.com","q":["site:braunhousehold.com マルチフライ HF3030","braunhousehold.com ja-jp ノンフライヤー マルチフライ 3"],"pick":"hf3030|multifry|multi-fry|マルチフライ|air-?fryer|フライヤー","direct":[]},
+ {"key":"ninja","dom":"ninjakitchen\\.jp|sharkninja\\.jp","q":["site:ninjakitchen.jp Crispi FN100J","Ninja Crispi FN100J 公式 ninjakitchen"],"pick":"crispi|fn10|air-?fryer|エアフライヤー","direct":["https://www.ninjakitchen.jp/"]},
+ {"key":"cosori","dom":"vesync\\.jp","q":["site:vesync.jp COSORI ノンフライヤー","vesync.jp cosori turbo blaze"],"pick":"cosori.*(fryer|blaze|caf|l501|lite|dual)|air-?fryer|フライヤー","direct":["https://vesync.jp/products/cosori-turbo-blaze-6l-air-fryer"]}
+]

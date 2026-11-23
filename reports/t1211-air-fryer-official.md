@@ -1,0 +1,208 @@
+# ノンフライヤーの公式ページ（t1211・**$0**）
+
+生成: **2026-11-24T07:26:51+0900**
+
+- Chrome: **CDP 18810 で応答あり**
+rc=0
+
+## philips
+- 検索「site:philips.co.jp ノンフライヤー 3000シリーズ」→ 公式 10 件
+  - ノンフライヤー - 油を使わないヘルシーな調理家電 | Philips — https://acc.philips.co.jp/c-m-ho/cooking/nonfryer
+  - Philips - フィリップス | Philips — https://www.philips.co.jp/
+  - 3000 シリーズ | Philips — https://www.philips.co.jp/c-m-pe/face-shavers/wet-dry-electric-shaver-3000
+  - Philips Sonicare Sonicare Cordless Power Flosser 3000 — https://acc.philips.co.jp/c-p/HX3826_31/cordless-power-flosser-3000-oral-irrigator/support
+  - フィリップス 3000 シリーズ | Philips — https://dev.philips.co.jp/c-m-pe/electric-toothbrushes/3000-series/latest
+  - ノンフライヤー アクセサリー 製品を比較・表示 | Philips — https://stg.philips.co.jp/c-m-ho/cooking-accessories/airfryer-accessories/latest
+- 検索「site:philips.co.jp エアフライヤー NA」→ 公式 10 件
+  - Philips - フィリップス | Philips — https://www.philips.co.jp/
+  - ノンフライヤー - 油を使わないヘルシーな調理家電 | Philips — https://acc.philips.co.jp/c-m-ho/cooking/nonfryer
+  - ノンフライヤー 製品を比較・表示 | Philips — https://www.philips.co.jp/c-m-ho/cooking/airfryer/latest
+  - 調理家電 製品を比較・表示 | Philips — https://stg.philips.co.jp/c-m-ho/cooking/all
+  - 調理家電。全ラインアップを見る | Philips — https://acc.philips.co.jp/c-m-ho/cooking/
+  - ビバコレクション ノンフライヤープラス ダブルレイヤーセット HD9531/62 | Philips — https://www.philips.co.jp/c-p/HD9531_62/viva-collection-digital-airfryer
+
+### philips-1
+- 「Viva Collection ノンフライヤー HD9227/52 | Philips」 https://www.philips.co.jp/c-p/HD9227_52/viva-collection-airfryer
+- 本文 2746 文字 / 画像（幅600以上）1 枚
+  - logo philips-svg1.svg（インライン SVG 1233 文字）
+  - logo philips-svg2.svg（インライン SVG 348 文字）
+  - img philips-1-1.jpg 0x0 22100B 「og:image」 https://images.philips.com/is/image/philipsconsumer/vrs_b34d069dc3ea81ddf4684a86647bf2908f4ba094?$png$&wid=1200&hei=630
+  - このページの製品リンク 2 件
+    - Cookie に関するポリシー — https://www.philips.co.jp/c-p/HD9227_52/viva-collection-airfryer
+    - この製品に関するサポート よくある質問（FAQ）、取扱説明書、安全性に関する情報、ヒントを検索 — https://www.philips.co.jp/c-p/HD9227_52/viva-collection-airfryer/support
+
+### philips-2
+- 「Viva Collection ノンフライヤー HD9220/27 | Philips」 https://www.philips.co.jp/c-p/HD9220_27/viva-collection-airfryer
+- 本文 3330 文字 / 画像（幅600以上）3 枚
+  - img philips-2-1.jpg 0x0 29674B 「og:image」 https://images.philips.com/is/image/philipsconsumer/vrs_63d7d271_2291_451d_a5cc966629ff912d?$png$&wid=1200&hei=630
+  - img philips-2-2.jpg 632x505 21184B 「Standard Product Photo Philips Viva Collection Airfryer HD92」 https://images.philips.com/is/image/philipsconsumer/vrs_63d7d271_2291_451d_a5cc966629ff912d?$png$&wid=632&hei=632&fit=constrain
+  - このページの製品リンク 2 件
+    - Cookie に関するポリシー — https://www.philips.co.jp/c-p/HD9220_27/viva-collection-airfryer
+    - この製品に関するサポート よくある質問（FAQ）、取扱説明書、安全性に関する情報、ヒントを検索 — https://www.philips.co.jp/c-p/HD9220_27/viva-collection-airfryer/support
+
+### philips-3
+- 「ビバコレクション ノンフライヤープラス　ダブルレイヤーセット HD9531/62 | Philips」 https://www.philips.co.jp/c-p/HD9531_62/viva-collection-digital-airfryer
+- 本文 3350 文字 / 画像（幅600以上）5 枚
+  - img philips-3-1.jpg 0x0 27323B 「og:image」 https://images.philips.com/is/image/philipsconsumer/vrs_68ede96e_0cc4_4c5b_8c03830e307c1542?$png$&wid=1200&hei=630
+  - img philips-3-2.jpg 632x632 28857B 「Standard Product Photo Philips Viva Collection Digital Airfr」 https://images.philips.com/is/image/philipsconsumer/vrs_68ede96e_0cc4_4c5b_8c03830e307c1542?$png$&wid=632&hei=632&fit=constrain
+  - img philips-3-3.jpg 632x420 60874B 「Main in-use photograph Philips Viva Collection Digital Airfr」 https://images.philips.com/is/image/philipsconsumer/vrs_6c1a9937_78ac_4bd9_bbdc530b3a1de75f?$png$&wid=632&hei=632&fit=constrain
+  - このページの製品リンク 2 件
+    - Cookie に関するポリシー — https://www.philips.co.jp/c-p/HD9531_62/viva-collection-digital-airfryer
+    - この製品に関するサポート よくある質問（FAQ）、取扱説明書、安全性に関する情報、ヒントを検索 — https://www.philips.co.jp/c-p/HD9531_62/viva-collection-digital-airfryer/support
+
+## iris
+- 検索「site:irisohyama.co.jp FV-M30A」→ 公式 10 件
+  - 過熱水蒸気エア フライヤー Fv-m30a-c｜アイリスオーヤマ — https://www.irisohyama.co.jp/chefbot-series/air-fryer/fv-m30a/
+  - 「過熱水蒸気エア フライヤー Fv-m30a-c」商品サポート — https://www.irisohyama.co.jp/products/support/4967576809078
+  - PDF 取扱説明書(Web) - アイリスオーヤマ — https://www.irisohyama.co.jp/products/manual/pdf/113158.pdf
+  - 油を使わず、ここまでジューシー!過熱水蒸気エア フライヤーを料理好きな家電ライターが検証 — https://www.irisohyama.co.jp/plusoneday/electronics/525
+  - 唐揚げ｜オリジナルレシピ｜過熱水蒸気エア フライヤー Fv-m30a-c｜アイリスオーヤマ — https://www.irisohyama.co.jp/chefbot-series/air-fryer/fv-m30a/recipe/detail/?c=3&s=1&r=43
+  - 焼き鳥｜オリジナルレシピ｜過熱水蒸気エア フライヤー Fv-m30a-c｜アイリスオーヤマ — https://www.irisohyama.co.jp/chefbot-series/air-fryer/fv-m30a/recipe/detail/?c=2&s=1&r=16
+- 検索「site:irisohyama.co.jp エアフライヤー」→ 公式 10 件
+  - エア フライヤー｜フライヤー｜フライヤー・トースター｜キッチン家電｜電化製品｜商品情報｜アイリスオーヤマ — https://www.irisohyama.co.jp/products/electrical-appliances/cooking-appliances/flyer-toaster/flyer/air-flier
+  - 過熱水蒸気エア フライヤー Fv-m30a-c｜アイリスオーヤマ — https://www.irisohyama.co.jp/chefbot-series/air-fryer/fv-m30a/
+  - 油を使わず、ここまでジューシー!過熱水蒸気エア フライヤーを料理好きな家電ライターが検証 — https://www.irisohyama.co.jp/plusoneday/electronics/525
+  - フライヤー｜フライヤー・トースター｜キッチン家電｜電化製品｜商品情報｜アイリスオーヤマ — https://www.irisohyama.co.jp/products/electrical-appliances/cooking-appliances/flyer-toaster/flyer/
+  - 「過熱水蒸気エア フライヤー Fv-m30a-c」商品サポート — https://www.irisohyama.co.jp/products/support/4967576809078
+  - 独自のスチームモードでジューシーな仕上がりに 簡単・おいしい・ヘルシーを両立した 過熱水蒸気エア フライヤーを発売 — https://www.irisohyama.co.jp/news/2025/?date=1208
+
+### iris-1
+- 「過熱水蒸気エア フライヤー FV-M30A-C｜アイリスオーヤマ」 https://www.irisohyama.co.jp/chefbot-series/air-fryer/fv-m30a/
+- 本文 917 文字 / 画像（幅600以上）7 枚
+  - logo iris-svg1.svg（インライン SVG 2059 文字）
+  - logo iris-svg2.svg（インライン SVG 854 文字）
+  - img iris-1-1.jpg 0x0 75573B 「og:image」 https://www.irisohyama.co.jp/chefbot-series/air-fryer/fv-m30a/images/fb.jpg
+  - img iris-1-2.jpg 1920x850 137868B 「過熱水蒸気エア フライヤー FV-M30A-C」 https://www.irisohyama.co.jp/chefbot-series/air-fryer/fv-m30a/images/hero_pc.jpg
+  - img iris-1-3.jpg 830x560 57239B 「スチームモード」 https://www.irisohyama.co.jp/chefbot-series/air-fryer/fv-m30a/images/detail/1.jpg
+  - img iris-1-4.jpg 830x560 75427B 「サクサクモード」 https://www.irisohyama.co.jp/chefbot-series/air-fryer/fv-m30a/images/detail/3.jpg
+  - このページの製品リンク 4 件
+    -  — https://www.irisohyama.co.jp/chefbot-series/air-fryer/fv-m30a
+    - オリジナルレシピ — https://www.irisohyama.co.jp/chefbot-series/air-fryer/fv-m30a/recipe
+    -  — https://www.irisohyama.co.jp/chefbot-series/air-fryer/fv-m30a/recipe/detail?c=5&s=1&r=36
+    -  — https://www.irisohyama.co.jp/chefbot-series/air-fryer/fv-m30a/
+
+### iris-2
+- 「唐揚げ｜オリジナルレシピ｜過熱水蒸気エア フライヤー FV-M30A-C｜アイリスオーヤマ」 https://www.irisohyama.co.jp/chefbot-series/air-fryer/fv-m30a/recipe/detail/?c=3&s=1&r=43
+- 本文 440 文字 / 画像（幅600以上）19 枚
+  - img iris-2-1.jpg 0x0 90595B 「og:image」 https://www.irisohyama.co.jp/chefbot-series/air-fryer/fv-m30a/recipe/detail/images/43.jpg
+  - img iris-2-2.jpg 1024x683 132035B 「海老かつ」 https://www.irisohyama.co.jp/chefbot-series/air-fryer/fv-m30a/recipe/detail/images/39.jpg
+  - img iris-2-3.jpg 1200x800 92522B 「鮭」 https://www.irisohyama.co.jp/chefbot-series/air-fryer/fv-m30a/recipe/detail/images/40.jpg
+  - img iris-2-4.jpg 750x500 67426B 「たこ焼き」 https://www.irisohyama.co.jp/chefbot-series/air-fryer/fv-m30a/recipe/detail/images/41.jpg
+  - このページの製品リンク 6 件
+    -  — https://www.irisohyama.co.jp/chefbot-series/air-fryer/fv-m30a
+    -  — https://www.irisohyama.co.jp/chefbot-series/air-fryer/fv-m30a/recipe
+    -  — https://www.irisohyama.co.jp/chefbot-series/air-fryer/fv-m30a/recipe/detail?c=5&s=1&r=36
+    - 過熱水蒸気エア フライヤー FV-M30A-C — https://www.irisohyama.co.jp/chefbot-series/air-fryer/fv-m30a/
+    - レシピ一覧にもどる — https://www.irisohyama.co.jp/chefbot-series/air-fryer/fv-m30a/recipe/
+    -  — https://www.irisohyama.co.jp/chefbot-series/air-fryer/fv-m30a/recipe/detail/?c=3&s=1&r=43
+
+### iris-3
+- 「焼き鳥｜オリジナルレシピ｜過熱水蒸気エア フライヤー FV-M30A-C｜アイリスオーヤマ」 https://www.irisohyama.co.jp/chefbot-series/air-fryer/fv-m30a/recipe/detail/?c=2&s=1&r=16
+- 本文 679 文字 / 画像（幅600以上）31 枚
+  - img iris-3-1.jpg 0x0 148510B 「og:image」 https://www.irisohyama.co.jp/chefbot-series/air-fryer/fv-m30a/recipe/detail/images/16.jpg
+  - img iris-3-2.jpg 750x500 84124B 「ハンバーグ」 https://www.irisohyama.co.jp/chefbot-series/air-fryer/fv-m30a/recipe/detail/images/28.jpg
+  - img iris-3-3.jpg 1024x683 145908B 「ローストビーフ」 https://www.irisohyama.co.jp/chefbot-series/air-fryer/fv-m30a/recipe/detail/images/29.jpg
+  - img iris-3-4.jpg 1024x768 77067B 「ローストポーク」 https://www.irisohyama.co.jp/chefbot-series/air-fryer/fv-m30a/recipe/detail/images/30.jpg
+  - このページの製品リンク 6 件
+    -  — https://www.irisohyama.co.jp/chefbot-series/air-fryer/fv-m30a
+    -  — https://www.irisohyama.co.jp/chefbot-series/air-fryer/fv-m30a/recipe
+    -  — https://www.irisohyama.co.jp/chefbot-series/air-fryer/fv-m30a/recipe/detail?c=5&s=1&r=36
+    - 過熱水蒸気エア フライヤー FV-M30A-C — https://www.irisohyama.co.jp/chefbot-series/air-fryer/fv-m30a/
+    - レシピ一覧にもどる — https://www.irisohyama.co.jp/chefbot-series/air-fryer/fv-m30a/recipe/
+    -  — https://www.irisohyama.co.jp/chefbot-series/air-fryer/fv-m30a/recipe/detail/?c=2&s=1&r=16
+
+## yamazen
+- 検索「site:yamazen.co.jp YAF-C120」→ 公式 10 件
+  - 商品情報_エアフライヤー(2.2l) | 山善の商品情報サイト | Yamazen Book — https://book.yamazen.co.jp/product/detail/I00003883
+  - Yaf-c120 - Yamazen Book — https://book.yamazen.co.jp/downloads/W7N1322PYAF-C120/?mode=view
+  - PDF Yaf-c120 - Yamazen Book — https://book.yamazen.co.jp/downloads/WC3661N2304061202m24l7.pdf?mode=view
+  - 商品情報_エアフライヤー(4.5l) | 山善の商品情報サイト | Yamazen Book — https://book.yamazen.co.jp/product/detail/I00008885
+  - PDF YAF-C120_recipe - YAMAZEN BOOK — https://book.yamazen.co.jp/user/recipe/YAF-C120_recipe.pdf
+  - Yah-ac120 - Yamazen Book — https://book.yamazen.co.jp/downloads/W7N3543PYAH-AC120/?mode=view
+- 検索「site:yamazen.co.jp ノンフライヤー」→ 公式 10 件
+  - 商品情報_エアフライヤー(2.2l) | 山善の商品情報サイト | Yamazen Book — https://book.yamazen.co.jp/product/detail/I00003883
+  - お知らせ-マイベストで山善のエアフライヤーが1位に選ばれました | 山善の商品情報サイト | Yamazen Book — https://book.yamazen.co.jp/newslist/detail/170
+  - Gamedios｜カタログ情報｜デジタルカタログ｜2023年 夏物商品 総合カタログ — https://ist.yamazen.co.jp/iportal/CatalogDetail.do?method=initial_screen&volumeID=YMZ00003&catalogID=38491500000&type=mc&position=2
+  - エアフライヤー Yaf-c120 - Yamazen Book — https://book.yamazen.co.jp/downloads/W7N1322PYAF-C120/?mode=view
+  - 特集_「エアフライヤー」で作る基本の唐揚げレシピ | 山善の商品情報サイト | Yamazen Book — https://book.yamazen.co.jp/special/detail/27
+  - 商品情報_エアフライヤー(4.5l) | 山善の商品情報サイト | Yamazen Book — https://book.yamazen.co.jp/product/detail/I00008885
+
+### yamazen-1
+- 「」 https://book.yamazen.co.jp/downloads/W7N1322PYAF-C120/?mode=view
+- 本文 0 文字 / 画像（幅600以上）0 枚
+
+### yamazen-2
+- 「」 https://book.yamazen.co.jp/user/recipe/YAF-C120_recipe.pdf
+- 本文 0 文字 / 画像（幅600以上）0 枚
+
+### yamazen-3
+- 「商品情報_エアフライヤー(2.2L) | 山善の商品情報サイト | YAMAZEN BOOK」 https://book.yamazen.co.jp/product/detail/I00003883
+- 本文 2275 文字 / 画像（幅600以上）24 枚
+  - img yamazen-3-1.jpg 0x0 99804B 「og:image」 https://book.yamazen.co.jp/photo/item/I00003883/1200/1200/max
+  - img yamazen-3-2.jpg 990x990 99804B 「」 https://book.yamazen.co.jp/photo/item/I00003883/990/990/trim
+  - img yamazen-3-3.jpg 1200x677 420150B 「」 https://book.yamazen.co.jp/editor/img/E0CI00003883M24020113290251.jpg/1200/2000/items/max
+  - img yamazen-3-4.jpg 1200x662 487419B 「」 https://book.yamazen.co.jp/editor/img/E0CI00003883M25120811041217.jpg/1200/2000/items/max
+  - このページの製品リンク 6 件
+    - 電気フライヤー・フィッシュロースター — https://book.yamazen.co.jp/product/cook/?sid=29
+    -  — https://book.yamazen.co.jp/user/recipe/YAF-C120_recipe.pdf
+    - 取扱説明書ダウンロード 取扱説明書ダウンロード — https://book.yamazen.co.jp/downloads/W7N1322PYAF-C120/?mode=view
+    - 電気フライヤー 揚げ物の達人 YAC-121 串揚げ・天ぷら・フライドポテトが簡単に調理できます。 — https://book.yamazen.co.jp/product/detail/I00005744
+    - 電気フライヤー(ローオイルフライヤー) YAG-L100 油槽に傾斜を付けることで、油量約40%削減★油の予熱時間も短縮 — https://book.yamazen.co.jp/product/detail/I00008810
+    - エアフライヤー(4.5L) YAH-AC120 油で揚げずに、熱風で食材を加熱するヘルシーなエアーフライヤー★4.5Lの — https://book.yamazen.co.jp/product/detail/I00008885
+
+---
+経過 122 秒
+
+ 
+ 
+416 .
+78368 ..
+768 img
+2485 iris-1.txt
+1268 iris-2.txt
+1871 iris-3.txt
+192 logo
+7144 philips-1.txt
+7224 philips-2.txt
+9043 philips-3.txt
+79 yamazen-1.txt
+73 yamazen-2.txt
+5683 yamazen-3.txt
+ 
+ 
+ 
+768 .
+416 ..
+75573 iris-1-1.jpg
+137868 iris-1-2.jpg
+57239 iris-1-3.jpg
+75427 iris-1-4.jpg
+90595 iris-2-1.jpg
+132035 iris-2-2.jpg
+92522 iris-2-3.jpg
+67426 iris-2-4.jpg
+148510 iris-3-1.jpg
+84124 iris-3-2.jpg
+145908 iris-3-3.jpg
+77067 iris-3-4.jpg
+22100 philips-1-1.jpg
+29674 philips-2-1.jpg
+21184 philips-2-2.jpg
+27323 philips-3-1.jpg
+28857 philips-3-2.jpg
+60874 philips-3-3.jpg
+99804 yamazen-3-1.jpg
+99804 yamazen-3-2.jpg
+420150 yamazen-3-3.jpg
+487419 yamazen-3-4.jpg
+ 
+ 
+ 
+192 .
+416 ..
+2059 iris-svg1.svg
+854 iris-svg2.svg
+1233 philips-svg1.svg
+348 philips-svg2.svg
+
+**読むだけ。LLM 不使用（$0／回）。**

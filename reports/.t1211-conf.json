@@ -1,0 +1,5 @@
+[
+ {"key":"philips","dom":"philips\\.co\\.jp","q":["site:philips.co.jp ノンフライヤー 3000シリーズ","site:philips.co.jp エアフライヤー NA"],"pick":"/c-p/(NA|HD9)","direct":["https://www.philips.co.jp/c-m-ho/cooking/airfryer"]},
+ {"key":"iris","dom":"irisohyama\\.co\\.jp","q":["site:irisohyama.co.jp FV-M30A","site:irisohyama.co.jp エアフライヤー"],"pick":"fv-?m30|fryer|フライヤー|ノンフライ","direct":[]},
+ {"key":"yamazen","dom":"yamazen\\.co\\.jp","q":["site:yamazen.co.jp YAF-C120","site:yamazen.co.jp ノンフライヤー"],"pick":"yaf|fryer|フライヤー","direct":[]}
+]
