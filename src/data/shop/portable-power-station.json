@@ -1,0 +1,482 @@
+{
+  "id": "portable-power-station",
+  "title": "ポータブル電源（持ち運べる 250〜800Wh）",
+  "_note": "仕様・価格は各メーカーの公式ストアの製品ページ（Jackery・EcoFlow・Anker Japan）で 2026-11-23 に確認。価格は公式ストアのその日の表示（セール中は通常価格を括弧で）。1,000Wh クラスは portable-power-lfp-2026（portable-power.json）にあるので、ここは持ち運べる 250〜800Wh に絞った。EcoFlow RIVER 3 は公式ページで容量の表記が 230Wh と 245Wh に分かれ、重さの記載が見つからないので入れていない",
+  "columns": [
+    {
+      "key": "wh",
+      "label": "容量"
+    },
+    {
+      "key": "ac",
+      "label": "AC の出力"
+    },
+    {
+      "key": "weight",
+      "label": "重さ"
+    },
+    {
+      "key": "charge",
+      "label": "満充電の時間（公式）"
+    },
+    {
+      "key": "battery",
+      "label": "電池（寿命）"
+    },
+    {
+      "key": "list",
+      "label": "公式ストアの価格"
+    }
+  ],
+  "pricesCheckedAt": null,
+  "items": [
+    {
+      "id": "anker-c300-dc",
+      "brand": "Anker",
+      "name": "Anker Solix C300 DC（A1726）",
+      "badge": "いちばん安い",
+      "summary": "288Whで約2.8kg。コンセント（AC）の口は無く、USB-Cとシガーソケットで給電する。スマホとノートPCの充電用。",
+      "specs": {
+        "wh": "288Wh",
+        "ac": "ACの口なし（USB-C・シガーソケットで合計300W）",
+        "battery": "リン酸鉄",
+        "charge": "約1.5時間（USB-C 140W×2）",
+        "weight": "約2.8kg",
+        "list": "23,740円（通常34,990円）"
+      },
+      "source": "https://www.ankerjapan.com/products/a1726",
+      "rakuten": {
+        "keyword": "Anker Solix C300 DC",
+        "must": [
+          "C300",
+          "DC"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "整備済",
+          "リファービッシュ",
+          "ソーラーパネル",
+          "セット",
+          "専用",
+          "ケース",
+          "バッグ",
+          "カバー",
+          "フィルム",
+          "保護",
+          "レンタル",
+          "PS60",
+          "C300X",
+          "C1000",
+          "C800"
+        ],
+        "itemUrl": "https://item.rakuten.co.jp/anker/a17265z1/"
+      },
+      "yahoo": {
+        "keyword": "Anker Solix C300 DC",
+        "must": [
+          "C300",
+          "DC"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "整備済",
+          "リファービッシュ",
+          "ソーラーパネル",
+          "セット",
+          "専用",
+          "ケース",
+          "バッグ",
+          "カバー",
+          "フィルム",
+          "保護",
+          "レンタル",
+          "PS60",
+          "C300X",
+          "C1000",
+          "C800"
+        ]
+      },
+      "amazon": {
+        "keyword": "Anker Solix C300 DC",
+        "asin": "B0D5XCRK6K"
+      }
+    },
+    {
+      "id": "jackery-300d",
+      "brand": "Jackery",
+      "name": "Jackery ポータブル電源 300D",
+      "badge": "いちばん軽い",
+      "summary": "288Whで約2.5kgと6台でいちばん軽い。ACの口は無く、USB-C 3つ（140W×2・65W）とDCで合計300W。",
+      "specs": {
+        "wh": "288Wh",
+        "ac": "ACの口なし（USB-C・DCで合計300W）",
+        "battery": "リン酸鉄・4,000回で70%",
+        "charge": "2.75時間（USB-C）",
+        "weight": "約2.5kg",
+        "list": "28,042円（通常32,990円）"
+      },
+      "source": "https://www.jackery.jp/products/jackery-explorer-300d",
+      "rakuten": {
+        "keyword": "Jackery ポータブル電源 300D",
+        "must": [
+          "300D"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "整備済",
+          "リファービッシュ",
+          "ソーラーパネル",
+          "セット",
+          "専用",
+          "ケース",
+          "バッグ",
+          "カバー",
+          "フィルム",
+          "保護",
+          "レンタル",
+          "300 Plus",
+          "300Plus",
+          "300 New"
+        ],
+        "itemUrl": "https://item.rakuten.co.jp/jackery-japan/21-0001-000359/"
+      },
+      "yahoo": {
+        "keyword": "Jackery ポータブル電源 300D",
+        "must": [
+          "300D"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "整備済",
+          "リファービッシュ",
+          "ソーラーパネル",
+          "セット",
+          "専用",
+          "ケース",
+          "バッグ",
+          "カバー",
+          "フィルム",
+          "保護",
+          "レンタル",
+          "300 Plus",
+          "300Plus",
+          "300 New"
+        ]
+      },
+      "amazon": {
+        "keyword": "Jackery ポータブル電源 300D",
+        "asin": null
+      }
+    },
+    {
+      "id": "jackery-240-new",
+      "brand": "Jackery",
+      "name": "Jackery ポータブル電源 240 New（JE-240A）",
+      "badge": "ACで最軽量",
+      "summary": "256Wh・AC 300Wで約3.6kg。ACの口がある機種でいちばん軽い。緊急充電モードなら最速1時間で満充電。",
+      "specs": {
+        "wh": "256Wh",
+        "ac": "300W",
+        "battery": "リン酸鉄・4,000回で70%",
+        "charge": "1.9時間（緊急モードは最速1時間）",
+        "weight": "約3.6kg",
+        "list": "32,800円"
+      },
+      "source": "https://www.jackery.jp/products/explorer-240-new",
+      "rakuten": {
+        "keyword": "Jackery ポータブル電源 240 New",
+        "must": [
+          "240",
+          "New"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "整備済",
+          "リファービッシュ",
+          "ソーラーパネル",
+          "セット",
+          "専用",
+          "ケース",
+          "バッグ",
+          "カバー",
+          "フィルム",
+          "保護",
+          "レンタル",
+          "Plus",
+          "Pro",
+          "1000",
+          "500"
+        ],
+        "itemUrl": "https://item.rakuten.co.jp/jackery-japan/n-p-240200-bkor-jk2/"
+      },
+      "yahoo": {
+        "keyword": "Jackery ポータブル電源 240 New",
+        "must": [
+          "240",
+          "New"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "整備済",
+          "リファービッシュ",
+          "ソーラーパネル",
+          "セット",
+          "専用",
+          "ケース",
+          "バッグ",
+          "カバー",
+          "フィルム",
+          "保護",
+          "レンタル",
+          "Plus",
+          "Pro",
+          "1000",
+          "500"
+        ]
+      },
+      "amazon": {
+        "keyword": "Jackery ポータブル電源 240 New",
+        "asin": "B0CZ7145K1"
+      }
+    },
+    {
+      "id": "jackery-500-new",
+      "brand": "Jackery",
+      "name": "Jackery ポータブル電源 500 New",
+      "badge": "電気毛布ひと晩",
+      "summary": "512Wh・AC 500Wで約5.7kg。公式の目安では電気毛布（55W）が約7時間以上。A4より小さい。",
+      "specs": {
+        "wh": "512Wh",
+        "ac": "500W",
+        "battery": "リン酸鉄・6,000回で70%",
+        "charge": "最速1.3時間（AC）",
+        "weight": "約5.7kg",
+        "list": "52,350円（通常69,800円）"
+      },
+      "source": "https://www.jackery.jp/products/explorer-500-new",
+      "rakuten": {
+        "keyword": "Jackery ポータブル電源 500 New",
+        "must": [
+          "500",
+          "New"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "整備済",
+          "リファービッシュ",
+          "ソーラーパネル",
+          "セット",
+          "専用",
+          "ケース",
+          "バッグ",
+          "カバー",
+          "フィルム",
+          "保護",
+          "レンタル",
+          "Plus",
+          "Pro",
+          "1000",
+          "240"
+        ],
+        "itemUrl": "https://item.rakuten.co.jp/jackery-japan/n-p-400200-bkor-jk2/"
+      },
+      "yahoo": {
+        "keyword": "Jackery ポータブル電源 500 New",
+        "must": [
+          "500",
+          "New"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "整備済",
+          "リファービッシュ",
+          "ソーラーパネル",
+          "セット",
+          "専用",
+          "ケース",
+          "バッグ",
+          "カバー",
+          "フィルム",
+          "保護",
+          "レンタル",
+          "Plus",
+          "Pro",
+          "1000",
+          "240"
+        ]
+      },
+      "amazon": {
+        "keyword": "Jackery ポータブル電源 500 New",
+        "asin": "B0FBRK8GSP"
+      }
+    },
+    {
+      "id": "ecoflow-river-2-pro",
+      "brand": "EcoFlow",
+      "name": "EcoFlow RIVER 2 Pro（ZMR620-B-JP）",
+      "badge": "容量あたり最安",
+      "summary": "768Wh・AC 800Wで約8.25kg。公式ストアの値段は40,000円で、容量で割ると1Whあたり約52円。",
+      "specs": {
+        "wh": "768Wh",
+        "ac": "800W（X-Boostで1,000Wの家電まで）",
+        "battery": "リン酸鉄・3,000回で80%",
+        "charge": "0→80%が56分（AC）",
+        "weight": "約8.25kg",
+        "list": "40,000円（通常88,000円）"
+      },
+      "source": "https://jp.ecoflow.com/products/river-2-pro-portable-power-station",
+      "rakuten": {
+        "keyword": "EcoFlow RIVER 2 Pro",
+        "must": [
+          "RIVER",
+          "2",
+          "Pro"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "整備済",
+          "リファービッシュ",
+          "ソーラーパネル",
+          "セット",
+          "専用",
+          "ケース",
+          "バッグ",
+          "カバー",
+          "フィルム",
+          "保護",
+          "レンタル",
+          "エクストラバッテリー",
+          "Max",
+          "MAX",
+          "RIVER 3",
+          "DELTA"
+        ],
+        "itemUrl": "https://item.rakuten.co.jp/lamd/4895251601610/"
+      },
+      "yahoo": {
+        "keyword": "EcoFlow RIVER 2 Pro",
+        "must": [
+          "RIVER",
+          "2",
+          "Pro"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "整備済",
+          "リファービッシュ",
+          "ソーラーパネル",
+          "セット",
+          "専用",
+          "ケース",
+          "バッグ",
+          "カバー",
+          "フィルム",
+          "保護",
+          "レンタル",
+          "エクストラバッテリー",
+          "Max",
+          "MAX",
+          "RIVER 3",
+          "DELTA"
+        ]
+      },
+      "amazon": {
+        "keyword": "EcoFlow RIVER 2 Pro",
+        "asin": null
+      }
+    },
+    {
+      "id": "anker-c800-plus",
+      "brand": "Anker",
+      "name": "Anker Solix C800 Plus（A1754）",
+      "badge": "ケトルが動く",
+      "summary": "768Wh・AC 1,200Wで約10.9kg。電気ケトルやドライヤーまで動かせる出力。天面にキャンプ用ライト2つとポール。",
+      "specs": {
+        "wh": "768Wh",
+        "ac": "1,200W（瞬間最大1,600W）",
+        "battery": "リン酸鉄・3,000回",
+        "charge": "約58分（AC・超急速モード）",
+        "weight": "約10.9kg",
+        "list": "109,900円"
+      },
+      "source": "https://www.ankerjapan.com/products/a1754",
+      "rakuten": {
+        "keyword": "Anker Solix C800 Plus",
+        "must": [
+          "C800",
+          "Plus"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "整備済",
+          "リファービッシュ",
+          "ソーラーパネル",
+          "セット",
+          "専用",
+          "ケース",
+          "バッグ",
+          "カバー",
+          "フィルム",
+          "保護",
+          "レンタル",
+          "C1000",
+          "C300",
+          "PS"
+        ],
+        "itemUrl": "https://item.rakuten.co.jp/anker/a1754/"
+      },
+      "yahoo": {
+        "keyword": "Anker Solix C800 Plus",
+        "must": [
+          "C800",
+          "Plus"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "整備済",
+          "リファービッシュ",
+          "ソーラーパネル",
+          "セット",
+          "専用",
+          "ケース",
+          "バッグ",
+          "カバー",
+          "フィルム",
+          "保護",
+          "レンタル",
+          "C1000",
+          "C300",
+          "PS"
+        ]
+      },
+      "amazon": {
+        "keyword": "Anker Solix C800 Plus",
+        "asin": "B0C6MK4TW4"
+      }
+    }
+  ]
+}

@@ -28,7 +28,7 @@
       "label": "焼き方の特徴"
     }
   ],
-  "pricesCheckedAt": null,
+  "pricesCheckedAt": "2026-11-23T21:44:00.508Z",
   "items": [
     {
       "id": "balmuda-the-toaster",
@@ -100,7 +100,15 @@
           "皿",
           "ケース",
           "ジャンク"
-        ]
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/plywood/14949001.html",
+        "price": 39600,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": 4.58,
+        "reviewCount": 1235,
+        "shop": "plywood",
+        "checkedAt": "2026-11-23T21:44:00.508Z"
       },
       "amazon": {
         "keyword": "BALMUDA The Toaster KTT02JP",
@@ -177,7 +185,15 @@
           "皿",
           "ケース",
           "ジャンク"
-        ]
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/smart-kitchen/s10011910.html",
+        "price": 38999,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 1,
+        "shop": "SmartKitchen",
+        "checkedAt": "2026-11-23T21:44:00.508Z"
       },
       "amazon": {
         "keyword": "アラジン AET-GP14C",
@@ -254,7 +270,15 @@
           "皿",
           "ケース",
           "ジャンク"
-        ]
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/excellenttop/aet-gs13d-g.html",
+        "price": 17980,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 0,
+        "shop": "エクセレトップ",
+        "checkedAt": "2026-11-23T21:44:00.508Z"
       },
       "amazon": {
         "keyword": "アラジン AET-GS13D",
@@ -331,7 +355,15 @@
           "皿",
           "ケース",
           "ジャンク"
-        ]
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/ana-den/nt-d700-w.html",
+        "price": 27974,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": 4.84,
+        "reviewCount": 19,
+        "shop": "あなデジ工房",
+        "checkedAt": "2026-11-23T21:44:00.508Z"
       },
       "amazon": {
         "keyword": "パナソニック NT-D700",
@@ -408,7 +440,15 @@
           "皿",
           "ケース",
           "ジャンク"
-        ]
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/emedama/4550719160183.html",
+        "price": 9990,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 1,
+        "shop": "カメラのキタムラヤフー店",
+        "checkedAt": "2026-11-23T21:44:00.508Z"
       },
       "amazon": {
         "keyword": "パナソニック NT-D500",
@@ -485,7 +525,15 @@
           "皿",
           "ケース",
           "ジャンク"
-        ]
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/rakuden/p0003001.html",
+        "price": 14471,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 0,
+        "shop": "ラクデン",
+        "checkedAt": "2026-11-23T21:44:00.508Z"
       },
       "amazon": {
         "keyword": "象印 EQ-JA22",
@@ -562,7 +610,15 @@
           "皿",
           "ケース",
           "ジャンク"
-        ]
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/sake-premoa/4904710436356.html",
+        "price": 16730,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 0,
+        "shop": "総合通販PREMOA Yahoo!店",
+        "checkedAt": "2026-11-23T21:44:00.508Z"
       },
       "amazon": {
         "keyword": "タイガー KAT-B131",
@@ -639,7 +695,15 @@
           "皿",
           "ケース",
           "ジャンク"
-        ]
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/eightloop2nd/4589919830084.html",
+        "price": 17680,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": 5,
+        "reviewCount": 3,
+        "shop": "eightloop 2nd",
+        "checkedAt": "2026-11-23T21:44:00.508Z"
       },
       "amazon": {
         "keyword": "シロカ ST-2D451",

@@ -1,436 +1,492 @@
 {
- "id": "countertop-dishwasher",
- "title": "工事不要の卓上食洗機（賃貸で分岐水栓なしに置けるか・置き場所の寸法と何人分か）",
- "_note": "仕様は各社の公式ページ・仕様表の記載だけ（2026-11-22 に blog3 が確認）。パナソニック・シロカ・東芝・アクアはクラウドから公式ページを読んだ。Amazon の ASIN は Mac（ops/tasks/t972）で検索結果の題名に型番が入るものだけ（アクア ADW-M28B は当たりが無く検索リンク）。発売日は公式に書いてあるものが無いので本文に書いていない",
- "columns": [
-  {
-   "key": "water",
-   "label": "給水のしかた（1回の水）"
-  },
-  {
-   "key": "people",
-   "label": "入る食器"
-  },
-  {
-   "key": "size",
-   "label": "大きさ"
-  },
-  {
-   "key": "dry",
-   "label": "乾燥"
-  },
-  {
-   "key": "weight",
-   "label": "重さ"
-  }
- ],
- "pricesCheckedAt": null,
- "items": [
-  {
-   "id": "panasonic-np-tml1",
-   "brand": "パナソニック",
-   "name": "食器洗い乾燥機 SOLOTA NP-TML1",
-   "badge": "1人・幅31cm",
-   "summary": "置き場所はほぼA4ファイル1枚分。ひとり暮らしの1日分（6点）をタンク2.5Lで洗う。",
-   "recommended": false,
-   "specs": {
-    "water": "タンク式（約2.5L）",
-    "people": "6点（1人分）",
-    "size": "幅31×奥行22.5×高さ43.5cm",
-    "dry": "送風乾燥",
-    "weight": "約7.5kg"
-   },
-   "source": "https://panasonic.jp/dish/products/NP-TML1.html",
-   "rakuten": {
-    "keyword": "パナソニック 食器洗い乾燥機 NP-TML1",
-    "must": [
-     "NP-TML1"
-    ],
-    "exclude": [
-     "中古",
-     "◆",
-     "並行輸入",
-     "カバー",
-     "マット",
-     "交換",
-     "部品",
-     "フィルター",
-     "ラック",
-     "トレイ",
-     "かご"
-    ]
-   },
-   "yahoo": {
-    "keyword": "パナソニック 食器洗い乾燥機 NP-TML1",
-    "must": [
-     "NP-TML1"
-    ],
-    "exclude": [
-     "中古",
-     "◆",
-     "並行輸入",
-     "カバー",
-     "マット",
-     "交換",
-     "部品",
-     "フィルター",
-     "ラック",
-     "トレイ",
-     "かご"
-    ]
-   },
-   "amazon": {
-    "keyword": "パナソニック 食器洗い乾燥機 NP-TML1",
-    "asin": "B0BSGFTN29"
-   }
-  },
-  {
-   "id": "panasonic-np-tsp2",
-   "brand": "パナソニック",
-   "name": "食器洗い乾燥機 NP-TSP2",
-   "badge": "奥行34cm・24点",
-   "summary": "奥行34.1cmの横長。食器24点とフライパン（直径26cmまで）をタンク約9Lで洗う。",
-   "recommended": true,
-   "specs": {
-    "water": "タンク式（約9L）",
-    "people": "24点（4人分相当）",
-    "size": "幅55×奥行34.1×高さ60cm",
-    "dry": "ヒーター乾燥",
-    "weight": "約18kg"
-   },
-   "source": "https://panasonic.jp/dish/products/NP-TSP2.html",
-   "rakuten": {
-    "keyword": "パナソニック 食器洗い乾燥機 NP-TSP2",
-    "must": [
-     "NP-TSP2"
-    ],
-    "exclude": [
-     "中古",
-     "◆",
-     "並行輸入",
-     "カバー",
-     "マット",
-     "交換",
-     "部品",
-     "フィルター",
-     "ラック",
-     "トレイ",
-     "かご"
-    ]
-   },
-   "yahoo": {
-    "keyword": "パナソニック 食器洗い乾燥機 NP-TSP2",
-    "must": [
-     "NP-TSP2"
-    ],
-    "exclude": [
-     "中古",
-     "◆",
-     "並行輸入",
-     "カバー",
-     "マット",
-     "交換",
-     "部品",
-     "フィルター",
-     "ラック",
-     "トレイ",
-     "かご"
-    ]
-   },
-   "amazon": {
-    "keyword": "パナソニック 食器洗い乾燥機 NP-TSP2",
-    "asin": "B0HD6M4R2D"
-   }
-  },
-  {
-   "id": "siroca-ss-m171",
-   "brand": "シロカ",
-   "name": "食器洗い乾燥機 SS-M171",
-   "badge": "タンク・分岐の2WAY",
-   "summary": "タンク式でも分岐水栓でも使える。16点・使用水量約5L、予約運転つき。",
-   "recommended": false,
-   "specs": {
-    "water": "タンク式（約5L）／分岐水栓式",
-    "people": "16点（家族3人分）",
-    "size": "幅42×奥行43.5×高さ43.5cm",
-    "dry": "送風乾燥",
-    "weight": "約13kg"
-   },
-   "source": "https://www.siroca.co.jp/product/dishwasher_basic/",
-   "rakuten": {
-    "keyword": "シロカ 食器洗い乾燥機 SS-M171",
-    "must": [
-     "SS-M171"
-    ],
-    "exclude": [
-     "中古",
-     "◆",
-     "並行輸入",
-     "カバー",
-     "マット",
-     "交換",
-     "部品",
-     "フィルター",
-     "ラック",
-     "トレイ",
-     "かご"
-    ]
-   },
-   "yahoo": {
-    "keyword": "シロカ 食器洗い乾燥機 SS-M171",
-    "must": [
-     "SS-M171"
-    ],
-    "exclude": [
-     "中古",
-     "◆",
-     "並行輸入",
-     "カバー",
-     "マット",
-     "交換",
-     "部品",
-     "フィルター",
-     "ラック",
-     "トレイ",
-     "かご"
-    ]
-   },
-   "amazon": {
-    "keyword": "シロカ 食器洗い乾燥機 SS-M171",
-    "asin": "B0GKFMCGYT"
-   }
-  },
-  {
-   "id": "siroca-ss-mu251",
-   "brand": "シロカ",
-   "name": "食器洗い乾燥機 SS-MU251",
-   "badge": "UV除菌",
-   "summary": "SS-M171と同じ16点で、庫内を照らすUV除菌つき。27cmの大皿まで入る。",
-   "recommended": false,
-   "specs": {
-    "water": "タンク式（約6L）／分岐水栓式",
-    "people": "16点（1〜3人用）",
-    "size": "幅42×奥行44×高さ47cm",
-    "dry": "送風乾燥",
-    "weight": "約13.5kg"
-   },
-   "source": "https://www.siroca.co.jp/product/dishwasher_advance/",
-   "rakuten": {
-    "keyword": "シロカ 食器洗い乾燥機 SS-MU251",
-    "must": [
-     "SS-MU251"
-    ],
-    "exclude": [
-     "中古",
-     "◆",
-     "並行輸入",
-     "カバー",
-     "マット",
-     "交換",
-     "部品",
-     "フィルター",
-     "ラック",
-     "トレイ",
-     "かご"
-    ]
-   },
-   "yahoo": {
-    "keyword": "シロカ 食器洗い乾燥機 SS-MU251",
-    "must": [
-     "SS-MU251"
-    ],
-    "exclude": [
-     "中古",
-     "◆",
-     "並行輸入",
-     "カバー",
-     "マット",
-     "交換",
-     "部品",
-     "フィルター",
-     "ラック",
-     "トレイ",
-     "かご"
-    ]
-   },
-   "amazon": {
-    "keyword": "シロカ 食器洗い乾燥機 SS-MU251",
-    "asin": "B09362NKVR"
-   }
-  },
-  {
-   "id": "siroca-ss-la451",
-   "brand": "シロカ",
-   "name": "食器洗い乾燥機 SS-LA451",
-   "badge": "40点・バケツ給水",
-   "summary": "40点（約4人分）。給水専用バケツから本体が自分で水を吸う「自動給水式」で、注ぐ手間がない。",
-   "recommended": false,
-   "specs": {
-    "water": "自動給水式（バケツ・約9L）／分岐水栓式",
-    "people": "40点（約4人分）",
-    "size": "幅55×奥行35×高さ50cm",
-    "dry": "送風乾燥",
-    "weight": "約21kg"
-   },
-   "source": "https://www.siroca.co.jp/product/dishwasher_largecapacity/",
-   "rakuten": {
-    "keyword": "シロカ 食器洗い乾燥機 SS-LA451",
-    "must": [
-     "SS-LA451"
-    ],
-    "exclude": [
-     "中古",
-     "◆",
-     "並行輸入",
-     "カバー",
-     "マット",
-     "交換",
-     "部品",
-     "フィルター",
-     "ラック",
-     "トレイ",
-     "かご"
-    ]
-   },
-   "yahoo": {
-    "keyword": "シロカ 食器洗い乾燥機 SS-LA451",
-    "must": [
-     "SS-LA451"
-    ],
-    "exclude": [
-     "中古",
-     "◆",
-     "並行輸入",
-     "カバー",
-     "マット",
-     "交換",
-     "部品",
-     "フィルター",
-     "ラック",
-     "トレイ",
-     "かご"
-    ]
-   },
-   "amazon": {
-    "keyword": "シロカ 食器洗い乾燥機 SS-LA451",
-    "asin": "B0GSYXMDNR"
-   }
-  },
-  {
-   "id": "toshiba-dws-33b",
-   "brand": "東芝",
-   "name": "食器洗い乾燥機 DWS-33B",
-   "badge": "ヒーター温風乾燥",
-   "summary": "18点（家族3人分）をタンク約6Lで。ヒーター温風乾燥とUV除菌つき。排水はバケツでもよい。",
-   "recommended": false,
-   "specs": {
-    "water": "タンク式（約6L）",
-    "people": "18点（家族3人分）",
-    "size": "幅42×奥行43.5×高さ46.5cm",
-    "dry": "ヒーター温風乾燥",
-    "weight": "約13kg"
-   },
-   "source": "https://www.toshiba-lifestyle.com/jp/dish-drye/dws-33b/",
-   "rakuten": {
-    "keyword": "東芝 食器洗い乾燥機 DWS-33B",
-    "must": [
-     "DWS-33B"
-    ],
-    "exclude": [
-     "中古",
-     "◆",
-     "並行輸入",
-     "カバー",
-     "マット",
-     "交換",
-     "部品",
-     "フィルター",
-     "ラック",
-     "トレイ",
-     "かご"
-    ]
-   },
-   "yahoo": {
-    "keyword": "東芝 食器洗い乾燥機 DWS-33B",
-    "must": [
-     "DWS-33B"
-    ],
-    "exclude": [
-     "中古",
-     "◆",
-     "並行輸入",
-     "カバー",
-     "マット",
-     "交換",
-     "部品",
-     "フィルター",
-     "ラック",
-     "トレイ",
-     "かご"
-    ]
-   },
-   "amazon": {
-    "keyword": "東芝 食器洗い乾燥機 DWS-33B",
-    "asin": "B0FL6XDK6F"
-   }
-  },
-  {
-   "id": "aqua-adw-m28b",
-   "brand": "アクア",
-   "name": "食器洗い乾燥機 ADW-M28B",
-   "badge": "幅37cm・28点",
-   "summary": "幅37cmのスリムで28点（約4人分）。タンク式なら1回約4.5Lで洗う。",
-   "recommended": false,
-   "specs": {
-    "water": "タンク式（約4.5L）／分岐水栓式",
-    "people": "28点（約4人分）",
-    "size": "幅37×奥行51×高さ45.2cm",
-    "dry": "温風乾燥／送風乾燥",
-    "weight": "約12.8kg"
-   },
-   "source": "https://aqua-has.com/product/m28b/",
-   "rakuten": {
-    "keyword": "アクア 食器洗い乾燥機 ADW-M28B",
-    "must": [
-     "ADW-M28B"
-    ],
-    "exclude": [
-     "中古",
-     "◆",
-     "並行輸入",
-     "カバー",
-     "マット",
-     "交換",
-     "部品",
-     "フィルター",
-     "ラック",
-     "トレイ",
-     "かご"
-    ]
-   },
-   "yahoo": {
-    "keyword": "アクア 食器洗い乾燥機 ADW-M28B",
-    "must": [
-     "ADW-M28B"
-    ],
-    "exclude": [
-     "中古",
-     "◆",
-     "並行輸入",
-     "カバー",
-     "マット",
-     "交換",
-     "部品",
-     "フィルター",
-     "ラック",
-     "トレイ",
-     "かご"
-    ]
-   },
-   "amazon": {
-    "keyword": "アクア 食器洗い乾燥機 ADW-M28B",
-    "asin": null
-   }
-  }
- ]
+  "id": "countertop-dishwasher",
+  "title": "工事不要の卓上食洗機（賃貸で分岐水栓なしに置けるか・置き場所の寸法と何人分か）",
+  "_note": "仕様は各社の公式ページ・仕様表の記載だけ（2026-11-22 に blog3 が確認）。パナソニック・シロカ・東芝・アクアはクラウドから公式ページを読んだ。Amazon の ASIN は Mac（ops/tasks/t972）で検索結果の題名に型番が入るものだけ（アクア ADW-M28B は当たりが無く検索リンク）。発売日は公式に書いてあるものが無いので本文に書いていない",
+  "columns": [
+    {
+      "key": "water",
+      "label": "給水のしかた（1回の水）"
+    },
+    {
+      "key": "people",
+      "label": "入る食器"
+    },
+    {
+      "key": "size",
+      "label": "大きさ"
+    },
+    {
+      "key": "dry",
+      "label": "乾燥"
+    },
+    {
+      "key": "weight",
+      "label": "重さ"
+    }
+  ],
+  "pricesCheckedAt": "2026-11-23T21:44:00.508Z",
+  "items": [
+    {
+      "id": "panasonic-np-tml1",
+      "brand": "パナソニック",
+      "name": "食器洗い乾燥機 SOLOTA NP-TML1",
+      "badge": "1人・幅31cm",
+      "summary": "置き場所はほぼA4ファイル1枚分。ひとり暮らしの1日分（6点）をタンク2.5Lで洗う。",
+      "recommended": false,
+      "specs": {
+        "water": "タンク式（約2.5L）",
+        "people": "6点（1人分）",
+        "size": "幅31×奥行22.5×高さ43.5cm",
+        "dry": "送風乾燥",
+        "weight": "約7.5kg"
+      },
+      "source": "https://panasonic.jp/dish/products/NP-TML1.html",
+      "rakuten": {
+        "keyword": "パナソニック 食器洗い乾燥機 NP-TML1",
+        "must": [
+          "NP-TML1"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "カバー",
+          "マット",
+          "交換",
+          "部品",
+          "フィルター",
+          "ラック",
+          "トレイ",
+          "かご"
+        ]
+      },
+      "yahoo": {
+        "keyword": "パナソニック 食器洗い乾燥機 NP-TML1",
+        "must": [
+          "NP-TML1"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "カバー",
+          "マット",
+          "交換",
+          "部品",
+          "フィルター",
+          "ラック",
+          "トレイ",
+          "かご"
+        ],
+        "url": "https://lohaco.yahoo.co.jp/store/h-lohaco/item/ej38593/",
+        "price": 37965,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 1,
+        "shop": "LOHACO by アスクル",
+        "checkedAt": "2026-11-23T21:44:00.508Z"
+      },
+      "amazon": {
+        "keyword": "パナソニック 食器洗い乾燥機 NP-TML1",
+        "asin": "B0BSGFTN29"
+      }
+    },
+    {
+      "id": "panasonic-np-tsp2",
+      "brand": "パナソニック",
+      "name": "食器洗い乾燥機 NP-TSP2",
+      "badge": "奥行34cm・24点",
+      "summary": "奥行34.1cmの横長。食器24点とフライパン（直径26cmまで）をタンク約9Lで洗う。",
+      "recommended": true,
+      "specs": {
+        "water": "タンク式（約9L）",
+        "people": "24点（4人分相当）",
+        "size": "幅55×奥行34.1×高さ60cm",
+        "dry": "ヒーター乾燥",
+        "weight": "約18kg"
+      },
+      "source": "https://panasonic.jp/dish/products/NP-TSP2.html",
+      "rakuten": {
+        "keyword": "パナソニック 食器洗い乾燥機 NP-TSP2",
+        "must": [
+          "NP-TSP2"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "カバー",
+          "マット",
+          "交換",
+          "部品",
+          "フィルター",
+          "ラック",
+          "トレイ",
+          "かご"
+        ]
+      },
+      "yahoo": {
+        "keyword": "パナソニック 食器洗い乾燥機 NP-TSP2",
+        "must": [
+          "NP-TSP2"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "カバー",
+          "マット",
+          "交換",
+          "部品",
+          "フィルター",
+          "ラック",
+          "トレイ",
+          "かご"
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/emedama/4550719205907.html",
+        "price": 69935,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 0,
+        "shop": "カメラのキタムラヤフー店",
+        "checkedAt": "2026-11-23T21:44:00.508Z"
+      },
+      "amazon": {
+        "keyword": "パナソニック 食器洗い乾燥機 NP-TSP2",
+        "asin": "B0HD6M4R2D"
+      }
+    },
+    {
+      "id": "siroca-ss-m171",
+      "brand": "シロカ",
+      "name": "食器洗い乾燥機 SS-M171",
+      "badge": "タンク・分岐の2WAY",
+      "summary": "タンク式でも分岐水栓でも使える。16点・使用水量約5L、予約運転つき。",
+      "recommended": false,
+      "specs": {
+        "water": "タンク式（約5L）／分岐水栓式",
+        "people": "16点（家族3人分）",
+        "size": "幅42×奥行43.5×高さ43.5cm",
+        "dry": "送風乾燥",
+        "weight": "約13kg"
+      },
+      "source": "https://www.siroca.co.jp/product/dishwasher_basic/",
+      "rakuten": {
+        "keyword": "シロカ 食器洗い乾燥機 SS-M171",
+        "must": [
+          "SS-M171"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "カバー",
+          "マット",
+          "交換",
+          "部品",
+          "フィルター",
+          "ラック",
+          "トレイ",
+          "かご"
+        ]
+      },
+      "yahoo": {
+        "keyword": "シロカ 食器洗い乾燥機 SS-M171",
+        "must": [
+          "SS-M171"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "カバー",
+          "マット",
+          "交換",
+          "部品",
+          "フィルター",
+          "ラック",
+          "トレイ",
+          "かご"
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/ksdenki/4589919848324.html",
+        "price": 39380,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 0,
+        "shop": "ケーズデンキ Yahoo!ショップ",
+        "checkedAt": "2026-11-23T21:44:00.508Z"
+      },
+      "amazon": {
+        "keyword": "シロカ 食器洗い乾燥機 SS-M171",
+        "asin": "B0GKFMCGYT"
+      }
+    },
+    {
+      "id": "siroca-ss-mu251",
+      "brand": "シロカ",
+      "name": "食器洗い乾燥機 SS-MU251",
+      "badge": "UV除菌",
+      "summary": "SS-M171と同じ16点で、庫内を照らすUV除菌つき。27cmの大皿まで入る。",
+      "recommended": false,
+      "specs": {
+        "water": "タンク式（約6L）／分岐水栓式",
+        "people": "16点（1〜3人用）",
+        "size": "幅42×奥行44×高さ47cm",
+        "dry": "送風乾燥",
+        "weight": "約13.5kg"
+      },
+      "source": "https://www.siroca.co.jp/product/dishwasher_advance/",
+      "rakuten": {
+        "keyword": "シロカ 食器洗い乾燥機 SS-MU251",
+        "must": [
+          "SS-MU251"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "カバー",
+          "マット",
+          "交換",
+          "部品",
+          "フィルター",
+          "ラック",
+          "トレイ",
+          "かご"
+        ]
+      },
+      "yahoo": {
+        "keyword": "シロカ 食器洗い乾燥機 SS-MU251",
+        "must": [
+          "SS-MU251"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "カバー",
+          "マット",
+          "交換",
+          "部品",
+          "フィルター",
+          "ラック",
+          "トレイ",
+          "かご"
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/jiatentusp3/20220418063008-00412us.html",
+        "price": 36604,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 0,
+        "shop": "ユーズタウン8",
+        "checkedAt": "2026-11-23T21:44:00.508Z"
+      },
+      "amazon": {
+        "keyword": "シロカ 食器洗い乾燥機 SS-MU251",
+        "asin": "B09362NKVR"
+      }
+    },
+    {
+      "id": "siroca-ss-la451",
+      "brand": "シロカ",
+      "name": "食器洗い乾燥機 SS-LA451",
+      "badge": "40点・バケツ給水",
+      "summary": "40点（約4人分）。給水専用バケツから本体が自分で水を吸う「自動給水式」で、注ぐ手間がない。",
+      "recommended": false,
+      "specs": {
+        "water": "自動給水式（バケツ・約9L）／分岐水栓式",
+        "people": "40点（約4人分）",
+        "size": "幅55×奥行35×高さ50cm",
+        "dry": "送風乾燥",
+        "weight": "約21kg"
+      },
+      "source": "https://www.siroca.co.jp/product/dishwasher_largecapacity/",
+      "rakuten": {
+        "keyword": "シロカ 食器洗い乾燥機 SS-LA451",
+        "must": [
+          "SS-LA451"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "カバー",
+          "マット",
+          "交換",
+          "部品",
+          "フィルター",
+          "ラック",
+          "トレイ",
+          "かご"
+        ]
+      },
+      "yahoo": {
+        "keyword": "シロカ 食器洗い乾燥機 SS-LA451",
+        "must": [
+          "SS-LA451"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "カバー",
+          "マット",
+          "交換",
+          "部品",
+          "フィルター",
+          "ラック",
+          "トレイ",
+          "かご"
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/naturobe/nr-05193.html",
+        "price": 69800,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 0,
+        "shop": "natu&robe",
+        "checkedAt": "2026-11-23T21:44:00.508Z"
+      },
+      "amazon": {
+        "keyword": "シロカ 食器洗い乾燥機 SS-LA451",
+        "asin": "B0GSYXMDNR"
+      }
+    },
+    {
+      "id": "toshiba-dws-33b",
+      "brand": "東芝",
+      "name": "食器洗い乾燥機 DWS-33B",
+      "badge": "ヒーター温風乾燥",
+      "summary": "18点（家族3人分）をタンク約6Lで。ヒーター温風乾燥とUV除菌つき。排水はバケツでもよい。",
+      "recommended": false,
+      "specs": {
+        "water": "タンク式（約6L）",
+        "people": "18点（家族3人分）",
+        "size": "幅42×奥行43.5×高さ46.5cm",
+        "dry": "ヒーター温風乾燥",
+        "weight": "約13kg"
+      },
+      "source": "https://www.toshiba-lifestyle.com/jp/dish-drye/dws-33b/",
+      "rakuten": {
+        "keyword": "東芝 食器洗い乾燥機 DWS-33B",
+        "must": [
+          "DWS-33B"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "カバー",
+          "マット",
+          "交換",
+          "部品",
+          "フィルター",
+          "ラック",
+          "トレイ",
+          "かご"
+        ]
+      },
+      "yahoo": {
+        "keyword": "東芝 食器洗い乾燥機 DWS-33B",
+        "must": [
+          "DWS-33B"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "カバー",
+          "マット",
+          "交換",
+          "部品",
+          "フィルター",
+          "ラック",
+          "トレイ",
+          "かご"
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/archholesale/1313088.html",
+        "price": 48400,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 0,
+        "shop": "ア-チホ-ルセ-ル",
+        "checkedAt": "2026-11-23T21:44:00.508Z"
+      },
+      "amazon": {
+        "keyword": "東芝 食器洗い乾燥機 DWS-33B",
+        "asin": "B0FL6XDK6F"
+      }
+    },
+    {
+      "id": "aqua-adw-m28b",
+      "brand": "アクア",
+      "name": "食器洗い乾燥機 ADW-M28B",
+      "badge": "幅37cm・28点",
+      "summary": "幅37cmのスリムで28点（約4人分）。タンク式なら1回約4.5Lで洗う。",
+      "recommended": false,
+      "specs": {
+        "water": "タンク式（約4.5L）／分岐水栓式",
+        "people": "28点（約4人分）",
+        "size": "幅37×奥行51×高さ45.2cm",
+        "dry": "温風乾燥／送風乾燥",
+        "weight": "約12.8kg"
+      },
+      "source": "https://aqua-has.com/product/m28b/",
+      "rakuten": {
+        "keyword": "アクア 食器洗い乾燥機 ADW-M28B",
+        "must": [
+          "ADW-M28B"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "カバー",
+          "マット",
+          "交換",
+          "部品",
+          "フィルター",
+          "ラック",
+          "トレイ",
+          "かご"
+        ]
+      },
+      "yahoo": {
+        "keyword": "アクア 食器洗い乾燥機 ADW-M28B",
+        "must": [
+          "ADW-M28B"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "カバー",
+          "マット",
+          "交換",
+          "部品",
+          "フィルター",
+          "ラック",
+          "トレイ",
+          "かご"
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/kitazawa/adw-m28b-h.html",
+        "price": 51800,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 0,
+        "shop": "ライフワンダーキタザワ",
+        "checkedAt": "2026-11-23T21:44:00.508Z"
+      },
+      "amazon": {
+        "keyword": "アクア 食器洗い乾燥機 ADW-M28B",
+        "asin": null
+      }
+    }
+  ]
 }

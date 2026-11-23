@@ -20,7 +20,7 @@
       "label": "付属の電源・取り付け"
     }
   ],
-  "pricesCheckedAt": null,
+  "pricesCheckedAt": "2026-11-23T21:44:00.508Z",
   "items": [
     {
       "id": "comtec-zdr065",
@@ -76,7 +76,15 @@
           "ブラケット",
           "延長ケーブル",
           "HDROP"
-        ]
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/harenohi77/b0fdk55flz.html",
+        "price": 39390,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 0,
+        "shop": "ハレノヒマーケット",
+        "checkedAt": "2026-11-23T21:44:00.508Z"
       },
       "amazon": {
         "keyword": "コムテック ZDR065",
@@ -137,7 +145,15 @@
           "ブラケット",
           "延長ケーブル",
           "HDROP"
-        ]
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/newfrontier/com-zdr-851r.html",
+        "price": 59700,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 0,
+        "shop": "NEWFRONTIER",
+        "checkedAt": "2026-11-23T21:44:00.508Z"
       },
       "amazon": {
         "keyword": "コムテック ZDR-851R",
@@ -200,7 +216,15 @@
           "延長ケーブル",
           "Y-3200",
           "Z-330"
-        ]
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/mount-shop-sun/dc16-17.html",
+        "price": 1590,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 0,
+        "shop": "Mount Shop Sun",
+        "checkedAt": "2026-11-23T21:44:00.508Z"
       },
       "amazon": {
         "keyword": "ユピテル Y-3300",
@@ -261,7 +285,15 @@
           "ブラケット",
           "延長ケーブル",
           "RD-DR002"
-        ]
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/joshin/4988028546341-37-22973.html",
+        "price": 39980,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 0,
+        "shop": "Joshin web",
+        "checkedAt": "2026-11-23T21:44:00.508Z"
       },
       "amazon": {
         "keyword": "カロッツェリア VREC-DZ810DII",
@@ -322,7 +354,15 @@
           "ブラケット",
           "延長ケーブル",
           "GDO"
-        ]
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/cuticle/4962886015768.html",
+        "price": 42901,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 0,
+        "shop": "キューティクルスタイル",
+        "checkedAt": "2026-11-23T21:44:00.508Z"
       },
       "amazon": {
         "keyword": "セルスター CS-N210",
@@ -391,7 +431,15 @@
           "SK-S01EM",
           "SK-M01EM",
           "取付キット"
-        ]
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/autobacs/4975514068296.html",
+        "price": 75700,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 0,
+        "shop": "オートバックスYahoo!ショッピング店",
+        "checkedAt": "2026-11-23T21:44:00.508Z"
       },
       "amazon": {
         "keyword": "ケンウッド DRV-X80EM",
@@ -454,7 +502,15 @@
           "延長ケーブル",
           "取付キット",
           "キットセット"
-        ]
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/autobacs/4958043025947.html",
+        "price": 73000,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": 4.7,
+        "reviewCount": 10,
+        "shop": "オートバックスYahoo!ショッピング店",
+        "checkedAt": "2026-11-23T21:44:00.508Z"
       },
       "amazon": {
         "keyword": "アルパイン DVR-DM1200A2-IC",
