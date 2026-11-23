@@ -24,7 +24,7 @@
       "label": "洗濯"
     }
   ],
-  "pricesCheckedAt": "2026-11-21T21:42:39.263Z",
+  "pricesCheckedAt": "2026-11-23T21:44:00.508Z",
   "items": [
     {
       "id": "thanko-heat25sbk",
@@ -58,7 +58,7 @@
         "reviewAverage": null,
         "reviewCount": 0,
         "shop": "ハンズコテラ Yahoo!ショップ",
-        "checkedAt": "2026-11-21T21:42:39.263Z"
+        "checkedAt": "2026-11-23T21:44:00.508Z"
       },
       "amazon": {
         "keyword": "サンコー HEAT25SBK",
@@ -97,7 +97,7 @@
         "reviewAverage": 4.36,
         "reviewCount": 11,
         "shop": "ウエノ電器 Yahoo!店",
-        "checkedAt": "2026-11-21T21:42:39.263Z"
+        "checkedAt": "2026-11-23T21:44:00.508Z"
       },
       "amazon": {
         "keyword": null,
@@ -137,7 +137,7 @@
         "reviewAverage": 4,
         "reviewCount": 3,
         "shop": "メガストア Yahoo!店",
-        "checkedAt": "2026-11-21T21:42:39.263Z"
+        "checkedAt": "2026-11-23T21:44:00.508Z"
       },
       "amazon": {
         "keyword": "アイリスオーヤマ GT21622",
@@ -176,7 +176,7 @@
         "reviewAverage": null,
         "reviewCount": 0,
         "shop": "作業服 キノウェアショップ",
-        "checkedAt": "2026-11-21T21:42:39.263Z"
+        "checkedAt": "2026-11-23T21:44:00.508Z"
       },
       "amazon": {
         "keyword": "サンエス EH32490",
@@ -215,7 +215,7 @@
         "reviewAverage": null,
         "reviewCount": 0,
         "shop": "作業服 キノウェアショップ",
-        "checkedAt": "2026-11-21T21:42:39.263Z"
+        "checkedAt": "2026-11-23T21:44:00.508Z"
       },
       "amazon": {
         "keyword": "雷神服 RD9570",
@@ -272,7 +272,7 @@
         "reviewAverage": null,
         "reviewCount": 0,
         "shop": "WORCTION",
-        "checkedAt": "2026-11-21T21:42:39.263Z"
+        "checkedAt": "2026-11-23T21:44:00.508Z"
       },
       "amazon": {
         "keyword": "バートル サーモクラフト TC500",
@@ -304,14 +304,14 @@
         "must": [
           "CV202D"
         ],
-        "url": "https://store.shopping.yahoo.co.jp/k-tenyarou/cv202dz.html",
-        "price": 15500,
+        "url": "https://store.shopping.yahoo.co.jp/handskotera/cv202dz.html",
+        "price": 15651,
         "shippingFree": false,
         "point": 0,
         "reviewAverage": null,
-        "reviewCount": 0,
-        "shop": "軽天野郎",
-        "checkedAt": "2026-11-21T21:42:39.263Z"
+        "reviewCount": 1,
+        "shop": "ハンズコテラ Yahoo!ショップ",
+        "checkedAt": "2026-11-23T21:44:00.508Z"
       },
       "amazon": {
         "keyword": "マキタ CV202DZ",

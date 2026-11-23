@@ -1,799 +1,838 @@
 {
- "id": "ereader",
- "title": "電子書籍リーダー（Kindle と Kobo のどちらか・カラーは要るか・お風呂で読めるか）",
- "_note": "仕様は公式だけ（2026-11-23 確認）。Kindle は Amazon の商品ページ（Mac の ops/tasks t1110・t1113 で Cookie なしで読んだ）とプレスリリース（2026-10-01・2026-05-12）。Kobo は楽天Kobo 公式の仕様表（books.rakuten.co.jp/event/e-book/ereaders/）。BOOX Go7 は SKT 公式（sktgroup.co.jp/boox-go7gen2/）。BOOX の楽天・Yahoo! は SKT 公式ページから張られている SKT の直営店（Go7 と GoColor7 Gen2 が同じ商品ページ）。ASIN・楽天の商品ページは t1112（find-product-pages.mjs）。Kindle の価格は本文に書かない（Amazon アソシエイトの規約）。",
- "columns": [
-  {
-   "key": "screen",
-   "label": "画面"
-  },
-  {
-   "key": "ppi",
-   "label": "解像度"
-  },
-  {
-   "key": "water",
-   "label": "防水"
-  },
-  {
-   "key": "weight",
-   "label": "重さ"
-  },
-  {
-   "key": "storage",
-   "label": "容量"
-  },
-  {
-   "key": "battery",
-   "label": "バッテリー（公称）"
-  },
-  {
-   "key": "store",
-   "label": "本を買うストア"
-  }
- ],
- "pricesCheckedAt": null,
- "items": [
-  {
-   "id": "kindle-16gb",
-   "brand": "Amazon",
-   "name": "Kindle（16GB）2026年モデル",
-   "badge": "軽い・6インチ",
-   "summary": "シリーズでいちばん軽い6インチ。防水は無いので、お風呂で読まない人向け。",
-   "recommended": false,
-   "specs": {
-    "screen": "6インチ・白黒",
-    "ppi": "300ppi",
-    "water": "なし",
-    "weight": "140g",
-    "storage": "16GB",
-    "battery": "最大6週間",
-    "store": "Kindleストア"
-   },
-   "source": "https://www.amazon.co.jp/dp/B0G4SL3W21?tag=dailyhack-22",
-   "rakuten": {
-    "keyword": "Kindle 16GB 2026",
-    "must": [
-     "Kindle",
-     "16GB"
-    ],
-    "exclude": [
-     "中古",
-     "◆",
-     "並行輸入",
-     "交換",
-     "部品",
-     "専用",
-     "対応",
-     "アクセサリー",
-     "カバー",
-     "ケース",
-     "フィルム",
-     "保護",
-     "スリーブ",
-     "スタイラス",
-     "ペン",
-     "セット",
-     "ジャンク",
-     "訳あり",
-     "レンタル",
-     "整備済",
-     "リファービッシュ",
-     "キッズ",
-     "Kids",
-     "スキンシール",
-     "延長保証",
-     "Paperwhite",
-     "Colorsoft",
-     "Scribe",
-     "32GB",
-     "2024"
-    ],
-    "itemUrl": "https://item.rakuten.co.jp/biccamera/0840414601390/"
-   },
-   "yahoo": {
-    "keyword": "Kindle 16GB 2026年発売",
-    "must": [
-     "Kindle",
-     "16GB"
-    ],
-    "exclude": [
-     "中古",
-     "◆",
-     "並行輸入",
-     "交換",
-     "部品",
-     "専用",
-     "対応",
-     "アクセサリー",
-     "カバー",
-     "ケース",
-     "フィルム",
-     "保護",
-     "スリーブ",
-     "スタイラス",
-     "ペン",
-     "セット",
-     "ジャンク",
-     "訳あり",
-     "レンタル",
-     "整備済",
-     "リファービッシュ",
-     "キッズ",
-     "Kids",
-     "スキンシール",
-     "延長保証",
-     "Paperwhite",
-     "Colorsoft",
-     "Scribe",
-     "32GB",
-     "2024"
-    ]
-   },
-   "amazon": {
-    "keyword": "Kindle 16GB 2026",
-    "asin": "B0G4SL3W21"
-   }
-  },
-  {
-   "id": "kindle-paperwhite",
-   "brand": "Amazon",
-   "name": "Kindle Paperwhite（16GB）2026年モデル",
-   "badge": "防水・定番",
-   "summary": "7インチ・IPX8・最大12週間。Amazon で本を買う人の、迷ったらこれ。",
-   "recommended": true,
-   "specs": {
-    "screen": "7インチ・白黒",
-    "ppi": "300ppi",
-    "water": "IPX8",
-    "weight": "204g",
-    "storage": "16GB",
-    "battery": "最大12週間",
-    "store": "Kindleストア"
-   },
-   "source": "https://www.amazon.co.jp/dp/B0GV5VHTL6?tag=dailyhack-22",
-   "rakuten": {
-    "keyword": "Kindle Paperwhite 16GB 2026",
-    "must": [
-     "Paperwhite"
-    ],
-    "exclude": [
-     "中古",
-     "◆",
-     "並行輸入",
-     "交換",
-     "部品",
-     "専用",
-     "対応",
-     "アクセサリー",
-     "カバー",
-     "ケース",
-     "フィルム",
-     "保護",
-     "スリーブ",
-     "スタイラス",
-     "ペン",
-     "セット",
-     "ジャンク",
-     "訳あり",
-     "レンタル",
-     "整備済",
-     "リファービッシュ",
-     "キッズ",
-     "Kids",
-     "スキンシール",
-     "延長保証",
-     "シグニチャー",
-     "Signature",
-     "32GB",
-     "2024"
-    ],
-    "itemUrl": "https://item.rakuten.co.jp/yamada-denki/9429900014/"
-   },
-   "yahoo": {
-    "keyword": "Kindle Paperwhite 16GB 2026年モデル",
-    "must": [
-     "Paperwhite"
-    ],
-    "exclude": [
-     "中古",
-     "◆",
-     "並行輸入",
-     "交換",
-     "部品",
-     "専用",
-     "対応",
-     "アクセサリー",
-     "カバー",
-     "ケース",
-     "フィルム",
-     "保護",
-     "スリーブ",
-     "スタイラス",
-     "ペン",
-     "セット",
-     "ジャンク",
-     "訳あり",
-     "レンタル",
-     "整備済",
-     "リファービッシュ",
-     "キッズ",
-     "Kids",
-     "スキンシール",
-     "延長保証",
-     "シグニチャー",
-     "Signature",
-     "32GB",
-     "2024"
-    ]
-   },
-   "amazon": {
-    "keyword": "Kindle Paperwhite 2026",
-    "asin": "B0GV5VHTL6"
-   }
-  },
-  {
-   "id": "kindle-colorsoft",
-   "brand": "Amazon",
-   "name": "Kindle Colorsoft（16GB）2026年モデル",
-   "badge": "カラー・Kindle",
-   "summary": "Kindle でカラーの漫画や表紙を読みたい人へ。7インチのカラー画面。",
-   "recommended": false,
-   "specs": {
-    "screen": "7インチ・カラー",
-    "ppi": "白黒300ppi・カラー150ppi",
-    "water": "IPX8",
-    "weight": "204g",
-    "storage": "16GB",
-    "battery": "最大8週間",
-    "store": "Kindleストア"
-   },
-   "source": "https://www.amazon.co.jp/dp/B0GV62167S?tag=dailyhack-22",
-   "rakuten": {
-    "keyword": "Kindle Colorsoft 16GB 2026",
-    "must": [
-     "Colorsoft"
-    ],
-    "exclude": [
-     "中古",
-     "◆",
-     "並行輸入",
-     "交換",
-     "部品",
-     "専用",
-     "対応",
-     "アクセサリー",
-     "カバー",
-     "ケース",
-     "フィルム",
-     "保護",
-     "スリーブ",
-     "スタイラス",
-     "ペン",
-     "セット",
-     "ジャンク",
-     "訳あり",
-     "レンタル",
-     "整備済",
-     "リファービッシュ",
-     "キッズ",
-     "Kids",
-     "スキンシール",
-     "延長保証",
-     "Scribe",
-     "シグニチャー",
-     "Signature",
-     "32GB",
-     "2025"
-    ],
-    "itemUrl": "https://item.rakuten.co.jp/yamada-denki/9429903015/"
-   },
-   "yahoo": {
-    "keyword": "Kindle Colorsoft 16GB 2026年モデル",
-    "must": [
-     "Colorsoft"
-    ],
-    "exclude": [
-     "中古",
-     "◆",
-     "並行輸入",
-     "交換",
-     "部品",
-     "専用",
-     "対応",
-     "アクセサリー",
-     "カバー",
-     "ケース",
-     "フィルム",
-     "保護",
-     "スリーブ",
-     "スタイラス",
-     "ペン",
-     "セット",
-     "ジャンク",
-     "訳あり",
-     "レンタル",
-     "整備済",
-     "リファービッシュ",
-     "キッズ",
-     "Kids",
-     "スキンシール",
-     "延長保証",
-     "Scribe",
-     "シグニチャー",
-     "Signature",
-     "32GB",
-     "2025"
-    ]
-   },
-   "amazon": {
-    "keyword": "Kindle Colorsoft 2026",
-    "asin": "B0GV62167S"
-   }
-  },
-  {
-   "id": "kindle-scribe",
-   "brand": "Amazon",
-   "name": "Kindle Scribe（32GB）2026年モデル",
-   "badge": "書ける・11インチ",
-   "summary": "11インチにペン付き。本を読むよりノートや PDF への書き込みが主な人向け。",
-   "recommended": false,
-   "specs": {
-    "screen": "11インチ・白黒",
-    "ppi": "300ppi",
-    "water": "記載なし",
-    "weight": "400g",
-    "storage": "32GB（64GBもあり）",
-    "battery": "最大12週間（読書）",
-    "store": "Kindleストア"
-   },
-   "source": "https://www.amazon.co.jp/dp/B0FC1PBJRB?tag=dailyhack-22",
-   "rakuten": {
-    "keyword": "Kindle Scribe 32GB",
-    "must": [
-     "Scribe"
-    ],
-    "exclude": [
-     "中古",
-     "◆",
-     "並行輸入",
-     "交換",
-     "部品",
-     "専用",
-     "対応",
-     "アクセサリー",
-     "カバー",
-     "ケース",
-     "フィルム",
-     "保護",
-     "スリーブ",
-     "スタイラス",
-     "ペン",
-     "セット",
-     "ジャンク",
-     "訳あり",
-     "レンタル",
-     "整備済",
-     "リファービッシュ",
-     "キッズ",
-     "Kids",
-     "スキンシール",
-     "延長保証",
-     "Colorsoft",
-     "フロントライト非搭載",
-     "2024",
-     "第2世代"
-    ],
-    "itemUrl": "https://item.rakuten.co.jp/biccamera/0840414651654/"
-   },
-   "yahoo": {
-    "keyword": "Kindle Scribe 32GB グラファイト",
-    "must": [
-     "Scribe"
-    ],
-    "exclude": [
-     "中古",
-     "◆",
-     "並行輸入",
-     "交換",
-     "部品",
-     "専用",
-     "対応",
-     "アクセサリー",
-     "カバー",
-     "ケース",
-     "フィルム",
-     "保護",
-     "スリーブ",
-     "スタイラス",
-     "ペン",
-     "セット",
-     "ジャンク",
-     "訳あり",
-     "レンタル",
-     "整備済",
-     "リファービッシュ",
-     "キッズ",
-     "Kids",
-     "スキンシール",
-     "延長保証",
-     "Colorsoft",
-     "フロントライト非搭載",
-     "2024",
-     "第2世代"
-    ]
-   },
-   "amazon": {
-    "keyword": "Kindle Scribe 2026",
-    "asin": "B0FC1PBJRB"
-   }
-  },
-  {
-   "id": "kobo-clara-bw",
-   "brand": "楽天Kobo",
-   "name": "Kobo Clara BW",
-   "badge": "安い・防水",
-   "summary": "楽天Kobo の4機種でいちばん安い。6インチ・300ppi・IPX8で小説向け。",
-   "recommended": true,
-   "specs": {
-    "screen": "6インチ・白黒",
-    "ppi": "300ppi",
-    "water": "IPX8",
-    "weight": "174.0g",
-    "storage": "16GB",
-    "battery": "数週間",
-    "store": "楽天Kobo"
-   },
-   "source": "https://books.rakuten.co.jp/event/e-book/ereaders/koboclarabw/",
-   "rakuten": {
-    "keyword": "Kobo Clara BW",
-    "must": [
-     "Clara BW"
-    ],
-    "exclude": [
-     "中古",
-     "◆",
-     "並行輸入",
-     "交換",
-     "部品",
-     "専用",
-     "対応",
-     "アクセサリー",
-     "カバー",
-     "ケース",
-     "フィルム",
-     "保護",
-     "スリーブ",
-     "スタイラス",
-     "ペン",
-     "セット",
-     "ジャンク",
-     "訳あり",
-     "レンタル",
-     "整備済",
-     "リファービッシュ",
-     "キッズ",
-     "Kids",
-     "スキンシール",
-     "延長保証",
-     "Colour"
-    ],
-    "itemUrl": "https://item.rakuten.co.jp/biccamera/4560470103787/"
-   },
-   "yahoo": {
-    "keyword": "Kobo Clara BW",
-    "must": [
-     "Clara BW"
-    ],
-    "exclude": [
-     "中古",
-     "◆",
-     "並行輸入",
-     "交換",
-     "部品",
-     "専用",
-     "対応",
-     "アクセサリー",
-     "カバー",
-     "ケース",
-     "フィルム",
-     "保護",
-     "スリーブ",
-     "スタイラス",
-     "ペン",
-     "セット",
-     "ジャンク",
-     "訳あり",
-     "レンタル",
-     "整備済",
-     "リファービッシュ",
-     "キッズ",
-     "Kids",
-     "スキンシール",
-     "延長保証",
-     "Colour"
-    ]
-   },
-   "amazon": {
-    "keyword": "Kobo Clara BW",
-    "asin": "B0D4978BWY"
-   }
-  },
-  {
-   "id": "kobo-clara-colour",
-   "brand": "楽天Kobo",
-   "name": "Kobo Clara Colour",
-   "badge": "カラー・軽い",
-   "summary": "Clara BW と同じ174gでカラー表示。白とブラックの2色。",
-   "recommended": false,
-   "specs": {
-    "screen": "6インチ・カラー",
-    "ppi": "白黒300ppi・カラー150ppi",
-    "water": "IPX8",
-    "weight": "174.0g",
-    "storage": "16GB",
-    "battery": "数週間",
-    "store": "楽天Kobo"
-   },
-   "source": "https://books.rakuten.co.jp/event/e-book/ereaders/koboclaracolour/",
-   "rakuten": {
-    "keyword": "Kobo Clara Colour",
-    "must": [
-     "Clara Colour"
-    ],
-    "exclude": [
-     "中古",
-     "◆",
-     "並行輸入",
-     "交換",
-     "部品",
-     "専用",
-     "対応",
-     "アクセサリー",
-     "カバー",
-     "ケース",
-     "フィルム",
-     "保護",
-     "スリーブ",
-     "スタイラス",
-     "ペン",
-     "セット",
-     "ジャンク",
-     "訳あり",
-     "レンタル",
-     "整備済",
-     "リファービッシュ",
-     "キッズ",
-     "Kids",
-     "スキンシール",
-     "延長保証",
-     "BW"
-    ],
-    "itemUrl": "https://item.rakuten.co.jp/book/17822117/"
-   },
-   "yahoo": {
-    "keyword": "Kobo Clara Colour",
-    "must": [
-     "Clara Colour"
-    ],
-    "exclude": [
-     "中古",
-     "◆",
-     "並行輸入",
-     "交換",
-     "部品",
-     "専用",
-     "対応",
-     "アクセサリー",
-     "カバー",
-     "ケース",
-     "フィルム",
-     "保護",
-     "スリーブ",
-     "スタイラス",
-     "ペン",
-     "セット",
-     "ジャンク",
-     "訳あり",
-     "レンタル",
-     "整備済",
-     "リファービッシュ",
-     "キッズ",
-     "Kids",
-     "スキンシール",
-     "延長保証",
-     "BW"
-    ]
-   },
-   "amazon": {
-    "keyword": "Kobo Clara Colour",
-    "asin": "B0D5D1DXZY"
-   }
-  },
-  {
-   "id": "kobo-libra-colour",
-   "brand": "楽天Kobo",
-   "name": "Kobo Libra Colour",
-   "badge": "カラー・ボタン",
-   "summary": "7インチのカラーにページめくりボタン。別売りのペンで書き込みもできる。",
-   "recommended": true,
-   "specs": {
-    "screen": "7インチ・カラー",
-    "ppi": "白黒300ppi・カラー150ppi",
-    "water": "IPX8",
-    "weight": "199.5g",
-    "storage": "32GB",
-    "battery": "数週間",
-    "store": "楽天Kobo"
-   },
-   "source": "https://books.rakuten.co.jp/event/e-book/ereaders/kobolibracolour/",
-   "rakuten": {
-    "keyword": "Kobo Libra Colour",
-    "must": [
-     "Libra Colour"
-    ],
-    "exclude": [
-     "中古",
-     "◆",
-     "並行輸入",
-     "交換",
-     "部品",
-     "専用",
-     "対応",
-     "アクセサリー",
-     "カバー",
-     "ケース",
-     "フィルム",
-     "保護",
-     "スリーブ",
-     "スタイラス",
-     "ペン",
-     "セット",
-     "ジャンク",
-     "訳あり",
-     "レンタル",
-     "整備済",
-     "リファービッシュ",
-     "キッズ",
-     "Kids",
-     "スキンシール",
-     "延長保証"
-    ],
-    "itemUrl": "https://item.rakuten.co.jp/book/17822114/"
-   },
-   "yahoo": {
-    "keyword": "Kobo Libra Colour",
-    "must": [
-     "Libra Colour"
-    ],
-    "exclude": [
-     "中古",
-     "◆",
-     "並行輸入",
-     "交換",
-     "部品",
-     "専用",
-     "対応",
-     "アクセサリー",
-     "カバー",
-     "ケース",
-     "フィルム",
-     "保護",
-     "スリーブ",
-     "スタイラス",
-     "ペン",
-     "セット",
-     "ジャンク",
-     "訳あり",
-     "レンタル",
-     "整備済",
-     "リファービッシュ",
-     "キッズ",
-     "Kids",
-     "スキンシール",
-     "延長保証"
-    ]
-   },
-   "amazon": {
-    "keyword": "Kobo Libra Colour",
-    "asin": "B0D5HSRM75"
-   }
-  },
-  {
-   "id": "boox-go7",
-   "brand": "BOOX",
-   "name": "BOOX Go7（モノクロ）",
-   "badge": "Android・両方",
-   "summary": "Google Play で Kindle などのアプリを入れられる7インチ。microSD も使える。",
-   "recommended": false,
-   "specs": {
-    "screen": "7インチ・白黒",
-    "ppi": "300ppi",
-    "water": "撥水加工（等級の表記なし）",
-    "weight": "約195g",
-    "storage": "64GB（microSD 最大2TB）",
-    "battery": "2300mAh",
-    "store": "Google Play のアプリ"
-   },
-   "source": "https://sktgroup.co.jp/boox-go7gen2/",
-   "rakuten": {
-    "keyword": "BOOX Go7",
-    "must": [
-     "Go7"
-    ],
-    "exclude": [
-     "中古",
-     "◆",
-     "並行輸入",
-     "交換",
-     "部品",
-     "専用",
-     "対応",
-     "アクセサリー",
-     "カバー",
-     "ケース",
-     "フィルム",
-     "保護",
-     "スリーブ",
-     "スタイラス",
-     "ペン",
-     "セット",
-     "ジャンク",
-     "訳あり",
-     "レンタル",
-     "整備済",
-     "リファービッシュ",
-     "キッズ",
-     "Kids",
-     "スキンシール",
-     "延長保証",
-     "GoColor7",
-     "Go Color",
-     "Gen1"
-    ],
-    "itemUrl": "https://item.rakuten.co.jp/sktn/boox-go7g2/"
-   },
-   "yahoo": {
-    "keyword": "BOOX Go7",
-    "must": [
-     "Go7"
-    ],
-    "exclude": [
-     "中古",
-     "◆",
-     "並行輸入",
-     "交換",
-     "部品",
-     "専用",
-     "対応",
-     "アクセサリー",
-     "カバー",
-     "ケース",
-     "フィルム",
-     "保護",
-     "スリーブ",
-     "スタイラス",
-     "ペン",
-     "セット",
-     "ジャンク",
-     "訳あり",
-     "レンタル",
-     "整備済",
-     "リファービッシュ",
-     "キッズ",
-     "Kids",
-     "スキンシール",
-     "延長保証",
-     "GoColor7",
-     "Go Color",
-     "Gen1"
-    ],
-    "url": "https://store.shopping.yahoo.co.jp/skt/boox-go7g2.html"
-   },
-   "amazon": {
-    "keyword": "BOOX Go7",
-    "asin": "B0FPL3M2CP"
-   }
-  }
- ]
+  "id": "ereader",
+  "title": "電子書籍リーダー（Kindle と Kobo のどちらか・カラーは要るか・お風呂で読めるか）",
+  "_note": "仕様は公式だけ（2026-11-23 確認）。Kindle は Amazon の商品ページ（Mac の ops/tasks t1110・t1113 で Cookie なしで読んだ）とプレスリリース（2026-10-01・2026-05-12）。Kobo は楽天Kobo 公式の仕様表（books.rakuten.co.jp/event/e-book/ereaders/）。BOOX Go7 は SKT 公式（sktgroup.co.jp/boox-go7gen2/）。BOOX の楽天・Yahoo! は SKT 公式ページから張られている SKT の直営店（Go7 と GoColor7 Gen2 が同じ商品ページ）。ASIN・楽天の商品ページは t1112（find-product-pages.mjs）。Kindle の価格は本文に書かない（Amazon アソシエイトの規約）。",
+  "columns": [
+    {
+      "key": "screen",
+      "label": "画面"
+    },
+    {
+      "key": "ppi",
+      "label": "解像度"
+    },
+    {
+      "key": "water",
+      "label": "防水"
+    },
+    {
+      "key": "weight",
+      "label": "重さ"
+    },
+    {
+      "key": "storage",
+      "label": "容量"
+    },
+    {
+      "key": "battery",
+      "label": "バッテリー（公称）"
+    },
+    {
+      "key": "store",
+      "label": "本を買うストア"
+    }
+  ],
+  "pricesCheckedAt": "2026-11-23T21:44:00.508Z",
+  "items": [
+    {
+      "id": "kindle-16gb",
+      "brand": "Amazon",
+      "name": "Kindle（16GB）2026年モデル",
+      "badge": "軽い・6インチ",
+      "summary": "シリーズでいちばん軽い6インチ。防水は無いので、お風呂で読まない人向け。",
+      "recommended": false,
+      "specs": {
+        "screen": "6インチ・白黒",
+        "ppi": "300ppi",
+        "water": "なし",
+        "weight": "140g",
+        "storage": "16GB",
+        "battery": "最大6週間",
+        "store": "Kindleストア"
+      },
+      "source": "https://www.amazon.co.jp/dp/B0G4SL3W21?tag=dailyhack-22",
+      "rakuten": {
+        "keyword": "Kindle 16GB 2026",
+        "must": [
+          "Kindle",
+          "16GB"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "交換",
+          "部品",
+          "専用",
+          "対応",
+          "アクセサリー",
+          "カバー",
+          "ケース",
+          "フィルム",
+          "保護",
+          "スリーブ",
+          "スタイラス",
+          "ペン",
+          "セット",
+          "ジャンク",
+          "訳あり",
+          "レンタル",
+          "整備済",
+          "リファービッシュ",
+          "キッズ",
+          "Kids",
+          "スキンシール",
+          "延長保証",
+          "Paperwhite",
+          "Colorsoft",
+          "Scribe",
+          "32GB",
+          "2024"
+        ],
+        "itemUrl": "https://item.rakuten.co.jp/biccamera/0840414601390/"
+      },
+      "yahoo": {
+        "keyword": "Kindle 16GB 2026年発売",
+        "must": [
+          "Kindle",
+          "16GB"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "交換",
+          "部品",
+          "専用",
+          "対応",
+          "アクセサリー",
+          "カバー",
+          "ケース",
+          "フィルム",
+          "保護",
+          "スリーブ",
+          "スタイラス",
+          "ペン",
+          "セット",
+          "ジャンク",
+          "訳あり",
+          "レンタル",
+          "整備済",
+          "リファービッシュ",
+          "キッズ",
+          "Kids",
+          "スキンシール",
+          "延長保証",
+          "Paperwhite",
+          "Colorsoft",
+          "Scribe",
+          "32GB",
+          "2024"
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/light-hikari/840414601390.html",
+        "price": 29699,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 0,
+        "shop": "らいぶshop",
+        "checkedAt": "2026-11-23T21:44:00.508Z"
+      },
+      "amazon": {
+        "keyword": "Kindle 16GB 2026",
+        "asin": "B0G4SL3W21"
+      }
+    },
+    {
+      "id": "kindle-paperwhite",
+      "brand": "Amazon",
+      "name": "Kindle Paperwhite（16GB）2026年モデル",
+      "badge": "防水・定番",
+      "summary": "7インチ・IPX8・最大12週間。Amazon で本を買う人の、迷ったらこれ。",
+      "recommended": true,
+      "specs": {
+        "screen": "7インチ・白黒",
+        "ppi": "300ppi",
+        "water": "IPX8",
+        "weight": "204g",
+        "storage": "16GB",
+        "battery": "最大12週間",
+        "store": "Kindleストア"
+      },
+      "source": "https://www.amazon.co.jp/dp/B0GV5VHTL6?tag=dailyhack-22",
+      "rakuten": {
+        "keyword": "Kindle Paperwhite 16GB 2026",
+        "must": [
+          "Paperwhite"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "交換",
+          "部品",
+          "専用",
+          "対応",
+          "アクセサリー",
+          "カバー",
+          "ケース",
+          "フィルム",
+          "保護",
+          "スリーブ",
+          "スタイラス",
+          "ペン",
+          "セット",
+          "ジャンク",
+          "訳あり",
+          "レンタル",
+          "整備済",
+          "リファービッシュ",
+          "キッズ",
+          "Kids",
+          "スキンシール",
+          "延長保証",
+          "シグニチャー",
+          "Signature",
+          "32GB",
+          "2024"
+        ],
+        "itemUrl": "https://item.rakuten.co.jp/yamada-denki/9429900014/"
+      },
+      "yahoo": {
+        "keyword": "Kindle Paperwhite 16GB 2026年モデル",
+        "must": [
+          "Paperwhite"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "交換",
+          "部品",
+          "専用",
+          "対応",
+          "アクセサリー",
+          "カバー",
+          "ケース",
+          "フィルム",
+          "保護",
+          "スリーブ",
+          "スタイラス",
+          "ペン",
+          "セット",
+          "ジャンク",
+          "訳あり",
+          "レンタル",
+          "整備済",
+          "リファービッシュ",
+          "キッズ",
+          "Kids",
+          "スキンシール",
+          "延長保証",
+          "シグニチャー",
+          "Signature",
+          "32GB",
+          "2024"
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/noahshoping/0840268907280.html",
+        "price": 43480,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 0,
+        "shop": "ノア商社Yahoo!店",
+        "checkedAt": "2026-11-23T21:44:00.508Z"
+      },
+      "amazon": {
+        "keyword": "Kindle Paperwhite 2026",
+        "asin": "B0GV5VHTL6"
+      }
+    },
+    {
+      "id": "kindle-colorsoft",
+      "brand": "Amazon",
+      "name": "Kindle Colorsoft（16GB）2026年モデル",
+      "badge": "カラー・Kindle",
+      "summary": "Kindle でカラーの漫画や表紙を読みたい人へ。7インチのカラー画面。",
+      "recommended": false,
+      "specs": {
+        "screen": "7インチ・カラー",
+        "ppi": "白黒300ppi・カラー150ppi",
+        "water": "IPX8",
+        "weight": "204g",
+        "storage": "16GB",
+        "battery": "最大8週間",
+        "store": "Kindleストア"
+      },
+      "source": "https://www.amazon.co.jp/dp/B0GV62167S?tag=dailyhack-22",
+      "rakuten": {
+        "keyword": "Kindle Colorsoft 16GB 2026",
+        "must": [
+          "Colorsoft"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "交換",
+          "部品",
+          "専用",
+          "対応",
+          "アクセサリー",
+          "カバー",
+          "ケース",
+          "フィルム",
+          "保護",
+          "スリーブ",
+          "スタイラス",
+          "ペン",
+          "セット",
+          "ジャンク",
+          "訳あり",
+          "レンタル",
+          "整備済",
+          "リファービッシュ",
+          "キッズ",
+          "Kids",
+          "スキンシール",
+          "延長保証",
+          "Scribe",
+          "シグニチャー",
+          "Signature",
+          "32GB",
+          "2025"
+        ],
+        "itemUrl": "https://item.rakuten.co.jp/yamada-denki/9429903015/"
+      },
+      "yahoo": {
+        "keyword": "Kindle Colorsoft 16GB 2026年モデル",
+        "must": [
+          "Colorsoft"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "交換",
+          "部品",
+          "専用",
+          "対応",
+          "アクセサリー",
+          "カバー",
+          "ケース",
+          "フィルム",
+          "保護",
+          "スリーブ",
+          "スタイラス",
+          "ペン",
+          "セット",
+          "ジャンク",
+          "訳あり",
+          "レンタル",
+          "整備済",
+          "リファービッシュ",
+          "キッズ",
+          "Kids",
+          "スキンシール",
+          "延長保証",
+          "Scribe",
+          "シグニチャー",
+          "Signature",
+          "32GB",
+          "2025"
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/joshin/0840414681842-41-56026.html",
+        "price": 51980,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 0,
+        "shop": "Joshin web",
+        "checkedAt": "2026-11-23T21:44:00.508Z"
+      },
+      "amazon": {
+        "keyword": "Kindle Colorsoft 2026",
+        "asin": "B0GV62167S"
+      }
+    },
+    {
+      "id": "kindle-scribe",
+      "brand": "Amazon",
+      "name": "Kindle Scribe（32GB）2026年モデル",
+      "badge": "書ける・11インチ",
+      "summary": "11インチにペン付き。本を読むよりノートや PDF への書き込みが主な人向け。",
+      "recommended": false,
+      "specs": {
+        "screen": "11インチ・白黒",
+        "ppi": "300ppi",
+        "water": "記載なし",
+        "weight": "400g",
+        "storage": "32GB（64GBもあり）",
+        "battery": "最大12週間（読書）",
+        "store": "Kindleストア"
+      },
+      "source": "https://www.amazon.co.jp/dp/B0FC1PBJRB?tag=dailyhack-22",
+      "rakuten": {
+        "keyword": "Kindle Scribe 32GB",
+        "must": [
+          "Scribe"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "交換",
+          "部品",
+          "専用",
+          "対応",
+          "アクセサリー",
+          "カバー",
+          "ケース",
+          "フィルム",
+          "保護",
+          "スリーブ",
+          "スタイラス",
+          "ペン",
+          "セット",
+          "ジャンク",
+          "訳あり",
+          "レンタル",
+          "整備済",
+          "リファービッシュ",
+          "キッズ",
+          "Kids",
+          "スキンシール",
+          "延長保証",
+          "Colorsoft",
+          "フロントライト非搭載",
+          "2024",
+          "第2世代"
+        ],
+        "itemUrl": "https://item.rakuten.co.jp/biccamera/0840414651654/"
+      },
+      "yahoo": {
+        "keyword": "Kindle Scribe 32GB グラファイト",
+        "must": [
+          "Scribe"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "交換",
+          "部品",
+          "専用",
+          "対応",
+          "アクセサリー",
+          "カバー",
+          "ケース",
+          "フィルム",
+          "保護",
+          "スリーブ",
+          "スタイラス",
+          "ペン",
+          "セット",
+          "ジャンク",
+          "訳あり",
+          "レンタル",
+          "整備済",
+          "リファービッシュ",
+          "キッズ",
+          "Kids",
+          "スキンシール",
+          "延長保証",
+          "Colorsoft",
+          "フロントライト非搭載",
+          "2024",
+          "第2世代"
+        ]
+      },
+      "amazon": {
+        "keyword": "Kindle Scribe 2026",
+        "asin": "B0FC1PBJRB"
+      }
+    },
+    {
+      "id": "kobo-clara-bw",
+      "brand": "楽天Kobo",
+      "name": "Kobo Clara BW",
+      "badge": "安い・防水",
+      "summary": "楽天Kobo の4機種でいちばん安い。6インチ・300ppi・IPX8で小説向け。",
+      "recommended": true,
+      "specs": {
+        "screen": "6インチ・白黒",
+        "ppi": "300ppi",
+        "water": "IPX8",
+        "weight": "174.0g",
+        "storage": "16GB",
+        "battery": "数週間",
+        "store": "楽天Kobo"
+      },
+      "source": "https://books.rakuten.co.jp/event/e-book/ereaders/koboclarabw/",
+      "rakuten": {
+        "keyword": "Kobo Clara BW",
+        "must": [
+          "Clara BW"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "交換",
+          "部品",
+          "専用",
+          "対応",
+          "アクセサリー",
+          "カバー",
+          "ケース",
+          "フィルム",
+          "保護",
+          "スリーブ",
+          "スタイラス",
+          "ペン",
+          "セット",
+          "ジャンク",
+          "訳あり",
+          "レンタル",
+          "整備済",
+          "リファービッシュ",
+          "キッズ",
+          "Kids",
+          "スキンシール",
+          "延長保証",
+          "Colour"
+        ],
+        "itemUrl": "https://item.rakuten.co.jp/biccamera/4560470103787/"
+      },
+      "yahoo": {
+        "keyword": "Kobo Clara BW",
+        "must": [
+          "Clara BW"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "交換",
+          "部品",
+          "専用",
+          "対応",
+          "アクセサリー",
+          "カバー",
+          "ケース",
+          "フィルム",
+          "保護",
+          "スリーブ",
+          "スタイラス",
+          "ペン",
+          "セット",
+          "ジャンク",
+          "訳あり",
+          "レンタル",
+          "整備済",
+          "リファービッシュ",
+          "キッズ",
+          "Kids",
+          "スキンシール",
+          "延長保証",
+          "Colour"
+        ]
+      },
+      "amazon": {
+        "keyword": "Kobo Clara BW",
+        "asin": "B0D4978BWY"
+      }
+    },
+    {
+      "id": "kobo-clara-colour",
+      "brand": "楽天Kobo",
+      "name": "Kobo Clara Colour",
+      "badge": "カラー・軽い",
+      "summary": "Clara BW と同じ174gでカラー表示。白とブラックの2色。",
+      "recommended": false,
+      "specs": {
+        "screen": "6インチ・カラー",
+        "ppi": "白黒300ppi・カラー150ppi",
+        "water": "IPX8",
+        "weight": "174.0g",
+        "storage": "16GB",
+        "battery": "数週間",
+        "store": "楽天Kobo"
+      },
+      "source": "https://books.rakuten.co.jp/event/e-book/ereaders/koboclaracolour/",
+      "rakuten": {
+        "keyword": "Kobo Clara Colour",
+        "must": [
+          "Clara Colour"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "交換",
+          "部品",
+          "専用",
+          "対応",
+          "アクセサリー",
+          "カバー",
+          "ケース",
+          "フィルム",
+          "保護",
+          "スリーブ",
+          "スタイラス",
+          "ペン",
+          "セット",
+          "ジャンク",
+          "訳あり",
+          "レンタル",
+          "整備済",
+          "リファービッシュ",
+          "キッズ",
+          "Kids",
+          "スキンシール",
+          "延長保証",
+          "BW"
+        ],
+        "itemUrl": "https://item.rakuten.co.jp/book/17822117/"
+      },
+      "yahoo": {
+        "keyword": "Kobo Clara Colour",
+        "must": [
+          "Clara Colour"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "交換",
+          "部品",
+          "専用",
+          "対応",
+          "アクセサリー",
+          "カバー",
+          "ケース",
+          "フィルム",
+          "保護",
+          "スリーブ",
+          "スタイラス",
+          "ペン",
+          "セット",
+          "ジャンク",
+          "訳あり",
+          "レンタル",
+          "整備済",
+          "リファービッシュ",
+          "キッズ",
+          "Kids",
+          "スキンシール",
+          "延長保証",
+          "BW"
+        ]
+      },
+      "amazon": {
+        "keyword": "Kobo Clara Colour",
+        "asin": "B0D5D1DXZY"
+      }
+    },
+    {
+      "id": "kobo-libra-colour",
+      "brand": "楽天Kobo",
+      "name": "Kobo Libra Colour",
+      "badge": "カラー・ボタン",
+      "summary": "7インチのカラーにページめくりボタン。別売りのペンで書き込みもできる。",
+      "recommended": true,
+      "specs": {
+        "screen": "7インチ・カラー",
+        "ppi": "白黒300ppi・カラー150ppi",
+        "water": "IPX8",
+        "weight": "199.5g",
+        "storage": "32GB",
+        "battery": "数週間",
+        "store": "楽天Kobo"
+      },
+      "source": "https://books.rakuten.co.jp/event/e-book/ereaders/kobolibracolour/",
+      "rakuten": {
+        "keyword": "Kobo Libra Colour",
+        "must": [
+          "Libra Colour"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "交換",
+          "部品",
+          "専用",
+          "対応",
+          "アクセサリー",
+          "カバー",
+          "ケース",
+          "フィルム",
+          "保護",
+          "スリーブ",
+          "スタイラス",
+          "ペン",
+          "セット",
+          "ジャンク",
+          "訳あり",
+          "レンタル",
+          "整備済",
+          "リファービッシュ",
+          "キッズ",
+          "Kids",
+          "スキンシール",
+          "延長保証"
+        ],
+        "itemUrl": "https://item.rakuten.co.jp/book/17822114/"
+      },
+      "yahoo": {
+        "keyword": "Kobo Libra Colour",
+        "must": [
+          "Libra Colour"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "交換",
+          "部品",
+          "専用",
+          "対応",
+          "アクセサリー",
+          "カバー",
+          "ケース",
+          "フィルム",
+          "保護",
+          "スリーブ",
+          "スタイラス",
+          "ペン",
+          "セット",
+          "ジャンク",
+          "訳あり",
+          "レンタル",
+          "整備済",
+          "リファービッシュ",
+          "キッズ",
+          "Kids",
+          "スキンシール",
+          "延長保証"
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/y-kojima/4560470103770.html",
+        "price": 41800,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": 5,
+        "reviewCount": 3,
+        "shop": "コジマYahoo!店",
+        "checkedAt": "2026-11-23T21:44:00.508Z"
+      },
+      "amazon": {
+        "keyword": "Kobo Libra Colour",
+        "asin": "B0D5HSRM75"
+      }
+    },
+    {
+      "id": "boox-go7",
+      "brand": "BOOX",
+      "name": "BOOX Go7（モノクロ）",
+      "badge": "Android・両方",
+      "summary": "Google Play で Kindle などのアプリを入れられる7インチ。microSD も使える。",
+      "recommended": false,
+      "specs": {
+        "screen": "7インチ・白黒",
+        "ppi": "300ppi",
+        "water": "撥水加工（等級の表記なし）",
+        "weight": "約195g",
+        "storage": "64GB（microSD 最大2TB）",
+        "battery": "2300mAh",
+        "store": "Google Play のアプリ"
+      },
+      "source": "https://sktgroup.co.jp/boox-go7gen2/",
+      "rakuten": {
+        "keyword": "BOOX Go7",
+        "must": [
+          "Go7"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "交換",
+          "部品",
+          "専用",
+          "対応",
+          "アクセサリー",
+          "カバー",
+          "ケース",
+          "フィルム",
+          "保護",
+          "スリーブ",
+          "スタイラス",
+          "ペン",
+          "セット",
+          "ジャンク",
+          "訳あり",
+          "レンタル",
+          "整備済",
+          "リファービッシュ",
+          "キッズ",
+          "Kids",
+          "スキンシール",
+          "延長保証",
+          "GoColor7",
+          "Go Color",
+          "Gen1"
+        ],
+        "itemUrl": "https://item.rakuten.co.jp/sktn/boox-go7g2/"
+      },
+      "yahoo": {
+        "keyword": "BOOX Go7",
+        "must": [
+          "Go7"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "交換",
+          "部品",
+          "専用",
+          "対応",
+          "アクセサリー",
+          "カバー",
+          "ケース",
+          "フィルム",
+          "保護",
+          "スリーブ",
+          "スタイラス",
+          "ペン",
+          "セット",
+          "ジャンク",
+          "訳あり",
+          "レンタル",
+          "整備済",
+          "リファービッシュ",
+          "キッズ",
+          "Kids",
+          "スキンシール",
+          "延長保証",
+          "GoColor7",
+          "Go Color",
+          "Gen1"
+        ],
+        "url": null,
+        "price": null,
+        "shippingFree": null,
+        "point": null,
+        "reviewAverage": null,
+        "reviewCount": null,
+        "shop": null,
+        "checkedAt": "2026-11-23T21:44:00.508Z"
+      },
+      "amazon": {
+        "keyword": "BOOX Go7",
+        "asin": "B0FPL3M2CP"
+      }
+    }
+  ]
 }
