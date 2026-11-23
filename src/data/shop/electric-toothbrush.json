@@ -3,14 +3,32 @@
   "title": "電動歯ブラシ（音波式と回転式・替えブラシ代・電池の持ち）",
   "_note": "仕様は各メーカーの公式ページ（フィリップスは製品ページの技術仕様、オーラルBは公式サイトと公式ストア、パナソニックは公式の比較表、オムロンは公式ストア）で 2026-11-22 に確かめたものだけ。公式に無い項目は「記載なし」。",
   "columns": [
-    { "key": "type", "label": "方式" },
-    { "key": "motion", "label": "動き（公称）" },
-    { "key": "battery", "label": "電池の持ち（公称）" },
-    { "key": "modes", "label": "モード" },
-    { "key": "sensor", "label": "押しつけ防止" },
-    { "key": "head", "label": "替えブラシ（公式の目安）" }
+    {
+      "key": "type",
+      "label": "方式"
+    },
+    {
+      "key": "motion",
+      "label": "動き（公称）"
+    },
+    {
+      "key": "battery",
+      "label": "電池の持ち（公称）"
+    },
+    {
+      "key": "modes",
+      "label": "モード"
+    },
+    {
+      "key": "sensor",
+      "label": "押しつけ防止"
+    },
+    {
+      "key": "head",
+      "label": "替えブラシ（公式の目安）"
+    }
   ],
-  "pricesCheckedAt": null,
+  "pricesCheckedAt": "2026-11-23T21:44:00.508Z",
   "items": [
     {
       "id": "philips-hx4021",
@@ -27,9 +45,46 @@
         "head": "約3か月ごと／付属はインターケアー"
       },
       "source": "https://www.philips.co.jp/c-p/HX4021_01/2100-rechargeable-toothbrush",
-      "rakuten": { "keyword": "ソニッケアー HX4021/01", "must": ["HX4021"], "exclude": ["替えブラシ", "ブラシヘッド", "互換", "対応", "専用", "交換"] },
-      "yahoo": { "keyword": "ソニッケアー HX4021/01", "must": ["HX4021"], "exclude": ["替えブラシ", "ブラシヘッド", "互換", "対応", "専用", "交換"] },
-      "amazon": { "keyword": "フィリップス ソニッケアー HX4021/01", "asin": "B0GR9CYTXC" }
+      "rakuten": {
+        "keyword": "ソニッケアー HX4021/01",
+        "must": [
+          "HX4021"
+        ],
+        "exclude": [
+          "替えブラシ",
+          "ブラシヘッド",
+          "互換",
+          "対応",
+          "専用",
+          "交換"
+        ]
+      },
+      "yahoo": {
+        "keyword": "ソニッケアー HX4021/01",
+        "must": [
+          "HX4021"
+        ],
+        "exclude": [
+          "替えブラシ",
+          "ブラシヘッド",
+          "互換",
+          "対応",
+          "専用",
+          "交換"
+        ],
+        "url": null,
+        "price": null,
+        "shippingFree": null,
+        "point": null,
+        "reviewAverage": null,
+        "reviewCount": null,
+        "shop": null,
+        "checkedAt": "2026-11-23T21:44:00.508Z"
+      },
+      "amazon": {
+        "keyword": "フィリップス ソニッケアー HX4021/01",
+        "asin": "B0GR9CYTXC"
+      }
     },
     {
       "id": "philips-hx7421",
@@ -46,9 +101,46 @@
         "head": "約3か月ごと／付属はプレミアムガムケア"
       },
       "source": "https://www.philips.co.jp/c-p/HX7421_11/series-7100-rechargeable-toothbrush",
-      "rakuten": { "keyword": "ソニッケアー HX7421/11", "must": ["HX7421"], "exclude": ["替えブラシ", "ブラシヘッド", "互換", "対応", "専用", "交換"] },
-      "yahoo": { "keyword": "ソニッケアー HX7421/11", "must": ["HX7421"], "exclude": ["替えブラシ", "ブラシヘッド", "互換", "対応", "専用", "交換"] },
-      "amazon": { "keyword": "フィリップス ソニッケアー 7100 HX7421/11", "asin": "B0FMKNN6B7" }
+      "rakuten": {
+        "keyword": "ソニッケアー HX7421/11",
+        "must": [
+          "HX7421"
+        ],
+        "exclude": [
+          "替えブラシ",
+          "ブラシヘッド",
+          "互換",
+          "対応",
+          "専用",
+          "交換"
+        ]
+      },
+      "yahoo": {
+        "keyword": "ソニッケアー HX7421/11",
+        "must": [
+          "HX7421"
+        ],
+        "exclude": [
+          "替えブラシ",
+          "ブラシヘッド",
+          "互換",
+          "対応",
+          "専用",
+          "交換"
+        ],
+        "url": null,
+        "price": null,
+        "shippingFree": null,
+        "point": null,
+        "reviewAverage": null,
+        "reviewCount": null,
+        "shop": null,
+        "checkedAt": "2026-11-23T21:44:00.508Z"
+      },
+      "amazon": {
+        "keyword": "フィリップス ソニッケアー 7100 HX7421/11",
+        "asin": "B0FMKNN6B7"
+      }
     },
     {
       "id": "philips-hx9911",
@@ -65,9 +157,46 @@
         "head": "約3か月ごと／付属はA3オールインワン"
       },
       "source": "https://www.philips.co.jp/c-p/HX9911_72/diamondclean-9000-rechargeable-toothbrush",
-      "rakuten": { "keyword": "ダイヤモンドクリーン 9000 HX9911/72", "must": ["HX9911"], "exclude": ["替えブラシ", "ブラシヘッド", "互換", "対応", "専用", "交換"] },
-      "yahoo": { "keyword": "ダイヤモンドクリーン 9000 HX9911/72", "must": ["HX9911"], "exclude": ["替えブラシ", "ブラシヘッド", "互換", "対応", "専用", "交換"] },
-      "amazon": { "keyword": "フィリップス ダイヤモンドクリーン 9000 HX9911/72", "asin": "B09J46TYW2" }
+      "rakuten": {
+        "keyword": "ダイヤモンドクリーン 9000 HX9911/72",
+        "must": [
+          "HX9911"
+        ],
+        "exclude": [
+          "替えブラシ",
+          "ブラシヘッド",
+          "互換",
+          "対応",
+          "専用",
+          "交換"
+        ]
+      },
+      "yahoo": {
+        "keyword": "ダイヤモンドクリーン 9000 HX9911/72",
+        "must": [
+          "HX9911"
+        ],
+        "exclude": [
+          "替えブラシ",
+          "ブラシヘッド",
+          "互換",
+          "対応",
+          "専用",
+          "交換"
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/sairyo-shop/4353-000150.html",
+        "price": 27800,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 0,
+        "shop": "彩涼ショップ",
+        "checkedAt": "2026-11-23T21:44:00.508Z"
+      },
+      "amazon": {
+        "keyword": "フィリップス ダイヤモンドクリーン 9000 HX9911/72",
+        "asin": "B09J46TYW2"
+      }
     },
     {
       "id": "oralb-io2",
@@ -84,9 +213,46 @@
         "head": "3か月ごと／iO専用"
       },
       "source": "https://www.oralb.braun.co.jp/ja-jp/products/electric-toothbrushes/oral-b-io-series-2",
-      "rakuten": { "keyword": "オーラルB iO2 本体", "must": ["iO2"], "exclude": ["替えブラシ", "互換", "対応", "専用", "交換", "iO20"] },
-      "yahoo": { "keyword": "オーラルB iO2 本体", "must": ["iO2"], "exclude": ["替えブラシ", "互換", "対応", "専用", "交換", "iO20"] },
-      "amazon": { "keyword": "ブラウン オーラルB iO2", "asin": "B0DB4GH421" }
+      "rakuten": {
+        "keyword": "オーラルB iO2 本体",
+        "must": [
+          "iO2"
+        ],
+        "exclude": [
+          "替えブラシ",
+          "互換",
+          "対応",
+          "専用",
+          "交換",
+          "iO20"
+        ]
+      },
+      "yahoo": {
+        "keyword": "オーラルB iO2 本体",
+        "must": [
+          "iO2"
+        ],
+        "exclude": [
+          "替えブラシ",
+          "互換",
+          "対応",
+          "専用",
+          "交換",
+          "iO20"
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/fines-f/4987176264220.html",
+        "price": 6798,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": 4.3,
+        "reviewCount": 10,
+        "shop": "くすりのエビス",
+        "checkedAt": "2026-11-23T21:44:00.508Z"
+      },
+      "amazon": {
+        "keyword": "ブラウン オーラルB iO2",
+        "asin": "B0DB4GH421"
+      }
     },
     {
       "id": "oralb-pro1",
@@ -103,9 +269,44 @@
         "head": "3か月ごと／iO以外のブラシ"
       },
       "source": "https://www.oralb.braun.co.jp/ja-jp/products/electric-toothbrushes/pro-1",
-      "rakuten": { "keyword": "オーラルB PRO1 D305", "must": ["D305"], "exclude": ["替えブラシ", "互換", "対応", "専用", "交換"] },
-      "yahoo": { "keyword": "オーラルB PRO1 D305", "must": ["D305"], "exclude": ["替えブラシ", "互換", "対応", "専用", "交換"] },
-      "amazon": { "keyword": "ブラウン オーラルB PRO1 D305", "asin": null }
+      "rakuten": {
+        "keyword": "オーラルB PRO1 D305",
+        "must": [
+          "D305"
+        ],
+        "exclude": [
+          "替えブラシ",
+          "互換",
+          "対応",
+          "専用",
+          "交換"
+        ]
+      },
+      "yahoo": {
+        "keyword": "オーラルB PRO1 D305",
+        "must": [
+          "D305"
+        ],
+        "exclude": [
+          "替えブラシ",
+          "互換",
+          "対応",
+          "専用",
+          "交換"
+        ],
+        "url": null,
+        "price": null,
+        "shippingFree": null,
+        "point": null,
+        "reviewAverage": null,
+        "reviewCount": null,
+        "shop": null,
+        "checkedAt": "2026-11-23T21:44:00.508Z"
+      },
+      "amazon": {
+        "keyword": "ブラウン オーラルB PRO1 D305",
+        "asin": null
+      }
     },
     {
       "id": "panasonic-ew-da49",
@@ -122,9 +323,46 @@
         "head": "3か月が目安／付属はトータルケア・極細毛ポイント磨き"
       },
       "source": "https://panasonic.jp/teeth/products/EW-DA49.html",
-      "rakuten": { "keyword": "ドルツ EW-DA49", "must": ["EW-DA49"], "exclude": ["替えブラシ", "替ブラシ", "互換", "対応", "専用", "交換"] },
-      "yahoo": { "keyword": "ドルツ EW-DA49", "must": ["EW-DA49"], "exclude": ["替えブラシ", "替ブラシ", "互換", "対応", "専用", "交換"] },
-      "amazon": { "keyword": "パナソニック ドルツ EW-DA49", "asin": "B0HB3QY3P6" }
+      "rakuten": {
+        "keyword": "ドルツ EW-DA49",
+        "must": [
+          "EW-DA49"
+        ],
+        "exclude": [
+          "替えブラシ",
+          "替ブラシ",
+          "互換",
+          "対応",
+          "専用",
+          "交換"
+        ]
+      },
+      "yahoo": {
+        "keyword": "ドルツ EW-DA49",
+        "must": [
+          "EW-DA49"
+        ],
+        "exclude": [
+          "替えブラシ",
+          "替ブラシ",
+          "互換",
+          "対応",
+          "専用",
+          "交換"
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/keitaiichiba/rs-789-pew-h260924.html",
+        "price": 1975,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 0,
+        "shop": "スマホカバーのKEITAIICHIBA",
+        "checkedAt": "2026-11-23T21:44:00.508Z"
+      },
+      "amazon": {
+        "keyword": "パナソニック ドルツ EW-DA49",
+        "asin": "B0HB3QY3P6"
+      }
     },
     {
       "id": "panasonic-ew-dt88",
@@ -141,9 +379,46 @@
         "head": "3か月が目安／付属は歯間フィット・トータルケアなど"
       },
       "source": "https://panasonic.jp/teeth/products/EW-DT88.html",
-      "rakuten": { "keyword": "ドルツ EW-DT88", "must": ["EW-DT88"], "exclude": ["替えブラシ", "替ブラシ", "互換", "対応", "専用", "交換"] },
-      "yahoo": { "keyword": "ドルツ EW-DT88", "must": ["EW-DT88"], "exclude": ["替えブラシ", "替ブラシ", "互換", "対応", "専用", "交換"] },
-      "amazon": { "keyword": "パナソニック ドルツ EW-DT88", "asin": "B0FKG8DKCK" }
+      "rakuten": {
+        "keyword": "ドルツ EW-DT88",
+        "must": [
+          "EW-DT88"
+        ],
+        "exclude": [
+          "替えブラシ",
+          "替ブラシ",
+          "互換",
+          "対応",
+          "専用",
+          "交換"
+        ]
+      },
+      "yahoo": {
+        "keyword": "ドルツ EW-DT88",
+        "must": [
+          "EW-DT88"
+        ],
+        "exclude": [
+          "替えブラシ",
+          "替ブラシ",
+          "互換",
+          "対応",
+          "専用",
+          "交換"
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/d-rise2/p000000917319.html",
+        "price": 43780,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 0,
+        "shop": "ディーライズ2号",
+        "checkedAt": "2026-11-23T21:44:00.508Z"
+      },
+      "amazon": {
+        "keyword": "パナソニック ドルツ EW-DT88",
+        "asin": "B0FKG8DKCK"
+      }
     },
     {
       "id": "omron-ht-b3221",
@@ -160,9 +435,44 @@
         "head": "タイプ2のブラシ（2本入り）"
       },
       "source": "https://store.healthcare.omron.co.jp/category/35/HT_B3221_JT.html",
-      "rakuten": { "keyword": "オムロン HT-B3221-JT", "must": ["HT-B3221"], "exclude": ["替えブラシ", "互換", "対応", "専用", "交換"] },
-      "yahoo": { "keyword": "オムロン HT-B3221-JT", "must": ["HT-B3221"], "exclude": ["替えブラシ", "互換", "対応", "専用", "交換"] },
-      "amazon": { "keyword": "オムロン 音波式電動歯ブラシ HT-B3221-JT", "asin": "B0GR4T5D75" }
+      "rakuten": {
+        "keyword": "オムロン HT-B3221-JT",
+        "must": [
+          "HT-B3221"
+        ],
+        "exclude": [
+          "替えブラシ",
+          "互換",
+          "対応",
+          "専用",
+          "交換"
+        ]
+      },
+      "yahoo": {
+        "keyword": "オムロン HT-B3221-JT",
+        "must": [
+          "HT-B3221"
+        ],
+        "exclude": [
+          "替えブラシ",
+          "互換",
+          "対応",
+          "専用",
+          "交換"
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/life-rhythm/ht-b3221-jt.html",
+        "price": 9980,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": 4.6,
+        "reviewCount": 10,
+        "shop": "オムロン ヘルスケア公式 Yahoo!店",
+        "checkedAt": "2026-11-23T21:44:00.508Z"
+      },
+      "amazon": {
+        "keyword": "オムロン 音波式電動歯ブラシ HT-B3221-JT",
+        "asin": "B0GR4T5D75"
+      }
     }
   ]
 }

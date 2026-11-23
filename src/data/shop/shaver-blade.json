@@ -3,77 +3,296 @@
   "title": "電動シェーバーの替刃（3店の値段と、公式の値段・交換の目安）",
   "_note": "対応する本体・交換の目安・公式の値段は各社の公式ページで 2026-11-22 に確かめたもの。パナソニックは Panasonic Store Plus（公式通販）の価格。ブラウンとフィリップスの替刃は公式に価格の記載がない。3店の値段は楽天市場・Yahoo!ショッピングの API が毎日書く。純正でない互換品は入れていない。Amazon の ASIN は ops/tasks/t1062 で題名に型番があり広告枠でない純正品。F/C96M は互換品しか出なかったので検索リンクのまま。2026-11-23 に 70-N1200s 用として入れていた F/C70B-3 を外した（70-N1200s に合う替刃を公式で確かめられなかったため）。",
   "columns": [
-    { "key": "fits", "label": "この記事で使う本体" },
-    { "key": "cycle", "label": "交換の目安（公式）" },
-    { "key": "official", "label": "公式の値段" }
+    {
+      "key": "fits",
+      "label": "この記事で使う本体"
+    },
+    {
+      "key": "cycle",
+      "label": "交換の目安（公式）"
+    },
+    {
+      "key": "official",
+      "label": "公式の値段"
+    }
   ],
-  "pricesCheckedAt": null,
+  "pricesCheckedAt": "2026-11-23T21:44:00.508Z",
   "items": [
     {
       "id": "braun-fc96m",
       "brand": "ブラウン",
       "name": "シリーズ9用 網刃・内刃一体型カセット F/C96M",
       "badge": "シリーズ9 Pro+ 用",
-      "specs": { "fits": "シリーズ9 Pro+ 9660cc", "cycle": "18か月に一度", "official": "記載なし" },
+      "specs": {
+        "fits": "シリーズ9 Pro+ 9660cc",
+        "cycle": "18か月に一度",
+        "official": "記載なし"
+      },
       "source": "https://www.braun.jp/ja-jp/male-grooming/shavers-replacement-parts",
-      "rakuten": { "keyword": "ブラウン 替刃 F/C96M", "must": ["96M"], "exclude": ["互換", "対応", "中古", "◆", "並行輸入"] },
-      "yahoo": { "keyword": "ブラウン 替刃 F/C96M", "must": ["96M"], "exclude": ["互換", "対応", "中古", "◆", "並行輸入"] },
-      "amazon": { "keyword": "ブラウン 替刃 F/C96M", "asin": null }
+      "rakuten": {
+        "keyword": "ブラウン 替刃 F/C96M",
+        "must": [
+          "96M"
+        ],
+        "exclude": [
+          "互換",
+          "対応",
+          "中古",
+          "◆",
+          "並行輸入"
+        ]
+      },
+      "yahoo": {
+        "keyword": "ブラウン 替刃 F/C96M",
+        "must": [
+          "96M"
+        ],
+        "exclude": [
+          "互換",
+          "対応",
+          "中古",
+          "◆",
+          "並行輸入"
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/allife/a077-013.html",
+        "price": 9380,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": 4.6,
+        "reviewCount": 5,
+        "shop": "Allifeヤフーショップ",
+        "checkedAt": "2026-11-23T21:44:00.508Z"
+      },
+      "amazon": {
+        "keyword": "ブラウン 替刃 F/C96M",
+        "asin": null
+      }
     },
     {
       "id": "panasonic-es9610",
       "brand": "パナソニック",
       "name": "ラムダッシュ 6枚刃 一体型セット替刃 ES9610",
       "badge": "ES-L690U 用",
-      "specs": { "fits": "ラムダッシュPRO 6枚刃 ES-L690U", "cycle": "約1.5年（一体型セット刃）", "official": "10,890円" },
+      "specs": {
+        "fits": "ラムダッシュPRO 6枚刃 ES-L690U",
+        "cycle": "約1.5年（一体型セット刃）",
+        "official": "10,890円"
+      },
       "source": "https://panasonic.jp/consumables/products/ES9610.html",
-      "rakuten": { "keyword": "パナソニック 替刃 ES9610", "must": ["ES9610"], "exclude": ["互換", "対応", "中古", "◆", "並行輸入"] },
-      "yahoo": { "keyword": "パナソニック 替刃 ES9610", "must": ["ES9610"], "exclude": ["互換", "対応", "中古", "◆", "並行輸入"] },
-      "amazon": { "keyword": "パナソニック ラムダッシュ 替刃 ES9610", "asin": "B0DBL7NZY3" }
+      "rakuten": {
+        "keyword": "パナソニック 替刃 ES9610",
+        "must": [
+          "ES9610"
+        ],
+        "exclude": [
+          "互換",
+          "対応",
+          "中古",
+          "◆",
+          "並行輸入"
+        ]
+      },
+      "yahoo": {
+        "keyword": "パナソニック 替刃 ES9610",
+        "must": [
+          "ES9610"
+        ],
+        "exclude": [
+          "互換",
+          "対応",
+          "中古",
+          "◆",
+          "並行輸入"
+        ]
+      },
+      "amazon": {
+        "keyword": "パナソニック ラムダッシュ 替刃 ES9610",
+        "asin": "B0DBL7NZY3"
+      }
     },
     {
       "id": "panasonic-es-9s62",
       "brand": "パナソニック",
       "name": "ラムダッシュ パームインPRO 6枚刃替刃 ES-9S62",
       "badge": "ES-P690U 用",
-      "specs": { "fits": "パームインPRO 6枚刃 ES-P690U", "cycle": "一体型なら約1.5年・外刃なら約1年", "official": "10,890円" },
+      "specs": {
+        "fits": "パームインPRO 6枚刃 ES-P690U",
+        "cycle": "一体型なら約1.5年・外刃なら約1年",
+        "official": "10,890円"
+      },
       "source": "https://panasonic.jp/consumables/products/ES-9S62.html",
-      "rakuten": { "keyword": "パナソニック 替刃 ES-9S62", "must": ["9S62"], "exclude": ["互換", "対応", "中古", "◆", "並行輸入"] },
-      "yahoo": { "keyword": "パナソニック 替刃 ES-9S62", "must": ["9S62"], "exclude": ["互換", "対応", "中古", "◆", "並行輸入"] },
-      "amazon": { "keyword": "パナソニック パームイン 替刃 ES-9S62", "asin": "B0HB35YLYV" }
+      "rakuten": {
+        "keyword": "パナソニック 替刃 ES-9S62",
+        "must": [
+          "9S62"
+        ],
+        "exclude": [
+          "互換",
+          "対応",
+          "中古",
+          "◆",
+          "並行輸入"
+        ]
+      },
+      "yahoo": {
+        "keyword": "パナソニック 替刃 ES-9S62",
+        "must": [
+          "9S62"
+        ],
+        "exclude": [
+          "互換",
+          "対応",
+          "中古",
+          "◆",
+          "並行輸入"
+        ]
+      },
+      "amazon": {
+        "keyword": "パナソニック パームイン 替刃 ES-9S62",
+        "asin": "B0HB35YLYV"
+      }
     },
     {
       "id": "panasonic-es9092",
       "brand": "パナソニック",
       "name": "3枚刃 外刃 ES9092",
       "badge": "ES-L382W 用の外刃",
-      "specs": { "fits": "ラムダッシュ 3枚刃 ES-L382W", "cycle": "約1年（外刃）", "official": "5,170円" },
+      "specs": {
+        "fits": "ラムダッシュ 3枚刃 ES-L382W",
+        "cycle": "約1年（外刃）",
+        "official": "5,170円"
+      },
       "source": "https://panasonic.jp/consumables/products/ES9092.html",
-      "rakuten": { "keyword": "パナソニック 外刃 ES9092", "must": ["ES9092"], "exclude": ["互換", "対応", "中古", "◆", "並行輸入"] },
-      "yahoo": { "keyword": "パナソニック 外刃 ES9092", "must": ["ES9092"], "exclude": ["互換", "対応", "中古", "◆", "並行輸入"] },
-      "amazon": { "keyword": "パナソニック 外刃 ES9092", "asin": "B0F59LGL9H" }
+      "rakuten": {
+        "keyword": "パナソニック 外刃 ES9092",
+        "must": [
+          "ES9092"
+        ],
+        "exclude": [
+          "互換",
+          "対応",
+          "中古",
+          "◆",
+          "並行輸入"
+        ]
+      },
+      "yahoo": {
+        "keyword": "パナソニック 外刃 ES9092",
+        "must": [
+          "ES9092"
+        ],
+        "exclude": [
+          "互換",
+          "対応",
+          "中古",
+          "◆",
+          "並行輸入"
+        ]
+      },
+      "amazon": {
+        "keyword": "パナソニック 外刃 ES9092",
+        "asin": "B0F59LGL9H"
+      }
     },
     {
       "id": "panasonic-es9068",
       "brand": "パナソニック",
       "name": "内刃 ES9068",
       "badge": "ES-L382W 用の内刃",
-      "specs": { "fits": "ラムダッシュ 3枚刃 ES-L382W", "cycle": "約2年（内刃）", "official": "2,970円" },
+      "specs": {
+        "fits": "ラムダッシュ 3枚刃 ES-L382W",
+        "cycle": "約2年（内刃）",
+        "official": "2,970円"
+      },
       "source": "https://panasonic.jp/consumables/products/ES9068.html",
-      "rakuten": { "keyword": "パナソニック 内刃 ES9068", "must": ["ES9068"], "exclude": ["互換", "対応", "中古", "◆", "並行輸入"] },
-      "yahoo": { "keyword": "パナソニック 内刃 ES9068", "must": ["ES9068"], "exclude": ["互換", "対応", "中古", "◆", "並行輸入"] },
-      "amazon": { "keyword": "パナソニック 内刃 ES9068", "asin": "B000WMOKCA" }
+      "rakuten": {
+        "keyword": "パナソニック 内刃 ES9068",
+        "must": [
+          "ES9068"
+        ],
+        "exclude": [
+          "互換",
+          "対応",
+          "中古",
+          "◆",
+          "並行輸入"
+        ]
+      },
+      "yahoo": {
+        "keyword": "パナソニック 内刃 ES9068",
+        "must": [
+          "ES9068"
+        ],
+        "exclude": [
+          "互換",
+          "対応",
+          "中古",
+          "◆",
+          "並行輸入"
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/vittorie/20260610144717-00315.html",
+        "price": 1839,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 1,
+        "shop": "vittorieヤフー店",
+        "checkedAt": "2026-11-23T21:44:00.508Z"
+      },
+      "amazon": {
+        "keyword": "パナソニック 内刃 ES9068",
+        "asin": "B000WMOKCA"
+      }
     },
     {
       "id": "philips-sh71",
       "brand": "フィリップス",
       "name": "替刃 SH71",
       "badge": "S7000・S5000 共通",
-      "specs": { "fits": "S7886/50・S5885/10", "cycle": "2年ごと", "official": "記載なし" },
+      "specs": {
+        "fits": "S7886/50・S5885/10",
+        "cycle": "2年ごと",
+        "official": "記載なし"
+      },
       "source": "https://www.philips.co.jp/c-p/S7886_50/shaver-series-7000-wet-dry-electric-shaver",
-      "rakuten": { "keyword": "フィリップス 替刃 SH71", "must": ["SH71"], "exclude": ["互換", "対応", "中古", "◆", "並行輸入"] },
-      "yahoo": { "keyword": "フィリップス 替刃 SH71", "must": ["SH71"], "exclude": ["互換", "対応", "中古", "◆", "並行輸入"] },
-      "amazon": { "keyword": "フィリップス 替刃 SH71", "asin": "B08T6QGKBC" }
+      "rakuten": {
+        "keyword": "フィリップス 替刃 SH71",
+        "must": [
+          "SH71"
+        ],
+        "exclude": [
+          "互換",
+          "対応",
+          "中古",
+          "◆",
+          "並行輸入"
+        ]
+      },
+      "yahoo": {
+        "keyword": "フィリップス 替刃 SH71",
+        "must": [
+          "SH71"
+        ],
+        "exclude": [
+          "互換",
+          "対応",
+          "中古",
+          "◆",
+          "並行輸入"
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/yamada-denki/730718015.html",
+        "price": 5424,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": 4.59,
+        "reviewCount": 27,
+        "shop": "ヤマダデンキ Yahoo!店",
+        "checkedAt": "2026-11-23T21:44:00.508Z"
+      },
+      "amazon": {
+        "keyword": "フィリップス 替刃 SH71",
+        "asin": "B08T6QGKBC"
+      }
     }
   ]
 }

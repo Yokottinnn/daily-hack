@@ -24,7 +24,7 @@
       "label": "映像入力"
     }
   ],
-  "pricesCheckedAt": null,
+  "pricesCheckedAt": "2026-11-23T21:44:00.508Z",
   "items": [
     {
       "id": "zowie-xq2766x",
@@ -71,7 +71,15 @@
           "カバー",
           "専用",
           "対応"
-        ]
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/tsukumo-y/0406623072019.html",
+        "price": 198947,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 0,
+        "shop": "ツクモ パソコン Yahoo!店",
+        "checkedAt": "2026-11-23T21:44:00.508Z"
       },
       "amazon": {
         "keyword": "BenQ ZOWIE XQ2766X",
@@ -123,7 +131,15 @@
           "カバー",
           "専用",
           "対応"
-        ]
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/motomoto/fe-ac-bf-g-2527-xd05077-ne.html",
+        "price": 6980,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 0,
+        "shop": "モットモット ヤフー店",
+        "checkedAt": "2026-11-23T21:44:00.508Z"
       },
       "amazon": {
         "keyword": "XG27ACSR",
@@ -175,7 +191,15 @@
           "カバー",
           "専用",
           "対応"
-        ]
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/mediacover/private-two-moni-k0001680314.html",
+        "price": 7968,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 0,
+        "shop": "メディアカバーマーケット",
+        "checkedAt": "2026-11-23T21:44:00.508Z"
       },
       "amazon": {
         "keyword": "LG UltraGear 27GX790A-B",
@@ -231,7 +255,15 @@
           "対応",
           "AW2725DF",
           "AW2725DM"
-        ]
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/casemania55/private-moni-k0001700698.html",
+        "price": 11434,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 0,
+        "shop": "液晶保護フィルムとカバーケース卸",
+        "checkedAt": "2026-11-23T21:44:00.508Z"
       },
       "amazon": {
         "keyword": "Dell Alienware AW2725D",
@@ -283,7 +315,15 @@
           "カバー",
           "専用",
           "対応"
-        ]
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/y-kojima/4550486777133.html",
+        "price": 9700,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 0,
+        "shop": "コジマYahoo!店",
+        "checkedAt": "2026-11-23T21:44:00.508Z"
       },
       "amazon": {
         "keyword": "アイ・オー・データ LCD-GDU271JAD",
@@ -339,7 +379,15 @@
           "対応",
           "JAW",
           "WOS"
-        ]
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/casemania55/private-two-moni-k0001565234.html",
+        "price": 7024,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 0,
+        "shop": "液晶保護フィルムとカバーケース卸",
+        "checkedAt": "2026-11-23T21:44:00.508Z"
       },
       "amazon": {
         "keyword": "アイ・オー・データ LCD-GDQ271JA",
@@ -395,7 +443,15 @@
           "専用",
           "対応",
           "X50"
-        ]
+        ],
+        "url": null,
+        "price": null,
+        "shippingFree": null,
+        "point": null,
+        "reviewAverage": null,
+        "reviewCount": null,
+        "shop": null,
+        "checkedAt": "2026-11-23T21:44:00.508Z"
       },
       "amazon": {
         "keyword": "MSI MAG 272QP QD-OLED X24",
