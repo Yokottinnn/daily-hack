@@ -106,6 +106,7 @@
 | `garment-steamer-comparison-2026` | 3 店ボタン（`src/data/shop/garment-steamer.json`） | 2026-11-23 追加。衣類スチーマー 7 機種（パナソニック・ティファール・日立・アイリスオーヤマ） |
 | `hand-blender-comparison-2026` | 3 店ボタン（`src/data/shop/hand-blender.json`） | 2026-11-23 追加。ハンドブレンダー 8 機種（ブラウン・バーミックス・ティファール・パナソニック・クイジナート・山善） |
 | `dashcam-comparison-2026` | 3 店ボタン（`src/data/shop/dashcam.json`） | 2026-11-23 追加。ドライブレコーダー 7 機種（コムテック・ケンウッド・ユピテル・パイオニア・セルスター・アルパイン。Amazon は 4 機種が ASIN） |
+| `tablet-comparison-2026` | 3 店ボタン（`src/data/shop/tablet.json`） | 2026-11-23 追加。タブレット 7 機種（iPad A16・iPad Air M4・iPad mini A20 Pro・Galaxy Tab A11+・Xiaomi Pad 8・REDMI Pad 2 9.7・Fire HD 10。Amazon は 7 機種すべて ASIN） |
 
 ## A8 のリンクを入れた湾岸ライフの記事（2026-10-25）
 
