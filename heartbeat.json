@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-23T02:27:06Z",
+  "generated_at": "2026-11-23T02:57:17Z",
   "login_lock": {"present": false, "age_hours": 0},
   "cdp": {"healthy": true, "port": 18810},
   "x_jobs": {"loaded": 8, "expected": 8, "ai_total": 16, "halted": false, "missing": []},
   "last_reply": {"at": "2026-11-18T01:17:05.594Z", "age_hours": 121, "stale": true},
   "supervisor": {"at":"2026-11-22T20:12:09Z","date_jst":"2026-11-23","ran":4,"total":9,"not_run":["comment-warmup","competitor-follower-follow","hashtag-follow","badge-followback","mutual-prune"],"fixed":[]},
-  "followback_bands": {"with_count":697,"total_rows":1081,"bands":{"1000-4999":{"n":232,"back":35,"mature":232,"mature_back":35,"rate":15.1},"300-999":{"n":178,"back":24,"mature":176,"mature_back":24,"rate":13.6},"0-99":{"n":123,"back":18,"mature":122,"mature_back":18,"rate":14.8},"5000-49999":{"n":120,"back":8,"mature":119,"mature_back":7,"rate":5.9},"100-299":{"n":41,"back":8,"mature":41,"mature_back":8,"rate":19.5},"50000-up":{"n":3,"back":1,"mature":3,"mature_back":1,"rate":33.3}},"status_values":{"unfollowed":816,"revenge_ghost_already_unfollowed":84,"yes_late":23,"yes":126,"no":30,"pending":2},"note":"mature の率で見る"},
+  "followback_bands": {"with_count":698,"total_rows":1082,"bands":{"1000-4999":{"n":233,"back":35,"mature":232,"mature_back":35,"rate":15.1},"300-999":{"n":178,"back":24,"mature":176,"mature_back":24,"rate":13.6},"0-99":{"n":123,"back":18,"mature":122,"mature_back":18,"rate":14.8},"5000-49999":{"n":120,"back":8,"mature":119,"mature_back":7,"rate":5.9},"100-299":{"n":41,"back":8,"mature":41,"mature_back":8,"rate":19.5},"50000-up":{"n":3,"back":1,"mature":3,"mature_back":1,"rate":33.3}},"status_values":{"unfollowed":816,"revenge_ghost_already_unfollowed":84,"yes_late":23,"yes":126,"no":30,"pending":3},"note":"mature の率で見る"},
   "host": "NaokinoMBP-2",
-  "job_count": 31,
+  "job_count": 30,
   "jobs": [
     "ai.openclaw.badge-followback",
     "ai.openclaw.boost-watch",
@@ -33,7 +33,6 @@
     "com.dailyhack.ops-poller",
     "com.dailyhack.publish-hanabi-oneshot",
     "com.dailyhack.publish-prime-oneshot",
-    "com.dailyhack.publish-wangan-illumination-oneshot",
     "com.dailyhack.publish-xmas-market-hikaku-oneshot",
     "com.dailyhack.rc-keeper",
     "com.dailyhack.refresh-daily",
@@ -61,7 +60,7 @@
     "loaded": 0,
     "labels": []
   },
-  "unloaded_count": 69,
+  "unloaded_count": 70,
   "unloaded": [
       {"label": "ai.openclaw.auto-detect-and-unfollow-inactive", "plist_mtime": "2026-10-29T15:44:34Z"},
       {"label": "ai.openclaw.auto-thread-chainifier", "plist_mtime": "2026-10-29T15:44:34Z"},
@@ -131,6 +130,7 @@
       {"label": "com.dailyhack.publish-furusato-portal-comparison-2026-oneshot", "plist_mtime": "2026-11-08T12:57:29Z"},
       {"label": "com.dailyhack.publish-lalaport-toyosu-black-friday-2026-oneshot", "plist_mtime": "2026-11-09T15:21:24Z"},
       {"label": "com.dailyhack.publish-rainbow-ride-oneshot", "plist_mtime": "2026-11-14T16:06:23Z"},
+      {"label": "com.dailyhack.publish-wangan-illumination-oneshot", "plist_mtime": "2026-11-21T15:53:38Z"},
       {"label": "com.dailyhack.publish-wangan-map-oneshot", "plist_mtime": "2026-11-14T12:36:00Z"}
   ],
   "clone": {
