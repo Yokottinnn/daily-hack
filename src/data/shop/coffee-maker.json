@@ -24,7 +24,7 @@
       "label": "公式の価格"
     }
   ],
-  "pricesCheckedAt": null,
+  "pricesCheckedAt": "2026-11-23T21:44:00.508Z",
   "items": [
     {
       "id": "panasonic-nc-a58",
@@ -68,7 +68,15 @@
           "部品",
           "◆",
           "並行輸入"
-        ]
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/idosawa/acb10-176.html",
+        "price": 3300,
+        "shippingFree": false,
+        "point": 0,
+        "reviewAverage": 5,
+        "reviewCount": 3,
+        "shop": "イドサワヤフーショップ",
+        "checkedAt": "2026-11-23T21:44:00.508Z"
       },
       "amazon": {
         "keyword": "パナソニック コーヒーメーカー NC-A58",
@@ -117,7 +125,15 @@
           "フィルター",
           "◆",
           "並行輸入"
-        ]
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/rakuden/p0002998.html",
+        "price": 21680,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 0,
+        "shop": "ラクデン",
+        "checkedAt": "2026-11-23T21:44:00.508Z"
       },
       "amazon": {
         "keyword": "象印 コーヒーメーカー EC-RT40",
@@ -168,7 +184,15 @@
           "部品",
           "◆",
           "並行輸入"
-        ]
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/eightloop2nd/4589919846849.html",
+        "price": 29680,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 0,
+        "shop": "eightloop 2nd",
+        "checkedAt": "2026-11-23T21:44:00.508Z"
       },
       "amazon": {
         "keyword": "シロカ カフェばこPRO SC-C261",
@@ -219,7 +243,15 @@
           "キャニスター",
           "◆",
           "並行輸入"
-        ]
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/excellar-plus/1100020893.html",
+        "price": 25480,
+        "shippingFree": false,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 0,
+        "shop": "エクセラープラス",
+        "checkedAt": "2026-11-23T21:44:00.508Z"
       },
       "amazon": {
         "keyword": "ツインバード 全自動コーヒーメーカー CM-D457B",
@@ -273,7 +305,15 @@
           "ミルクジャグ",
           "◆",
           "並行輸入"
-        ]
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/makxasstore/3022917.html",
+        "price": 30000,
+        "shippingFree": false,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 0,
+        "shop": "買取マクス",
+        "checkedAt": "2026-11-23T21:44:00.508Z"
       },
       "amazon": {
         "keyword": "デロンギ マグニフィカS ECAM22112B",
@@ -326,7 +366,15 @@
           "クリーナー",
           "◆",
           "並行輸入"
-        ]
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/sokuteikiya/4988371024756-wake.html",
+        "price": 87490,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 0,
+        "shop": "測定の森Yahoo!ショッピング店",
+        "checkedAt": "2026-11-23T21:44:00.508Z"
       },
       "amazon": {
         "keyword": "デロンギ マグニフィカ スタート ECAM22020B",
@@ -372,7 +420,15 @@
           "部品",
           "◆",
           "並行輸入"
-        ]
+        ],
+        "url": null,
+        "price": null,
+        "shippingFree": null,
+        "point": null,
+        "reviewAverage": null,
+        "reviewCount": null,
+        "shop": null,
+        "checkedAt": "2026-11-23T21:44:00.508Z"
       },
       "amazon": {
         "keyword": "ツインバード 匠バリスタ CM-D495B",

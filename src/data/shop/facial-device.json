@@ -20,7 +20,7 @@
       "label": "ジェル"
     }
   ],
-  "pricesCheckedAt": null,
+  "pricesCheckedAt": "2026-11-23T21:44:00.508Z",
   "items": [
     {
       "id": "panasonic-eh-sr90",
@@ -68,7 +68,15 @@
           "カバー",
           "ケース",
           "専用"
-        ]
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/nakaden/eh-sr90-k.html",
+        "price": 99000,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 0,
+        "shop": "家電通販 ナカデン",
+        "checkedAt": "2026-11-23T21:44:00.508Z"
       },
       "amazon": {
         "keyword": "パナソニック バイタリフト RF LUXE EH-SR90",
@@ -119,7 +127,15 @@
           "カバー",
           "ケース",
           "専用"
-        ]
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/d-rise2/p000000847317.html",
+        "price": 52270,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 0,
+        "shop": "ディーライズ2号",
+        "checkedAt": "2026-11-23T21:44:00.508Z"
       },
       "amazon": {
         "keyword": "パナソニック イオンブースト マルチ EX EH-SS85",
@@ -170,7 +186,15 @@
           "カバー",
           "ケース",
           "専用"
-        ]
+        ],
+        "url": null,
+        "price": null,
+        "shippingFree": null,
+        "point": null,
+        "reviewAverage": null,
+        "reviewCount": null,
+        "shop": null,
+        "checkedAt": "2026-11-23T21:44:00.508Z"
       },
       "amazon": {
         "keyword": "ヤーマン ディープリフト デュオ YJFA1P",
@@ -221,7 +245,15 @@
           "カバー",
           "ケース",
           "専用"
-        ]
+        ],
+        "url": null,
+        "price": null,
+        "shippingFree": null,
+        "point": null,
+        "reviewAverage": null,
+        "reviewCount": null,
+        "shop": null,
+        "checkedAt": "2026-11-23T21:44:00.508Z"
       },
       "amazon": {
         "keyword": "ReFa DERMA HEAT リファダーマヒート",
@@ -272,7 +304,15 @@
           "ケース",
           "専用",
           "スタンド"
-        ]
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/ec-nandemo/26070002.html",
+        "price": 9980,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 0,
+        "shop": "総合通販なんでも",
+        "checkedAt": "2026-11-23T21:44:00.508Z"
       },
       "amazon": {
         "keyword": "ReFa CARAT LIFT リファカラットリフト",
@@ -325,7 +365,15 @@
           "ケース",
           "専用",
           "ドライヤー"
-        ]
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/thrift-webshop/u-098-u30213-16.html",
+        "price": 19800,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 0,
+        "shop": "スリフト",
+        "checkedAt": "2026-11-23T21:44:00.508Z"
       },
       "amazon": {
         "keyword": "SALONIA EMSリフトブラシ",

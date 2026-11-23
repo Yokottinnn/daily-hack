@@ -1,433 +1,489 @@
 {
- "id": "futon-dryer",
- "title": "布団乾燥機（マットなしで足元まで温まるか・ダニ対策コースは何分か・寝る前のあたため時間）",
- "_note": "仕様は各社の公式ページ・仕様表の記載だけ（2026-11-22 に blog3 が確認）。アイリスオーヤマは Mac（ops/tasks/t830）で公式ページと発表資料（2026-09-24）を読んだ。FK-C5 は公式の商品ページが無かった（404）ので入れていない。発売日は公式に書いてあるもの（シャープの仕様比較表の発売年度・アイリスオーヤマの発表資料）だけを本文に書き、販売店の表示は使っていない。日立 HFK-VS5000 は HFK-VS6000 と仕様がほぼ同じ前の型なので入れていない",
- "columns": [
-  {
-   "key": "type",
-   "label": "温風の入れ方"
-  },
-  {
-   "key": "warm",
-   "label": "寝る前のあたため"
-  },
-  {
-   "key": "dry",
-   "label": "乾燥（シングル）"
-  },
-  {
-   "key": "dani",
-   "label": "ダニ対策コース"
-  },
-  {
-   "key": "watt",
-   "label": "消費電力"
-  },
-  {
-   "key": "weight",
-   "label": "重さ"
-  }
- ],
- "pricesCheckedAt": null,
- "items": [
-  {
-   "id": "iris-fk-w3-w",
-   "brand": "アイリスオーヤマ",
-   "name": "ふとん乾燥機 カラリエ ツインノズル FK-W3-W",
-   "badge": "寝ながらモード",
-   "summary": "2026年10月発売。寝ている間も温風を送る「寝ながらモード」（18dB）が付いた、ノズル2本の型。",
-   "recommended": false,
-   "specs": {
-    "type": "ホース＋立体ノズル2本（シングル2組を同時に）",
-    "warm": "20分（寝ながらモードあり）",
-    "dry": "60分",
-    "dani": "ダニモードあり（時間の記載なし）",
-    "watt": "最大880W（高温風時）",
-    "weight": "約2.4kg"
-   },
-   "source": "https://www.irisohyama.co.jp/kararie/futon/fk-w3-product/",
-   "rakuten": {
-    "keyword": "アイリスオーヤマ カラリエ FK-W3-W",
-    "must": [
-     "FK-W3"
-    ],
-    "exclude": [
-     "中古",
-     "◆",
-     "並行輸入",
-     "デオドラント",
-     "カバー",
-     "アタッチメント",
-     "交換",
-     "部品",
-     "専用",
-     "フィルター"
-    ]
-   },
-   "yahoo": {
-    "keyword": "アイリスオーヤマ カラリエ FK-W3-W",
-    "must": [
-     "FK-W3"
-    ],
-    "exclude": [
-     "中古",
-     "◆",
-     "並行輸入",
-     "デオドラント",
-     "カバー",
-     "アタッチメント",
-     "交換",
-     "部品",
-     "専用",
-     "フィルター"
-    ]
-   },
-   "amazon": {
-    "keyword": "アイリスオーヤマ カラリエ FK-W3-W",
-    "asin": "B0HPSMTP4Y"
-   }
-  },
-  {
-   "id": "zojirushi-rf-fb20",
-   "brand": "象印",
-   "name": "ふとん乾燥機 スマートドライ RF-FB20",
-   "badge": "寝る前に10分",
-   "summary": "マットもホースも無い。本体を開いてふとんに差し込むだけで、足元まで10分であたためる。",
-   "recommended": true,
-   "specs": {
-    "type": "マット・ホース不要（本体を開いて差し込む・ツインファン）",
-    "warm": "お急ぎ 10分／しっかり 20分",
-    "dry": "標準（冬）35分／しっかり 60分",
-    "dani": "80分",
-    "watt": "905W（50Hz）／910W（60Hz）",
-    "weight": "約3.8kg"
-   },
-   "source": "https://www.zojirushi.co.jp/syohin/life/coverlet-dryer/rf-fb/",
-   "rakuten": {
-    "keyword": "象印 スマートドライ RF-FB20",
-    "must": [
-     "RF-FB20"
-    ],
-    "exclude": [
-     "中古",
-     "◆",
-     "並行輸入",
-     "デオドラント",
-     "カバー",
-     "アタッチメント",
-     "交換",
-     "部品",
-     "専用",
-     "フィルター"
-    ]
-   },
-   "yahoo": {
-    "keyword": "象印 スマートドライ RF-FB20",
-    "must": [
-     "RF-FB20"
-    ],
-    "exclude": [
-     "中古",
-     "◆",
-     "並行輸入",
-     "デオドラント",
-     "カバー",
-     "アタッチメント",
-     "交換",
-     "部品",
-     "専用",
-     "フィルター"
-    ]
-   },
-   "amazon": {
-    "keyword": "象印 スマートドライ RF-FB20",
-    "asin": "B0CD3KPHLQ"
-   }
-  },
-  {
-   "id": "zojirushi-rf-ua10",
-   "brand": "象印",
-   "name": "ふとん乾燥機 スマートドライ RF-UA10",
-   "badge": "小さく軽い象印",
-   "summary": "RF-FB20 と同じ差し込む形で、消費電力は約670W に抑えた小さい方。",
-   "recommended": false,
-   "specs": {
-    "type": "マット・ホース不要（本体を開いて差し込む）",
-    "warm": "お急ぎ 15分／しっかり 35分",
-    "dry": "冬 50分／夏 65分",
-    "dani": "120分",
-    "watt": "670W（50Hz）／668W（60Hz）",
-    "weight": "約3.4kg"
-   },
-   "source": "https://www.zojirushi.co.jp/syohin/life/coverlet-dryer/rf-ua/",
-   "rakuten": {
-    "keyword": "象印 スマートドライ RF-UA10",
-    "must": [
-     "RF-UA10"
-    ],
-    "exclude": [
-     "中古",
-     "◆",
-     "並行輸入",
-     "デオドラント",
-     "カバー",
-     "アタッチメント",
-     "交換",
-     "部品",
-     "専用",
-     "フィルター"
-    ]
-   },
-   "yahoo": {
-    "keyword": "象印 スマートドライ RF-UA10",
-    "must": [
-     "RF-UA10"
-    ],
-    "exclude": [
-     "中古",
-     "◆",
-     "並行輸入",
-     "デオドラント",
-     "カバー",
-     "アタッチメント",
-     "交換",
-     "部品",
-     "専用",
-     "フィルター"
-    ]
-   },
-   "amazon": {
-    "keyword": "象印 スマートドライ RF-UA10",
-    "asin": "B0CD3LG6NN"
-   }
-  },
-  {
-   "id": "hitachi-hfk-vs6000",
-   "brand": "日立",
-   "name": "ふとん乾燥機 アッとドライ HFK-VS6000",
-   "badge": "ダニ対策が約65分",
-   "summary": "V字のアタッチメントで敷ふとんの裏まで温風を入れる。ダニ対策コースは約65分（約60℃の温風）。",
-   "recommended": false,
-   "specs": {
-    "type": "ホース＋V字アタッチメント（全長約130cm）",
-    "warm": "暖めコースあり（時間の記載なし）",
-    "dry": "冬乾燥 約27分（綿は約37分）",
-    "dani": "約65分",
-    "watt": "最大680W",
-    "weight": "約4.3kg"
-   },
-   "source": "https://kadenfan.hitachi.co.jp/futon/hfk-vs6000/",
-   "rakuten": {
-    "keyword": "日立 ふとん乾燥機 HFK-VS6000",
-    "must": [
-     "HFK-VS6000"
-    ],
-    "exclude": [
-     "中古",
-     "◆",
-     "並行輸入",
-     "デオドラント",
-     "カバー",
-     "アタッチメント",
-     "交換",
-     "部品",
-     "専用",
-     "フィルター"
-    ]
-   },
-   "yahoo": {
-    "keyword": "日立 ふとん乾燥機 HFK-VS6000",
-    "must": [
-     "HFK-VS6000"
-    ],
-    "exclude": [
-     "中古",
-     "◆",
-     "並行輸入",
-     "デオドラント",
-     "カバー",
-     "アタッチメント",
-     "交換",
-     "部品",
-     "専用",
-     "フィルター"
-    ]
-   },
-   "amazon": {
-    "keyword": "日立 ふとん乾燥機 HFK-VS6000",
-    "asin": "B0CLXVZCCN"
-   }
-  },
-  {
-   "id": "hitachi-hfk-cv1b",
-   "brand": "日立",
-   "name": "ふとん乾燥機 HFK-CV1B",
-   "badge": "約2.3kgで最軽量",
-   "summary": "ボタン3つのいちばん軽い型。消費電力も最大420W と小さい。",
-   "recommended": false,
-   "specs": {
-    "type": "ホース＋V字アタッチメント",
-    "warm": "10分・15分（中心部 5分）",
-    "dry": "綿以外 60分／綿 75分",
-    "dani": "衣類/ダニコース 120分",
-    "watt": "最大420W",
-    "weight": "約2.3kg"
-   },
-   "source": "https://kadenfan.hitachi.co.jp/futon/hfk-cv1b/",
-   "rakuten": {
-    "keyword": "日立 ふとん乾燥機 HFK-CV1B",
-    "must": [
-     "HFK-CV1B"
-    ],
-    "exclude": [
-     "中古",
-     "◆",
-     "並行輸入",
-     "デオドラント",
-     "カバー",
-     "アタッチメント",
-     "交換",
-     "部品",
-     "専用",
-     "フィルター"
-    ]
-   },
-   "yahoo": {
-    "keyword": "日立 ふとん乾燥機 HFK-CV1B",
-    "must": [
-     "HFK-CV1B"
-    ],
-    "exclude": [
-     "中古",
-     "◆",
-     "並行輸入",
-     "デオドラント",
-     "カバー",
-     "アタッチメント",
-     "交換",
-     "部品",
-     "専用",
-     "フィルター"
-    ]
-   },
-   "amazon": {
-    "keyword": "日立 ふとん乾燥機 HFK-CV1B",
-    "asin": "B0BRR85YQ2"
-   }
-  },
-  {
-   "id": "panasonic-fd-f06x2",
-   "brand": "パナソニック",
-   "name": "ふとん暖め乾燥機 FD-F06X2",
-   "badge": "足もと5分・1回2円",
-   "summary": "足もとモードは5分で、電気代は公式で1回2円。ナノイーで枕の脱臭もできる。",
-   "recommended": false,
-   "specs": {
-    "type": "ノズルを差し込む（すぐぽかノズル）",
-    "warm": "足もと 5分／標準 20分／しっかり 40分",
-    "dry": "羽毛・羊毛 60分／綿・合繊 80分",
-    "dani": "約6時間（1組あたり）",
-    "watt": "445W（50Hz）／460W（60Hz）",
-    "weight": "約3.3kg"
-   },
-   "source": "https://panasonic.jp/futon/p-db/FD-F06X2_spec.html",
-   "rakuten": {
-    "keyword": "パナソニック ふとん暖め乾燥機 FD-F06X2",
-    "must": [
-     "FD-F06X2"
-    ],
-    "exclude": [
-     "中古",
-     "◆",
-     "並行輸入",
-     "デオドラント",
-     "カバー",
-     "アタッチメント",
-     "交換",
-     "部品",
-     "専用",
-     "フィルター"
-    ]
-   },
-   "yahoo": {
-    "keyword": "パナソニック ふとん暖め乾燥機 FD-F06X2",
-    "must": [
-     "FD-F06X2"
-    ],
-    "exclude": [
-     "中古",
-     "◆",
-     "並行輸入",
-     "デオドラント",
-     "カバー",
-     "アタッチメント",
-     "交換",
-     "部品",
-     "専用",
-     "フィルター"
-    ]
-   },
-   "amazon": {
-    "keyword": "パナソニック ふとん暖め乾燥機 FD-F06X2",
-    "asin": "B01JIVV992"
-   }
-  },
-  {
-   "id": "sharp-ud-df1",
-   "brand": "シャープ",
-   "name": "プラズマクラスター ふとん乾燥機 UD-DF1",
-   "badge": "ダニ対策は両面",
-   "summary": "ダニ対策は表と裏で180分ずつ。プラズマクラスターで枕やふとんの消臭もする。",
-   "recommended": false,
-   "specs": {
-    "type": "ホース＋きのこアタッチメント（最大110cm）",
-    "warm": "全体 20分／足もと 10分",
-    "dry": "冬 60分／夏 80分（消臭乾燥）",
-    "dani": "180分×2回（両面）",
-    "watt": "480W（ふとん乾燥時）",
-    "weight": "約3.1kg"
-   },
-   "source": "https://jp.sharp/support/kansouki/spec/uddf1_cf1.html",
-   "rakuten": {
-    "keyword": "シャープ ふとん乾燥機 UD-DF1",
-    "must": [
-     "UD-DF1"
-    ],
-    "exclude": [
-     "中古",
-     "◆",
-     "並行輸入",
-     "デオドラント",
-     "カバー",
-     "アタッチメント",
-     "交換",
-     "部品",
-     "専用",
-     "フィルター"
-    ]
-   },
-   "yahoo": {
-    "keyword": "シャープ ふとん乾燥機 UD-DF1",
-    "must": [
-     "UD-DF1"
-    ],
-    "exclude": [
-     "中古",
-     "◆",
-     "並行輸入",
-     "デオドラント",
-     "カバー",
-     "アタッチメント",
-     "交換",
-     "部品",
-     "専用",
-     "フィルター"
-    ]
-   },
-   "amazon": {
-    "keyword": "シャープ ふとん乾燥機 UD-DF1",
-    "asin": "B08L5RHRCW"
-   }
-  }
- ]
+  "id": "futon-dryer",
+  "title": "布団乾燥機（マットなしで足元まで温まるか・ダニ対策コースは何分か・寝る前のあたため時間）",
+  "_note": "仕様は各社の公式ページ・仕様表の記載だけ（2026-11-22 に blog3 が確認）。アイリスオーヤマは Mac（ops/tasks/t830）で公式ページと発表資料（2026-09-24）を読んだ。FK-C5 は公式の商品ページが無かった（404）ので入れていない。発売日は公式に書いてあるもの（シャープの仕様比較表の発売年度・アイリスオーヤマの発表資料）だけを本文に書き、販売店の表示は使っていない。日立 HFK-VS5000 は HFK-VS6000 と仕様がほぼ同じ前の型なので入れていない",
+  "columns": [
+    {
+      "key": "type",
+      "label": "温風の入れ方"
+    },
+    {
+      "key": "warm",
+      "label": "寝る前のあたため"
+    },
+    {
+      "key": "dry",
+      "label": "乾燥（シングル）"
+    },
+    {
+      "key": "dani",
+      "label": "ダニ対策コース"
+    },
+    {
+      "key": "watt",
+      "label": "消費電力"
+    },
+    {
+      "key": "weight",
+      "label": "重さ"
+    }
+  ],
+  "pricesCheckedAt": "2026-11-23T21:44:00.508Z",
+  "items": [
+    {
+      "id": "iris-fk-w3-w",
+      "brand": "アイリスオーヤマ",
+      "name": "ふとん乾燥機 カラリエ ツインノズル FK-W3-W",
+      "badge": "寝ながらモード",
+      "summary": "2026年10月発売。寝ている間も温風を送る「寝ながらモード」（18dB）が付いた、ノズル2本の型。",
+      "recommended": false,
+      "specs": {
+        "type": "ホース＋立体ノズル2本（シングル2組を同時に）",
+        "warm": "20分（寝ながらモードあり）",
+        "dry": "60分",
+        "dani": "ダニモードあり（時間の記載なし）",
+        "watt": "最大880W（高温風時）",
+        "weight": "約2.4kg"
+      },
+      "source": "https://www.irisohyama.co.jp/kararie/futon/fk-w3-product/",
+      "rakuten": {
+        "keyword": "アイリスオーヤマ カラリエ FK-W3-W",
+        "must": [
+          "FK-W3"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "デオドラント",
+          "カバー",
+          "アタッチメント",
+          "交換",
+          "部品",
+          "専用",
+          "フィルター"
+        ]
+      },
+      "yahoo": {
+        "keyword": "アイリスオーヤマ カラリエ FK-W3-W",
+        "must": [
+          "FK-W3"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "デオドラント",
+          "カバー",
+          "アタッチメント",
+          "交換",
+          "部品",
+          "専用",
+          "フィルター"
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/joylight/215019.html",
+        "price": 15800,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 0,
+        "shop": "マイルーム Yahoo!店",
+        "checkedAt": "2026-11-23T21:44:00.508Z"
+      },
+      "amazon": {
+        "keyword": "アイリスオーヤマ カラリエ FK-W3-W",
+        "asin": "B0HPSMTP4Y"
+      }
+    },
+    {
+      "id": "zojirushi-rf-fb20",
+      "brand": "象印",
+      "name": "ふとん乾燥機 スマートドライ RF-FB20",
+      "badge": "寝る前に10分",
+      "summary": "マットもホースも無い。本体を開いてふとんに差し込むだけで、足元まで10分であたためる。",
+      "recommended": true,
+      "specs": {
+        "type": "マット・ホース不要（本体を開いて差し込む・ツインファン）",
+        "warm": "お急ぎ 10分／しっかり 20分",
+        "dry": "標準（冬）35分／しっかり 60分",
+        "dani": "80分",
+        "watt": "905W（50Hz）／910W（60Hz）",
+        "weight": "約3.8kg"
+      },
+      "source": "https://www.zojirushi.co.jp/syohin/life/coverlet-dryer/rf-fb/",
+      "rakuten": {
+        "keyword": "象印 スマートドライ RF-FB20",
+        "must": [
+          "RF-FB20"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "デオドラント",
+          "カバー",
+          "アタッチメント",
+          "交換",
+          "部品",
+          "専用",
+          "フィルター"
+        ]
+      },
+      "yahoo": {
+        "keyword": "象印 スマートドライ RF-FB20",
+        "must": [
+          "RF-FB20"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "デオドラント",
+          "カバー",
+          "アタッチメント",
+          "交換",
+          "部品",
+          "専用",
+          "フィルター"
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/akibaoo/4974305224422.html",
+        "price": 15000,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 0,
+        "shop": "あきばおー ヤフーショップ",
+        "checkedAt": "2026-11-23T21:44:00.508Z"
+      },
+      "amazon": {
+        "keyword": "象印 スマートドライ RF-FB20",
+        "asin": "B0CD3KPHLQ"
+      }
+    },
+    {
+      "id": "zojirushi-rf-ua10",
+      "brand": "象印",
+      "name": "ふとん乾燥機 スマートドライ RF-UA10",
+      "badge": "小さく軽い象印",
+      "summary": "RF-FB20 と同じ差し込む形で、消費電力は約670W に抑えた小さい方。",
+      "recommended": false,
+      "specs": {
+        "type": "マット・ホース不要（本体を開いて差し込む）",
+        "warm": "お急ぎ 15分／しっかり 35分",
+        "dry": "冬 50分／夏 65分",
+        "dani": "120分",
+        "watt": "670W（50Hz）／668W（60Hz）",
+        "weight": "約3.4kg"
+      },
+      "source": "https://www.zojirushi.co.jp/syohin/life/coverlet-dryer/rf-ua/",
+      "rakuten": {
+        "keyword": "象印 スマートドライ RF-UA10",
+        "must": [
+          "RF-UA10"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "デオドラント",
+          "カバー",
+          "アタッチメント",
+          "交換",
+          "部品",
+          "専用",
+          "フィルター"
+        ]
+      },
+      "yahoo": {
+        "keyword": "象印 スマートドライ RF-UA10",
+        "must": [
+          "RF-UA10"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "デオドラント",
+          "カバー",
+          "アタッチメント",
+          "交換",
+          "部品",
+          "専用",
+          "フィルター"
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/sanrex/rf-ua10-wa.html",
+        "price": 12570,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 1,
+        "shop": "サンサン マーケット",
+        "checkedAt": "2026-11-23T21:44:00.508Z"
+      },
+      "amazon": {
+        "keyword": "象印 スマートドライ RF-UA10",
+        "asin": "B0CD3LG6NN"
+      }
+    },
+    {
+      "id": "hitachi-hfk-vs6000",
+      "brand": "日立",
+      "name": "ふとん乾燥機 アッとドライ HFK-VS6000",
+      "badge": "ダニ対策が約65分",
+      "summary": "V字のアタッチメントで敷ふとんの裏まで温風を入れる。ダニ対策コースは約65分（約60℃の温風）。",
+      "recommended": false,
+      "specs": {
+        "type": "ホース＋V字アタッチメント（全長約130cm）",
+        "warm": "暖めコースあり（時間の記載なし）",
+        "dry": "冬乾燥 約27分（綿は約37分）",
+        "dani": "約65分",
+        "watt": "最大680W",
+        "weight": "約4.3kg"
+      },
+      "source": "https://kadenfan.hitachi.co.jp/futon/hfk-vs6000/",
+      "rakuten": {
+        "keyword": "日立 ふとん乾燥機 HFK-VS6000",
+        "must": [
+          "HFK-VS6000"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "デオドラント",
+          "カバー",
+          "アタッチメント",
+          "交換",
+          "部品",
+          "専用",
+          "フィルター"
+        ]
+      },
+      "yahoo": {
+        "keyword": "日立 ふとん乾燥機 HFK-VS6000",
+        "must": [
+          "HFK-VS6000"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "デオドラント",
+          "カバー",
+          "アタッチメント",
+          "交換",
+          "部品",
+          "専用",
+          "フィルター"
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/excellar-plus/1100052899.html",
+        "price": 15380,
+        "shippingFree": false,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 0,
+        "shop": "エクセラープラス",
+        "checkedAt": "2026-11-23T21:44:00.508Z"
+      },
+      "amazon": {
+        "keyword": "日立 ふとん乾燥機 HFK-VS6000",
+        "asin": "B0CLXVZCCN"
+      }
+    },
+    {
+      "id": "hitachi-hfk-cv1b",
+      "brand": "日立",
+      "name": "ふとん乾燥機 HFK-CV1B",
+      "badge": "約2.3kgで最軽量",
+      "summary": "ボタン3つのいちばん軽い型。消費電力も最大420W と小さい。",
+      "recommended": false,
+      "specs": {
+        "type": "ホース＋V字アタッチメント",
+        "warm": "10分・15分（中心部 5分）",
+        "dry": "綿以外 60分／綿 75分",
+        "dani": "衣類/ダニコース 120分",
+        "watt": "最大420W",
+        "weight": "約2.3kg"
+      },
+      "source": "https://kadenfan.hitachi.co.jp/futon/hfk-cv1b/",
+      "rakuten": {
+        "keyword": "日立 ふとん乾燥機 HFK-CV1B",
+        "must": [
+          "HFK-CV1B"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "デオドラント",
+          "カバー",
+          "アタッチメント",
+          "交換",
+          "部品",
+          "専用",
+          "フィルター"
+        ]
+      },
+      "yahoo": {
+        "keyword": "日立 ふとん乾燥機 HFK-CV1B",
+        "must": [
+          "HFK-CV1B"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "デオドラント",
+          "カバー",
+          "アタッチメント",
+          "交換",
+          "部品",
+          "専用",
+          "フィルター"
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/y-kojima/4526044017379.html",
+        "price": 10999,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": 4.15,
+        "reviewCount": 20,
+        "shop": "コジマYahoo!店",
+        "checkedAt": "2026-11-23T21:44:00.508Z"
+      },
+      "amazon": {
+        "keyword": "日立 ふとん乾燥機 HFK-CV1B",
+        "asin": "B0BRR85YQ2"
+      }
+    },
+    {
+      "id": "panasonic-fd-f06x2",
+      "brand": "パナソニック",
+      "name": "ふとん暖め乾燥機 FD-F06X2",
+      "badge": "足もと5分・1回2円",
+      "summary": "足もとモードは5分で、電気代は公式で1回2円。ナノイーで枕の脱臭もできる。",
+      "recommended": false,
+      "specs": {
+        "type": "ノズルを差し込む（すぐぽかノズル）",
+        "warm": "足もと 5分／標準 20分／しっかり 40分",
+        "dry": "羽毛・羊毛 60分／綿・合繊 80分",
+        "dani": "約6時間（1組あたり）",
+        "watt": "445W（50Hz）／460W（60Hz）",
+        "weight": "約3.3kg"
+      },
+      "source": "https://panasonic.jp/futon/p-db/FD-F06X2_spec.html",
+      "rakuten": {
+        "keyword": "パナソニック ふとん暖め乾燥機 FD-F06X2",
+        "must": [
+          "FD-F06X2"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "デオドラント",
+          "カバー",
+          "アタッチメント",
+          "交換",
+          "部品",
+          "専用",
+          "フィルター"
+        ]
+      },
+      "yahoo": {
+        "keyword": "パナソニック ふとん暖め乾燥機 FD-F06X2",
+        "must": [
+          "FD-F06X2"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "デオドラント",
+          "カバー",
+          "アタッチメント",
+          "交換",
+          "部品",
+          "専用",
+          "フィルター"
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/howmuch/lr0007608.html",
+        "price": 7669,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 0,
+        "shop": "ハウマッチYahoo!店",
+        "checkedAt": "2026-11-23T21:44:00.508Z"
+      },
+      "amazon": {
+        "keyword": "パナソニック ふとん暖め乾燥機 FD-F06X2",
+        "asin": "B01JIVV992"
+      }
+    },
+    {
+      "id": "sharp-ud-df1",
+      "brand": "シャープ",
+      "name": "プラズマクラスター ふとん乾燥機 UD-DF1",
+      "badge": "ダニ対策は両面",
+      "summary": "ダニ対策は表と裏で180分ずつ。プラズマクラスターで枕やふとんの消臭もする。",
+      "recommended": false,
+      "specs": {
+        "type": "ホース＋きのこアタッチメント（最大110cm）",
+        "warm": "全体 20分／足もと 10分",
+        "dry": "冬 60分／夏 80分（消臭乾燥）",
+        "dani": "180分×2回（両面）",
+        "watt": "480W（ふとん乾燥時）",
+        "weight": "約3.1kg"
+      },
+      "source": "https://jp.sharp/support/kansouki/spec/uddf1_cf1.html",
+      "rakuten": {
+        "keyword": "シャープ ふとん乾燥機 UD-DF1",
+        "must": [
+          "UD-DF1"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "デオドラント",
+          "カバー",
+          "アタッチメント",
+          "交換",
+          "部品",
+          "専用",
+          "フィルター"
+        ]
+      },
+      "yahoo": {
+        "keyword": "シャープ ふとん乾燥機 UD-DF1",
+        "must": [
+          "UD-DF1"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "デオドラント",
+          "カバー",
+          "アタッチメント",
+          "交換",
+          "部品",
+          "専用",
+          "フィルター"
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/dcc-next/sharp-2125000022.html",
+        "price": 4100,
+        "shippingFree": false,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 0,
+        "shop": "いーぐるネクスト店",
+        "checkedAt": "2026-11-23T21:44:00.508Z"
+      },
+      "amazon": {
+        "keyword": "シャープ ふとん乾燥機 UD-DF1",
+        "asin": "B08L5RHRCW"
+      }
+    }
+  ]
 }
