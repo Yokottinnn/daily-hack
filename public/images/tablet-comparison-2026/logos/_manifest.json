@@ -1,0 +1,30 @@
+{
+ "apple.png": {
+  "brand": "Apple",
+  "copied_from": "public/images/smartwatch-comparison-2026/logos/apple.png",
+  "license_note": "公式サイト（商標）"
+ },
+ "samsung.png": {
+  "brand": "Samsung",
+  "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Samsung_wordmark.svg/960px-Samsung_wordmark.svg.png",
+  "page": "https://commons.wikimedia.org/wiki/File:Samsung_wordmark.svg",
+  "license_note": "Public domain（Commons の表記）・商標",
+  "fetched": "2026-11-22",
+  "copied_from": "public/images/smartwatch-comparison-2026/logos/samsung.png"
+ },
+ "xiaomi.png": {
+  "brand": "Xiaomi",
+  "copied_from": "public/images/smartwatch-comparison-2026/logos/xiaomi.png",
+  "page": "https://commons.wikimedia.org/wiki/File:Xiaomi_logo_(2021-).svg"
+ },
+ "amazon.png": {
+  "brand": "Amazon",
+  "file": "File:Amazon logo.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Amazon_logo.svg",
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/500px-Amazon_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "lic": "Public domain",
+  "fetched": "2026-11-15",
+  "via": "Wikimedia Commons",
+  "copied_from": "public/images/black-friday-2026-matome/logos/amazon.png"
+ }
+}
