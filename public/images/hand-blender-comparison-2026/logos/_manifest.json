@@ -1,0 +1,50 @@
+{
+ "cuisinart.png": {
+  "brand": "クイジナート",
+  "src": "https://www.cuisinart.jp/images/cuisinart_new.png",
+  "page": "https://www.cuisinart.jp/",
+  "note": "公式サイトのヘッダーのロゴ",
+  "license": "商標（識別目的で使用）",
+  "fetched": "2026-11-23"
+ },
+ "bamix.png": {
+  "brand": "バーミックス",
+  "src": "https://bamix.com/cdn/shop/files/logo_ps1a.png",
+  "page": "https://bamix.com/",
+  "note": "bamix of Switzerland 公式サイトの og:image（ロゴ）",
+  "license": "商標（識別目的で使用）",
+  "fetched": "2026-11-23"
+ },
+ "braun.png": {
+  "brand": "ブラウン",
+  "title": "File:Braun Logo.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Braun_Logo.svg",
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Braun_Logo.svg/500px-Braun_Logo.svg.png",
+  "license": "Public domain（商標）",
+  "fetched": "2026-11-22",
+  "copied_from": "electric-shaver-comparison-2026/logos/braun.png"
+ },
+ "panasonic.png": {
+  "brand": "パナソニック",
+  "page": "https://commons.wikimedia.org/wiki/File:Panasonic_Group_logo.svg",
+  "lic": "Public domain",
+  "fetched": "2026-10-18",
+  "copied_from": "garment-steamer-comparison-2026/logos/panasonic.png"
+ },
+ "tfal.png": {
+  "brand": "ティファール",
+  "src": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/00/05/be/0005beb1-1846-37ef-fc70-aa81b56bf17c/AppIcon-1x_U007emarketing-0-5-0-85-220-0.png/512x512bb.jpg",
+  "page": "https://apps.apple.com/jp/app/id6738371452",
+  "note": "App Store のアプリのアイコン（提供元 GROUPE SEB JAPAN CO., LTD.）",
+  "fetched": "2026-11-08",
+  "copied_from": "garment-steamer-comparison-2026/logos/tfal.png"
+ },
+ "yamazen.png": {
+  "brand": "山善（YAMAZEN）",
+  "src": "https://www.yamazen.co.jp/themes/yamazen-2025/assets/images/logo/logo_01.svg",
+  "page": "https://www.yamazen.co.jp/",
+  "note": "山善 公式サイトのヘッダーのロゴ（SVG を Chromium で PNG に。改変なし）",
+  "fetched": "2026-11-08",
+  "copied_from": "electric-kettle-comparison-2026/logos/yamazen.png"
+ }
+}
