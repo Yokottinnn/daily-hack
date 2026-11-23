@@ -111,6 +111,7 @@
 | `tablet-comparison-2026` | 3 店ボタン（`src/data/shop/tablet.json`） | 2026-11-23 追加。タブレット 7 機種（iPad A16・iPad Air M4・iPad mini A20 Pro・Galaxy Tab A11+・Xiaomi Pad 8・REDMI Pad 2 9.7・Fire HD 10。Amazon は 7 機種すべて ASIN） |
 | `portable-power-station-comparison-2026` | 3 店ボタン（`src/data/shop/portable-power-station.json`） | 2026-11-23 追加。ポータブル電源 6 機種（持ち運べる 250〜800Wh：Jackery 300D・240 New・500 New、Anker Solix C300 DC・C800 Plus、EcoFlow RIVER 2 Pro） |
 | `ereader-comparison-2026` | 3 店ボタン（`src/data/shop/ereader.json`） | 2026-11-23 追加。電子書籍リーダー 8 機種（Kindle 2026 年モデル 4・楽天Kobo 3・BOOX Go7。Amazon は 8 機種すべて ASIN。楽天は商品ページ） |
+| `electric-blanket-comparison-2026` | 3 店ボタン（`src/data/shop/electric-blanket.json`） | 2026-11-23 追加。電気毛布（掛け敷き兼用）8 機種（広電・山善 2・パナソニック 2・コイズミ 2・アイリスオーヤマ。Amazon は 6 機種が ASIN） |
 | `drum-washer-dryer-comparison-2026` | 3 店ボタン（`src/data/shop/drum-washer-dryer.json`） | 2026-11-23 追加。ドラム式洗濯乾燥機 8 機種（パナソニック・日立・東芝・シャープ・アクア。Amazon は 2 機種が ASIN） |
 
 ## A8 のリンクを入れた湾岸ライフの記事（2026-10-25）
