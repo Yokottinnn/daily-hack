@@ -98,5 +98,15 @@
   "page": "https://www.mi.com/jp/product/xiaomi-body-composition-scale-s400/",
   "source": "メーカー公式サイト・公式オンラインストアの製品ページの画像（クラウドから取得）",
   "fetched": "2026-11-22"
+ },
+ "elecom-hcs-wfs03.jpg": {
+  "page": "https://www.elecom.co.jp/products/HCS-WFS03WH.html",
+  "source": "メーカー公式サイトの製品ページの画像（ops/tasks/t1025 で Mac が取得）",
+  "fetched": "2026-11-23"
+ },
+ "elecom-hcs-wfs03-use.jpg": {
+  "page": "https://www.elecom.co.jp/products/HCS-WFS03WH.html",
+  "source": "メーカー公式サイトの製品ページの画像（ops/tasks/t1025 で Mac が取得）",
+  "fetched": "2026-11-23"
  }
 }
