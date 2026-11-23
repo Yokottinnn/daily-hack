@@ -1,0 +1,25 @@
+{
+ "_doc": "X 告知の画像。node scripts/gen-x-panels.mjs ops/data/x-cards/lalaport-toyosu-gu-chiikawa-custard-2026.panels.json",
+ "_note": "2026-11-23 の毎日の候補づくり（湾岸ニュース）。素材は blog3 の記事が取ったららぽーと豊洲の公式の画像。ちいかわの商品画像は公式のお知らせに無いので使っていない。出所は ALT に書く",
+ "imageBase": "public/images/lalaport-toyosu-gu-chiikawa-custard-2026",
+ "out": "public/images/lalaport-toyosu-gu-chiikawa-custard-2026/x",
+ "theme": "ink",
+ "panels": [
+  {
+   "file": "x1-gu.jpg",
+   "kind": "html",
+   "noHeader": true,
+   "html": "<div class=\"w\"><img class=\"ph\" src=\"photos/gu-chiikawa.jpg\" alt=\"\"><div class=\"shade\"></div><div class=\"tx\"><div class=\"k\">ららぽーと豊洲・GU</div><div class=\"t\">GU×ちいかわ第2弾<br><em>11/27（金）朝8時</em>から整理券</div><ul class=\"pts\"><li><b>配る場所</b>1階ノースポート入口（開店後は店頭）</li><li><b>買える数</b>ポーチ1点・ほかは1色1柄2点</li><li><b>注意</b>整理券は買える約束じゃない</li></ul></div></div>",
+   "css": "main{padding:0;height:1080px;display:block}\n.w{position:relative;height:1080px;color:#fff;background:#1E1219;overflow:hidden}\n.ph{position:absolute;left:0;top:0;width:100%;height:560px;object-fit:cover;object-position:center 100%}\n.shade{position:absolute;left:0;right:0;top:330px;height:232px;background:linear-gradient(180deg,rgba(30,18,25,0),#1E1219 92%)}\n.tx{position:absolute;left:56px;right:56px;top:470px;bottom:52px;display:flex;flex-direction:column}\n.k{align-self:flex-start;font-size:30px;font-weight:900;color:#2A1923;background:#F5C518;border-radius:999px;padding:6px 22px}\n.t{font-size:58px;font-weight:900;line-height:1.2;margin-top:14px;text-shadow:0 2px 12px rgba(0,0,0,.4)}\n.t em{font-style:normal;color:#EC5C90}\n.pts{list-style:none;margin-top:22px;flex:1;display:flex;flex-direction:column;justify-content:center;gap:16px}\n.pts li{font-size:34px;font-weight:700;line-height:1.35;background:rgba(255,255,255,.08);border-left:10px solid #EC5C90;border-radius:14px;padding:14px 24px}\n.pts b{color:#F5C518;margin-right:12px}",
+   "alt": "ららぽーと豊洲の地図。ジーユーと、整理券を配る1階ノースポートエントランスの位置。文字：ららぽーと豊洲・GU。GU×ちいかわ第2弾は11月27日（金）朝8時から整理券。配る場所は1階ノースポート入口、開店後は店頭。Wポーチは1点、ほかは1色1柄2点まで。整理券は購入の約束ではない。画像：アーバンドック ららぽーと豊洲 公式サイト（ジーユーのショップニュース）"
+  },
+  {
+   "file": "x2-custard.jpg",
+   "kind": "html",
+   "noHeader": true,
+   "html": "<div class=\"w\"><img class=\"ph\" src=\"photos/custard-1.jpg\" alt=\"\"><div class=\"shade\"></div><div class=\"tx\"><div class=\"k\">ららぽーと豊洲 1F サウスポート</div><div class=\"t\">博多のカスタード専門店<br><em>11/30（月）まで</em></div><ul class=\"pts\"><li><b>店</b>I LOVE CUSTARD（初出店）</li><li><b>時間</b>10〜21時（30日は19時まで）</li><li><b>場所</b>1F サウスポートD</li></ul></div></div>",
+   "css": "main{padding:0;height:1080px;display:block}\n.w{position:relative;height:1080px;color:#fff;background:#1E1219;overflow:hidden}\n.ph{position:absolute;left:0;top:0;width:100%;height:560px;object-fit:cover;object-position:center 55%}\n.shade{position:absolute;left:0;right:0;top:330px;height:232px;background:linear-gradient(180deg,rgba(30,18,25,0),#1E1219 92%)}\n.tx{position:absolute;left:56px;right:56px;top:470px;bottom:52px;display:flex;flex-direction:column}\n.k{align-self:flex-start;font-size:30px;font-weight:900;color:#2A1923;background:#F5C518;border-radius:999px;padding:6px 22px}\n.t{font-size:58px;font-weight:900;line-height:1.2;margin-top:14px;text-shadow:0 2px 12px rgba(0,0,0,.4)}\n.t em{font-style:normal;color:#EC5C90}\n.pts{list-style:none;margin-top:22px;flex:1;display:flex;flex-direction:column;justify-content:center;gap:16px}\n.pts li{font-size:34px;font-weight:700;line-height:1.35;background:rgba(255,255,255,.08);border-left:10px solid #EC5C90;border-radius:14px;padding:14px 24px}\n.pts b{color:#F5C518;margin-right:12px}",
+   "alt": "カスタードクリームと卵と牛乳。文字：ららぽーと豊洲 1F サウスポート。博多のカスタード専門店 I LOVE CUSTARD が11月30日（月）まで初出店。10時〜21時、最終日は19時まで。場所は1F サウスポートD。画像：アーバンドック ららぽーと豊洲 公式サイト"
+  }
+ ]
+}
