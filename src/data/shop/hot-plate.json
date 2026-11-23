@@ -28,7 +28,7 @@
       "label": "収納"
     }
   ],
-  "pricesCheckedAt": null,
+  "pricesCheckedAt": "2026-11-23T21:44:00.508Z",
   "items": [
     {
       "id": "bruno-minna-boe161",
@@ -100,7 +100,15 @@
           "訳あり",
           "プレートのみ",
           "鍋のみ"
-        ]
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/joshin/4514499187556-24-77503.html",
+        "price": 16500,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 0,
+        "shop": "Joshin web",
+        "checkedAt": "2026-11-23T21:44:00.508Z"
       },
       "amazon": {
         "keyword": "BRUNO みんなのホットプレート BOE161",
@@ -177,7 +185,15 @@
           "訳あり",
           "プレートのみ",
           "鍋のみ"
-        ]
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/hikawamachibook/3388-004232.html",
+        "price": 10480,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 0,
+        "shop": "Charlotte〜シャルロッテ〜",
+        "checkedAt": "2026-11-23T21:44:00.508Z"
       },
       "amazon": {
         "keyword": "BRUNO コンパクトホットプレート BOE021",
@@ -254,7 +270,15 @@
           "訳あり",
           "プレートのみ",
           "鍋のみ"
-        ]
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/wink-digital/274544.html",
+        "price": 16590,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 0,
+        "shop": "ウインクデジタル ヤフー店",
+        "checkedAt": "2026-11-23T21:44:00.508Z"
       },
       "amazon": {
         "keyword": "象印 EA-KL30",
@@ -331,7 +355,15 @@
           "訳あり",
           "プレートのみ",
           "鍋のみ"
-        ]
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/discount-spirits2/a000000146072.html",
+        "price": 20780,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 0,
+        "shop": "Earth Wing",
+        "checkedAt": "2026-11-23T21:44:00.508Z"
       },
       "amazon": {
         "keyword": "タイガー CRV-G301",
@@ -408,7 +440,15 @@
           "訳あり",
           "プレートのみ",
           "鍋のみ"
-        ]
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/excellar-plus/1100061565.html",
+        "price": 18980,
+        "shippingFree": false,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 0,
+        "shop": "エクセラープラス",
+        "checkedAt": "2026-11-23T21:44:00.508Z"
       },
       "amazon": {
         "keyword": "パナソニック NF-HM310",
@@ -485,7 +525,15 @@
           "訳あり",
           "プレートのみ",
           "鍋のみ"
-        ]
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/pc-express/4967576834124.html",
+        "price": 11900,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 0,
+        "shop": "PC&家電CaravanYU Yahoo!店",
+        "checkedAt": "2026-11-23T21:44:00.508Z"
       },
       "amazon": {
         "keyword": "アイリスオーヤマ APA-139-B",
@@ -562,7 +610,15 @@
           "訳あり",
           "プレートのみ",
           "鍋のみ"
-        ]
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/e-kurashi/s1d35.html",
+        "price": 11800,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": 4.27,
+        "reviewCount": 95,
+        "shop": "くらしのeショップ",
+        "checkedAt": "2026-11-23T21:44:00.508Z"
       },
       "amazon": {
         "keyword": "山善 XGRILL TRIPLE YHP-TX130",

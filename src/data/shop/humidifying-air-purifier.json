@@ -3,14 +3,32 @@
   "title": "加湿空気清浄機（新基準の適用床面積・加湿量・手入れ）",
   "_note": "仕様はシャープ・ダイキン・パナソニック公式の製品ページと仕様表（2026-11-22 確認）の記載だけ。適用床面積は空気清浄運転時の新基準（JEM1467:2026）と旧基準（JEM1467:2015）。ダイキンの公式は新基準のみ掲載。「強で満水から」はタンク容量÷最大加湿量で出した計算（パナソニックの公式の連続運転時間と一致することを確認）。日立は公式で空気清浄機の製造終了・在庫品限りのため外した",
   "columns": [
-    { "key": "area", "label": "適用床面積（新基準）" },
-    { "key": "old", "label": "旧基準の表示" },
-    { "key": "rate", "label": "最大加湿量" },
-    { "key": "harea", "label": "加湿の適用床面積" },
-    { "key": "tank", "label": "タンク／強で満水から（計算）" },
-    { "key": "care", "label": "加湿の手入れ" }
+    {
+      "key": "area",
+      "label": "適用床面積（新基準）"
+    },
+    {
+      "key": "old",
+      "label": "旧基準の表示"
+    },
+    {
+      "key": "rate",
+      "label": "最大加湿量"
+    },
+    {
+      "key": "harea",
+      "label": "加湿の適用床面積"
+    },
+    {
+      "key": "tank",
+      "label": "タンク／強で満水から（計算）"
+    },
+    {
+      "key": "care",
+      "label": "加湿の手入れ"
+    }
   ],
-  "pricesCheckedAt": null,
+  "pricesCheckedAt": "2026-11-23T21:44:00.508Z",
   "items": [
     {
       "id": "sharp-ki-wx75",
@@ -28,9 +46,42 @@
         "care": "加湿内部洗浄（自動）"
       },
       "source": "https://jp.sharp/kuusei/products/kiwx75/spec/",
-      "rakuten": { "keyword": "シャープ KI-WX75", "must": ["KI-WX75"], "exclude": ["フィルター", "交換", "部品", "カートリッジ", "中古", "◆", "並行輸入", "セット"] },
-      "yahoo": { "keyword": "シャープ KI-WX75", "must": ["KI-WX75"], "exclude": ["フィルター", "交換", "部品", "カートリッジ", "中古", "◆", "並行輸入", "セット"] },
-      "amazon": { "keyword": "シャープ KI-WX75", "asin": null }
+      "rakuten": {
+        "keyword": "シャープ KI-WX75",
+        "must": [
+          "KI-WX75"
+        ],
+        "exclude": [
+          "フィルター",
+          "交換",
+          "部品",
+          "カートリッジ",
+          "中古",
+          "◆",
+          "並行輸入",
+          "セット"
+        ]
+      },
+      "yahoo": {
+        "keyword": "シャープ KI-WX75",
+        "must": [
+          "KI-WX75"
+        ],
+        "exclude": [
+          "フィルター",
+          "交換",
+          "部品",
+          "カートリッジ",
+          "中古",
+          "◆",
+          "並行輸入",
+          "セット"
+        ]
+      },
+      "amazon": {
+        "keyword": "シャープ KI-WX75",
+        "asin": null
+      }
     },
     {
       "id": "sharp-ki-wx70",
@@ -48,9 +99,42 @@
         "care": "使い捨て加湿プレフィルター対応"
       },
       "source": "https://jp.sharp/kuusei/products/kiwx70/spec/",
-      "rakuten": { "keyword": "シャープ KI-WX70", "must": ["KI-WX70"], "exclude": ["フィルター", "交換", "部品", "カートリッジ", "中古", "◆", "並行輸入", "セット"] },
-      "yahoo": { "keyword": "シャープ KI-WX70", "must": ["KI-WX70"], "exclude": ["フィルター", "交換", "部品", "カートリッジ", "中古", "◆", "並行輸入", "セット"] },
-      "amazon": { "keyword": "シャープ KI-WX70", "asin": null }
+      "rakuten": {
+        "keyword": "シャープ KI-WX70",
+        "must": [
+          "KI-WX70"
+        ],
+        "exclude": [
+          "フィルター",
+          "交換",
+          "部品",
+          "カートリッジ",
+          "中古",
+          "◆",
+          "並行輸入",
+          "セット"
+        ]
+      },
+      "yahoo": {
+        "keyword": "シャープ KI-WX70",
+        "must": [
+          "KI-WX70"
+        ],
+        "exclude": [
+          "フィルター",
+          "交換",
+          "部品",
+          "カートリッジ",
+          "中古",
+          "◆",
+          "並行輸入",
+          "セット"
+        ]
+      },
+      "amazon": {
+        "keyword": "シャープ KI-WX70",
+        "asin": null
+      }
     },
     {
       "id": "sharp-ki-ws50",
@@ -68,9 +152,42 @@
         "care": "加湿内部洗浄（自動）"
       },
       "source": "https://jp.sharp/kuusei/products/kiws50/spec/",
-      "rakuten": { "keyword": "シャープ KI-WS50", "must": ["KI-WS50"], "exclude": ["フィルター", "交換", "部品", "カートリッジ", "中古", "◆", "並行輸入", "セット"] },
-      "yahoo": { "keyword": "シャープ KI-WS50", "must": ["KI-WS50"], "exclude": ["フィルター", "交換", "部品", "カートリッジ", "中古", "◆", "並行輸入", "セット"] },
-      "amazon": { "keyword": "シャープ KI-WS50", "asin": null }
+      "rakuten": {
+        "keyword": "シャープ KI-WS50",
+        "must": [
+          "KI-WS50"
+        ],
+        "exclude": [
+          "フィルター",
+          "交換",
+          "部品",
+          "カートリッジ",
+          "中古",
+          "◆",
+          "並行輸入",
+          "セット"
+        ]
+      },
+      "yahoo": {
+        "keyword": "シャープ KI-WS50",
+        "must": [
+          "KI-WS50"
+        ],
+        "exclude": [
+          "フィルター",
+          "交換",
+          "部品",
+          "カートリッジ",
+          "中古",
+          "◆",
+          "並行輸入",
+          "セット"
+        ]
+      },
+      "amazon": {
+        "keyword": "シャープ KI-WS50",
+        "asin": null
+      }
     },
     {
       "id": "daikin-mck707a",
@@ -88,9 +205,50 @@
         "care": "水トレー 約1か月に1回"
       },
       "source": "https://www.ac.daikin.co.jp/cleanair/ichiran",
-      "rakuten": { "keyword": "ダイキン MCK707A", "must": ["MCK707A"], "exclude": ["フィルター", "交換", "部品", "ユニット", "中古", "◆", "並行輸入", "セット"] },
-      "yahoo": { "keyword": "ダイキン MCK707A", "must": ["MCK707A"], "exclude": ["フィルター", "交換", "部品", "ユニット", "中古", "◆", "並行輸入", "セット"] },
-      "amazon": { "keyword": "ダイキン MCK707A", "asin": "B0HFMD3YYF" }
+      "rakuten": {
+        "keyword": "ダイキン MCK707A",
+        "must": [
+          "MCK707A"
+        ],
+        "exclude": [
+          "フィルター",
+          "交換",
+          "部品",
+          "ユニット",
+          "中古",
+          "◆",
+          "並行輸入",
+          "セット"
+        ]
+      },
+      "yahoo": {
+        "keyword": "ダイキン MCK707A",
+        "must": [
+          "MCK707A"
+        ],
+        "exclude": [
+          "フィルター",
+          "交換",
+          "部品",
+          "ユニット",
+          "中古",
+          "◆",
+          "並行輸入",
+          "セット"
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/ecjoyecj30/22358394.html",
+        "price": 66185,
+        "shippingFree": false,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 0,
+        "shop": "エクセレントショップ",
+        "checkedAt": "2026-11-23T21:44:00.508Z"
+      },
+      "amazon": {
+        "keyword": "ダイキン MCK707A",
+        "asin": "B0HFMD3YYF"
+      }
     },
     {
       "id": "daikin-mck557a",
@@ -108,9 +266,50 @@
         "care": "水トレー 約1か月に1回"
       },
       "source": "https://www.ac.daikin.co.jp/cleanair/ichiran",
-      "rakuten": { "keyword": "ダイキン MCK557A", "must": ["MCK557A"], "exclude": ["フィルター", "交換", "部品", "ユニット", "中古", "◆", "並行輸入", "セット"] },
-      "yahoo": { "keyword": "ダイキン MCK557A", "must": ["MCK557A"], "exclude": ["フィルター", "交換", "部品", "ユニット", "中古", "◆", "並行輸入", "セット"] },
-      "amazon": { "keyword": "ダイキン MCK557A", "asin": "B0HFMQVJDT" }
+      "rakuten": {
+        "keyword": "ダイキン MCK557A",
+        "must": [
+          "MCK557A"
+        ],
+        "exclude": [
+          "フィルター",
+          "交換",
+          "部品",
+          "ユニット",
+          "中古",
+          "◆",
+          "並行輸入",
+          "セット"
+        ]
+      },
+      "yahoo": {
+        "keyword": "ダイキン MCK557A",
+        "must": [
+          "MCK557A"
+        ],
+        "exclude": [
+          "フィルター",
+          "交換",
+          "部品",
+          "ユニット",
+          "中古",
+          "◆",
+          "並行輸入",
+          "セット"
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/jhb-store/4573535586777.html",
+        "price": 63442,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 0,
+        "shop": "JHBストア",
+        "checkedAt": "2026-11-23T21:44:00.508Z"
+      },
+      "amazon": {
+        "keyword": "ダイキン MCK557A",
+        "asin": "B0HFMQVJDT"
+      }
     },
     {
       "id": "panasonic-f-vx70d",
@@ -128,9 +327,48 @@
         "care": "加湿フィルター 月1回押し洗い"
       },
       "source": "https://panasonic.jp/airrich/products/F-VX70D/spec.html",
-      "rakuten": { "keyword": "パナソニック F-VX70D", "must": ["F-VX70D"], "exclude": ["フィルター", "交換", "部品", "中古", "◆", "並行輸入", "セット"] },
-      "yahoo": { "keyword": "パナソニック F-VX70D", "must": ["F-VX70D"], "exclude": ["フィルター", "交換", "部品", "中古", "◆", "並行輸入", "セット"] },
-      "amazon": { "keyword": "パナソニック F-VX70D", "asin": "B08QYXJY66" }
+      "rakuten": {
+        "keyword": "パナソニック F-VX70D",
+        "must": [
+          "F-VX70D"
+        ],
+        "exclude": [
+          "フィルター",
+          "交換",
+          "部品",
+          "中古",
+          "◆",
+          "並行輸入",
+          "セット"
+        ]
+      },
+      "yahoo": {
+        "keyword": "パナソニック F-VX70D",
+        "must": [
+          "F-VX70D"
+        ],
+        "exclude": [
+          "フィルター",
+          "交換",
+          "部品",
+          "中古",
+          "◆",
+          "並行輸入",
+          "セット"
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/idosawa/4550719416655.html",
+        "price": 64940,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 0,
+        "shop": "イドサワヤフーショップ",
+        "checkedAt": "2026-11-23T21:44:00.508Z"
+      },
+      "amazon": {
+        "keyword": "パナソニック F-VX70D",
+        "asin": "B08QYXJY66"
+      }
     },
     {
       "id": "panasonic-f-vxw90",
@@ -148,9 +386,48 @@
         "care": "フュージョンフィルター 交換約10年"
       },
       "source": "https://panasonic.jp/airrich/products/F-VXW90/spec.html",
-      "rakuten": { "keyword": "パナソニック F-VXW90", "must": ["F-VXW90"], "exclude": ["フィルター", "交換", "部品", "中古", "◆", "並行輸入", "セット"] },
-      "yahoo": { "keyword": "パナソニック F-VXW90", "must": ["F-VXW90"], "exclude": ["フィルター", "交換", "部品", "中古", "◆", "並行輸入", "セット"] },
-      "amazon": { "keyword": "パナソニック F-VXW90", "asin": "B0DGPWWFSJ" }
+      "rakuten": {
+        "keyword": "パナソニック F-VXW90",
+        "must": [
+          "F-VXW90"
+        ],
+        "exclude": [
+          "フィルター",
+          "交換",
+          "部品",
+          "中古",
+          "◆",
+          "並行輸入",
+          "セット"
+        ]
+      },
+      "yahoo": {
+        "keyword": "パナソニック F-VXW90",
+        "must": [
+          "F-VXW90"
+        ],
+        "exclude": [
+          "フィルター",
+          "交換",
+          "部品",
+          "中古",
+          "◆",
+          "並行輸入",
+          "セット"
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/outletplaza/40001106973.html",
+        "price": 86743,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 0,
+        "shop": "秋葉原　アウトレットプラザ",
+        "checkedAt": "2026-11-23T21:44:00.508Z"
+      },
+      "amazon": {
+        "keyword": "パナソニック F-VXW90",
+        "asin": "B0DGPWWFSJ"
+      }
     }
   ]
 }

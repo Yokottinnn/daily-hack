@@ -3,12 +3,24 @@
   "title": "コードレススティック掃除機（重さと運転時間・ゴミ捨てで手が汚れないか）",
   "_note": "仕様は各社の公式ページ・ニュースリリース・取扱説明書の記載だけ（2026-11-22 に確認）。ダイソン・マキタ・アイリスオーヤマは Mac で読んだ（ops/tasks t810〜t813、reports/t810〜t813）。パナソニック・日立・シャークはクラウドから公式ページを直接読んだ",
   "columns": [
-    { "key": "weight", "label": "重さ（床用ヘッド込み）" },
-    { "key": "runtime", "label": "いちばん長い運転時間" },
-    { "key": "boost", "label": "いちばん強いモード" },
-    { "key": "dust", "label": "ゴミ捨て" }
+    {
+      "key": "weight",
+      "label": "重さ（床用ヘッド込み）"
+    },
+    {
+      "key": "runtime",
+      "label": "いちばん長い運転時間"
+    },
+    {
+      "key": "boost",
+      "label": "いちばん強いモード"
+    },
+    {
+      "key": "dust",
+      "label": "ゴミ捨て"
+    }
   ],
-  "pricesCheckedAt": null,
+  "pricesCheckedAt": "2026-11-23T21:44:00.508Z",
   "items": [
     {
       "id": "shark-lc050j",
@@ -24,9 +36,40 @@
         "dust": "自動収集ドック（約30日分）"
       },
       "source": "https://www.sharkninja.jp/products/lc050j",
-      "rakuten": { "keyword": "Shark GlideClean LC050J", "must": ["LC050J"], "exclude": ["交換", "専用", "対応", "フィルター", "バッテリー", "◆", "中古"] },
-      "yahoo": { "keyword": "Shark GlideClean LC050J", "must": ["LC050J"], "exclude": ["交換", "専用", "対応", "フィルター", "バッテリー", "◆", "中古"] },
-      "amazon": { "keyword": "Shark GlideClean LC050J", "asin": "B0HNW8JZL7" }
+      "rakuten": {
+        "keyword": "Shark GlideClean LC050J",
+        "must": [
+          "LC050J"
+        ],
+        "exclude": [
+          "交換",
+          "専用",
+          "対応",
+          "フィルター",
+          "バッテリー",
+          "◆",
+          "中古"
+        ]
+      },
+      "yahoo": {
+        "keyword": "Shark GlideClean LC050J",
+        "must": [
+          "LC050J"
+        ],
+        "exclude": [
+          "交換",
+          "専用",
+          "対応",
+          "フィルター",
+          "バッテリー",
+          "◆",
+          "中古"
+        ]
+      },
+      "amazon": {
+        "keyword": "Shark GlideClean LC050J",
+        "asin": "B0HNW8JZL7"
+      }
     },
     {
       "id": "shark-lc900j",
@@ -42,9 +85,40 @@
         "dust": "自動収集ドック（約60日分）"
       },
       "source": "https://www.sharkninja.jp/products/lc900j",
-      "rakuten": { "keyword": "Shark ActiClean LC900J", "must": ["LC900J"], "exclude": ["交換", "専用", "対応", "フィルター", "バッテリー", "◆", "中古"] },
-      "yahoo": { "keyword": "Shark ActiClean LC900J", "must": ["LC900J"], "exclude": ["交換", "専用", "対応", "フィルター", "バッテリー", "◆", "中古"] },
-      "amazon": { "keyword": "Shark ActiClean LC900J", "asin": "B0HF7YYVDY" }
+      "rakuten": {
+        "keyword": "Shark ActiClean LC900J",
+        "must": [
+          "LC900J"
+        ],
+        "exclude": [
+          "交換",
+          "専用",
+          "対応",
+          "フィルター",
+          "バッテリー",
+          "◆",
+          "中古"
+        ]
+      },
+      "yahoo": {
+        "keyword": "Shark ActiClean LC900J",
+        "must": [
+          "LC900J"
+        ],
+        "exclude": [
+          "交換",
+          "専用",
+          "対応",
+          "フィルター",
+          "バッテリー",
+          "◆",
+          "中古"
+        ]
+      },
+      "amazon": {
+        "keyword": "Shark ActiClean LC900J",
+        "asin": "B0HF7YYVDY"
+      }
     },
     {
       "id": "hitachi-pv-bg1000r",
@@ -60,9 +134,48 @@
         "dust": "自動収集ドック（約2か月に1回）"
       },
       "source": "https://kadenfan.hitachi.co.jp/clean/lineup/pv-bg1000r/",
-      "rakuten": { "keyword": "日立 PV-BG1000R", "must": ["BG1000R"], "exclude": ["交換", "専用", "対応", "フィルター", "バッテリー", "◆", "中古"] },
-      "yahoo": { "keyword": "日立 PV-BG1000R", "must": ["BG1000R"], "exclude": ["交換", "専用", "対応", "フィルター", "バッテリー", "◆", "中古"] },
-      "amazon": { "keyword": "日立 PV-BG1000R", "asin": "B0H86XWLK2" }
+      "rakuten": {
+        "keyword": "日立 PV-BG1000R",
+        "must": [
+          "BG1000R"
+        ],
+        "exclude": [
+          "交換",
+          "専用",
+          "対応",
+          "フィルター",
+          "バッテリー",
+          "◆",
+          "中古"
+        ]
+      },
+      "yahoo": {
+        "keyword": "日立 PV-BG1000R",
+        "must": [
+          "BG1000R"
+        ],
+        "exclude": [
+          "交換",
+          "専用",
+          "対応",
+          "フィルター",
+          "バッテリー",
+          "◆",
+          "中古"
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/kaden119-parts-store/pv-bg1000r-007.html",
+        "price": 16500,
+        "shippingFree": false,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 0,
+        "shop": "カデンの救急社",
+        "checkedAt": "2026-11-23T21:44:00.508Z"
+      },
+      "amazon": {
+        "keyword": "日立 PV-BG1000R",
+        "asin": "B0H86XWLK2"
+      }
     },
     {
       "id": "panasonic-mc-nx600km",
@@ -78,9 +191,50 @@
         "dust": "ドックの紙パック（約3.5か月に1回交換）"
       },
       "source": "https://panasonic.jp/soji/products/MC-NX600KM.html",
-      "rakuten": { "keyword": "パナソニック MC-NX600KM", "must": ["NX600KM"], "exclude": ["交換", "専用", "対応", "紙パック", "フィルター", "バッテリー", "◆", "中古"] },
-      "yahoo": { "keyword": "パナソニック MC-NX600KM", "must": ["NX600KM"], "exclude": ["交換", "専用", "対応", "紙パック", "フィルター", "バッテリー", "◆", "中古"] },
-      "amazon": { "keyword": "パナソニック MC-NX600KM", "asin": "B0HLK971F9" }
+      "rakuten": {
+        "keyword": "パナソニック MC-NX600KM",
+        "must": [
+          "NX600KM"
+        ],
+        "exclude": [
+          "交換",
+          "専用",
+          "対応",
+          "紙パック",
+          "フィルター",
+          "バッテリー",
+          "◆",
+          "中古"
+        ]
+      },
+      "yahoo": {
+        "keyword": "パナソニック MC-NX600KM",
+        "must": [
+          "NX600KM"
+        ],
+        "exclude": [
+          "交換",
+          "専用",
+          "対応",
+          "紙パック",
+          "フィルター",
+          "バッテリー",
+          "◆",
+          "中古"
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/easy-style2007/001y01898.html",
+        "price": 75000,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 0,
+        "shop": "プロテクション",
+        "checkedAt": "2026-11-23T21:44:00.508Z"
+      },
+      "amazon": {
+        "keyword": "パナソニック MC-NX600KM",
+        "asin": "B0HLK971F9"
+      }
     },
     {
       "id": "dyson-pencilvac-fc",
@@ -96,9 +250,50 @@
         "dust": "押し出し式（クリアビン3g）"
       },
       "source": "https://www.dyson.co.jp/vacuum-cleaners/powerbroom/pencilvac/fluffycones",
-      "rakuten": { "keyword": "Dyson PencilVac Fluffycones SV50", "must": ["SV50"], "exclude": ["交換", "専用", "対応", "フィルター", "バッテリー", "◆", "中古", "互換"] },
-      "yahoo": { "keyword": "Dyson PencilVac Fluffycones SV50", "must": ["SV50"], "exclude": ["交換", "専用", "対応", "フィルター", "バッテリー", "◆", "中古", "互換"] },
-      "amazon": { "keyword": "Dyson PencilVac Fluffycones SV50 FC", "asin": "B0F7WJW98P" }
+      "rakuten": {
+        "keyword": "Dyson PencilVac Fluffycones SV50",
+        "must": [
+          "SV50"
+        ],
+        "exclude": [
+          "交換",
+          "専用",
+          "対応",
+          "フィルター",
+          "バッテリー",
+          "◆",
+          "中古",
+          "互換"
+        ]
+      },
+      "yahoo": {
+        "keyword": "Dyson PencilVac Fluffycones SV50",
+        "must": [
+          "SV50"
+        ],
+        "exclude": [
+          "交換",
+          "専用",
+          "対応",
+          "フィルター",
+          "バッテリー",
+          "◆",
+          "中古",
+          "互換"
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/dyson/699160-01.html",
+        "price": 52900,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 0,
+        "shop": "Dyson公式Yahoo!ショッピング店",
+        "checkedAt": "2026-11-23T21:44:00.508Z"
+      },
+      "amazon": {
+        "keyword": "Dyson PencilVac Fluffycones SV50 FC",
+        "asin": "B0F7WJW98P"
+      }
     },
     {
       "id": "dyson-v12-detect-slim",
@@ -114,9 +309,50 @@
         "dust": "本体のビンから捨てる"
       },
       "source": "https://www.dyson.co.jp/vacuum-cleaners/cordless/v12/detect-slim-absolute",
-      "rakuten": { "keyword": "Dyson V12 Detect Slim Absolute SV46", "must": ["SV46"], "exclude": ["交換", "専用", "対応", "フィルター", "バッテリー", "◆", "中古", "互換"] },
-      "yahoo": { "keyword": "Dyson V12 Detect Slim Absolute SV46", "must": ["SV46"], "exclude": ["交換", "専用", "対応", "フィルター", "バッテリー", "◆", "中古", "互換"] },
-      "amazon": { "keyword": "Dyson V12 Detect Slim Absolute SV46 ABL", "asin": "B0F7X49XXK" }
+      "rakuten": {
+        "keyword": "Dyson V12 Detect Slim Absolute SV46",
+        "must": [
+          "SV46"
+        ],
+        "exclude": [
+          "交換",
+          "専用",
+          "対応",
+          "フィルター",
+          "バッテリー",
+          "◆",
+          "中古",
+          "互換"
+        ]
+      },
+      "yahoo": {
+        "keyword": "Dyson V12 Detect Slim Absolute SV46",
+        "must": [
+          "SV46"
+        ],
+        "exclude": [
+          "交換",
+          "専用",
+          "対応",
+          "フィルター",
+          "バッテリー",
+          "◆",
+          "中古",
+          "互換"
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/dyson/637631-01.html",
+        "price": 49800,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": 4.79,
+        "reviewCount": 28,
+        "shop": "Dyson公式Yahoo!ショッピング店",
+        "checkedAt": "2026-11-23T21:44:00.508Z"
+      },
+      "amazon": {
+        "keyword": "Dyson V12 Detect Slim Absolute SV46 ABL",
+        "asin": "B0F7X49XXK"
+      }
     },
     {
       "id": "makita-cl287fd",
@@ -132,9 +368,48 @@
         "dust": "サイクロンカプセルを外して捨てる"
       },
       "source": "https://www.makita.co.jp/product/detail/?&model=CL287FD",
-      "rakuten": { "keyword": "マキタ CL287FD", "must": ["CL287FD"], "exclude": ["交換", "専用", "対応", "フィルター", "◆", "中古", "互換"] },
-      "yahoo": { "keyword": "マキタ CL287FD", "must": ["CL287FD"], "exclude": ["交換", "専用", "対応", "フィルター", "◆", "中古", "互換"] },
-      "amazon": { "keyword": "マキタ CL287FD", "asin": "B0HLCW2KPN" }
+      "rakuten": {
+        "keyword": "マキタ CL287FD",
+        "must": [
+          "CL287FD"
+        ],
+        "exclude": [
+          "交換",
+          "専用",
+          "対応",
+          "フィルター",
+          "◆",
+          "中古",
+          "互換"
+        ]
+      },
+      "yahoo": {
+        "keyword": "マキタ CL287FD",
+        "must": [
+          "CL287FD"
+        ],
+        "exclude": [
+          "交換",
+          "専用",
+          "対応",
+          "フィルター",
+          "◆",
+          "中古",
+          "互換"
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/takahashihonsha/137292-9.html",
+        "price": 880,
+        "shippingFree": false,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 0,
+        "shop": "高橋本社Yahoo!店",
+        "checkedAt": "2026-11-23T21:44:00.508Z"
+      },
+      "amazon": {
+        "keyword": "マキタ CL287FD",
+        "asin": "B0HLCW2KPN"
+      }
     },
     {
       "id": "iris-scd-186p",
@@ -150,9 +425,48 @@
         "dust": "掃除のたびにダストカップから捨てる"
       },
       "source": "https://www.irisohyama.co.jp/products/electrical-appliances/home-appliances/vacuum-cleaner/rechargeable-stick-cleaner/cleaner-stick-cordless-scd186p",
-      "rakuten": { "keyword": "アイリスオーヤマ SCD-186P", "must": ["186P"], "exclude": ["交換", "専用", "対応", "フィルター", "◆", "中古", "互換"] },
-      "yahoo": { "keyword": "アイリスオーヤマ SCD-186P", "must": ["186P"], "exclude": ["交換", "専用", "対応", "フィルター", "◆", "中古", "互換"] },
-      "amazon": { "keyword": "アイリスオーヤマ SCD-186P", "asin": null }
+      "rakuten": {
+        "keyword": "アイリスオーヤマ SCD-186P",
+        "must": [
+          "186P"
+        ],
+        "exclude": [
+          "交換",
+          "専用",
+          "対応",
+          "フィルター",
+          "◆",
+          "中古",
+          "互換"
+        ]
+      },
+      "yahoo": {
+        "keyword": "アイリスオーヤマ SCD-186P",
+        "must": [
+          "186P"
+        ],
+        "exclude": [
+          "交換",
+          "専用",
+          "対応",
+          "フィルター",
+          "◆",
+          "中古",
+          "互換"
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/irisplaza/213777f.html",
+        "price": 10999,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 0,
+        "shop": "アイリスプラザ Yahoo!店",
+        "checkedAt": "2026-11-23T21:44:00.508Z"
+      },
+      "amazon": {
+        "keyword": "アイリスオーヤマ SCD-186P",
+        "asin": null
+      }
     }
   ]
 }
