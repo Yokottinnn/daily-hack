@@ -1,0 +1,11 @@
+- ⚠️ bamix-top: Error: page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.bamix.co.jp/
+Call log:
+  - navigating to "https://www.bamix.co.jp/", waiting unt
+- ⚠️ bamix-products: Error: page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.bamix.co.jp/products/
+Call log:
+  - navigating to "https://www.bamix.co.jp/produ
+
+- バーミックスのリンク候補 0 件
+
+---
+経過 0 秒

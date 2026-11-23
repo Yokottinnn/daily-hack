@@ -1,3 +1,4 @@
 [
-      {"task": "x547-buzz-posts-1123.sh", "rc": 0, "out": "---  **対象 9 / X が読めた 9**  LLM 不使用。**$0/回**（1 回きり）。"}
+      {"task": "t1120-bamix-official-read.sh", "rc": 0, "out": "  64 . 96 ..  **読むだけ。LLM 不使用（$0／回）。**"},
+      {"task": "t1121-embed-hand-blender.sh", "rc": 0, "out": "- YT 5DrgGBuKtxU 「バーミックスM300の魅力：BAMIX」 / CherryTerraceInc / 9.3万 11 年前 - YT -r_pICCnOH4 「バーミックスM300の魅力：BAMIX　revised edition」 / CherryTerraceInc / 2.9万 6 年前 - YT A3_UDSfACZo 「【Bamix】ブレンダー（バーミックス）で休日�"}
   ]
