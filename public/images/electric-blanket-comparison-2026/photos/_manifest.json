@@ -1,0 +1,18 @@
+{
+ "_note": "各メーカーの公式の製品ページの写真（2026-11-23 取得）。記事では出典を figcaption に書く。パナソニックとアイリスオーヤマは Mac の t1184、ほかはクラウドから直接取得。",
+ "koden-cwb551b-cn-scene.jpg": {"page": "https://koden-j.com/koden/electric-blanket/cwb551b-cn/", "src": "https://koden-j.com/wp-content/uploads/2026/08/scene1-CWB551B-CN.jpg", "lic": "引用（出典表記）"},
+ "koden-cwb551b-cn-bed.jpg": {"page": "https://koden-j.com/koden/electric-blanket/cwb551b-cn/", "src": "https://koden-j.com/wp-content/uploads/2026/08/scene2-CWB551B-CN.jpg", "lic": "引用（出典表記）"},
+ "yamazen-ymk-t201-bed.jpg": {"page": "https://book.yamazen.co.jp/product/detail/I00009454", "src": "https://book.yamazen.co.jp/editor/img/E0CI00009454M26110911381166.jpg", "lic": "引用（出典表記）"},
+ "yamazen-ymk-t201-timer.jpg": {"page": "https://book.yamazen.co.jp/product/detail/I00009454", "src": "https://book.yamazen.co.jp/editor/img/E0CI00009454M26110911381163.jpg", "lic": "引用（出典表記）"},
+ "yamazen-ymk-203-bed.jpg": {"page": "https://book.yamazen.co.jp/product/detail/I00008546", "src": "https://book.yamazen.co.jp/editor/img/E0CI00008546M25102316041041.jpg", "lic": "引用（出典表記）"},
+ "yamazen-ymk-203-sofa.jpg": {"page": "https://book.yamazen.co.jp/product/detail/I00008546", "src": "https://book.yamazen.co.jp/editor/img/E0CI00008546M25102316041069.jpg", "lic": "引用（出典表記）"},
+ "panasonic-bed.jpg": {"page": "https://panasonic.jp/danbo/electric-blanket.html", "note": "画像内に「写真はDB-RM4Mです」", "lic": "引用（出典表記）"},
+ "panasonic-microfiber.jpg": {"page": "https://panasonic.jp/danbo/electric-blanket.html", "lic": "引用（出典表記）"},
+ "panasonic-lineup.jpg": {"page": "https://panasonic.jp/danbo/electric-blanket.html", "lic": "引用（出典表記）"},
+ "panasonic-db-rm4m-item.jpg": {"page": "https://panasonic.jp/danbo/products/DB-RM4M.html", "src": "https://panasonic.jp/c-assets/product-image?hb=DB-RM4M&size=l", "lic": "引用（出典表記）"},
+ "koizumi-kdk-60261-bed.jpg": {"page": "https://www.koizumiseiki.jp/products/detail/1744", "src": "https://www.koizumiseiki.jp/images/product/1744/product_images/2.jpg", "lic": "引用（出典表記）"},
+ "koizumi-kdk-60261-item.jpg": {"page": "https://www.koizumiseiki.jp/products/detail/1744", "src": "https://www.koizumiseiki.jp/images/product/1744/product_images/1.jpg", "lic": "引用（出典表記）"},
+ "koizumi-kdk-75266d-scene.jpg": {"page": "https://www.koizumiseiki.jp/products/detail/1740", "src": "https://www.koizumiseiki.jp/images/product/1740/product_images/4.jpg", "lic": "引用（出典表記）"},
+ "koizumi-kdk-75266d-bed.jpg": {"page": "https://www.koizumiseiki.jp/products/detail/1740", "src": "https://www.koizumiseiki.jp/images/product/1740/product_images/3.jpg", "lic": "引用（出典表記）"},
+ "iris-ehb-fr1813b.jpg": {"page": "https://www.irisohyama.co.jp/products/electrical-appliances/seasonal-appliances/electric-blanket/threshold-blankets/hang-lay-blankets", "src": "https://www.irisohyama.co.jp/products/web-catalog/img/items/107143/item_001.jpg", "lic": "引用（出典表記）"}
+}
