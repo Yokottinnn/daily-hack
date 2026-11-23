@@ -1,0 +1,62 @@
+{
+ "jackery-300d.jpg": {
+  "page": "https://www.jackery.jp/products/jackery-explorer-300d",
+  "credit": "メーカー公式ストアの製品画像",
+  "alt": "Jackery ポータブル電源 300D の製品写真",
+  "fetched": "2026-11-23"
+ },
+ "jackery-300d-car.jpg": {
+  "page": "https://www.jackery.jp/products/jackery-explorer-300d",
+  "credit": "メーカー公式ストアの製品画像",
+  "alt": "Jackery 300D から車載冷蔵庫に給電している公式の写真",
+  "fetched": "2026-11-23"
+ },
+ "anker-c300-dc.jpg": {
+  "page": "https://www.ankerjapan.com/products/a1726",
+  "credit": "メーカー公式ストアの製品画像",
+  "alt": "Anker Solix C300 DC の製品写真",
+  "fetched": "2026-11-23"
+ },
+ "jackery-240-new.jpg": {
+  "page": "https://www.jackery.jp/products/explorer-240-new",
+  "credit": "メーカー公式ストアの製品画像",
+  "alt": "Jackery 240 New の製品写真",
+  "fetched": "2026-11-23"
+ },
+ "jackery-500-new.jpg": {
+  "page": "https://www.jackery.jp/products/explorer-500-new",
+  "credit": "メーカー公式ストアの製品画像",
+  "alt": "Jackery 500 New を片手で持つ公式の写真（寸法つき）",
+  "fetched": "2026-11-23"
+ },
+ "jackery-500-new-p.jpg": {
+  "page": "https://www.jackery.jp/products/explorer-500-new",
+  "credit": "メーカー公式ストアの製品画像",
+  "alt": "Jackery 500 New の製品写真",
+  "fetched": "2026-11-23"
+ },
+ "ecoflow-river-2-pro.jpg": {
+  "page": "https://jp.ecoflow.com/products/river-2-pro-portable-power-station",
+  "credit": "メーカー公式ストアの製品画像",
+  "alt": "湖畔で使う EcoFlow RIVER 2 Pro の公式の写真",
+  "fetched": "2026-11-23"
+ },
+ "ecoflow-river-2-pro-home.jpg": {
+  "page": "https://jp.ecoflow.com/products/river-2-pro-portable-power-station",
+  "credit": "メーカー公式ストアの製品画像",
+  "alt": "キッチンに置いた EcoFlow RIVER 2 Pro",
+  "fetched": "2026-11-23"
+ },
+ "anker-c800-plus.jpg": {
+  "page": "https://www.ankerjapan.com/products/a1754",
+  "credit": "メーカー公式ストアの製品画像",
+  "alt": "天面を開けた Anker Solix C800 Plus",
+  "fetched": "2026-11-23"
+ },
+ "anker-c800-plus-camp.jpg": {
+  "page": "https://www.ankerjapan.com/products/a1754",
+  "credit": "メーカー公式ストアの製品画像",
+  "alt": "夜のキャンプで使う Anker Solix C800 Plus の公式の画像",
+  "fetched": "2026-11-23"
+ }
+}
