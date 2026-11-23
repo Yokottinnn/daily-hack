@@ -1,0 +1,26 @@
+{
+ "kindle.png": {
+  "brand": "Kindle（Amazon）",
+  "src": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/64/44/df/6444dfe7-8c78-56f6-330e-181f5aa5dc52/AppIcon-0-0-1x_U007emarketing-0-7-0-sRGB-0-0-85-220.png/512x512bb.png",
+  "page": "https://apps.apple.com/jp/app/id302584613",
+  "note": "App Store の「Amazon Kindle」アプリのアイコン（提供元 AMZN Mobile LLC）。iTunes Search API の trackId 302584613",
+  "lic": "商標（識別目的）",
+  "fetched": "2026-11-23"
+ },
+ "kobo.png": {
+  "brand": "楽天Kobo",
+  "src": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/36/7b/e8/367be811-5701-1bdc-6d7c-fdf3229b4a98/AppIcon-0-0-1x_U007epad-0-9-0-85-220.png/512x512bb.png",
+  "page": "https://apps.apple.com/jp/app/id627457804",
+  "note": "App Store の「楽天Kobo - 電子書籍の読書アプリ」のアイコン（提供元 Rakuten Kobo Inc.）。trackId 627457804",
+  "lic": "商標（識別目的）",
+  "fetched": "2026-11-23"
+ },
+ "boox.png": {
+  "brand": "BOOX（ONYX International）",
+  "src": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/26/d9/f6/26d9f656-0e47-a9d3-faa1-bf9e88ef2144/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.png",
+  "page": "https://apps.apple.com/us/app/id6761602269",
+  "note": "App Store の「BOOX Tiles」アプリのアイコン（提供元 Onyx International Inc.）。BOOX の文字が入った提供元の登録アイコン。trackId 6761602269",
+  "lic": "商標（識別目的）",
+  "fetched": "2026-11-23"
+ }
+}
