@@ -1,5 +1,5 @@
 [
-      {"task": "t1141-verify-rakuten-tablet.sh", "rc": 0, "out": "- 商品: 検索結果 50 件・型番「Fire HD 10 タブレット」の表示: あり - 題名: 【楽天市場】Fire HD 10 タブレットの通販 - 写真: Mac の手元のみ（private-shots/shop-verify/tablet-comparison-2026/v07-rakuten.jpg・公開しない） -rw-r--r--   1 ny  staff  1517"},
-      {"task": "t1142-verify-yahoo-tablet.sh", "rc": 0, "out": "- 商品: 検索結果 30 件・型番「Fire HD 10 タブレット」の表示: あり - 題名: Fire HD 10 タブレットのおすすめ人気商品一覧 通販 - Yahoo!ショッピング - 写真: Mac の手元のみ（private-shots/shop-verify/tablet-comparison-2026/v07-yahoo.jpg・公開し�"},
-      {"task": "t1143-verify-amazon-tablet.sh", "rc": 0, "out": "- 商品: 検索結果 0 件・型番「」の表示: —・カートに入れるボタンあり - 題名: Amazon.co.jp: Amazon Fire HD 10 インチ タブレット - 1080pフル HDディスプレイ、大画面で動画もマンガも - 32GB ブラック : Ama - 写真: Mac の手元のみ（privat"}
+      {"task": "t1115-verify-rakuten-ereader.sh", "rc": 0, "out": "- 商品: 検索結果 0 件・型番「」の表示: —・カートに入れるボタンあり - 題名: 【楽天市場】【7インチ】BOOX Go7 Go7ColorGen2 7インチ 電子ペーパー タブレット カラー／モノクロ表示 Android13 軽量195g InkSensePl - 写真: Mac の手元の�"},
+      {"task": "t1116-verify-yahoo-ereader.sh", "rc": 0, "out": "- 商品: 商品ページ（カートに入れるボタンあり）・型番「」の表示: —・カートに入れるボタンあり - 題名: BOOX 【7インチ】BOOX Go7／GoColor7Gen2 ７インチAndroidタブレット Playストア 物理ボタン付 カラー1種類 モノクロ2種類 : SK"},
+      {"task": "t1117-verify-amazon-ereader.sh", "rc": 0, "out": "- 商品: 検索結果 0 件・型番「」の表示: —・カートに入れるボタンあり - 題名: Amazon.co.jp: BOOX Go 7電子書籍リーダー 7インチ 白黒 64GB 300ppi Android 13 フロントライト BT WiFi (ブラック) : パソ - 写真: Mac の手元のみ（private-shots/shop"}
   ]

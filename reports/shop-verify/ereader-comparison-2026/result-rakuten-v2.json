@@ -1,0 +1,357 @@
+{
+ "slug": "ereader-comparison-2026",
+ "generated": "2026-11-23T14:27:42.263Z",
+ "total": 8,
+ "rows": [
+  {
+   "n": "01",
+   "store": "rakuten",
+   "name": "Amazon Kindle Paperwhite（16GB）2026年モデル",
+   "model": "",
+   "href": "https://hb.afl.rakuten.co.jp/hgc/587f2635.77bb335f.587f2636.e34c8733/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fyamada-denki%2F9429900014%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fyamada-denki%2F9429900014%2F",
+   "chain": [
+    "https://grp15.ias.rakuten.co.jp/gw.js?v=2&scid=af_pc_etc&sc2id=af_101_0_0",
+    "https://gum.criteo.com/syncframe?topUrl=grp15.ias.rakuten.co.jp&origin=onetag&ceid=e0605e48-0133-47a1-8cab-670e8d003081",
+    "https://gum.criteo.com/syncframe?topUrl=grp15.ias.rakuten.co.jp&origin=onetag&ceid=2e994a66-c872-4f1c-b101-1be33b44ded1",
+    "https://10275646.fls.doubleclick.net/activityi;src=10275646;type=cvwyb0;cat=n_xdy0;rcb=2;ord=4620285578672;npa=0;uaa=arm;uab=64;uafvl=Not%253DA%253FBrand%3B24.0.0.0%7CChromium%3B140.0.7339.207;uamb=0;uam=;uap=macOS;uapv=26.3.1;uaw=0;frm=2;_tu=IFA;gtm=45fe6bh1v9190901551za200zd9190901551xecxf1;gcd=13l3l3l3l1l1;dma=0;dc_fmt=2;tag_exp=115616985~115938465~115938469~120213116~120385423~120469145~120469153~121246026~121246034;epver=2;ref=https%3A%2F%2Fgrp15.ias.rakuten.co.jp%2Fgw.js%3Fv%3D2%26scid%3Daf_pc_etc%26sc2id%3Daf_101_0_0;dc_random=1795444018_B0dzRnNFw1S-rAX93-6aJN3emRzgHGSZRA;_dc_test=1;~oref=https%3A%2F%2Fgrp15.ias.rakuten.co.jp%2Fgw.js%3Fv%3D2%26scid%3Daf_pc_etc%26sc2id%3Daf_101_0_0?",
+    "https://10275646.fls.doubleclick.net/activityi;dc_pre=CNCtrZemnpgDFY1uwwYdZegOag;src=10275646;type=cvwyb0;cat=n_xdy0;rcb=2;ord=4620285578672;npa=0;uaa=arm;uab=64;uafvl=Not%253DA%253FBrand%3B24.0.0.0%7CChromium%3B140.0.7339.207;uamb=0;uam=;uap=macOS;uapv=26.3.1;uaw=0;frm=2;_tu=IFA;gtm=45fe6bh1v9190901551za200zd9190901551xecxf1;gcd=13l3l3l3l1l1;dma=0;dc_fmt=2;tag_exp=115616985~115938465~115938469~120213116~120385423~120469145~120469153~121246026~121246034;epver=2;ref=https%3A%2F%2Fgrp15.ias.rakuten.co.jp%2Fgw.js%3Fv%3D2%26scid%3Daf_pc_etc%26sc2id%3Daf_101_0_0;dc_random=1795444018_B0dzRnNFw1S-rAX93-6aJN3emRzgHGSZRA;_dc_test=1;~oref=https%3A%2F%2Fgrp15.ias.rakuten.co.jp%2Fgw.js%3Fv%3D2%26scid%3Daf_pc_etc%26sc2id%3Daf_101_0_0?",
+    "https://gum.criteo.com/syncframe?topUrl=grp15.ias.rakuten.co.jp&origin=onetag&ceid=3aa28bd4-1edd-4d07-b816-c8b133869660",
+    "https://apps.rokt-api.com/wsdk/controller/index.2.27530.0.html",
+    "https://apps.rokt.com/wsdk/session-transfer/index.2.27530.0.html",
+    "https://apps.rokt-api.com/wsdk/plugins/dcui/index.html",
+    "https://item.rakuten.co.jp/yamada-denki/9429900014/?scid=af_pc_etc&sc2id=af_101_0_0"
+   ],
+   "fin": "https://item.rakuten.co.jp/yamada-denki/9429900014/?scid=af_pc_etc&sc2id=af_101_0_0",
+   "aff": "着いた先の URL に scid=af_pc_etc（楽天アフィリエイト経由の印）",
+   "found": "検索結果 0 件",
+   "buy": "その商品のページ（カートに入れるボタンあり）",
+   "title": "【楽天市場】Amazon B0GV5VHTL6 電子書籍リーダー Kindle Paperwhite 16GB グラファイト：ヤマダ電機　楽天市場店",
+   "robot": false,
+   "cart": true,
+   "amazonResults": 0,
+   "rakutenResults": 0,
+   "yahooResults": 0,
+   "noHit": false,
+   "modelOnPage": null,
+   "keys": [
+    "Paperwhite"
+   ],
+   "ads": null,
+   "items": 156,
+   "hits": 0,
+   "hitTitles": [],
+   "top": [
+    "・領収書発行について",
+    "・お買い物ガイド",
+    "・よくある問い合わせ"
+   ],
+   "titleHit": true,
+   "h1": "",
+   "shot": "v01-rakuten.jpg"
+  },
+  {
+   "n": "02",
+   "store": "rakuten",
+   "name": "Amazon Kindle（16GB）2026年モデル",
+   "model": "",
+   "href": "https://hb.afl.rakuten.co.jp/hgc/587f2635.77bb335f.587f2636.e34c8733/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbiccamera%2F0840414601390%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fbiccamera%2F0840414601390%2F",
+   "chain": [
+    "https://grp15.ias.rakuten.co.jp/gw.js?v=2&scid=af_pc_etc&sc2id=af_101_0_0",
+    "https://biccamera.rakuten.co.jp/item/0840414601390/?scid=af_pc_etc&sc2id=af_101_0_0"
+   ],
+   "fin": "https://biccamera.rakuten.co.jp/item/0840414601390/?scid=af_pc_etc&sc2id=af_101_0_0",
+   "aff": "着いた先の URL に scid=af_pc_etc（楽天アフィリエイト経由の印）",
+   "found": "検索結果 0 件",
+   "buy": "その商品のページ（カートに入れるボタンあり）",
+   "title": "楽天ビック｜【エントリーで最大全額ポイント還元｜11/25まで】 Amazon｜アマゾン Kindle [6インチ /16GB] 電子書籍リーダー 2026年発売 グラファイト B",
+   "robot": false,
+   "cart": true,
+   "amazonResults": 0,
+   "rakutenResults": 0,
+   "yahooResults": 0,
+   "noHit": false,
+   "modelOnPage": null,
+   "keys": [
+    "Kindle",
+    "16GB"
+   ],
+   "ads": null,
+   "items": 78,
+   "hits": 8,
+   "hitTitles": [
+    "【エントリーで最大全額ポイント還元｜11/25まで】 Amazon｜アマゾン Kindle [6インチ /16GB] 電子書籍リーダー 2026年発売 ウベパープル B0G4SMG",
+    "Amazon｜アマゾン Kindle Colorsoft 第1世代 [7インチ /16GB] ブラック B0CX8MT2M2 [7インチ /防水]",
+    "【エントリーで最大全額ポイント還元｜11/25まで】 Amazon｜アマゾン Kindle (2024年発売)、6インチディスプレイ電子書籍リーダー、16GBストレージ、広告なし "
+   ],
+   "top": [
+    "ソニー・インタラクティブエンタテインメント｜SIE PlayStation5 デジタル・エディション 日本語専用 Console Language: Japanese only C",
+    "【エントリーで最大全額ポイント還元｜11/25まで】 Amazon｜アマゾン Kindle [6インチ /16GB] 電子書籍リーダー 2026年発売 ウベパープル B0G4SMG",
+    "Amazon｜アマゾン Kindle Colorsoft 第1世代 [7インチ /16GB] ブラック B0CX8MT2M2 [7インチ /防水]"
+   ],
+   "titleHit": true,
+   "h1": "【エントリーで最大全額ポイント還元｜11/25まで】 Amazon｜アマゾン Kindle [6インチ /16GB] 電子書籍リーダー 2026年発売 グラファイト B0G4SL3",
+   "shot": "v02-rakuten.jpg"
+  },
+  {
+   "n": "03",
+   "store": "rakuten",
+   "name": "Amazon Kindle Colorsoft（16GB）2026年モデル",
+   "model": "",
+   "href": "https://hb.afl.rakuten.co.jp/hgc/587f2635.77bb335f.587f2636.e34c8733/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fyamada-denki%2F9429903015%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fyamada-denki%2F9429903015%2F",
+   "chain": [
+    "https://grp15.ias.rakuten.co.jp/gw.js?v=2&scid=af_pc_etc&sc2id=af_101_0_0",
+    "https://gum.criteo.com/syncframe?topUrl=grp15.ias.rakuten.co.jp&origin=onetag&ceid=16c72fc7-d3ad-4c59-859b-ce70a67bf8a6",
+    "https://gum.criteo.com/syncframe?topUrl=grp15.ias.rakuten.co.jp&origin=onetag&ceid=9fc3940a-7fc6-4694-ac0c-6587101c36fd",
+    "https://10275646.fls.doubleclick.net/activityi;src=10275646;type=cvwyb0;cat=n_xdy0;rcb=17;ord=3667300456070;npa=0;uaa=arm;uab=64;uafvl=Not%253DA%253FBrand%3B24.0.0.0%7CChromium%3B140.0.7339.207;uamb=0;uam=;uap=macOS;uapv=26.3.1;uaw=0;frm=2;_tu=IFA;gtm=45fe6bh1v9190901551za200zd9190901551xecxf1;gcd=13l3l3l3l1l1;dma=0;dc_fmt=2;tag_exp=115616985~115938465~115938469~120213116~120385423~120469145~120469153~121246026~121246034;epver=2;ref=https%3A%2F%2Fgrp15.ias.rakuten.co.jp%2Fgw.js%3Fv%3D2%26scid%3Daf_pc_etc%26sc2id%3Daf_101_0_0;dc_random=1795444028_vGckpqVN7XyaQsWv2kI-3IEFvd27K0IIwg;_dc_test=1;~oref=https%3A%2F%2Fgrp15.ias.rakuten.co.jp%2Fgw.js%3Fv%3D2%26scid%3Daf_pc_etc%26sc2id%3Daf_101_0_0?",
+    "https://10275646.fls.doubleclick.net/activityi;dc_pre=CKv5tZymnpgDFWVFwwYdNk8AtQ;src=10275646;type=cvwyb0;cat=n_xdy0;rcb=17;ord=3667300456070;npa=0;uaa=arm;uab=64;uafvl=Not%253DA%253FBrand%3B24.0.0.0%7CChromium%3B140.0.7339.207;uamb=0;uam=;uap=macOS;uapv=26.3.1;uaw=0;frm=2;_tu=IFA;gtm=45fe6bh1v9190901551za200zd9190901551xecxf1;gcd=13l3l3l3l1l1;dma=0;dc_fmt=2;tag_exp=115616985~115938465~115938469~120213116~120385423~120469145~120469153~121246026~121246034;epver=2;ref=https%3A%2F%2Fgrp15.ias.rakuten.co.jp%2Fgw.js%3Fv%3D2%26scid%3Daf_pc_etc%26sc2id%3Daf_101_0_0;dc_random=1795444028_vGckpqVN7XyaQsWv2kI-3IEFvd27K0IIwg;_dc_test=1;~oref=https%3A%2F%2Fgrp15.ias.rakuten.co.jp%2Fgw.js%3Fv%3D2%26scid%3Daf_pc_etc%26sc2id%3Daf_101_0_0?",
+    "https://gum.criteo.com/syncframe?topUrl=grp15.ias.rakuten.co.jp&origin=onetag&ceid=d151af54-2960-45d6-8aa4-bba14c894a3f",
+    "https://apps.rokt-api.com/wsdk/controller/index.2.27530.0.html",
+    "https://apps.rokt.com/wsdk/session-transfer/index.2.27530.0.html",
+    "https://apps.rokt-api.com/wsdk/plugins/dcui/index.html",
+    "https://item.rakuten.co.jp/yamada-denki/9429903015/?scid=af_pc_etc&sc2id=af_101_0_0"
+   ],
+   "fin": "https://item.rakuten.co.jp/yamada-denki/9429903015/?scid=af_pc_etc&sc2id=af_101_0_0",
+   "aff": "着いた先の URL に scid=af_pc_etc（楽天アフィリエイト経由の印）",
+   "found": "検索結果 0 件",
+   "buy": "その商品のページ（カートに入れるボタンあり）",
+   "title": "【楽天市場】Amazon B0GV62167S 電子書籍リーダー Kindle Colorsoft 16GB グラファイト：ヤマダ電機　楽天市場店",
+   "robot": false,
+   "cart": true,
+   "amazonResults": 0,
+   "rakutenResults": 0,
+   "yahooResults": 0,
+   "noHit": false,
+   "modelOnPage": null,
+   "keys": [
+    "Colorsoft"
+   ],
+   "ads": null,
+   "items": 156,
+   "hits": 0,
+   "hitTitles": [],
+   "top": [
+    "・領収書発行について",
+    "・お買い物ガイド",
+    "・よくある問い合わせ"
+   ],
+   "titleHit": true,
+   "h1": "",
+   "shot": "v03-rakuten.jpg"
+  },
+  {
+   "n": "04",
+   "store": "rakuten",
+   "name": "Amazon Kindle Scribe（32GB）2026年モデル",
+   "model": "",
+   "href": "https://hb.afl.rakuten.co.jp/hgc/587f2635.77bb335f.587f2636.e34c8733/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbiccamera%2F0840414651654%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fbiccamera%2F0840414651654%2F",
+   "chain": [
+    "https://grp15.ias.rakuten.co.jp/gw.js?v=2&scid=af_pc_etc&sc2id=af_101_0_0",
+    "https://biccamera.rakuten.co.jp/item/0840414651654/?scid=af_pc_etc&sc2id=af_101_0_0"
+   ],
+   "fin": "https://biccamera.rakuten.co.jp/item/0840414651654/?scid=af_pc_etc&sc2id=af_101_0_0",
+   "aff": "着いた先の URL に scid=af_pc_etc（楽天アフィリエイト経由の印）",
+   "found": "検索結果 0 件",
+   "buy": "その商品のページ（カートに入れるボタンあり）",
+   "title": "楽天ビック｜Amazon｜アマゾン Kindle Scribe 第3世代 [11インチ /32GB] グラファイト B0FC1PBJRB 通販",
+   "robot": false,
+   "cart": true,
+   "amazonResults": 0,
+   "rakutenResults": 0,
+   "yahooResults": 0,
+   "noHit": false,
+   "modelOnPage": null,
+   "keys": [
+    "Scribe"
+   ],
+   "ads": null,
+   "items": 71,
+   "hits": 2,
+   "hitTitles": [
+    "Amazon｜アマゾン Kindle Scribe Colorsoft 第3世代 [11インチ /32GB] グラファイト B0FC217W9L",
+    "Amazon｜アマゾン Kindle Scribe Colorsoft 第3世代 [11インチ /32GB] グラファイト B0FC217W9L106,096円（税込）"
+   ],
+   "top": [
+    "Amazon｜アマゾン Kindle Scribe Colorsoft 第3世代 [11インチ /32GB] グラファイト B0FC217W9L",
+    "【エントリーで最大全額ポイント還元｜11/25まで】 KOBO｜コボ 電子書籍リーダー Kobo Elipsa 2E ブラック N605-KJ-BK-S-BU [10.3インチ]",
+    "Amazon｜アマゾン Kindle Colorsoft シグニチャーエディション [7インチ /32GB] メタリックブラック B0CX8Y3CMG [7インチ /防水]"
+   ],
+   "titleHit": true,
+   "h1": "Amazon｜アマゾン Kindle Scribe 第3世代 [11インチ /32GB] グラファイト B0FC1PBJRB",
+   "shot": "v04-rakuten.jpg"
+  },
+  {
+   "n": "05",
+   "store": "rakuten",
+   "name": "楽天Kobo Kobo Clara BW",
+   "model": "",
+   "href": "https://hb.afl.rakuten.co.jp/hgc/587f2635.77bb335f.587f2636.e34c8733/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbiccamera%2F4560470103787%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fbiccamera%2F4560470103787%2F",
+   "chain": [
+    "https://grp15.ias.rakuten.co.jp/gw.js?v=2&scid=af_pc_etc&sc2id=af_101_0_0",
+    "https://biccamera.rakuten.co.jp/item/4560470103787/?scid=af_pc_etc&sc2id=af_101_0_0"
+   ],
+   "fin": "https://biccamera.rakuten.co.jp/item/4560470103787/?scid=af_pc_etc&sc2id=af_101_0_0",
+   "aff": "着いた先の URL に scid=af_pc_etc（楽天アフィリエイト経由の印）",
+   "found": "検索結果 0 件",
+   "buy": "その商品のページ（カートに入れるボタンあり）",
+   "title": "楽天ビック｜【エントリーで最大全額ポイント還元｜11/25まで】 KOBO｜コボ 電子書籍リーダー Kobo Clara BW ブラック N365-KJ-BK-S-EP [6インチ",
+   "robot": false,
+   "cart": true,
+   "amazonResults": 0,
+   "rakutenResults": 0,
+   "yahooResults": 0,
+   "noHit": false,
+   "modelOnPage": null,
+   "keys": [
+    "Clara BW"
+   ],
+   "ads": null,
+   "items": 94,
+   "hits": 4,
+   "hitTitles": [
+    "KOBO｜コボ Kobo Clara Colour / Kobo Clara BW用 スリープカバー バターイエロー N365-AC-YL-E-PU",
+    "KOBO｜コボ Kobo Clara Colour / Kobo Clara BW用 スリープカバー ダスクブルー N365-AC-BL-E-PU",
+    "KOBO｜コボ Kobo Clara Colour / Kobo Clara BW用 スリープカバー バターイエロー N365-AC-YL-E-PU3,880円（税込）"
+   ],
+   "top": [
+    "KOBO｜コボ Kobo Clara Colour / BW用 スリープカバー ブラック N365-AC-BK-E-PU",
+    "KOBO｜コボ Kobo Clara Colour / BW用 スリープカバー グリーン N365-AC-GR-E-PU",
+    "KOBO｜コボ Kobo Clara Colour / BW用 ベーシックスリープカバー コバルトブルー N365-AC-BL-O-PU"
+   ],
+   "titleHit": true,
+   "h1": "【エントリーで最大全額ポイント還元｜11/25まで】 KOBO｜コボ 電子書籍リーダー Kobo Clara BW ブラック N365-KJ-BK-S-EP [6インチ /防水]",
+   "shot": "v05-rakuten.jpg"
+  },
+  {
+   "n": "06",
+   "store": "rakuten",
+   "name": "楽天Kobo Kobo Clara Colour",
+   "model": "",
+   "href": "https://hb.afl.rakuten.co.jp/hgc/587f2635.77bb335f.587f2636.e34c8733/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F17822117%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F17822117%2F",
+   "chain": [
+    "https://bid.g.doubleclick.net/xbbe/pixel?d=KAE",
+    "https://cm.g.doubleclick.net/partnerpixels?url=https%3A%2F%2Fbooks.rakuten.co.jp%2Frb%2F17822117%2F%3Fscid%3Daf_pc_etc%26sc2id%3Daf_101_0_0",
+    "https://4da07593eafe7b563f311089757bb205.safeframe.googlesyndication.com/safeframe/1-0-45/html/container.html",
+    "https://tg.socdm.com/aux/sosync",
+    "https://ep2.adtrafficquality.google/sodar/sodar2/257/runner.html",
+    "https://www.google.com/recaptcha/api2/aframe",
+    "https://books.rakuten.co.jp/rb/17822117/?scid=af_pc_etc&sc2id=af_101_0_0"
+   ],
+   "fin": "https://books.rakuten.co.jp/rb/17822117/?scid=af_pc_etc&sc2id=af_101_0_0",
+   "aff": "着いた先の URL に scid=af_pc_etc（楽天アフィリエイト経由の印）",
+   "found": "検索結果 0 件",
+   "buy": "その商品のページ（カートに入れるボタンあり）",
+   "title": "楽天ブックス: Kobo Clara Colour (ブラック) - 楽天Kobo - 4560470103794 : PCソフト・周辺機器",
+   "robot": false,
+   "cart": true,
+   "amazonResults": 0,
+   "rakutenResults": 0,
+   "yahooResults": 0,
+   "noHit": false,
+   "modelOnPage": null,
+   "keys": [
+    "Clara Colour"
+   ],
+   "ads": null,
+   "items": 1,
+   "hits": 0,
+   "hitTitles": [],
+   "top": [
+    "Kobo Libra Colour（ホワイト）"
+   ],
+   "titleHit": true,
+   "h1": "",
+   "shot": "v06-rakuten.jpg"
+  },
+  {
+   "n": "07",
+   "store": "rakuten",
+   "name": "楽天Kobo Kobo Libra Colour",
+   "model": "",
+   "href": "https://hb.afl.rakuten.co.jp/hgc/587f2635.77bb335f.587f2636.e34c8733/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F17822114%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F17822114%2F",
+   "chain": [
+    "https://cm.g.doubleclick.net/partnerpixels?url=https%3A%2F%2Fbooks.rakuten.co.jp%2Frb%2F17822114%2F%3Fscid%3Daf_pc_etc%26sc2id%3Daf_101_0_0",
+    "https://3b7f828f51d4a7a74d31ca36f02064f9.safeframe.googlesyndication.com/safeframe/1-0-45/html/container.html",
+    "https://tg.socdm.com/aux/sosync",
+    "https://googleads.g.doubleclick.net/pagead/drt/s?v=r20120211",
+    "https://www.google.com/pagead/drt/ui",
+    "https://googleads.g.doubleclick.net/pagead/drt/si?st=NO_DATA",
+    "https://ep2.adtrafficquality.google/sodar/sodar2/257/runner.html",
+    "https://www.google.com/recaptcha/api2/aframe",
+    "https://books.rakuten.co.jp/rb/17822114/?scid=af_pc_etc&sc2id=af_101_0_0"
+   ],
+   "fin": "https://books.rakuten.co.jp/rb/17822114/?scid=af_pc_etc&sc2id=af_101_0_0",
+   "aff": "着いた先の URL に scid=af_pc_etc（楽天アフィリエイト経由の印）",
+   "found": "検索結果 0 件",
+   "buy": "その商品のページ（カートに入れるボタンあり）",
+   "title": "楽天ブックス: Kobo Libra Colour（ホワイト） - 楽天Kobo - 4560470103770 : PCソフト・周辺機器",
+   "robot": false,
+   "cart": true,
+   "amazonResults": 0,
+   "rakutenResults": 0,
+   "yahooResults": 0,
+   "noHit": false,
+   "modelOnPage": null,
+   "keys": [
+    "Libra Colour"
+   ],
+   "ads": null,
+   "items": 1,
+   "hits": 0,
+   "hitTitles": [],
+   "top": [
+    "Kobo Clara Colour (ブラック)"
+   ],
+   "titleHit": true,
+   "h1": "",
+   "shot": "v07-rakuten.jpg"
+  },
+  {
+   "n": "08",
+   "store": "rakuten",
+   "name": "BOOX BOOX Go7（モノクロ）",
+   "model": "",
+   "href": "https://hb.afl.rakuten.co.jp/hgc/587f2635.77bb335f.587f2636.e34c8733/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsktn%2Fboox-go7g2%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fsktn%2Fboox-go7g2%2F",
+   "chain": [
+    "https://grp15.ias.rakuten.co.jp/gw.js?v=2&scid=af_pc_etc&sc2id=af_101_0_0",
+    "https://gum.criteo.com/syncframe?topUrl=grp15.ias.rakuten.co.jp&origin=onetag&ceid=0efef39a-c5ce-49c4-8dd5-1fb8bbaf578c",
+    "https://gum.criteo.com/syncframe?topUrl=grp15.ias.rakuten.co.jp&origin=onetag&ceid=6300fada-1700-45a0-b1cd-1982573d72ec",
+    "https://10275646.fls.doubleclick.net/activityi;src=10275646;type=cvwyb0;cat=n_xdy0;rcb=19;ord=6888348577136;npa=0;uaa=arm;uab=64;uafvl=Not%253DA%253FBrand%3B24.0.0.0%7CChromium%3B140.0.7339.207;uamb=0;uam=;uap=macOS;uapv=26.3.1;uaw=0;frm=2;_tu=IFA;gtm=45fe6bh1v9190901551za200zd9190901551xecxf1;gcd=13l3l3l3l1l1;dma=0;dc_fmt=2;tag_exp=115616985~115938466~115938468~120213116~120385423~120469145~120469153~121246026~121246034;epver=2;ref=https%3A%2F%2Fgrp15.ias.rakuten.co.jp%2Fgw.js%3Fv%3D2%26scid%3Daf_pc_etc%26sc2id%3Daf_101_0_0;dc_random=1795444059_RrSphix36nYqMHCUmPGr9f2zchiWOYwF9Q;_dc_test=1;~oref=https%3A%2F%2Fgrp15.ias.rakuten.co.jp%2Fgw.js%3Fv%3D2%26scid%3Daf_pc_etc%26sc2id%3Daf_101_0_0?",
+    "https://10275646.fls.doubleclick.net/activityi;dc_pre=CJXU9KqmnpgDFeBfAAYdb0kiJQ;src=10275646;type=cvwyb0;cat=n_xdy0;rcb=19;ord=6888348577136;npa=0;uaa=arm;uab=64;uafvl=Not%253DA%253FBrand%3B24.0.0.0%7CChromium%3B140.0.7339.207;uamb=0;uam=;uap=macOS;uapv=26.3.1;uaw=0;frm=2;_tu=IFA;gtm=45fe6bh1v9190901551za200zd9190901551xecxf1;gcd=13l3l3l3l1l1;dma=0;dc_fmt=2;tag_exp=115616985~115938466~115938468~120213116~120385423~120469145~120469153~121246026~121246034;epver=2;ref=https%3A%2F%2Fgrp15.ias.rakuten.co.jp%2Fgw.js%3Fv%3D2%26scid%3Daf_pc_etc%26sc2id%3Daf_101_0_0;dc_random=1795444059_RrSphix36nYqMHCUmPGr9f2zchiWOYwF9Q;_dc_test=1;~oref=https%3A%2F%2Fgrp15.ias.rakuten.co.jp%2Fgw.js%3Fv%3D2%26scid%3Daf_pc_etc%26sc2id%3Daf_101_0_0?",
+    "https://gum.criteo.com/syncframe?topUrl=grp15.ias.rakuten.co.jp&origin=onetag&ceid=8c9944ac-1efc-469d-b3be-f8ef564326cc",
+    "https://apps.rokt-api.com/wsdk/controller/index.2.27530.0.html",
+    "https://apps.rokt.com/wsdk/session-transfer/index.2.27530.0.html",
+    "https://apps.rokt-api.com/wsdk/plugins/dcui/index.html",
+    "https://item.rakuten.co.jp/sktn/boox-go7g2/?scid=af_pc_etc&sc2id=af_101_0_0"
+   ],
+   "fin": "https://item.rakuten.co.jp/sktn/boox-go7g2/?scid=af_pc_etc&sc2id=af_101_0_0",
+   "aff": "着いた先の URL に scid=af_pc_etc（楽天アフィリエイト経由の印）",
+   "found": "検索結果 0 件",
+   "buy": "その商品のページ（カートに入れるボタンあり）",
+   "title": "【楽天市場】【7インチ】BOOX Go7 Go7ColorGen2 7インチ 電子ペーパー タブレット カラー／モノクロ表示 Android13 軽量195g InkSensePl",
+   "robot": false,
+   "cart": true,
+   "amazonResults": 0,
+   "rakutenResults": 0,
+   "yahooResults": 0,
+   "noHit": false,
+   "modelOnPage": null,
+   "keys": [
+    "Go7"
+   ],
+   "ads": null,
+   "items": 16,
+   "hits": 1,
+   "hitTitles": [
+    "【BOOX正規品】 Go7 / Go Color7Gen2 /Palma2Pro対応　BOOX InkSense Plus スタイラス（サイドボタン付き）"
+   ],
+   "top": [
+    "BOOX",
+    "DASUNG",
+    "ディスプレイ"
+   ],
+   "titleHit": true,
+   "h1": "",
+   "shot": "v08-rakuten.jpg"
+  }
+ ]
+}

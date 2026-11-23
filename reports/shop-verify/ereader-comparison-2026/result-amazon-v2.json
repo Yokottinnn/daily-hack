@@ -1,0 +1,336 @@
+{
+ "slug": "ereader-comparison-2026",
+ "generated": "2026-11-23T14:29:46.920Z",
+ "total": 8,
+ "rows": [
+  {
+   "n": "01",
+   "store": "amazon",
+   "name": "Amazon Kindle Paperwhite（16GB）2026年モデル",
+   "model": "",
+   "href": "https://www.amazon.co.jp/dp/B0GV5VHTL6?tag=dailyhack-22",
+   "chain": [
+    "https://www.amazon.co.jp/dp/B0GV5VHTL6?tag=dailyhack-22"
+   ],
+   "fin": "https://www.amazon.co.jp/dp/B0GV5VHTL6?tag=dailyhack-22",
+   "aff": "着いた先の URL に tag=dailyhack-22（アソシエイトの印）",
+   "found": "検索結果 0 件",
+   "buy": "その商品のページ（カートに入れるボタンあり）",
+   "title": "Amazon | Kindle Paperwhite 16GB 最新モデル - より薄く、より軽い、7インチディスプレイ、色調調節ライト、グラファイト",
+   "robot": false,
+   "cart": true,
+   "amazonResults": 0,
+   "rakutenResults": 0,
+   "yahooResults": 0,
+   "noHit": false,
+   "modelOnPage": null,
+   "keys": [
+    "Paperwhite"
+   ],
+   "ads": null,
+   "items": 37,
+   "hits": 13,
+   "hitTitles": [
+    "Kindle Paperwhite",
+    "Kindle Paperwhite",
+    "【Kindle Paperwhite・Kindle Colorsoft (2026年発売) 用】Amazon純正 ファブリックカバー (グラファイト)"
+   ],
+   "top": [
+    "Kindle",
+    "Kindle Paperwhite",
+    "Kindle Paperwhite"
+   ],
+   "titleHit": true,
+   "h1": "Amazon Kindle Paperwhite 16GB 最新モデル - より薄く、より軽い、7インチディスプレイ、色調調節ライト、グラファイト",
+   "shot": "v01-amazon.jpg"
+  },
+  {
+   "n": "02",
+   "store": "amazon",
+   "name": "Amazon Kindle（16GB）2026年モデル",
+   "model": "",
+   "href": "https://www.amazon.co.jp/dp/B0G4SL3W21?tag=dailyhack-22",
+   "chain": [
+    "https://www.amazon.co.jp/dp/B0G4SL3W21?tag=dailyhack-22&th=1"
+   ],
+   "fin": "https://www.amazon.co.jp/dp/B0G4SL3W21?tag=dailyhack-22&th=1",
+   "aff": "着いた先の URL に tag=dailyhack-22（アソシエイトの印）",
+   "found": "検索結果 0 件",
+   "buy": "その商品のページ（カートに入れるボタンあり）",
+   "title": "Amazon | Kindle 16GB 最新モデル - より薄く、軽く、速い、6インチディスプレイ、グラファイト",
+   "robot": false,
+   "cart": true,
+   "amazonResults": 0,
+   "rakutenResults": 0,
+   "yahooResults": 0,
+   "noHit": false,
+   "modelOnPage": null,
+   "keys": [
+    "Kindle",
+    "16GB"
+   ],
+   "ads": null,
+   "items": 37,
+   "hits": 4,
+   "hitTitles": [
+    "【Kindle 16GB/32GB (2026年発売) 用】Amazon純正 ファブリックカバー (グラファイト)",
+    "【Kindle 16GB (2026年発売) 用】延長保証(2年)・事故保証(3年)プラン",
+    "【Kindle 16GB (2026年発売) 用】延長保証(2年)・事故保証(3年)プラン"
+   ],
+   "top": [
+    "Kindle",
+    "Kindle Paperwhite",
+    "Kindle Paperwhite"
+   ],
+   "titleHit": true,
+   "h1": "Amazon Kindle 16GB 最新モデル - より薄く、軽く、速い、6インチディスプレイ、グラファイト",
+   "shot": "v02-amazon.jpg"
+  },
+  {
+   "n": "03",
+   "store": "amazon",
+   "name": "Amazon Kindle Colorsoft（16GB）2026年モデル",
+   "model": "",
+   "href": "https://www.amazon.co.jp/dp/B0GV62167S?tag=dailyhack-22",
+   "chain": [
+    "https://www.amazon.co.jp/dp/B0GV62167S?tag=dailyhack-22"
+   ],
+   "fin": "https://www.amazon.co.jp/dp/B0GV62167S?tag=dailyhack-22",
+   "aff": "着いた先の URL に tag=dailyhack-22（アソシエイトの印）",
+   "found": "検索結果 0 件",
+   "buy": "その商品のページ（カートに入れるボタンあり）",
+   "title": "Amazon | Kindle Colorsoft 16GB 最新モデル - より薄く、より軽い、7インチカラーディスプレイ、色調調節ライト、グラファイト",
+   "robot": false,
+   "cart": true,
+   "amazonResults": 0,
+   "rakutenResults": 0,
+   "yahooResults": 0,
+   "noHit": false,
+   "modelOnPage": null,
+   "keys": [
+    "Colorsoft"
+   ],
+   "ads": null,
+   "items": 38,
+   "hits": 14,
+   "hitTitles": [
+    "Kindle Colorsoft",
+    "Kindle Colorsoft",
+    "Kindle Scribe Colorsoft"
+   ],
+   "top": [
+    "Kindle",
+    "Kindle Paperwhite",
+    "Kindle Paperwhite"
+   ],
+   "titleHit": true,
+   "h1": "Amazon Kindle Colorsoft 16GB 最新モデル - より薄く、より軽い、7インチカラーディスプレイ、色調調節ライト、グラファイト",
+   "shot": "v03-amazon.jpg"
+  },
+  {
+   "n": "04",
+   "store": "amazon",
+   "name": "Amazon Kindle Scribe（32GB）2026年モデル",
+   "model": "",
+   "href": "https://www.amazon.co.jp/dp/B0FC1PBJRB?tag=dailyhack-22",
+   "chain": [
+    "https://www.amazon.co.jp/dp/B0FC1PBJRB?tag=dailyhack-22&th=1"
+   ],
+   "fin": "https://www.amazon.co.jp/dp/B0FC1PBJRB?tag=dailyhack-22&th=1",
+   "aff": "着いた先の URL に tag=dailyhack-22（アソシエイトの印）",
+   "found": "検索結果 0 件",
+   "buy": "その商品のページ（カートに入れるボタンあり）",
+   "title": "Amazon.co.jp: New Amazon Kindle Scribe | 11インチディスプレイ、32GBストレージ、ノート機能搭載、明るさ自動調整、色調調節ライト、プレミ",
+   "robot": false,
+   "cart": true,
+   "amazonResults": 0,
+   "rakutenResults": 6,
+   "yahooResults": 0,
+   "noHit": false,
+   "modelOnPage": null,
+   "keys": [
+    "Scribe"
+   ],
+   "ads": null,
+   "items": 42,
+   "hits": 19,
+   "hitTitles": [
+    "Kindle Scribe Colorsoft",
+    "【Amazon Kindle Scribe (2026年発売) 用】保護フィルム ペーパータッチ ケント紙タイプ 反射防止 気泡レス加工 2枚入り",
+    "【Amazon Kindle Scribe (2026年発売) 用】Amazon純正 手帳型 プレミアムレザーカバー (グラファイト)"
+   ],
+   "top": [
+    "Kindle",
+    "Kindle Paperwhite",
+    "Kindle Paperwhite"
+   ],
+   "titleHit": true,
+   "h1": "New Amazon Kindle Scribe | 11インチディスプレイ、32GBストレージ、ノート機能搭載、明るさ自動調整、色調調節ライト、プレミアムペン付き、グラファイト",
+   "shot": "v04-amazon.jpg"
+  },
+  {
+   "n": "05",
+   "store": "amazon",
+   "name": "楽天Kobo Kobo Clara BW",
+   "model": "",
+   "href": "https://www.amazon.co.jp/dp/B0D4978BWY?tag=dailyhack-22",
+   "chain": [
+    "https://m.media-amazon.com/images/S/sash/jzEkkqgQ2QXA7oq.html",
+    "https://www.amazon.co.jp/dp/B0D4978BWY?tag=dailyhack-22"
+   ],
+   "fin": "https://www.amazon.co.jp/dp/B0D4978BWY?tag=dailyhack-22",
+   "aff": "着いた先の URL に tag=dailyhack-22（アソシエイトの印）",
+   "found": "検索結果 0 件",
+   "buy": "その商品のページ（カートに入れるボタンあり）",
+   "title": "Amazon.co.jp: Kobo Clara BW 電子書籍リーダー 6インチ 防水 ブラック | 【電子書籍リーダー,目に優しい,フロントライト,ブルーライト低減,IPX8防",
+   "robot": false,
+   "cart": true,
+   "amazonResults": 0,
+   "rakutenResults": 0,
+   "yahooResults": 0,
+   "noHit": false,
+   "modelOnPage": null,
+   "keys": [
+    "Clara BW"
+   ],
+   "ads": null,
+   "items": 27,
+   "hits": 4,
+   "hitTitles": [
+    "【セット品】 Kobo Clara BW ＋ スリープカバー ケース　ミスティーグリーン | 【電子書籍リーダー,純正ケースセット,6インチ,カラー対応,IPX8防水,目に優しいラ",
+    "【セット品】 Kobo Clara BW ＋ スリープカバー ケース ブラック | 【電子書籍リーダー,純正ケースセット,6インチ,カラー対応,IPX8防水,目に優しいライト,ブル",
+    "【FENUSL】For Kobo Clara BW (モデル N365)ケースカバー Kobo Clara Colourケース(モデル N367) 6インチ2024電子書籍リーダー"
+   ],
+   "top": [
+    "【セット品】 Kobo Clara BW ＋ スリープカバー ケース　ミスティーグリーン | 【電子書籍リーダー,純正ケースセット,6インチ,カラー対応,IPX8防水,目に優しいラ",
+    "【セット品】 Kobo Clara BW ＋ スリープカバー ケース ブラック | 【電子書籍リーダー,純正ケースセット,6インチ,カラー対応,IPX8防水,目に優しいライト,ブル",
+    "【FENUSL】For Kobo Clara BW (モデル N365)ケースカバー Kobo Clara Colourケース(モデル N367) 6インチ2024電子書籍リーダー"
+   ],
+   "titleHit": true,
+   "h1": "商品概要には、主要な商品情報が記載されています \nキーボードショートカット  Shift + opt + D",
+   "shot": "v05-amazon.jpg"
+  },
+  {
+   "n": "06",
+   "store": "amazon",
+   "name": "楽天Kobo Kobo Clara Colour",
+   "model": "",
+   "href": "https://www.amazon.co.jp/dp/B0D5D1DXZY?tag=dailyhack-22",
+   "chain": [
+    "https://m.media-amazon.com/images/S/sash/jzEkkqgQ2QXA7oq.html",
+    "https://www.amazon.co.jp/dp/B0D5D1DXZY?tag=dailyhack-22&th=1"
+   ],
+   "fin": "https://www.amazon.co.jp/dp/B0D5D1DXZY?tag=dailyhack-22&th=1",
+   "aff": "着いた先の URL に tag=dailyhack-22（アソシエイトの印）",
+   "found": "検索結果 0 件",
+   "buy": "その商品のページ（カートに入れるボタンあり）",
+   "title": "Amazon.co.jp: Kobo Clara Colour カラー 電子書籍リーダー 6インチ 防水 ブラック | 【カラー対応電子書籍リーダー,目に優しい,フロントライト,ブ",
+   "robot": false,
+   "cart": true,
+   "amazonResults": 0,
+   "rakutenResults": 0,
+   "yahooResults": 0,
+   "noHit": false,
+   "modelOnPage": null,
+   "keys": [
+    "Clara Colour"
+   ],
+   "ads": null,
+   "items": 28,
+   "hits": 5,
+   "hitTitles": [
+    "【セット品】 Kobo Clara Colour ブラック ＋ スリープカバー ケース　ミスティーグリーン | 【電子書籍リーダー,純正ケースセット,6インチ,カラー対応目に優しい",
+    "【セット品】 Kobo Clara Colour ブラック ＋ スリープカバー ケース　ブラック | 【電子書籍リーダー,純正ケースセット,6インチ,カラー対応目に優しいライト,I",
+    "【2 枚セット】Larfbulroc Kobo Clara Colour 用 ガラスフィルム 日本製素材旭硝子製 高硬度 9H 高透過率 耐衝撃 防塵 飛散防止 指紋防止 画面鮮や"
+   ],
+   "top": [
+    "【セット品】 Kobo Clara Colour ブラック ＋ スリープカバー ケース　ミスティーグリーン | 【電子書籍リーダー,純正ケースセット,6インチ,カラー対応目に優しい",
+    "【セット品】 Kobo Clara Colour ブラック ＋ スリープカバー ケース　ブラック | 【電子書籍リーダー,純正ケースセット,6インチ,カラー対応目に優しいライト,I",
+    "【2 枚セット】Larfbulroc Kobo Clara Colour 用 ガラスフィルム 日本製素材旭硝子製 高硬度 9H 高透過率 耐衝撃 防塵 飛散防止 指紋防止 画面鮮や"
+   ],
+   "titleHit": true,
+   "h1": "商品概要には、主要な商品情報が記載されています \nキーボードショートカット  Shift + opt + D",
+   "shot": "v06-amazon.jpg"
+  },
+  {
+   "n": "07",
+   "store": "amazon",
+   "name": "楽天Kobo Kobo Libra Colour",
+   "model": "",
+   "href": "https://www.amazon.co.jp/dp/B0D5HSRM75?tag=dailyhack-22",
+   "chain": [
+    "https://m.media-amazon.com/images/S/sash/jzEkkqgQ2QXA7oq.html",
+    "https://www.amazon.co.jp/dp/B0D5HSRM75?tag=dailyhack-22&th=1"
+   ],
+   "fin": "https://www.amazon.co.jp/dp/B0D5HSRM75?tag=dailyhack-22&th=1",
+   "aff": "着いた先の URL に tag=dailyhack-22（アソシエイトの印）",
+   "found": "検索結果 0 件",
+   "buy": "その商品のページ（カートに入れるボタンあり）",
+   "title": "Amazon.co.jp: Kobo Libra Colour カラー 電子書籍リーダー 7インチ 防水 ブラック | 【カラー対応電子書籍リーダー,7インチ大画面,見開き表示対応",
+   "robot": false,
+   "cart": true,
+   "amazonResults": 0,
+   "rakutenResults": 0,
+   "yahooResults": 0,
+   "noHit": false,
+   "modelOnPage": null,
+   "keys": [
+    "Libra Colour"
+   ],
+   "ads": null,
+   "items": 30,
+   "hits": 7,
+   "hitTitles": [
+    "【セット品】 Kobo Libra Colour ブラック ＋ スリープカバー ケース　ブラック | 【電子書籍リーダー,純正ケースセット,7インチ大画面,カラー対応,見開き表示,",
+    "【セット品】 Kobo Libra Colour ブラック ＋ スリープカバー ケース ノートブック型 ブラック | 【電子書籍リーダー,ノートブック型ケースセット,7インチ大画面",
+    "【セット品】 Kobo Libra Colour ブラック ＋ Kobo スタイラス2 ブラック | 【電子書籍リーダー,スタイラスペンセット,7インチ大画面,カラー対応,手書きメ"
+   ],
+   "top": [
+    "【セット品】 Kobo Libra Colour ブラック ＋ スリープカバー ケース　ブラック | 【電子書籍リーダー,純正ケースセット,7インチ大画面,カラー対応,見開き表示,",
+    "【セット品】 Kobo Libra Colour ブラック ＋ スリープカバー ケース ノートブック型 ブラック | 【電子書籍リーダー,ノートブック型ケースセット,7インチ大画面",
+    "【セット品】 Kobo Libra Colour ブラック ＋ Kobo スタイラス2 ブラック | 【電子書籍リーダー,スタイラスペンセット,7インチ大画面,カラー対応,手書きメ"
+   ],
+   "titleHit": true,
+   "h1": "商品概要には、主要な商品情報が記載されています \nキーボードショートカット  Shift + opt + D",
+   "shot": "v07-amazon.jpg"
+  },
+  {
+   "n": "08",
+   "store": "amazon",
+   "name": "BOOX BOOX Go7（モノクロ）",
+   "model": "",
+   "href": "https://www.amazon.co.jp/dp/B0FPL3M2CP?tag=dailyhack-22",
+   "chain": [
+    "https://m.media-amazon.com/images/S/sash/jzEkkqgQ2QXA7oq.html",
+    "https://www.amazon.co.jp/dp/B0FPL3M2CP?tag=dailyhack-22&th=1"
+   ],
+   "fin": "https://www.amazon.co.jp/dp/B0FPL3M2CP?tag=dailyhack-22&th=1",
+   "aff": "着いた先の URL に tag=dailyhack-22（アソシエイトの印）",
+   "found": "検索結果 0 件",
+   "buy": "その商品のページ（カートに入れるボタンあり）",
+   "title": "Amazon.co.jp: BOOX Go 7電子書籍リーダー 7インチ 白黒 64GB 300ppi Android 13 フロントライト BT WiFi (ブラック) : パソ",
+   "robot": false,
+   "cart": true,
+   "amazonResults": 0,
+   "rakutenResults": 0,
+   "yahooResults": 0,
+   "noHit": false,
+   "modelOnPage": null,
+   "keys": [
+    "Go7"
+   ],
+   "ads": null,
+   "items": 19,
+   "hits": 0,
+   "hitTitles": [],
+   "top": [
+    "BOOX Go Color 7 フリップケース マグネット式 自動スリープ/ウェイク (ブラック)",
+    "BOOX InkSense Plus アクティブスタイラスペン",
+    "https://www.amazon.co.jp/dp/B0FPL3M2CP"
+   ],
+   "titleHit": true,
+   "h1": "BOOX Go 7電子書籍リーダー 7インチ 白黒 64GB 300ppi Android 13 フロントライト BT WiFi (ブラック)",
+   "shot": "v08-amazon.jpg"
+  }
+ ]
+}
