@@ -76,10 +76,15 @@ for (const f of fs.readdirSync(DIR).filter((x) => x.endsWith('.json') && x !== '
       const q = it[store];
       if (!q || !q.keyword) continue;
       try { row[store] = await fn(q); } catch (e) { row[store] = { error: String(e.message || e).slice(0, 200) }; out.errors.push(`${sid}/${it.id}/${store}: ${row[store].error}`); }
-      await sleep(1100);
+      // 2026-11-23 affiliate: 鍵が無くて問い合わせなかった店（いまは楽天）は待たない。商品が 283 件に増え、
+      // 待ち時間だけで 10 分を超えて Mac の上限（mac-weekly の 300 秒）で止められ、11/23 の朝の価格が出なかった
+      if (!(row[store] && row[store].skipped)) await sleep(1100);
     }
     out.series[sid][it.id] = row;
   }
+  // 途中で止められても、そこまでの分が残るように 1 シリーズごとに書く（全部外れのファイルは mac-weekly 側で採らない）
+  fs.mkdirSync(path.dirname(OUT), { recursive: true });
+  fs.writeFileSync(OUT, JSON.stringify(out, null, 1) + '\n');
 }
 fs.mkdirSync(path.dirname(OUT), { recursive: true });
 fs.writeFileSync(OUT, JSON.stringify(out, null, 1) + '\n');
