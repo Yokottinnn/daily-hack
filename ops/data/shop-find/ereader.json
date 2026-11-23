@@ -1,0 +1,661 @@
+{
+ "id": "ereader",
+ "title": "電子書籍リーダー（Kindle と Kobo のどちらか・カラーは要るか・お風呂で読めるか）",
+ "_note": "下書き（find-product-pages 用）",
+ "columns": [],
+ "pricesCheckedAt": null,
+ "items": [
+  {
+   "id": "kindle-16gb",
+   "brand": "Amazon",
+   "name": "Kindle（16GB）2026年モデル",
+   "badge": "",
+   "summary": "",
+   "recommended": false,
+   "specs": {},
+   "source": "",
+   "rakuten": {
+    "keyword": "Kindle 16GB 2026",
+    "must": [
+     "Kindle",
+     "16GB"
+    ],
+    "exclude": [
+     "中古",
+     "◆",
+     "並行輸入",
+     "交換",
+     "部品",
+     "専用",
+     "対応",
+     "アクセサリー",
+     "カバー",
+     "ケース",
+     "フィルム",
+     "保護",
+     "スリーブ",
+     "スタイラス",
+     "ペン",
+     "セット",
+     "ジャンク",
+     "訳あり",
+     "レンタル",
+     "整備済",
+     "リファービッシュ",
+     "キッズ",
+     "Kids",
+     "Paperwhite",
+     "ペーパーホワイト",
+     "Colorsoft",
+     "カラーソフト",
+     "Scribe",
+     "スクライブ",
+     "32GB"
+    ]
+   },
+   "yahoo": {
+    "keyword": "Kindle 16GB 2026",
+    "must": [
+     "Kindle",
+     "16GB"
+    ],
+    "exclude": [
+     "中古",
+     "◆",
+     "並行輸入",
+     "交換",
+     "部品",
+     "専用",
+     "対応",
+     "アクセサリー",
+     "カバー",
+     "ケース",
+     "フィルム",
+     "保護",
+     "スリーブ",
+     "スタイラス",
+     "ペン",
+     "セット",
+     "ジャンク",
+     "訳あり",
+     "レンタル",
+     "整備済",
+     "リファービッシュ",
+     "キッズ",
+     "Kids",
+     "Paperwhite",
+     "ペーパーホワイト",
+     "Colorsoft",
+     "カラーソフト",
+     "Scribe",
+     "スクライブ",
+     "32GB"
+    ]
+   },
+   "amazon": {
+    "keyword": "Kindle 16GB 2026",
+    "asin": null
+   }
+  },
+  {
+   "id": "kindle-paperwhite",
+   "brand": "Amazon",
+   "name": "Kindle Paperwhite 2026年モデル",
+   "badge": "",
+   "summary": "",
+   "recommended": false,
+   "specs": {},
+   "source": "",
+   "rakuten": {
+    "keyword": "Kindle Paperwhite 2026",
+    "must": [
+     "Paperwhite"
+    ],
+    "exclude": [
+     "中古",
+     "◆",
+     "並行輸入",
+     "交換",
+     "部品",
+     "専用",
+     "対応",
+     "アクセサリー",
+     "カバー",
+     "ケース",
+     "フィルム",
+     "保護",
+     "スリーブ",
+     "スタイラス",
+     "ペン",
+     "セット",
+     "ジャンク",
+     "訳あり",
+     "レンタル",
+     "整備済",
+     "リファービッシュ",
+     "キッズ",
+     "Kids",
+     "シグニチャー",
+     "Signature",
+     "Colorsoft",
+     "Scribe"
+    ]
+   },
+   "yahoo": {
+    "keyword": "Kindle Paperwhite 2026",
+    "must": [
+     "Paperwhite"
+    ],
+    "exclude": [
+     "中古",
+     "◆",
+     "並行輸入",
+     "交換",
+     "部品",
+     "専用",
+     "対応",
+     "アクセサリー",
+     "カバー",
+     "ケース",
+     "フィルム",
+     "保護",
+     "スリーブ",
+     "スタイラス",
+     "ペン",
+     "セット",
+     "ジャンク",
+     "訳あり",
+     "レンタル",
+     "整備済",
+     "リファービッシュ",
+     "キッズ",
+     "Kids",
+     "シグニチャー",
+     "Signature",
+     "Colorsoft",
+     "Scribe"
+    ]
+   },
+   "amazon": {
+    "keyword": "Kindle Paperwhite 2026",
+    "asin": null
+   }
+  },
+  {
+   "id": "kindle-colorsoft",
+   "brand": "Amazon",
+   "name": "Kindle Colorsoft 2026年モデル",
+   "badge": "",
+   "summary": "",
+   "recommended": false,
+   "specs": {},
+   "source": "",
+   "rakuten": {
+    "keyword": "Kindle Colorsoft 2026",
+    "must": [
+     "Colorsoft"
+    ],
+    "exclude": [
+     "中古",
+     "◆",
+     "並行輸入",
+     "交換",
+     "部品",
+     "専用",
+     "対応",
+     "アクセサリー",
+     "カバー",
+     "ケース",
+     "フィルム",
+     "保護",
+     "スリーブ",
+     "スタイラス",
+     "ペン",
+     "セット",
+     "ジャンク",
+     "訳あり",
+     "レンタル",
+     "整備済",
+     "リファービッシュ",
+     "キッズ",
+     "Kids",
+     "Scribe",
+     "シグニチャー",
+     "Signature"
+    ]
+   },
+   "yahoo": {
+    "keyword": "Kindle Colorsoft 2026",
+    "must": [
+     "Colorsoft"
+    ],
+    "exclude": [
+     "中古",
+     "◆",
+     "並行輸入",
+     "交換",
+     "部品",
+     "専用",
+     "対応",
+     "アクセサリー",
+     "カバー",
+     "ケース",
+     "フィルム",
+     "保護",
+     "スリーブ",
+     "スタイラス",
+     "ペン",
+     "セット",
+     "ジャンク",
+     "訳あり",
+     "レンタル",
+     "整備済",
+     "リファービッシュ",
+     "キッズ",
+     "Kids",
+     "Scribe",
+     "シグニチャー",
+     "Signature"
+    ]
+   },
+   "amazon": {
+    "keyword": "Kindle Colorsoft 2026",
+    "asin": null
+   }
+  },
+  {
+   "id": "kindle-scribe",
+   "brand": "Amazon",
+   "name": "Kindle Scribe 2026年モデル",
+   "badge": "",
+   "summary": "",
+   "recommended": false,
+   "specs": {},
+   "source": "",
+   "rakuten": {
+    "keyword": "Kindle Scribe 2026",
+    "must": [
+     "Scribe"
+    ],
+    "exclude": [
+     "中古",
+     "◆",
+     "並行輸入",
+     "交換",
+     "部品",
+     "専用",
+     "対応",
+     "アクセサリー",
+     "カバー",
+     "ケース",
+     "フィルム",
+     "保護",
+     "スリーブ",
+     "スタイラス",
+     "ペン",
+     "セット",
+     "ジャンク",
+     "訳あり",
+     "レンタル",
+     "整備済",
+     "リファービッシュ",
+     "キッズ",
+     "Kids",
+     "Colorsoft",
+     "フロントライト非搭載"
+    ]
+   },
+   "yahoo": {
+    "keyword": "Kindle Scribe 2026",
+    "must": [
+     "Scribe"
+    ],
+    "exclude": [
+     "中古",
+     "◆",
+     "並行輸入",
+     "交換",
+     "部品",
+     "専用",
+     "対応",
+     "アクセサリー",
+     "カバー",
+     "ケース",
+     "フィルム",
+     "保護",
+     "スリーブ",
+     "スタイラス",
+     "ペン",
+     "セット",
+     "ジャンク",
+     "訳あり",
+     "レンタル",
+     "整備済",
+     "リファービッシュ",
+     "キッズ",
+     "Kids",
+     "Colorsoft",
+     "フロントライト非搭載"
+    ]
+   },
+   "amazon": {
+    "keyword": "Kindle Scribe 2026",
+    "asin": null
+   }
+  },
+  {
+   "id": "kobo-clara-bw",
+   "brand": "楽天Kobo",
+   "name": "Kobo Clara BW",
+   "badge": "",
+   "summary": "",
+   "recommended": false,
+   "specs": {},
+   "source": "",
+   "rakuten": {
+    "keyword": "Kobo Clara BW",
+    "must": [
+     "Clara BW"
+    ],
+    "exclude": [
+     "中古",
+     "◆",
+     "並行輸入",
+     "交換",
+     "部品",
+     "専用",
+     "対応",
+     "アクセサリー",
+     "カバー",
+     "ケース",
+     "フィルム",
+     "保護",
+     "スリーブ",
+     "スタイラス",
+     "ペン",
+     "セット",
+     "ジャンク",
+     "訳あり",
+     "レンタル",
+     "整備済",
+     "リファービッシュ",
+     "キッズ",
+     "Kids",
+     "Colour"
+    ]
+   },
+   "yahoo": {
+    "keyword": "Kobo Clara BW",
+    "must": [
+     "Clara BW"
+    ],
+    "exclude": [
+     "中古",
+     "◆",
+     "並行輸入",
+     "交換",
+     "部品",
+     "専用",
+     "対応",
+     "アクセサリー",
+     "カバー",
+     "ケース",
+     "フィルム",
+     "保護",
+     "スリーブ",
+     "スタイラス",
+     "ペン",
+     "セット",
+     "ジャンク",
+     "訳あり",
+     "レンタル",
+     "整備済",
+     "リファービッシュ",
+     "キッズ",
+     "Kids",
+     "Colour"
+    ]
+   },
+   "amazon": {
+    "keyword": "Kobo Clara BW",
+    "asin": null
+   }
+  },
+  {
+   "id": "kobo-clara-colour",
+   "brand": "楽天Kobo",
+   "name": "Kobo Clara Colour",
+   "badge": "",
+   "summary": "",
+   "recommended": false,
+   "specs": {},
+   "source": "",
+   "rakuten": {
+    "keyword": "Kobo Clara Colour",
+    "must": [
+     "Clara Colour"
+    ],
+    "exclude": [
+     "中古",
+     "◆",
+     "並行輸入",
+     "交換",
+     "部品",
+     "専用",
+     "対応",
+     "アクセサリー",
+     "カバー",
+     "ケース",
+     "フィルム",
+     "保護",
+     "スリーブ",
+     "スタイラス",
+     "ペン",
+     "セット",
+     "ジャンク",
+     "訳あり",
+     "レンタル",
+     "整備済",
+     "リファービッシュ",
+     "キッズ",
+     "Kids",
+     "BW"
+    ]
+   },
+   "yahoo": {
+    "keyword": "Kobo Clara Colour",
+    "must": [
+     "Clara Colour"
+    ],
+    "exclude": [
+     "中古",
+     "◆",
+     "並行輸入",
+     "交換",
+     "部品",
+     "専用",
+     "対応",
+     "アクセサリー",
+     "カバー",
+     "ケース",
+     "フィルム",
+     "保護",
+     "スリーブ",
+     "スタイラス",
+     "ペン",
+     "セット",
+     "ジャンク",
+     "訳あり",
+     "レンタル",
+     "整備済",
+     "リファービッシュ",
+     "キッズ",
+     "Kids",
+     "BW"
+    ]
+   },
+   "amazon": {
+    "keyword": "Kobo Clara Colour",
+    "asin": null
+   }
+  },
+  {
+   "id": "kobo-libra-colour",
+   "brand": "楽天Kobo",
+   "name": "Kobo Libra Colour",
+   "badge": "",
+   "summary": "",
+   "recommended": false,
+   "specs": {},
+   "source": "",
+   "rakuten": {
+    "keyword": "Kobo Libra Colour",
+    "must": [
+     "Libra Colour"
+    ],
+    "exclude": [
+     "中古",
+     "◆",
+     "並行輸入",
+     "交換",
+     "部品",
+     "専用",
+     "対応",
+     "アクセサリー",
+     "カバー",
+     "ケース",
+     "フィルム",
+     "保護",
+     "スリーブ",
+     "スタイラス",
+     "ペン",
+     "セット",
+     "ジャンク",
+     "訳あり",
+     "レンタル",
+     "整備済",
+     "リファービッシュ",
+     "キッズ",
+     "Kids"
+    ]
+   },
+   "yahoo": {
+    "keyword": "Kobo Libra Colour",
+    "must": [
+     "Libra Colour"
+    ],
+    "exclude": [
+     "中古",
+     "◆",
+     "並行輸入",
+     "交換",
+     "部品",
+     "専用",
+     "対応",
+     "アクセサリー",
+     "カバー",
+     "ケース",
+     "フィルム",
+     "保護",
+     "スリーブ",
+     "スタイラス",
+     "ペン",
+     "セット",
+     "ジャンク",
+     "訳あり",
+     "レンタル",
+     "整備済",
+     "リファービッシュ",
+     "キッズ",
+     "Kids"
+    ]
+   },
+   "amazon": {
+    "keyword": "Kobo Libra Colour",
+    "asin": null
+   }
+  },
+  {
+   "id": "boox-go7",
+   "brand": "BOOX",
+   "name": "BOOX Go7（モノクロ）",
+   "badge": "",
+   "summary": "",
+   "recommended": false,
+   "specs": {},
+   "source": "",
+   "rakuten": {
+    "keyword": "BOOX Go7",
+    "must": [
+     "Go7"
+    ],
+    "exclude": [
+     "中古",
+     "◆",
+     "並行輸入",
+     "交換",
+     "部品",
+     "専用",
+     "対応",
+     "アクセサリー",
+     "カバー",
+     "ケース",
+     "フィルム",
+     "保護",
+     "スリーブ",
+     "スタイラス",
+     "ペン",
+     "セット",
+     "ジャンク",
+     "訳あり",
+     "レンタル",
+     "整備済",
+     "リファービッシュ",
+     "キッズ",
+     "Kids",
+     "GoColor7",
+     "Go Color",
+     "Gen1"
+    ]
+   },
+   "yahoo": {
+    "keyword": "BOOX Go7",
+    "must": [
+     "Go7"
+    ],
+    "exclude": [
+     "中古",
+     "◆",
+     "並行輸入",
+     "交換",
+     "部品",
+     "専用",
+     "対応",
+     "アクセサリー",
+     "カバー",
+     "ケース",
+     "フィルム",
+     "保護",
+     "スリーブ",
+     "スタイラス",
+     "ペン",
+     "セット",
+     "ジャンク",
+     "訳あり",
+     "レンタル",
+     "整備済",
+     "リファービッシュ",
+     "キッズ",
+     "Kids",
+     "GoColor7",
+     "Go Color",
+     "Gen1"
+    ]
+   },
+   "amazon": {
+    "keyword": "BOOX Go7",
+    "asin": null
+   }
+  }
+ ]
+}
