@@ -1,0 +1,16 @@
+{
+ "guide-cover.jpg": {
+  "src": "https://www.city.chuo.lg.jp/documents/4869/gakudo01.pdf",
+  "page": "https://www.city.chuo.lg.jp/a0025/kosodate/kosodate/shien/ibashozukuri/gakudo/gakudokurabu.html",
+  "note": "小学生の放課後等の居場所ご案内 令和9年度版 1ページ（200dpiで画像にした）。表紙の元",
+  "credit": "中央区",
+  "fetched": "2026-11-24"
+ },
+ "facility-list.jpg": {
+  "src": "https://www.city.chuo.lg.jp/documents/4869/gakudo01.pdf",
+  "page": "https://www.city.chuo.lg.jp/a0025/kosodate/kosodate/shien/ibashozukuri/gakudo/gakudokurabu.html",
+  "note": "同 15ページ 施設一覧（110dpi）",
+  "credit": "中央区",
+  "fetched": "2026-11-24"
+ }
+}

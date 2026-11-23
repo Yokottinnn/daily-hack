@@ -1,0 +1,23 @@
+{
+ "notice.jpg": {
+  "src": "https://pbs.twimg.com/media/HXeLH-WasAAZlvN.jpg",
+  "page": "https://x.com/shibaura_it/status/2123318722719019325",
+  "note": "フラワーガーデン苗の無料配布のお知らせ（1枚目）",
+  "credit": "画像：芝浦工業大学【公式】のX",
+  "fetched": "2026-11-24"
+ },
+ "map.jpg": {
+  "src": "https://pbs.twimg.com/media/HXeLH-XbUAEpcOm.jpg",
+  "page": "https://x.com/shibaura_it/status/2123318722719019325",
+  "note": "配布場所・日時・注意（2枚目）",
+  "credit": "画像：芝浦工業大学【公式】のX",
+  "fetched": "2026-11-24"
+ },
+ "garden.jpg": {
+  "src": "https://pbs.twimg.com/media/HXeLH-Ya0AA_iku.jpg",
+  "page": "https://x.com/shibaura_it/status/2123318722719019325",
+  "note": "大階段フラワーガーデンの写真（3枚目）。表紙の元",
+  "credit": "画像：芝浦工業大学【公式】のX",
+  "fetched": "2026-11-24"
+ }
+}
