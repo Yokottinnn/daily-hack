@@ -372,7 +372,63 @@ Amazon のブラックフライデーは、先行セールが2026年11月27日�
   <figcaption>付いてくるライトをポールに付けて、夜のキャンプで使う例。<cite>画像：<a href="https://www.ankerjapan.com/products/a1754" target="_blank" rel="noopener">Anker Japan 公式</a></cite></figcaption>
 </figure>
 
-<!-- SNS-VOICES -->
+## 実際に使った人の声と動画｜どれくらい減ったか
+
+カタログの「何時間」が実際にどうだったかを、使っている人の投稿と動画で確かめておく。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">夏ボでAnkerのポータブル電池(Solix C300)を買いました 3人一泊二日のキャンプでスマホとタブレットを充電して、テントの換気に一晩ファンを回して帰宅したら残り30%くらいだった 静岡は暑かったのでテントに換気ファンを使えて非常に助かった 同じシリーズのDCのみの方が安くていいかも</p>&mdash; ななよう (@nanayoh) <a href="https://twitter.com/nanayoh/status/2082472245402935447">2026年7月29日</a></blockquote>
+
+**288Whで、3人のスマホとタブレットの充電と、ひと晩の換気ファンを回して残り約30%**。ACつきの C300 の声で、「DCだけのほう（C300 DC）が安くていいかも」とも書いている。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">３つ目のポータブル電源としてAnker SOLIX C300 DCを1.7万円で手に入れた TRIAL 300Dも単価が安いけどおうちWebに放り込めないしC300 DCにした</p>&mdash; K (@rmc_km) <a href="https://twitter.com/rmc_km/status/2089624787085611077">2026年8月18日</a></blockquote>
+
+**C300 DC を1.7万円で買った**という声。セールの時期には公式ストアの表示よりさらに下がることがある。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">開封の儀🤔 ジャクリの300D買いました😆以外と小さいし軽くて持ち運び楽そう🤭 今年はキャンプ多めにいきたいから楽しみや🤭 ケース買わないとね🤔 #ジャクリ #ポータブル電源 #キャンプ</p>&mdash; 🏕気まぐれソロキャンパー🏕️ (@kimaguresolocam) <a href="https://twitter.com/kimaguresolocam/status/2084939805713215883">2026年8月5日</a></blockquote>
+
+Jackery 300D を開けて「**意外と小さいし軽い**」という感想。ソロキャンプ用に選んでいる。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">Jackery 500 Newのライト、思ったより減らない💡 12時間32分つけっぱなしにして、 減ったのは15％。 えっ、まだ85％も残ってる👀 単純計算すると、 約84時間＝約3日半 停電が長引いたとき、 「灯り、あと何時間もつ？」って かなり気になると思うんですよね</p>&mdash; こたけまる｜暮らしの検証家🔍 (@kotakemaru_blog) <a href="https://twitter.com/kotakemaru_blog/status/2094734510927774132">2026年9月1日</a></blockquote>
+
+**Jackery 500 New の本体のライトを12時間32分つけて、減ったのは15%**。停電のときの灯りなら、本体のライトだけで数日もつという実験。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">防災用ポータブル電源。 「置いてあるから大丈夫」と思っていました。 でも、うちのEcoFlow RIVER 2 Proをスリープ状態で5日間置いたら、残量が30％減っていました。 停電当日に空っぽでは、ただの重い箱です。 保管前は電源OFF、月1回は残量確認。</p>&mdash; ワット博士＠失敗しないポタ電選び (@watt_hakase) <a href="https://twitter.com/watt_hakase/status/2076049127650283943">2026年7月12日</a></blockquote>
+
+**RIVER 2 Pro をスリープのまま5日置いたら30%減った**という声。防災用にしまうなら、電源を切って、月に1回は残りを確かめる。
+
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/xxvCAbebky4" title="【警告】これ知らないとポタ電選びで後悔します！容量別のポタ電で同じ家電を使ってみた結果（備蓄パパしんたろう【防災】）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+容量のちがうポータブル電源で同じ家電を使って比べている。この記事の「何Wh要るか」と同じ問い。
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/_f-arbWzcRI" title="ガジェット充電の革命ギア！モバイル専用ポタ電が手軽で便利すぎた。Jackery 300Dレビュー（ニノ / MONOTIVE）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+AC の口が無い Jackery 300D を、スマホやPCの充電用として使ったレビュー。
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/cc1ZYW9GI8E" title="【忖度なし】Jackery ポータブル電源 500 Newで500W電子レンジは使えるのか！？【適材適所】（防災士うさ夫のキャンプ / usao camp）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+AC 500W の Jackery 500 New で、500Wの電子レンジが動くかを試している。出力ぎりぎりの家電を使うときの参考になる。
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/nXacUhKkQMI" title="激安ポタ電3.5万円から？EcoFlow RIVER 2 Proの3か月レビュー（安いVtuberな熊野しゃけ子）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+EcoFlow RIVER 2 Pro を3か月使ったレビュー（車中泊）。
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/NLgpJeKhDsM" title="Anker新作！中型768Whの収納式ライト付きポータブル電源がキタ！(Anker Solix C800 Plus Portable Power Station)（ともさん）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+Anker Solix C800 Plus の天面のライトとポールを見せている。
+
+<p class="source-note">引用した X の投稿は、2026年11月24日に本文・投稿者・日付を確かめたもの。埋め込んだ YouTube は oEmbed でタイトルと投稿者を照合し、実在を確かめたもの。どちらも投稿した人の個人の感想・撮影時点の内容で、この記事の数字とは別のもの。</p>
 
 ## 向いている人・向かない人｜6台をどう分けるか
 

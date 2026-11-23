@@ -70,7 +70,8 @@
           "C300X",
           "C1000",
           "C800"
-        ]
+        ],
+        "itemUrl": "https://item.rakuten.co.jp/anker/a17265z1/"
       },
       "yahoo": {
         "keyword": "Anker Solix C300 DC",
@@ -101,7 +102,7 @@
       },
       "amazon": {
         "keyword": "Anker Solix C300 DC",
-        "asin": null
+        "asin": "B0D5XCRK6K"
       }
     },
     {
@@ -142,7 +143,8 @@
           "300 Plus",
           "300Plus",
           "300 New"
-        ]
+        ],
+        "itemUrl": "https://item.rakuten.co.jp/jackery-japan/21-0001-000359/"
       },
       "yahoo": {
         "keyword": "Jackery ポータブル電源 300D",
@@ -214,7 +216,8 @@
           "Pro",
           "1000",
           "500"
-        ]
+        ],
+        "itemUrl": "https://item.rakuten.co.jp/jackery-japan/n-p-240200-bkor-jk2/"
       },
       "yahoo": {
         "keyword": "Jackery ポータブル電源 240 New",
@@ -245,7 +248,7 @@
       },
       "amazon": {
         "keyword": "Jackery ポータブル電源 240 New",
-        "asin": null
+        "asin": "B0CZ7145K1"
       }
     },
     {
@@ -288,7 +291,8 @@
           "Pro",
           "1000",
           "240"
-        ]
+        ],
+        "itemUrl": "https://item.rakuten.co.jp/jackery-japan/n-p-400200-bkor-jk2/"
       },
       "yahoo": {
         "keyword": "Jackery ポータブル電源 500 New",
@@ -319,7 +323,7 @@
       },
       "amazon": {
         "keyword": "Jackery ポータブル電源 500 New",
-        "asin": null
+        "asin": "B0FBRK8GSP"
       }
     },
     {
@@ -364,7 +368,8 @@
           "MAX",
           "RIVER 3",
           "DELTA"
-        ]
+        ],
+        "itemUrl": "https://item.rakuten.co.jp/lamd/4895251601610/"
       },
       "yahoo": {
         "keyword": "EcoFlow RIVER 2 Pro",
@@ -439,7 +444,8 @@
           "C1000",
           "C300",
           "PS"
-        ]
+        ],
+        "itemUrl": "https://item.rakuten.co.jp/anker/a1754/"
       },
       "yahoo": {
         "keyword": "Anker Solix C800 Plus",
@@ -469,7 +475,7 @@
       },
       "amazon": {
         "keyword": "Anker Solix C800 Plus",
-        "asin": null
+        "asin": "B0C6MK4TW4"
       }
     }
   ]
