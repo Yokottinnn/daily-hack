@@ -1,0 +1,698 @@
+{
+ "series": "ereader",
+ "generated": "2026-11-23T13:28:06.412Z",
+ "items": {
+  "kindle-16gb": {
+   "amazon": {
+    "searched": 51,
+    "hits": [
+     {
+      "asin": "B0G4SL3W21",
+      "title": "Amazon Kindle 16GB 最新モデル - より薄く、軽く、速い、6インチディスプレイ、グラファイト",
+      "price": "￥27,255",
+      "sponsored": false
+     },
+     {
+      "asin": "B0G4SMGD8C",
+      "title": "Amazon Kindle 16GB 最新モデル - より薄く、軽く、速い、6インチディスプレイ、ウベパープル",
+      "price": "￥27,255",
+      "sponsored": false
+     },
+     {
+      "asin": "B0CP31L73X",
+      "title": "Amazon Kindle - 目に優しい、かさばらない、大きな画面で読みやすい、6週間持続バッテリー、6インチディスプレイ電子書籍リーダー、ブラック、16GB、広告なし",
+      "price": "￥27,255",
+      "sponsored": false
+     },
+     {
+      "asin": "B0G4SL3W21",
+      "title": "Amazon Kindle 16GB 最新モデル - より薄く、軽く、速い、6インチディスプレイ、グラファイト",
+      "price": "￥27,255",
+      "sponsored": false
+     },
+     {
+      "asin": "B0CP31L73X",
+      "title": "Amazon Kindle - 目に優しい、かさばらない、大きな画面で読みやすい、6週間持続バッテリー、6インチディスプレイ電子書籍リーダー、ブラック、16GB、広告なし",
+      "price": "￥27,255",
+      "sponsored": false
+     },
+     {
+      "asin": "B0G4SL275F",
+      "title": "【Kindle 16GB (2026年発売) 用】延長保証(2年)・事故保証(3年)プラン",
+      "price": "￥5,345",
+      "sponsored": false
+     }
+    ],
+    "top": {
+     "asin": "B0G4SL3W21",
+     "title": "Amazon Kindle 16GB 最新モデル - より薄く、軽く、速い、6インチディスプレイ、グラファイト",
+     "price": "￥27,255",
+     "sponsored": false,
+     "page": {
+      "title": "Amazon | Kindle 16GB 最新モデル - より薄く、軽く、速い、6インチディスプレイ、グラファイト",
+      "cart": true,
+      "h1": "Amazon Kindle 16GB 最新モデル - より薄く、軽く、速い、6インチディスプレイ、グラファイト"
+     }
+    }
+   },
+   "rakuten": {
+    "searched": 45,
+    "hits": [
+     {
+      "url": "https://item.rakuten.co.jp/biccamera/0840414601390/",
+      "title": "【エントリーで最大全額ポイント還元｜11/25まで】 Amazon｜アマゾン Kindle [6インチ /16GB] 電子書籍リーダー 2026年発売 グラファイト B0G4SL3W21 [6インチ]",
+      "price": "29,980",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/biccamera/0840414689626/",
+      "title": "【エントリーで最大全額ポイント還元｜11/25まで】 Amazon｜アマゾン Kindle [6インチ /16GB] 電子書籍リーダー 2026年発売 ウベパープル B0G4SMGD8C [6インチ]",
+      "price": "29,980",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/ksdenki/0840414601390/",
+      "title": "Amazon（アマゾン） Amazon Kindle 16GB (2026) B0G4SL3W21 グラファイト",
+      "price": "32,970",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/jism/0840414689626-41-56026-n/",
+      "title": "Amazon（アマゾン） Amazon Kindle 16GB 2026年発売モデル 6インチディスプレイ（ウベパープル） B0G4SMGD8C",
+      "price": "29,980",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/dandystore/0840414673731/",
+      "title": "【新品】【メール便配送】New Kindle 16GB マッチャ(2024年モデル) B0CP31QS6R 0840414673731",
+      "price": "20,700",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/r-kojima/0840414689626/",
+      "title": "Amazon　Kindle 16GB 最新モデル - より薄く、軽く、速い、6インチディスプレイ、ウベパープル　B0G4SMGD8C",
+      "price": "29,980",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/auc-worldichi/0840414617858/",
+      "title": "【ダイヤ・プラチナ限定エントリーでポイント5倍！】【新品】Amazon アマゾン Kindle 16GB 電子書籍リーダー 6インチ 2024モデル 広告なし ブラック",
+      "price": "21,649",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/auc-worldichi/0840414673731/",
+      "title": "【ダイヤ・プラチナ限定エントリーでポイント5倍！】【新品】Amazon アマゾン Kindle 16GB 電子書籍リーダー 6インチ 2024モデル 広告なし マッチャ",
+      "price": "19,679",
+      "ad": false
+     }
+    ],
+    "top": {
+     "url": "https://item.rakuten.co.jp/biccamera/0840414601390/",
+     "title": "【エントリーで最大全額ポイント還元｜11/25まで】 Amazon｜アマゾン Kindle [6インチ /16GB] 電子書籍リーダー 2026年発売 グラファイト B0G4SL3W21 [6インチ]",
+     "price": "29,980",
+     "ad": false,
+     "page": {
+      "title": "楽天ビック｜【エントリーで最大全額ポイント還元｜11/25まで】 Amazon｜アマゾン Kindle [6インチ /16GB] 電子書籍リーダー 2026年発売 グラファイト B0G4SL3W21 [6インチ] 通販",
+      "cart": true,
+      "h1": "【エントリーで最大全額ポイント還元｜11/25まで】 Amazon｜アマゾン Kindle [6インチ /16GB] 電子書籍リーダー 2026年発売 グラファイト B0G4SL3W21 [6インチ]"
+     }
+    }
+   }
+  },
+  "kindle-paperwhite": {
+   "amazon": {
+    "searched": 51,
+    "hits": [
+     {
+      "asin": "B0GV5VHTL6",
+      "title": "Amazon Kindle Paperwhite 16GB 最新モデル - より薄く、より軽い、7インチディスプレイ、色調調節ライト、グラファイト",
+      "price": "￥36,345",
+      "sponsored": false
+     },
+     {
+      "asin": "B0CFPL6CFY",
+      "title": "Amazon Kindle Paperwhite (16GB) 7インチディスプレイ、色調調節ライト、12週間持続バッテリー、広告なし、ブラック",
+      "price": "￥36,345",
+      "sponsored": false
+     },
+     {
+      "asin": "B0HLZBFDFT",
+      "title": "FILMEXT 覗き見防止 Kindle Paperwhite (2026年発売 7インチ) 用",
+      "price": "￥2,577",
+      "sponsored": false
+     },
+     {
+      "asin": "B0GV5VHTL6",
+      "title": "Amazon Kindle Paperwhite 16GB 最新モデル - より薄く、より軽い、7インチディスプレイ、色調調節ライト、グラファイト",
+      "price": "￥36,345",
+      "sponsored": false
+     }
+    ],
+    "top": {
+     "asin": "B0GV5VHTL6",
+     "title": "Amazon Kindle Paperwhite 16GB 最新モデル - より薄く、より軽い、7インチディスプレイ、色調調節ライト、グラファイト",
+     "price": "￥36,345",
+     "sponsored": false,
+     "page": {
+      "title": "Amazon | Kindle Paperwhite 16GB 最新モデル - より薄く、より軽い、7インチディスプレイ、色調調節ライト、グラファイト",
+      "cart": true,
+      "h1": "Amazon Kindle Paperwhite 16GB 最新モデル - より薄く、より軽い、7インチディスプレイ、色調調節ライト、グラファイト"
+     }
+    }
+   },
+   "rakuten": {
+    "searched": 45,
+    "hits": [
+     {
+      "url": "https://item.rakuten.co.jp/yamada-denki/9429900014/",
+      "title": "Amazon B0GV5VHTL6 電子書籍リーダー Kindle Paperwhite 16GB グラファイト",
+      "price": "39,980",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/noah-shopping/0840268907280/",
+      "title": "【新品】Kindle Paperwhite 16GB 7インチディスプレイ グラファイト 2026年モデル",
+      "price": "43,480",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/yamada-denki/9429902018/",
+      "title": "Amazon B0GV62TPDH 電子書籍リーダー Kindle Paperwhite 32GB シーグラスグリーン",
+      "price": "44,980",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/noah-shopping/840268942847/",
+      "title": "【新品】【2024モデル】 Kindle Paperwhite (16GB) 7インチディスプレイ 電子書籍リーダー ブラック 広告なし 第12世代",
+      "price": "28,080",
+      "ad": false
+     }
+    ],
+    "top": {
+     "url": "https://item.rakuten.co.jp/yamada-denki/9429900014/",
+     "title": "Amazon B0GV5VHTL6 電子書籍リーダー Kindle Paperwhite 16GB グラファイト",
+     "price": "39,980",
+     "ad": false,
+     "page": {
+      "title": "【楽天市場】Amazon B0GV5VHTL6 電子書籍リーダー Kindle Paperwhite 16GB グラファイト：ヤマダ電機　楽天市場店",
+      "cart": true,
+      "h1": ""
+     }
+    }
+   }
+  },
+  "kindle-colorsoft": {
+   "amazon": {
+    "searched": 48,
+    "hits": [
+     {
+      "asin": "B0GV62167S",
+      "title": "Amazon Kindle Colorsoft 16GB 最新モデル - より薄く、より軽い、7インチカラーディスプレイ、色調調節ライト、グラファイト",
+      "price": "￥47,255",
+      "sponsored": false
+     },
+     {
+      "asin": "B0CX8MT2M2",
+      "title": "Amazon Kindle Colorsoft | 16GBストレージ、防水、7インチカラーディスプレイ、色調調節ライト、最大8週間持続バッテリー、広告無し、ブラック (2025年発売)",
+      "price": "￥47,255",
+      "sponsored": false
+     }
+    ],
+    "top": {
+     "asin": "B0GV62167S",
+     "title": "Amazon Kindle Colorsoft 16GB 最新モデル - より薄く、より軽い、7インチカラーディスプレイ、色調調節ライト、グラファイト",
+     "price": "￥47,255",
+     "sponsored": false,
+     "page": {
+      "title": "Amazon | Kindle Colorsoft 16GB 最新モデル - より薄く、より軽い、7インチカラーディスプレイ、色調調節ライト、グラファイト",
+      "cart": true,
+      "h1": "Amazon Kindle Colorsoft 16GB 最新モデル - より薄く、より軽い、7インチカラーディスプレイ、色調調節ライト、グラファイト"
+     }
+    }
+   },
+   "rakuten": {
+    "searched": 45,
+    "hits": [
+     {
+      "url": "https://item.rakuten.co.jp/yamada-denki/9429905019/",
+      "title": "Amazon B0GV5XNS3X 電子書籍リーダー Kindle Colorsoft 32GB フィグ",
+      "price": "56,980",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/yamada-denki/9429903015/",
+      "title": "Amazon B0GV62167S 電子書籍リーダー Kindle Colorsoft 16GB グラファイト",
+      "price": "51,980",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/ecjoy/22059953/",
+      "title": "【在庫限即納】AMAZON アマゾン New Amazon Kindle Colorsoft 16GB (2025年発売)",
+      "price": "33,997",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/noah-shopping/0840414610231/",
+      "title": "【新品】Kindle Colorsoft 7インチ 16GB ブラック 2025年モデル",
+      "price": "34,280",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/yamada-denki/9429904012/",
+      "title": "Amazon B0GV5TKK75 電子書籍リーダー Kindle Colorsoft 32GB グラファイト",
+      "price": "56,980",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/e-wellness/9429904012/",
+      "title": "Amazon B0GV5TKK75 電子書籍リーダー Kindle Colorsoft 32GB グラファイト",
+      "price": "56,980",
+      "ad": false
+     }
+    ],
+    "top": {
+     "url": "https://item.rakuten.co.jp/yamada-denki/9429905019/",
+     "title": "Amazon B0GV5XNS3X 電子書籍リーダー Kindle Colorsoft 32GB フィグ",
+     "price": "56,980",
+     "ad": false,
+     "page": {
+      "title": "【楽天市場】Amazon B0GV5XNS3X 電子書籍リーダー Kindle Colorsoft 32GB フィグ：ヤマダ電機　楽天市場店",
+      "cart": true,
+      "h1": ""
+     }
+    }
+   }
+  },
+  "kindle-scribe": {
+   "amazon": {
+    "searched": 48,
+    "hits": [
+     {
+      "asin": "B0HG191NV4",
+      "title": "メモ書き機能付きAmazon純正電子書籍リーダー「Kindle Scribe」2026年モデルに追加された新機能や初のカラーモデルのメモ書きを使ってみた",
+      "price": "￥90",
+      "sponsored": false
+     },
+     {
+      "asin": "B0FC1RSK9Y",
+      "title": "【Amazon Kindle Scribe フロントライト搭載モデル (2026年発売) 用】延長保証(2年)・事故保証(3年)プラン",
+      "price": "￥9,982",
+      "sponsored": false
+     }
+    ],
+    "top": {
+     "asin": "B0HG191NV4",
+     "title": "メモ書き機能付きAmazon純正電子書籍リーダー「Kindle Scribe」2026年モデルに追加された新機能や初のカラーモデルのメモ書きを使ってみた",
+     "price": "￥90",
+     "sponsored": false,
+     "page": {
+      "title": "Amazon.co.jp: メモ書き機能付きAmazon純正電子書籍リーダー「Kindle Scribe」2026年モデルに追加された新機能や初のカラーモデルのメモ書きを使ってみた eBook : GIGAZINE: Kindleストア",
+      "cart": false,
+      "h1": "メモ書き機能付きAmazon純正電子書籍リーダー「Kindle Scribe」2026年モデルに追加された新機能や初のカラーモデルのメモ書きを使ってみた"
+     }
+    }
+   },
+   "rakuten": {
+    "searched": 45,
+    "hits": [
+     {
+      "url": "https://item.rakuten.co.jp/r-kojima/0840414651654/",
+      "title": "Amazon　新 Kindle Scribe - より進化したKindle Scribeへ グラファイト　B0FC1PBJRB",
+      "price": "89,980",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/biccamera/0840414651654/",
+      "title": "Amazon｜アマゾン Kindle Scribe 第3世代 [11インチ /32GB] グラファイト B0FC1PBJRB",
+      "price": "89,980",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/pda/120pdw60001853/",
+      "title": "スキンシール Kindle Scribe (2026年モデル・第3世代) 【 各種 】 日本製 自社製造直販",
+      "price": "3,960",
+      "ad": false
+     }
+    ],
+    "top": {
+     "url": "https://item.rakuten.co.jp/r-kojima/0840414651654/",
+     "title": "Amazon　新 Kindle Scribe - より進化したKindle Scribeへ グラファイト　B0FC1PBJRB",
+     "price": "89,980",
+     "ad": false,
+     "page": {
+      "title": "【楽天市場】Amazon　新 Kindle Scribe - より進化したKindle Scribeへ グラファイト　B0FC1PBJRB：コジマ楽天市場店",
+      "cart": true,
+      "h1": ""
+     }
+    }
+   }
+  },
+  "kobo-clara-bw": {
+   "amazon": {
+    "searched": 52,
+    "hits": [
+     {
+      "asin": "B0D4978BWY",
+      "title": "Kobo Clara BW 電子書籍リーダー 6インチ 防水 ブラック",
+      "price": "￥22,985",
+      "sponsored": false
+     },
+     {
+      "asin": "B0CZXYV8GT",
+      "title": "Kobo Clara BW | eReader | Écran Tactile Anti-reflet de 6\" avec ComfortLight Pro | Option Mode Sombre | Livres Audio | Étanche | 16 Go de Stockage | Noir",
+      "price": "￥29,616",
+      "sponsored": false
+     },
+     {
+      "asin": "B0H5B6W1CN",
+      "title": "enoxboo Case for Kobo Clara BW (2024) 6 inch - PU Protective Cover Auto Sleep/Wake with Built-in Foldable Stand Card Slot and Hand Strap (Compatible with Model N365)",
+      "price": "￥1,873",
+      "sponsored": false
+     }
+    ],
+    "top": {
+     "asin": "B0D4978BWY",
+     "title": "Kobo Clara BW 電子書籍リーダー 6インチ 防水 ブラック",
+     "price": "￥22,985",
+     "sponsored": false,
+     "page": {
+      "title": "Amazon.co.jp: Kobo Clara BW 電子書籍リーダー 6インチ 防水 ブラック | 【電子書籍リーダー,目に優しい,フロントライト,ブルーライト低減,IPX8防水,お風呂で読書,集中できる専用端末,通知なし,最大8週間バ",
+      "cart": true,
+      "h1": "商品概要には、主要な商品情報が記載されています \nキーボードショートカット  Shift + opt + D"
+     }
+    }
+   },
+   "rakuten": {
+    "searched": 45,
+    "hits": [
+     {
+      "url": "https://item.rakuten.co.jp/biccamera/4560470103787/",
+      "title": "【エントリーで最大全額ポイント還元｜11/25まで】 KOBO｜コボ 電子書籍リーダー Kobo Clara BW ブラック N365-KJ-BK-S-EP [6インチ /防水]",
+      "price": "25,800",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/jism/4560470103787-41-25489-n/",
+      "title": "kobo 電子書籍リーダー Kobo Clara BW 6インチ 16G 防水タイプ N365-KJ-BK-S-EP",
+      "price": "25,800",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/r-kojima/4560470103787/",
+      "title": "KOBO　Kobo Clara BW ［6インチ /防水］ ブラック　N365-KJ-BK-S-EP",
+      "price": "25,800",
+      "ad": false
+     }
+    ],
+    "top": {
+     "url": "https://item.rakuten.co.jp/biccamera/4560470103787/",
+     "title": "【エントリーで最大全額ポイント還元｜11/25まで】 KOBO｜コボ 電子書籍リーダー Kobo Clara BW ブラック N365-KJ-BK-S-EP [6インチ /防水]",
+     "price": "25,800",
+     "ad": false,
+     "page": {
+      "title": "楽天ビック｜【エントリーで最大全額ポイント還元｜11/25まで】 KOBO｜コボ 電子書籍リーダー Kobo Clara BW ブラック N365-KJ-BK-S-EP [6インチ /防水] 通販",
+      "cart": true,
+      "h1": "【エントリーで最大全額ポイント還元｜11/25まで】 KOBO｜コボ 電子書籍リーダー Kobo Clara BW ブラック N365-KJ-BK-S-EP [6インチ /防水]"
+     }
+    }
+   }
+  },
+  "kobo-clara-colour": {
+   "amazon": {
+    "searched": 52,
+    "hits": [
+     {
+      "asin": "B0D5D1DXZY",
+      "title": "Kobo Clara Colour カラー 電子書籍リーダー 6インチ 防水 ブラック",
+      "price": "￥24,364",
+      "sponsored": true
+     },
+     {
+      "asin": "B0D5D1DXZY",
+      "title": "Kobo Clara Colour カラー 電子書籍リーダー 6インチ 防水 ブラック",
+      "price": "￥24,364",
+      "sponsored": false
+     },
+     {
+      "asin": "B0FRSDQ9JN",
+      "title": "Kobo Clara Colour カラー 電子書籍リーダー 6インチ 防水 ホワイト",
+      "price": "￥26,800",
+      "sponsored": false
+     },
+     {
+      "asin": "B0CZY1LRT4",
+      "title": "Kobo Clara Colour | eReader | 6” Glare-Free Colour E Ink Display | Dark Mode Option | Waterproof | Audiobooks | 16GB of Storage | Black",
+      "price": "￥33,004",
+      "sponsored": false
+     }
+    ],
+    "top": {
+     "asin": "B0D5D1DXZY",
+     "title": "Kobo Clara Colour カラー 電子書籍リーダー 6インチ 防水 ブラック",
+     "price": "￥24,364",
+     "sponsored": false,
+     "page": {
+      "title": "Amazon.co.jp: Kobo Clara Colour カラー 電子書籍リーダー 6インチ 防水 ブラック | 【カラー対応電子書籍リーダー,目に優しい,フロントライト,ブルーライト低減,IPX8防水,お風呂で読書,集中できる専用端",
+      "cart": true,
+      "h1": "商品概要には、主要な商品情報が記載されています \nキーボードショートカット  Shift + opt + D"
+     }
+    }
+   },
+   "rakuten": {
+    "searched": 45,
+    "hits": [
+     {
+      "url": "https://item.rakuten.co.jp/r-kojima/4560470103794/",
+      "title": "KOBO　Kobo Clara Colour ［6インチ /防水］ ブラック　N367-KJ-BK-S-CK",
+      "price": "29,800",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/book/17822117/",
+      "title": "Kobo Clara Colour (ブラック)",
+      "price": "29,800",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/book/18352751/",
+      "title": "Kobo Clara Colour (ホワイト)",
+      "price": "29,800",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/biccamera/4560470103794/",
+      "title": "【エントリーで最大全額ポイント還元｜11/25まで】 KOBO｜コボ 電子書籍リーダー Kobo Clara Colour ブラック N367-KJ-BK-S-CK [6インチ /防水]",
+      "price": "29,800",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/biccamera/4560470104128/",
+      "title": "KOBO｜コボ 電子書籍リーダー Kobo Clara Colour ホワイト N367-KJ-WH-S-CK [6インチ /防水]",
+      "price": "29,800",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/jism/4560470103794-41-25489-n/",
+      "title": "kobo 電子書籍リーダー Kobo Clara Colour（ブラック） 6インチ 16G 防水タイプ N367-KJ-BK-S-CK",
+      "price": "29,800",
+      "ad": false
+     }
+    ],
+    "top": {
+     "url": "https://item.rakuten.co.jp/r-kojima/4560470103794/",
+     "title": "KOBO　Kobo Clara Colour ［6インチ /防水］ ブラック　N367-KJ-BK-S-CK",
+     "price": "29,800",
+     "ad": false,
+     "page": {
+      "title": "【楽天市場】KOBO　Kobo Clara Colour ［6インチ /防水］ ブラック　N367-KJ-BK-S-CK：コジマ楽天市場店",
+      "cart": true,
+      "h1": ""
+     }
+    }
+   }
+  },
+  "kobo-libra-colour": {
+   "amazon": {
+    "searched": 54,
+    "hits": [
+     {
+      "asin": "B0D493Y9ZB",
+      "title": "Kobo Libra Colour カラー 電子書籍リーダー 7インチ 防水 ホワイト",
+      "price": "￥33,455",
+      "sponsored": true
+     },
+     {
+      "asin": "B0D5HSRM75",
+      "title": "Kobo Libra Colour カラー 電子書籍リーダー 7インチ 防水 ブラック",
+      "price": "￥33,242",
+      "sponsored": false
+     },
+     {
+      "asin": "B0D493Y9ZB",
+      "title": "Kobo Libra Colour カラー 電子書籍リーダー 7インチ 防水 ホワイト",
+      "price": "￥33,455",
+      "sponsored": false
+     },
+     {
+      "asin": "B0CZXWGK79",
+      "title": "Kobo Libra Colour | eReader | 7” Glare-Free Colour E Ink Kaleido™ 3 Display | Dark Mode Option | Audiobooks | Waterproof | White",
+      "price": "￥46,886",
+      "sponsored": false
+     },
+     {
+      "asin": "B0CZXX465Z",
+      "title": "Kobo Libra Colour Black | Liseuse eBook Couleur | Écran Couleur E Ink Kaleido™ 3 sans Reflets de 7\" | Option Mode Sombre | Étanche | Livres Audio | 32 Go de Stockage | Noir",
+      "price": "￥46,887",
+      "sponsored": false
+     }
+    ],
+    "top": {
+     "asin": "B0D5HSRM75",
+     "title": "Kobo Libra Colour カラー 電子書籍リーダー 7インチ 防水 ブラック",
+     "price": "￥33,242",
+     "sponsored": false,
+     "page": {
+      "title": "Amazon.co.jp: Kobo Libra Colour カラー 電子書籍リーダー 7インチ 防水 ブラック | 【カラー対応電子書籍リーダー,7インチ大画面,見開き表示対応,目に優しい,フロントライト,ブルーライト低減,IPX8防水",
+      "cart": true,
+      "h1": "商品概要には、主要な商品情報が記載されています \nキーボードショートカット  Shift + opt + D"
+     }
+    }
+   },
+   "rakuten": {
+    "searched": 45,
+    "hits": [
+     {
+      "url": "https://item.rakuten.co.jp/book/17822114/",
+      "title": "Kobo Libra Colour（ホワイト）",
+      "price": "41,800",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/biccamera/4560470103770/",
+      "title": "【エントリーで最大全額ポイント還元｜11/25まで】 KOBO｜コボ 電子書籍リーダー Kobo Libra Colour ホワイト N428-KJ-WH-S-CK [7インチ /防水]",
+      "price": "41,800",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/r-kojima/4560470103770/",
+      "title": "KOBO　Kobo Libra Colour ［7インチ /防水］ ホワイト　N428-KJ-WH-S-CK",
+      "price": "41,800",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/biccamera/4560470103763/",
+      "title": "【エントリーで最大全額ポイント還元｜11/25まで】 KOBO｜コボ 電子書籍リーダー Kobo Libra Colour ブラック N428-KJ-BK-S-CK [7インチ /防水]",
+      "price": "41,800",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/book/17822115/",
+      "title": "Kobo Libra Colour（ブラック）",
+      "price": "41,800",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/r-kojima/4560470103763/",
+      "title": "KOBO　Kobo Libra Colour ［7インチ /防水］ ブラック　N428-KJ-BK-S-CK",
+      "price": "41,800",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/jism/4560470103763-41-25489-n/",
+      "title": "kobo 電子書籍リーダー Kobo Libra Colour (ブラック) 7インチ 32G 防水タイプ N428-KJ-BK-S-CK",
+      "price": "41,800",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/jism/4560470103770-41-25489-n/",
+      "title": "kobo 電子書籍リーダー Kobo Libra Colour (ホワイト) 7インチ 32G 防水タイプ N428-KJ-WH-S-CK",
+      "price": "41,800",
+      "ad": false
+     }
+    ],
+    "top": {
+     "url": "https://item.rakuten.co.jp/book/17822114/",
+     "title": "Kobo Libra Colour（ホワイト）",
+     "price": "41,800",
+     "ad": false,
+     "page": {
+      "title": "楽天ブックス: Kobo Libra Colour（ホワイト） - 楽天Kobo - 4560470103770 : PCソフト・周辺機器",
+      "cart": true,
+      "h1": ""
+     }
+    }
+   }
+  },
+  "boox-go7": {
+   "amazon": {
+    "searched": 52,
+    "hits": [
+     {
+      "asin": "B0FPL3M2CP",
+      "title": "BOOX Go 7電子書籍リーダー 7インチ 白黒 64GB 300ppi Android 13 フロントライト BT WiFi (ブラック)",
+      "price": "￥36,182",
+      "sponsored": false
+     },
+     {
+      "asin": "B0FH2RX4JD",
+      "title": "BOOX Go 7電子書籍リーダー 7インチ 白黒 64GB 300ppi Android 13 フロントライト BT WiFi (ホワイト)",
+      "price": "￥36,182",
+      "sponsored": false
+     }
+    ],
+    "top": {
+     "asin": "B0FPL3M2CP",
+     "title": "BOOX Go 7電子書籍リーダー 7インチ 白黒 64GB 300ppi Android 13 フロントライト BT WiFi (ブラック)",
+     "price": "￥36,182",
+     "sponsored": false,
+     "page": {
+      "title": "Amazon.co.jp: BOOX Go 7電子書籍リーダー 7インチ 白黒 64GB 300ppi Android 13 フロントライト BT WiFi (ブラック) : パソコン・周辺機器",
+      "cart": true,
+      "h1": "BOOX Go 7電子書籍リーダー 7インチ 白黒 64GB 300ppi Android 13 フロントライト BT WiFi (ブラック)"
+     }
+    }
+   },
+   "rakuten": {
+    "searched": 45,
+    "hits": [
+     {
+      "url": "https://item.rakuten.co.jp/sinuchihonpo/b0fh2rx4jd/",
+      "title": "BOOX Go 7電子書籍リーダー 7インチ 白黒 64GB 300ppi Android 13 フロントライト BT WiFi (ホワイト)",
+      "price": "42,290",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/putera/5c3s7erareong77aoxj3f45n4u/",
+      "title": "BOOX Go 7電子書籍リーダー 7インチ 白黒 64GB 300ppi Android 13 フロントライト BT WiFi",
+      "price": "48,500",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/lilishop6-store/3zgsudygjyvmb25f6fepjtw5d4/",
+      "title": "BOOX Go 7電子書籍リーダー 7インチ 白黒 64GB 300ppi Android 13 フロントライト BT WiFi",
+      "price": "48,500",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/pda/120pdw60001588/",
+      "title": "スキンシール Onyx BOOX Go 7 【 各種 】 日本製 自社製造直販",
+      "price": "2,090",
+      "ad": false
+     }
+    ],
+    "top": {
+     "url": "https://item.rakuten.co.jp/sinuchihonpo/b0fh2rx4jd/",
+     "title": "BOOX Go 7電子書籍リーダー 7インチ 白黒 64GB 300ppi Android 13 フロントライト BT WiFi (ホワイト)",
+     "price": "42,290",
+     "ad": false,
+     "page": {
+      "title": "【楽天市場】BOOX Go 7電子書籍リーダー 7インチ 白黒 64GB 300ppi Android 13 フロントライト BT WiFi (ホワイト)：真打本舗　楽天市場店",
+      "cart": true,
+      "h1": ""
+     }
+    }
+   }
+  }
+ }
+}
