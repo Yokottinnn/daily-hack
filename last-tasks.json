@@ -1,5 +1,4 @@
 [
-      {"task": "t1202-verify-rakuten-portable-power-station.sh", "rc": 0, "out": "- 商品: 検索結果 0 件・型番「」の表示: —・カートに入れるボタンあり - 題名: 【楽天市場】【39,910円OFFクーポン 11/25まで】Anker Solix C800 Plus Portable Power Station ポータブル電源 768Wh 5 - 写真: Mac の手元のみ（private-shots/shop-verify/"},
-      {"task": "t1203-verify-yahoo-portable-power-station.sh", "rc": 0, "out": "- 商品: 検索結果 36 件・型番「Anker Solix C800 Plus」の表示: あり - 題名: Anker Solix C800 Plusのおすすめ人気商品一覧 通販 - Yahoo!ショッピング - 写真: Mac の手元のみ（private-shots/shop-verify/portable-power-station-comparison-2026/v06-yahoo.jpg・公�"},
-      {"task": "t1204-verify-amazon-portable-power-station.sh", "rc": 0, "out": "- 商品: 検索結果 0 件・型番「」の表示: —・カートに入れるボタンあり - 題名: Amazon.co.jp: Anker Solix C800 Plus Portable Power Station ポータブル電源 768Wh 58分満充電 高出力AC(定格12 - 写真: Mac の手元のみ（private-shots/shop-verify/portable-pow"}
+      {"task": "t1213-iris-air-fryer-docs.sh", "rc": 0, "out": "3352079 iris-manual.pdf 8808 iris-news.txt 4571 iris-support.txt  **読むだけ。LLM 不使用（$0／回）。**"},
+      {"task": "t1214-find-pages-air-fryer.sh", "rc": 0, "out": "  - https://item.rakuten.co.jp/e-kurashi/r8q36/｜7,999｜【BFセール中】ノンフライヤー 4.5L 大容量 電気フライヤー 家庭用 揚げ物 YAH-AC120(B) ノンオイル フライヤー エアフライヤー エアオーブン   - https://item.rakuten.co.jp/yamazenkaden/r8q36/｜8,98"}
   ]

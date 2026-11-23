@@ -1,0 +1,658 @@
+{
+ "series": "air-fryer",
+ "generated": "2026-11-23T22:45:19.196Z",
+ "items": {
+  "cosori-caf-dc601": {
+   "amazon": {
+    "searched": 33,
+    "hits": [
+     {
+      "asin": "B0DWXDKXHM",
+      "title": "COSORI コソリ ノンフライヤー 6L大容量 エアフライヤー DCモーター 高速 最高温230℃ 発酵 air fryer CAF-DC601",
+      "price": "￥18,164",
+      "sponsored": false
+     },
+     {
+      "asin": "B0B8D56B2B",
+      "title": "COSORI スマホ対応機種 ノンフライヤースマートノンオイル フライヤー 最高温230℃ 日本語レシピ付き 揚げ物 ポテト 惣菜 料理 電気フライヤー LEDディスプレイ タッチパネル タイマー 自動電源オフ みどり",
+      "price": "￥15,436",
+      "sponsored": false
+     },
+     {
+      "asin": "B0G4VMYK84",
+      "title": "COSORI DC601 6L ノンフライヤー用バスケット ホワイト コソリ",
+      "price": "￥4,809",
+      "sponsored": false
+     },
+     {
+      "asin": "B0G4VHPQ97",
+      "title": "COSORI DC601 6L ノンフライヤー用網プレート クリスパープレート",
+      "price": "￥2,900",
+      "sponsored": false
+     }
+    ],
+    "top": {
+     "asin": "B0DWXDKXHM",
+     "title": "COSORI コソリ ノンフライヤー 6L大容量 エアフライヤー DCモーター 高速 最高温230℃ 発酵 air fryer CAF-DC601",
+     "price": "￥18,164",
+     "sponsored": false,
+     "page": {
+      "title": "Amazon.co.jp: COSORI コソリ ノンフライヤー 6L大容量 エアフライヤー DCモーター 高速 最高温230℃ 発酵 air fryer CAF-DC601 | ノンフライヤー 家庭用,専用レシピ付き,ポテト,揚げ物,タイ",
+      "cart": true,
+      "h1": "商品概要には、主要な商品情報が記載されています \nキーボードショートカット  Shift + opt + D"
+     }
+    }
+   },
+   "rakuten": {
+    "searched": 45,
+    "hits": [
+     {
+      "url": "https://item.rakuten.co.jp/ryohinseikatsukan/tsuhan-123-ea123/",
+      "title": "【100%抽選P】ノンフライヤー COSORI CAF-DC601-KJP 6.0L 大容量 電気フライヤー エアフライヤー 卓上 フライヤー 1台多役 ノンオイルフライヤー 一人暮らし 調理家電 家電 家庭用 揚げ物 おかず 便利 油なし ヘルシー 油なし揚物 キッチン家電 温度調整 2年保証",
+      "price": "19,980",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/azworld/ryohin21-xin/",
+      "title": "COSORI コソリ ノンフライヤー 6L エアフライヤー CAF-DC601-KJP DCモーター 最高230℃ 大容量 9+1機能 時短調理 食洗機対応 2年保証 ブラック ホワイト",
+      "price": "19,980",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/ryohinseikatsukan/tsuhan-123-dc6/",
+      "title": "【100%抽選P】ノンフライヤー COSORI CAF-DC601-KJP 6.0L大容量 エアフライヤー 1台多役 ノンオイルフライヤー 一人暮らし 家電 調理家電 家庭用 フライヤー 230℃ 揚げ物家電 油なし ヘルシー 日本語レシピ説明書 温度調整 食洗可 自動電源オフ PSE認証 2年保証",
+      "price": "19,980",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/netstorejapan/netstore-601/",
+      "title": "【最新モデル】 ノンフライヤー 大家族向け COSORI 6.0L 大容量 エアフライヤー 1台多役 ノンオイル フライヤー 一人暮らし 家電 調理家電 家庭用 フライヤー 揚げ物 油なし ヘルシー 発酵機能 発酵食品 発酵 日本語 レシピ 温度調整 食洗可 自動電源オフ PSE認証 2年保証",
+      "price": "19,980",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/azworld/cosori316/",
+      "title": "ノンフライヤー COSORI 6.0L大容量 エアフライヤー 1台多役 ノンオイルフライヤー 一人暮らし 家電 調理家電 家庭用 フライヤー 230℃ 揚げ物家電 油なし ヘルシー 日本語レシピ説明書 温度調整 食洗可 自動電源オフ PSE認証【ブラック】",
+      "price": "19,980",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/azworld/ryohin21/",
+      "title": "ノンフライヤー COSORI 6.0L大容量 エアフライヤー 1台多役 ノンオイルフライヤー 一人暮らし 家電 調理家電 家庭用 フライヤー 230℃ 揚げ物家電 油なし ヘルシー 日本語レシピ説明書 温度調整 食洗可 自動電源オフ PSE認証【ブラック】",
+      "price": "19,980",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/azworld/cosori255/",
+      "title": "ノンフライヤー COSORI 6.0L大容量 エアフライヤー 1台多役 ノンオイルフライヤー 一人暮らし 家電 調理家電 家庭用 フライヤー 230℃ 揚げ物家電 油なし ヘルシー 日本語レシピ説明書 温度調整 食洗可 自動電源オフ PSE認証【ホワイト】",
+      "price": "20,980",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/nanos-sr/0810123674169/",
+      "title": "キヤノン CANON キャノン VeSync COSORI ノンフライヤー DC601 Combo(4570V098) 取り寄せ商品",
+      "price": "22,469",
+      "ad": false
+     }
+    ],
+    "top": {
+     "url": "https://item.rakuten.co.jp/ryohinseikatsukan/tsuhan-123-ea123/",
+     "title": "【100%抽選P】ノンフライヤー COSORI CAF-DC601-KJP 6.0L 大容量 電気フライヤー エアフライヤー 卓上 フライヤー 1台多役 ノンオイルフライヤー 一人暮らし 調理家電 家電 家庭用 揚げ物 おかず 便利 油なし ヘルシー 油なし揚物 キッチン家電 温度調整 2年保証",
+     "price": "19,980",
+     "ad": false,
+     "page": {
+      "title": "【楽天市場】【100%抽選Ｐ】ノンフライヤー COSORI CAF-DC601-KJP 6.0L 大容量 電気フライヤー エアフライヤー 卓上 フライヤー 1台多役 ノンオイルフライヤー 一人暮らし 調理家電 家電 家庭用 揚げ物 おかず ",
+      "cart": true,
+      "h1": ""
+     }
+    }
+   }
+  },
+  "braun-hf3030jbk": {
+   "amazon": {
+    "searched": 1,
+    "hits": [
+     {
+      "asin": "B0HFQSZFXF",
+      "title": "ブラウン ノンフライヤー 家庭用 エアフライヤー 揚げ物 チキン1.2kg ポテト1.0kg 時短 手間なし 4.3L大容量 コンパクト おしゃれギフト プレゼント ドイツ設計 簡単お手入れ HF3030JBK【2026年発売モデル】",
+      "price": "￥16,200",
+      "sponsored": false
+     }
+    ],
+    "top": {
+     "asin": "B0HFQSZFXF",
+     "title": "ブラウン ノンフライヤー 家庭用 エアフライヤー 揚げ物 チキン1.2kg ポテト1.0kg 時短 手間なし 4.3L大容量 コンパクト おしゃれギフト プレゼント ドイツ設計 簡単お手入れ HF3030JBK【2026年発売モデル】",
+     "price": "￥16,200",
+     "sponsored": false,
+     "page": {
+      "title": "Amazon.co.jp: ブラウン ノンフライヤー 家庭用 エアフライヤー 揚げ物 チキン1.2kg ポテト1.0kg 時短 手間なし 4.3L大容量 コンパクト おしゃれギフト プレゼント ドイツ設計 簡単お手入れ HF3030JBK【",
+      "cart": true,
+      "h1": "商品概要には、主要な商品情報が記載されています \nキーボードショートカット  Shift + opt + D"
+     }
+    }
+   },
+   "rakuten": {
+    "searched": 45,
+    "hits": [
+     {
+      "url": "https://item.rakuten.co.jp/braunhousehold/0x12500035/",
+      "title": "ブラウン ノンフライヤー [HF3030JBK] BRAUN 公式 家庭用 エアフライヤー 揚げ物 チキン1.2kg ポテト1.0kg 時短 手間なし 4.3L大容量 コンパクト おしゃれギフト プレゼント ドイツ設計 簡単お手入れ 【2026年発売モデル】",
+      "price": "17,280",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/kurasidou/p5e2ar3bah4iyrz5qxupke2gte/",
+      "title": "ブラウン ノンフライヤー 家庭用 エアフライヤー 揚げ物 チキン1.2kg ポテト1.0kg 時短 手間なし 4.3L大容量 コンパクト おしゃれギフト プレゼント ドイツ設計 簡単お手入れ HF3030JBK【2026年発売",
+      "price": "21,741",
+      "ad": false
+     }
+    ],
+    "top": {
+     "url": "https://item.rakuten.co.jp/braunhousehold/0x12500035/",
+     "title": "ブラウン ノンフライヤー [HF3030JBK] BRAUN 公式 家庭用 エアフライヤー 揚げ物 チキン1.2kg ポテト1.0kg 時短 手間なし 4.3L大容量 コンパクト おしゃれギフト プレゼント ドイツ設計 簡単お手入れ 【2026年発売モデル】",
+     "price": "17,280",
+     "ad": false,
+     "page": {
+      "title": "【楽天市場】ブラウン ノンフライヤー [HF3030JBK] BRAUN 公式 家庭用 エアフライヤー 揚げ物 チキン1.2kg ポテト1.0kg 時短 手間なし 4.3L大容量 コンパクト おしゃれギフト プレゼント ドイツ設計 簡単お手",
+      "cart": true,
+      "h1": ""
+     }
+    }
+   }
+  },
+  "ninja-fn100j": {
+   "amazon": {
+    "searched": 38,
+    "hits": [
+     {
+      "asin": "B0H33R37MZ",
+      "title": "【Amazon.co.jp限定】 Ninja ニンジャ Crispi クリスピー FN100JGYNR 自動調理器 3つの調理モード (クリスプ/ベイク・ロースト/リクリスプ) 煮る 焼く 蒸す 炒める 煮込む 炊く 温風調理 エアフライヤー ノンフライヤー FN100J ネイビー",
+      "price": "￥22,500",
+      "sponsored": false
+     },
+     {
+      "asin": "B0H33X4142",
+      "title": "【Amazon.co.jp限定】 Ninja ニンジャ Crispi クリスピー FN100JSTNR 自動調理器 3つの調理モード (クリスプ/ベイク・ロースト/リクリスプ) 煮る 焼く 蒸す 炒める 煮込む 炊く 温風調理 エアフライヤー ノンフライヤー FN100J ベージュ",
+      "price": "￥22,500",
+      "sponsored": false
+     }
+    ],
+    "top": {
+     "asin": "B0H33R37MZ",
+     "title": "【Amazon.co.jp限定】 Ninja ニンジャ Crispi クリスピー FN100JGYNR 自動調理器 3つの調理モード (クリスプ/ベイク・ロースト/リクリスプ) 煮る 焼く 蒸す 炒める 煮込む 炊く 温風調理 エアフライヤー ノンフライヤー FN100J ネイビー",
+     "price": "￥22,500",
+     "sponsored": false,
+     "page": {
+      "title": "Amazon.co.jp: 【Amazon.co.jp限定】 Ninja ニンジャ Crispi クリスピー FN100JGYNR 自動調理器 3つの調理モード (クリスプ/ベイク・ロースト/リクリスプ) 煮る 焼く 蒸す 炒める 煮込む ",
+      "cart": true,
+      "h1": "商品概要には、主要な商品情報が記載されています \nキーボードショートカット  Shift + opt + D"
+     }
+    }
+   },
+   "rakuten": {
+    "searched": 45,
+    "hits": [
+     {
+      "url": "https://item.rakuten.co.jp/youplan/100001029373/",
+      "title": "【ポイント10倍】 NINJA ノンフライヤー Ninja Crispi FN100JGY [ネイビー] [調理家電種類：ノンフライヤー 消費電力：1420 W 幅x高さx奥行：290x290x250 mm 重量：4.4 kg] 【P10倍】",
+      "price": "34,870",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/youplan/100001029374/",
+      "title": "【ポイント10倍】 NINJA 調理家電 Ninja Crispi FN100JST [ベージュ] [調理家電種類：ノンフライヤー 消費電力：1420 W 幅x高さx奥行：290x290x250 mm 重量：4.4 kg] 【P10倍】",
+      "price": "31,900",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/youplan/100001029377/",
+      "title": "【ポイント10倍】 NINJA ノンフライヤー Ninja Crispi FN100JPK [ピンク] [調理家電種類：ノンフライヤー 消費電力：1420 W 幅x高さx奥行：290x290x250 mm 重量：4.4 kg] 【P10倍】",
+      "price": "34,870",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/youplan/100001029376/",
+      "title": "【ポイント10倍】 NINJA ノンフライヤー Ninja Crispi FN100JBL [ブルー] [調理家電種類：ノンフライヤー 消費電力：1420 W 幅x高さx奥行：290x290x250 mm 重量：4.4 kg] 【P10倍】",
+      "price": "34,870",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/youplan/100001029375/",
+      "title": "【ポイント10倍】 NINJA 調理家電 Ninja Crispi FN100JGN [ミント] [調理家電種類：ノンフライヤー 消費電力：1420 W 幅x高さx奥行：290x290x250 mm 重量：4.4 kg] 【P10倍】",
+      "price": "34,870",
+      "ad": false
+     }
+    ],
+    "top": {
+     "url": "https://item.rakuten.co.jp/youplan/100001029373/",
+     "title": "【ポイント10倍】 NINJA ノンフライヤー Ninja Crispi FN100JGY [ネイビー] [調理家電種類：ノンフライヤー 消費電力：1420 W 幅x高さx奥行：290x290x250 mm 重量：4.4 kg] 【P10倍】",
+     "price": "34,870",
+     "ad": false,
+     "page": {
+      "title": "【楽天市場】【ポイント10倍】 NINJA ノンフライヤー Ninja Crispi FN100JGY [ネイビー] [調理家電種類：ノンフライヤー 消費電力：1420 W 幅x高さx奥行：290x290x250 mm 重量：4.4 kg]",
+      "cart": true,
+      "h1": ""
+     }
+    }
+   }
+  },
+  "cosori-caf-l501": {
+   "amazon": {
+    "searched": 52,
+    "hits": [
+     {
+      "asin": "B09HB4B15V",
+      "title": "COSORI コソリ ノンフライヤー 4.7L 大容量 家庭用 エアフライヤー 最高温230℃ 揚げ物 タイマー グレー CAF-L501-KJP",
+      "price": "￥12,345",
+      "sponsored": true
+     },
+     {
+      "asin": "B09HB4B15V",
+      "title": "COSORI コソリ ノンフライヤー 4.7L 大容量 家庭用 エアフライヤー 最高温230℃ 揚げ物 タイマー グレー CAF-L501-KJP",
+      "price": "￥12,345",
+      "sponsored": false
+     },
+     {
+      "asin": "B0B5DK3XZ8",
+      "title": "COSORI コソリ ノンフライヤー 4.7L 大容量 エアフライヤー 最高温230℃ タイマー アイボリー CAF-L501-WJP",
+      "price": "￥13,164",
+      "sponsored": false
+     },
+     {
+      "asin": "B0B4WBY5R3",
+      "title": "COSORI コソリ ノンフライヤー 4.7L 大容量 家庭用 エアフライヤー 最高温230℃ 揚げ物 タイマー レッド CAF-L501-RJP",
+      "price": "￥13,527",
+      "sponsored": false
+     },
+     {
+      "asin": "B0FLXZDZZT",
+      "title": "COSORI L501 4.7L ノンフライヤー用網プレート クリスパープレート",
+      "price": "￥2,082",
+      "sponsored": false
+     },
+     {
+      "asin": "B0FLY62NV4",
+      "title": "COSORI L501 4.7L ノンフライヤー用バスケット グレー",
+      "price": "￥4,173",
+      "sponsored": false
+     },
+     {
+      "asin": "B0FLXX5RDB",
+      "title": "COSORI L501 4.7L ノンフライヤー用バスケット アイボリー",
+      "price": "￥4,355",
+      "sponsored": false
+     }
+    ],
+    "top": {
+     "asin": "B09HB4B15V",
+     "title": "COSORI コソリ ノンフライヤー 4.7L 大容量 家庭用 エアフライヤー 最高温230℃ 揚げ物 タイマー グレー CAF-L501-KJP",
+     "price": "￥12,345",
+     "sponsored": false,
+     "page": {
+      "title": "Amazon.co.jp: COSORI コソリ ノンフライヤー 4.7L 大容量 家庭用 エアフライヤー 最高温230℃ 揚げ物 タイマー グレー CAF-L501-KJP | 電気,ノンフライヤー 家庭用,日本語レシピ付き,自動電源オフ",
+      "cart": true,
+      "h1": "商品概要には、主要な商品情報が記載されています \nキーボードショートカット  Shift + opt + D"
+     }
+    }
+   },
+   "rakuten": {
+    "searched": 45,
+    "hits": [
+     {
+      "url": "https://item.rakuten.co.jp/vesync/kaapafcsnjp0062/",
+      "title": "【2,000円クーポン】COSORI ノンフライヤー CAF-L501 4.7L大容量 エアフライヤー 電気フライヤー ノンオイル フライヤー 卓上 LEDディスプレイ タッチパネル タイマー 温度調整 レシピ付き 家庭用 送料無料[メーカー保証2年]",
+      "price": "13,980",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/ryohinseikatsukan/tsuhan-123-ea123-1/",
+      "title": "【100%抽選P】ノンフライヤー COSORI 4.7L CAF-L501-KJP ノン フライヤー 揚げ物 卓上 電気フライヤー エアフライヤー 大容量 コンパクト ノンオイルフライヤー 一人暮らし 調理家電 便利 家庭用 自宅用 油なし ヘルシー 温度調整 食洗器可 キッチン家電 1台6役 【グレー】",
+      "price": "13,980",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/ryohinseikatsukan/tsuhan-123-cosori-3/",
+      "title": "【100%抽選P】ノンフライヤー COSORI 4.7L CAF-L501-KJP エアフライヤー 大容量 1台6役 コンパクト ノンオイルフライヤー 揚げ物 家電 一人暮らし 調理家電 家庭用 フライヤー 油なし ヘルシー 日本語レシピ説明書 温度調整 食洗可 キッチン家電【ベージュ/レッド】",
+      "price": "13,980",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/trenditemshop/0810043375757/",
+      "title": "【2－3日で発送！】COSORI コソリ CAF-L501-KJPノンフライヤー 4.7L 大容量 家庭用 電気 エアフライヤー 最高温230℃ タイマー 自動電源オフ グレー【北海道、沖縄以外送料無料】",
+      "price": "12,990",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/smartkitchen/10010306/",
+      "title": "COSORI PRO LE ノンフライヤー 4.7L （レシピ付き 電気フライヤー エアフライヤー 2年保証付 コソリ CAF-L501-KJP 食洗機対応 大容量 温め直し 保温 予熱 タッチパネル お手入れ簡単 冷凍食品 唐揚げ 家庭用 時短調理 少人数 9調理機能） 【ポイント5倍/送料無料】【p1201】",
+      "price": "13,980",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/azworld/ryohin20/",
+      "title": "COSORI コソリ ノンフライヤー 4.7L エアフライヤー CAF-L501-KJP 最高230℃ 大容量 6役1台 油を使わず調理 食洗機対応 2年保証 グレー ベージュ レッド",
+      "price": "13,980",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/azworld/cosori279/",
+      "title": "ノンフライヤー COSORI 4.7L CAF-L501-KJP エアフライヤー 大容量 1台6役 コンパクト ノンオイルフライヤー 揚げ物 家電 一人暮らし 調理家電 家庭用 フライヤー 油なし ヘルシー 日本語レシピ説明書 温度調整 食洗可 キッチン【ベージュ】",
+      "price": "13,980",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/tamba/xu-caf-l501/",
+      "title": "＼ポイント5倍／ ノンフライヤー CAF-L501 4.7L大容量 電気フライヤー ノンオイル フライヤー 卓上 LEDディスプレイ タッチパネル タイマー 温度調整 レシピ付き 家庭用 送料無料[メーカー保証2年] COSORI 正規販売店",
+      "price": "13,980",
+      "ad": false
+     }
+    ],
+    "top": {
+     "url": "https://item.rakuten.co.jp/vesync/kaapafcsnjp0062/",
+     "title": "【2,000円クーポン】COSORI ノンフライヤー CAF-L501 4.7L大容量 エアフライヤー 電気フライヤー ノンオイル フライヤー 卓上 LEDディスプレイ タッチパネル タイマー 温度調整 レシピ付き 家庭用 送料無料[メーカー保証2年]",
+     "price": "13,980",
+     "ad": false,
+     "page": {
+      "title": "【楽天市場】【2,000円クーポン】COSORI ノンフライヤー CAF-L501 4.7L大容量 エアフライヤー 電気フライヤー ノンオイル フライヤー 卓上 LEDディスプレイ タッチパネル タイマー 温度調整 レシピ付き 家庭用 送料",
+      "cart": true,
+      "h1": ""
+     }
+    }
+   }
+  },
+  "cosori-caf-li211": {
+   "amazon": {
+    "searched": 49,
+    "hits": [
+     {
+      "asin": "B0C3VYP1PG",
+      "title": "COSORI コソリ ノンフライヤー 2L 一人用 エアフライヤー オイル97％カット ミニ 卓上 フライヤー ブラック CAF-LI211-KJP",
+      "price": "￥7,800",
+      "sponsored": false
+     },
+     {
+      "asin": "B0C3VSNBQH",
+      "title": "COSORI コソリ ノンフライヤー 2L 一人用 エアフライヤー オイル97%カット 省エネ ミニ 卓上 フライヤー CAF-LI211-WJP",
+      "price": "￥7,800",
+      "sponsored": false
+     },
+     {
+      "asin": "B0H834W8MS",
+      "title": "COSORI Lite 2.0L ミニノンフライヤー",
+      "price": "￥10,600",
+      "sponsored": false
+     },
+     {
+      "asin": "B0FLXZZR1M",
+      "title": "COSORI LI211 2L ノンフライヤー用バスケット ブラック",
+      "price": "￥2,718",
+      "sponsored": false
+     },
+     {
+      "asin": "B0D2BJZKXD",
+      "title": "使い捨てミニエアフライヤーライナー130個。COSORI 2.1クォートエアフライヤー用。",
+      "price": "￥2,979",
+      "sponsored": false
+     },
+     {
+      "asin": "B0C3VYP1PG",
+      "title": "COSORI コソリ ノンフライヤー 2L 一人用 エアフライヤー オイル97％カット ミニ 卓上 フライヤー ブラック CAF-LI211-KJP",
+      "price": "￥7,800",
+      "sponsored": true
+     }
+    ],
+    "top": {
+     "asin": "B0C3VYP1PG",
+     "title": "COSORI コソリ ノンフライヤー 2L 一人用 エアフライヤー オイル97％カット ミニ 卓上 フライヤー ブラック CAF-LI211-KJP",
+     "price": "￥7,800",
+     "sponsored": false,
+     "page": {
+      "title": "Amazon.co.jp: COSORI コソリ ノンフライヤー 2L 一人用 エアフライヤー オイル97％カット ミニ 卓上 フライヤー ブラック CAF-LI211-KJP | ノンフライヤー 人気 ランキング,省エネ,カラー:ブラック",
+      "cart": true,
+      "h1": "商品概要には、主要な商品情報が記載されています \nキーボードショートカット  Shift + opt + D"
+     }
+    }
+   },
+   "rakuten": {
+    "searched": 45,
+    "hits": [
+     {
+      "url": "https://item.rakuten.co.jp/vesync/kaapafcsnjp0167y/",
+      "title": "【1,800円クーポン】COSORI ノンフライヤー CAF-LI211 2L 1-2人に適用 ひとり暮らし エアフライヤー 電気フライヤー オイル97％カット ヘルシー 最高温205℃ レシピ付き タイマー 自動電源オフ 食洗機対応 PSE認証済み 【メーカー保証2年間】",
+      "price": "8,980",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/ryohinseikatsukan/tsuhan-123-211/",
+      "title": "【100%抽選P】ノンフライヤー COSORI CAF-LI211 2L 1-2人に適用 ひとり暮らし エアフライヤー 電気フライヤー オイル97％カット ヘルシー 最高温205℃ 揚げ物 レシピ付き タイマー 自動電源オフ 食洗機対応 PSE認証 【メーカー保証2年間】【ブラック】",
+      "price": "8,980",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/ryohinseikatsukan/tsuhan-123-211-1/",
+      "title": "【100%抽選P】ノンフライヤー COSORI CAF-LI211 2L 1-2人に適用 ひとり暮らし エアフライヤー 電気フライヤー オイル97％カット ヘルシー 最高温205℃ 揚げ物 レシピ付き タイマー 自動電源オフ 食洗機対応 PSE認証 【メーカー保証2年間】【ブラック】",
+      "price": "8,980",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/keisui-co/200410/",
+      "title": "COSORI LITE ミニノンフライヤー 2.0L レシピ付き フライヤー コソリ お惣菜 温め直し メーカー直送",
+      "price": "8,980",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/ryohinseikatsukan/tsuhan-123-211-white/",
+      "title": "【100%抽選P】ノンフライヤー COSORI CAF-LI211 2L 1-2人に適用 ノン フライヤー 2人用 ひとり暮らし エアフライヤー 電気フライヤー オイル97％カット ヘルシー 最高温205℃ 揚げ物 レシピ付き タイマー 調理 家電 自動電源オフ 洗える 食洗機対応 PSE認証【ホワイト】",
+      "price": "8,980",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/vesync/kaacaacsnjp0392y/",
+      "title": "COSORI LI211 2L ノンフライヤー用バスケットセット ブラック",
+      "price": "2,990",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/tamba/xu-caf-ll211/",
+      "title": "＼ポイント5倍／ ノンフライヤー CAF-LI211 2L 1-2人に適用 ひとり暮らし エアフライヤー 電気フライヤー オイル97％カット ヘルシー 最高温205℃ レシピ付き タイマー 自動電源オフ 食洗機対応 PSE認証済み 【メーカー保証2年間】COSORI 正規販売店",
+      "price": "8,980",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/a-price/0810123672370/",
+      "title": "VeSync COLI211C-WH ホワイト COSORI Lite 2L ミニノンフライヤー",
+      "price": "10,800",
+      "ad": false
+     }
+    ],
+    "top": {
+     "url": "https://item.rakuten.co.jp/vesync/kaapafcsnjp0167y/",
+     "title": "【1,800円クーポン】COSORI ノンフライヤー CAF-LI211 2L 1-2人に適用 ひとり暮らし エアフライヤー 電気フライヤー オイル97％カット ヘルシー 最高温205℃ レシピ付き タイマー 自動電源オフ 食洗機対応 PSE認証済み 【メーカー保証2年間】",
+     "price": "8,980",
+     "ad": false,
+     "page": {
+      "title": "【楽天市場】【1,800円クーポン】COSORI ノンフライヤー CAF-LI211 2L 1-2人に適用 ひとり暮らし エアフライヤー 電気フライヤー オイル97％カット ヘルシー 最高温205℃ レシピ付き タイマー 自動電源オフ 食洗",
+      "cart": true,
+      "h1": ""
+     }
+    }
+   }
+  },
+  "iris-fv-m30a": {
+   "amazon": {
+    "searched": 9,
+    "hits": [
+     {
+      "asin": "B0HFJS1LK4",
+      "title": "過熱水蒸気 エア フライヤー 3L 2～3人用 ノンオイルフライヤー スチーム機能 ジューシー FV-M30A-C アイボリー",
+      "price": "￥6,364",
+      "sponsored": false
+     }
+    ],
+    "top": {
+     "asin": "B0HFJS1LK4",
+     "title": "過熱水蒸気 エア フライヤー 3L 2～3人用 ノンオイルフライヤー スチーム機能 ジューシー FV-M30A-C アイボリー",
+     "price": "￥6,364",
+     "sponsored": false,
+     "page": {
+      "title": "警告:専門医療機器",
+      "cart": false,
+      "h1": ""
+     }
+    }
+   },
+   "rakuten": {
+    "searched": 45,
+    "hits": [
+     {
+      "url": "https://item.rakuten.co.jp/yamada-denki/6614433012/",
+      "title": "アイリスオーヤマ FV-M30A-C 過熱水蒸気エア フライヤー スチームモード搭載 冷凍食品対応 アイボリー",
+      "price": "7,997",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/edion/4967576809078/",
+      "title": "アイリスオーヤマ 過熱水蒸気エアフライヤー アイボリー FV-M30A-C [FVM30AC]【RNH】【RBKM】",
+      "price": "7,850",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/r-kojima/4967576809078/",
+      "title": "アイリスオーヤマ　IRIS OHYAMA　過熱水蒸気エア フライヤー アイボリー　FVM30AC",
+      "price": "7,997",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/irisplaza-r/113158/",
+      "title": "＼50%ポイントバック★26日9：59迄／電気フライヤー 家庭用 3L スチーム ヘルシー カロリーオフ 揚げ物 揚げる 焼く 蒸す 温め直し 冷凍食品 デザート 過熱水蒸気 エア フライヤー 1人暮らし フライヤー電気 FV-M30A-C * 安心延長保証対象",
+      "price": "19,800",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/biccamera/4967576809078/",
+      "title": "IRIS OHYAMA｜アイリスオーヤマ 過熱水蒸気フライヤー アイボリー FV-M30A-C [ノンフライヤー]",
+      "price": "7,850",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/f043214-ogawara/52323881/",
+      "title": "【ふるさと納税】過熱水蒸気エア フライヤー FV-M30A-C アイボリー 電気フライヤー 家庭用 スチーム ヘルシー 揚げ物 揚げる 焼く 蒸す 温め直し 冷凍食品 デザート コンパクト アイリスオーヤマ",
+      "price": "38,000",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/f042081-kakuda/aa3577/",
+      "title": "【ふるさと納税】過熱水蒸気エア フライヤー FV-M30A-C アイボリー 過熱水蒸気エアフライヤー アイリスオーヤマ ノンオイル 熱風調理 ヘルシー調理 揚げ物 惣菜温め 温め直し 冷凍食品 スチーム | 惣菜温め 温め直し 冷凍食品 スチーム エア フライヤー エアフライヤー",
+      "price": "38,000",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/ksdenki/4967576809078/",
+      "title": "アイリスオーヤマ ノンオイルフライヤー 過熱水蒸気 フライヤー FV-M30A-C アイボリー",
+      "price": "7,850",
+      "ad": false
+     }
+    ],
+    "top": {
+     "url": "https://item.rakuten.co.jp/yamada-denki/6614433012/",
+     "title": "アイリスオーヤマ FV-M30A-C 過熱水蒸気エア フライヤー スチームモード搭載 冷凍食品対応 アイボリー",
+     "price": "7,997",
+     "ad": false,
+     "page": {
+      "title": "【楽天市場】アイリスオーヤマ FV-M30A-C 過熱水蒸気エア フライヤー スチームモード搭載 冷凍食品対応 アイボリー：ヤマダ電機　楽天市場店",
+      "cart": true,
+      "h1": ""
+     }
+    }
+   }
+  },
+  "yamazen-yah-ac120": {
+   "amazon": {
+    "searched": 27,
+    "hits": [
+     {
+      "asin": "B0D16ZYVPN",
+      "title": "[山善] ノンフライヤー 4.5L 大容量 電気フライヤー ノンオイル エアフライヤー 3~5人用 家庭用 卓上 揚げ物 惣菜 タイマー 温度調節 レシピブック付き ブラック YAH-AC120(B)",
+      "price": "￥8,727",
+      "sponsored": false
+     }
+    ],
+    "top": {
+     "asin": "B0D16ZYVPN",
+     "title": "[山善] ノンフライヤー 4.5L 大容量 電気フライヤー ノンオイル エアフライヤー 3~5人用 家庭用 卓上 揚げ物 惣菜 タイマー 温度調節 レシピブック付き ブラック YAH-AC120(B)",
+     "price": "￥8,727",
+     "sponsored": false,
+     "page": {
+      "title": "Amazon.co.jp: [山善] ノンフライヤー 4.5L 大容量 電気フライヤー ノンオイル エアフライヤー 3~5人用 家庭用 卓上 揚げ物 惣菜 タイマー 温度調節 レシピブック付き ブラック YAH-AC120(B) : ホーム",
+      "cart": true,
+      "h1": "商品概要には、主要な商品情報が記載されています \nキーボードショートカット  Shift + opt + D"
+     }
+    }
+   },
+   "rakuten": {
+    "searched": 45,
+    "hits": [
+     {
+      "url": "https://item.rakuten.co.jp/e-kurashi/r8q36/",
+      "title": "【BFセール中】ノンフライヤー 4.5L 大容量 電気フライヤー 家庭用 揚げ物 YAH-AC120(B) ノンオイル フライヤー エアフライヤー エアオーブン 油を使わない 惣菜 タイマー ヘルシー 低カロリー 【送料無料】 山善/YAMAZEN/ヤマゼン",
+      "price": "7,999",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/yamazenkaden/r8q36/",
+      "title": "ノンフライヤー 4.5L 大容量 電気フライヤー 家庭用 揚げ物 YAH-AC120(B) ノンオイル フライヤー エアフライヤー エアオーブン 油を使わない 惣菜 タイマー ヘルシー 低カロリー 山善 YAMAZEN 【送料無料】",
+      "price": "8,980",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/f231002-nagoya/yg056/",
+      "title": "【ふるさと納税】YAMAZEN エアーフライヤー YAH-AC120(B) R8Q36",
+      "price": "34,000",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/kagustyle/r8q36/",
+      "title": "ノンフライヤー 4.5L 大容量 電気フライヤー 家庭用 揚げ物 YAH-AC120(B) ノンオイル フライヤー エアフライヤー エアオーブン 油を使わない 惣菜 タイマー ヘルシー 低カロリー 【送料無料】 山善/YAMAZEN/ヤマゼン",
+      "price": "8,980",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/homeyshop/20261010203307_180/",
+      "title": "山善 ノンフライヤー 4.5L 大容量 電気フライヤー ノンオイル エアフライヤー 3~5人用 家庭用 卓上 揚げ物 惣菜 タイマー 温度調節 レ シ ピ ブック付き ブラック YAH-AC120(B)",
+      "price": "11,856",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/chiisana--shiawase/20261017123542_41/",
+      "title": "山善 ノンフライヤー 4.5L 大容量 電気フライヤー ノンオイル エアフライヤー 3~5人用 家庭用 卓上 揚げ物 惣菜 タイマー 温度調節 レ シ ピ ブック付き ブラック YAH-AC120(B)",
+      "price": "12,413",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/senses/20261114031751_20/",
+      "title": "山善 ノンフライヤー 4.5L 大容量 電気フライヤー ノンオイル エアフライヤー 3~5人用 家庭用 卓上 揚げ物 惣菜 タイマー 温度調節 レ シ ピ ブック付き ブラック YAH-AC120(B)",
+      "price": "12,763",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/goodwoods/38cgdiavrp0xr/",
+      "title": "[山善] ノンフライヤー 4.5L 大容量 電気フライヤー ノンオイル エアフライヤー 3~5人用 家庭用 卓上 揚げ物 惣菜 タイマー 温度調節 レシピブック付き ブラック YAH-AC120(B)",
+      "price": "13,673",
+      "ad": false
+     }
+    ],
+    "top": {
+     "url": "https://item.rakuten.co.jp/e-kurashi/r8q36/",
+     "title": "【BFセール中】ノンフライヤー 4.5L 大容量 電気フライヤー 家庭用 揚げ物 YAH-AC120(B) ノンオイル フライヤー エアフライヤー エアオーブン 油を使わない 惣菜 タイマー ヘルシー 低カロリー 【送料無料】 山善/YAMAZEN/ヤマゼン",
+     "price": "7,999",
+     "ad": false,
+     "page": {
+      "title": "【楽天市場】【BFセール中】ノンフライヤー 4.5L 大容量 電気フライヤー 家庭用 揚げ物 YAH-AC120(B) ノンオイル フライヤー エアフライヤー エアオーブン 油を使わない 惣菜 タイマー ヘルシー 低カロリー 【送料無料】 ",
+      "cart": true,
+      "h1": ""
+     }
+    }
+   }
+  }
+ }
+}
