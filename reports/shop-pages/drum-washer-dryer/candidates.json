@@ -1,6 +1,6 @@
 {
  "series": "drum-washer-dryer",
- "generated": "2026-11-23T22:19:12.698Z",
+ "generated": "2026-11-23T22:19:35.704Z",
  "items": {
   "panasonic-na-lx129f": {
    "amazon": {
@@ -250,7 +250,7 @@
   },
   "sharp-es-12x2": {
    "amazon": {
-    "searched": 55,
+    "searched": 54,
     "hits": []
    },
    "rakuten": {
@@ -320,7 +320,7 @@
   },
   "aqua-aqw-dx12b": {
    "amazon": {
-    "searched": 6,
+    "searched": 7,
     "hits": []
    },
    "rakuten": {
@@ -390,7 +390,7 @@
   },
   "sharp-es-8xs1": {
    "amazon": {
-    "searched": 54,
+    "searched": 53,
     "hits": [
      {
       "asin": "B0GRZ1YXBX",
@@ -490,7 +490,7 @@
   },
   "hitachi-bd-cg80p": {
    "amazon": {
-    "searched": 55,
+    "searched": 53,
     "hits": []
    },
    "rakuten": {
@@ -560,7 +560,7 @@
   },
   "panasonic-na-sd10hc": {
    "amazon": {
-    "searched": 52,
+    "searched": 53,
     "hits": []
    },
    "rakuten": {
