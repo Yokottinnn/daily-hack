@@ -122,6 +122,8 @@ const FILES = {
   // **未投稿**（2026-11-23）。アナロジー型（blog）と湾岸ニュース
   "robot-cleaner-comparison-2026": ["bf4-1-cover.jpg", "bf4-2-robot.jpg", "bf4-3-futon.jpg", "bf4-4-cordless.jpg", "bf4-5-dryer.jpg"],
   "lalaport-toyosu-gu-chiikawa-custard-2026": ["x1-gu.jpg", "x2-custard.jpg"],
+  "ariake-garden-kanpai-coupon-2026": ["x1-kv.jpg", "x2-coupon.jpg"],
+  "furusato-december-rakuten-2026": ["x1-deadline.jpg"],
   // **未投稿**（2026-11-22）。利用者の依頼・ポイ活
   "marunouchi-workers-invite-2026": ["1-official.jpg", "2-code.jpg"],
   "shukuhaku-ranking-2026": ["1-rank.jpg", "2-per.jpg"],
