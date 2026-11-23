@@ -460,7 +460,56 @@ const staleList = [
   ['読者データ（Cloudflare）', lastDay, 3],
 ].map(([name, at, lim]) => ({ name, at: at || null, days: at ? daysAgo(at) : null, lim }));
 const macFail = macWeekly ? Object.entries(macWeekly).filter(([, v]) => v && typeof v === 'object' && v.ok === false).map(([k]) => k) : [];
-const home = { today: jstToday, end: homeEnd, blogPlan, events, xSchedule, requests: { open: reqOpen, new7: reqNew }, openPRs, stale: staleList, macFail, deadlines: manual.deadlines || [] };
+// 止まっているもの（2026-11-23 決定ログ「鍵・認証情報・ログインが足りずに止まっているものは、見つけた日のうちに利用者へ伝える。作戦室のトップに一覧を出す」）
+// 1 行 = { key, what（何が止まっているか）, impact（記事や作戦室にどう響くか）, fix（利用者にしてもらうこと・分かるものだけ。無ければ null）, status（いまの対応）, since, src }
+// fix・status は推測で書かない。データから言えないものは ops/data/board/manual.json の blocked[key] に、分かったセッションが書く（null のときは作戦室が「まだ分かっていない」と出す）
+const hoursAgo = (s) => s ? Math.round((today - new Date(s)) / 36e5) : null;
+const blocked = [];
+// manual.blocked[key].until（YYYY-MM-DD）を書いた説明は、その日を過ぎたら使わない（同じ key が別の理由でまた止まったとき、古い説明を出さないため）
+const blockedNote = (k) => { const m = (manual.blocked || {})[k]; return m && typeof m === 'object' && !(m.until && m.until < jstToday) ? m : null; };
+const addBlocked = (o) => { const m = blockedNote(o.key) || {}; blocked.push({ fix: null, status: null, since: null, ...o, ...(m.fix ? { fix: m.fix } : {}), ...(m.status ? { status: m.status } : {}), ...(m.since ? { since: m.since } : {}) }); };
+// ① 3 店ボタンの価格（reports/board/shop-prices.json：keys・series の skipped/error・errors・generatedAt）
+const shopPrices = json(show(HB, 'reports/board/shop-prices.json'));
+if (shopPrices) {
+  const cells = Object.values(shopPrices.series || {}).flatMap((s) => Object.values(s || {})).flatMap((r) => Object.entries(r || {}));
+  const byReason = {};
+  for (const [store, v] of cells) if (v && (v.skipped || v.error)) { const k = store + '\u0000' + (v.skipped ? 'skipped' : 'error') + '\u0000' + String(v.skipped || v.error).slice(0, 80); byReason[k] = (byReason[k] || 0) + 1; }
+  const perStore = (st) => cells.filter(([s]) => s === st).length;
+  const STORE = { rakuten: '楽天市場', yahoo: 'Yahoo!ショッピング' };
+  for (const [k, n] of Object.entries(byReason)) {
+    const [store, kind, reason] = k.split('\u0000');
+    const keyMissing = /ACCESS_KEY|APP_ID|鍵|key/i.test(reason) && kind === 'skipped';
+    addBlocked({ key: `shop-${store}-${keyMissing ? 'key' : kind}`, kind: keyMissing ? 'key' : kind,
+      what: `3 店ボタンの${STORE[store] || store}の価格（${kind === 'skipped' ? '飛ばした' : '失敗'}：${reason}）`,
+      impact: `${n === perStore(store) ? '全 ' + n + ' 件' : perStore(store) + ' 件中 ' + n + ' 件'}の価格が取れていない。記事の比較表・商品カードで${STORE[store] || store}の欄が「価格はリンク先で」になり、「いちばん安い」の比べ合いに入らない`,
+      since: null, src: `reports/board/shop-prices.json（${jst(shopPrices.generatedAt)} に取ったもの）` });
+  }
+  if ((shopPrices.errors || []).length) addBlocked({ key: 'shop-errors', kind: 'error', what: `3 店ボタンの価格の取得でエラー ${shopPrices.errors.length} 件`, impact: '該当する商品の価格が前回のまま', src: 'reports/board/shop-prices.json の errors' });
+  const h = hoursAgo(shopPrices.generatedAt);
+  if (h == null || h >= 24) addBlocked({ key: 'shop-stale', kind: 'stale', what: `3 店ボタンの価格が ${h == null ? '日付不明' : Math.floor(h / 24) + ' 日前（' + jst(shopPrices.generatedAt) + '）'}のまま${macFail.includes('shop') ? '（今朝の Mac のジョブでも失敗）' : ''}`, impact: '記事の 3 店ボタンの価格（楽天・Yahoo!）がその日の値のまま。毎朝の取り直しが入っていない', src: 'reports/board/shop-prices.json の generatedAt・mac-weekly-status.json の shop' });
+}
+// ② 毎朝の Mac のジョブ（mac-weekly-status.json の ok=false）
+const MACW = { gsc: ['Search Console の数字', '作戦室の検索の数字が前の日のまま'], a8_partnered: ['A8 の提携一覧', '作戦室の「ASP と案件」が前の日のまま'], others: ['ほかの ASP の一覧', '作戦室の ASP の一覧が前の日のまま'], x: ['X の投稿の記録', '作戦室の X の表が前の日のまま'], x_numbers: ['X の数字', '全体像の X の帯が前の日のまま'], shop: ['3 店ボタンの価格', '記事の 3 店ボタンの価格が前の日のまま'], asp_results: ['ASP の成果', '全体像のアフィリエイトの帯が前の日のまま'] };
+for (const k of macFail) if (!(k === 'shop' && blocked.some((b) => b.key === 'shop-stale'))) addBlocked({ key: 'macweekly-' + k, kind: 'job', what: `今朝の Mac のジョブで失敗：${(MACW[k] || [k])[0]}`, impact: (MACW[k] || [, '該当する数字が前の日のまま'])[1], src: `reports/board/mac-weekly-status.json（${jst(macWeekly.generated)}）` });
+// ③ ASP のログイン（reports/asp-sync/status.json の providers：loggedIn=false か needsHuman=true）と、その古さ
+const ASPN = { a8: 'A8.net', moshimo: 'もしもアフィリエイト', vc: 'バリューコマース', rakuten: '楽天アフィリエイト' };
+if (aspStatus) {
+  for (const [k, v] of Object.entries(aspStatus.providers || {})) if (v && (v.loggedIn === false || v.needsHuman === true))
+    addBlocked({ key: 'asp-login-' + k, kind: 'login', what: `${v.name || ASPN[k] || k} に自動でログインできていない${v.reason ? '（' + String(v.reason).slice(0, 100) + '）' : ''}`, impact: '提携状況・成果の数字がその ASP の分だけ前のまま', src: 'reports/asp-sync/status.json' });
+  const h = hoursAgo(aspStatus.generated);
+  if (h == null || h >= 24) addBlocked({ key: 'asp-sync-stale', kind: 'stale', what: `ASP の提携状況（asp-sync）が ${h == null ? '日付不明' : Math.floor(h / 24) + ' 日前（' + jst(aspStatus.generated) + '）'}のまま`, impact: '作戦室の提携状況・ログインの状態が古い', src: 'reports/asp-sync/status.json の generated' });
+} else addBlocked({ key: 'asp-sync-missing', kind: 'stale', what: 'ASP の提携状況（asp-sync）の status.json が届いていない', impact: '各 ASP のログインの状態が分からない', src: 'reports/asp-sync/status.json' });
+// ④ ASP の成果（db の results/latest：note にログイン・認証の失敗が書かれた行と、古さ）。--results で受け取る（無ければ見ない）
+const resultsDoc = (() => { try { const j = args.results ? JSON.parse(fs.readFileSync(args.results, 'utf8')) : null; return j && (j.data || j); } catch { return null; } })();
+if (resultsDoc) {
+  for (const r of resultsDoc.rows || []) if (/ログイン|認証|2段階|二段階|パスワード|再ログイン|login|captcha/i.test(r.note || '') && /切れ|でき(ない|なかった)|失敗|必要|要る|求め|止ま|expired|fail/i.test(r.note || ''))
+    addBlocked({ key: 'results-login-' + String(r.asp).replace(/[^A-Za-z0-9]/g, '').toLowerCase().slice(0, 20), kind: 'login', what: `${r.asp} の成果を読めていない（${String(r.note).slice(0, 120)}）`, impact: '全体像のアフィリエイトの帯で、この ASP の数字が前のまま', src: 'db の results/latest の note' });
+  const h = hoursAgo(resultsDoc.generatedAt);
+  if (h == null || h >= 36) addBlocked({ key: 'results-stale', kind: 'stale', what: `ASP の成果（results/latest）が ${h == null ? '日付不明' : Math.floor(h / 24) + ' 日前（' + jst(resultsDoc.generatedAt) + '）'}のまま`, impact: '全体像のアフィリエイトの帯が古い', src: 'db の results/latest の generatedAt' });
+}
+// ⑤ manual.json の blocked のうち、データからは見えないもの（自動の行に当たらなかった key）も出す（what が書いてあるものだけ）
+for (const k of Object.keys(manual.blocked || {})) { const m = blockedNote(k); if (m && m.what && !blocked.some((b) => b.key === k)) blocked.push({ key: k, kind: m.kind || 'manual', what: m.what, impact: m.impact || null, fix: m.fix || null, status: m.status || null, since: m.since || null, src: m.src || 'ops/data/board/manual.json の blocked' }); }
+const home = { today: jstToday, end: homeEnd, blogPlan, events, xSchedule, requests: { open: reqOpen, new7: reqNew }, openPRs, stale: staleList, macFail, deadlines: manual.deadlines || [], blocked, blockedChecked: new Date().toISOString() };
 
 const snapshot = {
   generatedAt: new Date().toISOString(),
