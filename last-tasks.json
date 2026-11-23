@@ -1,3 +1,3 @@
 [
-      {"task": "t1134-rakuten-accesskey2.sh", "rc": 0, "out": "- 押したボタン: 0 個・コピーの横取り: 0 件（）・code の中で伏せ字でないもの: 0 個 - 試す候補: 0 個 - **Access Key は取れなかった**（ページの中にも、コピーにも、値が無かった）  rc=0 /     1821 bytes"}
+      {"task": "t1140-find-pages-tablet-redmi.sh", "rc": 0, "out": "  - https://item.rakuten.co.jp/xiaomiofficial/m78807/｜24,980｜【楽天1位】REDMI Pad 2 9.7 タブレット 4+64GB 9.7インチ 2K 120Hzディスプレイ FHD+の高画質 7600mAhバッテリー S   - https://item.rakuten.co.jp/auc-worldichi/6939093007822/｜26,097｜【ダイヤ・プラチナ"}
   ]
