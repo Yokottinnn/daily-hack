@@ -1,0 +1,17 @@
+{
+ "_doc": "node scripts/gen-x-panels.mjs ops/data/x-cards/furusato-december-rakuten-2026.panels.json",
+ "_note": "2026-11-23 の候補づくり（ポイ活）。素材は記事の Commons の写真（CC BY-SA）。撮影者とライセンスは画像に出さず ALT に書く（CLAUDE.md 最上位ルール 8・2026-10-11）",
+ "imageBase": "public/images/furusato-december-rakuten-2026",
+ "out": "public/images/furusato-december-rakuten-2026/x",
+ "theme": "ink",
+ "panels": [
+  {
+   "file": "x1-deadline.jpg",
+   "kind": "html",
+   "noHeader": true,
+   "html": "<div class=\"w\"><img class=\"ph\" src=\"photos/ikura.jpg\" alt=\"\"><div class=\"shade\"></div><div class=\"tx\"><div class=\"k\">楽天ふるさと納税・2026年分</div><div class=\"t\">12/15から<br><em>銀行振込は使えない</em></div><ul class=\"pts\"><li><b>12/31 23:59</b>申込みと支払いまで終える</li><li><b>12/15〜1/8</b>銀行振込は止まる</li><li><b>1/10</b>ワンストップ特例の期限</li></ul></div></div>",
+   "css": "main{padding:0;height:1080px;display:block}\n.w{position:relative;height:1080px;color:#fff;background:#1E1219;overflow:hidden}\n.ph{position:absolute;left:0;top:0;width:100%;height:560px;object-fit:cover;object-position:center 50%}\n.shade{position:absolute;left:0;right:0;top:330px;height:232px;background:linear-gradient(180deg,rgba(30,18,25,0),#1E1219 92%)}\n.tx{position:absolute;left:56px;right:56px;top:470px;bottom:52px;display:flex;flex-direction:column}\n.k{align-self:flex-start;font-size:30px;font-weight:900;color:#2A1923;background:#F5C518;border-radius:999px;padding:6px 22px}\n.t{font-size:58px;font-weight:900;line-height:1.2;margin-top:14px;text-shadow:0 2px 12px rgba(0,0,0,.4)}\n.t em{font-style:normal;color:#EC5C90}\n.pts{list-style:none;margin-top:22px;flex:1;display:flex;flex-direction:column;justify-content:center;gap:16px}\n.pts li{font-size:34px;font-weight:700;line-height:1.35;background:rgba(255,255,255,.08);border-left:10px solid #EC5C90;border-radius:14px;padding:14px 24px}\n.pts b{color:#F5C518;margin-right:12px}",
+   "alt": "いくら丼。文字：楽天ふるさと納税・2026年分。12月15日から銀行振込は使えない。12月31日23時59分までに申込みと支払いまで終える。12月15日から1月8日は銀行振込が止まる。ワンストップ特例の期限は1月10日。画像：Flickr.com user \"Blue Lotus\"（CC BY 2.0・Wikimedia Commons）"
+  }
+ ]
+}
