@@ -1,1 +1,5 @@
-[]
+[
+      {"task": "t1185-verify-rakuten-electric-blanket.sh", "rc": 0, "out": "- 商品: 検索結果 45 件・型番「山善 電気掛敷毛布 YMK-203」の表示: あり - 題名: 【楽天市場】山善 電気掛敷毛布 YMK-203の通販 - 写真: Mac の手元のみ（private-shots/shop-verify/electric-blanket-comparison-2026/v08-rakuten.jpg・公開しない） -rw-r-"},
+      {"task": "t1186-verify-yahoo-electric-blanket.sh", "rc": 0, "out": "- 商品: 検索結果 30 件・型番「山善 電気掛敷毛布 YMK-203」の表示: あり - 題名: 山善 電気掛敷毛布 YMK-203のおすすめ人気商品一覧 通販 - Yahoo!ショッピング - 写真: Mac の手元のみ（private-shots/shop-verify/electric-blanket-comparison-2026/v08"},
+      {"task": "t1187-verify-amazon-electric-blanket.sh", "rc": 0, "out": "- 商品: 検索結果 52 件・型番「山善 電気掛敷毛布 YMK-203」の表示: あり・カートに入れるボタンあり - 題名: Amazon.co.jp : 山善 電気掛敷毛布 YMK-203 - 写真: Mac の手元のみ（private-shots/shop-verify/electric-blanket-comparison-2026/v08-amazon.jpg�"}
+  ]
