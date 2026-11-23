@@ -1,0 +1,6 @@
+[
+ {"id":"sharp-cv-u71","store":"amazon","keyword":"シャープ 除湿機 CV-U71","must":["U71"],"exclude":["中古","並行輸入","対応","フィルター","ホース","UH160","U190"]},
+ {"id":"sharp-cv-u71","store":"amazon","keyword":"シャープ 衣類乾燥除湿機 コンプレッサー 7.1L","must":["U71"],"exclude":["中古","並行輸入","対応","フィルター","ホース"]},
+ {"id":"corona-cd-wh1826","store":"amazon","keyword":"コロナ 除湿機 CD-WH1826","must":["WH1826"],"exclude":["中古","並行輸入","対応","フィルター","ホース"]},
+ {"id":"corona-cd-wh1826","store":"amazon","keyword":"コロナ 衣類乾燥除湿機 WHシリーズ 18L","must":["WH18"],"exclude":["中古","並行輸入","対応","フィルター","ホース","WH1825","WH1824","WH1823","WH1822"]}
+]
