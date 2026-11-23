@@ -1,0 +1,300 @@
+{
+ "slug": "tablet-comparison-2026",
+ "generated": "2026-11-23T14:21:28.827Z",
+ "total": 7,
+ "rows": [
+  {
+   "n": "01",
+   "store": "amazon",
+   "name": "Samsung Samsung Galaxy Tab A11+（Wi-Fi）",
+   "model": "",
+   "href": "https://www.amazon.co.jp/dp/B0FXWXJVP9?tag=dailyhack-22",
+   "chain": [
+    "https://m.media-amazon.com/images/S/sash/jzEkkqgQ2QXA7oq.html",
+    "https://www.amazon.co.jp/dp/B0FXWXJVP9?tag=dailyhack-22&th=1"
+   ],
+   "fin": "https://www.amazon.co.jp/dp/B0FXWXJVP9?tag=dailyhack-22&th=1",
+   "aff": "着いた先の URL に tag=dailyhack-22（アソシエイトの印）",
+   "found": "検索結果 0 件",
+   "buy": "その商品のページ（カートに入れるボタンあり）",
+   "title": "Amazon.co.jp: Samsung Galaxy Tab A11+ 128GB （Wi-Fi）｜AI対応｜グレー｜タブレット｜Samsung純正 国内正規品｜2025年発売",
+   "robot": false,
+   "cart": true,
+   "amazonResults": 0,
+   "rakutenResults": 0,
+   "yahooResults": 0,
+   "noHit": false,
+   "modelOnPage": null,
+   "keys": [
+    "A11+"
+   ],
+   "ads": null,
+   "items": 24,
+   "hits": 4,
+   "hitTitles": [
+    "CACOE Galaxy Tab A11+ / A9+ ケース ガラスフィルム セット ブラック | Galaxy Tab A11 Plus 2025 / A9Plus 11インチ",
+    "ProCase [2枚セット] ガラスフィルム 11 インチ Galaxy Tab A11+/A9+ 対応 保護フィルム | 強化ガラス素材 高透過 傷防止 指紋防止 簡単貼り付け",
+    "Tab A11+ 128GB （Wi-Fi）"
+   ],
+   "top": [
+    "CACOE Galaxy Tab A11+ / A9+ ケース ガラスフィルム セット ブラック | Galaxy Tab A11 Plus 2025 / A9Plus 11インチ",
+    "ProCase [2枚セット] ガラスフィルム 11 インチ Galaxy Tab A11+/A9+ 対応 保護フィルム | 強化ガラス素材 高透過 傷防止 指紋防止 簡単貼り付け",
+    "Tab A11+ 128GB （Wi-Fi）"
+   ],
+   "titleHit": true,
+   "h1": "Samsung Galaxy Tab A11+ 128GB （Wi-Fi）｜AI対応｜グレー｜タブレット｜Samsung純正 国内正規品｜2025年発売｜11.0インチ｜128GB",
+   "shot": "v01-amazon.jpg"
+  },
+  {
+   "n": "02",
+   "store": "amazon",
+   "name": "Apple Apple 11インチiPad（A16）",
+   "model": "",
+   "href": "https://www.amazon.co.jp/dp/B0DZ7WF87P?tag=dailyhack-22",
+   "chain": [
+    "https://www.amazon.co.jp/dp/B0DZ7WF87P?tag=dailyhack-22&th=1"
+   ],
+   "fin": "https://www.amazon.co.jp/dp/B0DZ7WF87P?tag=dailyhack-22&th=1",
+   "aff": "着いた先の URL に tag=dailyhack-22（アソシエイトの印）",
+   "found": "検索結果 0 件",
+   "buy": "その商品のページ（カートに入れるボタンあり）",
+   "title": "Amazon.co.jp: Apple 11 インチ iPad (A16): 11 インチモデル、Liquid Retina ディスプレイ、128GB、Wi-Fi 6、12MP フ",
+   "robot": false,
+   "cart": true,
+   "amazonResults": 0,
+   "rakutenResults": 0,
+   "yahooResults": 0,
+   "noHit": false,
+   "modelOnPage": null,
+   "keys": [
+    "iPad",
+    "A16"
+   ],
+   "ads": null,
+   "items": 15,
+   "hits": 5,
+   "hitTitles": [
+    "iPad (A16)",
+    "AppleCare+ for iPad(A16)",
+    "2年延長 AppleCare+ 盗難・紛失プラン for iPad (A16)"
+   ],
+   "top": [
+    "iPad Pro 13\" (M5)",
+    "iPad Pro 11\" (M5)",
+    "iPad Air 13\" (M4)"
+   ],
+   "titleHit": true,
+   "h1": "Apple 11 インチ iPad (A16): 11 インチモデル、Liquid Retina ディスプレイ、128GB、Wi-Fi 6、12MP フロント/12MP バックカメ",
+   "shot": "v02-amazon.jpg"
+  },
+  {
+   "n": "03",
+   "store": "amazon",
+   "name": "Apple Apple 11インチiPad Air（M4）",
+   "model": "",
+   "href": "https://www.amazon.co.jp/dp/B0GQWJCR4K?tag=dailyhack-22",
+   "chain": [
+    "https://www.amazon.co.jp/dp/B0GQWJCR4K?tag=dailyhack-22&th=1"
+   ],
+   "fin": "https://www.amazon.co.jp/dp/B0GQWJCR4K?tag=dailyhack-22&th=1",
+   "aff": "着いた先の URL に tag=dailyhack-22（アソシエイトの印）",
+   "found": "検索結果 0 件",
+   "buy": "その商品のページ（カートに入れるボタンあり）",
+   "title": "Amazon.co.jp: Apple 11インチiPad Air（M4）：Liquid Retinaディスプレイ、128GB、12MPフロント/バックカメラ、Apple N1によ",
+   "robot": false,
+   "cart": true,
+   "amazonResults": 0,
+   "rakutenResults": 0,
+   "yahooResults": 0,
+   "noHit": false,
+   "modelOnPage": null,
+   "keys": [
+    "iPad Air",
+    "M4"
+   ],
+   "ads": null,
+   "items": 15,
+   "hits": 7,
+   "hitTitles": [
+    "iPad Air 13\" (M4)",
+    "iPad Air 11\" (M4)",
+    "2年延長 AppleCare+ for iPad Air 11-inch (M4)"
+   ],
+   "top": [
+    "iPad Pro 13\" (M5)",
+    "iPad Pro 11\" (M5)",
+    "iPad Air 13\" (M4)"
+   ],
+   "titleHit": true,
+   "h1": "Apple 11インチiPad Air（M4）：Liquid Retinaディスプレイ、128GB、12MPフロント/バックカメラ、Apple N1によるWi-Fi 7、Touch",
+   "shot": "v03-amazon.jpg"
+  },
+  {
+   "n": "04",
+   "store": "amazon",
+   "name": "Apple Apple iPad mini（A20 Pro）",
+   "model": "",
+   "href": "https://www.amazon.co.jp/dp/B0HPC6RSC9?tag=dailyhack-22",
+   "chain": [
+    "https://www.amazon.co.jp/dp/B0HPC6RSC9?tag=dailyhack-22&th=1"
+   ],
+   "fin": "https://www.amazon.co.jp/dp/B0HPC6RSC9?tag=dailyhack-22&th=1",
+   "aff": "着いた先の URL に tag=dailyhack-22（アソシエイトの印）",
+   "found": "検索結果 0 件",
+   "buy": "その商品のページ（カートに入れるボタンあり）",
+   "title": "Amazon.co.jp: Apple iPad mini（A20 Pro） | 8.5インチOLEDディスプレイ、128GB、Wi-Fi 7、12MPフロント/バックカメラ、耐水",
+   "robot": false,
+   "cart": true,
+   "amazonResults": 0,
+   "rakutenResults": 0,
+   "yahooResults": 0,
+   "noHit": false,
+   "modelOnPage": null,
+   "keys": [
+    "iPad mini",
+    "A20"
+   ],
+   "ads": null,
+   "items": 11,
+   "hits": 4,
+   "hitTitles": [
+    "iPad mini (A20 Pro)",
+    "2年延長 AppleCare+ for iPad mini(A20 Pro)",
+    "2年延長 AppleCare+ 盗難・紛失プラン for iPad mini(A20 Pro)"
+   ],
+   "top": [
+    "iPad Pro 13\" (M5)",
+    "iPad Pro 11\" (M5)",
+    "iPad Air 13\" (M4)"
+   ],
+   "titleHit": true,
+   "h1": "Apple iPad mini（A20 Pro）",
+   "shot": "v04-amazon.jpg"
+  },
+  {
+   "n": "05",
+   "store": "amazon",
+   "name": "Xiaomi Xiaomi Pad 8",
+   "model": "",
+   "href": "https://www.amazon.co.jp/dp/B0FY4YF9S1?tag=dailyhack-22",
+   "chain": [
+    "https://m.media-amazon.com/images/S/sash/jzEkkqgQ2QXA7oq.html",
+    "https://www.amazon.co.jp/dp/B0FY4YF9S1?tag=dailyhack-22&th=1"
+   ],
+   "fin": "https://www.amazon.co.jp/dp/B0FY4YF9S1?tag=dailyhack-22&th=1",
+   "aff": "着いた先の URL に tag=dailyhack-22（アソシエイトの印）",
+   "found": "検索結果 0 件",
+   "buy": "その商品のページ（カートに入れるボタンあり）",
+   "title": "Amazon.co.jp: 【Amazon.co.jp限定】Xiaomi Pad 8 8G+128G グレー 11.2インチ 3.2K 144Hz高精細ディスプレイ 800nits",
+   "robot": false,
+   "cart": true,
+   "amazonResults": 0,
+   "rakutenResults": 0,
+   "yahooResults": 0,
+   "noHit": false,
+   "modelOnPage": null,
+   "keys": [
+    "Xiaomi Pad 8"
+   ],
+   "ads": null,
+   "items": 28,
+   "hits": 5,
+   "hitTitles": [
+    "MoKo Xiaomi Pad 8/7 11.2インチ ケース Mi Pad 8 Pro/7 Pro 11.2\" カバー シャオミパッド8/7 手帳型保護カバー スタンドケース オ",
+    "Lifeinnotech フィルム Xiaomi Pad 8 / 8 Pro / Pad7 / Pad 7 Pro 用 ペーパーライクフィルム 保護フィルム 反射低減 紙のような書",
+    "Xiaomi Pad 8"
+   ],
+   "top": [
+    "MoKo Xiaomi Pad 8/7 11.2インチ ケース Mi Pad 8 Pro/7 Pro 11.2\" カバー シャオミパッド8/7 手帳型保護カバー スタンドケース オ",
+    "Lifeinnotech フィルム Xiaomi Pad 8 / 8 Pro / Pad7 / Pad 7 Pro 用 ペーパーライクフィルム 保護フィルム 反射低減 紙のような書",
+    "https://www.amazon.co.jp/dp/B0FY4YF9S1"
+   ],
+   "titleHit": true,
+   "h1": "【Amazon.co.jp限定】Xiaomi Pad 8 8G+128G グレー 11.2インチ 3.2K 144Hz高精細ディスプレイ 800nits Snapdragon 8s",
+   "shot": "v05-amazon.jpg"
+  },
+  {
+   "n": "06",
+   "store": "amazon",
+   "name": "Xiaomi Xiaomi REDMI Pad 2 9.7",
+   "model": "",
+   "href": "https://www.amazon.co.jp/dp/B0GWKNKXM7?tag=dailyhack-22",
+   "chain": [
+    "https://m.media-amazon.com/images/S/sash/jzEkkqgQ2QXA7oq.html",
+    "https://www.amazon.co.jp/dp/B0GWKNKXM7?tag=dailyhack-22&th=1"
+   ],
+   "fin": "https://www.amazon.co.jp/dp/B0GWKNKXM7?tag=dailyhack-22&th=1",
+   "aff": "着いた先の URL に tag=dailyhack-22（アソシエイトの印）",
+   "found": "検索結果 0 件",
+   "buy": "その商品のページ（カートに入れるボタンあり）",
+   "title": "Amazon.co.jp: シャオミ(Xiaomi) REDMI Pad 2 9.7 タブレット 4GB+64GB グラファイトグレー wi-fiモデル 9.7インチ 2K 120",
+   "robot": false,
+   "cart": true,
+   "amazonResults": 0,
+   "rakutenResults": 0,
+   "yahooResults": 0,
+   "noHit": false,
+   "modelOnPage": null,
+   "keys": [
+    "REDMI Pad 2",
+    "9.7"
+   ],
+   "ads": null,
+   "items": 28,
+   "hits": 2,
+   "hitTitles": [
+    "[9.7インチ Redmi Pad 2 ケース ガラスフィルム セット]CACOE Redmi Pad 2 9.7インチ 用 ハードケース ブラック | オートスリープ 三つ折り ",
+    "REDMI Pad 2 9.7"
+   ],
+   "top": [
+    "[9.7インチ Redmi Pad 2 ケース ガラスフィルム セット]CACOE Redmi Pad 2 9.7インチ 用 ハードケース ブラック | オートスリープ 三つ折り ",
+    "その写り、ライカ。",
+    "今すぐチェック Xiaomi"
+   ],
+   "titleHit": true,
+   "h1": "シャオミ(Xiaomi) REDMI Pad 2 9.7 タブレット 4GB+64GB グラファイトグレー wi-fiモデル 9.7インチ 2K 120Hzリフレッシュレー7600",
+   "shot": "v06-amazon.jpg"
+  },
+  {
+   "n": "07",
+   "store": "amazon",
+   "name": "Amazon Amazon Fire HD 10（第13世代）",
+   "model": "",
+   "href": "https://www.amazon.co.jp/dp/B0C2XN8HKD?tag=dailyhack-22",
+   "chain": [
+    "https://www.amazon.co.jp/dp/B0C2XN8HKD?tag=dailyhack-22&th=1"
+   ],
+   "fin": "https://www.amazon.co.jp/dp/B0C2XN8HKD?tag=dailyhack-22&th=1",
+   "aff": "着いた先の URL に tag=dailyhack-22（アソシエイトの印）",
+   "found": "検索結果 0 件",
+   "buy": "その商品のページ（カートに入れるボタンあり）",
+   "title": "Amazon.co.jp: Amazon Fire HD 10 インチ タブレット - 1080pフル HDディスプレイ、大画面で動画もマンガも - 32GB ブラック : Ama",
+   "robot": false,
+   "cart": true,
+   "amazonResults": 0,
+   "rakutenResults": 0,
+   "yahooResults": 0,
+   "noHit": false,
+   "modelOnPage": null,
+   "keys": [
+    "Fire HD 10"
+   ],
+   "ads": null,
+   "items": 27,
+   "hits": 16,
+   "hitTitles": [
+    "Fire HD 10",
+    "【Fire HD 10 第13世代用】Bluetoothキーボード付きカバー (Made for Amazon 認定取得)",
+    "【Fire HD 10 第13世代用】Amazon純正 保護カバー (ブラック)"
+   ],
+   "top": [
+    "Fire HD 10",
+    "延長保証2年・事故保証3年プラン",
+    "ブラック"
+   ],
+   "titleHit": true,
+   "h1": "Amazon Fire HD 10 インチ タブレット - 1080pフル HDディスプレイ、大画面で動画もマンガも - 32GB ブラック",
+   "shot": "v07-amazon.jpg"
+  }
+ ]
+}

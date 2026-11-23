@@ -1,1 +1,5 @@
-[]
+[
+      {"task": "t1141-verify-rakuten-tablet.sh", "rc": 0, "out": "- 商品: 検索結果 50 件・型番「Fire HD 10 タブレット」の表示: あり - 題名: 【楽天市場】Fire HD 10 タブレットの通販 - 写真: Mac の手元のみ（private-shots/shop-verify/tablet-comparison-2026/v07-rakuten.jpg・公開しない） -rw-r--r--   1 ny  staff  1517"},
+      {"task": "t1142-verify-yahoo-tablet.sh", "rc": 0, "out": "- 商品: 検索結果 30 件・型番「Fire HD 10 タブレット」の表示: あり - 題名: Fire HD 10 タブレットのおすすめ人気商品一覧 通販 - Yahoo!ショッピング - 写真: Mac の手元のみ（private-shots/shop-verify/tablet-comparison-2026/v07-yahoo.jpg・公開し�"},
+      {"task": "t1143-verify-amazon-tablet.sh", "rc": 0, "out": "- 商品: 検索結果 0 件・型番「」の表示: —・カートに入れるボタンあり - 題名: Amazon.co.jp: Amazon Fire HD 10 インチ タブレット - 1080pフル HDディスプレイ、大画面で動画もマンガも - 32GB ブラック : Ama - 写真: Mac の手元のみ（privat"}
+  ]

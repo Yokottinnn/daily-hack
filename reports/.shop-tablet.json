@@ -1,12 +1,46 @@
 {
  "id": "tablet",
- "title": "タブレット（下書き・商品ページ探し用）",
- "columns": [],
+ "title": "タブレット",
+ "_note": "仕様・価格は各社公式（Apple の仕様ページ・Apple Store・ニュースルーム、Samsung の製品ページとニュースルーム、Xiaomi の仕様ページと PR TIMES、Amazon の商品ページ）で 2026-11-23 に確認。Amazon の Fire は Amazon の販売価格になるため本文・表に価格を書かない。",
+ "columns": [
+  {
+   "key": "os",
+   "label": "OSとアプリ"
+  },
+  {
+   "key": "screen",
+   "label": "画面"
+  },
+  {
+   "key": "storage",
+   "label": "容量"
+  },
+  {
+   "key": "price",
+   "label": "公式の価格"
+  },
+  {
+   "key": "weight",
+   "label": "重さ"
+  }
+ ],
+ "pricesCheckedAt": null,
  "items": [
   {
    "id": "ipad-a16",
    "brand": "Apple",
-   "name": "11インチiPad（A16）",
+   "name": "Apple 11インチiPad（A16）",
+   "badge": "iPadでいちばん安い",
+   "summary": "iPadのアプリを使いたい人の入口。128GBから、Wi-Fiで74,800円。",
+   "recommended": false,
+   "specs": {
+    "os": "iPadOS（App Store）",
+    "screen": "10.86インチ 2,360×1,640",
+    "storage": "128GB・256GB・512GB",
+    "price": "74,800円から",
+    "weight": "477g（Wi-Fi）"
+   },
+   "source": "https://www.apple.com/jp/ipad-11/specs/",
    "rakuten": {
     "keyword": "Apple iPad A16 11インチ",
     "must": [
@@ -79,13 +113,24 @@
    },
    "amazon": {
     "keyword": "Apple iPad A16 11インチ",
-    "asin": null
+    "asin": "B0DZ7WF87P"
    }
   },
   {
    "id": "ipad-air-m4",
    "brand": "Apple",
-   "name": "11インチiPad Air（M4）",
+   "name": "Apple 11インチiPad Air（M4）",
+   "badge": "長く使う1台",
+   "summary": "Apple Intelligence対応のM4とメモリ12GB。仕事や絵にも使うならここから。",
+   "recommended": false,
+   "specs": {
+    "os": "iPadOS（App Store）",
+    "screen": "10.86インチ 2,360×1,640",
+    "storage": "128GB〜1TB",
+    "price": "129,800円から",
+    "weight": "464g（Wi-Fi）"
+   },
+   "source": "https://www.apple.com/jp/ipad-air/specs/",
    "rakuten": {
     "keyword": "Apple iPad Air M4 11インチ",
     "must": [
@@ -154,13 +199,24 @@
    },
    "amazon": {
     "keyword": "Apple iPad Air M4 11インチ",
-    "asin": null
+    "asin": "B0GQWJCR4K"
    }
   },
   {
    "id": "ipad-mini-a20",
    "brand": "Apple",
-   "name": "iPad mini（A20 Pro）",
+   "name": "Apple iPad mini（A20 Pro）",
+   "badge": "片手で読む",
+   "summary": "2026年11月発売。8.5インチの有機ELで255g、水深1mのIP67。",
+   "recommended": false,
+   "specs": {
+    "os": "iPadOS（App Store）",
+    "screen": "8.5インチ 有機EL 2,316×1,512",
+    "storage": "128GB・256GB・512GB",
+    "price": "119,800円から",
+    "weight": "255g（Wi-Fi）"
+   },
+   "source": "https://www.apple.com/jp/ipad-mini/specs/",
    "rakuten": {
     "keyword": "Apple iPad mini A20 Pro",
     "must": [
@@ -227,13 +283,24 @@
    },
    "amazon": {
     "keyword": "Apple iPad mini A20 Pro",
-    "asin": null
+    "asin": "B0HPC6RSC9"
    }
   },
   {
    "id": "galaxy-tab-a11plus",
    "brand": "Samsung",
-   "name": "Galaxy Tab A11+（Wi-Fi）",
+   "name": "Samsung Galaxy Tab A11+（Wi-Fi）",
+   "badge": "SDで増やせる",
+   "summary": "11インチでメモリ6GB・128GB。microSDで最大2TBまで足せる、動画向きのAndroid。",
+   "recommended": true,
+   "specs": {
+    "os": "Android（Google Play）",
+    "screen": "11インチ 1,920×1,200",
+    "storage": "128GB＋microSD（最大2TB）",
+    "price": "48,070円（Samsungオンラインショップ）",
+    "weight": "477g"
+   },
+   "source": "https://www.samsung.com/jp/tablets/galaxy-tab-a/galaxy-tab-a11-plus-gray-128gb-sm-x230nzaaxjp/",
    "rakuten": {
     "keyword": "Galaxy Tab A11+ SM-X230",
     "must": [
@@ -306,13 +373,24 @@
    },
    "amazon": {
     "keyword": "Galaxy Tab A11+ SM-X230",
-    "asin": null
+    "asin": "B0FXWXJVP9"
    }
   },
   {
    "id": "xiaomi-pad-8",
    "brand": "Xiaomi",
    "name": "Xiaomi Pad 8",
+   "badge": "Androidの上位",
+   "summary": "11.2インチ3.2K・144Hz、Snapdragon 8s Gen 4。iPad Airより安いAndroidの上位機。",
+   "recommended": false,
+   "specs": {
+    "os": "Android（Google Play）・Xiaomi HyperOS 3",
+    "screen": "11.2インチ 3,200×2,136",
+    "storage": "128GB・256GB",
+    "price": "74,980円（8GB/128GB・市場想定価格）",
+    "weight": "485g"
+   },
+   "source": "https://www.mi.com/jp/product/xiaomi-pad-8/specs/",
    "rakuten": {
     "keyword": "Xiaomi Pad 8",
     "must": [
@@ -379,17 +457,28 @@
    },
    "amazon": {
     "keyword": "Xiaomi Pad 8",
-    "asin": null
+    "asin": "B0FY4YF9S1"
    }
   },
   {
    "id": "redmi-pad-2-97",
    "brand": "Xiaomi",
-   "name": "REDMI Pad 2 9.7",
+   "name": "Xiaomi REDMI Pad 2 9.7",
+   "badge": "2万円台",
+   "summary": "9.7インチで406g。動画と読書だけなら、この記事でいちばん安く始められる。",
+   "recommended": false,
+   "specs": {
+    "os": "Android（Google Play）・Xiaomi HyperOS 3",
+    "screen": "9.7インチ 2,048×1,280",
+    "storage": "64GB・128GB＋microSD（最大2TB）",
+    "price": "27,980円（4GB/64GB・市場想定価格）",
+    "weight": "406g"
+   },
+   "source": "https://www.mi.com/jp/product/redmi-pad-2-9-7-inch/specs/",
    "rakuten": {
     "keyword": "REDMI Pad 2 9.7",
     "must": [
-     "Pad 2",
+     "REDMI Pad 2",
      "9.7"
     ],
     "exclude": [
@@ -415,14 +504,14 @@
      "スリーブ",
      "ポーチ",
      "Pro",
-     "4G",
-     "SE"
+     "LTE",
+     "SIMフリー"
     ]
    },
    "yahoo": {
     "keyword": "REDMI Pad 2 9.7",
     "must": [
-     "Pad 2",
+     "REDMI Pad 2",
      "9.7"
     ],
     "exclude": [
@@ -448,19 +537,30 @@
      "スリーブ",
      "ポーチ",
      "Pro",
-     "4G",
-     "SE"
+     "LTE",
+     "SIMフリー"
     ]
    },
    "amazon": {
     "keyword": "REDMI Pad 2 9.7",
-    "asin": null
+    "asin": "B0GWKNKXM7"
    }
   },
   {
    "id": "fire-hd-10",
    "brand": "Amazon",
-   "name": "Fire HD 10 タブレット",
+   "name": "Amazon Fire HD 10（第13世代）",
+   "badge": "Amazonの動画と本",
+   "summary": "Prime Video・Kindleが中心の人向け。microSDで1TBまで足せる。Google Playは使えない。",
+   "recommended": false,
+   "specs": {
+    "os": "Amazon のアプリ（Google Play は非対応）",
+    "screen": "10.1インチ 1,920×1,200",
+    "storage": "32GB・64GB＋microSD（最大1TB）",
+    "price": "Amazon の販売価格（ボタンの先で確認）",
+    "weight": "434g"
+   },
+   "source": "https://www.amazon.co.jp/dp/B0C2XN8HKD?tag=dailyhack-22",
    "rakuten": {
     "keyword": "Fire HD 10 タブレット",
     "must": [
@@ -531,7 +631,7 @@
    },
    "amazon": {
     "keyword": "Fire HD 10 タブレット",
-    "asin": null
+    "asin": "B0C2XN8HKD"
    }
   }
  ]
