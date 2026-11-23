@@ -1,0 +1,72 @@
+ASIN: B0C65QXJMF
+URL: https://www.amazon.co.jp/dp/B0C65QXJMF
+TITLE: 【2枚セッ専用ガラス保護】2023年発売 対応 Fire Max 11 タブレット 11インチ 用のガラスフィルム 硬度9H 日本製素材旭硝子製 薄型0.33mm 飛散防止 撥油性 耐衝撃 Fire Max 11 タブレット 11インチ 用 液晶保護フィルム PCduoduo
+
+# 箇条書き
+【対応機種】2023年発売 対応 Fire Max 11 タブレット 11インチ 用の強化ガラス保護フィルム 【2枚入り】のセットです。万一破損、割れがあったら、すぐに交換できます。多くの時間をかけて新品の到着を待つ必要はありません。 タブレットを損傷から保護するだけでなく、多くの時間を節約できます
+【硬度9 H】業界最高クラス9H硬度な強化ガラスなので、日常的な使用範囲内では傷つけることはありません。また高い透過性、超薄型設計で、汚れも防ぎます。高い透明度 超薄0.3mm、画面に最高レベルの保護を施しながら、保護フィルム自体の存在感を感じさせません、上品でエレガントな印象を与えます。高画質で撮影した写真や動画、ゲームなどを手軽に楽しむことができます。
+【上質のタッチ感】疎油性コーティングを施すことで、指紋が目立ちにくくなり、滑らかな表面仕上で、操作性・視認性の低下を軽減します。付着した指紋、汗、化粧品などは簡単に拭き取ることができます。コーティング加工、タッチ加工などの特殊加工が施されており、油分、ほこり、指紋への抵抗力が強く、スムーズに操作できます。
+【飛散防止】割れ防止 飛散防止技術により、万が一割れても、ガラス破片が飛び散りづらく安心です。万一このフィルムに非常に強い力が加えられた場合でも、小さく尖った破片に砕け散ることはなく、お持ちの端末やご自身へ危険を回避できます。
+【自動吸着&無気泡】静電気吸着設計、自動吸着、気泡が入りにくく、操作が簡単です。「貼付け簡単」にはアルコール膜やホコリ膜などがついています。位置を決めて軽く押せば、自然に吸着できます。気泡がない場合は、誰でも簡単に貼り付けることができます。
+
+# 概要
+ブランド PCduoduo
+対応デバイス タブレット
+商品の硬度 9H
+対応電話モデル Amazon Fire Max 11
+特徴 9H 表面硬度, 耐衝撃性, 飛散防止
+仕上げタイプ 撥油コーティング、飛散防止コート
+画面サイズ 11 インチ
+色 2枚 Fire Max 11
+メーカー PCduoduo
+互換性のあるAmazonタブレットモデル amazon_fire_max_11_13th_generation
+
+# 技術仕様
+対応アイテム タブレット
+硬度 9H
+取替え可能電話機モデル Amazon Fire Max 11
+特別な機能 9H 表面硬度, 耐衝撃性, 飛散防止
+仕上げタイプ 撥油コーティング、飛散防止コート
+ディスプレイサイズ 11 インチ
+互換性のあるAmazonタブレットモデル amazon_fire_max_11_13th_generation
+対応タブレットコンピューターモデル amazon_fire_max_11_13th_generation
+ブランド名 PCduoduo
+カラー 2枚 Fire Max 11
+メーカー名 PCduoduo
+メーカー型番 PCduoduo
+Amazon 売れ筋ランキング パソコン・周辺機器 - 100,286位 (パソコン・周辺機器の売れ筋ランキングを見る) タブレットPC保護フィルム - 3,543位
+ASIN B0C65QXJMF
+おすすめ度 
+ 
+ 4.0 5つ星のうち4.0 
+
+ (2) 
+ 
+ var dpAcrHasRegisteredArcLinkClickAction;
+ P.when('A', 'ready').execute(function(A) {
+ if (dpAcrHasRegisteredArcLinkClickAction !== true) {
+ dpAcrHasRegisteredArcLinkClickAction = true;
+ A.declarative(
+ 'acrLink-click-metrics', 'click',
+ { "allowLinkDefault": true },
+ function (event) {
+ if (window.ue) {
+ ue.count("acrLinkClickCount", (ue.count("acrLinkClickCount") || 0) + 1);
+ }
+ }
+ );
+ }
+ });
+ 
+ 
+ P.when('A', 'cf').execute(function(A) {
+ A.declarative('acrStarsLink-click-metrics', 'click', { "allowLinkDefault" : true }, function(event){
+ if(window.ue) {
+ ue.count("acrStarsLinkWithPopoverClickCount", (ue.count("acrStarsLinkWithPopoverClickCount") || 0) + 1);
+ }
+ });
+ });
+ 
+
+ 
+ 5つ星のうち4.0

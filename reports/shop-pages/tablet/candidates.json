@@ -1,0 +1,580 @@
+{
+ "series": "tablet",
+ "generated": "2026-11-23T13:41:10.743Z",
+ "items": {
+  "ipad-a16": {
+   "amazon": {
+    "searched": 53,
+    "hits": [
+     {
+      "asin": "B0DZ7WF87P",
+      "title": "Apple 11 インチ iPad (A16): 11 インチモデル、Liquid Retina ディスプレイ、128GB、Wi-Fi 6、12MP フロント/12MP バックカメラ、Touch ID、一日中使えるバ ッテリー - シルバー",
+      "price": "￥63,723",
+      "sponsored": false
+     },
+     {
+      "asin": "B0DZ895SXY",
+      "title": "Apple 11 インチ iPad (A16): 11 インチモデル、Liquid Retina ディスプレイ、128GB、Wi-Fi 6、12MP フロント/12MP バックカメラ、Touch ID、一日中使えるバ ッテリー - ブルー",
+      "price": "￥63,974",
+      "sponsored": false
+     },
+     {
+      "asin": "B0DZ8HV6RT",
+      "title": "Apple 11 インチ iPad (A16): 11 インチモデル、Liquid Retina ディスプレイ、128GB、Wi-Fi 6、12MP フロント/12MP バックカメラ、Touch ID、一日中使えるバ ッテリー - イエロー",
+      "price": "￥67,320",
+      "sponsored": false
+     }
+    ],
+    "top": {
+     "asin": "B0DZ7WF87P",
+     "title": "Apple 11 インチ iPad (A16): 11 インチモデル、Liquid Retina ディスプレイ、128GB、Wi-Fi 6、12MP フロント/12MP バックカメラ、Touch ID、一日中使えるバ ッテリー - シルバー",
+     "price": "￥63,723",
+     "sponsored": false,
+     "page": {
+      "title": "Amazon.co.jp: Apple 11 インチ iPad (A16): 11 インチモデル、Liquid Retina ディスプレイ、128GB、Wi-Fi 6、12MP フロント/12MP バックカメラ、Touch ID、一日中使え",
+      "cart": true,
+      "h1": "Apple 11 インチ iPad (A16): 11 インチモデル、Liquid Retina ディスプレイ、128GB、Wi-Fi 6、12MP フロント/12MP バックカメラ、Touch ID、一日中使えるバ ッテリー - シルバー"
+     }
+    }
+   },
+   "rakuten": {
+    "searched": 45,
+    "hits": [
+     {
+      "url": "https://item.rakuten.co.jp/icockaden/ipad11/",
+      "title": "＼楽天ランキング入賞／ [新品未開封] Apple iPad (A16) 第11世代 11インチ Wi-Fi 2025年春モデル 128GB 256GB 512GB本体 ブルー ピンク イエロー シルバー",
+      "price": "74,980",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/087481ai/2100000017122/",
+      "title": "【送料無料・新品未開封】【日本正規純正品】Apple iPad タブレット 11インチ (A16) Wi-Fi 128GB MD3Y4J/A シルバー【お取り寄せ（2週から3週間程度での入荷、発送）】",
+      "price": "73,307",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/pocketstore/4549995560084/",
+      "title": "新品未開封　iPad (A16) 第11世代 11インチ Wi-Fi 128GB 2025年春モデル 保証未開始",
+      "price": "74,490",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/087481ai/2100000017123/",
+      "title": "【送料無料・新品未開封】【日本正規純正品】Apple iPad タブレット 11インチ (A16) Wi-Fi 128GB MD4A4J/A ブルー【お取り寄せ（2週から3週間程度での入荷、発送）】",
+      "price": "73,307",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/087481ai/2100000017126/",
+      "title": "【送料無料・新品未開封】【日本正規純正品】Apple iPad 11インチ タブレット (A16) Wi-Fi 256GB MD4G4J/A シルバー【お取り寄せ（2週から3週間程度での入荷、発送）】",
+      "price": "89,710",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/try3/4549995560084/",
+      "title": "【A16チップ最新モデル】Apple iPad 本体 新品 第11世代 11型 IPS ブルー A16 5コア 128GB Wi-Fi 6 MD4A4J/A iPad OS 18 USB-C 超広角カメラ 指紋認証 Blue",
+      "price": "76,979",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/try3/4549995560077/",
+      "title": "【新品/未開封/保証未開始】Apple iPad 新品 第11世代 11型 IPS シルバー A16 5コア 128GB Wi-Fi 6 MD3Y4J/A iPad OS 18 アップル USB-C 超広角カメラ 指紋認証 Silver 本体",
+      "price": "75,999",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/087481ai/2100000017127/",
+      "title": "【送料無料・新品未開封】【日本正規純正品】Apple iPad タブレット 11インチ (A16) Wi-Fi 256GB MD4H4J/A ブルー【お取り寄せ（2週から3週間程度での入荷、発送）】",
+      "price": "90,310",
+      "ad": false
+     }
+    ],
+    "top": {
+     "url": "https://item.rakuten.co.jp/icockaden/ipad11/",
+     "title": "＼楽天ランキング入賞／ [新品未開封] Apple iPad (A16) 第11世代 11インチ Wi-Fi 2025年春モデル 128GB 256GB 512GB本体 ブルー ピンク イエロー シルバー",
+     "price": "74,980",
+     "ad": false,
+     "page": {
+      "title": "【楽天市場】＼楽天ランキング入賞／ [新品未開封] Apple iPad (A16) 第11世代 11インチ Wi-Fi 2025年春モデル 128GB 256GB 512GB本体 ブルー ピンク イエロー シルバー：家電問屋　楽天市場店",
+      "cart": true,
+      "h1": ""
+     }
+    }
+   }
+  },
+  "ipad-air-m4": {
+   "amazon": {
+    "searched": 52,
+    "hits": [
+     {
+      "asin": "B0GQWJCR4K",
+      "title": "Apple 11インチiPad Air（M4）：Liquid Retinaディスプレイ、128GB、12MPフロント/バックカメラ、Apple N1によるWi-Fi 7、Touch ID、一日中使えるバッテリー — スペースグレイ",
+      "price": "￥118,000",
+      "sponsored": false
+     },
+     {
+      "asin": "B0GQWWWH1T",
+      "title": "Apple 11インチiPad Air（M4）：Liquid Retinaディスプレイ、256GB、12MPフロント/バックカメラ、Apple N1によるWi-Fi 7、Touch ID、一日中使えるバッテリー — スペースグレイ",
+      "price": "￥133,455",
+      "sponsored": false
+     },
+     {
+      "asin": "B0GQW2J67Z",
+      "title": "Apple 11インチiPad Air（M4）：Liquid Retinaディスプレイ、256GB、12MPフロント/バックカメラ、Apple N1によるWi-Fi 7、Touch ID、一日中使えるバッテリー — スターライト",
+      "price": "￥133,455",
+      "sponsored": false
+     }
+    ],
+    "top": {
+     "asin": "B0GQWJCR4K",
+     "title": "Apple 11インチiPad Air（M4）：Liquid Retinaディスプレイ、128GB、12MPフロント/バックカメラ、Apple N1によるWi-Fi 7、Touch ID、一日中使えるバッテリー — スペースグレイ",
+     "price": "￥118,000",
+     "sponsored": false,
+     "page": {
+      "title": "Amazon.co.jp: Apple 11インチiPad Air（M4）：Liquid Retinaディスプレイ、128GB、12MPフロント/バックカメラ、Apple N1によるWi-Fi 7、Touch ID、一日中使えるバッテリー ",
+      "cart": true,
+      "h1": "Apple 11インチiPad Air（M4）：Liquid Retinaディスプレイ、128GB、12MPフロント/バックカメラ、Apple N1によるWi-Fi 7、Touch ID、一日中使えるバッテリー — スペースグレイ"
+     }
+    }
+   },
+   "rakuten": {
+    "searched": 45,
+    "hits": [
+     {
+      "url": "https://item.rakuten.co.jp/worldmobile/air-8-ox/",
+      "title": "【未開封｜未使用】iPad Air 第8世代 (M4) 11インチ",
+      "price": "125,800",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/keitai-god/air8-11-128-n/",
+      "title": "【19日20時からポイントUP! BLACK FRIDAY】新品未開封品【Nランク】2026年モデル iPad Air 11インチ (M4) Wi-Fi 128GB 第8世代 スペースグレイ MH304J/A スターライト MH334J/A ブルー MH314J/A パープル MH344J/A",
+      "price": "123,000",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/try3/4549995662030/",
+      "title": "【新品/未開封】 Apple iPad Air 11インチ M4 256GB メモリ 12GB MH354J/A スペースグレイ Wi-Fiモデル 8コア 11型 アップル Liquid Retina ディスプレイ Touch ID 新品 本体 MH354JA",
+      "price": "142,979",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/digimart-shop/tab00118/",
+      "title": "【全品ポイント2倍 19日20:00〜25日01:59まで】【送料無料】アップル Apple iPad Air 11インチ (M4) Wi-Fi 128GB 2026年春モデル MH304 LL/A [スペースグレイ]【新品・輸入品】",
+      "price": "117,000",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/try3/4549995662009/",
+      "title": "【新品/未開封/保証未開始】 Apple iPad Air 11インチ M4 128GB メモリ 12GB MH314J/A ブルー Wi-Fiモデル 8コア 11型 アップル Liquid Retina ディスプレイ Touch ID 新品 本体 MH314JA",
+      "price": "125,998",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/try3/4549995662047/",
+      "title": "【新品/未開封】 Apple iPad Air 11インチ M4 256GB メモリ 12GB MH364J/A ブルー Wi-Fiモデル 8コア 11型 アップル Liquid Retina ディスプレイ Touch ID 新品 本体 MH364JA",
+      "price": "145,979",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/try3/4549995661996/",
+      "title": "【新品/未開封】 Apple iPad Air 11インチ M4 128GB メモリ 12GB MH304J/A スペースグレイ Wi-Fiモデル 8コア 11型 アップル Liquid Retina ディスプレイ Touch ID 新品 本体 MH304JA",
+      "price": "123,979",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/try3/4549995662054/",
+      "title": "【新品/未開封】Apple iPad Air 11インチ M4 256GB メモリ 12GB MH374J/A スターライト Wi-Fiモデル 8コア 11型 アップル Liquid Retina ディスプレイ Touch ID 新品 本体 MH374JA",
+      "price": "151,979",
+      "ad": false
+     }
+    ],
+    "top": {
+     "url": "https://item.rakuten.co.jp/worldmobile/air-8-ox/",
+     "title": "【未開封｜未使用】iPad Air 第8世代 (M4) 11インチ",
+     "price": "125,800",
+     "ad": false,
+     "page": {
+      "title": "【楽天市場】【未開封｜未使用】iPad Air 第8世代 (M4) 11インチ：WORLDMOBILE",
+      "cart": true,
+      "h1": ""
+     }
+    }
+   }
+  },
+  "ipad-mini-a20": {
+   "amazon": {
+    "searched": 49,
+    "hits": [
+     {
+      "asin": "B0HPC6RSC9",
+      "title": "Apple iPad mini（A20 Pro）",
+      "price": "￥107,819",
+      "sponsored": false
+     },
+     {
+      "asin": "B0HPCJ2CG6",
+      "title": "Apple iPad mini（A20 Pro）",
+      "price": "￥124,364",
+      "sponsored": false
+     },
+     {
+      "asin": "B0HPCVNVX3",
+      "title": "Apple iPad mini（A20 Pro）",
+      "price": "￥107,819",
+      "sponsored": false
+     }
+    ],
+    "top": {
+     "asin": "B0HPC6RSC9",
+     "title": "Apple iPad mini（A20 Pro）",
+     "price": "￥107,819",
+     "sponsored": false,
+     "page": {
+      "title": "Amazon.co.jp: Apple iPad mini（A20 Pro） | 8.5インチOLEDディスプレイ、128GB、Wi-Fi 7、12MPフロント/バックカメラ、耐水性能 — ミッドナイト : パソコン・周辺機器",
+      "cart": true,
+      "h1": "Apple iPad mini（A20 Pro）"
+     }
+    }
+   },
+   "rakuten": {
+    "searched": 45,
+    "hits": [
+     {
+      "url": "https://item.rakuten.co.jp/087481ai/2100000028496/",
+      "title": "【送料無料・新品未開封】【日本正規純正品】Apple iPad mini(A20 Pro) Wi-Fi 128GB MJ6F4J/A ミッドナイト【お取り寄せ（2週から3週間程度での入荷、発送）】",
+      "price": "119,480",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/rakutenmobile-store/ipad-mini-a20-pro/",
+      "title": "【新登場】 Apple iPad mini（A20 Pro）Wi-Fi＋Cellularモデル 端末本体のみ(機種変更はこちら) 【ご注文から30分経過後はキャンセル不可】【自宅受け取り限定 / 本人確認必須】",
+      "price": "166,300",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/087481ai/2100000028498/",
+      "title": "【送料無料・新品未開封】【日本正規純正品】Apple iPad mini(A20 Pro) Wi-Fi 256GB MJ6R4J/A スターライト【お取り寄せ（2週から3週間程度での入荷、発送）】",
+      "price": "139,839",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/087481ai/2100000028499/",
+      "title": "【送料無料・新品未開封】【日本正規純正品】Apple iPad mini(A20 Pro) Wi-Fi 256GB MJ6Q4J/A ミッドナイト【お取り寄せ（2週から3週間程度での入荷、発送）】",
+      "price": "142,684",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/outletplaza/40001118441/",
+      "title": "Apple iPad mini 8.5インチ (A20 Pro) Wi-Fi 128GB 2026年秋モデル MJ6F4J/A ミッドナイト アップル アイパッドミニ",
+      "price": "119,790",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/icockaden/groi1fa/",
+      "title": "「新品」Apple iPad mini (A20 Pro) 8.5インチ Wi-Fi 128GB 2026年秋モデル MJ6J4J/A [スターライト]",
+      "price": "119,178",
+      "ad": false
+     }
+    ],
+    "top": {
+     "url": "https://item.rakuten.co.jp/087481ai/2100000028496/",
+     "title": "【送料無料・新品未開封】【日本正規純正品】Apple iPad mini(A20 Pro) Wi-Fi 128GB MJ6F4J/A ミッドナイト【お取り寄せ（2週から3週間程度での入荷、発送）】",
+     "price": "119,480",
+     "ad": false,
+     "page": {
+      "title": "【楽天市場】【送料無料・新品未開封】【日本正規純正品】Apple iPad mini(A20 Pro) Wi-Fi 128GB MJ6F4J/A ミッドナイト【お取り寄せ（２週から３週間程度での入荷、発送）】：激安家電の店　愛グループ",
+      "cart": true,
+      "h1": ""
+     }
+    }
+   }
+  },
+  "galaxy-tab-a11plus": {
+   "amazon": {
+    "searched": 50,
+    "hits": [
+     {
+      "asin": "B0FXWXJVP9",
+      "title": "Samsung Galaxy Tab A11+ 128GB （Wi-Fi）｜AI対応｜グレー｜タブレット｜Samsung純正 国内正規品｜2025年発売｜11.0インチ｜128GB(最大2TB拡張)｜バッテリー7,040mAh｜477.0g｜Android｜SM-X230NZAAXJP",
+      "price": "￥40,124",
+      "sponsored": false
+     },
+     {
+      "asin": "B0G1BS88B9",
+      "title": "Samsung Galaxy Tab A11+ Plus 2026 (256GB 8GB Wi-Fiのみ) 11インチ 90Hz Android 16 タブレット オールデイバッテリー オクタコア (4nm) 4スピーカー 国際モデル X230 | 高速充電キューブバンドル | グレー",
+      "price": "￥63,303",
+      "sponsored": false
+     },
+     {
+      "asin": "B0G38V6MRN",
+      "title": "Samsung Galaxy Tab A11+ Plus 8+256GB、Wi-Fiのみ、インターナショナル、シルバー",
+      "price": "￥58,470",
+      "sponsored": false
+     },
+     {
+      "asin": "B0GTW8V94N",
+      "title": "Samsung Galaxy Tab A11+ SM-X230 タブレット - 11インチ WUXGA - MediaTek Dimensity",
+      "price": "￥80,149",
+      "sponsored": false
+     }
+    ],
+    "top": {
+     "asin": "B0FXWXJVP9",
+     "title": "Samsung Galaxy Tab A11+ 128GB （Wi-Fi）｜AI対応｜グレー｜タブレット｜Samsung純正 国内正規品｜2025年発売｜11.0インチ｜128GB(最大2TB拡張)｜バッテリー7,040mAh｜477.0g｜Android｜SM-X230NZAAXJP",
+     "price": "￥40,124",
+     "sponsored": false,
+     "page": {
+      "title": "Amazon.co.jp: Samsung Galaxy Tab A11+ 128GB （Wi-Fi）｜AI対応｜グレー｜タブレット｜Samsung純正 国内正規品｜2025年発売｜11.0インチ｜128GB(最大2TB拡張)｜バッテリー7",
+      "cart": true,
+      "h1": "Samsung Galaxy Tab A11+ 128GB （Wi-Fi）｜AI対応｜グレー｜タブレット｜Samsung純正 国内正規品｜2025年発売｜11.0インチ｜128GB(最大2TB拡張)｜バッテリー7,040mAh｜477.0g"
+     }
+    }
+   },
+   "rakuten": {
+    "searched": 45,
+    "hits": [
+     {
+      "url": "https://item.rakuten.co.jp/r-kojima/4986773256201/",
+      "title": "GALAXY　Samsung Galaxy Tab A11＋ 128GB / Gray(Galaxy Sペン非対応) ［11型 / Wi-Fiモデル / ストレージ：128GB］　SM-X230NZAAXJP",
+      "price": "47,314",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/jism/4986773256201-41-46637-n/",
+      "title": "SAMSUNG｜サムスン Galaxy Tab A11+（11インチ/メモリ 6GB/ストレージ 128GB/Wi-Fiモデル）Gray SM-X230NZAAXJP",
+      "price": "48,070",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/biccamera/4986773256201/",
+      "title": "【エントリーで最大全額ポイント還元｜11/25まで】 GALAXY｜ギャラクシー Androidタブレット Galaxy Tab A11+ グレー SM-X230NZAAXJP [11型 /Wi-Fiモデル /ストレージ：128GB]",
+      "price": "48,070",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/yamada-denki/9423901017/",
+      "title": "Samsung SM-X230NZAAXJP Galaxy Tab A11+ 128GB 11インチ液晶搭載 90Hz対応 Gray",
+      "price": "47,314",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/tuzukiya/n1922-0002/",
+      "title": "日本サムスン Samsung Galaxy Tab A11+ Wi-Fi H169xW257xD7mm SM-X230NZAAXJP 1点",
+      "price": "41,789",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/ebest/4986773256201/",
+      "title": "SAMSUNG サムスン Galaxy Tab A11+ SM-X230NZAAXJP 11型 メモリ6GB ストレージ128GB Wi-Fi Android タブレット グレー SMX230NZAAXJP",
+      "price": "52,882",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/dtc/4986773256201/",
+      "title": "GALAXY Samsung Galaxy Tab A11+ 128GB / Gray ［11型 /Wi-Fiモデル /ストレージ：128GB］ SM-X230NZAAXJP",
+      "price": "48,490",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/etre/1301701/",
+      "title": "Galaxy SM-X230NZAAXJP [Samsung Galaxy Tab A11+ Wi-Fi(MediaTek MT8775/6GB/128GB/And/11/WiFi)]",
+      "price": "47,880",
+      "ad": false
+     }
+    ],
+    "top": {
+     "url": "https://item.rakuten.co.jp/r-kojima/4986773256201/",
+     "title": "GALAXY　Samsung Galaxy Tab A11＋ 128GB / Gray(Galaxy Sペン非対応) ［11型 / Wi-Fiモデル / ストレージ：128GB］　SM-X230NZAAXJP",
+     "price": "47,314",
+     "ad": false,
+     "page": {
+      "title": "【楽天市場】GALAXY　Samsung Galaxy Tab A11＋ 128GB / Gray(Galaxy Sペン非対応) ［11型 / Wi-Fiモデル / ストレージ：128GB］　SM-X230NZAAXJP：コジマ楽天市場店",
+      "cart": true,
+      "h1": ""
+     }
+    }
+   }
+  },
+  "xiaomi-pad-8": {
+   "amazon": {
+    "searched": 56,
+    "hits": [
+     {
+      "asin": "B0FY4YF9S1",
+      "title": "【Amazon.co.jp限定】Xiaomi Pad 8 8G+128G グレー 11.2インチ 3.2K 144Hz高精細ディスプレイ 800nits Snapdragon 8s Gen 4 Xiaomi HyperOS 3搭載 AI機能 Google Gemini クワッドスピーカー Dolby Vision 9200mAhバッテリー 45W急速充電 エンターテインメント 作業 会議用",
+      "price": "￥68,164",
+      "sponsored": true
+     },
+     {
+      "asin": "B0GJZP7FD9",
+      "title": "Xiaomi Pad 8 8G+256G Snapdragon 8s Gen 4 HyperOS 3 11.2型 グレー",
+      "price": "￥71,800",
+      "sponsored": true
+     },
+     {
+      "asin": "B0FY4YF9S1",
+      "title": "【Amazon.co.jp限定】Xiaomi Pad 8 8G+128G グレー 11.2インチ 3.2K 144Hz高精細ディスプレイ 800nits Snapdragon 8s Gen 4 Xiaomi HyperOS 3搭載 AI機能 Google Gemini クワッドスピーカー Dolby Vision 9200mAhバッテリー 45W急速充電 エンターテインメント 作業 会議用",
+      "price": "￥68,164",
+      "sponsored": false
+     },
+     {
+      "asin": "B0GJZP7FD9",
+      "title": "Xiaomi Pad 8 8G+256G Snapdragon 8s Gen 4 HyperOS 3 11.2型 グレー",
+      "price": "￥71,800",
+      "sponsored": false
+     },
+     {
+      "asin": "B0FY575TBD",
+      "title": "【Amazon.co.jp限定】Xiaomi Pad 8 8G+128G ブルー 11.2インチ 3.2K 144Hz高精細ディスプレイ 800nits Snapdragon 8s Gen 4 Xiaomi HyperOS 3搭載 AI機能 Google Gemini クワッドスピーカー Dolby Vision 9200mAhバッテリー 45W急速充電 エンターテインメント 作業 会議用",
+      "price": "￥68,164",
+      "sponsored": false
+     },
+     {
+      "asin": "B0FY54GCX6",
+      "title": "【Amazon.co.jp限定】Xiaomi Pad 8 8G+128G パイングリーン 11.2インチ 3.2K 144Hz高精細ディスプレイ 800nits Snapdragon 8s Gen 4 Xiaomi HyperOS 3搭載 AI機能 Google Gemini クワッドスピーカー Dolby Vision 9200mAhバッテリー 45W急速充電 エンターテインメント 作業 会議用",
+      "price": "￥68,164",
+      "sponsored": false
+     }
+    ],
+    "top": {
+     "asin": "B0FY4YF9S1",
+     "title": "【Amazon.co.jp限定】Xiaomi Pad 8 8G+128G グレー 11.2インチ 3.2K 144Hz高精細ディスプレイ 800nits Snapdragon 8s Gen 4 Xiaomi HyperOS 3搭載 AI機能 Google Gemini クワッドスピーカー Dolby Vision 9200mAhバッテリー 45W急速充電 エンターテインメント 作業 会議用",
+     "price": "￥68,164",
+     "sponsored": false,
+     "page": {
+      "title": "Amazon.co.jp: 【Amazon.co.jp限定】Xiaomi Pad 8 8G+128G グレー 11.2インチ 3.2K 144Hz高精細ディスプレイ 800nits Snapdragon 8s Gen 4 Xiaomi Hy",
+      "cart": true,
+      "h1": "【Amazon.co.jp限定】Xiaomi Pad 8 8G+128G グレー 11.2インチ 3.2K 144Hz高精細ディスプレイ 800nits Snapdragon 8s Gen 4 Xiaomi HyperOS 3搭載 AI機能"
+     }
+    }
+   },
+   "rakuten": {
+    "searched": 45,
+    "hits": [
+     {
+      "url": "https://item.rakuten.co.jp/superdeal/17175zpv10324/",
+      "title": "Xiaomi Pad 8 8GB+128GB タブレット 11.2インチ 3.2K 144Hz高精細ディスプレイ 9200mAh Snapdragon 8s Gen 4",
+      "price": "74,980",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/xiaomiofficial/m71711copy/",
+      "title": "【楽天1位! 】Xiaomi Pad 8 8G+256G 12G+256G タブレット Snapdragon® 8s Gen 4 Mobile Platform 3.2K 144Hz高精細ディスプレイ 9200mAhの大容量バッテリー、45W ターボチャージ",
+      "price": "67,980",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/xiaomiofficial/m71711/",
+      "title": "Xiaomi Pad 8 8GB+128GB タブレット Snapdragon® 8s Gen 4 Mobile Platform 3.2K 144Hz高精細ディスプレイ 9200mAhの大容量バッテリー、45W ターボチャージ",
+      "price": "74,980",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/r-kojima/6932554473211/",
+      "title": "XIAOMI シャオミ　Xiaomi Pad 8 Gray 8G＋128G ［11.2型 / Wi-Fiモデル / ストレージ：128GB］　VHU6368JP",
+      "price": "71,871",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/biccamera/6932554473211/",
+      "title": "【エントリーで最大全額ポイント還元｜11/25まで】 Xiaomi｜シャオミ Androidタブレット Xiaomi Pad 8(8G+128G) グレー VHU6368JP [11.2型 /Wi-Fiモデル /ストレージ：128GB]",
+      "price": "71,871",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/biccamera/6932554473495/",
+      "title": "【エントリーで最大全額ポイント還元｜11/25まで】 Xiaomi｜シャオミ Androidタブレット Xiaomi Pad 8(8G+128G) ブルー VHU6396JP [11.2型 /Wi-Fiモデル /ストレージ：128GB]",
+      "price": "71,211",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/ebest/6932554473211/",
+      "title": "Xiaomi シャオミ Xiaomi Pad 8 Gray 8G+128G VHU6368JP Wi-Fi 7対応 11.2型 Xiaomi HyperOS 3 Androidタブレット グレー VHU6368JP",
+      "price": "71,870",
+      "ad": false
+     },
+     {
+      "url": "https://item.rakuten.co.jp/r-kojima/6932554473495/",
+      "title": "XIAOMI シャオミ　Xiaomi Pad 8 Blue 8G＋128G ［11.2型 / Wi-Fiモデル / ストレージ：128GB］　VHU6396JP",
+      "price": "71,211",
+      "ad": false
+     }
+    ],
+    "top": {
+     "url": "https://item.rakuten.co.jp/superdeal/17175zpv10324/",
+     "title": "Xiaomi Pad 8 8GB+128GB タブレット 11.2インチ 3.2K 144Hz高精細ディスプレイ 9200mAh Snapdragon 8s Gen 4",
+     "price": "74,980",
+     "ad": false,
+     "page": {
+      "title": "【楽天市場】Xiaomi Pad 8 8GB+128GB タブレット 11.2インチ 3.2K 144Hz高精細ディスプレイ 9200mAh Snapdragon 8s Gen 4：楽天スーパーDEALSHOP",
+      "cart": true,
+      "h1": ""
+     }
+    }
+   }
+  },
+  "redmi-pad-2-97": {
+   "amazon": {
+    "searched": 52,
+    "hits": []
+   },
+   "rakuten": {
+    "searched": 45,
+    "hits": []
+   }
+  },
+  "fire-hd-10": {
+   "amazon": {
+    "searched": 52,
+    "hits": [
+     {
+      "asin": "B0C2XN8HKD",
+      "title": "Amazon Fire HD 10 インチ タブレット - 1080pフル HDディスプレイ、大画面で動画もマンガも - 32GB ブラック",
+      "price": "￥18,164",
+      "sponsored": false
+     },
+     {
+      "asin": "B0CTMRXCT4",
+      "title": "Fire HD 10 タブレット ブラック - 32GB + Kindle+（3か月分。以降自動更新）",
+      "price": "￥18,164",
+      "sponsored": false
+     }
+    ],
+    "top": {
+     "asin": "B0C2XN8HKD",
+     "title": "Amazon Fire HD 10 インチ タブレット - 1080pフル HDディスプレイ、大画面で動画もマンガも - 32GB ブラック",
+     "price": "￥18,164",
+     "sponsored": false,
+     "page": {
+      "title": "Amazon.co.jp: Amazon Fire HD 10 インチ タブレット - 1080pフル HDディスプレイ、大画面で動画もマンガも - 32GB ブラック : Amazonデバイス・アクセサリ",
+      "cart": true,
+      "h1": "Amazon Fire HD 10 インチ タブレット - 1080pフル HDディスプレイ、大画面で動画もマンガも - 32GB ブラック"
+     }
+    }
+   },
+   "rakuten": {
+    "searched": 45,
+    "hits": [
+     {
+      "url": "https://item.rakuten.co.jp/cloud-nine/2593-000817/",
+      "title": "＼ブラックフライデー ポイント最大29.5倍／即納【高評価★4.6】【新型 第13世代】Amazon Fire HD 10 HDディスプレイ 10インチ 32GB アマゾン ファイヤータブレット Amazon Fireタブレット アマゾン fire hd 10 ファイヤーhd アマゾンタブレット アレクサ alexa",
+      "price": "26,980",
+      "ad": false
+     }
+    ],
+    "top": {
+     "url": "https://item.rakuten.co.jp/cloud-nine/2593-000817/",
+     "title": "＼ブラックフライデー ポイント最大29.5倍／即納【高評価★4.6】【新型 第13世代】Amazon Fire HD 10 HDディスプレイ 10インチ 32GB アマゾン ファイヤータブレット Amazon Fireタブレット アマゾン fire hd 10 ファイヤーhd アマゾンタブレット アレクサ alexa",
+     "price": "26,980",
+     "ad": false,
+     "page": {
+      "title": "【楽天市場】＼ブラックフライデー ポイント最大29.5倍／即納【高評価★4.6】【新型 第13世代】Amazon Fire HD 10 HDディスプレイ 10インチ 32GB アマゾン ファイヤータブレット Amazon Fireタブレット",
+      "cart": true,
+      "h1": ""
+     }
+    }
+   }
+  }
+ }
+}
