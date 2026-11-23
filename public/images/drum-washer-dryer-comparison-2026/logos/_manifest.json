@@ -1,0 +1,48 @@
+{
+ "panasonic.png": {
+  "brand": "パナソニック",
+  "title": "File:Panasonic Group logo.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Panasonic_Group_logo.svg",
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Panasonic_Group_logo.svg/960px-Panasonic_Group_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "orig": "https://upload.wikimedia.org/wikipedia/commons/5/54/Panasonic_Group_logo.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+  "license": "Public domain",
+  "fetched": "2026-10-18",
+  "task": "ops/tasks/x317-product-brand-logos-wiki.sh",
+  "copied_from": "public/images/countertop-dishwasher-comparison-2026/logos/panasonic.png"
+ },
+ "toshiba.png": {
+  "brand": "東芝",
+  "src": "https://www.toshiba-lifestyle.com/jp/img/common/header-logo-2.svg",
+  "page": "https://www.toshiba-lifestyle.com/jp/dish-drye/",
+  "license": "商標（識別目的で使用・改変なし）",
+  "fetched": "2026-11-22",
+  "note": "東芝ライフスタイルの公式サイトのヘッダーの SVG。描く大きさだけ指定して PNG にした",
+  "copied_from": "public/images/countertop-dishwasher-comparison-2026/logos/toshiba.png"
+ },
+ "aqua.png": {
+  "brand": "アクア（AQUA）",
+  "src": "https://aqua-has.com/wp-content/themes/aqua-has/resources/images/common/logo_blue.svg",
+  "page": "https://aqua-has.com/dishwasher",
+  "license": "商標（識別目的で使用・改変なし）",
+  "fetched": "2026-11-22",
+  "note": "公式サイトのヘッダーの SVG を Chromium で PNG にした",
+  "copied_from": "public/images/countertop-dishwasher-comparison-2026/logos/aqua.png"
+ },
+ "hitachi.png": {
+  "brand": "日立",
+  "page": "https://commons.wikimedia.org/wiki/File:Hitachi_logo.svg",
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Hitachi_logo.svg/960px-Hitachi_logo.svg.png",
+  "lic": "Public domain",
+  "fetched": "2026-11-22",
+  "via": "Wikimedia Commons",
+  "copied_from": "public/images/cordless-stick-cleaner-comparison-2026/logos/hitachi.png"
+ },
+ "sharp.png": {
+  "brand": "シャープ",
+  "src": "https://jp.sharp/assets/common/images/logo_sharp.svg",
+  "page": "https://jp.sharp/hotcook/",
+  "note": "公式サイトのヘッダーのロゴ（SVG を Chromium で PNG にし、透明の余白だけ落とした）",
+  "fetched": "2026-11-22",
+  "copied_from": "public/images/electric-pressure-cooker-comparison-2026/logos/sharp.png"
+ }
+}

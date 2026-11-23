@@ -20,7 +20,7 @@
       "label": "メーカー直販の価格（税込）"
     }
   ],
-  "pricesCheckedAt": "2026-11-21T21:42:39.263Z",
+  "pricesCheckedAt": "2026-11-23T21:44:00.508Z",
   "items": [
     {
       "id": "healmild-lotion-120",
@@ -76,7 +76,7 @@
         "reviewAverage": null,
         "reviewCount": 0,
         "shop": "くすりのレデイハートショップ",
-        "checkedAt": "2026-11-21T21:42:39.263Z"
+        "checkedAt": "2026-11-23T21:44:00.508Z"
       },
       "amazon": {
         "keyword": "ヒルマイルドローション 120g 第2類医薬品",
@@ -130,13 +130,13 @@
           "◆"
         ],
         "url": "https://store.shopping.yahoo.co.jp/minoku-value/1758912603-1-e.html",
-        "price": 1208,
+        "price": 1184,
         "shippingFree": false,
         "point": 0,
         "reviewAverage": null,
         "reviewCount": 0,
         "shop": "みんなのお薬バリュープライス(みんなのお薬)",
-        "checkedAt": "2026-11-21T21:42:39.263Z"
+        "checkedAt": "2026-11-23T21:44:00.508Z"
       },
       "amazon": {
         "keyword": "ヒルマイルドローション 60g 第2類医薬品",
@@ -183,14 +183,14 @@
           "中古",
           "◆"
         ],
-        "url": "https://store.shopping.yahoo.co.jp/denergy2/al-4987074300020-sss-fr.html",
-        "price": 850,
-        "shippingFree": false,
+        "url": "https://store.shopping.yahoo.co.jp/minoku-max/2224-1-b.html",
+        "price": 862,
+        "shippingFree": true,
         "point": 0,
         "reviewAverage": null,
         "reviewCount": 0,
-        "shop": "エナジードラッグ2号店",
-        "checkedAt": "2026-11-21T21:42:39.263Z"
+        "shop": "みんなのお薬MAX(みんなのお薬)",
+        "checkedAt": "2026-11-23T21:44:00.508Z"
       },
       "amazon": {
         "keyword": "ピアソンHPローション 50g 第2類医薬品",

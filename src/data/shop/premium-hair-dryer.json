@@ -3,13 +3,28 @@
   "title": "高級ドライヤー（2〜5万円の差で、乾く速さ・仕上がり・重さはどれだけ違うか）",
   "_note": "仕様・価格は各社の公式ページだけ（2026-11-22 確認）。重さは各社で量り方が違う（コード込み・ノズル無しなど）ので条件も書く。風量は測り方（IEC・自社測定など）が違うので列に入れない。ダイソン・ヤーマンは ops/tasks/t850 で公式ページを読んだ",
   "columns": [
-    { "key": "price", "label": "公式の価格" },
-    { "key": "weight", "label": "重さ（公式の条件）" },
-    { "key": "watt", "label": "消費電力" },
-    { "key": "temp", "label": "温風の温度" },
-    { "key": "care", "label": "髪のための機能" }
+    {
+      "key": "price",
+      "label": "公式の価格"
+    },
+    {
+      "key": "weight",
+      "label": "重さ（公式の条件）"
+    },
+    {
+      "key": "watt",
+      "label": "消費電力"
+    },
+    {
+      "key": "temp",
+      "label": "温風の温度"
+    },
+    {
+      "key": "care",
+      "label": "髪のための機能"
+    }
   ],
-  "pricesCheckedAt": null,
+  "pricesCheckedAt": "2026-11-23T21:44:00.508Z",
   "items": [
     {
       "id": "dyson-supersonic-nural-shine",
@@ -26,9 +41,48 @@
         "care": "自動温度調整・なめらかツール・低温ツール・ツヤ出しツール"
       },
       "source": "https://www.dyson.co.jp/hair-care/hair-dryers/supersonic-nural-shine/dark-blue-copper",
-      "rakuten": { "keyword": "ダイソン Supersonic Nural Shine HD16", "must": ["HD16"], "exclude": ["中古", "◆", "並行輸入", "ノズル", "交換", "スタンド", "ホルダー", "アタッチメント", "ツール", "フィルター", "カバー"] },
-      "yahoo": { "keyword": "ダイソン Supersonic Nural Shine HD16", "must": ["HD16"], "exclude": ["中古", "◆", "並行輸入", "ノズル", "交換", "スタンド", "ホルダー", "アタッチメント", "ツール", "フィルター", "カバー"] },
-      "amazon": { "keyword": "Dyson Supersonic Nural Shine HD16", "asin": "B0FTRT75K3" }
+      "rakuten": {
+        "keyword": "ダイソン Supersonic Nural Shine HD16",
+        "must": [
+          "HD16"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "ノズル",
+          "交換",
+          "スタンド",
+          "ホルダー",
+          "アタッチメント",
+          "ツール",
+          "フィルター",
+          "カバー"
+        ]
+      },
+      "yahoo": {
+        "keyword": "ダイソン Supersonic Nural Shine HD16",
+        "must": [
+          "HD16"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "ノズル",
+          "交換",
+          "スタンド",
+          "ホルダー",
+          "アタッチメント",
+          "ツール",
+          "フィルター",
+          "カバー"
+        ]
+      },
+      "amazon": {
+        "keyword": "Dyson Supersonic Nural Shine HD16",
+        "asin": "B0FTRT75K3"
+      }
     },
     {
       "id": "dyson-supersonic-travel",
@@ -45,9 +99,48 @@
         "care": "AC100〜240V・Supersonic シリーズのアタッチメントが使える"
       },
       "source": "https://www.dyson.co.jp/hair-care/hair-dryers/supersonic-travel/ceramic-pink",
-      "rakuten": { "keyword": "ダイソン Supersonic Travel HD19", "must": ["HD19"], "exclude": ["中古", "◆", "並行輸入", "ノズル", "交換", "スタンド", "ホルダー", "アタッチメント", "ツール", "ケース", "カバー"] },
-      "yahoo": { "keyword": "ダイソン Supersonic Travel HD19", "must": ["HD19"], "exclude": ["中古", "◆", "並行輸入", "ノズル", "交換", "スタンド", "ホルダー", "アタッチメント", "ツール", "ケース", "カバー"] },
-      "amazon": { "keyword": "Dyson Supersonic Travel HD19", "asin": "B0HN7JHCHP" }
+      "rakuten": {
+        "keyword": "ダイソン Supersonic Travel HD19",
+        "must": [
+          "HD19"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "ノズル",
+          "交換",
+          "スタンド",
+          "ホルダー",
+          "アタッチメント",
+          "ツール",
+          "ケース",
+          "カバー"
+        ]
+      },
+      "yahoo": {
+        "keyword": "ダイソン Supersonic Travel HD19",
+        "must": [
+          "HD19"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "ノズル",
+          "交換",
+          "スタンド",
+          "ホルダー",
+          "アタッチメント",
+          "ツール",
+          "ケース",
+          "カバー"
+        ]
+      },
+      "amazon": {
+        "keyword": "Dyson Supersonic Travel HD19",
+        "asin": "B0HN7JHCHP"
+      }
     },
     {
       "id": "panasonic-eh-na0k",
@@ -64,9 +157,40 @@
         "care": "高浸透ナノイー＆ミネラル・温冷リズム・スカルプ・スキン・毛先集中ケア"
       },
       "source": "https://panasonic.jp/hair/products/EH-NA0K/spec.html",
-      "rakuten": { "keyword": "パナソニック ナノケア EH-NA0K", "must": ["EH-NA0K"], "exclude": ["中古", "◆", "並行輸入", "ノズル", "交換", "スタンド", "ホルダー"] },
-      "yahoo": { "keyword": "パナソニック ナノケア EH-NA0K", "must": ["EH-NA0K"], "exclude": ["中古", "◆", "並行輸入", "ノズル", "交換", "スタンド", "ホルダー"] },
-      "amazon": { "keyword": "パナソニック ナノケア EH-NA0K", "asin": "B0FHGY1FYH" }
+      "rakuten": {
+        "keyword": "パナソニック ナノケア EH-NA0K",
+        "must": [
+          "EH-NA0K"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "ノズル",
+          "交換",
+          "スタンド",
+          "ホルダー"
+        ]
+      },
+      "yahoo": {
+        "keyword": "パナソニック ナノケア EH-NA0K",
+        "must": [
+          "EH-NA0K"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "ノズル",
+          "交換",
+          "スタンド",
+          "ホルダー"
+        ]
+      },
+      "amazon": {
+        "keyword": "パナソニック ナノケア EH-NA0K",
+        "asin": "B0FHGY1FYH"
+      }
     },
     {
       "id": "panasonic-eh-nb70",
@@ -83,9 +207,50 @@
         "care": "高浸透ナノイー＆ミネラル・毛先集中ケア・スカルプ"
       },
       "source": "https://panasonic.jp/hair/products/EH-NB70/spec.html",
-      "rakuten": { "keyword": "パナソニック ナノケア EH-NB70", "must": ["EH-NB70"], "exclude": ["中古", "◆", "並行輸入", "ノズル", "交換", "スタンド", "ホルダー", "EH-NB70KT"] },
-      "yahoo": { "keyword": "パナソニック ナノケア EH-NB70", "must": ["EH-NB70"], "exclude": ["中古", "◆", "並行輸入", "ノズル", "交換", "スタンド", "ホルダー", "EH-NB70KT"] },
-      "amazon": { "keyword": "パナソニック ナノケア EH-NB70", "asin": "B0HJ1JHG4G" }
+      "rakuten": {
+        "keyword": "パナソニック ナノケア EH-NB70",
+        "must": [
+          "EH-NB70"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "ノズル",
+          "交換",
+          "スタンド",
+          "ホルダー",
+          "EH-NB70KT"
+        ]
+      },
+      "yahoo": {
+        "keyword": "パナソニック ナノケア EH-NB70",
+        "must": [
+          "EH-NB70"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "ノズル",
+          "交換",
+          "スタンド",
+          "ホルダー",
+          "EH-NB70KT"
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/sokuteikiya/4550719162279.html",
+        "price": 36687,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 0,
+        "shop": "測定の森Yahoo!ショッピング店",
+        "checkedAt": "2026-11-23T21:44:00.508Z"
+      },
+      "amazon": {
+        "keyword": "パナソニック ナノケア EH-NB70",
+        "asin": "B0HJ1JHG4G"
+      }
     },
     {
       "id": "refa-beautech-dryer-smart-w",
@@ -102,9 +267,52 @@
         "care": "センシングで温度を自動制御・AC100〜240V"
       },
       "source": "https://www.refa.net/item/refa_beautech_dryer_smart_w/",
-      "rakuten": { "keyword": "リファ ビューテック ドライヤー スマート ダブル", "must": ["スマート"], "exclude": ["中古", "◆", "並行輸入", "ホルダー", "スタンド", "ノズル", "SE W", "PRO", "BX"] },
-      "yahoo": { "keyword": "リファ ビューテック ドライヤー スマート ダブル", "must": ["スマート"], "exclude": ["中古", "◆", "並行輸入", "ホルダー", "スタンド", "ノズル", "SE W", "PRO", "BX"] },
-      "amazon": { "keyword": "ReFa BEAUTECH DRYER SMART W", "asin": "B0FQ4YKT2F" }
+      "rakuten": {
+        "keyword": "リファ ビューテック ドライヤー スマート ダブル",
+        "must": [
+          "スマート"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "ホルダー",
+          "スタンド",
+          "ノズル",
+          "SE W",
+          "PRO",
+          "BX"
+        ]
+      },
+      "yahoo": {
+        "keyword": "リファ ビューテック ドライヤー スマート ダブル",
+        "must": [
+          "スマート"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "ホルダー",
+          "スタンド",
+          "ノズル",
+          "SE W",
+          "PRO",
+          "BX"
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/brand-shopping-store/rc-itqfqvzb6ju2-aqto.html",
+        "price": 24817,
+        "shippingFree": false,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 0,
+        "shop": "ブランドハンズ",
+        "checkedAt": "2026-11-23T21:44:00.508Z"
+      },
+      "amazon": {
+        "keyword": "ReFa BEAUTECH DRYER SMART W",
+        "asin": "B0FQ4YKT2F"
+      }
     },
     {
       "id": "sharp-ib-wx903",
@@ -121,9 +329,44 @@
         "care": "プラズマクラスター・ドライアシスト・センシング・スカルプ（約50℃）"
       },
       "source": "https://jp.sharp/beauty/products/ibwx903/spec/",
-      "rakuten": { "keyword": "シャープ IB-WX903", "must": ["IB-WX903"], "exclude": ["中古", "◆", "並行輸入", "ノズル", "交換"] },
-      "yahoo": { "keyword": "シャープ IB-WX903", "must": ["IB-WX903"], "exclude": ["中古", "◆", "並行輸入", "ノズル", "交換"] },
-      "amazon": { "keyword": "シャープ IB-WX903", "asin": "B0HCSMHB84" }
+      "rakuten": {
+        "keyword": "シャープ IB-WX903",
+        "must": [
+          "IB-WX903"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "ノズル",
+          "交換"
+        ]
+      },
+      "yahoo": {
+        "keyword": "シャープ IB-WX903",
+        "must": [
+          "IB-WX903"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "ノズル",
+          "交換"
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/sokuteikiya/4550556218412.html",
+        "price": 39897,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 0,
+        "shop": "測定の森Yahoo!ショッピング店",
+        "checkedAt": "2026-11-23T21:44:00.508Z"
+      },
+      "amazon": {
+        "keyword": "シャープ IB-WX903",
+        "asin": "B0HCSMHB84"
+      }
     },
     {
       "id": "salonia-smooth-shine",
@@ -140,9 +383,48 @@
         "care": "4モード×風の強弱（HOT・SKIN・GLOSS・COOL）"
       },
       "source": "https://salonia.jp/product/hairitempre/hairdryerpre/smoothshinedryer/",
-      "rakuten": { "keyword": "サロニア スムースシャインドライヤー", "must": ["スムースシャイン"], "exclude": ["中古", "◆", "並行輸入", "スマート", "ノズル", "アイロン", "ブラシ"] },
-      "yahoo": { "keyword": "サロニア スムースシャインドライヤー", "must": ["スムースシャイン"], "exclude": ["中古", "◆", "並行輸入", "スマート", "ノズル", "アイロン", "ブラシ"] },
-      "amazon": { "keyword": "SALONIA スムースシャインドライヤー", "asin": "B0D44ZXPYM" }
+      "rakuten": {
+        "keyword": "サロニア スムースシャインドライヤー",
+        "must": [
+          "スムースシャイン"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "スマート",
+          "ノズル",
+          "アイロン",
+          "ブラシ"
+        ]
+      },
+      "yahoo": {
+        "keyword": "サロニア スムースシャインドライヤー",
+        "must": [
+          "スムースシャイン"
+        ],
+        "exclude": [
+          "中古",
+          "◆",
+          "並行輸入",
+          "スマート",
+          "ノズル",
+          "アイロン",
+          "ブラシ"
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/pureco/prc-s-8737517992.html",
+        "price": 8772,
+        "shippingFree": false,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 0,
+        "shop": "PURECO HOUSE forBusiness",
+        "checkedAt": "2026-11-23T21:44:00.508Z"
+      },
+      "amazon": {
+        "keyword": "SALONIA スムースシャインドライヤー",
+        "asin": "B0D44ZXPYM"
+      }
     }
   ]
 }

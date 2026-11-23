@@ -20,7 +20,7 @@
       "label": "機内の有線接続"
     }
   ],
-  "pricesCheckedAt": null,
+  "pricesCheckedAt": "2026-11-23T21:44:00.508Z",
   "items": [
     {
       "id": "sony-wh-1000xm6",
@@ -88,7 +88,15 @@
           "ステッカー",
           "イヤホン",
           "Earbuds"
-        ]
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/thrift-webshop/u-093-uk2510-07.html",
+        "price": 38500,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 0,
+        "shop": "スリフト",
+        "checkedAt": "2026-11-23T21:44:00.508Z"
       },
       "amazon": {
         "keyword": "ソニー WH-1000XM6",
@@ -163,7 +171,15 @@
           "ステッカー",
           "イヤホン",
           "Earbuds"
-        ]
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/refun/061266.html",
+        "price": 39930,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 0,
+        "shop": "リファン Yahoo!ショップ",
+        "checkedAt": "2026-11-23T21:44:00.508Z"
       },
       "amazon": {
         "keyword": "Bose QuietComfort Ultra Headphones 第2世代",
@@ -236,7 +252,15 @@
           "ステッカー",
           "イヤホン",
           "Earbuds"
-        ]
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/densidonya/4549995687170-b.html",
+        "price": 71590,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 0,
+        "shop": "電子問屋",
+        "checkedAt": "2026-11-23T21:44:00.508Z"
       },
       "amazon": {
         "keyword": "Apple AirPods Max 2",
@@ -310,7 +334,15 @@
           "ステッカー",
           "イヤホン",
           "Earbuds"
-        ]
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/joshin/4260752334013-35-37499.html",
+        "price": 69960,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 0,
+        "shop": "Joshin web",
+        "checkedAt": "2026-11-23T21:44:00.508Z"
       },
       "amazon": {
         "keyword": "ゼンハイザー MOMENTUM 5 Wireless",
@@ -384,7 +416,15 @@
           "ステッカー",
           "イヤホン",
           "Earbuds"
-        ]
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/panasonic-store/y-eah-a1000.html",
+        "price": 59944,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 0,
+        "shop": "パナソニック ストア プラス Yahoo!店",
+        "checkedAt": "2026-11-23T21:44:00.508Z"
       },
       "amazon": {
         "keyword": "テクニクス EAH-A1000",
@@ -458,7 +498,15 @@
           "ステッカー",
           "イヤホン",
           "Earbuds"
-        ]
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/ankerdirect/d1406.html",
+        "price": 32990,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 0,
+        "shop": "Anker 公式ストア ヤフー店",
+        "checkedAt": "2026-11-23T21:44:00.508Z"
       },
       "amazon": {
         "keyword": "Anker Space 2 Pro",
@@ -536,7 +584,15 @@
           "Earbuds",
           "Pro",
           "プロ"
-        ]
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/ankerdirect/d1402.html",
+        "price": 16990,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": 4.92,
+        "reviewCount": 12,
+        "shop": "Anker 公式ストア ヤフー店",
+        "checkedAt": "2026-11-23T21:44:00.508Z"
       },
       "amazon": {
         "keyword": "Soundcore Space 2 ヘッドホン",
