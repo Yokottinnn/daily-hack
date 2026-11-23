@@ -1,0 +1,49 @@
+{
+ "_doc": "X 告知の画像。node scripts/gen-x-panels.mjs ops/data/x-cards/bf-kaden-4-2026.panels.json",
+ "_note": "2026-11-23 の毎日の候補づくり（アナロジー型・blog）。素材は blog3 の比較記事 4 本の photos（メーカー公式の商品画像）。出所は画像に出さず ALT に書く",
+ "imageBase": "public/images/robot-cleaner-comparison-2026",
+ "out": "public/images/robot-cleaner-comparison-2026/x",
+ "theme": "ink",
+ "panels": [
+  {
+   "file": "bf4-1-cover.jpg",
+   "kind": "html",
+   "noHeader": true,
+   "html": "<div class=\"w\"><div class=\"k\">ブラックフライデーの前に</div><div class=\"h\">公式の数字で比べて<br>アタシが<em>決めた家電4つ</em></div><div class=\"g\"><div class=\"c\"><img src=\"photos/saros-20-kitchen.jpg\" alt=\"\"><div class=\"b\"><div class=\"cat\">ロボット掃除機</div><div class=\"nm\">ロボロック Saros 20</div></div></div><div class=\"c\"><img src=\"../futon-dryer-comparison-2026/photos/hitachi-hfk-vs6000-c.jpg\" alt=\"\"><div class=\"b\"><div class=\"cat\">布団乾燥機</div><div class=\"nm\">日立 HFK-VS6000</div></div></div><div class=\"c\"><img src=\"../cordless-stick-cleaner-comparison-2026/photos/hitachi-pv-bg1000r-dock.jpg\" alt=\"\"><div class=\"b\"><div class=\"cat\">コードレス掃除機</div><div class=\"nm\">日立 PV-BG1000R</div></div></div><div class=\"c\"><img src=\"../premium-hair-dryer-comparison-2026/photos/panasonic-eh-na0k-black.jpg\" alt=\"\"><div class=\"b\"><div class=\"cat\">ドライヤー</div><div class=\"nm\">ナノケア EH-NA0K</div></div></div></div></div>",
+   "css": "main{padding:0;height:1080px;display:block}\n.w{height:1080px;background:#1E1219;color:#fff;display:flex;flex-direction:column;padding:44px 44px 40px}\n.k{align-self:flex-start;font-size:30px;font-weight:900;color:#2A1923;background:#F5C518;border-radius:999px;padding:6px 22px}\n.h{font-size:60px;font-weight:900;line-height:1.18;margin-top:16px}\n.h em{font-style:normal;color:#EC5C90}\n.g{display:grid;grid-template-columns:1fr 1fr;grid-template-rows:340px 340px;gap:18px;margin-top:26px}\n.c{background:#fff;border-radius:22px;position:relative;overflow:hidden;display:flex;flex-direction:column}\n.c img{height:250px;flex:none;width:100%;object-fit:contain;padding:18px 18px 0}\n.c .b{background:#2A1923;padding:12px 18px 14px}\n.c .cat{font-size:26px;font-weight:900;color:#F5C518}\n.c .nm{font-size:31px;font-weight:900;line-height:1.2}",
+   "alt": "ブラックフライデーの前に、公式の数字で比べて決めた家電4つ。ロボット掃除機はロボロック Saros 20、布団乾燥機は日立 HFK-VS6000、コードレス掃除機は日立 PV-BG1000R、ドライヤーはパナソニック ナノケア EH-NA0K。画像：Roborock 公式サイト、日立グローバルライフソリューションズ 公式サイト、日立の家電品 公式サイト、パナソニック 公式サイト"
+  },
+  {
+   "file": "bf4-2-robot.jpg",
+   "kind": "html",
+   "noHeader": true,
+   "html": "<div class=\"w\"><div class=\"ph\"><img src=\"photos/saros-20-living.jpg\" alt=\"\"></div><div class=\"tx\"><div class=\"k\">ロボット掃除機</div><div class=\"t\">段差で止まるのが嫌なら<br><em>ロボロック Saros 20</em></div><ul class=\"pts\"><li><b>段差</b>二段で最大8.8cm</li><li><b>コードとペット</b>避けたいならルンバ Max 775 Combo</li><li><b>水拭き付き</b>吸うだけより約7万円高い</li></ul></div></div>",
+   "css": "main{padding:0;height:1080px;display:block}\n.w{position:relative;height:1080px;background:#1E1219;color:#fff;overflow:hidden}\n.ph{position:absolute;left:0;top:0;width:100%;height:560px;background:#fff}\n.ph img{width:100%;height:100%;object-fit:contain;padding:30px}\n.tx{position:absolute;left:56px;right:56px;top:600px;bottom:52px;display:flex;flex-direction:column}\n.k{align-self:flex-start;font-size:30px;font-weight:900;color:#2A1923;background:#F5C518;border-radius:999px;padding:6px 22px}\n.t{font-size:54px;font-weight:900;line-height:1.22;margin-top:14px}\n.t em{font-style:normal;color:#EC5C90}\n.pts{list-style:none;margin-top:20px;flex:1;display:flex;flex-direction:column;justify-content:center;gap:14px}\n.pts li{font-size:32px;font-weight:700;line-height:1.35;background:rgba(255,255,255,.08);border-left:10px solid #EC5C90;border-radius:14px;padding:12px 22px}\n.pts b{color:#F5C518;margin-right:10px}",
+   "alt": "ロボロック Saros 20。文字：段差で止まるのが嫌ならロボロック Saros 20。段差は二段で最大8.8cm。床のコードとペットの排泄物を避けたいならルンバ Max 775 Combo。水拭き付きは吸うだけの機種より約7万円高い。画像：Roborock 公式サイト"
+  },
+  {
+   "file": "bf4-3-futon.jpg",
+   "kind": "html",
+   "noHeader": true,
+   "html": "<div class=\"w\"><div class=\"ph\"><img src=\"../futon-dryer-comparison-2026/photos/hitachi-hfk-vs6000.jpg\" alt=\"\"></div><div class=\"tx\"><div class=\"k\">布団乾燥機</div><div class=\"t\">ダニ対策コースが短いのは<br><em>日立 HFK-VS6000</em></div><ul class=\"pts\"><li><b>寝る前</b>どの機種も20分あれば足りる</li><li><b>ダニ対策</b>約65分〜1組約6時間・5倍以上の差</li><li><b>忘れがち</b>熱のあとは掃除機までがセット</li></ul></div></div>",
+   "css": "main{padding:0;height:1080px;display:block}\n.w{position:relative;height:1080px;background:#1E1219;color:#fff;overflow:hidden}\n.ph{position:absolute;left:0;top:0;width:100%;height:560px;background:#fff}\n.ph img{width:100%;height:100%;object-fit:contain;padding:30px}\n.tx{position:absolute;left:56px;right:56px;top:600px;bottom:52px;display:flex;flex-direction:column}\n.k{align-self:flex-start;font-size:30px;font-weight:900;color:#2A1923;background:#F5C518;border-radius:999px;padding:6px 22px}\n.t{font-size:54px;font-weight:900;line-height:1.22;margin-top:14px}\n.t em{font-style:normal;color:#EC5C90}\n.pts{list-style:none;margin-top:20px;flex:1;display:flex;flex-direction:column;justify-content:center;gap:14px}\n.pts li{font-size:32px;font-weight:700;line-height:1.35;background:rgba(255,255,255,.08);border-left:10px solid #EC5C90;border-radius:14px;padding:12px 22px}\n.pts b{color:#F5C518;margin-right:10px}",
+   "alt": "日立 HFK-VS6000。文字：ダニ対策コースが短いのは日立 HFK-VS6000。寝る前のあたためはどの機種も20分あれば足りる。ダニ対策コースは約65分から1組約6時間まで5倍以上の差。熱のあとは掃除機をかけるまでがセット。画像：日立グローバルライフソリューションズ 公式サイト"
+  },
+  {
+   "file": "bf4-4-cordless.jpg",
+   "kind": "html",
+   "noHeader": true,
+   "html": "<div class=\"w\"><div class=\"ph\"><img src=\"../cordless-stick-cleaner-comparison-2026/photos/hitachi-pv-bg1000r.jpg\" alt=\"\"></div><div class=\"tx\"><div class=\"k\">コードレス掃除機</div><div class=\"t\">重さあたりで長く動くのは<br><em>日立 PV-BG1000R</em></div><ul class=\"pts\"><li><b>1kgあたり</b>約28.6分（床用ヘッド）</li><li><b>比べ方</b>運転時間を重さで割る</li><li><b>自動収集ドック</b>ゴミ捨ては約30日〜3.5か月に1回</li></ul></div></div>",
+   "css": "main{padding:0;height:1080px;display:block}\n.w{position:relative;height:1080px;background:#1E1219;color:#fff;overflow:hidden}\n.ph{position:absolute;left:0;top:0;width:100%;height:560px;background:#fff}\n.ph img{width:100%;height:100%;object-fit:contain;padding:30px}\n.tx{position:absolute;left:56px;right:56px;top:600px;bottom:52px;display:flex;flex-direction:column}\n.k{align-self:flex-start;font-size:30px;font-weight:900;color:#2A1923;background:#F5C518;border-radius:999px;padding:6px 22px}\n.t{font-size:54px;font-weight:900;line-height:1.22;margin-top:14px}\n.t em{font-style:normal;color:#EC5C90}\n.pts{list-style:none;margin-top:20px;flex:1;display:flex;flex-direction:column;justify-content:center;gap:14px}\n.pts li{font-size:32px;font-weight:700;line-height:1.35;background:rgba(255,255,255,.08);border-left:10px solid #EC5C90;border-radius:14px;padding:12px 22px}\n.pts b{color:#F5C518;margin-right:10px}",
+   "alt": "日立 PV-BG1000R。文字：重さあたりで長く動くのは日立 PV-BG1000R。床用ヘッドで1kgあたり約28.6分。運転時間を重さで割って比べる。自動収集ドック付きならゴミ捨ては約30日〜3.5か月に1回。画像：日立の家電品 公式サイト"
+  },
+  {
+   "file": "bf4-5-dryer.jpg",
+   "kind": "html",
+   "noHeader": true,
+   "html": "<div class=\"w\"><div class=\"ph\"><img src=\"../premium-hair-dryer-comparison-2026/photos/panasonic-eh-na0k.jpg\" alt=\"\"></div><div class=\"tx\"><div class=\"k\">ドライヤー</div><div class=\"t\">迷ったらまず<br><em>ナノケア EH-NA0K</em></div><ul class=\"pts\"><li><b>軽さなら</b>ダイソン Travel か ReFa SMART W</li><li><b>乾かしすぎが悩み</b>シャープ IB-WX903</li><li><b>1万円台との差</b>5年で割ると1日12〜22円</li></ul></div></div>",
+   "css": "main{padding:0;height:1080px;display:block}\n.w{position:relative;height:1080px;background:#1E1219;color:#fff;overflow:hidden}\n.ph{position:absolute;left:0;top:0;width:100%;height:560px;background:#fff}\n.ph img{width:100%;height:100%;object-fit:contain;padding:30px}\n.tx{position:absolute;left:56px;right:56px;top:600px;bottom:52px;display:flex;flex-direction:column}\n.k{align-self:flex-start;font-size:30px;font-weight:900;color:#2A1923;background:#F5C518;border-radius:999px;padding:6px 22px}\n.t{font-size:54px;font-weight:900;line-height:1.22;margin-top:14px}\n.t em{font-style:normal;color:#EC5C90}\n.pts{list-style:none;margin-top:20px;flex:1;display:flex;flex-direction:column;justify-content:center;gap:14px}\n.pts li{font-size:32px;font-weight:700;line-height:1.35;background:rgba(255,255,255,.08);border-left:10px solid #EC5C90;border-radius:14px;padding:12px 22px}\n.pts b{color:#F5C518;margin-right:10px}",
+   "alt": "パナソニック ナノケア EH-NA0K。文字：迷ったらまずナノケア EH-NA0K。軽さならダイソン Travel か ReFa SMART W。乾かしすぎが悩みならシャープ IB-WX903。1万円台との差は5年で割ると1日12〜22円。画像：パナソニック 公式サイト"
+  }
+ ]
+}
