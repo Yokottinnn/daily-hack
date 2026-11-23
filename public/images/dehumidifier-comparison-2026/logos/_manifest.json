@@ -1,0 +1,38 @@
+{
+ "panasonic": {
+  "brand": "パナソニック",
+  "title": "File:Panasonic Group logo.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Panasonic_Group_logo.svg",
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Panasonic_Group_logo.svg/960px-Panasonic_Group_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "orig": "https://upload.wikimedia.org/wikipedia/commons/5/54/Panasonic_Group_logo.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+  "license": "Public domain",
+  "fetched": "2026-10-18",
+  "task": "ops/tasks/x317-product-brand-logos-wiki.sh",
+  "copied_from": "public/images/coffee-maker-comparison-2026/logos/panasonic.png"
+ },
+ "sharp": {
+  "brand": "シャープ",
+  "src": "https://jp.sharp/assets/common/images/logo_sharp.svg",
+  "page": "https://jp.sharp/hotcook/",
+  "note": "公式サイトのヘッダーのロゴ（SVG を Chromium で PNG にし、透明の余白だけ落とした）",
+  "fetched": "2026-11-22",
+  "copied_from": "public/images/electric-pressure-cooker-comparison-2026/logos/sharp.png"
+ },
+ "mitsubishi": {
+  "brand": "三菱電機",
+  "title": "File:Mitsubishi Electric logo.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Mitsubishi_Electric_logo.svg",
+  "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Mitsubishi_Electric_logo.svg/960px-Mitsubishi_Electric_logo.svg.png",
+  "license": "Public domain",
+  "fetched": "2026-11-22",
+  "note": "MediaWiki API で実体 URL とライセンスを取得（クラウドから）",
+  "copied_from": "public/images/rice-cooker-comparison-2026/logos/mitsubishi.png"
+ },
+ "corona": {
+  "brand": "コロナ",
+  "src": "https://www.corona.co.jp/product_intro/img/common/logo01.png",
+  "page": "https://www.corona.co.jp/aircon/dehumidifier2/wh/index.html",
+  "note": "公式サイトの製品ページのヘッダーのロゴ（コーポレートスローガン入り・改変なし）",
+  "fetched": "2026-11-23"
+ }
+}

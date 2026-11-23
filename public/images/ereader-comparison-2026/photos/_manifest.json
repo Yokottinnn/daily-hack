@@ -1,0 +1,118 @@
+{
+ "kobo-clara-bw.jpg": {
+  "src": "https://image.books.rakuten.co.jp/books/img/e-book/ereaders/koboclarabw/img/main_clarabw_device.png",
+  "page": "https://books.rakuten.co.jp/event/e-book/ereaders/koboclarabw/",
+  "credit": "楽天Kobo 公式サイト",
+  "fetched": "2026-11-23"
+ },
+ "kobo-clara-bw-night.jpg": {
+  "src": "https://image.books.rakuten.co.jp/books/img/e-book/ereaders/koboclarabw/img/img_sec03_01.png",
+  "page": "https://books.rakuten.co.jp/event/e-book/ereaders/koboclarabw/",
+  "credit": "楽天Kobo 公式サイト",
+  "fetched": "2026-11-23"
+ },
+ "kobo-clara-colour.jpg": {
+  "src": "https://image.books.rakuten.co.jp/books/img/e-book/ereaders/koboclaracolour/img/main_claracolour_device.png",
+  "page": "https://books.rakuten.co.jp/event/e-book/ereaders/koboclaracolour/",
+  "credit": "楽天Kobo 公式サイト",
+  "fetched": "2026-11-23"
+ },
+ "kobo-clara-colour-outdoor.jpg": {
+  "src": "https://image.books.rakuten.co.jp/books/img/e-book/ereaders/koboclaracolour/img/img_sec03_01.png",
+  "page": "https://books.rakuten.co.jp/event/e-book/ereaders/koboclaracolour/",
+  "credit": "楽天Kobo 公式サイト",
+  "fetched": "2026-11-23"
+ },
+ "kobo-libra-colour.jpg": {
+  "src": "https://image.books.rakuten.co.jp/books/img/e-book/ereaders/kobolibracolour/img/img_sec02_01.png",
+  "page": "https://books.rakuten.co.jp/event/e-book/ereaders/kobolibracolour/",
+  "credit": "楽天Kobo 公式サイト",
+  "fetched": "2026-11-23"
+ },
+ "kobo-libra-colour-black.jpg": {
+  "src": "https://image.books.rakuten.co.jp/books/img/e-book/ereaders/kobolibracolour/img/img_sec03_01.png",
+  "page": "https://books.rakuten.co.jp/event/e-book/ereaders/kobolibracolour/",
+  "credit": "楽天Kobo 公式サイト",
+  "fetched": "2026-11-23"
+ },
+ "kobo-libra-colour-stylus.jpg": {
+  "src": "https://image.books.rakuten.co.jp/books/img/e-book/ereaders/kobolibracolour/img/img_sec04_01.png",
+  "page": "https://books.rakuten.co.jp/event/e-book/ereaders/kobolibracolour/",
+  "credit": "楽天Kobo 公式サイト",
+  "fetched": "2026-11-23"
+ },
+ "kobo-waterproof.jpg": {
+  "src": "https://image.books.rakuten.co.jp/books/img/e-book/ereaders/hub/img_attract_waterproof.png",
+  "page": "https://books.rakuten.co.jp/event/e-book/ereaders/",
+  "credit": "楽天Kobo 公式サイト",
+  "fetched": "2026-11-23"
+ },
+ "kobo-color.jpg": {
+  "src": "https://image.books.rakuten.co.jp/books/img/e-book/ereaders/hub/img_attract_color.png",
+  "page": "https://books.rakuten.co.jp/event/e-book/ereaders/",
+  "credit": "楽天Kobo 公式サイト",
+  "fetched": "2026-11-23"
+ },
+ "boox-go7.jpg": {
+  "src": "https://sktgroup.co.jp/wp-content/uploads/2025/05/go7m-black-01.jpg",
+  "page": "https://sktgroup.co.jp/boox-go7gen2/",
+  "credit": "SKT株式会社（BOOX 国内代理店）公式サイト",
+  "fetched": "2026-11-23"
+ },
+ "boox-go7-hand.jpg": {
+  "src": "https://sktgroup.co.jp/wp-content/uploads/2025/05/04-1.jpg",
+  "page": "https://sktgroup.co.jp/boox-go7gen2/",
+  "credit": "SKT株式会社 公式サイト",
+  "fetched": "2026-11-23"
+ },
+ "boox-go7-stylus.jpg": {
+  "src": "https://sktgroup.co.jp/wp-content/uploads/2025/05/06-1.jpg",
+  "page": "https://sktgroup.co.jp/boox-go7gen2/",
+  "credit": "SKT株式会社 公式サイト",
+  "fetched": "2026-11-23"
+ },
+ "kindle-2026-lineup.jpg": {
+  "src": "https://assets.aboutamazon.com/53/83/64aa848d4004b65cc026a3d76f95/resized.jpg",
+  "page": "https://press.aboutamazon.com/jp/2026/10/amazon-refreshes-four-kindle-models-in-japan-featuring-a-thinner-lighter-and-faster-kindle-16gb-with-flat-front-design",
+  "credit": "Amazon プレスセンター（2026年10月1日）",
+  "fetched": "2026-11-23"
+ },
+ "kindle-scribe-2026.jpg": {
+  "src": "https://assets.aboutamazon.com/fb/ad/951369a743a5bd4ef5f5820a1c2e/main-image-3000.jpg",
+  "page": "https://press.aboutamazon.com/jp/2026/5/amazon-launches-new-kindle-scribe-lineup-in-japan-including-kindle-scribe-colorsoft-the-first-color-display-model",
+  "credit": "Amazon プレスセンター（2026年5月12日）",
+  "fetched": "2026-11-23"
+ },
+ "kindle-16gb.jpg": {
+  "src": "https://m.media-amazon.com/images/I/71OanFFrx2L._AC_SL1500_.jpg",
+  "page": "https://www.amazon.co.jp/dp/B0G4SL3W21",
+  "credit": "Amazon.co.jp の商品ページ（商品画像）",
+  "fetched": "2026-11-23",
+  "task": "ops/tasks/t1110・t1113",
+  "note": "下の段のアイコンの帯を切り落とした（縦の84%）"
+ },
+ "kindle-paperwhite.jpg": {
+  "src": "https://m.media-amazon.com/images/I/61o46g2xXFL._AC_SY879_.jpg",
+  "page": "https://www.amazon.co.jp/dp/B0GV5VHTL6",
+  "credit": "Amazon.co.jp の商品ページ（商品画像）",
+  "fetched": "2026-11-23",
+  "task": "ops/tasks/t1110・t1113",
+  "note": "下の段のアイコンの帯を切り落とした（縦の84%）"
+ },
+ "kindle-colorsoft.jpg": {
+  "src": "https://m.media-amazon.com/images/I/61cntYSVTWL._AC_SY879_.jpg",
+  "page": "https://www.amazon.co.jp/dp/B0GV62167S",
+  "credit": "Amazon.co.jp の商品ページ（商品画像）",
+  "fetched": "2026-11-23",
+  "task": "ops/tasks/t1110・t1113",
+  "note": "下の段のアイコンの帯を切り落とした（縦の84%）"
+ },
+ "kindle-scribe.jpg": {
+  "src": "https://m.media-amazon.com/images/I/71jmcZLd25L._AC_SL1500_.jpg",
+  "page": "https://www.amazon.co.jp/dp/B0FC1PBJRB",
+  "credit": "Amazon.co.jp の商品ページ（商品画像）",
+  "fetched": "2026-11-23",
+  "task": "ops/tasks/t1110・t1113",
+  "note": "幅800pxに縮小"
+ }
+}
