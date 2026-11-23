@@ -1,10 +1,10 @@
 {
  "series": "tablet",
- "generated": "2026-11-23T13:41:10.743Z",
+ "generated": "2026-11-23T13:41:42.844Z",
  "items": {
   "ipad-a16": {
    "amazon": {
-    "searched": 53,
+    "searched": 52,
     "hits": [
      {
       "asin": "B0DZ7WF87P",
@@ -292,7 +292,7 @@
   },
   "galaxy-tab-a11plus": {
    "amazon": {
-    "searched": 50,
+    "searched": 49,
     "hits": [
      {
       "asin": "B0FXWXJVP9",
@@ -398,7 +398,7 @@
   },
   "xiaomi-pad-8": {
    "amazon": {
-    "searched": 56,
+    "searched": 55,
     "hits": [
      {
       "asin": "B0FY4YF9S1",
@@ -526,7 +526,7 @@
   },
   "fire-hd-10": {
    "amazon": {
-    "searched": 52,
+    "searched": 54,
     "hits": [
      {
       "asin": "B0C2XN8HKD",
@@ -537,6 +537,12 @@
      {
       "asin": "B0CTMRXCT4",
       "title": "Fire HD 10 タブレット ブラック - 32GB + Kindle+（3か月分。以降自動更新）",
+      "price": "￥18,164",
+      "sponsored": false
+     },
+     {
+      "asin": "B0C2XN8HKD",
+      "title": "Amazon Fire HD 10 インチ タブレット - 1080pフル HDディスプレイ、大画面で動画もマンガも - 32GB ブラック",
       "price": "￥18,164",
       "sponsored": false
      }

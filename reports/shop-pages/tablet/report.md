@@ -1,9 +1,9 @@
 # 商品ページの候補: tablet（scripts/shop/find-product-pages.mjs・**$0**）
 
-生成: **2026-11-23T13:41:10.743Z**
+生成: **2026-11-23T13:41:42.844Z**
 
 ## ipad-a16（must: iPad・A16）
-- amazon: 検索 53 件・型番あり 3 件
+- amazon: 検索 52 件・型番あり 3 件
   - B0DZ7WF87P｜￥63,723｜Apple 11 インチ iPad (A16): 11 インチモデル、Liquid Retina ディスプレイ、128GB、Wi-Fi 6、12MP フロント/
   - B0DZ895SXY｜￥63,974｜Apple 11 インチ iPad (A16): 11 インチモデル、Liquid Retina ディスプレイ、128GB、Wi-Fi 6、12MP フロント/
   - B0DZ8HV6RT｜￥67,320｜Apple 11 インチ iPad (A16): 11 インチモデル、Liquid Retina ディスプレイ、128GB、Wi-Fi 6、12MP フロント/
@@ -42,7 +42,7 @@
   - 開いた: 【楽天市場】【送料無料・新品未開封】【日本正規純正品】Apple iPad mini(A20 Pro) Wi-Fi 128GB MJ6F4J/A ミッドナイト【お取り寄せ（２週から３週間程度での入荷、発送）】：激安家電の店　愛グループ｜カート: あり
 
 ## galaxy-tab-a11plus（must: A11+）
-- amazon: 検索 50 件・型番あり 4 件
+- amazon: 検索 49 件・型番あり 4 件
   - B0FXWXJVP9｜￥40,124｜Samsung Galaxy Tab A11+ 128GB （Wi-Fi）｜AI対応｜グレー｜タブレット｜Samsung純正 国内正規品｜2025年発売｜11.
   - B0G1BS88B9｜￥63,303｜Samsung Galaxy Tab A11+ Plus 2026 (256GB 8GB Wi-Fiのみ) 11インチ 90Hz Android 16 タブレッ
   - B0G38V6MRN｜￥58,470｜Samsung Galaxy Tab A11+ Plus 8+256GB、Wi-Fiのみ、インターナショナル、シルバー
@@ -56,7 +56,7 @@
   - 開いた: 【楽天市場】GALAXY　Samsung Galaxy Tab A11＋ 128GB / Gray(Galaxy Sペン非対応) ［11型 / Wi-Fiモデル / ストレージ：128GB］　SM-X230NZAAXJP：コジマ楽天市場店｜カート: あり
 
 ## xiaomi-pad-8（must: Xiaomi Pad 8）
-- amazon: 検索 56 件・型番あり 6 件
+- amazon: 検索 55 件・型番あり 6 件
   - B0FY4YF9S1｜￥68,164｜広告枠｜【Amazon.co.jp限定】Xiaomi Pad 8 8G+128G グレー 11.2インチ 3.2K 144Hz高精細ディスプレイ 800nits Sna
   - B0GJZP7FD9｜￥71,800｜広告枠｜Xiaomi Pad 8 8G+256G Snapdragon 8s Gen 4 HyperOS 3 11.2型 グレー
   - B0FY4YF9S1｜￥68,164｜【Amazon.co.jp限定】Xiaomi Pad 8 8G+128G グレー 11.2インチ 3.2K 144Hz高精細ディスプレイ 800nits Sna
@@ -74,9 +74,10 @@
 - rakuten: 検索 45 件・型番あり 0 件
 
 ## fire-hd-10（must: Fire HD 10）
-- amazon: 検索 52 件・型番あり 2 件
+- amazon: 検索 54 件・型番あり 3 件
   - B0C2XN8HKD｜￥18,164｜Amazon Fire HD 10 インチ タブレット - 1080pフル HDディスプレイ、大画面で動画もマンガも - 32GB ブラック
   - B0CTMRXCT4｜￥18,164｜Fire HD 10 タブレット ブラック - 32GB + Kindle+（3か月分。以降自動更新）
+  - B0C2XN8HKD｜￥18,164｜Amazon Fire HD 10 インチ タブレット - 1080pフル HDディスプレイ、大画面で動画もマンガも - 32GB ブラック
   - 開いた: Amazon Fire HD 10 インチ タブレット - 1080pフル HDディスプレイ、大画面で動画もマンガも - 32GB ブラック｜カート: あり
 - rakuten: 検索 45 件・型番あり 1 件
   - https://item.rakuten.co.jp/cloud-nine/2593-000817/｜26,980｜＼ブラックフライデー ポイント最大29.5倍／即納【高評価★4.6】【新型 第13世代】Amazon Fire HD 10 HDディスプレイ 10インチ 32G

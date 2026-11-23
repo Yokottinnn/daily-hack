@@ -1,1 +1,6 @@
-[]
+[
+      {"task": "t1102-find-pages-dehumidifier.sh", "rc": 0, "out": ""},
+      {"task": "t1130-fire-tablet-read.sh", "rc": 0, "out": "35390 fire-max-11-2.jpg 31013 fire-max-11-3.jpg 31079 fire-max-11-4.jpg  **読むだけ。LLM 不使用（$0／回）。**"},
+      {"task": "t1131-embed-tablet.sh", "rc": 0, "out": ""},
+      {"task": "t1132-find-pages-tablet.sh", "rc": 0, "out": ""}
+  ]
