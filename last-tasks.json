@@ -1,5 +1,3 @@
 [
-      {"task": "t1123-verify-rakuten-hand-blender.sh", "rc": 0, "out": "- 商品: 検索結果 45 件・型番「山善 コードレスハンドブレンダー MHBC-DC74」の表示: あり - 題名: 【楽天市場】山善 コードレスハンドブレンダー MHBC-DC74の通販 - 写真: Mac の手元のみ（private-shots/shop-verify/hand-blender-comparison-2026/v"},
-      {"task": "t1124-verify-yahoo-hand-blender.sh", "rc": 0, "out": "- 商品: 検索結果 14 件・型番「山善 コードレスハンドブレンダー MHBC-DC74」の表示: あり - 題名: 山善 コードレスハンドブレンダー MHBC-DC74のおすすめ人気商品一覧 通販 - Yahoo!ショッピング - 写真: Mac の手元のみ（private-shots/sh"},
-      {"task": "t1125-verify-amazon-hand-blender.sh", "rc": 0, "out": "- 商品: 検索結果 0 件・型番「」の表示: —・カートに入れるボタンあり - 題名: Amazon | [山善] ハンドブレンダー コードレス 充電式 つぶす/混ぜる 軽量 離乳食 スムージー ハンドミキサー ブレンダー MHBC-DC74(GM) | 山善(YAM - 写�"}
+      {"task": "t1105-dehumidifier-iris-leaf.sh", "rc": 0, "out": "295863 iris-hyb16-3.jpg 178335 iris-hyb16-4.jpg 73040 iris-hyb16-5.jpg  **読むだけ。LLM 不使用（$0／回）。**"}
   ]
