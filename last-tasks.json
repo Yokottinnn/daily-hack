@@ -1,6 +1,4 @@
 [
-      {"task": "t1102-find-pages-dehumidifier.sh", "rc": 0, "out": ""},
-      {"task": "t1130-fire-tablet-read.sh", "rc": 0, "out": "35390 fire-max-11-2.jpg 31013 fire-max-11-3.jpg 31079 fire-max-11-4.jpg  **読むだけ。LLM 不使用（$0／回）。**"},
-      {"task": "t1131-embed-tablet.sh", "rc": 0, "out": ""},
-      {"task": "t1132-find-pages-tablet.sh", "rc": 0, "out": ""}
+      {"task": "t1113-kindle-spec-tabs.sh", "rc": 0, "out": "55438 scribe-2.jpg 129590 scribe-3.jpg 167420 scribe-4.jpg  **読むだけ。LLM 不使用（$0／回）。**"},
+      {"task": "t1133-rakuten-accesskey.sh", "rc": 0, "out": "- 押したボタン: 0 個・コピーの横取り: 0 件（）・code の中で伏せ字でないもの: 0 個 - 試す候補: 0 個 - **Access Key は取れなかった**（ページの中にも、コピーにも、値が無かった）  rc=0 /     1255 bytes"}
   ]

@@ -22,7 +22,7 @@ const { chromium } = createRequire(path.join(PW_DIR, 'x.js'))('playwright-core')
 const WHICH = process.env.SHOP_SETUP || '';
 const OUT = path.join(process.env.OPS_REPORT_DIR || '/tmp', 'shop-setup');
 fs.mkdirSync(OUT, { recursive: true });
-const NG = /契約者|振込|口座|氏名|会社|様$|さん$|Welcome|ようこそ|こんにちは|@|報酬/i;
+const NG = /契約者|振込|口座|氏名|会社|様$|さん$|Welcome|ようこそ|こんにちは|@|報酬|平素より|ご利用いただき|アカウントを選択|Google アカウント/i;
 const mask = (x) => String(x).replace(/[A-Za-z0-9_\-]{16,}/g, (m) => `［${m.length}文字・伏せた］`);
 const lines = [`# 3 店ボタンの Mac 側の準備: ${WHICH}（scripts/shop/mac-setup.mjs）`, '', `生成: **${new Date().toISOString()}**`, ''];
 
@@ -53,10 +53,7 @@ const dump = async (title) => {
 };
 
 try {
-  if (WHICH === 'rakuten') {
-    await go('https://webservice.rakuten.co.jp/app/list');
-    // t332（2026-10-25）: アプリ一覧は「本人確認のし直し」（login.account.rakuten.com/session/upgrade）に飛ばされた。
-    // asp-sync と同じ Keychain（dailyhack-asp-rakuten）の ID・パスワードで入り直す（値は出さない）
+  const rakutenRelogin = async () => {
     if (/login\.account\.rakuten\.com/.test(p.url())) {
       const cred = aspCred('rakuten');
       lines.push(`- 本人確認の画面に飛ばされた（${here()}）。Keychain の ID・パスワード: ${cred ? 'ある' : '**無い**'}`);
@@ -79,6 +76,12 @@ try {
         if (!/webservice\.rakuten\.co\.jp/.test(p.url())) await go('https://webservice.rakuten.co.jp/app/list');
       }
     }
+  };
+  if (WHICH === 'rakuten') {
+    await go('https://webservice.rakuten.co.jp/app/list');
+    // t332（2026-10-25）: アプリ一覧は「本人確認のし直し」（login.account.rakuten.com/session/upgrade）に飛ばされた。
+    // asp-sync と同じ Keychain（dailyhack-asp-rakuten）の ID・パスワードで入り直す（値は出さない）
+    await rakutenRelogin();
     lines.push(`- 画面: ${here()}`, '');
     // t294 で「Application ID / Access Key / Affiliate ID」の行がこの画面にあると分かっている
     const got = await p.evaluate(() => {
@@ -196,6 +199,54 @@ try {
       const t = await r.text();
       lines.push(`- 楽天 API（2026-07-01 版）の試し: HTTP ${r.status}${r.status === 200 ? `・件数 ${(() => { try { return JSON.parse(t).count; } catch { return '?'; } })()}` : `・${mask(t.slice(0, 160))}`}`);
     }
+  }
+
+  if (WHICH === 'rakuten3') {
+    // 2026-11-23 利用者がダイアログで「Mac に読みに行かせる」を選んだ（楽天の Access Key。以前の「触らない」をこの作業に限って解いた）。
+    // t332〜t348 では、Access Key は伏せ字のままで、目のボタン（toggleSecret）を押しても通信 0 件・クリップボードも空だった。
+    // 今回は ① ページの中（属性・スクリプト・toggleSecret の引数）に値があるかを探す ② クリップボードへの書き込み（writeText・execCommand）を横取りする。
+    // 候補は API で 1 回ずつ試し、HTTP 200 が返ったものだけを Keychain に入れる。**値は出さない（文字数だけ）。「Refresh」（鍵の作り直し）は押さない**
+    const appId = keychain('applicationId');
+    const tryKey = async (k) => { const q = new URLSearchParams({ applicationId: appId, accessKey: k, keyword: '充電式カイロ', hits: '1', formatVersion: '2', format: 'json' });
+      const r = await fetch(`https://openapi.rakuten.co.jp/ichibams/api/IchibaItem/Search/20260701?${q}`).catch(() => ({ status: 0 })); return r.status; };
+    await go('https://webservice.rakuten.co.jp/app/list');
+    await rakutenRelogin();   // 本人確認のし直しに飛ばされたら、asp-sync と同じ Keychain で入り直す（t332）
+    lines.push(`- 画面: ${here()}（${/login\.account/.test(p.url()) ? 'ログイン画面に飛ばされた' : 'アプリ一覧'}）・Application ID: ${appId ? appId.length + ' 文字' : '無い'}`);
+    // 書き込みの横取り（ページ内のどの経路でコピーしても window.__copied に残る）
+    await p.evaluate(() => {
+      window.__copied = [];
+      try { const orig = navigator.clipboard && navigator.clipboard.writeText && navigator.clipboard.writeText.bind(navigator.clipboard);
+        navigator.clipboard.writeText = (t) => { window.__copied.push(String(t)); return orig ? orig(t).catch(() => {}) : Promise.resolve(); }; } catch {}
+      const ex = document.execCommand.bind(document);
+      document.execCommand = (cmd, ...a) => { if (/copy/i.test(cmd)) { const sel = String(window.getSelection() || ''); const ae = document.activeElement; window.__copied.push(sel || (ae && ae.value) || ''); } return ex(cmd, ...a); };
+    }).catch(() => {});
+    // ① ページの中を探す: toggleSecret の引数・data 属性・スクリプトの中の英数の長い文字列
+    const found = await p.evaluate(() => {
+      const out = { onclick: [], attrs: [], scripts: [] };
+      for (const b of document.querySelectorAll('[onclick*="toggleSecret"], [onclick*="copy"], [onclick*="Copy"]')) out.onclick.push(b.getAttribute('onclick') || '');
+      for (const e of document.querySelectorAll('*')) for (const a of e.attributes) if (/^data-/.test(a.name) && /^[A-Za-z0-9_\-]{20,}$/.test(a.value)) out.attrs.push([a.name, a.value]);
+      for (const sc of document.querySelectorAll('script:not([src])')) { const m = (sc.textContent || '').match(/[A-Za-z0-9_\-]{24,}/g) || []; out.scripts.push(...m); }
+      out.fn = typeof window.toggleSecret === 'function' ? String(window.toggleSecret).replace(/\s+/g, ' ').slice(0, 400) : '';
+      return out;
+    }).catch(() => ({ onclick: [], attrs: [], scripts: [], fn: '' }));
+    lines.push(`- onclick: ${found.onclick.length} 個（${found.onclick.map((x) => mask(x).slice(0, 80)).join(' ／ ')}）`, `- data 属性の長い英数: ${found.attrs.map(([n, v]) => `${n}=${v.length}文字`).join('・') || 'なし'}`,
+      `- スクリプトの中の長い英数: ${found.scripts.length} 個`, `- toggleSecret の中身（長い英数は伏せる）: ${mask(found.fn) || 'なし'}`);
+    // 目のボタン・アイコンを全部押し、伏せ字が外れた code と、横取りしたコピーを集める
+    const btns = p.locator('button[onclick*="toggleSecret"], .card button:not(:has-text("Refresh")):not(:has-text("Edit")):not(:has-text("More Details"))');
+    const nb = await btns.count();
+    for (let i = 0; i < nb; i++) { await btns.nth(i).click({ timeout: 3000 }).catch(() => {}); await p.waitForTimeout(700); }
+    await p.waitForTimeout(1500);
+    const shown = await p.evaluate(() => [...document.querySelectorAll('code')].map((c) => (c.textContent || '').trim())).catch(() => []);
+    const copied = await p.evaluate(() => window.__copied || []).catch(() => []);
+    const fromArgs = found.onclick.flatMap((x) => x.match(/[A-Za-z0-9_\-]{20,}/g) || []);
+    const cands = [...new Set([...copied, ...shown, ...found.attrs.map(([, v]) => v), ...fromArgs, ...found.scripts].map((x) => String(x).trim()).filter((x) => /^[A-Za-z0-9_\-]{20,}$/.test(x) && x !== appId))];
+    lines.push(`- 押したボタン: ${nb} 個・コピーの横取り: ${copied.length} 件（${copied.map((x) => (x ? x.length + '文字' : '空')).join('・')}）・code の中で伏せ字でないもの: ${shown.filter((x) => /^[A-Za-z0-9_\-]{20,}$/.test(x)).length} 個`, `- 試す候補: ${cands.length} 個`);
+    let key = '';
+    for (const c of cands.slice(0, 12)) { const st = await tryKey(c); lines.push(`  - 候補（${c.length} 文字）: API HTTP ${st}`); if (st === 200) { key = c; break; } }
+    if (key) {
+      try { execFileSync('/usr/bin/security', ['add-generic-password', '-U', '-s', 'dailyhack-rakuten-ws', '-a', 'accessKey', '-w', key]); lines.push(`- **Access Key を Keychain（dailyhack-rakuten-ws / accessKey）に入れた（${key.length} 文字・API で HTTP 200 を確かめた）**`); }
+      catch (e) { lines.push(`- ⚠️ Keychain に入れられない: ${String(e).slice(0, 80)}`); }
+    } else lines.push('- **Access Key は取れなかった**（ページの中にも、コピーにも、値が無かった）');
   }
 
   if (WHICH === 'moshimo') {
