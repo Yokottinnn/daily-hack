@@ -1,0 +1,45 @@
+#!/bin/bash
+# **3 店ボタンの Mac 側の準備・楽天の Access Key を読んで Keychain に入れる・2 回目（t1134・affiliate）。** LLM 不使用・**$0**。
+#   ① 2026-11-23 利用者がダイアログで「Mac に読みに行かせる」を選んだ。楽天ウェブサービスのアプリ一覧で、伏せ字の Access Key をページの中・コピーの横取りで探し、API で HTTP 200 を確かめたものだけ Keychain（dailyhack-rakuten-ws / accessKey）に入れる。値は出さない（文字数だけ）。「Refresh」（作り直し）は押さない
+#   ② t1133 はアプリ一覧のボタンも code も 0 個だった（11/15 に Chrome を会社のプロファイルに替えたので、楽天ウェブサービスに入れていない可能性）。画面の題名と文字を出し、ログインの入口があれば入り直してから探す
+#
+#
+# 本体は scripts/shop/mac-setup.mjs（origin/main から取り出す）。
+set -uo pipefail
+RDIR="${OPS_REPORT_DIR:-/tmp}"
+OUT="$RDIR/t1134-shop-mac-setup.md"
+REPO="${DAILY_HACK_REPO:-${BLOG_REPO:-$HOME/projects/anta-baka-x/blog}}"
+mkdir -p "$RDIR"
+{ echo "# 3 店ボタンの Mac 側の準備・Amazon の入り直し（t1134・**\$0**）"; echo ""; echo "生成: **$(date '+%Y-%m-%dT%H:%M:%S%z')**"; echo ""; } > "$OUT"
+NODE_BIN=/opt/homebrew/bin/node; [ -x "$NODE_BIN" ] || NODE_BIN="$(command -v node || true)"
+[ -n "$NODE_BIN" ] || { echo "⚠️ node が無い" >> "$OUT"; cat "$OUT"; exit 0; }
+git -C "$REPO" fetch -q origin main 2>/dev/null || true
+run_limited() {
+  local lim="$1"; shift
+  "$@" &
+  local pid=$! t0; t0=$(date +%s)
+  while kill -0 "$pid" 2>/dev/null; do
+    [ $(( $(date +%s) - t0 )) -ge "$lim" ] && { kill "$pid" 2>/dev/null; return 124; }
+    sleep 2
+  done
+  wait "$pid" 2>/dev/null
+}
+SYNC="$RDIR/.asp-sync.mjs"; git -C "$REPO" show origin/main:scripts/asp/asp-sync.mjs > "$SYNC"
+JS="$RDIR/.shop-mac-setup.mjs"; git -C "$REPO" show origin/main:scripts/shop/mac-setup.mjs > "$JS"
+[ -s "$JS" ] || { echo "⚠️ scripts/shop/mac-setup.mjs が main に無い" >> "$OUT"; cat "$OUT"; exit 1; }
+echo '```text' >> "$OUT"
+# ログインを保つ（切れていれば Keychain で入り直す）
+# macOS の /bin/bash 3.2 でも子に渡るよう、サブシェルで export する
+( export ASP_ONLY=rakuten OPS_REPORT_DIR="$RDIR" ASP_SYNC_BUDGET_MS=100000; run_limited 120 "$NODE_BIN" "$SYNC" ) >> "$OUT" 2>&1
+echo '```' >> "$OUT"
+mkdir -p "$RDIR/shop-setup"
+for m in rakuten3; do
+  rm -f "$RDIR/shop-setup/$m.md"  # 前の回の出力を今回の結果と取り違えない
+  ( export SHOP_SETUP="$m" OPS_REPORT_DIR="$RDIR"; run_limited 300 "$NODE_BIN" "$JS" ) > "$RDIR/shop-setup/$m.log" 2>&1
+  echo "- $m: rc=$?" >> "$OUT"
+  [ -s "$RDIR/shop-setup/$m.log" ] && { echo "  - ログの末尾:"; tail -n 6 "$RDIR/shop-setup/$m.log" | sed "s/[A-Za-z0-9_-]\{24,\}/［伏せた］/g" | sed "s/^/    /"; } >> "$OUT"
+  cat "$RDIR/shop-setup/$m.md" >> "$OUT" 2>/dev/null || echo "（$m の出力が無い）" >> "$OUT"
+  echo "" >> "$OUT"
+done
+echo "rc=0 / $(wc -c < "$OUT") bytes" >> "$OUT"
+head -c 7000 "$OUT"
