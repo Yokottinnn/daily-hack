@@ -38,6 +38,7 @@
    `node scripts/strategy-board/build-snapshot.mjs --out /tmp/snap.json --hist /tmp/db/snapshot/hist.json --results /tmp/db/results/latest.json`
    - `--hist` を付けると、今日の数字を 1 行足した `/tmp/snap.hist.json` もできる（全体像の「前週・前月との差」に使う・2026-11-19）。**付け忘れると前週との差が「記録なし」のまま止まる**
    - snapshot の `home` に、全体像の「これからの 14 日」（公開予定の記事・記事のフロントマターの `event`・X の予約 `reports/board/x-schedule.json`）と「知っておくこと」（マージ待ちの PR・止まっているデータ・`manual.json` の `deadlines`・依頼表の未対応の数）が入る。PR は `gh api` で読む（読めなければ null で、作戦室は「データ待ち」）
+   - snapshot の `home.blocked` に、全体像の先頭の「止まっているもの」が入る（2026-11-23 決定ログ）。3 店ボタンの価格（`reports/board/shop-prices.json` の skipped・errors・1 日以上古い）、`mac-weekly-status.json` の false、asp-sync の `status.json`（loggedIn=false・needsHuman・1 日以上古い）、`--results` の results/latest の note（ログイン・認証の失敗）と古さから作る。**`--results` を付け忘れると ASP の成果の行が見えない**。各行の「利用者にしてほしいこと」「いまの対応」は `ops/data/board/manual.json` の `blocked[<key>]`（`fix`・`status`・`since`・`until`）に、分かったセッションが書く。**分からないものは書かない**（作戦室は「まだ分かっていない」と出す）。**新しく止まっているものが出たら、その日のうちにダイアログで利用者に伝える**（同じものを毎日聞き直さない）
    - 末尾の行に `gsc=… pv=… a8=… findings=…` が出る。**`gsc=false` や `a8=0` なら、その事実を更新履歴に書く**（隠さない）
    - **`sources` の日付を必ず見る。** 所見に `stale`（古いデータ）が出ていたら、**その日は「数字を更新した」と報告しない。**
      先に Mac の `com.dailyhack.board-weekly`（6:40）が動いたかを `ops/heartbeat` の `reports/board/mac-weekly-status.json` で確かめ、
