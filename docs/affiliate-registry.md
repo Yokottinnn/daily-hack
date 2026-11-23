@@ -105,6 +105,7 @@
 | `electric-shaver-comparison-2026` | 3 店ボタン（`src/data/shop/electric-shaver.json`・`shaver-blade.json`） | 2026-11-22 追加。メンズ電動シェーバー 8 機種と替刃 6 種 |
 | `garment-steamer-comparison-2026` | 3 店ボタン（`src/data/shop/garment-steamer.json`） | 2026-11-23 追加。衣類スチーマー 7 機種（パナソニック・ティファール・日立・アイリスオーヤマ） |
 | `hand-blender-comparison-2026` | 3 店ボタン（`src/data/shop/hand-blender.json`） | 2026-11-23 追加。ハンドブレンダー 8 機種（ブラウン・バーミックス・ティファール・パナソニック・クイジナート・山善） |
+| `dehumidifier-comparison-2026` | 3 店ボタン（`src/data/shop/dehumidifier.json`） | 2026-11-23 追加。衣類乾燥除湿機 6 機種（パナソニック・シャープ・三菱電機・コロナ。Amazon は 4 機種が ASIN） |
 | `dashcam-comparison-2026` | 3 店ボタン（`src/data/shop/dashcam.json`） | 2026-11-23 追加。ドライブレコーダー 7 機種（コムテック・ケンウッド・ユピテル・パイオニア・セルスター・アルパイン。Amazon は 4 機種が ASIN） |
 
 ## A8 のリンクを入れた湾岸ライフの記事（2026-10-25）
