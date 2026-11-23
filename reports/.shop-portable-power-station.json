@@ -33,8 +33,8 @@
     {
       "id": "anker-c300-dc",
       "brand": "Anker",
-      "name": "Anker Solix C300 DC Portable Power Station（A1726）",
-      "badge": "ACなし・いちばん安い",
+      "name": "Anker Solix C300 DC（A1726）",
+      "badge": "いちばん安い",
       "summary": "288Whで約2.8kg。コンセント（AC）の口は無く、USB-Cとシガーソケットで給電する。スマホとノートPCの充電用。",
       "specs": {
         "wh": "288Wh",
@@ -70,7 +70,8 @@
           "C300X",
           "C1000",
           "C800"
-        ]
+        ],
+        "itemUrl": "https://item.rakuten.co.jp/anker/a17265z1/"
       },
       "yahoo": {
         "keyword": "Anker Solix C300 DC",
@@ -101,14 +102,14 @@
       },
       "amazon": {
         "keyword": "Anker Solix C300 DC",
-        "asin": null
+        "asin": "B0D5XCRK6K"
       }
     },
     {
       "id": "jackery-300d",
       "brand": "Jackery",
       "name": "Jackery ポータブル電源 300D",
-      "badge": "ACなし・いちばん軽い",
+      "badge": "いちばん軽い",
       "summary": "288Whで約2.5kgと6台でいちばん軽い。ACの口は無く、USB-C 3つ（140W×2・65W）とDCで合計300W。",
       "specs": {
         "wh": "288Wh",
@@ -142,7 +143,8 @@
           "300 Plus",
           "300Plus",
           "300 New"
-        ]
+        ],
+        "itemUrl": "https://item.rakuten.co.jp/jackery-japan/21-0001-000359/"
       },
       "yahoo": {
         "keyword": "Jackery ポータブル電源 300D",
@@ -178,7 +180,7 @@
       "id": "jackery-240-new",
       "brand": "Jackery",
       "name": "Jackery ポータブル電源 240 New（JE-240A）",
-      "badge": "ACつきでいちばん軽い",
+      "badge": "ACで最軽量",
       "summary": "256Wh・AC 300Wで約3.6kg。ACの口がある機種でいちばん軽い。緊急充電モードなら最速1時間で満充電。",
       "specs": {
         "wh": "256Wh",
@@ -214,7 +216,8 @@
           "Pro",
           "1000",
           "500"
-        ]
+        ],
+        "itemUrl": "https://item.rakuten.co.jp/jackery-japan/n-p-240200-bkor-jk2/"
       },
       "yahoo": {
         "keyword": "Jackery ポータブル電源 240 New",
@@ -245,14 +248,14 @@
       },
       "amazon": {
         "keyword": "Jackery ポータブル電源 240 New",
-        "asin": null
+        "asin": "B0CZ7145K1"
       }
     },
     {
       "id": "jackery-500-new",
       "brand": "Jackery",
       "name": "Jackery ポータブル電源 500 New",
-      "badge": "一晩の電気毛布に足りる",
+      "badge": "電気毛布ひと晩",
       "summary": "512Wh・AC 500Wで約5.7kg。公式の目安では電気毛布（55W）が約7時間以上。A4より小さい。",
       "specs": {
         "wh": "512Wh",
@@ -288,7 +291,8 @@
           "Pro",
           "1000",
           "240"
-        ]
+        ],
+        "itemUrl": "https://item.rakuten.co.jp/jackery-japan/n-p-400200-bkor-jk2/"
       },
       "yahoo": {
         "keyword": "Jackery ポータブル電源 500 New",
@@ -319,14 +323,14 @@
       },
       "amazon": {
         "keyword": "Jackery ポータブル電源 500 New",
-        "asin": null
+        "asin": "B0FBRK8GSP"
       }
     },
     {
       "id": "ecoflow-river-2-pro",
       "brand": "EcoFlow",
       "name": "EcoFlow RIVER 2 Pro（ZMR620-B-JP）",
-      "badge": "1Whあたりいちばん安い",
+      "badge": "容量あたり最安",
       "summary": "768Wh・AC 800Wで約8.25kg。公式ストアの値段は40,000円で、容量で割ると1Whあたり約52円。",
       "specs": {
         "wh": "768Wh",
@@ -364,7 +368,8 @@
           "MAX",
           "RIVER 3",
           "DELTA"
-        ]
+        ],
+        "itemUrl": "https://item.rakuten.co.jp/lamd/4895251601610/"
       },
       "yahoo": {
         "keyword": "EcoFlow RIVER 2 Pro",
@@ -403,8 +408,8 @@
     {
       "id": "anker-c800-plus",
       "brand": "Anker",
-      "name": "Anker Solix C800 Plus Portable Power Station（A1754）",
-      "badge": "AC 1,200W・ライトつき",
+      "name": "Anker Solix C800 Plus（A1754）",
+      "badge": "ケトルが動く",
       "summary": "768Wh・AC 1,200Wで約10.9kg。電気ケトルやドライヤーまで動かせる出力。天面にキャンプ用ライト2つとポール。",
       "specs": {
         "wh": "768Wh",
@@ -439,7 +444,8 @@
           "C1000",
           "C300",
           "PS"
-        ]
+        ],
+        "itemUrl": "https://item.rakuten.co.jp/anker/a1754/"
       },
       "yahoo": {
         "keyword": "Anker Solix C800 Plus",
@@ -469,7 +475,7 @@
       },
       "amazon": {
         "keyword": "Anker Solix C800 Plus",
-        "asin": null
+        "asin": "B0C6MK4TW4"
       }
     }
   ]

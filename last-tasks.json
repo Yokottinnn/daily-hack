@@ -1,5 +1,5 @@
 [
-      {"task": "t1192-verify-rakuten-drum-washer.sh", "rc": 0, "out": "- 商品: 検索結果 45 件・型番「パナソニック ドラム式洗濯乾燥機 NA-SD10HC」の表示: あり - 題名: 【楽天市場】パナソニック ドラム式洗濯乾燥機 NA-SD10HCの通販 - 写真: Mac の手元のみ（private-shots/shop-verify/drum-washer-dryer-comparison-2"},
-      {"task": "t1193-verify-yahoo-drum-washer.sh", "rc": 0, "out": "- 商品: 検索結果 41 件・型番「パナソニック ドラム式洗濯乾燥機 NA-SD10HC」の表示: あり - 題名: パナソニック ドラム式洗濯乾燥機 NA-SD10HCのおすすめ人気商品一覧 通販 - Yahoo!ショッピング - 写真: Mac の手元のみ（private-shots/sh"},
-      {"task": "t1194-verify-amazon-drum-washer.sh", "rc": 0, "out": "- 商品: 検索結果 52 件・型番「パナソニック ドラム式洗濯乾燥機 NA-SD10HC」の表示: あり・カートに入れるボタンあり - 題名: Amazon.co.jp : パナソニック ドラム式洗濯乾燥機 NA-SD10HC - 写真: Mac の手元のみ（private-shots/shop-verify/dru"}
+      {"task": "t1202-verify-rakuten-portable-power-station.sh", "rc": 0, "out": "- 商品: 検索結果 0 件・型番「」の表示: —・カートに入れるボタンあり - 題名: 【楽天市場】【39,910円OFFクーポン 11/25まで】Anker Solix C800 Plus Portable Power Station ポータブル電源 768Wh 5 - 写真: Mac の手元のみ（private-shots/shop-verify/"},
+      {"task": "t1203-verify-yahoo-portable-power-station.sh", "rc": 0, "out": "- 商品: 検索結果 36 件・型番「Anker Solix C800 Plus」の表示: あり - 題名: Anker Solix C800 Plusのおすすめ人気商品一覧 通販 - Yahoo!ショッピング - 写真: Mac の手元のみ（private-shots/shop-verify/portable-power-station-comparison-2026/v06-yahoo.jpg・公�"},
+      {"task": "t1204-verify-amazon-portable-power-station.sh", "rc": 0, "out": "- 商品: 検索結果 0 件・型番「」の表示: —・カートに入れるボタンあり - 題名: Amazon.co.jp: Anker Solix C800 Plus Portable Power Station ポータブル電源 768Wh 58分満充電 高出力AC(定格12 - 写真: Mac の手元のみ（private-shots/shop-verify/portable-pow"}
   ]
