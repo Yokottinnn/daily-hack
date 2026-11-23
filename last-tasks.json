@@ -1,4 +1,5 @@
 [
-      {"task": "t1183-find-pages-electric-blanket-2.sh", "rc": 0, "out": "  - https://item.rakuten.co.jp/sekichu/4550533317442/｜6,980｜【即日出荷】山善 YAMAZEN 電気掛敷毛布 YMK-203 188×130 電気毛布   - https://item.rakuten.co.jp/biccamera/4550533317442/｜7,680｜山善｜YAMAZEN 電気毛布 掛け敷き両用 YMK-203 [掛・敷毛布]   - https://i"},
-      {"task": "t1184-electric-blanket-photos.sh", "rc": 0, "out": "385307 pana-lineup-4.jpg 48979 pana-lineup-5.jpg 3087 pana-lineup-6.png  **読むだけ。LLM 不使用（$0／回）。**"}
+      {"task": "t1192-verify-rakuten-drum-washer.sh", "rc": 0, "out": "- 商品: 検索結果 45 件・型番「パナソニック ドラム式洗濯乾燥機 NA-SD10HC」の表示: あり - 題名: 【楽天市場】パナソニック ドラム式洗濯乾燥機 NA-SD10HCの通販 - 写真: Mac の手元のみ（private-shots/shop-verify/drum-washer-dryer-comparison-2"},
+      {"task": "t1193-verify-yahoo-drum-washer.sh", "rc": 0, "out": "- 商品: 検索結果 41 件・型番「パナソニック ドラム式洗濯乾燥機 NA-SD10HC」の表示: あり - 題名: パナソニック ドラム式洗濯乾燥機 NA-SD10HCのおすすめ人気商品一覧 通販 - Yahoo!ショッピング - 写真: Mac の手元のみ（private-shots/sh"},
+      {"task": "t1194-verify-amazon-drum-washer.sh", "rc": 0, "out": "- 商品: 検索結果 52 件・型番「パナソニック ドラム式洗濯乾燥機 NA-SD10HC」の表示: あり・カートに入れるボタンあり - 題名: Amazon.co.jp : パナソニック ドラム式洗濯乾燥機 NA-SD10HC - 写真: Mac の手元のみ（private-shots/shop-verify/dru"}
   ]
