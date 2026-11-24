@@ -28,7 +28,7 @@
       "label": "公式ストアの価格"
     }
   ],
-  "pricesCheckedAt": null,
+  "pricesCheckedAt": "2026-11-24T21:44:09.463Z",
   "items": [
     {
       "id": "anker-c300-dc",
@@ -98,7 +98,15 @@
           "C300X",
           "C1000",
           "C800"
-        ]
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/dshopone/4571411221040.html",
+        "price": 22800,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 0,
+        "shop": "D-SHOP ONE",
+        "checkedAt": "2026-11-24T21:44:09.463Z"
       },
       "amazon": {
         "keyword": "Anker Solix C300 DC",
@@ -169,7 +177,15 @@
           "300 Plus",
           "300Plus",
           "300 New"
-        ]
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/borderless01/rc-it0fy11zy5w4-ful8.html",
+        "price": 18800,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 0,
+        "shop": "工具販売専門店BORDERLESS",
+        "checkedAt": "2026-11-24T21:44:09.463Z"
       },
       "amazon": {
         "keyword": "Jackery ポータブル電源 300D",
@@ -244,7 +260,15 @@
           "Pro",
           "1000",
           "500"
-        ]
+        ],
+        "url": null,
+        "price": null,
+        "shippingFree": null,
+        "point": null,
+        "reviewAverage": null,
+        "reviewCount": null,
+        "shop": null,
+        "checkedAt": "2026-11-24T21:44:09.463Z"
       },
       "amazon": {
         "keyword": "Jackery ポータブル電源 240 New",
@@ -319,7 +343,15 @@
           "Pro",
           "1000",
           "240"
-        ]
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/jackery-japan/21-0001-000321.html",
+        "price": 69800,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": 4.52,
+        "reviewCount": 75,
+        "shop": "Jackery Japan ヤフーショッピング店",
+        "checkedAt": "2026-11-24T21:44:09.463Z"
       },
       "amazon": {
         "keyword": "Jackery ポータブル電源 500 New",
@@ -398,7 +430,15 @@
           "MAX",
           "RIVER 3",
           "DELTA"
-        ]
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/kurumadecocoselect/river2pro.html",
+        "price": 64800,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 0,
+        "shop": "KURUMAdeCOCOSelect",
+        "checkedAt": "2026-11-24T21:44:09.463Z"
       },
       "amazon": {
         "keyword": "EcoFlow RIVER 2 Pro",
@@ -471,7 +511,15 @@
           "C1000",
           "C300",
           "PS"
-        ]
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/sumacolle/a1754511---771.html",
+        "price": 58562,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 0,
+        "shop": "すまこれ",
+        "checkedAt": "2026-11-24T21:44:09.463Z"
       },
       "amazon": {
         "keyword": "Anker Solix C800 Plus",

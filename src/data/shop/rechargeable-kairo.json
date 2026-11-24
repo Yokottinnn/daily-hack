@@ -28,7 +28,7 @@
       "label": "スマホ充電"
     }
   ],
-  "pricesCheckedAt": "2026-11-23T21:44:00.508Z",
+  "pricesCheckedAt": "2026-11-24T21:44:09.463Z",
   "items": [
     {
       "id": "francfranc-kurikaeshi-2026",
@@ -56,14 +56,14 @@
         "must": [
           "繰り返し使えるカイロ"
         ],
-        "url": "https://store.shopping.yahoo.co.jp/zozo/98176783.html",
+        "url": "https://store.shopping.yahoo.co.jp/zozo/98176782.html",
         "price": 2363,
         "shippingFree": false,
         "point": 0,
-        "reviewAverage": 3.75,
-        "reviewCount": 4,
+        "reviewAverage": 4.4,
+        "reviewCount": 5,
         "shop": "ZOZOTOWN Yahoo!店",
-        "checkedAt": "2026-11-23T21:44:00.508Z"
+        "checkedAt": "2026-11-24T21:44:09.463Z"
       },
       "amazon": {
         "keyword": "フランフラン 繰り返し使えるカイロ",
@@ -222,7 +222,7 @@
         "reviewAverage": 4.24,
         "reviewCount": 74,
         "shop": "mottole Yahoo!店",
-        "checkedAt": "2026-11-23T21:44:00.508Z"
+        "checkedAt": "2026-11-24T21:44:09.463Z"
       },
       "amazon": {
         "keyword": null,
@@ -264,7 +264,7 @@
         "reviewAverage": null,
         "reviewCount": 0,
         "shop": "BINOTOKI Yahoo!店",
-        "checkedAt": "2026-11-23T21:44:00.508Z"
+        "checkedAt": "2026-11-24T21:44:09.463Z"
       },
       "amazon": {
         "keyword": null,
@@ -306,7 +306,7 @@
         "reviewAverage": null,
         "reviewCount": 2,
         "shop": "BINOTOKI Yahoo!店",
-        "checkedAt": "2026-11-23T21:44:00.508Z"
+        "checkedAt": "2026-11-24T21:44:09.463Z"
       },
       "amazon": {
         "keyword": "e-Kairo Carre EK-CR25",
@@ -343,10 +343,10 @@
         "price": 3099,
         "shippingFree": true,
         "point": 0,
-        "reviewAverage": 4.67,
-        "reviewCount": 3,
+        "reviewAverage": 4.75,
+        "reviewCount": 4,
         "shop": "BINOTOKI Yahoo!店",
-        "checkedAt": "2026-11-23T21:44:00.508Z"
+        "checkedAt": "2026-11-24T21:44:09.463Z"
       },
       "amazon": {
         "keyword": "e-Kairo Share EK-SH25",
@@ -386,7 +386,7 @@
         "reviewAverage": null,
         "reviewCount": 2,
         "shop": "サンワダイレクト",
-        "checkedAt": "2026-11-23T21:44:00.508Z"
+        "checkedAt": "2026-11-24T21:44:09.463Z"
       },
       "amazon": {
         "keyword": "400-TOY052W",

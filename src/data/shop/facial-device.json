@@ -20,7 +20,7 @@
       "label": "ジェル"
     }
   ],
-  "pricesCheckedAt": "2026-11-23T21:44:00.508Z",
+  "pricesCheckedAt": "2026-11-24T21:44:09.463Z",
   "items": [
     {
       "id": "panasonic-eh-sr90",
@@ -76,7 +76,7 @@
         "reviewAverage": null,
         "reviewCount": 0,
         "shop": "家電通販 ナカデン",
-        "checkedAt": "2026-11-23T21:44:00.508Z"
+        "checkedAt": "2026-11-24T21:44:09.463Z"
       },
       "amazon": {
         "keyword": "パナソニック バイタリフト RF LUXE EH-SR90",
@@ -135,7 +135,7 @@
         "reviewAverage": null,
         "reviewCount": 0,
         "shop": "ディーライズ2号",
-        "checkedAt": "2026-11-23T21:44:00.508Z"
+        "checkedAt": "2026-11-24T21:44:09.463Z"
       },
       "amazon": {
         "keyword": "パナソニック イオンブースト マルチ EX EH-SS85",
@@ -187,14 +187,14 @@
           "ケース",
           "専用"
         ],
-        "url": null,
-        "price": null,
-        "shippingFree": null,
-        "point": null,
+        "url": "https://store.shopping.yahoo.co.jp/fastep-shop/yjfa1p.html",
+        "price": 99000,
+        "shippingFree": true,
+        "point": 0,
         "reviewAverage": null,
-        "reviewCount": null,
-        "shop": null,
-        "checkedAt": "2026-11-23T21:44:00.508Z"
+        "reviewCount": 0,
+        "shop": "FASTEP ONLINESHOP",
+        "checkedAt": "2026-11-24T21:44:09.463Z"
       },
       "amazon": {
         "keyword": "ヤーマン ディープリフト デュオ YJFA1P",
@@ -253,7 +253,7 @@
         "reviewAverage": null,
         "reviewCount": null,
         "shop": null,
-        "checkedAt": "2026-11-23T21:44:00.508Z"
+        "checkedAt": "2026-11-24T21:44:09.463Z"
       },
       "amazon": {
         "keyword": "ReFa DERMA HEAT リファダーマヒート",
@@ -312,7 +312,7 @@
         "reviewAverage": null,
         "reviewCount": 0,
         "shop": "総合通販なんでも",
-        "checkedAt": "2026-11-23T21:44:00.508Z"
+        "checkedAt": "2026-11-24T21:44:09.463Z"
       },
       "amazon": {
         "keyword": "ReFa CARAT LIFT リファカラットリフト",
@@ -366,14 +366,14 @@
           "専用",
           "ドライヤー"
         ],
-        "url": "https://store.shopping.yahoo.co.jp/thrift-webshop/u-098-u30213-16.html",
-        "price": 19800,
+        "url": "https://store.shopping.yahoo.co.jp/sokutei/4582521683680.html",
+        "price": 19205,
         "shippingFree": true,
         "point": 0,
         "reviewAverage": null,
         "reviewCount": 0,
-        "shop": "スリフト",
-        "checkedAt": "2026-11-23T21:44:00.508Z"
+        "shop": "測定の森 2号店",
+        "checkedAt": "2026-11-24T21:44:09.463Z"
       },
       "amazon": {
         "keyword": "SALONIA EMSリフトブラシ",

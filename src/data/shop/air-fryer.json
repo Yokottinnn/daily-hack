@@ -28,7 +28,7 @@
       "label": "公式の価格"
     }
   ],
-  "pricesCheckedAt": null,
+  "pricesCheckedAt": "2026-11-24T21:44:09.463Z",
   "items": [
     {
       "id": "cosori-caf-dc601",
@@ -120,7 +120,15 @@
           "網プレート",
           "クリスパープレート",
           "ふるさと納税"
-        ]
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/smart-kitchen/s10012433.html",
+        "price": 19980,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": 4.83,
+        "reviewCount": 18,
+        "shop": "SmartKitchen",
+        "checkedAt": "2026-11-24T21:44:09.463Z"
       },
       "amazon": {
         "keyword": "COSORI TurboBlaze 6.0L ノンフライヤー",
@@ -271,7 +279,15 @@
           "網プレート",
           "クリスパープレート",
           "ふるさと納税"
-        ]
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/shark/fn100j.html",
+        "price": 19800,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": 4.8,
+        "reviewCount": 45,
+        "shop": "SharkNinja公式ヤフーショッピング店",
+        "checkedAt": "2026-11-24T21:44:09.463Z"
       },
       "amazon": {
         "keyword": "Ninja Crispi FN100J",
@@ -370,7 +386,15 @@
           "網プレート",
           "クリスパープレート",
           "ふるさと納税"
-        ]
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/bright-treasure/0810043375757.html",
+        "price": 12200,
+        "shippingFree": false,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 1,
+        "shop": "ブライトトレジャー",
+        "checkedAt": "2026-11-24T21:44:09.463Z"
       },
       "amazon": {
         "keyword": "COSORI ノンフライヤー 4.7L CAF-L501",
@@ -467,7 +491,15 @@
           "網プレート",
           "クリスパープレート",
           "ふるさと納税"
-        ]
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/tsuhan-123/tsuhan-123-211.html",
+        "price": 8980,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": 4.73,
+        "reviewCount": 652,
+        "shop": "良品生活館",
+        "checkedAt": "2026-11-24T21:44:09.463Z"
       },
       "amazon": {
         "keyword": "COSORI ミニノンフライヤー 2L LITE",
@@ -556,7 +588,15 @@
           "網プレート",
           "クリスパープレート",
           "ふるさと納税"
-        ]
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/eightloop2nd/4967576809078.html",
+        "price": 9180,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 0,
+        "shop": "eightloop 2nd",
+        "checkedAt": "2026-11-24T21:44:09.463Z"
       },
       "amazon": {
         "keyword": "アイリスオーヤマ 過熱水蒸気エアフライヤー FV-M30A",
@@ -645,7 +685,15 @@
           "網プレート",
           "クリスパープレート",
           "ふるさと納税"
-        ]
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/nihoitiba/yh-4550533056860.html",
+        "price": 11790,
+        "shippingFree": false,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 0,
+        "shop": "日本市場",
+        "checkedAt": "2026-11-24T21:44:09.463Z"
       },
       "amazon": {
         "keyword": "山善 エアフライヤー YAH-AC120",

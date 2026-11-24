@@ -20,7 +20,7 @@
       "label": "公式通販"
     }
   ],
-  "pricesCheckedAt": "2026-11-23T21:44:00.508Z",
+  "pricesCheckedAt": "2026-11-24T21:44:09.463Z",
   "items": [
     {
       "id": "zojirushi-nx-ab10",
@@ -85,14 +85,14 @@
           "アウトレット",
           "展示品"
         ],
-        "url": "https://store.shopping.yahoo.co.jp/discount-spirits2/a000000149204.html",
-        "price": 111690,
+        "url": "https://store.shopping.yahoo.co.jp/mitene-kakaku/nx-ab10-bz.html",
+        "price": 108800,
         "shippingFree": true,
         "point": 0,
         "reviewAverage": null,
         "reviewCount": 0,
-        "shop": "Earth Wing",
-        "checkedAt": "2026-11-23T21:44:00.508Z"
+        "shop": "見てね価格Yahoo!店",
+        "checkedAt": "2026-11-24T21:44:09.463Z"
       },
       "amazon": {
         "keyword": "象印 炎舞炊き NX-AB10",
@@ -162,14 +162,14 @@
           "アウトレット",
           "展示品"
         ],
-        "url": "https://store.shopping.yahoo.co.jp/life-marketkyoto/nw-yd10-wa.html",
+        "url": "https://store.shopping.yahoo.co.jp/d-price-ys/nw-yc10-wa.html",
         "price": 32195,
         "shippingFree": true,
         "point": 0,
         "reviewAverage": null,
-        "reviewCount": 0,
-        "shop": "ライフマーケットYahoo!店",
-        "checkedAt": "2026-11-23T21:44:00.508Z"
+        "reviewCount": 2,
+        "shop": "生活家電ディープライス ヤフーショッピング店",
+        "checkedAt": "2026-11-24T21:44:09.463Z"
       },
       "amazon": {
         "keyword": "象印 圧力IH炊飯ジャー NW-YD10",
@@ -240,13 +240,13 @@
           "展示品"
         ],
         "url": "https://store.shopping.yahoo.co.jp/jhb-store/4904710451823.html",
-        "price": 100343,
+        "price": 100272,
         "shippingFree": true,
         "point": 0,
         "reviewAverage": null,
         "reviewCount": 0,
         "shop": "JHBストア",
-        "checkedAt": "2026-11-23T21:44:00.508Z"
+        "checkedAt": "2026-11-24T21:44:09.463Z"
       },
       "amazon": {
         "keyword": "タイガー 土鍋ご泡火炊き JRT-A100",
@@ -323,7 +323,7 @@
         "reviewAverage": null,
         "reviewCount": 1,
         "shop": "サンサン マーケット",
-        "checkedAt": "2026-11-23T21:44:00.508Z"
+        "checkedAt": "2026-11-24T21:44:09.463Z"
       },
       "amazon": {
         "keyword": "タイガー 圧力IH炊飯器 JPV-L100",
@@ -400,7 +400,7 @@
         "reviewAverage": null,
         "reviewCount": 0,
         "shop": "プロテクション",
-        "checkedAt": "2026-11-23T21:44:00.508Z"
+        "checkedAt": "2026-11-24T21:44:09.463Z"
       },
       "amazon": {
         "keyword": "パナソニック 炊飯器 ビストロ SR-X910E",
@@ -470,14 +470,14 @@
           "アウトレット",
           "展示品"
         ],
-        "url": "https://store.shopping.yahoo.co.jp/esco-lightec/rzw100jmk.html",
-        "price": 81497,
+        "url": "https://store.shopping.yahoo.co.jp/d-rise2/p000000921126.html",
+        "price": 71850,
         "shippingFree": true,
         "point": 0,
         "reviewAverage": null,
         "reviewCount": 0,
-        "shop": "イーライン",
-        "checkedAt": "2026-11-23T21:44:00.508Z"
+        "shop": "ディーライズ2号",
+        "checkedAt": "2026-11-24T21:44:09.463Z"
       },
       "amazon": {
         "keyword": "日立 ふっくら御膳 RZ-W100JM",
@@ -554,7 +554,7 @@
         "reviewAverage": null,
         "reviewCount": 0,
         "shop": "家電のSAKURA",
-        "checkedAt": "2026-11-23T21:44:00.508Z"
+        "checkedAt": "2026-11-24T21:44:09.463Z"
       },
       "amazon": {
         "keyword": "東芝 炎匠炊き RC-10ZWA",
@@ -625,13 +625,13 @@
           "展示品"
         ],
         "url": "https://store.shopping.yahoo.co.jp/a-denki/79041.html",
-        "price": 95180,
+        "price": 95030,
         "shippingFree": false,
         "point": 0,
         "reviewAverage": null,
         "reviewCount": 0,
         "shop": "インボイス対応 アサヒデンキヤフー店",
-        "checkedAt": "2026-11-23T21:44:00.508Z"
+        "checkedAt": "2026-11-24T21:44:09.463Z"
       },
       "amazon": {
         "keyword": "三菱電機 本炭釜 紬 NJ-BW10J",
