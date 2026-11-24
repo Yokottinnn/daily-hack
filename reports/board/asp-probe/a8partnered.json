@@ -1,9 +1,17 @@
 {
- "generated": "2026-11-23T21:41:14.824Z",
- "total": 399,
+ "generated": "2026-11-24T21:41:22.838Z",
+ "total": 400,
  "from": 0,
- "to": 399,
+ "to": 400,
  "rows": [
+  {
+   "id": "s00000000118001",
+   "name": "英語コミュニケーション能力判定テスト「CASEC（キャセック）」",
+   "reward": "チケット購入500円 EPC",
+   "self": true,
+   "point": true,
+   "listing": "リスティングOK"
+  },
   {
    "id": "s00000016938001",
    "name": "ソニーグループが提供する『NUROモバイル』",
@@ -3198,5 +3206,5 @@
   }
  ],
  "missing": 0,
- "applyingCount": 100
+ "applyingCount": 97
 }
