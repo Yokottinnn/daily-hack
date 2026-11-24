@@ -16,7 +16,7 @@
       "label": "公式の値段"
     }
   ],
-  "pricesCheckedAt": "2026-11-23T21:44:00.508Z",
+  "pricesCheckedAt": "2026-11-24T21:44:09.463Z",
   "items": [
     {
       "id": "braun-fc96m",
@@ -54,14 +54,14 @@
           "◆",
           "並行輸入"
         ],
-        "url": "https://store.shopping.yahoo.co.jp/allife/a077-013.html",
+        "url": "https://store.shopping.yahoo.co.jp/phatee/a077-013.html",
         "price": 9380,
         "shippingFree": true,
         "point": 0,
-        "reviewAverage": 4.6,
-        "reviewCount": 5,
-        "shop": "Allifeヤフーショップ",
-        "checkedAt": "2026-11-23T21:44:00.508Z"
+        "reviewAverage": 4.55,
+        "reviewCount": 11,
+        "shop": "KKPLヤフーショップ",
+        "checkedAt": "2026-11-24T21:44:09.463Z"
       },
       "amazon": {
         "keyword": "ブラウン 替刃 F/C96M",
@@ -103,7 +103,15 @@
           "中古",
           "◆",
           "並行輸入"
-        ]
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/partscom/es9610.html",
+        "price": 10890,
+        "shippingFree": false,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 0,
+        "shop": "パーツコム",
+        "checkedAt": "2026-11-24T21:44:09.463Z"
       },
       "amazon": {
         "keyword": "パナソニック ラムダッシュ 替刃 ES9610",
@@ -145,7 +153,15 @@
           "中古",
           "◆",
           "並行輸入"
-        ]
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/mary-b/es-9s62.html",
+        "price": 9166,
+        "shippingFree": false,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 0,
+        "shop": "換気扇の通販ショップ プロペラ君",
+        "checkedAt": "2026-11-24T21:44:09.463Z"
       },
       "amazon": {
         "keyword": "パナソニック パームイン 替刃 ES-9S62",
@@ -187,7 +203,15 @@
           "中古",
           "◆",
           "並行輸入"
-        ]
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/onesmart/4549980885543.html",
+        "price": 3150,
+        "shippingFree": false,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 0,
+        "shop": "ワンズマートYahoo!ショッピング店",
+        "checkedAt": "2026-11-24T21:44:09.463Z"
       },
       "amazon": {
         "keyword": "パナソニック 外刃 ES9092",
@@ -237,7 +261,7 @@
         "reviewAverage": null,
         "reviewCount": 1,
         "shop": "vittorieヤフー店",
-        "checkedAt": "2026-11-23T21:44:00.508Z"
+        "checkedAt": "2026-11-24T21:44:09.463Z"
       },
       "amazon": {
         "keyword": "パナソニック 内刃 ES9068",
@@ -287,7 +311,7 @@
         "reviewAverage": 4.59,
         "reviewCount": 27,
         "shop": "ヤマダデンキ Yahoo!店",
-        "checkedAt": "2026-11-23T21:44:00.508Z"
+        "checkedAt": "2026-11-24T21:44:09.463Z"
       },
       "amazon": {
         "keyword": "フィリップス 替刃 SH71",

@@ -24,7 +24,7 @@
       "label": "大きさ・重さ"
     }
   ],
-  "pricesCheckedAt": "2026-11-23T21:44:00.508Z",
+  "pricesCheckedAt": "2026-11-24T21:44:09.463Z",
   "items": [
     {
       "id": "panasonic-ds-fas1200",
@@ -70,14 +70,14 @@
           "フィルター",
           "カバー"
         ],
-        "url": "https://store.shopping.yahoo.co.jp/recycle-mart/u174.html",
-        "price": 9000,
+        "url": "https://store.shopping.yahoo.co.jp/y-kojima/4549980971604.html",
+        "price": 9420,
         "shippingFree": true,
         "point": 0,
-        "reviewAverage": null,
-        "reviewCount": 0,
-        "shop": "リサイクルマート宮崎・鹿児島",
-        "checkedAt": "2026-11-23T21:44:00.508Z"
+        "reviewAverage": 4.5,
+        "reviewCount": 4,
+        "shop": "コジマYahoo!店",
+        "checkedAt": "2026-11-24T21:44:09.463Z"
       },
       "amazon": {
         "keyword": "パナソニック DS-FAS1200",
@@ -128,14 +128,14 @@
           "フィルター",
           "カバー"
         ],
-        "url": "https://store.shopping.yahoo.co.jp/beisiadenki/4549980971611.html",
-        "price": 8498,
+        "url": "https://store.shopping.yahoo.co.jp/onesmart/4549980971611.html",
+        "price": 8497,
         "shippingFree": true,
         "point": 0,
-        "reviewAverage": null,
-        "reviewCount": 0,
-        "shop": "Bサプライズ(ベイシア電器)",
-        "checkedAt": "2026-11-23T21:44:00.508Z"
+        "reviewAverage": 4.57,
+        "reviewCount": 7,
+        "shop": "ワンズマートYahoo!ショッピング店",
+        "checkedAt": "2026-11-24T21:44:09.463Z"
       },
       "amazon": {
         "keyword": "パナソニック DS-FAN1200",
@@ -186,14 +186,14 @@
           "フィルター",
           "カバー"
         ],
-        "url": "https://store.shopping.yahoo.co.jp/den-mart/57202.html",
+        "url": "https://store.shopping.yahoo.co.jp/den-mart/57201.html",
         "price": 17927,
         "shippingFree": true,
         "point": 0,
         "reviewAverage": null,
         "reviewCount": 0,
         "shop": "Den-Mart",
-        "checkedAt": "2026-11-23T21:44:00.508Z"
+        "checkedAt": "2026-11-24T21:44:09.463Z"
       },
       "amazon": {
         "keyword": "パナソニック DS-FZX1200",
@@ -251,7 +251,7 @@
         "reviewAverage": null,
         "reviewCount": 0,
         "shop": "BASE CAMP 8",
-        "checkedAt": "2026-11-23T21:44:00.508Z"
+        "checkedAt": "2026-11-24T21:44:09.463Z"
       },
       "amazon": {
         "keyword": "山善 DSF-VE122",
@@ -309,7 +309,7 @@
         "reviewAverage": null,
         "reviewCount": 0,
         "shop": "LOHACO by アスクル",
-        "checkedAt": "2026-11-23T21:44:00.508Z"
+        "checkedAt": "2026-11-24T21:44:09.463Z"
       },
       "amazon": {
         "keyword": "山善 DSF-S123",
@@ -360,14 +360,14 @@
           "フィルター",
           "カバー"
         ],
-        "url": "https://store.shopping.yahoo.co.jp/e-kurashi/op-67413.html",
-        "price": 5980,
+        "url": "https://lohaco.yahoo.co.jp/store/h-lohaco/item/jwp4511/",
+        "price": 6028,
         "shippingFree": true,
         "point": 0,
-        "reviewAverage": 4.5,
-        "reviewCount": 239,
-        "shop": "くらしのeショップ",
-        "checkedAt": "2026-11-23T21:44:00.508Z"
+        "reviewAverage": null,
+        "reviewCount": 0,
+        "shop": "LOHACO by アスクル",
+        "checkedAt": "2026-11-24T21:44:09.463Z"
       },
       "amazon": {
         "keyword": "山善 DMSF-J063",

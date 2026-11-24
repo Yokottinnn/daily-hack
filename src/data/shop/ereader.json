@@ -32,7 +32,7 @@
       "label": "本を買うストア"
     }
   ],
-  "pricesCheckedAt": "2026-11-23T21:44:00.508Z",
+  "pricesCheckedAt": "2026-11-24T21:44:09.463Z",
   "items": [
     {
       "id": "kindle-16gb",
@@ -136,7 +136,7 @@
         "reviewAverage": null,
         "reviewCount": 0,
         "shop": "らいぶshop",
-        "checkedAt": "2026-11-23T21:44:00.508Z"
+        "checkedAt": "2026-11-24T21:44:09.463Z"
       },
       "amazon": {
         "keyword": "Kindle 16GB 2026",
@@ -241,7 +241,7 @@
         "reviewAverage": null,
         "reviewCount": 0,
         "shop": "ノア商社Yahoo!店",
-        "checkedAt": "2026-11-23T21:44:00.508Z"
+        "checkedAt": "2026-11-24T21:44:09.463Z"
       },
       "amazon": {
         "keyword": "Kindle Paperwhite 2026",
@@ -348,7 +348,7 @@
         "reviewAverage": null,
         "reviewCount": 0,
         "shop": "Joshin web",
-        "checkedAt": "2026-11-23T21:44:00.508Z"
+        "checkedAt": "2026-11-24T21:44:09.463Z"
       },
       "amazon": {
         "keyword": "Kindle Colorsoft 2026",
@@ -445,7 +445,15 @@
           "フロントライト非搭載",
           "2024",
           "第2世代"
-        ]
+        ],
+        "url": null,
+        "price": null,
+        "shippingFree": null,
+        "point": null,
+        "reviewAverage": null,
+        "reviewCount": null,
+        "shop": null,
+        "checkedAt": "2026-11-24T21:44:09.463Z"
       },
       "amazon": {
         "keyword": "Kindle Scribe 2026",
@@ -536,7 +544,15 @@
           "スキンシール",
           "延長保証",
           "Colour"
-        ]
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/y-kojima/4560470103787.html",
+        "price": 25800,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 2,
+        "shop": "コジマYahoo!店",
+        "checkedAt": "2026-11-24T21:44:09.463Z"
       },
       "amazon": {
         "keyword": "Kobo Clara BW",
@@ -627,7 +643,15 @@
           "スキンシール",
           "延長保証",
           "BW"
-        ]
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/joshin/4560470103794-41-25489.html",
+        "price": 29800,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 0,
+        "shop": "Joshin web",
+        "checkedAt": "2026-11-24T21:44:09.463Z"
       },
       "amazon": {
         "keyword": "Kobo Clara Colour",
@@ -724,7 +748,7 @@
         "reviewAverage": 5,
         "reviewCount": 3,
         "shop": "コジマYahoo!店",
-        "checkedAt": "2026-11-23T21:44:00.508Z"
+        "checkedAt": "2026-11-24T21:44:09.463Z"
       },
       "amazon": {
         "keyword": "Kobo Libra Colour",
@@ -827,7 +851,7 @@
         "reviewAverage": null,
         "reviewCount": null,
         "shop": null,
-        "checkedAt": "2026-11-23T21:44:00.508Z"
+        "checkedAt": "2026-11-24T21:44:09.463Z"
       },
       "amazon": {
         "keyword": "BOOX Go7",
