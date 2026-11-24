@@ -29,7 +29,7 @@ event:
 「物産展は何時まで？」「ポップコーンはどこに出る？」——有明ガーデンの公式サイトに12月の期間限定店が出ているから、アタシがまとめた。土台は<strong>有明ガーデン公式サイトのイベント案内</strong>2本よ。
 
 <div class="hakkako-says">
-  <div class="hakkako-quote">先に一番大事なことを言っとく。<strong>物産展の最終日（12月9日）は17時で閉まる</strong>。会社帰りに寄るつもりなら、8日までに行きなさい。</div>
+  <div class="hakkako-quote">先に一番大事なことを言っとく。<strong>物産展の最終日（2026年12月9日）は17時で閉まる</strong>。会社帰りに寄るつもりなら、8日までに行きなさい。</div>
 </div>
 
 ## 30秒で分かる、有明ガーデンの12月の期間限定店
@@ -170,8 +170,8 @@ event:
 ## 回り方
 
 <ul class="checklist">
-  <li><div class="checklist-body"><strong>両方を見るなら12月4日〜9日</strong><p>この6日間は物産展とポップコーンが同じ2階に出ている。中央吹抜広場とEエスカレーター横。</p></div></li>
-  <li><div class="checklist-body"><strong>物産展の最終日は17時まで</strong><p>12月9日（水）は早く閉まる。平日の夜に行くなら8日まで。</p></div></li>
+  <li><div class="checklist-body"><strong>両方を見るなら2026年12月4日〜9日</strong><p>この6日間は物産展とポップコーンが同じ2階に出ている。中央吹抜広場とEエスカレーター横。</p></div></li>
+  <li><div class="checklist-body"><strong>物産展の最終日は17時まで</strong><p>2026年12月9日（水）は早く閉まる。平日の夜に行くなら8日まで。</p></div></li>
   <li><div class="checklist-body"><strong>ポップコーンは3個まとめ買いが得</strong><p>Mサイズ1個600円、3個で1,500円。</p></div></li>
   <li><div class="checklist-body"><strong>駐車券のサービスは付かない</strong><p>どちらの催しも、ここでの支払いは駐車券サービスの対象外。</p></div></li>
 </ul>

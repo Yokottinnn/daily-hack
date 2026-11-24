@@ -28,7 +28,7 @@ event:
 「豊洲ではどこに何が出るの？」「キーホルダーづくりは何時から？」——全国のららぽーとでやる催しだから、豊洲の分だけ拾うのが面倒なのよ。だからアタシがまとめた。土台は<strong>アーバンドック ららぽーと豊洲 公式サイトのイベント案内</strong>と、<strong>ららぽーとの特設サイト</strong>よ。
 
 <div class="hakkako-says">
-  <div class="hakkako-quote">先に一番大事なことを言っとく。<strong>キーホルダーづくりは12月12日と13日の2日だけ、定員に達したら終わり</strong>。子どもが楽しみにしてるなら、早めにセンターエントランスへ行きなさい。</div>
+  <div class="hakkako-quote">先に一番大事なことを言っとく。<strong>キーホルダーづくりは2026年12月12日と13日の2日だけ、定員に達したら終わり</strong>。子どもが楽しみにしてるなら、早めにセンターエントランスへ行きなさい。</div>
 </div>
 
 ## 30秒で分かる、ららぽーと豊洲のドラえもんクリスマス
@@ -72,7 +72,7 @@ event:
 <tr><th>催し</th><td>ドラえもん CHRISTMAS FOR YOU in LaLaport・LAZONA</td></tr>
 <tr><th>期間</th><td><strong>2026年11月30日（月）〜12月25日（金）</strong></td></tr>
 <tr><th>場所</th><td><a href="https://mitsui-shopping-park.com/lalaport/toyosu/" target="_blank" rel="noopener">アーバンドック ららぽーと豊洲</a>（東京都江東区豊洲2-4-9）</td></tr>
-<tr><th>豊洲で出るもの</th><td>ひみつ道具スタンプラリー／おなまえキーホルダーづくり（12月12日・13日）／どこでもドアフォトスポット／等身大ドラえもん／ひみつ道具ツリー／ドラキッズのクリスマスカードづくり（12月20日）</td></tr>
+<tr><th>豊洲で出るもの</th><td>ひみつ道具スタンプラリー／おなまえキーホルダーづくり（2026年12月12日・13日）／どこでもドアフォトスポット／等身大ドラえもん／ひみつ道具ツリー／ドラキッズのクリスマスカードづくり（2026年12月20日）</td></tr>
 </tbody>
 </table>
 </div>
@@ -197,7 +197,7 @@ event:
 
 <ul class="checklist">
   <li><div class="checklist-body"><strong>スタンプラリーは1階の3カ所</strong><p>センターエントランス前・マリーナキッチン・ハンズ前。等身大ドラえもんのうち3体も同じ1階にいる。</p></div></li>
-  <li><div class="checklist-body"><strong>キーホルダーは12月12日・13日の早めに</strong><p>定員に達したら終わる。時間は特設サイトの「各施設の開催日程・会場」で確かめる。</p></div></li>
+  <li><div class="checklist-body"><strong>キーホルダーは2026年12月12日・13日の早めに</strong><p>定員に達したら終わる。時間は特設サイトの「各施設の開催日程・会場」で確かめる。</p></div></li>
   <li><div class="checklist-body"><strong>どこでもドアはららぽーと豊洲3の2階</strong><p>有隣堂の前。等身大ドラえもんの4体目もここ。</p></div></li>
   <li><div class="checklist-body"><strong>シールが欲しいなら先にメンバーズ登録</strong><p>三井ショッピングパークアプリかLINE公式アカウントで登録・ログインしておく。</p></div></li>
 </ul>
