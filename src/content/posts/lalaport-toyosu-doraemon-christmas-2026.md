@@ -184,7 +184,13 @@ event:
 
 ## SNS ではこう言われている
 
-ららぽーと公式は、館内でドラえもんや仲間を見つけて投稿する<strong>Xのプレゼントキャンペーン</strong>（抽選30名にドラえもん ねむりタイ）と、<strong>Instagramのフォロー＆いいねのキャンペーン</strong>（抽選10名にドラえもんタオルセット）を、どちらも2026年11月30日（月）〜12月25日（金）に開く。始まったら、豊洲で撮った写真が並ぶはずよ。
+- <strong>ららぽーと公式のX</strong>：2026年11月17日に告知を出し、いいねは1,400を超えている
+- <strong>ニュースのまとめ</strong>：「全国のららぽーと19施設とラゾーナ川崎で」と紹介。投稿にある「サンタ姿のドラえもん撮影会」は対象の施設だけの催しで、豊洲の案内には載っていない
+- <strong>Xとインスタのキャンペーン</strong>：ららぽーと公式は、館内でドラえもんや仲間を見つけて投稿するXのキャンペーン（抽選30名にドラえもん ねむりタイ）と、Instagramのフォロー＆いいね（抽選10名にドラえもんタオルセット）を、どちらも2026年11月30日（月）〜12月25日（金）に開く
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">🎄ドラえもん CHRISTMAS FOR YOU in LaLaport・LAZONA🎄 11/30（月）～12/25（金）の期間中、 全国のららぽーと（門真除く）・ラゾーナ川崎で開催！</p>&mdash; ららぽーと (@lalafanlalaport) <a href="https://twitter.com/lalafanlalaport/status/2122525658391998695">2026年11月17日</a></blockquote>
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">全国のららぽーと19施設とラゾーナ川崎で「ドラえもん CHRISTMAS FOR YOU」を11月30日から開催 ひみつ道具スタンプラリーや映像が切り替わる「どこでもドア」フォトスポット、サンタ姿のドラえもん撮影会も</p>&mdash; テックピックス【公式】 (@techpicks_02) <a href="https://twitter.com/techpicks_02/status/2124720400299180435">2026年11月23日</a></blockquote>
 
 ## 回り方
 

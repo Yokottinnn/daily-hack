@@ -152,7 +152,17 @@ event:
 
 ## SNS ではこう言われている
 
-ジェリーズポップコーンは、駅や商業施設に期間限定で出ることが多い店。有明ガーデンでは公式の案内で「1番人気のMサイズ」「3個セットはお得」と打ち出している。物産展のほうは、いきなり団子（熊本）・かるかん（鹿児島）・カステラ（長崎）と、九州の定番の和菓子が並ぶ。
+- <strong>ジェリーズポップコーンの買い方</strong>：見つけた人が「キャラメル、チーズ、バター醤油」と3つまとめて買い、「梅かつお」を買わずに後悔した、と書いている。3個セットで味を散らすのが定番みたい
+- <strong>季節の味</strong>：別の店では2026年11月23日から「アップルシナモン」を数量限定で出している。有明に来るかは案内に書かれていない
+- <strong>有明ガーデンの物産展</strong>：2026年10月には同じ有明ガーデンで沖縄の物産展があり、「さたぱんびん」の黒糖味を買った人の投稿がある
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">ジェリーズポップコーン見つけたからキャラメル、チーズ、バター醤油買った✌︎ 毎回梅かつお食べてみたくて悩んで結局買わず帰宅して後悔 次こそ絶対買うぞ</p>&mdash; マーガリン (@magarindayo) <a href="https://twitter.com/magarindayo/status/2124076581446693373">2026年11月21日</a></blockquote>
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">お待たせしました！アップルシナモンが数量限定で販売開始🍎🍿 りんごとシナモンの組み合わせが相性抜群！アップルパイのような味わいです✨</p>&mdash; ジェリーズポップコーン スペシャルサンクス店 (@jerrys_spthanks) <a href="https://twitter.com/jerrys_spthanks/status/2124689338487459856">2026年11月23日</a></blockquote>
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/bVs3Igrzbdo" title="イベント会場に出店していたジェリーズポップコーンというポップコーンのチョコレートナッツ味を食べてみた！！" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
 
 ## 回り方
 
