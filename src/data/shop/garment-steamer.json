@@ -28,7 +28,7 @@
       "label": "本体の重さ"
     }
   ],
-  "pricesCheckedAt": "2026-11-23T21:44:00.508Z",
+  "pricesCheckedAt": "2026-11-24T21:44:09.463Z",
   "items": [
     {
       "id": "panasonic-ni-fs70c",
@@ -106,7 +106,7 @@
         "reviewAverage": 4.5,
         "reviewCount": 10,
         "shop": "パナソニック ストア プラス Yahoo!店",
-        "checkedAt": "2026-11-23T21:44:00.508Z"
+        "checkedAt": "2026-11-24T21:44:09.463Z"
       },
       "amazon": {
         "keyword": "パナソニック 衣類スチーマー NI-FS70C",
@@ -182,14 +182,14 @@
           "フィルター",
           "カップのみ"
         ],
-        "url": "https://store.shopping.yahoo.co.jp/dshopone-y/4550719157350.html",
+        "url": "https://store.shopping.yahoo.co.jp/dshopone/4550719157350.html",
         "price": 7452,
         "shippingFree": true,
         "point": 0,
         "reviewAverage": null,
         "reviewCount": 0,
-        "shop": "ディーショップワン Yahoo!店",
-        "checkedAt": "2026-11-23T21:44:00.508Z"
+        "shop": "D-SHOP ONE",
+        "checkedAt": "2026-11-24T21:44:09.463Z"
       },
       "amazon": {
         "keyword": "パナソニック 衣類スチーマー NI-FS40C",
@@ -272,7 +272,7 @@
         "reviewAverage": null,
         "reviewCount": 0,
         "shop": "デジ倉",
-        "checkedAt": "2026-11-23T21:44:00.508Z"
+        "checkedAt": "2026-11-24T21:44:09.463Z"
       },
       "amazon": {
         "keyword": "ティファール ピュアフォース DT8732J0",
@@ -348,14 +348,14 @@
           "フィルター",
           "カップのみ"
         ],
-        "url": "https://store.shopping.yahoo.co.jp/dejikura/3121047210195.html",
-        "price": 17800,
+        "url": "https://store.shopping.yahoo.co.jp/youplan/100000559283.html",
+        "price": 32230,
         "shippingFree": true,
         "point": 0,
         "reviewAverage": null,
         "reviewCount": 0,
-        "shop": "デジ倉",
-        "checkedAt": "2026-11-23T21:44:00.508Z"
+        "shop": "ユープラン",
+        "checkedAt": "2026-11-24T21:44:09.463Z"
       },
       "amazon": {
         "keyword": "ティファール エアロスチーム S DT9302J0",
@@ -438,7 +438,7 @@
         "reviewAverage": 5,
         "reviewCount": 4,
         "shop": "でんでんショッピング ヤフー店",
-        "checkedAt": "2026-11-23T21:44:00.508Z"
+        "checkedAt": "2026-11-24T21:44:09.463Z"
       },
       "amazon": {
         "keyword": "ティファール スチーム ラフレ DV8070J0",
@@ -514,14 +514,14 @@
           "フィルター",
           "カップのみ"
         ],
-        "url": "https://store.shopping.yahoo.co.jp/ecjoyecj30/20740377.html",
+        "url": "https://store.shopping.yahoo.co.jp/ecjoyecj25/20740377.html",
         "price": 11726,
         "shippingFree": false,
         "point": 0,
         "reviewAverage": null,
         "reviewCount": 0,
-        "shop": "エクセレントショップ",
-        "checkedAt": "2026-11-23T21:44:00.508Z"
+        "shop": "HJN ヤフー店",
+        "checkedAt": "2026-11-24T21:44:09.463Z"
       },
       "amazon": {
         "keyword": "日立 衣類スチーマー CSI-RX71",
@@ -604,7 +604,7 @@
         "reviewAverage": null,
         "reviewCount": 0,
         "shop": "プロキュアエース",
-        "checkedAt": "2026-11-23T21:44:00.508Z"
+        "checkedAt": "2026-11-24T21:44:09.463Z"
       },
       "amazon": {
         "keyword": "アイリスオーヤマ プレススチーマー IRS-P2",

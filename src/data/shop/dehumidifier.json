@@ -28,7 +28,7 @@
       "label": "タンク"
     }
   ],
-  "pricesCheckedAt": "2026-11-23T21:44:00.508Z",
+  "pricesCheckedAt": "2026-11-24T21:44:09.463Z",
   "items": [
     {
       "id": "panasonic-f-yex200d",
@@ -107,7 +107,7 @@
         "reviewAverage": null,
         "reviewCount": 0,
         "shop": "ディーライズ2号",
-        "checkedAt": "2026-11-23T21:44:00.508Z"
+        "checkedAt": "2026-11-24T21:44:09.463Z"
       },
       "amazon": {
         "keyword": "パナソニック 衣類乾燥除湿機 F-YEX200D",
@@ -191,7 +191,7 @@
         "reviewAverage": null,
         "reviewCount": 0,
         "shop": "PCあきんど",
-        "checkedAt": "2026-11-23T21:44:00.508Z"
+        "checkedAt": "2026-11-24T21:44:09.463Z"
       },
       "amazon": {
         "keyword": "パナソニック 衣類乾燥除湿機 F-YEX90D",
@@ -268,14 +268,14 @@
           "リモコン",
           "レンタル"
         ],
-        "url": "https://store.shopping.yahoo.co.jp/kadenselect/cv-uh160-w.html",
-        "price": 63980,
+        "url": "https://store.shopping.yahoo.co.jp/gbft/cv-uh16-0hhh.html",
+        "price": 64980,
         "shippingFree": true,
         "point": 0,
-        "reviewAverage": 5,
-        "reviewCount": 3,
-        "shop": "KADENセレクト",
-        "checkedAt": "2026-11-23T21:44:00.508Z"
+        "reviewAverage": null,
+        "reviewCount": 1,
+        "shop": "GBFT Premium",
+        "checkedAt": "2026-11-24T21:44:09.463Z"
       },
       "amazon": {
         "keyword": "シャープ 衣類乾燥除湿機 CV-UH160",
