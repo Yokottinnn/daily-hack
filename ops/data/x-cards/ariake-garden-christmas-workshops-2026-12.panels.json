@@ -1,0 +1,33 @@
+{
+  "_doc": "X 告知の画像。CHROME=/opt/pw-browsers/chromium-1243/chrome-linux64/chrome node scripts/gen-x-panels.mjs ops/data/x-cards/ariake-garden-christmas-workshops-2026-12.panels.json",
+  "_note": "2026-11-23 の候補づくり（湾岸ニュース・単発）。素材は blog3 が記事 ariake-garden-christmas-workshops-2026-12 で取った有明ガーデン公式のイベント案内の画像（photos/_manifest.json）。1 枚目＝ブーケデザインの案内、2 枚目＝キャンドルの写真＋段取り、3 枚目＝クッキー缶の案内で、3 枚とも別の画像。出所は画像に出さず ALT に書く",
+  "imageBase": "public/images/ariake-garden-christmas-workshops-2026-12",
+  "out": "public/images/ariake-garden-christmas-workshops-2026-12/x",
+  "theme": "ink",
+  "panels": [
+    {
+      "file": "x1-official.jpg",
+      "kind": "html",
+      "noHeader": true,
+      "html": "<div class=\"ey\"><img class=\"bgb\" src=\"photos/bouquet.jpg\" alt=\"\"><img class=\"fg\" src=\"photos/bouquet.jpg\" alt=\"\"></div>",
+      "css": "main{padding:0;height:1080px;display:block}\n.ey{position:relative;height:1080px;overflow:hidden;background:#111}\n.bgb{position:absolute;left:-60px;top:-60px;width:1200px;height:1200px;object-fit:cover;filter:blur(34px) brightness(.5)}\n.fg{position:absolute;left:28px;top:28px;width:1024px;height:1024px;object-fit:contain;filter:drop-shadow(0 18px 40px rgba(0,0,0,.45))}",
+      "alt": "有明ガーデンのクリスマス＆お正月ワークショップ「ブーケデザイン」の案内。フラワーオーナメント、ハートリース、フェルトリース、ボトルツリーなど。12月12・13・19・20日（土日）10〜18時、12月21〜25日（平日）12〜17時、モール2階カルディコーヒーファーム前の柱まわり。画像：有明ガーデン 公式サイト（Bouquet Design）"
+    },
+    {
+      "file": "x2-steps.jpg",
+      "kind": "html",
+      "noHeader": true,
+      "html": "<div class=\"w\"><img class=\"ph\" src=\"photos/candle-2.jpg\" alt=\"\"><div class=\"shade\"></div><div class=\"tx\"><div class=\"k\">有明ガーデン・12/19（土）20日（日）</div><div class=\"t\">3つ全部そろう土日は<br><em>この2日だけ</em></div><ul class=\"pts\"><li><b>①まず</b>キャンドル作り（1,430円〜・受け取りまで約1時間）</li><li><b>②待つ間</b>お花のリース（2F・10〜18時）</li><li><b>③帰りに</b>絵本のクッキー缶（2F・1缶3,564円）</li></ul></div></div>",
+      "css": "main{padding:0;height:1080px;display:block}\n.w{position:relative;height:1080px;color:#fff;background:#1E1219;overflow:hidden}\n.ph{position:absolute;left:0;top:0;width:100%;height:540px;object-fit:cover;object-position:center 50%}\n.shade{position:absolute;left:0;right:0;top:330px;height:212px;background:linear-gradient(180deg,rgba(30,18,25,0),#1E1219 92%)}\n.tx{position:absolute;left:56px;right:56px;top:440px;bottom:52px;display:flex;flex-direction:column}\n.k{align-self:flex-start;font-size:30px;font-weight:900;color:#2A1923;background:#F5C518;border-radius:999px;padding:6px 22px}\n.t{font-size:58px;font-weight:900;line-height:1.2;margin-top:14px;text-shadow:0 2px 12px rgba(0,0,0,.4)}\n.t em{font-style:normal;color:#EC5C90}\n.pts{list-style:none;margin-top:22px;flex:1;display:flex;flex-direction:column;justify-content:center;gap:16px}\n.pts li{font-size:31px;font-weight:700;line-height:1.35;background:rgba(255,255,255,.08);border-left:10px solid #EC5C90;border-radius:14px;padding:14px 24px}\n.pts b{color:#F5C518;margin-right:12px}",
+      "alt": "透明なキャンドル作り「ジョイキャンドル」の作品の写真。文字：有明ガーデン・12月19日（土）20日（日）。リース・キャンドル・クッキー缶の3つ全部そろう土日はこの2日だけ。①まずキャンドル作り（1,430円から・受け取りまで約1時間）②待つ間にお花のリース（2階・10〜18時）③帰りに絵本のクッキー缶（2階・1缶3,564円）。画像：有明ガーデン 公式サイト（株式会社東京ミモレ）"
+    },
+    {
+      "file": "x3-cookie.jpg",
+      "kind": "html",
+      "noHeader": true,
+      "html": "<div class=\"ey\"><img class=\"bgb\" src=\"photos/cookie-main.jpg\" alt=\"\"><img class=\"fg\" src=\"photos/cookie-main.jpg\" alt=\"\"></div>",
+      "css": "main{padding:0;height:1080px;display:block}\n.ey{position:relative;height:1080px;overflow:hidden;background:#111}\n.bgb{position:absolute;left:-60px;top:-60px;width:1200px;height:1200px;object-fit:cover;filter:blur(34px) brightness(.5)}\n.fg{position:absolute;left:28px;top:28px;width:1024px;height:1024px;object-fit:contain;filter:drop-shadow(0 18px 40px rgba(0,0,0,.45))}",
+      "alt": "「名作絵本のクッキー缶セレクション」の案内画像。絵本の世界をクッキーにした缶が並ぶ。有明ガーデンでは12月19日（土）〜25日（金）、モール2階Eエスカレーター横。画像：有明ガーデン 公式サイト（株式会社Cake.jp）。© SACHIKO KIYONO / MIKA KIYONO / KAISEI-SHA、© Kaoru Kuroda、© Noriko Kudoh / Hakusensha、© Akiko Hayashi 1989、© 宮西達也 / ポプラ社"
+    }
+  ]
+}

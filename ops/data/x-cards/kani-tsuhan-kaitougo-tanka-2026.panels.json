@@ -1,0 +1,25 @@
+{
+ "_doc": "node scripts/gen-x-panels.mjs ops/data/x-cards/kani-tsuhan-kaitougo-tanka-2026.panels.json",
+ "_note": "2026-11-23 の候補づくり（ポイ活・calc）。素材は記事の photos（各ショップの Yahoo!ショッピングの商品画像）。出所は画像に出さず ALT に書く。数字は記事の表のまま（2026-11-21 の表示）",
+ "imageBase": "public/images/kani-tsuhan-kaitougo-tanka-2026",
+ "out": "public/images/kani-tsuhan-kaitougo-tanka-2026/x",
+ "theme": "ink",
+ "panels": [
+  {
+   "file": "xv1-shoumi-calc.jpg",
+   "kind": "html",
+   "noHeader": true,
+   "html": "<div class=\"w\"><div class=\"ph\"><img src=\"photos/manzoku-taraba.jpg\" alt=\"\"></div><div class=\"tx\"><div class=\"k\">満足良品館 タラバ肩付き脚 1肩2kg・18,600円</div><div class=\"t\">100gあたり930円のはずが<br>正味で割ると<em>1,162円</em></div><ul class=\"pts\"><li><b>総重量2kgで割ると</b>100gあたり930円</li><li><b>正味1.6kgで割ると</b>100gあたり1,162円</li><li><b>差の20%</b>表面の氷の膜（グレーズ）など</li></ul></div></div>",
+   "css": "main{padding:0;height:1080px;display:block}\n.w{position:relative;height:1080px;background:#1E1219;color:#fff;overflow:hidden}\n.ph{position:absolute;left:0;top:0;width:100%;height:540px;background:#fff}\n.ph img{width:100%;height:100%;object-fit:contain;padding:24px}\n.tx{position:absolute;left:56px;right:56px;top:576px;bottom:48px;display:flex;flex-direction:column}\n.k{align-self:flex-start;font-size:30px;font-weight:900;color:#2A1923;background:#F5C518;border-radius:999px;padding:6px 22px}\n.t{font-size:54px;font-weight:900;line-height:1.22;margin-top:14px}\n.t em{font-style:normal;color:#EC5C90}\n.pts{list-style:none;margin-top:18px;flex:1;display:flex;flex-direction:column;justify-content:center;gap:14px}\n.pts li{font-size:32px;font-weight:700;line-height:1.35;background:rgba(255,255,255,.08);border-left:10px solid #EC5C90;border-radius:14px;padding:12px 22px}\n.pts b{color:#F5C518;margin-right:10px}",
+   "alt": "満足良品館の超特大タラバガニ肩付き脚 1肩2kg（18,600円）。文字：総重量2kgで割ると100gあたり930円、正味1.6kgで割ると1,162円。差の20%は表面の氷の膜（グレーズ）など。画像：満足良品館（Yahoo!ショッピングの商品ページ）"
+  },
+  {
+   "file": "xv2-shoumi-4.jpg",
+   "kind": "html",
+   "noHeader": true,
+   "html": "<div class=\"w\"><div class=\"k\">カニ通販・正味100gあたり（かっこ内は総重量で割った値段）</div><div class=\"h\">解凍後の重さで並べ直すと<br><em>こうなるわよ</em></div><div class=\"zg\"><div class=\"zc\"><img src=\"photos/kouragumi-zuwai-nama.jpg\" alt=\"\"><div class=\"zd\"><div class=\"zm\">甲羅組 カット生ずわい蟹 特盛</div><div class=\"zp\">600円<small>（450円）</small></div></div></div><div class=\"zc\"><img src=\"photos/takumi-taraba.jpg\" alt=\"\"><div class=\"zd\"><div class=\"zm\">笑顔の食卓 匠 9Lたらば 半むき身</div><div class=\"zp\">1,161円<small>（995円）</small></div></div></div><div class=\"zc\"><img src=\"photos/masuyone-taraba.jpg\" alt=\"\"><div class=\"zd\"><div class=\"zm\">ますよね 本タラバ脚 1肩</div><div class=\"zp\">1,234円<small>（1,111円）</small></div></div></div><div class=\"zc\"><img src=\"photos/kouragumi-taraba-tsume.jpg\" alt=\"\"><div class=\"zd\"><div class=\"zm\">甲羅組 ボイルたらばがに 爪1kg</div><div class=\"zp\">1,748円<small>（1,398円）</small></div></div></div></div></div>",
+   "css": "main{padding:0;height:1080px;display:block}\n.w{height:1080px;background:#1E1219;color:#fff;display:flex;flex-direction:column;padding:44px 44px 40px}\n.k{align-self:flex-start;font-size:28px;font-weight:900;color:#2A1923;background:#F5C518;border-radius:999px;padding:6px 22px}\n.h{font-size:56px;font-weight:900;line-height:1.18;margin-top:14px}\n.h em{font-style:normal;color:#EC5C90}\n.zg{display:grid;grid-template-columns:1fr 1fr;grid-template-rows:360px 360px;gap:18px;margin-top:22px}\n.zc{background:#fff;border-radius:22px;overflow:hidden;display:flex;flex-direction:column}\n.zc img{height:252px;flex:none;width:100%;object-fit:cover}\n.zd{background:#2A1923;padding:10px 18px 12px;flex:1}\n.zm{font-size:24px;font-weight:700;line-height:1.25;color:#FFF1C8;white-space:nowrap;overflow:hidden}\n.zp{font-size:40px;font-weight:900;color:#F5C518;line-height:1.2}\n.zp small{font-size:24px;color:#fff;font-weight:700;margin-left:8px}",
+   "alt": "カニ通販4品の正味100gあたりの値段（かっこ内は総重量で割った値段）。甲羅組 カット生ずわい蟹 特盛 600円（450円）、笑顔の食卓 匠 9Lたらば 半むき身 1,161円（995円）、ますよね 本タラバ脚 1肩 1,234円（1,111円）、甲羅組 ボイルたらばがに 爪1kg 1,748円（1,398円）。2026年11月21日のYahoo!ショッピングの表示。画像：越前かに職人 甲羅組・笑顔の食卓 匠・越前かに問屋ますよね（いずれもYahoo!ショッピングの商品ページ）"
+  }
+ ]
+}

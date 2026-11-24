@@ -1,0 +1,17 @@
+{
+ "_doc": "node scripts/gen-x-panels.mjs ops/data/x-cards/x-social-danbou-2026.panels.json",
+ "_note": "2026-11-23 の候補づくり（social・question）。記事の紹介ではない問いかけ。自作の図（絵文字は Noto Color Emoji・OFL）。キャラの顔の画像は使わない",
+ "imageBase": "public/images/x-social-danbou-2026",
+ "out": "public/images/x-social-danbou-2026/x",
+ "theme": "plum",
+ "panels": [
+  {
+   "file": "xv1-question.jpg",
+   "kind": "html",
+   "noHeader": true,
+   "html": "<div class=\"w\"><div class=\"k\">今年の冬</div><div class=\"h\">あんたが最初に出した<br><em>暖房グッズ</em>はどれ？</div><div class=\"g\"><div class=\"c\"><div class=\"no\">①</div><div class=\"e\">🧥</div><div class=\"nm\">着る毛布</div></div><div class=\"c\"><div class=\"no\">②</div><div class=\"e\">🛏️</div><div class=\"nm\">電気毛布</div></div><div class=\"c\"><div class=\"no\">③</div><div class=\"e\">🍊</div><div class=\"nm\">こたつ</div></div><div class=\"c\"><div class=\"no\">④</div><div class=\"e\">🤷</div><div class=\"nm\">まだ何も出してない</div></div></div><div class=\"ft\">番号だけでいいわ。リプで教えなさい</div></div>",
+   "css": "main{padding:0;height:1080px;display:block}\n.w{height:1080px;background:linear-gradient(160deg,#2A1923,#46293A);color:#fff;display:flex;flex-direction:column;padding:60px 56px 52px}\n.k{align-self:flex-start;font-size:30px;font-weight:900;color:#2A1923;background:#F5C518;border-radius:999px;padding:6px 22px}\n.h{font-size:64px;font-weight:900;line-height:1.22;margin-top:20px}\n.h em{font-style:normal;color:#EC5C90}\n.g{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:36px;flex:1}\n.c{background:#FFFBEE;color:#2A1923;border-radius:26px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;box-shadow:0 8px 24px rgba(0,0,0,.25)}\n.c .no{font-size:44px;font-weight:900;color:#D63E76}\n.c .e{font-family:\"Noto Color Emoji\";font-size:110px;line-height:1}\n.c .nm{font-size:40px;font-weight:900}\n.ft{font-size:34px;font-weight:900;margin-top:30px;text-align:center;color:#FFF1C8}",
+   "alt": "今年の冬、あんたが最初に出した暖房グッズはどれ？ ①着る毛布 ②電気毛布 ③こたつ ④まだ何も出してない。番号だけでいいわ。リプで教えなさい。"
+  }
+ ]
+}

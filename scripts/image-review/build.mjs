@@ -24,8 +24,7 @@ const OUT = process.argv[2] || path.join(ROOT, ".image-review.built.html");
 
 // 画像を足す・差し替えるときはここと page.html の SETS を**両方** 直す
 const FILES = {
-  "walk-poikatsu-2026": ["1-summary.jpg", "2-waon.jpg", "3-web3.jpg", "4-mile.jpg"],
-  "tokyo-discount-supermarket-2026": ["1-summary.jpg", "2-maibasket.jpg", "3-hanamasa.jpg", "4-tv.jpg"],
+  // "walk-poikatsu-2026"・"tokyo-discount-supermarket-2026" は投稿済み（2026-09-21）。2026-11-23 にページの容量（16MB）のため外した。戻すときは page.html の walk/super も戻す
   // **1 枚だけ**（2026-09-22 のコメント）。版A（実写あり）が選ばれ、版B は削除した
   "morning-500-2026": ["cover-a.jpg"],
   // **2 パターンの文面で同じ 4 枚を見てもらう**（2026-09-26 の指示）。
@@ -124,6 +123,14 @@ const FILES = {
   "lalaport-toyosu-gu-chiikawa-custard-2026": ["x1-gu.jpg", "x2-custard.jpg"],
   "ariake-garden-kanpai-coupon-2026": ["x1-kv.jpg", "x2-coupon.jpg"],
   "furusato-december-rakuten-2026": ["x1-deadline.jpg"],
+  // **未投稿**（2026-11-23）。湾岸の週まとめ・ランキング以外の候補
+  "x-news-wangan-week-1123": ["1-cover.jpg", "2-kimatta.jpg"],
+  "tokyo-garden-theater-owarai-2026-12": ["x1-official.jpg", "x2-point.jpg"],
+  "ariake-garden-christmas-workshops-2026-12": ["x1-official.jpg", "x2-steps.jpg", "x3-cookie.jpg"],
+  "kani-tsuhan-kaitougo-tanka-2026": ["xv1-shoumi-calc.jpg", "xv2-shoumi-4.jpg"],
+  "humidifying-air-purifier-comparison-2026": ["xv1-31to19.jpg", "xv2-5models.jpg"],
+  "x-social-danbou-2026": ["xv1-question.jpg"],
+  "heparin-ruiji-lotion-price-2026": ["xv1-per-gram.jpg"],
   // **未投稿**（2026-11-22）。利用者の依頼・ポイ活
   "marunouchi-workers-invite-2026": ["1-official.jpg", "2-code.jpg"],
   "shukuhaku-ranking-2026": ["1-rank.jpg", "2-per.jpg"],

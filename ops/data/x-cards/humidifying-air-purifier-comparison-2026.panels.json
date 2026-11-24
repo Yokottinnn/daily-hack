@@ -1,0 +1,25 @@
+{
+ "_doc": "node scripts/gen-x-panels.mjs ops/data/x-cards/humidifying-air-purifier-comparison-2026.panels.json",
+ "_note": "2026-11-23 の候補づくり（blog・cliff）。1 枚目はパナソニック公式の写真、2 枚目は記事の表（旧基準→新基準）から作った自作の図。出所は画像に出さず ALT に書く。答え（加湿の畳数で選ぶ）は画像に出さない（[2/2] で明かす）",
+ "imageBase": "public/images/humidifying-air-purifier-comparison-2026",
+ "out": "public/images/humidifying-air-purifier-comparison-2026/x",
+ "theme": "ink",
+ "panels": [
+  {
+   "file": "xv1-31to19.jpg",
+   "kind": "html",
+   "noHeader": true,
+   "html": "<div class=\"w\"><div class=\"ph\"><img src=\"photos/f-vx70d-room.jpg\" alt=\"\"></div><div class=\"tx\"><div class=\"k\">パナソニック F-VX70D・空気清浄の適用床面積</div><div class=\"t\">同じ機種なのに<br>〜31畳 → <em>〜19畳</em></div><ul class=\"pts\"><li><b>2026年4月</b>畳数の測り方（JEM1467）が変わった</li><li><b>旧基準</b>汚れた空気を30分でどれだけきれいにするか</li><li><b>新基準</b>きれいな状態を保てるか</li></ul></div></div>",
+   "css": "main{padding:0;height:1080px;display:block}\n.w{position:relative;height:1080px;background:#1E1219;color:#fff;overflow:hidden}\n.ph{position:absolute;left:0;top:0;width:100%;height:540px;background:#fff}\n.ph img{width:100%;height:100%;object-fit:cover;object-position:center 55%}\n.tx{position:absolute;left:56px;right:56px;top:576px;bottom:48px;display:flex;flex-direction:column}\n.k{align-self:flex-start;font-size:30px;font-weight:900;color:#2A1923;background:#F5C518;border-radius:999px;padding:6px 22px}\n.t{font-size:54px;font-weight:900;line-height:1.22;margin-top:14px}\n.t em{font-style:normal;color:#EC5C90}\n.pts{list-style:none;margin-top:18px;flex:1;display:flex;flex-direction:column;justify-content:center;gap:14px}\n.pts li{font-size:32px;font-weight:700;line-height:1.35;background:rgba(255,255,255,.08);border-left:10px solid #EC5C90;border-radius:14px;padding:12px 22px}\n.pts b{color:#F5C518;margin-right:10px}",
+   "alt": "パナソニックの加湿空気清浄機 F-VX70D。文字：空気清浄の適用床面積は旧基準で〜31畳、新基準で〜19畳。2026年4月に畳数の測り方（JEM1467）が変わった。旧基準は汚れた空気を30分でどれだけきれいにするか、新基準はきれいな状態を保てるかを見る。画像：パナソニック 公式サイト"
+  },
+  {
+   "file": "xv2-5models.jpg",
+   "kind": "html",
+   "noHeader": true,
+   "html": "<div class=\"w\"><div class=\"k\">加湿空気清浄機・空気清浄の適用床面積</div><div class=\"h\">旧基準も載ってる5機種、<br>全部<em>3〜4割小さく</em>なったわ</div><div class=\"zl\"><span><i style=\"background:rgba(255,255,255,.22)\"></i>旧基準（2026年3月まで）</span><span><i style=\"background:#EC5C90\"></i>新基準（2026年4月から）</span></div><div class=\"zr\"><div class=\"zi\"><div class=\"zn\">パナソニック F-VXW90<small>43%小さい</small></div><div class=\"zb zo\" style=\"width:100.0%\">旧〜40畳</div><div class=\"zb zw\" style=\"width:57.5%\">新〜23畳</div></div><div class=\"zi\"><div class=\"zn\">パナソニック F-VX70D<small>39%小さい</small></div><div class=\"zb zo\" style=\"width:77.5%\">旧〜31畳</div><div class=\"zb zw\" style=\"width:47.5%\">新〜19畳</div></div><div class=\"zi\"><div class=\"zn\">シャープ KI-WS50<small>39%小さい</small></div><div class=\"zb zo\" style=\"width:57.5%\">旧〜23畳</div><div class=\"zb zw\" style=\"width:35.0%\">新〜14畳</div></div><div class=\"zi\"><div class=\"zn\">シャープ KI-WX75<small>35%小さい</small></div><div class=\"zb zo\" style=\"width:85.0%\">旧〜34畳</div><div class=\"zb zw\" style=\"width:55.0%\">新〜22畳</div></div><div class=\"zi\"><div class=\"zn\">シャープ KI-WX70<small>32%小さい</small></div><div class=\"zb zo\" style=\"width:77.5%\">旧〜31畳</div><div class=\"zb zw\" style=\"width:52.5%\">新〜21畳</div></div></div><div class=\"zf\">各社の公式の仕様表（2026年11月22日確認）</div></div>",
+   "css": "main{padding:0;height:1080px;display:block}\n.w{height:1080px;background:#1E1219;color:#fff;display:flex;flex-direction:column;padding:52px 56px 44px}\n.k{align-self:flex-start;font-size:30px;font-weight:900;color:#2A1923;background:#F5C518;border-radius:999px;padding:6px 22px}\n.h{font-size:56px;font-weight:900;line-height:1.2;margin-top:16px}\n.h em{font-style:normal;color:#EC5C90}\n.zl{display:flex;gap:28px;margin-top:20px;font-size:26px;font-weight:700}\n.zl span{display:inline-flex;align-items:center;gap:10px}\n.zl i{display:inline-block;width:34px;height:20px;border-radius:5px}\n.zr{flex:1;display:flex;flex-direction:column;justify-content:space-around;margin-top:10px}\n.zn{font-size:29px;font-weight:900;margin-bottom:6px;white-space:nowrap}\n.zn small{font-size:25px;color:#F5C518;margin-left:14px}\n.zb{height:32px;border-radius:8px;display:flex;align-items:center;justify-content:flex-end;padding-right:12px;font-size:22px;font-weight:900;white-space:nowrap}\n.zo{background:rgba(255,255,255,.24);color:#fff}\n.zw{background:#EC5C90;color:#fff;margin-top:6px}\n.zf{font-size:22px;color:#FFF1C8;margin-top:8px}",
+   "alt": "加湿空気清浄機5機種の空気清浄の適用床面積、旧基準→新基準。パナソニック F-VXW90 〜40畳→〜23畳（43%小さい）、F-VX70D 〜31畳→〜19畳（39%）、シャープ KI-WS50 〜23畳→〜14畳（39%）、KI-WX75 〜34畳→〜22畳（35%）、KI-WX70 〜31畳→〜21畳（32%）。各社の公式の仕様表（2026年11月22日確認）から作った図"
+  }
+ ]
+}

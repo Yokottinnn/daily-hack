@@ -1,0 +1,17 @@
+{
+ "_doc": "node scripts/gen-x-panels.mjs ops/data/x-cards/heparin-ruiji-lotion-price-2026.panels.json",
+ "_note": "2026-11-23 の候補づくり（ポイ活・proof）。素材は記事の photos（健栄製薬 公式オンラインショップの商品画像）。出所は画像に出さず ALT に書く。数字は記事の表のまま（2026-11-20 確認）",
+ "imageBase": "public/images/heparin-ruiji-lotion-price-2026",
+ "out": "public/images/heparin-ruiji-lotion-price-2026/x",
+ "theme": "ink",
+ "panels": [
+  {
+   "file": "xv1-per-gram.jpg",
+   "kind": "html",
+   "noHeader": true,
+   "html": "<div class=\"w\"><div class=\"ph\"><img src=\"photos/healmild-lotion.jpg\" alt=\"\"></div><div class=\"tx\"><div class=\"k\">2027年3月1日から・処方に薬剤費の4分の1を上乗せ</div><div class=\"t\">ヘパリン類似物質ローション<br><em>1gあたり</em>いくら？</div><ul class=\"pts\"><li><b>処方・後発品</b>約1.9円（3割負担・薬の部分だけ）</li><li><b>処方・先発品</b>約5.3円（3割負担・薬の部分だけ）</li><li><b>市販ヒルマイルド</b>直販120gで約22.7円・60gで約28.4円</li></ul></div></div>",
+   "css": "main{padding:0;height:1080px;display:block}\n.w{position:relative;height:1080px;background:#1E1219;color:#fff;overflow:hidden}\n.ph{position:absolute;left:0;top:0;width:100%;height:540px;background:#fff}\n.ph img{width:100%;height:100%;object-fit:contain;padding:24px}\n.tx{position:absolute;left:56px;right:56px;top:576px;bottom:48px;display:flex;flex-direction:column}\n.k{align-self:flex-start;font-size:30px;font-weight:900;color:#2A1923;background:#F5C518;border-radius:999px;padding:6px 22px}\n.t{font-size:54px;font-weight:900;line-height:1.22;margin-top:14px}\n.t em{font-style:normal;color:#EC5C90}\n.pts{list-style:none;margin-top:18px;flex:1;display:flex;flex-direction:column;justify-content:center;gap:14px}\n.pts li{font-size:31px;font-weight:700;line-height:1.35;background:rgba(255,255,255,.08);border-left:10px solid #EC5C90;border-radius:14px;padding:12px 22px}\n.pts b{color:#F5C518;margin-right:10px}",
+   "alt": "健栄製薬のヒルマイルドローション。文字：2027年3月1日から処方に薬剤費の4分の1を上乗せ。ヘパリン類似物質ローションは1gあたりいくらか。処方の後発品は約1.9円、先発品は約5.3円（3割負担・薬の部分だけ、診察料などは別）。市販のヒルマイルドは直販120gで約22.7円、60gで約28.4円。画像：健栄製薬 公式オンラインショップ"
+  }
+ ]
+}
