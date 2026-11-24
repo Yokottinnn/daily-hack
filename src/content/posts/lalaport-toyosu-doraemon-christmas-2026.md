@@ -28,7 +28,7 @@ event:
 「豊洲ではどこに何が出るの？」「キーホルダーづくりは何時から？」——全国のららぽーとでやる催しだから、豊洲の分だけ拾うのが面倒なのよ。だからアタシがまとめた。土台は<strong>アーバンドック ららぽーと豊洲 公式サイトのイベント案内</strong>と、<strong>ららぽーとの特設サイト</strong>よ。
 
 <div class="hakkako-says">
-  <div class="hakkako-quote">先に一番大事なことを言っとく。<strong>キーホルダーづくりは12月12日と13日の2日だけ、定員に達したら終わり</strong>。子どもが楽しみにしてるなら、朝のうちにセンターエントランスへ行きなさい。</div>
+  <div class="hakkako-quote">先に一番大事なことを言っとく。<strong>キーホルダーづくりは12月12日と13日の2日だけ、定員に達したら終わり</strong>。子どもが楽しみにしてるなら、早めにセンターエントランスへ行きなさい。</div>
 </div>
 
 ## 30秒で分かる、ららぽーと豊洲のドラえもんクリスマス
@@ -43,7 +43,7 @@ event:
   <a class="event-pick" href="#おなまえキーホルダーづくり" style="--pick-img:url('/images/lalaport-toyosu-doraemon-christmas-2026/photos/keyholder.png')">
     <span class="pick-date">2026年12月12日・13日</span>
     <h4>キーホルダーづくり</h4>
-    <p>10:00〜17:00。<strong>定員に達したら終わり</strong>。</p>
+    <p>センターエントランス。<strong>定員に達したら終わり</strong>。</p>
     <span class="pick-go">詳しく見る →</span>
   </a>
   <a class="event-pick" href="#どこでもドアと等身大ドラえもん" style="--pick-img:url('/images/lalaport-toyosu-doraemon-christmas-2026/photos/dokodemo-door.png')">
@@ -54,6 +54,8 @@ event:
   </a>
 </div>
 <span class="event-picks-credit">カード画像：ららぽーと「ドラえもん CHRISTMAS FOR YOU」特設サイト。</span>
+
+<p class="source-note">この記事の日程・場所は2026年11月25日にららぽーと豊洲の公式サイトで確かめたもの。</p>
 
 ## 期間と場所
 
@@ -71,7 +73,6 @@ event:
 <tr><th>期間</th><td><strong>2026年11月30日（月）〜12月25日（金）</strong></td></tr>
 <tr><th>場所</th><td><a href="https://mitsui-shopping-park.com/lalaport/toyosu/" target="_blank" rel="noopener">アーバンドック ららぽーと豊洲</a>（東京都江東区豊洲2-4-9）</td></tr>
 <tr><th>豊洲で出るもの</th><td>ひみつ道具スタンプラリー／おなまえキーホルダーづくり（12月12日・13日）／どこでもドアフォトスポット／等身大ドラえもん／ひみつ道具ツリー／ドラキッズのクリスマスカードづくり（12月20日）</td></tr>
-<tr><th>行き方</th><td>ゆりかもめ・東京メトロ有楽町線「豊洲駅」から歩いてすぐ</td></tr>
 </tbody>
 </table>
 </div>
@@ -116,7 +117,7 @@ event:
 ## おなまえキーホルダーづくり
 
 <figure class="rn-figure">
-  <img src="/images/lalaport-toyosu-doraemon-christmas-2026/photos/keyholder.png" alt="ドラえもんとドラミちゃんの絵の土台に、ひらがなのパーツを並べたキーホルダーの見本。開催日時は各日10:00〜17:00（最終受付16:45）" loading="lazy" />
+  <img src="/images/lalaport-toyosu-doraemon-christmas-2026/photos/keyholder.png" alt="クリスマスの服を着たドラえもんとドラミちゃんの絵の土台に、ひらがなのパーツを並べたキーホルダーの見本4つ" loading="lazy" />
   <figcaption>キーホルダーの見本（イメージ）。<cite>画像：<a href="https://mitsui-shopping-park.com/lalaport/special/winter_doraemon_christmasforyou_2026/" target="_blank" rel="noopener">ららぽーと「ドラえもん CHRISTMAS FOR YOU」特設サイト</a></cite></figcaption>
 </figure>
 
@@ -126,7 +127,7 @@ event:
 <table class="cmp-table spec-table">
 <tbody>
 <tr><th>日にち</th><td><strong>2026年12月12日（土）・13日（日）</strong></td></tr>
-<tr><th>時間</th><td>各日10:00〜17:00（<strong>最終受付16:45</strong>）</td></tr>
+<tr><th>時間</th><td>特設サイトの案内は各日10:00〜17:00（最終受付16:45）。<strong>ただし施設によって異なる</strong>とあるので、豊洲の時間は特設サイトの「各施設の開催日程・会場」で確かめる</td></tr>
 <tr><th>場所</th><td>ららぽーと豊洲1　1F センターエントランス</td></tr>
 <tr><th>人数</th><td>限りあり。<strong>定員に達し次第終わり</strong></td></tr>
 <tr><th>おまけ</th><td>三井ショッピングパークポイントのメンバーズページに登録して、アプリかLINE公式アカウントを会場で見せると、限定の<strong>ぷっくりシール</strong>（先着・なくなり次第終わり）</td></tr>
@@ -196,7 +197,7 @@ event:
 
 <ul class="checklist">
   <li><div class="checklist-body"><strong>スタンプラリーは1階の3カ所</strong><p>センターエントランス前・マリーナキッチン・ハンズ前。等身大ドラえもんのうち3体も同じ1階にいる。</p></div></li>
-  <li><div class="checklist-body"><strong>キーホルダーは12月12日・13日の朝に</strong><p>10:00から、最終受付は16:45。定員で終わることがある。</p></div></li>
+  <li><div class="checklist-body"><strong>キーホルダーは12月12日・13日の早めに</strong><p>定員に達したら終わる。時間は特設サイトの「各施設の開催日程・会場」で確かめる。</p></div></li>
   <li><div class="checklist-body"><strong>どこでもドアはららぽーと豊洲3の2階</strong><p>有隣堂の前。等身大ドラえもんの4体目もここ。</p></div></li>
   <li><div class="checklist-body"><strong>シールが欲しいなら先にメンバーズ登録</strong><p>三井ショッピングパークアプリかLINE公式アカウントで登録・ログインしておく。</p></div></li>
 </ul>
@@ -223,7 +224,7 @@ event:
     <tbody>
       <tr><th>ららぽーと豊洲のドラえもんクリスマスはいつ？</th><td>2026年11月30日（月）〜12月25日（金）。全国のららぽーととラゾーナ川崎プラザで同時に開く（ららぽーと門真を除く）。</td></tr>
       <tr><th>スタンプラリーで何がもらえる？</th><td>館内3カ所（ららぽーと豊洲1の1F センターエントランス前・マリーナキッチン・ハンズ前）をそろえ、応募フォームのひみつの質問に答えると、抽選で100名に三井ショッピングパークポイント500pt。</td></tr>
-      <tr><th>おなまえキーホルダーづくりはいつ・どこで？</th><td>2026年12月12日（土）・13日（日）の10:00〜17:00（最終受付16:45）、ららぽーと豊洲1の1F センターエントランス。定員に達し次第終わり。</td></tr>
+      <tr><th>おなまえキーホルダーづくりはいつ・どこで？</th><td>2026年12月12日（土）・13日（日）、ららぽーと豊洲1の1F センターエントランス。定員に達し次第終わり。</td></tr>
       <tr><th>どこでもドアはどこ？</th><td>ららぽーと豊洲3の2F 有隣堂前。</td></tr>
     </tbody>
   </table>
@@ -231,8 +232,8 @@ event:
 
 <p class="source-note">出典：アーバンドック ららぽーと豊洲 公式サイト「<a href="https://mitsui-shopping-park.com/lalaport/toyosu/event/3663884.html" target="_blank" rel="noopener">『ドラえもん CHRISTMAS FOR YOU in LaLaport・LAZONA』開催！</a>」（2026年11月24日更新）／ららぽーと「<a href="https://mitsui-shopping-park.com/lalaport/special/winter_doraemon_christmasforyou_2026/" target="_blank" rel="noopener">ドラえもん CHRISTMAS FOR YOU</a>」特設サイト</p>
 
-豊洲・有明・晴海のほかのニュースは[湾岸ニュースの一覧](/tags/湾岸ニュース/)と[湾岸ライフ](/category/wangan-life/)にまとめているわ。内容は2026年11月24日時点の公式サイトの案内のもの。
+豊洲・有明・晴海のほかのニュースは[湾岸ニュースの一覧](/tags/湾岸ニュース/)と[湾岸ライフ](/category/wangan-life/)にまとめているわ。内容は2026年11月25日時点の公式サイトの案内のもの。
 
 <div class="hakkako-says">
-  <div class="hakkako-quote">ラリーは<strong>1階を一周</strong>、キーホルダーは<strong>12日か13日の朝</strong>。どこでもドアの写真は3の2階で撮っていきなさい。</div>
+  <div class="hakkako-quote">ラリーは<strong>1階を一周</strong>、キーホルダーは<strong>12日か13日の早め</strong>。どこでもドアの写真は3の2階で撮っていきなさい。</div>
 </div>

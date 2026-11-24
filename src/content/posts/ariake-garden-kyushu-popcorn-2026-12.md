@@ -12,6 +12,7 @@ author: "hacker-ko"
 references:
   - "https://ariake.shopping-sumitomo-rd.com/event/5831/"
   - "https://ariake.shopping-sumitomo-rd.com/event/5848/"
+  - "https://ariake.shopping-sumitomo-rd.com/access/"
 event:
   name: "九州南国物産展（有明ガーデン）"
   startDate: "2026-12-03T10:00:00+09:00"
@@ -55,6 +56,8 @@ event:
 </div>
 <span class="event-picks-credit">カード画像：有明ガーデン公式サイト（画像はイメージ）。</span>
 
+<p class="source-note">この記事の値段・時間は2026年11月25日に有明ガーデン公式サイトで確かめたもの。</p>
+
 ## 九州南国物産展
 
 <figure class="rn-figure">
@@ -71,7 +74,7 @@ event:
 <tr><th>時間</th><td>10:00〜21:00（<strong>最終日の12月9日は17:00まで</strong>）</td></tr>
 <tr><th>場所</th><td><a href="https://ariake.shopping-sumitomo-rd.com/" target="_blank" rel="noopener">有明ガーデン</a> モール2F 中央吹抜広場（東京都江東区有明2-1-8）</td></tr>
 <tr><th>問い合わせ</th><td>株式会社イベントアイ（03-5961-4344）</td></tr>
-<tr><th>行き方</th><td>りんかい線「国際展示場駅」・ゆりかもめ「有明駅」から歩いてすぐ</td></tr>
+<tr><th>行き方</th><td>ゆりかもめ「有明テニスの森駅」2A出口から徒歩3分・「有明駅」2B出口から徒歩4分、りんかい線「国際展示場駅」A出口から徒歩6分</td></tr>
 </tbody>
 </table>
 </div>
@@ -86,7 +89,7 @@ event:
 </tbody>
 </table>
 </div>
-<p class="source-note">出典：<a href="https://ariake.shopping-sumitomo-rd.com/event/5831/" target="_blank" rel="noopener">有明ガーデン「｜POP-UP｜九州南国物産展」</a>。取り扱う品と値段は変わることがある。<strong>この催しでの支払いは駐車券サービスの対象外</strong></p>
+<p class="source-note">出典：<a href="https://ariake.shopping-sumitomo-rd.com/event/5831/" target="_blank" rel="noopener">有明ガーデン「｜POP-UP｜九州南国物産展」</a>／<a href="https://ariake.shopping-sumitomo-rd.com/access/" target="_blank" rel="noopener">有明ガーデン「アクセス」</a>。取り扱う品と値段は変わることがある。<strong>この催しでの支払いは駐車券サービスの対象外</strong></p>
 
 <figure class="rn-figure">
   <img src="/images/ariake-garden-kyushu-popcorn-2026-12/photos/karukan.jpg" alt="白いかるかん饅頭を半分に切って、中のこしあんが見えている写真" loading="lazy" />
@@ -203,7 +206,7 @@ event:
 
 <p class="source-note">出典：有明ガーデン公式サイト「<a href="https://ariake.shopping-sumitomo-rd.com/event/5831/" target="_blank" rel="noopener">｜POP-UP｜九州南国物産展</a>」／「<a href="https://ariake.shopping-sumitomo-rd.com/event/5848/" target="_blank" rel="noopener">｜POP-UP｜ポップコーン販売『ジェリーズポップコーン』</a>」</p>
 
-豊洲・有明・晴海のほかのニュースは[湾岸ニュースの一覧](/tags/湾岸ニュース/)と[湾岸ライフ](/category/wangan-life/)にまとめているわ。内容は2026年11月24日時点の公式サイトの案内のもの。
+豊洲・有明・晴海のほかのニュースは[湾岸ニュースの一覧](/tags/湾岸ニュース/)と[湾岸ライフ](/category/wangan-life/)にまとめているわ。内容は2026年11月25日時点の公式サイトの案内のもの。
 
 <div class="hakkako-says">
   <div class="hakkako-quote">いきなり団子は<strong>9日の17時まで</strong>、ポップコーンは<strong>13日まで</strong>。両方そろう4日〜9日にまとめて寄りなさい。</div>
