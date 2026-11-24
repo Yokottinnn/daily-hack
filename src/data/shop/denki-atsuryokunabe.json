@@ -20,7 +20,7 @@
       "label": "公式の価格"
     }
   ],
-  "pricesCheckedAt": null,
+  "pricesCheckedAt": "2026-11-23T21:44:00.508Z",
   "items": [
     {
       "id": "sharp-kn-hw24k",
@@ -72,7 +72,15 @@
           "対応",
           "もっとクック",
           "カバー"
-        ]
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/ana-den/kn-hw24k-b.html",
+        "price": 64300,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 0,
+        "shop": "あなデジ工房",
+        "checkedAt": "2026-11-23T21:44:00.508Z"
       },
       "amazon": {
         "keyword": "シャープ ホットクック KN-HW24K",
@@ -129,7 +137,15 @@
           "対応",
           "もっとクック",
           "カバー"
-        ]
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/easy-style2007/001y02210.html",
+        "price": 56000,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 0,
+        "shop": "プロテクション",
+        "checkedAt": "2026-11-23T21:44:00.508Z"
       },
       "amazon": {
         "keyword": "シャープ ホットクック KN-HW16K",
@@ -182,7 +198,15 @@
           "対応",
           "パッキン",
           "羽根"
-        ]
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/idosawa/afa12-201-k0.html",
+        "price": 20480,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 0,
+        "shop": "イドサワヤフーショップ",
+        "checkedAt": "2026-11-23T21:44:00.508Z"
       },
       "amazon": {
         "keyword": "パナソニック オートクッカー ビストロ NF-AC1000",
@@ -388,7 +412,15 @@
           "専用",
           "対応",
           "パッキン"
-        ]
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/vectorpremium/081-102609280062.html",
+        "price": 7800,
+        "shippingFree": false,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 0,
+        "shop": "ブランド古着販売のベクトル",
+        "checkedAt": "2026-11-23T21:44:00.508Z"
       },
       "amazon": {
         "keyword": "ティファール ラクラ・クッカー ミニ CY3401JP",
@@ -443,7 +475,15 @@
           "パッキン",
           "内なべ",
           "ガラスふた"
-        ]
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/joshin/4967576860604-24-48900.html",
+        "price": 27870,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 0,
+        "shop": "Joshin web",
+        "checkedAt": "2026-11-23T21:44:00.508Z"
       },
       "amazon": {
         "keyword": "アイリスオーヤマ 電気圧力鍋 4.0L KPC-MB4-B",

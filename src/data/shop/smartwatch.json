@@ -24,7 +24,7 @@
       "label": "タッチ決済"
     }
   ],
-  "pricesCheckedAt": null,
+  "pricesCheckedAt": "2026-11-23T21:44:00.508Z",
   "items": [
     {
       "id": "apple-watch-series-12",
@@ -97,7 +97,15 @@
           "互換",
           "Ultra",
           "SE"
-        ]
+        ],
+        "url": null,
+        "price": null,
+        "shippingFree": null,
+        "point": null,
+        "reviewAverage": null,
+        "reviewCount": null,
+        "shop": null,
+        "checkedAt": "2026-11-23T21:44:00.508Z"
       },
       "amazon": {
         "keyword": "Apple Watch Series 12",
@@ -171,7 +179,15 @@
           "◆",
           "並行輸入",
           "互換"
-        ]
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/soalso/apple-se3-40-md.html",
+        "price": 39800,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": 4.4,
+        "reviewCount": 5,
+        "shop": "スマホとウォッチのNCモバイル Yahoo!店",
+        "checkedAt": "2026-11-23T21:44:00.508Z"
       },
       "amazon": {
         "keyword": "Apple Watch SE 3",
@@ -245,7 +261,15 @@
           "◆",
           "並行輸入",
           "互換"
-        ]
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/masatomi/0080290007447.html",
+        "price": 128000,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 0,
+        "shop": "MASATOMI STORE",
+        "checkedAt": "2026-11-23T21:44:00.508Z"
       },
       "amazon": {
         "keyword": "Apple Watch Ultra 4",
@@ -319,7 +343,15 @@
           "◆",
           "並行輸入",
           "互換"
-        ]
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/densidonya/0840353961920.html",
+        "price": 56541,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 1,
+        "shop": "電子問屋",
+        "checkedAt": "2026-11-23T21:44:00.508Z"
       },
       "amazon": {
         "keyword": "Google Pixel Watch 5",
@@ -397,7 +429,15 @@
           "互換",
           "Ultra",
           "Classic"
-        ]
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/soalso/gw9-40.html",
+        "price": 43600,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 1,
+        "shop": "スマホとウォッチのNCモバイル Yahoo!店",
+        "checkedAt": "2026-11-23T21:44:00.508Z"
       },
       "amazon": {
         "keyword": "Galaxy Watch9",
@@ -471,7 +511,15 @@
           "◆",
           "並行輸入",
           "互換"
-        ]
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/ida-online/010-02985-30-.html",
+        "price": 47520,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 2,
+        "shop": "IDA-Online",
+        "checkedAt": "2026-11-23T21:44:00.508Z"
       },
       "amazon": {
         "keyword": "vivoactive 6",
@@ -549,7 +597,15 @@
           "互換",
           "Pro",
           "プロ"
-        ]
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/huaweistore/55027233.html",
+        "price": 40800,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": 4.74,
+        "reviewCount": 78,
+        "shop": "HUAWEI 公式 Yahoo!店",
+        "checkedAt": "2026-11-23T21:44:00.508Z"
       },
       "amazon": {
         "keyword": "HUAWEI WATCH GT 7",
@@ -623,7 +679,15 @@
           "◆",
           "並行輸入",
           "互換"
-        ]
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/xiaomijapanofficial/702760.html",
+        "price": 28800,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": 4.89,
+        "reviewCount": 9,
+        "shop": "Xiaomi公式ストア",
+        "checkedAt": "2026-11-23T21:44:00.508Z"
       },
       "amazon": {
         "keyword": "Xiaomi Watch S5 46mm",

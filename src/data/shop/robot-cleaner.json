@@ -24,7 +24,7 @@
       "label": "ステーション"
     }
   ],
-  "pricesCheckedAt": null,
+  "pricesCheckedAt": "2026-11-23T21:44:00.508Z",
   "items": [
     {
       "id": "irobot-roomba-mini",
@@ -71,7 +71,15 @@
           "ブラシ",
           "シート",
           "並行輸入"
-        ]
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/ksdenki/0885155053053.html",
+        "price": 43780,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": 4.52,
+        "reviewCount": 33,
+        "shop": "ケーズデンキ Yahoo!ショップ",
+        "checkedAt": "2026-11-23T21:44:00.508Z"
       },
       "amazon": {
         "keyword": "ルンバ Mini F155260",
@@ -127,7 +135,15 @@
           "Pro",
           "プロ",
           "並行輸入"
-        ]
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/switchbot/w3001000.html",
+        "price": 35271,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": 4.67,
+        "reviewCount": 12,
+        "shop": "SWITCHBOT公式ショップ",
+        "checkedAt": "2026-11-23T21:44:00.508Z"
       },
       "amazon": {
         "keyword": "SwitchBot ロボット掃除機 K11+",
@@ -181,7 +197,15 @@
           "ブラシ",
           "アクセサリー",
           "並行輸入"
-        ]
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/d-rise2/p003000029847.html",
+        "price": 27720,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 0,
+        "shop": "ディーライズ2号",
+        "checkedAt": "2026-11-23T21:44:00.508Z"
       },
       "amazon": {
         "keyword": "Eufy Robot Vacuum Auto-Empty C10",
@@ -236,7 +260,15 @@
           "ブラシ",
           "アクセサリー",
           "並行輸入"
-        ]
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/ankerdirect/t290s.html",
+        "price": 2990,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 0,
+        "shop": "Anker 公式ストア ヤフー店",
+        "checkedAt": "2026-11-23T21:44:00.508Z"
       },
       "amazon": {
         "keyword": "Eufy Robot Vacuum Omni C28",
@@ -295,7 +327,15 @@
           "洗浄剤",
           "アクセサリー",
           "並行輸入"
-        ]
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/ecovacsjapan/zj2633.html",
+        "price": 139800,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 1,
+        "shop": "エコバックス公式ストア",
+        "checkedAt": "2026-11-23T21:44:00.508Z"
       },
       "amazon": {
         "keyword": "エコバックス DEEBOT T90 MAX OMNI",
@@ -356,7 +396,15 @@
           "フィルター",
           "アクセサリー",
           "並行輸入"
-        ]
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/roborockjapandirect/6936905906625.html",
+        "price": 179800,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": 4.78,
+        "reviewCount": 32,
+        "shop": "ROBOROCK JAPAN DIRECT",
+        "checkedAt": "2026-11-23T21:44:00.508Z"
       },
       "amazon": {
         "keyword": "Roborock Saros 20",
@@ -408,7 +456,15 @@
           "ブラシ",
           "洗剤",
           "並行輸入"
-        ]
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/ksdenki/0885155054746.html",
+        "price": 199800,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 0,
+        "shop": "ケーズデンキ Yahoo!ショップ",
+        "checkedAt": "2026-11-23T21:44:00.508Z"
       },
       "amazon": {
         "keyword": "ルンバ Max 775 Combo X285060",

@@ -24,7 +24,7 @@
       "label": "自動で止まるまで"
     }
   ],
-  "pricesCheckedAt": null,
+  "pricesCheckedAt": "2026-11-23T21:44:00.508Z",
   "items": [
     {
       "id": "drair-mn10",
@@ -71,7 +71,15 @@
           "◆",
           "中古",
           "並行輸入"
-        ]
+        ],
+        "url": null,
+        "price": null,
+        "shippingFree": null,
+        "point": null,
+        "reviewAverage": null,
+        "reviewCount": null,
+        "shop": null,
+        "checkedAt": "2026-11-23T21:44:00.508Z"
       },
       "amazon": {
         "keyword": "ドクターエア 3Dネックマッサージャープレミアム SMART MN-10",
@@ -119,7 +127,15 @@
           "カバー",
           "◆",
           "中古"
-        ]
+        ],
+        "url": null,
+        "price": null,
+        "shippingFree": null,
+        "point": null,
+        "reviewAverage": null,
+        "reviewCount": null,
+        "shop": null,
+        "checkedAt": "2026-11-23T21:44:00.508Z"
       },
       "amazon": {
         "keyword": "アテックス ルルド くびレッチ AX-HJ186",
@@ -167,7 +183,15 @@
           "カバー",
           "◆",
           "中古"
-        ]
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/archholesale/1309776.html",
+        "price": 46109,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": 4.42,
+        "reviewCount": 12,
+        "shop": "ア-チホ-ルセ-ル",
+        "checkedAt": "2026-11-23T21:44:00.508Z"
       },
       "amazon": {
         "keyword": "パナソニック はくだけキュッとリフレ EW-RA192",
@@ -215,7 +239,15 @@
           "カバー",
           "◆",
           "中古"
-        ]
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/rmc2han/10000045.html",
+        "price": 39800,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": 4.44,
+        "reviewCount": 59,
+        "shop": "RMC通販",
+        "checkedAt": "2026-11-23T21:44:00.508Z"
       },
       "amazon": {
         "keyword": "フジ医療器 フットマッサージャー KC-330",
@@ -263,7 +295,15 @@
           "カバー",
           "◆",
           "中古"
-        ]
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/atex-net/ax-hp117.html",
+        "price": 13360,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": 4.53,
+        "reviewCount": 304,
+        "shop": "アテックスダイレクト",
+        "checkedAt": "2026-11-23T21:44:00.508Z"
       },
       "amazon": {
         "keyword": "アテックス ルルド プロもみフットマッサージャー AX-HP117",
@@ -317,7 +357,15 @@
           "◆",
           "中古",
           "並行輸入"
-        ]
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/bigban/1010105783240.html",
+        "price": 10450,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 0,
+        "shop": "リサイクルビッグバンヤフー店",
+        "checkedAt": "2026-11-23T21:44:00.508Z"
       },
       "amazon": {
         "keyword": "SIXPAD Power Gun Active パワーガンアクティブ",
@@ -369,7 +417,15 @@
           "◆",
           "中古",
           "並行輸入"
-        ]
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/elecom/4549550347228.html",
+        "price": 110,
+        "shippingFree": false,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 2,
+        "shop": "エレコムダイレクトショップ",
+        "checkedAt": "2026-11-23T21:44:00.508Z"
       },
       "amazon": {
         "keyword": "ドクターエア エクサガン ハイパー REG-04",
@@ -417,7 +473,15 @@
           "ヘッド",
           "◆",
           "中古"
-        ]
+        ],
+        "url": "https://store.shopping.yahoo.co.jp/atex-net/ax-hx458.html",
+        "price": 8800,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": null,
+        "reviewCount": 0,
+        "shop": "アテックスダイレクト",
+        "checkedAt": "2026-11-23T21:44:00.508Z"
       },
       "amazon": {
         "keyword": "アテックス ルルドガン モバイル AX-HX458",

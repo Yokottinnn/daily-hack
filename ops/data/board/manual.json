@@ -83,5 +83,22 @@
       "reward": "",
       "note": "2026-10-14 に取得済み・個人名義の ID で作る（入れた記事は docs/affiliate-registry.md に残す）"
     }
-  ]
+  ],
+  "blocked": {
+    "_note": "作戦室のトップ「止まっているもの」に足す説明（2026-11-23 決定ログ）。key は build-snapshot.mjs が付ける行の key。what を書くと、データからは見えない止まりも出せる。fix（利用者にしてもらうこと）は分かったものだけ書く。推測で書かない。until（YYYY-MM-DD）を書くと、その日を過ぎたら説明を使わない",
+    "shop-rakuten-key": {
+      "since": "2026-10 下旬",
+      "status": "affiliate が対応中。Mac が楽天ウェブサービスから Access Key を 3 回読みに行ったが取れていない（11/23 の t1133 は値が伏せ字のまま、その後は楽天側が 503 を返した）"
+    },
+    "shop-yahoo-error": {
+      "since": "2026-11-24",
+      "status": "11/24 朝の取得で Yahoo!ショッピングの API が HTTP 429（呼び出しが多すぎる）を返し続け、27 件が取れなかった。対象が 297 件に増えた初日。原因はまだ確かめていない",
+      "until": "2026-11-26"
+    },
+    "macweekly-x_numbers": {
+      "since": "2026-11-24",
+      "status": "11/24 朝、Mac が X のプロフィールを開いたが画面が空（題名も本文も無し）で数字を読めなかった（reports/board/x-numbers-failed.json）。X の帯は 11/23 朝の値。X の担当は tweet2",
+      "until": "2026-11-26"
+    }
+  }
 }

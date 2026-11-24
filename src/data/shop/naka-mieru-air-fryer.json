@@ -24,7 +24,7 @@
       "label": "食洗機（公式の記載）"
     }
   ],
-  "pricesCheckedAt": "2026-11-21T21:42:39.263Z",
+  "pricesCheckedAt": "2026-11-23T21:44:00.508Z",
   "items": [
     {
       "id": "bruno-boe122",
@@ -62,14 +62,14 @@
           "パーツ",
           "◆"
         ],
-        "url": "https://store.shopping.yahoo.co.jp/ecj/21673797.html",
-        "price": 12574,
-        "shippingFree": false,
+        "url": "https://store.shopping.yahoo.co.jp/y-kojima/4514499187129.html",
+        "price": 13200,
+        "shippingFree": true,
         "point": 0,
         "reviewAverage": null,
         "reviewCount": 0,
-        "shop": "ECJOY!",
-        "checkedAt": "2026-11-21T21:42:39.263Z"
+        "shop": "コジマYahoo!店",
+        "checkedAt": "2026-11-23T21:44:00.508Z"
       },
       "amazon": {
         "keyword": "BRUNO ガラスエアフライヤー BOE122",
@@ -117,7 +117,7 @@
         "reviewAverage": null,
         "reviewCount": null,
         "shop": null,
-        "checkedAt": "2026-11-21T21:42:39.263Z"
+        "checkedAt": "2026-11-23T21:44:00.508Z"
       },
       "amazon": {
         "keyword": "Beelicious ノンフライヤー 見える窓付き",
@@ -175,7 +175,7 @@
         "reviewAverage": null,
         "reviewCount": null,
         "shop": null,
-        "checkedAt": "2026-11-21T21:42:39.263Z"
+        "checkedAt": "2026-11-23T21:44:00.508Z"
       },
       "amazon": {
         "keyword": "EPEIOS ガラスボウルエアフライヤー EPAO248",
@@ -223,7 +223,7 @@
         "reviewAverage": 4.67,
         "reviewCount": 12,
         "shop": "インテリアショップ roomy",
-        "checkedAt": "2026-11-21T21:42:39.263Z"
+        "checkedAt": "2026-11-23T21:44:00.508Z"
       },
       "amazon": {
         "keyword": "レコルト エアーオーブン 4L RAO-4",
@@ -271,7 +271,7 @@
         "reviewAverage": null,
         "reviewCount": 0,
         "shop": "でんでんショッピング ヤフー店",
-        "checkedAt": "2026-11-21T21:42:39.263Z"
+        "checkedAt": "2026-11-23T21:44:00.508Z"
       },
       "amazon": {
         "keyword": "ティファール EY8228J0",
