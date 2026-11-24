@@ -1,1 +1,3 @@
-[]
+[
+      {"task": "x552-read-xmas-market-post.sh", "rc": 0, "out": "status=awaiting_approval x_tweet_id=なし posted_at=なし scheduled_at=2026-11-24T03:07:00.000Z 載っていない（走り終えて自分を外したか、最初から載っていない）"}
+  ]
