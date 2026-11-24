@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T12:26:37Z",
+  "generated_at": "2026-11-24T12:56:51Z",
   "login_lock": {"present": false, "age_hours": 0},
   "cdp": {"healthy": true, "port": 18810},
   "x_jobs": {"loaded": 8, "expected": 8, "ai_total": 16, "halted": false, "missing": []},
@@ -41,7 +41,9 @@
     "com.dailyhack.x-impressions"
   ],
   "reconnect": "既に起動している",
-  "tasks": [],
+  "tasks": [
+      {"task": "x550-read-reply-step-failure.sh", "rc": 0, "out": "# 返信の 2 投稿目が落ちた原因（2026-11-24 21:53 JST・読むだけ・$0）  ## 1. 11/22 CAMP の落ちた行（エラーの全文・本文は伏せる） ``` {ok:false,step:thread-reply-1-exec,error:Command failed: /usr/local/bin/node scripts/post-comment.js MuOAnDPkurrjga7nt"}
+  ],
   "running": null,
   "auth": {
     "ok": false,

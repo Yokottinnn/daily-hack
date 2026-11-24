@@ -1,3 +1,1 @@
-[
-      {"task": "x550-read-reply-step-failure.sh", "rc": 0, "out": "# 返信の 2 投稿目が落ちた原因（2026-11-24 21:53 JST・読むだけ・$0）  ## 1. 11/22 CAMP の落ちた行（エラーの全文・本文は伏せる） ``` {ok:false,step:thread-reply-1-exec,error:Command failed: /usr/local/bin/node scripts/post-comment.js MuOAnDPkurrjga7nt"}
-  ]
+[]
