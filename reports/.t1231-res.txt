@@ -1,0 +1,11 @@
+- ⚠️ 開けない: https://swim.or.jp/: Error: page.goto: net::ERR_CERT_DATE_INVALID at https://swim.or.jp/
+Call log:
+  - navigating to "https://swim.or.jp/", w
+- ⚠️ 開けない: https://swim.or.jp/compe/: Error: page.goto: net::ERR_CERT_DATE_INVALID at https://swim.or.jp/compe/
+Call log:
+  - navigating to "https://swim.or.j
+- ⚠️ 開けない: https://swim.or.jp/tournament/: Error: page.goto: net::ERR_CERT_DATE_INVALID at https://swim.or.jp/tournament/
+Call log:
+  - navigating to "https://swim
+
+## 大会のページの候補（0）
