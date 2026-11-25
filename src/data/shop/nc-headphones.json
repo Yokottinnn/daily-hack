@@ -20,7 +20,7 @@
       "label": "機内の有線接続"
     }
   ],
-  "pricesCheckedAt": "2026-11-24T21:44:09.463Z",
+  "pricesCheckedAt": "2026-11-25T21:42:36.999Z",
   "items": [
     {
       "id": "sony-wh-1000xm6",
@@ -96,7 +96,7 @@
         "reviewAverage": null,
         "reviewCount": 0,
         "shop": "スリフト",
-        "checkedAt": "2026-11-24T21:44:09.463Z"
+        "checkedAt": "2026-11-25T21:42:36.999Z"
       },
       "amazon": {
         "keyword": "ソニー WH-1000XM6",
@@ -179,7 +179,7 @@
         "reviewAverage": null,
         "reviewCount": 0,
         "shop": "リファン Yahoo!ショップ",
-        "checkedAt": "2026-11-24T21:44:09.463Z"
+        "checkedAt": "2026-11-25T21:42:36.999Z"
       },
       "amazon": {
         "keyword": "Bose QuietComfort Ultra Headphones 第2世代",
@@ -253,14 +253,14 @@
           "イヤホン",
           "Earbuds"
         ],
-        "url": "https://store.shopping.yahoo.co.jp/densidonya/4549995687170-b.html",
-        "price": 71590,
+        "url": "https://store.shopping.yahoo.co.jp/densidonya/4549995687187-b.html",
+        "price": 70590,
         "shippingFree": true,
         "point": 0,
         "reviewAverage": null,
         "reviewCount": 0,
         "shop": "電子問屋",
-        "checkedAt": "2026-11-24T21:44:09.463Z"
+        "checkedAt": "2026-11-25T21:42:36.999Z"
       },
       "amazon": {
         "keyword": "Apple AirPods Max 2",
@@ -335,14 +335,14 @@
           "イヤホン",
           "Earbuds"
         ],
-        "url": "https://store.shopping.yahoo.co.jp/joshin/4260752334013-35-37499.html",
-        "price": 69960,
-        "shippingFree": true,
-        "point": 0,
+        "url": null,
+        "price": null,
+        "shippingFree": null,
+        "point": null,
         "reviewAverage": null,
-        "reviewCount": 0,
-        "shop": "Joshin web",
-        "checkedAt": "2026-11-24T21:44:09.463Z"
+        "reviewCount": null,
+        "shop": null,
+        "checkedAt": "2026-11-25T21:42:36.999Z"
       },
       "amazon": {
         "keyword": "ゼンハイザー MOMENTUM 5 Wireless",
@@ -424,7 +424,7 @@
         "reviewAverage": null,
         "reviewCount": 0,
         "shop": "パナソニック ストア プラス Yahoo!店",
-        "checkedAt": "2026-11-24T21:44:09.463Z"
+        "checkedAt": "2026-11-25T21:42:36.999Z"
       },
       "amazon": {
         "keyword": "テクニクス EAH-A1000",
@@ -506,7 +506,7 @@
         "reviewAverage": null,
         "reviewCount": 0,
         "shop": "Anker 公式ストア ヤフー店",
-        "checkedAt": "2026-11-24T21:44:09.463Z"
+        "checkedAt": "2026-11-25T21:42:36.999Z"
       },
       "amazon": {
         "keyword": "Anker Space 2 Pro",
@@ -592,7 +592,7 @@
         "reviewAverage": 4.92,
         "reviewCount": 13,
         "shop": "Anker 公式ストア ヤフー店",
-        "checkedAt": "2026-11-24T21:44:09.463Z"
+        "checkedAt": "2026-11-25T21:42:36.999Z"
       },
       "amazon": {
         "keyword": "Soundcore Space 2 ヘッドホン",

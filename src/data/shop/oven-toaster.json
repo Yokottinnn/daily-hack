@@ -28,7 +28,7 @@
       "label": "焼き方の特徴"
     }
   ],
-  "pricesCheckedAt": "2026-11-24T21:44:09.463Z",
+  "pricesCheckedAt": "2026-11-25T21:42:36.999Z",
   "items": [
     {
       "id": "balmuda-the-toaster",
@@ -108,7 +108,7 @@
         "reviewAverage": 4.58,
         "reviewCount": 1235,
         "shop": "plywood",
-        "checkedAt": "2026-11-23T21:44:00.508Z"
+        "checkedAt": "2026-11-25T21:42:36.999Z"
       },
       "amazon": {
         "keyword": "BALMUDA The Toaster KTT02JP",
@@ -193,7 +193,7 @@
         "reviewAverage": null,
         "reviewCount": 1,
         "shop": "SmartKitchen",
-        "checkedAt": "2026-11-23T21:44:00.508Z"
+        "checkedAt": "2026-11-25T21:42:36.999Z"
       },
       "amazon": {
         "keyword": "アラジン AET-GP14C",
@@ -278,7 +278,7 @@
         "reviewAverage": null,
         "reviewCount": 0,
         "shop": "エクセレトップ",
-        "checkedAt": "2026-11-24T21:44:09.463Z"
+        "checkedAt": "2026-11-25T21:42:36.999Z"
       },
       "amazon": {
         "keyword": "アラジン AET-GS13D",
@@ -356,14 +356,14 @@
           "ケース",
           "ジャンク"
         ],
-        "url": "https://store.shopping.yahoo.co.jp/ana-den/nt-d700-w.html",
-        "price": 27974,
+        "url": "https://store.shopping.yahoo.co.jp/d-rise2/p000000792110.html",
+        "price": 28510,
         "shippingFree": true,
         "point": 0,
-        "reviewAverage": 4.84,
-        "reviewCount": 19,
-        "shop": "あなデジ工房",
-        "checkedAt": "2026-11-24T21:44:09.463Z"
+        "reviewAverage": null,
+        "reviewCount": 2,
+        "shop": "ディーライズ2号",
+        "checkedAt": "2026-11-25T21:42:36.999Z"
       },
       "amazon": {
         "keyword": "パナソニック NT-D700",
@@ -448,7 +448,7 @@
         "reviewAverage": null,
         "reviewCount": 1,
         "shop": "カメラのキタムラヤフー店",
-        "checkedAt": "2026-11-24T21:44:09.463Z"
+        "checkedAt": "2026-11-25T21:42:36.999Z"
       },
       "amazon": {
         "keyword": "パナソニック NT-D500",
@@ -533,7 +533,7 @@
         "reviewAverage": null,
         "reviewCount": 0,
         "shop": "ラクデン",
-        "checkedAt": "2026-11-24T21:44:09.463Z"
+        "checkedAt": "2026-11-25T21:42:36.999Z"
       },
       "amazon": {
         "keyword": "象印 EQ-JA22",
@@ -618,7 +618,7 @@
         "reviewAverage": null,
         "reviewCount": 0,
         "shop": "総合通販PREMOA Yahoo!店",
-        "checkedAt": "2026-11-24T21:44:09.463Z"
+        "checkedAt": "2026-11-25T21:42:36.999Z"
       },
       "amazon": {
         "keyword": "タイガー KAT-B131",
@@ -703,7 +703,7 @@
         "reviewAverage": 5,
         "reviewCount": 3,
         "shop": "eightloop 2nd",
-        "checkedAt": "2026-11-24T21:44:09.463Z"
+        "checkedAt": "2026-11-25T21:42:36.999Z"
       },
       "amazon": {
         "keyword": "シロカ ST-2D451",
