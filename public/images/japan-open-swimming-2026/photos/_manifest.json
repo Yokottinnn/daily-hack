@@ -1,0 +1,17 @@
+{
+ "race.png": {
+  "page": "https://prtimes.jp/main/html/rd/p/000000385.000057111.html",
+  "credit": "株式会社アクティオのプレスリリース「『ジャパンオープン2026（50m）』を応援します！」の写真（昨年の大会の様子）。昨年の大会の写真であることはアクティオ公式X（2026-11-24）の『※写真は昨年の様子』で確認",
+  "rights": "株式会社アクティオ",
+  "fetched": "2026-11-24"
+ },
+ "outline.png": {
+  "page": "https://prtimes.jp/main/html/rd/p/000000385.000057111.html",
+  "credit": "同プレスリリースの大会実施概要の表",
+  "rights": "株式会社アクティオ",
+  "fetched": "2026-11-24"
+ },
+ "../eyecatch.jpg": {
+  "note": "race.png の白い縁を落とし、gen-news-cover.py --y 0.3 で 16:9 に切ったもの"
+ }
+}
