@@ -1559,3 +1559,13 @@ main img[src^="/images/expr-"], main img[src^="/images/mascot"], .comic-band .st
   .post-body table th:empty, .post-body table td:empty { min-width: 0; }
   .post-body .cmp-table-wrap { overflow-x: auto; }
 }
+
+/* 2026-11-25 利用者「バナーが消せないので UX が悪い。最優先で改善して」:
+   AdSense の自動広告が、写真カード（.event-pick）などリンクや部品の内側に差し込まれ、
+   本文を覆って閉じられなかった。部品の内側に入った自動広告だけを出さない
+   （本文の段落の間に入る自動広告と、自分で置いた枠 .ad-container はそのまま）。 */
+:is(.event-picks, .event-pick, .highlight-grid, .checklist, .hakkako-says, .rkt,
+    .related-block, .shop-table, [data-shop-table], figure, table, details, li, a, button, header, nav)
+  :is(.google-auto-placed, ins.adsbygoogle):not(.ad-container *) {
+  display: none !important;
+}
