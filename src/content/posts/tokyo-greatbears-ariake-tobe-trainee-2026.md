@@ -1,6 +1,6 @@
 ---
 title: "東京グレートベアーズ 有明コロシアム 2026年12月26日・27日｜TOBE TRAINEE（wink first）が始球式とハーフタイムショー、14:05試合開始"
-description: "バレーボールSVリーグの東京グレートベアーズが、2026年12月26日（土）・27日（日）に有明コロシアムで大阪ブルテオン戦。両日12:00開場・14:05試合開始で、TOBE TRAINEEのwink first（5人）が両日、ほかに26日は7人・27日は4人のTRAINEEがオープニング・始球式・ハーフタイムショーに出る。"
+description: "バレーボールSVリーグの東京グレートベアーズが、2026年12月26日（土）・27日（日）に有明コロシアムで大阪ブルテオン戦。両日12:00開場・14:05試合開始。TOBE TRAINEEのwink first（5人）は両日、ほかに26日は7人・27日は4人が始球式とハーフタイムショーに出る。"
 publishDate: 2026-11-26
 category: ["wangan-life"]
 tags: ["湾岸ニュース", "有明", "有明コロシアム", "東京グレートベアーズ", "バレーボール", "SVリーグ", "TOBE", "2026年"]
@@ -42,15 +42,15 @@ event:
     <span class="pick-go">詳しく見る →</span>
   </a>
   <a class="event-pick" href="#日ごとに替わるtobe-trainee" style="--pick-img:url('/images/tokyo-greatbears-ariake-tobe-trainee-2026/photos/trainee-1.jpg')">
-    <span class="pick-date">2026年12月26日だけ</span>
-    <h4>TRAINEE 第1弾</h4>
-    <p>7人。<strong>26日のみ</strong>。</p>
+    <span class="pick-date">日替わり</span>
+    <h4>ほかのTRAINEE</h4>
+    <p>26日は<strong>7人</strong>、27日は<strong>4人</strong>。</p>
     <span class="pick-go">詳しく見る →</span>
   </a>
-  <a class="event-pick" href="#日ごとに替わるtobe-trainee" style="--pick-img:url('/images/tokyo-greatbears-ariake-tobe-trainee-2026/photos/trainee-2.jpg')">
-    <span class="pick-date">2026年12月27日だけ</span>
-    <h4>TRAINEE 第2弾</h4>
-    <p>4人。<strong>27日のみ</strong>。</p>
+  <a class="event-pick" href="#tobe-trainee-が出るのはいつ何をする" style="--pick-img:url('/images/tokyo-greatbears-ariake-tobe-trainee-2026/photos/trainee-2.jpg')">
+    <span class="pick-date">13:00ごろから</span>
+    <h4>出る場面は3つ</h4>
+    <p>オープニング・始球式・<strong>ハーフタイムショー</strong>。</p>
     <span class="pick-go">詳しく見る →</span>
   </a>
 </div>
@@ -115,7 +115,7 @@ event:
   <figcaption>wink first（TRAINEE）の5人。<cite>画像：<a href="https://prtimes.jp/main/html/rd/p/000000371.000102802.html" target="_blank" rel="noopener">株式会社グレートベアーズのプレスリリース</a></cite></figcaption>
 </figure>
 
-<strong>wink first（ウィンクファースト）</strong>は、TOBEのTRAINEEの中で2024年3月14日に結成した5人組。<strong>島田泰我・藤代翔真・松﨑光・川田瑠輝・小助川優</strong>の5人が、<strong>12月26日・27日の両日</strong>出る。発表によると、2026年3月から熊本地震の復興イベントのスペシャルナビゲーターを務めている。
+<strong>wink first（ウィンクファースト）</strong>は、TOBEのTRAINEEの中で2024年3月14日に結成した5人組。<strong>島田泰我・藤代翔真・松﨑光・川田瑠輝・小助川優</strong>の5人が、<strong>2026年12月26日・27日の両日</strong>出る。発表によると、2026年3月から熊本地震の復興イベントのスペシャルナビゲーターを務めている。
 
 ## 日ごとに替わるTOBE TRAINEE
 
@@ -143,13 +143,27 @@ event:
 
 <div class="callout info">
 <p class="head">遠くから2日とも見に来るなら</p>
-<p style="margin:0">12月26日と27日の両方を見るなら、有明・豊洲に1泊すると朝の移動がいらない。年末で埋まりやすいから、宿は<a href="https://px.a8.net/svt/ejp?a8mat=4BESU9+BNQN16+AD2+3B4MFL" target="_blank" rel="sponsored noopener nofollow">エアトリの国内ホテル予約</a>（PR）で早めに押さえておきなさい。</p>
+<p style="margin:0">2026年12月26日と27日の両方を見るなら、有明・豊洲に1泊すると朝の移動がいらない。年末で埋まりやすいから、宿は<a href="https://px.a8.net/svt/ejp?a8mat=4BESU9+BNQN16+AD2+3B4MFL" target="_blank" rel="sponsored noopener nofollow">エアトリの国内ホテル予約</a>（PR）で早めに押さえておきなさい。</p>
 </div>
 
 ## SNS ではこう言われている
 
-- <strong>東京グレートベアーズ公式</strong>：2026年11月25日に、公式サイトとプレスリリースでTOBE TRAINEEの出演を発表した
-- <strong>同じ月のホームゲーム</strong>：12月5日（土）・6日（日）の国立代々木競技場第一体育館の試合には、俳優の大谷亮平さんが出ると2026年11月17日に発表している（有明ではない）
+- <strong>TOBEの公式アカウント</strong>：2026年11月25日に出演決定を告知し、いいねは2,200を超えた。両日の開場時間と会場を載せている
+- <strong>有明コロシアムの見やすさ</strong>：観戦した人からは「有明コロシアムは超観やすい」、上のスタンドを使わずキャパは「4000超くらい」という声。初めて生でバレーを見に行く人の投稿もある
+- <strong>ハーフタイムショーの様子</strong>：2026年2月28日の有明コロシアムの試合で、佐藤三兄弟が出たハーフタイムショーの動画が上がっている
+- <strong>同じ月のホームゲーム</strong>：2026年12月5日（土）・6日（日）の国立代々木競技場第一体育館の試合には、俳優の大谷亮平さんが出ると2026年11月17日に発表している（有明ではない）
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">📢#winkfirst #TRAINEE info #東京グレートベアーズ ホームゲームに wink first / TRAINEE の出演が決定しました✨ 🗓️出演日時：12月26日(土) 12:00開場 12月27日(日) 12:00開場 📍会場：有明コロシアム</p>&mdash; TOBE OFFICIAL JAPAN (@tobeofficial_jp) <a href="https://twitter.com/tobeofficial_jp/status/2125424544928456947">2026年11月25日</a></blockquote>
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">今日はここから。 #東京グレートベアーズ #有明コロシアムは超観やすい</p>&mdash; 赤い木星 (@a_char1117) <a href="https://twitter.com/a_char1117/status/2025563321362251876">2026年2月22日</a></blockquote>
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/51L5cBP9fTw" title="佐藤三兄弟｜東京グレートベアーズ ハーフタイムショー｜2026228｜有明コロシアム｜Osmo Pocket 3" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/Ixj9FtyTu0c" title="【SVリーグ】東京グレートベアーズの超豪華なホームゲームをレポートしてみた！【週刊 PUSH TALK!】" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
 
 ## 行き方と回り方
 

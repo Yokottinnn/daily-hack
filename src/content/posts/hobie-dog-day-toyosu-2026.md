@@ -1,6 +1,6 @@
 ---
 title: "HOBIE DOG DAY 2026 豊洲｜2026年12月19日（土）愛犬と足漕ぎカヤック、1名＋1頭4,400円・クリスマス衣装の貸出と写真つき"
-description: "豊洲ぐるり公園乗船場のHOBIE BASE TOYOSUで、2026年12月19日（土）に「HOBIE DOG DAY 2026」。4人乗りの足漕ぎカヤックを1グループ1艇で使い、料金は大人1名＋わんちゃん1頭で4,400円（税込）。犬の追加1,100円・人の追加3,300円、全体90分。クリスマス衣装の貸出と撮った写真のプレゼントつき。"
+description: "豊洲ぐるり公園乗船場のHOBIE BASE TOYOSUで、2026年12月19日（土）に「HOBIE DOG DAY 2026」。4人乗りの足漕ぎカヤックを1グループ1艇、大人1名＋わんちゃん1頭で4,400円（税込）、全体90分。クリスマス衣装の貸出と写真のプレゼントつき。"
 publishDate: 2026-11-26
 category: ["wangan-life"]
 tags: ["湾岸ニュース", "豊洲", "豊洲ぐるり公園", "HOBIE", "カヤック", "犬", "クリスマス", "2026年"]
@@ -156,7 +156,15 @@ event:
 ## SNS ではこう言われている
 
 - <strong>HOBIE JAPAN公式</strong>：2026年11月17日に予約ページを更新し、HOBIE BASE TOYOSUのページの先頭に「HOBIE DOG DAY2026 12月19日(土)開催」を出している
+- <strong>前回の様子</strong>：豊洲6丁目の自治会の公式アカウントが、2026年9月の「HOBIE JAPAN DOG DAY」を「水の上をゆっくり進みながら、いつもとは違う景色を満喫」と紹介している
 - <strong>同じページの別の催し</strong>：東京ユナイテッドバスケットボールクラブ（TUBC）と組んだ「BAKUAGEシュートチャレンジ」（海上のゴールを狙う、1名3,000円。TUBCのファンクラブ会員か江東区在住なら500円引き）も告知している
+- <strong>乗るボート</strong>：HOBIE JAPANの公式YouTubeに、4人乗りの「MIRAGE ITREK FIESTA」の紹介動画がある
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">“HOBIE JAPAN DOG DAY” 🐶ワンちゃんと一緒にカヤック体験！ 足漕ぎカヤックに乗って、水の上をゆっくり進みながら、いつもとは違う景色を満喫✨ ワンちゃんと一緒に、楽しいひとときを過ごしていました🐾💕 #豊洲6丁目 #カヤック体験 #犬と一緒</p>&mdash; 【公式】豊洲６丁目SKYZ自治会 (@Skyz20357856) <a href="https://twitter.com/Skyz20357856/status/2101913029923516510">2026年9月21日</a></blockquote>
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/m4uNmBy9ULc" title="HOBIE MIRAGE ITREK FIESTA（ホビー・ミラージュ・アイトレック・フィエスタ）" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
 
 <aside class="related-block">
   <div class="related-block-head">

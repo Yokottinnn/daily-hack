@@ -1,13 +1,13 @@
 ---
-title: "有明ガーデンに東京ユナイテッドの選手 2026年12月1日（火）｜徳川慎之介選手・東宏輝選手のトークショーは17:30から、じゃんけん大会とサイン色紙の抽選"
-description: "有明ガーデンのモール2F中央吹抜広場で、2026年12月1日（火）にBリーグの東京ユナイテッドバスケットボールクラブ（TUBC）のコラボイベント。徳川慎之介選手・東宏輝選手のトークショーは17:30から、ユナイトとのじゃんけん大会、13:00からグッズ販売。2026年11月29日（日）は3F みんなのテラスでhakanaiほか3組のリリースイベント。"
+title: "有明ガーデンに東京ユナイテッドの選手 2026年12月1日（火）｜德川慎之介選手・東宏輝選手のトークショーは17:30から、じゃんけん大会とサイン色紙の抽選"
+description: "有明ガーデンのモール2F中央吹抜広場で、2026年12月1日（火）にBリーグの東京ユナイテッドバスケットボールクラブのイベント。德川慎之介選手・東宏輝選手のトークショーは17:30から、じゃんけん大会、13:00からグッズ販売。2026年11月29日（日）はhakanaiほかのライブ。"
 publishDate: 2026-11-26
 category: ["wangan-life"]
 tags: ["湾岸ニュース", "有明", "有明ガーデン", "東京ユナイテッド", "Bリーグ", "バスケットボール", "無料", "2026年"]
 isPR: true
 draft: false
 eyecatchUrl: "/images/ariake-garden-tubc-talk-2026-12/eyecatch.jpg"
-eyecatchAlt: "東京ユナイテッドバスケットボールクラブの徳川慎之介選手・東宏輝選手が2026年12月1日に有明ガーデンに来館する告知画像（有明ガーデン公式サイトより）"
+eyecatchAlt: "東京ユナイテッドバスケットボールクラブの德川慎之介選手・東宏輝選手が2026年12月1日に有明ガーデンに来館する告知画像（有明ガーデン公式サイトより）"
 author: "hacker-ko"
 references:
   - "https://ariake.shopping-sumitomo-rd.com/event/5781/"
@@ -22,7 +22,7 @@ event:
   organizer: "ソフトバンク有明ガーデン"
 ---
 
-<strong>2026年12月1日（火）</strong>、有明ガーデンのモール2F 中央吹抜広場に、Bリーグの<strong>東京ユナイテッドバスケットボールクラブ（TUBC）</strong>の<strong>徳川慎之介選手</strong>と<strong>東宏輝選手</strong>が来る。<strong>17:30からトークショー</strong>、マスコットのユナイトとのじゃんけん大会もあって、13:00からはグッズ販売とファンクラブの入会受付のブースが出るわ。
+<strong>2026年12月1日（火）</strong>、有明ガーデンのモール2F 中央吹抜広場に、Bリーグの<strong>東京ユナイテッドバスケットボールクラブ（TUBC）</strong>の<strong>德川慎之介選手</strong>と<strong>東宏輝選手</strong>が来る。<strong>17:30からトークショー</strong>、マスコットのユナイトとのじゃんけん大会もあって、13:00からはグッズ販売とファンクラブの入会受付のブースが出るわ。
 
 「平日の夕方に何があるの？」「サイン色紙はどうやったらもらえるの？」——告知は画像の中に大事なことが書いてあって、読み飛ばしやすいのよ。だからアタシがまとめた。土台は<strong>有明ガーデン公式サイトのイベント案内</strong>と、そこに載っている<strong>告知画像</strong>よ。
 
@@ -36,7 +36,7 @@ event:
   <a class="event-pick" href="#トークショーとじゃんけん大会" style="--pick-img:url('/images/ariake-garden-tubc-talk-2026-12/photos/tubc-slide.jpg')">
     <span class="pick-date">2026年12月1日 17:30〜</span>
     <h4>選手トークショー</h4>
-    <p>徳川選手・東選手。MCは<strong>竹本タクシーさん</strong>。</p>
+    <p>德川選手・東選手。MCは<strong>竹本タクシーさん</strong>。</p>
     <span class="pick-go">詳しく見る →</span>
   </a>
   <a class="event-pick" href="#サイン色紙の抽選会" style="--pick-img:url('/images/ariake-garden-tubc-talk-2026-12/eyecatch.jpg')">
@@ -45,7 +45,7 @@ event:
     <p>質問が<strong>選手に届くかも</strong>。</p>
     <span class="pick-go">詳しく見る →</span>
   </a>
-  <a class="event-pick" href="#11月29日日はリリースイベント" style="--pick-img:url('/images/ariake-garden-tubc-talk-2026-12/photos/release-event.png')">
+  <a class="event-pick" href="#2026年11月29日日はリリースイベント" style="--pick-img:url('/images/ariake-garden-tubc-talk-2026-12/photos/release-event.png')">
     <span class="pick-date">2026年11月29日（日）</span>
     <h4>リリースイベント</h4>
     <p>3F みんなのテラスで<strong>3組</strong>。</p>
@@ -59,7 +59,7 @@ event:
 ## 日にちと場所
 
 <figure class="rn-figure">
-  <img src="/images/ariake-garden-tubc-talk-2026-12/photos/tubc-slide.jpg" alt="東京ユナイテッドバスケットボールクラブの徳川慎之介選手・東宏輝選手が有明ガーデンに来館する告知。12月1日（火）17:30 Start、有明ガーデン2F中央吹抜広場、トークショー・じゃんけん大会・サイン色紙抽選会" loading="lazy" />
+  <img src="/images/ariake-garden-tubc-talk-2026-12/photos/tubc-slide.jpg" alt="東京ユナイテッドバスケットボールクラブの德川慎之介選手・東宏輝選手が有明ガーデンに来館する告知。2026年12月1日（火）17:30 Start、有明ガーデン2F中央吹抜広場、トークショー・じゃんけん大会・サイン色紙抽選会" loading="lazy" />
   <figcaption>告知画像。<cite>画像：<a href="https://ariake.shopping-sumitomo-rd.com/event/5781/" target="_blank" rel="noopener">有明ガーデン公式サイト「Bリーグコラボイベント」</a></cite></figcaption>
 </figure>
 
@@ -84,7 +84,7 @@ event:
 <table class="cmp-table">
 <thead><tr><th>中身</th><th>くわしく</th></tr></thead>
 <tbody>
-<tr><td><strong>トークショー（17:30〜）</strong></td><td>徳川慎之介選手と東宏輝選手。MCは竹本タクシーさん</td></tr>
+<tr><td><strong>トークショー（17:30〜）</strong></td><td>德川慎之介選手と東宏輝選手。MCは竹本タクシーさん</td></tr>
 <tr><td><strong>じゃんけん大会</strong></td><td>マスコットのユナイトと。告知画像には「ユナイトも登場！」</td></tr>
 <tr><td>グッズ販売・ファンクラブ入会受付（13:00〜）</td><td>ブースが出る</td></tr>
 </tbody>
@@ -109,7 +109,18 @@ event:
 
 ## サイン色紙の抽選会
 
-告知画像によると、<strong>サイン色紙の抽選会は「事前参加フォーム」に答えた人が対象</strong>。フォームに答えると、<strong>抽選でサイン色紙がもらえる</strong>ほか、<strong>書いた質問が選手に届くかもしれない</strong>。
+告知画像によると、<strong>サイン色紙の抽選会は「事前参加フォーム」に答えた人が対象</strong>。
+
+<div class="cmp-table-wrap">
+<table class="cmp-table">
+<thead><tr><th>フォームに答えると</th><th>告知画像の書き方</th></tr></thead>
+<tbody>
+<tr><td><strong>抽選でサイン色紙</strong></td><td>「抽選でサイン色紙をプレゼント！」</td></tr>
+<tr><td><strong>質問が選手に届くかも</strong></td><td>「あなたの質問が選手に届くかも！？」</td></tr>
+</tbody>
+</table>
+</div>
+<p class="source-note">出典：<a href="https://ariake.shopping-sumitomo-rd.com/event/5781/" target="_blank" rel="noopener">有明ガーデン公式サイト「Bリーグコラボイベント」の告知画像</a></p>
 
 <div class="callout info">
 <p class="head">フォームの場所</p>
@@ -121,7 +132,7 @@ event:
   <li><div class="checklist-body"><strong>選手へのプレゼントは手渡しできない</strong><p>案内の注意事項に書かれている。</p></div></li>
 </ul>
 
-## 11月29日（日）はリリースイベント
+## 2026年11月29日（日）はリリースイベント
 
 <figure class="rn-figure">
   <img src="/images/ariake-garden-tubc-talk-2026-12/photos/release-event.png" alt="NEW STYLEのロゴ" loading="lazy" />
@@ -149,8 +160,22 @@ event:
 
 ## SNS ではこう言われている
 
-- <strong>有明ガーデン公式</strong>：イベント案内で、「いつもTUBCへの熱い青援をありがとうございます」と2選手の参加を告知した
+- <strong>有明ガーデンとTUBC</strong>：2026年9月から有明ガーデン2F（国際展示場駅側の入口すぐのエレベーターホール）がTUBCの色に染まっていて、行った人からは「TUBCマッピングかっこいいやん」という声。2026年10月31日のイルミネーションの点灯式にも、マスコットのユナイトが出ている
+- <strong>德川慎之介選手</strong>：2026年4月から、自分のスティールの数に応じて保護犬・保護猫の支援に寄付する取り組みをしている（TUBC公式）
+- <strong>ホームの試合</strong>：TUBCの公式YouTubeは、2026年11月13日の熊本戦を「満員の有明で強豪熊本に勝利」としてハイライトを出している
 - <strong>HOBIE BASE TOYOSU</strong>：TUBCと組んだ「BAKUAGEシュートチャレンジ」を、有明に続いて豊洲でも開くと告知している
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">長年やりたかったことのひとつが叶いました🌟 国際展示場駅側の有明ガーデン2F入口すぐのエレベータホールがTUBC色に染まりました🐰💙</p>&mdash; TUBC戦う広報やなぎー (@nobu_12_) <a href="https://twitter.com/nobu_12_/status/2094993822136811680">2026年9月2日</a></blockquote>
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">［ 「その守りは動物の命も守る！」 #德川慎之介 選手 保護犬・保護猫支援プロジェクト始動🐕🐈］ このたびTUBCでは #德川慎之介 選手が自身のスティール数に応じて、動物愛護活動へ寄付を行う取り組みを実施することとなりましたのでお知らせします🫱🏻</p>&mdash; 東京ユナイテッドBC🏀 (@TUBCofficial) <a href="https://twitter.com/TUBCofficial/status/2039887556335329342">2026年4月3日</a></blockquote>
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/E9NB_diYnSc" title="【 ハイライト 】TUBC vs 熊本｜スティール23本！満員の有明で強豪熊本に勝利！ 2026.11.13" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/P34iHZZbiYY" title="【TUBC観戦】江東区拠点のバスケチーム ホームゲームを観戦してきました｜#江東区 #バスケ観戦 #vlog" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
 
 <aside class="related-block">
   <div class="related-block-head">
@@ -172,7 +197,7 @@ event:
 <div class="cmp-table-wrap">
   <table class="cmp-table spec-table faq-table">
     <tbody>
-      <tr><th>有明ガーデンのTUBCのイベントはいつ？</th><td>2026年12月1日（火）10:00〜19:00。徳川慎之介選手と東宏輝選手のトークショーは17:30から。</td></tr>
+      <tr><th>有明ガーデンのTUBCのイベントはいつ？</th><td>2026年12月1日（火）10:00〜19:00。德川慎之介選手と東宏輝選手のトークショーは17:30から。</td></tr>
       <tr><th>どこでやる？</th><td>有明ガーデンのモール2F 中央吹抜広場（東京都江東区有明2-1-8）。</td></tr>
       <tr><th>サイン色紙はどうやったらもらえる？</th><td>告知画像によると、事前参加フォームに答えた人が抽選会の対象。くわしい条件はソフトバンク有明ガーデンのスタッフに問い合わせる。</td></tr>
       <tr><th>11月29日（日）は何がある？</th><td>2026年11月29日（日）にモール3Fのみんなのテラスで、BEE∞SONIC（12:00）・hakanai（14:30）・UK（17:30）のミニライブと特典会。</td></tr>
