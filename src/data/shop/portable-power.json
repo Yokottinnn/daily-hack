@@ -24,7 +24,7 @@
       "label": "公式ストアの価格"
     }
   ],
-  "pricesCheckedAt": "2026-11-24T21:44:09.463Z",
+  "pricesCheckedAt": "2026-11-25T21:42:36.999Z",
   "items": [
     {
       "id": "jackery-1000-new-v3",
@@ -93,7 +93,7 @@
         "reviewAverage": 5,
         "reviewCount": 3,
         "shop": "Jackery Japan ヤフーショッピング店",
-        "checkedAt": "2026-11-24T21:44:09.463Z"
+        "checkedAt": "2026-11-25T21:42:36.999Z"
       },
       "amazon": {
         "keyword": "Jackery ポータブル電源 1000 New V3 JE-1000G",
@@ -173,7 +173,7 @@
         "reviewAverage": 4.71,
         "reviewCount": 212,
         "shop": "EcoFlow公式 Yahoo!ショッピング店",
-        "checkedAt": "2026-11-24T21:44:09.463Z"
+        "checkedAt": "2026-11-25T21:42:36.999Z"
       },
       "amazon": {
         "keyword": "EcoFlow DELTA 3 Plus ポータブル電源",
@@ -242,14 +242,14 @@
           "MAX",
           "Max"
         ],
-        "url": "https://store.shopping.yahoo.co.jp/monoworld-japan/compass1789655167.html",
-        "price": 54950,
+        "url": "https://store.shopping.yahoo.co.jp/idea-marche/efdelta3c-jp-cbox-d.html",
+        "price": 54800,
         "shippingFree": true,
         "point": 0,
         "reviewAverage": null,
-        "reviewCount": 0,
-        "shop": "株式会社 モノワールド",
-        "checkedAt": "2026-11-24T21:44:09.463Z"
+        "reviewCount": 1,
+        "shop": "アイディアマルシェ",
+        "checkedAt": "2026-11-25T21:42:36.999Z"
       },
       "amazon": {
         "keyword": "EcoFlow DELTA 3 Classic ポータブル電源",
@@ -312,14 +312,14 @@
           "保護",
           "BP1000"
         ],
-        "url": "https://store.shopping.yahoo.co.jp/dshopone-y/4571651001341.html",
+        "url": "https://store.shopping.yahoo.co.jp/mitene/a17635z1.html",
         "price": 74800,
         "shippingFree": true,
         "point": 0,
         "reviewAverage": null,
-        "reviewCount": 1,
-        "shop": "ディーショップワン Yahoo!店",
-        "checkedAt": "2026-11-24T21:44:09.463Z"
+        "reviewCount": 0,
+        "shop": "MITENE Premium",
+        "checkedAt": "2026-11-25T21:42:36.999Z"
       },
       "amazon": {
         "keyword": "Anker Solix C1000 Gen 2 Portable Power Station",
@@ -393,7 +393,7 @@
         "reviewAverage": 4.75,
         "reviewCount": 4,
         "shop": "D-SHOP ONE",
-        "checkedAt": "2026-11-24T21:44:09.463Z"
+        "checkedAt": "2026-11-25T21:42:36.999Z"
       },
       "amazon": {
         "keyword": "Anker Solix C1000 Portable Power Station A1761",
