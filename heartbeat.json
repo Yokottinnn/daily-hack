@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T23:32:15Z",
+  "generated_at": "2026-11-25T00:02:26Z",
   "login_lock": {"present": false, "age_hours": 0},
   "cdp": {"healthy": true, "port": 18810},
   "x_jobs": {"loaded": 8, "expected": 8, "ai_total": 16, "halted": false, "missing": []},
@@ -49,7 +49,7 @@
     "detail": "トークンの有効期限を過ぎている"
   },
   "activity": {
-    "date": "2026-11-24",
+    "date": "2026-11-25",
     "posted_today": 0,
     "detail": "ログを走査した",
     "sources": []
@@ -141,10 +141,10 @@
   },
   "followers": {
     "now": 621,
-    "prev": 620,
-    "prev_date": "2026-11-21",
-    "span_days": 3,
-    "record_age_days": 0,
+    "prev": 611,
+    "prev_date": "2026-11-22",
+    "span_days": 2,
+    "record_age_days": 1,
     "record_stale": false,
     "target": 300,
     "deadline": "2026-09-30"
