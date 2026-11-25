@@ -405,21 +405,17 @@
           "CL287FD"
         ],
         "exclude": [
-          "交換",
-          "専用",
-          "対応",
-          "フィルター",
           "◆",
+          "コントローラ",
+          "フィルター",
           "中古",
-          "互換"
+          "互換",
+          "交換",
+          "図番",
+          "対応",
+          "専用",
+          "部品"
         ],
-        "url": "https://store.shopping.yahoo.co.jp/takahashihonsha/620u67-4.html",
-        "price": 7040,
-        "shippingFree": false,
-        "point": 0,
-        "reviewAverage": null,
-        "reviewCount": 0,
-        "shop": "高橋本社Yahoo!店",
         "checkedAt": "2026-11-25T21:42:36.999Z"
       },
       "amazon": {
