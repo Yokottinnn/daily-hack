@@ -1,0 +1,35 @@
+{
+ "keyvisual.jpg": {
+  "page": "https://mitsui-shopping-park.com/lalaport/toyosu/event/3663884.html",
+  "credit": "アーバンドック ららぽーと豊洲 イベント案内「ドラえもん CHRISTMAS FOR YOU in LaLaport・LAZONA」のキービジュアル",
+  "rights": "三井不動産商業マネジメント／©Fujiko-Pro, Shogakukan, TV-Asahi, Shin-ei, and ADK",
+  "fetched": "2026-11-24"
+ },
+ "stamp-rally.png": {
+  "page": "https://mitsui-shopping-park.com/lalaport/special/winter_doraemon_christmasforyou_2026/",
+  "credit": "ららぽーと「ドラえもん CHRISTMAS FOR YOU」特設サイトのひみつ道具スタンプラリーの画像",
+  "rights": "三井不動産商業マネジメント／©Fujiko-Pro, Shogakukan, TV-Asahi, Shin-ei, and ADK",
+  "fetched": "2026-11-24"
+ },
+ "keyholder.png": {
+  "page": "https://mitsui-shopping-park.com/lalaport/special/winter_doraemon_christmasforyou_2026/",
+  "credit": "ららぽーと「ドラえもん CHRISTMAS FOR YOU」特設サイトのおなまえキーホルダーづくりの画像",
+  "rights": "三井不動産商業マネジメント／©Fujiko-Pro, Shogakukan, TV-Asahi, Shin-ei, and ADK",
+  "fetched": "2026-11-24"
+ },
+ "dokodemo-door.png": {
+  "page": "https://mitsui-shopping-park.com/lalaport/special/winter_doraemon_christmasforyou_2026/",
+  "credit": "ららぽーと「ドラえもん CHRISTMAS FOR YOU」特設サイトのどこでもドアフォトスポットの画像",
+  "rights": "三井不動産商業マネジメント／©Fujiko-Pro, Shogakukan, TV-Asahi, Shin-ei, and ADK",
+  "fetched": "2026-11-24"
+ },
+ "tree.png": {
+  "page": "https://mitsui-shopping-park.com/lalaport/special/winter_doraemon_christmasforyou_2026/",
+  "credit": "ららぽーと「ドラえもん CHRISTMAS FOR YOU」特設サイトのひみつ道具ツリーの画像",
+  "rights": "三井不動産商業マネジメント／©Fujiko-Pro, Shogakukan, TV-Asahi, Shin-ei, and ADK",
+  "fetched": "2026-11-24"
+ },
+ "../eyecatch.jpg": {
+  "note": "keyvisual.jpg を gen-news-cover.py --fit で 16:9 に収めたもの"
+ }
+}

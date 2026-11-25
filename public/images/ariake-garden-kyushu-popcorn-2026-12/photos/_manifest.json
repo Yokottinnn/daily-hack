@@ -1,0 +1,41 @@
+{
+ "kyushu-main.jpg": {
+  "page": "https://ariake.shopping-sumitomo-rd.com/event/5831/",
+  "credit": "有明ガーデン「｜POP-UP｜九州南国物産展」の九州南国物産展のメイン画像",
+  "rights": "住友不動産商業マネジメント／株式会社イベントアイ",
+  "fetched": "2026-11-24"
+ },
+ "ikinari.jpg": {
+  "page": "https://ariake.shopping-sumitomo-rd.com/event/5831/",
+  "credit": "有明ガーデン「｜POP-UP｜九州南国物産展」のいきなり団子（イメージ）",
+  "rights": "住友不動産商業マネジメント／株式会社イベントアイ",
+  "fetched": "2026-11-24"
+ },
+ "castella.jpg": {
+  "page": "https://ariake.shopping-sumitomo-rd.com/event/5831/",
+  "credit": "有明ガーデン「｜POP-UP｜九州南国物産展」のカステラ（イメージ）",
+  "rights": "住友不動産商業マネジメント／株式会社イベントアイ",
+  "fetched": "2026-11-24"
+ },
+ "karukan.jpg": {
+  "page": "https://ariake.shopping-sumitomo-rd.com/event/5831/",
+  "credit": "有明ガーデン「｜POP-UP｜九州南国物産展」のかるかん饅頭（イメージ）",
+  "rights": "住友不動産商業マネジメント／株式会社イベントアイ",
+  "fetched": "2026-11-24"
+ },
+ "popcorn-main.jpg": {
+  "page": "https://ariake.shopping-sumitomo-rd.com/event/5848/",
+  "credit": "有明ガーデン「｜POP-UP｜ポップコーン販売『ジェリーズポップコーン』」のメイン画像",
+  "rights": "住友不動産商業マネジメント／株式会社ジェリーズポップコーン",
+  "fetched": "2026-11-24"
+ },
+ "popcorn-caramel.jpg": {
+  "page": "https://ariake.shopping-sumitomo-rd.com/event/5848/",
+  "credit": "有明ガーデン「｜POP-UP｜ポップコーン販売『ジェリーズポップコーン』」のキャラメルの袋の画像",
+  "rights": "住友不動産商業マネジメント／株式会社ジェリーズポップコーン",
+  "fetched": "2026-11-24"
+ },
+ "../eyecatch.jpg": {
+  "note": "kyushu-main.jpg を gen-news-cover.py --y 1.0 で 16:9 に切ったもの"
+ }
+}
