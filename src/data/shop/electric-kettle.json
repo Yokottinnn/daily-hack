@@ -28,7 +28,7 @@
       "label": "消費電力"
     }
   ],
-  "pricesCheckedAt": "2026-11-25T21:42:36.999Z",
+  "pricesCheckedAt": "2026-11-26T21:42:56.292Z",
   "items": [
     {
       "id": "tfal-ko8601j0",
@@ -110,7 +110,7 @@
         "reviewAverage": 4.8,
         "reviewCount": 5,
         "shop": "ソムリエ@ギフト Yahoo!ショッピング店",
-        "checkedAt": "2026-11-25T21:42:36.999Z"
+        "checkedAt": "2026-11-26T21:42:56.292Z"
       },
       "amazon": {
         "keyword": "ティファール アプレシア ロック コントロール KO8601J0",
@@ -197,7 +197,7 @@
         "reviewAverage": null,
         "reviewCount": 1,
         "shop": "Anchor Shop",
-        "checkedAt": "2026-11-25T21:42:36.999Z"
+        "checkedAt": "2026-11-26T21:42:56.292Z"
       },
       "amazon": {
         "keyword": "ティファール カフェ ロック コントロール KO9208JP",
@@ -277,14 +277,14 @@
           "ジャンク",
           "カバー"
         ],
-        "url": "https://store.shopping.yahoo.co.jp/sanrex/ck-ka10-wm.html",
+        "url": "https://store.shopping.yahoo.co.jp/sanrex/ck-ka10-bm.html",
         "price": 7880,
         "shippingFree": true,
         "point": 0,
-        "reviewAverage": 3.67,
-        "reviewCount": 3,
+        "reviewAverage": null,
+        "reviewCount": 0,
         "shop": "サンサン マーケット",
-        "checkedAt": "2026-11-25T21:42:36.999Z"
+        "checkedAt": "2026-11-26T21:42:56.292Z"
       },
       "amazon": {
         "keyword": "象印 電気ケトル CK-KA10",
@@ -371,7 +371,7 @@
         "reviewAverage": null,
         "reviewCount": 2,
         "shop": "おしゃれcafe",
-        "checkedAt": "2026-11-25T21:42:36.999Z"
+        "checkedAt": "2026-11-26T21:42:56.292Z"
       },
       "amazon": {
         "keyword": "タイガー 蒸気レス電気ケトル PTV-A080",
@@ -452,13 +452,13 @@
           "カバー"
         ],
         "url": "https://store.shopping.yahoo.co.jp/gbft/kp-t03j-pwh0.html",
-        "price": 15660,
+        "price": 15648,
         "shippingFree": true,
         "point": 0,
         "reviewAverage": null,
         "reviewCount": 0,
         "shop": "GBFT Premium",
-        "checkedAt": "2026-11-25T21:42:36.999Z"
+        "checkedAt": "2026-11-26T21:42:56.292Z"
       },
       "amazon": {
         "keyword": "BALMUDA The Pot KPT03JP",
@@ -538,14 +538,14 @@
           "ジャンク",
           "カバー"
         ],
-        "url": "https://store.shopping.yahoo.co.jp/sonne-shop/b0gx89j7nt.html",
-        "price": 19200,
+        "url": "https://store.shopping.yahoo.co.jp/nijiirogn/wss-870p5mxy8wci.html",
+        "price": 14880,
         "shippingFree": true,
         "point": 0,
         "reviewAverage": null,
         "reviewCount": 0,
-        "shop": "ゾンネショップ",
-        "checkedAt": "2026-11-24T21:44:09.463Z"
+        "shop": "にじいろ",
+        "checkedAt": "2026-11-26T21:42:56.292Z"
       },
       "amazon": {
         "keyword": "デロンギ アイコナ 温度設定機能付き電気カフェケトル KBOE1260J",

@@ -28,7 +28,7 @@
       "label": "重さ"
     }
   ],
-  "pricesCheckedAt": "2026-11-25T21:42:36.999Z",
+  "pricesCheckedAt": "2026-11-26T21:42:56.292Z",
   "items": [
     {
       "id": "iris-fk-w3-w",
@@ -88,7 +88,7 @@
         "reviewAverage": null,
         "reviewCount": 0,
         "shop": "マイルーム Yahoo!店",
-        "checkedAt": "2026-11-24T21:44:09.463Z"
+        "checkedAt": "2026-11-26T21:42:56.292Z"
       },
       "amazon": {
         "keyword": "アイリスオーヤマ カラリエ FK-W3-W",
@@ -146,14 +146,14 @@
           "専用",
           "フィルター"
         ],
-        "url": "https://store.shopping.yahoo.co.jp/akibaoo/4974305224422.html",
-        "price": 15000,
+        "url": "https://store.shopping.yahoo.co.jp/sanrex/rf-fb20-wa.html",
+        "price": 14900,
         "shippingFree": true,
         "point": 0,
         "reviewAverage": null,
-        "reviewCount": 0,
-        "shop": "あきばおー ヤフーショップ",
-        "checkedAt": "2026-11-24T21:44:09.463Z"
+        "reviewCount": 1,
+        "shop": "サンサン マーケット",
+        "checkedAt": "2026-11-26T21:42:56.292Z"
       },
       "amazon": {
         "keyword": "象印 スマートドライ RF-FB20",
@@ -413,7 +413,7 @@
         "reviewAverage": null,
         "reviewCount": 0,
         "shop": "ハウマッチYahoo!店",
-        "checkedAt": "2026-11-25T21:42:36.999Z"
+        "checkedAt": "2026-11-26T21:42:56.292Z"
       },
       "amazon": {
         "keyword": "パナソニック ふとん暖め乾燥機 FD-F06X2",
@@ -478,7 +478,7 @@
         "reviewAverage": null,
         "reviewCount": 0,
         "shop": "いーぐるネクスト店",
-        "checkedAt": "2026-11-25T21:42:36.999Z"
+        "checkedAt": "2026-11-26T21:42:56.292Z"
       },
       "amazon": {
         "keyword": "シャープ ふとん乾燥機 UD-DF1",

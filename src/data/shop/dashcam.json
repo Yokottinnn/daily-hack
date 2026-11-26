@@ -20,7 +20,7 @@
       "label": "付属の電源・取り付け"
     }
   ],
-  "pricesCheckedAt": "2026-11-25T21:42:36.999Z",
+  "pricesCheckedAt": "2026-11-26T21:42:56.292Z",
   "items": [
     {
       "id": "comtec-zdr065",
@@ -77,14 +77,14 @@
           "延長ケーブル",
           "HDROP"
         ],
-        "url": "https://store.shopping.yahoo.co.jp/harenohi77/b0fdk55flz.html",
-        "price": 35050,
-        "shippingFree": true,
+        "url": "https://store.shopping.yahoo.co.jp/daikokuyastore/azdr65.html",
+        "price": 28780,
+        "shippingFree": false,
         "point": 0,
         "reviewAverage": null,
         "reviewCount": 0,
-        "shop": "ハレノヒマーケット",
-        "checkedAt": "2026-11-25T21:42:36.999Z"
+        "shop": "家電問屋 大黒やストア ヤフー店",
+        "checkedAt": "2026-11-26T21:42:56.292Z"
       },
       "amazon": {
         "keyword": "コムテック ZDR065",
@@ -132,19 +132,21 @@
           "ZDR-851R"
         ],
         "exclude": [
-          "中古",
+          "HDROP",
           "◆",
-          "並行輸入",
-          "対応",
-          "適合",
+          "アクセサリー",
           "オプション",
           "フィルム",
-          "保護",
-          "交換用",
-          "アクセサリー",
           "ブラケット",
+          "ブルーライトカット",
+          "並行輸入",
+          "中古",
+          "交換用",
+          "保護",
+          "対応",
           "延長ケーブル",
-          "HDROP"
+          "適合",
+          "高硬度"
         ],
         "url": "https://store.shopping.yahoo.co.jp/ecjoyecj28/22377773.html",
         "price": 48118,
@@ -224,7 +226,7 @@
         "reviewAverage": null,
         "reviewCount": 0,
         "shop": "Mount Shop Sun",
-        "checkedAt": "2026-11-25T21:42:36.999Z"
+        "checkedAt": "2026-11-26T21:42:56.292Z"
       },
       "amazon": {
         "keyword": "ユピテル Y-3300",
@@ -293,7 +295,7 @@
         "reviewAverage": null,
         "reviewCount": 0,
         "shop": "Joshin web",
-        "checkedAt": "2026-11-25T21:42:36.999Z"
+        "checkedAt": "2026-11-26T21:42:56.292Z"
       },
       "amazon": {
         "keyword": "カロッツェリア VREC-DZ810DII",
@@ -362,7 +364,7 @@
         "reviewAverage": null,
         "reviewCount": 0,
         "shop": "キューティクルスタイル",
-        "checkedAt": "2026-11-25T21:42:36.999Z"
+        "checkedAt": "2026-11-26T21:42:56.292Z"
       },
       "amazon": {
         "keyword": "セルスター CS-N210",
@@ -439,7 +441,7 @@
         "reviewAverage": null,
         "reviewCount": 0,
         "shop": "オートバックスYahoo!ショッピング店",
-        "checkedAt": "2026-11-25T21:42:36.999Z"
+        "checkedAt": "2026-11-26T21:42:56.292Z"
       },
       "amazon": {
         "keyword": "ケンウッド DRV-X80EM",
@@ -503,14 +505,14 @@
           "取付キット",
           "キットセット"
         ],
-        "url": "https://store.shopping.yahoo.co.jp/autobacs/4958043025947.html",
-        "price": 73000,
+        "url": "https://store.shopping.yahoo.co.jp/outletplaza/40001120016.html",
+        "price": 72242,
         "shippingFree": true,
         "point": 0,
-        "reviewAverage": 4.7,
-        "reviewCount": 10,
-        "shop": "オートバックスYahoo!ショッピング店",
-        "checkedAt": "2026-11-25T21:42:36.999Z"
+        "reviewAverage": null,
+        "reviewCount": 0,
+        "shop": "秋葉原　アウトレットプラザ",
+        "checkedAt": "2026-11-26T21:42:56.292Z"
       },
       "amazon": {
         "keyword": "アルパイン DVR-DM1200A2-IC",

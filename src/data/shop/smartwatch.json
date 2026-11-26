@@ -24,7 +24,7 @@
       "label": "タッチ決済"
     }
   ],
-  "pricesCheckedAt": "2026-11-24T21:44:09.463Z",
+  "pricesCheckedAt": "2026-11-26T21:42:56.292Z",
   "items": [
     {
       "id": "apple-watch-series-12",
@@ -324,25 +324,26 @@
           "Pixel Watch 5"
         ],
         "exclude": [
-          "バンド",
-          "ベルト",
-          "ストラップ",
-          "ケース",
-          "カバー",
-          "フィルム",
-          "保護",
-          "充電器",
-          "充電ケーブル",
-          "スタンド",
-          "交換",
-          "対応",
-          "専用",
-          "アクセサリー",
-          "セット",
-          "中古",
+          "Spigen",
           "◆",
+          "アクセサリー",
+          "カバー",
+          "ケース",
+          "スタンド",
+          "ストラップ",
+          "セット",
+          "バンド",
+          "フィルム",
+          "ベルト",
           "並行輸入",
-          "互換"
+          "中古",
+          "互換",
+          "交換",
+          "保護",
+          "充電ケーブル",
+          "充電器",
+          "対応",
+          "専用"
         ],
         "url": "https://store.shopping.yahoo.co.jp/densidonya/0840353961920.html",
         "price": 56541,
@@ -437,7 +438,7 @@
         "reviewAverage": null,
         "reviewCount": 1,
         "shop": "スマホとウォッチのNCモバイル Yahoo!店",
-        "checkedAt": "2026-11-23T21:44:00.508Z"
+        "checkedAt": "2026-11-26T21:42:56.292Z"
       },
       "amazon": {
         "keyword": "Galaxy Watch9",
@@ -512,14 +513,14 @@
           "並行輸入",
           "互換"
         ],
-        "url": "https://store.shopping.yahoo.co.jp/ida-online/010-02985-30-.html",
+        "url": "https://store.shopping.yahoo.co.jp/ida-online/010-02985-36-.html",
         "price": 47520,
         "shippingFree": true,
         "point": 0,
         "reviewAverage": null,
-        "reviewCount": 2,
+        "reviewCount": 0,
         "shop": "IDA-Online",
-        "checkedAt": "2026-11-23T21:44:00.508Z"
+        "checkedAt": "2026-11-26T21:42:56.292Z"
       },
       "amazon": {
         "keyword": "vivoactive 6",
@@ -605,7 +606,7 @@
         "reviewAverage": 4.74,
         "reviewCount": 78,
         "shop": "HUAWEI 公式 Yahoo!店",
-        "checkedAt": "2026-11-24T21:44:09.463Z"
+        "checkedAt": "2026-11-26T21:42:56.292Z"
       },
       "amazon": {
         "keyword": "HUAWEI WATCH GT 7",
@@ -687,7 +688,7 @@
         "reviewAverage": 4.89,
         "reviewCount": 9,
         "shop": "Xiaomi公式ストア",
-        "checkedAt": "2026-11-24T21:44:09.463Z"
+        "checkedAt": "2026-11-26T21:42:56.292Z"
       },
       "amazon": {
         "keyword": "Xiaomi Watch S5 46mm",

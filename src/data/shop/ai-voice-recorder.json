@@ -28,7 +28,7 @@
       "label": "言語数"
     }
   ],
-  "pricesCheckedAt": "2026-11-25T21:42:36.999Z",
+  "pricesCheckedAt": "2026-11-26T21:42:56.292Z",
   "items": [
     {
       "id": "plaud-note-pro",
@@ -81,14 +81,14 @@
           "アプリ",
           "セット"
         ],
-        "url": "https://store.shopping.yahoo.co.jp/a-denki/77323.html",
-        "price": 27710,
-        "shippingFree": false,
+        "url": "https://store.shopping.yahoo.co.jp/softbank-selection/0199284926073.html",
+        "price": 23760,
+        "shippingFree": true,
         "point": 0,
-        "reviewAverage": null,
-        "reviewCount": 0,
-        "shop": "インボイス対応 アサヒデンキヤフー店",
-        "checkedAt": "2026-11-25T21:42:36.999Z"
+        "reviewAverage": 4.58,
+        "reviewCount": 134,
+        "shop": "トレテク!ソフトバンクセレクション",
+        "checkedAt": "2026-11-26T21:42:56.292Z"
       },
       "amazon": {
         "keyword": "PLAUD NOTE Pro",
@@ -150,14 +150,14 @@
           "アプリ",
           "セット"
         ],
-        "url": "https://store.shopping.yahoo.co.jp/refun/mcl1pd6xde7a5v2s.html",
-        "price": 27390,
+        "url": "https://store.shopping.yahoo.co.jp/softbank-selection/0659359808432.html",
+        "price": 19250,
         "shippingFree": true,
         "point": 0,
-        "reviewAverage": null,
-        "reviewCount": 0,
-        "shop": "リファン Yahoo!ショップ",
-        "checkedAt": "2026-11-25T21:42:36.999Z"
+        "reviewAverage": 4.62,
+        "reviewCount": 143,
+        "shop": "トレテク!ソフトバンクセレクション",
+        "checkedAt": "2026-11-26T21:42:56.292Z"
       },
       "amazon": {
         "keyword": "PLAUD NOTE ボイスレコーダー",
@@ -214,13 +214,13 @@
           "プラン"
         ],
         "url": "https://store.shopping.yahoo.co.jp/softbank-selection/0199284031340.html",
-        "price": 28600,
+        "price": 22880,
         "shippingFree": true,
         "point": 0,
         "reviewAverage": 4.5,
         "reviewCount": 8,
         "shop": "トレテク!ソフトバンクセレクション",
-        "checkedAt": "2026-11-25T21:42:36.999Z"
+        "checkedAt": "2026-11-26T21:42:56.292Z"
       },
       "amazon": {
         "keyword": "PLAUD NotePin S",
@@ -277,7 +277,7 @@
         "reviewAverage": 4.22,
         "reviewCount": 9,
         "shop": "コジマYahoo!店",
-        "checkedAt": "2026-11-25T21:42:36.999Z"
+        "checkedAt": "2026-11-26T21:42:56.292Z"
       },
       "amazon": {
         "keyword": "Notta Memo",
@@ -324,14 +324,14 @@
           "ケース",
           "フィルム"
         ],
-        "url": "https://store.shopping.yahoo.co.jp/nottamemo-y/y-notta-memo-pro.html",
-        "price": 29700,
+        "url": "https://store.shopping.yahoo.co.jp/y-sofmap/4595430577216.html",
+        "price": 24000,
         "shippingFree": true,
         "point": 0,
         "reviewAverage": null,
         "reviewCount": 0,
-        "shop": "Notta Memo 公式 Yahoo!店",
-        "checkedAt": "2026-11-25T21:42:36.999Z"
+        "shop": "ソフマップ Yahoo!店",
+        "checkedAt": "2026-11-26T21:42:56.292Z"
       },
       "amazon": {
         "keyword": "Notta Memo Pro",
@@ -374,7 +374,7 @@
         "reviewAverage": 4.11,
         "reviewCount": 9,
         "shop": "ヤマダデンキ Yahoo!店",
-        "checkedAt": "2026-11-25T21:42:36.999Z"
+        "checkedAt": "2026-11-26T21:42:56.292Z"
       },
       "amazon": {
         "keyword": "オートメモ S AMSWH",

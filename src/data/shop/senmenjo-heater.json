@@ -24,7 +24,7 @@
       "label": "大きさ・重さ"
     }
   ],
-  "pricesCheckedAt": "2026-11-25T21:42:36.999Z",
+  "pricesCheckedAt": "2026-11-26T21:42:56.292Z",
   "items": [
     {
       "id": "panasonic-ds-fas1200",
@@ -74,10 +74,10 @@
         "price": 9420,
         "shippingFree": true,
         "point": 0,
-        "reviewAverage": 4.5,
-        "reviewCount": 4,
+        "reviewAverage": 4.6,
+        "reviewCount": 5,
         "shop": "コジマYahoo!店",
-        "checkedAt": "2026-11-25T21:42:36.999Z"
+        "checkedAt": "2026-11-26T21:42:56.292Z"
       },
       "amazon": {
         "keyword": "パナソニック DS-FAS1200",
@@ -135,7 +135,7 @@
         "reviewAverage": 4.54,
         "reviewCount": 37,
         "shop": "ヤマダデンキ Yahoo!店",
-        "checkedAt": "2026-11-25T21:42:36.999Z"
+        "checkedAt": "2026-11-26T21:42:56.292Z"
       },
       "amazon": {
         "keyword": "パナソニック DS-FAN1200",
@@ -186,14 +186,14 @@
           "フィルター",
           "カバー"
         ],
-        "url": "https://store.shopping.yahoo.co.jp/den-mart/57201.html",
-        "price": 17927,
+        "url": "https://store.shopping.yahoo.co.jp/eccurrent/4549980793091.html",
+        "price": 18428,
         "shippingFree": true,
         "point": 0,
         "reviewAverage": null,
-        "reviewCount": 0,
-        "shop": "Den-Mart",
-        "checkedAt": "2026-11-25T21:42:36.999Z"
+        "reviewCount": 2,
+        "shop": "ECカレント",
+        "checkedAt": "2026-11-26T21:42:56.292Z"
       },
       "amazon": {
         "keyword": "パナソニック DS-FZX1200",
@@ -251,7 +251,7 @@
         "reviewAverage": null,
         "reviewCount": 0,
         "shop": "LOHACO by アスクル",
-        "checkedAt": "2026-11-25T21:42:36.999Z"
+        "checkedAt": "2026-11-26T21:42:56.292Z"
       },
       "amazon": {
         "keyword": "山善 DSF-VE122",
@@ -309,7 +309,7 @@
         "reviewAverage": null,
         "reviewCount": 0,
         "shop": "LOHACO by アスクル",
-        "checkedAt": "2026-11-25T21:42:36.999Z"
+        "checkedAt": "2026-11-26T21:42:56.292Z"
       },
       "amazon": {
         "keyword": "山善 DSF-S123",
@@ -367,7 +367,7 @@
         "reviewAverage": null,
         "reviewCount": 0,
         "shop": "LOHACO by アスクル",
-        "checkedAt": "2026-11-25T21:42:36.999Z"
+        "checkedAt": "2026-11-26T21:42:56.292Z"
       },
       "amazon": {
         "keyword": "山善 DMSF-J063",

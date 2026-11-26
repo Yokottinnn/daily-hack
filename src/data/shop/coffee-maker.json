@@ -24,7 +24,7 @@
       "label": "公式の価格"
     }
   ],
-  "pricesCheckedAt": "2026-11-25T21:42:36.999Z",
+  "pricesCheckedAt": "2026-11-26T21:42:56.292Z",
   "items": [
     {
       "id": "panasonic-nc-a58",
@@ -76,7 +76,7 @@
         "reviewAverage": 5,
         "reviewCount": 3,
         "shop": "イドサワヤフーショップ",
-        "checkedAt": "2026-11-25T21:42:36.999Z"
+        "checkedAt": "2026-11-26T21:42:56.292Z"
       },
       "amazon": {
         "keyword": "パナソニック コーヒーメーカー NC-A58",
@@ -307,13 +307,13 @@
           "並行輸入"
         ],
         "url": "https://store.shopping.yahoo.co.jp/makxasstore/3022917.html",
-        "price": 30000,
+        "price": 28300,
         "shippingFree": false,
         "point": 0,
         "reviewAverage": null,
         "reviewCount": 0,
         "shop": "買取マクス",
-        "checkedAt": "2026-11-25T21:42:36.999Z"
+        "checkedAt": "2026-11-26T21:42:56.292Z"
       },
       "amazon": {
         "keyword": "デロンギ マグニフィカS ECAM22112B",
@@ -368,13 +368,13 @@
           "並行輸入"
         ],
         "url": "https://store.shopping.yahoo.co.jp/sokuteikiya/4988371024756-wake.html",
-        "price": 80490,
+        "price": 80489,
         "shippingFree": true,
         "point": 0,
         "reviewAverage": null,
         "reviewCount": 0,
         "shop": "測定の森Yahoo!ショッピング店",
-        "checkedAt": "2026-11-25T21:42:36.999Z"
+        "checkedAt": "2026-11-26T21:42:56.292Z"
       },
       "amazon": {
         "keyword": "デロンギ マグニフィカ スタート ECAM22020B",
@@ -428,7 +428,7 @@
         "reviewAverage": null,
         "reviewCount": null,
         "shop": null,
-        "checkedAt": "2026-11-25T21:42:36.999Z"
+        "checkedAt": "2026-11-26T21:42:56.292Z"
       },
       "amazon": {
         "keyword": "ツインバード 匠バリスタ CM-D495B",
@@ -486,7 +486,7 @@
         "reviewAverage": null,
         "reviewCount": 0,
         "shop": "ディーライズ2号",
-        "checkedAt": "2026-11-25T21:42:36.999Z"
+        "checkedAt": "2026-11-26T21:42:56.292Z"
       },
       "amazon": {
         "keyword": "デロンギ リヴェリア EXAM44055B",
