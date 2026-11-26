@@ -28,7 +28,7 @@
       "label": "公式ストアの価格"
     }
   ],
-  "pricesCheckedAt": "2026-11-24T21:44:09.463Z",
+  "pricesCheckedAt": "2026-11-25T21:42:36.999Z",
   "items": [
     {
       "id": "anker-c300-dc",
@@ -106,7 +106,7 @@
         "reviewAverage": null,
         "reviewCount": 0,
         "shop": "D-SHOP ONE",
-        "checkedAt": "2026-11-24T21:44:09.463Z"
+        "checkedAt": "2026-11-25T21:42:36.999Z"
       },
       "amazon": {
         "keyword": "Anker Solix C300 DC",
@@ -185,7 +185,7 @@
         "reviewAverage": null,
         "reviewCount": 0,
         "shop": "工具販売専門店BORDERLESS",
-        "checkedAt": "2026-11-24T21:44:09.463Z"
+        "checkedAt": "2026-11-25T21:42:36.999Z"
       },
       "amazon": {
         "keyword": "Jackery ポータブル電源 300D",
@@ -261,14 +261,14 @@
           "1000",
           "500"
         ],
-        "url": null,
-        "price": null,
-        "shippingFree": null,
-        "point": null,
-        "reviewAverage": null,
-        "reviewCount": null,
-        "shop": null,
-        "checkedAt": "2026-11-24T21:44:09.463Z"
+        "url": "https://store.shopping.yahoo.co.jp/jackery-japan/21-0001-000215.html",
+        "price": 32800,
+        "shippingFree": true,
+        "point": 0,
+        "reviewAverage": 4.67,
+        "reviewCount": 45,
+        "shop": "Jackery Japan ヤフーショッピング店",
+        "checkedAt": "2026-11-25T21:42:36.999Z"
       },
       "amazon": {
         "keyword": "Jackery ポータブル電源 240 New",
@@ -351,7 +351,7 @@
         "reviewAverage": 4.52,
         "reviewCount": 75,
         "shop": "Jackery Japan ヤフーショッピング店",
-        "checkedAt": "2026-11-24T21:44:09.463Z"
+        "checkedAt": "2026-11-25T21:42:36.999Z"
       },
       "amazon": {
         "keyword": "Jackery ポータブル電源 500 New",
@@ -438,7 +438,7 @@
         "reviewAverage": null,
         "reviewCount": 0,
         "shop": "KURUMAdeCOCOSelect",
-        "checkedAt": "2026-11-24T21:44:09.463Z"
+        "checkedAt": "2026-11-25T21:42:36.999Z"
       },
       "amazon": {
         "keyword": "EcoFlow RIVER 2 Pro",
@@ -519,7 +519,7 @@
         "reviewAverage": null,
         "reviewCount": 0,
         "shop": "すまこれ",
-        "checkedAt": "2026-11-24T21:44:09.463Z"
+        "checkedAt": "2026-11-25T21:42:36.999Z"
       },
       "amazon": {
         "keyword": "Anker Solix C800 Plus",

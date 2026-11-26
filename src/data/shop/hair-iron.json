@@ -24,7 +24,7 @@
       "label": "重さ（公式の条件）"
     }
   ],
-  "pricesCheckedAt": "2026-11-24T21:44:09.463Z",
+  "pricesCheckedAt": "2026-11-25T21:42:36.999Z",
   "items": [
     {
       "id": "refa-straight-iron-pro",
@@ -87,7 +87,7 @@
         "reviewAverage": null,
         "reviewCount": 0,
         "shop": "リファン Yahoo!ショップ",
-        "checkedAt": "2026-11-24T21:44:09.463Z"
+        "checkedAt": "2026-11-25T21:42:36.999Z"
       },
       "amazon": {
         "keyword": "ReFa STRAIGHT IRON PRO リファ ストレートアイロン プロ",
@@ -135,25 +135,26 @@
           "プロ"
         ],
         "exclude": [
-          "中古",
-          "◆",
-          "並行輸入",
-          "プラス",
           "+",
-          "ホルダー",
-          "ケース",
+          "◆",
           "カバー",
+          "ケース",
           "スタンド",
-          "ポーチ"
+          "プラス",
+          "ホルダー",
+          "ポーチ",
+          "並行輸入",
+          "中古",
+          "美品"
         ],
-        "url": "https://store.shopping.yahoo.co.jp/east-toraya/240205-005.html",
-        "price": 21780,
+        "url": "https://store.shopping.yahoo.co.jp/refun/064732.html",
+        "price": 15950,
         "shippingFree": true,
         "point": 0,
-        "reviewAverage": 4.68,
-        "reviewCount": 41,
-        "shop": "美容の森",
-        "checkedAt": "2026-11-24T21:44:09.463Z"
+        "reviewAverage": null,
+        "reviewCount": 0,
+        "shop": "リファン Yahoo!ショップ",
+        "checkedAt": "2026-11-25T21:42:36.999Z"
       },
       "amazon": {
         "keyword": "ReFa CURL IRON PRO リファ カールアイロン プロ 32mm",
@@ -217,7 +218,7 @@
         "reviewAverage": null,
         "reviewCount": 0,
         "shop": "ブランド古着販売のベクトル",
-        "checkedAt": "2026-11-24T21:44:09.463Z"
+        "checkedAt": "2026-11-25T21:42:36.999Z"
       },
       "amazon": {
         "keyword": "ReFa FINGER IRON ST リファ フィンガーアイロン",
@@ -267,13 +268,13 @@
           "交換"
         ],
         "url": "https://store.shopping.yahoo.co.jp/d-rise2/p000000998681.html",
-        "price": 34380,
+        "price": 32390,
         "shippingFree": true,
         "point": 0,
         "reviewAverage": null,
         "reviewCount": 0,
         "shop": "ディーライズ2号",
-        "checkedAt": "2026-11-24T21:44:09.463Z"
+        "checkedAt": "2026-11-25T21:42:36.999Z"
       },
       "amazon": {
         "keyword": "パナソニック ナノケア ストレートアイロン EH-HN51",
@@ -322,14 +323,14 @@
           "カバー",
           "交換"
         ],
-        "url": "https://store.shopping.yahoo.co.jp/panasonic-store/y-eh-hn30.html",
-        "price": 23977,
+        "url": "https://store.shopping.yahoo.co.jp/aprice/4550719159392.html",
+        "price": 23700,
         "shippingFree": true,
         "point": 0,
         "reviewAverage": null,
-        "reviewCount": 1,
-        "shop": "パナソニック ストア プラス Yahoo!店",
-        "checkedAt": "2026-11-24T21:44:09.463Z"
+        "reviewCount": 0,
+        "shop": "XPRICE Yahoo!店",
+        "checkedAt": "2026-11-25T21:42:36.999Z"
       },
       "amazon": {
         "keyword": "パナソニック ナノケア ストレートアイロン EH-HN30",
@@ -395,7 +396,7 @@
         "reviewAverage": null,
         "reviewCount": 0,
         "shop": "リファン Yahoo!ショップ",
-        "checkedAt": "2026-11-24T21:44:09.463Z"
+        "checkedAt": "2026-11-25T21:42:36.999Z"
       },
       "amazon": {
         "keyword": "Dyson Airstrait ストレイトナー HT01",
@@ -465,7 +466,7 @@
         "reviewAverage": null,
         "reviewCount": 0,
         "shop": "PURECO HOUSE forBusiness",
-        "checkedAt": "2026-11-24T21:44:09.463Z"
+        "checkedAt": "2026-11-25T21:42:36.999Z"
       },
       "amazon": {
         "keyword": "SALONIA サロニア ストレートヘアアイロン 24mm",
@@ -529,7 +530,7 @@
         "reviewAverage": 4.52,
         "reviewCount": 137,
         "shop": "アンドハビット",
-        "checkedAt": "2026-11-24T21:44:09.463Z"
+        "checkedAt": "2026-11-25T21:42:36.999Z"
       },
       "amazon": {
         "keyword": "SALONIA サロニア コードレス ストレートヘアアイロン",

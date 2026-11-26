@@ -24,7 +24,7 @@
       "label": "公式の価格"
     }
   ],
-  "pricesCheckedAt": "2026-11-24T21:44:09.463Z",
+  "pricesCheckedAt": "2026-11-25T21:42:36.999Z",
   "items": [
     {
       "id": "panasonic-nc-a58",
@@ -76,7 +76,7 @@
         "reviewAverage": 5,
         "reviewCount": 3,
         "shop": "イドサワヤフーショップ",
-        "checkedAt": "2026-11-24T21:44:09.463Z"
+        "checkedAt": "2026-11-25T21:42:36.999Z"
       },
       "amazon": {
         "keyword": "パナソニック コーヒーメーカー NC-A58",
@@ -313,7 +313,7 @@
         "reviewAverage": null,
         "reviewCount": 0,
         "shop": "買取マクス",
-        "checkedAt": "2026-11-24T21:44:09.463Z"
+        "checkedAt": "2026-11-25T21:42:36.999Z"
       },
       "amazon": {
         "keyword": "デロンギ マグニフィカS ECAM22112B",
@@ -368,13 +368,13 @@
           "並行輸入"
         ],
         "url": "https://store.shopping.yahoo.co.jp/sokuteikiya/4988371024756-wake.html",
-        "price": 80990,
+        "price": 80490,
         "shippingFree": true,
         "point": 0,
         "reviewAverage": null,
         "reviewCount": 0,
         "shop": "測定の森Yahoo!ショッピング店",
-        "checkedAt": "2026-11-24T21:44:09.463Z"
+        "checkedAt": "2026-11-25T21:42:36.999Z"
       },
       "amazon": {
         "keyword": "デロンギ マグニフィカ スタート ECAM22020B",
@@ -428,7 +428,7 @@
         "reviewAverage": null,
         "reviewCount": null,
         "shop": null,
-        "checkedAt": "2026-11-24T21:44:09.463Z"
+        "checkedAt": "2026-11-25T21:42:36.999Z"
       },
       "amazon": {
         "keyword": "ツインバード 匠バリスタ CM-D495B",
@@ -479,14 +479,14 @@
           "◆",
           "並行輸入"
         ],
-        "url": null,
-        "price": null,
-        "shippingFree": null,
-        "point": null,
+        "url": "https://store.shopping.yahoo.co.jp/d-rise2/p000000993660.html",
+        "price": 270000,
+        "shippingFree": true,
+        "point": 0,
         "reviewAverage": null,
-        "reviewCount": null,
-        "shop": null,
-        "checkedAt": "2026-11-24T21:44:09.463Z"
+        "reviewCount": 0,
+        "shop": "ディーライズ2号",
+        "checkedAt": "2026-11-25T21:42:36.999Z"
       },
       "amazon": {
         "keyword": "デロンギ リヴェリア EXAM44055B",

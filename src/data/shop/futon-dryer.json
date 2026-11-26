@@ -28,7 +28,7 @@
       "label": "重さ"
     }
   ],
-  "pricesCheckedAt": "2026-11-24T21:44:09.463Z",
+  "pricesCheckedAt": "2026-11-25T21:42:36.999Z",
   "items": [
     {
       "id": "iris-fk-w3-w",
@@ -218,7 +218,7 @@
         "reviewAverage": null,
         "reviewCount": 1,
         "shop": "サンサン マーケット",
-        "checkedAt": "2026-11-23T21:44:00.508Z"
+        "checkedAt": "2026-11-25T21:42:36.999Z"
       },
       "amazon": {
         "keyword": "象印 スマートドライ RF-UA10",
@@ -276,14 +276,14 @@
           "専用",
           "フィルター"
         ],
-        "url": "https://store.shopping.yahoo.co.jp/excellar-plus/1100052899.html",
-        "price": 15380,
-        "shippingFree": false,
+        "url": "https://store.shopping.yahoo.co.jp/aprice/4526044017485.html",
+        "price": 15400,
+        "shippingFree": true,
         "point": 0,
-        "reviewAverage": null,
-        "reviewCount": 0,
-        "shop": "エクセラープラス",
-        "checkedAt": "2026-11-23T21:44:00.508Z"
+        "reviewAverage": 4,
+        "reviewCount": 8,
+        "shop": "XPRICE Yahoo!店",
+        "checkedAt": "2026-11-25T21:42:36.999Z"
       },
       "amazon": {
         "keyword": "日立 ふとん乾燥機 HFK-VS6000",
@@ -348,7 +348,7 @@
         "reviewAverage": 4.15,
         "reviewCount": 20,
         "shop": "コジマYahoo!店",
-        "checkedAt": "2026-11-23T21:44:00.508Z"
+        "checkedAt": "2026-11-25T21:42:36.999Z"
       },
       "amazon": {
         "keyword": "日立 ふとん乾燥機 HFK-CV1B",
@@ -413,7 +413,7 @@
         "reviewAverage": null,
         "reviewCount": 0,
         "shop": "ハウマッチYahoo!店",
-        "checkedAt": "2026-11-24T21:44:09.463Z"
+        "checkedAt": "2026-11-25T21:42:36.999Z"
       },
       "amazon": {
         "keyword": "パナソニック ふとん暖め乾燥機 FD-F06X2",
@@ -478,7 +478,7 @@
         "reviewAverage": null,
         "reviewCount": 0,
         "shop": "いーぐるネクスト店",
-        "checkedAt": "2026-11-24T21:44:09.463Z"
+        "checkedAt": "2026-11-25T21:42:36.999Z"
       },
       "amazon": {
         "keyword": "シャープ ふとん乾燥機 UD-DF1",
