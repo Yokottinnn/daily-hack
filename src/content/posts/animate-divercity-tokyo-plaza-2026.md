@@ -1,6 +1,6 @@
 ---
 title: "アニメイトダイバーシティ東京プラザ 2026年12月5日（土）オープン｜お台場（江東区青海）の5階、アプリ登録で1,500円分クーポン・入間くんの鉛筆は先着"
-description: "アニメイトダイバーシティ東京プラザが2026年12月5日（土）、お台場（江東区青海1-1-10）のダイバーシティ東京 プラザ5階にグランドオープン。都内で約11年ぶりの新店。2026年11月25日〜12月6日にアプリで登録・フォローすると計1,500円分のクーポン、12月5日・6日は入間くんの鉛筆と缶マグネットを先着で配る。"
+description: "アニメイトダイバーシティ東京プラザが2026年12月5日（土）、お台場（江東区青海1-1-10）のダイバーシティ東京 プラザ5階にオープン。都内で約11年ぶりの新店。12月6日まで、アプリで新規登録とフォローで計1,500円分クーポン。12月5日・6日は入間くんの鉛筆などを先着で配る。"
 publishDate: 2026-11-27
 category: ["wangan-life"]
 tags: ["湾岸ニュース", "お台場", "青海", "ダイバーシティ東京 プラザ", "アニメイト", "新店", "2026年"]
@@ -48,10 +48,10 @@ event:
     <p>新規登録＋<strong>アプリで店をフォロー</strong>。</p>
     <span class="pick-go">詳しく見る →</span>
   </a>
-  <a class="event-pick" href="#もらえる物と条件" style="--pick-img:url('/images/animate-divercity-tokyo-plaza-2026/photos/magnet.jpg')">
-    <span class="pick-date">2026年12月5日・6日</span>
-    <h4>先着プレゼント</h4>
-    <p>入間くんの鉛筆、<strong>お台場の缶マグネット</strong>。</p>
+  <a class="event-pick" href="#店頭の展示といもりの来館" style="--pick-img:url('/images/animate-divercity-tokyo-plaza-2026/photos/nijigasaki-panel.jpg')">
+    <span class="pick-date">2026年12月5日〜27日</span>
+    <h4>虹ヶ咲のパネル</h4>
+    <p>お台場が舞台の作品。<strong>5日はいもりも来る</strong>。</p>
     <span class="pick-go">詳しく見る →</span>
   </a>
 </div>
@@ -157,7 +157,17 @@ event:
 
 ## SNS ではこう言われている
 
-お台場のアニメイトについての投稿は、届きしだいここに足すわね。
+- <strong>発表のとき</strong>：アニメイトタイムズ公式が2026年10月7日に「お台場にアニメイトの新店舗が誕生!!」と投稿し、いいねは約780。このときは「12月初旬」とだけ出ていた
+- <strong>虹ヶ咲のファン</strong>：お台場が舞台の『虹ヶ咲』のファンからは「ニジガク関連グッズやパネルも色々あるから、いっぱい楽しまなきゃ」「地元は本当に最高」という声
+- <strong>公式の動画</strong>：アニメイト公式チャンネルが、2026年12月5日のグランドオープンを告知する動画を出している
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">お台場にアニメイトの新店舗が誕生!! 「アニメイトダイバーシティ東京プラザ」が12月初旬グランドオープン！</p>&mdash; アニメイトタイムズ公式 (@animatetimes) <a href="https://twitter.com/animatetimes/status/2107695816412717530">2026年10月7日</a></blockquote>
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">もうすぐアニメイト（ダイバーシティ東京プラザ）お台場がスタートしますね‼️😊 ニジガク関連グッズやパネルも色々あるから、いっぱい楽しまなきゃな‼️😆 虹ヶ咲とニジガクの地元は本当に最高で恋しすぎる🥹</p>&mdash; Ｓ.Ｋ (@koheixclzk) <a href="https://twitter.com/koheixclzk/status/2125567619663372446">2026年11月25日</a></blockquote>
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/9pAiuEIuZxM" title="🎊アニメイトダイバーシティ東京プラザ 2026年12月5日グランドオープン！🎊" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
 
 <aside class="related-block">
   <div class="related-block-head">

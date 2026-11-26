@@ -1,6 +1,6 @@
 ---
 title: "KEEP TOKYO CLEAN in 豊洲 千客万来 2026｜2026年12月5日（土）・6日（日）10時〜18時、体験に参加すると東京都の風呂敷がもらえる（無料）"
-description: "東京都の環境美化の取組「KEEP TOKYO CLEAN」が2026年12月5日（土）・6日（日）10:00〜18:00、豊洲 千客万来（江東区豊洲6-5-1）のローソン前・エスカレーター下に出展。スマートボールなどの体験に参加すると「KEEP TOKYO CLEAN FUROSHIKI」がもらえ、風呂敷の使い方講座とデジタルスタンプラリーもある。"
+description: "東京都の「KEEP TOKYO CLEAN」が2026年12月5日（土）・6日（日）10:00〜18:00、豊洲 千客万来（江東区豊洲6-5-1）のローソン前に出展。スマートボールなどの体験に参加すると風呂敷「KEEP TOKYO CLEAN FUROSHIKI」がもらえる。使い方講座とデジタルスタンプラリーも。"
 publishDate: 2026-11-27
 category: ["wangan-life"]
 tags: ["湾岸ニュース", "豊洲", "豊洲 千客万来", "KEEP TOKYO CLEAN", "東京都", "無料", "2026年"]
@@ -144,7 +144,17 @@ event:
 
 ## SNS ではこう言われている
 
-KEEP TOKYO CLEANや千客万来の催しについての投稿は、届きしだいここに足すわね。
+- <strong>風呂敷</strong>：東京シティアイ（東京駅前の観光案内所）は2026年10月に「KEEP TOKYO CLEAN風呂敷を配布中！」と投稿し、お買い物やお土産の持ち運びに使うよう呼びかけていた
+- <strong>千客万来</strong>：豊洲・有明の情報を出しているアカウントは、8階の「足湯庭園」を「無料で利用できて、本当にオススメ」と紹介している
+- <strong>動画</strong>：千客万来の食べ歩きの動画は多い。2026年11月に出た動画は「絶品グルメ10選」として回り方を見せている
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">KEEP TOKYO CLEAN 一人ひとりの行動が、清潔で魅力ある都市・きれいな東京につながります✨ 東京シティアイでは、KEEP TOKYO CLEAN風呂敷を配布中！ お買い物やお土産の持ち運びなどで使って環境について考えてみよう✨</p>&mdash; 東京シティアイ / Tokyo City i (@TokyoCityi1) <a href="https://twitter.com/TokyoCityi1/status/2106217679778464160">2026年10月3日</a></blockquote>
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">♨️ライブ・イベントのあとは足湯でスッキリ✨ 豊洲 千客万来8階の「足湯庭園」は無料で利用できて、本当にオススメ😊 レインボーブリッジを眺めながら足湯に入ったり、デッキのPHOTO SPOTで推しのぬいと写真を撮ったり📷🧸 ライブタオルがあれば完璧✌ 📍ゆりかもめ「市場前駅」直結 #豊洲</p>&mdash; かもめ | 豊洲•有明を、もっと楽しむ。 (@kamome_toyosu) <a href="https://twitter.com/kamome_toyosu/status/2086991292018651324">2026年8月11日</a></blockquote>
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/oeKKkdzWEZ0" title="【東京グルメ】豊洲 千客万来で食べ歩き！絶品グルメ10選" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
 
 <aside class="related-block">
   <div class="related-block-head">

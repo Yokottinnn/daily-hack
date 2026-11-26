@@ -234,7 +234,20 @@ event:
 
 ## SNS ではこう言われている
 
-前の年（第2回）の晴海まつりや、はるみらいの催しについての投稿は、届きしだいここに足すわね。
+- <strong>出展する側</strong>：中央区立環境情報センター「エコノバ」は、はるみらい会場に出展すると告知している
+- <strong>晴海ふ頭公園</strong>：O.GARDENは同じ日に「晴海でASOBO!sai」を開く。テーマは「地域力の向上」で、スポーツや防災体験を通して遊びながら災害への備えを学ぶ
+- <strong>去年（第2回）</strong>：中央区議会議員の青木かのさんは「いいお天気に恵まれましたね。今年は、はるみらいに加えて晴海ふ頭公園も会場です」と投稿していた
+- <strong>第1回</strong>：中央区役所のYouTubeに、2024年12月14日の第1回の区長の動画メッセージがある
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">◯11月28日(土)第3回中央区晴海まつり🎪 「はるみらい」と「晴海ふ頭公園」の2会場で開催✨ ステージイベントなど、幅広い世代が楽しめるイベントとなっています。 「エコノバ」も「はるみらい」会場に出展します。 ぜひ遊びに来てください🙌</p>&mdash; 中央区立環境情報センター「エコノバ」 (@eicchuo) <a href="https://twitter.com/eicchuo/status/2124654758199713867">2026年11月23日</a></blockquote>
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">🌈11/28(土) 晴海でASOBO!sai開催！ 今回のテーマは「地域力の向上」💡 スポーツや防災体験を通して、遊びながら災害への備えを学ぼう！ 🎊第3回中央区晴海まつりも同時開催！ 家族みんなで晴海を満喫しよう✨ 📍晴海ふ頭公園 🕙10:00〜16:00</p>&mdash; O.GARDEN (@OGARDENtokyo) <a href="https://twitter.com/OGARDENtokyo/status/2123277321457242117">2026年11月19日</a></blockquote>
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">＃晴海まつり いいお天気に恵まれましたね。 今年は、はるみらいに加えて晴海ふ頭公園も会場です。</p>&mdash; 青木かの(中央区議会議員) (@kanoaoki) <a href="https://twitter.com/kanoaoki/status/1992013056269045919">2025年11月22日</a></blockquote>
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/BLGXzrvZHzs" title="令和6年12月14日第1回中央区晴海まつり【区長動画メッセージ】" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
 
 <aside class="related-block">
   <div class="related-block-head">
