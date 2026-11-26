@@ -1,6 +1,6 @@
 # バリューコマース（asp-sync）
 
-生成: **2026-11-25T21:12:06.074Z**
+生成: **2026-11-26T21:12:06.017Z**
 
 - ログイン: **できている**
 - 最終 URL: https://aff.valuecommerce.ne.jp/home
@@ -17,10 +17,10 @@
 | MyLink一括変換 | https://aff.valuecommerce.ne.jp/tools/mylinkEcList |
 | サイト設定 | https://aff.valuecommerce.ne.jp/account/siteManage |
 | 【重要】広告主サイトの稼働状況に関するお知らせ | https://www.valuecommerce.ne.jp/support/maintenance/22906.html |
-| 電子コミックサイト ブッコミ 月額コース契約プログラム | https://aff.valuecommerce.ne.jp/ad/adDetail/2171815?tag=cm&spot=d |
-| 世界最大級！ツアーアクティビティの検索サイト「Liigo」販促プログラム | https://aff.valuecommerce.ne.jp/ad/adDetail/2161122?tag=cm&spot=d |
-| 遊び予約／レジャーチケット購入サイト「アソビュー！」 | https://aff.valuecommerce.ne.jp/ad/adDetail/2130178?tag=cm&spot=d |
+| VAIOストア 販売促進プログラム | https://aff.valuecommerce.ne.jp/ad/adDetail/2169074?tag=cm&spot=d |
 | Amazon(アマゾン)アソシエイトプログラム | https://aff.valuecommerce.ne.jp/ad/adDetail/2090096?recommendOid=4933233 |
+| 遊び予約／レジャーチケット購入サイト「アソビュー！」 | https://aff.valuecommerce.ne.jp/ad/adDetail/2130178?tag=cm&spot=d |
+| 電子コミックサイト ブッコミ 月額コース契約プログラム | https://aff.valuecommerce.ne.jp/ad/adDetail/2171815?tag=cm&spot=d |
 | 【LYPプレミアム（旧Yahoo!プレミアム）】 会員獲得プログラム | https://aff.valuecommerce.ne.jp/ad/adDetail/2082539 |
 | 国内総合プログラム | https://aff.valuecommerce.ne.jp/ad/adDetail/2003520 |
 | Audibleアフィリエイト紹介プログラム | https://aff.valuecommerce.ne.jp/ad/adDetail/2174874 |
@@ -36,17 +36,17 @@
 ```text
 ログアウト
 人気ワード：
-PAL|
-英会話|
-ファンケル
+ホットペッパー|
+アルバイトEX|
+海外ツアー
 ダッシュボード
 レポート
 詳細検索
 ■プログラム一覧
-提携状況 新規提携 提携済み 提携待ち 2 未提携 再申請可
-新規提携
+提携状況 新規提携 1 提携済み 提携待ち 1 未提携 再申請可
+新規提携 1
 提携済み
-提携待ち 2
+提携待ち 1
 再申請可
 対応機能別 MyLink LinkSwitch Webサービス
 MyLink
@@ -65,30 +65,28 @@ MyLink一括変換
 ITPタグ
 レポートAPI
 Chrome拡張機能
-メッセージ 5
+メッセージ 6
 自己アフィリエイト
 Daily Hack あんたバカぁ?まだ損してるの? （ID:3776384）
 LinkSwitch提携候補先
-レポート期間： 2026/10/25 ～ 2026/11/25
+レポート期間： 2026/10/26 ～ 2026/11/26
 1 (current)
 広告主名 リンク先URL数 リンク先URL表示回数 広告プログラム
-ふるさと納税「ふるなび」 [提携申請済] 345 89 広告プログラムを見る
-ジャルパック 国内ツアー [提携申請済] 301 69 広告プログラムを見る
-Softbank 光 173 55 広告プログラムを見る
-ふるさとチョイス 36 36 広告プログラムを見る
+ふるさと納税「ふるなび」 [提携申請済] 270 81 広告プログラムを見る
+ジャルパック 国内ツアー [提携申請済] 287 68 広告プログラムを見る
+Softbank 光 124 46 広告プログラムを見る
+ふるさとチョイス 37 37 広告プログラムを見る
 ジャルパック 海外ツアー [提携申請済] 115 30 広告プログラムを見る
-サンワダイレクト 26 26 広告プログラムを見る
+サンワダイレクト 22 22 広告プログラムを見る
 エアトリ 30 20 広告プログラムを見る
-TOWER RECORDS ONLINE 30 15 広告プログラムを見る
+TOWER RECORDS ONLINE 32 16 広告プログラムを見る
 LOHACO by ASKUL 35 12 広告プログラムを見る
 サムスンオンラインショップ 30 5 広告プログラムを見る
-Anker公式オンラインストア [提携申請済] 16 4 広告プログラムを見る
 JTB旅物語公式サイト 4 4 広告プログラムを見る
 【J-TRIP】国内旅行・国内ツアーのジェイトリップツアー [提携申請済] 6 4 広告プログラムを見る
 【JTB】国内旅行(宿泊+ツアー)予約サイト [提携申請済] 4 2 広告プログラムを見る
 【公式】ブルーノオンライン [提携申請済] 6 2 広告プログラムを見る
 ハンズ ネットストア [提携申請済] 4 2 広告プログラムを見る
-成城石井.com [提携申請済] 4 2 広告プログラムを見る
 楽天ビューティ [提携申請済] 2 2 広告プログラムを見る
 SoftBank Air 1 1 広告プログラムを見る
 大丸松坂屋オンラインストア [提携申請済] 10 1 広告プログラムを見る
