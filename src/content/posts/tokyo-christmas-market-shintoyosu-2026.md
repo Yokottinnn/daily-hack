@@ -20,6 +20,11 @@ author: "hacker-ko"
 references: ["https://prtimes.jp/main/html/rd/p/000000084.000047941.html", "https://prtimes.jp/main/html/rd/p/000000085.000047941.html", "https://prtimes.jp/main/html/rd/p/000000200.000028214.html", "https://tokyochristmas.net/"]
 ---
 
+<div class="callout warn">
+<p class="head">2026年11月27日の追記：新豊洲会場は一時閉場中</p>
+<p style="margin:0">新豊洲会場は2026年11月26日（木）から一時閉場し、27日（金）も終日閉場。閉場した日のチケットは全額返金される。くわしくは<a href="/posts/tokyo-christmas-market-shintoyosu-closed-2026-11/">一時閉場と返金のまとめ</a>へ。</p>
+</div>
+
 「東京クリスマスマーケットが豊洲に来るって本当？」「入場料はいくら？予約したほうが得？」——東京クリスマスマーケットが、**湾岸エリアで初めて**、新豊洲で開かれる。
 
 だからアタシがまとめた。土台は**東京クリスマスマーケット実行委員会のプレスリリース**と、オンラインのチケットを売る **KKday のプレスリリース**。いくら払って、いつ行くのがいちばん得かを並べたわよ。
