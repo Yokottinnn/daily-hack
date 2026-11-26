@@ -20,7 +20,7 @@
       "label": "上の隙間"
     }
   ],
-  "pricesCheckedAt": "2026-11-25T21:42:36.999Z",
+  "pricesCheckedAt": "2026-11-26T21:42:56.292Z",
   "items": [
     {
       "id": "sharp-ax-rs1d",
@@ -86,7 +86,7 @@
         "reviewAverage": null,
         "reviewCount": 0,
         "shop": "GBFT Premium",
-        "checkedAt": "2026-11-25T21:42:36.999Z"
+        "checkedAt": "2026-11-26T21:42:56.292Z"
       },
       "amazon": {
         "keyword": "シャープ ヘルシオ AX-RS1D",
@@ -150,14 +150,14 @@
           "アクセサリー",
           "ケーブル"
         ],
-        "url": "https://store.shopping.yahoo.co.jp/d-rise2/p000000979112.html",
-        "price": 153760,
-        "shippingFree": true,
+        "url": "https://store.shopping.yahoo.co.jp/a-denki/78766.html",
+        "price": 152850,
+        "shippingFree": false,
         "point": 0,
         "reviewAverage": null,
         "reviewCount": 0,
-        "shop": "ディーライズ2号",
-        "checkedAt": "2026-11-24T21:44:09.463Z"
+        "shop": "インボイス対応 アサヒデンキヤフー店",
+        "checkedAt": "2026-11-26T21:42:56.292Z"
       },
       "amazon": {
         "keyword": "パナソニック ビストロ NE-UBS10E",
@@ -221,14 +221,14 @@
           "アクセサリー",
           "ケーブル"
         ],
-        "url": "https://store.shopping.yahoo.co.jp/jhb-store/4904530145223.html",
-        "price": 91028,
+        "url": "https://store.shopping.yahoo.co.jp/n-chacha/er-d5000c-k.html",
+        "price": 91800,
         "shippingFree": true,
         "point": 0,
         "reviewAverage": null,
         "reviewCount": 0,
-        "shop": "JHBストア",
-        "checkedAt": "2026-11-24T21:44:09.463Z"
+        "shop": "日本橋CHACHA!ヤフー店",
+        "checkedAt": "2026-11-26T21:42:56.292Z"
       },
       "amazon": {
         "keyword": "東芝 石窯ドーム ER-D5000C",
@@ -293,13 +293,13 @@
           "ケーブル"
         ],
         "url": "https://store.shopping.yahoo.co.jp/shop-id/mro-w1e-k.html",
-        "price": 75140,
+        "price": 74940,
         "shippingFree": true,
         "point": 0,
         "reviewAverage": null,
         "reviewCount": 0,
         "shop": "ショップID",
-        "checkedAt": "2026-11-24T21:44:09.463Z"
+        "checkedAt": "2026-11-26T21:42:56.292Z"
       },
       "amazon": {
         "keyword": "日立 ヘルシーシェフ MRO-W1E",
@@ -370,7 +370,7 @@
         "reviewAverage": null,
         "reviewCount": 0,
         "shop": "GBFT Premium",
-        "checkedAt": "2026-11-25T21:42:36.999Z"
+        "checkedAt": "2026-11-26T21:42:56.292Z"
       },
       "amazon": {
         "keyword": "シャープ 過熱水蒸気オーブンレンジ RE-WF277",
@@ -434,14 +434,14 @@
           "アクセサリー",
           "ケーブル"
         ],
-        "url": "https://store.shopping.yahoo.co.jp/b-surprisep/4550719178362.html",
+        "url": "https://store.shopping.yahoo.co.jp/idosawa/4550719178362.html",
         "price": 37965,
         "shippingFree": true,
         "point": 0,
         "reviewAverage": null,
         "reviewCount": 0,
-        "shop": "B-サプライズ",
-        "checkedAt": "2026-11-25T21:42:36.999Z"
+        "shop": "イドサワヤフーショップ",
+        "checkedAt": "2026-11-26T21:42:56.292Z"
       },
       "amazon": {
         "keyword": "パナソニック オーブンレンジ NE-FS3E",

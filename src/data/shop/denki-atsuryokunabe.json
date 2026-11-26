@@ -20,7 +20,7 @@
       "label": "公式の価格"
     }
   ],
-  "pricesCheckedAt": "2026-11-25T21:42:36.999Z",
+  "pricesCheckedAt": "2026-11-26T21:42:56.292Z",
   "items": [
     {
       "id": "sharp-kn-hw24k",
@@ -145,7 +145,7 @@
         "reviewAverage": null,
         "reviewCount": 0,
         "shop": "プロテクション",
-        "checkedAt": "2026-11-25T21:42:36.999Z"
+        "checkedAt": "2026-11-26T21:42:56.292Z"
       },
       "amazon": {
         "keyword": "シャープ ホットクック KN-HW16K",
@@ -206,7 +206,7 @@
         "reviewAverage": null,
         "reviewCount": 0,
         "shop": "イドサワヤフーショップ",
-        "checkedAt": "2026-11-25T21:42:36.999Z"
+        "checkedAt": "2026-11-26T21:42:56.292Z"
       },
       "amazon": {
         "keyword": "パナソニック オートクッカー ビストロ NF-AC1000",
@@ -258,14 +258,14 @@
           "対応",
           "パッキン"
         ],
-        "url": "https://store.shopping.yahoo.co.jp/denkiya2/ma00531.html",
-        "price": 19780,
+        "url": "https://store.shopping.yahoo.co.jp/kaden-sakura/nf-pc400-k.html",
+        "price": 18460,
         "shippingFree": true,
         "point": 0,
-        "reviewAverage": 5,
-        "reviewCount": 3,
-        "shop": "デンキヤ2 ヤフー店",
-        "checkedAt": "2026-11-25T21:42:36.999Z"
+        "reviewAverage": null,
+        "reviewCount": 1,
+        "shop": "家電のSAKURA",
+        "checkedAt": "2026-11-26T21:42:56.292Z"
       },
       "amazon": {
         "keyword": "パナソニック 電気圧力鍋 NF-PC400",
@@ -326,7 +326,7 @@
         "reviewAverage": null,
         "reviewCount": 2,
         "shop": "ソムリエ@ギフト Yahoo!ショッピング店",
-        "checkedAt": "2026-11-25T21:42:36.999Z"
+        "checkedAt": "2026-11-26T21:42:56.292Z"
       },
       "amazon": {
         "keyword": "ティファール ラクラ・クッカー プロ CY3811J0",
@@ -385,7 +385,7 @@
         "reviewAverage": null,
         "reviewCount": 0,
         "shop": "でんでんショッピング ヤフー店",
-        "checkedAt": "2026-11-25T21:42:36.999Z"
+        "checkedAt": "2026-11-26T21:42:56.292Z"
       },
       "amazon": {
         "keyword": "ティファール クックフォーミー CY8768JP",
@@ -444,7 +444,7 @@
         "reviewAverage": null,
         "reviewCount": 0,
         "shop": "ブランド古着販売のベクトル",
-        "checkedAt": "2026-11-25T21:42:36.999Z"
+        "checkedAt": "2026-11-26T21:42:56.292Z"
       },
       "amazon": {
         "keyword": "ティファール ラクラ・クッカー ミニ CY3401JP",
@@ -507,7 +507,7 @@
         "reviewAverage": null,
         "reviewCount": 0,
         "shop": "Joshin web",
-        "checkedAt": "2026-11-25T21:42:36.999Z"
+        "checkedAt": "2026-11-26T21:42:56.292Z"
       },
       "amazon": {
         "keyword": "アイリスオーヤマ 電気圧力鍋 4.0L KPC-MB4-B",
