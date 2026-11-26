@@ -17,7 +17,7 @@ const DIR = args.dir || path.join(process.cwd(), 'src/data/shop');
 const { RAKUTEN_APP_ID = '', RAKUTEN_ACCESS_KEY = '', YAHOO_APP_ID = '' } = process.env;
 const RAKUTEN_EP = process.env.RAKUTEN_ENDPOINT || 'https://openapi.rakuten.co.jp/ichibams/api/IchibaItem/Search/20260701';
 const YAHOO_EP = 'https://shopping.yahooapis.jp/ShoppingWebService/V3/itemSearch';
-const DEFAULT_EXCLUDE = ['中古', 'ジャンク', '訳あり', 'レンタル', '交換用', '専用ケース', 'カバーのみ', '変換ケーブル', '変換アダプター', '交換バッテリー', '◆', '並行輸入'];  // ◆＝セカンドストリートの中古の出品（商品名に「中古」が無い・2026-11-10）
+const DEFAULT_EXCLUDE = ['中古', 'ジャンク', '訳あり', 'レンタル', '交換用', '専用ケース', 'カバーのみ', '変換ケーブル', '変換アダプター', '交換バッテリー', '◆', '並行輸入', '美品', '部品'];  // 2026-11-26: 「【美品】」（中古）と「部品」（マキタの掃除機でコントローラが当たった）も外す  // ◆＝セカンドストリートの中古の出品（商品名に「中古」が無い・2026-11-10）
 
 const norm = (s) => String(s || '').normalize('NFKC').toLowerCase().replace(/\s+/g, '');
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
@@ -78,7 +78,8 @@ for (const f of fs.readdirSync(DIR).filter((x) => x.endsWith('.json') && x !== '
       try { row[store] = await fn(q); } catch (e) { row[store] = { error: String(e.message || e).slice(0, 200) }; out.errors.push(`${sid}/${it.id}/${store}: ${row[store].error}`); }
       // 2026-11-23 affiliate: 鍵が無くて問い合わせなかった店（いまは楽天）は待たない。商品が 283 件に増え、
       // 待ち時間だけで 10 分を超えて Mac の上限（mac-weekly の 300 秒）で止められ、11/23 の朝の価格が出なかった
-      if (!(row[store] && row[store].skipped)) await sleep(1100);
+      // 2026-11-24: 楽天を待たなくなった分、Yahoo! の問い合わせの間が 1.1 秒に縮まり、27 件が HTTP 429（回数の上限）になった。Yahoo! は 2 秒あける
+      if (!(row[store] && row[store].skipped)) await sleep(store === 'yahoo' ? 2000 : 1100);
     }
     out.series[sid][it.id] = row;
   }
