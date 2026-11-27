@@ -1,0 +1,32 @@
+{
+ "newroute.jpg": {
+  "page": "https://nihonbashieliner.com/news/newroute001/",
+  "credit": "Nihonbashi e-LINER 日本橋↔豊洲↔豊洲市場のチラシ",
+  "rights": "Nihonbashi e-LINER（観光汽船興業株式会社・三井不動産株式会社）",
+  "fetched": "2026-11-28"
+ },
+ "campaign-flyer.jpg": {
+  "page": "https://nihonbashieliner.com/news/campaign001/",
+  "credit": "豊洲市場延伸キャンペーン料金のチラシ",
+  "rights": "Nihonbashi e-LINER",
+  "fetched": "2026-11-28"
+ },
+ "boat.jpg": {
+  "page": "https://nihonbashieliner.com/",
+  "credit": "Nihonbashi e-LINER の船",
+  "rights": "Nihonbashi e-LINER",
+  "fetched": "2026-11-28"
+ },
+ "route-map.png": {
+  "page": "https://nihonbashieliner.com/",
+  "credit": "運航ルートの図",
+  "rights": "Nihonbashi e-LINER",
+  "fetched": "2026-11-28"
+ },
+ "toyosu-pier.jpg": {
+  "page": "https://nihonbashieliner.com/access/",
+  "credit": "ららぽーと豊洲の船着場",
+  "rights": "Nihonbashi e-LINER",
+  "fetched": "2026-11-28"
+ }
+}

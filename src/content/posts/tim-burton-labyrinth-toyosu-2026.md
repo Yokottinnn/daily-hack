@@ -1,6 +1,7 @@
 ---
-title: "ティム・バートンのラビリンス 豊洲｜チケット料金・日付変更・行き方、2026年11月25日〜2027年2月21日"
-description: "没入型展覧会「ティム・バートンのラビリンス」は2026年11月25日（水）〜2027年2月21日（日）、豊洲のCREVIA BASE Tokyo。日時指定券は一般が月〜木4,400円・金4,700円・土日祝5,000円。日付の変更・払い戻しはできない。毎週火曜休み、市場前駅から徒歩3分。"
+title: "ティム・バートンのラビリンス 豊洲｜チケット料金・日付変更・行き方、2026年11月25日〜2027年3月21日"
+description: "没入型展覧会「ティム・バートンのラビリンス」は2026年11月25日（水）〜2027年3月21日（日）、豊洲のCREVIA BASE Tokyo。日時指定券は一般が月〜木4,400円・金4,700円・土日祝5,000円。日付の変更・払い戻しはできない。毎週火曜休み、市場前駅から徒歩3分。"
+updatedDate: 2026-11-28
 publishDate: 2026-10-28
 category: ["wangan-life"]
 tags: ["湾岸ニュース", "豊洲", "ティム・バートン", "展覧会", "イベント", "2026年"]
@@ -11,7 +12,7 @@ eyecatchAlt: "ティム・バートンのラビリンス TIM BURTON'S LABYRINTH 
 event:
   name: "ティム・バートンのラビリンス"
   startDate: "2026-11-25"
-  endDate: "2027-02-21"
+  endDate: "2027-03-21"
   locationName: "CREVIA BASE Tokyo"
   address: "東京都江東区豊洲6-4-25"
   isFree: false
@@ -32,9 +33,9 @@ references: ["https://prtimes.jp/main/html/rd/p/000000003.000187828.html", "http
 ## 30秒で分かる、ティム・バートンのラビリンス
 
 <div class="event-picks">
-  <a class="event-pick" href="#会期と場所2026年11月25日2027年2月21日豊洲" style="--pick-img:url('/images/tim-burton-labyrinth-toyosu-2026/photos/room2.jpg')">
+  <a class="event-pick" href="#会期と場所2026年11月25日2027年3月21日豊洲" style="--pick-img:url('/images/tim-burton-labyrinth-toyosu-2026/photos/room2.jpg')">
     <span class="pick-date">会期</span>
-    <h4>2026/11/25〜2027/2/21</h4>
+    <h4>2026/11/25〜2027/3/21</h4>
     <p>豊洲の CREVIA BASE Tokyo。<strong>火曜休み</strong>。</p>
     <span class="pick-go">詳しく見る →</span>
   </a>
@@ -63,12 +64,17 @@ references: ["https://prtimes.jp/main/html/rd/p/000000003.000187828.html", "http
 </ul>
 </div>
 
-## 会期と場所｜2026年11月25日〜2027年2月21日、豊洲
+## 会期と場所｜2026年11月25日〜2027年3月21日、豊洲
+
+<div class="callout info">
+<p class="head">2026年11月28日の追記：会期が2027年3月21日（日）まで延びた</p>
+<p style="margin:0">広報事務局が2026年11月27日に、会期を<strong>2027年3月21日（日）まで延長</strong>すると発表した（もとは2027年2月21日（日）まで）。延長した分のチケットは公式サイトで売り出している。出典：<a href="https://prtimes.jp/main/html/rd/p/000000004.000187828.html" target="_blank" rel="noopener">「ティム・バートンのラビリンス」広報事務局のプレスリリース</a>・<a href="https://www.tokyo.timburtonexhibition.com/" target="_blank" rel="noopener">公式サイト</a></p>
+</div>
 
 <div class="cmp-table-wrap">
   <table class="cmp-table spec-table">
     <tbody>
-      <tr><th>会期</th><td><strong>2026年11月25日（水）〜2027年2月21日（日）</strong></td></tr>
+      <tr><th>会期</th><td><strong>2026年11月25日（水）〜2027年3月21日（日）</strong></td></tr>
       <tr><th>開館時間</th><td>月・水・木 10:00〜19:30／金・土 10:00〜22:00／日 10:00〜20:00（変わることがある）</td></tr>
       <tr><th>休館日</th><td><strong>毎週火曜</strong>、2027年1月1日（金）・2日（土）</td></tr>
       <tr><th>会場</th><td><a href="https://tokyo.timburtonexhibition.com/" target="_blank" rel="noopener">CREVIA BASE Tokyo</a>（江東区豊洲6-4-25・屋内）</td></tr>
@@ -181,7 +187,7 @@ references: ["https://prtimes.jp/main/html/rd/p/000000003.000187828.html", "http
 <div class="cmp-table-wrap">
   <table class="cmp-table spec-table faq-table">
     <tbody>
-      <tr><th>ティム・バートンのラビリンス東京はいつ？</th><td><strong>2026年11月25日（水）〜2027年2月21日（日）</strong>。毎週火曜と2027年1月1日・2日は休み。</td></tr>
+      <tr><th>ティム・バートンのラビリンス東京はいつ？</th><td><strong>2026年11月25日（水）〜2027年3月21日（日）</strong>。毎週火曜と2027年1月1日・2日は休み。</td></tr>
       <tr><th>チケットはいくら？</th><td>一般は<strong>月〜木4,400円</strong>・金4,700円・土日祝5,000円。学生は3,500〜4,000円、こども（4〜12歳）は2,200〜2,500円、3歳以下は無料（チケットは必要）。</td></tr>
       <tr><th>会場と行き方は？</th><td>豊洲の<strong>CREVIA BASE Tokyo</strong>（江東区豊洲6-4-25）。ゆりかもめ「市場前」駅から徒歩3分。駐車場は無い。</td></tr>
       <tr><th>何時まで開いている？</th><td>月・水・木は19:30、<strong>金・土は22:00</strong>、日は20:00まで（いずれも10:00から）。</td></tr>
