@@ -163,7 +163,15 @@ event:
 
 - <strong>公式の発表</strong>：株式会社SMALL WORLDSが2026年11月27日にプレスリリースで告知した
 - <strong>これまでのコラボ</strong>：スモールワールズTOKYOは館内のミニチュアにキャラクターを隠して探す企画を続けていて、2026年10月にはギャバン・インフィニティを探す企画を発表していた
-- X と YouTube の投稿は、確かめられたものを追って足すわ
+- <strong>公式X</strong>：スモールワールズTOKYOの公式Xが2026年11月20日に開催を告知した投稿は、いいねが4,500を超えている
+- <strong>ファンの迷い</strong>：「特典の並び的には後半必須だけど、前半に行って先にグッズを買うのもあり」と、前半と後半のどちらに行くかで迷う声
+- <strong>行きたい人</strong>：「スモールワールズ行ったことないけど、まどマギのは行きたい」という投稿もある
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">『劇場版魔法少女まどか☆マギカ 〈ワルプルギスの廻天〉』 in SMALL WORLDS TOKYO 12月3日より開催決定！🎉 魔法少女達とスモールワールズで 楽しもう〜！ 前半📆 2026年12月3日(木)～2027年1月2日(土) 後半📆</p>&mdash; スモールワールズTOKYO / SMALL WORLDS TOKYO【公式】 (@smallworlds2020) <a href="https://twitter.com/smallworlds2020/status/2123687792454607219">2026年11月20日</a></blockquote>
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/msZEExDkiOQ" title="【スモールワールズ東京】雨の日のお出かけ 東京観光 総面積7,000㎡アジア最大級のミニチュアミュージアム" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
 
 <aside class="related-block">
   <div class="related-block-head">

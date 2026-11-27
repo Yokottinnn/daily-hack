@@ -137,8 +137,13 @@ event:
 
 ## SNS ではこう言われている
 
-- <strong>公式のアカウント</strong>：フォーラムはXとInstagram（どちらも @tips2026_tokyo）で告知している
-- X と YouTube の投稿は、確かめられたものを追って足すわ
+- <strong>公式X</strong>：「高校生の先輩に直接聞ける」「中学生も保護者も、親子で高校選びのヒントを」と呼びかけ、<strong>参加無料・全員事前登録制</strong>と書いている
+- <strong>出る学校</strong>：都立農産高校は「本校代表生徒たちもポスター発表をします」と告知している。気になる学校の公式アカウントも見ておくといいわ
+- YouTube には、このフォーラムを扱った動画はまだ見当たらない（2026年11月28日の朝の時点）
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">高校で、どんな学びができる？ 300枚以上の「好き」が集まる探究の博覧会へ！ 高校生の先輩に直接聞ける✨ 中学生も保護者も、親子で高校選びのヒントを探そう。 📅12/19（土）10〜16時 📍有明GYM-EX 参加無料・全員事前登録制 #TIPSフォーラム2026 #都立高校</p>&mdash; TIPSフォーラム【公式】 (@tips2026_tokyo) <a href="https://twitter.com/tips2026_tokyo/status/2125876859883889033">2026年11月26日</a></blockquote>
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">【お知らせ】都立高校TIPSフォーラム2026。「みんなの好きが、未来をつくる。」本校代表生徒たちもポスター発表をします！🐢 #葛飾 #亀有 #農産高校 12/19（土）有明GYM-EXにて開催。高校選びのヒントを見つけに、ぜひお越しください！</p>&mdash; 東京都立農産高等学校　全日制 (@NousanHs_E) <a href="https://twitter.com/NousanHs_E/status/2126053522647187633">2026年11月26日</a></blockquote>
 
 <aside class="related-block">
   <div class="related-block-head">

@@ -172,9 +172,24 @@ event:
 
 ## SNS ではこう言われている
 
-- <strong>テレビ</strong>：公式サイトによると、テレビ朝日「じゅん散歩」（2026年10月）と「阿川佐和子の日曜マイチョイス」（2026年11月）でNihonbashi e-LINERが紹介された
-- <strong>船の中</strong>：公式サイトは、電気で走るので音と揺れが少ない、無料Wi-Fiと充電用のコンセントがある、と書いている
-- X と YouTube の投稿は、確かめられたものを追って足すわ
+- <strong>乗った人</strong>：「静かで揺れも少なく、25分の優雅な船旅」という声。デッキに出られる時間が「予想以上にすごく気持ちよかった」という投稿もある
+- <strong>気になる点</strong>：「隅田川がもう少し綺麗ならなぁ」という感想も出ている
+- <strong>豊洲の地元メディア</strong>：とよすとは2026年4月の運航開始のときに「豊洲から日本橋まで8時台〜21時前まで毎日運航」と速報していた
+- <strong>テレビ</strong>：公式サイトによると、テレビ朝日「じゅん散歩」（2026年10月）と「阿川佐和子の日曜マイチョイス」（2026年11月）で紹介された
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">豊洲と日本橋を繋ぐ日本橋イーライナーに初乗船🛥️ 静かで揺れも少なく、25分の優雅な船旅。 海風気持ちいい！ しかし隅田川がもう少し綺麗ならなぁ。。</p>&mdash; わんあん | 湾and岸 (@wan_and_gan) <a href="https://twitter.com/wan_and_gan/status/2080192991512477772">2026年7月23日</a></blockquote>
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">先週、日本橋 e-LINER に豊洲から乗ってみた。日本橋まで25分。うち10分ほどはデッキに出られるのだけど、これが予想以上にすごく気持ちよかった。雨続きのなか、晴れた日だったのもよかった。 時間が合えば日本橋側からも乗ってみたい。</p>&mdash; Hiroko Shimamura／島村浩子 (@rhiroko) <a href="https://twitter.com/rhiroko/status/2104476065259520326">2026年9月28日</a></blockquote>
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">【速報】 豊洲から日本橋まで8時台〜21時前まで毎日運航！しかも、9往復（18便）！ 三井不動産のフル電動旅客船「Nihonbashi e-LINER」、4月26日より運航スタートです！！</p>&mdash; とよすと (@toyosu_tokyo) <a href="https://twitter.com/toyosu_tokyo/status/2044254108203511956">2026年4月15日</a></blockquote>
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/NVlcqBGSJ7I" title="日本橋〜豊洲　定期フル電動旅客船（Nihonbashi e-LINER）25分の旅" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+<div class="yt-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/45wcgl2EAC8" title="【日本橋から豊洲へ】フル電動旅客船「イーライナー」に乗ってみた｜千客万来で特大生牡蠣＆無料足湯" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
 
 <aside class="related-block">
   <div class="related-block-head">

@@ -134,7 +134,13 @@ event:
 
 - <strong>謎解きのヒント</strong>：公式X（@Official_VIBY）は2026年11月19日から、日程・時間帯・緯度経度・切符・住所のヒントを順に出していた（プレスリリースに一覧がある）
 - <strong>新曲</strong>：『Rush rush』は2026年11月18日（水）に配信が始まり、同じ日の21:00にミュージックビデオがYouTubeで公開された
-- X の投稿は、確かめられたものを追って足すわ
+- <strong>公式X</strong>：2026年11月27日の告知は「緊急決定」。かくれんぼの受付は<strong>10:30頃から</strong>と書いている
+- <strong>ファン</strong>：前の日から「一緒に探してくれる人」を募る投稿が並んでいる。ひとりで行く人どうしで組む動きが目立つ
+- <strong>メディア</strong>：Kstyleは「ファンと異例の“かくれんぼ”大会」として取り上げた
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">11月28日(土) アーバンドック ららぽーと豊洲にて 参加型イベント『VIBYかくれんぼ』 そして『Rush rush 初披露フリーライブ』が緊急決定！🙈🎤 11:00~：VIBYかくれんぼ ※10:30頃受付開始 15:00~：フリーライブ フリーライブ終了後 特典お見送り会</p>&mdash; VIBY (@Official_VIBY) <a href="https://twitter.com/Official_VIBY/status/2126121545932407285">2026年11月27日</a></blockquote>
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja">VIBY、ファンと異例の“かくれんぼ”大会！？ 公式SNSでの匂わせ投稿も話題に✉ ▼明日（28日）豊洲で開催！</p>&mdash; Kstyle (@Kstyle_news) <a href="https://twitter.com/Kstyle_news/status/2126279165855101160">2026年11月27日</a></blockquote>
 
 <div class="yt-embed">
 <iframe src="https://www.youtube-nocookie.com/embed/N7SM1uggSgk" title="VIBY『Rush rush』MV" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
