@@ -24,7 +24,7 @@
       "label": "ステーション"
     }
   ],
-  "pricesCheckedAt": "2026-11-25T21:42:36.999Z",
+  "pricesCheckedAt": "2026-11-26T21:42:56.292Z",
   "items": [
     {
       "id": "irobot-roomba-mini",
@@ -79,7 +79,7 @@
         "reviewAverage": 4.53,
         "reviewCount": 34,
         "shop": "ケーズデンキ Yahoo!ショップ",
-        "checkedAt": "2026-11-25T21:42:36.999Z"
+        "checkedAt": "2026-11-26T21:42:56.292Z"
       },
       "amazon": {
         "keyword": "ルンバ Mini F155260",
@@ -136,14 +136,14 @@
           "プロ",
           "並行輸入"
         ],
-        "url": "https://store.shopping.yahoo.co.jp/switchbot/w3001000-b.html",
+        "url": "https://store.shopping.yahoo.co.jp/switchbot/w3001000.html",
         "price": 35271,
         "shippingFree": true,
         "point": 0,
-        "reviewAverage": null,
-        "reviewCount": 0,
+        "reviewAverage": 4.67,
+        "reviewCount": 12,
         "shop": "SWITCHBOT公式ショップ",
-        "checkedAt": "2026-11-25T21:42:36.999Z"
+        "checkedAt": "2026-11-26T21:42:56.292Z"
       },
       "amazon": {
         "keyword": "SwitchBot ロボット掃除機 K11+",
@@ -199,13 +199,13 @@
           "並行輸入"
         ],
         "url": "https://store.shopping.yahoo.co.jp/d-rise2/p003000029847.html",
-        "price": 27200,
+        "price": 27000,
         "shippingFree": true,
         "point": 0,
         "reviewAverage": null,
         "reviewCount": 0,
         "shop": "ディーライズ2号",
-        "checkedAt": "2026-11-25T21:42:36.999Z"
+        "checkedAt": "2026-11-26T21:42:56.292Z"
       },
       "amazon": {
         "keyword": "Eufy Robot Vacuum Auto-Empty C10",
@@ -268,7 +268,7 @@
         "reviewAverage": null,
         "reviewCount": 0,
         "shop": "Anker 公式ストア ヤフー店",
-        "checkedAt": "2026-11-25T21:42:36.999Z"
+        "checkedAt": "2026-11-26T21:42:56.292Z"
       },
       "amazon": {
         "keyword": "Eufy Robot Vacuum Omni C28",
@@ -335,7 +335,7 @@
         "reviewAverage": null,
         "reviewCount": 1,
         "shop": "エコバックス公式ストア",
-        "checkedAt": "2026-11-25T21:42:36.999Z"
+        "checkedAt": "2026-11-26T21:42:56.292Z"
       },
       "amazon": {
         "keyword": "エコバックス DEEBOT T90 MAX OMNI",
@@ -398,13 +398,13 @@
           "並行輸入"
         ],
         "url": "https://store.shopping.yahoo.co.jp/roborockjapandirect/6936905906625.html",
-        "price": 179800,
+        "price": 189800,
         "shippingFree": true,
         "point": 0,
-        "reviewAverage": 4.8,
-        "reviewCount": 35,
+        "reviewAverage": 4.82,
+        "reviewCount": 40,
         "shop": "ROBOROCK JAPAN DIRECT",
-        "checkedAt": "2026-11-25T21:42:36.999Z"
+        "checkedAt": "2026-11-26T21:42:56.292Z"
       },
       "amazon": {
         "keyword": "Roborock Saros 20",
@@ -464,7 +464,7 @@
         "reviewAverage": null,
         "reviewCount": 0,
         "shop": "ケーズデンキ Yahoo!ショップ",
-        "checkedAt": "2026-11-25T21:42:36.999Z"
+        "checkedAt": "2026-11-26T21:42:56.292Z"
       },
       "amazon": {
         "keyword": "ルンバ Max 775 Combo X285060",

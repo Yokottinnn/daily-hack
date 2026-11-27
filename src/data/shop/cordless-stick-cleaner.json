@@ -20,7 +20,7 @@
       "label": "ゴミ捨て"
     }
   ],
-  "pricesCheckedAt": "2026-11-25T21:42:36.999Z",
+  "pricesCheckedAt": "2026-11-26T21:42:56.292Z",
   "items": [
     {
       "id": "shark-lc050j",
@@ -72,7 +72,7 @@
         "reviewAverage": null,
         "reviewCount": 0,
         "shop": "SharkNinja公式ヤフーショッピング店",
-        "checkedAt": "2026-11-25T21:42:36.999Z"
+        "checkedAt": "2026-11-26T21:42:56.292Z"
       },
       "amazon": {
         "keyword": "Shark GlideClean LC050J",
@@ -123,13 +123,13 @@
           "中古"
         ],
         "url": "https://store.shopping.yahoo.co.jp/gion/lc900jsl.html",
-        "price": 76430,
+        "price": 76080,
         "shippingFree": true,
         "point": 0,
         "reviewAverage": null,
         "reviewCount": 0,
         "shop": "ぎおん",
-        "checkedAt": "2026-11-25T21:42:36.999Z"
+        "checkedAt": "2026-11-26T21:42:56.292Z"
       },
       "amazon": {
         "keyword": "Shark ActiClean LC900J",
@@ -186,7 +186,7 @@
         "reviewAverage": null,
         "reviewCount": 0,
         "shop": "カデンの救急社",
-        "checkedAt": "2026-11-25T21:42:36.999Z"
+        "checkedAt": "2026-11-26T21:42:56.292Z"
       },
       "amazon": {
         "keyword": "日立 PV-BG1000R",
@@ -245,7 +245,7 @@
         "reviewAverage": null,
         "reviewCount": 0,
         "shop": "プロテクション",
-        "checkedAt": "2026-11-25T21:42:36.999Z"
+        "checkedAt": "2026-11-26T21:42:56.292Z"
       },
       "amazon": {
         "keyword": "パナソニック MC-NX600KM",
@@ -302,9 +302,9 @@
         "shippingFree": true,
         "point": 0,
         "reviewAverage": null,
-        "reviewCount": 0,
+        "reviewCount": 1,
         "shop": "Dyson公式Yahoo!ショッピング店",
-        "checkedAt": "2026-11-25T21:42:36.999Z"
+        "checkedAt": "2026-11-26T21:42:56.292Z"
       },
       "amazon": {
         "keyword": "Dyson PencilVac Fluffycones SV50 FC",
@@ -363,7 +363,7 @@
         "reviewAverage": null,
         "reviewCount": 0,
         "shop": "秋葉原　アウトレットプラザ",
-        "checkedAt": "2026-11-25T21:42:36.999Z"
+        "checkedAt": "2026-11-26T21:42:56.292Z"
       },
       "amazon": {
         "keyword": "Dyson V12 Detect Slim Absolute SV46 ABL",
@@ -406,7 +406,9 @@
         ],
         "exclude": [
           "◆",
+          "アッセンブリ",
           "コントローラ",
+          "ノズル",
           "フィルター",
           "中古",
           "互換",
@@ -473,7 +475,7 @@
         "reviewAverage": 4.22,
         "reviewCount": 3285,
         "shop": "メガストア Yahoo!店",
-        "checkedAt": "2026-11-25T21:42:36.999Z"
+        "checkedAt": "2026-11-26T21:42:56.292Z"
       },
       "amazon": {
         "keyword": "アイリスオーヤマ SCD-186P",
