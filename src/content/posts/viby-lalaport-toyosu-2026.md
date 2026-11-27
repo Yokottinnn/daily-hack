@@ -47,7 +47,7 @@ event:
     <p>トレカは<strong>ランダム5種</strong>。</p>
     <span class="pick-go">詳しく見る →</span>
   </a>
-  <a class="event-pick" href="#当日の時間と場所" style="--pick-img:url('/images/viby-lalaport-toyosu-2026/photos/rush-rush.jpg')">
+  <a class="event-pick" href="#sns-ではこう言われている" style="--pick-img:url('/images/viby-lalaport-toyosu-2026/photos/rush-rush.jpg')">
     <span class="pick-date">15:00から</span>
     <h4>フリーライブ</h4>
     <p>新曲『Rush rush』を<strong>初披露</strong>。</p>
