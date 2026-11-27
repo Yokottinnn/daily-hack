@@ -1,6 +1,6 @@
 # バリューコマース（asp-sync）
 
-生成: **2026-11-26T21:12:06.017Z**
+生成: **2026-11-27T21:12:00.968Z**
 
 - ログイン: **できている**
 - 最終 URL: https://aff.valuecommerce.ne.jp/home
@@ -17,10 +17,10 @@
 | MyLink一括変換 | https://aff.valuecommerce.ne.jp/tools/mylinkEcList |
 | サイト設定 | https://aff.valuecommerce.ne.jp/account/siteManage |
 | 【重要】広告主サイトの稼働状況に関するお知らせ | https://www.valuecommerce.ne.jp/support/maintenance/22906.html |
-| VAIOストア 販売促進プログラム | https://aff.valuecommerce.ne.jp/ad/adDetail/2169074?tag=cm&spot=d |
-| Amazon(アマゾン)アソシエイトプログラム | https://aff.valuecommerce.ne.jp/ad/adDetail/2090096?recommendOid=4933233 |
 | 遊び予約／レジャーチケット購入サイト「アソビュー！」 | https://aff.valuecommerce.ne.jp/ad/adDetail/2130178?tag=cm&spot=d |
-| 電子コミックサイト ブッコミ 月額コース契約プログラム | https://aff.valuecommerce.ne.jp/ad/adDetail/2171815?tag=cm&spot=d |
+| 世界最大級！ツアーアクティビティの検索サイト「Liigo」販促プログラム | https://aff.valuecommerce.ne.jp/ad/adDetail/2161122?tag=cm&spot=d |
+| Amazon(アマゾン)アソシエイトプログラム | https://aff.valuecommerce.ne.jp/ad/adDetail/2090096?recommendOid=4933233 |
+| VAIOストア 販売促進プログラム | https://aff.valuecommerce.ne.jp/ad/adDetail/2169074?tag=cm&spot=d |
 | 【LYPプレミアム（旧Yahoo!プレミアム）】 会員獲得プログラム | https://aff.valuecommerce.ne.jp/ad/adDetail/2082539 |
 | 国内総合プログラム | https://aff.valuecommerce.ne.jp/ad/adDetail/2003520 |
 | Audibleアフィリエイト紹介プログラム | https://aff.valuecommerce.ne.jp/ad/adDetail/2174874 |
@@ -36,9 +36,9 @@
 ```text
 ログアウト
 人気ワード：
-ホットペッパー|
-アルバイトEX|
-海外ツアー
+資生堂|
+進研ゼミ|
+JTBショッピング
 ダッシュボード
 レポート
 詳細検索
@@ -69,7 +69,7 @@ Chrome拡張機能
 自己アフィリエイト
 Daily Hack あんたバカぁ?まだ損してるの? （ID:3776384）
 LinkSwitch提携候補先
-レポート期間： 2026/10/26 ～ 2026/11/26
+レポート期間： 2026/10/27 ～ 2026/11/27
 1 (current)
 広告主名 リンク先URL数 リンク先URL表示回数 広告プログラム
 ふるさと納税「ふるなび」 [提携申請済] 270 81 広告プログラムを見る
