@@ -24,6 +24,9 @@ const OUT = process.argv[2] || path.join(ROOT, ".image-review.built.html");
 
 // 画像を足す・差し替えるときはここと page.html の SETS を**両方** 直す
 const FILES = {
+  // "cruise-port-ranking-2026" は投稿済み（2026-11-25）。2026-11-28 にページの容量（16MB）のため外した。戻すときは page.html の blog-cruise-ranking も戻す
+  // **未投稿**（2026-11-28）。湾岸の週まとめ 第 2 回
+  "x-news-wangan-week-1130": ["1-cover.jpg", "2-kimatta.jpg"],
   // "walk-poikatsu-2026"・"tokyo-discount-supermarket-2026" は投稿済み（2026-09-21）。2026-11-23 にページの容量（16MB）のため外した。戻すときは page.html の walk/super も戻す
   // **1 枚だけ**（2026-09-22 のコメント）。版A（実写あり）が選ばれ、版B は削除した
   "morning-500-2026": ["cover-a.jpg"],
@@ -109,7 +112,6 @@ const FILES = {
   "npb-attendance-ranking-2026": ["1-rank.jpg", "2-league.jpg"],
   "furusato-donation-ranking-2026": ["1-rank.jpg", "2-change.jpg"],
   "electronics-retailer-sales-ranking-2026": ["1-rank.jpg", "2-merge.jpg"],
-  "cruise-port-ranking-2026": ["1-rank.jpg", "2-tokyo.jpg", "3-nagasaki.jpg", "4-kobe.jpg", "5-ishigaki.jpg", "6-sasebo.jpg"],
   "onsen-ranking-2026": ["1-source.jpg", "2-stay.jpg"],
   "jleague-attendance-ranking-2026": ["1-rank.jpg", "2-hiroshima.jpg"],
   "black-friday-2026-matome": ["0-cover.jpg", "1-now.jpg", "2-week.jpg", "3-later.jpg", "4-pay5.jpg"],
